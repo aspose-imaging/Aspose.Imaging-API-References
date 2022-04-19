@@ -27,7 +27,7 @@ jobs:
       with:
         personal_token: ${{ secrets.REPO_TOKEN }}
         src_path: /.
-        dst_path: /content/sites/aspose/Imaging/
+        dst_path: /content/sites/aspose/imaging/
         dst_owner: Containerize-APIReferences
         dst_repo_name: Containerize.API.Main
         dst_branch: main
