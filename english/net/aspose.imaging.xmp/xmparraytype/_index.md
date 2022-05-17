@@ -3,7 +3,7 @@ title: XmpArrayType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11690
+weight: 11730
 url: /net/aspose.imaging.xmp/xmparraytype/
 ---
 ## XmpArrayType enumeration

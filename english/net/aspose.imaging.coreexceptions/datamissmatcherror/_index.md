@@ -3,7 +3,7 @@ title: DataMissmatchError
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 460
+weight: 480
 url: /net/aspose.imaging.coreexceptions/datamissmatcherror/
 ---
 ## DataMissmatchError class

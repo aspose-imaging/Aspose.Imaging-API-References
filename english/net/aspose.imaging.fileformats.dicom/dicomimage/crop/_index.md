@@ -3,7 +3,7 @@ title: Crop
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/crop/
 ---
 ## DicomImage.Crop method (1 of 2)

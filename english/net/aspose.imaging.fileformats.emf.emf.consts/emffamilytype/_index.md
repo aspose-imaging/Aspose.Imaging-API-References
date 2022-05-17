@@ -3,7 +3,7 @@ title: EmfFamilyType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2600
+weight: 2630
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emffamilytype/
 ---
 ## EmfFamilyType enumeration

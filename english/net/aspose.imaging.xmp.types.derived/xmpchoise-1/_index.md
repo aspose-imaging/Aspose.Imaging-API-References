@@ -1,9 +1,9 @@
 ---
-title: XmpChoise<T>
+title: XmpChoiseT
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11610
+weight: 11650
 url: /net/aspose.imaging.xmp.types.derived/xmpchoise-1/
 ---
 ## XmpChoise&lt;T&gt; class
@@ -14,9 +14,9 @@ Represents a value from vocabulary of values.
 public class XmpChoise<T> : XmpTypeBase
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| T |  | The type of elements. |
+| Parameter | Description |
+| --- | --- |
+| T | The type of elements. |
 
 ## Constructors
 

@@ -3,7 +3,7 @@ title: IOrderedShape
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9540
+weight: 9570
 url: /net/aspose.imaging/iorderedshape/
 ---
 ## IOrderedShape interface

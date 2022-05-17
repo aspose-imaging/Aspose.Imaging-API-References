@@ -3,7 +3,7 @@ title: TiffDataType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7810
+weight: 7840
 url: /net/aspose.imaging.fileformats.tiff/tiffdatatype/
 ---
 ## TiffDataType class

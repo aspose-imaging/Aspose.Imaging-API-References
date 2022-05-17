@@ -3,7 +3,7 @@ title: EmfRop4
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4150
+weight: 4180
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfrop4/
 ---
 ## EmfRop4 class

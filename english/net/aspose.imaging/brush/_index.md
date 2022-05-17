@@ -3,7 +3,7 @@ title: Brush
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.imaging/brush/
 ---
 ## Brush class

@@ -3,7 +3,7 @@ title: IObjectWithBounds
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9530
+weight: 9560
 url: /net/aspose.imaging/iobjectwithbounds/
 ---
 ## IObjectWithBounds interface

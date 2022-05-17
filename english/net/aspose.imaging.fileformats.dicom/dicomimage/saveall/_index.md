@@ -3,7 +3,7 @@ title: SaveAll
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 320
+weight: 330
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/saveall/
 ---
 ## DicomImage.SaveAll method

@@ -3,7 +3,7 @@ title: NoiseReductionType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9820
+weight: 9850
 url: /net/aspose.imaging.imageloadoptions/noisereductiontype/
 ---
 ## NoiseReductionType enumeration

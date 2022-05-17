@@ -3,7 +3,7 @@ title: ExifColorSpace
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 840
+weight: 870
 url: /net/aspose.imaging.exif.enums/exifcolorspace/
 ---
 ## ExifColorSpace enumeration

@@ -3,7 +3,7 @@ title: SmallRectangularFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9780
+weight: 9810
 url: /net/aspose.imaging.imagefilters.filteroptions/smallrectangularfilteroptions/
 ---
 ## SmallRectangularFilterOptions class

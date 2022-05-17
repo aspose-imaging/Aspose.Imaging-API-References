@@ -100,6 +100,7 @@ is_root: true
 | [Aspose.Imaging.ShapeSegments](./aspose.imaging.shapesegments) | The namespace contains different shape segments which combine shapes. |
 | [Aspose.Imaging.Sources](./aspose.imaging.sources) | Namespace contains different stream sources which are suitable for input or output data flow. |
 | [Aspose.Imaging.Xmp](./aspose.imaging.xmp) | The namespace contains XMP related helper classes and methods. |
+| [Aspose.Imaging.Xmp.Schemas.Dicom](./aspose.imaging.xmp.schemas.dicom) | The namespace contains Dicom metadata related helper classes, constants and methods. |
 | [Aspose.Imaging.Xmp.Schemas.DublinCore](./aspose.imaging.xmp.schemas.dublincore) | The namespace contains Dublin Core metadata related helper classes, constants and methods. |
 | [Aspose.Imaging.Xmp.Schemas.Pdf](./aspose.imaging.xmp.schemas.pdf) | The namespace contains related helper classes, constants and methods used with Adobe PDF documents. |
 | [Aspose.Imaging.Xmp.Schemas.Photoshop](./aspose.imaging.xmp.schemas.photoshop) | The namespace contains related helper classes, constants and methods used by Adobe Photoshop. |

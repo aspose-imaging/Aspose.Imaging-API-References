@@ -3,7 +3,7 @@ title: BitmapCoreHeader
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1300
+weight: 1330
 url: /net/aspose.imaging.fileformats.bmp/bitmapcoreheader/
 ---
 ## BitmapCoreHeader class

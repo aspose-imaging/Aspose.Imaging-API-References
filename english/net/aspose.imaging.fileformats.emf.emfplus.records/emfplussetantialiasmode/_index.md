@@ -3,7 +3,7 @@ title: EmfPlusSetAntiAliasMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6240
+weight: 6270
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetantialiasmode/
 ---
 ## EmfPlusSetAntiAliasMode class

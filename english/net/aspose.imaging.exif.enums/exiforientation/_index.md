@@ -3,7 +3,7 @@ title: ExifOrientation
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 950
+weight: 980
 url: /net/aspose.imaging.exif.enums/exiforientation/
 ---
 ## ExifOrientation enumeration

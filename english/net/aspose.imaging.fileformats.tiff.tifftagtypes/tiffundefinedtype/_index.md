@@ -3,7 +3,7 @@ title: TiffUndefinedType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8000
+weight: 8030
 url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffundefinedtype/
 ---
 ## TiffUndefinedType class

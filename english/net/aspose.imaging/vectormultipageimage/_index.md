@@ -3,7 +3,7 @@ title: VectorMultipageImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11180
+weight: 11210
 url: /net/aspose.imaging/vectormultipageimage/
 ---
 ## VectorMultipageImage class
@@ -31,6 +31,7 @@ public abstract class VectorMultipageImage : VectorImage, IMultipageImage
 | Name | Description |
 | --- | --- |
 | override [CacheData](cachedata)() | Caches the data and ensures no additional data loading will be performed from the underlying [`DataStreamContainer`](../datastreamsupporter/datastreamcontainer). |
+| override [GetEmbeddedImages](getembeddedimages)() | Gets the embedded images. |
 | override [Resize](resize)(int, int, ImageResizeSettings) | Resizes the image. |
 | override [Resize](resize)(int, int, ResizeType) | Resizes the image. |
 | override [RotateFlip](rotateflip)(RotateFlipType) | Rotates, flips, or rotates and flips the image. |

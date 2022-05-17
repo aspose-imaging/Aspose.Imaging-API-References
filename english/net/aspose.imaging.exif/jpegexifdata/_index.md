@@ -3,7 +3,7 @@ title: JpegExifData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1050
+weight: 1080
 url: /net/aspose.imaging.exif/jpegexifdata/
 ---
 ## JpegExifData class

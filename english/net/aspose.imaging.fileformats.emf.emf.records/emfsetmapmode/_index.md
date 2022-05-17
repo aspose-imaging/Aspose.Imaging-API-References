@@ -3,7 +3,7 @@ title: EmfSetMapMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4360
+weight: 4390
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetmapmode/
 ---
 ## EmfSetMapMode class

@@ -3,7 +3,7 @@ title: TiffSByteType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7950
+weight: 7980
 url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffsbytetype/
 ---
 ## TiffSByteType class

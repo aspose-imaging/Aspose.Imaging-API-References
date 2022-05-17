@@ -3,7 +3,7 @@ title: ResizeProportional
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/resizeproportional/
 ---
 ## DicomImage.ResizeProportional method

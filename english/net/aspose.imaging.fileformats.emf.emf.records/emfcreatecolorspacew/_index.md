@@ -3,7 +3,7 @@ title: EmfCreateColorSpaceW
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3440
+weight: 3470
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/
 ---
 ## EmfCreateColorSpaceW class

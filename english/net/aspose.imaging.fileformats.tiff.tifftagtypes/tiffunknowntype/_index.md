@@ -3,7 +3,7 @@ title: TiffUnknownType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8010
+weight: 8040
 url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/
 ---
 ## TiffUnknownType class

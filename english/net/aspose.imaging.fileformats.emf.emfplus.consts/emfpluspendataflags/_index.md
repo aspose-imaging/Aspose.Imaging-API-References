@@ -3,7 +3,7 @@ title: EmfPlusPenDataFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4960
+weight: 4990
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspendataflags/
 ---
 ## EmfPlusPenDataFlags enumeration

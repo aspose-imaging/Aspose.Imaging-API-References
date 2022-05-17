@@ -3,7 +3,7 @@ title: DisposalMethod
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6630
+weight: 6660
 url: /net/aspose.imaging.fileformats.gif/disposalmethod/
 ---
 ## DisposalMethod enumeration

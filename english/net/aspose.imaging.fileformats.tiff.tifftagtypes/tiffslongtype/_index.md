@@ -3,7 +3,7 @@ title: TiffSLongType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7960
+weight: 7990
 url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffslongtype/
 ---
 ## TiffSLongType class

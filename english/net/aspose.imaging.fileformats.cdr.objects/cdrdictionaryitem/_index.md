@@ -3,7 +3,7 @@ title: CdrDictionaryItem
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1480
+weight: 1510
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrdictionaryitem/
 ---
 ## CdrDictionaryItem class

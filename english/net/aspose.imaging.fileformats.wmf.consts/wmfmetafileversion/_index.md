@@ -3,7 +3,7 @@ title: WmfMetafileVersion
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8200
+weight: 8230
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfmetafileversion/
 ---
 ## WmfMetafileVersion enumeration

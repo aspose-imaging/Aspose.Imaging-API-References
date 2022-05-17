@@ -3,7 +3,7 @@ title: WmfFloodFill
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8650
+weight: 8680
 url: /net/aspose.imaging.fileformats.wmf.objects/wmffloodfill/
 ---
 ## WmfFloodFill class

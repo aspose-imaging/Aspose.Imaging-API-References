@@ -3,7 +3,7 @@ title: RleCompressorException
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 450
+weight: 470
 url: /net/aspose.imaging.coreexceptions.compressors/rlecompressorexception/
 ---
 ## RleCompressorException class

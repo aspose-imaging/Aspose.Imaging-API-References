@@ -3,7 +3,7 @@ title: EmfPlusDashedLineData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5380
+weight: 5410
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusdashedlinedata/
 ---
 ## EmfPlusDashedLineData class

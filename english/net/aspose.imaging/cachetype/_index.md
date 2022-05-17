@@ -3,7 +3,7 @@ title: CacheType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 260
 url: /net/aspose.imaging/cachetype/
 ---
 ## CacheType enumeration

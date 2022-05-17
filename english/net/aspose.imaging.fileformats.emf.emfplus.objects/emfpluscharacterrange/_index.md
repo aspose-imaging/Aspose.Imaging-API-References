@@ -3,7 +3,7 @@ title: EmfPlusCharacterRange
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5240
+weight: 5270
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscharacterrange/
 ---
 ## EmfPlusCharacterRange class

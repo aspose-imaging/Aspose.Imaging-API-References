@@ -3,7 +3,7 @@ title: EmfScaleViewportExtex
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4180
+weight: 4210
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfscaleviewportextex/
 ---
 ## EmfScaleViewportExtex class

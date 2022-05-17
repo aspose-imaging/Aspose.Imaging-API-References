@@ -3,7 +3,7 @@ title: EmfPlgBlt
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3910
+weight: 3940
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfplgblt/
 ---
 ## EmfPlgBlt class

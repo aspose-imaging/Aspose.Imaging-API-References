@@ -3,7 +3,7 @@ title: XmpException
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 710
+weight: 730
 url: /net/aspose.imaging.coreexceptions/xmpexception/
 ---
 ## XmpException class

@@ -3,7 +3,7 @@ title: BinarizeFixed
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/binarizefixed/
 ---
 ## DicomImage.BinarizeFixed method

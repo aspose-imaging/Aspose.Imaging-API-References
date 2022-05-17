@@ -3,7 +3,7 @@ title: EmfCommentWindowsMetaFile
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3400
+weight: 3430
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcommentwindowsmetafile/
 ---
 ## EmfCommentWindowsMetaFile class

@@ -3,7 +3,7 @@ title: LinqWrapperException
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 670
+weight: 690
 url: /net/aspose.imaging.coreexceptions/linqwrapperexception/
 ---
 ## LinqWrapperException class

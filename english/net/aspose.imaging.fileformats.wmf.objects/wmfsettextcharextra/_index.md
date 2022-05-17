@@ -3,7 +3,7 @@ title: WmfSetTextCharExtra
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9130
+weight: 9160
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsettextcharextra/
 ---
 ## WmfSetTextCharExtra class

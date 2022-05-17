@@ -3,7 +3,7 @@ title: EmfModifyWorldTransform
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3800
+weight: 3830
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfmodifyworldtransform/
 ---
 ## EmfModifyWorldTransform class

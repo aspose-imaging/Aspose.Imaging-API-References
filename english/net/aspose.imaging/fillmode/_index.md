@@ -3,7 +3,7 @@ title: FillMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9270
+weight: 9300
 url: /net/aspose.imaging/fillmode/
 ---
 ## FillMode enumeration

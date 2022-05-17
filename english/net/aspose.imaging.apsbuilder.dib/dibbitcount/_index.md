@@ -3,7 +3,7 @@ title: DibBitCount
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.imaging.apsbuilder.dib/dibbitcount/
 ---
 ## DibBitCount enumeration

@@ -3,7 +3,7 @@ title: EmfCommentMultiFormats
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3360
+weight: 3390
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcommentmultiformats/
 ---
 ## EmfCommentMultiFormats class

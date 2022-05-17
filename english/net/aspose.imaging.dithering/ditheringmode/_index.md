@@ -3,7 +3,7 @@ title: DitheringMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 800
+weight: 820
 url: /net/aspose.imaging.dithering/ditheringmode/
 ---
 ## DitheringMode class

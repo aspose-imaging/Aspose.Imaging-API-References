@@ -3,7 +3,7 @@ title: EmfRasterizationOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9930
+weight: 9960
 url: /net/aspose.imaging.imageoptions/emfrasterizationoptions/
 ---
 ## EmfRasterizationOptions class

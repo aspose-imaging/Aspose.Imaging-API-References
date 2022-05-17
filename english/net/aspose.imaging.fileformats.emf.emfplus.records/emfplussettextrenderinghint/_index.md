@@ -3,7 +3,7 @@ title: EmfPlusSetTextRenderingHint
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6350
+weight: 6380
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettextrenderinghint/
 ---
 ## EmfPlusSetTextRenderingHint class

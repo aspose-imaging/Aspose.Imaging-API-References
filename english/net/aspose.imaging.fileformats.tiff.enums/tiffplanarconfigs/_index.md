@@ -3,7 +3,7 @@ title: TiffPlanarConfigs
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7660
+weight: 7690
 url: /net/aspose.imaging.fileformats.tiff.enums/tiffplanarconfigs/
 ---
 ## TiffPlanarConfigs enumeration

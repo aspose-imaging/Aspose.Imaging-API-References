@@ -3,7 +3,7 @@ title: DicomImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2370
+weight: 2400
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/
 ---
 ## DicomImage class
@@ -35,6 +35,7 @@ public sealed class DicomImage : RasterCachedMultipageImage, IMultipageImageExt
 | override [PageCount](pagecount) { get; } | Gets the page count. |
 | override [PageExportingAction](pageexportingaction) { get; set; } | Gets or sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved. |
 | override [Pages](pages) { get; } | Gets the pages. |
+| override [XmpData](xmpdata) { get; set; } | Gets or sets the Xmp data. |
 
 ## Methods
 

@@ -3,7 +3,7 @@ title: JfifDensityUnits
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6700
+weight: 6730
 url: /net/aspose.imaging.fileformats.jpeg/jfifdensityunits/
 ---
 ## JfifDensityUnits enumeration

@@ -3,7 +3,7 @@ title: EmfGlsRecord
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3710
+weight: 3740
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfglsrecord/
 ---
 ## EmfGlsRecord class

@@ -3,7 +3,7 @@ title: ExifFileSource
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 890
+weight: 920
 url: /net/aspose.imaging.exif.enums/exiffilesource/
 ---
 ## ExifFileSource enumeration

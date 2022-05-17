@@ -3,7 +3,7 @@ title: EmfCommentEndGroup
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3350
+weight: 3380
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcommentendgroup/
 ---
 ## EmfCommentEndGroup class

@@ -3,7 +3,7 @@ title: EmfPlusImageEffectsObjectType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5480
+weight: 5510
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageeffectsobjecttype/
 ---
 ## EmfPlusImageEffectsObjectType class

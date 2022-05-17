@@ -3,7 +3,7 @@ title: EmfLogFont
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2990
+weight: 3020
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emflogfont/
 ---
 ## EmfLogFont class

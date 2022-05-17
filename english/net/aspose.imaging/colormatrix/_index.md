@@ -3,7 +3,7 @@ title: ColorMatrix
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 350
+weight: 360
 url: /net/aspose.imaging/colormatrix/
 ---
 ## ColorMatrix class

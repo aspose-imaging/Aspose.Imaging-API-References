@@ -3,7 +3,7 @@ title: Dither
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/dither/
 ---
 ## DicomImage.Dither method

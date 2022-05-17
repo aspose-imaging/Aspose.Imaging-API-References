@@ -3,7 +3,7 @@ title: EmfPlusPropertyRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6150
+weight: 6180
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfpluspropertyrecordtype/
 ---
 ## EmfPlusPropertyRecordType class

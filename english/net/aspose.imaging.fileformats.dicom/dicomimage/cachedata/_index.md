@@ -3,7 +3,7 @@ title: CacheData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/cachedata/
 ---
 ## DicomImage.CacheData method

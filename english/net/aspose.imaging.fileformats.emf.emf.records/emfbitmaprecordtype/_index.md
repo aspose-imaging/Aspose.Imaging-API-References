@@ -3,7 +3,7 @@ title: EmfBitmapRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3220
+weight: 3250
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfbitmaprecordtype/
 ---
 ## EmfBitmapRecordType class

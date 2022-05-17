@@ -3,7 +3,7 @@ title: ColorResolution
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.imaging.imageoptions/gifoptions/colorresolution/
 ---
 ## GifOptions.ColorResolution property

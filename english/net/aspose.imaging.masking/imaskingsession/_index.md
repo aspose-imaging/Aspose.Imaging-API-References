@@ -3,7 +3,7 @@ title: IMaskingSession
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10380
+weight: 10410
 url: /net/aspose.imaging.masking/imaskingsession/
 ---
 ## IMaskingSession interface

@@ -3,7 +3,7 @@ title: EmfPlusLinearGradientBrushOptionalData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5530
+weight: 5560
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushoptionaldata/
 ---
 ## EmfPlusLinearGradientBrushOptionalData class

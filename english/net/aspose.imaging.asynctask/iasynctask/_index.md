@@ -3,7 +3,7 @@ title: IAsyncTask
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.imaging.asynctask/iasynctask/
 ---
 ## IAsyncTask interface

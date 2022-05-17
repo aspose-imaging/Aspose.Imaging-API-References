@@ -3,7 +3,7 @@ title: EmfPlusFillClosedCurve
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6020
+weight: 6050
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve/
 ---
 ## EmfPlusFillClosedCurve class

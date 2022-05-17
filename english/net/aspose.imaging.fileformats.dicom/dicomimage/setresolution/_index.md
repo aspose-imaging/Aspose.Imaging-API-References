@@ -3,7 +3,7 @@ title: SetResolution
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 330
+weight: 340
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/setresolution/
 ---
 ## DicomImage.SetResolution method

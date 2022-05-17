@@ -3,7 +3,7 @@ title: EmfPlusColorMatrixEffect
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5280
+weight: 5310
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolormatrixeffect/
 ---
 ## EmfPlusColorMatrixEffect class

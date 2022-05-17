@@ -3,7 +3,7 @@ title: SvgLoadOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9830
+weight: 9860
 url: /net/aspose.imaging.imageloadoptions/svgloadoptions/
 ---
 ## SvgLoadOptions class

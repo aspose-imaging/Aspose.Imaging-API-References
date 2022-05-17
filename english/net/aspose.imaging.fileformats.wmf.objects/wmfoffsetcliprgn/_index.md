@@ -3,7 +3,7 @@ title: WmfOffsetClipRgn
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8750
+weight: 8780
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfoffsetcliprgn/
 ---
 ## WmfOffsetClipRgn class

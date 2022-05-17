@@ -3,7 +3,7 @@ title: EmfPlusDrawClosedCurve
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5880
+weight: 5910
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawclosedcurve/
 ---
 ## EmfPlusDrawClosedCurve class

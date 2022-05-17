@@ -3,7 +3,7 @@ title: TiffExpectedFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7600
+weight: 7630
 url: /net/aspose.imaging.fileformats.tiff.enums/tiffexpectedformat/
 ---
 ## TiffExpectedFormat enumeration

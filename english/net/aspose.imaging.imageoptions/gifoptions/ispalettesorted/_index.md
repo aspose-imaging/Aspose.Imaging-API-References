@@ -3,7 +3,7 @@ title: IsPaletteSorted
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 90
 url: /net/aspose.imaging.imageoptions/gifoptions/ispalettesorted/
 ---
 ## GifOptions.IsPaletteSorted property

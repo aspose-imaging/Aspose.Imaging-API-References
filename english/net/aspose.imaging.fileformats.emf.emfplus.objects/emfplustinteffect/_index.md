@@ -3,7 +3,7 @@ title: EmfPlusTintEffect
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5790
+weight: 5820
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplustinteffect/
 ---
 ## EmfPlusTintEffect class

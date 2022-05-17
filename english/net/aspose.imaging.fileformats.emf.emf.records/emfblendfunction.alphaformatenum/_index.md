@@ -3,7 +3,7 @@ title: EmfBlendFunction.AlphaFormatEnum
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3240
+weight: 3270
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfblendfunction.alphaformatenum/
 ---
 ## EmfBlendFunction.AlphaFormatEnum enumeration

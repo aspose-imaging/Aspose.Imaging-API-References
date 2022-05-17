@@ -3,7 +3,7 @@ title: Image
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9620
+weight: 9650
 url: /net/aspose.imaging/image/
 ---
 ## Image class

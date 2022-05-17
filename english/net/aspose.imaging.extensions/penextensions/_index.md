@@ -3,7 +3,7 @@ title: PenExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1190
+weight: 1220
 url: /net/aspose.imaging.extensions/penextensions/
 ---
 ## PenExtensions class

@@ -3,7 +3,7 @@ title: EmfPixelFormatDescriptor
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3080
+weight: 3110
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/
 ---
 ## EmfPixelFormatDescriptor class

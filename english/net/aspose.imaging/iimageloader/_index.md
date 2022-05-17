@@ -3,7 +3,7 @@ title: IImageLoader
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9470
+weight: 9500
 url: /net/aspose.imaging/iimageloader/
 ---
 ## IImageLoader interface

@@ -3,7 +3,7 @@ title: EmfPlusResetWorldTransform
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6180
+weight: 6210
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusresetworldtransform/
 ---
 ## EmfPlusResetWorldTransform class

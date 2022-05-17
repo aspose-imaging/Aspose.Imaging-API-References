@@ -3,7 +3,7 @@ title: EmfPlusCustomLineCapOptionalData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5360
+weight: 5390
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapoptionaldata/
 ---
 ## EmfPlusCustomLineCapOptionalData class

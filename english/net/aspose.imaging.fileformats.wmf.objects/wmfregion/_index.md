@@ -3,7 +3,7 @@ title: WmfRegion
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8890
+weight: 8920
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfregion/
 ---
 ## WmfRegion class

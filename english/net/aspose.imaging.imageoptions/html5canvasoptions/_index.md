@@ -3,7 +3,7 @@ title: Html5CanvasOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9970
+weight: 10000
 url: /net/aspose.imaging.imageoptions/html5canvasoptions/
 ---
 ## Html5CanvasOptions class

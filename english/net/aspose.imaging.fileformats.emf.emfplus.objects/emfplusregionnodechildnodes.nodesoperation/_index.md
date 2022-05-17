@@ -3,7 +3,7 @@ title: EmfPlusRegionNodeChildNodes.NodesOperation
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5700
+weight: 5730
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes.nodesoperation/
 ---
 ## EmfPlusRegionNodeChildNodes.NodesOperation enumeration

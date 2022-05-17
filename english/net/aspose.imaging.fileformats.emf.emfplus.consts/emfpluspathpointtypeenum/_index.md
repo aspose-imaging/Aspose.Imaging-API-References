@@ -3,7 +3,7 @@ title: EmfPlusPathPointTypeEnum
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4930
+weight: 4960
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspathpointtypeenum/
 ---
 ## EmfPlusPathPointTypeEnum enumeration

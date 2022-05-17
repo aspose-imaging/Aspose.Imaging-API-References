@@ -3,7 +3,7 @@ title: JoinTypes
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2010
+weight: 2040
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.enums/jointypes/
 ---
 ## JoinTypes enumeration

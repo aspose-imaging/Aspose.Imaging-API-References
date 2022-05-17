@@ -3,7 +3,7 @@ title: TiffPredictor
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7670
+weight: 7700
 url: /net/aspose.imaging.fileformats.tiff.enums/tiffpredictor/
 ---
 ## TiffPredictor enumeration

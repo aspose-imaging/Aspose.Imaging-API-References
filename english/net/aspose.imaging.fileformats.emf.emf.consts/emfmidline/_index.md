@@ -3,7 +3,7 @@ title: EmfMidLine
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2720
+weight: 2750
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfmidline/
 ---
 ## EmfMidLine enumeration

@@ -3,7 +3,7 @@ title: TiffShortType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7990
+weight: 8020
 url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffshorttype/
 ---
 ## TiffShortType class

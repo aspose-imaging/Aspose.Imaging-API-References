@@ -3,7 +3,7 @@ title: DngImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2480
+weight: 2510
 url: /net/aspose.imaging.fileformats.dng/dngimage/
 ---
 ## DngImage class

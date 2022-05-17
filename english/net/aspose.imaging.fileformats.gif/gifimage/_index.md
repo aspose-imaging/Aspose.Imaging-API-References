@@ -3,7 +3,7 @@ title: GifImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6660
+weight: 6690
 url: /net/aspose.imaging.fileformats.gif/gifimage/
 ---
 ## GifImage class
@@ -70,6 +70,7 @@ public sealed class GifImage : RasterCachedMultipageImage, IMultipageImageExt
 | [RemoveBlock](removeblock)(IGifBlock) | Removes the GIF block. |
 | override [Resize](resize)(int, int, ImageResizeSettings) | Resizes the image. |
 | override [Resize](resize)(int, int, ResizeType) | Resizes the image. |
+| [ResizeFullFrame](resizefullframe)(int, int, ResizeType) | Resizes the image using full frames for each GIF page. Required to avoid possible artifacts appearance. |
 | [ResizeProportional](resizeproportional)(int, int, ResizeType) | Performs proportional resize on the image. The proportional resize will resize each frame according to the ratio of *newWidth*/width and *newHeight*/height. |
 | override [Rotate](rotate)(float, bool, Color) | !:RasterCahcedMultipageImage.Rotate image around the center. |
 | override [RotateFlip](rotateflip)(RotateFlipType) | Rotates, flips, or rotates and flips the Active frame only. |

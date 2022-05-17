@@ -3,7 +3,7 @@ title: EmfSetViewportExtEx
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4480
+weight: 4510
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetviewportextex/
 ---
 ## EmfSetViewportExtEx class

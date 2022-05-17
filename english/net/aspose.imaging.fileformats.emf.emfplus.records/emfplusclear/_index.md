@@ -3,7 +3,7 @@ title: EmfPlusClear
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5820
+weight: 5850
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusclear/
 ---
 ## EmfPlusClear class

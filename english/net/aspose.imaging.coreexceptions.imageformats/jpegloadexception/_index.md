@@ -3,7 +3,7 @@ title: JpegLoadException
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 570
+weight: 590
 url: /net/aspose.imaging.coreexceptions.imageformats/jpegloadexception/
 ---
 ## JpegLoadException class

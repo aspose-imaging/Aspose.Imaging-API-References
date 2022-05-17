@@ -3,7 +3,7 @@ title: EmfColorMatchToTargetW
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3290
+weight: 3320
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/
 ---
 ## EmfColorMatchToTargetW class

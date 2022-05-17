@@ -3,7 +3,7 @@ title: OdMoveTo
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7130
+weight: 7160
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odmoveto/
 ---
 ## OdMoveTo class

@@ -3,7 +3,7 @@ title: WmfBrushStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8070
+weight: 8100
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfbrushstyle/
 ---
 ## WmfBrushStyle enumeration

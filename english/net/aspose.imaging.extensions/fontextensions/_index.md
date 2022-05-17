@@ -3,7 +3,7 @@ title: FontExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1140
+weight: 1170
 url: /net/aspose.imaging.extensions/fontextensions/
 ---
 ## FontExtensions class
@@ -19,7 +19,7 @@ public static class FontExtensions
 | Name | Description |
 | --- | --- |
 | static [ToGdiFont](togdifont)(Font) | Converts the [`Font`](../../aspose.imaging/font) to the Font. |
-| static [ToGdiFont](togdifont)(Font, GraphicsUnit) |  |
+| static [ToGdiFont](togdifont)(Font, GraphicsUnit) | Converts the [`Font`](../../aspose.imaging/font) to the Font. |
 
 ### See Also
 

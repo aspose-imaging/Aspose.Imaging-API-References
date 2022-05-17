@@ -3,7 +3,7 @@ title: WmfCharacterSet
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8080
+weight: 8110
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfcharacterset/
 ---
 ## WmfCharacterSet enumeration

@@ -3,7 +3,7 @@ title: EpsPreviewFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6560
+weight: 6590
 url: /net/aspose.imaging.fileformats.eps/epspreviewformat/
 ---
 ## EpsPreviewFormat enumeration

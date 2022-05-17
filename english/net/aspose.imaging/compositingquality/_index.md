@@ -3,7 +3,7 @@ title: CompositingQuality
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 410
+weight: 430
 url: /net/aspose.imaging/compositingquality/
 ---
 ## CompositingQuality enumeration

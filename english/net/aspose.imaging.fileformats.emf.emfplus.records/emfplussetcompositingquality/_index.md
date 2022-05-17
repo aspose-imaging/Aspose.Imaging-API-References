@@ -3,7 +3,7 @@ title: EmfPlusSetCompositingQuality
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6290
+weight: 6320
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetcompositingquality/
 ---
 ## EmfPlusSetCompositingQuality class

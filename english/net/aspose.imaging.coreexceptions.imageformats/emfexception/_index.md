@@ -3,7 +3,7 @@ title: EmfException
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 530
+weight: 550
 url: /net/aspose.imaging.coreexceptions.imageformats/emfexception/
 ---
 ## EmfException class

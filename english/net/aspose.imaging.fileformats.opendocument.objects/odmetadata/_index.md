@@ -3,7 +3,7 @@ title: OdMetadata
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7290
+weight: 7320
 url: /net/aspose.imaging.fileformats.opendocument.objects/odmetadata/
 ---
 ## OdMetadata class

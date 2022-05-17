@@ -3,7 +3,7 @@ title: EmfPlusRedEyeCorrectionEffect
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5660
+weight: 5690
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusredeyecorrectioneffect/
 ---
 ## EmfPlusRedEyeCorrectionEffect class

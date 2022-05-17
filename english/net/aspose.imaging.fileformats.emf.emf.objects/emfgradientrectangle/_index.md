@@ -3,7 +3,7 @@ title: EmfGradientRectangle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2930
+weight: 2960
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfgradientrectangle/
 ---
 ## EmfGradientRectangle class

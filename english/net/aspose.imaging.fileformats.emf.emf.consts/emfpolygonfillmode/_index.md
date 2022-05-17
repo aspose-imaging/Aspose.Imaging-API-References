@@ -3,7 +3,7 @@ title: EmfPolygonFillMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2760
+weight: 2790
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfpolygonfillmode/
 ---
 ## EmfPolygonFillMode enumeration

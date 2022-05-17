@@ -3,7 +3,7 @@ title: CdrRectangle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1700
+weight: 1730
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrrectangle/
 ---
 ## CdrRectangle class

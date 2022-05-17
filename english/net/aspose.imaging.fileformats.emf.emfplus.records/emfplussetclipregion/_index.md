@@ -3,7 +3,7 @@ title: EmfPlusSetClipRegion
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6270
+weight: 6300
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetclipregion/
 ---
 ## EmfPlusSetClipRegion class

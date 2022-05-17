@@ -3,7 +3,7 @@ title: XmpDm
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.imaging.xmp/namespaces/xmpdm/
 ---
 ## Namespaces.XmpDm field

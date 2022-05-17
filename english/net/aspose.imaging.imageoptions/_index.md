@@ -1,7 +1,7 @@
 ---
 title: Aspose.Imaging.ImageOptions
 second_title: Aspose.Imaging for .NET API Reference
-description: The namespace contains classes suitable for export, save or creation of different file formats.
+description: The namespace contains classes suitable for export save or creation of different file formats.
 type: docs
 weight: 760
 url: /net/aspose.imaging.imageoptions/
@@ -12,51 +12,51 @@ The namespace contains classes suitable for export, save or creation of differen
 
 | Class | Description |
 | --- | --- |
-| class [ApngOptions](./apngoptions) | The animated PNG file format options |
-| class [BmpOptions](./bmpoptions) | The bmp file format creation options. |
-| class [CdrRasterizationOptions](./cdrrasterizationoptions) | The Cdr rasterization options |
-| class [CmxRasterizationOptions](./cmxrasterizationoptions) | the CMX exporter options. |
-| class [DicomOptions](./dicomoptions) | The DICOM file format creation options. |
-| class [DjvuMultiPageOptions](./djvumultipageoptions) | Djvu format page options |
-| class [DxfOptions](./dxfoptions) | The Dxf file format creation options. |
-| class [EmfOptions](./emfoptions) | The Emf options. |
-| class [EmfRasterizationOptions](./emfrasterizationoptions) | The Emf rasterization options. |
-| class [EpsRasterizationOptions](./epsrasterizationoptions) | The Eps rasterization options. |
-| class [GifOptions](./gifoptions) | The gif file format creation options. |
-| class [GraphicsOptions](./graphicsoptions) | Represents graphics options for embedded bitmap. |
-| class [Html5CanvasOptions](./html5canvasoptions) | The Html5 Canvas file format creation options. |
-| class [Jpeg2000Options](./jpeg2000options) | The Jpeg2000 file format options. |
-| class [JpegOptions](./jpegoptions) | The jpeg file format create options. |
-| class [MetafileOptions](./metafileoptions) | The Metafiles base options. |
-| class [MultiPageOptions](./multipageoptions) | Base class for multiple pages supported formats |
-| class [OdgRasterizationOptions](./odgrasterizationoptions) | The Odg rasterization options |
-| class [OdRasterizationOptions](./odrasterizationoptions) | The Od rasterization options |
-| class [OtgRasterizationOptions](./otgrasterizationoptions) | The Otg rasterization options |
-| class [PdfOptions](./pdfoptions) | The PDF options. |
-| class [PngOptions](./pngoptions) | The png file format create options. |
-| class [PsdOptions](./psdoptions) | The psd file format create options. |
-| class [PsdVectorizationOptions](./psdvectorizationoptions) | The vectorized PSD rasterization options. |
-| class [RdOptimizerSettings](./rdoptimizersettings) | RD optimizer settings class |
-| class [RenderResult](./renderresult) | Represents information with results of rendering |
-| class [SvgOptions](./svgoptions) | The SVG file format creation options. |
-| class [SvgRasterizationOptions](./svgrasterizationoptions) | The SVG rasterization options. |
-| class [TgaOptions](./tgaoptions) | The TGA file format create options. |
-| class [TiffOptions](./tiffoptions) | The tiff file format options. Note that width and height tags will get overwritten on image creation by width and height parameters so there is no need to specify them directly. Note that many options return a default value but that does not mean that this option is set explicitly as a tag value. To verify the tag is present use Tags property or the corresponding IsTagPresent method. |
-| class [TiffOptionsUtils](./tiffoptionsutils) | The tiff file format options utility class. |
-| class [TimeInterval](./timeinterval) | Represents the time interval in milliseconds |
-| class [VectorRasterizationOptions](./vectorrasterizationoptions) | The vector rasterization options. |
-| class [WebPOptions](./webpoptions) | Webp image options |
-| class [WmfOptions](./wmfoptions) | The wmf options. |
-| class [WmfRasterizationOptions](./wmfrasterizationoptions) | The Wmf rasterization options. |
+| [ApngOptions](./apngoptions) | The animated PNG file format options |
+| [BmpOptions](./bmpoptions) | The bmp file format creation options. |
+| [CdrRasterizationOptions](./cdrrasterizationoptions) | The Cdr rasterization options |
+| [CmxRasterizationOptions](./cmxrasterizationoptions) | the CMX exporter options. |
+| [DicomOptions](./dicomoptions) | The DICOM file format creation options. |
+| [DjvuMultiPageOptions](./djvumultipageoptions) | Djvu format page options |
+| [DxfOptions](./dxfoptions) | The Dxf file format creation options. |
+| [EmfOptions](./emfoptions) | The Emf options. |
+| [EmfRasterizationOptions](./emfrasterizationoptions) | The Emf rasterization options. |
+| [EpsRasterizationOptions](./epsrasterizationoptions) | The Eps rasterization options. |
+| [GifOptions](./gifoptions) | The gif file format creation options. |
+| [GraphicsOptions](./graphicsoptions) | Represents graphics options for embedded bitmap. |
+| [Html5CanvasOptions](./html5canvasoptions) | The Html5 Canvas file format creation options. |
+| [Jpeg2000Options](./jpeg2000options) | The Jpeg2000 file format options. |
+| [JpegOptions](./jpegoptions) | The jpeg file format create options. |
+| [MetafileOptions](./metafileoptions) | The Metafiles base options. |
+| [MultiPageOptions](./multipageoptions) | Base class for multiple pages supported formats |
+| [OdgRasterizationOptions](./odgrasterizationoptions) | The Odg rasterization options |
+| [OdRasterizationOptions](./odrasterizationoptions) | The Od rasterization options |
+| [OtgRasterizationOptions](./otgrasterizationoptions) | The Otg rasterization options |
+| [PdfOptions](./pdfoptions) | The PDF options. |
+| [PngOptions](./pngoptions) | The png file format create options. |
+| [PsdOptions](./psdoptions) | The psd file format create options. |
+| [PsdVectorizationOptions](./psdvectorizationoptions) | The vectorized PSD rasterization options. |
+| [RdOptimizerSettings](./rdoptimizersettings) | RD optimizer settings class |
+| [RenderResult](./renderresult) | Represents information with results of rendering |
+| [SvgOptions](./svgoptions) | The SVG file format creation options. |
+| [SvgRasterizationOptions](./svgrasterizationoptions) | The SVG rasterization options. |
+| [TgaOptions](./tgaoptions) | The TGA file format create options. |
+| [TiffOptions](./tiffoptions) | The tiff file format options. Note that width and height tags will get overwritten on image creation by width and height parameters so there is no need to specify them directly. Note that many options return a default value but that does not mean that this option is set explicitly as a tag value. To verify the tag is present use Tags property or the corresponding IsTagPresent method. |
+| [TiffOptionsUtils](./tiffoptionsutils) | The tiff file format options utility class. |
+| [TimeInterval](./timeinterval) | Represents the time interval in milliseconds |
+| [VectorRasterizationOptions](./vectorrasterizationoptions) | The vector rasterization options. |
+| [WebPOptions](./webpoptions) | Webp image options |
+| [WmfOptions](./wmfoptions) | The wmf options. |
+| [WmfRasterizationOptions](./wmfrasterizationoptions) | The Wmf rasterization options. |
 ## Enumeration
 
 | Enumeration | Description |
 | --- | --- |
-| enum [MultiPageMode](./multipagemode) | Represents multipage mode |
-| enum [PdfImageCompressionOptions](./pdfimagecompressionoptions) | Pdf image compression options |
-| enum [PositioningTypes](./positioningtypes) | Positioning and size types for graphics scene. |
-| enum [RenderErrorCode](./rendererrorcode) | Represents possible missing sections in CAD file |
-| enum [TiffOptionsError](./tiffoptionserror) | The tiff options error codes. |
-| enum [TypeOfEntities](./typeofentities) | Represents types of entities to render |
+| [MultiPageMode](./multipagemode) | Represents multipage mode |
+| [PdfImageCompressionOptions](./pdfimagecompressionoptions) | Pdf image compression options |
+| [PositioningTypes](./positioningtypes) | Positioning and size types for graphics scene. |
+| [RenderErrorCode](./rendererrorcode) | Represents possible missing sections in CAD file |
+| [TiffOptionsError](./tiffoptionserror) | The tiff options error codes. |
+| [TypeOfEntities](./typeofentities) | Represents types of entities to render |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->

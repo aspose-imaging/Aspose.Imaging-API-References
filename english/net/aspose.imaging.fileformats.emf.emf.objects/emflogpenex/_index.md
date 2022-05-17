@@ -3,7 +3,7 @@ title: EmfLogPenEx
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3050
+weight: 3080
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emflogpenex/
 ---
 ## EmfLogPenEx class

@@ -3,7 +3,7 @@ title: CdrArrow
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1430
+weight: 1460
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrarrow/
 ---
 ## CdrArrow class

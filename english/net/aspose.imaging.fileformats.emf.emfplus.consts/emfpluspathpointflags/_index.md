@@ -3,7 +3,7 @@ title: EmfPlusPathPointFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4920
+weight: 4950
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspathpointflags/
 ---
 ## EmfPlusPathPointFlags enumeration

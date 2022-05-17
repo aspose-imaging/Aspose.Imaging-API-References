@@ -3,7 +3,7 @@ title: EmfLogBrushEx
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2980
+weight: 3010
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/
 ---
 ## EmfLogBrushEx class

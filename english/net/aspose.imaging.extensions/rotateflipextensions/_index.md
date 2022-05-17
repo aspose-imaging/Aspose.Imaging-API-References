@@ -3,7 +3,7 @@ title: RotateFlipExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1230
+weight: 1260
 url: /net/aspose.imaging.extensions/rotateflipextensions/
 ---
 ## RotateFlipExtensions class

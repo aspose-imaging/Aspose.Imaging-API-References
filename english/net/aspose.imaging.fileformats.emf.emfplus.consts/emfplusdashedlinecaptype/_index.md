@@ -3,7 +3,7 @@ title: EmfPlusDashedLineCapType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4740
+weight: 4770
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusdashedlinecaptype/
 ---
 ## EmfPlusDashedLineCapType enumeration

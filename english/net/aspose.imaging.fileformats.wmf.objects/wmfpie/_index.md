@@ -3,7 +3,7 @@ title: WmfPie
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8800
+weight: 8830
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfpie/
 ---
 ## WmfPie class

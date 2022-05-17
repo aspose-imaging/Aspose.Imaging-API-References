@@ -3,7 +3,7 @@ title: CompressorException
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 420
+weight: 440
 url: /net/aspose.imaging.coreexceptions/compressorexception/
 ---
 ## CompressorException class

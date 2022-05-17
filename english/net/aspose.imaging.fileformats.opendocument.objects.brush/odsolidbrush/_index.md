@@ -3,7 +3,7 @@ title: OdSolidBrush
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6900
+weight: 6930
 url: /net/aspose.imaging.fileformats.opendocument.objects.brush/odsolidbrush/
 ---
 ## OdSolidBrush class

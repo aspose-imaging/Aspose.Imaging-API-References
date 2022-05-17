@@ -3,7 +3,7 @@ title: OdgImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7350
+weight: 7380
 url: /net/aspose.imaging.fileformats.opendocument/odgimage/
 ---
 ## OdgImage class

@@ -3,7 +3,7 @@ title: EmfPolyTextOutW
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4030
+weight: 4060
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/
 ---
 ## EmfPolyTextOutW class

@@ -3,7 +3,7 @@ title: EmfBackgroundMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2520
+weight: 2550
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfbackgroundmode/
 ---
 ## EmfBackgroundMode enumeration

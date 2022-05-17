@@ -3,7 +3,7 @@ title: EmfPlusHeader
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6100
+weight: 6130
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/
 ---
 ## EmfPlusHeader class

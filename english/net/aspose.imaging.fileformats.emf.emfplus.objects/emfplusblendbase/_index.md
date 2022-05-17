@@ -3,7 +3,7 @@ title: EmfPlusBlendBase
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5150
+weight: 5180
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendbase/
 ---
 ## EmfPlusBlendBase class

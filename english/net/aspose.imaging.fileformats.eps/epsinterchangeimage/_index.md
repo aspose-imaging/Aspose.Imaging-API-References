@@ -3,7 +3,7 @@ title: EpsInterchangeImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6530
+weight: 6560
 url: /net/aspose.imaging.fileformats.eps/epsinterchangeimage/
 ---
 ## EpsInterchangeImage class

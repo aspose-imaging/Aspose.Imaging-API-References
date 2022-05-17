@@ -3,7 +3,7 @@ title: TiffBigEndianStreamReader
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7720
+weight: 7750
 url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader/
 ---
 ## TiffBigEndianStreamReader class

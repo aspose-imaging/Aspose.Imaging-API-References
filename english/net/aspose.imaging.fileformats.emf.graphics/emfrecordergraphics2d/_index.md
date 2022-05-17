@@ -3,7 +3,7 @@ title: EmfRecorderGraphics2D
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6450
+weight: 6480
 url: /net/aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d/
 ---
 ## EmfRecorderGraphics2D class

@@ -3,7 +3,7 @@ title: EmfPlusMetafile
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5540
+weight: 5570
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusmetafile/
 ---
 ## EmfPlusMetafile class

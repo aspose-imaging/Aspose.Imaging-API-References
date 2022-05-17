@@ -3,7 +3,7 @@ title: IPartialArgb64PixelLoader
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9560
+weight: 9590
 url: /net/aspose.imaging/ipartialargb64pixelloader/
 ---
 ## IPartialArgb64PixelLoader interface

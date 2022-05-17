@@ -3,7 +3,7 @@ title: EmfStretchBlt
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4550
+weight: 4580
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfstretchblt/
 ---
 ## EmfStretchBlt class

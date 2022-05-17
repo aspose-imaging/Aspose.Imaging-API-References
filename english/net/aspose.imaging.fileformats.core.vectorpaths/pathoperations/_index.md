@@ -3,7 +3,7 @@ title: PathOperations
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2300
+weight: 2330
 url: /net/aspose.imaging.fileformats.core.vectorpaths/pathoperations/
 ---
 ## PathOperations enumeration

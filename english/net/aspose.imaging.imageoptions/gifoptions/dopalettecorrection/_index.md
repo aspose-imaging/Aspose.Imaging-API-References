@@ -3,7 +3,7 @@ title: DoPaletteCorrection
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.imaging.imageoptions/gifoptions/dopalettecorrection/
 ---
 ## GifOptions.DoPaletteCorrection property

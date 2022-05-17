@@ -3,7 +3,7 @@ title: EmfPlusTextureBrushData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5770
+weight: 5800
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushdata/
 ---
 ## EmfPlusTextureBrushData class

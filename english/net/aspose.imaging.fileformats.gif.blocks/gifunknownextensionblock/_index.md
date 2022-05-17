@@ -3,7 +3,7 @@ title: GifUnknownExtensionBlock
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6620
+weight: 6650
 url: /net/aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/
 ---
 ## GifUnknownExtensionBlock class

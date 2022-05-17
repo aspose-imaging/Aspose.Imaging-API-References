@@ -3,7 +3,7 @@ title: EmfPlusFillRegion
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6080
+weight: 6110
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillregion/
 ---
 ## EmfPlusFillRegion class

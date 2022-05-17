@@ -3,7 +3,7 @@ title: TransformBrush
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 230
 url: /net/aspose.imaging.brushes/transformbrush/
 ---
 ## TransformBrush class

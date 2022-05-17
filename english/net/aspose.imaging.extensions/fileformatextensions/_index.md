@@ -3,7 +3,7 @@ title: FileFormatExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1130
+weight: 1160
 url: /net/aspose.imaging.extensions/fileformatextensions/
 ---
 ## FileFormatExtensions class

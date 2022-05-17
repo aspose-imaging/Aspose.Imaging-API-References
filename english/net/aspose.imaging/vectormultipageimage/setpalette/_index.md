@@ -3,7 +3,7 @@ title: SetPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.imaging/vectormultipageimage/setpalette/
 ---
 ## VectorMultipageImage.SetPalette method

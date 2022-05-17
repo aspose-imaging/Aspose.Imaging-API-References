@@ -3,7 +3,7 @@ title: EmfPlusDrawBeziers
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5870
+weight: 5900
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawbeziers/
 ---
 ## EmfPlusDrawBeziers class

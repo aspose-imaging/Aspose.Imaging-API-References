@@ -3,7 +3,7 @@ title: WmfResizePalette
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8900
+weight: 8930
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfresizepalette/
 ---
 ## WmfResizePalette class

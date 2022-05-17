@@ -3,7 +3,7 @@ title: WmfPolyFillMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8250
+weight: 8280
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfpolyfillmode/
 ---
 ## WmfPolyFillMode enumeration

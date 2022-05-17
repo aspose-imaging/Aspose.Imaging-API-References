@@ -3,7 +3,7 @@ title: OdContainer
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6970
+weight: 7000
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odcontainer/
 ---
 ## OdContainer class

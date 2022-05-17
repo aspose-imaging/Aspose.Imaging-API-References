@@ -3,7 +3,7 @@ title: EmfSetViewportOrgEx
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4490
+weight: 4520
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetviewportorgex/
 ---
 ## EmfSetViewportOrgEx class

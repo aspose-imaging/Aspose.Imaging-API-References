@@ -3,7 +3,7 @@ title: DataRecoveryMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 770
+weight: 790
 url: /net/aspose.imaging/datarecoverymode/
 ---
 ## DataRecoveryMode enumeration

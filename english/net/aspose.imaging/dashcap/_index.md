@@ -3,7 +3,7 @@ title: DashCap
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 750
+weight: 770
 url: /net/aspose.imaging/dashcap/
 ---
 ## DashCap enumeration

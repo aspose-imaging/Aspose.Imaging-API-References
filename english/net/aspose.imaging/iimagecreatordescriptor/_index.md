@@ -3,7 +3,7 @@ title: IImageCreatorDescriptor
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9430
+weight: 9460
 url: /net/aspose.imaging/iimagecreatordescriptor/
 ---
 ## IImageCreatorDescriptor interface

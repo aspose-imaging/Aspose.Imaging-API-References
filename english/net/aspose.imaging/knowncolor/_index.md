@@ -3,7 +3,7 @@ title: KnownColor
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10320
+weight: 10350
 url: /net/aspose.imaging/knowncolor/
 ---
 ## KnownColor enumeration

@@ -3,7 +3,7 @@ title: AdjustPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10620
+weight: 10650
 url: /net/aspose.imaging.palettehelper/adjustpalette/
 ---
 ## AdjustPalette class

@@ -3,7 +3,7 @@ title: DxfOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9910
+weight: 9940
 url: /net/aspose.imaging.imageoptions/dxfoptions/
 ---
 ## DxfOptions class

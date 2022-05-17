@@ -3,7 +3,7 @@ title: EmfRegionDataHeader
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3110
+weight: 3140
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/
 ---
 ## EmfRegionDataHeader class

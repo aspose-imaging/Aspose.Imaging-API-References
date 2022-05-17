@@ -3,7 +3,7 @@ title: EmfPlusFillPie
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6050
+weight: 6080
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/
 ---
 ## EmfPlusFillPie class

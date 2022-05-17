@@ -3,7 +3,7 @@ title: EmfPlusGraphicsVersion
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5430
+weight: 5460
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion/
 ---
 ## EmfPlusGraphicsVersion class

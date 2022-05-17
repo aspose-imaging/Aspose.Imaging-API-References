@@ -3,7 +3,7 @@ title: TiffImageException
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 620
+weight: 640
 url: /net/aspose.imaging.coreexceptions.imageformats/tiffimageexception/
 ---
 ## TiffImageException class

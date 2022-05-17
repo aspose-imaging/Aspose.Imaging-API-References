@@ -3,7 +3,7 @@ title: TiffNewSubFileTypes
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7630
+weight: 7660
 url: /net/aspose.imaging.fileformats.tiff.enums/tiffnewsubfiletypes/
 ---
 ## TiffNewSubFileTypes enumeration

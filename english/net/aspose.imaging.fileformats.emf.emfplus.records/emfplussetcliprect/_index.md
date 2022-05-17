@@ -3,7 +3,7 @@ title: EmfPlusSetClipRect
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6260
+weight: 6290
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetcliprect/
 ---
 ## EmfPlusSetClipRect class

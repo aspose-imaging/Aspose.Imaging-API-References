@@ -3,7 +3,7 @@ title: EmfPlusImageEffectsIdentifiers
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4820
+weight: 4850
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/
 ---
 ## EmfPlusImageEffectsIdentifiers class
@@ -38,7 +38,7 @@ public static class EmfPlusImageEffectsIdentifiers
 
 ### Remarks
 
-Image effects identifiers and Image Effects Parameter Blocks are specified by [`EmfPlusSerializableObject`](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject) records for !:EmfPlusDrawImagePoints records.
+Image effects identifiers and Image Effects Parameter Blocks are specified by [`EmfPlusSerializableObject`](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject) records for [`EmfPlusDrawImagePoints`](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimagepoints) records.
 
 ### See Also
 

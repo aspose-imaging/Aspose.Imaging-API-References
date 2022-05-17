@@ -33,13 +33,25 @@ The converted Font.
 
 ## FontExtensions.ToGdiFont method (2 of 2)
 
+Converts the [`Font`](../../../aspose.imaging/font) to the Font.
+
 ```csharp
 public static Font ToGdiFont(Font font, GraphicsUnit fontUnit)
 ```
 
+| Parameter | Type | Description |
+| --- | --- | --- |
+| font | Font | The [`Font`](../../../aspose.imaging/font) to convert. |
+| fontUnit | GraphicsUnit | New graphics unit |
+
+## Return Value
+
+The converted Font.
+
 ### See Also
 
 * class [Font](../../../aspose.imaging/font)
+* enum [GraphicsUnit](../../../aspose.imaging/graphicsunit)
 * class [FontExtensions](../../fontextensions)
 * namespace [Aspose.Imaging.Extensions](../../fontextensions)
 * assembly [Aspose.Imaging](../../../)

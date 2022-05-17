@@ -3,7 +3,7 @@ title: ExifSceneCaptureType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 970
+weight: 1000
 url: /net/aspose.imaging.exif.enums/exifscenecapturetype/
 ---
 ## ExifSceneCaptureType enumeration

@@ -3,7 +3,7 @@ title: EmfPlusCompressedImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5300
+weight: 5330
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompressedimage/
 ---
 ## EmfPlusCompressedImage class

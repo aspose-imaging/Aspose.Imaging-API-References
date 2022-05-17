@@ -3,7 +3,7 @@ title: AudioChannelType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11300
+weight: 11340
 url: /net/aspose.imaging.xmp.schemas.xmpdm/audiochanneltype/
 ---
 ## AudioChannelType class

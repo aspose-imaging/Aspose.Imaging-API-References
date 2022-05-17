@@ -3,7 +3,7 @@ title: RasterCachedMultipageImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10760
+weight: 10790
 url: /net/aspose.imaging/rastercachedmultipageimage/
 ---
 ## RasterCachedMultipageImage class

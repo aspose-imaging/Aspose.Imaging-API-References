@@ -3,7 +3,7 @@ title: IMultipageImageExt
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9520
+weight: 9550
 url: /net/aspose.imaging/imultipageimageext/
 ---
 ## IMultipageImageExt interface

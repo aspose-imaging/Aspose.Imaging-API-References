@@ -3,7 +3,7 @@ title: ExifFlash
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 900
+weight: 930
 url: /net/aspose.imaging.exif.enums/exifflash/
 ---
 ## ExifFlash enumeration

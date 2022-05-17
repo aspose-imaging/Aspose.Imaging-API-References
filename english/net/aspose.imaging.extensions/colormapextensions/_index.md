@@ -3,7 +3,7 @@ title: ColorMapExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1110
+weight: 1140
 url: /net/aspose.imaging.extensions/colormapextensions/
 ---
 ## ColorMapExtensions class

@@ -14,9 +14,9 @@ Gets the [`IMaskingLayer`](../../imaskinglayer) at the specified index.
 public IMaskingLayer this[int index] { get; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index |  | The index. |
+| Parameter | Description |
+| --- | --- |
+| index | The index. |
 
 ## Return Value
 

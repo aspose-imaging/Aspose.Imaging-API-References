@@ -3,7 +3,7 @@ title: WmfSetPalentries
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9060
+weight: 9090
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsetpalentries/
 ---
 ## WmfSetPalentries class

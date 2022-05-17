@@ -3,7 +3,7 @@ title: EmfIlluminant
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2670
+weight: 2700
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfilluminant/
 ---
 ## EmfIlluminant enumeration

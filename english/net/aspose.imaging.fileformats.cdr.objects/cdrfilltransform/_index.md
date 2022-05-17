@@ -3,7 +3,7 @@ title: CdrFillTransform
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1530
+weight: 1560
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrfilltransform/
 ---
 ## CdrFillTransform class

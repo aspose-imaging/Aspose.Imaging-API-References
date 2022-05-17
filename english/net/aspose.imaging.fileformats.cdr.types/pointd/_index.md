@@ -3,7 +3,7 @@ title: PointD
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1850
+weight: 1880
 url: /net/aspose.imaging.fileformats.cdr.types/pointd/
 ---
 ## PointD structure

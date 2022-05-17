@@ -3,7 +3,7 @@ title: EmfRoundRect
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4160
+weight: 4190
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfroundrect/
 ---
 ## EmfRoundRect class

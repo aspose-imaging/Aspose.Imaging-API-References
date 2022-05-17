@@ -3,7 +3,7 @@ title: EmfSetWindowOrgEx
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4510
+weight: 4540
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetwindoworgex/
 ---
 ## EmfSetWindowOrgEx class

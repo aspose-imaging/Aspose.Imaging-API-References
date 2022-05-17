@@ -3,7 +3,7 @@ title: ApngImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1280
+weight: 1310
 url: /net/aspose.imaging.fileformats.apng/apngimage/
 ---
 ## ApngImage class

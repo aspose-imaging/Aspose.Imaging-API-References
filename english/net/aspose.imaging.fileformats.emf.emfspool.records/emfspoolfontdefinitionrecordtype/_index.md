@@ -3,7 +3,7 @@ title: EmfSpoolFontDefinitionRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6440
+weight: 6470
 url: /net/aspose.imaging.fileformats.emf.emfspool.records/emfspoolfontdefinitionrecordtype/
 ---
 ## EmfSpoolFontDefinitionRecordType class

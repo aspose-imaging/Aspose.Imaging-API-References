@@ -3,7 +3,7 @@ title: PdfCoreOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7370
+weight: 7400
 url: /net/aspose.imaging.fileformats.pdf/pdfcoreoptions/
 ---
 ## PdfCoreOptions class

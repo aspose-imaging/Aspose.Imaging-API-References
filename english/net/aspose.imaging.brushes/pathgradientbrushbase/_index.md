@@ -3,7 +3,7 @@ title: PathGradientBrushBase
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.imaging.brushes/pathgradientbrushbase/
 ---
 ## PathGradientBrushBase class

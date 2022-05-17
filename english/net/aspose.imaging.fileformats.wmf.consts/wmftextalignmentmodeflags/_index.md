@@ -3,7 +3,7 @@ title: WmfTextAlignmentModeFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8310
+weight: 8340
 url: /net/aspose.imaging.fileformats.wmf.consts/wmftextalignmentmodeflags/
 ---
 ## WmfTextAlignmentModeFlags enumeration

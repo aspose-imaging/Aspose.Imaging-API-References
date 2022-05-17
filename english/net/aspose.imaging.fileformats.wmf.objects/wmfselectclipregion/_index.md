@@ -3,7 +3,7 @@ title: WmfSelectClipRegion
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8970
+weight: 9000
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfselectclipregion/
 ---
 ## WmfSelectClipRegion class

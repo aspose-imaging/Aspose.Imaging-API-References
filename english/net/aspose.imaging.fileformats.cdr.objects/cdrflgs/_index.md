@@ -3,7 +3,7 @@ title: CdrFlgs
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1540
+weight: 1570
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrflgs/
 ---
 ## CdrFlgs class

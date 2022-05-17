@@ -3,7 +3,7 @@ title: TiffOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10180
+weight: 10210
 url: /net/aspose.imaging.imageoptions/tiffoptions/
 ---
 ## TiffOptions class

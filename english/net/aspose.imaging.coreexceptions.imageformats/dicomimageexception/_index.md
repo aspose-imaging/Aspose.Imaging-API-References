@@ -3,7 +3,7 @@ title: DicomImageException
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 510
+weight: 530
 url: /net/aspose.imaging.coreexceptions.imageformats/dicomimageexception/
 ---
 ## DicomImageException class

@@ -3,7 +3,7 @@ title: EmfRestoreDc
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4140
+weight: 4170
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfrestoredc/
 ---
 ## EmfRestoreDc class

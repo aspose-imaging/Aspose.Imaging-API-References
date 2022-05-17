@@ -3,7 +3,7 @@ title: VectorImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11170
+weight: 11200
 url: /net/aspose.imaging/vectorimage/
 ---
 ## VectorImage class
@@ -23,6 +23,12 @@ public abstract class VectorImage : Image, IObjectWithSizeF
 | [SizeF](sizef) { get; } | Gets the object size, in inches. |
 | override [Width](width) { get; } | Gets the image width. |
 | virtual [WidthF](widthf) { get; } | Gets the object width, in inches. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| virtual [GetEmbeddedImages](getembeddedimages)() | Gets the embedded images. |
 
 ### Examples
 

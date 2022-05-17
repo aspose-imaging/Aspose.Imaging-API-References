@@ -3,7 +3,7 @@ title: DeflateCompressorException
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 430
+weight: 450
 url: /net/aspose.imaging.coreexceptions.compressors/deflatecompressorexception/
 ---
 ## DeflateCompressorException class

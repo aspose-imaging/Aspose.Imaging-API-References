@@ -3,7 +3,7 @@ title: EmfProportion
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2770
+weight: 2800
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfproportion/
 ---
 ## EmfProportion enumeration

@@ -3,7 +3,7 @@ title: IVectorPathData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2260
+weight: 2290
 url: /net/aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/
 ---
 ## IVectorPathData interface

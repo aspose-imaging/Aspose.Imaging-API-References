@@ -3,7 +3,7 @@ title: OdFont
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6910
+weight: 6940
 url: /net/aspose.imaging.fileformats.opendocument.objects.font/odfont/
 ---
 ## OdFont class

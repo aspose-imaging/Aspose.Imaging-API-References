@@ -3,7 +3,7 @@ title: OdShortCurveTo
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7210
+weight: 7240
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odshortcurveto/
 ---
 ## OdShortCurveTo class

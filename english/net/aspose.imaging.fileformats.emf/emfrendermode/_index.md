@@ -3,7 +3,7 @@ title: EmfRenderMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6430
+weight: 6460
 url: /net/aspose.imaging.fileformats.emf/emfrendermode/
 ---
 ## EmfRenderMode enumeration

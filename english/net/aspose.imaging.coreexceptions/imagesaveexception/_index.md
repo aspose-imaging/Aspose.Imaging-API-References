@@ -3,7 +3,7 @@ title: ImageSaveException
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 640
+weight: 660
 url: /net/aspose.imaging.coreexceptions/imagesaveexception/
 ---
 ## ImageSaveException class

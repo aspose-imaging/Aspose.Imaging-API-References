@@ -3,7 +3,7 @@ title: DeepClone
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.imaging/stringformat/deepclone/
 ---
 ## StringFormat.DeepClone method

@@ -3,7 +3,7 @@ title: EmfPlusPathGradientBrushOptionalData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5590
+weight: 5620
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushoptionaldata/
 ---
 ## EmfPlusPathGradientBrushOptionalData class

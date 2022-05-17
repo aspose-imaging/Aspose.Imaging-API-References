@@ -3,7 +3,7 @@ title: EmfExcludeClipRect
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3570
+weight: 3600
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfexcludecliprect/
 ---
 ## EmfExcludeClipRect class

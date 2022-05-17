@@ -3,7 +3,7 @@ title: EmfSmallTextOut
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4530
+weight: 4560
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/
 ---
 ## EmfSmallTextOut class

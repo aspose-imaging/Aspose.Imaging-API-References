@@ -3,7 +3,7 @@ title: EmfPenStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2740
+weight: 2770
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfpenstyle/
 ---
 ## EmfPenStyle enumeration

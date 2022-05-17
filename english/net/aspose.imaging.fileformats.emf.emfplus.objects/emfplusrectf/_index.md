@@ -3,7 +3,7 @@ title: EmfPlusRectF
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5650
+weight: 5680
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusrectf/
 ---
 ## EmfPlusRectF class

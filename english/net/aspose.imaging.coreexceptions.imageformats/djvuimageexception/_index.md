@@ -3,7 +3,7 @@ title: DjvuImageException
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 520
+weight: 540
 url: /net/aspose.imaging.coreexceptions.imageformats/djvuimageexception/
 ---
 ## DjvuImageException class

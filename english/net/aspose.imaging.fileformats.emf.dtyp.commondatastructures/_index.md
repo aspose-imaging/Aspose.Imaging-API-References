@@ -1,7 +1,7 @@
 ---
 title: Aspose.Imaging.FileFormats.Emf.Dtyp.CommonDataStructures
 second_title: Aspose.Imaging for .NET API Reference
-description: The namespace contains types [MS-DTYP] Windows Data Types 2.3 Common Data Structures
+description: The namespace contains types MS-DTYP Windows Data Types 2.3 Common Data Structures
 type: docs
 weight: 330
 url: /net/aspose.imaging.fileformats.emf.dtyp.commondatastructures/

@@ -3,7 +3,7 @@ title: GifOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9950
+weight: 9980
 url: /net/aspose.imaging.imageoptions/gifoptions/
 ---
 ## GifOptions class
@@ -25,10 +25,12 @@ public class GifOptions : ImageOptionsBase
 
 | Name | Description |
 | --- | --- |
+| [BackgroundColor](backgroundcolor) { get; set; } | Gets or sets the background color. |
 | [BackgroundColorIndex](backgroundcolorindex) { get; set; } | Gets or sets the GIF background color index. |
 | [ColorResolution](colorresolution) { get; set; } | Gets or sets the GIF color resolution. |
 | [DoPaletteCorrection](dopalettecorrection) { get; set; } | Gets or sets a value indicating whether palette correction is applied. |
 | [HasTrailer](hastrailer) { get; set; } | Gets or sets a value indicating whether GIF has trailer. |
+| [HasTransparentColor](hastransparentcolor) { get; set; } | Gets or sets a value indicating whether GIF image has transparent color. |
 | [Interlaced](interlaced) { get; set; } | True if image should be interlaced. |
 | [IsPaletteSorted](ispalettesorted) { get; set; } | Gets or sets a value indicating whether palette entries are sorted. |
 | [LoopsCount](loopscount) { get; set; } | Gets or sets the loops count (Default 1 loop) |

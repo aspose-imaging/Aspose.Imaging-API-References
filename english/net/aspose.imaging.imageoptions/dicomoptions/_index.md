@@ -3,7 +3,7 @@ title: DicomOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9890
+weight: 9920
 url: /net/aspose.imaging.imageoptions/dicomoptions/
 ---
 ## DicomOptions class
@@ -26,6 +26,7 @@ public class DicomOptions : ImageOptionsBase
 | --- | --- |
 | [ColorType](colortype) { get; set; } | Gets or sets the type of the color. |
 | [Compression](compression) { get; set; } | Gets or sets the compression. |
+| override [XmpData](xmpdata) { get; set; } | Gets or sets the Xmp data. |
 
 ### Examples
 

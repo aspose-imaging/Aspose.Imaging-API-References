@@ -3,7 +3,7 @@ title: EmfBlendFunction
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3230
+weight: 3260
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfblendfunction/
 ---
 ## EmfBlendFunction structure

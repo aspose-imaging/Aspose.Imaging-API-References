@@ -3,7 +3,7 @@ title: WmfRasterizationOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10260
+weight: 10290
 url: /net/aspose.imaging.imageoptions/wmfrasterizationoptions/
 ---
 ## WmfRasterizationOptions class

@@ -3,7 +3,7 @@ title: Photoshop
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.imaging.xmp/namespaces/photoshop/
 ---
 ## Namespaces.Photoshop field

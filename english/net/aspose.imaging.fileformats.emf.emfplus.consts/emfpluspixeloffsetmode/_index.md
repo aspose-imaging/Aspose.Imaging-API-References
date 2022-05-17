@@ -3,7 +3,7 @@ title: EmfPlusPixelOffsetMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4980
+weight: 5010
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspixeloffsetmode/
 ---
 ## EmfPlusPixelOffsetMode enumeration

@@ -3,7 +3,7 @@ title: WmfArc
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8380
+weight: 8410
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfarc/
 ---
 ## WmfArc class

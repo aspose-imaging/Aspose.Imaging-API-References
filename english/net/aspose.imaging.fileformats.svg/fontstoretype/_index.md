@@ -3,7 +3,7 @@ title: FontStoreType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7460
+weight: 7490
 url: /net/aspose.imaging.fileformats.svg/fontstoretype/
 ---
 ## FontStoreType enumeration

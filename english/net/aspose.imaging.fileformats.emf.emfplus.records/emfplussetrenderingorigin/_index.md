@@ -3,7 +3,7 @@ title: EmfPlusSetRenderingOrigin
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6330
+weight: 6360
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetrenderingorigin/
 ---
 ## EmfPlusSetRenderingOrigin class

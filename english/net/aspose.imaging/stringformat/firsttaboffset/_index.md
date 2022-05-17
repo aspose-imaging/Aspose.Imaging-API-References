@@ -3,7 +3,7 @@ title: FirstTabOffset
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.imaging/stringformat/firsttaboffset/
 ---
 ## StringFormat.FirstTabOffset property

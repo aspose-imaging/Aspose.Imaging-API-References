@@ -3,7 +3,7 @@ title: XmpTypeResourceRef
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.imaging.xmp/namespaces/xmptyperesourceref/
 ---
 ## Namespaces.XmpTypeResourceRef field

@@ -3,7 +3,7 @@ title: EmfSetIcmProfileW
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4320
+weight: 4350
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfseticmprofilew/
 ---
 ## EmfSetIcmProfileW class

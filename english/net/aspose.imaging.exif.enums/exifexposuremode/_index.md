@@ -3,7 +3,7 @@ title: ExifExposureMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 870
+weight: 900
 url: /net/aspose.imaging.exif.enums/exifexposuremode/
 ---
 ## ExifExposureMode enumeration

@@ -3,7 +3,7 @@ title: CdrFont
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1550
+weight: 1580
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrfont/
 ---
 ## CdrFont class

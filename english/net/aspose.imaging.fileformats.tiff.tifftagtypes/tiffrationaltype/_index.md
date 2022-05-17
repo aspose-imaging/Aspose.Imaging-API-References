@@ -3,7 +3,7 @@ title: TiffRationalType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7940
+weight: 7970
 url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffrationaltype/
 ---
 ## TiffRationalType class

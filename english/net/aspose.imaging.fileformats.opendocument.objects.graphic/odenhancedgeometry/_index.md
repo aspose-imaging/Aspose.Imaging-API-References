@@ -3,7 +3,7 @@ title: OdEnhancedGeometry
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7020
+weight: 7050
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odenhancedgeometry/
 ---
 ## OdEnhancedGeometry class

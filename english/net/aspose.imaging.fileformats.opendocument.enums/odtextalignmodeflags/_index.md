@@ -3,7 +3,7 @@ title: OdTextAlignModeFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6840
+weight: 6870
 url: /net/aspose.imaging.fileformats.opendocument.enums/odtextalignmodeflags/
 ---
 ## OdTextAlignModeFlags enumeration

@@ -3,7 +3,7 @@ title: Xml
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.imaging.xmp/namespaces/xml/
 ---
 ## Namespaces.Xml field

@@ -3,7 +3,7 @@ title: EmfDibColors
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2570
+weight: 2600
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfdibcolors/
 ---
 ## EmfDibColors enumeration

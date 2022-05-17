@@ -3,7 +3,7 @@ title: EmfStrokeAndFillPath
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4570
+weight: 4600
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfstrokeandfillpath/
 ---
 ## EmfStrokeAndFillPath class

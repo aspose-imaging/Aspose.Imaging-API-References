@@ -3,7 +3,7 @@ title: EmfIcmMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2660
+weight: 2690
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emficmmode/
 ---
 ## EmfIcmMode enumeration

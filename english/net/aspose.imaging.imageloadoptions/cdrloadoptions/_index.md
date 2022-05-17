@@ -3,7 +3,7 @@ title: CdrLoadOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9790
+weight: 9820
 url: /net/aspose.imaging.imageloadoptions/cdrloadoptions/
 ---
 ## CdrLoadOptions class

@@ -3,7 +3,7 @@ title: EmfRegionData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3100
+weight: 3130
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfregiondata/
 ---
 ## EmfRegionData class

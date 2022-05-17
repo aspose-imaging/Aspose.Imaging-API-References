@@ -3,7 +3,7 @@ title: WmfFontQuality
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8140
+weight: 8170
 url: /net/aspose.imaging.fileformats.wmf.consts/wmffontquality/
 ---
 ## WmfFontQuality enumeration

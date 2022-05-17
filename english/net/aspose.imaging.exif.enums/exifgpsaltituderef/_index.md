@@ -3,7 +3,7 @@ title: ExifGPSAltitudeRef
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 910
+weight: 940
 url: /net/aspose.imaging.exif.enums/exifgpsaltituderef/
 ---
 ## ExifGPSAltitudeRef enumeration

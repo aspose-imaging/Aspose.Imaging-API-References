@@ -3,7 +3,7 @@ title: EmfMapMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2700
+weight: 2730
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfmapmode/
 ---
 ## EmfMapMode enumeration

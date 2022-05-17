@@ -3,7 +3,7 @@ title: EmfWidenPath
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4620
+weight: 4650
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfwidenpath/
 ---
 ## EmfWidenPath class

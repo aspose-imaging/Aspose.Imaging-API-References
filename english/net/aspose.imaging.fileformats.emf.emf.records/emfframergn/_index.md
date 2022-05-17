@@ -3,7 +3,7 @@ title: EmfFrameRgn
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3690
+weight: 3720
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfframergn/
 ---
 ## EmfFrameRgn class

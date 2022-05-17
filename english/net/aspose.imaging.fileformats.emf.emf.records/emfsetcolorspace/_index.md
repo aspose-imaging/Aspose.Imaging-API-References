@@ -3,7 +3,7 @@ title: EmfSetColorSpace
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4280
+weight: 4310
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetcolorspace/
 ---
 ## EmfSetColorSpace class

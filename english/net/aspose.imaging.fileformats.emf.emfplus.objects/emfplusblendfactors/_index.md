@@ -3,7 +3,7 @@ title: EmfPlusBlendFactors
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5170
+weight: 5200
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendfactors/
 ---
 ## EmfPlusBlendFactors class

@@ -3,7 +3,7 @@ title: WmfSetRelabs
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9090
+weight: 9120
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsetrelabs/
 ---
 ## WmfSetRelabs class

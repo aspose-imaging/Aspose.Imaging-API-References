@@ -3,7 +3,7 @@ title: MaxDiff
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 110
 url: /net/aspose.imaging.imageoptions/gifoptions/maxdiff/
 ---
 ## GifOptions.MaxDiff property

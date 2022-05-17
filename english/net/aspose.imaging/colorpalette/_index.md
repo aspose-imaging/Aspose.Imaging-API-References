@@ -3,7 +3,7 @@ title: ColorPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 370
+weight: 380
 url: /net/aspose.imaging/colorpalette/
 ---
 ## ColorPalette class

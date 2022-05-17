@@ -3,7 +3,7 @@ title: EmfPlusBrushDataFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4650
+weight: 4680
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushdataflags/
 ---
 ## EmfPlusBrushDataFlags enumeration
@@ -19,8 +19,8 @@ public enum EmfPlusBrushDataFlags
 
 | Name | Value | Description |
 | --- | --- | --- |
-| BrushDataPath | `1` | This flag is meaningful in [`EmfPlusPathGradientBrushData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata) objects (section 2.2.2.29). If set, an [`EmfPlusBoundaryPathData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundarypathdata) object (section 2.2.2.6) MUST be specified in the BoundaryData field of the brush data object. If clear, an !:EmfPlusBoundaryPointData object (section 2.2.2.7) MUST be specified in the BoundaryData field of the brush data object. |
-| BrushDataTransform | `2` | This flag is meaningful in [`EmfPlusLinearGradientBrushData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushdata) objects (section 2.2.2.24), [`EmfPlusPathGradientBrushData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata) objects, and !:EmfPlusTextureBrushData objects (section 2.2.2.45). If set, a 2x3 world space to device space transform matrix MUST be specified in the OptionalData field of the brush data object. |
+| BrushDataPath | `1` | This flag is meaningful in [`EmfPlusPathGradientBrushData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata) objects (section 2.2.2.29). If set, an [`EmfPlusBoundaryPathData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundarypathdata) object (section 2.2.2.6) MUST be specified in the BoundaryData field of the brush data object. If clear, an [`EmfPlusBoundaryPointData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundarypointdata) object (section 2.2.2.7) MUST be specified in the BoundaryData field of the brush data object. |
+| BrushDataTransform | `2` | This flag is meaningful in [`EmfPlusLinearGradientBrushData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushdata) objects (section 2.2.2.24), [`EmfPlusPathGradientBrushData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata) objects, and [`EmfPlusTextureBrushData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushdata) objects (section 2.2.2.45). If set, a 2x3 world space to device space transform matrix MUST be specified in the OptionalData field of the brush data object. |
 | BrushDataPresetColors | `4` | This flag is meaningful in EmfPlusLinearGradientBrushData and EmfPlusPathGradientBrushData objects. If set, an [`EmfPlusBlendColors`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendcolors) object (section 2.2.2.4) MUST be specified in the OptionalData field of the brush data object. |
 | BrushDataBlendFactorsH | `8` | This flag is meaningful in EmfPlusLinearGradientBrushData and EmfPlusPathGradientBrushData objects. If set, an [`EmfPlusBlendFactors`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendfactors) object (section 2.2.2.5) that specifies a blend pattern along a horizontal gradient MUST be specified in the OptionalData field of the brush data object. |
 | BrushDataBlendFactorsV | `10` | This flag is meaningful in EmfPlusLinearGradientBrushData objects. If set, an EmfPlusBlendFactors object that specifies a blend pattern along a vertical gradient MUST be specified in the OptionalData field of the brush data object. |

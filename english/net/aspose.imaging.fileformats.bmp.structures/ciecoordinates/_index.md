@@ -3,7 +3,7 @@ title: CieCoordinates
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1360
+weight: 1390
 url: /net/aspose.imaging.fileformats.bmp.structures/ciecoordinates/
 ---
 ## CieCoordinates class

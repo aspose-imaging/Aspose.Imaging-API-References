@@ -3,7 +3,7 @@ title: StringFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11120
+weight: 11150
 url: /net/aspose.imaging/stringformat/
 ---
 ## StringFormat class
@@ -29,6 +29,7 @@ public sealed class StringFormat : DisposableObject
 | static [GenericDefault](genericdefault) { get; } | Gets a generic default [`StringFormat`](../stringformat) object. |
 | static [GenericTypographic](generictypographic) { get; } | Gets a generic typographic [`StringFormat`](../stringformat) object. |
 | [Alignment](alignment) { get; set; } | Gets or sets text alignment information on the vertical plane. |
+| [CustomCharIdent](customcharident) { get; set; } | Gets or sets the custom character ident. |
 | [DigitSubstitutionLanguage](digitsubstitutionlanguage) { get; set; } | Gets or sets the language that is used when local digits are substituted for western digits. |
 | [DigitSubstitutionMethod](digitsubstitutionmethod) { get; set; } | Gets or sets the method to be used for digit substitution. |
 | [FirstTabOffset](firsttaboffset) { get; } | Gets the number of spaces between the beginning of a line of text and the first tab stop. |

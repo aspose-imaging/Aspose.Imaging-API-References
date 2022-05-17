@@ -3,7 +3,7 @@ title: AsyncTaskFunc
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.imaging.asynctask/asynctaskfunc/
 ---
 ## AsyncTaskFunc delegate

@@ -3,7 +3,7 @@ title: BigRectangularFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9680
+weight: 9710
 url: /net/aspose.imaging.imagefilters.filteroptions/bigrectangularfilteroptions/
 ---
 ## BigRectangularFilterOptions class

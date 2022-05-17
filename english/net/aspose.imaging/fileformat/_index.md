@@ -3,7 +3,7 @@ title: FileFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1260
+weight: 1290
 url: /net/aspose.imaging/fileformat/
 ---
 ## FileFormat enumeration

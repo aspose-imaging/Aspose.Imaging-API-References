@@ -3,7 +3,7 @@ title: Rdf
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.imaging.xmp/namespaces/rdf/
 ---
 ## Namespaces.Rdf field

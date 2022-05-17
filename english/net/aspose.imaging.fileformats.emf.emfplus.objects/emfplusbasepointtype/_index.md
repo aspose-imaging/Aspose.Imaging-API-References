@@ -3,7 +3,7 @@ title: EmfPlusBasePointType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5120
+weight: 5150
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbasepointtype/
 ---
 ## EmfPlusBasePointType class

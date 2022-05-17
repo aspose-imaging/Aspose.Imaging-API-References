@@ -3,7 +3,7 @@ title: ImageLoadException
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 630
+weight: 650
 url: /net/aspose.imaging.coreexceptions/imageloadexception/
 ---
 ## ImageLoadException class

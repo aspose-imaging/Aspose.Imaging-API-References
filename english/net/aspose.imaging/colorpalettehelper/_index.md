@@ -3,7 +3,7 @@ title: ColorPaletteHelper
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 380
+weight: 390
 url: /net/aspose.imaging/colorpalettehelper/
 ---
 ## ColorPaletteHelper class
@@ -27,6 +27,7 @@ public static class ColorPaletteHelper
 | static [GetCloseImagePalette](getcloseimagepalette)(RasterImage, int, PaletteMiningMethod) | Gets color palette from raster image (palletizes image) in case the image does not have one. Palette is about to be optimized for better indexed image quality or taken "AS IS" when PaletteMiningMethod.UseCurrentPalette is used. |
 | static [GetCloseImagePalette](getcloseimagepalette)(RasterImage, Rectangle, int) | Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations. |
 | static [GetCloseImagePalette](getcloseimagepalette)(RasterImage, Rectangle, int, bool) | Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations. |
+| static [GetCloseImagePalette](getcloseimagepalette)(RasterImage, Rectangle, int, bool, Color) | Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations. |
 | static [GetDownscalePalette](getdownscalepalette)(RasterImage) | Get 256 color palette, composed from upper bits of initial image color values. |
 | static [GetUniformColorPalette](getuniformcolorpalette)(RasterImage) | Get uniform 256 color palette. |
 | static [HasTransparentColors](hastransparentcolors)(IColorPalette) | Determines whether the specified palette has transparent colors. |

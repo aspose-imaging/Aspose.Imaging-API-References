@@ -3,7 +3,7 @@ title: XmpGraphics
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.imaging.xmp/namespaces/xmpgraphics/
 ---
 ## Namespaces.XmpGraphics field

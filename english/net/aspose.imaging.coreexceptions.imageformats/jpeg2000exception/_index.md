@@ -3,7 +3,7 @@ title: Jpeg2000Exception
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 550
+weight: 570
 url: /net/aspose.imaging.coreexceptions.imageformats/jpeg2000exception/
 ---
 ## Jpeg2000Exception class

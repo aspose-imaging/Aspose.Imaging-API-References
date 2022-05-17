@@ -3,7 +3,7 @@ title: EmfStateRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4540
+weight: 4570
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfstaterecordtype/
 ---
 ## EmfStateRecordType class

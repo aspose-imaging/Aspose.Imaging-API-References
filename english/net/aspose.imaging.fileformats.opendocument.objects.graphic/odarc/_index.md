@@ -3,7 +3,7 @@ title: OdArc
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6930
+weight: 6960
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odarc/
 ---
 ## OdArc class

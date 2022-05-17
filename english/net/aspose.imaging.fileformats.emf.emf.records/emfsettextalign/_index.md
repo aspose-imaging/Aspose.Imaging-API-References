@@ -3,7 +3,7 @@ title: EmfSetTextAlign
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4450
+weight: 4480
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsettextalign/
 ---
 ## EmfSetTextAlign class

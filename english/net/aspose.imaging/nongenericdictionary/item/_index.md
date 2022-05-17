@@ -14,9 +14,9 @@ Gets or sets the element with the specified key.
 public object this[object key] { get; set; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| key |  | The element key. |
+| Parameter | Description |
+| --- | --- |
+| key | The element key. |
 
 ## Return Value
 

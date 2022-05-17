@@ -3,7 +3,7 @@ title: RemovePage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.imaging.fileformats.dicom/dicomimage/removepage/
 ---
 ## DicomImage.RemovePage method

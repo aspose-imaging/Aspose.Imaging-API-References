@@ -3,7 +3,7 @@ title: IGifBlock
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6670
+weight: 6700
 url: /net/aspose.imaging.fileformats.gif/igifblock/
 ---
 ## IGifBlock interface

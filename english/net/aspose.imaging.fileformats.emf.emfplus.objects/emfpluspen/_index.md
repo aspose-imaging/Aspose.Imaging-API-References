@@ -3,7 +3,7 @@ title: EmfPlusPen
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5620
+weight: 5650
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen/
 ---
 ## EmfPlusPen class

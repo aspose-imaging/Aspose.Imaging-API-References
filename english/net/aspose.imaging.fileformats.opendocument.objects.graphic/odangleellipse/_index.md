@@ -3,7 +3,7 @@ title: OdAngleEllipse
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6920
+weight: 6950
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse/
 ---
 ## OdAngleEllipse class

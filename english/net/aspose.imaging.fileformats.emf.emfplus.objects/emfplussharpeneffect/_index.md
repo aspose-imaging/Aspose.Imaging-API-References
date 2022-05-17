@@ -3,7 +3,7 @@ title: EmfPlusSharpenEffect
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5720
+weight: 5750
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplussharpeneffect/
 ---
 ## EmfPlusSharpenEffect class

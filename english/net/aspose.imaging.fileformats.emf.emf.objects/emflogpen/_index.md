@@ -3,7 +3,7 @@ title: EmfLogPen
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3040
+weight: 3070
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emflogpen/
 ---
 ## EmfLogPen class

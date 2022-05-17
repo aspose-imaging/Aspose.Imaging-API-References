@@ -3,7 +3,7 @@ title: EmfSetBkColor
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4240
+weight: 4270
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetbkcolor/
 ---
 ## EmfSetBkColor class

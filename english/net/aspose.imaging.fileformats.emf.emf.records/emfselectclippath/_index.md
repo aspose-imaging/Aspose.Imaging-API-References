@@ -3,7 +3,7 @@ title: EmfSelectClipPath
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4200
+weight: 4230
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfselectclippath/
 ---
 ## EmfSelectClipPath class

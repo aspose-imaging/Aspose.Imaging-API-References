@@ -3,7 +3,7 @@ title: EmfPlusCurveChannel
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4710
+weight: 4740
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscurvechannel/
 ---
 ## EmfPlusCurveChannel enumeration

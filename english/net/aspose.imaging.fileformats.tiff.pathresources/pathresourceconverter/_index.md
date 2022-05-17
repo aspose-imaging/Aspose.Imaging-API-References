@@ -3,7 +3,7 @@ title: PathResourceConverter
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7800
+weight: 7830
 url: /net/aspose.imaging.fileformats.tiff.pathresources/pathresourceconverter/
 ---
 ## PathResourceConverter class

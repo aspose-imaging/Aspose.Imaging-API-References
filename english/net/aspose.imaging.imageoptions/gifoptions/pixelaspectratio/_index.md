@@ -3,7 +3,7 @@ title: PixelAspectRatio
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 120
 url: /net/aspose.imaging.imageoptions/gifoptions/pixelaspectratio/
 ---
 ## GifOptions.PixelAspectRatio property

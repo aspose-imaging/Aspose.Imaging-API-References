@@ -3,7 +3,7 @@ title: EmfPlusDrawArc
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5860
+weight: 5890
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/
 ---
 ## EmfPlusDrawArc class

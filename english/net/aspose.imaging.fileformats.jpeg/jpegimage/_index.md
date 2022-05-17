@@ -3,7 +3,7 @@ title: JpegImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6730
+weight: 6760
 url: /net/aspose.imaging.fileformats.jpeg/jpegimage/
 ---
 ## JpegImage class

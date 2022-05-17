@@ -3,7 +3,7 @@ title: EmfPointEnum
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2750
+weight: 2780
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfpointenum/
 ---
 ## EmfPointEnum enumeration

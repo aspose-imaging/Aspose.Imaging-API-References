@@ -3,7 +3,7 @@ title: OnPageExportedAction
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2430
+weight: 2460
 url: /net/aspose.imaging.fileformats.djvu/onpageexportedaction/
 ---
 ## OnPageExportedAction delegate

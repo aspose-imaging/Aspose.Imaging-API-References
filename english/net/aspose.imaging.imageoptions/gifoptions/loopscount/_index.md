@@ -3,7 +3,7 @@ title: LoopsCount
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 100
 url: /net/aspose.imaging.imageoptions/gifoptions/loopscount/
 ---
 ## GifOptions.LoopsCount property

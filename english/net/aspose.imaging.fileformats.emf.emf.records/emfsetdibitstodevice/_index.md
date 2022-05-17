@@ -3,7 +3,7 @@ title: EmfSetDiBitsToDevice
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4290
+weight: 4320
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/
 ---
 ## EmfSetDiBitsToDevice class

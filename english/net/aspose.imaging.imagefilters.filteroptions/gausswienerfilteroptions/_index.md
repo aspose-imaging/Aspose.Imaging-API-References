@@ -3,7 +3,7 @@ title: GaussWienerFilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9730
+weight: 9760
 url: /net/aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions/
 ---
 ## GaussWienerFilterOptions class

@@ -3,7 +3,7 @@ title: EmfOffsetClipRgn
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3850
+weight: 3880
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfoffsetcliprgn/
 ---
 ## EmfOffsetClipRgn class

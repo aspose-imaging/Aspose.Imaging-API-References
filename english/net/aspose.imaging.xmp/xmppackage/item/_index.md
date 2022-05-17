@@ -14,9 +14,9 @@ Gets or sets the Object with the specified key.
 public virtual object this[string key] { get; set; }
 ```
 
-| Parameter | Type | Description |
-| --- | --- | --- |
-| key |  | The key that identifies value. |
+| Parameter | Description |
+| --- | --- |
+| key | The key that identifies value. |
 
 ## Return Value
 

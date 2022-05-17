@@ -3,7 +3,7 @@ title: EmfPlusStringDigitSubstitution
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5030
+weight: 5060
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusstringdigitsubstitution/
 ---
 ## EmfPlusStringDigitSubstitution enumeration

@@ -22,7 +22,7 @@ public DjvuImage(Stream stream)
 
 | exception | condition |
 | --- | --- |
-| !:DjvuException | Stream is empty |
+| [DjvuImageException](../../../aspose.imaging.coreexceptions.imageformats/djvuimageexception) | Stream is empty |
 
 ### Examples
 
@@ -74,7 +74,7 @@ public DjvuImage(Stream stream, LoadOptions loadOptions)
 
 | exception | condition |
 | --- | --- |
-| !:DjvuException | Stream is empty |
+| [DjvuImageException](../../../aspose.imaging.coreexceptions.imageformats/djvuimageexception) | Stream is empty |
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: IXmpType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11650
+weight: 11690
 url: /net/aspose.imaging.xmp.types/ixmptype/
 ---
 ## IXmpType interface

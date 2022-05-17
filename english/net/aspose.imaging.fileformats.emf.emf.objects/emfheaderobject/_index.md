@@ -3,7 +3,7 @@ title: EmfHeaderObject
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2970
+weight: 3000
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/
 ---
 ## EmfHeaderObject class

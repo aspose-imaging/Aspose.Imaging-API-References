@@ -3,7 +3,7 @@ title: EmfObjectManipulationRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3840
+weight: 3870
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfobjectmanipulationrecordtype/
 ---
 ## EmfObjectManipulationRecordType class

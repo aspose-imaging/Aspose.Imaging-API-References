@@ -3,7 +3,7 @@ title: EmfSetIcmMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4300
+weight: 4330
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfseticmmode/
 ---
 ## EmfSetIcmMode class

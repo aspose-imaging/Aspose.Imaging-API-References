@@ -3,7 +3,7 @@ title: ColorCompareMethod
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 330
+weight: 340
 url: /net/aspose.imaging/colorcomparemethod/
 ---
 ## ColorCompareMethod enumeration

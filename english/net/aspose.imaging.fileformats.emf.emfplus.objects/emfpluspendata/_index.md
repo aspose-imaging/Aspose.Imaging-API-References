@@ -3,7 +3,7 @@ title: EmfPlusPenData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5630
+weight: 5660
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/
 ---
 ## EmfPlusPenData class

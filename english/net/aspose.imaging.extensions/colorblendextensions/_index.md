@@ -3,7 +3,7 @@ title: ColorBlendExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1090
+weight: 1120
 url: /net/aspose.imaging.extensions/colorblendextensions/
 ---
 ## ColorBlendExtensions class

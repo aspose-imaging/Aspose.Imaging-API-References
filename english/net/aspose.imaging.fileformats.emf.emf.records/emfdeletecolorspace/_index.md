@@ -3,7 +3,7 @@ title: EmfDeleteColorSpace
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3490
+weight: 3520
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfdeletecolorspace/
 ---
 ## EmfDeleteColorSpace class

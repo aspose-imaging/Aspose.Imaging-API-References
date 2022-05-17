@@ -3,7 +3,7 @@ title: EmfPlusSetTsGraphics
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6370
+weight: 6400
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics/
 ---
 ## EmfPlusSetTsGraphics class

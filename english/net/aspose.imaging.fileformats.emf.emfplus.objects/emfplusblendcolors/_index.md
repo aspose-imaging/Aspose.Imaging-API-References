@@ -3,7 +3,7 @@ title: EmfPlusBlendColors
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5160
+weight: 5190
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendcolors/
 ---
 ## EmfPlusBlendColors class

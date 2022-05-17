@@ -3,7 +3,7 @@ title: EmfPlusBoundaryBase
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5190
+weight: 5220
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundarybase/
 ---
 ## EmfPlusBoundaryBase class

@@ -3,7 +3,7 @@ title: EmfBitBlt
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3210
+weight: 3240
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfbitblt/
 ---
 ## EmfBitBlt class

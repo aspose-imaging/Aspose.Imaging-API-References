@@ -3,7 +3,7 @@ title: RegionExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1220
+weight: 1250
 url: /net/aspose.imaging.extensions/regionextensions/
 ---
 ## RegionExtensions class

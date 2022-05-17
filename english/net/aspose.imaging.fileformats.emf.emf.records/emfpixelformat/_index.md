@@ -3,7 +3,7 @@ title: EmfPixelFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3900
+weight: 3930
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpixelformat/
 ---
 ## EmfPixelFormat class

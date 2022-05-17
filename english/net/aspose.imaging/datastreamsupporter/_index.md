@@ -3,7 +3,7 @@ title: DataStreamSupporter
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 780
+weight: 800
 url: /net/aspose.imaging/datastreamsupporter/
 ---
 ## DataStreamSupporter class

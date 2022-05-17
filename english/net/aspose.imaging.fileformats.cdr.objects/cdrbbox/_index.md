@@ -3,7 +3,7 @@ title: CdrBbox
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1450
+weight: 1480
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrbbox/
 ---
 ## CdrBbox class

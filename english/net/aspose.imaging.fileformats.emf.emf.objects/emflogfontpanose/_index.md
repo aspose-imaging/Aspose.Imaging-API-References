@@ -3,7 +3,7 @@ title: EmfLogFontPanose
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3020
+weight: 3050
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emflogfontpanose/
 ---
 ## EmfLogFontPanose class

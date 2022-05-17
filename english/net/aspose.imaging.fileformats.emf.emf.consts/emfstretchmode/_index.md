@@ -3,7 +3,7 @@ title: EmfStretchMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2830
+weight: 2860
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfstretchmode/
 ---
 ## EmfStretchMode enumeration

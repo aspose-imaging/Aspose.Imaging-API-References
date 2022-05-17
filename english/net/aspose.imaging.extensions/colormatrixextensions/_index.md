@@ -3,7 +3,7 @@ title: ColorMatrixExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1120
+weight: 1150
 url: /net/aspose.imaging.extensions/colormatrixextensions/
 ---
 ## ColorMatrixExtensions class

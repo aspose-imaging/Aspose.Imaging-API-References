@@ -3,7 +3,7 @@ title: EmfCreateBrushIndirect
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3420
+weight: 3450
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcreatebrushindirect/
 ---
 ## EmfCreateBrushIndirect class

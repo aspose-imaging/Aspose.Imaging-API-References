@@ -3,7 +3,7 @@ title: XmpMm
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.imaging.xmp/namespaces/xmpmm/
 ---
 ## Namespaces.XmpMm field

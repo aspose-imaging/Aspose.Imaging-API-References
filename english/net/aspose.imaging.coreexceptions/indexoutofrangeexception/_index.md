@@ -3,7 +3,7 @@ title: IndexOutOFRangeException
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 650
+weight: 670
 url: /net/aspose.imaging.coreexceptions/indexoutofrangeexception/
 ---
 ## IndexOutOFRangeException class

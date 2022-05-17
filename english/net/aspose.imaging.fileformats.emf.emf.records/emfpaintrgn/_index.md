@@ -3,7 +3,7 @@ title: EmfPaintRgn
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3870
+weight: 3900
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/
 ---
 ## EmfPaintRgn class

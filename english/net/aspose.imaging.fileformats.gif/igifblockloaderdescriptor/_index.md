@@ -3,7 +3,7 @@ title: IGifBlockLoaderDescriptor
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6680
+weight: 6710
 url: /net/aspose.imaging.fileformats.gif/igifblockloaderdescriptor/
 ---
 ## IGifBlockLoaderDescriptor interface
