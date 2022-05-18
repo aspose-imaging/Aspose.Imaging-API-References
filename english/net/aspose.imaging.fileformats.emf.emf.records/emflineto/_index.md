@@ -25,7 +25,9 @@ public sealed class EmfLineTo : EmfRecord
 
 | Name | Description |
 | --- | --- |
-| [Point](point) { get; set; } | Gets or sets 64-bit WMF PointL object, specified in [MS-WMF] section 2.2.2.15, which specifies the coordinates of the line's ending point. |
+| [Point](../../aspose.imaging.fileformats.emf.emf.records/emflineto/point) { get; set; } | Gets or sets 64-bit WMF PointL object, specified in [MS-WMF] section 2.2.2.15, which specifies the coordinates of the line's ending point. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

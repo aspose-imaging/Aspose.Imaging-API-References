@@ -24,8 +24,8 @@ public sealed class EmfRop4
 
 | Name | Description |
 | --- | --- |
-| [BackgroundRop3](backgroundrop3) { get; } | Gets the background ROP3. The unsigned, most-significant 8 bits of a 24-bit ternary raster operation value from the WMF Ternary Raster Operation enumeration ([MS-WMF] section 2.1.1.31). This code defines how to combine the background color data of the source and destination bitmaps and brush pattern. |
-| [ForegroundRop3](foregroundrop3) { get; } | Gets the foreground ROP3. The unsigned, most-significant 8 bits of a 24-bit ternary raster operation value from the WMF Ternary Raster Operation enumeration. This code defines how to combine the foreground color data of the source and destination bitmaps and brush pattern. |
+| [BackgroundRop3](../../aspose.imaging.fileformats.emf.emf.records/emfrop4/backgroundrop3) { get; } | Gets the background ROP3. The unsigned, most-significant 8 bits of a 24-bit ternary raster operation value from the WMF Ternary Raster Operation enumeration ([MS-WMF] section 2.1.1.31). This code defines how to combine the background color data of the source and destination bitmaps and brush pattern. |
+| [ForegroundRop3](../../aspose.imaging.fileformats.emf.emf.records/emfrop4/foregroundrop3) { get; } | Gets the foreground ROP3. The unsigned, most-significant 8 bits of a 24-bit ternary raster operation value from the WMF Ternary Raster Operation enumeration. This code defines how to combine the foreground color data of the source and destination bitmaps and brush pattern. |
 
 ### See Also
 

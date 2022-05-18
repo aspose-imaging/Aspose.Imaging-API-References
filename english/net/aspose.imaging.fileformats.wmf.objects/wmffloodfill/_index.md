@@ -24,9 +24,9 @@ public class WmfFloodFill : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [ColorRef](colorref) { get; set; } | Gets or sets the color reference. |
-| [XStart](xstart) { get; set; } | Gets or sets the x start. |
-| [YStart](ystart) { get; set; } | Gets or sets the y start. |
+| [ColorRef](../../aspose.imaging.fileformats.wmf.objects/wmffloodfill/colorref) { get; set; } | Gets or sets the color reference. |
+| [XStart](../../aspose.imaging.fileformats.wmf.objects/wmffloodfill/xstart) { get; set; } | Gets or sets the x start. |
+| [YStart](../../aspose.imaging.fileformats.wmf.objects/wmffloodfill/ystart) { get; set; } | Gets or sets the y start. |
 
 ### See Also
 

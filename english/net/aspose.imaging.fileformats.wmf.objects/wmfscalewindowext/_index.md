@@ -24,10 +24,10 @@ public class WmfScaleWindowExt : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [XDenom](xdenom) { get; set; } | Gets or sets the x denom. |
-| [XNum](xnum) { get; set; } | Gets or sets the x number. |
-| [YDenom](ydenom) { get; set; } | Gets or sets the y denom. |
-| [YNum](ynum) { get; set; } | Gets or sets the y num. |
+| [XDenom](../../aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/xdenom) { get; set; } | Gets or sets the x denom. |
+| [XNum](../../aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/xnum) { get; set; } | Gets or sets the x number. |
+| [YDenom](../../aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/ydenom) { get; set; } | Gets or sets the y denom. |
+| [YNum](../../aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/ynum) { get; set; } | Gets or sets the y num. |
 
 ### See Also
 

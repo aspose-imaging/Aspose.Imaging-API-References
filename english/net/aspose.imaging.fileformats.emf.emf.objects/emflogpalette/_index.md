@@ -24,8 +24,8 @@ public sealed class EmfLogPalette : EmfObject
 
 | Name | Description |
 | --- | --- |
-| [PaletteArgb32Entries](paletteargb32entries) { get; set; } | Gets or sets an array of 32-bit ARGB colors. |
-| [Version](version) { get; set; } | Gets or sets a 16-bit unsigned integer that specifies the version number of the system. This MUST be 0x0300. |
+| [PaletteArgb32Entries](../../aspose.imaging.fileformats.emf.emf.objects/emflogpalette/paletteargb32entries) { get; set; } | Gets or sets an array of 32-bit ARGB colors. |
+| [Version](../../aspose.imaging.fileformats.emf.emf.objects/emflogpalette/version) { get; set; } | Gets or sets a 16-bit unsigned integer that specifies the version number of the system. This MUST be 0x0300. |
 
 ### See Also
 

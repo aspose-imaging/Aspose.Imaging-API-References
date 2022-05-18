@@ -25,7 +25,9 @@ public sealed class EmfSetTextColor : EmfStateRecordType
 
 | Name | Description |
 | --- | --- |
-| [Argb32Color](argb32color) { get; set; } | Gets or sets a WMF ColorRef object ([MS-WMF] section 2.2.2.8) that specifies the text color value. |
+| [Argb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfsettextcolor/argb32color) { get; set; } | Gets or sets a WMF ColorRef object ([MS-WMF] section 2.2.2.8) that specifies the text color value. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

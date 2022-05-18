@@ -24,7 +24,7 @@ public class MedianFilterOptions : FilterOptionsBase
 
 | Name | Description |
 | --- | --- |
-| [Size](size) { get; set; } | Gets or sets the size. |
+| [Size](../../aspose.imaging.imagefilters.filteroptions/medianfilteroptions/size) { get; set; } | Gets or sets the size. |
 
 ### Examples
 

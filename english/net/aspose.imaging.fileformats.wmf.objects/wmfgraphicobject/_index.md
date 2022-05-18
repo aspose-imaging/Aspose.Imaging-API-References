@@ -24,7 +24,7 @@ public class WmfGraphicObject : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [Index](index) { get; set; } | Gets or sets the index. |
+| [Index](../../aspose.imaging.fileformats.wmf.objects/wmfgraphicobject/index) { get; set; } | Gets or sets the index. |
 
 ### See Also
 

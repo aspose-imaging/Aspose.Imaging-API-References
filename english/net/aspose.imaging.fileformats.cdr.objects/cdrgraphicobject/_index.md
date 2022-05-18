@@ -18,10 +18,19 @@ public abstract class CdrGraphicObject : CdrObject
 
 | Name | Description |
 | --- | --- |
-| [BoundsInPixels](boundsinpixels) { get; set; } | Gets or sets the bounds in pixels. |
-| [ClipId](clipid) { get; set; } | Gets or sets the clip identifier. |
-| [Height](height) { get; set; } | Gets or sets the y. |
-| [Width](width) { get; set; } | Gets or sets the x. |
+| [BoundsInPixels](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/boundsinpixels) { get; set; } | Gets or sets the bounds in pixels. |
+| [ClipId](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/clipid) { get; set; } | Gets or sets the clip identifier. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
+| [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | Gets or sets the document. |
+| [Height](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/height) { get; set; } | Gets or sets the y. |
+| [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | Gets or sets the parent. |
+| [Width](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/width) { get; set; } | Gets or sets the x. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
 
 ### See Also
 

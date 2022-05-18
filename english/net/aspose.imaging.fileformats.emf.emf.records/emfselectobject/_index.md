@@ -25,7 +25,9 @@ public sealed class EmfSelectObject : EmfRecord
 
 | Name | Description |
 | --- | --- |
-| [ObjectHandle](objecthandle) { get; set; } | Gets or sets 32-bit unsigned integer that specifies either the index of a graphics object in the EMF Object Table or the index of a stock object from the [`EmfStockObject`](../../aspose.imaging.fileformats.emf.emf.consts/emfstockobject) enumeration. |
+| [ObjectHandle](../../aspose.imaging.fileformats.emf.emf.records/emfselectobject/objecthandle) { get; set; } | Gets or sets 32-bit unsigned integer that specifies either the index of a graphics object in the EMF Object Table or the index of a stock object from the [`EmfStockObject`](../../aspose.imaging.fileformats.emf.emf.consts/emfstockobject) enumeration. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

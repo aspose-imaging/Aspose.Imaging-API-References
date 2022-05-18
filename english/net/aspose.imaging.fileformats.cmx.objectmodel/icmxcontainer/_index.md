@@ -18,7 +18,7 @@ public interface ICmxContainer : ICmxDocElement
 
 | Name | Description |
 | --- | --- |
-| [Elements](elements) { get; } | Gets the elements. |
+| [Elements](../../aspose.imaging.fileformats.cmx.objectmodel/icmxcontainer/elements) { get; } | Gets the elements. |
 
 ### See Also
 

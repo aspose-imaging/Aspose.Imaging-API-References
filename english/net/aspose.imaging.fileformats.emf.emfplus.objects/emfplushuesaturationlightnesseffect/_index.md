@@ -24,9 +24,9 @@ public sealed class EmfPlusHueSaturationLightnessEffect : EmfPlusImageEffectsObj
 
 | Name | Description |
 | --- | --- |
-| [HueLevel](huelevel) { get; set; } | Gets or sets the Specifies the adjustment to the hue. -180 ≤ value &lt; 0 Negative values specify clockwise rotation on the color wheel. 0 A value of 0 specifies that the hue MUST NOT change. 0 &lt; value ≤ 180 Positive values specify counter-clockwise rotation on the color wheel. |
-| [LightnessLevel](lightnesslevel) { get; set; } | Gets or sets the Specifies the adjustment to the lightness. -100 ≤ value &lt; 0 Negative values specify decreasing lightness. 0 A value of 0 specifies that the lightness MUST NOT change. 0 &lt; value ≤ 100 Positive values specify increasing lightness. |
-| [SaturationLevel](saturationlevel) { get; set; } | Gets or sets the Specifies the adjustment to the saturation. -100 ≤ value &lt; 0 Negative values specify decreasing saturation. 0 A value of 0 specifies that the saturation MUST NOT change. 0 &lt; value ≤ 100 Positive values specify increasing saturation. |
+| [HueLevel](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplushuesaturationlightnesseffect/huelevel) { get; set; } | Gets or sets the Specifies the adjustment to the hue. -180 ≤ value &lt; 0 Negative values specify clockwise rotation on the color wheel. 0 A value of 0 specifies that the hue MUST NOT change. 0 &lt; value ≤ 180 Positive values specify counter-clockwise rotation on the color wheel. |
+| [LightnessLevel](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplushuesaturationlightnesseffect/lightnesslevel) { get; set; } | Gets or sets the Specifies the adjustment to the lightness. -100 ≤ value &lt; 0 Negative values specify decreasing lightness. 0 A value of 0 specifies that the lightness MUST NOT change. 0 &lt; value ≤ 100 Positive values specify increasing lightness. |
+| [SaturationLevel](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplushuesaturationlightnesseffect/saturationlevel) { get; set; } | Gets or sets the Specifies the adjustment to the saturation. -100 ≤ value &lt; 0 Negative values specify decreasing saturation. 0 A value of 0 specifies that the saturation MUST NOT change. 0 &lt; value ≤ 100 Positive values specify increasing saturation. |
 
 ### See Also
 

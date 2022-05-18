@@ -24,8 +24,11 @@ public class OdEllipticalQundrant : OdGraphicObject
 
 | Name | Description |
 | --- | --- |
-| [AxisX](axisx) { get; set; } | Gets or sets a value indicating whether [axis x]. |
-| [Point](point) { get; set; } | Gets or sets the point. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Gets or sets a value indicating whether [absolute coordinates]. |
+| [AxisX](../../aspose.imaging.fileformats.opendocument.objects.graphic/odellipticalqundrant/axisx) { get; set; } | Gets or sets a value indicating whether [axis x]. |
+| [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Gets the items. |
+| [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Gets the parent object. |
+| [Point](../../aspose.imaging.fileformats.opendocument.objects.graphic/odellipticalqundrant/point) { get; set; } | Gets or sets the point. |
 
 ### See Also
 

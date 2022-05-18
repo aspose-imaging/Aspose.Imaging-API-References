@@ -25,7 +25,9 @@ public sealed class EmfSetMapMode : EmfRecord
 
 | Name | Description |
 | --- | --- |
-| [MapMode](mapmode) { get; set; } | Gets or sets the map mode. |
+| [MapMode](../../aspose.imaging.fileformats.emf.emf.records/emfsetmapmode/mapmode) { get; set; } | Gets or sets the map mode. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

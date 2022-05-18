@@ -18,26 +18,26 @@ public sealed class DicomImageInfo
 
 | Name | Description |
 | --- | --- |
-| [BitsAllocated](bitsallocated) { get; } | Gets a value of the "bitsAllocated". |
-| [Blues](blues) { get; } | Gets the array colors of the blue |
-| [DicomHeaderInfoByBytes](dicomheaderinfobybytes) { get; } | Gets the dicom header information by bytes. |
-| [DicomInfo](dicominfo) { get; } | Gets the header information of the DICOM file. |
-| [Greens](greens) { get; } | Gets the array colors of the green |
-| [Height](height) { get; } | Gets the height. |
-| [IsLittleEndian](islittleendian) { get; } | Gets a value indicating whether this instance is little endian. |
-| [NumberOfFrames](numberofframes) { get; } | Gets the number of frames. |
-| [Offset](offset) { get; } | Gets the offset. |
-| [PhotoInterpretation](photointerpretation) { get; } | Gets a value of the "PhotoInterpretation". |
-| [PixelRepresentation](pixelrepresentation) { get; } | Gets a value of the pixel "pixelRepresentation". |
-| [PlanarConfiguration](planarconfiguration) { get; } | Gets the planar configuration. |
-| [Reds](reds) { get; } | Gets the array colors of the red |
-| [RescaleIntercept](rescaleintercept) { get; } | Gets a value of the "rescaleIntercept". |
-| [RescaleSlope](rescaleslope) { get; } | Gets a value of the "rescaleSlope". |
-| [SamplesPerPixel](samplesperpixel) { get; } | Gets a value of the "samplesPerPixel". |
-| [SignedImage](signedimage) { get; } | Gets a value indicating whether "signedImage". |
-| [Width](width) { get; } | Gets the width. |
-| [WindowCentre](windowcentre) { get; } | Gets the window centre. |
-| [WindowWidth](windowwidth) { get; } | Gets the width of the window. |
+| [BitsAllocated](../../aspose.imaging.fileformats.dicom/dicomimageinfo/bitsallocated) { get; } | Gets a value of the "bitsAllocated". |
+| [Blues](../../aspose.imaging.fileformats.dicom/dicomimageinfo/blues) { get; } | Gets the array colors of the blue |
+| [DicomHeaderInfoByBytes](../../aspose.imaging.fileformats.dicom/dicomimageinfo/dicomheaderinfobybytes) { get; } | Gets the dicom header information by bytes. |
+| [DicomInfo](../../aspose.imaging.fileformats.dicom/dicomimageinfo/dicominfo) { get; } | Gets the header information of the DICOM file. |
+| [Greens](../../aspose.imaging.fileformats.dicom/dicomimageinfo/greens) { get; } | Gets the array colors of the green |
+| [Height](../../aspose.imaging.fileformats.dicom/dicomimageinfo/height) { get; } | Gets the height. |
+| [IsLittleEndian](../../aspose.imaging.fileformats.dicom/dicomimageinfo/islittleendian) { get; } | Gets a value indicating whether this instance is little endian. |
+| [NumberOfFrames](../../aspose.imaging.fileformats.dicom/dicomimageinfo/numberofframes) { get; } | Gets the number of frames. |
+| [Offset](../../aspose.imaging.fileformats.dicom/dicomimageinfo/offset) { get; } | Gets the offset. |
+| [PhotoInterpretation](../../aspose.imaging.fileformats.dicom/dicomimageinfo/photointerpretation) { get; } | Gets a value of the "PhotoInterpretation". |
+| [PixelRepresentation](../../aspose.imaging.fileformats.dicom/dicomimageinfo/pixelrepresentation) { get; } | Gets a value of the pixel "pixelRepresentation". |
+| [PlanarConfiguration](../../aspose.imaging.fileformats.dicom/dicomimageinfo/planarconfiguration) { get; } | Gets the planar configuration. |
+| [Reds](../../aspose.imaging.fileformats.dicom/dicomimageinfo/reds) { get; } | Gets the array colors of the red |
+| [RescaleIntercept](../../aspose.imaging.fileformats.dicom/dicomimageinfo/rescaleintercept) { get; } | Gets a value of the "rescaleIntercept". |
+| [RescaleSlope](../../aspose.imaging.fileformats.dicom/dicomimageinfo/rescaleslope) { get; } | Gets a value of the "rescaleSlope". |
+| [SamplesPerPixel](../../aspose.imaging.fileformats.dicom/dicomimageinfo/samplesperpixel) { get; } | Gets a value of the "samplesPerPixel". |
+| [SignedImage](../../aspose.imaging.fileformats.dicom/dicomimageinfo/signedimage) { get; } | Gets a value indicating whether "signedImage". |
+| [Width](../../aspose.imaging.fileformats.dicom/dicomimageinfo/width) { get; } | Gets the width. |
+| [WindowCentre](../../aspose.imaging.fileformats.dicom/dicomimageinfo/windowcentre) { get; } | Gets the window centre. |
+| [WindowWidth](../../aspose.imaging.fileformats.dicom/dicomimageinfo/windowwidth) { get; } | Gets the width of the window. |
 
 ### See Also
 

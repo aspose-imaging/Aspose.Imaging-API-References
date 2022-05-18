@@ -24,8 +24,8 @@ public sealed class EmfPlusBrightnessContrastEffect : EmfPlusImageEffectsObjectT
 
 | Name | Description |
 | --- | --- |
-| [BrightnessLevel](brightnesslevel) { get; set; } | Gets or sets a 32-bit signed integer that specifies the brightness level. This value MUST be in the range -255 through 255, with effects as follows: -255 ≤ value &lt; 0 As the value decreases, the brightness of the image SHOULD decrease. 0 A value of 0 specifies that the brightness MUST NOT change. 0 &lt; value ≤ 255 As the value increases, the brightness of the image SHOULD increase. |
-| [ContrastLevel](contrastlevel) { get; set; } | Gets or sets a 32-bit signed integer that specifies the contrast level. This value MUST be in the range -100 through 100, with effects as follows: -100 ≤ value &lt; 0 As the value decreases, the contrast of the image SHOULD decrease. 0 A value of 0 specifies that the contrast MUST NOT change. 0 &lt; value ≤ 100 As the value increases, the contrast of the image SHOULD increase. |
+| [BrightnessLevel](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrightnesscontrasteffect/brightnesslevel) { get; set; } | Gets or sets a 32-bit signed integer that specifies the brightness level. This value MUST be in the range -255 through 255, with effects as follows: -255 ≤ value &lt; 0 As the value decreases, the brightness of the image SHOULD decrease. 0 A value of 0 specifies that the brightness MUST NOT change. 0 &lt; value ≤ 255 As the value increases, the brightness of the image SHOULD increase. |
+| [ContrastLevel](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrightnesscontrasteffect/contrastlevel) { get; set; } | Gets or sets a 32-bit signed integer that specifies the contrast level. This value MUST be in the range -100 through 100, with effects as follows: -100 ≤ value &lt; 0 As the value decreases, the contrast of the image SHOULD decrease. 0 A value of 0 specifies that the contrast MUST NOT change. 0 &lt; value ≤ 100 As the value increases, the contrast of the image SHOULD increase. |
 
 ### See Also
 

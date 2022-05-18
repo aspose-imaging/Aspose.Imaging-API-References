@@ -27,7 +27,7 @@ public class LimitMemoryException : OutOfMemoryException
 
 | Name | Description |
 | --- | --- |
-| [ReduceMemoryFactor](reducememoryfactor) { get; set; } | Gets or sets the reduce memory factor. |
+| [ReduceMemoryFactor](../../aspose.imaging.coreexceptions/limitmemoryexception/reducememoryfactor) { get; set; } | Gets or sets the reduce memory factor. |
 
 ### See Also
 

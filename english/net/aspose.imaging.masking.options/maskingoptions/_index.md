@@ -24,12 +24,12 @@ public class MaskingOptions
 
 | Name | Description |
 | --- | --- |
-| [Args](args) { get; set; } | Gets or sets the arguments for segmentation algorithm. |
-| [BackgroundReplacementColor](backgroundreplacementcolor) { get; set; } | Gets or sets the background replacement color. |
-| [Decompose](decompose) { get; set; } | Gets or sets a value indicating whether needless to separate each Shape from mask as individual object or as united object from mask separated from background. |
-| [ExportOptions](exportoptions) { get; set; } | Gets or sets the image export options. |
-| [MaskingArea](maskingarea) { get; set; } | Gets or sets the masking area. |
-| [Method](method) { get; set; } | Gets or sets the segmentation method. |
+| [Args](../../aspose.imaging.masking.options/maskingoptions/args) { get; set; } | Gets or sets the arguments for segmentation algorithm. |
+| [BackgroundReplacementColor](../../aspose.imaging.masking.options/maskingoptions/backgroundreplacementcolor) { get; set; } | Gets or sets the background replacement color. |
+| [Decompose](../../aspose.imaging.masking.options/maskingoptions/decompose) { get; set; } | Gets or sets a value indicating whether needless to separate each Shape from mask as individual object or as united object from mask separated from background. |
+| [ExportOptions](../../aspose.imaging.masking.options/maskingoptions/exportoptions) { get; set; } | Gets or sets the image export options. |
+| [MaskingArea](../../aspose.imaging.masking.options/maskingoptions/maskingarea) { get; set; } | Gets or sets the masking area. |
+| [Method](../../aspose.imaging.masking.options/maskingoptions/method) { get; set; } | Gets or sets the segmentation method. |
 
 ### Examples
 

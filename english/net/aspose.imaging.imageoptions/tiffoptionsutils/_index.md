@@ -24,7 +24,7 @@ public class TiffOptionsUtils
 
 | Name | Description |
 | --- | --- |
-| static [GetValidTagsCount](getvalidtagscount)(TiffDataType[]) | Gets the valid tags count. |
+| static [GetValidTagsCount](../../aspose.imaging.imageoptions/tiffoptionsutils/getvalidtagscount)(TiffDataType[]) | Gets the valid tags count. |
 
 ### See Also
 

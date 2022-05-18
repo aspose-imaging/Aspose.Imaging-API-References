@@ -24,7 +24,9 @@ public sealed class EmfForceUfiMapping : EmfStateRecordType
 
 | Name | Description |
 | --- | --- |
-| [Ufi](ufi) { get; set; } | Gets or sets the font id to use, specified as a UniversalFontId (section 2.2.27). |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
+| [Ufi](../../aspose.imaging.fileformats.emf.emf.records/emfforceufimapping/ufi) { get; set; } | Gets or sets the font id to use, specified as a UniversalFontId (section 2.2.27). |
 
 ### See Also
 

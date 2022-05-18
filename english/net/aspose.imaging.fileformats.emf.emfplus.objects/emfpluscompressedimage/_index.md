@@ -24,7 +24,7 @@ public sealed class EmfPlusCompressedImage : EmfPlusBaseBitmapData
 
 | Name | Description |
 | --- | --- |
-| [CompressedImageData](compressedimagedata) { get; set; } | Gets or sets an array of bytes, which specify the compressed image. The type of compression MUST be determined from the data itself. |
+| [CompressedImageData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompressedimage/compressedimagedata) { get; set; } | Gets or sets an array of bytes, which specify the compressed image. The type of compression MUST be determined from the data itself. |
 
 ### See Also
 

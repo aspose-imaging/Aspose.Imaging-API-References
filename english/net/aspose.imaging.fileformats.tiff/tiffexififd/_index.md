@@ -25,8 +25,8 @@ public class TiffExifIfd
 
 | Name | Description |
 | --- | --- |
-| [HasValue](hasvalue) { get; } | Gets a value indicating whether this instance has value. |
-| [Offset](offset) { get; set; } | Gets or sets the pointer to EXIF IFD. |
+| [HasValue](../../aspose.imaging.fileformats.tiff/tiffexififd/hasvalue) { get; } | Gets a value indicating whether this instance has value. |
+| [Offset](../../aspose.imaging.fileformats.tiff/tiffexififd/offset) { get; set; } | Gets or sets the pointer to EXIF IFD. |
 
 ### Remarks
 

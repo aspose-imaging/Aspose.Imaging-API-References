@@ -26,26 +26,28 @@ public sealed class StringFormat : DisposableObject
 
 | Name | Description |
 | --- | --- |
-| static [GenericDefault](genericdefault) { get; } | Gets a generic default [`StringFormat`](../stringformat) object. |
-| static [GenericTypographic](generictypographic) { get; } | Gets a generic typographic [`StringFormat`](../stringformat) object. |
-| [Alignment](alignment) { get; set; } | Gets or sets text alignment information on the vertical plane. |
-| [CustomCharIdent](customcharident) { get; set; } | Gets or sets the custom character ident. |
-| [DigitSubstitutionLanguage](digitsubstitutionlanguage) { get; set; } | Gets or sets the language that is used when local digits are substituted for western digits. |
-| [DigitSubstitutionMethod](digitsubstitutionmethod) { get; set; } | Gets or sets the method to be used for digit substitution. |
-| [FirstTabOffset](firsttaboffset) { get; } | Gets the number of spaces between the beginning of a line of text and the first tab stop. |
-| [FormatFlags](formatflags) { get; set; } | Gets or sets a [`StringFormatFlags`](../stringformatflags) enumeration that contains formatting information. |
-| [HotkeyPrefix](hotkeyprefix) { get; set; } | Gets or sets the [`HotkeyPrefix`](../hotkeyprefix) object for this [`StringFormat`](../stringformat) object. |
-| [LineAlignment](linealignment) { get; set; } | Gets or sets the line alignment on the horizontal plane. |
-| [TabStops](tabstops) { get; } | Gets an array of distances between tab stops in the units specified by the [`PageUnit`](../graphics/pageunit) property. |
-| [Trimming](trimming) { get; set; } | Gets or sets the [`StringTrimming`](../stringtrimming) enumeration for this [`StringFormat`](../stringformat) object. |
+| static [GenericDefault](../../aspose.imaging/stringformat/genericdefault) { get; } | Gets a generic default [`StringFormat`](../stringformat) object. |
+| static [GenericTypographic](../../aspose.imaging/stringformat/generictypographic) { get; } | Gets a generic typographic [`StringFormat`](../stringformat) object. |
+| [Alignment](../../aspose.imaging/stringformat/alignment) { get; set; } | Gets or sets text alignment information on the vertical plane. |
+| [CustomCharIdent](../../aspose.imaging/stringformat/customcharident) { get; set; } | Gets or sets the custom character ident. |
+| [DigitSubstitutionLanguage](../../aspose.imaging/stringformat/digitsubstitutionlanguage) { get; set; } | Gets or sets the language that is used when local digits are substituted for western digits. |
+| [DigitSubstitutionMethod](../../aspose.imaging/stringformat/digitsubstitutionmethod) { get; set; } | Gets or sets the method to be used for digit substitution. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
+| [FirstTabOffset](../../aspose.imaging/stringformat/firsttaboffset) { get; } | Gets the number of spaces between the beginning of a line of text and the first tab stop. |
+| [FormatFlags](../../aspose.imaging/stringformat/formatflags) { get; set; } | Gets or sets a [`StringFormatFlags`](../stringformatflags) enumeration that contains formatting information. |
+| [HotkeyPrefix](../../aspose.imaging/stringformat/hotkeyprefix) { get; set; } | Gets or sets the [`HotkeyPrefix`](../hotkeyprefix) object for this [`StringFormat`](../stringformat) object. |
+| [LineAlignment](../../aspose.imaging/stringformat/linealignment) { get; set; } | Gets or sets the line alignment on the horizontal plane. |
+| [TabStops](../../aspose.imaging/stringformat/tabstops) { get; } | Gets an array of distances between tab stops in the units specified by the [`PageUnit`](../graphics/pageunit) property. |
+| [Trimming](../../aspose.imaging/stringformat/trimming) { get; set; } | Gets or sets the [`StringTrimming`](../stringtrimming) enumeration for this [`StringFormat`](../stringformat) object. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [DeepClone](deepclone)() | Creates a deep clone of this [`StringFormat`](../stringformat) object. |
-| [SetTabStops](settabstops)(float, float[]) | Sets tab stops for this [`StringFormat`](../stringformat) object. |
-| override [ToString](tostring)() | Converts this [`StringFormat`](../stringformat) object to a human-readable string. |
+| [DeepClone](../../aspose.imaging/stringformat/deepclone)() | Creates a deep clone of this [`StringFormat`](../stringformat) object. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
+| [SetTabStops](../../aspose.imaging/stringformat/settabstops)(float, float[]) | Sets tab stops for this [`StringFormat`](../stringformat) object. |
+| override [ToString](../../aspose.imaging/stringformat/tostring)() | Converts this [`StringFormat`](../stringformat) object to a human-readable string. |
 
 ### See Also
 

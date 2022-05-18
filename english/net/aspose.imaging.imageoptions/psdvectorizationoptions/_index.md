@@ -24,7 +24,7 @@ public class PsdVectorizationOptions
 
 | Name | Description |
 | --- | --- |
-| [VectorDataCompositionMode](vectordatacompositionmode) { get; set; } | Gets or sets the vector data composition mode. Defines the vector data composition mode that is used on export from vector formats to PSD. |
+| [VectorDataCompositionMode](../../aspose.imaging.imageoptions/psdvectorizationoptions/vectordatacompositionmode) { get; set; } | Gets or sets the vector data composition mode. Defines the vector data composition mode that is used on export from vector formats to PSD. |
 
 ### See Also
 

@@ -25,15 +25,15 @@ public sealed class Blend
 
 | Name | Description |
 | --- | --- |
-| [Factors](factors) { get; set; } | Gets or sets the array of blend factors for the gradient. |
-| [Positions](positions) { get; set; } | Gets or sets the array of blend positions for the gradient. |
+| [Factors](../../aspose.imaging/blend/factors) { get; set; } | Gets or sets the array of blend factors for the gradient. |
+| [Positions](../../aspose.imaging/blend/positions) { get; set; } | Gets or sets the array of blend positions for the gradient. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Tests whether the specified object is a [`Blend`](../blend) class and is equivalent to this [`Blend`](../blend) class. |
-| override [GetHashCode](gethashcode)() | Returns a hash code for this instance. |
+| override [Equals](../../aspose.imaging/blend/equals)(object) | Tests whether the specified object is a [`Blend`](../blend) class and is equivalent to this [`Blend`](../blend) class. |
+| override [GetHashCode](../../aspose.imaging/blend/gethashcode)() | Returns a hash code for this instance. |
 
 ### Remarks
 

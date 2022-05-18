@@ -20,6 +20,13 @@ public sealed class EmfCloseFigure : EmfPathBracketRecordType
 | --- | --- |
 | [EmfCloseFigure](emfclosefigure)() | The default constructor. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
+
 ### Remarks
 
 Note: A figure can be open even if the current point and the starting point of the figure are the same. After processing the EMR_CLOSEFIGURE record, adding a line or curve to the path MUST start a new figure.

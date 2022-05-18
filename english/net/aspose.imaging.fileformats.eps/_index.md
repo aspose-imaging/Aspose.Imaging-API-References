@@ -16,7 +16,7 @@ The namespace contains EPS format type
 | [EpsImage](./epsimage) | Base class for EPS format |
 | [EpsInterchangeImage](./epsinterchangeimage) | Class for Encapsulated PostScript Interchange format |
 | [EpsLoadOptions](./epsloadoptions) | EPS load options |
-| [EpsOptions](./epsoptions) | EPS options (currently not used) |
+| [EpsOptions](./epsoptions) | EPS options (../currently not used) |
 ## Enumeration
 
 | Enumeration | Description |

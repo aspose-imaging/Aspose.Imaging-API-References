@@ -24,8 +24,8 @@ public class WmfSetPolyFillMode : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [PolyFillMode](polyfillmode) { get; set; } | Gets or sets the poly fill mode. |
-| [Reserved](reserved) { get; set; } | Gets or sets the reserved. |
+| [PolyFillMode](../../aspose.imaging.fileformats.wmf.objects/wmfsetpolyfillmode/polyfillmode) { get; set; } | Gets or sets the poly fill mode. |
+| [Reserved](../../aspose.imaging.fileformats.wmf.objects/wmfsetpolyfillmode/reserved) { get; set; } | Gets or sets the reserved. |
 
 ### See Also
 

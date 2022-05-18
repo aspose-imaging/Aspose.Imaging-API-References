@@ -18,12 +18,12 @@ public abstract class XmpElementBase : IEquatable<XmpElementBase>
 
 | Name | Description |
 | --- | --- |
-| virtual [AddAttribute](addattribute)(string, string) | Adds the attribute. |
-| virtual [ClearAttributes](clearattributes)() | Removes all attributes. |
-| override [Equals](equals)(object) | Determines whether the specified Object, is equal to this instance. |
-| [Equals](equals)(XmpElementBase) | Indicates whether the current object is equal to another object of the same type. |
-| virtual [GetAttribute](getattribute)(string) | Gets the attribute. |
-| override [GetHashCode](gethashcode)() | Returns a hash code for this instance. |
+| virtual [AddAttribute](../../aspose.imaging.xmp/xmpelementbase/addattribute)(string, string) | Adds the attribute. |
+| virtual [ClearAttributes](../../aspose.imaging.xmp/xmpelementbase/clearattributes)() | Removes all attributes. |
+| override [Equals](../../aspose.imaging.xmp/xmpelementbase/equals)(object) | Determines whether the specified Object, is equal to this instance. |
+| [Equals](../../aspose.imaging.xmp/xmpelementbase/equals)(XmpElementBase) | Indicates whether the current object is equal to another object of the same type. |
+| virtual [GetAttribute](../../aspose.imaging.xmp/xmpelementbase/getattribute)(string) | Gets the attribute. |
+| override [GetHashCode](../../aspose.imaging.xmp/xmpelementbase/gethashcode)() | Returns a hash code for this instance. |
 
 ### See Also
 

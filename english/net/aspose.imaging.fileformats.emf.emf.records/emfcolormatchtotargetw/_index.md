@@ -24,13 +24,15 @@ public sealed class EmfColorMatchToTargetW : EmfStateRecordType
 
 | Name | Description |
 | --- | --- |
-| [CbData](cbdata) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the size of the raw data of the target color profile, if it is contained in the Data field. |
-| [CbName](cbname) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the number of bytes in the Unicode UTF16-LE name of the desired color profile. |
-| [Data](data) { get; set; } | Gets or sets an array of size (cbName + cbData) in bytes, which specifies the UTF16-LE name and raw data of the desired color profile. |
-| [DwAction](dwaction) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies a value from the ColorSpace enumeration (section 2.1.7). |
-| [DwFlags](dwflags) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies a value from the ColorMatchToTarget enumeration (section 2.1.6). |
-| [Name](name) { get; } | Gets the name |
-| [RawData](rawdata) { get; } | Gets the raw data |
+| [CbData](../../aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/cbdata) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the size of the raw data of the target color profile, if it is contained in the Data field. |
+| [CbName](../../aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/cbname) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the number of bytes in the Unicode UTF16-LE name of the desired color profile. |
+| [Data](../../aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/data) { get; set; } | Gets or sets an array of size (cbName + cbData) in bytes, which specifies the UTF16-LE name and raw data of the desired color profile. |
+| [DwAction](../../aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/dwaction) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies a value from the ColorSpace enumeration (section 2.1.7). |
+| [DwFlags](../../aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/dwflags) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies a value from the ColorMatchToTarget enumeration (section 2.1.6). |
+| [Name](../../aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/name) { get; } | Gets the name |
+| [RawData](../../aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/rawdata) { get; } | Gets the raw data |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### Remarks
 

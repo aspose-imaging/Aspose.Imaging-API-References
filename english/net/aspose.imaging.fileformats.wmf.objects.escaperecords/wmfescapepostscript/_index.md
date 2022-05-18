@@ -24,7 +24,10 @@ public class WmfEscapePostScript : WmfEscapeRecordBase
 
 | Name | Description |
 | --- | --- |
-| [PostScriptPart](postscriptpart) { get; set; } | Gets or sets the post script part. |
+| [ByteCount](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/bytecount) { get; set; } | Gets or sets the byte count. |
+| virtual [Checked](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/checked) { get; set; } | Gets a value indicating whether this [`WmfEscapeRecordBase`](../wmfescaperecordbase) is checked. |
+| [Data](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/data) { get; set; } | Gets or sets the data. |
+| [PostScriptPart](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapepostscript/postscriptpart) { get; set; } | Gets or sets the post script part. |
 
 ### See Also
 

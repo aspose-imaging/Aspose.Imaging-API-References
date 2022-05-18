@@ -18,7 +18,9 @@ public abstract class EmfTransformRecordType : EmfRecord
 
 | Name | Description |
 | --- | --- |
-| [Xform](xform) { get; set; } | Gets or sets an XForm object (section 2.2.28), which defines a world-space to page space transform. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
+| [Xform](../../aspose.imaging.fileformats.emf.emf.records/emftransformrecordtype/xform) { get; set; } | Gets or sets an XForm object (section 2.2.28), which defines a world-space to page space transform. |
 
 ### See Also
 

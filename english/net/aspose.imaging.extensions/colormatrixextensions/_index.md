@@ -18,7 +18,7 @@ public static class ColorMatrixExtensions
 
 | Name | Description |
 | --- | --- |
-| static [ToGdiColorMatrix](togdicolormatrix)(ColorMatrix) | Converts the [`ColorMatrix`](../../aspose.imaging/colormatrix) to the ColorMatrix. |
+| static [ToGdiColorMatrix](../../aspose.imaging.extensions/colormatrixextensions/togdicolormatrix)(ColorMatrix) | Converts the [`ColorMatrix`](../../aspose.imaging/colormatrix) to the ColorMatrix. |
 
 ### See Also
 

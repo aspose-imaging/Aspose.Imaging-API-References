@@ -24,7 +24,7 @@ public sealed class EmfPlusRectF : EmfPlusStructureObjectType
 
 | Name | Description |
 | --- | --- |
-| [Rect](rect) { get; set; } | Gets or sets the rectangle. |
+| [Rect](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusrectf/rect) { get; set; } | Gets or sets the rectangle. |
 
 ### See Also
 

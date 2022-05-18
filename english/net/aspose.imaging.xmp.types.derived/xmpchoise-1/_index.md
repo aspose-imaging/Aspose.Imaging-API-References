@@ -28,13 +28,13 @@ public class XmpChoise<T> : XmpTypeBase
 
 | Name | Description |
 | --- | --- |
-| [IsOpen](isopen) { get; set; } | Gets or sets a value indicating whether the preferred values can be extended. |
+| [IsOpen](../../aspose.imaging.xmp.types.derived/xmpchoise`1/isopen) { get; set; } | Gets or sets a value indicating whether the preferred values can be extended. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetXmpRepresentation](getxmprepresentation)() | Gets the string contained value in XMP format. |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.types.derived/xmpchoise`1/getxmprepresentation)() | Gets the string contained value in XMP format. |
 
 ### See Also
 

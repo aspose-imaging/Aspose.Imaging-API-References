@@ -27,8 +27,10 @@ public sealed class EmfCreateBrushIndirect : EmfObjectCreationRecordType
 
 | Name | Description |
 | --- | --- |
-| [IhBrush](ihbrush) { get; set; } | Gets or sets A 32-bit unsigned integer that specifies the index of the logical brush object in the EMF Object Table (section 3.1.1.1). This index MUST be saved so that this object can be reused or modified. |
-| [LogBrush](logbrush) { get; set; } | Gets or sets A LogBrushEx object (section 2.2.12) that specifies the style, color, and pattern of the logical brush. The BrushStyle field in this object MUST be BS_SOLID, BS_HATCHED, or BS_NULL. |
+| [IhBrush](../../aspose.imaging.fileformats.emf.emf.records/emfcreatebrushindirect/ihbrush) { get; set; } | Gets or sets A 32-bit unsigned integer that specifies the index of the logical brush object in the EMF Object Table (section 3.1.1.1). This index MUST be saved so that this object can be reused or modified. |
+| [LogBrush](../../aspose.imaging.fileformats.emf.emf.records/emfcreatebrushindirect/logbrush) { get; set; } | Gets or sets A LogBrushEx object (section 2.2.12) that specifies the style, color, and pattern of the logical brush. The BrushStyle field in this object MUST be BS_SOLID, BS_HATCHED, or BS_NULL. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

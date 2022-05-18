@@ -24,8 +24,8 @@ public class CustomFontData
 
 | Name | Description |
 | --- | --- |
-| [FontData](fontdata) { get; } | Gets the font data. |
-| [FontName](fontname) { get; } | Gets the name of the font. |
+| [FontData](../../aspose.imaging.customfonthandler/customfontdata/fontdata) { get; } | Gets the font data. |
+| [FontName](../../aspose.imaging.customfonthandler/customfontdata/fontname) { get; } | Gets the name of the font. |
 
 ### See Also
 

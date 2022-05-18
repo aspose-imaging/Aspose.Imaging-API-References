@@ -24,16 +24,16 @@ public class WmfDibStrechBlt : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [DestHeight](destheight) { get; set; } | Gets or sets the height of the dest. |
-| [DestWidth](destwidth) { get; set; } | Gets or sets the width of the dest. |
-| [RasterOperation](rasteroperation) { get; set; } | Gets or sets the raster operation. |
-| [SourceBitmap](sourcebitmap) { get; set; } | Gets or sets the source bitmap. |
-| [SrcHeight](srcheight) { get; set; } | Gets or sets the height of the source. |
-| [SrcWidth](srcwidth) { get; set; } | Gets or sets the width of the source. |
-| [XDest](xdest) { get; set; } | Gets or sets the x dest. |
-| [XSrc](xsrc) { get; set; } | Gets or sets the x source. |
-| [YDest](ydest) { get; set; } | Gets or sets the y dest. |
-| [YSrc](ysrc) { get; set; } | Gets or sets the y source. |
+| [DestHeight](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/destheight) { get; set; } | Gets or sets the height of the dest. |
+| [DestWidth](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/destwidth) { get; set; } | Gets or sets the width of the dest. |
+| [RasterOperation](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/rasteroperation) { get; set; } | Gets or sets the raster operation. |
+| [SourceBitmap](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/sourcebitmap) { get; set; } | Gets or sets the source bitmap. |
+| [SrcHeight](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/srcheight) { get; set; } | Gets or sets the height of the source. |
+| [SrcWidth](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/srcwidth) { get; set; } | Gets or sets the width of the source. |
+| [XDest](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/xdest) { get; set; } | Gets or sets the x dest. |
+| [XSrc](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/xsrc) { get; set; } | Gets or sets the x source. |
+| [YDest](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/ydest) { get; set; } | Gets or sets the y dest. |
+| [YSrc](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/ysrc) { get; set; } | Gets or sets the y source. |
 
 ### See Also
 

@@ -24,9 +24,12 @@ public class OdPage : OdGraphicObject
 
 | Name | Description |
 | --- | --- |
-| [MasterPageName](masterpagename) { get; set; } | Gets or sets the name of the master page. |
-| [Name](name) { get; set; } | Gets or sets the name. |
-| [StyleName](stylename) { get; set; } | Gets or sets the name of the style. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Gets or sets a value indicating whether [absolute coordinates]. |
+| [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Gets the items. |
+| [MasterPageName](../../aspose.imaging.fileformats.opendocument.objects.graphic/odpage/masterpagename) { get; set; } | Gets or sets the name of the master page. |
+| [Name](../../aspose.imaging.fileformats.opendocument.objects.graphic/odpage/name) { get; set; } | Gets or sets the name. |
+| [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Gets the parent object. |
+| [StyleName](../../aspose.imaging.fileformats.opendocument.objects.graphic/odpage/stylename) { get; set; } | Gets or sets the name of the style. |
 
 ### See Also
 

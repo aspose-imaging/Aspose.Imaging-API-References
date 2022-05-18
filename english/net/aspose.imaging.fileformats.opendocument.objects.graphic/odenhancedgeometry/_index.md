@@ -24,9 +24,12 @@ public class OdEnhancedGeometry : OdGraphicObject
 
 | Name | Description |
 | --- | --- |
-| [EnhancedPath](enhancedpath) { get; set; } | Gets or sets the enhanced path. |
-| [Type](type) { get; set; } | Gets or sets the type. |
-| [ViewBox](viewbox) { get; set; } | Gets or sets the view box. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Gets or sets a value indicating whether [absolute coordinates]. |
+| [EnhancedPath](../../aspose.imaging.fileformats.opendocument.objects.graphic/odenhancedgeometry/enhancedpath) { get; set; } | Gets or sets the enhanced path. |
+| [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Gets the items. |
+| [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Gets the parent object. |
+| [Type](../../aspose.imaging.fileformats.opendocument.objects.graphic/odenhancedgeometry/type) { get; set; } | Gets or sets the type. |
+| [ViewBox](../../aspose.imaging.fileformats.opendocument.objects.graphic/odenhancedgeometry/viewbox) { get; set; } | Gets or sets the view box. |
 
 ### See Also
 

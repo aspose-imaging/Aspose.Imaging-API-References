@@ -24,9 +24,9 @@ public sealed class EmfPlusTextureBrushData : EmfPlusBaseBrushData
 
 | Name | Description |
 | --- | --- |
-| [BrushDataFlags](brushdataflags) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the data in the OptionalData field. This value MUST be composed of BrushData flags (section 2.1.2.1). The following flags are relevant to a texture brush BrushDataTransform BrushDataIsGammaCorrected BrushDataDoNotTransform |
-| [OptionalData](optionaldata) { get; set; } | Gets or sets an optional EmfPlusTextureBrushOptionalData object (section 2.2.2.46) that specifies additional data for the texture brush. The specific contents of this field are determined by the value of the BrushDataFlags field |
-| [WrapMode](wrapmode) { get; set; } | Gets or sets a 32-bit signed integer from the WrapMode enumeration (section 2.1.1.34) that specifies how to repeat the texture image across a shape, when the image is smaller than the area being filled. |
+| [BrushDataFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushdata/brushdataflags) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the data in the OptionalData field. This value MUST be composed of BrushData flags (section 2.1.2.1). The following flags are relevant to a texture brush BrushDataTransform BrushDataIsGammaCorrected BrushDataDoNotTransform |
+| [OptionalData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushdata/optionaldata) { get; set; } | Gets or sets an optional EmfPlusTextureBrushOptionalData object (section 2.2.2.46) that specifies additional data for the texture brush. The specific contents of this field are determined by the value of the BrushDataFlags field |
+| [WrapMode](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushdata/wrapmode) { get; set; } | Gets or sets a 32-bit signed integer from the WrapMode enumeration (section 2.1.1.34) that specifies how to repeat the texture image across a shape, when the image is smaller than the area being filled. |
 
 ### See Also
 

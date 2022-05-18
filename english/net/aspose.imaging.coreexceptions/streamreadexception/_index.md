@@ -27,8 +27,8 @@ public class StreamReadException : FrameworkException
 
 | Name | Description |
 | --- | --- |
-| [ActualReadCount](actualreadcount) { get; } | Gets the actual read bytes count. |
-| [ExpectedReadCount](expectedreadcount) { get; } | Gets the expected read bytes count. |
+| [ActualReadCount](../../aspose.imaging.coreexceptions/streamreadexception/actualreadcount) { get; } | Gets the actual read bytes count. |
+| [ExpectedReadCount](../../aspose.imaging.coreexceptions/streamreadexception/expectedreadcount) { get; } | Gets the expected read bytes count. |
 
 ### See Also
 

@@ -24,7 +24,7 @@ public class WmfSetBkColor : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [ColorRef](colorref) { get; set; } | Gets or sets the color reference. |
+| [ColorRef](../../aspose.imaging.fileformats.wmf.objects/wmfsetbkcolor/colorref) { get; set; } | Gets or sets the color reference. |
 
 ### See Also
 

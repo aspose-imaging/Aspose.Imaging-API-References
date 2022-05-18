@@ -24,7 +24,9 @@ public sealed class EmfSetIcmMode : EmfStateRecordType
 
 | Name | Description |
 | --- | --- |
-| [IcmMode](icmmode) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies whether to enable or disable ICM, from the ICMMode enumeration (section 2.1.18). This value is part of the state of the playback device context. |
+| [IcmMode](../../aspose.imaging.fileformats.emf.emf.records/emfseticmmode/icmmode) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies whether to enable or disable ICM, from the ICMMode enumeration (section 2.1.18). This value is part of the state of the playback device context. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### Remarks
 

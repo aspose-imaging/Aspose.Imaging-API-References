@@ -18,7 +18,13 @@ public abstract class FileSource : Source
 
 | Name | Description |
 | --- | --- |
-| abstract [IsTemporal](istemporal) { get; } | Gets a value indicating whether file will be temporal. |
+| abstract [IsTemporal](../../aspose.imaging.sources/filesource/istemporal) { get; } | Gets a value indicating whether file will be temporal. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| abstract [GetStreamContainer](../../aspose.imaging/source/getstreamcontainer)() | Gets the stream container. |
 
 ### See Also
 

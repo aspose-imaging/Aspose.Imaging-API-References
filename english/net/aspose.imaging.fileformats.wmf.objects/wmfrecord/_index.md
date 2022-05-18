@@ -24,8 +24,8 @@ public class WmfRecord : MetaObject
 
 | Name | Description |
 | --- | --- |
-| [RecordType](recordtype) { get; set; } | [`RecordType`](./recordtype) number (defined in WINDOWS.H) |
-| [Size](size) { get; set; } | Gets or sets the size. |
+| [RecordType](../../aspose.imaging.fileformats.wmf.objects/wmfrecord/recordtype) { get; set; } | [`RecordType`](./recordtype) number (defined in WINDOWS.H) |
+| [Size](../../aspose.imaging.fileformats.wmf.objects/wmfrecord/size) { get; set; } | Gets or sets the size. |
 
 ### See Also
 

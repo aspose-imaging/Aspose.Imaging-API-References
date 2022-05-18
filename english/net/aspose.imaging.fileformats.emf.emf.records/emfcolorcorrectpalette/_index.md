@@ -24,9 +24,11 @@ public sealed class EmfColorCorrectPalette : EmfObjectManipulationRecordType
 
 | Name | Description |
 | --- | --- |
-| [IhPalette](ihpalette) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies index of a logical palette object (section 2.2.17) in the EMF Object Table (section 3.1.1.1). |
-| [NFirstEntry](nfirstentry) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the index of the first entry to correct. |
-| [NPalEntries](npalentries) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the number of palette entries to correct. |
+| [IhPalette](../../aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/ihpalette) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies index of a logical palette object (section 2.2.17) in the EMF Object Table (section 3.1.1.1). |
+| [NFirstEntry](../../aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/nfirstentry) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the index of the first entry to correct. |
+| [NPalEntries](../../aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/npalentries) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the number of palette entries to correct. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

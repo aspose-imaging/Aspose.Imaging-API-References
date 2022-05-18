@@ -24,8 +24,8 @@ public class CdrGradientStop
 
 | Name | Description |
 | --- | --- |
-| [Color](color) { get; set; } | Gets or sets the color. |
-| [Offset](offset) { get; set; } | Gets or sets the offset. |
+| [Color](../../aspose.imaging.fileformats.cdr.types/cdrgradientstop/color) { get; set; } | Gets or sets the color. |
+| [Offset](../../aspose.imaging.fileformats.cdr.types/cdrgradientstop/offset) { get; set; } | Gets or sets the offset. |
 
 ### See Also
 

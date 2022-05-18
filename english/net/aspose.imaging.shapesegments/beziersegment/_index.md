@@ -24,8 +24,10 @@ public sealed class BezierSegment : LineSegment
 
 | Name | Description |
 | --- | --- |
-| [FirstControlPoint](firstcontrolpoint) { get; } | Gets the first control point of a bezier spline. |
-| [SecondControlPoint](secondcontrolpoint) { get; } | Gets the second control point of a bezier spline. |
+| override [EndPoint](../../aspose.imaging.shapesegments/linesegment/endpoint) { get; } | Gets the ending point. |
+| [FirstControlPoint](../../aspose.imaging.shapesegments/beziersegment/firstcontrolpoint) { get; } | Gets the first control point of a bezier spline. |
+| [SecondControlPoint](../../aspose.imaging.shapesegments/beziersegment/secondcontrolpoint) { get; } | Gets the second control point of a bezier spline. |
+| override [StartPoint](../../aspose.imaging.shapesegments/linesegment/startpoint) { get; } | Gets the starting point. |
 
 ### See Also
 

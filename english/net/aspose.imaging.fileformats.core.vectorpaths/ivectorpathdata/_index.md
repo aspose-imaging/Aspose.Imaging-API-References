@@ -18,11 +18,11 @@ public interface IVectorPathData
 
 | Name | Description |
 | --- | --- |
-| [IsDisabled](isdisabled) { get; set; } | Gets or sets a value indicating whether this instance is disabled. |
-| [IsInverted](isinverted) { get; set; } | Gets or sets a value indicating whether this instance is inverted. |
-| [IsNotLinked](isnotlinked) { get; set; } | Gets or sets a value indicating whether this instance is not linked. |
-| [Paths](paths) { get; set; } | Gets or sets the path records. |
-| [Version](version) { get; set; } | Gets or sets the version. |
+| [IsDisabled](../../aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/isdisabled) { get; set; } | Gets or sets a value indicating whether this instance is disabled. |
+| [IsInverted](../../aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/isinverted) { get; set; } | Gets or sets a value indicating whether this instance is inverted. |
+| [IsNotLinked](../../aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/isnotlinked) { get; set; } | Gets or sets a value indicating whether this instance is not linked. |
+| [Paths](../../aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/paths) { get; set; } | Gets or sets the path records. |
+| [Version](../../aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/version) { get; set; } | Gets or sets the version. |
 
 ### See Also
 

@@ -26,22 +26,22 @@ public class TiffRational
 
 | Name | Description |
 | --- | --- |
-| [Denominator](denominator) { get; } | Gets the denominator. |
-| [Nominator](nominator) { get; } | Gets the nominator. |
-| [Value](value) { get; } | Gets the float value. |
-| [ValueD](valued) { get; } | Gets the double value. |
+| [Denominator](../../aspose.imaging.fileformats.tiff/tiffrational/denominator) { get; } | Gets the denominator. |
+| [Nominator](../../aspose.imaging.fileformats.tiff/tiffrational/nominator) { get; } | Gets the nominator. |
+| [Value](../../aspose.imaging.fileformats.tiff/tiffrational/value) { get; } | Gets the float value. |
+| [ValueD](../../aspose.imaging.fileformats.tiff/tiffrational/valued) { get; } | Gets the double value. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [ApproximateFraction](approximatefraction)(double) | Approximates the provided value to a fraction. |
-| static [ApproximateFraction](approximatefraction)(float) | Approximates the provided value to a fraction. |
-| static [ApproximateFraction](approximatefraction)(double, double) | Approximates the provided value to a fraction. |
-| static [ApproximateFraction](approximatefraction)(float, double) | Approximates the provided value to a fraction. |
-| override [Equals](equals)(object) | Determines whether the specified Object is equal to this instance. |
-| override [GetHashCode](gethashcode)() | Returns a hash code for this instance. |
-| override [ToString](tostring)() | Returns a String that represents this instance. |
+| static [ApproximateFraction](../../aspose.imaging.fileformats.tiff/tiffrational/approximatefraction)(double) | Approximates the provided value to a fraction. |
+| static [ApproximateFraction](../../aspose.imaging.fileformats.tiff/tiffrational/approximatefraction)(float) | Approximates the provided value to a fraction. |
+| static [ApproximateFraction](../../aspose.imaging.fileformats.tiff/tiffrational/approximatefraction)(double, double) | Approximates the provided value to a fraction. |
+| static [ApproximateFraction](../../aspose.imaging.fileformats.tiff/tiffrational/approximatefraction)(float, double) | Approximates the provided value to a fraction. |
+| override [Equals](../../aspose.imaging.fileformats.tiff/tiffrational/equals)(object) | Determines whether the specified Object is equal to this instance. |
+| override [GetHashCode](../../aspose.imaging.fileformats.tiff/tiffrational/gethashcode)() | Returns a hash code for this instance. |
+| override [ToString](../../aspose.imaging.fileformats.tiff/tiffrational/tostring)() | Returns a String that represents this instance. |
 
 ## Other Members
 

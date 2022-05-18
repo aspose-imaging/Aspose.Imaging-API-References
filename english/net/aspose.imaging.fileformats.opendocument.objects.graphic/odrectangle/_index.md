@@ -24,7 +24,12 @@ public class OdRectangle : OdStyledObject
 
 | Name | Description |
 | --- | --- |
-| [CornerRadius](cornerradius) { get; set; } | Gets or sets the corner radius. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Gets or sets a value indicating whether [absolute coordinates]. |
+| [CornerRadius](../../aspose.imaging.fileformats.opendocument.objects.graphic/odrectangle/cornerradius) { get; set; } | Gets or sets the corner radius. |
+| [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Gets the items. |
+| [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Gets the parent object. |
+| [Rectangle](../../aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/rectangle) { get; set; } | Gets or sets the rectangle. |
+| [Style](../../aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/style) { get; set; } | Gets or sets the style. |
 
 ### See Also
 

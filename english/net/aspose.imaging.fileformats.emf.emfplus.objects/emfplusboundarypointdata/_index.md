@@ -24,7 +24,7 @@ public sealed class EmfPlusBoundaryPointData : EmfPlusBoundaryBase
 
 | Name | Description |
 | --- | --- |
-| [BoundaryPointData](boundarypointdata) { get; set; } | Gets or sets an array of BoundaryPointCount EmfPlusPointF objects that specify the boundary of the brush. |
+| [BoundaryPointData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundarypointdata/boundarypointdata) { get; set; } | Gets or sets an array of BoundaryPointCount EmfPlusPointF objects that specify the boundary of the brush. |
 
 ### See Also
 

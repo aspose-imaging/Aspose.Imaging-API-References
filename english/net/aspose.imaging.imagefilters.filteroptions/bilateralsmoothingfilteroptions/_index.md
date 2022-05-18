@@ -25,11 +25,11 @@ public class BilateralSmoothingFilterOptions : FilterOptionsBase
 
 | Name | Description |
 | --- | --- |
-| [ColorFactor](colorfactor) { get; set; } | Gets or sets the color factor. |
-| [ColorPower](colorpower) { get; set; } | Gets or sets the color power. |
-| [Size](size) { get; set; } | Gets or sets the size of the kernel. |
-| [SpatialFactor](spatialfactor) { get; set; } | Gets or sets the spatial factor. |
-| [SpatialPower](spatialpower) { get; set; } | Gets or sets the spatial power. |
+| [ColorFactor](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/colorfactor) { get; set; } | Gets or sets the color factor. |
+| [ColorPower](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/colorpower) { get; set; } | Gets or sets the color power. |
+| [Size](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/size) { get; set; } | Gets or sets the size of the kernel. |
+| [SpatialFactor](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/spatialfactor) { get; set; } | Gets or sets the spatial factor. |
+| [SpatialPower](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/spatialpower) { get; set; } | Gets or sets the spatial power. |
 
 ### Examples
 

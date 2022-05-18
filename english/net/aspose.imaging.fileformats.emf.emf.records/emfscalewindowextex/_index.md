@@ -25,10 +25,12 @@ public sealed class EmfScaleWindowExtex : EmfStateRecordType
 
 | Name | Description |
 | --- | --- |
-| [XDenom](xdenom) { get; set; } | Gets or sets a 32-bit signed integer that specifies the horizontal divisor. MUST NOT be zero. |
-| [XNum](xnum) { get; set; } | Gets or sets a 32-bit signed integer that specifies the horizontal multiplicand. MUST NOT be zero. |
-| [YDenom](ydenom) { get; set; } | Gets or sets a 32-bit signed integer that specifies the vertical divisor. MUST NOT be zero. |
-| [YNum](ynum) { get; set; } | Gets or sets a 32-bit signed integer that specifies the vertical multiplicand. MUST NOT be zero. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
+| [XDenom](../../aspose.imaging.fileformats.emf.emf.records/emfscalewindowextex/xdenom) { get; set; } | Gets or sets a 32-bit signed integer that specifies the horizontal divisor. MUST NOT be zero. |
+| [XNum](../../aspose.imaging.fileformats.emf.emf.records/emfscalewindowextex/xnum) { get; set; } | Gets or sets a 32-bit signed integer that specifies the horizontal multiplicand. MUST NOT be zero. |
+| [YDenom](../../aspose.imaging.fileformats.emf.emf.records/emfscalewindowextex/ydenom) { get; set; } | Gets or sets a 32-bit signed integer that specifies the vertical divisor. MUST NOT be zero. |
+| [YNum](../../aspose.imaging.fileformats.emf.emf.records/emfscalewindowextex/ynum) { get; set; } | Gets or sets a 32-bit signed integer that specifies the vertical multiplicand. MUST NOT be zero. |
 
 ### Remarks
 

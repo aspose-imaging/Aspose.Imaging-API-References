@@ -25,14 +25,14 @@ public sealed class XmpGuid : XmpTypeBase
 
 | Name | Description |
 | --- | --- |
-| [Prefix](prefix) { get; set; } | Gets or sets the prefix like uuid. |
-| [Value](value) { get; set; } | Gets or sets the value. |
+| [Prefix](../../aspose.imaging.xmp.types.derived/xmpguid/prefix) { get; set; } | Gets or sets the prefix like uuid. |
+| [Value](../../aspose.imaging.xmp.types.derived/xmpguid/value) { get; set; } | Gets or sets the value. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetXmpRepresentation](getxmprepresentation)() | Gets the string contained value in XMP format. |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.types.derived/xmpguid/getxmprepresentation)() | Gets the string contained value in XMP format. |
 
 ### See Also
 

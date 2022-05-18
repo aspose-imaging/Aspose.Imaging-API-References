@@ -12,12 +12,12 @@ The namespace contains types [MS-WMF]: Windows Metafile Format 2.1 WMF Constants
 
 | Enumeration | Description |
 | --- | --- |
-| [StretchMode](./stretchmode) | The [`StretchMode`](aspose.imaging.fileformats.wmf.consts/stretchmode) Enumeration specifies the bitmap stretching mode, which defines how the system combines rows or columns of a bitmap with existing pixels. |
+| [StretchMode](./stretchmode) | The [`StretchMode`](../aspose.imaging.fileformats.wmf.consts/stretchmode) Enumeration specifies the bitmap stretching mode, which defines how the system combines rows or columns of a bitmap with existing pixels. |
 | [WmfBinaryRasterOperation](./wmfbinaryrasteroperation) | The BinaryRasterOperation Enumeration section lists the binary raster-operation codes. Raster operation codes define how metafile processing combines the bits from the selected pen with the bits in the destination bitmap. |
-| [WmfBrushStyle](./wmfbrushstyle) | The BrushStyle Enumeration specifies the different possible brush types that can be used in graphics operations. For more information, see the specification of the Brush Object (section 2.2.1.1). |
+| [WmfBrushStyle](./wmfbrushstyle) | The BrushStyle Enumeration specifies the different possible brush types that can be used in graphics operations. For more information, see the specification of the Brush Object (../section 2.2.1.1). |
 | [WmfCharacterSet](./wmfcharacterset) | The CharacterSet Enumeration defines the possible sets of character glyphs that are defined in fonts for graphics output. |
 | [WmfClipPrecisionFlags](./wmfclipprecisionflags) | ClipPrecision Flags specify clipping precision, which defines how to clip characters that are partially outside a clipping region. These flags can be combined to specify multiple options. |
-| [WmfColorUsageEnum](./wmfcolorusageenum) | The ColorUsage Enumeration specifies whether a color table exists in a device-independent bitmap(DIB) and how to interpret its values. |
+| [WmfColorUsageEnum](./wmfcolorusageenum) | The ColorUsage Enumeration specifies whether a color table exists in a device-independent bitmap(../DIB) and how to interpret its values. |
 | [WmfCompression](./wmfcompression) | The Compression Enumeration specifies the type of compression for a bitmap image |
 | [WmfFamilyFont](./wmffamilyfont) | The FamilyFont enumeration specifies the font family. Font families describe the look of a font in a general way. They are intended for specifying fonts when the exact typeface desired is not available. |
 | [WmfFloodFillMode](./wmffloodfillmode) | The FloodFill Enumeration specifies the type of fill operation to be performed. |
@@ -26,8 +26,8 @@ The namespace contains types [MS-WMF]: Windows Metafile Format 2.1 WMF Constants
 | [WmfHatchStyle](./wmfhatchstyle) | The HatchStyle Enumeration specifies the hatch pattern. |
 | [WmfLogicalColorSpaceEnum](./wmflogicalcolorspaceenum) | The LogicalColorSpace Enumeration specifies the type of color space. |
 | [WmfMapMode](./wmfmapmode) | The map modes |
-| [WmfMetafileEscapes](./wmfmetafileescapes) | The MetafileEscapes Enumeration specifies printer driver functionality that might not be directly accessible through WMF records defined in the RecordType Enumeration (section 2.1.1.1). |
-| [WmfMetafileVersion](./wmfmetafileversion) | The MetafileVersion Enumeration defines values that specify support for device-independent bitmaps (DIBs) in metafiles. |
+| [WmfMetafileEscapes](./wmfmetafileescapes) | The MetafileEscapes Enumeration specifies printer driver functionality that might not be directly accessible through WMF records defined in the RecordType Enumeration (../section 2.1.1.1). |
+| [WmfMetafileVersion](./wmfmetafileversion) | The MetafileVersion Enumeration defines values that specify support for device-independent bitmaps (../DIBs) in metafiles. |
 | [WmfMixMode](./wmfmixmode) | The MixMode Enumeration specifies the background mix mode for text, hatched brushes, and other nonsolid pen styles. |
 | [WmfOutPrecision](./wmfoutprecision) | The OutPrecision enumeration defines values for output precision, which is the requirement for the font mapper to match specific font parameters, including height, width, character orientation, escapement, pitch, and font type. |
 | [WmfPenStyle](./wmfpenstyle) | The 16-bit PenStyle Enumeration is used to specify different types of pens that can be used in graphics operations. |

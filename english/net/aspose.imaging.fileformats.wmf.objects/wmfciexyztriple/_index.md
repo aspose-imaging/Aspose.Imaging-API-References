@@ -24,9 +24,9 @@ public class WmfCieXyzTriple
 
 | Name | Description |
 | --- | --- |
-| [CiexyzBlue](ciexyzblue) { get; set; } | Gets or sets a 96-bit CIEXYZ Object that defines the blue chromaticity values. |
-| [CiexyzGreen](ciexyzgreen) { get; set; } | Gets or sets a 96-bit CIEXYZ Object that defines the green chromaticity values. |
-| [CiexyzRed](ciexyzred) { get; set; } | Gets or sets a 96-bit CIEXYZ Object that defines the red chromaticity values. |
+| [CiexyzBlue](../../aspose.imaging.fileformats.wmf.objects/wmfciexyztriple/ciexyzblue) { get; set; } | Gets or sets a 96-bit CIEXYZ Object that defines the blue chromaticity values. |
+| [CiexyzGreen](../../aspose.imaging.fileformats.wmf.objects/wmfciexyztriple/ciexyzgreen) { get; set; } | Gets or sets a 96-bit CIEXYZ Object that defines the green chromaticity values. |
+| [CiexyzRed](../../aspose.imaging.fileformats.wmf.objects/wmfciexyztriple/ciexyzred) { get; set; } | Gets or sets a 96-bit CIEXYZ Object that defines the red chromaticity values. |
 
 ### See Also
 

@@ -25,16 +25,21 @@ public sealed class ColorantCmyk : ColorantBase
 
 | Name | Description |
 | --- | --- |
-| [Black](black) { get; set; } | Gets or sets the black component value. |
-| [Cyan](cyan) { get; set; } | Gets or sets the cyan component value. |
-| [Magenta](magenta) { get; set; } | Gets or sets the magenta component value. |
-| [Yellow](yellow) { get; set; } | Gets or sets the yellow component value. |
+| [Black](../../aspose.imaging.xmp.types.complex.colorant/colorantcmyk/black) { get; set; } | Gets or sets the black component value. |
+| [ColorType](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/colortype) { get; set; } | Gets or sets the type of the color. |
+| [Cyan](../../aspose.imaging.xmp.types.complex.colorant/colorantcmyk/cyan) { get; set; } | Gets or sets the cyan component value. |
+| [Magenta](../../aspose.imaging.xmp.types.complex.colorant/colorantcmyk/magenta) { get; set; } | Gets or sets the magenta component value. |
+| [Mode](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/mode) { get; } | Gets [`ColorMode`](../colormode). |
+| [NamespaceUri](../../aspose.imaging.xmp.types.complex/complextypebase/namespaceuri) { get; } | Gets the default namespace URI. |
+| [Prefix](../../aspose.imaging.xmp.types.complex/complextypebase/prefix) { get; } | Gets the prefix. |
+| [SwatchName](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/swatchname) { get; set; } | Gets or sets the name of the swatch. |
+| [Yellow](../../aspose.imaging.xmp.types.complex.colorant/colorantcmyk/yellow) { get; set; } | Gets or sets the yellow component value. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetXmpRepresentation](getxmprepresentation)() | Gets the string contained value in XMP format. |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.types.complex.colorant/colorantcmyk/getxmprepresentation)() | Gets the string contained value in XMP format. |
 
 ## Other Members
 

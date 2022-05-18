@@ -24,10 +24,10 @@ public sealed class EmfPlusPathPointTypeRle : EmfPlusBasePointType
 
 | Name | Description |
 | --- | --- |
-| [Bezier](bezier) { get; set; } | Gets or sets a value indicating whether this [`EmfPlusPathPointTypeRle`](../emfpluspathpointtyperle) is bezier. If set, the path points are on a Bezier curve. If clear, the path points are on a graphics line. |
-| [Data](data) { get; set; } | Gets or sets the data. |
-| [PointType](pointtype) { get; set; } | Gets or sets the type of the point. PointType (1 byte): An EmfPlusPathPointType object (section 2.2.2.31) that specifies the type to associate with the path points. |
-| [RunCount](runcount) { get; set; } | Gets or sets the run count. RunCount (6 bits): The run count, which is the number of path points to be associated with the type in the PointType field |
+| [Bezier](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtyperle/bezier) { get; set; } | Gets or sets a value indicating whether this [`EmfPlusPathPointTypeRle`](../emfpluspathpointtyperle) is bezier. If set, the path points are on a Bezier curve. If clear, the path points are on a graphics line. |
+| [Data](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtyperle/data) { get; set; } | Gets or sets the data. |
+| [PointType](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtyperle/pointtype) { get; set; } | Gets or sets the type of the point. PointType (1 byte): An EmfPlusPathPointType object (section 2.2.2.31) that specifies the type to associate with the path points. |
+| [RunCount](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtyperle/runcount) { get; set; } | Gets or sets the run count. RunCount (6 bits): The run count, which is the number of path points to be associated with the type in the PointType field |
 
 ### See Also
 

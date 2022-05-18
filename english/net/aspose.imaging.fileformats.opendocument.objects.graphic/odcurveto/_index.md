@@ -24,7 +24,10 @@ public class OdCurveTo : OdGraphicObject
 
 | Name | Description |
 | --- | --- |
-| [Points](points) { get; set; } | Gets or sets the points. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Gets or sets a value indicating whether [absolute coordinates]. |
+| [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Gets the items. |
+| [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Gets the parent object. |
+| [Points](../../aspose.imaging.fileformats.opendocument.objects.graphic/odcurveto/points) { get; set; } | Gets or sets the points. |
 
 ### See Also
 

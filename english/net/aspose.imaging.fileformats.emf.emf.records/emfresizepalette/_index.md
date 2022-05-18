@@ -24,7 +24,9 @@ public sealed class EmfResizePalette : EmfObjectManipulationRecordType
 
 | Name | Description |
 | --- | --- |
-| [IhPal](ihpal) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the index of the palette object in the EMF Object Table (section 3.1.1.1). |
+| [IhPal](../../aspose.imaging.fileformats.emf.emf.records/emfresizepalette/ihpal) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the index of the palette object in the EMF Object Table (section 3.1.1.1). |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### Remarks
 

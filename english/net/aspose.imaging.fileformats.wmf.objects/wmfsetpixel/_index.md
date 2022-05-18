@@ -24,7 +24,8 @@ public class WmfSetPixel : WmfPointObject
 
 | Name | Description |
 | --- | --- |
-| [ColorRef](colorref) { get; set; } | Gets or sets the color reference. |
+| [ColorRef](../../aspose.imaging.fileformats.wmf.objects/wmfsetpixel/colorref) { get; set; } | Gets or sets the color reference. |
+| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Gets or sets the point. |
 
 ### See Also
 

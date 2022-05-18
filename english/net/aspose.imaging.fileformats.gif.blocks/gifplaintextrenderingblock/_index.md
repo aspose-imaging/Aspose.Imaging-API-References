@@ -25,21 +25,22 @@ public class GifPlainTextRenderingBlock : GifBlock
 
 | Name | Description |
 | --- | --- |
-| [CharacterCellHeight](charactercellheight) { get; set; } | Gets or sets the character cell height, in pixels, of each cell in the grid. |
-| [CharacterCellWidth](charactercellwidth) { get; set; } | Gets or sets the character cell width, in pixels, of each cell in the grid. |
-| [PlainTextData](plaintextdata) { get; set; } | Gets or sets the plain text data. |
-| [TextBackgroundColorIndex](textbackgroundcolorindex) { get; set; } | Gets or sets the index of the color in the global color palette used to draw the text background. |
-| [TextForegroundColorIndex](textforegroundcolorindex) { get; set; } | Gets or sets the index of the color in the global color palette used to draw the text foreground. |
-| [TextGridHeight](textgridheight) { get; set; } | Gets or sets the text grid height in pixels |
-| [TextGridLeftPosition](textgridleftposition) { get; set; } | Gets or sets the text grid left position. |
-| [TextGridTopPosition](textgridtopposition) { get; set; } | Gets or sets the text grid top position. |
-| [TextGridWidth](textgridwidth) { get; set; } | Gets or sets the text grid with in pixels |
+| [CharacterCellHeight](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/charactercellheight) { get; set; } | Gets or sets the character cell height, in pixels, of each cell in the grid. |
+| [CharacterCellWidth](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/charactercellwidth) { get; set; } | Gets or sets the character cell width, in pixels, of each cell in the grid. |
+| [IsChanged](../../aspose.imaging.fileformats.gif/gifblock/ischanged) { get; set; } | Gets or sets a value indicating whether block has changed and requires save. |
+| [PlainTextData](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/plaintextdata) { get; set; } | Gets or sets the plain text data. |
+| [TextBackgroundColorIndex](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textbackgroundcolorindex) { get; set; } | Gets or sets the index of the color in the global color palette used to draw the text background. |
+| [TextForegroundColorIndex](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textforegroundcolorindex) { get; set; } | Gets or sets the index of the color in the global color palette used to draw the text foreground. |
+| [TextGridHeight](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textgridheight) { get; set; } | Gets or sets the text grid height in pixels |
+| [TextGridLeftPosition](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textgridleftposition) { get; set; } | Gets or sets the text grid left position. |
+| [TextGridTopPosition](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textgridtopposition) { get; set; } | Gets or sets the text grid top position. |
+| [TextGridWidth](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textgridwidth) { get; set; } | Gets or sets the text grid with in pixels |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Save](save)(Stream) | Saves the block to the specified stream. |
+| override [Save](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/save)(Stream) | Saves the block to the specified stream. |
 
 ## Other Members
 

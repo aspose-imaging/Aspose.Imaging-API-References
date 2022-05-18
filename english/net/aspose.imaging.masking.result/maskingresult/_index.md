@@ -18,15 +18,17 @@ public abstract class MaskingResult : DisposableObject, IEnumerable<IMaskingLaye
 
 | Name | Description |
 | --- | --- |
-| [Item](item) { get; } | Gets the [`IMaskingLayer`](../imaskinglayer) at the specified index. |
-| abstract [Layers](layers) { get; } | Gets the layers. |
-| [Length](length) { get; } | Gets the length. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
+| [Item](../../aspose.imaging.masking.result/maskingresult/item) { get; } | Gets the [`IMaskingLayer`](../imaskinglayer) at the specified index. |
+| abstract [Layers](../../aspose.imaging.masking.result/maskingresult/layers) { get; } | Gets the layers. |
+| [Length](../../aspose.imaging.masking.result/maskingresult/length) { get; } | Gets the length. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetEnumerator](getenumerator)() | Gets the enumerator. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
+| [GetEnumerator](../../aspose.imaging.masking.result/maskingresult/getenumerator)() | Gets the enumerator. |
 
 ## Other Members
 

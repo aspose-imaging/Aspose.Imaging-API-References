@@ -26,13 +26,13 @@ public sealed class XmpBoolean : XmpTypeBase
 
 | Name | Description |
 | --- | --- |
-| [Value](value) { get; set; } | Gets or sets a value indicating whether this [`XmpBoolean`](../xmpboolean) is value. |
+| [Value](../../aspose.imaging.xmp.types.basic/xmpboolean/value) { get; set; } | Gets or sets a value indicating whether this [`XmpBoolean`](../xmpboolean) is value. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetXmpRepresentation](getxmprepresentation)() | Returns string contained value in XMP format. |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.types.basic/xmpboolean/getxmprepresentation)() | Returns string contained value in XMP format. |
 
 ### See Also
 

@@ -24,7 +24,9 @@ public class OdText : OdObject
 
 | Name | Description |
 | --- | --- |
-| [Text](text) { get; set; } | Gets or sets the text. |
+| [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Gets the items. |
+| [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Gets the parent object. |
+| [Text](../../aspose.imaging.fileformats.opendocument.objects.graphic/odtext/text) { get; set; } | Gets or sets the text. |
 
 ### See Also
 

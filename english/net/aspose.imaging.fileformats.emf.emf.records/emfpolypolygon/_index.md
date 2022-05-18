@@ -25,8 +25,10 @@ public sealed class EmfPolyPolygon : EmfDrawingRecordType
 
 | Name | Description |
 | --- | --- |
-| [APoints](apoints) { get; set; } | Gets or sets an array of WMF PointL objects ([MS-WMF] section 2.2.2.15) that specifies the points for all polygons in logical units. The number of points is specified by the Count field value. |
-| [Bounds](bounds) { get; set; } | Gets or sets a WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies the bounding rectangle, in device units. |
+| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/apoints) { get; set; } | Gets or sets an array of WMF PointL objects ([MS-WMF] section 2.2.2.15) that specifies the points for all polygons in logical units. The number of points is specified by the Count field value. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/bounds) { get; set; } | Gets or sets a WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies the bounding rectangle, in device units. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### Remarks
 

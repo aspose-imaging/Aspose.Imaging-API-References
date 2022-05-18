@@ -18,7 +18,7 @@ public static class MatrixExtensions
 
 | Name | Description |
 | --- | --- |
-| static [ToGdiMatrix](togdimatrix)(Matrix) | Converts the [`Matrix`](../../aspose.imaging/matrix) to the Matrix. |
+| static [ToGdiMatrix](../../aspose.imaging.extensions/matrixextensions/togdimatrix)(Matrix) | Converts the [`Matrix`](../../aspose.imaging/matrix) to the Matrix. |
 
 ### See Also
 

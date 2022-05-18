@@ -18,7 +18,7 @@ public static class FileFormatExtensions
 
 | Name | Description |
 | --- | --- |
-| static [IsSingleFormatDefined](issingleformatdefined)(FileFormat) | Determines whether single file format is defined. |
+| static [IsSingleFormatDefined](../../aspose.imaging.extensions/fileformatextensions/issingleformatdefined)(FileFormat) | Determines whether single file format is defined. |
 
 ### See Also
 

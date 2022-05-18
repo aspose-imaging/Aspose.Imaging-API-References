@@ -24,7 +24,7 @@ public sealed class EmfPlusLinePath : EmfPlusStructureObjectType
 
 | Name | Description |
 | --- | --- |
-| [LinePath](linepath) { get; set; } | Gets or sets an [`EmfPlusPath`](../emfpluspath) object that defines the outline. |
+| [LinePath](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslinepath/linepath) { get; set; } | Gets or sets an [`EmfPlusPath`](../emfpluspath) object that defines the outline. |
 
 ### See Also
 

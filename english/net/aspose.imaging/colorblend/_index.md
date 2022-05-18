@@ -25,15 +25,15 @@ public sealed class ColorBlend
 
 | Name | Description |
 | --- | --- |
-| [Colors](colors) { get; set; } | Gets or sets an array of colors that represents the colors to use at corresponding positions along a gradient. |
-| [Positions](positions) { get; set; } | Gets or sets the positions along a gradient line. |
+| [Colors](../../aspose.imaging/colorblend/colors) { get; set; } | Gets or sets an array of colors that represents the colors to use at corresponding positions along a gradient. |
+| [Positions](../../aspose.imaging/colorblend/positions) { get; set; } | Gets or sets the positions along a gradient line. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Tests whether the specified object is a [`ColorBlend`](../colorblend) class and is equivalent to this [`ColorBlend`](../colorblend) class. |
-| override [GetHashCode](gethashcode)() | Returns a hash code for this instance. |
+| override [Equals](../../aspose.imaging/colorblend/equals)(object) | Tests whether the specified object is a [`ColorBlend`](../colorblend) class and is equivalent to this [`ColorBlend`](../colorblend) class. |
+| override [GetHashCode](../../aspose.imaging/colorblend/gethashcode)() | Returns a hash code for this instance. |
 
 ### See Also
 

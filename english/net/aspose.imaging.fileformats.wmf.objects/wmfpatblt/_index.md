@@ -24,9 +24,10 @@ public class WmfPatBlt : WmfPointObject
 
 | Name | Description |
 | --- | --- |
-| [Height](height) { get; set; } | Gets or sets the height. |
-| [RasterOperation](rasteroperation) { get; set; } | Gets or sets the raster operation. |
-| [Width](width) { get; set; } | Gets or sets the width. |
+| [Height](../../aspose.imaging.fileformats.wmf.objects/wmfpatblt/height) { get; set; } | Gets or sets the height. |
+| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Gets or sets the point. |
+| [RasterOperation](../../aspose.imaging.fileformats.wmf.objects/wmfpatblt/rasteroperation) { get; set; } | Gets or sets the raster operation. |
+| [Width](../../aspose.imaging.fileformats.wmf.objects/wmfpatblt/width) { get; set; } | Gets or sets the width. |
 
 ### See Also
 

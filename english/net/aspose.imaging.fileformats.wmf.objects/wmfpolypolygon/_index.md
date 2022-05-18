@@ -24,9 +24,9 @@ public class WmfPolyPolygon : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [APoints](apoints) { get; set; } | Gets or sets a points. |
-| [APointsPerPolygon](apointsperpolygon) { get; set; } | Gets or sets a points per polygon. |
-| [NumberOfPolygons](numberofpolygons) { get; set; } | Gets or sets the number of polygons. The number of polygons in the object. |
+| [APoints](../../aspose.imaging.fileformats.wmf.objects/wmfpolypolygon/apoints) { get; set; } | Gets or sets a points. |
+| [APointsPerPolygon](../../aspose.imaging.fileformats.wmf.objects/wmfpolypolygon/apointsperpolygon) { get; set; } | Gets or sets a points per polygon. |
+| [NumberOfPolygons](../../aspose.imaging.fileformats.wmf.objects/wmfpolypolygon/numberofpolygons) { get; set; } | Gets or sets the number of polygons. The number of polygons in the object. |
 
 ### See Also
 

@@ -24,15 +24,15 @@ public class Rational : XmpTypeBase
 
 | Name | Description |
 | --- | --- |
-| [Denominator](denominator) { get; set; } | Gets or sets the denominator. |
-| [FloatValue](floatvalue) { get; } | Gets the float value. |
-| [Numerator](numerator) { get; } | Gets the numerator. |
+| [Denominator](../../aspose.imaging.xmp.types.derived/rational/denominator) { get; set; } | Gets or sets the denominator. |
+| [FloatValue](../../aspose.imaging.xmp.types.derived/rational/floatvalue) { get; } | Gets the float value. |
+| [Numerator](../../aspose.imaging.xmp.types.derived/rational/numerator) { get; } | Gets the numerator. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetXmpRepresentation](getxmprepresentation)() | Gets thestring contained value in XMP format. |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.types.derived/rational/getxmprepresentation)() | Gets thestring contained value in XMP format. |
 
 ### See Also
 

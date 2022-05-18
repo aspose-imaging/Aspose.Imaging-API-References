@@ -24,18 +24,18 @@ public class CmxFillStyle
 
 | Name | Description |
 | --- | --- |
-| [Color1](color1) { get; set; } | Gets or sets the primary color. |
-| [Color2](color2) { get; set; } | Gets or sets the secondary color. |
-| [FillType](filltype) { get; set; } | Gets or sets the type of the fill. |
-| [Gradient](gradient) { get; set; } | Gets or sets the gradient info. |
-| [ImageFill](imagefill) { get; set; } | Gets or sets the image fill info. |
-| [Transform](transform) { get; set; } | Gets or sets the fill transform. |
+| [Color1](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxfillstyle/color1) { get; set; } | Gets or sets the primary color. |
+| [Color2](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxfillstyle/color2) { get; set; } | Gets or sets the secondary color. |
+| [FillType](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxfillstyle/filltype) { get; set; } | Gets or sets the type of the fill. |
+| [Gradient](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxfillstyle/gradient) { get; set; } | Gets or sets the gradient info. |
+| [ImageFill](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxfillstyle/imagefill) { get; set; } | Gets or sets the image fill info. |
+| [Transform](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxfillstyle/transform) { get; set; } | Gets or sets the fill transform. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a String that represents this instance. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxfillstyle/tostring)() | Returns a String that represents this instance. |
 
 ### See Also
 

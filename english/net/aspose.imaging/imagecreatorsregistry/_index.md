@@ -18,18 +18,18 @@ public static class ImageCreatorsRegistry
 
 | Name | Description |
 | --- | --- |
-| static [RegisteredDescriptors](registereddescriptors) { get; } | Gets the registered descriptors. |
-| static [RegisteredFormats](registeredformats) { get; } | Gets the registered image creation formats. |
+| static [RegisteredDescriptors](../../aspose.imaging/imagecreatorsregistry/registereddescriptors) { get; } | Gets the registered descriptors. |
+| static [RegisteredFormats](../../aspose.imaging/imagecreatorsregistry/registeredformats) { get; } | Gets the registered image creation formats. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [CreateFirstSupportedCreator](createfirstsupportedcreator)(ImageOptionsBase) | Creates the first found creator suitable for the specified. |
-| static [GetFirstSupportedDescriptor](getfirstsupporteddescriptor)(ImageOptionsBase) | Gets the fist found supported descriptor suitable for the specified. |
-| static [Register](register)(IImageCreatorDescriptor) | Registers the specified image creator descriptor. |
-| static [RegisterCreator](registercreator)(IImageCreatorDescriptor) | Registers the creator. |
-| static [UnregisterCreator](unregistercreator)(IImageCreatorDescriptor) | Unregisters the creator. |
+| static [CreateFirstSupportedCreator](../../aspose.imaging/imagecreatorsregistry/createfirstsupportedcreator)(ImageOptionsBase) | Creates the first found creator suitable for the specified. |
+| static [GetFirstSupportedDescriptor](../../aspose.imaging/imagecreatorsregistry/getfirstsupporteddescriptor)(ImageOptionsBase) | Gets the fist found supported descriptor suitable for the specified. |
+| static [Register](../../aspose.imaging/imagecreatorsregistry/register)(IImageCreatorDescriptor) | Registers the specified image creator descriptor. |
+| static [RegisterCreator](../../aspose.imaging/imagecreatorsregistry/registercreator)(IImageCreatorDescriptor) | Registers the creator. |
+| static [UnregisterCreator](../../aspose.imaging/imagecreatorsregistry/unregistercreator)(IImageCreatorDescriptor) | Unregisters the creator. |
 
 ### See Also
 

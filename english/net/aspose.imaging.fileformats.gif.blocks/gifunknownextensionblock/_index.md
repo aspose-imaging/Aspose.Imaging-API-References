@@ -25,14 +25,15 @@ public class GifUnknownExtensionBlock : GifBlock
 
 | Name | Description |
 | --- | --- |
-| [ExtensionLabel](extensionlabel) { get; set; } | Gets or sets the block's extension label. |
-| [UnknownData](unknowndata) { get; set; } | Gets or sets the unknown data. |
+| [ExtensionLabel](../../aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/extensionlabel) { get; set; } | Gets or sets the block's extension label. |
+| [IsChanged](../../aspose.imaging.fileformats.gif/gifblock/ischanged) { get; set; } | Gets or sets a value indicating whether block has changed and requires save. |
+| [UnknownData](../../aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/unknowndata) { get; set; } | Gets or sets the unknown data. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Save](save)(Stream) | Saves the block to the specified stream. |
+| override [Save](../../aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/save)(Stream) | Saves the block to the specified stream. |
 
 ### See Also
 

@@ -24,9 +24,13 @@ public class MotionWienerFilterOptions : DeconvolutionFilterOptions
 
 | Name | Description |
 | --- | --- |
-| [Angle](angle) { get; set; } | Gets or sets the angle in gradus. |
-| [Length](length) { get; set; } | Gets or sets the length. |
-| [Smooth](smooth) { get; set; } | Gets or sets the smooth. |
+| [Angle](../../aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions/angle) { get; set; } | Gets or sets the angle in gradus. |
+| [Brightness](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/brightness) { get; set; } | Gets or sets the brightness. recommended range 1 - 1.5 default value = 1.15 |
+| [Grayscale](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/grayscale) { get; set; } | Gets or sets a value indicating whether this [`DeconvolutionFilterOptions`](../deconvolutionfilteroptions) is grayscale. Return grayscale mode or RGB mode. |
+| [IsPartialLoaded](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/ispartialloaded) { get; } | Gets a value indicating whether this instance is partial loaded. |
+| [Length](../../aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions/length) { get; set; } | Gets or sets the length. |
+| [Smooth](../../aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions/smooth) { get; set; } | Gets or sets the smooth. |
+| [Snr](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/snr) { get; set; } | Gets or sets the SNR(signal-to-noise ratio) recommended range 0.002 - 0.009, default value = 0.007 |
 
 ### Examples
 

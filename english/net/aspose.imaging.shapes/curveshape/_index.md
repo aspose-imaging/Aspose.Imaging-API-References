@@ -28,17 +28,24 @@ public sealed class CurveShape : PolygonShape
 
 | Name | Description |
 | --- | --- |
-| override [Bounds](bounds) { get; } | Gets the object's bounds. |
-| override [Center](center) { get; } | Gets the shape's center. |
-| override [Segments](segments) { get; } | Gets the shape segments. |
-| [Tension](tension) { get; set; } | Gets or sets the curve tension. |
+| override [Bounds](../../aspose.imaging.shapes/curveshape/bounds) { get; } | Gets the object's bounds. |
+| override [Center](../../aspose.imaging.shapes/curveshape/center) { get; } | Gets the shape's center. |
+| virtual [EndPoint](../../aspose.imaging.shapes/polygonshape/endpoint) { get; } | Gets the ending shape point. |
+| override [HasSegments](../../aspose.imaging.shapes/polygonshape/hassegments) { get; } | Gets a value indicating whether shape has segments. |
+| [IsClosed](../../aspose.imaging.shapes/polygonshape/isclosed) { get; set; } | Gets or sets a value indicating whether shape is closed. |
+| [Points](../../aspose.imaging.shapes/polygonshape/points) { get; set; } | Gets or sets the curve points. |
+| override [Segments](../../aspose.imaging.shapes/curveshape/segments) { get; } | Gets the shape segments. |
+| virtual [StartPoint](../../aspose.imaging.shapes/polygonshape/startpoint) { get; } | Gets the starting shape point. |
+| [Tension](../../aspose.imaging.shapes/curveshape/tension) { get; set; } | Gets or sets the curve tension. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetBounds](getbounds)(Matrix) | Gets the object's bounds. |
-| override [GetBounds](getbounds)(Matrix, Pen) | Gets the object's bounds. |
+| override [GetBounds](../../aspose.imaging.shapes/curveshape/getbounds)(Matrix) | Gets the object's bounds. |
+| override [GetBounds](../../aspose.imaging.shapes/curveshape/getbounds)(Matrix, Pen) | Gets the object's bounds. |
+| [Reverse](../../aspose.imaging.shapes/polygonshape/reverse)() | Reverses the order of points for this shape. |
+| override [Transform](../../aspose.imaging.shapes/polygonshape/transform)(Matrix) | Applies the specified transformation to the shape. |
 
 ### See Also
 

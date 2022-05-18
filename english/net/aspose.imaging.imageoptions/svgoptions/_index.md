@@ -24,10 +24,27 @@ public class SvgOptions : ImageOptionsBase
 
 | Name | Description |
 | --- | --- |
-| [Callback](callback) { get; set; } | Gets or sets the font store options. |
-| [ColorType](colortype) { get; set; } | Gets or sets the color type for SVG image. |
-| [Compress](compress) { get; set; } | Gets or sets a value indicating whether this ICompressedOptions is compressed. |
-| [TextAsShapes](textasshapes) { get; set; } | Gets or sets a value indicating whether text must be converted as shapes. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| [Callback](../../aspose.imaging.imageoptions/svgoptions/callback) { get; set; } | Gets or sets the font store options. |
+| [ColorType](../../aspose.imaging.imageoptions/svgoptions/colortype) { get; set; } | Gets or sets the color type for SVG image. |
+| [Compress](../../aspose.imaging.imageoptions/svgoptions/compress) { get; set; } | Gets or sets a value indicating whether this ICompressedOptions is compressed. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | The multipage options |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Gets or sets the color palette. |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Gets or sets the progress event handler. |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Gets or sets the resolution settings. |
+| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Gets or sets the source to create image in. |
+| [TextAsShapes](../../aspose.imaging.imageoptions/svgoptions/textasshapes) { get; set; } | Gets or sets a value indicating whether text must be converted as shapes. |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Gets or sets the vector rasterization options. |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata) { get; set; } | Gets or sets the XMP metadata container. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | Clones this instance. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
 
 ### Examples
 

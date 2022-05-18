@@ -24,7 +24,9 @@ public sealed class EmfSetStrechBltMode : EmfStateRecordType
 
 | Name | Description |
 | --- | --- |
-| [StretchMode](stretchmode) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the stretch mode and MAY be in the StretchMode enumeration. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [StretchMode](../../aspose.imaging.fileformats.emf.emf.records/emfsetstrechbltmode/stretchmode) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the stretch mode and MAY be in the StretchMode enumeration. |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

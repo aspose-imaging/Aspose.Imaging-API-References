@@ -18,7 +18,7 @@ public interface IPartialArgb32PixelLoader
 
 | Name | Description |
 | --- | --- |
-| [Process](process)(Rectangle, int[], Point, Point) | Processes the loaded pixels. |
+| [Process](../../aspose.imaging/ipartialargb32pixelloader/process)(Rectangle, int[], Point, Point) | Processes the loaded pixels. |
 
 ### See Also
 

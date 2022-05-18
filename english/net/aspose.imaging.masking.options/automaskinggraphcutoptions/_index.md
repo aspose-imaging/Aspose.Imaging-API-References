@@ -24,12 +24,19 @@ public class AutoMaskingGraphCutOptions : GraphCutMaskingOptions
 
 | Name | Description |
 | --- | --- |
-| [AssumedObjects](assumedobjects) { get; set; } | Gets or sets the assumed objects. |
-| [CalculateDefaultStrokes](calculatedefaultstrokes) { get; set; } | Gets or sets a value indicating whether default strokes should be calculated. |
-| [DefaultBackgroundStrokes](defaultbackgroundstrokes) { get; } | Gets the default background strokes. |
-| [DefaultForegroundStrokes](defaultforegroundstrokes) { get; } | Gets the pre-calculated default foreground strokes. |
-| [DefaultObjectsRectangles](defaultobjectsrectangles) { get; } | Gets the default objects rectangles. |
-| [PrecalculationProgressEventHandler](precalculationprogresseventhandler) { get; set; } | Gets or sets the default points pre-calculation process progress event handler. |
+| [Args](../../aspose.imaging.masking.options/maskingoptions/args) { get; set; } | Gets or sets the arguments for segmentation algorithm. |
+| [AssumedObjects](../../aspose.imaging.masking.options/automaskinggraphcutoptions/assumedobjects) { get; set; } | Gets or sets the assumed objects. |
+| [BackgroundReplacementColor](../../aspose.imaging.masking.options/maskingoptions/backgroundreplacementcolor) { get; set; } | Gets or sets the background replacement color. |
+| [CalculateDefaultStrokes](../../aspose.imaging.masking.options/automaskinggraphcutoptions/calculatedefaultstrokes) { get; set; } | Gets or sets a value indicating whether default strokes should be calculated. |
+| [Decompose](../../aspose.imaging.masking.options/maskingoptions/decompose) { get; set; } | Gets or sets a value indicating whether needless to separate each Shape from mask as individual object or as united object from mask separated from background. |
+| [DefaultBackgroundStrokes](../../aspose.imaging.masking.options/automaskinggraphcutoptions/defaultbackgroundstrokes) { get; } | Gets the default background strokes. |
+| [DefaultForegroundStrokes](../../aspose.imaging.masking.options/automaskinggraphcutoptions/defaultforegroundstrokes) { get; } | Gets the pre-calculated default foreground strokes. |
+| [DefaultObjectsRectangles](../../aspose.imaging.masking.options/automaskinggraphcutoptions/defaultobjectsrectangles) { get; } | Gets the default objects rectangles. |
+| [ExportOptions](../../aspose.imaging.masking.options/maskingoptions/exportoptions) { get; set; } | Gets or sets the image export options. |
+| [FeatheringRadius](../../aspose.imaging.masking.options/graphcutmaskingoptions/featheringradius) { get; set; } | Gets or sets the feathering radius. |
+| [MaskingArea](../../aspose.imaging.masking.options/maskingoptions/maskingarea) { get; set; } | Gets or sets the masking area. |
+| [Method](../../aspose.imaging.masking.options/maskingoptions/method) { get; set; } | Gets or sets the segmentation method. |
+| [PrecalculationProgressEventHandler](../../aspose.imaging.masking.options/automaskinggraphcutoptions/precalculationprogresseventhandler) { get; set; } | Gets or sets the default points pre-calculation process progress event handler. |
 
 ### Examples
 

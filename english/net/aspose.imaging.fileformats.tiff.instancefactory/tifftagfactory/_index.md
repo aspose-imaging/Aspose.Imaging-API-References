@@ -18,7 +18,7 @@ public static class TiffTagFactory
 
 | Name | Description |
 | --- | --- |
-| static [CreateInstance](createinstance)(ushort, ushort) | Creates a new data type instance. |
+| static [CreateInstance](../../aspose.imaging.fileformats.tiff.instancefactory/tifftagfactory/createinstance)(ushort, ushort) | Creates a new data type instance. |
 
 ### See Also
 

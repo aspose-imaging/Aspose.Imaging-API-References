@@ -24,8 +24,8 @@ public class CmxPathSpec : ICmxObjectSpec
 
 | Name | Description |
 | --- | --- |
-| [Points](points) { get; set; } | Gets or sets the points. |
-| [Type](type) { get; set; } | Gets or sets the type. |
+| [Points](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec/points) { get; set; } | Gets or sets the points. |
+| [Type](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

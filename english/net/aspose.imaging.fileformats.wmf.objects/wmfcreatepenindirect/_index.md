@@ -24,7 +24,8 @@ public class WmfCreatePenInDirect : WmfGraphicObject
 
 | Name | Description |
 | --- | --- |
-| [LogPen](logpen) { get; set; } | Gets or sets the log pen. |
+| [Index](../../aspose.imaging.fileformats.wmf.objects/wmfgraphicobject/index) { get; set; } | Gets or sets the index. |
+| [LogPen](../../aspose.imaging.fileformats.wmf.objects/wmfcreatepenindirect/logpen) { get; set; } | Gets or sets the log pen. |
 
 ### See Also
 

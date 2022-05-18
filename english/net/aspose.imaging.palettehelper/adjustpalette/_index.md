@@ -24,7 +24,7 @@ public class AdjustPalette
 
 | Name | Description |
 | --- | --- |
-| static [GetCloseImagePalette](getcloseimagepalette)(RasterImage, int, ColorQuantizationMethod, ColorCompareMethod) | Gets the close image palette. |
+| static [GetCloseImagePalette](../../aspose.imaging.palettehelper/adjustpalette/getcloseimagepalette)(RasterImage, int, ColorQuantizationMethod, ColorCompareMethod) | Gets the close image palette. |
 
 ### See Also
 

@@ -25,16 +25,32 @@ public class PsdOptions : ImageOptionsBase
 
 | Name | Description |
 | --- | --- |
-| [ChannelBitsCount](channelbitscount) { get; set; } | Gets or sets the bits count per color channel. |
-| [ChannelsCount](channelscount) { get; set; } | Gets or sets the color channels count. |
-| [ColorMode](colormode) { get; set; } | Gets or sets the psd color mode. |
-| [CompressionMethod](compressionmethod) { get; set; } | Gets or sets the psd compression method. |
-| [PsdVersion](psdversion) { get; set; } | Gets or sets the file format version. It can be PSD or PSB. |
-| [RefreshImagePreviewData](refreshimagepreviewdata) { get; set; } | Gets or sets a value indicating whether [refresh image preview data] - option used to maximize compatibility with another PSD image viewers. Please note, text layers drawing to final layout is not supported for Compact Framework platform |
-| [RemoveGlobalTextEngineResource](removeglobaltextengineresource) { get; set; } | Gets or sets a value indicating whether - Remove the global text engine resource - Used for some text-layered psd files, in only case, when they can not be opened in Adobe Photoshop after processing (mostly for absent fonts text layers related). After using this option, user need to Make next in opened in Photoshop file: Menu "Text" -&gt; "Process absent fonts". After that operation all text will appear again. Please note, that this operation may cause some final layout changes. |
-| [VectorizationOptions](vectorizationoptions) { get; set; } | Gets or sets the PSD vectorization options. |
-| [Version](version) { get; set; } | Gets or sets the psd file version. |
-| override [XmpData](xmpdata) { get; set; } | Get or set XMP data container |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| [ChannelBitsCount](../../aspose.imaging.imageoptions/psdoptions/channelbitscount) { get; set; } | Gets or sets the bits count per color channel. |
+| [ChannelsCount](../../aspose.imaging.imageoptions/psdoptions/channelscount) { get; set; } | Gets or sets the color channels count. |
+| [ColorMode](../../aspose.imaging.imageoptions/psdoptions/colormode) { get; set; } | Gets or sets the psd color mode. |
+| [CompressionMethod](../../aspose.imaging.imageoptions/psdoptions/compressionmethod) { get; set; } | Gets or sets the psd compression method. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | The multipage options |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Gets or sets the color palette. |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Gets or sets the progress event handler. |
+| [PsdVersion](../../aspose.imaging.imageoptions/psdoptions/psdversion) { get; set; } | Gets or sets the file format version. It can be PSD or PSB. |
+| [RefreshImagePreviewData](../../aspose.imaging.imageoptions/psdoptions/refreshimagepreviewdata) { get; set; } | Gets or sets a value indicating whether [refresh image preview data] - option used to maximize compatibility with another PSD image viewers. Please note, text layers drawing to final layout is not supported for Compact Framework platform |
+| [RemoveGlobalTextEngineResource](../../aspose.imaging.imageoptions/psdoptions/removeglobaltextengineresource) { get; set; } | Gets or sets a value indicating whether - Remove the global text engine resource - Used for some text-layered psd files, in only case, when they can not be opened in Adobe Photoshop after processing (mostly for absent fonts text layers related). After using this option, user need to Make next in opened in Photoshop file: Menu "Text" -&gt; "Process absent fonts". After that operation all text will appear again. Please note, that this operation may cause some final layout changes. |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Gets or sets the resolution settings. |
+| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Gets or sets the source to create image in. |
+| [VectorizationOptions](../../aspose.imaging.imageoptions/psdoptions/vectorizationoptions) { get; set; } | Gets or sets the PSD vectorization options. |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Gets or sets the vector rasterization options. |
+| [Version](../../aspose.imaging.imageoptions/psdoptions/version) { get; set; } | Gets or sets the psd file version. |
+| override [XmpData](../../aspose.imaging.imageoptions/psdoptions/xmpdata) { get; set; } | Get or set XMP data container |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | Clones this instance. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
 
 ### Examples
 

@@ -25,7 +25,9 @@ public sealed class EmfSetMiterLimit : EmfStateRecordType
 
 | Name | Description |
 | --- | --- |
-| [MiterLimit](miterlimit) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the new miter length limit. |
+| [MiterLimit](../../aspose.imaging.fileformats.emf.emf.records/emfsetmiterlimit/miterlimit) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the new miter length limit. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

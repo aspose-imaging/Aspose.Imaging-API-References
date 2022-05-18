@@ -24,7 +24,7 @@ public class WmfRestoreDc : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [NSavedDc](nsaveddc) { get; set; } | Gets or sets the n saved dc. |
+| [NSavedDc](../../aspose.imaging.fileformats.wmf.objects/wmfrestoredc/nsaveddc) { get; set; } | Gets or sets the n saved dc. |
 
 ### See Also
 

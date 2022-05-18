@@ -24,7 +24,7 @@ public sealed class EmfPlusDashedLineData : EmfPlusStructureObjectType
 
 | Name | Description |
 | --- | --- |
-| [DashedLineData](dashedlinedata) { get; set; } | Gets or sets array of DashedLineDataSize floating-point values that specify the lengths of the dashes and spaces in a dashed line |
+| [DashedLineData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusdashedlinedata/dashedlinedata) { get; set; } | Gets or sets array of DashedLineDataSize floating-point values that specify the lengths of the dashes and spaces in a dashed line |
 
 ### See Also
 

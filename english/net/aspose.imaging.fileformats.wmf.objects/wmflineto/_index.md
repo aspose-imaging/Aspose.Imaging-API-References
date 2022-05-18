@@ -20,6 +20,12 @@ public class WmfLineTo : WmfPointObject
 | --- | --- |
 | [WmfLineTo](wmflineto)() | The default constructor. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Gets or sets the point. |
+
 ### See Also
 
 * class [WmfPointObject](../wmfpointobject)

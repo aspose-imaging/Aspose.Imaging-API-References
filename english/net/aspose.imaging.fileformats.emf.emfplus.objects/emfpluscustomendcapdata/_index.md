@@ -24,7 +24,7 @@ public sealed class EmfPlusCustomEndCapData : EmfPlusStructureObjectType
 
 | Name | Description |
 | --- | --- |
-| [CustomEndCap](customendcap) { get; set; } | Gets or sets a custom line cap that defines the shape to draw at the end of a line. It can be any of various shapes, including a square, circle, or diamond |
+| [CustomEndCap](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomendcapdata/customendcap) { get; set; } | Gets or sets a custom line cap that defines the shape to draw at the end of a line. It can be any of various shapes, including a square, circle, or diamond |
 
 ### See Also
 

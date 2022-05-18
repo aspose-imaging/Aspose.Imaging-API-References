@@ -25,8 +25,10 @@ public sealed class EmfEof : EmfControlRecordType
 
 | Name | Description |
 | --- | --- |
-| [PaletteArgb32Entries](paletteargb32entries) { get; set; } | Gets or sets an optional buffer that contains palette data, which is not required to be contiguous with the fixed portion of the EMR_EOF record. Accordingly, fields in this buffer that are labeled "UndefinedSpace" are optional and MUST be ignored. The size of this field MUST be a multiple of 4 bytes |
-| [SizeLast](sizelast) { get; set; } | Gets or sets a 32-bit unsigned integer that MUST be the same as Size and MUST be the last field of the record and hence the metafile. LogPaletteEntry objects, if they exist, MUST precede this field. |
+| [PaletteArgb32Entries](../../aspose.imaging.fileformats.emf.emf.records/emfeof/paletteargb32entries) { get; set; } | Gets or sets an optional buffer that contains palette data, which is not required to be contiguous with the fixed portion of the EMR_EOF record. Accordingly, fields in this buffer that are labeled "UndefinedSpace" are optional and MUST be ignored. The size of this field MUST be a multiple of 4 bytes |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [SizeLast](../../aspose.imaging.fileformats.emf.emf.records/emfeof/sizelast) { get; set; } | Gets or sets a 32-bit unsigned integer that MUST be the same as Size and MUST be the last field of the record and hence the metafile. LogPaletteEntry objects, if they exist, MUST precede this field. |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

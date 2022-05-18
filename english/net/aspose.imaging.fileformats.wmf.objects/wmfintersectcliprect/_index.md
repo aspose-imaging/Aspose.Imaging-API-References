@@ -24,7 +24,7 @@ public class WmfIntersectClipRect : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [Rectangle](rectangle) { get; set; } | Gets or sets the rectangle. |
+| [Rectangle](../../aspose.imaging.fileformats.wmf.objects/wmfintersectcliprect/rectangle) { get; set; } | Gets or sets the rectangle. |
 
 ### See Also
 

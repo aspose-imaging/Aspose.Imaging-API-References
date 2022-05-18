@@ -18,12 +18,12 @@ public sealed class ColorTranslator
 
 | Name | Description |
 | --- | --- |
-| static [FromHtml](fromhtml)(string) | Takes color from the HTML color. |
-| static [FromOle](fromole)(int) | Takes color from the OLE color. |
-| static [FromWin32](fromwin32)(int) | Takes color from the HTML color. |
-| static [ToHtml](tohtml)(Color) | Creates HTML color from the color. |
-| static [ToOle](toole)(Color) | Translates OLE color to color. |
-| static [ToWin32](towin32)(Color) | Translates the color to win32 color. |
+| static [FromHtml](../../aspose.imaging/colortranslator/fromhtml)(string) | Takes color from the HTML color. |
+| static [FromOle](../../aspose.imaging/colortranslator/fromole)(int) | Takes color from the OLE color. |
+| static [FromWin32](../../aspose.imaging/colortranslator/fromwin32)(int) | Takes color from the HTML color. |
+| static [ToHtml](../../aspose.imaging/colortranslator/tohtml)(Color) | Creates HTML color from the color. |
+| static [ToOle](../../aspose.imaging/colortranslator/toole)(Color) | Translates OLE color to color. |
+| static [ToWin32](../../aspose.imaging/colortranslator/towin32)(Color) | Translates the color to win32 color. |
 
 ### See Also
 

@@ -25,7 +25,9 @@ public sealed class EmfSetWindowExtEx : EmfStateRecordType
 
 | Name | Description |
 | --- | --- |
-| [Extent](extent) { get; set; } | Gets or sets a 64-bit WMF SizeL object ([MS-WMF] section 2.2.2.22) that specifies the horizontal and vertical extents in logical units. |
+| [Extent](../../aspose.imaging.fileformats.emf.emf.records/emfsetwindowextex/extent) { get; set; } | Gets or sets a 64-bit WMF SizeL object ([MS-WMF] section 2.2.2.22) that specifies the horizontal and vertical extents in logical units. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

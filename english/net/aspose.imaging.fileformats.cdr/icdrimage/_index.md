@@ -18,7 +18,7 @@ public interface ICdrImage
 
 | Name | Description |
 | --- | --- |
-| [CdrDocument](cdrdocument) { get; } | Gets or sets the CDR document. |
+| [CdrDocument](../../aspose.imaging.fileformats.cdr/icdrimage/cdrdocument) { get; } | Gets or sets the CDR document. |
 
 ### See Also
 

@@ -25,9 +25,12 @@ public sealed class EmfCommentEmfSpool : EmfCommentRecordType
 
 | Name | Description |
 | --- | --- |
-| override [CommentIdentifier](commentidentifier) { get; set; } | Gets or sets a 32-bit unsigned integer that identifies this comment record as containing EMFSPOOL records. The value 0x00000000 identifies this as an EMR_COMMENT_EMFSPOOL record. |
-| [EmfSpoolRecordIdentifier](emfspoolrecordidentifier) { get; set; } | Gets or sets a 32-bit unsigned integer that identifies the type of EMR_COMMENT_EMFSPOOL record. |
-| [EmfSpoolRecords](emfspoolrecords) { get; set; } | Gets or sets a variable-length array of bytes that contains one or more EMFSPOOL font definition records ([MS-EMFSPOOL] section 2.2.3.3). |
+| override [CommentIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool/commentidentifier) { get; set; } | Gets or sets a 32-bit unsigned integer that identifies this comment record as containing EMFSPOOL records. The value 0x00000000 identifies this as an EMR_COMMENT_EMFSPOOL record. |
+| [DataSize](../../aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/datasize) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the size, in bytes, of the CommentIdentifier and CommentRecordParm fields in the RecordBuffer field that follows. It MUST NOT include the size of itself or the size of the AlignmentPadding field, if present |
+| [EmfSpoolRecordIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool/emfspoolrecordidentifier) { get; set; } | Gets or sets a 32-bit unsigned integer that identifies the type of EMR_COMMENT_EMFSPOOL record. |
+| [EmfSpoolRecords](../../aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool/emfspoolrecords) { get; set; } | Gets or sets a variable-length array of bytes that contains one or more EMFSPOOL font definition records ([MS-EMFSPOOL] section 2.2.3.3). |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

@@ -24,9 +24,9 @@ public class GraphicsOptions
 
 | Name | Description |
 | --- | --- |
-| [InterpolationMode](interpolationmode) { get; set; } | Gets or sets interpolation mode. |
-| [SmoothingMode](smoothingmode) { get; set; } | Gets or sets smoothing mode. |
-| [TextRenderingHint](textrenderinghint) { get; set; } | Gets or sets text rendering hint. |
+| [InterpolationMode](../../aspose.imaging.imageoptions/graphicsoptions/interpolationmode) { get; set; } | Gets or sets interpolation mode. |
+| [SmoothingMode](../../aspose.imaging.imageoptions/graphicsoptions/smoothingmode) { get; set; } | Gets or sets smoothing mode. |
+| [TextRenderingHint](../../aspose.imaging.imageoptions/graphicsoptions/textrenderinghint) { get; set; } | Gets or sets text rendering hint. |
 
 ### See Also
 

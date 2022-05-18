@@ -24,13 +24,13 @@ public class RawDataSettings
 
 | Name | Description |
 | --- | --- |
-| [ColorPalette](colorpalette) { get; set; } | Gets or sets the color palette |
-| [CustomColorConverter](customcolorconverter) { get; set; } | Gets or sets the custom color converter |
-| [DitheringMethod](ditheringmethod) { get; set; } | Gets or sets the dithering method to use for raw data conversion |
-| [FallbackIndex](fallbackindex) { get; set; } | Gets or sets the fallback index to use when palette index is out of bounds |
-| [IndexedColorConverter](indexedcolorconverter) { get; set; } | Gets or sets the indexed color converter |
-| [LineSize](linesize) { get; set; } | Gets or sets the pixels line size in bytes for raw data processing |
-| [PixelDataFormat](pixeldataformat) { get; set; } | Gets or sets the pixel data format |
+| [ColorPalette](../../aspose.imaging/rawdatasettings/colorpalette) { get; set; } | Gets or sets the color palette |
+| [CustomColorConverter](../../aspose.imaging/rawdatasettings/customcolorconverter) { get; set; } | Gets or sets the custom color converter |
+| [DitheringMethod](../../aspose.imaging/rawdatasettings/ditheringmethod) { get; set; } | Gets or sets the dithering method to use for raw data conversion |
+| [FallbackIndex](../../aspose.imaging/rawdatasettings/fallbackindex) { get; set; } | Gets or sets the fallback index to use when palette index is out of bounds |
+| [IndexedColorConverter](../../aspose.imaging/rawdatasettings/indexedcolorconverter) { get; set; } | Gets or sets the indexed color converter |
+| [LineSize](../../aspose.imaging/rawdatasettings/linesize) { get; set; } | Gets or sets the pixels line size in bytes for raw data processing |
+| [PixelDataFormat](../../aspose.imaging/rawdatasettings/pixeldataformat) { get; set; } | Gets or sets the pixel data format |
 
 ### See Also
 

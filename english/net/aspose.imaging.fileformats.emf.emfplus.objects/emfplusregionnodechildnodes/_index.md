@@ -24,9 +24,9 @@ public sealed class EmfPlusRegionNodeChildNodes : EmfPlusStructureObjectType
 
 | Name | Description |
 | --- | --- |
-| [Left](left) { get; set; } | Gets or sets an EmfPlusRegionNode object that specifies the left child node of this region node. |
-| [Operation](operation) { get; set; } | Gets or sets the operation. |
-| [Right](right) { get; set; } | Gets or sets an EmfPlusRegionNode object that defines the right child node of this region node. |
+| [Left](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/left) { get; set; } | Gets or sets an EmfPlusRegionNode object that specifies the left child node of this region node. |
+| [Operation](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/operation) { get; set; } | Gets or sets the operation. |
+| [Right](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/right) { get; set; } | Gets or sets an EmfPlusRegionNode object that defines the right child node of this region node. |
 
 ### See Also
 

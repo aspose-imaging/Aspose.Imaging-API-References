@@ -24,12 +24,12 @@ public sealed class EmfTriVertex : EmfObject
 
 | Name | Description |
 | --- | --- |
-| [Alpha](alpha) { get; set; } | Gets or sets a 16-bit unsigned integer that specifies the alpha transparency value for the point. |
-| [Blue](blue) { get; set; } | Gets or sets a 16-bit unsigned integer that specifies the blue color value for the point. |
-| [Green](green) { get; set; } | Gets or sets a 16-bit unsigned integer that specifies the green color value for the point. |
-| [Red](red) { get; set; } | Gets or sets a 16-bit unsigned integer that specifies the red color value for the point. |
-| [X](x) { get; set; } | Gets or sets a 32-bit signed integer that specifies the horizontal position, in logical units. |
-| [Y](y) { get; set; } | Gets or sets a 32-bit signed integer that specifies the vertical position, in logical units. |
+| [Alpha](../../aspose.imaging.fileformats.emf.emf.objects/emftrivertex/alpha) { get; set; } | Gets or sets a 16-bit unsigned integer that specifies the alpha transparency value for the point. |
+| [Blue](../../aspose.imaging.fileformats.emf.emf.objects/emftrivertex/blue) { get; set; } | Gets or sets a 16-bit unsigned integer that specifies the blue color value for the point. |
+| [Green](../../aspose.imaging.fileformats.emf.emf.objects/emftrivertex/green) { get; set; } | Gets or sets a 16-bit unsigned integer that specifies the green color value for the point. |
+| [Red](../../aspose.imaging.fileformats.emf.emf.objects/emftrivertex/red) { get; set; } | Gets or sets a 16-bit unsigned integer that specifies the red color value for the point. |
+| [X](../../aspose.imaging.fileformats.emf.emf.objects/emftrivertex/x) { get; set; } | Gets or sets a 32-bit signed integer that specifies the horizontal position, in logical units. |
+| [Y](../../aspose.imaging.fileformats.emf.emf.objects/emftrivertex/y) { get; set; } | Gets or sets a 32-bit signed integer that specifies the vertical position, in logical units. |
 
 ### See Also
 

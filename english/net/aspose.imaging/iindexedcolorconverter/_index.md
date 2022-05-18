@@ -18,7 +18,7 @@ public interface IIndexedColorConverter
 
 | Name | Description |
 | --- | --- |
-| [FillIndexedtoIndexedMap](fillindexedtoindexedmap)(byte[], PixelDataFormat, PixelDataFormat) | Fills the indexed to indexed image conversion map. |
+| [FillIndexedtoIndexedMap](../../aspose.imaging/iindexedcolorconverter/fillindexedtoindexedmap)(byte[], PixelDataFormat, PixelDataFormat) | Fills the indexed to indexed image conversion map. |
 
 ### See Also
 

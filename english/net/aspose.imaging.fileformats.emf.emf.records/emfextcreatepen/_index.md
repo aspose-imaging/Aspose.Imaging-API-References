@@ -25,9 +25,11 @@ public sealed class EmfExtCreatePen : EmfObjectCreationRecordType
 
 | Name | Description |
 | --- | --- |
-| [BitmapBuffer](bitmapbuffer) { get; set; } | Gets or sets an optional buffer containing a packed DIB in the form of a WMF DeviceIndependentBitmap object ([MS-WMF] section 2.2.2.9). It is not required to be contiguous with the fixed portion of the EMR_EXTCREATEPEN record |
-| [Elp](elp) { get; set; } | Gets or sets a LogPenEx object (section 2.2.20) that specifies an extended logical pen with attributes including an optional line style array. |
-| [IhPen](ihpen) { get; set; } | Gets or sets 32-bit unsigned integer that specifies the index of the extended logical pen object in the EMF Object Table (section 3.1.1.1). This index MUST be saved so that this object can be reused or modified. |
+| [BitmapBuffer](../../aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/bitmapbuffer) { get; set; } | Gets or sets an optional buffer containing a packed DIB in the form of a WMF DeviceIndependentBitmap object ([MS-WMF] section 2.2.2.9). It is not required to be contiguous with the fixed portion of the EMR_EXTCREATEPEN record |
+| [Elp](../../aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/elp) { get; set; } | Gets or sets a LogPenEx object (section 2.2.20) that specifies an extended logical pen with attributes including an optional line style array. |
+| [IhPen](../../aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/ihpen) { get; set; } | Gets or sets 32-bit unsigned integer that specifies the index of the extended logical pen object in the EMF Object Table (section 3.1.1.1). This index MUST be saved so that this object can be reused or modified. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

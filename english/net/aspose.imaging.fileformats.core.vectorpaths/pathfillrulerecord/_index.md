@@ -25,7 +25,7 @@ public class PathFillRuleRecord : VectorPathRecord
 
 | Name | Description |
 | --- | --- |
-| override [Type](type) { get; } | Gets the type. |
+| override [Type](../../aspose.imaging.fileformats.core.vectorpaths/pathfillrulerecord/type) { get; } | Gets the type. |
 
 ### See Also
 

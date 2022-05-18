@@ -25,15 +25,15 @@ public class XmpArray : IXmlValue
 
 | Name | Description |
 | --- | --- |
-| [Values](values) { get; } | Gets array of values inside [`XmpArray`](../xmparray). |
+| [Values](../../aspose.imaging.xmp/xmparray/values) { get; } | Gets array of values inside [`XmpArray`](../xmparray). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddItem](additem)(string) | Adds new item. |
-| [GetXmlValue](getxmlvalue)() | Converts XMP value to the XML representation. |
-| override [ToString](tostring)() | Returns a String that represents this instance. |
+| [AddItem](../../aspose.imaging.xmp/xmparray/additem)(string) | Adds new item. |
+| [GetXmlValue](../../aspose.imaging.xmp/xmparray/getxmlvalue)() | Converts XMP value to the XML representation. |
+| override [ToString](../../aspose.imaging.xmp/xmparray/tostring)() | Returns a String that represents this instance. |
 
 ### See Also
 

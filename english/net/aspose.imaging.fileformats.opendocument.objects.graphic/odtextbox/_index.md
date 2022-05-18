@@ -24,7 +24,10 @@ public class OdTextBox : OdGraphicObject
 
 | Name | Description |
 | --- | --- |
-| [Rectangle](rectangle) { get; set; } | Gets or sets the rectangle. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Gets or sets a value indicating whether [absolute coordinates]. |
+| [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Gets the items. |
+| [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Gets the parent object. |
+| [Rectangle](../../aspose.imaging.fileformats.opendocument.objects.graphic/odtextbox/rectangle) { get; set; } | Gets or sets the rectangle. |
 
 ### See Also
 

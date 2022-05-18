@@ -24,12 +24,12 @@ public sealed class EmfPlusLinearGradientBrushData : EmfPlusBaseBrushData
 
 | Name | Description |
 | --- | --- |
-| [BrushDataFlags](brushdataflags) { get; set; } | Gets or sets the brush data flags. |
-| [EndArgb32Color](endargb32color) { get; set; } | Gets or sets the end color. |
-| [OptionalData](optionaldata) { get; set; } | Gets or sets the optional data. |
-| [RectF](rectf) { get; set; } | Gets or sets the rect f. |
-| [StartArgb32Color](startargb32color) { get; set; } | Gets or sets the start color. |
-| [WrapMode](wrapmode) { get; set; } | Gets or sets the wrap mode. |
+| [BrushDataFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushdata/brushdataflags) { get; set; } | Gets or sets the brush data flags. |
+| [EndArgb32Color](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushdata/endargb32color) { get; set; } | Gets or sets the end color. |
+| [OptionalData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushdata/optionaldata) { get; set; } | Gets or sets the optional data. |
+| [RectF](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushdata/rectf) { get; set; } | Gets or sets the rect f. |
+| [StartArgb32Color](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushdata/startargb32color) { get; set; } | Gets or sets the start color. |
+| [WrapMode](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushdata/wrapmode) { get; set; } | Gets or sets the wrap mode. |
 
 ### See Also
 

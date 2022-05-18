@@ -26,8 +26,8 @@ public class InitialFillRuleRecord : VectorPathRecord
 
 | Name | Description |
 | --- | --- |
-| [IsFillStartsWithAllPixels](isfillstartswithallpixels) { get; set; } | Gets or sets a value indicating whether is fill starts with all pixels. |
-| override [Type](type) { get; } | Gets the type. |
+| [IsFillStartsWithAllPixels](../../aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord/isfillstartswithallpixels) { get; set; } | Gets or sets a value indicating whether is fill starts with all pixels. |
+| override [Type](../../aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord/type) { get; } | Gets the type. |
 
 ### See Also
 

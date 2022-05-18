@@ -18,7 +18,7 @@ public static class ColorBlendExtensions
 
 | Name | Description |
 | --- | --- |
-| static [ToGdiColorBlend](togdicolorblend)(ColorBlend) | Converts the [`ColorBlend`](../../aspose.imaging/colorblend) to ColorBlend. |
+| static [ToGdiColorBlend](../../aspose.imaging.extensions/colorblendextensions/togdicolorblend)(ColorBlend) | Converts the [`ColorBlend`](../../aspose.imaging/colorblend) to ColorBlend. |
 
 ### See Also
 

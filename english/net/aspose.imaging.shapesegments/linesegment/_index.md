@@ -24,8 +24,8 @@ public class LineSegment : ShapeSegment
 
 | Name | Description |
 | --- | --- |
-| override [EndPoint](endpoint) { get; } | Gets the ending point. |
-| override [StartPoint](startpoint) { get; } | Gets the starting point. |
+| override [EndPoint](../../aspose.imaging.shapesegments/linesegment/endpoint) { get; } | Gets the ending point. |
+| override [StartPoint](../../aspose.imaging.shapesegments/linesegment/startpoint) { get; } | Gets the starting point. |
 
 ### See Also
 

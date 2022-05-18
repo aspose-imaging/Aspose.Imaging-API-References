@@ -20,6 +20,13 @@ public sealed class EmfBeginPath : EmfPathBracketRecordType
 | --- | --- |
 | [EmfBeginPath](emfbeginpath)() | The default constructor. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
+
 ### See Also
 
 * class [EmfPathBracketRecordType](../emfpathbracketrecordtype)

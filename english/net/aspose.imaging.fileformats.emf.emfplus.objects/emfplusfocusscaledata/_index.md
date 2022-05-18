@@ -24,9 +24,9 @@ public sealed class EmfPlusFocusScaleData : EmfPlusStructureObjectType
 
 | Name | Description |
 | --- | --- |
-| [FocusScaleCount](focusscalecount) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the number of focus scales. This value MUST be 2. |
-| [FocusScaleX](focusscalex) { get; set; } | Gets or sets a floating-point value that defines the horizontal focus scale. The focus scale MUST be a value between 0.0 and 1.0, exclusive. |
-| [FocusScaleY](focusscaley) { get; set; } | Gets or sets a floating-point value that defines the vertical focus scale. The focus scale MUST be a value between 0.0 and 1.0, exclusive. |
+| [FocusScaleCount](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfocusscaledata/focusscalecount) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the number of focus scales. This value MUST be 2. |
+| [FocusScaleX](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfocusscaledata/focusscalex) { get; set; } | Gets or sets a floating-point value that defines the horizontal focus scale. The focus scale MUST be a value between 0.0 and 1.0, exclusive. |
+| [FocusScaleY](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfocusscaledata/focusscaley) { get; set; } | Gets or sets a floating-point value that defines the vertical focus scale. The focus scale MUST be a value between 0.0 and 1.0, exclusive. |
 
 ### See Also
 

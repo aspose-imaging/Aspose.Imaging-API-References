@@ -24,7 +24,9 @@ public sealed class EmfDeleteColorSpace : EmfObjectManipulationRecordType
 
 | Name | Description |
 | --- | --- |
-| [IhCS](ihcs) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the index of a logical color space object in the EMF Object Table (section 3.1.1.1). |
+| [IhCS](../../aspose.imaging.fileformats.emf.emf.records/emfdeletecolorspace/ihcs) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the index of a logical color space object in the EMF Object Table (section 3.1.1.1). |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### Remarks
 

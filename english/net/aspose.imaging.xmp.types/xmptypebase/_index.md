@@ -18,7 +18,7 @@ public abstract class XmpTypeBase : IXmpType
 
 | Name | Description |
 | --- | --- |
-| abstract [GetXmpRepresentation](getxmprepresentation)() | Gets the string contained value in XMP format. |
+| abstract [GetXmpRepresentation](../../aspose.imaging.xmp.types/xmptypebase/getxmprepresentation)() | Gets the string contained value in XMP format. |
 
 ### See Also
 

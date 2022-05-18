@@ -24,9 +24,10 @@ public sealed class EmfPlusPen : EmfPlusGraphicsObjectType
 
 | Name | Description |
 | --- | --- |
-| [BrushObject](brushobject) { get; set; } | Gets or sets an EmfPlusBrush object that specifies a graphics brush associated with the pen |
-| [PenData](pendata) { get; set; } | Gets or sets an EmfPlusPenData object that specifies properties of the graphics pen |
-| [Type](type) { get; set; } | Gets or sets This field MUST be set to zero |
+| [BrushObject](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen/brushobject) { get; set; } | Gets or sets an EmfPlusBrush object that specifies a graphics brush associated with the pen |
+| [PenData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen/pendata) { get; set; } | Gets or sets an EmfPlusPenData object that specifies properties of the graphics pen |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen/type) { get; set; } | Gets or sets This field MUST be set to zero |
+| [Version](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsobjecttype/version) { get; set; } | Gets or sets the version. |
 
 ### See Also
 

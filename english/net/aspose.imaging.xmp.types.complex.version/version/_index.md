@@ -24,17 +24,19 @@ public sealed class Version : ComplexTypeBase
 
 | Name | Description |
 | --- | --- |
-| [Comments](comments) { get; set; } | Gets or sets the comments. |
-| [ModifiedDate](modifieddate) { get; set; } | Gets or sets the modified date. |
-| [Modifier](modifier) { get; set; } | Gets or sets the modifier. |
-| [VersionEvent](versionevent) { get; set; } | Gets or sets the [`ResourceEvent`](../../aspose.imaging.xmp.types.complex.resourceevent/resourceevent). |
-| [VersionText](versiontext) { get; set; } | Gets or sets the version text. |
+| [Comments](../../aspose.imaging.xmp.types.complex.version/version/comments) { get; set; } | Gets or sets the comments. |
+| [ModifiedDate](../../aspose.imaging.xmp.types.complex.version/version/modifieddate) { get; set; } | Gets or sets the modified date. |
+| [Modifier](../../aspose.imaging.xmp.types.complex.version/version/modifier) { get; set; } | Gets or sets the modifier. |
+| [NamespaceUri](../../aspose.imaging.xmp.types.complex/complextypebase/namespaceuri) { get; } | Gets the default namespace URI. |
+| [Prefix](../../aspose.imaging.xmp.types.complex/complextypebase/prefix) { get; } | Gets the prefix. |
+| [VersionEvent](../../aspose.imaging.xmp.types.complex.version/version/versionevent) { get; set; } | Gets or sets the [`ResourceEvent`](../../aspose.imaging.xmp.types.complex.resourceevent/resourceevent). |
+| [VersionText](../../aspose.imaging.xmp.types.complex.version/version/versiontext) { get; set; } | Gets or sets the version text. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetXmpRepresentation](getxmprepresentation)() | Gets the string contained value in XMP format. |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.types.complex.version/version/getxmprepresentation)() | Gets the string contained value in XMP format. |
 
 ### See Also
 

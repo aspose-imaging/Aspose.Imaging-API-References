@@ -25,7 +25,9 @@ public sealed class EmfSetViewportExtEx : EmfStateRecordType
 
 | Name | Description |
 | --- | --- |
-| [Extent](extent) { get; set; } | Gets or sets a 64-bit WMF SizeL object ([MS-WMF] section 2.2.2.22) that specifies the horizontal and vertical extents in device units. |
+| [Extent](../../aspose.imaging.fileformats.emf.emf.records/emfsetviewportextex/extent) { get; set; } | Gets or sets a 64-bit WMF SizeL object ([MS-WMF] section 2.2.2.22) that specifies the horizontal and vertical extents in device units. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

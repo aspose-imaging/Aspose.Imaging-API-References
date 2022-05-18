@@ -24,7 +24,7 @@ public class WmfResizePalette : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [NumberOfEntries](numberofentries) { get; set; } | Gets or sets the number of entries. |
+| [NumberOfEntries](../../aspose.imaging.fileformats.wmf.objects/wmfresizepalette/numberofentries) { get; set; } | Gets or sets the number of entries. |
 
 ### See Also
 

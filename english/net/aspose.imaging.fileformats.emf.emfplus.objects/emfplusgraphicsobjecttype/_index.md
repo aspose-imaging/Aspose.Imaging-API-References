@@ -18,7 +18,7 @@ public abstract class EmfPlusGraphicsObjectType : EmfPlusObject
 
 | Name | Description |
 | --- | --- |
-| [Version](version) { get; set; } | Gets or sets the version. |
+| [Version](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsobjecttype/version) { get; set; } | Gets or sets the version. |
 
 ### See Also
 

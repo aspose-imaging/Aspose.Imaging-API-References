@@ -25,8 +25,10 @@ public sealed class EmfPolyline16 : EmfDrawingRecordType
 
 | Name | Description |
 | --- | --- |
-| [APoints](apoints) { get; set; } | Gets or sets a Count length array of WMF PointS objects, specified in [MS-WMF] section 2.2.2.16, which specifies the array of points. |
-| [Bounds](bounds) { get; set; } | Gets or sets a 128-bit WMF RectL object, specified in [MS-WMF] section 2.2.2.19, which specifies the bounding rectangle, in device units. |
+| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolyline16/apoints) { get; set; } | Gets or sets a Count length array of WMF PointS objects, specified in [MS-WMF] section 2.2.2.16, which specifies the array of points. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolyline16/bounds) { get; set; } | Gets or sets a 128-bit WMF RectL object, specified in [MS-WMF] section 2.2.2.19, which specifies the bounding rectangle, in device units. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

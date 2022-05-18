@@ -14,7 +14,7 @@ The namespace handles Tiff file format processing.
 | --- | --- |
 | [CmxContainer](./cmxcontainer) | the container for child elements. |
 | [CmxDocument](./cmxdocument) | The CMX document. |
-| [CmxGroup](./cmxgroup) | Group of [`ICmxDocElement`](aspose.imaging.fileformats.cmx.objectmodel/icmxdocelement) |
+| [CmxGroup](./cmxgroup) | Group of [`ICmxDocElement`](../aspose.imaging.fileformats.cmx.objectmodel/icmxdocelement) |
 | [CmxLayer](./cmxlayer) | The graphic layer located on the page of the CMX document. |
 | [CmxObject](./cmxobject) | Object containing information about the graphic element. |
 | [CmxPage](./cmxpage) | The page of the CMX document. |

@@ -24,7 +24,9 @@ public sealed class EmfSelectPalette : EmfObjectManipulationRecordType
 
 | Name | Description |
 | --- | --- |
-| [IhPal](ihpal) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies either the index of a LogPalette object (section 2.2.17) in the EMF Object Table or the value DEFAULT_PALETTE, which is the index of a stock object palette from the StockObject enumeration (section 2.1.31). |
+| [IhPal](../../aspose.imaging.fileformats.emf.emf.records/emfselectpalette/ihpal) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies either the index of a LogPalette object (section 2.2.17) in the EMF Object Table or the value DEFAULT_PALETTE, which is the index of a stock object palette from the StockObject enumeration (section 2.1.31). |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

@@ -18,21 +18,23 @@ public abstract class ImageOptionsBase : DisposableObject
 
 | Name | Description |
 | --- | --- |
-| [BufferSizeHint](buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
-| [FullFrame](fullframe) { get; set; } | Gets or sets a value indicating whether [full frame]. |
-| [MultiPageOptions](multipageoptions) { get; set; } | The multipage options |
-| virtual [Palette](palette) { get; set; } | Gets or sets the color palette. |
-| [ProgressEventHandler](progresseventhandler) { get; set; } | Gets or sets the progress event handler. |
-| virtual [ResolutionSettings](resolutionsettings) { get; set; } | Gets or sets the resolution settings. |
-| [Source](source) { get; set; } | Gets or sets the source to create image in. |
-| [VectorRasterizationOptions](vectorrasterizationoptions) { get; set; } | Gets or sets the vector rasterization options. |
-| virtual [XmpData](xmpdata) { get; set; } | Gets or sets the XMP metadata container. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | The multipage options |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Gets or sets the color palette. |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Gets or sets the progress event handler. |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Gets or sets the resolution settings. |
+| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Gets or sets the source to create image in. |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Gets or sets the vector rasterization options. |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata) { get; set; } | Gets or sets the XMP metadata container. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [Clone](clone)() | Clones this instance. |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | Clones this instance. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
 
 ### See Also
 

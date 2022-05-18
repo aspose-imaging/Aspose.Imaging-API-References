@@ -18,7 +18,7 @@ public interface IImageLoader
 
 | Name | Description |
 | --- | --- |
-| [Load](load)(StreamContainer, LoadOptions) | Opens a new image with *loadOptions*. |
+| [Load](../../aspose.imaging/iimageloader/load)(StreamContainer, LoadOptions) | Opens a new image with *loadOptions*. |
 
 ### See Also
 

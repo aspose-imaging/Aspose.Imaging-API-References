@@ -24,11 +24,11 @@ public class WmfScanObject : MetaObject
 
 | Name | Description |
 | --- | --- |
-| [Bottom](bottom) { get; set; } | Gets or sets the bottom. |
-| [Count](count) { get; set; } | Gets or sets the count. |
-| [Count2](count2) { get; set; } | Gets or sets the count2. |
-| [ScanLines](scanlines) { get; set; } | Gets or sets the scan lines. |
-| [Top](top) { get; set; } | Gets or sets the top. |
+| [Bottom](../../aspose.imaging.fileformats.wmf.objects/wmfscanobject/bottom) { get; set; } | Gets or sets the bottom. |
+| [Count](../../aspose.imaging.fileformats.wmf.objects/wmfscanobject/count) { get; set; } | Gets or sets the count. |
+| [Count2](../../aspose.imaging.fileformats.wmf.objects/wmfscanobject/count2) { get; set; } | Gets or sets the count2. |
+| [ScanLines](../../aspose.imaging.fileformats.wmf.objects/wmfscanobject/scanlines) { get; set; } | Gets or sets the scan lines. |
+| [Top](../../aspose.imaging.fileformats.wmf.objects/wmfscanobject/top) { get; set; } | Gets or sets the top. |
 
 ### See Also
 

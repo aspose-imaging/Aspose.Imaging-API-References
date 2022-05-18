@@ -18,9 +18,9 @@ public interface IFrame
 
 | Name | Description |
 | --- | --- |
-| [Duration](duration) { get; set; } | Gets or sets the frame duration. |
-| [Left](left) { get; set; } | Gets or sets the frame position left. |
-| [Top](top) { get; set; } | Gets or sets the frame position top. |
+| [Duration](../../aspose.imaging.fileformats.webp/iframe/duration) { get; set; } | Gets or sets the frame duration. |
+| [Left](../../aspose.imaging.fileformats.webp/iframe/left) { get; set; } | Gets or sets the frame position left. |
+| [Top](../../aspose.imaging.fileformats.webp/iframe/top) { get; set; } | Gets or sets the frame position top. |
 
 ### See Also
 

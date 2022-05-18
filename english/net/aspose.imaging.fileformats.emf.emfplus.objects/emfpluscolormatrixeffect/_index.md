@@ -24,12 +24,12 @@ public sealed class EmfPlusColorMatrixEffect : EmfPlusImageEffectsObjectType
 
 | Name | Description |
 | --- | --- |
-| [Matrix](matrix) { get; set; } | Gets or sets the matrix. |
-| [MatrixN0](matrixn0) { get; set; } | Gets or sets the Matrix[N][0] of the 5x5 color matrix. This row is used for transforms. |
-| [MatrixN1](matrixn1) { get; set; } | Gets or sets the Matrix[N][1] of the 5x5 color matrix. This row is used for transforms. |
-| [MatrixN2](matrixn2) { get; set; } | Gets or sets the Matrix[N][2] of the 5x5 color matrix. This row is used for transforms. |
-| [MatrixN3](matrixn3) { get; set; } | Gets or sets the Matrix[N][3] of the 5x5 color matrix. This row is used for transforms. |
-| [MatrixN4](matrixn4) { get; set; } | Gets or sets the Matrix[N][4] of the 5x5 color matrix. This row is used for color translations. |
+| [Matrix](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolormatrixeffect/matrix) { get; set; } | Gets or sets the matrix. |
+| [MatrixN0](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolormatrixeffect/matrixn0) { get; set; } | Gets or sets the Matrix[N][0] of the 5x5 color matrix. This row is used for transforms. |
+| [MatrixN1](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolormatrixeffect/matrixn1) { get; set; } | Gets or sets the Matrix[N][1] of the 5x5 color matrix. This row is used for transforms. |
+| [MatrixN2](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolormatrixeffect/matrixn2) { get; set; } | Gets or sets the Matrix[N][2] of the 5x5 color matrix. This row is used for transforms. |
+| [MatrixN3](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolormatrixeffect/matrixn3) { get; set; } | Gets or sets the Matrix[N][3] of the 5x5 color matrix. This row is used for transforms. |
+| [MatrixN4](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolormatrixeffect/matrixn4) { get; set; } | Gets or sets the Matrix[N][4] of the 5x5 color matrix. This row is used for color translations. |
 
 ### Remarks
 

@@ -18,8 +18,8 @@ public static class ColorMapExtensions
 
 | Name | Description |
 | --- | --- |
-| static [ToGdiColorMap](togdicolormap)(ColorMap) | Converts the [`ColorMap`](../../aspose.imaging/colormap) to the ColorMap. |
-| static [ToGdiColorMaps](togdicolormaps)(ColorMap[]) | Converts the [`ColorMap`](../../aspose.imaging/colormap) array to the ColorMap array. |
+| static [ToGdiColorMap](../../aspose.imaging.extensions/colormapextensions/togdicolormap)(ColorMap) | Converts the [`ColorMap`](../../aspose.imaging/colormap) to the ColorMap. |
+| static [ToGdiColorMaps](../../aspose.imaging.extensions/colormapextensions/togdicolormaps)(ColorMap[]) | Converts the [`ColorMap`](../../aspose.imaging/colormap) array to the ColorMap array. |
 
 ### See Also
 

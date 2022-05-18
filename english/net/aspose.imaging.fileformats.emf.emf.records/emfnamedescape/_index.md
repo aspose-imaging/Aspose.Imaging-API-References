@@ -24,10 +24,13 @@ public sealed class EmfNamedEscape : EmfEscapeRecordType
 
 | Name | Description |
 | --- | --- |
-| [CjDriver](cjdriver) { get; set; } | Gets or sets A 32-bit unsigned integer that specifies the number of bytes in the DriverName field. This value MUST be an even number. |
-| [CjIn](cjin) { get; set; } | Gets or sets A 32-bit unsigned integer specifying the number of bytes to pass to the printer driver. |
-| [Data](data) { get; set; } | Gets or sets The data to pass to the printer driver. There MUST be cjIn bytes available. |
-| [DriverName](drivername) { get; set; } | Gets or sets A string of 16-bit Unicode characters that specifies the name of the printer driver that will receive data. This value MUST be cjDriver bytes long, and it MUST be terminated with a null character. |
+| [CjDriver](../../aspose.imaging.fileformats.emf.emf.records/emfnamedescape/cjdriver) { get; set; } | Gets or sets A 32-bit unsigned integer that specifies the number of bytes in the DriverName field. This value MUST be an even number. |
+| [CjIn](../../aspose.imaging.fileformats.emf.emf.records/emfnamedescape/cjin) { get; set; } | Gets or sets A 32-bit unsigned integer specifying the number of bytes to pass to the printer driver. |
+| [Data](../../aspose.imaging.fileformats.emf.emf.records/emfnamedescape/data) { get; set; } | Gets or sets The data to pass to the printer driver. There MUST be cjIn bytes available. |
+| [DriverName](../../aspose.imaging.fileformats.emf.emf.records/emfnamedescape/drivername) { get; set; } | Gets or sets A string of 16-bit Unicode characters that specifies the name of the printer driver that will receive data. This value MUST be cjDriver bytes long, and it MUST be terminated with a null character. |
+| [IEscape](../../aspose.imaging.fileformats.emf.emf.records/emfescaperecordtype/iescape) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the printer driver escape to execute. This MUST be one of the values in the WMF MetafileEscapes enumeration ([MSWMF] section 2.1.1.17). |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

@@ -25,13 +25,14 @@ public class GifCommentBlock : GifBlock
 
 | Name | Description |
 | --- | --- |
-| [Comment](comment) { get; set; } | Gets or sets the comment. Note that comment must use ASCII encoding and will be stored accordingly. |
+| [Comment](../../aspose.imaging.fileformats.gif.blocks/gifcommentblock/comment) { get; set; } | Gets or sets the comment. Note that comment must use ASCII encoding and will be stored accordingly. |
+| [IsChanged](../../aspose.imaging.fileformats.gif/gifblock/ischanged) { get; set; } | Gets or sets a value indicating whether block has changed and requires save. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Save](save)(Stream) | Saves the block to the specified stream. |
+| override [Save](../../aspose.imaging.fileformats.gif.blocks/gifcommentblock/save)(Stream) | Saves the block to the specified stream. |
 
 ## Other Members
 

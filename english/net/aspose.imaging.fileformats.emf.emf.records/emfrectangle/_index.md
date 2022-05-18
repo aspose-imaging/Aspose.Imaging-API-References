@@ -25,7 +25,9 @@ public sealed class EmfRectangle : EmfDrawingRecordType
 
 | Name | Description |
 | --- | --- |
-| [Box](box) { get; set; } | Gets or sets a 128-bit WMF RectL object, specified in [MS-WMF] section 2.2.2.19, which specifies the inclusive-inclusive rectangle to draw. |
+| [Box](../../aspose.imaging.fileformats.emf.emf.records/emfrectangle/box) { get; set; } | Gets or sets a 128-bit WMF RectL object, specified in [MS-WMF] section 2.2.2.19, which specifies the inclusive-inclusive rectangle to draw. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### Remarks
 

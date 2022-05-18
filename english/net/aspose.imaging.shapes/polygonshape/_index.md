@@ -26,23 +26,23 @@ public class PolygonShape : Shape, IOrderedShape
 
 | Name | Description |
 | --- | --- |
-| override [Bounds](bounds) { get; } | Gets the object's bounds. |
-| override [Center](center) { get; } | Gets the shape's center. |
-| virtual [EndPoint](endpoint) { get; } | Gets the ending shape point. |
-| override [HasSegments](hassegments) { get; } | Gets a value indicating whether shape has segments. |
-| [IsClosed](isclosed) { get; set; } | Gets or sets a value indicating whether shape is closed. |
-| [Points](points) { get; set; } | Gets or sets the curve points. |
-| override [Segments](segments) { get; } | Gets the shape segments. |
-| virtual [StartPoint](startpoint) { get; } | Gets the starting shape point. |
+| override [Bounds](../../aspose.imaging.shapes/polygonshape/bounds) { get; } | Gets the object's bounds. |
+| override [Center](../../aspose.imaging.shapes/polygonshape/center) { get; } | Gets the shape's center. |
+| virtual [EndPoint](../../aspose.imaging.shapes/polygonshape/endpoint) { get; } | Gets the ending shape point. |
+| override [HasSegments](../../aspose.imaging.shapes/polygonshape/hassegments) { get; } | Gets a value indicating whether shape has segments. |
+| [IsClosed](../../aspose.imaging.shapes/polygonshape/isclosed) { get; set; } | Gets or sets a value indicating whether shape is closed. |
+| [Points](../../aspose.imaging.shapes/polygonshape/points) { get; set; } | Gets or sets the curve points. |
+| override [Segments](../../aspose.imaging.shapes/polygonshape/segments) { get; } | Gets the shape segments. |
+| virtual [StartPoint](../../aspose.imaging.shapes/polygonshape/startpoint) { get; } | Gets the starting shape point. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetBounds](getbounds)(Matrix) | Gets the object's bounds. |
-| override [GetBounds](getbounds)(Matrix, Pen) | Gets the object's bounds. |
-| [Reverse](reverse)() | Reverses the order of points for this shape. |
-| override [Transform](transform)(Matrix) | Applies the specified transformation to the shape. |
+| override [GetBounds](../../aspose.imaging.shapes/polygonshape/getbounds)(Matrix) | Gets the object's bounds. |
+| override [GetBounds](../../aspose.imaging.shapes/polygonshape/getbounds)(Matrix, Pen) | Gets the object's bounds. |
+| [Reverse](../../aspose.imaging.shapes/polygonshape/reverse)() | Reverses the order of points for this shape. |
+| override [Transform](../../aspose.imaging.shapes/polygonshape/transform)(Matrix) | Applies the specified transformation to the shape. |
 
 ### Examples
 

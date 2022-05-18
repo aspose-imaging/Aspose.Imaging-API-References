@@ -24,7 +24,16 @@ public class CdrDictionaryItem : CdrObject
 
 | Name | Description |
 | --- | --- |
-| [Id](id) { get; set; } | Gets or sets the identifier. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
+| [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | Gets or sets the document. |
+| [Id](../../aspose.imaging.fileformats.cdr.objects/cdrdictionaryitem/id) { get; set; } | Gets or sets the identifier. |
+| [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | Gets or sets the parent. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
 
 ### See Also
 

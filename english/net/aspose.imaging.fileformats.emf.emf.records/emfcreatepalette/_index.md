@@ -24,8 +24,10 @@ public sealed class EmfCreatePalette : EmfObjectCreationRecordType
 
 | Name | Description |
 | --- | --- |
-| [IhPal](ihpal) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the index of the logical palette object in the EMF Object Table (section 3.1.1.1). This index MUST be saved so that this object can be reused or modified. |
-| [LogPalette](logpalette) { get; set; } | Gets or sets a LogPalette object (section 2.2.17). The Version field of this object MUST be set to 0x0300. If the NumberOfEntries value in this object is zero, processing of this record MUST fail. |
+| [IhPal](../../aspose.imaging.fileformats.emf.emf.records/emfcreatepalette/ihpal) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the index of the logical palette object in the EMF Object Table (section 3.1.1.1). This index MUST be saved so that this object can be reused or modified. |
+| [LogPalette](../../aspose.imaging.fileformats.emf.emf.records/emfcreatepalette/logpalette) { get; set; } | Gets or sets a LogPalette object (section 2.2.17). The Version field of this object MUST be set to 0x0300. If the NumberOfEntries value in this object is zero, processing of this record MUST fail. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

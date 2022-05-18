@@ -24,8 +24,8 @@ public class WmfPolygon : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [APoints](apoints) { get; set; } | Gets or sets the points. A NumberOfPoints array of 32-bit PointS Objects (section 2.2.2.16), in logical units. |
-| [NumberOfPoint](numberofpoint) { get; set; } | Gets or sets the number of point. A 16-bit signed integer that defines the number of points in the array. |
+| [APoints](../../aspose.imaging.fileformats.wmf.objects/wmfpolygon/apoints) { get; set; } | Gets or sets the points. A NumberOfPoints array of 32-bit PointS Objects (section 2.2.2.16), in logical units. |
+| [NumberOfPoint](../../aspose.imaging.fileformats.wmf.objects/wmfpolygon/numberofpoint) { get; set; } | Gets or sets the number of point. A 16-bit signed integer that defines the number of points in the array. |
 
 ### See Also
 

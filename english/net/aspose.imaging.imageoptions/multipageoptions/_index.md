@@ -34,20 +34,20 @@ public class MultiPageOptions
 
 | Name | Description |
 | --- | --- |
-| [ExportArea](exportarea) { get; set; } | Gets or sets the export area. |
-| [MergeLayers](mergelayers) { get; set; } | Gets or sets a value indicating whether [merege layers]. |
-| [Mode](mode) { get; set; } | Gets or sets the mode. |
-| [OutputLayersNames](outputlayersnames) { get; set; } | Gets or sets the output layers names(Works if export format supports layers naming, for example for Psd) |
-| [PageRasterizationOptions](pagerasterizationoptions) { get; set; } | Gets or sets the page rasterization options. |
-| [Pages](pages) { get; set; } | Gets or sets the pages. |
-| [PageTitles](pagetitles) { get; set; } | Gets or sets the page titles. |
-| [TimeInterval](timeinterval) { get; set; } | Gets or sets the time interval. |
+| [ExportArea](../../aspose.imaging.imageoptions/multipageoptions/exportarea) { get; set; } | Gets or sets the export area. |
+| [MergeLayers](../../aspose.imaging.imageoptions/multipageoptions/mergelayers) { get; set; } | Gets or sets a value indicating whether [merege layers]. |
+| [Mode](../../aspose.imaging.imageoptions/multipageoptions/mode) { get; set; } | Gets or sets the mode. |
+| [OutputLayersNames](../../aspose.imaging.imageoptions/multipageoptions/outputlayersnames) { get; set; } | Gets or sets the output layers names(Works if export format supports layers naming, for example for Psd) |
+| [PageRasterizationOptions](../../aspose.imaging.imageoptions/multipageoptions/pagerasterizationoptions) { get; set; } | Gets or sets the page rasterization options. |
+| [Pages](../../aspose.imaging.imageoptions/multipageoptions/pages) { get; set; } | Gets or sets the pages. |
+| [PageTitles](../../aspose.imaging.imageoptions/multipageoptions/pagetitles) { get; set; } | Gets or sets the page titles. |
+| [TimeInterval](../../aspose.imaging.imageoptions/multipageoptions/timeinterval) { get; set; } | Gets or sets the time interval. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [InitPages](initpages)(IntRange[]) | Initializes the pages from ranges array |
+| [InitPages](../../aspose.imaging.imageoptions/multipageoptions/initpages)(IntRange[]) | Initializes the pages from ranges array |
 
 ### See Also
 

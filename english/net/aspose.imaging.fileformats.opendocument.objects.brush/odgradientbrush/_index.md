@@ -24,17 +24,17 @@ public class OdGradientBrush : OdBrush
 
 | Name | Description |
 | --- | --- |
-| [Angle](angle) { get; set; } | Gets or sets the angle. |
-| override [BrushStyle](brushstyle) { get; } | Gets the style. |
-| [EndColor](endcolor) { get; set; } | Gets or sets the end color. |
-| [GradientStyle](gradientstyle) { get; set; } | Gets or sets the gradient style. |
-| [StartColor](startcolor) { get; set; } | Gets or sets the start color. |
+| [Angle](../../aspose.imaging.fileformats.opendocument.objects.brush/odgradientbrush/angle) { get; set; } | Gets or sets the angle. |
+| override [BrushStyle](../../aspose.imaging.fileformats.opendocument.objects.brush/odgradientbrush/brushstyle) { get; } | Gets the style. |
+| [EndColor](../../aspose.imaging.fileformats.opendocument.objects.brush/odgradientbrush/endcolor) { get; set; } | Gets or sets the end color. |
+| [GradientStyle](../../aspose.imaging.fileformats.opendocument.objects.brush/odgradientbrush/gradientstyle) { get; set; } | Gets or sets the gradient style. |
+| [StartColor](../../aspose.imaging.fileformats.opendocument.objects.brush/odgradientbrush/startcolor) { get; set; } | Gets or sets the start color. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Clone](clone)() | Clone this instance. |
+| override [Clone](../../aspose.imaging.fileformats.opendocument.objects.brush/odgradientbrush/clone)() | Clone this instance. |
 
 ### See Also
 

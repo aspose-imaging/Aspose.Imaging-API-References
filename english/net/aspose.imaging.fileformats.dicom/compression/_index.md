@@ -24,9 +24,9 @@ public class Compression
 
 | Name | Description |
 | --- | --- |
-| [Jpeg](jpeg) { get; set; } | Gets or sets the JPEG options. |
-| [Jpeg2000](jpeg2000) { get; set; } | Gets or sets the JPEG 2000 options. |
-| [Type](type) { get; set; } | Gets or sets the type. |
+| [Jpeg](../../aspose.imaging.fileformats.dicom/compression/jpeg) { get; set; } | Gets or sets the JPEG options. |
+| [Jpeg2000](../../aspose.imaging.fileformats.dicom/compression/jpeg2000) { get; set; } | Gets or sets the JPEG 2000 options. |
+| [Type](../../aspose.imaging.fileformats.dicom/compression/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

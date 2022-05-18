@@ -25,9 +25,11 @@ public sealed class EmfArcTo : EmfDrawingRecordType
 
 | Name | Description |
 | --- | --- |
-| [Box](box) { get; set; } | Gets or sets a 128-bit WMF RectL object, specified in [MS-WMF] section 2.2.2.19, which specifies the bounding rectangle. |
-| [End](end) { get; set; } | Gets or sets a 64-bit WMF PointL object that specifies the coordinates of the second radial ending point, in logical units. |
-| [Start](start) { get; set; } | Gets or sets a 64-bit WMF PointL object, specified in [MS-WMF] section 2.2.2.15, which specifies the coordinates of the first radial ending point, in logical units. |
+| [Box](../../aspose.imaging.fileformats.emf.emf.records/emfarcto/box) { get; set; } | Gets or sets a 128-bit WMF RectL object, specified in [MS-WMF] section 2.2.2.19, which specifies the bounding rectangle. |
+| [End](../../aspose.imaging.fileformats.emf.emf.records/emfarcto/end) { get; set; } | Gets or sets a 64-bit WMF PointL object that specifies the coordinates of the second radial ending point, in logical units. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Start](../../aspose.imaging.fileformats.emf.emf.records/emfarcto/start) { get; set; } | Gets or sets a 64-bit WMF PointL object, specified in [MS-WMF] section 2.2.2.15, which specifies the coordinates of the first radial ending point, in logical units. |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

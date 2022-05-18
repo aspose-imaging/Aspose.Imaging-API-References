@@ -25,9 +25,11 @@ public sealed class EmfPaintRgn : EmfDrawingRecordType
 
 | Name | Description |
 | --- | --- |
-| [Bounds](bounds) { get; set; } | Gets or sets a 128-bit WMF RectL object, specified in [MS-WMF] section 2.2.2.19, which specifies the bounding rectangle. |
-| [RgnData](rgndata) { get; set; } | Gets or sets a RgnDataSize length array of bytes that specifies a RegionData (section 2.2.24) object, in logical units. |
-| [RgnDataSize](rgndatasize) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the size of region data, in bytes. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/bounds) { get; set; } | Gets or sets a 128-bit WMF RectL object, specified in [MS-WMF] section 2.2.2.19, which specifies the bounding rectangle. |
+| [RgnData](../../aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/rgndata) { get; set; } | Gets or sets a RgnDataSize length array of bytes that specifies a RegionData (section 2.2.24) object, in logical units. |
+| [RgnDataSize](../../aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/rgndatasize) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the size of region data, in bytes. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

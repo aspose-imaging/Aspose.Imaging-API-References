@@ -25,7 +25,10 @@ public sealed class EmfModifyWorldTransform : EmfTransformRecordType
 
 | Name | Description |
 | --- | --- |
-| [ModifyWorldTransformMode](modifyworldtransformmode) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies how the transform specified in Xform is used. This value MUST be in the ModifyWorldTransformMode enumeration (section 2.1.24). |
+| [ModifyWorldTransformMode](../../aspose.imaging.fileformats.emf.emf.records/emfmodifyworldtransform/modifyworldtransformmode) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies how the transform specified in Xform is used. This value MUST be in the ModifyWorldTransformMode enumeration (section 2.1.24). |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
+| [Xform](../../aspose.imaging.fileformats.emf.emf.records/emftransformrecordtype/xform) { get; set; } | Gets or sets an XForm object (section 2.2.28), which defines a world-space to page space transform. |
 
 ### Remarks
 

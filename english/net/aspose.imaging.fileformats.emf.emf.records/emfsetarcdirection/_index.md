@@ -25,7 +25,9 @@ public sealed class EmfSetArcDirection : EmfStateRecordType
 
 | Name | Description |
 | --- | --- |
-| [ArcDirection](arcdirection) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the arc direction. The value MUST be in the ArcDirection enumeration (section 2.1.2). The default direction is counterclockwise. |
+| [ArcDirection](../../aspose.imaging.fileformats.emf.emf.records/emfsetarcdirection/arcdirection) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the arc direction. The value MUST be in the ArcDirection enumeration (section 2.1.2). The default direction is counterclockwise. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### Remarks
 

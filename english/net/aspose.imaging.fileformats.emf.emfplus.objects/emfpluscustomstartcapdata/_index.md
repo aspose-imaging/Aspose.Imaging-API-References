@@ -24,7 +24,7 @@ public sealed class EmfPlusCustomStartCapData : EmfPlusStructureObjectType
 
 | Name | Description |
 | --- | --- |
-| [CustomStartCap](customstartcap) { get; set; } | Gets or sets custom line cap that defines the shape to draw at the end of a line. It can be any of various shapes, including a square, circle, or diamond |
+| [CustomStartCap](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomstartcapdata/customstartcap) { get; set; } | Gets or sets custom line cap that defines the shape to draw at the end of a line. It can be any of various shapes, including a square, circle, or diamond |
 
 ### See Also
 

@@ -24,16 +24,16 @@ public struct GuidPacketRepresentation
 
 | Name | Description |
 | --- | --- |
-| [Data1](data1) { get; set; } | Gets or sets the value of the Data1 member (section 2.3.4), in little-endian byte order. |
-| [Data2](data2) { get; set; } | Gets or sets the value of the Data2 member (section 2.3.4), in little-endian byte order. |
-| [Data3](data3) { get; set; } | Gets or sets the value of the Data3 member (section 2.3.4), in little-endian byte order. |
-| [Data4](data4) { get; set; } | Gets or sets the value of the Data4 member (section 2.3.4), in little-endian byte order. |
+| [Data1](../../aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation/data1) { get; set; } | Gets or sets the value of the Data1 member (section 2.3.4), in little-endian byte order. |
+| [Data2](../../aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation/data2) { get; set; } | Gets or sets the value of the Data2 member (section 2.3.4), in little-endian byte order. |
+| [Data3](../../aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation/data3) { get; set; } | Gets or sets the value of the Data3 member (section 2.3.4), in little-endian byte order. |
+| [Data4](../../aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation/data4) { get; set; } | Gets or sets the value of the Data4 member (section 2.3.4), in little-endian byte order. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a String that represents this instance. |
+| override [ToString](../../aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation/tostring)() | Returns a String that represents this instance. |
 
 ### See Also
 

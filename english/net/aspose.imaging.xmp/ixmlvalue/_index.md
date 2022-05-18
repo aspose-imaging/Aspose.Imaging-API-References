@@ -18,7 +18,7 @@ public interface IXmlValue
 
 | Name | Description |
 | --- | --- |
-| [GetXmlValue](getxmlvalue)() | Converts XMP value to the XML representation. |
+| [GetXmlValue](../../aspose.imaging.xmp/ixmlvalue/getxmlvalue)() | Converts XMP value to the XML representation. |
 
 ### See Also
 

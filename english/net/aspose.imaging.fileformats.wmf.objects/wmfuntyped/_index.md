@@ -24,7 +24,7 @@ public class WmfUntyped : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [Parameters](parameters) { get; set; } | Gets or sets the parameters. |
+| [Parameters](../../aspose.imaging.fileformats.wmf.objects/wmfuntyped/parameters) { get; set; } | Gets or sets the parameters. |
 
 ### See Also
 

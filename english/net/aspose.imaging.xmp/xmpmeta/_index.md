@@ -25,17 +25,20 @@ public sealed class XmpMeta : XmpElementBase, IEquatable<XmpMeta>, IXmlValue
 
 | Name | Description |
 | --- | --- |
-| [AdobeXmpToolkit](adobexmptoolkit) { get; set; } | Gets or set Adobe Xmp toolkit version. |
+| [AdobeXmpToolkit](../../aspose.imaging.xmp/xmpmeta/adobexmptoolkit) { get; set; } | Gets or set Adobe Xmp toolkit version. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [AddAttribute](addattribute)(string, string) | Adds the attribute. |
-| override [Equals](equals)(object) | Determines whether the specified Object, is equal to this instance. |
-| [Equals](equals)(XmpMeta) | Indicates whether the current object is equal to another object of the same type. |
-| override [GetHashCode](gethashcode)() | Returns a hash code for this instance. |
-| [GetXmlValue](getxmlvalue)() | Converts XMP value to the XML representation. |
+| override [AddAttribute](../../aspose.imaging.xmp/xmpmeta/addattribute)(string, string) | Adds the attribute. |
+| virtual [ClearAttributes](../../aspose.imaging.xmp/xmpelementbase/clearattributes)() | Removes all attributes. |
+| override [Equals](../../aspose.imaging.xmp/xmpmeta/equals)(object) | Determines whether the specified Object, is equal to this instance. |
+| [Equals](../../aspose.imaging.xmp/xmpelementbase/equals)(XmpElementBase) | Indicates whether the current object is equal to another object of the same type. |
+| [Equals](../../aspose.imaging.xmp/xmpmeta/equals)(XmpMeta) | Indicates whether the current object is equal to another object of the same type. |
+| virtual [GetAttribute](../../aspose.imaging.xmp/xmpelementbase/getattribute)(string) | Gets the attribute. |
+| override [GetHashCode](../../aspose.imaging.xmp/xmpmeta/gethashcode)() | Returns a hash code for this instance. |
+| [GetXmlValue](../../aspose.imaging.xmp/xmpmeta/getxmlvalue)() | Converts XMP value to the XML representation. |
 
 ### See Also
 

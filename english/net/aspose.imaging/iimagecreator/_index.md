@@ -18,7 +18,7 @@ public interface IImageCreator
 
 | Name | Description |
 | --- | --- |
-| [Create](create)(StreamContainer, ImageOptionsBase, int, int) | Creates a new image instance with *imageOptions*. |
+| [Create](../../aspose.imaging/iimagecreator/create)(StreamContainer, ImageOptionsBase, int, int) | Creates a new image instance with *imageOptions*. |
 
 ### See Also
 

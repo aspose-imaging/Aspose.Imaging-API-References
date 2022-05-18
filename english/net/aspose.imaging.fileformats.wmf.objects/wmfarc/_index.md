@@ -24,8 +24,9 @@ public class WmfArc : WmfRectangle
 
 | Name | Description |
 | --- | --- |
-| [EndArc](endarc) { get; set; } | Gets or sets the end arc. |
-| [StartArc](startarc) { get; set; } | Gets or sets the start arc. |
+| [EndArc](../../aspose.imaging.fileformats.wmf.objects/wmfarc/endarc) { get; set; } | Gets or sets the end arc. |
+| [Rectangle](../../aspose.imaging.fileformats.wmf.objects/wmfrectangle/rectangle) { get; set; } | Gets or sets the rectangle. |
+| [StartArc](../../aspose.imaging.fileformats.wmf.objects/wmfarc/startarc) { get; set; } | Gets or sets the start arc. |
 
 ### See Also
 

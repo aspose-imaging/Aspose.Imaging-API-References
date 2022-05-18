@@ -24,7 +24,7 @@ public sealed class EmfPlusBoundaryPathData : EmfPlusBoundaryBase
 
 | Name | Description |
 | --- | --- |
-| [BoundaryPathData](boundarypathdata) { get; set; } | Gets or sets an EmfPlusPath object (section 2.2.1.6) that specifies the boundary of the brush |
+| [BoundaryPathData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundarypathdata/boundarypathdata) { get; set; } | Gets or sets an EmfPlusPath object (section 2.2.1.6) that specifies the boundary of the brush |
 
 ### See Also
 

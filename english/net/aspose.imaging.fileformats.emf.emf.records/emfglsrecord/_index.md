@@ -24,8 +24,10 @@ public sealed class EmfGlsRecord : EmfOpenGlRecordType
 
 | Name | Description |
 | --- | --- |
-| [CbData](cbdata) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the size, in bytes, of the Data field. If this value is zero, no data is attached to this record. |
-| [Data](data) { get; set; } | Gets or sets an optional array of bytes of cbData length that specifies data for the OpenGL function. |
+| [CbData](../../aspose.imaging.fileformats.emf.emf.records/emfglsrecord/cbdata) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the size, in bytes, of the Data field. If this value is zero, no data is attached to this record. |
+| [Data](../../aspose.imaging.fileformats.emf.emf.records/emfglsrecord/data) { get; set; } | Gets or sets an optional array of bytes of cbData length that specifies data for the OpenGL function. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

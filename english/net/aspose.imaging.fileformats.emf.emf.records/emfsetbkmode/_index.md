@@ -25,7 +25,9 @@ public sealed class EmfSetBkMode : EmfStateRecordType
 
 | Name | Description |
 | --- | --- |
-| [BackgroundMode](backgroundmode) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the background mode and MUST be in the BackgroundMode (section 2.1.4) enumeration. |
+| [BackgroundMode](../../aspose.imaging.fileformats.emf.emf.records/emfsetbkmode/backgroundmode) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the background mode and MUST be in the BackgroundMode (section 2.1.4) enumeration. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

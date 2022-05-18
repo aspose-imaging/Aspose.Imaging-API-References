@@ -17,10 +17,10 @@ The namespace is the core for nested namespaces and the most basic objects used 
 | [Brush](./brush) | The base brush class. |
 | [BuildVersionInfo](./buildversioninfo) | Contains the current build version information. |
 | [Cache](./cache) | Contains cache settings. |
-| [CmykColorHelper](./cmykcolorhelper) | Helper methods to work with CMYK color presented as a signed 32-bit integer value. Provides the similar API as the [`CmykColor`](aspose.imaging/cmykcolor) struct. It's more lightweight because CMYK color is presented just as Int32 rather than structure with internal fields. Please prefer to use static methods of this class when possible instead of the deprecated [`CmykColor`](aspose.imaging/cmykcolor) struct. |
+| [CmykColorHelper](./cmykcolorhelper) | Helper methods to work with CMYK color presented as a signed 32-bit integer value. Provides the similar API as the [`CmykColor`](../aspose.imaging/cmykcolor) struct. It's more lightweight because CMYK color is presented just as Int32 rather than structure with internal fields. Please prefer to use static methods of this class when possible instead of the deprecated [`CmykColor`](../aspose.imaging/cmykcolor) struct. |
 | [ColorBlend](./colorblend) | Defines arrays of colors and positions used for interpolating color blending in a multicolor gradient. This class cannot be inherited. |
-| [ColorMap](./colormap) | Defines a map for converting colors. Several methods of the [`ImageAttributes`](aspose.imaging/imageattributes) class adjust image colors by using a color-remap table, which is an array of [`ColorMap`](aspose.imaging/colormap) structures. Not inheritable. |
-| [ColorMatrix](./colormatrix) | Defines a 5 x 5 matrix that contains the coordinates for the RGBA space. Several methods of the [`ImageAttributes`](aspose.imaging/imageattributes) class adjust image colors by using a color matrix. This class cannot be inherited. |
+| [ColorMap](./colormap) | Defines a map for converting colors. Several methods of the [`ImageAttributes`](../aspose.imaging/imageattributes) class adjust image colors by using a color-remap table, which is an array of [`ColorMap`](../aspose.imaging/colormap) structures. Not inheritable. |
+| [ColorMatrix](./colormatrix) | Defines a 5 x 5 matrix that contains the coordinates for the RGBA space. Several methods of the [`ImageAttributes`](../aspose.imaging/imageattributes) class adjust image colors by using a color matrix. This class cannot be inherited. |
 | [ColorPalette](./colorpalette) | Defines an array of colors that make up a color palette. The colors are 32-bit ARGB colors. Not inheritable. |
 | [ColorPaletteHelper](./colorpalettehelper) | Helper class for color palettes manipulation. |
 | [ColorTranslator](./colortranslator) | Translates colors to and from GDI+ Color structures. This class cannot be inherited. |
@@ -37,7 +37,7 @@ The namespace is the core for nested namespaces and the most basic objects used 
 | [Graphics](./graphics) | Represents the graphics according to the graphics engine used in the current assembly. |
 | [GraphicsPath](./graphicspath) | Represents a series of connected lines and curves. This class cannot be inherited. |
 | [Image](./image) | The image is the base class for all type of images. |
-| [ImageAttributes](./imageattributes) | An [`ImageAttributes`](aspose.imaging/imageattributes) object contains information about how bitmap and metafile colors are manipulated during rendering. An [`ImageAttributes`](aspose.imaging/imageattributes) object maintains several color-adjustment settings, including color-adjustment matrices, grayscale-adjustment matrices, gamma-correction values, color-map tables, and color-threshold values. During rendering, colors can be corrected, darkened, lightened, and removed. To apply such manipulations, initialize an [`ImageAttributes`](aspose.imaging/imageattributes) object and pass the path of that [`ImageAttributes`](aspose.imaging/imageattributes) object (along with the path of an [`Image`](aspose.imaging/image)) to the DrawImage method. |
+| [ImageAttributes](./imageattributes) | An [`ImageAttributes`](../aspose.imaging/imageattributes) object contains information about how bitmap and metafile colors are manipulated during rendering. An [`ImageAttributes`](../aspose.imaging/imageattributes) object maintains several color-adjustment settings, including color-adjustment matrices, grayscale-adjustment matrices, gamma-correction values, color-map tables, and color-threshold values. During rendering, colors can be corrected, darkened, lightened, and removed. To apply such manipulations, initialize an [`ImageAttributes`](../aspose.imaging/imageattributes) object and pass the path of that [`ImageAttributes`](../aspose.imaging/imageattributes) object (../along with the path of an [`Image`](aspose.imaging/image)) to the DrawImage method. |
 | [ImageCreatorsRegistry](./imagecreatorsregistry) | Represents the image creators registry. |
 | [ImageExportersRegistry](./imageexportersregistry) | Represents the image exporters registry. |
 | [ImageLoadersRegistry](./imageloadersregistry) | Represents the image loaders registry. |
@@ -67,7 +67,7 @@ The namespace is the core for nested namespaces and the most basic objects used 
 | [Source](./source) | The source is used to contain all relevant information for an object pipe. |
 | [SplitStreamContainer](./splitstreamcontainer) | Represents split stream container which contains the stream and provides stream processing routines. |
 | [StreamContainer](./streamcontainer) | Represents stream container which contains the stream and provides stream processing routines. |
-| [StringFormat](./stringformat) | Encapsulates text layout information (such as alignment, orientation and tab stops) display manipulations (such as ellipsis insertion and national digit substitution) and OpenType features. This class cannot be inherited. |
+| [StringFormat](./stringformat) | Encapsulates text layout information (../such as alignment, orientation and tab stops) display manipulations (../such as ellipsis insertion and national digit substitution) and OpenType features. This class cannot be inherited. |
 | [TransparencySupporter](./transparencysupporter) | The object supporting transparency. |
 | [VectorImage](./vectorimage) | The vector image is the base class for all type of vector images. |
 | [VectorMultipageImage](./vectormultipageimage) | The Vector multipage image |
@@ -108,13 +108,13 @@ The namespace is the core for nested namespaces and the most basic objects used 
 | [CacheType](./cachetype) | Specifies the cache type to use. |
 | [CharacterSet](./characterset) | Represents the character set used. |
 | [ColorAdjustType](./coloradjusttype) | Specifies which objects use color adjustment information. |
-| [ColorChannelFlag](./colorchannelflag) | Specifies individual channels in the CMYK (cyan, magenta, yellow, black) color space. This enumeration is used by the SetOutputChannel methods. |
+| [ColorChannelFlag](./colorchannelflag) | Specifies individual channels in the CMYK (../cyan, magenta, yellow, black) color space. This enumeration is used by the SetOutputChannel methods. |
 | [ColorCompareMethod](./colorcomparemethod) | Color comparison method to adjust to nearest neighbor |
-| [ColorMatrixFlag](./colormatrixflag) | Specifies the types of images and colors that will be affected by the color and grayscale adjustment settings of an [`ImageAttributes`](aspose.imaging/imageattributes). |
+| [ColorMatrixFlag](./colormatrixflag) | Specifies the types of images and colors that will be affected by the color and grayscale adjustment settings of an [`ImageAttributes`](../aspose.imaging/imageattributes). |
 | [ColorQuantizationMethod](./colorquantizationmethod) | Colors quantization methods |
 | [CompositingQuality](./compositingquality) | Specifies the quality level to use during compositing. |
 | [DashCap](./dashcap) | Specifies the type of graphic shape to use on both ends of each dash in a dashed line. |
-| [DashStyle](./dashstyle) | Specifies the style of dashed lines drawn with a [`Pen`](aspose.imaging/pen) object. |
+| [DashStyle](./dashstyle) | Specifies the style of dashed lines drawn with a [`Pen`](../aspose.imaging/pen) object. |
 | [DataRecoveryMode](./datarecoverymode) | The data recovery mode. |
 | [DitheringMethod](./ditheringmethod) | Dithering method. |
 | [DitheringMethods](./ditheringmethods) | The dithering methods used to control color conversion. |
@@ -122,24 +122,24 @@ The namespace is the core for nested namespaces and the most basic objects used 
 | [FillMode](./fillmode) | Specifies how the interior of a closed path is filled. |
 | [FontStyle](./fontstyle) | Specifies style information applied to text. |
 | [GraphicsUnit](./graphicsunit) | Specifies the unit of measure for the given data. |
-| [HatchStyle](./hatchstyle) | Specifies the different patterns available for [`HatchBrush`](aspose.imaging.brushes/hatchbrush) objects. |
+| [HatchStyle](./hatchstyle) | Specifies the different patterns available for [`HatchBrush`](../aspose.imaging.brushes/hatchbrush) objects. |
 | [HotkeyPrefix](./hotkeyprefix) | Specifies the type of display for hot-key prefixes that relate to text. |
 | [ImageFilterType](./imagefiltertype) | Image filters to use |
-| [InterpolationMode](./interpolationmode) | The [`InterpolationMode`](aspose.imaging/interpolationmode) enumeration specifies the algorithm that is used when images are scaled or rotated. |
+| [InterpolationMode](./interpolationmode) | The [`InterpolationMode`](../aspose.imaging/interpolationmode) enumeration specifies the algorithm that is used when images are scaled or rotated. |
 | [KnownColor](./knowncolor) | Specifies the known system colors. |
-| [LineCap](./linecap) | Specifies the available cap styles with which a [`Pen`](aspose.imaging/pen) object can end a line. |
-| [LineJoin](./linejoin) | Specifies how to join consecutive line or curve segments in a figure (subpath) contained in a [`GraphicsPath`](aspose.imaging/graphicspath) object. |
+| [LineCap](./linecap) | Specifies the available cap styles with which a [`Pen`](../aspose.imaging/pen) object can end a line. |
+| [LineJoin](./linejoin) | Specifies how to join consecutive line or curve segments in a figure (../subpath) contained in a [`GraphicsPath`](../aspose.imaging/graphicspath) object. |
 | [MatrixOrder](./matrixorder) | Specifies the order for matrix transform operations. |
 | [PaletteMiningMethod](./paletteminingmethod) | The image palette mining method |
 | [PdfComplianceVersion](./pdfcomplianceversion) | Specifies the PDF compliance level to output file. |
-| [PenAlignment](./penalignment) | Specifies the alignment of a [`Pen`](aspose.imaging/pen) object in relation to the theoretical, zero-width line. |
-| [PenType](./pentype) | Specifies the type of fill a [`Pen`](aspose.imaging/pen) object uses to fill lines. |
+| [PenAlignment](./penalignment) | Specifies the alignment of a [`Pen`](../aspose.imaging/pen) object in relation to the theoretical, zero-width line. |
+| [PenType](./pentype) | Specifies the type of fill a [`Pen`](../aspose.imaging/pen) object uses to fill lines. |
 | [PixelFormat](./pixelformat) | The pixel data format actual meaning. |
 | [ResizeType](./resizetype) | Specifies the resize type. |
 | [ResolutionUnit](./resolutionunit) | Resolution unit enum. |
 | [RotateFlipType](./rotatefliptype) | Specifies how much an image is rotated and the axis used to flip the image. |
-| [SeekOrigin](./seekorigin) | Provides the fields that represent reference points in [`StreamContainer`](aspose.imaging/streamcontainer) for seeking. |
-| [SmoothingMode](./smoothingmode) | Specifies whether smoothing (antialiasing) is applied to lines and curves and the edges of filled areas. |
+| [SeekOrigin](./seekorigin) | Provides the fields that represent reference points in [`StreamContainer`](../aspose.imaging/streamcontainer) for seeking. |
+| [SmoothingMode](./smoothingmode) | Specifies whether smoothing (../antialiasing) is applied to lines and curves and the edges of filled areas. |
 | [StringAlignment](./stringalignment) | Specifies the alignment of a text string relative to its layout rectangle. |
 | [StringDigitSubstitute](./stringdigitsubstitute) | The enumeration specifies how to substitute digits in a string according to a user's locale or language. |
 | [StringFormatFlags](./stringformatflags) | Specifies the display and layout information for text strings. |

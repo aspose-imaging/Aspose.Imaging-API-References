@@ -18,14 +18,14 @@ public interface IMaskingLayer
 
 | Name | Description |
 | --- | --- |
-| [ObjectNumber](objectnumber) { get; } | Gets the object number. |
+| [ObjectNumber](../../aspose.imaging.masking.result/imaskinglayer/objectnumber) { get; } | Gets the object number. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetImage](getimage)() | Provides result image. |
-| [GetMask](getmask)() | Gets the image mask. |
+| [GetImage](../../aspose.imaging.masking.result/imaskinglayer/getimage)() | Provides result image. |
+| [GetMask](../../aspose.imaging.masking.result/imaskinglayer/getmask)() | Gets the image mask. |
 
 ### Examples
 

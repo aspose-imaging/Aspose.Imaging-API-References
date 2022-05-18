@@ -24,7 +24,8 @@ public class WmfCreateRegion : WmfGraphicObject
 
 | Name | Description |
 | --- | --- |
-| [Region](region) { get; set; } | Gets or sets the region. |
+| [Index](../../aspose.imaging.fileformats.wmf.objects/wmfgraphicobject/index) { get; set; } | Gets or sets the index. |
+| [Region](../../aspose.imaging.fileformats.wmf.objects/wmfcreateregion/region) { get; set; } | Gets or sets the region. |
 
 ### See Also
 

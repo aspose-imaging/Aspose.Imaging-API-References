@@ -18,7 +18,7 @@ public static class PenExtensions
 
 | Name | Description |
 | --- | --- |
-| static [ToGdiPen](togdipen)(Pen) | Converts the [`Pen`](../../aspose.imaging/pen) to the Pen. |
+| static [ToGdiPen](../../aspose.imaging.extensions/penextensions/togdipen)(Pen) | Converts the [`Pen`](../../aspose.imaging/pen) to the Pen. |
 
 ### See Also
 

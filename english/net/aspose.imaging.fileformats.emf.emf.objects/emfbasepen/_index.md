@@ -18,8 +18,8 @@ public abstract class EmfBasePen : EmfObject
 
 | Name | Description |
 | --- | --- |
-| abstract [Argb32ColorRef](argb32colorref) { get; set; } | Gets or sets the 32-bit ARGB color reference. |
-| abstract [PenStyle](penstyle) { get; set; } | Gets or sets the pen style. |
+| abstract [Argb32ColorRef](../../aspose.imaging.fileformats.emf.emf.objects/emfbasepen/argb32colorref) { get; set; } | Gets or sets the 32-bit ARGB color reference. |
+| abstract [PenStyle](../../aspose.imaging.fileformats.emf.emf.objects/emfbasepen/penstyle) { get; set; } | Gets or sets the pen style. |
 
 ### See Also
 

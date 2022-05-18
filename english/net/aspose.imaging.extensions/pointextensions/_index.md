@@ -18,9 +18,9 @@ public static class PointExtensions
 
 | Name | Description |
 | --- | --- |
-| static [ToGdiPoint](togdipoint)(PointF) | Converts the [`PointF`](../../aspose.imaging/pointf) to PointF. |
-| static [ToGdiPoints](togdipoints)(PointF[]) | Converts the [`PointF`](../../aspose.imaging/pointf) array to the PointF array. |
-| static [ToPointsArray](topointsarray)(Point[]) | Converts the [`Point`](../../aspose.imaging/point) array to the [`PointF`](../../aspose.imaging/pointf) array. |
+| static [ToGdiPoint](../../aspose.imaging.extensions/pointextensions/togdipoint)(PointF) | Converts the [`PointF`](../../aspose.imaging/pointf) to PointF. |
+| static [ToGdiPoints](../../aspose.imaging.extensions/pointextensions/togdipoints)(PointF[]) | Converts the [`PointF`](../../aspose.imaging/pointf) array to the PointF array. |
+| static [ToPointsArray](../../aspose.imaging.extensions/pointextensions/topointsarray)(Point[]) | Converts the [`Point`](../../aspose.imaging/point) array to the [`PointF`](../../aspose.imaging/pointf) array. |
 
 ### See Also
 

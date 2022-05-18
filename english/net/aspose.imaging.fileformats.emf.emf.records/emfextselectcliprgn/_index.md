@@ -25,9 +25,11 @@ public sealed class EmfExtSelectClipRgn : EmfClippingRecordType
 
 | Name | Description |
 | --- | --- |
-| [RegionMode](regionmode) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the way to use the region. The value MUST be in the RegionMode (section 2.1.29) enumeration. |
-| [RgnData](rgndata) { get; set; } | Gets or sets a RgnDataSize length array of bytes that specifies a RegionData object in logical units. If RegionMode is RGN_COPY, this data can be omitted and the clip region SHOULD be set to the default (NULL) clip region. |
-| [RgnDataSize](rgndatasize) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the size of region data in bytes. |
+| [RegionMode](../../aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/regionmode) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the way to use the region. The value MUST be in the RegionMode (section 2.1.29) enumeration. |
+| [RgnData](../../aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/rgndata) { get; set; } | Gets or sets a RgnDataSize length array of bytes that specifies a RegionData object in logical units. If RegionMode is RGN_COPY, this data can be omitted and the clip region SHOULD be set to the default (NULL) clip region. |
+| [RgnDataSize](../../aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/rgndatasize) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the size of region data in bytes. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

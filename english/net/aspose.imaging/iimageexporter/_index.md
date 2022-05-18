@@ -18,8 +18,8 @@ public interface IImageExporter
 
 | Name | Description |
 | --- | --- |
-| [Export](export)(Image, Stream, ImageOptionsBase) | Exports the specified image data into specified data format. |
-| [Export](export)(Image, Stream, ImageOptionsBase, Rectangle) | Exports the specified image data into specified data format. |
+| [Export](../../aspose.imaging/iimageexporter/export)(Image, Stream, ImageOptionsBase) | Exports the specified image data into specified data format. |
+| [Export](../../aspose.imaging/iimageexporter/export)(Image, Stream, ImageOptionsBase, Rectangle) | Exports the specified image data into specified data format. |
 
 ### See Also
 

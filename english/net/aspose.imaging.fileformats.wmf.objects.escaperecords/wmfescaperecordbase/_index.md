@@ -24,9 +24,9 @@ public class WmfEscapeRecordBase : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [ByteCount](bytecount) { get; set; } | Gets or sets the byte count. |
-| virtual [Checked](checked) { get; set; } | Gets a value indicating whether this [`WmfEscapeRecordBase`](../wmfescaperecordbase) is checked. |
-| [Data](data) { get; set; } | Gets or sets the data. |
+| [ByteCount](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/bytecount) { get; set; } | Gets or sets the byte count. |
+| virtual [Checked](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/checked) { get; set; } | Gets a value indicating whether this [`WmfEscapeRecordBase`](../wmfescaperecordbase) is checked. |
+| [Data](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/data) { get; set; } | Gets or sets the data. |
 
 ### See Also
 

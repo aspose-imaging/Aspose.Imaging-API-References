@@ -24,7 +24,7 @@ public class WmfSetTextCharExtra : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [CharExtra](charextra) { get; set; } | Gets or sets the character extra. |
+| [CharExtra](../../aspose.imaging.fileformats.wmf.objects/wmfsettextcharextra/charextra) { get; set; } | Gets or sets the character extra. |
 
 ### See Also
 

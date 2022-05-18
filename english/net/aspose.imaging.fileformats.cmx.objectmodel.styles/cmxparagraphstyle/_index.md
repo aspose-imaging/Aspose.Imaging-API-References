@@ -24,11 +24,11 @@ public class CmxParagraphStyle
 
 | Name | Description |
 | --- | --- |
-| [CharacterSpacing](characterspacing) { get; set; } | Gets or sets the character spacing. |
-| [HorizontalAlignment](horizontalalignment) { get; set; } | Gets or sets the horizontal alignment. |
-| [LanguageSpacing](languagespacing) { get; set; } | Gets or sets the language spacing. |
-| [LineSpacing](linespacing) { get; set; } | Gets or sets the line spacing. |
-| [WordSpacing](wordspacing) { get; set; } | Gets or sets the word spacing. |
+| [CharacterSpacing](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphstyle/characterspacing) { get; set; } | Gets or sets the character spacing. |
+| [HorizontalAlignment](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphstyle/horizontalalignment) { get; set; } | Gets or sets the horizontal alignment. |
+| [LanguageSpacing](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphstyle/languagespacing) { get; set; } | Gets or sets the language spacing. |
+| [LineSpacing](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphstyle/linespacing) { get; set; } | Gets or sets the line spacing. |
+| [WordSpacing](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphstyle/wordspacing) { get; set; } | Gets or sets the word spacing. |
 
 ### See Also
 

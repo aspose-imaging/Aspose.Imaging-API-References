@@ -24,10 +24,10 @@ public sealed class EmfPlusColorLookupTableEffect : EmfPlusImageEffectsObjectTyp
 
 | Name | Description |
 | --- | --- |
-| [AlphaLookupTable](alphalookuptable) { get; set; } | Gets or sets an array of 256 bytes that specifies the adjustment for the alpha color channel. |
-| [BlueLookupTable](bluelookuptable) { get; set; } | Gets or sets an array of 256 bytes that specifies the adjustment for the blue color channel. |
-| [GreenLookupTable](greenlookuptable) { get; set; } | Gets or sets an array of 256 bytes that specifies the adjustment for the green color channel. |
-| [RedLookupTable](redlookuptable) { get; set; } | Gets or sets an array of 256 bytes that specifies the adjustment for the red color channel. |
+| [AlphaLookupTable](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorlookuptableeffect/alphalookuptable) { get; set; } | Gets or sets an array of 256 bytes that specifies the adjustment for the alpha color channel. |
+| [BlueLookupTable](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorlookuptableeffect/bluelookuptable) { get; set; } | Gets or sets an array of 256 bytes that specifies the adjustment for the blue color channel. |
+| [GreenLookupTable](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorlookuptableeffect/greenlookuptable) { get; set; } | Gets or sets an array of 256 bytes that specifies the adjustment for the green color channel. |
+| [RedLookupTable](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorlookuptableeffect/redlookuptable) { get; set; } | Gets or sets an array of 256 bytes that specifies the adjustment for the red color channel. |
 
 ### See Also
 

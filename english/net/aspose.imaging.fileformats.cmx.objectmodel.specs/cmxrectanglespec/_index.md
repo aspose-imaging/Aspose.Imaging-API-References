@@ -24,18 +24,18 @@ public class CmxRectangleSpec : ICmxObjectSpec
 
 | Name | Description |
 | --- | --- |
-| [Angle](angle) { get; set; } | Gets or sets the angle of rotation of the rectangle. Measures in radians. |
-| [CenterX](centerx) { get; set; } | Gets or sets the X coordinate for the center of the rectangle. Measures in common document distance units. |
-| [CenterY](centery) { get; set; } | Gets or sets the Y coordinate for the center of the rectangle. Measures in common document distance units. |
-| [Height](height) { get; set; } | Gets or sets the height of the rectangle. Measures in common document distance units. |
-| [Radius](radius) { get; set; } | Gets or sets the radius of rounded rectangle corners. If its value is `0` then the rectangle has not rounded corners. Measures in common document distance units. |
-| [Width](width) { get; set; } | Gets or sets the width of the rectangle. Measures in common document distance units. |
+| [Angle](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/angle) { get; set; } | Gets or sets the angle of rotation of the rectangle. Measures in radians. |
+| [CenterX](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/centerx) { get; set; } | Gets or sets the X coordinate for the center of the rectangle. Measures in common document distance units. |
+| [CenterY](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/centery) { get; set; } | Gets or sets the Y coordinate for the center of the rectangle. Measures in common document distance units. |
+| [Height](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/height) { get; set; } | Gets or sets the height of the rectangle. Measures in common document distance units. |
+| [Radius](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/radius) { get; set; } | Gets or sets the radius of rounded rectangle corners. If its value is `0` then the rectangle has not rounded corners. Measures in common document distance units. |
+| [Width](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/width) { get; set; } | Gets or sets the width of the rectangle. Measures in common document distance units. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a String that represents this instance. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/tostring)() | Returns a String that represents this instance. |
 
 ### See Also
 

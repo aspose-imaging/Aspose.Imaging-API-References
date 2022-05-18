@@ -25,15 +25,17 @@ public sealed class Thumbnail : ComplexTypeBase
 
 | Name | Description |
 | --- | --- |
-| [Height](height) { get; set; } | Gets or sets the height. |
-| [ImageBase64](imagebase64) { get; set; } | Gets or sets the image in base64 format. |
-| [Width](width) { get; set; } | Gets or sets the width. |
+| [Height](../../aspose.imaging.xmp.types.complex.thumbnail/thumbnail/height) { get; set; } | Gets or sets the height. |
+| [ImageBase64](../../aspose.imaging.xmp.types.complex.thumbnail/thumbnail/imagebase64) { get; set; } | Gets or sets the image in base64 format. |
+| [NamespaceUri](../../aspose.imaging.xmp.types.complex/complextypebase/namespaceuri) { get; } | Gets the default namespace URI. |
+| [Prefix](../../aspose.imaging.xmp.types.complex/complextypebase/prefix) { get; } | Gets the prefix. |
+| [Width](../../aspose.imaging.xmp.types.complex.thumbnail/thumbnail/width) { get; set; } | Gets or sets the width. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetXmpRepresentation](getxmprepresentation)() | Gets the string contained value in XMP format. |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.types.complex.thumbnail/thumbnail/getxmprepresentation)() | Gets the string contained value in XMP format. |
 
 ### See Also
 

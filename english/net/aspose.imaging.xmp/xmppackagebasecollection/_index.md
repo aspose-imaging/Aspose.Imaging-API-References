@@ -24,18 +24,18 @@ public sealed class XmpPackageBaseCollection : IEnumerable<XmpPackage>
 
 | Name | Description |
 | --- | --- |
-| [Count](count) { get; } | Gets the number of elements in the collection. |
+| [Count](../../aspose.imaging.xmp/xmppackagebasecollection/count) { get; } | Gets the number of elements in the collection. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Add](add)(XmpPackage) | Adds new instance of [`XmpPackage`](../xmppackage). |
-| [Clear](clear)() | Clear all [`XmpPackage`](../xmppackage) inside collection. |
-| [GetEnumerator](getenumerator)() | Returns an enumerator that iterates through a collection. |
-| [GetPackage](getpackage)(string) | Gets [`XmpPackage`](../xmppackage) by it's namespaceURI. |
-| [GetPackages](getpackages)() | Get array of [`XmpPackage`](../xmppackage). |
-| [Remove](remove)(XmpPackage) | Removes the specified XMP package. |
+| [Add](../../aspose.imaging.xmp/xmppackagebasecollection/add)(XmpPackage) | Adds new instance of [`XmpPackage`](../xmppackage). |
+| [Clear](../../aspose.imaging.xmp/xmppackagebasecollection/clear)() | Clear all [`XmpPackage`](../xmppackage) inside collection. |
+| [GetEnumerator](../../aspose.imaging.xmp/xmppackagebasecollection/getenumerator)() | Returns an enumerator that iterates through a collection. |
+| [GetPackage](../../aspose.imaging.xmp/xmppackagebasecollection/getpackage)(string) | Gets [`XmpPackage`](../xmppackage) by it's namespaceURI. |
+| [GetPackages](../../aspose.imaging.xmp/xmppackagebasecollection/getpackages)() | Get array of [`XmpPackage`](../xmppackage). |
+| [Remove](../../aspose.imaging.xmp/xmppackagebasecollection/remove)(XmpPackage) | Removes the specified XMP package. |
 
 ### See Also
 

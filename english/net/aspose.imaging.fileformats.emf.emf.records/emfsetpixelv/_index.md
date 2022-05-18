@@ -25,8 +25,10 @@ public sealed class EmfSetPixelV : EmfDrawingRecordType
 
 | Name | Description |
 | --- | --- |
-| [Argb32Color](argb32color) { get; set; } | Gets or sets a 32-bit WMF ColorRef object ([MS-WMF] section 2.2.2.8) that specifies the pixel color. |
-| [Pixel](pixel) { get; set; } | Gets or sets a 64-bit WMF PointL object ([MS-WMF] section 2.2.2.15) that specifies the logical coordinates for the pixel. |
+| [Argb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfsetpixelv/argb32color) { get; set; } | Gets or sets a 32-bit WMF ColorRef object ([MS-WMF] section 2.2.2.8) that specifies the pixel color. |
+| [Pixel](../../aspose.imaging.fileformats.emf.emf.records/emfsetpixelv/pixel) { get; set; } | Gets or sets a 64-bit WMF PointL object ([MS-WMF] section 2.2.2.15) that specifies the logical coordinates for the pixel. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

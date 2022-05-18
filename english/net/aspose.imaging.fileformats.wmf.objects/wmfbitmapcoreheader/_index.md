@@ -24,8 +24,11 @@ public class WmfBitmapCoreHeader : WmfBitmapBaseHeader
 
 | Name | Description |
 | --- | --- |
-| [Height](height) { get; set; } | Gets or sets a 16-bit unsigned integer that defines the height of the DIB, in pixels |
-| [Width](width) { get; set; } | Gets or sets a 16-bit unsigned integer that defines the width of the DIB, in pixels |
+| [BitCount](../../aspose.imaging.fileformats.wmf.objects/wmfbitmapbaseheader/bitcount) { get; set; } | Gets or sets a 16-bit unsigned integer that defines the format of each pixel, and the maximum number of colors in the DIB. This value MUST be in the [`BitCount`](../wmfbitmapbaseheader/bitcount) Enumeration (section 2.1.1.3). |
+| [HeaderSize](../../aspose.imaging.fileformats.wmf.objects/wmfbitmapbaseheader/headersize) { get; set; } | Gets or sets a 32-bit unsigned integer that defines the size of this object, in bytes. |
+| [Height](../../aspose.imaging.fileformats.wmf.objects/wmfbitmapcoreheader/height) { get; set; } | Gets or sets a 16-bit unsigned integer that defines the height of the DIB, in pixels |
+| [Planes](../../aspose.imaging.fileformats.wmf.objects/wmfbitmapbaseheader/planes) { get; set; } | Gets or sets a 16-bit unsigned integer that defines the number of planes for the target device. This value MUST be 0x0001. |
+| [Width](../../aspose.imaging.fileformats.wmf.objects/wmfbitmapcoreheader/width) { get; set; } | Gets or sets a 16-bit unsigned integer that defines the width of the DIB, in pixels |
 
 ### See Also
 

@@ -18,7 +18,14 @@ public class EmbeddedImage : DisposableObject
 
 | Name | Description |
 | --- | --- |
-| [Image](image) { get; } | Gets the image. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
+| [Image](../../aspose.imaging/embeddedimage/image) { get; } | Gets the image. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
 
 ### See Also
 

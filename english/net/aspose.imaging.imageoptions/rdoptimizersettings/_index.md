@@ -24,19 +24,19 @@ public class RdOptimizerSettings
 
 | Name | Description |
 | --- | --- |
-| [BppMax](bppmax) { get; set; } | Gets or sets the maximum R value for consideration in in bits per pixel |
-| [BppScale](bppscale) { get; set; } | Gets or sets the BPP (bits per pixel) scale factor. |
-| [DiscretizedBppMax](discretizedbppmax) { get; } | Gets the maximum R value for consideration. |
-| [MaxPixelValue](maxpixelvalue) { get; } | Gets the maximum pixel value. |
-| [MaxQ](maxq) { get; set; } | Gets or sets the maximum quantization value. |
-| [MinQ](minq) { get; } | Gets the minimum allowed quantization value. |
-| [PsnrMax](psnrmax) { get; } | Gets the PSNR maximum expected value. |
+| [BppMax](../../aspose.imaging.imageoptions/rdoptimizersettings/bppmax) { get; set; } | Gets or sets the maximum R value for consideration in in bits per pixel |
+| [BppScale](../../aspose.imaging.imageoptions/rdoptimizersettings/bppscale) { get; set; } | Gets or sets the BPP (bits per pixel) scale factor. |
+| [DiscretizedBppMax](../../aspose.imaging.imageoptions/rdoptimizersettings/discretizedbppmax) { get; } | Gets the maximum R value for consideration. |
+| [MaxPixelValue](../../aspose.imaging.imageoptions/rdoptimizersettings/maxpixelvalue) { get; } | Gets the maximum pixel value. |
+| [MaxQ](../../aspose.imaging.imageoptions/rdoptimizersettings/maxq) { get; set; } | Gets or sets the maximum quantization value. |
+| [MinQ](../../aspose.imaging.imageoptions/rdoptimizersettings/minq) { get; } | Gets the minimum allowed quantization value. |
+| [PsnrMax](../../aspose.imaging.imageoptions/rdoptimizersettings/psnrmax) { get; } | Gets the PSNR maximum expected value. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [Create](create)() | Creates this instance. |
+| static [Create](../../aspose.imaging.imageoptions/rdoptimizersettings/create)() | Creates this instance. |
 
 ### See Also
 

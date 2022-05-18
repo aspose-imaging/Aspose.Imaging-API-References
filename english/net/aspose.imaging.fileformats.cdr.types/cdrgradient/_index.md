@@ -24,14 +24,14 @@ public class CdrGradient
 
 | Name | Description |
 | --- | --- |
-| [Angle](angle) { get; set; } | Gets or sets the angle. |
-| [CenterXOffset](centerxoffset) { get; set; } | Gets or sets the center x offset. |
-| [CenterYOffset](centeryoffset) { get; set; } | Gets or sets the center y offset. |
-| [EdgeOffset](edgeoffset) { get; set; } | Gets or sets the edge offset. |
-| [MidPoint](midpoint) { get; set; } | Gets or sets the mid point. |
-| [Mode](mode) { get; set; } | Gets or sets the mode. |
-| [Stops](stops) { get; set; } | Gets or sets the stops. |
-| [Type](type) { get; set; } | Gets or sets the type. |
+| [Angle](../../aspose.imaging.fileformats.cdr.types/cdrgradient/angle) { get; set; } | Gets or sets the angle. |
+| [CenterXOffset](../../aspose.imaging.fileformats.cdr.types/cdrgradient/centerxoffset) { get; set; } | Gets or sets the center x offset. |
+| [CenterYOffset](../../aspose.imaging.fileformats.cdr.types/cdrgradient/centeryoffset) { get; set; } | Gets or sets the center y offset. |
+| [EdgeOffset](../../aspose.imaging.fileformats.cdr.types/cdrgradient/edgeoffset) { get; set; } | Gets or sets the edge offset. |
+| [MidPoint](../../aspose.imaging.fileformats.cdr.types/cdrgradient/midpoint) { get; set; } | Gets or sets the mid point. |
+| [Mode](../../aspose.imaging.fileformats.cdr.types/cdrgradient/mode) { get; set; } | Gets or sets the mode. |
+| [Stops](../../aspose.imaging.fileformats.cdr.types/cdrgradient/stops) { get; set; } | Gets or sets the stops. |
+| [Type](../../aspose.imaging.fileformats.cdr.types/cdrgradient/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

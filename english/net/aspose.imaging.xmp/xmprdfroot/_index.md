@@ -24,9 +24,15 @@ public sealed class XmpRdfRoot : XmpElementBase, IXmlValue
 
 | Name | Description |
 | --- | --- |
-| [GetNamespaceUri](getnamespaceuri)(string) | Gets namespace URI by specific prefix. Prefix may start without xmlns. |
-| [GetXmlValue](getxmlvalue)() | Converts xmp value to the xml representation. |
-| [RegisterNamespaceUri](registernamespaceuri)(string, string) | Adds namespace uri by prefix. Prefix may start without xmlns. |
+| virtual [AddAttribute](../../aspose.imaging.xmp/xmpelementbase/addattribute)(string, string) | Adds the attribute. |
+| virtual [ClearAttributes](../../aspose.imaging.xmp/xmpelementbase/clearattributes)() | Removes all attributes. |
+| override [Equals](../../aspose.imaging.xmp/xmpelementbase/equals)(object) | Determines whether the specified Object, is equal to this instance. |
+| [Equals](../../aspose.imaging.xmp/xmpelementbase/equals)(XmpElementBase) | Indicates whether the current object is equal to another object of the same type. |
+| virtual [GetAttribute](../../aspose.imaging.xmp/xmpelementbase/getattribute)(string) | Gets the attribute. |
+| override [GetHashCode](../../aspose.imaging.xmp/xmpelementbase/gethashcode)() | Returns a hash code for this instance. |
+| [GetNamespaceUri](../../aspose.imaging.xmp/xmprdfroot/getnamespaceuri)(string) | Gets namespace URI by specific prefix. Prefix may start without xmlns. |
+| [GetXmlValue](../../aspose.imaging.xmp/xmprdfroot/getxmlvalue)() | Converts xmp value to the xml representation. |
+| [RegisterNamespaceUri](../../aspose.imaging.xmp/xmprdfroot/registernamespaceuri)(string, string) | Adds namespace uri by prefix. Prefix may start without xmlns. |
 
 ### See Also
 

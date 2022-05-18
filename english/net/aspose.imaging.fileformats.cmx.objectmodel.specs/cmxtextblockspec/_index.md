@@ -24,11 +24,11 @@ public class CmxTextBlockSpec : ICmxObjectSpec
 
 | Name | Description |
 | --- | --- |
-| [CharLocations](charlocations) { get; set; } | Gets or sets the character locations. |
-| [Font](font) { get; set; } | Gets or sets the font. |
-| [Matrix](matrix) { get; set; } | Gets or sets the transformation matrix. |
-| [ParagraphStyle](paragraphstyle) { get; set; } | Gets or sets the paragraph style. |
-| [Text](text) { get; set; } | Gets or sets the text. |
+| [CharLocations](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxtextblockspec/charlocations) { get; set; } | Gets or sets the character locations. |
+| [Font](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxtextblockspec/font) { get; set; } | Gets or sets the font. |
+| [Matrix](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxtextblockspec/matrix) { get; set; } | Gets or sets the transformation matrix. |
+| [ParagraphStyle](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxtextblockspec/paragraphstyle) { get; set; } | Gets or sets the paragraph style. |
+| [Text](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxtextblockspec/text) { get; set; } | Gets or sets the text. |
 
 ### See Also
 

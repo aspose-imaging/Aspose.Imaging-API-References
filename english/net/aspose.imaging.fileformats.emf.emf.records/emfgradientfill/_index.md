@@ -24,11 +24,13 @@ public sealed class EmfGradientFill : EmfDrawingRecordType
 
 | Name | Description |
 | --- | --- |
-| [Bounds](bounds) { get; set; } | Gets or sets a WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies a bounding rectangle, in inclusive-inclusive device units. |
-| [NTri](ntri) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the number of rectangles or triangles to fill. |
-| [NVer](nver) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the number of vertexes. |
-| [UlMode](ulmode) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the gradient fill mode. The value MUST be in the GradientFill enumeration (section 2.1.15). |
-| [VertexData](vertexdata) { get; set; } | Gets or sets objects that specify the vertexes of either rectangles or triangles and the colors that correspond to them. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/bounds) { get; set; } | Gets or sets a WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies a bounding rectangle, in inclusive-inclusive device units. |
+| [NTri](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/ntri) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the number of rectangles or triangles to fill. |
+| [NVer](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/nver) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the number of vertexes. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
+| [UlMode](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/ulmode) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the gradient fill mode. The value MUST be in the GradientFill enumeration (section 2.1.15). |
+| [VertexData](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/vertexdata) { get; set; } | Gets or sets objects that specify the vertexes of either rectangles or triangles and the colors that correspond to them. |
 
 ### Remarks
 

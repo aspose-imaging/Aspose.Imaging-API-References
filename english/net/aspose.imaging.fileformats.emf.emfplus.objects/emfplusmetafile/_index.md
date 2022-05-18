@@ -24,9 +24,9 @@ public sealed class EmfPlusMetafile : EmfPlusBaseImageData
 
 | Name | Description |
 | --- | --- |
-| [MetafileData](metafiledata) { get; set; } | Gets or sets variable-length data that specifies the embedded metafile. The content and format of the data can be different for each metafile type. |
-| [MetafileDataSize](metafiledatasize) { get; set; } | Gets or sets 32-bit unsigned integer that specifies the size in bytes of the metafile data in the MetafileData field |
-| [Type](type) { get; set; } | Gets or sets 32-bit unsigned integer that specifies the type of metafile that is embedded in the MetafileData field. This value MUST be defined in the MetafileDataType enumeration (section 2.1.1.21). |
+| [MetafileData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusmetafile/metafiledata) { get; set; } | Gets or sets variable-length data that specifies the embedded metafile. The content and format of the data can be different for each metafile type. |
+| [MetafileDataSize](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusmetafile/metafiledatasize) { get; set; } | Gets or sets 32-bit unsigned integer that specifies the size in bytes of the metafile data in the MetafileData field |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusmetafile/type) { get; set; } | Gets or sets 32-bit unsigned integer that specifies the type of metafile that is embedded in the MetafileData field. This value MUST be defined in the MetafileDataType enumeration (section 2.1.1.21). |
 
 ### See Also
 

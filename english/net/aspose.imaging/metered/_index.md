@@ -26,10 +26,10 @@ public class Metered
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified Object, is equal to this instance. |
-| [SetMeteredKey](setmeteredkey)(string, string) | Sets metered public and private key |
-| static [GetConsumptionCredit](getconsumptioncredit)() | Gets consumption credit |
-| static [GetConsumptionQuantity](getconsumptionquantity)() | Gets consumption file size |
+| override [Equals](../../aspose.imaging/metered/equals)(object) | Determines whether the specified Object, is equal to this instance. |
+| [SetMeteredKey](../../aspose.imaging/metered/setmeteredkey)(string, string) | Sets metered public and private key |
+| static [GetConsumptionCredit](../../aspose.imaging/metered/getconsumptioncredit)() | Gets consumption credit |
+| static [GetConsumptionQuantity](../../aspose.imaging/metered/getconsumptionquantity)() | Gets consumption file size |
 
 ### Examples
 

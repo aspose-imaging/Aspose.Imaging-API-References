@@ -24,7 +24,10 @@ public class OdEndPath : OdGraphicObject
 
 | Name | Description |
 | --- | --- |
-| [Fill](fill) { get; set; } | Gets or sets a value indicating whether this [`OdEndPath`](../odendpath) is fill. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Gets or sets a value indicating whether [absolute coordinates]. |
+| [Fill](../../aspose.imaging.fileformats.opendocument.objects.graphic/odendpath/fill) { get; set; } | Gets or sets a value indicating whether this [`OdEndPath`](../odendpath) is fill. |
+| [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Gets the items. |
+| [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Gets the parent object. |
 
 ### See Also
 

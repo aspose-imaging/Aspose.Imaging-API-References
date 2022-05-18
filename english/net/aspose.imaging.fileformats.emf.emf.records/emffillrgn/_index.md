@@ -25,10 +25,12 @@ public sealed class EmfFillRgn : EmfDrawingRecordType
 
 | Name | Description |
 | --- | --- |
-| [Bounds](bounds) { get; set; } | Gets or sets a 128-bit WMF RectL object, specified in [MS-WMF] section 2.2.2.19, which specifies the bounding rectangle. |
-| [IhBrush](ihbrush) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the brush EMF Object Table index to fill the region. |
-| [RgnData](rgndata) { get; set; } | Gets or sets a RgnDataSize length array of bytes that contains a RegionData (section 2.2.24) object. |
-| [RgnDataSize](rgndatasize) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the size of region data, in bytes. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emffillrgn/bounds) { get; set; } | Gets or sets a 128-bit WMF RectL object, specified in [MS-WMF] section 2.2.2.19, which specifies the bounding rectangle. |
+| [IhBrush](../../aspose.imaging.fileformats.emf.emf.records/emffillrgn/ihbrush) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the brush EMF Object Table index to fill the region. |
+| [RgnData](../../aspose.imaging.fileformats.emf.emf.records/emffillrgn/rgndata) { get; set; } | Gets or sets a RgnDataSize length array of bytes that contains a RegionData (section 2.2.24) object. |
+| [RgnDataSize](../../aspose.imaging.fileformats.emf.emf.records/emffillrgn/rgndatasize) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the size of region data, in bytes. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

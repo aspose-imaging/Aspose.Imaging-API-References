@@ -18,11 +18,11 @@ public abstract class BitmapCoreHeader
 
 | Name | Description |
 | --- | --- |
-| [BitmapHeight](bitmapheight) { get; set; } | Gets or sets bitmap height. |
-| [BitmapPlanes](bitmapplanes) { get; set; } | Gets or sets number of planes. |
-| [BitmapWidth](bitmapwidth) { get; set; } | Gets or sets bitmap width. |
-| [BitsPerPixel](bitsperpixel) { get; set; } | Gets or sets bits per pixel count. |
-| [HeaderSize](headersize) { get; set; } | Gets or sets size of this structure in bytes. |
+| [BitmapHeight](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapheight) { get; set; } | Gets or sets bitmap height. |
+| [BitmapPlanes](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapplanes) { get; set; } | Gets or sets number of planes. |
+| [BitmapWidth](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapwidth) { get; set; } | Gets or sets bitmap width. |
+| [BitsPerPixel](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitsperpixel) { get; set; } | Gets or sets bits per pixel count. |
+| [HeaderSize](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/headersize) { get; set; } | Gets or sets size of this structure in bytes. |
 
 ### See Also
 

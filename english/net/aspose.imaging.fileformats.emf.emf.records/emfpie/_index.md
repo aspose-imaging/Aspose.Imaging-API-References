@@ -25,9 +25,11 @@ public sealed class EmfPie : EmfDrawingRecordType
 
 | Name | Description |
 | --- | --- |
-| [Box](box) { get; set; } | Gets or sets a 128-bit WMF RectL object, specified in [MS-WMF] section 2.2.2.19, which specifies the inclusive-inclusive bounding rectangle. |
-| [End](end) { get; set; } | Gets or sets a 64-bit PointL object that specifies the coordinates, in logical units, of the endpoint of the second radial. |
-| [Start](start) { get; set; } | Gets or sets a 64-bit WMF PointL objects, specified in [MS-WMF] section 2.2.2.15, which specifies the coordinates, in logical units, of the endpoint of the first radial. |
+| [Box](../../aspose.imaging.fileformats.emf.emf.records/emfpie/box) { get; set; } | Gets or sets a 128-bit WMF RectL object, specified in [MS-WMF] section 2.2.2.19, which specifies the inclusive-inclusive bounding rectangle. |
+| [End](../../aspose.imaging.fileformats.emf.emf.records/emfpie/end) { get; set; } | Gets or sets a 64-bit PointL object that specifies the coordinates, in logical units, of the endpoint of the second radial. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Start](../../aspose.imaging.fileformats.emf.emf.records/emfpie/start) { get; set; } | Gets or sets a 64-bit WMF PointL objects, specified in [MS-WMF] section 2.2.2.15, which specifies the coordinates, in logical units, of the endpoint of the first radial. |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

@@ -24,10 +24,10 @@ public sealed class EmfFormat : EmfObject
 
 | Name | Description |
 | --- | --- |
-| [OffData](offdata) { get; set; } | Gets or sets 32-bit unsigned integer that specifies the offset to the data from the start of the identifier field in an EMR_COMMENT_PUBLIC record (section 2.3.3.4). The offset MUST be 32-bit aligned. |
-| [Signature](signature) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the format of the image data. This value MUST be in the FormatSignature enumeration (section 2.1.14). |
-| [SizeData](sizedata) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the size of the data in bytes |
-| [Version](version) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the format version number. If the Signature field specifies encapsulated PostScript (EPS), this value MUST be 0x00000001; otherwise, this value MUST be ignored |
+| [OffData](../../aspose.imaging.fileformats.emf.emf.objects/emfformat/offdata) { get; set; } | Gets or sets 32-bit unsigned integer that specifies the offset to the data from the start of the identifier field in an EMR_COMMENT_PUBLIC record (section 2.3.3.4). The offset MUST be 32-bit aligned. |
+| [Signature](../../aspose.imaging.fileformats.emf.emf.objects/emfformat/signature) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the format of the image data. This value MUST be in the FormatSignature enumeration (section 2.1.14). |
+| [SizeData](../../aspose.imaging.fileformats.emf.emf.objects/emfformat/sizedata) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the size of the data in bytes |
+| [Version](../../aspose.imaging.fileformats.emf.emf.objects/emfformat/version) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the format version number. If the Signature field specifies encapsulated PostScript (EPS), this value MUST be 0x00000001; otherwise, this value MUST be ignored |
 
 ### See Also
 

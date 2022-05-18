@@ -24,8 +24,8 @@ public class WmfEscape : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [EscapeRecord](escaperecord) { get; set; } | Gets or sets the escape record. |
-| [EscapeType](escapetype) { get; set; } | Gets or sets the type of the escape. |
+| [EscapeRecord](../../aspose.imaging.fileformats.wmf.objects/wmfescape/escaperecord) { get; set; } | Gets or sets the escape record. |
+| [EscapeType](../../aspose.imaging.fileformats.wmf.objects/wmfescape/escapetype) { get; set; } | Gets or sets the type of the escape. |
 
 ### See Also
 

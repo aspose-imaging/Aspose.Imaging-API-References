@@ -24,7 +24,9 @@ public sealed class EmfSetColorAdjustment : EmfStateRecordType
 
 | Name | Description |
 | --- | --- |
-| [ColorAdjustment](coloradjustment) { get; set; } | Gets or sets a ColorAdjustment object (section 2.2.2) that specifies color adjustment values. |
+| [ColorAdjustment](../../aspose.imaging.fileformats.emf.emf.records/emfsetcoloradjustment/coloradjustment) { get; set; } | Gets or sets a ColorAdjustment object (section 2.2.2) that specifies color adjustment values. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### Remarks
 

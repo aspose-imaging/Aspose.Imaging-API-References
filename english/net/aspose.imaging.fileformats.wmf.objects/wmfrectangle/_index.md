@@ -24,7 +24,7 @@ public class WmfRectangle : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [Rectangle](rectangle) { get; set; } | Gets or sets the rectangle. |
+| [Rectangle](../../aspose.imaging.fileformats.wmf.objects/wmfrectangle/rectangle) { get; set; } | Gets or sets the rectangle. |
 
 ### Examples
 

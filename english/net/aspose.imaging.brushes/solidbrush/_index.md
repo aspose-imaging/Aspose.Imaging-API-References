@@ -25,7 +25,16 @@ public sealed class SolidBrush : Brush
 
 | Name | Description |
 | --- | --- |
-| [Color](color) { get; set; } | Gets or sets the brush color. |
+| [Color](../../aspose.imaging.brushes/solidbrush/color) { get; set; } | Gets or sets the brush color. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
+| [Opacity](../../aspose.imaging/brush/opacity) { get; set; } | Gets or sets the brush opacity. The value should be between 0 and 1. Value of 0 means that brush is fully visible, value of 1 means the brush is fully opaque. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| virtual [DeepClone](../../aspose.imaging/brush/deepclone)() | Creates a new deep clone of the current [`Brush`](../../aspose.imaging/brush). |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
 
 ### Examples
 

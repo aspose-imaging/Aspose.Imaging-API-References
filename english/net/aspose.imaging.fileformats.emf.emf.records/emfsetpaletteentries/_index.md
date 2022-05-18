@@ -24,10 +24,12 @@ public sealed class EmfSetPaletteEntries : EmfObjectManipulationRecordType
 
 | Name | Description |
 | --- | --- |
-| [Argb32PalEntries](argb32palentries) { get; set; } | Gets or sets an array of LogPaletteEntry (section 2.2.18) objects, of NumberOfEntries length, which specifies the palette entry data. The Values members do not contain any values. |
-| [IhPal](ihpal) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the palette EMF Object Table index. |
-| [NumberofEntries](numberofentries) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the number of entries. |
-| [Start](start) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the index of the first entry to set. |
+| [Argb32PalEntries](../../aspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries/argb32palentries) { get; set; } | Gets or sets an array of LogPaletteEntry (section 2.2.18) objects, of NumberOfEntries length, which specifies the palette entry data. The Values members do not contain any values. |
+| [IhPal](../../aspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries/ihpal) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the palette EMF Object Table index. |
+| [NumberofEntries](../../aspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries/numberofentries) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the number of entries. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Start](../../aspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries/start) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the index of the first entry to set. |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

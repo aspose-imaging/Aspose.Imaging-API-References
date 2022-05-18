@@ -24,10 +24,14 @@ public sealed class EmfPlusBeginContainer : EmfPlusStateRecordType
 
 | Name | Description |
 | --- | --- |
-| [DestRect](destrect) { get; set; } | Gets or sets an EmfPlusRectF object (section 2.2.2.39) that, with SrcRect, specifies a transform for the container. This transformation results in SrcRect when applied to DestRect. |
-| [PageUnit](pageunit) { get; } | Gets the page unit. |
-| [SrcRect](srcrect) { get; set; } | Gets or sets an EmfPlusRectF rectangle that, with DestRect, specifies a transformation for the container. This transformation results in SrcRect when applied to DestRect. |
-| [StackIndex](stackindex) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies an index to associate with the graphics state container. The index MUST be referenced by a subsequent EmfPlusEndContainer record (section 2.3.7.3) to close the graphics state container. |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Gets or sets a 32-bit unsigned integer that MUST define the 32-bit–aligned number of bytes of data in the RecordData field that follows. This number does not include the 12-byte record header. |
+| [DestRect](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer/destrect) { get; set; } | Gets or sets an EmfPlusRectF object (section 2.2.2.39) that, with SrcRect, specifies a transform for the container. This transformation results in SrcRect when applied to DestRect. |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | Gets or sets a 16-bit unsigned integer that contains information for some records on how the operation is to be performed and on the structure of the record. |
+| [PageUnit](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer/pageunit) { get; } | Gets the page unit. |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the 32-bit-aligned number of bytes in the entire record, including the 12-byte record header and record-specific data. |
+| [SrcRect](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer/srcrect) { get; set; } | Gets or sets an EmfPlusRectF rectangle that, with DestRect, specifies a transformation for the container. This transformation results in SrcRect when applied to DestRect. |
+| [StackIndex](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer/stackindex) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies an index to associate with the graphics state container. The index MUST be referenced by a subsequent EmfPlusEndContainer record (section 2.3.7.3) to close the graphics state container. |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | Gets a 16-bit unsigned integer that identifies the record type. |
 
 ### See Also
 

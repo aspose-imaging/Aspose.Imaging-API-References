@@ -24,8 +24,8 @@ public sealed class EmfGradientRectangle : EmfObject
 
 | Name | Description |
 | --- | --- |
-| [LowerRight](lowerright) { get; set; } | Gets or sets an index into an array of TriVertex objects that specifies the lower-right vertex of a rectangle. The index MUST be smaller than the size of the array, as defined by the nVer field of the EMR_GRADIENTFILL record. |
-| [UpperLeft](upperleft) { get; set; } | Gets or sets an index into an array of TriVertex objects that specifies the upper-left vertex of a rectangle. The index MUST be smaller than the size of the array, as defined by the nVer field of the EMR_GRADIENTFILL record. |
+| [LowerRight](../../aspose.imaging.fileformats.emf.emf.objects/emfgradientrectangle/lowerright) { get; set; } | Gets or sets an index into an array of TriVertex objects that specifies the lower-right vertex of a rectangle. The index MUST be smaller than the size of the array, as defined by the nVer field of the EMR_GRADIENTFILL record. |
+| [UpperLeft](../../aspose.imaging.fileformats.emf.emf.objects/emfgradientrectangle/upperleft) { get; set; } | Gets or sets an index into an array of TriVertex objects that specifies the upper-left vertex of a rectangle. The index MUST be smaller than the size of the array, as defined by the nVer field of the EMR_GRADIENTFILL record. |
 
 ### See Also
 

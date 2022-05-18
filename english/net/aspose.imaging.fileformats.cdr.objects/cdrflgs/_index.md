@@ -24,7 +24,16 @@ public class CdrFlgs : CdrObject
 
 | Name | Description |
 | --- | --- |
-| [Value](value) { get; set; } | Gets or sets the value. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
+| [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | Gets or sets the document. |
+| [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | Gets or sets the parent. |
+| [Value](../../aspose.imaging.fileformats.cdr.objects/cdrflgs/value) { get; set; } | Gets or sets the value. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
 
 ### See Also
 

@@ -18,7 +18,7 @@ public static class EmfPlusImageEffectsIdentifiers
 
 | Name | Description |
 | --- | --- |
-| static [Contain](contain)(string) | Contains the specified object unique identifier. |
+| static [Contain](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/contain)(string) | Contains the specified object unique identifier. |
 
 ## Other Members
 

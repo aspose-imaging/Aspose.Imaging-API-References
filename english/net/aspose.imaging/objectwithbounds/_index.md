@@ -18,15 +18,15 @@ public abstract class ObjectWithBounds
 
 | Name | Description |
 | --- | --- |
-| abstract [Bounds](bounds) { get; } | Gets the object's bounds. |
+| abstract [Bounds](../../aspose.imaging/objectwithbounds/bounds) { get; } | Gets the object's bounds. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| abstract [GetBounds](getbounds)(Matrix) | Gets the object's bounds. |
-| abstract [GetBounds](getbounds)(Matrix, Pen) | Gets the object's bounds. |
-| abstract [Transform](transform)(Matrix) | Applies the specified transformation to the shape. |
+| abstract [GetBounds](../../aspose.imaging/objectwithbounds/getbounds)(Matrix) | Gets the object's bounds. |
+| abstract [GetBounds](../../aspose.imaging/objectwithbounds/getbounds)(Matrix, Pen) | Gets the object's bounds. |
+| abstract [Transform](../../aspose.imaging/objectwithbounds/transform)(Matrix) | Applies the specified transformation to the shape. |
 
 ### See Also
 

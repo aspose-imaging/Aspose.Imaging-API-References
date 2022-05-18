@@ -24,10 +24,10 @@ public class CdrColor
 
 | Name | Description |
 | --- | --- |
-| [ColorModel](colormodel) { get; set; } | Gets or sets the color model. |
-| [ColorValue](colorvalue) { get; set; } | Gets or sets the color value. |
-| [Opacity](opacity) { get; set; } | Gets or sets the opacity. |
-| [RgbColorValue](rgbcolorvalue) { get; set; } | Gets or sets the RGB color value. |
+| [ColorModel](../../aspose.imaging.fileformats.cdr.types/cdrcolor/colormodel) { get; set; } | Gets or sets the color model. |
+| [ColorValue](../../aspose.imaging.fileformats.cdr.types/cdrcolor/colorvalue) { get; set; } | Gets or sets the color value. |
+| [Opacity](../../aspose.imaging.fileformats.cdr.types/cdrcolor/opacity) { get; set; } | Gets or sets the opacity. |
+| [RgbColorValue](../../aspose.imaging.fileformats.cdr.types/cdrcolor/rgbcolorvalue) { get; set; } | Gets or sets the RGB color value. |
 
 ### See Also
 

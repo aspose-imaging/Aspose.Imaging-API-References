@@ -27,34 +27,34 @@ public class TiffStreamReader
 
 | Name | Description |
 | --- | --- |
-| [Length](length) { get; } | Gets the reader length. |
-| [ThrowExceptions](throwexceptions) { get; set; } | Gets or sets a value indicating whether exceptions are thrown on incorrect data processing (reading or writing to stream). |
+| [Length](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/length) { get; } | Gets the reader length. |
+| [ThrowExceptions](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/throwexceptions) { get; set; } | Gets or sets a value indicating whether exceptions are thrown on incorrect data processing (reading or writing to stream). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ReadBytes](readbytes)(long, long) | Reads an array of unsigned byte values from the stream. |
-| [ReadBytes](readbytes)(byte[], int, long, long) | Reads an array of byte values from the stream. |
-| [ReadDouble](readdouble)(long) | Read a single double value from the stream. |
-| [ReadDoubleArray](readdoublearray)(long, long) | Reads an array of double values from the stream. |
-| [ReadFloat](readfloat)(long) | Read a single float value from the stream. |
-| [ReadFloatArray](readfloatarray)(long, long) | Reads an array of float values from the stream. |
-| [ReadRational](readrational)(long) | Read a single rational number value from the stream. |
-| [ReadRationalArray](readrationalarray)(long, long) | Reads an array of rational values from the stream. |
-| [ReadSByte](readsbyte)(long) | Reads signed byte data from the stream. |
-| [ReadSByteArray](readsbytearray)(long, long) | Reads an array of signed byte values from the stream. |
-| [ReadSLong](readslong)(long) | Read signed integer value from the stream. |
-| [ReadSLongArray](readslongarray)(long, long) | Reads an array of signed integer values from the stream. |
-| [ReadSRational](readsrational)(long) | Read a single signed rational number value from the stream. |
-| [ReadSRationalArray](readsrationalarray)(long, long) | Reads an array of signed rational values from the stream. |
-| [ReadSShort](readsshort)(long) | Read signed short value from the stream. |
-| [ReadSShortArray](readsshortarray)(long, long) | Reads an array of signed short values from the stream. |
-| [ReadULong](readulong)(long) | Read unsigned integer value from the stream. |
-| [ReadULongArray](readulongarray)(long, long) | Reads an array of unsigned integer values from the stream. |
-| [ReadUShort](readushort)(long) | Read unsigned short value from the stream. |
-| [ReadUShortArray](readushortarray)(long, long) | Reads an array of unsigned integer values from the stream. |
-| [ToStreamContainer](tostreamcontainer)(long) | Converts the underlying data to the stream container. |
+| [ReadBytes](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readbytes)(long, long) | Reads an array of unsigned byte values from the stream. |
+| [ReadBytes](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readbytes)(byte[], int, long, long) | Reads an array of byte values from the stream. |
+| [ReadDouble](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readdouble)(long) | Read a single double value from the stream. |
+| [ReadDoubleArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readdoublearray)(long, long) | Reads an array of double values from the stream. |
+| [ReadFloat](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readfloat)(long) | Read a single float value from the stream. |
+| [ReadFloatArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readfloatarray)(long, long) | Reads an array of float values from the stream. |
+| [ReadRational](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readrational)(long) | Read a single rational number value from the stream. |
+| [ReadRationalArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readrationalarray)(long, long) | Reads an array of rational values from the stream. |
+| [ReadSByte](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsbyte)(long) | Reads signed byte data from the stream. |
+| [ReadSByteArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsbytearray)(long, long) | Reads an array of signed byte values from the stream. |
+| [ReadSLong](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readslong)(long) | Read signed integer value from the stream. |
+| [ReadSLongArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readslongarray)(long, long) | Reads an array of signed integer values from the stream. |
+| [ReadSRational](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsrational)(long) | Read a single signed rational number value from the stream. |
+| [ReadSRationalArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsrationalarray)(long, long) | Reads an array of signed rational values from the stream. |
+| [ReadSShort](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsshort)(long) | Read signed short value from the stream. |
+| [ReadSShortArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsshortarray)(long, long) | Reads an array of signed short values from the stream. |
+| [ReadULong](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readulong)(long) | Read unsigned integer value from the stream. |
+| [ReadULongArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readulongarray)(long, long) | Reads an array of unsigned integer values from the stream. |
+| [ReadUShort](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readushort)(long) | Read unsigned short value from the stream. |
+| [ReadUShortArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readushortarray)(long, long) | Reads an array of unsigned integer values from the stream. |
+| [ToStreamContainer](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/tostreamcontainer)(long) | Converts the underlying data to the stream container. |
 
 ### See Also
 

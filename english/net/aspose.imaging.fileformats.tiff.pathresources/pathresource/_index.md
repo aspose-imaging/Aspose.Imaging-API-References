@@ -24,9 +24,9 @@ public class PathResource
 
 | Name | Description |
 | --- | --- |
-| [BlockId](blockid) { get; set; } | Gets or sets the block identifier. |
-| [Name](name) { get; set; } | Gets or sets the name. |
-| [Records](records) { get; set; } | Gets or sets the records. |
+| [BlockId](../../aspose.imaging.fileformats.tiff.pathresources/pathresource/blockid) { get; set; } | Gets or sets the block identifier. |
+| [Name](../../aspose.imaging.fileformats.tiff.pathresources/pathresource/name) { get; set; } | Gets or sets the name. |
+| [Records](../../aspose.imaging.fileformats.tiff.pathresources/pathresource/records) { get; set; } | Gets or sets the records. |
 
 ### Examples
 

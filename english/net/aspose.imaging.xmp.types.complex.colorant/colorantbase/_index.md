@@ -18,15 +18,17 @@ public abstract class ColorantBase : ComplexTypeBase
 
 | Name | Description |
 | --- | --- |
-| [ColorType](colortype) { get; set; } | Gets or sets the type of the color. |
-| [Mode](mode) { get; } | Gets [`ColorMode`](../colormode). |
-| [SwatchName](swatchname) { get; set; } | Gets or sets the name of the swatch. |
+| [ColorType](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/colortype) { get; set; } | Gets or sets the type of the color. |
+| [Mode](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/mode) { get; } | Gets [`ColorMode`](../colormode). |
+| [NamespaceUri](../../aspose.imaging.xmp.types.complex/complextypebase/namespaceuri) { get; } | Gets the default namespace URI. |
+| [Prefix](../../aspose.imaging.xmp.types.complex/complextypebase/prefix) { get; } | Gets the prefix. |
+| [SwatchName](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/swatchname) { get; set; } | Gets or sets the name of the swatch. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetXmpRepresentation](getxmprepresentation)() | Gets the string contained value in XMP format. |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/getxmprepresentation)() | Gets the string contained value in XMP format. |
 
 ### See Also
 

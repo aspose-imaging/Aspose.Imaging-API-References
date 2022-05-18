@@ -24,9 +24,9 @@ public class CieCoordinatesTriple
 
 | Name | Description |
 | --- | --- |
-| [CieXyzBlue](ciexyzblue) { get; } | Gets the xyz coordinates of blue endpoint. |
-| [CieXyzGreen](ciexyzgreen) { get; } | Gets the xyz coordinates of green endpoint. |
-| [CieXyzRed](ciexyzred) { get; } | Gets the xyz coordinates of red endpoint. |
+| [CieXyzBlue](../../aspose.imaging.fileformats.bmp.structures/ciecoordinatestriple/ciexyzblue) { get; } | Gets the xyz coordinates of blue endpoint. |
+| [CieXyzGreen](../../aspose.imaging.fileformats.bmp.structures/ciecoordinatestriple/ciexyzgreen) { get; } | Gets the xyz coordinates of green endpoint. |
+| [CieXyzRed](../../aspose.imaging.fileformats.bmp.structures/ciecoordinatestriple/ciexyzred) { get; } | Gets the xyz coordinates of red endpoint. |
 
 ### See Also
 

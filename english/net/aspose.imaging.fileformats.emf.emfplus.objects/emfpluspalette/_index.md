@@ -24,8 +24,8 @@ public sealed class EmfPlusPalette : EmfPlusStructureObjectType
 
 | Name | Description |
 | --- | --- |
-| [Argb32Entries](argb32entries) { get; set; } | Gets or sets the palette entries. |
-| [PaletteStyleFlags](palettestyleflags) { get; set; } | Gets or sets the palette style flags. |
+| [Argb32Entries](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspalette/argb32entries) { get; set; } | Gets or sets the palette entries. |
+| [PaletteStyleFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspalette/palettestyleflags) { get; set; } | Gets or sets the palette style flags. |
 
 ### See Also
 

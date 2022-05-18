@@ -18,7 +18,7 @@ public static class XmpArrayHelper
 
 | Name | Description |
 | --- | --- |
-| static [GetRdfCode](getrdfcode)(XmpArrayType) | Gets the RDF code for specific [`XmpArrayType`](../xmparraytype). |
+| static [GetRdfCode](../../aspose.imaging.xmp/xmparrayhelper/getrdfcode)(XmpArrayType) | Gets the RDF code for specific [`XmpArrayType`](../xmparraytype). |
 
 ### See Also
 

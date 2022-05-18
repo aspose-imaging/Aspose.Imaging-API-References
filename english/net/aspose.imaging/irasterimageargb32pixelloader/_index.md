@@ -18,7 +18,7 @@ public interface IRasterImageArgb32PixelLoader : IRasterImageRawDataLoader
 
 | Name | Description |
 | --- | --- |
-| [LoadPartialArgb32Pixels](loadpartialargb32pixels)(Rectangle, IPartialArgb32PixelLoader) | Loads 32-bit ARGB pixels partially (by blocks). |
+| [LoadPartialArgb32Pixels](../../aspose.imaging/irasterimageargb32pixelloader/loadpartialargb32pixels)(Rectangle, IPartialArgb32PixelLoader) | Loads 32-bit ARGB pixels partially (by blocks). |
 
 ### See Also
 

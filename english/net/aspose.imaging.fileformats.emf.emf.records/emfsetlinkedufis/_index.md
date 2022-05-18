@@ -24,7 +24,9 @@ public sealed class EmfSetLinkedUfis : EmfStateRecordType
 
 | Name | Description |
 | --- | --- |
-| [Ufis](ufis) { get; set; } | Gets or sets an array of uNumLinkedUFI elements of type UniversalFontId, which specifies the identifiers of the linked fonts. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
+| [Ufis](../../aspose.imaging.fileformats.emf.emf.records/emfsetlinkedufis/ufis) { get; set; } | Gets or sets an array of uNumLinkedUFI elements of type UniversalFontId, which specifies the identifiers of the linked fonts. |
 
 ### See Also
 

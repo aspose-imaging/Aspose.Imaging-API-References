@@ -24,17 +24,17 @@ public sealed class Timecode : XmpTypeBase, IEquatable<Timecode>
 
 | Name | Description |
 | --- | --- |
-| [Format](format) { get; set; } | Gets or sets the format used in the [`TimeValue`](./timevalue). |
-| [TimeValue](timevalue) { get; set; } | Gets or sets the time value in the specified format. |
+| [Format](../../aspose.imaging.xmp.schemas.xmpdm/timecode/format) { get; set; } | Gets or sets the format used in the [`TimeValue`](./timevalue). |
+| [TimeValue](../../aspose.imaging.xmp.schemas.xmpdm/timecode/timevalue) { get; set; } | Gets or sets the time value in the specified format. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified Object, is equal to this instance. |
-| [Equals](equals)(Timecode) | Indicates whether the current object is equal to another object of the same type. |
-| override [GetHashCode](gethashcode)() | Returns a hash code for this instance. |
-| override [GetXmpRepresentation](getxmprepresentation)() | Returns the string contained value in XMP format. |
+| override [Equals](../../aspose.imaging.xmp.schemas.xmpdm/timecode/equals)(object) | Determines whether the specified Object, is equal to this instance. |
+| [Equals](../../aspose.imaging.xmp.schemas.xmpdm/timecode/equals)(Timecode) | Indicates whether the current object is equal to another object of the same type. |
+| override [GetHashCode](../../aspose.imaging.xmp.schemas.xmpdm/timecode/gethashcode)() | Returns a hash code for this instance. |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.schemas.xmpdm/timecode/getxmprepresentation)() | Returns the string contained value in XMP format. |
 
 ### See Also
 

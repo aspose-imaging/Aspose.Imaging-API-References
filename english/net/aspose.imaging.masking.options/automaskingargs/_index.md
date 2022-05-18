@@ -24,12 +24,12 @@ public class AutoMaskingArgs : IMaskingArgs
 
 | Name | Description |
 | --- | --- |
-| [MaxIterationNumber](maxiterationnumber) { get; set; } | Gets or sets the maximum number of iterations. |
-| [NumberOfObjects](numberofobjects) { get; set; } | Gets or sets the number of objects to separate initial image to (optional), default value is 2 (object and background). |
-| [ObjectsPoints](objectspoints) { get; set; } | Gets or sets the points that belong to separated objects (optional) NumberOfObjects coordinates that belong to NumberOfObjects objects of initial image. This parameter is used to increase segmentation method precision. |
-| [ObjectsRectangles](objectsrectangles) { get; set; } | Gets or sets the objects rectangles that belong to separated objects (optional). This parameter is used to increase segmentation method precision. |
-| [OrphanedPoints](orphanedpoints) { get; set; } | Gets or sets the points that no longer belong to any object (optional). This parameter is used only in case of re-segmentation. |
-| [Precision](precision) { get; set; } | Gets or sets the precision of segmentation method (optional). |
+| [MaxIterationNumber](../../aspose.imaging.masking.options/automaskingargs/maxiterationnumber) { get; set; } | Gets or sets the maximum number of iterations. |
+| [NumberOfObjects](../../aspose.imaging.masking.options/automaskingargs/numberofobjects) { get; set; } | Gets or sets the number of objects to separate initial image to (optional), default value is 2 (object and background). |
+| [ObjectsPoints](../../aspose.imaging.masking.options/automaskingargs/objectspoints) { get; set; } | Gets or sets the points that belong to separated objects (optional) NumberOfObjects coordinates that belong to NumberOfObjects objects of initial image. This parameter is used to increase segmentation method precision. |
+| [ObjectsRectangles](../../aspose.imaging.masking.options/automaskingargs/objectsrectangles) { get; set; } | Gets or sets the objects rectangles that belong to separated objects (optional). This parameter is used to increase segmentation method precision. |
+| [OrphanedPoints](../../aspose.imaging.masking.options/automaskingargs/orphanedpoints) { get; set; } | Gets or sets the points that no longer belong to any object (optional). This parameter is used only in case of re-segmentation. |
+| [Precision](../../aspose.imaging.masking.options/automaskingargs/precision) { get; set; } | Gets or sets the precision of segmentation method (optional). |
 
 ### Examples
 

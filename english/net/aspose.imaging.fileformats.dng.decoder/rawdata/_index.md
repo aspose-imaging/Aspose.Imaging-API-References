@@ -18,8 +18,8 @@ public class RawData
 
 | Name | Description |
 | --- | --- |
-| [ImageDataParameters](imagedataparameters) { get; set; } | Gets or sets the image data parameters. |
-| [ImageOtherParameters](imageotherparameters) { get; set; } | Gets or sets the other image parameters. |
+| [ImageDataParameters](../../aspose.imaging.fileformats.dng.decoder/rawdata/imagedataparameters) { get; set; } | Gets or sets the image data parameters. |
+| [ImageOtherParameters](../../aspose.imaging.fileformats.dng.decoder/rawdata/imageotherparameters) { get; set; } | Gets or sets the other image parameters. |
 
 ### See Also
 

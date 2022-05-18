@@ -24,17 +24,17 @@ public class OdTransformInfo
 
 | Name | Description |
 | --- | --- |
-| [RotateAngle](rotateangle) { get; set; } | Gets or sets the rotate angle. |
-| [SkewX](skewx) { get; set; } | Gets or sets the skew x. |
-| [SkewY](skewy) { get; set; } | Gets or sets the skew y. |
-| [TranslateX](translatex) { get; set; } | Gets or sets the translate x. |
-| [TranslateY](translatey) { get; set; } | Gets or sets the translate y. |
+| [RotateAngle](../../aspose.imaging.fileformats.opendocument.objects/odtransforminfo/rotateangle) { get; set; } | Gets or sets the rotate angle. |
+| [SkewX](../../aspose.imaging.fileformats.opendocument.objects/odtransforminfo/skewx) { get; set; } | Gets or sets the skew x. |
+| [SkewY](../../aspose.imaging.fileformats.opendocument.objects/odtransforminfo/skewy) { get; set; } | Gets or sets the skew y. |
+| [TranslateX](../../aspose.imaging.fileformats.opendocument.objects/odtransforminfo/translatex) { get; set; } | Gets or sets the translate x. |
+| [TranslateY](../../aspose.imaging.fileformats.opendocument.objects/odtransforminfo/translatey) { get; set; } | Gets or sets the translate y. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Copy](copy)() | Copies this instance. |
+| [Copy](../../aspose.imaging.fileformats.opendocument.objects/odtransforminfo/copy)() | Copies this instance. |
 
 ### See Also
 

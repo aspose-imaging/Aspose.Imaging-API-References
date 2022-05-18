@@ -18,9 +18,9 @@ public static class TiffStreamFactory
 
 | Name | Description |
 | --- | --- |
-| static [GetTiffReader](gettiffreader)(StreamContainer, TiffByteOrder) | Gets the tiff stream reader. |
-| static [GetTiffReader](gettiffreader)(byte[], int, int, TiffByteOrder) | Gets the tiff stream reader. |
-| static [GetTiffWriter](gettiffwriter)(StreamContainer, TiffByteOrder) | Gets the tiff stream writer. |
+| static [GetTiffReader](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/gettiffreader)(StreamContainer, TiffByteOrder) | Gets the tiff stream reader. |
+| static [GetTiffReader](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/gettiffreader)(byte[], int, int, TiffByteOrder) | Gets the tiff stream reader. |
+| static [GetTiffWriter](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/gettiffwriter)(StreamContainer, TiffByteOrder) | Gets the tiff stream writer. |
 
 ### See Also
 

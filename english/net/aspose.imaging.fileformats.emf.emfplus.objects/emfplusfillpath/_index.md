@@ -24,7 +24,7 @@ public sealed class EmfPlusFillPath : EmfPlusStructureObjectType
 
 | Name | Description |
 | --- | --- |
-| [FillPath](fillpath) { get; set; } | Gets or sets EmfPlusPath object (section 2.2.1.6) that specifies the area to fill. |
+| [FillPath](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfillpath/fillpath) { get; set; } | Gets or sets EmfPlusPath object (section 2.2.1.6) that specifies the area to fill. |
 
 ### See Also
 

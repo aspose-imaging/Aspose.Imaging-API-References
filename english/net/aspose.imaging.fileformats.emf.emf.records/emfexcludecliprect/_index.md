@@ -25,7 +25,9 @@ public sealed class EmfExcludeClipRect : EmfClippingRecordType
 
 | Name | Description |
 | --- | --- |
-| [Clip](clip) { get; set; } | Gets or sets a WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies the clipping rectangle in logical units. |
+| [Clip](../../aspose.imaging.fileformats.emf.emf.records/emfexcludecliprect/clip) { get; set; } | Gets or sets a WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies the clipping rectangle in logical units. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

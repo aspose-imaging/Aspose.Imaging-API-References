@@ -24,9 +24,10 @@ public class WmfCreatePatternBrush : WmfGraphicObject
 
 | Name | Description |
 | --- | --- |
-| [Bitmap](bitmap) { get; set; } | Gets or sets the bitmap. |
-| [Pattern](pattern) { get; set; } | Gets or sets the pattern. |
-| [Reserved](reserved) { get; set; } | Gets or sets the reserved. |
+| [Bitmap](../../aspose.imaging.fileformats.wmf.objects/wmfcreatepatternbrush/bitmap) { get; set; } | Gets or sets the bitmap. |
+| [Index](../../aspose.imaging.fileformats.wmf.objects/wmfgraphicobject/index) { get; set; } | Gets or sets the index. |
+| [Pattern](../../aspose.imaging.fileformats.wmf.objects/wmfcreatepatternbrush/pattern) { get; set; } | Gets or sets the pattern. |
+| [Reserved](../../aspose.imaging.fileformats.wmf.objects/wmfcreatepatternbrush/reserved) { get; set; } | Gets or sets the reserved. |
 
 ### See Also
 

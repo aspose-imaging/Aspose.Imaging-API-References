@@ -14,6 +14,13 @@ The path bracket record types specify and manipulate paths in path brackets. Not
 public abstract class EmfPathBracketRecordType : EmfRecord
 ```
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
+
 ### See Also
 
 * class [EmfRecord](../emfrecord)

@@ -24,7 +24,8 @@ public class WmfCreateBrushInDirect : WmfGraphicObject
 
 | Name | Description |
 | --- | --- |
-| [LogBrush](logbrush) { get; set; } | Gets or sets the log brush. |
+| [Index](../../aspose.imaging.fileformats.wmf.objects/wmfgraphicobject/index) { get; set; } | Gets or sets the index. |
+| [LogBrush](../../aspose.imaging.fileformats.wmf.objects/wmfcreatebrushindirect/logbrush) { get; set; } | Gets or sets the log brush. |
 
 ### See Also
 

@@ -24,14 +24,14 @@ public sealed class FileOpenSource : FileSource
 
 | Name | Description |
 | --- | --- |
-| [FilePath](filepath) { get; } | Gets the file path to open. |
-| override [IsTemporal](istemporal) { get; } | Gets a value indicating whether file will be temporal. |
+| [FilePath](../../aspose.imaging.sources/fileopensource/filepath) { get; } | Gets the file path to open. |
+| override [IsTemporal](../../aspose.imaging.sources/fileopensource/istemporal) { get; } | Gets a value indicating whether file will be temporal. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetStreamContainer](getstreamcontainer)() | Gets the stream container. |
+| override [GetStreamContainer](../../aspose.imaging.sources/fileopensource/getstreamcontainer)() | Gets the stream container. |
 
 ### See Also
 

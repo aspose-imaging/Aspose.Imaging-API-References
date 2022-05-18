@@ -25,7 +25,9 @@ public sealed class EmfSelectClipPath : EmfClippingRecordType
 
 | Name | Description |
 | --- | --- |
-| [RegionMode](regionmode) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the way to use the path. The value MUST be in the RegionMode enumeration (section 2.1.29). |
+| [RegionMode](../../aspose.imaging.fileformats.emf.emf.records/emfselectclippath/regionmode) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the way to use the path. The value MUST be in the RegionMode enumeration (section 2.1.29). |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

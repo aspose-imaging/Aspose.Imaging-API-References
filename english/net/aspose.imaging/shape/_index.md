@@ -18,9 +18,18 @@ public abstract class Shape : ObjectWithBounds
 
 | Name | Description |
 | --- | --- |
-| abstract [Center](center) { get; } | Gets the shape's center. |
-| abstract [HasSegments](hassegments) { get; } | Gets a value indicating whether shape has segments. |
-| abstract [Segments](segments) { get; } | Gets the shape segments. |
+| abstract [Bounds](../../aspose.imaging/objectwithbounds/bounds) { get; } | Gets the object's bounds. |
+| abstract [Center](../../aspose.imaging/shape/center) { get; } | Gets the shape's center. |
+| abstract [HasSegments](../../aspose.imaging/shape/hassegments) { get; } | Gets a value indicating whether shape has segments. |
+| abstract [Segments](../../aspose.imaging/shape/segments) { get; } | Gets the shape segments. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| abstract [GetBounds](../../aspose.imaging/objectwithbounds/getbounds)(Matrix) | Gets the object's bounds. |
+| abstract [GetBounds](../../aspose.imaging/objectwithbounds/getbounds)(Matrix, Pen) | Gets the object's bounds. |
+| abstract [Transform](../../aspose.imaging/objectwithbounds/transform)(Matrix) | Applies the specified transformation to the shape. |
 
 ### See Also
 

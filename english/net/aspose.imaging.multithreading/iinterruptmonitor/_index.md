@@ -18,13 +18,13 @@ public interface IInterruptMonitor
 
 | Name | Description |
 | --- | --- |
-| [IsInterrupted](isinterrupted) { get; } | Gets the value indicating whether operations should be interrupted. |
+| [IsInterrupted](../../aspose.imaging.multithreading/iinterruptmonitor/isinterrupted) { get; } | Gets the value indicating whether operations should be interrupted. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Interrupt](interrupt)() | Sends a request to interrupt operations. |
+| [Interrupt](../../aspose.imaging.multithreading/iinterruptmonitor/interrupt)() | Sends a request to interrupt operations. |
 
 ### See Also
 

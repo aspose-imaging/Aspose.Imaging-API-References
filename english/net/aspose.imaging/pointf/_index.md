@@ -24,26 +24,26 @@ public struct PointF
 
 | Name | Description |
 | --- | --- |
-| static [Empty](empty) { get; } | Gets a new instance of the [`PointF`](../pointf) structure that has [`X`](./x) and [`Y`](./y) values set to zero. |
-| [IsEmpty](isempty) { get; } | Gets a value indicating whether this [`PointF`](../pointf) is empty. |
-| [X](x) { get; set; } | Gets or sets the x-coordinate of this [`PointF`](../pointf). |
-| [Y](y) { get; set; } | Gets or sets the y-coordinate of this [`PointF`](../pointf). |
+| static [Empty](../../aspose.imaging/pointf/empty) { get; } | Gets a new instance of the [`PointF`](../pointf) structure that has [`X`](./x) and [`Y`](./y) values set to zero. |
+| [IsEmpty](../../aspose.imaging/pointf/isempty) { get; } | Gets a value indicating whether this [`PointF`](../pointf) is empty. |
+| [X](../../aspose.imaging/pointf/x) { get; set; } | Gets or sets the x-coordinate of this [`PointF`](../pointf). |
+| [Y](../../aspose.imaging/pointf/y) { get; set; } | Gets or sets the y-coordinate of this [`PointF`](../pointf). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [Add](add)(PointF, Size) | Translates a given [`PointF`](../pointf) by the specified [`Size`](../size). |
-| static [Add](add)(PointF, SizeF) | Translates a given [`PointF`](../pointf) by a specified [`SizeF`](../sizef). |
-| static [Subtract](subtract)(PointF, Size) | Translates a [`PointF`](../pointf) by the negative of a specified size. |
-| static [Subtract](subtract)(PointF, SizeF) | Translates a [`PointF`](../pointf) by the negative of a specified size. |
-| override [Equals](equals)(object) | Specifies whether this [`PointF`](../pointf) contains the same coordinates as the specified Object. |
-| override [GetHashCode](gethashcode)() | Returns a hash code for this [`PointF`](../pointf) structure. |
-| override [ToString](tostring)() | Converts this [`PointF`](../pointf) to a human readable string. |
-| [operator +](op_addition) | Translates a [`PointF`](../pointf) by a given [`Size`](../size). (2 operators) |
-| [operator ==](op_equality) | Compares two [`PointF`](../pointf) structures. The result specifies whether the values of the [`X`](./x) and [`Y`](./y) properties of the two [`PointF`](../pointf) structures are equal. |
-| [operator !=](op_inequality) | Determines whether the coordinates of the specified points are not equal. |
-| [operator -](op_subtraction) | Translates a [`PointF`](../pointf) by the negative of a given [`Size`](../size). (2 operators) |
+| static [Add](../../aspose.imaging/pointf/add)(PointF, Size) | Translates a given [`PointF`](../pointf) by the specified [`Size`](../size). |
+| static [Add](../../aspose.imaging/pointf/add)(PointF, SizeF) | Translates a given [`PointF`](../pointf) by a specified [`SizeF`](../sizef). |
+| static [Subtract](../../aspose.imaging/pointf/subtract)(PointF, Size) | Translates a [`PointF`](../pointf) by the negative of a specified size. |
+| static [Subtract](../../aspose.imaging/pointf/subtract)(PointF, SizeF) | Translates a [`PointF`](../pointf) by the negative of a specified size. |
+| override [Equals](../../aspose.imaging/pointf/equals)(object) | Specifies whether this [`PointF`](../pointf) contains the same coordinates as the specified Object. |
+| override [GetHashCode](../../aspose.imaging/pointf/gethashcode)() | Returns a hash code for this [`PointF`](../pointf) structure. |
+| override [ToString](../../aspose.imaging/pointf/tostring)() | Converts this [`PointF`](../pointf) to a human readable string. |
+| [operator +](../../aspose.imaging/pointf/op_addition) | Translates a [`PointF`](../pointf) by a given [`Size`](../size). (2 operators) |
+| [operator ==](../../aspose.imaging/pointf/op_equality) | Compares two [`PointF`](../pointf) structures. The result specifies whether the values of the [`X`](./x) and [`Y`](./y) properties of the two [`PointF`](../pointf) structures are equal. |
+| [operator !=](../../aspose.imaging/pointf/op_inequality) | Determines whether the coordinates of the specified points are not equal. |
+| [operator -](../../aspose.imaging/pointf/op_subtraction) | Translates a [`PointF`](../pointf) by the negative of a given [`Size`](../size). (2 operators) |
 
 ### See Also
 

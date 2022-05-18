@@ -20,6 +20,12 @@ public class WmfExcludeClipRect : WmfRectangle
 | --- | --- |
 | [WmfExcludeClipRect](wmfexcludecliprect)() | The default constructor. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Rectangle](../../aspose.imaging.fileformats.wmf.objects/wmfrectangle/rectangle) { get; set; } | Gets or sets the rectangle. |
+
 ### See Also
 
 * class [WmfRectangle](../wmfrectangle)

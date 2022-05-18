@@ -24,11 +24,13 @@ public sealed class EmfCreateColorSpaceW : EmfObjectCreationRecordType
 
 | Name | Description |
 | --- | --- |
-| [CbData](cbdata) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the size, in bytes, of the Data field. |
-| [Data](data) { get; set; } | Gets or sets an optional array of bytes that specifies color profile data. |
-| [DwFlags](dwflags) { get; set; } | Gets or sets a 32-bit unsigned integer that provides information about the data in this record. |
-| [IhCS](ihcs) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the index of the logical color space object in the EMF object table (section 3.1.1.1). This index MUST be saved so that this object can be reused or modified. |
-| [Lcs](lcs) { get; set; } | Gets or sets a WMF LogColorSpaceW object ([MS-WMF] section 2.2.2.12) that can specify the name of a color profile in Unicode UTF16-LE characters |
+| [CbData](../../aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/cbdata) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the size, in bytes, of the Data field. |
+| [Data](../../aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/data) { get; set; } | Gets or sets an optional array of bytes that specifies color profile data. |
+| [DwFlags](../../aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/dwflags) { get; set; } | Gets or sets a 32-bit unsigned integer that provides information about the data in this record. |
+| [IhCS](../../aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/ihcs) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the index of the logical color space object in the EMF object table (section 3.1.1.1). This index MUST be saved so that this object can be reused or modified. |
+| [Lcs](../../aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/lcs) { get; set; } | Gets or sets a WMF LogColorSpaceW object ([MS-WMF] section 2.2.2.12) that can specify the name of a color profile in Unicode UTF16-LE characters |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### Remarks
 

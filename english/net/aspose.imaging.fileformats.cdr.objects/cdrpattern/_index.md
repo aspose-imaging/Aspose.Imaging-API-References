@@ -24,9 +24,19 @@ public class CdrPattern : CdrDictionaryItem
 
 | Name | Description |
 | --- | --- |
-| [Data](data) { get; set; } | Gets or sets the data. |
-| [Height](height) { get; set; } | Gets or sets the height. |
-| [Width](width) { get; set; } | Gets or sets the width. |
+| [Data](../../aspose.imaging.fileformats.cdr.objects/cdrpattern/data) { get; set; } | Gets or sets the data. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
+| [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | Gets or sets the document. |
+| [Height](../../aspose.imaging.fileformats.cdr.objects/cdrpattern/height) { get; set; } | Gets or sets the height. |
+| [Id](../../aspose.imaging.fileformats.cdr.objects/cdrdictionaryitem/id) { get; set; } | Gets or sets the identifier. |
+| [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | Gets or sets the parent. |
+| [Width](../../aspose.imaging.fileformats.cdr.objects/cdrpattern/width) { get; set; } | Gets or sets the width. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
 
 ### See Also
 

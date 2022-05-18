@@ -18,9 +18,9 @@ public interface IObjectWithSizeF
 
 | Name | Description |
 | --- | --- |
-| [HeightF](heightf) { get; } | Gets the object height, in inches. |
-| [SizeF](sizef) { get; } | Gets the object size, in inches. |
-| [WidthF](widthf) { get; } | Gets the object width, in inches. |
+| [HeightF](../../aspose.imaging.interfaces/iobjectwithsizef/heightf) { get; } | Gets the object height, in inches. |
+| [SizeF](../../aspose.imaging.interfaces/iobjectwithsizef/sizef) { get; } | Gets the object size, in inches. |
+| [WidthF](../../aspose.imaging.interfaces/iobjectwithsizef/widthf) { get; } | Gets the object width, in inches. |
 
 ### See Also
 

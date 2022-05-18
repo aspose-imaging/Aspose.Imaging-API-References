@@ -1,7 +1,7 @@
 ---
 title: Aspose.Imaging.FileFormats.Emf.Graphics
 second_title: Aspose.Imaging for .NET API Reference
-description: The namespace contains EmfEmf graphics.
+description: The namespace contains Emf/Emf graphics.
 type: docs
 weight: 410
 url: /net/aspose.imaging.fileformats.emf.graphics/

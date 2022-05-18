@@ -18,7 +18,7 @@ public abstract class Source
 
 | Name | Description |
 | --- | --- |
-| abstract [GetStreamContainer](getstreamcontainer)() | Gets the stream container. |
+| abstract [GetStreamContainer](../../aspose.imaging/source/getstreamcontainer)() | Gets the stream container. |
 
 ### See Also
 

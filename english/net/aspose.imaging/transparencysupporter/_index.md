@@ -24,7 +24,7 @@ public class TransparencySupporter
 
 | Name | Description |
 | --- | --- |
-| [Opacity](opacity) { get; set; } | Gets or sets the object's opacity. The value should be between 0 and 1. Value of 0 means that object is fully visible, value of 1 means the object is fully opaque. |
+| [Opacity](../../aspose.imaging/transparencysupporter/opacity) { get; set; } | Gets or sets the object's opacity. The value should be between 0 and 1. Value of 0 means that object is fully visible, value of 1 means the object is fully opaque. |
 
 ### See Also
 

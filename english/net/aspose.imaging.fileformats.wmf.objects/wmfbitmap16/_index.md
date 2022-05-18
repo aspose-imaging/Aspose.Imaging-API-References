@@ -24,13 +24,13 @@ public class WmfBitmap16 : MetaObject
 
 | Name | Description |
 | --- | --- |
-| [Bits](bits) { get; set; } | Gets or sets the bits. |
-| [BitsPixel](bitspixel) { get; set; } | Gets or sets the bits pixel. |
-| [Height](height) { get; set; } | Gets or sets the height. |
-| [Planes](planes) { get; set; } | Gets or sets the planes. |
-| [Type](type) { get; set; } | Gets or sets the type. |
-| [Width](width) { get; set; } | Gets or sets the width. |
-| [WidthBytes](widthbytes) { get; set; } | Gets or sets the width bytes. |
+| [Bits](../../aspose.imaging.fileformats.wmf.objects/wmfbitmap16/bits) { get; set; } | Gets or sets the bits. |
+| [BitsPixel](../../aspose.imaging.fileformats.wmf.objects/wmfbitmap16/bitspixel) { get; set; } | Gets or sets the bits pixel. |
+| [Height](../../aspose.imaging.fileformats.wmf.objects/wmfbitmap16/height) { get; set; } | Gets or sets the height. |
+| [Planes](../../aspose.imaging.fileformats.wmf.objects/wmfbitmap16/planes) { get; set; } | Gets or sets the planes. |
+| [Type](../../aspose.imaging.fileformats.wmf.objects/wmfbitmap16/type) { get; set; } | Gets or sets the type. |
+| [Width](../../aspose.imaging.fileformats.wmf.objects/wmfbitmap16/width) { get; set; } | Gets or sets the width. |
+| [WidthBytes](../../aspose.imaging.fileformats.wmf.objects/wmfbitmap16/widthbytes) { get; set; } | Gets or sets the width bytes. |
 
 ### See Also
 

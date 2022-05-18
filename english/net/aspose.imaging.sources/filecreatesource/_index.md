@@ -25,14 +25,14 @@ public sealed class FileCreateSource : FileSource
 
 | Name | Description |
 | --- | --- |
-| [FilePath](filepath) { get; } | Gets the file path to create. |
-| override [IsTemporal](istemporal) { get; } | Gets a value indicating whether file will be temporal. |
+| [FilePath](../../aspose.imaging.sources/filecreatesource/filepath) { get; } | Gets the file path to create. |
+| override [IsTemporal](../../aspose.imaging.sources/filecreatesource/istemporal) { get; } | Gets a value indicating whether file will be temporal. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetStreamContainer](getstreamcontainer)() | Gets the stream container. |
+| override [GetStreamContainer](../../aspose.imaging.sources/filecreatesource/getstreamcontainer)() | Gets the stream container. |
 
 ### See Also
 

@@ -25,8 +25,10 @@ public class SharpenFilterOptions : ConvolutionFilterOptions
 
 | Name | Description |
 | --- | --- |
-| [Sigma](sigma) { get; set; } | Gets or sets the sigma. |
-| [Size](size) { get; set; } | Gets or sets the size. |
+| [Bias](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/bias) { get; set; } | Gets or sets the bias. |
+| [Factor](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/factor) { get; set; } | Gets or sets the factor. |
+| [Sigma](../../aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/sigma) { get; set; } | Gets or sets the sigma. |
+| [Size](../../aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/size) { get; set; } | Gets or sets the size. |
 
 ### Examples
 

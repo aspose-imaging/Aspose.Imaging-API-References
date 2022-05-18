@@ -24,8 +24,8 @@ public sealed class EmfPlusGraphicsVersion : EmfPlusStructureObjectType
 
 | Name | Description |
 | --- | --- |
-| [GraphicsVersion](graphicsversion) { get; set; } | Gets a GraphicsVersion (12 bits): The version of operating system graphics. This value MUST be defined in the [`EmfPlusGraphicsVersion`](../emfplusgraphicsversion) enumeration |
-| [MetafileSignature](metafilesignature) { get; set; } | Gets a MetafileSignature (20 bits): A value that identifies the type of metafile. The value for an EMF+ metafile is 0xDBC01. |
+| [GraphicsVersion](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion/graphicsversion) { get; set; } | Gets a GraphicsVersion (12 bits): The version of operating system graphics. This value MUST be defined in the [`EmfPlusGraphicsVersion`](../emfplusgraphicsversion) enumeration |
+| [MetafileSignature](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion/metafilesignature) { get; set; } | Gets a MetafileSignature (20 bits): A value that identifies the type of metafile. The value for an EMF+ metafile is 0xDBC01. |
 
 ### Remarks
 

@@ -24,13 +24,13 @@ public class XmpText : XmpTypeBase
 
 | Name | Description |
 | --- | --- |
-| [Value](value) { get; set; } | Gets or sets the text value. |
+| [Value](../../aspose.imaging.xmp.types.basic/xmptext/value) { get; set; } | Gets or sets the text value. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetXmpRepresentation](getxmprepresentation)() | Gets the string contained value in XMP format. |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.types.basic/xmptext/getxmprepresentation)() | Gets the string contained value in XMP format. |
 
 ### See Also
 

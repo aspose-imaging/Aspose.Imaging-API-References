@@ -18,7 +18,7 @@ public interface IGifBlock
 
 | Name | Description |
 | --- | --- |
-| [Save](save)(Stream) | Saves the block to the specified stream. |
+| [Save](../../aspose.imaging.fileformats.gif/igifblock/save)(Stream) | Saves the block to the specified stream. |
 
 ### See Also
 

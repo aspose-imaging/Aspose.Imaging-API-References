@@ -18,13 +18,13 @@ public abstract class OdBrush : ICloneable
 
 | Name | Description |
 | --- | --- |
-| abstract [BrushStyle](brushstyle) { get; } | Gets the style. |
+| abstract [BrushStyle](../../aspose.imaging.fileformats.opendocument.objects.brush/odbrush/brushstyle) { get; } | Gets the style. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| abstract [Clone](clone)() | Clone this instance. |
+| abstract [Clone](../../aspose.imaging.fileformats.opendocument.objects.brush/odbrush/clone)() | Clone this instance. |
 
 ### See Also
 

@@ -24,7 +24,7 @@ public class WmfSetMapMode : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [MapMode](mapmode) { get; set; } | Gets or sets the map mode. |
+| [MapMode](../../aspose.imaging.fileformats.wmf.objects/wmfsetmapmode/mapmode) { get; set; } | Gets or sets the map mode. |
 
 ### See Also
 

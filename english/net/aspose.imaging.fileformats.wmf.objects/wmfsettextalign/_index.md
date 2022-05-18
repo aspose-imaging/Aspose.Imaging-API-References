@@ -24,8 +24,8 @@ public class WmfSetTextAlign : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [Reserved](reserved) { get; set; } | Gets or sets the reserved. |
-| [TextAlign](textalign) { get; set; } | Gets or sets the text align. |
+| [Reserved](../../aspose.imaging.fileformats.wmf.objects/wmfsettextalign/reserved) { get; set; } | Gets or sets the reserved. |
+| [TextAlign](../../aspose.imaging.fileformats.wmf.objects/wmfsettextalign/textalign) { get; set; } | Gets or sets the text align. |
 
 ### See Also
 

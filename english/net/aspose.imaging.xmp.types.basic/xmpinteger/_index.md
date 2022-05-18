@@ -26,13 +26,13 @@ public sealed class XmpInteger : XmpTypeBase
 
 | Name | Description |
 | --- | --- |
-| [Value](value) { get; set; } | Gets or sets the value. |
+| [Value](../../aspose.imaging.xmp.types.basic/xmpinteger/value) { get; set; } | Gets or sets the value. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetXmpRepresentation](getxmprepresentation)() | Gets the string contained value in XMP format. |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.types.basic/xmpinteger/getxmprepresentation)() | Gets the string contained value in XMP format. |
 
 ### See Also
 

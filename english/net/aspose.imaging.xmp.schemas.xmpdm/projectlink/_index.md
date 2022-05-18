@@ -24,14 +24,14 @@ public sealed class ProjectLink : XmpTypeBase
 
 | Name | Description |
 | --- | --- |
-| [Path](path) { get; set; } | Gets or sets full path to the project. |
-| [Type](type) { get; set; } | Gets or sets file type. |
+| [Path](../../aspose.imaging.xmp.schemas.xmpdm/projectlink/path) { get; set; } | Gets or sets full path to the project. |
+| [Type](../../aspose.imaging.xmp.schemas.xmpdm/projectlink/type) { get; set; } | Gets or sets file type. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetXmpRepresentation](getxmprepresentation)() | Returns string contained value in XMP format. |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.schemas.xmpdm/projectlink/getxmprepresentation)() | Returns string contained value in XMP format. |
 
 ### See Also
 

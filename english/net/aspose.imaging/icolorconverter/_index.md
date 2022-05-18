@@ -18,7 +18,7 @@ public interface IColorConverter
 
 | Name | Description |
 | --- | --- |
-| [Convert](convert)(PixelDataFormat, byte[], int, int, int, int, PixelDataFormat, byte[], int) | Converts the passed data to the output format. |
+| [Convert](../../aspose.imaging/icolorconverter/convert)(PixelDataFormat, byte[], int, int, int, int, PixelDataFormat, byte[], int) | Converts the passed data to the output format. |
 
 ### See Also
 

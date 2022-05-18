@@ -24,8 +24,8 @@ public class RenderResult
 
 | Name | Description |
 | --- | --- |
-| [Message](message) { get; set; } | Gets or sets string message |
-| [RenderCode](rendercode) { get; set; } | Gets or sets code of error |
+| [Message](../../aspose.imaging.imageoptions/renderresult/message) { get; set; } | Gets or sets string message |
+| [RenderCode](../../aspose.imaging.imageoptions/renderresult/rendercode) { get; set; } | Gets or sets code of error |
 
 ### See Also
 

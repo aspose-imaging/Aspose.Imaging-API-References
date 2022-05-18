@@ -24,12 +24,12 @@ public class FontStoringArgs
 
 | Name | Description |
 | --- | --- |
-| [DestFontStream](destfontstream) { get; set; } | Gets or sets the dest font stream. |
-| [DisposeStream](disposestream) { get; set; } | Gets or sets a value indicating whether [dispose stream]. |
-| [FontFileUri](fontfileuri) { get; set; } | Gets or sets the font file URI. |
-| [FontStoreType](fontstoretype) { get; set; } | Gets or sets a value indicating whether [use embedded font]. |
-| [SourceFontFileName](sourcefontfilename) { get; } | Gets the source font file. |
-| [SourceFontStream](sourcefontstream) { get; } | Gets the source font stream. |
+| [DestFontStream](../../aspose.imaging.fileformats.svg/fontstoringargs/destfontstream) { get; set; } | Gets or sets the dest font stream. |
+| [DisposeStream](../../aspose.imaging.fileformats.svg/fontstoringargs/disposestream) { get; set; } | Gets or sets a value indicating whether [dispose stream]. |
+| [FontFileUri](../../aspose.imaging.fileformats.svg/fontstoringargs/fontfileuri) { get; set; } | Gets or sets the font file URI. |
+| [FontStoreType](../../aspose.imaging.fileformats.svg/fontstoringargs/fontstoretype) { get; set; } | Gets or sets a value indicating whether [use embedded font]. |
+| [SourceFontFileName](../../aspose.imaging.fileformats.svg/fontstoringargs/sourcefontfilename) { get; } | Gets the source font file. |
+| [SourceFontStream](../../aspose.imaging.fileformats.svg/fontstoringargs/sourcefontstream) { get; } | Gets the source font stream. |
 
 ### See Also
 

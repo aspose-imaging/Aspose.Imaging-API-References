@@ -25,7 +25,9 @@ public sealed class EmfStrokeAndFillPath : EmfDrawingRecordType
 
 | Name | Description |
 | --- | --- |
-| [Bounds](bounds) { get; set; } | Gets or sets a 128-bit WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies the bounding rectangle, in device units. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfstrokeandfillpath/bounds) { get; set; } | Gets or sets a 128-bit WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies the bounding rectangle, in device units. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

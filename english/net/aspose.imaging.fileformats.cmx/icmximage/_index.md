@@ -18,7 +18,7 @@ public interface ICmxImage : IObjectWithSizeF
 
 | Name | Description |
 | --- | --- |
-| [CmxPage](cmxpage) { get; } | Gets the CMX page. |
+| [CmxPage](../../aspose.imaging.fileformats.cmx/icmximage/cmxpage) { get; } | Gets the CMX page. |
 
 ### See Also
 

@@ -18,7 +18,7 @@ public interface IXmpType
 
 | Name | Description |
 | --- | --- |
-| [GetXmpRepresentation](getxmprepresentation)() | Gets the string contained value in XMP format. |
+| [GetXmpRepresentation](../../aspose.imaging.xmp.types/ixmptype/getxmprepresentation)() | Gets the string contained value in XMP format. |
 
 ### See Also
 

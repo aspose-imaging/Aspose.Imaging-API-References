@@ -24,9 +24,12 @@ public class OdImageObject : OdGraphicObject
 
 | Name | Description |
 | --- | --- |
-| [Bitmap](bitmap) { get; set; } | Gets or sets the bitmap. |
-| [ImageLink](imagelink) { get; set; } | Gets or sets the image link. |
-| [Rectangle](rectangle) { get; set; } | Gets or sets the rectangle. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Gets or sets a value indicating whether [absolute coordinates]. |
+| [Bitmap](../../aspose.imaging.fileformats.opendocument.objects.graphic/odimageobject/bitmap) { get; set; } | Gets or sets the bitmap. |
+| [ImageLink](../../aspose.imaging.fileformats.opendocument.objects.graphic/odimageobject/imagelink) { get; set; } | Gets or sets the image link. |
+| [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Gets the items. |
+| [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Gets the parent object. |
+| [Rectangle](../../aspose.imaging.fileformats.opendocument.objects.graphic/odimageobject/rectangle) { get; set; } | Gets or sets the rectangle. |
 
 ### See Also
 

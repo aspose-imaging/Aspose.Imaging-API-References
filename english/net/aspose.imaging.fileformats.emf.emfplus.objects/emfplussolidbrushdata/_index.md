@@ -24,7 +24,7 @@ public sealed class EmfPlusSolidBrushData : EmfPlusBaseBrushData
 
 | Name | Description |
 | --- | --- |
-| [SolidArgb32Color](solidargb32color) { get; set; } | Gets or sets an EmfPlusARGB object (section 2.2.2.1) that specifies the color of the brush. |
+| [SolidArgb32Color](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplussolidbrushdata/solidargb32color) { get; set; } | Gets or sets an EmfPlusARGB object (section 2.2.2.1) that specifies the color of the brush. |
 
 ### See Also
 

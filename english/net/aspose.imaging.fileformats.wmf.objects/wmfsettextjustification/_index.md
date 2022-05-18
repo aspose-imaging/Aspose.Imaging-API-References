@@ -24,8 +24,8 @@ public class WmfSetTextJustification : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [BreakCount](breakcount) { get; set; } | Gets or sets the `break` count. |
-| [BreakExtra](breakextra) { get; set; } | Gets or sets the `break` extra. |
+| [BreakCount](../../aspose.imaging.fileformats.wmf.objects/wmfsettextjustification/breakcount) { get; set; } | Gets or sets the `break` count. |
+| [BreakExtra](../../aspose.imaging.fileformats.wmf.objects/wmfsettextjustification/breakextra) { get; set; } | Gets or sets the `break` extra. |
 
 ### See Also
 

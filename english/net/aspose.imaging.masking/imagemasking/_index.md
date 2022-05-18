@@ -24,12 +24,12 @@ public class ImageMasking
 
 | Name | Description |
 | --- | --- |
-| [CreateSession](createsession)(MaskingOptions) | Creates the masking session which can perform retraining decompose operations. |
-| [Decompose](decompose)(MaskingOptions) | Performs the decompose operation using specified masking options |
-| [DecomposeAsync](decomposeasync)(MaskingOptions) | Creates the asynchronous decompose task using specified masking options. |
-| [LoadSession](loadsession)(Stream) | Load the session from the specified stream. |
-| [LoadSession](loadsession)(string) | Load the session from the specified file. |
-| static [ApplyMask](applymask)(RasterImage, RasterImage, MaskingOptions) | Applies the mask to specified source image. |
+| [CreateSession](../../aspose.imaging.masking/imagemasking/createsession)(MaskingOptions) | Creates the masking session which can perform retraining decompose operations. |
+| [Decompose](../../aspose.imaging.masking/imagemasking/decompose)(MaskingOptions) | Performs the decompose operation using specified masking options |
+| [DecomposeAsync](../../aspose.imaging.masking/imagemasking/decomposeasync)(MaskingOptions) | Creates the asynchronous decompose task using specified masking options. |
+| [LoadSession](../../aspose.imaging.masking/imagemasking/loadsession)(Stream) | Load the session from the specified stream. |
+| [LoadSession](../../aspose.imaging.masking/imagemasking/loadsession)(string) | Load the session from the specified file. |
+| static [ApplyMask](../../aspose.imaging.masking/imagemasking/applymask)(RasterImage, RasterImage, MaskingOptions) | Applies the mask to specified source image. |
 
 ### Examples
 

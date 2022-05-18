@@ -24,9 +24,12 @@ public class OdMarker : OdGraphicObject
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; set; } | Gets or sets the name. |
-| [PathCommands](pathcommands) { get; set; } | Gets or sets the path commands. |
-| [Rectangle](rectangle) { get; set; } | Gets or sets the rectangle. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Gets or sets a value indicating whether [absolute coordinates]. |
+| [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Gets the items. |
+| [Name](../../aspose.imaging.fileformats.opendocument.objects.graphic/odmarker/name) { get; set; } | Gets or sets the name. |
+| [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Gets the parent object. |
+| [PathCommands](../../aspose.imaging.fileformats.opendocument.objects.graphic/odmarker/pathcommands) { get; set; } | Gets or sets the path commands. |
+| [Rectangle](../../aspose.imaging.fileformats.opendocument.objects.graphic/odmarker/rectangle) { get; set; } | Gets or sets the rectangle. |
 
 ### See Also
 

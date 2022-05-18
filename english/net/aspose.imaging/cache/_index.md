@@ -18,19 +18,19 @@ public static class Cache
 
 | Name | Description |
 | --- | --- |
-| static [AllocatedDiskBytesCount](allocateddiskbytescount) { get; } | Gets the allocated disk bytes count. |
-| static [AllocatedMemoryBytesCount](allocatedmemorybytescount) { get; } | Gets the allocated in-memory bytes count. |
-| static [CacheFolder](cachefolder) { get; set; } | Gets or sets the cache folder. |
-| static [CacheType](cachetype) { get; set; } | Gets or sets the cache scheme used. |
-| static [ExactReallocateOnly](exactreallocateonly) { get; set; } | Gets or sets a value indicating whether reallocation should be exact or not. If reallocation is non exact the performance should be higher. |
-| static [MaxDiskSpaceForCache](maxdiskspaceforcache) { get; set; } | Gets or sets the maximum available disk space for cache. The value specified is megabytes count. |
-| static [MaxMemoryForCache](maxmemoryforcache) { get; set; } | Gets or sets the maximum available memory for cache in memory. The value specified is megabytes count. |
+| static [AllocatedDiskBytesCount](../../aspose.imaging/cache/allocateddiskbytescount) { get; } | Gets the allocated disk bytes count. |
+| static [AllocatedMemoryBytesCount](../../aspose.imaging/cache/allocatedmemorybytescount) { get; } | Gets the allocated in-memory bytes count. |
+| static [CacheFolder](../../aspose.imaging/cache/cachefolder) { get; set; } | Gets or sets the cache folder. |
+| static [CacheType](../../aspose.imaging/cache/cachetype) { get; set; } | Gets or sets the cache scheme used. |
+| static [ExactReallocateOnly](../../aspose.imaging/cache/exactreallocateonly) { get; set; } | Gets or sets a value indicating whether reallocation should be exact or not. If reallocation is non exact the performance should be higher. |
+| static [MaxDiskSpaceForCache](../../aspose.imaging/cache/maxdiskspaceforcache) { get; set; } | Gets or sets the maximum available disk space for cache. The value specified is megabytes count. |
+| static [MaxMemoryForCache](../../aspose.imaging/cache/maxmemoryforcache) { get; set; } | Gets or sets the maximum available memory for cache in memory. The value specified is megabytes count. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [SetDefaults](setdefaults)() | Sets the [`Cache`](../cache) settings to defaults. |
+| static [SetDefaults](../../aspose.imaging/cache/setdefaults)() | Sets the [`Cache`](../cache) settings to defaults. |
 
 ### Examples
 

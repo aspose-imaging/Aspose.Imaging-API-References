@@ -24,7 +24,7 @@ public sealed class EmfPlusCompoundLineData : EmfPlusStructureObjectType
 
 | Name | Description |
 | --- | --- |
-| [CompoundLineData](compoundlinedata) { get; set; } | Gets or sets an array of CompoundLineDataSize floating-point values that specify the compound line of a pen. The elements MUST be in increasing order, and their values MUST be between 0.0 and 1.0, inclusive |
+| [CompoundLineData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompoundlinedata/compoundlinedata) { get; set; } | Gets or sets an array of CompoundLineDataSize floating-point values that specify the compound line of a pen. The elements MUST be in increasing order, and their values MUST be between 0.0 and 1.0, inclusive |
 
 ### See Also
 

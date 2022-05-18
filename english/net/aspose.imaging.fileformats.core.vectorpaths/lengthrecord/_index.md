@@ -25,13 +25,13 @@ public class LengthRecord : VectorPathRecord
 
 | Name | Description |
 | --- | --- |
-| [BezierKnotRecordsCount](bezierknotrecordscount) { get; set; } | Gets or sets the bezier knot records count. |
-| [IsClosed](isclosed) { get; set; } | Gets or sets a value indicating whether this instance is closed. |
-| [IsOpen](isopen) { get; set; } | Gets or sets a value indicating whether this instance is open. |
-| [PathOperations](pathoperations) { get; set; } | Gets or sets the path operations. |
-| [RecordCount](recordcount) { get; set; } | Gets or sets the record count. |
-| [ShapeIndex](shapeindex) { get; set; } | Gets or sets the index of current path shape in layer. |
-| override [Type](type) { get; } | Gets the type. |
+| [BezierKnotRecordsCount](../../aspose.imaging.fileformats.core.vectorpaths/lengthrecord/bezierknotrecordscount) { get; set; } | Gets or sets the bezier knot records count. |
+| [IsClosed](../../aspose.imaging.fileformats.core.vectorpaths/lengthrecord/isclosed) { get; set; } | Gets or sets a value indicating whether this instance is closed. |
+| [IsOpen](../../aspose.imaging.fileformats.core.vectorpaths/lengthrecord/isopen) { get; set; } | Gets or sets a value indicating whether this instance is open. |
+| [PathOperations](../../aspose.imaging.fileformats.core.vectorpaths/lengthrecord/pathoperations) { get; set; } | Gets or sets the path operations. |
+| [RecordCount](../../aspose.imaging.fileformats.core.vectorpaths/lengthrecord/recordcount) { get; set; } | Gets or sets the record count. |
+| [ShapeIndex](../../aspose.imaging.fileformats.core.vectorpaths/lengthrecord/shapeindex) { get; set; } | Gets or sets the index of current path shape in layer. |
+| override [Type](../../aspose.imaging.fileformats.core.vectorpaths/lengthrecord/type) { get; } | Gets the type. |
 
 ### See Also
 

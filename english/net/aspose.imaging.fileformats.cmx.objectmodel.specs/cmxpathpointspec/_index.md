@@ -24,17 +24,17 @@ public class CmxPathPointSpec
 
 | Name | Description |
 | --- | --- |
-| [BezierOrder](bezierorder) { get; set; } | Gets or sets the bezier order. |
-| [IsClosedPath](isclosedpath) { get; set; } | Gets or sets a value indicating whether this point closes its path. |
-| [JumpType](jumptype) { get; set; } | Gets or sets the type of the jump. |
-| [X](x) { get; set; } | Gets or sets the X coordinate of the point. Measures in common document distance units. |
-| [Y](y) { get; set; } | Gets or sets the Y coordinate of the point. Measures in common document distance units. |
+| [BezierOrder](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/bezierorder) { get; set; } | Gets or sets the bezier order. |
+| [IsClosedPath](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/isclosedpath) { get; set; } | Gets or sets a value indicating whether this point closes its path. |
+| [JumpType](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/jumptype) { get; set; } | Gets or sets the type of the jump. |
+| [X](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/x) { get; set; } | Gets or sets the X coordinate of the point. Measures in common document distance units. |
+| [Y](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/y) { get; set; } | Gets or sets the Y coordinate of the point. Measures in common document distance units. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a String that represents this instance. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/tostring)() | Returns a String that represents this instance. |
 
 ### See Also
 

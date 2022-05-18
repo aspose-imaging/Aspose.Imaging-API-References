@@ -24,9 +24,9 @@ public sealed class EmfPlusHatchBrushData : EmfPlusBaseBrushData
 
 | Name | Description |
 | --- | --- |
-| [BackArgb32Color](backargb32color) { get; set; } | Gets or sets a 32-bit EmfPlusArgb object that specifies the color used to paint the background of the hatch pattern. |
-| [ForeArgb32Color](foreargb32color) { get; set; } | Gets or sets a 32-bit EmfPlusArgb object that specifies the color used to draw the lines of the hatch pattern. |
-| [HatchStyle](hatchstyle) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the brush hatch style. It MUST be defined in the [`EmfPlusHatchStyle`](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplushatchstyle) enumeration. |
+| [BackArgb32Color](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplushatchbrushdata/backargb32color) { get; set; } | Gets or sets a 32-bit EmfPlusArgb object that specifies the color used to paint the background of the hatch pattern. |
+| [ForeArgb32Color](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplushatchbrushdata/foreargb32color) { get; set; } | Gets or sets a 32-bit EmfPlusArgb object that specifies the color used to draw the lines of the hatch pattern. |
+| [HatchStyle](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplushatchbrushdata/hatchstyle) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the brush hatch style. It MUST be defined in the [`EmfPlusHatchStyle`](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplushatchstyle) enumeration. |
 
 ### Remarks
 

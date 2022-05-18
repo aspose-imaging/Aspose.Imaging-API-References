@@ -24,10 +24,27 @@ public class WebPOptions : ImageOptionsBase
 
 | Name | Description |
 | --- | --- |
-| [AnimBackgroundColor](animbackgroundcolor) { get; set; } | Gets or sets the color of the animation background. |
-| [AnimLoopCount](animloopcount) { get; set; } | Gets or sets the animation loop count. |
-| [Lossless](lossless) { get; set; } | Gets or sets a value indicating whether this [`WebPOptions`](../webpoptions) is lossless. |
-| [Quality](quality) { get; set; } | Gets or sets the quality. |
+| [AnimBackgroundColor](../../aspose.imaging.imageoptions/webpoptions/animbackgroundcolor) { get; set; } | Gets or sets the color of the animation background. |
+| [AnimLoopCount](../../aspose.imaging.imageoptions/webpoptions/animloopcount) { get; set; } | Gets or sets the animation loop count. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [Lossless](../../aspose.imaging.imageoptions/webpoptions/lossless) { get; set; } | Gets or sets a value indicating whether this [`WebPOptions`](../webpoptions) is lossless. |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | The multipage options |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Gets or sets the color palette. |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Gets or sets the progress event handler. |
+| [Quality](../../aspose.imaging.imageoptions/webpoptions/quality) { get; set; } | Gets or sets the quality. |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Gets or sets the resolution settings. |
+| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Gets or sets the source to create image in. |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Gets or sets the vector rasterization options. |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata) { get; set; } | Gets or sets the XMP metadata container. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | Clones this instance. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
 
 ### Examples
 

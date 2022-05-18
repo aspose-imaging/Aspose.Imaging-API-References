@@ -27,38 +27,39 @@ public class Pen : TransparencySupporter
 
 | Name | Description |
 | --- | --- |
-| [Alignment](alignment) { get; set; } | Gets or sets the alignment for this [`Pen`](../pen). |
-| [Brush](brush) { get; set; } | Gets or sets the [`Brush`](./brush) that determines attributes of this [`Pen`](../pen). |
-| [Color](color) { get; set; } | Gets or sets the color of this [`Pen`](../pen). |
-| [CompoundArray](compoundarray) { get; set; } | Gets or sets an array of values that specifies a compound pen. A compound pen draws a compound line made up of parallel lines and spaces. |
-| [CustomEndCap](customendcap) { get; set; } | Gets or sets a custom cap to use at the end of lines drawn with this [`Pen`](../pen). |
-| [CustomStartCap](customstartcap) { get; set; } | Gets or sets a custom cap to use at the beginning of lines drawn with this [`Pen`](../pen). |
-| [DashCap](dashcap) { get; set; } | Gets or sets the cap style used at the end of the dashes that make up dashed lines drawn with this [`Pen`](../pen). |
-| [DashOffset](dashoffset) { get; set; } | Gets or sets the distance from the start of a line to the beginning of a dash pattern. |
-| [DashPattern](dashpattern) { get; set; } | Gets or sets an array of custom dashes and spaces. |
-| [DashStyle](dashstyle) { get; set; } | Gets or sets the style used for dashed lines drawn with this [`Pen`](../pen). |
-| [EndCap](endcap) { get; set; } | Gets or sets the cap style used at the end of lines drawn with this [`Pen`](../pen). |
-| [LineJoin](linejoin) { get; set; } | Gets or sets the join style for the ends of two consecutive lines drawn with this [`Pen`](../pen). |
-| [MiterLimit](miterlimit) { get; set; } | Gets or sets the limit of the thickness of the join on a mitered corner. |
-| [PenType](pentype) { get; } | Gets the style of lines drawn with this [`Pen`](../pen). |
-| [StartCap](startcap) { get; set; } | Gets or sets the cap style used at the beginning of lines drawn with this [`Pen`](../pen). |
-| [Transform](transform) { get; set; } | Gets or sets a copy of the geometric transformation for this [`Pen`](../pen). |
-| [Width](width) { get; set; } | Gets or sets the width of this [`Pen`](../pen), in units of the Graphics object used for drawing. |
+| [Alignment](../../aspose.imaging/pen/alignment) { get; set; } | Gets or sets the alignment for this [`Pen`](../pen). |
+| [Brush](../../aspose.imaging/pen/brush) { get; set; } | Gets or sets the [`Brush`](./brush) that determines attributes of this [`Pen`](../pen). |
+| [Color](../../aspose.imaging/pen/color) { get; set; } | Gets or sets the color of this [`Pen`](../pen). |
+| [CompoundArray](../../aspose.imaging/pen/compoundarray) { get; set; } | Gets or sets an array of values that specifies a compound pen. A compound pen draws a compound line made up of parallel lines and spaces. |
+| [CustomEndCap](../../aspose.imaging/pen/customendcap) { get; set; } | Gets or sets a custom cap to use at the end of lines drawn with this [`Pen`](../pen). |
+| [CustomStartCap](../../aspose.imaging/pen/customstartcap) { get; set; } | Gets or sets a custom cap to use at the beginning of lines drawn with this [`Pen`](../pen). |
+| [DashCap](../../aspose.imaging/pen/dashcap) { get; set; } | Gets or sets the cap style used at the end of the dashes that make up dashed lines drawn with this [`Pen`](../pen). |
+| [DashOffset](../../aspose.imaging/pen/dashoffset) { get; set; } | Gets or sets the distance from the start of a line to the beginning of a dash pattern. |
+| [DashPattern](../../aspose.imaging/pen/dashpattern) { get; set; } | Gets or sets an array of custom dashes and spaces. |
+| [DashStyle](../../aspose.imaging/pen/dashstyle) { get; set; } | Gets or sets the style used for dashed lines drawn with this [`Pen`](../pen). |
+| [EndCap](../../aspose.imaging/pen/endcap) { get; set; } | Gets or sets the cap style used at the end of lines drawn with this [`Pen`](../pen). |
+| [LineJoin](../../aspose.imaging/pen/linejoin) { get; set; } | Gets or sets the join style for the ends of two consecutive lines drawn with this [`Pen`](../pen). |
+| [MiterLimit](../../aspose.imaging/pen/miterlimit) { get; set; } | Gets or sets the limit of the thickness of the join on a mitered corner. |
+| [Opacity](../../aspose.imaging/transparencysupporter/opacity) { get; set; } | Gets or sets the object's opacity. The value should be between 0 and 1. Value of 0 means that object is fully visible, value of 1 means the object is fully opaque. |
+| [PenType](../../aspose.imaging/pen/pentype) { get; } | Gets the style of lines drawn with this [`Pen`](../pen). |
+| [StartCap](../../aspose.imaging/pen/startcap) { get; set; } | Gets or sets the cap style used at the beginning of lines drawn with this [`Pen`](../pen). |
+| [Transform](../../aspose.imaging/pen/transform) { get; set; } | Gets or sets a copy of the geometric transformation for this [`Pen`](../pen). |
+| [Width](../../aspose.imaging/pen/width) { get; set; } | Gets or sets the width of this [`Pen`](../pen), in units of the Graphics object used for drawing. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [MultiplyTransform](multiplytransform)(Matrix) | Multiplies the transformation matrix for this [`Pen`](../pen) by the specified [`Matrix`](../matrix). |
-| [MultiplyTransform](multiplytransform)(Matrix, MatrixOrder) | Multiplies the transformation matrix for this [`Pen`](../pen) by the specified [`Matrix`](../matrix) in the specified order. |
-| [ResetTransform](resettransform)() | Resets the geometric transformation matrix for this [`Pen`](../pen) to identity. |
-| [RotateTransform](rotatetransform)(float) | Rotates the local geometric transformation by the specified angle. This method prepends the rotation to the transformation. |
-| [RotateTransform](rotatetransform)(float, MatrixOrder) | Rotates the local geometric transformation by the specified angle in the specified order. |
-| [ScaleTransform](scaletransform)(float, float) | Scales the local geometric transformation by the specified factors. This method prepends the scaling matrix to the transformation. |
-| [ScaleTransform](scaletransform)(float, float, MatrixOrder) | Scales the local geometric transformation by the specified factors in the specified order. |
-| [SetLineCap](setlinecap)(LineCap, LineCap, DashCap) | Sets the values that determine the style of cap used to end lines drawn by this [`Pen`](../pen). |
-| [TranslateTransform](translatetransform)(float, float) | Translates the local geometric transformation by the specified dimensions. This method prepends the translation to the transformation. |
-| [TranslateTransform](translatetransform)(float, float, MatrixOrder) | Translates the local geometric transformation by the specified dimensions in the specified order. |
+| [MultiplyTransform](../../aspose.imaging/pen/multiplytransform)(Matrix) | Multiplies the transformation matrix for this [`Pen`](../pen) by the specified [`Matrix`](../matrix). |
+| [MultiplyTransform](../../aspose.imaging/pen/multiplytransform)(Matrix, MatrixOrder) | Multiplies the transformation matrix for this [`Pen`](../pen) by the specified [`Matrix`](../matrix) in the specified order. |
+| [ResetTransform](../../aspose.imaging/pen/resettransform)() | Resets the geometric transformation matrix for this [`Pen`](../pen) to identity. |
+| [RotateTransform](../../aspose.imaging/pen/rotatetransform)(float) | Rotates the local geometric transformation by the specified angle. This method prepends the rotation to the transformation. |
+| [RotateTransform](../../aspose.imaging/pen/rotatetransform)(float, MatrixOrder) | Rotates the local geometric transformation by the specified angle in the specified order. |
+| [ScaleTransform](../../aspose.imaging/pen/scaletransform)(float, float) | Scales the local geometric transformation by the specified factors. This method prepends the scaling matrix to the transformation. |
+| [ScaleTransform](../../aspose.imaging/pen/scaletransform)(float, float, MatrixOrder) | Scales the local geometric transformation by the specified factors in the specified order. |
+| [SetLineCap](../../aspose.imaging/pen/setlinecap)(LineCap, LineCap, DashCap) | Sets the values that determine the style of cap used to end lines drawn by this [`Pen`](../pen). |
+| [TranslateTransform](../../aspose.imaging/pen/translatetransform)(float, float) | Translates the local geometric transformation by the specified dimensions. This method prepends the translation to the transformation. |
+| [TranslateTransform](../../aspose.imaging/pen/translatetransform)(float, float, MatrixOrder) | Translates the local geometric transformation by the specified dimensions in the specified order. |
 
 ### Examples
 

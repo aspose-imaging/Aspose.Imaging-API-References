@@ -21,6 +21,13 @@ public sealed class EmfSaveDc : EmfStateRecordType
 | [EmfSaveDc](emfsavedc)() | Initializes a new instance of the [`EmfSaveDc`](../emfsavedc) class. |
 | [EmfSaveDc](emfsavedc)(EmfRecord) | Initializes a new instance of the [`EmfSaveDc`](../emfsavedc) class. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
+
 ### Remarks
 
 The stack can contain state information for multiple instances of the playback device context. When a state is restored, all state instances that were saved more recently MUST be discarded.

@@ -24,12 +24,12 @@ public class CmxPage
 
 | Name | Description |
 | --- | --- |
-| [BoundBox](boundbox) { get; set; } | Gets or sets the bounding box. |
-| [Flags](flags) { get; set; } | Gets or sets the flags. |
-| [Height](height) { get; set; } | Gets or sets the page height. |
-| virtual [Layers](layers) { get; } | Gets the page layers. |
-| [PageNumber](pagenumber) { get; set; } | Gets or sets the page order number. |
-| [Width](width) { get; set; } | Gets or sets the page width. |
+| [BoundBox](../../aspose.imaging.fileformats.cmx.objectmodel/cmxpage/boundbox) { get; set; } | Gets or sets the bounding box. |
+| [Flags](../../aspose.imaging.fileformats.cmx.objectmodel/cmxpage/flags) { get; set; } | Gets or sets the flags. |
+| [Height](../../aspose.imaging.fileformats.cmx.objectmodel/cmxpage/height) { get; set; } | Gets or sets the page height. |
+| virtual [Layers](../../aspose.imaging.fileformats.cmx.objectmodel/cmxpage/layers) { get; } | Gets the page layers. |
+| [PageNumber](../../aspose.imaging.fileformats.cmx.objectmodel/cmxpage/pagenumber) { get; set; } | Gets or sets the page order number. |
+| [Width](../../aspose.imaging.fileformats.cmx.objectmodel/cmxpage/width) { get; set; } | Gets or sets the page width. |
 
 ### See Also
 

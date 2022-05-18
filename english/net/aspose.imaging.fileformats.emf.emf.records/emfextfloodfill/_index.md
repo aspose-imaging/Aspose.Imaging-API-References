@@ -24,9 +24,11 @@ public sealed class EmfExtFloodFill : EmfDrawingRecordType
 
 | Name | Description |
 | --- | --- |
-| [Argb32Color](argb32color) { get; set; } | Gets or sets a WMF ColorRef object ([MS-WMF] section 2.2.2.8), which is used with the FloodFillMode to determine the area to fill. |
-| [FloodFillMode](floodfillmode) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies how to use the Color value to determine the area for the flood fill operation. The value MUST be in the FloodFill enumeration (section 2.1.13). |
-| [Start](start) { get; set; } | Gets or sets a WMF PointL object ([MS-WMF] section 2.2.2.15), which specifies the coordinates, in logical units, where filling begins. |
+| [Argb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/argb32color) { get; set; } | Gets or sets a WMF ColorRef object ([MS-WMF] section 2.2.2.8), which is used with the FloodFillMode to determine the area to fill. |
+| [FloodFillMode](../../aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/floodfillmode) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies how to use the Color value to determine the area for the flood fill operation. The value MUST be in the FloodFill enumeration (section 2.1.13). |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Start](../../aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/start) { get; set; } | Gets or sets a WMF PointL object ([MS-WMF] section 2.2.2.15), which specifies the coordinates, in logical units, where filling begins. |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

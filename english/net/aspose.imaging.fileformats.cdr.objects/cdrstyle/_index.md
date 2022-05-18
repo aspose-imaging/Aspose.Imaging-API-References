@@ -24,23 +24,28 @@ public class CdrStyle : CdrDictionaryItem
 
 | Name | Description |
 | --- | --- |
-| [Align](align) { get; set; } | Gets or sets the align. |
-| [Charset](charset) { get; set; } | Gets or sets the character set. |
-| [Fill](fill) { get; set; } | Gets or sets the fill. |
-| [FirstIndent](firstindent) { get; set; } | Gets or sets the first indent. |
-| [FontName](fontname) { get; set; } | Gets or sets the name of the font. |
-| [FontSize](fontsize) { get; set; } | Gets or sets the size of the font. |
-| [FontWeight](fontweight) { get; set; } | Gets or sets the font weight. |
-| [LeftIndent](leftindent) { get; set; } | Gets or sets the left indent. |
-| [OutLine](outline) { get; set; } | Gets or sets the out line. |
-| [ParentId](parentid) { get; set; } | Gets or sets the parent identifier. |
-| [RightIndent](rightindent) { get; set; } | Gets or sets the right indent. |
+| [Align](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/align) { get; set; } | Gets or sets the align. |
+| [Charset](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/charset) { get; set; } | Gets or sets the character set. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
+| [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | Gets or sets the document. |
+| [Fill](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/fill) { get; set; } | Gets or sets the fill. |
+| [FirstIndent](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/firstindent) { get; set; } | Gets or sets the first indent. |
+| [FontName](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/fontname) { get; set; } | Gets or sets the name of the font. |
+| [FontSize](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/fontsize) { get; set; } | Gets or sets the size of the font. |
+| [FontWeight](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/fontweight) { get; set; } | Gets or sets the font weight. |
+| [Id](../../aspose.imaging.fileformats.cdr.objects/cdrdictionaryitem/id) { get; set; } | Gets or sets the identifier. |
+| [LeftIndent](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/leftindent) { get; set; } | Gets or sets the left indent. |
+| [OutLine](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/outline) { get; set; } | Gets or sets the out line. |
+| [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | Gets or sets the parent. |
+| [ParentId](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/parentid) { get; set; } | Gets or sets the parent identifier. |
+| [RightIndent](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/rightindent) { get; set; } | Gets or sets the right indent. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Copy](copy)() | Copies this instance. |
+| [Copy](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/copy)() | Copies this instance. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
 
 ### See Also
 

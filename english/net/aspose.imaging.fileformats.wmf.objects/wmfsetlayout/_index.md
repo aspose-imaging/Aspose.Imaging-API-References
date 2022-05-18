@@ -24,7 +24,7 @@ public class WmfSetLayout : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [LayoutMode](layoutmode) { get; set; } | Gets or sets the LayoutMode. |
+| [LayoutMode](../../aspose.imaging.fileformats.wmf.objects/wmfsetlayout/layoutmode) { get; set; } | Gets or sets the LayoutMode. |
 
 ### See Also
 

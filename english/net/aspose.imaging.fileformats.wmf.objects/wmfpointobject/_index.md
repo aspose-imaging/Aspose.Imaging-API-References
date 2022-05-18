@@ -24,7 +24,7 @@ public class WmfPointObject : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [Point](point) { get; set; } | Gets or sets the point. |
+| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Gets or sets the point. |
 
 ### See Also
 

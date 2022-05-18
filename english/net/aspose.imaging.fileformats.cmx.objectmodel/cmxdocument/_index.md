@@ -24,13 +24,13 @@ public class CmxDocument
 
 | Name | Description |
 | --- | --- |
-| virtual [Pages](pages) { get; } | Gets the pages of current document. |
+| virtual [Pages](../../aspose.imaging.fileformats.cmx.objectmodel/cmxdocument/pages) { get; } | Gets the pages of current document. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a String that represents this instance. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel/cmxdocument/tostring)() | Returns a String that represents this instance. |
 
 ### See Also
 

@@ -18,8 +18,8 @@ public abstract class ShapeSegment
 
 | Name | Description |
 | --- | --- |
-| abstract [EndPoint](endpoint) { get; } | Gets the ending point. |
-| abstract [StartPoint](startpoint) { get; } | Gets the starting point. |
+| abstract [EndPoint](../../aspose.imaging/shapesegment/endpoint) { get; } | Gets the ending point. |
+| abstract [StartPoint](../../aspose.imaging/shapesegment/startpoint) { get; } | Gets the starting point. |
 
 ### See Also
 

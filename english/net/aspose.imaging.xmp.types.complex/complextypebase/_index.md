@@ -24,14 +24,14 @@ public class ComplexTypeBase : XmpTypeBase
 
 | Name | Description |
 | --- | --- |
-| [NamespaceUri](namespaceuri) { get; } | Gets the default namespace URI. |
-| [Prefix](prefix) { get; } | Gets the prefix. |
+| [NamespaceUri](../../aspose.imaging.xmp.types.complex/complextypebase/namespaceuri) { get; } | Gets the default namespace URI. |
+| [Prefix](../../aspose.imaging.xmp.types.complex/complextypebase/prefix) { get; } | Gets the prefix. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetXmpRepresentation](getxmprepresentation)() | Gets the string contained value in XMP format. |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.types.complex/complextypebase/getxmprepresentation)() | Gets the string contained value in XMP format. |
 
 ### Remarks
 

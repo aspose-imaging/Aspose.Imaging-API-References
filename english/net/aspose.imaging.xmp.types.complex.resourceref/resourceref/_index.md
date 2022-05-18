@@ -24,10 +24,18 @@ public sealed class ResourceRef : ComplexTypeBase
 
 | Name | Description |
 | --- | --- |
-| [AlternatePaths](alternatepaths) { get; set; } | Gets or sets the array of alternate path. |
-| [DocumentUri](documenturi) { get; set; } | Gets or sets the document URI. |
-| [FilePathUri](filepathuri) { get; set; } | Gets or sets the file path URI. |
-| [InstanceId](instanceid) { get; set; } | Gets or sets the instance identifier. |
+| [AlternatePaths](../../aspose.imaging.xmp.types.complex.resourceref/resourceref/alternatepaths) { get; set; } | Gets or sets the array of alternate path. |
+| [DocumentUri](../../aspose.imaging.xmp.types.complex.resourceref/resourceref/documenturi) { get; set; } | Gets or sets the document URI. |
+| [FilePathUri](../../aspose.imaging.xmp.types.complex.resourceref/resourceref/filepathuri) { get; set; } | Gets or sets the file path URI. |
+| [InstanceId](../../aspose.imaging.xmp.types.complex.resourceref/resourceref/instanceid) { get; set; } | Gets or sets the instance identifier. |
+| [NamespaceUri](../../aspose.imaging.xmp.types.complex/complextypebase/namespaceuri) { get; } | Gets the default namespace URI. |
+| [Prefix](../../aspose.imaging.xmp.types.complex/complextypebase/prefix) { get; } | Gets the prefix. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.types.complex/complextypebase/getxmprepresentation)() | Gets the string contained value in XMP format. |
 
 ### See Also
 

@@ -18,8 +18,8 @@ public static class FontExtensions
 
 | Name | Description |
 | --- | --- |
-| static [ToGdiFont](togdifont)(Font) | Converts the [`Font`](../../aspose.imaging/font) to the Font. |
-| static [ToGdiFont](togdifont)(Font, GraphicsUnit) | Converts the [`Font`](../../aspose.imaging/font) to the Font. |
+| static [ToGdiFont](../../aspose.imaging.extensions/fontextensions/togdifont)(Font) | Converts the [`Font`](../../aspose.imaging/font) to the Font. |
+| static [ToGdiFont](../../aspose.imaging.extensions/fontextensions/togdifont)(Font, GraphicsUnit) | Converts the [`Font`](../../aspose.imaging/font) to the Font. |
 
 ### See Also
 

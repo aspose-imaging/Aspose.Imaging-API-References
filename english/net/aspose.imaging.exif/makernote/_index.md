@@ -18,14 +18,14 @@ public class MakerNote
 
 | Name | Description |
 | --- | --- |
-| [Name](name) { get; } | Gets the setting name. |
-| [Value](value) { get; } | Gets the setting value. |
+| [Name](../../aspose.imaging.exif/makernote/name) { get; } | Gets the setting name. |
+| [Value](../../aspose.imaging.exif/makernote/value) { get; } | Gets the setting value. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Converts the instance to string. |
+| override [ToString](../../aspose.imaging.exif/makernote/tostring)() | Converts the instance to string. |
 
 ### Examples
 

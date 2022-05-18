@@ -18,7 +18,7 @@ public static class RegionExtensions
 
 | Name | Description |
 | --- | --- |
-| static [ToGdiRegion](togdiregion)(Region) | Converts the [`Region`](../../aspose.imaging/region) to the Region. |
+| static [ToGdiRegion](../../aspose.imaging.extensions/regionextensions/togdiregion)(Region) | Converts the [`Region`](../../aspose.imaging/region) to the Region. |
 
 ### See Also
 

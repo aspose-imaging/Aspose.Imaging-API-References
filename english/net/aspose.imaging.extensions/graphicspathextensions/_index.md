@@ -18,7 +18,7 @@ public static class GraphicsPathExtensions
 
 | Name | Description |
 | --- | --- |
-| static [ToGdiGraphicsPath](togdigraphicspath)(GraphicsPath) | Converts the [`GraphicsPath`](../../aspose.imaging/graphicspath) to the GraphicsPath. |
+| static [ToGdiGraphicsPath](../../aspose.imaging.extensions/graphicspathextensions/togdigraphicspath)(GraphicsPath) | Converts the [`GraphicsPath`](../../aspose.imaging/graphicspath) to the GraphicsPath. |
 
 ### See Also
 

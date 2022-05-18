@@ -25,7 +25,9 @@ public sealed class EmfSetPolyFillMode : EmfStateRecordType
 
 | Name | Description |
 | --- | --- |
-| [PolygonFillMode](polygonfillmode) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the polygon fill mode and MUST be in the PolygonFillMode (section 2.1.27) enumeration. |
+| [PolygonFillMode](../../aspose.imaging.fileformats.emf.emf.records/emfsetpolyfillmode/polygonfillmode) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the polygon fill mode and MUST be in the PolygonFillMode (section 2.1.27) enumeration. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### Remarks
 

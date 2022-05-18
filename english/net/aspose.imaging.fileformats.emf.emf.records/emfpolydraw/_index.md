@@ -25,9 +25,11 @@ public sealed class EmfPolyDraw : EmfDrawingRecordType
 
 | Name | Description |
 | --- | --- |
-| [AbTypes](abtypes) { get; set; } | Gets or sets a Count length array of byte values that specifies how each point in the Gets or sets aPoints array is used. This value MUST be in the Point (section 2.1.26) enumeration. |
-| [APoints](apoints) { get; set; } | Gets or sets a Count length array of WMF PointL objects, specified in [MS-WMF] section 2.2.2.15, which specifies the array of points, in logical units. |
-| [Bounds](bounds) { get; set; } | Gets or sets a 128-bit WMF RectL object, specified in [MS-WMF] section 2.2.2.19, which specifies the bounding rectangle, in device units. |
+| [AbTypes](../../aspose.imaging.fileformats.emf.emf.records/emfpolydraw/abtypes) { get; set; } | Gets or sets a Count length array of byte values that specifies how each point in the Gets or sets aPoints array is used. This value MUST be in the Point (section 2.1.26) enumeration. |
+| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolydraw/apoints) { get; set; } | Gets or sets a Count length array of WMF PointL objects, specified in [MS-WMF] section 2.2.2.15, which specifies the array of points, in logical units. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolydraw/bounds) { get; set; } | Gets or sets a 128-bit WMF RectL object, specified in [MS-WMF] section 2.2.2.19, which specifies the bounding rectangle, in device units. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

@@ -24,8 +24,9 @@ public class WmfChord : WmfRectangle
 
 | Name | Description |
 | --- | --- |
-| [Radial1](radial1) { get; set; } | Gets or sets the radial1. |
-| [Radial2](radial2) { get; set; } | Gets or sets the radial2. |
+| [Radial1](../../aspose.imaging.fileformats.wmf.objects/wmfchord/radial1) { get; set; } | Gets or sets the radial1. |
+| [Radial2](../../aspose.imaging.fileformats.wmf.objects/wmfchord/radial2) { get; set; } | Gets or sets the radial2. |
+| [Rectangle](../../aspose.imaging.fileformats.wmf.objects/wmfrectangle/rectangle) { get; set; } | Gets or sets the rectangle. |
 
 ### See Also
 

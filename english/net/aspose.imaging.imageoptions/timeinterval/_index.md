@@ -24,8 +24,8 @@ public class TimeInterval
 
 | Name | Description |
 | --- | --- |
-| [From](from) { get; set; } | Gets or sets From milliseconds. |
-| [To](to) { get; set; } | Gets or sets To milliseconds. |
+| [From](../../aspose.imaging.imageoptions/timeinterval/from) { get; set; } | Gets or sets From milliseconds. |
+| [To](../../aspose.imaging.imageoptions/timeinterval/to) { get; set; } | Gets or sets To milliseconds. |
 
 ### Examples
 

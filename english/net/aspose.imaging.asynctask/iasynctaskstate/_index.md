@@ -18,15 +18,15 @@ public interface IAsyncTaskState
 
 | Name | Description |
 | --- | --- |
-| [IsCanceled](iscanceled) { get; } | Gets a value indicating whether the asynchronous task is canceled. |
-| [Progress](progress) { get; } | Gets the progress of the asynchronous task. |
+| [IsCanceled](../../aspose.imaging.asynctask/iasynctaskstate/iscanceled) { get; } | Gets a value indicating whether the asynchronous task is canceled. |
+| [Progress](../../aspose.imaging.asynctask/iasynctaskstate/progress) { get; } | Gets the progress of the asynchronous task. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [IncrementProgressMaxValue](incrementprogressmaxvalue)(int) | Increments the progress maximum value. |
-| [IndicateProgress](indicateprogress)(EventType) | Sets the progress of the asynchronous task. |
+| [IncrementProgressMaxValue](../../aspose.imaging.asynctask/iasynctaskstate/incrementprogressmaxvalue)(int) | Increments the progress maximum value. |
+| [IndicateProgress](../../aspose.imaging.asynctask/iasynctaskstate/indicateprogress)(EventType) | Sets the progress of the asynchronous task. |
 
 ### See Also
 

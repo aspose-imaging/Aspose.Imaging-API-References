@@ -24,7 +24,9 @@ public class CmxArrowSpec : CmxPathSpec
 
 | Name | Description |
 | --- | --- |
-| [ArrowOffset](arrowoffset) { get; set; } | Gets or sets the arrow offset. |
+| [ArrowOffset](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxarrowspec/arrowoffset) { get; set; } | Gets or sets the arrow offset. |
+| [Points](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec/points) { get; set; } | Gets or sets the points. |
+| [Type](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

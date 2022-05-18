@@ -18,8 +18,8 @@ public static class AsyncTask
 
 | Name | Description |
 | --- | --- |
-| static [Create](create)(AsyncTaskAction) | Creates the asynchronous task without any result. |
-| static [Create](create)(AsyncTaskFunc) | Creates the asynchronous task with generic type result. |
+| static [Create](../../aspose.imaging.asynctask/asynctask/create)(AsyncTaskAction) | Creates the asynchronous task without any result. |
+| static [Create](../../aspose.imaging.asynctask/asynctask/create)(AsyncTaskFunc) | Creates the asynchronous task with generic type result. |
 
 ### See Also
 

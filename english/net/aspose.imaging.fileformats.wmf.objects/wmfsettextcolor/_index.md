@@ -24,8 +24,8 @@ public class WmfSetTextColor : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [ColorRef](colorref) { get; set; } | Gets or sets the color reference. |
-| [ExtendedByte](extendedbyte) { get; set; } | Gets or sets the extended byte. |
+| [ColorRef](../../aspose.imaging.fileformats.wmf.objects/wmfsettextcolor/colorref) { get; set; } | Gets or sets the color reference. |
+| [ExtendedByte](../../aspose.imaging.fileformats.wmf.objects/wmfsettextcolor/extendedbyte) { get; set; } | Gets or sets the extended byte. |
 
 ### See Also
 

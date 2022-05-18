@@ -24,8 +24,8 @@ public abstract class ConvolutionFilterOptions : FilterOptionsBase
 
 | Name | Description |
 | --- | --- |
-| [Bias](bias) { get; set; } | Gets or sets the bias. |
-| [Factor](factor) { get; set; } | Gets or sets the factor. |
+| [Bias](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/bias) { get; set; } | Gets or sets the bias. |
+| [Factor](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/factor) { get; set; } | Gets or sets the factor. |
 
 ### See Also
 

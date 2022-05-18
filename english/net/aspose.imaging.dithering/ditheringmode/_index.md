@@ -24,9 +24,9 @@ public class DitheringMode
 
 | Name | Description |
 | --- | --- |
-| [Bits](bits) { get; set; } | The sampling factor of dithered image. |
-| [CustomPalette](custompalette) { get; set; } | The custom palette for dithering. |
-| [Method](method) { get; set; } | Dithering algorithm selection. |
+| [Bits](../../aspose.imaging.dithering/ditheringmode/bits) { get; set; } | The sampling factor of dithered image. |
+| [CustomPalette](../../aspose.imaging.dithering/ditheringmode/custompalette) { get; set; } | The custom palette for dithering. |
+| [Method](../../aspose.imaging.dithering/ditheringmode/method) { get; set; } | Dithering algorithm selection. |
 
 ### See Also
 

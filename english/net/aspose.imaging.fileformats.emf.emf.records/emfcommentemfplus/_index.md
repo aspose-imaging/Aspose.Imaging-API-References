@@ -24,8 +24,11 @@ public sealed class EmfCommentEmfPlus : EmfCommentRecordType
 
 | Name | Description |
 | --- | --- |
-| override [CommentIdentifier](commentidentifier) { get; set; } | Gets or sets a 32-bit unsigned integer that identifies this comment record as containing EMF+ records. The value 0x2B464D45, which is the ASCII string "+FME", identifies this as an EMR_COMMENT_EMFPLUS record. |
-| [EmfPlusRecords](emfplusrecords) { get; set; } | Gets or sets an array of bytes that contains one or more EMF+ records ([MS-EMFPLUS] section 2.3.1). |
+| override [CommentIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentemfplus/commentidentifier) { get; set; } | Gets or sets a 32-bit unsigned integer that identifies this comment record as containing EMF+ records. The value 0x2B464D45, which is the ASCII string "+FME", identifies this as an EMR_COMMENT_EMFPLUS record. |
+| [DataSize](../../aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/datasize) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the size, in bytes, of the CommentIdentifier and CommentRecordParm fields in the RecordBuffer field that follows. It MUST NOT include the size of itself or the size of the AlignmentPadding field, if present |
+| [EmfPlusRecords](../../aspose.imaging.fileformats.emf.emf.records/emfcommentemfplus/emfplusrecords) { get; set; } | Gets or sets an array of bytes that contains one or more EMF+ records ([MS-EMFPLUS] section 2.3.1). |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

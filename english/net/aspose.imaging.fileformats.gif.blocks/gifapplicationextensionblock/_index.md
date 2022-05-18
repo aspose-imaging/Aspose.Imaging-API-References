@@ -25,15 +25,16 @@ public class GifApplicationExtensionBlock : GifBlock
 
 | Name | Description |
 | --- | --- |
-| [ApplicationAuthenticationCode](applicationauthenticationcode) { get; set; } | Gets or sets the application authentication code. |
-| [ApplicationData](applicationdata) { get; set; } | Gets or sets the application data. |
-| [ApplicationIdentifier](applicationidentifier) { get; set; } | Gets or sets the application identifier. |
+| [ApplicationAuthenticationCode](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationauthenticationcode) { get; set; } | Gets or sets the application authentication code. |
+| [ApplicationData](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationdata) { get; set; } | Gets or sets the application data. |
+| [ApplicationIdentifier](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationidentifier) { get; set; } | Gets or sets the application identifier. |
+| [IsChanged](../../aspose.imaging.fileformats.gif/gifblock/ischanged) { get; set; } | Gets or sets a value indicating whether block has changed and requires save. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Save](save)(Stream) | Saves the block to the specified stream. |
+| override [Save](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/save)(Stream) | Saves the block to the specified stream. |
 
 ## Other Members
 

@@ -18,7 +18,7 @@ public interface IKeyedObject
 
 | Name | Description |
 | --- | --- |
-| [Key](key) { get; } | Gets the object key. |
+| [Key](../../aspose.imaging/ikeyedobject/key) { get; } | Gets the object key. |
 
 ### See Also
 

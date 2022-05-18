@@ -18,9 +18,9 @@ public struct WmfCieXyz
 
 | Name | Description |
 | --- | --- |
-| [CiexyzX](ciexyzx) { get; set; } | Gets or sets a 32-bit 2.30 fixed point type that defines the x chromaticity value. |
-| [CiexyzY](ciexyzy) { get; set; } | Gets or sets a 32-bit 2.30 fixed point type that defines the y chromaticity value. |
-| [CiexyzZ](ciexyzz) { get; set; } | Gets or sets a 32-bit 2.30 fixed point type that defines the z chromaticity value. |
+| [CiexyzX](../../aspose.imaging.fileformats.wmf.objects/wmfciexyz/ciexyzx) { get; set; } | Gets or sets a 32-bit 2.30 fixed point type that defines the x chromaticity value. |
+| [CiexyzY](../../aspose.imaging.fileformats.wmf.objects/wmfciexyz/ciexyzy) { get; set; } | Gets or sets a 32-bit 2.30 fixed point type that defines the y chromaticity value. |
+| [CiexyzZ](../../aspose.imaging.fileformats.wmf.objects/wmfciexyz/ciexyzz) { get; set; } | Gets or sets a 32-bit 2.30 fixed point type that defines the z chromaticity value. |
 
 ### See Also
 

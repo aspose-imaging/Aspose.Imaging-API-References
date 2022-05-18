@@ -24,7 +24,10 @@ public class WmfExtFloodFill : WmfFloodFill
 
 | Name | Description |
 | --- | --- |
-| [Mode](mode) { get; set; } | Gets or sets the mode. |
+| [ColorRef](../../aspose.imaging.fileformats.wmf.objects/wmffloodfill/colorref) { get; set; } | Gets or sets the color reference. |
+| [Mode](../../aspose.imaging.fileformats.wmf.objects/wmfextfloodfill/mode) { get; set; } | Gets or sets the mode. |
+| [XStart](../../aspose.imaging.fileformats.wmf.objects/wmffloodfill/xstart) { get; set; } | Gets or sets the x start. |
+| [YStart](../../aspose.imaging.fileformats.wmf.objects/wmffloodfill/ystart) { get; set; } | Gets or sets the y start. |
 
 ### See Also
 

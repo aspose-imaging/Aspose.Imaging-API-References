@@ -24,8 +24,8 @@ public class WmfSetPalentries : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [LogPalette](logpalette) { get; set; } | Gets or sets the log palette. |
-| [Start](start) { get; set; } | Gets or sets the start. |
+| [LogPalette](../../aspose.imaging.fileformats.wmf.objects/wmfsetpalentries/logpalette) { get; set; } | Gets or sets the log palette. |
+| [Start](../../aspose.imaging.fileformats.wmf.objects/wmfsetpalentries/start) { get; set; } | Gets or sets the start. |
 
 ### See Also
 

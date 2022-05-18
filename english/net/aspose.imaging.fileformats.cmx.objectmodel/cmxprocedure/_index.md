@@ -24,7 +24,8 @@ public class CmxProcedure : CmxContainer
 
 | Name | Description |
 | --- | --- |
-| [BoundBox](boundbox) { get; set; } | Gets or sets the bounding box. |
+| [BoundBox](../../aspose.imaging.fileformats.cmx.objectmodel/cmxprocedure/boundbox) { get; set; } | Gets or sets the bounding box. |
+| virtual [Elements](../../aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer/elements) { get; } | Gets the elements. |
 
 ### See Also
 

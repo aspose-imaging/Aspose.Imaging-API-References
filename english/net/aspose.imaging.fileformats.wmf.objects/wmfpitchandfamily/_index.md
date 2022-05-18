@@ -25,15 +25,15 @@ public struct WmfPitchAndFamily
 
 | Name | Description |
 | --- | --- |
-| [ByteData](bytedata) { get; set; } | Sets the `byte` data. |
-| [Family](family) { get; } | Gets A property of a font that describes its general appearance. This MUST be a value in the FamilyFont enumeration |
-| [Pitch](pitch) { get; } | Gets A property of a font that describes the pitch, of the characters. This MUST be a value in the PitchFont enumeration. |
+| [ByteData](../../aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/bytedata) { get; set; } | Sets the `byte` data. |
+| [Family](../../aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/family) { get; } | Gets A property of a font that describes its general appearance. This MUST be a value in the FamilyFont enumeration |
+| [Pitch](../../aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/pitch) { get; } | Gets A property of a font that describes the pitch, of the characters. This MUST be a value in the PitchFont enumeration. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ToByte](tobyte)() | To the byte. |
+| [ToByte](../../aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/tobyte)() | To the byte. |
 
 ### See Also
 

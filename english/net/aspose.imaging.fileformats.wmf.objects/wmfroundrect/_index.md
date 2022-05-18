@@ -24,8 +24,9 @@ public class WmfRoundRect : WmfRectangle
 
 | Name | Description |
 | --- | --- |
-| [Height](height) { get; set; } | Gets or sets the height. |
-| [Width](width) { get; set; } | Gets or sets the width. |
+| [Height](../../aspose.imaging.fileformats.wmf.objects/wmfroundrect/height) { get; set; } | Gets or sets the height. |
+| [Rectangle](../../aspose.imaging.fileformats.wmf.objects/wmfrectangle/rectangle) { get; set; } | Gets or sets the rectangle. |
+| [Width](../../aspose.imaging.fileformats.wmf.objects/wmfroundrect/width) { get; set; } | Gets or sets the width. |
 
 ### See Also
 

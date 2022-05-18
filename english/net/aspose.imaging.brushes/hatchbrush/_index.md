@@ -24,9 +24,18 @@ public sealed class HatchBrush : Brush
 
 | Name | Description |
 | --- | --- |
-| [BackgroundColor](backgroundcolor) { get; set; } | Gets or sets the color of spaces between the hatch lines. |
-| [ForegroundColor](foregroundcolor) { get; set; } | Gets or sets the color of hatch lines. |
-| [HatchStyle](hatchstyle) { get; set; } | Gets or sets the hatch style of this brush. |
+| [BackgroundColor](../../aspose.imaging.brushes/hatchbrush/backgroundcolor) { get; set; } | Gets or sets the color of spaces between the hatch lines. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
+| [ForegroundColor](../../aspose.imaging.brushes/hatchbrush/foregroundcolor) { get; set; } | Gets or sets the color of hatch lines. |
+| [HatchStyle](../../aspose.imaging.brushes/hatchbrush/hatchstyle) { get; set; } | Gets or sets the hatch style of this brush. |
+| [Opacity](../../aspose.imaging/brush/opacity) { get; set; } | Gets or sets the brush opacity. The value should be between 0 and 1. Value of 0 means that brush is fully visible, value of 1 means the brush is fully opaque. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| virtual [DeepClone](../../aspose.imaging/brush/deepclone)() | Creates a new deep clone of the current [`Brush`](../../aspose.imaging/brush). |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
 
 ### Examples
 

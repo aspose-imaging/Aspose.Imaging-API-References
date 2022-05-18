@@ -25,10 +25,12 @@ public sealed class EmfAngleArc : EmfDrawingRecordType
 
 | Name | Description |
 | --- | --- |
-| [Center](center) { get; set; } | Gets or sets a 64-bit WMF PointL object, specified in [MS-WMF] section 2.2.2.15, which specifies the logical coordinates of the circle's center. |
-| [Radius](radius) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the circle's radius, in logical units. |
-| [StartAngle](startangle) { get; set; } | Gets or sets a 32-bit float that specifies the arc's start angle, in degrees. |
-| [SweepAngle](sweepangle) { get; set; } | Gets or sets a 32-bit float that specifies the arc's sweep angle, in degrees. |
+| [Center](../../aspose.imaging.fileformats.emf.emf.records/emfanglearc/center) { get; set; } | Gets or sets a 64-bit WMF PointL object, specified in [MS-WMF] section 2.2.2.15, which specifies the logical coordinates of the circle's center. |
+| [Radius](../../aspose.imaging.fileformats.emf.emf.records/emfanglearc/radius) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the circle's radius, in logical units. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [StartAngle](../../aspose.imaging.fileformats.emf.emf.records/emfanglearc/startangle) { get; set; } | Gets or sets a 32-bit float that specifies the arc's start angle, in degrees. |
+| [SweepAngle](../../aspose.imaging.fileformats.emf.emf.records/emfanglearc/sweepangle) { get; set; } | Gets or sets a 32-bit float that specifies the arc's sweep angle, in degrees. |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

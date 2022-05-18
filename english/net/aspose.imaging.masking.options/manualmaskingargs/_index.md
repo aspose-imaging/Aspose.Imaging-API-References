@@ -24,7 +24,7 @@ public class ManualMaskingArgs : IMaskingArgs
 
 | Name | Description |
 | --- | --- |
-| [Mask](mask) { get; set; } | Gets or sets the set of graphic shapes that form mask. |
+| [Mask](../../aspose.imaging.masking.options/manualmaskingargs/mask) { get; set; } | Gets or sets the set of graphic shapes that form mask. |
 
 ### Examples
 

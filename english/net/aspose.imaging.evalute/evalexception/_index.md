@@ -18,7 +18,7 @@ public class EvalException : Exception
 
 | Name | Description |
 | --- | --- |
-| override [Message](message) { get; } | Gets the message associated with this exception |
+| override [Message](../../aspose.imaging.evalute/evalexception/message) { get; } | Gets the message associated with this exception |
 
 ### See Also
 

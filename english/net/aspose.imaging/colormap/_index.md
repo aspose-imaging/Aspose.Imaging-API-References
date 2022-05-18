@@ -24,8 +24,8 @@ public sealed class ColorMap
 
 | Name | Description |
 | --- | --- |
-| [NewColor](newcolor) { get; set; } | Gets or sets the new [`Color`](../color) structure to which to convert. |
-| [OldColor](oldcolor) { get; set; } | Gets or sets the existing [`Color`](../color) structure to be converted. |
+| [NewColor](../../aspose.imaging/colormap/newcolor) { get; set; } | Gets or sets the new [`Color`](../color) structure to which to convert. |
+| [OldColor](../../aspose.imaging/colormap/oldcolor) { get; set; } | Gets or sets the existing [`Color`](../color) structure to be converted. |
 
 ### See Also
 

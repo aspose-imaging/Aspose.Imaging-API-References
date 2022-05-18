@@ -24,9 +24,9 @@ public sealed class EmfBitFix28To4 : EmfObject
 
 | Name | Description |
 | --- | --- |
-| [FracValue](fracvalue) { get; set; } | Gets or sets the fraction value |
-| [IntVal](intval) { get; set; } | Gets or sets the integer value value |
-| [Value](value) { get; } | Gets the resulting float value; |
+| [FracValue](../../aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/fracvalue) { get; set; } | Gets or sets the fraction value |
+| [IntVal](../../aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/intval) { get; set; } | Gets or sets the integer value value |
+| [Value](../../aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/value) { get; } | Gets the resulting float value; |
 
 ### See Also
 

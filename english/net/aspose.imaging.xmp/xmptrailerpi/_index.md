@@ -25,16 +25,16 @@ public sealed class XmpTrailerPi : IEquatable<XmpTrailerPi>, IXmlValue
 
 | Name | Description |
 | --- | --- |
-| [IsWritable](iswritable) { get; set; } | Gets or sets a value indicating whether this instance is writable. |
+| [IsWritable](../../aspose.imaging.xmp/xmptrailerpi/iswritable) { get; set; } | Gets or sets a value indicating whether this instance is writable. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified Object, is equal to this instance. |
-| [Equals](equals)(XmpTrailerPi) | Indicates whether the current object is equal to another object of the same type. |
-| override [GetHashCode](gethashcode)() | Returns a hash code for this instance. |
-| [GetXmlValue](getxmlvalue)() | Converts xmp value to the xml representation. |
+| override [Equals](../../aspose.imaging.xmp/xmptrailerpi/equals)(object) | Determines whether the specified Object, is equal to this instance. |
+| [Equals](../../aspose.imaging.xmp/xmptrailerpi/equals)(XmpTrailerPi) | Indicates whether the current object is equal to another object of the same type. |
+| override [GetHashCode](../../aspose.imaging.xmp/xmptrailerpi/gethashcode)() | Returns a hash code for this instance. |
+| [GetXmlValue](../../aspose.imaging.xmp/xmptrailerpi/getxmlvalue)() | Converts xmp value to the xml representation. |
 
 ### Remarks
 

@@ -25,7 +25,9 @@ public sealed class EmfRestoreDc : EmfStateRecordType
 
 | Name | Description |
 | --- | --- |
-| [SavedDc](saveddc) { get; set; } | Gets or sets a 32-bit signed integer that specifies the saved state to restore relative to the current state. This value MUST be negative; –1 represents the state that was most recently saved on the stack, –2 the one before that, etc. |
+| [SavedDc](../../aspose.imaging.fileformats.emf.emf.records/emfrestoredc/saveddc) { get; set; } | Gets or sets a 32-bit signed integer that specifies the saved state to restore relative to the current state. This value MUST be negative; –1 represents the state that was most recently saved on the stack, –2 the one before that, etc. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### Remarks
 

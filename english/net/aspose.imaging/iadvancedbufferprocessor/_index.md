@@ -18,8 +18,8 @@ public interface IAdvancedBufferProcessor : IBufferProcessor
 
 | Name | Description |
 | --- | --- |
-| [FinishRow](finishrow)() | Finishes the row. |
-| [FinishRows](finishrows)(int) | Finishes the rows. |
+| [FinishRow](../../aspose.imaging/iadvancedbufferprocessor/finishrow)() | Finishes the row. |
+| [FinishRows](../../aspose.imaging/iadvancedbufferprocessor/finishrows)(int) | Finishes the rows. |
 
 ### See Also
 

@@ -25,7 +25,7 @@ public class WmfInvertRegion : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [RegionIndex](regionindex) { get; set; } | Gets or sets the index of the region. |
+| [RegionIndex](../../aspose.imaging.fileformats.wmf.objects/wmfinvertregion/regionindex) { get; set; } | Gets or sets the index of the region. |
 
 ### See Also
 

@@ -24,9 +24,12 @@ public class OdEquation : OdGraphicObject
 
 | Name | Description |
 | --- | --- |
-| [Formula](formula) { get; set; } | Gets or sets the formula. |
-| [Name](name) { get; set; } | Gets or sets the name. |
-| [Value](value) { get; set; } | Gets or sets the value. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Gets or sets a value indicating whether [absolute coordinates]. |
+| [Formula](../../aspose.imaging.fileformats.opendocument.objects.graphic/odequation/formula) { get; set; } | Gets or sets the formula. |
+| [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Gets the items. |
+| [Name](../../aspose.imaging.fileformats.opendocument.objects.graphic/odequation/name) { get; set; } | Gets or sets the name. |
+| [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Gets the parent object. |
+| [Value](../../aspose.imaging.fileformats.opendocument.objects.graphic/odequation/value) { get; set; } | Gets or sets the value. |
 
 ### See Also
 

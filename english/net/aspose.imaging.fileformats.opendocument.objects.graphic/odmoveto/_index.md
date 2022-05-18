@@ -24,7 +24,10 @@ public class OdMoveTo : OdGraphicObject
 
 | Name | Description |
 | --- | --- |
-| [Coordinates](coordinates) { get; set; } | Gets or sets the coordinates. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Gets or sets a value indicating whether [absolute coordinates]. |
+| [Coordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odmoveto/coordinates) { get; set; } | Gets or sets the coordinates. |
+| [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Gets the items. |
+| [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Gets the parent object. |
 
 ### See Also
 

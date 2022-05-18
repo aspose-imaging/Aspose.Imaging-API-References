@@ -24,13 +24,23 @@ public class CdrBmp : CdrDictionaryItem
 
 | Name | Description |
 | --- | --- |
-| [Bpp](bpp) { get; set; } | Gets or sets the BPP. |
-| [BytesPerLine](bytesperline) { get; set; } | Gets or sets the bytes per line. |
-| [ColorModel](colormodel) { get; set; } | Gets or sets the color model. |
-| [Data](data) { get; set; } | Gets or sets the data. |
-| [Height](height) { get; set; } | Gets or sets the height. |
-| [Palette](palette) { get; set; } | Gets or sets the palette. |
-| [Width](width) { get; set; } | Gets or sets the width. |
+| [Bpp](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/bpp) { get; set; } | Gets or sets the BPP. |
+| [BytesPerLine](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/bytesperline) { get; set; } | Gets or sets the bytes per line. |
+| [ColorModel](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/colormodel) { get; set; } | Gets or sets the color model. |
+| [Data](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/data) { get; set; } | Gets or sets the data. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
+| [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | Gets or sets the document. |
+| [Height](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/height) { get; set; } | Gets or sets the height. |
+| [Id](../../aspose.imaging.fileformats.cdr.objects/cdrdictionaryitem/id) { get; set; } | Gets or sets the identifier. |
+| [Palette](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/palette) { get; set; } | Gets or sets the palette. |
+| [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | Gets or sets the parent. |
+| [Width](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/width) { get; set; } | Gets or sets the width. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
 
 ### See Also
 

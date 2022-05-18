@@ -25,23 +25,24 @@ public abstract class RectangleProjectedShape : Shape
 
 | Name | Description |
 | --- | --- |
-| override [Bounds](bounds) { get; } | Gets the object's bounds. |
-| override [Center](center) { get; } | Gets the shape's center. |
-| override [HasSegments](hassegments) { get; } | Gets a value indicating whether shape has segments. |
-| [LeftBottom](leftbottom) { get; } | Gets the left bottom rectangle point. |
-| [LeftTop](lefttop) { get; } | Gets the left top rectangle point. |
-| [RectangleHeight](rectangleheight) { get; } | Gets the rectangle height. |
-| [RectangleWidth](rectanglewidth) { get; } | Gets the rectangle width. |
-| [RightBottom](rightbottom) { get; } | Gets the right bottom rectangle point. |
-| [RightTop](righttop) { get; } | Gets the right top rectangle point. |
+| override [Bounds](../../aspose.imaging.shapes/rectangleprojectedshape/bounds) { get; } | Gets the object's bounds. |
+| override [Center](../../aspose.imaging.shapes/rectangleprojectedshape/center) { get; } | Gets the shape's center. |
+| override [HasSegments](../../aspose.imaging.shapes/rectangleprojectedshape/hassegments) { get; } | Gets a value indicating whether shape has segments. |
+| [LeftBottom](../../aspose.imaging.shapes/rectangleprojectedshape/leftbottom) { get; } | Gets the left bottom rectangle point. |
+| [LeftTop](../../aspose.imaging.shapes/rectangleprojectedshape/lefttop) { get; } | Gets the left top rectangle point. |
+| [RectangleHeight](../../aspose.imaging.shapes/rectangleprojectedshape/rectangleheight) { get; } | Gets the rectangle height. |
+| [RectangleWidth](../../aspose.imaging.shapes/rectangleprojectedshape/rectanglewidth) { get; } | Gets the rectangle width. |
+| [RightBottom](../../aspose.imaging.shapes/rectangleprojectedshape/rightbottom) { get; } | Gets the right bottom rectangle point. |
+| [RightTop](../../aspose.imaging.shapes/rectangleprojectedshape/righttop) { get; } | Gets the right top rectangle point. |
+| abstract [Segments](../../aspose.imaging/shape/segments) { get; } | Gets the shape segments. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetBounds](getbounds)(Matrix) | Gets the object's bounds. |
-| override [GetBounds](getbounds)(Matrix, Pen) | Gets the object's bounds. |
-| override [Transform](transform)(Matrix) | Applies the specified transformation to the shape. |
+| override [GetBounds](../../aspose.imaging.shapes/rectangleprojectedshape/getbounds)(Matrix) | Gets the object's bounds. |
+| override [GetBounds](../../aspose.imaging.shapes/rectangleprojectedshape/getbounds)(Matrix, Pen) | Gets the object's bounds. |
+| override [Transform](../../aspose.imaging.shapes/rectangleprojectedshape/transform)(Matrix) | Applies the specified transformation to the shape. |
 
 ### See Also
 

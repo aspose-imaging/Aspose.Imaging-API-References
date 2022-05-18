@@ -20,6 +20,14 @@ public class OdNoStrokePath : OdGraphicObject
 | --- | --- |
 | [OdNoStrokePath](odnostrokepath)(OdObject) | Initializes a new instance of the [`OdNoStrokePath`](../odnostrokepath) class. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Gets or sets a value indicating whether [absolute coordinates]. |
+| [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Gets the items. |
+| [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Gets the parent object. |
+
 ### See Also
 
 * class [OdGraphicObject](../odgraphicobject)

@@ -25,9 +25,9 @@ public class ClipboardRecord : VectorPathRecord
 
 | Name | Description |
 | --- | --- |
-| [BoundingRect](boundingrect) { get; set; } | Gets or sets the bounding rect. |
-| [Resolution](resolution) { get; set; } | Gets or sets the resolution. |
-| override [Type](type) { get; } | Gets the type. |
+| [BoundingRect](../../aspose.imaging.fileformats.core.vectorpaths/clipboardrecord/boundingrect) { get; set; } | Gets or sets the bounding rect. |
+| [Resolution](../../aspose.imaging.fileformats.core.vectorpaths/clipboardrecord/resolution) { get; set; } | Gets or sets the resolution. |
+| override [Type](../../aspose.imaging.fileformats.core.vectorpaths/clipboardrecord/type) { get; } | Gets the type. |
 
 ### See Also
 

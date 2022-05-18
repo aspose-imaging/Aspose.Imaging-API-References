@@ -25,21 +25,27 @@ public sealed class TextShape : RectangleProjectedShape
 
 | Name | Description |
 | --- | --- |
-| override [Bounds](bounds) { get; } | Gets the object's bounds. |
-| override [Center](center) { get; } | Gets the shape's center. |
-| [Font](font) { get; set; } | Gets or sets the font used to draw the text. |
-| override [HasSegments](hassegments) { get; } | Gets a value indicating whether shape has segments. |
-| override [Segments](segments) { get; } | Gets the shape segments. |
-| [Text](text) { get; set; } | Gets or sets the drawn text. |
-| [TextFormat](textformat) { get; set; } | Gets or sets the text format. |
+| override [Bounds](../../aspose.imaging.shapes/textshape/bounds) { get; } | Gets the object's bounds. |
+| override [Center](../../aspose.imaging.shapes/textshape/center) { get; } | Gets the shape's center. |
+| [Font](../../aspose.imaging.shapes/textshape/font) { get; set; } | Gets or sets the font used to draw the text. |
+| override [HasSegments](../../aspose.imaging.shapes/textshape/hassegments) { get; } | Gets a value indicating whether shape has segments. |
+| [LeftBottom](../../aspose.imaging.shapes/rectangleprojectedshape/leftbottom) { get; } | Gets the left bottom rectangle point. |
+| [LeftTop](../../aspose.imaging.shapes/rectangleprojectedshape/lefttop) { get; } | Gets the left top rectangle point. |
+| [RectangleHeight](../../aspose.imaging.shapes/rectangleprojectedshape/rectangleheight) { get; } | Gets the rectangle height. |
+| [RectangleWidth](../../aspose.imaging.shapes/rectangleprojectedshape/rectanglewidth) { get; } | Gets the rectangle width. |
+| [RightBottom](../../aspose.imaging.shapes/rectangleprojectedshape/rightbottom) { get; } | Gets the right bottom rectangle point. |
+| [RightTop](../../aspose.imaging.shapes/rectangleprojectedshape/righttop) { get; } | Gets the right top rectangle point. |
+| override [Segments](../../aspose.imaging.shapes/textshape/segments) { get; } | Gets the shape segments. |
+| [Text](../../aspose.imaging.shapes/textshape/text) { get; set; } | Gets or sets the drawn text. |
+| [TextFormat](../../aspose.imaging.shapes/textshape/textformat) { get; set; } | Gets or sets the text format. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetBounds](getbounds)(Matrix) | Gets the object's bounds. |
-| override [GetBounds](getbounds)(Matrix, Pen) | Gets the object's bounds. |
-| override [Transform](transform)(Matrix) | Applies the specified transformation to the shape. |
+| override [GetBounds](../../aspose.imaging.shapes/textshape/getbounds)(Matrix) | Gets the object's bounds. |
+| override [GetBounds](../../aspose.imaging.shapes/textshape/getbounds)(Matrix, Pen) | Gets the object's bounds. |
+| override [Transform](../../aspose.imaging.shapes/textshape/transform)(Matrix) | Applies the specified transformation to the shape. |
 
 ### See Also
 

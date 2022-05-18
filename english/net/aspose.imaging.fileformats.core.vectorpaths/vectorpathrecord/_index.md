@@ -18,7 +18,7 @@ public abstract class VectorPathRecord
 
 | Name | Description |
 | --- | --- |
-| abstract [Type](type) { get; } | Gets the type. |
+| abstract [Type](../../aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord/type) { get; } | Gets the type. |
 
 ### See Also
 

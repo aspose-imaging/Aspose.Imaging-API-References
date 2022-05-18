@@ -25,14 +25,14 @@ public sealed class StreamSource : Source
 
 | Name | Description |
 | --- | --- |
-| [DisposeStream](disposestream) { get; } | Gets a value indicating whether stream should be disposed whenever container gets disposed. |
-| [Stream](stream) { get; } | Gets the stream. |
+| [DisposeStream](../../aspose.imaging.sources/streamsource/disposestream) { get; } | Gets a value indicating whether stream should be disposed whenever container gets disposed. |
+| [Stream](../../aspose.imaging.sources/streamsource/stream) { get; } | Gets the stream. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetStreamContainer](getstreamcontainer)() | Gets the stream container. |
+| override [GetStreamContainer](../../aspose.imaging.sources/streamsource/getstreamcontainer)() | Gets the stream container. |
 
 ### Examples
 

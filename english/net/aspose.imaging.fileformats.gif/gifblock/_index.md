@@ -18,13 +18,13 @@ public abstract class GifBlock : IGifBlock
 
 | Name | Description |
 | --- | --- |
-| [IsChanged](ischanged) { get; set; } | Gets or sets a value indicating whether block has changed and requires save. |
+| [IsChanged](../../aspose.imaging.fileformats.gif/gifblock/ischanged) { get; set; } | Gets or sets a value indicating whether block has changed and requires save. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| abstract [Save](save)(Stream) | Saves the block to the specified stream. |
+| abstract [Save](../../aspose.imaging.fileformats.gif/gifblock/save)(Stream) | Saves the block to the specified stream. |
 
 ## Other Members
 

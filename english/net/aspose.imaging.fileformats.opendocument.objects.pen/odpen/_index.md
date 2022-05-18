@@ -24,9 +24,9 @@ public class OdPen
 
 | Name | Description |
 | --- | --- |
-| [Brush](brush) { get; set; } | Gets or sets the brush. |
-| [PenStyle](penstyle) { get; set; } | Gets or sets the pen style. |
-| [Width](width) { get; set; } | Gets or sets the width. |
+| [Brush](../../aspose.imaging.fileformats.opendocument.objects.pen/odpen/brush) { get; set; } | Gets or sets the brush. |
+| [PenStyle](../../aspose.imaging.fileformats.opendocument.objects.pen/odpen/penstyle) { get; set; } | Gets or sets the pen style. |
+| [Width](../../aspose.imaging.fileformats.opendocument.objects.pen/odpen/width) { get; set; } | Gets or sets the width. |
 
 ### See Also
 

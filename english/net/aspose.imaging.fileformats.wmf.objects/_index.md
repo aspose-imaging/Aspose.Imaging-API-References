@@ -12,25 +12,25 @@ The `namespace` contains types [MS-WMF]: Windows Metafile Format 2.2 WMF Objects
 
 | Class | Description |
 | --- | --- |
-| [WmfAnimatePalette](./wmfanimatepalette) | The META_ANIMATEPALETTE record redefines entries in the logical palette that is defined in the playback device context with the specified Palette object (section 2.2.1.3). |
+| [WmfAnimatePalette](./wmfanimatepalette) | The META_ANIMATEPALETTE record redefines entries in the logical palette that is defined in the playback device context with the specified Palette object (../section 2.2.1.3). |
 | [WmfArc](./wmfarc) | The META_ARC record draws an elliptical arc. |
 | [WmfBitBlt](./wmfbitblt) | The META_BITBLT record specifies the transfer of a block of pixels according to a raster operation. The destination of the transfer is the current output region in the playback device context. |
 | [WmfBitmap16](./wmfbitmap16) | The Bitmap16 Object specifies information about the dimensions and color format of a bitmap. |
 | [WmfBitmapBaseHeader](./wmfbitmapbaseheader) | The base bitmap header class. |
-| [WmfBitmapCoreHeader](./wmfbitmapcoreheader) | The BitmapCoreHeader Object contains information about the dimensions and color format of a device-independent bitmap(DIB). |
-| [WmfBitmapInfoHeader](./wmfbitmapinfoheader) | The BitmapInfoHeader Object contains information about the dimensions and color format of a device-independent bitmap (DIB). |
+| [WmfBitmapCoreHeader](./wmfbitmapcoreheader) | The BitmapCoreHeader Object contains information about the dimensions and color format of a device-independent bitmap(../DIB). |
+| [WmfBitmapInfoHeader](./wmfbitmapinfoheader) | The BitmapInfoHeader Object contains information about the dimensions and color format of a device-independent bitmap (../DIB). |
 | [WmfChord](./wmfchord) | The META_CHORD record draws a chord, which is defined by a region bounded by the intersection of an ellipse with a line segment. The chord is outlined using the pen and filled using the brush that are defined in the playback device context. |
 | [WmfCieXyzTriple](./wmfciexyztriple) | The CIEXYZTriple Object defines information about the CIEXYZTriple color object. |
 | [WmfCreateBrushInDirect](./wmfcreatebrushindirect) | The Create brush in direct |
 | [WmfCreateFontInDirect](./wmfcreatefontindirect) | The Create font |
-| [WmfCreatePalette](./wmfcreatepalette) | The META_CREATEPALETTE record creates a Palette Object (section 2.2.1.3). |
+| [WmfCreatePalette](./wmfcreatepalette) | The META_CREATEPALETTE record creates a Palette Object (../section 2.2.1.3). |
 | [WmfCreatePatternBrush](./wmfcreatepatternbrush) | The META_CREATEPATTERNBRUSH record creates a brush object with a pattern specified by a bitmap. |
 | [WmfCreatePenInDirect](./wmfcreatepenindirect) | The create pen in direct |
-| [WmfCreateRegion](./wmfcreateregion) | The META_CREATEREGION record creates a Region Object (section 2.2.1.5). |
+| [WmfCreateRegion](./wmfcreateregion) | The META_CREATEREGION record creates a Region Object (../section 2.2.1.5). |
 | [WmfDeleteObject](./wmfdeleteobject) | The Delete object |
-| [WmfDeviceIndependentBitmap](./wmfdeviceindependentbitmap) | The DeviceIndependentBitmap Object defines an image in device-independent bitmap (DIB) format |
+| [WmfDeviceIndependentBitmap](./wmfdeviceindependentbitmap) | The DeviceIndependentBitmap Object defines an image in device-independent bitmap (../DIB) format |
 | [WmfDibBitBlt](./wmfdibbitblt) | The META_DIBBITBLT record specifies the transfer of a block of pixels in device-independent format according to a raster operation. |
-| [WmfDibCreatePatternBrush](./wmfdibcreatepatternbrush) | The META_DIBCREATEPATTERNBRUSH record creates a Brush Object (section 2.2.1.1) with a pattern specified by a DeviceIndependentBitmap (DIB) Object (section 2.2.2.9). |
+| [WmfDibCreatePatternBrush](./wmfdibcreatepatternbrush) | The META_DIBCREATEPATTERNBRUSH record creates a Brush Object (../section 2.2.1.1) with a pattern specified by a DeviceIndependentBitmap (../DIB) Object (../section 2.2.2.9). |
 | [WmfDibStrechBlt](./wmfdibstrechblt) | The META_DIBSTRETCHBLT record specifies the transfer of a block of pixels in device-independent format according to a raster operation, with possible expansion or contraction. |
 | [WmfEllipse](./wmfellipse) | The META_ELLIPSE record draws an ellipse. The center of the ellipse is the center of the specified bounding rectangle. The ellipse is outlined by using the pen and is filled by using the brush; these are defined in the playback device context. |
 | [WmfEof](./wmfeof) | The Eof object. |
@@ -70,7 +70,7 @@ The `namespace` contains types [MS-WMF]: Windows Metafile Format 2.2 WMF Objects
 | [WmfScaleViewportExt](./wmfscaleviewportext) | The META_SCALEVIEWPORTEXT record scales the horizontal and vertical extents of the viewport that is defined in the playback device context by using the ratios formed by the specified multiplicands and divisors. |
 | [WmfScaleWindowExt](./wmfscalewindowext) | The META_SCALEWINDOWEXT record scales the horizontal and vertical extents of the output window that is defined in the playback device context by using the ratios formed by specified multiplicands and divisors. |
 | [WmfScanObject](./wmfscanobject) | The Scan Object specifies a collection of scanlines. |
-| [WmfSelectClipRegion](./wmfselectclipregion) | The META_SELECTCLIPREGION record specifies a Region Object (section 2.2.1.5) to be the current clipping region. |
+| [WmfSelectClipRegion](./wmfselectclipregion) | The META_SELECTCLIPREGION record specifies a Region Object (../section 2.2.1.5) to be the current clipping region. |
 | [WmfSelectObject](./wmfselectobject) | The select object. |
 | [WmfSelectPalette](./wmfselectpalette) | The META_SELECTPALETTE record defines the current logical palette with a specified Palette Object. |
 | [WmfSetBkColor](./wmfsetbkcolor) | The META_SETBKCOLOR record sets the background color in the playback device context to a specified color, or to the nearest physical color if the device cannot represent the specified color. |

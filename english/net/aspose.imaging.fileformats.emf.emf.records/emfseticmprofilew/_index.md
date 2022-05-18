@@ -24,12 +24,14 @@ public sealed class EmfSetIcmProfileW : EmfStateRecordType
 
 | Name | Description |
 | --- | --- |
-| [CbData](cbdata) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the size of color profile data, if attached. |
-| [CbName](cbname) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the number of bytes in the Unicode UTF16-LE name of the desired color profile. |
-| [Data](data) { get; set; } | Gets or sets an array of size (cbName + cbData) in bytes, which specifies the UTF16-LE name and raw data of the desired color profile. |
-| [DwFlags](dwflags) { get; set; } | Gets or sets a 32-bit unsigned integer that contains color profile flags. |
-| [Name](name) { get; } | Gets the name |
-| [RawData](rawdata) { get; } | Gets the raw data |
+| [CbData](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilew/cbdata) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the size of color profile data, if attached. |
+| [CbName](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilew/cbname) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the number of bytes in the Unicode UTF16-LE name of the desired color profile. |
+| [Data](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilew/data) { get; set; } | Gets or sets an array of size (cbName + cbData) in bytes, which specifies the UTF16-LE name and raw data of the desired color profile. |
+| [DwFlags](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilew/dwflags) { get; set; } | Gets or sets a 32-bit unsigned integer that contains color profile flags. |
+| [Name](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilew/name) { get; } | Gets the name |
+| [RawData](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilew/rawdata) { get; } | Gets the raw data |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

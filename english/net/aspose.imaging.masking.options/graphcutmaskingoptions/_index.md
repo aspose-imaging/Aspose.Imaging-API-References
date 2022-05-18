@@ -24,7 +24,13 @@ public class GraphCutMaskingOptions : MaskingOptions
 
 | Name | Description |
 | --- | --- |
-| [FeatheringRadius](featheringradius) { get; set; } | Gets or sets the feathering radius. |
+| [Args](../../aspose.imaging.masking.options/maskingoptions/args) { get; set; } | Gets or sets the arguments for segmentation algorithm. |
+| [BackgroundReplacementColor](../../aspose.imaging.masking.options/maskingoptions/backgroundreplacementcolor) { get; set; } | Gets or sets the background replacement color. |
+| [Decompose](../../aspose.imaging.masking.options/maskingoptions/decompose) { get; set; } | Gets or sets a value indicating whether needless to separate each Shape from mask as individual object or as united object from mask separated from background. |
+| [ExportOptions](../../aspose.imaging.masking.options/maskingoptions/exportoptions) { get; set; } | Gets or sets the image export options. |
+| [FeatheringRadius](../../aspose.imaging.masking.options/graphcutmaskingoptions/featheringradius) { get; set; } | Gets or sets the feathering radius. |
+| [MaskingArea](../../aspose.imaging.masking.options/maskingoptions/maskingarea) { get; set; } | Gets or sets the masking area. |
+| [Method](../../aspose.imaging.masking.options/maskingoptions/method) { get; set; } | Gets or sets the segmentation method. |
 
 ### Examples
 

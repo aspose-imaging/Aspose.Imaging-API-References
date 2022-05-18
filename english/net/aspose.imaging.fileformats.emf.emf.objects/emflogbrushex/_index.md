@@ -24,9 +24,9 @@ public sealed class EmfLogBrushEx : EmfObject
 
 | Name | Description |
 | --- | --- |
-| [Argb32ColorRef](argb32colorref) { get; set; } | Gets or sets a 32-bit WMF ColorRef object ([MS-WMF] section 2.2.2.8) that specifies a color. The interpretation of this field depends on the value of BrushStyle, as explained in the following table. |
-| [BrushHatch](brushhatch) { get; set; } | Gets or sets a 32-bit unsigned field that contains the brush hatch data. Its interpretation depends on the value of BrushStyle, |
-| [BrushStyle](brushstyle) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the brush style. The value MUST be an enumeration from WMF BrushStyle enumeration ([MS-WMF] section 2.1.1.4). The style values that are supported in this structure are listed later in this section. The BS_NULL style SHOULD be used to specify a brush that has no effect. |
+| [Argb32ColorRef](../../aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/argb32colorref) { get; set; } | Gets or sets a 32-bit WMF ColorRef object ([MS-WMF] section 2.2.2.8) that specifies a color. The interpretation of this field depends on the value of BrushStyle, as explained in the following table. |
+| [BrushHatch](../../aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/brushhatch) { get; set; } | Gets or sets a 32-bit unsigned field that contains the brush hatch data. Its interpretation depends on the value of BrushStyle, |
+| [BrushStyle](../../aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/brushstyle) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the brush style. The value MUST be an enumeration from WMF BrushStyle enumeration ([MS-WMF] section 2.1.1.4). The style values that are supported in this structure are listed later in this section. The BS_NULL style SHOULD be used to specify a brush that has no effect. |
 
 ### See Also
 

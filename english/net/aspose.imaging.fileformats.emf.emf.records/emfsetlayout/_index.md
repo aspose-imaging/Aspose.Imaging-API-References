@@ -24,7 +24,9 @@ public sealed class EmfSetLayout : EmfStateRecordType
 
 | Name | Description |
 | --- | --- |
-| [LayoutMode](layoutmode) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the layout mode |
+| [LayoutMode](../../aspose.imaging.fileformats.emf.emf.records/emfsetlayout/layoutmode) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the layout mode |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

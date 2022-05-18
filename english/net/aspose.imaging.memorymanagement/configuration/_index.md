@@ -18,7 +18,7 @@ public static class Configuration
 
 | Name | Description |
 | --- | --- |
-| static [BufferSizeHint](buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| static [BufferSizeHint](../../aspose.imaging.memorymanagement/configuration/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 
 ### See Also
 

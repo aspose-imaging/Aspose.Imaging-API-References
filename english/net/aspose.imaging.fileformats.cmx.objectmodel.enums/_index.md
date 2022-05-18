@@ -20,7 +20,7 @@ The namespace handles Tiff file format processing.
 | [JoinTypes](./jointypes) | Connection types between lines |
 | [LineTypes](./linetypes) | Flags to describe the type of line. |
 | [ParagraphHorizontalAlignment](./paragraphhorizontalalignment) | Horizontal alignment |
-| [PathJumpTypes](./pathjumptypes) | Types of transitions between points of the [`CmxPathSpec`](aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec) |
+| [PathJumpTypes](./pathjumptypes) | Types of transitions between points of the [`CmxPathSpec`](../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec) |
 | [TileOffsetTypes](./tileoffsettypes) | Offset types between tiles for texture brushes. |
 | [Units](./units) | Basic units for CMX document. |
 

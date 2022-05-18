@@ -25,7 +25,9 @@ public sealed class EmfSetViewportOrgEx : EmfStateRecordType
 
 | Name | Description |
 | --- | --- |
-| [Origin](origin) { get; set; } | Gets or sets a 64-bit WMF PointL object ([MS-WMF] section 2.2.2.15) that specifies the window horizontal and vertical origin in device units. |
+| [Origin](../../aspose.imaging.fileformats.emf.emf.records/emfsetviewportorgex/origin) { get; set; } | Gets or sets a 64-bit WMF PointL object ([MS-WMF] section 2.2.2.15) that specifies the window horizontal and vertical origin in device units. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

@@ -26,8 +26,8 @@ public class AssumedObjectData
 
 | Name | Description |
 | --- | --- |
-| [Bounds](bounds) { get; set; } | Gets or sets the object's bounds. |
-| [Type](type) { get; set; } | Gets or sets the object's type. |
+| [Bounds](../../aspose.imaging.masking.options/assumedobjectdata/bounds) { get; set; } | Gets or sets the object's bounds. |
+| [Type](../../aspose.imaging.masking.options/assumedobjectdata/type) { get; set; } | Gets or sets the object's type. |
 
 ### Examples
 

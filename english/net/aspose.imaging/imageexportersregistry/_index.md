@@ -18,18 +18,18 @@ public static class ImageExportersRegistry
 
 | Name | Description |
 | --- | --- |
-| static [RegisteredExporterDescriptors](registeredexporterdescriptors) { get; } | Gets the registered exporter descriptors. |
-| static [RegisteredFormats](registeredformats) { get; } | Gets the registered export formats. |
+| static [RegisteredExporterDescriptors](../../aspose.imaging/imageexportersregistry/registeredexporterdescriptors) { get; } | Gets the registered exporter descriptors. |
+| static [RegisteredFormats](../../aspose.imaging/imageexportersregistry/registeredformats) { get; } | Gets the registered export formats. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [CreateFirstSupportedExporter](createfirstsupportedexporter)(Image, ImageOptionsBase) | Creates the first found exporter suitable for the specified save options and image. |
-| static [GetFirstSupportedDescriptor](getfirstsupporteddescriptor)(Image, ImageOptionsBase) | Gets the fist found supported descriptor suitable for the specified save options and image. |
-| static [Register](register)(IImageExporterDescriptor) | Registers the specified image exporter descriptor. |
-| static [RegisterExporter](registerexporter)(IImageExporterDescriptor) | Registers the exporter. |
-| static [UnregisterExporter](unregisterexporter)(IImageExporterDescriptor) | Unregisters the exporter. |
+| static [CreateFirstSupportedExporter](../../aspose.imaging/imageexportersregistry/createfirstsupportedexporter)(Image, ImageOptionsBase) | Creates the first found exporter suitable for the specified save options and image. |
+| static [GetFirstSupportedDescriptor](../../aspose.imaging/imageexportersregistry/getfirstsupporteddescriptor)(Image, ImageOptionsBase) | Gets the fist found supported descriptor suitable for the specified save options and image. |
+| static [Register](../../aspose.imaging/imageexportersregistry/register)(IImageExporterDescriptor) | Registers the specified image exporter descriptor. |
+| static [RegisterExporter](../../aspose.imaging/imageexportersregistry/registerexporter)(IImageExporterDescriptor) | Registers the exporter. |
+| static [UnregisterExporter](../../aspose.imaging/imageexportersregistry/unregisterexporter)(IImageExporterDescriptor) | Unregisters the exporter. |
 
 ### See Also
 

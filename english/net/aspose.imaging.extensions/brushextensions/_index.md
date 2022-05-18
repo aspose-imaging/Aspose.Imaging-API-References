@@ -18,7 +18,7 @@ public static class BrushExtensions
 
 | Name | Description |
 | --- | --- |
-| static [ToGdiBrush](togdibrush)(Brush) | Converts the [`Brush`](../../aspose.imaging/brush) to the Brush. |
+| static [ToGdiBrush](../../aspose.imaging.extensions/brushextensions/togdibrush)(Brush) | Converts the [`Brush`](../../aspose.imaging/brush) to the Brush. |
 
 ### See Also
 

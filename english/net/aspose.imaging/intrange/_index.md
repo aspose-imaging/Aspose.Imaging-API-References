@@ -26,14 +26,14 @@ public class IntRange
 
 | Name | Description |
 | --- | --- |
-| [Range](range) { get; set; } | Gets or sets the range. |
+| [Range](../../aspose.imaging/intrange/range) { get; set; } | Gets or sets the range. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [GetArrayOneItemFromIndex](getarrayoneitemfromindex)(int) | Returns one item array from specified index |
-| static [GetRange](getrange)(int, int, int) | Gets the count range of int elements starting at start |
+| [GetArrayOneItemFromIndex](../../aspose.imaging/intrange/getarrayoneitemfromindex)(int) | Returns one item array from specified index |
+| static [GetRange](../../aspose.imaging/intrange/getrange)(int, int, int) | Gets the count range of int elements starting at start |
 
 ### See Also
 

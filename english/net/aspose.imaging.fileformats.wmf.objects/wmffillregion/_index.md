@@ -25,8 +25,8 @@ public class WmfFillRegion : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [BrushIndex](brushindex) { get; set; } | Gets or sets the index of the brush. |
-| [RegionIndex](regionindex) { get; set; } | Gets or sets the index of the region. |
+| [BrushIndex](../../aspose.imaging.fileformats.wmf.objects/wmffillregion/brushindex) { get; set; } | Gets or sets the index of the brush. |
+| [RegionIndex](../../aspose.imaging.fileformats.wmf.objects/wmffillregion/regionindex) { get; set; } | Gets or sets the index of the region. |
 
 ### See Also
 

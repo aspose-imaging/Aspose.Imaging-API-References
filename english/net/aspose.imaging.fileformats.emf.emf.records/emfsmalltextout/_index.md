@@ -24,15 +24,17 @@ public sealed class EmfSmallTextOut : EmfDrawingRecordType
 
 | Name | Description |
 | --- | --- |
-| [Bounds](bounds) { get; set; } | Gets or sets an optional, 128-bit WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies the bounding rectangle in device units. |
-| [CChars](cchars) { get; set; } | Gets or sets a 32-bit unsigned integer specifying the number of 16-bit characters in the string. The string is NOT null-terminated. |
-| [ExScale](exscale) { get; set; } | Gets or sets a 32-bit floating-point value that specifies how much to scale the text in the x-direction. |
-| [EyScale](eyscale) { get; set; } | Gets or sets a 32-bit floating-point value that specifies how much to scale the text in the y-direction. |
-| [FuOptions](fuoptions) { get; set; } | Gets or sets a 32-bit unsigned integer specifying the text output options to use. These options are specified by one or a combination of values from the ExtTextOutOptions enumeration (section 2.1.11). |
-| [IGraphicsMode](igraphicsmode) { get; set; } | Gets or sets a 32-bit unsigned integer specifying the graphics mode, from the GraphicsMode enumeration (section 2.1.16). |
-| [TextString](textstring) { get; set; } | Gets or sets a variable-length string that contains the text string to draw, in either 8-bit or 16-bit character codes, according to the value of the fuOptions field. |
-| [X](x) { get; set; } | Gets or sets a 32-bit signed integer specifying the x-coordinate of where to place the string. |
-| [Y](y) { get; set; } | Gets or sets a 32-bit signed integer specifying the y-coordinate of where to place the string. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/bounds) { get; set; } | Gets or sets an optional, 128-bit WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies the bounding rectangle in device units. |
+| [CChars](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/cchars) { get; set; } | Gets or sets a 32-bit unsigned integer specifying the number of 16-bit characters in the string. The string is NOT null-terminated. |
+| [ExScale](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/exscale) { get; set; } | Gets or sets a 32-bit floating-point value that specifies how much to scale the text in the x-direction. |
+| [EyScale](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/eyscale) { get; set; } | Gets or sets a 32-bit floating-point value that specifies how much to scale the text in the y-direction. |
+| [FuOptions](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/fuoptions) { get; set; } | Gets or sets a 32-bit unsigned integer specifying the text output options to use. These options are specified by one or a combination of values from the ExtTextOutOptions enumeration (section 2.1.11). |
+| [IGraphicsMode](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/igraphicsmode) { get; set; } | Gets or sets a 32-bit unsigned integer specifying the graphics mode, from the GraphicsMode enumeration (section 2.1.16). |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [TextString](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/textstring) { get; set; } | Gets or sets a variable-length string that contains the text string to draw, in either 8-bit or 16-bit character codes, according to the value of the fuOptions field. |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
+| [X](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/x) { get; set; } | Gets or sets a 32-bit signed integer specifying the x-coordinate of where to place the string. |
+| [Y](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/y) { get; set; } | Gets or sets a 32-bit signed integer specifying the y-coordinate of where to place the string. |
 
 ### Remarks
 

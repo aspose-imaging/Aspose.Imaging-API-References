@@ -18,12 +18,12 @@ public interface IMaskingSession : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [Decompose](decompose)() | Performs first rough decompose operation |
-| [DecomposeAsync](decomposeasync)() | Creates the asynchronous task which can perform first rough decompose operation |
-| [ImproveDecomposition](improvedecomposition)(IMaskingArgs) | Performs retraining decompose operation |
-| [ImproveDecompositionAsync](improvedecompositionasync)(IMaskingArgs) | Creates the asynchronous task which can perform retraining decompose operation |
-| [Save](save)(Stream) | Save the session state to the specified stream. |
-| [Save](save)(string) | Saves the session state to the specified file. |
+| [Decompose](../../aspose.imaging.masking/imaskingsession/decompose)() | Performs first rough decompose operation |
+| [DecomposeAsync](../../aspose.imaging.masking/imaskingsession/decomposeasync)() | Creates the asynchronous task which can perform first rough decompose operation |
+| [ImproveDecomposition](../../aspose.imaging.masking/imaskingsession/improvedecomposition)(IMaskingArgs) | Performs retraining decompose operation |
+| [ImproveDecompositionAsync](../../aspose.imaging.masking/imaskingsession/improvedecompositionasync)(IMaskingArgs) | Creates the asynchronous task which can perform retraining decompose operation |
+| [Save](../../aspose.imaging.masking/imaskingsession/save)(Stream) | Save the session state to the specified stream. |
+| [Save](../../aspose.imaging.masking/imaskingsession/save)(string) | Saves the session state to the specified file. |
 
 ### Examples
 

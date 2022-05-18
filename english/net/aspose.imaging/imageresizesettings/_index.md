@@ -24,11 +24,11 @@ public class ImageResizeSettings
 
 | Name | Description |
 | --- | --- |
-| [ColorCompareMethod](colorcomparemethod) { get; set; } | Gets or sets the color compare method. |
-| [ColorQuantizationMethod](colorquantizationmethod) { get; set; } | Gets or sets the color quantization method. |
-| [EntriesCount](entriescount) { get; set; } | Gets or sets the entries count |
-| [FilterType](filtertype) { get; set; } | Gets or sets the type of the filter. |
-| [Mode](mode) { get; set; } | Gets or sets the interpolation mode. |
+| [ColorCompareMethod](../../aspose.imaging/imageresizesettings/colorcomparemethod) { get; set; } | Gets or sets the color compare method. |
+| [ColorQuantizationMethod](../../aspose.imaging/imageresizesettings/colorquantizationmethod) { get; set; } | Gets or sets the color quantization method. |
+| [EntriesCount](../../aspose.imaging/imageresizesettings/entriescount) { get; set; } | Gets or sets the entries count |
+| [FilterType](../../aspose.imaging/imageresizesettings/filtertype) { get; set; } | Gets or sets the type of the filter. |
+| [Mode](../../aspose.imaging/imageresizesettings/mode) { get; set; } | Gets or sets the interpolation mode. |
 
 ### See Also
 

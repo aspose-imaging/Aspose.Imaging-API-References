@@ -24,13 +24,13 @@ public class DisposableObject : IDisposable
 
 | Name | Description |
 | --- | --- |
-| [Disposed](disposed) { get; } | Gets a value indicating whether this instance is disposed. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Dispose](dispose)() | Disposes the current instance. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
 
 ### See Also
 

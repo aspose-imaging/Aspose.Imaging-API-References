@@ -24,8 +24,8 @@ public sealed class EmfPlusBitmapData : EmfPlusBaseBitmapData
 
 | Name | Description |
 | --- | --- |
-| [Colors](colors) { get; set; } | Gets or sets the palette colors Colors (variable): An optional [`EmfPlusPalette`](../emfpluspalette) object (section 2.2.2.28), which specifies the palette of colors used in the pixel data. This field MUST be present if the I flag is set in the PixelFormat field of the [`EmfPlusBitmap`](../emfplusbitmap) object. |
-| [PixelData](pixeldata) { get; set; } | Gets or sets pixel data PixelData (variable): An array of bytes that specify the pixel data. The size and format of this data can be computed from fields in the EmfPlusBitmap object, including the pixel format from the [`EmfPlusPixelFormat`](../../aspose.imaging.fileformats.emf.emfplus.consts/emfpluspixelformat) enumeration (section 2.1.1.25). |
+| [Colors](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmapdata/colors) { get; set; } | Gets or sets the palette colors Colors (variable): An optional [`EmfPlusPalette`](../emfpluspalette) object (section 2.2.2.28), which specifies the palette of colors used in the pixel data. This field MUST be present if the I flag is set in the PixelFormat field of the [`EmfPlusBitmap`](../emfplusbitmap) object. |
+| [PixelData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmapdata/pixeldata) { get; set; } | Gets or sets pixel data PixelData (variable): An array of bytes that specify the pixel data. The size and format of this data can be computed from fields in the EmfPlusBitmap object, including the pixel format from the [`EmfPlusPixelFormat`](../../aspose.imaging.fileformats.emf.emfplus.consts/emfpluspixelformat) enumeration (section 2.1.1.25). |
 
 ### See Also
 

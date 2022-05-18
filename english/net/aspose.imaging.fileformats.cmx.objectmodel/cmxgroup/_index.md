@@ -24,13 +24,14 @@ public class CmxGroup : CmxContainer
 
 | Name | Description |
 | --- | --- |
-| [BoundBox](boundbox) { get; set; } | Gets or sets the bounding box. |
+| [BoundBox](../../aspose.imaging.fileformats.cmx.objectmodel/cmxgroup/boundbox) { get; set; } | Gets or sets the bounding box. |
+| virtual [Elements](../../aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer/elements) { get; } | Gets the elements. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a String that represents this instance. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel/cmxgroup/tostring)() | Returns a String that represents this instance. |
 
 ### See Also
 

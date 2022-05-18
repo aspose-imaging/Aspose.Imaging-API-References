@@ -18,15 +18,15 @@ public interface IOrderedShape
 
 | Name | Description |
 | --- | --- |
-| [EndPoint](endpoint) { get; } | Gets the ending shape point. |
-| [IsClosed](isclosed) { get; set; } | Gets or sets a value indicating whether ordered shape is closed. When processing closed ordered shape the starting and ending points have no meaning. |
-| [StartPoint](startpoint) { get; } | Gets the starting shape point. |
+| [EndPoint](../../aspose.imaging/iorderedshape/endpoint) { get; } | Gets the ending shape point. |
+| [IsClosed](../../aspose.imaging/iorderedshape/isclosed) { get; set; } | Gets or sets a value indicating whether ordered shape is closed. When processing closed ordered shape the starting and ending points have no meaning. |
+| [StartPoint](../../aspose.imaging/iorderedshape/startpoint) { get; } | Gets the starting shape point. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [Reverse](reverse)() | Reverses the order of points for this shape. |
+| [Reverse](../../aspose.imaging/iorderedshape/reverse)() | Reverses the order of points for this shape. |
 
 ### See Also
 

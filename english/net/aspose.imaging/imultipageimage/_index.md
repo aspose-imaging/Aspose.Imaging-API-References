@@ -18,9 +18,9 @@ public interface IMultipageImage
 
 | Name | Description |
 | --- | --- |
-| [PageCount](pagecount) { get; } | Gets the page count. |
-| [PageExportingAction](pageexportingaction) { get; set; } | Gets or sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved. |
-| [Pages](pages) { get; } | Gets the pages. |
+| [PageCount](../../aspose.imaging/imultipageimage/pagecount) { get; } | Gets the page count. |
+| [PageExportingAction](../../aspose.imaging/imultipageimage/pageexportingaction) { get; set; } | Gets or sets the page exporting action. Please note that setting this method will automatically release page resources after it is executed. It will be executed just before each page is saved. |
+| [Pages](../../aspose.imaging/imultipageimage/pages) { get; } | Gets the pages. |
 
 ### Examples
 

@@ -24,14 +24,14 @@ public class InterruptMonitor : IInterruptMonitor
 
 | Name | Description |
 | --- | --- |
-| virtual [IsInterrupted](isinterrupted) { get; } | Gets the value indicating whether operations should be interrupted. |
-| static [ThreadLocalInstance](threadlocalinstance) { get; set; } | Gets or sets the IInterruptMonitor instance which is unique for each thread. |
+| virtual [IsInterrupted](../../aspose.imaging.multithreading/interruptmonitor/isinterrupted) { get; } | Gets the value indicating whether operations should be interrupted. |
+| static [ThreadLocalInstance](../../aspose.imaging.multithreading/interruptmonitor/threadlocalinstance) { get; set; } | Gets or sets the IInterruptMonitor instance which is unique for each thread. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| virtual [Interrupt](interrupt)() | Sends a request to interrupt operations. |
+| virtual [Interrupt](../../aspose.imaging.multithreading/interruptmonitor/interrupt)() | Sends a request to interrupt operations. |
 
 ### Examples
 

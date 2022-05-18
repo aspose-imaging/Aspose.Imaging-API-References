@@ -18,7 +18,7 @@ public static class ImageAttributesExtensions
 
 | Name | Description |
 | --- | --- |
-| static [ToGdiImageAttributes](togdiimageattributes)(ImageAttributes) | Converts the [`ImageAttributes`](../../aspose.imaging/imageattributes) to the ImageAttributes. |
+| static [ToGdiImageAttributes](../../aspose.imaging.extensions/imageattributesextensions/togdiimageattributes)(ImageAttributes) | Converts the [`ImageAttributes`](../../aspose.imaging/imageattributes) to the ImageAttributes. |
 
 ### See Also
 

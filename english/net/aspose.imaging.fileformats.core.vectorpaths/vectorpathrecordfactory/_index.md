@@ -24,7 +24,7 @@ public class VectorPathRecordFactory
 
 | Name | Description |
 | --- | --- |
-| [ProducePathRecord](producepathrecord)(byte[]) | Produces the path record. |
+| [ProducePathRecord](../../aspose.imaging.fileformats.core.vectorpaths/vectorpathrecordfactory/producepathrecord)(byte[]) | Produces the path record. |
 
 ### See Also
 

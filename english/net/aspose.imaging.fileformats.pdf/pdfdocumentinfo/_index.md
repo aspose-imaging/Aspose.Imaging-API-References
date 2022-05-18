@@ -24,10 +24,10 @@ public class PdfDocumentInfo
 
 | Name | Description |
 | --- | --- |
-| [Author](author) { get; set; } | Gets or sets author of the document. |
-| [Keywords](keywords) { get; set; } | Gets or sets keywords of the document. |
-| [Subject](subject) { get; set; } | Gets or sets subject of the document. |
-| [Title](title) { get; set; } | Gets or sets title of the document. |
+| [Author](../../aspose.imaging.fileformats.pdf/pdfdocumentinfo/author) { get; set; } | Gets or sets author of the document. |
+| [Keywords](../../aspose.imaging.fileformats.pdf/pdfdocumentinfo/keywords) { get; set; } | Gets or sets keywords of the document. |
+| [Subject](../../aspose.imaging.fileformats.pdf/pdfdocumentinfo/subject) { get; set; } | Gets or sets subject of the document. |
+| [Title](../../aspose.imaging.fileformats.pdf/pdfdocumentinfo/title) { get; set; } | Gets or sets title of the document. |
 
 ### See Also
 

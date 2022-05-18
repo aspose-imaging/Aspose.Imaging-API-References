@@ -29,24 +29,24 @@ public sealed class Font
 
 | Name | Description |
 | --- | --- |
-| [Bold](bold) { get; } | Gets a value indicating whether this [`Font`](../font) is bold. |
-| [CharacterSet](characterset) { get; } | Gets a byte value that specifies the character set that this [`Font`](../font) uses. |
-| [Italic](italic) { get; } | Gets a value indicating whether this [`Font`](../font) is italic. |
-| [Name](name) { get; } | Gets the face name of this [`Font`](../font). |
-| [Size](size) { get; } | Gets the em-size of this [`Font`](../font) measured in the units specified by the [`Unit`](./unit) property. |
-| [Strikeout](strikeout) { get; } | Gets a value indicating whether this [`Font`](../font) specifies a horizontal line through the font. |
-| [Style](style) { get; } | Gets style information for this [`Font`](../font). |
-| [Underline](underline) { get; } | Gets a value indicating whether this [`Font`](../font) is underlined. |
-| [Unit](unit) { get; } | Gets the unit of measure for this [`Font`](../font). |
+| [Bold](../../aspose.imaging/font/bold) { get; } | Gets a value indicating whether this [`Font`](../font) is bold. |
+| [CharacterSet](../../aspose.imaging/font/characterset) { get; } | Gets a byte value that specifies the character set that this [`Font`](../font) uses. |
+| [Italic](../../aspose.imaging/font/italic) { get; } | Gets a value indicating whether this [`Font`](../font) is italic. |
+| [Name](../../aspose.imaging/font/name) { get; } | Gets the face name of this [`Font`](../font). |
+| [Size](../../aspose.imaging/font/size) { get; } | Gets the em-size of this [`Font`](../font) measured in the units specified by the [`Unit`](./unit) property. |
+| [Strikeout](../../aspose.imaging/font/strikeout) { get; } | Gets a value indicating whether this [`Font`](../font) specifies a horizontal line through the font. |
+| [Style](../../aspose.imaging/font/style) { get; } | Gets style information for this [`Font`](../font). |
+| [Underline](../../aspose.imaging/font/underline) { get; } | Gets a value indicating whether this [`Font`](../font) is underlined. |
+| [Unit](../../aspose.imaging/font/unit) { get; } | Gets the unit of measure for this [`Font`](../font). |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [DeepClone](deepclone)() | Creates an exact deep copy of this [`Font`](../font). |
-| override [Equals](equals)(object) | Indicates whether the specified object is a [`Font`](../font) and has the same property values as this [`Font`](../font). |
-| override [GetHashCode](gethashcode)() | Gets the hash code for this [`Font`](../font). |
-| override [ToString](tostring)() | Returns a human-readable string representation of this [`Font`](../font). |
+| [DeepClone](../../aspose.imaging/font/deepclone)() | Creates an exact deep copy of this [`Font`](../font). |
+| override [Equals](../../aspose.imaging/font/equals)(object) | Indicates whether the specified object is a [`Font`](../font) and has the same property values as this [`Font`](../font). |
+| override [GetHashCode](../../aspose.imaging/font/gethashcode)() | Gets the hash code for this [`Font`](../font). |
+| override [ToString](../../aspose.imaging/font/tostring)() | Returns a human-readable string representation of this [`Font`](../font). |
 
 ### See Also
 

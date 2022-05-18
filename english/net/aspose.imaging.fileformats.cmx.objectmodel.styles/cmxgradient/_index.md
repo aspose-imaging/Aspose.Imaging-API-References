@@ -24,24 +24,24 @@ public class CmxGradient
 
 | Name | Description |
 | --- | --- |
-| [Angle](angle) { get; set; } | Gets or sets the angle. |
-| [CenterXOffset](centerxoffset) { get; set; } | Gets or sets the center x offset. |
-| [CenterYOffset](centeryoffset) { get; set; } | Gets or sets the center y offset. |
-| [Colors](colors) { get; set; } | Gets or sets the colors. |
-| [EdgeOffset](edgeoffset) { get; set; } | Gets or sets the edge offset. |
-| [Mode](mode) { get; set; } | Gets or sets the mode. |
-| [Offsets](offsets) { get; set; } | Gets or sets the offsets. |
-| [RateMethod](ratemethod) { get; set; } | Gets or sets the rate method. |
-| [RateValue](ratevalue) { get; set; } | Gets or sets the rate value. |
-| [Screen](screen) { get; set; } | Gets or sets the screen. |
-| [Steps](steps) { get; set; } | Gets or sets the steps. |
-| [Type](type) { get; set; } | Gets or sets the type. |
+| [Angle](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/angle) { get; set; } | Gets or sets the angle. |
+| [CenterXOffset](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/centerxoffset) { get; set; } | Gets or sets the center x offset. |
+| [CenterYOffset](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/centeryoffset) { get; set; } | Gets or sets the center y offset. |
+| [Colors](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/colors) { get; set; } | Gets or sets the colors. |
+| [EdgeOffset](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/edgeoffset) { get; set; } | Gets or sets the edge offset. |
+| [Mode](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/mode) { get; set; } | Gets or sets the mode. |
+| [Offsets](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/offsets) { get; set; } | Gets or sets the offsets. |
+| [RateMethod](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/ratemethod) { get; set; } | Gets or sets the rate method. |
+| [RateValue](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/ratevalue) { get; set; } | Gets or sets the rate value. |
+| [Screen](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/screen) { get; set; } | Gets or sets the screen. |
+| [Steps](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/steps) { get; set; } | Gets or sets the steps. |
+| [Type](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/type) { get; set; } | Gets or sets the type. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a String that represents this instance. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/tostring)() | Returns a String that represents this instance. |
 
 ### See Also
 

@@ -24,14 +24,14 @@ public class OdPatternBrush : OdBrush
 
 | Name | Description |
 | --- | --- |
-| override [BrushStyle](brushstyle) { get; } | Gets the style. |
-| [Pattern](pattern) { get; set; } | Gets or sets the pattern. |
+| override [BrushStyle](../../aspose.imaging.fileformats.opendocument.objects.brush/odpatternbrush/brushstyle) { get; } | Gets the style. |
+| [Pattern](../../aspose.imaging.fileformats.opendocument.objects.brush/odpatternbrush/pattern) { get; set; } | Gets or sets the pattern. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Clone](clone)() | Clone this instance. |
+| override [Clone](../../aspose.imaging.fileformats.opendocument.objects.brush/odpatternbrush/clone)() | Clone this instance. |
 
 ### See Also
 

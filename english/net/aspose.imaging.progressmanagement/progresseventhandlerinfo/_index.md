@@ -18,10 +18,10 @@ public class ProgressEventHandlerInfo
 
 | Name | Description |
 | --- | --- |
-| [Description](description) { get; } | Gets the description of the event |
-| [EventType](eventtype) { get; } | Gets the type of the event. |
-| [MaxValue](maxvalue) { get; } | Gets the upper progress value limit. |
-| [Value](value) { get; } | Gets current progress value. |
+| [Description](../../aspose.imaging.progressmanagement/progresseventhandlerinfo/description) { get; } | Gets the description of the event |
+| [EventType](../../aspose.imaging.progressmanagement/progresseventhandlerinfo/eventtype) { get; } | Gets the type of the event. |
+| [MaxValue](../../aspose.imaging.progressmanagement/progresseventhandlerinfo/maxvalue) { get; } | Gets the upper progress value limit. |
+| [Value](../../aspose.imaging.progressmanagement/progresseventhandlerinfo/value) { get; } | Gets current progress value. |
 
 ### Examples
 

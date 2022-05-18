@@ -18,17 +18,17 @@ public static class GifBlocksRegistry
 
 | Name | Description |
 | --- | --- |
-| static [RegisteredDescriptors](registereddescriptors) { get; } | Gets the registered descriptors. |
+| static [RegisteredDescriptors](../../aspose.imaging.fileformats.gif/gifblocksregistry/registereddescriptors) { get; } | Gets the registered descriptors. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| static [GetFirstSupportedDescriptor](getfirstsupporteddescriptor)(Stream) | Gets the first supported opener descriptor. |
-| static [GetFirstSupportedDescriptorByTypeName](getfirstsupporteddescriptorbytypename)(string) | Gets the first supported descriptor by its type name. |
-| static [LoadBlockByFirstSupportedDescriptor](loadblockbyfirstsupporteddescriptor)(Stream, IColorPalette) | Loads gif block using first found opener suitable for the specified *stream*. |
-| static [RegisterOpener](registeropener)(IGifBlockLoaderDescriptor) | Registers the opener. |
-| static [UnregisterOpener](unregisteropener)(IGifBlockLoaderDescriptor) | Unregisters the opener. |
+| static [GetFirstSupportedDescriptor](../../aspose.imaging.fileformats.gif/gifblocksregistry/getfirstsupporteddescriptor)(Stream) | Gets the first supported opener descriptor. |
+| static [GetFirstSupportedDescriptorByTypeName](../../aspose.imaging.fileformats.gif/gifblocksregistry/getfirstsupporteddescriptorbytypename)(string) | Gets the first supported descriptor by its type name. |
+| static [LoadBlockByFirstSupportedDescriptor](../../aspose.imaging.fileformats.gif/gifblocksregistry/loadblockbyfirstsupporteddescriptor)(Stream, IColorPalette) | Loads gif block using first found opener suitable for the specified *stream*. |
+| static [RegisterOpener](../../aspose.imaging.fileformats.gif/gifblocksregistry/registeropener)(IGifBlockLoaderDescriptor) | Registers the opener. |
+| static [UnregisterOpener](../../aspose.imaging.fileformats.gif/gifblocksregistry/unregisteropener)(IGifBlockLoaderDescriptor) | Unregisters the opener. |
 
 ### See Also
 

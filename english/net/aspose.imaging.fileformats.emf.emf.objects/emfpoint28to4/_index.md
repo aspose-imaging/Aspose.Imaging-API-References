@@ -24,8 +24,8 @@ public sealed class EmfPoint28To4 : EmfObject
 
 | Name | Description |
 | --- | --- |
-| [X](x) { get; set; } | Gets or sets a BitFIX28_4 object (section 2.2.1) that represents the horizontal coordinate of the point. |
-| [Y](y) { get; set; } | Gets or sets a BitFIX28_4 object that represents the vertical coordinate of the point. |
+| [X](../../aspose.imaging.fileformats.emf.emf.objects/emfpoint28to4/x) { get; set; } | Gets or sets a BitFIX28_4 object (section 2.2.1) that represents the horizontal coordinate of the point. |
+| [Y](../../aspose.imaging.fileformats.emf.emf.objects/emfpoint28to4/y) { get; set; } | Gets or sets a BitFIX28_4 object that represents the vertical coordinate of the point. |
 
 ### See Also
 

@@ -24,11 +24,11 @@ public sealed class EmfRegionDataHeader : EmfObject
 
 | Name | Description |
 | --- | --- |
-| [Bounds](bounds) { get; set; } | Gets or sets a 128-bit WMF RectL object ([MS-WMF] section 2.2.2.19), which specifies the bounds of the region. |
-| [CountRects](countrects) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the number of rectangles in this region. |
-| [RgnSize](rgnsize) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the size of the buffer of rectangles in bytes. |
-| [Size](size) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the size of this object in bytes. This MUST be 0x00000020. |
-| [Type](type) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the region type. This SHOULD be RDH_RECTANGLES (0x00000001). |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/bounds) { get; set; } | Gets or sets a 128-bit WMF RectL object ([MS-WMF] section 2.2.2.19), which specifies the bounds of the region. |
+| [CountRects](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/countrects) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the number of rectangles in this region. |
+| [RgnSize](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/rgnsize) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the size of the buffer of rectangles in bytes. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/size) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the size of this object in bytes. This MUST be 0x00000020. |
+| [Type](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/type) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the region type. This SHOULD be RDH_RECTANGLES (0x00000001). |
 
 ### See Also
 

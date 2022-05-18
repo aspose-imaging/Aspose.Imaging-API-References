@@ -25,8 +25,10 @@ public class GaussianBlurFilterOptions : ConvolutionFilterOptions
 
 | Name | Description |
 | --- | --- |
-| [Radius](radius) { get; set; } | Gets or sets the radius. |
-| [Sigma](sigma) { get; set; } | Gets or sets the sigma. |
+| [Bias](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/bias) { get; set; } | Gets or sets the bias. |
+| [Factor](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/factor) { get; set; } | Gets or sets the factor. |
+| [Radius](../../aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/radius) { get; set; } | Gets or sets the radius. |
+| [Sigma](../../aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/sigma) { get; set; } | Gets or sets the sigma. |
 
 ### Examples
 

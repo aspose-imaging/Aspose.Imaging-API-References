@@ -18,7 +18,7 @@ public static class RotateFlipExtensions
 
 | Name | Description |
 | --- | --- |
-| static [ToGdiRotateFlipType](togdirotatefliptype)(RotateFlipType) | Converts Aspose.Imaging.RotateFlipType to System.Drawing.RotateFlipType. |
+| static [ToGdiRotateFlipType](../../aspose.imaging.extensions/rotateflipextensions/togdirotatefliptype)(RotateFlipType) | Converts Aspose.Imaging.RotateFlipType to System.Drawing.RotateFlipType. |
 
 ### See Also
 

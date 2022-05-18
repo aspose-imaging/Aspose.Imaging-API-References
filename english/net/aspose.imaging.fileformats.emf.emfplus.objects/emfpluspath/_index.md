@@ -24,9 +24,10 @@ public sealed class EmfPlusPath : EmfPlusGraphicsObjectType
 
 | Name | Description |
 | --- | --- |
-| [PathPointFlags](pathpointflags) { get; set; } | Gets or sets Path points count A 32-bit unsigned integer that specifies how to interpret the points and associated point types that are defined by this object |
-| [PathPoints](pathpoints) { get; set; } | Gets or sets array of path points An array of PathPointCount points that specify the path. The type of objects in this array are specified by the PathPointFlags field, as follows: If the P flag is set, the points are relative locations that are specified by EmfPlusPointR objects (section 2.2.2.37). If the P flag is clear and the C flag is set, the points are absolute locations that are specified by EmfPlusPoint objects (section 2.2.2.35). If the P flag is clear and the C flag is clear, the points are absolute locations that are specified by EmfPlusPointF objects (section 2.2.2.36). |
-| [PathPointTypes](pathpointtypes) { get; set; } | Gets or sets an array that specifies how the points in the PathPoints field are used to draw the path. The type of objects in this array is specified by the R flag in the PathPointFlags field |
+| [PathPointFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath/pathpointflags) { get; set; } | Gets or sets Path points count A 32-bit unsigned integer that specifies how to interpret the points and associated point types that are defined by this object |
+| [PathPoints](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath/pathpoints) { get; set; } | Gets or sets array of path points An array of PathPointCount points that specify the path. The type of objects in this array are specified by the PathPointFlags field, as follows: If the P flag is set, the points are relative locations that are specified by EmfPlusPointR objects (section 2.2.2.37). If the P flag is clear and the C flag is set, the points are absolute locations that are specified by EmfPlusPoint objects (section 2.2.2.35). If the P flag is clear and the C flag is clear, the points are absolute locations that are specified by EmfPlusPointF objects (section 2.2.2.36). |
+| [PathPointTypes](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath/pathpointtypes) { get; set; } | Gets or sets an array that specifies how the points in the PathPoints field are used to draw the path. The type of objects in this array is specified by the R flag in the PathPointFlags field |
+| [Version](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsobjecttype/version) { get; set; } | Gets or sets the version. |
 
 ### See Also
 

@@ -26,18 +26,30 @@ public sealed class ArcShape : PieShape, IOrderedShape
 
 | Name | Description |
 | --- | --- |
-| [EndPoint](endpoint) { get; } | Gets the ending shape point. |
-| [IsClosed](isclosed) { get; set; } | Gets or sets a value indicating whether ordered shape is closed. When processing closed ordered shape the starting and ending points have no meaning. |
-| override [Segments](segments) { get; } | Gets the shape segments. |
-| [StartPoint](startpoint) { get; } | Gets the starting shape point. |
+| override [Bounds](../../aspose.imaging.shapes/rectangleprojectedshape/bounds) { get; } | Gets the object's bounds. |
+| override [Center](../../aspose.imaging.shapes/rectangleprojectedshape/center) { get; } | Gets the shape's center. |
+| [EndPoint](../../aspose.imaging.shapes/arcshape/endpoint) { get; } | Gets the ending shape point. |
+| override [HasSegments](../../aspose.imaging.shapes/rectangleprojectedshape/hassegments) { get; } | Gets a value indicating whether shape has segments. |
+| [IsClosed](../../aspose.imaging.shapes/arcshape/isclosed) { get; set; } | Gets or sets a value indicating whether ordered shape is closed. When processing closed ordered shape the starting and ending points have no meaning. |
+| [LeftBottom](../../aspose.imaging.shapes/rectangleprojectedshape/leftbottom) { get; } | Gets the left bottom rectangle point. |
+| [LeftTop](../../aspose.imaging.shapes/rectangleprojectedshape/lefttop) { get; } | Gets the left top rectangle point. |
+| [RectangleHeight](../../aspose.imaging.shapes/rectangleprojectedshape/rectangleheight) { get; } | Gets the rectangle height. |
+| [RectangleWidth](../../aspose.imaging.shapes/rectangleprojectedshape/rectanglewidth) { get; } | Gets the rectangle width. |
+| [RightBottom](../../aspose.imaging.shapes/rectangleprojectedshape/rightbottom) { get; } | Gets the right bottom rectangle point. |
+| [RightTop](../../aspose.imaging.shapes/rectangleprojectedshape/righttop) { get; } | Gets the right top rectangle point. |
+| override [Segments](../../aspose.imaging.shapes/arcshape/segments) { get; } | Gets the shape segments. |
+| [StartAngle](../../aspose.imaging.shapes/pieshape/startangle) { get; set; } | Gets or sets the start angle. |
+| [StartPoint](../../aspose.imaging.shapes/arcshape/startpoint) { get; } | Gets the starting shape point. |
+| [SweepAngle](../../aspose.imaging.shapes/pieshape/sweepangle) { get; set; } | Gets or sets the sweep angle. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetBounds](getbounds)(Matrix) | Gets the object's bounds. |
-| override [GetBounds](getbounds)(Matrix, Pen) | Gets the object's bounds. |
-| [Reverse](reverse)() | Reverses the order of points for this shape. |
+| override [GetBounds](../../aspose.imaging.shapes/arcshape/getbounds)(Matrix) | Gets the object's bounds. |
+| override [GetBounds](../../aspose.imaging.shapes/arcshape/getbounds)(Matrix, Pen) | Gets the object's bounds. |
+| [Reverse](../../aspose.imaging.shapes/arcshape/reverse)() | Reverses the order of points for this shape. |
+| override [Transform](../../aspose.imaging.shapes/rectangleprojectedshape/transform)(Matrix) | Applies the specified transformation to the shape. |
 
 ### Examples
 

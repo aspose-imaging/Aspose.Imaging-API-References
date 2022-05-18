@@ -18,7 +18,7 @@ public static class OpenTypeFontsCache
 
 | Name | Description |
 | --- | --- |
-| static [UpdateCache](updatecache)() |  |
+| static [UpdateCache](../../aspose.imaging/opentypefontscache/updatecache)() |  |
 
 ### See Also
 

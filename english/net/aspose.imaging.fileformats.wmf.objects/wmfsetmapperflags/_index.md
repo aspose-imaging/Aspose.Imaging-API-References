@@ -24,7 +24,7 @@ public class WmfSetMapperFlags : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [MapperValues](mappervalues) { get; set; } | Gets or sets the mapper values. |
+| [MapperValues](../../aspose.imaging.fileformats.wmf.objects/wmfsetmapperflags/mappervalues) { get; set; } | Gets or sets the mapper values. |
 
 ### See Also
 

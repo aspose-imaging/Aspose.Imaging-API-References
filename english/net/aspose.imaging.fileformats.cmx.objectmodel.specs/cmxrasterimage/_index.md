@@ -24,24 +24,24 @@ public class CmxRasterImage : ICmxObjectSpec
 
 | Name | Description |
 | --- | --- |
-| [BitsPerPixel](bitsperpixel) { get; set; } | Gets or sets the bits per pixel. |
-| [BytesPerLine](bytesperline) { get; set; } | Gets or sets the size of the line. Measures in bytes. |
-| [ColorModel](colormodel) { get; set; } | Gets or sets the color model. |
-| [ColorPalette](colorpalette) { get; set; } | Gets or sets the color palette array. Elements is ARGB color values represents in Int32 |
-| [CompressedSize](compressedsize) { get; set; } | Gets or sets the compressed size of the image. Measures in bytes. |
-| [Compression](compression) { get; set; } | Gets or sets the compression. |
-| [Height](height) { get; set; } | Gets or sets the height of the image. Measures in pixels. |
-| [IsMask](ismask) { get; set; } | Gets or sets a value indicating whether this instance is mask. |
-| [RawData](rawdata) { get; set; } | Gets or sets the raw byte data of the image. |
-| [Size](size) { get; set; } | Gets or sets the size of the image. Measures in bytes. |
-| [Type](type) { get; set; } | Gets or sets the type of the image. |
-| [Width](width) { get; set; } | Gets or sets the width of the image. Measures in pixels. |
+| [BitsPerPixel](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/bitsperpixel) { get; set; } | Gets or sets the bits per pixel. |
+| [BytesPerLine](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/bytesperline) { get; set; } | Gets or sets the size of the line. Measures in bytes. |
+| [ColorModel](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/colormodel) { get; set; } | Gets or sets the color model. |
+| [ColorPalette](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/colorpalette) { get; set; } | Gets or sets the color palette array. Elements is ARGB color values represents in Int32 |
+| [CompressedSize](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/compressedsize) { get; set; } | Gets or sets the compressed size of the image. Measures in bytes. |
+| [Compression](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/compression) { get; set; } | Gets or sets the compression. |
+| [Height](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/height) { get; set; } | Gets or sets the height of the image. Measures in pixels. |
+| [IsMask](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/ismask) { get; set; } | Gets or sets a value indicating whether this instance is mask. |
+| [RawData](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/rawdata) { get; set; } | Gets or sets the raw byte data of the image. |
+| [Size](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/size) { get; set; } | Gets or sets the size of the image. Measures in bytes. |
+| [Type](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/type) { get; set; } | Gets or sets the type of the image. |
+| [Width](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/width) { get; set; } | Gets or sets the width of the image. Measures in pixels. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a String that represents this instance. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/tostring)() | Returns a String that represents this instance. |
 
 ### See Also
 

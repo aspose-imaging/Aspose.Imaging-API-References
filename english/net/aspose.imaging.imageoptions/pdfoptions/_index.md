@@ -24,10 +24,27 @@ public class PdfOptions : ImageOptionsBase
 
 | Name | Description |
 | --- | --- |
-| [PageSize](pagesize) { get; set; } | Gets or sets the size of the page. |
-| [PdfCoreOptions](pdfcoreoptions) { get; set; } | The PDF core options |
-| [PdfDocumentInfo](pdfdocumentinfo) { get; set; } | Gets or sets metadata for document. |
-| [UseOriginalImageResolution](useoriginalimageresolution) { get; set; } | Gets or sets a value indicating to use the original image DPI resolution |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | The multipage options |
+| [PageSize](../../aspose.imaging.imageoptions/pdfoptions/pagesize) { get; set; } | Gets or sets the size of the page. |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Gets or sets the color palette. |
+| [PdfCoreOptions](../../aspose.imaging.imageoptions/pdfoptions/pdfcoreoptions) { get; set; } | The PDF core options |
+| [PdfDocumentInfo](../../aspose.imaging.imageoptions/pdfoptions/pdfdocumentinfo) { get; set; } | Gets or sets metadata for document. |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Gets or sets the progress event handler. |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Gets or sets the resolution settings. |
+| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Gets or sets the source to create image in. |
+| [UseOriginalImageResolution](../../aspose.imaging.imageoptions/pdfoptions/useoriginalimageresolution) { get; set; } | Gets or sets a value indicating to use the original image DPI resolution |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Gets or sets the vector rasterization options. |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata) { get; set; } | Gets or sets the XMP metadata container. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | Clones this instance. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
 
 ### Examples
 

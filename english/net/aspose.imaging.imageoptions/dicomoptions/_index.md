@@ -24,9 +24,25 @@ public class DicomOptions : ImageOptionsBase
 
 | Name | Description |
 | --- | --- |
-| [ColorType](colortype) { get; set; } | Gets or sets the type of the color. |
-| [Compression](compression) { get; set; } | Gets or sets the compression. |
-| override [XmpData](xmpdata) { get; set; } | Gets or sets the Xmp data. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| [ColorType](../../aspose.imaging.imageoptions/dicomoptions/colortype) { get; set; } | Gets or sets the type of the color. |
+| [Compression](../../aspose.imaging.imageoptions/dicomoptions/compression) { get; set; } | Gets or sets the compression. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | The multipage options |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Gets or sets the color palette. |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Gets or sets the progress event handler. |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Gets or sets the resolution settings. |
+| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Gets or sets the source to create image in. |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Gets or sets the vector rasterization options. |
+| override [XmpData](../../aspose.imaging.imageoptions/dicomoptions/xmpdata) { get; set; } | Gets or sets the Xmp data. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | Clones this instance. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
 
 ### Examples
 

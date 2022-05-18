@@ -18,7 +18,7 @@ public interface IMultipageImageExt : IMultipageImage
 
 | Name | Description |
 | --- | --- |
-| [AddPage](addpage)(RasterImage) | Adds page to the image. |
+| [AddPage](../../aspose.imaging/imultipageimageext/addpage)(RasterImage) | Adds page to the image. |
 
 ### See Also
 

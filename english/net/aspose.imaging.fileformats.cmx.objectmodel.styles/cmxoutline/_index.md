@@ -24,22 +24,22 @@ public class CmxOutline
 
 | Name | Description |
 | --- | --- |
-| [Angle](angle) { get; set; } | Gets or sets the angle. |
-| [CapsType](capstype) { get; set; } | Gets or sets the type of the line caps. |
-| [Color](color) { get; set; } | Gets or sets the outline color. |
-| [EndArrowhead](endarrowhead) { get; set; } | Gets or sets the shape for the end of the line |
-| [JoinType](jointype) { get; set; } | Gets or sets the type of the line join. |
-| [LineType](linetype) { get; set; } | Gets or sets the type of the line. |
-| [LineWidth](linewidth) { get; set; } | Gets or sets the width of the line. Uses common document distance measure unit. |
-| [StartArrowhead](startarrowhead) { get; set; } | Gets or sets the shape for the start of the line |
-| [Stretch](stretch) { get; set; } | Gets or sets the stretch value. |
-| [Stroke](stroke) { get; set; } | Gets or sets the stroke pattern. |
+| [Angle](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/angle) { get; set; } | Gets or sets the angle. |
+| [CapsType](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/capstype) { get; set; } | Gets or sets the type of the line caps. |
+| [Color](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/color) { get; set; } | Gets or sets the outline color. |
+| [EndArrowhead](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/endarrowhead) { get; set; } | Gets or sets the shape for the end of the line |
+| [JoinType](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/jointype) { get; set; } | Gets or sets the type of the line join. |
+| [LineType](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/linetype) { get; set; } | Gets or sets the type of the line. |
+| [LineWidth](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/linewidth) { get; set; } | Gets or sets the width of the line. Uses common document distance measure unit. |
+| [StartArrowhead](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/startarrowhead) { get; set; } | Gets or sets the shape for the start of the line |
+| [Stretch](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/stretch) { get; set; } | Gets or sets the stretch value. |
+| [Stroke](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/stroke) { get; set; } | Gets or sets the stroke pattern. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a String that represents this instance. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/tostring)() | Returns a String that represents this instance. |
 
 ### See Also
 

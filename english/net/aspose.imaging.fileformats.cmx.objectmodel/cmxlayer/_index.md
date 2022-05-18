@@ -24,10 +24,11 @@ public class CmxLayer : CmxContainer
 
 | Name | Description |
 | --- | --- |
-| [Flags](flags) { get; set; } | Gets or sets the flags. |
-| [IsVisible](isvisible) { get; set; } | Gets or sets a value indicating whether this layer is visible. |
-| [Name](name) { get; set; } | Gets or sets the name of the layer. |
-| [Number](number) { get; set; } | Gets or sets the layer order number. |
+| virtual [Elements](../../aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer/elements) { get; } | Gets the elements. |
+| [Flags](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/flags) { get; set; } | Gets or sets the flags. |
+| [IsVisible](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/isvisible) { get; set; } | Gets or sets a value indicating whether this layer is visible. |
+| [Name](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/name) { get; set; } | Gets or sets the name of the layer. |
+| [Number](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/number) { get; set; } | Gets or sets the layer order number. |
 
 ### See Also
 

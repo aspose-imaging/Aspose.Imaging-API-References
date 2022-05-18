@@ -25,13 +25,13 @@ public sealed class XmpReal : XmpTypeBase
 
 | Name | Description |
 | --- | --- |
-| [Value](value) { get; set; } | Gets or sets float the value. |
+| [Value](../../aspose.imaging.xmp.types.basic/xmpreal/value) { get; set; } | Gets or sets float the value. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetXmpRepresentation](getxmprepresentation)() | Gets the string contained value in XMP format. |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.types.basic/xmpreal/getxmprepresentation)() | Gets the string contained value in XMP format. |
 
 ### See Also
 

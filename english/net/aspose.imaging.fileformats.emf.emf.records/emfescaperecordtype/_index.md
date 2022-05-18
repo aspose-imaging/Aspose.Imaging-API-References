@@ -18,7 +18,9 @@ public abstract class EmfEscapeRecordType : EmfRecord
 
 | Name | Description |
 | --- | --- |
-| [IEscape](iescape) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the printer driver escape to execute. This MUST be one of the values in the WMF MetafileEscapes enumeration ([MSWMF] section 2.1.1.17). |
+| [IEscape](../../aspose.imaging.fileformats.emf.emf.records/emfescaperecordtype/iescape) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the printer driver escape to execute. This MUST be one of the values in the WMF MetafileEscapes enumeration ([MSWMF] section 2.1.1.17). |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

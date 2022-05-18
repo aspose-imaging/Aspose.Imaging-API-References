@@ -27,7 +27,7 @@ public class TiffImageException : ImageException
 
 | Name | Description |
 | --- | --- |
-| [OptionsError](optionserror) { get; } | Gets the tiff options error. |
+| [OptionsError](../../aspose.imaging.coreexceptions.imageformats/tiffimageexception/optionserror) { get; } | Gets the tiff options error. |
 
 ### See Also
 

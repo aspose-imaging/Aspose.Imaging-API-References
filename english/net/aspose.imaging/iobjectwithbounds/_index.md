@@ -18,10 +18,10 @@ public interface IObjectWithBounds
 
 | Name | Description |
 | --- | --- |
-| [Bounds](bounds) { get; } | Gets the object bounds. |
-| [Height](height) { get; } | Gets the object height. |
-| [Size](size) { get; } | Gets the object size. |
-| [Width](width) { get; } | Gets the object width. |
+| [Bounds](../../aspose.imaging/iobjectwithbounds/bounds) { get; } | Gets the object bounds. |
+| [Height](../../aspose.imaging/iobjectwithbounds/height) { get; } | Gets the object height. |
+| [Size](../../aspose.imaging/iobjectwithbounds/size) { get; } | Gets the object size. |
+| [Width](../../aspose.imaging/iobjectwithbounds/width) { get; } | Gets the object width. |
 
 ### See Also
 

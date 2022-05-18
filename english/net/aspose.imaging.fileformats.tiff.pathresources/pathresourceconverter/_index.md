@@ -18,8 +18,8 @@ public static class PathResourceConverter
 
 | Name | Description |
 | --- | --- |
-| static [FromGraphicsPath](fromgraphicspath)(GraphicsPath, Size) | Converts the [`GraphicsPath`](../../aspose.imaging/graphicspath) instance to path resources. |
-| static [ToGraphicsPath](tographicspath)(PathResource[], Size) | Converts path resources to the [`GraphicsPath`](../../aspose.imaging/graphicspath) instance. |
+| static [FromGraphicsPath](../../aspose.imaging.fileformats.tiff.pathresources/pathresourceconverter/fromgraphicspath)(GraphicsPath, Size) | Converts the [`GraphicsPath`](../../aspose.imaging/graphicspath) instance to path resources. |
+| static [ToGraphicsPath](../../aspose.imaging.fileformats.tiff.pathresources/pathresourceconverter/tographicspath)(PathResource[], Size) | Converts path resources to the [`GraphicsPath`](../../aspose.imaging/graphicspath) instance. |
 
 ### Examples
 

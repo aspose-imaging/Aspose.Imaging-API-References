@@ -24,8 +24,8 @@ public sealed class EmfPlusTextureBrushOptionalData : EmfPlusStructureObjectType
 
 | Name | Description |
 | --- | --- |
-| [ImageObject](imageobject) { get; set; } | Gets or sets an optional EmfPlusImage object (section 2.2.1.4) that specifies the brush texture. This field MUST be present if the size of the EmfPlusObject record (section 2.3.5.1) that defines this texture brush is large enough to accommodate an EmfPlusImage object in addition to the required fields of the EmfPlusTextureBrushData object and optionally an EmfPlusTransformMatrix object. |
-| [TransformMatrix](transformmatrix) { get; set; } | Gets or sets an optional EmfPlusTransformMatrix object (section 2.2.2.47) that specifies a world space to device space transform for the texture brush. This field MUST be present if the BrushDataTransform flag is set in the BrushDataFlags field of the EmfPlusTextureBrushData object. |
+| [ImageObject](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushoptionaldata/imageobject) { get; set; } | Gets or sets an optional EmfPlusImage object (section 2.2.1.4) that specifies the brush texture. This field MUST be present if the size of the EmfPlusObject record (section 2.3.5.1) that defines this texture brush is large enough to accommodate an EmfPlusImage object in addition to the required fields of the EmfPlusTextureBrushData object and optionally an EmfPlusTransformMatrix object. |
+| [TransformMatrix](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushoptionaldata/transformmatrix) { get; set; } | Gets or sets an optional EmfPlusTransformMatrix object (section 2.2.2.47) that specifies a world space to device space transform for the texture brush. This field MUST be present if the BrushDataTransform flag is set in the BrushDataFlags field of the EmfPlusTextureBrushData object. |
 
 ### Remarks
 

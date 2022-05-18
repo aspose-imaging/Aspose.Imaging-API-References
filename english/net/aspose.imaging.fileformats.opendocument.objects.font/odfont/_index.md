@@ -24,11 +24,11 @@ public class OdFont
 
 | Name | Description |
 | --- | --- |
-| [Bold](bold) { get; set; } | Gets or sets a value indicating whether this [`OdFont`](../odfont) is weight. |
-| [Facename](facename) { get; set; } | Gets or sets the facename. |
-| [Height](height) { get; set; } | Gets or sets the height. |
-| [Italic](italic) { get; set; } | Gets or sets a value indicating whether this [`OdFont`](../odfont) is italic. |
-| [Strikeout](strikeout) { get; set; } | Gets or sets a value indicating whether this [`OdFont`](../odfont) is strikeout. |
+| [Bold](../../aspose.imaging.fileformats.opendocument.objects.font/odfont/bold) { get; set; } | Gets or sets a value indicating whether this [`OdFont`](../odfont) is weight. |
+| [Facename](../../aspose.imaging.fileformats.opendocument.objects.font/odfont/facename) { get; set; } | Gets or sets the facename. |
+| [Height](../../aspose.imaging.fileformats.opendocument.objects.font/odfont/height) { get; set; } | Gets or sets the height. |
+| [Italic](../../aspose.imaging.fileformats.opendocument.objects.font/odfont/italic) { get; set; } | Gets or sets a value indicating whether this [`OdFont`](../odfont) is italic. |
+| [Strikeout](../../aspose.imaging.fileformats.opendocument.objects.font/odfont/strikeout) { get; set; } | Gets or sets a value indicating whether this [`OdFont`](../odfont) is strikeout. |
 
 ### See Also
 

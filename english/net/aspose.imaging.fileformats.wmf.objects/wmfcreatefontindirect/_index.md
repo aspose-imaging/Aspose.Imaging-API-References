@@ -24,8 +24,9 @@ public class WmfCreateFontInDirect : WmfGraphicObject
 
 | Name | Description |
 | --- | --- |
-| [ExtendedBytes](extendedbytes) { get; set; } | Gets or sets the extended bytes. |
-| [LogFont](logfont) { get; set; } | Gets or sets the log font. |
+| [ExtendedBytes](../../aspose.imaging.fileformats.wmf.objects/wmfcreatefontindirect/extendedbytes) { get; set; } | Gets or sets the extended bytes. |
+| [Index](../../aspose.imaging.fileformats.wmf.objects/wmfgraphicobject/index) { get; set; } | Gets or sets the index. |
+| [LogFont](../../aspose.imaging.fileformats.wmf.objects/wmfcreatefontindirect/logfont) { get; set; } | Gets or sets the log font. |
 
 ### See Also
 

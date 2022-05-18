@@ -24,7 +24,7 @@ public class WmfSetRelabs : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [Parameters](parameters) { get; set; } | Gets or sets the parameter. |
+| [Parameters](../../aspose.imaging.fileformats.wmf.objects/wmfsetrelabs/parameters) { get; set; } | Gets or sets the parameter. |
 
 ### See Also
 

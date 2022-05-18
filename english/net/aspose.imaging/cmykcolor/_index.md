@@ -18,20 +18,20 @@ public struct CmykColor
 
 | Name | Description |
 | --- | --- |
-| static [Empty](empty) { get; } | Gets the empty. |
-| [C](c) { get; } | Gets the cyan component value of this [`Color`](../color) structure. |
-| [IsEmpty](isempty) { get; } | Gets a value indicating whether this [`Color`](../color) structure is uninitialized. |
-| [K](k) { get; } | Gets the black component value of this [`Color`](../color) structure. |
-| [M](m) { get; } | Gets the magenta component value of this [`Color`](../color) structure. |
-| [Y](y) { get; } | Gets the yellow component value of this [`Color`](../color) structure. |
+| static [Empty](../../aspose.imaging/cmykcolor/empty) { get; } | Gets the empty. |
+| [C](../../aspose.imaging/cmykcolor/c) { get; } | Gets the cyan component value of this [`Color`](../color) structure. |
+| [IsEmpty](../../aspose.imaging/cmykcolor/isempty) { get; } | Gets a value indicating whether this [`Color`](../color) structure is uninitialized. |
+| [K](../../aspose.imaging/cmykcolor/k) { get; } | Gets the black component value of this [`Color`](../color) structure. |
+| [M](../../aspose.imaging/cmykcolor/m) { get; } | Gets the magenta component value of this [`Color`](../color) structure. |
+| [Y](../../aspose.imaging/cmykcolor/y) { get; } | Gets the yellow component value of this [`Color`](../color) structure. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](equals)(object) | Determines whether the specified Object, is equal to this instance. |
-| override [GetHashCode](gethashcode)() | The get hash code. |
-| [ToValue](tovalue)() | The to value. |
+| override [Equals](../../aspose.imaging/cmykcolor/equals)(object) | Determines whether the specified Object, is equal to this instance. |
+| override [GetHashCode](../../aspose.imaging/cmykcolor/gethashcode)() | The get hash code. |
+| [ToValue](../../aspose.imaging/cmykcolor/tovalue)() | The to value. |
 
 ### See Also
 

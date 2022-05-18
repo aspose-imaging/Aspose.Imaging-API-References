@@ -24,9 +24,9 @@ public class SvgResourceKeeperCallback : ISvgResourceKeeperCallback
 
 | Name | Description |
 | --- | --- |
-| virtual [OnFontResourceReady](onfontresourceready)(FontStoringArgs) | Called when [font resource ready]. |
-| virtual [OnImageResourceReady](onimageresourceready)(byte[], SvgImageType, string, ref bool) | Called when image resource ready. |
-| virtual [OnSvgDocumentReady](onsvgdocumentready)(byte[], string) | Called when SVG document ready. |
+| virtual [OnFontResourceReady](../../aspose.imaging.fileformats.svg/svgresourcekeepercallback/onfontresourceready)(FontStoringArgs) | Called when [font resource ready]. |
+| virtual [OnImageResourceReady](../../aspose.imaging.fileformats.svg/svgresourcekeepercallback/onimageresourceready)(byte[], SvgImageType, string, ref bool) | Called when image resource ready. |
+| virtual [OnSvgDocumentReady](../../aspose.imaging.fileformats.svg/svgresourcekeepercallback/onsvgdocumentready)(byte[], string) | Called when SVG document ready. |
 
 ### See Also
 

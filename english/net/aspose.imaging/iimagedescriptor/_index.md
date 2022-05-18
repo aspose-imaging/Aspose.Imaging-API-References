@@ -18,7 +18,7 @@ public interface IImageDescriptor
 
 | Name | Description |
 | --- | --- |
-| [SupportedFormat](supportedformat) { get; } | Gets the supported format. |
+| [SupportedFormat](../../aspose.imaging/iimagedescriptor/supportedformat) { get; } | Gets the supported format. |
 
 ### See Also
 

@@ -24,9 +24,9 @@ public sealed class EmfDesignVector : EmfObject
 
 | Name | Description |
 | --- | --- |
-| [NumAxes](numaxes) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the number of elements in the Values array. It MUST be in the range 0 to 16, inclusive |
-| [Signature](signature) { get; set; } | Gets or sets a 32-bit unsigned integer that MUST be set to the value 0x08007664. |
-| [Values](values) { get; set; } | Gets or sets an optional array of 32-bit signed integers that specify the values of the font axes of a multiple master, OpenType font. The maximum number of values in the array is 16. |
+| [NumAxes](../../aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/numaxes) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the number of elements in the Values array. It MUST be in the range 0 to 16, inclusive |
+| [Signature](../../aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/signature) { get; set; } | Gets or sets a 32-bit unsigned integer that MUST be set to the value 0x08007664. |
+| [Values](../../aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/values) { get; set; } | Gets or sets an optional array of 32-bit signed integers that specify the values of the font axes of a multiple master, OpenType font. The maximum number of values in the array is 16. |
 
 ### See Also
 

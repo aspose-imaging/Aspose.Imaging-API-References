@@ -28,6 +28,25 @@ public class DjvuMultiPageOptions : MultiPageOptions
 | [DjvuMultiPageOptions](djvumultipageoptions)(IntRange[], Rectangle) | Initializes a new instance of the [`DjvuMultiPageOptions`](../djvumultipageoptions) class. |
 | [DjvuMultiPageOptions](djvumultipageoptions)(int[], Rectangle) | Initializes a new instance of the [`DjvuMultiPageOptions`](../djvumultipageoptions) class. |
 
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [ExportArea](../../aspose.imaging.imageoptions/multipageoptions/exportarea) { get; set; } | Gets or sets the export area. |
+| [MergeLayers](../../aspose.imaging.imageoptions/multipageoptions/mergelayers) { get; set; } | Gets or sets a value indicating whether [merege layers]. |
+| [Mode](../../aspose.imaging.imageoptions/multipageoptions/mode) { get; set; } | Gets or sets the mode. |
+| [OutputLayersNames](../../aspose.imaging.imageoptions/multipageoptions/outputlayersnames) { get; set; } | Gets or sets the output layers names(Works if export format supports layers naming, for example for Psd) |
+| [PageRasterizationOptions](../../aspose.imaging.imageoptions/multipageoptions/pagerasterizationoptions) { get; set; } | Gets or sets the page rasterization options. |
+| [Pages](../../aspose.imaging.imageoptions/multipageoptions/pages) { get; set; } | Gets or sets the pages. |
+| [PageTitles](../../aspose.imaging.imageoptions/multipageoptions/pagetitles) { get; set; } | Gets or sets the page titles. |
+| [TimeInterval](../../aspose.imaging.imageoptions/multipageoptions/timeinterval) { get; set; } | Gets or sets the time interval. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [InitPages](../../aspose.imaging.imageoptions/multipageoptions/initpages)(IntRange[]) | Initializes the pages from ranges array |
+
 ### See Also
 
 * class [MultiPageOptions](../multipageoptions)

@@ -25,8 +25,8 @@ public class ResolutionSetting
 
 | Name | Description |
 | --- | --- |
-| [HorizontalResolution](horizontalresolution) { get; set; } | Gets or sets the horizontal resolution. |
-| [VerticalResolution](verticalresolution) { get; set; } | Gets or sets the vertical resolution. |
+| [HorizontalResolution](../../aspose.imaging/resolutionsetting/horizontalresolution) { get; set; } | Gets or sets the horizontal resolution. |
+| [VerticalResolution](../../aspose.imaging/resolutionsetting/verticalresolution) { get; set; } | Gets or sets the vertical resolution. |
 
 ### See Also
 

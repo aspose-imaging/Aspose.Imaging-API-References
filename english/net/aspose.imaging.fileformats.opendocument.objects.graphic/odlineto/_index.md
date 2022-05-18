@@ -24,9 +24,12 @@ public class OdLineTo : OdGraphicObject
 
 | Name | Description |
 | --- | --- |
-| [Coordinates](coordinates) { get; set; } | Gets or sets the coordinates. |
-| [Horizontal](horizontal) { get; set; } | Gets or sets a value indicating whether this [`OdLineTo`](../odlineto) is vertical. |
-| [Vertical](vertical) { get; set; } | Gets or sets a value indicating whether this [`OdLineTo`](../odlineto) is vertical. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Gets or sets a value indicating whether [absolute coordinates]. |
+| [Coordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/coordinates) { get; set; } | Gets or sets the coordinates. |
+| [Horizontal](../../aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/horizontal) { get; set; } | Gets or sets a value indicating whether this [`OdLineTo`](../odlineto) is vertical. |
+| [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Gets the items. |
+| [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Gets the parent object. |
+| [Vertical](../../aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/vertical) { get; set; } | Gets or sets a value indicating whether this [`OdLineTo`](../odlineto) is vertical. |
 
 ### See Also
 

@@ -18,7 +18,7 @@ public interface IPartialArgb64PixelLoader : IPartialArgb32PixelLoader
 
 | Name | Description |
 | --- | --- |
-| [Process64](process64)(Rectangle, long[], Point, Point) | Processes the loaded pixels. |
+| [Process64](../../aspose.imaging/ipartialargb64pixelloader/process64)(Rectangle, long[], Point, Point) | Processes the loaded pixels. |
 
 ### See Also
 

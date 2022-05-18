@@ -25,10 +25,10 @@ public class WmfFrameRegion : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [BrushIndex](brushindex) { get; set; } | Gets or sets the index of the brush. |
-| [Height](height) { get; set; } | Gets or sets the height. |
-| [RegionIndex](regionindex) { get; set; } | Gets or sets the index of the region. |
-| [Width](width) { get; set; } | Gets or sets the width. |
+| [BrushIndex](../../aspose.imaging.fileformats.wmf.objects/wmfframeregion/brushindex) { get; set; } | Gets or sets the index of the brush. |
+| [Height](../../aspose.imaging.fileformats.wmf.objects/wmfframeregion/height) { get; set; } | Gets or sets the height. |
+| [RegionIndex](../../aspose.imaging.fileformats.wmf.objects/wmfframeregion/regionindex) { get; set; } | Gets or sets the index of the region. |
+| [Width](../../aspose.imaging.fileformats.wmf.objects/wmfframeregion/width) { get; set; } | Gets or sets the width. |
 
 ### See Also
 

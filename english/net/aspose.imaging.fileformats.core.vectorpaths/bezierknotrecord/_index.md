@@ -25,12 +25,12 @@ public class BezierKnotRecord : VectorPathRecord
 
 | Name | Description |
 | --- | --- |
-| [IsClosed](isclosed) { get; set; } | Gets or sets a value indicating whether this instance is closed. |
-| [IsLinked](islinked) { get; set; } | Gets or sets a value indicating whether this instance is linked. |
-| [IsOpen](isopen) { get; set; } | Gets or sets a value indicating whether this instance is open. |
-| [PathPoints](pathpoints) { get; set; } | Gets or sets the path points. |
-| [Points](points) { get; set; } | Gets or sets the points. |
-| override [Type](type) { get; } | Gets the type. |
+| [IsClosed](../../aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/isclosed) { get; set; } | Gets or sets a value indicating whether this instance is closed. |
+| [IsLinked](../../aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/islinked) { get; set; } | Gets or sets a value indicating whether this instance is linked. |
+| [IsOpen](../../aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/isopen) { get; set; } | Gets or sets a value indicating whether this instance is open. |
+| [PathPoints](../../aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/pathpoints) { get; set; } | Gets or sets the path points. |
+| [Points](../../aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/points) { get; set; } | Gets or sets the points. |
+| override [Type](../../aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/type) { get; } | Gets the type. |
 
 ### See Also
 

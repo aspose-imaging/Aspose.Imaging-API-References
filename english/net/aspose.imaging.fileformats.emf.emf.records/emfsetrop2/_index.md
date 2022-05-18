@@ -25,7 +25,9 @@ public sealed class EmfSetRop2 : EmfStateRecordType
 
 | Name | Description |
 | --- | --- |
-| [Rop2Mode](rop2mode) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the raster operation mode and MUST be in the WMF Binary Raster Op enumeration ([MS-WMF] section 2.1.1.2). |
+| [Rop2Mode](../../aspose.imaging.fileformats.emf.emf.records/emfsetrop2/rop2mode) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the raster operation mode and MUST be in the WMF Binary Raster Op enumeration ([MS-WMF] section 2.1.1.2). |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### Remarks
 

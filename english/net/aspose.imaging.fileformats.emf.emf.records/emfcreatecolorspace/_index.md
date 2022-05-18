@@ -24,8 +24,10 @@ public sealed class EmfCreateColorSpace : EmfObjectCreationRecordType
 
 | Name | Description |
 | --- | --- |
-| [IhCS](ihcs) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the index of the logical color space object in the EMF object table (section 3.1.1.1). This index MUST be saved so that this object can be reused or modified. |
-| [Lcs](lcs) { get; set; } | Gets or sets a WMF LogColorSpace object ([MS-WMF] section 2.2.2.11), which can specify the name of a color profile in ASCII characters. |
+| [IhCS](../../aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspace/ihcs) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the index of the logical color space object in the EMF object table (section 3.1.1.1). This index MUST be saved so that this object can be reused or modified. |
+| [Lcs](../../aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspace/lcs) { get; set; } | Gets or sets a WMF LogColorSpace object ([MS-WMF] section 2.2.2.11), which can specify the name of a color profile in ASCII characters. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### Remarks
 

@@ -24,14 +24,14 @@ public sealed class Time : XmpTypeBase
 
 | Name | Description |
 | --- | --- |
-| [Scale](scale) { get; set; } | Gets or sets scale for the time value. |
-| [Value](value) { get; set; } | Gets or sets time value in the specified scale. |
+| [Scale](../../aspose.imaging.xmp.schemas.xmpdm/time/scale) { get; set; } | Gets or sets scale for the time value. |
+| [Value](../../aspose.imaging.xmp.schemas.xmpdm/time/value) { get; set; } | Gets or sets time value in the specified scale. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetXmpRepresentation](getxmprepresentation)() | Gets the string contained value in XMP format. |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.schemas.xmpdm/time/getxmprepresentation)() | Gets the string contained value in XMP format. |
 
 ### See Also
 

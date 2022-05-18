@@ -24,14 +24,14 @@ public class OdHatchedBrush : OdBrush
 
 | Name | Description |
 | --- | --- |
-| [Argb32Color](argb32color) { get; set; } | Gets or sets the color of the argb32. |
-| override [BrushStyle](brushstyle) { get; } | Gets the style. |
+| [Argb32Color](../../aspose.imaging.fileformats.opendocument.objects.brush/odhatchedbrush/argb32color) { get; set; } | Gets or sets the color of the argb32. |
+| override [BrushStyle](../../aspose.imaging.fileformats.opendocument.objects.brush/odhatchedbrush/brushstyle) { get; } | Gets the style. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Clone](clone)() | Clone this instance. |
+| override [Clone](../../aspose.imaging.fileformats.opendocument.objects.brush/odhatchedbrush/clone)() | Clone this instance. |
 
 ### See Also
 

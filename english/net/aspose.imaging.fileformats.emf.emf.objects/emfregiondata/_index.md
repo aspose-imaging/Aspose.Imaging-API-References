@@ -25,8 +25,8 @@ public sealed class EmfRegionData : EmfObject
 
 | Name | Description |
 | --- | --- |
-| [Data](data) { get; set; } | Gets or sets an array of WMF RectL objects ([MS-WMF] section 2.2.2.19); the objects are merged to create the region |
-| [RegionDataHeader](regiondataheader) { get; set; } | Gets or sets a 256-bit RegionDataHeader object that describes the following data. |
+| [Data](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondata/data) { get; set; } | Gets or sets an array of WMF RectL objects ([MS-WMF] section 2.2.2.19); the objects are merged to create the region |
+| [RegionDataHeader](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondata/regiondataheader) { get; set; } | Gets or sets a 256-bit RegionDataHeader object that describes the following data. |
 
 ### See Also
 

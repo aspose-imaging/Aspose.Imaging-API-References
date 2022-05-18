@@ -24,8 +24,10 @@ public sealed class EmfSetTextJustification : EmfStateRecordType
 
 | Name | Description |
 | --- | --- |
-| [NBreakCount](nbreakcount) { get; set; } | Gets or sets a 32-bit signed integer that specifies the number of break characters. |
-| [NBreakExtra](nbreakextra) { get; set; } | Gets or sets a 32-bit signed integer that specifies the total amount of extra space, in logical units, to add. |
+| [NBreakCount](../../aspose.imaging.fileformats.emf.emf.records/emfsettextjustification/nbreakcount) { get; set; } | Gets or sets a 32-bit signed integer that specifies the number of break characters. |
+| [NBreakExtra](../../aspose.imaging.fileformats.emf.emf.records/emfsettextjustification/nbreakextra) { get; set; } | Gets or sets a 32-bit signed integer that specifies the total amount of extra space, in logical units, to add. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### Remarks
 

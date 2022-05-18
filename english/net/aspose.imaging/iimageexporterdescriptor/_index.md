@@ -18,8 +18,8 @@ public interface IImageExporterDescriptor : IImageDescriptor
 
 | Name | Description |
 | --- | --- |
-| [CanExport](canexport)(Image, ImageOptionsBase) | Determines whether image exporter can export the specified image to the specified image format specified by save options. |
-| [CreateInstance](createinstance)() | Creates a new exporter instance. |
+| [CanExport](../../aspose.imaging/iimageexporterdescriptor/canexport)(Image, ImageOptionsBase) | Determines whether image exporter can export the specified image to the specified image format specified by save options. |
+| [CreateInstance](../../aspose.imaging/iimageexporterdescriptor/createinstance)() | Creates a new exporter instance. |
 
 ### See Also
 

@@ -24,13 +24,13 @@ public class WmfDibBitBlt : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [DstPos](dstpos) { get; set; } | Gets or sets the DST position. |
-| [Height](height) { get; set; } | Gets or sets the height. |
-| [RasterOperation](rasteroperation) { get; set; } | Gets or sets the raster operation. |
-| [Reserved](reserved) { get; set; } | Gets or sets the reserved. |
-| [Source](source) { get; set; } | Gets or sets the source. |
-| [SrcPos](srcpos) { get; set; } | Gets or sets the source position. |
-| [Width](width) { get; set; } | Gets or sets the width. |
+| [DstPos](../../aspose.imaging.fileformats.wmf.objects/wmfdibbitblt/dstpos) { get; set; } | Gets or sets the DST position. |
+| [Height](../../aspose.imaging.fileformats.wmf.objects/wmfdibbitblt/height) { get; set; } | Gets or sets the height. |
+| [RasterOperation](../../aspose.imaging.fileformats.wmf.objects/wmfdibbitblt/rasteroperation) { get; set; } | Gets or sets the raster operation. |
+| [Reserved](../../aspose.imaging.fileformats.wmf.objects/wmfdibbitblt/reserved) { get; set; } | Gets or sets the reserved. |
+| [Source](../../aspose.imaging.fileformats.wmf.objects/wmfdibbitblt/source) { get; set; } | Gets or sets the source. |
+| [SrcPos](../../aspose.imaging.fileformats.wmf.objects/wmfdibbitblt/srcpos) { get; set; } | Gets or sets the source position. |
+| [Width](../../aspose.imaging.fileformats.wmf.objects/wmfdibbitblt/width) { get; set; } | Gets or sets the width. |
 
 ### See Also
 

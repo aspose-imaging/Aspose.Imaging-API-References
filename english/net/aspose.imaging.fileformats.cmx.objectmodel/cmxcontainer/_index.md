@@ -18,7 +18,7 @@ public abstract class CmxContainer : ICmxContainer
 
 | Name | Description |
 | --- | --- |
-| virtual [Elements](elements) { get; } | Gets the elements. |
+| virtual [Elements](../../aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer/elements) { get; } | Gets the elements. |
 
 ### See Also
 

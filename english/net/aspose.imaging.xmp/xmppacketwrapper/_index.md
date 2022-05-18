@@ -25,21 +25,21 @@ public class XmpPacketWrapper
 
 | Name | Description |
 | --- | --- |
-| [HeaderPi](headerpi) { get; } | Gets the header processing instruction. |
-| [Meta](meta) { get; set; } | Gets the XMP meta. Optional. |
-| [Packages](packages) { get; } | Gets array of [`XmpPackage`](../xmppackage) inside XMP. |
-| [PackagesCount](packagescount) { get; } | Gets amount of packages inside XMP structure. |
-| [TrailerPi](trailerpi) { get; } | Gets the trailer processing instruction. |
+| [HeaderPi](../../aspose.imaging.xmp/xmppacketwrapper/headerpi) { get; } | Gets the header processing instruction. |
+| [Meta](../../aspose.imaging.xmp/xmppacketwrapper/meta) { get; set; } | Gets the XMP meta. Optional. |
+| [Packages](../../aspose.imaging.xmp/xmppacketwrapper/packages) { get; } | Gets array of [`XmpPackage`](../xmppackage) inside XMP. |
+| [PackagesCount](../../aspose.imaging.xmp/xmppacketwrapper/packagescount) { get; } | Gets amount of packages inside XMP structure. |
+| [TrailerPi](../../aspose.imaging.xmp/xmppacketwrapper/trailerpi) { get; } | Gets the trailer processing instruction. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [AddPackage](addpackage)(XmpPackage) | Adds the package. |
-| [ClearPackages](clearpackages)() | Removes all [`XmpPackage`](../xmppackage) inside XMP. |
-| [ContainsPackage](containspackage)(string) | Determines whethere package is exist in xmp wrapper. |
-| [GetPackage](getpackage)(string) | Gets package by namespace URI. |
-| [RemovePackage](removepackage)(XmpPackage) | Removes the XMP package. |
+| [AddPackage](../../aspose.imaging.xmp/xmppacketwrapper/addpackage)(XmpPackage) | Adds the package. |
+| [ClearPackages](../../aspose.imaging.xmp/xmppacketwrapper/clearpackages)() | Removes all [`XmpPackage`](../xmppackage) inside XMP. |
+| [ContainsPackage](../../aspose.imaging.xmp/xmppacketwrapper/containspackage)(string) | Determines whethere package is exist in xmp wrapper. |
+| [GetPackage](../../aspose.imaging.xmp/xmppacketwrapper/getpackage)(string) | Gets package by namespace URI. |
+| [RemovePackage](../../aspose.imaging.xmp/xmppacketwrapper/removepackage)(XmpPackage) | Removes the XMP package. |
 
 ### Remarks
 

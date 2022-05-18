@@ -25,9 +25,9 @@ public class LangAlt : IXmlValue
 
 | Name | Description |
 | --- | --- |
-| virtual [AddLanguage](addlanguage)(string, string) | Adds the language. |
-| [GetXmlValue](getxmlvalue)() | Converts XMP value to the XML representation. |
-| override [ToString](tostring)() | Returns a String that represents this instance. |
+| virtual [AddLanguage](../../aspose.imaging.xmp/langalt/addlanguage)(string, string) | Adds the language. |
+| [GetXmlValue](../../aspose.imaging.xmp/langalt/getxmlvalue)() | Converts XMP value to the XML representation. |
+| override [ToString](../../aspose.imaging.xmp/langalt/tostring)() | Returns a String that represents this instance. |
 
 ### See Also
 

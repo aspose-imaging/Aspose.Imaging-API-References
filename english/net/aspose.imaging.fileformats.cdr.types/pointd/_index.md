@@ -24,16 +24,16 @@ public struct PointD
 
 | Name | Description |
 | --- | --- |
-| [X](x) { get; set; } | Gets or sets the x. |
-| [Y](y) { get; set; } | Gets or sets the y. |
+| [X](../../aspose.imaging.fileformats.cdr.types/pointd/x) { get; set; } | Gets or sets the x. |
+| [Y](../../aspose.imaging.fileformats.cdr.types/pointd/y) { get; set; } | Gets or sets the y. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [FromPointF](frompointf)(PointF) | Converts [`PointD`](../pointd) to the [`PointF`](../../aspose.imaging/pointf) structure. |
-| [ToPointF](topointf)() | Converts [`PointF`](../../aspose.imaging/pointf) to the [`PointD`](../pointd) structure. |
-| override [ToString](tostring)() | Converts to string. |
+| [FromPointF](../../aspose.imaging.fileformats.cdr.types/pointd/frompointf)(PointF) | Converts [`PointD`](../pointd) to the [`PointF`](../../aspose.imaging/pointf) structure. |
+| [ToPointF](../../aspose.imaging.fileformats.cdr.types/pointd/topointf)() | Converts [`PointF`](../../aspose.imaging/pointf) to the [`PointD`](../pointd) structure. |
+| override [ToString](../../aspose.imaging.fileformats.cdr.types/pointd/tostring)() | Converts to string. |
 
 ### See Also
 

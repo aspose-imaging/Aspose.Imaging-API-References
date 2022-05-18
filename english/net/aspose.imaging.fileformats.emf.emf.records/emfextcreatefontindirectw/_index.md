@@ -25,8 +25,10 @@ public sealed class EmfExtCreateFontIndirectW : EmfObjectCreationRecordType
 
 | Name | Description |
 | --- | --- |
-| [Elw](elw) { get; set; } | Gets or sets a LogFontExDv object (section 2.2.15), which specifies the logical font. A LogFont object 2.2.13 MAY be present instead.[90]The process for determining the type of object in this field is described below. |
-| [IhFonts](ihfonts) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the index of the logical font object in the EMF Object Table (section 3.1.1.1). This index MUST be saved so that this object can be reused or modified. |
+| [Elw](../../aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw/elw) { get; set; } | Gets or sets a LogFontExDv object (section 2.2.15), which specifies the logical font. A LogFont object 2.2.13 MAY be present instead.[90]The process for determining the type of object in this field is described below. |
+| [IhFonts](../../aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw/ihfonts) { get; set; } | Gets or sets a 32-bit unsigned integer that specifies the index of the logical font object in the EMF Object Table (section 3.1.1.1). This index MUST be saved so that this object can be reused or modified. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

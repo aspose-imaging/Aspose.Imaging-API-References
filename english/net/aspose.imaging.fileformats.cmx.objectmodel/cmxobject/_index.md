@@ -24,15 +24,15 @@ public class CmxObject : ICmxDocElement
 
 | Name | Description |
 | --- | --- |
-| [FillStyle](fillstyle) { get; set; } | Gets or sets the fill style. |
-| [ObjectSpec](objectspec) { get; set; } | Gets or sets the object specification. |
-| [Outline](outline) { get; set; } | Gets or sets the outline style. |
+| [FillStyle](../../aspose.imaging.fileformats.cmx.objectmodel/cmxobject/fillstyle) { get; set; } | Gets or sets the fill style. |
+| [ObjectSpec](../../aspose.imaging.fileformats.cmx.objectmodel/cmxobject/objectspec) { get; set; } | Gets or sets the object specification. |
+| [Outline](../../aspose.imaging.fileformats.cmx.objectmodel/cmxobject/outline) { get; set; } | Gets or sets the outline style. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a String that represents this instance. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel/cmxobject/tostring)() | Returns a String that represents this instance. |
 
 ### See Also
 

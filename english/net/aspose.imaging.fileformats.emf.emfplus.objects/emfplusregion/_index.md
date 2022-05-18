@@ -24,7 +24,8 @@ public sealed class EmfPlusRegion : EmfPlusGraphicsObjectType
 
 | Name | Description |
 | --- | --- |
-| [RegionNode](regionnode) { get; set; } | Gets or sets an array of RegionNodeCount+1 EmfPlusRegionNode objects (section 2.2.2.40). Regions are specified as a binary tree of region nodes, and each node MUST either be a terminal node or specify one or two child nodes. RegionNode MUST contain at least one element |
+| [RegionNode](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregion/regionnode) { get; set; } | Gets or sets an array of RegionNodeCount+1 EmfPlusRegionNode objects (section 2.2.2.40). Regions are specified as a binary tree of region nodes, and each node MUST either be a terminal node or specify one or two child nodes. RegionNode MUST contain at least one element |
+| [Version](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsobjecttype/version) { get; set; } | Gets or sets the version. |
 
 ### See Also
 

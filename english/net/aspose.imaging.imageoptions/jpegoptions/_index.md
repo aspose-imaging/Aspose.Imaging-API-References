@@ -25,26 +25,42 @@ public class JpegOptions : ImageOptionsBase
 
 | Name | Description |
 | --- | --- |
-| [BitsPerChannel](bitsperchannel) { get; set; } | Gets or sets bits per channel for lossless jpeg image. Now we support from 2 to 8 bits per channel. |
-| [CmykColorProfile](cmykcolorprofile) { get; set; } | The destination CMYK color profile for CMYK jpeg images. Use for saving images. Must be in pair with RGBColorProfile for correct color conversion. |
-| [ColorType](colortype) { get; set; } | Gets or sets the color type for jpeg image. |
-| [Comment](comment) { get; set; } | Gets or sets the jpeg file comment. |
-| [CompressionType](compressiontype) { get; set; } | Gets or sets the compression type. |
-| [ExifData](exifdata) { get; set; } | Get or set exif data container |
-| [HorizontalSampling](horizontalsampling) { get; set; } | Gets or sets the horizontal subsamplings for each component. |
-| [Jfif](jfif) { get; set; } | Gets or sets the jfif. |
-| [JpegLsAllowedLossyError](jpeglsallowedlossyerror) { get; set; } | Gets or sets the JPEG-LS difference bound for near-lossless coding (NEAR parameter from the JPEG-LS specification). |
-| [JpegLsInterleaveMode](jpeglsinterleavemode) { get; set; } | Gets or sets the JPEG-LS interleave mode. |
-| [JpegLsPreset](jpeglspreset) { get; set; } | Gets or sets the JPEG-LS preset parameters. |
-| [PreblendAlphaIfPresent](preblendalphaifpresent) { get; set; } | Gets or sets a value indicating whether red, green and blue components should be mixed with a background color, if alpha channel is present. |
-| [Quality](quality) { get; set; } | Gets or sets image quality. |
-| [RdOptSettings](rdoptsettings) { get; set; } | Gets or sets the RD optimizer settings. |
-| [ResolutionUnit](resolutionunit) { get; set; } | Gets or sets the resolution unit. |
-| [RgbColorProfile](rgbcolorprofile) { get; set; } | The destination RGB color profile for CMYK jpeg images. Use for saving images. Must be in pair with CMYKColorProfile for correct color conversion. |
-| [SampleRoundingMode](sampleroundingmode) { get; set; } | Gets or sets the sample rounding mode to fit an 8-bit value to an n-bit value. BitsPerChannel |
-| [ScaledQuality](scaledquality) { get; } | The scaled quality. |
-| [VerticalSampling](verticalsampling) { get; set; } | Gets or sets the vertical subsamplings for each component. |
-| override [XmpData](xmpdata) { get; set; } | Gets or sets the XMP metadata container. |
+| [BitsPerChannel](../../aspose.imaging.imageoptions/jpegoptions/bitsperchannel) { get; set; } | Gets or sets bits per channel for lossless jpeg image. Now we support from 2 to 8 bits per channel. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| [CmykColorProfile](../../aspose.imaging.imageoptions/jpegoptions/cmykcolorprofile) { get; set; } | The destination CMYK color profile for CMYK jpeg images. Use for saving images. Must be in pair with RGBColorProfile for correct color conversion. |
+| [ColorType](../../aspose.imaging.imageoptions/jpegoptions/colortype) { get; set; } | Gets or sets the color type for jpeg image. |
+| [Comment](../../aspose.imaging.imageoptions/jpegoptions/comment) { get; set; } | Gets or sets the jpeg file comment. |
+| [CompressionType](../../aspose.imaging.imageoptions/jpegoptions/compressiontype) { get; set; } | Gets or sets the compression type. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
+| [ExifData](../../aspose.imaging.imageoptions/jpegoptions/exifdata) { get; set; } | Get or set exif data container |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | Gets or sets a value indicating whether [full frame]. |
+| [HorizontalSampling](../../aspose.imaging.imageoptions/jpegoptions/horizontalsampling) { get; set; } | Gets or sets the horizontal subsamplings for each component. |
+| [Jfif](../../aspose.imaging.imageoptions/jpegoptions/jfif) { get; set; } | Gets or sets the jfif. |
+| [JpegLsAllowedLossyError](../../aspose.imaging.imageoptions/jpegoptions/jpeglsallowedlossyerror) { get; set; } | Gets or sets the JPEG-LS difference bound for near-lossless coding (NEAR parameter from the JPEG-LS specification). |
+| [JpegLsInterleaveMode](../../aspose.imaging.imageoptions/jpegoptions/jpeglsinterleavemode) { get; set; } | Gets or sets the JPEG-LS interleave mode. |
+| [JpegLsPreset](../../aspose.imaging.imageoptions/jpegoptions/jpeglspreset) { get; set; } | Gets or sets the JPEG-LS preset parameters. |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | The multipage options |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Gets or sets the color palette. |
+| [PreblendAlphaIfPresent](../../aspose.imaging.imageoptions/jpegoptions/preblendalphaifpresent) { get; set; } | Gets or sets a value indicating whether red, green and blue components should be mixed with a background color, if alpha channel is present. |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Gets or sets the progress event handler. |
+| [Quality](../../aspose.imaging.imageoptions/jpegoptions/quality) { get; set; } | Gets or sets image quality. |
+| [RdOptSettings](../../aspose.imaging.imageoptions/jpegoptions/rdoptsettings) { get; set; } | Gets or sets the RD optimizer settings. |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Gets or sets the resolution settings. |
+| [ResolutionUnit](../../aspose.imaging.imageoptions/jpegoptions/resolutionunit) { get; set; } | Gets or sets the resolution unit. |
+| [RgbColorProfile](../../aspose.imaging.imageoptions/jpegoptions/rgbcolorprofile) { get; set; } | The destination RGB color profile for CMYK jpeg images. Use for saving images. Must be in pair with CMYKColorProfile for correct color conversion. |
+| [SampleRoundingMode](../../aspose.imaging.imageoptions/jpegoptions/sampleroundingmode) { get; set; } | Gets or sets the sample rounding mode to fit an 8-bit value to an n-bit value. BitsPerChannel |
+| [ScaledQuality](../../aspose.imaging.imageoptions/jpegoptions/scaledquality) { get; } | The scaled quality. |
+| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Gets or sets the source to create image in. |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Gets or sets the vector rasterization options. |
+| [VerticalSampling](../../aspose.imaging.imageoptions/jpegoptions/verticalsampling) { get; set; } | Gets or sets the vertical subsamplings for each component. |
+| override [XmpData](../../aspose.imaging.imageoptions/jpegoptions/xmpdata) { get; set; } | Gets or sets the XMP metadata container. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | Clones this instance. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
 
 ### Examples
 

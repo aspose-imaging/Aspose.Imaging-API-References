@@ -24,8 +24,18 @@ public class Jpeg2000LoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
-| [MaximumDecodingTime](maximumdecodingtime) { get; set; } | Gets or sets the maximum decoding time in seconds (this option can be used on very slow on memory machines to prevent hanging on process on very big images - resolution more than 5500x6500 pixels). |
-| [MaximumDecodingTimeForTile](maximumdecodingtimefortile) { get; set; } | Gets or sets the maximum decoding time for tile. |
+| [BufferSizeHint](../../aspose.imaging/loadoptions/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| [DataBackgroundColor](../../aspose.imaging/loadoptions/databackgroundcolor) { get; set; } | Gets or sets the [`Image`](../../aspose.imaging/image) background [`Color`](../../aspose.imaging/color). |
+| [DataRecoveryMode](../../aspose.imaging/loadoptions/datarecoverymode) { get; set; } | Gets or sets the data recovery mode. |
+| [MaximumDecodingTime](../../aspose.imaging.imageloadoptions/jpeg2000loadoptions/maximumdecodingtime) { get; set; } | Gets or sets the maximum decoding time in seconds (this option can be used on very slow on memory machines to prevent hanging on process on very big images - resolution more than 5500x6500 pixels). |
+| [MaximumDecodingTimeForTile](../../aspose.imaging.imageloadoptions/jpeg2000loadoptions/maximumdecodingtimefortile) { get; set; } | Gets or sets the maximum decoding time for tile. |
+| [ProgressEventHandler](../../aspose.imaging/loadoptions/progresseventhandler) { get; set; } | Gets or sets the progress event handler. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| [AddCustomFontSource](../../aspose.imaging/loadoptions/addcustomfontsource)(CustomFontSource, params object[]) | Adds the custom font source to supply image-specific fonts. |
 
 ### See Also
 

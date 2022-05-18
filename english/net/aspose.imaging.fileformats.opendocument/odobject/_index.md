@@ -25,8 +25,8 @@ public class OdObject
 
 | Name | Description |
 | --- | --- |
-| [Items](items) { get; } | Gets the items. |
-| [Parent](parent) { get; } | Gets the parent object. |
+| [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Gets the items. |
+| [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Gets the parent object. |
 
 ### See Also
 

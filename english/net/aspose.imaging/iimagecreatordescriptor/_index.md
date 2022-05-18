@@ -18,8 +18,8 @@ public interface IImageCreatorDescriptor : IImageDescriptor
 
 | Name | Description |
 | --- | --- |
-| [CanCreate](cancreate)(ImageOptionsBase) | Determines whether image creator can create a new image using the *imageOptions*. |
-| [CreateInstance](createinstance)() | Creates a new creator instance. |
+| [CanCreate](../../aspose.imaging/iimagecreatordescriptor/cancreate)(ImageOptionsBase) | Determines whether image creator can create a new image using the *imageOptions*. |
+| [CreateInstance](../../aspose.imaging/iimagecreatordescriptor/createinstance)() | Creates a new creator instance. |
 
 ### See Also
 

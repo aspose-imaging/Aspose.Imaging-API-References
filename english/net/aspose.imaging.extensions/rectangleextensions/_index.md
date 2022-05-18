@@ -18,9 +18,9 @@ public static class RectangleExtensions
 
 | Name | Description |
 | --- | --- |
-| static [ToGdiRectangle](togdirectangle)(Rectangle) | Converts the [`Rectangle`](../../aspose.imaging/rectangle) to the Rectangle. |
-| static [ToGdiRectangle](togdirectangle)(RectangleF) | Converts the [`RectangleF`](../../aspose.imaging/rectanglef) to the Rectangle. |
-| static [UnionWith](unionwith)(RectangleF, RectangleF) | Unions two rectangle. |
+| static [ToGdiRectangle](../../aspose.imaging.extensions/rectangleextensions/togdirectangle)(Rectangle) | Converts the [`Rectangle`](../../aspose.imaging/rectangle) to the Rectangle. |
+| static [ToGdiRectangle](../../aspose.imaging.extensions/rectangleextensions/togdirectangle)(RectangleF) | Converts the [`RectangleF`](../../aspose.imaging/rectanglef) to the Rectangle. |
+| static [UnionWith](../../aspose.imaging.extensions/rectangleextensions/unionwith)(RectangleF, RectangleF) | Unions two rectangle. |
 
 ### See Also
 

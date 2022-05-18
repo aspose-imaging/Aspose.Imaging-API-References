@@ -24,9 +24,9 @@ public sealed class EmfGradientTriangle : EmfObject
 
 | Name | Description |
 | --- | --- |
-| [Vertex1](vertex1) { get; set; } | Gets or sets an index into an array of TriVertex objects that specifies a vertex of a triangle. The index MUST be smaller than the size of the array, as defined by the nVer field of the EMR_GRADIENTFILL record. |
-| [Vertex2](vertex2) { get; set; } | Gets or sets an index into an array of TriVertex objects that specifies a vertex of a triangle. The index MUST be smaller than the size of the array, as defined by the nVer field of the EMR_GRADIENTFILL record. |
-| [Vertex3](vertex3) { get; set; } | Gets or sets an index into an array of TriVertex objects that specifies a vertex of a triangle. The index MUST be smaller than the size of the array, as defined by the nVer field of the EMR_GRADIENTFILL record. |
+| [Vertex1](../../aspose.imaging.fileformats.emf.emf.objects/emfgradienttriangle/vertex1) { get; set; } | Gets or sets an index into an array of TriVertex objects that specifies a vertex of a triangle. The index MUST be smaller than the size of the array, as defined by the nVer field of the EMR_GRADIENTFILL record. |
+| [Vertex2](../../aspose.imaging.fileformats.emf.emf.objects/emfgradienttriangle/vertex2) { get; set; } | Gets or sets an index into an array of TriVertex objects that specifies a vertex of a triangle. The index MUST be smaller than the size of the array, as defined by the nVer field of the EMR_GRADIENTFILL record. |
+| [Vertex3](../../aspose.imaging.fileformats.emf.emf.objects/emfgradienttriangle/vertex3) { get; set; } | Gets or sets an index into an array of TriVertex objects that specifies a vertex of a triangle. The index MUST be smaller than the size of the array, as defined by the nVer field of the EMR_GRADIENTFILL record. |
 
 ### See Also
 

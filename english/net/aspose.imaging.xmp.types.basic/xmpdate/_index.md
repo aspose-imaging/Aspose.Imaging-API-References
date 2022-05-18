@@ -25,14 +25,14 @@ public sealed class XmpDate : XmpTypeBase
 
 | Name | Description |
 | --- | --- |
-| [Format](format) { get; } | Gets the format string for current value. |
-| [Value](value) { get; set; } | Gets or sets the date value. |
+| [Format](../../aspose.imaging.xmp.types.basic/xmpdate/format) { get; } | Gets the format string for current value. |
+| [Value](../../aspose.imaging.xmp.types.basic/xmpdate/value) { get; set; } | Gets or sets the date value. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [GetXmpRepresentation](getxmprepresentation)() | Returns string contained value in XMP format. |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.types.basic/xmpdate/getxmprepresentation)() | Returns string contained value in XMP format. |
 
 ## Other Members
 

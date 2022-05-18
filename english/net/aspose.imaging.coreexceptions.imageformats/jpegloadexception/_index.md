@@ -27,7 +27,7 @@ public class JpegLoadException : JpegException
 
 | Name | Description |
 | --- | --- |
-| [Reason](reason) { get; set; } | Gets or sets the reason of error. |
+| [Reason](../../aspose.imaging.coreexceptions.imageformats/jpegloadexception/reason) { get; set; } | Gets or sets the reason of error. |
 
 ### See Also
 

@@ -24,7 +24,9 @@ public sealed class EmfPixelFormat : EmfStateRecordType
 
 | Name | Description |
 | --- | --- |
-| [Pfd](pfd) { get; set; } | Gets or sets a PixelFormatDescriptor object (section 2.2.22) that specifies pixel format data. |
+| [Pfd](../../aspose.imaging.fileformats.emf.emf.records/emfpixelformat/pfd) { get; set; } | Gets or sets a PixelFormatDescriptor object (section 2.2.22) that specifies pixel format data. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Gets or sets the size of the record |
+| [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Gets or sets the type. |
 
 ### See Also
 

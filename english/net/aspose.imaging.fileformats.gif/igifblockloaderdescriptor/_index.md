@@ -18,8 +18,8 @@ public interface IGifBlockLoaderDescriptor
 
 | Name | Description |
 | --- | --- |
-| [CanLoad](canload)(StreamContainer) | Determines whether loader can load the specified data. |
-| [Load](load)(StreamContainer, IColorPalette) | Loads the gif block. |
+| [CanLoad](../../aspose.imaging.fileformats.gif/igifblockloaderdescriptor/canload)(StreamContainer) | Determines whether loader can load the specified data. |
+| [Load](../../aspose.imaging.fileformats.gif/igifblockloaderdescriptor/load)(StreamContainer, IColorPalette) | Loads the gif block. |
 
 ### See Also
 

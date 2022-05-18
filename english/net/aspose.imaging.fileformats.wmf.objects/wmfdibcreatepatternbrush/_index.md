@@ -24,9 +24,10 @@ public class WmfDibCreatePatternBrush : WmfGraphicObject
 
 | Name | Description |
 | --- | --- |
-| [ColorUsage](colorusage) { get; set; } | Gets or sets the color usage. |
-| [SourceBitmap](sourcebitmap) { get; set; } | Gets or sets the source bitmap. |
-| [Style](style) { get; set; } | Gets or sets the style. |
+| [ColorUsage](../../aspose.imaging.fileformats.wmf.objects/wmfdibcreatepatternbrush/colorusage) { get; set; } | Gets or sets the color usage. |
+| [Index](../../aspose.imaging.fileformats.wmf.objects/wmfgraphicobject/index) { get; set; } | Gets or sets the index. |
+| [SourceBitmap](../../aspose.imaging.fileformats.wmf.objects/wmfdibcreatepatternbrush/sourcebitmap) { get; set; } | Gets or sets the source bitmap. |
+| [Style](../../aspose.imaging.fileformats.wmf.objects/wmfdibcreatepatternbrush/style) { get; set; } | Gets or sets the style. |
 
 ### See Also
 

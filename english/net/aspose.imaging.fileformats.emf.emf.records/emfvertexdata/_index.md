@@ -24,9 +24,9 @@ public sealed class EmfVertexData
 
 | Name | Description |
 | --- | --- |
-| [VertexIndexes](vertexindexes) { get; set; } | Gets or sets an array of nTri GradientRectangle objects (section 2.2.7) or GradientTriangle objects (section 2.2.8), depending on the value of the ulMode field. Each object specifies indexes into the array of TriVertex objects in the VertexObjects field. |
-| [VertexObjects](vertexobjects) { get; set; } | Gets or sets an array of nVer TriVertex objects (section 2.2.26). Each object specifies the position and color of a vertex of either a rectangle or a triangle, depending on the value of the ulMode field. |
-| [VertexPadding](vertexpadding) { get; set; } | Gets or sets an optional variable-length array of nTri times four bytes that MUST be present if the value of the ulMode field indicates GradientRectangle objects (section 2.2.7). If the value of the ulMode field indicates GradientTriangle objects (section 2.2.8), no VertexPadding is present. This field MUST be ignored. |
+| [VertexIndexes](../../aspose.imaging.fileformats.emf.emf.records/emfvertexdata/vertexindexes) { get; set; } | Gets or sets an array of nTri GradientRectangle objects (section 2.2.7) or GradientTriangle objects (section 2.2.8), depending on the value of the ulMode field. Each object specifies indexes into the array of TriVertex objects in the VertexObjects field. |
+| [VertexObjects](../../aspose.imaging.fileformats.emf.emf.records/emfvertexdata/vertexobjects) { get; set; } | Gets or sets an array of nVer TriVertex objects (section 2.2.26). Each object specifies the position and color of a vertex of either a rectangle or a triangle, depending on the value of the ulMode field. |
+| [VertexPadding](../../aspose.imaging.fileformats.emf.emf.records/emfvertexdata/vertexpadding) { get; set; } | Gets or sets an optional variable-length array of nTri times four bytes that MUST be present if the value of the ulMode field indicates GradientRectangle objects (section 2.2.7). If the value of the ulMode field indicates GradientTriangle objects (section 2.2.8), no VertexPadding is present. This field MUST be ignored. |
 
 ### See Also
 

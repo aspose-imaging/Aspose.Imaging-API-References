@@ -24,14 +24,14 @@ public class CmxColor
 
 | Name | Description |
 | --- | --- |
-| [ColorModel](colormodel) { get; set; } | Gets or sets the color model. |
-| [Value](value) { get; set; } | Gets or sets the color value. |
+| [ColorModel](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor/colormodel) { get; set; } | Gets or sets the color model. |
+| [Value](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor/value) { get; set; } | Gets or sets the color value. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| override [ToString](tostring)() | Returns a String that represents this instance. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor/tostring)() | Returns a String that represents this instance. |
 
 ### See Also
 

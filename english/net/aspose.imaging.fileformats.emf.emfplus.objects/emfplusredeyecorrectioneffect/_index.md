@@ -24,8 +24,8 @@ public sealed class EmfPlusRedEyeCorrectionEffect : EmfPlusImageEffectsObjectTyp
 
 | Name | Description |
 | --- | --- |
-| [Areas](areas) { get; set; } | Gets or sets the An array of NumberOfAreas WMF RectL objects, specified in [MS-WMF] section 2.2.2.19. Each rectangle specifies an area of the bitmap image to which the red-eye correction effect SHOULD be applied. |
-| [NumberOfAreas](numberofareas) { get; set; } | Gets or sets the A 32-bit signed integer that specifies the number of rectangles in the Areas field. |
+| [Areas](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusredeyecorrectioneffect/areas) { get; set; } | Gets or sets the An array of NumberOfAreas WMF RectL objects, specified in [MS-WMF] section 2.2.2.19. Each rectangle specifies an area of the bitmap image to which the red-eye correction effect SHOULD be applied. |
+| [NumberOfAreas](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusredeyecorrectioneffect/numberofareas) { get; set; } | Gets or sets the A 32-bit signed integer that specifies the number of rectangles in the Areas field. |
 
 ### See Also
 

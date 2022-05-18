@@ -24,8 +24,8 @@ public sealed class EmfPlusCharacterRange : EmfPlusStructureObjectType
 
 | Name | Description |
 | --- | --- |
-| [First](first) { get; set; } | Gets or sets a 32-bit signed integer that specifies the first position of this range. |
-| [Length](length) { get; set; } | Gets or sets a 32-bit signed integer that specifies the number of positions in this range |
+| [First](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscharacterrange/first) { get; set; } | Gets or sets a 32-bit signed integer that specifies the first position of this range. |
+| [Length](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscharacterrange/length) { get; set; } | Gets or sets a 32-bit signed integer that specifies the number of positions in this range |
 
 ### See Also
 

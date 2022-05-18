@@ -18,7 +18,7 @@ public static class StringFormatExtensions
 
 | Name | Description |
 | --- | --- |
-| static [ToGdiStringFormat](togdistringformat)(StringFormat) | Converts the [`StringFormat`](../../aspose.imaging/stringformat) to the StringFormat. |
+| static [ToGdiStringFormat](../../aspose.imaging.extensions/stringformatextensions/togdistringformat)(StringFormat) | Converts the [`StringFormat`](../../aspose.imaging/stringformat) to the StringFormat. |
 
 ### See Also
 

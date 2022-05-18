@@ -25,7 +25,7 @@ public class WmfSelectObject : WmfObject
 
 | Name | Description |
 | --- | --- |
-| [ObjectIndex](objectindex) { get; set; } | Gets or sets the index of the object. |
+| [ObjectIndex](../../aspose.imaging.fileformats.wmf.objects/wmfselectobject/objectindex) { get; set; } | Gets or sets the index of the object. |
 
 ### See Also
 
