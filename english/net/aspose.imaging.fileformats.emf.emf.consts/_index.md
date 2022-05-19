@@ -21,13 +21,13 @@ The namespace contains types [MS-EMF]: Enhanced Metafile Format. 2.1 EMF Enumera
 | [EmfContrast](./emfcontrast) | The Contrast enumeration defines values for one of the characteristics in the PANOSE system for classifying typefaces. |
 | [EmfDibColors](./emfdibcolors) | The DIBColors enumeration defines how to interpret the values in the color table of a DIB. |
 | [EmfEmrComment](./emfemrcomment) | The EmrComment enumeration defines the types of data that a public comment record can contain, as specified in section 2.3.3.4. |
-| [EmfExtTextOutOptions](./emfexttextoutoptions) | The ExtTextOutOptions enumeration specifies parameters that control various aspects of the output of text by EMR_SMALLTEXTOUT(../section 2.3.5.37) records and in EmrText objects. |
+| [EmfExtTextOutOptions](./emfexttextoutoptions) | The ExtTextOutOptions enumeration specifies parameters that control various aspects of the output of text by EMR_SMALLTEXTOUT(section 2.3.5.37) records and in EmrText objects. |
 | [EmfFamilyType](./emffamilytype) | The FamilyType enumeration defines values for one of the characteristics in the PANOSE system for classifying typefaces. |
 | [EmfFloodFill](./emffloodfill) | The FloodFill enumeration defines values that specify how to determine the area for a flood fill operation. |
 | [EmfFormatSignature](./emfformatsignature) | The FormatSignature enumeration defines values that are used to identify the format of embedded data in EMF records. |
 | [EmfGradientFill](./emfgradientfill) | The GradientFill enumeration defines the modes for gradient fill operations. |
 | [EmfGraphicsMode](./emfgraphicsmode) | The GraphicsMode enumeration is used to specify how to interpret shape data such as rectangle coordinates. |
-| [EmfHatchStyle](./emfhatchstyle) | The HatchStyle enumeration is an extension to the WMF HatchStyle enumeration (../[MS-WMF] section 2.1.1.12). |
+| [EmfHatchStyle](./emfhatchstyle) | The HatchStyle enumeration is an extension to the WMF HatchStyle enumeration ([MS-WMF] section 2.1.1.12). |
 | [EmfIcmMode](./emficmmode) | The ICMMode enumeration defines values that specify when to turn on and off ICM. |
 | [EmfIlluminant](./emfilluminant) | The Illuminant enumeration defines values that specify the illuminant value of an image, which determines the standard light source under which the image is viewed so that the color can be adjusted appropriately. |
 | [EmfLetterform](./emfletterform) | The Letterform enumeration defines values for one of the characteristics in the PANOSE system for classifying typefaces. |

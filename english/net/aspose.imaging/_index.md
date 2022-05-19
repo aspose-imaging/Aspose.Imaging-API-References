@@ -37,7 +37,7 @@ The namespace is the core for nested namespaces and the most basic objects used 
 | [Graphics](./graphics) | Represents the graphics according to the graphics engine used in the current assembly. |
 | [GraphicsPath](./graphicspath) | Represents a series of connected lines and curves. This class cannot be inherited. |
 | [Image](./image) | The image is the base class for all type of images. |
-| [ImageAttributes](./imageattributes) | An [`ImageAttributes`](../aspose.imaging/imageattributes) object contains information about how bitmap and metafile colors are manipulated during rendering. An [`ImageAttributes`](../aspose.imaging/imageattributes) object maintains several color-adjustment settings, including color-adjustment matrices, grayscale-adjustment matrices, gamma-correction values, color-map tables, and color-threshold values. During rendering, colors can be corrected, darkened, lightened, and removed. To apply such manipulations, initialize an [`ImageAttributes`](../aspose.imaging/imageattributes) object and pass the path of that [`ImageAttributes`](../aspose.imaging/imageattributes) object (../along with the path of an [`Image`](aspose.imaging/image)) to the DrawImage method. |
+| [ImageAttributes](./imageattributes) | An [`ImageAttributes`](../aspose.imaging/imageattributes) object contains information about how bitmap and metafile colors are manipulated during rendering. An [`ImageAttributes`](../aspose.imaging/imageattributes) object maintains several color-adjustment settings, including color-adjustment matrices, grayscale-adjustment matrices, gamma-correction values, color-map tables, and color-threshold values. During rendering, colors can be corrected, darkened, lightened, and removed. To apply such manipulations, initialize an [`ImageAttributes`](../aspose.imaging/imageattributes) object and pass the path of that [`ImageAttributes`](../aspose.imaging/imageattributes) object (along with the path of an [`Image`](../aspose.imaging/image)) to the DrawImage method. |
 | [ImageCreatorsRegistry](./imagecreatorsregistry) | Represents the image creators registry. |
 | [ImageExportersRegistry](./imageexportersregistry) | Represents the image exporters registry. |
 | [ImageLoadersRegistry](./imageloadersregistry) | Represents the image loaders registry. |
@@ -67,7 +67,7 @@ The namespace is the core for nested namespaces and the most basic objects used 
 | [Source](./source) | The source is used to contain all relevant information for an object pipe. |
 | [SplitStreamContainer](./splitstreamcontainer) | Represents split stream container which contains the stream and provides stream processing routines. |
 | [StreamContainer](./streamcontainer) | Represents stream container which contains the stream and provides stream processing routines. |
-| [StringFormat](./stringformat) | Encapsulates text layout information (../such as alignment, orientation and tab stops) display manipulations (../such as ellipsis insertion and national digit substitution) and OpenType features. This class cannot be inherited. |
+| [StringFormat](./stringformat) | Encapsulates text layout information (such as alignment, orientation and tab stops) display manipulations (such as ellipsis insertion and national digit substitution) and OpenType features. This class cannot be inherited. |
 | [TransparencySupporter](./transparencysupporter) | The object supporting transparency. |
 | [VectorImage](./vectorimage) | The vector image is the base class for all type of vector images. |
 | [VectorMultipageImage](./vectormultipageimage) | The Vector multipage image |
@@ -108,7 +108,7 @@ The namespace is the core for nested namespaces and the most basic objects used 
 | [CacheType](./cachetype) | Specifies the cache type to use. |
 | [CharacterSet](./characterset) | Represents the character set used. |
 | [ColorAdjustType](./coloradjusttype) | Specifies which objects use color adjustment information. |
-| [ColorChannelFlag](./colorchannelflag) | Specifies individual channels in the CMYK (../cyan, magenta, yellow, black) color space. This enumeration is used by the SetOutputChannel methods. |
+| [ColorChannelFlag](./colorchannelflag) | Specifies individual channels in the CMYK (cyan, magenta, yellow, black) color space. This enumeration is used by the SetOutputChannel methods. |
 | [ColorCompareMethod](./colorcomparemethod) | Color comparison method to adjust to nearest neighbor |
 | [ColorMatrixFlag](./colormatrixflag) | Specifies the types of images and colors that will be affected by the color and grayscale adjustment settings of an [`ImageAttributes`](../aspose.imaging/imageattributes). |
 | [ColorQuantizationMethod](./colorquantizationmethod) | Colors quantization methods |
@@ -128,7 +128,7 @@ The namespace is the core for nested namespaces and the most basic objects used 
 | [InterpolationMode](./interpolationmode) | The [`InterpolationMode`](../aspose.imaging/interpolationmode) enumeration specifies the algorithm that is used when images are scaled or rotated. |
 | [KnownColor](./knowncolor) | Specifies the known system colors. |
 | [LineCap](./linecap) | Specifies the available cap styles with which a [`Pen`](../aspose.imaging/pen) object can end a line. |
-| [LineJoin](./linejoin) | Specifies how to join consecutive line or curve segments in a figure (../subpath) contained in a [`GraphicsPath`](../aspose.imaging/graphicspath) object. |
+| [LineJoin](./linejoin) | Specifies how to join consecutive line or curve segments in a figure (subpath) contained in a [`GraphicsPath`](../aspose.imaging/graphicspath) object. |
 | [MatrixOrder](./matrixorder) | Specifies the order for matrix transform operations. |
 | [PaletteMiningMethod](./paletteminingmethod) | The image palette mining method |
 | [PdfComplianceVersion](./pdfcomplianceversion) | Specifies the PDF compliance level to output file. |
@@ -139,7 +139,7 @@ The namespace is the core for nested namespaces and the most basic objects used 
 | [ResolutionUnit](./resolutionunit) | Resolution unit enum. |
 | [RotateFlipType](./rotatefliptype) | Specifies how much an image is rotated and the axis used to flip the image. |
 | [SeekOrigin](./seekorigin) | Provides the fields that represent reference points in [`StreamContainer`](../aspose.imaging/streamcontainer) for seeking. |
-| [SmoothingMode](./smoothingmode) | Specifies whether smoothing (../antialiasing) is applied to lines and curves and the edges of filled areas. |
+| [SmoothingMode](./smoothingmode) | Specifies whether smoothing (antialiasing) is applied to lines and curves and the edges of filled areas. |
 | [StringAlignment](./stringalignment) | Specifies the alignment of a text string relative to its layout rectangle. |
 | [StringDigitSubstitute](./stringdigitsubstitute) | The enumeration specifies how to substitute digits in a string according to a user's locale or language. |
 | [StringFormatFlags](./stringformatflags) | Specifies the display and layout information for text strings. |

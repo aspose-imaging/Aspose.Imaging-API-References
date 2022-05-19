@@ -12,7 +12,7 @@ The namespace handles Tiff file format processing.
 
 | Class | Description |
 | --- | --- |
-| [CmxArrowSpec](./cmxarrowspec) | Represents geometric info specified for outline arrow (../marker). |
+| [CmxArrowSpec](./cmxarrowspec) | Represents geometric info specified for outline arrow (marker). |
 | [CmxEllipseSpec](./cmxellipsespec) | Represents geometric info specified for an ellipse. |
 | [CmxImageSpec](./cmximagespec) | Represents info specified for raster images. |
 | [CmxPathPointSpec](./cmxpathpointspec) | Represents geometric info specified for a path point. |
