@@ -14,7 +14,7 @@ The exif light source.
 public enum ExifLightSource
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

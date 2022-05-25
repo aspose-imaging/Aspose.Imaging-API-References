@@ -14,7 +14,7 @@ Gets or sets information about image, which used by Windows Explorer.
 public string XPTitle { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Information about image, used by Windows Explorer. The `XPTitle` is ignored by Windows Explorer if the [`ImageDescription`](../imagedescription) tag exists.
 

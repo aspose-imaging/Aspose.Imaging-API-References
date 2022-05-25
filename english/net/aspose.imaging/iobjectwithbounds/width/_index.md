@@ -14,7 +14,7 @@ Gets the object width.
 public int Width { get; }
 ```
 
-## Property Value
+### Property Value
 
 The object width.
 

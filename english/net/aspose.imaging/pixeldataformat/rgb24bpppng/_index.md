@@ -14,7 +14,7 @@ Gets the [`PixelDataFormat`](../../pixeldataformat) defined for 24 bits per pixe
 public static PixelDataFormat Rgb24BppPng { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`PixelDataFormat`](../../pixeldataformat) defined for 24 bits per pixel with 8 bits for each of the alpha, red, green and blue, alpha is not defined.
 

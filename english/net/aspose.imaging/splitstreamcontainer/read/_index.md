@@ -18,7 +18,7 @@ public override int Read(byte[] bytes)
 | --- | --- | --- |
 | bytes | Byte[] | The bytes to fill. |
 
-## Return Value
+### Return Value
 
 The number of bytes read. This value can be less than the number of bytes in the buffer if there is not enough bytes in the stream.
 
@@ -44,7 +44,7 @@ public override int Read(byte[] buffer, int offset, int count)
 | offset | Int32 | The zero-based byte offset in *buffer* at which to begin storing the data read from the current stream. |
 | count | Int32 | The maximum number of bytes to be read from the current stream. |
 
-## Return Value
+### Return Value
 
 The total number of bytes read into the buffer. This can be less than the number of bytes requested if that many bytes are not currently available, or zero (0) if the end of the stream has been reached.
 

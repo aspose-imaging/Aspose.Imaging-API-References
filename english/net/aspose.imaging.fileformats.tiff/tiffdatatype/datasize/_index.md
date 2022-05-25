@@ -14,7 +14,7 @@ Gets the additional data size in bytes (in case the 12 bytes is not enough to fi
 public abstract uint DataSize { get; }
 ```
 
-## Property Value
+### Property Value
 
 The additional data size in bytes.
 

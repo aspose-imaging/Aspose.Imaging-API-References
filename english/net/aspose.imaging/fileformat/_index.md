@@ -15,7 +15,7 @@ One of supported imaging file formats.
 public enum FileFormat : ulong
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets all the EXIF tags (including common and GPS tags).
 public TiffDataType[] Properties { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The EXIF tags (including common and GPS tags).
 

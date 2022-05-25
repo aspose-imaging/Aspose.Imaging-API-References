@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this [`OdFont`](../../odfont) is weight.
 public bool Bold { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if weight; otherwise, `false`.
 

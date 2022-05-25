@@ -14,7 +14,7 @@ The FloodFill Enumeration specifies the type of fill operation to be performed.
 public enum WmfFloodFillMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

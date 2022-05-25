@@ -14,7 +14,7 @@ The Proportion enumeration defines values for one of the characteristics in the 
 public enum EmfProportion : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

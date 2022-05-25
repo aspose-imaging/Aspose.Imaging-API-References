@@ -14,7 +14,7 @@ Basic units for CMX document.
 public enum Units
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

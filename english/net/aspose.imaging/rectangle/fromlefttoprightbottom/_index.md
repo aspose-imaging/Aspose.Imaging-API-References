@@ -21,7 +21,7 @@ public static Rectangle FromLeftTopRightBottom(int left, int top, int right, int
 | right | Int32 | The x-coordinate of the lower-right corner of this [`Rectangle`](../../rectangle) structure. |
 | bottom | Int32 | The y-coordinate of the lower-right corner of this [`Rectangle`](../../rectangle) structure. |
 
-## Return Value
+### Return Value
 
 The new [`Rectangle`](../../rectangle) that this method creates.
 

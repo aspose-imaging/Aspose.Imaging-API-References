@@ -14,7 +14,7 @@ Gets or sets the dest position.
 public Point DestPos { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The coordinates, in logical units, of the upper-left corner of the destination rectangle.
 

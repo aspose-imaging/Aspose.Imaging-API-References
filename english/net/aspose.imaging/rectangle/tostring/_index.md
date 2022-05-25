@@ -14,7 +14,7 @@ Converts the attributes of this [`Rectangle`](../../rectangle) to a human-readab
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 A string that contains the position, width, and height of this [`Rectangle`](../../rectangle) structure.
 

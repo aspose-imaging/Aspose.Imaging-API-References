@@ -14,7 +14,7 @@ Gets or sets a value indicating whether stream is temporal.
 public bool IsTemporal { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if stream is temporal; otherwise, `false`.
 

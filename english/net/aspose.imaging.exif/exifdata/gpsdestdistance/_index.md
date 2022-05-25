@@ -14,7 +14,7 @@ Gets or sets the GPS distance to the destination point.
 public TiffRational GPSDestDistance { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS distance to the destination point.
 

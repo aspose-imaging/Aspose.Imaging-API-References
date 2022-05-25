@@ -14,7 +14,7 @@ Gets or sets the width bytes.
 public short WidthBytes { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The number of bytes per scan line.
 

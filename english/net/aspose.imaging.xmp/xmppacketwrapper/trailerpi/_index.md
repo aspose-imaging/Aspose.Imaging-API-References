@@ -14,7 +14,7 @@ Gets the trailer processing instruction.
 public XmpTrailerPi TrailerPi { get; }
 ```
 
-## Property Value
+### Property Value
 
 Trailer processing instruction.
 

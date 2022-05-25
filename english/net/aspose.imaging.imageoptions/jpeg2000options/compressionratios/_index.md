@@ -14,7 +14,7 @@ Gets or sets the Array of compression ratio. Different compression ratios for su
 public int[] CompressionRatios { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The compression ratios.
 

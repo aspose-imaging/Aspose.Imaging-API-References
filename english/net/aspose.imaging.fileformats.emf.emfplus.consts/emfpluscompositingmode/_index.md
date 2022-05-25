@@ -14,7 +14,7 @@ The CompositingMode enumeration defines modes for combining source colors with b
 public enum EmfPlusCompositingMode : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

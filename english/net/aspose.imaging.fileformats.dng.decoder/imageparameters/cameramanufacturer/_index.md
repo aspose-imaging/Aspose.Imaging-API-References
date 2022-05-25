@@ -14,7 +14,7 @@ Gets the camera manufacturer.
 public string CameraManufacturer { get; }
 ```
 
-## Property Value
+### Property Value
 
 The make.
 

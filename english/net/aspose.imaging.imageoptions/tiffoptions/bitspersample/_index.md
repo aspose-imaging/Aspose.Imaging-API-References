@@ -14,7 +14,7 @@ Gets or sets the bits per sample.
 public ushort[] BitsPerSample { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The bits per sample value.
 

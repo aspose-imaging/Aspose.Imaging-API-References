@@ -14,7 +14,7 @@ Each ternary raster operation code represents a Boolean operation in which the v
 public enum WmfTernaryRasterOperationOperand
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

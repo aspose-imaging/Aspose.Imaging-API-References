@@ -14,7 +14,7 @@ Gets or sets the currently active page
 public DjvuPage ActivePage { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The active page.
 

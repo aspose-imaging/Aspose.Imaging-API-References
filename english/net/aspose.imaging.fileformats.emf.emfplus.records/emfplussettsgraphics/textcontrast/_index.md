@@ -14,7 +14,7 @@ Gets or sets a 16-bit unsigned integer that specifies the gamma correction value
 public short TextContrast { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The text contrast.
 

@@ -27,6 +27,12 @@ public class WmfCreatePalette : WmfGraphicObject
 | [Index](../../aspose.imaging.fileformats.wmf.objects/wmfgraphicobject/index) { get; set; } | Gets or sets the index. |
 | [LogPalette](../../aspose.imaging.fileformats.wmf.objects/wmfcreatepalette/logpalette) { get; set; } | Gets or sets the log palette. |
 
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [PaletteStart](../../aspose.imaging.fileformats.wmf.objects/wmfcreatepalette/palettestart) | The palette start tag |
+
 ### See Also
 
 * class [WmfGraphicObject](../wmfgraphicobject)

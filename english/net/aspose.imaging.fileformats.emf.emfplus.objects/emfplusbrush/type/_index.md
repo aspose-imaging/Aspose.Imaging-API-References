@@ -14,7 +14,7 @@ Gets or sets the type.
 public EmfPlusBrushType Type { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A 32-bit unsigned integer that specifies the type of brush, which determines the contents of the BrushData field. This value MUST be defined in the [`EmfPlusBrushType`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushtype) enumeration.
 

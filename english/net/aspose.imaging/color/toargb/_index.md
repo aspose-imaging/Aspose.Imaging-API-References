@@ -14,7 +14,7 @@ Gets the 32-bit ARGB value of this [`Color`](../../color) structure.
 public int ToArgb()
 ```
 
-## Return Value
+### Return Value
 
 The 32-bit ARGB value of this [`Color`](../../color).
 

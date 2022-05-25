@@ -14,7 +14,7 @@ Gets or sets the outline style.
 public CmxOutline Outline { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The outline style.
 

@@ -14,7 +14,7 @@ Gets the blend pattern as preset colors.
 public EmfPlusBlendColors BlendPatternAsPresetColors { get; }
 ```
 
-## Property Value
+### Property Value
 
 The blend pattern as preset colors.
 

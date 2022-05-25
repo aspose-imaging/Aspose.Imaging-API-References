@@ -14,7 +14,7 @@ Specifies the quality level to use during compositing.
 public enum CompositingQuality
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

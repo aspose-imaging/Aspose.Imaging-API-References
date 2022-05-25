@@ -14,7 +14,7 @@ Gets the minimum allowed quantization value.
 public int MinQ { get; }
 ```
 
-## Property Value
+### Property Value
 
 The minimum minimum allowed quantization value.
 

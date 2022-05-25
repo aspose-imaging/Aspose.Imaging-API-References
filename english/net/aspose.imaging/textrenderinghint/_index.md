@@ -14,7 +14,7 @@ Specifies the quality of text rendering.
 public enum TextRenderingHint
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets the stream to read additional data from.
 public TiffStreamReader Stream { get; }
 ```
 
-## Property Value
+### Property Value
 
 The stream to read data from.
 

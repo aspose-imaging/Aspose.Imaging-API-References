@@ -18,7 +18,7 @@ public bool Equals(Timecode other)
 | --- | --- | --- |
 | other | Timecode | An object to compare with this object. |
 
-## Return Value
+### Return Value
 
 true if the current object is equal to the *other* parameter; otherwise, false.
 
@@ -42,7 +42,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The Object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 `true` if the specified Object is equal to this instance; otherwise, `false`.
 

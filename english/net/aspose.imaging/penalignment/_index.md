@@ -14,7 +14,7 @@ Specifies the alignment of a [`Pen`](../pen) object in relation to the theoretic
 public enum PenAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

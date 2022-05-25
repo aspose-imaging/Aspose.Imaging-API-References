@@ -19,7 +19,7 @@ public bool IsVisible(float x, float y)
 | x | Single | The x-coordinate of the point to test. |
 | y | Single | The y-coordinate of the point to test. |
 
-## Return Value
+### Return Value
 
 True when the specified point is contained within this [`Region`](../../region); otherwise, false.
 
@@ -43,7 +43,7 @@ public bool IsVisible(PointF point)
 | --- | --- | --- |
 | point | PointF | The [`PointF`](../../pointf) structure to test. |
 
-## Return Value
+### Return Value
 
 true when *point* is contained within this [`Region`](../../region); otherwise, false.
 
@@ -70,7 +70,7 @@ public bool IsVisible(float x, float y, Graphics g)
 | y | Single | The y-coordinate of the point to test. |
 | g | Graphics | A [`Graphics`](../../graphics) that represents a graphics context. |
 
-## Return Value
+### Return Value
 
 True when the specified point is contained within this [`Region`](../../region); otherwise, false.
 
@@ -96,7 +96,7 @@ public bool IsVisible(PointF point, Graphics g)
 | point | PointF | The [`PointF`](../../pointf) structure to test. |
 | g | Graphics | A [`Graphics`](../../graphics) that represents a graphics context. |
 
-## Return Value
+### Return Value
 
 true when *point* is contained within this [`Region`](../../region); otherwise, false.
 
@@ -125,7 +125,7 @@ public bool IsVisible(float x, float y, float width, float height)
 | width | Single | The width of the rectangle to test. |
 | height | Single | The height of the rectangle to test. |
 
-## Return Value
+### Return Value
 
 true when any portion of the specified rectangle is contained within this [`Region`](../../region) object; otherwise, false.
 
@@ -149,7 +149,7 @@ public bool IsVisible(RectangleF rect)
 | --- | --- | --- |
 | rect | RectangleF | The [`RectangleF`](../../rectanglef) structure to test. |
 
-## Return Value
+### Return Value
 
 true when any portion of *rect* is contained within this [`Region`](../../region); otherwise, false.
 
@@ -178,7 +178,7 @@ public bool IsVisible(float x, float y, float width, float height, Graphics g)
 | height | Single | The height of the rectangle to test. |
 | g | Graphics | A [`Graphics`](../../graphics) that represents a graphics context. |
 
-## Return Value
+### Return Value
 
 true when any portion of the specified rectangle is contained within this [`Region`](../../region); otherwise, false.
 
@@ -204,7 +204,7 @@ public bool IsVisible(RectangleF rect, Graphics g)
 | rect | RectangleF | The [`RectangleF`](../../rectanglef) structure to test. |
 | g | Graphics | A [`Graphics`](../../graphics) that represents a graphics context. |
 
-## Return Value
+### Return Value
 
 true when *rect* is contained within this [`Region`](../../region); otherwise, false.
 
@@ -232,7 +232,7 @@ public bool IsVisible(int x, int y, Graphics g)
 | y | Int32 | The y-coordinate of the point to test. |
 | g | Graphics | A [`Graphics`](../../graphics) that represents a graphics context. |
 
-## Return Value
+### Return Value
 
 true when the specified point is contained within this [`Region`](../../region); otherwise, false.
 
@@ -257,7 +257,7 @@ public bool IsVisible(Point point)
 | --- | --- | --- |
 | point | Point | The [`Point`](../../point) structure to test. |
 
-## Return Value
+### Return Value
 
 true when *point* is contained within this [`Region`](../../region); otherwise, false.
 
@@ -283,7 +283,7 @@ public bool IsVisible(Point point, Graphics g)
 | point | Point | The [`Point`](../../point) structure to test. |
 | g | Graphics | A [`Graphics`](../../graphics) that represents a graphics context. |
 
-## Return Value
+### Return Value
 
 true when *point* is contained within this [`Region`](../../region); otherwise, false.
 
@@ -312,7 +312,7 @@ public bool IsVisible(int x, int y, int width, int height)
 | width | Int32 | The width of the rectangle to test. |
 | height | Int32 | The height of the rectangle to test. |
 
-## Return Value
+### Return Value
 
 true when any portion of the specified rectangle is contained within this [`Region`](../../region); otherwise, false.
 
@@ -336,7 +336,7 @@ public bool IsVisible(Rectangle rect)
 | --- | --- | --- |
 | rect | Rectangle | The [`Rectangle`](../../rectangle) structure to test. |
 
-## Return Value
+### Return Value
 
 This method returns true when any portion of *rect* is contained within this [`Region`](../../region); otherwise, false.
 
@@ -365,7 +365,7 @@ public bool IsVisible(int x, int y, int width, int height, Graphics g)
 | height | Int32 | The height of the rectangle to test. |
 | g | Graphics | A [`Graphics`](../../graphics) that represents a graphics context. |
 
-## Return Value
+### Return Value
 
 true when any portion of the specified rectangle is contained within this [`Region`](../../region); otherwise, false.
 
@@ -391,7 +391,7 @@ public bool IsVisible(Rectangle rect, Graphics g)
 | rect | Rectangle | The [`Rectangle`](../../rectangle) structure to test. |
 | g | Graphics | A [`Graphics`](../../graphics) that represents a graphics context. |
 
-## Return Value
+### Return Value
 
 true when any portion of the *rect* is contained within this [`Region`](../../region); otherwise, false.
 

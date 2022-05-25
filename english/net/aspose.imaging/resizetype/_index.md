@@ -14,7 +14,7 @@ Specifies the resize type.
 public enum ResizeType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Specifies whether smoothing (antialiasing) is applied to lines and curves and th
 public enum SmoothingMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

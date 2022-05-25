@@ -14,7 +14,7 @@ Gets or sets a [`StringFormatFlags`](../../stringformatflags) enumeration that c
 public StringFormatFlags FormatFlags { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A [`StringFormatFlags`](../../stringformatflags) enumeration that contains formatting information.
 

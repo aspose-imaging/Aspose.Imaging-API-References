@@ -18,7 +18,7 @@ public static Brush ToGdiBrush(Brush brush)
 | --- | --- | --- |
 | brush | Brush | The [`Brush`](../../../aspose.imaging/brush) to convert. |
 
-## Return Value
+### Return Value
 
 The converted Brush.
 

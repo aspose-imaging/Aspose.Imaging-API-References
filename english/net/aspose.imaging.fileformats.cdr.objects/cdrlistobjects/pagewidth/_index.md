@@ -14,7 +14,7 @@ Gets or sets the width of the page.
 public double PageWidth { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The width of the page.
 

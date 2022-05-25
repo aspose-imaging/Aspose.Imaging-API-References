@@ -14,7 +14,7 @@ Gets the enumerator.
 public IEnumerator<IMaskingLayer> GetEnumerator()
 ```
 
-## Return Value
+### Return Value
 
 The enumerator.
 

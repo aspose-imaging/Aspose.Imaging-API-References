@@ -14,7 +14,7 @@ Gets or sets a value indicating whether needless to separate each Shape from mas
 public bool Decompose { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if decompose; otherwise, `false`.
 

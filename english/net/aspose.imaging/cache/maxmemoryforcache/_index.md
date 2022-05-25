@@ -14,7 +14,7 @@ Gets or sets the maximum available memory for cache in memory. The value specifi
 public static int MaxMemoryForCache { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The maximum memory for cache.
 

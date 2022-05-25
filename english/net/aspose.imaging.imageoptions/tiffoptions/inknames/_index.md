@@ -14,7 +14,7 @@ Gets or sets the ink names.
 public string InkNames { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The ink names.
 

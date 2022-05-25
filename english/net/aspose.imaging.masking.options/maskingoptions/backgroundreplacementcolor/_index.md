@@ -14,7 +14,7 @@ Gets or sets the background replacement color.
 public Color BackgroundReplacementColor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The background replacement color. This color will be used as background color in resulting images.
 

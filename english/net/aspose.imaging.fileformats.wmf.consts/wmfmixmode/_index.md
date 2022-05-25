@@ -14,7 +14,7 @@ The MixMode Enumeration specifies the background mix mode for text, hatched brus
 public enum WmfMixMode : short
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

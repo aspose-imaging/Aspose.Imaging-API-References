@@ -19,7 +19,7 @@ public static TiffStreamWriter GetTiffWriter(StreamContainer stream, TiffByteOrd
 | stream | StreamContainer | The stream container. |
 | byteOrder | TiffByteOrder | The byte order. |
 
-## Return Value
+### Return Value
 
 Tiff stream suitable for writing.
 

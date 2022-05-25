@@ -14,7 +14,7 @@ The OutPrecision enumeration defines values for output precision, which is the r
 public enum WmfOutPrecision : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

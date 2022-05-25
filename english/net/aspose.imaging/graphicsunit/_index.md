@@ -14,7 +14,7 @@ Specifies the unit of measure for the given data.
 public enum GraphicsUnit
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

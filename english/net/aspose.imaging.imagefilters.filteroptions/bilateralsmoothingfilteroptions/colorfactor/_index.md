@@ -14,7 +14,7 @@ Gets or sets the color factor.
 public double ColorFactor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color factor.
 

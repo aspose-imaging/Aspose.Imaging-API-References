@@ -14,7 +14,7 @@ Gets or sets the fax t4 options.
 public Group3Options FaxT4Options { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The fax t4 options.
 

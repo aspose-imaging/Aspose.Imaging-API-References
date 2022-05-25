@@ -14,7 +14,7 @@ The BackgroundMode enumeration is used to specify the background mode to be used
 public enum EmfBackgroundMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

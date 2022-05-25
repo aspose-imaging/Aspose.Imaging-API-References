@@ -14,7 +14,7 @@ Gets or sets the bits.
 public byte[] Bits { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The bitmap pixel data. The length of this field in bytes can be computed as follows.
 

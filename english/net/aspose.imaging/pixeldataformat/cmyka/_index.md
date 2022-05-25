@@ -14,7 +14,7 @@ Gets the acmyk.
 public static PixelDataFormat Cmyka { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`PixelDataFormat`](../../pixeldataformat) defined for 40 bits per pixel with 8 bits for each of the alpha, cyan, magenta, yellow and black.
 

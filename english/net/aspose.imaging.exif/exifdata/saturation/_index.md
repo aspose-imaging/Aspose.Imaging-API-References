@@ -14,7 +14,7 @@ Gets or sets the saturation.
 public ExifSaturation Saturation { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The saturation.
 

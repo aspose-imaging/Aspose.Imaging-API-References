@@ -14,7 +14,7 @@ Gets the first control point of a bezier spline.
 public PointF FirstControlPoint { get; }
 ```
 
-## Property Value
+### Property Value
 
 The first control point.
 

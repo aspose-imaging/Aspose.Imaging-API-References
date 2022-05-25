@@ -14,7 +14,7 @@ Gets or sets the raster operation.
 public WmfTernaryRasterOperation RasterOperation { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The source pixels, the current brush in the playback device context, and the destination pixels are to be combined to form the new image. This code MUST be one of the values in the Ternary Raster Operation Enumeration (section 2.1.1.31).
 

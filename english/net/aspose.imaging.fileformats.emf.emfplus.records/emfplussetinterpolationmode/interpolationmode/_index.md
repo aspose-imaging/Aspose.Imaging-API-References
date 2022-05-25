@@ -14,7 +14,7 @@ Gets or sets the interpolation mode value, from the InterpolationMode enumeratio
 public EmfPlusInterpolationMode InterpolationMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The interpolation mode.
 

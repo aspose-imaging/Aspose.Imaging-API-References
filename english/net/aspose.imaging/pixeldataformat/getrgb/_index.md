@@ -18,7 +18,7 @@ public static PixelDataFormat GetRgb(int bitsPerSample)
 | --- | --- | --- |
 | bitsPerSample | Int32 | The number of bits per sample. |
 
-## Return Value
+### Return Value
 
 The RGB color.
 
@@ -45,7 +45,7 @@ public static PixelDataFormat GetRgb(int bitsPerRedChannel, int bitsPerGreenChan
 | bitsPerGreenChannel | Int32 | The number of bits per Green channel. |
 | bitsPerBlueChannel | Int32 | The number of bits per Blue channel. |
 
-## Return Value
+### Return Value
 
 The RGB color.
 

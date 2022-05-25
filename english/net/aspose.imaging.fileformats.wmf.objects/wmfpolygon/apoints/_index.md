@@ -14,7 +14,7 @@ Gets or sets the points. A NumberOfPoints array of 32-bit PointS Objects (sectio
 public Point[] APoints { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The points.
 

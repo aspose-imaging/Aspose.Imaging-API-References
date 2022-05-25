@@ -14,7 +14,7 @@ Gets or sets the min sample value. The value has a field type which best matches
 public uint[] SminSampleValue { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The min sample value.
 

@@ -14,7 +14,7 @@ Gets the last page of the document
 public DjvuPage LastPage { get; }
 ```
 
-## Property Value
+### Property Value
 
 The last page.
 

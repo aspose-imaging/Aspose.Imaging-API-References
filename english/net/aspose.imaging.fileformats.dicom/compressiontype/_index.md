@@ -14,7 +14,7 @@ The DICOM image compression type.
 public enum CompressionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

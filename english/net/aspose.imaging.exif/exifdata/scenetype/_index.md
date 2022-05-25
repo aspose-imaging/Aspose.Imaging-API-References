@@ -14,7 +14,7 @@ Gets or sets the scene type.
 public byte SceneType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the scene.
 

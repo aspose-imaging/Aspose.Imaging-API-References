@@ -14,7 +14,7 @@ Gets or sets a value indicating whether GIF has trailer.
 public bool HasTrailer { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if GIF has trailer; otherwise, `false`.
 

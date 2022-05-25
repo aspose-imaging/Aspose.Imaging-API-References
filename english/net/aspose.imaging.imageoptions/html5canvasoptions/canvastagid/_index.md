@@ -14,7 +14,7 @@ Gets or sets the canvas tag identifier.
 public string CanvasTagId { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The canvas tag identifier.
 

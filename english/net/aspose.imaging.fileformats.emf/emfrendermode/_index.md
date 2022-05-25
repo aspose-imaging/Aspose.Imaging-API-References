@@ -14,7 +14,7 @@ The emf render mode
 public enum EmfRenderMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

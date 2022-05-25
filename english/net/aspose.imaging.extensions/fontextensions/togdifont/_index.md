@@ -18,7 +18,7 @@ public static Font ToGdiFont(Font font)
 | --- | --- | --- |
 | font | Font | The [`Font`](../../../aspose.imaging/font) to convert. |
 
-## Return Value
+### Return Value
 
 The converted Font.
 
@@ -44,7 +44,7 @@ public static Font ToGdiFont(Font font, GraphicsUnit fontUnit)
 | font | Font | The [`Font`](../../../aspose.imaging/font) to convert. |
 | fontUnit | GraphicsUnit | New graphics unit |
 
-## Return Value
+### Return Value
 
 The converted Font.
 

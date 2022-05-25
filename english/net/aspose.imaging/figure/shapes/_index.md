@@ -14,7 +14,7 @@ Gets the figure shapes.
 public Shape[] Shapes { get; }
 ```
 
-## Property Value
+### Property Value
 
 The figure shapes.
 

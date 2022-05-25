@@ -14,7 +14,7 @@ Gets or sets the color of the text.
 public int TextColor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color of the text.
 

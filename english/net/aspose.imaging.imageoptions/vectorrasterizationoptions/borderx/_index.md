@@ -14,7 +14,7 @@ Gets or sets the border X.
 public float BorderX { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The border X.
 

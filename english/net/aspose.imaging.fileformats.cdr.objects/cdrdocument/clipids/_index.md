@@ -14,7 +14,7 @@ Gets or sets the clip ids.
 public List<short> ClipIds { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The clip ids.
 

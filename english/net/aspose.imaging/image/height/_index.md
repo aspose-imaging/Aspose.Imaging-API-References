@@ -14,7 +14,7 @@ Gets the image height.
 public abstract int Height { get; }
 ```
 
-## Property Value
+### Property Value
 
 The image height.
 

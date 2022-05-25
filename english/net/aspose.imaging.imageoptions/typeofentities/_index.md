@@ -14,7 +14,7 @@ Represents types of entities to render
 public enum TypeOfEntities
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

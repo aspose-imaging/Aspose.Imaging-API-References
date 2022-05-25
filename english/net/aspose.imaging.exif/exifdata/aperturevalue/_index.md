@@ -14,7 +14,7 @@ Gets or sets the aperture value.
 public TiffRational ApertureValue { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The aperture value.
 

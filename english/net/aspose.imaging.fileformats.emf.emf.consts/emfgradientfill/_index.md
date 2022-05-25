@@ -14,7 +14,7 @@ The GradientFill enumeration defines the modes for gradient fill operations.
 public enum EmfGradientFill
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

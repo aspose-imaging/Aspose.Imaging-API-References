@@ -14,7 +14,7 @@ Gets or sets the size of the kernel.
 public int Size { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The size of the kernel.
 

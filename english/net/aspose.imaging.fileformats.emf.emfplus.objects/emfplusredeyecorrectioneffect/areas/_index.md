@@ -14,7 +14,7 @@ Gets or sets the An array of NumberOfAreas WMF RectL objects, specified in [MS-W
 public Rectangle[] Areas { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The areas.
 

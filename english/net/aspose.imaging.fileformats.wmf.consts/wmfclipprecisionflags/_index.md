@@ -15,7 +15,7 @@ ClipPrecision Flags specify clipping precision, which defines how to clip charac
 public enum WmfClipPrecisionFlags : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

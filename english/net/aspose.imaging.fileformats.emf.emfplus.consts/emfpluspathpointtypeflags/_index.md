@@ -15,7 +15,7 @@ The PathPointType flags specify type properties of points on graphics paths. The
 public enum EmfPlusPathPointTypeFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ The GraphicsMode enumeration is used to specify how to interpret shape data such
 public enum EmfGraphicsMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

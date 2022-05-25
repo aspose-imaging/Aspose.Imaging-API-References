@@ -14,7 +14,7 @@ exif color space enum.
 public enum ExifColorSpace
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

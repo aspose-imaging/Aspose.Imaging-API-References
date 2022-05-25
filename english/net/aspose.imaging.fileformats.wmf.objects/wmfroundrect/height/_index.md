@@ -14,7 +14,7 @@ Gets or sets the height.
 public short Height { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The height, in logical coordinates, of the ellipse used to draw the rounded corners.
 

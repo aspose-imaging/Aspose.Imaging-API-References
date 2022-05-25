@@ -14,7 +14,7 @@ Gets or sets a value indicating whether video display. if set, this flag indicat
 public bool VideoDisplay { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if [video display]; otherwise, `false`.
 

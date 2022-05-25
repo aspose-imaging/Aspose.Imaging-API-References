@@ -14,7 +14,7 @@ Gets or sets the index of the text.
 public int TextIndex { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The index of the text.
 

@@ -14,7 +14,7 @@ The Weight enumeration defines values for one of the characteristics in the PANO
 public enum EmfWeight : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

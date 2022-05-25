@@ -20,7 +20,7 @@ public static IGifBlock LoadBlockByFirstSupportedDescriptor(Stream stream,
 | stream | Stream | The stream. |
 | containerPalette | IColorPalette | The container palette. |
 
-## Return Value
+### Return Value
 
 The loaded gif block or null if no opener is found.
 

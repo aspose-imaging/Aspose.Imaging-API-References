@@ -14,7 +14,7 @@ Gets the parent image the page belongs to
 public DjvuImage ParentImage { get; }
 ```
 
-## Property Value
+### Property Value
 
 The document.
 

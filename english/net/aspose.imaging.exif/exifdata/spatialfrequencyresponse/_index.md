@@ -14,7 +14,7 @@ Gets or sets the spatial frequency response.
 public byte[] SpatialFrequencyResponse { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The spatial frequency response.
 

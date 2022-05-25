@@ -14,7 +14,7 @@ Gets a value indicating whether stream supports reading.
 public virtual bool CanRead { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if stream supports reading; otherwise, `false`.
 

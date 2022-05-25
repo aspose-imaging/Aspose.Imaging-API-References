@@ -14,7 +14,7 @@ Gets the PostScript version field
 public string PostScriptVersion { get; }
 ```
 
-## Property Value
+### Property Value
 
 The PostScript version field
 

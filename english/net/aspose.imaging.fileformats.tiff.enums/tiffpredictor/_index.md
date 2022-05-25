@@ -14,7 +14,7 @@ Prediction scheme for LZW
 public enum TiffPredictor : ushort
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

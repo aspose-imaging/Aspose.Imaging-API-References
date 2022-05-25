@@ -14,7 +14,7 @@ Gets the element size in bytes.
 public abstract uint ElementSize { get; }
 ```
 
-## Property Value
+### Property Value
 
 The element size in bytes.
 

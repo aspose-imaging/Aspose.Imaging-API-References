@@ -18,7 +18,7 @@ public static string GetRdfCode(XmpArrayType xmpArrayType)
 | --- | --- | --- |
 | xmpArrayType | XmpArrayType | Type of the XMP array. |
 
-## Return Value
+### Return Value
 
 Returns the RDF code for specific [`XmpArrayType`](../../xmparraytype).
 

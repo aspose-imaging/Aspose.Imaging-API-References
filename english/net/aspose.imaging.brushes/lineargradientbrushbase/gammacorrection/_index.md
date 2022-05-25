@@ -14,7 +14,7 @@ Gets or sets a value indicating whether gamma correction is enabled for this [`L
 public bool GammaCorrection { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The value is true if gamma correction is enabled for this [`LinearGradientBrushBase`](../../lineargradientbrushbase); otherwise, false.
 

@@ -14,7 +14,7 @@ Image filters to use
 public enum ImageFilterType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

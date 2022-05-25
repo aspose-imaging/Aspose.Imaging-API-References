@@ -14,7 +14,7 @@ Gets or sets the height.
 public short Height { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The height, in logical units, of the rectangle.
 

@@ -14,7 +14,7 @@ Gets or sets bitmap data BitmapData (variable): Variable-length data that define
 public EmfPlusBaseBitmapData BitmapData { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The bitmap data.
 

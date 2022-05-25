@@ -14,7 +14,7 @@ Gets or sets the plain text data.
 public byte[] PlainTextData { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The plain text data.
 

@@ -14,7 +14,7 @@ Gets or sets the checksum.
 public int Checksum { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A 16-bit unsigned integer used to validate the correctness of the embedded EMF stream. This value MUST be the one's-complement of the result of applying an XOR operation to all WORDs in the EMF stream.
 

@@ -14,7 +14,7 @@ exif unit enum.
 public enum ExifUnit
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

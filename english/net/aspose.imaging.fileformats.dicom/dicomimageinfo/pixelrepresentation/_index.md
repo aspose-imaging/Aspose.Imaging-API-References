@@ -14,7 +14,7 @@ Gets a value of the pixel "pixelRepresentation".
 public int PixelRepresentation { get; }
 ```
 
-## Property Value
+### Property Value
 
 The a value of the "pixelRepresentation".
 

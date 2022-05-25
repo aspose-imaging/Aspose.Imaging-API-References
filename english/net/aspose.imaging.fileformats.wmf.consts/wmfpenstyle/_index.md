@@ -14,7 +14,7 @@ The 16-bit PenStyle Enumeration is used to specify different types of pens that 
 public enum WmfPenStyle : short
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

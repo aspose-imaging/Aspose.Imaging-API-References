@@ -14,7 +14,7 @@ Gets the vertical resolution of this Aspose.Imaging.Graphics.
 public float DpiY { get; }
 ```
 
-## Property Value
+### Property Value
 
 The value, in dots per inch, for the vertical resolution supported by this Aspose.Imaging.Graphics.
 

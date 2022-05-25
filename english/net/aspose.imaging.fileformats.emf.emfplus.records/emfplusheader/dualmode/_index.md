@@ -14,7 +14,7 @@ Gets or sets a value indicating whether [dual mode]. If set, this flag indicates
 public bool DualMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if [dual mode]; otherwise, `false`.
 

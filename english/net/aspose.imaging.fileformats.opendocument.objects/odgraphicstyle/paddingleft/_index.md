@@ -14,7 +14,7 @@ Gets or sets the padding left.
 public float PaddingLeft { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The padding left.
 

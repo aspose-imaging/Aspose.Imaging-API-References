@@ -14,7 +14,7 @@ Gets a value indicating whether stream should be disposed whenever container get
 public bool DisposeStream { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if stream should be disposed; otherwise, `false`.
 

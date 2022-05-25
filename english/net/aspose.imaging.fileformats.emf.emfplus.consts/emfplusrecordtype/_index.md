@@ -14,7 +14,7 @@ The RecordType enumeration defines record types used in EMF+ metafiles.
 public enum EmfPlusRecordType : short
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

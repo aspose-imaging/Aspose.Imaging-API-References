@@ -18,7 +18,7 @@ public static WmfRecorderGraphics2D FromWmfImage(WmfImage wmfImage)
 | --- | --- | --- |
 | wmfImage | WmfImage | The Wmf image to get a recoreder for. |
 
-## Return Value
+### Return Value
 
 An instance of the [`WmfRecorderGraphics2D`](../../wmfrecordergraphics2d) class.
 

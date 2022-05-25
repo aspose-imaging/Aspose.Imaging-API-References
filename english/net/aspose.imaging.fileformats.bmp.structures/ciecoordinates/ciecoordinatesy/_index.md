@@ -14,7 +14,7 @@ Gets or sets the coordinates y.
 public long CieCoordinatesY { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The coordinates y.
 

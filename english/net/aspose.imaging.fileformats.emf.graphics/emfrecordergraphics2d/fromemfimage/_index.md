@@ -18,7 +18,7 @@ public static EmfRecorderGraphics2D FromEmfImage(EmfImage emfImage)
 | --- | --- | --- |
 | emfImage | EmfImage | The Emf image to read records from. |
 
-## Return Value
+### Return Value
 
 An instance of the [`EmfRecorderGraphics2D`](../../emfrecordergraphics2d)
 

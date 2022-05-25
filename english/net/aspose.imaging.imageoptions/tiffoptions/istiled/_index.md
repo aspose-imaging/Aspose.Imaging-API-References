@@ -14,7 +14,7 @@ Gets a value indicating whether image is tiled.
 public bool IsTiled { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if image is tiled; otherwise, `false`.
 

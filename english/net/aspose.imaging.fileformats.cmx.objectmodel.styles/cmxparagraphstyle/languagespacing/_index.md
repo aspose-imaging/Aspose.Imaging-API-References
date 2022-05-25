@@ -14,7 +14,7 @@ Gets or sets the language spacing.
 public float LanguageSpacing { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The language spacing, in percent.
 

@@ -14,7 +14,7 @@ Gets or sets the arguments for segmentation algorithm.
 public IMaskingArgs Args { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The arguments for segmentation algorithm.
 

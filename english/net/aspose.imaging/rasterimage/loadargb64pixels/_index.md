@@ -18,7 +18,7 @@ public long[] LoadArgb64Pixels(Rectangle rectangle)
 | --- | --- | --- |
 | rectangle | Rectangle | The rectangle to load pixels from. |
 
-## Return Value
+### Return Value
 
 The loaded 64-bit ARGB pixels array.
 

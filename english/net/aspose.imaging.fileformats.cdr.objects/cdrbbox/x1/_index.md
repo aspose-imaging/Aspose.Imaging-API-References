@@ -14,7 +14,7 @@ Gets or sets the x1.
 public double X1 { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The x1.
 

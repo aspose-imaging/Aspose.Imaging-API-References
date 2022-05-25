@@ -14,7 +14,7 @@ Gets or sets the GIF frame bits per pixel.
 public byte GifFrameBitsPerPixel { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GIF frame bits per pixel.
 

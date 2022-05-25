@@ -14,7 +14,7 @@ Image operations
 protected enum ImageOperation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

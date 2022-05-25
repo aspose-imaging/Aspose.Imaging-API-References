@@ -14,7 +14,7 @@ Specifies the PDF compliance level to output file.
 public enum PdfComplianceVersion
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

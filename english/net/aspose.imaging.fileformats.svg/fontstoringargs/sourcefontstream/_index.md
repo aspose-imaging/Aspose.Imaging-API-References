@@ -14,7 +14,7 @@ Gets the source font stream.
 public Stream SourceFontStream { get; }
 ```
 
-## Property Value
+### Property Value
 
 The source font stream.
 

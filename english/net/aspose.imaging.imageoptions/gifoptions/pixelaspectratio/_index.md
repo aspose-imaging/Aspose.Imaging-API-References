@@ -14,7 +14,7 @@ Gets or sets the GIF pixel aspect ratio.
 public byte PixelAspectRatio { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GIF pixel aspect ratio.
 

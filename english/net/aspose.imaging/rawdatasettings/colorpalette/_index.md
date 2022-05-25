@@ -14,7 +14,7 @@ Gets or sets the color palette
 public IColorPalette ColorPalette { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color palette
 

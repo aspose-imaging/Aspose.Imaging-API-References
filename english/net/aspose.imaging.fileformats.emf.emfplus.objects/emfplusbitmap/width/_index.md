@@ -14,7 +14,7 @@ Gets or sets image Width Width (4 bytes): A 32-bit signed integer that specifies
 public int Width { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The width.
 

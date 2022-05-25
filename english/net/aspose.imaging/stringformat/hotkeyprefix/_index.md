@@ -14,7 +14,7 @@ Gets or sets the [`HotkeyPrefix`](../../hotkeyprefix) object for this [`StringFo
 public HotkeyPrefix HotkeyPrefix { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The [`HotkeyPrefix`](../../hotkeyprefix) object for this [`StringFormat`](../../stringformat) object, the default is None.
 

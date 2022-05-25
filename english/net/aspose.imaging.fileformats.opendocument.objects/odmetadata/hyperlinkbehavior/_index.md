@@ -14,7 +14,7 @@ Gets or sets the hyperlink behavior.
 public string HyperlinkBehavior { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The hyperlink behavior.
 

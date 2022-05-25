@@ -14,7 +14,7 @@ Gets or sets the log font.
 public EmfLogFont LogFont { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The log font.
 

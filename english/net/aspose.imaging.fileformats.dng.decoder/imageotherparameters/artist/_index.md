@@ -14,7 +14,7 @@ Gets the author of image.
 public string Artist { get; }
 ```
 
-## Property Value
+### Property Value
 
 The artist.
 

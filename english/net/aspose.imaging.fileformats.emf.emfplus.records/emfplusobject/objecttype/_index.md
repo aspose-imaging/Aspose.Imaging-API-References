@@ -14,7 +14,7 @@ Gets or sets the type of the object.
 public EmfPlusObjectType ObjectType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the object.
 

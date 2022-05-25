@@ -14,7 +14,7 @@ Gets or sets the amount by which to scale this [`CustomLineCap`](../../customlin
 public float WidthScale { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The amount by which to scale the cap.
 

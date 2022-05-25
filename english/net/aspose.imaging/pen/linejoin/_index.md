@@ -14,7 +14,7 @@ Gets or sets the join style for the ends of two consecutive lines drawn with thi
 public LineJoin LineJoin { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A `LineJoin` that represents the join style for the ends of two consecutive lines drawn with this [`Pen`](../../pen).
 

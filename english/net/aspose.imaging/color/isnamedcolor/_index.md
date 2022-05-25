@@ -14,7 +14,7 @@ Gets a value indicating whether this [`Color`](../../color) structure is a named
 public bool IsNamedColor { get; }
 ```
 
-## Property Value
+### Property Value
 
 True if this [`Color`](../../color) was created by using either the [`FromName`](../fromname) method or the [`FromKnownColor`](../fromknowncolor) method; otherwise, false.
 

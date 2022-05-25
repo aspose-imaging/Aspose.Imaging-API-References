@@ -14,7 +14,7 @@ Gets or sets a value indicating whether [axis x].
 public bool AxisX { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if [axis x]; otherwise, `false`.
 

@@ -14,7 +14,7 @@ The PitchFont enumeration defines values that are used for specifying characteri
 public enum WmfPitchFont : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

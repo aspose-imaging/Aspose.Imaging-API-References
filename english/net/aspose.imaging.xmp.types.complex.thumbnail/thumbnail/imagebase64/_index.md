@@ -14,7 +14,7 @@ Gets or sets the image in base64 format.
 public string ImageBase64 { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The image in base64 format.
 

@@ -18,7 +18,7 @@ public bool RemoveTag(TiffTags tag)
 | --- | --- | --- |
 | tag | TiffTags | The tag to remove. |
 
-## Return Value
+### Return Value
 
 true if successfully removed
 

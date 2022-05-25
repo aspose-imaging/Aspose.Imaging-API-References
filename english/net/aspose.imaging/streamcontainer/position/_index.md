@@ -14,7 +14,7 @@ Gets or sets the current position within the stream. This value represents offse
 public virtual long Position { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The current stream position.
 

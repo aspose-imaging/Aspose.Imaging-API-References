@@ -14,7 +14,7 @@ Gets or sets the halftone hints.
 public ushort[] HalfToneHints { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The halftone hints.
 

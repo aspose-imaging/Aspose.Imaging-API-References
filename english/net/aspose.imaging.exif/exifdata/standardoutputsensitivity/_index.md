@@ -14,7 +14,7 @@ Gets or sets standard output sensitivity
 public uint StandardOutputSensitivity { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The standard output sensitivity.
 

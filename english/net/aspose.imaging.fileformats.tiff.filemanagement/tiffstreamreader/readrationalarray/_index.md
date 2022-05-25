@@ -19,7 +19,7 @@ public TiffRational[] ReadRationalArray(long position, long count)
 | position | Int64 | The position to read from. |
 | count | Int64 | The elements count. |
 
-## Return Value
+### Return Value
 
 The array of rational values.
 

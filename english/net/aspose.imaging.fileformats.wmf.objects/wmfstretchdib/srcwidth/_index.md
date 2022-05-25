@@ -14,7 +14,7 @@ Gets or sets the width of the source.
 public short SrcWidth { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The width, in logical units, of the source rectangle
 

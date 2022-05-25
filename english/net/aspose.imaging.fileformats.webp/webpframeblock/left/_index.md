@@ -14,7 +14,7 @@ Gets or sets the frame position left.
 public short Left { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The left.
 

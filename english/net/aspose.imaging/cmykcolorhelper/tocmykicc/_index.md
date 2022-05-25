@@ -20,7 +20,7 @@ public static int[] ToCmykIcc(Color[] pixels, Stream rgbIccStream, Stream cmykIc
 | rgbIccStream | Stream | The stream containing RGB Icc profile. |
 | cmykIccStream | Stream | The stream containing CMYK Icc profile. |
 
-## Return Value
+### Return Value
 
 The CMYK colors presented as 32-bit integer values.
 
@@ -45,7 +45,7 @@ public static int[] ToCmykIcc(Color[] pixels)
 | --- | --- | --- |
 | pixels | Color[] | The ARGB colors. |
 
-## Return Value
+### Return Value
 
 The CMYK colors presented as 32-bit integer values.
 
@@ -70,7 +70,7 @@ public static int ToCmykIcc(Color pixel)
 | --- | --- | --- |
 | pixel | Color | The ARGB color. |
 
-## Return Value
+### Return Value
 
 The CMYK color presented as a 32-bit integer value.
 
@@ -153,7 +153,7 @@ public static int ToCmykIcc(Color pixel, Stream rgbIccStream, Stream cmykIccStre
 | rgbIccStream | Stream | The stream containing RGB Icc profile. |
 | cmykIccStream | Stream | The stream containing CMYK Icc profile. |
 
-## Return Value
+### Return Value
 
 The CMYK color presented as a 32-bit integer value.
 

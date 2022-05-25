@@ -14,7 +14,7 @@ Gets or sets the color quantization method.
 public ColorQuantizationMethod ColorQuantizationMethod { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color quantization method.
 

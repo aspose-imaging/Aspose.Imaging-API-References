@@ -14,7 +14,7 @@ Specifies the alpha storage for tiff documents.
 public enum TiffAlphaStorage : ushort
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets the segmentation method.
 public SegmentationMethod Method { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The segmentation method.
 

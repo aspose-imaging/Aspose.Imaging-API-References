@@ -164,12 +164,12 @@ public sealed class GifFrameBlock : RasterCachedImage, IAnimationFrame, IGifBloc
 | static [CreateFlags](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/createflags)(IColorPalette, bool, bool) | Creates the flags. |
 | static [GetColorPalette](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/getcolorpalette)(IColorPalette, IColorPalette) | Gets the associated color palette. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [ExtensionLabel](extensionlabel) | Block extension label. |
-| const [ImageDescriptorSize](imagedescriptorsize) | The image descriptor size. |
+| const [ExtensionLabel](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/extensionlabel) | Block extension label. |
+| const [ImageDescriptorSize](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/imagedescriptorsize) | The image descriptor size. |
 
 ### See Also
 

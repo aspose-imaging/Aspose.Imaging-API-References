@@ -14,7 +14,7 @@ Gets or sets the color palette. The color palette is not used when pixels are re
 public IColorPalette Palette { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color palette.
 

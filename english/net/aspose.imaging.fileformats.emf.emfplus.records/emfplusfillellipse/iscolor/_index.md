@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this instance is color. If set, BrushId 
 public bool IsColor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this instance is color; otherwise, `false`.
 

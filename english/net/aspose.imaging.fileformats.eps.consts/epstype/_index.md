@@ -14,7 +14,7 @@ Subtypes of Encapsulated PostScript format
 public enum EpsType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

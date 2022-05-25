@@ -14,7 +14,7 @@ Gets or sets the center point of the path gradient.
 public PointF CenterPoint { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A [`PointF`](../../../aspose.imaging/pointf) that represents the center point of the path gradient.
 

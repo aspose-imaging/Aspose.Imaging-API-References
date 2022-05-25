@@ -14,7 +14,7 @@ Gets or sets the y denom.
 public short YDenom { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The amount by which to divide the result of multiplying the current y-extent by the value of the yNum member.
 

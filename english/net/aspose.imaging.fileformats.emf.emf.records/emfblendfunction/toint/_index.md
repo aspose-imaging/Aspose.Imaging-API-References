@@ -14,7 +14,7 @@ Converts the string representation of a number to an integer.
 public int ToInt()
 ```
 
-## Return Value
+### Return Value
 
 The DWORD value of structure.
 

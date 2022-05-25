@@ -14,7 +14,7 @@ Gets or sets a DesignVector object (section 2.2.3). This field MUST NOT be longe
 public EmfDesignVector DesignVector { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The design vector.
 

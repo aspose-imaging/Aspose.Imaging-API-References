@@ -14,7 +14,7 @@ Gets or sets the y resolution.
 public TiffRational Yresolution { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The y resolution.
 

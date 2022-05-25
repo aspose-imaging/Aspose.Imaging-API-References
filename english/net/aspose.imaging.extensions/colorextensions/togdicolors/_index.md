@@ -18,7 +18,7 @@ public static Color[] ToGdiColors(Color[] colors)
 | --- | --- | --- |
 | colors | Color[] | The[`Color`](../../../aspose.imaging/color) array to convert. |
 
-## Return Value
+### Return Value
 
 The converted Color array.
 

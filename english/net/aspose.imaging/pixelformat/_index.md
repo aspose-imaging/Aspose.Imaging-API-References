@@ -14,7 +14,7 @@ The pixel data format actual meaning.
 public enum PixelFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets the cyan component value.
 public float Cyan { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The cyan component value.
 

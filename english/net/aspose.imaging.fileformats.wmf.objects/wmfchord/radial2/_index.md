@@ -14,7 +14,7 @@ Gets or sets the radial2.
 public Point Radial2 { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The coordinates, in logical coordinates, of the endpoint of the second radial.
 

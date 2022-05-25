@@ -14,7 +14,7 @@ Gets or sets the scanner manufacturer.
 public string ScannerManufacturer { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The scanner manufacturer.
 

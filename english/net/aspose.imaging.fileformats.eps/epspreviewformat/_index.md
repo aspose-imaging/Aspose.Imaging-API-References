@@ -14,7 +14,7 @@ EPS preview format
 public enum EpsPreviewFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

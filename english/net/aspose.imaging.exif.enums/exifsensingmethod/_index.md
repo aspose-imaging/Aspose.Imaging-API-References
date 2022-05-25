@@ -14,7 +14,7 @@ exif sensing method enum.
 public enum ExifSensingMethod
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

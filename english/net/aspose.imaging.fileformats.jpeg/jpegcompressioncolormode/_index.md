@@ -14,7 +14,7 @@ url: /net/aspose.imaging.fileformats.jpeg/jpegcompressioncolormode/
 public enum JpegCompressionColorMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gradient fill types
 public enum GradientTypes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

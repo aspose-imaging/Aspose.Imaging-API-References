@@ -14,7 +14,7 @@ Gets or sets the left indent.
 public double LeftIndent { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The left indent.
 

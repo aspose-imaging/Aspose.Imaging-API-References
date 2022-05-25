@@ -18,7 +18,7 @@ public bool CanSave(ImageOptionsBase options)
 | --- | --- | --- |
 | options | ImageOptionsBase | The save options to use. |
 
-## Return Value
+### Return Value
 
 `true` if image can be saved to the specified file format represented by the passed save options; otherwise, `false`.
 

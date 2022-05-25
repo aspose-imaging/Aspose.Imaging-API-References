@@ -18,7 +18,7 @@ public static IColorPalette Create8BitGrayscale(bool minIsWhite)
 | --- | --- | --- |
 | minIsWhite | Boolean | if set to `true` the palette starts with white color, otherwise it starts with black color. |
 
-## Return Value
+### Return Value
 
 The 8 bit grayscale palette.
 

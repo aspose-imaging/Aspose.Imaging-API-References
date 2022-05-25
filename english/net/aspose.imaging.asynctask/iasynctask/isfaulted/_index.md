@@ -14,7 +14,7 @@ Gets a value indicating whether this task was faulted.
 public bool IsFaulted { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this task was faulted; otherwise, `false`.
 

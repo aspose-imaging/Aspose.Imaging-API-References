@@ -14,7 +14,7 @@ Gets or sets the image data parameters.
 public ImageParameters ImageDataParameters { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The idata.
 

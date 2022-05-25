@@ -14,7 +14,7 @@ Gets or sets a value indicating whether [merege layers].
 public bool MergeLayers { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if [merege layers]; otherwise, `false`.
 

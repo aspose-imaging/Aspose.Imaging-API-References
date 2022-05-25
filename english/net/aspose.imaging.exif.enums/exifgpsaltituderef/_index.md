@@ -14,7 +14,7 @@ exif gps altitude ref enum.
 public enum ExifGPSAltitudeRef : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

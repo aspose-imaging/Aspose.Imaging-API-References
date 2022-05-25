@@ -14,7 +14,7 @@ Gets a value indicating whether raw data loading is supported.
 public bool IsRawDataAvailable { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if raw data loading is supported; otherwise, `false`.
 

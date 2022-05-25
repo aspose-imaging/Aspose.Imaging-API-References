@@ -14,7 +14,7 @@ Converts this [`Color`](../../color) structure to a human-readable string.
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 A string that is the name of this [`Color`](../../color), if the [`Color`](../../color) is created from a predefined color by using either the [`FromName`](../fromname) method or the [`FromKnownColor`](../fromknowncolor) method; otherwise, a string that consists of the ARGB component names and their values.
 

@@ -14,7 +14,7 @@ Gets or sets the index of the color in the global color palette used to draw the
 public byte TextForegroundColorIndex { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The foreground color index.
 

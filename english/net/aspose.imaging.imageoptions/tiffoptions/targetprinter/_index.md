@@ -14,7 +14,7 @@ Gets or sets the target printer.
 public string TargetPrinter { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The target printer.
 

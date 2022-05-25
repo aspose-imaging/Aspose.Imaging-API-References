@@ -14,7 +14,7 @@ Gets or sets the bytes per line.
 public int BytesPerLine { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The bytes per line.
 

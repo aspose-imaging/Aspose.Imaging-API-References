@@ -14,7 +14,7 @@ The HatchStyle enumeration defines hatch patterns used by graphics brushes. A ha
 public enum EmfPlusHatchStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

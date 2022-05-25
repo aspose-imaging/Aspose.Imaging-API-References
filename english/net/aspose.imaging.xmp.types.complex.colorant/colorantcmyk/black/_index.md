@@ -14,7 +14,7 @@ Gets or sets the black component value.
 public float Black { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The black component value.
 

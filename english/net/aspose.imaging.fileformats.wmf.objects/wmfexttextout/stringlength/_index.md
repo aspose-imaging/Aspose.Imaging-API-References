@@ -14,7 +14,7 @@ Gets or sets the length of the string.
 public int StringLength { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The length of the string.
 

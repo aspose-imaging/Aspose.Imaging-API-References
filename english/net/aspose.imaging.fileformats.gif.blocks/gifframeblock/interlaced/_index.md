@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this [`GifFrameBlock`](../../gifframeblo
 public bool Interlaced { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if interlaced; otherwise, `false`.
 

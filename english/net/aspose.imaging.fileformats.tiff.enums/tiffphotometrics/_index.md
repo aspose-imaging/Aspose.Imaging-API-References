@@ -14,7 +14,7 @@ Photometric interpolation enum
 public enum TiffPhotometrics : ushort
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

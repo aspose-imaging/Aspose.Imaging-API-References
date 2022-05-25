@@ -14,7 +14,7 @@ Gets or sets a 32-bit floating-point value that defines the horizontal distance.
 public float Dx { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The dx.
 

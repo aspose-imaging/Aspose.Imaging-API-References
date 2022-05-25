@@ -14,7 +14,7 @@ Gets the maximum R value for consideration.
 public int DiscretizedBppMax { get; }
 ```
 
-## Property Value
+### Property Value
 
 The maximum R value for consideration.
 

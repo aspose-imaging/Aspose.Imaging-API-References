@@ -14,7 +14,7 @@ Gets or sets the export area.
 public Rectangle ExportArea { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The export area.
 

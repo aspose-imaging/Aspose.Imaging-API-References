@@ -18,7 +18,7 @@ public static Rectangle ToGdiRectangle(Rectangle rectangle)
 | --- | --- | --- |
 | rectangle | Rectangle | The rectangle to convert. |
 
-## Return Value
+### Return Value
 
 The converted Rectangle.
 
@@ -43,7 +43,7 @@ public static RectangleF ToGdiRectangle(RectangleF rectangle)
 | --- | --- | --- |
 | rectangle | RectangleF | The rectangle to convert. |
 
-## Return Value
+### Return Value
 
 The converted RectangleF.
 

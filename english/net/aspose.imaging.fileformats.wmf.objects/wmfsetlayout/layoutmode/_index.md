@@ -14,7 +14,7 @@ Gets or sets the LayoutMode.
 public LayoutModeEnum LayoutMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The layout of text and graphics. This MUST be one of the values in the Layout Enumeration (section 2.1.1.13).
 

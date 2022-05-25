@@ -14,7 +14,7 @@ Gets the blend pattern as blend factors h.
 public EmfPlusBlendFactors BlendPatternAsBlendFactorsH { get; }
 ```
 
-## Property Value
+### Property Value
 
 The blend pattern as blend factors h.
 

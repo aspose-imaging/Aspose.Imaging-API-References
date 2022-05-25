@@ -18,7 +18,7 @@ public override DateTime GetModifyDate(bool useDefault)
 | --- | --- | --- |
 | useDefault | Boolean | if set to `true` uses the information from FileInfo as default value. |
 
-## Return Value
+### Return Value
 
 The date and time the resource image was last modified.
 

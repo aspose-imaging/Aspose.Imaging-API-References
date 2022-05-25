@@ -14,7 +14,7 @@ Gets or sets the type of the point. PointType (1 byte): An EmfPlusPathPointType 
 public EmfPlusPathPointType PointType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the point.
 

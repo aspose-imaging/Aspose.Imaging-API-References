@@ -14,7 +14,7 @@ Gets or sets the y num.
 public short YNum { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The amount by which to multiply the current y-extent.
 

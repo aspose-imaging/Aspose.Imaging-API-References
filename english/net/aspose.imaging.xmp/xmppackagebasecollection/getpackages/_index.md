@@ -14,7 +14,7 @@ Get array of [`XmpPackage`](../../xmppackage).
 public XmpPackage[] GetPackages()
 ```
 
-## Return Value
+### Return Value
 
 Returns an array of XMP packages.
 

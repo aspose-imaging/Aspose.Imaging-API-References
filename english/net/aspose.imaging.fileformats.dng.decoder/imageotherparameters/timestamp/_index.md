@@ -14,7 +14,7 @@ Gets the date of shooting.
 public long Timestamp { get; }
 ```
 
-## Property Value
+### Property Value
 
 The timestamp.
 

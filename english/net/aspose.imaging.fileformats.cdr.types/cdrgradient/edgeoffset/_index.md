@@ -14,7 +14,7 @@ Gets or sets the edge offset.
 public int EdgeOffset { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The edge offset.
 

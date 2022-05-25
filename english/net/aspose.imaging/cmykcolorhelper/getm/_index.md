@@ -18,7 +18,7 @@ public static int GetM(int cmyk)
 | --- | --- | --- |
 | cmyk | Int32 | The CMYK color presented as a 32-bit integer value. |
 
-## Return Value
+### Return Value
 
 The magenta component value.
 

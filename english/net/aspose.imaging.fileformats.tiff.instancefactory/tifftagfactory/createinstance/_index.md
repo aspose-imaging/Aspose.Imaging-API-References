@@ -19,7 +19,7 @@ public static TiffDataType CreateInstance(ushort dataType, ushort tagId)
 | dataType | UInt16 | The data type instance. |
 | tagId | UInt16 | The tag id. |
 
-## Return Value
+### Return Value
 
 Tiff tag data type
 

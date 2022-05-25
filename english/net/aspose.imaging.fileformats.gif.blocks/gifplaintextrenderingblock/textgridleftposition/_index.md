@@ -14,7 +14,7 @@ Gets or sets the text grid left position.
 public ushort TextGridLeftPosition { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The text grid left position.
 

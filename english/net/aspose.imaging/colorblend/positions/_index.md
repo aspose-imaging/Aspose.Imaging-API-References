@@ -14,7 +14,7 @@ Gets or sets the positions along a gradient line.
 public float[] Positions { get; set; }
 ```
 
-## Return Value
+### Return Value
 
 An array of values that specify percentages of distance along the gradient line.
 

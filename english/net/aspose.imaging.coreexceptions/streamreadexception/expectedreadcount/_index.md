@@ -14,7 +14,7 @@ Gets the expected read bytes count.
 public int ExpectedReadCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 The expected read bytes count.
 

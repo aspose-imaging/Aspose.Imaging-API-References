@@ -19,7 +19,7 @@ public bool CanExport(Image image, ImageOptionsBase optionsBase)
 | image | Image | The image to export. |
 | optionsBase | ImageOptionsBase | The options base. |
 
-## Return Value
+### Return Value
 
 `True` if exporter created by this descriptor can export the specified image to the specified file format; otherwise, `false`.
 

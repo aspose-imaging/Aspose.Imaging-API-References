@@ -14,7 +14,7 @@ Gets or sets the initial creator.
 public string InitialCreator { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The initial creator.
 

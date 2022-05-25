@@ -14,7 +14,7 @@ Gets or sets a 16-bit unsigned integer that contains information for some record
 public virtual short Flags { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The flags.
 

@@ -14,7 +14,7 @@ Thresholding used on data.
 public enum TiffThresholds : ushort
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

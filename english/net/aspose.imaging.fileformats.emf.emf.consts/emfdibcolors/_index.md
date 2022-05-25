@@ -14,7 +14,7 @@ The DIBColors enumeration defines how to interpret the values in the color table
 public enum EmfDibColors
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets the GIF background color index.
 public byte BackgroundColorIndex { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GIF background color index.
 

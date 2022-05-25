@@ -14,7 +14,7 @@ Gets or sets the GPS version identifier.
 public byte[] GPSVersionID { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS version identifier.
 

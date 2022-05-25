@@ -14,7 +14,7 @@ Gets or sets the color2.
 public CdrColor Color2 { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color2.
 

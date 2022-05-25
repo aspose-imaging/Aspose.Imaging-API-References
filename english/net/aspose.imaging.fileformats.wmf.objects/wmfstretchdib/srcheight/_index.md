@@ -14,7 +14,7 @@ Gets or sets the height of the source.
 public short SrcHeight { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The height, in logical units, of the source rectangle.
 

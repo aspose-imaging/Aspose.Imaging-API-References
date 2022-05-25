@@ -14,7 +14,7 @@ Gets or sets the number of entries.
 public int NumberOfEntries { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The number of entries in the logical palette.
 

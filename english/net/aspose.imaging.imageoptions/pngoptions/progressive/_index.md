@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this [`PngOptions`](../../pngoptions) is
 public bool Progressive { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if progressive; otherwise, `false`.
 

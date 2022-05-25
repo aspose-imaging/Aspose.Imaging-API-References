@@ -14,7 +14,7 @@ Gets the GPS data.
 public uint[] GpsData { get; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS data.
 

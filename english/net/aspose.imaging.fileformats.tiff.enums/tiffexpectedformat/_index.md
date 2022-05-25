@@ -14,7 +14,7 @@ The expected tiff file format.
 public enum TiffExpectedFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

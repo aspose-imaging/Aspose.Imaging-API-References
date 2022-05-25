@@ -14,7 +14,7 @@ url: /net/aspose.imaging.fileformats.svg/svgcolormode/
 public enum SvgColorMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

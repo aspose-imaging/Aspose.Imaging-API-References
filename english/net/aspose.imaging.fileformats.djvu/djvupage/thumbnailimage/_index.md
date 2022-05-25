@@ -14,7 +14,7 @@ Gets or sets the thumbnail image for the page
 public DjvuRaster ThumbnailImage { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The thumbnail image.
 

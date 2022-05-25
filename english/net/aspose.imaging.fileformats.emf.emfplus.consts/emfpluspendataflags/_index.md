@@ -15,7 +15,7 @@ The PenData flags specify properties of graphics pens, including the presence of
 public enum EmfPlusPenDataFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

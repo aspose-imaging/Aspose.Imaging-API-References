@@ -14,7 +14,7 @@ Gets or sets the min sample value.
 public ushort[] MinSampleValue { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The min sample value.
 

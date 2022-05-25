@@ -14,7 +14,7 @@ Gets or sets the psd color mode.
 public ColorModes ColorMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color mode.
 

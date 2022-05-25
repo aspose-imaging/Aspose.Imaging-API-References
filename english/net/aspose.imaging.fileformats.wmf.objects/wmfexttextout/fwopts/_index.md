@@ -14,7 +14,7 @@ Gets or sets the fw opts.
 public int FwOpts { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The options. This member can be a combination of one or more values.
 

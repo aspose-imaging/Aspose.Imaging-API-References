@@ -14,7 +14,7 @@ Gets or sets the spatial power.
 public double SpatialPower { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The spatial power.
 

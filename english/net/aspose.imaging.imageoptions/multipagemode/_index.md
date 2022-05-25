@@ -14,7 +14,7 @@ Represents multipage mode
 public enum MultiPageMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

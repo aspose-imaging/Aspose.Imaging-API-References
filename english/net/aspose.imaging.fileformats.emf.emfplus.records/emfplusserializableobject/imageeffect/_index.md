@@ -14,7 +14,7 @@ Gets or sets the image effect.
 public EmfPlusImageEffectsObjectType ImageEffect { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The image effect.
 

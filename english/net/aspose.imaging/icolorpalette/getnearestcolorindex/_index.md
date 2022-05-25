@@ -18,7 +18,7 @@ public int GetNearestColorIndex(int argb32Color)
 | --- | --- | --- |
 | argb32Color | Int32 | The 32-bit ARGB color. |
 
-## Return Value
+### Return Value
 
 The index of the nearest color.
 
@@ -42,7 +42,7 @@ public int GetNearestColorIndex(Color color)
 | --- | --- | --- |
 | color | Color | The color. |
 
-## Return Value
+### Return Value
 
 The index of the nearest color.
 

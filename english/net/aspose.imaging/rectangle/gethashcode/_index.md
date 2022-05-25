@@ -14,7 +14,7 @@ Returns the hash code for this [`Rectangle`](../../rectangle) structure.
 public override int GetHashCode()
 ```
 
-## Return Value
+### Return Value
 
 An integer that represents the hash code for this rectangle.
 

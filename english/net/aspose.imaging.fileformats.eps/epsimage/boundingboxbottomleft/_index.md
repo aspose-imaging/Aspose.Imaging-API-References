@@ -14,7 +14,7 @@ Gets the bounding box bottom left position
 public Point BoundingBoxBottomLeft { get; }
 ```
 
-## Property Value
+### Property Value
 
 The bounding box bottom left position
 

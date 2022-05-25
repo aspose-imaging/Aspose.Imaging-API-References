@@ -14,7 +14,7 @@ Gets or sets the metering mode.
 public ExifMeteringMode MeteringMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The metering mode.
 

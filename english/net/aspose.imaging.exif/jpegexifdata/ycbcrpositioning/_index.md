@@ -14,7 +14,7 @@ Gets or sets the position of chrominance components in relation to the luminance
 public ExifYCbCrPositioning YCbCrPositioning { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The position of chrominance components in relation to the luminance component.
 

@@ -14,7 +14,7 @@ Gets or sets a copy [`Matrix`](../../../aspose.imaging/matrix) that defines a lo
 public Matrix Transform { get; set; }
 ```
 
-## Return Value
+### Return Value
 
 A copy of the [`Matrix`](../../../aspose.imaging/matrix) that defines a geometric transform that applies only to fills drawn with this [`TransformBrush`](../../transformbrush).
 

@@ -14,7 +14,7 @@ Gets the hash code for this [`Font`](../../font).
 public override int GetHashCode()
 ```
 
-## Return Value
+### Return Value
 
 The hash code for this [`Font`](../../font).
 

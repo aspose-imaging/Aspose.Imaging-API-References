@@ -14,7 +14,7 @@ The RegionMode enumeration defines values that are used with EMR_SELECTCLIPPATH 
 public enum EmfRegionMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

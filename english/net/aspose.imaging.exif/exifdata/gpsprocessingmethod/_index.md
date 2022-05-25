@@ -14,7 +14,7 @@ Gets or sets the GPS character string recording the name of the method used for 
 public byte[] GPSProcessingMethod { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS character string recording the name of the method used for location finding.
 

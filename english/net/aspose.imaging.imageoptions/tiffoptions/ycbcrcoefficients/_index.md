@@ -14,7 +14,7 @@ Gets or sets the YCbCrCoefficients.
 public TiffRational[] YCbCrCoefficients { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The YCbCrCoefficients.
 

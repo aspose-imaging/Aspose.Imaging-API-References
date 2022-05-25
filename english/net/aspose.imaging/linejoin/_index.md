@@ -14,7 +14,7 @@ Specifies how to join consecutive line or curve segments in a figure (subpath) c
 public enum LineJoin
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

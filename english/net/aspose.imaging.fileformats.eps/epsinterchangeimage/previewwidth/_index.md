@@ -14,7 +14,7 @@ Gets the width of the preview image
 public int PreviewWidth { get; }
 ```
 
-## Property Value
+### Property Value
 
 The width of the preview image
 

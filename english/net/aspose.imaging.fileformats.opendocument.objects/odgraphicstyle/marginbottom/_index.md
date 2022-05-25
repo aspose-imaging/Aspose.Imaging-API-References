@@ -14,7 +14,7 @@ Gets or sets the margin bottom.
 public float MarginBottom { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The margin bottom.
 

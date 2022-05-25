@@ -20,7 +20,7 @@ public static RectangleF Inflate(RectangleF rect, float x, float y)
 | x | Single | The amount to inflate the copy of the rectangle horizontally. |
 | y | Single | The amount to inflate the copy of the rectangle vertically. |
 
-## Return Value
+### Return Value
 
 The inflated [`RectangleF`](../../rectanglef).
 

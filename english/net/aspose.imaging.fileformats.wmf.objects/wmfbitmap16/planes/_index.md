@@ -14,7 +14,7 @@ Gets or sets the planes.
 public byte Planes { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The value of this field MUST be 0x01.
 

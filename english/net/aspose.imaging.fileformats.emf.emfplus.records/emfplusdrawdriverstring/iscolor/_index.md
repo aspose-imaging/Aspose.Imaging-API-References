@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this instance is color. This bit indicat
 public bool IsColor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this instance is color; otherwise, `false`.
 

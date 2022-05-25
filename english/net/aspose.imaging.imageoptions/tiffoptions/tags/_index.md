@@ -14,7 +14,7 @@ Gets or sets the tags.
 public TiffDataType[] Tags { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The tags.
 

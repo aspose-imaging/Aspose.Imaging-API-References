@@ -14,7 +14,7 @@ Gets the count of elements.
 public abstract uint Count { get; }
 ```
 
-## Property Value
+### Property Value
 
 The count of elements.
 

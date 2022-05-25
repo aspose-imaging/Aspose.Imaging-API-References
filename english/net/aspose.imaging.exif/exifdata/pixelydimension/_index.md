@@ -14,7 +14,7 @@ Gets or sets the pixel y dimension.
 public uint PixelYDimension { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The pixel y dimension.
 

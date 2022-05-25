@@ -14,7 +14,7 @@ Gets or sets the GPS satellites used for measurements.
 public string GPSSatellites { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS satellites used for measurements.
 

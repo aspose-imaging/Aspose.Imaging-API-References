@@ -14,7 +14,7 @@ Gets the rendering.
 public int Rendering { get; }
 ```
 
-## Property Value
+### Property Value
 
 Halftoning algorithm used
 

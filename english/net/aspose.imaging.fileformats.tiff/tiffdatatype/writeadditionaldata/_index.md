@@ -18,7 +18,7 @@ public abstract long WriteAdditionalData(TiffStreamWriter dataStream)
 | --- | --- | --- |
 | dataStream | TiffStreamWriter | The data stream. |
 
-## Return Value
+### Return Value
 
 The actual bytes written.
 

@@ -14,7 +14,7 @@ The image palette mining method
 public enum PaletteMiningMethod
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ The HatchStyle Enumeration specifies the hatch pattern.
 public enum WmfHatchStyle : short
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

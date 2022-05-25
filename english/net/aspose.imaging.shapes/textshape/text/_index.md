@@ -14,7 +14,7 @@ Gets or sets the drawn text.
 public string Text { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The drawn text.
 

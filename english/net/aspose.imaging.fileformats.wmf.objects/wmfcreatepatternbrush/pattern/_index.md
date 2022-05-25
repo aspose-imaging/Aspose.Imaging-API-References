@@ -14,7 +14,7 @@ Gets or sets the pattern.
 public byte[] Pattern { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A variable-length array of bytes that defines the bitmap pixel data that composes the brush pattern. The length of this field, in bytes, can be computed from bitmap parameters as follows.
 

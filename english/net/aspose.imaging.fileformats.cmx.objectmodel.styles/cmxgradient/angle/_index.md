@@ -14,7 +14,7 @@ Gets or sets the angle.
 public float Angle { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The angle between vector of the linear path and the horizontal.
 

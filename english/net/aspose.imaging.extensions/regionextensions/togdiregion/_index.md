@@ -18,7 +18,7 @@ public static Region ToGdiRegion(Region region)
 | --- | --- | --- |
 | region | Region | The [`Region`](../../../aspose.imaging/region) to convert. |
 
-## Return Value
+### Return Value
 
 The converted Region.
 

@@ -14,7 +14,7 @@ Gets or sets the stretch value.
 public float Stretch { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The stretch value. Dimension is unit fraction. Defines the width of the brush nib from square to rectangular or from circular to oval.
 

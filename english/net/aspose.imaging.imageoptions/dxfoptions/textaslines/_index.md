@@ -14,7 +14,7 @@ Whether text should be exported as contours consisting of polylines (default) or
 public bool TextAsLines { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` to export text as contours (default), else, `false` to export text as TEXT entities.
 

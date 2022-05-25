@@ -14,7 +14,7 @@ The detected object types enumeration.
 public enum DetectedObjectType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

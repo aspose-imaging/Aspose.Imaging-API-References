@@ -14,7 +14,7 @@ The MetafileEscapes Enumeration specifies printer driver functionality that migh
 public enum WmfMetafileEscapes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

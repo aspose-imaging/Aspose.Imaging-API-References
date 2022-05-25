@@ -14,7 +14,7 @@ The FloodFill enumeration defines values that specify how to determine the area 
 public enum EmfFloodFill
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

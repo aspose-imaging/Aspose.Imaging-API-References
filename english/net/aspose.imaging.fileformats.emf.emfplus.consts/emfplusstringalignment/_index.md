@@ -14,7 +14,7 @@ The StringAlignment enumeration defines ways to align strings with respect to a 
 public enum EmfPlusStringAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

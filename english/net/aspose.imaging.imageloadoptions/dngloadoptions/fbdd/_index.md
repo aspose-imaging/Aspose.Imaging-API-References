@@ -14,7 +14,7 @@ Gets or sets the FBDD.
 public NoiseReductionType Fbdd { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The noise reduction before demosaic.
 

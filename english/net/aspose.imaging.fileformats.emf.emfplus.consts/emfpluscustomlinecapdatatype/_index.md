@@ -14,7 +14,7 @@ The CustomLineCapDataType enumeration defines types of custom line cap data, whi
 public enum EmfPlusCustomLineCapDataType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

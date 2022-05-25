@@ -14,7 +14,7 @@ Converts raster image to the bitmap.
 public virtual Bitmap ToBitmap()
 ```
 
-## Return Value
+### Return Value
 
 The bitmap
 

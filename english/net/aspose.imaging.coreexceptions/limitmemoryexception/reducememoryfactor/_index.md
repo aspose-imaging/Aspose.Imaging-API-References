@@ -14,7 +14,7 @@ Gets or sets the reduce memory factor.
 public long ReduceMemoryFactor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The reduce memory factor.
 

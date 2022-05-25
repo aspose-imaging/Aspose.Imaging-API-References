@@ -14,7 +14,7 @@ The DashedLineCapType enumeration defines types of line caps to use at the ends 
 public enum EmfPlusDashedLineCapType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

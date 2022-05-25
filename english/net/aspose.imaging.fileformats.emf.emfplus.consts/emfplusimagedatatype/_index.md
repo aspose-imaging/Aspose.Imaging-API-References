@@ -14,7 +14,7 @@ The ImageDataType enumeration defines types of image data formats.
 public enum EmfPlusImageDataType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

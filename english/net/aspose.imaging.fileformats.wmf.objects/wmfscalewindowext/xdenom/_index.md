@@ -14,7 +14,7 @@ Gets or sets the x denom.
 public short XDenom { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The amount by which to divide the result of multiplying the current x-extent by the value of the xNum member.
 

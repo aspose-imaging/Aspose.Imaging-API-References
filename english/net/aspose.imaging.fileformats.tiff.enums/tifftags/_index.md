@@ -14,7 +14,7 @@ The tiff tag enum.
 public enum TiffTags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

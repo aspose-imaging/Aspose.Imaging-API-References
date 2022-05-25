@@ -14,7 +14,7 @@ Gets a value indicating whether this [`EmfHeaderObject`](../../emfheaderobject) 
 public bool Valid { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if valid; otherwise, `false`.
 

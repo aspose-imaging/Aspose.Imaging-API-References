@@ -14,7 +14,7 @@ Gets or sets a value indicating whether graphics control block has transparent c
 public bool HasTransparentColor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if graphics control block has transparent color; otherwise, `false`.
 

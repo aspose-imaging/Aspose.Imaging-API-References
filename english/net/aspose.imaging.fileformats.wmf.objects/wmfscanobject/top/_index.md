@@ -14,7 +14,7 @@ Gets or sets the top.
 public int Top { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The vertical (y-axis) coordinate, in logical units, of the top scanline.
 

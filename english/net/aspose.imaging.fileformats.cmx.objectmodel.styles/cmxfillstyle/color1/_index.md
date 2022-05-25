@@ -14,7 +14,7 @@ Gets or sets the primary color.
 public CmxColor Color1 { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The primary color. Used for Uniform and Two-color pattern fill types.
 

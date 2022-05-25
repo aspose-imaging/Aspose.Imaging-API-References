@@ -18,7 +18,7 @@ public static ColorMatrix ToGdiColorMatrix(ColorMatrix colorMatrix)
 | --- | --- | --- |
 | colorMatrix | ColorMatrix | The color matrix to convert. |
 
-## Return Value
+### Return Value
 
 The converted ColorMatrix.
 

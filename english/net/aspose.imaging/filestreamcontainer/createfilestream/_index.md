@@ -19,7 +19,7 @@ public static FileStreamContainer CreateFileStream(string fileLocation, bool isT
 | fileLocation | String | The file location. |
 | isTemporal | Boolean | If set to `true` the file stream container is temporal. |
 
-## Return Value
+### Return Value
 
 The file stream container.
 

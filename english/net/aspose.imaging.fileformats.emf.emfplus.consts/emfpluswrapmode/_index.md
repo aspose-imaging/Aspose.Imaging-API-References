@@ -14,7 +14,7 @@ The WrapMode enumeration defines how the pattern from a texture or gradient brus
 public enum EmfPlusWrapMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

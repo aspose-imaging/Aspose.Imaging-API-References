@@ -14,7 +14,7 @@ Gets or sets a 32-bit unsigned integer that contains the index of the optional E
 public int ImageAttributesId { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The image attributes identifier.
 

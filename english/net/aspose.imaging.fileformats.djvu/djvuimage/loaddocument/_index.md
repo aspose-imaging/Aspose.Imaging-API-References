@@ -18,7 +18,7 @@ public static DjvuImage LoadDocument(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The stream. |
 
-## Return Value
+### Return Value
 
 Loaded djvu document
 
@@ -43,7 +43,7 @@ public static DjvuImage LoadDocument(Stream stream, LoadOptions loadOptions)
 | stream | Stream | The stream. |
 | loadOptions | LoadOptions | The load options. |
 
-## Return Value
+### Return Value
 
 Loaded djvu document
 

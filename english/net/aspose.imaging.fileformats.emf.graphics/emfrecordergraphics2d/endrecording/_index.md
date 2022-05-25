@@ -14,7 +14,7 @@ Ends the recording.
 public EmfImage EndRecording()
 ```
 
-## Return Value
+### Return Value
 
 The result image.
 

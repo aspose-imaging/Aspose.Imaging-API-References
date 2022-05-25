@@ -14,7 +14,7 @@ The MetafileVersion enumeration defines the interoperability version for EMF met
 public enum EmfMetafileVersion
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

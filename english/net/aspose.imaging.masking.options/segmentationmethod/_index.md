@@ -14,7 +14,7 @@ Segmentation methods types
 public enum SegmentationMethod
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

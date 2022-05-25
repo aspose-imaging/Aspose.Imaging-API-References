@@ -14,7 +14,7 @@ Gets or sets the alpha storage option. Options other than Unspecified are used w
 public TiffAlphaStorage AlphaStorage { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The alpha storage option.
 

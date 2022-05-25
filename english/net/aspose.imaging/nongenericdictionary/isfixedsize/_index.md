@@ -14,7 +14,7 @@ Gets a value indicating whether the IDictionary object has a fixed size.
 public bool IsFixedSize { get; }
 ```
 
-## Return Value
+### Return Value
 
 true if the IDictionary object has a fixed size; otherwise, false.
 

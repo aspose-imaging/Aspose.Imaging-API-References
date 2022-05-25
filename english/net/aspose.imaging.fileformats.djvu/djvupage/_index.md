@@ -142,13 +142,6 @@ public class DjvuPage : RasterCachedImage, INotifyPropertyChanged
 | [WriteArgb32ScanLine](../../aspose.imaging/rasterimage/writeargb32scanline)(int, int[]) | Writes the whole scan line to the specified scan line index. |
 | [WriteScanLine](../../aspose.imaging/rasterimage/writescanline)(int, Color[]) | Writes the whole scan line to the specified scan line index. |
 
-## Other Members
-
-| Name | Description |
-| --- | --- |
-| event [PropertyChanged](propertychanged) | Occurs when a property value changes. |
-| static event [PageExportedAction](pageexportedaction) | Occurs when [page exported action]. |
-
 ### See Also
 
 * class [RasterCachedImage](../../aspose.imaging/rastercachedimage)

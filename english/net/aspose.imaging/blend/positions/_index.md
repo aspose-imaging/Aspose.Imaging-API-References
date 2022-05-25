@@ -14,7 +14,7 @@ Gets or sets the array of blend positions for the gradient.
 public float[] Positions { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The array of blend positions that specify the percentages of distance along the gradient line.
 

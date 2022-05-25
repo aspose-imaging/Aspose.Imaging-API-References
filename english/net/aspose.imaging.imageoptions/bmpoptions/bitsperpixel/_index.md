@@ -14,7 +14,7 @@ Gets or sets the image bits per pixel count.
 public int BitsPerPixel { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The image bits per pixel count.
 

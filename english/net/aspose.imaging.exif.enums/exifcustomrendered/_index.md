@@ -14,7 +14,7 @@ exif custom rendered enum.
 public enum ExifCustomRendered
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

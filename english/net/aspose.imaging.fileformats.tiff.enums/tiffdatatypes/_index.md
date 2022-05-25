@@ -14,7 +14,7 @@ The tiff data type enum.
 public enum TiffDataTypes : ushort
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

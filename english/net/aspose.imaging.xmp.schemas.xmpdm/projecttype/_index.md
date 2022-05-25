@@ -14,7 +14,7 @@ Represents project type in [`XmpDynamicMediaPackage`](../xmpdynamicmediapackage)
 public enum ProjectType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

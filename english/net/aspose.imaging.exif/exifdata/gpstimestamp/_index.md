@@ -14,7 +14,7 @@ Gets or sets the GPS time as UTC (Coordinated Universal Time).
 public TiffRational[] GPSTimestamp { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS time as UTC (Coordinated Universal Time).
 

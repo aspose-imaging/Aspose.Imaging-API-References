@@ -14,7 +14,7 @@ exif file source enum.
 public enum ExifFileSource : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

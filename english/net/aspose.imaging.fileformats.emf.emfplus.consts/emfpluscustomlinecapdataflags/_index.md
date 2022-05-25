@@ -15,7 +15,7 @@ The CustomLineCapData flags specify data for custom line caps. These flags can b
 public enum EmfPlusCustomLineCapDataFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -19,7 +19,7 @@ public static bool operator !=(RectangleF left, RectangleF right)
 | left | RectangleF | The [`RectangleF`](../../rectanglef) structure that is to the left of the inequality operator. |
 | right | RectangleF | The [`RectangleF`](../../rectanglef) structure that is to the right of the inequality operator. |
 
-## Return Value
+### Return Value
 
 This operator returns true if any of the [`X`](../x) , [`Y`](../y), [`Width`](../width), or [`Height`](../height) properties of the two [`RectangleF`](../../rectanglef) structures are unequal; otherwise false.
 

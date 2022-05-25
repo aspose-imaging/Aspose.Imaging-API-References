@@ -14,7 +14,7 @@ Gets or sets XMP data from frame.
 public override XmpPacketWrapper XmpData { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 XMP packet data wrapper
 

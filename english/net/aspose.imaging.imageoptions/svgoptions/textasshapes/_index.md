@@ -14,7 +14,7 @@ Gets or sets a value indicating whether text must be converted as shapes.
 public bool TextAsShapes { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if all text is turned into SVG shapes in the convertion; otherwise, `false`.
 

@@ -14,7 +14,7 @@ Gets the [`Rectangle`](../../../aspose.imaging/rectangle) associated with this [
 public RectangleF ImageRectangle { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`Rectangle`](../../../aspose.imaging/rectangle).
 

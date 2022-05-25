@@ -14,7 +14,7 @@ Gets or sets the fractions of seconds for the DateTimeOriginal tag.
 public string SubsecTimeOriginal { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The fractions of seconds for the DateTimeOriginal tag.
 

@@ -14,7 +14,7 @@ Gets a value indicating whether the extra samples is present.
 public bool IsExtraSamplesPresent { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if the extra samples is present; otherwise, `false`.
 

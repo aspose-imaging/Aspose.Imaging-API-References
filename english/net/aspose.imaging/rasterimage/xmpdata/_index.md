@@ -14,7 +14,7 @@ Gets or sets the XMP metadata.
 public virtual XmpPacketWrapper XmpData { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The XMP metadata.
 

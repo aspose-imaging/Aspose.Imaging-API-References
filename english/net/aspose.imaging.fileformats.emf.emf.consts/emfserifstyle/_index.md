@@ -14,7 +14,7 @@ The SerifType enumeration defines values for one of the characteristics in the P
 public enum EmfSerifStyle : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

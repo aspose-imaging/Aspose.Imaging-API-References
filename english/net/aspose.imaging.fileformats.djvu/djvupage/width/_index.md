@@ -14,7 +14,7 @@ Gets the width of the page
 public override int Width { get; }
 ```
 
-## Property Value
+### Property Value
 
 The width.
 

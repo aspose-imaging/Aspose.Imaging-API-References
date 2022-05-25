@@ -14,7 +14,7 @@ Gets or sets the end arc.
 public Point EndArc { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Coordinates of the ending point of the radial line defining the ending
 

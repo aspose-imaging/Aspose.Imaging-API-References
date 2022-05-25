@@ -14,7 +14,7 @@ Gets or sets the method to be used for digit substitution.
 public StringDigitSubstitute DigitSubstitutionMethod { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A [`StringDigitSubstitute`](../../stringdigitsubstitute) enumeration value that specifies how to substitute characters in a string that cannot be displayed because they are not supported by the current font.
 

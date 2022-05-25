@@ -14,7 +14,7 @@ The Letterform enumeration defines values for one of the characteristics in the 
 public enum EmfLetterform : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

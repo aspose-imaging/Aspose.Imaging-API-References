@@ -14,7 +14,7 @@ Gets or sets the count.
 public int Count { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The number of horizontal (x-axis) coordinates in the [`ScanLines`](../scanlines) array. This value MUST be a multiple of 2, since left and right endpoints are required to specify each scanline.
 

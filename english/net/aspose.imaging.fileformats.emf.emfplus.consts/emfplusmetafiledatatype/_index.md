@@ -14,7 +14,7 @@ The MetafileDataType enumeration defines types of metafiles data that can be emb
 public enum EmfPlusMetafileDataType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets the page width.
 public float Width { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The page width, in inches.
 

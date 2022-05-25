@@ -14,7 +14,7 @@ Gets or sets the y-coordinate that is the sum of the [`Y`](../y) and [`Height`](
 public int Bottom { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The y-coordinate that is the sum of [`Y`](../y) and [`Height`](../height) of this [`Rectangle`](../../rectangle).
 

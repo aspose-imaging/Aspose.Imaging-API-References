@@ -14,7 +14,7 @@ Gets or sets the Specifies how much to lighten the highlights of an image. The c
 public int Highlight { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The highlight.
 

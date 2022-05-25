@@ -14,7 +14,7 @@ Gets or sets the version.
 public int Version { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A 32-bit unsigned integer that specifies EMF metafile interoperability. This SHOULD be 0x00010000
 

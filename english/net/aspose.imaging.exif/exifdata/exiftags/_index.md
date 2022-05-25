@@ -14,7 +14,7 @@ Gets or sets tags which belong to EXIF section only.
 public TiffDataType[] ExifTags { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The EXIF section tags.
 

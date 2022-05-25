@@ -14,7 +14,7 @@ Gets or sets the inch.
 public int Inch { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The inch.
 

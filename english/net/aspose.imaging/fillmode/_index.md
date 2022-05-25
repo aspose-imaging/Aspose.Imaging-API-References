@@ -14,7 +14,7 @@ Specifies how the interior of a closed path is filled.
 public enum FillMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

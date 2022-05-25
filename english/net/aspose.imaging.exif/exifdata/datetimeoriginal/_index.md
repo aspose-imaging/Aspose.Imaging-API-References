@@ -14,7 +14,7 @@ Gets or sets the date time original.
 public string DateTimeOriginal { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The date time original.
 

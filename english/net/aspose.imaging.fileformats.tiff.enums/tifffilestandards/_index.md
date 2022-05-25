@@ -14,7 +14,7 @@ Specifies the TIFF file format standards.
 public enum TiffFileStandards : ushort
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

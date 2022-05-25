@@ -14,7 +14,7 @@ The LanguageIdentifier enumeration defines identifiers for natural languages in 
 public enum EmfPlusLanguageIdentifierType : short
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

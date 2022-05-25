@@ -14,7 +14,7 @@ The StockObject enumeration specifies the indexes of predefined logical graphics
 public enum EmfStockObject
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

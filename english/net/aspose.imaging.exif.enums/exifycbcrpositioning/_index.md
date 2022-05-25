@@ -14,7 +14,7 @@ exif y cb cr positioning enum.
 public enum ExifYCbCrPositioning
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

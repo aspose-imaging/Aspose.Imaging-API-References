@@ -20,7 +20,7 @@ public static IImageExporterDescriptor GetFirstSupportedDescriptor(Image image,
 | image | Image | The image to export. |
 | options | ImageOptionsBase | The options. |
 
-## Return Value
+### Return Value
 
 The exporter descriptor which supports the specified image and save options or null if no such descriptor is found.
 

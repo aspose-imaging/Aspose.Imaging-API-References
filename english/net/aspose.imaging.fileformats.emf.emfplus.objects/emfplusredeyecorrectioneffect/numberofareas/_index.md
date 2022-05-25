@@ -14,7 +14,7 @@ Gets or sets the A 32-bit signed integer that specifies the number of rectangles
 public int NumberOfAreas { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The number of areas.
 

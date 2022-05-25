@@ -18,7 +18,7 @@ public static IImageCreatorDescriptor GetFirstSupportedDescriptor(ImageOptionsBa
 | --- | --- | --- |
 | imageOptions | ImageOptionsBase | The image options. |
 
-## Return Value
+### Return Value
 
 The creator descriptor which supports the specified or null if no such descriptor is found.
 

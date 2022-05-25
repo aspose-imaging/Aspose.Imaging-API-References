@@ -14,7 +14,7 @@ Gets or sets the bezier order.
 public int BezierOrder { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The bezier order.
 

@@ -14,7 +14,7 @@ Gets or sets the index of the brush.
 public int BrushIndex { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Index into the WMF Object Table to get the brush to use for filling the region.
 

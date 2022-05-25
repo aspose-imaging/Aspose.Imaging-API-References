@@ -14,7 +14,7 @@ Gets or sets the dib position.
 public Point DibPos { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The coordinates, in logical units, of the source rectangle.
 

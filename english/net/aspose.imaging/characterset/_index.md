@@ -14,7 +14,7 @@ Represents the character set used.
 public enum CharacterSet
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets the TIFF file standard.
 public TiffFileStandards FileStandard { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The TIFF file standard.
 

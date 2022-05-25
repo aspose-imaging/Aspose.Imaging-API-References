@@ -14,7 +14,7 @@ The map modes
 public enum WmfMapMode : short
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

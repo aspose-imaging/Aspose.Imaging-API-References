@@ -14,7 +14,7 @@ Gets an array of distances between tab stops in the units specified by the [`Pag
 public float[] TabStops { get; }
 ```
 
-## Property Value
+### Property Value
 
 The tab stops.
 

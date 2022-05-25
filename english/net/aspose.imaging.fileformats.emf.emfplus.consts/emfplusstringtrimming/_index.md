@@ -14,7 +14,7 @@ The StringTrimming enumeration defines how to trim characters from a string that
 public enum EmfPlusStringTrimming
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

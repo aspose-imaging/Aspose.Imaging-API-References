@@ -20,7 +20,7 @@ public static Image Create(ImageOptionsBase imageOptions, int width, int height)
 | width | Int32 | The width. |
 | height | Int32 | The height. |
 
-## Return Value
+### Return Value
 
 The newly created image.
 
@@ -70,7 +70,7 @@ public static Image Create(Image[] images)
 | --- | --- | --- |
 | images | Image[] | The images. |
 
-## Return Value
+### Return Value
 
 The Image as IMultipageImage
 
@@ -95,7 +95,7 @@ public static Image Create(Image[] images, bool disposeImages)
 | images | Image[] | The images. |
 | disposeImages | Boolean | if set to `true` [dispose images]. |
 
-## Return Value
+### Return Value
 
 The Image as IMultipageImage
 

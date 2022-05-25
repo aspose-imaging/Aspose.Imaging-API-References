@@ -14,7 +14,7 @@ Gets or sets the resolution unit.
 public TiffResolutionUnits ResolutionUnit { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The resolution unit.
 

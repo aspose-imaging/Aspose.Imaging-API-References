@@ -14,7 +14,7 @@ Gets [`ColorMode`](../../colormode).
 public ColorMode Mode { get; }
 ```
 
-## Property Value
+### Property Value
 
 The color mode.
 

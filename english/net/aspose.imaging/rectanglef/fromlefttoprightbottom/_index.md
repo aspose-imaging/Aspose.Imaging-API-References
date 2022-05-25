@@ -21,7 +21,7 @@ public static RectangleF FromLeftTopRightBottom(float left, float top, float rig
 | right | Single | The x-coordinate of the lower-right corner of the rectangular region. |
 | bottom | Single | The y-coordinate of the lower-right corner of the rectangular region. |
 
-## Return Value
+### Return Value
 
 The new [`RectangleF`](../../rectanglef) that this method creates.
 

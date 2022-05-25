@@ -14,7 +14,7 @@ The LineStyle enumeration defines styles of lines that are drawn with graphics p
 public enum EmfPlusLineStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets the style identifier.
 public int StyleId { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The style identifier.
 

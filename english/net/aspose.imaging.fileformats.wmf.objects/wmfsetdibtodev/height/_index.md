@@ -14,7 +14,7 @@ Gets or sets the height.
 public int Height { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The height, in logical units, of the source and destination rectangles.
 

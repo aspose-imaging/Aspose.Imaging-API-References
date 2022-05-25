@@ -14,7 +14,7 @@ exif scene capture type enum.
 public enum ExifSceneCaptureType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

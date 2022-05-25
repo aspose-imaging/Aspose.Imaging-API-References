@@ -14,7 +14,7 @@ Gets or sets the source rect.
 public Rectangle SrcRect { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The source rect.
 

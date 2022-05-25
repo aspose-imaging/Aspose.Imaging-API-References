@@ -18,7 +18,7 @@ public static explicit operator Stream(FileStreamContainer fileStreamContainer)
 | --- | --- | --- |
 | fileStreamContainer | FileStreamContainer | The file stream container. |
 
-## Return Value
+### Return Value
 
 The result of the conversion.
 
@@ -42,7 +42,7 @@ public static explicit operator FileStream(FileStreamContainer fileStreamContain
 | --- | --- | --- |
 | fileStreamContainer | FileStreamContainer | The file stream container. |
 
-## Return Value
+### Return Value
 
 The result of the conversion.
 

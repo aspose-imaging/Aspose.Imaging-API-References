@@ -14,7 +14,7 @@ Converts the attributes of this [`RectangleF`](../../rectanglef) to a human-read
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 A string that contains the position, width, and height of this [`RectangleF`](../../rectanglef) structure.
 

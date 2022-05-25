@@ -14,7 +14,7 @@ Vector Path Type according to PSD Format Specification
 public enum VectorPathType : short
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

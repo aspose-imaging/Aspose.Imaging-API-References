@@ -14,7 +14,7 @@ The type of dbdd noise reduction.
 public enum NoiseReductionType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

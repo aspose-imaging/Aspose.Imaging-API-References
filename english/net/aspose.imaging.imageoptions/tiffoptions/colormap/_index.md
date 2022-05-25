@@ -14,7 +14,7 @@ Gets or sets the color map.
 public ushort[] ColorMap { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color map.
 

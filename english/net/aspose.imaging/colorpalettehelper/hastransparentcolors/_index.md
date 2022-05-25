@@ -18,7 +18,7 @@ public static bool HasTransparentColors(IColorPalette palette)
 | --- | --- | --- |
 | palette | IColorPalette | The palette. |
 
-## Return Value
+### Return Value
 
 `true` if the specified palette has transparent colors; otherwise, `false`.
 

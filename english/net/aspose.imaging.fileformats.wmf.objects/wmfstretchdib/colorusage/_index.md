@@ -14,7 +14,7 @@ Gets or sets the color usage.
 public WmfColorUsageEnum ColorUsage { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The Colors field of the DIB contains explicit RGB values or indexes into a palette. This value MUST be in the `ColorUsage`
 

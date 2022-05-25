@@ -14,7 +14,7 @@ Gets the loops count (If gif image contains information about loops)
 public int LoopsCount { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The loops count or 1 (default value)
 

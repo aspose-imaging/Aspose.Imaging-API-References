@@ -14,7 +14,7 @@ Gets or sets an 8-bit unsigned integer that specifies how scaling, including str
 public EmfPlusFilterType FilterType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the filter.
 

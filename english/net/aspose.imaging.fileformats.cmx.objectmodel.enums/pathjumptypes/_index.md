@@ -14,7 +14,7 @@ Types of transitions between points of the [`CmxPathSpec`](../../aspose.imaging.
 public enum PathJumpTypes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

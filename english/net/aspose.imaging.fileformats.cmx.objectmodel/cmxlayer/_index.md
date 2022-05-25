@@ -30,6 +30,12 @@ public class CmxLayer : CmxContainer
 | [Name](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/name) { get; set; } | Gets or sets the name of the layer. |
 | [Number](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/number) { get; set; } | Gets or sets the layer order number. |
 
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [MasterDesktopLayerName](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/masterdesktoplayername) | The master desktop layer name |
+
 ### See Also
 
 * interface [ICmxContainer](../icmxcontainer)

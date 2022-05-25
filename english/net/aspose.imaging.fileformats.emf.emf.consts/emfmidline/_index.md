@@ -14,7 +14,7 @@ The MidLine enumeration defines values for one of the characteristics in the PAN
 public enum EmfMidLine : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

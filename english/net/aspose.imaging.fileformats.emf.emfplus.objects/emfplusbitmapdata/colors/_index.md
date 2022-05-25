@@ -14,7 +14,7 @@ Gets or sets the palette colors Colors (variable): An optional [`EmfPlusPalette`
 public EmfPlusPalette Colors { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The colors.
 

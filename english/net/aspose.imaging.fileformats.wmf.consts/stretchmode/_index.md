@@ -14,7 +14,7 @@ The [`StretchMode`](../stretchmode) Enumeration specifies the bitmap stretching 
 public enum StretchMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

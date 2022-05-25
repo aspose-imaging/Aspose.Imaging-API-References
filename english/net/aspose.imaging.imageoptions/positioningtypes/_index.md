@@ -14,7 +14,7 @@ Positioning and size types for graphics scene.
 public enum PositioningTypes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

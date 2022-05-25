@@ -14,7 +14,7 @@ Gets b/w raster preview (if present) or null
 public RasterImage RasterPreview { get; }
 ```
 
-## Property Value
+### Property Value
 
 B/W raster preview
 

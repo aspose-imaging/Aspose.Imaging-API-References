@@ -14,7 +14,7 @@ Specifies the type of graphic shape to use on both ends of each dash in a dashed
 public enum DashCap
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

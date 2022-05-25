@@ -14,7 +14,7 @@ Gets or sets the model.
 public string Model { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The model.
 

@@ -14,7 +14,7 @@ Gets or sets the [`Image`](../../image) background [`Color`](../../color).
 public Color DataBackgroundColor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The background color.
 

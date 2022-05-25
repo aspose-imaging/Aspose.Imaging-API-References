@@ -14,7 +14,7 @@ The CombineMode enumeration defines modes for combining two graphics regions. In
 public enum EmfPlusCombineMode : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

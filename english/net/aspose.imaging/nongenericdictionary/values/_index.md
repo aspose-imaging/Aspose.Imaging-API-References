@@ -14,7 +14,7 @@ Gets an ICollection object containing the values in the IDictionary object.
 public ICollection Values { get; }
 ```
 
-## Return Value
+### Return Value
 
 An ICollection object containing the values in the IDictionary object.
 

@@ -19,7 +19,7 @@ public static GraphicsPath ToGraphicsPath(PathResource[] pathResources, Size ima
 | pathResources | PathResource[] | The path resources. |
 | imageSize | Size | Size of the image. |
 
-## Return Value
+### Return Value
 
 The [`GraphicsPath`](../../../aspose.imaging/graphicspath) instance.
 

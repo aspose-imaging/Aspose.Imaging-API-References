@@ -14,7 +14,7 @@ The open document pen style
 public enum OdPenStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

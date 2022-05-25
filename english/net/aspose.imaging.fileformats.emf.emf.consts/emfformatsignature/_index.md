@@ -14,7 +14,7 @@ The FormatSignature enumeration defines values that are used to identify the for
 public enum EmfFormatSignature
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets the fill style.
 public CmxFillStyle FillStyle { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The fill style.
 

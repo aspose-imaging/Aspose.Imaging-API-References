@@ -14,7 +14,7 @@ Gets the object bounds.
 public Rectangle Bounds { get; }
 ```
 
-## Property Value
+### Property Value
 
 The object bounds.
 

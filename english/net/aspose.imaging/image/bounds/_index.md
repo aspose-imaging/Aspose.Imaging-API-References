@@ -14,7 +14,7 @@ Gets the image bounds.
 public Rectangle Bounds { get; }
 ```
 
-## Property Value
+### Property Value
 
 The image bounds.
 

@@ -14,7 +14,7 @@ The StretchMode enumeration is used to specify how color data is added to or rem
 public enum EmfStretchMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ The nodes operation
 public enum NodesOperation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

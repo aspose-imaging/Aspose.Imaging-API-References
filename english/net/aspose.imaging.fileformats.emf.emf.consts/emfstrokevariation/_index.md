@@ -14,7 +14,7 @@ The StrokeVariation enumeration defines values for one of the characteristics in
 public enum EmfStrokeVariation : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

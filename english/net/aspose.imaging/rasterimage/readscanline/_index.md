@@ -18,7 +18,7 @@ public Color[] ReadScanLine(int scanLineIndex)
 | --- | --- | --- |
 | scanLineIndex | Int32 | Zero based index of the scan line. |
 
-## Return Value
+### Return Value
 
 The scan line pixel color values array.
 

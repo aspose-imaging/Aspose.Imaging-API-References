@@ -14,7 +14,7 @@ Gets the object size.
 public Size Size { get; }
 ```
 
-## Property Value
+### Property Value
 
 The object size.
 

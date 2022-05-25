@@ -19,7 +19,7 @@ public static TiffDataType ReadTag(TiffStreamReader dataStream, long position)
 | dataStream | TiffStreamReader | The data stream. |
 | position | Int64 | The tag position. |
 
-## Return Value
+### Return Value
 
 The read tag.
 

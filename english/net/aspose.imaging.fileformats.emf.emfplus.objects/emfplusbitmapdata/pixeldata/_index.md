@@ -14,7 +14,7 @@ Gets or sets pixel data PixelData (variable): An array of bytes that specify the
 public byte[] PixelData { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The pixel data.
 

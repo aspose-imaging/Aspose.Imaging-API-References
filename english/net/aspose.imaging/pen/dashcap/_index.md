@@ -14,7 +14,7 @@ Gets or sets the cap style used at the end of the dashes that make up dashed lin
 public DashCap DashCap { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 One of the `DashCap` values that represents the cap style used at the beginning and end of the dashes that make up dashed lines drawn with this [`Pen`](../../pen).
 

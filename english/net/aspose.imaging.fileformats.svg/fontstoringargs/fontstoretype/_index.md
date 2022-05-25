@@ -14,7 +14,7 @@ Gets or sets a value indicating whether [use embedded font].
 public FontStoreType FontStoreType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if [use embedded font]; otherwise, `false`.
 

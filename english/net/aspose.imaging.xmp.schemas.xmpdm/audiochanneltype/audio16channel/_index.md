@@ -14,7 +14,7 @@ Gets the 16 audio channel.
 public static AudioChannelType Audio16Channel { get; }
 ```
 
-## Property Value
+### Property Value
 
 The 16 audio channel.
 

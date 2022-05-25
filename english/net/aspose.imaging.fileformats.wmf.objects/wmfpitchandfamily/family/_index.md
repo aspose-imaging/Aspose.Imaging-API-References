@@ -14,7 +14,7 @@ Gets A property of a font that describes its general appearance. This MUST be a 
 public WmfFamilyFont Family { get; }
 ```
 
-## Property Value
+### Property Value
 
 The family.
 

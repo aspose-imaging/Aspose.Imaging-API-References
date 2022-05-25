@@ -14,7 +14,7 @@ The ColorSpace enumeration is used to specify when to turn color proofing on and
 public enum EmfColorSpace
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

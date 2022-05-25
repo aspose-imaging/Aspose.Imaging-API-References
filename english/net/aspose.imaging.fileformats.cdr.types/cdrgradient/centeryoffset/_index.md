@@ -14,7 +14,7 @@ Gets or sets the center y offset.
 public int CenterYOffset { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The center y offset.
 

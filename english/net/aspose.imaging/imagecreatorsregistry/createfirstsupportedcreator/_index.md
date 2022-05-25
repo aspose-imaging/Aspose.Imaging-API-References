@@ -18,7 +18,7 @@ public static IImageCreator CreateFirstSupportedCreator(ImageOptionsBase imageOp
 | --- | --- | --- |
 | imageOptions | ImageOptionsBase | The image options. |
 
-## Return Value
+### Return Value
 
 The creator which supports the specified or null if no such creator is found.
 

@@ -14,7 +14,7 @@ Gets the samples per pixel. To change this property value use the [`BitsPerSampl
 public ushort SamplesPerPixel { get; }
 ```
 
-## Property Value
+### Property Value
 
 The samples per pixel.
 

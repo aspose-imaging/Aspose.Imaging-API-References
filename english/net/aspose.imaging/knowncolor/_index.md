@@ -14,7 +14,7 @@ Specifies the known system colors.
 public enum KnownColor
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

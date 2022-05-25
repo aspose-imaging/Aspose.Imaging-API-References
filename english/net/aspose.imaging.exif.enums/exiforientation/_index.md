@@ -14,7 +14,7 @@ Exif image orientation.
 public enum ExifOrientation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

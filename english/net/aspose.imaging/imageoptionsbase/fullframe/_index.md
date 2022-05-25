@@ -14,7 +14,7 @@ Gets or sets a value indicating whether [full frame].
 public bool FullFrame { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if [full frame]; otherwise, `false`.
 

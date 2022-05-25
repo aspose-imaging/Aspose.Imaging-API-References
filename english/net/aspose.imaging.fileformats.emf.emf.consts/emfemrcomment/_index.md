@@ -14,7 +14,7 @@ The EmrComment enumeration defines the types of data that a public comment recor
 public enum EmfEmrComment : uint
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

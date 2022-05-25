@@ -14,7 +14,7 @@ The PostScriptCap Enumeration defines line-ending types for use with a PostScrip
 public enum WmfPostScriptCap
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

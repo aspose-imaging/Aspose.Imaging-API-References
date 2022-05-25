@@ -14,7 +14,7 @@ Types of caps for the line.
 public enum CapsTypes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

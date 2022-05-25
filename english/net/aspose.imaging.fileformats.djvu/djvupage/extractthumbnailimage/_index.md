@@ -14,7 +14,7 @@ Extracts the thumbnail image from the Djvu page.
 public DjvuRaster ExtractThumbnailImage()
 ```
 
-## Return Value
+### Return Value
 
 The Djvu raster image.
 

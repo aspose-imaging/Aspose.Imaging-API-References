@@ -14,7 +14,7 @@ Converts a [`SizeF`](../../sizef) to a [`PointF`](../../pointf).
 public PointF ToPointF()
 ```
 
-## Return Value
+### Return Value
 
 Returns a [`PointF`](../../pointf) structure.
 

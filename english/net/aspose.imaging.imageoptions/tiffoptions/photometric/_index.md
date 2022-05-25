@@ -14,7 +14,7 @@ Gets or sets the photometric.
 public TiffPhotometrics Photometric { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The photometric.
 

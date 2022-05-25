@@ -14,7 +14,7 @@ wmf Record type
 public enum WmfRecordType : short
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

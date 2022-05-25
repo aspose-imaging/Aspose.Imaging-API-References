@@ -14,7 +14,7 @@ Creates this instance.
 public static RdOptimizerSettings Create()
 ```
 
-## Return Value
+### Return Value
 
 returns RDOptimizerSettings class instance
 

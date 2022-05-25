@@ -14,7 +14,7 @@ Gets or sets the path records.
 public VectorPathRecord[] Paths { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The paths.
 

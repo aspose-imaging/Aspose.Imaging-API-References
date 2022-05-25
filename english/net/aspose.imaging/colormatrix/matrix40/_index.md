@@ -14,7 +14,7 @@ Gets or sets the element at the fourth row and 0 (zero) column of this [`ColorMa
 public float Matrix40 { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The element at the fourth row and 0 column of this [`ColorMatrix`](../../colormatrix).
 

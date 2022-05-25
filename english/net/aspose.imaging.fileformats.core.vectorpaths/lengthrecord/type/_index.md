@@ -14,7 +14,7 @@ Gets the type.
 public override VectorPathType Type { get; }
 ```
 
-## Property Value
+### Property Value
 
 The type.
 

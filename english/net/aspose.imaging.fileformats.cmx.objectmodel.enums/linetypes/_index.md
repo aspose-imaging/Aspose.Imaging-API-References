@@ -15,7 +15,7 @@ Flags to describe the type of line.
 public enum LineTypes : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

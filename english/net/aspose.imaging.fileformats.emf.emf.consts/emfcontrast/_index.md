@@ -14,7 +14,7 @@ The Contrast enumeration defines values for one of the characteristics in the PA
 public enum EmfContrast : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

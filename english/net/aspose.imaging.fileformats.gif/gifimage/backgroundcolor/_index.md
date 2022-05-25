@@ -14,7 +14,7 @@ Gets or sets the background color.
 public override Color BackgroundColor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The background color.
 

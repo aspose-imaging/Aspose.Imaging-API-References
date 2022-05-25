@@ -14,7 +14,7 @@ Gets or sets the maximum scan.
 public short MaxScan { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The maximum number of points in any one scan in this region.
 

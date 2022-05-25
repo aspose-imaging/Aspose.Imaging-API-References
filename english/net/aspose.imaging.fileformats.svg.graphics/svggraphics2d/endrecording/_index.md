@@ -14,7 +14,7 @@ Gets the final Svg image which includes all drawing commands performed via [`Svg
 public SvgImage EndRecording()
 ```
 
-## Return Value
+### Return Value
 
 The final Svg image.
 

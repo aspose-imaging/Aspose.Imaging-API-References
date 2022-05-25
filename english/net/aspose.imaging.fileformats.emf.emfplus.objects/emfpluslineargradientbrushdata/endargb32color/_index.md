@@ -14,7 +14,7 @@ Gets or sets the end color.
 public int EndArgb32Color { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 An EmfPlusARGB object that specifies the color at the ending boundary point of the linear gradient brush.
 

@@ -14,7 +14,7 @@ The MetafileVersion Enumeration defines values that specify support for device-i
 public enum WmfMetafileVersion : short
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

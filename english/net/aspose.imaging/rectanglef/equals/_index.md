@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The Object to test. |
 
-## Return Value
+### Return Value
 
 This method returns true if *obj* is a [`RectangleF`](../../rectanglef) and its X, Y, Width, and Height properties are equal to the corresponding properties of this [`RectangleF`](../../rectanglef); otherwise, false.
 

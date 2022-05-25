@@ -14,7 +14,7 @@ Gets the other channel.
 public static AudioChannelType OtherChannel { get; }
 ```
 
-## Property Value
+### Property Value
 
 The other channel.
 

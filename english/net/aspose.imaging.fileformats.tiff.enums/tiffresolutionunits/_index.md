@@ -14,7 +14,7 @@ Tiff Resolution Unit Enum
 public enum TiffResolutionUnits : ushort
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets the interpolation mode.
 public InterpolationMode InterpolationMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The interpolation mode.
 

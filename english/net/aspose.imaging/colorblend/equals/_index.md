@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The object to test. |
 
-## Return Value
+### Return Value
 
 True if *obj* is a [`ColorBlend`](../../colorblend) class equivalent to this [`ColorBlend`](../../colorblend) class; otherwise, false.
 

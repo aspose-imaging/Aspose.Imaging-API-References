@@ -14,7 +14,7 @@ Gets or sets the chromaticity of the white point of the image.
 public TiffRational[] WhitePoint { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The chromaticity of the white point of the image.
 

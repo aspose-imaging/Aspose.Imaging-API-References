@@ -14,7 +14,7 @@ Colors quantization methods
 public enum ColorQuantizationMethod
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

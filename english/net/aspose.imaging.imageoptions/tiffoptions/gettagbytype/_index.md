@@ -18,7 +18,7 @@ public TiffDataType GetTagByType(TiffTags tagKey)
 | --- | --- | --- |
 | tagKey | TiffTags | The tag key. |
 
-## Return Value
+### Return Value
 
 Instance of the tag if exists or null otherwise.
 

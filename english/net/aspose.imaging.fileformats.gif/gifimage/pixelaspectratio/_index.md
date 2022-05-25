@@ -14,7 +14,7 @@ Gets or sets the pixel aspect ratio.
 public byte PixelAspectRatio { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The pixel aspect ratio.
 

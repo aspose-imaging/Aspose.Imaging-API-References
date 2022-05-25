@@ -14,7 +14,7 @@ Gets or sets the record count.
 public ushort RecordCount { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The record count.
 

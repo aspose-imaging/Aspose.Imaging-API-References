@@ -14,7 +14,7 @@ Gets or sets the color model.
 public int ColorModel { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color model.
 

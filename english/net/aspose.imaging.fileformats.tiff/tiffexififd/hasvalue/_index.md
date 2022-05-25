@@ -14,7 +14,7 @@ Gets a value indicating whether this instance has value.
 public bool HasValue { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this instance has value; otherwise, `false`.
 

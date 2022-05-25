@@ -14,7 +14,7 @@ Gets or sets the character spacing.
 public float CharacterSpacing { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The character spacing, in percent.
 

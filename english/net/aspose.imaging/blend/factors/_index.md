@@ -14,7 +14,7 @@ Gets or sets the array of blend factors for the gradient.
 public float[] Factors { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The array of blend factors that specify the percentages of the starting color and the ending color to be used at the corresponding position.
 

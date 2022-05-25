@@ -14,7 +14,7 @@ Gets a value indicating whether the [`TiffOptions`](../../tiffoptions) have been
 public bool IsValid { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if TiffOptions are properly configured; otherwise, `false`.
 

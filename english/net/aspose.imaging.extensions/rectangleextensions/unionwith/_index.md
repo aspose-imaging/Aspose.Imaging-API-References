@@ -19,7 +19,7 @@ public static RectangleF UnionWith(RectangleF rectangle, RectangleF otherRectang
 | rectangle | RectangleF | The first rectangle. |
 | otherRectangle | RectangleF | The second rectangle. |
 
-## Return Value
+### Return Value
 
 New rectangle as union operation result
 

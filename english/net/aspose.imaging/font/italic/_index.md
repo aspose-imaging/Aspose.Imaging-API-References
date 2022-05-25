@@ -14,7 +14,7 @@ Gets a value indicating whether this [`Font`](../../font) is italic.
 public bool Italic { get; }
 ```
 
-## Property Value
+### Property Value
 
 True if this [`Font`](../../font) is italic; otherwise, false.
 

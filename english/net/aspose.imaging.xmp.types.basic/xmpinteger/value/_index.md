@@ -14,7 +14,7 @@ Gets or sets the value.
 public long Value { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The value.
 

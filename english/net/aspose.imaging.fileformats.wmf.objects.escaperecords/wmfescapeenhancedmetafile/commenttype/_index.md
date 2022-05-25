@@ -14,7 +14,7 @@ Gets or sets the type of the comment.
 public int CommentType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A 32-bit unsigned integer that identifies the type of comment in this record. This value MUST be 0x00000001.
 

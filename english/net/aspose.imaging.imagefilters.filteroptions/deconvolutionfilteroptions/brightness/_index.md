@@ -14,7 +14,7 @@ Gets or sets the brightness. recommended range 1 - 1.5 default value = 1.15
 public double Brightness { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The brightness.
 

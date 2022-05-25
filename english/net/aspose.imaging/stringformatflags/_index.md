@@ -15,7 +15,7 @@ Specifies the display and layout information for text strings.
 public enum StringFormatFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

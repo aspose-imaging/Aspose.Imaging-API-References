@@ -14,7 +14,7 @@ The measure text kind
 public enum OdMeasureTextKind
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

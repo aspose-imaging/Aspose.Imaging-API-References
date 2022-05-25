@@ -14,7 +14,7 @@ Gets or sets the index of the region.
 public int RegionIndex { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Index into the WMF Object Table to get the region to be filled.
 

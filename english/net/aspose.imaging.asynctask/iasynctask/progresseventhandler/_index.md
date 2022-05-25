@@ -14,7 +14,7 @@ Gets or sets the progress event handler of the asynchronous task.
 public ProgressEventHandler ProgressEventHandler { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The progress event handler of the asynchronous task.
 

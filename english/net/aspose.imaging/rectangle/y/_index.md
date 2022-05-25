@@ -14,7 +14,7 @@ Gets or sets the y-coordinate of the upper-left corner of this [`Rectangle`](../
 public int Y { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The y-coordinate of the upper-left corner of this [`Rectangle`](../../rectangle) structure.
 

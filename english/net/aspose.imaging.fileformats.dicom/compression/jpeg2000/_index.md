@@ -14,7 +14,7 @@ Gets or sets the JPEG 2000 options.
 public Jpeg2000Options Jpeg2000 { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The JPEG 2000 options.
 

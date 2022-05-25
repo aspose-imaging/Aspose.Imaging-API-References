@@ -15,7 +15,7 @@ The GamutMappingIntent Enumeration specifies the relationship between logical an
 public enum WmfGamutMappingIntent
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

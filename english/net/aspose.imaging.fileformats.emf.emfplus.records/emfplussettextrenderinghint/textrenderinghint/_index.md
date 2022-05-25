@@ -14,7 +14,7 @@ Gets or sets the text rendering hint value, from the TextRenderingHint enumerati
 public EmfPlusTextRenderingHint TextRenderingHint { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The text rendering hint.
 

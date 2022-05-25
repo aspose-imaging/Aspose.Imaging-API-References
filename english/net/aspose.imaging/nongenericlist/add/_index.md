@@ -18,7 +18,7 @@ public int Add(object value)
 | --- | --- | --- |
 | value | Object | The Object to add to the IList. |
 
-## Return Value
+### Return Value
 
 The position into which the new element was inserted.
 

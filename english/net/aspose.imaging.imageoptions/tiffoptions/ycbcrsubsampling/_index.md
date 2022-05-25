@@ -14,7 +14,7 @@ Gets or sets the subsampling factors for YCbCr photometric.
 public ushort[] YCbCrSubsampling { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The subsampling factors for YCbCr photometric.
 

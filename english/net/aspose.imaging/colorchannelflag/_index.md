@@ -14,7 +14,7 @@ Specifies individual channels in the CMYK (cyan, magenta, yellow, black) color s
 public enum ColorChannelFlag
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

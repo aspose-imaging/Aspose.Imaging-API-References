@@ -14,7 +14,7 @@ Gets or sets the angle in gradus.
 public double Angle { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The angle.
 

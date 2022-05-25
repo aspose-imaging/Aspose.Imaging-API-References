@@ -14,7 +14,7 @@ Gets or sets a value indicating whether compact palette is used.
 public bool IsCompactPalette { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if compact palette is used; otherwise, `false`.
 

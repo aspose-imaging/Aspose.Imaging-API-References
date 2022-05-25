@@ -14,7 +14,7 @@ Gets or sets the angle.
 public double Angle { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The angle (tilt nib). Defines the angle of the brush nib in relation to the drawing surface. Measures in radians.
 

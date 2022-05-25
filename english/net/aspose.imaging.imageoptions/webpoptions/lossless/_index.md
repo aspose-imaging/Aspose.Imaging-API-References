@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this [`WebPOptions`](../../webpoptions) 
 public bool Lossless { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if lossless; otherwise, `false`.
 

@@ -14,7 +14,7 @@ Gets or sets the pointer to EXIF IFD.
 public uint Offset { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The pointer to EXIF IFD.
 

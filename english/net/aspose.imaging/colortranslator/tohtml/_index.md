@@ -18,7 +18,7 @@ public static string ToHtml(Color c)
 | --- | --- | --- |
 | c | Color | The color class. |
 
-## Return Value
+### Return Value
 
 The html string color.
 

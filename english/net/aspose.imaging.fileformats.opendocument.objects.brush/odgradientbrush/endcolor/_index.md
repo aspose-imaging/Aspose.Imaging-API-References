@@ -14,7 +14,7 @@ Gets or sets the end color.
 public int EndColor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The end color.
 

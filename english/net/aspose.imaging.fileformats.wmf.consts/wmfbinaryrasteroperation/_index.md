@@ -14,7 +14,7 @@ The BinaryRasterOperation Enumeration section lists the binary raster-operation 
 public enum WmfBinaryRasterOperation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

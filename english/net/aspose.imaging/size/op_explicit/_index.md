@@ -18,7 +18,7 @@ public static explicit operator Point(Size size)
 | --- | --- | --- |
 | size | Size | The [`Size`](../../size) to convert. |
 
-## Return Value
+### Return Value
 
 The [`Point`](../../point) structure to which this operator converts.
 

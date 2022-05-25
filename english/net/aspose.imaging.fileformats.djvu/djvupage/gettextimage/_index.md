@@ -18,7 +18,7 @@ public DjvuRaster GetTextImage(int subsample = 1)
 | --- | --- | --- |
 | subsample | Int32 | The subsample. |
 
-## Return Value
+### Return Value
 
 The bitmap
 

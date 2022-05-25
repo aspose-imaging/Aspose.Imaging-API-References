@@ -14,7 +14,7 @@ Gets a value indicating whether this [`Font`](../../font) is underlined.
 public bool Underline { get; }
 ```
 
-## Property Value
+### Property Value
 
 True if this [`Font`](../../font) is underlined; otherwise, false.
 

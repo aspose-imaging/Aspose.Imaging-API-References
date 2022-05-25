@@ -14,7 +14,7 @@ Gets the stereo audio channel.
 public static AudioChannelType Stereo { get; }
 ```
 
-## Property Value
+### Property Value
 
 The stereo audio channel.
 

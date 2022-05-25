@@ -20,6 +20,13 @@ public class AsyncTaskProgress
 | --- | --- |
 | [AsyncTaskProgress](asynctaskprogress)(int, TimeSpan) | Initializes a new instance of the [`AsyncTaskProgress`](../asynctaskprogress) class. |
 
+## Fields
+
+| Name | Description |
+| --- | --- |
+| readonly [Duration](../../aspose.imaging.asynctask/asynctaskprogress/duration) | The duration of the asynchronous task. |
+| readonly [ProgressPercentage](../../aspose.imaging.asynctask/asynctaskprogress/progresspercentage) | The progress of the asynchronous task, in percent. |
+
 ### See Also
 
 * namespace [Aspose.Imaging.AsyncTask](../../aspose.imaging.asynctask)

@@ -14,7 +14,7 @@ The PenAlignment enumeration defines the distribution of the width of the pen wi
 public enum EmfPlusPenAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets the bottom.
 public int Bottom { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The vertical (y-axis) coordinate, in logical units, of the bottom scanline.
 

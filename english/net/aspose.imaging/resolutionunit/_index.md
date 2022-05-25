@@ -14,7 +14,7 @@ Resolution unit enum.
 public enum ResolutionUnit : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

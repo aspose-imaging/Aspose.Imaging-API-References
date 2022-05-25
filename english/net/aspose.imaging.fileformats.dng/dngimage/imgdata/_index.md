@@ -14,7 +14,7 @@ Gets or sets the img data.
 public RawData ImgData { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The img data.
 

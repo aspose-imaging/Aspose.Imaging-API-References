@@ -14,7 +14,7 @@ Gets the XML namespace.
 public string XmlNamespace { get; }
 ```
 
-## Property Value
+### Property Value
 
 The XML namespace.
 

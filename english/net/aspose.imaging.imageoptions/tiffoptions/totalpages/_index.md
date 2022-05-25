@@ -14,7 +14,7 @@ Gets the total pages.
 public ushort TotalPages { get; }
 ```
 
-## Property Value
+### Property Value
 
 The total pages.
 

@@ -14,7 +14,7 @@ The PostScriptClipping Enumeration defines functions that can be applied to the 
 public enum WmfPostScriptClipping
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

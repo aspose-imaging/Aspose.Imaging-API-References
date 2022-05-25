@@ -14,7 +14,7 @@ Gets or sets the maximum decoding time in seconds (this option can be used on ve
 public int MaximumDecodingTime { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The maximum decoding time.
 

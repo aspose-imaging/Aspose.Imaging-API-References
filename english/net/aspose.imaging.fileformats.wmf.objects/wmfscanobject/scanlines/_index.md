@@ -14,7 +14,7 @@ Gets or sets the scan lines.
 public Point[] ScanLines { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 An array of scanlines, each specified by left and right horizontal (x-axis) coordinates of its endpoints.
 

@@ -14,7 +14,7 @@ Gets the raw data format.
 public virtual PixelDataFormat RawDataFormat { get; }
 ```
 
-## Property Value
+### Property Value
 
 The raw data format.
 

@@ -14,7 +14,7 @@ Gets or sets the psd compression method.
 public CompressionMethod CompressionMethod { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The compression method.
 

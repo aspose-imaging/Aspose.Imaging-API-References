@@ -19,7 +19,7 @@ public static SizeF Add(SizeF size1, SizeF size2)
 | size1 | SizeF | The first [`SizeF`](../../sizef) to add. |
 | size2 | SizeF | The second [`SizeF`](../../sizef) to add. |
 
-## Return Value
+### Return Value
 
 A [`SizeF`](../../sizef) structure that is the result of the addition operation.
 

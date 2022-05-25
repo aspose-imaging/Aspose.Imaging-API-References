@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this [`OdFont`](../../odfont) is strikeo
 public bool Strikeout { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if strikeout; otherwise, `false`.
 

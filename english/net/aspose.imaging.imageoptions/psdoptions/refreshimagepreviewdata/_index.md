@@ -14,7 +14,7 @@ Gets or sets a value indicating whether [refresh image preview data] - option us
 public bool RefreshImagePreviewData { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if [refresh image preview data]; otherwise, `false`.
 

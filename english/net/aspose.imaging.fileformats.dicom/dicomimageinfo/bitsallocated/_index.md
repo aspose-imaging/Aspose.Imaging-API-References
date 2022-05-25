@@ -14,7 +14,7 @@ Gets a value of the "bitsAllocated".
 public int BitsAllocated { get; }
 ```
 
-## Property Value
+### Property Value
 
 The a value of the "bitsAllocated".
 

@@ -14,7 +14,7 @@ Gets the units.
 public int Units { get; }
 ```
 
-## Property Value
+### Property Value
 
 Type of units used to measure resolution
 

@@ -14,7 +14,7 @@ Gets or sets the default points pre-calculation process progress event handler.
 public ProgressEventHandler PrecalculationProgressEventHandler { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The progress event handler.
 

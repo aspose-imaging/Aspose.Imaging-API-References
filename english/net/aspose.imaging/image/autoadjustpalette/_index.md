@@ -14,7 +14,7 @@ Gets or sets a value indicating whether automatic adjust palette.
 public bool AutoAdjustPalette { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if enable automatic adjust palette; otherwise, `false`.
 

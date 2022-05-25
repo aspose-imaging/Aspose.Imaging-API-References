@@ -14,7 +14,7 @@ Gets or sets the color channels count.
 public short ChannelsCount { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color channels count.
 

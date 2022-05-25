@@ -14,7 +14,7 @@ Gets or sets the scanner model.
 public string ScannerModel { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The scanner model.
 

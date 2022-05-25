@@ -14,7 +14,7 @@ Storage organization. Possible values for PLANARCONFIG tag.
 public enum TiffPlanarConfigs : ushort
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

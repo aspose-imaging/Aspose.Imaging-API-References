@@ -14,7 +14,7 @@ Gets the registered export formats.
 public static FileFormat RegisteredFormats { get; }
 ```
 
-## Property Value
+### Property Value
 
 The registered export formats.
 

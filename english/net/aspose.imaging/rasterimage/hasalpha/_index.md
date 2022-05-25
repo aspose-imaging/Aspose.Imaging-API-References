@@ -14,7 +14,7 @@ Gets a value indicating whether this instance has alpha.
 public virtual bool HasAlpha { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this instance has alpha; otherwise, `false`.
 

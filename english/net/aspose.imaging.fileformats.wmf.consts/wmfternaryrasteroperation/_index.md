@@ -14,7 +14,7 @@ Enumeration specifies ternary raster operation codes, which define how to combin
 public enum WmfTernaryRasterOperation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

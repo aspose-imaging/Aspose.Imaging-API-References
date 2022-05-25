@@ -14,7 +14,7 @@ Gets or sets the gamma correction value X 1000, which will be applied to subsequ
 public short TextContrast { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The text contrast value.
 

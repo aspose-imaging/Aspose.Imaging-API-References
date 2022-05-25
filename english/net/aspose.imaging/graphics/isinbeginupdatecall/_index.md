@@ -14,7 +14,7 @@ Gets a value indicating whether graphics is in BeginUpdate call state.
 public bool IsInBeginUpdateCall { get; }
 ```
 
-## Property Value
+### Property Value
 
 `True` if graphics is in BeginUpdate call state; otherwise, `false`.
 

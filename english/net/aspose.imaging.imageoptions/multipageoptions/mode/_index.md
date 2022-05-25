@@ -14,7 +14,7 @@ Gets or sets the mode.
 public MultiPageMode Mode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The mode.
 

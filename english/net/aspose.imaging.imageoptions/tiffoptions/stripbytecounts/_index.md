@@ -14,7 +14,7 @@ Gets or sets the strip byte counts.
 public uint[] StripByteCounts { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The strip byte counts.
 

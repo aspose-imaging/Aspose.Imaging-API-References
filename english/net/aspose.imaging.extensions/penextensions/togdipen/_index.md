@@ -18,7 +18,7 @@ public static Pen ToGdiPen(Pen pen)
 | --- | --- | --- |
 | pen | Pen | The [`Pen`](../../../aspose.imaging/pen) to convert. |
 
-## Return Value
+### Return Value
 
 The converted Pen.
 

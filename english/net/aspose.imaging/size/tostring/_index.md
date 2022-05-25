@@ -14,7 +14,7 @@ Creates a human-readable string that represents this [`Size`](../../size).
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 A string that represents this [`Size`](../../size).
 

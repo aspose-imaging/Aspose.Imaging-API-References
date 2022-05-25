@@ -14,7 +14,7 @@ Gets or sets the line spacing.
 public float LineSpacing { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The line spacing, in percent.
 

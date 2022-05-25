@@ -14,7 +14,7 @@ The StringDigitSubstitution enumeration defines ways to substitute digits in a s
 public enum EmfPlusStringDigitSubstitution
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

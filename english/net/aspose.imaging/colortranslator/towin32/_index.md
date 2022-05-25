@@ -18,7 +18,7 @@ public static int ToWin32(Color c)
 | --- | --- | --- |
 | c | Color | The color. |
 
-## Return Value
+### Return Value
 
 The win32 color.
 

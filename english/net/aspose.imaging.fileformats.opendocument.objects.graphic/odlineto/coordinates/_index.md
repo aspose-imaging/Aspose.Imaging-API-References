@@ -14,7 +14,7 @@ Gets or sets the coordinates.
 public PointF Coordinates { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The coordinates.
 

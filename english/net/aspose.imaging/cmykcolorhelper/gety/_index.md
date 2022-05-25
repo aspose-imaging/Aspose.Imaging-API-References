@@ -18,7 +18,7 @@ public static int GetY(int cmyk)
 | --- | --- | --- |
 | cmyk | Int32 | The CMYK color presented as a 32-bit integer value. |
 
-## Return Value
+### Return Value
 
 The yellow component value.
 

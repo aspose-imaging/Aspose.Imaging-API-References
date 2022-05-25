@@ -14,7 +14,7 @@ Creates a monochrome color palette containing 2 colors only.
 public static IColorPalette CreateMonochrome()
 ```
 
-## Return Value
+### Return Value
 
 Color palette for monochrome images.
 

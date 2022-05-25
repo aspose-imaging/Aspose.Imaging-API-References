@@ -14,7 +14,7 @@ Gets or sets the maximum decoding time for tile.
 public int MaximumDecodingTimeForTile { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The maximum decoding time for tile.
 

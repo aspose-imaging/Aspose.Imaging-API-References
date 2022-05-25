@@ -14,7 +14,7 @@ Gets or sets the view box.
 public Rectangle ViewBox { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The view box.
 

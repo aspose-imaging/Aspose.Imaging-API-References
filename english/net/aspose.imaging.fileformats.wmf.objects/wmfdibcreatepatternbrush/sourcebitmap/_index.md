@@ -14,7 +14,7 @@ Gets or sets the source bitmap.
 public WmfDeviceIndependentBitmap SourceBitmap { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Variable-bit DIB Object data that defines the pattern to use in the brush.
 

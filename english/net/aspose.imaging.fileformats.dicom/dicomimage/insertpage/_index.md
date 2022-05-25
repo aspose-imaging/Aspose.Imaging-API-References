@@ -18,7 +18,7 @@ public DicomPage InsertPage(int pageIndex)
 | --- | --- | --- |
 | pageIndex | Int32 | Index of the page. |
 
-## Return Value
+### Return Value
 
 The newly created [`DicomPage`](../../dicompage).
 

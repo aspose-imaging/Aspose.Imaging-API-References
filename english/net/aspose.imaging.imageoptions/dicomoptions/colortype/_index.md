@@ -14,7 +14,7 @@ Gets or sets the type of the color.
 public ColorType ColorType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the color.
 

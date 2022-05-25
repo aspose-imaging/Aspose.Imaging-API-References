@@ -14,7 +14,7 @@ Gets or sets the text grid with in pixels
 public ushort TextGridWidth { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The text grid width in pixels.
 

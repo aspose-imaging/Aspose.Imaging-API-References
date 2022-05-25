@@ -14,7 +14,7 @@ Gets the height.
 public int Height { get; }
 ```
 
-## Property Value
+### Property Value
 
 The a value of the height.
 

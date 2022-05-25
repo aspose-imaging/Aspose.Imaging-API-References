@@ -14,7 +14,7 @@ Gets or sets tags, which belong to common section. This applies only to jpeg ima
 public TiffDataType[] CommonTags { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The common section tags.
 

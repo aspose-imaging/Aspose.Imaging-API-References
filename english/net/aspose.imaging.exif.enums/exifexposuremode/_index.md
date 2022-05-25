@@ -14,7 +14,7 @@ exif exposure mode enum.
 public enum ExifExposureMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets the color of the animation background.
 public uint AnimBackgroundColor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color of the animation background.
 

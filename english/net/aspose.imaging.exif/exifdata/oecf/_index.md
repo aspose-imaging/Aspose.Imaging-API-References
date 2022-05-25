@@ -14,7 +14,7 @@ Gets or sets the Opto-Electric Conversion Function (OECF) specified in ISO 14524
 public byte[] OECF { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The Opto-Electric Conversion Function (OECF) specified in ISO 14524.
 

@@ -14,7 +14,7 @@ Gets or sets the subtype of EPS format.
 public EpsType SubType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The subtype of EPS format.
 

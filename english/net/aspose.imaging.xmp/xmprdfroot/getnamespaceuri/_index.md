@@ -18,7 +18,7 @@ public string GetNamespaceUri(string prefix)
 | --- | --- | --- |
 | prefix | String | The prefix. |
 
-## Return Value
+### Return Value
 
 Returns a package schema URI.
 

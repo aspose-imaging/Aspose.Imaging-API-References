@@ -14,7 +14,7 @@ Gets or sets an array of colors that correspond to the points in the path this [
 public Color[] SurroundColors { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 An array of [`Color`](../../../aspose.imaging/color) structures that represents the colors associated with each point in the path this [`PathGradientBrush`](../../pathgradientbrush) fills.
 

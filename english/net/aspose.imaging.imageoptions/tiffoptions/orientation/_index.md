@@ -14,7 +14,7 @@ Gets or sets the orientation.
 public TiffOrientations Orientation { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The orientation.
 

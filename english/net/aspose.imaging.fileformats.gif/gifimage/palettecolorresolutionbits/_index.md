@@ -14,7 +14,7 @@ Gets or sets the palette color resolution bits.
 public byte PaletteColorResolutionBits { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The palette color resolution bits.
 

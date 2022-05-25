@@ -14,7 +14,7 @@ Gets or sets the style.
 public WmfBrushStyle Style { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The legal values for this field are defined as follows: if the value is not BS_PATTERN, BS_DIBPATTERNPT MUST be assumed. These values are specified in the BrushStyle Enumeration (section 2.1.1.4).
 

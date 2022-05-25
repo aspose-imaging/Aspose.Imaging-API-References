@@ -14,7 +14,7 @@ Gets the registered exporter descriptors.
 public static IImageExporterDescriptor[] RegisteredExporterDescriptors { get; }
 ```
 
-## Property Value
+### Property Value
 
 The registered exporter descriptors.
 

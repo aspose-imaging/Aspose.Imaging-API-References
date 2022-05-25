@@ -14,7 +14,7 @@ The PixelFormat enumeration defines pixel formats that are supported in EMF+ bit
 public enum EmfPlusPixelFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

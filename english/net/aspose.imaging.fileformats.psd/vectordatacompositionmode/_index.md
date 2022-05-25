@@ -14,7 +14,7 @@ Defines the vector data composition mode that is used on export from vector form
 public enum VectorDataCompositionMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

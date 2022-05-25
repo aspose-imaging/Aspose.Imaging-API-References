@@ -14,7 +14,7 @@ Gets a value indicating whether the image palette is used.
 public override bool UsePalette { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if the palette is used in the image; otherwise, `false`.
 

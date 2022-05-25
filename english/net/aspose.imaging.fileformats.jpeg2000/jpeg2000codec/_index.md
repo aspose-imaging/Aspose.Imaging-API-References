@@ -14,7 +14,7 @@ Represents JPEG2000 image type
 public enum Jpeg2000Codec
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets the log palette.
 public EmfLogPalette LogPalette { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The logical palette.
 

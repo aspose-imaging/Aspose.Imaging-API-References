@@ -14,7 +14,7 @@ The LineCapType enumeration defines types of line caps to use at the ends of lin
 public enum EmfPlusLineCapType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

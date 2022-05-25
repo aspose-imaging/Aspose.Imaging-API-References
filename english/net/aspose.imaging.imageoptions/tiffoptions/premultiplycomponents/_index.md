@@ -14,7 +14,7 @@ Gets or sets a value indicating whether components must be premultiplied.
 public bool PremultiplyComponents { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if components must be premultiplied; otherwise, `false`.
 

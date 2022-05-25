@@ -14,7 +14,7 @@ The GraphicsVersion enumeration defines versions of operating system graphics th
 public enum EmfPlusGraphicsVersionEnum
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

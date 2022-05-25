@@ -14,7 +14,7 @@ Gets or sets the value of the Data2 member (section 2.3.4), in little-endian byt
 public short Data2 { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The data2.
 

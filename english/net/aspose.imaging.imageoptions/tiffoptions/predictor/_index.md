@@ -14,7 +14,7 @@ Gets or sets the predictor for LZW compression.
 public TiffPredictor Predictor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The predictor type.
 

@@ -14,7 +14,7 @@ Gets or sets device settings description
 public byte[] DeviceSettingDescription { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The device setting description.
 

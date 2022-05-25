@@ -18,7 +18,7 @@ public int[] GetArrayOneItemFromIndex(int index)
 | --- | --- | --- |
 | index | Int32 | The range index. |
 
-## Return Value
+### Return Value
 
 The array of Int32
 

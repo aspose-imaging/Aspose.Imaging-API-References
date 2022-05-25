@@ -18,7 +18,7 @@ public int[] ReadArgb32ScanLine(int scanLineIndex)
 | --- | --- | --- |
 | scanLineIndex | Int32 | Zero based index of the scan line. |
 
-## Return Value
+### Return Value
 
 The scan line 32-bit ARGB color values array.
 

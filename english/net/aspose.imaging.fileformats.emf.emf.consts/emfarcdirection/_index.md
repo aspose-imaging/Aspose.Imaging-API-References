@@ -14,7 +14,7 @@ The ArcDirection enumeration is used in setting the drawing direction for arc an
 public enum EmfArcDirection
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -19,7 +19,7 @@ public static bool operator !=(PointF point1, PointF point2)
 | point1 | PointF | A first [`PointF`](../../pointf) to compare. |
 | point2 | PointF | A second [`PointF`](../../pointf) to compare. |
 
-## Return Value
+### Return Value
 
 True to indicate the [`X`](../x) and [`Y`](../y) values of *point1* and *point2* are not equal; otherwise, false.
 

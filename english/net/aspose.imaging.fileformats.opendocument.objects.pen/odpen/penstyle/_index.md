@@ -14,7 +14,7 @@ Gets or sets the pen style.
 public OdPenStyle PenStyle { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The pen style.
 

@@ -18,7 +18,7 @@ public bool ContainsPackage(string namespaceUri)
 | --- | --- | --- |
 | namespaceUri | String | Package schema uri. |
 
-## Return Value
+### Return Value
 
 Returns true if package with specified namespace Uri exist in XMP wrapper.
 

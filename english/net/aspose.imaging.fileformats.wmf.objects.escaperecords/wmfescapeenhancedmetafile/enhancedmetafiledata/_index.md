@@ -14,7 +14,7 @@ Gets or sets the enhanced metafile data.
 public byte[] EnhancedMetafileData { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A segment of an EMF file. The bytes in consecutive META_ESCAPE_ENHANCED_METAFILE records MUST be concatenated to represent the entire embedded EMF file.
 

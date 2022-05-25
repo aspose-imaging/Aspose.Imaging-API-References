@@ -14,7 +14,7 @@ Gets or sets the type of the jump.
 public PathJumpTypes JumpType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the jump.
 

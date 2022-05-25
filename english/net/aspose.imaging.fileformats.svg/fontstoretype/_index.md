@@ -14,7 +14,7 @@ The font store type
 public enum FontStoreType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

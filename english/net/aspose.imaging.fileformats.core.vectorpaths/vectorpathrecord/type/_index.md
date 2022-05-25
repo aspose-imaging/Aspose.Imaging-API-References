@@ -14,7 +14,7 @@ Gets the type.
 public abstract VectorPathType Type { get; }
 ```
 
-## Property Value
+### Property Value
 
 The Vector Path Type.
 

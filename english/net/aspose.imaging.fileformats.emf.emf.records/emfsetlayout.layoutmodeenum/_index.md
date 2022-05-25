@@ -14,7 +14,7 @@ A 32-bit unsigned integer that specifies the layout mode
 public enum LayoutModeEnum
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets the lens specification
 public TiffRational[] LensSpecification { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The lens specification.
 

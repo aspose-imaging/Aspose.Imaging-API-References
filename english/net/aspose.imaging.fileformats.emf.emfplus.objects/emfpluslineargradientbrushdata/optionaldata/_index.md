@@ -14,7 +14,7 @@ Gets or sets the optional data.
 public EmfPlusLinearGradientBrushOptionalData OptionalData { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 An optional [`EmfPlusLinearGradientBrushOptionalData`](../../emfpluslineargradientbrushoptionaldata) object (section 2.2.2.25) that specifies additional data for the linear gradient brush. The specific contents of this field are determined by the value of the BrushDataFlags field.
 

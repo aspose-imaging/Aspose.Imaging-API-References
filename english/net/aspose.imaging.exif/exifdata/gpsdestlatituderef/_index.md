@@ -14,7 +14,7 @@ Gets or sets the GPS value which indicates whether the latitude of the destinati
 public string GPSDestLatitudeRef { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS value which indicates whether the latitude of the destination point is north or south latitude.
 

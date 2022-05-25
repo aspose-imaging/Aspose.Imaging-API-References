@@ -14,7 +14,7 @@ exif subject distance range enum.
 public enum ExifSubjectDistanceRange
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Compression mode for jpeg images.
 public enum JpegCompressionMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

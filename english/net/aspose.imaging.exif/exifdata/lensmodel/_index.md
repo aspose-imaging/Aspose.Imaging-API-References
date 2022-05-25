@@ -14,7 +14,7 @@ Gets or sets the lens model.
 public string LensModel { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The lens model.
 

@@ -14,7 +14,7 @@ Gets the object height, in inches.
 public virtual float HeightF { get; }
 ```
 
-## Property Value
+### Property Value
 
 The object height, in inches.
 

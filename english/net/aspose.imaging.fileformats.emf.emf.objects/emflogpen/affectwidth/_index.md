@@ -14,7 +14,7 @@ Gets or sets the width of the affect.
 public int AffectWidth { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The width of the affect.
 

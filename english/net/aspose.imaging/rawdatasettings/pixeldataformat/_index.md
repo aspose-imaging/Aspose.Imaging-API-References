@@ -14,7 +14,7 @@ Gets or sets the pixel data format
 public PixelDataFormat PixelDataFormat { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The pixel data format
 

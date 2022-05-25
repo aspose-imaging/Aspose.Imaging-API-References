@@ -20,7 +20,7 @@ public static IColorPalette GetColorPalette(IColorPalette framePalette,
 | framePalette | IColorPalette | The frame palette. |
 | containerPalette | IColorPalette | The container palette. |
 
-## Return Value
+### Return Value
 
 The color palette.
 

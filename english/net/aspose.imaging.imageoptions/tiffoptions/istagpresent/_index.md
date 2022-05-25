@@ -18,7 +18,7 @@ public bool IsTagPresent(TiffTags tag)
 | --- | --- | --- |
 | tag | TiffTags | The tag id to check. |
 
-## Return Value
+### Return Value
 
 `true` if tag is present; otherwise, `false`.
 

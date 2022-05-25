@@ -61,12 +61,12 @@ public sealed class PhotoshopPackage : XmpPackage
 | virtual [SetValue](../../aspose.imaging.xmp/xmppackage/setvalue)(string, IXmlValue) | Sets the value. |
 | virtual [SetXmpTypeValue](../../aspose.imaging.xmp/xmppackage/setxmptypevalue)(string, XmpTypeBase) | Sets the XMP type value. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [UrgencyMax](urgencymax) | Urgency max value. |
-| const [UrgencyMin](urgencymin) | Urgency min value. |
+| const [UrgencyMax](../../aspose.imaging.xmp.schemas.photoshop/photoshoppackage/urgencymax) | Urgency max value. |
+| const [UrgencyMin](../../aspose.imaging.xmp.schemas.photoshop/photoshoppackage/urgencymin) | Urgency min value. |
 
 ### See Also
 

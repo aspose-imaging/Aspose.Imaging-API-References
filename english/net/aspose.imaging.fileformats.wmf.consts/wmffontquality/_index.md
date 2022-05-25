@@ -14,7 +14,7 @@ The FontQuality Enumeration specifies how closely the attributes of the logical 
 public enum WmfFontQuality : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

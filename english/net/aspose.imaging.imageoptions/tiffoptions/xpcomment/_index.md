@@ -14,7 +14,7 @@ Gets or sets comment on image, which used by Windows Explorer.
 public string XPComment { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Comment on image, used by Windows Explorer.
 

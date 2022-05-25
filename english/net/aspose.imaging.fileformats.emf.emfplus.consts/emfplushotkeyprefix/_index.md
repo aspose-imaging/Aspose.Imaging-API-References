@@ -14,7 +14,7 @@ The HotkeyPrefix enumeration defines output options for hotkey prefixes in graph
 public enum EmfPlusHotkeyPrefix
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

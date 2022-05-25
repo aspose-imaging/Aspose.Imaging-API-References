@@ -14,7 +14,7 @@ Gets or sets the element at the third row and 0 (zero) column of this [`ColorMat
 public float Matrix30 { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The element at the third row and 0 column of this [`ColorMatrix`](../../colormatrix).
 

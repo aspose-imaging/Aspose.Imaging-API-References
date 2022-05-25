@@ -14,7 +14,7 @@ Gets or sets the name of the text style.
 public string TextStyleName { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The name of the text style.
 

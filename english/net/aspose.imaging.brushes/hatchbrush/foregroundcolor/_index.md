@@ -14,7 +14,7 @@ Gets or sets the color of hatch lines.
 public Color ForegroundColor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color of hatch lines.
 

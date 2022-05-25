@@ -14,7 +14,7 @@ The PixelOffsetMode enumeration defines how pixels are offset, which specifies t
 public enum EmfPlusPixelOffsetMode : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

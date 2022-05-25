@@ -22,7 +22,7 @@ public Image Create(StreamContainer streamContainer, ImageOptionsBase imageOptio
 | width | Int32 | width of new image |
 | height | Int32 | height of new image |
 
-## Return Value
+### Return Value
 
 A new image instance.
 

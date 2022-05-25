@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this [`XmpBoolean`](../../xmpboolean) is
 public bool Value { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if value; otherwise, `false`.
 

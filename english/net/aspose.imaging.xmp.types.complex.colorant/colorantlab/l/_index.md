@@ -14,7 +14,7 @@ Gets or sets the L component.
 public float L { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The L component.
 

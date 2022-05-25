@@ -14,7 +14,7 @@ Gets or sets the color power.
 public double ColorPower { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color power.
 

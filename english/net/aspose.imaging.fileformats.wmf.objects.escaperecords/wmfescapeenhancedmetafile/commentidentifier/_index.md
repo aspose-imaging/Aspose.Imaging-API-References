@@ -14,7 +14,7 @@ Gets or sets the comment identifier.
 public int CommentIdentifier { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A 32-bit unsigned integer that defines this record as a WMF Comment record. This value MUST be 0x43464D57.
 

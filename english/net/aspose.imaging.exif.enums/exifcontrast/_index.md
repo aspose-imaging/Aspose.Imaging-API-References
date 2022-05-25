@@ -14,7 +14,7 @@ exif normal soft hard enum.
 public enum ExifContrast
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

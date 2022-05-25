@@ -31,6 +31,12 @@ public class MaskingOptions
 | [MaskingArea](../../aspose.imaging.masking.options/maskingoptions/maskingarea) { get; set; } | Gets or sets the masking area. |
 | [Method](../../aspose.imaging.masking.options/maskingoptions/method) { get; set; } | Gets or sets the segmentation method. |
 
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [BackgroundObjectNumber](../../aspose.imaging.masking.options/maskingoptions/backgroundobjectnumber) | The background object number |
+
 ### Examples
 
 This example shows how to decompose a raster image into multiple images using image masking and the K-means segmentation algorithm. Image masking is an image processing technique that is used to split the background from the foreground image objects.

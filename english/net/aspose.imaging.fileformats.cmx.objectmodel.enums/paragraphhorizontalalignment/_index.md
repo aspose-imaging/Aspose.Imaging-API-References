@@ -14,7 +14,7 @@ Horizontal alignment
 public enum ParagraphHorizontalAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public int IndexOf(object value)
 | --- | --- | --- |
 | value | Object | The Object to locate in the IList. |
 
-## Return Value
+### Return Value
 
 The index of *value* if found in the list; otherwise, -1.
 

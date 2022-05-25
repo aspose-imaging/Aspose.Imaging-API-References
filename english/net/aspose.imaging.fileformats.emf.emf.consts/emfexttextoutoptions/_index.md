@@ -15,7 +15,7 @@ The ExtTextOutOptions enumeration specifies parameters that control various aspe
 public enum EmfExtTextOutOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

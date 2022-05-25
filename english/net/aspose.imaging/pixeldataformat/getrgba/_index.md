@@ -18,7 +18,7 @@ public static PixelDataFormat GetRgba(int bitsPerSample)
 | --- | --- | --- |
 | bitsPerSample | Int32 | The number of bits per sample. |
 
-## Return Value
+### Return Value
 
 The RGBA color.
 
@@ -46,7 +46,7 @@ public static PixelDataFormat GetRgba(int bitsPerRedChannel, int bitsPerGreenCha
 | bitsPerBlueChannel | Int32 | The number of bits per Blue channel. |
 | bitsPerAlphaChannel | Int32 | The number of bits per Alpha channel. |
 
-## Return Value
+### Return Value
 
 The RGBA color.
 

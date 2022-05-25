@@ -14,7 +14,7 @@ Gets the index of the current page.
 public int Index { get; }
 ```
 
-## Property Value
+### Property Value
 
 The index.
 

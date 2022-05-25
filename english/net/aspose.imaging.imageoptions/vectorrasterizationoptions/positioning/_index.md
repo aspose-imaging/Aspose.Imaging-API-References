@@ -14,7 +14,7 @@ Gets or sets the positioning.
 public PositioningTypes Positioning { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The positioning.
 

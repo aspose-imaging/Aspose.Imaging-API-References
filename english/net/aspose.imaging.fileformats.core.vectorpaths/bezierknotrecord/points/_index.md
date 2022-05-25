@@ -14,7 +14,7 @@ Gets or sets the points.
 public Point[] Points { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The points.
 

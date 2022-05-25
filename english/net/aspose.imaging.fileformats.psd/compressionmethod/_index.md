@@ -14,7 +14,7 @@ Defines the compression method used for image data.
 public enum CompressionMethod : short
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

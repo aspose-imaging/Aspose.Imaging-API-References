@@ -14,7 +14,7 @@ Gets the patterns.
 public Dictionary<int, CdrPattern> Patterns { get; }
 ```
 
-## Property Value
+### Property Value
 
 The patterns.
 

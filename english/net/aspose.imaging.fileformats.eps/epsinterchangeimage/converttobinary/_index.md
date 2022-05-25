@@ -14,7 +14,7 @@ Converts this instance to [`EpsBinaryImage`](../../epsbinaryimage)
 public EpsBinaryImage ConvertToBinary()
 ```
 
-## Return Value
+### Return Value
 
 Result as [`EpsBinaryImage`](../../epsbinaryimage)
 

@@ -14,7 +14,7 @@ Gets or sets a value indicating whether to update the XMP metadata.
 public virtual bool UpdateXmpData { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if update the XMP metadata; otherwise, `false`.
 

@@ -14,7 +14,7 @@ Represents color mode in [`PhotoshopPackage`](../photoshoppackage).
 public enum ColorMode : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

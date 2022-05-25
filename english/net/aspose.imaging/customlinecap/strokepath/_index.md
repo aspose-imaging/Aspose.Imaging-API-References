@@ -14,7 +14,7 @@ Gets or sets the object that defines the outline of the custom cap.
 public GraphicsPath StrokePath { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The object that defines the outline of the custom cap.
 

@@ -18,7 +18,7 @@ public bool Contains(object value)
 | --- | --- | --- |
 | value | Object | The Object to locate in the IList. |
 
-## Return Value
+### Return Value
 
 true if the Object is found in the IList; otherwise, false.
 

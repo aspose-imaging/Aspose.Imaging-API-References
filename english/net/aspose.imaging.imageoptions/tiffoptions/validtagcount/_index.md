@@ -14,7 +14,7 @@ Gets the valid tag count. This is not the total tags count but the number of tag
 public int ValidTagCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 The valid tag count.
 

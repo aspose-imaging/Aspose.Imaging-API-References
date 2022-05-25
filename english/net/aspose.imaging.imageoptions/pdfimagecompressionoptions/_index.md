@@ -14,7 +14,7 @@ Pdf image compression options
 public enum PdfImageCompressionOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -15,7 +15,7 @@ Options for CCITT Group 3/4 fax encoding. Possible values for GROUP3OPTIONS / Ti
 public enum Group3Options : uint
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

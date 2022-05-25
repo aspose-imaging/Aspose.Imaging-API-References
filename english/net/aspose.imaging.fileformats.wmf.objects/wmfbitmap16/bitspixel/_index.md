@@ -14,7 +14,7 @@ Gets or sets the bits pixel.
 public byte BitsPixel { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The number of adjacent color bits on each plane.
 

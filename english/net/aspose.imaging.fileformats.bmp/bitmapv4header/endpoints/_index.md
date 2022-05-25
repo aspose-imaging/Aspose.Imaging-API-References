@@ -14,7 +14,7 @@ Gets or sets the CoordinatesTriple class.
 public CieCoordinatesTriple Endpoints { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The endpoints.
 

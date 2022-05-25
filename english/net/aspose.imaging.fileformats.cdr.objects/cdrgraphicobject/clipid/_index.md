@@ -14,7 +14,7 @@ Gets or sets the clip identifier.
 public short ClipId { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The clip identifier.
 

@@ -14,7 +14,7 @@ Gets or sets the scale y.
 public double ScaleY { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The scale y.
 

@@ -14,7 +14,7 @@ Specifies the alignment of a text string relative to its layout rectangle.
 public enum StringAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

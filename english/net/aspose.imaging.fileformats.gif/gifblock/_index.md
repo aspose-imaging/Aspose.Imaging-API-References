@@ -26,11 +26,11 @@ public abstract class GifBlock : IGifBlock
 | --- | --- |
 | abstract [Save](../../aspose.imaging.fileformats.gif/gifblock/save)(Stream) | Saves the block to the specified stream. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [ExtensionIntroducer](extensionintroducer) | Extension introducer. |
+| const [ExtensionIntroducer](../../aspose.imaging.fileformats.gif/gifblock/extensionintroducer) | Extension introducer. |
 
 ### See Also
 

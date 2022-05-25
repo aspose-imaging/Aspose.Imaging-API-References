@@ -14,7 +14,7 @@ Gets serial number of image.
 public uint ShotOrder { get; }
 ```
 
-## Property Value
+### Property Value
 
 The shot order.
 

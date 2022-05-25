@@ -14,7 +14,7 @@ Gets or sets an EmfPlusRectF object (section 2.2.2.39) that defines a portion of
 public RectangleF SrcRect { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The source rect.
 

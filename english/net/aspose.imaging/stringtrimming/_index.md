@@ -14,7 +14,7 @@ Specifies how to trim characters from a string that does not completely fit into
 public enum StringTrimming
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

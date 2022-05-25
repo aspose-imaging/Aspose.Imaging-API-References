@@ -14,7 +14,7 @@ Gets or sets the pointer to EXIF IFD.
 public TiffExifIfd ExifIfd { get; }
 ```
 
-## Property Value
+### Property Value
 
 The pointer to EXIF IFD.
 

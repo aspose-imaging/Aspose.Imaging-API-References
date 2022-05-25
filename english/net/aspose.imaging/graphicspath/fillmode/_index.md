@@ -14,11 +14,11 @@ Gets or sets a [`FillMode`](../../fillmode) enumeration that determines how the 
 public FillMode FillMode { get; set; }
 ```
 
-## Return Value
+### Return Value
 
 A [`FillMode`](../../fillmode) enumeration that specifies how the interiors of shapes in this [`GraphicsPath`](../../graphicspath) are filled.
 
-## Property Value
+### Property Value
 
 The fill mode.
 

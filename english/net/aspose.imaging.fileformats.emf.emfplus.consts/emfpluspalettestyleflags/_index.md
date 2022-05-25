@@ -15,7 +15,7 @@ The PaletteStyle flags specify properties of graphics palettes. These flags can 
 public enum EmfPlusPaletteStyleFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

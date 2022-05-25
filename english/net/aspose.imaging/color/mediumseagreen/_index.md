@@ -14,7 +14,7 @@ Gets a system-defined color.
 public static Color MediumSeaGreen { get; }
 ```
 
-## Property Value
+### Property Value
 
 A [`Color`](../../color) representing a system-defined color.
 

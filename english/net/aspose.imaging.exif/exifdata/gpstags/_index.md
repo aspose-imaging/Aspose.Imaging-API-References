@@ -14,7 +14,7 @@ Gets or sets tags, which belong to GPS section only.
 public TiffDataType[] GPSTags { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS tags.
 

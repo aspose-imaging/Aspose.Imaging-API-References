@@ -14,7 +14,7 @@ Gets the registered descriptors.
 public static IImageCreatorDescriptor[] RegisteredDescriptors { get; }
 ```
 
-## Property Value
+### Property Value
 
 The registered descriptors.
 

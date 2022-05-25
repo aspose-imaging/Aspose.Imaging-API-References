@@ -14,7 +14,7 @@ Gets the skew angle. This method is applicable to scanned text documents, to det
 public float GetSkewAngle()
 ```
 
-## Return Value
+### Return Value
 
 The skew angle, in degrees.
 

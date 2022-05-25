@@ -14,7 +14,7 @@ Gets or sets the log brush.
 public EmfLogBrushEx LogBrush { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The log brush.
 

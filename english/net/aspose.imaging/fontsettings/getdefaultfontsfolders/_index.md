@@ -14,7 +14,7 @@ Gets the default fonts folders.
 public static string[] GetDefaultFontsFolders()
 ```
 
-## Return Value
+### Return Value
 
 Returns system folder
 

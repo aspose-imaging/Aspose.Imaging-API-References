@@ -14,7 +14,7 @@ Gets or sets the stops.
 public List<CdrGradientStop> Stops { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The stops.
 

@@ -14,7 +14,7 @@ The RegionNodeDataType enumeration defines types of region node data.
 public enum EmfPlusRegionNodeDataType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

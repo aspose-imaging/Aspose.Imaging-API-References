@@ -14,7 +14,7 @@ The ColorUsage Enumeration specifies whether a color table exists in a device-in
 public enum WmfColorUsageEnum
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

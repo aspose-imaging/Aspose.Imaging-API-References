@@ -14,7 +14,7 @@ Gets or sets the source position.
 public Point SrcPos { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The coordinates, in logical units, of the source rectangle.
 

@@ -14,7 +14,7 @@ Adds new frame to the end of the own frame collection. A new frame will be creat
 public ApngFrame AddFrame()
 ```
 
-## Return Value
+### Return Value
 
 The newly created APNG frame.
 

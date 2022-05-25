@@ -14,7 +14,7 @@ Gets or sets the object's bounds.
 public override RectangleF Bounds { get; }
 ```
 
-## Property Value
+### Property Value
 
 The object's bounds.
 

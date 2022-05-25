@@ -14,7 +14,7 @@ Gets the image.
 public DjvuRaster Image { get; }
 ```
 
-## Property Value
+### Property Value
 
 The image.
 

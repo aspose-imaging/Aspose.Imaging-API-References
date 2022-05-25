@@ -14,7 +14,7 @@ Gets or sets the smoothing mode.
 public SmoothingMode SmoothingMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The smoothing mode.
 

@@ -14,7 +14,7 @@ The CompositingQuality enumeration defines levels of quality for creating compos
 public enum EmfPlusCompositingQuality : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

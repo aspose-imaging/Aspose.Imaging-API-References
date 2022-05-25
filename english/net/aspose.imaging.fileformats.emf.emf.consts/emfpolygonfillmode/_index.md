@@ -14,7 +14,7 @@ The PolygonFillMode enumeration defines values that specify how to calculate the
 public enum EmfPolygonFillMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

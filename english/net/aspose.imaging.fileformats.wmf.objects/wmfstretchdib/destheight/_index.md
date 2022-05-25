@@ -14,7 +14,7 @@ Gets or sets the height of the dest.
 public short DestHeight { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The height, in logical units, of the destination rectangle.
 

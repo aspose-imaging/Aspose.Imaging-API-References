@@ -14,7 +14,7 @@ Specifies the type of display for hot-key prefixes that relate to text.
 public enum HotkeyPrefix
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

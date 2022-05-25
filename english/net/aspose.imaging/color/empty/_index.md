@@ -14,7 +14,7 @@ Gets an empty [`Color`](../../color).
 public static Color Empty { get; }
 ```
 
-## Property Value
+### Property Value
 
 The empty [`Color`](../../color).
 

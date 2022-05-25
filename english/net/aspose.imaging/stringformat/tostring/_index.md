@@ -14,7 +14,7 @@ Converts this [`StringFormat`](../../stringformat) object to a human-readable st
 public override string ToString()
 ```
 
-## Return Value
+### Return Value
 
 A string representation of this [`StringFormat`](../../stringformat) object.
 

@@ -14,7 +14,7 @@ Image orientation. Possible values for ORIENTATION tag.
 public enum TiffOrientations : ushort
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

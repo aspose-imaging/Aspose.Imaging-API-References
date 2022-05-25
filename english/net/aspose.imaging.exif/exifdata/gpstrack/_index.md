@@ -14,7 +14,7 @@ Gets or sets direction of GPS receiver movement.
 public string GPSTrack { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The direction of GPS receiver movement.
 

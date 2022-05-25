@@ -14,7 +14,7 @@ exif white balance enum.
 public enum ExifWhiteBalance
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

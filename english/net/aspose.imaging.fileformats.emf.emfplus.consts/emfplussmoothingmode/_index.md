@@ -14,7 +14,7 @@ The SmoothingMode enumeration defines smoothing modes to apply to lines, curves,
 public enum EmfPlusSmoothingMode : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

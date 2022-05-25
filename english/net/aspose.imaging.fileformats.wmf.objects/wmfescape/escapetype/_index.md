@@ -14,7 +14,7 @@ Gets or sets the type of the escape.
 public WmfMetafileEscapes EscapeType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the escape.
 

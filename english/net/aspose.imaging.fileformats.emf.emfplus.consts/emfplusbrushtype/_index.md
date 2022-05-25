@@ -14,7 +14,7 @@ The BrushType enumeration defines types of graphics brushes, which are used to f
 public enum EmfPlusBrushType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

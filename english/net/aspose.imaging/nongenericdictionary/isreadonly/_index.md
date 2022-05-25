@@ -14,7 +14,7 @@ Gets a value indicating whether the IDictionary object is read-only.
 public bool IsReadOnly { get; }
 ```
 
-## Return Value
+### Return Value
 
 true if the IDictionary object is read-only; otherwise, false.
 

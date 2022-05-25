@@ -14,7 +14,7 @@ Gets or sets the Icc profile stream.
 public MemoryStream IccProfile { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The icc profile.
 

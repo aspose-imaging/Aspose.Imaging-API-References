@@ -14,7 +14,7 @@ Gets or sets the top image location.
 public ushort Top { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The top image location.
 

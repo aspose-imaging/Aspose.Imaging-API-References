@@ -15,7 +15,7 @@ The FontStyle flags specify styles of graphics font typefaces. These flags can b
 public enum EmfPlusFontStyleFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

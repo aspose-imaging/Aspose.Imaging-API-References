@@ -14,7 +14,7 @@ The operations for the path shapes combining (Boolean operations).
 public enum PathOperations
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

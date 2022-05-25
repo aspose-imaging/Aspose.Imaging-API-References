@@ -14,7 +14,7 @@ The jfif density units.
 public enum JfifDensityUnits : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets the matrix coefficients for transformation from RGB to YCbCr image 
 public TiffRational[] YCbCrCoefficients { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The matrix coefficients for transformation from RGB to YCbCr image data.
 

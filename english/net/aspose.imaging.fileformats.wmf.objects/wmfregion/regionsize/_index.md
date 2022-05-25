@@ -14,7 +14,7 @@ Gets or sets the size of the region.
 public short RegionSize { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The size of the region in bytes plus the size of aScans in bytes.
 

@@ -14,7 +14,7 @@ Gets a value indicating whether stream was created explicitly.
 public bool IsCreated { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if stream was created explicitly; otherwise, `false`.
 

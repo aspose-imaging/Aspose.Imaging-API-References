@@ -14,7 +14,7 @@ This enum describes possible progress event types that can occurred during image
 public enum EventType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

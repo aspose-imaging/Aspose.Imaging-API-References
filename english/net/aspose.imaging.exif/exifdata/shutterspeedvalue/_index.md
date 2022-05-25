@@ -14,7 +14,7 @@ Gets or sets the shutter speed value.
 public TiffSRational ShutterSpeedValue { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The shutter speed value.
 

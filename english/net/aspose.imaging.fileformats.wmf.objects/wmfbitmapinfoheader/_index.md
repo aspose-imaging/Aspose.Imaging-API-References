@@ -36,6 +36,12 @@ public class WmfBitmapInfoHeader : WmfBitmapBaseHeader
 | [XPelsPerMeter](../../aspose.imaging.fileformats.wmf.objects/wmfbitmapinfoheader/xpelspermeter) { get; set; } | Gets or sets a 32-bit signed integer that defines the horizontal resolution, in pixels-per-meter, of the target device for the DIB |
 | [YPelsPerMeter](../../aspose.imaging.fileformats.wmf.objects/wmfbitmapinfoheader/ypelspermeter) { get; set; } | Gets or sets a 32-bit signed integer that defines the vertical resolution, in pixels-per-meter, of the target device for the DIB |
 
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [StructureSize](../../aspose.imaging.fileformats.wmf.objects/wmfbitmapinfoheader/structuresize) | The structure size |
+
 ### See Also
 
 * class [WmfBitmapBaseHeader](../wmfbitmapbaseheader)

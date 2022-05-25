@@ -14,7 +14,7 @@ EmfPlusObjectClamp specifies the object clamping behavior. It is not used until 
 public enum EmfPlusObjectClamp
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets the reserved.
 public int Reserved { get; }
 ```
 
-## Property Value
+### Property Value
 
 Pad structure to 4-byte boundary
 

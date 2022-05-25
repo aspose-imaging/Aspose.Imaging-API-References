@@ -15,7 +15,7 @@ The DriverStringOptions flags specify properties of graphics text positioning an
 public enum EmfPlusDriverStringOptionsFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

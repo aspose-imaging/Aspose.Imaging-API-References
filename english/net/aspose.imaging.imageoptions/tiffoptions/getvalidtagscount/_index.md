@@ -18,7 +18,7 @@ public static int GetValidTagsCount(TiffDataType[] tags)
 | --- | --- | --- |
 | tags | TiffDataType[] | The tags to validate. |
 
-## Return Value
+### Return Value
 
 The valid tags count.
 

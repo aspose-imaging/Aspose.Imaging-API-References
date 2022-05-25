@@ -54,13 +54,13 @@ public class XmpBasicPackage : XmpPackage
 | virtual [SetValue](../../aspose.imaging.xmp/xmppackage/setvalue)(string, IXmlValue) | Sets the value. |
 | virtual [SetXmpTypeValue](../../aspose.imaging.xmp/xmppackage/setxmptypevalue)(string, XmpTypeBase) | Sets the XMP type value. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [RatingMax](ratingmax) | Rating max value. |
-| const [RatingMin](ratingmin) | Rating min value. |
-| const [RatingRejected](ratingrejected) | Rating rejected value. |
+| const [RatingMax](../../aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/ratingmax) | Rating max value. |
+| const [RatingMin](../../aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/ratingmin) | Rating min value. |
+| const [RatingRejected](../../aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/ratingrejected) | Rating rejected value. |
 
 ### See Also
 

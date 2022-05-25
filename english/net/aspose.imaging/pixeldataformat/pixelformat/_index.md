@@ -14,7 +14,7 @@ Gets the pixel format.
 public PixelFormat PixelFormat { get; }
 ```
 
-## Property Value
+### Property Value
 
 The pixel format.
 

@@ -14,7 +14,7 @@ Gets the CMX page.
 public CmxPage CmxPage { get; }
 ```
 
-## Property Value
+### Property Value
 
 The CMX page.
 

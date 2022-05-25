@@ -14,7 +14,7 @@ Gets or sets the x position.
 public TiffRational Xposition { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The x position.
 

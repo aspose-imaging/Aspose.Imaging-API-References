@@ -14,7 +14,7 @@ Gets or sets the GPS bearing to the destination point.
 public TiffRational GPSDestBearing { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS bearing to the destination point.
 

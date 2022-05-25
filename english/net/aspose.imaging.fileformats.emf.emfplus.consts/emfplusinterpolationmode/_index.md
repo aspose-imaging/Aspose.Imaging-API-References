@@ -14,7 +14,7 @@ The InterpolationMode enumeration defines ways to perform scaling, including str
 public enum EmfPlusInterpolationMode : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

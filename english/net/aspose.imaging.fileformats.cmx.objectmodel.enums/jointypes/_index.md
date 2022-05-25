@@ -14,7 +14,7 @@ Connection types between lines
 public enum JoinTypes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

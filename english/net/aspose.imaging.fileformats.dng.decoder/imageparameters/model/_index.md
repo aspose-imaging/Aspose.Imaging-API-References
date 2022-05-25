@@ -14,7 +14,7 @@ Gets the camera model.
 public string Model { get; }
 ```
 
-## Property Value
+### Property Value
 
 The model.
 

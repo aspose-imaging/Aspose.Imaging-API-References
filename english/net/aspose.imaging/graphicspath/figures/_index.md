@@ -14,7 +14,7 @@ Gets the path figures.
 public Figure[] Figures { get; }
 ```
 
-## Property Value
+### Property Value
 
 The path figures.
 

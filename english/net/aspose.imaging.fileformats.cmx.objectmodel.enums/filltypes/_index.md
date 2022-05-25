@@ -14,7 +14,7 @@ Fill types for the brush.
 public enum FillTypes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ The [`InterpolationMode`](../interpolationmode) enumeration specifies the algori
 public enum InterpolationMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets the image width.
 public abstract int Width { get; }
 ```
 
-## Property Value
+### Property Value
 
 The image width.
 

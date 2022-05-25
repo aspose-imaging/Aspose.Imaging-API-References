@@ -14,7 +14,7 @@ Gets the BMP masks.
 public Dictionary<int, CdrBmp> BmpMasks { get; }
 ```
 
-## Property Value
+### Property Value
 
 The BMP masks.
 

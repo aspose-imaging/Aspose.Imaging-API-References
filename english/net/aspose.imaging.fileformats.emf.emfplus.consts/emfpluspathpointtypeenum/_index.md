@@ -14,7 +14,7 @@ The PathPointType enumeration defines types of points on a graphics path.
 public enum EmfPlusPathPointTypeEnum
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

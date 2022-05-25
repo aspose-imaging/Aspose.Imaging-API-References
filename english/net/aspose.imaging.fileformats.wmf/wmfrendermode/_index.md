@@ -14,7 +14,7 @@ The render mode enumeration.
 public enum WmfRenderMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

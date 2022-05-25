@@ -14,7 +14,7 @@ Gets or sets the max sample value.
 public ushort[] MaxSampleValue { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The max sample value.
 

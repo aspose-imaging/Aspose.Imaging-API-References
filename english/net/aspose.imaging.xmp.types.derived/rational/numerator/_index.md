@@ -14,7 +14,7 @@ Gets the numerator.
 public int Numerator { get; }
 ```
 
-## Property Value
+### Property Value
 
 The numerator.
 

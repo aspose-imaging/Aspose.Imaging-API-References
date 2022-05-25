@@ -14,7 +14,7 @@ Data order within a byte. Possible values for FILLORDER tag.
 public enum TiffFillOrders : ushort
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

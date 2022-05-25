@@ -14,7 +14,7 @@ Gets the current raw data settings. Note when using these settings the data load
 public RawDataSettings RawDataSettings { get; }
 ```
 
-## Property Value
+### Property Value
 
 The current raw data settings.
 

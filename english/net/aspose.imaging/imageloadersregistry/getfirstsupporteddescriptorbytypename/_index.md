@@ -19,7 +19,7 @@ public static IImageLoaderDescriptor GetFirstSupportedDescriptorByTypeName(
 | --- | --- | --- |
 | descriptorTypeName | String | The descriptor type name. |
 
-## Return Value
+### Return Value
 
 The first found loader descriptor or null if not such descriptor is found.
 

@@ -14,7 +14,7 @@ Gets or sets an array of values that specifies a compound pen. A compound pen dr
 public float[] CompoundArray { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 An array of real numbers that specifies the compound array. The elements in the array must be in increasing order, not less than 0, and not greater than 1.
 

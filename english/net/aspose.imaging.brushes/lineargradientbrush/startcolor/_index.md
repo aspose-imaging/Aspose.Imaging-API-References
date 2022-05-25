@@ -14,7 +14,7 @@ Gets or sets the starting gradient color.
 public Color StartColor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The starting gradient color.
 

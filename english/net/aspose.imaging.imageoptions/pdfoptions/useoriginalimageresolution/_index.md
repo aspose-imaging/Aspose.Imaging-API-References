@@ -14,7 +14,7 @@ Gets or sets a value indicating to use the original image DPI resolution
 public bool UseOriginalImageResolution { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Indicator to use the original image DPI resolution
 

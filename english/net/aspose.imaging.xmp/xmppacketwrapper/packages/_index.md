@@ -14,7 +14,7 @@ Gets array of [`XmpPackage`](../../xmppackage) inside XMP.
 public XmpPackage[] Packages { get; }
 ```
 
-## Property Value
+### Property Value
 
 The array of [`XmpPackage`](../../xmppackage) inside XMP.
 

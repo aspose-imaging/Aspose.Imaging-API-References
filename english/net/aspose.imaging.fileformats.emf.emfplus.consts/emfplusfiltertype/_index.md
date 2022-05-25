@@ -14,7 +14,7 @@ The FilterType enumeration defines types of filtering algorithms that can be use
 public enum EmfPlusFilterType : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

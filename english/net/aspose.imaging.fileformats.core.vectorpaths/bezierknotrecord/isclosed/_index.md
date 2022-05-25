@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this instance is closed.
 public bool IsClosed { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this instance is closed; otherwise, `false`.
 

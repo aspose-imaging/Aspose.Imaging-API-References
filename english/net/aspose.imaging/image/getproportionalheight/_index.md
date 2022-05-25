@@ -20,7 +20,7 @@ public static int GetProportionalHeight(int width, int height, int newWidth)
 | height | Int32 | The height. |
 | newWidth | Int32 | The new width. |
 
-## Return Value
+### Return Value
 
 The proportional height.
 

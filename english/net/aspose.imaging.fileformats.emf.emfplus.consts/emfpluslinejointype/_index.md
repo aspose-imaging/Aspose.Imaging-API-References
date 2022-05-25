@@ -14,7 +14,7 @@ The LineJoinType enumeration defines ways to join two lines that are drawn by th
 public enum EmfPlusLineJoinType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

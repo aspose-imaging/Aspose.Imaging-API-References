@@ -14,7 +14,7 @@ Gets the maker notes.
 public MakerNote[] MakerNotes { get; }
 ```
 
-## Property Value
+### Property Value
 
 The maker notes.
 

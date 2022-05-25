@@ -14,7 +14,7 @@ Gets or sets the byte count.
 public int ByteCount { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A 16-bit unsigned integer that specifies the size, in bytes, of the record data that follows. This value MUST be 34 plus the value of the EnhancedMetafileDataSize field.
 

@@ -14,7 +14,7 @@ exif saturation enum.
 public enum ExifSaturation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

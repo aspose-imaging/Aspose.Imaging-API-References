@@ -14,7 +14,7 @@ Gets the object width, in inches.
 public virtual float WidthF { get; }
 ```
 
-## Property Value
+### Property Value
 
 The object width, in inches.
 

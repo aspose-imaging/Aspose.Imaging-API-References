@@ -14,7 +14,7 @@ Gets or sets the text grid top position.
 public ushort TextGridTopPosition { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The text grid top position.
 

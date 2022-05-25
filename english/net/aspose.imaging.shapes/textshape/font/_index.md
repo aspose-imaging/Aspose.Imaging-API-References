@@ -14,7 +14,7 @@ Gets or sets the font used to draw the text.
 public Font Font { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The font used to draw the text.
 

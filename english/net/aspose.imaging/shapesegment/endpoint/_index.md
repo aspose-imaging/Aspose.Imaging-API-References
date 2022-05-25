@@ -14,7 +14,7 @@ Gets the ending point.
 public abstract PointF EndPoint { get; }
 ```
 
-## Property Value
+### Property Value
 
 The ending point.
 

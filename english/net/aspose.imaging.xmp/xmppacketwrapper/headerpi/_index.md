@@ -14,7 +14,7 @@ Gets the header processing instruction.
 public XmpHeaderPi HeaderPi { get; }
 ```
 
-## Property Value
+### Property Value
 
 The Header processing instruction.
 

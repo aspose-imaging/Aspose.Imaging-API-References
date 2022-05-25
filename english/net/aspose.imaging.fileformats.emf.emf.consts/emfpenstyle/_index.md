@@ -15,7 +15,7 @@ The PenStyle enumeration defines the attributes of pens that can be used in grap
 public enum EmfPenStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

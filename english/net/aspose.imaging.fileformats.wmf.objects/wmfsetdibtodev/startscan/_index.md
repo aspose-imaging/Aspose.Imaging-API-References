@@ -14,7 +14,7 @@ Gets or sets the start scan.
 public int StartScan { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The starting scan line in the source.
 

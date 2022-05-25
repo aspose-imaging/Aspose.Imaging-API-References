@@ -14,7 +14,7 @@ Gets the ending shape point.
 public virtual PointF EndPoint { get; }
 ```
 
-## Property Value
+### Property Value
 
 The ending shape point.
 

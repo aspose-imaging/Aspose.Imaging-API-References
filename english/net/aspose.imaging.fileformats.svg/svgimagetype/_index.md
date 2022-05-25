@@ -14,7 +14,7 @@ Represents SVG image type.
 public enum SvgImageType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

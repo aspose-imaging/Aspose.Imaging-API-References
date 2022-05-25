@@ -14,7 +14,7 @@ Gets or sets the GPS altitude used as the reference altitude.
 public ExifGPSAltitudeRef GPSAltitudeRef { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS altitude used as the reference altitude.
 

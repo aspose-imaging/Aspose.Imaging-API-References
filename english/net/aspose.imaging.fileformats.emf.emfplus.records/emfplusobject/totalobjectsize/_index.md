@@ -14,7 +14,7 @@ Gets or sets the total size of the object. If the record is continuable, when th
 public int TotalObjectSize { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The total size of the object.
 

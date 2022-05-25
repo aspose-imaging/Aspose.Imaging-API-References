@@ -14,7 +14,7 @@ Represents array type in [`XmpArray`](../xmparray).
 public enum XmpArrayType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

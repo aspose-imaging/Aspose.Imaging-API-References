@@ -14,7 +14,7 @@ Gets or sets the size. A 32-bit unsigned integer that specifies the 32-bit-align
 public override int Size { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The size.
 

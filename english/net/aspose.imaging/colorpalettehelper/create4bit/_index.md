@@ -14,7 +14,7 @@ Creates the 4 bit color palette.
 public static IColorPalette Create4Bit()
 ```
 
-## Return Value
+### Return Value
 
 The 4 bit color palette.
 

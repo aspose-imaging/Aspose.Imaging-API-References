@@ -14,7 +14,7 @@ Gets or sets the color space.
 public ExifColorSpace ColorSpace { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color space.
 

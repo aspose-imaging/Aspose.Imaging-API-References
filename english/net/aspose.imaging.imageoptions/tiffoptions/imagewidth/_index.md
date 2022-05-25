@@ -14,7 +14,7 @@ Gets or sets the image width.
 public uint ImageWidth { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The image width.
 

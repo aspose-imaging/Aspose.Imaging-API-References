@@ -14,7 +14,7 @@ Exif tags list
 public enum ExifProperties : ushort
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

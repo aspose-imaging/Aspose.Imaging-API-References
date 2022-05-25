@@ -14,7 +14,7 @@ Gets or sets the GPS direction of the image when it was captured.
 public TiffRational GPSImgDirection { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS direction of the image when it was captured.
 

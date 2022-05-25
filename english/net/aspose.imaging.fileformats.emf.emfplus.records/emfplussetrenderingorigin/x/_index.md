@@ -14,7 +14,7 @@ Gets or sets a 32-bit unsigned integer that defines the horizontal coordinate va
 public int X { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The x.
 

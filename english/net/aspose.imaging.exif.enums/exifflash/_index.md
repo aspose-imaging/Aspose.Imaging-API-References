@@ -14,7 +14,7 @@ Flash mode.
 public enum ExifFlash
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

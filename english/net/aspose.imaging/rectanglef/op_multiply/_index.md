@@ -19,7 +19,7 @@ public static RectangleF operator *(RectangleF rectangle, float multiplier)
 | rectangle | RectangleF | The rectangle. |
 | multiplier | Single | The multiplier. |
 
-## Return Value
+### Return Value
 
 The result of the operator.
 

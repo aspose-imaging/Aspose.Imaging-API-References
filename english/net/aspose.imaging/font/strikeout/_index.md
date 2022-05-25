@@ -14,7 +14,7 @@ Gets a value indicating whether this [`Font`](../../font) specifies a horizontal
 public bool Strikeout { get; }
 ```
 
-## Property Value
+### Property Value
 
 True if this [`Font`](../../font) has a horizontal line through it; otherwise, false.
 

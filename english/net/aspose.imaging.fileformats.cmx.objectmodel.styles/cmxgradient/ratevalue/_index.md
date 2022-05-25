@@ -14,7 +14,7 @@ Gets or sets the rate value.
 public ushort RateValue { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The rate value.
 

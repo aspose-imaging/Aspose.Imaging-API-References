@@ -14,7 +14,7 @@ Specifies how much an image is rotated and the axis used to flip the image.
 public enum RotateFlipType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

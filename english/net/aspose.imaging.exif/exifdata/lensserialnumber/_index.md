@@ -14,7 +14,7 @@ Gets or sets the lens serial number.
 public string LensSerialNumber { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The lens serial number.
 

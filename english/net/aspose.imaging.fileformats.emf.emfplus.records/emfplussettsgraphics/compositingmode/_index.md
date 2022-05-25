@@ -14,7 +14,7 @@ Gets or sets an 8-bit unsigned integer that specifies how source colors are comb
 public EmfPlusCompositingMode CompositingMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The compositing mode.
 

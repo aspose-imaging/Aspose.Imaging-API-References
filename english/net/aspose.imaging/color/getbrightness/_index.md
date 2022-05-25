@@ -14,7 +14,7 @@ Gets the hue-saturation-brightness (HSB) brightness value for this [`Color`](../
 public float GetBrightness()
 ```
 
-## Return Value
+### Return Value
 
 The brightness of this [`Color`](../../color). The brightness ranges from 0.0 through 1.0, where 0.0 represents black and 1.0 represents white.
 

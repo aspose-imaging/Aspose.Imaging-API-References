@@ -14,7 +14,7 @@ VerticalTextAlignmentMode Flags specify the relationship between a reference poi
 public enum WmfVerticalTextAlignmentModeFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

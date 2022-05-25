@@ -14,7 +14,7 @@ Provides the fields that represent reference points in [`StreamContainer`](../st
 public enum SeekOrigin
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

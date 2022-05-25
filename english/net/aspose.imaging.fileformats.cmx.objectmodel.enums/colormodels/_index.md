@@ -14,7 +14,7 @@ Color models.
 public enum ColorModels
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

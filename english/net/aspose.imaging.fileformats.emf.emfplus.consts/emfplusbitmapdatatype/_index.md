@@ -14,7 +14,7 @@ The BitmapDataType enumeration defines types of bitmap data formats.
 public enum EmfPlusBitmapDataType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

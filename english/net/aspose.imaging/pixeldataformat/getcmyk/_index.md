@@ -18,7 +18,7 @@ public static PixelDataFormat GetCmyk(int bitsPerSample)
 | --- | --- | --- |
 | bitsPerSample | Int32 | The number of bits per sample. |
 
-## Return Value
+### Return Value
 
 The CMYK color.
 
@@ -46,7 +46,7 @@ public static PixelDataFormat GetCmyk(int bitsPerCyanChannel, int bitsPerMagenta
 | bitsPerYellowChannel | Int32 | The number of bits per Yellow channel. |
 | bitsPerKeyChannel | Int32 | The number of bits per Key channel. |
 
-## Return Value
+### Return Value
 
 The CMYK color.
 

@@ -14,7 +14,7 @@ Gets or sets the page titles.
 public string[] PageTitles { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The page titles.
 

@@ -14,7 +14,7 @@ Gets a value indicating whether this task was canceled.
 public bool IsCanceled { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this task was canceled; otherwise, `false`.
 

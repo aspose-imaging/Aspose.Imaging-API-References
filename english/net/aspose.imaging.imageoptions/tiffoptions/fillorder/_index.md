@@ -14,7 +14,7 @@ Gets or sets the byte bits fill order.
 public TiffFillOrders FillOrder { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The byte bits fill order.
 

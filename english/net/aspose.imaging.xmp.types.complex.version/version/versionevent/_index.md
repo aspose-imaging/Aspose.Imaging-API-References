@@ -14,7 +14,7 @@ Gets or sets the [`ResourceEvent`](../../../aspose.imaging.xmp.types.complex.res
 public ResourceEvent VersionEvent { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The version event.
 

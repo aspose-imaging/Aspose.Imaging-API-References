@@ -14,7 +14,7 @@ The type of the color.
 public enum ColorType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -41,12 +41,12 @@ public sealed class ColorantCmyk : ColorantBase
 | --- | --- |
 | override [GetXmpRepresentation](../../aspose.imaging.xmp.types.complex.colorant/colorantcmyk/getxmprepresentation)() | Gets the string contained value in XMP format. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [ColorValueMax](colorvaluemax) | Color max value in CMYK colorant. |
-| const [ColorValueMin](colorvaluemin) | Color min value in CMYK colorant. |
+| const [ColorValueMax](../../aspose.imaging.xmp.types.complex.colorant/colorantcmyk/colorvaluemax) | Color max value in CMYK colorant. |
+| const [ColorValueMin](../../aspose.imaging.xmp.types.complex.colorant/colorantcmyk/colorvaluemin) | Color min value in CMYK colorant. |
 
 ### See Also
 

@@ -14,7 +14,7 @@ Gets or sets the strip offsets.
 public uint[] StripOffsets { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The strip offsets.
 

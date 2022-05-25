@@ -14,7 +14,7 @@ Gets or sets the gradient info.
 public CmxGradient Gradient { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The gradient info. Used only for Fountain fill type.
 

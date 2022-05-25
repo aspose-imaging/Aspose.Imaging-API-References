@@ -19,7 +19,7 @@ public static Point operator -(Point point, Size size)
 | point | Point | The [`Point`](../../point) to translate. |
 | size | Size | A [`Size`](../../size) that specifies the pair of numbers to subtract from the coordinates of *point*. |
 
-## Return Value
+### Return Value
 
 A [`Point`](../../point) structure that is translated by the negative of a given [`Size`](../../size) structure.
 

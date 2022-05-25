@@ -14,7 +14,7 @@ Gets or sets the kind.
 public OdObjectKind Kind { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The kind.
 

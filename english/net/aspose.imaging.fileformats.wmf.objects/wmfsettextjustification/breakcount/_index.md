@@ -14,7 +14,7 @@ Gets or sets the `break` count.
 public int BreakCount { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The `break` count.
 

@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this font is composite.
 public bool IsComposite { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this font is composite; otherwise, `false`.
 

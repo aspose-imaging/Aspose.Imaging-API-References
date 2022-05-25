@@ -14,7 +14,7 @@ Gets or sets time value in the specified scale.
 public int Value { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The time value in the specified scale.
 

@@ -30,11 +30,11 @@ public abstract class MaskingResult : DisposableObject, IEnumerable<IMaskingLaye
 | [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
 | [GetEnumerator](../../aspose.imaging.masking.result/maskingresult/getenumerator)() | Gets the enumerator. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| readonly [MaskingOptions](maskingoptions) | The masking options |
+| readonly [MaskingOptions](../../aspose.imaging.masking.result/maskingresult/maskingoptions) | The masking options |
 
 ### Examples
 

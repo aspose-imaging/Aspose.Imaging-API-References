@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this instance is disabled.
 public bool IsDisabled { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this instance is disabled; otherwise, `false`.
 

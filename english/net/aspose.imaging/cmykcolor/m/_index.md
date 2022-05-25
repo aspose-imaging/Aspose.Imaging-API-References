@@ -14,7 +14,7 @@ Gets the magenta component value of this [`Color`](../../color) structure.
 public byte M { get; }
 ```
 
-## Property Value
+### Property Value
 
 The magenta component value of this [`Color`](../../color).
 

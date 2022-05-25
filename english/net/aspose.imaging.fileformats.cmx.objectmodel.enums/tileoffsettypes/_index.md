@@ -14,7 +14,7 @@ Offset types between tiles for texture brushes.
 public enum TileOffsetTypes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

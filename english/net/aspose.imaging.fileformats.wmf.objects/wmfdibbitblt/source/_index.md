@@ -14,7 +14,7 @@ Gets or sets the source.
 public WmfDeviceIndependentBitmap Source { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A variable-sized DeviceIndependentBitmap Object (section 2.2.2.9) that defines image content. This object MUST be specified, even if the raster operation does not require a source.
 

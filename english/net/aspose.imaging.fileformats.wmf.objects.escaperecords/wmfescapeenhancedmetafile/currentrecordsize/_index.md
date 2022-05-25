@@ -14,7 +14,7 @@ Gets or sets the size of the current record.
 public int CurrentRecordSize { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A 32-bit unsigned integer that specifies the size, in bytes, of the EnhancedMetafileData field. This value MUST be less than or equal to 8,192.
 

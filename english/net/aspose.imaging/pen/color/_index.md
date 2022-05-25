@@ -14,7 +14,7 @@ Gets or sets the color of this [`Pen`](../../pen).
 public Color Color { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A `Color` structure that represents the color of this [`Pen`](../../pen).
 

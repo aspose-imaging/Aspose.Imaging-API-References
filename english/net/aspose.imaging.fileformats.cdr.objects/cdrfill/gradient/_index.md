@@ -14,7 +14,7 @@ Gets or sets the gradient.
 public CdrGradient Gradient { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The gradient.
 

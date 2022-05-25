@@ -14,7 +14,7 @@ Gets a value indicating whether this image instance is interlaced.
 public bool IsInterlaced { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this image instance is interlaced; otherwise, `false`.
 

@@ -14,7 +14,7 @@ Gets or sets the fallback index to use when palette index is out of bounds
 public int RawFallbackIndex { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The fallback index to use when palette index is out of bounds
 

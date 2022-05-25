@@ -14,7 +14,7 @@ Defines a way in which an n-bit value is converted to an 8-bit value.
 public enum SampleRoundingMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

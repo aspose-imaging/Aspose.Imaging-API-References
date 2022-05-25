@@ -14,7 +14,7 @@ Gets or sets the GPS character string recording date and time information relati
 public string GPSDateStamp { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS character string recording date and time information relative to UTC (Coordinated Universal Time).
 

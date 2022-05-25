@@ -14,7 +14,7 @@ The MapMode enumeration is used to define the unit of measure for transforming p
 public enum EmfMapMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

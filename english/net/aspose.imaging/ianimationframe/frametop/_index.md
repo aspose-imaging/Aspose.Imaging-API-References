@@ -14,7 +14,7 @@ Gets the frame top offset.
 public int FrameTop { get; }
 ```
 
-## Property Value
+### Property Value
 
 The top offset.
 

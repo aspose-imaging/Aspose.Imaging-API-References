@@ -19,7 +19,7 @@ public Color GetPixel(int x, int y)
 | x | Int32 | The pixel x location. |
 | y | Int32 | The pixel y location. |
 
-## Return Value
+### Return Value
 
 The pixel color for the specified location.
 

@@ -14,7 +14,7 @@ Gets or sets the GPS latitude.
 public TiffRational[] GPSLatitude { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS latitude.
 

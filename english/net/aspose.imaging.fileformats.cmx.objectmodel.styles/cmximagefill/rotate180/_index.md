@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this !:ImageSpec is upside down.
 public bool Rotate180 { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if image is upside down; otherwise, `false`.
 

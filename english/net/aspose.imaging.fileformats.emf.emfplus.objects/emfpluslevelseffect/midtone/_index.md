@@ -14,7 +14,7 @@ Gets or sets the Specifies how much to lighten or darken the midtones of an imag
 public int MidTone { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The mid tone.
 

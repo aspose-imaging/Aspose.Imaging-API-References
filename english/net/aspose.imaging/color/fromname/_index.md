@@ -18,7 +18,7 @@ public static Color FromName(string name)
 | --- | --- | --- |
 | name | String | A string that is the name of a predefined color. Valid names are the same as the names of the elements of the [`KnownColor`](../../knowncolor) enumeration. |
 
-## Return Value
+### Return Value
 
 The [`Color`](../../color) that this method creates.
 

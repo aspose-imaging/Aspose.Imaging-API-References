@@ -14,7 +14,7 @@ Gets the stream.
 public Stream Stream { get; }
 ```
 
-## Property Value
+### Property Value
 
 The source stream.
 

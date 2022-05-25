@@ -14,7 +14,7 @@ Gets or sets the path resources.
 public List<PathResource> PathResources { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The path resources.
 

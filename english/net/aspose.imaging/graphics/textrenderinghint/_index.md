@@ -14,7 +14,7 @@ Gets or sets the text rendering hint.
 public TextRenderingHint TextRenderingHint { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The text rendering hint.
 

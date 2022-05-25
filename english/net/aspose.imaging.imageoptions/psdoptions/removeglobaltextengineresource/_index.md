@@ -14,7 +14,7 @@ Gets or sets a value indicating whether - Remove the global text engine resource
 public bool RemoveGlobalTextEngineResource { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if [remove global text engine resource]; otherwise, `false`.
 

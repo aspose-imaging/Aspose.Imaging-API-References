@@ -14,7 +14,7 @@ Gets or sets A 32-bit floating-point number that specifies the sharpening radius
 public float Radius { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The radius.
 

@@ -14,7 +14,7 @@ Identifies the type of EMR_COMMENT_EMFSPOOL record
 public enum EmfSpoolRecordIdentifierEnum
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

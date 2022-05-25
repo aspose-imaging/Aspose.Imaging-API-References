@@ -14,7 +14,7 @@ Gets or sets the preview to export.
 public EpsPreviewFormat PreviewToExport { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The preview to export.
 

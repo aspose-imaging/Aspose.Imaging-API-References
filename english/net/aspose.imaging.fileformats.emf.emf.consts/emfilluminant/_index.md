@@ -14,7 +14,7 @@ The Illuminant enumeration defines values that specify the illuminant value of a
 public enum EmfIlluminant
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

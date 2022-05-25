@@ -18,7 +18,7 @@ public bool Contains(object key)
 | --- | --- | --- |
 | key | Object | The key to locate in the IDictionary object. |
 
-## Return Value
+### Return Value
 
 true if the IDictionary contains an element with the key; otherwise, false.
 

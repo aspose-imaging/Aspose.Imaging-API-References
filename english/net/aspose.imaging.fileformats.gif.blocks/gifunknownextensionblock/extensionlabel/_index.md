@@ -14,7 +14,7 @@ Gets or sets the block's extension label.
 public byte ExtensionLabel { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The block's extension label.
 

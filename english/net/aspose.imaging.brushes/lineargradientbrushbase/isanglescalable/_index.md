@@ -14,7 +14,7 @@ Gets or sets a value indicating whether [`Angle`](../angle) is changed during tr
 public bool IsAngleScalable { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if [`Angle`](../angle) is changed during transformations with this [`LinearGradientBrushBase`](../../lineargradientbrushbase); otherwise, `false`.
 

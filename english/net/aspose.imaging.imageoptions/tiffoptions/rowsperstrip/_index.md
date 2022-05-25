@@ -14,7 +14,7 @@ Gets or sets the rows per strip.
 public uint RowsPerStrip { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The rows per strip.
 

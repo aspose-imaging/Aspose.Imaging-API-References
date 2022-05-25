@@ -14,7 +14,7 @@ Gets the frame bounds.
 public Rectangle FrameBounds { get; }
 ```
 
-## Property Value
+### Property Value
 
 The frame bounds.
 

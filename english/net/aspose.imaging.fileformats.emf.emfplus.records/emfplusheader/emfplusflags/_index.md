@@ -14,7 +14,7 @@ Gets or sets the EMF plus flags. A 32-bit unsigned integer that contains informa
 public int EmfPlusFlags { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The EMF plus flags.
 

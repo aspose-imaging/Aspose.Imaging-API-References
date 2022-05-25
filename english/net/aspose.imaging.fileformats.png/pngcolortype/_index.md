@@ -14,7 +14,7 @@ Represents the PNG image color type.
 public enum PngColorType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public static IColorPalette Create4BitGrayscale(bool minIsWhite)
 | --- | --- | --- |
 | minIsWhite | Boolean | if set to `true` the palette starts with white color, otherwise it starts with black color. |
 
-## Return Value
+### Return Value
 
 The 4 bit grayscale palette.
 

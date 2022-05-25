@@ -14,7 +14,7 @@ Gets or sets the automatic reload.
 public string AutomaticReload { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The automatic reload.
 

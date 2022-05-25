@@ -14,7 +14,7 @@ The FamilyFont enumeration specifies the font family. Font families describe the
 public enum WmfFamilyFont : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Provides result image.
 public RasterImage GetImage()
 ```
 
-## Return Value
+### Return Value
 
 Result image.
 

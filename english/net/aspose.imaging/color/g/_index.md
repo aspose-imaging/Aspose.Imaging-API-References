@@ -14,7 +14,7 @@ Gets the green component value of this [`Color`](../../color) structure.
 public byte G { get; }
 ```
 
-## Property Value
+### Property Value
 
 The green component value of this [`Color`](../../color).
 

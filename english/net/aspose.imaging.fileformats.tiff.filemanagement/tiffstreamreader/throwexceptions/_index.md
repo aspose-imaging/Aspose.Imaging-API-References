@@ -14,7 +14,7 @@ Gets or sets a value indicating whether exceptions are thrown on incorrect data 
 public bool ThrowExceptions { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if exceptions are thrown on incorrect data processing; otherwise, the error conditions are silently ignored.
 

@@ -14,7 +14,7 @@ Gets or sets the size of the font.
 public double FontSize { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The size of the font.
 

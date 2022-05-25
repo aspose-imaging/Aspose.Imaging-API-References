@@ -18,7 +18,7 @@ public virtual ImageOptionsBase GetDefaultOptions(object[] args)
 | --- | --- | --- |
 | args | Object[] | The arguments. |
 
-## Return Value
+### Return Value
 
 Default options
 

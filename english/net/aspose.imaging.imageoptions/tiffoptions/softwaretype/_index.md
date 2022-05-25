@@ -14,7 +14,7 @@ Gets or sets the software type.
 public string SoftwareType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The software type.
 

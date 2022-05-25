@@ -14,7 +14,7 @@ Gets or sets a 32-bit unsigned integer that specifies the 32-bit-aligned number 
 public virtual int Size { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The size.
 

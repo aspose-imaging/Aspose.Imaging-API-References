@@ -14,7 +14,7 @@ Holds compression types
 public enum TiffCompressions : ushort
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

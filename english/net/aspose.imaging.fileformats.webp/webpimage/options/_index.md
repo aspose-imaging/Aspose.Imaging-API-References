@@ -14,7 +14,7 @@ Gets or sets the options.
 public WebPOptions Options { get; }
 ```
 
-## Property Value
+### Property Value
 
 The options.
 

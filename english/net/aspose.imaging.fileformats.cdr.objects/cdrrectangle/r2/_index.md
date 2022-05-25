@@ -14,7 +14,7 @@ Gets or sets the r2.
 public double R2 { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The r2.
 

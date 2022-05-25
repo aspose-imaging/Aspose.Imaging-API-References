@@ -14,7 +14,7 @@ Valid comment identifier values.
 public enum CommentIdentifierEnum
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

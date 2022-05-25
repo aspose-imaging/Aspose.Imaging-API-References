@@ -19,7 +19,7 @@ public bool Equals(Region region, Graphics g)
 | region | Region | The [`Region`](../../region) to test. |
 | g | Graphics | A [`Graphics`](../../graphics) that represents a drawing surface. |
 
-## Return Value
+### Return Value
 
 True if the interior of region is identical to the interior of this region when the transformation associated with the *g* parameter is applied; otherwise, false.
 

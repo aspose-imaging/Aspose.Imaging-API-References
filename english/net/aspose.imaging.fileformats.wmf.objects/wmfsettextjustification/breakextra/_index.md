@@ -14,7 +14,7 @@ Gets or sets the `break` extra.
 public int BreakExtra { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The `break` extra.
 

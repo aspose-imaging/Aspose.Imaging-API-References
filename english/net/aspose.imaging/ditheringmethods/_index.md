@@ -14,7 +14,7 @@ The dithering methods used to control color conversion.
 public enum DitheringMethods
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

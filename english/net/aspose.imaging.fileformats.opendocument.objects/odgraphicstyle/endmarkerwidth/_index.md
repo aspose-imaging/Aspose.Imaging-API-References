@@ -14,7 +14,7 @@ Gets or sets the end width of the marker.
 public float EndMarkerWidth { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The end width of the marker.
 

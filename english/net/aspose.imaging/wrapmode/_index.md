@@ -14,7 +14,7 @@ Specifies how a texture or gradient is tiled when it is smaller than the area be
 public enum WrapMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

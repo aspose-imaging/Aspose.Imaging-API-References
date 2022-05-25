@@ -14,7 +14,7 @@ Gets or sets a general indication of the kind of data contained in this subfile.
 public TiffNewSubFileTypes SubFileType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The general indication of the kind of data contained in this subfile.
 

@@ -15,7 +15,7 @@ The Point enumeration is used to specify how a point is to be used in a drawing 
 public enum EmfPointEnum : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets the height of the preview image
 public int PreviewHeight { get; }
 ```
 
-## Property Value
+### Property Value
 
 The height of the preview image
 

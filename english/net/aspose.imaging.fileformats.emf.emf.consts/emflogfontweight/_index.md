@@ -14,7 +14,7 @@ The [`EmfLogFont`](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont) 
 public enum EmfLogFontWeight
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

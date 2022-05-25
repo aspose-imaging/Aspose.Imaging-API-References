@@ -14,7 +14,7 @@ Gets or sets a value indicating whether [clock wise].
 public bool ClockWise { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if [clock wise]; otherwise, `false`.
 

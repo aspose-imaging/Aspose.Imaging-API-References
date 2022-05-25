@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this figure is closed. A closed figure w
 public bool IsClosed { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `True` if this figure is closed; otherwise, `false`.
 

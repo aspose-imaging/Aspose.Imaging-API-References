@@ -14,7 +14,7 @@ Performs a deep clone of this instance.
 public virtual TiffDataType DeepClone()
 ```
 
-## Return Value
+### Return Value
 
 A deep clone of the current instance.
 

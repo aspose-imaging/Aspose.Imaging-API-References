@@ -14,7 +14,7 @@ Gets or sets the max sample value. The value has a field type which best matches
 public uint[] SmaxSampleValue { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The max sample value.
 

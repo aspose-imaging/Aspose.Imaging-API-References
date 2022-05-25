@@ -15,7 +15,7 @@ The BrushData flags specify properties of graphics brushes, including the presen
 public enum EmfPlusBrushDataFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

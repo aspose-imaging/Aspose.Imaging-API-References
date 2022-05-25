@@ -18,7 +18,7 @@ public bool IsInfinite(Graphics g)
 | --- | --- | --- |
 | g | Graphics | A [`Graphics`](../../graphics) that represents a drawing surface. |
 
-## Return Value
+### Return Value
 
 true if the interior of this [`Region`](../../region) is infinite when the transformation associated with *g* is applied; otherwise, false.
 

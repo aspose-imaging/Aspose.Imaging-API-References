@@ -14,7 +14,7 @@ Gets or sets the y position.
 public TiffRational Yposition { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The y position.
 

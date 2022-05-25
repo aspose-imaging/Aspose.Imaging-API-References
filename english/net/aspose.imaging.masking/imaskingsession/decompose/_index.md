@@ -14,7 +14,7 @@ Performs first rough decompose operation
 public MaskingResult Decompose()
 ```
 
-## Return Value
+### Return Value
 
 Result of masking operation as array of segment image providers.
 

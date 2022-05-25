@@ -14,7 +14,7 @@ The BrushStyle Enumeration specifies the different possible brush types that can
 public enum WmfBrushStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

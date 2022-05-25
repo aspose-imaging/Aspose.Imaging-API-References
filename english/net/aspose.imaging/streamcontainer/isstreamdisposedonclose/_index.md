@@ -14,7 +14,7 @@ Gets a value indicating whether this stream is disposed on close.
 public virtual bool IsStreamDisposedOnClose { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if stream is disposed on close; otherwise, `false`.
 

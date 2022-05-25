@@ -14,7 +14,7 @@ Gets the 5.1 audio channel.
 public static AudioChannelType Audio51 { get; }
 ```
 
-## Property Value
+### Property Value
 
 The 5.1 audio channel.
 

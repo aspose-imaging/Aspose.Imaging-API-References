@@ -14,7 +14,7 @@ Gets or sets the components configuration.
 public byte[] ComponentsConfiguration { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The components configuration.
 

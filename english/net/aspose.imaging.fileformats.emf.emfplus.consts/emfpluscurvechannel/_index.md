@@ -14,7 +14,7 @@ The CurveChannel enumeration defines color channels that can be affected by a co
 public enum EmfPlusCurveChannel
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

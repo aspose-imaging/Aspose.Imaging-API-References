@@ -14,7 +14,7 @@ Gets or sets the reference black white.
 public TiffRational[] ReferenceBlackWhite { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The reference black white.
 

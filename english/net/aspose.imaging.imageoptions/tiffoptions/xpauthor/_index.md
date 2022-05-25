@@ -14,7 +14,7 @@ Gets or sets image author, which used by Windows Explorer.
 public string XPAuthor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Image Author, used by Windows Explorer. The `XPAuthor` is ignored by Windows Explorer if the [`Artist`](../artist) tag exists.
 

@@ -14,7 +14,7 @@ Gets the path points this brush was build upon.
 public PointF[] PathPoints { get; }
 ```
 
-## Property Value
+### Property Value
 
 The path points.
 

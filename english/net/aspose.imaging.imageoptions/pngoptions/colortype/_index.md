@@ -14,7 +14,7 @@ Gets or sets the type of the color.
 public PngColorType ColorType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the color.
 

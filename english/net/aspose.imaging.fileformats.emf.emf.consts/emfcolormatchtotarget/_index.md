@@ -14,7 +14,7 @@ The ColorMatchToTarget enumeration is used to determine whether a color profile 
 public enum EmfColorMatchToTarget
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

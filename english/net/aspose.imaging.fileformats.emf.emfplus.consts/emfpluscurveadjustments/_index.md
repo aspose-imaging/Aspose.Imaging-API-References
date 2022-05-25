@@ -14,7 +14,7 @@ The CurveAdjustments enumeration defines adjustments that can be applied to the 
 public enum EmfPlusCurveAdjustments
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

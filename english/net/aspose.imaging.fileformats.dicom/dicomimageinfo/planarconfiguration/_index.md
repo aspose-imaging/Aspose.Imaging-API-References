@@ -14,7 +14,7 @@ Gets the planar configuration.
 public int PlanarConfiguration { get; }
 ```
 
-## Property Value
+### Property Value
 
 The planar configuration.
 

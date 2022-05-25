@@ -14,7 +14,7 @@ Gets the maximum pixel value.
 public int MaxPixelValue { get; }
 ```
 
-## Property Value
+### Property Value
 
 The maximum maximum pixel value.
 

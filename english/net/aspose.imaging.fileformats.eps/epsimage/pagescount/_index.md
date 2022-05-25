@@ -14,7 +14,7 @@ Gets the pages count
 public int? PagesCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 The pages count
 

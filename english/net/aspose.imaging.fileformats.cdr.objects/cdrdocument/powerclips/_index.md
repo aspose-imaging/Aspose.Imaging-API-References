@@ -14,7 +14,7 @@ Gets the power clips.
 public SortedDictionary<short, CdrListObjects> PowerClips { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The power clips.
 

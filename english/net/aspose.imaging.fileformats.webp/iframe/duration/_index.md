@@ -14,7 +14,7 @@ Gets or sets the frame duration.
 public short Duration { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The duration.
 

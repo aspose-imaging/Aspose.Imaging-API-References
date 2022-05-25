@@ -19,7 +19,7 @@ public static PathResource[] FromGraphicsPath(GraphicsPath graphicsPath, Size im
 | graphicsPath | GraphicsPath | The graphics path. |
 | imageSize | Size | Size of the image. |
 
-## Return Value
+### Return Value
 
 The path resources.
 

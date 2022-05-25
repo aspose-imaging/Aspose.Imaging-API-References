@@ -14,7 +14,7 @@ Gets or sets the sharpness.
 public ushort Sharpness { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The sharpness.
 

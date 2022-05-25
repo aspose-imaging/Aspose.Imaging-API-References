@@ -14,7 +14,7 @@ Gets the face name of this [`Font`](../../font).
 public string Name { get; }
 ```
 
-## Property Value
+### Property Value
 
 A string representation of the face name of this [`Font`](../../font).
 

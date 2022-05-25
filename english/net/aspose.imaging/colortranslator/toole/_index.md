@@ -18,7 +18,7 @@ public static int ToOle(Color c)
 | --- | --- | --- |
 | c | Color | The color. |
 
-## Return Value
+### Return Value
 
 The OLE color.
 

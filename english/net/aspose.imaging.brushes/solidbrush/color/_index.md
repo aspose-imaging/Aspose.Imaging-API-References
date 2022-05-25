@@ -14,7 +14,7 @@ Gets or sets the brush color.
 public Color Color { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The brush color.
 

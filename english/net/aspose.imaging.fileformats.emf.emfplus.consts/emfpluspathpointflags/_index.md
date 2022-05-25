@@ -15,7 +15,7 @@ A 32-bit unsigned integer that specifies how to interpret the points and associa
 public enum EmfPlusPathPointFlags : short
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

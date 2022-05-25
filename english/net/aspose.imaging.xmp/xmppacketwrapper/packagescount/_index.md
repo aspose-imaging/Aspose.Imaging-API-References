@@ -14,7 +14,7 @@ Gets amount of packages inside XMP structure.
 public int PackagesCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 The amount of packages inside XMP structure.
 

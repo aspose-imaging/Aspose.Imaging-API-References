@@ -14,7 +14,7 @@ Gets the image size.
 public Size Size { get; }
 ```
 
-## Property Value
+### Property Value
 
 The image size.
 

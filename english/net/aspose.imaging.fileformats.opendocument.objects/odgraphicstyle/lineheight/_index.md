@@ -14,7 +14,7 @@ Gets or sets the height of the line.
 public int LineHeight { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The height of the line.
 

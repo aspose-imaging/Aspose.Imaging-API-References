@@ -18,7 +18,7 @@ public static Rectangle Truncate(RectangleF value)
 | --- | --- | --- |
 | value | RectangleF | The [`RectangleF`](../../rectanglef) to be converted. |
 
-## Return Value
+### Return Value
 
 A new [`Rectangle`](../../rectangle).
 

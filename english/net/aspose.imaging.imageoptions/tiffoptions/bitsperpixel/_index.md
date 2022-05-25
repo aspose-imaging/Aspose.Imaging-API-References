@@ -14,7 +14,7 @@ Gets the bits per pixel.
 public int BitsPerPixel { get; }
 ```
 
-## Property Value
+### Property Value
 
 The bits per pixel.
 

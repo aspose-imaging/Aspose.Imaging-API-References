@@ -14,7 +14,7 @@ Gets the dicom header information by bytes.
 public byte[] DicomHeaderInfoByBytes { get; }
 ```
 
-## Property Value
+### Property Value
 
 The dicom header information by bytes.
 

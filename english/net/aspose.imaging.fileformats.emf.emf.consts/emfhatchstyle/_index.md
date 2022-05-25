@@ -14,7 +14,7 @@ The HatchStyle enumeration is an extension to the WMF HatchStyle enumeration ([M
 public enum EmfHatchStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

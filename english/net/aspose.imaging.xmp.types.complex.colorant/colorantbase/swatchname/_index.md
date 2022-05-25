@@ -14,7 +14,7 @@ Gets or sets the name of the swatch.
 public string SwatchName { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The name of the swatch.
 

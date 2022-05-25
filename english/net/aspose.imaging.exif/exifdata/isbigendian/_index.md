@@ -14,7 +14,7 @@ Gets or sets a value indicating whether the stream EXIF data created from is big
 public bool IsBigEndian { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if the stream EXIF data created from is big endian; otherwise, `false`.
 

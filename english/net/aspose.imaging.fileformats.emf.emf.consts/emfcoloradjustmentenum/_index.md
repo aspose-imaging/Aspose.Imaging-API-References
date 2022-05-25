@@ -14,7 +14,7 @@ The ColorAdjustment enumeration is used to specify how the output image should b
 public enum EmfColorAdjustmentEnum
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

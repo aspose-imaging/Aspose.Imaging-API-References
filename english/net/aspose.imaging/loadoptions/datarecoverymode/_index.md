@@ -14,7 +14,7 @@ Gets or sets the data recovery mode.
 public DataRecoveryMode DataRecoveryMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The data recovery mode.
 

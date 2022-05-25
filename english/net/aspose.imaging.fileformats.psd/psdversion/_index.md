@@ -14,7 +14,7 @@ File format version
 public enum PsdVersion : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

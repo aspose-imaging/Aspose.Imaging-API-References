@@ -22,7 +22,7 @@ public string OnImageResourceReady(byte[] imageData, SvgImageType imageType,
 | suggestedFileName | String | Name of the suggested file. |
 | useEmbeddedImage | Boolean& | if set to `true` the embedded image must be used. |
 
-## Return Value
+### Return Value
 
 Returns path to saved resource. Path should be relative to target SVG document.
 

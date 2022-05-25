@@ -14,7 +14,7 @@ Indicates the way in which the graphic is to be treated after being displayed.
 public enum AnimationDisposalMethods
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

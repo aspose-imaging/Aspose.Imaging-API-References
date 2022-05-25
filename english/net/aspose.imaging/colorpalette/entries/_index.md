@@ -14,11 +14,11 @@ Gets an array of [`Color`](../../color) structures.
 public Color[] Entries { get; }
 ```
 
-## Return Value
+### Return Value
 
 The array of [`Color`](../../color) structure that make up this [`ColorPalette`](../../colorpalette).
 
-## Property Value
+### Property Value
 
 The entries.
 

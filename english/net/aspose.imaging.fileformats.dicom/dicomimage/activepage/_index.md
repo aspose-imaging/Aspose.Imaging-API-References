@@ -14,7 +14,7 @@ Gets or sets the active page.
 public DicomPage ActivePage { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The active page.
 

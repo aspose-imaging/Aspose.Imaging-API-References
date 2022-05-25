@@ -14,7 +14,7 @@ The LogicalColorSpace Enumeration specifies the type of color space.
 public enum WmfLogicalColorSpaceEnum
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

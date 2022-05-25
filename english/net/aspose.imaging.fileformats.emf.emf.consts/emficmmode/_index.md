@@ -14,7 +14,7 @@ The ICMMode enumeration defines values that specify when to turn on and off ICM.
 public enum EmfIcmMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

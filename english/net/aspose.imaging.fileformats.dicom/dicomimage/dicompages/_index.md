@@ -14,7 +14,7 @@ Gets the pages.
 public DicomPage[] DicomPages { get; }
 ```
 
-## Property Value
+### Property Value
 
 The pages.
 

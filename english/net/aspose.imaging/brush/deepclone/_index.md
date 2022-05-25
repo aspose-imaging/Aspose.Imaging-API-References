@@ -14,7 +14,7 @@ Creates a new deep clone of the current [`Brush`](../../brush).
 public virtual Brush DeepClone()
 ```
 
-## Return Value
+### Return Value
 
 A new [`Brush`](../../brush) which is the deep clone of this [`Brush`](../../brush) instance.
 

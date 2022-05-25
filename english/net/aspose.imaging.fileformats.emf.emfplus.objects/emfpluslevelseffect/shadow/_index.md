@@ -14,7 +14,7 @@ Gets or sets the Specifies how much to darken the shadows of an image. Color cha
 public int Shadow { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The shadow.
 

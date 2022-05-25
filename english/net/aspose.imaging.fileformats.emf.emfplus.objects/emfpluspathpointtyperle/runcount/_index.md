@@ -14,7 +14,7 @@ Gets or sets the run count. RunCount (6 bits): The run count, which is the numbe
 public byte RunCount { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The run count.
 

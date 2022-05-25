@@ -14,7 +14,7 @@ Gets an object that can be used to synchronize access to the ICollection.
 public object SyncRoot { get; }
 ```
 
-## Return Value
+### Return Value
 
 An object that can be used to synchronize access to the ICollection.
 

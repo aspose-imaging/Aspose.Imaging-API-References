@@ -18,7 +18,7 @@ public override RectangleF GetBounds(Matrix matrix)
 | --- | --- | --- |
 | matrix | Matrix | The matrix to apply before bounds will be calculated. |
 
-## Return Value
+### Return Value
 
 The estimated object's bounds.
 
@@ -45,7 +45,7 @@ public override RectangleF GetBounds(Matrix matrix, Pen pen)
 | matrix | Matrix | The matrix to apply before bounds will be calculated. |
 | pen | Pen | The pen to use for object. This can influence the object's bounds size. |
 
-## Return Value
+### Return Value
 
 The estimated object's bounds.
 

@@ -14,7 +14,7 @@ Gets or sets information about image, which used by Windows Explorer.
 public string XPSubject { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Information about image, used by Windows Explorer.
 

@@ -14,7 +14,7 @@ exif exposure program enum.
 public enum ExifExposureProgram
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

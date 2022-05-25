@@ -18,7 +18,7 @@ public XmpPackage GetPackage(string namespaceUri)
 | --- | --- | --- |
 | namespaceUri | String | The package schema URI. |
 
-## Return Value
+### Return Value
 
 Returns the XMP package for specified namespace URI.
 

@@ -14,7 +14,7 @@ Gets or sets the extended byte.
 public byte ExtendedByte { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The extended byte.
 

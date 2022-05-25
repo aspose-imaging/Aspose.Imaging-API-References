@@ -18,7 +18,7 @@ public static ColorMap[] ToGdiColorMaps(ColorMap[] colorMaps)
 | --- | --- | --- |
 | colorMaps | ColorMap[] | The color maps to convert. |
 
-## Return Value
+### Return Value
 
 The converted ColorMap array.
 

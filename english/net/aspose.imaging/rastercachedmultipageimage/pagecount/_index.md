@@ -14,7 +14,7 @@ Gets the page count.
 public abstract int PageCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 The page count.
 

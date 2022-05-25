@@ -14,7 +14,7 @@ Gets or sets the focal plane x resolution.
 public TiffRational FocalPlaneXResolution { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The focal plane x resolution.
 

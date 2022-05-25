@@ -14,7 +14,7 @@ The ModifyWorldTransformMode enumeration defines modes for using specified trans
 public enum EmfModifyWorldTransformMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

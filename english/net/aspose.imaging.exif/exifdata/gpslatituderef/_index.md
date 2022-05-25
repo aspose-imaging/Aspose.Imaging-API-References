@@ -14,7 +14,7 @@ Gets or sets the GPS latitude is north or south latitude.
 public string GPSLatitudeRef { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS latitude is north or south latitude.
 

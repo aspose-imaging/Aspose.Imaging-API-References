@@ -14,7 +14,7 @@ Returns a hash code for this [`Size`](../../size) structure.
 public override int GetHashCode()
 ```
 
-## Return Value
+### Return Value
 
 An integer value that specifies a hash value for this [`Size`](../../size) structure.
 

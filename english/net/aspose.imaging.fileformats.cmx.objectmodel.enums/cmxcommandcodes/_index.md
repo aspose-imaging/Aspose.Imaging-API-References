@@ -14,7 +14,7 @@ Page command codes
 public enum CmxCommandCodes : short
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets the vector rasterization options.
 public VectorRasterizationOptions VectorRasterizationOptions { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The vector rasterization options.
 

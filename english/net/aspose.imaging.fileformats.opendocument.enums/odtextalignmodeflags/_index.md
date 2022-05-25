@@ -15,7 +15,7 @@ The open document text align mode flags
 public enum OdTextAlignModeFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

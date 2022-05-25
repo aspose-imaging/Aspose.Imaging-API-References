@@ -14,7 +14,7 @@ Gets or sets the size of the page.
 public SizeF PageSize { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The size of the page.
 

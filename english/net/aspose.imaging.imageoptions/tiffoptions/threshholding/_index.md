@@ -14,7 +14,7 @@ Gets or sets the threshholding.
 public TiffThresholds Threshholding { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The threshholding.
 

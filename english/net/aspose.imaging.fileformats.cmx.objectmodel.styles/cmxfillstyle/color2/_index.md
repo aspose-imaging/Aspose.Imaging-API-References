@@ -14,7 +14,7 @@ Gets or sets the secondary color.
 public CmxColor Color2 { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The secondary color. Used only for Two-color pattern fill type.
 

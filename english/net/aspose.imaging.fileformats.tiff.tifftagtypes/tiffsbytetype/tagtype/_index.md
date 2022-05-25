@@ -14,7 +14,7 @@ Gets the tag type.
 public override TiffDataTypes TagType { get; }
 ```
 
-## Property Value
+### Property Value
 
 The tag type.
 

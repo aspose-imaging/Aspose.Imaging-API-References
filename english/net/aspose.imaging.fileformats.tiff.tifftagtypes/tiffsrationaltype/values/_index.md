@@ -14,7 +14,7 @@ Gets or sets the values.
 public TiffSRational[] Values { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The values.
 

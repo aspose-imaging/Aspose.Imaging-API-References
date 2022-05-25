@@ -14,7 +14,7 @@ Gets or sets the compositing mode value, from the CompositingMode enumeration (s
 public EmfPlusCompositingMode CompositingMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The compositing mode.
 

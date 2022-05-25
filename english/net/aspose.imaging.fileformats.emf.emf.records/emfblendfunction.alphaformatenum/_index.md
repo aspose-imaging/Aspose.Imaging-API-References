@@ -14,7 +14,7 @@ A structure that specifies how source and destination pixels are interpreted wit
 public enum AlphaFormatEnum : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

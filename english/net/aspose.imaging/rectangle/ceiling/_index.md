@@ -18,7 +18,7 @@ public static Rectangle Ceiling(RectangleF value)
 | --- | --- | --- |
 | value | RectangleF | The [`RectangleF`](../../rectanglef) structure to be converted. |
 
-## Return Value
+### Return Value
 
 Returns a [`Rectangle`](../../rectangle).
 

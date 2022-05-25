@@ -14,7 +14,7 @@ The ObjectType enumeration defines types of graphics objects that can be created
 public enum EmfPlusObjectType : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

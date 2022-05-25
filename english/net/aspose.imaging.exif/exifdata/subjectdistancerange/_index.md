@@ -14,7 +14,7 @@ Gets or sets the subject distance range.
 public ExifSubjectDistanceRange SubjectDistanceRange { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The subject distance range.
 

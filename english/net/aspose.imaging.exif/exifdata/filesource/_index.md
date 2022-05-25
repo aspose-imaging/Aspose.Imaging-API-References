@@ -14,7 +14,7 @@ Gets or sets the file source type.
 public ExifFileSource FileSource { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The file source type.
 

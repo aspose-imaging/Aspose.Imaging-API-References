@@ -14,7 +14,7 @@ Gets or sets the map mode.
 public WmfMapMode MapMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The map mode.
 

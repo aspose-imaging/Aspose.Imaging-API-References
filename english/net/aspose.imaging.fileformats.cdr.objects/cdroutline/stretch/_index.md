@@ -14,7 +14,7 @@ Gets or sets the stretch.
 public double Stretch { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The stretch.
 

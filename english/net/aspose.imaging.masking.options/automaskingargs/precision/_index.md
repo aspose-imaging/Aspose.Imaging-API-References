@@ -14,7 +14,7 @@ Gets or sets the precision of segmentation method (optional).
 public double Precision { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The precision of segmentation method (optional).
 

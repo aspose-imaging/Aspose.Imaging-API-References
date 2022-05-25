@@ -14,7 +14,7 @@ Defines the interleave mode for multi-component (color) pixel data.
 public enum JpegLsInterleaveMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

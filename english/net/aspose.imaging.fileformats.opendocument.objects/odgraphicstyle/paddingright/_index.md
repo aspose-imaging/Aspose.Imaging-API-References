@@ -14,7 +14,7 @@ Gets or sets the padding right.
 public float PaddingRight { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The padding right.
 

@@ -19,7 +19,7 @@ public static bool operator ==(Point point1, Point point2)
 | point1 | Point | A first [`Point`](../../point) to compare. |
 | point2 | Point | A second [`Point`](../../point) to compare. |
 
-## Return Value
+### Return Value
 
 True if the [`X`](../x) and [`Y`](../y) values of *point1* and *point2* are equal; otherwise, false.
 

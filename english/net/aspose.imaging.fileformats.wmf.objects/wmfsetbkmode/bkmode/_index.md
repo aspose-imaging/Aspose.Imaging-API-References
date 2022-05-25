@@ -14,7 +14,7 @@ Gets or sets the bk mode.
 public WmfMixMode BkMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The bk mode.
 

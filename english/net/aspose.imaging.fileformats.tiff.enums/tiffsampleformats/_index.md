@@ -14,7 +14,7 @@ Sample format enum
 public enum TiffSampleFormats
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

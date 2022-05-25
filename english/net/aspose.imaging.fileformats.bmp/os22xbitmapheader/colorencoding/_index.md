@@ -14,7 +14,7 @@ Gets the color encoding.
 public int ColorEncoding { get; }
 ```
 
-## Property Value
+### Property Value
 
 Color model used in bitmap
 

@@ -14,7 +14,7 @@ Gets or sets ISO speed
 public uint ISOSpeed { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The ISO speed.
 

@@ -14,7 +14,7 @@ Gets or sets the rendering intent for bitmap.
 public long Intent { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The intent.
 

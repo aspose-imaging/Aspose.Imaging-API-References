@@ -14,7 +14,7 @@ Gets the tiff options error.
 public TiffOptionsError OptionsError { get; }
 ```
 
-## Property Value
+### Property Value
 
 The tiff options error.
 

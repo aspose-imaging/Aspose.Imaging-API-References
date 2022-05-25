@@ -14,7 +14,7 @@ Gets or sets the compressed bits per pixel.
 public TiffRational CompressedBitsPerPixel { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The compressed bits per pixel.
 

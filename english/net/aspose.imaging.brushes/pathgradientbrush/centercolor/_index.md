@@ -14,7 +14,7 @@ Gets or sets the color at the center of the path gradient.
 public Color CenterColor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A [`Color`](../../../aspose.imaging/color) that represents the color at the center of the path gradient.
 

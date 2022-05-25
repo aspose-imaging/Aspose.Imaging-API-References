@@ -14,7 +14,7 @@ Gets or sets the active frame.
 public GifFrameBlock ActiveFrame { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The active frame.
 

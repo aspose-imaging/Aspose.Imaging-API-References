@@ -14,7 +14,7 @@ exif metering mode enum.
 public enum ExifMeteringMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

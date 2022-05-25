@@ -15,7 +15,7 @@ TextAlignmentMode Flags specify the relationship between a reference point and a
 public enum WmfTextAlignmentModeFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

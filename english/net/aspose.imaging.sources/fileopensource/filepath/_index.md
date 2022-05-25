@@ -14,7 +14,7 @@ Gets the file path to open.
 public string FilePath { get; }
 ```
 
-## Property Value
+### Property Value
 
 The file path to open.
 

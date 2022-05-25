@@ -14,7 +14,7 @@ Gets or sets the right indent.
 public double RightIndent { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The right indent.
 

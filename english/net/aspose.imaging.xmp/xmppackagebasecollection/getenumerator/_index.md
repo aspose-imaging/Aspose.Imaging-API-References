@@ -14,7 +14,7 @@ Returns an enumerator that iterates through a collection.
 public IEnumerator GetEnumerator()
 ```
 
-## Return Value
+### Return Value
 
 An IEnumerator object that can be used to iterate through the collection.
 

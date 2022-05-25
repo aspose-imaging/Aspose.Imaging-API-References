@@ -14,7 +14,7 @@ Dithering method.
 public enum DitheringMethod
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

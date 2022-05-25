@@ -14,7 +14,7 @@ Gets the graphics control block associated with this block.
 public GifGraphicsControlBlock ControlBlock { get; }
 ```
 
-## Property Value
+### Property Value
 
 The control block.
 

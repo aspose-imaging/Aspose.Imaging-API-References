@@ -14,7 +14,7 @@ Gets or sets the comment record count.
 public int CommentRecordCount { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A 32-bit unsigned integer that specifies the total number of consecutive META_ESCAPE_ENHANCED_METAFILE records that contain the embedded EMF metafile.
 

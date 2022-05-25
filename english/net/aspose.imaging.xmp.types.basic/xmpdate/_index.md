@@ -34,11 +34,11 @@ public sealed class XmpDate : XmpTypeBase
 | --- | --- |
 | override [GetXmpRepresentation](../../aspose.imaging.xmp.types.basic/xmpdate/getxmprepresentation)() | Returns string contained value in XMP format. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [Iso8601Format](iso8601format) | The ISO 8601 (roundtrip) format string. |
+| const [Iso8601Format](../../aspose.imaging.xmp.types.basic/xmpdate/iso8601format) | The ISO 8601 (roundtrip) format string. |
 
 ### Remarks
 

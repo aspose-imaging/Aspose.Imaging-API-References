@@ -14,7 +14,7 @@ Gets the disposal method.
 public AnimationDisposalMethods DisposalMethod { get; }
 ```
 
-## Property Value
+### Property Value
 
 The disposal method.
 

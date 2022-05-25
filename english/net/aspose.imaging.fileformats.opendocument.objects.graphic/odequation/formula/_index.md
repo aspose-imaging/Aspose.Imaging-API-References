@@ -14,7 +14,7 @@ Gets or sets the formula.
 public string Formula { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The formula.
 

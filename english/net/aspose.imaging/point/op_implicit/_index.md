@@ -18,7 +18,7 @@ public static implicit operator PointF(Point point)
 | --- | --- | --- |
 | point | Point | The [`Point`](../../point) to be converted. |
 
-## Return Value
+### Return Value
 
 The [`PointF`](../../pointf) that results from the conversion.
 

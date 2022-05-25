@@ -14,7 +14,7 @@ The RecordType enumeration defines values that uniquely identify EMF records. Th
 public enum EmfRecordType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Color comparison method to adjust to nearest neighbor
 public enum ColorCompareMethod
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

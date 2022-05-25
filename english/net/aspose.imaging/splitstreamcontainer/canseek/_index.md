@@ -14,7 +14,7 @@ Gets a value indicating whether stream supports seeking.
 public override bool CanSeek { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if stream supports seeking; otherwise, `false`.
 

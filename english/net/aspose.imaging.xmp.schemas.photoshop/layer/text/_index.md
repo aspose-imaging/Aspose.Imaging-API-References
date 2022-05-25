@@ -14,7 +14,7 @@ Gets or sets the text content of the layer.
 public string Text { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The text content of the layer.
 

@@ -14,7 +14,7 @@ Gets or sets the red component value.
 public byte Red { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The red component value.
 

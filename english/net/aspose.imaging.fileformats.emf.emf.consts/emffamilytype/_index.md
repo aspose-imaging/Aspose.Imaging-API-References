@@ -14,7 +14,7 @@ The FamilyType enumeration defines values for one of the characteristics in the 
 public enum EmfFamilyType : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

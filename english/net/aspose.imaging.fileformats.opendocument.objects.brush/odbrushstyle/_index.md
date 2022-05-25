@@ -14,7 +14,7 @@ The brush styles
 public enum OdBrushStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

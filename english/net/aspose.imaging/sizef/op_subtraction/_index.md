@@ -19,7 +19,7 @@ public static SizeF operator -(SizeF size1, SizeF size2)
 | size1 | SizeF | The [`SizeF`](../../sizef) on the left side of the subtraction operator. |
 | size2 | SizeF | The [`SizeF`](../../sizef) on the right side of the subtraction operator. |
 
-## Return Value
+### Return Value
 
 A [`SizeF`](../../sizef) that is the result of the subtraction operation.
 

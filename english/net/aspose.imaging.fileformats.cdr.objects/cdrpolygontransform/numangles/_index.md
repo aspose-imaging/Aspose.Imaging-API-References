@@ -14,7 +14,7 @@ Gets or sets the number angles.
 public int NumAngles { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The number angles.
 

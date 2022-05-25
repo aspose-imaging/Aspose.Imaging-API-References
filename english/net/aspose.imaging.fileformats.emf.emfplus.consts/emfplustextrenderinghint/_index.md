@@ -14,7 +14,7 @@ The TextRenderingHint enumeration defines types of text hinting and anti-aliasin
 public enum EmfPlusTextRenderingHint : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

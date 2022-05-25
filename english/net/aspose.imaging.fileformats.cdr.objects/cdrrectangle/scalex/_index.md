@@ -14,7 +14,7 @@ Gets or sets the scale x.
 public double ScaleX { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The scale x.
 

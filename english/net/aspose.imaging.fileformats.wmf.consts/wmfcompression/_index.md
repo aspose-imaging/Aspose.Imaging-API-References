@@ -14,7 +14,7 @@ The Compression Enumeration specifies the type of compression for a bitmap image
 public enum WmfCompression
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ The png filter type.
 public enum PngFilterType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets the logical dpi x. A 32-bit unsigned integer that specifies the hor
 public int LogicalDpiX { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The logical dpi x.
 

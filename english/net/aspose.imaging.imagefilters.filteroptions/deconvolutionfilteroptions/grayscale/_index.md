@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this [`DeconvolutionFilterOptions`](../.
 public bool Grayscale { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if grayscale; otherwise, `false`.
 

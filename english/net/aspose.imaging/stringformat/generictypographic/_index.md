@@ -14,7 +14,7 @@ Gets a generic typographic [`StringFormat`](../../stringformat) object.
 public static StringFormat GenericTypographic { get; }
 ```
 
-## Property Value
+### Property Value
 
 A generic typographic [`StringFormat`](../../stringformat) object.
 

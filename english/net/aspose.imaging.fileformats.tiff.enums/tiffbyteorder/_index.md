@@ -14,7 +14,7 @@ The byte order for the tiff image
 public enum TiffByteOrder
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

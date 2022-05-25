@@ -14,7 +14,7 @@ Gets a value indicating whether object's data is cached currently and no data re
 public abstract bool IsCached { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if object's data is cached; otherwise, `false`.
 

@@ -14,7 +14,7 @@ The gradient style
 public enum OdGradientStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

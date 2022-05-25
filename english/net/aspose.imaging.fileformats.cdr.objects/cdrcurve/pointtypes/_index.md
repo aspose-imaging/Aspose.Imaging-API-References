@@ -14,7 +14,7 @@ Gets or sets the point types.
 public byte[] PointTypes { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The point types.
 

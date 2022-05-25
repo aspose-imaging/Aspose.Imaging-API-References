@@ -23,7 +23,7 @@ public static PixelDataFormat GetCmyka(int bitsPerCyanChannel, int bitsPerMagent
 | bitsPerKeyChannel | Int32 | The number of bits per Key channel. |
 | bitsPerAlphaChannel | Int32 | The number of bits per Alpha channel. |
 
-## Return Value
+### Return Value
 
 The CMYK color.
 

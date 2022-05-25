@@ -18,7 +18,7 @@ public static TiffFrame CopyFrame(TiffFrame tiffFrame)
 | --- | --- | --- |
 | tiffFrame | TiffFrame | The tiff frame to copy. |
 
-## Return Value
+### Return Value
 
 The newly copied tiff frame.
 

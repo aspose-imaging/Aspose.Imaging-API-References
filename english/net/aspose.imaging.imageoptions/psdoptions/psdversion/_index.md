@@ -14,7 +14,7 @@ Gets or sets the file format version. It can be PSD or PSB.
 public PsdVersion PsdVersion { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The file format version.
 

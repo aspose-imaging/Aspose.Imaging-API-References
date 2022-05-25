@@ -14,7 +14,7 @@ exif gain control enum.
 public enum ExifGainControl
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

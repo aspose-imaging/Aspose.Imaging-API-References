@@ -14,7 +14,7 @@ Gets or sets the manufacturer of the recording equipment.
 public string Make { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The manufacturer of the recording equipment.
 

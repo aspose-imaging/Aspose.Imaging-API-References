@@ -14,7 +14,7 @@ Gets or sets the [`LineJoin`](../../linejoin) enumeration that determines how li
 public LineJoin StrokeJoin { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The [`LineJoin`](../../linejoin) enumeration this [`CustomLineCap`](../../customlinecap) object uses to join lines.
 

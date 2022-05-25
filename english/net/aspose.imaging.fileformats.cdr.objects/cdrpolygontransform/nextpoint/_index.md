@@ -14,7 +14,7 @@ Gets or sets the next point.
 public int NextPoint { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The next point.
 

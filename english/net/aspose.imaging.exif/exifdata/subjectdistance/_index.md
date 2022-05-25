@@ -14,7 +14,7 @@ Gets or sets the subject distance.
 public TiffRational SubjectDistance { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The subject distance.
 

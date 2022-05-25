@@ -14,7 +14,7 @@ The data recovery mode.
 public enum DataRecoveryMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

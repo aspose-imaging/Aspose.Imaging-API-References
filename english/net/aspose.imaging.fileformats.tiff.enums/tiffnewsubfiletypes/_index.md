@@ -14,7 +14,7 @@ The tiff new sub file type enum.
 public enum TiffNewSubFileTypes : uint
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

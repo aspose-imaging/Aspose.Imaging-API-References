@@ -14,7 +14,7 @@ Gets the maker note data.
 public TiffDataType[] MakerNoteData { get; }
 ```
 
-## Property Value
+### Property Value
 
 The maker note data.
 

@@ -14,7 +14,7 @@ Gets or sets the color of spaces between the hatch lines.
 public Color BackgroundColor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color of spaces between the hatch lines.
 

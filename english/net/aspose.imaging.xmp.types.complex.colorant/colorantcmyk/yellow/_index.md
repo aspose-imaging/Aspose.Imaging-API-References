@@ -14,7 +14,7 @@ Gets or sets the yellow component value.
 public float Yellow { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The yellow component value.
 

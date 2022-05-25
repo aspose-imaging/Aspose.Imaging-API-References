@@ -14,7 +14,7 @@ The tiff options error codes.
 public enum TiffOptionsError
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

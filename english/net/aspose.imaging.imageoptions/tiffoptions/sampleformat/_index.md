@@ -14,7 +14,7 @@ Gets or sets the sample format.
 public TiffSampleFormats[] SampleFormat { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The sample format.
 

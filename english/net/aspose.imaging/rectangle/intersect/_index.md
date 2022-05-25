@@ -19,7 +19,7 @@ public static Rectangle Intersect(Rectangle a, Rectangle b)
 | a | Rectangle | A first rectangle to intersect. |
 | b | Rectangle | A second rectangle to intersect. |
 
-## Return Value
+### Return Value
 
 A [`Rectangle`](../../rectangle) that represents the intersection of *a* and *b*.
 

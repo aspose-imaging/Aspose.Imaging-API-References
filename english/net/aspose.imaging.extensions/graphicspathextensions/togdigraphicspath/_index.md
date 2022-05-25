@@ -18,7 +18,7 @@ public static GraphicsPath ToGdiGraphicsPath(GraphicsPath graphicsPath)
 | --- | --- | --- |
 | graphicsPath | GraphicsPath | The graphics path to convert. |
 
-## Return Value
+### Return Value
 
 The converted GraphicsPath.
 

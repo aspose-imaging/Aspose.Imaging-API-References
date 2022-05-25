@@ -15,7 +15,7 @@ The StringFormat flags specify options for graphics text layout, including direc
 public enum EmfPlusStringFormatFlags : uint
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

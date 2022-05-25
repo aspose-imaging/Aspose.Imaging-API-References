@@ -19,7 +19,7 @@ public TiffFrame ReplaceFrame(int index, TiffFrame frameToReplace)
 | index | Int32 | The zero based frame position. |
 | frameToReplace | TiffFrame | The frame to replace. |
 
-## Return Value
+### Return Value
 
 The removed frame.
 

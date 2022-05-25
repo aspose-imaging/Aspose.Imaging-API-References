@@ -18,7 +18,7 @@ public IAsyncTask DecomposeAsync(MaskingOptions options)
 | --- | --- | --- |
 | options | MaskingOptions | The masking options. |
 
-## Return Value
+### Return Value
 
 The asynchronous decompose task
 

@@ -14,7 +14,7 @@ Gets the pages for the document
 public DjvuPage[] DjvuPages { get; }
 ```
 
-## Property Value
+### Property Value
 
 The pages.
 

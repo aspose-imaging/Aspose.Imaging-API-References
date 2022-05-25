@@ -14,7 +14,7 @@ Gets a value indicating whether all numeric properties of this [`Rectangle`](../
 public bool IsEmpty { get; }
 ```
 
-## Property Value
+### Property Value
 
 This property returns true if the [`Width`](../width), [`Height`](../height), [`X`](../x), and [`Y`](../y) properties of this [`Rectangle`](../../rectangle) all have values of zero; otherwise, false.
 

@@ -14,7 +14,7 @@ Gets the horizontal resolution of this Aspose.Imaging.Graphics.
 public float DpiX { get; }
 ```
 
-## Property Value
+### Property Value
 
 The value, in dots per inch, for the horizontal resolution supported by this Aspose.Imaging.Graphics.
 

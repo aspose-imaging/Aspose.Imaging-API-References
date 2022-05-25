@@ -14,7 +14,7 @@ Gets or sets scale for the time value.
 public Rational Scale { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The scale for the time value.
 

@@ -14,7 +14,7 @@ Gets or sets the font store options.
 public ISvgResourceKeeperCallback Callback { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The font store options.
 

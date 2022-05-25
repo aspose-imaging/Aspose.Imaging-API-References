@@ -19,7 +19,7 @@ public static IImageExporter CreateFirstSupportedExporter(Image image, ImageOpti
 | image | Image | The image to export. |
 | options | ImageOptionsBase | The save options to use for export. |
 
-## Return Value
+### Return Value
 
 The exporter which supports the specified image and save options or null if no such exporter is found.
 

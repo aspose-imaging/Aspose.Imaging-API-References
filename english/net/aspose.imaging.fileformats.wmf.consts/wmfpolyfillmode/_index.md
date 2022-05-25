@@ -14,7 +14,7 @@ The PolyFillMode Enumeration specifies the method used for filling a polygon.
 public enum WmfPolyFillMode : short
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

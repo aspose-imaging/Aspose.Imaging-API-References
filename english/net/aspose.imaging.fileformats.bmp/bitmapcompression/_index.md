@@ -14,7 +14,7 @@ Specifies different bitmap compression methods.
 public enum BitmapCompression : uint
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |
