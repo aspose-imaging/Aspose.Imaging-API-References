@@ -3,7 +3,7 @@ title: CmxImagePage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1900
+weight: 1910
 url: /net/aspose.imaging.fileformats.cmx/cmximagepage/
 ---
 ## CmxImagePage class

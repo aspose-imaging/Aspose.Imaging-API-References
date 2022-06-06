@@ -14,7 +14,7 @@ Gets or sets the [`StringTrimming`](../../stringtrimming) enumeration for this [
 public StringTrimming Trimming { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A [`StringTrimming`](../../stringtrimming) enumeration that indicates how text drawn with this [`StringFormat`](../../stringformat) object is trimmed when it exceeds the edges of the layout rectangle.
 

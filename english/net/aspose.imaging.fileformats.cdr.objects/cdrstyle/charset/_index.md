@@ -14,7 +14,7 @@ Gets or sets the character set.
 public short Charset { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The character set.
 

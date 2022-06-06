@@ -14,7 +14,7 @@ Gets a value indicating whether file will be temporal.
 public override bool IsTemporal { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if file will be temporal; otherwise, `false`.
 

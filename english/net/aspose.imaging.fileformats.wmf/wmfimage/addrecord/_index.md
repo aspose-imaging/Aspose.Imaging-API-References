@@ -18,7 +18,7 @@ public int AddRecord(WmfObject record)
 | --- | --- | --- |
 | record | WmfObject | The record. |
 
-## Return Value
+### Return Value
 
 Number of record.
 

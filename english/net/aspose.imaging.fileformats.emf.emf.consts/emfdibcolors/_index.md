@@ -3,7 +3,7 @@ title: EmfDibColors
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2600
+weight: 2610
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfdibcolors/
 ---
 ## EmfDibColors enumeration
@@ -14,7 +14,7 @@ The DIBColors enumeration defines how to interpret the values in the color table
 public enum EmfDibColors
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

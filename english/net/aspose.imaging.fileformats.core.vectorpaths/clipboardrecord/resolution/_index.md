@@ -14,7 +14,7 @@ Gets or sets the resolution.
 public float Resolution { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The resolution.
 

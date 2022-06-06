@@ -14,7 +14,7 @@ Gets or sets the Jpeg comment markers.
 public string[] Comments { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The Jpeg comment markers.
 

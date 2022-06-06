@@ -14,7 +14,7 @@ Converts a [`SizeF`](../../sizef) to a [`Size`](../../size) structure with trunc
 public Size ToSize()
 ```
 
-## Return Value
+### Return Value
 
 Returns a [`Size`](../../size) structure.
 

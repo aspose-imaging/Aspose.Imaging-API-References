@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The Object to compare with this instance. |
 
-## Return Value
+### Return Value
 
 `true` if the specified Object is equal to this instance; otherwise, `false`.
 

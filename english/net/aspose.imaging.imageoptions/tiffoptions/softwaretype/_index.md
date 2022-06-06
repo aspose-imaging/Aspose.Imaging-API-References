@@ -3,7 +3,7 @@ title: SoftwareType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.imaging.imageoptions/tiffoptions/softwaretype/
 ---
 ## TiffOptions.SoftwareType property
@@ -14,7 +14,7 @@ Gets or sets the software type.
 public string SoftwareType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The software type.
 

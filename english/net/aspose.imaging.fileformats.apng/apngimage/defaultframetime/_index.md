@@ -14,7 +14,7 @@ Gets or sets the default frame duration. Used when creating new frames.
 public uint DefaultFrameTime { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The default frame duration, in milliseconds.
 

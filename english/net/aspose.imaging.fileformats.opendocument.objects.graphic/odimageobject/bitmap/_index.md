@@ -14,7 +14,7 @@ Gets or sets the bitmap.
 public byte[] Bitmap { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The bitmap.
 

@@ -14,7 +14,7 @@ Gets a value indicating whether access to the ICollection is synchronized (threa
 public bool IsSynchronized { get; }
 ```
 
-## Return Value
+### Return Value
 
 true if access to the ICollection is synchronized (thread safe); otherwise, false.
 

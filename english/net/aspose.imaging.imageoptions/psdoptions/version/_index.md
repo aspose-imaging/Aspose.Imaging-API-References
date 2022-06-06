@@ -14,7 +14,7 @@ Gets or sets the psd file version.
 public int Version { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The psd file version.
 

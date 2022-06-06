@@ -14,7 +14,7 @@ Gets the pen.
 public OdPen Pen { get; }
 ```
 
-## Property Value
+### Property Value
 
 The pen.
 

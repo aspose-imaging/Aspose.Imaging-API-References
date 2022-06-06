@@ -14,7 +14,7 @@ Gets the tag id.
 public TiffTags TagId { get; }
 ```
 
-## Property Value
+### Property Value
 
 The tag id.
 

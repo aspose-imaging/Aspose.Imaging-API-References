@@ -3,7 +3,7 @@ title: EmfPlusDashedLineCapType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4770
+weight: 4780
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusdashedlinecaptype/
 ---
 ## EmfPlusDashedLineCapType enumeration
@@ -14,7 +14,7 @@ The DashedLineCapType enumeration defines types of line caps to use at the ends 
 public enum EmfPlusDashedLineCapType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

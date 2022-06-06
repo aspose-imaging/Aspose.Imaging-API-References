@@ -14,7 +14,7 @@ Gets or sets the bounding box.
 public RectangleF BoundingBox { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The bounding box.
 

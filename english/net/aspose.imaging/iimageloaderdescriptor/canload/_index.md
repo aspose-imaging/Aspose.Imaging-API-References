@@ -19,7 +19,7 @@ public bool CanLoad(StreamContainer streamContainer, LoadOptions loadOptions)
 | streamContainer | StreamContainer | The stream container. |
 | loadOptions | LoadOptions | The file format details specified by *loadOptions*. The *loadOptions* may be null. |
 
-## Return Value
+### Return Value
 
 `true` if image loader created by this descriptor can read image from stream; otherwise, `false`.
 

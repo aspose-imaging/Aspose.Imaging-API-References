@@ -3,7 +3,7 @@ title: PageName
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.imaging.imageoptions/tiffoptions/pagename/
 ---
 ## TiffOptions.PageName property
@@ -14,7 +14,7 @@ Gets or sets the page name.
 public string PageName { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The page name.
 

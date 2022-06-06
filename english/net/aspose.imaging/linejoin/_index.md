@@ -3,7 +3,7 @@ title: LineJoin
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10380
+weight: 10400
 url: /net/aspose.imaging/linejoin/
 ---
 ## LineJoin enumeration
@@ -14,7 +14,7 @@ Specifies how to join consecutive line or curve segments in a figure (subpath) c
 public enum LineJoin
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

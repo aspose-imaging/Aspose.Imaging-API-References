@@ -14,7 +14,7 @@ Gets or sets the n saved dc.
 public short NSavedDc { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The saved state to be restored. If this member is positive, nSavedDC represents a specific instance of the state to be restored. If this member is negative, nSavedDC represents an instance relative to the current state.
 

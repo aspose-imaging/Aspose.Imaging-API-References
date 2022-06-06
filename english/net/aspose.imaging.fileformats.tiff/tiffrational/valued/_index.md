@@ -14,7 +14,7 @@ Gets the double value.
 public double ValueD { get; }
 ```
 
-## Property Value
+### Property Value
 
 The double value.
 

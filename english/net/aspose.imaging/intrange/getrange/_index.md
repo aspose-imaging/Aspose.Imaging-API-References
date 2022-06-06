@@ -20,7 +20,7 @@ public static IEnumerable<int> GetRange(int start, int count, int delta)
 | count | Int32 | The count. |
 | delta | Int32 | The delta. |
 
-## Return Value
+### Return Value
 
 Array of items
 

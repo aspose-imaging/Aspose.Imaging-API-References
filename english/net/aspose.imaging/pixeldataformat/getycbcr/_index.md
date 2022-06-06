@@ -18,7 +18,7 @@ public static PixelDataFormat GetYCbCr(int bitsPerSample)
 | --- | --- | --- |
 | bitsPerSample | Int32 | The number of bits per sample. |
 
-## Return Value
+### Return Value
 
 The YCbCr color.
 
@@ -44,7 +44,7 @@ public static PixelDataFormat GetYCbCr(int bitsPerY, int bitsPerCb, int bitsPerC
 | bitsPerCb | Int32 | The number of bits per Cb channel. |
 | bitsPerCr | Int32 | The number of bits per Cr channel. |
 
-## Return Value
+### Return Value
 
 The YCbCr color.
 

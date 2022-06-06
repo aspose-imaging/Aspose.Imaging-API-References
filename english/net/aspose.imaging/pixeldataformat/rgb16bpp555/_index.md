@@ -14,7 +14,7 @@ Gets the [`PixelDataFormat`](../../pixeldataformat) defined for 16 bits per pixe
 public static PixelDataFormat Rgb16Bpp555 { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`PixelDataFormat`](../../pixeldataformat) defined for 16 bits per pixel with 5 bits for each of the red, green and blue, alpha is not defined.
 

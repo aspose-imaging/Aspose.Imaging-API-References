@@ -14,7 +14,7 @@ Gets the left bottom rectangle point.
 public PointF LeftBottom { get; }
 ```
 
-## Property Value
+### Property Value
 
 The left bottom rectangle point.
 

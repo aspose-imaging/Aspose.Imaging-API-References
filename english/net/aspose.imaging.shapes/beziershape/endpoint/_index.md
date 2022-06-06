@@ -14,7 +14,7 @@ Gets the ending shape point.
 public override PointF EndPoint { get; }
 ```
 
-## Property Value
+### Property Value
 
 The ending shape point.
 

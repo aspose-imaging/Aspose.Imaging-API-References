@@ -14,7 +14,7 @@ Gets or sets the path points.
 public PointF[] PathPoints { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The path points.
 

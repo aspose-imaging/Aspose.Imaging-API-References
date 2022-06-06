@@ -14,7 +14,7 @@ Gets or sets the time interval.
 public TimeInterval TimeInterval { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The time interval.
 

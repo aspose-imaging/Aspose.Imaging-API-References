@@ -18,7 +18,7 @@ public static Color[] ToArgb(int[] cmykPixels)
 | --- | --- | --- |
 | cmykPixels | Int32[] | The CMYK colors presented as 32-bit integer values. |
 
-## Return Value
+### Return Value
 
 The ARGB colors.
 
@@ -43,7 +43,7 @@ public static Color ToArgb(int cmykPixel)
 | --- | --- | --- |
 | cmykPixel | Int32 | The CMYK color presented as a 32-bit integer value. |
 
-## Return Value
+### Return Value
 
 The ARGB color.
 

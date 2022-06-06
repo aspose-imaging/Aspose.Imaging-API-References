@@ -14,7 +14,7 @@ Gets or sets the [`LineCap`](../../linecap) enumeration on which this [`CustomLi
 public LineCap BaseCap { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The [`LineCap`](../../linecap) enumeration on which this [`CustomLineCap`](../../customlinecap) is based.
 

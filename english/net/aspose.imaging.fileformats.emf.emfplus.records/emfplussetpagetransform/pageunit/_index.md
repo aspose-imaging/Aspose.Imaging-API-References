@@ -14,7 +14,7 @@ Gets the unit of measure for page space coordinates, from the UnitType enumerati
 public EmfPlusUnitType PageUnit { get; }
 ```
 
-## Property Value
+### Property Value
 
 The page unit.
 

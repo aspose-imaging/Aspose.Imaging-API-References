@@ -14,7 +14,7 @@ Gets or sets the x number.
 public short XNum { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The amount by which to multiply the current x-extent.
 

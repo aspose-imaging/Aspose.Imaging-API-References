@@ -14,7 +14,7 @@ Specifies the cache type to use.
 public enum CacheType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

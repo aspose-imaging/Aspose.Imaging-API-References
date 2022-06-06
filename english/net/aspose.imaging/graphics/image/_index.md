@@ -14,7 +14,7 @@ Gets the image.
 public Image Image { get; }
 ```
 
-## Property Value
+### Property Value
 
 The graphics image.
 

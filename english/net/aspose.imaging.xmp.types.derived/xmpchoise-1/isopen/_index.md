@@ -14,7 +14,7 @@ Gets or sets a value indicating whether the preferred values can be extended.
 public bool IsOpen { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if preferred values can be extended; otherwise, `false`.
 

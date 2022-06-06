@@ -18,7 +18,7 @@ public static Color FromKnownColor(KnownColor color)
 | --- | --- | --- |
 | color | KnownColor | An element of the [`KnownColor`](../../knowncolor) enumeration. |
 
-## Return Value
+### Return Value
 
 The [`Color`](../../color) that this method creates.
 

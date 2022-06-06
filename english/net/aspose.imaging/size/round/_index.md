@@ -18,7 +18,7 @@ public static Size Round(SizeF size)
 | --- | --- | --- |
 | size | SizeF | The [`SizeF`](../../sizef) structure to convert. |
 
-## Return Value
+### Return Value
 
 The [`Size`](../../size) structure this method converts to.
 

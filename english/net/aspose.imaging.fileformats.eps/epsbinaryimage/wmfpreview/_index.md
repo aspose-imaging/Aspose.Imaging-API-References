@@ -14,7 +14,7 @@ Gets the WMF preview.
 public WmfImage WmfPreview { get; }
 ```
 
-## Property Value
+### Property Value
 
 The WMF preview.
 

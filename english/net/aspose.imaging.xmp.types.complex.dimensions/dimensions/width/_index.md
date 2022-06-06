@@ -14,7 +14,7 @@ Gets or sets the width.
 public float Width { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The width.
 

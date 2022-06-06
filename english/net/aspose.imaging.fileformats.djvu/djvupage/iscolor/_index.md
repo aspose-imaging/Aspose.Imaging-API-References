@@ -14,7 +14,7 @@ Gets a value indicating whether this instance is color.
 public bool IsColor { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this instance is color; otherwise, `false`.
 

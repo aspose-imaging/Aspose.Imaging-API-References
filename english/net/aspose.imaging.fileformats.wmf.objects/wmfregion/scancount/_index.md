@@ -14,7 +14,7 @@ Gets or sets the scan count.
 public short ScanCount { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The number of scanlines composing the region.
 

@@ -14,7 +14,7 @@ Converts the stream data to the Byte array.
 public virtual byte[] ToBytes()
 ```
 
-## Return Value
+### Return Value
 
 The stream data converted to the Byte array.
 
@@ -39,7 +39,7 @@ public virtual byte[] ToBytes(long position, long bytesCount)
 | position | Int64 | The position to start reading bytes from. |
 | bytesCount | Int64 | The bytes count to read. |
 
-## Return Value
+### Return Value
 
 The stream data converted to the Byte array.
 

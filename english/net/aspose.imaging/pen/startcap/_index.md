@@ -14,7 +14,7 @@ Gets or sets the cap style used at the beginning of lines drawn with this [`Pen`
 public LineCap StartCap { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 One of the [`LineCap`](../../linecap) values that represents the cap style used at the beginning of lines drawn with this [`Pen`](../../pen).
 

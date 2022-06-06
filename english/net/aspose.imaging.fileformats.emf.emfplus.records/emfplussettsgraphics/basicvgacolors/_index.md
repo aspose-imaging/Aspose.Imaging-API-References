@@ -14,7 +14,7 @@ Gets a value indicating whether [basic vga colors]. If set, the palette contains
 public bool BasicVgaColors { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if [basic vga colors]; otherwise, `false`.
 

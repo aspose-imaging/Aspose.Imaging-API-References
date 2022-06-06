@@ -14,7 +14,7 @@ Gets or sets the color type for SVG image.
 public SvgColorMode ColorType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the color of SVG image.
 

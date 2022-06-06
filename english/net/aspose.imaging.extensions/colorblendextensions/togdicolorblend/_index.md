@@ -18,7 +18,7 @@ public static ColorBlend ToGdiColorBlend(ColorBlend colorBlend)
 | --- | --- | --- |
 | colorBlend | ColorBlend | The color blend. |
 
-## Return Value
+### Return Value
 
 The converted ColorBlend.
 

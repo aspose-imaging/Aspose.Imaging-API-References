@@ -3,7 +3,7 @@ title: TiffFileStandards
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7640
+weight: 7650
 url: /net/aspose.imaging.fileformats.tiff.enums/tifffilestandards/
 ---
 ## TiffFileStandards enumeration
@@ -14,7 +14,7 @@ Specifies the TIFF file format standards.
 public enum TiffFileStandards : ushort
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

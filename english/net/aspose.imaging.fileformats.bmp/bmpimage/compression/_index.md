@@ -14,7 +14,7 @@ Gets the image compression.
 public BitmapCompression Compression { get; }
 ```
 
-## Property Value
+### Property Value
 
 The image compression.
 

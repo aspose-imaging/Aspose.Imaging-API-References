@@ -14,7 +14,7 @@ Gets or sets a rectangular region that defines the starting and ending points of
 public RectangleF Rectangle { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A [`RectangleF`](../../../aspose.imaging/rectanglef) structure that specifies the starting and ending points of the gradient.
 

@@ -14,7 +14,7 @@ Gets or sets the offsets.
 public float[] Offsets { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The array of gradient color offsets. The length of array must be greater or equal 2. First value must be equal 0, last value must be equal 1, other value must be in range (0,1)
 

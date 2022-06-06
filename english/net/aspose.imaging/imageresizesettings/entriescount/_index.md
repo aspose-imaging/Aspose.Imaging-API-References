@@ -14,7 +14,7 @@ Gets or sets the entries count
 public int EntriesCount { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The entries count
 

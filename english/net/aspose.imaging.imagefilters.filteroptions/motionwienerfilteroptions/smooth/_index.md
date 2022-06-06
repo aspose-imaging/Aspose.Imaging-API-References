@@ -14,7 +14,7 @@ Gets or sets the smooth.
 public double Smooth { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The smooth.
 

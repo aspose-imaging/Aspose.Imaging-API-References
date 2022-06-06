@@ -14,7 +14,7 @@ Gets or sets the Specifies the adjustment to the hue. -180 ≤ value &lt; 0 Nega
 public int HueLevel { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The hue level.
 

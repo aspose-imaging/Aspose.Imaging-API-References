@@ -3,7 +3,7 @@ title: EmfGradientFill
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2660
+weight: 2670
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfgradientfill/
 ---
 ## EmfGradientFill enumeration
@@ -14,7 +14,7 @@ The GradientFill enumeration defines the modes for gradient fill operations.
 public enum EmfGradientFill
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

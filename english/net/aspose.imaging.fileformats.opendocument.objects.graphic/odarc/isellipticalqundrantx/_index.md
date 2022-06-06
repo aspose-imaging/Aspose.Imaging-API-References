@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this instance is elliptical quadrant x.
 public bool IsEllipticalQundrantX { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this instance is elliptical quadrant x; otherwise, `false`.
 

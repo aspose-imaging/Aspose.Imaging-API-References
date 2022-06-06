@@ -14,7 +14,7 @@ Gets or sets the brush opacity. The value should be between 0 and 1. Value of 0 
 public float Opacity { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The brush opacity value.
 

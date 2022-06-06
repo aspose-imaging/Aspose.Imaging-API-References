@@ -14,7 +14,7 @@ Gets a value indicating whether image data is cached currently.
 public override bool IsCached { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if image data is cached; otherwise, `false`.
 

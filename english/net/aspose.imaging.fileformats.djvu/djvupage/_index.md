@@ -3,7 +3,7 @@ title: DjvuPage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2440
+weight: 2450
 url: /net/aspose.imaging.fileformats.djvu/djvupage/
 ---
 ## DjvuPage class
@@ -141,13 +141,6 @@ public class DjvuPage : RasterCachedImage, INotifyPropertyChanged
 | virtual [ToBitmap](../../aspose.imaging/rasterimage/tobitmap)() | Converts raster image to the bitmap. |
 | [WriteArgb32ScanLine](../../aspose.imaging/rasterimage/writeargb32scanline)(int, int[]) | Writes the whole scan line to the specified scan line index. |
 | [WriteScanLine](../../aspose.imaging/rasterimage/writescanline)(int, Color[]) | Writes the whole scan line to the specified scan line index. |
-
-## Other Members
-
-| Name | Description |
-| --- | --- |
-| event [PropertyChanged](propertychanged) | Occurs when a property value changes. |
-| static event [PageExportedAction](pageexportedaction) | Occurs when [page exported action]. |
 
 ### See Also
 

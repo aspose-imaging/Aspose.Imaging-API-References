@@ -14,7 +14,7 @@ Gets or sets the width of this [`RectangleF`](../../rectanglef) structure.
 public float Width { get; set; }
 ```
 
-## Return Value
+### Return Value
 
 The width of this [`RectangleF`](../../rectanglef) structure.
 

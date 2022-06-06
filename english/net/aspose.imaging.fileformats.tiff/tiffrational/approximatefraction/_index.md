@@ -19,7 +19,7 @@ public static TiffRational ApproximateFraction(double value, double epsilon)
 | value | Double | The value. |
 | epsilon | Double | The error allowed. |
 
-## Return Value
+### Return Value
 
 A rational number having error less than *epsilon*.
 
@@ -43,7 +43,7 @@ public static TiffRational ApproximateFraction(double value)
 | --- | --- | --- |
 | value | Double | The value. |
 
-## Return Value
+### Return Value
 
 A rational number having error less than [`Epsilon`](../epsilon).
 
@@ -68,7 +68,7 @@ public static TiffRational ApproximateFraction(float value, double epsilon)
 | value | Single | The value. |
 | epsilon | Double | The error allowed. |
 
-## Return Value
+### Return Value
 
 A rational number having error less than *epsilon*.
 
@@ -92,7 +92,7 @@ public static TiffRational ApproximateFraction(float value)
 | --- | --- | --- |
 | value | Single | The value. |
 
-## Return Value
+### Return Value
 
 A rational number having error less than [`Epsilon`](../epsilon).
 

@@ -14,7 +14,7 @@ Gets or sets the opacity.
 public double Opacity { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The opacity.
 

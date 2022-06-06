@@ -14,7 +14,7 @@ Gets or sets the font type.
 public string FontType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The font type.
 

@@ -14,7 +14,7 @@ Gets or sets the left image location.
 public ushort Left { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The left image location.
 

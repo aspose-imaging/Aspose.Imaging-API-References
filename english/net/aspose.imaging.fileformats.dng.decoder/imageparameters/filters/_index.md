@@ -14,7 +14,7 @@ Gets the Bit mask describing the order of color pixels in the matrix.
 public uint Filters { get; }
 ```
 
-## Property Value
+### Property Value
 
 The filters.
 

@@ -14,7 +14,7 @@ Gets or sets the smoothing mode. (7 bits): The smoothing mode value, from the Sm
 public EmfPlusSmoothingMode SmoothingMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The smoothing mode.
 

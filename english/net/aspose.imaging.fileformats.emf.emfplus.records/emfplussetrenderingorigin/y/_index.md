@@ -14,7 +14,7 @@ Gets or sets a 32-bit unsigned integer that defines the vertical coordinate valu
 public int Y { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The y.
 

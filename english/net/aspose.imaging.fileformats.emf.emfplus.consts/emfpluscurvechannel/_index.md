@@ -3,7 +3,7 @@ title: EmfPlusCurveChannel
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4740
+weight: 4750
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscurvechannel/
 ---
 ## EmfPlusCurveChannel enumeration
@@ -14,7 +14,7 @@ The CurveChannel enumeration defines color channels that can be affected by a co
 public enum EmfPlusCurveChannel
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

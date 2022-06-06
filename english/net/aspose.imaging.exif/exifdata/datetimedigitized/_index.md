@@ -14,7 +14,7 @@ Gets or sets the date time digitized.
 public string DateTimeDigitized { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The date time digitized.
 

@@ -14,7 +14,7 @@ Gets or sets the cached raster image.
 public MemoryStream CachedImage { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The cached image.
 

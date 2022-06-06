@@ -14,7 +14,7 @@ Gets the bits count for each channel.
 public int[] ChannelBits { get; }
 ```
 
-## Property Value
+### Property Value
 
 The channel bits.
 

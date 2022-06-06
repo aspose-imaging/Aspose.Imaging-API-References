@@ -14,7 +14,7 @@ Gets or sets the BPP.
 public int Bpp { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The BPP.
 

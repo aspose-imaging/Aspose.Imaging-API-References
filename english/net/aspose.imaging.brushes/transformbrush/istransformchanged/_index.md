@@ -14,7 +14,7 @@ Gets a value indicating whether transformations were changed in some way. For ex
 public bool IsTransformChanged { get; }
 ```
 
-## Property Value
+### Property Value
 
 `True` if transformation was changed; otherwise, `false`.
 

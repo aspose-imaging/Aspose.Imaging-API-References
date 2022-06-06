@@ -14,7 +14,7 @@ Gets or sets the escape record.
 public WmfEscapeRecordBase EscapeRecord { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The escape record.
 

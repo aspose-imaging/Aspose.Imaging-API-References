@@ -19,7 +19,7 @@ public static TiffStreamReader GetTiffReader(StreamContainer stream, TiffByteOrd
 | stream | StreamContainer | The stream container. |
 | byteOrder | TiffByteOrder | The byte order. |
 
-## Return Value
+### Return Value
 
 Tiff stream suitable for reading.
 
@@ -50,7 +50,7 @@ public static TiffStreamReader GetTiffReader(byte[] bytes, int bytesOffset, int 
 | dataLength | Int32 | Length of the data. |
 | byteOrder | TiffByteOrder | The byte order. |
 
-## Return Value
+### Return Value
 
 Tiff stream suitable for reading.
 

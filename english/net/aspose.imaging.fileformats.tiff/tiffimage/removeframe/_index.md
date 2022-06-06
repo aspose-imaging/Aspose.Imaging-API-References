@@ -18,7 +18,7 @@ public TiffFrame RemoveFrame(int index)
 | --- | --- | --- |
 | index | Int32 | Index of frame to be removed. |
 
-## Return Value
+### Return Value
 
 The removed frame.
 

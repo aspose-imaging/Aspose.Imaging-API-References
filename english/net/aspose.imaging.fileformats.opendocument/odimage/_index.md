@@ -3,7 +3,7 @@ title: OdImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7360
+weight: 7370
 url: /net/aspose.imaging.fileformats.opendocument/odimage/
 ---
 ## OdImage class
@@ -19,6 +19,7 @@ public abstract class OdImage : VectorMultipageImage
 | Name | Description |
 | --- | --- |
 | [OdImage](odimage)(StreamContainer) | Initializes a new instance of the [`OdImage`](../odimage) class. |
+| [OdImage](odimage)(StreamContainer, LoadOptions) | Initializes a new instance of the [`OdImage`](../odimage) class. |
 
 ## Properties
 

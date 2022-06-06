@@ -3,7 +3,7 @@ title: WmfAnimatePalette
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8400
+weight: 8410
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfanimatepalette/
 ---
 ## WmfAnimatePalette class

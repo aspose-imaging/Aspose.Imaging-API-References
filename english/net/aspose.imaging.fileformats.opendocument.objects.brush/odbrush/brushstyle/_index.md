@@ -14,7 +14,7 @@ Gets the style.
 public abstract OdBrushStyle BrushStyle { get; }
 ```
 
-## Property Value
+### Property Value
 
 The style.
 

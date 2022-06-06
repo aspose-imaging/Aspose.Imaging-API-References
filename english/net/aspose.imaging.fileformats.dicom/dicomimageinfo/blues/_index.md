@@ -14,7 +14,7 @@ Gets the array colors of the blue
 public byte[] Blues { get; }
 ```
 
-## Property Value
+### Property Value
 
 The blues.
 

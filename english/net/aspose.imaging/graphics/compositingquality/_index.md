@@ -14,7 +14,7 @@ Gets or sets the compositing quality.
 public CompositingQuality CompositingQuality { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The compositing quality.
 

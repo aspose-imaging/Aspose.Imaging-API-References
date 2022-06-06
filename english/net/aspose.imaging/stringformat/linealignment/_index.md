@@ -14,7 +14,7 @@ Gets or sets the line alignment on the horizontal plane.
 public StringAlignment LineAlignment { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A [`StringAlignment`](../../stringalignment) enumeration that represents the line alignment.
 

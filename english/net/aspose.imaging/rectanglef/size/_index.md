@@ -14,7 +14,7 @@ Gets or sets the size of this [`RectangleF`](../../rectanglef).
 public SizeF Size { get; set; }
 ```
 
-## Return Value
+### Return Value
 
 A [`SizeF`](../../sizef) that represents the width and height of this [`RectangleF`](../../rectanglef) structure.
 

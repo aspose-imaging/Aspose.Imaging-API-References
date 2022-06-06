@@ -3,7 +3,7 @@ title: EmfPlusCompositingMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4710
+weight: 4720
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscompositingmode/
 ---
 ## EmfPlusCompositingMode enumeration
@@ -14,7 +14,7 @@ The CompositingMode enumeration defines modes for combining source colors with b
 public enum EmfPlusCompositingMode : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

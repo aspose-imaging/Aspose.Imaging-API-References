@@ -14,7 +14,7 @@ Gets or sets the color. An EmfPlusARGB object (section 2.2.2.1) that defines the
 public int Argb32Color { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color.
 

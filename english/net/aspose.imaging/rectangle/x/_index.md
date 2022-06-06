@@ -14,7 +14,7 @@ Gets or sets the x-coordinate of the upper-left corner of this [`Rectangle`](../
 public int X { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The x-coordinate of the upper-left corner of this [`Rectangle`](../../rectangle) structure.
 

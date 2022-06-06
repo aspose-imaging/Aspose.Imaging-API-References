@@ -18,7 +18,7 @@ public int[] LoadCmyk32Pixels(Rectangle rectangle)
 | --- | --- | --- |
 | rectangle | Rectangle | The rectangle to load pixels from. |
 
-## Return Value
+### Return Value
 
 The loaded CMYK pixels presentes as 32-bit inateger values.
 

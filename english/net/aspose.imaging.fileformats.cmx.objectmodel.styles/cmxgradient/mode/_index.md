@@ -14,7 +14,7 @@ Gets or sets the mode.
 public ushort Mode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The mode.
 

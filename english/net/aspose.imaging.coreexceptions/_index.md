@@ -19,6 +19,7 @@ The namespace contains exceptions thrown by any of the core Imaging components.
 | [ImageException](./imageexception) | The image exception. |
 | [ImageLoadException](./imageloadexception) | The image load exception. Occurs during image loading. |
 | [ImageSaveException](./imagesaveexception) | The image save exception. Occurs during image saving. |
+| [IncorrectPasswordException](./incorrectpasswordexception) | The incorrect password exception. |
 | [IndexOutOFRangeException](./indexoutofrangeexception) | The compressor exception. |
 | [LimitMemoryException](./limitmemoryexception) | The limit memory exception. Occurs when memory usage should be reduced. |
 | [LinqWrapperException](./linqwrapperexception) | LinqWrapper exceptions class. |

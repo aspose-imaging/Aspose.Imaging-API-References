@@ -19,7 +19,7 @@ public string OnSvgDocumentReady(byte[] htmlData, string suggestedFileName)
 | htmlData | Byte[] | The SVG data. |
 | suggestedFileName | String | Name of the suggested file. |
 
-## Return Value
+### Return Value
 
 Returns path to saved svg document.
 

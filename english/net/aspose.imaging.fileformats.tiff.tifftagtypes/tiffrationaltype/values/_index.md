@@ -14,7 +14,7 @@ Gets or sets the values.
 public TiffRational[] Values { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The values.
 

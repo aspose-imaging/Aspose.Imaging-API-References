@@ -14,7 +14,7 @@ Gets the bounding box top right position
 public Point BoundingBoxTopRight { get; }
 ```
 
-## Property Value
+### Property Value
 
 The bounding box top right position
 

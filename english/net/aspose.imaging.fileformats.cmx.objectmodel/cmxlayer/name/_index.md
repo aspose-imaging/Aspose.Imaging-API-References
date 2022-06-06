@@ -14,7 +14,7 @@ Gets or sets the name of the layer.
 public string Name { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The name of the layer.
 

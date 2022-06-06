@@ -19,7 +19,7 @@ public static IImageLoader CreateFirstSupportedLoader(Stream stream, LoadOptions
 | stream | Stream | The stream. |
 | loadOptions | LoadOptions | The load options. |
 
-## Return Value
+### Return Value
 
 The loader which supports the specified *stream* and *loadOptions* or null if no such loader is found.
 

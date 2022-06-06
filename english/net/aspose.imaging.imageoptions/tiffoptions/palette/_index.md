@@ -3,7 +3,7 @@ title: Palette
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 320
+weight: 330
 url: /net/aspose.imaging.imageoptions/tiffoptions/palette/
 ---
 ## TiffOptions.Palette property
@@ -14,7 +14,7 @@ Gets or sets the color palette.
 public override IColorPalette Palette { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color palette.
 

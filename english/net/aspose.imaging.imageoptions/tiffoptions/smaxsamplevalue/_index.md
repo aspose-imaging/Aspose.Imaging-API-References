@@ -3,7 +3,7 @@ title: SmaxSampleValue
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.imaging.imageoptions/tiffoptions/smaxsamplevalue/
 ---
 ## TiffOptions.SmaxSampleValue property
@@ -14,7 +14,7 @@ Gets or sets the max sample value. The value has a field type which best matches
 public uint[] SmaxSampleValue { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The max sample value.
 

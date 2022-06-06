@@ -14,7 +14,7 @@ Gets or sets the speed of GPS receiver movement.
 public TiffRational GPSSpeed { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The speed of GPS receiver movement.
 

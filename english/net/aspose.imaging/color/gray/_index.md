@@ -14,7 +14,7 @@ Gets a system-defined color.
 public static Color Gray { get; }
 ```
 
-## Property Value
+### Property Value
 
 A [`Color`](../../color) structure representing a system-defined color.
 

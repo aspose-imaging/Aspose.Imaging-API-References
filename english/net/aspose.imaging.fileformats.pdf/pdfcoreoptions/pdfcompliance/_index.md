@@ -14,7 +14,7 @@ Gets or sets the PDF compliance.
 public PdfComplianceVersion PdfCompliance { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The PDF compliance.
 

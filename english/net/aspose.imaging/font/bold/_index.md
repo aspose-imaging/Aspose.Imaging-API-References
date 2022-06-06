@@ -14,7 +14,7 @@ Gets a value indicating whether this [`Font`](../../font) is bold.
 public bool Bold { get; }
 ```
 
-## Property Value
+### Property Value
 
 True if this [`Font`](../../font) is bold; otherwise, false.
 

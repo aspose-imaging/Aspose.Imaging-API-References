@@ -14,7 +14,7 @@ Gets or sets the palette.
 public int[] Palette { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The palette.
 

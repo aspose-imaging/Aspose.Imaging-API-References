@@ -19,7 +19,7 @@ public Image Load(StreamContainer streamContainer, LoadOptions loadOptions)
 | streamContainer | StreamContainer | The stream container. |
 | loadOptions | LoadOptions | The load options. |
 
-## Return Value
+### Return Value
 
 A newly opened image instance.
 

@@ -3,7 +3,7 @@ title: GifGraphicsControlBlock
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6630
+weight: 6640
 url: /net/aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/
 ---
 ## GifGraphicsControlBlock class
@@ -41,13 +41,13 @@ public class GifGraphicsControlBlock : GifBlock
 | override [Save](../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/save)(Stream) | Saves the block to the specified stream. |
 | static [CreateFlags](../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/createflags)(bool, bool, DisposalMethod) | Creates the flags. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [BlockHeaderSize](blockheadersize) | Specifies the block header size. |
-| const [ExtensionLabel](extensionlabel) | Extension label. |
-| const [SubBlockSize](subblocksize) | Gets the sub-block size. |
+| const [BlockHeaderSize](../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/blockheadersize) | Specifies the block header size. |
+| const [ExtensionLabel](../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/extensionlabel) | Extension label. |
+| const [SubBlockSize](../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/subblocksize) | Gets the sub-block size. |
 
 ### See Also
 

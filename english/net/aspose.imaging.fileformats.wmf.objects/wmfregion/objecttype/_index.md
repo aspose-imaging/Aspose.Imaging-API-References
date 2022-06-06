@@ -14,7 +14,7 @@ Gets or sets the type of the object.
 public short ObjectType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The region identifier. It MUST be 0x0006.
 

@@ -14,7 +14,7 @@ Gets or sets the custom color converter
 public IColorConverter RawCustomColorConverter { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The custom color converter
 

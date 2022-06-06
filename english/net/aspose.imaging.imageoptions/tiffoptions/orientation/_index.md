@@ -3,7 +3,7 @@ title: Orientation
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.imaging.imageoptions/tiffoptions/orientation/
 ---
 ## TiffOptions.Orientation property
@@ -14,7 +14,7 @@ Gets or sets the orientation.
 public TiffOrientations Orientation { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The orientation.
 

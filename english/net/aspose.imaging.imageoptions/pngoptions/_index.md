@@ -3,7 +3,7 @@ title: PngOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10110
+weight: 10130
 url: /net/aspose.imaging.imageoptions/pngoptions/
 ---
 ## PngOptions class
@@ -48,11 +48,11 @@ public class PngOptions : ImageOptionsBase
 | virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | Clones this instance. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [DefaultCompressionLevel](defaultcompressionlevel) | The default compression level. |
+| const [DefaultCompressionLevel](../../aspose.imaging.imageoptions/pngoptions/defaultcompressionlevel) | The default compression level. |
 
 ### Examples
 

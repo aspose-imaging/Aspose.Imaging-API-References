@@ -19,7 +19,7 @@ public static bool operator ==(PointF point1, PointF point2)
 | point1 | PointF | A first [`PointF`](../../pointf) to compare. |
 | point2 | PointF | A second [`PointF`](../../pointf) to compare. |
 
-## Return Value
+### Return Value
 
 True if the [`X`](../x) and [`Y`](../y) values of the first and second [`PointF`](../../pointf) structures are equal; otherwise, false.
 

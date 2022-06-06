@@ -14,7 +14,7 @@ Gets or sets the compression.
 public BitmapCompression Compression { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The compression.
 

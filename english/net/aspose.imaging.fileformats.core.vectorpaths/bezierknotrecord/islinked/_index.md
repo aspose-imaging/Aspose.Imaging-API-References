@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this instance is linked.
 public bool IsLinked { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this instance is linked; otherwise, `false`.
 

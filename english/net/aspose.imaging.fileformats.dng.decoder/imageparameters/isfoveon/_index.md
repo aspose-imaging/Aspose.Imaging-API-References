@@ -14,7 +14,7 @@ Gets the is foveon matrix.
 public uint IsFoveon { get; }
 ```
 
-## Property Value
+### Property Value
 
 The is foveon.
 

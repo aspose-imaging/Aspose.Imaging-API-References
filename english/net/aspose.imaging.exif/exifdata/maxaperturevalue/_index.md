@@ -14,7 +14,7 @@ Gets or sets the maximum aperture value.
 public TiffRational MaxApertureValue { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The maximum aperture value.
 

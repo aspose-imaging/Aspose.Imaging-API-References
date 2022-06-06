@@ -14,7 +14,7 @@ Gets or sets the default font.
 public Font DefaultFont { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The default font.
 

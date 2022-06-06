@@ -3,7 +3,7 @@ title: StringTrimming
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11170
+weight: 11190
 url: /net/aspose.imaging/stringtrimming/
 ---
 ## StringTrimming enumeration
@@ -14,7 +14,7 @@ Specifies how to trim characters from a string that does not completely fit into
 public enum StringTrimming
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

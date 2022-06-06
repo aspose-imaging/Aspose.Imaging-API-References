@@ -14,7 +14,7 @@ Gets or sets the orientation.
 public ExifOrientation Orientation { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The orientation.
 

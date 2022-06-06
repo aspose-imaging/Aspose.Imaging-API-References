@@ -14,7 +14,7 @@ Gets or sets a points per polygon.
 public int[] APointsPerPolygon { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The number of points for each polygon in the object.
 

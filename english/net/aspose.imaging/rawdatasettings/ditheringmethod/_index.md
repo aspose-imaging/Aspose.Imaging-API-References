@@ -14,7 +14,7 @@ Gets or sets the dithering method to use for raw data conversion
 public DitheringMethods DitheringMethod { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The dithering method to use for raw data conversion
 

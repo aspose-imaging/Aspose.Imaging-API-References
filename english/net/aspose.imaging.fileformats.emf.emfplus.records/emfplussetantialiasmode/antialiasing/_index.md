@@ -14,7 +14,7 @@ Gets or sets a value indicating whether [anti aliasing]. If set, anti-aliasing S
 public bool AntiAliasing { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if [anti aliasing]; otherwise, `false`.
 

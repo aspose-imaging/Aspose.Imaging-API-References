@@ -3,7 +3,7 @@ title: PenAlignment
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10690
+weight: 10710
 url: /net/aspose.imaging/penalignment/
 ---
 ## PenAlignment enumeration
@@ -14,7 +14,7 @@ Specifies the alignment of a [`Pen`](../pen) object in relation to the theoretic
 public enum PenAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets a value indicating whether the data contains EmfPlusRectF or EmfPlu
 public bool RectFloat { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if float; otherwise, `false`.
 

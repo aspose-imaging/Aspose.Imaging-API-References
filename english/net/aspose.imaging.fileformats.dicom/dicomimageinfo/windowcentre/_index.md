@@ -14,7 +14,7 @@ Gets the window centre.
 public double WindowCentre { get; }
 ```
 
-## Property Value
+### Property Value
 
 The a value of the window centre.
 

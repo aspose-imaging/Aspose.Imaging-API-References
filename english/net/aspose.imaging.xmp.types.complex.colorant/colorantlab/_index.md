@@ -3,7 +3,7 @@ title: ColorantLab
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11530
+weight: 11550
 url: /net/aspose.imaging.xmp.types.complex.colorant/colorantlab/
 ---
 ## ColorantLab class
@@ -40,16 +40,16 @@ public sealed class ColorantLab : ColorantBase
 | --- | --- |
 | override [GetXmpRepresentation](../../aspose.imaging.xmp.types.complex.colorant/colorantlab/getxmprepresentation)() | Gets the string contained value in XMP format. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [MaxA](maxa) | The maximum A component value |
-| const [MaxB](maxb) | The maximum A component value |
-| const [MaxL](maxl) | The maximum A component value |
-| const [MinA](mina) | The minimum A component value |
-| const [MinB](minb) | The minimum B component value |
-| const [MinL](minl) | The minimum L component value |
+| const [MaxA](../../aspose.imaging.xmp.types.complex.colorant/colorantlab/maxa) | The maximum A component value |
+| const [MaxB](../../aspose.imaging.xmp.types.complex.colorant/colorantlab/maxb) | The maximum A component value |
+| const [MaxL](../../aspose.imaging.xmp.types.complex.colorant/colorantlab/maxl) | The maximum A component value |
+| const [MinA](../../aspose.imaging.xmp.types.complex.colorant/colorantlab/mina) | The minimum A component value |
+| const [MinB](../../aspose.imaging.xmp.types.complex.colorant/colorantlab/minb) | The minimum B component value |
+| const [MinL](../../aspose.imaging.xmp.types.complex.colorant/colorantlab/minl) | The minimum L component value |
 
 ### See Also
 

@@ -14,7 +14,7 @@ Gets or sets the GIF color resolution.
 public byte ColorResolution { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color resolution.
 

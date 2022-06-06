@@ -18,7 +18,7 @@ public int[] GetDefaultArgb32Pixels(Rectangle rectangle)
 | --- | --- | --- |
 | rectangle | Rectangle | The rectangle to get pixels for. |
 
-## Return Value
+### Return Value
 
 The default pixels array.
 

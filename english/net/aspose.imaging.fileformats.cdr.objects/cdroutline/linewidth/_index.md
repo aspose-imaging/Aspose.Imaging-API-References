@@ -14,7 +14,7 @@ Gets or sets the width of the line.
 public double LineWidth { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The width of the line.
 

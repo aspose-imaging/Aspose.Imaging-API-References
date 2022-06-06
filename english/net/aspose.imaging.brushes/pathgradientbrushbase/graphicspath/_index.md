@@ -14,7 +14,7 @@ Gets the graphics path this brush was build upon.
 public GraphicsPath GraphicsPath { get; }
 ```
 
-## Property Value
+### Property Value
 
 The graphics path.
 

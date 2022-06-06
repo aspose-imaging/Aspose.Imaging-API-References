@@ -3,7 +3,7 @@ title: WmfPenStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8260
+weight: 8270
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfpenstyle/
 ---
 ## WmfPenStyle enumeration
@@ -14,7 +14,7 @@ The 16-bit PenStyle Enumeration is used to specify different types of pens that 
 public enum WmfPenStyle : short
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

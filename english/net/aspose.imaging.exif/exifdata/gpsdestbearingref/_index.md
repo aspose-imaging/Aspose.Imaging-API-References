@@ -14,7 +14,7 @@ Gets or sets the GPS reference used for giving the bearing to the destination po
 public string GPSDestBearingRef { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS reference used for giving the bearing to the destination point.
 

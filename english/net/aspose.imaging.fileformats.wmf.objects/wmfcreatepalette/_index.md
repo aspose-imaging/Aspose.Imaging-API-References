@@ -3,7 +3,7 @@ title: WmfCreatePalette
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8520
+weight: 8530
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfcreatepalette/
 ---
 ## WmfCreatePalette class
@@ -26,6 +26,12 @@ public class WmfCreatePalette : WmfGraphicObject
 | --- | --- |
 | [Index](../../aspose.imaging.fileformats.wmf.objects/wmfgraphicobject/index) { get; set; } | Gets or sets the index. |
 | [LogPalette](../../aspose.imaging.fileformats.wmf.objects/wmfcreatepalette/logpalette) { get; set; } | Gets or sets the log palette. |
+
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [PaletteStart](../../aspose.imaging.fileformats.wmf.objects/wmfcreatepalette/palettestart) | The palette start tag |
 
 ### See Also
 

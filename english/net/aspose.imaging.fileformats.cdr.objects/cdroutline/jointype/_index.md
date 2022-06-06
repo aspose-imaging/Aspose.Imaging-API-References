@@ -14,7 +14,7 @@ Gets or sets the type of the join.
 public short JoinType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the join.
 

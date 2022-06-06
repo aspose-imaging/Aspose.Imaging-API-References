@@ -14,7 +14,7 @@ Gets or sets the kind.
 public OdMeasureTextKind Kind { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The kind.
 

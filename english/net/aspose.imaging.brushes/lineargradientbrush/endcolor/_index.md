@@ -14,7 +14,7 @@ Gets or sets the ending gradient color.
 public Color EndColor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The ending gradient color.
 

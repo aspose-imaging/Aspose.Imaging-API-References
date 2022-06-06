@@ -14,7 +14,7 @@ Gets or sets the size of this [`Rectangle`](../../rectangle).
 public Size Size { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A [`Size`](../../size) that represents the width and height of this [`Rectangle`](../../rectangle) structure.
 

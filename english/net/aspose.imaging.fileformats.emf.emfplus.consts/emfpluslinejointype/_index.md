@@ -3,7 +3,7 @@ title: EmfPlusLineJoinType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4890
+weight: 4900
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluslinejointype/
 ---
 ## EmfPlusLineJoinType enumeration
@@ -14,7 +14,7 @@ The LineJoinType enumeration defines ways to join two lines that are drawn by th
 public enum EmfPlusLineJoinType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

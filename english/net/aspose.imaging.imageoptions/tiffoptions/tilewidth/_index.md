@@ -3,7 +3,7 @@ title: TileWidth
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 560
+weight: 570
 url: /net/aspose.imaging.imageoptions/tiffoptions/tilewidth/
 ---
 ## TiffOptions.TileWidth property

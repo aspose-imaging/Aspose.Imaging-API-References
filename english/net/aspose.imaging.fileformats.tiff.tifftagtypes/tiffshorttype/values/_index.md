@@ -14,7 +14,7 @@ Gets or sets the data.
 public ushort[] Values { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The data.
 

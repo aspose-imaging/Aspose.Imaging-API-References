@@ -14,7 +14,7 @@ Gets or sets the array of file names for the fonts that make up a composite font
 public string[] ChildFontFiles { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The array of file names for the fonts that make up a composite font.
 

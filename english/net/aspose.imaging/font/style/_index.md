@@ -14,7 +14,7 @@ Gets style information for this [`Font`](../../font).
 public FontStyle Style { get; }
 ```
 
-## Property Value
+### Property Value
 
 A [`FontStyle`](../../fontstyle) enumeration that contains style information for this [`Font`](../../font).
 

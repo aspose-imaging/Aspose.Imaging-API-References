@@ -14,7 +14,7 @@ Gets or sets the logical dpi y. A 32-bit unsigned integer that specifies the ver
 public int LogicalDpiY { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The logical dpi y.
 

@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this instance is CMX3 image.
 public bool IsCmx3Image { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this instance is CMX3 image; otherwise, `false`.
 

@@ -14,7 +14,7 @@ Gets or sets a value indicating whether reallocation should be exact or not. If 
 public static bool ExactReallocateOnly { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if reallocation is exact; otherwise, `false`.
 

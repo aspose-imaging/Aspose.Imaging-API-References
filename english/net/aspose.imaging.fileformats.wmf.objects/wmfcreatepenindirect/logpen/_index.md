@@ -14,7 +14,7 @@ Gets or sets the log pen.
 public EmfLogPen LogPen { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The log pen.
 

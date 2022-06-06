@@ -3,7 +3,7 @@ title: SvgImageType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7550
+weight: 7560
 url: /net/aspose.imaging.fileformats.svg/svgimagetype/
 ---
 ## SvgImageType enumeration
@@ -14,7 +14,7 @@ Represents SVG image type.
 public enum SvgImageType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

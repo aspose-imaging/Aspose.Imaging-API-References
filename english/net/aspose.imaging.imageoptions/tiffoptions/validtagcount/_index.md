@@ -3,7 +3,7 @@ title: ValidTagCount
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 580
+weight: 590
 url: /net/aspose.imaging.imageoptions/tiffoptions/validtagcount/
 ---
 ## TiffOptions.ValidTagCount property
@@ -14,7 +14,7 @@ Gets the valid tag count. This is not the total tags count but the number of tag
 public int ValidTagCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 The valid tag count.
 

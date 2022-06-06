@@ -14,7 +14,7 @@ Gets or sets the pixel x dimension.
 public uint PixelXDimension { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The pixel x dimension.
 

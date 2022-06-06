@@ -3,7 +3,7 @@ title: FileStandard
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.imaging.imageoptions/tiffoptions/filestandard/
 ---
 ## TiffOptions.FileStandard property
@@ -14,7 +14,7 @@ Gets or sets the TIFF file standard.
 public TiffFileStandards FileStandard { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The TIFF file standard.
 

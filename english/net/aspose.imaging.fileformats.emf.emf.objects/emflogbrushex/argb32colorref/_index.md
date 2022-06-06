@@ -14,7 +14,7 @@ Gets or sets a 32-bit WMF ColorRef object ([MS-WMF] section 2.2.2.8) that specif
 public int Argb32ColorRef { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The 32-bit ARGB color
 

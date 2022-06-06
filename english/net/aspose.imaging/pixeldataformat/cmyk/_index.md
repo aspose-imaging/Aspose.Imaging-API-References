@@ -14,7 +14,7 @@ Gets the [`PixelDataFormat`](../../pixeldataformat) defined for 32 bits per pixe
 public static PixelDataFormat Cmyk { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`PixelDataFormat`](../../pixeldataformat) defined for 32 bits per pixel with 8 bits for each of the cyan, magenta, yellow and black.
 

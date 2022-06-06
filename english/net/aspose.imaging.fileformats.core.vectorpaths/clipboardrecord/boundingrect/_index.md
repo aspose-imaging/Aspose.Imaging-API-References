@@ -14,7 +14,7 @@ Gets or sets the bounding rect.
 public RectangleF BoundingRect { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The bounding rect.
 

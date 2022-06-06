@@ -14,7 +14,7 @@ Gets or sets the maximum R value for consideration in in bits per pixel
 public double BppMax { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The maximum R value for consideration in bits per pixel.
 

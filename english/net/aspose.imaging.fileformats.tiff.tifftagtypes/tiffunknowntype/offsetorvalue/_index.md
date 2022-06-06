@@ -14,7 +14,7 @@ Gets the offset value for an additional data or value itself in case count is 1.
 public uint OffsetOrValue { get; }
 ```
 
-## Property Value
+### Property Value
 
 The offset or value.
 

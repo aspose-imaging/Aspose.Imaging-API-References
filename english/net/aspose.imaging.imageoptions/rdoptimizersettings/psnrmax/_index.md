@@ -14,7 +14,7 @@ Gets the PSNR maximum expected value.
 public int PsnrMax { get; }
 ```
 
-## Property Value
+### Property Value
 
 The maximum maximum pixel value.
 

@@ -3,7 +3,7 @@ title: EmfPlusPathPointFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4950
+weight: 4960
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspathpointflags/
 ---
 ## EmfPlusPathPointFlags enumeration
@@ -15,7 +15,7 @@ A 32-bit unsigned integer that specifies how to interpret the points and associa
 public enum EmfPlusPathPointFlags : short
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public bool CanLoad(StreamContainer streamContainer)
 | --- | --- | --- |
 | streamContainer | StreamContainer | The stream container to load data from. |
 
-## Return Value
+### Return Value
 
 `true` loader can load the specified data; otherwise, `false`.
 

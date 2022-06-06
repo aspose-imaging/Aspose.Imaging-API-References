@@ -14,7 +14,7 @@ Gets a value indicating whether this [`Color`](../../color) structure is uniniti
 public bool IsEmpty { get; }
 ```
 
-## Property Value
+### Property Value
 
 This property returns true if this color is uninitialized; otherwise, false.
 

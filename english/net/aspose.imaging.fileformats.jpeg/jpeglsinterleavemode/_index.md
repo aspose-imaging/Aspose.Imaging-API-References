@@ -3,7 +3,7 @@ title: JpegLsInterleaveMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6770
+weight: 6780
 url: /net/aspose.imaging.fileformats.jpeg/jpeglsinterleavemode/
 ---
 ## JpegLsInterleaveMode enumeration
@@ -14,7 +14,7 @@ Defines the interleave mode for multi-component (color) pixel data.
 public enum JpegLsInterleaveMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

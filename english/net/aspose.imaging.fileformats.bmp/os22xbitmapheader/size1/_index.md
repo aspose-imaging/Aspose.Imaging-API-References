@@ -14,7 +14,7 @@ Gets the size1.
 public int Size1 { get; }
 ```
 
-## Property Value
+### Property Value
 
 Reserved for halftoning algorithm use
 

@@ -14,7 +14,7 @@ Gets the whole figure segments.
 public ShapeSegment[] Segments { get; }
 ```
 
-## Property Value
+### Property Value
 
 The figure segments.
 

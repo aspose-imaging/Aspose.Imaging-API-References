@@ -14,7 +14,7 @@ Gets or sets the layer order number.
 public int Number { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The layer order number.
 

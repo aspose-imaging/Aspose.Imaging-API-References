@@ -18,7 +18,7 @@ public ApngFrame InsertFrame(int index)
 | --- | --- | --- |
 | index | Int32 | The index. |
 
-## Return Value
+### Return Value
 
 The newly created APNG frame.
 

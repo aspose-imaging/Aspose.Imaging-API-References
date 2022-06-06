@@ -14,7 +14,7 @@ Gets or sets the gamma blue.
 public int GammaBlue { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The gamma blue.
 

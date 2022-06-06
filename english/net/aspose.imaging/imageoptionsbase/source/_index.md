@@ -14,7 +14,7 @@ Gets or sets the source to create image in.
 public Source Source { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The source to create image in.
 

@@ -14,7 +14,7 @@ Gets a value indicating whether this [`PngImage`](../../pngimage) is interlaced.
 public bool Interlaced { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if interlaced; otherwise, `false`.
 

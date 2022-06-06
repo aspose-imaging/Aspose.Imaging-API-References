@@ -14,7 +14,7 @@ Gets the frame left offset.
 public int FrameLeft { get; }
 ```
 
-## Property Value
+### Property Value
 
 The frame left offset.
 

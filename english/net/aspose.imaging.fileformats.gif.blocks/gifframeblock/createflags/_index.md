@@ -21,7 +21,7 @@ public static byte CreateFlags(IColorPalette colorPalette, bool isPaletteSorted,
 | isPaletteSorted | Boolean | if set to `true` the colors in color palette are sorted. |
 | isGifFrameInterlaced | Boolean | if set to `true` the GIF frame image is interlaced. |
 
-## Return Value
+### Return Value
 
 The created flags.
 

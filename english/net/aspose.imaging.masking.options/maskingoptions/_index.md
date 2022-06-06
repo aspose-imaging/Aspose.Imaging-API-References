@@ -3,7 +3,7 @@ title: MaskingOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10500
+weight: 10520
 url: /net/aspose.imaging.masking.options/maskingoptions/
 ---
 ## MaskingOptions class
@@ -30,6 +30,12 @@ public class MaskingOptions
 | [ExportOptions](../../aspose.imaging.masking.options/maskingoptions/exportoptions) { get; set; } | Gets or sets the image export options. |
 | [MaskingArea](../../aspose.imaging.masking.options/maskingoptions/maskingarea) { get; set; } | Gets or sets the masking area. |
 | [Method](../../aspose.imaging.masking.options/maskingoptions/method) { get; set; } | Gets or sets the segmentation method. |
+
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [BackgroundObjectNumber](../../aspose.imaging.masking.options/maskingoptions/backgroundobjectnumber) | The background object number |
 
 ### Examples
 

@@ -3,7 +3,7 @@ title: VectorPathType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2360
+weight: 2370
 url: /net/aspose.imaging.fileformats.core.vectorpaths/vectorpathtype/
 ---
 ## VectorPathType enumeration
@@ -14,7 +14,7 @@ Vector Path Type according to PSD Format Specification
 public enum VectorPathType : short
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

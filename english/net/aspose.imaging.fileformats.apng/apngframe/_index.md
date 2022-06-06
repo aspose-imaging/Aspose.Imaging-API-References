@@ -3,7 +3,7 @@ title: ApngFrame
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1300
+weight: 1310
 url: /net/aspose.imaging.fileformats.apng/apngframe/
 ---
 ## ApngFrame class

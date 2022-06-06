@@ -18,7 +18,7 @@ public VectorPathRecord ProducePathRecord(byte[] data)
 | --- | --- | --- |
 | data | Byte[] | The record data. |
 
-## Return Value
+### Return Value
 
 Created [`VectorPathRecord`](../../vectorpathrecord)
 

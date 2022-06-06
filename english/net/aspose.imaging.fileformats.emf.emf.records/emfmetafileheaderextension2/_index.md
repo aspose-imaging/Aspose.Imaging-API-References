@@ -3,7 +3,7 @@ title: EmfMetafileHeaderExtension2
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3820
+weight: 3830
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension2/
 ---
 ## EmfMetafileHeaderExtension2 class

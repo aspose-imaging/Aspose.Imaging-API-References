@@ -14,7 +14,7 @@ Gets the metadata.
 public OdMetadata Metadata { get; }
 ```
 
-## Property Value
+### Property Value
 
 The metadata.
 

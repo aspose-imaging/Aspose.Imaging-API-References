@@ -14,7 +14,7 @@ Gets or sets the cap style used at the end of lines drawn with this [`Pen`](../.
 public LineCap EndCap { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 One of the [`LineCap`](../../linecap) values that represents the cap style used at the end of lines drawn with this [`Pen`](../../pen).
 

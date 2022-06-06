@@ -3,7 +3,7 @@ title: MatrixOrder
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10550
+weight: 10570
 url: /net/aspose.imaging/matrixorder/
 ---
 ## MatrixOrder enumeration
@@ -14,7 +14,7 @@ Specifies the order for matrix transform operations.
 public enum MatrixOrder
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

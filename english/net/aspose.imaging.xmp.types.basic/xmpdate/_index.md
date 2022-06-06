@@ -3,7 +3,7 @@ title: XmpDate
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11450
+weight: 11470
 url: /net/aspose.imaging.xmp.types.basic/xmpdate/
 ---
 ## XmpDate class
@@ -34,11 +34,11 @@ public sealed class XmpDate : XmpTypeBase
 | --- | --- |
 | override [GetXmpRepresentation](../../aspose.imaging.xmp.types.basic/xmpdate/getxmprepresentation)() | Returns string contained value in XMP format. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [Iso8601Format](iso8601format) | The ISO 8601 (roundtrip) format string. |
+| const [Iso8601Format](../../aspose.imaging.xmp.types.basic/xmpdate/iso8601format) | The ISO 8601 (roundtrip) format string. |
 
 ### Remarks
 

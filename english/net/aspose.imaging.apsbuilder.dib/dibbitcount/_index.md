@@ -14,7 +14,7 @@ The BitCount Enumeration specifies the number of bits that define each pixel and
 public enum DibBitCount : short
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

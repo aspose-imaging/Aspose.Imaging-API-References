@@ -14,7 +14,7 @@ Performs a deep clone of this graphics path.
 public GraphicsPath DeepClone()
 ```
 
-## Return Value
+### Return Value
 
 A deep clone of the graphics path.
 

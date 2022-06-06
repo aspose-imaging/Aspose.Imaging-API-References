@@ -3,7 +3,7 @@ title: EmfSetPolyFillMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4450
+weight: 4460
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetpolyfillmode/
 ---
 ## EmfSetPolyFillMode class

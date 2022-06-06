@@ -3,7 +3,7 @@ title: BitmapCoreHeader
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1330
+weight: 1340
 url: /net/aspose.imaging.fileformats.bmp/bitmapcoreheader/
 ---
 ## BitmapCoreHeader class
@@ -23,6 +23,19 @@ public abstract class BitmapCoreHeader
 | [BitmapWidth](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapwidth) { get; set; } | Gets or sets bitmap width. |
 | [BitsPerPixel](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitsperpixel) { get; set; } | Gets or sets bits per pixel count. |
 | [HeaderSize](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/headersize) { get; set; } | Gets or sets size of this structure in bytes. |
+
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [BitmapCoreHeaderSize](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapcoreheadersize) | The BITMAPCOREHEADER aka OS21XBITMAPHEADER header size |
+| const [BitmapInfoHeaderSize](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapinfoheadersize) | The bitmap information header size v3 |
+| const [BitmapInfoHeaderSizeV2](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapinfoheadersizev2) | The bitmap information header size v2 |
+| const [BitmapInfoHeaderSizeV3](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapinfoheadersizev3) | The bitmap information header size v3 |
+| const [BitmapInfoHeaderSizeV4](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapinfoheadersizev4) | The bitmap information header size v4 |
+| const [BitmapInfoHeaderSizeV5](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapinfoheadersizev5) | The bitmap information header size v5 |
+| const [Os22XBitmapHeaderFullSize](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/os22xbitmapheaderfullsize) | The bitmap core header2 size |
+| const [Os22XBitmapHeaderSize](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/os22xbitmapheadersize) | The bitmap core header2 size |
 
 ### See Also
 

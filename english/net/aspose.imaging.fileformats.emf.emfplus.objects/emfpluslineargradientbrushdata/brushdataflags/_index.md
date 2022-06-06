@@ -14,7 +14,7 @@ Gets or sets the brush data flags.
 public EmfPlusBrushDataFlags BrushDataFlags { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 BrushDataFlags (4 bytes): A 32-bit unsigned integer that specifies the data in the OptionalData field. This value MUST be composed of [`EmfPlusBrushDataFlags`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushdataflags) (section 2.1.2.1).
 

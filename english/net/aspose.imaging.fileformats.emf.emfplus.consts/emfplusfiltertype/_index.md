@@ -3,7 +3,7 @@ title: EmfPlusFilterType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4790
+weight: 4800
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusfiltertype/
 ---
 ## EmfPlusFilterType enumeration
@@ -14,7 +14,7 @@ The FilterType enumeration defines types of filtering algorithms that can be use
 public enum EmfPlusFilterType : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

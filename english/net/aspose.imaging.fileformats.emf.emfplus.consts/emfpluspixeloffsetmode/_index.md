@@ -3,7 +3,7 @@ title: EmfPlusPixelOffsetMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5010
+weight: 5020
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspixeloffsetmode/
 ---
 ## EmfPlusPixelOffsetMode enumeration
@@ -14,7 +14,7 @@ The PixelOffsetMode enumeration defines how pixels are offset, which specifies t
 public enum EmfPlusPixelOffsetMode : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

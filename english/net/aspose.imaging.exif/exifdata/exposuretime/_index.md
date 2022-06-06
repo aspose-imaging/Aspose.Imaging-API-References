@@ -14,7 +14,7 @@ Gets or sets the exposure time.
 public TiffRational ExposureTime { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The exposure time.
 

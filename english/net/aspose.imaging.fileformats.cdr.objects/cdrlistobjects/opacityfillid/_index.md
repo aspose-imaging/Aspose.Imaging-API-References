@@ -14,7 +14,7 @@ Gets or sets the opacity fill identifier.
 public int OpacityFillId { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The opacity fill identifier.
 

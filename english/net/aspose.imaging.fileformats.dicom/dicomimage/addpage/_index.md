@@ -41,7 +41,7 @@ Adds a new page to the end of the page list.
 public DicomPage AddPage()
 ```
 
-## Return Value
+### Return Value
 
 The newly created [`DicomPage`](../../dicompage).
 

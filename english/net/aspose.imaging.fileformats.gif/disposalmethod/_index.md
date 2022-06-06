@@ -3,7 +3,7 @@ title: DisposalMethod
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6660
+weight: 6670
 url: /net/aspose.imaging.fileformats.gif/disposalmethod/
 ---
 ## DisposalMethod enumeration
@@ -14,7 +14,7 @@ Indicates the way in which the graphic is to be treated after being displayed.
 public enum DisposalMethod
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

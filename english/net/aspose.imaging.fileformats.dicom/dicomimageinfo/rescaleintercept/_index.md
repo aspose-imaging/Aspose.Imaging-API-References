@@ -14,7 +14,7 @@ Gets a value of the "rescaleIntercept".
 public double RescaleIntercept { get; }
 ```
 
-## Property Value
+### Property Value
 
 The a value of the "rescaleIntercept".
 

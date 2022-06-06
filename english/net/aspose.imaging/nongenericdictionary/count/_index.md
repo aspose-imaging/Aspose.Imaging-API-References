@@ -14,7 +14,7 @@ Gets the number of elements contained in the ICollection.
 public int Count { get; }
 ```
 
-## Return Value
+### Return Value
 
 The number of elements contained in the ICollection.
 

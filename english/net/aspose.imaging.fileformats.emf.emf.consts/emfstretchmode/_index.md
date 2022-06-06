@@ -3,7 +3,7 @@ title: EmfStretchMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2860
+weight: 2870
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfstretchmode/
 ---
 ## EmfStretchMode enumeration
@@ -14,7 +14,7 @@ The StretchMode enumeration is used to specify how color data is added to or rem
 public enum EmfStretchMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

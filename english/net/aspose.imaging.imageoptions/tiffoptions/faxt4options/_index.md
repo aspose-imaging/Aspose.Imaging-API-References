@@ -3,7 +3,7 @@ title: FaxT4Options
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.imaging.imageoptions/tiffoptions/faxt4options/
 ---
 ## TiffOptions.FaxT4Options property
@@ -14,7 +14,7 @@ Gets or sets the fax t4 options.
 public Group3Options FaxT4Options { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The fax t4 options.
 

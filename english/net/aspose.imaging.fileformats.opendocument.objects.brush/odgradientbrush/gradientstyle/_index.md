@@ -14,7 +14,7 @@ Gets or sets the gradient style.
 public OdGradientStyle GradientStyle { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The gradient style.
 

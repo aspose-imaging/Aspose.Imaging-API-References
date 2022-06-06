@@ -14,7 +14,7 @@ Gets the number of frames.
 public int NumberOfFrames { get; }
 ```
 
-## Property Value
+### Property Value
 
 The number of frames.
 

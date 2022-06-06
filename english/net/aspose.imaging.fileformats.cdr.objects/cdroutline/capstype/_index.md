@@ -14,7 +14,7 @@ Gets or sets the type of the caps.
 public short CapsType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the caps.
 

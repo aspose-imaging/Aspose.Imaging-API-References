@@ -14,7 +14,7 @@ Gets or sets the height of this [`Rectangle`](../../rectangle) structure.
 public int Height { get; set; }
 ```
 
-## Return Value
+### Return Value
 
 The height of this [`Rectangle`](../../rectangle) structure.
 

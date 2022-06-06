@@ -14,7 +14,7 @@ Gets the registered image loading formats.
 public static FileFormat RegisteredFormats { get; }
 ```
 
-## Property Value
+### Property Value
 
 The registered image loading formats.
 

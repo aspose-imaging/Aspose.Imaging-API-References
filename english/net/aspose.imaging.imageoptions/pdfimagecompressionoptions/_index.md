@@ -3,7 +3,7 @@ title: PdfImageCompressionOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10090
+weight: 10110
 url: /net/aspose.imaging.imageoptions/pdfimagecompressionoptions/
 ---
 ## PdfImageCompressionOptions enumeration
@@ -14,7 +14,7 @@ Pdf image compression options
 public enum PdfImageCompressionOptions
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

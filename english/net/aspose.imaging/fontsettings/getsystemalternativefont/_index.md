@@ -14,7 +14,7 @@ Gets or sets a value indicating whether [get alternative font].
 public static bool GetSystemAlternativeFont { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if [get alternative font]; otherwise, `false`.
 

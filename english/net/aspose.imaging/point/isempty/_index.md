@@ -14,7 +14,7 @@ Gets a value indicating whether this [`Point`](../../point) is empty.
 public bool IsEmpty { get; }
 ```
 
-## Return Value
+### Return Value
 
 True if both [`X`](../x) and [`Y`](../y) are 0; otherwise, false.
 

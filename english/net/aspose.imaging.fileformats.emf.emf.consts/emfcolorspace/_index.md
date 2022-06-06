@@ -3,7 +3,7 @@ title: EmfColorSpace
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2580
+weight: 2590
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfcolorspace/
 ---
 ## EmfColorSpace enumeration
@@ -14,7 +14,7 @@ The ColorSpace enumeration is used to specify when to turn color proofing on and
 public enum EmfColorSpace
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

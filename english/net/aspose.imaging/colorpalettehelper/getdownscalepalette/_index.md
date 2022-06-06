@@ -18,7 +18,7 @@ public static ColorPalette GetDownscalePalette(RasterImage image)
 | --- | --- | --- |
 | image | RasterImage | The image. |
 
-## Return Value
+### Return Value
 
 The [`ColorPalette`](../../colorpalette).
 

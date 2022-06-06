@@ -14,7 +14,7 @@ Gets the XMP meta. Optional.
 public XmpMeta Meta { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The XMP meta. Optional.
 

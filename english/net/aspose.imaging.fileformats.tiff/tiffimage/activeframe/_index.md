@@ -14,7 +14,7 @@ Gets or sets the active frame.
 public TiffFrame ActiveFrame { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Active frame.
 

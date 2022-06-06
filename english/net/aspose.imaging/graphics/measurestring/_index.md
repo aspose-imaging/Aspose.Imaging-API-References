@@ -21,7 +21,7 @@ public SizeF MeasureString(string text, Font font, SizeF layoutArea, StringForma
 | layoutArea | SizeF | The layout area. |
 | stringFormat | StringFormat | The string format. |
 
-## Return Value
+### Return Value
 
 Size in pixels of measured text string
 

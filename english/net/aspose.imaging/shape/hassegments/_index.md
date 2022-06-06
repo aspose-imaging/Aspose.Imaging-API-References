@@ -14,7 +14,7 @@ Gets a value indicating whether shape has segments.
 public abstract bool HasSegments { get; }
 ```
 
-## Property Value
+### Property Value
 
 `True` if shape has segments; otherwise, `false`.
 

@@ -14,7 +14,7 @@ Gets or sets EXIF data from frame.
 public ExifData ExifData { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 EXIF data container
 

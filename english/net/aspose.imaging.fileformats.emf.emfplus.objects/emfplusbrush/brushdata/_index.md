@@ -14,7 +14,7 @@ Gets or sets the Brush data Variable-length data that defines the brush object s
 public EmfPlusBaseBrushData BrushData { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The brush data.
 

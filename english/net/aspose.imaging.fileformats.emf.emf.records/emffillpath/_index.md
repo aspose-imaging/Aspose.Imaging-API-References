@@ -3,7 +3,7 @@ title: EmfFillPath
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3680
+weight: 3690
 url: /net/aspose.imaging.fileformats.emf.emf.records/emffillpath/
 ---
 ## EmfFillPath class

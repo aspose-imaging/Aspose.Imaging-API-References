@@ -14,7 +14,7 @@ Gets or sets the version text.
 public string VersionText { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The version text.
 

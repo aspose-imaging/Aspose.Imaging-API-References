@@ -14,7 +14,7 @@ Gets or sets the focus point for the gradient falloff.
 public PointF FocusScales { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A [`PointF`](../../../aspose.imaging/pointf) that represents the focus point for the gradient falloff.
 

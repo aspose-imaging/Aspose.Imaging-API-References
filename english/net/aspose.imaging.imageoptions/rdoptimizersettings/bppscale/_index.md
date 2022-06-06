@@ -14,7 +14,7 @@ Gets or sets the BPP (bits per pixel) scale factor.
 public int BppScale { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The BPP scale.
 

@@ -14,7 +14,7 @@ Gets or sets a value indicating whether shape is closed.
 public bool IsClosed { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if shape is closed; otherwise, `false`.
 

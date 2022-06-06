@@ -14,7 +14,7 @@ Gets or sets A 32-bit floating-point number that specifies the difference in int
 public float Amount { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The amount.
 

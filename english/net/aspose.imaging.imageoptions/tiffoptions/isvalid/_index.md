@@ -3,7 +3,7 @@ title: IsValid
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.imaging.imageoptions/tiffoptions/isvalid/
 ---
 ## TiffOptions.IsValid property
@@ -14,7 +14,7 @@ Gets a value indicating whether the [`TiffOptions`](../../tiffoptions) have been
 public bool IsValid { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if TiffOptions are properly configured; otherwise, `false`.
 

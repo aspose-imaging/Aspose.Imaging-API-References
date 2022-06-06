@@ -3,7 +3,7 @@ title: YCbCrSubsampling
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 680
+weight: 690
 url: /net/aspose.imaging.imageoptions/tiffoptions/ycbcrsubsampling/
 ---
 ## TiffOptions.YCbCrSubsampling property
@@ -14,7 +14,7 @@ Gets or sets the subsampling factors for YCbCr photometric.
 public ushort[] YCbCrSubsampling { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The subsampling factors for YCbCr photometric.
 

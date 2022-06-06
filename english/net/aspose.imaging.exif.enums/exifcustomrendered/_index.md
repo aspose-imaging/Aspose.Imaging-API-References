@@ -3,7 +3,7 @@ title: ExifCustomRendered
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 890
+weight: 900
 url: /net/aspose.imaging.exif.enums/exifcustomrendered/
 ---
 ## ExifCustomRendered enumeration
@@ -14,7 +14,7 @@ exif custom rendered enum.
 public enum ExifCustomRendered
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

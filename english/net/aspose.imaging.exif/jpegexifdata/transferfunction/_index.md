@@ -14,7 +14,7 @@ Gets or sets the transfer function.
 public ushort[] TransferFunction { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The transfer function.
 

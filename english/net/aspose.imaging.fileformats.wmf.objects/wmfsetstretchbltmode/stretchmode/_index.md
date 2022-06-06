@@ -14,7 +14,7 @@ Gets or sets the stretch mode.
 public StretchMode StretchMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The bitmap stretching mode.
 

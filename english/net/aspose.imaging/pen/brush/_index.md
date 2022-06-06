@@ -14,7 +14,7 @@ Gets or sets the `Brush` that determines attributes of this [`Pen`](../../pen).
 public Brush Brush { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A `Brush` that determines attributes of this [`Pen`](../../pen).
 

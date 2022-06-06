@@ -3,7 +3,7 @@ title: EmfPlusGetDc
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6120
+weight: 6130
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusgetdc/
 ---
 ## EmfPlusGetDc class

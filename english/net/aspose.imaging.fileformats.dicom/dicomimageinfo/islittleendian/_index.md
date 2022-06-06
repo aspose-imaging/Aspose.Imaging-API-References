@@ -14,7 +14,7 @@ Gets a value indicating whether this instance is little endian.
 public bool IsLittleEndian { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this instance is little endian; otherwise, `false`.
 

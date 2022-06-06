@@ -14,7 +14,7 @@ Gets or sets the existing [`Color`](../../color) structure to be converted.
 public Color OldColor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The existing [`Color`](../../color) structure to be converted.
 

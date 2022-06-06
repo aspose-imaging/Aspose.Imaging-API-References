@@ -3,7 +3,7 @@ title: EmfCloseFigure
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3300
+weight: 3310
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfclosefigure/
 ---
 ## EmfCloseFigure class

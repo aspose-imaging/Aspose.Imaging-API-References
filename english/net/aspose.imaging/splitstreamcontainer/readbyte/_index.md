@@ -14,7 +14,7 @@ Reads a byte from the stream and advances the position within the stream by one 
 public override int ReadByte()
 ```
 
-## Return Value
+### Return Value
 
 The unsigned byte cast to an Int32, or -1 if at the end of the stream.
 

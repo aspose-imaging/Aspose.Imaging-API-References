@@ -14,7 +14,7 @@ Clone this instance.
 public abstract object Clone()
 ```
 
-## Return Value
+### Return Value
 
 The return new instance of source brush
 

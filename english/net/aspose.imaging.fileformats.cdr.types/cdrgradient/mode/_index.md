@@ -14,7 +14,7 @@ Gets or sets the mode.
 public int Mode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The mode.
 

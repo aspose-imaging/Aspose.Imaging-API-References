@@ -3,7 +3,7 @@ title: IccProfile
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.imaging.imageoptions/tiffoptions/iccprofile/
 ---
 ## TiffOptions.IccProfile property
@@ -14,7 +14,7 @@ Gets or sets the Icc profile stream.
 public MemoryStream IccProfile { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The icc profile.
 

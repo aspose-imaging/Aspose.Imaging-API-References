@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this [`CmxEllipseSpec`](../../cmxellipse
 public bool Pie { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if pie; otherwise, `false`.
 

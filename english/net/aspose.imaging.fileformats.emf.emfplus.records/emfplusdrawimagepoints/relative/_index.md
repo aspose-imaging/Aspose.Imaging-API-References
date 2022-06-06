@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this [`EmfPlusDrawImagePoints`](../../em
 public bool Relative { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if relative; otherwise, `false`.
 

@@ -3,7 +3,7 @@ title: EmfPlusObjectType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4930
+weight: 4940
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusobjecttype/
 ---
 ## EmfPlusObjectType enumeration
@@ -14,7 +14,7 @@ The ObjectType enumeration defines types of graphics objects that can be created
 public enum EmfPlusObjectType : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

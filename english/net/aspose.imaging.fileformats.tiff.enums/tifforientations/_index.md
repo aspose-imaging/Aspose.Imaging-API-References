@@ -3,7 +3,7 @@ title: TiffOrientations
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7670
+weight: 7680
 url: /net/aspose.imaging.fileformats.tiff.enums/tifforientations/
 ---
 ## TiffOrientations enumeration
@@ -14,7 +14,7 @@ Image orientation. Possible values for ORIENTATION tag.
 public enum TiffOrientations : ushort
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

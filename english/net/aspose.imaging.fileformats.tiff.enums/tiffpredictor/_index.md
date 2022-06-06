@@ -3,7 +3,7 @@ title: TiffPredictor
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7700
+weight: 7710
 url: /net/aspose.imaging.fileformats.tiff.enums/tiffpredictor/
 ---
 ## TiffPredictor enumeration
@@ -14,7 +14,7 @@ Prediction scheme for LZW
 public enum TiffPredictor : ushort
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

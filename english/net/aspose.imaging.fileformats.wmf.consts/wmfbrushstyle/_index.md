@@ -3,7 +3,7 @@ title: WmfBrushStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8100
+weight: 8110
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfbrushstyle/
 ---
 ## WmfBrushStyle enumeration
@@ -14,7 +14,7 @@ The BrushStyle Enumeration specifies the different possible brush types that can
 public enum WmfBrushStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

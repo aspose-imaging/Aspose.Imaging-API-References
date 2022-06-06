@@ -3,7 +3,7 @@ title: IsExtraSamplesPresent
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.imaging.imageoptions/tiffoptions/isextrasamplespresent/
 ---
 ## TiffOptions.IsExtraSamplesPresent property
@@ -14,7 +14,7 @@ Gets a value indicating whether the extra samples is present.
 public bool IsExtraSamplesPresent { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if the extra samples is present; otherwise, `false`.
 

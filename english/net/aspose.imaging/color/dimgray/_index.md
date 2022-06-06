@@ -14,7 +14,7 @@ Gets a system-defined color.
 public static Color DimGray { get; }
 ```
 
-## Property Value
+### Property Value
 
 A [`Color`](../../color) representing a system-defined color.
 

@@ -14,7 +14,7 @@ Gets or sets the rate method.
 public ushort RateMethod { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The rate method.
 

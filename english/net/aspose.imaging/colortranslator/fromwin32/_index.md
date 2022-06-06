@@ -18,7 +18,7 @@ public static Color FromWin32(int win32Color)
 | --- | --- | --- |
 | win32Color | Int32 | Win32 color. |
 
-## Return Value
+### Return Value
 
 The color.
 

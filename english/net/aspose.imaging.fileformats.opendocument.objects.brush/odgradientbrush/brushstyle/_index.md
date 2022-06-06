@@ -14,7 +14,7 @@ Gets the style.
 public override OdBrushStyle BrushStyle { get; }
 ```
 
-## Property Value
+### Property Value
 
 The style.
 

@@ -14,7 +14,7 @@ Gets the [`KnownColor`](../../knowncolor) value of this [`Color`](../../color) s
 public KnownColor ToKnownColor()
 ```
 
-## Return Value
+### Return Value
 
 An element of the [`KnownColor`](../../knowncolor) enumeration, if the [`Color`](../../color) is created from a predefined color by using either the [`FromName`](../fromname) method or the [`FromKnownColor`](../fromknowncolor) method; otherwise, 0.
 

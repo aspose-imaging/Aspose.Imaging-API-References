@@ -14,7 +14,7 @@ Gets or sets the exposure bias value.
 public TiffSRational ExposureBiasValue { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The exposure bias value.
 

@@ -14,7 +14,7 @@ Gets or sets the other image parameters.
 public ImageOtherParameters ImageOtherParameters { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The other.
 

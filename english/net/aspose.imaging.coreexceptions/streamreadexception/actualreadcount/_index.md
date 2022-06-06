@@ -14,7 +14,7 @@ Gets the actual read bytes count.
 public int ActualReadCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 The actual read bytes count.
 

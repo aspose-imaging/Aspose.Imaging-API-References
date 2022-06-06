@@ -14,7 +14,7 @@ Gets or sets a value indicating whether color palette is sorted.
 public bool IsPaletteSorted { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if color palette is sorted; otherwise, `false`.
 

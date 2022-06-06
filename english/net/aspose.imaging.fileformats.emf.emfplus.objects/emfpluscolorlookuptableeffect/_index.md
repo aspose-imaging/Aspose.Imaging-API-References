@@ -3,7 +3,7 @@ title: EmfPlusColorLookupTableEffect
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5300
+weight: 5310
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorlookuptableeffect/
 ---
 ## EmfPlusColorLookupTableEffect class

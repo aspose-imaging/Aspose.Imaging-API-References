@@ -14,7 +14,7 @@ Gets or sets a value indicating whether the image components must be premultipli
 public virtual bool PremultiplyComponents { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if the image components must be premultiplied; otherwise, `false`.
 

@@ -3,7 +3,7 @@ title: GifCommentBlock
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6610
+weight: 6620
 url: /net/aspose.imaging.fileformats.gif.blocks/gifcommentblock/
 ---
 ## GifCommentBlock class
@@ -34,12 +34,12 @@ public class GifCommentBlock : GifBlock
 | --- | --- |
 | override [Save](../../aspose.imaging.fileformats.gif.blocks/gifcommentblock/save)(Stream) | Saves the block to the specified stream. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [BlockHeaderSize](blockheadersize) | Defines the block header size. |
-| const [ExtensionLabel](extensionlabel) | Gif comment block extension label. |
+| const [BlockHeaderSize](../../aspose.imaging.fileformats.gif.blocks/gifcommentblock/blockheadersize) | Defines the block header size. |
+| const [ExtensionLabel](../../aspose.imaging.fileformats.gif.blocks/gifcommentblock/extensionlabel) | Gif comment block extension label. |
 
 ### See Also
 

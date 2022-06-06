@@ -3,7 +3,7 @@ title: EmfPlusStringFormatFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5070
+weight: 5080
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusstringformatflags/
 ---
 ## EmfPlusStringFormatFlags enumeration
@@ -15,7 +15,7 @@ The StringFormat flags specify options for graphics text layout, including direc
 public enum EmfPlusStringFormatFlags : uint
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

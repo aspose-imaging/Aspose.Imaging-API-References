@@ -14,7 +14,7 @@ Gets or sets the text grid height in pixels
 public ushort TextGridHeight { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The text grid height in pixels.
 

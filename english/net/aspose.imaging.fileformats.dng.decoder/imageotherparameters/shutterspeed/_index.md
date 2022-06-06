@@ -14,7 +14,7 @@ Gets the shutter speed.
 public float ShutterSpeed { get; }
 ```
 
-## Property Value
+### Property Value
 
 The shutter.
 

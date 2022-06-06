@@ -3,7 +3,7 @@ title: GifPlainTextRenderingBlock
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6640
+weight: 6650
 url: /net/aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/
 ---
 ## GifPlainTextRenderingBlock class
@@ -42,13 +42,13 @@ public class GifPlainTextRenderingBlock : GifBlock
 | --- | --- |
 | override [Save](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/save)(Stream) | Saves the block to the specified stream. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [BlockSize](blocksize) | The overall block size. |
-| const [ExtensionLabel](extensionlabel) | The plain text extension label. |
-| const [SubBlockSize](subblocksize) | The size of the sub block. |
+| const [BlockSize](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/blocksize) | The overall block size. |
+| const [ExtensionLabel](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/extensionlabel) | The plain text extension label. |
+| const [SubBlockSize](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/subblocksize) | The size of the sub block. |
 
 ### See Also
 

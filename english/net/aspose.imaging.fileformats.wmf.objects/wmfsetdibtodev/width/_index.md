@@ -14,7 +14,7 @@ Gets or sets the width.
 public int Width { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The width, in logical units, of the source and destination rectangles.
 

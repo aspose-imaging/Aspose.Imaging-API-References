@@ -3,7 +3,7 @@ title: LineCap
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10370
+weight: 10390
 url: /net/aspose.imaging/linecap/
 ---
 ## LineCap enumeration
@@ -14,7 +14,7 @@ Specifies the available cap styles with which a [`Pen`](../pen) object can end a
 public enum LineCap
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

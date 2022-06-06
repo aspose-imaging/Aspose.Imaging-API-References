@@ -3,7 +3,7 @@ title: InitialFillRuleRecord
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2300
+weight: 2310
 url: /net/aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord/
 ---
 ## InitialFillRuleRecord class

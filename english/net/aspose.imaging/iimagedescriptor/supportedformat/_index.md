@@ -14,7 +14,7 @@ Gets the supported format.
 public FileFormat SupportedFormat { get; }
 ```
 
-## Property Value
+### Property Value
 
 The supported format.
 

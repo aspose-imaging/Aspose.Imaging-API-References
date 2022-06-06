@@ -14,7 +14,7 @@ Gets or sets the bounding rectangle.
 public Rectangle BoundingRectangle { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A Rect object (section 2.2.2.18) that defines the bounding rectangle.
 

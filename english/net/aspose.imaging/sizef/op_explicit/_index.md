@@ -18,7 +18,7 @@ public static explicit operator PointF(SizeF size)
 | --- | --- | --- |
 | size | SizeF | The [`SizeF`](../../sizef) structure to be converted |
 
-## Return Value
+### Return Value
 
 The [`PointF`](../../pointf) structure to which this operator converts.
 

@@ -3,7 +3,7 @@ title: IRasterImageArgb32PixelLoader
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9620
+weight: 9630
 url: /net/aspose.imaging/irasterimageargb32pixelloader/
 ---
 ## IRasterImageArgb32PixelLoader interface

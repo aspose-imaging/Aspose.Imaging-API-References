@@ -14,7 +14,7 @@ Gets or sets the value this data type contains.
 public abstract object Value { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The value.
 

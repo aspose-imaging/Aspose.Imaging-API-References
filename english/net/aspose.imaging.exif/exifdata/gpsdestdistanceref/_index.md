@@ -14,7 +14,7 @@ Gets or sets the GPS unit used to express the distance to the destination point.
 public string GPSDestDistanceRef { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS unit used to express the distance to the destination point.
 

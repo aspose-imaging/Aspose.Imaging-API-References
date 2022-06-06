@@ -3,7 +3,7 @@ title: RdOptimizationError
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 710
+weight: 720
 url: /net/aspose.imaging.coreexceptions/rdoptimizationerror/
 ---
 ## RdOptimizationError class

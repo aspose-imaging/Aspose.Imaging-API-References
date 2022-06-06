@@ -14,7 +14,7 @@ Gets or sets the distance between the cap and the line.
 public float BaseInset { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The distance between the beginning of the cap and the end of the line.
 

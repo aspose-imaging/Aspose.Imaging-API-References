@@ -3,7 +3,7 @@ title: StringDigitSubstitute
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11140
+weight: 11160
 url: /net/aspose.imaging/stringdigitsubstitute/
 ---
 ## StringDigitSubstitute enumeration
@@ -14,7 +14,7 @@ The enumeration specifies how to substitute digits in a string according to a us
 public enum StringDigitSubstitute
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

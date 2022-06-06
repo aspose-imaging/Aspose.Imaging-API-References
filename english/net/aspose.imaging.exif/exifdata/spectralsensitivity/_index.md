@@ -14,7 +14,7 @@ Gets or sets the spectral sensitivity.
 public string SpectralSensitivity { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The spectral sensitivity.
 

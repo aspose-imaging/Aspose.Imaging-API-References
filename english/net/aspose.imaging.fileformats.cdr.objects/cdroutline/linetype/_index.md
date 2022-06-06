@@ -14,7 +14,7 @@ Gets or sets the type of the line.
 public short LineType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the line.
 

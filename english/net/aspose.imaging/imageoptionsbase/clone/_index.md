@@ -14,7 +14,7 @@ Clones this instance.
 public virtual ImageOptionsBase Clone()
 ```
 
-## Return Value
+### Return Value
 
 Returns shallow copy of this instance
 

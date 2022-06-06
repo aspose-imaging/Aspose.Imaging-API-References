@@ -3,7 +3,7 @@ title: RowsPerStrip
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 390
+weight: 400
 url: /net/aspose.imaging.imageoptions/tiffoptions/rowsperstrip/
 ---
 ## TiffOptions.RowsPerStrip property
@@ -14,7 +14,7 @@ Gets or sets the rows per strip.
 public uint RowsPerStrip { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The rows per strip.
 

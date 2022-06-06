@@ -3,7 +3,7 @@ title: EmfPlusDrawPie
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5990
+weight: 6000
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawpie/
 ---
 ## EmfPlusDrawPie class

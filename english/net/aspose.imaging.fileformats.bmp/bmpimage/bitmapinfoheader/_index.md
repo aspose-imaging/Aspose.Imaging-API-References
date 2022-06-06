@@ -14,7 +14,7 @@ Gets the bitmap information header.
 public BitmapInfoHeader BitmapInfoHeader { get; }
 ```
 
-## Property Value
+### Property Value
 
 The bitmap information header.
 

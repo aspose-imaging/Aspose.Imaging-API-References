@@ -14,7 +14,7 @@ Gets or sets the stream position.
 public long Position { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The stream position.
 

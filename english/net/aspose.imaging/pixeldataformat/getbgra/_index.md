@@ -18,7 +18,7 @@ public static PixelDataFormat GetBgra(int bitsPerSample)
 | --- | --- | --- |
 | bitsPerSample | Int32 | The number of bits per sample. |
 
-## Return Value
+### Return Value
 
 The BGRA color.
 

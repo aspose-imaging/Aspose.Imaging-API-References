@@ -14,7 +14,7 @@ Gets or sets the limit of the thickness of the join on a mitered corner.
 public float MiterLimit { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The limit of the thickness of the join on a mitered corner.
 

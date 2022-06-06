@@ -14,7 +14,7 @@ Gets or sets the SNR(signal-to-noise ratio) recommended range 0.002 - 0.009, def
 public double Snr { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The SNR.
 

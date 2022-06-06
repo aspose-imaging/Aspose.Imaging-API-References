@@ -22,7 +22,7 @@ public static IColorPalette GetCloseImagePalette(RasterImage image, int entriesC
 | colorQuantizationMethod | ColorQuantizationMethod | The color quantization method. |
 | colorCompareMethod | ColorCompareMethod | The color compare method. |
 
-## Return Value
+### Return Value
 
 Optimized for image palette
 

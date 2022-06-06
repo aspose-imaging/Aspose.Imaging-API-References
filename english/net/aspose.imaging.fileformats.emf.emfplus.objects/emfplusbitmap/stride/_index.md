@@ -14,7 +14,7 @@ Gets or sets stride of the image Stride (4 bytes): A 32-bit signed integer that 
 public int Stride { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The stride.
 

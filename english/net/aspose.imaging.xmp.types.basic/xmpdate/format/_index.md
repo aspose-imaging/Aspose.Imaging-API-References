@@ -14,7 +14,7 @@ Gets the format string for current value.
 public string Format { get; }
 ```
 
-## Property Value
+### Property Value
 
 The format string for current value.
 

@@ -14,7 +14,7 @@ Gets or sets the RD optimizer settings.
 public RdOptimizerSettings RdOptSettings { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The RD optimizer settings.
 

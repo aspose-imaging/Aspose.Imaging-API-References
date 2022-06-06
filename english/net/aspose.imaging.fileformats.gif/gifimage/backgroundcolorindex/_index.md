@@ -14,7 +14,7 @@ Gets or sets the background color index.
 public byte BackgroundColorIndex { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The background color index.
 

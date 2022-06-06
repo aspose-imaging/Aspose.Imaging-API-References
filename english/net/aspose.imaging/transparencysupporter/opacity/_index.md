@@ -14,7 +14,7 @@ Gets or sets the object's opacity. The value should be between 0 and 1. Value of
 public float Opacity { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The opacity value.
 

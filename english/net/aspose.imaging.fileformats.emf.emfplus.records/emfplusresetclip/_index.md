@@ -3,7 +3,7 @@ title: EmfPlusResetClip
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6200
+weight: 6210
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusresetclip/
 ---
 ## EmfPlusResetClip class

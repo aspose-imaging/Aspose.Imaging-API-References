@@ -14,7 +14,7 @@ Gets or sets the buffer size hint which is defined max allowed size for all inte
 public static int BufferSizeHint { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The buffer size hint, in megabytes. Non-positive value means no memory limitation for internal buffers
 

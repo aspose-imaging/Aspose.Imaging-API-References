@@ -14,7 +14,7 @@ Gets or sets the rect f.
 public RectangleF RectF { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 An EmfPlusRectF object (section 2.2.2.39) that specifies the starting and ending points of the gradient line. The upper-left corner of the rectangle is the starting point. The lower-right corner is the ending point.
 

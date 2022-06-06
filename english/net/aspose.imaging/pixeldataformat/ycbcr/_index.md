@@ -14,7 +14,7 @@ Gets the [`PixelDataFormat`](../../pixeldataformat) defined for 24 bits per pixe
 public static PixelDataFormat YCbCr { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`PixelDataFormat`](../../pixeldataformat) defined for 24 bits per pixel with 8 bits for each of the luma, blue-difference and red-difference chroma components.
 

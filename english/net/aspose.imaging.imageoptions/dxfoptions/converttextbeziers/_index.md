@@ -14,7 +14,7 @@ Works when  is set to `true`. Wether to convert Bezier curves in text contours t
 public bool ConvertTextBeziers { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` to export as multipoint polylines, point count controlled by . `false` to export each bezier in text contour as just 4-point /// polyline.
 

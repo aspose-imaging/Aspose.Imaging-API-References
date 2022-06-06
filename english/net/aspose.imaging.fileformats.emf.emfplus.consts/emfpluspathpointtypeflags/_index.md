@@ -3,7 +3,7 @@ title: EmfPlusPathPointTypeFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4970
+weight: 4980
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspathpointtypeflags/
 ---
 ## EmfPlusPathPointTypeFlags enumeration
@@ -15,7 +15,7 @@ The PathPointType flags specify type properties of points on graphics paths. The
 public enum EmfPlusPathPointTypeFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

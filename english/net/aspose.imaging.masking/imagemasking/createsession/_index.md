@@ -18,7 +18,7 @@ public IMaskingSession CreateSession(MaskingOptions options)
 | --- | --- | --- |
 | options | MaskingOptions | The options. |
 
-## Return Value
+### Return Value
 
 the masking session which can perform retraining decompose operations.
 

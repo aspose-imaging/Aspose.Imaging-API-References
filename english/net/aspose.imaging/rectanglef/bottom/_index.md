@@ -14,7 +14,7 @@ Gets or sets the y-coordinate that is the sum of [`Y`](../y) and [`Height`](../h
 public float Bottom { get; set; }
 ```
 
-## Return Value
+### Return Value
 
 The y-coordinate that is the sum of [`Y`](../y) and [`Height`](../height) of this [`RectangleF`](../../rectanglef) structure.
 

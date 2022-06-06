@@ -14,7 +14,7 @@ Gets the number of spaces between the beginning of a line of text and the first 
 public float FirstTabOffset { get; }
 ```
 
-## Property Value
+### Property Value
 
 The first tab offset.
 

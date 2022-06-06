@@ -14,7 +14,7 @@ Gets or sets a value indicating whether user input is expected.
 public bool UserInputExpected { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if user input is expected; otherwise, `false`.
 

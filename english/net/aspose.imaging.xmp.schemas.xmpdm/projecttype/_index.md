@@ -3,7 +3,7 @@ title: ProjectType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11370
+weight: 11390
 url: /net/aspose.imaging.xmp.schemas.xmpdm/projecttype/
 ---
 ## ProjectType enumeration
@@ -14,7 +14,7 @@ Represents project type in [`XmpDynamicMediaPackage`](../xmpdynamicmediapackage)
 public enum ProjectType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

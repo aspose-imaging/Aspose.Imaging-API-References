@@ -18,7 +18,7 @@ public static int[] ToCmyk(int[] argbPixels)
 | --- | --- | --- |
 | argbPixels | Int32[] | The ARGB colors presented as 32-bit integer values. |
 
-## Return Value
+### Return Value
 
 The CMYK colors presented as 32-bit integer values.
 
@@ -42,7 +42,7 @@ public static int ToCmyk(int argbPixel)
 | --- | --- | --- |
 | argbPixel | Int32 | The ARGB color presented as a 32-bit integer value. |
 
-## Return Value
+### Return Value
 
 The CMYK color presented as a 32-bit integer value.
 
@@ -66,7 +66,7 @@ public static int ToCmyk(Color pixel)
 | --- | --- | --- |
 | pixel | Color | The ARGB color. |
 
-## Return Value
+### Return Value
 
 The CMYK color presented as a 32-bit integer value.
 
@@ -153,7 +153,7 @@ public static int[] ToCmyk(Color[] pixels)
 | --- | --- | --- |
 | pixels | Color[] | The ARGB colors. |
 
-## Return Value
+### Return Value
 
 The CMYK colors presented as 32-bit integer values.
 

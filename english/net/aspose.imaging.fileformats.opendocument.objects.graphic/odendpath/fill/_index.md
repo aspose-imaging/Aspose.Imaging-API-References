@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this [`OdEndPath`](../../odendpath) is f
 public bool Fill { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if fill; otherwise, `false`.
 

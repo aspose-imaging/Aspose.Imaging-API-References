@@ -14,7 +14,7 @@ Gets or sets the light source.
 public ExifLightSource LightSource { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The light source.
 

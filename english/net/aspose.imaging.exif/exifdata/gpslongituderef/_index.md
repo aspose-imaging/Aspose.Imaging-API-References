@@ -14,7 +14,7 @@ Gets or sets the GPS longitude is east or west longitude.
 public string GPSLongitudeRef { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS longitude is east or west longitude.
 

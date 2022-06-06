@@ -14,7 +14,7 @@ Gets the CMX document.
 public CmxDocument Document { get; }
 ```
 
-## Property Value
+### Property Value
 
 The CMX document.
 

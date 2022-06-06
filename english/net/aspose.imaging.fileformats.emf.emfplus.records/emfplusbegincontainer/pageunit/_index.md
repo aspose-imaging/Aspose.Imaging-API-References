@@ -14,7 +14,7 @@ Gets the page unit.
 public EmfPlusUnitType PageUnit { get; }
 ```
 
-## Property Value
+### Property Value
 
 The page unit.
 

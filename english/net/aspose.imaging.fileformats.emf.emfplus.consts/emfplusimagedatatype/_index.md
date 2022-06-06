@@ -3,7 +3,7 @@ title: EmfPlusImageDataType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4840
+weight: 4850
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusimagedatatype/
 ---
 ## EmfPlusImageDataType enumeration
@@ -14,7 +14,7 @@ The ImageDataType enumeration defines types of image data formats.
 public enum EmfPlusImageDataType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets the denominator.
 public int Denominator { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The denominator.
 

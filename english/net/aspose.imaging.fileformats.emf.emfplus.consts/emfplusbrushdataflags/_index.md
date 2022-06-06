@@ -3,7 +3,7 @@ title: EmfPlusBrushDataFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4680
+weight: 4690
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushdataflags/
 ---
 ## EmfPlusBrushDataFlags enumeration
@@ -15,7 +15,7 @@ The BrushData flags specify properties of graphics brushes, including the presen
 public enum EmfPlusBrushDataFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

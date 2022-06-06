@@ -3,7 +3,7 @@ title: EmfPlusBaseBitmapData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5120
+weight: 5130
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbasebitmapdata/
 ---
 ## EmfPlusBaseBitmapData class

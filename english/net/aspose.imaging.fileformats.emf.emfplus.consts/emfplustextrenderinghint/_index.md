@@ -3,7 +3,7 @@ title: EmfPlusTextRenderingHint
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5090
+weight: 5100
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplustextrenderinghint/
 ---
 ## EmfPlusTextRenderingHint enumeration
@@ -14,7 +14,7 @@ The TextRenderingHint enumeration defines types of text hinting and anti-aliasin
 public enum EmfPlusTextRenderingHint : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

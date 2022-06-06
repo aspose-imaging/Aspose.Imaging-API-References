@@ -14,7 +14,7 @@ Gets or sets the colors.
 public CmxColor[] Colors { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The array of gradient colors. The length of array must be greater or equal 2.
 

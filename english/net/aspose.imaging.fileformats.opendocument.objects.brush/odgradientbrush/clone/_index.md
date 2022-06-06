@@ -14,7 +14,7 @@ Clone this instance.
 public override object Clone()
 ```
 
-## Return Value
+### Return Value
 
 The return new instance of source brush
 

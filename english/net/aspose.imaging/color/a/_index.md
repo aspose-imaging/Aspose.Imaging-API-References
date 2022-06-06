@@ -14,7 +14,7 @@ Gets the alpha component value of this [`Color`](../../color) structure.
 public byte A { get; }
 ```
 
-## Property Value
+### Property Value
 
 The alpha component value of this [`Color`](../../color).
 

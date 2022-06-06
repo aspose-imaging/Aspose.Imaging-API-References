@@ -14,7 +14,7 @@ Gets or sets the white balance.
 public ExifWhiteBalance WhiteBalance { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The white balance.
 

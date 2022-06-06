@@ -14,7 +14,7 @@ Gets or sets the default width. Property DefaultWidth use with only case, when w
 public int DefaultWidth { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The default width.
 

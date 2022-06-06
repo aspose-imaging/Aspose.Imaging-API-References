@@ -14,7 +14,7 @@ Gets or sets the set of graphic shapes that form mask.
 public GraphicsPath Mask { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The mask.
 

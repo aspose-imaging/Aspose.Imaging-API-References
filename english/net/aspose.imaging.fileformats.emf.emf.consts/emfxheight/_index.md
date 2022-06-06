@@ -3,7 +3,7 @@ title: EmfXHeight
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2890
+weight: 2900
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfxheight/
 ---
 ## EmfXHeight enumeration
@@ -14,7 +14,7 @@ The XHeight enumeration defines values for one of the characteristics in the PAN
 public enum EmfXHeight : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

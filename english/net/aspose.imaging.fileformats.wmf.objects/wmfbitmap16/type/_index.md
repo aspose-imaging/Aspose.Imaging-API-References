@@ -14,7 +14,7 @@ Gets or sets the type.
 public short Type { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The bitmap type.
 

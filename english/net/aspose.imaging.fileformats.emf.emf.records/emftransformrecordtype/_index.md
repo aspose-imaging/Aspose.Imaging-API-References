@@ -3,7 +3,7 @@ title: EmfTransformRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4620
+weight: 4630
 url: /net/aspose.imaging.fileformats.emf.emf.records/emftransformrecordtype/
 ---
 ## EmfTransformRecordType class

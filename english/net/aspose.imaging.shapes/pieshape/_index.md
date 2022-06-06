@@ -3,7 +3,7 @@ title: PieShape
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10980
+weight: 11000
 url: /net/aspose.imaging.shapes/pieshape/
 ---
 ## PieShape class

@@ -14,7 +14,7 @@ Gets or sets the curve points.
 public PointF[] Points { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The curve points.
 

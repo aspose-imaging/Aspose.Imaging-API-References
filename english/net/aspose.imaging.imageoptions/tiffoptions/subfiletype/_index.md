@@ -3,7 +3,7 @@ title: SubFileType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.imaging.imageoptions/tiffoptions/subfiletype/
 ---
 ## TiffOptions.SubFileType property
@@ -14,7 +14,7 @@ Gets or sets a general indication of the kind of data contained in this subfile.
 public TiffNewSubFileTypes SubFileType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The general indication of the kind of data contained in this subfile.
 

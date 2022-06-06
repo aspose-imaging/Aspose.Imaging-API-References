@@ -14,7 +14,7 @@ Gets opacity of this image.
 public virtual float ImageOpacity { get; }
 ```
 
-## Property Value
+### Property Value
 
 The opacity value between 0.0 (fully transparent) and 1.0 (fully opaque).
 

@@ -14,7 +14,7 @@ Gets or sets the reference for giving the direction of GPS receiver movement.
 public string GPSTrackRef { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The reference for giving the direction of GPS receiver movement.
 

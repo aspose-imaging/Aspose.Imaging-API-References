@@ -14,7 +14,7 @@ Gets a value indicating whether tag data is valid. The valid tag contains data w
 public bool IsValid { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if tag data is valid; otherwise, `false`.
 

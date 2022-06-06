@@ -3,7 +3,7 @@ title: RenderErrorCode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10160
+weight: 10180
 url: /net/aspose.imaging.imageoptions/rendererrorcode/
 ---
 ## RenderErrorCode enumeration
@@ -14,7 +14,7 @@ Represents possible missing sections in CAD file
 public enum RenderErrorCode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

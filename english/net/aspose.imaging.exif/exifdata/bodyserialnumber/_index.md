@@ -14,7 +14,7 @@ Gets or sets camera body serial number.
 public string BodySerialNumber { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The body serial number.
 

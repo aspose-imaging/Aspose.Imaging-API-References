@@ -14,7 +14,7 @@ Gets or sets the region.
 public WmfRegion Region { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Region Object data that defines the region to create.
 

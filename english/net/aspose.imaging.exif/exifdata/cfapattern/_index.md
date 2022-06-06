@@ -14,7 +14,7 @@ Gets or sets the CFA pattern.
 public byte[] CFAPattern { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The CFA pattern.
 

@@ -3,7 +3,7 @@ title: CdrImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1410
+weight: 1420
 url: /net/aspose.imaging.fileformats.cdr/cdrimage/
 ---
 ## CdrImage class

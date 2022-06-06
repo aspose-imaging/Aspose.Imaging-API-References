@@ -14,7 +14,7 @@ Gets or sets an array that specifies how the points in the PathPoints field are 
 public EmfPlusBasePointType[] PathPointTypes { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The path point types.
 

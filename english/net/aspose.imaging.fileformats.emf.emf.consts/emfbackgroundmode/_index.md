@@ -3,7 +3,7 @@ title: EmfBackgroundMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2550
+weight: 2560
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfbackgroundmode/
 ---
 ## EmfBackgroundMode enumeration
@@ -14,7 +14,7 @@ The BackgroundMode enumeration is used to specify the background mode to be used
 public enum EmfBackgroundMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

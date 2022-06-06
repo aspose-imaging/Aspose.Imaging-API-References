@@ -18,7 +18,7 @@ public static explicit operator Stream(StreamContainer streamContainer)
 | --- | --- | --- |
 | streamContainer | StreamContainer | The stream container. |
 
-## Return Value
+### Return Value
 
 The result of the conversion.
 

@@ -3,7 +3,7 @@ title: EmfMetafileVersion
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2740
+weight: 2750
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfmetafileversion/
 ---
 ## EmfMetafileVersion enumeration
@@ -14,7 +14,7 @@ The MetafileVersion enumeration defines the interoperability version for EMF met
 public enum EmfMetafileVersion
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

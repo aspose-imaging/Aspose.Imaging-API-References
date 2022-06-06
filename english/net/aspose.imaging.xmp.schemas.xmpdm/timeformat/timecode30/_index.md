@@ -14,7 +14,7 @@ Gets the timecode30.
 public static TimeFormat Timecode30 { get; }
 ```
 
-## Property Value
+### Property Value
 
 The timecode30.
 

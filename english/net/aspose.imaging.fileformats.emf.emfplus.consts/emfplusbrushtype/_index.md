@@ -3,7 +3,7 @@ title: EmfPlusBrushType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4690
+weight: 4700
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushtype/
 ---
 ## EmfPlusBrushType enumeration
@@ -14,7 +14,7 @@ The BrushType enumeration defines types of graphics brushes, which are used to f
 public enum EmfPlusBrushType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

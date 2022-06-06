@@ -3,7 +3,7 @@ title: TiffSRational
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7890
+weight: 7900
 url: /net/aspose.imaging.fileformats.tiff/tiffsrational/
 ---
 ## TiffSRational class
@@ -43,11 +43,11 @@ public class TiffSRational
 | override [GetHashCode](../../aspose.imaging.fileformats.tiff/tiffsrational/gethashcode)() | Returns a hash code for this instance. |
 | override [ToString](../../aspose.imaging.fileformats.tiff/tiffsrational/tostring)() | Returns a String that represents this instance. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [Epsilon](epsilon) | The epsilon for fraction calculation |
+| const [Epsilon](../../aspose.imaging.fileformats.tiff/tiffsrational/epsilon) | The epsilon for fraction calculation |
 
 ### See Also
 

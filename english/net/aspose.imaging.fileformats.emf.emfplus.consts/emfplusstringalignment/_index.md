@@ -3,7 +3,7 @@ title: EmfPlusStringAlignment
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5050
+weight: 5060
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusstringalignment/
 ---
 ## EmfPlusStringAlignment enumeration
@@ -14,7 +14,7 @@ The StringAlignment enumeration defines ways to align strings with respect to a 
 public enum EmfPlusStringAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

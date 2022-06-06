@@ -14,7 +14,7 @@ Gets the progress of the asynchronous task.
 public EventType Progress { get; }
 ```
 
-## Property Value
+### Property Value
 
 The progress of the asynchronous task.
 

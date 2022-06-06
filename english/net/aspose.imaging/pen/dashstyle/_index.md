@@ -14,7 +14,7 @@ Gets or sets the style used for dashed lines drawn with this [`Pen`](../../pen).
 public DashStyle DashStyle { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A `DashStyle` that represents the style used for dashed lines drawn with this [`Pen`](../../pen).
 

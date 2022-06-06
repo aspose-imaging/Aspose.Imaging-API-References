@@ -3,7 +3,7 @@ title: OdBrushStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6890
+weight: 6900
 url: /net/aspose.imaging.fileformats.opendocument.objects.brush/odbrushstyle/
 ---
 ## OdBrushStyle enumeration
@@ -14,7 +14,7 @@ The brush styles
 public enum OdBrushStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

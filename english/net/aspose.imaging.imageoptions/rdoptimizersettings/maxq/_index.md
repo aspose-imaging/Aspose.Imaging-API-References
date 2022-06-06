@@ -14,7 +14,7 @@ Gets or sets the maximum quantization value.
 public int MaxQ { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The maximum quantization value.
 

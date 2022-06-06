@@ -14,7 +14,7 @@ Gets the rectangle height.
 public double RectangleHeight { get; }
 ```
 
-## Property Value
+### Property Value
 
 The rectangle height.
 

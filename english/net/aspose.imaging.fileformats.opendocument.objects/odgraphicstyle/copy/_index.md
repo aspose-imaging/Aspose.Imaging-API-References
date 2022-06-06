@@ -14,7 +14,7 @@ Copies this instance.
 public OdGraphicStyle Copy()
 ```
 
-## Return Value
+### Return Value
 
 Get the copy of this instance
 

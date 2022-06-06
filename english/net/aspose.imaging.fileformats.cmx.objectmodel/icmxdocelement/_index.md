@@ -3,7 +3,7 @@ title: ICmxDocElement
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2110
+weight: 2120
 url: /net/aspose.imaging.fileformats.cmx.objectmodel/icmxdocelement/
 ---
 ## ICmxDocElement interface

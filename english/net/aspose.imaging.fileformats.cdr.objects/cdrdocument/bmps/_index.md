@@ -14,7 +14,7 @@ Gets the BMPS.
 public Dictionary<int, CdrBmp> Bmps { get; }
 ```
 
-## Property Value
+### Property Value
 
 The BMPS.
 

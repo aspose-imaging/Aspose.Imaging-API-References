@@ -14,7 +14,7 @@ Gets or sets the vertical component of this [`SizeF`](../../sizef).
 public float Height { get; set; }
 ```
 
-## Return Value
+### Return Value
 
 The vertical component of this [`SizeF`](../../sizef), typically measured in pixels.
 

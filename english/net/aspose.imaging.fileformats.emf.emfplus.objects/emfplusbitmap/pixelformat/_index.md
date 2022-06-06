@@ -14,7 +14,7 @@ Gets or sets pixel format PixelFormat (4 bytes): A 32-bit unsigned integer that 
 public EmfPlusPixelFormat PixelFormat { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The pixel format.
 

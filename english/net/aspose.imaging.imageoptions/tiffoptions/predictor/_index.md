@@ -3,7 +3,7 @@ title: Predictor
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 350
+weight: 360
 url: /net/aspose.imaging.imageoptions/tiffoptions/predictor/
 ---
 ## TiffOptions.Predictor property
@@ -14,7 +14,7 @@ Gets or sets the predictor for LZW compression.
 public TiffPredictor Predictor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The predictor type.
 

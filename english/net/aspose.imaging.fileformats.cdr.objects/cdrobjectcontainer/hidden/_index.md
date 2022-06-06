@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this [`CdrObjectContainer`](../../cdrobj
 public bool Hidden { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if visible; otherwise, `false`.
 

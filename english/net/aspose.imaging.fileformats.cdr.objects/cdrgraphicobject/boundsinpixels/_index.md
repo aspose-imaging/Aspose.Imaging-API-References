@@ -14,7 +14,7 @@ Gets or sets the bounds in pixels.
 public RectangleF BoundsInPixels { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The bounds in pixels.
 

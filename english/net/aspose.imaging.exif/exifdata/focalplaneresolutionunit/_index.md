@@ -14,7 +14,7 @@ Gets or sets the focal plane resolution unit.
 public ExifUnit FocalPlaneResolutionUnit { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The focal plane resolution unit.
 

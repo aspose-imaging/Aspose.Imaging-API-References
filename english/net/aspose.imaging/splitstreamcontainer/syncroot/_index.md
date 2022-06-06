@@ -14,7 +14,7 @@ Gets an object that can be used to synchronize access to the synchronized resour
 public object SyncRoot { get; }
 ```
 
-## Property Value
+### Property Value
 
 The object that can be used to synchronize access to the synchronized resource.
 

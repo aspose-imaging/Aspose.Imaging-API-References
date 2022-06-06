@@ -14,7 +14,7 @@ Gets or sets the maximum available disk space for cache. The value specified is 
 public static int MaxDiskSpaceForCache { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The maximum available disk space for cache.
 

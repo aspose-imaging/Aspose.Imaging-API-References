@@ -14,7 +14,7 @@ Gets or sets the color of the argb32.
 public int Argb32Color { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color of the argb32.
 

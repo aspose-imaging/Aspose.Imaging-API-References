@@ -14,7 +14,7 @@ Gets a value indicating whether this instance is partial loaded.
 public bool IsPartialLoaded { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this instance is partial loaded; otherwise, `false`.
 

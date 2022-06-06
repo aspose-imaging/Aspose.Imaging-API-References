@@ -14,7 +14,7 @@ Gets or sets the cache folder.
 public static string CacheFolder { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The cache folder.
 

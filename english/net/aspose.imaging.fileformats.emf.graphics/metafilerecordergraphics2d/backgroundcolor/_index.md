@@ -14,7 +14,7 @@ Gets or sets the color of the background.
 public Color BackgroundColor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color of the background.
 

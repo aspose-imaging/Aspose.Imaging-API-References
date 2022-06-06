@@ -14,7 +14,7 @@ Gets or sets the image description.
 public string ImageDescription { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The image description.
 

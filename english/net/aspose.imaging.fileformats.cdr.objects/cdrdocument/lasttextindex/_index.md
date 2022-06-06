@@ -14,7 +14,7 @@ Gets the text indexes.
 public int LastTextIndex { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The text indexes.
 

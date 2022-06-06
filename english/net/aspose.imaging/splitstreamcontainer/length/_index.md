@@ -14,7 +14,7 @@ Gets or sets the stream length in bytes. This value is less than the Length by t
 public override long Length { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The stream length.
 

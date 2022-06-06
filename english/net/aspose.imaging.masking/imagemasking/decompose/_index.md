@@ -18,7 +18,7 @@ public MaskingResult Decompose(MaskingOptions options)
 | --- | --- | --- |
 | options | MaskingOptions | The masking options. |
 
-## Return Value
+### Return Value
 
 Result of masking operation as array of segment image providers.
 

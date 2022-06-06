@@ -3,7 +3,7 @@ title: WmfInvertRegion
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8720
+weight: 8730
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfinvertregion/
 ---
 ## WmfInvertRegion class

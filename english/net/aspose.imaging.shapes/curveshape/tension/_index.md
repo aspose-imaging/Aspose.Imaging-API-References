@@ -14,7 +14,7 @@ Gets or sets the curve tension.
 public float Tension { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The curve tension.
 

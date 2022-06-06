@@ -14,7 +14,7 @@ Gets the previous page of the document
 public DjvuPage PreviousPage { get; }
 ```
 
-## Property Value
+### Property Value
 
 The previous page.
 

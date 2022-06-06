@@ -18,7 +18,7 @@ public static explicit operator EpsBinaryImage(EpsInterchangeImage basicImage)
 | --- | --- | --- |
 | basicImage | EpsInterchangeImage | The basic image |
 
-## Return Value
+### Return Value
 
 The result of the conversion
 

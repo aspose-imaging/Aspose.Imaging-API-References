@@ -14,7 +14,7 @@ Creates the 8 bit color palette.
 public static IColorPalette Create8Bit()
 ```
 
-## Return Value
+### Return Value
 
 The 8 bit color palette.
 

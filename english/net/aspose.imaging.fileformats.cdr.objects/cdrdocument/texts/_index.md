@@ -14,7 +14,7 @@ Gets the texts.
 public CdrTextCollection Texts { get; }
 ```
 
-## Property Value
+### Property Value
 
 The texts.
 

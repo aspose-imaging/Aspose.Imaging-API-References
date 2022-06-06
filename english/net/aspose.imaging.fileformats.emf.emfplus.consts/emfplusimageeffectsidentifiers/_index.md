@@ -3,7 +3,7 @@ title: EmfPlusImageEffectsIdentifiers
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4850
+weight: 4860
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/
 ---
 ## EmfPlusImageEffectsIdentifiers class
@@ -20,21 +20,21 @@ public static class EmfPlusImageEffectsIdentifiers
 | --- | --- |
 | static [Contain](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/contain)(string) | Contains the specified object unique identifier. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [BlurEffectGuid](blureffectguid) | Specifies the blur effect. |
-| const [BrightnessContrastEffectGuid](brightnesscontrasteffectguid) | Specifies the brightness contrast effect. |
-| const [ColorBalanceEffectGuid](colorbalanceeffectguid) | Specifies the color balance effect. |
-| const [ColorCurveEffectGuid](colorcurveeffectguid) | Specifies the color curve effect. |
-| const [ColorLookupTableEffectGuid](colorlookuptableeffectguid) | Specifies the color lookup table effect. |
-| const [ColorMatrixEffectGuid](colormatrixeffectguid) | Specifies the color matrix effect. |
-| const [HueSaturationLightnessEffectGuid](huesaturationlightnesseffectguid) | Specifies the hue saturation lightness effect. |
-| const [LevelsEffectGuid](levelseffectguid) | Specifies the levels effect. |
-| const [RedEyeCorrectionEffectGuid](redeyecorrectioneffectguid) | Specifies the red-eye correction effect. |
-| const [SharpenEffectGuid](sharpeneffectguid) | Specifies the sharpen effect. |
-| const [TintEffectGuid](tinteffectguid) | Specifies the tint effect. |
+| const [BlurEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/blureffectguid) | Specifies the blur effect. |
+| const [BrightnessContrastEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/brightnesscontrasteffectguid) | Specifies the brightness contrast effect. |
+| const [ColorBalanceEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/colorbalanceeffectguid) | Specifies the color balance effect. |
+| const [ColorCurveEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/colorcurveeffectguid) | Specifies the color curve effect. |
+| const [ColorLookupTableEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/colorlookuptableeffectguid) | Specifies the color lookup table effect. |
+| const [ColorMatrixEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/colormatrixeffectguid) | Specifies the color matrix effect. |
+| const [HueSaturationLightnessEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/huesaturationlightnesseffectguid) | Specifies the hue saturation lightness effect. |
+| const [LevelsEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/levelseffectguid) | Specifies the levels effect. |
+| const [RedEyeCorrectionEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/redeyecorrectioneffectguid) | Specifies the red-eye correction effect. |
+| const [SharpenEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/sharpeneffectguid) | Specifies the sharpen effect. |
+| const [TintEffectGuid](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/tinteffectguid) | Specifies the tint effect. |
 
 ### Remarks
 

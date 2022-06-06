@@ -3,7 +3,7 @@ title: EmfSerifType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2840
+weight: 2850
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfseriftype/
 ---
 ## EmfSerifType enumeration
@@ -14,7 +14,7 @@ The SerifType enumeration defines values for one of the characteristics in the P
 public enum EmfSerifType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

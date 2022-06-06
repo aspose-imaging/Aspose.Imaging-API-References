@@ -3,7 +3,7 @@ title: CmxLayer
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1950
+weight: 1960
 url: /net/aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/
 ---
 ## CmxLayer class
@@ -29,6 +29,12 @@ public class CmxLayer : CmxContainer
 | [IsVisible](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/isvisible) { get; set; } | Gets or sets a value indicating whether this layer is visible. |
 | [Name](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/name) { get; set; } | Gets or sets the name of the layer. |
 | [Number](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/number) { get; set; } | Gets or sets the layer order number. |
+
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [MasterDesktopLayerName](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/masterdesktoplayername) | The master desktop layer name |
 
 ### See Also
 

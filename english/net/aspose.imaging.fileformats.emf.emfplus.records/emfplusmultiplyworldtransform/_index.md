@@ -3,7 +3,7 @@ title: EmfPlusMultiplyWorldTransform
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6140
+weight: 6150
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusmultiplyworldtransform/
 ---
 ## EmfPlusMultiplyWorldTransform class

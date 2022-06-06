@@ -14,7 +14,7 @@ Gets or sets the count2.
 public int Count2 { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The same as the value of the [`Count`](../count) field; it is present to allow upward travel in the structure.
 

@@ -3,7 +3,7 @@ title: InterruptMonitor
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10590
+weight: 10610
 url: /net/aspose.imaging.multithreading/interruptmonitor/
 ---
 ## InterruptMonitor class

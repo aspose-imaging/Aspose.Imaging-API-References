@@ -3,7 +3,7 @@ title: EmfPlusPenOptionalData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5670
+weight: 5680
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata/
 ---
 ## EmfPlusPenOptionalData class

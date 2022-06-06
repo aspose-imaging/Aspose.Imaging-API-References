@@ -14,7 +14,7 @@ Gets or sets the unit used to express the GPS receiver speed of movement.
 public string GPSSpeedRef { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The unit used to express the GPS receiver speed of movement.
 

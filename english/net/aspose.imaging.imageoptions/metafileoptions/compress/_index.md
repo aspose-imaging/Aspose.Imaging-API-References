@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this ICompressedOptions is compressed.
 public bool Compress { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if compressed; otherwise, `false`.
 

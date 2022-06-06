@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The Object to test. |
 
-## Return Value
+### Return Value
 
 This method returns true if *obj* is a [`Rectangle`](../../rectangle) structure and its [`X`](../x), [`Y`](../y), [`Width`](../width), and [`Height`](../height) properties are equal to the corresponding properties of this [`Rectangle`](../../rectangle) structure; otherwise, false.
 

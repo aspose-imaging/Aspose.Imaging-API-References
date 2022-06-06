@@ -14,7 +14,7 @@ Gets the embedded images.
 public override EmbeddedImage[] GetEmbeddedImages()
 ```
 
-## Return Value
+### Return Value
 
 Array of images
 

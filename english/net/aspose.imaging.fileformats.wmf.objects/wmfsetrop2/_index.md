@@ -3,7 +3,7 @@ title: WmfSetRop2
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9130
+weight: 9140
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsetrop2/
 ---
 ## WmfSetRop2 class

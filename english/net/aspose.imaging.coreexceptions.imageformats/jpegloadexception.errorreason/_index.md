@@ -14,7 +14,7 @@ Represents the reasons of error.
 public enum ErrorReason
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

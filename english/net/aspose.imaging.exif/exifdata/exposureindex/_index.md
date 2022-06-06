@@ -14,7 +14,7 @@ Gets or sets the exposure index.
 public TiffRational ExposureIndex { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The index of the exposure.
 

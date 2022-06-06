@@ -14,7 +14,7 @@ Gets a value indicating whether this [`EmfPlusSetTsClip`](../../emfplussettsclip
 public bool Compressed { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if compressed; otherwise, `false`.
 

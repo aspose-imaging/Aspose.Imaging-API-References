@@ -14,7 +14,7 @@ Gets or sets the array of alternate path.
 public string[] AlternatePaths { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The array of alternate path.
 

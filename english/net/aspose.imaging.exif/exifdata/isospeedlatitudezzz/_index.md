@@ -14,7 +14,7 @@ Gets or sets the ISO speed latitude zzz value of a camera or input device that i
 public uint ISOSpeedLatitudeZZZ { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The ISO speed latitude zzz value of a camera or input device that is defined in ISO 12232.
 

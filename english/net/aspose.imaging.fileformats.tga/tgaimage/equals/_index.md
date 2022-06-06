@@ -18,7 +18,7 @@ public bool Equals(TgaImage other)
 | --- | --- | --- |
 | other | TgaImage | Second [`TgaImage`](../../tgaimage) that takes part in comparison. |
 
-## Return Value
+### Return Value
 
 Comparison results.
 
@@ -42,7 +42,7 @@ public override bool Equals(object other)
 | --- | --- | --- |
 | other | Object | Second [`TgaImage`](../../tgaimage) that takes part in comparison. |
 
-## Return Value
+### Return Value
 
 Comparison results.
 

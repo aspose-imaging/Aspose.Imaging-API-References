@@ -14,7 +14,7 @@ Creates a new object that is a copy of the current instance.
 public TgaImage Clone()
 ```
 
-## Return Value
+### Return Value
 
 Returns a new object that is a copy of the current instance.
 

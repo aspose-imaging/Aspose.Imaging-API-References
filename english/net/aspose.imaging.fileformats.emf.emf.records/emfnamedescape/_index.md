@@ -3,7 +3,7 @@ title: EmfNamedEscape
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3850
+weight: 3860
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfnamedescape/
 ---
 ## EmfNamedEscape class

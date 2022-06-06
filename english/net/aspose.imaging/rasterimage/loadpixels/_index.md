@@ -18,7 +18,7 @@ public Color[] LoadPixels(Rectangle rectangle)
 | --- | --- | --- |
 | rectangle | Rectangle | The rectangle to load pixels from. |
 
-## Return Value
+### Return Value
 
 The loaded pixels array.
 

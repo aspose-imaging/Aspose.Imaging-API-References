@@ -14,7 +14,7 @@ Gets or sets the subject area.
 public ushort[] SubjectArea { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The subject area.
 

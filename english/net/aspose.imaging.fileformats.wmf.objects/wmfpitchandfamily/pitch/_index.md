@@ -14,7 +14,7 @@ Gets A property of a font that describes the pitch, of the characters. This MUST
 public WmfPitchFont Pitch { get; }
 ```
 
-## Property Value
+### Property Value
 
 The pitch.
 

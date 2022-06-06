@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this [`OdLineTo`](../../odlineto) is ver
 public bool Horizontal { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if vertical; otherwise, `false`.
 

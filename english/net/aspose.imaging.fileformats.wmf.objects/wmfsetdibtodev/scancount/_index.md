@@ -14,7 +14,7 @@ Gets or sets the scan count.
 public int ScanCount { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The the number of scan lines in the source.
 

@@ -14,7 +14,7 @@ Gets or sets the flags.
 public int Flags { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 This 32-bit unsigned integer is unused and MUST be set to zero.
 

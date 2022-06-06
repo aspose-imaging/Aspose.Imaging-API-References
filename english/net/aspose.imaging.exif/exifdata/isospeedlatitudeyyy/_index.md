@@ -14,7 +14,7 @@ Gets or sets the ISO speed latitude yyy value of a camera or input device that i
 public uint ISOSpeedLatitudeYYY { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The ISO speed latitude yyy value of a camera or input device that is defined in ISO 12232.
 

@@ -3,7 +3,7 @@ title: ColorModels
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2010
+weight: 2020
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.enums/colormodels/
 ---
 ## ColorModels enumeration
@@ -14,7 +14,7 @@ Color models.
 public enum ColorModels
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

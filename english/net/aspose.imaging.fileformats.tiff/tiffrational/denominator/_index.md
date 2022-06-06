@@ -14,7 +14,7 @@ Gets the denominator.
 public uint Denominator { get; }
 ```
 
-## Property Value
+### Property Value
 
 The denominator.
 

@@ -14,7 +14,7 @@ Gets or sets an optional EmfPlusPalette object.
 public EmfPlusPalette Palette { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The palette.
 

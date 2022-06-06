@@ -14,7 +14,7 @@ Gets or sets the magenta component value.
 public float Magenta { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The magenta component value.
 

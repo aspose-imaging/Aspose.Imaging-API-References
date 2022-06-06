@@ -14,7 +14,7 @@ Gets an array of floating-point values that represents the elements of this [`Ma
 public float[] Elements { get; }
 ```
 
-## Property Value
+### Property Value
 
 An array of floating-point values that represents the elements of this [`Matrix`](../../matrix).
 

@@ -3,7 +3,7 @@ title: EmfPlusObjectClamp
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4920
+weight: 4930
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusobjectclamp/
 ---
 ## EmfPlusObjectClamp enumeration
@@ -14,7 +14,7 @@ EmfPlusObjectClamp specifies the object clamping behavior. It is not used until 
 public enum EmfPlusObjectClamp
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

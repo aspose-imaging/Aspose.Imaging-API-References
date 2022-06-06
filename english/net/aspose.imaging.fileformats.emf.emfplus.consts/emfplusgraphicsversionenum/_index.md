@@ -3,7 +3,7 @@ title: EmfPlusGraphicsVersionEnum
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4810
+weight: 4820
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusgraphicsversionenum/
 ---
 ## EmfPlusGraphicsVersionEnum enumeration
@@ -14,7 +14,7 @@ The GraphicsVersion enumeration defines versions of operating system graphics th
 public enum EmfPlusGraphicsVersionEnum
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets the number rects. This field specifies the number of rectangles that are de
 public short NumRects { get; }
 ```
 
-## Property Value
+### Property Value
 
 The number rects.
 

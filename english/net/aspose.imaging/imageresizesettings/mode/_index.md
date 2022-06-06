@@ -14,7 +14,7 @@ Gets or sets the interpolation mode.
 public ResizeType Mode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The mode.
 

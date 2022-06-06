@@ -3,7 +3,7 @@ title: OdgImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7380
+weight: 7390
 url: /net/aspose.imaging.fileformats.opendocument/odgimage/
 ---
 ## OdgImage class
@@ -19,6 +19,7 @@ public class OdgImage : OdImage
 | Name | Description |
 | --- | --- |
 | [OdgImage](odgimage)(StreamContainer) | Initializes a new instance of the [`OdgImage`](../odgimage) class. |
+| [OdgImage](odgimage)(StreamContainer, LoadOptions) | Initializes a new instance of the [`OdgImage`](../odgimage) class. |
 
 ## Properties
 

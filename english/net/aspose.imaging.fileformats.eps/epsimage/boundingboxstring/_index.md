@@ -14,7 +14,7 @@ Gets the BoundingBox string value
 public string BoundingBoxString { get; }
 ```
 
-## Property Value
+### Property Value
 
 The BoundingBox string value
 

@@ -14,7 +14,7 @@ Gets or sets a value indicating whether the PointData is relative. If set, each 
 public bool Relative { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if relative; otherwise, `false`.
 

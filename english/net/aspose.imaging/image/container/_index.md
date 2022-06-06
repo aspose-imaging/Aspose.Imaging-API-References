@@ -14,7 +14,7 @@ Gets the [`Image`](../../image) container.
 public Image Container { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`Image`](../../image) container.
 

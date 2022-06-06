@@ -18,7 +18,7 @@ public static StringFormat ToGdiStringFormat(StringFormat stringFormat)
 | --- | --- | --- |
 | stringFormat | StringFormat | The [`StringFormat`](../../../aspose.imaging/stringformat) to convert. |
 
-## Return Value
+### Return Value
 
 The converted StringFormat.
 

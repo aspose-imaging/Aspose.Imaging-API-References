@@ -14,7 +14,7 @@ Gets the [`PixelDataFormat`](../../pixeldataformat) defined for indexed 2 bit pe
 public static PixelDataFormat RgbIndexed2Bpp { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`PixelDataFormat`](../../pixeldataformat) defined for indexed 2 bit per color.
 

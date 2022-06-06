@@ -3,7 +3,7 @@ title: EmfExtTextOutA
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3660
+weight: 3670
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfexttextouta/
 ---
 ## EmfExtTextOutA class

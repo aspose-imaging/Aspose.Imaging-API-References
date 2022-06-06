@@ -3,7 +3,7 @@ title: Group3Options
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7580
+weight: 7590
 url: /net/aspose.imaging.fileformats.tiff.enums/group3options/
 ---
 ## Group3Options enumeration
@@ -15,7 +15,7 @@ Options for CCITT Group 3/4 fax encoding. Possible values for GROUP3OPTIONS / Ti
 public enum Group3Options : uint
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

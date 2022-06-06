@@ -19,7 +19,7 @@ public static Point operator +(Point point, Size size)
 | point | Point | The [`Point`](../../point) to translate. |
 | size | Size | A [`Size`](../../size) that specifies the pair of numbers to add to the coordinates of *point*. |
 
-## Return Value
+### Return Value
 
 The translated [`Point`](../../point).
 

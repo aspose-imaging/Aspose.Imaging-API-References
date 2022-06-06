@@ -14,7 +14,7 @@ Gets the unit of measure for this [`Font`](../../font).
 public GraphicsUnit Unit { get; }
 ```
 
-## Property Value
+### Property Value
 
 A [`GraphicsUnit`](../../graphicsunit) that represents the unit of measure for this [`Font`](../../font).
 

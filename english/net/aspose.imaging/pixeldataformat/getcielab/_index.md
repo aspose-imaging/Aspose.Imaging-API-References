@@ -20,7 +20,7 @@ public static PixelDataFormat GetCieLab(int bitsPerL, int bitsPerA, int bitsPerB
 | bitsPerA | Int32 | The number of bits per A channel. |
 | bitsPerB | Int32 | The number of bits per B channel. |
 
-## Return Value
+### Return Value
 
 The CIE Lab color.
 

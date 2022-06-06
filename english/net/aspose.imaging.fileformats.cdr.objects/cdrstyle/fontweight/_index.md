@@ -14,7 +14,7 @@ Gets or sets the font weight.
 public int FontWeight { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The font weight.
 

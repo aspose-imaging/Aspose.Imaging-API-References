@@ -14,7 +14,7 @@ Gets or sets the bitmap.
 public WmfBitmap16 Bitmap { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The bitmap that specifies the pattern for the brush.
 

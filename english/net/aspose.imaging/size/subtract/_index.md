@@ -19,7 +19,7 @@ public static Size Subtract(Size size1, Size size2)
 | size1 | Size | The [`Size`](../../size) structure on the left side of the subtraction operator. |
 | size2 | Size | The [`Size`](../../size) structure on the right side of the subtraction operator. |
 
-## Return Value
+### Return Value
 
 The [`Size`](../../size) that is a result of the subtraction operation.
 

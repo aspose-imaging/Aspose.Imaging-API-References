@@ -14,7 +14,7 @@ Gets or sets the name of the style.
 public string StyleName { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The name of the style.
 

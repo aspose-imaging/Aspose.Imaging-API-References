@@ -3,7 +3,7 @@ title: DashCap
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 770
+weight: 780
 url: /net/aspose.imaging/dashcap/
 ---
 ## DashCap enumeration
@@ -14,7 +14,7 @@ Specifies the type of graphic shape to use on both ends of each dash in a dashed
 public enum DashCap
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

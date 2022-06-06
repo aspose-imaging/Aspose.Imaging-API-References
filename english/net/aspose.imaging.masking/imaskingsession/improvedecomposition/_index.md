@@ -18,7 +18,7 @@ public MaskingResult ImproveDecomposition(IMaskingArgs maskingArguments)
 | --- | --- | --- |
 | maskingArguments | IMaskingArgs | The masking arguments. |
 
-## Return Value
+### Return Value
 
 Result of masking operation as array of segment image providers.
 

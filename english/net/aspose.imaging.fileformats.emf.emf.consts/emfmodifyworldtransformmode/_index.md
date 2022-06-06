@@ -3,7 +3,7 @@ title: EmfModifyWorldTransformMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2760
+weight: 2770
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfmodifyworldtransformmode/
 ---
 ## EmfModifyWorldTransformMode enumeration
@@ -14,7 +14,7 @@ The ModifyWorldTransformMode enumeration defines modes for using specified trans
 public enum EmfModifyWorldTransformMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

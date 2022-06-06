@@ -14,7 +14,7 @@ Converts [`PointF`](../../../aspose.imaging/pointf) to the [`PointD`](../../poin
 public PointF ToPointF()
 ```
 
-## Return Value
+### Return Value
 
 The [`PointF`](../../../aspose.imaging/pointf) structure
 

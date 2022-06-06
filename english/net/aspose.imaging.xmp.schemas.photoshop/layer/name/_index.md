@@ -14,7 +14,7 @@ Gets or sets the name of the text layer.
 public string Name { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The name of the text layer.
 

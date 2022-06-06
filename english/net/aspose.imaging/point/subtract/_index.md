@@ -19,7 +19,7 @@ public static Point Subtract(Point point, Size size)
 | point | Point | The [`Point`](../../point) to be subtracted from. |
 | size | Size | The [`Size`](../../size) to subtract from the *point*. |
 
-## Return Value
+### Return Value
 
 The [`Point`](../../point) that is the result of the subtraction operation.
 

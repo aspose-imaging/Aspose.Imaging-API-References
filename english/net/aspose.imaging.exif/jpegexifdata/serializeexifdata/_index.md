@@ -14,7 +14,7 @@ Serializes the EXIF data. Writes the tags values and contents. The most influenc
 public byte[] SerializeExifData()
 ```
 
-## Return Value
+### Return Value
 
 The serialized EXIF data.
 

@@ -14,7 +14,7 @@ Gets or sets the height.
 public short Height { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The height of the bitmap in scan lines.
 

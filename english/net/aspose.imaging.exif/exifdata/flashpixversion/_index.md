@@ -14,7 +14,7 @@ Gets or sets the flash pix version.
 public byte[] FlashpixVersion { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The flash pix version.
 

@@ -14,7 +14,7 @@ Gets or sets the data.
 public int Data { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The data.
 

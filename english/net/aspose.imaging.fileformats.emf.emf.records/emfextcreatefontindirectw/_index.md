@@ -3,7 +3,7 @@ title: EmfExtCreateFontIndirectW
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3610
+weight: 3620
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw/
 ---
 ## EmfExtCreateFontIndirectW class

@@ -14,7 +14,7 @@ Gets or sets a value indicating whether palette correction is applied.
 public bool DoPaletteCorrection { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if palette correction is applied; otherwise, `false`.
 

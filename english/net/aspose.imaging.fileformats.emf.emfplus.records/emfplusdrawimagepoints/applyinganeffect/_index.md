@@ -14,7 +14,7 @@ Gets or sets a value indicating whether [applying an effect]. This bit indicates
 public bool ApplyingAnEffect { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if [applying an effect]; otherwise, `false`.
 

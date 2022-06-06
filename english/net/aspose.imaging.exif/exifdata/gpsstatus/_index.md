@@ -14,7 +14,7 @@ Gets or sets the status of the GPS receiver when the image is recorded.
 public string GPSStatus { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The status of the GPS receiver when the image is recorded.
 

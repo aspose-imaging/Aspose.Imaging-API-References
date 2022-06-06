@@ -3,7 +3,7 @@ title: MinSampleValue
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.imaging.imageoptions/tiffoptions/minsamplevalue/
 ---
 ## TiffOptions.MinSampleValue property
@@ -14,7 +14,7 @@ Gets or sets the min sample value.
 public ushort[] MinSampleValue { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The min sample value.
 

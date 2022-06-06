@@ -18,7 +18,7 @@ public IMaskingSession LoadSession(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The stream. |
 
-## Return Value
+### Return Value
 
 the masking session which can perform retraining decompose operations.
 
@@ -43,7 +43,7 @@ public IMaskingSession LoadSession(string filePath)
 | --- | --- | --- |
 | filePath | String | The file path. |
 
-## Return Value
+### Return Value
 
 the masking session which can perform retraining decompose operations.
 

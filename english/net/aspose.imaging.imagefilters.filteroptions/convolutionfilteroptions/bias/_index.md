@@ -14,7 +14,7 @@ Gets or sets the bias.
 public int Bias { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The bias.
 

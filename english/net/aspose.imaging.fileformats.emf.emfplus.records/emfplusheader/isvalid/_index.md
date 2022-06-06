@@ -14,7 +14,7 @@ Gets a value indicating whether this instance is valid.
 public bool IsValid { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this instance is valid; otherwise, `false`.
 

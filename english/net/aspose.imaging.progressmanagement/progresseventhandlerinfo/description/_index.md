@@ -14,7 +14,7 @@ Gets the description of the event
 public string Description { get; }
 ```
 
-## Property Value
+### Property Value
 
 The description.
 

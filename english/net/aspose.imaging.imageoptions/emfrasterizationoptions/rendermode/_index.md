@@ -14,7 +14,7 @@ Gets or sets the render mode.
 public EmfRenderMode RenderMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The render mode.
 

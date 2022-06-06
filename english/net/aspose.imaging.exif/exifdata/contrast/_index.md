@@ -14,7 +14,7 @@ Gets or sets the contrast.
 public ExifContrast Contrast { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The contrast.
 

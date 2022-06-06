@@ -14,7 +14,7 @@ Gets or sets an array of colors that represents the colors to use at correspondi
 public Color[] Colors { get; set; }
 ```
 
-## Return Value
+### Return Value
 
 An array of [`Color`](../../color) structures that represents the colors to use at corresponding positions along a gradient.
 

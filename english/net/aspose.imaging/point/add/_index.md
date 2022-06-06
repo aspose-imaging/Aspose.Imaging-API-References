@@ -19,7 +19,7 @@ public static Point Add(Point point, Size size)
 | point | Point | The [`Point`](../../point) to add to. |
 | size | Size | The [`Size`](../../size) to add to the *point*. |
 
-## Return Value
+### Return Value
 
 The [`Point`](../../point) that is the result of the addition operation.
 

@@ -20,7 +20,7 @@ public static byte[] ToCmykBytes(int[] argbPixels, int startIndex, int length)
 | startIndex | Int32 | The start index of RGB color. |
 | length | Int32 | The number of RGB pixels to convert. |
 
-## Return Value
+### Return Value
 
 The CMYK colors presented as a byte array.
 

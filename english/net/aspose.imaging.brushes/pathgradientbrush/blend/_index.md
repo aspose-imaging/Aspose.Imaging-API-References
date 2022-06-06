@@ -14,7 +14,7 @@ Gets or sets a [`Blend`](../../../aspose.imaging/blend) that specifies positions
 public Blend Blend { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A [`Blend`](../../../aspose.imaging/blend) that represents a custom falloff for the gradient.
 

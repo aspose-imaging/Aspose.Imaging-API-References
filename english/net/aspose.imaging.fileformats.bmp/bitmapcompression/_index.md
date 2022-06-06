@@ -3,7 +3,7 @@ title: BitmapCompression
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1320
+weight: 1330
 url: /net/aspose.imaging.fileformats.bmp/bitmapcompression/
 ---
 ## BitmapCompression enumeration
@@ -14,7 +14,7 @@ Specifies different bitmap compression methods.
 public enum BitmapCompression : uint
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

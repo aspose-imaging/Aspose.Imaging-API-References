@@ -14,7 +14,7 @@ Gets or sets the extended bytes.
 public byte[] ExtendedBytes { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The extended bytes.
 

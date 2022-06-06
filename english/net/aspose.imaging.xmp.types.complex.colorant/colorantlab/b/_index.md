@@ -14,7 +14,7 @@ Gets or sets the B component.
 public int B { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The B component.
 

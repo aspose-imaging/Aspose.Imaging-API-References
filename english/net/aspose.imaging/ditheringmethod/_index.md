@@ -3,7 +3,7 @@ title: DitheringMethod
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 830
+weight: 840
 url: /net/aspose.imaging/ditheringmethod/
 ---
 ## DitheringMethod enumeration
@@ -14,7 +14,7 @@ Dithering method.
 public enum DitheringMethod
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

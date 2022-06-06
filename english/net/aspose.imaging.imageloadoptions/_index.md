@@ -15,6 +15,7 @@ The namespace contains different file format load options.
 | [CdrLoadOptions](./cdrloadoptions) | The Cdr load options |
 | [DngLoadOptions](./dngloadoptions) | The DNG load options |
 | [Jpeg2000LoadOptions](./jpeg2000loadoptions) | JPEG2000 load options |
+| [OdLoadOptions](./odloadoptions) | The Open Dcocument Load Options |
 | [SvgLoadOptions](./svgloadoptions) | The Svg load options. |
 ## Enumeration
 

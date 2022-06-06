@@ -3,7 +3,7 @@ title: EmfPlusSolidBrushData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5760
+weight: 5770
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplussolidbrushdata/
 ---
 ## EmfPlusSolidBrushData class

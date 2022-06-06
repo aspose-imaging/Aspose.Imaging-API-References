@@ -14,7 +14,7 @@ Gets the upper progress value limit.
 public int MaxValue { get; }
 ```
 
-## Property Value
+### Property Value
 
 The upper progress value limit.
 

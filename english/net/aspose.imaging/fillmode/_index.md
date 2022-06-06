@@ -3,7 +3,7 @@ title: FillMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9300
+weight: 9310
 url: /net/aspose.imaging/fillmode/
 ---
 ## FillMode enumeration
@@ -14,7 +14,7 @@ Specifies how the interior of a closed path is filled.
 public enum FillMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -3,7 +3,7 @@ title: EmfPlusHotkeyPrefix
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4830
+weight: 4840
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplushotkeyprefix/
 ---
 ## EmfPlusHotkeyPrefix enumeration
@@ -14,7 +14,7 @@ The HotkeyPrefix enumeration defines output options for hotkey prefixes in graph
 public enum EmfPlusHotkeyPrefix
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

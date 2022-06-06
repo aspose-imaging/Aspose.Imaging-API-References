@@ -14,7 +14,7 @@ Gets or sets the F-number.
 public TiffRational FNumber { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The F-number.
 

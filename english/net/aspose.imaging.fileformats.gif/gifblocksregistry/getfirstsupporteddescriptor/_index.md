@@ -18,7 +18,7 @@ public static IGifBlockLoaderDescriptor GetFirstSupportedDescriptor(Stream strea
 | --- | --- | --- |
 | stream | Stream | The stream. |
 
-## Return Value
+### Return Value
 
 The gif block opener descriptor or null if no opener descriptor supported for such stream.
 

@@ -14,7 +14,7 @@ Gets or sets a value indicating the tiff byte order.
 public TiffByteOrder ByteOrder { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The tiff byte order.
 

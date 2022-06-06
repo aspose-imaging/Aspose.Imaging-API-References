@@ -14,7 +14,7 @@ Gets or sets the type of the fill.
 public FillTypes FillType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the fill.
 

@@ -14,7 +14,7 @@ Gets or sets the background mode.
 public EmfBackgroundMode BackgroundMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The background mode.
 

@@ -3,7 +3,7 @@ title: EmfPlusDrawDriverString
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5930
+weight: 5940
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/
 ---
 ## EmfPlusDrawDriverString class

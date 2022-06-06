@@ -14,7 +14,7 @@ Gets or sets the point.
 public PointF Point { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The point.
 

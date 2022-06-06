@@ -18,7 +18,7 @@ public static Color FromHtml(string htmlColor)
 | --- | --- | --- |
 | htmlColor | String | HTML color. |
 
-## Return Value
+### Return Value
 
 The color.
 

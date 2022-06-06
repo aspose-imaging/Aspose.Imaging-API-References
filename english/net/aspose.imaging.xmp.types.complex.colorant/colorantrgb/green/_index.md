@@ -14,7 +14,7 @@ Gets or sets the green component value.
 public byte Green { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The green component value.
 

@@ -14,7 +14,7 @@ Gets or sets a GPS value which indicates whether differential correction is appl
 public ushort GPSDifferential { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS value which indicates whether differential correction is applied to the GPS receiver.
 

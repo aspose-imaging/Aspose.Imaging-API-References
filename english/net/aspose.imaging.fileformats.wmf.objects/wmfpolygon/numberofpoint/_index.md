@@ -14,7 +14,7 @@ Gets or sets the number of point. A 16-bit signed integer that defines the numbe
 public short NumberOfPoint { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The number of point.
 

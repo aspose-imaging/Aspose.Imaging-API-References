@@ -14,7 +14,7 @@ Gets or sets the GPS value which indicates whether the longitude of the destinat
 public string GPSDestLongitudeRef { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS value which indicates whether the longitude of the destination point is east or west longitude.
 

@@ -14,7 +14,7 @@ Gets the ending point.
 public override PointF EndPoint { get; }
 ```
 
-## Property Value
+### Property Value
 
 The ending point.
 

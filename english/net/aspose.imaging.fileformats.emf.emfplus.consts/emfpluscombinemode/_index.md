@@ -3,7 +3,7 @@ title: EmfPlusCombineMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4700
+weight: 4710
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscombinemode/
 ---
 ## EmfPlusCombineMode enumeration
@@ -14,7 +14,7 @@ The CombineMode enumeration defines modes for combining two graphics regions. In
 public enum EmfPlusCombineMode : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets the quality.
 public float Quality { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The quality.
 

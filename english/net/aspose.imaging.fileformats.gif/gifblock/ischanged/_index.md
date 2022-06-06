@@ -14,7 +14,7 @@ Gets or sets a value indicating whether block has changed and requires save.
 public bool IsChanged { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if block has changed; otherwise, `false`.
 

@@ -3,7 +3,7 @@ title: TextShape
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11020
+weight: 11040
 url: /net/aspose.imaging.shapes/textshape/
 ---
 ## TextShape class

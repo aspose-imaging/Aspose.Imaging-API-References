@@ -14,7 +14,7 @@ Gets a value indicating whether this instance has format-specific raster preview
 public abstract bool HasRasterPreview { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this instance has format-specific raster preview; otherwise, `false`.
 

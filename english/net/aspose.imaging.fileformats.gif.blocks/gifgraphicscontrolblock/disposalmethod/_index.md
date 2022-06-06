@@ -14,7 +14,7 @@ Gets or sets the disposal method.
 public DisposalMethod DisposalMethod { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The disposal method.
 

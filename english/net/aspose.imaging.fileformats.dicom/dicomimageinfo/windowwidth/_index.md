@@ -14,7 +14,7 @@ Gets the width of the window.
 public double WindowWidth { get; }
 ```
 
-## Property Value
+### Property Value
 
 The width of the window.
 

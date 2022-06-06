@@ -14,7 +14,7 @@ Gets the recording.
 public int Recording { get; }
 ```
 
-## Property Value
+### Property Value
 
 Recording algorithm
 

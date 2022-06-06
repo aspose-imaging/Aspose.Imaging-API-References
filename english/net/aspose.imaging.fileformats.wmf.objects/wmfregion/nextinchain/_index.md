@@ -14,7 +14,7 @@ Gets or sets the next in chain.
 public short NextInChain { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A value that MUST be ignored.
 

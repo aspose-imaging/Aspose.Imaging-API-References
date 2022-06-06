@@ -3,7 +3,7 @@ title: EmfPlusRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5020
+weight: 5030
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusrecordtype/
 ---
 ## EmfPlusRecordType enumeration
@@ -14,7 +14,7 @@ The RecordType enumeration defines record types used in EMF+ metafiles.
 public enum EmfPlusRecordType : short
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

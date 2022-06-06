@@ -3,7 +3,7 @@ title: WmfRoundRect
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8950
+weight: 8960
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfroundrect/
 ---
 ## WmfRoundRect class

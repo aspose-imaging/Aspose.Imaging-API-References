@@ -14,7 +14,7 @@ Gets the number of elements in the collection.
 public int Count { get; }
 ```
 
-## Property Value
+### Property Value
 
 The number of elements in the collection.
 

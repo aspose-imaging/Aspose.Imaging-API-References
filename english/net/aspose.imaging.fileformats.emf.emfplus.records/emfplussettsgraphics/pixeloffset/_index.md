@@ -14,7 +14,7 @@ Gets or sets an 8-bit unsigned integer that specifies the overall quality of the
 public EmfPlusPixelOffsetMode PixelOffset { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The pixel offset.
 

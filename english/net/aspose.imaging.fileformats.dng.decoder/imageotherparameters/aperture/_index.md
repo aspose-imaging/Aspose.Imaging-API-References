@@ -14,7 +14,7 @@ Gets the aperture.
 public float Aperture { get; }
 ```
 
-## Property Value
+### Property Value
 
 The aperture.
 

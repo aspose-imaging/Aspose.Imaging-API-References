@@ -14,7 +14,7 @@ Gets thestring contained value in XMP format.
 public override string GetXmpRepresentation()
 ```
 
-## Return Value
+### Return Value
 
 Returns the string contained value in XMP format.
 

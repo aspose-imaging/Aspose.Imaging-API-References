@@ -18,7 +18,7 @@ public TiffDataType CreateInstance(ushort tagId)
 | --- | --- | --- |
 | tagId | UInt16 | The tag id. |
 
-## Return Value
+### Return Value
 
 The newly created instance.
 

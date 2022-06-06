@@ -3,7 +3,7 @@ title: ImageDescription
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.imaging.imageoptions/tiffoptions/imagedescription/
 ---
 ## TiffOptions.ImageDescription property
@@ -14,7 +14,7 @@ Gets or sets the image description.
 public string ImageDescription { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The image description.
 

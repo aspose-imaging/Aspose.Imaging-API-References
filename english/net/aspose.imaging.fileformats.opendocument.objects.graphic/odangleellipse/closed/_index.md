@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this [`OdAngleEllipse`](../../odangleell
 public bool Closed { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if closed; otherwise, `false`.
 

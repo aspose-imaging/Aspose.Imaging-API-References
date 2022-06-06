@@ -14,7 +14,7 @@ Gets or sets the version. An EmfPlusGraphicsVersion object (section 2.2.2.19) th
 public EmfPlusGraphicsVersion Version { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The version.
 

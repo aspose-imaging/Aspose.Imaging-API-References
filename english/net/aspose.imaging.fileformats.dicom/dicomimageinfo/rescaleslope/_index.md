@@ -14,7 +14,7 @@ Gets a value of the "rescaleSlope".
 public double RescaleSlope { get; }
 ```
 
-## Property Value
+### Property Value
 
 The a value of the "rescaleSlope".
 

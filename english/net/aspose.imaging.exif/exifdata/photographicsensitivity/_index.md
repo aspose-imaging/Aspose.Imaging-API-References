@@ -14,7 +14,7 @@ Gets or sets the photographic sensitivity.
 public uint PhotographicSensitivity { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The photographic sensitivity.
 

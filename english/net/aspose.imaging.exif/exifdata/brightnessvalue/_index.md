@@ -14,7 +14,7 @@ Gets or sets the brightness value.
 public TiffSRational BrightnessValue { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The brightness value.
 

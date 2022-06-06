@@ -14,7 +14,7 @@ Gets the name of this [`Color`](../../color).
 public string Name { get; }
 ```
 
-## Property Value
+### Property Value
 
 The name of this [`Color`](../../color).
 

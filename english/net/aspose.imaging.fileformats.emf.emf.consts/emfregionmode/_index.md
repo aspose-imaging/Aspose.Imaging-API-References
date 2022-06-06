@@ -3,7 +3,7 @@ title: EmfRegionMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2820
+weight: 2830
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfregionmode/
 ---
 ## EmfRegionMode enumeration
@@ -14,7 +14,7 @@ The RegionMode enumeration defines values that are used with EMR_SELECTCLIPPATH 
 public enum EmfRegionMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

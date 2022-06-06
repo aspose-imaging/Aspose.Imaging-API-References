@@ -3,7 +3,7 @@ title: StripByteCounts
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 470
+weight: 480
 url: /net/aspose.imaging.imageoptions/tiffoptions/stripbytecounts/
 ---
 ## TiffOptions.StripByteCounts property
@@ -14,7 +14,7 @@ Gets or sets the strip byte counts.
 public uint[] StripByteCounts { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The strip byte counts.
 

@@ -14,7 +14,7 @@ Gets or sets the character cell height, in pixels, of each cell in the grid.
 public byte CharacterCellHeight { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The character cell height.
 

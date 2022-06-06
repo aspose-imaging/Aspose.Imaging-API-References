@@ -14,7 +14,7 @@ Gets or sets a scans.
 public WmfScanObject[] AScans { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 An array of Scan objects (section 2.2.2.21) that define the scanlines in the region.
 

@@ -14,7 +14,7 @@ Creates a new exporter instance.
 public IImageExporter CreateInstance()
 ```
 
-## Return Value
+### Return Value
 
 A new exporter instance.
 

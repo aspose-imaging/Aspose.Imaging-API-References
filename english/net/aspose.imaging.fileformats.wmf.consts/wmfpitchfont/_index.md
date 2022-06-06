@@ -3,7 +3,7 @@ title: WmfPitchFont
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8270
+weight: 8280
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfpitchfont/
 ---
 ## WmfPitchFont enumeration
@@ -14,7 +14,7 @@ The PitchFont enumeration defines values that are used for specifying characteri
 public enum WmfPitchFont : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

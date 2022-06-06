@@ -14,7 +14,7 @@ Gets a generic default [`StringFormat`](../../stringformat) object.
 public static StringFormat GenericDefault { get; }
 ```
 
-## Property Value
+### Property Value
 
 The generic default [`StringFormat`](../../stringformat) object.
 

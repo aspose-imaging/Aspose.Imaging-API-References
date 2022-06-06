@@ -3,7 +3,7 @@ title: EmbeddedImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 850
+weight: 860
 url: /net/aspose.imaging/embeddedimage/
 ---
 ## EmbeddedImage class

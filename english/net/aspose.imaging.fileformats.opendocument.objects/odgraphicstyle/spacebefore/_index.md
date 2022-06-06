@@ -14,7 +14,7 @@ Gets or sets the space before.
 public float SpaceBefore { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The space before.
 

@@ -14,7 +14,7 @@ Get hash code of this instance. Not suitable to be used as a key as [`TgaImage`]
 public override int GetHashCode()
 ```
 
-## Return Value
+### Return Value
 
 Hash code of this instance.
 

@@ -14,7 +14,7 @@ Gets or sets the loops count (Default 1 loop)
 public int LoopsCount { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The loops count.
 

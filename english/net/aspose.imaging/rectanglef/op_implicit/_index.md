@@ -18,7 +18,7 @@ public static implicit operator RectangleF(Rectangle rect)
 | --- | --- | --- |
 | rect | Rectangle | The [`Rectangle`](../../rectangle) structure to convert. |
 
-## Return Value
+### Return Value
 
 The [`RectangleF`](../../rectanglef) structure that is converted from the specified [`Rectangle`](../../rectangle) structure.
 

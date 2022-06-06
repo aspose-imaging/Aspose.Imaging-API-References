@@ -3,7 +3,7 @@ title: WmfOutPrecision
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8250
+weight: 8260
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfoutprecision/
 ---
 ## WmfOutPrecision enumeration
@@ -14,7 +14,7 @@ The OutPrecision enumeration defines values for output precision, which is the r
 public enum WmfOutPrecision : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

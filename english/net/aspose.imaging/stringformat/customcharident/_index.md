@@ -14,7 +14,7 @@ Gets or sets the custom character ident.
 public PointF CustomCharIdent { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The custom character ident.
 

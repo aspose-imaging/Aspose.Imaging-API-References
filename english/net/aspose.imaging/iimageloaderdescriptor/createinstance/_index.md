@@ -14,7 +14,7 @@ Creates a new loader instance.
 public IImageLoader CreateInstance()
 ```
 
-## Return Value
+### Return Value
 
 A new loader instance.
 

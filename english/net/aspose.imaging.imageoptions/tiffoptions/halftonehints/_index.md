@@ -3,7 +3,7 @@ title: HalfToneHints
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.imaging.imageoptions/tiffoptions/halftonehints/
 ---
 ## TiffOptions.HalfToneHints property
@@ -14,7 +14,7 @@ Gets or sets the halftone hints.
 public ushort[] HalfToneHints { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The halftone hints.
 

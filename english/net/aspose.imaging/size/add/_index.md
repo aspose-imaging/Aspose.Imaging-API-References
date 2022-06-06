@@ -19,7 +19,7 @@ public static Size Add(Size size1, Size size2)
 | size1 | Size | The first [`Size`](../../size) to add. |
 | size2 | Size | The second [`Size`](../../size) to add. |
 
-## Return Value
+### Return Value
 
 A [`Size`](../../size) structure that is the result of the addition operation.
 

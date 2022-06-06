@@ -3,7 +3,7 @@ title: ResolutionUnit
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 380
+weight: 390
 url: /net/aspose.imaging.imageoptions/tiffoptions/resolutionunit/
 ---
 ## TiffOptions.ResolutionUnit property
@@ -14,7 +14,7 @@ Gets or sets the resolution unit.
 public TiffResolutionUnits ResolutionUnit { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The resolution unit.
 

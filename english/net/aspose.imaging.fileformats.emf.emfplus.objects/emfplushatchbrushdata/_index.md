@@ -3,7 +3,7 @@ title: EmfPlusHatchBrushData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5470
+weight: 5480
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplushatchbrushdata/
 ---
 ## EmfPlusHatchBrushData class

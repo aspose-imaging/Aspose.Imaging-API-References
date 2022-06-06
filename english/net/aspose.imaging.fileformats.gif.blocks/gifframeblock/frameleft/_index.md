@@ -14,7 +14,7 @@ Gets the left.
 public int FrameLeft { get; }
 ```
 
-## Property Value
+### Property Value
 
 The left.
 

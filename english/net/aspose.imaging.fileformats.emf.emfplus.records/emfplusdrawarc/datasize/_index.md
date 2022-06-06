@@ -14,7 +14,7 @@ Gets or sets the size of the data. A 32-bit unsigned integer that specifies the 
 public override int DataSize { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The size of the data.
 

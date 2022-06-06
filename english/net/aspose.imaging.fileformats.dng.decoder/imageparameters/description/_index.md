@@ -14,7 +14,7 @@ Gets the description of colors (RGBG,RGBE,GMCY, or GBTG).
 public string Description { get; }
 ```
 
-## Property Value
+### Property Value
 
 The cdesc.
 

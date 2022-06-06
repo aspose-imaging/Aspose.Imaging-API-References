@@ -14,7 +14,7 @@ Gets or sets a value indicating whether patterns size values is relative.
 public bool IsRelative { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if [`PatternWidth`](../patternwidth) and [`PatternHeight`](../patternheight) has the relative dimension; otherwise, `false`.
 

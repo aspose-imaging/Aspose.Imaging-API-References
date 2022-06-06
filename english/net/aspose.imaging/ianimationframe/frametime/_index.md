@@ -14,7 +14,7 @@ Gets the frame duration.
 public int FrameTime { get; }
 ```
 
-## Property Value
+### Property Value
 
 The frame duration, in milliseconds.
 

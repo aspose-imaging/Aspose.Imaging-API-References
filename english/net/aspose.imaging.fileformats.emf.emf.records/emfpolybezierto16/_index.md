@@ -3,7 +3,7 @@ title: EmfPolyBezierTo16
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3980
+weight: 3990
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpolybezierto16/
 ---
 ## EmfPolyBezierTo16 class

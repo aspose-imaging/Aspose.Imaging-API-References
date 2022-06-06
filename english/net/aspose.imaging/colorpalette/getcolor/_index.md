@@ -18,7 +18,7 @@ public Color GetColor(int index)
 | --- | --- | --- |
 | index | Int32 | The palette color index. |
 
-## Return Value
+### Return Value
 
 The color palette entry specified by the *index*.
 

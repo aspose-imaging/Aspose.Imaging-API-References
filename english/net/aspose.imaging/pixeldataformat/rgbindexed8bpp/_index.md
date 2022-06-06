@@ -14,7 +14,7 @@ Gets the [`PixelDataFormat`](../../pixeldataformat) defined for indexed 8 bit pe
 public static PixelDataFormat RgbIndexed8Bpp { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`PixelDataFormat`](../../pixeldataformat) defined for indexed 8 bit per color.
 

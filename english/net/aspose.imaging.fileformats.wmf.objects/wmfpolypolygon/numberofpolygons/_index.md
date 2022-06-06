@@ -14,7 +14,7 @@ Gets or sets the number of polygons. The number of polygons in the object.
 public int NumberOfPolygons { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The number of polygons.
 

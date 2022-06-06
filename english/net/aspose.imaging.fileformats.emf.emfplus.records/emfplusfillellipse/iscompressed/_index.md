@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this instance is compressed. If set, Rec
 public bool IsCompressed { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this instance is compressed; otherwise, `false`.
 

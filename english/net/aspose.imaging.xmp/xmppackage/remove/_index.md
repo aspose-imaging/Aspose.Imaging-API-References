@@ -18,7 +18,7 @@ public virtual bool Remove(string key)
 | --- | --- | --- |
 | key | String | The string representation of key that is identified with removed value. |
 
-## Return Value
+### Return Value
 
 Returns true if the value with the specified key was removed.
 

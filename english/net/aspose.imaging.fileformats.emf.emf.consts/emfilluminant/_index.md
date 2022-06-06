@@ -3,7 +3,7 @@ title: EmfIlluminant
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2700
+weight: 2710
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfilluminant/
 ---
 ## EmfIlluminant enumeration
@@ -14,7 +14,7 @@ The Illuminant enumeration defines values that specify the illuminant value of a
 public enum EmfIlluminant
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

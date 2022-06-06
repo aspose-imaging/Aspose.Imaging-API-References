@@ -14,7 +14,7 @@ Gets the width.
 public double Width { get; }
 ```
 
-## Property Value
+### Property Value
 
 The width.
 

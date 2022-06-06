@@ -18,7 +18,7 @@ public bool CanCreate(ImageOptionsBase imageOptions)
 | --- | --- | --- |
 | imageOptions | ImageOptionsBase | The image options. |
 
-## Return Value
+### Return Value
 
 `True` if image creator created by this descriptor can create image data using the specified *imageOptions*; otherwise, `false`.
 

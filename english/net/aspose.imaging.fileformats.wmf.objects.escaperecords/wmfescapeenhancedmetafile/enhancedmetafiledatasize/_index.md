@@ -14,7 +14,7 @@ Gets or sets the size of the enhanced metafile data.
 public int EnhancedMetafileDataSize { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A 32-bit unsigned integer that specifies the total size of the EMF stream embedded in this sequence of META_ESCAPE_ENHANCED_METAFILE records.
 

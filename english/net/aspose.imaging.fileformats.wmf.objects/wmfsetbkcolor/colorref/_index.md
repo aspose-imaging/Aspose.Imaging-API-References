@@ -14,7 +14,7 @@ Gets or sets the color reference.
 public int ColorRef { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color reference.
 

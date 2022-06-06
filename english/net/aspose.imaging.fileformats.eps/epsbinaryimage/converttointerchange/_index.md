@@ -14,7 +14,7 @@ Converts this instance to [`EpsInterchangeImage`](../../epsinterchangeimage)
 public EpsInterchangeImage ConvertToInterchange()
 ```
 
-## Return Value
+### Return Value
 
 Result as [`EpsInterchangeImage`](../../epsinterchangeimage)
 

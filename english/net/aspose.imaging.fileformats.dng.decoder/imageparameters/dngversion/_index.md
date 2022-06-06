@@ -14,7 +14,7 @@ Gets the DNG version.
 public uint DngVersion { get; }
 ```
 
-## Property Value
+### Property Value
 
 The DNG version.
 

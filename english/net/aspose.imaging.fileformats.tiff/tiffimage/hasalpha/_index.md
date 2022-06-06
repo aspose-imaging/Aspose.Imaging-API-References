@@ -14,7 +14,7 @@ Gets the Has alpha channel.
 public override bool HasAlpha { get; }
 ```
 
-## Property Value
+### Property Value
 
 The Has alpha channel.
 

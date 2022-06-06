@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this instance is inverted.
 public bool IsInverted { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this instance is inverted; otherwise, `false`.
 

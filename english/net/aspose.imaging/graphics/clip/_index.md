@@ -14,7 +14,7 @@ Gets or sets the clip region.
 public Region Clip { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The clip region.
 

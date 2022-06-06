@@ -14,7 +14,7 @@ Gets or sets the x-coordinate that is the sum of [`X`](../x) and [`Width`](../wi
 public float Right { get; set; }
 ```
 
-## Return Value
+### Return Value
 
 The x-coordinate that is the sum of [`X`](../x) and [`Width`](../width) of this [`RectangleF`](../../rectanglef) structure.
 

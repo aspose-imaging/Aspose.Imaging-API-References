@@ -14,7 +14,7 @@ Gets the image bits per pixel count this parameter is not applicable to vector i
 public override int BitsPerPixel { get; }
 ```
 
-## Property Value
+### Property Value
 
 The image bits per pixel count.
 

@@ -3,7 +3,7 @@ title: WmfBitmapInfoHeader
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8460
+weight: 8470
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfbitmapinfoheader/
 ---
 ## WmfBitmapInfoHeader class
@@ -35,6 +35,12 @@ public class WmfBitmapInfoHeader : WmfBitmapBaseHeader
 | [Width](../../aspose.imaging.fileformats.wmf.objects/wmfbitmapinfoheader/width) { get; set; } | Gets or sets a 32-bit signed integer that defines the width of the DIB, in pixels. This value MUST be positive. This field SHOULD specify the width of the decompressed image file, if the Compression value specifies JPEG or PNG format. |
 | [XPelsPerMeter](../../aspose.imaging.fileformats.wmf.objects/wmfbitmapinfoheader/xpelspermeter) { get; set; } | Gets or sets a 32-bit signed integer that defines the horizontal resolution, in pixels-per-meter, of the target device for the DIB |
 | [YPelsPerMeter](../../aspose.imaging.fileformats.wmf.objects/wmfbitmapinfoheader/ypelspermeter) { get; set; } | Gets or sets a 32-bit signed integer that defines the vertical resolution, in pixels-per-meter, of the target device for the DIB |
+
+## Fields
+
+| Name | Description |
+| --- | --- |
+| const [StructureSize](../../aspose.imaging.fileformats.wmf.objects/wmfbitmapinfoheader/structuresize) | The structure size |
 
 ### See Also
 

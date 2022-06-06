@@ -14,7 +14,7 @@ Gets the shape segments.
 public abstract ShapeSegment[] Segments { get; }
 ```
 
-## Property Value
+### Property Value
 
 The shape segments.
 

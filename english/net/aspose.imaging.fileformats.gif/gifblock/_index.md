@@ -3,7 +3,7 @@ title: GifBlock
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6670
+weight: 6680
 url: /net/aspose.imaging.fileformats.gif/gifblock/
 ---
 ## GifBlock class
@@ -26,11 +26,11 @@ public abstract class GifBlock : IGifBlock
 | --- | --- |
 | abstract [Save](../../aspose.imaging.fileformats.gif/gifblock/save)(Stream) | Saves the block to the specified stream. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [ExtensionIntroducer](extensionintroducer) | Extension introducer. |
+| const [ExtensionIntroducer](../../aspose.imaging.fileformats.gif/gifblock/extensionintroducer) | Extension introducer. |
 
 ### See Also
 

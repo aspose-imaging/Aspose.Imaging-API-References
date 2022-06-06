@@ -3,7 +3,7 @@ title: YCbCrCoefficients
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 670
+weight: 680
 url: /net/aspose.imaging.imageoptions/tiffoptions/ycbcrcoefficients/
 ---
 ## TiffOptions.YCbCrCoefficients property
@@ -14,7 +14,7 @@ Gets or sets the YCbCrCoefficients.
 public TiffRational[] YCbCrCoefficients { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The YCbCrCoefficients.
 

@@ -14,7 +14,7 @@ Gets a copy of the array that contains the list of folders where Aspose.Words lo
 public static string[] GetFontsFolders()
 ```
 
-## Return Value
+### Return Value
 
 A copy of the current font locations.
 

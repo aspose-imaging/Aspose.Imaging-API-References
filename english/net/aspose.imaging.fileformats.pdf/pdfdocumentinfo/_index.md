@@ -3,7 +3,7 @@ title: PdfDocumentInfo
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7410
+weight: 7420
 url: /net/aspose.imaging.fileformats.pdf/pdfdocumentinfo/
 ---
 ## PdfDocumentInfo class

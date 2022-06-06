@@ -14,7 +14,7 @@ Converts raster image to the bitmap.
 public override Bitmap ToBitmap()
 ```
 
-## Return Value
+### Return Value
 
 The bitmap
 

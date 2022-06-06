@@ -23,7 +23,7 @@ public static byte[] ToCmykIccBytes(int[] pixels, int startIndex, int length, St
 | rgbIccStream | Stream | The RGB profile stream. |
 | cmykIccStream | Stream | The CMYK profile stream. |
 
-## Return Value
+### Return Value
 
 The CMYK colors presented as a byte array.
 

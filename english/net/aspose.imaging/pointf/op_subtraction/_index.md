@@ -19,7 +19,7 @@ public static PointF operator -(PointF point, Size size)
 | point | PointF | A [`PointF`](../../pointf) to translate. |
 | size | Size | A [`Size`](../../size) that specifies the numbers to subtract from the x- and y-coordinates of the *point*. |
 
-## Return Value
+### Return Value
 
 The translated [`PointF`](../../pointf).
 
@@ -45,7 +45,7 @@ public static PointF operator -(PointF point, SizeF size)
 | point | PointF | The [`PointF`](../../pointf) to translate. |
 | size | SizeF | The [`SizeF`](../../sizef) that specifies the numbers to subtract from the coordinates of *point*. |
 
-## Return Value
+### Return Value
 
 The translated [`PointF`](../../pointf).
 

@@ -18,7 +18,7 @@ public IAsyncTask ImproveDecompositionAsync(IMaskingArgs maskingArguments)
 | --- | --- | --- |
 | maskingArguments | IMaskingArgs | The masking arguments. |
 
-## Return Value
+### Return Value
 
 The asynchronous decompose task
 

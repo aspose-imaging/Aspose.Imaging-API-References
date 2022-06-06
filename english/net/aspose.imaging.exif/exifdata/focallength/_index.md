@@ -14,7 +14,7 @@ Gets or sets the focal length.
 public TiffRational FocalLength { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The length of the focal.
 

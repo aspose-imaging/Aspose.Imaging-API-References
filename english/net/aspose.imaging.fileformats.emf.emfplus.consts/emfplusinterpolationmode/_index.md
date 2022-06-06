@@ -3,7 +3,7 @@ title: EmfPlusInterpolationMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4860
+weight: 4870
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusinterpolationmode/
 ---
 ## EmfPlusInterpolationMode enumeration
@@ -14,7 +14,7 @@ The InterpolationMode enumeration defines ways to perform scaling, including str
 public enum EmfPlusInterpolationMode : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

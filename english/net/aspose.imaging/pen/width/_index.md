@@ -14,7 +14,7 @@ Gets or sets the width of this [`Pen`](../../pen), in units of the Graphics obje
 public float Width { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The width of this [`Pen`](../../pen).
 

@@ -14,7 +14,7 @@ Gets or sets the GPS altitude.
 public TiffRational GPSAltitude { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS altitude.
 

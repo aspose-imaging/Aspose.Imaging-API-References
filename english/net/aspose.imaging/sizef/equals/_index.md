@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The Object to test. |
 
-## Return Value
+### Return Value
 
 This method returns true if *obj* is a [`SizeF`](../../sizef) and has the same width and height as this [`SizeF`](../../sizef); otherwise, false.
 

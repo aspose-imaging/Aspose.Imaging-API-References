@@ -14,7 +14,7 @@ Gets or sets the factor.
 public double Factor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The factor.
 

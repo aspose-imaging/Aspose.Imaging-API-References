@@ -14,7 +14,7 @@ Gets or sets the version.
 public EmfPlusGraphicsVersion Version { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 An [`EmfPlusGraphicsVersion`](../../emfplusgraphicsversion) object (section 2.2.2.19) that specifies the version of operating system graphics that was used to create this object.
 

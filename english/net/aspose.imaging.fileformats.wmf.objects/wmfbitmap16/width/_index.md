@@ -14,7 +14,7 @@ Gets or sets the width.
 public short Width { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The width of the bitmap in pixels
 

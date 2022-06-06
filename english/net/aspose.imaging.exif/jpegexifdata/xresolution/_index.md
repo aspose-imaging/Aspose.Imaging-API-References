@@ -14,7 +14,7 @@ Gets or sets the x resolution.
 public TiffRational XResolution { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The x resolution.
 

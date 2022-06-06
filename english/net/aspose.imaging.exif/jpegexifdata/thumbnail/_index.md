@@ -14,7 +14,7 @@ Gets or sets the thumbnail image.
 public RasterImage Thumbnail { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The thumbnail.
 

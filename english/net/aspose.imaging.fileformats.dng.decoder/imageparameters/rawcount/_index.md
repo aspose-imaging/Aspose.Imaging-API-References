@@ -14,7 +14,7 @@ Gets the number of RAW images in file (0 means that the file has not been recogn
 public uint RawCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 The raw count.
 

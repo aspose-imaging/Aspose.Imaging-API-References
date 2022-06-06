@@ -14,7 +14,7 @@ Gets or sets the flags.
 public byte Flags { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The flags.
 

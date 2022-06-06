@@ -14,7 +14,7 @@ Gets or sets bitmap height Height (4 bytes): A 32-bit signed integer that specif
 public int Height { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The height.
 

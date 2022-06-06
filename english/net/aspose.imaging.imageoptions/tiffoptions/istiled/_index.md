@@ -3,7 +3,7 @@ title: IsTiled
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 260
 url: /net/aspose.imaging.imageoptions/tiffoptions/istiled/
 ---
 ## TiffOptions.IsTiled property
@@ -14,7 +14,7 @@ Gets a value indicating whether image is tiled.
 public bool IsTiled { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if image is tiled; otherwise, `false`.
 

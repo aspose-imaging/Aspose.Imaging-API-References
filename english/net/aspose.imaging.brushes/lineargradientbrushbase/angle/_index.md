@@ -14,7 +14,7 @@ Gets or sets the gradient angle.
 public float Angle { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The gradient angle.
 

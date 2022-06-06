@@ -14,7 +14,7 @@ Gets the ISO sensitivity.
 public float IsoSpeed { get; }
 ```
 
-## Property Value
+### Property Value
 
 The ISO speed.
 

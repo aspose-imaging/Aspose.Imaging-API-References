@@ -3,7 +3,7 @@ title: Jpeg2000Codec
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6800
+weight: 6810
 url: /net/aspose.imaging.fileformats.jpeg2000/jpeg2000codec/
 ---
 ## Jpeg2000Codec enumeration
@@ -14,7 +14,7 @@ Represents JPEG2000 image type
 public enum Jpeg2000Codec
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

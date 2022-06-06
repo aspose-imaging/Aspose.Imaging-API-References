@@ -14,7 +14,7 @@ Gets or sets the rectangle.
 public Rectangle Rectangle { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The rectangle.
 

@@ -3,7 +3,7 @@ title: PathJumpTypes
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2070
+weight: 2080
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.enums/pathjumptypes/
 ---
 ## PathJumpTypes enumeration
@@ -14,7 +14,7 @@ Types of transitions between points of the [`CmxPathSpec`](../../aspose.imaging.
 public enum PathJumpTypes
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

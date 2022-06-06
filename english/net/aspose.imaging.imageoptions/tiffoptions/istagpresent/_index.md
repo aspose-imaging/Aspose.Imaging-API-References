@@ -3,7 +3,7 @@ title: IsTagPresent
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 740
+weight: 750
 url: /net/aspose.imaging.imageoptions/tiffoptions/istagpresent/
 ---
 ## TiffOptions.IsTagPresent method
@@ -18,7 +18,7 @@ public bool IsTagPresent(TiffTags tag)
 | --- | --- | --- |
 | tag | TiffTags | The tag id to check. |
 
-## Return Value
+### Return Value
 
 `true` if tag is present; otherwise, `false`.
 

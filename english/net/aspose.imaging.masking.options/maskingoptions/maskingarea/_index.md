@@ -14,7 +14,7 @@ Gets or sets the masking area.
 public Rectangle MaskingArea { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The masking area which is a partial area of the source image. Rectangle.Empty value means full source image area.
 

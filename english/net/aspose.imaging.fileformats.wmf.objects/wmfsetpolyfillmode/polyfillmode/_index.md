@@ -14,7 +14,7 @@ Gets or sets the poly fill mode.
 public WmfPolyFillMode PolyFillMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The poly fill mode.
 

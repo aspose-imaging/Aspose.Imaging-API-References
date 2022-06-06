@@ -18,7 +18,7 @@ public delegate object AsyncTaskFunc(IAsyncTaskState taskState);
 | --- | --- | --- |
 | taskState | IAsyncTaskState | State of the asynchronous task. |
 
-## Return Value
+### Return Value
 
 Result of the long operation.
 

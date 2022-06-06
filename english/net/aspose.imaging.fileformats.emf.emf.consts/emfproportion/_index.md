@@ -3,7 +3,7 @@ title: EmfProportion
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2800
+weight: 2810
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfproportion/
 ---
 ## EmfProportion enumeration
@@ -14,7 +14,7 @@ The Proportion enumeration defines values for one of the characteristics in the 
 public enum EmfProportion : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -3,7 +3,7 @@ title: WmfFontQuality
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8170
+weight: 8180
 url: /net/aspose.imaging.fileformats.wmf.consts/wmffontquality/
 ---
 ## WmfFontQuality enumeration
@@ -14,7 +14,7 @@ The FontQuality Enumeration specifies how closely the attributes of the logical 
 public enum WmfFontQuality : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

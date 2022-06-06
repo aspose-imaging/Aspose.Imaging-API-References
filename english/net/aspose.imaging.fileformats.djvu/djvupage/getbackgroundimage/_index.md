@@ -14,7 +14,7 @@ Gets the background image.
 public DjvuRaster GetBackgroundImage()
 ```
 
-## Return Value
+### Return Value
 
 The bitmap
 

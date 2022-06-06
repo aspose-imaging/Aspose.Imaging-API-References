@@ -19,7 +19,7 @@ public static TiffFrame CreateFrameFrom(TiffFrame tiffFrame, TiffOptions options
 | tiffFrame | TiffFrame | The tiff frame to create from. |
 | options | TiffOptions | The new options to use. |
 
-## Return Value
+### Return Value
 
 The newly created frame.
 

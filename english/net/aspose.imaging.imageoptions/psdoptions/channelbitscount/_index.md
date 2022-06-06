@@ -14,7 +14,7 @@ Gets or sets the bits count per color channel.
 public short ChannelBitsCount { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The bits count per color channel.
 

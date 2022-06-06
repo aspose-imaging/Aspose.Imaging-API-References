@@ -14,7 +14,7 @@ Gets or sets the x-coordinate of the left edge of this [`RectangleF`](../../rect
 public float Left { get; set; }
 ```
 
-## Return Value
+### Return Value
 
 The x-coordinate of the left edge of this [`RectangleF`](../../rectanglef) structure.
 

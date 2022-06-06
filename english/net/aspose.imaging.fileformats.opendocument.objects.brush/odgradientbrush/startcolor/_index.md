@@ -14,7 +14,7 @@ Gets or sets the start color.
 public int StartColor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The start color.
 

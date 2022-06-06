@@ -19,7 +19,7 @@ public static Rectangle Union(Rectangle a, Rectangle b)
 | a | Rectangle | A first rectangle to union. |
 | b | Rectangle | A second rectangle to union. |
 
-## Return Value
+### Return Value
 
 A [`Rectangle`](../../rectangle) structure that bounds the union of the two [`Rectangle`](../../rectangle) structures.
 

@@ -14,7 +14,7 @@ Gets or sets the sensitivity type.
 public ushort SensitivityType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the sensitivity.
 

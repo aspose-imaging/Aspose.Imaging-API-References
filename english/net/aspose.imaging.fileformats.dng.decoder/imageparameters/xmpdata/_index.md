@@ -14,7 +14,7 @@ Gets the XMP data.
 public string XmpData { get; }
 ```
 
-## Property Value
+### Property Value
 
 The XMP data.
 

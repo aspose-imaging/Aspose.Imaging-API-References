@@ -14,7 +14,7 @@ Gets the namespace URI.
 public string NamespaceUri { get; }
 ```
 
-## Property Value
+### Property Value
 
 The namespace URI.
 

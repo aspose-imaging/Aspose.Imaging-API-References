@@ -14,7 +14,7 @@ Gets or sets the artist.
 public string Artist { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The artist.
 

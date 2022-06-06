@@ -3,7 +3,7 @@ title: EmfIcmMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2690
+weight: 2700
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emficmmode/
 ---
 ## EmfIcmMode enumeration
@@ -14,7 +14,7 @@ The ICMMode enumeration defines values that specify when to turn on and off ICM.
 public enum EmfIcmMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -3,7 +3,7 @@ title: EmfStrokeVariation
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2870
+weight: 2880
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfstrokevariation/
 ---
 ## EmfStrokeVariation enumeration
@@ -14,7 +14,7 @@ The StrokeVariation enumeration defines values for one of the characteristics in
 public enum EmfStrokeVariation : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

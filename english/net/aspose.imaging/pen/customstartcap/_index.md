@@ -14,7 +14,7 @@ Gets or sets a custom cap to use at the beginning of lines drawn with this [`Pen
 public CustomLineCap CustomStartCap { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A [`CustomLineCap`](../../customlinecap) that represents the cap used at the beginning of lines drawn with this [`Pen`](../../pen).
 

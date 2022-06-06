@@ -14,7 +14,7 @@ Gets or sets the Specifies the adjustment to the lightness. -100 ≤ value &lt; 
 public int LightnessLevel { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The lightness level.
 

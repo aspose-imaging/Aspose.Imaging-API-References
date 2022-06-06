@@ -14,7 +14,7 @@ Gets or sets the text format.
 public StringFormat TextFormat { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The text format.
 

@@ -14,7 +14,7 @@ Gets or sets the GPS measurement mode.
 public string GPSMeasureMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS measurement mode.
 

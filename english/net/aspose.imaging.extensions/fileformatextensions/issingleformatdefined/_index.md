@@ -18,7 +18,7 @@ public static bool IsSingleFormatDefined(FileFormat fileFormat)
 | --- | --- | --- |
 | fileFormat | FileFormat | The file format to check. |
 
-## Return Value
+### Return Value
 
 `True` if single file format is defined; otherwise, `false`.
 

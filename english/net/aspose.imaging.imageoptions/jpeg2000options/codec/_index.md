@@ -14,7 +14,7 @@ Gets or sets the JPEG2000 codec
 public Jpeg2000Codec Codec { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The JPEG2000 codec
 

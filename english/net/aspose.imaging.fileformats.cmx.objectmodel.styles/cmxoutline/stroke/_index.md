@@ -14,7 +14,7 @@ Gets or sets the stroke pattern.
 public int[] Stroke { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The array of integers that represents the dot pattern for the line.
 

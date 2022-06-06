@@ -14,7 +14,7 @@ Gets a value indicating whether this [`SizeF`](../../sizef) has zero width and h
 public bool IsEmpty { get; }
 ```
 
-## Return Value
+### Return Value
 
 This property returns true when this [`SizeF`](../../sizef) has both a width and height of zero; otherwise, false.
 

@@ -6,7 +6,30 @@ type: docs
 weight: 10
 url: /net/aspose.imaging.fileformats.opendocument/otgimage/otgimage/
 ---
-## OtgImage constructor
+## OtgImage constructor (1 of 2)
+
+Initializes a new instance of the [`OtgImage`](../../otgimage) class.
+
+```csharp
+public OtgImage(StreamContainer streamContainer, LoadOptions loadOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| streamContainer | StreamContainer | The stream. |
+| loadOptions | LoadOptions | The load options. |
+
+### See Also
+
+* class [StreamContainer](../../../aspose.imaging/streamcontainer)
+* class [LoadOptions](../../../aspose.imaging/loadoptions)
+* class [OtgImage](../../otgimage)
+* namespace [Aspose.Imaging.FileFormats.OpenDocument](../../otgimage)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## OtgImage constructor (2 of 2)
 
 Initializes a new instance of the [`OtgImage`](../../otgimage) class.
 
@@ -16,7 +39,7 @@ public OtgImage(StreamContainer streamContainer)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| streamContainer | StreamContainer | The stream. |
+| streamContainer | StreamContainer | The stream container. |
 
 ### See Also
 

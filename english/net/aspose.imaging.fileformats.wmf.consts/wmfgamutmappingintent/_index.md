@@ -3,7 +3,7 @@ title: WmfGamutMappingIntent
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8180
+weight: 8190
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfgamutmappingintent/
 ---
 ## WmfGamutMappingIntent enumeration
@@ -15,7 +15,7 @@ The GamutMappingIntent Enumeration specifies the relationship between logical an
 public enum WmfGamutMappingIntent
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

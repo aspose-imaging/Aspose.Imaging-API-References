@@ -3,7 +3,7 @@ title: TiffFillOrders
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7650
+weight: 7660
 url: /net/aspose.imaging.fileformats.tiff.enums/tifffillorders/
 ---
 ## TiffFillOrders enumeration
@@ -14,7 +14,7 @@ Data order within a byte. Possible values for FILLORDER tag.
 public enum TiffFillOrders : ushort
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

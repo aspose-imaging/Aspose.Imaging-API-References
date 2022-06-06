@@ -14,7 +14,7 @@ Gets or sets the raster operation.
 public WmfTernaryRasterOperation RasterOperation { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The raster operation code. This code MUST be one of the values in the Ternary Raster Operation enumeration table.
 

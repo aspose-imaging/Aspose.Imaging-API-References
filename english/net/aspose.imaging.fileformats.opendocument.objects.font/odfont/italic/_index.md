@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this [`OdFont`](../../odfont) is italic.
 public bool Italic { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if italic; otherwise, `false`.
 

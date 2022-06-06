@@ -14,7 +14,7 @@ Gets the codec.
 public Jpeg2000Codec Codec { get; }
 ```
 
-## Property Value
+### Property Value
 
 The codec.
 

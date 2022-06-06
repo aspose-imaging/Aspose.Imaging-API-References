@@ -14,7 +14,7 @@ Gets or sets the mode.
 public WmfFloodFillMode Mode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The fill operation to be performed.
 

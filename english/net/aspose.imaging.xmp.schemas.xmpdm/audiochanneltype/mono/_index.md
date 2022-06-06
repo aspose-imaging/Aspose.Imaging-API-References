@@ -14,7 +14,7 @@ Gets the mono audio channel.
 public static AudioChannelType Mono { get; }
 ```
 
-## Property Value
+### Property Value
 
 The mono audio channel.
 

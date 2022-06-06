@@ -3,7 +3,7 @@ title: WmfRecord
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8900
+weight: 8910
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfrecord/
 ---
 ## WmfRecord class

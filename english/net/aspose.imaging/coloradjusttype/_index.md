@@ -14,7 +14,7 @@ Specifies which objects use color adjustment information.
 public enum ColorAdjustType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

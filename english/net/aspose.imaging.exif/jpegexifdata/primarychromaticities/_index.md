@@ -14,7 +14,7 @@ Gets or sets the chromaticity of the three primary colors of the image.
 public TiffRational[] PrimaryChromaticities { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The chromaticity of the three primary colors of the image.
 

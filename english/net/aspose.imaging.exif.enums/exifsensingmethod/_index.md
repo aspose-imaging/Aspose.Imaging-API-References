@@ -3,7 +3,7 @@ title: ExifSensingMethod
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1010
+weight: 1020
 url: /net/aspose.imaging.exif.enums/exifsensingmethod/
 ---
 ## ExifSensingMethod enumeration
@@ -14,7 +14,7 @@ exif sensing method enum.
 public enum ExifSensingMethod
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

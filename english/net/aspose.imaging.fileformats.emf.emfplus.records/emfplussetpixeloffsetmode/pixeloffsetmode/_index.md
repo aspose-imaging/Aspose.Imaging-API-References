@@ -14,7 +14,7 @@ Gets or sets the pixel offset mode value, from the PixelOffsetMode enumeration (
 public EmfPlusPixelOffsetMode PixelOffsetMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The pixel offset mode.
 

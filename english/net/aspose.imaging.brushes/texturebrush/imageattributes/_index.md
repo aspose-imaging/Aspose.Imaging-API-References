@@ -14,7 +14,7 @@ Gets the `ImageAttributes` associated with this [`TextureBrush`](../../texturebr
 public ImageAttributes ImageAttributes { get; }
 ```
 
-## Property Value
+### Property Value
 
 The `ImageAttributes`.
 

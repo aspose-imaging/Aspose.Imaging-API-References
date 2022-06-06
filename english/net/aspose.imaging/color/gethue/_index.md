@@ -14,7 +14,7 @@ Gets the hue-saturation-brightness (HSB) hue value, in degrees, for this [`Color
 public float GetHue()
 ```
 
-## Return Value
+### Return Value
 
 The hue, in degrees, of this [`Color`](../../color). The hue is measured in degrees, ranging from 0.0 through 360.0, in HSB color space.
 

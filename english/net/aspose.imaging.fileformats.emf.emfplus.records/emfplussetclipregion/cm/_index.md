@@ -14,7 +14,7 @@ Gets or sets the CM (4 bits): Specifies the logical operation for combining two 
 public EmfPlusCombineMode Cm { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The cm.
 

@@ -14,7 +14,7 @@ Gets or sets a value indicating whether the full HTML page should be generated.
 public bool FullHtmlPage { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if full HTML page required; otherwise, `false`.
 

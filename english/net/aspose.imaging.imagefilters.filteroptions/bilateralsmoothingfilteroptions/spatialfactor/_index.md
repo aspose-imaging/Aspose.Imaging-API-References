@@ -14,7 +14,7 @@ Gets or sets the spatial factor.
 public double SpatialFactor { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The spatial factor.
 

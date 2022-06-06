@@ -3,7 +3,7 @@ title: WmfPostScriptCap
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8290
+weight: 8300
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfpostscriptcap/
 ---
 ## WmfPostScriptCap enumeration
@@ -14,7 +14,7 @@ The PostScriptCap Enumeration defines line-ending types for use with a PostScrip
 public enum WmfPostScriptCap
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

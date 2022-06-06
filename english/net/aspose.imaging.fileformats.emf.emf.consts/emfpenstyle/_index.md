@@ -3,7 +3,7 @@ title: EmfPenStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2770
+weight: 2780
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfpenstyle/
 ---
 ## EmfPenStyle enumeration
@@ -15,7 +15,7 @@ The PenStyle enumeration defines the attributes of pens that can be used in grap
 public enum EmfPenStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

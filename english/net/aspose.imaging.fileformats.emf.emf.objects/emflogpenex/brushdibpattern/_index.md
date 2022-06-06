@@ -14,7 +14,7 @@ Gets or sets the brush dib pattern.
 public WmfDeviceIndependentBitmap BrushDibPattern { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The brush dib pattern.
 

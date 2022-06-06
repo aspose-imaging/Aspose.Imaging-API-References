@@ -19,7 +19,7 @@ public static Image Load(string filePath, LoadOptions loadOptions)
 | filePath | String | The file path to load image from. |
 | loadOptions | LoadOptions | The load options. |
 
-## Return Value
+### Return Value
 
 The loaded image.
 
@@ -44,7 +44,7 @@ public static Image Load(string filePath)
 | --- | --- | --- |
 | filePath | String | The file path to load image from. |
 
-## Return Value
+### Return Value
 
 The loaded image.
 
@@ -83,7 +83,7 @@ public static Image Load(Stream stream, LoadOptions loadOptions)
 | stream | Stream | The stream to load image from. |
 | loadOptions | LoadOptions | The load options. |
 
-## Return Value
+### Return Value
 
 The loaded image.
 
@@ -108,7 +108,7 @@ public static Image Load(Stream stream)
 | --- | --- | --- |
 | stream | Stream | The stream to load image from. |
 
-## Return Value
+### Return Value
 
 The loaded image.
 

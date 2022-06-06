@@ -3,7 +3,7 @@ title: ExifLightSource
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 960
+weight: 970
 url: /net/aspose.imaging.exif.enums/exiflightsource/
 ---
 ## ExifLightSource enumeration
@@ -14,7 +14,7 @@ The exif light source.
 public enum ExifLightSource
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

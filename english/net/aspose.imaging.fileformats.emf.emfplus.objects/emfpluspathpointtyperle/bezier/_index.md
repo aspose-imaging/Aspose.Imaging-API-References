@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this [`EmfPlusPathPointTypeRle`](../../e
 public bool Bezier { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if bezier; otherwise, `false`.
 

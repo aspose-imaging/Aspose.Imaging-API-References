@@ -14,7 +14,7 @@ Gets the full frame.
 public RasterImage GetFullFrame()
 ```
 
-## Return Value
+### Return Value
 
 The full frame image.
 

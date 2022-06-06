@@ -14,7 +14,7 @@ Gets or sets the enhanced path.
 public OdGraphicObject[] EnhancedPath { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The enhanced path.
 

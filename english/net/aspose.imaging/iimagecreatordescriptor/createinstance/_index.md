@@ -14,7 +14,7 @@ Creates a new creator instance.
 public IImageCreator CreateInstance()
 ```
 
-## Return Value
+### Return Value
 
 A new creator instance.
 

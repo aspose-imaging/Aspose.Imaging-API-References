@@ -14,7 +14,7 @@ Gets or sets the cache scheme used.
 public static CacheType CacheType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The cache scheme used.
 

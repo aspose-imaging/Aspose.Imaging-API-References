@@ -14,7 +14,7 @@ Creates a deep clone of this [`StringFormat`](../../stringformat) object.
 public StringFormat DeepClone()
 ```
 
-## Return Value
+### Return Value
 
 The deep clone of the current [`StringFormat`](../../stringformat).
 

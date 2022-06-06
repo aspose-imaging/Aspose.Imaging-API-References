@@ -21,7 +21,7 @@ public static byte CreateFlags(bool hasTransparentColor, bool requiresUserInput,
 | requiresUserInput | Boolean | if set to `true` the user input is expected. |
 | disposalMethod | DisposalMethod | The disposal method. |
 
-## Return Value
+### Return Value
 
 The generated flags.
 

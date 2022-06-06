@@ -14,7 +14,7 @@ Gets or sets the alignment for this [`Pen`](../../pen).
 public PenAlignment Alignment { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A [`PenAlignment`](../../penalignment) that represents the alignment for this [`Pen`](../../pen).
 

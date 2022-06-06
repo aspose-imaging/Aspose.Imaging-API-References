@@ -14,7 +14,7 @@ Gets the data stream.
 public override Stream Stream { get; }
 ```
 
-## Property Value
+### Property Value
 
 The data stream.
 

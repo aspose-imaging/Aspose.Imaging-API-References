@@ -14,7 +14,7 @@ Gets or sets the number of objects to separate initial image to (optional), defa
 public int NumberOfObjects { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The number of objects.
 

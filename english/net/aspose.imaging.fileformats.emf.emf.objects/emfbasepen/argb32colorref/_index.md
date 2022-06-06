@@ -14,7 +14,7 @@ Gets or sets the 32-bit ARGB color reference.
 public abstract int Argb32ColorRef { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color reference.
 

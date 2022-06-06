@@ -14,7 +14,7 @@ Gets or sets the transparent color index.
 public byte TransparentColorIndex { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The transparent color index.
 

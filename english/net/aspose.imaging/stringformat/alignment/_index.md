@@ -14,7 +14,7 @@ Gets or sets text alignment information on the vertical plane.
 public StringAlignment Alignment { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A [`StringAlignment`](../../stringalignment) enumeration that specifies text alignment information.
 

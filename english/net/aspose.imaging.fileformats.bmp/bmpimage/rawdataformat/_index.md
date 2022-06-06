@@ -14,7 +14,7 @@ Gets the raw data format.
 public override PixelDataFormat RawDataFormat { get; }
 ```
 
-## Property Value
+### Property Value
 
 The raw data format.
 

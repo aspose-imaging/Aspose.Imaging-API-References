@@ -14,7 +14,7 @@ Gets or sets the exposure mode.
 public ExifExposureMode ExposureMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The exposure mode.
 

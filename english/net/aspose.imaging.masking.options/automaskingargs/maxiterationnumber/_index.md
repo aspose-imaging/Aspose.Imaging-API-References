@@ -14,7 +14,7 @@ Gets or sets the maximum number of iterations.
 public int MaxIterationNumber { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The maximum maximum number of iterations.
 

@@ -18,7 +18,7 @@ public static RotateFlipType ToGdiRotateFlipType(RotateFlipType rotateFlipType)
 | --- | --- | --- |
 | rotateFlipType | RotateFlipType | Type of the rotate flip. |
 
-## Return Value
+### Return Value
 
 The gdi RotateFlipType
 

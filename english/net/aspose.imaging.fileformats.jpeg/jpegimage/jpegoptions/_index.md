@@ -14,7 +14,7 @@ Gets the JPEG options used to create or load this [`JpegImage`](../../jpegimage)
 public JpegOptions JpegOptions { get; }
 ```
 
-## Property Value
+### Property Value
 
 The JPEG options.
 

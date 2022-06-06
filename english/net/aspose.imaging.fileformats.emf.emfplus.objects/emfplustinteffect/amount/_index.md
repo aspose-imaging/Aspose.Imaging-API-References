@@ -14,7 +14,7 @@ Gets or sets A 32-bit signed integer that specifies how much the hue is strength
 public int Amount { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The amount.
 

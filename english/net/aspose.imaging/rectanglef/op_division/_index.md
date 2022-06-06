@@ -19,7 +19,7 @@ public static RectangleF operator /(RectangleF rectangle, float divider)
 | rectangle | RectangleF | The rectangle. |
 | divider | Single | The divider. |
 
-## Return Value
+### Return Value
 
 The result of the operator.
 

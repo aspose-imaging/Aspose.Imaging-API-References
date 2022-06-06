@@ -14,7 +14,7 @@ Gets or sets the width of the dest.
 public short DestWidth { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The width, in logical units, of the destination rectangle.
 

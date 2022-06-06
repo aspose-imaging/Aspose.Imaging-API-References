@@ -3,7 +3,7 @@ title: EmfPlusPenAlignment
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4980
+weight: 4990
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspenalignment/
 ---
 ## EmfPlusPenAlignment enumeration
@@ -14,7 +14,7 @@ The PenAlignment enumeration defines the distribution of the width of the pen wi
 public enum EmfPlusPenAlignment
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

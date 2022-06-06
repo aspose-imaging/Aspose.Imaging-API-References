@@ -3,7 +3,7 @@ title: Dimensions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11560
+weight: 11580
 url: /net/aspose.imaging.xmp.types.complex.dimensions/dimensions/
 ---
 ## Dimensions class

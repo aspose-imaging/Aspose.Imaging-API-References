@@ -14,7 +14,7 @@ Gets or sets the planar configuration.
 public ushort PlanarConfiguration { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The planar configuration.
 

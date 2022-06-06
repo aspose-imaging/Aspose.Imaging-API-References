@@ -18,7 +18,7 @@ public static PointF ToGdiPoint(PointF point)
 | --- | --- | --- |
 | point | PointF | The [`PointF`](../../../aspose.imaging/pointf) to convert. |
 
-## Return Value
+### Return Value
 
 The converted PointF.
 

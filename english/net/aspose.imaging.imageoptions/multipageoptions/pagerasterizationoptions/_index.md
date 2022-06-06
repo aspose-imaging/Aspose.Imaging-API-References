@@ -14,7 +14,7 @@ Gets or sets the page rasterization options.
 public VectorRasterizationOptions[] PageRasterizationOptions { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The page rasterization options.
 

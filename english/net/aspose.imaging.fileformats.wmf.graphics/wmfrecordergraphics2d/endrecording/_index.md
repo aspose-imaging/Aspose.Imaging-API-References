@@ -14,7 +14,7 @@ Ends the recording.
 public WmfImage EndRecording()
 ```
 
-## Return Value
+### Return Value
 
 The result image.
 

@@ -14,7 +14,7 @@ Gets a value indicating whether this task is currently running.
 public bool IsBusy { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this task is currently running; otherwise, `false`.
 

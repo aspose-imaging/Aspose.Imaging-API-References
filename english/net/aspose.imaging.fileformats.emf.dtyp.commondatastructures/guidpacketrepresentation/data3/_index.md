@@ -14,7 +14,7 @@ Gets or sets the value of the Data3 member (section 2.3.4), in little-endian byt
 public short Data3 { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The data3.
 

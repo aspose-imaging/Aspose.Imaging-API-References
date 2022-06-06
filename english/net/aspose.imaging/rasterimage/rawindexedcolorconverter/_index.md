@@ -14,7 +14,7 @@ Gets or sets the indexed color converter
 public IIndexedColorConverter RawIndexedColorConverter { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The indexed color converter
 

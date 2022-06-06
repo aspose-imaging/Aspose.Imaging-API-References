@@ -3,7 +3,7 @@ title: EmfPlusRegionNodeDataType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5030
+weight: 5040
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusregionnodedatatype/
 ---
 ## EmfPlusRegionNodeDataType enumeration
@@ -14,7 +14,7 @@ The RegionNodeDataType enumeration defines types of region node data.
 public enum EmfPlusRegionNodeDataType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

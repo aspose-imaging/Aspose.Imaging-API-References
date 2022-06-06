@@ -3,7 +3,7 @@ title: CmxPathSpec
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2160
+weight: 2170
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec/
 ---
 ## CmxPathSpec class

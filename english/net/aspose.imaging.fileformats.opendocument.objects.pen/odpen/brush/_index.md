@@ -14,7 +14,7 @@ Gets or sets the brush.
 public OdBrush Brush { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The brush.
 

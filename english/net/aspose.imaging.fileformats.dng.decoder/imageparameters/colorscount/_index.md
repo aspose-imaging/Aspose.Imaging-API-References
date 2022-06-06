@@ -14,7 +14,7 @@ Gets the colors.
 public int ColorsCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 The colors.
 

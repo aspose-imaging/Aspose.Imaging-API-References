@@ -14,7 +14,7 @@ Gets a value indicating whether this instance is disposed.
 public bool Disposed { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if disposed; otherwise, `false`.
 

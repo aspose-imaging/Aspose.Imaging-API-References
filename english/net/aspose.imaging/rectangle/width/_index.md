@@ -14,7 +14,7 @@ Gets or sets the width of this [`Rectangle`](../../rectangle) structure.
 public int Width { get; set; }
 ```
 
-## Return Value
+### Return Value
 
 The width of this [`Rectangle`](../../rectangle) structure.
 

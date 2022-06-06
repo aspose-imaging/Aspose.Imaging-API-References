@@ -14,7 +14,7 @@ Gets a value indicating whether the asynchronous task is canceled.
 public bool IsCanceled { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if the asynchronous task is canceled; otherwise, `false`.
 

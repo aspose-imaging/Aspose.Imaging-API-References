@@ -14,7 +14,7 @@ Gets the em-size of this [`Font`](../../font) measured in the units specified by
 public float Size { get; }
 ```
 
-## Property Value
+### Property Value
 
 The em-size of this [`Font`](../../font).
 

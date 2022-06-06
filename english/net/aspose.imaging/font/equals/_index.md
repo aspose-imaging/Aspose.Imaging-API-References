@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The object to test. |
 
-## Return Value
+### Return Value
 
 True if the *obj* parameter is a [`Font`](../../font) and has the same property values as this [`Font`](../../font); otherwise, false.
 

@@ -18,7 +18,7 @@ public int GetArgb32Color(int index)
 | --- | --- | --- |
 | index | Int32 | The 32-bit ARGB palette color index. |
 
-## Return Value
+### Return Value
 
 The color palette entry specified by the *index*.
 

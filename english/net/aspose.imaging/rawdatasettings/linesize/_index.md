@@ -14,7 +14,7 @@ Gets or sets the pixels line size in bytes for raw data processing
 public int LineSize { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The pixels line size in bytes for raw data processing
 

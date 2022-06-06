@@ -14,7 +14,7 @@ Returns a hash code for this [`Color`](../../color) structure.
 public override int GetHashCode()
 ```
 
-## Return Value
+### Return Value
 
 An integer value that specifies the hash code for this [`Color`](../../color).
 

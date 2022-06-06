@@ -14,7 +14,7 @@ Gets or sets the sampling ratio of chrominance components in relation to the lum
 public ushort[] YCbCrSubSampling { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The sampling ratio of chrominance components in relation to the luminance component.
 

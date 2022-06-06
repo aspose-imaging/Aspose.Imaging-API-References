@@ -19,7 +19,7 @@ public static Rectangle FromPoints(Point point1, Point point2)
 | point1 | Point | The first [`Point`](../../point) for the new rectangle. |
 | point2 | Point | The second [`Point`](../../point) for the new rectangle. |
 
-## Return Value
+### Return Value
 
 A newly created [`Rectangle`](../../rectangle).
 

@@ -3,7 +3,7 @@ title: ExifProperties
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1070
+weight: 1080
 url: /net/aspose.imaging.exif/exifproperties/
 ---
 ## ExifProperties enumeration
@@ -14,7 +14,7 @@ Exif tags list
 public enum ExifProperties : ushort
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

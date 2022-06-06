@@ -14,7 +14,7 @@ Converts XMP value to the XML representation.
 public string GetXmlValue()
 ```
 
-## Return Value
+### Return Value
 
 Returns the XMP value converted to the XML representation.
 

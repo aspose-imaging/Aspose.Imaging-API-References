@@ -3,7 +3,7 @@ title: KnownColor
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10350
+weight: 10370
 url: /net/aspose.imaging/knowncolor/
 ---
 ## KnownColor enumeration
@@ -14,7 +14,7 @@ Specifies the known system colors.
 public enum KnownColor
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

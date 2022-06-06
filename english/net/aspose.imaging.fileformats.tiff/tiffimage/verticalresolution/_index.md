@@ -14,7 +14,7 @@ Gets the vertical resolution, in pixels per inch, of this [`Image`](../../../asp
 public override double VerticalResolution { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The vertical resolution.
 

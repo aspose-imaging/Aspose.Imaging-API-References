@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this [`EmfPlusFillRects`](../../emfplusf
 public bool Compressed { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if compressed; otherwise, `false`.
 

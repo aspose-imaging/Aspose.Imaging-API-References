@@ -14,7 +14,7 @@ Gets or sets the x-coordinate that is the sum of [`X`](../x) and [`Width`](../wi
 public int Right { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The x-coordinate that is the sum of [`X`](../x) and [`Width`](../width) of this [`Rectangle`](../../rectangle).
 

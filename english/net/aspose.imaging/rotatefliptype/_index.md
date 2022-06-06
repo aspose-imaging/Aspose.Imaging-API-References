@@ -3,7 +3,7 @@ title: RotateFlipType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10880
+weight: 10900
 url: /net/aspose.imaging/rotatefliptype/
 ---
 ## RotateFlipType enumeration
@@ -14,7 +14,7 @@ Specifies how much an image is rotated and the axis used to flip the image.
 public enum RotateFlipType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

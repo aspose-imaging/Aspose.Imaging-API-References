@@ -14,7 +14,7 @@ Gets or sets the image fill info.
 public CmxImageFill ImageFill { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The image fill info. Used for Imported bitmap and Two-color pattern fill types.
 

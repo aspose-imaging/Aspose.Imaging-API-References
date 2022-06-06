@@ -14,7 +14,7 @@ Gets the xyz coordinates of green endpoint.
 public CieCoordinates CieXyzGreen { get; }
 ```
 
-## Property Value
+### Property Value
 
 The xyz coordinates of green endpoint.
 

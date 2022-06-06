@@ -3,7 +3,7 @@ title: WmfVerticalTextAlignmentModeFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8350
+weight: 8360
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfverticaltextalignmentmodeflags/
 ---
 ## WmfVerticalTextAlignmentModeFlags enumeration
@@ -14,7 +14,7 @@ VerticalTextAlignmentMode Flags specify the relationship between a reference poi
 public enum WmfVerticalTextAlignmentModeFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

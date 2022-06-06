@@ -14,7 +14,7 @@ Gets or sets file type.
 public ProjectType Type { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The file type.
 

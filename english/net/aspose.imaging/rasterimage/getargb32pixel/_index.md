@@ -19,7 +19,7 @@ public int GetArgb32Pixel(int x, int y)
 | x | Int32 | The pixel x location. |
 | y | Int32 | The pixel y location. |
 
-## Return Value
+### Return Value
 
 The 32-bit ARGB pixel for the specified location.
 

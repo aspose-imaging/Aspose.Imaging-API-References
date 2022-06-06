@@ -14,7 +14,7 @@ Gets or sets an 8-bit unsigned integer that specifies the quality of line render
 public EmfPlusSmoothingMode AntiAliasMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The anti alias mode.
 

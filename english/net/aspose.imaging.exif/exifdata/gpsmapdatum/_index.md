@@ -14,7 +14,7 @@ Gets or sets the GPS geodetic survey data used by the GPS receiver.
 public string GPSMapDatum { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS geodetic survey data used by the GPS receiver.
 

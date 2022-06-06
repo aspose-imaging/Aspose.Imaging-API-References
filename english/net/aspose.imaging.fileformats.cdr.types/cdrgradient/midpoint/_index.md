@@ -14,7 +14,7 @@ Gets or sets the mid point.
 public double MidPoint { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The mid point.
 

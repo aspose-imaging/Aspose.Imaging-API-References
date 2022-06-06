@@ -14,7 +14,7 @@ Gets or sets the index of the color in the global color palette used to draw the
 public byte TextBackgroundColorIndex { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The background color index.
 

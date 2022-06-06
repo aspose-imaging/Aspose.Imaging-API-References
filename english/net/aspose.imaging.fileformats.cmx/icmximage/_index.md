@@ -3,7 +3,7 @@ title: ICmxImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1910
+weight: 1920
 url: /net/aspose.imaging.fileformats.cmx/icmximage/
 ---
 ## ICmxImage interface

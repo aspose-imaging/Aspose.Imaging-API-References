@@ -14,7 +14,7 @@ Gets or sets the number of times to loop animation. 0 indicates infinite looping
 public int NumPlays { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The number of times to loop.
 

@@ -14,7 +14,7 @@ Gets the channels count.
 public int ChannelsCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 The channels count.
 

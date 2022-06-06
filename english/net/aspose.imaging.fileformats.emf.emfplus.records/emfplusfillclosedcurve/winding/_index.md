@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this [`EmfPlusFillClosedCurve`](../../em
 public bool Winding { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if winding; otherwise, `false`.
 

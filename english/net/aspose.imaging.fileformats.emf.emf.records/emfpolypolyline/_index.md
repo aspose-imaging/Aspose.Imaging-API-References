@@ -3,7 +3,7 @@ title: EmfPolyPolyline
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4030
+weight: 4040
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpolypolyline/
 ---
 ## EmfPolyPolyline class

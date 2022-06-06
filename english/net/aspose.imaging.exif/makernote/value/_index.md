@@ -14,7 +14,7 @@ Gets the setting value.
 public string Value { get; }
 ```
 
-## Property Value
+### Property Value
 
 The setting value.
 

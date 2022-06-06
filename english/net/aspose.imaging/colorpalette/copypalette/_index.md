@@ -19,7 +19,7 @@ public static ColorPalette CopyPalette(IColorPalette colorPalette, bool useCompa
 | colorPalette | IColorPalette | The color palette. |
 | useCompactPalette | Boolean | Indicating whether compact palette. |
 
-## Return Value
+### Return Value
 
 The newly created and copied palette or null if null palette passed.
 
@@ -44,7 +44,7 @@ public static ColorPalette CopyPalette(IColorPalette colorPalette)
 | --- | --- | --- |
 | colorPalette | IColorPalette | The color palette. |
 
-## Return Value
+### Return Value
 
 The newly created and copied palette or null if null palette passed.
 

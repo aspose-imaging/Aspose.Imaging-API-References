@@ -3,7 +3,7 @@ title: EmfArcDirection
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2530
+weight: 2540
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfarcdirection/
 ---
 ## EmfArcDirection enumeration
@@ -14,7 +14,7 @@ The ArcDirection enumeration is used in setting the drawing direction for arc an
 public enum EmfArcDirection
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets the RGB color value.
 public int RgbColorValue { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The RGB color value.
 

@@ -14,7 +14,7 @@ Gets or sets the flash.
 public ExifFlash Flash { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The flash.
 

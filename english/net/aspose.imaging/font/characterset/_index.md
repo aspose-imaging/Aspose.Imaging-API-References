@@ -14,7 +14,7 @@ Gets a byte value that specifies the character set that this [`Font`](../../font
 public CharacterSet CharacterSet { get; }
 ```
 
-## Property Value
+### Property Value
 
 A character set that this [`Font`](../../font) uses.
 

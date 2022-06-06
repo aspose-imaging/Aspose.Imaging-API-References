@@ -14,7 +14,7 @@ Gets or sets the JPEG options.
 public JpegOptions Jpeg { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The JPEG options.
 

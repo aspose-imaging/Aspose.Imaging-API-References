@@ -14,7 +14,7 @@ Gets a value indicating whether stream supports writing.
 public virtual bool CanWrite { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if stream supports writing; otherwise, `false`.
 

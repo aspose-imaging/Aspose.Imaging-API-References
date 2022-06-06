@@ -14,7 +14,7 @@ Gets or sets an array of NumRects rectangles that define clipping areas. The for
 public Rectangle[] Rects { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The rects.
 

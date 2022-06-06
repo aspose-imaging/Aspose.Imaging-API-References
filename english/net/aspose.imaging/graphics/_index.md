@@ -3,7 +3,7 @@ title: Graphics
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9350
+weight: 9360
 url: /net/aspose.imaging/graphics/
 ---
 ## Graphics class

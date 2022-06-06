@@ -14,7 +14,7 @@ Gets or sets the copyright.
 public string Copyright { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The copyright.
 

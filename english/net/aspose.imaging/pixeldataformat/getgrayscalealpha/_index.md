@@ -18,7 +18,7 @@ public static PixelDataFormat GetGrayscaleAlpha(int bitsPerSample)
 | --- | --- | --- |
 | bitsPerSample | Int32 | The number of bits per sample. |
 
-## Return Value
+### Return Value
 
 The GrayscaleAlpha color.
 
@@ -43,7 +43,7 @@ public static PixelDataFormat GetGrayscaleAlpha(int bitsPerSample, int alphaChan
 | bitsPerSample | Int32 | The number of bits per sample. |
 | alphaChannelBits | Int32 | The number of bits per sample in the alpha channel. |
 
-## Return Value
+### Return Value
 
 The GrayscaleAlpha color.
 

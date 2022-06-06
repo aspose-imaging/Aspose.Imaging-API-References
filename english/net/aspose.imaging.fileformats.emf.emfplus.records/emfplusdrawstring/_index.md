@@ -3,7 +3,7 @@ title: EmfPlusDrawString
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6010
+weight: 6020
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/
 ---
 ## EmfPlusDrawString class

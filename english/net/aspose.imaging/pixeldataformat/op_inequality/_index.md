@@ -19,7 +19,7 @@ public static bool operator !=(PixelDataFormat pixelFormat1, PixelDataFormat pix
 | pixelFormat1 | PixelDataFormat | The first [`PixelDataFormat`](../../pixeldataformat) to compare. |
 | pixelFormat2 | PixelDataFormat | The second [`PixelDataFormat`](../../pixeldataformat) to compare. |
 
-## Return Value
+### Return Value
 
 True if both *pixelFormat1* and *pixelFormat2* contain non-equal data or one of the parameters is null.
 

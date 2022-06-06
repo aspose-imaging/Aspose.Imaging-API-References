@@ -14,7 +14,7 @@ Gets or sets the reason of error.
 public ErrorReason Reason { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The reason of error.
 

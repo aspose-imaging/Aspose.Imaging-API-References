@@ -18,7 +18,7 @@ public string GetTextForLocation(Rectangle rect)
 | --- | --- | --- |
 | rect | Rectangle | The location rect. |
 
-## Return Value
+### Return Value
 
 Text found on location
 

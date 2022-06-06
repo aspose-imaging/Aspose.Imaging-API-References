@@ -14,7 +14,7 @@ Gets the [`PixelDataFormat`](../../pixeldataformat) defined for 8 bits per pixel
 public static PixelDataFormat Grayscale { get; }
 ```
 
-## Property Value
+### Property Value
 
 The [`PixelDataFormat`](../../pixeldataformat) defined for 8 bits per pixel with 8 bits representing grayscale intensity in the 0-255 interval.
 

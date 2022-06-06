@@ -14,7 +14,7 @@ Gets the foreground ROP3. The unsigned, most-significant 8 bits of a 24-bit tern
 public byte ForegroundRop3 { get; }
 ```
 
-## Property Value
+### Property Value
 
 The foreground ROP3.
 

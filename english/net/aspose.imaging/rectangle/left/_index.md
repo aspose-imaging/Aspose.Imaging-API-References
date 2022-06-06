@@ -14,7 +14,7 @@ Gets or sets the x-coordinate of the left edge of this [`Rectangle`](../../recta
 public int Left { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The x-coordinate of the left edge of this [`Rectangle`](../../rectangle) structure.
 

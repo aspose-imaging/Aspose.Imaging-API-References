@@ -14,7 +14,7 @@ Gets or sets the horizontal resolution, in pixels per inch, of this [`RasterImag
 public virtual double HorizontalResolution { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The horizontal resolution.
 

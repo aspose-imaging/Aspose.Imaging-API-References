@@ -3,7 +3,7 @@ title: EmfPlusObject
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5580
+weight: 5590
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusobject/
 ---
 ## EmfPlusObject class

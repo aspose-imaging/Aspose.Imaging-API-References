@@ -3,7 +3,7 @@ title: EmfPlusStringFormatData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5780
+weight: 5790
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformatdata/
 ---
 ## EmfPlusStringFormatData class

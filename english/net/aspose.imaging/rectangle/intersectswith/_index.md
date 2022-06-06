@@ -18,7 +18,7 @@ public bool IntersectsWith(Rectangle rect)
 | --- | --- | --- |
 | rect | Rectangle | The rectangle to test. |
 
-## Return Value
+### Return Value
 
 This method returns true if there is any intersection, otherwise false.
 

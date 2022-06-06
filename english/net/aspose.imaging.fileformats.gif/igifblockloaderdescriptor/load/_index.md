@@ -19,7 +19,7 @@ public IGifBlock Load(StreamContainer streamContainer, IColorPalette containerPa
 | streamContainer | StreamContainer | The stream container. |
 | containerPalette | IColorPalette | The container palette. |
 
-## Return Value
+### Return Value
 
 A new gif block.
 

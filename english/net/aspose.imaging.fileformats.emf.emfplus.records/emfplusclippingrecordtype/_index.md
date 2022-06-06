@@ -3,7 +3,7 @@ title: EmfPlusClippingRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5860
+weight: 5870
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusclippingrecordtype/
 ---
 ## EmfPlusClippingRecordType class

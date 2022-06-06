@@ -3,7 +3,7 @@ title: ColorMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11300
+weight: 11320
 url: /net/aspose.imaging.xmp.schemas.photoshop/colormode/
 ---
 ## ColorMode enumeration
@@ -14,7 +14,7 @@ Represents color mode in [`PhotoshopPackage`](../photoshoppackage).
 public enum ColorMode : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

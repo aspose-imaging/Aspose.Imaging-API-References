@@ -14,7 +14,7 @@ Gets or sets type of the image Type (4 bytes): A 32-bit unsigned integer that sp
 public EmfPlusBitmapDataType Type { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type.
 

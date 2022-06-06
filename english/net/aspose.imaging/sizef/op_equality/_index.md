@@ -19,7 +19,7 @@ public static bool operator ==(SizeF size1, SizeF size2)
 | size1 | SizeF | The [`SizeF`](../../sizef) structure on the left side of the equality operator. |
 | size2 | SizeF | The [`SizeF`](../../sizef) structure on the right of the equality operator. |
 
-## Return Value
+### Return Value
 
 This operator returns true if *size1* and *size2* have equal width and height; otherwise, false.
 

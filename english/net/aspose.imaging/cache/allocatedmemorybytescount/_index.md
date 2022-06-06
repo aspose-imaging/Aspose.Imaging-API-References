@@ -14,7 +14,7 @@ Gets the allocated in-memory bytes count.
 public static long AllocatedMemoryBytesCount { get; }
 ```
 
-## Property Value
+### Property Value
 
 The allocated in-memory bytes count.
 

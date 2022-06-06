@@ -14,7 +14,7 @@ Gets or sets the sigma.
 public double Sigma { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The sigma.
 

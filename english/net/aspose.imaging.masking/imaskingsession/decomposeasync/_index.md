@@ -14,7 +14,7 @@ Creates the asynchronous task which can perform first rough decompose operation
 public IAsyncTask DecomposeAsync()
 ```
 
-## Return Value
+### Return Value
 
 The asynchronous decompose task
 

@@ -3,7 +3,7 @@ title: InkNames
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.imaging.imageoptions/tiffoptions/inknames/
 ---
 ## TiffOptions.InkNames property
@@ -14,7 +14,7 @@ Gets or sets the ink names.
 public string InkNames { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The ink names.
 

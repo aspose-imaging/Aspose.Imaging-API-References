@@ -14,6 +14,17 @@ Contains the current build version information.
 public static class BuildVersionInfo
 ```
 
+## Fields
+
+| Name | Description |
+| --- | --- |
+| static readonly [AssemblyVersion](../../aspose.imaging/buildversioninfo/assemblyversion) | The assembly version. |
+| static readonly [FileVersion](../../aspose.imaging/buildversioninfo/fileversion) | The file version. |
+| static readonly [Product](../../aspose.imaging/buildversioninfo/product) | The product title. |
+| static readonly [ProductMajor](../../aspose.imaging/buildversioninfo/productmajor) | The major product version. |
+| static readonly [ProductMinor](../../aspose.imaging/buildversioninfo/productminor) | The minor product version. |
+| static readonly [ReleaseDate](../../aspose.imaging/buildversioninfo/releasedate) | The product release date. |
+
 ### See Also
 
 * namespace [Aspose.Imaging](../../aspose.imaging)

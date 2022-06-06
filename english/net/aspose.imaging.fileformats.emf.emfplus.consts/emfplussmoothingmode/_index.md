@@ -3,7 +3,7 @@ title: EmfPlusSmoothingMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5040
+weight: 5050
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplussmoothingmode/
 ---
 ## EmfPlusSmoothingMode enumeration
@@ -14,7 +14,7 @@ The SmoothingMode enumeration defines smoothing modes to apply to lines, curves,
 public enum EmfPlusSmoothingMode : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

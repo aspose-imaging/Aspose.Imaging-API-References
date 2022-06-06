@@ -3,7 +3,7 @@ title: JpegExifData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1080
+weight: 1090
 url: /net/aspose.imaging.exif/jpegexifdata/
 ---
 ## JpegExifData class
@@ -168,11 +168,11 @@ public sealed class JpegExifData : ExifData
 | [RemoveTag](../../aspose.imaging.exif/exifdata/removetag)(ushort) | Remove tag from container |
 | [SerializeExifData](../../aspose.imaging.exif/jpegexifdata/serializeexifdata)() | Serializes the EXIF data. Writes the tags values and contents. The most influencing size tag is Thumbnail tag contents. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [MaxExifSegmentSize](maxexifsegmentsize) | The maximum EXIF segment size in bytes allowed. |
+| const [MaxExifSegmentSize](../../aspose.imaging.exif/jpegexifdata/maxexifsegmentsize) | The maximum EXIF segment size in bytes allowed. |
 
 ### See Also
 

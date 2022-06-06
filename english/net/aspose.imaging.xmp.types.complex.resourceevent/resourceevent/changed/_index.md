@@ -14,7 +14,7 @@ Gets or sets the semicolon-delimited list of the parts of the resource that were
 public string Changed { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The semicolon-delimited list of the parts of the resource that were changed since the previous event history.
 

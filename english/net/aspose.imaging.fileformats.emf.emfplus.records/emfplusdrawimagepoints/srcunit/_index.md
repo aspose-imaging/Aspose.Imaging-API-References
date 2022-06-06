@@ -14,7 +14,7 @@ Gets or sets a 32-bit signed integer that defines the units of the SrcRect field
 public EmfPlusUnitType SrcUnit { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The source unit.
 

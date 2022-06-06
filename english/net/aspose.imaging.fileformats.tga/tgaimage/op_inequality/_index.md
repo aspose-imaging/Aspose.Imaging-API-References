@@ -19,7 +19,7 @@ public static bool operator !=(TgaImage first, TgaImage second)
 | first | TgaImage | First [`TgaImage`](../../tgaimage) that takes part in comparison. |
 | second | TgaImage | Second [`TgaImage`](../../tgaimage) that takes part in comparison. |
 
-## Return Value
+### Return Value
 
 Comparison results.
 

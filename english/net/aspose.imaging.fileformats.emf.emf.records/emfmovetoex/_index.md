@@ -3,7 +3,7 @@ title: EmfMoveToEx
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3840
+weight: 3850
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfmovetoex/
 ---
 ## EmfMoveToEx class

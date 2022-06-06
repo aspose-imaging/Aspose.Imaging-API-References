@@ -20,7 +20,7 @@ public static Rectangle GetFittingRectangle(Rectangle rectangle, int width, int 
 | width | Int32 | The object width. |
 | height | Int32 | The object height. |
 
-## Return Value
+### Return Value
 
 The fitting rectangle or exception if no fitting rectangle can be found.
 
@@ -49,7 +49,7 @@ public static Rectangle GetFittingRectangle(Rectangle rectangle, int[] pixels, i
 | width | Int32 | The object width. |
 | height | Int32 | The object height. |
 
-## Return Value
+### Return Value
 
 The fitting rectangle or exception if no fitting rectangle can be found.
 

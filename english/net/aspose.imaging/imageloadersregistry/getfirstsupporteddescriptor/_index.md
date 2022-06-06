@@ -20,7 +20,7 @@ public static IImageLoaderDescriptor GetFirstSupportedDescriptor(Stream stream,
 | stream | Stream | The stream. |
 | loadOptions | LoadOptions | The load options. |
 
-## Return Value
+### Return Value
 
 The loader descriptor which supports the specified *stream* and *loadOptions* or null if no such descriptor is found.
 

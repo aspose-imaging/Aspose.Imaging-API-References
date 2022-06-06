@@ -14,7 +14,7 @@ Gets the rectangle width.
 public double RectangleWidth { get; }
 ```
 
-## Property Value
+### Property Value
 
 The rectangle width.
 

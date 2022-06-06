@@ -3,7 +3,7 @@ title: WmfTernaryRasterOperation
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8320
+weight: 8330
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfternaryrasteroperation/
 ---
 ## WmfTernaryRasterOperation enumeration
@@ -14,7 +14,7 @@ Enumeration specifies ternary raster operation codes, which define how to combin
 public enum WmfTernaryRasterOperation
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

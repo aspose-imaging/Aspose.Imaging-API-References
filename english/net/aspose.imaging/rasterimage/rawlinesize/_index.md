@@ -14,7 +14,7 @@ Gets the raw line size in bytes.
 public virtual int RawLineSize { get; }
 ```
 
-## Property Value
+### Property Value
 
 The raw line size in bytes.
 

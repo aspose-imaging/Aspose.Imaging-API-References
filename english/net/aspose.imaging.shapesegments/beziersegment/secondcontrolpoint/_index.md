@@ -14,7 +14,7 @@ Gets the second control point of a bezier spline.
 public PointF SecondControlPoint { get; }
 ```
 
-## Property Value
+### Property Value
 
 The second control point.
 

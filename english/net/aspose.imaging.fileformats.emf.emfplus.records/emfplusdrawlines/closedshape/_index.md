@@ -14,7 +14,7 @@ Gets or sets a value indicating whether [closed shape].
 public bool ClosedShape { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if [closed shape]; otherwise, `false`.
 

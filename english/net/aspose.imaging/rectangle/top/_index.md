@@ -14,7 +14,7 @@ Gets or sets the y-coordinate of the top edge of this [`Rectangle`](../../rectan
 public int Top { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The y-coordinate of the top edge of this [`Rectangle`](../../rectangle) structure.
 

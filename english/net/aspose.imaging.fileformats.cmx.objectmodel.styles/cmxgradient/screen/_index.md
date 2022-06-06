@@ -14,7 +14,7 @@ Gets or sets the screen.
 public ushort Screen { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The screen.
 

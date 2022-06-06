@@ -14,7 +14,7 @@ Gets or sets the format used in the [`TimeValue`](../timevalue).
 public TimeFormat Format { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The format used in the [`TimeValue`](../timevalue).
 

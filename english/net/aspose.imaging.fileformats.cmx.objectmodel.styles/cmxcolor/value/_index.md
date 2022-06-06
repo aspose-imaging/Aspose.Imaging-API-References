@@ -14,7 +14,7 @@ Gets or sets the color value.
 public uint Value { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color value.
 

@@ -14,7 +14,7 @@ Gets or sets the WMF render mode.
 public WmfRenderMode RenderMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The WMF render mode.
 

@@ -14,7 +14,7 @@ Gets or sets the GPS DOP (data degree of precision).
 public TiffRational GPSDOP { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS DOP (data degree of precision).
 

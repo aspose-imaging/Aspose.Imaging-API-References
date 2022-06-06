@@ -3,7 +3,7 @@ title: PointExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1230
+weight: 1240
 url: /net/aspose.imaging.extensions/pointextensions/
 ---
 ## PointExtensions class

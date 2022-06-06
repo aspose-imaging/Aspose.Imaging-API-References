@@ -3,7 +3,7 @@ title: EmfGradientTriangle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2970
+weight: 2980
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfgradienttriangle/
 ---
 ## EmfGradientTriangle class

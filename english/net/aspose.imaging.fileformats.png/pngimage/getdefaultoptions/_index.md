@@ -18,7 +18,7 @@ public override ImageOptionsBase GetDefaultOptions(object[] args)
 | --- | --- | --- |
 | args | Object[] | The arguments. |
 
-## Return Value
+### Return Value
 
 Default options
 

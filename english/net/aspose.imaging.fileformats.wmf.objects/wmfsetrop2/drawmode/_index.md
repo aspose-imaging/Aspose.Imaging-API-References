@@ -14,7 +14,7 @@ Gets or sets the draw mode.
 public WmfBinaryRasterOperation DrawMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The draw mode.
 

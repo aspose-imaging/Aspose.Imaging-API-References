@@ -14,7 +14,7 @@ Gets or sets the samples per pixel.
 public ushort SamplesPerPixel { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The samples per pixel.
 

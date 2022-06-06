@@ -14,7 +14,7 @@ Gets or sets the coordinates of the upper-left corner of this [`Rectangle`](../.
 public Point Location { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A [`Point`](../../point) that represents the upper-left corner of this [`Rectangle`](../../rectangle) structure.
 

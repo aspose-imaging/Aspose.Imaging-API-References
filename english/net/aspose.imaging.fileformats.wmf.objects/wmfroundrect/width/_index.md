@@ -14,7 +14,7 @@ Gets or sets the width.
 public short Width { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The width, in logical coordinates, of the ellipse used to draw the rounded corners.
 

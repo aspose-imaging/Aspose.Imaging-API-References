@@ -3,7 +3,7 @@ title: WmfClipPrecisionFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8120
+weight: 8130
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfclipprecisionflags/
 ---
 ## WmfClipPrecisionFlags enumeration
@@ -15,7 +15,7 @@ ClipPrecision Flags specify clipping precision, which defines how to clip charac
 public enum WmfClipPrecisionFlags : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

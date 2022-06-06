@@ -14,7 +14,7 @@ Gets or sets the x0.
 public double X0 { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The x0.
 

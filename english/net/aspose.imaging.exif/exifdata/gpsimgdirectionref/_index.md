@@ -14,7 +14,7 @@ Gets or sets the GPS reference for giving the direction of the image when it is 
 public string GPSImgDirectionRef { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The GPS reference for giving the direction of the image when it is captured.
 

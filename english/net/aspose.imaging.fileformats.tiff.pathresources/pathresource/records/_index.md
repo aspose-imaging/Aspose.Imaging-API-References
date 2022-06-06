@@ -14,7 +14,7 @@ Gets or sets the records.
 public List<VectorPathRecord> Records { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The records.
 

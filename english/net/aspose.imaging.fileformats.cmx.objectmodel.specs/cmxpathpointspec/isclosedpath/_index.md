@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this point closes its path.
 public bool IsClosedPath { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this point is begin or end point of the shape in the path; otherwise, `false`.
 

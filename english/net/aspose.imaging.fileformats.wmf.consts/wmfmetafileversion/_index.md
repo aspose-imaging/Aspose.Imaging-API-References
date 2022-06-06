@@ -3,7 +3,7 @@ title: WmfMetafileVersion
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8230
+weight: 8240
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfmetafileversion/
 ---
 ## WmfMetafileVersion enumeration
@@ -14,7 +14,7 @@ The MetafileVersion Enumeration defines values that specify support for device-i
 public enum WmfMetafileVersion : short
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

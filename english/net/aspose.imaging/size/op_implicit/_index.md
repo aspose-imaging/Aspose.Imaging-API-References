@@ -18,7 +18,7 @@ public static implicit operator SizeF(Size size)
 | --- | --- | --- |
 | size | Size | The [`Size`](../../size) to convert. |
 
-## Return Value
+### Return Value
 
 The [`SizeF`](../../sizef) structure to which this operator converts.
 

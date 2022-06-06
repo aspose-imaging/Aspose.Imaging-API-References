@@ -3,7 +3,7 @@ title: EmfMapMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2730
+weight: 2740
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfmapmode/
 ---
 ## EmfMapMode enumeration
@@ -14,7 +14,7 @@ The MapMode enumeration is used to define the unit of measure for transforming p
 public enum EmfMapMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

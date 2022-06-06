@@ -14,7 +14,7 @@ Gets or sets the sensing method.
 public ExifSensingMethod SensingMethod { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The sensing method.
 

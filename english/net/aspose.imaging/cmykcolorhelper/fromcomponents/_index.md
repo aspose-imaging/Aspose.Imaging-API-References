@@ -21,7 +21,7 @@ public static int FromComponents(int cyan, int magenta, int yellow, int black)
 | yellow | Int32 | The yellow component. Valid values are 0 through 255. |
 | black | Int32 | The black component. Valid values are 0 through 255. |
 
-## Return Value
+### Return Value
 
 The CMYK color presented as a 32-bit integer value.
 

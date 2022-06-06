@@ -45,7 +45,7 @@ public byte[] GetDefaultRawData(Rectangle rectangle, RawDataSettings rawDataSett
 | rectangle | Rectangle | The rectangle to get raw data for. |
 | rawDataSettings | RawDataSettings | The raw data settings. |
 
-## Return Value
+### Return Value
 
 The default raw data array.
 

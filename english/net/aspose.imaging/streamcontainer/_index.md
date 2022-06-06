@@ -3,7 +3,7 @@ title: StreamContainer
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11120
+weight: 11140
 url: /net/aspose.imaging/streamcontainer/
 ---
 ## StreamContainer class
@@ -61,11 +61,11 @@ public class StreamContainer : DisposableObject
 | virtual [WriteTo](../../aspose.imaging/streamcontainer/writeto)(StreamContainer, long) | Copies the contained data to another [`StreamContainer`](../streamcontainer). |
 | [explicit operator](../../aspose.imaging/streamcontainer/op_explicit) | Performs an explicit conversion from [`StreamContainer`](../streamcontainer) to Stream. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [ReadWriteBytesCount](readwritebytescount) | Specifies read and write bytes count when reading sequentially. |
+| const [ReadWriteBytesCount](../../aspose.imaging/streamcontainer/readwritebytescount) | Specifies read and write bytes count when reading sequentially. |
 
 ### See Also
 

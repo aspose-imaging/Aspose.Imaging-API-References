@@ -14,7 +14,7 @@ Gets or sets the degree of overall image gain adjustment.
 public ExifGainControl GainControl { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The degree of overall image gain adjustment.
 

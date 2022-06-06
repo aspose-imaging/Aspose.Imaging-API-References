@@ -14,7 +14,7 @@ Gets the clip bounds.
 public RectangleF ClipBounds { get; }
 ```
 
-## Property Value
+### Property Value
 
 The clip bounds.
 

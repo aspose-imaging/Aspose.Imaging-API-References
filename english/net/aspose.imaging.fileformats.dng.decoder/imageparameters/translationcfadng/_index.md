@@ -14,7 +14,7 @@ Gets the translation array for CFA mosaic DNG format.
 public string[] TranslationCfaDng { get; }
 ```
 
-## Property Value
+### Property Value
 
 The xtrans.
 

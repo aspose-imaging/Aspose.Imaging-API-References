@@ -14,7 +14,7 @@ Gets a value of the "samplesPerPixel".
 public int SamplesPerPixel { get; }
 ```
 
-## Property Value
+### Property Value
 
 The value of the "samplesPerPixel".
 

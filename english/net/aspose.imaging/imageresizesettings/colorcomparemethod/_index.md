@@ -14,7 +14,7 @@ Gets or sets the color compare method.
 public ColorCompareMethod ColorCompareMethod { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color compare method.
 

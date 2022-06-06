@@ -14,7 +14,7 @@ Gets or sets a value indicating whether [dispose stream].
 public bool DisposeStream { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if [dispose stream]; otherwise, `false`.
 

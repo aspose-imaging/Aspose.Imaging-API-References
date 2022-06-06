@@ -14,7 +14,7 @@ Gets or sets the exposure program.
 public ExifExposureProgram ExposureProgram { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The exposure program.
 

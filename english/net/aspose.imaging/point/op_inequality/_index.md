@@ -19,7 +19,7 @@ public static bool operator !=(Point point1, Point point2)
 | point1 | Point | A first [`Point`](../../point) to compare. |
 | point2 | Point | A second [`Point`](../../point) to compare. |
 
-## Return Value
+### Return Value
 
 True if the values of either the [`X`](../x) properties or the [`Y`](../y) properties of *point1* and *point2* differ; otherwise, false.
 

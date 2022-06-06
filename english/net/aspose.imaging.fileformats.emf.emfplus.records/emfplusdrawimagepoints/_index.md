@@ -3,7 +3,7 @@ title: EmfPlusDrawImagePoints
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5960
+weight: 5970
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimagepoints/
 ---
 ## EmfPlusDrawImagePoints class

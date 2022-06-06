@@ -14,7 +14,7 @@ Gets or sets the duration of the editing.
 public string EditingDuration { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The duration of the editing.
 

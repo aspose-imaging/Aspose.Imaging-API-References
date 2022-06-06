@@ -14,7 +14,7 @@ Gets or sets the horizontal component of this [`SizeF`](../../sizef).
 public float Width { get; set; }
 ```
 
-## Return Value
+### Return Value
 
 The horizontal component of this [`SizeF`](../../sizef), typically measured in pixels.
 

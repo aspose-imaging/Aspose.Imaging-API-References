@@ -14,7 +14,7 @@ Gets or sets the color model.
 public ColorModels ColorModel { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The color model.
 

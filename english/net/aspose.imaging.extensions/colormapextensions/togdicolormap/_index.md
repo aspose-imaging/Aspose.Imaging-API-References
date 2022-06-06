@@ -18,7 +18,7 @@ public static ColorMap ToGdiColorMap(ColorMap colorMap)
 | --- | --- | --- |
 | colorMap | ColorMap | The color map to convert. |
 
-## Return Value
+### Return Value
 
 The converted ColorMap.
 

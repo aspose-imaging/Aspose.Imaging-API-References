@@ -14,7 +14,7 @@ Gets or sets a value indicating whether this instance is open.
 public bool IsOpen { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if this instance is open; otherwise, `false`.
 

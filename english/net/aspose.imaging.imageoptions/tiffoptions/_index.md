@@ -3,7 +3,7 @@ title: TiffOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10210
+weight: 10230
 url: /net/aspose.imaging.imageoptions/tiffoptions/
 ---
 ## TiffOptions class
@@ -42,6 +42,7 @@ public class TiffOptions : ImageOptionsBase
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
 | [DocumentName](../../aspose.imaging.imageoptions/tiffoptions/documentname) { get; set; } | Gets or sets the name of the document. |
 | [ExifIfd](../../aspose.imaging.imageoptions/tiffoptions/exififd) { get; } | Gets or sets the pointer to EXIF IFD. |
+| [ExtraSamples](../../aspose.imaging.imageoptions/tiffoptions/extrasamples) { get; } | Gets the extra samples values. |
 | [FaxT4Options](../../aspose.imaging.imageoptions/tiffoptions/faxt4options) { get; set; } | Gets or sets the fax t4 options. |
 | [FileStandard](../../aspose.imaging.imageoptions/tiffoptions/filestandard) { get; set; } | Gets or sets the TIFF file standard. |
 | [FillOrder](../../aspose.imaging.imageoptions/tiffoptions/fillorder) { get; set; } | Gets or sets the byte bits fill order. |

@@ -3,7 +3,7 @@ title: GifApplicationExtensionBlock
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6600
+weight: 6610
 url: /net/aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/
 ---
 ## GifApplicationExtensionBlock class
@@ -36,15 +36,15 @@ public class GifApplicationExtensionBlock : GifBlock
 | --- | --- |
 | override [Save](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/save)(Stream) | Saves the block to the specified stream. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [ApplicationAuthenticationCodeSize](applicationauthenticationcodesize) | Specifies the application authentication code size. |
-| const [ApplicationIdentifierSize](applicationidentifiersize) | Specifies the application identifier size. |
-| const [BlockHeaderSize](blockheadersize) | Specifies the block header size. |
-| const [BlockSize](blocksize) | Extension name + version block size |
-| const [ExtensionLabel](extensionlabel) | Extension label. |
+| const [ApplicationAuthenticationCodeSize](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationauthenticationcodesize) | Specifies the application authentication code size. |
+| const [ApplicationIdentifierSize](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationidentifiersize) | Specifies the application identifier size. |
+| const [BlockHeaderSize](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/blockheadersize) | Specifies the block header size. |
+| const [BlockSize](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/blocksize) | Extension name + version block size |
+| const [ExtensionLabel](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/extensionlabel) | Extension label. |
 
 ### See Also
 

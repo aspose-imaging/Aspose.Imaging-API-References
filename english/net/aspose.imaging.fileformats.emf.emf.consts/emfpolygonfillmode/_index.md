@@ -3,7 +3,7 @@ title: EmfPolygonFillMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2790
+weight: 2800
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfpolygonfillmode/
 ---
 ## EmfPolygonFillMode enumeration
@@ -14,7 +14,7 @@ The PolygonFillMode enumeration defines values that specify how to calculate the
 public enum EmfPolygonFillMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

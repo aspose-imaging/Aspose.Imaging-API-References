@@ -14,7 +14,7 @@ Gets or sets the start color.
 public int StartArgb32Color { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 An EmfPlusARGB object (section 2.2.2.1) that specifies the color at the starting boundary point of the linear gradient brush.
 

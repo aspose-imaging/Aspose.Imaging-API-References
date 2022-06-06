@@ -14,7 +14,7 @@ Gets or sets the unit of measure used for page coordinates in this Aspose.Imagin
 public GraphicsUnit PageUnit { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The unit of measure used for page coordinates in this Aspose.Imaging.Graphics.
 

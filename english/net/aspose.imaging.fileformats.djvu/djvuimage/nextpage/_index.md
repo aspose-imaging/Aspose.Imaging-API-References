@@ -14,7 +14,7 @@ Gets the next page of the document
 public DjvuPage NextPage { get; }
 ```
 
-## Property Value
+### Property Value
 
 The next page.
 

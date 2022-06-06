@@ -14,7 +14,7 @@ Gets or sets the dib.
 public WmfDeviceIndependentBitmap Dib { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 y-coordinate, in logical units, of the upper-left corner of the destination rectangle.
 

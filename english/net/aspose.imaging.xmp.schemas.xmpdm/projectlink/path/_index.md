@@ -14,7 +14,7 @@ Gets or sets full path to the project.
 public string Path { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The full path to the project.
 

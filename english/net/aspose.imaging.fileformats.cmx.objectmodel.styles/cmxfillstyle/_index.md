@@ -3,7 +3,7 @@ title: CmxFillStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2220
+weight: 2230
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxfillstyle/
 ---
 ## CmxFillStyle class

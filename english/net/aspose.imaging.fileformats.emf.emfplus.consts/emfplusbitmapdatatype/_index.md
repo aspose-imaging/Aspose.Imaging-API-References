@@ -3,7 +3,7 @@ title: EmfPlusBitmapDataType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4670
+weight: 4680
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusbitmapdatatype/
 ---
 ## EmfPlusBitmapDataType enumeration
@@ -14,7 +14,7 @@ The BitmapDataType enumeration defines types of bitmap data formats.
 public enum EmfPlusBitmapDataType
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

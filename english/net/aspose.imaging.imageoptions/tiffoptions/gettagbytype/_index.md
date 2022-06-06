@@ -3,7 +3,7 @@ title: GetTagByType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 730
+weight: 740
 url: /net/aspose.imaging.imageoptions/tiffoptions/gettagbytype/
 ---
 ## TiffOptions.GetTagByType method
@@ -18,7 +18,7 @@ public TiffDataType GetTagByType(TiffTags tagKey)
 | --- | --- | --- |
 | tagKey | TiffTags | The tag key. |
 
-## Return Value
+### Return Value
 
 Instance of the tag if exists or null otherwise.
 

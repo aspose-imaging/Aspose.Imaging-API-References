@@ -14,7 +14,7 @@ Gets the float value.
 public float FloatValue { get; }
 ```
 
-## Property Value
+### Property Value
 
 The float value.
 

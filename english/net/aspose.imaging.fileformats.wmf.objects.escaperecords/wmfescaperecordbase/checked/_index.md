@@ -14,7 +14,7 @@ Gets a value indicating whether this [`WmfEscapeRecordBase`](../../wmfescapereco
 public virtual bool Checked { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if checked; otherwise, `false`.
 

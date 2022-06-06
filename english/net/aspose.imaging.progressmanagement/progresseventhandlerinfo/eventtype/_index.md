@@ -14,7 +14,7 @@ Gets the type of the event.
 public EventType EventType { get; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the event.
 

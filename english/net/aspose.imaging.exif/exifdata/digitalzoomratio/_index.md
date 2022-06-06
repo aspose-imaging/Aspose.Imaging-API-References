@@ -14,7 +14,7 @@ Gets or sets the digital zoom ratio.
 public TiffRational DigitalZoomRatio { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The digital zoom ratio.
 

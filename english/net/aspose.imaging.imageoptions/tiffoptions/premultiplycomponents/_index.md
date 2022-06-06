@@ -3,7 +3,7 @@ title: PremultiplyComponents
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 360
+weight: 370
 url: /net/aspose.imaging.imageoptions/tiffoptions/premultiplycomponents/
 ---
 ## TiffOptions.PremultiplyComponents property
@@ -14,7 +14,7 @@ Gets or sets a value indicating whether components must be premultiplied.
 public bool PremultiplyComponents { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if components must be premultiplied; otherwise, `false`.
 

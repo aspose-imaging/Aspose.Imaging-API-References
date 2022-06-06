@@ -3,7 +3,7 @@ title: EmfPlusPixelFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5000
+weight: 5010
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspixelformat/
 ---
 ## EmfPlusPixelFormat enumeration
@@ -14,7 +14,7 @@ The PixelFormat enumeration defines pixel formats that are supported in EMF+ bit
 public enum EmfPlusPixelFormat
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

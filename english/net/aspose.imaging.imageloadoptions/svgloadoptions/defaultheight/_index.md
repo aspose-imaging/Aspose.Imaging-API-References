@@ -14,7 +14,7 @@ Gets or sets the default height. Property DefaultHeight use with only case, when
 public int DefaultHeight { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The default height.
 

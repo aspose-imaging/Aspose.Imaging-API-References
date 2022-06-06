@@ -14,7 +14,7 @@ Gets or sets the text align.
 public OdTextAlignModeFlags TextAlign { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The text align.
 

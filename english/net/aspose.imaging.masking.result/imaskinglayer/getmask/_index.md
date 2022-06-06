@@ -14,7 +14,7 @@ Gets the image mask.
 public RasterImage GetMask()
 ```
 
-## Return Value
+### Return Value
 
 Result image mask.
 

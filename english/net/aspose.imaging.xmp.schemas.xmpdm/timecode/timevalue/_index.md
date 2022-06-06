@@ -14,7 +14,7 @@ Gets or sets the time value in the specified format.
 public string TimeValue { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The time value in the specified format.
 

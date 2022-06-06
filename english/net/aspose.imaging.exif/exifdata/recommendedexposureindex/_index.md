@@ -14,7 +14,7 @@ Gets or sets the recommended exposure index.
 public uint RecommendedExposureIndex { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The recommended exposure index.
 

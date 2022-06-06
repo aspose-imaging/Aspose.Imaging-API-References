@@ -3,7 +3,7 @@ title: ImageExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1200
+weight: 1210
 url: /net/aspose.imaging.extensions/imageextensions/
 ---
 ## ImageExtensions class

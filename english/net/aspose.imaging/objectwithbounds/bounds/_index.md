@@ -14,7 +14,7 @@ Gets the object's bounds.
 public abstract RectangleF Bounds { get; }
 ```
 
-## Property Value
+### Property Value
 
 The object's bounds.
 

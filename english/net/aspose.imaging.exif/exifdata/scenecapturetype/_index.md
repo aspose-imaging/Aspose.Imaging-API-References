@@ -14,7 +14,7 @@ Gets or sets the scene capture type.
 public ExifSceneCaptureType SceneCaptureType { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The type of the scene capture.
 

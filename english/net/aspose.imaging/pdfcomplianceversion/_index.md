@@ -3,7 +3,7 @@ title: PdfComplianceVersion
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10670
+weight: 10690
 url: /net/aspose.imaging/pdfcomplianceversion/
 ---
 ## PdfComplianceVersion enumeration
@@ -14,7 +14,7 @@ Specifies the PDF compliance level to output file.
 public enum PdfComplianceVersion
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

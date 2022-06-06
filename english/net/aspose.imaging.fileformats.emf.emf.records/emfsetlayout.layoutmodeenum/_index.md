@@ -3,7 +3,7 @@ title: EmfSetLayout.LayoutModeEnum
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4370
+weight: 4380
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetlayout.layoutmodeenum/
 ---
 ## EmfSetLayout.LayoutModeEnum enumeration
@@ -14,7 +14,7 @@ A 32-bit unsigned integer that specifies the layout mode
 public enum LayoutModeEnum
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

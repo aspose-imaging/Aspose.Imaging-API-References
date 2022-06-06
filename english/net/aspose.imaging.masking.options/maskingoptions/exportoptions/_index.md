@@ -14,7 +14,7 @@ Gets or sets the image export options.
 public ImageOptionsBase ExportOptions { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The image export options that will be used to create the resulting images.
 

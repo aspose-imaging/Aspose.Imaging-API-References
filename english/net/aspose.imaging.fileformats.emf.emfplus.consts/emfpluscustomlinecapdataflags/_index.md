@@ -3,7 +3,7 @@ title: EmfPlusCustomLineCapDataFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4750
+weight: 4760
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscustomlinecapdataflags/
 ---
 ## EmfPlusCustomLineCapDataFlags enumeration
@@ -15,7 +15,7 @@ The CustomLineCapData flags specify data for custom line caps. These flags can b
 public enum EmfPlusCustomLineCapDataFlags
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

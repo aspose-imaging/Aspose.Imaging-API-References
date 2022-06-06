@@ -14,7 +14,7 @@ Gets the horizontal resolution, in pixels per inch, of this [`Image`](../../../a
 public override double HorizontalResolution { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The horizontal resolution.
 

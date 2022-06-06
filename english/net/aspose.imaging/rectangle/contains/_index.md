@@ -19,7 +19,7 @@ public bool Contains(int x, int y)
 | x | Int32 | The x-coordinate of the point to test. |
 | y | Int32 | The y-coordinate of the point to test. |
 
-## Return Value
+### Return Value
 
 This method returns true if the point defined by *x* and *y* is contained within this [`Rectangle`](../../rectangle) structure; otherwise false.
 
@@ -43,7 +43,7 @@ public bool Contains(Point point)
 | --- | --- | --- |
 | point | Point | The [`Point`](../../point) to test. |
 
-## Return Value
+### Return Value
 
 This method returns true if the point represented by *point* is contained within this [`Rectangle`](../../rectangle) structure; otherwise false.
 
@@ -68,7 +68,7 @@ public bool Contains(Rectangle rect)
 | --- | --- | --- |
 | rect | Rectangle | The [`Rectangle`](../../rectangle) to test. |
 
-## Return Value
+### Return Value
 
 This method returns true if the rectangular region represented by *rect* is entirely contained within this [`Rectangle`](../../rectangle) structure; otherwise false.
 

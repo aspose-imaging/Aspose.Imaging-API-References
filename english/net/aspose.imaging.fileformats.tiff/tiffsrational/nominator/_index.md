@@ -14,7 +14,7 @@ Gets the nominator.
 public int Nominator { get; }
 ```
 
-## Property Value
+### Property Value
 
 The nominator.
 

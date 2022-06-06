@@ -14,7 +14,7 @@ Gets a value indicating whether [have palette]. If set, this record contains an 
 public bool HavePalette { get; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if [have palette]; otherwise, `false`.
 

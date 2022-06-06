@@ -3,7 +3,7 @@ title: TiffStreamReader
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7780
+weight: 7790
 url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/
 ---
 ## TiffStreamReader class

@@ -14,7 +14,7 @@ Gets or sets an EmfPlusRectF object (section 2.2.2.39) that, with SrcRect, speci
 public RectangleF DestRect { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The dest rect.
 

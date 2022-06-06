@@ -3,7 +3,7 @@ title: FileFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1290
+weight: 1300
 url: /net/aspose.imaging/fileformat/
 ---
 ## FileFormat enumeration
@@ -15,7 +15,7 @@ One of supported imaging file formats.
 public enum FileFormat : ulong
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

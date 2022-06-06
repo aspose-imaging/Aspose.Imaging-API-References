@@ -14,7 +14,7 @@ Gets the options based on the original file settings. This can be helpful to kee
 public virtual ImageOptionsBase GetOriginalOptions()
 ```
 
-## Return Value
+### Return Value
 
 The options based on the original file settings.
 

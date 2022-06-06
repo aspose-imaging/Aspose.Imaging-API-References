@@ -14,7 +14,7 @@ Gets the background ROP3. The unsigned, most-significant 8 bits of a 24-bit tern
 public byte BackgroundRop3 { get; }
 ```
 
-## Property Value
+### Property Value
 
 The background ROP3.
 

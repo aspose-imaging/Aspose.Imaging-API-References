@@ -3,7 +3,7 @@ title: EmfScaleWindowExtex
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4220
+weight: 4230
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfscalewindowextex/
 ---
 ## EmfScaleWindowExtex class

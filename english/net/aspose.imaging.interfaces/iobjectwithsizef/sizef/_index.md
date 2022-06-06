@@ -14,7 +14,7 @@ Gets the object size, in inches.
 public SizeF SizeF { get; }
 ```
 
-## Property Value
+### Property Value
 
 The object size, in inches.
 

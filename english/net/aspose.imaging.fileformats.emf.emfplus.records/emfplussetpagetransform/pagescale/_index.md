@@ -14,7 +14,7 @@ Gets or sets a 32-bit floating-point value that specifies the scale factor for c
 public float PageScale { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The page scale.
 

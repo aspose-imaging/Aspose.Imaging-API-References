@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The object to test. |
 
-## Return Value
+### Return Value
 
 True if *obj* is a [`Color`](../../color) structure equivalent to this [`Color`](../../color) structure; otherwise, false.
 

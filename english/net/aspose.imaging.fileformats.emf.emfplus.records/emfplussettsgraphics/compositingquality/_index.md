@@ -14,7 +14,7 @@ Gets or sets an 8-bit unsigned integer that specifies the degree of smoothing to
 public EmfPlusCompositingQuality CompositingQuality { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The compositing quality.
 

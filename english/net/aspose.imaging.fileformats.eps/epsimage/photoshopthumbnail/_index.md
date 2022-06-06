@@ -14,7 +14,7 @@ Gets Photoshop preview thumbnail (if it's present in initial EPS data)
 public JpegImage PhotoshopThumbnail { get; }
 ```
 
-## Property Value
+### Property Value
 
 Photoshop preview thumbnail
 

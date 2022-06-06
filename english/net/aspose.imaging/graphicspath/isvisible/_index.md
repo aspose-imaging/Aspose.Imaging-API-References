@@ -19,7 +19,7 @@ public bool IsVisible(float x, float y)
 | x | Single | The x-coordinate of the point to test. |
 | y | Single | The y-coordinate of the point to test. |
 
-## Return Value
+### Return Value
 
 This method returns true if the specified point is contained within this [`GraphicsPath`](../../graphicspath); otherwise, false.
 
@@ -43,7 +43,7 @@ public bool IsVisible(PointF point)
 | --- | --- | --- |
 | point | PointF | A [`PointF`](../../pointf) that represents the point to test. |
 
-## Return Value
+### Return Value
 
 This method returns true if the specified point is contained within this [`GraphicsPath`](../../graphicspath); otherwise, false.
 
@@ -69,7 +69,7 @@ public bool IsVisible(int x, int y)
 | x | Int32 | The x-coordinate of the point to test. |
 | y | Int32 | The y-coordinate of the point to test. |
 
-## Return Value
+### Return Value
 
 This method returns true if the specified point is contained within this [`GraphicsPath`](../../graphicspath); otherwise, false.
 
@@ -93,7 +93,7 @@ public bool IsVisible(Point point)
 | --- | --- | --- |
 | point | Point | A [`Point`](../../point) that represents the point to test. |
 
-## Return Value
+### Return Value
 
 This method returns true if the specified point is contained within this [`GraphicsPath`](../../graphicspath); otherwise, false.
 
@@ -120,7 +120,7 @@ public bool IsVisible(float x, float y, Graphics graphics)
 | y | Single | The y-coordinate of the point to test. |
 | graphics | Graphics | The [`Graphics`](../../graphics) for which to test visibility. |
 
-## Return Value
+### Return Value
 
 This method returns true if the specified point is contained within this [`GraphicsPath`](../../graphicspath); otherwise, false.
 
@@ -146,7 +146,7 @@ public bool IsVisible(PointF pt, Graphics graphics)
 | pt | PointF | A [`PointF`](../../pointf) that represents the point to test. |
 | graphics | Graphics | The [`Graphics`](../../graphics) for which to test visibility. |
 
-## Return Value
+### Return Value
 
 This method returns true if the specified point is contained within this; otherwise, false.
 
@@ -174,7 +174,7 @@ public bool IsVisible(int x, int y, Graphics graphics)
 | y | Int32 | The y-coordinate of the point to test. |
 | graphics | Graphics | The [`Graphics`](../../graphics) for which to test visibility. |
 
-## Return Value
+### Return Value
 
 This method returns true if the specified point is contained within this [`GraphicsPath`](../../graphicspath); otherwise, false.
 
@@ -200,7 +200,7 @@ public bool IsVisible(Point pt, Graphics graphics)
 | pt | Point | A [`Point`](../../point) that represents the point to test. |
 | graphics | Graphics | The [`Graphics`](../../graphics) for which to test visibility. |
 
-## Return Value
+### Return Value
 
 This method returns true if the specified point is contained within this [`GraphicsPath`](../../graphicspath); otherwise, false.
 

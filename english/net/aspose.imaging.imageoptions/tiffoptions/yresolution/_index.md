@@ -3,7 +3,7 @@ title: Yresolution
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 700
+weight: 710
 url: /net/aspose.imaging.imageoptions/tiffoptions/yresolution/
 ---
 ## TiffOptions.Yresolution property
@@ -14,7 +14,7 @@ Gets or sets the y resolution.
 public TiffRational Yresolution { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The y resolution.
 

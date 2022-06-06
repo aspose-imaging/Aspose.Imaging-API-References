@@ -14,7 +14,7 @@ Gets or sets the objects rectangles that belong to separated objects (optional).
 public Rectangle[] ObjectsRectangles { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The objects rectangles.
 

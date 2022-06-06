@@ -18,7 +18,7 @@ public static IImageLoaderDescriptor GetFirstSupportedDescriptorByFileFormat(Fil
 | --- | --- | --- |
 | fileFormat | FileFormat | The supported descriptor file format. |
 
-## Return Value
+### Return Value
 
 The first found loader descriptor or null if not such descriptor is found.
 

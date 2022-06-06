@@ -3,7 +3,7 @@ title: TiffRational
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7880
+weight: 7890
 url: /net/aspose.imaging.fileformats.tiff/tiffrational/
 ---
 ## TiffRational class
@@ -43,11 +43,11 @@ public class TiffRational
 | override [GetHashCode](../../aspose.imaging.fileformats.tiff/tiffrational/gethashcode)() | Returns a hash code for this instance. |
 | override [ToString](../../aspose.imaging.fileformats.tiff/tiffrational/tostring)() | Returns a String that represents this instance. |
 
-## Other Members
+## Fields
 
 | Name | Description |
 | --- | --- |
-| const [Epsilon](epsilon) | The epsilon for fraction calculation |
+| const [Epsilon](../../aspose.imaging.fileformats.tiff/tiffrational/epsilon) | The epsilon for fraction calculation |
 
 ### See Also
 

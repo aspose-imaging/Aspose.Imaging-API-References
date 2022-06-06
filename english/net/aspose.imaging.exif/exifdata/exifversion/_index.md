@@ -14,7 +14,7 @@ Gets or sets the EXIF version.
 public byte[] ExifVersion { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The EXIF version.
 

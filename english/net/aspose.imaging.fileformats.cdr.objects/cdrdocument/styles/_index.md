@@ -14,7 +14,7 @@ Gets the styles.
 public Dictionary<int, CdrStyle> Styles { get; }
 ```
 
-## Property Value
+### Property Value
 
 The styles.
 

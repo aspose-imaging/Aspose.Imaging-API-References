@@ -14,7 +14,7 @@ Gets or sets the height of this [`RectangleF`](../../rectanglef) structure.
 public float Height { get; set; }
 ```
 
-## Return Value
+### Return Value
 
 The height of this [`RectangleF`](../../rectanglef) structure.
 

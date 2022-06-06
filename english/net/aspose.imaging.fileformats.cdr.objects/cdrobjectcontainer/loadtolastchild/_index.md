@@ -14,7 +14,7 @@ Gets or sets a value indicating whether [load to last child].
 public bool LoadToLastChild { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 `true` if [load to last child]; otherwise, `false`.
 

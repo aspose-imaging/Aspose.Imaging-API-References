@@ -18,7 +18,7 @@ public override bool Equals(object obj)
 | --- | --- | --- |
 | obj | Object | The Object to test. |
 
-## Return Value
+### Return Value
 
 This method returns true if *obj* is a [`PointF`](../../pointf) and has the same coordinates as this [`Point`](../../point).
 

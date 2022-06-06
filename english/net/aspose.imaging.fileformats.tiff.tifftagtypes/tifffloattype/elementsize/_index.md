@@ -14,7 +14,7 @@ Gets the element size in bytes.
 public override uint ElementSize { get; }
 ```
 
-## Property Value
+### Property Value
 
 The element size in bytes.
 

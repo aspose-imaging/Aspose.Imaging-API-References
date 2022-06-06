@@ -3,7 +3,7 @@ title: EmfPlusCompositingQuality
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4720
+weight: 4730
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscompositingquality/
 ---
 ## EmfPlusCompositingQuality enumeration
@@ -14,7 +14,7 @@ The CompositingQuality enumeration defines levels of quality for creating compos
 public enum EmfPlusCompositingQuality : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

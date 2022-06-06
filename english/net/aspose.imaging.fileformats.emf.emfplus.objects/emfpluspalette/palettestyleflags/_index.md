@@ -14,7 +14,7 @@ Gets or sets the palette style flags.
 public EmfPlusPaletteStyleFlags PaletteStyleFlags { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 PaletteStyleFlags (4 bytes): A 32-bit unsigned integer that specifies the attributes of data in the palette. This value MUST be composed of [`EmfPlusPaletteStyleFlags`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfpluspalettestyleflags) flags.
 

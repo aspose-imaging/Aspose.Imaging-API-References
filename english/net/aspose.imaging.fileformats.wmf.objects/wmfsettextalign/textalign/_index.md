@@ -14,7 +14,7 @@ Gets or sets the text align.
 public WmfTextAlignmentModeFlags TextAlign { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The text align.
 

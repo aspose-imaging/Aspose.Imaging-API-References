@@ -3,7 +3,7 @@ title: SampleRoundingMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6790
+weight: 6800
 url: /net/aspose.imaging.fileformats.jpeg/sampleroundingmode/
 ---
 ## SampleRoundingMode enumeration
@@ -14,7 +14,7 @@ Defines a way in which an n-bit value is converted to an 8-bit value.
 public enum SampleRoundingMode
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

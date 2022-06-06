@@ -3,7 +3,7 @@ title: OdGradientStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6830
+weight: 6840
 url: /net/aspose.imaging.fileformats.opendocument.enums/odgradientstyle/
 ---
 ## OdGradientStyle enumeration
@@ -14,7 +14,7 @@ The gradient style
 public enum OdGradientStyle
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

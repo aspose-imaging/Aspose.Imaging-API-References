@@ -18,7 +18,7 @@ public static PixelDataFormat GetYcck(int bitsPerSample)
 | --- | --- | --- |
 | bitsPerSample | Int32 | The number of bits per sample. |
 
-## Return Value
+### Return Value
 
 The YCCK color.
 

@@ -3,7 +3,7 @@ title: Xposition
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 630
+weight: 640
 url: /net/aspose.imaging.imageoptions/tiffoptions/xposition/
 ---
 ## TiffOptions.Xposition property
@@ -14,7 +14,7 @@ Gets or sets the x position.
 public TiffRational Xposition { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The x position.
 

@@ -14,7 +14,7 @@ Gets or sets the object that defines the fill for the custom cap.
 public GraphicsPath FillPath { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The object that defines the fill for the custom cap.
 

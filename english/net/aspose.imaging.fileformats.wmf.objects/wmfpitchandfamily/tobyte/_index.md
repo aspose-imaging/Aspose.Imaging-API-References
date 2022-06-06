@@ -14,7 +14,7 @@ To the byte.
 public byte ToByte()
 ```
 
-## Return Value
+### Return Value
 
 The byte value.
 

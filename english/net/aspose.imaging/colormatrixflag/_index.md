@@ -14,7 +14,7 @@ Specifies the types of images and colors that will be affected by the color and 
 public enum ColorMatrixFlag
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

@@ -14,7 +14,7 @@ Gets or sets the wrap mode.
 public EmfPlusWrapMode WrapMode { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 A 32-bit signed integer from the WrapMode enumeration (section 2.1.1.34) that specifies whether to paint the area outside the boundary of the brush. When painting outside the boundary, the wrap mode specifies how the color gradient is repeated.
 

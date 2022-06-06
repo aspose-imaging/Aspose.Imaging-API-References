@@ -14,7 +14,7 @@ Gets or sets the palette entries.
 public int[] Argb32Entries { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 PaletteEntries (variable): An array of PaletteCount 32-bit ARGB objects that specify the data in the palette.
 

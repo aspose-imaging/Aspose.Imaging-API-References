@@ -18,7 +18,7 @@ public static PixelDataFormat GetGrayscale(int bitsPerSample)
 | --- | --- | --- |
 | bitsPerSample | Int32 | The number of bits per sample. |
 
-## Return Value
+### Return Value
 
 The Grayscale color.
 

@@ -3,7 +3,7 @@ title: XPComment
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 610
+weight: 620
 url: /net/aspose.imaging.imageoptions/tiffoptions/xpcomment/
 ---
 ## TiffOptions.XPComment property
@@ -14,7 +14,7 @@ Gets or sets comment on image, which used by Windows Explorer.
 public string XPComment { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 Comment on image, used by Windows Explorer.
 

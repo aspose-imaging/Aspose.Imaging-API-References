@@ -14,7 +14,7 @@ Gets or sets the encoding.
 public Encoding Encoding { get; set; }
 ```
 
-## Property Value
+### Property Value
 
 The encoding.
 

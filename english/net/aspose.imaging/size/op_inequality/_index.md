@@ -19,7 +19,7 @@ public static bool operator !=(Size size1, Size size2)
 | size1 | Size | The [`Size`](../../size) structure on the left of the inequality operator. |
 | size2 | Size | The [`Size`](../../size) structure on the right of the inequality operator. |
 
-## Return Value
+### Return Value
 
 True if *size1* and *size2* differ either in width or height; false if *size1* and *size2* are equal.
 

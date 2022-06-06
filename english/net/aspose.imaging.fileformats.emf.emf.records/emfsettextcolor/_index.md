@@ -3,7 +3,7 @@ title: EmfSetTextColor
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4490
+weight: 4500
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsettextcolor/
 ---
 ## EmfSetTextColor class

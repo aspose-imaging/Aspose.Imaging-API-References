@@ -3,7 +3,7 @@ title: WmfCharacterSet
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8110
+weight: 8120
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfcharacterset/
 ---
 ## WmfCharacterSet enumeration
@@ -14,7 +14,7 @@ The CharacterSet Enumeration defines the possible sets of character glyphs that 
 public enum WmfCharacterSet : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

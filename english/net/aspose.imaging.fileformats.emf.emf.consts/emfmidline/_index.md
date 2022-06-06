@@ -3,7 +3,7 @@ title: EmfMidLine
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2750
+weight: 2760
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfmidline/
 ---
 ## EmfMidLine enumeration
@@ -14,7 +14,7 @@ The MidLine enumeration defines values for one of the characteristics in the PAN
 public enum EmfMidLine : byte
 ```
 
-## Values
+### Values
 
 | Name | Value | Description |
 | --- | --- | --- |

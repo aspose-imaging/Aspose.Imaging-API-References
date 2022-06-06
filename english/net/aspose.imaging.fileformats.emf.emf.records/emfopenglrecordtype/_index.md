@@ -3,7 +3,7 @@ title: EmfOpenGlRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3890
+weight: 3900
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfopenglrecordtype/
 ---
 ## EmfOpenGlRecordType class

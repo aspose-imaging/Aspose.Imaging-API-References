@@ -14,7 +14,7 @@ Gets the TIFF preview.
 public TiffImage TiffPreview { get; }
 ```
 
-## Property Value
+### Property Value
 
 The TIFF preview.
 
