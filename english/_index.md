@@ -27,7 +27,7 @@ These are links to some useful resources:
 
 Aspose.Imaging for Java is an easy-to-use, high-performance and well-documented imaging library. It provides the most flexible group of routines to create, manipulate and save images in Java applications. Aspose.Imaging for Java supports maximum file formats from Raster based graphical Imaging and provides a wide range of compression algorithms along with numerous image processing operations.
 
-Aspose.Imaging for Java offers a broad spectrum of traditional image processing operations such as converting an image from one format to another, drawing native objects as well as GraphicsPaths and geometric transformations such as scaling, rotation and flipping. A demanding feature provided by Aspose.Imaging for Java is to manipulate multiple image frames or to read and write file formats which support multiple image frames.
+Aspose.Imaging for Java offers a broad spectrum of traditional image processing operations such as converting an image from one format to another, drawing native objects as well as GraphicsPaths and geometric transformations such as scaling, rotation and flipping. A demanding feature provided by Aspose.Imaging for Java is to manipulate multiple image frames or to read and write file formats which support multiple image frames. 
 
 {{% /alert %}}
 
