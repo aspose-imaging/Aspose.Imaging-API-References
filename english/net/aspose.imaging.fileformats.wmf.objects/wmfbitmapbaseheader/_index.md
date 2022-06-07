@@ -3,7 +3,7 @@ title: WmfBitmapBaseHeader
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8440
+weight: 8450
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfbitmapbaseheader/
 ---
 ## WmfBitmapBaseHeader class

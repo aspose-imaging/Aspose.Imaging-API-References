@@ -3,7 +3,7 @@ title: GradientTypes
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2030
+weight: 2040
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.enums/gradienttypes/
 ---
 ## GradientTypes enumeration

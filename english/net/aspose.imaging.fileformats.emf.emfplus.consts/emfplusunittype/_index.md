@@ -3,7 +3,7 @@ title: EmfPlusUnitType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5100
+weight: 5110
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusunittype/
 ---
 ## EmfPlusUnitType enumeration

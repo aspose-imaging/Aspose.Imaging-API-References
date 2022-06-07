@@ -3,7 +3,7 @@ title: SminSampleValue
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 450
+weight: 460
 url: /net/aspose.imaging.imageoptions/tiffoptions/sminsamplevalue/
 ---
 ## TiffOptions.SminSampleValue property

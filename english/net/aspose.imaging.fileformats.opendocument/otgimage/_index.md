@@ -3,7 +3,7 @@ title: OtgImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7390
+weight: 7400
 url: /net/aspose.imaging.fileformats.opendocument/otgimage/
 ---
 ## OtgImage class
@@ -19,6 +19,7 @@ public class OtgImage : OdImage
 | Name | Description |
 | --- | --- |
 | [OtgImage](otgimage)(StreamContainer) | Initializes a new instance of the [`OtgImage`](../otgimage) class. |
+| [OtgImage](otgimage)(StreamContainer, LoadOptions) | Initializes a new instance of the [`OtgImage`](../otgimage) class. |
 
 ## Properties
 

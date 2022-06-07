@@ -3,7 +3,7 @@ title: EmfTransparentBlt
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4630
+weight: 4640
 url: /net/aspose.imaging.fileformats.emf.emf.records/emftransparentblt/
 ---
 ## EmfTransparentBlt class

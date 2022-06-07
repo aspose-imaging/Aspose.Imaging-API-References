@@ -3,7 +3,7 @@ title: IObjectWithSizeF
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10330
+weight: 10350
 url: /net/aspose.imaging.interfaces/iobjectwithsizef/
 ---
 ## IObjectWithSizeF interface

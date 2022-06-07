@@ -3,7 +3,7 @@ title: StripOffsets
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 480
+weight: 490
 url: /net/aspose.imaging.imageoptions/tiffoptions/stripoffsets/
 ---
 ## TiffOptions.StripOffsets property

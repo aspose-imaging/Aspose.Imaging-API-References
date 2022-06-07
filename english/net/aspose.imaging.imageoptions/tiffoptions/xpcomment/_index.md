@@ -3,7 +3,7 @@ title: XPComment
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 610
+weight: 620
 url: /net/aspose.imaging.imageoptions/tiffoptions/xpcomment/
 ---
 ## TiffOptions.XPComment property

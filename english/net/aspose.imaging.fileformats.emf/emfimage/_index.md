@@ -3,7 +3,7 @@ title: EmfImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4660
+weight: 4670
 url: /net/aspose.imaging.fileformats.emf/emfimage/
 ---
 ## EmfImage class

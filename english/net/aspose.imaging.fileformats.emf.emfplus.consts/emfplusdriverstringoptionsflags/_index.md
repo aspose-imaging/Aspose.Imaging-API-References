@@ -3,7 +3,7 @@ title: EmfPlusDriverStringOptionsFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4780
+weight: 4790
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusdriverstringoptionsflags/
 ---
 ## EmfPlusDriverStringOptionsFlags enumeration

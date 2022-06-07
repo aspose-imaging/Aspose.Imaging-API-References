@@ -3,7 +3,7 @@ title: XPSubject
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 640
+weight: 650
 url: /net/aspose.imaging.imageoptions/tiffoptions/xpsubject/
 ---
 ## TiffOptions.XPSubject property

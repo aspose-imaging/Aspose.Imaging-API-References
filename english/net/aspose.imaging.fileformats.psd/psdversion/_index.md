@@ -3,7 +3,7 @@ title: PsdVersion
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7470
+weight: 7480
 url: /net/aspose.imaging.fileformats.psd/psdversion/
 ---
 ## PsdVersion enumeration

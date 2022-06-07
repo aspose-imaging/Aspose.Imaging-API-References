@@ -3,7 +3,7 @@ title: EmfPlusMetafileDataType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4910
+weight: 4920
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusmetafiledatatype/
 ---
 ## EmfPlusMetafileDataType enumeration

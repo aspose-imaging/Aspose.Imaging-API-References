@@ -3,7 +3,7 @@ title: CmxOutline
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2250
+weight: 2260
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/
 ---
 ## CmxOutline class

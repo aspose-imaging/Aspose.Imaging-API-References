@@ -3,7 +3,7 @@ title: CdrPolygonTransform
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1710
+weight: 1720
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrpolygontransform/
 ---
 ## CdrPolygonTransform class

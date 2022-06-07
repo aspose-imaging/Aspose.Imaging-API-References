@@ -3,7 +3,7 @@ title: SubFileType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.imaging.imageoptions/tiffoptions/subfiletype/
 ---
 ## TiffOptions.SubFileType property

@@ -3,7 +3,7 @@ title: WmfSaveDc
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8960
+weight: 8970
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsavedc/
 ---
 ## WmfSaveDc class

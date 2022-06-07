@@ -3,7 +3,7 @@ title: TgaImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7570
+weight: 7580
 url: /net/aspose.imaging.fileformats.tga/tgaimage/
 ---
 ## TgaImage class

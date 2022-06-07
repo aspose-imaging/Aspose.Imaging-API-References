@@ -3,7 +3,7 @@ title: EmfPlusTerminalServerRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6430
+weight: 6440
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusterminalserverrecordtype/
 ---
 ## EmfPlusTerminalServerRecordType class

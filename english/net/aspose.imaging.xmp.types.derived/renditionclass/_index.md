@@ -3,7 +3,7 @@ title: RenditionClass
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11630
+weight: 11650
 url: /net/aspose.imaging.xmp.types.derived/renditionclass/
 ---
 ## RenditionClass class

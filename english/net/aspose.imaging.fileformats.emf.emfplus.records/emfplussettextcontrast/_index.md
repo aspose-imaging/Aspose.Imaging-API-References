@@ -3,7 +3,7 @@ title: EmfPlusSetTextContrast
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6370
+weight: 6380
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettextcontrast/
 ---
 ## EmfPlusSetTextContrast class

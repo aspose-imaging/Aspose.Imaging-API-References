@@ -3,7 +3,7 @@ title: DjvuPage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2440
+weight: 2450
 url: /net/aspose.imaging.fileformats.djvu/djvupage/
 ---
 ## DjvuPage class

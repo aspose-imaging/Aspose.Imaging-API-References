@@ -3,7 +3,7 @@ title: EmfPlusDrawCurve
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5920
+weight: 5930
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawcurve/
 ---
 ## EmfPlusDrawCurve class

@@ -3,7 +3,7 @@ title: DicomPackage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11270
+weight: 11290
 url: /net/aspose.imaging.xmp.schemas.dicom/dicompackage/
 ---
 ## DicomPackage class

@@ -3,7 +3,7 @@ title: EventType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10760
+weight: 10780
 url: /net/aspose.imaging.progressmanagement/eventtype/
 ---
 ## EventType enumeration

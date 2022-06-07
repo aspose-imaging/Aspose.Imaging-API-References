@@ -3,7 +3,7 @@ title: GifOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9980
+weight: 10000
 url: /net/aspose.imaging.imageoptions/gifoptions/
 ---
 ## GifOptions class

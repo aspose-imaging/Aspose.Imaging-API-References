@@ -3,7 +3,7 @@ title: EmfLetterform
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2710
+weight: 2720
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfletterform/
 ---
 ## EmfLetterform enumeration

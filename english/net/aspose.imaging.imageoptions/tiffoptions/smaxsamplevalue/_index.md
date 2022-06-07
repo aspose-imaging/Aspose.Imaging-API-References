@@ -3,7 +3,7 @@ title: SmaxSampleValue
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.imaging.imageoptions/tiffoptions/smaxsamplevalue/
 ---
 ## TiffOptions.SmaxSampleValue property

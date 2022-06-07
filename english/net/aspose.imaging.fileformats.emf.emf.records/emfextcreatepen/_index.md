@@ -3,7 +3,7 @@ title: EmfExtCreatePen
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3620
+weight: 3630
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/
 ---
 ## EmfExtCreatePen class

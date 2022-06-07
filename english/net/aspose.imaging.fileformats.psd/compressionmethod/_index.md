@@ -3,7 +3,7 @@ title: CompressionMethod
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7460
+weight: 7470
 url: /net/aspose.imaging.fileformats.psd/compressionmethod/
 ---
 ## CompressionMethod enumeration

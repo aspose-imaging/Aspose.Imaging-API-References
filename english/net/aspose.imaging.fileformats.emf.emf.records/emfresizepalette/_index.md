@@ -3,7 +3,7 @@ title: EmfResizePalette
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4160
+weight: 4170
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfresizepalette/
 ---
 ## EmfResizePalette class

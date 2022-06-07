@@ -3,7 +3,7 @@ title: ExifContrast
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 880
+weight: 890
 url: /net/aspose.imaging.exif.enums/exifcontrast/
 ---
 ## ExifContrast enumeration

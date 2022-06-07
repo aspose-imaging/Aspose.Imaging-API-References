@@ -3,7 +3,7 @@ title: SvgColorMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7530
+weight: 7540
 url: /net/aspose.imaging.fileformats.svg/svgcolormode/
 ---
 ## SvgColorMode enumeration

@@ -3,7 +3,7 @@ title: BitmapCompression
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1320
+weight: 1330
 url: /net/aspose.imaging.fileformats.bmp/bitmapcompression/
 ---
 ## BitmapCompression enumeration

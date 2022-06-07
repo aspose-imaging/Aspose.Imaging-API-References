@@ -3,7 +3,7 @@ title: WmfScaleViewportExt
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8970
+weight: 8980
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfscaleviewportext/
 ---
 ## WmfScaleViewportExt class

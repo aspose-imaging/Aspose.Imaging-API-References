@@ -3,7 +3,7 @@ title: XmpData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 590
+weight: 600
 url: /net/aspose.imaging.imageoptions/tiffoptions/xmpdata/
 ---
 ## TiffOptions.XmpData property

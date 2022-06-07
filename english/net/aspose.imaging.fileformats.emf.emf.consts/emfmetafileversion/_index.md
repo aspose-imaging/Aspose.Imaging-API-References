@@ -3,7 +3,7 @@ title: EmfMetafileVersion
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2740
+weight: 2750
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfmetafileversion/
 ---
 ## EmfMetafileVersion enumeration

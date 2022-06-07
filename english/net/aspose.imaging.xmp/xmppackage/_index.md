@@ -3,7 +3,7 @@ title: XmpPackage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11770
+weight: 11790
 url: /net/aspose.imaging.xmp/xmppackage/
 ---
 ## XmpPackage class

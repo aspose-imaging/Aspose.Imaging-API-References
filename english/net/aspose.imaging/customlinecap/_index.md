@@ -3,7 +3,7 @@ title: CustomLineCap
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 760
+weight: 770
 url: /net/aspose.imaging/customlinecap/
 ---
 ## CustomLineCap class

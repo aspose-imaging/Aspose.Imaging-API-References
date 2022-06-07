@@ -3,7 +3,7 @@ title: SizeF
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11040
+weight: 11060
 url: /net/aspose.imaging/sizef/
 ---
 ## SizeF structure

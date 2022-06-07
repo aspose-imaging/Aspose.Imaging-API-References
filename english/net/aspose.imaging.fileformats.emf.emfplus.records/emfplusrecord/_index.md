@@ -3,7 +3,7 @@ title: EmfPlusRecord
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6190
+weight: 6200
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/
 ---
 ## EmfPlusRecord class

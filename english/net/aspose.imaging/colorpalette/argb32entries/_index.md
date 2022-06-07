@@ -16,7 +16,7 @@ public int[] Argb32Entries { get; }
 
 ### Return Value
 
-The array of 32-bit ARGB structure that make up this [`ColorPalette`](../../colorpalette).
+The copy of array of 32-bit ARGB structure that make up this [`ColorPalette`](../../colorpalette).
 
 ### Property Value
 

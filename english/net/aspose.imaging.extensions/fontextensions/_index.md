@@ -3,7 +3,7 @@ title: FontExtensions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1170
+weight: 1180
 url: /net/aspose.imaging.extensions/fontextensions/
 ---
 ## FontExtensions class

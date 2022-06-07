@@ -3,7 +3,7 @@ title: EmfForceUfiMapping
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3710
+weight: 3720
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfforceufimapping/
 ---
 ## EmfForceUfiMapping class

@@ -3,7 +3,7 @@ title: EmfEmrComment
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2610
+weight: 2620
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfemrcomment/
 ---
 ## EmfEmrComment enumeration

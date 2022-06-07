@@ -3,7 +3,7 @@ title: EpsType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6530
+weight: 6540
 url: /net/aspose.imaging.fileformats.eps.consts/epstype/
 ---
 ## EpsType enumeration

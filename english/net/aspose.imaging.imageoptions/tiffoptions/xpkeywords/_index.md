@@ -3,7 +3,7 @@ title: XPKeywords
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 620
+weight: 630
 url: /net/aspose.imaging.imageoptions/tiffoptions/xpkeywords/
 ---
 ## TiffOptions.XPKeywords property

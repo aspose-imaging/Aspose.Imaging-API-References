@@ -3,7 +3,7 @@ title: ExifYCbCrPositioning
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1050
+weight: 1060
 url: /net/aspose.imaging.exif.enums/exifycbcrpositioning/
 ---
 ## ExifYCbCrPositioning enumeration

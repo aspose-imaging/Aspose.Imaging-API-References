@@ -3,7 +3,7 @@ title: AddTag
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 710
+weight: 720
 url: /net/aspose.imaging.imageoptions/tiffoptions/addtag/
 ---
 ## TiffOptions.AddTag method

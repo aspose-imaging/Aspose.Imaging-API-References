@@ -3,7 +3,7 @@ title: EmfExtTextOutOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2620
+weight: 2630
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfexttextoutoptions/
 ---
 ## EmfExtTextOutOptions enumeration

@@ -3,7 +3,7 @@ title: EmfPlusStringTrimming
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5080
+weight: 5090
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusstringtrimming/
 ---
 ## EmfPlusStringTrimming enumeration

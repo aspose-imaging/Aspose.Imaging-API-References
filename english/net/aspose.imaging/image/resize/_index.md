@@ -8,78 +8,79 @@ url: /net/aspose.imaging/image/resize/
 ---
 ## Image.Resize method (1 of 3)
 
-Resizes the image. The default NearestNeighbourResample is used.
+Resizes the image.
 
 ```csharp
-public void Resize(int newWidth, int newHeight)
+public abstract void Resize(int newWidth, int newHeight, ImageResizeSettings settings)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | newWidth | Int32 | The new width. |
 | newHeight | Int32 | The new height. |
+| settings | ImageResizeSettings | The resize settings. |
 
 ### Examples
 
-The following example shows how to resize a metafile (WMF and EMF).
+Resize image using specific Resize Type.
 
 ```csharp
 [C#]
 
-string dir = "c:\\aspose.imaging\\issues\\net\\3280\\";
-string[] fileNames = new[] { "image3.emf", "image4.wmf" };
-foreach (string fileName in fileNames)
+using (var image = Image.Load("Photo.jpg"))
 {
-    string inputFilePath = dir + fileName;
-    string outputFilePath = dir + "Downscale_" + fileName;
+    image.Resize(640, 480, ResizeType.CatmullRom);
+    image.Save("ResizedPhoto.jpg");
 
-    using (Aspose.Imaging.FileFormats.Emf.MetaImage image = (Aspose.Imaging.FileFormats.Emf.MetaImage)Aspose.Imaging.Image.Load(inputFilePath))
+    image.Resize(1024, 768, ResizeType.CubicConvolution);
+    image.Save("ResizedPhoto2.jpg");
+
+    var resizeSettings = new ImageResizeSettings
     {
-        image.Resize(image.Width / 4, image.Height / 4);
-        image.Save(outputFilePath);
-    }
+        Mode = ResizeType.CubicBSpline,
+        FilterType = ImageFilterType.SmallRectangular
+    };
+
+    image.Resize(800, 800, resizeSettings);
+    image.Save("ResizedPhoto3.jpg");
 }
 ```
 
-The following example shows how to resize SVG image and save it to PNG.
+This example loads an image and resizes it using various resizing settings.
 
 ```csharp
 [C#]
 
-string dir = "c:\\aspose.imaging\\net\\issues\\3549";
-string[] fileNames = new string[]
-{
-    "Logotype.svg",
-    "sample_car.svg",
-    "rg1024_green_grapes.svg",
-    "MidMarkerFigure.svg",
-    "embeddedFonts.svg"
-};
+string dir = "c:\\temp\\";
 
-Aspose.Imaging.PointF[] scales = new Aspose.Imaging.PointF[]
-{
-    new Aspose.Imaging.PointF(0.5f, 0.5f),
-    new Aspose.Imaging.PointF(1f, 1f),
-    new Aspose.Imaging.PointF(2f, 2f),
-    new Aspose.Imaging.PointF(3.5f, 9.2f),
-};
+Aspose.Imaging.ImageResizeSettings resizeSettings = new Aspose.Imaging.ImageResizeSettings();
 
-foreach (string inputFile in fileNames)
+// The adaptive algorithm based on weighted and blended rational function and lanczos3 interpolation.
+resizeSettings.Mode = Aspose.Imaging.ResizeType.AdaptiveResample;
+
+// The small rectangular filter
+resizeSettings.FilterType = Aspose.Imaging.ImageFilterType.SmallRectangular;
+
+// The number of colors in the palette.
+resizeSettings.EntriesCount = 256;
+
+// The color quantization is not used
+resizeSettings.ColorQuantizationMethod = ColorQuantizationMethod.None;
+
+// The euclidian method
+resizeSettings.ColorCompareMethod = ColorCompareMethod.Euclidian;
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-    foreach (Aspose.Imaging.PointF scale in scales)
-    {
-        string outputFile = string.Format("{0}_{1}_{2}.png", inputFile, scale.X.ToString(System.Globalization.CultureInfo.InvariantCulture), scale.Y.ToString(System.Globalization.CultureInfo.InvariantCulture));
-        using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(System.IO.Path.Combine(dir, inputFile)))
-        {
-            image.Resize((int)(image.Width * scale.X), (int)(image.Height * scale.Y));
-            image.Save(System.IO.Path.Combine(dir, outputFile), new Aspose.Imaging.ImageOptions.PngOptions());
-        }
-    }
+    // Scale down by 2 times using adaptive resampling.
+    image.Resize(image.Width / 2, image.Height / 2, resizeSettings);
+    image.Save(dir + "downsample.adaptive.gif");
 }
 ```
 
 ### See Also
 
+* class [ImageResizeSettings](../../imageresizesettings)
 * class [Image](../../image)
 * namespace [Aspose.Imaging](../../image)
 * assembly [Aspose.Imaging](../../../)
@@ -225,79 +226,78 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 
 ## Image.Resize method (3 of 3)
 
-Resizes the image.
+Resizes the image. The default NearestNeighbourResample is used.
 
 ```csharp
-public abstract void Resize(int newWidth, int newHeight, ImageResizeSettings settings)
+public void Resize(int newWidth, int newHeight)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | newWidth | Int32 | The new width. |
 | newHeight | Int32 | The new height. |
-| settings | ImageResizeSettings | The resize settings. |
 
 ### Examples
 
-Resize image using specific Resize Type.
+The following example shows how to resize a metafile (WMF and EMF).
 
 ```csharp
 [C#]
 
-using (var image = Image.Load("Photo.jpg"))
+string dir = "c:\\aspose.imaging\\issues\\net\\3280\\";
+string[] fileNames = new[] { "image3.emf", "image4.wmf" };
+foreach (string fileName in fileNames)
 {
-    image.Resize(640, 480, ResizeType.CatmullRom);
-    image.Save("ResizedPhoto.jpg");
+    string inputFilePath = dir + fileName;
+    string outputFilePath = dir + "Downscale_" + fileName;
 
-    image.Resize(1024, 768, ResizeType.CubicConvolution);
-    image.Save("ResizedPhoto2.jpg");
-
-    var resizeSettings = new ImageResizeSettings
+    using (Aspose.Imaging.FileFormats.Emf.MetaImage image = (Aspose.Imaging.FileFormats.Emf.MetaImage)Aspose.Imaging.Image.Load(inputFilePath))
     {
-        Mode = ResizeType.CubicBSpline,
-        FilterType = ImageFilterType.SmallRectangular
-    };
-
-    image.Resize(800, 800, resizeSettings);
-    image.Save("ResizedPhoto3.jpg");
+        image.Resize(image.Width / 4, image.Height / 4);
+        image.Save(outputFilePath);
+    }
 }
 ```
 
-This example loads an image and resizes it using various resizing settings.
+The following example shows how to resize SVG image and save it to PNG.
 
 ```csharp
 [C#]
 
-string dir = "c:\\temp\\";
-
-Aspose.Imaging.ImageResizeSettings resizeSettings = new Aspose.Imaging.ImageResizeSettings();
-
-// The adaptive algorithm based on weighted and blended rational function and lanczos3 interpolation.
-resizeSettings.Mode = Aspose.Imaging.ResizeType.AdaptiveResample;
-
-// The small rectangular filter
-resizeSettings.FilterType = Aspose.Imaging.ImageFilterType.SmallRectangular;
-
-// The number of colors in the palette.
-resizeSettings.EntriesCount = 256;
-
-// The color quantization is not used
-resizeSettings.ColorQuantizationMethod = ColorQuantizationMethod.None;
-
-// The euclidian method
-resizeSettings.ColorCompareMethod = ColorCompareMethod.Euclidian;
-
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
+string dir = "c:\\aspose.imaging\\net\\issues\\3549";
+string[] fileNames = new string[]
 {
-    // Scale down by 2 times using adaptive resampling.
-    image.Resize(image.Width / 2, image.Height / 2, resizeSettings);
-    image.Save(dir + "downsample.adaptive.gif");
+    "Logotype.svg",
+    "sample_car.svg",
+    "rg1024_green_grapes.svg",
+    "MidMarkerFigure.svg",
+    "embeddedFonts.svg"
+};
+
+Aspose.Imaging.PointF[] scales = new Aspose.Imaging.PointF[]
+{
+    new Aspose.Imaging.PointF(0.5f, 0.5f),
+    new Aspose.Imaging.PointF(1f, 1f),
+    new Aspose.Imaging.PointF(2f, 2f),
+    new Aspose.Imaging.PointF(3.5f, 9.2f),
+};
+
+foreach (string inputFile in fileNames)
+{
+    foreach (Aspose.Imaging.PointF scale in scales)
+    {
+        string outputFile = string.Format("{0}_{1}_{2}.png", inputFile, scale.X.ToString(System.Globalization.CultureInfo.InvariantCulture), scale.Y.ToString(System.Globalization.CultureInfo.InvariantCulture));
+        using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(System.IO.Path.Combine(dir, inputFile)))
+        {
+            image.Resize((int)(image.Width * scale.X), (int)(image.Height * scale.Y));
+            image.Save(System.IO.Path.Combine(dir, outputFile), new Aspose.Imaging.ImageOptions.PngOptions());
+        }
+    }
 }
 ```
 
 ### See Also
 
-* class [ImageResizeSettings](../../imageresizesettings)
 * class [Image](../../image)
 * namespace [Aspose.Imaging](../../image)
 * assembly [Aspose.Imaging](../../../)

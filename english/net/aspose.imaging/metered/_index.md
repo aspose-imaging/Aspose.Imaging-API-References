@@ -3,7 +3,7 @@ title: Metered
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10570
+weight: 10590
 url: /net/aspose.imaging/metered/
 ---
 ## Metered class

@@ -3,7 +3,7 @@ title: SampleFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 400
+weight: 410
 url: /net/aspose.imaging.imageoptions/tiffoptions/sampleformat/
 ---
 ## TiffOptions.SampleFormat property

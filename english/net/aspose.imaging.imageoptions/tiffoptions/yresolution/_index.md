@@ -3,7 +3,7 @@ title: Yresolution
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 700
+weight: 710
 url: /net/aspose.imaging.imageoptions/tiffoptions/yresolution/
 ---
 ## TiffOptions.Yresolution property

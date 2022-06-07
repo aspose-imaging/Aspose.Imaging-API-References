@@ -3,7 +3,7 @@ title: HotkeyPrefix
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9390
+weight: 9400
 url: /net/aspose.imaging/hotkeyprefix/
 ---
 ## HotkeyPrefix enumeration

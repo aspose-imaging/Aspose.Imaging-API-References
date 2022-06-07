@@ -3,7 +3,7 @@ title: EmfPlusCustomEndCapData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5350
+weight: 5360
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomendcapdata/
 ---
 ## EmfPlusCustomEndCapData class

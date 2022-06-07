@@ -3,7 +3,7 @@ title: MatrixOrder
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10550
+weight: 10570
 url: /net/aspose.imaging/matrixorder/
 ---
 ## MatrixOrder enumeration

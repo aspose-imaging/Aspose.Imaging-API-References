@@ -3,7 +3,7 @@ title: EmfExtEscape
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3630
+weight: 3640
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfextescape/
 ---
 ## EmfExtEscape class

@@ -3,7 +3,7 @@ title: EmfLineTo
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3780
+weight: 3790
 url: /net/aspose.imaging.fileformats.emf.emf.records/emflineto/
 ---
 ## EmfLineTo class

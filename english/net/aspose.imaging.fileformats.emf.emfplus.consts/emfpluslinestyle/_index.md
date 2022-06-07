@@ -3,7 +3,7 @@ title: EmfPlusLineStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4900
+weight: 4910
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluslinestyle/
 ---
 ## EmfPlusLineStyle enumeration

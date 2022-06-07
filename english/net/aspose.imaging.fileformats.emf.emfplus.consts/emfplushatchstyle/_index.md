@@ -3,7 +3,7 @@ title: EmfPlusHatchStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4820
+weight: 4830
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplushatchstyle/
 ---
 ## EmfPlusHatchStyle enumeration

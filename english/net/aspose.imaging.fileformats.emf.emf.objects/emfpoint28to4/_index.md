@@ -3,7 +3,7 @@ title: EmfPoint28To4
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3120
+weight: 3130
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfpoint28to4/
 ---
 ## EmfPoint28To4 class

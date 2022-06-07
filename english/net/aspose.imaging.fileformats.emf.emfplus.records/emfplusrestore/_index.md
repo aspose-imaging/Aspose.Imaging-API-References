@@ -3,7 +3,7 @@ title: EmfPlusRestore
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6220
+weight: 6230
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrestore/
 ---
 ## EmfPlusRestore class

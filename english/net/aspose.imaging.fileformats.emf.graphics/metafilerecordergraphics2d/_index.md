@@ -3,7 +3,7 @@ title: MetafileRecorderGraphics2D
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6490
+weight: 6500
 url: /net/aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/
 ---
 ## MetafileRecorderGraphics2D class

@@ -3,7 +3,7 @@ title: XPTitle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 650
+weight: 660
 url: /net/aspose.imaging.imageoptions/tiffoptions/xptitle/
 ---
 ## TiffOptions.XPTitle property

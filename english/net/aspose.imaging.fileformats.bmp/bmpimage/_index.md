@@ -3,7 +3,7 @@ title: BmpImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1370
+weight: 1380
 url: /net/aspose.imaging.fileformats.bmp/bmpimage/
 ---
 ## BmpImage class

@@ -3,7 +3,7 @@ title: Namespaces
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11260
+weight: 11280
 url: /net/aspose.imaging.xmp/namespaces/
 ---
 ## Namespaces class

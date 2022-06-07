@@ -3,7 +3,7 @@ title: CdrColorModel
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1430
+weight: 1440
 url: /net/aspose.imaging.fileformats.cdr.const/cdrcolormodel/
 ---
 ## CdrColorModel enumeration

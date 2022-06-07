@@ -3,7 +3,7 @@ title: BitmapV4Header
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1350
+weight: 1360
 url: /net/aspose.imaging.fileformats.bmp/bitmapv4header/
 ---
 ## BitmapV4Header class

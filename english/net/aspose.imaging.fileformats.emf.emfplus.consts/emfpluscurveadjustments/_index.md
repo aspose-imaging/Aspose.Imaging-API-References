@@ -3,7 +3,7 @@ title: EmfPlusCurveAdjustments
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4730
+weight: 4740
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscurveadjustments/
 ---
 ## EmfPlusCurveAdjustments enumeration

@@ -3,7 +3,7 @@ title: EmfPlusFillEllipse
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6060
+weight: 6070
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/
 ---
 ## EmfPlusFillEllipse class

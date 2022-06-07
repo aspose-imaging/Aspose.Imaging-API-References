@@ -3,7 +3,7 @@ title: EmfPlusObjectClamp
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4920
+weight: 4930
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusobjectclamp/
 ---
 ## EmfPlusObjectClamp enumeration

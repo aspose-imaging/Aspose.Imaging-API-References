@@ -3,7 +3,7 @@ title: ImageAttributes
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9670
+weight: 9680
 url: /net/aspose.imaging/imageattributes/
 ---
 ## ImageAttributes class

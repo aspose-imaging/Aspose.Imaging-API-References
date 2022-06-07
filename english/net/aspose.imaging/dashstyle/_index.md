@@ -3,7 +3,7 @@ title: DashStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 780
+weight: 790
 url: /net/aspose.imaging/dashstyle/
 ---
 ## DashStyle enumeration

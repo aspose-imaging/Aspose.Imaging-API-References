@@ -3,7 +3,7 @@ title: EmfCreateDibPatternBrushPt
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3480
+weight: 3490
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/
 ---
 ## EmfCreateDibPatternBrushPt class

@@ -3,7 +3,7 @@ title: AudioSampleType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11350
+weight: 11370
 url: /net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype/
 ---
 ## AudioSampleType class

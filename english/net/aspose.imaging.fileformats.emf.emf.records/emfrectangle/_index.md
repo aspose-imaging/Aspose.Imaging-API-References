@@ -3,7 +3,7 @@ title: EmfRectangle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4150
+weight: 4160
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfrectangle/
 ---
 ## EmfRectangle class

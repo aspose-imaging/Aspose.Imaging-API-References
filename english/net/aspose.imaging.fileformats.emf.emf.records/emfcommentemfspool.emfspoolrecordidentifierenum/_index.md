@@ -3,7 +3,7 @@ title: EmfCommentEmfSpool.EmfSpoolRecordIdentifierEnum
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3370
+weight: 3380
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool.emfspoolrecordidentifierenum/
 ---
 ## EmfCommentEmfSpool.EmfSpoolRecordIdentifierEnum enumeration

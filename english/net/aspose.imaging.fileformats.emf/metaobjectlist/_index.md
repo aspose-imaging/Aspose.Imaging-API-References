@@ -3,7 +3,7 @@ title: MetaObjectList
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6520
+weight: 6530
 url: /net/aspose.imaging.fileformats.emf/metaobjectlist/
 ---
 ## MetaObjectList class

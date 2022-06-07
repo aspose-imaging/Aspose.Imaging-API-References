@@ -3,7 +3,7 @@ title: EvalException
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 860
+weight: 870
 url: /net/aspose.imaging.evalute/evalexception/
 ---
 ## EvalException class

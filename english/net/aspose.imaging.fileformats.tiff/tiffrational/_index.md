@@ -3,7 +3,7 @@ title: TiffRational
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7880
+weight: 7890
 url: /net/aspose.imaging.fileformats.tiff/tiffrational/
 ---
 ## TiffRational class

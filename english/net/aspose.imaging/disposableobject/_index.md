@@ -3,7 +3,7 @@ title: DisposableObject
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 810
+weight: 820
 url: /net/aspose.imaging/disposableobject/
 ---
 ## DisposableObject class

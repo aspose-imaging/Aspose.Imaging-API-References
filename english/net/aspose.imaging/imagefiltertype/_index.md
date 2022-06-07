@@ -3,7 +3,7 @@ title: ImageFilterType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9700
+weight: 9710
 url: /net/aspose.imaging/imagefiltertype/
 ---
 ## ImageFilterType enumeration

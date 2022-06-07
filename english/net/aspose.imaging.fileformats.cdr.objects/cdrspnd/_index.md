@@ -3,7 +3,7 @@ title: CdrSpnd
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1740
+weight: 1750
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrspnd/
 ---
 ## CdrSpnd class

@@ -3,7 +3,7 @@ title: SamplesPerPixel
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 410
+weight: 420
 url: /net/aspose.imaging.imageoptions/tiffoptions/samplesperpixel/
 ---
 ## TiffOptions.SamplesPerPixel property

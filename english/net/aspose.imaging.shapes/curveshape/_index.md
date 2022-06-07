@@ -3,7 +3,7 @@ title: CurveShape
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10960
+weight: 10980
 url: /net/aspose.imaging.shapes/curveshape/
 ---
 ## CurveShape class

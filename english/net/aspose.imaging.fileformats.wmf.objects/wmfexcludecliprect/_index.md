@@ -3,7 +3,7 @@ title: WmfExcludeClipRect
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8640
+weight: 8650
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfexcludecliprect/
 ---
 ## WmfExcludeClipRect class

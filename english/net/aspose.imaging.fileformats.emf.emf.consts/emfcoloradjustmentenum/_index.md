@@ -3,7 +3,7 @@ title: EmfColorAdjustmentEnum
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2560
+weight: 2570
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfcoloradjustmentenum/
 ---
 ## EmfColorAdjustmentEnum enumeration

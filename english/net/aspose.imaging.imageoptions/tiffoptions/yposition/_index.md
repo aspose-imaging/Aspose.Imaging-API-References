@@ -3,7 +3,7 @@ title: Yposition
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 690
+weight: 700
 url: /net/aspose.imaging.imageoptions/tiffoptions/yposition/
 ---
 ## TiffOptions.Yposition property

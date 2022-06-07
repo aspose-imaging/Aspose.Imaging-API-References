@@ -3,7 +3,7 @@ title: WmfClipPrecisionFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8120
+weight: 8130
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfclipprecisionflags/
 ---
 ## WmfClipPrecisionFlags enumeration
