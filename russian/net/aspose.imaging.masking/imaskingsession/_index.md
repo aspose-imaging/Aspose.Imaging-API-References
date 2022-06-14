@@ -1,0 +1,113 @@
+---
+title: IMaskingSession
+second_title: Справочник по Aspose.Imaging for .NET API
+description: Маскирующий сеанс
+type: docs
+weight: 10430
+url: /ru/net/aspose.imaging.masking/imaskingsession/
+---
+## IMaskingSession interface
+
+Маскирующий сеанс
+
+```csharp
+public interface IMaskingSession : IDisposable
+```
+
+## Методы
+
+| Имя | Описание |
+| --- | --- |
+| [Decompose](../../aspose.imaging.masking/imaskingsession/decompose)() | Выполняет первую операцию грубой декомпозиции |
+| [DecomposeAsync](../../aspose.imaging.masking/imaskingsession/decomposeasync)() | Создает асинхронную задачу, которая может выполнить первую операцию грубой декомпозиции |
+| [ImproveDecomposition](../../aspose.imaging.masking/imaskingsession/improvedecomposition)(IMaskingArgs) | Выполняет повторную операцию декомпозиции |
+| [ImproveDecompositionAsync](../../aspose.imaging.masking/imaskingsession/improvedecompositionasync)(IMaskingArgs) | Создает асинхронную задачу, которая может выполнять операцию повторного обучения декомпозиции |
+| [Save](../../aspose.imaging.masking/imaskingsession/save#save)(Stream) | Сохранить состояние сеанса в указанный поток. |
+| [Save](../../aspose.imaging.masking/imaskingsession/save#save_1)(string) | Сохраняет состояние сеанса в указанный файл. |
+
+### Примеры
+
+Сохранение сеанса маскирования в файл для длительных сеансов, а также для возможности возобновления сеанса в другом окружении.
+
+```csharp
+[C#]
+
+string dir = "c:\\temp\\";
+string sessionBackupFile = dir + "session.bak";
+
+ // Маскировка экспорта options
+Aspose.Imaging.ImageOptions.PngOptions exportOptions = new Aspose.Imaging.ImageOptions.PngOptions();
+exportOptions.ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
+exportOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream());
+
+Aspose.Imaging.Masking.Options.MaskingOptions maskingOptions = new Aspose.Imaging.Masking.Options.MaskingOptions();
+    
+// Использовать кластеризацию GraphCut.
+maskingOptions.Method = Masking.Options.SegmentationMethod.GraphCut;
+maskingOptions.Decompose = false;
+maskingOptions.Args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
+
+ // Цвет фона будет оранжевый.
+maskingOptions.BackgroundReplacementColor = Aspose.Imaging.Color.Orange;
+maskingOptions.ExportOptions = exportOptions;
+
+ // Запуск сеанса в первый раз и сохранение в файл
+using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "Gorilla.bmp"))
+{
+     // Создаем экземпляр класса ImageMasking.
+    Aspose.Imaging.Masking.ImageMasking masking = new Aspose.Imaging.Masking.ImageMasking(image);
+
+    using (Aspose.Imaging.Masking.IMaskingSession session = masking.CreateSession(maskingOptions))
+    {
+        using (Aspose.Imaging.Masking.Result.MaskingResult maskingResult = session.Decompose())
+        {
+            using (Aspose.Imaging.RasterImage segmentImage = maskingResult[1].GetImage())
+            {
+                segmentImage.Save(dir + "step1.png");
+            }
+        }
+
+        session.Save(sessionBackupFile);
+    }
+}
+
+ // Возобновление сеанса маскирования из файла file
+using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "Gorilla.bmp"))
+{
+     // Создаем экземпляр класса ImageMasking.
+    Aspose.Imaging.Masking.ImageMasking masking = new Aspose.Imaging.Masking.ImageMasking(image);
+
+    using (Aspose.Imaging.Masking.IMaskingSession session = masking.LoadSession(sessionBackupFile))
+    {
+        Aspose.Imaging.Masking.Options.AutoMaskingArgs args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
+
+         // Визуально анализируем изображение и устанавливаем точки, которые принадлежат разделенным объектам.
+        args.ObjectsPoints = new Point[][]
+                                     {
+                                         new Point[]
+                                             {
+                                                 new Point(0, 0), new Point(0, 1), new Point(1, 0),
+                                                 new Point(1, 1), new Point(2, 0), new Point(2, 1),
+                                                 new Point(3, 0), new Point(3, 1)
+                                             },
+                                     };
+        using (Aspose.Imaging.Masking.Result.MaskingResult maskingResult = session.ImproveDecomposition(args))
+        {
+            // Явная передача опций экспорта, так как это не serializable
+            maskingResult.MaskingOptions.ExportOptions = exportOptions;
+
+            using (Aspose.Imaging.RasterImage segmentImage = maskingResult[1].GetImage())
+            {
+                segmentImage.Save(dir + "step2.png");
+            }
+        }
+    }
+}
+```
+
+### Смотрите также
+
+* пространство имен [Aspose.Imaging.Masking](../../aspose.imaging.masking)
+* сборка [Aspose.Imaging](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->

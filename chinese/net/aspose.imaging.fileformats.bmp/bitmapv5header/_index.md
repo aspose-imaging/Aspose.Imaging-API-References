@@ -1,0 +1,53 @@
+---
+title: BitmapV5Header
+second_title: Aspose.Imaging for .NET API 参考
+description: BitmapV5Header结构是位图信息头文件它是 BITMAPINFOHEADER 结构的扩展版本  如果 bV5Height 为负数表示自上而下的 DIBbV5Compression 必须为 BI_RGB 或 BI_BITFIELDS自上而下的 DIB 不能被压缩 独立色彩管理接口 ICM 2.0 允许将国际色彩联盟 ICC 颜色配置文件链接或嵌入到 DIB DIB 中 请参阅使用结构了解更多信息当 DIB 加载到内存中时配置文件数据如果存在应该遵循颜色表 并且 bV5ProfileData 应该提供配置文件数据从 BITMAPV5HEADER 结构开头的偏移量 存储在 bV5ProfileData 中的值将与给定 BITMAPV5HEADER 参数的 sizeof 运算符返回的值不同 因为 bV5ProfileData 是从 BITMAPV5HEADER 结构的开头到配置文件数据的开始 位图位不遵循内存中的颜色表应用程序应在将 DIB 加载到内存后修改 bV5ProfileData 成员 对于打包的 DIB配置文件数据应遵循类似于文件格式的位图位 bV5ProfileData 成员仍应给出配置文件数据与 BITMAPV5HEADER 开头的偏移量 只有当 bV5Size 等于 BITMAPV5HEADER 的大小并且 bV5CSType 等于 PROFILE_EMBEDDED 或 PROFILE_LINKED 时应用程序才应该访问配置文件数据
+type: docs
+weight: 1370
+url: /zh/net/aspose.imaging.fileformats.bmp/bitmapv5header/
+---
+## BitmapV5Header class
+
+BitmapV5Header结构是位图信息头文件。它是 BITMAPINFOHEADER 结构的扩展版本。  如果 bV5Height 为负数，表示自上而下的 DIB，bV5Compression 必须为 BI_RGB 或 BI_BITFIELDS。自上而下的 DIB 不能被压缩。 独立色彩管理接口 (ICM) 2.0 允许将国际色彩联盟 (ICC) 颜色配置文件链接或嵌入到 DIB (DIB) 中。 请参阅使用结构了解更多信息。当 DIB 加载到内存中时，配置文件数据（如果存在）应该遵循颜色表 并且 bV5ProfileData 应该提供配置文件数据从 BITMAPV5HEADER 结构开头的偏移量。 存储在 bV5ProfileData 中的值将与给定 BITMAPV5HEADER 参数的 sizeof 运算符返回的值不同， 因为 bV5ProfileData 是从 BITMAPV5HEADER 结构的开头到配置文件数据的开始。 （位图位不遵循内存中的颜色表）。应用程序应在将 DIB 加载到内存后修改 bV5ProfileData 成员。 对于打包的 DIB，配置文件数据应遵循类似于文件格式的位图位。 bV5ProfileData 成员仍应给出配置文件数据与 BITMAPV5HEADER 开头的偏移量。 只有当 bV5Size 等于 BITMAPV5HEADER 的大小并且 bV5CSType 等于 PROFILE_EMBEDDED 或 PROFILE_LINKED 时，应用程序才应该访问配置文件数据。
+
+```csharp
+public class BitmapV5Header : BitmapV4Header
+```
+
+## 特性
+
+| 姓名 | 描述 |
+| --- | --- |
+| [AlphaMask](../../aspose.imaging.fileformats.bmp/bitmapv4header/alphamask) { get; set; } | 获取或设置指定每个像素的 alpha 分量的颜色掩码。 |
+| [BitmapColorsImportant](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapcolorsimportant) { get; set; } | 获取或设置重要调色板颜色的数量。 |
+| [BitmapColorsUsed](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapcolorsused) { get; set; } | 获取或设置使用的调色板颜色数。 |
+| [BitmapCompression](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapcompression) { get; set; } | 获取或设置位图压缩。 |
+| [BitmapHeight](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapheight) { get; set; } | 获取或设置位图高度。 |
+| [BitmapImageSize](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapimagesize) { get; set; } | 获取或设置指定位图原始数据大小（以字节为单位）。 |
+| [BitmapPlanes](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapplanes) { get; set; } | 获取或设置平面数。 |
+| [BitmapWidth](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapwidth) { get; set; } | 获取或设置位图宽度。 |
+| [BitmapXPelsPerMeter](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapxpelspermeter) { get; set; } | 获取或设置水平像素分辨率。 |
+| [BitmapYPelsPerMeter](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapypelspermeter) { get; set; } | 获取或设置垂直像素分辨率。 |
+| [BitsPerPixel](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitsperpixel) { get; set; } | 获取或设置每像素位数的位数。 |
+| [BlueMask](../../aspose.imaging.fileformats.bmp/bitmapv4header/bluemask) { get; set; } | 获取或设置指定每个像素的蓝色分量的颜色掩码，仅当 bV4Compression 设置为 BI_BITFIELDS 时有效。 |
+| [CSType](../../aspose.imaging.fileformats.bmp/bitmapv4header/cstype) { get; set; } | 获取或设置 DIB 的色彩空间。 |
+| [Endpoints](../../aspose.imaging.fileformats.bmp/bitmapv4header/endpoints) { get; set; } | 获取或设置 CoordinatesTriple 类。 |
+| [ExtraBitMasks](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/extrabitmasks) { get; set; } | 获取或设置额外的位掩码。 仅在 DIB 标头是 BITMAPINFOHEADER 并且[`BitmapCompression`](../bitmapinfoheader/bitmapcompression)设置为F的情况下才存在:Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Bitfields(RGB) 或AlphaBitfields(RGBA)。 |
+| [GammaBlue](../../aspose.imaging.fileformats.bmp/bitmapv4header/gammablue) { get; set; } | 获取或设置伽马蓝。 |
+| [GammaGreen](../../aspose.imaging.fileformats.bmp/bitmapv4header/gammagreen) { get; set; } | 获取或设置伽马绿色。 |
+| [GammaRed](../../aspose.imaging.fileformats.bmp/bitmapv4header/gammared) { get; set; } | 获取或设置伽玛红。 |
+| [GreenMask](../../aspose.imaging.fileformats.bmp/bitmapv4header/greenmask) { get; set; } | 获取或设置指定每个像素的绿色分量的颜色掩码，仅当 bV4Compression 设置为 BI_BITFIELDS 时有效。 |
+| [HeaderSize](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/headersize) { get; set; } | 获取或设置此结构的大小（以字节为单位）。 |
+| [Intent](../../aspose.imaging.fileformats.bmp/bitmapv5header/intent) { get; set; } | 获取或设置位图的渲染意图。 |
+| [ProfileData](../../aspose.imaging.fileformats.bmp/bitmapv5header/profiledata) { get; set; } | 获取或设置配置文件数据。 |
+| [ProfileSize](../../aspose.imaging.fileformats.bmp/bitmapv5header/profilesize) { get; set; } | 获取或设置配置文件的大小。 |
+| [RedMask](../../aspose.imaging.fileformats.bmp/bitmapv4header/redmask) { get; set; } | 获取或设置指定每个像素的红色分量的颜色掩码，仅当 bV4Compression 设置为 BI_BITFIELDS 时有效。 |
+| [Reserved](../../aspose.imaging.fileformats.bmp/bitmapv5header/reserved) { get; set; } | 获取或设置保留成员。 |
+
+### 也可以看看
+
+* class [BitmapV4Header](../bitmapv4header)
+* 命名空间 [Aspose.Imaging.FileFormats.Bmp](../../aspose.imaging.fileformats.bmp)
+* 部件 [Aspose.Imaging](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
