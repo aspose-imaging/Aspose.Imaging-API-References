@@ -2,6 +2,7 @@
 title: Aspose.Imaging Product Family
 additionalTitle: Aspose API References
 type: docs
+description: "Develop image converter and document image processing self-hosted or cloud apps with Aspose.Imaging easy-to-use APIs. Aspose.Imaging is available for .NET, Java, and other platforms."
 weight: 10
 url: /
 ---
