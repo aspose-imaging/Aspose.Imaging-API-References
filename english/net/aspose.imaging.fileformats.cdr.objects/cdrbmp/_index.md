@@ -27,7 +27,6 @@ public class CdrBmp : CdrDictionaryItem
 | [Bpp](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/bpp) { get; set; } | Gets or sets the BPP. |
 | [BytesPerLine](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/bytesperline) { get; set; } | Gets or sets the bytes per line. |
 | [ColorModel](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/colormodel) { get; set; } | Gets or sets the color model. |
-| [Data](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/data) { get; set; } | Gets or sets the data. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | Gets or sets the document. |
 | [Height](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/height) { get; set; } | Gets or sets the height. |

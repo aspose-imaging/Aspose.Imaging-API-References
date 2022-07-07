@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/cach
 Gets or sets the cached raster image.
 
 ```csharp
-public MemoryStream CachedImage { get; set; }
+public byte[] CachedImage { get; set; }
 ```
 
 ### Property Value

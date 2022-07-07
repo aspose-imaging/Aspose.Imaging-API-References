@@ -3,7 +3,7 @@ title: ComplexTypeBase
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11570
+weight: 11560
 url: /net/aspose.imaging.xmp.types.complex/complextypebase/
 ---
 ## ComplexTypeBase class

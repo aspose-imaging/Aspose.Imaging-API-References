@@ -3,7 +3,7 @@ title: PixelDataFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10730
+weight: 10720
 url: /net/aspose.imaging/pixeldataformat/
 ---
 ## PixelDataFormat class

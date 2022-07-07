@@ -3,7 +3,7 @@ title: ColorantCmyk
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11540
+weight: 11530
 url: /net/aspose.imaging.xmp.types.complex.colorant/colorantcmyk/
 ---
 ## ColorantCmyk class

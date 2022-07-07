@@ -3,7 +3,7 @@ title: Width
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrpattern/width/
 ---
 ## CdrPattern.Width property

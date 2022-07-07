@@ -3,7 +3,7 @@ title: XmpDynamicMediaPackage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11430
+weight: 11420
 url: /net/aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/
 ---
 ## XmpDynamicMediaPackage class

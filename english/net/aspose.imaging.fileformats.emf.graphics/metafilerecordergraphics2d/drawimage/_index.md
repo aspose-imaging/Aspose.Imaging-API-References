@@ -6,7 +6,7 @@ type: docs
 weight: 80
 url: /net/aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/drawimage/
 ---
-## MetafileRecorderGraphics2D.DrawImage method (1 of 3)
+## MetafileRecorderGraphics2D.DrawImage method (1 of 4)
 
 Draws the specified Image, using its original physical size, at the specified location.
 
@@ -29,7 +29,7 @@ public void DrawImage(RasterImage image, Point location)
 
 ---
 
-## MetafileRecorderGraphics2D.DrawImage method (2 of 3)
+## MetafileRecorderGraphics2D.DrawImage method (2 of 4)
 
 Draws the specified portion of the specified Image at the specified location and with the specified size.
 
@@ -287,7 +287,7 @@ using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = graphics.EndRecording(
 
 ---
 
-## MetafileRecorderGraphics2D.DrawImage method (3 of 3)
+## MetafileRecorderGraphics2D.DrawImage method (3 of 4)
 
 Draws the image.
 
@@ -298,6 +298,30 @@ public void DrawImage(byte[] imageBytes, Rectangle destRect, GraphicsUnit srcUni
 | Parameter | Type | Description |
 | --- | --- | --- |
 | imageBytes | Byte[] | The image bytes. |
+| destRect | Rectangle | The dest rect. |
+| srcUnit | GraphicsUnit | The source unit. |
+
+### See Also
+
+* struct [Rectangle](../../../aspose.imaging/rectangle)
+* enum [GraphicsUnit](../../../aspose.imaging/graphicsunit)
+* class [MetafileRecorderGraphics2D](../../metafilerecordergraphics2d)
+* namespace [Aspose.Imaging.FileFormats.Emf.Graphics](../../metafilerecordergraphics2d)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## MetafileRecorderGraphics2D.DrawImage method (4 of 4)
+
+Draws the image.
+
+```csharp
+public void DrawImage(Stream stream, Rectangle destRect, GraphicsUnit srcUnit)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | Stream | The stream. |
 | destRect | Rectangle | The dest rect. |
 | srcUnit | GraphicsUnit | The source unit. |
 

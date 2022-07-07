@@ -23,7 +23,6 @@ The namespace contains classes suitable for export, save or creation of differen
 | [EmfRasterizationOptions](./emfrasterizationoptions) | The Emf rasterization options. |
 | [EpsRasterizationOptions](./epsrasterizationoptions) | The Eps rasterization options. |
 | [GifOptions](./gifoptions) | The gif file format creation options. |
-| [GraphicsOptions](./graphicsoptions) | Represents graphics options for embedded bitmap. |
 | [Html5CanvasOptions](./html5canvasoptions) | The Html5 Canvas file format creation options. |
 | [Jpeg2000Options](./jpeg2000options) | The Jpeg2000 file format options. |
 | [JpegOptions](./jpegoptions) | The jpeg file format create options. |
