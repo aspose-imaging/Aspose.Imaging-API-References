@@ -1,0 +1,137 @@
+---
+title: Resize
+second_title: Aspose.Imaging para la referencia de la API de .NET
+description: Cambia el tamaño de la imagen.
+type: docs
+weight: 330
+url: /es/net/aspose.imaging.fileformats.tiff/tiffimage/resize/
+---
+## Resize(int, int, ResizeType) {#resize_2}
+
+Cambia el tamaño de la imagen.
+
+```csharp
+public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
+```
+
+| Parámetro | Escribe | Descripción |
+| --- | --- | --- |
+| newWidth | Int32 | El nuevo ancho. |
+| newHeight | Int32 | La nueva altura. |
+| resizeType | ResizeType | El tipo de cambio de tamaño. |
+
+### Ejemplos
+
+Este ejemplo carga una imagen TIFF y la cambia de tamaño utilizando varios métodos de cambio de tamaño.
+
+```csharp
+[C#]
+
+string dir = "c:\\temp\\";
+
+using (Aspose.Imaging.FileFormats.Tiff.TiffImage image = (Aspose.Imaging.FileFormats.Tiff.TiffImage)Aspose.Imaging.Image.Load(dir + "sample.tif"))
+{
+    // Escale hasta 2 veces usando el remuestreo del vecino más cercano.
+    image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
+
+    // Guardar en PNG con las opciones predeterminadas.
+    image.Save(dir + "upsample.nearestneighbour.png", new Aspose.Imaging.ImageOptions.PngOptions());
+}
+
+using (Aspose.Imaging.FileFormats.Tiff.TiffImage image = (Aspose.Imaging.FileFormats.Tiff.TiffImage)Aspose.Imaging.Image.Load(dir + "sample.tif"))
+{
+    // Reduzca la escala 2 veces usando el remuestreo del vecino más cercano.
+    image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
+
+    // Guardar en PNG con las opciones predeterminadas.
+    image.Save(dir + "downsample.nearestneighbour.png", new Aspose.Imaging.ImageOptions.PngOptions());
+}
+
+using (Aspose.Imaging.FileFormats.Tiff.TiffImage image = (Aspose.Imaging.FileFormats.Tiff.TiffImage)Aspose.Imaging.Image.Load(dir + "sample.tif"))
+{
+    // Escale hasta 2 veces usando el remuestreo bilineal.
+    image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.BilinearResample);
+
+    // Guardar en PNG con las opciones predeterminadas.
+    image.Save(dir + "upsample.bilinear.png", new Aspose.Imaging.ImageOptions.PngOptions());
+}
+
+using (Aspose.Imaging.FileFormats.Tiff.TiffImage image = (Aspose.Imaging.FileFormats.Tiff.TiffImage)Aspose.Imaging.Image.Load(dir + "sample.tif"))
+{
+    // Reduzca la escala 2 veces usando el remuestreo bilineal.
+    image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.BilinearResample);
+
+    // Guardar en PNG con las opciones predeterminadas.
+    image.Save(dir + "downsample.bilinear.png", new Aspose.Imaging.ImageOptions.PngOptions());
+}
+```
+
+### Ver también
+
+* enum [ResizeType](../../../aspose.imaging/resizetype)
+* class [TiffImage](../../tiffimage)
+* espacio de nombres [Aspose.Imaging.FileFormats.Tiff](../../tiffimage)
+* asamblea [Aspose.Imaging](../../../)
+
+---
+
+## Resize(int, int, ImageResizeSettings) {#resize_1}
+
+Cambia el tamaño de la imagen.
+
+```csharp
+public override void Resize(int newWidth, int newHeight, ImageResizeSettings settings)
+```
+
+| Parámetro | Escribe | Descripción |
+| --- | --- | --- |
+| newWidth | Int32 | El nuevo ancho. |
+| newHeight | Int32 | La nueva altura. |
+| settings | ImageResizeSettings | La configuración de cambio de tamaño. |
+
+### Ejemplos
+
+Este ejemplo carga una imagen TIFF y la cambia de tamaño usando varias configuraciones de cambio de tamaño.
+
+```csharp
+[C#]
+
+string dir = "c:\\temp\\";
+
+Aspose.Imaging.ImageResizeSettings resizeSettings = new Aspose.Imaging.ImageResizeSettings();
+
+// El algoritmo adaptativo basado en función racional ponderada y combinada e interpolación lanczos3.
+resizeSettings.Mode = Aspose.Imaging.ResizeType.AdaptiveResample;
+
+// El pequeño filtro rectangular
+resizeSettings.FilterType = Aspose.Imaging.ImageFilterType.SmallRectangular;
+
+// El número de colores en la paleta.
+resizeSettings.EntriesCount = 256;
+
+// No se utiliza la cuantización de color
+resizeSettings.ColorQuantizationMethod = ColorQuantizationMethod.None;
+
+// El método euclidiano
+resizeSettings.ColorCompareMethod = ColorCompareMethod.Euclidian;
+
+using (Aspose.Imaging.Image image = (Aspose.Imaging.Image)Aspose.Imaging.Image.Load(dir + "sample.tif"))
+{
+    Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)image;
+
+    // Reduzca la escala 2 veces usando el remuestreo adaptativo.
+    tiffImage.Resize(image.Width / 2, image.Height / 2, resizeSettings);
+
+    // Guardar en PNG
+    tiffImage.Save(dir + "downsample.adaptive.png", new Aspose.Imaging.ImageOptions.PngOptions());
+}
+```
+
+### Ver también
+
+* class [ImageResizeSettings](../../../aspose.imaging/imageresizesettings)
+* class [TiffImage](../../tiffimage)
+* espacio de nombres [Aspose.Imaging.FileFormats.Tiff](../../tiffimage)
+* asamblea [Aspose.Imaging](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
