@@ -18,14 +18,14 @@ public sealed class EmfSetStrechBltMode : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetStrechBltMode](emfsetstrechbltmode)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetStrechBltMode`](../emfsetstrechbltmode). |
+| [EmfSetStrechBltMode](emfsetstrechbltmode)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetStrechBltMode`](../emfsetstrechbltmode) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
-| [StretchMode](../../aspose.imaging.fileformats.emf.emf.records/emfsetstrechbltmode/stretchmode) { get; set; } | Получает или задает 32-битное целое число без знака, определяющее режим растяжения и МОЖЕТ быть в перечислении StretchMode. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
+| [StretchMode](../../aspose.imaging.fileformats.emf.emf.records/emfsetstrechbltmode/stretchmode) { get; set; } | Получает или задает 32-битное целое число без знака, которое определяет режим растяжения и МОЖЕТ быть в перечислении StretchMode. |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

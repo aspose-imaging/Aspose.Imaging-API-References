@@ -1,14 +1,14 @@
 ---
 title: StreamSource
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化StreamSourceaspose.imaging.sources/streamsource类的新实例
+description: 初始化StreamSourceaspose.imaging.sources/streamsource类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.sources/streamsource/streamsource/
 ---
 ## StreamSource(Stream) {#constructor}
 
-初始化[`StreamSource`](../../streamsource)类的新实例。
+初始化[`StreamSource`](../../streamsource)类.
 
 ```csharp
 public StreamSource(Stream stream)
@@ -25,46 +25,42 @@ public StreamSource(Stream stream)
 ```csharp
 [C#]
 
-    //创建一个MemoryStream
-的实例
+//创建一个MemoryStream实例
 using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
 {
-    //创建 GifOptions 实例并设置其各种属性，包括 Source 属性
+    //创建一个 GifOptions 实例并设置它的各种属性，包括 Source 属性
     Aspose.Imaging.ImageOptions.GifOptions gifOptions = new Aspose.Imaging.ImageOptions.GifOptions();
     gifOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream);
 
-        //创建Image
-的实例
+    //创建一个Image实例
     using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Create(gifOptions, 500, 500))
     {
-        //通过指定区域为图像边界
-获取图像的像素
+        //通过指定区域为图像边界来获取图像的像素
         Aspose.Imaging.Color[] pixels = image.LoadPixels(image.Bounds);
 
-        //遍历数组并设置alrenative索引pixel
-的颜色
+        //遍历数组并设置alrenative索引像素的颜色
         for (int index = 0; index < pixels.Length; index++)
         {
             if (index % 2 == 0)
             {
-                //设置索引像素颜色为yellow
+                //设置索引像素颜色为黄色
                 pixels[index] = Aspose.Imaging.Color.Yellow;
             }
             else
             {
-                //设置索引像素颜色为blue
+                //设置索引像素颜色为蓝色
                 pixels[index] = Aspose.Imaging.Color.Blue;
             }
         }
 
-            //将像素变化应用到image
+        //将像素变化应用到图像
         image.SavePixels(image.Bounds, pixels);
 
         // 保存所有更改。
         image.Save();
     }
 
-        // 将 MemoryStream 写入 File
+    // 将 MemoryStream 写入文件
     using (System.IO.FileStream fileStream = new System.IO.FileStream(@"C:\temp\output.gif", System.IO.FileMode.Create))
     {
         stream.WriteTo(fileStream);
@@ -82,7 +78,7 @@ using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
 
 ## StreamSource(Stream, bool) {#constructor_1}
 
-初始化[`StreamSource`](../../streamsource)类的新实例。
+初始化[`StreamSource`](../../streamsource)类.
 
 ```csharp
 public StreamSource(Stream stream, bool disposeStream)
@@ -91,31 +87,29 @@ public StreamSource(Stream stream, bool disposeStream)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 要打开的流。 |
-| disposeStream | Boolean | 如果设置为` true` 流将被处理。 |
+| disposeStream | Boolean | 如果设置为`真的`流将被处理。 |
 
 ### 例子
 
-这个例子演示了使用 System.IO.Stream 创建一个新的图像文件（JPEG 类型）
+这个例子演示了使用 System.IO.Stream 创建一个新的 Image 文件（JPEG 类型）
 
 ```csharp
 [C#]
 
-//创建一个JpegOptions实例并设置它的各种属性
+//创建一个 JpegOptions 实例并设置它的各种属性
 Aspose.Imaging.ImageOptions.JpegOptions jpegOptions = new Aspose.Imaging.ImageOptions.JpegOptions();
 
-    //创建System.IO.Stream
-的实例
+//创建System.IO.Stream的实例
 System.IO.Stream stream = new System.IO.FileStream(@"C:\temp\sample.jpeg", System.IO.FileMode.Create);
 
-//定义JpegOptions
-实例的源属性
+//定义JpegOptions实例的源属性
 //第二个布尔参数确定Stream一旦超出范围就被释放
 jpegOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream, true);
 
-    //创建一个Image实例，调用Create方法以JpegOptions为参数初始化Image对象
+//创建一个Image实例，调用Create方法以JpegOptions为参数初始化Image对象   
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(jpegOptions, 500, 500))
 {
-        //做一些图像处理
+    //做一些图像处理
 }
 ```
 

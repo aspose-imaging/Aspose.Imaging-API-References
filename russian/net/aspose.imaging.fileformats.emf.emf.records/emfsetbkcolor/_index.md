@@ -18,15 +18,15 @@ public sealed class EmfSetBkColor : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetBkColor](emfsetbkcolor#constructor)() | Инициализирует новый экземпляр класса[`EmfSetBkColor`](../emfsetbkcolor). |
-| [EmfSetBkColor](emfsetbkcolor#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetBkColor`](../emfsetbkcolor). |
+| [EmfSetBkColor](emfsetbkcolor#constructor)() | Инициализирует новый экземпляр[`EmfSetBkColor`](../emfsetbkcolor) класс. |
+| [EmfSetBkColor](emfsetbkcolor#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetBkColor`](../emfsetbkcolor) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Argb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfsetbkcolor/argb32color) { get; set; } | Получает или задает 32-битный объект WMF ColorRef, указанный в разделе 2.2.2.8 [MS-WMF], который определяет цвет фона ценность. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Argb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfsetbkcolor/argb32color) { get; set; } | Получает или задает 32-битный объект WMF ColorRef, указанный в разделе 2.2.2.8 [MS-WMF], который определяет значение цвета фона. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

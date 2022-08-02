@@ -20,7 +20,7 @@ public double ReadDouble(long position)
 
 ### 返回值
 
-单个双精度值。
+单双精度值。
 
 ### 也可以看看
 

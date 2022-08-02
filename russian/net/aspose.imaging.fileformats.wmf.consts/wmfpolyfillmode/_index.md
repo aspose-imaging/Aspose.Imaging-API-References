@@ -1,14 +1,14 @@
 ---
 title: WmfPolyFillMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Перечисление PolyFillMode указывает метод используемый для заполнения полигона .
+description: Перечисление PolyFillMode указывает метод используемый для заливки полигона a .
 type: docs
 weight: 8290
 url: /ru/net/aspose.imaging.fileformats.wmf.consts/wmfpolyfillmode/
 ---
 ## WmfPolyFillMode enumeration
 
-Перечисление PolyFillMode указывает метод, используемый для заполнения полигона .
+Перечисление PolyFillMode указывает метод, используемый для заливки полигона a .
 
 ```csharp
 public enum WmfPolyFillMode : short

@@ -1,14 +1,14 @@
 ---
 title: GetFullFrame
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取完整帧
+description: 获取全帧
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging/ianimationframe/getfullframe/
 ---
 ## IAnimationFrame.GetFullFrame method
 
-获取完整帧。
+获取全帧。
 
 ```csharp
 public RasterImage GetFullFrame()
@@ -16,7 +16,7 @@ public RasterImage GetFullFrame()
 
 ### 返回值
 
-全帧光栅图像
+全帧的 RasterImage
 
 ### 也可以看看
 

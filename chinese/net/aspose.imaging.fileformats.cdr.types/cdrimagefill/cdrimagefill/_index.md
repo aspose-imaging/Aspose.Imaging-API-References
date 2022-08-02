@@ -1,14 +1,14 @@
 ---
 title: CdrImageFill
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化CdrImageFillaspose.imaging.fileformats.cdr.types/cdrimagefill类的新实例
+description: 初始化CdrImageFillaspose.imaging.fileformats.cdr.types/cdrimagefill类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.cdr.types/cdrimagefill/cdrimagefill/
 ---
 ## CdrImageFill constructor
 
-初始化[`CdrImageFill`](../../cdrimagefill)类的新实例。
+初始化[`CdrImageFill`](../../cdrimagefill)类.
 
 ```csharp
 public CdrImageFill(int id, double width, double height, bool isRelative, double xOffset, 
@@ -20,11 +20,11 @@ public CdrImageFill(int id, double width, double height, bool isRelative, double
 | id | Int32 | 标识符。 |
 | width | Double | 宽度。 |
 | height | Double | 高度。 |
-| isRelative | Boolean | 如果设置为` true` [是相对的]。 |
+| isRelative | Boolean | 如果设置为`真的` [是相对的]。 |
 | xOffset | Double | x 偏移量。 |
 | yOffset | Double | y 偏移量。 |
 | rpcOffset | Double | RPC 偏移量。 |
-| flags | Byte | 标志。 |
+| flags | Byte | 旗帜。 |
 
 ### 也可以看看
 

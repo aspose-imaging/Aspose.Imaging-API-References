@@ -1,14 +1,14 @@
 ---
 title: ConvertTextBeziers
 second_title: Aspose.Imaging for .NET API 参考
-description: 在设置为时工作 真 . 是否将文本轮廓中的贝塞尔曲线转换为多点折线
+description: 工作时被设定为真的.是否将文本轮廓中的贝塞尔曲线转换为多点折线
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.imageoptions/dxfoptions/converttextbeziers/
 ---
 ## DxfOptions.ConvertTextBeziers property
 
-在设置为`时工作 真` . 是否将文本轮廓中的贝塞尔曲线转换为多点折线。
+工作时被设定为`真的`.是否将文本轮廓中的贝塞尔曲线转换为多点折线。
 
 ```csharp
 public bool ConvertTextBeziers { get; set; }
@@ -16,7 +16,7 @@ public bool ConvertTextBeziers { get; set; }
 
 ### 适当的价值
 
-` 真` 导出为多点折线，点数由控制。` 假` 将文本轮廓中的每个贝塞尔曲线导出为 4 点 /// 折线。
+`真的`导出为多点折线，点数由.`错误的`将文本轮廓中的每个贝塞尔曲线导出为 4 点 /// polyline.
 
 ### 也可以看看
 

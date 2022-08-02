@@ -1,14 +1,14 @@
 ---
 title: EmfWidenPath
 second_title: Aspose.Imaging for .NET API 参考
-description: 该记录将当前路径重新定义为如果路径 是使用当前在播放设备上下文中选择的笔绘制的则该区域将被绘制.
+description: 此记录将当前路径重新定义为如果 path 是使用当前选择到播放设备上下文中的笔绘制的区域
 type: docs
 weight: 4660
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfwidenpath/
 ---
 ## EmfWidenPath class
 
-该记录将当前路径重新定义为如果路径 是使用当前在播放设备上下文中选择的笔绘制的，则该区域将被绘制.
+此记录将当前路径重新定义为如果 path 是使用当前选择到播放设备上下文中的笔绘制的区域。
 
 ```csharp
 public sealed class EmfWidenPath : EmfPathBracketRecordType

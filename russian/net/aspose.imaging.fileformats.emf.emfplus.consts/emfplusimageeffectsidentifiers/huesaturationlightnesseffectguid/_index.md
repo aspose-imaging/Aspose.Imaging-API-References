@@ -1,14 +1,14 @@
 ---
 title: HueSaturationLightnessEffectGuid
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Определяет эффект легкости насыщенности оттенка.
+description: Определяет эффект яркости насыщенности оттенка.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/huesaturationlightnesseffectguid/
 ---
 ## EmfPlusImageEffectsIdentifiers.HueSaturationLightnessEffectGuid field
 
-Определяет эффект легкости насыщенности оттенка.
+Определяет эффект яркости насыщенности оттенка.
 
 ```csharp
 public const string HueSaturationLightnessEffectGuid;

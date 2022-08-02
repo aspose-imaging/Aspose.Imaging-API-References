@@ -24,18 +24,18 @@ public class CmxRectangleSpec : ICmxObjectSpec
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Angle](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/angle) { get; set; } | 获取或设置矩形的旋转角度。 以弧度为单位测量。 |
-| [CenterX](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/centerx) { get; set; } | 获取或设置矩形中心的 X 坐标。 以通用文档距离单位测量。 |
-| [CenterY](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/centery) { get; set; } | 获取或设置矩形中心的 Y 坐标。 以通用文档距离单位测量。 |
-| [Height](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/height) { get; set; } | 获取或设置矩形的高度。 以通用文档距离单位测量。 |
-| [Radius](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/radius) { get; set; } | 获取或设置圆角矩形角的半径。 如果其值为` 0` 则矩形没有圆角。 以通用文档距离单位测量。 |
-| [Width](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/width) { get; set; } | 获取或设置矩形的宽度。 以通用文档距离单位测量。 |
+| [Angle](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/angle) { get; set; } | 获取或设置矩形的旋转角度。 以弧度为单位。 |
+| [CenterX](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/centerx) { get; set; } | 获取或设置矩形中心的 X 坐标。 以常用文档距离单位测量。 |
+| [CenterY](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/centery) { get; set; } | 获取或设置矩形中心的 Y 坐标。 以常用文档距离单位测量。 |
+| [Height](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/height) { get; set; } | 获取或设置矩形的高度。 以常用文档距离单位测量。 |
+| [Radius](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/radius) { get; set; } | 获取或设置圆角矩形角的半径。 如果其值为`0`那么矩形没有圆角。 以常用文档距离单位测量。 |
+| [Width](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/width) { get; set; } | 获取或设置矩形的宽度。 以常用文档距离单位测量。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/tostring)() | 返回代表此实例的String。 |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/tostring)() | 返回一个String代表这个实例。 |
 
 ### 也可以看看
 

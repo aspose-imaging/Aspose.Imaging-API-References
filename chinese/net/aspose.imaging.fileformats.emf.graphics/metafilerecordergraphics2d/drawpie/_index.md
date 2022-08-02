@@ -16,10 +16,10 @@ public void DrawPie(Pen pen, Rectangle rect, float startAngle, float sweepAngle)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pen | Pen | 确定图形颜色、宽度和样式的笔。 |
+| pen | Pen | 确定图形颜色、宽度和样式的钢笔。 |
 | rect | Rectangle | 椭圆的边界。 |
-| startAngle | Single | 从 x 轴到圆弧起点顺时针测量的角度。 |
-| sweepAngle | Single | 从 startAngle 参数到圆弧终点顺时针测量的角度。 |
+| startAngle | Single | 从 x 轴到圆弧起点顺时针测量的角度（以度为单位）。 |
+| sweepAngle | Single | 从 startAngle 参数到圆弧终点顺时针测量的角度（以度为单位）。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Fill
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее является ли этоOdEndPathaspose.imaging.fileformats.opendocument.objects.graphic/odendpathзаполненным.
+description: Получает или задает значение указывающее является ли этоOdEndPathaspose.imaging.fileformats.opendocument.objects.graphic/odendpath заполняется.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odendpath/fill/
 ---
 ## OdEndPath.Fill property
 
-Получает или задает значение, указывающее, является ли это[`OdEndPath`](../../odendpath)заполненным.
+Получает или задает значение, указывающее, является ли это[`OdEndPath`](../../odendpath) заполняется.
 
 ```csharp
 public bool Fill { get; set; }
@@ -16,7 +16,7 @@ public bool Fill { get; set; }
 
 ### Стоимость имущества
 
-` true` если заполнить; в противном случае` false` .
+`истинный` если заполнить; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

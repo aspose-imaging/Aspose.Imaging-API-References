@@ -1,14 +1,14 @@
 ---
 title: Dib
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает dib.
+description: Получает или задает dib.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfsetdibtodev/dib/
 ---
 ## WmfSetDibToDev.Dib property
 
-Получает или устанавливает dib.
+Получает или задает dib.
 
 ```csharp
 public WmfDeviceIndependentBitmap Dib { get; set; }
@@ -16,7 +16,7 @@ public WmfDeviceIndependentBitmap Dib { get; set; }
 
 ### Стоимость имущества
 
-координата y, в логических единицах, левого верхнего угла прямоугольник назначения.
+Координата y в логических единицах левого верхнего угла прямоугольника назначения .
 
 ### Смотрите также
 

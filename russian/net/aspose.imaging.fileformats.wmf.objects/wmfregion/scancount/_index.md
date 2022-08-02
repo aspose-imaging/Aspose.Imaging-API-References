@@ -1,14 +1,14 @@
 ---
 title: ScanCount
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает счетчик сканирования.
+description: Получает или задает количество сканирований.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfregion/scancount/
 ---
 ## WmfRegion.ScanCount property
 
-Получает или задает счетчик сканирования.
+Получает или задает количество сканирований.
 
 ```csharp
 public short ScanCount { get; set; }

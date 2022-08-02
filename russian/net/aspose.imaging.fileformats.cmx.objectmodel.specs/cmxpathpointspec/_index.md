@@ -27,14 +27,14 @@ public class CmxPathPointSpec
 | [BezierOrder](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/bezierorder) { get; set; } | Получает или задает порядок Безье. |
 | [IsClosedPath](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/isclosedpath) { get; set; } | Получает или задает значение, указывающее, замыкает ли эта точка свой путь. |
 | [JumpType](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/jumptype) { get; set; } | Получает или задает тип прыжка. |
-| [X](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/x) { get; set; } | Получает или задает координату X точки. Меры в общепринятых единицах расстояния документа. |
-| [Y](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/y) { get; set; } | Получает или задает координату Y точки. Меры в общепринятых единицах расстояния документа. |
+| [X](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/x) { get; set; } | Получает или задает координату X точки. Измеряет в общепринятых единицах измерения расстояния документа. |
+| [Y](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/y) { get; set; } | Получает или задает координату Y точки. Измеряет в общепринятых единицах измерения расстояния документа. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 
 ### Смотрите также
 

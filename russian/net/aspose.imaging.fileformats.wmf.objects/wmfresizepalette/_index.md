@@ -1,14 +1,14 @@
 ---
 title: WmfResizePalette
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_RESIZEPALETTE переопределяет размер логической палитры  которая определена в контексте устройства воспроизведения.
+description: Запись META_RESIZEPALETTE переопределяет размер логической палитры  определенной в контексте устройства воспроизведения.
 type: docs
 weight: 8940
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfresizepalette/
 ---
 ## WmfResizePalette class
 
-Запись META_RESIZEPALETTE переопределяет размер логической палитры , которая определена в контексте устройства воспроизведения.
+Запись META_RESIZEPALETTE переопределяет размер логической палитры , определенной в контексте устройства воспроизведения.
 
 ```csharp
 public class WmfResizePalette : WmfObject

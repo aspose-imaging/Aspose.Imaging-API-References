@@ -8,7 +8,7 @@ url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetclipregion
 ---
 ## EmfPlusSetClipRegion.Cm property
 
-获取或设置CM（4位）:指定合并两个区域的逻辑操作。有关值的含义，请参见 CombineMode 枚举（第 2.1.1.4 节）。
+获取或设置CM（4位）：指定合并两个区域的逻辑操作。有关值的含义，请参见 CombineMode 枚举（第 2.1.1.4 节）。
 
 ```csharp
 public EmfPlusCombineMode Cm { get; set; }
@@ -16,7 +16,7 @@ public EmfPlusCombineMode Cm { get; set; }
 
 ### 适当的价值
 
-厘米。
+cm.
 
 ### 也可以看看
 

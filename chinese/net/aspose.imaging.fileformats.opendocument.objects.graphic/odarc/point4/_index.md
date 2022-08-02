@@ -1,14 +1,14 @@
 ---
 title: Point4
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置point4
+description: 获取或设置point4.
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odarc/point4/
 ---
 ## OdArc.Point4 property
 
-获取或设置point4。
+获取或设置point4.
 
 ```csharp
 public PointF Point4 { get; set; }
@@ -16,7 +16,7 @@ public PointF Point4 { get; set; }
 
 ### 适当的价值
 
-点4。
+点4.
 
 ### 也可以看看
 

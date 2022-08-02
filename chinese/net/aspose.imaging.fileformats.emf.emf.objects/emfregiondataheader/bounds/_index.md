@@ -1,14 +1,14 @@
 ---
 title: Bounds
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 128 位 WMF RectL 对象MS-WMF 第 2.2.2.19 节它指定 的边界地区
+description: 获取或设置一个 128 位 WMF RectL 对象MS-WMF 第 2.2.2.19 节它指定 区域的边界
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/bounds/
 ---
 ## EmfRegionDataHeader.Bounds property
 
-获取或设置一个 128 位 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），它指定 的边界地区。
+获取或设置一个 128 位 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），它指定 区域的边界。
 
 ```csharp
 public Rectangle Bounds { get; set; }

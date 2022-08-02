@@ -18,16 +18,16 @@ public sealed class EmfSetPixelV : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetPixelV](emfsetpixelv#constructor)() | Инициализирует новый экземпляр класса[`EmfSetPixelV`](../emfsetpixelv). |
-| [EmfSetPixelV](emfsetpixelv#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetPixelV`](../emfsetpixelv). |
+| [EmfSetPixelV](emfsetpixelv#constructor)() | Инициализирует новый экземпляр[`EmfSetPixelV`](../emfsetpixelv) класс. |
+| [EmfSetPixelV](emfsetpixelv#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetPixelV`](../emfsetpixelv) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Argb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfsetpixelv/argb32color) { get; set; } | Получает или задает 32-разрядный объект ColorRef WMF (раздел 2.2.2.8 [MS-WMF]), определяющий цвет пикселя. |
-| [Pixel](../../aspose.imaging.fileformats.emf.emf.records/emfsetpixelv/pixel) { get; set; } | Получает или задает 64-битный объект WMF PointL ([MS-WMF], раздел 2.2.2.15), который указывает логические координаты для пиксель. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Argb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfsetpixelv/argb32color) { get; set; } | Получает или задает 32-битный объект WMF ColorRef ([MS-WMF], раздел 2.2.2.8), который определяет цвет пикселя. |
+| [Pixel](../../aspose.imaging.fileformats.emf.emf.records/emfsetpixelv/pixel) { get; set; } | Получает или задает 64-битный объект WMF PointL ([MS-WMF], раздел 2.2.2.15), который определяет логические координаты для пикселя. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

@@ -17,7 +17,7 @@ public void FillIndexedtoIndexedMap(byte[] map, PixelDataFormat sourceFormat,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| map | Byte[] | Карта преобразования. |
+| map | Byte[] | Карта конверсии. |
 | sourceFormat | PixelDataFormat | Исходный формат. |
 | destFormat | PixelDataFormat | Формат назначения. |
 

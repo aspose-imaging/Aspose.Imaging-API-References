@@ -18,16 +18,16 @@ public sealed class EmfGlsBoundedRecord : EmfOpenGlRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfGlsBoundedRecord](emfglsboundedrecord)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfGlsBoundedRecord`](../emfglsboundedrecord). |
+| [EmfGlsBoundedRecord](emfglsboundedrecord)(EmfRecord) | Инициализирует новый экземпляр[`EmfGlsBoundedRecord`](../emfglsboundedrecord) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord/bounds) { get; set; } | Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19), определяющий ограничивающий прямоугольник в единицах устройства, для вывода, созданного при выполнении функции OpenGL. |
-| [CbData](../../aspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord/cbdata) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер поля данных в байтах. Если это значение равно нулю, к этой записи не прикрепляются никакие данные. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord/bounds) { get; set; } | Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который определяет прямоугольник bounding в единицах устройства для вывода, создаваемого выполнением функции OpenGL. |
+| [CbData](../../aspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord/cbdata) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер в байтах поля данных. Если это значение равно нулю, к этой записи не прикрепляются никакие данные. |
 | [Data](../../aspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord/data) { get; set; } | Получает или задает необязательный массив байтов длины cbData, указывающий данные для функции OpenGL. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

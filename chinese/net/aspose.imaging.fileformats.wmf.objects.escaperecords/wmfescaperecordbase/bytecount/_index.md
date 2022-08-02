@@ -16,7 +16,7 @@ public int ByteCount { get; set; }
 
 ### 适当的价值
 
-一个 16 位无符号整数，指定后面的记录数据的大小（以字节为单位） . 这个值必须是 34 加上 EnhancedMetafileDataSize 字段的值。
+一个 16 位无符号整数，指定后面的记录数据的大小（以字节为单位）。 这个值必须是 34 加上 EnhancedMetafileDataSize 字段的值。
 
 ### 也可以看看
 

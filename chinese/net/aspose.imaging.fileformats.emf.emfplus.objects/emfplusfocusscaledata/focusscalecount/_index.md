@@ -1,14 +1,14 @@
 ---
 title: FocusScaleCount
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数它指定焦点刻度的数量 这个值必须是 2
+description: 获取或设置一个 32 位无符号整数它指定焦点刻度的数量 这个值必须是 2.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusfocusscaledata/focusscalecount/
 ---
 ## EmfPlusFocusScaleData.FocusScaleCount property
 
-获取或设置一个 32 位无符号整数，它指定焦点刻度的数量。 这个值必须是 2。
+获取或设置一个 32 位无符号整数，它指定焦点刻度的数量。 这个值必须是 2.
 
 ```csharp
 public int FocusScaleCount { get; set; }

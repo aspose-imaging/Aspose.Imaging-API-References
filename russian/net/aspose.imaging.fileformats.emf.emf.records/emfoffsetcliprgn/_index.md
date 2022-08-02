@@ -18,15 +18,15 @@ public sealed class EmfOffsetClipRgn : EmfClippingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfOffsetClipRgn](emfoffsetcliprgn#constructor)() | Инициализирует новый экземпляр класса[`EmfOffsetClipRgn`](../emfoffsetcliprgn). |
-| [EmfOffsetClipRgn](emfoffsetcliprgn#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfOffsetClipRgn`](../emfoffsetcliprgn). |
+| [EmfOffsetClipRgn](emfoffsetcliprgn#constructor)() | Инициализирует новый экземпляр[`EmfOffsetClipRgn`](../emfoffsetcliprgn) класс. |
+| [EmfOffsetClipRgn](emfoffsetcliprgn#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfOffsetClipRgn`](../emfoffsetcliprgn) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Offset](../../aspose.imaging.fileformats.emf.emf.records/emfoffsetcliprgn/offset) { get; set; } | Получает или задает объект WMF PointL ([MS-WMF], раздел 2.2.2.15), который определяет горизонтальные и вертикальные смещения в логических единицах. . |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Offset](../../aspose.imaging.fileformats.emf.emf.records/emfoffsetcliprgn/offset) { get; set; } | Получает или задает объект WMF PointL ([MS-WMF], раздел 2.2.2.15), который определяет горизонтальное и вертикальное смещения в логических единицах. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

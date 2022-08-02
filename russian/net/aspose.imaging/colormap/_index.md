@@ -1,14 +1,14 @@
 ---
 title: ColorMap
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Определяет карту для преобразования цветов. Несколько методов классаImageAttributes./imageattributesнастраивают цвета изображения с помощью таблицы переназначения цветов которая представляет собой массивColorMap./colormapструктуры. Не передается по наследству.
+description: Определяет карту для преобразования цветов. Несколько методовImageAttributes./imageattributes класс настраивает цвета изображения с помощью таблицы переназначения цветов которая представляет собой массивColorMap./colormap структуры. Не передается по наследству.
 type: docs
 weight: 350
 url: /ru/net/aspose.imaging/colormap/
 ---
 ## ColorMap class
 
-Определяет карту для преобразования цветов. Несколько методов класса[`ImageAttributes`](../imageattributes)настраивают цвета изображения с помощью таблицы переназначения цветов, которая представляет собой массив[`ColorMap`](../colormap)структуры. Не передается по наследству.
+Определяет карту для преобразования цветов. Несколько методов[`ImageAttributes`](../imageattributes) класс настраивает цвета изображения с помощью таблицы переназначения цветов, которая представляет собой массив[`ColorMap`](../colormap) структуры. Не передается по наследству.
 
 ```csharp
 public sealed class ColorMap
@@ -24,8 +24,8 @@ public sealed class ColorMap
 
 | Имя | Описание |
 | --- | --- |
-| [NewColor](../../aspose.imaging/colormap/newcolor) { get; set; } | Получает или задает новую структуру[`Color`](../color), в которую необходимо преобразовать. |
-| [OldColor](../../aspose.imaging/colormap/oldcolor) { get; set; } | Получает или задает существующую структуру[`Color`](../color)для преобразования. |
+| [NewColor](../../aspose.imaging/colormap/newcolor) { get; set; } | Получает или задает новый[`Color`](../color) структура, в которую нужно преобразовать. |
+| [OldColor](../../aspose.imaging/colormap/oldcolor) { get; set; } | Получает или задает существующий[`Color`](../color) структура для преобразования. |
 
 ### Смотрите также
 

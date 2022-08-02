@@ -24,7 +24,7 @@ public sealed class EmfPlusBoundaryPathData : EmfPlusBoundaryBase
 
 | Имя | Описание |
 | --- | --- |
-| [BoundaryPathData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundarypathdata/boundarypathdata) { get; set; } | Получает или задает объект EmfPlusPath (раздел 2.2.1.6), определяющий границу кисти |
+| [BoundaryPathData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundarypathdata/boundarypathdata) { get; set; } | Получает или задает объект EmfPlusPath (раздел 2.2.1.6), указывающий границу кисти |
 
 ### Смотрите также
 

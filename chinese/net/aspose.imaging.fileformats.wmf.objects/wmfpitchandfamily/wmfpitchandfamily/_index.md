@@ -1,14 +1,14 @@
 ---
 title: WmfPitchAndFamily
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化WmfPitchAndFamilyaspose.imaging.fileformats.wmf.objects/wmfpitchandfamily 结构的新实例.
+description: 初始化WmfPitchAndFamilyaspose.imaging.fileformats.wmf.objects/wmfpitchandfamily 结构体.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/wmfpitchandfamily/
 ---
 ## WmfPitchAndFamily(byte) {#constructor_1}
 
-初始化[`WmfPitchAndFamily`](../../wmfpitchandfamily) 结构的新实例.
+初始化[`WmfPitchAndFamily`](../../wmfpitchandfamily) 结构体.
 
 ```csharp
 public WmfPitchAndFamily(byte byteData)
@@ -16,7 +16,7 @@ public WmfPitchAndFamily(byte byteData)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| byteData | Byte | &lt;see langword="byte" /&gt; 数据。 |
+| byteData | Byte | 这`byte`数据。 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public WmfPitchAndFamily(byte byteData)
 
 ## WmfPitchAndFamily(WmfPitchFont, WmfFamilyFont) {#constructor}
 
-初始化[`WmfPitchAndFamily`](../../wmfpitchandfamily) 结构的新实例.
+初始化[`WmfPitchAndFamily`](../../wmfpitchandfamily) 结构体.
 
 ```csharp
 public WmfPitchAndFamily(WmfPitchFont pitch, WmfFamilyFont family)
@@ -36,7 +36,7 @@ public WmfPitchAndFamily(WmfPitchFont pitch, WmfFamilyFont family)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pitch | WmfPitchFont | 音高。 |
+| pitch | WmfPitchFont | 球场。 |
 | family | WmfFamilyFont | 家庭。 |
 
 ### 也可以看看

@@ -16,7 +16,7 @@ public delegate void OnPageExportedAction(DjvuPage page);
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| page | DjvuPage | Страница, которая был экспортирован в |
+| page | DjvuPage | Страница, на которую был экспортирован |
 
 ### Смотрите также
 

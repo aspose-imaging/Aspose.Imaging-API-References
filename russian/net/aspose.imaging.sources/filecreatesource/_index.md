@@ -3,7 +3,7 @@ title: FileCreateSource
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет источник файла для создания.
 type: docs
-weight: 11090
+weight: 11080
 url: /ru/net/aspose.imaging.sources/filecreatesource/
 ---
 ## FileCreateSource class
@@ -18,8 +18,8 @@ public sealed class FileCreateSource : FileSource
 
 | Имя | Описание |
 | --- | --- |
-| [FileCreateSource](filecreatesource#constructor)(string) | Инициализирует новый экземпляр класса[`FileCreateSource`](../filecreatesource). |
-| [FileCreateSource](filecreatesource#constructor_1)(string, bool) | Инициализирует новый экземпляр класса[`FileCreateSource`](../filecreatesource). |
+| [FileCreateSource](filecreatesource#constructor)(string) | Инициализирует новый экземпляр[`FileCreateSource`](../filecreatesource) класс. |
+| [FileCreateSource](filecreatesource#constructor_1)(string, bool) | Инициализирует новый экземпляр[`FileCreateSource`](../filecreatesource) класс. |
 
 ## Характеристики
 

@@ -1,14 +1,14 @@
 ---
 title: EmfEllipse
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_ELLIPSE 记录指定一个椭圆椭圆的中心是指定的 边界矩形的中心椭圆使用当前笔勾勒出轮廓并使用当前画笔填充
+description: EMR_ELLIPSE 记录指定一个椭圆椭圆的中心是指定的 边界矩形的中心椭圆用当前画笔勾勒用当前画笔填充
 type: docs
 weight: 3570
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfellipse/
 ---
 ## EmfEllipse class
 
-EMR_ELLIPSE 记录指定一个椭圆。椭圆的中心是指定的 边界矩形的中心。椭圆使用当前笔勾勒出轮廓，并使用当前画笔填充。
+EMR_ELLIPSE 记录指定一个椭圆。椭圆的中心是指定的 边界矩形的中心。椭圆用当前画笔勾勒，用当前画笔填充。
 
 ```csharp
 public sealed class EmfEllipse : EmfDrawingRecordType
@@ -18,14 +18,14 @@ public sealed class EmfEllipse : EmfDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfEllipse](emfellipse#constructor)() | 初始化[`EmfEllipse`](../emfellipse)类的新实例。 |
-| [EmfEllipse](emfellipse#constructor_1)(EmfRecord) | 初始化[`EmfEllipse`](../emfellipse)类的新实例。 |
+| [EmfEllipse](emfellipse#constructor)() | 初始化[`EmfEllipse`](../emfellipse)类. |
+| [EmfEllipse](emfellipse#constructor_1)(EmfRecord) | 初始化[`EmfEllipse`](../emfellipse)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Box](../../aspose.imaging.fileformats.emf.emf.records/emfellipse/box) { get; set; } | 获取或设置一个 128 位 (WMF) RectL 对象，在 [MS-WMF] 2.2.2.19 节中指定，其中 指定包容性边界矩形。 |
+| [Box](../../aspose.imaging.fileformats.emf.emf.records/emfellipse/box) { get; set; } | 获取或设置一个 128 位 (WMF) RectL 对象，在 [MS-WMF] 2.2.2.19 节中指定， 指定包含的边界矩形。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

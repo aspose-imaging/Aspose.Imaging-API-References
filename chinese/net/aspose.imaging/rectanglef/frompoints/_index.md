@@ -1,14 +1,14 @@
 ---
 title: FromPoints
 second_title: Aspose.Imaging for .NET API 参考
-description: 从指定的两个点创建一个新的Rectangleaspose.imaging/rectangle创建的Rectangleaspose.imaging/rectangle的两个顶点将等于传递的point1和point2这些通常是相反的顶点
+description: 创建一个新的Rectangleaspose.imaging/rectangle从指定的两点创建的两个verticleRectangleaspose.imaging/rectangle将等于通过point1和point2.这些通常是相反的顶点
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging/rectanglef/frompoints/
 ---
 ## RectangleF.FromPoints method
 
-从指定的两个点创建一个新的[`Rectangle`](../../rectangle)。创建的[`Rectangle`](../../rectangle)的两个顶点将等于传递的*point1*和*point2*。这些通常是相反的顶点。
+创建一个新的[`Rectangle`](../../rectangle)从指定的两点。创建的两个verticle[`Rectangle`](../../rectangle)将等于通过*point1*和*point2*.这些通常是相反的顶点。
 
 ```csharp
 public static RectangleF FromPoints(PointF point1, PointF point2)
@@ -16,12 +16,12 @@ public static RectangleF FromPoints(PointF point1, PointF point2)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| point1 | PointF | 第一个[`Point`](../../point)用于新矩形。 |
-| point2 | PointF | 第二个[`Point`](../../point)用于新矩形。 |
+| point1 | PointF | 首先[`Point`](../../point)对于新的矩形。 |
+| point2 | PointF | 第二[`Point`](../../point)对于新的矩形。 |
 
 ### 返回值
 
-一个新创建的[`Rectangle`](../../rectangle)。
+一个新创建的[`Rectangle`](../../rectangle).
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示此SizeFaspose.imaging/sizef是否具有零宽度和高度
+description: 获取一个值该值指示这是否SizeFaspose.imaging/sizef宽度和高度为零
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging/sizef/isempty/
 ---
 ## SizeF.IsEmpty property
 
-获取一个值，该值指示此[`SizeF`](../../sizef)是否具有零宽度和高度。
+获取一个值，该值指示这是否[`SizeF`](../../sizef)宽度和高度为零。
 
 ```csharp
 public bool IsEmpty { get; }
@@ -16,7 +16,7 @@ public bool IsEmpty { get; }
 
 ### 返回值
 
-当此[`SizeF`](../../sizef)具有宽度和高度时，此属性返回 true为零；否则为假。
+此属性在此时返回 true[`SizeF`](../../sizef)宽度和高度都为零；否则为假。
 
 ### 也可以看看
 

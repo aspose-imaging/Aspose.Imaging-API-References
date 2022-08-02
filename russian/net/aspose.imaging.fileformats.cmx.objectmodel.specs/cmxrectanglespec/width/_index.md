@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает ширину прямоугольника. Меры в общепринятых единицах расстояния документа.
+description: Получает или задает ширину прямоугольника. Измеряет в общепринятых единицах измерения расстояния документа.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/width/
 ---
 ## CmxRectangleSpec.Width property
 
-Получает или задает ширину прямоугольника. Меры в общепринятых единицах расстояния документа.
+Получает или задает ширину прямоугольника. Измеряет в общепринятых единицах измерения расстояния документа.
 
 ```csharp
 public float Width { get; set; }

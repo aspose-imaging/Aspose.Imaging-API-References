@@ -1,14 +1,14 @@
 ---
 title: EmfRenderMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Режим рендеринга emf
+description: Режим рендеринга ЭДС
 type: docs
 weight: 6470
 url: /ru/net/aspose.imaging.fileformats.emf/emfrendermode/
 ---
 ## EmfRenderMode enumeration
 
-Режим рендеринга emf
+Режим рендеринга ЭДС
 
 ```csharp
 public enum EmfRenderMode
@@ -20,8 +20,8 @@ public enum EmfRenderMode
 | --- | --- | --- |
 | Auto | `0` | Автоматический режим |
 | EmfOnly | `1` | Режим только EMF, рендеринг только записей emf |
-| EmfPlusOnly | `2` | Режим только EMF plus, рендеринг только записей emf plus |
-| Dual | `3` | Двойной режим, рендеринг записей emf и записей emf plus |
+| EmfPlusOnly | `2` | Режим EMF plus only, рендеринг только emf плюс records |
+| Dual | `3` | Двойной режим, рендеринг записей emf и emf plus records |
 
 ### Смотрите также
 

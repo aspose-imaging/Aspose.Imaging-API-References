@@ -17,7 +17,7 @@ public void SaveArgb32Pixels(Rectangle rectangle, int[] pixels)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | rectangle | Rectangle | 保存像素的矩形。 |
-| pixels | Int32[] | 32 位 ARGB 像素数组。 |
+| pixels | Int32[] | 32 位 ARGB 像素阵列。 |
 
 ### 例子
 
@@ -32,14 +32,14 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-        // 黑色方块
+    // 黑色方块
     int[] pixels = new int[(rasterImage.Width / 2) * (rasterImage.Height / 2)];
     for (int i = 0; i < pixels.Length; i++)
     {
         pixels[i] = Color.Black.ToArgb();
     }
 
-        // 在图像中心绘制黑色方块。
+    // 在图像中心绘制黑色方块。
     Aspose.Imaging.Rectangle area = new Aspose.Imaging.Rectangle(rasterImage.Width / 4, rasterImage.Height / 4, rasterImage.Width / 2, rasterImage.Height / 2);
     rasterImage.SaveArgb32Pixels(area, pixels);
 

@@ -1,14 +1,14 @@
 ---
 title: EmfGradientFill
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Перечисление GradientFill определяет режимы операций градиентной заливки.
+description: Перечисление GradientFill определяет режимы для операций градиентной заливки.
 type: docs
 weight: 2670
 url: /ru/net/aspose.imaging.fileformats.emf.emf.consts/emfgradientfill/
 ---
 ## EmfGradientFill enumeration
 
-Перечисление GradientFill определяет режимы операций градиентной заливки.
+Перечисление GradientFill определяет режимы для операций градиентной заливки.
 
 ```csharp
 public enum EmfGradientFill
@@ -18,9 +18,9 @@ public enum EmfGradientFill
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| GRADIENT_FILL_RECT_H | `0` | Режим, в котором интерполяция цвета выполняется по градиенту от левого края прямоугольника к правому |
+| GRADIENT_FILL_RECT_H | `0` | Режим, в котором интерполяция цвета выполняется по градиенту от левого края к правому краю прямоугольника |
 | GRADIENT_FILL_RECT_V | `1` | Режим, в котором интерполяция цвета выполняется по градиенту от верхнего к нижнему краю прямоугольника. |
-| GRADIENT_FILL_TRIANGLE | `2` | Режим, в котором выполняется цветовая интерполяция между вершинами треугольника S |
+| GRADIENT_FILL_TRIANGLE | `2` | Режим, в котором выполняется интерполяция цвета между вершинами треугольника S |
 
 ### Смотрите также
 

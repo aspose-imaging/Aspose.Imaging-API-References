@@ -1,14 +1,14 @@
 ---
 title: IsFixedSize
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее имеет лиIListфиксированный размер.
+description: Получает значение указывающееIList имеет фиксированный размер.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging/nongenericlist/isfixedsize/
 ---
 ## NonGenericList.IsFixedSize property
 
-Получает значение, указывающее, имеет лиIListфиксированный размер.
+Получает значение, указывающее,IList имеет фиксированный размер.
 
 ```csharp
 public bool IsFixedSize { get; }

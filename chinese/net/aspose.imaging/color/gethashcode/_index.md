@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Aspose.Imaging for .NET API 参考
-description: 返回此Coloraspose.imaging/color结构的哈希码
+description: 为此返回哈希码Coloraspose.imaging/color结构.
 type: docs
 weight: 1560
 url: /zh/net/aspose.imaging/color/gethashcode/
 ---
 ## Color.GetHashCode method
 
-返回此[`Color`](../../color)结构的哈希码。
+为此返回哈希码[`Color`](../../color)结构.
 
 ```csharp
 public override int GetHashCode()
@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### 返回值
 
-一个整数值，指定此[`Color`](../../color)的哈希码。
+指定此哈希码的整数值[`Color`](../../color).
 
 ### 也可以看看
 

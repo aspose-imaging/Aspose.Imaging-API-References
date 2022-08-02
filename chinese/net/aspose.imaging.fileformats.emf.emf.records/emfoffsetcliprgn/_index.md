@@ -18,14 +18,14 @@ public sealed class EmfOffsetClipRgn : EmfClippingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfOffsetClipRgn](emfoffsetcliprgn#constructor)() | 初始化[`EmfOffsetClipRgn`](../emfoffsetcliprgn)类的新实例。 |
-| [EmfOffsetClipRgn](emfoffsetcliprgn#constructor_1)(EmfRecord) | 初始化[`EmfOffsetClipRgn`](../emfoffsetcliprgn)类的新实例。 |
+| [EmfOffsetClipRgn](emfoffsetcliprgn#constructor)() | 初始化[`EmfOffsetClipRgn`](../emfoffsetcliprgn)类. |
+| [EmfOffsetClipRgn](emfoffsetcliprgn#constructor_1)(EmfRecord) | 初始化[`EmfOffsetClipRgn`](../emfoffsetcliprgn)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Offset](../../aspose.imaging.fileformats.emf.emf.records/emfoffsetcliprgn/offset) { get; set; } | 获取或设置一个 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定 逻辑单位的水平和垂直偏移量. |
+| [Offset](../../aspose.imaging.fileformats.emf.emf.records/emfoffsetcliprgn/offset) { get; set; } | 获取或设置一个 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），它以逻辑单位指定 水平和垂直偏移量。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Сравнивает два объектаPointaspose.imaging/point. Результат указывает будут ли значения свойствXaspose.imaging/point/xилиYaspose.imaging/point/yдвухPointaspose.imaging/pointобъекты не равны.
+description: Сравнивает дваPointaspose.imaging/point объекты. Результат указывает являются ли значенияXaspose.imaging/point/x или жеYaspose.imaging/point/y свойства двухPointaspose.imaging/point объекты не равны.
 type: docs
 weight: 190
 url: /ru/net/aspose.imaging/point/op_inequality/
 ---
 ## Point Inequality operator
 
-Сравнивает два объекта[`Point`](../../point). Результат указывает, будут ли значения свойств[`X`](../x)или[`Y`](../y)двух[`Point`](../../point)объекты не равны.
+Сравнивает два[`Point`](../../point) объекты. Результат указывает, являются ли значения[`X`](../x) или же[`Y`](../y) свойства двух[`Point`](../../point) объекты не равны.
 
 ```csharp
 public static bool operator !=(Point point1, Point point2)
@@ -16,12 +16,12 @@ public static bool operator !=(Point point1, Point point2)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point1 | Point | Первая[`Point`](../../point)для сравнения. |
-| point2 | Point | Секунда[`Point`](../../point)для сравнения. |
+| point1 | Point | Первый[`Point`](../../point) сравнивать. |
+| point2 | Point | Второй[`Point`](../../point) сравнивать. |
 
 ### Возвращаемое значение
 
-Истинно, если значения свойств[`X`](../x)или[`Y`](../y)свойства*point1*и*point2*различаются; в противном случае ложно.
+Истинно, если значения[`X`](../x) свойства или[`Y`](../y) свойства*point1* а также*point2* различаться; в противном случае ложно.
 
 ### Смотрите также
 

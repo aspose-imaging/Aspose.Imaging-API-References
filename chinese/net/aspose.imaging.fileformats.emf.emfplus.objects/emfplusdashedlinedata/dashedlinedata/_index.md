@@ -1,14 +1,14 @@
 ---
 title: DashedLineData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 DashedLineDataSize 浮点值数组 指定 中的破折号和空格的长度虚线
+description: 获取或设置 DashedLineDataSize 浮点值数组 指定 虚线 中的破折号和空格的长度
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusdashedlinedata/dashedlinedata/
 ---
 ## EmfPlusDashedLineData.DashedLineData property
 
-获取或设置 DashedLineDataSize 浮点值数组 指定 中的破折号和空格的长度虚线
+获取或设置 DashedLineDataSize 浮点值数组 指定 虚线 中的破折号和空格的长度
 
 ```csharp
 public float[] DashedLineData { get; set; }

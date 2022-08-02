@@ -16,7 +16,7 @@ public ImageOtherParameters ImageOtherParameters { get; set; }
 
 ### 适当的价值
 
-另一个。
+另一个.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: EmfLogFontEx
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfLogFontExaspose.imaging.fileformats.emf.emf.objects/emflogfontex类的新实例
+description: 初始化EmfLogFontExaspose.imaging.fileformats.emf.emf.objects/emflogfontex类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emflogfontex/emflogfontex/
 ---
 ## EmfLogFontEx constructor
 
-初始化[`EmfLogFontEx`](../../emflogfontex)类的新实例。
+初始化[`EmfLogFontEx`](../../emflogfontex)类.
 
 ```csharp
 public EmfLogFontEx(EmfLogFont emfLogFont)

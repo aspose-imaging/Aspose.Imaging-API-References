@@ -1,14 +1,14 @@
 ---
 title: ColorTranslator
 second_title: Aspose.Imaging for .NET API 参考
-description: 将颜色与 GDI 颜色结构相互转换这个类不能被继承
+description: 在 GDI 颜色结构之间转换颜色这个类不能被继承
 type: docs
 weight: 410
 url: /zh/net/aspose.imaging/colortranslator/
 ---
 ## ColorTranslator class
 
-将颜色与 GDI+ 颜色结构相互转换。这个类不能被继承。
+在 GDI+ 颜色结构之间转换颜色。这个类不能被继承。
 
 ```csharp
 public sealed class ColorTranslator

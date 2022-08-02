@@ -16,7 +16,7 @@ public override void Save(Stream stream, ImageOptionsBase optionsBase, Rectangle
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 保存图像数据的流。 |
+| stream | Stream | 将图像数据保存到的流。 |
 | optionsBase | ImageOptionsBase | 保存选项。 |
 | boundsRectangle | Rectangle | 目标图像边界矩形。设置空矩形以使用源边界。 |
 

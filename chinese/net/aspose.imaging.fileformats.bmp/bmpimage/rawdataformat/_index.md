@@ -20,50 +20,26 @@ public override PixelDataFormat RawDataFormat { get; }
 
 ### 例子
 
-以下示例显示如何从 BMP 图像中提取有关原始数据格式和 alpha 通道的信息。
+以下示例展示了如何从 BMP 图像中提取有关原始数据格式和 Alpha 通道的信息。
 
 ```csharp
 [C#]
 
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\sample.bmp"))
+// 创建一个 100 x 100 像素的 32-bpp BMP 图像。
+using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100, 32, null))
 {
-    Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = (Aspose.Imaging.FileFormats.Bmp.BmpImage)image;                
+    System.Console.WriteLine("FileFormat={0}, RawDataFormat={1}, HasAlpha={2}", bmpImage.FileFormat, bmpImage.RawDataFormat, bmpImage.HasAlpha);
+};
 
-    System.Console.WriteLine("The pixel format: {0}", bmpImage.RawDataFormat);                
-    System.Console.WriteLine("The raw line size in bytes: {0}", bmpImage.RawLineSize);
-    System.Console.WriteLine("The bitmap compression: {0}", bmpImage.Compression);
-    System.Console.WriteLine("The bitmap width: {0}", bmpImage.Width);
-    System.Console.WriteLine("The bitmap height: {0}", bmpImage.Height);
-    System.Console.WriteLine("The number of bits per pixel: {0}", bmpImage.BitsPerPixel);
+// 创建一个 100 x 100 像素的 24-bpp BMP 图像。
+using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100, 24, null))
+{
+    System.Console.WriteLine("FileFormat={0}, RawDataFormat={1}, HasAlpha={2}", bmpImage.FileFormat, bmpImage.RawDataFormat, bmpImage.HasAlpha);
+};
 
-    double hres = bmpImage.HorizontalResolution;
-    double vres = bmpImage.VerticalResolution;
-    System.Console.WriteLine("The horizontal resolution, in pixels per inch: {0}", hres);
-    System.Console.WriteLine("The vertical resolution, in pixels per inch: {0}", vres);
-
-    if (hres != 96.0 || vres != 96.0)
-    {
-            // 您可以考虑使用 SetResolution 方法在一次调用中更新两个分辨率值。
-        System.Console.WriteLine("Set resolution values to 96 dpi");
-        bmpImage.SetResolution(96.0, 96.0);
-
-        System.Console.WriteLine("The horizontal resolution, in pixels per inch: {0}", bmpImage.HorizontalResolution);
-        System.Console.WriteLine("The vertical resolution, in pixels per inch: {0}", bmpImage.VerticalResolution);
-    }
-
-        //输出可能如下所示：
-        //像素格式：RGB24Bpp，使用通道：8,8,8
-        //以字节为单位的原始行大小：1500
-        //位图压缩：Rgb
-        //位图宽度：500
-        //位图高度：375
-        //每个像素的位数：24
-        //水平分辨率，以每英寸像素为单位：0
-        //垂直分辨率，以每英寸像素为单位：0
-        //将分辨率值设置为96 dpi
-        //水平分辨率，以每英寸像素为单位：96.012
-        //垂直分辨率，以每英寸像素为单位：96.012
-}
+// 通常，BMP 不支持 alpha 通道，因此输出将如下所示：
+// FileFormat = Bmp, RawDataFormat = Rgb32Bpp, 使用的通道：8,8,8,8, HasAlpha = False
+// FileFormat = Bmp, RawDataFormat = Rgb24Bpp, 使用的通道：8,8,8, HasAlpha = False
 ```
 
 以下示例获取有关图像的一般信息，包括像素格式、图像大小、分辨率、压缩等。
@@ -89,7 +65,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\sample.b
 
     if (hres != 96.0 || vres != 96.0)
     {
-            // 您可以考虑使用 SetResolution 方法在一次调用中更新两个分辨率值。
+        // 您可以考虑使用 SetResolution 方法在一次调用中更新两个分辨率值。
         System.Console.WriteLine("Set resolution values to 96 dpi");
         bmpImage.SetResolution(96.0, 96.0);
 
@@ -97,18 +73,18 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\sample.b
         System.Console.WriteLine("The vertical resolution, in pixels per inch: {0}", bmpImage.VerticalResolution);
     }
 
-        //输出可能如下所示：
-        //像素格式：RGB24Bpp，使用通道：8,8,8
-        //以字节为单位的原始行大小：1500
-        //位图压缩：Rgb
-        //位图宽度：500
-        //位图高度：375
-        //每个像素的位数：24
-        //水平分辨率，以每英寸像素为单位：0
-        //垂直分辨率，以每英寸像素为单位：0
-        //将分辨率值设置为96 dpi
-        //水平分辨率，以每英寸像素为单位：96.012
-        //垂直分辨率，以每英寸像素为单位：96.012
+    //输出可能如下所示：
+    //像素格式：RGB24Bpp，使用通道：8,8,8
+    //原始行大小（以字节为单位）：1500
+    //位图压缩：RGB
+    //位图宽度：500
+    //位图高度：375
+    //每个像素的位数：24
+    //水平分辨率，以每英寸像素为单位：0
+    //垂直分辨率，以每英寸像素为单位：0
+    //将分辨率值设置为96 dpi
+    //水平分辨率，以每英寸像素为单位：96.012
+    //垂直分辨率，以每英寸像素为单位：96.012
 }
 ```
 

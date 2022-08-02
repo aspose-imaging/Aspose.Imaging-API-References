@@ -1,14 +1,14 @@
 ---
 title: PsdVersion
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置文件格式版本它可以是 PSD 或 PSB
+description: 获取或设置文件格式版本它可以是 PSD 或 PSB.
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.imageoptions/psdoptions/psdversion/
 ---
 ## PsdOptions.PsdVersion property
 
-获取或设置文件格式版本。它可以是 PSD 或 PSB。
+获取或设置文件格式版本。它可以是 PSD 或 PSB.
 
 ```csharp
 public PsdVersion PsdVersion { get; set; }

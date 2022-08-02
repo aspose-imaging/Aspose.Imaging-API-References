@@ -1,14 +1,14 @@
 ---
 title: Blend
 second_title: Aspose.Imaging for .NET API 参考
-description: 定义混合模式这个类不能被继承
+description: 定义混合图案这个类不能被继承
 type: docs
 weight: 120
 url: /zh/net/aspose.imaging/blend/
 ---
 ## Blend class
 
-定义混合模式。这个类不能被继承。
+定义混合图案。这个类不能被继承。
 
 ```csharp
 public sealed class Blend
@@ -18,8 +18,8 @@ public sealed class Blend
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Blend](blend#constructor)() | 初始化[`Blend`](../blend)类的新实例。因子和混合数组中的元素数将等于 1。 |
-| [Blend](blend#constructor_1)(int) | 使用指定数量的因子和位置初始化[`Blend`](../blend)类的新实例。 |
+| [Blend](blend#constructor)() | 初始化[`Blend`](../blend)班级。因子和混合数组中的元素数将等于 1. |
+| [Blend](blend#constructor_1)(int) | 初始化[`Blend`](../blend)具有指定数量的因子和位置的类。 |
 
 ## 特性
 
@@ -32,12 +32,12 @@ public sealed class Blend
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.imaging/blend/equals)(object) | 测试指定的对象是否是[`Blend`](../blend)类并且等价于这个[`Blend`](../blend)类。 |
+| override [Equals](../../aspose.imaging/blend/equals)(object) | 测试指定对象是否为[`Blend`](../blend)类，相当于这个[`Blend`](../blend)类. |
 | override [GetHashCode](../../aspose.imaging/blend/gethashcode)() | 返回此实例的哈希码。 |
 
 ### 评论
 
-典型的混合类用法是为画笔定义混合模式。因此，应仔细初始化混合属性。 不允许空数组。如果混合因子或位置数组为空或它们的长度不同，画笔将抛出适当的异常。 如果位置数组中有两个或更多元素，则第一个元素应为 0，最后一个元素应为 1。
+典型的混合类用法是为画笔定义混合模式。因此应仔细初始化混合属性。 不允许使用空数组。如果混合因子或位置数组为空或它们的长度不同，画笔将抛出适当的异常。 如果位置数组中有两个或更多元素，则第一个元素应为 0，最后一个元素应为 1。
 
 ### 也可以看看
 

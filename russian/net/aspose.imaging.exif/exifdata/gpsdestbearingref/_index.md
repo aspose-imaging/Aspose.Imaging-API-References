@@ -1,14 +1,14 @@
 ---
 title: GPSDestBearingRef
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает опорную точку GPS используемую для определения пеленга точки назначения.
+description: Получает или задает опорную точку GPS используемую для указания пеленга на точку назначения.
 type: docs
 weight: 410
 url: /ru/net/aspose.imaging.exif/exifdata/gpsdestbearingref/
 ---
 ## ExifData.GPSDestBearingRef property
 
-Получает или задает опорную точку GPS, используемую для определения пеленга точки назначения.
+Получает или задает опорную точку GPS, используемую для указания пеленга на точку назначения.
 
 ```csharp
 public string GPSDestBearingRef { get; set; }
@@ -16,7 +16,7 @@ public string GPSDestBearingRef { get; set; }
 
 ### Стоимость имущества
 
-Ссылка GPS, используемая для определения пеленга к точке назначения.
+Ссылка GPS, используемая для определения пеленга до точки назначения.
 
 ### Смотрите также
 

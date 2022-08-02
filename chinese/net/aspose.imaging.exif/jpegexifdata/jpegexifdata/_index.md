@@ -1,14 +1,14 @@
 ---
 title: JpegExifData
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化JpegExifDataaspose.imaging.exif/jpegexifdata类的新实例
+description: 初始化JpegExifDataaspose.imaging.exif/jpegexifdata类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.exif/jpegexifdata/jpegexifdata/
 ---
 ## JpegExifData() {#constructor}
 
-初始化[`JpegExifData`](../../jpegexifdata)类的新实例。
+初始化[`JpegExifData`](../../jpegexifdata)类.
 
 ```csharp
 public JpegExifData()
@@ -24,7 +24,7 @@ public JpegExifData()
 
 ## JpegExifData(TiffDataType[]) {#constructor_1}
 
-使用数组中的数据初始化[`JpegExifData`](../../jpegexifdata)类的新实例。
+初始化[`JpegExifData`](../../jpegexifdata)具有来自 array. 的数据的类
 
 ```csharp
 public JpegExifData(TiffDataType[] exifdata)
@@ -45,7 +45,7 @@ public JpegExifData(TiffDataType[] exifdata)
 
 ## JpegExifData(TiffDataType[], TiffDataType[], TiffDataType[]) {#constructor_2}
 
-使用数组中的数据初始化[`JpegExifData`](../../jpegexifdata)类的新实例。
+初始化[`JpegExifData`](../../jpegexifdata)具有来自 array. 的数据的类
 
 ```csharp
 public JpegExifData(TiffDataType[] commonTags, TiffDataType[] exifTags, TiffDataType[] gpsTags)

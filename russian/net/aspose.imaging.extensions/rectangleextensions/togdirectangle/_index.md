@@ -1,14 +1,14 @@
 ---
 title: ToGdiRectangle
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПреобразуетRectangleaspose.imaging/rectangleвRectangle.
+description: ПреобразуетRectangleaspose.imaging/rectangle кRectangle .
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.extensions/rectangleextensions/togdirectangle/
 ---
 ## ToGdiRectangle(Rectangle) {#togdirectangle}
 
-Преобразует[`Rectangle`](../../../aspose.imaging/rectangle)вRectangle.
+Преобразует[`Rectangle`](../../../aspose.imaging/rectangle) кRectangle .
 
 ```csharp
 public static Rectangle ToGdiRectangle(Rectangle rectangle)
@@ -16,7 +16,7 @@ public static Rectangle ToGdiRectangle(Rectangle rectangle)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rectangle | Rectangle | Преобразуемый прямоугольник. |
+| rectangle | Rectangle | Прямоугольник для преобразования. |
 
 ### Возвращаемое значение
 
@@ -33,7 +33,7 @@ public static Rectangle ToGdiRectangle(Rectangle rectangle)
 
 ## ToGdiRectangle(RectangleF) {#togdirectangle_1}
 
-Преобразует[`RectangleF`](../../../aspose.imaging/rectanglef)вRectangle.
+Преобразует[`RectangleF`](../../../aspose.imaging/rectanglef) кRectangle .
 
 ```csharp
 public static RectangleF ToGdiRectangle(RectangleF rectangle)
@@ -41,7 +41,7 @@ public static RectangleF ToGdiRectangle(RectangleF rectangle)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rectangle | RectangleF | Преобразуемый прямоугольник. |
+| rectangle | RectangleF | Прямоугольник для преобразования. |
 
 ### Возвращаемое значение
 

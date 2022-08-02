@@ -1,14 +1,14 @@
 ---
 title: ToKnownColor
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значениеKnownColoraspose.imaging/knowncolorэтогоColoraspose.imaging/colorструктура.
+description: ПолучаетKnownColoraspose.imaging/knowncolor значение этогоColoraspose.imaging/color структура.
 type: docs
 weight: 1600
 url: /ru/net/aspose.imaging/color/toknowncolor/
 ---
 ## Color.ToKnownColor method
 
-Получает значение[`KnownColor`](../../knowncolor)этого[`Color`](../../color)структура.
+Получает[`KnownColor`](../../knowncolor) значение этого[`Color`](../../color) структура.
 
 ```csharp
 public KnownColor ToKnownColor()
@@ -16,7 +16,7 @@ public KnownColor ToKnownColor()
 
 ### Возвращаемое значение
 
-Элемент перечисления[`KnownColor`](../../knowncolor), если[`Color`](../../color)создается из предопределенного цвета с помощью либо метода[`FromName`](../fromname), либо метода:::R5.:M:Aspose.Imaging.Color.FromKnownColor(Aspose.Imaging.KnownColor):::метод; иначе 0.
+Элемент[`KnownColor`](../../knowncolor) перечисление, если[`Color`](../../color) создается из предопределенного цвета с помощью[`FromName`](../fromname) метод или[`FromKnownColor`](../fromknowncolor) метод; иначе 0.
 
 ### Смотрите также
 

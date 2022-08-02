@@ -1,14 +1,14 @@
 ---
 title: HasAlpha
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее имеет ли этот экземпляр альфа-канал.
+description: Получает значение указывающее есть ли у этого экземпляра альфа.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging/rastercachedmultipageimage/hasalpha/
 ---
 ## RasterCachedMultipageImage.HasAlpha property
 
-Получает значение, указывающее, имеет ли этот экземпляр альфа-канал.
+Получает значение, указывающее, есть ли у этого экземпляра альфа.
 
 ```csharp
 public override bool HasAlpha { get; }
@@ -16,7 +16,7 @@ public override bool HasAlpha { get; }
 
 ### Стоимость имущества
 
-` true` если у этого экземпляра есть альфа; в противном случае` false` .
+`истинный` если у этого экземпляра есть альфа; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

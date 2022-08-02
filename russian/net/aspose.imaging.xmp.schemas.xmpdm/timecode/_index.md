@@ -3,7 +3,7 @@ title: Timecode
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет значение временного кода в видео.
 type: docs
-weight: 11420
+weight: 11410
 url: /ru/net/aspose.imaging.xmp.schemas.xmpdm/timecode/
 ---
 ## Timecode class
@@ -18,20 +18,20 @@ public sealed class Timecode : XmpTypeBase, IEquatable<Timecode>
 
 | Имя | Описание |
 | --- | --- |
-| [Timecode](timecode)(TimeFormat, string) | Инициализирует новый экземпляр класса[`Timecode`](../timecode). |
+| [Timecode](timecode)(TimeFormat, string) | Инициализирует новый экземпляр[`Timecode`](../timecode) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Format](../../aspose.imaging.xmp.schemas.xmpdm/timecode/format) { get; set; } | Получает или задает формат, используемый в[`TimeValue`](./timevalue). |
+| [Format](../../aspose.imaging.xmp.schemas.xmpdm/timecode/format) { get; set; } | Получает или задает формат, используемый в[`TimeValue`](./timevalue) . |
 | [TimeValue](../../aspose.imaging.xmp.schemas.xmpdm/timecode/timevalue) { get; set; } | Получает или задает значение времени в указанном формате. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.imaging.xmp.schemas.xmpdm/timecode/equals#equals_1)(object) | Определяет, равен ли указанныйObjectэтому экземпляру. |
+| override [Equals](../../aspose.imaging.xmp.schemas.xmpdm/timecode/equals#equals_1)(object) | Определяет, является ли указанныйObject , равно этому экземпляру. |
 | [Equals](../../aspose.imaging.xmp.schemas.xmpdm/timecode/equals#equals)(Timecode) | Указывает, равен ли текущий объект другому объекту того же типа. |
 | override [GetHashCode](../../aspose.imaging.xmp.schemas.xmpdm/timecode/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
 | override [GetXmpRepresentation](../../aspose.imaging.xmp.schemas.xmpdm/timecode/getxmprepresentation)() | Возвращает строку, содержащую значение, в формате XMP. |

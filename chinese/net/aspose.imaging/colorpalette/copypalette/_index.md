@@ -17,7 +17,7 @@ public static ColorPalette CopyPalette(IColorPalette colorPalette, bool useCompa
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | colorPalette | IColorPalette | 调色板。 |
-| useCompactPalette | Boolean | 表示是否压缩调色板。 |
+| useCompactPalette | Boolean | 指示是否紧凑调色板。 |
 
 ### 返回值
 

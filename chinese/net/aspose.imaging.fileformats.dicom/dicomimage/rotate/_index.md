@@ -1,14 +1,14 @@
 ---
 title: Rotate
 second_title: Aspose.Imaging for .NET API 参考
-description: RasterCahcedMultipageImage.Rotate图像围绕中心
+description: RasterCahcedMultipageImage.Rotate中心周围的图像
 type: docs
 weight: 300
 url: /zh/net/aspose.imaging.fileformats.dicom/dicomimage/rotate/
 ---
 ## DicomImage.Rotate method
 
-!:RasterCahcedMultipageImage.Rotate图像围绕中心。
+!:RasterCahcedMultipageImage.Rotate中心周围的图像。
 
 ```csharp
 public override void Rotate(float angle, bool resizeProportionally, Color backgroundColor)
@@ -17,8 +17,8 @@ public override void Rotate(float angle, bool resizeProportionally, Color backgr
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | angle | Single | 以度为单位的旋转角度。正值将顺时针旋转。 |
-| resizeProportionally | Boolean | 如果设置为` true` 您将更改图像大小 根据其他 情况下的旋转矩形（角点）投影，保持尺寸不变，只有 &lt;see langword="internal" /&gt; 图像内容被旋转。 |
-| backgroundColor | Color | 背景颜色。 |
+| resizeProportionally | Boolean | 如果设置为`真的`在 other 情况下，您将根据旋转的矩形（角点）投影更改图像大小 ，使尺寸保持不变且仅 `internal`图像内容被旋转。 |
+| backgroundColor | Color | 背景的颜色。 |
 
 ### 例子
 
@@ -29,13 +29,13 @@ public override void Rotate(float angle, bool resizeProportionally, Color backgr
 
 string dir = "c:\\temp\\";
 
-    // 从文件流中加载 DICOM 图像。
+// 从文件流中加载 DICOM 图像。
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "multiframe.dicom"))
 {
     using (Aspose.Imaging.FileFormats.Dicom.DicomImage dicomImage = new Aspose.Imaging.FileFormats.Dicom.DicomImage(stream))
     {
-            // 将图像围绕中心顺时针旋转 60 度。
-            // 使用灰色作为背景色。
+        // 将图像围绕中心顺时针旋转 60 度。
+        // 使用灰色作为背景色。
         dicomImage.Rotate(60, true, Aspose.Imaging.Color.Gray);
 
         Aspose.Imaging.ImageOptions.TiffOptions createOptions = new Aspose.Imaging.ImageOptions.TiffOptions(Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
@@ -45,21 +45,21 @@ using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "multiframe.dicom
         createOptions.Photometric = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.MinIsBlack;
         createOptions.BitsPerSample = new ushort[] { 8 };
 
-            // 创建一个 TIFF 帧数组。
-            // 帧数等于 DJVU 页数。
+        // 创建一个 TIFF 帧数组。
+        // 帧数等于 DJVU 页数。
         Aspose.Imaging.FileFormats.Tiff.TiffFrame[] tiffFrames = new Aspose.Imaging.FileFormats.Tiff.TiffFrame[dicomImage.DicomPages.Length];
 
-            // 将每一页保存为单独的 TIFF 帧。
+        // 将每个页面保存为单独的 TIFF 帧。
         foreach (Aspose.Imaging.FileFormats.Dicom.DicomPage dicomPage in dicomImage.DicomPages)
         {
-                // 根据 DICOM 页面创建 TIFF 帧。
+            // 创建一个基于 DICOM 页面的 TIFF 帧。
             tiffFrames[dicomPage.Index] = new Aspose.Imaging.FileFormats.Tiff.TiffFrame(dicomPage, createOptions);
         }
 
-            // 从帧中合成一个 TIFF 图像。
+        // 从帧中合成 TIFF 图像。
         using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = new Aspose.Imaging.FileFormats.Tiff.TiffImage(tiffFrames))
         {
-                // 保存到文件.
+            // 保存到文件。
             tiffImage.Save(dir + "multiframe.tif");
         }
     }

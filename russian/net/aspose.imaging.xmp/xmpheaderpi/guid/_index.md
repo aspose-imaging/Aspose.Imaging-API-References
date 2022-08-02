@@ -1,14 +1,14 @@
 ---
 title: Guid
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Представляет идентификатор заголовка.
+description: Представляет заголовок Guid.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.xmp/xmpheaderpi/guid/
 ---
 ## XmpHeaderPi.Guid property
 
-Представляет идентификатор заголовка.
+Представляет заголовок Guid.
 
 ```csharp
 public string Guid { get; set; }
@@ -16,7 +16,7 @@ public string Guid { get; set; }
 
 ### Примечания
 
-Текст заголовка PI содержит GUID, поэтому его случайное появление в данных маловероятно. ручей.
+Текст заголовка PI содержит GUID, поэтому его случайное появление в потоке данных маловероятно.
 
 ### Смотрите также
 

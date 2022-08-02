@@ -1,14 +1,14 @@
 ---
 title: IsEllipticalQundrantY
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值该值指示此实例是否为椭圆象限 y
+description: 获取或设置一个值该值指示此实例是否为椭圆象限y.
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odarc/isellipticalqundranty/
 ---
 ## OdArc.IsEllipticalQundrantY property
 
-获取或设置一个值，该值指示此实例是否为椭圆象限 y。
+获取或设置一个值，该值指示此实例是否为椭圆象限y.
 
 ```csharp
 public bool IsEllipticalQundrantY { get; set; }
@@ -16,7 +16,7 @@ public bool IsEllipticalQundrantY { get; set; }
 
 ### 适当的价值
 
-` true` 如果此实例是椭圆 qudrant y；否则，` false` 。
+`真的`如果此实例是椭圆 qudrant y；否则，`错误的` .
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: RdOptimizationError
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Класс исключений ошибок оптимизации RD
+description: Исключение ошибки оптимизации RD class
 type: docs
 weight: 720
 url: /ru/net/aspose.imaging.coreexceptions/rdoptimizationerror/
 ---
 ## RdOptimizationError class
 
-Класс исключений ошибок оптимизации RD
+Исключение ошибки оптимизации RD class
 
 ```csharp
 public class RdOptimizationError : Exception
@@ -18,7 +18,7 @@ public class RdOptimizationError : Exception
 
 | Имя | Описание |
 | --- | --- |
-| [RdOptimizationError](rdoptimizationerror)(string) | Инициализирует новый экземпляр класса[`RdOptimizationError`](../rdoptimizationerror). |
+| [RdOptimizationError](rdoptimizationerror)(string) | Инициализирует новый экземпляр[`RdOptimizationError`](../rdoptimizationerror) класс. |
 
 ### Смотрите также
 

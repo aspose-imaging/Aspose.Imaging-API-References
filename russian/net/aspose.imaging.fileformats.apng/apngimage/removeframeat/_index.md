@@ -1,14 +1,14 @@
 ---
 title: RemoveFrameAt
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Удаляет фрейм с указанным индексом из собственной коллекции фреймов. Кадр подлежащий удалению будет удален.
+description: Удаляет фрейм по указанному индексу из собственной коллекции фреймов. Удаляемый фрейм будет удален.
 type: docs
 weight: 280
 url: /ru/net/aspose.imaging.fileformats.apng/apngimage/removeframeat/
 ---
 ## ApngImage.RemoveFrameAt method
 
-Удаляет фрейм с указанным индексом из собственной коллекции фреймов. Кадр, подлежащий удалению, будет удален.
+Удаляет фрейм по указанному индексу из собственной коллекции фреймов. Удаляемый фрейм будет удален.
 
 ```csharp
 public void RemoveFrameAt(int index)
@@ -22,7 +22,7 @@ public void RemoveFrameAt(int index)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *index*меньше 0. или *index*больше или равно[`PageCount`](../pagecount). |
+| ArgumentOutOfRangeException | *index* меньше 0. или *index* равно или больше, чем[`PageCount`](../pagecount) . |
 
 ### Смотрите также
 

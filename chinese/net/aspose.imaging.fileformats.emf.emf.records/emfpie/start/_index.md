@@ -1,14 +1,14 @@
 ---
 title: Start
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 64 位 WMF PointL 对象在 MS-WMF 第 2.2.2.15 节中指定其中 指定坐标在逻辑单位中第一个径向的端点
+description: 获取或设置一个 64 位 WMF PointL 对象在 MS-WMF 第 2.2.2.15 节中指定其中 以逻辑单位指定第一个径向端点的坐标
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfpie/start/
 ---
 ## EmfPie.Start property
 
-获取或设置一个 64 位 WMF PointL 对象，在 [MS-WMF] 第 2.2.2.15 节中指定，其中 指定坐标，在逻辑单位中，第一个径向的端点。
+获取或设置一个 64 位 WMF PointL 对象，在 [MS-WMF] 第 2.2.2.15 节中指定，其中 以逻辑单位指定第一个径向端点的坐标。
 
 ```csharp
 public Point Start { get; set; }

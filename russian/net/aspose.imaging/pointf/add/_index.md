@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Преобразует заданныйPointFaspose.imaging/pointfна указанныйSizeaspose.imaging/size.
+description: Переводит данноеPointFaspose.imaging/pointf указаннымSizeaspose.imaging/size .
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging/pointf/add/
 ---
 ## Add(PointF, Size) {#add}
 
-Преобразует заданный[`PointF`](../../pointf)на указанный[`Size`](../../size).
+Переводит данное[`PointF`](../../pointf) указанным[`Size`](../../size) .
 
 ```csharp
 public static PointF Add(PointF point, Size size)
@@ -16,12 +16,12 @@ public static PointF Add(PointF point, Size size)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | PointF | [`PointF`](../../pointf)для перевода. |
-| size | Size | Параметр[`Size`](../../size), который определяет числа, добавляемые к координатам*точки*. |
+| point | PointF | [`PointF`](../../pointf) переводить. |
+| size | Size | [`Size`](../../size) который указывает числа, которые нужно добавить к координатам*point*. |
 
 ### Возвращаемое значение
 
-Переведенный[`PointF`](../../pointf).
+переведенный[`PointF`](../../pointf).
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public static PointF Add(PointF point, Size size)
 
 ## Add(PointF, SizeF) {#add_1}
 
-Преобразует указанный[`PointF`](../../pointf)на указанный[`SizeF`](../../sizef).
+Переводит данное[`PointF`](../../pointf) по указанному[`SizeF`](../../sizef) .
 
 ```csharp
 public static PointF Add(PointF point, SizeF size)
@@ -42,12 +42,12 @@ public static PointF Add(PointF point, SizeF size)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | PointF | [`PointF`](../../pointf)для перевода. |
-| size | SizeF | Параметр[`SizeF`](../../sizef)который указывает числа, добавляемые к координатам*точки*. |
+| point | PointF | [`PointF`](../../pointf) переводить. |
+| size | SizeF | [`SizeF`](../../sizef) который указывает числа, которые нужно добавить к координатам*point*. |
 
 ### Возвращаемое значение
 
-Переведенный[`PointF`](../../pointf).
+переведенный[`PointF`](../../pointf).
 
 ### Смотрите также
 

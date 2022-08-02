@@ -1,14 +1,14 @@
 ---
 title: APoints
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 WMF PointL 对象的 Count 长度数组MS-WMF 第 2.2.2.15 节 指定端点和控制以逻辑单位表示的贝塞尔曲线点
+description: 获取或设置 WMF PointL 对象的 Count 长度数组MS-WMF 第 2.2.2.15 节 以逻辑单位指定贝塞尔曲线的端点和控制点
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfpolybezierto/apoints/
 ---
 ## EmfPolyBezierTo.APoints property
 
-获取或设置 WMF PointL 对象的 Count 长度数组（[MS-WMF] 第 2.2.2.15 节） 指定端点和控制以逻辑单位表示的贝塞尔曲线点。
+获取或设置 WMF PointL 对象的 Count 长度数组（[MS-WMF] 第 2.2.2.15 节） 以逻辑单位指定贝塞尔曲线的端点和控制点。
 
 ```csharp
 public Point[] APoints { get; set; }

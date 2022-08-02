@@ -1,14 +1,14 @@
 ---
 title: Right
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置定义此区域节点右子节点的 EmfPlusRegionNode 对象
+description: 获取或设置一个EmfPlusRegionNode对象该对象定义了这个区域节点的右子节点
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/right/
 ---
 ## EmfPlusRegionNodeChildNodes.Right property
 
-获取或设置定义此区域节点右子节点的 EmfPlusRegionNode 对象。
+获取或设置一个EmfPlusRegionNode对象，该对象定义了这个区域节点的右子节点。
 
 ```csharp
 public EmfPlusRegionNode Right { get; set; }

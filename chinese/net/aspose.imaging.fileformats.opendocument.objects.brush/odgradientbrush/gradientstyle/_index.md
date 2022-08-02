@@ -16,7 +16,7 @@ public OdGradientStyle GradientStyle { get; set; }
 
 ### 适当的价值
 
-渐变样式。
+渐变样式.
 
 ### 也可以看看
 

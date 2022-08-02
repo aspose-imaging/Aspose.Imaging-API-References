@@ -1,14 +1,14 @@
 ---
 title: RgnData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив байтов длины RgnDataSize указывающий объект RegionData в логических единицах. Если RegionMode имеет значение RGN_COPY эти данные можно опустить а область клипа ДОЛЖНА быть установлена в область клипа по умолчанию NULL.
+description: Получает или задает массив байтов длины RgnDataSize который указывает объект RegionData в логических единицах. Если RegionMode имеет значение RGN_COPY эти данные можно опустить а регион клипа ДОЛЖЕН быть установлен в регион клипа по умолчанию NULL.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/rgndata/
 ---
 ## EmfExtSelectClipRgn.RgnData property
 
-Получает или задает массив байтов длины RgnDataSize, указывающий объект RegionData в логических единицах. Если RegionMode имеет значение RGN_COPY, эти данные можно опустить, а область клипа ДОЛЖНА быть установлена в область клипа по умолчанию (NULL).
+Получает или задает массив байтов длины RgnDataSize, который указывает объект RegionData в логических единицах. Если RegionMode имеет значение RGN_COPY, эти данные можно опустить, а регион клипа ДОЛЖЕН быть установлен в регион клипа по умолчанию (NULL).
 
 ```csharp
 public EmfRegionData RgnData { get; set; }

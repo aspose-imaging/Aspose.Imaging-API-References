@@ -1,14 +1,14 @@
 ---
 title: EmfPlusStructureObjectType
 second_title: Aspose.Imaging for .NET API 参考
-description: 结构对象为嵌入在 EMF 元文件 记录中的数据结构指定容器与图形对象不同结构对象不是显式创建的它们是组成更复杂结构的组件
+description: 结构对象为嵌入在 EMF metafile 记录中的数据结构指定容器与图形对象不同结构对象不是显式创建的它们是组成更复杂结构的组件
 type: docs
 weight: 5800
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstructureobjecttype/
 ---
 ## EmfPlusStructureObjectType class
 
-结构对象为嵌入在 EMF+ 元文件 记录中的数据结构指定容器。与图形对象不同，结构对象不是显式创建的；它们是组成更复杂结构的组件
+结构对象为嵌入在 EMF+ metafile 记录中的数据结构指定容器。与图形对象不同，结构对象不是显式创建的；它们是组成更复杂结构的组件
 
 ```csharp
 public abstract class EmfPlusStructureObjectType : EmfPlusObject

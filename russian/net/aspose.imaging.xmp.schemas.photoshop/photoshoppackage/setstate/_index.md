@@ -16,7 +16,7 @@ public void SetState(string state)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| state | String | Состояние. |
+| state | String | Штат. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: FromPointF
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПреобразуетPointDaspose.imaging.fileformats.cdr.types/pointdвPointFaspose.imaging/pointfструктура.
+description: ПреобразуетPointDaspose.imaging.fileformats.cdr.types/pointd кPointFaspose.imaging/pointf структура.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.cdr.types/pointd/frompointf/
 ---
 ## PointD.FromPointF method
 
-Преобразует[`PointD`](../../pointd)в[`PointF`](../../../aspose.imaging/pointf)структура.
+Преобразует[`PointD`](../../pointd) к[`PointF`](../../../aspose.imaging/pointf) структура.
 
 ```csharp
 public void FromPointF(PointF point)
@@ -16,7 +16,7 @@ public void FromPointF(PointF point)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | PointF | Структура[`PointD`](../../pointd). |
+| point | PointF | [`PointD`](../../pointd) структура. |
 
 ### Смотрите также
 

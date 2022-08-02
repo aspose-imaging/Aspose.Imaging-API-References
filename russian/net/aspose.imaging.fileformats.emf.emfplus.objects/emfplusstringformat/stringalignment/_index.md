@@ -1,14 +1,14 @@
 ---
 title: StringAlignment
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее как выравнивать строку по горизонтали в прямоугольнике макета. Это значение ДОЛЖНО быть определено в перечислении StringAlignment раздел 2.1.1.29.
+description: Получает или задает 32-битное целое число без знака указывающее как выровнять строку по горизонтали в прямоугольнике макета. Это значение ДОЛЖНО быть определено в перечислении StringAlignment раздел 2.1.1.29.
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/stringalignment/
 ---
 ## EmfPlusStringFormat.StringAlignment property
 
-Получает или задает 32-разрядное целое число без знака, указывающее, как выравнивать строку по горизонтали в прямоугольнике макета. Это значение ДОЛЖНО быть определено в перечислении StringAlignment (раздел 2.1.1.29).
+Получает или задает 32-битное целое число без знака, указывающее, как выровнять строку по горизонтали в прямоугольнике макета. Это значение ДОЛЖНО быть определено в перечислении StringAlignment (раздел 2.1.1.29).
 
 ```csharp
 public EmfPlusStringAlignment StringAlignment { get; set; }

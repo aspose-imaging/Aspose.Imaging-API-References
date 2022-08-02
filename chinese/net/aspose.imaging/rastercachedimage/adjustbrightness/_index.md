@@ -31,8 +31,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterCachedImage rasterImage = (Aspose.Imaging.RasterCachedImage)image;
 
-        // 设置亮度值。可接受的亮度值在 [-255, 255].
- 范围内
+    // 设置亮度值。可接受的亮度值在 [-255, 255] 范围内。
     rasterImage.AdjustBrightness(50);
     rasterImage.Save(dir + "sample.AdjustBrightness.png");
 }

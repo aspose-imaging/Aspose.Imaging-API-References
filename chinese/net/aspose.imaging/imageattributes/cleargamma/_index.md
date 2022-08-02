@@ -32,7 +32,7 @@ public void ClearGamma(ColorAdjustType type)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| type | ColorAdjustType | [`ColorAdjustType`](../../coloradjusttype)的一个元素，用于指定伽玛的类别校正被禁用。 |
+| type | ColorAdjustType | 一个元素[`ColorAdjustType`](../../coloradjusttype)指定禁用伽马校正的类别。 |
 
 ### 也可以看看
 

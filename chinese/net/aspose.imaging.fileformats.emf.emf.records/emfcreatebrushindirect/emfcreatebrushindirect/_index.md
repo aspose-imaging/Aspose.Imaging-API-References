@@ -1,14 +1,14 @@
 ---
 title: EmfCreateBrushIndirect
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfCreateBrushIndirectaspose.imaging.fileformats.emf.emf.records/emfcreatebrushindirect类的新实例
+description: 初始化EmfCreateBrushIndirectaspose.imaging.fileformats.emf.emf.records/emfcreatebrushindirect类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcreatebrushindirect/emfcreatebrushindirect/
 ---
 ## EmfCreateBrushIndirect(EmfRecord) {#constructor_1}
 
-初始化[`EmfCreateBrushIndirect`](../../emfcreatebrushindirect)类的新实例。
+初始化[`EmfCreateBrushIndirect`](../../emfcreatebrushindirect)类.
 
 ```csharp
 public EmfCreateBrushIndirect(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfCreateBrushIndirect(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfCreateBrushIndirect(EmfRecord source)
 
 ## EmfCreateBrushIndirect() {#constructor}
 
-初始化[`EmfCreateBrushIndirect`](../../emfcreatebrushindirect)类的新实例。
+初始化[`EmfCreateBrushIndirect`](../../emfcreatebrushindirect)类.
 
 ```csharp
 public EmfCreateBrushIndirect()
@@ -37,7 +37,7 @@ public EmfCreateBrushIndirect()
 
 ### 例子
 
-以下示例显示如何设置 EMF 的背景颜色。它实际上在绘制所有其他对象之前放置了一个背景颜色的矩形。
+以下示例显示了如何设置 EMF 的背景颜色。它实际上在绘制所有其他对象之前放置了一个背景颜色的矩形。
 
 ```csharp
 [C#]
@@ -54,7 +54,7 @@ using (Aspose.Imaging.FileFormats.Emf.MetaImage image = (Aspose.Imaging.FileForm
 }
     
 /// <summary>
-    /// 改变EMF背景的辅助方法.
+/// 改变 EMF 背景的辅助方法。
 /// </summary>
 public static void AddBackgroundRectangleEmf(Aspose.Imaging.FileFormats.Emf.EmfImage image, Aspose.Imaging.Color color)
 {
@@ -64,28 +64,28 @@ public static void AddBackgroundRectangleEmf(Aspose.Imaging.FileFormats.Emf.EmfI
         return;
     }
 
-        //设置Rectangle
+    //设置矩形
     Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfRectangle rectangle = new Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfRectangle();
     rectangle.Box = image.Header.EmfHeader.Bounds;
 
-        //设置画笔
+    //设置画笔
     Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfCreateBrushIndirect brush = new Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfCreateBrushIndirect();
     brush.LogBrush = new Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfLogBrushEx();
     brush.LogBrush.Argb32ColorRef = color.ToArgb();
 
-        // 对象索引从 1 开始；零保留用于引用元文件本身，请参阅
-        // https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-emf/e4fa4e63-9096-4cdc-b776-85e2a1e4e1f4
+    // 对象索引从 1 开始；零保留用于引用元文件本身，请参阅
+    // https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-emf/e4fa4e63-9096-4cdc-b776-85e2a1e4e1f4
     brush.IhBrush = 1;
 
-        //选择brush
+    //选择画笔
     Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSelectObject selectObject = new Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSelectObject();
     selectObject.ObjectHandle = 1;
 
-        //移除brush
+    //删除画笔
     Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfDeleteObject deleteObject = new Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfDeleteObject();
     deleteObject.ObjectHandle = 1;
 
-        //添加记录
+    //添加记录
     image.Records.Insert(1, brush);
     image.Records.Insert(2, selectObject);
     image.Records.Insert(3, rectangle);

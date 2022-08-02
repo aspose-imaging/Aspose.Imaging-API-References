@@ -1,14 +1,14 @@
 ---
 title: GPSVersionID
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 GPS 版本标识符
+description: 获取或设置 GPS 版本标识
 type: docs
 weight: 670
 url: /zh/net/aspose.imaging.exif/exifdata/gpsversionid/
 ---
 ## ExifData.GPSVersionID property
 
-获取或设置 GPS 版本标识符。
+获取或设置 GPS 版本标识。
 
 ```csharp
 public byte[] GPSVersionID { get; set; }

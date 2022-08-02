@@ -1,14 +1,14 @@
 ---
 title: EmfPaintRgn
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPaintRgnaspose.imaging.fileformats.emf.emf.records/emfpaintrgn.
+description: Инициализирует новый экземплярEmfPaintRgnaspose.imaging.fileformats.emf.emf.records/emfpaintrgn класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/emfpaintrgn/
 ---
 ## EmfPaintRgn(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfPaintRgn`](../../emfpaintrgn).
+Инициализирует новый экземпляр[`EmfPaintRgn`](../../emfpaintrgn) класс.
 
 ```csharp
 public EmfPaintRgn(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfPaintRgn(EmfRecord source)
 
 ## EmfPaintRgn() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfPaintRgn`](../../emfpaintrgn).
+Инициализирует новый экземпляр[`EmfPaintRgn`](../../emfpaintrgn) класс.
 
 ```csharp
 public EmfPaintRgn()

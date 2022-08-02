@@ -1,14 +1,14 @@
 ---
 title: EyScale
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位浮点值该值指定在 y 方向上缩放文本的程度
+description: 获取或设置一个 32 位浮点值该值指定文本在 y 方向上的缩放比例
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/eyscale/
 ---
 ## EmfSmallTextOut.EyScale property
 
-获取或设置一个 32 位浮点值，该值指定在 y 方向上缩放文本的程度。
+获取或设置一个 32 位浮点值，该值指定文本在 y 方向上的缩放比例。
 
 ```csharp
 public float EyScale { get; set; }

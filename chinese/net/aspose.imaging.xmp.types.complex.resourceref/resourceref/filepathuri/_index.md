@@ -1,14 +1,14 @@
 ---
 title: FilePathUri
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置文件路径 URI
+description: 获取或设置文件路径URI
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.xmp.types.complex.resourceref/resourceref/filepathuri/
 ---
 ## ResourceRef.FilePathUri property
 
-获取或设置文件路径 URI。
+获取或设置文件路径URI。
 
 ```csharp
 public string FilePathUri { get; set; }
@@ -16,7 +16,7 @@ public string FilePathUri { get; set; }
 
 ### 适当的价值
 
-文件路径 URI。
+文件路径 URI.
 
 ### 也可以看看
 

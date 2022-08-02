@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Создает новый экземпляр изображения с ltparamref nameimageOptionsgtlt/paramrefgt.
+description: Создает новый экземпляр образа сimageOptions .
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging/iimagecreator/create/
 ---
 ## IImageCreator.Create method
 
-Создает новый экземпляр изображения с &lt;paramref name="imageOptions"&gt;&lt;/paramref&gt;.
+Создает новый экземпляр образа с*imageOptions* .
 
 ```csharp
 public Image Create(StreamContainer streamContainer, ImageOptionsBase imageOptions, int width, 
@@ -17,8 +17,8 @@ public Image Create(StreamContainer streamContainer, ImageOptionsBase imageOptio
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| streamContainer | StreamContainer | Контейнер потока для создания данных изображения. |
-| imageOptions | ImageOptionsBase | Параметры изображения. |
+| streamContainer | StreamContainer | Контейнер потока, в котором создаются данные изображения. |
+| imageOptions | ImageOptionsBase | Варианты изображения. |
 | width | Int32 | ширина нового изображения |
 | height | Int32 | высота нового изображения |
 

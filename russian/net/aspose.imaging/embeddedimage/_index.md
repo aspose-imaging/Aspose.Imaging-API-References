@@ -1,14 +1,14 @@
 ---
 title: EmbeddedImage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Класс встроенного образа
+description: Встроенное изображение class
 type: docs
 weight: 860
 url: /ru/net/aspose.imaging/embeddedimage/
 ---
 ## EmbeddedImage class
 
-Класс встроенного образа
+Встроенное изображение class
 
 ```csharp
 public class EmbeddedImage : DisposableObject

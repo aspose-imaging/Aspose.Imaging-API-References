@@ -1,14 +1,14 @@
 ---
 title: Horizontal
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值该值指示此OdLineToaspose.imaging.fileformats.opendocument.objects.graphic/odlineto是否是垂直的
+description: 获取或设置一个值该值指示是否OdLineToaspose.imaging.fileformats.opendocument.objects.graphic/odlineto是垂直的
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/horizontal/
 ---
 ## OdLineTo.Horizontal property
 
-获取或设置一个值，该值指示此[`OdLineTo`](../../odlineto)是否是垂直的。
+获取或设置一个值，该值指示是否[`OdLineTo`](../../odlineto)是垂直的。
 
 ```csharp
 public bool Horizontal { get; set; }
@@ -16,7 +16,7 @@ public bool Horizontal { get; set; }
 
 ### 适当的价值
 
-` true` 如果垂直；否则，` false` 。
+`真的`如果是垂直的；否则，`错误的` .
 
 ### 也可以看看
 

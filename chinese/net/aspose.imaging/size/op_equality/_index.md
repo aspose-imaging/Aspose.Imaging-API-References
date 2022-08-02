@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: Aspose.Imaging for .NET API 参考
-description: 测试两个Sizeaspose.imaging/size结构是否相等
+description: 测试是否两个Sizeaspose.imaging/size结构是平等的
 type: docs
 weight: 150
 url: /zh/net/aspose.imaging/size/op_equality/
 ---
 ## Size Equality operator
 
-测试两个[`Size`](../../size)结构是否相等。
+测试是否两个[`Size`](../../size)结构是平等的。
 
 ```csharp
 public static bool operator ==(Size size1, Size size2)
@@ -16,12 +16,12 @@ public static bool operator ==(Size size1, Size size2)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| size1 | Size | 等式运算符左侧的[`Size`](../../size)结构. |
-| size2 | Size | [`Size`](../../size)等式运算符右侧的结构。 |
+| size1 | Size | 这[`Size`](../../size)等式运算符左侧的结构。 |
+| size2 | Size | 这[`Size`](../../size)等式运算符右侧的结构。 |
 
 ### 返回值
 
-如果*size1*和*size2*宽度和高度相等，则为真；否则为假。
+真如果*size1*和*size2*具有相等的宽度和高度；否则为假。
 
 ### 也可以看看
 

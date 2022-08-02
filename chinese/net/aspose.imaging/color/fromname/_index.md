@@ -1,14 +1,14 @@
 ---
 title: FromName
 second_title: Aspose.Imaging for .NET API 参考
-description: 从预定义颜色的指定名称创建Coloraspose.imaging/color结构
+description: 创建一个Coloraspose.imaging/color结构来自预定义颜色的指定名称
 type: docs
 weight: 1450
 url: /zh/net/aspose.imaging/color/fromname/
 ---
 ## Color.FromName method
 
-从预定义颜色的指定名称创建[`Color`](../../color)结构。
+创建一个[`Color`](../../color)结构来自预定义颜色的指定名称。
 
 ```csharp
 public static Color FromName(string name)
@@ -16,11 +16,11 @@ public static Color FromName(string name)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | String | 预定义颜色名称的字符串。有效名称与[`KnownColor`](../../knowncolor)枚举的元素名称相同。 |
+| name | String | 一个字符串，它是预定义颜色的名称。有效名称与元素的名称相同[`KnownColor`](../../knowncolor)枚举。 |
 
 ### 返回值
 
-[`Color`](../../color)此方法创建。
+这[`Color`](../../color)该方法创建的。
 
 ### 也可以看看
 

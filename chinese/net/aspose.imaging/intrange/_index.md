@@ -3,7 +3,7 @@ title: IntRange
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示元素序列的类
 type: docs
-weight: 10340
+weight: 10330
 url: /zh/net/aspose.imaging/intrange/
 ---
 ## IntRange class
@@ -18,9 +18,9 @@ public class IntRange
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IntRange](intrange#constructor_2)(int[]) | 初始化[`IntRange`](../intrange)类的新实例。 |
-| [IntRange](intrange#constructor)(int, int) | 初始化[`IntRange`](../intrange)类的新实例。 |
-| [IntRange](intrange#constructor_1)(int, int, int) | 初始化[`IntRange`](../intrange)类的新实例。 |
+| [IntRange](intrange#constructor_2)(int[]) | 初始化[`IntRange`](../intrange)类. |
+| [IntRange](intrange#constructor)(int, int) | 初始化[`IntRange`](../intrange)类. |
+| [IntRange](intrange#constructor_1)(int, int, int) | 初始化[`IntRange`](../intrange)类. |
 
 ## 特性
 
@@ -33,7 +33,7 @@ public class IntRange
 | 姓名 | 描述 |
 | --- | --- |
 | [GetArrayOneItemFromIndex](../../aspose.imaging/intrange/getarrayoneitemfromindex)(int) | 从指定索引返回一项数组 |
-| static [GetRange](../../aspose.imaging/intrange/getrange)(int, int, int) | 获取从 start |
+| static [GetRange](../../aspose.imaging/intrange/getrange)(int, int, int) | 获取从 start 开始的 int 元素的计数范围 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: AdjustContrast
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Контраст изображения
+description: Изображение контрастное
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging/rastercachedimage/adjustcontrast/
 ---
 ## RasterCachedImage.AdjustContrast method
 
-Контраст изображения
+Изображение контрастное
 
 ```csharp
 public override void AdjustContrast(float contrast)
@@ -16,11 +16,11 @@ public override void AdjustContrast(float contrast)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| contrast | Single | Значение контраста (в диапазоне [-100 ; 100]) |
+| contrast | Single | Значение контраста (в диапазоне [-100; 100]) |
 
 ### Примеры
 
-В следующем примере выполняется коррекция контраста растрового кэшированного изображения.
+В следующем примере выполняется коррекция контраста кэшированного растрового изображения.
 
 ```csharp
 [C#]
@@ -31,7 +31,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterCachedImage rasterImage = (Aspose.Imaging.RasterCachedImage)image;
 
-     // Установить значение контраста. Допустимые значения контраста находятся в диапазоне [-100f, 100f].
+    // Установить значение контраста. Принятые значения контраста находятся в диапазоне [-100f, 100f].
     rasterImage.AdjustContrast(50);
     rasterImage.Save(dir + "sample.AdjustContrast.png");
 }

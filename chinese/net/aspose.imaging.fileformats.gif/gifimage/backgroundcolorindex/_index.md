@@ -1,14 +1,14 @@
 ---
 title: BackgroundColorIndex
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置背景颜色索引
+description: 获取或设置背景色索引
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.gif/gifimage/backgroundcolorindex/
 ---
 ## GifImage.BackgroundColorIndex property
 
-获取或设置背景颜色索引。
+获取或设置背景色索引。
 
 ```csharp
 public byte BackgroundColorIndex { get; set; }
@@ -16,7 +16,7 @@ public byte BackgroundColorIndex { get; set; }
 
 ### 适当的价值
 
-背景颜色索引。
+背景色索引。
 
 ### 也可以看看
 

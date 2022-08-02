@@ -18,13 +18,13 @@ public sealed class EmfIntersectClipRect : EmfClippingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfIntersectClipRect](emfintersectcliprect)(EmfRecord) | 初始化[`EmfIntersectClipRect`](../emfintersectcliprect)类的新实例。 |
+| [EmfIntersectClipRect](emfintersectcliprect)(EmfRecord) | 初始化[`EmfIntersectClipRect`](../emfintersectcliprect)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Clip](../../aspose.imaging.fileformats.emf.emf.records/emfintersectcliprect/clip) { get; set; } | 获取或设置一个以逻辑单位指定矩形的 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节）。 |
+| [Clip](../../aspose.imaging.fileformats.emf.emf.records/emfintersectcliprect/clip) { get; set; } | 获取或设置以逻辑单位指定矩形的 WMF RectL 对象（[MS-WMF] 2.2.2.19 节）。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

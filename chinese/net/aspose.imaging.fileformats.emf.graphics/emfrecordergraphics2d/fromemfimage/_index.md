@@ -1,14 +1,14 @@
 ---
 title: FromEmfImage
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取EmfRecorderGraphics2Daspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d的实例其中包含来自 Emf 图像的所有记录
+description: 获取一个实例EmfRecorderGraphics2Daspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d包含 Emf 图像中的所有记录
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d/fromemfimage/
 ---
 ## EmfRecorderGraphics2D.FromEmfImage method
 
-获取[`EmfRecorderGraphics2D`](../../emfrecordergraphics2d)的实例，其中包含来自 Emf 图像的所有记录。
+获取一个实例[`EmfRecorderGraphics2D`](../../emfrecordergraphics2d)包含 Emf 图像中的所有记录。
 
 ```csharp
 public static EmfRecorderGraphics2D FromEmfImage(EmfImage emfImage)
@@ -20,7 +20,7 @@ public static EmfRecorderGraphics2D FromEmfImage(EmfImage emfImage)
 
 ### 返回值
 
-[`EmfRecorderGraphics2D`](../../emfrecordergraphics2d)
+的一个实例[`EmfRecorderGraphics2D`](../../emfrecordergraphics2d)
 
 ### 例子
 
@@ -36,12 +36,12 @@ using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFo
     Aspose.Imaging.FileFormats.Emf.Graphics.EmfRecorderGraphics2D graphics =
         Aspose.Imaging.FileFormats.Emf.Graphics.EmfRecorderGraphics2D.FromEmfImage(emfImage);
 
-        // 首先，获取图片size
+    // 首先，获取图片大小
     int width = emfImage.Width;
     int height = emfImage.Height;
 
-        // 其次，计算一个变换，沿着图像的主对角线放置一个文本字符串 -
-        // 从左上角到右下角。
+    // 其次，计算一个变换，沿着图像的主对角线放置一个文本字符串 -
+    // 从左上角到右下角。
     float emFontSize = 96f;
     float d = (float)System.Math.Sqrt(width * width + height * height);
     float scaleFactor = d / (emFontSize * 5f);
@@ -54,13 +54,13 @@ using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFo
     transform.Rotate((float)degrees);
     transform.Scale(scaleFactor, scaleFactor);
 
-        // 然后，设置变换。
+    // 然后，设置变换。
     graphics.SetTransform(transform);
 
-        // 最后，沿主对角线放一个水印（粉红色的文字串）。
+    // 最后，沿主对角线放置一个水印（粉红色的文本字符串）。
     graphics.DrawString("WATERMARK", new Aspose.Imaging.Font("Courier New", emFontSize), Aspose.Imaging.Color.LightPink, 0, 0/*, (float)degrees*/);
 
-        // 将带水印的图像保存到另一个 EMF 文件中。
+    // 将带水印的图像保存到另一个 EMF 文件中。
     using (Aspose.Imaging.FileFormats.Emf.EmfImage scaledEmfImage = graphics.EndRecording())
     {
         scaledEmfImage.Save(dir + "test.scaled.emf");

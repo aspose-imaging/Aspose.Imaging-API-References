@@ -18,8 +18,8 @@ public class WmfSelectObject : WmfObject
 
 | Имя | Описание |
 | --- | --- |
-| [WmfSelectObject](wmfselectobject#constructor)() | Инициализирует новый экземпляр класса[`WmfSelectObject`](../wmfselectobject). |
-| [WmfSelectObject](wmfselectobject#constructor_1)(WmfGraphicObject) | Инициализирует новый экземпляр класса[`WmfSelectObject`](../wmfselectobject). |
+| [WmfSelectObject](wmfselectobject#constructor)() | Инициализирует новый экземпляр[`WmfSelectObject`](../wmfselectobject) класс. |
+| [WmfSelectObject](wmfselectobject#constructor_1)(WmfGraphicObject) | Инициализирует новый экземпляр[`WmfSelectObject`](../wmfselectobject) класс. |
 
 ## Характеристики
 

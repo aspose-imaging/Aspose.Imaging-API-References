@@ -1,14 +1,14 @@
 ---
 title: EmfMetafileHeaderExtension1
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfMetafileHeaderExtension1aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension1.
+description: Инициализирует новый экземплярEmfMetafileHeaderExtension1aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension1 класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension1/emfmetafileheaderextension1/
 ---
 ## EmfMetafileHeaderExtension1(EmfMetafileHeader) {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfMetafileHeaderExtension1`](../../emfmetafileheaderextension1).
+Инициализирует новый экземпляр[`EmfMetafileHeaderExtension1`](../../emfmetafileheaderextension1) класс.
 
 ```csharp
 public EmfMetafileHeaderExtension1(EmfMetafileHeader header)
@@ -29,7 +29,7 @@ public EmfMetafileHeaderExtension1(EmfMetafileHeader header)
 
 ## EmfMetafileHeaderExtension1(EmfMetafileHeaderExtension1) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfMetafileHeaderExtension1`](../../emfmetafileheaderextension1).
+Инициализирует новый экземпляр[`EmfMetafileHeaderExtension1`](../../emfmetafileheaderextension1) класс.
 
 ```csharp
 public EmfMetafileHeaderExtension1(EmfMetafileHeaderExtension1 header)

@@ -1,14 +1,14 @@
 ---
 title: TabStops
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置浮点值的可选数组指定 此对象的可选制表位位置每个制表符 停止值表示制表符 停止之间的空格数或者对于第一个制表位空格数 开头之间的空格数文本行和第一个制表位 如果 EmfPlusStringFormat 对象中 TabStopCount 字段的值大于 0则该字段必须存在
+description: 获取或设置浮点值的可选数组指定 此对象的可选制表位位置每个制表位 停止值表示制表位之间的空格数 停止或者对于第一个制表位表示一行文本的开头和第一个制表位之间的空格数  如果 EmfPlusStringFormat 对象中 TabStopCount 字段的值大于 0则该字段必须存在
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformatdata/tabstops/
 ---
 ## EmfPlusStringFormatData.TabStops property
 
-获取或设置浮点值的可选数组，指定 此对象的可选制表位位置。每个制表符 停止值表示制表符 停止之间的空格数，或者，对于第一个制表位，空格数 开头之间的空格数文本行和第一个制表位。 如果 EmfPlusStringFormat 对象中 TabStopCount 字段的值大于 0，则该字段必须存在。
+获取或设置浮点值的可选数组，指定 此对象的可选制表位位置。每个制表位 停止值表示制表位之间的空格数 停止，或者对于第一个制表位，表示一行文本的开头和第一个制表位之间的空格数 。 如果 EmfPlusStringFormat 对象中 TabStopCount 字段的值大于 0，则该字段必须存在。
 
 ```csharp
 public float[] TabStops { get; set; }

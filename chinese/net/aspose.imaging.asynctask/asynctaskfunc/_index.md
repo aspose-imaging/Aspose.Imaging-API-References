@@ -1,14 +1,14 @@
 ---
 title: AsyncTaskFunc
 second_title: Aspose.Imaging for .NET API 参考
-description: 具有泛型类型结果的异步任务的长操作委托
+description: 具有通用类型结果的异步任务的长操作委托
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.asynctask/asynctaskfunc/
 ---
 ## AsyncTaskFunc delegate
 
-具有泛型类型结果的异步任务的长操作委托。
+具有通用类型结果的异步任务的长操作委托。
 
 ```csharp
 public delegate object AsyncTaskFunc(IAsyncTaskState taskState);
@@ -20,7 +20,7 @@ public delegate object AsyncTaskFunc(IAsyncTaskState taskState);
 
 ### 返回值
 
-长操作的结果。
+长时间操作的结果。
 
 ### 也可以看看
 

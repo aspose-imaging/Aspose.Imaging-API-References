@@ -1,14 +1,14 @@
 ---
 title: CySrc
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位有符号整数它指定源 矩形的逻辑高度该值必须大于零
+description: 获取或设置一个 32 位有符号整数它指定源 矩形的逻辑高度此值必须大于零
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfalphablend/cysrc/
 ---
 ## EmfAlphaBlend.CySrc property
 
-获取或设置一个 32 位有符号整数，它指定源 矩形的逻辑高度。该值必须大于零。
+获取或设置一个 32 位有符号整数，它指定源 矩形的逻辑高度。此值必须大于零。
 
 ```csharp
 public int CySrc { get; set; }

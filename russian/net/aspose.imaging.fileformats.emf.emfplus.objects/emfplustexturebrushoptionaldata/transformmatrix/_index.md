@@ -1,14 +1,14 @@
 ---
 title: TransformMatrix
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает необязательный объект EmfPlusTransformMatrix раздел 2.2.2.47 который определяет преобразование мирового пространства в пространство устройства для текстурная кисть. Это поле ДОЛЖНО присутствовать если флаг BrushDataTransform установлен в поле BrushDataFlags объекта EmfPlusTextureBrushData.
+description: Получает или задает необязательный объект EmfPlusTransformMatrix раздел 2.2.2.47  который определяет преобразование мирового пространства в пространство устройства для текстурной кисти . Это поле ДОЛЖНО присутствовать если флаг BrushDataTransform установлен в поле BrushDataFlags объекта EmfPlusTextureBrushData.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushoptionaldata/transformmatrix/
 ---
 ## EmfPlusTextureBrushOptionalData.TransformMatrix property
 
-Получает или задает необязательный объект EmfPlusTransformMatrix (раздел 2.2.2.47) который определяет преобразование мирового пространства в пространство устройства для текстурная кисть. Это поле ДОЛЖНО присутствовать, если флаг BrushDataTransform установлен в поле BrushDataFlags объекта EmfPlusTextureBrushData.
+Получает или задает необязательный объект EmfPlusTransformMatrix (раздел 2.2.2.47) , который определяет преобразование мирового пространства в пространство устройства для текстурной кисти . Это поле ДОЛЖНО присутствовать, если флаг BrushDataTransform установлен в поле BrushDataFlags объекта EmfPlusTextureBrushData.
 
 ```csharp
 public Matrix TransformMatrix { get; set; }

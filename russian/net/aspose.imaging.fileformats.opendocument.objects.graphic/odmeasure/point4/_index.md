@@ -1,14 +1,14 @@
 ---
 title: Point4
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает точку4.
+description: Получает или задает точку4.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odmeasure/point4/
 ---
 ## OdMeasure.Point4 property
 
-Получает или устанавливает точку4.
+Получает или задает точку4.
 
 ```csharp
 public PointF Point4 { get; set; }

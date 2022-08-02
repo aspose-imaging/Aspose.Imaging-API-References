@@ -1,14 +1,14 @@
 ---
 title: EmfPlusCombineMode
 second_title: Aspose.Imaging for .NET API 参考
-description: CombineMode 枚举定义了组合两个图形区域的模式 在以下描述中将要合并的区域称为现有区域和新区域
+description: CombineMode 枚举定义了组合两个图形区域的模式 在以下描述中要合并的区域称为现有和新区域
 type: docs
 weight: 4710
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscombinemode/
 ---
 ## EmfPlusCombineMode enumeration
 
-CombineMode 枚举定义了组合两个图形区域的模式。 在以下描述中，将要合并的区域称为“现有”区域和“新”区域。
+CombineMode 枚举定义了组合两个图形区域的模式。 在以下描述中，要合并的区域称为“现有”和“新”区域。
 
 ```csharp
 public enum EmfPlusCombineMode : byte
@@ -22,7 +22,7 @@ public enum EmfPlusCombineMode : byte
 | CombineModeIntersect | `1` | 用现有区域和新区域的交集替换现有区域。 |
 | CombineModeUnion | `2` | 将现有区域替换为现有区域和新区域的并集。 |
 | CombineModeXor | `3` | 用现有区域和新区域的 XOR 替换现有区域。 |
-| CombineModeExclude | `4` | 用不在新区域中的自身部分替换现有区域。 |
+| CombineModeExclude | `4` | 用不在新区域中的部分替换现有区域。 |
 | CombineModeComplement | `5` | 将现有区域替换为新区域中不在现有区域中的部分。 |
 
 ### 也可以看看

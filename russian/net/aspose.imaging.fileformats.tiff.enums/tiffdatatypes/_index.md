@@ -1,14 +1,14 @@
 ---
 title: TiffDataTypes
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Перечисление типа данных tiff.
+description: Тип данных TIFF enum.
 type: docs
 weight: 7630
 url: /ru/net/aspose.imaging.fileformats.tiff.enums/tiffdatatypes/
 ---
 ## TiffDataTypes enumeration
 
-Перечисление типа данных tiff.
+Тип данных TIFF enum.
 
 ```csharp
 public enum TiffDataTypes : ushort
@@ -19,7 +19,7 @@ public enum TiffDataTypes : ushort
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Byte | `1` | 8-битное целое число без знака. |
-| Ascii | `2` | 8-битные байты с последним байтом` null` . |
+| Ascii | `2` | 8-битные байты с последним байтом`нулевой` . |
 | Short | `3` | 16-битное целое число без знака. |
 | Long | `4` | 32-битное целое число без знака. |
 | Rational | `5` | 64-битная дробь без знака. |
@@ -28,8 +28,8 @@ public enum TiffDataTypes : ushort
 | Sshort | `8` | 16-битное целое число со знаком. |
 | Slong | `9` | 32-битное целое число со знаком. |
 | Srational | `10` | 64-битная дробь со знаком. |
-| Float | `11` | 32-битный IEEE с плавающей запятой. |
-| Double | `12` | 64-битный IEEE с плавающей запятой. |
+| Float | `11` | 32-битная IEEE с плавающей запятой. |
+| Double | `12` | 64-битная IEEE с плавающей запятой. |
 | Ifd | `13` | Указатель на каталог файлов изображений Exif (IFD). |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: OdTextSpan
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化OdTextSpanaspose.imaging.fileformats.opendocument.objects.graphic/odtextspan类的新实例
+description: 初始化OdTextSpanaspose.imaging.fileformats.opendocument.objects.graphic/odtextspan类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odtextspan/odtextspan/
 ---
 ## OdTextSpan constructor
 
-初始化[`OdTextSpan`](../../odtextspan)类的新实例。
+初始化[`OdTextSpan`](../../odtextspan)类.
 
 ```csharp
 public OdTextSpan(OdObject parent)
@@ -16,7 +16,7 @@ public OdTextSpan(OdObject parent)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | OdObject | 父级。 |
+| parent | OdObject | 家长。 |
 
 ### 也可以看看
 

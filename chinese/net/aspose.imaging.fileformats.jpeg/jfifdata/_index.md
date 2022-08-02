@@ -18,7 +18,7 @@ public sealed class JFIFData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [JFIFData](jfifdata)() | 初始化[`JFIFData`](../jfifdata)类的新实例。 |
+| [JFIFData](jfifdata)() | 初始化[`JFIFData`](../jfifdata)类. |
 
 ## 特性
 

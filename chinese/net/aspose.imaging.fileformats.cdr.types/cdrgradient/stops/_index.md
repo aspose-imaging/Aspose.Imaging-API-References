@@ -16,7 +16,7 @@ public List<CdrGradientStop> Stops { get; set; }
 
 ### 适当的价值
 
-停止。
+停靠点。
 
 ### 也可以看看
 

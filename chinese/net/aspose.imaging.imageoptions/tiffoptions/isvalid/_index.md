@@ -1,14 +1,14 @@
 ---
 title: IsValid
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示TiffOptionsaspose.imaging.imageoptions/tiffoptions是否已正确配置使用 Validate 方法查找失败原因
+description: 获取一个值该值指示是否TiffOptionsaspose.imaging.imageoptions/tiffoptions已正确配置使用 Validate 方法查找失败原因
 type: docs
 weight: 270
 url: /zh/net/aspose.imaging.imageoptions/tiffoptions/isvalid/
 ---
 ## TiffOptions.IsValid property
 
-获取一个值，该值指示[`TiffOptions`](../../tiffoptions)是否已正确配置。使用 Validate 方法查找失败原因。
+获取一个值，该值指示是否[`TiffOptions`](../../tiffoptions)已正确配置。使用 Validate 方法查找失败原因。
 
 ```csharp
 public bool IsValid { get; }
@@ -16,7 +16,7 @@ public bool IsValid { get; }
 
 ### 适当的价值
 
-` true` 如果 TiffOptions 配置正确；否则，` false` 。
+`真的`如果 TiffOptions 配置正确；否则，`错误的` .
 
 ### 也可以看看
 

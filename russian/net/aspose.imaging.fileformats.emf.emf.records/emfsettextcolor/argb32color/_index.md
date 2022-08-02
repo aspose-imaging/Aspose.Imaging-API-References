@@ -1,14 +1,14 @@
 ---
 title: Argb32Color
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект WMF ColorRef MS-WMF раздел 2.2.2.8 который указывает значение цвета текста.
+description: Получает или задает объект WMF ColorRef MS-WMF раздел 2.2.2.8 который определяет значение цвета текста.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsettextcolor/argb32color/
 ---
 ## EmfSetTextColor.Argb32Color property
 
-Получает или задает объект WMF ColorRef ([MS-WMF], раздел 2.2.2.8), который указывает значение цвета текста.
+Получает или задает объект WMF ColorRef ([MS-WMF], раздел 2.2.2.8), который определяет значение цвета текста.
 
 ```csharp
 public int Argb32Color { get; set; }

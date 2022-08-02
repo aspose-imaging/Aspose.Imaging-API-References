@@ -1,14 +1,14 @@
 ---
 title: EmfAlphaBlend
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfAlphaBlendaspose.imaging.fileformats.emf.emf.records/emfalphablend.
+description: Инициализирует новый экземплярEmfAlphaBlendaspose.imaging.fileformats.emf.emf.records/emfalphablend класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfalphablend/emfalphablend/
 ---
 ## EmfAlphaBlend constructor
 
-Инициализирует новый экземпляр класса[`EmfAlphaBlend`](../../emfalphablend).
+Инициализирует новый экземпляр[`EmfAlphaBlend`](../../emfalphablend) класс.
 
 ```csharp
 public EmfAlphaBlend(EmfRecord source)

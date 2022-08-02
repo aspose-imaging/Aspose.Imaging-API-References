@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示此Sizeaspose.imaging/size的宽度和高度是否为 0
+description: 获取一个值该值指示这是否Sizeaspose.imaging/size宽度和高度为 0.
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging/size/isempty/
 ---
 ## Size.IsEmpty property
 
-获取一个值，该值指示此[`Size`](../../size)的宽度和高度是否为 0。
+获取一个值，该值指示这是否[`Size`](../../size)宽度和高度为 0.
 
 ```csharp
 public bool IsEmpty { get; }

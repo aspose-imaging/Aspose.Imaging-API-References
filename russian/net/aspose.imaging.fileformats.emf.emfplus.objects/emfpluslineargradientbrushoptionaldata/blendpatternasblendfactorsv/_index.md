@@ -1,14 +1,14 @@
 ---
 title: BlendPatternAsBlendFactorsV
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает шаблон наложения как коэффициенты наложения v.
+description: Получает шаблон смешивания как коэффициенты смешивания v.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushoptionaldata/blendpatternasblendfactorsv/
 ---
 ## EmfPlusLinearGradientBrushOptionalData.BlendPatternAsBlendFactorsV property
 
-Получает шаблон наложения как коэффициенты наложения v.
+Получает шаблон смешивания как коэффициенты смешивания v.
 
 ```csharp
 public EmfPlusBlendFactors BlendPatternAsBlendFactorsV { get; }
@@ -16,7 +16,7 @@ public EmfPlusBlendFactors BlendPatternAsBlendFactorsV { get; }
 
 ### Стоимость имущества
 
-Шаблон наложения как факторы наложения v.
+Шаблон смешивания как коэффициенты смешивания v.
 
 ### Смотрите также
 

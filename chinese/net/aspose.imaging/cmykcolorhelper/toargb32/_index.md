@@ -16,11 +16,11 @@ public static int[] ToArgb32(int[] cmykPixels)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cmykPixels | Int32[] | CMYK 颜色呈现为 32 位整数值。 |
+| cmykPixels | Int32[] | CMYK 颜色显示为 32 位整数值。 |
 
 ### 返回值
 
-ARGB 颜色以 32 位整数值表示。
+以 32 位整数值表示的 ARGB 颜色。
 
 ### 也可以看看
 

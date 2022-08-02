@@ -24,17 +24,17 @@ public class DxfOptions : ImageOptionsBase
 
 | Имя | Описание |
 | --- | --- |
-| [BezierPointCount](../../aspose.imaging.imageoptions/dxfoptions/bezierpointcount) { get; set; } | Сколько точек генерировать при преобразовании кривых Безье в полилинии, минимум 4. Используется, когдаиоба /// установлены в` true` |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Получает или устанавливает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
-| [ConvertTextBeziers](../../aspose.imaging.imageoptions/dxfoptions/converttextbeziers) { get; set; } | Работает, когда дляустановлено значение` true` . Можно ли преобразовать кривые Безье в текстовых контурах в многоточечные полилинии. |
+| [BezierPointCount](../../aspose.imaging.imageoptions/dxfoptions/bezierpointcount) { get; set; } | Сколько точек генерировать при преобразовании кривых Безье в полилинии, минимум 4. Используется, когда а также оба /// установлены в`истинный` |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Получает или задает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
+| [ConvertTextBeziers](../../aspose.imaging.imageoptions/dxfoptions/converttextbeziers) { get; set; } | Работает, когда установлен на`истинный` . Можно ли преобразовать кривые Безье в текстовых контурах в многоточечные полилинии. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | Получает или задает значение, указывающее, является ли [полный кадр]. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | Многостраничные параметры |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Получает или задает цветовую палитру. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Получает или задает обработчик события выполнения. |
 | virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Получает или задает параметры разрешения. |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Получает или задает источник для создания изображения. |
-| [TextAsLines](../../aspose.imaging.imageoptions/dxfoptions/textaslines) { get; set; } | Следует ли экспортировать текст как контуры, состоящие из полилиний (по умолчанию), или как редактируемые объекты Autocad TEXT. Если эта опция установлена |
+| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Получает или задает источник для создания изображения в. |
+| [TextAsLines](../../aspose.imaging.imageoptions/dxfoptions/textaslines) { get; set; } | Следует ли экспортировать текст как контуры, состоящие из полилиний (по умолчанию), или как редактируемые объекты Autocad TEXT. Если этот параметр установлен, |
 | [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Получает или задает параметры векторной растеризации. |
 | virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata) { get; set; } | Получает или задает контейнер метаданных XMP. |
 
@@ -52,7 +52,7 @@ public class DxfOptions : ImageOptionsBase
 ```csharp
 [C#]
 
- //Создаем экземпляр образа и инициализируем его существующим файлом образа с диска location
+//Создаем экземпляр образа и инициализируем его существующим файлом образа с диска
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"input.svg"))
 {
     Aspose.Imaging.ImageOptions.DxfOptions options = new Aspose.Imaging.ImageOptions.DxfOptions();

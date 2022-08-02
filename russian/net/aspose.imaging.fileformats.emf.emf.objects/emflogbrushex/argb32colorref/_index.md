@@ -1,14 +1,14 @@
 ---
 title: Argb32ColorRef
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядный объект ColorRef WMF MS-WMF раздел 2.2.2.8 который определяет цвет . Интерпретация этого поля зависит от значения BrushStyle как описано в следующей таблице .
+description: Получает или задает 32-разрядный объект WMF ColorRef MS-WMF раздел 2.2.2.8 который определяет цвет a . Интерпретация этого поля зависит от значения BrushStyle как описано в следующей таблице.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/argb32colorref/
 ---
 ## EmfLogBrushEx.Argb32ColorRef property
 
-Получает или задает 32-разрядный объект ColorRef WMF ([MS-WMF], раздел 2.2.2.8), который определяет цвет . Интерпретация этого поля зависит от значения BrushStyle, как описано в следующей таблице .
+Получает или задает 32-разрядный объект WMF ColorRef ([MS-WMF], раздел 2.2.2.8), который определяет цвет a . Интерпретация этого поля зависит от значения BrushStyle, как описано в следующей таблице.
 
 ```csharp
 public int Argb32ColorRef { get; set; }

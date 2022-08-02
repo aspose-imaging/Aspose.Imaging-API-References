@@ -1,14 +1,14 @@
 ---
 title: AsyncTaskException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаAsyncTaskExceptionaspose.imaging.asynctask/asynctaskexception.
+description: Инициализирует новый экземплярAsyncTaskExceptionaspose.imaging.asynctask/asynctaskexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.asynctask/asynctaskexception/asynctaskexception/
 ---
 ## AsyncTaskException constructor
 
-Инициализирует новый экземпляр класса[`AsyncTaskException`](../../asynctaskexception).
+Инициализирует новый экземпляр[`AsyncTaskException`](../../asynctaskexception) класс.
 
 ```csharp
 public AsyncTaskException(string message)

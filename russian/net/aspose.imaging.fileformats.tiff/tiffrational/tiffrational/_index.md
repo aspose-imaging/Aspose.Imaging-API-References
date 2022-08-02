@@ -1,14 +1,14 @@
 ---
 title: TiffRational
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTiffRationalaspose.imaging.fileformats.tiff/tiffrational.
+description: Инициализирует новый экземплярTiffRationalaspose.imaging.fileformats.tiff/tiffrational класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.tiff/tiffrational/tiffrational/
 ---
 ## TiffRational() {#constructor}
 
-Инициализирует новый экземпляр класса[`TiffRational`](../../tiffrational).
+Инициализирует новый экземпляр[`TiffRational`](../../tiffrational) класс.
 
 ```csharp
 public TiffRational()
@@ -24,7 +24,7 @@ public TiffRational()
 
 ## TiffRational(uint) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TiffRational`](../../tiffrational).
+Инициализирует новый экземпляр[`TiffRational`](../../tiffrational) класс.
 
 ```csharp
 public TiffRational(uint value)
@@ -32,7 +32,7 @@ public TiffRational(uint value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | UInt32 | Значение числителя. |
+| value | UInt32 | Значение номинатора. |
 
 ### Примечания
 
@@ -48,7 +48,7 @@ public TiffRational(uint value)
 
 ## TiffRational(uint, uint) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`TiffRational`](../../tiffrational).
+Инициализирует новый экземпляр[`TiffRational`](../../tiffrational) класс.
 
 ```csharp
 public TiffRational(uint nominator, uint denominator)
@@ -56,8 +56,8 @@ public TiffRational(uint nominator, uint denominator)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| номинатор | UInt32 | Номинатор. |
-| знаменатель | UInt32 | Знаменатель. |
+| nominator | UInt32 | Номинатор. |
+| denominator | UInt32 | Знаменатель. |
 
 ### Смотрите также
 

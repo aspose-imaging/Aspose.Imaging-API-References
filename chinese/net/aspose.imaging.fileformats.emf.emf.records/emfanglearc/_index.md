@@ -1,14 +1,14 @@
 ---
 title: EmfAngleArc
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_ANGLEARC 记录指定弧的线段线段从 当前位置绘制到弧的起点圆弧沿圆周绘制具有 给定半径和中心弧的长度由给定的起始角和扫描角定义
+description: EMR_ANGLEARC 记录指定弧的线段线段从 当前位置绘制到弧的起点圆弧沿圆的周长绘制具有 给定的半径和圆心弧的长度由给定的起始角和扫描角定义
 type: docs
 weight: 3210
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfanglearc/
 ---
 ## EmfAngleArc class
 
-EMR_ANGLEARC 记录指定弧的线段。线段从 当前位置绘制到弧的起点。圆弧沿圆周绘制，具有 给定半径和中心。弧的长度由给定的起始角和扫描角定义
+EMR_ANGLEARC 记录指定弧的线段。线段从 当前位置绘制到弧的起点。圆弧沿圆的周长绘制，具有 给定的半径和圆心。弧的长度由给定的起始角和扫描角定义
 
 ```csharp
 public sealed class EmfAngleArc : EmfDrawingRecordType
@@ -18,18 +18,18 @@ public sealed class EmfAngleArc : EmfDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfAngleArc](emfanglearc#constructor)() | 初始化[`EmfAngleArc`](../emfanglearc)类的新实例。 |
-| [EmfAngleArc](emfanglearc#constructor_1)(EmfRecord) | 初始化[`EmfAngleArc`](../emfanglearc)类的新实例。 |
+| [EmfAngleArc](emfanglearc#constructor)() | 初始化[`EmfAngleArc`](../emfanglearc)类. |
+| [EmfAngleArc](emfanglearc#constructor_1)(EmfRecord) | 初始化[`EmfAngleArc`](../emfanglearc)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Center](../../aspose.imaging.fileformats.emf.emf.records/emfanglearc/center) { get; set; } | 获取或设置一个 64 位 WMF PointL 对象，在 [MS-WMF] 第 2.2.2.15 节中指定，其中 指定逻辑坐标的圆心。 |
+| [Center](../../aspose.imaging.fileformats.emf.emf.records/emfanglearc/center) { get; set; } | 获取或设置一个 64 位 WMF PointL 对象，在 [MS-WMF] 第 2.2.2.15 节中指定， 指定圆心的逻辑坐标。 |
 | [Radius](../../aspose.imaging.fileformats.emf.emf.records/emfanglearc/radius) { get; set; } | 获取或设置一个 32 位无符号整数，以逻辑单位指定圆的半径。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [StartAngle](../../aspose.imaging.fileformats.emf.emf.records/emfanglearc/startangle) { get; set; } | 获取或设置一个 32 位浮点数，它指定弧的起始角度，以度为单位。 |
-| [SweepAngle](../../aspose.imaging.fileformats.emf.emf.records/emfanglearc/sweepangle) { get; set; } | 获取或设置一个 32 位浮点数，该浮点数指定弧的扫角，以度为单位。 |
+| [SweepAngle](../../aspose.imaging.fileformats.emf.emf.records/emfanglearc/sweepangle) { get; set; } | 获取或设置一个 32 位浮点数，以度为单位指定弧的扫角。 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 
 ### 也可以看看

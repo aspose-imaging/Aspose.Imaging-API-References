@@ -1,14 +1,14 @@
 ---
 title: TransformMatrix
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает необязательный объект EmfPlusTransformMatrix раздел 2.2.2.47 который определяет преобразование мирового пространства в пространство устройства для ручка. Это поле ДОЛЖНО присутствовать если флаг PenDataTransform установлен в поле PenDataFlags объекта EmfPlusPenData .
+description: Получает или задает необязательный объект EmfPlusTransformMatrix раздел 2.2.2.47  который определяет преобразование мирового пространства в пространство устройства для пера. Это поле ДОЛЖНО присутствовать если флаг PenDataTransform установлен в поле PenDataFlags объекта EmfPlusPenData .
 type: docs
 weight: 140
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata/transformmatrix/
 ---
 ## EmfPlusPenOptionalData.TransformMatrix property
 
-Получает или задает необязательный объект EmfPlusTransformMatrix (раздел 2.2.2.47) который определяет преобразование мирового пространства в пространство устройства для ручка. Это поле ДОЛЖНО присутствовать, если флаг PenDataTransform установлен в поле PenDataFlags объекта EmfPlusPenData .
+Получает или задает необязательный объект EmfPlusTransformMatrix (раздел 2.2.2.47) , который определяет преобразование мирового пространства в пространство устройства для пера. Это поле ДОЛЖНО присутствовать, если флаг PenDataTransform установлен в поле PenDataFlags объекта EmfPlusPenData .
 
 ```csharp
 public Matrix TransformMatrix { get; set; }

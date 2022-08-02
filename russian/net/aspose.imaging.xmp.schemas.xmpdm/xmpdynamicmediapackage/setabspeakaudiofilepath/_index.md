@@ -1,14 +1,14 @@
 ---
 title: SetAbsPeakAudioFilePath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Устанавливает путь к абсолютному пиковому аудиофайлу.
+description: Устанавливает путь к файлу абсолютного пика звука.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setabspeakaudiofilepath/
 ---
 ## XmpDynamicMediaPackage.SetAbsPeakAudioFilePath method
 
-Устанавливает путь к абсолютному пиковому аудиофайлу.
+Устанавливает путь к файлу абсолютного пика звука.
 
 ```csharp
 public void SetAbsPeakAudioFilePath(string uri)

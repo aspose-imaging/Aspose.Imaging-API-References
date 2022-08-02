@@ -1,14 +1,14 @@
 ---
 title: EmfCommentEmfPlus
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_COMMENT_EMFPLUS содержит встроенные записи EMF. Примечание Поля не описанные в этом разделе указаны в разделе 2.3.3.
+description: Запись EMR_COMMENT_EMFPLUS содержит встроенные записи EMF. Примечание. Поля не описанные в этом разделе указаны в разделе 2.3.3.
 type: docs
 weight: 3360
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcommentemfplus/
 ---
 ## EmfCommentEmfPlus class
 
-Запись EMR_COMMENT_EMFPLUS содержит встроенные записи EMF+. Примечание Поля, не описанные в этом разделе, указаны в разделе 2.3.3.
+Запись EMR_COMMENT_EMFPLUS содержит встроенные записи EMF+. Примечание. Поля, не описанные в этом разделе, указаны в разделе 2.3.3.
 
 ```csharp
 public sealed class EmfCommentEmfPlus : EmfCommentRecordType
@@ -18,16 +18,16 @@ public sealed class EmfCommentEmfPlus : EmfCommentRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfCommentEmfPlus](emfcommentemfplus)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfCommentEmfPlus`](../emfcommentemfplus). |
+| [EmfCommentEmfPlus](emfcommentemfplus)(EmfRecord) | Инициализирует новый экземпляр[`EmfCommentEmfPlus`](../emfcommentemfplus) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | override [CommentIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentemfplus/commentidentifier) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое идентифицирует эту запись комментария как содержащую записи EMF+. Значение 0x2B464D45, которое является строкой ASCII "+FME", идентифицирует это как запись EMR_COMMENT_EMFPLUS. |
-| [DataSize](../../aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер (в байтах) полей CommentIdentifier и CommentRecordParm в поле RecordBuffer, следует. Он НЕ ДОЛЖЕН включать размер самого себя или размер поля AlignmentPadding, если присутствует |
+| [DataSize](../../aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер в байтах полей CommentIdentifier и CommentRecordParm в поле RecordBuffer, за которым следует . Он НЕ ДОЛЖЕН включать размер самого себя или размер поля AlignmentPadding, если present |
 | [EmfPlusRecords](../../aspose.imaging.fileformats.emf.emf.records/emfcommentemfplus/emfplusrecords) { get; set; } | Получает или задает массив байтов, содержащий одну или несколько записей EMF+ ([MS-EMFPLUS], раздел 2.3.1). |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

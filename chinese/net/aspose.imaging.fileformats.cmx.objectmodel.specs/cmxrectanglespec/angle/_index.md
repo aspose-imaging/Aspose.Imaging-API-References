@@ -1,14 +1,14 @@
 ---
 title: Angle
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置矩形的旋转角度 以弧度为单位测量
+description: 获取或设置矩形的旋转角度 以弧度为单位
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/angle/
 ---
 ## CmxRectangleSpec.Angle property
 
-获取或设置矩形的旋转角度。 以弧度为单位测量。
+获取或设置矩形的旋转角度。 以弧度为单位。
 
 ```csharp
 public float Angle { get; set; }

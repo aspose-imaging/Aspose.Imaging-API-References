@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此RectangleFaspose.imaging/rectanglef结构左上角的 x 坐标
+description: 获取或设置此对象左上角的x坐标RectangleFaspose.imaging/rectanglef结构.
 type: docs
 weight: 170
 url: /zh/net/aspose.imaging/rectanglef/x/
 ---
 ## RectangleF.X property
 
-获取或设置此[`RectangleF`](../../rectanglef)结构左上角的 x 坐标。
+获取或设置此对象左上角的x坐标[`RectangleF`](../../rectanglef)结构.
 
 ```csharp
 public float X { get; set; }
@@ -16,7 +16,7 @@ public float X { get; set; }
 
 ### 返回值
 
-这个[`RectangleF`](../../rectanglef)左上角的 x 坐标结构体。
+这个左上角的x坐标[`RectangleF`](../../rectanglef)结构体。
 
 ### 也可以看看
 

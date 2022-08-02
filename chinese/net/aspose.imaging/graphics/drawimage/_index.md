@@ -1,14 +1,14 @@
 ---
 title: DrawImage
 second_title: Aspose.Imaging for .NET API 参考
-description: 在指定位置使用其原始物理尺寸绘制指定的Imageaspose.imaging/graphics/image
+description: 绘制指定的Imageaspose.imaging/graphics/image在指定位置使用其原始物理尺寸
 type: docs
 weight: 220
 url: /zh/net/aspose.imaging/graphics/drawimage/
 ---
 ## DrawImage(Image, PointF) {#drawimage_1}
 
-在指定位置使用其原始物理尺寸绘制指定的[`Image`](../image)。
+绘制指定的[`Image`](../image)，在指定位置使用其原始物理尺寸。
 
 ```csharp
 public void DrawImage(Image sourceImage, PointF point)
@@ -17,13 +17,13 @@ public void DrawImage(Image sourceImage, PointF point)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sourceImage | Image | 要绘制的图像。 |
-| point | PointF | [`PointF`](../../pointf)结构，表示绘制图像的左上角。 |
+| point | PointF | [`PointF`](../../pointf)表示绘制图像的左上角的结构。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *sourceImage*为空。 |
+| ArgumentNullException | *sourceImage*一片空白。 |
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public void DrawImage(Image sourceImage, PointF point)
 
 ## DrawImage(Image, float, float) {#drawimage_22}
 
-在指定位置使用其原始物理尺寸绘制指定的[`Image`](../image)。
+绘制指定的[`Image`](../image)，在指定位置使用其原始物理尺寸。
 
 ```csharp
 public void DrawImage(Image sourceImage, float x, float y)
@@ -53,7 +53,7 @@ public void DrawImage(Image sourceImage, float x, float y)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *sourceImage*为空。 |
+| ArgumentNullException | *sourceImage*一片空白。 |
 
 ### 也可以看看
 
@@ -66,7 +66,7 @@ public void DrawImage(Image sourceImage, float x, float y)
 
 ## DrawImage(Image, RectangleF) {#drawimage_15}
 
-在指定位置以指定大小绘制指定[`Image`](../image)。
+绘制指定的[`Image`](../image)在指定的位置和指定的大小。
 
 ```csharp
 public void DrawImage(Image sourceImage, RectangleF rect)
@@ -75,13 +75,13 @@ public void DrawImage(Image sourceImage, RectangleF rect)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sourceImage | Image | 要绘制的图像。 |
-| rect | RectangleF | [`RectangleF`](../../rectanglef)结构，指定绘制图像的位置和大小。 |
+| rect | RectangleF | [`RectangleF`](../../rectanglef)指定绘制图像的位置和大小的结构。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *sourceImage*为空。 |
+| ArgumentNullException | *sourceImage*一片空白。 |
 
 ### 也可以看看
 
@@ -95,7 +95,7 @@ public void DrawImage(Image sourceImage, RectangleF rect)
 
 ## DrawImage(Image, Rectangle, GraphicsUnit) {#drawimage_11}
 
-在指定位置以指定大小绘制指定[`Image`](../image)。
+绘制指定的[`Image`](../image)在指定的位置和指定的大小。
 
 ```csharp
 public void DrawImage(Image sourceImage, Rectangle rectDestination, GraphicsUnit graphicsUnit)
@@ -111,7 +111,7 @@ public void DrawImage(Image sourceImage, Rectangle rectDestination, GraphicsUnit
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *sourceImage*为空。 |
+| ArgumentNullException | *sourceImage*一片空白。 |
 
 ### 也可以看看
 
@@ -126,7 +126,7 @@ public void DrawImage(Image sourceImage, Rectangle rectDestination, GraphicsUnit
 
 ## DrawImage(Image, RectangleF, GraphicsUnit) {#drawimage_16}
 
-在指定位置以指定大小绘制指定[`Image`](../image)。
+绘制指定的[`Image`](../image)在指定的位置和指定的大小。
 
 ```csharp
 public void DrawImage(Image sourceImage, RectangleF rectDestination, GraphicsUnit graphicsUnit)
@@ -142,7 +142,7 @@ public void DrawImage(Image sourceImage, RectangleF rectDestination, GraphicsUni
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *sourceImage*为空。 |
+| ArgumentNullException | *sourceImage*一片空白。 |
 
 ### 也可以看看
 
@@ -157,7 +157,7 @@ public void DrawImage(Image sourceImage, RectangleF rectDestination, GraphicsUni
 
 ## DrawImage(Image, Rectangle, GraphicsUnit, ImageAttributes) {#drawimage_12}
 
-在指定位置以指定大小绘制指定[`Image`](../image)。
+绘制指定的[`Image`](../image)在指定的位置和指定的大小。
 
 ```csharp
 public void DrawImage(Image sourceImage, Rectangle rectDestination, GraphicsUnit graphicsUnit, 
@@ -175,7 +175,7 @@ public void DrawImage(Image sourceImage, Rectangle rectDestination, GraphicsUnit
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *sourceImage*为空。 |
+| ArgumentNullException | *sourceImage*一片空白。 |
 
 ### 也可以看看
 
@@ -191,7 +191,7 @@ public void DrawImage(Image sourceImage, Rectangle rectDestination, GraphicsUnit
 
 ## DrawImage(Image, RectangleF, GraphicsUnit, ImageAttributes) {#drawimage_17}
 
-在指定位置以指定大小绘制指定[`Image`](../image)。
+绘制指定的[`Image`](../image)在指定的位置和指定的大小。
 
 ```csharp
 public void DrawImage(Image sourceImage, RectangleF rectDestination, GraphicsUnit graphicsUnit, 
@@ -209,7 +209,7 @@ public void DrawImage(Image sourceImage, RectangleF rectDestination, GraphicsUni
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *sourceImage*为空。 |
+| ArgumentNullException | *sourceImage*一片空白。 |
 
 ### 也可以看看
 
@@ -225,7 +225,7 @@ public void DrawImage(Image sourceImage, RectangleF rectDestination, GraphicsUni
 
 ## DrawImage(Image, Rectangle, Rectangle, GraphicsUnit) {#drawimage_13}
 
-在指定位置以指定大小绘制指定[`Image`](../image)。
+绘制指定的[`Image`](../image)在指定的位置和指定的大小。
 
 ```csharp
 public void DrawImage(Image sourceImage, Rectangle rectSource, Rectangle rectDestination, 
@@ -236,14 +236,14 @@ public void DrawImage(Image sourceImage, Rectangle rectSource, Rectangle rectDes
 | --- | --- | --- |
 | sourceImage | Image | 要绘制的图像。 |
 | rectSource | Rectangle | 矩形源。 |
-| rectDestination | Rectangle | rect 目标。 |
+| rectDestination | Rectangle | 矩形目的地。 |
 | graphicsUnit | GraphicsUnit | 图形单元。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *sourceImage*为空。 |
+| ArgumentNullException | *sourceImage*一片空白。 |
 
 ### 也可以看看
 
@@ -258,7 +258,7 @@ public void DrawImage(Image sourceImage, Rectangle rectSource, Rectangle rectDes
 
 ## DrawImage(Image, RectangleF, RectangleF, GraphicsUnit) {#drawimage_18}
 
-在指定位置以指定大小绘制指定[`Image`](../image)。
+绘制指定的[`Image`](../image)在指定的位置和指定的大小。
 
 ```csharp
 public void DrawImage(Image sourceImage, RectangleF rectSource, RectangleF rectDestination, 
@@ -269,14 +269,14 @@ public void DrawImage(Image sourceImage, RectangleF rectSource, RectangleF rectD
 | --- | --- | --- |
 | sourceImage | Image | 要绘制的图像。 |
 | rectSource | RectangleF | 矩形源。 |
-| rectDestination | RectangleF | rect 目标。 |
+| rectDestination | RectangleF | 矩形目的地。 |
 | graphicsUnit | GraphicsUnit | 图形单元。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *sourceImage*为空。 |
+| ArgumentNullException | *sourceImage*一片空白。 |
 
 ### 也可以看看
 
@@ -291,7 +291,7 @@ public void DrawImage(Image sourceImage, RectangleF rectSource, RectangleF rectD
 
 ## DrawImage(Image, Rectangle, Rectangle, GraphicsUnit, ImageAttributes) {#drawimage_14}
 
-在指定位置以指定大小绘制指定[`Image`](../image)。
+绘制指定的[`Image`](../image)在指定的位置和指定的大小。
 
 ```csharp
 public void DrawImage(Image sourceImage, Rectangle rectSource, Rectangle rectDestination, 
@@ -302,7 +302,7 @@ public void DrawImage(Image sourceImage, Rectangle rectSource, Rectangle rectDes
 | --- | --- | --- |
 | sourceImage | Image | 要绘制的图像。 |
 | rectSource | Rectangle | 矩形源。 |
-| rectDestination | Rectangle | rect 目标。 |
+| rectDestination | Rectangle | 矩形目的地。 |
 | graphicsUnit | GraphicsUnit | 图形单元。 |
 | imageAttributes | ImageAttributes | 图像属性。 |
 
@@ -310,7 +310,7 @@ public void DrawImage(Image sourceImage, Rectangle rectSource, Rectangle rectDes
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *sourceImage*为空。 |
+| ArgumentNullException | *sourceImage*一片空白。 |
 
 ### 也可以看看
 
@@ -326,7 +326,7 @@ public void DrawImage(Image sourceImage, Rectangle rectSource, Rectangle rectDes
 
 ## DrawImage(Image, RectangleF, RectangleF, GraphicsUnit, ImageAttributes) {#drawimage_19}
 
-在指定位置以指定大小绘制指定[`Image`](../image)。
+绘制指定的[`Image`](../image)在指定的位置和指定的大小。
 
 ```csharp
 public void DrawImage(Image sourceImage, RectangleF rectSource, RectangleF rectDestination, 
@@ -345,7 +345,7 @@ public void DrawImage(Image sourceImage, RectangleF rectSource, RectangleF rectD
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *sourceImage*为空。 |
+| ArgumentNullException | *sourceImage*一片空白。 |
 
 ### 也可以看看
 
@@ -361,7 +361,7 @@ public void DrawImage(Image sourceImage, RectangleF rectSource, RectangleF rectD
 
 ## DrawImage(Image, Point[]) {#drawimage_6}
 
-在指定位置以指定大小绘制指定*image*的指定部分。
+绘制指定的指定部分*image*在指定的位置和指定的大小。
 
 ```csharp
 public void DrawImage(Image image, Point[] destPoints)
@@ -384,7 +384,7 @@ public void DrawImage(Image image, Point[] destPoints)
 
 ## DrawImage(Image, Point[], Rectangle) {#drawimage_7}
 
-在指定位置以指定大小绘制指定*image*的指定部分。
+绘制指定的指定部分*image*在指定的位置和指定的大小。
 
 ```csharp
 public void DrawImage(Image image, Point[] destPoints, Rectangle srcRect)
@@ -409,7 +409,7 @@ public void DrawImage(Image image, Point[] destPoints, Rectangle srcRect)
 
 ## DrawImage(Image, Point[], Rectangle, GraphicsUnit) {#drawimage_8}
 
-在指定位置以指定大小绘制指定*image*的指定部分。
+绘制指定的指定部分*image*在指定的位置和指定的大小。
 
 ```csharp
 public void DrawImage(Image image, Point[] destPoints, Rectangle srcRect, GraphicsUnit srcUnit)
@@ -420,7 +420,7 @@ public void DrawImage(Image image, Point[] destPoints, Rectangle srcRect, Graphi
 | image | Image | 要绘制的图像。 |
 | destPoints | Point[] | 定义平行四边形的三个 PointF 结构的数组。 |
 | srcRect | Rectangle | 源矩形。 |
-| srcUnit | GraphicsUnit | 测量单位。 |
+| srcUnit | GraphicsUnit | 计量单位。 |
 
 ### 也可以看看
 
@@ -436,7 +436,7 @@ public void DrawImage(Image image, Point[] destPoints, Rectangle srcRect, Graphi
 
 ## DrawImage(Image, Point[], Rectangle, GraphicsUnit, ImageAttributes) {#drawimage_9}
 
-在指定位置以指定大小绘制指定*image*的指定部分。
+绘制指定的指定部分*image*在指定的位置和指定的大小。
 
 ```csharp
 public void DrawImage(Image image, Point[] destPoints, Rectangle srcRect, GraphicsUnit srcUnit, 
@@ -448,7 +448,7 @@ public void DrawImage(Image image, Point[] destPoints, Rectangle srcRect, Graphi
 | image | Image | 要绘制的图像。 |
 | destPoints | Point[] | 定义平行四边形的三个 PointF 结构的数组。 |
 | srcRect | Rectangle | 源矩形。 |
-| srcUnit | GraphicsUnit | 测量单位。 |
+| srcUnit | GraphicsUnit | 计量单位。 |
 | imageAttributes | ImageAttributes | 图像属性。 |
 
 ### 也可以看看
@@ -466,7 +466,7 @@ public void DrawImage(Image image, Point[] destPoints, Rectangle srcRect, Graphi
 
 ## DrawImage(Image, PointF[]) {#drawimage_2}
 
-在指定位置以指定大小绘制指定*image*的指定部分。
+绘制指定的指定部分*image*在指定的位置和指定的大小。
 
 ```csharp
 public void DrawImage(Image image, PointF[] destPoints)
@@ -481,7 +481,7 @@ public void DrawImage(Image image, PointF[] destPoints)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | image |
+| ArgumentNullException | 图片 |
 
 ### 也可以看看
 
@@ -495,7 +495,7 @@ public void DrawImage(Image image, PointF[] destPoints)
 
 ## DrawImage(Image, PointF[], RectangleF) {#drawimage_3}
 
-在指定位置以指定大小绘制指定*image*的指定部分。
+绘制指定的指定部分*image*在指定的位置和指定的大小。
 
 ```csharp
 public void DrawImage(Image image, PointF[] destPoints, RectangleF srcRect)
@@ -520,7 +520,7 @@ public void DrawImage(Image image, PointF[] destPoints, RectangleF srcRect)
 
 ## DrawImage(Image, PointF[], RectangleF, GraphicsUnit) {#drawimage_4}
 
-在指定位置以指定大小绘制指定*image*的指定部分。
+绘制指定的指定部分*image*在指定的位置和指定的大小。
 
 ```csharp
 public void DrawImage(Image image, PointF[] destPoints, RectangleF srcRect, GraphicsUnit srcUnit)
@@ -531,7 +531,7 @@ public void DrawImage(Image image, PointF[] destPoints, RectangleF srcRect, Grap
 | image | Image | 要绘制的图像。 |
 | destPoints | PointF[] | 定义平行四边形的三个 PointF 结构的数组。 |
 | srcRect | RectangleF | 源矩形。 |
-| srcUnit | GraphicsUnit | 测量单位。 |
+| srcUnit | GraphicsUnit | 计量单位。 |
 
 ### 也可以看看
 
@@ -547,7 +547,7 @@ public void DrawImage(Image image, PointF[] destPoints, RectangleF srcRect, Grap
 
 ## DrawImage(Image, PointF[], RectangleF, GraphicsUnit, ImageAttributes) {#drawimage_5}
 
-在指定位置以指定大小绘制指定*image*的指定部分。
+绘制指定的指定部分*image*在指定的位置和指定的大小。
 
 ```csharp
 public void DrawImage(Image image, PointF[] destPoints, RectangleF srcRect, GraphicsUnit srcUnit, 
@@ -559,7 +559,7 @@ public void DrawImage(Image image, PointF[] destPoints, RectangleF srcRect, Grap
 | image | Image | 要绘制的图像。 |
 | destPoints | PointF[] | 定义平行四边形的三个 PointF 结构的数组。 |
 | srcRect | RectangleF | 源矩形。 |
-| srcUnit | GraphicsUnit | 测量单位。 |
+| srcUnit | GraphicsUnit | 计量单位。 |
 | imageAttributes | ImageAttributes | 图像属性。 |
 
 ### 也可以看看
@@ -577,7 +577,7 @@ public void DrawImage(Image image, PointF[] destPoints, RectangleF srcRect, Grap
 
 ## DrawImage(Image, float, float, float, float) {#drawimage_23}
 
-在指定位置以指定大小绘制指定[`Image`](../image)。
+绘制指定的[`Image`](../image)在指定的位置和指定的大小。
 
 ```csharp
 public void DrawImage(Image sourceImage, float x, float y, float width, float height)
@@ -595,7 +595,7 @@ public void DrawImage(Image sourceImage, float x, float y, float width, float he
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *sourceImage*为空。 |
+| ArgumentNullException | *sourceImage*一片空白。 |
 
 ### 也可以看看
 
@@ -608,7 +608,7 @@ public void DrawImage(Image sourceImage, float x, float y, float width, float he
 
 ## DrawImage(Image, Point) {#drawimage}
 
-在指定位置使用其原始物理尺寸绘制指定的[`Image`](../image)。
+绘制指定的[`Image`](../image)，在指定位置使用其原始物理尺寸。
 
 ```csharp
 public void DrawImage(Image sourceImage, Point point)
@@ -617,13 +617,13 @@ public void DrawImage(Image sourceImage, Point point)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sourceImage | Image | 要绘制的图像。 |
-| point | Point | [`Point`](../../point)结构，表示绘制图像左上角的位置。 |
+| point | Point | [`Point`](../../point)表示绘制图像左上角位置的结构。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *sourceImage*为空。 |
+| ArgumentNullException | *sourceImage*一片空白。 |
 
 ### 也可以看看
 
@@ -653,7 +653,7 @@ public void DrawImage(Image sourceImage, int x, int y)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *sourceImage*为空。 |
+| ArgumentNullException | *sourceImage*一片空白。 |
 
 ### 也可以看看
 
@@ -666,7 +666,7 @@ public void DrawImage(Image sourceImage, int x, int y)
 
 ## DrawImage(Image, Rectangle) {#drawimage_10}
 
-在指定位置以指定大小绘制指定[`Image`](../image)。
+绘制指定的[`Image`](../image)在指定的位置和指定的大小。
 
 ```csharp
 public void DrawImage(Image sourceImage, Rectangle rect)
@@ -675,13 +675,13 @@ public void DrawImage(Image sourceImage, Rectangle rect)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sourceImage | Image | 要绘制的图像。 |
-| rect | Rectangle | [`Rectangle`](../../rectangle)结构，指定绘制图像的位置和大小。 |
+| rect | Rectangle | [`Rectangle`](../../rectangle)指定绘制图像的位置和大小的结构。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *sourceImage*为空。 |
+| ArgumentNullException | *sourceImage*一片空白。 |
 
 ### 也可以看看
 
@@ -695,7 +695,7 @@ public void DrawImage(Image sourceImage, Rectangle rect)
 
 ## DrawImage(Image, int, int, int, int) {#drawimage_21}
 
-在指定位置以指定大小绘制指定[`Image`](../image)。
+绘制指定的[`Image`](../image)在指定的位置和指定的大小。
 
 ```csharp
 public void DrawImage(Image sourceImage, int x, int y, int width, int height)
@@ -713,7 +713,7 @@ public void DrawImage(Image sourceImage, int x, int y, int width, int height)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *sourceImage*为空。 |
+| ArgumentNullException | *sourceImage*一片空白。 |
 
 ### 也可以看看
 

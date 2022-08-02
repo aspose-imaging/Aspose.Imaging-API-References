@@ -1,14 +1,14 @@
 ---
 title: Orientation
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位有符号整数它指定每个字符的基线和 x 轴之间的角度以十分之一度为单位 的设备
+description: 获取或设置一个 32 位有符号整数它指定每个字符的基线和设备 x 轴之间的角度 以十分之一度为单位
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emflogfont/orientation/
 ---
 ## EmfLogFont.Orientation property
 
-获取或设置一个 32 位有符号整数，它指定每个字符的基线和 x 轴之间的角度（以十分之一度为单位） 的设备。
+获取或设置一个 32 位有符号整数，它指定每个字符的基线和设备 x 轴之间的角度 ，以十分之一度为单位。
 
 ```csharp
 public int Orientation { get; set; }

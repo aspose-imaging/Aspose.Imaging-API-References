@@ -1,14 +1,14 @@
 ---
 title: ImageSize
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数用于定义图像的大小以字节为单位 如果压缩值是 BI_RGB这个值应该是零并且必须被忽略 如果 Compression 值为 BI_JPEG 或 BI_PNG此值必须分别指定 JPEG 或 PNG 图像缓冲区的大小 
+description: 获取或设置一个 32 位无符号整数用于定义图像的大小以字节为单位 如果压缩值为 BI_RGB则该值应为零且必须被忽略 如果压缩值为 BI_JPEG 或 BI_PNG此值必须指定 JPEG 或 PNG 图像缓冲区的大小 分别
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfbitmapinfoheader/imagesize/
 ---
 ## WmfBitmapInfoHeader.ImageSize property
 
-获取或设置一个 32 位无符号整数，用于定义图像的大小（以字节为单位）。 如果压缩值是 BI_RGB，这个值应该是零并且必须被忽略。 如果 Compression 值为 BI_JPEG 或 BI_PNG，此值必须分别指定 JPEG 或 PNG 图像缓冲区的大小 。
+获取或设置一个 32 位无符号整数，用于定义图像的大小（以字节为单位）。 如果压缩值为 BI_RGB，则该值应为零且必须被忽略。 如果压缩值为 BI_JPEG 或 BI_PNG，此值必须指定 JPEG 或 PNG 图像缓冲区的大小， 分别。
 
 ```csharp
 public int ImageSize { get; set; }

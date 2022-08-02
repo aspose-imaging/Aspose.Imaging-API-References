@@ -1,14 +1,14 @@
 ---
 title: RenditionClass
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаRenditionClassaspose.imaging.xmp.types.derived/renditionclass.
+description: Инициализирует новый экземплярRenditionClassaspose.imaging.xmp.types.derived/renditionclass класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp.types.derived/renditionclass/renditionclass/
 ---
 ## RenditionClass() {#constructor}
 
-Инициализирует новый экземпляр класса[`RenditionClass`](../../renditionclass).
+Инициализирует новый экземпляр[`RenditionClass`](../../renditionclass) класс.
 
 ```csharp
 public RenditionClass()
@@ -24,7 +24,7 @@ public RenditionClass()
 
 ## RenditionClass(string, string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`RenditionClass`](../../renditionclass).
+Инициализирует новый экземпляр[`RenditionClass`](../../renditionclass) класс.
 
 ```csharp
 public RenditionClass(string token, string value)
@@ -32,7 +32,7 @@ public RenditionClass(string token, string value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| token | String | Токен. |
+| token | String | Жетон. |
 | value | String | Значение. |
 
 ### Смотрите также

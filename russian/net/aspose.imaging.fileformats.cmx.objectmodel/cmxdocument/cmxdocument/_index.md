@@ -1,14 +1,14 @@
 ---
 title: CmxDocument
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаCmxDocumentaspose.imaging.fileformats.cmx.objectmodel/cmxdocument.
+description: Инициализирует новый экземплярCmxDocumentaspose.imaging.fileformats.cmx.objectmodel/cmxdocument класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel/cmxdocument/cmxdocument/
 ---
 ## CmxDocument constructor
 
-Инициализирует новый экземпляр класса[`CmxDocument`](../../cmxdocument).
+Инициализирует новый экземпляр[`CmxDocument`](../../cmxdocument) класс.
 
 ```csharp
 public CmxDocument()

@@ -32,7 +32,7 @@ public class CmxObject : ICmxDocElement
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel/cmxobject/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel/cmxobject/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 
 ### Смотрите также
 

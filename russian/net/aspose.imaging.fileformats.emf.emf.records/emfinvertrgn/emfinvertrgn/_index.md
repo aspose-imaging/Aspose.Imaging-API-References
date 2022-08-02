@@ -1,14 +1,14 @@
 ---
 title: EmfInvertRgn
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfInvertRgnaspose.imaging.fileformats.emf.emf.records/emfinvertrgn.
+description: Инициализирует новый экземплярEmfInvertRgnaspose.imaging.fileformats.emf.emf.records/emfinvertrgn класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfinvertrgn/emfinvertrgn/
 ---
 ## EmfInvertRgn constructor
 
-Инициализирует новый экземпляр класса[`EmfInvertRgn`](../../emfinvertrgn).
+Инициализирует новый экземпляр[`EmfInvertRgn`](../../emfinvertrgn) класс.
 
 ```csharp
 public EmfInvertRgn(EmfRecord source)

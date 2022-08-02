@@ -1,14 +1,14 @@
 ---
 title: OdConnector
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdConnectoraspose.imaging.fileformats.opendocument.objects.graphic/odconnector.
+description: Инициализирует новый экземплярOdConnectoraspose.imaging.fileformats.opendocument.objects.graphic/odconnector класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odconnector/odconnector/
 ---
 ## OdConnector constructor
 
-Инициализирует новый экземпляр класса[`OdConnector`](../../odconnector).
+Инициализирует новый экземпляр[`OdConnector`](../../odconnector) класс.
 
 ```csharp
 public OdConnector(OdObject parent)

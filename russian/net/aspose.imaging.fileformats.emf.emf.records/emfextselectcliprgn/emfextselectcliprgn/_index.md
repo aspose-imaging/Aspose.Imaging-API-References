@@ -1,14 +1,14 @@
 ---
 title: EmfExtSelectClipRgn
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfExtSelectClipRgnaspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn.
+description: Инициализирует новый экземплярEmfExtSelectClipRgnaspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/emfextselectcliprgn/
 ---
 ## EmfExtSelectClipRgn(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfExtSelectClipRgn`](../../emfextselectcliprgn).
+Инициализирует новый экземпляр[`EmfExtSelectClipRgn`](../../emfextselectcliprgn) класс.
 
 ```csharp
 public EmfExtSelectClipRgn(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfExtSelectClipRgn(EmfRecord source)
 
 ## EmfExtSelectClipRgn() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfExtSelectClipRgn`](../../emfextselectcliprgn).
+Инициализирует новый экземпляр[`EmfExtSelectClipRgn`](../../emfextselectcliprgn) класс.
 
 ```csharp
 public EmfExtSelectClipRgn()

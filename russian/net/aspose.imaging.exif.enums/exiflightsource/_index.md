@@ -26,13 +26,13 @@ public enum ExifLightSource
 | Fineweather | `9` | Хорошая погода. |
 | Cloudyweather | `10` | Пасмурная погода. |
 | Shade | `11` | Тень. |
-| DaylightFluorescent | `12` | Дневной флуоресцентный. |
+| DaylightFluorescent | `12` | Люминесцентные лампы дневного света. |
 | DayWhiteFluorescent | `13` | Дневной белый флуоресцентный. |
 | CoolWhiteFluorescent | `14` | Холодный белый флуоресцентный. |
 | WhiteFluorescent | `15` | Белый флуоресцентный. |
-| StandardlightA | `17` | Стандартный светильник a. |
+| StandardlightA | `17` | Стандартный свет a. |
 | StandardlightB | `18` | Стандартный свет b. |
-| StandardlightC | `19` | Standardlight c. |
+| StandardlightC | `19` | Стандартный свет c. |
 | D55 | `20` | Значение d55 (5500K). |
 | D65 | `21` | Значение d65 (6500K). |
 | D75 | `22` | Значение d75 (7500K). |

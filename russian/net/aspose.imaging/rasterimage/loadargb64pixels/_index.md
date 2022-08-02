@@ -33,15 +33,15 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\16rgba.p
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-     // Загрузить пиксели для всего изображения. Любая прямоугольная часть изображения может быть указана в качестве параметра метода Aspose.Imaging.RasterImage.LoadArgb64Pixels.
-     // Обратите внимание, что само изображение должно иметь 16 бит на выборку, потому что Aspose.Imaging.RasterImage.LoadArgb64Pixels не работает с 8 битами на выборку.
-     // Для работы с 8 битами на выборку используйте старый добрый метод Aspose.Imaging.RasterImage.LoadArgb32Pixels.
+    // Загрузить пиксели для всего изображения. В качестве параметра метода Aspose.Imaging.RasterImage.LoadArgb64Pixels можно указать любую прямоугольную часть изображения.
+    // Обратите внимание, что само изображение должно иметь 16 бит на выборку, потому что Aspose.Imaging.RasterImage.LoadArgb64Pixels не работает с 8 битами на выборку.
+    // Для работы с 8 битами на выборку используйте старый добрый метод Aspose.Imaging.RasterImage.LoadArgb32Pixels.
     long[] pixels = rasterImage.LoadArgb64Pixels(rasterImage.Bounds);
 
     int count = 0;
     foreach (int pixel in pixels)
     {
-         // Обратите внимание, что все компоненты цвета, включая альфа, представлены 16-битными значениями, поэтому их допустимые значения находятся в диапазоне [0, 63535].
+        // Обратите внимание, что все компоненты цвета, включая альфа, представлены 16-битными значениями, поэтому их допустимые значения находятся в диапазоне [0, 63535].
         int alpha = (pixel >> 48) & 0xffff;
         if (alpha == 0)
         {

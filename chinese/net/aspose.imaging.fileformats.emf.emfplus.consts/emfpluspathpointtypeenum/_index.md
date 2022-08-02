@@ -24,7 +24,7 @@ public enum EmfPlusPathPointTypeEnum
 
 ### 评论
 
-图形路径点类型由EmfPlusPathPointType对象（第 2.2.2.31 节）。
+图形路径点类型由[`EmfPlusPathPointType`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtype)对象（第 2.2.2.31 节）.
 
 ### 也可以看看
 

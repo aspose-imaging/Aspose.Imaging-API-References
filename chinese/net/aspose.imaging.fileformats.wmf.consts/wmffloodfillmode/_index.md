@@ -1,14 +1,14 @@
 ---
 title: WmfFloodFillMode
 second_title: Aspose.Imaging for .NET API 参考
-description: FloodFill 枚举指定填充操作的类型为 执行
+description: FloodFill 枚举指定要执行的填充操作的类型 
 type: docs
 weight: 8170
 url: /zh/net/aspose.imaging.fileformats.wmf.consts/wmffloodfillmode/
 ---
 ## WmfFloodFillMode enumeration
 
-FloodFill 枚举指定填充操作的类型为 执行。
+FloodFill 枚举指定要执行的填充操作的类型 。
 
 ```csharp
 public enum WmfFloodFillMode
@@ -18,8 +18,8 @@ public enum WmfFloodFillMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| FloodFillBorder | `0` | 填充区域以 Color 成员指定的颜色为界。 此样式与 META_FLOODFILL 记录执行的填充相同。 |
-| FloodFillSurface | `1` | 填充区域以 Color 成员指定的颜色为界。只要遇到 颜色，就会在所有方向上继续向外填充。此样式对于填充具有 多色边界的区域很有用。 |
+| FloodFillBorder | `0` | 填充区域由 Color 成员指定的颜色界定。 此样式与 META_FLOODFILL 记录执行的填充相同。 |
+| FloodFillSurface | `1` | 填充区域以 Color 成员指定的颜色为界。只要遇到 颜色，就会在所有方向上继续向外填充。这种风格对于用 多色边界填充区域很有用。 |
 
 ### 也可以看看
 

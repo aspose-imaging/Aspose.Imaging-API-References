@@ -1,14 +1,14 @@
 ---
 title: Script
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置定义字体字符集的 32 个 Unicode 字符的字符串 如果此字符串的长度小于 32 个字符则必须存在终止 NULL 之后必须忽略此字段的其余部分
+description: 获取或设置一个由 32 个 Unicode 字符组成的字符串用于定义字体的字符集 如果此字符串的长度小于 32 个字符则必须存在终止 NULL 之后必须忽略此字段的其余部分
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emflogfontex/script/
 ---
 ## EmfLogFontEx.Script property
 
-获取或设置定义字体字符集的 32 个 Unicode 字符的字符串。 如果此字符串的长度小于 32 个字符，则必须存在终止 NULL， 之后必须忽略此字段的其余部分。
+获取或设置一个由 32 个 Unicode 字符组成的字符串，用于定义字体的字符集。 如果此字符串的长度小于 32 个字符，则必须存在终止 NULL， 之后必须忽略此字段的其余部分。
 
 ```csharp
 public string Script { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: LineJoin
 second_title: Aspose.Imaging for .NET API 参考
-description: 指定如何连接GraphicsPath./graphicspath对象中包含的图形子路径中的连续线段或曲线段
+description: 指定如何连接图形子路径中的连续直线或曲线段GraphicsPath./graphicspath对象.
 type: docs
-weight: 10400
+weight: 10390
 url: /zh/net/aspose.imaging/linejoin/
 ---
 ## LineJoin enumeration
 
-指定如何连接[`GraphicsPath`](../graphicspath)对象中包含的图形（子路径）中的连续线段或曲线段。
+指定如何连接图形（子路径）中的连续直线或曲线段[`GraphicsPath`](../graphicspath)对象.
 
 ```csharp
 public enum LineJoin
@@ -18,7 +18,7 @@ public enum LineJoin
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Miter | `0` | 指定斜接连接。根据斜接长度是否超过斜接限制，这会产生尖角或剪角。 |
+| Miter | `0` | 指定斜接连接。这会产生尖角或剪角，具体取决于斜接的长度是否超过斜接限制。 |
 | Bevel | `1` | 指定斜角连接。这会产生一个对角角。 |
 | Round | `2` | 指定循环连接。这会在线条之间产生平滑的圆弧。 |
 | MiterClipped | `3` | 指定斜接连接。这会产生尖角或斜角，具体取决于斜接的长度是否超过斜接限制。 |

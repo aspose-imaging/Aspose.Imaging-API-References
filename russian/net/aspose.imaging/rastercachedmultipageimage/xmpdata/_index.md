@@ -1,14 +1,14 @@
 ---
 title: XmpData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает данные XMP из фрейма.
+description: Получает или устанавливает данные XMP из кадра.
 type: docs
 weight: 120
 url: /ru/net/aspose.imaging/rastercachedmultipageimage/xmpdata/
 ---
 ## RasterCachedMultipageImage.XmpData property
 
-Получает или устанавливает данные XMP из фрейма.
+Получает или устанавливает данные XMP из кадра.
 
 ```csharp
 public override XmpPacketWrapper XmpData { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Dimensions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Содержит размеры нарисованного объекта.
+description: Содержит размеры для нарисованного объекта.
 type: docs
-weight: 11580
+weight: 11570
 url: /ru/net/aspose.imaging.xmp.types.complex.dimensions/dimensions/
 ---
 ## Dimensions class
 
-Содержит размеры нарисованного объекта.
+Содержит размеры для нарисованного объекта.
 
 ```csharp
 public sealed class Dimensions : ComplexTypeBase
@@ -18,8 +18,8 @@ public sealed class Dimensions : ComplexTypeBase
 
 | Имя | Описание |
 | --- | --- |
-| [Dimensions](dimensions#constructor)() | Инициализирует новый экземпляр класса[`Dimensions`](../dimensions). |
-| [Dimensions](dimensions#constructor_1)(float, float) | Инициализирует новый экземпляр класса[`Dimensions`](../dimensions). |
+| [Dimensions](dimensions#constructor)() | Инициализирует новый экземпляр[`Dimensions`](../dimensions) класс. |
+| [Dimensions](dimensions#constructor_1)(float, float) | Инициализирует новый экземпляр[`Dimensions`](../dimensions) класс. |
 
 ## Характеристики
 

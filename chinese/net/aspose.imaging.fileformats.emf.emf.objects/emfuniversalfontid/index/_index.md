@@ -1,14 +1,14 @@
 ---
 title: Index
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数它是与字体对象关联的索引 该字段的含义由字体类型决定
+description: 获取或设置一个 32 位无符号整数它是与字体对象关联的索引该字段的 含义由字体类型决定
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfuniversalfontid/index/
 ---
 ## EmfUniversalFontId.Index property
 
-获取或设置一个 32 位无符号整数，它是与字体对象关联的索引。 该字段的含义由字体类型决定。
+获取或设置一个 32 位无符号整数，它是与字体对象关联的索引。该字段的 含义由字体类型决定。
 
 ```csharp
 public int Index { get; set; }

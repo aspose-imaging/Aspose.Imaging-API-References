@@ -1,14 +1,14 @@
 ---
 title: PowerClips
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает зажимы силы.
+description: Получает силовые зажимы.
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrdocument/powerclips/
 ---
 ## CdrDocument.PowerClips property
 
-Получает зажимы силы.
+Получает силовые зажимы.
 
 ```csharp
 public SortedDictionary<short, CdrListObjects> PowerClips { get; set; }
@@ -16,7 +16,7 @@ public SortedDictionary<short, CdrListObjects> PowerClips { get; set; }
 
 ### Стоимость имущества
 
-Блок питания.
+Силовые зажимы.
 
 ### Смотрите также
 

@@ -18,19 +18,19 @@ public sealed class EmfPlusSerializableObject : EmfPlusObjectRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPlusSerializableObject](emfplusserializableobject)(EmfPlusRecord) | Инициализирует новый экземпляр класса[`EmfPlusSerializableObject`](../emfplusserializableobject). |
+| [EmfPlusSerializableObject](emfplusserializableobject)(EmfPlusRecord) | Инициализирует новый экземпляр[`EmfPlusSerializableObject`](../emfplusserializableobject) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Buffer](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/buffer) { get; set; } | Получает или задает массив байтов BufferSize, содержащих сериализованные эффекты изображения блок параметров, соответствующий идентификатору GUID в поле ObjectGUID. Это ДОЛЖЕН быть один из объектов Image Effects (раздел 2.2.3). |
-| [BufferSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/buffersize) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер в байтах поля буфера, выровненного по 32 битам. |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО определять 32-разрядное выровненное число байтов данных в поле RecordData, которое следует. Это число не включает 12-байтовый заголовок записи. |
+| [Buffer](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/buffer) { get; set; } | Получает или задает массив байтов BufferSize, который содержит блок параметров сериализованного изображения Effects , соответствующий идентификатору GUID в поле ObjectGUID. Это ДОЛЖЕН быть один из объектов Image Effects (раздел 2.2.3). |
+| [BufferSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/buffersize) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер в байтах поля Buffer с 32-разрядным выравниванием. |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО определять 32-разрядное выровненное количество байтов данных в следующем поле RecordData. Это число не включает 12-байтовый заголовок записи. |
 | override [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/flags) { get; set; } | Получает или задает 16-разрядное целое число без знака, которое не используется. Это поле ДОЛЖНО быть установлено равным нулю и ДОЛЖНО игнорироваться при получении. |
 | [ImageEffect](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/imageeffect) { get; set; } | Получает или задает эффект изображения. |
 | [ObjectGuid](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/objectguid) { get; set; } | Получает или задает значение представления пакета GUID ([MS-DTYP], раздел 2.3.4.2) для эффекта изображения. Это ДОЛЖНО соответствовать одному из идентификаторов ImageEffects (раздел 2.1.3.1). |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее число байтов, выровненных по 32-разрядному выравниванию во всей записи, включая 12 -байтовый заголовок записи и данные, относящиеся к записи. |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее 32-разрядное выровненное количество байтов во всей записи, включая 12-разрядный заголовок записи и данные, относящиеся к записи. |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | Получает 16-разрядное целое число без знака, определяющее тип записи. |
 
 ### Смотрите также

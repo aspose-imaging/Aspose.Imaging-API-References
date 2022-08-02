@@ -1,14 +1,14 @@
 ---
 title: WmfPostScriptClipping
 second_title: Aspose.Imaging for .NET API 参考
-description: PostScriptClipping Enumeration 定义了可应用于剪切路径 用于 PostScript 输出的函数
+description: PostScriptClipping 枚举定义了可应用于用于 PostScript 输出的剪切路径 的函数
 type: docs
 weight: 8310
 url: /zh/net/aspose.imaging.fileformats.wmf.consts/wmfpostscriptclipping/
 ---
 ## WmfPostScriptClipping enumeration
 
-PostScriptClipping Enumeration 定义了可应用于剪切路径 用于 PostScript 输出的函数。
+PostScriptClipping 枚举定义了可应用于用于 PostScript 输出的剪切路径 的函数。
 
 ```csharp
 public enum WmfPostScriptClipping
@@ -19,8 +19,8 @@ public enum WmfPostScriptClipping
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | CLIP_SAVE | `0` | 保存当前 PostScript 剪辑路径。 |
-| CLIP_RESTORE | `1` | 将 PostScript 剪辑路径恢复为上次保存的剪辑路径 由 CLIP_TO_PATH 记录应用的前一个 CLIP_SAVE 函数（第 2.3.6.6 节） ）。 |
-| CLIP_INCLUSIVE | `2` | 将当前 PostScript 剪辑路径与当前剪辑路径 相交，并将结果保存为新的 PostScript 剪辑路径。 |
+| CLIP_RESTORE | `1` | 将 PostScript 剪辑路径恢复到上次由 CLIP_TO_PATH 记录应用的 CLIP_SAVE 函数保存的剪辑路径 （第 2.3.6.6 节）。 |
+| CLIP_INCLUSIVE | `2` | 将当前 PostScript 剪辑路径与当前剪辑路径 相交并将结果保存为新的 PostScript 剪辑路径。 |
 
 ### 也可以看看
 

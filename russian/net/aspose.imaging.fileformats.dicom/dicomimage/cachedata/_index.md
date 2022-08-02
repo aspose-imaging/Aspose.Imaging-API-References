@@ -23,13 +23,13 @@ public override void CacheData()
 
 string dir = "c:\\temp\\";
 
- // Загрузить изображение из файла DICOM.
+// Загрузить изображение из файла DICOM.
 using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileFormats.Dicom.DicomImage)Aspose.Imaging.Image.Load(dir + "sample.dicom"))
 {
-     // Этот вызов кэширует все страницы, чтобы не выполнялась дополнительная загрузка данных из базового потока данных.
+    // Этот вызов кэширует все страницы, чтобы не выполнялась дополнительная загрузка данных из базового потока данных.
     image.CacheData();
 
-     // Или вы можете кэшировать страницы по отдельности.
+    // Или вы можете кэшировать страницы по отдельности.
     foreach (Aspose.Imaging.FileFormats.Dicom.DicomPage page in image.DicomPages)
     {
         page.CacheData();

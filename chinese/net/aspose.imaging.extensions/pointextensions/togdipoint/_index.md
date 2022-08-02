@@ -1,14 +1,14 @@
 ---
 title: ToGdiPoint
 second_title: Aspose.Imaging for .NET API 参考
-description: 将PointFaspose.imaging/pointf转换为PointF
+description: 转换PointFaspose.imaging/pointf至PointF .
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.extensions/pointextensions/togdipoint/
 ---
 ## PointExtensions.ToGdiPoint method
 
-将[`PointF`](../../../aspose.imaging/pointf)转换为PointF。
+转换[`PointF`](../../../aspose.imaging/pointf)至PointF .
 
 ```csharp
 public static PointF ToGdiPoint(PointF point)
@@ -16,11 +16,11 @@ public static PointF ToGdiPoint(PointF point)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| point | PointF | [`PointF`](../../../aspose.imaging/pointf)进行转换。 |
+| point | PointF | 这[`PointF`](../../../aspose.imaging/pointf)转换。 |
 
 ### 返回值
 
-转换后的PointF。
+转换的PointF.
 
 ### 也可以看看
 

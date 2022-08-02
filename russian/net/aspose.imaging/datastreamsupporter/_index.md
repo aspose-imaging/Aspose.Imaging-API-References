@@ -26,9 +26,9 @@ public abstract class DataStreamSupporter : DisposableObject
 
 | Имя | Описание |
 | --- | --- |
-| abstract [CacheData](../../aspose.imaging/datastreamsupporter/cachedata)() | Кэширует данные и гарантирует, что дополнительная загрузка данных не будет выполняться из базового[`DataStreamContainer`](./datastreamcontainer). |
+| abstract [CacheData](../../aspose.imaging/datastreamsupporter/cachedata)() | Кэширует данные и гарантирует, что дополнительная загрузка данных не будет выполняться из базового[`DataStreamContainer`](./datastreamcontainer) . |
 | [Dispose](../../aspose.imaging/disposableobject/dispose)() | Удаляет текущий экземпляр. |
-| virtual [Save](../../aspose.imaging/datastreamsupporter/save#save)() | Сохраняет данные объекта в текущий[`DataStreamSupporter`](../datastreamsupporter). |
+| virtual [Save](../../aspose.imaging/datastreamsupporter/save#save)() | Сохраняет данные объекта в текущий[`DataStreamSupporter`](../datastreamsupporter) . |
 | [Save](../../aspose.imaging/datastreamsupporter/save#save_1)(Stream) | Сохраняет данные объекта в указанный поток. |
 | virtual [Save](../../aspose.imaging/datastreamsupporter/save#save_2)(string) | Сохраняет данные объекта в указанном месте файла. |
 | virtual [Save](../../aspose.imaging/datastreamsupporter/save#save_3)(string, bool) | Сохраняет данные объекта в указанном месте файла. |

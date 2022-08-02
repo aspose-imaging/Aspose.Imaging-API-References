@@ -18,17 +18,17 @@ public sealed class EmfPlusSetClipRegion : EmfPlusClippingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPlusSetClipRegion](emfplussetclipregion)(EmfPlusRecord) | Инициализирует новый экземпляр класса[`EmfPlusSetClipRegion`](../emfplussetclipregion). |
+| [EmfPlusSetClipRegion](emfplussetclipregion)(EmfPlusRecord) | Инициализирует новый экземпляр[`EmfPlusSetClipRegion`](../emfplussetclipregion) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Cm](../../aspose.imaging.fileformats.emf.emfplus.records/emfplussetclipregion/cm) { get; set; } | Получает или устанавливает CM (4 бита):задает логическую операцию для объединения двух регионов. См. перечисление CombineMode (раздел 2.1.1.4) для значений значений. |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО определять 32-разрядное выровненное число байтов данных в поле RecordData, которое следует. Это число не включает 12-байтовый заголовок записи. |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | Получает или задает 16-разрядное целое число без знака, содержащее информацию для некоторых записей о том, как должна выполняться операция , и о структуре запись. |
-| [ObjectId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplussetclipregion/objectid) { get; set; } | Получает или задает индекс объекта EmfPlusRegion (раздел 2.2.1.8) в таблице объектов EMF+ . Значение ДОЛЖНО быть от нуля до 63. , включительно. |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее число байтов, выровненных по 32-разрядному выравниванию во всей записи, включая 12 -байтовый заголовок записи и данные, относящиеся к записи. |
+| [Cm](../../aspose.imaging.fileformats.emf.emfplus.records/emfplussetclipregion/cm) { get; set; } | Получает или устанавливает CM (4 бита): определяет логическую операцию для объединения двух областей. См. перечисление CombineMode (раздел 2.1.1.4) для значений значений. |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО определять 32-разрядное выровненное количество байтов данных в следующем поле RecordData. Это число не включает 12-байтовый заголовок записи. |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | Получает или задает 16-разрядное целое число без знака, содержащее информацию для некоторых записей о том, как должна выполняться операция, и о структуре записи. |
+| [ObjectId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplussetclipregion/objectid) { get; set; } | Получает или задает индекс объекта EmfPlusRegion (раздел 2.2.1.8) в таблице объектов EMF+ . Значение ДОЛЖНО быть от нуля до 63 включительно. |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее 32-разрядное выровненное количество байтов во всей записи, включая 12-разрядный заголовок записи и данные, относящиеся к записи. |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | Получает 16-разрядное целое число без знака, определяющее тип записи. |
 
 ### Смотрите также

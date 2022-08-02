@@ -1,14 +1,14 @@
 ---
 title: Dx
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置定义水平距离的 32 位浮点值转换 是通过从 dx 和 dy 字段
+description: 获取或设置一个定义水平距离的 32 位浮点值 translate 是通过从 dx 和 dy 字段 构造一个新的世界变换矩阵来执行的
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplustranslateworldtransform/dx/
 ---
 ## EmfPlusTranslateWorldTransform.Dx property
 
-获取或设置定义水平距离的 32 位浮点值。转换 是通过从 dx 和 dy 字段
+获取或设置一个定义水平距离的 32 位浮点值。 translate 是通过从 dx 和 dy 字段 构造一个新的世界变换矩阵来执行的
 
 ```csharp
 public float Dx { get; set; }
@@ -16,7 +16,7 @@ public float Dx { get; set; }
 
 ### 适当的价值
 
-:::构造一个新的世界变换矩阵来执行的。 47:::dx。
+dx.
 
 ### 也可以看看
 

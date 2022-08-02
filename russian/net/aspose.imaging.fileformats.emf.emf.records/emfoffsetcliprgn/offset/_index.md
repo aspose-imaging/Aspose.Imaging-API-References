@@ -1,14 +1,14 @@
 ---
 title: Offset
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект WMF PointL MS-WMF раздел 2.2.2.15 который определяет горизонтальные и вертикальные смещения в логических единицах. .
+description: Получает или задает объект WMF PointL MS-WMF раздел 2.2.2.15 который определяет горизонтальное и вертикальное смещения в логических единицах.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfoffsetcliprgn/offset/
 ---
 ## EmfOffsetClipRgn.Offset property
 
-Получает или задает объект WMF PointL ([MS-WMF], раздел 2.2.2.15), который определяет горизонтальные и вертикальные смещения в логических единицах. .
+Получает или задает объект WMF PointL ([MS-WMF], раздел 2.2.2.15), который определяет горизонтальное и вертикальное смещения в логических единицах.
 
 ```csharp
 public Point Offset { get; set; }

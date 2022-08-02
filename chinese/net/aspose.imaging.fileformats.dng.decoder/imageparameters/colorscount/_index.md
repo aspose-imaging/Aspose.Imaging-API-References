@@ -16,11 +16,11 @@ public int ColorsCount { get; }
 
 ### 适当的价值
 
-颜色。
+颜色.
 
 ### 例子
 
-此示例说明如何从文件加载 DNG 图像，打印其属性并将其保存为 PNG。
+此示例说明如何从文件加载 DNG 图像、打印其属性并将其保存为 PNG。
 
 ```csharp
 [C#]
@@ -66,24 +66,24 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "test.dng"))
         System.Console.WriteLine("The date of shooting:                 {0}", System.DateTime.FromFileTime(otherParameters.Timestamp));
     }
 
-        // 使用默认选项导出为 PNG。
+    // 使用默认选项导出为 PNG。
     dngImage.Save(dir + "test.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
-    // 相机制造商：Leica
-    // 相机型号：M8 数码相机
-    // 颜色计数：3
-    // 颜色描述：RGBG
-    // DNG 版本：16777216
-    // 文件中 RAW 图像的数量：1
-    // 软件：1.107
-    // 颜色像素的顺序：10110100101101001011010010110100
-    // 光圈：0
-    // 描述：
-    // 焦距：50
-    // ISO感光度：160
-    // 图片的序列号：0
-    // 快门速度：12
+// 相机制造商：徕卡
+// 相机型号：M8 数码相机
+// 颜色计数：3
+// 颜色描述：RGBG
+// DNG 版本：16777216
+// 文件中 RAW 图像的数量：1
+// 软件：1.107
+// 颜色像素的顺序：10110100101101001011010010110100
+// 光圈：0
+// 说明：                      
+// 焦距：50
+// ISO感光度：160
+// 图片的序列号：0
+// 快门速度：12
 // 拍摄日期：8/3/2007 3:13:49 AM
 ```
 

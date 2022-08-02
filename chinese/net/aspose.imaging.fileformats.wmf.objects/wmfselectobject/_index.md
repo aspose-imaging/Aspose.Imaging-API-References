@@ -18,8 +18,8 @@ public class WmfSelectObject : WmfObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WmfSelectObject](wmfselectobject#constructor)() | 初始化[`WmfSelectObject`](../wmfselectobject)类的新实例。 |
-| [WmfSelectObject](wmfselectobject#constructor_1)(WmfGraphicObject) | 初始化[`WmfSelectObject`](../wmfselectobject)类的新实例。 |
+| [WmfSelectObject](wmfselectobject#constructor)() | 初始化[`WmfSelectObject`](../wmfselectobject)类. |
+| [WmfSelectObject](wmfselectobject#constructor_1)(WmfGraphicObject) | 初始化[`WmfSelectObject`](../wmfselectobject)类. |
 
 ## 特性
 

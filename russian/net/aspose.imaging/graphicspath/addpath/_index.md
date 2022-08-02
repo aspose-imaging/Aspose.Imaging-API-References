@@ -1,14 +1,14 @@
 ---
 title: AddPath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Добавляет указанныйGraphicsPathaspose.imaging/graphicspathк этому пути.
+description: Добавляет указанныйGraphicsPathaspose.imaging/graphicspath на этот путь.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging/graphicspath/addpath/
 ---
 ## AddPath(GraphicsPath) {#addpath}
 
-Добавляет указанный[`GraphicsPath`](../../graphicspath)к этому пути.
+Добавляет указанный[`GraphicsPath`](../../graphicspath) на этот путь.
 
 ```csharp
 public void AddPath(GraphicsPath addingPath)
@@ -16,7 +16,7 @@ public void AddPath(GraphicsPath addingPath)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| addingPath | GraphicsPath | [`GraphicsPath`](../../graphicspath)для добавления. |
+| addingPath | GraphicsPath | [`GraphicsPath`](../../graphicspath) добавить. |
 
 ### Смотрите также
 
@@ -28,7 +28,7 @@ public void AddPath(GraphicsPath addingPath)
 
 ## AddPath(GraphicsPath, bool) {#addpath_1}
 
-Добавляет указанный[`GraphicsPath`](../../graphicspath)к этому пути.
+Добавляет указанный[`GraphicsPath`](../../graphicspath) на этот путь.
 
 ```csharp
 public void AddPath(GraphicsPath addingPath, bool connect)
@@ -36,7 +36,7 @@ public void AddPath(GraphicsPath addingPath, bool connect)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| addingPath | GraphicsPath | [`GraphicsPath`](../../graphicspath)для добавления. |
+| addingPath | GraphicsPath | [`GraphicsPath`](../../graphicspath) добавить. |
 | connect | Boolean | Логическое значение, указывающее, является ли первая фигура в добавленном пути частью последней фигуры в этом пути. Значение true указывает, что первая фигура в добавленном пути является частью последней фигуры в этом пути. Значение false указывает, что первая фигура в добавленном пути отделена от последней фигуры в этом пути. |
 
 ### Смотрите также

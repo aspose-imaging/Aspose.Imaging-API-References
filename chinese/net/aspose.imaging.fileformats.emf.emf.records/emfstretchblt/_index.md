@@ -1,14 +1,14 @@
 ---
 title: EmfStretchBlt
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_STRETCHBLT 记录指定像素从源位图到 目标矩形的块传输可选地结合画笔图案根据指定的光栅 操作如有必要拉伸或压缩输出以适合目的地的尺寸
+description: EMR_STRETCHBLT 记录指定像素从源位图到 目标矩形的块传输根据指定的 raster 操作可选地结合画笔图案拉伸或压缩输出以适应目标的尺寸如有必要.
 type: docs
 weight: 4590
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfstretchblt/
 ---
 ## EmfStretchBlt class
 
-EMR_STRETCHBLT 记录指定像素从源位图到 目标矩形的块传输，可选地结合画笔图案，根据指定的光栅 操作，如有必要，拉伸或压缩输出以适合目的地的尺寸。
+EMR_STRETCHBLT 记录指定像素从源位图到 目标矩形的块传输，根据指定的 raster 操作，可选地结合画笔图案，拉伸或压缩输出以适应目标的尺寸，如有必要.
 
 ```csharp
 public sealed class EmfStretchBlt : EmfBitmapRecordType
@@ -18,26 +18,26 @@ public sealed class EmfStretchBlt : EmfBitmapRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfStretchBlt](emfstretchblt#constructor)() | 初始化[`EmfStretchBlt`](../emfstretchblt)类的新实例。 |
-| [EmfStretchBlt](emfstretchblt#constructor_1)(EmfRecord) | 初始化[`EmfStretchBlt`](../emfstretchblt)类的新实例。 |
+| [EmfStretchBlt](emfstretchblt#constructor)() | 初始化[`EmfStretchBlt`](../emfstretchblt)类. |
+| [EmfStretchBlt](emfstretchblt#constructor_1)(EmfRecord) | 初始化[`EmfStretchBlt`](../emfstretchblt)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Argb32BkColorSrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/argb32bkcolorsrc) { get; set; } | 获取或设置 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节指定源位图的 背景颜色。 |
-| [BitBltRasterOperation](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/bitbltrasteroperation) { get; set; } | 获取或设置一个 32 位无符号整数，用于指定光栅操作 代码。 此代码定义了如何将源矩形的颜色数据与目标矩形的 颜色数据以及可选的画笔图案组合，以实现最终颜色 |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/bounds) { get; set; } | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象以设备单位定义 目标边界矩形。 |
-| [CxDest](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/cxdest) { get; set; } | 获取或设置一个 32 位有符号整数，它指定目标矩形的逻辑宽度。 |
-| [CxSrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/cxsrc) { get; set; } | 获取或设置一个 32 位有符号整数，它指定源矩形的逻辑宽度。 |
-| [CyDest](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/cydest) { get; set; } | 获取或设置一个 32 位有符号整数，它指定目标矩形的逻辑高度。 |
-| [CySrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/cysrc) { get; set; } | 获取或设置一个 32 位有符号整数，它指定源矩形的逻辑高度。 |
+| [Argb32BkColorSrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/argb32bkcolorsrc) { get; set; } | 获取或设置 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节，指定源位图的 背景颜色。 |
+| [BitBltRasterOperation](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/bitbltrasteroperation) { get; set; } | 获取或设置一个 32 位无符号整数，指定光栅操作 代码。此代码定义了如何将源矩形的颜色数据与目标矩形的 颜色数据以及可选的画笔图案组合，以实现最终的color |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/bounds) { get; set; } | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），它以设备单位定义 目标边界矩形。 |
+| [CxDest](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/cxdest) { get; set; } | 获取或设置一个 32 位有符号整数，指定目标矩形的逻辑宽度。 |
+| [CxSrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/cxsrc) { get; set; } | 获取或设置一个 32 位有符号整数，指定源矩形的逻辑宽度。 |
+| [CyDest](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/cydest) { get; set; } | 获取或设置一个 32 位有符号整数，指定目标矩形的逻辑高度。 |
+| [CySrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/cysrc) { get; set; } | 获取或设置一个 32 位有符号整数，指定源矩形的逻辑高度。 |
 | [DestRect](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/destrect) { get; set; } | 获取或设置目标矩形。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
-| [SourceBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/sourcebitmap) { get; set; } | 获取或设置包含源位图的缓冲区，该缓冲区不需要是 与 EMR_STRETCHBLT 记录的固定部分连续。因此，此 缓冲区中标记为“UndefinedSpace”的字段是可选的并且必须被忽略。 |
+| [SourceBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/sourcebitmap) { get; set; } | 获取或设置包含源位图的缓冲区，该缓冲区不需要与 EMR_STRETCHBLT 记录的固定部分 连续。因此，这个 缓冲区中标记为“UndefinedSpace”的字段是可选的，必须被忽略。 |
 | [SrcRect](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/srcrect) { get; set; } | 获取或设置源矩形。 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
-| [UsageSrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/usagesrc) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定如何解释源位图标头中 颜色表中的值。该值必须在 DIBColors 枚举中（第 2.1.9 节）。 |
+| [UsageSrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/usagesrc) { get; set; } | 获取或设置一个 32 位无符号整数，它指定如何解释源位图头中的 颜色表中的值。此值必须在 DIBColors 枚举（第 2.1.9 节）中。 |
 | [XDest](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/xdest) { get; set; } | 获取或设置一个 32 位有符号整数，它指定目标矩形左上角 角的逻辑 x 坐标。 |
 | [XformSrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/xformsrc) { get; set; } | 获取或设置一个 XForm 对象（第 2.2.28 节），该对象指定世界空间到页面空间的转换以应用于源位图。 |
 | [XSrc](../../aspose.imaging.fileformats.emf.emf.records/emfstretchblt/xsrc) { get; set; } | 获取或设置一个 32 位有符号整数，它指定源矩形左上角 角的逻辑 x 坐标。 |

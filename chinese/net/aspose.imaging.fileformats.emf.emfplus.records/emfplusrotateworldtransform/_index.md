@@ -18,17 +18,17 @@ public sealed class EmfPlusRotateWorldTransform : EmfPlusTerminalServerRecordTyp
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfPlusRotateWorldTransform](emfplusrotateworldtransform)(EmfPlusRecord) | 初始化[`EmfPlusRotateWorldTransform`](../emfplusrotateworldtransform)类的新实例。 |
+| [EmfPlusRotateWorldTransform](emfplusrotateworldtransform)(EmfPlusRecord) | 初始化[`EmfPlusRotateWorldTransform`](../emfplusrotateworldtransform)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Angle](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrotateworldtransform/angle) { get; set; } | 获取或设置以度为单位指定旋转角度的 32 位浮点值。 操作是通过从以下 图构造一个新的变换矩阵来执行的: -------------- ------------------- &#x7C; sin(角度) &#x7C; cos(角度) &#x7C; 0 &#x7C; &#x7C; cos(角度) &#x7C; sin(角度) &#x7C; 0 &#x7C; --------------------------------- 图2:Rotation Transform Matrix 当前世界空间变换乘以这个矩阵，结果变成 新的当前世界空间变换。 Flags 字段确定乘法的顺序。 |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，该整数必须在 RecordData 字段中定义 32 位对齐的 数据字节数跟随。这个数字不包括 12 字节的记录头。 |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | 获取或设置一个 16 位无符号整数，该整数包含有关如何执行 操作和结构的一些记录的信息记录。 |
-| [PostMultipliedMatrix](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrotateworldtransform/postmultipliedmatrix) { get; } | 获取一个值，指示是否[后乘矩阵]。 如果设置，变换矩阵应该是后乘的。如果明确，则应进行预乘。 |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | 获取或设置一个 32 位无符号整数，指定整条记录中的 32 位对齐字节数 ，包括 12 -byte 记录头和特定于记录的数据。 |
+| [Angle](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrotateworldtransform/angle) { get; set; } | 获取或设置一个 32 位浮点值，以度为单位指定旋转角度。 通过从以下 图构造新的变换矩阵来执行操作： ------------ ---------------------- &#x7C; sin(角度) &#x7C; cos(角度) &#x7C; 0 &#x7C; &#x7C; cos(角度) &#x7C; sin(角度) &#x7C; 0 &#x7C; --------------------------------- 图2：旋转变换矩阵 当前世界空间变换相乘通过这个矩阵，结果变成了 新的当前世界空间变换。 Flags 字段决定了乘法的顺序。 |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，该整数必须在随后的 RecordData 字段中定义 32 位对齐的 字节数据。这个数字不包括 12 字节的记录头。 |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | 获取或设置一个 16 位无符号整数，其中包含一些记录的信息，关于如何执行 操作以及记录的结构。 |
+| [PostMultipliedMatrix](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrotateworldtransform/postmultipliedmatrix) { get; } | 获取一个值，该值指示是否[后乘矩阵]。 如果设置，则应对变换矩阵进行后乘。如果清楚，应该是预乘。 |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | 获取或设置一个 32 位无符号整数，指定整个记录中 32 位对齐的字节数 ，包括 12 字节的记录头和特定于记录的数据。 |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | 获取标识记录类型的 16 位无符号整数。 |
 
 ### 也可以看看

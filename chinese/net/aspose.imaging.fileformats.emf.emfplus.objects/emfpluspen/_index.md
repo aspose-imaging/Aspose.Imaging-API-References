@@ -24,8 +24,8 @@ public sealed class EmfPlusPen : EmfPlusGraphicsObjectType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BrushObject](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen/brushobject) { get; set; } | 获取或设置一个 EmfPlusBrush 对象，该对象指定与笔关联的图形画笔 |
-| [PenData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen/pendata) { get; set; } | 获取或设置指定图形笔属性的 EmfPlusPenData 对象 |
+| [BrushObject](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen/brushobject) { get; set; } | 获取或设置一个 EmfPlusBrush 对象，该对象指定与 pen 关联的图形画笔 |
+| [PenData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen/pendata) { get; set; } | 获取或设置一个 EmfPlusPenData 对象，该对象指定图形笔的属性 |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen/type) { get; set; } | 获取或设置此字段必须设置为零 |
 | [Version](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsobjecttype/version) { get; set; } | 获取或设置版本。 |
 

@@ -1,14 +1,14 @@
 ---
 title: CustomEndCapData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает необязательный объект EmfPlusCustomEndCapData раздел 2.2.2.11  который определяет пользовательскую форму торца которая является формой для используйте в конце линии нарисованной этим пером. Это может быть любая из различных форм таких как квадрат круг или ромб. Это поле ДОЛЖНО присутствовать если флаг PenDataCustomEndCap установлен в поле PenDataFlags объекта EmfPlusPenData
+description: Получает или задает необязательный объект EmfPlusCustomEndCapData раздел 2.2.2.11  определяющий пользовательскую форму заглушки которая представляет собой форму которую использует в конце линии нарисованной этим пером. Это может быть любая из различных форм например квадрат круг или ромб. Это поле ДОЛЖНО присутствовать если флаг PenDataCustomEndCap установлен в в поле PenDataFlags объекта EmfPlusPenData object
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata/customendcapdata/
 ---
 ## EmfPlusPenOptionalData.CustomEndCapData property
 
-Получает или задает необязательный объект EmfPlusCustomEndCapData (раздел 2.2.2.11) , который определяет пользовательскую форму торца, которая является формой для используйте в конце линии, нарисованной этим пером. Это может быть любая из различных форм, таких как квадрат, круг или ромб. Это поле ДОЛЖНО присутствовать, если флаг PenDataCustomEndCap установлен в поле PenDataFlags объекта EmfPlusPenData
+Получает или задает необязательный объект EmfPlusCustomEndCapData (раздел 2.2.2.11) , определяющий пользовательскую форму заглушки, которая представляет собой форму, которую использует в конце линии, нарисованной этим пером. Это может быть любая из различных форм, например, квадрат, круг или ромб. Это поле ДОЛЖНО присутствовать, если флаг PenDataCustomEndCap установлен в в поле PenDataFlags объекта EmfPlusPenData object
 
 ```csharp
 public EmfPlusCustomEndCapData CustomEndCapData { get; set; }

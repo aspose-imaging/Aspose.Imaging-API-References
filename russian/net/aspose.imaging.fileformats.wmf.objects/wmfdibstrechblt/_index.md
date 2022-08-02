@@ -1,14 +1,14 @@
 ---
 title: WmfDibStrechBlt
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_DIBSTRETCHBLT определяет передачу блока пикселей в аппаратно-независимый формат в соответствии с растровой операцией с возможным расширением или сужением.
+description: Запись META_DIBSTRETCHBLT определяет передачу блока пикселей в аппаратно-независимый формат в соответствии с растровой операцией с возможным расширением или сжатием.
 type: docs
 weight: 8610
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/
 ---
 ## WmfDibStrechBlt class
 
-Запись META_DIBSTRETCHBLT определяет передачу блока пикселей в аппаратно-независимый формат в соответствии с растровой операцией, с возможным расширением или сужением.
+Запись META_DIBSTRETCHBLT определяет передачу блока пикселей в аппаратно-независимый формат в соответствии с растровой операцией, с возможным расширением или сжатием.
 
 ```csharp
 public class WmfDibStrechBlt : WmfObject
@@ -30,9 +30,9 @@ public class WmfDibStrechBlt : WmfObject
 | [SourceBitmap](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/sourcebitmap) { get; set; } | Получает или задает исходное растровое изображение. |
 | [SrcHeight](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/srcheight) { get; set; } | Получает или задает высоту источника. |
 | [SrcWidth](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/srcwidth) { get; set; } | Получает или задает ширину источника. |
-| [XDest](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/xdest) { get; set; } | Получает или задает x место назначения. |
+| [XDest](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/xdest) { get; set; } | Получает или задает x dest. |
 | [XSrc](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/xsrc) { get; set; } | Получает или задает источник x. |
-| [YDest](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/ydest) { get; set; } | Получает или задает y-назначение. |
+| [YDest](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/ydest) { get; set; } | Получает или задает y dest. |
 | [YSrc](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/ysrc) { get; set; } | Получает или задает источник y. |
 
 ### Смотрите также

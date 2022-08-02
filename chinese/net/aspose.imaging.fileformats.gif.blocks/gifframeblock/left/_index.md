@@ -1,14 +1,14 @@
 ---
 title: Left
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置左侧图像位置
+description: 获取或设置左图位置
 type: docs
 weight: 170
 url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifframeblock/left/
 ---
 ## GifFrameBlock.Left property
 
-获取或设置左侧图像位置。
+获取或设置左图位置。
 
 ```csharp
 public ushort Left { get; set; }

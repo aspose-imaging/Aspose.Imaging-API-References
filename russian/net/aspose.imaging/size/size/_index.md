@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр структурыSizeaspose.imaging/sizeиз указаннойТочка.
+description: Инициализирует новый экземплярSizeaspose.imaging/size структура из указанногоPointaspose.imaging/point .
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging/size/size/
 ---
 ## Size(Point) {#constructor}
 
-Инициализирует новый экземпляр структуры[`Size`](../../size)из указаннойТочка.
+Инициализирует новый экземпляр[`Size`](../../size) структура из указанного[`Point`](../../point) .
 
 ```csharp
 public Size(Point point)
@@ -16,7 +16,7 @@ public Size(Point point)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | Point | [`Point`](../../point)из которого инициализируется этот[`Size`](../../size). |
+| point | Point | [`Point`](../../point) из которого инициализировать это[`Size`](../../size). |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public Size(Point point)
 
 ## Size(int, int) {#constructor_1}
 
-Инициализирует новый экземпляр структуры[`Size`](../../size)из указанных измерений.
+Инициализирует новый экземпляр[`Size`](../../size) структура из указанных размеров.
 
 ```csharp
 public Size(int width, int height)

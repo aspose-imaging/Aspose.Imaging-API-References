@@ -1,14 +1,14 @@
 ---
 title: op_Explicit
 second_title: Aspose.Imaging for .NET API 参考
-description: 执行从EpsInterchangeImageaspose.imaging.fileformats.eps/epsinterchangeimage到EpsBinaryImage
+description: 执行显式转换EpsInterchangeImageaspose.imaging.fileformats.eps/epsinterchangeimage至EpsBinaryImageaspose.imaging.fileformats.eps/epsbinaryimage
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.eps/epsbinaryimage/op_explicit/
 ---
 ## EpsBinaryImage Explicit operator
 
-执行从[`EpsInterchangeImage`](../../epsinterchangeimage)到EpsBinaryImage
+执行显式转换[`EpsInterchangeImage`](../../epsinterchangeimage)至[`EpsBinaryImage`](../../epsbinaryimage)
 
 ```csharp
 public static explicit operator EpsBinaryImage(EpsInterchangeImage basicImage)
@@ -16,11 +16,11 @@ public static explicit operator EpsBinaryImage(EpsInterchangeImage basicImage)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| basicImage | EpsInterchangeImage | 基本图像 |
+| basicImage | EpsInterchangeImage | 基本形象 |
 
 ### 返回值
 
-转换结果
+转换的结果
 
 ### 也可以看看
 

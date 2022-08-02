@@ -1,14 +1,14 @@
 ---
 title: JpegLoadException
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化JpegLoadExceptionaspose.imaging.coreexceptions.imageformats/jpegloadexception类的新实例
+description: 初始化JpegLoadExceptionaspose.imaging.coreexceptions.imageformats/jpegloadexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.coreexceptions.imageformats/jpegloadexception/jpegloadexception/
 ---
 ## JpegLoadException(string) {#constructor}
 
-初始化[`JpegLoadException`](../../jpegloadexception)类的新实例。
+初始化[`JpegLoadException`](../../jpegloadexception)类.
 
 ```csharp
 public JpegLoadException(string message)
@@ -28,7 +28,7 @@ public JpegLoadException(string message)
 
 ## JpegLoadException(string, Exception) {#constructor_2}
 
-初始化[`JpegLoadException`](../../jpegloadexception)类的新实例。
+初始化[`JpegLoadException`](../../jpegloadexception)类.
 
 ```csharp
 public JpegLoadException(string message, Exception innerException)
@@ -37,7 +37,7 @@ public JpegLoadException(string message, Exception innerException)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 消息。 |
-| innerException | Exception | 内部异常。 |
+| innerException | Exception | 内在异常。 |
 
 ### 也可以看看
 
@@ -49,7 +49,7 @@ public JpegLoadException(string message, Exception innerException)
 
 ## JpegLoadException(string, ErrorReason) {#constructor_1}
 
-初始化[`JpegLoadException`](../../jpegloadexception)类的新实例。
+初始化[`JpegLoadException`](../../jpegloadexception)类.
 
 ```csharp
 public JpegLoadException(string message, ErrorReason reason)
@@ -58,7 +58,7 @@ public JpegLoadException(string message, ErrorReason reason)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 异常消息。 |
-| reason | ErrorReason | 错误原因。 |
+| reason | ErrorReason | 错误的原因。 |
 
 ### 也可以看看
 
@@ -71,7 +71,7 @@ public JpegLoadException(string message, ErrorReason reason)
 
 ## JpegLoadException(string, Exception, ErrorReason) {#constructor_3}
 
-初始化[`JpegLoadException`](../../jpegloadexception)类的新实例。
+初始化[`JpegLoadException`](../../jpegloadexception)类.
 
 ```csharp
 public JpegLoadException(string message, Exception innerException, ErrorReason reason)
@@ -80,8 +80,8 @@ public JpegLoadException(string message, Exception innerException, ErrorReason r
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 异常消息。 |
-| innerException | Exception | 内部异常。 |
-| reason | ErrorReason | 错误原因。 |
+| innerException | Exception | 内在异常。 |
+| reason | ErrorReason | 错误的原因。 |
 
 ### 也可以看看
 

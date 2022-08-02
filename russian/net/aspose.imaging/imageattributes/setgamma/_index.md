@@ -37,7 +37,7 @@ public void SetGamma(float gamma, ColorAdjustType type)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | gamma | Single | Значение гамма-коррекции. |
-| type | ColorAdjustType | Элемент перечисления[`ColorAdjustType`](../../coloradjusttype), указывающий категорию, для которой установлено значение гаммы. |
+| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype) перечисление, указывающее категорию, для которой установлено значение гаммы. |
 
 ### Смотрите также
 

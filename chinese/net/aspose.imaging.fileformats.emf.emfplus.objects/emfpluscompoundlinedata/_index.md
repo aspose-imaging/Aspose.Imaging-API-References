@@ -24,7 +24,7 @@ public sealed class EmfPlusCompoundLineData : EmfPlusStructureObjectType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CompoundLineData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompoundlinedata/compoundlinedata) { get; set; } | 获取或设置 CompoundLineDataSize 浮点值数组 指定笔的复合线。元素 必须按升序排列，并且它们的值必须是 介于 0.0 和 1.0 之间，包括 |
+| [CompoundLineData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompoundlinedata/compoundlinedata) { get; set; } | 获取或设置 CompoundLineDataSize 浮点值 的数组，用于指定笔的复合线。 elements 必须按递增顺序排列，并且它们的值必须在 0.0 和 1.0 之间为 ，包括 |
 
 ### 也可以看看
 

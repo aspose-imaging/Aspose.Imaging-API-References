@@ -20,7 +20,7 @@ public TiffDataType GetTagByType(TiffTags tagKey)
 
 ### 返回值
 
-标签的实例如果存在，否则为空。
+标签的实例，如果存在，否则为空。
 
 ### 也可以看看
 

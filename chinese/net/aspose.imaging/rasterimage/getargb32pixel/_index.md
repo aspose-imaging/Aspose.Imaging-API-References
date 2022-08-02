@@ -30,54 +30,21 @@ public int GetArgb32Pixel(int x, int y)
 ```csharp
 [C#]
 
-string dir = "c:\\temp\\";
-
-    // 从 PNG 文件加载图像。
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\sample.png"))
 {
-        // 缓存所有像素数据，这样就不会从底层数据流中执行额外的数据加载
-    image.CacheData();
-
-    System.Diagnostics.Stopwatch stopwatch = new System.Diagnostics.Stopwatch();
-    stopwatch.Start();
-
-        // 读取所有像素非常快。
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
-    for (int y = 0; y < image.Height; y++)
-    {
-        for (int x = 0; x < image.Width; x++)
-        {
-            int color = rasterImage.GetArgb32Pixel(x, y);
-        }
-    }
 
-    stopwatch.Stop();
-    System.Console.WriteLine("Reading all cached pixels took {0} ms.", stopwatch.ElapsedMilliseconds);
+    // 获取图像左上角像素颜色的整数表示。
+    int color = rasterImage.GetArgb32Pixel(0, 0);
+
+    // 要获得各个颜色分量的值，请将颜色值移动相应的位数
+    int alpha = (color >> 24) & 0xff;
+    int red = (color >> 16) & 0xff;
+    int green = (color >> 8) & 0xff;
+    int blue = (color >> 0) & 0xff;
+
+    System.Console.WriteLine("The color of the pixel(0,0) is A={0},R={1},G={2},B={3}", alpha, red, green, blue);
 }
-
-    // 从 PNG 文件中加载图像
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
-{
-    System.Diagnostics.Stopwatch stopwatch = new System.Diagnostics.Stopwatch();
-    stopwatch.Start();
-
-        // 读取所有像素没有缓存时快
-    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
-    for (int y = 0; y < image.Height; y++)
-    {
-        for (int x = 0; x < image.Width; x++)
-        {
-            int color = rasterImage.GetArgb32Pixel(x, y);
-        }
-    }
-
-    stopwatch.Stop();
-    System.Console.WriteLine("Reading all pixels without preliminary caching took {0} ms.", stopwatch.ElapsedMilliseconds);
-}
-
-// 输出可能如下所示：
-    // 读取所有缓存的像素需要 1500 ms.
-// 在没有初步缓存的情况下读取所有像素需要 150000 毫秒。
 ```
 
 以下示例显示图像缓存如何影响性能。在一般情况下，读取缓存数据比读取非缓存数据执行得更快。
@@ -87,16 +54,16 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 
 string dir = "c:\\temp\\";
 
-    // 从 PNG 文件加载图像。
+// 从 PNG 文件中加载图像。
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
 {
-        // 缓存所有像素数据，这样就不会从底层数据流中执行额外的数据加载
+    // 缓存所有像素数据，这样就不会从底层数据流执行额外的数据加载
     image.CacheData();
 
     System.Diagnostics.Stopwatch stopwatch = new System.Diagnostics.Stopwatch();
     stopwatch.Start();
 
-        // 读取所有像素非常快。
+    // 读取所有像素非常快。
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
     for (int y = 0; y < image.Height; y++)
     {
@@ -110,13 +77,13 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
     System.Console.WriteLine("Reading all cached pixels took {0} ms.", stopwatch.ElapsedMilliseconds);
 }
 
-    // 从 PNG 文件中加载图像
+// 从 PNG 文件中加载图像
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
 {
     System.Diagnostics.Stopwatch stopwatch = new System.Diagnostics.Stopwatch();
     stopwatch.Start();
 
-        // 读取所有像素没有缓存时快
+    // 读取所有像素不如缓存时快
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
     for (int y = 0; y < image.Height; y++)
     {
@@ -131,7 +98,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 }
 
 // 输出可能如下所示：
-    // 读取所有缓存的像素需要 1500 ms.
+// 读取所有缓存的像素需要 1500 毫秒。
 // 在没有初步缓存的情况下读取所有像素需要 150000 毫秒。
 ```
 

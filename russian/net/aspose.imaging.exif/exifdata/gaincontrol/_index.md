@@ -1,14 +1,14 @@
 ---
 title: GainControl
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает степень регулировки общего усиления изображения.
+description: Получает или задает степень общей регулировки усиления изображения.
 type: docs
 weight: 340
 url: /ru/net/aspose.imaging.exif/exifdata/gaincontrol/
 ---
 ## ExifData.GainControl property
 
-Получает или задает степень регулировки общего усиления изображения.
+Получает или задает степень общей регулировки усиления изображения.
 
 ```csharp
 public ExifGainControl GainControl { get; set; }

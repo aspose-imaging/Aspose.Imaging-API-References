@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.Xmp.Schemas.Dicom
 second_title: Aspose.Imaging for .NET API 参考
-description: 命名空间包含与 Dicom 元数据相关的辅助类常量和方法
+description: 命名空间包含 Dicom 元数据相关的辅助类常量和方法
 type: docs
 weight: 900
 url: /zh/net/aspose.imaging.xmp.schemas.dicom/
 ---
-命名空间包含与 Dicom 元数据相关的辅助类、常量和方法。
+命名空间包含 Dicom 元数据相关的辅助类、常量和方法。
 
 ## 课程
 

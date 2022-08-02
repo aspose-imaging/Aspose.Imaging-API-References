@@ -1,14 +1,14 @@
 ---
 title: CreateFirstSupportedLoader
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Создает первый найденный загрузчик подходящий для указанногоstreamи опциональноloadOptions.
+description: Создает первый найденный загрузчик подходящий для указанногоstream и необязательноloadOptions .
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging/imageloadersregistry/createfirstsupportedloader/
 ---
 ## ImageLoadersRegistry.CreateFirstSupportedLoader method
 
-Создает первый найденный загрузчик, подходящий для указанного*stream*и опционально*loadOptions*.
+Создает первый найденный загрузчик, подходящий для указанного*stream* и необязательно*loadOptions* .
 
 ```csharp
 public static IImageLoader CreateFirstSupportedLoader(Stream stream, LoadOptions loadOptions)
@@ -17,15 +17,15 @@ public static IImageLoader CreateFirstSupportedLoader(Stream stream, LoadOptions
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток. |
-| loadOptions | LoadOptions | Параметры загрузки. |
+| loadOptions | LoadOptions | Варианты загрузки. |
 
 ### Возвращаемое значение
 
-Загрузчик, который поддерживает указанные*stream*и*loadOptions*или null если такой загрузчик не найден.
+Загрузчик, поддерживающий указанный*stream* а также*loadOptions* или null, если такой загрузчик не найден.
 
 ### Примечания
 
-Первый загрузчик будет фактически последним зарегистрированным.
+Первый загрузчик будет последним зарегистрированным.
 
 ### Смотрите также
 

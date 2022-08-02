@@ -1,14 +1,14 @@
 ---
 title: OutlineData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает необязательный объект EmfPlusLinePath раздел 2.2.2.26  указывающий путь для обводки настраиваемой графической линии. Это поле ДОЛЖНО присутствовать если флаг CustomLineCapDataLinePath установлен в поле CustomLineCapDataFlags объекта EmfPlusCustomLineCapData.
+description: Получает или задает необязательный объект EmfPlusLinePath раздел 2.2.2.26  указывающий путь для обводки настраиваемой границы графической линии. Это поле ДОЛЖНО присутствовать если флаг CustomLineCapDataLinePath установлен в поле CustomLineCapDataFlags объекта EmfPlusCustomLineCapData.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapoptionaldata/outlinedata/
 ---
 ## EmfPlusCustomLineCapOptionalData.OutlineData property
 
-Получает или задает необязательный объект EmfPlusLinePath (раздел 2.2.2.26) , указывающий путь для обводки настраиваемой графической линии. Это поле ДОЛЖНО присутствовать, если флаг CustomLineCapDataLinePath установлен в поле CustomLineCapDataFlags объекта EmfPlusCustomLineCapData.
+Получает или задает необязательный объект EmfPlusLinePath (раздел 2.2.2.26) , указывающий путь для обводки настраиваемой границы графической линии. Это поле ДОЛЖНО присутствовать, если флаг CustomLineCapDataLinePath установлен в поле CustomLineCapDataFlags объекта EmfPlusCustomLineCapData.
 
 ```csharp
 public EmfPlusLinePath OutlineData { get; set; }

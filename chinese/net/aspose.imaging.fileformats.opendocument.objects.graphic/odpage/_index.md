@@ -18,18 +18,18 @@ public class OdPage : OdGraphicObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OdPage](odpage)(OdObject) | 初始化[`OdPage`](../odpage)类的新实例。 |
+| [OdPage](odpage)(OdObject) | 初始化[`OdPage`](../odpage)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]。 |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | 获取项目。 |
 | [MasterPageName](../../aspose.imaging.fileformats.opendocument.objects.graphic/odpage/masterpagename) { get; set; } | 获取或设置母版页的名称。 |
 | [Name](../../aspose.imaging.fileformats.opendocument.objects.graphic/odpage/name) { get; set; } | 获取或设置名称。 |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | 获取父对象。 |
-| [StyleName](../../aspose.imaging.fileformats.opendocument.objects.graphic/odpage/stylename) { get; set; } | 获取或设置样式名称。 |
+| [StyleName](../../aspose.imaging.fileformats.opendocument.objects.graphic/odpage/stylename) { get; set; } | 获取或设置样式的名称。 |
 
 ### 也可以看看
 

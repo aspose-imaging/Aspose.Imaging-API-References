@@ -16,7 +16,7 @@ public int CurrentRecordSize { get; set; }
 
 ### 适当的价值
 
-一个 32 位无符号整数，用于指定 EnhancedMetafileData 字段的大小（以字节为单位）。 此值必须小于或等于 8,192。
+一个 32 位无符号整数，指定 EnhancedMetafileData 字段的大小（以字节为单位）。 此值必须小于或等于 8,192。
 
 ### 也可以看看
 

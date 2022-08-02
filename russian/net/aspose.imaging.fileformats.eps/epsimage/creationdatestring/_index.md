@@ -1,14 +1,14 @@
 ---
 title: CreationDateString
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает строковое значение поля CreationDate
+description: Получает строку значения поля CreationDate
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.eps/epsimage/creationdatestring/
 ---
 ## EpsImage.CreationDateString property
 
-Получает строковое значение поля CreationDate
+Получает строку значения поля CreationDate
 
 ```csharp
 public string CreationDateString { get; }
@@ -16,7 +16,7 @@ public string CreationDateString { get; }
 
 ### Стоимость имущества
 
-Строковое значение поля CreationDate
+Значение строки поля CreationDate
 
 ### Смотрите также
 

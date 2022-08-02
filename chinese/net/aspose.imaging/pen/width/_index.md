@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此Penaspose.imaging/pen的宽度以用于绘图的 Graphics 对象为单位
+description: 获取或设置 this 的宽度Penaspose.imaging/pen 以用于绘图的 Graphics 对象为单位
 type: docs
 weight: 180
 url: /zh/net/aspose.imaging/pen/width/
 ---
 ## Pen.Width property
 
-获取或设置此[`Pen`](../../pen)的宽度，以用于绘图的 Graphics 对象为单位。
+获取或设置 this 的宽度[`Pen`](../../pen) 以用于绘图的 Graphics 对象为单位。
 
 ```csharp
 public float Width { get; set; }
@@ -16,13 +16,13 @@ public float Width { get; set; }
 
 ### 适当的价值
 
-这个[`Pen`](../../pen)的宽度。
+这个宽度[`Pen`](../../pen).
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | `Width`属性设置在不可变的:::R5 上:T:Aspose.Imaging.Pen:::，例如[`Pen`](../../pen)类返回的那些。 |
+| ArgumentException | 这`Width`属性设置在不可变对象上[`Pen`](../../pen)，例如那些由[`Pen`](../../pen)班级。 |
 
 ### 也可以看看
 

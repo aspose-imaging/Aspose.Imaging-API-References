@@ -8,7 +8,7 @@ url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/timecode/timevalue/
 ---
 ## Timecode.TimeValue property
 
-获取或设置指定格式的时间值。
+获取或设置指定格式的时间值
 
 ```csharp
 public string TimeValue { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: OdHatchedBrush
 second_title: Aspose.Imaging for .NET API 参考
-description: 阴影画笔
+description: 孵化的刷子
 type: docs
 weight: 6920
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.brush/odhatchedbrush/
 ---
 ## OdHatchedBrush class
 
-阴影画笔
+孵化的刷子
 
 ```csharp
 public class OdHatchedBrush : OdBrush
@@ -24,7 +24,7 @@ public class OdHatchedBrush : OdBrush
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Argb32Color](../../aspose.imaging.fileformats.opendocument.objects.brush/odhatchedbrush/argb32color) { get; set; } | 获取或设置 argb32 的颜色。 |
+| [Argb32Color](../../aspose.imaging.fileformats.opendocument.objects.brush/odhatchedbrush/argb32color) { get; set; } | 获取或设置 argb32. 的颜色 |
 | override [BrushStyle](../../aspose.imaging.fileformats.opendocument.objects.brush/odhatchedbrush/brushstyle) { get; } | 获取样式。 |
 
 ## 方法

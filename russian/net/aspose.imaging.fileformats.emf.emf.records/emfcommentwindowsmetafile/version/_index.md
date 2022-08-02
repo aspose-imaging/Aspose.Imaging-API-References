@@ -8,7 +8,7 @@ url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcommentwindowsmetafil
 ---
 ## EmfCommentWindowsMetaFile.Version property
 
-Получает или задает 16-разрядное целое число без знака, указывающее версию метафайла WMF в терминах поддержки аппаратно-независимых растровых изображений (DIB), из перечисления WMF MetafileVersion ([MS-WMF], раздел 2.1.1.19).
+Получает или задает 16-разрядное целое число без знака, указывающее версию метафайла WMF в терминах поддержки аппаратно-независимых растровых изображений (DIB) из перечисления WMF MetafileVersion ([MS-WMF], раздел 2.1.1.19).
 
 ```csharp
 public WmfMetafileVersion Version { get; set; }

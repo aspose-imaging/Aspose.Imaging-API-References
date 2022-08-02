@@ -16,7 +16,7 @@ public void AddBlock(IGifBlock block)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| block | IGifBlock | Добавляемый блок GIF. |
+| block | IGifBlock | Блок GIF для добавления. |
 
 ### Примеры
 
@@ -27,18 +27,18 @@ public void AddBlock(IGifBlock block)
 
 string dir = "c:\\temp\\";
 
- // Создаем GIF-изображение 100 x 100 px.
- // Первый блок по умолчанию полностью черный.
+// Создаем GIF-изображение 100 x 100 пикселей.
+// Первый блок по умолчанию полностью черный.
 using (Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock firstBlock = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100))
 using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.FileFormats.Gif.GifImage(firstBlock))
 {
-     // Первый круг — red
+    // Первый круг красный
     Aspose.Imaging.Brushes.SolidBrush brush1 = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
 
-     // Второй круг — black
+    // Второй круг черный
     Aspose.Imaging.Brushes.SolidBrush brush2 = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Black);
 
-     // Постепенно увеличиваем угол красной дуги shape.
+    // Постепенно увеличивайте угол красной дуги.
     for (int angle = 10; angle <= 360; angle += 10)
     {
         Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock block = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100);
@@ -49,7 +49,7 @@ using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.Fil
         gifImage.AddBlock(block);
     }
 
-     // Постепенно увеличиваем угол черной дуги и стираем красную дугу.
+    // Постепенно увеличивайте угол черной дуги и стирайте красную дугу.
     for (int angle = 10; angle <= 360; angle += 10)
     {
         Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock block = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100);

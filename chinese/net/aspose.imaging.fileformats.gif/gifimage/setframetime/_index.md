@@ -16,7 +16,7 @@ public void SetFrameTime(ushort time)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| time | UInt16 | 帧持续时间，以毫秒为单位。 |
+| time | UInt16 | 以毫秒为单位的帧持续时间。 |
 
 ### 也可以看看
 

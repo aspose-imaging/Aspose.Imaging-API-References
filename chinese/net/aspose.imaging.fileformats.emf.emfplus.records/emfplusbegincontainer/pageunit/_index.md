@@ -1,14 +1,14 @@
 ---
 title: PageUnit
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取页面单位
+description: 获取页面单元
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer/pageunit/
 ---
 ## EmfPlusBeginContainer.PageUnit property
 
-获取页面单位。
+获取页面单元。
 
 ```csharp
 public EmfPlusUnitType PageUnit { get; }

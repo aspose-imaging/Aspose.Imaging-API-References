@@ -1,14 +1,14 @@
 ---
 title: WmfSelectClipRegion
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化WmfSelectClipRegionaspose.imaging.fileformats.wmf.objects/wmfselectclipregion类的新实例
+description: 初始化WmfSelectClipRegionaspose.imaging.fileformats.wmf.objects/wmfselectclipregion类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfselectclipregion/wmfselectclipregion/
 ---
 ## WmfSelectClipRegion() {#constructor}
 
-初始化[`WmfSelectClipRegion`](../../wmfselectclipregion)类的新实例。
+初始化[`WmfSelectClipRegion`](../../wmfselectclipregion)类.
 
 ```csharp
 public WmfSelectClipRegion()
@@ -24,7 +24,7 @@ public WmfSelectClipRegion()
 
 ## WmfSelectClipRegion(WmfGraphicObject) {#constructor_1}
 
-初始化[`WmfSelectClipRegion`](../../wmfselectclipregion)类的新实例。
+初始化[`WmfSelectClipRegion`](../../wmfselectclipregion)类.
 
 ```csharp
 public WmfSelectClipRegion(WmfGraphicObject region)
@@ -32,7 +32,7 @@ public WmfSelectClipRegion(WmfGraphicObject region)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| region | WmfGraphicObject | 区域。 |
+| region | WmfGraphicObject | 该区域。 |
 
 ### 也可以看看
 

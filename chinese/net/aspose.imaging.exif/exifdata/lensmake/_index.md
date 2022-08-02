@@ -1,14 +1,14 @@
 ---
 title: LensMake
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置镜头厂商
+description: 获取或设置镜头的制造商
 type: docs
 weight: 730
 url: /zh/net/aspose.imaging.exif/exifdata/lensmake/
 ---
 ## ExifData.LensMake property
 
-获取或设置镜头厂商。
+获取或设置镜头的制造商。
 
 ```csharp
 public string LensMake { get; set; }
@@ -16,7 +16,7 @@ public string LensMake { get; set; }
 
 ### 适当的价值
 
-镜头制造商。
+镜头制造商.
 
 ### 也可以看看
 

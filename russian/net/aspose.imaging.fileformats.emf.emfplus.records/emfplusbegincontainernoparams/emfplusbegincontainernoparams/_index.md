@@ -1,14 +1,14 @@
 ---
 title: EmfPlusBeginContainerNoParams
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusBeginContainerNoParamsaspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainernoparams.
+description: Инициализирует новый экземплярEmfPlusBeginContainerNoParamsaspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainernoparams класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainernoparams/emfplusbegincontainernoparams/
 ---
 ## EmfPlusBeginContainerNoParams constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusBeginContainerNoParams`](../../emfplusbegincontainernoparams).
+Инициализирует новый экземпляр[`EmfPlusBeginContainerNoParams`](../../emfplusbegincontainernoparams) класс.
 
 ```csharp
 public EmfPlusBeginContainerNoParams(EmfPlusRecord source)

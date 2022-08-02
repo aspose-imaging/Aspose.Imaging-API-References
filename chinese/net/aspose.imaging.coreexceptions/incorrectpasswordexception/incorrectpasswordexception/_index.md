@@ -1,14 +1,14 @@
 ---
 title: IncorrectPasswordException
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化IncorrectPasswordExceptionaspose.imaging.coreexceptions/incorrectpasswordexception类的新实例
+description: 初始化IncorrectPasswordExceptionaspose.imaging.coreexceptions/incorrectpasswordexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.coreexceptions/incorrectpasswordexception/incorrectpasswordexception/
 ---
 ## IncorrectPasswordException(string) {#constructor}
 
-初始化[`IncorrectPasswordException`](../../incorrectpasswordexception)类的新实例。
+初始化[`IncorrectPasswordException`](../../incorrectpasswordexception)类.
 
 ```csharp
 public IncorrectPasswordException(string message)
@@ -28,7 +28,7 @@ public IncorrectPasswordException(string message)
 
 ## IncorrectPasswordException(string, Exception) {#constructor_1}
 
-初始化[`IncorrectPasswordException`](../../incorrectpasswordexception)类的新实例。
+初始化[`IncorrectPasswordException`](../../incorrectpasswordexception)类.
 
 ```csharp
 public IncorrectPasswordException(string message, Exception innerException)

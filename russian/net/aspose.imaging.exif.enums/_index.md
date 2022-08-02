@@ -12,23 +12,23 @@ url: /ru/net/aspose.imaging.exif.enums/
 
 | перечисление | Описание |
 | --- | --- |
-| [ExifColorSpace](./exifcolorspace) | перечисление цветового пространства exif. |
-| [ExifContrast](./exifcontrast) | exif обычный мягкий жесткий перечисление. |
+| [ExifColorSpace](./exifcolorspace) | цветовое пространство exif enum. |
+| [ExifContrast](./exifcontrast) | exif обычный мягкий жесткий enum. |
 | [ExifCustomRendered](./exifcustomrendered) | exif пользовательское перечисление. |
-| [ExifExposureMode](./exifexposuremode) | exif режим экспозиции enum. |
-| [ExifExposureProgram](./exifexposureprogram) | exif программа экспозиции enum. |
-| [ExifFileSource](./exiffilesource) | перечисление исходного файла exif. |
+| [ExifExposureMode](./exifexposuremode) | режим экспонирования exif enum. |
+| [ExifExposureProgram](./exifexposureprogram) | программа экспонирования exif enum. |
+| [ExifFileSource](./exiffilesource) | источник файла exif enum. |
 | [ExifFlash](./exifflash) | Режим вспышки. |
-| [ExifGainControl](./exifgaincontrol) | exif enum управления усилением. |
-| [ExifGPSAltitudeRef](./exifgpsaltituderef) | exif ссылка на высоту GPS. |
+| [ExifGainControl](./exifgaincontrol) | enum управления усилением exif. |
+| [ExifGPSAltitudeRef](./exifgpsaltituderef) | exif ссылка на высоту GPS enum. |
 | [ExifLightSource](./exiflightsource) | Источник света exif. |
 | [ExifMeteringMode](./exifmeteringmode) | режим измерения exif enum. |
 | [ExifOrientation](./exiforientation) | Ориентация изображения Exif. |
-| [ExifSaturation](./exifsaturation) | exif перечисление насыщенности. |
-| [ExifSceneCaptureType](./exifscenecapturetype) | тип захвата сцены exif enum. |
+| [ExifSaturation](./exifsaturation) | перечисление насыщенности exif. |
+| [ExifSceneCaptureType](./exifscenecapturetype) | Тип захвата сцены exif enum. |
 | [ExifSensingMethod](./exifsensingmethod) | метод обнаружения exif enum. |
-| [ExifSubjectDistanceRange](./exifsubjectdistancerange) | exif диапазон расстояния до объекта enum. |
-| [ExifUnit](./exifunit) | exif unit enum. |
+| [ExifSubjectDistanceRange](./exifsubjectdistancerange) | exif диапазон расстояний до объекта enum. |
+| [ExifUnit](./exifunit) | единица exif enum. |
 | [ExifWhiteBalance](./exifwhitebalance) | exif перечисление баланса белого. |
 | [ExifYCbCrPositioning](./exifycbcrpositioning) | exif y cb cr позиционирование enum. |
 

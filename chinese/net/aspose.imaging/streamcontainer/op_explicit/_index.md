@@ -1,14 +1,14 @@
 ---
 title: op_Explicit
 second_title: Aspose.Imaging for .NET API 参考
-description: 执行从StreamContaineraspose.imaging/streamcontainer到R5TSystem.IO.Stream的显式转换.
+description: 执行显式转换StreamContaineraspose.imaging/streamcontainer至Stream .
 type: docs
 weight: 210
 url: /zh/net/aspose.imaging/streamcontainer/op_explicit/
 ---
 ## StreamContainer Explicit operator
 
-执行从[`StreamContainer`](../../streamcontainer)到:::R5:T:System.IO.Stream::的显式转换:.
+执行显式转换[`StreamContainer`](../../streamcontainer)至Stream .
 
 ```csharp
 public static explicit operator Stream(StreamContainer streamContainer)

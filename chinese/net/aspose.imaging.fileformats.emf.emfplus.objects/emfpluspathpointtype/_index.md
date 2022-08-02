@@ -1,14 +1,14 @@
 ---
 title: EmfPlusPathPointType
 second_title: Aspose.Imaging for .NET API 参考
-description: EmfPlusPathPointType 对象指定与图形上的点相关联的类型值
+description: EmfPlusPathPointType 对象指定与图形上的点关联的类型值
 type: docs
 weight: 5640
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtype/
 ---
 ## EmfPlusPathPointType class
 
-EmfPlusPathPointType 对象指定与图形上的点相关联的类型值
+EmfPlusPathPointType 对象指定与图形上的点关联的类型值
 
 ```csharp
 public sealed class EmfPlusPathPointType : EmfPlusBasePointType

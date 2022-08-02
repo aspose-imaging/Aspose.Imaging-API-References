@@ -1,14 +1,14 @@
 ---
 title: BrightnessLevel
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定亮度级别的 32 位带符号整数这个 值必须在 -255 到 255 的范围内效果如下 -255  value lt 0 随着值的减小图像的亮度应该降低 0 值 0 指定亮度不能改变 0 lt value  255 随着值的增加图像的亮度应该增加
+description: 获取或设置指定亮度级别的 32 位有符号整数 this value 必须在 -255 到 255 的范围内效果如下 -255  value lt 0 随着 value 的降低图像的亮度应该降低 0 value 为 0 表示亮度不能改变. 0 lt value  255 随着值的增加图像的亮度应该增加
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrightnesscontrasteffect/brightnesslevel/
 ---
 ## EmfPlusBrightnessContrastEffect.BrightnessLevel property
 
-获取或设置指定亮度级别的 32 位带符号整数。这个 值必须在 -255 到 255 的范围内，效果如下: -255 ≤ value &lt; 0 随着值的减小，图像的亮度应该降低。 0 值 0 指定亮度不能改变。 0 &lt; value ≤ 255 随着值的增加，图像的亮度应该增加。
+获取或设置指定亮度级别的 32 位有符号整数。 this value 必须在 -255 到 255 的范围内，效果如下： -255 ≤ value &lt; 0 随着 value 的降低，图像的亮度应该降低。 0 value 为 0 表示亮度不能改变. 0 &lt; value ≤ 255 随着值的增加，图像的亮度应该增加。
 
 ```csharp
 public int BrightnessLevel { get; set; }

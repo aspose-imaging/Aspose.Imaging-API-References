@@ -1,14 +1,14 @@
 ---
 title: TiffBigEndianStreamWriter
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化TiffBigEndianStreamWriteraspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamwriter类的新实例
+description: 初始化TiffBigEndianStreamWriteraspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamwriter类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamwriter/tiffbigendianstreamwriter/
 ---
 ## TiffBigEndianStreamWriter constructor
 
-初始化[`TiffBigEndianStreamWriter`](../../tiffbigendianstreamwriter)类的新实例。
+初始化[`TiffBigEndianStreamWriter`](../../tiffbigendianstreamwriter)类.
 
 ```csharp
 public TiffBigEndianStreamWriter(StreamContainer writer)
@@ -16,7 +16,7 @@ public TiffBigEndianStreamWriter(StreamContainer writer)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| writer | StreamContainer | 流写入器。 |
+| writer | StreamContainer | 流作家。 |
 
 ### 也可以看看
 

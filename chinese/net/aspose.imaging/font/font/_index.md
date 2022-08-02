@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化使用指定的现有Font的新R5TAspose.Imaging.Font和FontStyleaspose.imaging/fontstyle枚举
+description: 初始化一个新的Fontaspose.imaging/font使用指定的现有Fontaspose.imaging/font和FontStyleaspose.imaging/fontstyle枚举.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/font/font/
 ---
 ## Font(Font, FontStyle) {#constructor}
 
-初始化使用指定的现有Font的新R5:T:Aspose.Imaging.Font::::::和[`FontStyle`](../../fontstyle)枚举。
+初始化一个新的[`Font`](../../font)使用指定的现有[`Font`](../../font)和[`FontStyle`](../../fontstyle)枚举.
 
 ```csharp
 public Font(Font prototype, FontStyle newStyle)
@@ -16,14 +16,14 @@ public Font(Font prototype, FontStyle newStyle)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| prototype | Font | 现有[`Font`](../../font)从中创建新[`Font`](../../font)。 |
-| newStyle | FontStyle | [`FontStyle`](../../fontstyle)应用于新的Imaging。字体。[`FontStyle`](../../fontstyle)枚举的多个值可以与 OR 运算符结合使用。 |
+| prototype | Font | 现有的[`Font`](../../font)从中创建新的[`Font`](../../font). |
+| newStyle | FontStyle | 这[`FontStyle`](../../fontstyle)申请新的[`Font`](../../font).的多个值[`FontStyle`](../../fontstyle)枚举可以与 OR 运算符结合使用。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *prototype*为空。 |
+| ArgumentNullException | *prototype*一片空白。 |
 
 ### 也可以看看
 
@@ -36,7 +36,7 @@ public Font(Font prototype, FontStyle newStyle)
 
 ## Font(string, float) {#constructor_1}
 
-使用指定的大小初始化新的[`Font`](../../font)。字符集设置为Default，图形单位设置为Point，字体样式设置为Regular。
+初始化一个新的[`Font`](../../font)使用指定的大小。字符集设置为Default 图形单元Point 字体样式为Regular .
 
 ```csharp
 public Font(string fontName, float emSize)
@@ -44,15 +44,15 @@ public Font(string fontName, float emSize)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fontName | String | [`Font`](../../font)名称的字符串表示形式。 |
-| emSize | Single | 新字体的 em 大小，以磅为单位。 |
+| fontName | String | 的字符串表示[`Font`](../../font)姓名。 |
+| emSize | Single | 新字体的 em 大小（以磅为单位）。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
 | ArgumentOutOfRangeException | *emSize*小于或等于 0，计算为无穷大或不是有效数字。 |
-| ArgumentNullException | *fontName*为空。 |
+| ArgumentNullException | *fontName*一片空白。 |
 
 ### 也可以看看
 
@@ -64,7 +64,7 @@ public Font(string fontName, float emSize)
 
 ## Font(string, float, FontStyle) {#constructor_2}
 
-使用指定的大小和样式初始化新的[`Font`](../../font)。字符集设置为Default，图形单元设置为Point。
+初始化一个新的[`Font`](../../font)使用指定的尺寸和样式。字符集设置为Default 图形单元Point .
 
 ```csharp
 public Font(string fontName, float emSize, FontStyle style)
@@ -72,16 +72,16 @@ public Font(string fontName, float emSize, FontStyle style)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fontName | String | [`Font`](../../font)名称的字符串表示形式。 |
-| emSize | Single | 新字体的 em 大小，以磅为单位。 |
-| style | FontStyle | 新字体的[`FontStyle`](../../fontstyle)。 |
+| fontName | String | 的字符串表示[`Font`](../../font)姓名。 |
+| emSize | Single | 新字体的 em 大小（以磅为单位）。 |
+| style | FontStyle | 这[`FontStyle`](../../fontstyle)的新字体。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
 | ArgumentOutOfRangeException | *emSize*小于或等于 0，计算为无穷大或不是有效数字。 |
-| ArgumentNullException | *fontName*为空。 |
+| ArgumentNullException | *fontName*一片空白。 |
 
 ### 也可以看看
 
@@ -94,7 +94,7 @@ public Font(string fontName, float emSize, FontStyle style)
 
 ## Font(string, float, GraphicsUnit) {#constructor_5}
 
-使用指定的大小和单位初始化一个新的[`Font`](../../font)。字符集设置为Default，样式设置为Regular。
+初始化一个新的[`Font`](../../font)使用指定的大小和单位。字符集设置为Default，样式设置为Regular .
 
 ```csharp
 public Font(string fontName, float emSize, GraphicsUnit unit)
@@ -102,16 +102,16 @@ public Font(string fontName, float emSize, GraphicsUnit unit)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fontName | String | [`Font`](../../font)名称的字符串表示形式。 |
-| emSize | Single | 以*unit*参数指定的单位表示的新字体的 em 大小。 |
-| unit | GraphicsUnit | 新字体的[`GraphicsUnit`](../../graphicsunit)。 |
+| fontName | String | 的字符串表示[`Font`](../../font)姓名。 |
+| emSize | Single | 新字体的 em 大小，以*unit*范围。 |
+| unit | GraphicsUnit | 这[`GraphicsUnit`](../../graphicsunit)的新字体。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
 | ArgumentOutOfRangeException | *emSize*小于或等于 0，计算为无穷大或不是有效数字。 |
-| ArgumentNullException | *fontName*为空。 |
+| ArgumentNullException | *fontName*一片空白。 |
 
 ### 也可以看看
 
@@ -124,7 +124,7 @@ public Font(string fontName, float emSize, GraphicsUnit unit)
 
 ## Font(string, float, FontStyle, GraphicsUnit, CharacterSet) {#constructor_4}
 
-使用指定的大小、样式、单位和字符集初始化新的[`Font`](../../font)。
+初始化一个新的[`Font`](../../font)使用指定的大小、样式、单位和字符集。
 
 ```csharp
 public Font(string fontName, float emSize, FontStyle style, GraphicsUnit unit, 
@@ -133,10 +133,10 @@ public Font(string fontName, float emSize, FontStyle style, GraphicsUnit unit,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fontName | String | [`Font`](../../font)名称的字符串表示形式。 |
-| emSize | Single | 以*unit*参数指定的单位表示的新字体的 em 大小。 |
-| style | FontStyle | 新字体的[`FontStyle`](../../fontstyle)。 |
-| unit | GraphicsUnit | 新字体的[`GraphicsUnit`](../../graphicsunit)。 |
+| fontName | String | 的字符串表示[`Font`](../../font)姓名。 |
+| emSize | Single | 新字体的 em 大小，以*unit*范围。 |
+| style | FontStyle | 这[`FontStyle`](../../fontstyle)的新字体。 |
+| unit | GraphicsUnit | 这[`GraphicsUnit`](../../graphicsunit)的新字体。 |
 | characterSet | CharacterSet | 用于此字体的字符集。 |
 
 ### 例外
@@ -144,7 +144,7 @@ public Font(string fontName, float emSize, FontStyle style, GraphicsUnit unit,
 | 例外 | （健康）状况 |
 | --- | --- |
 | ArgumentOutOfRangeException | *emSize*小于或等于 0，计算为无穷大或不是有效数字。 |
-| ArgumentNullException | *fontName*为空。 |
+| ArgumentNullException | *fontName*一片空白。 |
 
 ### 也可以看看
 
@@ -159,7 +159,7 @@ public Font(string fontName, float emSize, FontStyle style, GraphicsUnit unit,
 
 ## Font(string, float, FontStyle, GraphicsUnit) {#constructor_3}
 
-使用指定的大小、样式和单位初始化新的[`Font`](../../font)。
+初始化一个新的[`Font`](../../font)使用指定的大小、样式和单位。
 
 ```csharp
 public Font(string fontName, float emSize, FontStyle style, GraphicsUnit unit)
@@ -167,17 +167,17 @@ public Font(string fontName, float emSize, FontStyle style, GraphicsUnit unit)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fontName | String | [`Font`](../../font)名称的字符串表示形式。 |
-| emSize | Single | 以*unit*参数指定的单位表示的新字体的 em 大小。 |
-| style | FontStyle | 新字体的[`FontStyle`](../../fontstyle)。 |
-| unit | GraphicsUnit | 新字体的[`GraphicsUnit`](../../graphicsunit)。 |
+| fontName | String | 的字符串表示[`Font`](../../font)姓名。 |
+| emSize | Single | 新字体的 em 大小，以*unit*范围。 |
+| style | FontStyle | 这[`FontStyle`](../../fontstyle)的新字体。 |
+| unit | GraphicsUnit | 这[`GraphicsUnit`](../../graphicsunit)的新字体。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
 | ArgumentOutOfRangeException | *emSize*小于或等于 0，计算为无穷大或不是有效数字。 |
-| ArgumentNullException | *fontName*为空。 |
+| ArgumentNullException | *fontName*一片空白。 |
 
 ### 也可以看看
 

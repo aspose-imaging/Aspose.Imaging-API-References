@@ -1,14 +1,14 @@
 ---
 title: EmfExcludeClipRect
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfExcludeClipRectaspose.imaging.fileformats.emf.emf.records/emfexcludecliprect.
+description: Инициализирует новый экземплярEmfExcludeClipRectaspose.imaging.fileformats.emf.emf.records/emfexcludecliprect класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfexcludecliprect/emfexcludecliprect/
 ---
 ## EmfExcludeClipRect(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfExcludeClipRect`](../../emfexcludecliprect).
+Инициализирует новый экземпляр[`EmfExcludeClipRect`](../../emfexcludecliprect) класс.
 
 ```csharp
 public EmfExcludeClipRect(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfExcludeClipRect(EmfRecord source)
 
 ## EmfExcludeClipRect() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfExcludeClipRect`](../../emfexcludecliprect).
+Инициализирует новый экземпляр[`EmfExcludeClipRect`](../../emfexcludecliprect) класс.
 
 ```csharp
 public EmfExcludeClipRect()

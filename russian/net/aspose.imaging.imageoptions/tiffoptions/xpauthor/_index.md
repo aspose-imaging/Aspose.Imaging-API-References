@@ -1,14 +1,14 @@
 ---
 title: XPAuthor
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает автора изображения используемого проводником Windows.
+description: Получает или задает автора изображения используемого проводником Windows.
 type: docs
 weight: 610
 url: /ru/net/aspose.imaging.imageoptions/tiffoptions/xpauthor/
 ---
 ## TiffOptions.XPAuthor property
 
-Получает или устанавливает автора изображения, используемого проводником Windows.
+Получает или задает автора изображения, используемого проводником Windows.
 
 ```csharp
 public string XPAuthor { get; set; }
@@ -16,7 +16,7 @@ public string XPAuthor { get; set; }
 
 ### Стоимость имущества
 
-Автор изображения, используемый проводником Windows. `XPAuthor`игнорируется проводником Windows, если[`Artist`](../artist)тег существует.
+Автор изображения, используемый Windows Explorer. `XPAuthor` игнорируется проводником Windows, если[`Artist`](../artist) тег существует.
 
 ### Смотрите также
 

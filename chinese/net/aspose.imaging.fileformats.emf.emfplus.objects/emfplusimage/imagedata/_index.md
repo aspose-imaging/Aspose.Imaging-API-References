@@ -1,14 +1,14 @@
 ---
 title: ImageData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置图像数据 定义在 Type 字段中指定的图像数据 的可变长度数据数据的内容和格式可以 对于每种图像类型都不同
+description: 获取或设置图像数据 定义类型字段中指定的图像数据 的可变长度数据每种图像类型的数据内容和格式 可能不同
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage/imagedata/
 ---
 ## EmfPlusImage.ImageData property
 
-获取或设置图像数据 定义在 Type 字段中指定的图像数据 的可变长度数据。数据的内容和格式可以 对于每种图像类型都不同。
+获取或设置图像数据 定义类型字段中指定的图像数据 的可变长度数据。每种图像类型的数据内容和格式 可能不同。
 
 ```csharp
 public EmfPlusBaseImageData ImageData { get; set; }

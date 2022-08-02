@@ -1,14 +1,14 @@
 ---
 title: FileOpenSource
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаFileOpenSourceaspose.imaging.sources/fileopensource.
+description: Инициализирует новый экземплярFileOpenSourceaspose.imaging.sources/fileopensource класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.sources/fileopensource/fileopensource/
 ---
 ## FileOpenSource constructor
 
-Инициализирует новый экземпляр класса[`FileOpenSource`](../../fileopensource).
+Инициализирует новый экземпляр[`FileOpenSource`](../../fileopensource) класс.
 
 ```csharp
 public FileOpenSource(string filePath)
@@ -16,7 +16,7 @@ public FileOpenSource(string filePath)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filePath | String | Путь к открываемому файлу. |
+| filePath | String | Путь к файлу для открытия. |
 
 ### Смотрите также
 

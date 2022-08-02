@@ -1,14 +1,14 @@
 ---
 title: Point3
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置point3
+description: 获取或设置point3.
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odarc/point3/
 ---
 ## OdArc.Point3 property
 
-获取或设置point3。
+获取或设置point3.
 
 ```csharp
 public PointF Point3 { get; set; }
@@ -16,7 +16,7 @@ public PointF Point3 { get; set; }
 
 ### 适当的价值
 
-点3。
+点3.
 
 ### 也可以看看
 

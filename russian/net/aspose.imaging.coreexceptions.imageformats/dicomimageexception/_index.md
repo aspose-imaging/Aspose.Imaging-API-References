@@ -18,8 +18,8 @@ public class DicomImageException : Exception
 
 | Имя | Описание |
 | --- | --- |
-| [DicomImageException](dicomimageexception#constructor)(string) | Инициализирует новый экземпляр класса[`DicomImageException`](../dicomimageexception). |
-| [DicomImageException](dicomimageexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр класса[`DicomImageException`](../dicomimageexception). |
+| [DicomImageException](dicomimageexception#constructor)(string) | Инициализирует новый экземпляр[`DicomImageException`](../dicomimageexception) класс. |
+| [DicomImageException](dicomimageexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр[`DicomImageException`](../dicomimageexception) класс. |
 
 ### Смотрите также
 

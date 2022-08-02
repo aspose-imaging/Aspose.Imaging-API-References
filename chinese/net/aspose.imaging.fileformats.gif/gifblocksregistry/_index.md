@@ -1,14 +1,14 @@
 ---
 title: GifBlocksRegistry
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示 gif 块开启者注册表
+description: 表示 gif 块开启程序注册表
 type: docs
 weight: 6690
 url: /zh/net/aspose.imaging.fileformats.gif/gifblocksregistry/
 ---
 ## GifBlocksRegistry class
 
-表示 gif 块开启者注册表。
+表示 gif 块开启程序注册表。
 
 ```csharp
 public static class GifBlocksRegistry
@@ -26,9 +26,9 @@ public static class GifBlocksRegistry
 | --- | --- |
 | static [GetFirstSupportedDescriptor](../../aspose.imaging.fileformats.gif/gifblocksregistry/getfirstsupporteddescriptor)(Stream) | 获取第一个支持的开启器描述符。 |
 | static [GetFirstSupportedDescriptorByTypeName](../../aspose.imaging.fileformats.gif/gifblocksregistry/getfirstsupporteddescriptorbytypename)(string) | 通过类型名称获取第一个支持的描述符。 |
-| static [LoadBlockByFirstSupportedDescriptor](../../aspose.imaging.fileformats.gif/gifblocksregistry/loadblockbyfirstsupporteddescriptor)(Stream, IColorPalette) | 使用适合指定*stream*的第一个找到的开启程序加载 gif 块。 |
+| static [LoadBlockByFirstSupportedDescriptor](../../aspose.imaging.fileformats.gif/gifblocksregistry/loadblockbyfirstsupporteddescriptor)(Stream, IColorPalette) | 使用第一个找到的适合指定的开启器加载 gif 块*stream* . |
 | static [RegisterOpener](../../aspose.imaging.fileformats.gif/gifblocksregistry/registeropener)(IGifBlockLoaderDescriptor) | 注册开瓶器。 |
-| static [UnregisterOpener](../../aspose.imaging.fileformats.gif/gifblocksregistry/unregisteropener)(IGifBlockLoaderDescriptor) | 注销开启者。 |
+| static [UnregisterOpener](../../aspose.imaging.fileformats.gif/gifblocksregistry/unregisteropener)(IGifBlockLoaderDescriptor) | 取消注册开启程序。 |
 
 ### 也可以看看
 

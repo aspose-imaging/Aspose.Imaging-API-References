@@ -1,14 +1,14 @@
 ---
 title: InterpolationMode
 second_title: Aspose.Imaging for .NET API 参考
-description: InterpolationMode./interpolationmode枚举指定缩放或旋转图像时使用的算法
+description: 的InterpolationMode./interpolationmode枚举指定缩放或旋转图像时使用的算法
 type: docs
-weight: 10360
+weight: 10350
 url: /zh/net/aspose.imaging/interpolationmode/
 ---
 ## InterpolationMode enumeration
 
-[`InterpolationMode`](../interpolationmode)枚举指定缩放或旋转图像时使用的算法。
+的[`InterpolationMode`](../interpolationmode)枚举指定缩放或旋转图像时使用的算法。
 
 ```csharp
 public enum InterpolationMode
@@ -25,7 +25,7 @@ public enum InterpolationMode
 | Bilinear | `3` | 指定双线性插值。没有进行预过滤。此模式不适合将图像缩小到其原始大小的 50% 以下。 |
 | Bicubic | `4` | 指定双三次插值。没有进行预过滤。此模式不适合将图像缩小到其原始大小的 25% 以下。 |
 | NearestNeighbor | `5` | 指定最近邻插值。 |
-| HighQualityBilinear | `6` | 指定高质量的双线性插值。执行预过滤以确保高质量的收缩。 |
+| HighQualityBilinear | `6` | 指定高质量的双线性插值。进行预过滤以确保高质量的收缩。 |
 | HighQualityBicubic | `7` | 指定高质量的双三次插值。执行预过滤以确保高质量的收缩。此模式产生最高质量的转换图像。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: Reds
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает массив цветов красного
+description: Получает цвета массива red
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging.fileformats.dicom/dicomimageinfo/reds/
 ---
 ## DicomImageInfo.Reds property
 
-Получает массив цветов красного
+Получает цвета массива red
 
 ```csharp
 public byte[] Reds { get; }

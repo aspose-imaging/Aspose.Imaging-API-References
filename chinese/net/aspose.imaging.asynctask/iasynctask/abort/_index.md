@@ -1,14 +1,14 @@
 ---
 title: Abort
 second_title: Aspose.Imaging for .NET API 参考
-description: 中止此任务 任务立即完成存在未释放内部非托管资源的风险
+description: 中止此任务 任务立即完成但存在未释放内部非托管资源的风险
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.asynctask/iasynctask/abort/
 ---
 ## IAsyncTask.Abort method
 
-中止此任务。 任务立即完成，存在未释放内部非托管资源的风险。
+中止此任务。 任务立即完成，但存在未释放内部非托管资源的风险。
 
 ```csharp
 public void Abort()

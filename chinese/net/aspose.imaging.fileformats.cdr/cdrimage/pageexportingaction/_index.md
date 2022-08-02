@@ -1,14 +1,14 @@
 ---
 title: PageExportingAction
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置页面导出动作 请注意设置该方法执行后会自动释放页面资源 它将在每个页面保存之前执行
+description: 获取或设置页面导出动作 请注意设置此方法执行后会自动释放页面资源 会在每页保存前执行
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.cdr/cdrimage/pageexportingaction/
 ---
 ## CdrImage.PageExportingAction property
 
-获取或设置页面导出动作。 请注意，设置该方法执行后会自动释放页面资源。 它将在每个页面保存之前执行。
+获取或设置页面导出动作。 请注意，设置此方法执行后会自动释放页面资源。 会在每页保存前执行。
 
 ```csharp
 public override PageExportingAction PageExportingAction { get; set; }

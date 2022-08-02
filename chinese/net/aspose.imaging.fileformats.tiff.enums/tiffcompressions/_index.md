@@ -19,29 +19,29 @@ public enum TiffCompressions : ushort
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `1` | 转储模式。 |
-| CcittRle | `2` | CCITT 修改后的 Huffman RLE。 |
+| CcittRle | `2` | CCITT 修改后的霍夫曼 RLE. |
 | CcittFax3 | `3` | CCITT Group 3 传真编码。 |
 | CcittFax4 | `4` | CCITT Group 4 传真编码。 |
-| Lzw | `5` | Lempel-Ziv &amp;韦尔奇。 |
-| Ojpeg | `6` | 原始 JPEG / 旧式 JPEG (6.0)。 |
-| Jpeg | `7` | JPEG DCT 压缩。在 TIFF rev 6.0 后引入。 |
-| Next | `32766` | NeXT 2 位 RLE。 |
-| CcittRleW | `32771` | CCITT RLE。 |
-| Packbits | `32773` | Macintosh RLE。 |
-| Thunderscan | `32809` | ThunderScan RLE。 |
-| It8Ctpad | `32895` | IT8 CT 带填充。为 ANSI IT8 TIFF/IT 保留。 |
-| It8Lw | `32896` | IT8 线条 RLE。为 ANSI IT8 TIFF/IT 保留。 |
-| It8Mp | `32897` | IT8 单色图片。为 ANSI IT8 TIFF/IT 保留。 |
-| It8Bl | `32898` | IT8 二进制线条艺术。为 ANSI IT8 TIFF/IT 保留。 |
-| PixarFilm | `32908` | Pixar 压缩 10 位 LZW。为皮克斯保留。 |
-| PixarLog | `32909` | Pixar 压缩 11 位 ZIP。为皮克斯保留。 |
+| Lzw | `5` | Lempel-Ziv &amp; Welch. |
+| Ojpeg | `6` | 原始 JPEG / 旧式 JPEG (6.0). |
+| Jpeg | `7` | JPEG DCT 压缩。在 TIFF rev 6.0. 后引入 |
+| Next | `32766` | NeXT 2 位 RLE. |
+| CcittRleW | `32771` | CCITT RLE. |
+| Packbits | `32773` | Macintosh RLE. |
+| Thunderscan | `32809` | ThunderScan RLE. |
+| It8Ctpad | `32895` | IT8 CT 带填充。为 ANSI IT8 TIFF/IT. 保留 |
+| It8Lw | `32896` | IT8 线条 RLE。为 ANSI IT8 TIFF/IT. 保留 |
+| It8Mp | `32897` | IT8 单色图片。为 ANSI IT8 TIFF/IT. 保留 |
+| It8Bl | `32898` | IT8 二进制线条艺术。为 ANSI IT8 TIFF/IT. 保留 |
+| PixarFilm | `32908` | Pixar 压缩了 10 位 LZW。为皮克斯保留。 |
+| PixarLog | `32909` | 皮克斯压缩 11 位 ZIP。为皮克斯保留。 |
 | Deflate | `32946` | 放气压缩。 |
-| AdobeDeflate | `8` | 放气压缩，Adobe 认可。 |
+| AdobeDeflate | `8` | 放气压缩，由 Adobe 识别。 |
 | Dcs | `32947` | 柯达 DCS 编码。 为 Oceana Matrix 保留 |
-| Jbig | `34661` | ISO Jpeg 大。 |
-| Sgilog | `34676` | SGI 对数亮度 RLE。 |
+| Jbig | `34661` | ISO Jpeg 大. |
+| Sgilog | `34676` | SGI 对数亮度 RLE. |
 | Sgilog24 | `34677` | SGI 日志 24 位压缩。 |
-| Jp2000 | `34712` | Leadtools JPEG2000。 |
+| Jp2000 | `34712` | Leadtools JPEG2000. |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: PenData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект EmfPlusPenData определяющий свойства графического пера
+description: Получает или задает объект EmfPlusPenData указывающий свойства графики pen
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen/pendata/
 ---
 ## EmfPlusPen.PenData property
 
-Получает или задает объект EmfPlusPenData, определяющий свойства графического пера
+Получает или задает объект EmfPlusPenData, указывающий свойства графики pen
 
 ```csharp
 public EmfPlusPenData PenData { get; set; }

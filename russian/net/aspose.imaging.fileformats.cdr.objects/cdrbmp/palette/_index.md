@@ -3,7 +3,7 @@ title: Palette
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Получает или задает палитру.
 type: docs
-weight: 70
+weight: 60
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrbmp/palette/
 ---
 ## CdrBmp.Palette property

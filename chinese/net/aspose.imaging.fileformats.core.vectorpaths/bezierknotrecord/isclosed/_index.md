@@ -1,14 +1,14 @@
 ---
 title: IsClosed
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个指示此实例是否关闭的值
+description: 获取或设置一个值指示此实例是否关闭
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/isclosed/
 ---
 ## BezierKnotRecord.IsClosed property
 
-获取或设置一个指示此实例是否关闭的值。
+获取或设置一个值，指示此实例是否关闭。
 
 ```csharp
 public bool IsClosed { get; set; }
@@ -16,7 +16,7 @@ public bool IsClosed { get; set; }
 
 ### 适当的价值
 
-` true` 如果此实例已关闭；否则，` false` 。
+`真的`如果此实例已关闭；否则，`错误的` .
 
 ### 也可以看看
 

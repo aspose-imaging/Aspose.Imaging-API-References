@@ -1,14 +1,14 @@
 ---
 title: EmfPoint28To4
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект Point28_4 представляет положение точки на поверхности устройства с координатами в 284-битной нотации FIX.
+description: Объект Point28_4 представляет местоположение точки на поверхности устройства с координатами в 284-битной нотации FIX.
 type: docs
 weight: 3130
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfpoint28to4/
 ---
 ## EmfPoint28To4 class
 
-Объект Point28_4 представляет положение точки на поверхности устройства с координатами в 28,4-битной нотации FIX.
+Объект Point28_4 представляет местоположение точки на поверхности устройства с координатами в 28,4-битной нотации FIX.
 
 ```csharp
 public sealed class EmfPoint28To4 : EmfObject

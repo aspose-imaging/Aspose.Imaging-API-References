@@ -1,14 +1,14 @@
 ---
 title: EmfLogPalette
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект LogPalette задает logical_palette который содержит определения цвета не зависящие от устройства.
+description: Объект LogPalette указывает logical_palette которая содержит определения цветов не зависящие от устройства.
 type: docs
 weight: 3070
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emflogpalette/
 ---
 ## EmfLogPalette class
 
-Объект LogPalette задает logical_palette, который содержит определения цвета, не зависящие от устройства.
+Объект LogPalette указывает logical_palette, которая содержит определения цветов, не зависящие от устройства.
 
 ```csharp
 public sealed class EmfLogPalette : EmfObject
@@ -25,7 +25,7 @@ public sealed class EmfLogPalette : EmfObject
 | Имя | Описание |
 | --- | --- |
 | [PaletteArgb32Entries](../../aspose.imaging.fileformats.emf.emf.objects/emflogpalette/paletteargb32entries) { get; set; } | Получает или задает массив 32-битных цветов ARGB. |
-| [Version](../../aspose.imaging.fileformats.emf.emf.objects/emflogpalette/version) { get; set; } | Получает или задает 16-разрядное целое число без знака, указывающее номер версии системы. Это ДОЛЖНО быть 0x0300. |
+| [Version](../../aspose.imaging.fileformats.emf.emf.objects/emflogpalette/version) { get; set; } | Получает или задает 16-разрядное целое число без знака, указывающее номер версии системы. ДОЛЖЕН быть 0x0300. |
 
 ### Смотрите также
 

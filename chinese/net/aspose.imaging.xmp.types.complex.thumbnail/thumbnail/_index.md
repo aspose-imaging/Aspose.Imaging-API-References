@@ -3,7 +3,7 @@ title: Thumbnail
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示文件的缩略图
 type: docs
-weight: 11620
+weight: 11610
 url: /zh/net/aspose.imaging.xmp.types.complex.thumbnail/thumbnail/
 ---
 ## Thumbnail class
@@ -18,15 +18,15 @@ public sealed class Thumbnail : ComplexTypeBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Thumbnail](thumbnail#constructor)() | 初始化[`Thumbnail`](../thumbnail)类的新实例。 |
-| [Thumbnail](thumbnail#constructor_1)(int, int) | 初始化[`Thumbnail`](../thumbnail)类的新实例。 |
+| [Thumbnail](thumbnail#constructor)() | 初始化[`Thumbnail`](../thumbnail)类. |
+| [Thumbnail](thumbnail#constructor_1)(int, int) | 初始化[`Thumbnail`](../thumbnail)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Height](../../aspose.imaging.xmp.types.complex.thumbnail/thumbnail/height) { get; set; } | 获取或设置高度。 |
-| [ImageBase64](../../aspose.imaging.xmp.types.complex.thumbnail/thumbnail/imagebase64) { get; set; } | 获取或设置 base64 格式的图像。 |
+| [ImageBase64](../../aspose.imaging.xmp.types.complex.thumbnail/thumbnail/imagebase64) { get; set; } | 获取或设置base64格式的图片。 |
 | [NamespaceUri](../../aspose.imaging.xmp.types.complex/complextypebase/namespaceuri) { get; } | 获取默认命名空间 URI。 |
 | [Prefix](../../aspose.imaging.xmp.types.complex/complextypebase/prefix) { get; } | 获取前缀。 |
 | [Width](../../aspose.imaging.xmp.types.complex.thumbnail/thumbnail/width) { get; set; } | 获取或设置宽度。 |

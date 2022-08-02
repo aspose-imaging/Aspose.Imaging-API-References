@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив размера cbName  cbData в байтах который указывает имя UTF16-LE и необработанные данные нужного цветовой профиль.
+description: Получает или задает массив размера cbName  cbData в байтах который указывает имя UTF16-LE и необработанные данные желаемого цветового профиля.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/data/
 ---
 ## EmfColorMatchToTargetW.Data property
 
-Получает или задает массив размера (cbName + cbData) в байтах, который указывает имя UTF16-LE и необработанные данные нужного цветовой профиль.
+Получает или задает массив размера (cbName + cbData) в байтах, который указывает имя UTF16-LE и необработанные данные желаемого цветового профиля.
 
 ```csharp
 public byte[] Data { get; set; }

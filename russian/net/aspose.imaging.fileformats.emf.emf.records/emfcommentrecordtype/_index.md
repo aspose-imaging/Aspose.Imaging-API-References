@@ -1,14 +1,14 @@
 ---
 title: EmfCommentRecordType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Типы записей комментариев определяют форматы для указания произвольных частных данных встраивания записей в другие форматы метафайлов и добавления новых или специальных команд.
+description: Типы записей комментариев определяют форматы для указания произвольных личных данных встраивания записей в другие форматы метафайлов и добавления новых или специальных команд.
 type: docs
 weight: 3420
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/
 ---
 ## EmfCommentRecordType class
 
-Типы записей комментариев определяют форматы для указания произвольных частных данных, встраивания записей в другие форматы метафайлов и добавления новых или специальных команд.
+Типы записей комментариев определяют форматы для указания произвольных личных данных, встраивания записей в другие форматы метафайлов и добавления новых или специальных команд.
 
 ```csharp
 public abstract class EmfCommentRecordType : EmfRecord
@@ -19,8 +19,8 @@ public abstract class EmfCommentRecordType : EmfRecord
 | Имя | Описание |
 | --- | --- |
 | virtual [CommentIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/commentidentifier) { get; set; } | Получает или задает идентификатор комментария. |
-| [DataSize](../../aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер (в байтах) полей CommentIdentifier и CommentRecordParm в поле RecordBuffer, следует. Он НЕ ДОЛЖЕН включать размер самого себя или размер поля AlignmentPadding, если присутствует |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [DataSize](../../aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер в байтах полей CommentIdentifier и CommentRecordParm в поле RecordBuffer, за которым следует . Он НЕ ДОЛЖЕН включать размер самого себя или размер поля AlignmentPadding, если present |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

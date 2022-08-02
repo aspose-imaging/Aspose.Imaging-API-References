@@ -1,14 +1,14 @@
 ---
 title: WmfSetPalentries
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_SETPALENTRIES определяет значения цвета RGB в диапазоне элементов логической палитры которая определена в устройстве воспроизведения контекст.
+description: Запись META_SETPALENTRIES определяет значения цвета RGB в диапазоне записей в логической палитре которая определена в контексте устройства воспроизведения .
 type: docs
 weight: 9100
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfsetpalentries/
 ---
 ## WmfSetPalentries class
 
-Запись META_SETPALENTRIES определяет значения цвета RGB в диапазоне элементов логической палитры, которая определена в устройстве воспроизведения контекст.
+Запись META_SETPALENTRIES определяет значения цвета RGB в диапазоне записей в логической палитре, которая определена в контексте устройства воспроизведения .
 
 ```csharp
 public class WmfSetPalentries : WmfObject

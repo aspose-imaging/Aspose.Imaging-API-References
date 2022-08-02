@@ -21,7 +21,7 @@ public static RectangleF Union(RectangleF a, RectangleF b)
 
 ### 返回值
 
-第三个[`RectangleF`](../../rectanglef)结构，包含形成联合的两个矩形。
+三分之一[`RectangleF`](../../rectanglef)包含形成联合的两个矩形的结构。
 
 ### 也可以看看
 

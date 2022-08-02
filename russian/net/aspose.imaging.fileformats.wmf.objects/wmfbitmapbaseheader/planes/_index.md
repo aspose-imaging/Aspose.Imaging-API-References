@@ -1,14 +1,14 @@
 ---
 title: Planes
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 16-разрядное целое число без знака определяющее количество planesдля целевого устройства. Это значение ДОЛЖНО быть 0x0001.
+description: Получает или задает 16-разрядное целое число без знака определяющее число planes для целевого устройства. Это значение ДОЛЖНО быть 0x0001.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfbitmapbaseheader/planes/
 ---
 ## WmfBitmapBaseHeader.Planes property
 
-Получает или задает 16-разрядное целое число без знака, определяющее количество planesдля целевого устройства. Это значение ДОЛЖНО быть 0x0001.
+Получает или задает 16-разрядное целое число без знака, определяющее число planes для целевого устройства. Это значение ДОЛЖНО быть 0x0001.
 
 ```csharp
 public short Planes { get; set; }

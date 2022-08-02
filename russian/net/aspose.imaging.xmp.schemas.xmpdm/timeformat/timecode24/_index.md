@@ -1,14 +1,14 @@
 ---
 title: Timecode24
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает таймкод24.
+description: Получает временной код24.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.xmp.schemas.xmpdm/timeformat/timecode24/
 ---
 ## TimeFormat.Timecode24 property
 
-Получает таймкод24.
+Получает временной код24.
 
 ```csharp
 public static TimeFormat Timecode24 { get; }

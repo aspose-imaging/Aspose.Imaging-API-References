@@ -1,14 +1,14 @@
 ---
 title: AddFrames
 second_title: Aspose.Imaging for .NET API 参考
-description: 将帧数组添加到图像
+description: 将帧数组添加到 image
 type: docs
 weight: 150
 url: /zh/net/aspose.imaging.fileformats.tiff/tiffimage/addframes/
 ---
 ## TiffImage.AddFrames method
 
-将帧数组添加到图像
+将帧数组添加到 image
 
 ```csharp
 public void AddFrames(TiffFrame[] frames)

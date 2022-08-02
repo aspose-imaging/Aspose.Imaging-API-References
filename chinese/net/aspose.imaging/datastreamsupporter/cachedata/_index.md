@@ -1,14 +1,14 @@
 ---
 title: CacheData
 second_title: Aspose.Imaging for .NET API 参考
-description: 缓存数据并确保不会从底层DataStreamContaineraspose.imaging/datastreamsupporter/datastreamcontainer执行额外的数据加载
+description: 缓存数据并确保不会从底层执行额外的数据加载DataStreamContaineraspose.imaging/datastreamsupporter/datastreamcontainer .
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging/datastreamsupporter/cachedata/
 ---
 ## DataStreamSupporter.CacheData method
 
-缓存数据并确保不会从底层[`DataStreamContainer`](../datastreamcontainer)执行额外的数据加载。
+缓存数据并确保不会从底层执行额外的数据加载[`DataStreamContainer`](../datastreamcontainer) .
 
 ```csharp
 public abstract void CacheData()
@@ -23,16 +23,16 @@ public abstract void CacheData()
 
 string dir = "c:\\temp\\";
 
-    // 从 PNG 文件加载图像。
+// 从 PNG 文件中加载图像。
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
 {
-        // 缓存所有像素数据，这样就不会从底层数据流中执行额外的数据加载
+    // 缓存所有像素数据，这样就不会从底层数据流执行额外的数据加载
     image.CacheData();
 
     System.Diagnostics.Stopwatch stopwatch = new System.Diagnostics.Stopwatch();
     stopwatch.Start();
 
-        // 读取所有像素非常快。
+    // 读取所有像素非常快。
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
     for (int y = 0; y < image.Height; y++)
     {
@@ -46,13 +46,13 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
     System.Console.WriteLine("Reading all cached pixels took {0} ms.", stopwatch.ElapsedMilliseconds);
 }
 
-    // 从 PNG 文件中加载图像
+// 从 PNG 文件中加载图像
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
 {
     System.Diagnostics.Stopwatch stopwatch = new System.Diagnostics.Stopwatch();
     stopwatch.Start();
 
-        // 读取所有像素没有缓存时快
+    // 读取所有像素不如缓存时快
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
     for (int y = 0; y < image.Height; y++)
     {
@@ -67,7 +67,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 }
 
 // 输出可能如下所示：
-    // 读取所有缓存的像素需要 1500 ms.
+// 读取所有缓存的像素需要 1500 毫秒。
 // 在没有初步缓存的情况下读取所有像素需要 150000 毫秒。
 ```
 

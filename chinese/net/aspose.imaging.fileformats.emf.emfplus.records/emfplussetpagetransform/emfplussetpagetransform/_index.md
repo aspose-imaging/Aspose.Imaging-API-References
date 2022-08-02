@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSetPageTransform
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPlusSetPageTransformaspose.imaging.fileformats.emf.emfplus.records/emfplussetpagetransform类的新实例
+description: 初始化EmfPlusSetPageTransformaspose.imaging.fileformats.emf.emfplus.records/emfplussetpagetransform类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetpagetransform/emfplussetpagetransform/
 ---
 ## EmfPlusSetPageTransform constructor
 
-初始化[`EmfPlusSetPageTransform`](../../emfplussetpagetransform)类的新实例。
+初始化[`EmfPlusSetPageTransform`](../../emfplussetpagetransform)类.
 
 ```csharp
 public EmfPlusSetPageTransform(EmfPlusRecord source)
@@ -16,7 +16,7 @@ public EmfPlusSetPageTransform(EmfPlusRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfPlusRecord | 源。 |
+| source | EmfPlusRecord | 来源。 |
 
 ### 也可以看看
 

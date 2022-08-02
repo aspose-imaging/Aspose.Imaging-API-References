@@ -18,14 +18,14 @@ public sealed class EmfGlsRecord : EmfOpenGlRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfGlsRecord](emfglsrecord)(EmfRecord) | 初始化[`EmfGlsRecord`](../emfglsrecord)类的新实例。 |
+| [EmfGlsRecord](emfglsrecord)(EmfRecord) | 初始化[`EmfGlsRecord`](../emfglsrecord)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CbData](../../aspose.imaging.fileformats.emf.emf.records/emfglsrecord/cbdata) { get; set; } | 获取或设置一个 32 位无符号整数，它指定数据字段的大小（以字节为单位）。 如果该值为零，则没有数据附加到该记录。 |
-| [Data](../../aspose.imaging.fileformats.emf.emf.records/emfglsrecord/data) { get; set; } | 获取或设置一个可选的 cbData 字节数组，用于指定 OpenGL 函数的数据。 |
+| [CbData](../../aspose.imaging.fileformats.emf.emf.records/emfglsrecord/cbdata) { get; set; } | 获取或设置一个 32 位无符号整数，它指定数据字段的大小（以字节为单位）。 如果此值为零，则没有数据附加到此记录。 |
+| [Data](../../aspose.imaging.fileformats.emf.emf.records/emfglsrecord/data) { get; set; } | 获取或设置一个可选的 cbData 长度字节数组，用于指定 OpenGL 函数的数据。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

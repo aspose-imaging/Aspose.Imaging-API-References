@@ -1,14 +1,14 @@
 ---
 title: EmfSetStrechBltMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetStrechBltModeaspose.imaging.fileformats.emf.emf.records/emfsetstrechbltmode.
+description: Инициализирует новый экземплярEmfSetStrechBltModeaspose.imaging.fileformats.emf.emf.records/emfsetstrechbltmode класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetstrechbltmode/emfsetstrechbltmode/
 ---
 ## EmfSetStrechBltMode constructor
 
-Инициализирует новый экземпляр класса[`EmfSetStrechBltMode`](../../emfsetstrechbltmode).
+Инициализирует новый экземпляр[`EmfSetStrechBltMode`](../../emfsetstrechbltmode) класс.
 
 ```csharp
 public EmfSetStrechBltMode(EmfRecord source)

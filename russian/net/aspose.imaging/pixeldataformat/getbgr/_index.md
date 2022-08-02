@@ -16,11 +16,11 @@ public static PixelDataFormat GetBgr(int bitsPerSample)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| bitsPerSample | Int32 | Количество битов в выборке. |
+| bitsPerSample | Int32 | Количество битов на выборку. |
 
 ### Возвращаемое значение
 
-Цвет BGR.
+Цвет БГР.
 
 ### Смотрите также
 

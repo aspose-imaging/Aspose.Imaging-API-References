@@ -1,14 +1,14 @@
 ---
 title: Rgba32Bpp
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取PixelDataFormataspose.imaging/pixeldataformat定义为每像素 32 位每个 alpha红色绿色 8 位和蓝色
+description: 获取PixelDataFormataspose.imaging/pixeldataformat定义为每像素 32 位alpha红色绿色和蓝色各 8 位
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging/pixeldataformat/rgba32bpp/
 ---
 ## PixelDataFormat.Rgba32Bpp property
 
-获取[`PixelDataFormat`](../../pixeldataformat)定义为每像素 32 位，每个 alpha、红色、绿色 8 位和蓝色。
+获取[`PixelDataFormat`](../../pixeldataformat)定义为每像素 32 位，alpha、红色、绿色和蓝色各 8 位。
 
 ```csharp
 public static PixelDataFormat Rgba32Bpp { get; }
@@ -16,7 +16,7 @@ public static PixelDataFormat Rgba32Bpp { get; }
 
 ### 适当的价值
 
-[`PixelDataFormat`](../../pixeldataformat)定义为 32 位每个像素，每个 8 位的 alpha、红色、绿色和蓝色。
+的[`PixelDataFormat`](../../pixeldataformat)定义为每像素 32 位，alpha、红色、绿色和蓝色各 8 位。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: WmfSetMapperFlags
 second_title: Aspose.Imaging for .NET API 参考
-description: META_SETMAPPERFLAGS 记录定义了字体 映射器在将逻辑字体映射到物理字体时使用的算法
+description: META_SETMAPPERFLAGS 记录定义了 font 映射器在将逻辑字体映射到物理字体时使用的算法
 type: docs
 weight: 9090
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfsetmapperflags/
 ---
 ## WmfSetMapperFlags class
 
-META_SETMAPPERFLAGS 记录定义了字体 映射器在将逻辑字体映射到物理字体时使用的算法。
+META_SETMAPPERFLAGS 记录定义了 font 映射器在将逻辑字体映射到物理字体时使用的算法。
 
 ```csharp
 public class WmfSetMapperFlags : WmfObject

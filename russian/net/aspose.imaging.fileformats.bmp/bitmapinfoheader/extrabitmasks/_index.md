@@ -1,14 +1,14 @@
 ---
 title: ExtraBitMasks
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает дополнительные битовые маски. Присутствует только в том случае если заголовок DIB является BITMAPINFOHEADER аBitmapCompressionaspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapcompressionимеет значениеBitfieldsRGB илиAlphaBitfieldsRGBA.
+description: Получает или устанавливает дополнительные битовые маски. Присутствует только в том случае если заголовок DIB является BITMAPINFOHEADER аBitmapCompressionaspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapcompression установлен либоBitfields RGB илиAlphaBitfields RGBA.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.fileformats.bmp/bitmapinfoheader/extrabitmasks/
 ---
 ## BitmapInfoHeader.ExtraBitMasks property
 
-Получает или задает дополнительные битовые маски. Присутствует только в том случае, если заголовок DIB является BITMAPINFOHEADER, а[`BitmapCompression`](../bitmapcompression)имеет значениеBitfields(RGB) илиAlphaBitfields(RGBA).
+Получает или устанавливает дополнительные битовые маски. Присутствует только в том случае, если заголовок DIB является BITMAPINFOHEADER, а[`BitmapCompression`](../bitmapcompression) установлен либоBitfields (RGB) илиAlphaBitfields (RGBA).
 
 ```csharp
 public int[] ExtraBitMasks { get; set; }

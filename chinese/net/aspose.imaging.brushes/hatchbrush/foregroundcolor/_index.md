@@ -1,14 +1,14 @@
 ---
 title: ForegroundColor
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置阴影线的颜色
+description: 获取或设置影线的颜色
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.brushes/hatchbrush/foregroundcolor/
 ---
 ## HatchBrush.ForegroundColor property
 
-获取或设置阴影线的颜色。
+获取或设置影线的颜色。
 
 ```csharp
 public Color ForegroundColor { get; set; }
@@ -16,7 +16,7 @@ public Color ForegroundColor { get; set; }
 
 ### 适当的价值
 
-阴影线的颜色。
+影线的颜色。
 
 ### 例子
 
@@ -25,42 +25,36 @@ public Color ForegroundColor { get; set; }
 ```csharp
 [C#]
 
-    //创建一个BmpOptions的实例并设置它的各种属性
+//创建一个BmpOptions的实例并设置它的各种属性
 Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 bmpOptions.BitsPerPixel = 24;
 
-    //创建一个FileCreateSource的实例并将其分配为BmpOptions
-实例的Source
-    //第二个布尔参数决定要创建的文件是IsTemporal还是not
+//创建一个 FileCreateSource 的实例并将其分配为 BmpOptions 实例的 Source
+//第二个布尔参数确定要创建的文件是否为IsTemporal
 bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"C:\temp\sample.bmp", false);
 
-    //在指定的Path
-处创建一个Image实例
+//在指定路径创建一个Image实例
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
 {
-    //创建一个Graphics实例，并用Image object
-初始化
+    //创建一个Graphics实例并用Image对象初始化
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
 
     //用白色清除图形表面
     graphics.Clear(Aspose.Imaging.Color.White);
 
-        //创建一个Pen实例，颜色为红色，宽度为5
+    //创建一个Pen实例，颜色为红色，宽度为5
     Aspose.Imaging.Pen pen = new Aspose.Imaging.Pen(Aspose.Imaging.Color.Red, 5f);
 
-        //创建一个HatchBrush实例并设置它的properties
+    //创建一个HatchBrush实例并设置它的属性
     Aspose.Imaging.Brushes.HatchBrush brush = new Aspose.Imaging.Brushes.HatchBrush();
     brush.BackgroundColor = Aspose.Imaging.Color.Wheat;
     brush.ForegroundColor = Aspose.Imaging.Color.Red;
 
-        //创建一个Pen
-的实例
-    //用 HatchBrush 对象和 width
- 初始化它
+    //创建一个Pen实例
+    //用 HatchBrush 对象和宽度初始化它
     Aspose.Imaging.Pen brusedpen = new Pen(brush, 5);
 
-    //通过指定Pen对象
-绘制矩形
+    //通过指定Pen对象绘制矩形
     graphics.DrawRectangles(pen, new[]
     {
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(210, 210), new Aspose.Imaging.Size(100, 100)),
@@ -68,8 +62,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(310, 310), new Aspose.Imaging.Size(100, 100))
     });
 
-    //通过指定Pen对象
-绘制矩形
+    //通过指定Pen对象绘制矩形
     graphics.DrawRectangles(brusedpen, new[]
     {
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(310, 110), new Aspose.Imaging.Size(100, 100)),

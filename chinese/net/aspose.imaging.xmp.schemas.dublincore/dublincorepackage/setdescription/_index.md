@@ -16,7 +16,7 @@ public void SetDescription(string desc)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| desc | String | 描述。 |
+| desc | String | 说明。 |
 
 ### 也可以看看
 
@@ -36,7 +36,7 @@ public void SetDescription(LangAlt desc)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| desc | LangAlt | 描述。 |
+| desc | LangAlt | 说明。 |
 
 ### 也可以看看
 

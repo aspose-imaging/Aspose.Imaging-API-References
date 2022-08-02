@@ -1,14 +1,14 @@
 ---
 title: CmxParagraphStyle
 second_title: Aspose.Imaging for .NET API 参考
-description: 段落样式
+description: 段落样式.
 type: docs
 weight: 2270
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphstyle/
 ---
 ## CmxParagraphStyle class
 
-段落样式。
+段落样式.
 
 ```csharp
 public class CmxParagraphStyle

@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示Widthaspose.imaging/rectanglef/width还是Imaging此R5TAspose.Imaging.RectangleF的 RectangleF.Height属性的值为零
+description: 获取一个值该值指示是否Widthaspose.imaging/rectanglef/width或者Heightaspose.imaging/rectanglef/height这个属性RectangleFaspose.imaging/rectanglef值为零
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging/rectanglef/isempty/
 ---
 ## RectangleF.IsEmpty property
 
-获取一个值，该值指示[`Width`](../width)还是Imaging。此R5:T:Aspose.Imaging.RectangleF:::的 RectangleF.Height:::属性的值为零。
+获取一个值，该值指示是否[`Width`](../width)或者[`Height`](../height)这个属性[`RectangleF`](../../rectanglef)值为零。
 
 ```csharp
 public bool IsEmpty { get; }
@@ -16,7 +16,7 @@ public bool IsEmpty { get; }
 
 ### 返回值
 
-如果[`Width`](../width)或:::该属性返回 true此[`RectangleF`](../../rectanglef)的 R5:P:Aspose.Imaging.RectangleF.Height:::属性的值为零；否则为假。
+如果[`Width`](../width)或者[`Height`](../height)这个属性[`RectangleF`](../../rectanglef)值为零；否则为假。
 
 ### 也可以看看
 

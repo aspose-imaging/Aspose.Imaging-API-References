@@ -18,8 +18,8 @@ public sealed class EmfImage : MetaImage
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfImage](emfimage#constructor)() | 初始化[`EmfImage`](../emfimage)类的新实例。 |
-| [EmfImage](emfimage#constructor_1)(int, int) | 初始化[`EmfImage`](../emfimage)类的新实例。 |
+| [EmfImage](emfimage#constructor)() | 初始化[`EmfImage`](../emfimage)类. |
+| [EmfImage](emfimage#constructor_1)(int, int) | 初始化[`EmfImage`](../emfimage)类. |
 
 ## 特性
 
@@ -27,19 +27,19 @@ public sealed class EmfImage : MetaImage
 | --- | --- |
 | [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette) { get; set; } | 获取或设置是否自动调整调色板的值。 |
 | virtual [BackgroundColor](../../aspose.imaging/image/backgroundcolor) { get; set; } | 获取或设置背景颜色的值。 |
-| override [BitsPerPixel](../../aspose.imaging.fileformats.emf/emfimage/bitsperpixel) { get; } | 获取图像每像素位数 此参数不适用于矢量图像 |
+| override [BitsPerPixel](../../aspose.imaging.fileformats.emf/emfimage/bitsperpixel) { get; } | 获取每像素的图像位数此参数不适用于矢量图像 |
 | [Bounds](../../aspose.imaging/image/bounds) { get; } | 获取图像边界。 |
 | [BufferSizeHint](../../aspose.imaging/image/buffersizehint) { get; set; } | 获取或设置缓冲区大小提示，该提示定义了所有内部缓冲区的最大允许大小。 |
-| [Container](../../aspose.imaging/image/container) { get; } | 获取[`Image`](../../aspose.imaging/image)容器。 |
+| [Container](../../aspose.imaging/image/container) { get; } | 获取[`Image`](../../aspose.imaging/image)容器. |
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer) { get; } | 获取对象的数据流。 |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示该实例是否被释放。 |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示此实例是否被释放。 |
 | override [FileFormat](../../aspose.imaging.fileformats.emf/emfimage/fileformat) { get; } | 获取文件格式的值 |
-| virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor) { get; set; } | 获取或设置一个值，该值指示图像是否具有背景色。 |
+| virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor) { get; set; } | 获取或设置图像是否有背景色的值。 |
 | [Header](../../aspose.imaging.fileformats.emf/emfimage/header) { get; set; } | 获取或设置头记录 |
 | override [Height](../../aspose.imaging.fileformats.emf/emfimage/height) { get; } | 获取图像高度。 |
 | virtual [HeightF](../../aspose.imaging/vectorimage/heightf) { get; } | 获取对象高度，以英寸为单位。 |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor) { get; set; } | 获取或设置中断监视器。 |
-| override [IsCached](../../aspose.imaging.fileformats.emf/emfimage/iscached) { get; } | 获取对象的数据当前是否缓存，不需要读取数据。 |
+| override [IsCached](../../aspose.imaging.fileformats.emf/emfimage/iscached) { get; } | 获取一个值，表示对象的数据当前是否被缓存，不需要读取数据。 |
 | [Palette](../../aspose.imaging/image/palette) { get; set; } | 获取或设置调色板。直接表示像素时不使用调色板。 |
 | override [Records](../../aspose.imaging.fileformats.emf/emfimage/records) { get; set; } | 获取或设置记录。 |
 | [Size](../../aspose.imaging/image/size) { get; } | 获取图像大小。 |
@@ -52,24 +52,24 @@ public sealed class EmfImage : MetaImage
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [CacheData](../../aspose.imaging.fileformats.emf/emfimage/cachedata)() | 缓存数据并确保不会从底层[`DataStreamContainer`](../../aspose.imaging/datastreamsupporter/datastreamcontainer)执行额外的数据加载。 |
-| [CanSave](../../aspose.imaging/image/cansave)(ImageOptionsBase) | 确定图像是否可以保存为传递的保存选项表示的指定文件格式。 |
+| override [CacheData](../../aspose.imaging.fileformats.emf/emfimage/cachedata)() | 缓存数据并确保不会从底层执行额外的数据加载[`DataStreamContainer`](../../aspose.imaging/datastreamsupporter/datastreamcontainer) . |
+| [CanSave](../../aspose.imaging/image/cansave)(ImageOptionsBase) | 判断图像是否可以保存为传递的保存选项所代表的指定文件格式。 |
 | override [Crop](../../aspose.imaging.fileformats.emf/emfimage/crop#crop)(Rectangle) | 裁剪指定的矩形。 |
-| virtual [Crop](../../aspose.imaging.fileformats.emf/metaimage/crop)(int, int, int, int) | 带班次裁剪图像。 |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 释放当前实例。 |
+| virtual [Crop](../../aspose.imaging.fileformats.emf/metaimage/crop)(int, int, int, int) | 使用班次裁剪图像。 |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 处理当前实例。 |
 | override [GetDefaultOptions](../../aspose.imaging.fileformats.emf/emfimage/getdefaultoptions)(object[]) | 获取默认选项。 |
 | virtual [GetEmbeddedImages](../../aspose.imaging/vectorimage/getembeddedimages)() | 获取嵌入的图像。 |
 | [GetMissedFonts](../../aspose.imaging.fileformats.emf/metaimage/getmissedfonts)() | 返回在元文件中使用但未找到的字体列表。 |
-| virtual [GetOriginalOptions](../../aspose.imaging/image/getoriginaloptions)() | 获取基于原始文件设置的选项。 这有助于保持原始图像的位深度和其他参数不变。 例如，如果我们加载一个每像素 1 位的黑白 PNG 图像，然后使用 String)方法，将生成每像素 8 位的输出 PNG 图像。 为避免它并以每像素 1 位保存 PNG 图像，请使用此方法获取相应的保存选项并将它们传递 到ImageOptionsBase)方法作为第二个参数。 |
+| virtual [GetOriginalOptions](../../aspose.imaging/image/getoriginaloptions)() | 获取基于原始文件设置的选项。 这有助于保持原始图像的位深度和其他参数不变。 例如，如果我们加载一个每像素 1 位的黑白 PNG 图像，然后使用 the 保存它[`Save`](../../aspose.imaging/datastreamsupporter/save)方法，将产生每像素8位的输出PNG图像。 为了避免它并以每像素1位保存PNG图像，使用此方法获取相应的保存选项并将它们 传递给[`Save`](../../aspose.imaging/image/save)方法作为第二个参数。 |
 | override [GetUsedFonts](../../aspose.imaging.fileformats.emf/emfimage/getusedfonts)() | 返回在元文件中使用的字体列表。 |
-| [Resize](../../aspose.imaging/image/resize)(int, int) | 调整图像大小。使用默认NearestNeighbourResample。 |
+| [Resize](../../aspose.imaging/image/resize)(int, int) | 调整图像大小。默认NearestNeighbourResample已使用。 |
 | override [Resize](../../aspose.imaging.fileformats.emf/emfimage/resize#resize_1)(int, int, ImageResizeSettings) | 调整图像大小。 |
 | override [Resize](../../aspose.imaging.fileformats.emf/emfimage/resize#resize_2)(int, int, ResizeType) | 调整图像大小。 |
 | override [ResizeCanvas](../../aspose.imaging.fileformats.emf/emfimage/resizecanvas)(Rectangle) | 调整画布大小。 |
-| [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally)(int) | 按比例调整高度。使用默认NearestNeighbourResample。 |
+| [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally)(int) | 按比例调整高度。默认NearestNeighbourResample已使用。 |
 | virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally)(int, ImageResizeSettings) | 按比例调整高度。 |
 | virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally)(int, ResizeType) | 按比例调整高度。 |
-| [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally)(int) | 按比例调整宽度。使用默认NearestNeighbourResample。 |
+| [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally)(int) | 按比例调整宽度。默认NearestNeighbourResample已使用。 |
 | virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally)(int, ImageResizeSettings) | 按比例调整宽度。 |
 | virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally)(int, ResizeType) | 按比例调整宽度。 |
 | override [RotateFlip](../../aspose.imaging.fileformats.emf/emfimage/rotateflip)(RotateFlipType) | 旋转、翻转或旋转和翻转图像。 |
@@ -90,112 +90,49 @@ public sealed class EmfImage : MetaImage
 ```csharp
 [C#]
 
-string dir = "c:\\temp\\";
-
-    // 使用 Aspose.Imaging.Image.Load 是一种统一的方式来加载所有类型的图像，包括 EMF.
-using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFormats.Emf.EmfImage)Aspose.Imaging.Image.Load(dir + "test.emf"))
+string file = "example.emz";
+string baseFolder = System.IO.Path.Combine("D:", "Compressed");
+string inputFile = System.IO.Path.Combine(baseFolder, file);
+string outFile = inputFile + ".emf";
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFile))
 {
-    Aspose.Imaging.ImageOptions.SvgOptions saveOptions = new Aspose.Imaging.ImageOptions.SvgOptions();
-
-        // 文本将被转换为形状。
-    saveOptions.TextAsShapes = true;
-
-    Aspose.Imaging.ImageOptions.EmfRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.EmfRasterizationOptions();
-
-        // 绘图表面的背景颜色.
-    rasterizationOptions.BackgroundColor = Aspose.Imaging.Color.WhiteSmoke;
-
-        // 页面大小.
-    rasterizationOptions.PageSize = emfImage.Size;
-
-        // 如果嵌入的 emf 存在，则渲染 emf；否则渲染 wmf.
-    rasterizationOptions.RenderMode = Aspose.Imaging.FileFormats.Emf.EmfRenderMode.Auto;
-
-        // 设置水平边距
-    rasterizationOptions.BorderX = 50;
-
-        // 设置垂直边距
-    rasterizationOptions.BorderY = 50;
-
-    saveOptions.VectorRasterizationOptions = rasterizationOptions;
-
-    emfImage.Save(dir + "test.output.svg", saveOptions);
+    Aspose.Imaging.ImageOptions.VectorRasterizationOptions vectorRasterizationOptions = new Aspose.Imaging.ImageOptions.EmfRasterizationOptions {PageSize = image.Size};
+    image.Save(outFile, new Aspose.Imaging.ImageOptions.EmfOptions {VectorRasterizationOptions = vectorRasterizationOptions});
 }
 ```
 
-以下示例显示如何将 emf 图像从 at
+以下示例显示如何将 emf 图像转换为 emz fromat
 
 ```csharp
 [C#]
 
-string dir = "c:\\temp\\";
-
-    // 使用 Aspose.Imaging.Image.Load 是一种统一的方式来加载所有类型的图像，包括 EMF.
-using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFormats.Emf.EmfImage)Aspose.Imaging.Image.Load(dir + "test.emf"))
+string file = "input.emf";
+string baseFolder = System.IO.Path.Combine("D:", "Compressed");
+string inputFile = System.IO.Path.Combine(baseFolder, file);
+string outFile = inputFile + ".emz";
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFile))
 {
-    Aspose.Imaging.ImageOptions.SvgOptions saveOptions = new Aspose.Imaging.ImageOptions.SvgOptions();
-
-        // 文本将被转换为形状。
-    saveOptions.TextAsShapes = true;
-
-    Aspose.Imaging.ImageOptions.EmfRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.EmfRasterizationOptions();
-
-        // 绘图表面的背景颜色.
-    rasterizationOptions.BackgroundColor = Aspose.Imaging.Color.WhiteSmoke;
-
-        // 页面大小.
-    rasterizationOptions.PageSize = emfImage.Size;
-
-        // 如果嵌入的 emf 存在，则渲染 emf；否则渲染 wmf.
-    rasterizationOptions.RenderMode = Aspose.Imaging.FileFormats.Emf.EmfRenderMode.Auto;
-
-        // 设置水平边距
-    rasterizationOptions.BorderX = 50;
-
-        // 设置垂直边距
-    rasterizationOptions.BorderY = 50;
-
-    saveOptions.VectorRasterizationOptions = rasterizationOptions;
-
-    emfImage.Save(dir + "test.output.svg", saveOptions);
+    Aspose.Imaging.ImageOptions.VectorRasterizationOptions vectorRasterizationOptions = new Aspose.Imaging.ImageOptions.EmfRasterizationOptions() { PageSize = image.Size};
+    image.Save(outFile, new Aspose.Imaging.ImageOptions.EmfOptions() {VectorRasterizationOptions = vectorRasterizationOptions, Compress = true});
 }
 ```
 
-转换为 emz *.svgz) 到光栅 fromat
+以下示例显示如何将压缩图像（*.emz、*.wmz、*.svgz）转换为光栅 fromat
 
 ```csharp
 [C#]
 
-string dir = "c:\\temp\\";
-
-    // 使用 Aspose.Imaging.Image.Load 是一种统一的方式来加载所有类型的图像，包括 EMF.
-using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFormats.Emf.EmfImage)Aspose.Imaging.Image.Load(dir + "test.emf"))
+string[] files = new[] {"example.emz", "example.wmz", "example.svgz"};
+string baseFolder = System.IO.Path.Combine("D:","Compressed");
+foreach (var file in files)
 {
-    Aspose.Imaging.ImageOptions.SvgOptions saveOptions = new Aspose.Imaging.ImageOptions.SvgOptions();
-
-        // 文本将被转换为形状。
-    saveOptions.TextAsShapes = true;
-
-    Aspose.Imaging.ImageOptions.EmfRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.EmfRasterizationOptions();
-
-        // 绘图表面的背景颜色.
-    rasterizationOptions.BackgroundColor = Aspose.Imaging.Color.WhiteSmoke;
-
-        // 页面大小.
-    rasterizationOptions.PageSize = emfImage.Size;
-
-        // 如果嵌入的 emf 存在，则渲染 emf；否则渲染 wmf.
-    rasterizationOptions.RenderMode = Aspose.Imaging.FileFormats.Emf.EmfRenderMode.Auto;
-
-        // 设置水平边距
-    rasterizationOptions.BorderX = 50;
-
-        // 设置垂直边距
-    rasterizationOptions.BorderY = 50;
-
-    saveOptions.VectorRasterizationOptions = rasterizationOptions;
-
-    emfImage.Save(dir + "test.output.svg", saveOptions);
+    string inputFile = System.IO.Path.Combine(baseFolder, file);
+    string outFile = inputFile + ".png";
+    using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFile))
+    {
+        Aspose.Imaging.ImageOptions.VectorRasterizationOptions vectorRasterizationOptions = (Aspose.Imaging.ImageOptions.VectorRasterizationOptions)image.GetDefaultOptions(new object[] { Color.White, image.Width, image.Height });
+        image.Save(outFile, new Aspose.Imaging.ImageOptions.PngOptions(){VectorRasterizationOptions = vectorRasterizationOptions});
+    }
 }
 ```
 
@@ -206,29 +143,29 @@ using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFo
 
 string dir = "c:\\temp\\";
 
-    // 使用 Aspose.Imaging.Image.Load 是一种统一的方式来加载所有类型的图像，包括 EMF.
+// 使用 Aspose.Imaging.Image.Load 是一种统一的方式来加载包括 EMF 在内的所有类型的图像。
 using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFormats.Emf.EmfImage)Aspose.Imaging.Image.Load(dir + "test.emf"))
 {
     Aspose.Imaging.ImageOptions.SvgOptions saveOptions = new Aspose.Imaging.ImageOptions.SvgOptions();
 
-        // 文本将被转换为形状。
+    // 文本将转换为形状。
     saveOptions.TextAsShapes = true;
 
     Aspose.Imaging.ImageOptions.EmfRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.EmfRasterizationOptions();
 
-        // 绘图表面的背景颜色.
+    // 绘图表面的背景颜色。
     rasterizationOptions.BackgroundColor = Aspose.Imaging.Color.WhiteSmoke;
 
-        // 页面大小.
+    // 页面大小。
     rasterizationOptions.PageSize = emfImage.Size;
 
-        // 如果嵌入的 emf 存在，则渲染 emf；否则渲染 wmf.
+    // 如果嵌入的 emf 存在，则渲染 emf；否则渲染 wmf。
     rasterizationOptions.RenderMode = Aspose.Imaging.FileFormats.Emf.EmfRenderMode.Auto;
 
-        // 设置水平边距
+    // 设置水平边距
     rasterizationOptions.BorderX = 50;
 
-        // 设置垂直边距
+    // 设置垂直边距
     rasterizationOptions.BorderY = 50;
 
     saveOptions.VectorRasterizationOptions = rasterizationOptions;

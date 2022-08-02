@@ -1,14 +1,14 @@
 ---
 title: Subtract
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПреобразовываетPointFaspose.imaging/pointfв минус указанного размера.
+description: ПереводитPointFaspose.imaging/pointf негативом указанного размера.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging/pointf/subtract/
 ---
 ## Subtract(PointF, Size) {#subtract}
 
-Преобразовывает[`PointF`](../../pointf)в минус указанного размера.
+Переводит[`PointF`](../../pointf) негативом указанного размера.
 
 ```csharp
 public static PointF Subtract(PointF point, Size size)
@@ -16,12 +16,12 @@ public static PointF Subtract(PointF point, Size size)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | PointF | [`PointF`](../../pointf)для перевода. |
-| size | Size | [`Size`](../../size)который указывает числа, которые нужно вычесть из координат*точки*. |
+| point | PointF | [`PointF`](../../pointf) переводить. |
+| size | Size | [`Size`](../../size) который указывает числа, которые нужно вычесть из координат*point*. |
 
 ### Возвращаемое значение
 
-Переведенный[`PointF`](../../pointf).
+переведенный[`PointF`](../../pointf).
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public static PointF Subtract(PointF point, Size size)
 
 ## Subtract(PointF, SizeF) {#subtract_1}
 
-Преобразовывает[`PointF`](../../pointf)в минус указанного размера.
+Переводит[`PointF`](../../pointf) негативом указанного размера.
 
 ```csharp
 public static PointF Subtract(PointF point, SizeF size)
@@ -42,12 +42,12 @@ public static PointF Subtract(PointF point, SizeF size)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | PointF | [`PointF`](../../pointf)для перевода. |
-| size | SizeF | [`SizeF`](../../sizef)который указывает числа, которые нужно вычесть из координат*точки*. |
+| point | PointF | [`PointF`](../../pointf) переводить. |
+| size | SizeF | [`SizeF`](../../sizef) который указывает числа, которые нужно вычесть из координат*point*. |
 
 ### Возвращаемое значение
 
-Переведенный[`PointF`](../../pointf).
+переведенный[`PointF`](../../pointf).
 
 ### Смотрите также
 

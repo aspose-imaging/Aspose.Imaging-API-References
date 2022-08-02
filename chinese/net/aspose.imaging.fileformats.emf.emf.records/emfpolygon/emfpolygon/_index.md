@@ -1,14 +1,14 @@
 ---
 title: EmfPolygon
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPolygonaspose.imaging.fileformats.emf.emf.records/emfpolygon类的新实例
+description: 初始化EmfPolygonaspose.imaging.fileformats.emf.emf.records/emfpolygon类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfpolygon/emfpolygon/
 ---
 ## EmfPolygon(EmfRecord) {#constructor_1}
 
-初始化[`EmfPolygon`](../../emfpolygon)类的新实例。
+初始化[`EmfPolygon`](../../emfpolygon)类.
 
 ```csharp
 public EmfPolygon(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfPolygon(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfPolygon(EmfRecord source)
 
 ## EmfPolygon() {#constructor}
 
-初始化[`EmfPolygon`](../../emfpolygon)类的新实例。
+初始化[`EmfPolygon`](../../emfpolygon)类.
 
 ```csharp
 public EmfPolygon()

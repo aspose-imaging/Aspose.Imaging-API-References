@@ -16,7 +16,7 @@ public override bool HasAlpha { get; }
 
 ### 适当的价值
 
-` true` 如果此实例具有 alpha；否则，` false` 。
+`真的`如果这个实例有 alpha；否则，`错误的` .
 
 ### 例子
 
@@ -25,7 +25,7 @@ public override bool HasAlpha { get; }
 ```csharp
 [C#]
 
-    // 获取所有支持的 PNG 颜色类型。
+// 获取所有支持的 PNG 颜色类型。
 System.Array colorTypes = System.Enum.GetValues(typeof(Aspose.Imaging.FileFormats.Png.PngColorType));
 
 foreach (Aspose.Imaging.FileFormats.Png.PngColorType colorType in colorTypes)
@@ -49,11 +49,11 @@ foreach (Aspose.Imaging.FileFormats.Png.PngColorType colorType in colorTypes)
     }
 }
 
-    // 输出如下所示：
-    // 灰度 PNG 图像不支持 alpha channel
-    // 真彩色 PNG 图像不支持 alpha channel
-    // IndexedColor PNG 图像不支持 alpha channel
-    // GrayscaleWithAlpha PNG 图像支持 alpha channel
+// 输出如下所示：
+// 灰度 PNG 图像不支持 alpha 通道
+// 真彩色 PNG 图像不支持 alpha 通道
+// IndexedColor PNG 图像不支持 alpha 通道
+// GrayscaleWithAlpha PNG 图像支持 alpha 通道
 // TruecolorWithAlpha PNG 图像支持 alpha 通道
 ```
 

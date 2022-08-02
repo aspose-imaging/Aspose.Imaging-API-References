@@ -1,14 +1,14 @@
 ---
 title: StackIndex
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее индекс состояния графики контейнера. Индекс ДОЛЖЕН соответствовать значению связанному с контейнером состояния графики  открытым предыдущей записью EmfPlusBeginContainer раздел 2.3.7.1 или EmfPlusBeginContainerNoParams раздел 2.3.7.2.
+description: Получает или задает 32-разрядное целое число без знака указывающее индекс графического контейнера state . Индекс ДОЛЖЕН соответствовать значению связанному с графическим состоянием container  открытым предыдущей записью EmfPlusBeginContainer раздел 2.3.7.1 или EmfPlusBeginContainerNoParams раздел 2.3.7.2.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusendcontainer/stackindex/
 ---
 ## EmfPlusEndContainer.StackIndex property
 
-Получает или задает 32-разрядное целое число без знака, указывающее индекс состояния графики контейнера. Индекс ДОЛЖЕН соответствовать значению, связанному с контейнером состояния графики , открытым предыдущей записью EmfPlusBeginContainer (раздел 2.3.7.1) или EmfPlusBeginContainerNoParams (раздел 2.3.7.2).
+Получает или задает 32-разрядное целое число без знака, указывающее индекс графического контейнера state . Индекс ДОЛЖЕН соответствовать значению, связанному с графическим состоянием container , открытым предыдущей записью EmfPlusBeginContainer (раздел 2.3.7.1) или EmfPlusBeginContainerNoParams (раздел 2.3.7.2).
 
 ```csharp
 public int StackIndex { get; set; }

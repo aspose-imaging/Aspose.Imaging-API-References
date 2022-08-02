@@ -17,12 +17,12 @@ public override void AdjustGamma(float gammaRed, float gammaGreen, float gammaBl
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | gammaRed | Single | Гамма для коэффициента красного канала |
-| gammaGreen | Single | Гамма для коэффициент зеленого канала |
-| gammaBlue | Single | Гамма для коэффициента синего канала |
+| gammaGreen | Single | Гамма коэффициента зеленого канала |
+| gammaBlue | Single | Гамма коэффициента синего канала |
 
 ### Примеры
 
-В следующем примере выполняется гамма-коррекция растровое кэшированное изображение с применением различных коэффициентов для компонентов цвета.
+В следующем примере выполняется гамма-коррекция кэшированного растрового изображения с применением различных коэффициентов для компонентов цвета.
 
 ```csharp
 [C#]
@@ -33,7 +33,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterCachedImage rasterImage = (Aspose.Imaging.RasterCachedImage)image;
 
-     // Установить индивидуальные гамма-коэффициенты для красного, зеленого и синего каналов.
+    // Установить индивидуальные гамма-коэффициенты для красного, зеленого и синего каналов.
     rasterImage.AdjustGamma(1.5f, 2.5f, 3.5f);
     rasterImage.Save(dir + "sample.AdjustGamma.png");
 }
@@ -72,7 +72,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterCachedImage rasterImage = (Aspose.Imaging.RasterCachedImage)image;
 
-     // Установить коэффициент гаммы для красного, зеленого и синего каналов.
+    // Установите коэффициент гаммы для красного, зеленого и синего каналов.
     rasterImage.AdjustGamma(2.5f);
     rasterImage.Save(dir + "sample.AdjustGamma.png");
 }

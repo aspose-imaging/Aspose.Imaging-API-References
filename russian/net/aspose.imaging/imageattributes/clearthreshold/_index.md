@@ -32,7 +32,7 @@ public void ClearThreshold(ColorAdjustType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype), указывающий категорию, для которой порог очищается. |
+| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype) который указывает категорию, для которой порог очищается. |
 
 ### Смотрите также
 

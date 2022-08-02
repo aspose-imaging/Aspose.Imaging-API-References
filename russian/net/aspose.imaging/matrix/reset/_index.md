@@ -1,14 +1,14 @@
 ---
 title: Reset
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Сбрасывает эту матрицу чтобы она содержала элементы единичной матрицы.
+description: Сбрасывает эту матрицу чтобы иметь элементы матрицы идентичности.
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging/matrix/reset/
 ---
 ## Matrix.Reset method
 
-Сбрасывает эту матрицу, чтобы она содержала элементы единичной матрицы.
+Сбрасывает эту матрицу, чтобы иметь элементы матрицы идентичности.
 
 ```csharp
 public void Reset()

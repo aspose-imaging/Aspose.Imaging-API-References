@@ -1,34 +1,11 @@
 ---
 title: Crop
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Обрезать изображение со сдвигами.
+description: Обрезает указанный прямоугольник.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf/metaimage/crop/
 ---
-## Crop(int, int, int, int) {#crop_1}
-
-Обрезать изображение со сдвигами.
-
-```csharp
-public virtual void Crop(int leftShift, int rightShift, int topShift, int bottomShift)
-```
-
-| Параметр | Тип | Описание |
-| --- | --- | --- |
-| leftShift | Int32 | Сдвиг влево. |
-| rightShift | Int32 | Сдвиг вправо. |
-| topShift | Int32 | Верхняя смена. |
-| bottomShift | Int32 | Нижнее смещение. |
-
-### Смотрите также
-
-* class [MetaImage](../../metaimage)
-* пространство имен [Aspose.Imaging.FileFormats.Emf](../../metaimage)
-* сборка [Aspose.Imaging](../../../)
-
----
-
 ## Crop(Rectangle) {#crop}
 
 Обрезает указанный прямоугольник.
@@ -44,6 +21,29 @@ public virtual void Crop(Rectangle rectangle)
 ### Смотрите также
 
 * struct [Rectangle](../../../aspose.imaging/rectangle)
+* class [MetaImage](../../metaimage)
+* пространство имен [Aspose.Imaging.FileFormats.Emf](../../metaimage)
+* сборка [Aspose.Imaging](../../../)
+
+---
+
+## Crop(int, int, int, int) {#crop_1}
+
+Обрезать изображение со сдвигами.
+
+```csharp
+public virtual void Crop(int leftShift, int rightShift, int topShift, int bottomShift)
+```
+
+| Параметр | Тип | Описание |
+| --- | --- | --- |
+| leftShift | Int32 | Левый сдвиг. |
+| rightShift | Int32 | Правильный сдвиг. |
+| topShift | Int32 | Верхняя смена. |
+| bottomShift | Int32 | Нижний сдвиг. |
+
+### Смотрите также
+
 * class [MetaImage](../../metaimage)
 * пространство имен [Aspose.Imaging.FileFormats.Emf](../../metaimage)
 * сборка [Aspose.Imaging](../../../)

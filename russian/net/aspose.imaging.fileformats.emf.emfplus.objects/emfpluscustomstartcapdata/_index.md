@@ -24,7 +24,7 @@ public sealed class EmfPlusCustomStartCapData : EmfPlusStructureObjectType
 
 | Имя | Описание |
 | --- | --- |
-| [CustomStartCap](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomstartcapdata/customstartcap) { get; set; } | Получает или задает пользовательский конец строки, определяющий фигуру, которая будет отображаться в конце строки. Это может быть любая из различных форм, включая квадрат, круг или ромб |
+| [CustomStartCap](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomstartcapdata/customstartcap) { get; set; } | Получает или задает пользовательский конец строки, определяющий фигуру, которая будет отображаться в конце линии. Это может быть любая из различных форм, в том числе a квадрат, круг или ромб |
 
 ### Смотрите также
 

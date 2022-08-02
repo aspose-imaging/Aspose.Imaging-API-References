@@ -1,14 +1,14 @@
 ---
 title: SrcConstantAlpha
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取指定 alpha 透明度的 8 位无符号整数 确定源位图和目标位图的混合这个值必须是 用于整个源位图最小 alpha 透明度值零 对应于完全透明最大值0xFF对应于 完全不透明实际上值 0xFF 指定每个像素的 alpha 值 确定源位图和目标位图的混合有关详细信息请参阅后面 本节中的方程式
+description: 获取指定 alpha 透明度的 8 位无符号整数 确定源位图和目标位图的混合该值必须在整个源位图上使用 最小 alpha 透明度值零 对应于完全透明最大值0xFF对应于 完全不透明实际上值 0xFF 指定每像素 alpha 值 确定源位图和目标位图的混合有关详细信息请参阅本节后面的 中的方程式
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfblendfunction/srcconstantalpha/
 ---
 ## EmfBlendFunction.SrcConstantAlpha property
 
-获取指定 alpha 透明度的 8 位无符号整数 确定源位图和目标位图的混合。这个值必须是 用于整个源位图。最小 alpha 透明度值，零， 对应于完全透明，最大值，0xFF，对应于 完全不透明。实际上，值 0xFF 指定每个像素的 alpha 值 确定源位图和目标位图的混合。有关详细信息，请参阅后面 本节中的方程式。
+获取指定 alpha 透明度的 8 位无符号整数， 确定源位图和目标位图的混合。该值必须在整个源位图上使用 。最小 alpha 透明度值，零， 对应于完全透明，最大值，0xFF，对应于 完全不透明。实际上，值 0xFF 指定每像素 alpha 值 确定源位图和目标位图的混合。有关详细信息，请参阅本节后面的 中的方程式。
 
 ```csharp
 public byte SrcConstantAlpha { get; }

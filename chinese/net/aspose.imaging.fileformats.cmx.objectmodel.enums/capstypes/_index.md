@@ -1,14 +1,14 @@
 ---
 title: CapsTypes
 second_title: Aspose.Imaging for .NET API 参考
-description: 行的大写类型
+description: 线的大写类型
 type: docs
 weight: 2000
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.enums/capstypes/
 ---
 ## CapsTypes enumeration
 
-行的大写类型。
+线的大写类型。
 
 ```csharp
 public enum CapsTypes
@@ -20,7 +20,7 @@ public enum CapsTypes
 | --- | --- | --- |
 | Square | `0` | 向线条添加方形末端形状。 |
 | Round | `1` | 将圆形末端形状添加到线条。 |
-| ExtendedSquare | `2` | 扩展方形添加延长线长度的方形末端形状。 |
+| ExtendedSquare | `2` | 扩展的正方形添加延长线长度的正方形末端形状。 |
 
 ### 也可以看看
 

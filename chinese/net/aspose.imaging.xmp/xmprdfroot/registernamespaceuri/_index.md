@@ -1,14 +1,14 @@
 ---
 title: RegisterNamespaceUri
 second_title: Aspose.Imaging for .NET API 参考
-description: 通过前缀添加命名空间 uri前缀可以在没有 xmlns 的情况下开始
+description: 按前缀添加命名空间 uri前缀可以在没有 xmlns. 的情况下开始
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.xmp/xmprdfroot/registernamespaceuri/
 ---
 ## XmpRdfRoot.RegisterNamespaceUri method
 
-通过前缀添加命名空间 uri。前缀可以在没有 xmlns 的情况下开始。
+按前缀添加命名空间 uri。前缀可以在没有 xmlns. 的情况下开始
 
 ```csharp
 public void RegisterNamespaceUri(string prefix, string namespaceUri)
@@ -17,7 +17,7 @@ public void RegisterNamespaceUri(string prefix, string namespaceUri)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | prefix | String | 前缀。 |
-| namespaceUri | String | 包模式 uri。 |
+| namespaceUri | String | 包架构 uri。 |
 
 ### 也可以看看
 

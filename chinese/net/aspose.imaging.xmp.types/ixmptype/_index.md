@@ -3,7 +3,7 @@ title: IXmpType
 second_title: Aspose.Imaging for .NET API 参考
 description: XMP 类型的基本接口
 type: docs
-weight: 11710
+weight: 11700
 url: /zh/net/aspose.imaging.xmp.types/ixmptype/
 ---
 ## IXmpType interface

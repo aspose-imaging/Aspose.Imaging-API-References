@@ -18,8 +18,8 @@ public sealed class TiffSByteType : TiffCommonArrayType
 
 | Имя | Описание |
 | --- | --- |
-| [TiffSByteType](tiffsbytetype#constructor)(TiffTags) | Инициализирует новый экземпляр класса[`TiffSByteType`](../tiffsbytetype). |
-| [TiffSByteType](tiffsbytetype#constructor_1)(ushort) | Инициализирует новый экземпляр класса[`TiffSByteType`](../tiffsbytetype). |
+| [TiffSByteType](tiffsbytetype#constructor)(TiffTags) | Инициализирует новый экземпляр[`TiffSByteType`](../tiffsbytetype) класс. |
+| [TiffSByteType](tiffsbytetype#constructor_1)(ushort) | Инициализирует новый экземпляр[`TiffSByteType`](../tiffsbytetype) класс. |
 
 ## Характеристики
 
@@ -41,9 +41,9 @@ public sealed class TiffSByteType : TiffCommonArrayType
 
 | Имя | Описание |
 | --- | --- |
-| [CompareTo](../../aspose.imaging.fileformats.tiff/tiffdatatype/compareto)(object) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует ли за ним или находится в той же позиции в порядке сортировки как другой объект. |
+| [CompareTo](../../aspose.imaging.fileformats.tiff/tiffdatatype/compareto)(object) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует за ним или находится в той же позиции в порядке сортировки, что и другой объект. |
 | virtual [DeepClone](../../aspose.imaging.fileformats.tiff/tiffdatatype/deepclone)() | Выполняет глубокое клонирование этого экземпляра. |
-| override [ToString](../../aspose.imaging.fileformats.tiff/tiffdatatype/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.imaging.fileformats.tiff/tiffdatatype/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 | override [WriteAdditionalData](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffsbytetype/writeadditionaldata)(TiffStreamWriter) | Записывает дополнительные данные тега. |
 | [WriteTag](../../aspose.imaging.fileformats.tiff/tiffdatatype/writetag)(TiffStreamWriter, long) | Записывает данные тега. |
 

@@ -1,14 +1,14 @@
 ---
 title: VerticalResolution
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此RasterImageaspose.imaging/rasterimage的垂直分辨率以每英寸像素为单位
+description: 获取或设置此对象的垂直分辨率以每英寸像素为单位RasterImageaspose.imaging/rasterimage .
 type: docs
 weight: 170
 url: /zh/net/aspose.imaging/rasterimage/verticalresolution/
 ---
 ## RasterImage.VerticalResolution property
 
-获取或设置此[`RasterImage`](../../rasterimage)的垂直分辨率，以每英寸像素为单位。
+获取或设置此对象的垂直分辨率，以每英寸像素为单位[`RasterImage`](../../rasterimage) .
 
 ```csharp
 public virtual double VerticalResolution { get; set; }
@@ -20,11 +20,11 @@ public virtual double VerticalResolution { get; set; }
 
 ### 评论
 
-注意默认情况下这个值总是96，因为不同的平台不能返回屏幕分辨率。您可以考虑使用 SetResolution 方法在一次调用中更新两个分辨率值。
+请注意，默认情况下，此值始终为 96，因为不同的平台无法返回屏幕分辨率。您可以考虑使用 SetResolution 方法在一次调用中更新两个分辨率值。
 
 ### 例子
 
-以下示例显示如何设置光栅图像的水平/垂直分辨率。
+以下示例显示了如何设置光栅图像的水平/垂直分辨率。
 
 ```csharp
 [C#]
@@ -35,8 +35,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.jpg"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-        // 获取image
-的水平和垂直分辨率
+    // 获取图像的水平和垂直分辨率
     double horizontalResolution = rasterImage.HorizontalResolution;
     double verticalResolution = rasterImage.VerticalResolution;
     System.Console.WriteLine("The horizontal resolution, in pixels per inch: {0}", horizontalResolution);
@@ -53,11 +52,11 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.jpg"
     }
 
     // 输出可能如下所示：
-        // 水平分辨率，以每英寸像素为单位：300
-        // 垂直分辨率，以每英寸像素为单位：300
-        // 将分辨率值设置为 96 dpi
+    // 水平分辨率，以每英寸像素为单位：300
+    // 垂直分辨率，以每英寸像素为单位：300
+    // 将分辨率值设置为 96 dpi
     // 水平分辨率，以每英寸像素为单位：96
-        // 垂直分辨率，以每英寸像素为单位：96
+    // 垂直分辨率，以每英寸像素为单位：96
 }
 ```
 

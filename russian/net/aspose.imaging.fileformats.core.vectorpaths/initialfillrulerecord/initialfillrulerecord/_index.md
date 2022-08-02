@@ -1,14 +1,14 @@
 ---
 title: InitialFillRuleRecord
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаInitialFillRuleRecordaspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord.
+description: Инициализирует новый экземплярInitialFillRuleRecordaspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord/initialfillrulerecord/
 ---
 ## InitialFillRuleRecord() {#constructor}
 
-Инициализирует новый экземпляр класса[`InitialFillRuleRecord`](../../initialfillrulerecord).
+Инициализирует новый экземпляр[`InitialFillRuleRecord`](../../initialfillrulerecord) класс.
 
 ```csharp
 public InitialFillRuleRecord()
@@ -24,7 +24,7 @@ public InitialFillRuleRecord()
 
 ## InitialFillRuleRecord(bool) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`InitialFillRuleRecord`](../../initialfillrulerecord).
+Инициализирует новый экземпляр[`InitialFillRuleRecord`](../../initialfillrulerecord) класс.
 
 ```csharp
 public InitialFillRuleRecord(bool isFillStartsWithAllPixels)
@@ -44,7 +44,7 @@ public InitialFillRuleRecord(bool isFillStartsWithAllPixels)
 
 ## InitialFillRuleRecord(byte[]) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`InitialFillRuleRecord`](../../initialfillrulerecord).
+Инициализирует новый экземпляр[`InitialFillRuleRecord`](../../initialfillrulerecord) класс.
 
 ```csharp
 public InitialFillRuleRecord(byte[] data)

@@ -1,14 +1,14 @@
 ---
 title: EmfGradientFill
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfGradientFillaspose.imaging.fileformats.emf.emf.records/emfgradientfill.
+description: Инициализирует новый экземплярEmfGradientFillaspose.imaging.fileformats.emf.emf.records/emfgradientfill класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfgradientfill/emfgradientfill/
 ---
 ## EmfGradientFill constructor
 
-Инициализирует новый экземпляр класса[`EmfGradientFill`](../../emfgradientfill).
+Инициализирует новый экземпляр[`EmfGradientFill`](../../emfgradientfill) класс.
 
 ```csharp
 public EmfGradientFill(EmfRecord source)

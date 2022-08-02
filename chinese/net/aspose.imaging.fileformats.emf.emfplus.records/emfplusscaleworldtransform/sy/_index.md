@@ -1,14 +1,14 @@
 ---
 title: Sy
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置定义垂直比例因子的 32 位浮点值
+description: 获取或设置一个定义垂直比例因子的 32 位浮点值
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusscaleworldtransform/sy/
 ---
 ## EmfPlusScaleWorldTransform.Sy property
 
-获取或设置定义垂直比例因子的 32 位浮点值。
+获取或设置一个定义垂直比例因子的 32 位浮点值。
 
 ```csharp
 public float Sy { get; set; }

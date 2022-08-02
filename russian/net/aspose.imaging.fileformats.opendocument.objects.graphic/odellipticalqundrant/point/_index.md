@@ -1,14 +1,14 @@
 ---
 title: Point
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает точку.
+description: Получает или устанавливает точку.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odellipticalqundrant/point/
 ---
 ## OdEllipticalQundrant.Point property
 
-Получает или задает точку.
+Получает или устанавливает точку.
 
 ```csharp
 public PointF Point { get; set; }

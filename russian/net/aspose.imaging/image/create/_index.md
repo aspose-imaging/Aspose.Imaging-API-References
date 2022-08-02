@@ -22,7 +22,7 @@ public static Image Create(ImageOptionsBase imageOptions, int width, int height)
 
 ### Возвращаемое значение
 
-Вновь созданный образ.
+Недавно созданный образ.
 
 ### Примеры
 
@@ -31,20 +31,20 @@ public static Image Create(ImageOptionsBase imageOptions, int width, int height)
 ```csharp
 [C#]
 
- //Создаем экземпляр BmpOptions и устанавливаем его различные свойства
+//Создаем экземпляр BmpOptions и устанавливаем его различные свойства
 Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 bmpOptions.BitsPerPixel = 24;
 
- //Создаем экземпляр FileCreateSource и назначаем его в качестве источника для экземпляра BmpOptions
- //Второй логический параметр определяет, является ли создаваемый файл временным или нет
+//Создаем экземпляр FileCreateSource и назначаем его в качестве источника для экземпляра BmpOptions
+//Второй логический параметр определяет, является ли создаваемый файл временным или нет
 bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"C:\temp\output.bmp", false);
 
- //Создаем экземпляр Image и инициализируем его экземпляром BmpOptions, вызвав Create method
+//Создаем экземпляр Image и инициализируем его экземпляром BmpOptions, вызвав метод Create
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
 {
-     // сделать некоторую обработку изображения
+    // делаем некоторую обработку изображения
 
-     // сохранить все изменения
+    // сохранить все изменения
     image.Save();
 }
 ```
@@ -60,7 +60,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
 
 ## Create(Image[]) {#create_1}
 
-Создает новый образ, используя указанные изображения как страницы
+Создает новое изображение, используя указанные изображения в качестве страниц
 
 ```csharp
 public static Image Create(Image[] images)
@@ -93,7 +93,7 @@ public static Image Create(Image[] images, bool disposeImages)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | images | Image[] | Изображения. |
-| disposeImages | Boolean | , если установлено значение` true` [удалить изображения]. |
+| disposeImages | Boolean | если установлено`истинный` [распоряжаться изображениями]. |
 
 ### Возвращаемое значение
 

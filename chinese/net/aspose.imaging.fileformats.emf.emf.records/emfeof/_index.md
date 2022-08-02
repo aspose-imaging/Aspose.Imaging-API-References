@@ -18,16 +18,16 @@ public sealed class EmfEof : EmfControlRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfEof](emfeof#constructor)() | 初始化[`EmfEof`](../emfeof)类的新实例。 |
-| [EmfEof](emfeof#constructor_1)(EmfRecord) | 初始化[`EmfEof`](../emfeof)类的新实例。 |
+| [EmfEof](emfeof#constructor)() | 初始化[`EmfEof`](../emfeof)类. |
+| [EmfEof](emfeof#constructor_1)(EmfRecord) | 初始化[`EmfEof`](../emfeof)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PaletteArgb32Entries](../../aspose.imaging.fileformats.emf.emf.records/emfeof/paletteargb32entries) { get; set; } | 获取或设置包含调色板数据的可选缓冲区，它不是 需要与 EMR_EOF:::的固定部分连续47:::记录。因此，此缓冲区中标记为 "UndefinedSpace" 的字段是可选的并且必须被忽略。 该字段的大小必须是 4 个字节的倍数 |
+| [PaletteArgb32Entries](../../aspose.imaging.fileformats.emf.emf.records/emfeof/paletteargb32entries) { get; set; } | 获取或设置包含调色板数据的可选缓冲区，该缓冲区不是 要求与 EMR_EOF 记录的固定部分连续的。因此，此缓冲区中标记为 “UndefinedSpace”的字段是可选的，必须被忽略。 这个字段的大小必须是4字节的倍数 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
-| [SizeLast](../../aspose.imaging.fileformats.emf.emf.records/emfeof/sizelast) { get; set; } | 获取或设置一个 32 位无符号整数，该整数必须与 Size 相同，并且必须是记录的最后一个 字段，因此元文件。 LogPaletteEntry 对象，如果它们 存在，则必须在此字段之前。 |
+| [SizeLast](../../aspose.imaging.fileformats.emf.emf.records/emfeof/sizelast) { get; set; } | 获取或设置一个 32 位无符号整数，该整数必须与 Size 相同，并且必须是记录的最后一个 字段，因此是元文件。 LogPaletteEntry 对象，如果它们 存在，必须在此字段之前。 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 
 ### 也可以看看

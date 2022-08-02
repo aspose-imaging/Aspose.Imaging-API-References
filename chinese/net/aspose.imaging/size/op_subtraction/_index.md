@@ -1,14 +1,14 @@
 ---
 title: op_Subtraction
 second_title: Aspose.Imaging for .NET API 参考
-description: 从另一个R5 的宽度和高度中减去一个Sizeaspose.imaging/size结构的宽度和高度TAspose.Imaging.Size结构
+description: 减去一个的宽度和高度Sizeaspose.imaging/size结构从另一个的宽度和高度Sizeaspose.imaging/size结构.
 type: docs
 weight: 190
 url: /zh/net/aspose.imaging/size/op_subtraction/
 ---
 ## Size Subtraction operator
 
-从另一个:::R5 的宽度和高度中减去一个[`Size`](../../size)结构的宽度和高度:T:Aspose.Imaging.Size:::结构。
+减去一个的宽度和高度[`Size`](../../size)结构从另一个的宽度和高度[`Size`](../../size)结构.
 
 ```csharp
 public static Size operator -(Size size1, Size size2)
@@ -16,12 +16,12 @@ public static Size operator -(Size size1, Size size2)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| size1 | Size | 减法运算符左侧的[`Size`](../../size)结构. |
-| size2 | Size | 减法运算符右侧的[`Size`](../../size)结构。 |
+| size1 | Size | 这[`Size`](../../size)减法运算符左侧的结构。 |
+| size2 | Size | 这[`Size`](../../size)减法运算符右侧的结构。 |
 
 ### 返回值
 
-A[`Size`](../../size)结构是减法运算的结果。
+一个[`Size`](../../size)结构是减法运算的结果。
 
 ### 也可以看看
 

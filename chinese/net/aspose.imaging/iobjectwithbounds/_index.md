@@ -1,14 +1,14 @@
 ---
 title: IObjectWithBounds
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示一个有边界的对象
+description: 表示有边界的对象
 type: docs
 weight: 9570
 url: /zh/net/aspose.imaging/iobjectwithbounds/
 ---
 ## IObjectWithBounds interface
 
-表示一个有边界的对象。
+表示有边界的对象。
 
 ```csharp
 public interface IObjectWithBounds

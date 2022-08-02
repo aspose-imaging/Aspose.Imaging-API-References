@@ -1,14 +1,14 @@
 ---
 title: NumberOfPolygons
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置多边形的数量 对象中的多边形数量
+description: 获取或设置多边形的数量 对象中的多边形数
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfpolypolygon/numberofpolygons/
 ---
 ## WmfPolyPolygon.NumberOfPolygons property
 
-获取或设置多边形的数量。 对象中的多边形数量。
+获取或设置多边形的数量。 对象中的多边形数。
 
 ```csharp
 public int NumberOfPolygons { get; set; }

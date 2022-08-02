@@ -19,7 +19,7 @@ public enum EmfPlusBitmapDataType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | BitmapDataTypePixel | `0` | Задает растровое изображение с пиксельными данными. |
-| BitmapDataTypeCompressed | `1` | Задает образ со сжатыми данными. |
+| BitmapDataTypeCompressed | `1` | Задает изображение со сжатыми данными. |
 
 ### Смотрите также
 

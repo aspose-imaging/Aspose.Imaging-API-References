@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSolidBrushData
 second_title: Aspose.Imaging for .NET API 参考
-description: EmfPlusSolidBrushData 对象指定图形画笔的纯色
+description: EmfPlusSolidBrushData 对象为图形画笔指定纯色
 type: docs
 weight: 5770
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplussolidbrushdata/
 ---
 ## EmfPlusSolidBrushData class
 
-EmfPlusSolidBrushData 对象指定图形画笔的纯色。
+EmfPlusSolidBrushData 对象为图形画笔指定纯色。
 
 ```csharp
 public sealed class EmfPlusSolidBrushData : EmfPlusBaseBrushData

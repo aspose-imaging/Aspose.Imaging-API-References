@@ -1,14 +1,14 @@
 ---
 title: ExifData
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化ExifDataaspose.imaging.exif/exifdata类的新实例
+description: 初始化ExifDataaspose.imaging.exif/exifdata类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.exif/exifdata/exifdata/
 ---
 ## ExifData() {#constructor}
 
-初始化[`ExifData`](../../exifdata)类的新实例。
+初始化[`ExifData`](../../exifdata)类.
 
 ```csharp
 public ExifData()
@@ -24,7 +24,7 @@ public ExifData()
 
 ## ExifData(TiffDataType[]) {#constructor_1}
 
-使用数组中的数据初始化[`ExifData`](../../exifdata)类的新实例。
+初始化[`ExifData`](../../exifdata)具有来自 array. 的数据的类
 
 ```csharp
 public ExifData(TiffDataType[] exifdata)
@@ -45,7 +45,7 @@ public ExifData(TiffDataType[] exifdata)
 
 ## ExifData(TiffDataType[], TiffDataType[], TiffDataType[]) {#constructor_2}
 
-使用数组中的数据初始化[`ExifData`](../../exifdata)类的新实例。
+初始化[`ExifData`](../../exifdata)具有来自 array. 的数据的类
 
 ```csharp
 public ExifData(TiffDataType[] commonTags, TiffDataType[] exifTags, TiffDataType[] gpsTags)

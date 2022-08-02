@@ -41,7 +41,7 @@ public void SetColorMatrices(ColorMatrix newColorMatrix, ColorMatrix grayMatrix,
 | --- | --- | --- |
 | newColorMatrix | ColorMatrix | Матрица настройки цвета. |
 | grayMatrix | ColorMatrix | Матрица настройки оттенков серого. |
-| flags | ColorMatrixFlag | Элемент[`ColorMatrixFlag`](../../colormatrixflag), указывающий тип изображения и цвет, на который будет воздействовать матрицы настройки цвета и шкалы серого. |
+| flags | ColorMatrixFlag | Элемент[`ColorMatrixFlag`](../../colormatrixflag) который указывает тип изображения и цвет, на который будут влиять матрицы регулировки цвета и градаций серого. |
 
 ### Смотрите также
 
@@ -66,8 +66,8 @@ public void SetColorMatrices(ColorMatrix newColorMatrix, ColorMatrix grayMatrix,
 | --- | --- | --- |
 | newColorMatrix | ColorMatrix | Матрица настройки цвета. |
 | grayMatrix | ColorMatrix | Матрица настройки оттенков серого. |
-| mode | ColorMatrixFlag | Элемент[`ColorMatrixFlag`](../../colormatrixflag), указывающий тип изображения и цвет, на который будет воздействовать матрицы настройки цвета и шкалы серого. |
-| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype), указывающий категорию, для которой выполняется регулировка цвета и регулировка оттенков серого. установлены матрицы. |
+| mode | ColorMatrixFlag | Элемент[`ColorMatrixFlag`](../../colormatrixflag) который указывает тип изображения и цвет, на который будут влиять матрицы регулировки цвета и градаций серого. |
+| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype) который указывает категорию, для которой установлены матрицы настройки цвета и шкалы серого. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: EmfPlusBitmapData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект EmfPlusBitmapData определяет растровое изображение с данными пикселей.
+description: Объект EmfPlusBitmapData определяет растровое изображение с пиксельными данными.
 type: docs
 weight: 5180
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmapdata/
 ---
 ## EmfPlusBitmapData class
 
-Объект EmfPlusBitmapData определяет растровое изображение с данными пикселей.
+Объект EmfPlusBitmapData определяет растровое изображение с пиксельными данными.
 
 ```csharp
 public sealed class EmfPlusBitmapData : EmfPlusBaseBitmapData
@@ -24,8 +24,8 @@ public sealed class EmfPlusBitmapData : EmfPlusBaseBitmapData
 
 | Имя | Описание |
 | --- | --- |
-| [Colors](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmapdata/colors) { get; set; } | Получает или задает цвета палитры Цвета (переменная):Необязательный[`EmfPlusPalette`](../emfpluspalette)объект (раздел 2.2.2.28), который определяет палитру цветов, используемых в пиксельных данных. Это поле ДОЛЖНО присутствовать, если в поле PixelFormat объекта [`EmfPlusBitmap`](../emfplusbitmap)установлен флаг I. |
-| [PixelData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmapdata/pixeldata) { get; set; } | Получает или задает данные пикселей PixelData (переменная):массив байтов, определяющих данные пикселей. Размер и формат этих данных может быть вычислен из полей в объекте EmfPlusBitmap, включая формат пикселей из [`EmfPlusPixelFormat`](../../aspose.imaging.fileformats.emf.emfplus.consts/emfpluspixelformat)перечисление (раздел 2.1.1.25). |
+| [Colors](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmapdata/colors) { get; set; } | Получает или задает цвета палитры. Цвета (переменная): необязательный параметр.[`EmfPlusPalette`](../emfpluspalette) объект (раздел 2.2.2.28), который определяет палитру цветов, используемых в пиксельных данных. Это поле ДОЛЖНО присутствовать, если в поле PixelFormat файла the установлен флаг I.[`EmfPlusBitmap`](../emfplusbitmap) объект. |
+| [PixelData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmapdata/pixeldata) { get; set; } | Получает или задает данные пикселей. PixelData (переменная): массив байтов, определяющих данные пикселей. Размер и формат этих данных можно вычислить из полей в объекте EmfPlusBitmap, включая формат пикселей из the [`EmfPlusPixelFormat`](../../aspose.imaging.fileformats.emf.emfplus.consts/emfpluspixelformat) перечисление (раздел 2.1.1.25). |
 
 ### Смотрите также
 

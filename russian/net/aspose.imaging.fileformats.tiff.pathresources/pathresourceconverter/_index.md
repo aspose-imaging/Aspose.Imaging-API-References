@@ -1,14 +1,14 @@
 ---
 title: PathResourceConverter
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПреобразуетPathResource./pathresourceвGraphicsPath../aspose.imaging/graphicspathнаоборот.
+description: ПреобразуетPathResource./pathresource кGraphicsPath../aspose.imaging/graphicspath и наоборот.
 type: docs
 weight: 7840
 url: /ru/net/aspose.imaging.fileformats.tiff.pathresources/pathresourceconverter/
 ---
 ## PathResourceConverter class
 
-Преобразует[`PathResource`](../pathresource)в[`GraphicsPath`](../../aspose.imaging/graphicspath)наоборот.
+Преобразует[`PathResource`](../pathresource) к[`GraphicsPath`](../../aspose.imaging/graphicspath) и наоборот.
 
 ```csharp
 public static class PathResourceConverter
@@ -18,52 +18,29 @@ public static class PathResourceConverter
 
 | Имя | Описание |
 | --- | --- |
-| static [FromGraphicsPath](../../aspose.imaging.fileformats.tiff.pathresources/pathresourceconverter/fromgraphicspath)(GraphicsPath, Size) | Преобразует экземпляр[`GraphicsPath`](../../aspose.imaging/graphicspath)в ресурсы пути. |
-| static [ToGraphicsPath](../../aspose.imaging.fileformats.tiff.pathresources/pathresourceconverter/tographicspath)(PathResource[], Size) | Преобразует ресурсы пути в экземпляр[`GraphicsPath`](../../aspose.imaging/graphicspath). |
+| static [FromGraphicsPath](../../aspose.imaging.fileformats.tiff.pathresources/pathresourceconverter/fromgraphicspath)(GraphicsPath, Size) | Преобразует[`GraphicsPath`](../../aspose.imaging/graphicspath) экземпляр пути к ресурсам. |
+| static [ToGraphicsPath](../../aspose.imaging.fileformats.tiff.pathresources/pathresourceconverter/tographicspath)(PathResource[], Size) | Преобразует ресурсы пути в[`GraphicsPath`](../../aspose.imaging/graphicspath) экземпляр. |
 
 ### Примеры
 
-Создание графического пути из ресурсов пути в изображении TIFF.
+Создайте графический путь из ресурсов пути в изображении TIFF.
 
 ```csharp
 [C#]
 
-static void Main(string[] args)
+using (var image = (TiffImage)Image.Load("Bottle.tif"))
 {
-    using (var image = (TiffImage)Image.Load("Bottle.tif"))
-    {
-         // Создаем прямоугольную фигуру для GraphicsPath
-        var figure = new Figure();
-        figure.AddShape(CreateBezierShape(100f, 100f, 500f, 100f, 500f, 1000f, 100f, 1000f));
+    // Создаем GraphicsPath, используя PathResources из изображения TIFF
+    var graphicsPath = PathResourceConverter.ToGraphicsPath(image.ActiveFrame.PathResources.ToArray(), image.ActiveFrame.Size);
+    var graphics = new Graphics(image);
 
-         // Создаем GraphicsPath, используя наш Figure
-        var graphicsPath = new GraphicsPath();
-        graphicsPath.AddFigure(figure);
-
-         // Установить PathResources с помощью GraphicsPath
-        var pathResouze = PathResourceConverter.FromGraphicsPath(graphicsPath, image.Size);
-        image.ActiveFrame.PathResources = new List<PathResource>(pathResouze);
-
-         // Сохраняем изображение
-        image.Save("BottleWithRectanglePath.tif");
-    }
-}
-
-private static BezierShape CreateBezierShape(params float[] coordinates)
-{
-    var bezierPoints = CoordinatesToBezierPoints(coordinates).ToArray();
-    return new BezierShape(bezierPoints, true);
-}
-
-private static IEnumerable<PointF> CoordinatesToBezierPoints(float[] coordinates)
-{
-    for (var coordinateIndex = 0; coordinateIndex < coordinates.Length; coordinateIndex += 2)
-        for (var index = 0; index < 3; index++)
-            yield return new PointF(coordinates[coordinateIndex], coordinates[coordinateIndex + 1]);
+    // Рисуем красную линию и сохраняем изображение
+    graphics.DrawPath(new Pen(Color.Red, 10), graphicsPath);
+    image.Save("BottleWithRedBorder.tif");
 }
 ```
 
-Создание ресурсов пути с помощью графического пути.
+Создайте ресурсы пути, используя графический путь.
 
 ```csharp
 [C#]
@@ -72,19 +49,19 @@ static void Main(string[] args)
 {
     using (var image = (TiffImage)Image.Load("Bottle.tif"))
     {
-         // Создаем прямоугольную фигуру для GraphicsPath
+        // Создаем прямоугольную фигуру для GraphicsPath
         var figure = new Figure();
         figure.AddShape(CreateBezierShape(100f, 100f, 500f, 100f, 500f, 1000f, 100f, 1000f));
 
-         // Создаем GraphicsPath, используя наш Figure
+        // Создаем GraphicsPath, используя нашу фигуру
         var graphicsPath = new GraphicsPath();
         graphicsPath.AddFigure(figure);
 
-         // Установить PathResources с помощью GraphicsPath
+        // Установить PathResources с помощью GraphicsPath
         var pathResouze = PathResourceConverter.FromGraphicsPath(graphicsPath, image.Size);
         image.ActiveFrame.PathResources = new List<PathResource>(pathResouze);
 
-         // Сохраняем изображение
+        // Сохраняем изображение
         image.Save("BottleWithRectanglePath.tif");
     }
 }

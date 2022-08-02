@@ -1,14 +1,14 @@
 ---
 title: GPSImgDirection
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置图像捕获时的 GPS 方向
+description: 获取或设置图像拍摄时的 GPS 方向
 type: docs
 weight: 500
 url: /zh/net/aspose.imaging.exif/exifdata/gpsimgdirection/
 ---
 ## ExifData.GPSImgDirection property
 
-获取或设置图像捕获时的 GPS 方向。
+获取或设置图像拍摄时的 GPS 方向。
 
 ```csharp
 public TiffRational GPSImgDirection { get; set; }
@@ -16,7 +16,7 @@ public TiffRational GPSImgDirection { get; set; }
 
 ### 适当的价值
 
-捕获图像时的 GPS 方向。
+图像拍摄时的 GPS 方向。
 
 ### 也可以看看
 

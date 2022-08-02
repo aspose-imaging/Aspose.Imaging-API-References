@@ -16,7 +16,7 @@ public TiffRational DigitalZoomRatio { get; set; }
 
 ### 适当的价值
 
-数字缩放比例。
+数码变焦倍率。
 
 ### 也可以看看
 

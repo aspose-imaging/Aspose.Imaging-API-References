@@ -1,14 +1,14 @@
 ---
 title: InitialFillRuleRecord
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Класс записи правила начального заполнения
+description: Начальный класс записи правила заполнения
 type: docs
 weight: 2310
 url: /ru/net/aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord/
 ---
 ## InitialFillRuleRecord class
 
-Класс записи правила начального заполнения
+Начальный класс записи правила заполнения
 
 ```csharp
 public class InitialFillRuleRecord : VectorPathRecord
@@ -18,15 +18,15 @@ public class InitialFillRuleRecord : VectorPathRecord
 
 | Имя | Описание |
 | --- | --- |
-| [InitialFillRuleRecord](initialfillrulerecord#constructor)() | Инициализирует новый экземпляр класса[`InitialFillRuleRecord`](../initialfillrulerecord). |
-| [InitialFillRuleRecord](initialfillrulerecord#constructor_1)(bool) | Инициализирует новый экземпляр класса[`InitialFillRuleRecord`](../initialfillrulerecord). |
-| [InitialFillRuleRecord](initialfillrulerecord#constructor_2)(byte[]) | Инициализирует новый экземпляр класса[`InitialFillRuleRecord`](../initialfillrulerecord). |
+| [InitialFillRuleRecord](initialfillrulerecord#constructor)() | Инициализирует новый экземпляр[`InitialFillRuleRecord`](../initialfillrulerecord) класс. |
+| [InitialFillRuleRecord](initialfillrulerecord#constructor_1)(bool) | Инициализирует новый экземпляр[`InitialFillRuleRecord`](../initialfillrulerecord) класс. |
+| [InitialFillRuleRecord](initialfillrulerecord#constructor_2)(byte[]) | Инициализирует новый экземпляр[`InitialFillRuleRecord`](../initialfillrulerecord) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [IsFillStartsWithAllPixels](../../aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord/isfillstartswithallpixels) { get; set; } | Получает или задает значение, указывающее, начинается ли заполнение со всех пикселей. |
+| [IsFillStartsWithAllPixels](../../aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord/isfillstartswithallpixels) { get; set; } | Получает или задает значение, указывающее, начинается ли заливка со всех пикселей. |
 | override [Type](../../aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord/type) { get; } | Получает тип. |
 
 ### Смотрите также

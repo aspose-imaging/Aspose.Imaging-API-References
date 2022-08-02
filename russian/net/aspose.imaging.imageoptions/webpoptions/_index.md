@@ -3,7 +3,7 @@ title: WebPOptions
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Параметры изображения WebP
 type: docs
-weight: 10290
+weight: 10280
 url: /ru/net/aspose.imaging.imageoptions/webpoptions/
 ---
 ## WebPOptions class
@@ -26,16 +26,16 @@ public class WebPOptions : ImageOptionsBase
 | --- | --- |
 | [AnimBackgroundColor](../../aspose.imaging.imageoptions/webpoptions/animbackgroundcolor) { get; set; } | Получает или задает цвет фона анимации. |
 | [AnimLoopCount](../../aspose.imaging.imageoptions/webpoptions/animloopcount) { get; set; } | Получает или задает количество циклов анимации. |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Получает или устанавливает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Получает или задает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | Получает или задает значение, указывающее, является ли [полный кадр]. |
-| [Lossless](../../aspose.imaging.imageoptions/webpoptions/lossless) { get; set; } | Получает или задает значение, указывающее, является ли этот[`WebPOptions`](../webpoptions)без потерь. |
+| [Lossless](../../aspose.imaging.imageoptions/webpoptions/lossless) { get; set; } | Получает или задает значение, указывающее, является ли это[`WebPOptions`](../webpoptions) без потерь. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | Многостраничные параметры |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Получает или задает цветовую палитру. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Получает или задает обработчик события выполнения. |
 | [Quality](../../aspose.imaging.imageoptions/webpoptions/quality) { get; set; } | Получает или устанавливает качество. |
 | virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Получает или задает параметры разрешения. |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Получает или задает источник для создания изображения. |
+| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Получает или задает источник для создания изображения в. |
 | [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Получает или задает параметры векторной растеризации. |
 | virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata) { get; set; } | Получает или задает контейнер метаданных XMP. |
 
@@ -53,31 +53,37 @@ public class WebPOptions : ImageOptionsBase
 ```csharp
 [C#]
 
-string dir = "C:\\aspose.imaging\\net\\misc\\ImagingReleaseQATester\\Tests\\testdata\\2548";
-string inputFilePath = System.IO.Path.Combine(dir, "Multipage.cdr");
-string outputFilePath = System.IO.Path.Combine(dir, "Multipage.cdr.webp");
+string dir = "c:\\temp\\";
 
-Aspose.Imaging.ImageOptionsBase exportOptions = new Aspose.Imaging.ImageOptions.WebPOptions();
-
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFilePath))
+// Загружаем GIF-анимацию
+using (Aspose.Imaging.Image image = new Aspose.Imaging.Image.Load(dir + "test.gif"))
 {
-    exportOptions.MultiPageOptions = null;
+    // для сжатия без потерь увеличение параметра качества увеличивает качество сжатия и уменьшает размер файла
+    image.Save(
+        dir + "output_lossless_20.webp",
+        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = true, Quality = 20 }); // размер файла: 42 КБ
 
-     // Экспортировать только первые две страницы. Эти страницы будут представлены в виде анимированных кадров в выводе WEBP.
-    Aspose.Imaging.IMultipageImage multipageImage = image as Aspose.Imaging.IMultipageImage;
-    if (multipageImage != null && (multipageImage.Pages != null && multipageImage.PageCount > 2))
-    {
-        exportOptions.MultiPageOptions = new Aspose.Imaging.ImageOptions.MultiPageOptions(new Aspose.Imaging.IntRange(0, 2));
-    }
+    image.Save(
+        dir + "output_lossless_50.webp",
+        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = true, Quality = 50 }); // размер файла: 41 КБ
 
-    if (image is Aspose.Imaging.VectorImage)
-    {
-        exportOptions.VectorRasterizationOptions = (Aspose.Imaging.ImageOptions.VectorRasterizationOptions)image.GetDefaultOptions(new object[] { Aspose.Imaging.Color.White, image.Width, image.Height });
-        exportOptions.VectorRasterizationOptions.TextRenderingHint = Aspose.Imaging.TextRenderingHint.SingleBitPerPixel;
-        exportOptions.VectorRasterizationOptions.SmoothingMode = Aspose.Imaging.SmoothingMode.None;
-    }
+    image.Save(
+        dir + "output_lossless_80.webp",
+        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = true, Quality = 80 }); // размер файла: 40 КБ
 
-    image.Save(outputFilePath, exportOptions);
+
+    // для сжатия с потерями увеличение значения Quality повышает качество изображения и увеличивает размер файла
+    image.Save(
+        dir + "output_lossy_20.webp",
+        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = false, Quality = 20 }); // размер файла: 24 КБ
+
+    image.Save(
+        dir + "output_lossy_50.webp",
+        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = false, Quality = 50 }); // размер файла: 36 КБ
+
+    image.Save(
+        dir + "output_lossy_80.webp",
+        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = false, Quality = 80 }); // размер файла: 51 КБ
 }
 ```
 
@@ -96,7 +102,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFilePath))
 {
     exportOptions.MultiPageOptions = null;
 
-     // Экспортировать только первые две страницы. Эти страницы будут представлены в виде анимированных кадров в выводе WEBP.
+    // Экспортировать только первые две страницы. Эти страницы будут представлены в виде анимированных кадров в выходном WEBP.
     Aspose.Imaging.IMultipageImage multipageImage = image as Aspose.Imaging.IMultipageImage;
     if (multipageImage != null && (multipageImage.Pages != null && multipageImage.PageCount > 2))
     {

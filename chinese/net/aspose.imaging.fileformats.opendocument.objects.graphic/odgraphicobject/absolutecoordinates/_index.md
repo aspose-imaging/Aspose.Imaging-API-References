@@ -1,14 +1,14 @@
 ---
 title: AbsoluteCoordinates
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值指示是否绝对坐标
+description: 获取或设置一个值指示是否绝对坐标.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates/
 ---
 ## OdGraphicObject.AbsoluteCoordinates property
 
-获取或设置一个值，指示是否[绝对坐标]。
+获取或设置一个值，指示是否[绝对坐标].
 
 ```csharp
 public bool AbsoluteCoordinates { get; set; }
@@ -16,7 +16,7 @@ public bool AbsoluteCoordinates { get; set; }
 
 ### 适当的价值
 
-` true` if [绝对坐标];否则，` false` 。
+`真的` if [绝对坐标];否则，`错误的` .
 
 ### 也可以看看
 

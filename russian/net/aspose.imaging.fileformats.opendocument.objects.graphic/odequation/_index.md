@@ -1,14 +1,14 @@
 ---
 title: OdEquation
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Уравнение открытого документа
+description: Открытое уравнение документа
 type: docs
 weight: 7070
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odequation/
 ---
 ## OdEquation class
 
-Уравнение открытого документа
+Открытое уравнение документа
 
 ```csharp
 public class OdEquation : OdGraphicObject
@@ -18,13 +18,13 @@ public class OdEquation : OdGraphicObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdEquation](odequation)(OdObject) | Инициализирует новый экземпляр класса[`OdEquation`](../odequation). |
+| [OdEquation](odequation)(OdObject) | Инициализирует новый экземпляр[`OdEquation`](../odequation) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
 | [Formula](../../aspose.imaging.fileformats.opendocument.objects.graphic/odequation/formula) { get; set; } | Получает или задает формулу. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [Name](../../aspose.imaging.fileformats.opendocument.objects.graphic/odequation/name) { get; set; } | Получает или задает имя. |

@@ -1,14 +1,14 @@
 ---
 title: EmfSetPixelV
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfSetPixelVaspose.imaging.fileformats.emf.emf.records/emfsetpixelv类的新实例
+description: 初始化EmfSetPixelVaspose.imaging.fileformats.emf.emf.records/emfsetpixelv类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetpixelv/emfsetpixelv/
 ---
 ## EmfSetPixelV(EmfRecord) {#constructor_1}
 
-初始化[`EmfSetPixelV`](../../emfsetpixelv)类的新实例。
+初始化[`EmfSetPixelV`](../../emfsetpixelv)类.
 
 ```csharp
 public EmfSetPixelV(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfSetPixelV(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfSetPixelV(EmfRecord source)
 
 ## EmfSetPixelV() {#constructor}
 
-初始化[`EmfSetPixelV`](../../emfsetpixelv)类的新实例。
+初始化[`EmfSetPixelV`](../../emfsetpixelv)类.
 
 ```csharp
 public EmfSetPixelV()

@@ -18,7 +18,7 @@ public interface IIndexedColorConverter
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FillIndexedtoIndexedMap](../../aspose.imaging/iindexedcolorconverter/fillindexedtoindexedmap)(byte[], PixelDataFormat, PixelDataFormat) | 填充索引到索引的图像转换映射。 |
+| [FillIndexedtoIndexedMap](../../aspose.imaging/iindexedcolorconverter/fillindexedtoindexedmap)(byte[], PixelDataFormat, PixelDataFormat) | 填充索引到索引图像的转换映射。 |
 
 ### 也可以看看
 

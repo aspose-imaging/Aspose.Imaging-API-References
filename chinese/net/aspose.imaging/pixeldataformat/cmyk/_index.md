@@ -1,14 +1,14 @@
 ---
 title: Cmyk
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取PixelDataFormataspose.imaging/pixeldataformat定义为每像素 32 位青色品红色黄色各 8 位和黑色
+description: 获取PixelDataFormataspose.imaging/pixeldataformat定义为每像素 32 位青色品红色黄色和黑色各 8 位
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/pixeldataformat/cmyk/
 ---
 ## PixelDataFormat.Cmyk property
 
-获取[`PixelDataFormat`](../../pixeldataformat)定义为每像素 32 位，青色、品红色、黄色各 8 位和黑色。
+获取[`PixelDataFormat`](../../pixeldataformat)定义为每像素 32 位，青色、品红色、黄色和黑色各 8 位。
 
 ```csharp
 public static PixelDataFormat Cmyk { get; }
@@ -16,7 +16,7 @@ public static PixelDataFormat Cmyk { get; }
 
 ### 适当的价值
 
-[`PixelDataFormat`](../../pixeldataformat)定义为 32 位每个像素，青色、品红色、黄色和黑色各有 8 位。
+的[`PixelDataFormat`](../../pixeldataformat)定义为每像素 32 位，青色、品红色、黄色和黑色各 8 位。
 
 ### 也可以看看
 

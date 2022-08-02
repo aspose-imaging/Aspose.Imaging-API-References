@@ -1,14 +1,14 @@
 ---
 title: StringAlignment
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数指定如何在布局矩形中水平对齐字符串  这个值必须在 StringAlignment 枚举中定义第 2.1.1.29 节
+description: 获取或设置一个 32 位无符号整数指定如何在布局矩形中水平对齐字符串 必须在 StringAlignment 枚举第 2.1.1.29 节中定义此值
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/stringalignment/
 ---
 ## EmfPlusStringFormat.StringAlignment property
 
-获取或设置一个 32 位无符号整数，指定如何在布局矩形中水平对齐字符串 。 这个值必须在 StringAlignment 枚举中定义（第 2.1.1.29 节）。
+获取或设置一个 32 位无符号整数，指定如何在布局矩形中水平对齐字符串。 必须在 StringAlignment 枚举（第 2.1.1.29 节）中定义此值。
 
 ```csharp
 public EmfPlusStringAlignment StringAlignment { get; set; }

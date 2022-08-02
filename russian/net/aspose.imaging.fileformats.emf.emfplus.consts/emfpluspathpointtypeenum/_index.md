@@ -24,7 +24,7 @@ public enum EmfPlusPathPointTypeEnum
 
 ### Примечания
 
-Типы точек пути графики определяются[`EmfPlusPathPointType`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtype)объекты (раздел 2.2.2.31).
+Типы точек пути графики определяются[`EmfPlusPathPointType`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtype) объекты (раздел 2.2.2.31).
 
 ### Смотрите также
 

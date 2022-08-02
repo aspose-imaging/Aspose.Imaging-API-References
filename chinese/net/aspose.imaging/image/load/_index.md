@@ -16,8 +16,8 @@ public static Image Load(string filePath, LoadOptions loadOptions)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| filePath | String | 加载图像的文件路径。 |
-| loadOptions | LoadOptions | 加载选项。 |
+| filePath | String | 从中加载图像的文件路径。 |
+| loadOptions | LoadOptions | 负载选项。 |
 
 ### 返回值
 
@@ -50,16 +50,15 @@ public static Image Load(string filePath)
 
 ### 例子
 
-此示例演示使用指定的文件路径将现有图像文件加载到 Aspose.Imaging.Image 的实例
+此示例演示使用指定的文件路径将现有图像文件加载到 Aspose.Imaging.Image 的实例中
 
 ```csharp
 [C#]
 
-    //创建Image实例并使用磁盘location
-中的现有图像文件对其进行初始化
+//创建图像实例并使用磁盘位置的现有图像文件对其进行初始化
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"C:\temp\sample.bmp"))
 {
-        //做一些图像处理
+    //做一些图像处理
 }
 ```
 
@@ -82,7 +81,7 @@ public static Image Load(Stream stream, LoadOptions loadOptions)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 要从中加载图像的流。 |
-| loadOptions | LoadOptions | 加载选项。 |
+| loadOptions | LoadOptions | 负载选项。 |
 
 ### 返回值
 
@@ -120,14 +119,13 @@ public static Image Load(Stream stream)
 ```csharp
 [C#]
 
-    //创建一个FileStream
-的实例
+//创建一个FileStream实例
 using (System.IO.FileStream stream = new System.IO.FileStream(@"C:\temp\sample.bmp", System.IO.FileMode.Open))
 {
-    //创建Image类的实例，通过FileStream对象调用Load方法加载已有文件
+    //创建Image类的实例，通过调用Load方法通过FileStream对象加载已有文件
     using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(stream))
     {
-            //做一些图像处理.
+        //做一些图像处理。
     }
 }
 ```

@@ -1,14 +1,14 @@
 ---
 title: CdrFont
 second_title: Справочник по Aspose.Imaging for .NET API
-description: шрифт cdr
+description: cdr Font
 type: docs
 weight: 1590
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrfont/
 ---
 ## CdrFont class
 
-шрифт cdr
+cdr Font
 
 ```csharp
 public class CdrFont : CdrDictionaryItem

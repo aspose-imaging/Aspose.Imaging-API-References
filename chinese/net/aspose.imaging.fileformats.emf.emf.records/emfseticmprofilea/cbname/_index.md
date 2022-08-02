@@ -1,14 +1,14 @@
 ---
 title: CbName
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数它指定所需颜色配置文件的 ASCII 名称中的字节数
+description: 获取或设置一个 32 位无符号整数指定所需颜色配置文件的 ASCII 名称中的字节数
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/cbname/
 ---
 ## EmfSetIcmProfileA.CbName property
 
-获取或设置一个 32 位无符号整数，它指定所需颜色配置文件的 ASCII 名称中的字节数。
+获取或设置一个 32 位无符号整数，指定所需颜色配置文件的 ASCII 名称中的字节数。
 
 ```csharp
 public int CbName { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает цвет этогоPenaspose.imaging/pen.
+description: Получает или устанавливает цвет этогоPenaspose.imaging/pen .
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging/pen/color/
 ---
 ## Pen.Color property
 
-Получает или задает цвет этого[`Pen`](../../pen).
+Получает или устанавливает цвет этого[`Pen`](../../pen) .
 
 ```csharp
 public Color Color { get; set; }
@@ -16,13 +16,13 @@ public Color Color { get; set; }
 
 ### Стоимость имущества
 
-A`Color`структура, представляющая цвет этого[`Pen`](../../pen).
+А`Color` структура, которая представляет цвет этого[`Pen`](../../pen).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Свойство`Color`устанавливается на неизменном[`Pen`](../../pen), например возвращаемые классом[`Pen`](../../pen). |
+| ArgumentException | `Color` свойство установлено на неизменном[`Pen`](../../pen) такие как возвращенные[`Pen`](../../pen) учебный класс. |
 
 ### Смотрите также
 

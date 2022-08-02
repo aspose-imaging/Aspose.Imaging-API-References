@@ -18,15 +18,15 @@ public sealed class EmfGlsRecord : EmfOpenGlRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfGlsRecord](emfglsrecord)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfGlsRecord`](../emfglsrecord). |
+| [EmfGlsRecord](emfglsrecord)(EmfRecord) | Инициализирует новый экземпляр[`EmfGlsRecord`](../emfglsrecord) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [CbData](../../aspose.imaging.fileformats.emf.emf.records/emfglsrecord/cbdata) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер поля данных в байтах. Если это значение равно нулю, к этой записи не прикрепляются никакие данные. |
+| [CbData](../../aspose.imaging.fileformats.emf.emf.records/emfglsrecord/cbdata) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер в байтах поля данных. Если это значение равно нулю, к этой записи не прикрепляются никакие данные. |
 | [Data](../../aspose.imaging.fileformats.emf.emf.records/emfglsrecord/data) { get; set; } | Получает или задает необязательный массив байтов длины cbData, указывающий данные для функции OpenGL. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

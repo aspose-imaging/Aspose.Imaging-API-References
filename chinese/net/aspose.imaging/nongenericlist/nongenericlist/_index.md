@@ -1,14 +1,14 @@
 ---
 title: NonGenericList
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化NonGenericListaspose.imaging/nongenericlist类的新实例
+description: 初始化NonGenericListaspose.imaging/nongenericlist类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/nongenericlist/nongenericlist/
 ---
 ## NonGenericList constructor
 
-初始化[`NonGenericList`](../../nongenericlist)类的新实例。
+初始化[`NonGenericList`](../../nongenericlist)类.
 
 ```csharp
 public NonGenericList(IList list)
@@ -16,7 +16,7 @@ public NonGenericList(IList list)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| list | IList | 列表 - 对象容器。 |
+| list | IList | 列表 - 对象的容器。 |
 
 ### 也可以看看
 

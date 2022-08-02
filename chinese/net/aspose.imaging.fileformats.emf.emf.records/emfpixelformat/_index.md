@@ -18,7 +18,7 @@ public sealed class EmfPixelFormat : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfPixelFormat](emfpixelformat)(EmfRecord) | 初始化[`EmfPixelFormat`](../emfpixelformat)类的新实例。 |
+| [EmfPixelFormat](emfpixelformat)(EmfRecord) | 初始化[`EmfPixelFormat`](../emfpixelformat)类. |
 
 ## 特性
 

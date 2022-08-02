@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.FileFormats.Gif
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пространство имен обрабатывает обработку файлов формата Gif.
+description: Пространство имен обрабатывает формат файла Gif.
 type: docs
 weight: 440
 url: /ru/net/aspose.imaging.fileformats.gif/
 ---
-Пространство имен обрабатывает обработку файлов формата Gif.
+Пространство имен обрабатывает формат файла Gif.
 
 ## Классы
 

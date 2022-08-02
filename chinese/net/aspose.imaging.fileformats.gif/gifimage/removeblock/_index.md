@@ -16,11 +16,11 @@ public void RemoveBlock(IGifBlock block)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| block | IGifBlock | 要移除的方块。 |
+| block | IGifBlock | 要删除的块。 |
 
 ### 评论
 
-注意:如果您不将块添加到其他 GifImage，请不要忘记处理块。
+注意：如果您不将它添加到其他 GifImage，请不要忘记 Dispose 块。
 
 ### 也可以看看
 

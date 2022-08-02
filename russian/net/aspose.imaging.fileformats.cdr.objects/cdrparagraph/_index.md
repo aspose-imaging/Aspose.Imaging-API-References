@@ -1,14 +1,14 @@
 ---
 title: CdrParagraph
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пункт cdr
+description: CDR Параграф
 type: docs
 weight: 1680
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrparagraph/
 ---
 ## CdrParagraph class
 
-Пункт cdr
+CDR Параграф
 
 ```csharp
 public class CdrParagraph : CdrGraphicObject

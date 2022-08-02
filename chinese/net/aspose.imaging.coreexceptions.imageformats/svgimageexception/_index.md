@@ -18,8 +18,8 @@ public class SvgImageException : Exception
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SvgImageException](svgimageexception#constructor)(string) | 初始化[`SvgImageException`](../svgimageexception)类的新实例。 |
-| [SvgImageException](svgimageexception#constructor_1)(string, Exception) | 初始化[`SvgImageException`](../svgimageexception)类的新实例。 |
+| [SvgImageException](svgimageexception#constructor)(string) | 初始化[`SvgImageException`](../svgimageexception)类. |
+| [SvgImageException](svgimageexception#constructor_1)(string, Exception) | 初始化[`SvgImageException`](../svgimageexception)类. |
 
 ### 也可以看看
 

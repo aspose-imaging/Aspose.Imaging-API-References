@@ -29,7 +29,7 @@ public void ExcludeClip(Rectangle rect)
 
 ## ExcludeClip(Region) {#excludeclip_1}
 
-Обновляет область отсечения этой графики, чтобы исключить область, указанную в области.
+Обновляет область отсечения этой графики, чтобы исключить область, указанную в Region.
 
 ```csharp
 public void ExcludeClip(Region region)
@@ -37,7 +37,7 @@ public void ExcludeClip(Region region)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| region | Region | Регион, указывающий регион, исключаемый из области клипа. |
+| region | Region | Регион, указывающий регион, который следует исключить из области отсечения. |
 
 ### Смотрите также
 

@@ -18,15 +18,15 @@ public sealed class EmfRegionData : EmfObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfRegionData](emfregiondata#constructor)() | 初始化[`EmfRegionData`](../emfregiondata)类的新实例。 |
-| [EmfRegionData](emfregiondata#constructor_1)(Rectangle) | 初始化[`EmfRegionData`](../emfregiondata)类的新实例。 |
+| [EmfRegionData](emfregiondata#constructor)() | 初始化[`EmfRegionData`](../emfregiondata)类. |
+| [EmfRegionData](emfregiondata#constructor_1)(Rectangle) | 初始化[`EmfRegionData`](../emfregiondata)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Data](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondata/data) { get; set; } | 获取或设置 WMF RectL 对象数组（[MS-WMF] 第 2.2.2.19 节）；对象是 合并以创建区域 |
-| [RegionDataHeader](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondata/regiondataheader) { get; set; } | 获取或设置描述以下数据的 256 位 RegionDataHeader 对象。 |
+| [Data](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondata/data) { get; set; } | 获取或设置 WMF RectL 对象数组（[MS-WMF] 第 2.2.2.19 节）；对象被 合并以创建区域 |
+| [RegionDataHeader](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondata/regiondataheader) { get; set; } | 获取或设置一个 256 位 RegionDataHeader 对象，描述以下数据。 |
 
 ### 也可以看看
 

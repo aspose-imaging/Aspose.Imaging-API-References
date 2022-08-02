@@ -16,14 +16,14 @@ public override void AddValue(string key, string value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| key | String | 以附加值标识的键的字符串表示形式。 |
+| key | String | 用附加值标识的键的字符串表示形式。 |
 | value | String | 字符串值。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | key;DynamicMedia 属性不能为空 |
+| ArgumentNullException | 键；DynamicMedia 属性不能为空 |
 
 ### 也可以看看
 

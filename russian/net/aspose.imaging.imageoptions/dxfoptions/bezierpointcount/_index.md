@@ -1,14 +1,14 @@
 ---
 title: BezierPointCount
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Сколько точек генерировать при преобразовании кривых Безье в полилинии минимум 4. Используется когдаиоба /// установлены в true
+description: Сколько точек генерировать при преобразовании кривых Безье в полилинии минимум 4. Используется когда а также оба /// установлены вистинный
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.imageoptions/dxfoptions/bezierpointcount/
 ---
 ## DxfOptions.BezierPointCount property
 
-Сколько точек генерировать при преобразовании кривых Безье в полилинии, минимум 4. Используется, когдаиоба /// установлены в` true`
+Сколько точек генерировать при преобразовании кривых Безье в полилинии, минимум 4. Используется, когда а также оба /// установлены в`истинный`
 
 ```csharp
 public byte BezierPointCount { get; set; }

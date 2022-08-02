@@ -1,14 +1,14 @@
 ---
 title: GraphicsVersion
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取 GraphicsVersion12 位操作系统图形的版本这个值必须定义在 EmfPlusGraphicsVersionaspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion枚举
+description: 获取 GraphicsVersion12 位操作系统图形的版本这个值必须在 中定义EmfPlusGraphicsVersionaspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion枚举
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion/graphicsversion/
 ---
 ## EmfPlusGraphicsVersion.GraphicsVersion property
 
-获取 GraphicsVersion（12 位）:操作系统图形的版本。这个值必须定义在 [`EmfPlusGraphicsVersion`](../../emfplusgraphicsversion)枚举
+获取 GraphicsVersion（12 位）：操作系统图形的版本。这个值必须在 中定义[`EmfPlusGraphicsVersion`](../../emfplusgraphicsversion)枚举
 
 ```csharp
 public EmfPlusGraphicsVersionEnum GraphicsVersion { get; set; }

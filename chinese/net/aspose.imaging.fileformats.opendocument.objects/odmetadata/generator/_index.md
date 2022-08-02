@@ -16,7 +16,7 @@ public string Generator { get; set; }
 
 ### 适当的价值
 
-生成器。
+生成器.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: XmpDate
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化XmpDateaspose.imaging.xmp.types.basic/xmpdate类的新实例
+description: 初始化XmpDateaspose.imaging.xmp.types.basic/xmpdate类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp.types.basic/xmpdate/xmpdate/
 ---
 ## XmpDate(DateTime) {#constructor}
 
-初始化[`XmpDate`](../../xmpdate)类的新实例。
+初始化[`XmpDate`](../../xmpdate)类.
 
 ```csharp
 public XmpDate(DateTime dateTime)
@@ -28,7 +28,7 @@ public XmpDate(DateTime dateTime)
 
 ## XmpDate(string) {#constructor_1}
 
-初始化[`XmpDate`](../../xmpdate)类的新实例。
+初始化[`XmpDate`](../../xmpdate)类.
 
 ```csharp
 public XmpDate(string dateString)
@@ -36,7 +36,7 @@ public XmpDate(string dateString)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dateString | String | 日期的字符串表示。 |
+| dateString | String | 日期的字符串表示形式。 |
 
 ### 例外
 

@@ -1,14 +1,14 @@
 ---
 title: CenterDrawing
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置是否居中绘制的值
+description: 获取或设置一个值是否居中绘图
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.imageoptions/vectorrasterizationoptions/centerdrawing/
 ---
 ## VectorRasterizationOptions.CenterDrawing property
 
-获取或设置是否居中绘制的值。
+获取或设置一个值是否居中绘图。
 
 ```csharp
 public bool CenterDrawing { get; set; }

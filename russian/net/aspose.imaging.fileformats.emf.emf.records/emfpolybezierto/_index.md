@@ -18,21 +18,21 @@ public sealed class EmfPolyBezierTo : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPolyBezierTo](emfpolybezierto#constructor)() | Инициализирует новый экземпляр класса[`EmfPolyBezierTo`](../emfpolybezierto). |
-| [EmfPolyBezierTo](emfpolybezierto#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfPolyBezierTo`](../emfpolybezierto). |
+| [EmfPolyBezierTo](emfpolybezierto#constructor)() | Инициализирует новый экземпляр[`EmfPolyBezierTo`](../emfpolybezierto) класс. |
+| [EmfPolyBezierTo](emfpolybezierto#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfPolyBezierTo`](../emfpolybezierto) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolybezierto/apoints) { get; set; } | Получает или задает массив длины счетчика объектов WMF PointL ([MS-WMF], раздел 2.2.2.15) который указывает конечные точки и элементы управления точек кривых Безье в логических единицах. |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolybezierto/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF ([MS-WMF], раздел 2.2.2.19), который определяет ограничивающий прямоугольник в единицы устройства. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolybezierto/apoints) { get; set; } | Получает или задает массив длин объектов WMF PointL ([MS-WMF], раздел 2.2.2.15) , который определяет конечные точки и контрольные точки кривых Безье в логических единицах. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolybezierto/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF ([MS-WMF], раздел 2.2.2.19), который указывает ограничивающий прямоугольник в единицах измерения устройства. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Примечания
 
-Кубические кривые Безье определяются с помощью конечных точек и контрольных точек, заданных aPoints поле. Первая кривая проводится от первой точки до четвертой, используя вторую и третью точки в качестве контрольных точек. Каждая последующая кривая в последовательности требует еще ровно три точки: конечная точка предыдущей кривой используется как начальная точка, следующие две точки в последовательности являются контрольными точками , а третья - конечная точка. Кубические кривые Безье СЛЕДУЕТ рисовать текущим пером
+Кубические кривые Безье определяются с использованием конечных и контрольных точек, указанных в поле aPoints . Первая кривая строится от первой точки до четвертой, используя вторую и третью точки в качестве контрольных точек. Каждой последующей кривой в последовательности требуется ровно три точки: конечная точка предыдущей кривой используется в качестве начальной точки, следующие две точки в последовательности являются контрольными точками, а третья является конечной точкой. Кубические кривые Безье ДОЛЖНЫ быть нарисованы с использованием текущего pen
 
 ### Смотрите также
 

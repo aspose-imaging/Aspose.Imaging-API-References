@@ -1,14 +1,14 @@
 ---
 title: OdNoFillPath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Маркер незаполненного пути
+description: Маркер незаполненного контура
 type: docs
 weight: 7180
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odnofillpath/
 ---
 ## OdNoFillPath class
 
-Маркер незаполненного пути
+Маркер незаполненного контура
 
 ```csharp
 public class OdNoFillPath : OdGraphicObject
@@ -18,13 +18,13 @@ public class OdNoFillPath : OdGraphicObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdNoFillPath](odnofillpath)(OdObject) | Инициализирует новый экземпляр класса[`OdNoFillPath`](../odnofillpath). |
+| [OdNoFillPath](odnofillpath)(OdObject) | Инициализирует новый экземпляр[`OdNoFillPath`](../odnofillpath) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Получает родительский объект. |
 

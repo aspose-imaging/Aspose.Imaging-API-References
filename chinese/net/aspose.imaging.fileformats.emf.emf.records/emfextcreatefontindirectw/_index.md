@@ -18,15 +18,15 @@ public sealed class EmfExtCreateFontIndirectW : EmfObjectCreationRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfExtCreateFontIndirectW](emfextcreatefontindirectw#constructor)() | 初始化[`EmfExtCreateFontIndirectW`](../emfextcreatefontindirectw)类的新实例。 |
-| [EmfExtCreateFontIndirectW](emfextcreatefontindirectw#constructor_1)(EmfRecord) | 初始化[`EmfExtCreateFontIndirectW`](../emfextcreatefontindirectw)类的新实例。 |
+| [EmfExtCreateFontIndirectW](emfextcreatefontindirectw#constructor)() | 初始化[`EmfExtCreateFontIndirectW`](../emfextcreatefontindirectw)类. |
+| [EmfExtCreateFontIndirectW](emfextcreatefontindirectw#constructor_1)(EmfRecord) | 初始化[`EmfExtCreateFontIndirectW`](../emfextcreatefontindirectw)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Elw](../../aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw/elw) { get; set; } | 获取或设置指定逻辑字体的 LogFontExDv 对象（第 2.2.15 节）。一个 LogFont 对象 2.2.13 可能会出现。[90] 在此字段中确定 对象类型的过程如下所述。 |
-| [IhFonts](../../aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw/ihfonts) { get; set; } | 获取或设置一个 32 位无符号整数，指定 EMF 对象表中逻辑字体对象 的索引（第 3.1.1.1 节）。必须保存该索引，以便该对象可以被 重用或修改。 |
+| [Elw](../../aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw/elw) { get; set; } | 获取或设置一个 LogFontExDv 对象（第 2.2.15 节），它指定逻辑字体。 A LogFont 对象 2.2.13 可能会出现。[90] 确定该字段中 对象类型的过程如下所述。 |
+| [IhFonts](../../aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw/ihfonts) { get; set; } | 获取或设置一个 32 位无符号整数，它指定 EMF 对象表（第 3.1.1.1 节）中逻辑字体 object 的索引。必须保存此索引，以便可以 重用或修改此对象。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

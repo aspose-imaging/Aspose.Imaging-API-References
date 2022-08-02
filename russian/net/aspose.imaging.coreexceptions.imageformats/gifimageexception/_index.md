@@ -18,8 +18,8 @@ public class GifImageException : ImageException
 
 | Имя | Описание |
 | --- | --- |
-| [GifImageException](gifimageexception#constructor)(string) | Инициализирует новый экземпляр класса[`GifImageException`](../gifimageexception). |
-| [GifImageException](gifimageexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр класса[`GifImageException`](../gifimageexception). |
+| [GifImageException](gifimageexception#constructor)(string) | Инициализирует новый экземпляр[`GifImageException`](../gifimageexception) класс. |
+| [GifImageException](gifimageexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр[`GifImageException`](../gifimageexception) класс. |
 
 ### Смотрите также
 

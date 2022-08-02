@@ -1,14 +1,14 @@
 ---
 title: DeepClone
 second_title: Aspose.Imaging for .NET API 参考
-description: 创建此Regionaspose.imaging/region的精确深层副本
+description: 创建一个精确的深拷贝Regionaspose.imaging/region .
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging/region/deepclone/
 ---
 ## Region.DeepClone method
 
-创建此[`Region`](../../region)的精确深层副本。
+创建一个精确的深拷贝[`Region`](../../region) .
 
 ```csharp
 public Region DeepClone()
@@ -16,7 +16,7 @@ public Region DeepClone()
 
 ### 返回值
 
-该方法创建的[`Region`](../../region)。
+这[`Region`](../../region)该方法创建的。
 
 ### 也可以看看
 

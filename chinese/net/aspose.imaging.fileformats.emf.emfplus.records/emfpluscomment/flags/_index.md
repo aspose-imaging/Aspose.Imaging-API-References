@@ -1,14 +1,14 @@
 ---
 title: Flags
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置未使用的 16 位无符号整数该字段应该设置为零 并且必须在收到时被忽略
+description: 获取或设置未使用的 16 位无符号整数该字段应该设置为 zero 并且必须在收到时忽略
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfpluscomment/flags/
 ---
 ## EmfPlusComment.Flags property
 
-获取或设置未使用的 16 位无符号整数。该字段应该设置为零 并且必须在收到时被忽略
+获取或设置未使用的 16 位无符号整数。该字段应该设置为 zero 并且必须在收到时忽略
 
 ```csharp
 public override short Flags { get; set; }
@@ -16,13 +16,13 @@ public override short Flags { get; set; }
 
 ### 适当的价值
 
-旗帜。
+旗帜.
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | 值 |
+| ArgumentOutOfRangeException | 价值 |
 
 ### 也可以看看
 

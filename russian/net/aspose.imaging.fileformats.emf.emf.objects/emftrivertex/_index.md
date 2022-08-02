@@ -1,14 +1,14 @@
 ---
 title: EmfTriVertex
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект TriVertex определяет цвет и информацию о положении для определения вершины прямоугольника или треугольника.
+description: Объект TriVertex задает информацию о цвете и положении для определения вершины прямоугольника или треугольника.
 type: docs
 weight: 3170
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emftrivertex/
 ---
 ## EmfTriVertex class
 
-Объект TriVertex определяет цвет и информацию о положении для определения вершины прямоугольника или треугольника.
+Объект TriVertex задает информацию о цвете и положении для определения вершины прямоугольника или треугольника.
 
 ```csharp
 public sealed class EmfTriVertex : EmfObject

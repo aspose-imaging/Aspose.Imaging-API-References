@@ -16,7 +16,7 @@ public OdGraphicStyle Style { get; set; }
 
 ### 适当的价值
 
-样式。
+风格.
 
 ### 也可以看看
 

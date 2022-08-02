@@ -1,14 +1,14 @@
 ---
 title: op_Explicit
 second_title: Aspose.Imaging for .NET API 参考
-description: 将指定的SizeFaspose.imaging/sizef转换为PointFaspose.imaging/pointf.
+description: 转换指定的SizeFaspose.imaging/sizef到一个PointFaspose.imaging/pointf .
 type: docs
 weight: 150
 url: /zh/net/aspose.imaging/sizef/op_explicit/
 ---
 ## SizeF Explicit operator
 
-将指定的[`SizeF`](../../sizef)转换为[`PointF`](../../pointf).
+转换指定的[`SizeF`](../../sizef)到一个[`PointF`](../../pointf) .
 
 ```csharp
 public static explicit operator PointF(SizeF size)
@@ -16,11 +16,11 @@ public static explicit operator PointF(SizeF size)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| size | SizeF | [`SizeF`](../../sizef)要转换的结构 |
+| size | SizeF | 这[`SizeF`](../../sizef)要转换的结构 |
 
 ### 返回值
 
-[`PointF`](../../pointf)该运算符转换为的结构。
+这[`PointF`](../../pointf)此运算符转换为的结构。
 
 ### 也可以看看
 

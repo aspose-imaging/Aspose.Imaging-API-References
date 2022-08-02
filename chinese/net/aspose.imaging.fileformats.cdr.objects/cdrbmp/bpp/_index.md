@@ -16,7 +16,7 @@ public int Bpp { get; set; }
 
 ### 适当的价值
 
-BPP。
+BPP.
 
 ### 也可以看看
 

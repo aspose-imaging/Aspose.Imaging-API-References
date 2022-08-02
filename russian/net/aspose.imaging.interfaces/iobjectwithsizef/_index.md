@@ -3,7 +3,7 @@ title: IObjectWithSizeF
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет объект с размером выраженным в действительных числах в дюймах.
 type: docs
-weight: 10350
+weight: 10340
 url: /ru/net/aspose.imaging.interfaces/iobjectwithsizef/
 ---
 ## IObjectWithSizeF interface

@@ -1,14 +1,14 @@
 ---
 title: EmfPlusDrawClosedCurve
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusDrawClosedCurveaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawclosedcurve. RecordType  16-разрядное целое число без знака идентифицирующее этот тип записи как EmfPlusDrawClosedCurve из перечисления RecordType раздел 2.1.1.1. Значение ДОЛЖНО быть 0x4017.
+description: Инициализирует новый экземплярEmfPlusDrawClosedCurveaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawclosedcurve class. RecordType  16-битное целое число без знака которое идентифицирует этот тип записи как EmfPlusDrawClosedCurve из перечисления RecordType раздел 2.1.1.1. Значение ДОЛЖНО быть 0x4017.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawclosedcurve/emfplusdrawclosedcurve/
 ---
 ## EmfPlusDrawClosedCurve constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusDrawClosedCurve`](../../emfplusdrawclosedcurve). RecordType — 16-разрядное целое число без знака, идентифицирующее этот тип записи как EmfPlusDrawClosedCurve из перечисления RecordType (раздел 2.1.1.1). Значение ДОЛЖНО быть 0x4017.
+Инициализирует новый экземпляр[`EmfPlusDrawClosedCurve`](../../emfplusdrawclosedcurve) class. RecordType — 16-битное целое число без знака, которое идентифицирует этот тип записи как EmfPlusDrawClosedCurve из перечисления RecordType (раздел 2.1.1.1). Значение ДОЛЖНО быть 0x4017.
 
 ```csharp
 public EmfPlusDrawClosedCurve(EmfPlusRecord source)

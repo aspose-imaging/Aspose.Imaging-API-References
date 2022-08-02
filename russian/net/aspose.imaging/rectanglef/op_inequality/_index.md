@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Проверяет различаются ли две структурыRectangleFaspose.imaging/rectanglefрасположением или размером.
+description: Проверяет являются ли дваRectangleFaspose.imaging/rectanglef структуры отличаются расположением или размером.
 type: docs
 weight: 290
 url: /ru/net/aspose.imaging/rectanglef/op_inequality/
 ---
 ## RectangleF Inequality operator
 
-Проверяет, различаются ли две структуры[`RectangleF`](../../rectanglef)расположением или размером.
+Проверяет, являются ли два[`RectangleF`](../../rectanglef) структуры отличаются расположением или размером.
 
 ```csharp
 public static bool operator !=(RectangleF left, RectangleF right)
@@ -16,12 +16,12 @@ public static bool operator !=(RectangleF left, RectangleF right)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| left | RectangleF | Структура[`RectangleF`](../../rectanglef)слева от неравенства оператор. |
-| right | RectangleF | Структура[`RectangleF`](../../rectanglef)справа от оператора неравенства. |
+| left | RectangleF | [`RectangleF`](../../rectanglef) структура слева от оператора неравенства. |
+| right | RectangleF | [`RectangleF`](../../rectanglef) структура, которая находится справа от оператора неравенства. |
 
 ### Возвращаемое значение
 
-Этот оператор возвращает true, если любой из[`X`](../x),[`Y`](../y),[`Width`](../width)или[`Height`](../height)свойства двух[`RectangleF`](../../rectanglef)структуры неравны; иначе ложно.
+Этот оператор возвращает true, если любой из[`X`](../x) ,[`Y`](../y) ,[`Width`](../width) , или же[`Height`](../height) свойства двух[`RectangleF`](../../rectanglef) структуры неодинаковые; иначе ложно.
 
 ### Смотрите также
 

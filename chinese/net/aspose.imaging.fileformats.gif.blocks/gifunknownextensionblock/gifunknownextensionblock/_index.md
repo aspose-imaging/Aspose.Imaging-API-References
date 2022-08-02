@@ -1,14 +1,14 @@
 ---
 title: GifUnknownExtensionBlock
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化GifUnknownExtensionBlockaspose.imaging.fileformats.gif.blocks/gifunknownextensionblock类的新实例
+description: 初始化GifUnknownExtensionBlockaspose.imaging.fileformats.gif.blocks/gifunknownextensionblock类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/gifunknownextensionblock/
 ---
 ## GifUnknownExtensionBlock() {#constructor}
 
-初始化[`GifUnknownExtensionBlock`](../../gifunknownextensionblock)类的新实例。
+初始化[`GifUnknownExtensionBlock`](../../gifunknownextensionblock)类.
 
 ```csharp
 public GifUnknownExtensionBlock()
@@ -24,7 +24,7 @@ public GifUnknownExtensionBlock()
 
 ## GifUnknownExtensionBlock(byte, byte[]) {#constructor_1}
 
-初始化[`GifUnknownExtensionBlock`](../../gifunknownextensionblock)类的新实例。
+初始化[`GifUnknownExtensionBlock`](../../gifunknownextensionblock)类.
 
 ```csharp
 public GifUnknownExtensionBlock(byte extensionLabel, byte[] data)

@@ -24,8 +24,8 @@ public sealed class EmfPlusBrightnessContrastEffect : EmfPlusImageEffectsObjectT
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BrightnessLevel](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrightnesscontrasteffect/brightnesslevel) { get; set; } | 获取或设置指定亮度级别的 32 位带符号整数。这个 值必须在 -255 到 255 的范围内，效果如下: -255 ≤ value &lt; 0 随着值的减小，图像的亮度应该降低。 0 值 0 指定亮度不能改变。 0 &lt; value ≤ 255 随着值的增加，图像的亮度应该增加。 |
-| [ContrastLevel](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrightnesscontrasteffect/contrastlevel) { get; set; } | 获取或设置指定对比度级别的 32 位有符号整数。这个值 必须在 -100 到 100 的范围内，效果如下: -100 ≤ value &lt; &lt; 0 随着值的减小，图像的对比度应该降低。 0 值 0 指定对比度不能改变。 0 &lt; value ≤ 100 随着值的增加，图像的对比度应该增加。 |
+| [BrightnessLevel](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrightnesscontrasteffect/brightnesslevel) { get; set; } | 获取或设置指定亮度级别的 32 位有符号整数。 this value 必须在 -255 到 255 的范围内，效果如下： -255 ≤ value &lt; 0 随着 value 的降低，图像的亮度应该降低。 0 value 为 0 表示亮度不能改变. 0 &lt; value ≤ 255 随着值的增加，图像的亮度应该增加。 |
+| [ContrastLevel](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrightnesscontrasteffect/contrastlevel) { get; set; } | 获取或设置指定对比度级别的 32 位有符号整数。此 value 必须在 -100 到 100 的范围内，效果如下： -100 ≤ value &lt; 0 随着值的减小，图像的对比度应该降低。 0 值 0 指定对比度不能改变. 0 &lt; value ≤ 100 随着值的增加，图像的对比度应该增加。 |
 
 ### 也可以看看
 

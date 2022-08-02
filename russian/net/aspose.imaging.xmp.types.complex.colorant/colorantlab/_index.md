@@ -3,7 +3,7 @@ title: ColorantLab
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет краситель LAB.
 type: docs
-weight: 11550
+weight: 11540
 url: /ru/net/aspose.imaging.xmp.types.complex.colorant/colorantlab/
 ---
 ## ColorantLab class
@@ -18,8 +18,8 @@ public sealed class ColorantLab : ColorantBase
 
 | Имя | Описание |
 | --- | --- |
-| [ColorantLab](colorantlab#constructor)() | Инициализирует новый экземпляр класса[`ColorantLab`](../colorantlab). |
-| [ColorantLab](colorantlab#constructor_1)(int, int, float) | Инициализирует новый экземпляр класса[`ColorantLab`](../colorantlab). |
+| [ColorantLab](colorantlab#constructor)() | Инициализирует новый экземпляр[`ColorantLab`](../colorantlab) класс. |
+| [ColorantLab](colorantlab#constructor_1)(int, int, float) | Инициализирует новый экземпляр[`ColorantLab`](../colorantlab) класс. |
 
 ## Характеристики
 
@@ -29,7 +29,7 @@ public sealed class ColorantLab : ColorantBase
 | [B](../../aspose.imaging.xmp.types.complex.colorant/colorantlab/b) { get; set; } | Получает или задает компонент B. |
 | [ColorType](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/colortype) { get; set; } | Получает или задает тип цвета. |
 | [L](../../aspose.imaging.xmp.types.complex.colorant/colorantlab/l) { get; set; } | Получает или задает компонент L. |
-| [Mode](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/mode) { get; } | Получает[`ColorMode`](../colormode). |
+| [Mode](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/mode) { get; } | получает[`ColorMode`](../colormode) . |
 | [NamespaceUri](../../aspose.imaging.xmp.types.complex/complextypebase/namespaceuri) { get; } | Получает URI пространства имен по умолчанию. |
 | [Prefix](../../aspose.imaging.xmp.types.complex/complextypebase/prefix) { get; } | Получает префикс. |
 | [SwatchName](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/swatchname) { get; set; } | Получает или задает имя образца. |

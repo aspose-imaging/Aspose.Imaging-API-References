@@ -1,14 +1,14 @@
 ---
 title: EmfEndPath
 second_title: Aspose.Imaging for .NET API 参考
-description: 这条记录关闭了一个路径括号并将括号定义的路径选择到 播放设备上下文中
+description: 这条记录关闭一个路径括号并选择括号定义的路径进入 播放设备上下文
 type: docs
 weight: 3580
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfendpath/
 ---
 ## EmfEndPath class
 
-这条记录关闭了一个路径括号，并将括号定义的路径选择到 播放设备上下文中。
+这条记录关闭一个路径括号，并选择括号定义的路径进入 播放设备上下文。
 
 ```csharp
 public sealed class EmfEndPath : EmfPathBracketRecordType

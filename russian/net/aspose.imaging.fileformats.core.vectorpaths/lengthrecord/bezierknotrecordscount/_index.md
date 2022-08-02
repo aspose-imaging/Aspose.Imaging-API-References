@@ -1,14 +1,14 @@
 ---
 title: BezierKnotRecordsCount
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает количество записей узла Безье.
+description: Получает или задает количество записей узлов Безье.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.core.vectorpaths/lengthrecord/bezierknotrecordscount/
 ---
 ## LengthRecord.BezierKnotRecordsCount property
 
-Получает или задает количество записей узла Безье.
+Получает или задает количество записей узлов Безье.
 
 ```csharp
 public int BezierKnotRecordsCount { get; set; }

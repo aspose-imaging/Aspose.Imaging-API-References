@@ -1,14 +1,14 @@
 ---
 title: OffPixelFormat
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее смещение объекта PixelFormatDescriptor. Это ДОЛЖНО быть 0x00000000 если формат пикселей не установлен.
+description: Получает или задает 32-битное целое число без знака указывающее смещение объекта PixelFormatDescriptor. Это ДОЛЖНО быть 0x00000000 если не задан формат пикселей.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfheaderextension1/offpixelformat/
 ---
 ## EmfHeaderExtension1.OffPixelFormat property
 
-Получает или задает 32-разрядное целое число без знака, указывающее смещение объекта PixelFormatDescriptor. Это ДОЛЖНО быть 0x00000000, если формат пикселей не установлен.
+Получает или задает 32-битное целое число без знака, указывающее смещение объекта PixelFormatDescriptor. Это ДОЛЖНО быть 0x00000000, если не задан формат пикселей.
 
 ```csharp
 public int OffPixelFormat { get; set; }

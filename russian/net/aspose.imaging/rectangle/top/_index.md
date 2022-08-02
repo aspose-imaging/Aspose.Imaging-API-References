@@ -1,14 +1,14 @@
 ---
 title: Top
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает координату y верхнего края этойRectangleaspose.imaging/rectangleструктуры.
+description: Получает или задает координату y верхнего края этогоRectangleaspose.imaging/rectangle структура.
 type: docs
 weight: 180
 url: /ru/net/aspose.imaging/rectangle/top/
 ---
 ## Rectangle.Top property
 
-Получает или задает координату y верхнего края этой[`Rectangle`](../../rectangle)структуры.
+Получает или задает координату y верхнего края этого[`Rectangle`](../../rectangle) структура.
 
 ```csharp
 public int Top { get; set; }
@@ -16,7 +16,7 @@ public int Top { get; set; }
 
 ### Стоимость имущества
 
-Y-координата верхнего края этого[`Rectangle`](../../rectangle)структура.
+Y-координата верхнего края этого[`Rectangle`](../../rectangle) структура.
 
 ### Смотрите также
 

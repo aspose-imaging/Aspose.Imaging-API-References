@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.FileFormats.Psd
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пространство имен обрабатывает обработку файлов формата Psd.
+description: Пространство имен обрабатывает формат файла Psd.
 type: docs
 weight: 570
 url: /ru/net/aspose.imaging.fileformats.psd/
 ---
-Пространство имен обрабатывает обработку файлов формата Psd.
+Пространство имен обрабатывает формат файла Psd.
 
 ## перечисление
 

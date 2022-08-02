@@ -1,14 +1,14 @@
 ---
 title: EmfPlusDrawArc
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPlusDrawArcaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc类的新实例
+description: 初始化EmfPlusDrawArcaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/emfplusdrawarc/
 ---
 ## EmfPlusDrawArc constructor
 
-初始化[`EmfPlusDrawArc`](../../emfplusdrawarc)类的新实例。
+初始化[`EmfPlusDrawArc`](../../emfplusdrawarc)类.
 
 ```csharp
 public EmfPlusDrawArc(EmfPlusRecord source)
@@ -16,7 +16,7 @@ public EmfPlusDrawArc(EmfPlusRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfPlusRecord | 源。 |
+| source | EmfPlusRecord | 来源。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: WmfGamutMappingIntent
 second_title: Aspose.Imaging for .NET API 参考
-description: GamutMappingIntent 枚举指定逻辑颜色和物理颜色之间的关系
+description: GamutMappingIntent 枚举指定逻辑和物理颜色之间的关系
 type: docs
 weight: 8190
 url: /zh/net/aspose.imaging.fileformats.wmf.consts/wmfgamutmappingintent/
 ---
 ## WmfGamutMappingIntent enumeration
 
-GamutMappingIntent 枚举指定逻辑颜色和物理颜色之间的关系。
+GamutMappingIntent 枚举指定逻辑和物理颜色之间的关系。
 
 ```csharp
 [Flags]
@@ -19,10 +19,10 @@ public enum WmfGamutMappingIntent
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| LCS_GM_ABS_COLORIMETRIC | `8` | 指定应该保持白点。 通常在逻辑颜色必须与它们在 目标色域中最接近的物理颜色匹配时使用。 意图:匹配 ICC 名称:绝对色度 |
-| LCS_GM_BUSINESS | `1` | 指定应该保持饱和度。通常用于 业务图表和其他不需要抖动的情况。 意图:图形 ICC 名称:饱和度 |
-| LCS_GM_GRAPHICS | `2` | 指定应该保持比色匹配。通常 用于图形设计和命名颜色。 意图:证明 ICC 名称:相对色度 |
-| LCS_GM_IMAGES | `4` | 指定应该保持对比度。通常用于 照片和自然图像。 意图:图片 ICC 名称:感知 |
+| LCS_GM_ABS_COLORIMETRIC | `8` | 指定应该保持白点。 通常在逻辑颜色必须与 目标色域中最接近的物理颜色匹配时使用。 意图：Match ICC 名称：Absolute Colorimetric |
+| LCS_GM_BUSINESS | `1` | 指定应该保持饱和度。通常用于 商业图表和其他不需要抖动的情况。 意图：Graphic ICC名称：Saturation |
+| LCS_GM_GRAPHICS | `2` | 指定应该保持比色匹配。通常 用于图形设计和命名颜色。 意图：Proof ICC 名称：Relative Colorimetric |
+| LCS_GM_IMAGES | `4` | 指定应该保持对比度。通常用于 照片和自然图像。 意图：图片 ICC 名称：Perceptual |
 
 ### 也可以看看
 

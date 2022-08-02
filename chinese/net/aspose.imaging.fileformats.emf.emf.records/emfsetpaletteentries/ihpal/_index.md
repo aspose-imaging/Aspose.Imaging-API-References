@@ -1,14 +1,14 @@
 ---
 title: IhPal
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定调色板 EMF 对象表索引的 32 位无符号整数
+description: 获取或设置一个 32 位无符号整数指定调色板 EMF 对象表索引
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries/ihpal/
 ---
 ## EmfSetPaletteEntries.IhPal property
 
-获取或设置指定调色板 EMF 对象表索引的 32 位无符号整数。
+获取或设置一个 32 位无符号整数，指定调色板 EMF 对象表索引。
 
 ```csharp
 public int IhPal { get; set; }

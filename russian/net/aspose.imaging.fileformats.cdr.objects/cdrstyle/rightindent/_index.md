@@ -1,14 +1,14 @@
 ---
 title: RightIndent
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает правильный отступ.
+description: Получает или задает правильный отступ.
 type: docs
 weight: 120
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrstyle/rightindent/
 ---
 ## CdrStyle.RightIndent property
 
-Получает или устанавливает правильный отступ.
+Получает или задает правильный отступ.
 
 ```csharp
 public double RightIndent { get; set; }

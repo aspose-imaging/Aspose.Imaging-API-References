@@ -1,14 +1,14 @@
 ---
 title: RleCompressorException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаRleCompressorExceptionaspose.imaging.coreexceptions.compressors/rlecompressorexception.
+description: Инициализирует новый экземплярRleCompressorExceptionaspose.imaging.coreexceptions.compressors/rlecompressorexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions.compressors/rlecompressorexception/rlecompressorexception/
 ---
 ## RleCompressorException(string) {#constructor}
 
-Инициализирует новый экземпляр класса[`RleCompressorException`](../../rlecompressorexception).
+Инициализирует новый экземпляр[`RleCompressorException`](../../rlecompressorexception) класс.
 
 ```csharp
 public RleCompressorException(string message)
@@ -28,7 +28,7 @@ public RleCompressorException(string message)
 
 ## RleCompressorException(string, Exception) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`RleCompressorException`](../../rlecompressorexception).
+Инициализирует новый экземпляр[`RleCompressorException`](../../rlecompressorexception) класс.
 
 ```csharp
 public RleCompressorException(string message, Exception innerException)

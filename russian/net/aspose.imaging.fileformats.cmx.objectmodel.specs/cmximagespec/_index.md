@@ -35,7 +35,7 @@ public class CmxImageSpec : ICmxObjectSpec
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 
 ### Смотрите также
 

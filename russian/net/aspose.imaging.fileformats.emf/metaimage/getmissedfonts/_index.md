@@ -27,7 +27,7 @@ public string[] GetMissedFonts()
 
 string dir = "c:\\aspose.imaging\\net\\issues\\3544";
 
- // Сделать все шрифты недоступными
+// Чтобы сделать все шрифты недоступными
 string[] fontDirectories = Aspose.Imaging.FontSettings.GetFontsFolders();
 Aspose.Imaging.FontSettings.SetFontsFolder("empty");
 string[] files = new string[]
@@ -80,49 +80,49 @@ finally
     Aspose.Imaging.FontSettings.SetFontsFolders(fontDirectories, true);
 }
 
- // Журнал STDOUT может выглядеть так: 
- //========== TestWmfText.wmf ==========
- //Используемый шрифт: Garamond
- //Используемый шрифт: Arial
- //Используемый шрифт: Bookman Old Style
- //Используемый шрифт: Comic Sans MS
- //Используемый шрифт: Courier
- //Используемый шрифт: Courier New
- //Используемый шрифт: Impact
- //Используемый шрифт: Modern
+// Журнал STDOUT может выглядеть так:
+//========== TestWmfText.wmf ==========
+//Используемый шрифт: Garamond
+//Используемый шрифт: Arial
+//Используемый шрифт: Bookman Old Style
+//Используемый шрифт: Comic Sans MS
+//Используемый шрифт: Courier
+//Используемый шрифт: Courier New
+//Используемый шрифт: Impact
+//Используемый шрифт: Современный
 //Используемый шрифт: MS Sans Serif
- //Используемый шрифт: MS Serif
- //Используемый шрифт: Small Fonts
- //Используемый шрифт: Symbol
- //Используемый шрифт: Tahoma
- //Используемый шрифт: Times New Roman
- //Используемый шрифт: Verdana
- //Используемый шрифт: Wingdings
- // Пропущенный шрифт: Garamond
- // Отсутствует шрифт: Arial
- // Отсутствует шрифт: Bookman Old Style
- // Отсутствует шрифт: Comic Sans MS
- // Отсутствует шрифт: Courier
- //Отсутствует шрифт: Courier New
- //Пропущенный шрифт: Impact
- // Отсутствует шрифт: Modern
- // Отсутствует шрифт: MS Sans Serif
- // Отсутствует шрифт: MS Serif
- //Пропущенный шрифт: Small Fonts
- //Пропущенный шрифт: Symbol
- // Пропущенный шрифт: Tahoma
- // Отсутствует шрифт: Verdana
- // Отсутствует шрифт: Wingdings
- //========== TestEmfFonts.emf ==========
- //Используемый шрифт: Arial
- //Используемый шрифт: Verdana
- //Используемый шрифт: Times New Roman
- //Используемый шрифт: Symbol
- // Отсутствует шрифт: Arial
- // Отсутствует шрифт: Verdana
- //Пропущенный шрифт: Symbol
- //========== TestEmfPlusFonts.emf ==========
- //Используемый шрифт: MICROSOFT SANS SERIF
+//Используемый шрифт: MS Serif
+//Используемый шрифт: Мелкие шрифты
+//Используемый шрифт: Символ
+//Используемый шрифт: Tahoma
+//Используемый шрифт: Times New Roman
+//Используемый шрифт: Verdana
+//Используемый шрифт: Wingdings
+// Пропущенный шрифт: Garamond
+// Пропущенный шрифт: Arial
+// Отсутствует шрифт: Bookman Old Style
+// Пропущенный шрифт: Comic Sans MS
+// Отсутствует шрифт: Courier
+// Отсутствует шрифт: Courier New
+//Пропущенный шрифт: Воздействие
+//Пропущенный шрифт: Современный
+// Пропущенный шрифт: MS Sans Serif
+// Пропущенный шрифт: MS Serif
+//Пропущенный шрифт: Мелкие шрифты
+//Пропущенный шрифт: Символ
+// Пропущенный шрифт: Tahoma
+// Пропущенный шрифт: Verdana
+// Отсутствует шрифт: Wingdings
+//========== TestEmfFonts.emf ==========
+//Используемый шрифт: Arial
+//Используемый шрифт: Verdana
+//Используемый шрифт: Times New Roman
+//Используемый шрифт: Символ
+// Пропущенный шрифт: Arial
+// Пропущенный шрифт: Verdana
+//Пропущенный шрифт: Символ
+//========== TestEmfPlusFonts.emf ==========
+//Используемый шрифт: MICROSOFT SANS SERIF
 // Пропущенный шрифт: MICROSOFT SANS SERIF
 ```
 

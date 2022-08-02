@@ -1,14 +1,14 @@
 ---
 title: NPalEntries
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее количество записей в палитре метафайла . Палитра находится в записи EMR_EOF
+description: Получает или задает 32-разрядное целое число без знака указывающее количество записей в палитре метафайла. Палитра находится в записи EMR_EOF
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/npalentries/
 ---
 ## EmfHeaderObject.NPalEntries property
 
-Получает или задает 32-разрядное целое число без знака, указывающее количество записей в палитре метафайла . Палитра находится в записи EMR_EOF
+Получает или задает 32-разрядное целое число без знака, указывающее количество записей в палитре метафайла. Палитра находится в записи EMR_EOF
 
 ```csharp
 public int NPalEntries { get; set; }

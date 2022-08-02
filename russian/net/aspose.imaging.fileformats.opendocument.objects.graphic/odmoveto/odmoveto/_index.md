@@ -1,14 +1,14 @@
 ---
 title: OdMoveTo
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdMoveToaspose.imaging.fileformats.opendocument.objects.graphic/odmoveto.
+description: Инициализирует новый экземплярOdMoveToaspose.imaging.fileformats.opendocument.objects.graphic/odmoveto класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odmoveto/odmoveto/
 ---
 ## OdMoveTo constructor
 
-Инициализирует новый экземпляр класса[`OdMoveTo`](../../odmoveto).
+Инициализирует новый экземпляр[`OdMoveTo`](../../odmoveto) класс.
 
 ```csharp
 public OdMoveTo(OdObject parent)

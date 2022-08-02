@@ -1,14 +1,14 @@
 ---
 title: Dy
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное значение с плавающей запятой определяющее значение вертикального расстояния.
+description: Получает или задает 32-битное значение с плавающей запятой определяющее значение вертикального расстояния.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplustranslateworldtransform/dy/
 ---
 ## EmfPlusTranslateWorldTransform.Dy property
 
-Получает или задает 32-разрядное значение с плавающей запятой, определяющее значение вертикального расстояния.
+Получает или задает 32-битное значение с плавающей запятой, определяющее значение вертикального расстояния.
 
 ```csharp
 public float Dy { get; set; }
@@ -16,7 +16,7 @@ public float Dy { get; set; }
 
 ### Стоимость имущества
 
-Дых.
+dy.
 
 ### Смотрите также
 

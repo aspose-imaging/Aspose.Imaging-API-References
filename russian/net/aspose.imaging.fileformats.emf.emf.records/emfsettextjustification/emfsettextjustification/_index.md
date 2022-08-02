@@ -1,14 +1,14 @@
 ---
 title: EmfSetTextJustification
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetTextJustificationaspose.imaging.fileformats.emf.emf.records/emfsettextjustification.
+description: Инициализирует новый экземплярEmfSetTextJustificationaspose.imaging.fileformats.emf.emf.records/emfsettextjustification класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsettextjustification/emfsettextjustification/
 ---
 ## EmfSetTextJustification constructor
 
-Инициализирует новый экземпляр класса[`EmfSetTextJustification`](../../emfsettextjustification).
+Инициализирует новый экземпляр[`EmfSetTextJustification`](../../emfsettextjustification) класс.
 
 ```csharp
 public EmfSetTextJustification(EmfRecord source)

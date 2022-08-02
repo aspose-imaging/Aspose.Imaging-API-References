@@ -1,14 +1,14 @@
 ---
 title: ToArgb
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取此Coloraspose.imaging/color结构的 32 位 ARGB 值
+description: 获取这个的 32 位 ARGB 值Coloraspose.imaging/color结构.
 type: docs
 weight: 1590
 url: /zh/net/aspose.imaging/color/toargb/
 ---
 ## Color.ToArgb method
 
-获取此[`Color`](../../color)结构的 32 位 ARGB 值。
+获取这个的 32 位 ARGB 值[`Color`](../../color)结构.
 
 ```csharp
 public int ToArgb()
@@ -16,7 +16,7 @@ public int ToArgb()
 
 ### 返回值
 
-这个[`Color`](../../color)的 32 位 ARGB 值。
+这个的 32 位 ARGB 值[`Color`](../../color).
 
 ### 也可以看看
 

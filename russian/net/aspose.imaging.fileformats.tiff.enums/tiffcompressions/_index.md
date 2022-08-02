@@ -19,13 +19,13 @@ public enum TiffCompressions : ushort
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | None | `1` | Режим дампа. |
-| CcittRle | `2` | CCITT модифицировал RLE Хаффмана. |
-| CcittFax3 | `3` | Кодирование факса CCITT Group 3. |
-| CcittFax4 | `4` | Кодирование факса CCITT Group 4. |
-| Lzw | `5` | Lempel-Ziv &amp; Уэлч. |
+| CcittRle | `2` | CCITT изменил RLE Хаффмана. |
+| CcittFax3 | `3` | Кодировка факса CCITT Group 3. |
+| CcittFax4 | `4` | Кодировка факса CCITT Group 4. |
+| Lzw | `5` | Лемпель-Зив и Уэлч. |
 | Ojpeg | `6` | Исходный JPEG / JPEG в старом стиле (6.0). |
 | Jpeg | `7` | Сжатие JPEG DCT. Представлен пост TIFF rev 6.0. |
-| Next | `32766` | NeXT 2-битный RLE. |
+| Next | `32766` | Следующий 2-битный RLE. |
 | CcittRleW | `32771` | CCITT RLE. |
 | Packbits | `32773` | Macintosh RLE. |
 | Thunderscan | `32809` | ThunderScan RLE. |
@@ -33,14 +33,14 @@ public enum TiffCompressions : ushort
 | It8Lw | `32896` | IT8 Linework RLE. Зарезервировано для ANSI IT8 TIFF/IT. |
 | It8Mp | `32897` | IT8 Монохромное изображение. Зарезервировано для ANSI IT8 TIFF/IT. |
 | It8Bl | `32898` | IT8 Двоичный штриховой рисунок. Зарезервировано для ANSI IT8 TIFF/IT. |
-| PixarFilm | `32908` | Pixar скомпандировал 10-битный LZW. Зарезервировано для Пиксар. |
-| PixarLog | `32909` | Скомпилированный Pixar 11-битный ZIP. Зарезервировано для Пиксар. |
-| Deflate | `32946` | Сжатие Deflate. |
+| PixarFilm | `32908` | Компандированный 10-битный LZW Pixar. Зарезервировано для Pixar. |
+| PixarLog | `32909` | Компандированный 11-битный ZIP-файл Pixar. Зарезервировано для Pixar. |
+| Deflate | `32946` | Сжатие выкачки. |
 | AdobeDeflate | `8` | Сжатие Deflate, признанное Adobe. |
 | Dcs | `32947` | Кодировка Kodak DCS. Зарезервировано для Oceana Matrix |
-| Jbig | `34661` | ISO Jpeg большой. |
-| Sgilog | `34676` | SGI Log Luminance RLE. |
-| Sgilog24 | `34677` | SGI Log 24-бит упакован. |
+| Jbig | `34661` | ISO JPEG большой. |
+| Sgilog | `34676` | Яркость журнала SGI RLE. |
+| Sgilog24 | `34677` | 24-битный упакованный журнал SGI. |
 | Jp2000 | `34712` | Leadtools JPEG2000. |
 
 ### Смотрите также

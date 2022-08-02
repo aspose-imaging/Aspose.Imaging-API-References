@@ -1,14 +1,14 @@
 ---
 title: StartAngle
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置起始角度 一个 32 位非负浮点值指定47之间的角度x 轴和圆弧的起点任何值都是可接受的 但它必须被解释为模 360使用的结果是 在 0.0包括到 360.0不包括的范围内
+description: 获取或设置起始角度 一个 32 位非负浮点值指定 x 轴和圆弧起点之间的角度任何值都是可接受的 但它必须被解释为模 360使用的结果是 在 0.0 到 360.0 的范围内
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/startangle/
 ---
 ## EmfPlusDrawArc.StartAngle property
 
-获取或设置起始角度 一个 32 位非负浮点值，指定:::47::之间的角度:x 轴和圆弧的起点。任何值都是可接受的， 但它必须被解释为模 360，使用的结果是 在 0.0（包括）到 360.0（不包括）的范围内。
+获取或设置起始角度 一个 32 位非负浮点值，指定 x 轴和圆弧起点之间的角度。任何值都是可接受的， 但它必须被解释为模 360，使用的结果是 在 0.0 到 360.0 的范围内。
 
 ```csharp
 public float StartAngle { get; set; }

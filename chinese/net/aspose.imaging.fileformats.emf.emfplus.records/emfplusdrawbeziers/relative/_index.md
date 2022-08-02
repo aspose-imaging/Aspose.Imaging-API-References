@@ -1,14 +1,14 @@
 ---
 title: Relative
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个指示PointData是否是相对的值 如果设置PointData 中的每个元素都会指定坐标空间 中的位置该位置相对于数组中前一个元素指定的位置 对于 PointData 中的第一个元素假定坐标 00 处的先前位置如果清除PointData 根据 为 C 标志指定绝对位置 注意如果设置了这个标志C 标志上面是未定义的并且必须被忽略
+description: 获取或设置一个值该值指示 PointData 是否是相对的 如果设置PointData 中的每个元素都指定坐标空间 中的位置该位置相对于数组中前一个元素指定的位置 对于 PointData 中的第一个元素假定坐标 00 处的先前位置如果清除PointData 根据 C 标志的 指定绝对位置 注意如果设置了此标志则 C 标志上面未定义必须被忽略
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawbeziers/relative/
 ---
 ## EmfPlusDrawBeziers.Relative property
 
-获取或设置一个指示PointData是否是相对的值。 如果设置，PointData 中的每个元素都会指定坐标空间 中的位置，该位置相对于数组中前一个元素指定的位置。 对于 PointData 中的第一个元素，假定坐标 (0,0) 处的先前位置。如果清除，PointData 根据 为 C 标志指定绝对位置。 注意如果设置了这个标志，C 标志（上面）是未定义的并且必须被忽略。
+获取或设置一个值，该值指示 PointData 是否是相对的。 如果设置，PointData 中的每个元素都指定坐标空间 中的位置，该位置相对于数组中前一个元素指定的位置。 对于 PointData 中的第一个元素，假定坐标 (0,0) 处的先前位置。如果清除，PointData 根据 C 标志的 指定绝对位置。 注意如果设置了此标志，则 C 标志（上面）未定义，必须被忽略。
 
 ```csharp
 public bool Relative { get; set; }
@@ -16,7 +16,7 @@ public bool Relative { get; set; }
 
 ### 适当的价值
 
-` true` 如果是相对的；否则，` false` 。
+`真的`如果是相对的；否则，`错误的` .
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: CdrGradient
 second_title: Aspose.Imaging for .NET API 参考
-description: cdr 渐变
+description: cdr梯度
 type: docs
 weight: 1850
 url: /zh/net/aspose.imaging.fileformats.cdr.types/cdrgradient/
 ---
 ## CdrGradient class
 
-cdr 渐变
+cdr梯度
 
 ```csharp
 public class CdrGradient
@@ -27,7 +27,7 @@ public class CdrGradient
 | [Angle](../../aspose.imaging.fileformats.cdr.types/cdrgradient/angle) { get; set; } | 获取或设置角度。 |
 | [CenterXOffset](../../aspose.imaging.fileformats.cdr.types/cdrgradient/centerxoffset) { get; set; } | 获取或设置中心 x 偏移量。 |
 | [CenterYOffset](../../aspose.imaging.fileformats.cdr.types/cdrgradient/centeryoffset) { get; set; } | 获取或设置中心 y 偏移量。 |
-| [EdgeOffset](../../aspose.imaging.fileformats.cdr.types/cdrgradient/edgeoffset) { get; set; } | 获取或设置边缘偏移。 |
+| [EdgeOffset](../../aspose.imaging.fileformats.cdr.types/cdrgradient/edgeoffset) { get; set; } | 获取或设置边缘偏移量。 |
 | [MidPoint](../../aspose.imaging.fileformats.cdr.types/cdrgradient/midpoint) { get; set; } | 获取或设置中点。 |
 | [Mode](../../aspose.imaging.fileformats.cdr.types/cdrgradient/mode) { get; set; } | 获取或设置模式。 |
 | [Stops](../../aspose.imaging.fileformats.cdr.types/cdrgradient/stops) { get; set; } | 获取或设置停靠点。 |

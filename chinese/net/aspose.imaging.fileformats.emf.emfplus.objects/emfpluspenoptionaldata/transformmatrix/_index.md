@@ -1,14 +1,14 @@
 ---
 title: TransformMatrix
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置可选的 EmfPlusTransformMatrix 对象第 2.2.2.47 节 为47 指定世界空间到设备空间的转换笔如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataTransform 标志则该字段必须存在
+description: 获取或设置可选的 EmfPlusTransformMatrix 对象第 2.2.2.47 节 它为 笔指定世界空间到设备空间的变换如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataTransform 标志则该字段必须存在
 type: docs
 weight: 140
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata/transformmatrix/
 ---
 ## EmfPlusPenOptionalData.TransformMatrix property
 
-获取或设置可选的 EmfPlusTransformMatrix 对象（第 2.2.2.47 节） 为:::47 指定世界空间到设备空间的转换:::笔。如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataTransform 标志，则该字段必须存在。
+获取或设置可选的 EmfPlusTransformMatrix 对象（第 2.2.2.47 节） ，它为 笔指定世界空间到设备空间的变换。如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataTransform 标志，则该字段必须存在。
 
 ```csharp
 public Matrix TransformMatrix { get; set; }

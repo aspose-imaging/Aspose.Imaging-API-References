@@ -20,11 +20,11 @@ public static IImageCreatorDescriptor GetFirstSupportedDescriptor(ImageOptionsBa
 
 ### 返回值
 
-支持指定的创建者描述符，如果没有找到这样的描述符，则返回 null。
+支持指定的创建者描述符，如果没有找到这样的描述符，则为 null。
 
 ### 评论
 
-第一个创建者描述符实际上是最后一个注册的。
+第一个创建者描述符实际上是最后注册的。
 
 ### 也可以看看
 

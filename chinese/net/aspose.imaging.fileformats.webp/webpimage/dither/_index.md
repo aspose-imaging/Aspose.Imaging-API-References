@@ -18,7 +18,7 @@ public override void Dither(DitheringMethod ditheringMethod, int bitsCount,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | ditheringMethod | DitheringMethod | 抖动方法。 |
-| bitsCount | Int32 | 抖动的最终位数。 |
+| bitsCount | Int32 | 最后的比特数用于抖动。 |
 | customPalette | IColorPalette | 用于抖动的自定义调色板。 |
 
 ### 也可以看看

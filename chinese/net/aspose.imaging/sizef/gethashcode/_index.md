@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Aspose.Imaging for .NET API 参考
-description: 返回此Sizeaspose.imaging/size结构的哈希码
+description: 为此返回哈希码Sizeaspose.imaging/size结构.
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging/sizef/gethashcode/
 ---
 ## SizeF.GetHashCode method
 
-返回此[`Size`](../../size)结构的哈希码。
+为此返回哈希码[`Size`](../../size)结构.
 
 ```csharp
 public override int GetHashCode()
@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### 返回值
 
-指定此[`Size`](../../size)结构的哈希值的整数值。
+一个整数值，为此指定哈希值[`Size`](../../size)结构体。
 
 ### 也可以看看
 

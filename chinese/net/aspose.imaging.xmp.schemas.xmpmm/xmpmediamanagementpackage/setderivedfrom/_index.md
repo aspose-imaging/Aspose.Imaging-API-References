@@ -1,14 +1,14 @@
 ---
 title: SetDerivedFrom
 second_title: Aspose.Imaging for .NET API 参考
-description: 设置派生自
+description: 设置派生自.
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/setderivedfrom/
 ---
 ## XmpMediaManagementPackage.SetDerivedFrom method
 
-设置派生自。
+设置派生自.
 
 ```csharp
 public void SetDerivedFrom(ResourceRef resourceRef)
@@ -16,7 +16,7 @@ public void SetDerivedFrom(ResourceRef resourceRef)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| resourceRef | ResourceRef | 资源引用。 |
+| resourceRef | ResourceRef | 资源参考。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Преобразует эту структуруColoraspose.imaging/colorв удобочитаемую строку.
+description: Преобразует этоColoraspose.imaging/color структуру в удобочитаемую строку.
 type: docs
 weight: 1610
 url: /ru/net/aspose.imaging/color/tostring/
 ---
 ## Color.ToString method
 
-Преобразует эту структуру[`Color`](../../color)в удобочитаемую строку.
+Преобразует это[`Color`](../../color) структуру в удобочитаемую строку.
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Возвращаемое значение
 
-Строка, которая является именем этого[`Color`](../../color), если[`Color`](../../color)создается из предопределенного цвета с помощью метода[`FromName`](../fromname)или метода[`FromKnownColor`](../fromknowncolor)метод; в противном случае — строка, состоящая из имен компонентов ARGB и их значений.
+Строка, которая является именем этого[`Color`](../../color) , если[`Color`](../../color) создается из предопределенного цвета с помощью[`FromName`](../fromname) метод или[`FromKnownColor`](../fromknowncolor) метод; в противном случае — строка, состоящая из имен компонентов ARGB и их значений.
 
 ### Смотрите также
 

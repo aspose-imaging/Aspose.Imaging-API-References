@@ -16,7 +16,7 @@ public void SetAltTimeCode(Timecode timecode)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| timecode | Timecode | Временной код. |
+| timecode | Timecode | Код времени. |
 
 ### Смотрите также
 

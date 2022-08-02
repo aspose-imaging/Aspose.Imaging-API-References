@@ -1,14 +1,14 @@
 ---
 title: Description
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает необязательную строку Юникода заканчивающуюся нулем которая описывает эту группу записей.
+description: Получает или задает необязательную строку Юникода с завершающим нулем описывающую эту группу записей.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup/description/
 ---
 ## EmfCommentBeginGroup.Description property
 
-Получает или задает необязательную строку Юникода, заканчивающуюся нулем, которая описывает эту группу записей.
+Получает или задает необязательную строку Юникода с завершающим нулем, описывающую эту группу записей.
 
 ```csharp
 public string Description { get; set; }

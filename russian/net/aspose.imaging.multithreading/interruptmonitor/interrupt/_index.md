@@ -22,37 +22,37 @@ public virtual void Interrupt()
 [C#]
 
 /// <summary>
- /// Это вспомогательный класс, который инициирует преобразование изображения и ожидает его прерывания.
+/// Это вспомогательный класс, который инициирует преобразование изображения и ожидает его прерывания.
 /// </summary>
 private class Worker
 {
     /// <summary>
-     /// Путь к входному изображению.
+    /// Путь к входному изображению.
     /// </summary>
     private readonly string inputPath;
 
     /// <summary>
-     /// Путь к выходному изображению.
+    /// Путь к выходному изображению.
     /// </summary>
     private readonly string outputPath;
 
     /// <summary>
-     /// Параметры сохранения.
+    /// Параметры сохранения.
     /// </summary>
     private readonly Aspose.Imaging.ImageOptionsBase saveOptions;
 
     /// <summary>
-     /// Монитор прерываний.
+    /// Монитор прерываний.
     /// </summary>
     private readonly Aspose.Imaging.Multithreading.InterruptMonitor monitor;
 
     /// <summary>
-     /// Инициализирует новый экземпляр класса <see cref="Worker" /> класс.
+    /// Инициализирует новый экземпляр класса <see cref="Worker" /> учебный класс.
     /// </summary>
     /// <param name="inputPath">Путь к входному изображению.</param>
-     /// <param name="outputPath">Путь к выходному изображению.</param>
-     /// <param name="saveOptions">Параметры сохранения.</param>
-     /// <param name="monitor">Монитор прерываний.</param>
+    /// <param name="outputPath">Путь к выходному изображению.</param>
+    /// <param name="saveOptions">Параметры сохранения.</param>
+    /// <param name="monitor">Монитор прерываний.</param>
     public Worker(string inputPath, string outputPath, Aspose.Imaging.ImageOptionsBase saveOptions, Aspose.Imaging.Multithreading.InterruptMonitor monitor)
     {
         this.inputPath = inputPath;
@@ -62,7 +62,7 @@ private class Worker
     }
 
     /// <summary>
-     /// Преобразует изображение из одного формата в другой. Обрабатывает прерывание.
+    /// Преобразует изображение из одного формата в другой. Справляется с прерыванием.
     /// </summary>
     public void ThreadProc()
     {
@@ -70,7 +70,7 @@ private class Worker
         {
             Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(this.inputPath);
             
-             // Установить локальный экземпляр монитора прерываний.
+            // Установить локальный экземпляр монитора прерываний.
             Aspose.Imaging.Multithreading.InterruptMonitor.ThreadLocalInstance = this.monitor;
 
             try
@@ -88,44 +88,44 @@ private class Worker
             {
                 image.Dispose();
 
-                 // Сброс экземпляра локального потока монитора прерываний.
+                // Сброс экземпляра локального потока монитора прерываний.
                 Aspose.Imaging.Multithreading.InterruptMonitor.ThreadLocalInstance = null;
             }
         }
         catch (System.Exception e)
         {
-             // Вывести подробную информацию о любом неожиданном исключении.
+            // Вывести подробную информацию о любом неожиданном исключении.
             System.Console.WriteLine(e);
         }
     }
 }
 
- // Вот основной пример с использованием класса Worker.
+// Вот основной пример использования класса Worker.
 string baseDir = "c:\\temp\\";
 
 Aspose.Imaging.Multithreading.InterruptMonitor monitor = new Aspose.Imaging.Multithreading.InterruptMonitor();
 Worker worker = new Worker(baseDir + "big.png", baseDir + "big.bmp", new Aspose.Imaging.ImageOptions.BmpOptions(), monitor);
 
- // Запуск рабочего в выделенном потоке.
+// Запуск рабочего в выделенном потоке.
 System.Threading.Thread thread = new System.Threading.Thread(new System.Threading.ThreadStart(worker.ThreadProc));
 thread.Start();
 
- // Выполните какую-нибудь содержательную работу здесь
+// Делаем здесь какую-нибудь осмысленную работу
 System.Threading.Thread.Sleep(2000);
 
- // Запрос на прерывание рабочего потока thread
+// Запрос на прерывание рабочего потока
 monitor.Interrupt();
 System.Console.WriteLine("Interrupting the worker thread #{0} at {1}", thread.ManagedThreadId, System.DateTime.Now);
 
- // Ждем прерывания.
+// Ждем прерывания.
 thread.Join();
 
 System.Console.WriteLine("Done. Press ENTER to exit.");
 System.Console.ReadLine();
 
-// Вывод может выглядеть так: 
- // Прерывание рабочего потока №14 от 06.08.2019 3:57:53 PM
- // Рабочий поток №14 был прерван 06.08.2019 3:58:09 PM
+// Вывод может выглядеть так:
+// Прерывание рабочего потока № 14 от 06.08.2019 15:57:53
+// Рабочий поток №14 был прерван 06.08.2019 15:58:09
 // Сделанный. Нажмите ENTER для выхода.
 ```
 

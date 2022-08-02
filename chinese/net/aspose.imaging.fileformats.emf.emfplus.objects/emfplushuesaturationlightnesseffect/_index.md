@@ -24,9 +24,9 @@ public sealed class EmfPlusHueSaturationLightnessEffect : EmfPlusImageEffectsObj
 
 | 姓名 | 描述 |
 | --- | --- |
-| [HueLevel](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplushuesaturationlightnesseffect/huelevel) { get; set; } | 获取或设置 指定对色调的调整。 -180 ≤ 值 &lt; 0 负值指定色轮顺时针旋转。 0 值 0 指定色调不能改变。 0 &lt; value ≤ 180 正值指定色轮逆时针旋转。 |
-| [LightnessLevel](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplushuesaturationlightnesseffect/lightnesslevel) { get; set; } | 获取或设置 指定对亮度的调整。 -100 ≤ 值 &lt; 0 负值指定降低亮度。 0 值 0 指定亮度不得更改。 0 &lt; value ≤ 100 正值指定增加亮度。 |
-| [SaturationLevel](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplushuesaturationlightnesseffect/saturationlevel) { get; set; } | 获取或设置 指定对饱和度的调整。 -100 ≤ 值 &lt; 0 负值指定降低饱和度。 0 值 0 指定饱和度不得更改。 0 &lt; value ≤ 100 正值指定增加饱和度。 |
+| [HueLevel](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplushuesaturationlightnesseffect/huelevel) { get; set; } | 获取或设置指定对色调的调整。 -180 ≤ value &lt; 0 负值指定色轮上的顺时针旋转。 0 值 0 指定色调不得改变。 0 &lt; value ≤ 180 正值指定色轮上的逆时针旋转。 |
+| [LightnessLevel](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplushuesaturationlightnesseffect/lightnesslevel) { get; set; } | 获取或设置 指定对亮度的调整。 -100 ≤ value &lt; 0 负值指定降低亮度。 0 值 0 指定亮度不能改变。 0 &lt; value ≤ 100 正值指定增加亮度. |
+| [SaturationLevel](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplushuesaturationlightnesseffect/saturationlevel) { get; set; } | 获取或设置 指定对饱和度的调整。 -100 ≤ value &lt; 0 负值指定降低饱和度。 0 值 0 指定饱和度不得改变。 0 &lt; value ≤ 100 正值指定增加饱和度. |
 
 ### 也可以看看
 

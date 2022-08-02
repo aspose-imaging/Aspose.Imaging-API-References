@@ -1,14 +1,14 @@
 ---
 title: WmfStretchDib
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект wmf Stretch DIB.
+description: Объект WMF Stretch DIB c.
 type: docs
 weight: 9250
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfstretchdib/
 ---
 ## WmfStretchDib class
 
-Объект wmf Stretch DIB.
+Объект WMF Stretch DIB c.
 
 ```csharp
 public class WmfStretchDib : WmfObject
@@ -31,9 +31,9 @@ public class WmfStretchDib : WmfObject
 | [SourceBitmap](../../aspose.imaging.fileformats.wmf.objects/wmfstretchdib/sourcebitmap) { get; set; } | Получает или задает исходное растровое изображение. |
 | [SrcHeight](../../aspose.imaging.fileformats.wmf.objects/wmfstretchdib/srcheight) { get; set; } | Получает или задает высоту источника. |
 | [SrcWidth](../../aspose.imaging.fileformats.wmf.objects/wmfstretchdib/srcwidth) { get; set; } | Получает или задает ширину источника. |
-| [XDest](../../aspose.imaging.fileformats.wmf.objects/wmfstretchdib/xdest) { get; set; } | Получает или задает x место назначения. |
+| [XDest](../../aspose.imaging.fileformats.wmf.objects/wmfstretchdib/xdest) { get; set; } | Получает или задает x dest. |
 | [XSrc](../../aspose.imaging.fileformats.wmf.objects/wmfstretchdib/xsrc) { get; set; } | Получает или задает источник x. |
-| [YDest](../../aspose.imaging.fileformats.wmf.objects/wmfstretchdib/ydest) { get; set; } | Получает или задает y-назначение. |
+| [YDest](../../aspose.imaging.fileformats.wmf.objects/wmfstretchdib/ydest) { get; set; } | Получает или задает y dest. |
 | [YSrc](../../aspose.imaging.fileformats.wmf.objects/wmfstretchdib/ysrc) { get; set; } | Получает или задает источник y. |
 
 ### Смотрите также

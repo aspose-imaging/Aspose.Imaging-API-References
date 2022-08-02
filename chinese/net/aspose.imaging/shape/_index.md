@@ -3,7 +3,7 @@ title: Shape
 second_title: Aspose.Imaging for .NET API 参考
 description: 形状使用特定规则连接的一组连续点
 type: docs
-weight: 10920
+weight: 10910
 url: /zh/net/aspose.imaging/shape/
 ---
 ## Shape class
@@ -20,7 +20,7 @@ public abstract class Shape : ObjectWithBounds
 | --- | --- |
 | abstract [Bounds](../../aspose.imaging/objectwithbounds/bounds) { get; } | 获取对象的边界。 |
 | abstract [Center](../../aspose.imaging/shape/center) { get; } | 获取形状的中心。 |
-| abstract [HasSegments](../../aspose.imaging/shape/hassegments) { get; } | 获取表示形状是否有段的值。 |
+| abstract [HasSegments](../../aspose.imaging/shape/hassegments) { get; } | 获取一个表示形状是否有段的值。 |
 | abstract [Segments](../../aspose.imaging/shape/segments) { get; } | 获取形状段。 |
 
 ## 方法

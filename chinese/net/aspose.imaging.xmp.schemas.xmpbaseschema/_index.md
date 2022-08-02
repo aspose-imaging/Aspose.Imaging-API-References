@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.Xmp.Schemas.XmpBaseSchema
 second_title: Aspose.Imaging for .NET API 参考
-description: 命名空间包含与 XMP 基本模式相关的帮助类常量和提供基本描述信息的方法
+description: 命名空间包含 XMP 基本模式相关的帮助类常量和提供基本描述信息的方法
 type: docs
 weight: 940
 url: /zh/net/aspose.imaging.xmp.schemas.xmpbaseschema/
 ---
-命名空间包含与 XMP 基本模式相关的帮助类、常量和提供基本描述信息的方法。
+命名空间包含 XMP 基本模式相关的帮助类、常量和提供基本描述信息的方法。
 
 ## 课程
 

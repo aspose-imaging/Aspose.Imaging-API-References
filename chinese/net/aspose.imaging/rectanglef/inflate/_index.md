@@ -1,14 +1,14 @@
 ---
 title: Inflate
 second_title: Aspose.Imaging for .NET API 参考
-description: 创建并返回指定RectangleFaspose.imaging/rectanglef结构的膨胀副本副本按指定的数量膨胀原始矩形保持不变
+description: 创建并返回指定的膨胀副本RectangleFaspose.imaging/rectanglef结构体副本按指定的数量膨胀原始矩形保持不变
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging/rectanglef/inflate/
 ---
 ## Inflate(RectangleF, float, float)
 
-创建并返回指定[`RectangleF`](../../rectanglef)结构的膨胀副本。副本按指定的数量膨胀。原始矩形保持不变。
+创建并返回指定的膨胀副本[`RectangleF`](../../rectanglef)结构体。副本按指定的数量膨胀。原始矩形保持不变。
 
 ```csharp
 public static RectangleF Inflate(RectangleF rect, float x, float y)
@@ -16,13 +16,13 @@ public static RectangleF Inflate(RectangleF rect, float x, float y)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | RectangleF | [`RectangleF`](../../rectanglef)被复制。此矩形未修改。 |
+| rect | RectangleF | 这[`RectangleF`](../../rectanglef)被复制。此矩形未修改。 |
 | x | Single | 水平扩展矩形副本的量。 |
-| y | Single | 垂直扩展矩形副本的量。 |
+| y | Single | 垂直膨胀矩形副本的量。 |
 
 ### 返回值
 
-膨胀的[`RectangleF`](../../rectanglef)。
+膨胀的[`RectangleF`](../../rectanglef).
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public static RectangleF Inflate(RectangleF rect, float x, float y)
 
 ## Inflate(float, float) {#inflate_1}
 
-将这个[`RectangleF`](../../rectanglef)结构膨胀指定的量。
+膨胀这个[`RectangleF`](../../rectanglef)指定数量的结构。
 
 ```csharp
 public void Inflate(float x, float y)
@@ -42,8 +42,8 @@ public void Inflate(float x, float y)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 水平膨胀此[`RectangleF`](../../rectanglef)结构的量。 |
-| y | Single | 垂直膨胀此[`RectangleF`](../../rectanglef)结构的量。 |
+| x | Single | 膨胀的金额[`RectangleF`](../../rectanglef)横向结构。 |
+| y | Single | 膨胀的金额[`RectangleF`](../../rectanglef)垂直结构。 |
 
 ### 也可以看看
 
@@ -55,7 +55,7 @@ public void Inflate(float x, float y)
 
 ## Inflate(SizeF) {#inflate}
 
-将这个[`RectangleF`](../../rectanglef)膨胀指定的量。
+膨胀这个[`RectangleF`](../../rectanglef)按指定数量。
 
 ```csharp
 public void Inflate(SizeF size)
@@ -63,7 +63,7 @@ public void Inflate(SizeF size)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| size | SizeF | 这个矩形的膨胀量。 |
+| size | SizeF | 此矩形的膨胀量。 |
 
 ### 也可以看看
 

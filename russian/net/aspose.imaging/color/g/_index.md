@@ -1,14 +1,14 @@
 ---
 title: G
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение зеленого компонента этойColoraspose.imaging/colorструктуры.
+description: Получает значение зеленого компонента этогоColoraspose.imaging/color структура.
 type: docs
 weight: 1480
 url: /ru/net/aspose.imaging/color/g/
 ---
 ## Color.G property
 
-Получает значение зеленого компонента этой[`Color`](../../color)структуры.
+Получает значение зеленого компонента этого[`Color`](../../color) структура.
 
 ```csharp
 public byte G { get; }

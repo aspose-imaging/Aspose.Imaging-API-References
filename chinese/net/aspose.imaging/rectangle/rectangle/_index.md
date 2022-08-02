@@ -1,14 +1,14 @@
 ---
 title: Rectangle
 second_title: Aspose.Imaging for .NET API 参考
-description: 用指定的位置和大小初始化Rectangleaspose.imaging/rectangle结构的新实例
+description: 初始化Rectangleaspose.imaging/rectangle具有指定位置和大小的结构
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/rectangle/rectangle/
 ---
 ## Rectangle(int, int, int, int) {#constructor_1}
 
-用指定的位置和大小初始化[`Rectangle`](../../rectangle)结构的新实例。
+初始化[`Rectangle`](../../rectangle)具有指定位置和大小的结构。
 
 ```csharp
 public Rectangle(int x, int y, int width, int height)
@@ -31,7 +31,7 @@ public Rectangle(int x, int y, int width, int height)
 
 ## Rectangle(Point, Size) {#constructor}
 
-用指定的位置和大小初始化[`Rectangle`](../../rectangle)结构的新实例。
+初始化[`Rectangle`](../../rectangle)具有指定位置和大小的结构。
 
 ```csharp
 public Rectangle(Point location, Size size)
@@ -39,8 +39,8 @@ public Rectangle(Point location, Size size)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| location | Point | A[`Point`](../../point)表示左上角矩形区域。 |
-| size | Size | A[`Size`](../../size)表示矩形区域的宽度和高度。 |
+| location | Point | 一个[`Point`](../../point)表示矩形区域的左上角。 |
+| size | Size | 一个[`Size`](../../size)表示矩形区域的宽度和高度。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ReplaceNonTransparentColors
 second_title: Aspose.Imaging for .NET API 参考
-description: 用新颜色替换所有非透明颜色并保留原始 alpha 值以保存平滑边缘 注意如果您在没有透明度的图像上使用它所有颜色都将替换为一种颜色
+description: 将所有不透明的颜色替换为新颜色并保留原始 alpha 值以保存平滑的边缘 注意如果在不透明的图像上使用它所有颜色都将替换为一个颜色
 type: docs
 weight: 260
 url: /zh/net/aspose.imaging/rastercachedmultipageimage/replacenontransparentcolors/
 ---
 ## RasterCachedMultipageImage.ReplaceNonTransparentColors method
 
-用新颜色替换所有非透明颜色并保留原始 alpha 值以保存平滑边缘。 注意:如果您在没有透明度的图像上使用它，所有颜色都将替换为一种颜色。
+将所有不透明的颜色替换为新颜色并保留原始 alpha 值以保存平滑的边缘。 注意：如果在不透明的图像上使用它，所有颜色都将替换为一个颜色。
 
 ```csharp
 public override void ReplaceNonTransparentColors(int newColorArgb)

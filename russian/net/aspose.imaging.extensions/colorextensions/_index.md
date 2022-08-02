@@ -1,14 +1,14 @@
 ---
 title: ColorExtensions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Методы расширенияColor../aspose.imaging/color.
+description: Color../aspose.imaging/color методы расширения.
 type: docs
 weight: 1140
 url: /ru/net/aspose.imaging.extensions/colorextensions/
 ---
 ## ColorExtensions class
 
-Методы расширения[`Color`](../../aspose.imaging/color).
+[`Color`](../../aspose.imaging/color) методы расширения.
 
 ```csharp
 public static class ColorExtensions
@@ -18,8 +18,8 @@ public static class ColorExtensions
 
 | Имя | Описание |
 | --- | --- |
-| static [ToGdiColor](../../aspose.imaging.extensions/colorextensions/togdicolor)(Color) | Преобразует[`Color`](../../aspose.imaging/color)вColor. |
-| static [ToGdiColors](../../aspose.imaging.extensions/colorextensions/togdicolors)(Color[]) | Преобразует массив[`Color`](../../aspose.imaging/color)в массивColorмножество. |
+| static [ToGdiColor](../../aspose.imaging.extensions/colorextensions/togdicolor)(Color) | Преобразует[`Color`](../../aspose.imaging/color) кColor . |
+| static [ToGdiColors](../../aspose.imaging.extensions/colorextensions/togdicolors)(Color[]) | Преобразует[`Color`](../../aspose.imaging/color)массив кColor массив. |
 
 ### Смотрите также
 

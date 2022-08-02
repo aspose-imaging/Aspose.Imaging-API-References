@@ -16,7 +16,7 @@ public void SetOutputChannel(ColorChannelFlag flags)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| flags | ColorChannelFlag | Элемент[`ColorChannelFlag`](../../colorchannelflag), указывающий выходной канал. |
+| flags | ColorChannelFlag | Элемент[`ColorChannelFlag`](../../colorchannelflag) который определяет выходной канал. |
 
 ### Смотрите также
 
@@ -37,8 +37,8 @@ public void SetOutputChannel(ColorChannelFlag flags, ColorAdjustType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| flags | ColorChannelFlag | Элемент[`ColorChannelFlag`](../../colorchannelflag), указывающий выходной канал. |
-| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype), указывающий категорию, для которой установлен выходной канал. |
+| flags | ColorChannelFlag | Элемент[`ColorChannelFlag`](../../colorchannelflag) который определяет выходной канал. |
+| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype) который указывает категорию, для которой установлен выходной канал. |
 
 ### Смотрите также
 

@@ -19,8 +19,8 @@ public enum TiffResolutionUnits : ushort
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `1` | 没有有意义的单位。 |
-| Inch | `2` | 英文系统。 |
-| Centimeter | `3` | 公制。 |
+| Inch | `2` | 英文系统. |
+| Centimeter | `3` | 公制. |
 
 ### 也可以看看
 

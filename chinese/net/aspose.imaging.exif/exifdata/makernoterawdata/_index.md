@@ -1,14 +1,14 @@
 ---
 title: MakerNoteRawData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置制造商票据原始数据
+description: 获取或设置 maker note 原始数据
 type: docs
 weight: 800
 url: /zh/net/aspose.imaging.exif/exifdata/makernoterawdata/
 ---
 ## ExifData.MakerNoteRawData property
 
-获取或设置制造商票据原始数据。
+获取或设置 maker note 原始数据。
 
 ```csharp
 public byte[] MakerNoteRawData { get; set; }

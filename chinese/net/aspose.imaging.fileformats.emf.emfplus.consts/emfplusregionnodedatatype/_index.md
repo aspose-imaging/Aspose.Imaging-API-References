@@ -18,19 +18,19 @@ public enum EmfPlusRegionNodeDataType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| RegionNodeDataTypeAnd | `1` | 指定具有子节点的区域节点。布尔 AND 运算应该应用于由[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes)对象指定的左右子节点（第 2.2.2.41 节）。 |
-| RegionNodeDataTypeOr | `2` | 指定具有子节点的区域节点。布尔 OR 运算应该应用于由[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes)对象指定的左右子节点。 |
-| RegionNodeDataTypeXor | `3` | 指定具有子节点的区域节点。布尔 XOR 操作应该应用于由[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes)对象指定的左右子节点。 |
-| RegionNodeDataTypeExclude | `4` | 指定具有子节点的区域节点。布尔运算，定义为“区域 1 中排除在区域 2 之外的部分”，应该应用于由EmfPlusRegionNodeChildNodes对象。 |
-| RegionNodeDataTypeComplement | `5` | 指定具有子节点的区域节点。布尔运算，定义为“区域 2 中排除在区域 1 之外的部分”，应该应用于由EmfPlusRegionNodeChildNodes对象。 |
-| RegionNodeDataTypeRect | `268435456` | 指定没有子节点的区域节点。 RegionNodeData 字段应该用[`EmfPlusRectF`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusrectf)对象指定边界（第 2.2.2.39 节）。 |
-| RegionNodeDataTypePath | `268435457` | 指定没有子节点的区域节点。 RegionNodeData 字段应该用[`EmfPlusRegionNodePath`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodepath)对象指定边界（第 2.2.2.42 节）。 |
+| RegionNodeDataTypeAnd | `1` | 指定具有子节点的区域节点。一个布尔 AND 操作应该被应用到由一个指定的左右子节点[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes)对象（第 2.2.2.41 节）. |
+| RegionNodeDataTypeOr | `2` | 指定具有子节点的区域节点。一个布尔 OR 运算应该应用于由[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes)对象. |
+| RegionNodeDataTypeXor | `3` | 指定具有子节点的区域节点。一个布尔异或运算应该被应用到由一个指定的左右子节点[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes)对象. |
+| RegionNodeDataTypeExclude | `4` | 指定具有子节点的区域节点。布尔运算，定义为“从区域 2 中排除的区域 1 的部分”，应该应用于由[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes)对象. |
+| RegionNodeDataTypeComplement | `5` | 指定具有子节点的区域节点。布尔运算，定义为“区域 2 中排除在区域 1 之外的部分”，应该应用于由[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes)对象. |
+| RegionNodeDataTypeRect | `268435456` | 指定没有子节点的区域节点。 RegionNodeData 字段应该用[`EmfPlusRectF`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusrectf)对象（第 2.2.2.39 节）. |
+| RegionNodeDataTypePath | `268435457` | 指定没有子节点的区域节点。 RegionNodeData 字段应该用[`EmfPlusRegionNodePath`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodepath)对象（第 2.2.2.42 节）. |
 | RegionNodeDataTypeEmpty | `268435458` | 指定没有子节点的区域节点。 RegionNodeData 字段不应该存在 |
 | RegionNodeDataTypeInfinite | `268435459` | 指定一个没有子节点的区域节点，并且它的边界没有定义。 |
 
 ### 评论
 
-区域节点数据由EmfPlusRegionNode对象（第 2.2.2.40 节）。
+区域节点数据由[`EmfPlusRegionNode`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnode)对象（第 2.2.2.40 节）.
 
 ### 也可以看看
 

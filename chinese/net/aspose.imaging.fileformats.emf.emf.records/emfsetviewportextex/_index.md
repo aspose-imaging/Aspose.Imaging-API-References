@@ -18,14 +18,14 @@ public sealed class EmfSetViewportExtEx : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSetViewportExtEx](emfsetviewportextex#constructor)() | 初始化[`EmfSetViewportExtEx`](../emfsetviewportextex)类的新实例。 |
-| [EmfSetViewportExtEx](emfsetviewportextex#constructor_1)(EmfRecord) | 初始化[`EmfSetViewportExtEx`](../emfsetviewportextex)类的新实例。 |
+| [EmfSetViewportExtEx](emfsetviewportextex#constructor)() | 初始化[`EmfSetViewportExtEx`](../emfsetviewportextex)类. |
+| [EmfSetViewportExtEx](emfsetviewportextex#constructor_1)(EmfRecord) | 初始化[`EmfSetViewportExtEx`](../emfsetviewportextex)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Extent](../../aspose.imaging.fileformats.emf.emf.records/emfsetviewportextex/extent) { get; set; } | 获取或设置指定 水平和垂直范围的 64 位 WMF SizeL 对象（[MS-WMF] 第 2.2.2.22 节）以设备为单位。 |
+| [Extent](../../aspose.imaging.fileformats.emf.emf.records/emfsetviewportextex/extent) { get; set; } | 获取或设置一个 64 位 WMF SizeL 对象（[MS-WMF] 第 2.2.2.22 节），它以设备单位指定 水平和垂直范围。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

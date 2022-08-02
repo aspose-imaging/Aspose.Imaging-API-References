@@ -18,15 +18,15 @@ public class CieCoordinates
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CieCoordinates](ciecoordinates)(byte[]) | 初始化[`CieCoordinates`](../ciecoordinates)类的新实例。 |
+| [CieCoordinates](ciecoordinates)(byte[]) | 初始化[`CieCoordinates`](../ciecoordinates)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CieCoordinatesX](../../aspose.imaging.fileformats.bmp.structures/ciecoordinates/ciecoordinatesx) { get; set; } | 获取或设置坐标x。 |
-| [CieCoordinatesY](../../aspose.imaging.fileformats.bmp.structures/ciecoordinates/ciecoordinatesy) { get; set; } | 获取或设置坐标y。 |
-| [CieCoordinatesZ](../../aspose.imaging.fileformats.bmp.structures/ciecoordinates/ciecoordinatesz) { get; set; } | 获取或设置坐标 z。 |
+| [CieCoordinatesX](../../aspose.imaging.fileformats.bmp.structures/ciecoordinates/ciecoordinatesx) { get; set; } | 获取或设置坐标x. |
+| [CieCoordinatesY](../../aspose.imaging.fileformats.bmp.structures/ciecoordinates/ciecoordinatesy) { get; set; } | 获取或设置坐标y. |
+| [CieCoordinatesZ](../../aspose.imaging.fileformats.bmp.structures/ciecoordinates/ciecoordinatesz) { get; set; } | 获取或设置坐标z. |
 
 ### 也可以看看
 

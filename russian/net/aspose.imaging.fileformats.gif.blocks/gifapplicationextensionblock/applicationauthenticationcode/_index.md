@@ -1,14 +1,14 @@
 ---
 title: ApplicationAuthenticationCode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает код проверки подлинности приложения.
+description: Получает или задает код аутентификации приложения.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationauthenticationcode/
 ---
 ## GifApplicationExtensionBlock.ApplicationAuthenticationCode property
 
-Получает или задает код проверки подлинности приложения.
+Получает или задает код аутентификации приложения.
 
 ```csharp
 public byte[] ApplicationAuthenticationCode { get; set; }

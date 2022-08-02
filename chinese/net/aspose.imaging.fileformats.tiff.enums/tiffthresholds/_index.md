@@ -1,14 +1,14 @@
 ---
 title: TiffThresholds
 second_title: Aspose.Imaging for .NET API 参考
-description: 用于数据的阈值
+description: 对数据使用的阈值
 type: docs
 weight: 7750
 url: /zh/net/aspose.imaging.fileformats.tiff.enums/tiffthresholds/
 ---
 ## TiffThresholds enumeration
 
-用于数据的阈值。
+对数据使用的阈值。
 
 ```csharp
 public enum TiffThresholds : ushort
@@ -20,7 +20,7 @@ public enum TiffThresholds : ushort
 | --- | --- | --- |
 | NoDithering | `1` | 不执行抖动。 |
 | HalfTone | `2` | 抖动扫描。 |
-| ErrorDiffuse | `3` | 通常是 Floyd-Steinberg。 |
+| ErrorDiffuse | `3` | 通常是弗洛伊德-斯坦伯格. |
 
 ### 也可以看看
 

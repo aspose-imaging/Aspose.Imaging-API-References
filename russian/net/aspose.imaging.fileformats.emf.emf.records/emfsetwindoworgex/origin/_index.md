@@ -1,14 +1,14 @@
 ---
 title: Origin
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 64-битный объект WMF PointL MS-WMF раздел 2.2.2.15 который указывает окно по горизонтали и вертикали происхождение в логических единицах.
+description: Получает или задает 64-битный объект WMF PointL MS-WMF раздел 2.2.2.15 который определяет начало координат окна по горизонтали и вертикали в логических единицах.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetwindoworgex/origin/
 ---
 ## EmfSetWindowOrgEx.Origin property
 
-Получает или задает 64-битный объект WMF PointL ([MS-WMF], раздел 2.2.2.15), который указывает окно по горизонтали и вертикали происхождение в логических единицах.
+Получает или задает 64-битный объект WMF PointL ([MS-WMF], раздел 2.2.2.15), который определяет начало координат окна по горизонтали и вертикали в логических единицах.
 
 ```csharp
 public Point Origin { get; set; }

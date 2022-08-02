@@ -18,7 +18,7 @@ public override void Dither(DitheringMethod ditheringMethod, int bitsCount,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | ditheringMethod | DitheringMethod | Метод дизеринга. |
-| bitsCount | Int32 | Для сглаживания учитываются последние биты. |
+| bitsCount | Int32 | Последние биты учитываются при дизеринге. |
 | customPalette | IColorPalette | Пользовательская палитра для сглаживания. |
 
 ### Смотрите также

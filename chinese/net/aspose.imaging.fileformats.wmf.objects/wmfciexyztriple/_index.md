@@ -24,9 +24,9 @@ public class WmfCieXyzTriple
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CiexyzBlue](../../aspose.imaging.fileformats.wmf.objects/wmfciexyztriple/ciexyzblue) { get; set; } | 获取或设置定义蓝色 色度值的 96 位 CIEXYZ 对象。 |
-| [CiexyzGreen](../../aspose.imaging.fileformats.wmf.objects/wmfciexyztriple/ciexyzgreen) { get; set; } | 获取或设置定义绿色 色度值的 96 位 CIEXYZ 对象。 |
-| [CiexyzRed](../../aspose.imaging.fileformats.wmf.objects/wmfciexyztriple/ciexyzred) { get; set; } | 获取或设置定义红色 色度值的 96 位 CIEXYZ 对象。 |
+| [CiexyzBlue](../../aspose.imaging.fileformats.wmf.objects/wmfciexyztriple/ciexyzblue) { get; set; } | 获取或设置定义 blue 色度值的 96 位 CIEXYZ 对象。 |
+| [CiexyzGreen](../../aspose.imaging.fileformats.wmf.objects/wmfciexyztriple/ciexyzgreen) { get; set; } | 获取或设置定义 green 色度值的 96 位 CIEXYZ 对象。 |
+| [CiexyzRed](../../aspose.imaging.fileformats.wmf.objects/wmfciexyztriple/ciexyzred) { get; set; } | 获取或设置定义 red 色度值的 96 位 CIEXYZ 对象。 |
 
 ### 也可以看看
 

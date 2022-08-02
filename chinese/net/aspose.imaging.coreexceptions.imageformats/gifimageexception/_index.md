@@ -18,8 +18,8 @@ public class GifImageException : ImageException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GifImageException](gifimageexception#constructor)(string) | 初始化[`GifImageException`](../gifimageexception)类的新实例。 |
-| [GifImageException](gifimageexception#constructor_1)(string, Exception) | 初始化[`GifImageException`](../gifimageexception)类的新实例。 |
+| [GifImageException](gifimageexception#constructor)(string) | 初始化[`GifImageException`](../gifimageexception)类. |
+| [GifImageException](gifimageexception#constructor_1)(string, Exception) | 初始化[`GifImageException`](../gifimageexception)类. |
 
 ### 也可以看看
 

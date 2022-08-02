@@ -1,14 +1,14 @@
 ---
 title: CompositingMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение режима композиции из перечисления CompositingMode раздел 2.1.1.5. Композиция может быть выражена как состояние альфы смешивания которое может быть либо включено либо выключено.
+description: Получает или задает значение режима композитинга из перечисления CompositingMode раздел 2.1.1.5. Композиция может быть выражена как состояние смешивания alpha  которое может быть включено или выключено.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetcompositingmode/compositingmode/
 ---
 ## EmfPlusSetCompositingMode.CompositingMode property
 
-Получает или задает значение режима композиции из перечисления CompositingMode (раздел 2.1.1.5). Композиция может быть выражена как состояние альфы смешивания, которое может быть либо включено, либо выключено.
+Получает или задает значение режима композитинга из перечисления CompositingMode (раздел 2.1.1.5). Композиция может быть выражена как состояние смешивания alpha , которое может быть включено или выключено.
 
 ```csharp
 public EmfPlusCompositingMode CompositingMode { get; set; }

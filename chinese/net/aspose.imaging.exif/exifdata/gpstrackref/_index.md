@@ -1,14 +1,14 @@
 ---
 title: GPSTrackRef
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置用于给出 GPS 接收器移动方向的参考
+description: 获取或设置 GPS 接收器运动方向的参考
 type: docs
 weight: 660
 url: /zh/net/aspose.imaging.exif/exifdata/gpstrackref/
 ---
 ## ExifData.GPSTrackRef property
 
-获取或设置用于给出 GPS 接收器移动方向的参考。
+获取或设置 GPS 接收器运动方向的参考。
 
 ```csharp
 public string GPSTrackRef { get; set; }
@@ -16,7 +16,7 @@ public string GPSTrackRef { get; set; }
 
 ### 适当的价值
 
-给出 GPS 接收器运动方向的参考。
+GPS 接收器运动方向的参考。
 
 ### 也可以看看
 

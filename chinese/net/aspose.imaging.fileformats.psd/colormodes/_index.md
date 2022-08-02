@@ -23,9 +23,9 @@ public enum ColorModes : short
 | Indexed | `2` | 索引颜色模式。 |
 | Rgb | `3` | RGB 颜色模式。 |
 | Cmyk | `4` | CMYK 颜色模式。 |
-| Multichannel | `7` | 多通道颜色模式。 |
+| Multichannel | `7` | 多通道色彩模式。 |
 | Duotone | `8` | 双色调颜色模式。 |
-| Lab | `9` | Lab 颜色模式。 |
+| Lab | `9` | 实验室色彩模式。 |
 
 ### 也可以看看
 

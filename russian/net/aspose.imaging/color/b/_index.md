@@ -1,14 +1,14 @@
 ---
 title: B
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение синего компонента этойColoraspose.imaging/colorструктуры.
+description: Получает значение синего компонента этогоColoraspose.imaging/color структура.
 type: docs
 weight: 1470
 url: /ru/net/aspose.imaging/color/b/
 ---
 ## Color.B property
 
-Получает значение синего компонента этой[`Color`](../../color)структуры.
+Получает значение синего компонента этого[`Color`](../../color) структура.
 
 ```csharp
 public byte B { get; }

@@ -1,14 +1,14 @@
 ---
 title: IntersectsWith
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Определяет пересекается ли этот прямоугольник сrect.
+description: Определяет пересекается ли этот прямоугольник сrect .
 type: docs
 weight: 250
 url: /ru/net/aspose.imaging/rectangle/intersectswith/
 ---
 ## Rectangle.IntersectsWith method
 
-Определяет, пересекается ли этот прямоугольник с*rect*.
+Определяет, пересекается ли этот прямоугольник с*rect* .
 
 ```csharp
 public bool IntersectsWith(Rectangle rect)
@@ -20,7 +20,7 @@ public bool IntersectsWith(Rectangle rect)
 
 ### Возвращаемое значение
 
-Этот метод возвращает true, если есть пересечение, иначе false.
+Этот метод возвращает true, если есть какое-либо пересечение, иначе false.
 
 ### Смотрите также
 

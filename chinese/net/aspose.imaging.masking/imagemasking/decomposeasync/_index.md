@@ -16,7 +16,7 @@ public IAsyncTask DecomposeAsync(MaskingOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| options | MaskingOptions | 掩码选项。 |
+| options | MaskingOptions | 掩蔽选项。 |
 
 ### 返回值
 

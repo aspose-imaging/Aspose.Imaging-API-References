@@ -1,14 +1,14 @@
 ---
 title: GenericDefault
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取通用默认StringFormataspose.imaging/stringformat对象
+description: 获取通用默认值StringFormataspose.imaging/stringformat对象.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging/stringformat/genericdefault/
 ---
 ## StringFormat.GenericDefault property
 
-获取通用默认[`StringFormat`](../../stringformat)对象。
+获取通用默认值[`StringFormat`](../../stringformat)对象.
 
 ```csharp
 public static StringFormat GenericDefault { get; }
@@ -16,7 +16,7 @@ public static StringFormat GenericDefault { get; }
 
 ### 适当的价值
 
-通用默认[`StringFormat`](../../stringformat)对象。
+通用默认值[`StringFormat`](../../stringformat)目的。
 
 ### 也可以看看
 

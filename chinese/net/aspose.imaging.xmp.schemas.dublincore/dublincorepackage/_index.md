@@ -1,14 +1,14 @@
 ---
 title: DublinCorePackage
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示 Dublic Core 模式
+description: 表示 Dublic Core 架构
 type: docs
-weight: 11300
+weight: 11290
 url: /zh/net/aspose.imaging.xmp.schemas.dublincore/dublincorepackage/
 ---
 ## DublinCorePackage class
 
-表示 Dublic Core 模式。
+表示 Dublic Core 架构。
 
 ```csharp
 public sealed class DublinCorePackage : XmpPackage
@@ -24,7 +24,7 @@ public sealed class DublinCorePackage : XmpPackage
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [Item](../../aspose.imaging.xmp/xmppackage/item) { get; set; } | 使用指定的键获取或设置Object。 |
+| virtual [Item](../../aspose.imaging.xmp/xmppackage/item) { get; set; } | 获取或设置Object使用指定的密钥。 |
 | virtual [Keys](../../aspose.imaging.xmp/xmppackage/keys) { get; } | 获取 XMP 包中的密钥。 |
 | [NamespaceUri](../../aspose.imaging.xmp/xmppackage/namespaceuri) { get; } | 获取命名空间 URI。 |
 | [Prefix](../../aspose.imaging.xmp/xmppackage/prefix) { get; } | 获取前缀。 |
@@ -38,8 +38,8 @@ public sealed class DublinCorePackage : XmpPackage
 | virtual [Clear](../../aspose.imaging.xmp/xmppackage/clear)() | 清除此实例。 |
 | virtual [ContainsKey](../../aspose.imaging.xmp/xmppackage/containskey)(string) | 判断指定key是否包含key。 |
 | [GetEnumerator](../../aspose.imaging.xmp/xmppackage/getenumerator)() | 返回一个遍历集合的枚举器。 |
-| virtual [GetXmlValue](../../aspose.imaging.xmp/xmppackage/getxmlvalue)() | 将 XMP 值转换为 XML 表示。 |
-| virtual [Remove](../../aspose.imaging.xmp/xmppackage/remove)(string) | 删除具有指定键的值。 |
+| virtual [GetXmlValue](../../aspose.imaging.xmp/xmppackage/getxmlvalue)() | 将 XMP 值转换为 XML 表示形式。 |
+| virtual [Remove](../../aspose.imaging.xmp/xmppackage/remove)(string) | 删除指定键的值。 |
 | [SetAuthor](../../aspose.imaging.xmp.schemas.dublincore/dublincorepackage/setauthor#setauthor)(string) | 添加作者。 |
 | [SetAuthor](../../aspose.imaging.xmp.schemas.dublincore/dublincorepackage/setauthor#setauthor_1)(string[]) | 添加作者。 |
 | [SetDescription](../../aspose.imaging.xmp.schemas.dublincore/dublincorepackage/setdescription#setdescription)(LangAlt) | 添加描述。 |
@@ -55,7 +55,7 @@ public sealed class DublinCorePackage : XmpPackage
 
 ### 评论
 
-更多信息请参见:http://dublincore.org/documents/usageguide/elements.shtml .
+欲了解更多信息，请参阅：http://dublincore.org/documents/usageguide/elements.shtml.
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public static AudioChannelType Mono { get; }
 
 ### 适当的价值
 
-单声道。
+单声道音频通道。
 
 ### 也可以看看
 

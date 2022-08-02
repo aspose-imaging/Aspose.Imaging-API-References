@@ -1,14 +1,14 @@
 ---
 title: VectorPathRecordFactory
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Класс фабрики записей пути
+description: Класс фабрики записей векторного пути
 type: docs
 weight: 2360
 url: /ru/net/aspose.imaging.fileformats.core.vectorpaths/vectorpathrecordfactory/
 ---
 ## VectorPathRecordFactory class
 
-Класс фабрики записей пути
+Класс фабрики записей векторного пути
 
 ```csharp
 public class VectorPathRecordFactory

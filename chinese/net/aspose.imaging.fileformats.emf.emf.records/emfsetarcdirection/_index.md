@@ -18,20 +18,20 @@ public sealed class EmfSetArcDirection : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSetArcDirection](emfsetarcdirection#constructor)() | 初始化[`EmfSetArcDirection`](../emfsetarcdirection)类的新实例。 |
-| [EmfSetArcDirection](emfsetarcdirection#constructor_1)(EmfRecord) | 初始化[`EmfSetArcDirection`](../emfsetarcdirection)类的新实例。 |
+| [EmfSetArcDirection](emfsetarcdirection#constructor)() | 初始化[`EmfSetArcDirection`](../emfsetarcdirection)类. |
+| [EmfSetArcDirection](emfsetarcdirection#constructor_1)(EmfRecord) | 初始化[`EmfSetArcDirection`](../emfsetarcdirection)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ArcDirection](../../aspose.imaging.fileformats.emf.emf.records/emfsetarcdirection/arcdirection) { get; set; } | 获取或设置指定圆弧方向的 32 位无符号整数。值 必须在 ArcDirection 枚举中（第 2.1.2 节）。 默认方向是逆时针方向。 |
+| [ArcDirection](../../aspose.imaging.fileformats.emf.emf.records/emfsetarcdirection/arcdirection) { get; set; } | 获取或设置指定圆弧方向的 32 位无符号整数。 value 必须在 ArcDirection 枚举中（第 2.1.2 节）。 默认方向是逆时针方向。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 
 ### 评论
 
-EMR_SETARCDIRECTION 记录影响以下记录的绘制方向: - EMR_ARC (2.3.5.2 节) - EMR_ARCTO (2.3.5.3 节) - EMR_CHORD (2.3.5.4 节) - EMR_ELLIPSE (2.3 节.5.5) - EMR_PIE (第 2.3.5.15 节) - EMR_RECTANGLE (第 2.3.5.34 节) - EMR_ROUNDRECT (第 2.3.5.35 节)
+EMR_SETARCDIRECTION 记录影响以下记录的绘制方向： - EMR_ARC（第 2.3.5.2 节） - EMR_ARCTO（第 2.3.5.3 节） - EMR_CHORD（第 2.3.5.4 节） - EMR_ELLIPSE（第 2.3.5.5 节） - EMR_PIE（第 2.3.5.15 节） - EMR_RECTANGLE（第 2.3.5.34 节） - EMR_ROUNDRECT（第 2.3.5.35 节）
 
 ### 也可以看看
 

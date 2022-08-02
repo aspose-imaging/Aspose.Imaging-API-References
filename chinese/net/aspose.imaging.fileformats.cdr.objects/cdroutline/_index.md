@@ -1,14 +1,14 @@
 ---
 title: CdrOutline
 second_title: Aspose.Imaging for .NET API 参考
-description: cdr 输出行
+description: cdr out line
 type: docs
 weight: 1660
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdroutline/
 ---
 ## CdrOutline class
 
-cdr 输出行
+cdr out line
 
 ```csharp
 public class CdrOutline : CdrDictionaryItem
@@ -28,22 +28,22 @@ public class CdrOutline : CdrDictionaryItem
 | [CapsType](../../aspose.imaging.fileformats.cdr.objects/cdroutline/capstype) { get; set; } | 获取或设置大写字母的类型。 |
 | [Color](../../aspose.imaging.fileformats.cdr.objects/cdroutline/color) { get; set; } | 获取或设置颜色。 |
 | [DashArray](../../aspose.imaging.fileformats.cdr.objects/cdroutline/dasharray) { get; set; } | 获取或设置破折号数组。 |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示该实例是否被释放。 |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示此实例是否被释放。 |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | 获取或设置文档。 |
 | [EndMarkerId](../../aspose.imaging.fileformats.cdr.objects/cdroutline/endmarkerid) { get; set; } | 获取或设置结束标记标识符。 |
 | [Id](../../aspose.imaging.fileformats.cdr.objects/cdrdictionaryitem/id) { get; set; } | 获取或设置标识符。 |
 | [JoinType](../../aspose.imaging.fileformats.cdr.objects/cdroutline/jointype) { get; set; } | 获取或设置连接的类型。 |
-| [LineType](../../aspose.imaging.fileformats.cdr.objects/cdroutline/linetype) { get; set; } | 获取或设置行的类型。 |
+| [LineType](../../aspose.imaging.fileformats.cdr.objects/cdroutline/linetype) { get; set; } | 获取或设置线条的类型。 |
 | [LineWidth](../../aspose.imaging.fileformats.cdr.objects/cdroutline/linewidth) { get; set; } | 获取或设置线条的宽度。 |
 | [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | 获取或设置父级。 |
-| [StartMarkerId](../../aspose.imaging.fileformats.cdr.objects/cdroutline/startmarkerid) { get; set; } | 获取或设置开始标记标识符。 |
+| [StartMarkerId](../../aspose.imaging.fileformats.cdr.objects/cdroutline/startmarkerid) { get; set; } | 获取或设置起始标记标识符。 |
 | [Stretch](../../aspose.imaging.fileformats.cdr.objects/cdroutline/stretch) { get; set; } | 获取或设置拉伸。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 释放当前实例。 |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 处理当前实例。 |
 
 ### 也可以看看
 

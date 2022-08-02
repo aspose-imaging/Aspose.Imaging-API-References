@@ -1,14 +1,14 @@
 ---
 title: MakeEmpty
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует этоRegionaspose.imaging/regionпустым внутренним пространством.
+description: Инициализирует этоRegionaspose.imaging/region в пустой интерьер.
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging/region/makeempty/
 ---
 ## Region.MakeEmpty method
 
-Инициализирует это[`Region`](../../region)пустым внутренним пространством.
+Инициализирует это[`Region`](../../region) в пустой интерьер.
 
 ```csharp
 public void MakeEmpty()

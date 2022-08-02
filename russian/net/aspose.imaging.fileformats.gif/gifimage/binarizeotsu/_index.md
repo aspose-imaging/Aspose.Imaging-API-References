@@ -16,7 +16,7 @@ public override void BinarizeOtsu()
 
 ### Примеры
 
-В следующем примере бинаризируется GIF-изображение с пороговым значением Otsu. Бинаризованные изображения содержат только 2 цвета — черный и белый.
+В следующем примере выполняется бинаризация изображения GIF с пороговым значением Otsu. Бинаризованные изображения содержат только 2 цвета — черный и белый.
 
 ```csharp
 [C#]
@@ -27,7 +27,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"
 {
     Aspose.Imaging.FileFormats.Gif.GifImage gifImage = (Aspose.Imaging.FileFormats.Gif.GifImage)image;
 
-     // Бинаризация изображения с помощью порога Otsu.
+    // Бинаризация изображения с пороговым значением Otsu.
     gifImage.BinarizeOtsu();
     gifImage.Save(dir + "sample.BinarizeOtsu.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }

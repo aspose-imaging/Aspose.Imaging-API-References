@@ -1,14 +1,14 @@
 ---
 title: Mode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает режим.
+description: Получает или устанавливает режим.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.imageoptions/multipageoptions/mode/
 ---
 ## MultiPageOptions.Mode property
 
-Получает или задает режим.
+Получает или устанавливает режим.
 
 ```csharp
 public MultiPageMode Mode { get; set; }

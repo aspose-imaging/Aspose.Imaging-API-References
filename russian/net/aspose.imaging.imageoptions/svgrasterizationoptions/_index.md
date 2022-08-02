@@ -3,7 +3,7 @@ title: SvgRasterizationOptions
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Параметры растеризации SVG.
 type: docs
-weight: 10210
+weight: 10200
 url: /ru/net/aspose.imaging.imageoptions/svgrasterizationoptions/
 ---
 ## SvgRasterizationOptions class
@@ -27,7 +27,7 @@ public class SvgRasterizationOptions : VectorRasterizationOptions
 | [BackgroundColor](../../aspose.imaging.imageoptions/vectorrasterizationoptions/backgroundcolor) { get; set; } | Получает или задает цвет фона. |
 | [BorderX](../../aspose.imaging.imageoptions/vectorrasterizationoptions/borderx) { get; set; } | Получает или устанавливает границу X. |
 | [BorderY](../../aspose.imaging.imageoptions/vectorrasterizationoptions/bordery) { get; set; } | Получает или устанавливает границу Y. |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Получает или устанавливает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Получает или задает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
 | [CenterDrawing](../../aspose.imaging.imageoptions/vectorrasterizationoptions/centerdrawing) { get; set; } | Получает или задает значение, указывающее, центрирован ли рисунок. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
 | [DrawColor](../../aspose.imaging.imageoptions/vectorrasterizationoptions/drawcolor) { get; set; } | Получает или задает цвет переднего плана. |
@@ -43,7 +43,7 @@ public class SvgRasterizationOptions : VectorRasterizationOptions
 | [ScaleX](../../aspose.imaging.imageoptions/svgrasterizationoptions/scalex) { get; set; } | Получает или задает масштаб x. |
 | [ScaleY](../../aspose.imaging.imageoptions/svgrasterizationoptions/scaley) { get; set; } | Получает или задает масштаб y. |
 | [SmoothingMode](../../aspose.imaging.imageoptions/vectorrasterizationoptions/smoothingmode) { get; set; } | Получает или задает режим сглаживания. |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Получает или задает источник для создания изображения. |
+| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Получает или задает источник для создания изображения в. |
 | [TextRenderingHint](../../aspose.imaging.imageoptions/vectorrasterizationoptions/textrenderinghint) { get; set; } | Получает или задает подсказку рендеринга текста. |
 | [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Получает или задает параметры векторной растеризации. |
 | virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata) { get; set; } | Получает или задает контейнер метаданных XMP. |

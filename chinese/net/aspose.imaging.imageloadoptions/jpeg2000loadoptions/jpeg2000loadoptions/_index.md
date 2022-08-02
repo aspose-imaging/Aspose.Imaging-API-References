@@ -1,14 +1,14 @@
 ---
 title: Jpeg2000LoadOptions
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化Jpeg2000LoadOptionsaspose.imaging.imageloadoptions/jpeg2000loadoptions类的新实例
+description: 初始化Jpeg2000LoadOptionsaspose.imaging.imageloadoptions/jpeg2000loadoptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.imageloadoptions/jpeg2000loadoptions/jpeg2000loadoptions/
 ---
 ## Jpeg2000LoadOptions constructor
 
-初始化[`Jpeg2000LoadOptions`](../../jpeg2000loadoptions)类的新实例。
+初始化[`Jpeg2000LoadOptions`](../../jpeg2000loadoptions)类.
 
 ```csharp
 public Jpeg2000LoadOptions()

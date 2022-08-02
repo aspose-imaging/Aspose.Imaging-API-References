@@ -1,14 +1,14 @@
 ---
 title: TiffExifIfd
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTiffExifIfdaspose.imaging.fileformats.tiff/tiffexififd.
+description: Инициализирует новый экземплярTiffExifIfdaspose.imaging.fileformats.tiff/tiffexififd класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.tiff/tiffexififd/tiffexififd/
 ---
 ## TiffExifIfd() {#constructor}
 
-Инициализирует новый экземпляр класса[`TiffExifIfd`](../../tiffexififd).
+Инициализирует новый экземпляр[`TiffExifIfd`](../../tiffexififd) класс.
 
 ```csharp
 public TiffExifIfd()
@@ -24,7 +24,7 @@ public TiffExifIfd()
 
 ## TiffExifIfd(uint) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TiffExifIfd`](../../tiffexififd).
+Инициализирует новый экземпляр[`TiffExifIfd`](../../tiffexififd) класс.
 
 ```csharp
 public TiffExifIfd(uint ifdOffset)
@@ -36,7 +36,7 @@ public TiffExifIfd(uint ifdOffset)
 
 ### Примечания
 
-Совместимость, Exif IFD имеет ту же структуру, что и IFD, указанный в TIFF. обычно однако он не содержит данных изображения, как в случае TIFF.
+Взаимодействие, Exif IFD имеет ту же структуру, что и IFD, указанный в TIFF. обычно однако он не содержит данных изображения, как в случае TIFF.
 
 ### Смотрите также
 

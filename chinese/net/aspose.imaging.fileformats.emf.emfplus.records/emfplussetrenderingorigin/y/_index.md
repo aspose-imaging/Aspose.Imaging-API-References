@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数用于定义渲染原点的垂直坐标值
+description: 获取或设置一个 32 位无符号整数定义渲染原点的垂直坐标值
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetrenderingorigin/y/
 ---
 ## EmfPlusSetRenderingOrigin.Y property
 
-获取或设置一个 32 位无符号整数，用于定义渲染原点的垂直坐标值。
+获取或设置一个 32 位无符号整数，定义渲染原点的垂直坐标值。
 
 ```csharp
 public int Y { get; set; }
@@ -16,7 +16,7 @@ public int Y { get; set; }
 
 ### 适当的价值
 
-y。
+y.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: CanExport
 second_title: Aspose.Imaging for .NET API 参考
-description: 确定图像导出器是否可以将指定图像导出为保存选项指定的指定图像格式
+description: 决定图片导出器是否可以将指定图片导出为保存选项指定的指定图片格式
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/iimageexporterdescriptor/canexport/
 ---
 ## IImageExporterDescriptor.CanExport method
 
-确定图像导出器是否可以将指定图像导出为保存选项指定的指定图像格式。
+决定图片导出器是否可以将指定图片导出为保存选项指定的指定图片格式
 
 ```csharp
 public bool CanExport(Image image, ImageOptionsBase optionsBase)
@@ -21,7 +21,7 @@ public bool CanExport(Image image, ImageOptionsBase optionsBase)
 
 ### 返回值
 
-` True` 如果此描述符创建的导出器可以将指定的图像导出为指定的文件格式；否则，` false` 。
+`真的`如果此描述符创建的导出器可以将指定的图像导出为指定的文件格式；否则，`错误的` .
 
 ### 也可以看看
 

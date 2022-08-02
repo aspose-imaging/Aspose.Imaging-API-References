@@ -22,7 +22,7 @@ public override object Value { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 仅支持双精度数组。 |
+| ArgumentException | 仅支持双数组。 |
 
 ### 也可以看看
 

@@ -18,9 +18,9 @@ public class GifGraphicsControlBlock : GifBlock
 
 | Имя | Описание |
 | --- | --- |
-| [GifGraphicsControlBlock](gifgraphicscontrolblock#constructor)() | Инициализирует новый экземпляр класса[`GifGraphicsControlBlock`](../gifgraphicscontrolblock). |
-| [GifGraphicsControlBlock](gifgraphicscontrolblock#constructor_1)(byte, ushort, byte) | Инициализирует новый экземпляр класса[`GifGraphicsControlBlock`](../gifgraphicscontrolblock). |
-| [GifGraphicsControlBlock](gifgraphicscontrolblock#constructor_2)(ushort, bool, byte, bool, DisposalMethod) | Инициализирует новый экземпляр класса[`GifGraphicsControlBlock`](../gifgraphicscontrolblock). |
+| [GifGraphicsControlBlock](gifgraphicscontrolblock#constructor)() | Инициализирует новый экземпляр[`GifGraphicsControlBlock`](../gifgraphicscontrolblock) класс. |
+| [GifGraphicsControlBlock](gifgraphicscontrolblock#constructor_1)(byte, ushort, byte) | Инициализирует новый экземпляр[`GifGraphicsControlBlock`](../gifgraphicscontrolblock) класс. |
+| [GifGraphicsControlBlock](gifgraphicscontrolblock#constructor_2)(ushort, bool, byte, bool, DisposalMethod) | Инициализирует новый экземпляр[`GifGraphicsControlBlock`](../gifgraphicscontrolblock) класс. |
 
 ## Характеристики
 
@@ -45,7 +45,7 @@ public class GifGraphicsControlBlock : GifBlock
 
 | Имя | Описание |
 | --- | --- |
-| const [BlockHeaderSize](../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/blockheadersize) | Задает размер заголовка блока. |
+| const [BlockHeaderSize](../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/blockheadersize) | Определяет размер заголовка блока. |
 | const [ExtensionLabel](../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/extensionlabel) | Метка расширения. |
 | const [SubBlockSize](../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/subblocksize) | Получает размер подблока. |
 

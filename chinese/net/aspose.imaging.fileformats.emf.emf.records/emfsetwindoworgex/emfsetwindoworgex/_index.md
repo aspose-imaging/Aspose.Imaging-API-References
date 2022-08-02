@@ -1,14 +1,14 @@
 ---
 title: EmfSetWindowOrgEx
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfSetWindowOrgExaspose.imaging.fileformats.emf.emf.records/emfsetwindoworgex类的新实例
+description: 初始化EmfSetWindowOrgExaspose.imaging.fileformats.emf.emf.records/emfsetwindoworgex类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetwindoworgex/emfsetwindoworgex/
 ---
 ## EmfSetWindowOrgEx(EmfRecord) {#constructor_1}
 
-初始化[`EmfSetWindowOrgEx`](../../emfsetwindoworgex)类的新实例。
+初始化[`EmfSetWindowOrgEx`](../../emfsetwindoworgex)类.
 
 ```csharp
 public EmfSetWindowOrgEx(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfSetWindowOrgEx(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfSetWindowOrgEx(EmfRecord source)
 
 ## EmfSetWindowOrgEx() {#constructor}
 
-初始化[`EmfSetWindowOrgEx`](../../emfsetwindoworgex)类的新实例。
+初始化[`EmfSetWindowOrgEx`](../../emfsetwindoworgex)类.
 
 ```csharp
 public EmfSetWindowOrgEx()

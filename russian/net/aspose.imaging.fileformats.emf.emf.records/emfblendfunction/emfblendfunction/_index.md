@@ -1,14 +1,14 @@
 ---
 title: EmfBlendFunction
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfBlendFunctionaspose.imaging.fileformats.emf.emf.records/emfblendfunction.
+description: Инициализирует новый экземплярEmfBlendFunctionaspose.imaging.fileformats.emf.emf.records/emfblendfunction класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfblendfunction/emfblendfunction/
 ---
 ## EmfBlendFunction constructor
 
-Инициализирует новый экземпляр класса[`EmfBlendFunction`](../../emfblendfunction).
+Инициализирует новый экземпляр[`EmfBlendFunction`](../../emfblendfunction) класс.
 
 ```csharp
 public EmfBlendFunction(int dwordData)

@@ -1,14 +1,14 @@
 ---
 title: ExifFileSource
 second_title: Справочник по Aspose.Imaging for .NET API
-description: перечисление исходного файла exif.
+description: источник файла exif enum.
 type: docs
 weight: 930
 url: /ru/net/aspose.imaging.exif.enums/exiffilesource/
 ---
 ## ExifFileSource enumeration
 
-перечисление исходного файла exif.
+источник файла exif enum.
 
 ```csharp
 public enum ExifFileSource : byte

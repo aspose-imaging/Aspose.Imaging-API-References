@@ -1,14 +1,14 @@
 ---
 title: PublicCommentIdentifier
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个标识 公共评论记录类型的 32 位无符号整数这应该是上表中列出的值之一其中 在 EmrComment 枚举第 2.1.10 节中指定除非已实现其他公共 评论记录类型在打印服务器上
+description: 获取或设置一个 32 位无符号整数用于标识 公共评论记录的类型这应该是上表中列出的值之一其中 在 EmrComment 枚举第 2.1.10 节中指定除非在打印服务器上实现了额外的公共 评论记录类型
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcommentpublicrecordtype/publiccommentidentifier/
 ---
 ## EmfCommentPublicRecordType.PublicCommentIdentifier property
 
-获取或设置一个标识 公共评论记录类型的 32 位无符号整数。这应该是上表中列出的值之一，其中 在 EmrComment 枚举（第 2.1.10 节）中指定，除非已实现其他公共 评论记录类型在打印服务器上。
+获取或设置一个 32 位无符号整数，用于标识 公共评论记录的类型。这应该是上表中列出的值之一，其中 在 EmrComment 枚举（第 2.1.10 节）中指定，除非在打印服务器上实现了额外的公共 评论记录类型。
 
 ```csharp
 public EmfEmrComment PublicCommentIdentifier { get; set; }

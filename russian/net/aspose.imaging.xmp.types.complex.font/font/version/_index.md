@@ -20,7 +20,7 @@ public string Version { get; set; }
 
 ### Примеры
 
-/version для шрифтов Type1 nameId 5 для Apple True Type и OpenType /CIDFontVersion для шрифтов CID Пустая строка для растровых шрифтов
+/версия для шрифтов Type1 nameId 5 для Apple True Type и OpenType /CIDFontVersion для шрифтов CID Пустая строка для растровых шрифтов
 
 ### Смотрите также
 

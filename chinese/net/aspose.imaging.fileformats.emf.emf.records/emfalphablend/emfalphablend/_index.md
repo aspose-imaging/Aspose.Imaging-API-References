@@ -1,14 +1,14 @@
 ---
 title: EmfAlphaBlend
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfAlphaBlendaspose.imaging.fileformats.emf.emf.records/emfalphablend类的新实例
+description: 初始化EmfAlphaBlendaspose.imaging.fileformats.emf.emf.records/emfalphablend类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfalphablend/emfalphablend/
 ---
 ## EmfAlphaBlend constructor
 
-初始化[`EmfAlphaBlend`](../../emfalphablend)类的新实例。
+初始化[`EmfAlphaBlend`](../../emfalphablend)类.
 
 ```csharp
 public EmfAlphaBlend(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfAlphaBlend(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 

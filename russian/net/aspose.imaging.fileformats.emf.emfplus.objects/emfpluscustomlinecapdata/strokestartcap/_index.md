@@ -1,14 +1,14 @@
 ---
 title: StrokeStartCap
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее значение в перечислении LineCap указывающее конец строки  используемый в начале строки нарисовано
+description: Получает или задает 32-разрядное целое число без знака указывающее значение в перечислении LineCap указывающее конец строки  используемый в начале рисуемой строки
 type: docs
 weight: 110
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokestartcap/
 ---
 ## EmfPlusCustomLineCapData.StrokeStartCap property
 
-Получает или задает 32-разрядное целое число без знака, указывающее значение в перечислении LineCap, указывающее конец строки , используемый в начале строки нарисовано
+Получает или задает 32-разрядное целое число без знака, указывающее значение в перечислении LineCap, указывающее конец строки , используемый в начале рисуемой строки
 
 ```csharp
 public int StrokeStartCap { get; set; }

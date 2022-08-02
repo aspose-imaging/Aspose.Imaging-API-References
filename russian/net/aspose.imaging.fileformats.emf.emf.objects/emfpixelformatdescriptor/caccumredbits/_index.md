@@ -1,14 +1,14 @@
 ---
 title: CAccumRedBits
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает количество красных битовых плоскостей в буфере накопления
+description: Получает или задает количество красных битовых плоскостей в накопительном буфере
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/caccumredbits/
 ---
 ## EmfPixelFormatDescriptor.CAccumRedBits property
 
-Получает или устанавливает количество красных битовых плоскостей в буфере накопления
+Получает или задает количество красных битовых плоскостей в накопительном буфере
 
 ```csharp
 public byte CAccumRedBits { get; set; }

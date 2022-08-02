@@ -1,14 +1,14 @@
 ---
 title: WmfPostScriptClipping
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Перечисление PostScriptClipping определяет функции которые можно применять к пути отсечения используемому для вывода PostScript.
+description: Перечисление PostScriptClipping определяет функции которые можно применять к пути отсечения  используемому для вывода PostScript.
 type: docs
 weight: 8310
 url: /ru/net/aspose.imaging.fileformats.wmf.consts/wmfpostscriptclipping/
 ---
 ## WmfPostScriptClipping enumeration
 
-Перечисление PostScriptClipping определяет функции, которые можно применять к пути отсечения используемому для вывода PostScript.
+Перечисление PostScriptClipping определяет функции, которые можно применять к пути отсечения , используемому для вывода PostScript.
 
 ```csharp
 public enum WmfPostScriptClipping
@@ -19,7 +19,7 @@ public enum WmfPostScriptClipping
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | CLIP_SAVE | `0` | Сохраняет текущий путь обрезки PostScript. |
-| CLIP_RESTORE | `1` | Восстанавливает путь отсечения PostScript до последнего пути отсечения, который был сохранен предыдущей функцией CLIP_SAVE, примененной записью CLIP_TO_PATH (раздел 2.3.6.6). ). |
+| CLIP_RESTORE | `1` | Восстанавливает путь отсечения PostScript до последнего пути отсечения, который был сохранен предыдущей функцией CLIP_SAVE, примененной записью CLIP_TO_PATH (раздел 2.3.6.6). |
 | CLIP_INCLUSIVE | `2` | Пересекает текущий путь отсечения PostScript с текущим путем отсечения и сохраняет результат как новый путь отсечения PostScript. |
 
 ### Смотрите также

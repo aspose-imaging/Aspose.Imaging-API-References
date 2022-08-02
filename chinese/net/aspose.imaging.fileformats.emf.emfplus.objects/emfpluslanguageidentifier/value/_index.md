@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置字段 0 1 2 3 4 5 6 7 8 9 1 0 1 2 3 4 5 6 7 8 9 2 0 1 2 3 4 5 6 7 8 9 3 0 1 SubLanguageIdx7C主要语言 ID x7C SubLanguageId6 位PrimaryLanguageId 字段中指定的自然语言的国家地理区域或行政区 子语言标识符是供应商可扩展的供应商定义的子语言标识符必须在 0x20 到 0x3F 的范围内包括 0x20 到 0x3F PrimaryLanguageId10 位自然语言 主要语言标识符是供应商可扩展的供应商定义的主要语言标识符必须在 0x0200 到 0x03FF 的范围内包括 0x0200 到 0x03FF
+description: 获取或设置字段的值 0 1 2 3 4 5 6 7 8 9 1 0 1 2 3 4 5 6 7 8 9 2 0 1 2 3 4 5 6 7 8 9 3 0 1 SubLanguageIdx7C主要语言 ID x7C SubLanguageId6 位在 PrimaryLanguageId 字段中指定的自然语言的国家地理区域或行政区 子语言标识符是供应商可扩展的供应商定义的子语言标识符必须在 0x20 到 0x3F 的范围内包括在内 PrimaryLanguageId10 位自然语言 主要语言标识符是供应商可扩展的供应商定义的主要语言标识符必须在 0x0200 到 0x03FF 的范围内包括在内
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslanguageidentifier/value/
 ---
 ## EmfPlusLanguageIdentifier.Value property
 
-获取或设置字段 0 1 2 3 4 5 6 7 8 9 1 0 1 2 3 4 5 6 7 8 9 2 0 1 2 3 4 5 6 7 8 9 3 0 1 SubLanguageId&#x7C;主要语言 ID &#x7C; SubLanguageId（6 位）:PrimaryLanguageId 字段中指定的自然语言的国家、地理区域或行政区。 子语言标识符是供应商可扩展的。供应商定义的子语言标识符必须在 0x20 到 0x3F 的范围内，包括 0x20 到 0x3F。 PrimaryLanguageId（10 位）:自然语言。 主要语言标识符是供应商可扩展的。供应商定义的主要语言标识符必须在 0x0200 到 0x03FF 的范围内，包括 0x0200 到 0x03FF。
+获取或设置字段的值 0 1 2 3 4 5 6 7 8 9 1 0 1 2 3 4 5 6 7 8 9 2 0 1 2 3 4 5 6 7 8 9 3 0 1 SubLanguageId&#x7C;主要语言 ID &#x7C; SubLanguageId（6 位）：在 PrimaryLanguageId 字段中指定的自然语言的国家、地理区域或行政区。 子语言标识符是供应商可扩展的。供应商定义的子语言标识符必须在 0x20 到 0x3F 的范围内，包括在内。 PrimaryLanguageId（10 位）：自然语言。 主要语言标识符是供应商可扩展的。供应商定义的主要语言标识符必须在 0x0200 到 0x03FF 的范围内，包括在内。
 
 ```csharp
 public EmfPlusLanguageIdentifierType Value { get; set; }

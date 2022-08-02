@@ -1,14 +1,14 @@
 ---
 title: Matrix13
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此ColorMatrixaspose.imaging/colormatrix第一行第三列的元素
+description: 获取或设置 this 的第一行第三列的元素ColorMatrixaspose.imaging/colormatrix .
 type: docs
 weight: 110
 url: /zh/net/aspose.imaging/colormatrix/matrix13/
 ---
 ## ColorMatrix.Matrix13 property
 
-获取或设置此[`ColorMatrix`](../../colormatrix)第一行第三列的元素。
+获取或设置 this 的第一行第三列的元素[`ColorMatrix`](../../colormatrix) .
 
 ```csharp
 public float Matrix13 { get; set; }
@@ -16,7 +16,7 @@ public float Matrix13 { get; set; }
 
 ### 适当的价值
 
-这个[`ColorMatrix`](../../colormatrix)第一行第三列的元素。
+this 第一行第三列的元素[`ColorMatrix`](../../colormatrix).
 
 ### 也可以看看
 

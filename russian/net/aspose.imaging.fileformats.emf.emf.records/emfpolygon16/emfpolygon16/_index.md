@@ -1,14 +1,14 @@
 ---
 title: EmfPolygon16
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPolygon16aspose.imaging.fileformats.emf.emf.records/emfpolygon16.
+description: Инициализирует новый экземплярEmfPolygon16aspose.imaging.fileformats.emf.emf.records/emfpolygon16 класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpolygon16/emfpolygon16/
 ---
 ## EmfPolygon16(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfPolygon16`](../../emfpolygon16).
+Инициализирует новый экземпляр[`EmfPolygon16`](../../emfpolygon16) класс.
 
 ```csharp
 public EmfPolygon16(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfPolygon16(EmfRecord source)
 
 ## EmfPolygon16() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfPolygon16`](../../emfpolygon16).
+Инициализирует новый экземпляр[`EmfPolygon16`](../../emfpolygon16) класс.
 
 ```csharp
 public EmfPolygon16()

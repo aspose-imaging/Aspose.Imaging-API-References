@@ -1,14 +1,14 @@
 ---
 title: BilateralSmoothingFilterOptions
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化BilateralSmoothingFilterOptionsaspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions类的新实例
+description: 初始化BilateralSmoothingFilterOptionsaspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/bilateralsmoothingfilteroptions/
 ---
 ## BilateralSmoothingFilterOptions(int) {#constructor_1}
 
-初始化[`BilateralSmoothingFilterOptions`](../../bilateralsmoothingfilteroptions)类的新实例。
+初始化[`BilateralSmoothingFilterOptions`](../../bilateralsmoothingfilteroptions)类.
 
 ```csharp
 public BilateralSmoothingFilterOptions(int size)
@@ -16,7 +16,7 @@ public BilateralSmoothingFilterOptions(int size)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| size | Int32 | 内核大小。 |
+| size | Int32 | 内核的大小。 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public BilateralSmoothingFilterOptions(int size)
 
 ## BilateralSmoothingFilterOptions() {#constructor}
 
-初始化[`BilateralSmoothingFilterOptions`](../../bilateralsmoothingfilteroptions)类的新实例。
+初始化[`BilateralSmoothingFilterOptions`](../../bilateralsmoothingfilteroptions)类.
 
 ```csharp
 public BilateralSmoothingFilterOptions()

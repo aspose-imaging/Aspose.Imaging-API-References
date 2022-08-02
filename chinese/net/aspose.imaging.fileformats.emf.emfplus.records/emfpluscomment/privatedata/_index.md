@@ -1,14 +1,14 @@
 ---
 title: PrivateData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置私有数据的 DataSize 长度字节数组 后面的特定于记录的数据字节
+description: 获取或设置私有数据的 DataSize 长度字节数组 后面的特定记录数据的字节
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfpluscomment/privatedata/
 ---
 ## EmfPlusComment.PrivateData property
 
-获取或设置私有数据的 DataSize 长度字节数组。 后面的特定于记录的数据字节。
+获取或设置私有数据的 DataSize 长度字节数组。 后面的特定记录数据的字节。
 
 ```csharp
 public byte[] PrivateData { get; set; }

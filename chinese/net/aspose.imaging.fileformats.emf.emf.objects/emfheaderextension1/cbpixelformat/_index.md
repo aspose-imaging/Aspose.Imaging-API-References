@@ -1,14 +1,14 @@
 ---
 title: CbPixelFormat
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定 PixelFormatDescriptor 对象大小的 32 位无符号整数 如果没有设置像素格式则必须为 0x00000000
+description: 获取或设置一个 32 位无符号整数它指定 PixelFormatDescriptor 对象的大小 如果没有设置像素格式则必须为 0x00000000
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfheaderextension1/cbpixelformat/
 ---
 ## EmfHeaderExtension1.CbPixelFormat property
 
-获取或设置指定 PixelFormatDescriptor 对象大小的 32 位无符号整数。 如果没有设置像素格式，则必须为 0x00000000
+获取或设置一个 32 位无符号整数，它指定 PixelFormatDescriptor 对象的大小。 如果没有设置像素格式，则必须为 0x00000000
 
 ```csharp
 public int CbPixelFormat { get; set; }

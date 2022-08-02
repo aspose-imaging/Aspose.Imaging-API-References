@@ -16,7 +16,7 @@ public uint RowsPerStrip { get; set; }
 
 ### 适当的价值
 
-每个条带的行数。
+每条带的行数。
 
 ### 也可以看看
 

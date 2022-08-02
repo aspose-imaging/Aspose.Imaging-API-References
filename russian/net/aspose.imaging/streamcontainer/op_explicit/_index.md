@@ -1,14 +1,14 @@
 ---
 title: op_Explicit
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Выполняет явное преобразование изStreamContaineraspose.imaging/streamcontainerвStream.
+description: Выполняет явное преобразование изStreamContaineraspose.imaging/streamcontainer кStream .
 type: docs
 weight: 210
 url: /ru/net/aspose.imaging/streamcontainer/op_explicit/
 ---
 ## StreamContainer Explicit operator
 
-Выполняет явное преобразование из[`StreamContainer`](../../streamcontainer)вStream.
+Выполняет явное преобразование из[`StreamContainer`](../../streamcontainer) кStream .
 
 ```csharp
 public static explicit operator Stream(StreamContainer streamContainer)

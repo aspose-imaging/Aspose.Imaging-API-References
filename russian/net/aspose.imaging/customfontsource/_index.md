@@ -1,14 +1,14 @@
 ---
 title: CustomFontSource
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Функция поставщика пользовательского источника шрифта
+description: Источник пользовательского шрифта function
 type: docs
 weight: 760
 url: /ru/net/aspose.imaging/customfontsource/
 ---
 ## CustomFontSource delegate
 
-Функция поставщика пользовательского источника шрифта
+Источник пользовательского шрифта function
 
 ```csharp
 public delegate CustomFontData[] CustomFontSource(params object[] args);
@@ -20,11 +20,11 @@ public delegate CustomFontData[] CustomFontSource(params object[] args);
 
 ### Возвращаемое значение
 
-Список определенных шрифтов для отображения изображения
+Список конкретных шрифтов для рендеринга изображения
 
 ### Примеры
 
-Этот пример демонстрирует источник пользовательского шрифта, обеспечивающий использовать определенный шрифт(ы) для рендеринга изображений. В отличие от FontSettings, метод SetFontsFolders работает в области изображения и позволяет предоставлять шрифты в многопользовательских сценариях.
+В этом примере демонстрируется источник пользовательского шрифта, позволяющий использовать определенные шрифты для рендеринга изображений. В отличие от FontSettings, метод SetFontsFolders работает в области изображения и позволяет предоставлять шрифты в многопользовательских сценариях.
 
 ```csharp
 [C#]
@@ -47,7 +47,7 @@ public void CustomFontSourceTest(string inputPath, string outputPath, string fil
     }
 }
 
- // Пример поставщика пользовательских шрифтов. 
+// Пример поставщика пользовательских шрифтов. 
 private Aspose.Imaging.CustomFontHandler.CustomFontData[] GetFontSource(params object[] args)
 {
     string fontsPath = string.Empty;

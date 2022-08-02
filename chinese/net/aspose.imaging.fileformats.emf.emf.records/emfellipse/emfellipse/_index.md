@@ -1,14 +1,14 @@
 ---
 title: EmfEllipse
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfEllipseaspose.imaging.fileformats.emf.emf.records/emfellipse类的新实例
+description: 初始化EmfEllipseaspose.imaging.fileformats.emf.emf.records/emfellipse类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfellipse/emfellipse/
 ---
 ## EmfEllipse(EmfRecord) {#constructor_1}
 
-初始化[`EmfEllipse`](../../emfellipse)类的新实例。
+初始化[`EmfEllipse`](../../emfellipse)类.
 
 ```csharp
 public EmfEllipse(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfEllipse(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfEllipse(EmfRecord source)
 
 ## EmfEllipse() {#constructor}
 
-初始化[`EmfEllipse`](../../emfellipse)类的新实例。
+初始化[`EmfEllipse`](../../emfellipse)类.
 
 ```csharp
 public EmfEllipse()

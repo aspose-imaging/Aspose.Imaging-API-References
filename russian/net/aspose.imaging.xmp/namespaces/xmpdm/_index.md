@@ -1,14 +1,14 @@
 ---
 title: XmpDm
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пространство имен XMP Dynamic Media.
+description: Пространство имен динамических носителей XMP.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging.xmp/namespaces/xmpdm/
 ---
 ## Namespaces.XmpDm field
 
-Пространство имен XMP Dynamic Media.
+Пространство имен динамических носителей XMP.
 
 ```csharp
 public const string XmpDm;

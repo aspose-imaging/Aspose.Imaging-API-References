@@ -19,7 +19,7 @@ public enum TiffByteOrder
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | BigEndian | `19789` | 大端字节序（摩托罗拉）。 |
-| LittleEndian | `18761` | 小端字节顺序（英特尔）。 |
+| LittleEndian | `18761` | 小端字节序（英特尔）。 |
 
 ### 也可以看看
 

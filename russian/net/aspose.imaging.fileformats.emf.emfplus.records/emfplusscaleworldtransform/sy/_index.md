@@ -1,14 +1,14 @@
 ---
 title: Sy
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное значение с плавающей запятой определяющее коэффициент масштабирования по вертикали.
+description: Получает или задает 32-разрядное значение с плавающей запятой определяющее масштабный коэффициент по вертикали.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusscaleworldtransform/sy/
 ---
 ## EmfPlusScaleWorldTransform.Sy property
 
-Получает или задает 32-разрядное значение с плавающей запятой, определяющее коэффициент масштабирования по вертикали.
+Получает или задает 32-разрядное значение с плавающей запятой, определяющее масштабный коэффициент по вертикали.
 
 ```csharp
 public float Sy { get; set; }

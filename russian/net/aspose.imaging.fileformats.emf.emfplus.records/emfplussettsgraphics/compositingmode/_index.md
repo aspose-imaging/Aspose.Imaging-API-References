@@ -1,14 +1,14 @@
 ---
 title: CompositingMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 8-разрядное целое число без знака указывающее как исходные цвета сочетаются с цветами фона. Это ДОЛЖНО быть значением в перечислении CompositingMode раздел 2.1.1.5.
+description: Получает или задает 8-разрядное целое число без знака указывающее как исходные цвета сочетаются с цветами фона. Это ДОЛЖНО быть значение в перечислении CompositingMode раздел 2.1.1.5.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics/compositingmode/
 ---
 ## EmfPlusSetTsGraphics.CompositingMode property
 
-Получает или задает 8-разрядное целое число без знака, указывающее, как исходные цвета сочетаются с цветами фона. Это ДОЛЖНО быть значением в перечислении CompositingMode (раздел 2.1.1.5).
+Получает или задает 8-разрядное целое число без знака, указывающее, как исходные цвета сочетаются с цветами фона. Это ДОЛЖНО быть значение в перечислении CompositingMode (раздел 2.1.1.5).
 
 ```csharp
 public EmfPlusCompositingMode CompositingMode { get; set; }

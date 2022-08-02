@@ -1,14 +1,14 @@
 ---
 title: BorderX
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置边框 X
+description: 获取或设置边框 X.
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.imageoptions/vectorrasterizationoptions/borderx/
 ---
 ## VectorRasterizationOptions.BorderX property
 
-获取或设置边框 X。
+获取或设置边框 X.
 
 ```csharp
 public float BorderX { get; set; }

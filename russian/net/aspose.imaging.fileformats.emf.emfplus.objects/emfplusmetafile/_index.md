@@ -24,9 +24,9 @@ public sealed class EmfPlusMetafile : EmfPlusBaseImageData
 
 | Имя | Описание |
 | --- | --- |
-| [MetafileData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusmetafile/metafiledata) { get; set; } | Получает или задает данные переменной длины, определяющие встроенный метафайл. Содержимое и формат данных могут быть разными для каждого типа метафайла. |
-| [MetafileDataSize](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusmetafile/metafiledatasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер в байтах метафайла данных в поле MetafileData |
-| [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusmetafile/type) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее тип метафайла, внедренного в поле MetafileData. Это значение ДОЛЖНО быть определено в перечислении MetafileDataType (раздел 2.1.1.21). |
+| [MetafileData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusmetafile/metafiledata) { get; set; } | Получает или задает данные переменной длины, определяющие внедренный метафайл. Содержимое и формат данных могут различаться для каждого типа метафайла. |
+| [MetafileDataSize](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusmetafile/metafiledatasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер в байтах данных метафайла в поле MetafileData |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusmetafile/type) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее тип метафайла, встроенного в поле MetafileData. Это значение ДОЛЖНО быть определено в перечислении MetafileDataType (раздел 2.1.1.21). |
 
 ### Смотрите также
 

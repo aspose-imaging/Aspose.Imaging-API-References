@@ -1,14 +1,14 @@
 ---
 title: DicomImage
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化DicomImageaspose.imaging.fileformats.dicom/dicomimage类的新实例
+description: 初始化DicomImageaspose.imaging.fileformats.dicom/dicomimage类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.dicom/dicomimage/dicomimage/
 ---
 ## DicomImage(DicomOptions, int, int) {#constructor}
 
-初始化[`DicomImage`](../../dicomimage)类的新实例。
+初始化[`DicomImage`](../../dicomimage)类.
 
 ```csharp
 public DicomImage(DicomOptions dicomOptions, int width, int height)
@@ -31,7 +31,7 @@ public DicomImage(DicomOptions dicomOptions, int width, int height)
 
 ## DicomImage(Stream, LoadOptions) {#constructor_2}
 
-初始化[`DicomImage`](../../dicomimage)类的新实例。
+初始化[`DicomImage`](../../dicomimage)类.
 
 ```csharp
 public DicomImage(Stream stream, LoadOptions loadOptions)
@@ -40,7 +40,7 @@ public DicomImage(Stream stream, LoadOptions loadOptions)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 流。 |
-| loadOptions | LoadOptions | 加载选项。 |
+| loadOptions | LoadOptions | 负载选项。 |
 
 ### 例子
 
@@ -51,22 +51,22 @@ public DicomImage(Stream stream, LoadOptions loadOptions)
 
 string dir = "c:\\temp\\";
 
-    // 从文件流中加载 DICOM 图像。
+// 从文件流中加载 DICOM 图像。
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "multiframe.dicom"))
 {
-        // 所有内部缓冲区的最大允许大小为 256KB.
+    // 所有内部缓冲区的最大允许大小为 256KB。
     Aspose.Imaging.LoadOptions loadOptions = new Aspose.Imaging.LoadOptions();
     loadOptions.BufferSizeHint = 256 * 1024;
 
     using (Aspose.Imaging.FileFormats.Dicom.DicomImage dicomImage = new Aspose.Imaging.FileFormats.Dicom.DicomImage(stream, loadOptions))
     {
-            // 将每个页面保存为单独的 PNG 图像。
+        // 将每个页面保存为单独的 PNG 图像。
         foreach (Aspose.Imaging.FileFormats.Dicom.DicomPage dicomPage in dicomImage.DicomPages)
         {
-                // 根据页面索引生成文件名.
+            // 根据页面索引生成文件名。
             string fileName = string.Format("multiframe.{0}.png", dicomPage.Index);
 
-                // DICOM 页面是光栅图像，因此所有允许的光栅图像操作都适用于 DICOM 页面。
+            // DICOM 页面是光栅图像，因此所有允许的光栅图像操作都适用于 DICOM 页面。
             dicomPage.Save(dir + fileName, new Aspose.Imaging.ImageOptions.PngOptions());
         }
     }
@@ -84,7 +84,7 @@ using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "multiframe.dicom
 
 ## DicomImage(Stream) {#constructor_1}
 
-初始化[`DicomImage`](../../dicomimage)类的新实例。
+初始化[`DicomImage`](../../dicomimage)类.
 
 ```csharp
 public DicomImage(Stream stream)
@@ -96,25 +96,25 @@ public DicomImage(Stream stream)
 
 ### 例子
 
-此示例说明如何从文件流加载 DICOM 图像。
+此示例显示如何从文件流加载 DICOM 图像。
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-    // 从文件流中加载 DICOM 图像。
+// 从文件流中加载 DICOM 图像。
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.dicom"))
 {
     using (Aspose.Imaging.FileFormats.Dicom.DicomImage dicomImage = new Aspose.Imaging.FileFormats.Dicom.DicomImage(stream))
     {
-            // 将每个页面保存为单独的 PNG 图像。 
+        // 将每个页面保存为单独的 PNG 图像。                    
         foreach (Aspose.Imaging.FileFormats.Dicom.DicomPage dicomPage in dicomImage.DicomPages)
         {
-                // 根据页面索引生成文件名.
+            // 根据页面索引生成文件名。
             string fileName = string.Format("sample.{0}.png", dicomPage.Index);
 
-                // DICOM 页面是光栅图像，因此所有允许的光栅图像操作都适用于 DICOM 页面。
+            // DICOM 页面是光栅图像，因此所有允许的光栅图像操作都适用于 DICOM 页面。
             dicomPage.Save(dir + fileName, new Aspose.Imaging.ImageOptions.PngOptions());
         }
     }

@@ -1,14 +1,14 @@
 ---
 title: RatingRejected
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Рейтинг отклоненного значения.
+description: Оценка отклоненного значения.
 type: docs
 weight: 120
 url: /ru/net/aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/ratingrejected/
 ---
 ## XmpBasicPackage.RatingRejected field
 
-Рейтинг отклоненного значения.
+Оценка отклоненного значения.
 
 ```csharp
 public const int RatingRejected;

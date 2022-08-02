@@ -1,14 +1,14 @@
 ---
 title: RegionNode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив объектов RegionNodeCount1 EmfPlusRegionNode раздел 2.2.2.40. Регионы задаются в виде двоичного дерева узлов региона и каждый узел ДОЛЖЕН быть либо конечным узлом  либо указывать один или два дочерних узла. RegionNode ДОЛЖЕН содержать хотя бы один элемент
+description: Получает или задает массив объектов RegionNodeCount1 EmfPlusRegionNode раздел 2.2.2.40. Регионы задаются в виде двоичного дерева узлов региона и каждый узел ДОЛЖЕН быть либо конечным узлом  либо указывать один или два дочерних узла. RegionNode ДОЛЖЕН содержать хотя бы один element
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregion/regionnode/
 ---
 ## EmfPlusRegion.RegionNode property
 
-Получает или задает массив объектов RegionNodeCount+1 EmfPlusRegionNode (раздел 2.2.2.40). Регионы задаются в виде двоичного дерева узлов региона, и каждый узел ДОЛЖЕН быть либо конечным узлом , либо указывать один или два дочерних узла. RegionNode ДОЛЖЕН содержать хотя бы один элемент
+Получает или задает массив объектов RegionNodeCount+1 EmfPlusRegionNode (раздел 2.2.2.40). Регионы задаются в виде двоичного дерева узлов региона, и каждый узел ДОЛЖЕН быть либо конечным узлом , либо указывать один или два дочерних узла. RegionNode ДОЛЖЕН содержать хотя бы один element
 
 ```csharp
 public EmfPlusRegionNode[] RegionNode { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: YRadius
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает радиус y.
+description: Получает или задает радиус Y.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrpolygontransform/yradius/
 ---
 ## CdrPolygonTransform.YRadius property
 
-Получает или задает радиус y.
+Получает или задает радиус Y.
 
 ```csharp
 public double YRadius { get; set; }
@@ -16,7 +16,7 @@ public double YRadius { get; set; }
 
 ### Стоимость имущества
 
-Y-радиус.
+Радиус по оси Y.
 
 ### Смотрите также
 

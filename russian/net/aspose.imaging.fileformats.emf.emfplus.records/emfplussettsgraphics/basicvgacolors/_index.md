@@ -1,14 +1,14 @@
 ---
 title: BasicVgaColors
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее используются ли основные цвета vga. Если установлено палитра содержит только основные цвета VGA.
+description: Получает значение указывающее используются ли основные цвета VGA. Если установлено палитра содержит только основные цвета VGA.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics/basicvgacolors/
 ---
 ## EmfPlusSetTsGraphics.BasicVgaColors property
 
-Получает значение, указывающее, используются ли [основные цвета vga]. Если установлено, палитра содержит только основные цвета VGA.
+Получает значение, указывающее, используются ли [основные цвета VGA]. Если установлено, палитра содержит только основные цвета VGA.
 
 ```csharp
 public bool BasicVgaColors { get; }
@@ -16,7 +16,7 @@ public bool BasicVgaColors { get; }
 
 ### Стоимость имущества
 
-` true` if [основные цвета vga]; в противном случае` false` .
+`истинный` если [основные цвета vga]; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

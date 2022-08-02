@@ -1,14 +1,14 @@
 ---
 title: Brightness
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает яркость. рекомендуемый диапазон 1 - 15 значение по умолчанию  115
+description: Получает или устанавливает яркость. рекомендуемый диапазон 115 значение по умолчанию  115
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/brightness/
 ---
 ## DeconvolutionFilterOptions.Brightness property
 
-Получает или устанавливает яркость. рекомендуемый диапазон 1 - 1,5 значение по умолчанию = 1,15
+Получает или устанавливает яркость. рекомендуемый диапазон 1–1,5 значение по умолчанию = 1,15
 
 ```csharp
 public double Brightness { get; set; }

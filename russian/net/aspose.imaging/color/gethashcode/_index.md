@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Возвращает хэш-код для этойColoraspose.imaging/colorструктуры.
+description: Возвращает хеш-код для этогоColoraspose.imaging/color структура.
 type: docs
 weight: 1560
 url: /ru/net/aspose.imaging/color/gethashcode/
 ---
 ## Color.GetHashCode method
 
-Возвращает хэш-код для этой[`Color`](../../color)структуры.
+Возвращает хеш-код для этого[`Color`](../../color) структура.
 
 ```csharp
 public override int GetHashCode()

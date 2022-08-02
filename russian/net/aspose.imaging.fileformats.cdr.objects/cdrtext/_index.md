@@ -1,14 +1,14 @@
 ---
 title: CdrText
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Текст cdr
+description: CDR text
 type: docs
 weight: 1780
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrtext/
 ---
 ## CdrText class
 
-Текст cdr
+CDR text
 
 ```csharp
 public class CdrText : CdrDictionaryItem

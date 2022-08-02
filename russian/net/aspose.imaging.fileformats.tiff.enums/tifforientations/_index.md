@@ -1,14 +1,14 @@
 ---
 title: TiffOrientations
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Ориентация изображения.ltbr /gt Возможные значения тега ORIENTATION.
+description: Ориентация изображения. Возможные значения тега ORIENTATION.
 type: docs
 weight: 7680
 url: /ru/net/aspose.imaging.fileformats.tiff.enums/tifforientations/
 ---
 ## TiffOrientations enumeration
 
-Ориентация изображения.&lt;br /&gt; Возможные значения тега ORIENTATION.
+Ориентация изображения. Возможные значения тега ORIENTATION.
 
 ```csharp
 public enum TiffOrientations : ushort
@@ -19,12 +19,12 @@ public enum TiffOrientations : ushort
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | TopLeft | `1` | Строка 0 сверху, столбец 0 слева. |
-| TopRight | `2` | Ряд 0 сверху, Столбец 0 справа. |
-| BottomRight | `3` | Ряд 0 нижний, Столбец 0 прав. |
-| BottomLeft | `4` | Строка 0 внизу, Столбец 0 слева. |
-| LeftTop | `5` | Строка 0 левая, столбец 0 сверху. |
-| RightTop | `6` | Строка 0 правая, столбец 0 сверху. |
-| RightBottom | `7` | Строка 0 правая, столбец 0 нижний. |
+| TopRight | `2` | Строка 0 сверху, столбец 0 справа. |
+| BottomRight | `3` | Строка 0 внизу, Столбец 0 справа. |
+| BottomLeft | `4` | Строка 0 внизу, столбец 0 слева. |
+| LeftTop | `5` | Строка 0 левая, столбец 0 вверху. |
+| RightTop | `6` | Строка 0 справа, Столбец 0 сверху. |
+| RightBottom | `7` | Строка 0 справа, столбец 0 внизу. |
 | LeftBottom | `8` | Строка 0 левая, столбец 0 внизу. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: BaseInset
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 32 位浮点值该值指定行帽的开头 和行尾之间的距离
+description: 获取或设置 32 位浮点值指定行帽的开始 和行尾之间的距离
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/baseinset/
 ---
 ## EmfPlusCustomLineCapData.BaseInset property
 
-获取或设置 32 位浮点值，该值指定行帽的开头 和行尾之间的距离。
+获取或设置 32 位浮点值，指定行帽的开始 和行尾之间的距离。
 
 ```csharp
 public float BaseInset { get; set; }

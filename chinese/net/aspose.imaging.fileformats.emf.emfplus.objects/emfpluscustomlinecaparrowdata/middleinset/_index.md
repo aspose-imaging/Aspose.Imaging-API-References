@@ -1,14 +1,14 @@
 ---
 title: MiddleInset
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位浮点值该值指定箭头轮廓 cap 和填充之间的像素数箭头帽
+description: 获取或设置一个 32 位浮点值该值指定箭头 帽的轮廓和箭头帽的填充之间的像素数
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/middleinset/
 ---
 ## EmfPlusCustomLineCapArrowData.MiddleInset property
 
-获取或设置一个 32 位浮点值，该值指定箭头轮廓 cap 和填充之间的像素数箭头帽。
+获取或设置一个 32 位浮点值，该值指定箭头 帽的轮廓和箭头帽的填充之间的像素数。
 
 ```csharp
 public float MiddleInset { get; set; }

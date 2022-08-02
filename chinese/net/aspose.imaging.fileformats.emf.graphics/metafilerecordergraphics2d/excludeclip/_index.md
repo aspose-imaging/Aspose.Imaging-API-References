@@ -1,14 +1,14 @@
 ---
 title: ExcludeClip
 second_title: Aspose.Imaging for .NET API 参考
-description: 更新此 Graphics 的剪辑区域以排除 Rectangle 结构指定的区域
+description: 更新此 Graphics 的剪辑区域以排除由 Rectangle 结构指定的区域
 type: docs
 weight: 170
 url: /zh/net/aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/excludeclip/
 ---
 ## ExcludeClip(Rectangle) {#excludeclip}
 
-更新此 Graphics 的剪辑区域以排除 Rectangle 结构指定的区域。
+更新此 Graphics 的剪辑区域以排除由 Rectangle 结构指定的区域。
 
 ```csharp
 public void ExcludeClip(Rectangle rect)

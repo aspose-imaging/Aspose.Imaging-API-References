@@ -1,14 +1,14 @@
 ---
 title: ClearBrushRemapTable
 second_title: Aspose.Imaging for .NET API 参考
-description: 清除此ImageAttributesaspose.imaging/imageattributes对象的画笔颜色重映射表
+description: 清除此笔刷颜色重映射表ImageAttributesaspose.imaging/imageattributes对象.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging/imageattributes/clearbrushremaptable/
 ---
 ## ImageAttributes.ClearBrushRemapTable method
 
-清除此[`ImageAttributes`](../../imageattributes)对象的画笔颜色重映射表。
+清除此笔刷颜色重映射表[`ImageAttributes`](../../imageattributes)对象.
 
 ```csharp
 public void ClearBrushRemapTable()

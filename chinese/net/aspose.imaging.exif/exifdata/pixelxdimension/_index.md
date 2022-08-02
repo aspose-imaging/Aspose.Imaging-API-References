@@ -1,14 +1,14 @@
 ---
 title: PixelXDimension
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置像素 x 维度
+description: 获取或设置像素x维度
 type: docs
 weight: 860
 url: /zh/net/aspose.imaging.exif/exifdata/pixelxdimension/
 ---
 ## ExifData.PixelXDimension property
 
-获取或设置像素 x 维度。
+获取或设置像素x维度。
 
 ```csharp
 public uint PixelXDimension { get; set; }
@@ -16,7 +16,7 @@ public uint PixelXDimension { get; set; }
 
 ### 适当的价值
 
-像素 x 维度。
+像素x维度。
 
 ### 也可以看看
 

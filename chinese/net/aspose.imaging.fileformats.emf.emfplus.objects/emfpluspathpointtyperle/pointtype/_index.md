@@ -8,7 +8,7 @@ url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtype
 ---
 ## EmfPlusPathPointTypeRle.PointType property
 
-获取或设置点的类型。 PointType（1 字节）:一个 EmfPlusPathPointType 对象 （第 2.2.2.31 节），指定与路径点关联的类型。
+获取或设置点的类型。 PointType（1 字节）：一个 EmfPlusPathPointType 对象 （第 2.2.2.31 节），指定与路径点关联的类型。
 
 ```csharp
 public EmfPlusPathPointType PointType { get; set; }

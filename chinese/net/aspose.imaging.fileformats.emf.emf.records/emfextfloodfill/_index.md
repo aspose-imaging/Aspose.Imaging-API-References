@@ -18,16 +18,16 @@ public sealed class EmfExtFloodFill : EmfDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfExtFloodFill](emfextfloodfill)(EmfRecord) | 初始化[`EmfExtFloodFill`](../emfextfloodfill)类的新实例。 |
+| [EmfExtFloodFill](emfextfloodfill)(EmfRecord) | 初始化[`EmfExtFloodFill`](../emfextfloodfill)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Argb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/argb32color) { get; set; } | 获取或设置 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节），它与 FloodFillMode 一起用于确定要填充的区域。 |
-| [FloodFillMode](../../aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/floodfillmode) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定如何使用颜色值 来确定填充操作的区域。该值必须在 FloodFill 枚举中（第 2.1.13 节）。 |
+| [Argb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/argb32color) { get; set; } | 获取或设置一个 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节），它与 FloodFillMode 一起用于确定要填充的区域。 |
+| [FloodFillMode](../../aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/floodfillmode) { get; set; } | 获取或设置一个 32 位无符号整数，它指定如何使用颜色值 来确定填充操作的区域。该值必须在 FloodFill 枚举（第 2.1.13 节）中。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
-| [Start](../../aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/start) { get; set; } | 获取或设置 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），它指定 坐标，以逻辑单位表示，填充开始的地方。 |
+| [Start](../../aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/start) { get; set; } | 获取或设置 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），它以逻辑单位指定填充开始的 坐标。 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 
 ### 也可以看看

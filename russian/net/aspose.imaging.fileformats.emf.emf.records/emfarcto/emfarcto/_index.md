@@ -1,14 +1,14 @@
 ---
 title: EmfArcTo
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfArcToaspose.imaging.fileformats.emf.emf.records/emfarcto.
+description: Инициализирует новый экземплярEmfArcToaspose.imaging.fileformats.emf.emf.records/emfarcto класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfarcto/emfarcto/
 ---
 ## EmfArcTo(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfArcTo`](../../emfarcto).
+Инициализирует новый экземпляр[`EmfArcTo`](../../emfarcto) класс.
 
 ```csharp
 public EmfArcTo(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfArcTo(EmfRecord source)
 
 ## EmfArcTo() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfArcTo`](../../emfarcto).
+Инициализирует новый экземпляр[`EmfArcTo`](../../emfarcto) класс.
 
 ```csharp
 public EmfArcTo()

@@ -24,17 +24,17 @@ public sealed class EmfPlusCustomLineCapArrowData : EmfPlusCustomBaseLineCap
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FillHotSpot](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/fillhotspot) { get; set; } | 获取或设置当前未使用的 EmfPlusPointF 对象。它必须设置为 {0.0, 0.0}。 |
-| [FillState](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/fillstate) { get; set; } | 获取或设置一个 32 位布尔值，该值指定箭头帽是否被填充。如果箭头帽为 未填充，则仅绘制轮廓 |
-| [Height](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/height) { get; set; } | 获取或设置一个 32 位浮点值，该值指定 箭头帽的高度。 |
-| [LineEndCap](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/lineendcap) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定 LineCap 枚举中的值，该值指示行上限为 用于结尾要绘制的线的 |
-| [LineHotSpot](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/linehotspot) { get; set; } | 获取或设置当前未使用的 EmfPlusPointF 对象。它必须设置为 {0.0, 0.0}。 |
-| [LineJoin](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/linejoin) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定 LineJoin 枚举中的值，该枚举指定如何连接由 同一支笔，其收支平衡。在两条线端的交点处， 线连接使连接看起来更连续。 |
-| [LineMiterLimit](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/linemiterlimit) { get; set; } | 获取或设置一个 32 位浮点值，通过设置 斜接长度与线宽的最大允许比率 |
-| [LineStartCap](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/linestartcap) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定 LineCap 枚举中的值，该值指示行上限为 用于开头要绘制的线的 |
-| [MiddleInset](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/middleinset) { get; set; } | 获取或设置一个 32 位浮点值，该值指定箭头轮廓 cap 和填充之间的像素数箭头帽。 |
-| [Width](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/width) { get; set; } | 获取或设置指定 箭头帽宽度的 32 位浮点值 |
-| [WidthScale](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/widthscale) { get; set; } | 获取或设置一个 32 位浮点值，该值通过 指定量，以相对于宽度缩放 EmfPlusCustomLineCap 对象 用于绘制线条的图形笔 |
+| [FillHotSpot](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/fillhotspot) { get; set; } | 获取或设置当前未使用的 EmfPlusPointF 对象。它必须设置为 {0.0, 0.0}. |
+| [FillState](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/fillstate) { get; set; } | 获取或设置一个 32 位布尔值，该值指定箭头帽是否被填充。如果箭头帽 未填充，只绘制轮廓 |
+| [Height](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/height) { get; set; } | 获取或设置一个 32 位浮点值，指定 箭头帽的高度。 |
+| [LineEndCap](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/lineendcap) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定 LineCap 枚举中的值，该值指示行上限为 用于要绘制的行的末尾 |
+| [LineHotSpot](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/linehotspot) { get; set; } | 获取或设置当前未使用的 EmfPlusPointF 对象。它必须设置为 {0.0, 0.0}. |
+| [LineJoin](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/linejoin) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定 LineJoin 枚举中的值，该枚举指定如何连接由 同一支笔绘制且末端相接的两条线。在两条线端的交点处， 一个线连接使连接看起来更连续。 |
+| [LineMiterLimit](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/linemiterlimit) { get; set; } | 获取或设置一个 32 位浮点值，通过设置 斜接长度与线宽的最大允许比率 来指定斜接角上连接的 厚度限制 |
+| [LineStartCap](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/linestartcap) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定 LineCap 枚举中的值，该值指示线帽到 用于要绘制的行的开头 |
+| [MiddleInset](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/middleinset) { get; set; } | 获取或设置一个 32 位浮点值，该值指定箭头 帽的轮廓和箭头帽的填充之间的像素数。 |
+| [Width](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/width) { get; set; } | 获取或设置一个 32 位浮点值，该值指定 箭头 cap 的宽度 |
+| [WidthScale](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/widthscale) { get; set; } | 获取或设置一个 32 位浮点值，该值通过 指定量，该量相对于用于绘制线条的图形笔的宽度 缩放 EmfPlusCustomLineCap 对象 |
 
 ### 也可以看看
 

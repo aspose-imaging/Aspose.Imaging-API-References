@@ -1,14 +1,14 @@
 ---
 title: EmfSetMapMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetMapModeaspose.imaging.fileformats.emf.emf.records/emfsetmapmode.
+description: Инициализирует новый экземплярEmfSetMapModeaspose.imaging.fileformats.emf.emf.records/emfsetmapmode класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetmapmode/emfsetmapmode/
 ---
 ## EmfSetMapMode() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfSetMapMode`](../../emfsetmapmode).
+Инициализирует новый экземпляр[`EmfSetMapMode`](../../emfsetmapmode) класс.
 
 ```csharp
 public EmfSetMapMode()
@@ -24,7 +24,7 @@ public EmfSetMapMode()
 
 ## EmfSetMapMode(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfSetMapMode`](../../emfsetmapmode).
+Инициализирует новый экземпляр[`EmfSetMapMode`](../../emfsetmapmode) класс.
 
 ```csharp
 public EmfSetMapMode(EmfRecord record)

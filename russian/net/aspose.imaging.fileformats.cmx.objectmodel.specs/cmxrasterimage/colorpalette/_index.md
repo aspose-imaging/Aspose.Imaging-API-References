@@ -1,14 +1,14 @@
 ---
 title: ColorPalette
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив цветовой палитры. Элементы представляют собой значения цвета ARGB представленные вInt32
+description: Получает или задает массив цветовой палитры. Элементы  это значения цветов ARGB представленные вInt32
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/colorpalette/
 ---
 ## CmxRasterImage.ColorPalette property
 
-Получает или задает массив цветовой палитры. Элементы представляют собой значения цвета ARGB, представленные вInt32
+Получает или задает массив цветовой палитры. Элементы — это значения цветов ARGB, представленные вInt32
 
 ```csharp
 public int[] ColorPalette { get; set; }

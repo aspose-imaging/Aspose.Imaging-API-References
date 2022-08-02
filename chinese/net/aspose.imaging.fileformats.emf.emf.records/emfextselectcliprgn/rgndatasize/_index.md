@@ -1,14 +1,14 @@
 ---
 title: RgnDataSize
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定区域数据大小的 32 位无符号整数以字节为单位
+description: 获取或设置一个 32 位无符号整数以字节为单位指定区域数据的大小
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/rgndatasize/
 ---
 ## EmfExtSelectClipRgn.RgnDataSize property
 
-获取或设置指定区域数据大小的 32 位无符号整数（以字节为单位）。
+获取或设置一个 32 位无符号整数，以字节为单位指定区域数据的大小。
 
 ```csharp
 public int RgnDataSize { get; set; }

@@ -16,7 +16,7 @@ public EmfPlusPaletteStyleFlags PaletteStyleFlags { get; set; }
 
 ### Стоимость имущества
 
-PaletteStyleFlags (4 байта):32-битное целое число без знака, определяющее атрибуты данных в палитра. Это значение ДОЛЖНО состоять из флагов[`EmfPlusPaletteStyleFlags`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfpluspalettestyleflags).
+PaletteStyleFlags (4 байта): 32-битное целое число без знака, указывающее атрибуты данных в палитре. Это значение ДОЛЖНО состоять из[`EmfPlusPaletteStyleFlags`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfpluspalettestyleflags) флаги.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: GPSDestBearingRef
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置用于给出目的地点方位的 GPS 参考
+description: 获取或设置用于向目标点提供方位的 GPS 参考
 type: docs
 weight: 410
 url: /zh/net/aspose.imaging.exif/exifdata/gpsdestbearingref/
 ---
 ## ExifData.GPSDestBearingRef property
 
-获取或设置用于给出目的地点方位的 GPS 参考。
+获取或设置用于向目标点提供方位的 GPS 参考。
 
 ```csharp
 public string GPSDestBearingRef { get; set; }
@@ -16,7 +16,7 @@ public string GPSDestBearingRef { get; set; }
 
 ### 适当的价值
 
-GPS 参考用于向目的地提供方位。
+用于向目标点提供方位的 GPS 参考。
 
 ### 也可以看看
 

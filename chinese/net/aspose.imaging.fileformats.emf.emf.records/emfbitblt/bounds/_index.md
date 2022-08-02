@@ -1,14 +1,14 @@
 ---
 title: Bounds
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 WMF RectL 对象MS-WMF 第 2.2.2.19 节该对象以设备单位定义 目标边界矩形
+description: 获取或设置一个 WMF RectL 对象MS-WMF 第 2.2.2.19 节它以设备单位定义 目标边界矩形
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfbitblt/bounds/
 ---
 ## EmfBitBlt.Bounds property
 
-获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象以设备单位定义 目标边界矩形。
+获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），它以设备单位定义 目标边界矩形。
 
 ```csharp
 public Rectangle Bounds { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: BlurRadius
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位浮点数以像素为单位指定模糊半径 确定参与计算的像素数给定像素的新值 这个值必须在 0.0 到 255.0 的范围内
+description: 获取或设置一个 32 位浮点数以像素为单位指定模糊半径 确定计算给定像素的新值所涉及的像素数 此值必须在 0.0 到 255.0 的范围内
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusblureffect/blurradius/
 ---
 ## EmfPlusBlurEffect.BlurRadius property
 
-获取或设置一个 32 位浮点数，以像素为单位指定模糊半径， 确定参与计算的像素数给定像素的新值。 这个值必须在 0.0 到 255.0 的范围内。
+获取或设置一个 32 位浮点数，以像素为单位指定模糊半径， 确定计算给定像素的新值所涉及的像素数。 此值必须在 0.0 到 255.0 的范围内。
 
 ```csharp
 public float BlurRadius { get; set; }

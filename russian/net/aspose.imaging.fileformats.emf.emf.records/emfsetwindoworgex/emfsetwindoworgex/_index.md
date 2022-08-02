@@ -1,14 +1,14 @@
 ---
 title: EmfSetWindowOrgEx
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetWindowOrgExaspose.imaging.fileformats.emf.emf.records/emfsetwindoworgex.
+description: Инициализирует новый экземплярEmfSetWindowOrgExaspose.imaging.fileformats.emf.emf.records/emfsetwindoworgex класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetwindoworgex/emfsetwindoworgex/
 ---
 ## EmfSetWindowOrgEx(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfSetWindowOrgEx`](../../emfsetwindoworgex).
+Инициализирует новый экземпляр[`EmfSetWindowOrgEx`](../../emfsetwindoworgex) класс.
 
 ```csharp
 public EmfSetWindowOrgEx(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfSetWindowOrgEx(EmfRecord source)
 
 ## EmfSetWindowOrgEx() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfSetWindowOrgEx`](../../emfsetwindoworgex).
+Инициализирует новый экземпляр[`EmfSetWindowOrgEx`](../../emfsetwindoworgex) класс.
 
 ```csharp
 public EmfSetWindowOrgEx()

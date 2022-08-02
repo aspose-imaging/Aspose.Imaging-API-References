@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSolidBrushData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект EmfPlusSolidBrushData задает сплошной цвет для графической кисти.
+description: Объект EmfPlusSolidBrushData определяет сплошной цвет для графической кисти.
 type: docs
 weight: 5770
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplussolidbrushdata/
 ---
 ## EmfPlusSolidBrushData class
 
-Объект EmfPlusSolidBrushData задает сплошной цвет для графической кисти.
+Объект EmfPlusSolidBrushData определяет сплошной цвет для графической кисти.
 
 ```csharp
 public sealed class EmfPlusSolidBrushData : EmfPlusBaseBrushData

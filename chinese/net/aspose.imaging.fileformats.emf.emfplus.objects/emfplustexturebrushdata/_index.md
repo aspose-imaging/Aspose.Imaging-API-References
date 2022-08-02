@@ -1,14 +1,14 @@
 ---
 title: EmfPlusTextureBrushData
 second_title: Aspose.Imaging for .NET API 参考
-description: EmfPlusTextureBrushData 对象指定图形画笔的纹理图像
+description: EmfPlusTextureBrushData 对象为图形画笔指定纹理图像
 type: docs
 weight: 5810
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushdata/
 ---
 ## EmfPlusTextureBrushData class
 
-EmfPlusTextureBrushData 对象指定图形画笔的纹理图像。
+EmfPlusTextureBrushData 对象为图形画笔指定纹理图像。
 
 ```csharp
 public sealed class EmfPlusTextureBrushData : EmfPlusBaseBrushData
@@ -25,8 +25,8 @@ public sealed class EmfPlusTextureBrushData : EmfPlusBaseBrushData
 | 姓名 | 描述 |
 | --- | --- |
 | [BrushDataFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushdata/brushdataflags) { get; set; } | 获取或设置一个 32 位无符号整数，用于指定 OptionalData 字段中的数据。 该值必须由 BrushData 标志组成（第 2.1.2.1 节）。 以下标志与纹理画笔相关 BrushDataTransform BrushDataIsGammaCorrected BrushDataDoNotTransform |
-| [OptionalData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushdata/optionaldata) { get; set; } | 获取或设置一个可选的 EmfPlusTextureBrushOptionalData 对象（第 2.2.2.46 节），该对象 指定纹理画笔的附加数据。 这个字段的具体内容由BrushDataFlags字段的值决定 |
-| [WrapMode](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushdata/wrapmode) { get; set; } | 从 WrapMode 枚举（第 2.1.1.34 节）获取或设置一个 32 位有符号整数 指定如何在整个范围内重复纹理图像一个形状，当 图像小于被填充的区域时。 |
+| [OptionalData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushdata/optionaldata) { get; set; } | 获取或设置一个可选的 EmfPlusTextureBrushOptionalData 对象（第 2.2.2.46 节）， 为纹理画笔指定附加数据。 这个字段的具体内容由BrushDataFlags字段 的值决定 |
+| [WrapMode](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushdata/wrapmode) { get; set; } | 从 WrapMode 枚举（第 2.1.1.34 节）中获取或设置一个 32 位有符号整数 |
 
 ### 也可以看看
 

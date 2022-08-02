@@ -25,7 +25,7 @@ public enum ExifMeteringMode
 | MultiSpot | `4` | 多点测光 |
 | MultiSegment | `5` | 多段测光。 |
 | Partial | `6` | 部分测光。 |
-| Other | `255` | 对于其他模式。 |
+| Other | `255` | 用于其他模式。 |
 
 ### 也可以看看
 

@@ -18,8 +18,8 @@ public class IncorrectPasswordException : Exception
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IncorrectPasswordException](incorrectpasswordexception#constructor)(string) | 初始化[`IncorrectPasswordException`](../incorrectpasswordexception)类的新实例。 |
-| [IncorrectPasswordException](incorrectpasswordexception#constructor_1)(string, Exception) | 初始化[`IncorrectPasswordException`](../incorrectpasswordexception)类的新实例。 |
+| [IncorrectPasswordException](incorrectpasswordexception#constructor)(string) | 初始化[`IncorrectPasswordException`](../incorrectpasswordexception)类. |
+| [IncorrectPasswordException](incorrectpasswordexception#constructor_1)(string, Exception) | 初始化[`IncorrectPasswordException`](../incorrectpasswordexception)类. |
 
 ### 也可以看看
 

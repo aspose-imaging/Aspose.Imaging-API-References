@@ -1,14 +1,14 @@
 ---
 title: TiffBigEndianStreamReader
 second_title: Aspose.Imaging for .NET API 参考
-description: 用于处理大端 tiff 文件格式的 tiff 流
+description: 处理大端 tiff 文件格式的 tiff 流
 type: docs
 weight: 7760
 url: /zh/net/aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader/
 ---
 ## TiffBigEndianStreamReader class
 
-用于处理大端 tiff 文件格式的 tiff 流。
+处理大端 tiff 文件格式的 tiff 流。
 
 ```csharp
 public sealed class TiffBigEndianStreamReader : TiffStreamReader
@@ -18,10 +18,10 @@ public sealed class TiffBigEndianStreamReader : TiffStreamReader
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TiffBigEndianStreamReader](tiffbigendianstreamreader#constructor_1)(byte[]) | 初始化[`TiffBigEndianStreamReader`](../tiffbigendianstreamreader)类的新实例。 |
-| [TiffBigEndianStreamReader](tiffbigendianstreamreader#constructor)(StreamContainer) | 初始化[`TiffBigEndianStreamReader`](../tiffbigendianstreamreader)类的新实例。 |
-| [TiffBigEndianStreamReader](tiffbigendianstreamreader#constructor_2)(byte[], int) | 初始化[`TiffBigEndianStreamReader`](../tiffbigendianstreamreader)类的新实例。 |
-| [TiffBigEndianStreamReader](tiffbigendianstreamreader#constructor_3)(byte[], int, int) | 初始化[`TiffBigEndianStreamReader`](../tiffbigendianstreamreader)类的新实例。 |
+| [TiffBigEndianStreamReader](tiffbigendianstreamreader#constructor_1)(byte[]) | 初始化[`TiffBigEndianStreamReader`](../tiffbigendianstreamreader)类. |
+| [TiffBigEndianStreamReader](tiffbigendianstreamreader#constructor)(StreamContainer) | 初始化[`TiffBigEndianStreamReader`](../tiffbigendianstreamreader)类. |
+| [TiffBigEndianStreamReader](tiffbigendianstreamreader#constructor_2)(byte[], int) | 初始化[`TiffBigEndianStreamReader`](../tiffbigendianstreamreader)类. |
+| [TiffBigEndianStreamReader](tiffbigendianstreamreader#constructor_3)(byte[], int, int) | 初始化[`TiffBigEndianStreamReader`](../tiffbigendianstreamreader)类. |
 
 ## 特性
 
@@ -34,7 +34,7 @@ public sealed class TiffBigEndianStreamReader : TiffStreamReader
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ReadBytes](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readbytes)(long, long) | 从流中读取一个无符号字节值数组。 |
+| [ReadBytes](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readbytes)(long, long) | 从流中读取一组无符号字节值。 |
 | [ReadBytes](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readbytes)(byte[], int, long, long) | 从流中读取字节值数组。 |
 | [ReadDouble](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readdouble)(long) | 从流中读取单个双精度值。 |
 | [ReadDoubleArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readdoublearray)(long, long) | 从流中读取一个双精度值数组。 |

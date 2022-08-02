@@ -24,7 +24,7 @@ public class WmfEscape : WmfObject
 
 | Имя | Описание |
 | --- | --- |
-| [EscapeRecord](../../aspose.imaging.fileformats.wmf.objects/wmfescape/escaperecord) { get; set; } | Получает или устанавливает запись escape. |
+| [EscapeRecord](../../aspose.imaging.fileformats.wmf.objects/wmfescape/escaperecord) { get; set; } | Получает или устанавливает escape-запись. |
 | [EscapeType](../../aspose.imaging.fileformats.wmf.objects/wmfescape/escapetype) { get; set; } | Получает или задает тип побега. |
 
 ### Смотрите также

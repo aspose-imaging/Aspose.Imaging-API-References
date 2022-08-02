@@ -3,7 +3,7 @@ title: XmpBasicPackage
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет базовое пространство имен XMP.
 type: docs
-weight: 11350
+weight: 11340
 url: /ru/net/aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/
 ---
 ## XmpBasicPackage class
@@ -18,14 +18,14 @@ public class XmpBasicPackage : XmpPackage
 
 | Имя | Описание |
 | --- | --- |
-| [XmpBasicPackage](xmpbasicpackage#constructor)() | Инициализирует новый экземпляр класса[`XmpBasicPackage`](../xmpbasicpackage). |
-| [XmpBasicPackage](xmpbasicpackage#constructor_1)(string, string) | Инициализирует новый экземпляр класса[`XmpBasicPackage`](../xmpbasicpackage). |
+| [XmpBasicPackage](xmpbasicpackage#constructor)() | Инициализирует новый экземпляр[`XmpBasicPackage`](../xmpbasicpackage) класс. |
+| [XmpBasicPackage](xmpbasicpackage#constructor_1)(string, string) | Инициализирует новый экземпляр[`XmpBasicPackage`](../xmpbasicpackage) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| virtual [Item](../../aspose.imaging.xmp/xmppackage/item) { get; set; } | Получает или задаетObjectс указанным ключом. |
+| virtual [Item](../../aspose.imaging.xmp/xmppackage/item) { get; set; } | Получает или задаетObject с указанным ключом. |
 | virtual [Keys](../../aspose.imaging.xmp/xmppackage/keys) { get; } | Получает ключи в пакете XMP. |
 | [NamespaceUri](../../aspose.imaging.xmp/xmppackage/namespaceuri) { get; } | Получает URI пространства имен. |
 | [Prefix](../../aspose.imaging.xmp/xmppackage/prefix) { get; } | Получает префикс. |
@@ -37,8 +37,8 @@ public class XmpBasicPackage : XmpPackage
 | --- | --- |
 | override [AddValue](../../aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/addvalue)(string, string) | Добавляет строковое свойство. |
 | virtual [Clear](../../aspose.imaging.xmp/xmppackage/clear)() | Очищает этот экземпляр. |
-| virtual [ContainsKey](../../aspose.imaging.xmp/xmppackage/containskey)(string) | Определяет, содержит ли указанный ключ ключ. |
-| [GetEnumerator](../../aspose.imaging.xmp/xmppackage/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| virtual [ContainsKey](../../aspose.imaging.xmp/xmppackage/containskey)(string) | Определяет, содержит ли указанный ключ key. |
+| [GetEnumerator](../../aspose.imaging.xmp/xmppackage/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | virtual [GetXmlValue](../../aspose.imaging.xmp/xmppackage/getxmlvalue)() | Преобразует значение XMP в представление XML. |
 | virtual [Remove](../../aspose.imaging.xmp/xmppackage/remove)(string) | Удалить значение с указанным ключом. |
 | [SetCreatedDate](../../aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/setcreateddate#setcreateddate)(DateTime) | Добавляет дату создания ресурса. |
@@ -60,7 +60,7 @@ public class XmpBasicPackage : XmpPackage
 | --- | --- |
 | const [RatingMax](../../aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/ratingmax) | Максимальное значение рейтинга. |
 | const [RatingMin](../../aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/ratingmin) | Минимальное значение рейтинга. |
-| const [RatingRejected](../../aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/ratingrejected) | Рейтинг отклоненного значения. |
+| const [RatingRejected](../../aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/ratingrejected) | Оценка отклоненного значения. |
 
 ### Смотрите также
 

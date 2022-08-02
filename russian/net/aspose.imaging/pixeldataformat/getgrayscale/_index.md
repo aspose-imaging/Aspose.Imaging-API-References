@@ -16,11 +16,11 @@ public static PixelDataFormat GetGrayscale(int bitsPerSample)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| bitsPerSample | Int32 | Количество битов в выборке. |
+| bitsPerSample | Int32 | Количество битов на выборку. |
 
 ### Возвращаемое значение
 
-Цвет в оттенках серого.
+Цвет шкалы серого.
 
 ### Смотрите также
 

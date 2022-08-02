@@ -16,7 +16,7 @@ public WmfRegion Region { get; set; }
 
 ### 适当的价值
 
-Region 定义要创建的区域的对象数据。
+区域对象数据，定义要创建的区域。
 
 ### 也可以看看
 

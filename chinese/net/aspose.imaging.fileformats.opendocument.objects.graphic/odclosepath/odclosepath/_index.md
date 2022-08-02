@@ -1,14 +1,14 @@
 ---
 title: OdClosePath
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化OdClosePathaspose.imaging.fileformats.opendocument.objects.graphic/odclosepath类的新实例
+description: 初始化OdClosePathaspose.imaging.fileformats.opendocument.objects.graphic/odclosepath类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odclosepath/odclosepath/
 ---
 ## OdClosePath constructor
 
-初始化[`OdClosePath`](../../odclosepath)类的新实例。
+初始化[`OdClosePath`](../../odclosepath)类.
 
 ```csharp
 public OdClosePath(OdObject parent)
@@ -16,7 +16,7 @@ public OdClosePath(OdObject parent)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | OdObject | 父级。 |
+| parent | OdObject | 家长。 |
 
 ### 也可以看看
 

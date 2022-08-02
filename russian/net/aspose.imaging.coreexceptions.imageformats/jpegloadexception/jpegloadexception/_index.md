@@ -1,14 +1,14 @@
 ---
 title: JpegLoadException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаJpegLoadExceptionaspose.imaging.coreexceptions.imageformats/jpegloadexception.
+description: Инициализирует новый экземплярJpegLoadExceptionaspose.imaging.coreexceptions.imageformats/jpegloadexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions.imageformats/jpegloadexception/jpegloadexception/
 ---
 ## JpegLoadException(string) {#constructor}
 
-Инициализирует новый экземпляр класса[`JpegLoadException`](../../jpegloadexception).
+Инициализирует новый экземпляр[`JpegLoadException`](../../jpegloadexception) класс.
 
 ```csharp
 public JpegLoadException(string message)
@@ -28,7 +28,7 @@ public JpegLoadException(string message)
 
 ## JpegLoadException(string, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`JpegLoadException`](../../jpegloadexception).
+Инициализирует новый экземпляр[`JpegLoadException`](../../jpegloadexception) класс.
 
 ```csharp
 public JpegLoadException(string message, Exception innerException)
@@ -49,7 +49,7 @@ public JpegLoadException(string message, Exception innerException)
 
 ## JpegLoadException(string, ErrorReason) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`JpegLoadException`](../../jpegloadexception).
+Инициализирует новый экземпляр[`JpegLoadException`](../../jpegloadexception) класс.
 
 ```csharp
 public JpegLoadException(string message, ErrorReason reason)
@@ -71,7 +71,7 @@ public JpegLoadException(string message, ErrorReason reason)
 
 ## JpegLoadException(string, Exception, ErrorReason) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`JpegLoadException`](../../jpegloadexception).
+Инициализирует новый экземпляр[`JpegLoadException`](../../jpegloadexception) класс.
 
 ```csharp
 public JpegLoadException(string message, Exception innerException, ErrorReason reason)

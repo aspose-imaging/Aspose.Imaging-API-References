@@ -1,14 +1,14 @@
 ---
 title: BlendPatternAsBlendFactorsH
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает шаблон наложения как коэффициенты наложения h.
+description: Получает шаблон смешивания как коэффициенты смешивания h.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushoptionaldata/blendpatternasblendfactorsh/
 ---
 ## EmfPlusLinearGradientBrushOptionalData.BlendPatternAsBlendFactorsH property
 
-Получает шаблон наложения как коэффициенты наложения h.
+Получает шаблон смешивания как коэффициенты смешивания h.
 
 ```csharp
 public EmfPlusBlendFactors BlendPatternAsBlendFactorsH { get; }

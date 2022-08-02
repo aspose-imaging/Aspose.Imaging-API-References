@@ -1,14 +1,14 @@
 ---
 title: NumberOfObjects
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает количество объектов для разделения начального изображения необязательно значение по умолчанию равно 2 объект и фон.
+description: Получает или задает количество объектов для разделения начального изображения на необязательно значение по умолчанию  2 объект и фон.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.masking.options/automaskingargs/numberofobjects/
 ---
 ## AutoMaskingArgs.NumberOfObjects property
 
-Получает или задает количество объектов для разделения начального изображения (необязательно), значение по умолчанию равно 2 (объект и фон).
+Получает или задает количество объектов для разделения начального изображения на (необязательно), значение по умолчанию — 2 (объект и фон).
 
 ```csharp
 public int NumberOfObjects { get; set; }
@@ -31,39 +31,39 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 {
     Aspose.Imaging.Masking.Options.AutoMaskingArgs args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
 
-     // Установить количество кластеров (отдельных объектов). Значение по умолчанию — 2, объект переднего плана и фон.
+    // Установить количество кластеров (отдельных объектов). Значение по умолчанию — 2, объект переднего плана и фон.
     args.NumberOfObjects = 3;
 
-     // Устанавливаем максимальное количество итераций.
+    // Установить максимальное количество итераций.
     args.MaxIterationNumber = 50;
 
-     // Установить точность метода сегментации (необязательно)
+    // Установить точность метода сегментации (необязательно)
     args.Precision = 1;
         
-     // Каждый кластер (сегмент) будет храниться в отдельном файле PNG.
+    // Каждый кластер (сегмент) будет храниться в отдельном файле PNG.
     Aspose.Imaging.ImageOptions.PngOptions exportOptions = new Aspose.Imaging.ImageOptions.PngOptions();
     exportOptions.ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
     exportOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream());
 
     Aspose.Imaging.Masking.Options.MaskingOptions maskingOptions = new Aspose.Imaging.Masking.Options.MaskingOptions();
 
-     // Использовать кластеризацию K-средних.
-     // Кластеризация K-средних позволяет разбить изображение на несколько независимых кластеров (сегментов).
+    // Использовать кластеризацию K-средних.
+    // Кластеризация K-средних позволяет разбить изображение на несколько независимых кластеров (сегментов).
     maskingOptions.Method = Masking.Options.SegmentationMethod.KMeans;
     maskingOptions.Decompose = true;
     maskingOptions.Args = args;
         
-     // Цвет фона будет оранжевый.
+    // Цвет фона будет оранжевый.
     maskingOptions.BackgroundReplacementColor = Aspose.Imaging.Color.Orange;
     maskingOptions.ExportOptions = exportOptions;
 
-     // Создаем экземпляр класса ImageMasking.
+    // Создаем экземпляр класса ImageMasking.
     Aspose.Imaging.Masking.ImageMasking masking = new Aspose.Imaging.Masking.ImageMasking(image);
 
-     // Разделить исходное изображение на несколько кластеров (сегментов).
+    // Разделить исходное изображение на несколько кластеров (сегментов).
     using (Aspose.Imaging.Masking.Result.MaskingResult maskingResult = masking.Decompose(maskingOptions))
     {
-         // Получаем изображения из результата маскирования и сохраняем их в PNG.
+        // Получаем изображения из результата маскирования и сохраняем их в PNG.
         for (int i = 0; i < maskingResult.Length; i++)
         {
             string outputFileName = string.Format("Blue hills.Segment{0}.png", maskingResult[i].ObjectNumber);

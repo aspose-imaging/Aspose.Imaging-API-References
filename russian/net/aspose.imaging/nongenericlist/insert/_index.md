@@ -1,14 +1,14 @@
 ---
 title: Insert
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Вставляет элемент вIListпо указанному индексу.
+description: Вставляет элемент вIList по указанному индексу.
 type: docs
 weight: 140
 url: /ru/net/aspose.imaging/nongenericlist/insert/
 ---
 ## NonGenericList.Insert method
 
-Вставляет элемент вIListпо указанному индексу.
+Вставляет элемент вIList по указанному индексу.
 
 ```csharp
 public void Insert(int index, object value)
@@ -16,8 +16,8 @@ public void Insert(int index, object value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Отсчитываемый от нуля индекс, в который следует вставить*value*. |
-| value | Object | ОбъектObjectдля вставки вIList. |
+| index | Int32 | Отсчитываемый от нуля индекс, при котором*value* следует вставить. |
+| value | Object | Object вставить вIList. |
 
 ### Смотрите также
 

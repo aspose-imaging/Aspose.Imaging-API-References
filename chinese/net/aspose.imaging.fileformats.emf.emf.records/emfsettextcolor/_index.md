@@ -18,8 +18,8 @@ public sealed class EmfSetTextColor : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSetTextColor](emfsettextcolor#constructor)() | 初始化[`EmfSetTextColor`](../emfsettextcolor)类的新实例。 |
-| [EmfSetTextColor](emfsettextcolor#constructor_1)(EmfRecord) | 初始化[`EmfSetTextColor`](../emfsettextcolor)类的新实例。 |
+| [EmfSetTextColor](emfsettextcolor#constructor)() | 初始化[`EmfSetTextColor`](../emfsettextcolor)类. |
+| [EmfSetTextColor](emfsettextcolor#constructor_1)(EmfRecord) | 初始化[`EmfSetTextColor`](../emfsettextcolor)类. |
 
 ## 特性
 

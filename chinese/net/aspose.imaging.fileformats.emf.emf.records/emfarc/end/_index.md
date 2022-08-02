@@ -1,14 +1,14 @@
 ---
 title: End
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 64 位 WMF PointL 对象该对象以逻辑单位指定 的坐标定义径向线的终点圆弧的终点
+description: 获取或设置一个 64 位 WMF PointL 对象该对象以逻辑单位指定 定义圆弧终点的径向线终点的坐标
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfarc/end/
 ---
 ## EmfArc.End property
 
-获取或设置一个 64 位 WMF PointL 对象，该对象以逻辑单位指定 的坐标，定义径向线的终点圆弧的终点。
+获取或设置一个 64 位 WMF PointL 对象，该对象以逻辑单位指定 定义圆弧终点的径向线终点的坐标。
 
 ```csharp
 public Point End { get; set; }

@@ -18,18 +18,18 @@ public class OdLineTo : OdGraphicObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OdLineTo](odlineto)(OdObject) | 初始化[`OdLineTo`](../odlineto)类的新实例。 |
+| [OdLineTo](odlineto)(OdObject) | 初始化[`OdLineTo`](../odlineto)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]。 |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]. |
 | [Coordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/coordinates) { get; set; } | 获取或设置坐标。 |
-| [Horizontal](../../aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/horizontal) { get; set; } | 获取或设置一个值，该值指示此[`OdLineTo`](../odlineto)是否是垂直的。 |
+| [Horizontal](../../aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/horizontal) { get; set; } | 获取或设置一个值，该值指示是否[`OdLineTo`](../odlineto)是垂直的。 |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | 获取项目。 |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | 获取父对象。 |
-| [Vertical](../../aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/vertical) { get; set; } | 获取或设置一个值，该值指示此[`OdLineTo`](../odlineto)是否是垂直的。 |
+| [Vertical](../../aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/vertical) { get; set; } | 获取或设置一个值，该值指示是否[`OdLineTo`](../odlineto)是垂直的。 |
 
 ### 也可以看看
 

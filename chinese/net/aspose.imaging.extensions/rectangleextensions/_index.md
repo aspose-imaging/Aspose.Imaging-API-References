@@ -1,14 +1,14 @@
 ---
 title: RectangleExtensions
 second_title: Aspose.Imaging for .NET API 参考
-description: 包含Rectangle../aspose.imaging/rectangle的扩展方法
+description: 包含扩展方法Rectangle../aspose.imaging/rectangle .
 type: docs
 weight: 1250
 url: /zh/net/aspose.imaging.extensions/rectangleextensions/
 ---
 ## RectangleExtensions class
 
-包含[`Rectangle`](../../aspose.imaging/rectangle)的扩展方法。
+包含扩展方法[`Rectangle`](../../aspose.imaging/rectangle) .
 
 ```csharp
 public static class RectangleExtensions
@@ -18,8 +18,8 @@ public static class RectangleExtensions
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [ToGdiRectangle](../../aspose.imaging.extensions/rectangleextensions/togdirectangle#togdirectangle)(Rectangle) | 将[`Rectangle`](../../aspose.imaging/rectangle)转换为Rectangle。 |
-| static [ToGdiRectangle](../../aspose.imaging.extensions/rectangleextensions/togdirectangle#togdirectangle_1)(RectangleF) | 将[`RectangleF`](../../aspose.imaging/rectanglef)转换为Rectangle。 |
+| static [ToGdiRectangle](../../aspose.imaging.extensions/rectangleextensions/togdirectangle#togdirectangle)(Rectangle) | 转换[`Rectangle`](../../aspose.imaging/rectangle)到Rectangle . |
+| static [ToGdiRectangle](../../aspose.imaging.extensions/rectangleextensions/togdirectangle#togdirectangle_1)(RectangleF) | 转换[`RectangleF`](../../aspose.imaging/rectanglef)到Rectangle . |
 | static [UnionWith](../../aspose.imaging.extensions/rectangleextensions/unionwith)(RectangleF, RectangleF) | 联合两个矩形。 |
 
 ### 也可以看看

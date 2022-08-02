@@ -16,7 +16,7 @@ public void Offset(PointF pos)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pos | PointF | 位置偏移量。 |
+| pos | PointF | 抵消位置的金额。 |
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public void Offset(float x, float y)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| x | Single | 位置水平偏移量。 |
+| x | Single | 水平偏移位置的量。 |
 | y | Single | 垂直偏移位置的量。 |
 
 ### 也可以看看

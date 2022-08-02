@@ -16,7 +16,7 @@ public short[] Parameters { get; set; }
 
 ### 适当的价值
 
-参数。
+参数.
 
 ### 也可以看看
 

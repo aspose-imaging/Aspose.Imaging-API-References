@@ -24,7 +24,7 @@ public interface IMultipageImage
 
 ### Примеры
 
-Следующий пример показывает как экспортировать многостраничное векторное изображение в другой формат в общем виде без привязки к конкретному типу изображения.
+В следующем примере показано, как экспортировать многостраничное векторное изображение в другой формат в общем виде без ссылки на конкретный тип изображения.
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFilePath))
 {
     exportOptions.MultiPageOptions = null;
 
-     // Экспортировать только первые две страницы
+    // Экспортировать только первые две страницы
     Aspose.Imaging.IMultipageImage multipageImage = image as Aspose.Imaging.IMultipageImage;
     if (multipageImage != null && (multipageImage.Pages != null && multipageImage.PageCount > 2))
     {

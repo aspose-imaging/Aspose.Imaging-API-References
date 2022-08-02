@@ -1,14 +1,14 @@
 ---
 title: XSrc
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位有符号整数指定源矩形左上角 角的 x 坐标以像素为单位
+description: 获取或设置一个 32 位有符号整数它指定源矩形左上角 角的 x 坐标以像素为单位
 type: docs
 weight: 110
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/xsrc/
 ---
 ## EmfStretchDiBits.XSrc property
 
-获取或设置一个 32 位有符号整数，指定源矩形左上角 角的 x 坐标（以像素为单位）。
+获取或设置一个 32 位有符号整数，它指定源矩形左上角 角的 x 坐标（以像素为单位）。
 
 ```csharp
 public int XSrc { get; set; }

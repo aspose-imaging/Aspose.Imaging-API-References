@@ -1,14 +1,14 @@
 ---
 title: EmfSpoolFontDefinitionRecordType
 second_title: Aspose.Imaging for .NET API 参考
-description: 字体定义记录包括五种记录类型如下表所示字体定义 记录指定部分字体完整字体和字体属性
+description: 字体定义记录包括五种记录类型如下表所列字体定义 记录指定部分字体完整字体和字体属性
 type: docs
 weight: 6480
 url: /zh/net/aspose.imaging.fileformats.emf.emfspool.records/emfspoolfontdefinitionrecordtype/
 ---
 ## EmfSpoolFontDefinitionRecordType class
 
-字体定义记录包括五种记录类型，如下表所示。字体定义 记录指定部分字体、完整字体和字体属性。
+字体定义记录包括五种记录类型，如下表所列。字体定义 记录指定部分字体、完整字体和字体属性。
 
 ```csharp
 public abstract class EmfSpoolFontDefinitionRecordType

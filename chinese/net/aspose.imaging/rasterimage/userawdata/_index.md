@@ -1,14 +1,14 @@
 ---
 title: UseRawData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值该值指示当原始数据加载可用时是否使用原始数据加载
+description: 获取或设置一个值指示当原始数据加载可用时是否使用原始数据加载
 type: docs
 weight: 160
 url: /zh/net/aspose.imaging/rasterimage/userawdata/
 ---
 ## RasterImage.UseRawData property
 
-获取或设置一个值，该值指示当原始数据加载可用时是否使用原始数据加载。
+获取或设置一个值，指示当原始数据加载可用时是否使用原始数据加载。
 
 ```csharp
 public virtual bool UseRawData { get; set; }
@@ -16,7 +16,7 @@ public virtual bool UseRawData { get; set; }
 
 ### 适当的价值
 
-` true` 如果在加载原始数据时使用原始数据加载可用。否则，` false` 。
+`真的`如果在原始数据加载可用时使用原始数据加载。否则，`错误的` .
 
 ### 也可以看看
 

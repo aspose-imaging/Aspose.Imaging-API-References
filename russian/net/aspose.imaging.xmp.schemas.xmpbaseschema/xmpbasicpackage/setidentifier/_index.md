@@ -16,7 +16,7 @@ public void SetIdentifier(string[] idenfifier)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| идентификатор | String[] | Идентификатор. |
+| idenfifier | String[] | Идентификатор. |
 
 ### Смотрите также
 

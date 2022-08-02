@@ -1,14 +1,14 @@
 ---
 title: CustomLineCapDataFlags
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака определяющее данные в поле OptionalData
+description: Получает или задает 32-разрядное целое число без знака указывающее данные в поле OptionalData
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/customlinecapdataflags/
 ---
 ## EmfPlusCustomLineCapData.CustomLineCapDataFlags property
 
-Получает или задает 32-разрядное целое число без знака, определяющее данные в поле OptionalData
+Получает или задает 32-разрядное целое число без знака, указывающее данные в поле OptionalData
 
 ```csharp
 public EmfPlusCustomLineCapDataFlags CustomLineCapDataFlags { get; set; }

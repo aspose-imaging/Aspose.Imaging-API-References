@@ -1,14 +1,14 @@
 ---
 title: EmfPlusDrawClosedCurve
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPlusDrawClosedCurveaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawclosedcurve类的新实例 RecordType - 一个 16 位无符号整数用于将此记录类型标识为来自 RecordType 枚举第 2.1.1.1 节的 EmfPlusDrawClosedCurve 该值必须是 0x4017
+description: 初始化EmfPlusDrawClosedCurveaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawclosedcurve class. RecordType - 一个 16 位无符号整数用于将此记录类型标识为 RecordType 枚举第 2.1.1.1 节中的 EmfPlusDrawClosedCurve 该值必须是 0x4017.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawclosedcurve/emfplusdrawclosedcurve/
 ---
 ## EmfPlusDrawClosedCurve constructor
 
-初始化[`EmfPlusDrawClosedCurve`](../../emfplusdrawclosedcurve)类的新实例。 RecordType - 一个 16 位无符号整数，用于将此记录类型标识为来自 RecordType 枚举（第 2.1.1.1 节）的 EmfPlusDrawClosedCurve 。该值必须是 0x4017。
+初始化[`EmfPlusDrawClosedCurve`](../../emfplusdrawclosedcurve) class. RecordType - 一个 16 位无符号整数，用于将此记录类型标识为 RecordType 枚举（第 2.1.1.1 节）中的 EmfPlusDrawClosedCurve 。该值必须是 0x4017.
 
 ```csharp
 public EmfPlusDrawClosedCurve(EmfPlusRecord source)
@@ -16,7 +16,7 @@ public EmfPlusDrawClosedCurve(EmfPlusRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfPlusRecord | 源。 |
+| source | EmfPlusRecord | 来源。 |
 
 ### 也可以看看
 

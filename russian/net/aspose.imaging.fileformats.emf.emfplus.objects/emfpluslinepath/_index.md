@@ -1,14 +1,14 @@
 ---
 title: EmfPlusLinePath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект EmfPlusLinePath задает графический путь для обводки пользовательского конца строки.
+description: Объект EmfPlusLinePath задает графический контур для обводки настраиваемой границы строки.
 type: docs
 weight: 5550
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslinepath/
 ---
 ## EmfPlusLinePath class
 
-Объект EmfPlusLinePath задает графический путь для обводки пользовательского конца строки.
+Объект EmfPlusLinePath задает графический контур для обводки настраиваемой границы строки.
 
 ```csharp
 public sealed class EmfPlusLinePath : EmfPlusStructureObjectType
@@ -24,7 +24,7 @@ public sealed class EmfPlusLinePath : EmfPlusStructureObjectType
 
 | Имя | Описание |
 | --- | --- |
-| [LinePath](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslinepath/linepath) { get; set; } | Получает или задает объект[`EmfPlusPath`](../emfpluspath), определяющий структуру. |
+| [LinePath](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslinepath/linepath) { get; set; } | Получает или задает[`EmfPlusPath`](../emfpluspath) объект, определяющий контур. |
 
 ### Смотрите также
 

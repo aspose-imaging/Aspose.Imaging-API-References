@@ -18,10 +18,10 @@ public enum OdObjectKind
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 对象类型为无 |
-| Section | `1` | 对象类型是section |
-| Cut | `2` | 对象种类被切割 |
-| Arc | `3` | 对象种类是弧 |
+| None | `0` | 对象种类为无 |
+| Section | `1` | 对象种类是section |
+| Cut | `2` | 对象种类是cut |
+| Arc | `3` | 对象种类是 arc |
 
 ### 也可以看看
 

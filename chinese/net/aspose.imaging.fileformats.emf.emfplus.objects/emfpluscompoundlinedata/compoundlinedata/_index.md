@@ -1,14 +1,14 @@
 ---
 title: CompoundLineData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 CompoundLineDataSize 浮点值数组 指定笔的复合线元素 必须按升序排列并且它们的值必须是 介于 0.0 和 1.0 之间包括
+description: 获取或设置 CompoundLineDataSize 浮点值 的数组用于指定笔的复合线 elements 必须按递增顺序排列并且它们的值必须在 0.0 和 1.0 之间为 包括
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompoundlinedata/compoundlinedata/
 ---
 ## EmfPlusCompoundLineData.CompoundLineData property
 
-获取或设置 CompoundLineDataSize 浮点值数组 指定笔的复合线。元素 必须按升序排列，并且它们的值必须是 介于 0.0 和 1.0 之间，包括
+获取或设置 CompoundLineDataSize 浮点值 的数组，用于指定笔的复合线。 elements 必须按递增顺序排列，并且它们的值必须在 0.0 和 1.0 之间为 ，包括
 
 ```csharp
 public float[] CompoundLineData { get; set; }

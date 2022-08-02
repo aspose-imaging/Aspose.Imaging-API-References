@@ -1,14 +1,14 @@
 ---
 title: TiffIfdType
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化TiffIfdTypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffifdtype类的新实例
+description: 初始化TiffIfdTypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffifdtype类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffifdtype/tiffifdtype/
 ---
 ## TiffIfdType(TiffTags) {#constructor}
 
-初始化[`TiffIfdType`](../../tiffifdtype)类的新实例。
+初始化[`TiffIfdType`](../../tiffifdtype)类.
 
 ```csharp
 public TiffIfdType(TiffTags tagId)
@@ -16,7 +16,7 @@ public TiffIfdType(TiffTags tagId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tagId | TiffTags | 标签 ID。 |
+| tagId | TiffTags | 标签标识。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public TiffIfdType(TiffTags tagId)
 
 ## TiffIfdType(ushort) {#constructor_1}
 
-初始化[`TiffIfdType`](../../tiffifdtype)类的新实例。
+初始化[`TiffIfdType`](../../tiffifdtype)类.
 
 ```csharp
 public TiffIfdType(ushort tagId)
@@ -37,7 +37,7 @@ public TiffIfdType(ushort tagId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tagId | UInt16 | 标签 ID。 |
+| tagId | UInt16 | 标签标识。 |
 
 ### 也可以看看
 

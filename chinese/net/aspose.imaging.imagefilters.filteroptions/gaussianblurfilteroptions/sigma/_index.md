@@ -16,7 +16,7 @@ public double Sigma { get; set; }
 
 ### 适当的价值
 
-西格玛。
+西格玛.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: EmfPlusComment
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusCommentaspose.imaging.fileformats.emf.emfplus.records/emfpluscomment.
+description: Инициализирует новый экземплярEmfPlusCommentaspose.imaging.fileformats.emf.emfplus.records/emfpluscomment класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfpluscomment/emfpluscomment/
 ---
 ## EmfPlusComment constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusComment`](../../emfpluscomment).
+Инициализирует новый экземпляр[`EmfPlusComment`](../../emfpluscomment) класс.
 
 ```csharp
 public EmfPlusComment(EmfPlusRecord source)

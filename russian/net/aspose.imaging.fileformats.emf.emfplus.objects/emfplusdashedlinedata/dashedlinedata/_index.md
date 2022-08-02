@@ -1,14 +1,14 @@
 ---
 title: DashedLineData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив значений DashedLineDataSize с плавающей запятой  которые определяют длину дефисов и пробелов в a пунктирная линия
+description: Получает или задает массив значений DashedLineDataSize с плавающей запятой  которые определяют длину штрихов и пробелов в пунктирной линии
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusdashedlinedata/dashedlinedata/
 ---
 ## EmfPlusDashedLineData.DashedLineData property
 
-Получает или задает массив значений DashedLineDataSize с плавающей запятой , которые определяют длину дефисов и пробелов в a пунктирная линия
+Получает или задает массив значений DashedLineDataSize с плавающей запятой , которые определяют длину штрихов и пробелов в пунктирной линии
 
 ```csharp
 public float[] DashedLineData { get; set; }

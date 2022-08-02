@@ -16,7 +16,7 @@ public void SetCreatorTool(string creatorTool)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| creatorTool | String | Имя инструмента. |
+| creatorTool | String | Название инструмента. |
 
 ### Смотрите также
 

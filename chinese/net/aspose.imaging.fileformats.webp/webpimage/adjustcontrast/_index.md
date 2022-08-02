@@ -16,7 +16,7 @@ public override void AdjustContrast(float contrast)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| contrast | Single | 对比值（在 [-100; 100] 范围内） |
+| contrast | Single | 对比度值（范围 [-100; 100]） |
 
 ### 也可以看看
 

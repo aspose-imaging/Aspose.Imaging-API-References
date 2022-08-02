@@ -22,7 +22,7 @@ public override short Flags { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | значение |
+| ArgumentOutOfRangeException | ценность |
 
 ### Смотрите также
 

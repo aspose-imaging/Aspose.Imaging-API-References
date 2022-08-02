@@ -18,23 +18,23 @@ public sealed class EmfCreateColorSpaceW : EmfObjectCreationRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfCreateColorSpaceW](emfcreatecolorspacew)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfCreateColorSpaceW`](../emfcreatecolorspacew). |
+| [EmfCreateColorSpaceW](emfcreatecolorspacew)(EmfRecord) | Инициализирует новый экземпляр[`EmfCreateColorSpaceW`](../emfcreatecolorspacew) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [CbData](../../aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/cbdata) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер поля данных в байтах. |
+| [CbData](../../aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/cbdata) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер в байтах поля данных. |
 | [Data](../../aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/data) { get; set; } | Получает или задает необязательный массив байтов, определяющий данные цветового профиля. |
 | [DwFlags](../../aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/dwflags) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое предоставляет информацию о данных в этой записи. |
-| [IhCS](../../aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/ihcs) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс объекта логического цветового пространства в таблице объектов EMF (раздел 3.1. 1.1). Этот индекс ДОЛЖЕН быть сохранен, чтобы этот объект можно было повторно использовать или модифицировать. |
-| [Lcs](../../aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/lcs) { get; set; } | Получает или задает объект WMF LogColorSpaceW ([MS-WMF], раздел 2.2.2.12), который может указывать имя цветового профиля в Символы Unicode UTF16-LE |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [IhCS](../../aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/ihcs) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс объекта логического цветового пространства в таблице объектов EMF (раздел 3.1.1.1). Этот индекс ДОЛЖЕН быть сохранен, чтобы этот объект можно было повторно использовать или изменить. |
+| [Lcs](../../aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/lcs) { get; set; } | Получает или задает объект WMF LogColorSpaceW ([MS-WMF], раздел 2.2.2.12), который может указывать имя цветового профиля в символах Unicode UTF16-LE |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Примечания
 
-Объект логического цветового пространства, определенный этой записью, может быть выбран в контексте устройства воспроизведения записью EMR_SETCOLORSPACE (раздел 2.3.8.7), которая определяет логическое цветовое пространство для использования в последующих графических операциях.
+Объект логического цветового пространства, определенный этой записью, может быть выбран в контексте устройства воспроизведения с помощью записи EMR_SETCOLORSPACE (раздел 2.3.8.7), которая определяет логическое цветовое пространство для использования в последующих графических операциях.
 
 ### Смотрите также
 

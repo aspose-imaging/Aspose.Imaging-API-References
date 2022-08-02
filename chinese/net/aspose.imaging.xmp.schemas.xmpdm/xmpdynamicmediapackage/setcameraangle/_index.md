@@ -1,14 +1,14 @@
 ---
 title: SetCameraAngle
 second_title: Aspose.Imaging for .NET API 参考
-description: 设置摄像机角度
+description: 设置相机角度
 type: docs
 weight: 110
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setcameraangle/
 ---
 ## XmpDynamicMediaPackage.SetCameraAngle method
 
-设置摄像机角度。
+设置相机角度。
 
 ```csharp
 public void SetCameraAngle(string cameraAngle)
@@ -16,7 +16,7 @@ public void SetCameraAngle(string cameraAngle)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cameraAngle | String | 摄像机角度。 |
+| cameraAngle | String | 摄影机角度。 |
 
 ### 也可以看看
 

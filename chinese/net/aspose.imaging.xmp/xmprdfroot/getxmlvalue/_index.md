@@ -1,14 +1,14 @@
 ---
 title: GetXmlValue
 second_title: Aspose.Imaging for .NET API 参考
-description: 将 xmp 值转换为 xml 表示
+description: 将 xmp 值转换为 xml 表示形式
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.xmp/xmprdfroot/getxmlvalue/
 ---
 ## XmpRdfRoot.GetXmlValue method
 
-将 xmp 值转换为 xml 表示。
+将 xmp 值转换为 xml 表示形式。
 
 ```csharp
 public string GetXmlValue()

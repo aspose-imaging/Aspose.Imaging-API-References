@@ -8,7 +8,7 @@ url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/number/
 ---
 ## CmxLayer.Number property
 
-获取或设置层序号。
+获取或设置层序号
 
 ```csharp
 public int Number { get; set; }
@@ -16,7 +16,7 @@ public int Number { get; set; }
 
 ### 适当的价值
 
-层序号。
+层序号
 
 ### 也可以看看
 

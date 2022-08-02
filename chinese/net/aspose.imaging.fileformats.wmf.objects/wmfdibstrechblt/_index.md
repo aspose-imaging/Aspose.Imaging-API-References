@@ -1,14 +1,14 @@
 ---
 title: WmfDibStrechBlt
 second_title: Aspose.Imaging for .NET API 参考
-description: META_DIBSTRETCHBLT 记录指定根据光栅操作以与设备无关的格式传输 像素块 可能膨胀或收缩
+description: META_DIBSTRETCHBLT 记录指定根据光栅操作以设备无关格式传输 像素块 可能扩展或收缩
 type: docs
 weight: 8610
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/
 ---
 ## WmfDibStrechBlt class
 
-META_DIBSTRETCHBLT 记录指定根据光栅操作以与设备无关的格式传输 像素块 可能膨胀或收缩。
+META_DIBSTRETCHBLT 记录指定根据光栅操作以设备无关格式传输 像素块， 可能扩展或收缩。
 
 ```csharp
 public class WmfDibStrechBlt : WmfObject
@@ -30,7 +30,7 @@ public class WmfDibStrechBlt : WmfObject
 | [SourceBitmap](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/sourcebitmap) { get; set; } | 获取或设置源位图。 |
 | [SrcHeight](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/srcheight) { get; set; } | 获取或设置源的高度。 |
 | [SrcWidth](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/srcwidth) { get; set; } | 获取或设置源的宽度。 |
-| [XDest](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/xdest) { get; set; } | 获取或设置 x dest。 |
+| [XDest](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/xdest) { get; set; } | 获取或设置 x dest. |
 | [XSrc](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/xsrc) { get; set; } | 获取或设置 x 源。 |
 | [YDest](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/ydest) { get; set; } | 获取或设置 y 目标。 |
 | [YSrc](../../aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/ysrc) { get; set; } | 获取或设置 y 源。 |

@@ -1,14 +1,14 @@
 ---
 title: CxSrc
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位有符号整数它指定源矩形的宽度以像素为单位
+description: 获取或设置一个 32 位有符号整数指定源矩形的宽度以像素为单位
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/cxsrc/
 ---
 ## EmfStretchDiBits.CxSrc property
 
-获取或设置一个 32 位有符号整数，它指定源矩形的宽度（以像素为单位）。
+获取或设置一个 32 位有符号整数，指定源矩形的宽度（以像素为单位）。
 
 ```csharp
 public int CxSrc { get; set; }

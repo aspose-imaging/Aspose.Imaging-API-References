@@ -18,24 +18,24 @@ public sealed class EmfPolyTextOutW : EmfDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfPolyTextOutW](emfpolytextoutw#constructor)() | 初始化[`EmfPolyTextOutW`](../emfpolytextoutw)类的新实例。 |
-| [EmfPolyTextOutW](emfpolytextoutw#constructor_1)(EmfRecord) | 初始化[`EmfPolyTextOutW`](../emfpolytextoutw)类的新实例。 |
+| [EmfPolyTextOutW](emfpolytextoutw#constructor)() | 初始化[`EmfPolyTextOutW`](../emfpolytextoutw)类. |
+| [EmfPolyTextOutW](emfpolytextoutw#constructor_1)(EmfRecord) | 初始化[`EmfPolyTextOutW`](../emfpolytextoutw)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/bounds) { get; set; } | 获取或设置 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），它以设备单位指定 边界矩形。 |
-| [ExScale](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/exscale) { get; set; } | 获取或设置一个 32 位浮点值，如果图形模式为 GM_COMPATIBLE，则指定从页面单位到 .01mm 单位的 X 比例. |
-| [EyScale](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/eyscale) { get; set; } | 获取或设置一个 32 位浮点值，该值指定从页面单位到 .01mm 单位的 Y 比例（如果图形模式为 GM_COMPATIBLE） . |
-| [IGraphicsMode](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/igraphicsmode) { get; set; } | 从 GraphicsMode 枚举（第 2.1.16 节）获取或设置指定当前图形模式的 32 位无符号整数 。 |
+| [ExScale](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/exscale) { get; set; } | 获取或设置一个 32 位浮点值，如果图形模式为 GM_COMPATIBLE，则指定从页面单位到 .01mm 单位的 X 比例。 |
+| [EyScale](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/eyscale) { get; set; } | 获取或设置一个 32 位浮点值，如果图形模式为 GM_COMPATIBLE，则指定从页面单位到 .01mm 单位的 Y 比例。 |
+| [IGraphicsMode](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/igraphicsmode) { get; set; } | 获取或设置一个 32 位无符号整数，用于指定当前图形模式， 来自 GraphicsMode 枚举（第 2.1.16 节）。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
-| [WEmrText](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/wemrtext) { get; set; } | 获取或设置 EmrText 对象数组（第 2.2.5 节），指定输出 16 位 Unicode UTF16-LE 字符的字符串，带有文本属性和间距值。 EmrText 对象的 数量由 cStrings 指定。 |
+| [WEmrText](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/wemrtext) { get; set; } | 获取或设置 EmrText 对象数组（第 2.2.5 节），这些对象指定 16 位 Unicode UTF16-LE 字符的输出 字符串，带有文本属性和间距值。 EmrText 对象的 数量由 cStrings 指定。 |
 
 ### 评论
 
-用于输出的字体和文本颜色由::当前状态的属性指定:47:::播放设备上下文。 EMR_POLYTEXTOUTW 应该使用一系列 EMR_EXTTEXTOUTW 记录（章节 2.3.5.7）来模拟，每个字符串一个。
+用于输出的字体和文本颜色由 播放设备上下文的当前状态中的属性指定。 EMR_POLYTEXTOUTW 应该使用一系列 EMR_EXTTEXTOUTW 记录（第 2.3.5.7 节）模拟，每个字符串一个。
 
 ### 也可以看看
 

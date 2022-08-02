@@ -1,14 +1,14 @@
 ---
 title: IntRange
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаIntRangeaspose.imaging/intrange.
+description: Инициализирует новый экземплярIntRangeaspose.imaging/intrange класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging/intrange/intrange/
 ---
 ## IntRange(int, int) {#constructor}
 
-Инициализирует новый экземпляр класса[`IntRange`](../../intrange).
+Инициализирует новый экземпляр[`IntRange`](../../intrange) класс.
 
 ```csharp
 public IntRange(int start, int count)
@@ -17,7 +17,7 @@ public IntRange(int start, int count)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | start | Int32 | Начало. |
-| count | Int32 | Количество. |
+| count | Int32 | Счет. |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public IntRange(int start, int count)
 
 ## IntRange(int, int, int) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`IntRange`](../../intrange).
+Инициализирует новый экземпляр[`IntRange`](../../intrange) класс.
 
 ```csharp
 public IntRange(int start, int count, int delta)
@@ -38,7 +38,7 @@ public IntRange(int start, int count, int delta)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | start | Int32 | Начало. |
-| count | Int32 | Количество. |
+| count | Int32 | Счет. |
 | delta | Int32 | Дельта. |
 
 ### Смотрите также
@@ -51,7 +51,7 @@ public IntRange(int start, int count, int delta)
 
 ## IntRange(int[]) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`IntRange`](../../intrange).
+Инициализирует новый экземпляр[`IntRange`](../../intrange) класс.
 
 ```csharp
 public IntRange(int[] range)

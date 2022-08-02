@@ -1,14 +1,14 @@
 ---
 title: EdgeOffset
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置边缘偏移
+description: 获取或设置边缘偏移量
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.cdr.types/cdrgradient/edgeoffset/
 ---
 ## CdrGradient.EdgeOffset property
 
-获取或设置边缘偏移。
+获取或设置边缘偏移量。
 
 ```csharp
 public int EdgeOffset { get; set; }
@@ -16,7 +16,7 @@ public int EdgeOffset { get; set; }
 
 ### 适当的价值
 
-边缘偏移。
+边缘偏移量。
 
 ### 也可以看看
 

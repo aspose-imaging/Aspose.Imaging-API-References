@@ -1,14 +1,14 @@
 ---
 title: FontSettings
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Общие настройки шрифта рендерера векторных форматов изображения.
+description: Общие настройки шрифта визуализатора форматов векторных изображений.
 type: docs
 weight: 9340
 url: /ru/net/aspose.imaging/fontsettings/
 ---
 ## FontSettings class
 
-Общие настройки шрифта рендерера векторных форматов изображения.
+Общие настройки шрифта визуализатора форматов векторных изображений.
 
 ```csharp
 public static class FontSettings
@@ -27,10 +27,10 @@ public static class FontSettings
 | --- | --- |
 | static [GetDefaultFontsFolders](../../aspose.imaging/fontsettings/getdefaultfontsfolders)() | Получает папки со шрифтами по умолчанию. |
 | static [GetFontsFolders](../../aspose.imaging/fontsettings/getfontsfolders)() | Получает копию массива, содержащего список папок, в которых Aspose.Words ищет шрифты TrueType. |
-| static [Reset](../../aspose.imaging/fontsettings/reset)() | Сбрасывает папку шрифтов и имя шрифта по умолчанию на системные значения по умолчанию. |
-| static [SetFontsFolder](../../aspose.imaging/fontsettings/setfontsfolder)(string) | Это ярлык для[`SetFontsFolders`](./setfontsfolders)для настройки только один каталог шрифтов. Папка шрифтов не проверяется. |
-| static [SetFontsFolders](../../aspose.imaging/fontsettings/setfontsfolders)(string[], bool) | Задает папки, из которых загружаются шрифты TrueType, и очищает все загруженные шрифты. Проверка папок со шрифтами не производится. |
-| static [UpdateFonts](../../aspose.imaging/fontsettings/updatefonts)() | Обновляет кэш шрифтов для файлов PSD, содержащих текстовые слои. Этот метод гарантирует, что шрифты из папки fontsFolder с использованием метода FontSettings.SetFontsFolder(fontsFolder) или шрифты после сброса с помощью FontSettings.Reset() будут учитываться при обработке файлов PSD. Используйте этот метод каждый раз, когда FontSettings.SetFontsFolder(fontsFolder) или FontSettings.Reset() вызывается для изображений PSD. Без вызова этого метода нет гарантии, что шрифты будут обновлены. |
+| static [Reset](../../aspose.imaging/fontsettings/reset)() | Сбрасывает папку шрифтов и имя шрифта по умолчанию на системное значение по умолчанию. |
+| static [SetFontsFolder](../../aspose.imaging/fontsettings/setfontsfolder)(string) | Это ярлык для[`SetFontsFolders`](./setfontsfolders) для установки только одного каталога шрифтов. В папке шрифтов не выполняются проверки. |
+| static [SetFontsFolders](../../aspose.imaging/fontsettings/setfontsfolders)(string[], bool) | Задает папки, из которых загружаются шрифты TrueType, и очищает все загруженные шрифты. Проверка папок шрифтов не выполняется. |
+| static [UpdateFonts](../../aspose.imaging/fontsettings/updatefonts)() | Обновляет кэш шрифтов для файлов PSD, содержащих текстовые слои. Этот метод гарантирует, что шрифты из папки fontsFolder с помощью метода FontSettings.SetFontsFolder(fontsFolder) или шрифты после сброса с помощью FontSettings.Reset() будут учитываться при обработке файлов PSD. Используйте этот метод каждый раз, когда FontSettings.SetFontsFolder(fontsFolder) или FontSettings.Reset() вызывается для изображений PSD. Без вызова этого метода нет гарантии, что шрифты будут обновлены. |
 
 ### Смотрите также
 

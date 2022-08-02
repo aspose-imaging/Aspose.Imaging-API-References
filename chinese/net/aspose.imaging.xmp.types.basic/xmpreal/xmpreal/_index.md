@@ -1,14 +1,14 @@
 ---
 title: XmpReal
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化XmpRealaspose.imaging.xmp.types.basic/xmpreal类的新实例
+description: 初始化XmpRealaspose.imaging.xmp.types.basic/xmpreal类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp.types.basic/xmpreal/xmpreal/
 ---
 ## XmpReal(float) {#constructor}
 
-初始化[`XmpReal`](../../xmpreal)类的新实例。
+初始化[`XmpReal`](../../xmpreal)类.
 
 ```csharp
 public XmpReal(float value)
@@ -28,7 +28,7 @@ public XmpReal(float value)
 
 ## XmpReal(string) {#constructor_1}
 
-初始化[`XmpReal`](../../xmpreal)类的新实例。
+初始化[`XmpReal`](../../xmpreal)类.
 
 ```csharp
 public XmpReal(string value)
@@ -36,7 +36,7 @@ public XmpReal(string value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 值。 |
+| value | String | 价值。 |
 
 ### 例外
 

@@ -1,14 +1,14 @@
 ---
 title: TimeInterval
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化TimeIntervalaspose.imaging.imageoptions/timeinterval类的新实例
+description: 初始化TimeIntervalaspose.imaging.imageoptions/timeinterval类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.imageoptions/timeinterval/timeinterval/
 ---
 ## TimeInterval constructor
 
-初始化[`TimeInterval`](../../timeinterval)类的新实例。
+初始化[`TimeInterval`](../../timeinterval)类.
 
 ```csharp
 public TimeInterval(uint from, uint to)

@@ -26,11 +26,11 @@ public sealed class EmfPlusHatchBrushData : EmfPlusBaseBrushData
 | --- | --- |
 | [BackArgb32Color](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplushatchbrushdata/backargb32color) { get; set; } | 获取或设置一个 32 位 EmfPlusArgb 对象，该对象指定用于绘制填充图案背景的颜色。 |
 | [ForeArgb32Color](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplushatchbrushdata/foreargb32color) { get; set; } | 获取或设置一个 32 位 EmfPlusArgb 对象，该对象指定用于绘制填充图案线条的颜色。 |
-| [HatchStyle](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplushatchbrushdata/hatchstyle) { get; set; } | 获取或设置指定画笔阴影样式的 32 位无符号整数。它必须在[`EmfPlusHatchStyle`](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplushatchstyle)枚举中定义。 |
+| [HatchStyle](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplushatchbrushdata/hatchstyle) { get; set; } | 获取或设置一个 32 位无符号整数，用于指定画笔阴影样式。它必须在[`EmfPlusHatchStyle`](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplushatchstyle)枚举. |
 
 ### 评论
 
-图形画笔由EmfPlusBrush对象（第 2.2.1.1 节）。阴影画笔绘制背景并在此背景上绘制线条、点、虚线、正方形和剖面线图案。阴影画笔定义了两种颜色:一种用于背景，一种用于背景上的图案。背景的颜色称为背景色，图案的颜色称为前景色。
+图形画笔由[`EmfPlusBrush`](../emfplusbrush)对象（第 2.2.1.1 节）。阴影画笔绘制背景并在此背景上绘制线条、点、虚线、正方形和剖面线图案。阴影画笔定义了两种颜色：一种用于背景，一种用于背景上的图案。背景的颜色称为背景色，图案的颜色称为前景色。
 
 ### 也可以看看
 

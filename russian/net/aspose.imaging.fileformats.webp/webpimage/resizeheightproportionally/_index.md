@@ -1,14 +1,14 @@
 ---
 title: ResizeHeightProportionally
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пропорционально изменяет ширину.
+description: Изменяет ширину пропорционально.
 type: docs
 weight: 240
 url: /ru/net/aspose.imaging.fileformats.webp/webpimage/resizeheightproportionally/
 ---
 ## WebPImage.ResizeHeightProportionally method
 
-Пропорционально изменяет ширину.
+Изменяет ширину пропорционально.
 
 ```csharp
 public override void ResizeHeightProportionally(int newHeight, ResizeType resizeType)

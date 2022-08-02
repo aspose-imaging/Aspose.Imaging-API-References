@@ -1,14 +1,14 @@
 ---
 title: Offset
 second_title: Aspose.Imaging for .NET API 参考
-description: 将这个Pointaspose.imaging/point转换为指定的Pointaspose.imaging/point.
+description: 翻译这个Pointaspose.imaging/point由指定的Pointaspose.imaging/point .
 type: docs
 weight: 130
 url: /zh/net/aspose.imaging/point/offset/
 ---
 ## Offset(Point) {#offset}
 
-将这个[`Point`](../../point)转换为指定的[`Point`](../../point).
+翻译这个[`Point`](../../point)由指定的[`Point`](../../point) .
 
 ```csharp
 public void Offset(Point point)
@@ -16,7 +16,7 @@ public void Offset(Point point)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| point | Point | [`Point`](../../point)用来抵消这个[`Point`](../../point)。 |
+| point | Point | 这[`Point`](../../point)用来抵消这个[`Point`](../../point). |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public void Offset(Point point)
 
 ## Offset(int, int) {#offset_1}
 
-将这个[`Point`](../../point)翻译指定的量。
+翻译这个[`Point`](../../point)按指定数量。
 
 ```csharp
 public void Offset(int dx, int dy)
@@ -36,8 +36,8 @@ public void Offset(int dx, int dy)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dx | Int32 | x 坐标偏移量。 |
-| dy | Int32 | y 坐标偏移量。 |
+| dx | Int32 | x 坐标的偏移量。 |
+| dy | Int32 | 偏移 y 坐标的量。 |
 
 ### 也可以看看
 

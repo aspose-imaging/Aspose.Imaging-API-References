@@ -1,14 +1,14 @@
 ---
 title: NBreakExtra
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位有符号整数该整数指定要添加的额外空间总量 以逻辑单位表示
+description: 获取或设置一个 32 位有符号整数它指定额外空间的总量 以逻辑单位表示以添加
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsettextjustification/nbreakextra/
 ---
 ## EmfSetTextJustification.NBreakExtra property
 
-获取或设置一个 32 位有符号整数，该整数指定要添加的额外空间总量 以逻辑单位表示。
+获取或设置一个 32 位有符号整数，它指定额外空间的总量， 以逻辑单位表示，以添加。
 
 ```csharp
 public int NBreakExtra { get; set; }

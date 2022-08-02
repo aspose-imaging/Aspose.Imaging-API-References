@@ -16,7 +16,7 @@ public WmfMetafileEscapes EscapeType { get; set; }
 
 ### 适当的价值
 
-转义类型。
+转义的类型。
 
 ### 也可以看看
 

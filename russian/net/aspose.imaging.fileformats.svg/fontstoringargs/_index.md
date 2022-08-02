@@ -25,7 +25,7 @@ public class FontStoringArgs
 | Имя | Описание |
 | --- | --- |
 | [DestFontStream](../../aspose.imaging.fileformats.svg/fontstoringargs/destfontstream) { get; set; } | Получает или задает целевой поток шрифтов. |
-| [DisposeStream](../../aspose.imaging.fileformats.svg/fontstoringargs/disposestream) { get; set; } | Получает или задает значение, указывающее, следует ли [распоряжаться потоком]. |
+| [DisposeStream](../../aspose.imaging.fileformats.svg/fontstoringargs/disposestream) { get; set; } | Получает или задает значение, указывающее, является ли [распоряжаться потоком]. |
 | [FontFileUri](../../aspose.imaging.fileformats.svg/fontstoringargs/fontfileuri) { get; set; } | Получает или задает URI файла шрифта. |
 | [FontStoreType](../../aspose.imaging.fileformats.svg/fontstoringargs/fontstoretype) { get; set; } | Получает или задает значение, указывающее, следует ли [использовать встроенный шрифт]. |
 | [SourceFontFileName](../../aspose.imaging.fileformats.svg/fontstoringargs/sourcefontfilename) { get; } | Получает исходный файл шрифта. |

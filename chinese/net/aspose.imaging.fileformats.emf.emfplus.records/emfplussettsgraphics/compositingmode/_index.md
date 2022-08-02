@@ -1,14 +1,14 @@
 ---
 title: CompositingMode
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 8 位无符号整数该整数指定源颜色 与背景颜色的组合方式它必须是 CompositingMode 枚举第 2.1.1.5 节中的一个值
+description: 获取或设置一个 8 位无符号整数该整数指定源颜色是 与背景颜色的组合方式它必须是 CompositingMode 枚举第 2.1.1.5 节中的一个值
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics/compositingmode/
 ---
 ## EmfPlusSetTsGraphics.CompositingMode property
 
-获取或设置一个 8 位无符号整数，该整数指定源颜色 与背景颜色的组合方式。它必须是 CompositingMode 枚举（第 2.1.1.5 节）中的一个值。
+获取或设置一个 8 位无符号整数，该整数指定源颜色是 与背景颜色的组合方式。它必须是 CompositingMode 枚举（第 2.1.1.5 节）中的一个值。
 
 ```csharp
 public EmfPlusCompositingMode CompositingMode { get; set; }

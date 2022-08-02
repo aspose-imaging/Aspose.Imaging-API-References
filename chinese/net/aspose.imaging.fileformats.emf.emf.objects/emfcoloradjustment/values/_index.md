@@ -1,14 +1,14 @@
 ---
 title: Values
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定如何准备输出图像的 16 位无符号整数该字段可以是 设置为 NULL 或 ColorAdjustment 枚举第 2.1.5 节中的任何值组合
+description: 获取或设置一个 16 位无符号整数指定如何准备输出图像此字段可以 设置为 NULL 或 ColorAdjustment 枚举第 2.1.5 节中的任何值组合
 type: docs
 weight: 130
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/values/
 ---
 ## EmfColorAdjustment.Values property
 
-获取或设置指定如何准备输出图像的 16 位无符号整数。该字段可以是 设置为 NULL 或 ColorAdjustment 枚举（第 2.1.5 节）中的任何值组合。
+获取或设置一个 16 位无符号整数，指定如何准备输出图像。此字段可以 设置为 NULL 或 ColorAdjustment 枚举（第 2.1.5 节）中的任何值组合。
 
 ```csharp
 public EmfColorAdjustmentEnum Values { get; set; }

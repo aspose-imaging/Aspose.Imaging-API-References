@@ -1,14 +1,14 @@
 ---
 title: CompositingQuality
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает качество композиции.
+description: Получает или задает качество композитинга.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetcompositingquality/compositingquality/
 ---
 ## EmfPlusSetCompositingQuality.CompositingQuality property
 
-Получает или задает качество композиции.
+Получает или задает качество композитинга.
 
 ```csharp
 public EmfPlusCompositingQuality CompositingQuality { get; set; }

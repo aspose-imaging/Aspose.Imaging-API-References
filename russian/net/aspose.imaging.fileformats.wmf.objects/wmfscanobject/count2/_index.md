@@ -1,14 +1,14 @@
 ---
 title: Count2
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение count2.
+description: Получает или задает count2.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfscanobject/count2/
 ---
 ## WmfScanObject.Count2 property
 
-Получает или задает значение count2.
+Получает или задает count2.
 
 ```csharp
 public int Count2 { get; set; }
@@ -16,7 +16,7 @@ public int Count2 { get; set; }
 
 ### Стоимость имущества
 
-То же, что и значение [`Count`](../count) поле; он присутствует, чтобы обеспечить движение вверх по конструкции.
+То же, что и значение the [`Count`](../count) поле ; он присутствует, чтобы позволить движение вверх в структуре.
 
 ### Смотрите также
 

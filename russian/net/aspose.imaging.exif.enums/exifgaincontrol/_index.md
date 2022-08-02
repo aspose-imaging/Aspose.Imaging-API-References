@@ -1,14 +1,14 @@
 ---
 title: ExifGainControl
 second_title: Справочник по Aspose.Imaging for .NET API
-description: exif enum управления усилением.
+description: enum управления усилением exif.
 type: docs
 weight: 960
 url: /ru/net/aspose.imaging.exif.enums/exifgaincontrol/
 ---
 ## ExifGainControl enumeration
 
-exif enum управления усилением.
+enum управления усилением exif.
 
 ```csharp
 public enum ExifGainControl
@@ -22,7 +22,7 @@ public enum ExifGainControl
 | LowGainUp | `1` | Низкий коэффициент усиления. |
 | HighGainUp | `2` | Высокий коэффициент усиления. |
 | LowGainDown | `3` | Низкое усиление вниз. |
-| HighGainDown | `4` | Высокий коэффициент усиления снижен. |
+| HighGainDown | `4` | Уменьшение высокого усиления. |
 
 ### Смотрите также
 

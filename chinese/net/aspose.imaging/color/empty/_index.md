@@ -1,14 +1,14 @@
 ---
 title: Empty
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个空的Coloraspose.imaging/color
+description: 得到一个空的Coloraspose.imaging/color .
 type: docs
 weight: 430
 url: /zh/net/aspose.imaging/color/empty/
 ---
 ## Color.Empty property
 
-获取一个空的[`Color`](../../color)。
+得到一个空的[`Color`](../../color) .
 
 ```csharp
 public static Color Empty { get; }
@@ -16,7 +16,7 @@ public static Color Empty { get; }
 
 ### 适当的价值
 
-空[`Color`](../../color)。
+空的[`Color`](../../color).
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: EmfSetTextAlign
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfSetTextAlignaspose.imaging.fileformats.emf.emf.records/emfsettextalign类的新实例
+description: 初始化EmfSetTextAlignaspose.imaging.fileformats.emf.emf.records/emfsettextalign类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsettextalign/emfsettextalign/
 ---
 ## EmfSetTextAlign(EmfRecord) {#constructor_1}
 
-初始化[`EmfSetTextAlign`](../../emfsettextalign)类的新实例。
+初始化[`EmfSetTextAlign`](../../emfsettextalign)类.
 
 ```csharp
 public EmfSetTextAlign(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfSetTextAlign(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfSetTextAlign(EmfRecord source)
 
 ## EmfSetTextAlign() {#constructor}
 
-初始化[`EmfSetTextAlign`](../../emfsettextalign)类的新实例。
+初始化[`EmfSetTextAlign`](../../emfsettextalign)类.
 
 ```csharp
 public EmfSetTextAlign()

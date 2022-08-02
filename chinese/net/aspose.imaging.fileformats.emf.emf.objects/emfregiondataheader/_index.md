@@ -24,11 +24,11 @@ public sealed class EmfRegionDataHeader : EmfObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/bounds) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），它指定 的边界地区。 |
-| [CountRects](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/countrects) { get; set; } | 获取或设置一个 32 位无符号整数，用于指定该区域中矩形的数量。 |
-| [RgnSize](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/rgnsize) { get; set; } | 获取或设置一个 32 位无符号整数，它指定矩形缓冲区的大小（以字节为单位）。 |
-| [Size](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/size) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定此对象的大小（以字节为单位）。这必须是 0x00000020。 |
-| [Type](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/type) { get; set; } | 获取或设置指定区域类型的 32 位无符号整数。这应该是 RDH_RECTANGLES (0x00000001)。 |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/bounds) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），它指定 区域的边界。 |
+| [CountRects](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/countrects) { get; set; } | 获取或设置一个 32 位无符号整数，指定该区域中矩形的数量。 |
+| [RgnSize](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/rgnsize) { get; set; } | 获取或设置一个 32 位无符号整数，以字节为单位指定矩形缓冲区的大小。 |
+| [Size](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/size) { get; set; } | 获取或设置一个 32 位无符号整数，指定此对象的大小（以字节为单位）。这必须是 0x00000020. |
+| [Type](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/type) { get; set; } | 获取或设置指定区域类型的 32 位无符号整数。这应该是 RDH_RECTANGLES (0x00000001). |
 
 ### 也可以看看
 

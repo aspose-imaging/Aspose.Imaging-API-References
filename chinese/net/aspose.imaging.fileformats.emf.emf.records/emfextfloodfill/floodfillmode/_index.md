@@ -1,14 +1,14 @@
 ---
 title: FloodFillMode
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数该整数指定如何使用颜色值 来确定填充操作的区域该值必须在 FloodFill 枚举中第 2.1.13 节
+description: 获取或设置一个 32 位无符号整数它指定如何使用颜色值 来确定填充操作的区域该值必须在 FloodFill 枚举第 2.1.13 节中
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/floodfillmode/
 ---
 ## EmfExtFloodFill.FloodFillMode property
 
-获取或设置一个 32 位无符号整数，该整数指定如何使用颜色值 来确定填充操作的区域。该值必须在 FloodFill 枚举中（第 2.1.13 节）。
+获取或设置一个 32 位无符号整数，它指定如何使用颜色值 来确定填充操作的区域。该值必须在 FloodFill 枚举（第 2.1.13 节）中。
 
 ```csharp
 public EmfFloodFill FloodFillMode { get; set; }

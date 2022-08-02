@@ -1,14 +1,14 @@
 ---
 title: StartAngle
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное число с плавающей запятой указывающее начальный угол дуги в градусах.
+description: Получает или задает 32-битное число с плавающей запятой указывающее начальный угол дуги в градусах.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfanglearc/startangle/
 ---
 ## EmfAngleArc.StartAngle property
 
-Получает или задает 32-разрядное число с плавающей запятой, указывающее начальный угол дуги в градусах.
+Получает или задает 32-битное число с плавающей запятой, указывающее начальный угол дуги в градусах.
 
 ```csharp
 public float StartAngle { get; set; }

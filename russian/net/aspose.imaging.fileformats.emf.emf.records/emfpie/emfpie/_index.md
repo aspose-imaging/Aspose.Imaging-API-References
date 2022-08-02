@@ -1,14 +1,14 @@
 ---
 title: EmfPie
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPieaspose.imaging.fileformats.emf.emf.records/emfpie.
+description: Инициализирует новый экземплярEmfPieaspose.imaging.fileformats.emf.emf.records/emfpie класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpie/emfpie/
 ---
 ## EmfPie(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfPie`](../../emfpie).
+Инициализирует новый экземпляр[`EmfPie`](../../emfpie) класс.
 
 ```csharp
 public EmfPie(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfPie(EmfRecord source)
 
 ## EmfPie() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfPie`](../../emfpie).
+Инициализирует новый экземпляр[`EmfPie`](../../emfpie) класс.
 
 ```csharp
 public EmfPie()

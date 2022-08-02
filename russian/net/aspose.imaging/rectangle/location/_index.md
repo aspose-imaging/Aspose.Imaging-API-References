@@ -1,14 +1,14 @@
 ---
 title: Location
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает координаты верхнего левого угла этойRectangleaspose.imaging/rectangleструктуры.
+description: Получает или задает координаты левого верхнего угла этогоRectangleaspose.imaging/rectangle структура.
 type: docs
 weight: 150
 url: /ru/net/aspose.imaging/rectangle/location/
 ---
 ## Rectangle.Location property
 
-Получает или задает координаты верхнего левого угла этой[`Rectangle`](../../rectangle)структуры.
+Получает или задает координаты левого верхнего угла этого[`Rectangle`](../../rectangle) структура.
 
 ```csharp
 public Point Location { get; set; }
@@ -16,7 +16,7 @@ public Point Location { get; set; }
 
 ### Стоимость имущества
 
-A[`Point`](../../point)который представляет верхний левый угол этого[`Rectangle`](../../rectangle)структура.
+А[`Point`](../../point) который представляет верхний левый угол этого[`Rectangle`](../../rectangle) структура.
 
 ### Смотрите также
 

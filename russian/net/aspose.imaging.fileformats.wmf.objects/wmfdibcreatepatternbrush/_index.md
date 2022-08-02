@@ -1,14 +1,14 @@
 ---
 title: WmfDibCreatePatternBrush
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_DIBCREATEPATTERNBRUSH создает объект Brush раздел 2.2.1.1 с шаблоном заданным DeviceIndependentBitmap DIB Объект раздел 2.2.2.9.
+description: Запись META_DIBCREATEPATTERNBRUSH создает объект Brush section 2.2.1.1 с шаблоном заданным объектом DeviceIndependentBitmap DIB раздел 2.2.2.9.
 type: docs
 weight: 8600
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfdibcreatepatternbrush/
 ---
 ## WmfDibCreatePatternBrush class
 
-Запись META_DIBCREATEPATTERNBRUSH создает объект Brush (раздел 2.2.1.1) с шаблоном, заданным DeviceIndependentBitmap (DIB) Объект (раздел 2.2.2.9).
+Запись META_DIBCREATEPATTERNBRUSH создает объект Brush (section 2.2.1.1) с шаблоном, заданным объектом DeviceIndependentBitmap (DIB) (раздел 2.2.2.9).
 
 ```csharp
 public class WmfDibCreatePatternBrush : WmfGraphicObject

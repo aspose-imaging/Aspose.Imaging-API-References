@@ -17,8 +17,8 @@ public static byte CreateFlags(bool hasTransparentColor, bool requiresUserInput,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| hasTransparentColor | Boolean | 如果设置为` true`[`GifGraphicsControlBlock`](../../gifgraphicscontrolblock)具有有效的透明颜色索引。 |
-| requiresUserInput | Boolean | 如果设置为` true` 则需要用户输入。 |
+| hasTransparentColor | Boolean | 如果设置为`真的`这[`GifGraphicsControlBlock`](../../gifgraphicscontrolblock)具有有效的透明颜色索引。 |
+| requiresUserInput | Boolean | 如果设置为`真的`用户输入是预期的。 |
 | disposalMethod | DisposalMethod | 处置方法。 |
 
 ### 返回值

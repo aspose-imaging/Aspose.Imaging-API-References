@@ -1,14 +1,14 @@
 ---
 title: WmfCreateFontInDirect
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Созданный шрифт
+description: Создать шрифт
 type: docs
 weight: 8520
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfcreatefontindirect/
 ---
 ## WmfCreateFontInDirect class
 
-Созданный шрифт
+Создать шрифт
 
 ```csharp
 public class WmfCreateFontInDirect : WmfGraphicObject

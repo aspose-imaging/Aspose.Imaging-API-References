@@ -18,7 +18,7 @@ public interface IAdvancedBufferProcessor : IBufferProcessor
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FinishRow](../../aspose.imaging/iadvancedbufferprocessor/finishrow)() | 完成该行。 |
+| [FinishRow](../../aspose.imaging/iadvancedbufferprocessor/finishrow)() | 完成行。 |
 | [FinishRows](../../aspose.imaging/iadvancedbufferprocessor/finishrows)(int) | 完成行。 |
 
 ### 也可以看看

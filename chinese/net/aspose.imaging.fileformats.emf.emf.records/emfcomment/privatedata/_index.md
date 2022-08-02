@@ -1,14 +1,14 @@
 ---
 title: PrivateData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定私有数据的可选字节数组该数据的第一个 DWORD 不得是第 2.3.3 节中指定的 预定义注释标识符值之一 EMF 不知道私有数据它仅对知道 数据格式以及如何使用它的应用程序有意义 EMR_COMMENT 私有数据记录可以被忽略
+description: 获取或设置指定私有数据的可选字节数组此数据的第一个 DWORD 不得是第 2.3.3 节中指定的预定义注释标识符值之一 私有数据对于 EMF 是未知的它仅对知道 数据格式以及如何使用它的应用程序有意义 EMR_COMMENT 私有数据记录可能被忽略
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcomment/privatedata/
 ---
 ## EmfComment.PrivateData property
 
-获取或设置指定私有数据的可选字节数组。该数据的第一个 DWORD 不得是第 2.3.3 节中指定的 预定义注释标识符值之一。 EMF 不知道私有数据；它仅对知道 数据格式以及如何使用它的应用程序有意义。 EMR_COMMENT 私有数据记录可以被忽略。
+获取或设置指定私有数据的可选字节数组。此数据的第一个 DWORD 不得是第 2.3.3 节中指定的预定义注释标识符值之一。 私有数据对于 EMF 是未知的；它仅对知道 数据格式以及如何使用它的应用程序有意义。 EMR_COMMENT 私有数据记录可能被忽略。
 
 ```csharp
 public byte[] PrivateData { get; set; }

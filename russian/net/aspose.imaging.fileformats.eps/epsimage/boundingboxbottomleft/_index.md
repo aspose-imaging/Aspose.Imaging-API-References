@@ -1,14 +1,14 @@
 ---
 title: BoundingBoxBottomLeft
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает нижнее левое положение ограничительной рамки
+description: Получает нижнюю левую позицию ограничительной рамки
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.eps/epsimage/boundingboxbottomleft/
 ---
 ## EpsImage.BoundingBoxBottomLeft property
 
-Получает нижнее левое положение ограничительной рамки
+Получает нижнюю левую позицию ограничительной рамки
 
 ```csharp
 public Point BoundingBoxBottomLeft { get; }

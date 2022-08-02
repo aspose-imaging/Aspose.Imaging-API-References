@@ -1,14 +1,14 @@
 ---
 title: CdrOutline
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Выходная строка cdr
+description: Выходной cdr line
 type: docs
 weight: 1660
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdroutline/
 ---
 ## CdrOutline class
 
-Выходная строка cdr
+Выходной cdr line
 
 ```csharp
 public class CdrOutline : CdrDictionaryItem
@@ -37,7 +37,7 @@ public class CdrOutline : CdrDictionaryItem
 | [LineWidth](../../aspose.imaging.fileformats.cdr.objects/cdroutline/linewidth) { get; set; } | Получает или задает ширину линии. |
 | [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | Получает или задает родителя. |
 | [StartMarkerId](../../aspose.imaging.fileformats.cdr.objects/cdroutline/startmarkerid) { get; set; } | Получает или задает идентификатор начального маркера. |
-| [Stretch](../../aspose.imaging.fileformats.cdr.objects/cdroutline/stretch) { get; set; } | Получает или задает растяжение. |
+| [Stretch](../../aspose.imaging.fileformats.cdr.objects/cdroutline/stretch) { get; set; } | Получает или задает растяжку. |
 
 ## Методы
 

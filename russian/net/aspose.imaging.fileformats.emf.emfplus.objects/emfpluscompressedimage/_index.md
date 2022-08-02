@@ -1,14 +1,14 @@
 ---
 title: EmfPlusCompressedImage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект EmfPlusCompressedImage определяет изображение со сжатыми данными.
+description: Объект EmfPlusCompressedImage указывает изображение со сжатыми данными.
 type: docs
 weight: 5340
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompressedimage/
 ---
 ## EmfPlusCompressedImage class
 
-Объект EmfPlusCompressedImage определяет изображение со сжатыми данными.
+Объект EmfPlusCompressedImage указывает изображение со сжатыми данными.
 
 ```csharp
 public sealed class EmfPlusCompressedImage : EmfPlusBaseBitmapData
@@ -24,7 +24,7 @@ public sealed class EmfPlusCompressedImage : EmfPlusBaseBitmapData
 
 | Имя | Описание |
 | --- | --- |
-| [CompressedImageData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompressedimage/compressedimagedata) { get; set; } | Получает или задает массив байтов, определяющих сжатое изображение. Тип сжатия ДОЛЖЕН быть определен из самих данных. |
+| [CompressedImageData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompressedimage/compressedimagedata) { get; set; } | Получает или задает массив байтов, которые определяют сжатое изображение. Тип сжатия ДОЛЖЕН быть определен из самих данных. |
 
 ### Смотрите также
 

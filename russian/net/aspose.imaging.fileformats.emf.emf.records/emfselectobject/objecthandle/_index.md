@@ -1,14 +1,14 @@
 ---
 title: ObjectHandle
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее либо индекс графического объекта в таблице объектов EMF либо индекс акции объект из перечисленияEmfStockObjectaspose.imaging.fileformats.emf.emf.consts/emfstockobject.
+description: Получает или задает 32-разрядное целое число без знака указывающее либо индекс графического объекта в таблице объектов EMF либо индекс стандартного объекта изEmfStockObjectaspose.imaging.fileformats.emf.emf.consts/emfstockobject перечисление.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfselectobject/objecthandle/
 ---
 ## EmfSelectObject.ObjectHandle property
 
-Получает или задает 32-разрядное целое число без знака, указывающее либо индекс графического объекта в таблице объектов EMF, либо индекс акции объект из перечисления[`EmfStockObject`](../../../aspose.imaging.fileformats.emf.emf.consts/emfstockobject).
+Получает или задает 32-разрядное целое число без знака, указывающее либо индекс графического объекта в таблице объектов EMF, либо индекс стандартного объекта из[`EmfStockObject`](../../../aspose.imaging.fileformats.emf.emf.consts/emfstockobject) перечисление.
 
 ```csharp
 public int ObjectHandle { get; set; }

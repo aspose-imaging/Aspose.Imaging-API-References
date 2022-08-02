@@ -1,14 +1,14 @@
 ---
 title: BitmapImageSize
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает размер необработанных данных растрового изображения в байтах.
+description: Получает или задает размер необработанных данных растрового изображения в байтах.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapimagesize/
 ---
 ## BitmapInfoHeader.BitmapImageSize property
 
-Получает или устанавливает размер необработанных данных растрового изображения в байтах.
+Получает или задает размер необработанных данных растрового изображения в байтах.
 
 ```csharp
 public uint BitmapImageSize { get; set; }

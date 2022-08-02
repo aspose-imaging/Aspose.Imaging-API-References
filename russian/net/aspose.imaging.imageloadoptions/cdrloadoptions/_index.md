@@ -24,8 +24,8 @@ public class CdrLoadOptions : LoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| [BufferSizeHint](../../aspose.imaging/loadoptions/buffersizehint) { get; set; } | Получает или устанавливает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
-| [DataBackgroundColor](../../aspose.imaging/loadoptions/databackgroundcolor) { get; set; } | Получает или задает[`Image`](../../aspose.imaging/image)background[`Color`](../../aspose.imaging/color). |
+| [BufferSizeHint](../../aspose.imaging/loadoptions/buffersizehint) { get; set; } | Получает или задает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
+| [DataBackgroundColor](../../aspose.imaging/loadoptions/databackgroundcolor) { get; set; } | Получает или задает[`Image`](../../aspose.imaging/image) фон[`Color`](../../aspose.imaging/color) . |
 | [DataRecoveryMode](../../aspose.imaging/loadoptions/datarecoverymode) { get; set; } | Получает или задает режим восстановления данных. |
 | [DefaultFont](../../aspose.imaging.imageloadoptions/cdrloadoptions/defaultfont) { get; set; } | Получает или задает шрифт по умолчанию. |
 | [ProgressEventHandler](../../aspose.imaging/loadoptions/progresseventhandler) { get; set; } | Получает или задает обработчик события выполнения. |
@@ -34,7 +34,7 @@ public class CdrLoadOptions : LoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AddCustomFontSource](../../aspose.imaging/loadoptions/addcustomfontsource)(CustomFontSource, params object[]) | Добавляет пользовательский источник шрифтов для предоставления шрифтов, специфичных для изображения. |
+| [AddCustomFontSource](../../aspose.imaging/loadoptions/addcustomfontsource)(CustomFontSource, params object[]) | Добавляет пользовательский источник шрифта для предоставления шрифтов, специфичных для изображения. |
 
 ### Смотрите также
 

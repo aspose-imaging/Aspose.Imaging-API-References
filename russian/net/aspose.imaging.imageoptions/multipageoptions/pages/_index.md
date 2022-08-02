@@ -27,7 +27,7 @@ public int[] Pages { get; set; }
 
 string dir = "c:\\temp\\";
 
- // Загружаем образ DJVU из файлового потока.
+// Загружаем изображение DJVU из файлового потока.
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
 {
     using (Aspose.Imaging.FileFormats.Djvu.DjvuImage djvuImage = new Aspose.Imaging.FileFormats.Djvu.DjvuImage(stream))
@@ -35,19 +35,19 @@ using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
         Aspose.Imaging.ImageOptions.TiffOptions saveOptions = new Aspose.Imaging.ImageOptions.TiffOptions(Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
         saveOptions.Compression = Aspose.Imaging.FileFormats.Tiff.Enums.TiffCompressions.Deflate;
 
-         // Обратите внимание, что если изображение цветное, оно будет автоматически преобразовано в черно-белый формат в соответствии с параметром ниже: 
+        // Обратите внимание, что если изображение цветное, оно будет автоматически преобразовано в черно-белый формат в соответствии с параметром ниже:
         saveOptions.BitsPerSample = new ushort[] { 1 };
 
         saveOptions.MultiPageOptions = new Aspose.Imaging.ImageOptions.DjvuMultiPageOptions();
 
-         // По умолчанию все страницы будут сохранены в выходной TIFF, но желаемый набор страниц можно указать явно.
-         // Будут экспортированы только первая и вторая страницы.
+        // По умолчанию все страницы будут сохранены в выходной TIFF, но желаемый набор страниц можно указать явно.
+        // Будут экспортированы только первая и вторая страницы.
         saveOptions.MultiPageOptions.Pages = new int[] { 0, 1 };
 
-         // Установить заголовки страниц.
+        // Установить заголовки страниц.
         saveOptions.MultiPageOptions.PageTitles = new string[] { "The First Page", "The Second Page" };
 
-         // Сохранить в TIFF
+        // Сохраняем в TIFF
         djvuImage.Save(dir + "sample.tif", saveOptions);
     }
 }

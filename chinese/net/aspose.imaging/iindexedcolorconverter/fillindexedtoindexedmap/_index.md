@@ -1,14 +1,14 @@
 ---
 title: FillIndexedtoIndexedMap
 second_title: Aspose.Imaging for .NET API 参考
-description: 填充索引到索引的图像转换映射
+description: 填充索引到索引图像的转换映射
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/iindexedcolorconverter/fillindexedtoindexedmap/
 ---
 ## IIndexedColorConverter.FillIndexedtoIndexedMap method
 
-填充索引到索引的图像转换映射。
+填充索引到索引图像的转换映射。
 
 ```csharp
 public void FillIndexedtoIndexedMap(byte[] map, PixelDataFormat sourceFormat, 

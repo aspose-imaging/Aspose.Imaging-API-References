@@ -1,14 +1,14 @@
 ---
 title: SubsecTimeOriginal
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 DateTimeOriginal 标记的秒小数部分
+description: 获取或设置 DateTimeOriginal 标记的秒数
 type: docs
 weight: 1070
 url: /zh/net/aspose.imaging.exif/exifdata/subsectimeoriginal/
 ---
 ## ExifData.SubsecTimeOriginal property
 
-获取或设置 DateTimeOriginal 标记的秒小数部分。
+获取或设置 DateTimeOriginal 标记的秒数。
 
 ```csharp
 public string SubsecTimeOriginal { get; set; }

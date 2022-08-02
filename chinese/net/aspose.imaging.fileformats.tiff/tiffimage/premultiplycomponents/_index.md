@@ -1,14 +1,14 @@
 ---
 title: PremultiplyComponents
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值该值指示是否必须对组件进行预乘
+description: 获取或设置一个值该值指示是否必须对分量进行预乘
 type: docs
 weight: 110
 url: /zh/net/aspose.imaging.fileformats.tiff/tiffimage/premultiplycomponents/
 ---
 ## TiffImage.PremultiplyComponents property
 
-获取或设置一个值，该值指示是否必须对组件进行预乘。
+获取或设置一个值，该值指示是否必须对分量进行预乘。
 
 ```csharp
 public override bool PremultiplyComponents { get; set; }
@@ -16,11 +16,11 @@ public override bool PremultiplyComponents { get; set; }
 
 ### 适当的价值
 
-` true` 如果组件必须预乘；否则，` false` 。
+`真的`如果组件必须预乘；否则，`错误的` .
 
 ### 例子
 
-以下示例创建一个新的 TIFF 图像，保存指定的半透明像素，然后加载这些像素并在预乘形式。
+下面的示例创建一个新的 TIFF 图像，保存指定的半透明像素，然后加载这些像素并以预乘形式获取最终颜色。
 
 ```csharp
 [C#]
@@ -43,15 +43,15 @@ createOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.Mem
 
 using (Aspose.Imaging.FileFormats.Tiff.TiffImage image = (Aspose.Imaging.FileFormats.Tiff.TiffImage)Aspose.Imaging.Image.Create(createOptions, imageWidth, imageHeight))
 {
-        // 保存整个图像的像素。
+    // 保存整个图像的像素。
     image.SavePixels(image.Bounds, colors);
 
-        // 像素以非预乘形式存储在原始图像中。
-        // 需要显式指定相应的选项才能获得预乘的颜色分量
-        // 预乘的颜色分量由公式计算：
-        // 红色 = original_red * alpha / 255;
-        // 绿色 = original_green * alpha / 255;
-        // 蓝色 = original_blue * alpha / 255;
+    // 像素以非预乘的形式存储在原始图像中。
+    // 需要显式指定相应的选项才能获得预乘的颜色分量。
+    // 预乘的颜色分量由以下公式计算：
+    // 红色 = original_red * alpha / 255;
+    // 绿色 = original_green * alpha / 255;
+    // 蓝色 = original_blue * alpha / 255;
     image.PremultiplyComponents = true;
     Aspose.Imaging.Color[] premultipliedColors = image.LoadPixels(image.Bounds);
 
@@ -63,17 +63,17 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage image = (Aspose.Imaging.FileFor
 }
 
 //输出将如下所示：
-    //原色：颜色[A=127,R=255,G=0,B=0]
+//原色：Color [A=127, R=255, G=0, B=0]
 //预乘颜色：Color [A=127, R=127, G=0, B=0]
-    //原色：颜色[A=127,R=0,G=255,B=0]
-    //预乘颜色：Color [A=127, R=0, G=127, B=0]
-    //原色：颜色[A=127,R=0,G=0,B=255]
-    //预乘颜色：Color [A=127, R=0, G=0, B=127]
-    //原色：颜色[A=127,R=255,G=255,B=0]
-    //预乘颜色：Color [A=127, R=127, G=127, B=0]
-    //原色：颜色[A=127,R=255,G=0,B=255]
-    //预乘颜色：Color [A=127, R=127, G=0, B=127]
-    //原色：颜色[A=127,R=0,G=255,B=255]
+//原色：Color [A=127, R=0, G=255, B=0]
+//预乘颜色：Color [A=127, R=0, G=127, B=0]
+//原色：Color [A=127, R=0, G=0, B=255]
+//预乘颜色：Color [A=127, R=0, G=0, B=127]
+//原色：Color [A=127, R=255, G=255, B=0]
+//预乘颜色：Color [A=127, R=127, G=127, B=0]
+//原色：Color [A=127, R=255, G=0, B=255]
+//预乘颜色：Color [A=127, R=127, G=0, B=127]
+//原色：Color [A=127, R=0, G=255, B=255]
 //预乘颜色：Color [A=127, R=0, G=127, B=127]
 ```
 

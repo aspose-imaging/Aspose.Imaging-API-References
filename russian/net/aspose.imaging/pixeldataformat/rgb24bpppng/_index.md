@@ -1,14 +1,14 @@
 ---
 title: Rgb24BppPng
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПолучаетPixelDataFormataspose.imaging/pixeldataformatопределенный для 24 бит на пиксель с 8 битами для каждого из альфа красного зеленого и синий альфа не определен.
+description: ПолучаетPixelDataFormataspose.imaging/pixeldataformat определяется для 24 бит на пиксель с 8 битами для каждого из альфа красного зеленого и синего альфа не определен.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging/pixeldataformat/rgb24bpppng/
 ---
 ## PixelDataFormat.Rgb24BppPng property
 
-Получает[`PixelDataFormat`](../../pixeldataformat)определенный для 24 бит на пиксель с 8 битами для каждого из альфа, красного, зеленого и синий, альфа не определен.
+Получает[`PixelDataFormat`](../../pixeldataformat) определяется для 24 бит на пиксель с 8 битами для каждого из альфа, красного, зеленого и синего, альфа не определен.
 
 ```csharp
 public static PixelDataFormat Rgb24BppPng { get; }
@@ -16,7 +16,7 @@ public static PixelDataFormat Rgb24BppPng { get; }
 
 ### Стоимость имущества
 
-Формат[`PixelDataFormat`](../../pixeldataformat)определен для 24 бит на пиксель с 8 битами для каждой из альфы, красного, зеленого и синего, альфа не определена.
+[`PixelDataFormat`](../../pixeldataformat) определяется для 24 бит на пиксель с 8 битами для каждого из альфа, красного, зеленого и синего, альфа не определен.
 
 ### Смотрите также
 

@@ -3,7 +3,7 @@ title: PsdVectorizationOptions
 second_title: Aspose.Imaging for .NET API 参考
 description: 矢量化 PSD 光栅化选项
 type: docs
-weight: 10160
+weight: 10150
 url: /zh/net/aspose.imaging.imageoptions/psdvectorizationoptions/
 ---
 ## PsdVectorizationOptions class
@@ -24,7 +24,7 @@ public class PsdVectorizationOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [VectorDataCompositionMode](../../aspose.imaging.imageoptions/psdvectorizationoptions/vectordatacompositionmode) { get; set; } | 获取或设置矢量数据合成方式。定义用于从矢量格式导出到 PSD 的矢量数据组合模式。 |
+| [VectorDataCompositionMode](../../aspose.imaging.imageoptions/psdvectorizationoptions/vectordatacompositionmode) { get; set; } | 获取或设置矢量数据合成模式。定义用于从矢量格式导出到 PSD. 的矢量数据组合模式 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ObjectId
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 EMF 对象表中 EmfPlusRegion 对象第 2.2.1.8 节的索引该值必须为零到 63  包括的
+description: 获取或设置 EMF 对象表中 EmfPlusRegion 对象第 2.2.1.8 节的索引该值必须是 0 到 63包括在内
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetclipregion/objectid/
 ---
 ## EmfPlusSetClipRegion.ObjectId property
 
-获取或设置 EMF+ 对象表中 EmfPlusRegion 对象（第 2.2.1.8 节）的索引。该值必须为零到 63 ， 包括的。
+获取或设置 EMF+ 对象表中 EmfPlusRegion 对象（第 2.2.1.8 节）的索引。该值必须是 0 到 63，包括在内。
 
 ```csharp
 public byte ObjectId { get; set; }

@@ -18,7 +18,7 @@ public abstract class EmfEscapeRecordType : EmfRecord
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IEscape](../../aspose.imaging.fileformats.emf.emf.records/emfescaperecordtype/iescape) { get; set; } | 获取或设置一个 32 位无符号整数，指定打印机驱动程序转义为 执行。这必须是 WMF MetafileEscapes 枚举（[MSWMF] 第 2.1.1.17 节）中的值之一。 |
+| [IEscape](../../aspose.imaging.fileformats.emf.emf.records/emfescaperecordtype/iescape) { get; set; } | 获取或设置一个 32 位无符号整数，指定打印机驱动程序转义到 执行。这必须是 WMF MetafileEscapes 枚举（[MSWMF] 第 2.1.1.17 节）中的值之一。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

@@ -1,14 +1,14 @@
 ---
 title: RgnData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 RgnDataSize 长度字节数组该数组以逻辑单位指定 RegionData第 2.2.24 节对象
+description: 获取或设置一个 RgnDataSize 长度的字节数组以逻辑单位指定 RegionData 2.2.24 节对象
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/rgndata/
 ---
 ## EmfPaintRgn.RgnData property
 
-获取或设置一个 RgnDataSize 长度字节数组，该数组以逻辑单位指定 RegionData（第 2.2.24 节）对象。
+获取或设置一个 RgnDataSize 长度的字节数组，以逻辑单位指定 RegionData（ 2.2.24 节）对象。
 
 ```csharp
 public EmfRegionData RgnData { get; set; }

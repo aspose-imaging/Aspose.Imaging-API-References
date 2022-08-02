@@ -16,11 +16,11 @@ public void RemoveBlock(IFrame block)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| block | IFrame | 要移除的方块。 |
+| block | IFrame | 要删除的块。 |
 
 ### 评论
 
-注意:不要忘记处置*block*如果您 不会将其添加到其他 WebPImage。
+注意：不要忘记 Dispose*block*如果 you 不会将其添加到其他 WebPImage.
 
 ### 也可以看看
 

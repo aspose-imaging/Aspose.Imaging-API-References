@@ -1,14 +1,14 @@
 ---
 title: ClearColorKey
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Очищает цветовой ключ диапазон прозрачности для категории по умолчанию.
+description: Очищает ключ цвета диапазон прозрачности для категории по умолчанию.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging/imageattributes/clearcolorkey/
 ---
 ## ClearColorKey() {#clearcolorkey}
 
-Очищает цветовой ключ (диапазон прозрачности) для категории по умолчанию.
+Очищает ключ цвета (диапазон прозрачности) для категории по умолчанию.
 
 ```csharp
 public void ClearColorKey()
@@ -32,7 +32,7 @@ public void ClearColorKey(ColorAdjustType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype), указывающий категорию, для которой цветной ключ очищается. |
+| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype) который указывает категорию, для которой очищается цветовая клавиша. |
 
 ### Смотрите также
 

@@ -16,7 +16,7 @@ public int EntriesCount { get; }
 
 ### 适当的价值
 
-条目计数。
+条目数。
 
 ### 也可以看看
 

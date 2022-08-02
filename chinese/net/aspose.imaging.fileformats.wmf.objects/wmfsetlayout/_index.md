@@ -1,14 +1,14 @@
 ---
 title: WmfSetLayout
 second_title: Aspose.Imaging for .NET API 参考
-description: META_SETLAYOUT 记录定义了播放 设备上下文中的布局方向布局方向决定 文本和图形的绘制方向
+description: META_SETLAYOUT 记录定义了playback 设备上下文中的布局方向布局方向决定了 文本和图形的绘制方向
 type: docs
 weight: 9070
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfsetlayout/
 ---
 ## WmfSetLayout class
 
-META_SETLAYOUT 记录定义了播放 设备上下文中的布局方向。布局方向决定 文本和图形的绘制方向
+META_SETLAYOUT 记录定义了playback 设备上下文中的布局方向。布局方向决定了 文本和图形的绘制方向
 
 ```csharp
 public class WmfSetLayout : WmfObject
@@ -24,7 +24,7 @@ public class WmfSetLayout : WmfObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LayoutMode](../../aspose.imaging.fileformats.wmf.objects/wmfsetlayout/layoutmode) { get; set; } | 获取或设置 LayoutMode。 |
+| [LayoutMode](../../aspose.imaging.fileformats.wmf.objects/wmfsetlayout/layoutmode) { get; set; } | 获取或设置 LayoutMode. |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: IhPen
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 32 位无符号整数该整数指定 EMF 对象表中扩展逻辑 笔对象的索引第 3.1.1.1 节 必须保存此索引以便可以重用或修改此对象
+description: 获取或设置 32 位无符号整数指定 EMF 对象表第 3.1.1.1 节中扩展逻辑 笔对象的索引 必须保存此索引以便可以重用或修改此对象
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/ihpen/
 ---
 ## EmfExtCreatePen.IhPen property
 
-获取或设置 32 位无符号整数，该整数指定 EMF 对象表中扩展逻辑 笔对象的索引（第 3.1.1.1 节）。 必须保存此索引，以便可以重用或修改此对象。
+获取或设置 32 位无符号整数，指定 EMF 对象表（第 3.1.1.1 节）中扩展逻辑 笔对象的索引。 必须保存此索引，以便可以重用或修改此对象。
 
 ```csharp
 public int IhPen { get; set; }

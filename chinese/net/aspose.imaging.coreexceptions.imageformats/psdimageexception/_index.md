@@ -1,14 +1,14 @@
 ---
 title: PsdImageException
 second_title: Aspose.Imaging for .NET API 参考
-description: psd 图像异常
+description: psd图片异常
 type: docs
 weight: 620
 url: /zh/net/aspose.imaging.coreexceptions.imageformats/psdimageexception/
 ---
 ## PsdImageException class
 
-psd 图像异常。
+psd图片异常。
 
 ```csharp
 public class PsdImageException : ImageException
@@ -18,8 +18,8 @@ public class PsdImageException : ImageException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PsdImageException](psdimageexception#constructor)(string) | 初始化[`PsdImageException`](../psdimageexception)类的新实例。 |
-| [PsdImageException](psdimageexception#constructor_1)(string, Exception) | 初始化[`PsdImageException`](../psdimageexception)类的新实例。 |
+| [PsdImageException](psdimageexception#constructor)(string) | 初始化[`PsdImageException`](../psdimageexception)类. |
+| [PsdImageException](psdimageexception#constructor_1)(string, Exception) | 初始化[`PsdImageException`](../psdimageexception)类. |
 
 ### 也可以看看
 

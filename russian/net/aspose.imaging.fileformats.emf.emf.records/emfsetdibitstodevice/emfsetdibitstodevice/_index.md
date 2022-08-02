@@ -1,14 +1,14 @@
 ---
 title: EmfSetDiBitsToDevice
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetDiBitsToDeviceaspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice.
+description: Инициализирует новый экземплярEmfSetDiBitsToDeviceaspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/emfsetdibitstodevice/
 ---
 ## EmfSetDiBitsToDevice constructor
 
-Инициализирует новый экземпляр класса[`EmfSetDiBitsToDevice`](../../emfsetdibitstodevice).
+Инициализирует новый экземпляр[`EmfSetDiBitsToDevice`](../../emfsetdibitstodevice) класс.
 
 ```csharp
 public EmfSetDiBitsToDevice(EmfRecord source)

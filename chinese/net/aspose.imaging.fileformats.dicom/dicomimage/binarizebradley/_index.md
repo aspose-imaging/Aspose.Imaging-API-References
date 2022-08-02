@@ -1,14 +1,14 @@
 ---
 title: BinarizeBradley
 second_title: Aspose.Imaging for .NET API 参考
-description: 使用 Bradley 自适应阈值算法对图像进行二值化 使用积分图像阈值
+description: 使用 Bradley 自适应阈值算法对图像进行二值化使用积分图像阈值
 type: docs
 weight: 160
 url: /zh/net/aspose.imaging.fileformats.dicom/dicomimage/binarizebradley/
 ---
 ## DicomImage.BinarizeBradley method
 
-使用 Bradley 自适应阈值算法对图像进行二值化 使用积分图像阈值
+使用 Bradley 自适应阈值算法对图像进行二值化，使用积分图像阈值
 
 ```csharp
 public override void BinarizeBradley(double brightnessDifference, int windowSize)
@@ -16,12 +16,12 @@ public override void BinarizeBradley(double brightnessDifference, int windowSize
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| brightnessDifference | Double | 像素与 sxs 像素窗口的平均值之间的亮度差异 以该像素为中心。 |
-| windowSize | Int32 | 以该像素为中心的像素的 sxs 窗口大小 |
+| brightnessDifference | Double | 像素与以该像素为中心的像素 的 sxs 窗口的平均值之间的亮度差。 |
+| windowSize | Int32 | 以该像素为中心的像素的 sxs 窗口的大小 |
 
 ### 例子
 
-以下示例将具有指定窗口大小的 Bradley 自适应阈值算法的 DICOM 图像。二值化图像仅包含 2 种颜色 - 黑色和白色。
+以下示例使用 Bradley 的自适应阈值算法和指定的窗口大小对 DICOM 图像进行二值化。二值化图像仅包含 2 种颜色 - 黑色和白色。
 
 ```csharp
 [C#]
@@ -32,7 +32,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.dico
 {
     Aspose.Imaging.FileFormats.Dicom.DicomImage dicomImage = (Aspose.Imaging.FileFormats.Dicom.DicomImage)image;
 
-        // 将亮度差为 5 的图像二值化。亮度是一个像素与以该像素为中心的 10 x 10 像素窗口的平均值之间的差。
+    // 将亮度差为 5 的图像二值化。亮度是一个像素与以该像素为中心的 10 x 10 像素窗口的平均值之间的差。
     dicomImage.BinarizeBradley(5, 10);
     dicomImage.Save(dir + "sample.BinarizeBradley5_10x10.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }

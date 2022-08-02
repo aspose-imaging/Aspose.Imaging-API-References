@@ -1,14 +1,14 @@
 ---
 title: ImageRectangle
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取与此TextureBrush关联的R5TAspose.Imaging.Rectangle.
+description: 获取Rectangleaspose.imaging/rectangle与此相关TextureBrushaspose.imaging.brushes/texturebrush .
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.brushes/texturebrush/imagerectangle/
 ---
 ## TextureBrush.ImageRectangle property
 
-获取与此TextureBrush关联的R5:T:Aspose.Imaging.Rectangle::::::.
+获取[`Rectangle`](../../../aspose.imaging/rectangle)与此相关[`TextureBrush`](../../texturebrush) .
 
 ```csharp
 public RectangleF ImageRectangle { get; }
@@ -16,7 +16,7 @@ public RectangleF ImageRectangle { get; }
 
 ### 适当的价值
 
-[`Rectangle`](../../../aspose.imaging/rectangle)。
+这[`Rectangle`](../../../aspose.imaging/rectangle).
 
 ### 也可以看看
 

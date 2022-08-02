@@ -17,7 +17,7 @@ public static FileStreamContainer CreateFileStream(string fileLocation, bool isT
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileLocation | String | 文件位置。 |
-| isTemporal | Boolean | 如果设置为` true` 文件流容器是临时的。 |
+| isTemporal | Boolean | 如果设置为`真的`文件流容器是临时的。 |
 
 ### 返回值
 

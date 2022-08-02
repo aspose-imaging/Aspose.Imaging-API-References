@@ -16,7 +16,7 @@ public string Creator { get; set; }
 
 ### 适当的价值
 
-创建者。
+创造者.
 
 ### 也可以看看
 

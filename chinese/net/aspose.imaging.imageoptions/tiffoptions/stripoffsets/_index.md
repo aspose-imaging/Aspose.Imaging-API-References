@@ -1,14 +1,14 @@
 ---
 title: StripOffsets
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置条带偏移
+description: 获取或设置条带偏移量
 type: docs
 weight: 490
 url: /zh/net/aspose.imaging.imageoptions/tiffoptions/stripoffsets/
 ---
 ## TiffOptions.StripOffsets property
 
-获取或设置条带偏移。
+获取或设置条带偏移量。
 
 ```csharp
 public uint[] StripOffsets { get; set; }
@@ -16,7 +16,7 @@ public uint[] StripOffsets { get; set; }
 
 ### 适当的价值
 
-条带偏移。
+条带偏移量。
 
 ### 也可以看看
 

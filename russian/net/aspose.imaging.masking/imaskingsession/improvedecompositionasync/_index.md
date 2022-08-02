@@ -1,14 +1,14 @@
 ---
 title: ImproveDecompositionAsync
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Создает асинхронную задачу которая может выполнять операцию повторного обучения декомпозиции
+description: Создает асинхронную задачу которая может выполнять переобучение операции декомпозиции
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.masking/imaskingsession/improvedecompositionasync/
 ---
 ## IMaskingSession.ImproveDecompositionAsync method
 
-Создает асинхронную задачу, которая может выполнять операцию повторного обучения декомпозиции
+Создает асинхронную задачу, которая может выполнять переобучение операции декомпозиции
 
 ```csharp
 public IAsyncTask ImproveDecompositionAsync(IMaskingArgs maskingArguments)
@@ -20,7 +20,7 @@ public IAsyncTask ImproveDecompositionAsync(IMaskingArgs maskingArguments)
 
 ### Возвращаемое значение
 
-Асинхронная задача декомпозиции
+Задача асинхронной декомпозиции
 
 ### Смотрите также
 

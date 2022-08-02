@@ -1,14 +1,14 @@
 ---
 title: Os22XBitmapHeaderFullSize
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Размер заголовка2 растрового ядра
+description: Размер заголовка2 ядра растрового изображения
 type: docs
 weight: 120
 url: /ru/net/aspose.imaging.fileformats.bmp/bitmapcoreheader/os22xbitmapheaderfullsize/
 ---
 ## BitmapCoreHeader.Os22XBitmapHeaderFullSize field
 
-Размер заголовка2 растрового ядра
+Размер заголовка2 ядра растрового изображения
 
 ```csharp
 public const int Os22XBitmapHeaderFullSize;

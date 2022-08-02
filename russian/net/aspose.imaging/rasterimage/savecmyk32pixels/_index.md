@@ -17,7 +17,7 @@ public void SaveCmyk32Pixels(Rectangle rectangle, int[] pixels)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | rectangle | Rectangle | Прямоугольник для сохранения пикселей. |
-| пиксели | Int32[] | Пиксели CMYK представлены в виде 32-битных целых чисел. |
+| pixels | Int32[] | Пиксели CMYK представлены как 32-битные целые значения. |
 
 ### Примеры
 
@@ -32,17 +32,17 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-     // Получить целочисленное представление черного цвета в цветовом пространстве CMYK.
+    // Получить целочисленное представление черного цвета в цветовом пространстве CMYK.
     int blackCmyk = Aspose.Imaging.CmykColorHelper.ToCmyk(Color.Black);
 
-     // Черный квадрат.
+    // Черный квадрат.
     int[] pixels = new int[(rasterImage.Width / 2) * (rasterImage.Height / 2)];
     for (int i = 0; i < pixels.Length; i++)
     {
         pixels[i] = blackCmyk;
     }
 
-     // Рисуем черный квадрат в центре изображения.
+    // Рисуем черный квадрат в центре изображения.
     Aspose.Imaging.Rectangle area = new Aspose.Imaging.Rectangle(rasterImage.Width / 4, rasterImage.Height / 4, rasterImage.Width / 2, rasterImage.Height / 2);
     rasterImage.SaveCmyk32Pixels(area, pixels);
 

@@ -3,7 +3,7 @@ title: Jpeg2000Options
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Параметры формата файла Jpeg2000.
 type: docs
-weight: 10030
+weight: 10020
 url: /ru/net/aspose.imaging.imageoptions/jpeg2000options/
 ---
 ## Jpeg2000Options class
@@ -18,25 +18,25 @@ public class Jpeg2000Options : ImageOptionsBase
 
 | Имя | Описание |
 | --- | --- |
-| [Jpeg2000Options](jpeg2000options#constructor)() | Инициализирует новый экземпляр класса[`Jpeg2000Options`](../jpeg2000options). |
-| [Jpeg2000Options](jpeg2000options#constructor_1)(Jpeg2000Options) | Инициализирует новый экземпляр класса[`Jpeg2000Options`](../jpeg2000options). |
+| [Jpeg2000Options](jpeg2000options#constructor)() | Инициализирует новый экземпляр[`Jpeg2000Options`](../jpeg2000options) класс. |
+| [Jpeg2000Options](jpeg2000options#constructor_1)(Jpeg2000Options) | Инициализирует новый экземпляр[`Jpeg2000Options`](../jpeg2000options) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Получает или устанавливает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Получает или задает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
 | [Codec](../../aspose.imaging.imageoptions/jpeg2000options/codec) { get; set; } | Получает или задает кодек JPEG2000 |
 | [Comments](../../aspose.imaging.imageoptions/jpeg2000options/comments) { get; set; } | Получает или задает маркеры комментариев Jpeg. |
-| [CompressionRatios](../../aspose.imaging.imageoptions/jpeg2000options/compressionratios) { get; set; } | Получает или задает массив коэффициентов сжатия. Различные коэффициенты сжатия для последовательных слоев. Скорость, указанная для каждого уровня качества, является желаемым коэффициентом сжатия. Требуются убывающие коэффициенты. |
+| [CompressionRatios](../../aspose.imaging.imageoptions/jpeg2000options/compressionratios) { get; set; } | Получает или задает массив коэффициентов сжатия. Различные коэффициенты сжатия для последовательных слоев. Степень, указанная для каждого уровня качества, является желаемым коэффициентом сжатия. Требуемые коэффициенты уменьшения. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | Получает или задает значение, указывающее, является ли [полный кадр]. |
-| [Irreversible](../../aspose.imaging.imageoptions/jpeg2000options/irreversible) { get; set; } | Получает или задает значение, указывающее, следует ли использовать необратимое сжатие DWT 9-7 (true) или использовать сжатие DWT 5-3 без потерь (по умолчанию). |
+| [Irreversible](../../aspose.imaging.imageoptions/jpeg2000options/irreversible) { get; set; } | Получает или задает значение, указывающее, следует ли использовать необратимое сжатие DWT 9-7 (true) или использовать сжатие без потерь DWT 5-3 (по умолчанию). |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | Многостраничные параметры |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Получает или задает цветовую палитру. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Получает или задает обработчик события выполнения. |
 | virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Получает или задает параметры разрешения. |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Получает или задает источник для создания изображения. |
+| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Получает или задает источник для создания изображения в. |
 | [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Получает или задает параметры векторной растеризации. |
 | override [XmpData](../../aspose.imaging.imageoptions/jpeg2000options/xmpdata) { get; set; } | Получает или задает контейнер метаданных XMP. |
 
@@ -49,7 +49,7 @@ public class Jpeg2000Options : ImageOptionsBase
 
 ### Примеры
 
-В следующем примере показано, как преобразовать многостраничное векторное изображение в формат JPEG 2000 в общем виде без привязки к конкретному типу изображения.
+В следующем примере показано, как преобразовать многостраничное векторное изображение в формат JPEG 2000 в общем виде без ссылки на конкретный тип изображения.
 
 ```csharp
 [C#]
@@ -64,7 +64,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFilePath))
 {
     exportOptions.MultiPageOptions = null;
 
-     // Экспортировать только первые две страницы. На самом деле будет растеризована только одна страница, потому что JPEG 2000 не является многостраничным форматом.
+    // Экспортировать только первые две страницы. Фактически будет растрирована только одна страница, потому что JPEG 2000 не является многостраничным форматом.
     Aspose.Imaging.IMultipageImage multipageImage = image as Aspose.Imaging.IMultipageImage;
     if (multipageImage != null && (multipageImage.Pages != null && multipageImage.PageCount > 2))
     {

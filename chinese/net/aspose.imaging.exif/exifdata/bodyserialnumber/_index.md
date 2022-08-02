@@ -16,7 +16,7 @@ public string BodySerialNumber { get; set; }
 
 ### 适当的价值
 
-主体序列号。
+机身序列号。
 
 ### 也可以看看
 

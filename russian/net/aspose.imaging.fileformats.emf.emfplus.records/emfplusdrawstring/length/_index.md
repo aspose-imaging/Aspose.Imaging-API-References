@@ -1,14 +1,14 @@
 ---
 title: Length
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает длину 32-разрядное целое число без знака указывающее количество символов в строке.
+description: Получает или задает length 32-разрядное целое число без знака указывающее количество символов в строке.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/length/
 ---
 ## EmfPlusDrawString.Length property
 
-Получает или задает длину 32-разрядное целое число без знака, указывающее количество символов в строке.
+Получает или задает length 32-разрядное целое число без знака, указывающее количество символов в строке.
 
 ```csharp
 public int Length { get; set; }

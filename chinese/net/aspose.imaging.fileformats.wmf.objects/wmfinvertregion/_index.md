@@ -18,8 +18,8 @@ public class WmfInvertRegion : WmfObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WmfInvertRegion](wmfinvertregion#constructor)() | 初始化[`WmfInvertRegion`](../wmfinvertregion)类的新实例。 |
-| [WmfInvertRegion](wmfinvertregion#constructor_1)(WmfGraphicObject) | 初始化[`WmfInvertRegion`](../wmfinvertregion)类的新实例。 |
+| [WmfInvertRegion](wmfinvertregion#constructor)() | 初始化[`WmfInvertRegion`](../wmfinvertregion)类. |
+| [WmfInvertRegion](wmfinvertregion#constructor_1)(WmfGraphicObject) | 初始化[`WmfInvertRegion`](../wmfinvertregion)类. |
 
 ## 特性
 

@@ -3,7 +3,7 @@ title: Shape
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Форма. Непрерывный набор точек соединенных по определенному правилу.
 type: docs
-weight: 10920
+weight: 10910
 url: /ru/net/aspose.imaging/shape/
 ---
 ## Shape class

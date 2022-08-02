@@ -3,7 +3,7 @@ title: ResourceRef
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Используется для обозначения предыдущих версий оригиналов воспроизведений оригиналов производных документов и т. д.
 type: docs
-weight: 11610
+weight: 11600
 url: /ru/net/aspose.imaging.xmp.types.complex.resourceref/resourceref/
 ---
 ## ResourceRef class

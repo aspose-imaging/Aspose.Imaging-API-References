@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Сравнивает две структурыPointFaspose.imaging/pointf. Результат указывает соответствуют ли значения свойствXaspose.imaging/pointf/xиYaspose.imaging/pointf/yдвухPointFaspose.imaging/pointfструктуры равны.
+description: Сравнивает дваPointFaspose.imaging/pointf структуры. Результат указывает являются ли значенияXaspose.imaging/pointf/x а такжеYaspose.imaging/pointf/y свойства двухPointFaspose.imaging/pointf структуры равны.
 type: docs
 weight: 120
 url: /ru/net/aspose.imaging/pointf/op_equality/
 ---
 ## PointF Equality operator
 
-Сравнивает две структуры[`PointF`](../../pointf). Результат указывает, соответствуют ли значения свойств[`X`](../x)и[`Y`](../y)двух[`PointF`](../../pointf)структуры равны.
+Сравнивает два[`PointF`](../../pointf) структуры. Результат указывает, являются ли значения[`X`](../x) а также[`Y`](../y) свойства двух[`PointF`](../../pointf) структуры равны.
 
 ```csharp
 public static bool operator ==(PointF point1, PointF point2)
@@ -16,12 +16,12 @@ public static bool operator ==(PointF point1, PointF point2)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point1 | PointF | Первый[`PointF`](../../pointf)для сравнения. |
-| point2 | PointF | Секунда[`PointF`](../../pointf)для сравнения. |
+| point1 | PointF | Первый[`PointF`](../../pointf) сравнивать. |
+| point2 | PointF | Второй[`PointF`](../../pointf) сравнивать. |
 
 ### Возвращаемое значение
 
-Истина, если[`X`](../x)и[`Y`](../y)значения первой и второй[`PointF`](../../pointf)структуры равны; в противном случае ложно.
+Верно, если[`X`](../x) а также[`Y`](../y) значения первого и второго[`PointF`](../../pointf) структуры равны; в противном случае ложно.
 
 ### Смотрите также
 

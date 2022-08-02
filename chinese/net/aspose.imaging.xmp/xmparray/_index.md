@@ -1,14 +1,14 @@
 ---
 title: XmpArray
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示XmpPackage./xmppackage中的 Xmp 数组 TODO数组可能包含复杂数据
+description: 表示 Xmp 数组中XmpPackage./xmppackage TODO数组可能包含复杂数据
 type: docs
-weight: 11730
+weight: 11720
 url: /zh/net/aspose.imaging.xmp/xmparray/
 ---
 ## XmpArray class
 
-表示[`XmpPackage`](../xmppackage)中的 Xmp 数组。 TODO:数组可能包含复杂数据。
+表示 Xmp 数组中[`XmpPackage`](../xmppackage) TODO：数组可能包含复杂数据。
 
 ```csharp
 public class XmpArray : IXmlValue
@@ -18,22 +18,22 @@ public class XmpArray : IXmlValue
 
 | 姓名 | 描述 |
 | --- | --- |
-| [XmpArray](xmparray#constructor)(XmpArrayType) | 初始化[`XmpArray`](../xmparray)类的新实例。 |
-| [XmpArray](xmparray#constructor_1)(XmpArrayType, string[]) | 初始化[`XmpArray`](../xmparray)类的新实例。 |
+| [XmpArray](xmparray#constructor)(XmpArrayType) | 初始化[`XmpArray`](../xmparray)类. |
+| [XmpArray](xmparray#constructor_1)(XmpArrayType, string[]) | 初始化[`XmpArray`](../xmparray)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Values](../../aspose.imaging.xmp/xmparray/values) { get; } | 获取[`XmpArray`](../xmparray)内的值数组。 |
+| [Values](../../aspose.imaging.xmp/xmparray/values) { get; } | 获取里面的值数组[`XmpArray`](../xmparray) . |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [AddItem](../../aspose.imaging.xmp/xmparray/additem)(string) | 添加新项目。 |
-| [GetXmlValue](../../aspose.imaging.xmp/xmparray/getxmlvalue)() | 将 XMP 值转换为 XML 表示。 |
-| override [ToString](../../aspose.imaging.xmp/xmparray/tostring)() | 返回代表此实例的String。 |
+| [GetXmlValue](../../aspose.imaging.xmp/xmparray/getxmlvalue)() | 将 XMP 值转换为 XML 表示形式。 |
+| override [ToString](../../aspose.imaging.xmp/xmparray/tostring)() | 返回一个String代表这个实例。 |
 
 ### 也可以看看
 

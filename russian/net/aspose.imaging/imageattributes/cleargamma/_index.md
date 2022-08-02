@@ -32,7 +32,7 @@ public void ClearGamma(ColorAdjustType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype)который указывает категорию, для которой гамма коррекция отключена. |
+| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype) который указывает категорию, для которой гамма-коррекция отключена. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: BoundingBoxString
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取边界框字符串值
+description: 获取BoundingBox 字符串值
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.eps/epsimage/boundingboxstring/
 ---
 ## EpsImage.BoundingBoxString property
 
-获取边界框字符串值
+获取BoundingBox 字符串值
 
 ```csharp
 public string BoundingBoxString { get; }

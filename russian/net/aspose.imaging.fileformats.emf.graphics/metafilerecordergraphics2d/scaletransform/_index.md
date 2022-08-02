@@ -1,14 +1,14 @@
 ---
 title: ScaleTransform
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Применяет указанную операцию масштабирования к матрице преобразования этого объекта Graphics добавляя ее перед матрицей преобразования объекта.
+description: Применяет указанную операцию масштабирования к матрице преобразования этой графики добавляя ее перед матрицей преобразования объекта.
 type: docs
 weight: 280
 url: /ru/net/aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/scaletransform/
 ---
 ## ScaleTransform(float, float) {#scaletransform}
 
-Применяет указанную операцию масштабирования к матрице преобразования этого объекта Graphics, добавляя ее перед матрицей преобразования объекта.
+Применяет указанную операцию масштабирования к матрице преобразования этой графики, добавляя ее перед матрицей преобразования объекта.
 
 ```csharp
 public void ScaleTransform(float sx, float sy)

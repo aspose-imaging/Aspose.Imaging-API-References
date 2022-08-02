@@ -1,14 +1,14 @@
 ---
 title: WmfScaleWindowExt
 second_title: Aspose.Imaging for .NET API 参考
-description: META_SCALEWINDOWEXT 记录缩放播放设备 上下文中定义的输出窗口的水平和垂直 范围通过使用由指定的被乘数和 除数形成的比率
+description: META_SCALEWINDOWEXT 记录使用由指定的被乘数和 除数形成的比率来缩放播放设备 上下文中定义的输出窗口的水平和垂直 范围
 type: docs
 weight: 8990
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/
 ---
 ## WmfScaleWindowExt class
 
-META_SCALEWINDOWEXT 记录缩放播放设备 上下文中定义的输出窗口的水平和垂直 范围通过使用由指定的被乘数和 除数形成的比率。
+META_SCALEWINDOWEXT 记录使用由指定的被乘数和 除数形成的比率来缩放播放设备 上下文中定义的输出窗口的水平和垂直 范围。
 
 ```csharp
 public class WmfScaleWindowExt : WmfObject
@@ -24,10 +24,10 @@ public class WmfScaleWindowExt : WmfObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [XDenom](../../aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/xdenom) { get; set; } | 获取或设置 x denom。 |
+| [XDenom](../../aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/xdenom) { get; set; } | 获取或设置 x denom. |
 | [XNum](../../aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/xnum) { get; set; } | 获取或设置 x 数。 |
-| [YDenom](../../aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/ydenom) { get; set; } | 获取或设置 y denom。 |
-| [YNum](../../aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/ynum) { get; set; } | 获取或设置 y num。 |
+| [YDenom](../../aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/ydenom) { get; set; } | 获取或设置 y denom. |
+| [YNum](../../aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/ynum) { get; set; } | 获取或设置y数。 |
 
 ### 也可以看看
 

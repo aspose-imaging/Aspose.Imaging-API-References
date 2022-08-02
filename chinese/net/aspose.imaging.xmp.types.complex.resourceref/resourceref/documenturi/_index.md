@@ -16,7 +16,7 @@ public string DocumentUri { get; set; }
 
 ### 适当的价值
 
-文档 URI。
+文档 URI.
 
 ### 也可以看看
 

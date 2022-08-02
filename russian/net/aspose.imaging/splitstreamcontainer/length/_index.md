@@ -1,14 +1,14 @@
 ---
 title: Length
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает длину потока в байтах. Это значение меньшеLengthна начальную позицию потока переданную в конструкторе StreamContainer.
+description: Получает или задает длину потока в байтах. Это значение меньше чемLength по начальной позиции потока переданной в конструкторе StreamContainer.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging/splitstreamcontainer/length/
 ---
 ## SplitStreamContainer.Length property
 
-Получает или задает длину потока в байтах. Это значение меньшеLengthна начальную позицию потока, переданную в конструкторе StreamContainer.
+Получает или задает длину потока в байтах. Это значение меньше, чемLength по начальной позиции потока, переданной в конструкторе StreamContainer.
 
 ```csharp
 public override long Length { get; set; }

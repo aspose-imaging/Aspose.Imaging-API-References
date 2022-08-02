@@ -1,14 +1,14 @@
 ---
 title: DigitSubstitution
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数该整数指定如何根据区域设置或语言替换字符串中的 数字 这个值必须在 StringDigitSubstitution 枚举中定义第 2.1.1.30 节
+description: 获取或设置一个 32 位无符号整数它指定如何根据语言环境或语言替换字符串中的 数字 该值必须在 StringDigitSubstitution 枚举第 2.1.1.30 节中定义
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/digitsubstitution/
 ---
 ## EmfPlusStringFormat.DigitSubstitution property
 
-获取或设置一个 32 位无符号整数，该整数指定如何根据区域设置或语言替换字符串中的 数字。 这个值必须在 StringDigitSubstitution 枚举中定义（第 2.1.1.30 节）。
+获取或设置一个 32 位无符号整数，它指定如何根据语言环境或语言替换字符串中的 数字。 该值必须在 StringDigitSubstitution 枚举（第 2.1.1.30 节）中定义。
 
 ```csharp
 public EmfPlusStringDigitSubstitution DigitSubstitution { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: CompressedQuality
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает качество сжатого изображения. Используется со сжатием Jpeg.
+description: Получает или задает качество сжатого изображения. Используется со сжатием JPEG.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging.imageoptions/tiffoptions/compressedquality/
 ---
 ## TiffOptions.CompressedQuality property
 
-Получает или задает качество сжатого изображения. Используется со сжатием Jpeg.
+Получает или задает качество сжатого изображения. Используется со сжатием JPEG.
 
 ```csharp
 public int CompressedQuality { get; set; }
@@ -16,7 +16,7 @@ public int CompressedQuality { get; set; }
 
 ### Примеры
 
-В этом примере показано, как создать изображение TIFF со сжатием Jpeg и заданным качеством сжатого изображения.
+В этом примере показано, как создать изображение TIFF со сжатием JPEG и заданным качеством сжатого изображения.
 
 ```csharp
 [C#]
@@ -24,12 +24,12 @@ public int CompressedQuality { get; set; }
 using (Aspose.Imaging.FileFormats.Tiff.TiffImage image = (Aspose.Imaging.FileFormats.Tiff.TiffImage)Aspose.Imaging.Image.Load("c:\\temp\\zeebra.tif"))
 {
     Aspose.Imaging.ImageOptions.TiffOptions tiffOptions = new TiffOptions(Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
-     // Установить цветовую модель RGB.
+    // Установить цветовую модель RGB.
     tiffOptions.Photometric = TiffPhotometrics.Rgb;
-     // Установить сжатие JPEG.
+    // Установите сжатие JPEG.
     tiffOptions.Compression = TiffCompressions.Jpeg;
     tiffOptions.CompressedQuality = 50;
-    // Установить 8 бит для каждого компонента цвета.
+    // Устанавливаем 8 бит для каждого компонента цвета.
     tiffOptions.BitsPerSample = new ushort[] { 8, 8, 8 };
     
     image.Save("zeebra.tif-50.tiff", tiffOptions);

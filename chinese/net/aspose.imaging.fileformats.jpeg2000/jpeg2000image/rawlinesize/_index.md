@@ -1,14 +1,14 @@
 ---
 title: RawLineSize
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取原始行大小以字节为单位
+description: 以字节为单位获取原始行大小
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/rawlinesize/
 ---
 ## Jpeg2000Image.RawLineSize property
 
-获取原始行大小（以字节为单位）。
+以字节为单位获取原始行大小。
 
 ```csharp
 public override int RawLineSize { get; }
@@ -16,7 +16,7 @@ public override int RawLineSize { get; }
 
 ### 适当的价值
 
-原始行大小（以字节为单位）。
+以字节为单位的原始行大小。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: SaveAll
 second_title: Aspose.Imaging for .NET API 参考
-description: 根据保存选项将对象的数据以指定文件格式保存到指定文件索引器文件名位置
+description: 根据保存选项将对象的数据以指定的文件格式保存到指定的文件索引器文件名位置..
 type: docs
 weight: 330
 url: /zh/net/aspose.imaging.fileformats.dicom/dicomimage/saveall/
 ---
 ## DicomImage.SaveAll method
 
-根据保存选项将对象的数据以指定文件格式保存到指定文件（索引器+文件名）位置。
+根据保存选项将对象的数据以指定的文件格式保存到指定的文件（索引器+文件名）位置..
 
 ```csharp
 public void SaveAll(string filePath, ImageOptionsBase options)

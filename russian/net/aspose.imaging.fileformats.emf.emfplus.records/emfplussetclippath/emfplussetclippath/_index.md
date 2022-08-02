@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSetClipPath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusSetClipPathaspose.imaging.fileformats.emf.emfplus.records/emfplussetclippath.
+description: Инициализирует новый экземплярEmfPlusSetClipPathaspose.imaging.fileformats.emf.emfplus.records/emfplussetclippath класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetclippath/emfplussetclippath/
 ---
 ## EmfPlusSetClipPath constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusSetClipPath`](../../emfplussetclippath).
+Инициализирует новый экземпляр[`EmfPlusSetClipPath`](../../emfplussetclippath) класс.
 
 ```csharp
 public EmfPlusSetClipPath(EmfPlusRecord source)

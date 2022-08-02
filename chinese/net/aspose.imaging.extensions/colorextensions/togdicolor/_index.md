@@ -1,14 +1,14 @@
 ---
 title: ToGdiColor
 second_title: Aspose.Imaging for .NET API 参考
-description: 将Coloraspose.imaging/color转换为Color
+description: 转换Coloraspose.imaging/color到Color .
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.extensions/colorextensions/togdicolor/
 ---
 ## ColorExtensions.ToGdiColor method
 
-将[`Color`](../../../aspose.imaging/color)转换为Color。
+转换[`Color`](../../../aspose.imaging/color)到Color .
 
 ```csharp
 public static Color ToGdiColor(Color color)
@@ -16,11 +16,11 @@ public static Color ToGdiColor(Color color)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| color | Color | [`Color`](../../../aspose.imaging/color)进行转换。 |
+| color | Color | 这[`Color`](../../../aspose.imaging/color)转换。 |
 
 ### 返回值
 
-转换后的Color。
+转换的Color.
 
 ### 也可以看看
 

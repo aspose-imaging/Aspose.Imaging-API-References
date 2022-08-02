@@ -1,14 +1,14 @@
 ---
 title: RegionExtensions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Содержит методы расширения для классаRegion../aspose.imaging/region.
+description: Содержит методы расширения дляRegion../aspose.imaging/region класс.
 type: docs
 weight: 1260
 url: /ru/net/aspose.imaging.extensions/regionextensions/
 ---
 ## RegionExtensions class
 
-Содержит методы расширения для класса[`Region`](../../aspose.imaging/region).
+Содержит методы расширения для[`Region`](../../aspose.imaging/region) класс.
 
 ```csharp
 public static class RegionExtensions
@@ -18,7 +18,7 @@ public static class RegionExtensions
 
 | Имя | Описание |
 | --- | --- |
-| static [ToGdiRegion](../../aspose.imaging.extensions/regionextensions/togdiregion)(Region) | Преобразует[`Region`](../../aspose.imaging/region)вRegion. |
+| static [ToGdiRegion](../../aspose.imaging.extensions/regionextensions/togdiregion)(Region) | Преобразует[`Region`](../../aspose.imaging/region) кRegion . |
 
 ### Смотрите также
 

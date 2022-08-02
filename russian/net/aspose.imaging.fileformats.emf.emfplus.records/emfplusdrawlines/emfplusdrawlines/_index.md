@@ -1,14 +1,14 @@
 ---
 title: EmfPlusDrawLines
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusDrawLinesaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawlines.
+description: Инициализирует новый экземплярEmfPlusDrawLinesaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawlines класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawlines/emfplusdrawlines/
 ---
 ## EmfPlusDrawLines constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusDrawLines`](../../emfplusdrawlines).
+Инициализирует новый экземпляр[`EmfPlusDrawLines`](../../emfplusdrawlines) класс.
 
 ```csharp
 public EmfPlusDrawLines(EmfPlusRecord source)

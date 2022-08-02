@@ -1,14 +1,14 @@
 ---
 title: SetGood
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Наборы хорошие.
+description: Устанавливает добро.
 type: docs
 weight: 230
 url: /ru/net/aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setgood/
 ---
 ## XmpDynamicMediaPackage.SetGood method
 
-Наборы хорошие.
+Устанавливает добро.
 
 ```csharp
 public void SetGood(bool good)
@@ -16,7 +16,7 @@ public void SetGood(bool good)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| good | Boolean | если установлено` true` бросок является вратарем . |
+| good | Boolean | если установлено`истинный` выстрел - вратарь. |
 
 ### Смотрите также
 

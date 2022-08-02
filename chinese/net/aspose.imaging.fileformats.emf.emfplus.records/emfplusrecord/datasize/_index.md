@@ -1,14 +1,14 @@
 ---
 title: DataSize
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数该整数必须在 RecordData 字段中定义 32 位对齐的 数据字节数跟随这个数字不包括 12 字节的记录头
+description: 获取或设置一个 32 位无符号整数该整数必须在随后的 RecordData 字段中定义 32 位对齐的 字节数据这个数字不包括 12 字节的记录头
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize/
 ---
 ## EmfPlusRecord.DataSize property
 
-获取或设置一个 32 位无符号整数，该整数必须在 RecordData 字段中定义 32 位对齐的 数据字节数跟随。这个数字不包括 12 字节的记录头。
+获取或设置一个 32 位无符号整数，该整数必须在随后的 RecordData 字段中定义 32 位对齐的 字节数据。这个数字不包括 12 字节的记录头。
 
 ```csharp
 public virtual int DataSize { get; set; }

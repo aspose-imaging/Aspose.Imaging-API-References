@@ -16,7 +16,7 @@ public override void RotateFlip(RotateFlipType rotateFlipType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rotateFlipType | RotateFlipType | Тип переворота с поворотом. |
+| rotateFlipType | RotateFlipType | Тип вращения флип. |
 
 ### Примеры
 
@@ -37,7 +37,7 @@ Aspose.Imaging.RotateFlipType[] rotateFlipTypes = new Aspose.Imaging.RotateFlipT
 
 foreach (Aspose.Imaging.RotateFlipType rotateFlipType in rotateFlipTypes)
 {
-     // Повернуть, отразить и сохранить в выходной файл.
+    // Повернуть, отразить и сохранить в выходной файл.
     using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileFormats.Dicom.DicomImage)Aspose.Imaging.Image.Load(dir + "sample.dicom"))
     {
         image.RotateFlip(rotateFlipType);

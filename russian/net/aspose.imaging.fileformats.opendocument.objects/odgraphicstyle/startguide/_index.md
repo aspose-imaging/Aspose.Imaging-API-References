@@ -1,14 +1,14 @@
 ---
 title: StartGuide
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает начальное руководство.
+description: Получает или задает руководство по началу работы.
 type: docs
 weight: 180
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/startguide/
 ---
 ## OdGraphicStyle.StartGuide property
 
-Получает или задает начальное руководство.
+Получает или задает руководство по началу работы.
 
 ```csharp
 public float StartGuide { get; set; }
@@ -16,7 +16,7 @@ public float StartGuide { get; set; }
 
 ### Стоимость имущества
 
-Начальное руководство.
+Руководство по началу работы.
 
 ### Смотрите также
 

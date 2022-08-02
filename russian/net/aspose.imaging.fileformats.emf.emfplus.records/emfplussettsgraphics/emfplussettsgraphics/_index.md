@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSetTsGraphics
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusSetTsGraphicsaspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics.
+description: Инициализирует новый экземплярEmfPlusSetTsGraphicsaspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics/emfplussettsgraphics/
 ---
 ## EmfPlusSetTsGraphics constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusSetTsGraphics`](../../emfplussettsgraphics).
+Инициализирует новый экземпляр[`EmfPlusSetTsGraphics`](../../emfplussettsgraphics) класс.
 
 ```csharp
 public EmfPlusSetTsGraphics(EmfPlusRecord source)

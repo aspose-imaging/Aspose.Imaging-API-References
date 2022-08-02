@@ -1,14 +1,14 @@
 ---
 title: EmfSetMiterLimit
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_SETMITERLIMIT указывает ограничение на длину соединения митры для контекста устройства воспроизведения.
+description: Запись EMR_SETMITERLIMIT указывает ограничение на длину соединений mitre для контекста устройства воспроизведения.
 type: docs
 weight: 4430
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetmiterlimit/
 ---
 ## EmfSetMiterLimit class
 
-Запись EMR_SETMITERLIMIT указывает ограничение на длину соединения митры для контекста устройства воспроизведения.
+Запись EMR_SETMITERLIMIT указывает ограничение на длину соединений mitre для контекста устройства воспроизведения.
 
 ```csharp
 public sealed class EmfSetMiterLimit : EmfStateRecordType
@@ -18,15 +18,15 @@ public sealed class EmfSetMiterLimit : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetMiterLimit](emfsetmiterlimit#constructor)() | Инициализирует новый экземпляр класса[`EmfSetMiterLimit`](../emfsetmiterlimit). |
-| [EmfSetMiterLimit](emfsetmiterlimit#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetMiterLimit`](../emfsetmiterlimit). |
+| [EmfSetMiterLimit](emfsetmiterlimit#constructor)() | Инициализирует новый экземпляр[`EmfSetMiterLimit`](../emfsetmiterlimit) класс. |
+| [EmfSetMiterLimit](emfsetmiterlimit#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetMiterLimit`](../emfsetmiterlimit) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [MiterLimit](../../aspose.imaging.fileformats.emf.emf.records/emfsetmiterlimit/miterlimit) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее новый предел длины митры. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

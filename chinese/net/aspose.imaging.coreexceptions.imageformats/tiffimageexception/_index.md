@@ -18,10 +18,10 @@ public class TiffImageException : ImageException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TiffImageException](tiffimageexception#constructor_1)(string) | 初始化[`TiffImageException`](../tiffimageexception)类的新实例。 |
-| [TiffImageException](tiffimageexception#constructor)(TiffOptionsError) | 初始化[`TiffImageException`](../tiffimageexception)类的新实例。 |
-| [TiffImageException](tiffimageexception#constructor_3)(string, Exception) | 初始化[`TiffImageException`](../tiffimageexception)类的新实例。 |
-| [TiffImageException](tiffimageexception#constructor_2)(string, TiffOptionsError) | 初始化[`TiffImageException`](../tiffimageexception)类的新实例。 |
+| [TiffImageException](tiffimageexception#constructor_1)(string) | 初始化[`TiffImageException`](../tiffimageexception)类. |
+| [TiffImageException](tiffimageexception#constructor)(TiffOptionsError) | 初始化[`TiffImageException`](../tiffimageexception)类. |
+| [TiffImageException](tiffimageexception#constructor_3)(string, Exception) | 初始化[`TiffImageException`](../tiffimageexception)类. |
+| [TiffImageException](tiffimageexception#constructor_2)(string, TiffOptionsError) | 初始化[`TiffImageException`](../tiffimageexception)类. |
 
 ## 特性
 

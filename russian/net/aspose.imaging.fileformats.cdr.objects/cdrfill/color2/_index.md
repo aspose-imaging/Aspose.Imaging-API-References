@@ -1,14 +1,14 @@
 ---
 title: Color2
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает цвет2.
+description: Получает или задает цвет2.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrfill/color2/
 ---
 ## CdrFill.Color2 property
 
-Получает или устанавливает цвет2.
+Получает или задает цвет2.
 
 ```csharp
 public CdrColor Color2 { get; set; }

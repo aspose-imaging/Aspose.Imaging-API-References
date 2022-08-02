@@ -1,14 +1,14 @@
 ---
 title: EmfPolylineTo16
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_POLYLINETO16 определяет одну или несколько прямых линий на основе текущей позиции. Линия рисуется от текущей позиции до первой точки указанной в поле aPoints с использованием текущего пера . Для каждой дополнительной линии отрисовка выполняется от конечной точки предыдущей строки до следующей точки заданной параметром aPoints.
+description: Запись EMR_POLYLINETO16 указывает одну или несколько прямых линий на основе текущей позиции. Линия рисуется от текущей позиции до первой точки указанной в поле aPoints с использованием текущего пера . Для каждой дополнительной линии отрисовка выполняется от конечной точки предыдущей строки до следующей точки заданной параметром aPoints.
 type: docs
 weight: 4130
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpolylineto16/
 ---
 ## EmfPolylineTo16 class
 
-Запись EMR_POLYLINETO16 определяет одну или несколько прямых линий на основе текущей позиции. Линия рисуется от текущей позиции до первой точки, указанной в поле aPoints, с использованием текущего пера . Для каждой дополнительной линии отрисовка выполняется от конечной точки предыдущей строки до следующей точки, заданной параметром aPoints.
+Запись EMR_POLYLINETO16 указывает одну или несколько прямых линий на основе текущей позиции. Линия рисуется от текущей позиции до первой точки, указанной в поле aPoints, с использованием текущего пера . Для каждой дополнительной линии отрисовка выполняется от конечной точки предыдущей строки до следующей точки, заданной параметром aPoints.
 
 ```csharp
 public sealed class EmfPolylineTo16 : EmfDrawingRecordType
@@ -18,16 +18,16 @@ public sealed class EmfPolylineTo16 : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPolylineTo16](emfpolylineto16#constructor)() | Инициализирует новый экземпляр класса[`EmfPolylineTo16`](../emfpolylineto16). |
-| [EmfPolylineTo16](emfpolylineto16#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfPolylineTo16`](../emfpolylineto16). |
+| [EmfPolylineTo16](emfpolylineto16#constructor)() | Инициализирует новый экземпляр[`EmfPolylineTo16`](../emfpolylineto16) класс. |
+| [EmfPolylineTo16](emfpolylineto16#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfPolylineTo16`](../emfpolylineto16) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolylineto16/apoints) { get; set; } | Получает или задает массив длины счетчика объектов WMF PointS, указанный в [MS-WMF] раздел 2.2.2.16, который определяет массив точек. |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolylineto16/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе [MS-WMF] 2.2.2.19, который указывает ограничивающий прямоугольник , в единицах устройства. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolylineto16/apoints) { get; set; } | Получает или задает массив Count длины объектов WMF PointS, указанный в [MS-WMF] , раздел 2.2.2.16, который определяет массив точек. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolylineto16/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе 2.2.2.19 [MS-WMF], , который определяет ограничивающий прямоугольник в единицах измерения устройства. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

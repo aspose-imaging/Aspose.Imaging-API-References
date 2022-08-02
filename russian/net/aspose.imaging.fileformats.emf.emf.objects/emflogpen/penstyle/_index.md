@@ -1,14 +1,14 @@
 ---
 title: PenStyle
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее стиль PenStyle. Значение ДОЛЖНО быть определенным из таблицы перечисления PenStyle указанной в разделе 2.1.25.
+description: Получает или задает 32-разрядное целое число без знака указывающее стиль PenStyle. Значение ДОЛЖНО быть  определенным из таблицы перечисления PenStyle указанной в разделе 2.1.25. .
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emflogpen/penstyle/
 ---
 ## EmfLogPen.PenStyle property
 
-Получает или задает 32-разрядное целое число без знака, указывающее стиль PenStyle. Значение ДОЛЖНО быть определенным из таблицы перечисления PenStyle, указанной в разделе 2.1.25.
+Получает или задает 32-разрядное целое число без знака, указывающее стиль PenStyle. Значение ДОЛЖНО быть , определенным из таблицы перечисления PenStyle, указанной в разделе 2.1.25. .
 
 ```csharp
 public override EmfPenStyle PenStyle { get; set; }

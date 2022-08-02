@@ -18,17 +18,17 @@ public sealed class EmfPlusSetAntiAliasMode : EmfPlusPropertyRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPlusSetAntiAliasMode](emfplussetantialiasmode)(EmfPlusRecord) | Инициализирует новый экземпляр класса[`EmfPlusSetAntiAliasMode`](../emfplussetantialiasmode). |
+| [EmfPlusSetAntiAliasMode](emfplussetantialiasmode)(EmfPlusRecord) | Инициализирует новый экземпляр[`EmfPlusSetAntiAliasMode`](../emfplussetantialiasmode) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AntiAliasing](../../aspose.imaging.fileformats.emf.emfplus.records/emfplussetantialiasmode/antialiasing) { get; set; } | Получает или задает значение, указывающее, используется ли [сглаживание]. Если установлено, сглаживание ДОЛЖНО выполняться. Если флажок установлен, сглаживание НЕ ДОЛЖНО выполняться. |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО определять 32-разрядное выровненное число байтов данных в поле RecordData, которое следует. Это число не включает 12-байтовый заголовок записи. |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | Получает или задает 16-разрядное целое число без знака, содержащее информацию для некоторых записей о том, как должна выполняться операция , и о структуре запись. |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее число байтов, выровненных по 32-разрядному выравниванию во всей записи, включая 12 -байтовый заголовок записи и данные, относящиеся к записи. |
-| [SmoothingMode](../../aspose.imaging.fileformats.emf.emfplus.records/emfplussetantialiasmode/smoothingmode) { get; set; } | Получает или задает режим сглаживания. (7 бит):значение режима сглаживания из перечисления SmoothingMode (раздел 2.1.1.28) |
+| [AntiAliasing](../../aspose.imaging.fileformats.emf.emfplus.records/emfplussetantialiasmode/antialiasing) { get; set; } | Получает или задает значение, указывающее, выполняется ли [сглаживание]. Если установлено, сглаживание СЛЕДУЕТ выполнять. |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО определять 32-разрядное выровненное количество байтов данных в следующем поле RecordData. Это число не включает 12-байтовый заголовок записи. |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | Получает или задает 16-разрядное целое число без знака, содержащее информацию для некоторых записей о том, как должна выполняться операция, и о структуре записи. |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее 32-разрядное выровненное количество байтов во всей записи, включая 12-разрядный заголовок записи и данные, относящиеся к записи. |
+| [SmoothingMode](../../aspose.imaging.fileformats.emf.emfplus.records/emfplussetantialiasmode/smoothingmode) { get; set; } | Получает или устанавливает режим сглаживания. (7 бит): значение режима сглаживания из перечисления SmoothingMode (раздел 2.1.1.28) |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | Получает 16-разрядное целое число без знака, определяющее тип записи. |
 
 ### Смотрите также

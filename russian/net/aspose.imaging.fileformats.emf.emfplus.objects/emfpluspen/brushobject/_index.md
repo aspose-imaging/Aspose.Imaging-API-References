@@ -1,14 +1,14 @@
 ---
 title: BrushObject
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект EmfPlusBrush указывающий графическую кисть связанную с пером
+description: Получает или задает объект EmfPlusBrush указывающий графическую кисть связанную с pen
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen/brushobject/
 ---
 ## EmfPlusPen.BrushObject property
 
-Получает или задает объект EmfPlusBrush, указывающий графическую кисть, связанную с пером
+Получает или задает объект EmfPlusBrush, указывающий графическую кисть, связанную с pen
 
 ```csharp
 public EmfPlusBrush BrushObject { get; set; }

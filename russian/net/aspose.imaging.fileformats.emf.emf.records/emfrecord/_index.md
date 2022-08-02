@@ -18,15 +18,15 @@ public class EmfRecord : MetaObject
 
 | Имя | Описание |
 | --- | --- |
-| [EmfRecord](emfrecord#constructor)() | Инициализирует новый экземпляр класса[`EmfRecord`](../emfrecord). |
-| [EmfRecord](emfrecord#constructor_2)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfRecord`](../emfrecord). |
-| [EmfRecord](emfrecord#constructor_1)(EmfRecordType) | Инициализирует новый экземпляр класса[`EmfRecord`](../emfrecord). |
+| [EmfRecord](emfrecord#constructor)() | Инициализирует новый экземпляр[`EmfRecord`](../emfrecord) класс. |
+| [EmfRecord](emfrecord#constructor_2)(EmfRecord) | Инициализирует новый экземпляр[`EmfRecord`](../emfrecord) класс. |
+| [EmfRecord](emfrecord#constructor_1)(EmfRecordType) | Инициализирует новый экземпляр[`EmfRecord`](../emfrecord) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

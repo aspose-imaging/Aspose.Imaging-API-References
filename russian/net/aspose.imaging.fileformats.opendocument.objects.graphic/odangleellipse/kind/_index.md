@@ -16,7 +16,7 @@ public OdObjectKind Kind { get; set; }
 
 ### Стоимость имущества
 
-Та.
+Вид.
 
 ### Смотрите также
 

@@ -16,7 +16,7 @@ public float LineSpacing { get; set; }
 
 ### 适当的价值
 
-行间距，以百分比表示。
+行距，以百分比为单位。
 
 ### 也可以看看
 

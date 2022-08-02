@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位有符号整数该整数指定垂直画笔描边的宽度以逻辑单位表示
+description: 获取或设置一个 32 位有符号整数它指定垂直画笔笔触的宽度以逻辑单位为单位
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfframergn/width/
 ---
 ## EmfFrameRgn.Width property
 
-获取或设置一个 32 位有符号整数，该整数指定垂直画笔描边的宽度，以逻辑单位表示。
+获取或设置一个 32 位有符号整数，它指定垂直画笔笔触的宽度，以逻辑单位为单位。
 
 ```csharp
 public int Width { get; set; }

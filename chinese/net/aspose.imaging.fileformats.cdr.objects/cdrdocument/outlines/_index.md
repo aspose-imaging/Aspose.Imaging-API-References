@@ -1,14 +1,14 @@
 ---
 title: OutLines
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取输出行
+description: 获取出线
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrdocument/outlines/
 ---
 ## CdrDocument.OutLines property
 
-获取输出行。
+获取出线。
 
 ```csharp
 public Dictionary<int, CdrOutline> OutLines { get; }
@@ -16,7 +16,7 @@ public Dictionary<int, CdrOutline> OutLines { get; }
 
 ### 适当的价值
 
-输出行。
+出线。
 
 ### 也可以看看
 

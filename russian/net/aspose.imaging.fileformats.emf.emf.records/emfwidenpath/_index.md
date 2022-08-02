@@ -1,14 +1,14 @@
 ---
 title: EmfWidenPath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Эта запись переопределяет текущий путь как область которая была бы закрашена если бы путь был нарисован с помощью пера выбранного в данный момент в контексте устройства воспроизведения. .
+description: Эта запись переопределяет текущий путь как область которая была бы закрашена если бы путь был нарисован с помощью пера выбранного в данный момент в контексте устройства воспроизведения.
 type: docs
 weight: 4660
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfwidenpath/
 ---
 ## EmfWidenPath class
 
-Эта запись переопределяет текущий путь как область, которая была бы закрашена, если бы путь был нарисован с помощью пера, выбранного в данный момент в контексте устройства воспроизведения. .
+Эта запись переопределяет текущий путь как область, которая была бы закрашена, если бы путь был нарисован с помощью пера, выбранного в данный момент в контексте устройства воспроизведения.
 
 ```csharp
 public sealed class EmfWidenPath : EmfPathBracketRecordType
@@ -24,7 +24,7 @@ public sealed class EmfWidenPath : EmfPathBracketRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

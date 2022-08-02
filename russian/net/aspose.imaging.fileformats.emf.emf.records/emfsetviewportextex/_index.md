@@ -1,14 +1,14 @@
 ---
 title: EmfSetViewportExtEx
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_SETVIEWPORTEXTEX определяет экстент области просмотра.
+description: Запись EMR_SETVIEWPORTEXTEX определяет экстент окна просмотра.
 type: docs
 weight: 4520
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetviewportextex/
 ---
 ## EmfSetViewportExtEx class
 
-Запись EMR_SETVIEWPORTEXTEX определяет экстент области просмотра.
+Запись EMR_SETVIEWPORTEXTEX определяет экстент окна просмотра.
 
 ```csharp
 public sealed class EmfSetViewportExtEx : EmfStateRecordType
@@ -18,15 +18,15 @@ public sealed class EmfSetViewportExtEx : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetViewportExtEx](emfsetviewportextex#constructor)() | Инициализирует новый экземпляр класса[`EmfSetViewportExtEx`](../emfsetviewportextex). |
-| [EmfSetViewportExtEx](emfsetviewportextex#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetViewportExtEx`](../emfsetviewportextex). |
+| [EmfSetViewportExtEx](emfsetviewportextex#constructor)() | Инициализирует новый экземпляр[`EmfSetViewportExtEx`](../emfsetviewportextex) класс. |
+| [EmfSetViewportExtEx](emfsetviewportextex#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetViewportExtEx`](../emfsetviewportextex) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Extent](../../aspose.imaging.fileformats.emf.emf.records/emfsetviewportextex/extent) { get; set; } | Получает или задает 64-битный объект WMF SizeL ([MS-WMF], раздел 2.2.2.22), который указывает горизонтальную и вертикальную границы в единицах устройства. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Extent](../../aspose.imaging.fileformats.emf.emf.records/emfsetviewportextex/extent) { get; set; } | Получает или задает 64-битный объект WMF SizeL ([MS-WMF], раздел 2.2.2.22), который указывает горизонтальные и вертикальные размеры в единицах измерения устройства. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

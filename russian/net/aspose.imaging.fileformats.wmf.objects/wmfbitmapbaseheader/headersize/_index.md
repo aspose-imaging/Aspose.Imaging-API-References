@@ -1,14 +1,14 @@
 ---
 title: HeaderSize
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака определяющее размер этого объекта в байтах.
+description: Получает или задает 32-разрядное целое число без знака определяющее размер объекта this в байтах.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfbitmapbaseheader/headersize/
 ---
 ## WmfBitmapBaseHeader.HeaderSize property
 
-Получает или задает 32-разрядное целое число без знака, определяющее размер этого объекта в байтах.
+Получает или задает 32-разрядное целое число без знака, определяющее размер объекта this в байтах.
 
 ```csharp
 public int HeaderSize { get; set; }

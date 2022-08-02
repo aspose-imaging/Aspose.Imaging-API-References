@@ -1,14 +1,14 @@
 ---
 title: EmfSetColorAdjustment
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfSetColorAdjustmentaspose.imaging.fileformats.emf.emf.records/emfsetcoloradjustment类的新实例
+description: 初始化EmfSetColorAdjustmentaspose.imaging.fileformats.emf.emf.records/emfsetcoloradjustment类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetcoloradjustment/emfsetcoloradjustment/
 ---
 ## EmfSetColorAdjustment constructor
 
-初始化[`EmfSetColorAdjustment`](../../emfsetcoloradjustment)类的新实例。
+初始化[`EmfSetColorAdjustment`](../../emfsetcoloradjustment)类.
 
 ```csharp
 public EmfSetColorAdjustment(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfSetColorAdjustment(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 

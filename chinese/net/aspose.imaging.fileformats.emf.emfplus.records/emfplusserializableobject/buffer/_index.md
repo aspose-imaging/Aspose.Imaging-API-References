@@ -1,14 +1,14 @@
 ---
 title: Buffer
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置包含序列化图像效果 参数块的 BufferSize 字节数组该参数块对应于 ObjectGUID 字段中的 GUID这必须是 Image Effects 对象之一第 2.2.3 节
+description: 获取或设置包含序列化图像 effects 参数块的 BufferSize 字节数组该参数块对应于 ObjectGUID 字段中的 GUID这必须是 图像效果对象之一第 2.2.3 节
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/buffer/
 ---
 ## EmfPlusSerializableObject.Buffer property
 
-获取或设置包含序列化图像效果 参数块的 BufferSize 字节数组，该参数块对应于 ObjectGUID 字段中的 GUID。这必须是 Image Effects 对象之一（第 2.2.3 节）。
+获取或设置包含序列化图像 effects 参数块的 BufferSize 字节数组，该参数块对应于 ObjectGUID 字段中的 GUID。这必须是 图像效果对象之一（第 2.2.3 节）。
 
 ```csharp
 public byte[] Buffer { get; set; }

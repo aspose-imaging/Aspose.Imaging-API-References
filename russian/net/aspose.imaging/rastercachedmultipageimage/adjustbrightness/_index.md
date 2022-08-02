@@ -1,14 +1,14 @@
 ---
 title: AdjustBrightness
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Регулировкаяркостидля изображения.
+description: Настройкаbrightness для изображения.
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging/rastercachedmultipageimage/adjustbrightness/
 ---
 ## RasterCachedMultipageImage.AdjustBrightness method
 
-Регулировка*яркости*для изображения.
+Настройка*brightness* для изображения.
 
 ```csharp
 public override void AdjustBrightness(int brightness)

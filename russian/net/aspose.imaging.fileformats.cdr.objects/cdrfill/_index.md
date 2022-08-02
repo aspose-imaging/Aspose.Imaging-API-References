@@ -1,14 +1,14 @@
 ---
 title: CdrFill
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Заполнение cdr
+description: CDR fill
 type: docs
 weight: 1560
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrfill/
 ---
 ## CdrFill class
 
-Заполнение cdr
+CDR fill
 
 ```csharp
 public class CdrFill : CdrDictionaryItem
@@ -25,7 +25,7 @@ public class CdrFill : CdrDictionaryItem
 | Имя | Описание |
 | --- | --- |
 | [Color1](../../aspose.imaging.fileformats.cdr.objects/cdrfill/color1) { get; set; } | Получает или задает цвет1. |
-| [Color2](../../aspose.imaging.fileformats.cdr.objects/cdrfill/color2) { get; set; } | Получает или устанавливает цвет2. |
+| [Color2](../../aspose.imaging.fileformats.cdr.objects/cdrfill/color2) { get; set; } | Получает или задает цвет2. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | Получает или задает документ. |
 | [FillType](../../aspose.imaging.fileformats.cdr.objects/cdrfill/filltype) { get; set; } | Получает или задает тип заливки. |

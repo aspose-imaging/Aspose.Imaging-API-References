@@ -18,8 +18,8 @@ public class WmfSelectClipRegion : WmfObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WmfSelectClipRegion](wmfselectclipregion#constructor)() | 初始化[`WmfSelectClipRegion`](../wmfselectclipregion)类的新实例。 |
-| [WmfSelectClipRegion](wmfselectclipregion#constructor_1)(WmfGraphicObject) | 初始化[`WmfSelectClipRegion`](../wmfselectclipregion)类的新实例。 |
+| [WmfSelectClipRegion](wmfselectclipregion#constructor)() | 初始化[`WmfSelectClipRegion`](../wmfselectclipregion)类. |
+| [WmfSelectClipRegion](wmfselectclipregion#constructor_1)(WmfGraphicObject) | 初始化[`WmfSelectClipRegion`](../wmfselectclipregion)类. |
 
 ## 特性
 

@@ -20,7 +20,7 @@ ISO 12232 中定义的相机或输入设备的 ISO 速度纬度 zzz 值。
 
 ### 评论
 
-此标签不得在没有 ISOSpeed 和 ISOSpeedLatitudeyyy 的情况下记录
+如果没有 ISOSpeed 和 ISOSpeedLatitudeyyy，则不应记录此标签
 
 ### 也可以看看
 

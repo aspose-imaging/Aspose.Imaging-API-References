@@ -1,14 +1,14 @@
 ---
 title: MetafileDataSize
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 32 位无符号整数它指定 MetafileData 字段中的元文件 数据的字节大小
+description: 获取或设置 32 位无符号整数指定元文件 MetafileData 字段中数据的字节大小
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusmetafile/metafiledatasize/
 ---
 ## EmfPlusMetafile.MetafileDataSize property
 
-获取或设置 32 位无符号整数，它指定 MetafileData 字段中的元文件 数据的字节大小
+获取或设置 32 位无符号整数，指定元文件 MetafileData 字段中数据的字节大小
 
 ```csharp
 public int MetafileDataSize { get; set; }

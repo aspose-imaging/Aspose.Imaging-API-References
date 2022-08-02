@@ -1,14 +1,14 @@
 ---
 title: RectangleF
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр структурыRectangleFaspose.imaging/rectanglefс указанным расположением и размером.
+description: Инициализирует новый экземплярRectangleFaspose.imaging/rectanglef структура с указанным расположением и размером.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging/rectanglef/rectanglef/
 ---
 ## RectangleF(float, float, float, float) {#constructor_1}
 
-Инициализирует новый экземпляр структуры[`RectangleF`](../../rectanglef)с указанным расположением и размером.
+Инициализирует новый экземпляр[`RectangleF`](../../rectanglef) структура с указанным расположением и размером.
 
 ```csharp
 public RectangleF(float x, float y, float width, float height)
@@ -31,7 +31,7 @@ public RectangleF(float x, float y, float width, float height)
 
 ## RectangleF(PointF, SizeF) {#constructor}
 
-Инициализирует новый экземпляр структуры[`RectangleF`](../../rectanglef)с указанным расположением и размером.
+Инициализирует новый экземпляр[`RectangleF`](../../rectanglef) структура с указанным расположением и размером.
 
 ```csharp
 public RectangleF(PointF location, SizeF size)
@@ -39,8 +39,8 @@ public RectangleF(PointF location, SizeF size)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| location | PointF | A[`PointF`](../../pointf)который представляет верхний левый угол прямоугольная область. |
-| size | SizeF | A[`SizeF`](../../sizef)который представляет ширину и высоту прямоугольной области. |
+| location | PointF | А[`PointF`](../../pointf) который представляет верхний левый угол прямоугольной области. |
+| size | SizeF | А[`SizeF`](../../sizef) который представляет ширину и высоту прямоугольной области. |
 
 ### Смотрите также
 

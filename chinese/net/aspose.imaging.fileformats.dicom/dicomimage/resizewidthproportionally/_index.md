@@ -16,7 +16,7 @@ public override void ResizeWidthProportionally(int newWidth, ResizeType resizeTy
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newWidth | Int32 | 新宽度。 |
+| newWidth | Int32 | 新的宽度。 |
 | resizeType | ResizeType | 调整大小的类型。 |
 
 ### 例子
@@ -30,10 +30,10 @@ string dir = "c:\\temp\\";
 
 using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileFormats.Dicom.DicomImage)Aspose.Imaging.Image.Load(dir + "sample.dicom"))
 {
-        // 使用最近邻重采样放大 2 倍。
+    // 使用最近邻重采样放大 2 倍。
     image.ResizeWidthProportionally(image.Width* 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
 
-                 // 使用默认选项保存到 PNG。
+    // 使用默认选项保存到 PNG。
     image.Save(dir + "upsample.nearestneighbour.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
@@ -42,25 +42,25 @@ using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileF
     // 使用最近邻重采样缩小 2 倍。
     image.ResizeWidthProportionally(image.Width / 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
 
-                 // 使用默认选项保存到 PNG。
+    // 使用默认选项保存到 PNG。
     image.Save(dir + "downsample.nearestneighbour.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
 using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileFormats.Dicom.DicomImage)Aspose.Imaging.Image.Load(dir + "sample.dicom"))
 {
-        // 使用双线性重采样放大 2 倍。
+    // 使用双线性重采样放大 2 倍。
     image.ResizeWidthProportionally(image.Width* 2, Aspose.Imaging.ResizeType.BilinearResample);
 
-                 // 使用默认选项保存到 PNG。
+    // 使用默认选项保存到 PNG。
     image.Save(dir + "upsample.bilinear.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
 using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileFormats.Dicom.DicomImage)Aspose.Imaging.Image.Load(dir + "sample.dicom"))
 {
-        // 使用双线性重采样缩小 2 倍。
+    // 使用双线性重采样缩小 2 倍。
     image.ResizeWidthProportionally(image.Width / 2, Aspose.Imaging.ResizeType.BilinearResample);                
 
-                 // 使用默认选项保存到 PNG。
+    // 使用默认选项保存到 PNG。
     image.Save(dir + "downsample.bilinear.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```

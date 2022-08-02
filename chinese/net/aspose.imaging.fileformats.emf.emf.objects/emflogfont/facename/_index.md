@@ -1,14 +1,14 @@
 ---
 title: Facename
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 Facename64 字节不超过 32 个 Unicode 字符的字符串指定字体的 字体名称如果此字符串的长度小于 32 个字符则必须存在终止 NULL之后必须忽略此字段的其余部分
+description: 获取或设置 Facename64 字节不超过 32 个 Unicode 字符的字符串用于指定字体的 字体名称如果此字符串的长度小于 32 个字符则必须存在终止的 NULL之后必须忽略此字段的其余部分
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emflogfont/facename/
 ---
 ## EmfLogFont.Facename property
 
-获取或设置 Facename（64 字节）:不超过 32 个 Unicode 字符的字符串，指定字体的 字体名称。如果此字符串的长度小于 32 个字符，则必须存在终止 NULL，之后必须忽略此字段的其余部分。
+获取或设置 Facename（64 字节）：不超过 32 个 Unicode 字符的字符串，用于指定字体的 字体名称。如果此字符串的长度小于 32 个字符，则必须存在终止的 NULL，之后必须忽略此字段的其余部分。
 
 ```csharp
 public string Facename { get; set; }

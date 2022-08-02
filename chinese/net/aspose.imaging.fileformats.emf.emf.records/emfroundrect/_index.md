@@ -1,14 +1,14 @@
 ---
 title: EmfRoundRect
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_ROUNDRECT 记录指定了一个圆角矩形矩形被勾勒出 使用当前笔并使用当前画笔填充
+description: EMR_ROUNDRECT 记录指定了一个圆角矩形矩形使用当前笔勾勒出 轮廓并使用当前画笔填充
 type: docs
 weight: 4200
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfroundrect/
 ---
 ## EmfRoundRect class
 
-EMR_ROUNDRECT 记录指定了一个圆角矩形。矩形被勾勒出 使用当前笔并使用当前画笔填充。
+EMR_ROUNDRECT 记录指定了一个圆角矩形。矩形使用当前笔勾勒出 轮廓并使用当前画笔填充。
 
 ```csharp
 public sealed class EmfRoundRect : EmfDrawingRecordType
@@ -18,15 +18,15 @@ public sealed class EmfRoundRect : EmfDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfRoundRect](emfroundrect#constructor)() | 初始化[`EmfRoundRect`](../emfroundrect)类的新实例。 |
-| [EmfRoundRect](emfroundrect#constructor_1)(EmfRecord) | 初始化[`EmfRoundRect`](../emfroundrect)类的新实例。 |
+| [EmfRoundRect](emfroundrect#constructor)() | 初始化[`EmfRoundRect`](../emfroundrect)类. |
+| [EmfRoundRect](emfroundrect#constructor_1)(EmfRecord) | 初始化[`EmfRoundRect`](../emfroundrect)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Box](../../aspose.imaging.fileformats.emf.emf.records/emfroundrect/box) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象，在 [MS-WMF] 第 2.2.2.19 节中指定，其中 指定包含-包含矩形来绘制。 |
-| [Corner](../../aspose.imaging.fileformats.emf.emf.records/emfroundrect/corner) { get; set; } | 获取或设置一个 64 位 WMF SizeL 对象，在 [MS-WMF] 第 2.2.2.22 节中指定，其中 指定宽度和用于绘制圆角的椭圆的逻辑坐标高度。 |
+| [Box](../../aspose.imaging.fileformats.emf.emf.records/emfroundrect/box) { get; set; } | 获取或设置一个128位WMF RectL对象，在[MS-WMF]第2.2.2.19节中指定， 指定要绘制的包容性矩形。 |
+| [Corner](../../aspose.imaging.fileformats.emf.emf.records/emfroundrect/corner) { get; set; } | 获取或设置一个 64 位 WMF SizeL 对象，在 [MS-WMF] 第 2.2.2.22 节中指定， 以逻辑坐标指定用于绘制圆角的椭圆的宽度和高度。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

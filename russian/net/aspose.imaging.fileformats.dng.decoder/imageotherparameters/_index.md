@@ -18,7 +18,7 @@ public class ImageOtherParameters
 
 | Имя | Описание |
 | --- | --- |
-| [Aperture](../../aspose.imaging.fileformats.dng.decoder/imageotherparameters/aperture) { get; } | Получает апертуру. |
+| [Aperture](../../aspose.imaging.fileformats.dng.decoder/imageotherparameters/aperture) { get; } | Получает диафрагму. |
 | [Artist](../../aspose.imaging.fileformats.dng.decoder/imageotherparameters/artist) { get; } | Получает автора изображения. |
 | [Description](../../aspose.imaging.fileformats.dng.decoder/imageotherparameters/description) { get; } | Получает описание изображения. |
 | [FocalLength](../../aspose.imaging.fileformats.dng.decoder/imageotherparameters/focallength) { get; } | Получает длину фокуса. |

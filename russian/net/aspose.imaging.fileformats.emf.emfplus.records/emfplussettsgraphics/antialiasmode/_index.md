@@ -1,14 +1,14 @@
 ---
 title: AntiAliasMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 8-разрядное целое число без знака определяющее качество рендеринга строк включая тип сглаживания строк. Он ДОЛЖЕН быть определен в перечислении SmoothingMode раздел 2.1.1.28.
+description: Получает или задает 8-битное целое число без знака указывающее качество рендеринга линий включая тип сглаживания линий. Он ДОЛЖЕН быть определен в перечислении SmoothingMode раздел 2.1.1.28.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics/antialiasmode/
 ---
 ## EmfPlusSetTsGraphics.AntiAliasMode property
 
-Получает или задает 8-разрядное целое число без знака, определяющее качество рендеринга строк, включая тип сглаживания строк. Он ДОЛЖЕН быть определен в перечислении SmoothingMode (раздел 2.1.1.28).
+Получает или задает 8-битное целое число без знака, указывающее качество рендеринга линий, включая тип сглаживания линий. Он ДОЛЖЕН быть определен в перечислении SmoothingMode (раздел 2.1.1.28).
 
 ```csharp
 public EmfPlusSmoothingMode AntiAliasMode { get; set; }

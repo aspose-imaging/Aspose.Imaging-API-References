@@ -1,14 +1,14 @@
 ---
 title: Matrix40
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此ColorMatrixaspose.imaging/colormatrix的第四行和 0零列的元素
+description: 获取或设置 this 的第四行 0零列的元素ColorMatrixaspose.imaging/colormatrix .
 type: docs
 weight: 230
 url: /zh/net/aspose.imaging/colormatrix/matrix40/
 ---
 ## ColorMatrix.Matrix40 property
 
-获取或设置此[`ColorMatrix`](../../colormatrix)的第四行和 0（零）列的元素。
+获取或设置 this 的第四行 0（零）列的元素[`ColorMatrix`](../../colormatrix) .
 
 ```csharp
 public float Matrix40 { get; set; }
@@ -16,7 +16,7 @@ public float Matrix40 { get; set; }
 
 ### 适当的价值
 
-这个[`ColorMatrix`](../../colormatrix)第四行第 0 列的元素。
+this 第四行 0 列的元素[`ColorMatrix`](../../colormatrix).
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ToKnownColor
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取KnownColoraspose.imaging/knowncolor的值Coloraspose.imaging/color结构体
+description: 获取KnownColoraspose.imaging/knowncolor这个的价值Coloraspose.imaging/color结构.
 type: docs
 weight: 1600
 url: /zh/net/aspose.imaging/color/toknowncolor/
 ---
 ## Color.ToKnownColor method
 
-获取[`KnownColor`](../../knowncolor)的值[`Color`](../../color)结构体。
+获取[`KnownColor`](../../knowncolor)这个的价值[`Color`](../../color)结构.
 
 ```csharp
 public KnownColor ToKnownColor()
@@ -16,7 +16,7 @@ public KnownColor ToKnownColor()
 
 ### 返回值
 
-[`KnownColor`](../../knowncolor)枚举的一个元素，如果[`Color`](../../color)通过使用[`FromName`](../fromname)方法或:::R5 从预定义的颜色创建:M:Aspose.Imaging.Color.FromKnownColor(Aspose.Imaging.KnownColor):::方法；否则，0.
+的一个元素[`KnownColor`](../../knowncolor)枚举，如果[`Color`](../../color)通过使用任一预定义颜色创建[`FromName`](../fromname)方法或[`FromKnownColor`](../fromknowncolor)方法;否则为 0。
 
 ### 也可以看看
 

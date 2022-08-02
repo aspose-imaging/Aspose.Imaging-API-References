@@ -1,14 +1,14 @@
 ---
 title: CdrPpdt
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект вектора узла cdr
+description: Вектор узла cdr object
 type: docs
 weight: 1730
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrppdt/
 ---
 ## CdrPpdt class
 
-Объект вектора узла cdr
+Вектор узла cdr object
 
 ```csharp
 public class CdrPpdt : CdrGraphicObject
@@ -29,9 +29,9 @@ public class CdrPpdt : CdrGraphicObject
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | Получает или задает документ. |
 | [Height](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/height) { get; set; } | Получает или задает y. |
-| [KnotVecor](../../aspose.imaging.fileformats.cdr.objects/cdrppdt/knotvecor) { get; set; } | Получает или задает векторы узла. |
+| [KnotVecor](../../aspose.imaging.fileformats.cdr.objects/cdrppdt/knotvecor) { get; set; } | Получает или задает векторы узлов. |
 | [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | Получает или задает родителя. |
-| [Points](../../aspose.imaging.fileformats.cdr.objects/cdrppdt/points) { get; set; } | Получает или устанавливает точки. |
+| [Points](../../aspose.imaging.fileformats.cdr.objects/cdrppdt/points) { get; set; } | Получает или устанавливает очки. |
 | [Width](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/width) { get; set; } | Получает или задает x. |
 
 ## Методы
@@ -42,6 +42,7 @@ public class CdrPpdt : CdrGraphicObject
 
 ### Смотрите также
 
+* class [CdrObjectContainer](../cdrobjectcontainer)
 * class [CdrGraphicObject](../cdrgraphicobject)
 * пространство имен [Aspose.Imaging.FileFormats.Cdr.Objects](../../aspose.imaging.fileformats.cdr.objects)
 * сборка [Aspose.Imaging](../../)

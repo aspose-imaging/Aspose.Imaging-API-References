@@ -1,14 +1,14 @@
 ---
 title: EmfSetColorAdjustment
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetColorAdjustmentaspose.imaging.fileformats.emf.emf.records/emfsetcoloradjustment.
+description: Инициализирует новый экземплярEmfSetColorAdjustmentaspose.imaging.fileformats.emf.emf.records/emfsetcoloradjustment класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetcoloradjustment/emfsetcoloradjustment/
 ---
 ## EmfSetColorAdjustment constructor
 
-Инициализирует новый экземпляр класса[`EmfSetColorAdjustment`](../../emfsetcoloradjustment).
+Инициализирует новый экземпляр[`EmfSetColorAdjustment`](../../emfsetcoloradjustment) класс.
 
 ```csharp
 public EmfSetColorAdjustment(EmfRecord source)

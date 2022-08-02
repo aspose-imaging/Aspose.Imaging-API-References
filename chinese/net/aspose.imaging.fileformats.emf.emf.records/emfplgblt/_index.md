@@ -18,27 +18,27 @@ public sealed class EmfPlgBlt : EmfBitmapRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfPlgBlt](emfplgblt)(EmfRecord) | 初始化[`EmfPlgBlt`](../emfplgblt)类的新实例。 |
+| [EmfPlgBlt](emfplgblt)(EmfRecord) | 初始化[`EmfPlgBlt`](../emfplgblt)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AptlDest](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/aptldest) { get; set; } | 获取或设置三个 WMF PointL 对象的数组（[MS-WMF] 第 2.2.2.15 节）， 指定平行四边形目标的三个角块传输的区域。 源矩形的左上角映射到这个数组的第一个点， 右上角映射到第二个点，左下角映射到第三点。源矩形的右下角映射到 平行四边形中的隐式第四点，该点是通过将前三个点（A、B 和 C）视为:::来计算的47:::向量。 D = B + CA |
+| [AptlDest](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/aptldest) { get; set; } | 获取或设置一个由三个 WMF PointL 对象组成的数组（[MS-WMF] 第 2.2.2.15 节）， 指定块传输的平行四边形目标区域的三个角。 源矩形的左上角映射到此数组中的第一个点， 右上角到第二个点，左下角到第三个点。源矩形的右下角映射到 平行四边形中的隐式第四点，该点是通过将前三个点（A、B 和 C）视为 向量来计算的。 D = B + C A |
 | [BkSrcArgb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/bksrcargb32color) { get; set; } | 获取或设置指定源位图的 背景颜色的 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节）。 |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/bounds) { get; set; } | 获取或设置定义 边界矩形的 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），以设备为单位，用于输出到目的地。 |
-| [CxSrc](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/cxsrc) { get; set; } | 获取或设置一个 32 位有符号整数，它指定源矩形的逻辑宽度。 |
-| [CySrc](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/cysrc) { get; set; } | 获取或设置一个 32 位有符号整数，它指定源矩形的逻辑高度。 |
-| [MaskBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/maskbitmap) { get; set; } | 获取或设置包含掩码位图的缓冲区，这不是 需要与 EMR_PLGBLT 记录的固定部分或每个其他。 因此，此缓冲区中标记为“UndefinedSpace”的字段是可选的，必须被忽略。 |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/bounds) { get; set; } | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象以设备单位定义 边界矩形，用于输出到目标。 |
+| [CxSrc](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/cxsrc) { get; set; } | 获取或设置一个 32 位有符号整数，指定源矩形的逻辑宽度。 |
+| [CySrc](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/cysrc) { get; set; } | 获取或设置一个 32 位有符号整数，指定源矩形的逻辑高度。 |
+| [MaskBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/maskbitmap) { get; set; } | 获取或设置包含掩码位图的缓冲区，这些位图不需要与 EMR_PLGBLT 记录的固定部分或彼此相邻。 因此，此缓冲区中标记为“UndefinedSpace”的字段是可选的，必须被忽略。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
-| [SourceBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/sourcebitmap) { get; set; } | 获取或设置包含源位图的缓冲区，它们不是 需要与 EMR_PLGBLT 记录的固定部分或每个其他。 因此，此缓冲区中标记为“UndefinedSpace”的字段是可选的，必须被忽略。 |
+| [SourceBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/sourcebitmap) { get; set; } | 获取或设置包含源位图的缓冲区，它们不需要与 EMR_PLGBLT 记录的固定部分或彼此相邻。 因此，此缓冲区中标记为“UndefinedSpace”的字段是可选的，必须被忽略。 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
-| [UsageMask](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/usagemask) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定如何解释掩码位图标头中 颜色表中的值。该值必须在 DIBColors 枚举中。 |
-| [UsageSrc](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/usagesrc) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定如何解释源位图标头中 颜色表中的值。此值必须在 DIBColors 枚举 |
+| [UsageMask](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/usagemask) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定如何解释掩码位图标头中 颜色表中的值。此值必须在 DIBColors 枚举中。 |
+| [UsageSrc](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/usagesrc) { get; set; } | 获取或设置一个 32 位无符号整数，它指定如何解释源位图头中的 颜色表中的值。这个值必须在 DIBColors enumeration |
 | [XFormSrc](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/xformsrc) { get; set; } | 获取或设置一个 XForm 对象（第 2.2.28 节），该对象指定世界空间到页面空间的转换以应用于源位图。 |
-| [XMask](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/xmask) { get; set; } | 获取或设置一个 32 位有符号整数，它指定掩码位图左上角的逻辑 x 坐标。 |
+| [XMask](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/xmask) { get; set; } | 获取或设置一个 32 位有符号整数，指定掩码位图左上角的逻辑 x 坐标。 |
 | [XSrc](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/xsrc) { get; set; } | 获取或设置一个 32 位有符号整数，它指定源矩形左上角 角的逻辑 x 坐标。 |
-| [YMask](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/ymask) { get; set; } | 获取或设置一个 32 位有符号整数，它指定掩码位图左上角的逻辑 y 坐标。 |
+| [YMask](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/ymask) { get; set; } | 获取或设置一个 32 位有符号整数，指定掩码位图左上角的逻辑 y 坐标。 |
 | [YSrc](../../aspose.imaging.fileformats.emf.emf.records/emfplgblt/ysrc) { get; set; } | 获取或设置一个 32 位有符号整数，它指定源矩形左上角 角的逻辑 y 坐标。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: EmfRealizePalette
 second_title: Aspose.Imaging for .NET API 参考
-description: 此记录将调色板条目从当前 LogPalette 对象第 2.2.17 节映射到 system_palette 此 EMF 记录未指定参数
+description: 此记录将调色板条目从 current LogPalette 对象第 2.2.17 节映射到 system_palette 此 EMF 记录未指定参数
 type: docs
 weight: 4140
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfrealizepalette/
 ---
 ## EmfRealizePalette class
 
-此记录将调色板条目从当前 LogPalette 对象（第 2.2.17 节）映射到 system_palette。 此 EMF 记录未指定参数。
+此记录将调色板条目从 current LogPalette 对象（第 2.2.17 节）映射到 system_palette。 此 EMF 记录未指定参数。
 
 ```csharp
 public sealed class EmfRealizePalette : EmfStateRecordType
@@ -18,7 +18,7 @@ public sealed class EmfRealizePalette : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfRealizePalette](emfrealizepalette)(EmfRecord) | 初始化[`EmfRealizePalette`](../emfrealizepalette)类的新实例。 |
+| [EmfRealizePalette](emfrealizepalette)(EmfRecord) | 初始化[`EmfRealizePalette`](../emfrealizepalette)类. |
 
 ## 特性
 

@@ -1,14 +1,14 @@
 ---
 title: ObjectClamp
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定对象钳位行为的 32 位有符号整数 在将此对象应用于正在绘制的图像 之前不会使用它该值必须是在 下表中定义的值之一
+description: 获取或设置指定对象钳制行为的 32 位有符号整数 直到将此对象应用于正在 绘制的图像时才使用它此值必须是 下表中定义的值之一
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageattributes/objectclamp/
 ---
 ## EmfPlusImageAttributes.ObjectClamp property
 
-获取或设置指定对象钳位行为的 32 位有符号整数。 在将此对象应用于正在绘制的图像 之前，不会使用它。该值必须是在 下表中定义的值之一。
+获取或设置指定对象钳制行为的 32 位有符号整数。 直到将此对象应用于正在 绘制的图像时才使用它。此值必须是 下表中定义的值之一。
 
 ```csharp
 public EmfPlusObjectClamp ObjectClamp { get; set; }

@@ -16,7 +16,7 @@ public TiffRational[] LensSpecification { get; set; }
 
 ### 适当的价值
 
-镜头规格。
+镜头规格.
 
 ### 也可以看看
 

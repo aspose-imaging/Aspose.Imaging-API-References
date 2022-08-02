@@ -1,14 +1,14 @@
 ---
 title: BlueMask
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает цветовую маску определяющую синий компонент каждого пикселя допустимую только если для bV4Compression задано значение BI_BITFIELDS.
+description: Получает или задает цветовую маску определяющую синий компонент каждого пикселя допустимую только если для параметра bV4Compression задано значение BI_BITFIELDS.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.bmp/bitmapv4header/bluemask/
 ---
 ## BitmapV4Header.BlueMask property
 
-Получает или задает цветовую маску, определяющую синий компонент каждого пикселя, допустимую, только если для bV4Compression задано значение BI_BITFIELDS.
+Получает или задает цветовую маску, определяющую синий компонент каждого пикселя, допустимую, только если для параметра bV4Compression задано значение BI_BITFIELDS.
 
 ```csharp
 public int BlueMask { get; set; }

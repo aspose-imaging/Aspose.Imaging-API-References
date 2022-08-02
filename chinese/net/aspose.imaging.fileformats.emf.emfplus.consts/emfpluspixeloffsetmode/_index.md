@@ -21,8 +21,8 @@ public enum EmfPlusPixelOffsetMode : byte
 | PixelOffsetModeDefault | `0` | 像素以整数坐标为中心，指定速度而不是质量。 |
 | PixelOffsetModeHighSpeed | `1` | 像素以整数坐标为中心，与 PixelOffsetModeNone 一样。指定了以牺牲质量为代价的更高速度。 |
 | PixelOffsetModeHighQuality | `2` | 像素以半整数坐标为中心，与 PixelOffsetModeHalf 一样。指定了以牺牲速度为代价的更高质量。 |
-| PixelOffsetModeNone | `3` | 像素以原点为中心，这意味着像素在 x 和 y 轴上都覆盖了从 -0.5 到 0.5 的区域，并且其中心位于 (0, 0)。 |
-| PixelOffsetModeHalf | `4` | 像素以半整数坐标为中心，这意味着像素在 x 和 y 轴上都覆盖了从 0 到 1 的区域，并且其中心在 (0.5 ,0.5)。通过在渲染期间偏移像素，可以以渲染速度为代价来提高渲染质量。 |
+| PixelOffsetModeNone | `3` | 像素以原点为中心，这意味着像素在 x 和 y 轴上覆盖从 -0.5 到 0.5 的区域，并且其中心位于 (0,0)。 |
+| PixelOffsetModeHalf | `4` | 像素以半整数坐标为中心，这意味着该像素在 x 和 y 轴上都覆盖了从 0 到 1 的区域，并且其中心位于 (0.5,0.5)。通过在渲染过程中偏移像素，可以以渲染速度为代价提高渲染质量。 |
 
 ### 也可以看看
 

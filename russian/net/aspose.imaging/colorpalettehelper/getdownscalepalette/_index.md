@@ -20,7 +20,7 @@ public static ColorPalette GetDownscalePalette(RasterImage image)
 
 ### Возвращаемое значение
 
-The[`ColorPalette`](../../colorpalette).
+[`ColorPalette`](../../colorpalette) .
 
 ### Смотрите также
 

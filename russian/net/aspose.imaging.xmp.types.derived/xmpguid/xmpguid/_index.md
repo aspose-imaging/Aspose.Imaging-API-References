@@ -1,14 +1,14 @@
 ---
 title: XmpGuid
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаXmpGuidaspose.imaging.xmp.types.derived/xmpguid.
+description: Инициализирует новый экземплярXmpGuidaspose.imaging.xmp.types.derived/xmpguid класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp.types.derived/xmpguid/xmpguid/
 ---
 ## XmpGuid(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`XmpGuid`](../../xmpguid).
+Инициализирует новый экземпляр[`XmpGuid`](../../xmpguid) класс.
 
 ```csharp
 public XmpGuid(string value)
@@ -22,8 +22,8 @@ public XmpGuid(string value)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Значение равно null. |
-| ArgumentException | Неверное значение GUID;значение |
+| ArgumentNullException | значение равно нулю. |
+| ArgumentException | Недопустимое значение guid;значение |
 
 ### Смотрите также
 
@@ -35,7 +35,7 @@ public XmpGuid(string value)
 
 ## XmpGuid(Guid) {#constructor}
 
-Инициализирует новый экземпляр класса[`XmpGuid`](../../xmpguid).
+Инициализирует новый экземпляр[`XmpGuid`](../../xmpguid) класс.
 
 ```csharp
 public XmpGuid(Guid guid)

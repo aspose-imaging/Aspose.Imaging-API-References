@@ -1,14 +1,14 @@
 ---
 title: EmfPlusWrapMode
 second_title: Aspose.Imaging for .NET API 参考
-description: WrapMode 枚举定义了当纹理或渐变画笔中的图案小于被填充区域时如何在形状或形状边界处平铺图案
+description: WrapMode 枚举定义了当纹理或渐变画笔的图案小于被填充区域时如何在形状或形状边界上平铺图案
 type: docs
 weight: 5120
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluswrapmode/
 ---
 ## EmfPlusWrapMode enumeration
 
-WrapMode 枚举定义了当纹理或渐变画笔中的图案小于被填充区域时，如何在形状或形状边界处平铺图案。
+WrapMode 枚举定义了当纹理或渐变画笔的图案小于被填充区域时，如何在形状或形状边界上平铺图案。
 
 ```csharp
 public enum EmfPlusWrapMode

@@ -18,33 +18,33 @@ public class MetaObjectList : NonGenericList
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MetaObjectList](metaobjectlist#constructor)() | 初始化[`MetaObjectList`](../metaobjectlist)类的新实例。 |
-| [MetaObjectList](metaobjectlist#constructor_1)(IList) | 初始化[`MetaObjectList`](../metaobjectlist)类的新实例。 |
+| [MetaObjectList](metaobjectlist#constructor)() | 初始化[`MetaObjectList`](../metaobjectlist)类. |
+| [MetaObjectList](metaobjectlist#constructor_1)(IList) | 初始化[`MetaObjectList`](../metaobjectlist)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.imaging/nongenericlist/count) { get; } | 获取ICollection中包含的元素数。 |
-| [IsFixedSize](../../aspose.imaging/nongenericlist/isfixedsize) { get; } | 获取一个值，该值指示IList是否具有固定大小。 |
-| [IsReadOnly](../../aspose.imaging/nongenericlist/isreadonly) { get; } | 获取一个值，该值指示IList是否为只读。 |
-| [IsSynchronized](../../aspose.imaging/nongenericlist/issynchronized) { get; } | 获取一个值，该值指示对ICollection的访问是否同步（线程安全）。 |
+| [Count](../../aspose.imaging/nongenericlist/count) { get; } | 获取包含在ICollection . |
+| [IsFixedSize](../../aspose.imaging/nongenericlist/isfixedsize) { get; } | 获取一个值，该值指示是否IList有一个固定的大小。 |
+| [IsReadOnly](../../aspose.imaging/nongenericlist/isreadonly) { get; } | 获取一个值，该值指示是否IList是只读的。 |
+| [IsSynchronized](../../aspose.imaging/nongenericlist/issynchronized) { get; } | 获取一个值，表示是否访问ICollection已同步（线程安全）。 |
 | [Item](../../aspose.imaging/nongenericlist/item) { get; set; } | 获取或设置指定索引处的元素。 |
-| [SyncRoot](../../aspose.imaging/nongenericlist/syncroot) { get; } | 获取可用于同步访问ICollection的对象。 |
+| [SyncRoot](../../aspose.imaging/nongenericlist/syncroot) { get; } | 获取可用于同步访问的对象ICollection . |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.imaging/nongenericlist/add)(object) | 将项目添加到IList。 |
-| [Clear](../../aspose.imaging/nongenericlist/clear)() | 从IList中删除所有项目。 |
-| [Contains](../../aspose.imaging/nongenericlist/contains)(object) | 确定IList是否包含特定值。 |
-| [CopyTo](../../aspose.imaging/nongenericlist/copyto)(Array, int) | 将ICollection的元素复制到Array，从特定的Array索引开始。 |
+| [Add](../../aspose.imaging/nongenericlist/add)(object) | 将一个项目添加到IList . |
+| [Clear](../../aspose.imaging/nongenericlist/clear)() | 从IList . |
+| [Contains](../../aspose.imaging/nongenericlist/contains)(object) | 确定是否IList包含特定值。 |
+| [CopyTo](../../aspose.imaging/nongenericlist/copyto)(Array, int) | 复制元素ICollection对一个Array，从一个特定的开始Array索引. |
 | [GetEnumerator](../../aspose.imaging/nongenericlist/getenumerator)() | 返回一个遍历集合的枚举器。 |
-| [IndexOf](../../aspose.imaging/nongenericlist/indexof)(object) | 确定IList中特定项目的索引。 |
-| [Insert](../../aspose.imaging/nongenericlist/insert)(int, object) | 将项目插入到IList的指定索引处。 |
-| [Remove](../../aspose.imaging/nongenericlist/remove)(object) | 从IList中删除特定对象的第一个匹配项。 |
-| [RemoveAt](../../aspose.imaging/nongenericlist/removeat)(int) | 删除指定索引处的IList项。 |
+| [IndexOf](../../aspose.imaging/nongenericlist/indexof)(object) | 确定特定项目的索引IList . |
+| [Insert](../../aspose.imaging/nongenericlist/insert)(int, object) | 向IList在指定的索引处。 |
+| [Remove](../../aspose.imaging/nongenericlist/remove)(object) | 从IList . |
+| [RemoveAt](../../aspose.imaging/nongenericlist/removeat)(int) | 删除IList指定索引处的项目。 |
 
 ### 也可以看看
 

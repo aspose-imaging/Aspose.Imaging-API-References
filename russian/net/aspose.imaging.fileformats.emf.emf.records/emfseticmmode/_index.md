@@ -1,14 +1,14 @@
 ---
 title: EmfSetIcmMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_SETICMMODE определяет режим управления цветом изображения ICM для графических операций.
+description: Запись EMR_SETICMMODE указывает режим управления цветом изображения ICM для графических операций.
 type: docs
 weight: 4340
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfseticmmode/
 ---
 ## EmfSetIcmMode class
 
-Запись EMR_SETICMMODE определяет режим управления цветом изображения (ICM) для графических операций.
+Запись EMR_SETICMMODE указывает режим управления цветом изображения (ICM) для графических операций.
 
 ```csharp
 public sealed class EmfSetIcmMode : EmfStateRecordType
@@ -18,19 +18,19 @@ public sealed class EmfSetIcmMode : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetIcmMode](emfseticmmode)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetIcmMode`](../emfseticmmode). |
+| [EmfSetIcmMode](emfseticmmode)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetIcmMode`](../emfseticmmode) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [IcmMode](../../aspose.imaging.fileformats.emf.emf.records/emfseticmmode/icmmode) { get; set; } | Получает или задает 32-битное целое число без знака, указывающее, включать или отключать ICM, из перечисления ICMMode (раздел 2.1.18) . Это значение является частью состояния контекста устройства воспроизведения . |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [IcmMode](../../aspose.imaging.fileformats.emf.emf.records/emfseticmmode/icmmode) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее, следует ли включать или отключать ICM, из перечисления ICMMode (раздел 2.1.18). Это значение является частью состояния контекста устройства воспроизведения . |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Примечания
 
-Когда включен режим ICM, цвета, указанные в записях EMF, ДОЛЖНЫ совпадать, тогда как цветовой профиль по умолчанию в контексте устройства воспроизведения СЛЕДУЕТ использовать, когда выполняется передача битового блока . Если цветовой профиль по умолчанию не нужен, режим ICM СЛЕДУЕТ отключить перед выполнением передачи битового блока.
+Когда включен режим ICM, цвета, указанные в записях EMF, ДОЛЖНЫ быть согласованными по цвету, тогда как цветовой профиль по умолчанию в контексте устройства воспроизведения ДОЛЖЕН использоваться, когда выполняется передача битового блока is . Если цветовой профиль по умолчанию не нужен, режим ICM СЛЕДУЕТ отключить перед выполнением передачи битовых блоков.
 
 ### Смотрите также
 

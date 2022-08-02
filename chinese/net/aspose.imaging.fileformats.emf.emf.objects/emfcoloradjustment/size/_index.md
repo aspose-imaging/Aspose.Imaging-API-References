@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 16 位无符号整数指定此对象的字节大小这必须是 0x0018
+description: 获取或设置一个 16 位无符号整数指定此对象的大小以字节为单位这必须是 0x0018.
 type: docs
 weight: 120
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/size/
 ---
 ## EmfColorAdjustment.Size property
 
-获取或设置一个 16 位无符号整数，指定此对象的字节大小。这必须是 0x0018。
+获取或设置一个 16 位无符号整数，指定此对象的大小（以字节为单位）。这必须是 0x0018.
 
 ```csharp
 public short Size { get; set; }

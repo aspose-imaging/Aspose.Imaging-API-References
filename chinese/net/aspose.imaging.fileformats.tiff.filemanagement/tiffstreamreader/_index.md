@@ -1,14 +1,14 @@
 ---
 title: TiffStreamReader
 second_title: Aspose.Imaging for .NET API 参考
-description: 用于处理 little endian tiff 文件格式的 tiff 流
+description: 处理 little endian tiff 文件格式的 tiff 流
 type: docs
 weight: 7790
 url: /zh/net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/
 ---
 ## TiffStreamReader class
 
-用于处理 little endian tiff 文件格式的 tiff 流。
+处理 little endian tiff 文件格式的 tiff 流。
 
 ```csharp
 public class TiffStreamReader
@@ -18,10 +18,10 @@ public class TiffStreamReader
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TiffStreamReader](tiffstreamreader#constructor_1)(byte[]) | 初始化[`TiffStreamReader`](../tiffstreamreader)类的新实例。 |
-| [TiffStreamReader](tiffstreamreader#constructor)(StreamContainer) | 初始化[`TiffStreamReader`](../tiffstreamreader)类的新实例。 |
-| [TiffStreamReader](tiffstreamreader#constructor_2)(byte[], int) | 初始化[`TiffStreamReader`](../tiffstreamreader)类的新实例。 |
-| [TiffStreamReader](tiffstreamreader#constructor_3)(byte[], int, int) | 初始化[`TiffStreamReader`](../tiffstreamreader)类的新实例。 |
+| [TiffStreamReader](tiffstreamreader#constructor_1)(byte[]) | 初始化[`TiffStreamReader`](../tiffstreamreader)类. |
+| [TiffStreamReader](tiffstreamreader#constructor)(StreamContainer) | 初始化[`TiffStreamReader`](../tiffstreamreader)类. |
+| [TiffStreamReader](tiffstreamreader#constructor_2)(byte[], int) | 初始化[`TiffStreamReader`](../tiffstreamreader)类. |
+| [TiffStreamReader](tiffstreamreader#constructor_3)(byte[], int, int) | 初始化[`TiffStreamReader`](../tiffstreamreader)类. |
 
 ## 特性
 
@@ -34,7 +34,7 @@ public class TiffStreamReader
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ReadBytes](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readbytes#readbytes)(long, long) | 从流中读取一个无符号字节值数组。 |
+| [ReadBytes](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readbytes#readbytes)(long, long) | 从流中读取一组无符号字节值。 |
 | [ReadBytes](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readbytes#readbytes_1)(byte[], int, long, long) | 从流中读取字节值数组。 |
 | [ReadDouble](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readdouble)(long) | 从流中读取单个双精度值。 |
 | [ReadDoubleArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readdoublearray)(long, long) | 从流中读取一个双精度值数组。 |

@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSetClipPath
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPlusSetClipPathaspose.imaging.fileformats.emf.emfplus.records/emfplussetclippath类的新实例
+description: 初始化EmfPlusSetClipPathaspose.imaging.fileformats.emf.emfplus.records/emfplussetclippath类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetclippath/emfplussetclippath/
 ---
 ## EmfPlusSetClipPath constructor
 
-初始化[`EmfPlusSetClipPath`](../../emfplussetclippath)类的新实例。
+初始化[`EmfPlusSetClipPath`](../../emfplussetclippath)类.
 
 ```csharp
 public EmfPlusSetClipPath(EmfPlusRecord source)
@@ -16,7 +16,7 @@ public EmfPlusSetClipPath(EmfPlusRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfPlusRecord | 源。 |
+| source | EmfPlusRecord | 来源。 |
 
 ### 也可以看看
 

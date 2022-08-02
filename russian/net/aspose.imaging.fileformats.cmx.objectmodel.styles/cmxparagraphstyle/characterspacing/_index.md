@@ -1,14 +1,14 @@
 ---
 title: CharacterSpacing
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает интервал между символами.
+description: Получает или задает межсимвольный интервал.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphstyle/characterspacing/
 ---
 ## CmxParagraphStyle.CharacterSpacing property
 
-Получает или задает интервал между символами.
+Получает или задает межсимвольный интервал.
 
 ```csharp
 public float CharacterSpacing { get; set; }
@@ -16,7 +16,7 @@ public float CharacterSpacing { get; set; }
 
 ### Стоимость имущества
 
-Расстояние между символами в процентах.
+Интервал между символами в процентах.
 
 ### Смотрите также
 

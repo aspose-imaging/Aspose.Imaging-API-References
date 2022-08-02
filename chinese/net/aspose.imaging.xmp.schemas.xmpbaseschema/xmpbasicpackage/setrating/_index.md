@@ -1,14 +1,14 @@
 ---
 title: SetRating
 second_title: Aspose.Imaging for .NET API 参考
-description: 设置评级
+description: 设置评分
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/setrating/
 ---
 ## XmpBasicPackage.SetRating method
 
-设置评级。
+设置评分。
 
 ```csharp
 public void SetRating(int choise)

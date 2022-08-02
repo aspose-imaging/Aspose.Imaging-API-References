@@ -16,7 +16,7 @@ public void Widen(Pen pen)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pen | Pen | A[`Pen`](../../pen)指定原始轮廓之间的宽度此方法创建的路径和新轮廓。 |
+| pen | Pen | 一个[`Pen`](../../pen)指定路径的原始轮廓与此方法创建的新轮廓之间的宽度。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public void Widen(Pen pen)
 
 ## Widen(Pen, Matrix) {#widen_1}
 
-为[`GraphicsPath`](../../graphicspath)添加额外的轮廓。
+为[`GraphicsPath`](../../graphicspath) .
 
 ```csharp
 public void Widen(Pen pen, Matrix matrix)
@@ -37,8 +37,8 @@ public void Widen(Pen pen, Matrix matrix)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pen | Pen | A[`Pen`](../../pen)指定原始轮廓之间的宽度此方法创建的路径和新轮廓。 |
-| matrix | Matrix | A[`Matrix`](../../matrix)指定在加宽之前应用到路径的变换。 |
+| pen | Pen | 一个[`Pen`](../../pen)指定路径的原始轮廓与此方法创建的新轮廓之间的宽度。 |
+| matrix | Matrix | 一个[`Matrix`](../../matrix)指定在加宽之前应用到路径的变换。 |
 
 ### 也可以看看
 
@@ -52,7 +52,7 @@ public void Widen(Pen pen, Matrix matrix)
 
 ## Widen(Pen, Matrix, float) {#widen_2}
 
-将此[`GraphicsPath`](../../graphicspath)替换为包围指定笔绘制此路径时填充区域的曲线.
+替换这个[`GraphicsPath`](../../graphicspath)当用指定的笔绘制此路径时，带有包围填充区域的曲线。
 
 ```csharp
 public void Widen(Pen pen, Matrix matrix, float flatness)
@@ -60,9 +60,9 @@ public void Widen(Pen pen, Matrix matrix, float flatness)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pen | Pen | A[`Pen`](../../pen)指定原始轮廓之间的宽度此方法创建的路径和新轮廓。 |
-| matrix | Matrix | A[`Matrix`](../../matrix)指定在加宽之前应用到路径的变换。 |
-| flatness | Single | 指定曲线平坦度的值。 |
+| pen | Pen | 一个[`Pen`](../../pen)指定路径的原始轮廓与此方法创建的新轮廓之间的宽度。 |
+| matrix | Matrix | 一个[`Matrix`](../../matrix)指定在加宽之前应用到路径的变换。 |
+| flatness | Single | 一个指定曲线平坦度的值。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: AEmrText
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 EmrText 对象第 2.2.5 节该对象指定 8 位 ASCII 字符文本属性和间距值
+description: 获取或设置一个 EmrText 对象第 2.2.5 节该对象指定 8 位 ASCII 字符文本属性和间距值的输出字符串
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfexttextouta/aemrtext/
 ---
 ## EmfExtTextOutA.AEmrText property
 
-获取或设置 EmrText 对象（第 2.2.5 节），该对象指定 8 位 ASCII 字符、文本属性和间距值。
+获取或设置一个 EmrText 对象（第 2.2.5 节），该对象指定 8 位 ASCII 字符、文本属性和间距值的输出字符串。
 
 ```csharp
 public EmfText AEmrText { get; set; }

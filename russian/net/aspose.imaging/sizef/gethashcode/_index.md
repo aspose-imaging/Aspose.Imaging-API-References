@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Возвращает хэш-код для этойSizeaspose.imaging/sizeструктуры.
+description: Возвращает хеш-код для этогоSizeaspose.imaging/size структура.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging/sizef/gethashcode/
 ---
 ## SizeF.GetHashCode method
 
-Возвращает хэш-код для этой[`Size`](../../size)структуры.
+Возвращает хеш-код для этого[`Size`](../../size) структура.
 
 ```csharp
 public override int GetHashCode()
@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### Возвращаемое значение
 
-Целочисленное значение, указывающее хеш-значение для этой[`Size`](../../size)структуры.
+Целочисленное значение, указывающее хеш-значение для этого[`Size`](../../size) структура.
 
 ### Смотрите также
 

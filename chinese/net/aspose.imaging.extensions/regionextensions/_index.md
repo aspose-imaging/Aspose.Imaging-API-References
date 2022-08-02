@@ -1,14 +1,14 @@
 ---
 title: RegionExtensions
 second_title: Aspose.Imaging for .NET API 参考
-description: 包含Region../aspose.imaging/region类的扩展方法
+description: 包含扩展方法Region../aspose.imaging/region类.
 type: docs
 weight: 1260
 url: /zh/net/aspose.imaging.extensions/regionextensions/
 ---
 ## RegionExtensions class
 
-包含[`Region`](../../aspose.imaging/region)类的扩展方法。
+包含扩展方法[`Region`](../../aspose.imaging/region)类.
 
 ```csharp
 public static class RegionExtensions
@@ -18,7 +18,7 @@ public static class RegionExtensions
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [ToGdiRegion](../../aspose.imaging.extensions/regionextensions/togdiregion)(Region) | 将[`Region`](../../aspose.imaging/region)转换为Region。 |
+| static [ToGdiRegion](../../aspose.imaging.extensions/regionextensions/togdiregion)(Region) | 转换[`Region`](../../aspose.imaging/region)到Region . |
 
 ### 也可以看看
 

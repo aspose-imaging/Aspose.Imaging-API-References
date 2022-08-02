@@ -27,29 +27,29 @@ public EmfRenderMode RenderMode { get; set; }
 
 string dir = "c:\\temp\\";
 
-    // 使用 Aspose.Imaging.Image.Load 是一种统一的方式来加载所有类型的图像，包括 EMF.
+// 使用 Aspose.Imaging.Image.Load 是一种统一的方式来加载包括 EMF 在内的所有类型的图像。
 using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFormats.Emf.EmfImage)Aspose.Imaging.Image.Load(dir + "test.emf"))
 {
     Aspose.Imaging.ImageOptions.SvgOptions saveOptions = new Aspose.Imaging.ImageOptions.SvgOptions();
 
-        // 文本将被转换为形状。
+    // 文本将转换为形状。
     saveOptions.TextAsShapes = true;
 
     Aspose.Imaging.ImageOptions.EmfRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.EmfRasterizationOptions();
 
-        // 绘图表面的背景颜色.
+    // 绘图表面的背景颜色。
     rasterizationOptions.BackgroundColor = Aspose.Imaging.Color.WhiteSmoke;
 
-        // 页面大小.
+    // 页面大小。
     rasterizationOptions.PageSize = emfImage.Size;
 
-        // 如果嵌入的 emf 存在，则渲染 emf；否则渲染 wmf.
+    // 如果嵌入的 emf 存在，则渲染 emf；否则渲染 wmf。
     rasterizationOptions.RenderMode = Aspose.Imaging.FileFormats.Emf.EmfRenderMode.Auto;
 
-        // 设置水平边距
+    // 设置水平边距
     rasterizationOptions.BorderX = 50;
 
-        // 设置垂直边距
+    // 设置垂直边距
     rasterizationOptions.BorderY = 50;
 
     saveOptions.VectorRasterizationOptions = rasterizationOptions;

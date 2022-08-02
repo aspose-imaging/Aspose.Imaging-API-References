@@ -1,14 +1,14 @@
 ---
 title: Radial2
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置radial2
+description: 获取或设置radial2.
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfpie/radial2/
 ---
 ## WmfPie.Radial2 property
 
-获取或设置radial2。
+获取或设置radial2.
 
 ```csharp
 public Point Radial2 { get; set; }
@@ -16,7 +16,7 @@ public Point Radial2 { get; set; }
 
 ### 适当的价值
 
-径向2。
+radial2.
 
 ### 也可以看看
 

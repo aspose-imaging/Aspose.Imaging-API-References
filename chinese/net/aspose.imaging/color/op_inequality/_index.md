@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: Aspose.Imaging for .NET API 参考
-description: 测试两个指定的Coloraspose.imaging/color结构是否不同
+description: 测试两个是否指定Coloraspose.imaging/color结构不同
 type: docs
 weight: 1630
 url: /zh/net/aspose.imaging/color/op_inequality/
 ---
 ## Color Inequality operator
 
-测试两个指定的[`Color`](../../color)结构是否不同。
+测试两个是否指定[`Color`](../../color)结构不同。
 
 ```csharp
 public static bool operator !=(Color left, Color right)
@@ -16,12 +16,12 @@ public static bool operator !=(Color left, Color right)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| left | Color | [`Color`](../../color)位于不等式运算符的左侧. |
-| right | Color | [`Color`](../../color)位于不等式运算符的右侧。 |
+| left | Color | 这[`Color`](../../color)即在不等式运算符的左侧。 |
+| right | Color | 这[`Color`](../../color)即在不等式运算符的右侧。 |
 
 ### 返回值
 
-如果两个[`Color`](../../color)结构不同，则为真；否则为假。
+如果两者为真[`Color`](../../color)结构不同；否则为假。
 
 ### 也可以看看
 

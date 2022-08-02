@@ -18,8 +18,8 @@ public class LzwCompressorException : CompressorException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LzwCompressorException](lzwcompressorexception#constructor)(string) | 初始化[`LzwCompressorException`](../lzwcompressorexception)类的新实例。 |
-| [LzwCompressorException](lzwcompressorexception#constructor_1)(string, Exception) | 初始化[`LzwCompressorException`](../lzwcompressorexception)类的新实例。 |
+| [LzwCompressorException](lzwcompressorexception#constructor)(string) | 初始化[`LzwCompressorException`](../lzwcompressorexception)类. |
+| [LzwCompressorException](lzwcompressorexception#constructor_1)(string, Exception) | 初始化[`LzwCompressorException`](../lzwcompressorexception)类. |
 
 ### 也可以看看
 

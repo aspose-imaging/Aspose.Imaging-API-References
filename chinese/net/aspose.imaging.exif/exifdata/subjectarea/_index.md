@@ -16,7 +16,7 @@ public ushort[] SubjectArea { get; set; }
 
 ### 适当的价值
 
-主题区域。
+主题区。
 
 ### 也可以看看
 

@@ -25,7 +25,7 @@ public class WmfSetBkMode : WmfObject
 | Имя | Описание |
 | --- | --- |
 | [BkMode](../../aspose.imaging.fileformats.wmf.objects/wmfsetbkmode/bkmode) { get; set; } | Получает или задает режим bk. |
-| [Reserved](../../aspose.imaging.fileformats.wmf.objects/wmfsetbkmode/reserved) { get; set; } | Получает или устанавливает зарезервированное значение. |
+| [Reserved](../../aspose.imaging.fileformats.wmf.objects/wmfsetbkmode/reserved) { get; set; } | Получает или устанавливает зарезервированное. |
 
 ### Смотрите также
 

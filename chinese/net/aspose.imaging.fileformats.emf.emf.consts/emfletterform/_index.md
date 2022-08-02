@@ -1,14 +1,14 @@
 ---
 title: EmfLetterform
 second_title: Aspose.Imaging for .NET API 参考
-description: Letterform 枚举定义了 PANOSE 系统中用于字体分类的特征之一的值
+description: Letterform 枚举定义了 PANOSE 系统中用于对字体进行分类的特征之一的值
 type: docs
 weight: 2720
 url: /zh/net/aspose.imaging.fileformats.emf.emf.consts/emfletterform/
 ---
 ## EmfLetterform enumeration
 
-Letterform 枚举定义了 PANOSE 系统中用于字体分类的特征之一的值。
+Letterform 枚举定义了 PANOSE 系统中用于对字体进行分类的特征之一的值。
 
 ```csharp
 public enum EmfLetterform : byte
@@ -20,20 +20,20 @@ public enum EmfLetterform : byte
 | --- | --- | --- |
 | PAN_ANY | `0` | 任意字母形式 |
 | PAN_NO_FIT | `1` | 不合适。 |
-| PAN_LETT_NORMAL_CONTACT | `2` | 正常/联系。 |
+| PAN_LETT_NORMAL_CONTACT | `2` | 正常/接触。 |
 | PAN_LETT_NORMAL_WEIGHTED | `3` | 正常/加权。 |
 | PAN_LETT_NORMAL_BOXED | `4` | 正常/盒装。 |
-| PAN_LETT_NORMAL_FLATTENED | `5` | 正常/扁平 |
+| PAN_LETT_NORMAL_FLATTENED | `5` | 正常/扁平化 |
 | PAN_LETT_NORMAL_ROUNDED | `6` | 正常/圆角 |
 | PAN_LETT_NORMAL_OFF_CENTER | `7` | 正常/偏离中心。 |
-| PAN_LETT_NORMAL_SQUARE | `8` | 普通/正方形 |
+| PAN_LETT_NORMAL_SQUARE | `8` | 正常 / square |
 | PAN_LETT_OBLIQUE_CONTACT | `9` | 斜/接触 |
 | PAN_LETT_OBLIQUE_WEIGHTED | `10` | 倾斜/加权。 |
-| PAN_LETT_OBLIQUE_BOXED | `11` | 斜/盒装。 |
+| PAN_LETT_OBLIQUE_BOXED | `11` | 斜/盒装. |
 | PAN_LETT_OBLIQUE_FLATTENED | `12` | 倾斜/扁平。 |
 | PAN_LETT_OBLIQUE_ROUNDED | `13` | 斜/圆。 |
 | PAN_LETT_OBLIQUE_OFF_CENTER | `14` | 倾斜/偏离中心 |
-| PAN_LETT_OBLIQUE_SQUARE | `15` | 斜/方形 |
+| PAN_LETT_OBLIQUE_SQUARE | `15` | 斜/正方形 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: FromLeftTopRightBottom
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Создает структуруRectangleaspose.imaging/rectangleс указанными местоположениями ребер.
+description: СоздаетRectangleaspose.imaging/rectangle структура с указанными местоположениями ребер.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging/rectangle/fromlefttoprightbottom/
 ---
 ## Rectangle.FromLeftTopRightBottom method
 
-Создает структуру[`Rectangle`](../../rectangle)с указанными местоположениями ребер.
+Создает[`Rectangle`](../../rectangle) структура с указанными местоположениями ребер.
 
 ```csharp
 public static Rectangle FromLeftTopRightBottom(int left, int top, int right, int bottom)
@@ -16,14 +16,14 @@ public static Rectangle FromLeftTopRightBottom(int left, int top, int right, int
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| left | Int32 | Координата x верхнего левого угла этого[`Rectangle`](../../rectangle)структура. |
-| top | Int32 | Y-координата верхнего левого угла этой[`Rectangle`](../../rectangle)структуры. |
-| right | Int32 | Координата x правого нижнего угла этой[`Rectangle`](../../rectangle)структуры. |
-| bottom | Int32 | Y-координата нижнего правого угла этой[`Rectangle`](../../rectangle)структуры. |
+| left | Int32 | Координата x верхнего левого угла этого[`Rectangle`](../../rectangle) структура. |
+| top | Int32 | Y-координата верхнего левого угла этого[`Rectangle`](../../rectangle) структура. |
+| right | Int32 | Координата x нижнего правого угла этого[`Rectangle`](../../rectangle) структура. |
+| bottom | Int32 | Y-координата нижнего правого угла этого[`Rectangle`](../../rectangle) структура. |
 
 ### Возвращаемое значение
 
-Новый[`Rectangle`](../../rectangle)который создает этот метод.
+Новый[`Rectangle`](../../rectangle) что создает этот метод.
 
 ### Смотрите также
 

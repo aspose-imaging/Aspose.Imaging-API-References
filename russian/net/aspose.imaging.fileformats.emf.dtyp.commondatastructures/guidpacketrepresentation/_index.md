@@ -1,14 +1,14 @@
 ---
 title: GuidPacketRepresentation
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пакетная версия используется в блочных протоколах. На следующей диаграмме идентификатор GUID представлен как непрозрачная последовательность байтов . GUID также известный как UUID представляет собой 16-байтовую структуру предназначенную для использования в качестве уникального идентификатора для объекта. Существует три представления GUID как описано в следующих разделах.
+description: Пакетная версия используется в блочных протоколах. На следующей диаграмме GUID представлен в виде непрозрачной последовательности байтов. GUID также известный как UUID представляет собой 16-байтовую структуру предназначенную для использования в качестве уникального идентификатора объекта. Существует три представления GUID как описано в следующих разделах.
 type: docs
 weight: 2530
 url: /ru/net/aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation/
 ---
 ## GuidPacketRepresentation structure
 
-Пакетная версия используется в блочных протоколах. На следующей диаграмме идентификатор GUID представлен как непрозрачная последовательность байтов . GUID, также известный как UUID, представляет собой 16-байтовую структуру, предназначенную для использования в качестве уникального идентификатора для объекта. Существует три представления GUID, как описано в следующих разделах.
+Пакетная версия используется в блочных протоколах. На следующей диаграмме GUID представлен в виде непрозрачной последовательности байтов. GUID, также известный как UUID, представляет собой 16-байтовую структуру, предназначенную для использования в качестве уникального идентификатора объекта. Существует три представления GUID, как описано в следующих разделах.
 
 ```csharp
 public struct GuidPacketRepresentation
@@ -18,7 +18,7 @@ public struct GuidPacketRepresentation
 
 | Имя | Описание |
 | --- | --- |
-| [GuidPacketRepresentation](guidpacketrepresentation)(int, short, short, long) | Инициализирует новый экземпляр структуры[`GuidPacketRepresentation`](../guidpacketrepresentation). |
+| [GuidPacketRepresentation](guidpacketrepresentation)(int, short, short, long) | Инициализирует новый экземпляр[`GuidPacketRepresentation`](../guidpacketrepresentation) структура. |
 
 ## Характеристики
 
@@ -33,7 +33,7 @@ public struct GuidPacketRepresentation
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 
 ### Смотрите также
 

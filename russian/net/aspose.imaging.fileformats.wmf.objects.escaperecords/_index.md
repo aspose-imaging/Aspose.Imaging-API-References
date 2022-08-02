@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.FileFormats.Wmf.Objects.EscapeRecords
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ltsee langwordnamespace /gt содержит escape-типы MS-WMFWindows
+description: namespace содержит escape-типы MS-WMF Windows
 type: docs
 weight: 720
 url: /ru/net/aspose.imaging.fileformats.wmf.objects.escaperecords/
 ---
-&lt;see langword="namespace" /&gt; содержит escape-типы [MS-WMF]:Windows
+`namespace` содержит escape-типы [MS-WMF]: Windows
 
 ## Классы
 

@@ -21,7 +21,7 @@ public static TiffStreamWriter GetTiffWriter(StreamContainer stream, TiffByteOrd
 
 ### Возвращаемое значение
 
-Tiff поток пригодный для записи.
+Поток Tiff, пригодный для записи.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Hidden
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее является ли этотCdrObjectContaineraspose.imaging.fileformats.cdr.objects/cdrobjectcontainerвидимым.
+description: Получает или задает значение указывающее является ли этоCdrObjectContaineraspose.imaging.fileformats.cdr.objects/cdrobjectcontainer виден.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/hidden/
 ---
 ## CdrObjectContainer.Hidden property
 
-Получает или задает значение, указывающее, является ли этот[`CdrObjectContainer`](../../cdrobjectcontainer)видимым.
+Получает или задает значение, указывающее, является ли это[`CdrObjectContainer`](../../cdrobjectcontainer) виден.
 
 ```csharp
 public bool Hidden { get; set; }
@@ -16,7 +16,7 @@ public bool Hidden { get; set; }
 
 ### Стоимость имущества
 
-` true` если видно; в противном случае` false` .
+`истинный` если видно; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

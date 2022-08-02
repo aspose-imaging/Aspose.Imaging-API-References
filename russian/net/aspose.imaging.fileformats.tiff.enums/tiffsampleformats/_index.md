@@ -1,14 +1,14 @@
 ---
 title: TiffSampleFormats
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пример формата enum
+description: Образец формата enum
 type: docs
 weight: 7730
 url: /ru/net/aspose.imaging.fileformats.tiff.enums/tiffsampleformats/
 ---
 ## TiffSampleFormats enumeration
 
-Пример формата enum
+Образец формата enum
 
 ```csharp
 public enum TiffSampleFormats
@@ -18,11 +18,11 @@ public enum TiffSampleFormats
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Uint | `1` | Целочисленные данные без знака |
+| Uint | `1` | Целое число без знака data |
 | Int | `2` | Целочисленные данные со знаком |
-| IeeeFp | `3` | Данные с плавающей запятой IEEE |
+| IeeeFp | `3` | Данные IEEE с плавающей запятой |
 | Void | `4` | Нетипизированные данные |
-| ComplexInt | `5` | Комплексное целое со знаком |
+| ComplexInt | `5` | Комплекс со знаком int |
 | ComplexIeeeFp | `6` | Комплекс ieee с плавающей запятой |
 
 ### Смотрите также

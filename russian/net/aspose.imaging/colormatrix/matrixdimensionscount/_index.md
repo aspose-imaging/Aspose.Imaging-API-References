@@ -1,14 +1,14 @@
 ---
 title: MatrixDimensionsCount
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Количество размерностей матрицы.
+description: Количество измерений матрицы.
 type: docs
 weight: 300
 url: /ru/net/aspose.imaging/colormatrix/matrixdimensionscount/
 ---
 ## ColorMatrix.MatrixDimensionsCount field
 
-Количество размерностей матрицы.
+Количество измерений матрицы.
 
 ```csharp
 public const int MatrixDimensionsCount;

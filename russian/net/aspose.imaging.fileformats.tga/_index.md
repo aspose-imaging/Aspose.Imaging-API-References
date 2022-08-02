@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.FileFormats.Tga
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пространство имен обрабатывает обработку файлов формата Tga.
+description: Пространство имен обрабатывает формат файла Tga.
 type: docs
 weight: 600
 url: /ru/net/aspose.imaging.fileformats.tga/
 ---
-Пространство имен обрабатывает обработку файлов формата Tga.
+Пространство имен обрабатывает формат файла Tga.
 
 ## Классы
 

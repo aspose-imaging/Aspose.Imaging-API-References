@@ -1,14 +1,14 @@
 ---
 title: Jpeg2000Image
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаJpeg2000Imageaspose.imaging.fileformats.jpeg2000/jpeg2000image.
+description: Инициализирует новый экземплярJpeg2000Imageaspose.imaging.fileformats.jpeg2000/jpeg2000image класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/jpeg2000image/
 ---
 ## Jpeg2000Image(string) {#constructor_7}
 
-Инициализирует новый экземпляр класса[`Jpeg2000Image`](../../jpeg2000image).
+Инициализирует новый экземпляр[`Jpeg2000Image`](../../jpeg2000image) класс.
 
 ```csharp
 public Jpeg2000Image(string path)
@@ -27,10 +27,10 @@ public Jpeg2000Image(string path)
 
 string dir = "c:\\temp\\";
 
- // Загрузить изображение JPEG2000.
+// Загрузите изображение JPEG2000.
 using (Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image jpeg2000Image = new Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image(dir + "sample.jp2"))
 {
-     // Сохранить в PNG
+    // Сохранить в PNG
     jpeg2000Image.Save(dir + "sample.output.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```
@@ -45,7 +45,7 @@ using (Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image jpeg2000Image = new Asp
 
 ## Jpeg2000Image(string, int) {#constructor_8}
 
-Инициализирует новый экземпляр класса[`Jpeg2000Image`](../../jpeg2000image).
+Инициализирует новый экземпляр[`Jpeg2000Image`](../../jpeg2000image) класс.
 
 ```csharp
 public Jpeg2000Image(string path, int bitsPerPixel)
@@ -54,7 +54,7 @@ public Jpeg2000Image(string path, int bitsPerPixel)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | path | String | Путь для загрузки изображения и инициализации данных пикселей и палитры с помощью |
-| bitsPerPixel | Int32 | Количество бит на пиксель. |
+| bitsPerPixel | Int32 | Бит на пиксель. |
 
 ### Смотрите также
 
@@ -66,7 +66,7 @@ public Jpeg2000Image(string path, int bitsPerPixel)
 
 ## Jpeg2000Image(Stream) {#constructor_5}
 
-Инициализирует новый экземпляр класса[`Jpeg2000Image`](../../jpeg2000image).
+Инициализирует новый экземпляр[`Jpeg2000Image`](../../jpeg2000image) класс.
 
 ```csharp
 public Jpeg2000Image(Stream stream)
@@ -85,11 +85,11 @@ public Jpeg2000Image(Stream stream)
 
 string dir = "c:\\temp\\";
 
- // Загрузить изображение JPEG2000 из потока.
+// Загрузить изображение JPEG2000 из потока.
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.jp2"))
 using (Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image jpeg2000Image = new Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image(stream))
 {
-     // Сохранить в PNG
+    // Сохранить в PNG
     jpeg2000Image.Save(dir + "sample.output.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```
@@ -104,7 +104,7 @@ using (Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image jpeg2000Image = new Asp
 
 ## Jpeg2000Image(Stream, int) {#constructor_6}
 
-Инициализирует новый экземпляр класса[`Jpeg2000Image`](../../jpeg2000image).
+Инициализирует новый экземпляр[`Jpeg2000Image`](../../jpeg2000image) класс.
 
 ```csharp
 public Jpeg2000Image(Stream stream, int bitsPerPixel)
@@ -113,7 +113,7 @@ public Jpeg2000Image(Stream stream, int bitsPerPixel)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток для загрузки изображения и инициализации данных пикселей и палитры. |
-| bitsPerPixel | Int32 | Количество бит на пиксель. |
+| bitsPerPixel | Int32 | Бит на пиксель. |
 
 ### Смотрите также
 
@@ -125,7 +125,7 @@ public Jpeg2000Image(Stream stream, int bitsPerPixel)
 
 ## Jpeg2000Image(int, int) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`Jpeg2000Image`](../../jpeg2000image).
+Инициализирует новый экземпляр[`Jpeg2000Image`](../../jpeg2000image) класс.
 
 ```csharp
 public Jpeg2000Image(int width, int height)
@@ -145,16 +145,16 @@ public Jpeg2000Image(int width, int height)
 
 string dir = "c:\\temp\\";
 
- // Создаем изображение JPEG2000 размером 100x100 px.
+// Создаем изображение JPEG2000 размером 100x100 пикселей.
 using (Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image jpeg2000Image = new Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image(100, 100))
 {
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(jpeg2000Image);
 
-     // Заливаем все изображение красным.
+    // Заливаем все изображение красным.
     Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
     graphics.FillRectangle(brush, jpeg2000Image.Bounds);
 
-     // Сохраняем в файл
+    // Сохраняем в файл
     jpeg2000Image.Save(dir + "sample.output.jp2", new Aspose.Imaging.ImageOptions.Jpeg2000Options());
 }
 ```
@@ -169,7 +169,7 @@ using (Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image jpeg2000Image = new Asp
 
 ## Jpeg2000Image(int, int, Jpeg2000Options) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`Jpeg2000Image`](../../jpeg2000image).
+Инициализирует новый экземпляр[`Jpeg2000Image`](../../jpeg2000image) класс.
 
 ```csharp
 public Jpeg2000Image(int width, int height, Jpeg2000Options options)
@@ -179,7 +179,7 @@ public Jpeg2000Image(int width, int height, Jpeg2000Options options)
 | --- | --- | --- |
 | width | Int32 | Ширина изображения |
 | height | Int32 | Высота изображения |
-| options | Jpeg2000Options | Опции. |
+| options | Jpeg2000Options | Варианты. |
 
 ### Примеры
 
@@ -190,26 +190,26 @@ public Jpeg2000Image(int width, int height, Jpeg2000Options options)
 
 string dir = "c:\\temp\\";
 
-Aspose.Imaging.ImageOptions.Jpeg2000Options createOptions = new Aspose.Imaging.ImageOptions.Jpeg2000Options();
-
- // Использовать необратимое дискретное вейвлет-преобразование 9-7
-createOptions.Irreversible = true;
-
- // JP2 — это «контейнерный» формат для кодовых потоков JPEG 2000.
- // J2K — это необработанные сжатые данные без оболочки.
-createOptions.Codec = Imaging.FileFormats.Jpeg2000.Jpeg2000Codec.J2K;
-
- // Создаем изображение JPEG2000 размером 100x100 px.
-using (Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image jpeg2000Image = new Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image(100, 100, createOptions))
+// Создаем PNG-изображение размером 100x100 пикселей.
+using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.FileFormats.Png.PngImage(100, 100))
 {
-    Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(jpeg2000Image);
+    Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(pngImage);
 
-     // Заливаем все изображение красным.
+    // Заливаем все изображение красным.
     Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
-    graphics.FillRectangle(brush, jpeg2000Image.Bounds);
+    graphics.FillRectangle(brush, pngImage.Bounds);
 
-     // Сохраняем в файл
-    jpeg2000Image.Save(dir + "sample.output.j2k");
+    Aspose.Imaging.ImageOptions.Jpeg2000Options saveOptions = new Aspose.Imaging.ImageOptions.Jpeg2000Options();
+
+    // Использовать необратимое дискретное вейвлет-преобразование 9-7
+    saveOptions.Irreversible = true;
+
+    // JP2 — это «контейнерный» формат для кодовых потоков JPEG 2000.
+    // J2K — это необработанные сжатые данные без оболочки.
+    saveOptions.Codec = Imaging.FileFormats.Jpeg2000.Jpeg2000Codec.J2K;
+
+    // Сохраняем в файл
+    pngImage.Save(dir + "output.j2k", saveOptions);
 }
 ```
 
@@ -222,23 +222,23 @@ string dir = "c:\\temp\\";
 
 Aspose.Imaging.ImageOptions.Jpeg2000Options createOptions = new Aspose.Imaging.ImageOptions.Jpeg2000Options();
 
- // Использовать необратимое дискретное вейвлет-преобразование 9-7
+// Использовать необратимое дискретное вейвлет-преобразование 9-7
 createOptions.Irreversible = true;
 
- // JP2 — это «контейнерный» формат для кодовых потоков JPEG 2000.
- // J2K — это необработанные сжатые данные без оболочки.
+// JP2 — это «контейнерный» формат для кодовых потоков JPEG 2000.
+// J2K — это необработанные сжатые данные без оболочки.
 createOptions.Codec = Imaging.FileFormats.Jpeg2000.Jpeg2000Codec.J2K;
 
- // Создаем изображение JPEG2000 размером 100x100 px.
+// Создаем изображение JPEG2000 размером 100x100 пикселей.
 using (Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image jpeg2000Image = new Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image(100, 100, createOptions))
 {
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(jpeg2000Image);
 
-     // Заливаем все изображение красным.
+    // Заливаем все изображение красным.
     Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
     graphics.FillRectangle(brush, jpeg2000Image.Bounds);
 
-     // Сохраняем в файл
+    // Сохраняем в файл
     jpeg2000Image.Save(dir + "sample.output.j2k");
 }
 ```
@@ -254,7 +254,7 @@ using (Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image jpeg2000Image = new Asp
 
 ## Jpeg2000Image(int, int, int) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`Jpeg2000Image`](../../jpeg2000image).
+Инициализирует новый экземпляр[`Jpeg2000Image`](../../jpeg2000image) класс.
 
 ```csharp
 public Jpeg2000Image(int width, int height, int bitsCount)
@@ -264,7 +264,7 @@ public Jpeg2000Image(int width, int height, int bitsCount)
 | --- | --- | --- |
 | width | Int32 | Ширина изображения |
 | height | Int32 | Высота изображения |
-| bitsCount | Int32 | Количество битов. |
+| bitsCount | Int32 | Биты считаются. |
 
 ### Смотрите также
 
@@ -276,7 +276,7 @@ public Jpeg2000Image(int width, int height, int bitsCount)
 
 ## Jpeg2000Image(RasterImage) {#constructor}
 
-Инициализирует новый экземпляр класса[`Jpeg2000Image`](../../jpeg2000image).
+Инициализирует новый экземпляр[`Jpeg2000Image`](../../jpeg2000image) класс.
 
 ```csharp
 public Jpeg2000Image(RasterImage image)
@@ -295,19 +295,19 @@ public Jpeg2000Image(RasterImage image)
 
 string dir = "c:\\temp\\";
 
- // Создаем изображение PNG размером 100x100 px.
+// Создаем PNG-изображение размером 100x100 пикселей.
 using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.FileFormats.Png.PngImage(100, 100))
 {
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(pngImage);
 
-     // Заливаем все изображение красным.
+    // Заливаем все изображение красным.
     Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
     graphics.FillRectangle(brush, pngImage.Bounds);
 
-     // Создаем изображение JPEG2000 на основе изображения PNG.
+    // Создаем изображение JPEG2000 на основе изображения PNG.
     using (Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image jpeg2000Image = new Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image(pngImage))
     {
-         // Сохраняем в файл
+        // Сохраняем в файл
         jpeg2000Image.Save(dir + "output.jp2", new Aspose.Imaging.ImageOptions.Jpeg2000Options());
     }
 }
@@ -324,7 +324,7 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
 ## Jpeg2000Image(RasterImage, int) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`Jpeg2000Image`](../../jpeg2000image).
+Инициализирует новый экземпляр[`Jpeg2000Image`](../../jpeg2000image) класс.
 
 ```csharp
 public Jpeg2000Image(RasterImage rasterImage, int bitsPerPixel)
@@ -333,7 +333,7 @@ public Jpeg2000Image(RasterImage rasterImage, int bitsPerPixel)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | rasterImage | RasterImage | Изображение для инициализации данных пикселей и палитры. |
-| bitsPerPixel | Int32 | Количество бит на пиксель. |
+| bitsPerPixel | Int32 | Бит на пиксель. |
 
 ### Смотрите также
 

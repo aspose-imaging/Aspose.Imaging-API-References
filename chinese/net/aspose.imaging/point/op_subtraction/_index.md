@@ -1,14 +1,14 @@
 ---
 title: op_Subtraction
 second_title: Aspose.Imaging for .NET API 参考
-description: 将Pointaspose.imaging/point转换为给定Size的负数
+description: 翻译一个Pointaspose.imaging/point通过给定的否定Sizeaspose.imaging/size .
 type: docs
 weight: 200
 url: /zh/net/aspose.imaging/point/op_subtraction/
 ---
 ## Point Subtraction operator
 
-将[`Point`](../../point)转换为给定Size的负数。
+翻译一个[`Point`](../../point)通过给定的否定[`Size`](../../size) .
 
 ```csharp
 public static Point operator -(Point point, Size size)
@@ -16,12 +16,12 @@ public static Point operator -(Point point, Size size)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| point | Point | [`Point`](../../point)进行翻译。 |
-| size | Size | A[`Size`](../../size)指定要从:::R9 的坐标中减去的数字对:观点:::。 |
+| point | Point | 这[`Point`](../../point)翻译。 |
+| size | Size | 一个[`Size`](../../size)指定要从坐标中减去的数字对*point*. |
 
 ### 返回值
 
-A[`Point`](../../point)结构，由给定Size结构。
+一个[`Point`](../../point)由给定的否定翻译的结构[`Size`](../../size)结构体。
 
 ### 也可以看看
 

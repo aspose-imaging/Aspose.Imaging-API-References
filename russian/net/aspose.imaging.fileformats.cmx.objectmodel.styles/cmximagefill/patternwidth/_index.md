@@ -1,14 +1,14 @@
 ---
 title: PatternWidth
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает ширину узора. Использует общую единицу измерения расстояния документа в случае еслиIsRelativeaspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/isrelativeis false  в противном случае имеет размер доли ширины пикселя изображения.
+description: Получает или задает ширину шаблона. Использует общепринятую единицу измерения расстояния документа в случае еслиIsRelativeaspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/isrelative являетсяЛОЖЬ  в противном случае имеет размер доли ширины пикселя изображения.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/patternwidth/
 ---
 ## CmxImageFill.PatternWidth property
 
-Получает или задает ширину узора. Использует общую единицу измерения расстояния документа в случае, если[`IsRelative`](../isrelative)is` false` , в противном случае имеет размер доли ширины пикселя изображения.
+Получает или задает ширину шаблона. Использует общепринятую единицу измерения расстояния документа в случае, если[`IsRelative`](../isrelative) является`ЛОЖЬ` , в противном случае имеет размер доли ширины пикселя изображения.
 
 ```csharp
 public float PatternWidth { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: GetGrayscaleAlpha
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取每个样本具有指定位数的 GrayscaleAlpha 颜色
+description: 获取每个样本指定位数的 GrayscaleAlpha 颜色
 type: docs
 weight: 230
 url: /zh/net/aspose.imaging/pixeldataformat/getgrayscalealpha/
 ---
 ## GetGrayscaleAlpha(int) {#getgrayscalealpha}
 
-获取每个样本具有指定位数的 GrayscaleAlpha 颜色。
+获取每个样本指定位数的 GrayscaleAlpha 颜色。
 
 ```csharp
 public static PixelDataFormat GetGrayscaleAlpha(int bitsPerSample)
@@ -32,7 +32,7 @@ GrayscaleAlpha 颜色。
 
 ## GetGrayscaleAlpha(int, int) {#getgrayscalealpha_1}
 
-获取每个样本具有指定位数的 GrayscaleAlpha 颜色。
+获取每个样本指定位数的 GrayscaleAlpha 颜色。
 
 ```csharp
 public static PixelDataFormat GetGrayscaleAlpha(int bitsPerSample, int alphaChannelBits)
@@ -41,7 +41,7 @@ public static PixelDataFormat GetGrayscaleAlpha(int bitsPerSample, int alphaChan
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | bitsPerSample | Int32 | 每个样本的位数。 |
-| alphaChannelBits | Int32 | alpha 通道中每个样本的位数。 |
+| alphaChannelBits | Int32 | Alpha 通道中每个样本的位数。 |
 
 ### 返回值
 

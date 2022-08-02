@@ -1,14 +1,14 @@
 ---
 title: PatternHeight
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает высоту шаблона. Использует общую единицу измерения расстояния документа в случае еслиIsRelativeaspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/isrelativeis false  в противном случае имеет размер доли высоты пикселя изображения.
+description: Получает или задает высоту шаблона. Использует общепринятую единицу измерения расстояния документа в случае еслиIsRelativeaspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/isrelative являетсяЛОЖЬ  в противном случае имеет размер доли высоты пикселя изображения.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/patternheight/
 ---
 ## CmxImageFill.PatternHeight property
 
-Получает или задает высоту шаблона. Использует общую единицу измерения расстояния документа в случае, если[`IsRelative`](../isrelative)is` false` , в противном случае имеет размер доли высоты пикселя изображения.
+Получает или задает высоту шаблона. Использует общепринятую единицу измерения расстояния документа в случае, если[`IsRelative`](../isrelative) является`ЛОЖЬ` , в противном случае имеет размер доли высоты пикселя изображения.
 
 ```csharp
 public float PatternHeight { get; set; }

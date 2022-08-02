@@ -24,8 +24,8 @@ public class WmfPolygon : WmfObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [APoints](../../aspose.imaging.fileformats.wmf.objects/wmfpolygon/apoints) { get; set; } | 获取或设置点。 32 位 PointS 对象的 NumberOfPoints 数组（第 2.2.2.16 节），以逻辑单元表示。 |
-| [NumberOfPoint](../../aspose.imaging.fileformats.wmf.objects/wmfpolygon/numberofpoint) { get; set; } | 获取或设置点数。 的 16 位有符号整数定义数组中的点数。 |
+| [APoints](../../aspose.imaging.fileformats.wmf.objects/wmfpolygon/apoints) { get; set; } | 获取或设置点。 32 位 PointS 对象的 NumberOfPoints 数组（第 2.2.2.16 节），以逻辑单元为单位。 |
+| [NumberOfPoint](../../aspose.imaging.fileformats.wmf.objects/wmfpolygon/numberofpoint) { get; set; } | 获取或设置点数。一个 16 位有符号整数， 定义数组中的点数。 |
 
 ### 也可以看看
 

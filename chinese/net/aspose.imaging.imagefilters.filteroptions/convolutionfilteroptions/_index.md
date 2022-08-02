@@ -1,14 +1,14 @@
 ---
 title: ConvolutionFilterOptions
 second_title: Aspose.Imaging for .NET API 参考
-description: 卷积过滤器
+description: 卷积滤波器
 type: docs
 weight: 9740
 url: /zh/net/aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/
 ---
 ## ConvolutionFilterOptions class
 
-卷积过滤器。
+卷积滤波器。
 
 ```csharp
 public abstract class ConvolutionFilterOptions : FilterOptionsBase
@@ -18,7 +18,7 @@ public abstract class ConvolutionFilterOptions : FilterOptionsBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ConvolutionFilterOptions](convolutionfilteroptions)() | 初始化[`ConvolutionFilterOptions`](../convolutionfilteroptions)类的新实例。 |
+| [ConvolutionFilterOptions](convolutionfilteroptions)() | 初始化[`ConvolutionFilterOptions`](../convolutionfilteroptions)类. |
 
 ## 特性
 

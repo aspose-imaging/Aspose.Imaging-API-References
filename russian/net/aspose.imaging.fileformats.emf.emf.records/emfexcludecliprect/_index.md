@@ -1,14 +1,14 @@
 ---
 title: EmfExcludeClipRect
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_EXCLUDECLIPRECT определяет новую область отсечения состоящую из существующей области отсечения за вычетом указанного прямоугольника. Примечание Поля не описанные в этом разделе указаны в разделе 2.3.2.
+description: Запись EMR_EXCLUDECLIPRECT определяет новую область отсечения которая состоит из существующей области отсечения за вычетом указанного прямоугольника. Примечание. Поля не описанные в этом разделе указаны в разделе 2.3.2.
 type: docs
 weight: 3610
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfexcludecliprect/
 ---
 ## EmfExcludeClipRect class
 
-Запись EMR_EXCLUDECLIPRECT определяет новую область отсечения, состоящую из существующей области отсечения за вычетом указанного прямоугольника. Примечание Поля, не описанные в этом разделе, указаны в разделе 2.3.2.
+Запись EMR_EXCLUDECLIPRECT определяет новую область отсечения, которая состоит из существующей области отсечения за вычетом указанного прямоугольника. Примечание. Поля, не описанные в этом разделе, указаны в разделе 2.3.2.
 
 ```csharp
 public sealed class EmfExcludeClipRect : EmfClippingRecordType
@@ -18,15 +18,15 @@ public sealed class EmfExcludeClipRect : EmfClippingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfExcludeClipRect](emfexcludecliprect#constructor)() | Инициализирует новый экземпляр класса[`EmfExcludeClipRect`](../emfexcludecliprect). |
-| [EmfExcludeClipRect](emfexcludecliprect#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfExcludeClipRect`](../emfexcludecliprect). |
+| [EmfExcludeClipRect](emfexcludecliprect#constructor)() | Инициализирует новый экземпляр[`EmfExcludeClipRect`](../emfexcludecliprect) класс. |
+| [EmfExcludeClipRect](emfexcludecliprect#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfExcludeClipRect`](../emfexcludecliprect) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Clip](../../aspose.imaging.fileformats.emf.emf.records/emfexcludecliprect/clip) { get; set; } | Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который определяет прямоугольник отсечения в логических единицах. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Clip](../../aspose.imaging.fileformats.emf.emf.records/emfexcludecliprect/clip) { get; set; } | Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который определяет отсеченный прямоугольник в логических единицах. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

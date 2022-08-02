@@ -1,14 +1,14 @@
 ---
 title: WmfSetWindowOrg
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Организационный объект окна установки
+description: Установленный объект окна org
 type: docs
 weight: 9230
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfsetwindoworg/
 ---
 ## WmfSetWindowOrg class
 
-Организационный объект окна установки
+Установленный объект окна org
 
 ```csharp
 public class WmfSetWindowOrg : WmfPointObject
@@ -24,7 +24,7 @@ public class WmfSetWindowOrg : WmfPointObject
 
 | Имя | Описание |
 | --- | --- |
-| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или задает точку. |
+| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или устанавливает точку. |
 
 ### Смотрите также
 

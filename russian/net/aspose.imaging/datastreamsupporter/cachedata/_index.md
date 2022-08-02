@@ -1,14 +1,14 @@
 ---
 title: CacheData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Кэширует данные и гарантирует что дополнительная загрузка данных не будет выполняться из базовогоDataStreamContaineraspose.imaging/datastreamsupporter/datastreamcontainer.
+description: Кэширует данные и гарантирует что дополнительная загрузка данных не будет выполняться из базовогоDataStreamContaineraspose.imaging/datastreamsupporter/datastreamcontainer .
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging/datastreamsupporter/cachedata/
 ---
 ## DataStreamSupporter.CacheData method
 
-Кэширует данные и гарантирует, что дополнительная загрузка данных не будет выполняться из базового[`DataStreamContainer`](../datastreamcontainer).
+Кэширует данные и гарантирует, что дополнительная загрузка данных не будет выполняться из базового[`DataStreamContainer`](../datastreamcontainer) .
 
 ```csharp
 public abstract void CacheData()
@@ -23,16 +23,16 @@ public abstract void CacheData()
 
 string dir = "c:\\temp\\";
 
- // Загружаем изображение из файла PNG.
+// Загрузить изображение из файла PNG.
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
 {
-     // Кэшируем все пиксельные данные, чтобы не выполнялась дополнительная загрузка данных из базовых данных stream
+    // Кэшировать все пиксельные данные, чтобы не выполнялась дополнительная загрузка данных из базового потока данных
     image.CacheData();
 
     System.Diagnostics.Stopwatch stopwatch = new System.Diagnostics.Stopwatch();
     stopwatch.Start();
 
-     // Чтение всех пикселей выполняется довольно быстро.
+    // Чтение всех пикселей выполняется довольно быстро.
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
     for (int y = 0; y < image.Height; y++)
     {
@@ -46,13 +46,13 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
     System.Console.WriteLine("Reading all cached pixels took {0} ms.", stopwatch.ElapsedMilliseconds);
 }
 
- // Загружаем изображение из PNG file
+// Загружаем изображение из файла PNG
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
 {
     System.Diagnostics.Stopwatch stopwatch = new System.Diagnostics.Stopwatch();
     stopwatch.Start();
 
-     // Чтение всех пикселей происходит не так быстро, как при caching
+    // Чтение всех пикселей происходит не так быстро, как при кэшировании
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
     for (int y = 0; y < image.Height; y++)
     {
@@ -66,8 +66,8 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
     System.Console.WriteLine("Reading all pixels without preliminary caching took {0} ms.", stopwatch.ElapsedMilliseconds);
 }
 
-// Вывод может выглядеть так: 
- // Чтение всех кэшированных пикселей заняло 1500 мс.
+// Вывод может выглядеть так:
+// Чтение всех кешированных пикселей заняло 1500 мс.
 // Чтение всех пикселей без предварительного кеширования заняло 150000 мс.
 ```
 

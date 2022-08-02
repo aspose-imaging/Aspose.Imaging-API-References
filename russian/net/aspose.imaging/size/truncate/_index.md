@@ -1,14 +1,14 @@
 ---
 title: Truncate
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Преобразует указанную структуруSizeFaspose.imaging/sizefв структуруSizeaspose.imaging/sizeусекая значения структурыSizeFaspose.imaging/sizefдо следующих меньших целых значений.
+description: Преобразует указанныйSizeFaspose.imaging/sizef структура кSizeaspose.imaging/size структуру путем усечения значенийSizeFaspose.imaging/sizef структура до следующего меньшего целочисленного значения.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging/size/truncate/
 ---
 ## Size.Truncate method
 
-Преобразует указанную структуру[`SizeF`](../../sizef)в структуру[`Size`](../../size)усекая значения структуры[`SizeF`](../../sizef)до следующих меньших целых значений.
+Преобразует указанный[`SizeF`](../../sizef) структура к[`Size`](../../size) структуру путем усечения значений[`SizeF`](../../sizef) структура до следующего меньшего целочисленного значения.
 
 ```csharp
 public static Size Truncate(SizeF size)
@@ -16,11 +16,11 @@ public static Size Truncate(SizeF size)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| size | SizeF | Преобразуемая структура[`SizeF`](../../sizef). |
+| size | SizeF | [`SizeF`](../../sizef) структура для преобразования. |
 
 ### Возвращаемое значение
 
-Структура[`Size`](../../size), в которую преобразуется этот метод.
+[`Size`](../../size) структура, в которую преобразуется этот метод.
 
 ### Смотрите также
 

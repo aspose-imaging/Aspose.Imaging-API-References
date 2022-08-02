@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает данные.
+description: Получает или устанавливает данные.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odpath/data/
 ---
 ## OdPath.Data property
 
-Получает или задает данные.
+Получает или устанавливает данные.
 
 ```csharp
 public string Data { get; set; }

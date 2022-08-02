@@ -20,7 +20,7 @@ public short ReadSShort(long position)
 
 ### 返回值
 
-有符号短值。
+一个有符号的短值。
 
 ### 也可以看看
 

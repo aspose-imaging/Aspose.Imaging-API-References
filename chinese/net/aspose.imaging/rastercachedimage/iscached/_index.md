@@ -16,7 +16,7 @@ public override bool IsCached { get; }
 
 ### 适当的价值
 
-` true` 如果图像数据被缓存；否则，` false` 。
+`真的`如果图像数据被缓存；否则，`错误的` .
 
 ### 也可以看看
 

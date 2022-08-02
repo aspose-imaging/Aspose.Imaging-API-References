@@ -3,7 +3,7 @@ title: ObjectWithBounds
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Объект с границами.
 type: docs
-weight: 10640
+weight: 10630
 url: /ru/net/aspose.imaging/objectwithbounds/
 ---
 ## ObjectWithBounds class

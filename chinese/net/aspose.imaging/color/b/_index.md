@@ -1,14 +1,14 @@
 ---
 title: B
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取此Coloraspose.imaging/color结构的蓝色分量值
+description: 获取这个的蓝色分量值Coloraspose.imaging/color结构.
 type: docs
 weight: 1470
 url: /zh/net/aspose.imaging/color/b/
 ---
 ## Color.B property
 
-获取此[`Color`](../../color)结构的蓝色分量值。
+获取这个的蓝色分量值[`Color`](../../color)结构.
 
 ```csharp
 public byte B { get; }
@@ -16,7 +16,7 @@ public byte B { get; }
 
 ### 适当的价值
 
-这个[`Color`](../../color)的蓝色分量值。
+这个的蓝色分量值[`Color`](../../color).
 
 ### 也可以看看
 

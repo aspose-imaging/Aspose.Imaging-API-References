@@ -1,14 +1,14 @@
 ---
 title: NewColor
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает новую структуруColoraspose.imaging/color в которую необходимо преобразовать.
+description: Получает или задает новыйColoraspose.imaging/color структура в которую нужно преобразовать.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging/colormap/newcolor/
 ---
 ## ColorMap.NewColor property
 
-Получает или задает новую структуру[`Color`](../../color), в которую необходимо преобразовать.
+Получает или задает новый[`Color`](../../color) структура, в которую нужно преобразовать.
 
 ```csharp
 public Color NewColor { get; set; }
@@ -16,7 +16,7 @@ public Color NewColor { get; set; }
 
 ### Стоимость имущества
 
-Новая структура[`Color`](../../color)для преобразования.
+Новый[`Color`](../../color) структура, в которую нужно преобразовать.
 
 ### Смотрите также
 

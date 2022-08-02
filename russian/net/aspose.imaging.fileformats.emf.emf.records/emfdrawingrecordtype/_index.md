@@ -1,14 +1,14 @@
 ---
 title: EmfDrawingRecordType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Типы записей чертежа выполняют рисование графики.
+description: Типы записей чертежей выполняют графическое рисование.
 type: docs
 weight: 3560
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfdrawingrecordtype/
 ---
 ## EmfDrawingRecordType class
 
-Типы записей чертежа выполняют рисование графики.
+Типы записей чертежей выполняют графическое рисование.
 
 ```csharp
 public abstract class EmfDrawingRecordType : EmfRecord
@@ -18,7 +18,7 @@ public abstract class EmfDrawingRecordType : EmfRecord
 
 | Имя | Описание |
 | --- | --- |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

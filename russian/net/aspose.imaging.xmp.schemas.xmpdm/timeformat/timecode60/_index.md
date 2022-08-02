@@ -1,14 +1,14 @@
 ---
 title: Timecode60
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает таймкод60.
+description: Получает временной код60.
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging.xmp.schemas.xmpdm/timeformat/timecode60/
 ---
 ## TimeFormat.Timecode60 property
 
-Получает таймкод60.
+Получает временной код60.
 
 ```csharp
 public static TimeFormat Timecode60 { get; }

@@ -1,14 +1,14 @@
 ---
 title: CompositingQuality
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Указывает уровень качества для использования во время компоновки.
+description: Указывает уровень качества для использования во время композитинга.
 type: docs
 weight: 430
 url: /ru/net/aspose.imaging/compositingquality/
 ---
 ## CompositingQuality enumeration
 
-Указывает уровень качества для использования во время компоновки.
+Указывает уровень качества для использования во время композитинга.
 
 ```csharp
 public enum CompositingQuality
@@ -23,7 +23,7 @@ public enum CompositingQuality
 | HighSpeed | `1` | Высокая скорость, низкое качество. |
 | HighQuality | `2` | Высококачественный низкоскоростной композитинг. |
 | GammaCorrected | `3` | Используется гамма-коррекция. |
-| AssumeLinear | `4` | Допустим линейные значения. |
+| AssumeLinear | `4` | Принять линейные значения. |
 
 ### Смотрите также
 

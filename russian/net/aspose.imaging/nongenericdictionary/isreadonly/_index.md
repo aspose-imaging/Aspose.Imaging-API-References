@@ -1,14 +1,14 @@
 ---
 title: IsReadOnly
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее доступен ли объект IDictionaryтолько для чтения.
+description: Получает значение указывающее является ли IDictionary объект доступен только для чтения.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging/nongenericdictionary/isreadonly/
 ---
 ## NonGenericDictionary.IsReadOnly property
 
-Получает значение, указывающее, доступен ли объект IDictionaryтолько для чтения.
+Получает значение, указывающее, является ли IDictionary объект доступен только для чтения.
 
 ```csharp
 public bool IsReadOnly { get; }
@@ -16,7 +16,7 @@ public bool IsReadOnly { get; }
 
 ### Возвращаемое значение
 
-true, если объектIDictionaryдоступен только для чтения; в противном случае ложно.
+верно, еслиIDictionary объект доступен только для чтения; в противном случае ложно.
 
 ### Смотрите также
 

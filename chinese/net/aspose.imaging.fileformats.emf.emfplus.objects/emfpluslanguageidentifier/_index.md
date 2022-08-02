@@ -1,14 +1,14 @@
 ---
 title: EmfPlusLanguageIdentifier
 second_title: Aspose.Imaging for .NET API 参考
-description: EmfPlusLanguageIdentifier 对象指定一个语言标识符该标识符对应于语言环境中的自然 语言包括国家地理区域和行政区 每个语言标识符都是主要语言值和子语言值的编码
+description: EmfPlusLanguageIdentifier 对象指定一个语言标识符该标识符对应于语言环境中的 natural 语言包括国家地理区域和行政区 每个语言标识符都是主要语言值和子语言值的编码
 type: docs
 weight: 5530
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslanguageidentifier/
 ---
 ## EmfPlusLanguageIdentifier class
 
-EmfPlusLanguageIdentifier 对象指定一个语言标识符，该标识符对应于语言环境中的自然 语言，包括国家、地理区域和行政区。 每个语言标识符都是主要语言值和子语言值的编码。
+EmfPlusLanguageIdentifier 对象指定一个语言标识符，该标识符对应于语言环境中的 natural 语言，包括国家、地理区域和行政区。 每个语言标识符都是主要语言值和子语言值的编码。
 
 ```csharp
 public sealed class EmfPlusLanguageIdentifier : EmfPlusStructureObjectType
@@ -24,7 +24,7 @@ public sealed class EmfPlusLanguageIdentifier : EmfPlusStructureObjectType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Value](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslanguageidentifier/value) { get; set; } | 获取或设置字段 0 1 2 3 4 5 6 7 8 9 1 0 1 2 3 4 5 6 7 8 9 2 0 1 2 3 4 5 6 7 8 9 3 0 1 SubLanguageId&#x7C;主要语言 ID &#x7C; SubLanguageId（6 位）:PrimaryLanguageId 字段中指定的自然语言的国家、地理区域或行政区。 子语言标识符是供应商可扩展的。供应商定义的子语言标识符必须在 0x20 到 0x3F 的范围内，包括 0x20 到 0x3F。 PrimaryLanguageId（10 位）:自然语言。 主要语言标识符是供应商可扩展的。供应商定义的主要语言标识符必须在 0x0200 到 0x03FF 的范围内，包括 0x0200 到 0x03FF。 |
+| [Value](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslanguageidentifier/value) { get; set; } | 获取或设置字段的值 0 1 2 3 4 5 6 7 8 9 1 0 1 2 3 4 5 6 7 8 9 2 0 1 2 3 4 5 6 7 8 9 3 0 1 SubLanguageId&#x7C;主要语言 ID &#x7C; SubLanguageId（6 位）：在 PrimaryLanguageId 字段中指定的自然语言的国家、地理区域或行政区。 子语言标识符是供应商可扩展的。供应商定义的子语言标识符必须在 0x20 到 0x3F 的范围内，包括在内。 PrimaryLanguageId（10 位）：自然语言。 主要语言标识符是供应商可扩展的。供应商定义的主要语言标识符必须在 0x0200 到 0x03FF 的范围内，包括在内。 |
 
 ### 也可以看看
 

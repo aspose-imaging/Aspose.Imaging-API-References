@@ -1,14 +1,14 @@
 ---
 title: EmfDeleteObject
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_DELETEOBJECT удаляет графический объект указанный своим индексом в таблице объектов EMF раздел 3.1.1.1.
+description: Запись EMR_DELETEOBJECT удаляет графический объект указанный его индексом в таблице объектов EMF раздел 3.1.1.1.
 type: docs
 weight: 3540
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfdeleteobject/
 ---
 ## EmfDeleteObject class
 
-Запись EMR_DELETEOBJECT удаляет графический объект, указанный своим индексом в таблице объектов EMF (раздел 3.1.1.1).
+Запись EMR_DELETEOBJECT удаляет графический объект, указанный его индексом в таблице объектов EMF (раздел 3.1.1.1).
 
 ```csharp
 public sealed class EmfDeleteObject : EmfRecord
@@ -18,15 +18,15 @@ public sealed class EmfDeleteObject : EmfRecord
 
 | Имя | Описание |
 | --- | --- |
-| [EmfDeleteObject](emfdeleteobject#constructor)() | Инициализирует новый экземпляр класса[`EmfDeleteObject`](../emfdeleteobject). |
-| [EmfDeleteObject](emfdeleteobject#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfDeleteObject`](../emfdeleteobject). |
+| [EmfDeleteObject](emfdeleteobject#constructor)() | Инициализирует новый экземпляр[`EmfDeleteObject`](../emfdeleteobject) класс. |
+| [EmfDeleteObject](emfdeleteobject#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfDeleteObject`](../emfdeleteobject) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [ObjectHandle](../../aspose.imaging.fileformats.emf.emf.records/emfdeleteobject/objecthandle) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее либо индекс графического объекта в таблице объектов EMF, либо индекс акции объект из перечисления StockObject. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [ObjectHandle](../../aspose.imaging.fileformats.emf.emf.records/emfdeleteobject/objecthandle) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее либо индекс графического объекта в таблице объектов EMF, либо индекс биржевого объекта из перечисления StockObject. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

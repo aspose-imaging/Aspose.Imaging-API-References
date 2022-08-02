@@ -1,14 +1,14 @@
 ---
 title: ToGdiPen
 second_title: Aspose.Imaging for .NET API 参考
-description: 将Penaspose.imaging/pen转换为Pen
+description: 转换Penaspose.imaging/pen到Pen .
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.extensions/penextensions/togdipen/
 ---
 ## PenExtensions.ToGdiPen method
 
-将[`Pen`](../../../aspose.imaging/pen)转换为Pen。
+转换[`Pen`](../../../aspose.imaging/pen)到Pen .
 
 ```csharp
 public static Pen ToGdiPen(Pen pen)
@@ -16,11 +16,11 @@ public static Pen ToGdiPen(Pen pen)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../../aspose.imaging/pen)进行转换。 |
+| pen | Pen | 这[`Pen`](../../../aspose.imaging/pen)转换。 |
 
 ### 返回值
 
-转换后的Pen。
+转换的Pen.
 
 ### 也可以看看
 

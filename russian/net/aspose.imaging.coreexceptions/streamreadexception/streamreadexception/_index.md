@@ -1,14 +1,14 @@
 ---
 title: StreamReadException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаStreamReadExceptionaspose.imaging.coreexceptions/streamreadexception.
+description: Инициализирует новый экземплярStreamReadExceptionaspose.imaging.coreexceptions/streamreadexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions/streamreadexception/streamreadexception/
 ---
 ## StreamReadException(string) {#constructor}
 
-Инициализирует новый экземпляр класса[`StreamReadException`](../../streamreadexception).
+Инициализирует новый экземпляр[`StreamReadException`](../../streamreadexception) класс.
 
 ```csharp
 public StreamReadException(string message)
@@ -28,7 +28,7 @@ public StreamReadException(string message)
 
 ## StreamReadException(string, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`StreamReadException`](../../streamreadexception).
+Инициализирует новый экземпляр[`StreamReadException`](../../streamreadexception) класс.
 
 ```csharp
 public StreamReadException(string message, Exception innerException)
@@ -49,7 +49,7 @@ public StreamReadException(string message, Exception innerException)
 
 ## StreamReadException(string, Exception, int, int) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`StreamReadException`](../../streamreadexception).
+Инициализирует новый экземпляр[`StreamReadException`](../../streamreadexception) класс.
 
 ```csharp
 public StreamReadException(string message, Exception innerException, int expectedReadCount, 
@@ -60,8 +60,8 @@ public StreamReadException(string message, Exception innerException, int expecte
 | --- | --- | --- |
 | message | String | Сообщение. |
 | innerException | Exception | Внутреннее исключение. |
-| expectedReadCount | Int32 | Ожидаемое количество чтений. |
-| actualReadCount | Int32 | Фактический счетчик чтения. |
+| expectedReadCount | Int32 | Ожидаемое количество прочтений. |
+| actualReadCount | Int32 | Фактическое количество прочтений. |
 
 ### Смотрите также
 
@@ -73,7 +73,7 @@ public StreamReadException(string message, Exception innerException, int expecte
 
 ## StreamReadException(string, int, int) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`StreamReadException`](../../streamreadexception).
+Инициализирует новый экземпляр[`StreamReadException`](../../streamreadexception) класс.
 
 ```csharp
 public StreamReadException(string message, int expectedReadCount, int actualReadCount)
@@ -82,8 +82,8 @@ public StreamReadException(string message, int expectedReadCount, int actualRead
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Сообщение. |
-| expectedReadCount | Int32 | Ожидаемое количество чтений. |
-| actualReadCount | Int32 | Фактический счетчик чтения. |
+| expectedReadCount | Int32 | Ожидаемое количество прочтений. |
+| actualReadCount | Int32 | Фактическое количество прочтений. |
 
 ### Смотрите также
 

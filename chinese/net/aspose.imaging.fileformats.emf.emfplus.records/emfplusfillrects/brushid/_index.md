@@ -1,14 +1,14 @@
 ---
 title: BrushId
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置画笔标识 定义画笔的32位无符号整数其内容由中的S位决定标志字段
+description: 获取或设置画笔标识符 定义画笔的32位无符号整数其内容由Flags字段中的S位决定
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillrects/brushid/
 ---
 ## EmfPlusFillRects.BrushId property
 
-获取或设置画笔标识 定义画笔的32位无符号整数，其内容由中的S位决定标志字段。
+获取或设置画笔标识符 定义画笔的32位无符号整数，其内容由Flags字段中的S位决定。
 
 ```csharp
 public int BrushId { get; set; }

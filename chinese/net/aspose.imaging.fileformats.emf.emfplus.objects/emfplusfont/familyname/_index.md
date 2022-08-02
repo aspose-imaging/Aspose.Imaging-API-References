@@ -1,14 +1,14 @@
 ---
 title: FamilyName
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置包含 字体系列名称的 Length Unicode 字符的字符串
+description: 获取或设置包含 字体家族名称 的长度为Unicode 字符的字符串
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont/familyname/
 ---
 ## EmfPlusFont.FamilyName property
 
-获取或设置包含 字体系列名称的 Length Unicode 字符的字符串
+获取或设置包含 字体家族名称 的长度为Unicode 字符的字符串
 
 ```csharp
 public string FamilyName { get; set; }

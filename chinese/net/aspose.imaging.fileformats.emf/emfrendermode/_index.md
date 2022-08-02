@@ -20,8 +20,8 @@ public enum EmfRenderMode
 | --- | --- | --- |
 | Auto | `0` | 自动模式 |
 | EmfOnly | `1` | EMF only 模式，仅渲染 emf 记录 |
-| EmfPlusOnly | `2` | EMF plus only 模式，仅渲染 emf plus 记录 |
-| Dual | `3` | 双模式，渲染 emf 记录和 emf plus 记录 |
+| EmfPlusOnly | `2` | EMF plus only 模式，只渲染 emf plus records |
+| Dual | `3` | 双重模式，渲染 emf 记录和 emf plus 记录 |
 
 ### 也可以看看
 

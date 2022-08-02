@@ -1,14 +1,14 @@
 ---
 title: ApplyingAnEffect
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置是否应用效果的值 该位表示图像的渲染包括应用效果 如果设置则必须在较早的 EmfPlusSerializableObject 记录第 2.3.5.2 节中指定 Effect 类的对象
+description: 获取或设置一个值该值指示是否应用效果 该位指示图像的渲染包括应用效果 如果设置效果类的对象必须已在较早的 EmfPlusSerializableObject 记录部分2.3.5.2.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimagepoints/applyinganeffect/
 ---
 ## EmfPlusDrawImagePoints.ApplyingAnEffect property
 
-获取或设置是否[应用效果]的值。 该位表示图像的渲染包括应用效果。 如果设置，则必须在较早的 EmfPlusSerializableObject 记录（第 2.3.5.2 节）中指定 Effect 类的对象。
+获取或设置一个值，该值指示是否[应用效果]。 该位指示图像的渲染包括应用效果。 如果设置，效果类的对象必须已在较早的 EmfPlusSerializableObject 记录（部分2.3.5.2).
 
 ```csharp
 public bool ApplyingAnEffect { get; set; }
@@ -16,7 +16,7 @@ public bool ApplyingAnEffect { get; set; }
 
 ### 适当的价值
 
-` true` if [应用效果];否则，` false` 。
+`真的` if [应用效果]；否则，`错误的` .
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: IsValid
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取指示此实例是否有效的值
+description: 获取一个值指示此实例是否有效
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/isvalid/
 ---
 ## EmfPlusHeader.IsValid property
 
-获取指示此实例是否有效的值。
+获取一个值，指示此实例是否有效。
 
 ```csharp
 public bool IsValid { get; }
@@ -16,7 +16,7 @@ public bool IsValid { get; }
 
 ### 适当的价值
 
-` true` 如果此实例有效；否则，` false` 。
+`真的`如果此实例有效；否则，`错误的` .
 
 ### 也可以看看
 

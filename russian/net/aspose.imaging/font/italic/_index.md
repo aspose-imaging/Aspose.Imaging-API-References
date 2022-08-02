@@ -1,14 +1,14 @@
 ---
 title: Italic
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее является ли шрифтFontaspose.imaging/fontкурсивным.
+description: Получает значение указывающее является ли этоFontaspose.imaging/font выделено курсивом.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging/font/italic/
 ---
 ## Font.Italic property
 
-Получает значение, указывающее, является ли шрифт[`Font`](../../font)курсивным.
+Получает значение, указывающее, является ли это[`Font`](../../font) выделено курсивом.
 
 ```csharp
 public bool Italic { get; }
@@ -16,7 +16,7 @@ public bool Italic { get; }
 
 ### Стоимость имущества
 
-Истинно, если это[`Font`](../../font)курсив; в противном случае ложно.
+Правда, если это[`Font`](../../font) курсив; в противном случае ложно.
 
 ### Смотрите также
 

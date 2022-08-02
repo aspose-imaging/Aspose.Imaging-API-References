@@ -1,14 +1,14 @@
 ---
 title: Compressed
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее сжат ли этот файлEmfPlusFillRectsaspose.imaging.fileformats.emf.emfplus.records/emfplusfillrects. Если установлено RectData содержит объект EmfPlusRect раздел 2.2.2.38. Если флажок не установлен RectData содержит объект EmfPlusRectF раздел 2.2.2.39 object
+description: Получает или задает значение указывающее является ли этоEmfPlusFillRectsaspose.imaging.fileformats.emf.emfplus.records/emfplusfillrects сжато. Если установлено RectData содержит объект EmfPlusRect раздел 2.2.2.38. Если флажок не установлен RectData содержит объект EmfPlusRectF раздел 2.2.2.39 object
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillrects/compressed/
 ---
 ## EmfPlusFillRects.Compressed property
 
-Получает или задает значение, указывающее, сжат ли этот файл[`EmfPlusFillRects`](../../emfplusfillrects). Если установлено, RectData содержит объект EmfPlusRect (раздел 2.2.2.38). Если флажок не установлен, RectData содержит объект EmfPlusRectF (раздел 2.2.2.39) object
+Получает или задает значение, указывающее, является ли это[`EmfPlusFillRects`](../../emfplusfillrects) сжато. Если установлено, RectData содержит объект EmfPlusRect (раздел 2.2.2.38). Если флажок не установлен, RectData содержит объект EmfPlusRectF (раздел 2.2.2.39) object
 
 ```csharp
 public bool Compressed { get; set; }
@@ -16,7 +16,7 @@ public bool Compressed { get; set; }
 
 ### Стоимость имущества
 
-` true` если сжато; в противном случае` false` .
+`истинный` если сжато; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: RawData
 second_title: Aspose.Imaging for .NET API 参考
-description: DNG 格式的原始数据
+description: DNG格式的原始数据
 type: docs
 weight: 2500
 url: /zh/net/aspose.imaging.fileformats.dng.decoder/rawdata/
 ---
 ## RawData class
 
-DNG 格式的原始数据
+DNG格式的原始数据
 
 ```csharp
 public class RawData
@@ -18,7 +18,7 @@ public class RawData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImageDataParameters](../../aspose.imaging.fileformats.dng.decoder/rawdata/imagedataparameters) { get; set; } | 获取或设置图像数据参数。 |
+| [ImageDataParameters](../../aspose.imaging.fileformats.dng.decoder/rawdata/imagedataparameters) { get; set; } | 获取或设置图像数据参数 |
 | [ImageOtherParameters](../../aspose.imaging.fileformats.dng.decoder/rawdata/imageotherparameters) { get; set; } | 获取或设置其他图像参数。 |
 
 ### 也可以看看

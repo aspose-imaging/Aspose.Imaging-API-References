@@ -1,14 +1,14 @@
 ---
 title: IsOutlineVisible
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Указывает содержится ли указанная точка внутри под контура этогоGraphicsPathaspose.imaging/graphicspathпри рисовании с указаннымPenaspose.imaging/pen.
+description: Указывает содержится ли указанная точка внутри под контура этогоGraphicsPathaspose.imaging/graphicspath при рисовании с указаннымPenaspose.imaging/pen .
 type: docs
 weight: 110
 url: /ru/net/aspose.imaging/graphicspath/isoutlinevisible/
 ---
 ## IsOutlineVisible(float, float, Pen) {#isoutlinevisible_6}
 
-Указывает, содержится ли указанная точка внутри (под) контура этого[`GraphicsPath`](../../graphicspath)при рисовании с указанным[`Pen`](../../pen).
+Указывает, содержится ли указанная точка внутри (под) контура этого[`GraphicsPath`](../../graphicspath) при рисовании с указанным[`Pen`](../../pen) .
 
 ```csharp
 public bool IsOutlineVisible(float x, float y, Pen pen)
@@ -17,12 +17,12 @@ public bool IsOutlineVisible(float x, float y, Pen pen)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | x | Single | X-координата точки для проверки. |
-| y | Single | Y-координата проверяемой точки. |
-| pen | Pen | [`Pen`](../../pen)для тестирования. |
+| y | Single | Y-координата точки для проверки. |
+| pen | Pen | [`Pen`](../../pen) тестировать. |
 
 ### Возвращаемое значение
 
-Этот метод возвращает true, если указанная точка содержится в контуре этого[`GraphicsPath`](../../graphicspath)при рисовании указанным[`Pen`](../../pen); в противном случае ложно.
+Этот метод возвращает значение true, если указанная точка содержится в контуре этого[`GraphicsPath`](../../graphicspath) при рисовании с указанным[`Pen`](../../pen) ; в противном случае false.
 
 ### Смотрите также
 
@@ -35,7 +35,7 @@ public bool IsOutlineVisible(float x, float y, Pen pen)
 
 ## IsOutlineVisible(PointF, Pen) {#isoutlinevisible_2}
 
-Указывает, содержится ли указанная точка внутри (под) контура этого[`GraphicsPath`](../../graphicspath)при рисовании с указанным[`Pen`](../../pen).
+Указывает, содержится ли указанная точка внутри (под) контура этого[`GraphicsPath`](../../graphicspath) при рисовании с указанным[`Pen`](../../pen) .
 
 ```csharp
 public bool IsOutlineVisible(PointF point, Pen pen)
@@ -43,12 +43,12 @@ public bool IsOutlineVisible(PointF point, Pen pen)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | PointF | A[`PointF`](../../pointf)указывает местоположение для проверки. |
-| pen | Pen | [`Pen`](../../pen)для тестирования. |
+| point | PointF | А[`PointF`](../../pointf) который указывает местоположение для тестирования. |
+| pen | Pen | [`Pen`](../../pen) тестировать. |
 
 ### Возвращаемое значение
 
-Этот метод возвращает true, если указанная точка содержится в контуре этого[`GraphicsPath`](../../graphicspath)при рисовании указанным[`Pen`](../../pen); в противном случае ложно.
+Этот метод возвращает значение true, если указанная точка содержится в контуре этого[`GraphicsPath`](../../graphicspath) при рисовании с указанным[`Pen`](../../pen) ; в противном случае false.
 
 ### Смотрите также
 
@@ -62,7 +62,7 @@ public bool IsOutlineVisible(PointF point, Pen pen)
 
 ## IsOutlineVisible(float, float, Pen, Graphics) {#isoutlinevisible_7}
 
-Указывает, содержится ли указанная точка внутри (под) контура этого[`GraphicsPath`](../../graphicspath)при рисовании с указанным[`Pen`](../../pen)и используя указанный[`Graphics`](../../graphics).
+Указывает, содержится ли указанная точка внутри (под) контура этого[`GraphicsPath`](../../graphicspath) при рисовании с указанным[`Pen`](../../pen) и с помощью указанного[`Graphics`](../../graphics) .
 
 ```csharp
 public bool IsOutlineVisible(float x, float y, Pen pen, Graphics graphics)
@@ -71,13 +71,13 @@ public bool IsOutlineVisible(float x, float y, Pen pen, Graphics graphics)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | x | Single | X-координата точки для проверки. |
-| y | Single | Y-координата проверяемой точки. |
-| pen | Pen | [`Pen`](../../pen)для тестирования. |
-| graphics | Graphics | [`Graphics`](../../graphics)для которого нужно проверить видимость. |
+| y | Single | Y-координата точки для проверки. |
+| pen | Pen | [`Pen`](../../pen) тестировать. |
+| graphics | Graphics | [`Graphics`](../../graphics) для проверки видимости. |
 
 ### Возвращаемое значение
 
-Этот метод возвращает true, если указанная точка содержится внутри (под) контура этого[`GraphicsPath`](../../graphicspath)как нарисовано с указанным[`Pen`](../../pen); в противном случае ложно.
+Этот метод возвращает значение true, если указанная точка содержится внутри (под) контура этого[`GraphicsPath`](../../graphicspath) как нарисовано с указанным[`Pen`](../../pen) ; в противном случае false.
 
 ### Смотрите также
 
@@ -91,7 +91,7 @@ public bool IsOutlineVisible(float x, float y, Pen pen, Graphics graphics)
 
 ## IsOutlineVisible(PointF, Pen, Graphics) {#isoutlinevisible_3}
 
-Указывает, содержится ли указанная точка внутри (под) контура этого[`GraphicsPath`](../../graphicspath)при рисовании с указанным[`Pen`](../../pen)и используя указанный[`Graphics`](../../graphics).
+Указывает, содержится ли указанная точка внутри (под) контура этого[`GraphicsPath`](../../graphicspath) при рисовании с указанным[`Pen`](../../pen) и с помощью указанного[`Graphics`](../../graphics) .
 
 ```csharp
 public bool IsOutlineVisible(PointF pt, Pen pen, Graphics graphics)
@@ -99,13 +99,13 @@ public bool IsOutlineVisible(PointF pt, Pen pen, Graphics graphics)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pt | PointF | A[`PointF`](../../pointf)указывает местоположение для проверки. |
-| pen | Pen | [`Pen`](../../pen)для тестирования. |
-| graphics | Graphics | [`Graphics`](../../graphics)для которого нужно проверить видимость. |
+| pt | PointF | А[`PointF`](../../pointf) который указывает местоположение для тестирования. |
+| pen | Pen | [`Pen`](../../pen) тестировать. |
+| graphics | Graphics | [`Graphics`](../../graphics) для проверки видимости. |
 
 ### Возвращаемое значение
 
-Этот метод возвращает true, если указанная точка содержится внутри (под) контура этого[`GraphicsPath`](../../graphicspath)как нарисовано с указанным[`Pen`](../../pen); в противном случае ложно.
+Этот метод возвращает значение true, если указанная точка содержится внутри (под) контура этого[`GraphicsPath`](../../graphicspath) как нарисовано с указанным[`Pen`](../../pen) ; в противном случае false.
 
 ### Смотрите также
 
@@ -120,7 +120,7 @@ public bool IsOutlineVisible(PointF pt, Pen pen, Graphics graphics)
 
 ## IsOutlineVisible(int, int, Pen) {#isoutlinevisible_4}
 
-Указывает, содержится ли указанная точка внутри (под) контура этого[`GraphicsPath`](../../graphicspath)при рисовании с указанным[`Pen`](../../pen).
+Указывает, содержится ли указанная точка внутри (под) контура этого[`GraphicsPath`](../../graphicspath) при рисовании с указанным[`Pen`](../../pen) .
 
 ```csharp
 public bool IsOutlineVisible(int x, int y, Pen pen)
@@ -129,12 +129,12 @@ public bool IsOutlineVisible(int x, int y, Pen pen)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | x | Int32 | X-координата точки для проверки. |
-| y | Int32 | Y-координата проверяемой точки. |
-| pen | Pen | [`Pen`](../../pen)для тестирования. |
+| y | Int32 | Y-координата точки для проверки. |
+| pen | Pen | [`Pen`](../../pen) тестировать. |
 
 ### Возвращаемое значение
 
-Этот метод возвращает true, если указанная точка содержится в контуре этого[`GraphicsPath`](../../graphicspath)при рисовании указанным[`Pen`](../../pen); в противном случае ложно.
+Этот метод возвращает значение true, если указанная точка содержится в контуре этого[`GraphicsPath`](../../graphicspath) при рисовании с указанным[`Pen`](../../pen) ; в противном случае false.
 
 ### Смотрите также
 
@@ -147,7 +147,7 @@ public bool IsOutlineVisible(int x, int y, Pen pen)
 
 ## IsOutlineVisible(Point, Pen) {#isoutlinevisible}
 
-Указывает, содержится ли указанная точка внутри (под) контура этого[`GraphicsPath`](../../graphicspath)при рисовании с указанным[`Pen`](../../pen).
+Указывает, содержится ли указанная точка внутри (под) контура этого[`GraphicsPath`](../../graphicspath) при рисовании с указанным[`Pen`](../../pen) .
 
 ```csharp
 public bool IsOutlineVisible(Point point, Pen pen)
@@ -155,12 +155,12 @@ public bool IsOutlineVisible(Point point, Pen pen)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | Point | A[`Point`](../../point)указывает местоположение для проверки. |
-| pen | Pen | [`Pen`](../../pen)для тестирования. |
+| point | Point | А[`Point`](../../point) который указывает местоположение для тестирования. |
+| pen | Pen | [`Pen`](../../pen) тестировать. |
 
 ### Возвращаемое значение
 
-Этот метод возвращает true, если указанная точка содержится в контуре этого[`GraphicsPath`](../../graphicspath)при рисовании указанным[`Pen`](../../pen); в противном случае ложно.
+Этот метод возвращает значение true, если указанная точка содержится в контуре этого[`GraphicsPath`](../../graphicspath) при рисовании с указанным[`Pen`](../../pen) ; в противном случае false.
 
 ### Смотрите также
 
@@ -174,7 +174,7 @@ public bool IsOutlineVisible(Point point, Pen pen)
 
 ## IsOutlineVisible(int, int, Pen, Graphics) {#isoutlinevisible_5}
 
-Указывает, содержится ли указанная точка внутри (под) контура этого[`GraphicsPath`](../../graphicspath)при рисовании с указанным[`Pen`](../../pen)и используя указанный[`Graphics`](../../graphics).
+Указывает, содержится ли указанная точка внутри (под) контура этого[`GraphicsPath`](../../graphicspath) при рисовании с указанным[`Pen`](../../pen) и с помощью указанного[`Graphics`](../../graphics) .
 
 ```csharp
 public bool IsOutlineVisible(int x, int y, Pen pen, Graphics graphics)
@@ -183,13 +183,13 @@ public bool IsOutlineVisible(int x, int y, Pen pen, Graphics graphics)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | x | Int32 | X-координата точки для проверки. |
-| y | Int32 | Y-координата проверяемой точки. |
-| pen | Pen | [`Pen`](../../pen)для тестирования. |
-| graphics | Graphics | [`Graphics`](../../graphics)для которого нужно проверить видимость. |
+| y | Int32 | Y-координата точки для проверки. |
+| pen | Pen | [`Pen`](../../pen) тестировать. |
+| graphics | Graphics | [`Graphics`](../../graphics) для проверки видимости. |
 
 ### Возвращаемое значение
 
-Этот метод возвращает true, если указанная точка содержится в контуре этого[`GraphicsPath`](../../graphicspath)как нарисовано указанным[`Pen`](../../pen); в противном случае ложно.
+Этот метод возвращает значение true, если указанная точка содержится в контуре этого[`GraphicsPath`](../../graphicspath) как нарисовано с указанным[`Pen`](../../pen) ; в противном случае false.
 
 ### Смотрите также
 
@@ -203,7 +203,7 @@ public bool IsOutlineVisible(int x, int y, Pen pen, Graphics graphics)
 
 ## IsOutlineVisible(Point, Pen, Graphics) {#isoutlinevisible_1}
 
-Указывает, содержится ли указанная точка внутри (под) контура этого[`GraphicsPath`](../../graphicspath)при рисовании с указанным[`Pen`](../../pen)и используя указанный[`Graphics`](../../graphics).
+Указывает, содержится ли указанная точка внутри (под) контура этого[`GraphicsPath`](../../graphicspath) при рисовании с указанным[`Pen`](../../pen) и с помощью указанного[`Graphics`](../../graphics) .
 
 ```csharp
 public bool IsOutlineVisible(Point pt, Pen pen, Graphics graphics)
@@ -211,13 +211,13 @@ public bool IsOutlineVisible(Point pt, Pen pen, Graphics graphics)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pt | Point | A[`Point`](../../point)указывает местоположение для проверки. |
-| pen | Pen | [`Pen`](../../pen)для тестирования. |
-| graphics | Graphics | [`Graphics`](../../graphics)для которого нужно проверить видимость. |
+| pt | Point | А[`Point`](../../point) который указывает местоположение для тестирования. |
+| pen | Pen | [`Pen`](../../pen) тестировать. |
+| graphics | Graphics | [`Graphics`](../../graphics) для проверки видимости. |
 
 ### Возвращаемое значение
 
-Этот метод возвращает true, если указанная точка содержится в контуре этого[`GraphicsPath`](../../graphicspath)как нарисовано указанным[`Pen`](../../pen); в противном случае ложно.
+Этот метод возвращает значение true, если указанная точка содержится в контуре этого[`GraphicsPath`](../../graphicspath) как нарисовано с указанным[`Pen`](../../pen) ; в противном случае false.
 
 ### Смотрите также
 

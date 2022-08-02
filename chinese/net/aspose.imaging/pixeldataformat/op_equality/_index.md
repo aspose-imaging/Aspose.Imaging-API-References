@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: Aspose.Imaging for .NET API 参考
-description: 返回两个PixelDataFormataspose.imaging/pixeldataformat类的相等结果
+description: 返回两个相等的结果PixelDataFormataspose.imaging/pixeldataformat类.
 type: docs
 weight: 370
 url: /zh/net/aspose.imaging/pixeldataformat/op_equality/
 ---
 ## PixelDataFormat Equality operator
 
-返回两个[`PixelDataFormat`](../../pixeldataformat)类的相等结果。
+返回两个相等的结果[`PixelDataFormat`](../../pixeldataformat)类.
 
 ```csharp
 public static bool operator ==(PixelDataFormat pixelFormat1, PixelDataFormat pixelFormat2)
@@ -16,12 +16,12 @@ public static bool operator ==(PixelDataFormat pixelFormat1, PixelDataFormat pix
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pixelFormat1 | PixelDataFormat | 第一个[`PixelDataFormat`](../../pixeldataformat)进行比较。 |
-| pixelFormat2 | PixelDataFormat | 第二个[`PixelDataFormat`](../../pixeldataformat)进行比较。 |
+| pixelFormat1 | PixelDataFormat | 首先[`PixelDataFormat`](../../pixeldataformat)比较。 |
+| pixelFormat2 | PixelDataFormat | 第二[`PixelDataFormat`](../../pixeldataformat)比较。 |
 
 ### 返回值
 
-如果*pixelFormat1*和*pixelFormat2*包含相等的数据或两个参数都为空，则为真。
+如果两者都为真*pixelFormat1*和*pixelFormat2*包含相等的数据或两个参数都为空。
 
 ### 也可以看看
 

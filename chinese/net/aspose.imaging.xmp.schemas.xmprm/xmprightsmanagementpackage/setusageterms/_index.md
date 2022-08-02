@@ -22,7 +22,7 @@ public void SetUsageTerms(LangAlt usageTerms)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | usageTerms |
+| ArgumentNullException | 使用条款 |
 
 ### 也可以看看
 

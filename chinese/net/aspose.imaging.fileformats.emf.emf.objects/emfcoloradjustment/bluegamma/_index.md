@@ -1,14 +1,14 @@
 ---
 title: BlueGamma
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 16 位无符号整数该整数指定源颜色 蓝色原色的 n 次方伽马校正值这个值应该在 2500 到 65000 的范围内 值 10000 表示不得执行伽马校正
+description: 获取或设置一个 16 位无符号整数它指定源颜色的 蓝色原色的 n 次方伽马校正值这个值应该在 2500 到 65000 的范围内 值 10000 表示不得执行伽马校正
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/bluegamma/
 ---
 ## EmfColorAdjustment.BlueGamma property
 
-获取或设置一个 16 位无符号整数，该整数指定源颜色 蓝色原色的 n 次方伽马校正值。这个值应该在 2,500 到 65,000 的范围内。 值 10,000 表示不得执行伽马校正。
+获取或设置一个 16 位无符号整数，它指定源颜色的 蓝色原色的 n 次方伽马校正值。这个值应该在 2,500 到 65,000 的范围内。 值 10,000 表示不得执行伽马校正。
 
 ```csharp
 public short BlueGamma { get; set; }

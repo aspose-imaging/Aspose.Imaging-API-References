@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置大小为 cbName  cbData 的数组以字节为单位它指定所需的 UTF16-LE 名称和原始数据颜色配置文件
+description: 获取或设置大小为 cbName  cbData 的数组以字节为单位指定所需颜色配置文件的 UTF16-LE 名称和原始数据
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/data/
 ---
 ## EmfColorMatchToTargetW.Data property
 
-获取或设置大小为 (cbName + cbData) 的数组（以字节为单位），它指定所需的 UTF16-LE 名称和原始数据颜色配置文件。
+获取或设置大小为 (cbName + cbData) 的数组，以字节为单位，指定所需颜色配置文件的 UTF16-LE 名称和原始数据。
 
 ```csharp
 public byte[] Data { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: RemoveShapes
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Удаляет диапазон фигур из фигуры.
+description: Удаляет диапазон фигур с фигуры.
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging/figure/removeshapes/
 ---
 ## Figure.RemoveShapes method
 
-Удаляет диапазон фигур из фигуры.
+Удаляет диапазон фигур с фигуры.
 
 ```csharp
 public void RemoveShapes(Shape[] shapes)
@@ -16,7 +16,7 @@ public void RemoveShapes(Shape[] shapes)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shapes | Shape[] | Диапазон форм для удаления. |
+| shapes | Shape[] | Диапазон фигур для удаления. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Lcs
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 WMF LogColorSpaceW 对象MS-WMF 第 2.2.2.12 节该对象可以指定 中颜色配置文件的名称Unicode UTF16-LE 字符
+description: 获取或设置一个 WMF LogColorSpaceW 对象MS-WMF 第 2.2.2.12 节它可以指定 Unicode UTF16-LE 字符中颜色配置文件的名称
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/lcs/
 ---
 ## EmfCreateColorSpaceW.Lcs property
 
-获取或设置一个 WMF LogColorSpaceW 对象（[MS-WMF] 第 2.2.2.12 节），该对象可以指定 中颜色配置文件的名称Unicode UTF16-LE 字符
+获取或设置一个 WMF LogColorSpaceW 对象（[MS-WMF] 第 2.2.2.12 节），它可以指定 Unicode UTF16-LE 字符中颜色配置文件的名称
 
 ```csharp
 public WmfLogColorSpaceW Lcs { get; set; }

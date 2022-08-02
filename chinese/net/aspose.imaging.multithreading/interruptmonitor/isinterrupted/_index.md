@@ -1,14 +1,14 @@
 ---
 title: IsInterrupted
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取是否应该中断操作的值
+description: 获取指示操作是否应中断的值
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.multithreading/interruptmonitor/isinterrupted/
 ---
 ## InterruptMonitor.IsInterrupted property
 
-获取是否应该中断操作的值。
+获取指示操作是否应中断的值。
 
 ```csharp
 public virtual bool IsInterrupted { get; }

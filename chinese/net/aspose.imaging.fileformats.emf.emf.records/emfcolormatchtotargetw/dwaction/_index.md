@@ -1,14 +1,14 @@
 ---
 title: DwAction
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数该整数指定 ColorSpace 枚举中的值第 2.1.7 节
+description: 获取或设置一个 32 位无符号整数该整数指定 ColorSpace 枚举第 2.1.7 节中的值
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/dwaction/
 ---
 ## EmfColorMatchToTargetW.DwAction property
 
-获取或设置一个 32 位无符号整数，该整数指定 ColorSpace 枚举中的值（第 2.1.7 节）。
+获取或设置一个 32 位无符号整数，该整数指定 ColorSpace 枚举（第 2.1.7 节）中的值。
 
 ```csharp
 public EmfColorSpace DwAction { get; set; }

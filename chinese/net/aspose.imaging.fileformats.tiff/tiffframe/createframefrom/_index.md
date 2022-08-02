@@ -1,14 +1,14 @@
 ---
 title: CreateFrameFrom
 second_title: Aspose.Imaging for .NET API 参考
-description: 从指定的tiffFrame使用指定的options创建框架 像素数据被保留但转换为所需的格式
+description: 从指定的框架创建tiffFrame使用指定的options. 像素数据被保留但转换为所需格式
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.tiff/tiffframe/createframefrom/
 ---
 ## TiffFrame.CreateFrameFrom method
 
-从指定的*tiffFrame*使用指定的*options*创建框架。 像素数据被保留但转换为所需的格式。
+从指定的框架创建*tiffFrame*使用指定的*options*. 像素数据被保留但转换为所需格式。
 
 ```csharp
 public static TiffFrame CreateFrameFrom(TiffFrame tiffFrame, TiffOptions options)
@@ -21,7 +21,7 @@ public static TiffFrame CreateFrameFrom(TiffFrame tiffFrame, TiffOptions options
 
 ### 返回值
 
-新创建的帧。
+新创建的框架。
 
 ### 例子
 
@@ -34,14 +34,14 @@ string dir = "c:\\temp\\";
 
 Aspose.Imaging.ImageOptions.TiffOptions createTiffOptions = new Aspose.Imaging.ImageOptions.TiffOptions(Aspose.Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
 
-// 创建一个永久的，不是临时的文件 source.
+// 创建一个永久的，不是临时的文件源。
 createTiffOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(dir + "multipage.tif", false);
 createTiffOptions.Photometric = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.Rgb;
 createTiffOptions.BitsPerSample = new ushort[] { 8, 8, 8 };
 
 using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)Image.Create(createTiffOptions, 100, 100))
 {
-        // 从图像左上角到右下角的线性渐变。
+    // 从图像左上角到右下角的线性渐变。
     Aspose.Imaging.Brushes.LinearGradientBrush brush =
         new Aspose.Imaging.Brushes.LinearGradientBrush(
             new Aspose.Imaging.Point(0, 0),
@@ -49,21 +49,21 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.Fil
             Aspose.Imaging.Color.Red,
             Aspose.Imaging.Color.Green);
 
-    // 用线性渐变画笔填充活动帧。
+    // 使用线性渐变画笔填充活动帧。
     Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(tiffImage.ActiveFrame);
     gr.FillRectangle(brush, tiffImage.Bounds);
 
-        // 灰度选项
+    //灰度选项
     Aspose.Imaging.ImageOptions.TiffOptions createTiffFrameOptions = new Aspose.Imaging.ImageOptions.TiffOptions(Aspose.Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
     createTiffFrameOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream());
     createTiffFrameOptions.Photometric = Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.MinIsBlack;
     createTiffFrameOptions.BitsPerSample = new ushort[] { 8 };
 
-        // 创建活动帧的灰度副本。
-        // 像素数据被保留，但转换为所需的格式。
+    // 创建活动帧的灰度副本。
+    // 像素数据被保留，但转换为所需的格式。
     Aspose.Imaging.FileFormats.Tiff.TiffFrame grayscaleFrame = Aspose.Imaging.FileFormats.Tiff.TiffFrame.CreateFrameFrom(tiffImage.ActiveFrame, createTiffFrameOptions);
 
-        // 将新创建的帧添加到 TIFF 图像中。
+    // 将新创建的帧添加到 TIFF 图像。
     tiffImage.AddFrame(grayscaleFrame);
 
     tiffImage.Save();

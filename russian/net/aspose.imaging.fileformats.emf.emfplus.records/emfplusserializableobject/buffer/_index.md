@@ -1,14 +1,14 @@
 ---
 title: Buffer
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив байтов BufferSize содержащих сериализованные эффекты изображения блок параметров соответствующий идентификатору GUID в поле ObjectGUID. Это ДОЛЖЕН быть один из объектов Image Effects раздел 2.2.3.
+description: Получает или задает массив байтов BufferSize который содержит блок параметров сериализованного изображения Effects  соответствующий идентификатору GUID в поле ObjectGUID. Это ДОЛЖЕН быть один из объектов Image Effects раздел 2.2.3.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/buffer/
 ---
 ## EmfPlusSerializableObject.Buffer property
 
-Получает или задает массив байтов BufferSize, содержащих сериализованные эффекты изображения блок параметров, соответствующий идентификатору GUID в поле ObjectGUID. Это ДОЛЖЕН быть один из объектов Image Effects (раздел 2.2.3).
+Получает или задает массив байтов BufferSize, который содержит блок параметров сериализованного изображения Effects , соответствующий идентификатору GUID в поле ObjectGUID. Это ДОЛЖЕН быть один из объектов Image Effects (раздел 2.2.3).
 
 ```csharp
 public byte[] Buffer { get; set; }

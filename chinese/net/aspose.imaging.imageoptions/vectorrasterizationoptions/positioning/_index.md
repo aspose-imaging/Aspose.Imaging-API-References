@@ -25,26 +25,26 @@ public PositioningTypes Positioning { get; set; }
 ```csharp
 [C#]
 
-string dir = "c:\\aspose.imaging\\issues\\net\\3635\\testdata\\3570";
-string inputCdrFileName = System.IO.Path.Combine(dir, "tiger.cdr");
-string outputPdfFileName = System.IO.Path.Combine(dir, "tiger.cdr.pdf");
-
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputCdrFileName))
+string dir = "c:\\aspose.imaging\\issues\\net\\3419\\";
+    
+// 为目标加载的图像设置 10 兆字节的内存限制。
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "example.cmx", new Aspose.Imaging.LoadOptions() { BufferSizeHint = 10 }))
 {
-    Aspose.Imaging.ImageOptions.PdfOptions pdfOptions = new Aspose.Imaging.ImageOptions.PdfOptions();
-    Aspose.Imaging.ImageOptions.CdrRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.CdrRasterizationOptions
-    {
-        TextRenderingHint = Aspose.Imaging.TextRenderingHint.SingleBitPerPixel,
-        SmoothingMode = Aspose.Imaging.SmoothingMode.None,
-        Positioning = Aspose.Imaging.ImageOptions.PositioningTypes.DefinedByDocument
-    };
-
-    pdfOptions.VectorRasterizationOptions = rasterizationOptions;
-    image.Save(outputPdfFileName, pdfOptions);
+    image.Save(dir + "output.png",
+        new Aspose.Imaging.ImageOptions.PngOptions()
+        {
+            VectorRasterizationOptions =
+                    new Aspose.Imaging.ImageOptions.CmxRasterizationOptions
+                    {
+                        TextRenderingHint = Aspose.Imaging.TextRenderingHint.SingleBitPerPixel,
+                        SmoothingMode = Aspose.Imaging.SmoothingMode.AntiAlias,
+                        Positioning = Aspose.Imaging.ImageOptions.PositioningTypes.DefinedByDocument
+                    }
+        });
 }
 ```
 
-以下示例说明如何将 CDR 文档的所有页面导出为 PDF。
+以下示例显示如何将 CDR 文档的所有页面导出为 PDF。
 
 ```csharp
 [C#]

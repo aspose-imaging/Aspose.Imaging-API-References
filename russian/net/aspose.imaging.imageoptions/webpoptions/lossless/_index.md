@@ -1,14 +1,14 @@
 ---
 title: Lossless
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее является ли этотWebPOptionsaspose.imaging.imageoptions/webpoptionsбез потерь.
+description: Получает или задает значение указывающее является ли этоWebPOptionsaspose.imaging.imageoptions/webpoptions без потерь.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.imageoptions/webpoptions/lossless/
 ---
 ## WebPOptions.Lossless property
 
-Получает или задает значение, указывающее, является ли этот[`WebPOptions`](../../webpoptions)без потерь.
+Получает или задает значение, указывающее, является ли это[`WebPOptions`](../../webpoptions) без потерь.
 
 ```csharp
 public bool Lossless { get; set; }
@@ -16,7 +16,7 @@ public bool Lossless { get; set; }
 
 ### Стоимость имущества
 
-` true` если без потерь; в противном случае` false` .
+`истинный` если без потерь; в противном случае,`ЛОЖЬ` .
 
 ### Примеры
 
@@ -27,35 +27,35 @@ public bool Lossless { get; set; }
 
 string dir = "c:\\temp\\";
 
- // Загрузить GIF-файл animation
+// Загружаем GIF-анимацию
 using (Aspose.Imaging.Image image = new Aspose.Imaging.Image.Load(dir + "test.gif"))
 {
-     // для сжатия без потерь увеличение параметра качества увеличивает качество сжатия и уменьшает размер файла
+    // для сжатия без потерь увеличение параметра качества увеличивает качество сжатия и уменьшает размер файла
     image.Save(
         dir + "output_lossless_20.webp",
         new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = true, Quality = 20 }); // размер файла: 42 КБ
 
     image.Save(
         dir + "output_lossless_50.webp",
-        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = true, Quality = 50 });  // размер файла: 41 КБ
+        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = true, Quality = 50 }); // размер файла: 41 КБ
 
     image.Save(
         dir + "output_lossless_80.webp",
-        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = true, Quality = 80 });  // размер файла: 40 КБ
+        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = true, Quality = 80 }); // размер файла: 40 КБ
 
 
-     // для сжатия с потерями увеличение значения Quality повышает качество изображения и увеличивает размер файла
+    // для сжатия с потерями увеличение значения Quality повышает качество изображения и увеличивает размер файла
     image.Save(
         dir + "output_lossy_20.webp",
-        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = false, Quality = 20 });  // размер файла: 24 КБ
+        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = false, Quality = 20 }); // размер файла: 24 КБ
 
     image.Save(
         dir + "output_lossy_50.webp",
-        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = false, Quality = 50 });  // размер файла: 36 КБ
+        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = false, Quality = 50 }); // размер файла: 36 КБ
 
     image.Save(
         dir + "output_lossy_80.webp",
-        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = false, Quality = 80 });  // размер файла: 51 КБ
+        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = false, Quality = 80 }); // размер файла: 51 КБ
 }
 ```
 

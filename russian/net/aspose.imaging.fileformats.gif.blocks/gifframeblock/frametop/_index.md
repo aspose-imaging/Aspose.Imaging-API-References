@@ -1,14 +1,14 @@
 ---
 title: FrameTop
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Преобразует в стр.
+description: Преобразуется в p.
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging.fileformats.gif.blocks/gifframeblock/frametop/
 ---
 ## GifFrameBlock.FrameTop property
 
-Преобразует в стр.
+Преобразуется в p.
 
 ```csharp
 public int FrameTop { get; }
@@ -16,7 +16,7 @@ public int FrameTop { get; }
 
 ### Стоимость имущества
 
-Верх.
+Топ.
 
 ### Смотрите также
 

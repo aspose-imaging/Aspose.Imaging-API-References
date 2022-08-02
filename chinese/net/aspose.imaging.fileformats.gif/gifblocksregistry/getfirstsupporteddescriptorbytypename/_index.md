@@ -21,11 +21,11 @@ public static IGifBlockLoaderDescriptor GetFirstSupportedDescriptorByTypeName(
 
 ### 返回值
 
-第一个找到的开启程序描述符，如果没有找到这样的描述符，则返回 null。
+第一个找到的开启者描述符，如果没有找到这样的描述符，则返回 null。
 
 ### 评论
 
-第一个开启器描述符实际上是最后注册的。
+第一个开启者描述符实际上是最后注册的。
 
 ### 也可以看看
 

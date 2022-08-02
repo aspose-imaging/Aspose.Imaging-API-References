@@ -1,14 +1,14 @@
 ---
 title: CdrStyle
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Стиль cdr
+description: Стиль CDR
 type: docs
 weight: 1770
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrstyle/
 ---
 ## CdrStyle class
 
-Стиль cdr
+Стиль CDR
 
 ```csharp
 public class CdrStyle : CdrDictionaryItem
@@ -24,7 +24,7 @@ public class CdrStyle : CdrDictionaryItem
 
 | Имя | Описание |
 | --- | --- |
-| [Align](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/align) { get; set; } | Получает или задает выравнивание. |
+| [Align](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/align) { get; set; } | Получает или задает align. |
 | [Charset](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/charset) { get; set; } | Получает или задает набор символов. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | Получает или задает документ. |
@@ -35,10 +35,10 @@ public class CdrStyle : CdrDictionaryItem
 | [FontWeight](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/fontweight) { get; set; } | Получает или задает толщину шрифта. |
 | [Id](../../aspose.imaging.fileformats.cdr.objects/cdrdictionaryitem/id) { get; set; } | Получает или задает идентификатор. |
 | [LeftIndent](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/leftindent) { get; set; } | Получает или задает левый отступ. |
-| [OutLine](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/outline) { get; set; } | Получает или устанавливает линию выхода. |
+| [OutLine](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/outline) { get; set; } | Получает или устанавливает линию аута. |
 | [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | Получает или задает родителя. |
 | [ParentId](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/parentid) { get; set; } | Получает или задает родительский идентификатор. |
-| [RightIndent](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/rightindent) { get; set; } | Получает или устанавливает правильный отступ. |
+| [RightIndent](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/rightindent) { get; set; } | Получает или задает правильный отступ. |
 
 ## Методы
 

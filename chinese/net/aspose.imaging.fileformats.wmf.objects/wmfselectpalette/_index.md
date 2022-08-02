@@ -1,14 +1,14 @@
 ---
 title: WmfSelectPalette
 second_title: Aspose.Imaging for .NET API 参考
-description: META_SELECTPALETTE 记录使用 指定的调色板对象定义当前逻辑调色板
+description: META_SELECTPALETTE 记录用 a 指定的调色板对象定义当前逻辑调色板
 type: docs
 weight: 9030
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfselectpalette/
 ---
 ## WmfSelectPalette class
 
-META_SELECTPALETTE 记录使用 指定的调色板对象定义当前逻辑调色板。
+META_SELECTPALETTE 记录用 a 指定的调色板对象定义当前逻辑调色板。
 
 ```csharp
 public class WmfSelectPalette : WmfObject

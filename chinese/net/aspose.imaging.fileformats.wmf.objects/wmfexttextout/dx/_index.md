@@ -1,14 +1,14 @@
 ---
 title: Dx
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 dx
+description: 获取或设置 dx.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfexttextout/dx/
 ---
 ## WmfExtTextOut.Dx property
 
-获取或设置 dx。
+获取或设置 dx.
 
 ```csharp
 public short[] Dx { get; set; }
@@ -16,7 +16,7 @@ public short[] Dx { get; set; }
 
 ### 适当的价值
 
-dx。指示相邻字符 单元格的原点之间的距离。例如，Dx[i] 逻辑单元将 字符单元 i 和字符单元 i + 1 的来源分开。如果存在此字段，则 必须有相同数量的值，因为 字符串中有字符。
+dx。指示相邻 character 单元的原点之间的距离。例如，Dx[i] 逻辑单元分隔 字符单元 i 和字符单元 i + 1 的来源。如果存在此字段， 必须与字符串中的字符数相同。
 
 ### 也可以看看
 

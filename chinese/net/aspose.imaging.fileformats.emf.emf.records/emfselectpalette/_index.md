@@ -18,13 +18,13 @@ public sealed class EmfSelectPalette : EmfObjectManipulationRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSelectPalette](emfselectpalette)(EmfRecord) | 初始化[`EmfSelectPalette`](../emfselectpalette)类的新实例。 |
+| [EmfSelectPalette](emfselectpalette)(EmfRecord) | 初始化[`EmfSelectPalette`](../emfselectpalette)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IhPal](../../aspose.imaging.fileformats.emf.emf.records/emfselectpalette/ihpal) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定 EMF 对象中的 LogPalette 对象 （第 2.2.17 节）的索引表或值 DEFAULT_PALETTE，它是 StockObject 枚举（第 2.1.31 节）中库存对象调色板的索引 。 |
+| [IhPal](../../aspose.imaging.fileformats.emf.emf.records/emfselectpalette/ihpal) { get; set; } | 获取或设置一个 32 位无符号整数，它指定 EMF 对象表中 LogPalette object （第 2.2.17 节）的索引或值 DEFAULT_PALETTE，即 StockObject 枚举（第2.1.31). |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

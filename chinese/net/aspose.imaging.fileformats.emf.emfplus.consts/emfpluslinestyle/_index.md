@@ -1,14 +1,14 @@
 ---
 title: EmfPlusLineStyle
 second_title: Aspose.Imaging for .NET API 参考
-description: LineStyle 枚举定义了用图形笔绘制的线条的样式
+description: LineStyle 枚举定义了用图形笔绘制的线条样式
 type: docs
 weight: 4910
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluslinestyle/
 ---
 ## EmfPlusLineStyle enumeration
 
-LineStyle 枚举定义了用图形笔绘制的线条的样式。
+LineStyle 枚举定义了用图形笔绘制的线条样式。
 
 ```csharp
 public enum EmfPlusLineStyle
@@ -27,7 +27,7 @@ public enum EmfPlusLineStyle
 
 ### 评论
 
-图形行由EmfPlusPen对象（第 2.2.1.7 节）。
+图形线由[`EmfPlusPen`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen)对象（第 2.2.1.7 节）.
 
 ### 也可以看看
 

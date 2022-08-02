@@ -16,7 +16,7 @@ public void AddBlock(IFrame block)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| block | IFrame | Добавляемый блок Webp. |
+| block | IFrame | Блок Webp для добавления. |
 
 ### Примеры
 
@@ -35,16 +35,16 @@ createOptions.AnimBackgroundColor = (uint)Aspose.Imaging.Color.Gray.ToArgb();
 // Кадр по умолчанию плюс 36 + 36 дополнительных кадров.
 createOptions.AnimLoopCount = 36 + 36 + 1;
 
- // Создаем изображение WebP размером 100x100 пикселей.
+// Создаем изображение WebP размером 100x100 пикселей.
 using (Aspose.Imaging.FileFormats.Webp.WebPImage webPImage = new Aspose.Imaging.FileFormats.Webp.WebPImage(100, 100, createOptions))
 {
-     // Первый круг — red
+    // Первый круг красный
     Aspose.Imaging.Brushes.SolidBrush brush1 = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
 
-     // Второй круг — black
+    // Второй круг черный
     Aspose.Imaging.Brushes.SolidBrush brush2 = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Black);
 
-     // Постепенно увеличиваем угол красной дуги shape.
+    // Постепенно увеличивайте угол красной дуги.
     for (int angle = 10; angle <= 360; angle += 10)
     {
         Aspose.Imaging.FileFormats.Webp.WebPFrameBlock block = new Aspose.Imaging.FileFormats.Webp.WebPFrameBlock(100, 100);
@@ -54,7 +54,7 @@ using (Aspose.Imaging.FileFormats.Webp.WebPImage webPImage = new Aspose.Imaging.
         webPImage.AddBlock(block);
     }
 
-     // Постепенно увеличиваем угол черной дуги и стираем красную дугу.
+    // Постепенно увеличивайте угол черной дуги и стирайте красную дугу.
     for (int angle = 10; angle <= 360; angle += 10)
     {
         Aspose.Imaging.FileFormats.Webp.WebPFrameBlock block = new Aspose.Imaging.FileFormats.Webp.WebPFrameBlock(100, 100);
@@ -66,7 +66,7 @@ using (Aspose.Imaging.FileFormats.Webp.WebPImage webPImage = new Aspose.Imaging.
         webPImage.AddBlock(block);
     }
 
-     // Сохранить в WebP file
+    // Сохраняем в файл WebP
     webPImage.Save(dir + "output.webp");
 }
 ```

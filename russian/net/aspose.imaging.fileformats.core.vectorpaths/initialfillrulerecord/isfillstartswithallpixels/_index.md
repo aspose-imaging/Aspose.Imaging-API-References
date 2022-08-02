@@ -1,14 +1,14 @@
 ---
 title: IsFillStartsWithAllPixels
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее начинается ли заполнение со всех пикселей.
+description: Получает или задает значение указывающее начинается ли заливка со всех пикселей.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord/isfillstartswithallpixels/
 ---
 ## InitialFillRuleRecord.IsFillStartsWithAllPixels property
 
-Получает или задает значение, указывающее, начинается ли заполнение со всех пикселей.
+Получает или задает значение, указывающее, начинается ли заливка со всех пикселей.
 
 ```csharp
 public bool IsFillStartsWithAllPixels { get; set; }

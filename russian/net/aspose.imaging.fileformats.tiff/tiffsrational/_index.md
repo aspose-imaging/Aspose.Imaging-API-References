@@ -18,9 +18,9 @@ public class TiffSRational
 
 | Имя | Описание |
 | --- | --- |
-| [TiffSRational](tiffsrational#constructor)() | Инициализирует новый экземпляр класса[`TiffSRational`](../tiffsrational). |
-| [TiffSRational](tiffsrational#constructor_1)(int) | Инициализирует новый экземпляр класса[`TiffRational`](../tiffrational). |
-| [TiffSRational](tiffsrational#constructor_2)(int, int) | Инициализирует новый экземпляр класса[`TiffSRational`](../tiffsrational). |
+| [TiffSRational](tiffsrational#constructor)() | Инициализирует новый экземпляр[`TiffSRational`](../tiffsrational) класс. |
+| [TiffSRational](tiffsrational#constructor_1)(int) | Инициализирует новый экземпляр[`TiffRational`](../tiffrational) класс. |
+| [TiffSRational](tiffsrational#constructor_2)(int, int) | Инициализирует новый экземпляр[`TiffSRational`](../tiffsrational) класс. |
 
 ## Характеристики
 
@@ -39,15 +39,15 @@ public class TiffSRational
 | static [ApproximateFraction](../../aspose.imaging.fileformats.tiff/tiffsrational/approximatefraction#approximatefraction_2)(float) | Приближает указанное значение к дроби. |
 | static [ApproximateFraction](../../aspose.imaging.fileformats.tiff/tiffsrational/approximatefraction#approximatefraction_1)(double, double) | Приближает указанное значение к дроби. |
 | static [ApproximateFraction](../../aspose.imaging.fileformats.tiff/tiffsrational/approximatefraction#approximatefraction_3)(float, double) | Приближает указанное значение к дроби. |
-| override [Equals](../../aspose.imaging.fileformats.tiff/tiffsrational/equals)(object) | Определяет, равен ли указанныйObjectэтому экземпляру. |
+| override [Equals](../../aspose.imaging.fileformats.tiff/tiffsrational/equals)(object) | Определяет, является ли указанныйObject равен этому экземпляру. |
 | override [GetHashCode](../../aspose.imaging.fileformats.tiff/tiffsrational/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
-| override [ToString](../../aspose.imaging.fileformats.tiff/tiffsrational/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.imaging.fileformats.tiff/tiffsrational/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 
 ## Поля
 
 | Имя | Описание |
 | --- | --- |
-| const [Epsilon](../../aspose.imaging.fileformats.tiff/tiffsrational/epsilon) | Эпсилон для расчета дроби |
+| const [Epsilon](../../aspose.imaging.fileformats.tiff/tiffsrational/epsilon) | Эпсилон для вычисления дроби |
 
 ### Смотрите также
 

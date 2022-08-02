@@ -1,14 +1,14 @@
 ---
 title: IEscape
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее переход драйвера принтера в execute. Это ДОЛЖНО быть одним из значений в перечислении WMF MetafileEscapes MSWMF раздел 2.1.1.17.
+description: Получает или задает 32-разрядное целое число без знака указывающее что escape-последовательность драйвера принтера to будет выполняться. Это ДОЛЖНО быть одним из значений перечисления WMF MetafileEscapes MSWMF раздел 2.1.1.17.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfescaperecordtype/iescape/
 ---
 ## EmfEscapeRecordType.IEscape property
 
-Получает или задает 32-разрядное целое число без знака, указывающее переход драйвера принтера в execute. Это ДОЛЖНО быть одним из значений в перечислении WMF MetafileEscapes ([MSWMF], раздел 2.1.1.17).
+Получает или задает 32-разрядное целое число без знака, указывающее, что escape-последовательность драйвера принтера to будет выполняться. Это ДОЛЖНО быть одним из значений перечисления WMF MetafileEscapes ([MSWMF], раздел 2.1.1.17).
 
 ```csharp
 public WmfMetafileEscapes IEscape { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: Aspose.Imaging for .NET API 参考
-description: 将对象的数据保存到当前DataStreamSupporteraspose.imaging/datastreamsupporter
+description: 将对象的数据保存到当前DataStreamSupporteraspose.imaging/datastreamsupporter .
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging/datastreamsupporter/save/
 ---
 ## Save() {#save}
 
-将对象的数据保存到当前[`DataStreamSupporter`](../../datastreamsupporter)。
+将对象的数据保存到当前[`DataStreamSupporter`](../../datastreamsupporter) .
 
 ```csharp
 public virtual void Save()
@@ -32,7 +32,7 @@ public void Save(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 保存对象数据的流。 |
+| stream | Stream | 将对象的数据保存到的流。 |
 
 ### 也可以看看
 
@@ -73,7 +73,7 @@ public virtual void Save(string filePath, bool overWrite)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | filePath | String | 保存对象数据的文件路径。 |
-| overWrite | Boolean | 如果设置为` true` 覆盖文件内容，否则会发生追加。 |
+| overWrite | Boolean | 如果设置为`真的`覆盖文件内容，否则会发生追加。 |
 
 ### 也可以看看
 

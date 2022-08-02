@@ -1,14 +1,14 @@
 ---
 title: HasAlpha
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает альфа-канал Has.
+description: Получает альфа-канал.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.fileformats.djvu/djvuimage/hasalpha/
 ---
 ## DjvuImage.HasAlpha property
 
-Получает альфа-канал Has.
+Получает альфа-канал.
 
 ```csharp
 public override bool HasAlpha { get; }

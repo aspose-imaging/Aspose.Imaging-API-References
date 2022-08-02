@@ -1,14 +1,14 @@
 ---
 title: ScanCount
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает счетчик сканирования.
+description: Получает или задает количество сканирований.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfsetdibtodev/scancount/
 ---
 ## WmfSetDibToDev.ScanCount property
 
-Получает или задает счетчик сканирования.
+Получает или задает количество сканирований.
 
 ```csharp
 public int ScanCount { get; set; }
@@ -16,7 +16,7 @@ public int ScanCount { get; set; }
 
 ### Стоимость имущества
 
-Количество строк развертки в исходнике.
+Количество строк развертки в источнике.
 
 ### Смотрите также
 

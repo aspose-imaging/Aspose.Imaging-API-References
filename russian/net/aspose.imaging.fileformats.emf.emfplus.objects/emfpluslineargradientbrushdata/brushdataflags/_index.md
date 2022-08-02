@@ -16,7 +16,7 @@ public EmfPlusBrushDataFlags BrushDataFlags { get; set; }
 
 ### Стоимость имущества
 
-BrushDataFlags (4 байта):32-битное целое число без знака, указывающее данные в поле OptionalData. . Это значение ДОЛЖНО состоять из[`EmfPlusBrushDataFlags`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushdataflags)(раздел 2.1.2.1).
+BrushDataFlags (4 байта): 32-разрядное целое число без знака, указывающее данные в поле OptionalData. Это значение ДОЛЖНО состоять из[`EmfPlusBrushDataFlags`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushdataflags) (раздел 2.1.2.1).
 
 ### Смотрите также
 

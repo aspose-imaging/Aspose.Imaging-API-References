@@ -1,14 +1,14 @@
 ---
 title: NonGenericDictionary
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаNonGenericDictionaryaspose.imaging/nongenericdictionary.
+description: Инициализирует новый экземплярNonGenericDictionaryaspose.imaging/nongenericdictionary класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging/nongenericdictionary/nongenericdictionary/
 ---
 ## NonGenericDictionary constructor
 
-Инициализирует новый экземпляр класса[`NonGenericDictionary`](../../nongenericdictionary).
+Инициализирует новый экземпляр[`NonGenericDictionary`](../../nongenericdictionary) класс.
 
 ```csharp
 public NonGenericDictionary(IDictionary dictionary)
@@ -16,7 +16,7 @@ public NonGenericDictionary(IDictionary dictionary)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dictionary | IDictionary | Используемый словарь. |
+| dictionary | IDictionary | Словарь для использования. |
 
 ### Смотрите также
 

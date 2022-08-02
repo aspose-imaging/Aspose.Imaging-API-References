@@ -16,7 +16,7 @@ public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newWidth | Int32 | 新宽度。 |
+| newWidth | Int32 | 新的宽度。 |
 | newHeight | Int32 | 新高度。 |
 | resizeType | ResizeType | 调整大小类型。 |
 
@@ -28,7 +28,7 @@ public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
 
 ### 例子
 
-此示例加载 WMF 图像并使用各种调整大小调整其大小方法。
+此示例加载 WMF 图像并使用各种调整大小的方法调整其大小。
 
 ```csharp
 [C#]
@@ -37,7 +37,7 @@ string dir = "c:\\temp\\";
 
 using (Aspose.Imaging.FileFormats.Wmf.WmfImage image = (Aspose.Imaging.FileFormats.Wmf.WmfImage)Aspose.Imaging.Image.Load(dir + "sample.wmf"))
 {
-        // 使用最近邻重采样放大 2 倍。
+    // 使用最近邻重采样放大 2 倍。
     image.Resize(image.Width * 2, image.Height * 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
 }
 
@@ -49,13 +49,13 @@ using (Aspose.Imaging.FileFormats.Wmf.WmfImage image = (Aspose.Imaging.FileForma
 
 using (Aspose.Imaging.FileFormats.Wmf.WmfImage image = (Aspose.Imaging.FileFormats.Wmf.WmfImage)Aspose.Imaging.Image.Load(dir + "sample.wmf"))
 {
-        // 使用双线性重采样放大 2 倍。
+    // 使用双线性重采样放大 2 倍。
     image.Resize(image.Width * 2, image.Height * 2, Aspose.Imaging.ResizeType.BilinearResample);
 }
 
 using (Aspose.Imaging.FileFormats.Wmf.WmfImage image = (Aspose.Imaging.FileFormats.Wmf.WmfImage)Aspose.Imaging.Image.Load(dir + "sample.wmf"))
 {
-        // 使用双线性重采样缩小 2 倍。
+    // 使用双线性重采样缩小 2 倍。
     image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.BilinearResample);
 }
 ```
@@ -79,7 +79,7 @@ public override void Resize(int newWidth, int newHeight, ImageResizeSettings set
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newWidth | Int32 | 新宽度。 |
+| newWidth | Int32 | 新的宽度。 |
 | newHeight | Int32 | 新高度。 |
 | settings | ImageResizeSettings | 调整大小设置。 |
 

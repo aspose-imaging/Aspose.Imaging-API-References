@@ -24,14 +24,14 @@ public class CmxRasterImage : ICmxObjectSpec
 
 | Имя | Описание |
 | --- | --- |
-| [BitsPerPixel](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/bitsperpixel) { get; set; } | Получает или задает количество битов на пиксель. |
+| [BitsPerPixel](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/bitsperpixel) { get; set; } | Получает или задает количество бит на пиксель. |
 | [BytesPerLine](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/bytesperline) { get; set; } | Получает или задает размер строки. Измеряет в байтах. |
 | [ColorModel](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/colormodel) { get; set; } | Получает или задает цветовую модель. |
-| [ColorPalette](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/colorpalette) { get; set; } | Получает или задает массив цветовой палитры. Элементы представляют собой значения цвета ARGB, представленные вInt32 |
+| [ColorPalette](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/colorpalette) { get; set; } | Получает или задает массив цветовой палитры. Элементы — это значения цветов ARGB, представленные вInt32 |
 | [CompressedSize](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/compressedsize) { get; set; } | Получает или задает сжатый размер изображения. Измеряет в байтах. |
 | [Compression](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/compression) { get; set; } | Получает или задает сжатие. |
 | [Height](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/height) { get; set; } | Получает или задает высоту изображения. Измеряет в пикселях. |
-| [IsMask](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/ismask) { get; set; } | Получает или задает значение, указывающее, является ли данный экземпляр маской. |
+| [IsMask](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/ismask) { get; set; } | Получает или задает значение, указывающее, является ли этот экземпляр маской. |
 | [RawData](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/rawdata) { get; set; } | Получает или задает необработанные байтовые данные изображения. |
 | [Size](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/size) { get; set; } | Получает или задает размер изображения. Измеряет в байтах. |
 | [Type](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/type) { get; set; } | Получает или задает тип изображения. |
@@ -41,7 +41,7 @@ public class CmxRasterImage : ICmxObjectSpec
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 
 ### Смотрите также
 

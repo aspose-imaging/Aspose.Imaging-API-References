@@ -1,14 +1,14 @@
 ---
 title: Ceiling
 second_title: Aspose.Imaging for .NET API 参考
-description: 将指定的SizeFaspose.imaging/sizef结构转换为Sizeaspose.imaging/size通过将Sizeaspose.imaging/size结构的值四舍五入到下一个更高的整数值来构建结构
+description: 转换指定的SizeFaspose.imaging/sizef结构为Sizeaspose.imaging/size通过四舍五入的值的结构Sizeaspose.imaging/size结构到下一个更高的整数值
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging/size/ceiling/
 ---
 ## Size.Ceiling method
 
-将指定的[`SizeF`](../../sizef)结构转换为[`Size`](../../size)通过将[`Size`](../../size)结构的值四舍五入到下一个更高的整数值来构建结构。
+转换指定的[`SizeF`](../../sizef)结构为[`Size`](../../size)通过四舍五入的值的结构[`Size`](../../size)结构到下一个更高的整数值。
 
 ```csharp
 public static Size Ceiling(SizeF size)
@@ -16,11 +16,11 @@ public static Size Ceiling(SizeF size)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| size | SizeF | [`SizeF`](../../sizef)结构要转换。 |
+| size | SizeF | 这[`SizeF`](../../sizef)要转换的结构。 |
 
 ### 返回值
 
-[`Size`](../../size)此方法转换为的结构。
+这[`Size`](../../size)此方法转换为的结构。
 
 ### 也可以看看
 

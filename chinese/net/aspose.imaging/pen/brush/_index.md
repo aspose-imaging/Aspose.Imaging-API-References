@@ -1,14 +1,14 @@
 ---
 title: Brush
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置确定此Aspose属性的R5PAspose.Imaging.Pen.Brush成像笔
+description: 获取或设置Brushaspose.imaging/pen/brush决定了这个属性Penaspose.imaging/pen .
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging/pen/brush/
 ---
 ## Pen.Brush property
 
-获取或设置确定此Aspose属性的R5:P:Aspose.Imaging.Pen.Brush:::。成像笔:::。
+获取或设置`Brush`决定了这个属性[`Pen`](../../pen) .
 
 ```csharp
 public Brush Brush { get; set; }
@@ -16,13 +16,13 @@ public Brush Brush { get; set; }
 
 ### 适当的价值
 
-A`Brush`确定这个:::R5 的属性:T:Aspose.Imaging.Pen:::。
+一个`Brush`决定了这个属性[`Pen`](../../pen).
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | `Brush`属性设置在不可变的:::R5 上:T:Aspose.Imaging.Pen:::，例如[`Pen`](../../pen)类返回的那些。 |
+| ArgumentException | 这`Brush`属性设置在不可变对象上[`Pen`](../../pen)，例如那些由[`Pen`](../../pen)班级。 |
 
 ### 也可以看看
 

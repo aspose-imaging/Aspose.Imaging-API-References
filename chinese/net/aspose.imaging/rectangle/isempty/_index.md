@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示此Rectangleaspose.imaging/rectangle的所有数值属性是否具有零值
+description: 获取一个值该值指示此的所有数字属性是否Rectangleaspose.imaging/rectangle值为零
 type: docs
 weight: 130
 url: /zh/net/aspose.imaging/rectangle/isempty/
 ---
 ## Rectangle.IsEmpty property
 
-获取一个值，该值指示此[`Rectangle`](../../rectangle)的所有数值属性是否具有零值。
+获取一个值，该值指示此的所有数字属性是否[`Rectangle`](../../rectangle)值为零。
 
 ```csharp
 public bool IsEmpty { get; }
@@ -16,7 +16,7 @@ public bool IsEmpty { get; }
 
 ### 适当的价值
 
-如果[`Width`](../width),:::则此属性返回 true R5:P:Aspose.Imaging.Rectangle.Height:::,[`X`](../x)和[`Y`](../y)这个[`Rectangle`](../../rectangle)的属性都具有零值；否则为假。
+如果[`Width`](../width) ,[`Height`](../height) ,[`X`](../x)， 和[`Y`](../y)这个属性[`Rectangle`](../../rectangle)所有的值都为零；否则为假。
 
 ### 也可以看看
 

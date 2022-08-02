@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置矩形的宽度 以通用文档距离单位测量
+description: 获取或设置矩形的宽度 以常用文档距离单位测量
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/width/
 ---
 ## CmxRectangleSpec.Width property
 
-获取或设置矩形的宽度。 以通用文档距离单位测量。
+获取或设置矩形的宽度。 以常用文档距离单位测量。
 
 ```csharp
 public float Width { get; set; }

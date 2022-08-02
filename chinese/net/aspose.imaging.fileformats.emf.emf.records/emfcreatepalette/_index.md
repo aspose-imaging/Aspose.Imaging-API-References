@@ -18,14 +18,14 @@ public sealed class EmfCreatePalette : EmfObjectCreationRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfCreatePalette](emfcreatepalette)(EmfRecord) | 初始化[`EmfCreatePalette`](../emfcreatepalette)类的新实例。 |
+| [EmfCreatePalette](emfcreatepalette)(EmfRecord) | 初始化[`EmfCreatePalette`](../emfcreatepalette)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IhPal](../../aspose.imaging.fileformats.emf.emf.records/emfcreatepalette/ihpal) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定 EMF 对象表中逻辑调色板对象 的索引（第 3.1.1.1 节）。必须保存该索引，以便该对象可以被 重用或修改。 |
-| [LogPalette](../../aspose.imaging.fileformats.emf.emf.records/emfcreatepalette/logpalette) { get; set; } | 获取或设置 LogPalette 对象（第 2.2.17 节）。此对象的版本字段 必须设置为 0x0300。如果此对象中的 NumberOfEntries 值为零，则处理 此记录必须失败。 |
+| [IhPal](../../aspose.imaging.fileformats.emf.emf.records/emfcreatepalette/ihpal) { get; set; } | 获取或设置一个 32 位无符号整数，它指定 EMF 对象表（第 3.1.1.1 节）中逻辑调色板 object 的索引。必须保存此索引，以便可以 重用或修改此对象。 |
+| [LogPalette](../../aspose.imaging.fileformats.emf.emf.records/emfcreatepalette/logpalette) { get; set; } | 获取或设置 LogPalette 对象（第 2.2.17 节）。此 object 的版本字段必须设置为 0x0300。如果此对象中的 NumberOfEntries 值为零，则处理 此记录必须失败。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

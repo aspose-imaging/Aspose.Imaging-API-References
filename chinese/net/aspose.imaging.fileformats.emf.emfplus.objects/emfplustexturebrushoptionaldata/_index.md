@@ -24,12 +24,12 @@ public sealed class EmfPlusTextureBrushOptionalData : EmfPlusStructureObjectType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImageObject](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushoptionaldata/imageobject) { get; set; } | 获取或设置指定 画笔纹理的可选 EmfPlusImage 对象（第 2.2.1.4 节）。如果定义此纹理 画笔的 EmfPlusObject 记录（第 2.3.5.1 节）的大小足以容纳:::47 中的 EmfPlusImage 对象，则必须存在此字段:::除了 EmfPlusTextureBrushData 对象的必填字段 和可选的 EmfPlusTransformMatrix 对象。 |
-| [TransformMatrix](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushoptionaldata/transformmatrix) { get; set; } | 获取或设置可选的 EmfPlusTransformMatrix 对象（第 2.2.2.47 节） 指定:::47 的世界空间到设备空间的变换:::纹理画笔。如果在 EmfPlusTextureBrushData 对象的 BrushDataFlags 字段中设置了 BrushDataTransform 标志，则该字段必须存在。 |
+| [ImageObject](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushoptionaldata/imageobject) { get; set; } | 获取或设置一个可选的 EmfPlusImage 对象（第 2.2.1.4 节），该对象指定 画笔纹理。如果定义此纹理 画笔的 EmfPlusObject 记录（第 2.3.5.1 节）的大小足以容纳 中的 EmfPlusImage 对象，以及 EmfPlusTextureBrushData 对象 的必需字段和可选的 EmfPlusTransformMatrix 对象，则必须存在此字段. |
+| [TransformMatrix](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushoptionaldata/transformmatrix) { get; set; } | 获取或设置一个可选的 EmfPlusTransformMatrix 对象（第 2.2.2.47 节） ，它为 纹理画笔指定世界空间到设备空间的变换。如果在 EmfPlusTextureBrushData 对象的 BrushDataFlags 字段中设置了 BrushDataTransform 标志，则该字段必须存在。 |
 
 ### 评论
 
-注意此对象的每个字段都是可选的，可能不会出现在 EmfPlusTextureBrushData 对象（第 2.2.2.45 节），取决于在其 BrushDataFlags 字段中设置的 BrushData 标志（第 2.1.2.1）。虽然表示所有可能的::并不实际:47:::存在或不存在的字段组合，本节指定它们在对象中的相对顺序。 实现者负责确定给定元文件 记录中实际存在哪些字段，并负责分别适当地解组各个字段的数据。
+注意此对象的每个字段都是可选的，可能不存在于 an EmfPlusTextureBrushData 对象（第 2.2.2.45 节）的 OptionalData 字段中，具体取决于在其 BrushDataFlags 字段中设置的 BrushData flags(section 2.1.2.1)。虽然它不是为了表示存在或不存在的每个可能的 字段组合，本节指定它们在对象中的相对顺序。 实现者负责确定哪些字段实际存在于给定的元文件 记录中，并负责分别并适当地解组各个字段的数据。
 
 ### 也可以看看
 

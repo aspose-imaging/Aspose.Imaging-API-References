@@ -1,14 +1,14 @@
 ---
 title: WrapMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает перечислениеWrapModeaspose.imaging/wrapmode указывающее режим переноса для этогоTransformBrushaspose.imaging.brushes/transformbrush.
+description: Получает или задаетWrapModeaspose.imaging/wrapmode перечисление указывающее режим переноса для этогоTransformBrushaspose.imaging.brushes/transformbrush .
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.brushes/transformbrush/wrapmode/
 ---
 ## TransformBrush.WrapMode property
 
-Получает или задает перечисление[`WrapMode`](../../../aspose.imaging/wrapmode), указывающее режим переноса для этого[`TransformBrush`](../../transformbrush).
+Получает или задает[`WrapMode`](../../../aspose.imaging/wrapmode) перечисление, указывающее режим переноса для этого[`TransformBrush`](../../transformbrush) .
 
 ```csharp
 public WrapMode WrapMode { get; set; }
@@ -16,7 +16,7 @@ public WrapMode WrapMode { get; set; }
 
 ### Возвращаемое значение
 
-A[`WrapMode`](../../../aspose.imaging/wrapmode)который указывает, как заполняется нарисованный с помощью этого[`TransformBrush`](../../transformbrush)мозаичные.
+А[`WrapMode`](../../../aspose.imaging/wrapmode) который указывает, как заполняется этим[`TransformBrush`](../../transformbrush) плиточные.
 
 ### Смотрите также
 

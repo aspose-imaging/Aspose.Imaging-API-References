@@ -1,14 +1,14 @@
 ---
 title: EmfGradientTriangle
 second_title: Aspose.Imaging for .NET API 参考
-description: GradientTriangle 对象在 EMR_GRADIENTFILL 记录第 2.3.5.12 节中使用 TriVertex 对象第 2.2.26 节定义了一个三角形
+description: GradientTriangle 对象在 EMR_GRADIENTFILL 记录第 2.3.5.12 节 中使用 TriVertex 对象第 2.2.26 节定义了一个三角形
 type: docs
 weight: 2980
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfgradienttriangle/
 ---
 ## EmfGradientTriangle class
 
-GradientTriangle 对象在 EMR_GRADIENTFILL 记录（第 2.3.5.12 节）中使用 TriVertex 对象（第 2.2.26 节）定义了一个三角形
+GradientTriangle 对象在 EMR_GRADIENTFILL 记录（第 2.3.5.12 节） 中使用 TriVertex 对象（第 2.2.26 节）定义了一个三角形
 
 ```csharp
 public sealed class EmfGradientTriangle : EmfObject

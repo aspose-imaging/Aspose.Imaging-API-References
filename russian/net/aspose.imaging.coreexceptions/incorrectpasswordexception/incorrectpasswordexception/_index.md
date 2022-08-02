@@ -1,14 +1,14 @@
 ---
 title: IncorrectPasswordException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаIncorrectPasswordExceptionaspose.imaging.coreexceptions/incorrectpasswordexception.
+description: Инициализирует новый экземплярIncorrectPasswordExceptionaspose.imaging.coreexceptions/incorrectpasswordexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions/incorrectpasswordexception/incorrectpasswordexception/
 ---
 ## IncorrectPasswordException(string) {#constructor}
 
-Инициализирует новый экземпляр класса[`IncorrectPasswordException`](../../incorrectpasswordexception).
+Инициализирует новый экземпляр[`IncorrectPasswordException`](../../incorrectpasswordexception) класс.
 
 ```csharp
 public IncorrectPasswordException(string message)
@@ -28,7 +28,7 @@ public IncorrectPasswordException(string message)
 
 ## IncorrectPasswordException(string, Exception) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`IncorrectPasswordException`](../../incorrectpasswordexception).
+Инициализирует новый экземпляр[`IncorrectPasswordException`](../../incorrectpasswordexception) класс.
 
 ```csharp
 public IncorrectPasswordException(string message, Exception innerException)

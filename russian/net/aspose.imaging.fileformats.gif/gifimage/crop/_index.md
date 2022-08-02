@@ -31,11 +31,11 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"
 {
     Aspose.Imaging.FileFormats.Gif.GifImage gifImage = (Aspose.Imaging.FileFormats.Gif.GifImage)image;
 
-     // Обрезать изображение. Область кадрирования — это прямоугольная центральная область изображения.
+    // Обрезать изображение. Область кадрирования представляет собой прямоугольную центральную область изображения.
     Aspose.Imaging.Rectangle area = new Aspose.Imaging.Rectangle(gifImage.Width / 4, gifImage.Height / 4, gifImage.Width / 2, gifImage.Height / 2);
     gifImage.Crop(area);
 
-     // Сохраняем обрезанное изображение в PNG
+    // Сохраняем обрезанное изображение в PNG
     gifImage.Save(dir + "sample.Crop.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```

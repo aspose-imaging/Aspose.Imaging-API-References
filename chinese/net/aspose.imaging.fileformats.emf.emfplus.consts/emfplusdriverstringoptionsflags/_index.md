@@ -1,14 +1,14 @@
 ---
 title: EmfPlusDriverStringOptionsFlags
 second_title: Aspose.Imaging for .NET API 参考
-description: DriverStringOptions 标志指定图形文本定位和渲染的属性这些标志可以组合起来指定多个选项
+description: DriverStringOptions 标志指定图形文本定位和呈现的属性这些标志可以组合起来指定多个选项
 type: docs
 weight: 4790
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusdriverstringoptionsflags/
 ---
 ## EmfPlusDriverStringOptionsFlags enumeration
 
-DriverStringOptions 标志指定图形文本定位和渲染的属性。这些标志可以组合起来指定多个选项。
+DriverStringOptions 标志指定图形文本定位和呈现的属性。这些标志可以组合起来指定多个选项。
 
 ```csharp
 [Flags]
@@ -19,14 +19,14 @@ public enum EmfPlusDriverStringOptionsFlags
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| DriverStringOptionsCmapLookup | `1` | 如果设置，字符字形的位置应该在字符映射查找表中指定。 如果清除，字形位置应该从坐标数组中获得。 |
-| DriverStringOptionsVertical | `2` | 如果设置，字符串应该垂直渲染。 如果清除，字符串应该水平呈现。 |
+| DriverStringOptionsCmapLookup | `1` | 如果设置，字符字形的位置应该在字符映射查找表中指定。 如果清除，字形位置应该从坐标数组中获取。 |
+| DriverStringOptionsVertical | `2` | 如果设置，字符串应该垂直渲染。 如果清除，字符串应该水平渲染。 |
 | DriverStringOptionsRealizedAdvance | `4` | 如果设置，字符字形位置应该相对于第一个字形的位置计算。 如果清除，字形位置应该从坐标数组中获得。 |
-| DriverStringOptionsLimitSubpixel | `8` | 如果设置，应该使用更少的内存来缓存抗锯齿字形，这会产生较低质量的文本渲染。 如果清除，应该使用更多内存，这会产生更高质量的文本渲染。 |
+| DriverStringOptionsLimitSubpixel | `8` | 如果设置，应该使用更少的内存来缓存抗锯齿字形，这会产生较低质量的文本渲染。 如果清除，应该使用更多的内存，这会产生更高质量的文本渲染。 |
 
 ### 评论
 
-图形文本输出在EmfPlusDrawDriverString记录
+图形文本输出在[`EmfPlusDrawDriverString`](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring)记录
 
 ### 也可以看看
 

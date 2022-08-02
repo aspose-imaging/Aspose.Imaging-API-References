@@ -1,14 +1,14 @@
 ---
 title: ClockWise
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值指示是否顺时针
+description: 获取或设置一个值指示是否 clock wise.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odarc/clockwise/
 ---
 ## OdArc.ClockWise property
 
-获取或设置一个值，指示是否[顺时针]。
+获取或设置一个值，指示是否 [clock wise].
 
 ```csharp
 public bool ClockWise { get; set; }
@@ -16,7 +16,7 @@ public bool ClockWise { get; set; }
 
 ### 适当的价值
 
-` true` if [顺时针];否则，` false` 。
+`真的`如果 [顺时针];否则，`错误的` .
 
 ### 也可以看看
 

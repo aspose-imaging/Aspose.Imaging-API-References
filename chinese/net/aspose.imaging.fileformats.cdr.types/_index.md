@@ -13,8 +13,8 @@ url: /zh/net/aspose.imaging.fileformats.cdr.types/
 | 班级 | 描述 |
 | --- | --- |
 | [CdrColor](./cdrcolor) | cdr 颜色 |
-| [CdrGradient](./cdrgradient) | cdr 渐变 |
-| [CdrGradientStop](./cdrgradientstop) | cdr梯度停止 |
+| [CdrGradient](./cdrgradient) | cdr梯度 |
+| [CdrGradientStop](./cdrgradientstop) | cdr梯度stop |
 | [CdrImageFill](./cdrimagefill) | cdr 图像填充 |
 | [CdrTextCollection](./cdrtextcollection) | Cdr 文本集合 |
 

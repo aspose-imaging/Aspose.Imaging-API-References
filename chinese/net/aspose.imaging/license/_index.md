@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Imaging for .NET API 参考
 description: 提供许可组件的方法
 type: docs
-weight: 10380
+weight: 10370
 url: /zh/net/aspose.imaging/license/
 ---
 ## License class
@@ -18,7 +18,7 @@ public class License
 
 | 姓名 | 描述 |
 | --- | --- |
-| [License](license)() | 初始化此类的新实例。 |
+| [License](license)() | 初始化这个类的一个新实例。 |
 
 ## 方法
 
@@ -29,7 +29,7 @@ public class License
 
 ### 例子
 
-在本例中，将尝试查找名为 MyLicense.lic::的许可证文件:47:::在包含 组件的文件夹中 在包含调用程序集的文件夹中 在入口程序集的文件夹中，然后在调用程序集的嵌入资源中。
+在此示例中，将尝试在包含 组件的文件夹中，在包含调用程序集的文件夹中， 在条目程序集的文件夹中查找名为 MyLicense.lic 的许可证文件，然后在调用程序集的嵌入资源。
 
 ```csharp
 [C#]

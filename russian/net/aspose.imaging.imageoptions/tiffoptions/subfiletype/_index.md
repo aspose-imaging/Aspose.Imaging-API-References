@@ -1,14 +1,14 @@
 ---
 title: SubFileType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает общее указание на тип данных содержащихся в этом подфайле.
+description: Получает или задает общее указание типа данных содержащихся в этом подфайле.
 type: docs
 weight: 500
 url: /ru/net/aspose.imaging.imageoptions/tiffoptions/subfiletype/
 ---
 ## TiffOptions.SubFileType property
 
-Получает или задает общее указание на тип данных, содержащихся в этом подфайле.
+Получает или задает общее указание типа данных, содержащихся в этом подфайле.
 
 ```csharp
 public TiffNewSubFileTypes SubFileType { get; set; }

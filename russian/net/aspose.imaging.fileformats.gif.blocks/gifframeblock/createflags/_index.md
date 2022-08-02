@@ -18,8 +18,8 @@ public static byte CreateFlags(IColorPalette colorPalette, bool isPaletteSorted,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | colorPalette | IColorPalette | Цветовая палитра. |
-| isPaletteSorted | Boolean | если установлено значение` true` цвета в цветовой палитре сортируются. |
-| isGifFrameInterlaced | Boolean | если установлено значение` true` изображение кадра GIF чересстрочное. |
+| isPaletteSorted | Boolean | если установлено`истинный` цвета в цветовой палитре отсортированы. |
+| isGifFrameInterlaced | Boolean | если установлено`истинный` изображение кадра GIF чересстрочное. |
 
 ### Возвращаемое значение
 

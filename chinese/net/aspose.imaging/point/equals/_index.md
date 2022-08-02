@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Imaging for .NET API 参考
-description: 指定此Pointaspose.imaging/point是否包含与指定Object相同的坐标
+description: 指定这是否Pointaspose.imaging/point包含与指定相同的坐标Object .
 type: docs
 weight: 110
 url: /zh/net/aspose.imaging/point/equals/
 ---
 ## Point.Equals method
 
-指定此[`Point`](../../point)是否包含与指定Object相同的坐标。
+指定这是否[`Point`](../../point)包含与指定相同的坐标Object .
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | Object进行测试。 |
+| obj | Object | 这Object去测试。 |
 
 ### 返回值
 
-如果*obj*是[`Point`](../../point)并且具有相同的坐标这[`Point`](../../point)。
+真如果*obj*是一个[`Point`](../../point)并具有与此相同的坐标[`Point`](../../point).
 
 ### 也可以看看
 

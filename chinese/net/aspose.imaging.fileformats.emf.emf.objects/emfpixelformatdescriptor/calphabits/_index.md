@@ -1,14 +1,14 @@
 ---
 title: CAlphaBits
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 指定每个 RGBA 颜色缓冲区中 alpha 位平面的数量
+description: 获取或设置指定每个 RGBA 颜色缓冲区中 alpha 位平面的数量
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/calphabits/
 ---
 ## EmfPixelFormatDescriptor.CAlphaBits property
 
-获取或设置 指定每个 RGBA 颜色缓冲区中 alpha 位平面的数量
+获取或设置指定每个 RGBA 颜色缓冲区中 alpha 位平面的数量
 
 ```csharp
 public byte CAlphaBits { get; set; }

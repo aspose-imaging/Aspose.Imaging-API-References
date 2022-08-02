@@ -1,14 +1,14 @@
 ---
 title: Right
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект EmfPlusRegionNode определяющий правый дочерний узел данного узла региона.
+description: Получает или задает объект EmfPlusRegionNode определяющий правый дочерний узел этого узла области.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/right/
 ---
 ## EmfPlusRegionNodeChildNodes.Right property
 
-Получает или задает объект EmfPlusRegionNode, определяющий правый дочерний узел данного узла региона.
+Получает или задает объект EmfPlusRegionNode, определяющий правый дочерний узел этого узла области.
 
 ```csharp
 public EmfPlusRegionNode Right { get; set; }

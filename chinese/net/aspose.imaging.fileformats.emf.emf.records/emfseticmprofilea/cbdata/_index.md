@@ -1,14 +1,14 @@
 ---
 title: CbData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数它指定颜色配置文件数据的大小如果它 包含在数据字段中
+description: 获取或设置一个 32 位无符号整数它指定颜色配置文件数据的大小如果 it 包含在数据字段中
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/cbdata/
 ---
 ## EmfSetIcmProfileA.CbData property
 
-获取或设置一个 32 位无符号整数，它指定颜色配置文件数据的大小，如果它 包含在数据字段中。
+获取或设置一个 32 位无符号整数，它指定颜色配置文件数据的大小，如果 it 包含在数据字段中。
 
 ```csharp
 public int CbData { get; set; }

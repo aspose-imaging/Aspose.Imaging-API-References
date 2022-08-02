@@ -22,8 +22,8 @@ public ushort[] PageNumber { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | значение |
-| ArgumentOutOfRangeException | value; Ожидаемые 2 значения в массиве:PageNumber[0] — номер страницы, а PageNumber[1] — общее количество страниц в документе. |
+| ArgumentNullException | ценность |
+| ArgumentOutOfRangeException | value; Ожидаемые 2 значения в массиве: PageNumber[0] — это номер страницы, а PageNumber[1] — это общее количество страниц в документе. |
 
 ### Смотрите также
 

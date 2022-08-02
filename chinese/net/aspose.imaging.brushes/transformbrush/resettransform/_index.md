@@ -1,14 +1,14 @@
 ---
 title: ResetTransform
 second_title: Aspose.Imaging for .NET API 参考
-description: 将Transformaspose.imaging.brushes/transformbrush/transform属性重置为身份
+description: 重置Transformaspose.imaging.brushes/transformbrush/transform身份的属性.
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.brushes/transformbrush/resettransform/
 ---
 ## TransformBrush.ResetTransform method
 
-将[`Transform`](../transform)属性重置为身份。
+重置[`Transform`](../transform)身份的属性.
 
 ```csharp
 public void ResetTransform()

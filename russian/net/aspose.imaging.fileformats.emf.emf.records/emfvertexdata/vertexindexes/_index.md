@@ -1,14 +1,14 @@
 ---
 title: VertexIndexes
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив объектов nTri GradientRectangle раздел 2.2.7 или объектов GradientTriangle раздел 2.2.8 в зависимости от значение поля ulMode. Каждый объект указывает индексы в массиве объектов TriVertex в поле VertexObjects.
+description: Получает или задает массив объектов nTri GradientRectangle раздел 2.2.7 или GradientTriangle объектов раздел 2.2.8 в зависимости от значения поля ulMode. Каждый объект указывает индексы в массиве объектов TriVertex в поле VertexObjects.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfvertexdata/vertexindexes/
 ---
 ## EmfVertexData.VertexIndexes property
 
-Получает или задает массив объектов nTri GradientRectangle (раздел 2.2.7) или объектов GradientTriangle (раздел 2.2.8), в зависимости от значение поля ulMode. Каждый объект указывает индексы в массиве объектов TriVertex в поле VertexObjects.
+Получает или задает массив объектов nTri GradientRectangle (раздел 2.2.7) или GradientTriangle объектов (раздел 2.2.8), в зависимости от значения поля ulMode. Каждый объект указывает индексы в массиве объектов TriVertex в поле VertexObjects.
 
 ```csharp
 public EmfGradientRectangle[] VertexIndexes { get; set; }

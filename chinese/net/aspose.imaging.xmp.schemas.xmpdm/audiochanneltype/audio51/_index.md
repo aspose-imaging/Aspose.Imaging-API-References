@@ -16,7 +16,7 @@ public static AudioChannelType Audio51 { get; }
 
 ### 适当的价值
 
-5.1 音频通道。
+5.1 声道。
 
 ### 也可以看看
 

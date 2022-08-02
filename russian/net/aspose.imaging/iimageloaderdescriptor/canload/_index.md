@@ -1,14 +1,14 @@
 ---
 title: CanLoad
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Определяет может ли загрузчик изображений читать новое изображение из указанного потока и необязательно используяloadOptions.
+description: Определяет может ли загрузчик изображений читать новое изображение из указанного потока и при необходимости с помощьюloadOptions .
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging/iimageloaderdescriptor/canload/
 ---
 ## IImageLoaderDescriptor.CanLoad method
 
-Определяет, может ли загрузчик изображений читать новое изображение из указанного потока и, необязательно, используя*loadOptions*.
+Определяет, может ли загрузчик изображений читать новое изображение из указанного потока и, при необходимости, с помощью*loadOptions* .
 
 ```csharp
 public bool CanLoad(StreamContainer streamContainer, LoadOptions loadOptions)
@@ -17,11 +17,11 @@ public bool CanLoad(StreamContainer streamContainer, LoadOptions loadOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | streamContainer | StreamContainer | Контейнер потока. |
-| loadOptions | LoadOptions | Детали формата файла, указанные*loadOptions*. Параметр*loadOptions*может быть нулевым. |
+| loadOptions | LoadOptions | Детали формата файла, указанные*loadOptions* .*loadOptions* может быть нулевым. |
 
 ### Возвращаемое значение
 
-` true` если загрузчик изображений, созданный этим дескриптором, может читать изображение из потока; в противном случае` false` .
+`истинный` может ли загрузчик изображений, созданный этим дескриптором, читать изображение из потока; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

@@ -18,7 +18,7 @@ public interface IImageLoader
 
 | Имя | Описание |
 | --- | --- |
-| [Load](../../aspose.imaging/iimageloader/load)(StreamContainer, LoadOptions) | Открывает новое изображение с &lt;paramref name="loadOptions"&gt;&lt;/paramref&gt;. |
+| [Load](../../aspose.imaging/iimageloader/load)(StreamContainer, LoadOptions) | Открывает новое изображение с*loadOptions* . |
 
 ### Смотрите также
 

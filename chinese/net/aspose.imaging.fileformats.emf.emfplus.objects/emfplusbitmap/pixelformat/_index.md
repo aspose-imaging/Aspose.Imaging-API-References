@@ -1,14 +1,14 @@
 ---
 title: PixelFormat
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置像素格式 PixelFormat4 字节一个 32 位无符号整数指定组成像素的格式位图 图像支持的像素格式在EmfPlusPixelFormataspose.imaging.fileformats.emf.emfplus.consts/emfpluspixelformat枚举第 2.1.1.25 节中指定 如果图像被压缩根据 Type 字段这个值是未定义的并且必须被忽略
+description: 获取或设置像素格式 PixelFormat4 字节一个 32 位无符号整数指定构成 bitmap 图像的像素格式支持的像素格式在EmfPlusPixelFormataspose.imaging.fileformats.emf.emfplus.consts/emfpluspixelformatenumeration section 2.1.1.25. 如果图像被压缩根据Type字段这个值是未定义的必须被忽略
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap/pixelformat/
 ---
 ## EmfPlusBitmap.PixelFormat property
 
-获取或设置像素格式 PixelFormat（4 字节）:一个 32 位无符号整数，指定组成像素的格式位图 图像。支持的像素格式在[`EmfPlusPixelFormat`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfpluspixelformat)枚举（第 2.1.1.25 节）中指定。 如果图像被压缩，根据 Type 字段，这个值是未定义的并且必须被忽略。
+获取或设置像素格式 PixelFormat（4 字节）：一个 32 位无符号整数，指定构成 bitmap 图像的像素格式。支持的像素格式在[`EmfPlusPixelFormat`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfpluspixelformat)enumeration (section 2.1.1.25). 如果图像被压缩，根据Type字段，这个值是未定义的，必须被忽略。
 
 ```csharp
 public EmfPlusPixelFormat PixelFormat { get; set; }

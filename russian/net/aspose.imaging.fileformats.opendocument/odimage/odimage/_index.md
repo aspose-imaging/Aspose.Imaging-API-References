@@ -1,14 +1,14 @@
 ---
 title: OdImage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdImageaspose.imaging.fileformats.opendocument/odimage.
+description: Инициализирует новый экземплярOdImageaspose.imaging.fileformats.opendocument/odimage класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument/odimage/odimage/
 ---
 ## OdImage(StreamContainer, LoadOptions) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`OdImage`](../../odimage).
+Инициализирует новый экземпляр[`OdImage`](../../odimage) класс.
 
 ```csharp
 public OdImage(StreamContainer streamContainer, LoadOptions options)
@@ -17,7 +17,7 @@ public OdImage(StreamContainer streamContainer, LoadOptions options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | streamContainer | StreamContainer | Поток. |
-| options | LoadOptions | Параметры загрузки. |
+| options | LoadOptions | Варианты загрузки. |
 
 ### Смотрите также
 
@@ -31,7 +31,7 @@ public OdImage(StreamContainer streamContainer, LoadOptions options)
 
 ## OdImage(StreamContainer) {#constructor}
 
-Инициализирует новый экземпляр класса[`OdImage`](../../odimage).
+Инициализирует новый экземпляр[`OdImage`](../../odimage) класс.
 
 ```csharp
 public OdImage(StreamContainer streamContainer)

@@ -18,15 +18,15 @@ public class LengthRecord : VectorPathRecord
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LengthRecord](lengthrecord#constructor)() | 初始化[`LengthRecord`](../lengthrecord)类的新实例。 |
-| [LengthRecord](lengthrecord#constructor_1)(byte[]) | 初始化[`LengthRecord`](../lengthrecord)类的新实例。 |
+| [LengthRecord](lengthrecord#constructor)() | 初始化[`LengthRecord`](../lengthrecord)类. |
+| [LengthRecord](lengthrecord#constructor_1)(byte[]) | 初始化[`LengthRecord`](../lengthrecord)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [BezierKnotRecordsCount](../../aspose.imaging.fileformats.core.vectorpaths/lengthrecord/bezierknotrecordscount) { get; set; } | 获取或设置贝塞尔结记录数。 |
-| [IsClosed](../../aspose.imaging.fileformats.core.vectorpaths/lengthrecord/isclosed) { get; set; } | 获取或设置一个指示此实例是否关闭的值。 |
+| [IsClosed](../../aspose.imaging.fileformats.core.vectorpaths/lengthrecord/isclosed) { get; set; } | 获取或设置一个值，指示此实例是否关闭。 |
 | [IsOpen](../../aspose.imaging.fileformats.core.vectorpaths/lengthrecord/isopen) { get; set; } | 获取或设置一个指示此实例是否打开的值。 |
 | [PathOperations](../../aspose.imaging.fileformats.core.vectorpaths/lengthrecord/pathoperations) { get; set; } | 获取或设置路径操作。 |
 | [RecordCount](../../aspose.imaging.fileformats.core.vectorpaths/lengthrecord/recordcount) { get; set; } | 获取或设置记录数。 |

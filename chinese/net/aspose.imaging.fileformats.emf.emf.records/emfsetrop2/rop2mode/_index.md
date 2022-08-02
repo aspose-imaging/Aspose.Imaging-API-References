@@ -1,14 +1,14 @@
 ---
 title: Rop2Mode
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定光栅操作模式的 32 位无符号整数并且 必须在 WMF 二进制光栅操作枚举中MS -WMF 第 2.1.1.2 节
+description: 获取或设置一个指定光栅操作模式的 32 位无符号整数 必须在 WMF 二进制光栅操作枚举中MS-WMF 第 2.1.1.2 节
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetrop2/rop2mode/
 ---
 ## EmfSetRop2.Rop2Mode property
 
-获取或设置指定光栅操作模式的 32 位无符号整数，并且 必须在 WMF 二进制光栅操作枚举中（[MS -WMF] 第 2.1.1.2 节）。
+获取或设置一个指定光栅操作模式的 32 位无符号整数， 必须在 WMF 二进制光栅操作枚举中（[MS-WMF] 第 2.1.1.2 节）。
 
 ```csharp
 public WmfBinaryRasterOperation Rop2Mode { get; set; }

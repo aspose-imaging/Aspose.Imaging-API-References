@@ -1,14 +1,14 @@
 ---
 title: Reference
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 WMF PointL 对象MS-WMF 第 2.2.2.15 节该对象指定 参考点的坐标用于定位字符串参考点由最后一个 EMR_SETTEXTALIGN 记录定义第 2.3.11.25 节如果没有设置这样的记录 默认对齐方式是 TA_LEFTTA_TOP
+description: 获取或设置一个 WMF PointL 对象MS-WMF 第 2.2.2.15 节该对象指定用于定位字符串的 参考点的坐标参考点由最后的 EMR_SETTEXTALIGN 记录定义第 2.3.11.25 节如果没有设置这样的记录 默认对齐方式是TA_LEFTTA_TOP.
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emftext/reference/
 ---
 ## EmfText.Reference property
 
-获取或设置一个 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定 参考点的坐标用于定位字符串。参考点由最后一个 EMR_SETTEXTALIGN 记录定义（第 2.3.11.25 节）。如果没有设置这样的记录， 默认对齐方式是 TA_LEFT,TA_TOP。
+获取或设置一个 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定用于定位字符串的 参考点的坐标。参考点由最后的 EMR_SETTEXTALIGN 记录定义（第 2.3.11.25 节）。如果没有设置这样的记录， 默认对齐方式是TA_LEFT,TA_TOP.
 
 ```csharp
 public Point Reference { get; set; }

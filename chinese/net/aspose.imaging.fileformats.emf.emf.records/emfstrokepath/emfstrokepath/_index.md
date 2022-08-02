@@ -1,14 +1,14 @@
 ---
 title: EmfStrokePath
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfStrokePathaspose.imaging.fileformats.emf.emf.records/emfstrokepath类的新实例
+description: 初始化EmfStrokePathaspose.imaging.fileformats.emf.emf.records/emfstrokepath类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfstrokepath/emfstrokepath/
 ---
 ## EmfStrokePath(EmfRecord) {#constructor_1}
 
-初始化[`EmfStrokePath`](../../emfstrokepath)类的新实例。
+初始化[`EmfStrokePath`](../../emfstrokepath)类.
 
 ```csharp
 public EmfStrokePath(EmfRecord record)
@@ -29,7 +29,7 @@ public EmfStrokePath(EmfRecord record)
 
 ## EmfStrokePath() {#constructor}
 
-初始化[`EmfStrokePath`](../../emfstrokepath)类的新实例。
+初始化[`EmfStrokePath`](../../emfstrokepath)类.
 
 ```csharp
 public EmfStrokePath()

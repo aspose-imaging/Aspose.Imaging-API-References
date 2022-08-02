@@ -1,14 +1,14 @@
 ---
 title: BitmapBuffer
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает буфер содержащий упакованный DIB в форме объекта WMF DeviceIndependentBitmap MS-WMF раздел 2.2.2.9 . Не требуется чтобы совпадал с фиксированной частью записи EMR_CREATEDIBPATTERNBRUSHPT.
+description: Получает или задает буфер содержащий упакованный DIB в форме объекта WMF DeviceIndependentBitmap MS-WMF раздел 2.2.2.9. Не требуется чтобы он был непрерывным с фиксированной частью записи EMR_CREATEDIBPATTERNBRUSHPT.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcreatemonobrush/bitmapbuffer/
 ---
 ## EmfCreateMonoBrush.BitmapBuffer property
 
-Получает или задает буфер, содержащий упакованный DIB в форме объекта WMF DeviceIndependentBitmap ([MS-WMF], раздел 2.2.2.9) . Не требуется, чтобы совпадал с фиксированной частью записи EMR_CREATEDIBPATTERNBRUSHPT.
+Получает или задает буфер, содержащий упакованный DIB в форме объекта WMF DeviceIndependentBitmap ([MS-WMF], раздел 2.2.2.9). Не требуется, чтобы он был непрерывным с фиксированной частью записи EMR_CREATEDIBPATTERNBRUSHPT.
 
 ```csharp
 public WmfDeviceIndependentBitmap BitmapBuffer { get; set; }

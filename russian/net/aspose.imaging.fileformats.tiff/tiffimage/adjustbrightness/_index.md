@@ -1,14 +1,14 @@
 ---
 title: AdjustBrightness
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Регулировкаяркостидля изображения.
+description: Настройкаbrightness для изображения.
 type: docs
 weight: 170
 url: /ru/net/aspose.imaging.fileformats.tiff/tiffimage/adjustbrightness/
 ---
 ## TiffImage.AdjustBrightness method
 
-Регулировка*яркости*для изображения.
+Настройка*brightness* для изображения.
 
 ```csharp
 public override void AdjustBrightness(int brightness)
@@ -31,7 +31,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"
 {
     Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)image;
 
-     // Установить значение яркости. Допустимые значения яркости находятся в диапазоне [-255, 255].
+    // Установить значение яркости. Принятые значения яркости находятся в диапазоне [-255, 255].
     tiffImage.AdjustBrightness(50);
     tiffImage.Save(dir + "sample.AdjustBrightness.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }

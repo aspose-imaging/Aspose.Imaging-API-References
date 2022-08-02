@@ -1,14 +1,14 @@
 ---
 title: ExifExposureMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: exif режим экспозиции enum.
+description: режим экспонирования exif enum.
 type: docs
 weight: 910
 url: /ru/net/aspose.imaging.exif.enums/exifexposuremode/
 ---
 ## ExifExposureMode enumeration
 
-exif режим экспозиции enum.
+режим экспонирования exif enum.
 
 ```csharp
 public enum ExifExposureMode
@@ -20,7 +20,7 @@ public enum ExifExposureMode
 | --- | --- | --- |
 | Auto | `0` | Автоматическая экспозиция. |
 | Manual | `1` | Ручная экспозиция. |
-| AutoBracket | `2` | Автоматический брекет. |
+| AutoBracket | `2` | Автобрекетинг. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: PageUnit
 second_title: Aspose.Imaging for .NET API 参考
-description: 从 UnitType 枚举第 2.1.1.33 节获取页面空间坐标的度量单位这个值不应该是 UnitTypeDisplay 或 UnitTypeWorld
+description: 从 UnitType 枚举第 2.1.1.33 节中获取页面空间坐标的测量单位这个值不应该是 UnitTypeDisplay 或 UnitTypeWorld.
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetpagetransform/pageunit/
 ---
 ## EmfPlusSetPageTransform.PageUnit property
 
-从 UnitType 枚举（第 2.1.1.33 节）获取页面空间坐标的度量单位。这个值不应该是 UnitTypeDisplay 或 UnitTypeWorld。
+从 UnitType 枚举（第 2.1.1.33 节）中获取页面空间坐标的测量单位。这个值不应该是 UnitTypeDisplay 或 UnitTypeWorld.
 
 ```csharp
 public EmfPlusUnitType PageUnit { get; }

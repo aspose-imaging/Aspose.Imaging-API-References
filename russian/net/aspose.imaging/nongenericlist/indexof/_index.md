@@ -1,14 +1,14 @@
 ---
 title: IndexOf
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Определяет индекс определенного элемента вIList.
+description: Определяет индекс конкретного элемента вIList .
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging/nongenericlist/indexof/
 ---
 ## NonGenericList.IndexOf method
 
-Определяет индекс определенного элемента вIList.
+Определяет индекс конкретного элемента вIList .
 
 ```csharp
 public int IndexOf(object value)
@@ -16,11 +16,11 @@ public int IndexOf(object value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | Object | ОбъектObjectдля размещения вIList. |
+| value | Object | Object найти вIList. |
 
 ### Возвращаемое значение
 
-Индекс*value*если он найден в списке; иначе -1.
+Индекс*value*если найдено в списке; иначе -1.
 
 ### Смотрите также
 

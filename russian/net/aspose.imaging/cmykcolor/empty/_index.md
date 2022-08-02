@@ -1,14 +1,14 @@
 ---
 title: Empty
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает пустое значение.
+description: Получает пустой.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging/cmykcolor/empty/
 ---
 ## CmykColor.Empty property
 
-Получает пустое значение.
+Получает пустой.
 
 ```csharp
 public static CmykColor Empty { get; }

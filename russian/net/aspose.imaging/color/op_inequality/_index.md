@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Проверяет различаются ли две указанные структурыColoraspose.imaging/color.
+description: Проверяет являются ли два указанныхColoraspose.imaging/color структуры разные.
 type: docs
 weight: 1630
 url: /ru/net/aspose.imaging/color/op_inequality/
 ---
 ## Color Inequality operator
 
-Проверяет, различаются ли две указанные структуры[`Color`](../../color).
+Проверяет, являются ли два указанных[`Color`](../../color) структуры разные.
 
 ```csharp
 public static bool operator !=(Color left, Color right)
@@ -16,12 +16,12 @@ public static bool operator !=(Color left, Color right)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| left | Color | [`Color`](../../color)слева от оператора неравенства . |
-| right | Color | [`Color`](../../color)справа от оператора неравенства. |
+| left | Color | [`Color`](../../color) слева от оператора неравенства. |
+| right | Color | [`Color`](../../color) то есть справа от оператора неравенства. |
 
 ### Возвращаемое значение
 
-Истинно, если две структуры[`Color`](../../color)различны; в противном случае ложно.
+Правда, если два[`Color`](../../color) структуры разные; в противном случае ложно.
 
 ### Смотрите также
 

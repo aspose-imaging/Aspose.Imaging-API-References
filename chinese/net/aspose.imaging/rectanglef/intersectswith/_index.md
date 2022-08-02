@@ -1,14 +1,14 @@
 ---
 title: IntersectsWith
 second_title: Aspose.Imaging for .NET API 参考
-description: 确定此矩形是否与rect相交
+description: 确定此矩形是否与rect .
 type: docs
 weight: 220
 url: /zh/net/aspose.imaging/rectanglef/intersectswith/
 ---
 ## RectangleF.IntersectsWith method
 
-确定此矩形是否与*rect*相交。
+确定此矩形是否与*rect* .
 
 ```csharp
 public bool IntersectsWith(RectangleF rect)

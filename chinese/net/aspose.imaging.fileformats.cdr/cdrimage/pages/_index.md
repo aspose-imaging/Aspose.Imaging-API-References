@@ -16,40 +16,32 @@ public override Image[] Pages { get; }
 
 ### 适当的价值
 
-页面。
+页数。
 
 ### 例子
 
-以下示例说明如何缓存 CDR 映像的所有页面。
+以下示例显示如何缓存 CDR 映像的所有页面。
 
 ```csharp
 [C#]
 
-int pageNumber = 0;
-string dir = "c:\\aspose.imaging\\issues\\net\\3635\\testdata\\3570";
-string inputCdrFileName = System.IO.Path.Combine(dir, "tiger.cdr");
-string outputPdfFileName = System.IO.Path.Combine(dir, "tiger.cdr.page" + pageNumber + ".pdf");
+string dir = "c:\\temp\\";
 
-using (Aspose.Imaging.FileFormats.Cdr.CdrImage image = (Aspose.Imaging.FileFormats.Cdr.CdrImage) Aspose.Imaging.Image.Load(inputCdrFileName))
+// 从 CDR 文件加载图像。
+using (Aspose.Imaging.FileFormats.Cdr.CdrImage image = (Aspose.Imaging.FileFormats.Cdr.CdrImage)Aspose.Imaging.Image.Load(dir + "sample.cdr"))
 {
-    Aspose.Imaging.FileFormats.Cdr.CdrImagePage imagePage = (Aspose.Imaging.FileFormats.Cdr.CdrImagePage) image.Pages[pageNumber];
+    // 此调用仅缓存默认页面。
+    image.CacheData();
 
-    Aspose.Imaging.ImageOptions.PdfOptions pdfOptions = new Aspose.Imaging.ImageOptions.PdfOptions();
-    Aspose.Imaging.ImageOptions.CdrRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.CdrRasterizationOptions()
+    // 缓存所有页面，这样就不会从底层数据流执行额外的数据加载。
+    foreach (Aspose.Imaging.FileFormats.Cdr.CdrImagePage page in image.Pages)
     {
-        TextRenderingHint = Aspose.Imaging.TextRenderingHint.SingleBitPerPixel,
-        SmoothingMode = Aspose.Imaging.SmoothingMode.None
-    };
-
-    pdfOptions.VectorRasterizationOptions = rasterizationOptions;
-    pdfOptions.VectorRasterizationOptions.PageWidth = imagePage.Width;
-    pdfOptions.VectorRasterizationOptions.PageHeight = imagePage.Height;
-
-    imagePage.Save(outputPdfFileName, pdfOptions);
+        page.CacheData();
+    }
 }
 ```
 
-以下示例说明如何将单页 CDR 文档导出为 PDF。
+以下示例显示如何将单页 CDR 文档导出为 PDF。
 
 ```csharp
 [C#]

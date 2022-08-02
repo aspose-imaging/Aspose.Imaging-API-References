@@ -1,14 +1,14 @@
 ---
 title: EmfPlusRecord
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPlusRecordaspose.imaging.fileformats.emf.emfplus.records/emfplusrecord类的新实例
+description: 初始化EmfPlusRecordaspose.imaging.fileformats.emf.emfplus.records/emfplusrecord类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/emfplusrecord/
 ---
 ## EmfPlusRecord() {#constructor}
 
-初始化[`EmfPlusRecord`](../../emfplusrecord)类的新实例。
+初始化[`EmfPlusRecord`](../../emfplusrecord)类.
 
 ```csharp
 public EmfPlusRecord()
@@ -24,7 +24,7 @@ public EmfPlusRecord()
 
 ## EmfPlusRecord(EmfPlusRecord) {#constructor_1}
 
-初始化[`EmfPlusRecord`](../../emfplusrecord)类的新实例。
+初始化[`EmfPlusRecord`](../../emfplusrecord)类.
 
 ```csharp
 public EmfPlusRecord(EmfPlusRecord source)
@@ -32,7 +32,7 @@ public EmfPlusRecord(EmfPlusRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfPlusRecord | 源。 |
+| source | EmfPlusRecord | 来源。 |
 
 ### 也可以看看
 

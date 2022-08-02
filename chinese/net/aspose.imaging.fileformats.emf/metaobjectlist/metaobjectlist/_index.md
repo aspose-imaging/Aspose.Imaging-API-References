@@ -1,14 +1,14 @@
 ---
 title: MetaObjectList
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化MetaObjectListaspose.imaging.fileformats.emf/metaobjectlist类的新实例
+description: 初始化MetaObjectListaspose.imaging.fileformats.emf/metaobjectlist类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf/metaobjectlist/metaobjectlist/
 ---
 ## MetaObjectList(IList) {#constructor_1}
 
-初始化[`MetaObjectList`](../../metaobjectlist)类的新实例。
+初始化[`MetaObjectList`](../../metaobjectlist)类.
 
 ```csharp
 public MetaObjectList(IList list)
@@ -16,7 +16,7 @@ public MetaObjectList(IList list)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| list | IList | 列表 - 对象容器。 |
+| list | IList | 列表 - 对象的容器。 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public MetaObjectList(IList list)
 
 ## MetaObjectList() {#constructor}
 
-初始化[`MetaObjectList`](../../metaobjectlist)类的新实例。
+初始化[`MetaObjectList`](../../metaobjectlist)类.
 
 ```csharp
 public MetaObjectList()

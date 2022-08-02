@@ -1,14 +1,14 @@
 ---
 title: EmfPlusPath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект EmfPlusPath задает ряд сегментов линий и кривых образующих графический контур. Порядок для точек данных Безьеначальная точка контрольная точка 1 контрольная точка 2 и конечная точка. Для дополнительную информацию см. в MSDN - DrawBeziers.
+description: Объект EmfPlusPath задает ряд сегментов линий и кривых которые формируют графический контур. Порядок для точек данных Безье начальная точка контрольная точка 1 контрольная точка 2 и конечная точка. Более подробную информацию о см. в MSDN - DrawBeziers.
 type: docs
 weight: 5610
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath/
 ---
 ## EmfPlusPath class
 
-Объект EmfPlusPath задает ряд сегментов линий и кривых, образующих графический контур. Порядок для точек данных Безье:начальная точка, контрольная точка 1, контрольная точка 2 и конечная точка. Для дополнительную информацию см. в [MSDN - DrawBeziers].
+Объект EmfPlusPath задает ряд сегментов линий и кривых, которые формируют графический контур. Порядок для точек данных Безье: начальная точка, контрольная точка 1, контрольная точка 2 и конечная точка. Более подробную информацию о см. в [MSDN - DrawBeziers].
 
 ```csharp
 public sealed class EmfPlusPath : EmfPlusGraphicsObjectType
@@ -24,9 +24,9 @@ public sealed class EmfPlusPath : EmfPlusGraphicsObjectType
 
 | Имя | Описание |
 | --- | --- |
-| [PathPointFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath/pathpointflags) { get; set; } | Получает или задает количество точек пути 32-разрядное целое число без знака, указывающее, как интерпретировать точки и связанные типы точек, определенные этим объект |
-| [PathPoints](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath/pathpoints) { get; set; } | Получает или задает массив точек пути Массив точек PathPointCount, указывающих путь. Тип объектов в этом массиве определяется полем PathPointFlags следующим образом: Если флаг P установлен, точки являются относительными положениями, указанными объектами EmfPlusPointR (раздел 2.2.2.37). Если флаг P сброшен, а флаг C установлен, точки являются абсолютными положениями, указанными объектами EmfPlusPoint (раздел 2.2.2.35). Если флаг P сброшен, а флаг C сброшен, точки являются абсолютными положениями, указанными объектами EmfPlusPointF (раздел 2.2.2.36). |
-| [PathPointTypes](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath/pathpointtypes) { get; set; } | Получает или задает массив, указывающий, как точки в поле PathPoints используются для рисования пути. Тип объектов в этом массиве задается флагом R в поле PathPointFlags |
+| [PathPointFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath/pathpointflags) { get; set; } | Получает или задает количество точек пути 32-разрядное целое число без знака, указывающее, как интерпретировать точки и связанные типы точек, определенные этим объектом |
+| [PathPoints](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath/pathpoints) { get; set; } | Получает или задает массив точек пути. Массив точек PathPointCount, определяющих путь. Тип объектов в этом массиве определяется полем PathPointFlags следующим образом: Если флаг P установлен, точки являются относительными положениями, указанными объектами EmfPlusPointR (раздел 2.2.2.37). Если флаг P снят и флаг C установлен, точки являются абсолютными местоположениями, указанными объектами EmfPlusPoint (раздел 2.2.2.35). Если флаг P снят, а флаг C снят, точки являются абсолютными местоположениями, указанными объектами EmfPlusPointF (раздел 2.2.2.36). |
+| [PathPointTypes](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath/pathpointtypes) { get; set; } | Получает или задает массив, указывающий, как точки в поле PathPoints используются для рисования пути. Тип объектов в этом массиве определяется флагом R в поле PathPointFlags |
 | [Version](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsobjecttype/version) { get; set; } | Получает или задает версию. |
 
 ### Смотрите также

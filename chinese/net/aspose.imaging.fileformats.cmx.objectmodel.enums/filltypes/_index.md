@@ -20,9 +20,9 @@ public enum FillTypes
 | --- | --- | --- |
 | Unknown | `0` | 未知填充类型。 |
 | NoFill | `1` | 无需填充 |
-| Uniform | `2` | 均匀填充。 应用纯色填充颜色。 |
+| Uniform | `2` | 均匀填充。 应用纯色填充。 |
 | Fountain | `3` | 喷泉填充。 应用颜色或阴影渐变。 |
-| Postscript | `4` | 后记填充。 应用复杂的 PostScript 纹理填充。 |
+| Postscript | `4` | Postscript 填充。 应用复杂的 PostScript 纹理填充。 |
 | TwoColorPattern | `5` | 双色图案填充。 |
 | ImportedBitmap | `6` | 位图图案填充。 |
 | FullColorPattern | `7` | 矢量图案填充。 |

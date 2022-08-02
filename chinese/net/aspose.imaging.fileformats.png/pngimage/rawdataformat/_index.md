@@ -38,7 +38,7 @@ foreach (string fileName in fileNames)
 }
 
 // 输出可能如下所示：
-    // ImageFile=c:\temp\sample.png, FileFormat=Rgb24Bpp, 使用的通道：8,8,8, HasAlpha=False
+// ImageFile=c:\temp\sample.png, FileFormat=Rgb24Bpp, 使用的通道：8,8,8, HasAlpha=False
 // ImageFile=c:\temp\alpha.png, FileFormat=RGBA32Bpp, 使用通道: 8,8,8,8, HasAlpha=True
 ```
 

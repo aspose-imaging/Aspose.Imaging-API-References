@@ -1,14 +1,14 @@
 ---
 title: OdMeasure
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化OdMeasureaspose.imaging.fileformats.opendocument.objects.graphic/odmeasure类的新实例
+description: 初始化OdMeasureaspose.imaging.fileformats.opendocument.objects.graphic/odmeasure类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odmeasure/odmeasure/
 ---
 ## OdMeasure constructor
 
-初始化[`OdMeasure`](../../odmeasure)类的新实例。
+初始化[`OdMeasure`](../../odmeasure)类.
 
 ```csharp
 public OdMeasure(OdObject parent)
@@ -16,7 +16,7 @@ public OdMeasure(OdObject parent)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | OdObject | 父级。 |
+| parent | OdObject | 家长。 |
 
 ### 也可以看看
 

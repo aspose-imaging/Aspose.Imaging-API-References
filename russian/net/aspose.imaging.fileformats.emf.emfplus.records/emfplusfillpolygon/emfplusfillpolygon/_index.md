@@ -1,14 +1,14 @@
 ---
 title: EmfPlusFillPolygon
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusFillPolygonaspose.imaging.fileformats.emf.emfplus.records/emfplusfillpolygon.
+description: Инициализирует новый экземплярEmfPlusFillPolygonaspose.imaging.fileformats.emf.emfplus.records/emfplusfillpolygon класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpolygon/emfplusfillpolygon/
 ---
 ## EmfPlusFillPolygon constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusFillPolygon`](../../emfplusfillpolygon).
+Инициализирует новый экземпляр[`EmfPlusFillPolygon`](../../emfplusfillpolygon) класс.
 
 ```csharp
 public EmfPlusFillPolygon(EmfPlusRecord source)

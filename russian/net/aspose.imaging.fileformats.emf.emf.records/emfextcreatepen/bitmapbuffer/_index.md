@@ -1,14 +1,14 @@
 ---
 title: BitmapBuffer
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает необязательный буфер содержащий упакованный DIB в форме объекта WMF DeviceIndependentBitmap MS-WMF раздел 2.2.2.9 . Не требуется чтобы он был непрерывным с фиксированной частью записи EMR_EXTCREATEPEN
+description: Получает или задает необязательный буфер содержащий упакованный DIB в форме WMF DeviceIndependentBitmap object MS-WMF раздел 2.2.2.9. Не требуется чтобы он был непрерывным с фиксированной частью EMR_EXTCREATEPEN record .
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/bitmapbuffer/
 ---
 ## EmfExtCreatePen.BitmapBuffer property
 
-Получает или задает необязательный буфер, содержащий упакованный DIB в форме объекта WMF DeviceIndependentBitmap ([MS-WMF], раздел 2.2.2.9 ). Не требуется, чтобы он был непрерывным с фиксированной частью записи EMR_EXTCREATEPEN
+Получает или задает необязательный буфер, содержащий упакованный DIB в форме WMF DeviceIndependentBitmap object ([MS-WMF], раздел 2.2.2.9). Не требуется, чтобы он был непрерывным с фиксированной частью EMR_EXTCREATEPEN record .
 
 ```csharp
 public WmfDeviceIndependentBitmap BitmapBuffer { get; set; }

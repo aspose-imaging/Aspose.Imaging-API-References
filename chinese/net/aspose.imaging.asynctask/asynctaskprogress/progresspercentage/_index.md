@@ -1,14 +1,14 @@
 ---
 title: ProgressPercentage
 second_title: Aspose.Imaging for .NET API 参考
-description: 异步任务的进度百分比
+description: 异步任务的进度以百分比为单位
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.asynctask/asynctaskprogress/progresspercentage/
 ---
 ## AsyncTaskProgress.ProgressPercentage field
 
-异步任务的进度，百分比。
+异步任务的进度，以百分比为单位。
 
 ```csharp
 public readonly int ProgressPercentage;

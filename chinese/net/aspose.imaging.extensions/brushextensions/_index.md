@@ -1,14 +1,14 @@
 ---
 title: BrushExtensions
 second_title: Aspose.Imaging for .NET API 参考
-description: 包含Brush../aspose.imaging/brush和Brush的扩展方法.
+description: 包含扩展方法Brush../aspose.imaging/brush和Brush .
 type: docs
 weight: 1120
 url: /zh/net/aspose.imaging.extensions/brushextensions/
 ---
 ## BrushExtensions class
 
-包含[`Brush`](../../aspose.imaging/brush)和Brush的扩展方法.
+包含扩展方法[`Brush`](../../aspose.imaging/brush)和Brush .
 
 ```csharp
 public static class BrushExtensions
@@ -18,7 +18,7 @@ public static class BrushExtensions
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [ToGdiBrush](../../aspose.imaging.extensions/brushextensions/togdibrush)(Brush) | 将[`Brush`](../../aspose.imaging/brush)转换为Brush。 |
+| static [ToGdiBrush](../../aspose.imaging.extensions/brushextensions/togdibrush)(Brush) | 转换[`Brush`](../../aspose.imaging/brush)到Brush . |
 
 ### 也可以看看
 

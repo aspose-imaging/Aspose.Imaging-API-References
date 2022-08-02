@@ -1,14 +1,14 @@
 ---
 title: SetResolution
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Устанавливает разрешение для этогоRasterImageaspose.imaging/rasterimage.
+description: Устанавливает разрешение для этогоRasterImageaspose.imaging/rasterimage .
 type: docs
 weight: 340
 url: /ru/net/aspose.imaging.fileformats.dicom/dicomimage/setresolution/
 ---
 ## DicomImage.SetResolution method
 
-Устанавливает разрешение для этого[`RasterImage`](../../../aspose.imaging/rasterimage).
+Устанавливает разрешение для этого[`RasterImage`](../../../aspose.imaging/rasterimage) .
 
 ```csharp
 public override void SetResolution(double dpiX, double dpiY)
@@ -16,8 +16,8 @@ public override void SetResolution(double dpiX, double dpiY)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dpiX | Double | Горизонтальное разрешение, в точках на дюйм, для[`RasterImage`](../../../aspose.imaging/rasterimage). |
-| dpiY | Double | Вертикальное разрешение в точках на дюйм для[`RasterImage`](../../../aspose.imaging/rasterimage). |
+| dpiX | Double | Горизонтальное разрешение, в точках на дюйм,[`RasterImage`](../../../aspose.imaging/rasterimage). |
+| dpiY | Double | Вертикальное разрешение, в точках на дюйм,[`RasterImage`](../../../aspose.imaging/rasterimage). |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: EmfPlusImageAttributes
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект EmfPlusImageAttributes указывает как цвета растрового изображения манипулируются во время рендеринга.
+description: Объект EmfPlusImageAttributes указывает как цвета растрового изображения image обрабатываются во время рендеринга.
 type: docs
 weight: 5510
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageattributes/
 ---
 ## EmfPlusImageAttributes class
 
-Объект EmfPlusImageAttributes указывает, как цвета растрового изображения манипулируются во время рендеринга.
+Объект EmfPlusImageAttributes указывает, как цвета растрового изображения image обрабатываются во время рендеринга.
 
 ```csharp
 public sealed class EmfPlusImageAttributes : EmfPlusGraphicsObjectType
@@ -24,10 +24,10 @@ public sealed class EmfPlusImageAttributes : EmfPlusGraphicsObjectType
 
 | Имя | Описание |
 | --- | --- |
-| [ClampArgb32Color](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageattributes/clampargb32color) { get; set; } | Получает или задает объект EmfPlusARGB (раздел 2.2.2.1), указывающий используемый цвет края , когда значение WrapMode равно WrapModeClamp. Этот цвет виден, когда исходный прямоугольник , обработанный записью EmfPlusDrawImage (раздел 2.3.4.8) , больше, чем само изображение. |
+| [ClampArgb32Color](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageattributes/clampargb32color) { get; set; } | Получает или задает объект EmfPlusARGB (раздел 2.2.2.1), который указывает цвет края для использования , когда значение WrapMode равно WrapModeClamp. Этот цвет виден, когда исходный прямоугольник , обработанный EmfPlusDrawImage (раздел 2.3.4.8) record , больше, чем само изображение. |
 | [ObjectClamp](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageattributes/objectclamp) { get; set; } | Получает или задает 32-разрядное целое число со знаком, определяющее поведение фиксации объекта. Он не используется до тех пор, пока этот объект не будет применен к рисуемому изображению. Это значение ДОЛЖНО быть одним из значений, определенных в следующей таблице . |
 | [Version](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsobjecttype/version) { get; set; } | Получает или задает версию. |
-| [WrapMode](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageattributes/wrapmode) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее, как обрабатывать краевые условия с значением из перечисления WrapMode (раздел 2.1.1.34). ). |
+| [WrapMode](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageattributes/wrapmode) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее, как обрабатывать пограничные условия с значением из перечисления WrapMode (раздел 2.1.1.34). |
 
 ### Смотрите также
 

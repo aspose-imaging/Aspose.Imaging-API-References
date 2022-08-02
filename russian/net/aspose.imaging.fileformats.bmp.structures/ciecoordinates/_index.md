@@ -1,14 +1,14 @@
 ---
 title: CieCoordinates
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Класс содержит координаты xy и z определенного цвета в указанном цветовом пространстве.
+description: Класс содержит координаты x y и z определенного цвета в указанном цветовом пространстве.
 type: docs
 weight: 1400
 url: /ru/net/aspose.imaging.fileformats.bmp.structures/ciecoordinates/
 ---
 ## CieCoordinates class
 
-Класс содержит координаты x,y и z определенного цвета в указанном цветовом пространстве.
+Класс содержит координаты x, y и z определенного цвета в указанном цветовом пространстве.
 
 ```csharp
 public class CieCoordinates
@@ -18,7 +18,7 @@ public class CieCoordinates
 
 | Имя | Описание |
 | --- | --- |
-| [CieCoordinates](ciecoordinates)(byte[]) | Инициализирует новый экземпляр класса[`CieCoordinates`](../ciecoordinates). |
+| [CieCoordinates](ciecoordinates)(byte[]) | Инициализирует новый экземпляр[`CieCoordinates`](../ciecoordinates) класс. |
 
 ## Характеристики
 

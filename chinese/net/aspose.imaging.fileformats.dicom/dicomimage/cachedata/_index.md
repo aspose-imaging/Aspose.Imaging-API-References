@@ -1,14 +1,14 @@
 ---
 title: CacheData
 second_title: Aspose.Imaging for .NET API 参考
-description: 缓存数据私有
+description: 缓存私有数据
 type: docs
 weight: 190
 url: /zh/net/aspose.imaging.fileformats.dicom/dicomimage/cachedata/
 ---
 ## DicomImage.CacheData method
 
-缓存数据私有。
+缓存私有数据。
 
 ```csharp
 public override void CacheData()
@@ -23,13 +23,13 @@ public override void CacheData()
 
 string dir = "c:\\temp\\";
 
-    // 从 DICOM 文件加载图像。
+// 从 DICOM 文件加载图像。
 using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileFormats.Dicom.DicomImage)Aspose.Imaging.Image.Load(dir + "sample.dicom"))
 {
-        // 此调用缓存所有页面，因此不会从底层数据流执行额外的数据加载。
+    // 此调用缓存所有页面，因此不会从底层数据流执行额外的数据加载。
     image.CacheData();
 
-        // 或者你可以单独缓存页面。
+    // 或者您可以单独缓存页面。
     foreach (Aspose.Imaging.FileFormats.Dicom.DicomPage page in image.DicomPages)
     {
         page.CacheData();

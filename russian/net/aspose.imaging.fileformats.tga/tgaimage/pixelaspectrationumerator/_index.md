@@ -1,14 +1,14 @@
 ---
 title: PixelAspectRatioNumerator
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает часть числителя соотношения сторон пикселей.
+description: Получает часть числителя пропорций пикселя.
 type: docs
 weight: 210
 url: /ru/net/aspose.imaging.fileformats.tga/tgaimage/pixelaspectrationumerator/
 ---
 ## TgaImage.PixelAspectRatioNumerator property
 
-Получает часть числителя соотношения сторон пикселей.
+Получает часть числителя пропорций пикселя.
 
 ```csharp
 public ushort PixelAspectRatioNumerator { get; }
@@ -16,7 +16,7 @@ public ushort PixelAspectRatioNumerator { get; }
 
 ### Примеры
 
-Получение значений публичных свойств загруженного TGA-изображения.
+Получение значений публичных свойств загруженного изображения TGA.
 
 ```csharp
 [C#]

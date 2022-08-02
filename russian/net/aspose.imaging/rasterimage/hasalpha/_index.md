@@ -1,14 +1,14 @@
 ---
 title: HasAlpha
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее имеет ли этот экземпляр альфа-канал.
+description: Получает значение указывающее есть ли у этого экземпляра альфа.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging/rasterimage/hasalpha/
 ---
 ## RasterImage.HasAlpha property
 
-Получает значение, указывающее, имеет ли этот экземпляр альфа-канал.
+Получает значение, указывающее, есть ли у этого экземпляра альфа.
 
 ```csharp
 public virtual bool HasAlpha { get; }
@@ -16,30 +16,34 @@ public virtual bool HasAlpha { get; }
 
 ### Стоимость имущества
 
-` true` если у этого экземпляра есть альфа; в противном случае` false` .
+`истинный` если у этого экземпляра есть альфа; в противном случае,`ЛОЖЬ` .
 
 ### Примеры
 
-Следующий пример загружает растровые изображения и выводит информацию о формате необработанных данных и альфа-канале.
+В следующем примере загружаются растровые изображения и печатается информация о формате необработанных данных и альфа-канале.
 
 ```csharp
 [C#]
 
- // Создаем BMP-изображение 32 бита на пиксель размером 100 x 100 пикселей.
-using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100, 32, null))
+// Файлы изображений для загрузки.
+string[] fileNames = new string[]
 {
-    System.Console.WriteLine("FileFormat={0}, RawDataFormat={1}, HasAlpha={2}", bmpImage.FileFormat, bmpImage.RawDataFormat, bmpImage.HasAlpha);
+    @"c:\temp\sample.bmp",
+    @"c:\temp\alpha.png",
 };
 
- // Создаем BMP-изображение 24 бита размером 100 x 100 пикселей.
-using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100, 24, null))
+foreach (string fileName in fileNames)
 {
-    System.Console.WriteLine("FileFormat={0}, RawDataFormat={1}, HasAlpha={2}", bmpImage.FileFormat, bmpImage.RawDataFormat, bmpImage.HasAlpha);
-};
+    using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(fileName))
+    {
+        Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
+        System.Console.WriteLine("ImageFile={0}, FileFormat={1}, HasAlpha={2}", fileName, rasterImage.RawDataFormat, rasterImage.HasAlpha);
+    }
+}
 
- // Как правило, BMP не поддерживает альфа-канал, поэтому вывод будет выглядеть так: 
- // FileFormat = Bmp, RawDataFormat = Rgb32Bpp, используемые каналы: 8,8,8,8, HasAlpha = False
-// FileFormat = Bmp, RawDataFormat = Rgb24Bpp, используемые каналы: 8,8,8, HasAlpha = False
+// Вывод может выглядеть так:
+// ImageFile=c:\temp\sample.bmp, FileFormat=Rgb24Bpp, используемые каналы: 8,8,8, HasAlpha=False
+// ImageFile=c:\temp\alpha.png, FileFormat=RGBA32Bpp, используемые каналы: 8,8,8,8, HasAlpha=True
 ```
 
 В следующем примере показано, как извлечь информацию о формате необработанных данных и альфа-канале из изображения BMP.
@@ -47,20 +51,20 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
 ```csharp
 [C#]
 
- // Создаем BMP-изображение 32 бита на пиксель размером 100 x 100 пикселей.
+// Создаем BMP-изображение 32 бита на пиксель размером 100 x 100 пикселей.
 using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100, 32, null))
 {
     System.Console.WriteLine("FileFormat={0}, RawDataFormat={1}, HasAlpha={2}", bmpImage.FileFormat, bmpImage.RawDataFormat, bmpImage.HasAlpha);
 };
 
- // Создаем BMP-изображение 24 бита размером 100 x 100 пикселей.
+// Создаем BMP-изображение 24 бита на пиксель размером 100 x 100 пикселей.
 using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100, 24, null))
 {
     System.Console.WriteLine("FileFormat={0}, RawDataFormat={1}, HasAlpha={2}", bmpImage.FileFormat, bmpImage.RawDataFormat, bmpImage.HasAlpha);
 };
 
- // Как правило, BMP не поддерживает альфа-канал, поэтому вывод будет выглядеть так: 
- // FileFormat = Bmp, RawDataFormat = Rgb32Bpp, используемые каналы: 8,8,8,8, HasAlpha = False
+// Как правило, BMP не поддерживает альфа-канал, поэтому вывод будет выглядеть так:
+// FileFormat = Bmp, RawDataFormat = Rgb32Bpp, используемые каналы: 8,8,8,8, HasAlpha = False
 // FileFormat = Bmp, RawDataFormat = Rgb24Bpp, используемые каналы: 8,8,8, HasAlpha = False
 ```
 

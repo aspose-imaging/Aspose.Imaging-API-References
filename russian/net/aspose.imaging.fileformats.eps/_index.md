@@ -14,7 +14,7 @@ url: /ru/net/aspose.imaging.fileformats.eps/
 | --- | --- |
 | [EpsBinaryImage](./epsbinaryimage) | Класс для формата Encapsulated PostScript с двоичным заголовком |
 | [EpsImage](./epsimage) | Базовый класс для формата EPS |
-| [EpsInterchangeImage](./epsinterchangeimage) | Класс для формата Encapsulated PostScript Interchange |
+| [EpsInterchangeImage](./epsinterchangeimage) | Класс для инкапсулированного формата обмена PostScript |
 | [EpsLoadOptions](./epsloadoptions) | Опции загрузки EPS |
 | [EpsOptions](./epsoptions) | Опции EPS (в настоящее время не используются) |
 ## перечисление

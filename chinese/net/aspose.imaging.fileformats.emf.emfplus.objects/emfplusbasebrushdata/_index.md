@@ -1,14 +1,14 @@
 ---
 title: EmfPlusBaseBrushData
 second_title: Aspose.Imaging for .NET API 参考
-description: Brush 数据类型的基类
+description: 画笔数据类型的基类
 type: docs
 weight: 5140
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbasebrushdata/
 ---
 ## EmfPlusBaseBrushData class
 
-Brush 数据类型的基类。
+画笔数据类型的基类。
 
 ```csharp
 public abstract class EmfPlusBaseBrushData : EmfPlusStructureObjectType

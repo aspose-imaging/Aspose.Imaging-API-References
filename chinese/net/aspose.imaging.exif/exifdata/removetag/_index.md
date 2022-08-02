@@ -29,7 +29,7 @@ public void RemoveTag(ExifProperties tag)
 
 ## RemoveTag(ushort) {#removetag_1}
 
-从容器中移除标签
+从容器中删除标签
 
 ```csharp
 public void RemoveTag(ushort tagId)
@@ -37,7 +37,7 @@ public void RemoveTag(ushort tagId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tagId | UInt16 | 要移除的标签标识符。 |
+| tagId | UInt16 | 要删除的标签标识符。 |
 
 ### 也可以看看
 

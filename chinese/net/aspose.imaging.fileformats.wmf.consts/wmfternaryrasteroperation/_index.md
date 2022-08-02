@@ -1,14 +1,14 @@
 ---
 title: WmfTernaryRasterOperation
 second_title: Aspose.Imaging for .NET API 参考
-description: 枚举指定三元光栅操作代码它定义 如何将源位图中的位与目标位图中的位组合
+description: 枚举指定三元光栅操作码它定义 如何将源位图中的位与目标位图中的位组合
 type: docs
 weight: 8330
 url: /zh/net/aspose.imaging.fileformats.wmf.consts/wmfternaryrasteroperation/
 ---
 ## WmfTernaryRasterOperation enumeration
 
-枚举指定三元光栅操作代码，它定义 如何将源位图中的位与目标位图中的位组合。
+枚举指定三元光栅操作码，它定义 如何将源位图中的位与目标位图中的位组合。
 
 ```csharp
 public enum WmfTernaryRasterOperation
@@ -18,7 +18,7 @@ public enum WmfTernaryRasterOperation
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| BLACKNESS | `66` | 使用与物理调色板中索引 0 关联的颜色填充目标矩形。 （默认物理调色板的颜色为 黑色。） |
+| BLACKNESS | `66` | 使用与物理调色板中的索引 0 关联的颜色填充目标矩形。 （对于默认的物理调色板，此颜色为 黑色。） |
 | DPSOON | `66185` |  |
 | DPSONA | `134281` |  |
 | PSON | `196778` |  |
@@ -86,7 +86,7 @@ public enum WmfTernaryRasterOperation
 | DPSXON | `4260425` |  |
 | SDXPDXA | `4328797` |  |
 | SPDSANAXN | `4398276` |  |
-| SRCERASE | `4457256` | 使用 布尔 AND 运算符将目标矩形的反转颜色与源矩形的颜色组合。 |
+| SRCERASE | `4457256` | 使用 布尔AND运算符将目标矩形的反转颜色与源矩形的颜色组合。 |
 | DPSNAON | `4524841` |  |
 | DSPDAOX | `4589254` |  |
 | PSDPXAXN | `4654954` |  |
@@ -108,7 +108,7 @@ public enum WmfTernaryRasterOperation
 | DPSOAN | `5702537` |  |
 | PDSPOAX | `5769093` |  |
 | DPSNOX | `5834249` |  |
-| PATINVERT | `5898313` | 将当前在 hdcDest 中选择的画笔的颜色与目标矩形的颜色结合起来 使用布尔异或运算符。 |
+| PATINVERT | `5898313` | 使用布尔 XOR 运算符将当前在 hdcDest 中选择的画笔的颜色与目标矩形的颜色 by 组合在一起。 |
 | DPSDONOX | `5970089` |  |
 | DPSDXOX | `6030921` |  |
 | DPSNOAN | `6098473` |  |
@@ -205,7 +205,7 @@ public enum WmfTernaryRasterOperation
 | PSDPXAX | `12060490` |  |
 | DSPDAOXN | `12125926` |  |
 | DPSNAO | `12192521` |  |
-| MERGEPAINT | `12255782` | 使用 布尔 OR 运算符将反转源矩形的颜色与目标矩形的颜色合并。 |
+| MERGEPAINT | `12255782` | 使用 布尔或运算符将反转的源矩形的颜色与目标矩形的颜色合并。 |
 | SPDSANAX | `12328164` |  |
 | SDXPDXAN | `12389757` |  |
 | DPSXO | `12452457` |  |
@@ -256,9 +256,9 @@ public enum WmfTernaryRasterOperation
 | DPSXNO | `15403081` |  |
 | SDPAO | `15467240` |  |
 | SDPXNO | `15534152` |  |
-| SRCPAINT | `15597702` | 使用布尔 OR 运算符组合源矩形和目标矩形的颜色。 |
+| SRCPAINT | `15597702` | 使用布尔或运算符组合源矩形和目标矩形的颜色。 |
 | SDPNOO | `15665672` |  |
-| PATCOPY | `15728673` | 将 hdcDest 中当前选定的画笔复制到目标位图中。 |
+| PATCOPY | `15728673` | 将 hdcDest 中当前选择的画笔复制到目标位图中。 |
 | PDSONO | `15796357` |  |
 | PDSNAO | `15862533` |  |
 | PSNO | `15925802` |  |
@@ -269,11 +269,11 @@ public enum WmfTernaryRasterOperation
 | PDSAO | `16253669` |  |
 | PDSXNO | `16320581` |  |
 | DPO | `16384137` |  |
-| PATPAINT | `16452105` | 将 hdcDest 中当前选择的画笔的颜色与 使用布尔 OR 运算符的反转源矩形的颜色相结合。此操作的结果通过使用布尔 OR 运算符与目标 矩形的颜色组合。 |
+| PATPAINT | `16452105` | 使用布尔 OR 运算符将当前在 hdcDest 中选择的画笔的颜色与反向源矩形的颜色 by 组合在一起。此操作的结果通过使用布尔 OR 运算符与 destination 矩形的颜色组合。 |
 | PSO | `16515210` |  |
 | PSDNOO | `16583178` |  |
 | DPSOO | `16646825` |  |
-| WHITENESS | `16711778` | 使用与物理调色板中索引 1 关联的颜色填充目标矩形。 （对于默认的物理调色板，此颜色为 白色。） |
+| WHITENESS | `16711778` | 使用与物理调色板中的索引 1 关联的颜色填充目标矩形。 （对于默认物理调色板，此颜色为 白色。） |
 
 ### 也可以看看
 

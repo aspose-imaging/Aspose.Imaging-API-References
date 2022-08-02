@@ -1,14 +1,14 @@
 ---
 title: EmfBeginPath
 second_title: Aspose.Imaging for .NET API 参考
-description: 此记录在当前播放设备上下文中打开一个路径括号 路径括号打开后应用程序可以开始处理记录以定义 路径中的点应用程序必须关闭打开的路径括号 处理 EMR_ENDPATH 记录 当应用程序处理 EMR_BEGINPATH 记录时所有先前的路径 必须从播放设备上下文中丢弃
+description: 此记录在当前播放设备上下文中打开一个路径括号 打开路径括号后应用程序可以开始处理记录以定义 位于路径中的点应用程序必须通过 处理 EMR_ENDPATH 关闭打开的路径括号记录 当应用程序处理 EMR_BEGINPATH 记录时所有以前的路径 必须从播放设备上下文中丢弃
 type: docs
 weight: 3240
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfbeginpath/
 ---
 ## EmfBeginPath class
 
-此记录在当前播放设备上下文中打开一个路径括号。 路径括号打开后，应用程序可以开始处理记录以定义 路径中的点。应用程序必须关闭打开的路径括号 处理 EMR_ENDPATH 记录。 当应用程序处理 EMR_BEGINPATH 记录时，所有先前的路径 必须从播放设备上下文中丢弃。
+此记录在当前播放设备上下文中打开一个路径括号。 打开路径括号后，应用程序可以开始处理记录以定义 位于路径中的点。应用程序必须通过 处理 EMR_ENDPATH 关闭打开的路径括号记录。 当应用程序处理 EMR_BEGINPATH 记录时，所有以前的路径 必须从播放设备上下文中丢弃。
 
 ```csharp
 public sealed class EmfBeginPath : EmfPathBracketRecordType

@@ -1,14 +1,14 @@
 ---
 title: EmfHeaderExtension2
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 HeaderExtension2 对象该对象指定有关元文件中图像的附加信息
+description: 获取或设置一个 HeaderExtension2 对象该对象指定有关元文件中图像的附加信息
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension2/emfheaderextension2/
 ---
 ## EmfMetafileHeaderExtension2.EmfHeaderExtension2 property
 
-获取或设置 HeaderExtension2 对象，该对象指定有关元文件中图像的附加信息
+获取或设置一个 HeaderExtension2 对象，该对象指定有关元文件中图像的附加信息
 
 ```csharp
 public EmfHeaderExtension2 EmfHeaderExtension2 { get; set; }

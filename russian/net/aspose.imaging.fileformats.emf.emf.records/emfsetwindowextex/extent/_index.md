@@ -1,14 +1,14 @@
 ---
 title: Extent
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 64-битный объект WMF SizeL MS-WMF раздел 2.2.2.22 который указывает горизонтальную и вертикальную границы в логических единицах.
+description: Получает или задает 64-битный объект WMF SizeL MS-WMF раздел 2.2.2.22 который определяет горизонтальные и вертикальные границы в логических единицах.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetwindowextex/extent/
 ---
 ## EmfSetWindowExtEx.Extent property
 
-Получает или задает 64-битный объект WMF SizeL ([MS-WMF], раздел 2.2.2.22), который указывает горизонтальную и вертикальную границы в логических единицах.
+Получает или задает 64-битный объект WMF SizeL ([MS-WMF], раздел 2.2.2.22), который определяет горизонтальные и вертикальные границы в логических единицах.
 
 ```csharp
 public Size Extent { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: SaturationLevel
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 指定对饱和度的调整 -100  值 lt 0 负值指定降低饱和度 0 值 0 指定饱和度不得更改 0 lt value  100 正值指定增加饱和度
+description: 获取或设置 指定对饱和度的调整 -100  value lt 0 负值指定降低饱和度 0 值 0 指定饱和度不得改变 0 lt value  100 正值指定增加饱和度.
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplushuesaturationlightnesseffect/saturationlevel/
 ---
 ## EmfPlusHueSaturationLightnessEffect.SaturationLevel property
 
-获取或设置 指定对饱和度的调整。 -100 ≤ 值 &lt; 0 负值指定降低饱和度。 0 值 0 指定饱和度不得更改。 0 &lt; value ≤ 100 正值指定增加饱和度。
+获取或设置 指定对饱和度的调整。 -100 ≤ value &lt; 0 负值指定降低饱和度。 0 值 0 指定饱和度不得改变。 0 &lt; value ≤ 100 正值指定增加饱和度.
 
 ```csharp
 public int SaturationLevel { get; set; }

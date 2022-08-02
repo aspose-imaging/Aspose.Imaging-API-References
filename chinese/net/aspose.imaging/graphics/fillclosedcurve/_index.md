@@ -1,14 +1,14 @@
 ---
 title: FillClosedCurve
 second_title: Aspose.Imaging for .NET API 参考
-description: 填充由PointFaspose.imaging/pointf结构数组定义的闭合基数样条曲线的内部此方法使用默认张力 0.5 和Alternate填充模式
+description: 填充由数组定义的闭合基数样条曲线的内部PointFaspose.imaging/pointf结构此方法使用默认张力 0.5 和Alternate填充模式.
 type: docs
 weight: 340
 url: /zh/net/aspose.imaging/graphics/fillclosedcurve/
 ---
 ## FillClosedCurve(Brush, PointF[]) {#fillclosedcurve}
 
-填充由[`PointF`](../../pointf)结构数组定义的闭合基数样条曲线的内部。此方法使用默认张力 0.5 和Alternate填充模式。
+填充由数组定义的闭合基数样条曲线的内部[`PointF`](../../pointf)结构。此方法使用默认张力 0.5 和Alternate填充模式.
 
 ```csharp
 public void FillClosedCurve(Brush brush, PointF[] points)
@@ -16,14 +16,14 @@ public void FillClosedCurve(Brush brush, PointF[] points)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)决定了填充的特性。 |
-| points | PointF[] | [`PointF`](../../pointf)定义样条的结构的数组。 |
+| brush | Brush | [`Brush`](../../brush)这决定了填充的特性。 |
+| points | PointF[] | 数组[`PointF`](../../pointf)定义样条的结构。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *brush*为空。 -或- *points*为空。 |
+| ArgumentNullException | *brush*为空。 -或- *points*一片空白。 |
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public void FillClosedCurve(Brush brush, PointF[] points)
 
 ## FillClosedCurve(Brush, PointF[], FillMode) {#fillclosedcurve_1}
 
-使用指定的填充模式填充由[`PointF`](../../pointf)结构数组定义的闭合基数样条曲线的内部.此方法使用默认张力 0.5。
+填充由数组定义的闭合基数样条曲线的内部[`PointF`](../../pointf)使用指定填充模式的结构。此方法使用默认张力 0.5.
 
 ```csharp
 public void FillClosedCurve(Brush brush, PointF[] points, FillMode fillmode)
@@ -45,15 +45,15 @@ public void FillClosedCurve(Brush brush, PointF[] points, FillMode fillmode)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)决定了填充的特性。 |
-| points | PointF[] | [`PointF`](../../pointf)定义样条的结构的数组。 |
-| fillmode | FillMode | [`FillMode`](../../fillmode)枚举的成员，用于确定曲线的填充方式。 |
+| brush | Brush | [`Brush`](../../brush)这决定了填充的特性。 |
+| points | PointF[] | 数组[`PointF`](../../pointf)定义样条的结构。 |
+| fillmode | FillMode | 成员[`FillMode`](../../fillmode)确定曲线如何填充的枚举。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *brush*为空。 -或- *points*为空。 |
+| ArgumentNullException | *brush*为空。 -或- *points*一片空白。 |
 
 ### 也可以看看
 
@@ -68,7 +68,7 @@ public void FillClosedCurve(Brush brush, PointF[] points, FillMode fillmode)
 
 ## FillClosedCurve(Brush, PointF[], FillMode, float) {#fillclosedcurve_2}
 
-使用指定的填充模式填充由[`PointF`](../../pointf)结构数组定义的闭合基数样条曲线的内部和紧张。
+填充由数组定义的闭合基数样条曲线的内部[`PointF`](../../pointf)使用指定填充模式和张力的结构。
 
 ```csharp
 public void FillClosedCurve(Brush brush, PointF[] points, FillMode fillmode, float tension)
@@ -76,16 +76,16 @@ public void FillClosedCurve(Brush brush, PointF[] points, FillMode fillmode, flo
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | Brush | A[`Brush`](../../brush)决定了填充的特性。 |
-| points | PointF[] | [`PointF`](../../pointf)定义样条的结构的数组。 |
-| fillmode | FillMode | [`FillMode`](../../fillmode)枚举的成员，用于确定曲线的填充方式。 |
-| tension | Single | 指定曲线张力的大于或等于 0.0F 的值。 |
+| brush | Brush | 一个[`Brush`](../../brush)这决定了填充的特性。 |
+| points | PointF[] | 数组[`PointF`](../../pointf)定义样条的结构。 |
+| fillmode | FillMode | 成员[`FillMode`](../../fillmode)确定曲线如何填充的枚举。 |
+| tension | Single | 大于或等于 0.0F 的值指定曲线的张力。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *brush*为空。 -或- *points*为空。 |
+| ArgumentNullException | *brush*为空。 -或- *points*一片空白。 |
 
 ### 也可以看看
 
@@ -100,7 +100,7 @@ public void FillClosedCurve(Brush brush, PointF[] points, FillMode fillmode, flo
 
 ## FillClosedCurve(Brush, Point[]) {#fillclosedcurve_3}
 
-填充由[`Point`](../../point)结构数组定义的闭合基数样条曲线的内部。此方法使用默认张力 0.5 和Alternate填充模式。
+填充由数组定义的闭合基数样条曲线的内部[`Point`](../../point)结构。此方法使用默认张力 0.5 和Alternate填充模式.
 
 ```csharp
 public void FillClosedCurve(Brush brush, Point[] points)
@@ -108,14 +108,14 @@ public void FillClosedCurve(Brush brush, Point[] points)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)决定了填充的特性。 |
-| points | Point[] | [`Point`](../../point)定义样条的结构的数组。 |
+| brush | Brush | [`Brush`](../../brush)这决定了填充的特性。 |
+| points | Point[] | 数组[`Point`](../../point)定义样条的结构。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *brush*为空。 -或- *points*为空。 |
+| ArgumentNullException | *brush*为空。 -或- *points*一片空白。 |
 
 ### 也可以看看
 
@@ -129,7 +129,7 @@ public void FillClosedCurve(Brush brush, Point[] points)
 
 ## FillClosedCurve(Brush, Point[], FillMode) {#fillclosedcurve_4}
 
-使用指定的填充模式填充由[`Point`](../../point)结构数组定义的闭合基数样条曲线的内部.此方法使用默认张力 0.5。
+填充由数组定义的闭合基数样条曲线的内部[`Point`](../../point)使用指定填充模式的结构。此方法使用默认张力 0.5.
 
 ```csharp
 public void FillClosedCurve(Brush brush, Point[] points, FillMode fillmode)
@@ -137,15 +137,15 @@ public void FillClosedCurve(Brush brush, Point[] points, FillMode fillmode)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)决定了填充的特性。 |
-| points | Point[] | [`Point`](../../point)定义样条的结构的数组。 |
-| fillmode | FillMode | [`FillMode`](../../fillmode)枚举的成员，用于确定曲线的填充方式。 |
+| brush | Brush | [`Brush`](../../brush)这决定了填充的特性。 |
+| points | Point[] | 数组[`Point`](../../point)定义样条的结构。 |
+| fillmode | FillMode | 成员[`FillMode`](../../fillmode)确定曲线如何填充的枚举。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *brush*为空。 -或- *points*为空。 |
+| ArgumentNullException | *brush*为空。 -或- *points*一片空白。 |
 
 ### 也可以看看
 
@@ -160,7 +160,7 @@ public void FillClosedCurve(Brush brush, Point[] points, FillMode fillmode)
 
 ## FillClosedCurve(Brush, Point[], FillMode, float) {#fillclosedcurve_5}
 
-使用指定的填充模式填充由[`Point`](../../point)结构数组定义的闭合基数样条曲线的内部和紧张。
+填充由数组定义的闭合基数样条曲线的内部[`Point`](../../point)使用指定填充模式和张力的结构。
 
 ```csharp
 public void FillClosedCurve(Brush brush, Point[] points, FillMode fillmode, float tension)
@@ -168,16 +168,16 @@ public void FillClosedCurve(Brush brush, Point[] points, FillMode fillmode, floa
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)决定了填充的特性。 |
-| points | Point[] | [`Point`](../../point)定义样条的结构的数组。 |
-| fillmode | FillMode | [`FillMode`](../../fillmode)枚举的成员，用于确定曲线的填充方式。 |
-| tension | Single | 指定曲线张力的大于或等于 0.0F 的值。 |
+| brush | Brush | [`Brush`](../../brush)这决定了填充的特性。 |
+| points | Point[] | 数组[`Point`](../../point)定义样条的结构。 |
+| fillmode | FillMode | 成员[`FillMode`](../../fillmode)确定曲线如何填充的枚举。 |
+| tension | Single | 大于或等于 0.0F 的值指定曲线的张力。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *brush*为空。 -或- *points*为空。 |
+| ArgumentNullException | *brush*为空。 -或- *points*一片空白。 |
 
 ### 也可以看看
 

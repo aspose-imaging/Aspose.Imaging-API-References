@@ -1,14 +1,14 @@
 ---
 title: BitCount
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 16 位无符号整数该整数定义 每个像素的格式以及 DIB 中的最大颜色数此值 必须位于BitCountaspose.imaging.fileformats.wmf.objects/wmfbitmapbaseheader/bitcount枚举第 2.1.1.3 节中
+description: 获取或设置一个 16 位无符号整数它定义了 每个像素的格式以及 DIB 中的最大颜色数这个 value 必须在BitCountaspose.imaging.fileformats.wmf.objects/wmfbitmapbaseheader/bitcount枚举第 2.1.1.3 节.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfbitmapbaseheader/bitcount/
 ---
 ## WmfBitmapBaseHeader.BitCount property
 
-获取或设置一个 16 位无符号整数，该整数定义 每个像素的格式以及 DIB 中的最大颜色数。此值 必须位于`BitCount`枚举（第 2.1.1.3 节）中。
+获取或设置一个 16 位无符号整数，它定义了 每个像素的格式，以及 DIB 中的最大颜色数。这个 value 必须在`BitCount`枚举（第 2.1.1.3 节）.
 
 ```csharp
 public DibBitCount BitCount { get; set; }

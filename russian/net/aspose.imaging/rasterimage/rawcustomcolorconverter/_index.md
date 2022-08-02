@@ -1,14 +1,14 @@
 ---
 title: RawCustomColorConverter
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает пользовательский преобразователь цвета
+description: Получает или задает пользовательский конвертер цветов
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging/rasterimage/rawcustomcolorconverter/
 ---
 ## RasterImage.RawCustomColorConverter property
 
-Получает или задает пользовательский преобразователь цвета
+Получает или задает пользовательский конвертер цветов
 
 ```csharp
 public IColorConverter RawCustomColorConverter { get; set; }
@@ -16,7 +16,7 @@ public IColorConverter RawCustomColorConverter { get; set; }
 
 ### Стоимость имущества
 
-Пользовательский конвертер цветов
+Пользовательский преобразователь цветов
 
 ### Смотрите также
 

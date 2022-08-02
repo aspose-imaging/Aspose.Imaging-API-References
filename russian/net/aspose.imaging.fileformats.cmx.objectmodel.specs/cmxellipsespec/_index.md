@@ -24,21 +24,21 @@ public class CmxEllipseSpec : ICmxObjectSpec
 
 | Имя | Описание |
 | --- | --- |
-| [Angle1](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/angle1) { get; set; } | Получает или задает первый угол, используемый для определения сектора круговой диаграммы. Не влияет, если[`Pie`](./pie)is` false` . Измеряется в радианах. |
-| [Angle2](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/angle2) { get; set; } | Получает или задает второй угол, используемый для определения сектора круговой диаграммы. Не влияет, если[`Pie`](./pie)is` false` . Измеряется в радианах. |
+| [Angle1](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/angle1) { get; set; } | Получает или задает первый угол, используемый для определения сектора круговой диаграммы. Не влияет, если[`Pie`](./pie) является`ЛОЖЬ` . Измерения в радианах. |
+| [Angle2](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/angle2) { get; set; } | Получает или задает второй угол, используемый для определения сектора круговой диаграммы. Не влияет, если[`Pie`](./pie) является`ЛОЖЬ` . Измерения в радианах. |
 | [BoundingBox](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/boundingbox) { get; set; } | Получает или задает ограничивающую рамку. |
-| [CenterX](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/centerx) { get; set; } | Получает или задает координату X для центра прямоугольника. Меры в общепринятых единицах расстояния документа. |
-| [CenterY](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/centery) { get; set; } | Получает или задает координату Y для центра прямоугольника. Меры в общепринятых единицах расстояния документа. |
-| [DiameterX](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/diameterx) { get; set; } | Получает или задает диаметр для измерения X прямоугольника. Меры в общепринятых единицах расстояния документа. |
-| [DiameterY](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/diametery) { get; set; } | Получает или задает диаметр для измерения Y прямоугольника. Меры в общепринятых единицах расстояния документа. |
-| [Pie](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/pie) { get; set; } | Получает или задает значение, указывающее, является ли это[`CmxEllipseSpec`](../cmxellipsespec)круговой диаграммой. |
-| [Rotation](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/rotation) { get; set; } | Получает или задает угол поворота эллипса. Измеряется в радианах. |
+| [CenterX](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/centerx) { get; set; } | Получает или задает координату X для центра прямоугольника. Измеряет в общепринятых единицах измерения расстояния документа. |
+| [CenterY](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/centery) { get; set; } | Получает или задает координату Y для центра прямоугольника. Измеряет в общепринятых единицах измерения расстояния документа. |
+| [DiameterX](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/diameterx) { get; set; } | Получает или задает диаметр для измерения X прямоугольника. Измеряет в общепринятых единицах измерения расстояния документа. |
+| [DiameterY](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/diametery) { get; set; } | Получает или задает диаметр для измерения Y прямоугольника. Измеряет в общепринятых единицах измерения расстояния документа. |
+| [Pie](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/pie) { get; set; } | Получает или задает значение, указывающее, является ли это[`CmxEllipseSpec`](../cmxellipsespec)пирог. |
+| [Rotation](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/rotation) { get; set; } | Получает или задает угол поворота эллипса. Измеряет в радианах. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 
 ### Смотрите также
 

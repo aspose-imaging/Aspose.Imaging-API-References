@@ -1,14 +1,14 @@
 ---
 title: Origin
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定 水平和垂直窗口的 64 位 WMF PointL 对象MS-WMF 第 2.2.2.15 节以逻辑单元为原点
+description: 获取或设置一个 64 位 WMF PointL 对象MS-WMF 第 2.2.2.15 节它以逻辑单位指定 窗口水平和垂直原点
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetwindoworgex/origin/
 ---
 ## EmfSetWindowOrgEx.Origin property
 
-获取或设置指定 水平和垂直窗口的 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节）以逻辑单元为原点。
+获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），它以逻辑单位指定 窗口水平和垂直原点。
 
 ```csharp
 public Point Origin { get; set; }

@@ -18,16 +18,16 @@ public class Jpeg2000LoadOptions : LoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| [Jpeg2000LoadOptions](jpeg2000loadoptions)() | Инициализирует новый экземпляр класса[`Jpeg2000LoadOptions`](../jpeg2000loadoptions). |
+| [Jpeg2000LoadOptions](jpeg2000loadoptions)() | Инициализирует новый экземпляр[`Jpeg2000LoadOptions`](../jpeg2000loadoptions) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BufferSizeHint](../../aspose.imaging/loadoptions/buffersizehint) { get; set; } | Получает или устанавливает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
-| [DataBackgroundColor](../../aspose.imaging/loadoptions/databackgroundcolor) { get; set; } | Получает или задает[`Image`](../../aspose.imaging/image)background[`Color`](../../aspose.imaging/color). |
+| [BufferSizeHint](../../aspose.imaging/loadoptions/buffersizehint) { get; set; } | Получает или задает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
+| [DataBackgroundColor](../../aspose.imaging/loadoptions/databackgroundcolor) { get; set; } | Получает или задает[`Image`](../../aspose.imaging/image) фон[`Color`](../../aspose.imaging/color) . |
 | [DataRecoveryMode](../../aspose.imaging/loadoptions/datarecoverymode) { get; set; } | Получает или задает режим восстановления данных. |
-| [MaximumDecodingTime](../../aspose.imaging.imageloadoptions/jpeg2000loadoptions/maximumdecodingtime) { get; set; } | Получает или задает максимальное время декодирования в секундах (эта опция может использоваться на очень медленных машинах с памятью, чтобы предотвратить зависание процесса на очень больших изображениях - разрешение более 5500x6500 пикселей). |
+| [MaximumDecodingTime](../../aspose.imaging.imageloadoptions/jpeg2000loadoptions/maximumdecodingtime) { get; set; } | Получает или задает максимальное время декодирования в секундах (эту опцию можно использовать на очень медленных машинах с памятью, чтобы предотвратить зависание процесса на очень больших изображениях — разрешение более 5500x6500 пикселей). |
 | [MaximumDecodingTimeForTile](../../aspose.imaging.imageloadoptions/jpeg2000loadoptions/maximumdecodingtimefortile) { get; set; } | Получает или задает максимальное время декодирования тайла. |
 | [ProgressEventHandler](../../aspose.imaging/loadoptions/progresseventhandler) { get; set; } | Получает или задает обработчик события выполнения. |
 
@@ -35,7 +35,7 @@ public class Jpeg2000LoadOptions : LoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AddCustomFontSource](../../aspose.imaging/loadoptions/addcustomfontsource)(CustomFontSource, params object[]) | Добавляет пользовательский источник шрифтов для предоставления шрифтов, специфичных для изображения. |
+| [AddCustomFontSource](../../aspose.imaging/loadoptions/addcustomfontsource)(CustomFontSource, params object[]) | Добавляет пользовательский источник шрифта для предоставления шрифтов, специфичных для изображения. |
 
 ### Смотрите также
 

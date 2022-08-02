@@ -18,8 +18,8 @@ public class WmfPaintRegion : WmfObject
 
 | Имя | Описание |
 | --- | --- |
-| [WmfPaintRegion](wmfpaintregion#constructor)() | Инициализирует новый экземпляр класса[`WmfSelectClipRegion`](../wmfselectclipregion). |
-| [WmfPaintRegion](wmfpaintregion#constructor_1)(WmfGraphicObject) | Инициализирует новый экземпляр класса[`WmfSelectClipRegion`](../wmfselectclipregion). |
+| [WmfPaintRegion](wmfpaintregion#constructor)() | Инициализирует новый экземпляр[`WmfSelectClipRegion`](../wmfselectclipregion) класс. |
+| [WmfPaintRegion](wmfpaintregion#constructor_1)(WmfGraphicObject) | Инициализирует новый экземпляр[`WmfSelectClipRegion`](../wmfselectclipregion) класс. |
 
 ## Характеристики
 

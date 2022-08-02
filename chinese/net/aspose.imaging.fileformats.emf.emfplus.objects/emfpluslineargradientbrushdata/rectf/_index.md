@@ -1,14 +1,14 @@
 ---
 title: RectF
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置矩形 f
+description: 获取或设置矩形 f.
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushdata/rectf/
 ---
 ## EmfPlusLinearGradientBrushData.RectF property
 
-获取或设置矩形 f。
+获取或设置矩形 f.
 
 ```csharp
 public RectangleF RectF { get; set; }
@@ -16,7 +16,7 @@ public RectangleF RectF { get; set; }
 
 ### 适当的价值
 
-EmfPlusRectF 对象（第 2.2.2.39 节），指定::的起点和终点:47:::渐变线。矩形的左上角是起点。右下角是结尾 点。
+一个 EmfPlusRectF 对象（第 2.2.2.39 节），它指定了 渐变线的起点和终点。矩形的左上角是起点。右下角是结尾 点。
 
 ### 也可以看看
 

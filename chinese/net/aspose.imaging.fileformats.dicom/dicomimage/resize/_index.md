@@ -16,7 +16,7 @@ public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newWidth | Int32 | 新宽度。 |
+| newWidth | Int32 | 新的宽度。 |
 | newHeight | Int32 | 新高度。 |
 | resizeType | ResizeType | 调整大小类型。 |
 
@@ -31,10 +31,10 @@ string dir = "c:\\temp\\";
 
 using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileFormats.Dicom.DicomImage)Aspose.Imaging.Image.Load(dir + "sample.dicom"))
 {
-        // 使用最近邻重采样放大 2 倍。
+    // 使用最近邻重采样放大 2 倍。
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
 
-    // 使用默认选项保存到 PNG。
+    // 使用默认选项保存为 PNG。
     image.Save(dir + "upsample.nearestneighbour.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
@@ -43,25 +43,25 @@ using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileF
     // 使用最近邻重采样缩小 2 倍。
     image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
         
-    // 使用默认选项保存到 PNG。
+    // 使用默认选项保存为 PNG。
     image.Save(dir + "downsample.nearestneighbour.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
 using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileFormats.Dicom.DicomImage)Aspose.Imaging.Image.Load(dir + "sample.dicom"))
 {
-        // 使用双线性重采样放大 2 倍。
+    // 使用双线性重采样放大 2 倍。
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.BilinearResample);
         
-    // 使用默认选项保存到 PNG。
+    // 使用默认选项保存为 PNG。
     image.Save(dir + "upsample.bilinear.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
 using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileFormats.Dicom.DicomImage)Aspose.Imaging.Image.Load(dir + "sample.dicom"))
 {
-        // 使用双线性重采样缩小 2 倍。
+    // 使用双线性重采样缩小 2 倍。
     image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.BilinearResample);
 
-    // 使用默认选项保存到 PNG。
+    // 使用默认选项保存为 PNG。
     image.Save(dir + "downsample.bilinear.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```
@@ -85,7 +85,7 @@ public override void Resize(int newWidth, int newHeight, ImageResizeSettings set
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newWidth | Int32 | 新宽度。 |
+| newWidth | Int32 | 新的宽度。 |
 | newHeight | Int32 | 新高度。 |
 | settings | ImageResizeSettings | 调整大小设置。 |
 
@@ -100,29 +100,29 @@ string dir = "c:\\temp\\";
 
 Aspose.Imaging.ImageResizeSettings resizeSettings = new Aspose.Imaging.ImageResizeSettings();
 
-    // 基于加权混合有理函数和lanczos3插值的自适应算法。
+// 基于加权混合有理函数和 lanczos3 插值的自适应算法。
 resizeSettings.Mode = Aspose.Imaging.ResizeType.AdaptiveResample;
 
-    // 小矩形过滤器
+// 小矩形过滤器
 resizeSettings.FilterType = Aspose.Imaging.ImageFilterType.SmallRectangular;
 
-    // 调色板中的颜色数量.
+// 调色板中的颜色数量。
 resizeSettings.EntriesCount = 256;
 
-    // 没有使用颜色量化
+// 不使用颜色量化
 resizeSettings.ColorQuantizationMethod = ColorQuantizationMethod.None;
 
-    // 欧几里得方法
+// 欧几里得方法
 resizeSettings.ColorCompareMethod = ColorCompareMethod.Euclidian;
 
 using (Aspose.Imaging.Image image = (Aspose.Imaging.Image)Aspose.Imaging.Image.Load(dir + "sample.dicom"))
 {
     Aspose.Imaging.FileFormats.Dicom.DicomImage dicomImage = (Aspose.Imaging.FileFormats.Dicom.DicomImage)image;
 
-        // 使用自适应重采样缩小 2 倍。
+    // 使用自适应重采样缩小 2 倍。
     dicomImage.Resize(image.Width / 2, image.Height / 2, resizeSettings);
 
-        // 保存到 PNG
+    // 保存为 PNG
     dicomImage.Save(dir + "downsample.adaptive.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```

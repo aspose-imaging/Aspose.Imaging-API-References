@@ -1,14 +1,14 @@
 ---
 title: Interlaced
 second_title: Справочник по Aspose.Imaging for .NET API
-description: True если изображение должно быть чересстрочным.
+description: Истинно если изображение должно быть чересстрочным.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging.imageoptions/gifoptions/interlaced/
 ---
 ## GifOptions.Interlaced property
 
-True, если изображение должно быть чересстрочным.
+Истинно, если изображение должно быть чересстрочным.
 
 ```csharp
 public bool Interlaced { get; set; }
@@ -25,7 +25,7 @@ string dir = "c:\\temp\\";
 
 using (Aspose.Imaging.Image bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(1000, 1000))
 {
-     // Заливаем все изображение сине-желтым градиентом.
+    // Заливаем все изображение сине-желтым градиентом.
     Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
             new Aspose.Imaging.Point(0, 0),
             new Aspose.Imaging.Point(bmpImage.Width, bmpImage.Height),
@@ -37,30 +37,30 @@ using (Aspose.Imaging.Image bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpIma
 
     Aspose.Imaging.ImageOptions.GifOptions saveOptions = new Aspose.Imaging.ImageOptions.GifOptions();
 
-     // Количество бит, необходимое для хранения цвета, минус 1.
+    // Количество битов, необходимых для хранения цвета, минус 1.
     saveOptions.ColorResolution = 7;
 
     // Коррекция палитры означает, что всякий раз, когда изображение экспортируется в GIF, цвета исходного изображения будут анализироваться
-     // чтобы создать наиболее подходящую палитру (в случае, если палитра изображений не существует или не указана в параметрах)
+    // чтобы создать наиболее подходящую палитру (в случае, если палитра изображений не существует или не указана в параметрах)
     saveOptions.DoPaletteCorrection = true;
 
-     // Загружаем GIF-изображение последовательно.
-     // Чересстрочный GIF не отображает строки развертки линейно сверху вниз, а вместо этого переупорядочивает их
-     // поэтому содержимое GIF становится понятным еще до того, как он завершит загрузку.
+    // Загружаем GIF-изображение последовательно.
+    // В чересстрочном GIF строки развертки отображаются не линейно сверху вниз, а переупорядочиваются.
+    // поэтому содержимое GIF становится понятным еще до того, как он завершит загрузку.
     saveOptions.Interlaced = true;
 
-     // Сохранить как GIF без потерь.
+    // Сохранить как GIF без потерь.
     using (System.IO.Stream stream = System.IO.File.OpenWrite(dir + "output.gif"))
     {
         bmpImage.Save(stream, saveOptions);
         System.Console.WriteLine("The size of the lossless GIF: {0} bytes.", stream.Length);
     }
 
-     // Установите максимально допустимую разницу в пикселях. Если больше нуля, будет использоваться сжатие с потерями.
-     // Рекомендуемое значение для оптимального сжатия с потерями — 80. 30 — очень легкое сжатие, 200 — сильное.
+    // Установите максимально допустимую разницу в пикселях. Если больше нуля, будет использоваться сжатие с потерями.
+    // Рекомендуемое значение для оптимального сжатия с потерями — 80. 30 — очень легкое сжатие, 200 — тяжелое.
     saveOptions.MaxDiff = 80;
 
-     // Сохранить как GIF с потерями.
+    // Сохранить как GIF с потерями.
     using (System.IO.Stream stream = System.IO.File.OpenWrite(dir + "output.lossy.gif"))
     {
         bmpImage.Save(stream, saveOptions);
@@ -68,8 +68,8 @@ using (Aspose.Imaging.Image bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpIma
     }
 }
 
- // Вывод может выглядеть так: 
- //Размер GIF без потерь: 212816 байт.
+//Вывод может выглядеть так:
+//Размер GIF без потерь: 212816 байт.
 //Размер GIF с потерями: 89726 байт.
 ```
 

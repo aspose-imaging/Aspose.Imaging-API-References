@@ -16,7 +16,7 @@ public void SetOwners(string[] owners)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| owners | String[] | 所有者。 |
+| owners | String[] | 主人。 |
 
 ### 也可以看看
 

@@ -36,8 +36,8 @@ public void SetThreshold(float threshold, ColorAdjustType type)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| threshold | Single | 一个从 0.0 到 1.0 的阈值，用作对将映射到最大值或一个最小值。 |
-| type | ColorAdjustType | [`ColorAdjustType`](../../coloradjusttype)的一个元素，指定为其设置颜色阈值的类别。 |
+| threshold | Single | 一个从 0.0 到 1.0 的阈值，用作对将映射到最大值或最小值的颜色进行排序的断点。 |
+| type | ColorAdjustType | 一个元素[`ColorAdjustType`](../../coloradjusttype)指定为其设置颜色阈值的类别。 |
 
 ### 也可以看看
 

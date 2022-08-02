@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此Sizeaspose.imaging/size的垂直分量
+description: 获取或设置 this 的垂直分量Sizeaspose.imaging/size .
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging/size/height/
 ---
 ## Size.Height property
 
-获取或设置此[`Size`](../../size)的垂直分量。
+获取或设置 this 的垂直分量[`Size`](../../size) .
 
 ```csharp
 public int Height { get; set; }

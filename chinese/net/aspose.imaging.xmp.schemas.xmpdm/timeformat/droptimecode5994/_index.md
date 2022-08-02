@@ -1,14 +1,14 @@
 ---
 title: DropTimecode5994
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取掉落时间码5994
+description: 获取丢弃时间码5994.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/timeformat/droptimecode5994/
 ---
 ## TimeFormat.DropTimecode5994 property
 
-获取掉落时间码5994。
+获取丢弃时间码5994.
 
 ```csharp
 public static TimeFormat DropTimecode5994 { get; }
@@ -16,7 +16,7 @@ public static TimeFormat DropTimecode5994 { get; }
 
 ### 适当的价值
 
-掉落时间码5994。
+掉落时间码5994.
 
 ### 也可以看看
 

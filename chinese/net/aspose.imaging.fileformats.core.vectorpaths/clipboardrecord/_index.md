@@ -18,8 +18,8 @@ public class ClipboardRecord : VectorPathRecord
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ClipboardRecord](clipboardrecord#constructor)() | 初始化[`ClipboardRecord`](../clipboardrecord)类的新实例。 |
-| [ClipboardRecord](clipboardrecord#constructor_1)(byte[]) | 初始化[`ClipboardRecord`](../clipboardrecord)类的新实例。 |
+| [ClipboardRecord](clipboardrecord#constructor)() | 初始化[`ClipboardRecord`](../clipboardrecord)类. |
+| [ClipboardRecord](clipboardrecord#constructor_1)(byte[]) | 初始化[`ClipboardRecord`](../clipboardrecord)类. |
 
 ## 特性
 

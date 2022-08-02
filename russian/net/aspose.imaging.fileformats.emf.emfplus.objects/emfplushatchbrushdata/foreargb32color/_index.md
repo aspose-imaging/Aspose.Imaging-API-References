@@ -1,14 +1,14 @@
 ---
 title: ForeArgb32Color
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядный объект EmfPlusArgb указывающий цвет используемый для рисования линий образца штриховки.
+description: Получает или задает 32-разрядный объект EmfPlusArgb указывающий цвет используемый для рисования линий шаблона штриховки.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplushatchbrushdata/foreargb32color/
 ---
 ## EmfPlusHatchBrushData.ForeArgb32Color property
 
-Получает или задает 32-разрядный объект EmfPlusArgb, указывающий цвет, используемый для рисования линий образца штриховки.
+Получает или задает 32-разрядный объект EmfPlusArgb, указывающий цвет, используемый для рисования линий шаблона штриховки.
 
 ```csharp
 public int ForeArgb32Color { get; set; }

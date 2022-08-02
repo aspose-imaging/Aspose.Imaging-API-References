@@ -1,14 +1,14 @@
 ---
 title: ComplexTypeBase
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Представляет базовую абстракцию для типа значения XMP Complex.
+description: Представляет базовую абстракцию для типа комплексного значения XMP.
 type: docs
-weight: 11570
+weight: 11560
 url: /ru/net/aspose.imaging.xmp.types.complex/complextypebase/
 ---
 ## ComplexTypeBase class
 
-Представляет базовую абстракцию для типа значения XMP Complex.
+Представляет базовую абстракцию для типа комплексного значения XMP.
 
 ```csharp
 public class ComplexTypeBase : XmpTypeBase
@@ -18,7 +18,7 @@ public class ComplexTypeBase : XmpTypeBase
 
 | Имя | Описание |
 | --- | --- |
-| [ComplexTypeBase](complextypebase)(string, string) | Инициализирует новый экземпляр класса[`ComplexTypeBase`](../complextypebase). |
+| [ComplexTypeBase](complextypebase)(string, string) | Инициализирует новый экземпляр[`ComplexTypeBase`](../complextypebase) класс. |
 
 ## Характеристики
 
@@ -35,7 +35,7 @@ public class ComplexTypeBase : XmpTypeBase
 
 ### Примечания
 
-Подробнее:Спецификация XMP, часть 2, глава 1.2.2
+Подробнее: Спецификация XMP, часть 2, глава 1.2.2
 
 ### Смотрите также
 

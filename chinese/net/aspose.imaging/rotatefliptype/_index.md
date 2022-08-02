@@ -3,7 +3,7 @@ title: RotateFlipType
 second_title: Aspose.Imaging for .NET API 参考
 description: 指定图像旋转多少以及用于翻转图像的轴
 type: docs
-weight: 10900
+weight: 10890
 url: /zh/net/aspose.imaging/rotatefliptype/
 ---
 ## RotateFlipType enumeration
@@ -18,7 +18,7 @@ public enum RotateFlipType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| RotateNoneFlipNone | `0` | 指定不顺时针旋转也不翻转。 |
+| RotateNoneFlipNone | `0` | 指定不顺时针旋转，不翻转。 |
 | Rotate90FlipNone | `1` | 指定顺时针旋转 90 度而不翻转。 |
 | Rotate180FlipNone | `2` | 指定顺时针旋转 180 度而不翻转。 |
 | Rotate270FlipNone | `3` | 指定顺时针旋转 270 度而不翻转。 |
@@ -31,7 +31,7 @@ public enum RotateFlipType
 | Rotate180FlipY | `10` | 指定顺时针旋转 180 度，然后垂直翻转。 |
 | Rotate270FlipY | `11` | 指定顺时针旋转 270 度，然后垂直翻转。 |
 | RotateNoneFlipXY | `12` | 指定不顺时针旋转，然后水平和垂直翻转。 |
-| Rotate90FlipXY | `13` | 指定顺时针旋转 90 度，然后水平和垂直翻转。 |
+| Rotate90FlipXY | `13` | 指定顺时针旋转 90 度，然后进行水平和垂直翻转。 |
 | Rotate180FlipXY | `14` | 指定顺时针旋转 180 度，然后水平和垂直翻转。 |
 | Rotate270FlipXY | `15` | 指定顺时针旋转 270 度，然后水平和垂直翻转。 |
 
@@ -54,7 +54,7 @@ Aspose.Imaging.RotateFlipType[] rotateFlipTypes = new Aspose.Imaging.RotateFlipT
 
 foreach (Aspose.Imaging.RotateFlipType rotateFlipType in rotateFlipTypes)
 {
-        // 旋转、翻转并保存到输出文件.
+    // 旋转、翻转并保存到输出文件。
     using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
     {
         image.RotateFlip(rotateFlipType);

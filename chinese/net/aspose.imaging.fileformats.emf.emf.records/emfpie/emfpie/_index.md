@@ -1,14 +1,14 @@
 ---
 title: EmfPie
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPieaspose.imaging.fileformats.emf.emf.records/emfpie类的新实例
+description: 初始化EmfPieaspose.imaging.fileformats.emf.emf.records/emfpie类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfpie/emfpie/
 ---
 ## EmfPie(EmfRecord) {#constructor_1}
 
-初始化[`EmfPie`](../../emfpie)类的新实例。
+初始化[`EmfPie`](../../emfpie)类.
 
 ```csharp
 public EmfPie(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfPie(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfPie(EmfRecord source)
 
 ## EmfPie() {#constructor}
 
-初始化[`EmfPie`](../../emfpie)类的新实例。
+初始化[`EmfPie`](../../emfpie)类.
 
 ```csharp
 public EmfPie()

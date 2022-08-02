@@ -1,14 +1,14 @@
 ---
 title: MarginTop
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает верхнее поле.
+description: Получает или задает верхнюю границу поля.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/margintop/
 ---
 ## OdGraphicStyle.MarginTop property
 
-Получает или задает верхнее поле.
+Получает или задает верхнюю границу поля.
 
 ```csharp
 public float MarginTop { get; set; }
@@ -16,7 +16,7 @@ public float MarginTop { get; set; }
 
 ### Стоимость имущества
 
-Верхнее поле.
+Верхняя граница.
 
 ### Смотрите также
 

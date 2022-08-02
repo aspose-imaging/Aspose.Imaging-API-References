@@ -24,13 +24,13 @@ public abstract class GifBlock : IGifBlock
 
 | 姓名 | 描述 |
 | --- | --- |
-| abstract [Save](../../aspose.imaging.fileformats.gif/gifblock/save)(Stream) | 将块保存到指定的流。 |
+| abstract [Save](../../aspose.imaging.fileformats.gif/gifblock/save)(Stream) | 将块保存到指定的流中。 |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
-| const [ExtensionIntroducer](../../aspose.imaging.fileformats.gif/gifblock/extensionintroducer) | 扩展介绍人。 |
+| const [ExtensionIntroducer](../../aspose.imaging.fileformats.gif/gifblock/extensionintroducer) | 扩展介绍人. |
 
 ### 也可以看看
 

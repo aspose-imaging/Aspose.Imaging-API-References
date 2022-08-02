@@ -8,7 +8,7 @@ url: /zh/net/aspose.imaging.imageoptions/jpegoptions/preblendalphaifpresent/
 ---
 ## JpegOptions.PreblendAlphaIfPresent property
 
-获取或设置一个值，该值指示红色、绿色和蓝色分量是否应与背景颜色混合（如果存在 alpha 通道）。
+获取或设置一个值，该值指示红色、绿色和蓝色分量是否应与背景颜色混合，如果存在 alpha 通道。
 
 ```csharp
 public bool PreblendAlphaIfPresent { get; set; }

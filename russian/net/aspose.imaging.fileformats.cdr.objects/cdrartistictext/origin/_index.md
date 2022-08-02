@@ -1,14 +1,14 @@
 ---
 title: Origin
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает исходную точку.
+description: Получает или задает источник.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrartistictext/origin/
 ---
 ## CdrArtisticText.Origin property
 
-Получает или задает исходную точку.
+Получает или задает источник.
 
 ```csharp
 public PointD Origin { get; set; }

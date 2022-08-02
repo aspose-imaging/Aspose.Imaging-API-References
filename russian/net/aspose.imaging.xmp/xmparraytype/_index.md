@@ -1,14 +1,14 @@
 ---
 title: XmpArrayType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Представляет тип массива вXmpArray./xmparray.
+description: Представляет тип массива вXmpArray./xmparray .
 type: docs
-weight: 11750
+weight: 11740
 url: /ru/net/aspose.imaging.xmp/xmparraytype/
 ---
 ## XmpArrayType enumeration
 
-Представляет тип массива в[`XmpArray`](../xmparray).
+Представляет тип массива в[`XmpArray`](../xmparray) .
 
 ```csharp
 public enum XmpArrayType

@@ -1,14 +1,14 @@
 ---
 title: TgaImage
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化TgaImageaspose.imaging.fileformats.tga/tgaimage类的新实例
+description: 初始化TgaImageaspose.imaging.fileformats.tga/tgaimage类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.tga/tgaimage/tgaimage/
 ---
 ## TgaImage(string) {#constructor_2}
 
-初始化[`TgaImage`](../../tgaimage)类的新实例。
+初始化[`TgaImage`](../../tgaimage)类.
 
 ```csharp
 public TgaImage(string path)
@@ -16,7 +16,7 @@ public TgaImage(string path)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| path | String | 加载图像的路径。 |
+| path | String | 加载图片的路径。 |
 
 ### 例外
 
@@ -34,7 +34,7 @@ public TgaImage(string path)
 
 ## TgaImage(RasterImage) {#constructor}
 
-初始化[`TgaImage`](../../tgaimage)类的新实例。
+初始化[`TgaImage`](../../tgaimage)类.
 
 ```csharp
 public TgaImage(RasterImage rasterImage)
@@ -46,7 +46,7 @@ public TgaImage(RasterImage rasterImage)
 
 ### 例子
 
-加载PNG图像，将其转换为TgaImage并保存为TGA图像。
+加载 PNG 图像，将其转换为 TgaImage 并保存为 TGA 图像。
 
 ```csharp
 [C#]
@@ -71,7 +71,7 @@ using (RasterImage image = (RasterImage)Image.Load("test.png"))
 
 ## TgaImage(Stream) {#constructor_1}
 
-初始化[`TgaImage`](../../tgaimage)类的新实例。
+初始化[`TgaImage`](../../tgaimage)类.
 
 ```csharp
 public TgaImage(Stream stream)

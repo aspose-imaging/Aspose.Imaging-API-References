@@ -1,14 +1,14 @@
 ---
 title: WmfPie
 second_title: Aspose.Imaging for .NET API 参考
-description: META_PIE 记录绘制了一个饼形楔形其边界为一个椭圆和两个径向线的交点 饼图使用钢笔勾勒出轮廓 使用在播放设备 上下文中定义的画笔填充
+description: META_PIE 记录绘制了一个饼形楔形其边界为一个椭圆和两条径向线的交点 饼图使用笔勾勒出轮廓 使用播放设备中定义的画笔填充 context.
 type: docs
 weight: 8840
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfpie/
 ---
 ## WmfPie class
 
-META_PIE 记录绘制了一个饼形楔形，其边界为一个椭圆和两个径向线的交点 。饼图使用钢笔勾勒出轮廓， 使用在播放设备 上下文中定义的画笔填充。
+META_PIE 记录绘制了一个饼形楔形，其边界为一个椭圆和两条径向线的交点 。饼图使用笔勾勒出轮廓， 使用播放设备中定义的画笔填充 context.
 
 ```csharp
 public class WmfPie : WmfRectangle
@@ -24,8 +24,8 @@ public class WmfPie : WmfRectangle
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Radial1](../../aspose.imaging.fileformats.wmf.objects/wmfpie/radial1) { get; set; } | 获取或设置radial1。 |
-| [Radial2](../../aspose.imaging.fileformats.wmf.objects/wmfpie/radial2) { get; set; } | 获取或设置radial2。 |
+| [Radial1](../../aspose.imaging.fileformats.wmf.objects/wmfpie/radial1) { get; set; } | 获取或设置radial1. |
+| [Radial2](../../aspose.imaging.fileformats.wmf.objects/wmfpie/radial2) { get; set; } | 获取或设置radial2. |
 | [Rectangle](../../aspose.imaging.fileformats.wmf.objects/wmfrectangle/rectangle) { get; set; } | 获取或设置矩形。 |
 
 ### 也可以看看

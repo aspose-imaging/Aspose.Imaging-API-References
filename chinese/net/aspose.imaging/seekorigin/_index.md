@@ -1,14 +1,14 @@
 ---
 title: SeekOrigin
 second_title: Aspose.Imaging for .NET API 参考
-description: 在StreamContainer./streamcontainer中提供表示参考点的字段以进行查找
+description: 提供代表参考点的字段StreamContainer./streamcontainer寻求.
 type: docs
-weight: 10910
+weight: 10900
 url: /zh/net/aspose.imaging/seekorigin/
 ---
 ## SeekOrigin enumeration
 
-在[`StreamContainer`](../streamcontainer)中提供表示参考点的字段以进行查找。
+提供代表参考点的字段[`StreamContainer`](../streamcontainer)寻求.
 
 ```csharp
 public enum SeekOrigin
@@ -18,9 +18,9 @@ public enum SeekOrigin
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Begin | `0` | 指定流的开始。 |
+| Begin | `0` | 指定流的开头。 |
 | Current | `1` | 指定流中的当前位置。 |
-| End | `2` | 指定流的结束。 |
+| End | `2` | 指定流的结尾。 |
 
 ### 也可以看看
 

@@ -24,17 +24,17 @@ public sealed class EmfPlusCustomLineCapData : EmfPlusCustomBaseLineCap
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BaseCap](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/basecap) { get; set; } | 获取或设置 32 位无符号整数，该整数指定 LineCap 枚举（第 2.1.1.18 节）中的值 自定义行上限基于。 |
-| [BaseInset](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/baseinset) { get; set; } | 获取或设置 32 位浮点值，该值指定行帽的开头 和行尾之间的距离。 |
+| [BaseCap](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/basecap) { get; set; } | 获取或设置 32 位无符号整数，该整数指定 LineCap 枚举（第 2.1.1.18 节）中的值 |
+| [BaseInset](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/baseinset) { get; set; } | 获取或设置 32 位浮点值，指定行帽的开始 和行尾之间的距离。 |
 | [CustomLineCapDataFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/customlinecapdataflags) { get; set; } | 获取或设置 32 位无符号整数，指定 OptionalData 字段中的数据 |
-| [FillHotSpot](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/fillhotspot) { get; set; } | 获取或设置当前未使用的 EmfPlusPointF 对象。它必须设置为 {0.0, 0.0}。 |
-| [OptionalData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/optionaldata) { get; set; } | 获取或设置可选 EmfPlusCustomLineCapOptionalData 对象（第 2.2.2.14 节） 指定自定义图形线帽的附加数据。 T 该字段的具体内容由 CustomLineCapDataFlags 字段的值决定 。 |
-| [StrokeEndCap](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokeendcap) { get; set; } | 获取或设置 32 位无符号整数，该整数指定 LineCap 枚举中的值，该值指示最后使用的 行上限要绘制的线。 |
-| [StrokeHotSpot](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokehotspot) { get; set; } | 获取或设置当前未使用的 EmfPlusPointF 对象。它必须设置为 {0.0, 0.0}。 |
-| [StrokeJoin](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokejoin) { get; set; } | 获取或设置指定 LineJoin 枚举 中的值的 32 位无符号整数，该值指定如何加入由 同一支笔绘制的两条线，它们的末端相交。在两条线端的交点处， 线连接使连接看起来更连续。 |
-| [StrokeMiterLimit](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokemiterlimit) { get; set; } | 获取或设置包含厚度限制的 32 位浮点值 在斜接角上通过设置最大值斜接长度与线宽的允许比率 。 |
-| [StrokeStartCap](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokestartcap) { get; set; } | 获取或设置 32 位无符号整数，该整数指定 LineCap 枚举中的值，该值指示行首使用的 行上限待绘制 |
-| [WidthScale](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/widthscale) { get; set; } | 获取或设置 32 位浮点值，该值指定 相对于宽度缩放自定义行上限的量用于绘制线条的 EmfPlusPen 对象（第 2.2.1.7 节）。 |
+| [FillHotSpot](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/fillhotspot) { get; set; } | 获取或设置当前未使用的 EmfPlusPointF 对象。它必须设置为 {0.0, 0.0}. |
+| [OptionalData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/optionaldata) { get; set; } | 获取或设置可选的 EmfPlusCustomLineCapOptionalData 对象（第 2.2.2.14 节） 指定自定义图形线帽的附加数据。 T 该字段的具体内容 由CustomLineCapDataFlags字段的值决定 |
+| [StrokeEndCap](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokeendcap) { get; set; } | 获取或设置 32 位无符号整数，该整数指定 LineCap 枚举中的值，该值指示要在要绘制的行的末尾使用什么 行帽。 |
+| [StrokeHotSpot](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokehotspot) { get; set; } | 获取或设置当前未使用的 EmfPlusPointF 对象。它必须设置为 {0.0, 0.0}. |
+| [StrokeJoin](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokejoin) { get; set; } | 获取或设置 32 位无符号整数，该整数指定 LineJoin 枚举 （第 2.1.1.19 节）中的值，该值指定如何连接由 同一支笔绘制且其末端相接的两条线。在两条线端的交点处， 一个线连接使连接看起来更连续。 |
+| [StrokeMiterLimit](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokemiterlimit) { get; set; } | 通过设置斜接长度与线宽的最大允许比率 获取或设置包含斜接角上连接的厚度 的限制的 32 位浮点值。 |
+| [StrokeStartCap](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokestartcap) { get; set; } | 获取或设置 32 位无符号整数，该整数指定 LineCap 枚举中的值，该值指示 在要绘制的行的开头使用的行上限 |
+| [WidthScale](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/widthscale) { get; set; } | 获取或设置 32 位浮点值，该值指定 to 相对于用于绘制线条的 EmfPlusPen 对象（第 2.2.1.7 节）的宽度缩放自定义线条上限的量。 |
 
 ### 也可以看看
 

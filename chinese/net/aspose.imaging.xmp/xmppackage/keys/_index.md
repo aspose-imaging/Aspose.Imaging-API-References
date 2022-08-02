@@ -16,7 +16,7 @@ public virtual KeyCollection<string, object> Keys { get; }
 
 ### 适当的价值
 
-XMP 包中的键。
+XMP 包中的密钥。
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: XmpGuid
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示 XMP 全局唯一标识符
 type: docs
-weight: 11680
+weight: 11670
 url: /zh/net/aspose.imaging.xmp.types.derived/xmpguid/
 ---
 ## XmpGuid class
@@ -18,14 +18,14 @@ public sealed class XmpGuid : XmpTypeBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [XmpGuid](xmpguid#constructor)(Guid) | 初始化[`XmpGuid`](../xmpguid)类的新实例。 |
-| [XmpGuid](xmpguid#constructor_1)(string) | 初始化[`XmpGuid`](../xmpguid)类的新实例。 |
+| [XmpGuid](xmpguid#constructor)(Guid) | 初始化[`XmpGuid`](../xmpguid)类. |
+| [XmpGuid](xmpguid#constructor_1)(string) | 初始化[`XmpGuid`](../xmpguid)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Prefix](../../aspose.imaging.xmp.types.derived/xmpguid/prefix) { get; set; } | 获取或设置前缀，如 uuid。 |
+| [Prefix](../../aspose.imaging.xmp.types.derived/xmpguid/prefix) { get; set; } | 获取或设置前缀，如 uuid. |
 | [Value](../../aspose.imaging.xmp.types.derived/xmpguid/value) { get; set; } | 获取或设置值。 |
 
 ## 方法

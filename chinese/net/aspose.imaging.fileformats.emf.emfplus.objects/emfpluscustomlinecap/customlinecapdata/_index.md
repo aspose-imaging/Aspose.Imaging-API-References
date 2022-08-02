@@ -1,14 +1,14 @@
 ---
 title: CustomLineCapData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置定义在 Type 字段中指定的自定义线帽数据对象的可变长度数据每种自定义线帽类型的数据内容 和格式可能不同
+description: 获取或设置定义在 Type 字段中指定的自定义线帽数据对象的可变长度数据每个自定义线帽类型的数据内容 和格式可能不同
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap/customlinecapdata/
 ---
 ## EmfPlusCustomLineCap.CustomLineCapData property
 
-获取或设置定义在 Type 字段中指定的自定义线帽数据对象的可变长度数据。每种自定义线帽类型的数据内容 和格式可能不同。
+获取或设置定义在 Type 字段中指定的自定义线帽数据对象的可变长度数据。每个自定义线帽类型的数据内容 和格式可能不同。
 
 ```csharp
 public EmfPlusCustomBaseLineCap CustomLineCapData { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: IImageCreatorDescriptor
 second_title: Aspose.Imaging for .NET API 参考
-description: 指定创建者属性的图像创建者描述符创建者描述符用于克服 将每个图像创建者实例包含在内存中的必要性和多线程问题
+description: 指定创建者属性的图像创建者描述符创建者描述符用于克服 在内存中包含每个图像创建者实例的必要性和多线程问题
 type: docs
 weight: 9470
 url: /zh/net/aspose.imaging/iimagecreatordescriptor/
 ---
 ## IImageCreatorDescriptor interface
 
-指定创建者属性的图像创建者描述符。创建者描述符用于克服 将每个图像创建者实例包含在内存中的必要性和多线程问题。
+指定创建者属性的图像创建者描述符。创建者描述符用于克服 在内存中包含每个图像创建者实例的必要性和多线程问题。
 
 ```csharp
 public interface IImageCreatorDescriptor : IImageDescriptor
@@ -18,7 +18,7 @@ public interface IImageCreatorDescriptor : IImageDescriptor
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CanCreate](../../aspose.imaging/iimagecreatordescriptor/cancreate)(ImageOptionsBase) | 确定图像创建者是否可以使用*imageOptions*创建新图像。 |
+| [CanCreate](../../aspose.imaging/iimagecreatordescriptor/cancreate)(ImageOptionsBase) | 确定图像创建者是否可以使用*imageOptions* . |
 | [CreateInstance](../../aspose.imaging/iimagecreatordescriptor/createinstance)() | 创建一个新的创建者实例。 |
 
 ### 也可以看看

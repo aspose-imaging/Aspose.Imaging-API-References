@@ -1,14 +1,14 @@
 ---
 title: ExifColorSpace
 second_title: Справочник по Aspose.Imaging for .NET API
-description: перечисление цветового пространства exif.
+description: цветовое пространство exif enum.
 type: docs
 weight: 880
 url: /ru/net/aspose.imaging.exif.enums/exifcolorspace/
 ---
 ## ExifColorSpace enumeration
 
-перечисление цветового пространства exif.
+цветовое пространство exif enum.
 
 ```csharp
 public enum ExifColorSpace

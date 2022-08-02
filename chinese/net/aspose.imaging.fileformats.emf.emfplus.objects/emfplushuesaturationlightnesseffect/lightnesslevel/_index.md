@@ -1,14 +1,14 @@
 ---
 title: LightnessLevel
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 指定对亮度的调整 -100  值 lt 0 负值指定降低亮度 0 值 0 指定亮度不得更改 0 lt value  100 正值指定增加亮度
+description: 获取或设置 指定对亮度的调整 -100  value lt 0 负值指定降低亮度 0 值 0 指定亮度不能改变 0 lt value  100 正值指定增加亮度.
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplushuesaturationlightnesseffect/lightnesslevel/
 ---
 ## EmfPlusHueSaturationLightnessEffect.LightnessLevel property
 
-获取或设置 指定对亮度的调整。 -100 ≤ 值 &lt; 0 负值指定降低亮度。 0 值 0 指定亮度不得更改。 0 &lt; value ≤ 100 正值指定增加亮度。
+获取或设置 指定对亮度的调整。 -100 ≤ value &lt; 0 负值指定降低亮度。 0 值 0 指定亮度不能改变。 0 &lt; value ≤ 100 正值指定增加亮度.
 
 ```csharp
 public int LightnessLevel { get; set; }

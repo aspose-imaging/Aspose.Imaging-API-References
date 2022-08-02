@@ -1,14 +1,14 @@
 ---
 title: EmfColorCorrectPalette
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfColorCorrectPaletteaspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette类的新实例
+description: 初始化EmfColorCorrectPaletteaspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/emfcolorcorrectpalette/
 ---
 ## EmfColorCorrectPalette constructor
 
-初始化[`EmfColorCorrectPalette`](../../emfcolorcorrectpalette)类的新实例。
+初始化[`EmfColorCorrectPalette`](../../emfcolorcorrectpalette)类.
 
 ```csharp
 public EmfColorCorrectPalette(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfColorCorrectPalette(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 

@@ -1,34 +1,11 @@
 ---
 title: Crop
 second_title: Aspose.Imaging for .NET API 参考
-description: 带班次裁剪图像
+description: 裁剪指定的矩形
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf/metaimage/crop/
 ---
-## Crop(int, int, int, int) {#crop_1}
-
-带班次裁剪图像。
-
-```csharp
-public virtual void Crop(int leftShift, int rightShift, int topShift, int bottomShift)
-```
-
-| 范围 | 类型 | 描述 |
-| --- | --- | --- |
-| leftShift | Int32 | 左移。 |
-| rightShift | Int32 | 右移。 |
-| topShift | Int32 | 顶部移位。 |
-| bottomShift | Int32 | 底部移位。 |
-
-### 也可以看看
-
-* class [MetaImage](../../metaimage)
-* 命名空间 [Aspose.Imaging.FileFormats.Emf](../../metaimage)
-* 部件 [Aspose.Imaging](../../../)
-
----
-
 ## Crop(Rectangle) {#crop}
 
 裁剪指定的矩形。
@@ -44,6 +21,29 @@ public virtual void Crop(Rectangle rectangle)
 ### 也可以看看
 
 * struct [Rectangle](../../../aspose.imaging/rectangle)
+* class [MetaImage](../../metaimage)
+* 命名空间 [Aspose.Imaging.FileFormats.Emf](../../metaimage)
+* 部件 [Aspose.Imaging](../../../)
+
+---
+
+## Crop(int, int, int, int) {#crop_1}
+
+使用班次裁剪图像。
+
+```csharp
+public virtual void Crop(int leftShift, int rightShift, int topShift, int bottomShift)
+```
+
+| 范围 | 类型 | 描述 |
+| --- | --- | --- |
+| leftShift | Int32 | 左移。 |
+| rightShift | Int32 | 右移。 |
+| topShift | Int32 | 最高班次。 |
+| bottomShift | Int32 | 下移。 |
+
+### 也可以看看
+
 * class [MetaImage](../../metaimage)
 * 命名空间 [Aspose.Imaging.FileFormats.Emf](../../metaimage)
 * 部件 [Aspose.Imaging](../../../)

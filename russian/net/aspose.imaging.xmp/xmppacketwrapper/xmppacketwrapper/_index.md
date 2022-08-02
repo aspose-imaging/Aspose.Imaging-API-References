@@ -1,14 +1,14 @@
 ---
 title: XmpPacketWrapper
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаXmpPacketWrapperaspose.imaging.xmp/xmppacketwrapper.
+description: Инициализирует новый экземплярXmpPacketWrapperaspose.imaging.xmp/xmppacketwrapper класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp/xmppacketwrapper/xmppacketwrapper/
 ---
 ## XmpPacketWrapper(XmpHeaderPi, XmpTrailerPi, XmpMeta) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`XmpPacketWrapper`](../../xmppacketwrapper).
+Инициализирует новый экземпляр[`XmpPacketWrapper`](../../xmppacketwrapper) класс.
 
 ```csharp
 public XmpPacketWrapper(XmpHeaderPi header, XmpTrailerPi trailer, XmpMeta xmpMeta)
@@ -16,8 +16,8 @@ public XmpPacketWrapper(XmpHeaderPi header, XmpTrailerPi trailer, XmpMeta xmpMet
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| header | XmpHeaderPi | XMP-заголовок инструкции обработки. |
-| trailer | XmpTrailerPi | XMP-трейлер инструкции обработки. |
+| header | XmpHeaderPi | Заголовок XMP инструкции обработки. |
+| trailer | XmpTrailerPi | XMP-трейлер инструкции по обработке. |
 | xmpMeta | XmpMeta | Метаданные XMP. |
 
 ### Смотрите также
@@ -33,7 +33,7 @@ public XmpPacketWrapper(XmpHeaderPi header, XmpTrailerPi trailer, XmpMeta xmpMet
 
 ## XmpPacketWrapper() {#constructor}
 
-Инициализирует новый экземпляр класса[`XmpPacketWrapper`](../../xmppacketwrapper).
+Инициализирует новый экземпляр[`XmpPacketWrapper`](../../xmppacketwrapper) класс.
 
 ```csharp
 public XmpPacketWrapper()

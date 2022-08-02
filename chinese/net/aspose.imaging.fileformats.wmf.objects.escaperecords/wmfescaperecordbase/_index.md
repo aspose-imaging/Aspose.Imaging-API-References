@@ -1,14 +1,14 @@
 ---
 title: WmfEscapeRecordBase
 second_title: Aspose.Imaging for .NET API 参考
-description: 转义记录库
+description: 逃生记录库.
 type: docs
 weight: 8400
 url: /zh/net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/
 ---
 ## WmfEscapeRecordBase class
 
-转义记录库。
+逃生记录库.
 
 ```csharp
 public class WmfEscapeRecordBase : WmfObject
@@ -25,7 +25,7 @@ public class WmfEscapeRecordBase : WmfObject
 | 姓名 | 描述 |
 | --- | --- |
 | [ByteCount](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/bytecount) { get; set; } | 获取或设置字节数。 |
-| virtual [Checked](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/checked) { get; set; } | 获取一个值，该值指示是否检查了此[`WmfEscapeRecordBase`](../wmfescaperecordbase)。 |
+| virtual [Checked](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/checked) { get; set; } | 获取一个值，该值指示这是否[`WmfEscapeRecordBase`](../wmfescaperecordbase)已检查。 |
 | [Data](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/data) { get; set; } | 获取或设置数据。 |
 
 ### 也可以看看

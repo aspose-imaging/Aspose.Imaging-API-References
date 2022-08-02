@@ -1,14 +1,14 @@
 ---
 title: WmfInvertRegion
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化WmfInvertRegionaspose.imaging.fileformats.wmf.objects/wmfinvertregion类的新实例
+description: 初始化WmfInvertRegionaspose.imaging.fileformats.wmf.objects/wmfinvertregion类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfinvertregion/wmfinvertregion/
 ---
 ## WmfInvertRegion(WmfGraphicObject) {#constructor_1}
 
-初始化[`WmfInvertRegion`](../../wmfinvertregion)类的新实例。
+初始化[`WmfInvertRegion`](../../wmfinvertregion)类.
 
 ```csharp
 public WmfInvertRegion(WmfGraphicObject region)
@@ -16,7 +16,7 @@ public WmfInvertRegion(WmfGraphicObject region)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| region | WmfGraphicObject | 区域。 |
+| region | WmfGraphicObject | 该区域。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public WmfInvertRegion(WmfGraphicObject region)
 
 ## WmfInvertRegion() {#constructor}
 
-初始化[`WmfInvertRegion`](../../wmfinvertregion)类的新实例。
+初始化[`WmfInvertRegion`](../../wmfinvertregion)类.
 
 ```csharp
 public WmfInvertRegion()

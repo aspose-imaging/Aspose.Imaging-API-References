@@ -24,55 +24,29 @@ public Color[] LoadPixels(Rectangle rectangle)
 
 ### 例子
 
-以下示例显示如何加载和处理光栅图像的像素。例如，考虑计算图像的完全透明像素的问题。
+以下示例显示了如何加载和处理光栅图像的像素。例如，考虑计算图像的完全透明像素的问题。
 
 ```csharp
 [C#]
 
-    //创建一个MemoryStream
-的实例
-using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\alpha.png"))
 {
-    //创建 GifOptions 实例并设置其各种属性，包括 Source 属性
-    Aspose.Imaging.ImageOptions.GifOptions gifOptions = new Aspose.Imaging.ImageOptions.GifOptions();
-    gifOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream);
+    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-        //创建Image
-的实例
-    using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Create(gifOptions, 500, 500))
+    // 加载整个图像的像素。图像的任何矩形部分都可以指定为 Aspose.Imaging.RasterImage.LoadPixels 方法的参数。
+    Color[] pixels = rasterImage.LoadPixels(rasterImage.Bounds);
+
+    int count = 0;
+    foreach (Color pixel in pixels)
     {
-        //通过指定区域为图像边界
-获取图像的像素
-        Aspose.Imaging.Color[] pixels = image.LoadPixels(image.Bounds);
-
-        //遍历数组并设置alrenative索引pixel
-的颜色
-        for (int index = 0; index < pixels.Length; index++)
+        if (pixel.A == 0)
         {
-            if (index % 2 == 0)
-            {
-                //设置索引像素颜色为yellow
-                pixels[index] = Aspose.Imaging.Color.Yellow;
-            }
-            else
-            {
-                //设置索引像素颜色为blue
-                pixels[index] = Aspose.Imaging.Color.Blue;
-            }
+            count++;
         }
-
-            //将像素变化应用到image
-        image.SavePixels(image.Bounds, pixels);
-
-        // 保存所有更改。
-        image.Save();
     }
 
-        // 将 MemoryStream 写入 File
-    using (System.IO.FileStream fileStream = new System.IO.FileStream(@"C:\temp\output.gif", System.IO.FileMode.Create))
-    {
-        stream.WriteTo(fileStream);
-    }   
+    System.Console.WriteLine("The number of fully transparent pixels is {0}", count);
+    System.Console.WriteLine("The total number of pixels is {0}", image.Width * image.Height);
 }
 ```
 
@@ -81,46 +55,42 @@ using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
 ```csharp
 [C#]
 
-    //创建一个MemoryStream
-的实例
+//创建一个MemoryStream实例
 using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
 {
-    //创建 GifOptions 实例并设置其各种属性，包括 Source 属性
+    //创建一个 GifOptions 实例并设置它的各种属性，包括 Source 属性
     Aspose.Imaging.ImageOptions.GifOptions gifOptions = new Aspose.Imaging.ImageOptions.GifOptions();
     gifOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream);
 
-        //创建Image
-的实例
+    //创建一个Image实例
     using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Create(gifOptions, 500, 500))
     {
-        //通过指定区域为图像边界
-获取图像的像素
+        //通过指定区域为图像边界来获取图像的像素
         Aspose.Imaging.Color[] pixels = image.LoadPixels(image.Bounds);
 
-        //遍历数组并设置alrenative索引pixel
-的颜色
+        //遍历数组并设置alrenative索引像素的颜色
         for (int index = 0; index < pixels.Length; index++)
         {
             if (index % 2 == 0)
             {
-                //设置索引像素颜色为yellow
+                //设置索引像素颜色为黄色
                 pixels[index] = Aspose.Imaging.Color.Yellow;
             }
             else
             {
-                //设置索引像素颜色为blue
+                //设置索引像素颜色为蓝色
                 pixels[index] = Aspose.Imaging.Color.Blue;
             }
         }
 
-            //将像素变化应用到image
+        //将像素变化应用到图像
         image.SavePixels(image.Bounds, pixels);
 
         // 保存所有更改。
         image.Save();
     }
 
-        // 将 MemoryStream 写入 File
+    // 将 MemoryStream 写入文件
     using (System.IO.FileStream fileStream = new System.IO.FileStream(@"C:\temp\output.gif", System.IO.FileMode.Create))
     {
         stream.WriteTo(fileStream);

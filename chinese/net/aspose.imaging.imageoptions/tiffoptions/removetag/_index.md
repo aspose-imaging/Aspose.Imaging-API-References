@@ -20,7 +20,7 @@ public bool RemoveTag(TiffTags tag)
 
 ### 返回值
 
-如果成功删除
+如果成功移除则为真
 
 ### 也可以看看
 

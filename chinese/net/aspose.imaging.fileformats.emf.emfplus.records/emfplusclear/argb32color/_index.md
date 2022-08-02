@@ -1,14 +1,14 @@
 ---
 title: Argb32Color
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置颜色 一个 EmfPlusARGB 对象第 2.2.2.1 节用于定义绘制屏幕的颜色除非另有说明所有颜色均在 IEC-RGB 中指定
+description: 获取或设置颜色 定义绘制屏幕颜色的 EmfPlusARGB 对象第 2.2.2.1 节除非另有说明所有颜色均在 IEC-RGB 中指定
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusclear/argb32color/
 ---
 ## EmfPlusClear.Argb32Color property
 
-获取或设置颜色。 一个 EmfPlusARGB 对象（第 2.2.2.1 节），用于定义绘制屏幕的颜色。除非另有说明，所有颜色均在 [IEC-RGB] 中指定。
+获取或设置颜色。 定义绘制屏幕颜色的 EmfPlusARGB 对象（第 2.2.2.1 节）。除非另有说明，所有颜色均在 [IEC-RGB] 中指定。
 
 ```csharp
 public int Argb32Color { get; set; }
@@ -16,7 +16,7 @@ public int Argb32Color { get; set; }
 
 ### 适当的价值
 
-颜色。
+颜色.
 
 ### 也可以看看
 

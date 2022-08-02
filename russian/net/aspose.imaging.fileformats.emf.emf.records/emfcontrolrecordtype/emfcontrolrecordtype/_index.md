@@ -1,14 +1,14 @@
 ---
 title: EmfControlRecordType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfControlRecordTypeaspose.imaging.fileformats.emf.emf.records/emfcontrolrecordtype.
+description: Инициализирует новый экземплярEmfControlRecordTypeaspose.imaging.fileformats.emf.emf.records/emfcontrolrecordtype класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcontrolrecordtype/emfcontrolrecordtype/
 ---
 ## EmfControlRecordType(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfControlRecordType`](../../emfcontrolrecordtype).
+Инициализирует новый экземпляр[`EmfControlRecordType`](../../emfcontrolrecordtype) класс.
 
 ```csharp
 public EmfControlRecordType(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfControlRecordType(EmfRecord source)
 
 ## EmfControlRecordType(EmfRecordType) {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfControlRecordType`](../../emfcontrolrecordtype).
+Инициализирует новый экземпляр[`EmfControlRecordType`](../../emfcontrolrecordtype) класс.
 
 ```csharp
 public EmfControlRecordType(EmfRecordType type)

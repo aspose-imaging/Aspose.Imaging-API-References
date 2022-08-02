@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака которое определяет sizeэтого объекта в байтах.
+description: Получает или задает 32-разрядное целое число без знака которое определяет size этого объекта в байтах.
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmflogcolorspacew/size/
 ---
 ## WmfLogColorSpaceW.Size property
 
-Получает или задает 32-разрядное целое число без знака, которое определяет sizeэтого объекта в байтах.
+Получает или задает 32-разрядное целое число без знака, которое определяет size этого объекта в байтах.
 
 ```csharp
 public int Size { get; set; }

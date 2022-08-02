@@ -17,8 +17,8 @@ public void RotateAt(float angle, PointF point, MatrixOrder order)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | angle | Single | 角度。 |
-| point | PointF | 点。 |
-| order | MatrixOrder | 订单。 |
+| point | PointF | 重点。 |
+| order | MatrixOrder | 命令。 |
 
 ### 也可以看看
 
@@ -41,7 +41,7 @@ public void RotateAt(float angle, PointF point)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | angle | Single | 角度。 |
-| point | PointF | 点。 |
+| point | PointF | 重点。 |
 
 ### 也可以看看
 

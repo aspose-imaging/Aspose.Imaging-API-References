@@ -16,7 +16,7 @@ public override void RotateFlip(RotateFlipType rotateFlipType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rotateFlipType | RotateFlipType | Тип переворота с поворотом. |
+| rotateFlipType | RotateFlipType | Тип вращения флип. |
 
 ### Смотрите также
 

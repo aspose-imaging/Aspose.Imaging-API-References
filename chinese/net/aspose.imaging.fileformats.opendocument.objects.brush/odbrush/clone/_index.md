@@ -16,7 +16,7 @@ public abstract object Clone()
 
 ### 返回值
 
-返回源画笔的新实例
+源画笔的返回新实例
 
 ### 也可以看看
 

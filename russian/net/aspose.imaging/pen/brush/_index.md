@@ -1,14 +1,14 @@
 ---
 title: Brush
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задаетBrushaspose.imaging/pen/brush который определяет атрибуты этогоPenaspose.imaging/pen.
+description: Получает или задаетBrushaspose.imaging/pen/brush что определяет атрибуты этогоPenaspose.imaging/pen .
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging/pen/brush/
 ---
 ## Pen.Brush property
 
-Получает или задает`Brush`, который определяет атрибуты этого[`Pen`](../../pen).
+Получает или задает`Brush` что определяет атрибуты этого[`Pen`](../../pen) .
 
 ```csharp
 public Brush Brush { get; set; }
@@ -16,13 +16,13 @@ public Brush Brush { get; set; }
 
 ### Стоимость имущества
 
-A`Brush`который определяет атрибуты этого[`Pen`](../../pen).
+А`Brush` что определяет атрибуты этого[`Pen`](../../pen).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Свойство`Brush`устанавливается на неизменном[`Pen`](../../pen), например возвращаемые классом[`Pen`](../../pen). |
+| ArgumentException | `Brush` свойство установлено на неизменном[`Pen`](../../pen) такие как возвращенные[`Pen`](../../pen) учебный класс. |
 
 ### Смотрите также
 

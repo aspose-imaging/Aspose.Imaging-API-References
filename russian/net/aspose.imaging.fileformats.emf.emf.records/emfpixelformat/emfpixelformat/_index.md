@@ -1,14 +1,14 @@
 ---
 title: EmfPixelFormat
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPixelFormataspose.imaging.fileformats.emf.emf.records/emfpixelformat.
+description: Инициализирует новый экземплярEmfPixelFormataspose.imaging.fileformats.emf.emf.records/emfpixelformat класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpixelformat/emfpixelformat/
 ---
 ## EmfPixelFormat constructor
 
-Инициализирует новый экземпляр класса[`EmfPixelFormat`](../../emfpixelformat).
+Инициализирует новый экземпляр[`EmfPixelFormat`](../../emfpixelformat) класс.
 
 ```csharp
 public EmfPixelFormat(EmfRecord source)

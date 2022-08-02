@@ -20,7 +20,7 @@ public StreamContainer ToStreamContainer(long startPosition)
 
 ### Возвращаемое значение
 
-[`StreamContainer`](../../../aspose.imaging/streamcontainer)с преобразованными данными.
+[`StreamContainer`](../../../aspose.imaging/streamcontainer) с преобразованными данными.
 
 ### Смотрите также
 

@@ -16,8 +16,8 @@ public static bool operator ==(TgaImage first, TgaImage second)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| first | TgaImage | Первый[`TgaImage`](../../tgaimage)который принимает участие в сравнении . |
-| second | TgaImage | Второй[`TgaImage`](../../tgaimage)который участвует в сравнении. |
+| first | TgaImage | Первый[`TgaImage`](../../tgaimage) что принимает участие в сравнении. |
+| second | TgaImage | Второй[`TgaImage`](../../tgaimage) что принимает участие в сравнении. |
 
 ### Возвращаемое значение
 

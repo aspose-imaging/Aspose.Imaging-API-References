@@ -1,14 +1,14 @@
 ---
 title: Screen
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает экран.
+description: Получает или устанавливает экран.
 type: docs
 weight: 110
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/screen/
 ---
 ## CmxGradient.Screen property
 
-Получает или задает экран.
+Получает или устанавливает экран.
 
 ```csharp
 public ushort Screen { get; set; }

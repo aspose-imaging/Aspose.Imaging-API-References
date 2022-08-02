@@ -20,7 +20,7 @@ public enum EmfPlusImageDataType
 | --- | --- | --- |
 | ImageDataTypeUnknown | `0` | Тип изображения неизвестен. |
 | ImageDataTypeBitmap | `1` | Задает растровое изображение. |
-| ImageDataTypeMetafile | `2` | Указывает образ метафайла. |
+| ImageDataTypeMetafile | `2` | Указывает изображение метафайла. |
 
 ### Смотрите также
 

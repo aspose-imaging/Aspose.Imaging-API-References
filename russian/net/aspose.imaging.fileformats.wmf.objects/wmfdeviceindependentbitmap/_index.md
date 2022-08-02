@@ -26,8 +26,8 @@ public class WmfDeviceIndependentBitmap : MetaObject
 | --- | --- |
 | [AData](../../aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/adata) { get; set; } | Получает или задает массив байтов, определяющих изображение. Размер и формат этих данных определяется информацией в поле DIBHeaderInfo. |
 | [CachedImage](../../aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/cachedimage) { get; set; } | Получает или задает кэшированное растровое изображение. |
-| [ColorsData](../../aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/colorsdata) { get; set; } | Получает или задает необязательный массив объектов RGBQuad (раздел 2.2.2.20) или 16-разрядных целых чисел без знака, определяющих таблицу цветов. Размер и содержимое этого поля СЛЕДУЕТ определять из записи метафайла или объекта, который содержит этот DeviceIndependentBitmap и из информации в поле DIBHeaderInfo. Дополнительные сведения см. в разделе ColorUsage Перечисление (раздел 2.1.1.6) и Перечисление BitCount (раздел 2.1.1.3) |
-| [Header](../../aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/header) { get; set; } | Получает или задает либо объект BitmapCoreHeader (раздел 2.2.2.2), либо объект BitmapInfoHeader (раздел 2.2.2.3), который указывает информацию об изображении |
+| [ColorsData](../../aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/colorsdata) { get; set; } | Получает или задает необязательный массив объектов RGBQuad (section 2.2.2.20) или 16-разрядных целых чисел без знака, определяющих таблицу цветов. Размер и содержимое этого поля СЛЕДУЕТ определять из записи метафайла или объекта, который содержит этот DeviceIndependentBitmap , и из информации в поле DIBHeaderInfo. См. Перечисление ColorUsage (раздел 2.1.1.6) и Перечисление BitCount (раздел 2.1.1.3) для получения дополнительной информации |
+| [Header](../../aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/header) { get; set; } | Получает или задает либо объект BitmapCoreHeader (раздел 2.2.2.2), либо объект a BitmapInfoHeader (раздел 2.2.2.3), который указывает information об изображении |
 
 ### Смотрите также
 

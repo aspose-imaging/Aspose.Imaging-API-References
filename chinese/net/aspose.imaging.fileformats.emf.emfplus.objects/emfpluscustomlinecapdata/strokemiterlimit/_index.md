@@ -1,14 +1,14 @@
 ---
 title: StrokeMiterLimit
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置包含厚度限制的 32 位浮点值 在斜接角上通过设置最大值斜接长度与线宽的允许比率 
+description: 通过设置斜接长度与线宽的最大允许比率 获取或设置包含斜接角上连接的厚度 的限制的 32 位浮点值
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokemiterlimit/
 ---
 ## EmfPlusCustomLineCapData.StrokeMiterLimit property
 
-获取或设置包含厚度限制的 32 位浮点值 在斜接角上通过设置最大值斜接长度与线宽的允许比率 。
+通过设置斜接长度与线宽的最大允许比率 获取或设置包含斜接角上连接的厚度 的限制的 32 位浮点值。
 
 ```csharp
 public float StrokeMiterLimit { get; set; }

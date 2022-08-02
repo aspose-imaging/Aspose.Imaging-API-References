@@ -1,14 +1,14 @@
 ---
 title: NonDropTimecode2997
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取非丢弃时间码2997
+description: 获取非丢包时间码2997.
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/timeformat/nondroptimecode2997/
 ---
 ## TimeFormat.NonDropTimecode2997 property
 
-获取非丢弃时间码2997。
+获取非丢包时间码2997.
 
 ```csharp
 public static TimeFormat NonDropTimecode2997 { get; }
@@ -16,7 +16,7 @@ public static TimeFormat NonDropTimecode2997 { get; }
 
 ### 适当的价值
 
-不丢时间码2997。
+不丢时间码2997.
 
 ### 也可以看看
 

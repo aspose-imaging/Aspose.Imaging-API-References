@@ -18,15 +18,15 @@ public sealed class BmpImage : RasterCachedImage
 
 | Имя | Описание |
 | --- | --- |
-| [BmpImage](bmpimage#constructor)(RasterImage) | Инициализирует новый экземпляр класса[`BmpImage`](../bmpimage). |
-| [BmpImage](bmpimage#constructor_5)(Stream) | Инициализирует новый экземпляр класса[`BmpImage`](../bmpimage). |
-| [BmpImage](bmpimage#constructor_7)(string) | Инициализирует новый экземпляр класса[`BmpImage`](../bmpimage). |
-| [BmpImage](bmpimage#constructor_2)(int, int) | Инициализирует новый экземпляр класса[`BmpImage`](../bmpimage). |
-| [BmpImage](bmpimage#constructor_3)(int, int, ushort, IColorPalette) | Инициализирует новый экземпляр класса[`BmpImage`](../bmpimage). |
-| [BmpImage](bmpimage#constructor_1)(RasterImage, ushort, BitmapCompression, double, double) | Инициализирует новый экземпляр класса[`BmpImage`](../bmpimage). |
-| [BmpImage](bmpimage#constructor_6)(Stream, ushort, BitmapCompression, double, double) | Инициализирует новый экземпляр класса[`BmpImage`](../bmpimage). |
-| [BmpImage](bmpimage#constructor_8)(string, ushort, BitmapCompression, double, double) | Инициализирует новый экземпляр класса[`BmpImage`](../bmpimage). |
-| [BmpImage](bmpimage#constructor_4)(int, int, ushort, IColorPalette, BitmapCompression, double, double) | Инициализирует новый экземпляр класса[`BmpImage`](../bmpimage). |
+| [BmpImage](bmpimage#constructor)(RasterImage) | Инициализирует новый экземпляр[`BmpImage`](../bmpimage) класс. |
+| [BmpImage](bmpimage#constructor_5)(Stream) | Инициализирует новый экземпляр[`BmpImage`](../bmpimage) класс. |
+| [BmpImage](bmpimage#constructor_7)(string) | Инициализирует новый экземпляр[`BmpImage`](../bmpimage) класс. |
+| [BmpImage](bmpimage#constructor_2)(int, int) | Инициализирует новый экземпляр[`BmpImage`](../bmpimage) класс. |
+| [BmpImage](bmpimage#constructor_3)(int, int, ushort, IColorPalette) | Инициализирует новый экземпляр[`BmpImage`](../bmpimage) класс. |
+| [BmpImage](bmpimage#constructor_1)(RasterImage, ushort, BitmapCompression, double, double) | Инициализирует новый экземпляр[`BmpImage`](../bmpimage) класс. |
+| [BmpImage](bmpimage#constructor_6)(Stream, ushort, BitmapCompression, double, double) | Инициализирует новый экземпляр[`BmpImage`](../bmpimage) класс. |
+| [BmpImage](bmpimage#constructor_8)(string, ushort, BitmapCompression, double, double) | Инициализирует новый экземпляр[`BmpImage`](../bmpimage) класс. |
+| [BmpImage](bmpimage#constructor_4)(int, int, ushort, IColorPalette, BitmapCompression, double, double) | Инициализирует новый экземпляр[`BmpImage`](../bmpimage) класс. |
 
 ## Характеристики
 
@@ -34,38 +34,38 @@ public sealed class BmpImage : RasterCachedImage
 | --- | --- |
 | [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette) { get; set; } | Получает или задает значение, указывающее, следует ли автоматически настраивать палитру. |
 | virtual [BackgroundColor](../../aspose.imaging/image/backgroundcolor) { get; set; } | Получает или задает значение цвета фона. |
-| [BitmapInfoHeader](../../aspose.imaging.fileformats.bmp/bmpimage/bitmapinfoheader) { get; } | Получает заголовок с информацией о растровом изображении. |
+| [BitmapInfoHeader](../../aspose.imaging.fileformats.bmp/bmpimage/bitmapinfoheader) { get; } | Получает заголовок информации о растровом изображении. |
 | override [BitsPerPixel](../../aspose.imaging.fileformats.bmp/bmpimage/bitsperpixel) { get; } | Получает количество бит изображения на пиксель. |
 | [Bounds](../../aspose.imaging/image/bounds) { get; } | Получает границы изображения. |
-| [BufferSizeHint](../../aspose.imaging/image/buffersizehint) { get; set; } | Получает или устанавливает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
+| [BufferSizeHint](../../aspose.imaging/image/buffersizehint) { get; set; } | Получает или задает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
 | [Compression](../../aspose.imaging.fileformats.bmp/bmpimage/compression) { get; } | Получает сжатие изображения. |
-| [Container](../../aspose.imaging/image/container) { get; } | Получает контейнер[`Image`](../../aspose.imaging/image). |
+| [Container](../../aspose.imaging/image/container) { get; } | Получает[`Image`](../../aspose.imaging/image) контейнер. |
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer) { get; } | Получает поток данных объекта. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
 | override [FileFormat](../../aspose.imaging.fileformats.bmp/bmpimage/fileformat) { get; } | Получает значение формата файла |
-| virtual [HasAlpha](../../aspose.imaging/rasterimage/hasalpha) { get; } | Получает значение, указывающее, имеет ли этот экземпляр альфа-канал. |
+| virtual [HasAlpha](../../aspose.imaging/rasterimage/hasalpha) { get; } | Получает значение, указывающее, есть ли у этого экземпляра альфа. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor) { get; set; } | Получает или задает значение, указывающее, имеет ли изображение фоновый цвет. |
 | virtual [HasTransparentColor](../../aspose.imaging/rasterimage/hastransparentcolor) { get; set; } | Получает значение, указывающее, имеет ли изображение прозрачный цвет. |
 | override [Height](../../aspose.imaging.fileformats.bmp/bmpimage/height) { get; } | Получает высоту изображения. |
-| override [HorizontalResolution](../../aspose.imaging.fileformats.bmp/bmpimage/horizontalresolution) { get; set; } | Получает или задает горизонтальное разрешение в пикселях на дюйм для этого[`RasterImage`](../../aspose.imaging/rasterimage). |
+| override [HorizontalResolution](../../aspose.imaging.fileformats.bmp/bmpimage/horizontalresolution) { get; set; } | Получает или задает горизонтальное разрешение в пикселях на дюйм для этого[`RasterImage`](../../aspose.imaging/rasterimage) . |
 | virtual [ImageOpacity](../../aspose.imaging/rasterimage/imageopacity) { get; } | Получает непрозрачность этого изображения. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor) { get; set; } | Получает или устанавливает монитор прерываний. |
 | override [IsCached](../../aspose.imaging/rastercachedimage/iscached) { get; } | Получает значение, указывающее, кэшируются ли в данный момент данные изображения. |
 | [IsRawDataAvailable](../../aspose.imaging/rasterimage/israwdataavailable) { get; } | Получает значение, указывающее, доступна ли загрузка необработанных данных. |
 | [Palette](../../aspose.imaging/image/palette) { get; set; } | Получает или задает цветовую палитру. Цветовая палитра не используется, когда пиксели представлены напрямую. |
 | virtual [PremultiplyComponents](../../aspose.imaging/rasterimage/premultiplycomponents) { get; set; } | Получает или задает значение, указывающее, должны ли компоненты изображения предварительно умножаться. |
-| [RawCustomColorConverter](../../aspose.imaging/rasterimage/rawcustomcolorconverter) { get; set; } | Получает или задает пользовательский преобразователь цвета |
+| [RawCustomColorConverter](../../aspose.imaging/rasterimage/rawcustomcolorconverter) { get; set; } | Получает или задает пользовательский конвертер цветов |
 | override [RawDataFormat](../../aspose.imaging.fileformats.bmp/bmpimage/rawdataformat) { get; } | Получает формат необработанных данных. |
 | [RawDataSettings](../../aspose.imaging/rasterimage/rawdatasettings) { get; } | Получает текущие настройки необработанных данных. Обратите внимание, что при использовании этих настроек данные загружаются без преобразования. |
 | [RawFallbackIndex](../../aspose.imaging/rasterimage/rawfallbackindex) { get; set; } | Получает или задает резервный индекс для использования, когда индекс палитры выходит за пределы |
 | [RawIndexedColorConverter](../../aspose.imaging/rasterimage/rawindexedcolorconverter) { get; set; } | Получает или задает преобразователь индексированных цветов |
-| override [RawLineSize](../../aspose.imaging.fileformats.bmp/bmpimage/rawlinesize) { get; } | Получает необработанный размер строки в байтах. |
+| override [RawLineSize](../../aspose.imaging.fileformats.bmp/bmpimage/rawlinesize) { get; } | Получает исходный размер строки в байтах. |
 | [Size](../../aspose.imaging/image/size) { get; } | Получает размер изображения. |
 | virtual [TransparentColor](../../aspose.imaging/rasterimage/transparentcolor) { get; set; } | Получает прозрачный цвет изображения. |
 | virtual [UpdateXmpData](../../aspose.imaging/rasterimage/updatexmpdata) { get; set; } | Получает или задает значение, указывающее, следует ли обновлять метаданные XMP. |
 | override [UsePalette](../../aspose.imaging/rasterimage/usepalette) { get; } | Получает значение, указывающее, используется ли палитра изображения. |
 | virtual [UseRawData](../../aspose.imaging/rasterimage/userawdata) { get; set; } | Получает или задает значение, указывающее, следует ли использовать загрузку необработанных данных, когда доступна загрузка необработанных данных. |
-| override [VerticalResolution](../../aspose.imaging.fileformats.bmp/bmpimage/verticalresolution) { get; set; } | Получает или задает вертикальное разрешение в пикселях на дюйм для этого[`RasterImage`](../../aspose.imaging/rasterimage). |
+| override [VerticalResolution](../../aspose.imaging.fileformats.bmp/bmpimage/verticalresolution) { get; set; } | Получает или задает разрешение по вертикали в пикселях на дюйм этого[`RasterImage`](../../aspose.imaging/rasterimage) . |
 | override [Width](../../aspose.imaging.fileformats.bmp/bmpimage/width) { get; } | Получает ширину изображения. |
 | virtual [XmpData](../../aspose.imaging/rasterimage/xmpdata) { get; set; } | Получает или задает метаданные XMP. |
 
@@ -74,63 +74,63 @@ public sealed class BmpImage : RasterCachedImage
 | Имя | Описание |
 | --- | --- |
 | override [AdjustBrightness](../../aspose.imaging/rastercachedimage/adjustbrightness)(int) | Настройка яркости изображения. |
-| override [AdjustContrast](../../aspose.imaging/rastercachedimage/adjustcontrast)(float) | Контраст изображения |
+| override [AdjustContrast](../../aspose.imaging/rastercachedimage/adjustcontrast)(float) | Изображение контрастное |
 | override [AdjustGamma](../../aspose.imaging/rastercachedimage/adjustgamma)(float) | Гамма-коррекция изображения. |
 | override [AdjustGamma](../../aspose.imaging/rastercachedimage/adjustgamma)(float, float, float) | Гамма-коррекция изображения. |
-| override [BinarizeBradley](../../aspose.imaging/rastercachedimage/binarizebradley)(double) | Бинаризация изображения с использованием алгоритма адаптивной пороговой обработки Брэдли с использованием интегральной пороговой обработки изображения |
-| override [BinarizeBradley](../../aspose.imaging/rastercachedimage/binarizebradley)(double, int) | Бинаризация изображения с использованием алгоритма адаптивной пороговой обработки Брэдли с использованием интегральной пороговой обработки изображения |
+| override [BinarizeBradley](../../aspose.imaging/rastercachedimage/binarizebradley)(double) | Бинаризация изображения с использованием алгоритма адаптивной пороговой обработки Брэдли с использованием интегрального порогового значения изображения |
+| override [BinarizeBradley](../../aspose.imaging/rastercachedimage/binarizebradley)(double, int) | Бинаризация изображения с использованием алгоритма адаптивной пороговой обработки Брэдли с использованием интегрального порогового значения изображения |
 | override [BinarizeFixed](../../aspose.imaging/rastercachedimage/binarizefixed)(byte) | Бинаризация изображения с заданным порогом |
 | override [BinarizeOtsu](../../aspose.imaging/rastercachedimage/binarizeotsu)() | Бинаризация изображения с пороговым значением Otsu |
-| override [CacheData](../../aspose.imaging/rastercachedimage/cachedata)() | Кэширует данные и гарантирует, что дополнительная загрузка данных не будет выполняться из базового[`DataStreamContainer`](../../aspose.imaging/datastreamsupporter/datastreamcontainer). |
-| [CanSave](../../aspose.imaging/image/cansave)(ImageOptionsBase) | Определяет, можно ли сохранить изображение в указанный формат файла, представленный переданными параметрами сохранения. |
+| override [CacheData](../../aspose.imaging/rastercachedimage/cachedata)() | Кэширует данные и гарантирует, что дополнительная загрузка данных не будет выполняться из базового[`DataStreamContainer`](../../aspose.imaging/datastreamsupporter/datastreamcontainer) . |
+| [CanSave](../../aspose.imaging/image/cansave)(ImageOptionsBase) | Определяет, можно ли сохранить изображение в указанном формате файла, представленном переданными параметрами сохранения. |
 | override [Crop](../../aspose.imaging/rastercachedimage/crop)(Rectangle) | Обрезка изображения. |
 | virtual [Crop](../../aspose.imaging/rasterimage/crop)(int, int, int, int) | Обрезать изображение со сдвигами. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose)() | Удаляет текущий экземпляр. |
 | [Dither](../../aspose.imaging/rasterimage/dither)(DitheringMethod, int) | Выполняет сглаживание текущего изображения. |
 | override [Dither](../../aspose.imaging/rastercachedimage/dither)(DitheringMethod, int, IColorPalette) | Выполняет сглаживание текущего изображения. |
 | virtual [Filter](../../aspose.imaging/rasterimage/filter)(Rectangle, FilterOptionsBase) | Фильтрует указанный прямоугольник. |
-| [GetArgb32Pixel](../../aspose.imaging/rasterimage/getargb32pixel)(int, int) | Получает 32-битный пиксель изображения ARGB. |
+| [GetArgb32Pixel](../../aspose.imaging/rasterimage/getargb32pixel)(int, int) | Получает изображение 32-битного пикселя ARGB. |
 | [GetDefaultArgb32Pixels](../../aspose.imaging/rasterimage/getdefaultargb32pixels)(Rectangle) | Получает массив 32-битных пикселей ARGB по умолчанию. |
 | override [GetDefaultOptions](../../aspose.imaging.fileformats.bmp/bmpimage/getdefaultoptions)(object[]) | Получает параметры по умолчанию. |
 | [GetDefaultPixels](../../aspose.imaging/rasterimage/getdefaultpixels)(Rectangle, IPartialArgb32PixelLoader) | Получает массив пикселей по умолчанию с помощью частичной загрузки пикселей. |
 | [GetDefaultRawData](../../aspose.imaging/rasterimage/getdefaultrawdata)(Rectangle, RawDataSettings) | Получает массив необработанных данных по умолчанию. |
 | [GetDefaultRawData](../../aspose.imaging/rasterimage/getdefaultrawdata)(Rectangle, IPartialRawDataLoader, RawDataSettings) | Получает массив необработанных данных по умолчанию с использованием частичной загрузки пикселей. |
 | virtual [GetModifyDate](../../aspose.imaging/rasterimage/getmodifydate)(bool) | Получает дату и время последнего изменения образа ресурса. |
-| virtual [GetOriginalOptions](../../aspose.imaging/image/getoriginaloptions)() | Получает параметры на основе исходных настроек файла. Это может быть полезно для сохранения битовой глубины и других параметров исходного изображения без изменений. Например, если мы загрузим черно-белое изображение PNG с 1 битом на пиксель, а затем сохраним его с помощью [`Save`](../../aspose.imaging/datastreamsupporter/save)будет создано выходное изображение PNG с 8 битами на пиксель. Чтобы избежать этого и сохранить изображение PNG с 1 битом на пиксель, используйте этот метод, чтобы получить соответствующие параметры сохранения и передать их в[`Save`](../../aspose.imaging/image/save)метод в качестве второго параметра. |
+| virtual [GetOriginalOptions](../../aspose.imaging/image/getoriginaloptions)() | Получает параметры, основанные на настройках исходного файла. Это может быть полезно для сохранения без изменений битовой глубины и других параметров исходного изображения. Например, если мы загружаем черно-белое изображение PNG с 1 битом на пиксель, а затем сохраните его, используя the [`Save`](../../aspose.imaging/datastreamsupporter/save) будет создано выходное изображение PNG с 8 битами на пиксель. Чтобы избежать этого и сохранить изображение PNG с 1 битом на пиксель, используйте этот метод, чтобы получить соответствующие параметры сохранения и передать их [`Save`](../../aspose.imaging/image/save) метод в качестве второго параметра. |
 | [GetPixel](../../aspose.imaging/rasterimage/getpixel)(int, int) | Получает пиксель изображения. |
-| [GetSkewAngle](../../aspose.imaging/rasterimage/getskewangle)() | Получает угол наклона. Этот метод применим к отсканированным текстовым документам, для определения угла перекоса при сканировании. |
+| [GetSkewAngle](../../aspose.imaging/rasterimage/getskewangle)() | Получает угол наклона. Этот метод применим к отсканированным текстовым документам для определения угла наклона при сканировании. |
 | override [Grayscale](../../aspose.imaging/rastercachedimage/grayscale)() | Преобразование изображения в его представление в градациях серого |
 | [LoadArgb32Pixels](../../aspose.imaging/rasterimage/loadargb32pixels)(Rectangle) | Загружает 32-битные пиксели ARGB. |
 | [LoadArgb64Pixels](../../aspose.imaging/rasterimage/loadargb64pixels)(Rectangle) | Загружает 64-битные пиксели ARGB. |
 | [LoadCmyk32Pixels](../../aspose.imaging/rasterimage/loadcmyk32pixels)(Rectangle) | Загружает пиксели в формате CMYK. |
-| [LoadPartialArgb32Pixels](../../aspose.imaging/rasterimage/loadpartialargb32pixels)(Rectangle, IPartialArgb32PixelLoader) | Загружает 32-битные ARGB-пиксели частично пачками. |
+| [LoadPartialArgb32Pixels](../../aspose.imaging/rasterimage/loadpartialargb32pixels)(Rectangle, IPartialArgb32PixelLoader) | Загружает 32-битные пиксели ARGB частично по пакетам. |
 | [LoadPartialPixels](../../aspose.imaging/rasterimage/loadpartialpixels)(Rectangle, IPartialPixelLoader) | Загружает пиксели частично пачками. |
 | [LoadPixels](../../aspose.imaging/rasterimage/loadpixels)(Rectangle) | Загружает пиксели. |
 | [LoadRawData](../../aspose.imaging/rasterimage/loadrawdata)(Rectangle, RawDataSettings, IPartialRawDataLoader) | Загружает необработанные данные. |
 | [LoadRawData](../../aspose.imaging/rasterimage/loadrawdata)(Rectangle, Rectangle, RawDataSettings, IPartialRawDataLoader) | Загружает необработанные данные. |
-| [NormalizeAngle](../../aspose.imaging/rasterimage/normalizeangle)() | Нормализует угол. Этот метод применим к отсканированным текстовым документам, чтобы избавиться от перекоса сканирования. Этот метод использует[`GetSkewAngle`](../../aspose.imaging/rasterimage/getskewangle)и[`Rotate`](../../aspose.imaging/rasterimage/rotate)методы. |
-| virtual [NormalizeAngle](../../aspose.imaging/rasterimage/normalizeangle)(bool, Color) | Нормализует угол. Этот метод применим к отсканированным текстовым документам, чтобы избавиться от перекоса сканирования. Этот метод использует[`GetSkewAngle`](../../aspose.imaging/rasterimage/getskewangle)и[`Rotate`](../../aspose.imaging/rasterimage/rotate)методы. |
-| [ReadArgb32ScanLine](../../aspose.imaging/rasterimage/readargb32scanline)(int) | Читает всю строку сканирования по указанному индексу строки сканирования. |
-| [ReadScanLine](../../aspose.imaging/rasterimage/readscanline)(int) | Читает всю строку сканирования по указанному индексу строки сканирования. |
-| [ReplaceColor](../../aspose.imaging/rasterimage/replacecolor)(Color, byte, Color) | Заменяет один цвет другим с допустимой разницей и сохраняет исходное значение альфа-канала для сохранения гладких краев. |
-| virtual [ReplaceColor](../../aspose.imaging/rasterimage/replacecolor)(int, byte, int) | Заменяет один цвет другим с допустимой разницей и сохраняет исходное значение альфа-канала для сохранения гладких краев. |
-| [ReplaceNonTransparentColors](../../aspose.imaging/rasterimage/replacenontransparentcolors)(Color) | Заменяет все непрозрачные цвета новым цветом и сохраняет исходное значение альфа-канала для сохранения гладких краев. Примечание:если вы используете его на изображениях без прозрачности, все цвета будут заменены одним. |
-| virtual [ReplaceNonTransparentColors](../../aspose.imaging/rasterimage/replacenontransparentcolors)(int) | Заменяет все непрозрачные цвета новым цветом и сохраняет исходное значение альфа-канала для сохранения гладких краев. Примечание:если вы используете его на изображениях без прозрачности, все цвета будут заменены одним. |
-| [Resize](../../aspose.imaging/image/resize)(int, int) | Изменяет размер изображения. По умолчанию используетсяNearestNeighbourResample. |
+| [NormalizeAngle](../../aspose.imaging/rasterimage/normalizeangle)() | Нормализует угол. Этот метод применим к отсканированным текстовым документам, чтобы избавиться от перекоса сканирования. Этот метод использует[`GetSkewAngle`](../../aspose.imaging/rasterimage/getskewangle) а также[`Rotate`](../../aspose.imaging/rasterimage/rotate) методы. |
+| virtual [NormalizeAngle](../../aspose.imaging/rasterimage/normalizeangle)(bool, Color) | Нормализует угол. Этот метод применим к отсканированным текстовым документам, чтобы избавиться от перекоса сканирования. Этот метод использует[`GetSkewAngle`](../../aspose.imaging/rasterimage/getskewangle) а также[`Rotate`](../../aspose.imaging/rasterimage/rotate) методы. |
+| [ReadArgb32ScanLine](../../aspose.imaging/rasterimage/readargb32scanline)(int) | Считывает всю строку сканирования по указанному индексу строки сканирования. |
+| [ReadScanLine](../../aspose.imaging/rasterimage/readscanline)(int) | Считывает всю строку сканирования по указанному индексу строки сканирования. |
+| [ReplaceColor](../../aspose.imaging/rasterimage/replacecolor)(Color, byte, Color) | Заменяет один цвет другим с допустимой разницей и сохраняет исходное значение альфа-канала для сохранения сглаженных краев. |
+| virtual [ReplaceColor](../../aspose.imaging/rasterimage/replacecolor)(int, byte, int) | Заменяет один цвет другим с допустимой разницей и сохраняет исходное значение альфа-канала для сохранения сглаженных краев. |
+| [ReplaceNonTransparentColors](../../aspose.imaging/rasterimage/replacenontransparentcolors)(Color) | Заменяет все непрозрачные цвета новым цветом и сохраняет исходное значение альфа-канала для сохранения гладких краев. Примечание: если вы используете его на изображениях без прозрачности, все цвета будут заменены одним цветом. |
+| virtual [ReplaceNonTransparentColors](../../aspose.imaging/rasterimage/replacenontransparentcolors)(int) | Заменяет все непрозрачные цвета новым цветом и сохраняет исходное значение альфа-канала для сохранения гладких краев. Примечание: если вы используете его на изображениях без прозрачности, все цвета будут заменены одним цветом. |
+| [Resize](../../aspose.imaging/image/resize)(int, int) | Изменяет размер изображения. По умолчаниюNearestNeighbourResample используется. |
 | override [Resize](../../aspose.imaging/rastercachedimage/resize)(int, int, ImageResizeSettings) | Изменяет размер изображения. |
 | override [Resize](../../aspose.imaging/rastercachedimage/resize)(int, int, ResizeType) | Изменяет размер изображения. |
-| [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally)(int) | Пропорционально изменяет размер высоты. По умолчанию используетсяNearestNeighbourResample. |
-| virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally)(int, ImageResizeSettings) | Пропорционально изменяет размер высоты. |
-| virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally)(int, ResizeType) | Пропорционально изменяет размер высоты. |
-| [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally)(int) | Пропорционально изменяет ширину. По умолчанию используетсяNearestNeighbourResample. |
-| virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally)(int, ImageResizeSettings) | Пропорционально изменяет ширину. |
-| virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally)(int, ResizeType) | Пропорционально изменяет ширину. |
+| [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally)(int) | Изменяет размер высоты пропорционально. По умолчаниюNearestNeighbourResample используется. |
+| virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally)(int, ImageResizeSettings) | Изменяет размер высоты пропорционально. |
+| virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally)(int, ResizeType) | Изменяет размер высоты пропорционально. |
+| [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally)(int) | Изменяет ширину пропорционально. По умолчаниюNearestNeighbourResample используется. |
+| virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally)(int, ImageResizeSettings) | Изменяет ширину пропорционально. |
+| virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally)(int, ResizeType) | Изменяет ширину пропорционально. |
 | virtual [Rotate](../../aspose.imaging/rasterimage/rotate)(float) | Повернуть изображение вокруг центра. |
 | override [Rotate](../../aspose.imaging/rastercachedimage/rotate)(float, bool, Color) | Повернуть изображение вокруг центра. |
 | override [RotateFlip](../../aspose.imaging/rastercachedimage/rotateflip)(RotateFlipType) | Вращает, переворачивает или поворачивает и переворачивает изображение. |
-| [Save](../../aspose.imaging/image/save)() | Сохраняет данные изображения в основной поток. |
+| [Save](../../aspose.imaging/image/save)() | Сохраняет данные изображения в базовый поток. |
 | [Save](../../aspose.imaging/datastreamsupporter/save)(Stream) | Сохраняет данные объекта в указанный поток. |
-| override [Save](../../aspose.imaging/image/save)(string) | Сохраняет изображение в указанное местоположение файла. |
+| override [Save](../../aspose.imaging/image/save)(string) | Сохраняет изображение в указанном месте файла. |
 | [Save](../../aspose.imaging/image/save)(Stream, ImageOptionsBase) | Сохраняет данные изображения в указанный поток в указанном формате файла в соответствии с параметрами сохранения. |
 | virtual [Save](../../aspose.imaging/datastreamsupporter/save)(string, bool) | Сохраняет данные объекта в указанном месте файла. |
 | virtual [Save](../../aspose.imaging/image/save)(string, ImageOptionsBase) | Сохраняет данные объекта в указанном месте файла в указанном формате файла в соответствии с параметрами сохранения. |
@@ -141,9 +141,9 @@ public sealed class BmpImage : RasterCachedImage
 | [SavePixels](../../aspose.imaging/rasterimage/savepixels)(Rectangle, Color[]) | Сохраняет пиксели. |
 | [SaveRawData](../../aspose.imaging/rasterimage/saverawdata)(byte[], int, Rectangle, RawDataSettings) | Сохраняет необработанные данные. |
 | [SetArgb32Pixel](../../aspose.imaging/rasterimage/setargb32pixel)(int, int, int) | Устанавливает 32-битный пиксель изображения ARGB для указанной позиции. |
-| override [SetPalette](../../aspose.imaging/rasterimage/setpalette)(IColorPalette, bool) | Устанавливает палитру изображения. |
+| override [SetPalette](../../aspose.imaging/rasterimage/setpalette)(IColorPalette, bool) | Задает палитру изображения. |
 | [SetPixel](../../aspose.imaging/rasterimage/setpixel)(int, int, Color) | Устанавливает пиксель изображения для указанной позиции. |
-| override [SetResolution](../../aspose.imaging.fileformats.bmp/bmpimage/setresolution)(double, double) | Устанавливает разрешение для этого[`RasterImage`](../../aspose.imaging/rasterimage). |
+| override [SetResolution](../../aspose.imaging.fileformats.bmp/bmpimage/setresolution)(double, double) | Устанавливает разрешение для этого[`RasterImage`](../../aspose.imaging/rasterimage) . |
 | override [ToBitmap](../../aspose.imaging.fileformats.bmp/bmpimage/tobitmap)() | Преобразует растровое изображение в растровое. |
 | [WriteArgb32ScanLine](../../aspose.imaging/rasterimage/writeargb32scanline)(int, int[]) | Записывает всю строку сканирования в указанный индекс строки сканирования. |
 | [WriteScanLine](../../aspose.imaging/rasterimage/writescanline)(int, Color[]) | Записывает всю строку сканирования в указанный индекс строки сканирования. |
@@ -155,56 +155,20 @@ public sealed class BmpImage : RasterCachedImage
 ```csharp
 [C#]
 
-string dir = "c:\\temp\\";
-
- // Создаем изображение BMP 100 x 100 px.
-using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100))
+using (var image = Image.Load("CompressedTiger.bmp"))
 {
-     // Заливаем изображение простым линейным красно-черным градиентом.
-    int width = bmpImage.Width;
-    int height = bmpImage.Height;
-    for (int y = 0; y < height; y++)
-    {
-        for (int x = 0; x < width; x++)
-        {
-            int hue = (255 * x) / width;
-            bmpImage.SetPixel(x, y, Aspose.Imaging.Color.FromArgb(255, hue, 0, 0));
-        }
-    }
-
-    using (System.IO.FileStream stream = new System.IO.FileStream(dir + "output.bmp", System.IO.FileMode.Create))
-    {
-        bmpImage.Save(stream);
-    }
+    image.Save("DecompressedTiger.bmp", new BmpOptions());
 }
 ```
 
-Сжать изображение BMP, используя алгоритм сжатия DXT1.
+Сжатие изображения BMP с использованием алгоритма сжатия DXT1.
 
 ```csharp
 [C#]
 
-string dir = "c:\\temp\\";
-
- // Создаем изображение BMP 100 x 100 px.
-using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100))
+using (var image = Image.Load("Tiger.bmp"))
 {
-     // Заливаем изображение простым линейным красно-черным градиентом.
-    int width = bmpImage.Width;
-    int height = bmpImage.Height;
-    for (int y = 0; y < height; y++)
-    {
-        for (int x = 0; x < width; x++)
-        {
-            int hue = (255 * x) / width;
-            bmpImage.SetPixel(x, y, Aspose.Imaging.Color.FromArgb(255, hue, 0, 0));
-        }
-    }
-
-    using (System.IO.FileStream stream = new System.IO.FileStream(dir + "output.bmp", System.IO.FileMode.Create))
-    {
-        bmpImage.Save(stream);
-    }
+    image.Save("CompressedTiger.bmp", new BmpOptions { Compression = BitmapCompression.Dxt1 });
 }
 ```
 
@@ -215,10 +179,10 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
 
 string dir = "c:\\temp\\";
 
- // Создаем изображение BMP 100 x 100 px.
+// Создаем BMP-изображение 100 x 100 пикселей.
 using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100))
 {
-     // Заливаем изображение простым линейным красно-черным градиентом.
+    // Заливаем изображение простым линейным красно-черным градиентом.
     int width = bmpImage.Width;
     int height = bmpImage.Height;
     for (int y = 0; y < height; y++)

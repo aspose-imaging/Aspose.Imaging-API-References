@@ -1,14 +1,14 @@
 ---
 title: Jpeg2000LoadOptions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаJpeg2000LoadOptionsaspose.imaging.imageloadoptions/jpeg2000loadoptions.
+description: Инициализирует новый экземплярJpeg2000LoadOptionsaspose.imaging.imageloadoptions/jpeg2000loadoptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.imageloadoptions/jpeg2000loadoptions/jpeg2000loadoptions/
 ---
 ## Jpeg2000LoadOptions constructor
 
-Инициализирует новый экземпляр класса[`Jpeg2000LoadOptions`](../../jpeg2000loadoptions).
+Инициализирует новый экземпляр[`Jpeg2000LoadOptions`](../../jpeg2000loadoptions) класс.
 
 ```csharp
 public Jpeg2000LoadOptions()

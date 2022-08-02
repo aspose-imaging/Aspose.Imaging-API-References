@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: Aspose.Imaging for .NET API 参考
-description: 比较两个PointFaspose.imaging/pointf结构结果指定Xaspose.imaging/pointf/x和Yaspose.imaging/pointf/y两个属性的值是否R5TAspose.Imaging.PointF结构是相等的
+description: 比较两个PointFaspose.imaging/pointf结构结果指定的值是否Xaspose.imaging/pointf/x和Yaspose.imaging/pointf/y两者的属性PointFaspose.imaging/pointf结构是平等的
 type: docs
 weight: 120
 url: /zh/net/aspose.imaging/pointf/op_equality/
 ---
 ## PointF Equality operator
 
-比较两个[`PointF`](../../pointf)结构。结果指定[`X`](../x)和[`Y`](../y)两个:::属性的值是否R5:T:Aspose.Imaging.PointF:::结构是相等的。
+比较两个[`PointF`](../../pointf)结构。结果指定的值是否[`X`](../x)和[`Y`](../y)两者的属性[`PointF`](../../pointf)结构是平等的。
 
 ```csharp
 public static bool operator ==(PointF point1, PointF point2)
@@ -16,12 +16,12 @@ public static bool operator ==(PointF point1, PointF point2)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| point1 | PointF | 第一个[`PointF`](../../pointf)进行比较。 |
-| point2 | PointF | 第二个[`PointF`](../../pointf)进行比较。 |
+| point1 | PointF | 第一个[`PointF`](../../pointf)比较。 |
+| point2 | PointF | 一秒[`PointF`](../../pointf)比较。 |
 
 ### 返回值
 
-如果[`X`](../x)和PointF则为真。第一个和第二个R5:T:Aspose.Imaging.PointF:::结构的 Y:::值相等；否则为假。
+真，如果[`X`](../x)和[`Y`](../y)第一个和第二个的值[`PointF`](../../pointf)结构是平等的；否则为假。
 
 ### 也可以看看
 

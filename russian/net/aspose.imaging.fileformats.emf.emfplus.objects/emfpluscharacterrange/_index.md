@@ -24,8 +24,8 @@ public sealed class EmfPlusCharacterRange : EmfPlusStructureObjectType
 
 | Имя | Описание |
 | --- | --- |
-| [First](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscharacterrange/first) { get; set; } | Получает или задает 32-разрядное целое число со знаком, которое указывает первую позицию в этом диапазоне. |
-| [Length](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscharacterrange/length) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее количество позиций в этом диапазоне |
+| [First](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscharacterrange/first) { get; set; } | Получает или задает 32-разрядное целое число со знаком, которое определяет первую позицию в этом диапазоне. |
+| [Length](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscharacterrange/length) { get; set; } | Получает или задает 32-разрядное целое число со знаком, которое определяет количество позиций в этом диапазоне |
 
 ### Смотрите также
 

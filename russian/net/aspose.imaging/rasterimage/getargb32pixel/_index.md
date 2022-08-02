@@ -1,14 +1,14 @@
 ---
 title: GetArgb32Pixel
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает 32-битный пиксель изображения ARGB.
+description: Получает изображение 32-битного пикселя ARGB.
 type: docs
 weight: 280
 url: /ru/net/aspose.imaging/rasterimage/getargb32pixel/
 ---
 ## RasterImage.GetArgb32Pixel method
 
-Получает 32-битный пиксель изображения ARGB.
+Получает изображение 32-битного пикселя ARGB.
 
 ```csharp
 public int GetArgb32Pixel(int x, int y)
@@ -17,7 +17,7 @@ public int GetArgb32Pixel(int x, int y)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | x | Int32 | Местоположение пикселя x. |
-| y | Int32 | Местоположение пикселя y. |
+| y | Int32 | Расположение пикселя по оси y. |
 
 ### Возвращаемое значение
 
@@ -30,54 +30,21 @@ public int GetArgb32Pixel(int x, int y)
 ```csharp
 [C#]
 
-string dir = "c:\\temp\\";
-
- // Загружаем изображение из файла PNG.
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\sample.png"))
 {
-     // Кэшируем все пиксельные данные, чтобы не выполнялась дополнительная загрузка данных из базовых данных stream
-    image.CacheData();
-
-    System.Diagnostics.Stopwatch stopwatch = new System.Diagnostics.Stopwatch();
-    stopwatch.Start();
-
-     // Чтение всех пикселей выполняется довольно быстро.
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
-    for (int y = 0; y < image.Height; y++)
-    {
-        for (int x = 0; x < image.Width; x++)
-        {
-            int color = rasterImage.GetArgb32Pixel(x, y);
-        }
-    }
 
-    stopwatch.Stop();
-    System.Console.WriteLine("Reading all cached pixels took {0} ms.", stopwatch.ElapsedMilliseconds);
+    // Получить целочисленное представление цвета верхнего левого пикселя изображения.
+    int color = rasterImage.GetArgb32Pixel(0, 0);
+
+    // Чтобы получить значения отдельных компонентов цвета, сдвиньте значение цвета на соответствующее количество битов
+    int alpha = (color >> 24) & 0xff;
+    int red = (color >> 16) & 0xff;
+    int green = (color >> 8) & 0xff;
+    int blue = (color >> 0) & 0xff;
+
+    System.Console.WriteLine("The color of the pixel(0,0) is A={0},R={1},G={2},B={3}", alpha, red, green, blue);
 }
-
- // Загружаем изображение из PNG file
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
-{
-    System.Diagnostics.Stopwatch stopwatch = new System.Diagnostics.Stopwatch();
-    stopwatch.Start();
-
-     // Чтение всех пикселей происходит не так быстро, как при caching
-    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
-    for (int y = 0; y < image.Height; y++)
-    {
-        for (int x = 0; x < image.Width; x++)
-        {
-            int color = rasterImage.GetArgb32Pixel(x, y);
-        }
-    }
-
-    stopwatch.Stop();
-    System.Console.WriteLine("Reading all pixels without preliminary caching took {0} ms.", stopwatch.ElapsedMilliseconds);
-}
-
-// Вывод может выглядеть так: 
- // Чтение всех кэшированных пикселей заняло 1500 мс.
-// Чтение всех пикселей без предварительного кеширования заняло 150000 мс.
 ```
 
 В следующем примере показано, как кэширование изображений влияет на производительность. В общем случае чтение кэшированных данных выполняется быстрее, чем чтение некэшированных данных.
@@ -87,16 +54,16 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 
 string dir = "c:\\temp\\";
 
- // Загружаем изображение из файла PNG.
+// Загрузить изображение из файла PNG.
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
 {
-     // Кэшируем все пиксельные данные, чтобы не выполнялась дополнительная загрузка данных из базовых данных stream
+    // Кэшировать все пиксельные данные, чтобы не выполнялась дополнительная загрузка данных из базового потока данных
     image.CacheData();
 
     System.Diagnostics.Stopwatch stopwatch = new System.Diagnostics.Stopwatch();
     stopwatch.Start();
 
-     // Чтение всех пикселей выполняется довольно быстро.
+    // Чтение всех пикселей выполняется довольно быстро.
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
     for (int y = 0; y < image.Height; y++)
     {
@@ -110,13 +77,13 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
     System.Console.WriteLine("Reading all cached pixels took {0} ms.", stopwatch.ElapsedMilliseconds);
 }
 
- // Загружаем изображение из PNG file
+// Загружаем изображение из файла PNG
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
 {
     System.Diagnostics.Stopwatch stopwatch = new System.Diagnostics.Stopwatch();
     stopwatch.Start();
 
-     // Чтение всех пикселей происходит не так быстро, как при caching
+    // Чтение всех пикселей происходит не так быстро, как при кэшировании
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
     for (int y = 0; y < image.Height; y++)
     {
@@ -130,8 +97,8 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
     System.Console.WriteLine("Reading all pixels without preliminary caching took {0} ms.", stopwatch.ElapsedMilliseconds);
 }
 
-// Вывод может выглядеть так: 
- // Чтение всех кэшированных пикселей заняло 1500 мс.
+// Вывод может выглядеть так:
+// Чтение всех кешированных пикселей заняло 1500 мс.
 // Чтение всех пикселей без предварительного кеширования заняло 150000 мс.
 ```
 

@@ -18,14 +18,14 @@ public sealed class EmfScaleViewportExtex : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfScaleViewportExtex](emfscaleviewportextex#constructor)() | Инициализирует новый экземпляр класса[`EmfScaleViewportExtex`](../emfscaleviewportextex). |
-| [EmfScaleViewportExtex](emfscaleviewportextex#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfScaleViewportExtex`](../emfscaleviewportextex). |
+| [EmfScaleViewportExtex](emfscaleviewportextex#constructor)() | Инициализирует новый экземпляр[`EmfScaleViewportExtex`](../emfscaleviewportextex) класс. |
+| [EmfScaleViewportExtex](emfscaleviewportextex#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfScaleViewportExtex`](../emfscaleviewportextex) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 | [XDenom](../../aspose.imaging.fileformats.emf.emf.records/emfscaleviewportextex/xdenom) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее горизонтальный делитель. Не может быть нулем. |
 | [XNum](../../aspose.imaging.fileformats.emf.emf.records/emfscaleviewportextex/xnum) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее горизонтальное множимое. Не может быть нулем. |
@@ -34,7 +34,7 @@ public sealed class EmfScaleViewportExtex : EmfStateRecordType
 
 ### Примечания
 
-Экстент не может быть изменен, если контекст устройства использует режим отображения с фиксированным масштабом. Только MM_ISOTROPIC и MM_ANISOTROPIC не имеют фиксированного масштаба. Экстенты видового экрана изменяются следующим образом. xNewWE = (xOldWE * xNum) / xDenom yNewWE = (yOldWE * yNum) / yDenom
+Экстент не может быть изменен, если контекст устройства использует режим отображения с фиксированным масштабом. Только MM_ISOTROPIC и MM_ANISOTROPIC не являются фиксированным масштабом. Экстенты окна просмотра изменяются следующим образом. xNewWE = (xOldWE * xNum) / xDenom yNewWE = (yOldWE * yNum) / yDenom
 
 ### Смотрите также
 

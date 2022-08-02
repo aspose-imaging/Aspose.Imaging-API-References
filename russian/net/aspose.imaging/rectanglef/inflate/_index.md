@@ -1,14 +1,14 @@
 ---
 title: Inflate
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Создает и возвращает увеличенную копию указаннойRectangleFaspose.imaging/rectanglefструктуры. Копия завышена на указанную сумму. Исходный прямоугольник остается неизменным.
+description: Создает и возвращает увеличенную копию указанногоRectangleFaspose.imaging/rectanglefструктура. Копия завышена на указанную сумму. Исходный прямоугольник остается без изменений.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging/rectanglef/inflate/
 ---
 ## Inflate(RectangleF, float, float)
 
-Создает и возвращает увеличенную копию указанной[`RectangleF`](../../rectanglef)структуры. Копия завышена на указанную сумму. Исходный прямоугольник остается неизменным.
+Создает и возвращает увеличенную копию указанного[`RectangleF`](../../rectanglef)структура. Копия завышена на указанную сумму. Исходный прямоугольник остается без изменений.
 
 ```csharp
 public static RectangleF Inflate(RectangleF rect, float x, float y)
@@ -16,13 +16,13 @@ public static RectangleF Inflate(RectangleF rect, float x, float y)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rect | RectangleF | [`RectangleF`](../../rectanglef)для копирования. Этот прямоугольник не изменяется. |
+| rect | RectangleF | [`RectangleF`](../../rectanglef) для копирования. Этот прямоугольник не изменяется. |
 | x | Single | Величина увеличения копии прямоугольника по горизонтали. |
-| y | Single | Величина увеличения копии прямоугольника по вертикали. |
+| y | Single | Величина, на которую необходимо раздуть копию прямоугольника по вертикали. |
 
 ### Возвращаемое значение
 
-Надутый[`RectangleF`](../../rectanglef).
+надутый[`RectangleF`](../../rectanglef).
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public static RectangleF Inflate(RectangleF rect, float x, float y)
 
 ## Inflate(float, float) {#inflate_1}
 
-Раздувает эту структуру[`RectangleF`](../../rectanglef)на указанную величину.
+раздувает это[`RectangleF`](../../rectanglef) структуру на указанную сумму.
 
 ```csharp
 public void Inflate(float x, float y)
@@ -42,8 +42,8 @@ public void Inflate(float x, float y)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Single | Величина, на которую необходимо надуть эту[`RectangleF`](../../rectanglef)структуру по горизонтали. |
-| y | Single | Величина надувания этой[`RectangleF`](../../rectanglef)структуры по вертикали. |
+| x | Single | Сумма, чтобы раздуть это[`RectangleF`](../../rectanglef) структура по горизонтали. |
+| y | Single | Сумма, чтобы раздуть это[`RectangleF`](../../rectanglef) структура по вертикали. |
 
 ### Смотрите также
 
@@ -55,7 +55,7 @@ public void Inflate(float x, float y)
 
 ## Inflate(SizeF) {#inflate}
 
-Увеличивает это[`RectangleF`](../../rectanglef)на указанную величину.
+раздувает это[`RectangleF`](../../rectanglef) на указанную сумму.
 
 ```csharp
 public void Inflate(SizeF size)
@@ -63,7 +63,7 @@ public void Inflate(SizeF size)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| size | SizeF | Величина надувания этого прямоугольника. |
+| size | SizeF | Величина, на которую нужно надуть этот прямоугольник. |
 
 ### Смотрите также
 

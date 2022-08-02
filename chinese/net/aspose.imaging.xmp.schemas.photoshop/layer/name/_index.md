@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置文本层的名称
+description: 获取或设置文字层的名称
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.xmp.schemas.photoshop/layer/name/
 ---
 ## Layer.Name property
 
-获取或设置文本层的名称。
+获取或设置文字层的名称。
 
 ```csharp
 public string Name { get; set; }
@@ -16,7 +16,7 @@ public string Name { get; set; }
 
 ### 适当的价值
 
-文本层的名称。
+文字层的名称。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: SignedImage
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示是否为signedImage
+description: 获取一个值表示是否signedImage
 type: docs
 weight: 170
 url: /zh/net/aspose.imaging.fileformats.dicom/dicomimageinfo/signedimage/
 ---
 ## DicomImageInfo.SignedImage property
 
-获取一个值，该值指示是否为“signedImage”。
+获取一个值，表示是否“signedImage”。
 
 ```csharp
 public bool SignedImage { get; }

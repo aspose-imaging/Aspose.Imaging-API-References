@@ -3,7 +3,7 @@ title: WarpMode
 second_title: Aspose.Imaging for .NET API 参考
 description: 指定应用的扭曲变换的类型
 type: docs
-weight: 11240
+weight: 11230
 url: /zh/net/aspose.imaging/warpmode/
 ---
 ## WarpMode enumeration

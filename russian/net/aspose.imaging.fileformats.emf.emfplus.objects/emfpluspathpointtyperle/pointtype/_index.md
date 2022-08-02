@@ -1,14 +1,14 @@
 ---
 title: PointType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает тип точки. PointType 1 байтобъект EmfPlusPathPointType раздел 2.2.2.31 который указывает тип который должен быть связан с точками пути.
+description: Получает или задает тип точки. PointType 1 байт EmfPlusPathPointType object раздел 2.2.2.31 указывающий тип который должен быть связан с точками пути.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtyperle/pointtype/
 ---
 ## EmfPlusPathPointTypeRle.PointType property
 
-Получает или задает тип точки. PointType (1 байт):объект EmfPlusPathPointType (раздел 2.2.2.31), который указывает тип, который должен быть связан с точками пути.
+Получает или задает тип точки. PointType (1 байт): EmfPlusPathPointType object (раздел 2.2.2.31), указывающий тип, который должен быть связан с точками пути.
 
 ```csharp
 public EmfPlusPathPointType PointType { get; set; }

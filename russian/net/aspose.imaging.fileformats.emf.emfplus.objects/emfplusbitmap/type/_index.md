@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает тип изображения Тип 4 байта32-разрядное целое число без знака указывающее тип данных в BitmapData. поле. Это значение ДОЛЖНО быть определено в перечисленииEmfPlusBitmapDataTypeaspose.imaging.fileformats.emf.emfplus.consts/emfplusbitmapdatatypeраздел 2.1.1.2.
+description: Получает или задает тип изображения Тип 4 байта 32-разрядное целое число без знака указывающее тип данных в поле BitmapData. Это значение ДОЛЖНО быть определено вEmfPlusBitmapDataTypeaspose.imaging.fileformats.emf.emfplus.consts/emfplusbitmapdatatype перечисление раздел 2.1.1.2.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap/type/
 ---
 ## EmfPlusBitmap.Type property
 
-Получает или задает тип изображения Тип (4 байта):32-разрядное целое число без знака, указывающее тип данных в BitmapData. поле. Это значение ДОЛЖНО быть определено в перечислении[`EmfPlusBitmapDataType`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusbitmapdatatype)(раздел 2.1.1.2).
+Получает или задает тип изображения Тип (4 байта): 32-разрядное целое число без знака, указывающее тип данных в поле BitmapData. Это значение ДОЛЖНО быть определено в[`EmfPlusBitmapDataType`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusbitmapdatatype) перечисление (раздел 2.1.1.2).
 
 ```csharp
 public EmfPlusBitmapDataType Type { get; set; }

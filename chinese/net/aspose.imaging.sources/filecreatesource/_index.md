@@ -3,7 +3,7 @@ title: FileCreateSource
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示创建的文件源
 type: docs
-weight: 11090
+weight: 11080
 url: /zh/net/aspose.imaging.sources/filecreatesource/
 ---
 ## FileCreateSource class
@@ -18,8 +18,8 @@ public sealed class FileCreateSource : FileSource
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileCreateSource](filecreatesource#constructor)(string) | 初始化[`FileCreateSource`](../filecreatesource)类的新实例。 |
-| [FileCreateSource](filecreatesource#constructor_1)(string, bool) | 初始化[`FileCreateSource`](../filecreatesource)类的新实例。 |
+| [FileCreateSource](filecreatesource#constructor)(string) | 初始化[`FileCreateSource`](../filecreatesource)类. |
+| [FileCreateSource](filecreatesource#constructor_1)(string, bool) | 初始化[`FileCreateSource`](../filecreatesource)类. |
 
 ## 特性
 

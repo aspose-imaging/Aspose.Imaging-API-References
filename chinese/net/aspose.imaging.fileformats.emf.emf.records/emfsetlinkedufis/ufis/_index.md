@@ -1,14 +1,14 @@
 ---
 title: Ufis
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 UniversalFontId 类型的 uNumLinkedUFI 元素数组它指定 链接字体的标识符
+description: 获取或设置UniversalFontId 类型的uNumLinkedUFI 元素数组它指定 链接字体的标识符
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetlinkedufis/ufis/
 ---
 ## EmfSetLinkedUfis.Ufis property
 
-获取或设置 UniversalFontId 类型的 uNumLinkedUFI 元素数组，它指定 链接字体的标识符。
+获取或设置UniversalFontId 类型的uNumLinkedUFI 元素数组，它指定 链接字体的标识符。
 
 ```csharp
 public EmfUniversalFontId[] Ufis { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置定义 width以像素为单位
+description: 获取或设置一个 16 位无符号整数它定义了 width DIB 的以像素 为单位
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfbitmapcoreheader/width/
 ---
 ## WmfBitmapCoreHeader.Width property
 
-获取或设置定义 width，以像素为单位
+获取或设置一个 16 位无符号整数，它定义了 width DIB 的，以像素 为单位
 
 ```csharp
 public short Width { get; set; }

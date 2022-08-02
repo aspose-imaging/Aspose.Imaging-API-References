@@ -1,14 +1,14 @@
 ---
 title: ToCmykIcc
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Преобразование цветов ARGB в цвета CMYK с использованием преобразования Icc с пользовательскими профилями.
+description: Преобразование цветов ARGB в цвета CMYK с помощью преобразования Icc с пользовательскими профилями.
 type: docs
 weight: 110
 url: /ru/net/aspose.imaging/cmykcolorhelper/tocmykicc/
 ---
 ## ToCmykIcc(Color[], Stream, Stream) {#tocmykicc_3}
 
-Преобразование цветов ARGB в цвета CMYK с использованием преобразования Icc с пользовательскими профилями.
+Преобразование цветов ARGB в цвета CMYK с помощью преобразования Icc с пользовательскими профилями.
 
 ```csharp
 public static int[] ToCmykIcc(Color[] pixels, Stream rgbIccStream, Stream cmykIccStream)
@@ -16,7 +16,7 @@ public static int[] ToCmykIcc(Color[] pixels, Stream rgbIccStream, Stream cmykIc
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| пиксели | Color[] | Цвета ARGB. |
+| pixels | Color[] | Цвета ARGB. |
 | rgbIccStream | Stream | Поток, содержащий профиль RGB Icc. |
 | cmykIccStream | Stream | Поток, содержащий профиль CMYK Icc. |
 
@@ -43,7 +43,7 @@ public static int[] ToCmykIcc(Color[] pixels)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| пиксели | Color[] | Цвета ARGB. |
+| pixels | Color[] | Цвета ARGB. |
 
 ### Возвращаемое значение
 
@@ -60,7 +60,7 @@ public static int[] ToCmykIcc(Color[] pixels)
 
 ## ToCmykIcc(Color) {#tocmykicc}
 
-Преобразование из цвета ARGB в цвет CMYK с использованием преобразования Icc с профилями по умолчанию.
+Преобразование цвета ARGB в цвет CMYK с использованием преобразования Icc с профилями по умолчанию.
 
 ```csharp
 public static int ToCmykIcc(Color pixel)
@@ -72,7 +72,7 @@ public static int ToCmykIcc(Color pixel)
 
 ### Возвращаемое значение
 
-Цвет CMYK, представленный как 32-битное целочисленное значение.
+Цвет CMYK, представленный в виде 32-битного целого числа.
 
 ### Примеры
 
@@ -100,7 +100,7 @@ foreach (Aspose.Imaging.Color rgbColor in rgbColors)
     System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k);
 }
 
- // Укажите свой путь к профилям RGB и CMYK ICC.
+// Укажите свой путь к профилям RGB и CMYK ICC.
 string dir = "c:\\temp\\iccprofiles\\";
 
 System.Console.WriteLine("Convert RGB to CMYK using custom ICC profiles.");
@@ -119,14 +119,14 @@ using (System.IO.Stream cmykProfileStream = System.IO.File.OpenRead(dir + "ISOco
     }
 }
 
- // Вывод выглядит так: 
- // Преобразование RGB в CMYK с использованием профилей ICC по умолчанию.
- //RGB(255,0,0) => CMYK(0,254,249,15)
- //RGB(0,128,0) => CMYK(247,21,254,85)
- //RGB(0,0,255) => CMYK(254,195,0,134)
- //Преобразование RGB в CMYK с использованием пользовательских профилей ICC.
+//Вывод выглядит так:
+// Преобразование RGB в CMYK с использованием профилей ICC по умолчанию.
+//RGB(255,0,0) => CMYK(0,254,249,15)
+//RGB(0,128,0) => CMYK(247,21,254,85)
+//RGB(0,0,255) => CMYK(254,195,0,134)
+// Преобразование RGB в CMYK с использованием пользовательских профилей ICC.
 //RGB(255,0,0) => CMYK(0,207,219,0)
- //RGB(0,128,0) => CMYK(238,16,254,80)
+//RGB(0,128,0) => CMYK(238,16,254,80)
 //RGB(0,0,255) => CMYK(242,182,0,0)
 ```
 
@@ -141,7 +141,7 @@ using (System.IO.Stream cmykProfileStream = System.IO.File.OpenRead(dir + "ISOco
 
 ## ToCmykIcc(Color, Stream, Stream) {#tocmykicc_1}
 
-Преобразование из цвета ARGB в цвет CMYK с использованием преобразования Icc с пользовательскими профилями.
+Преобразование цвета ARGB в цвет CMYK с помощью преобразования Icc с пользовательскими профилями.
 
 ```csharp
 public static int ToCmykIcc(Color pixel, Stream rgbIccStream, Stream cmykIccStream)
@@ -155,7 +155,7 @@ public static int ToCmykIcc(Color pixel, Stream rgbIccStream, Stream cmykIccStre
 
 ### Возвращаемое значение
 
-Цвет CMYK, представленный как 32-битное целочисленное значение.
+Цвет CMYK, представленный в виде 32-битного целого числа.
 
 ### Примеры
 
@@ -183,7 +183,7 @@ foreach (Aspose.Imaging.Color rgbColor in rgbColors)
     System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k);
 }
 
- // Укажите свой путь к профилям RGB и CMYK ICC.
+// Укажите свой путь к профилям RGB и CMYK ICC.
 string dir = "c:\\temp\\iccprofiles\\";
 
 System.Console.WriteLine("Convert RGB to CMYK using custom ICC profiles.");
@@ -202,14 +202,14 @@ using (System.IO.Stream cmykProfileStream = System.IO.File.OpenRead(dir + "ISOco
     }
 }
 
- // Вывод выглядит так: 
- // Преобразование RGB в CMYK с использованием профилей ICC по умолчанию.
- //RGB(255,0,0) => CMYK(0,254,249,15)
- //RGB(0,128,0) => CMYK(247,21,254,85)
- //RGB(0,0,255) => CMYK(254,195,0,134)
- //Преобразование RGB в CMYK с использованием пользовательских профилей ICC.
+//Вывод выглядит так:
+// Преобразование RGB в CMYK с использованием профилей ICC по умолчанию.
+//RGB(255,0,0) => CMYK(0,254,249,15)
+//RGB(0,128,0) => CMYK(247,21,254,85)
+//RGB(0,0,255) => CMYK(254,195,0,134)
+// Преобразование RGB в CMYK с использованием пользовательских профилей ICC.
 //RGB(255,0,0) => CMYK(0,207,219,0)
- //RGB(0,128,0) => CMYK(238,16,254,80)
+//RGB(0,128,0) => CMYK(238,16,254,80)
 //RGB(0,0,255) => CMYK(242,182,0,0)
 ```
 

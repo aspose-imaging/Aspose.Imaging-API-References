@@ -16,7 +16,7 @@ public float CharacterSpacing { get; set; }
 
 ### 适当的价值
 
-字符间距，以百分比表示。
+字符间距，以百分比为单位。
 
 ### 也可以看看
 

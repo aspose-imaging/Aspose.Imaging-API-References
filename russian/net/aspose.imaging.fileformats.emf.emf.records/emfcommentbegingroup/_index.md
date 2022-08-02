@@ -18,19 +18,19 @@ public sealed class EmfCommentBeginGroup : EmfCommentPublicRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfCommentBeginGroup](emfcommentbegingroup)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfCommentBeginGroup`](../emfcommentbegingroup). |
+| [EmfCommentBeginGroup](emfcommentbegingroup)(EmfRecord) | Инициализирует новый экземпляр[`EmfCommentBeginGroup`](../emfcommentbegingroup) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| override [CommentIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentpublicrecordtype/commentidentifier) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое идентифицирует эту запись комментария как определяющую общедоступные данные. Значение 0x43494447, представляющее собой строку ASCII "CIDG", идентифицирует это как запись EMR_COMMENT_PUBLIC. |
-| [DataSize](../../aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер (в байтах) полей CommentIdentifier и CommentRecordParm в поле RecordBuffer, следует. Он НЕ ДОЛЖЕН включать размер самого себя или размер поля AlignmentPadding, если присутствует |
-| [Description](../../aspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup/description) { get; set; } | Получает или задает необязательную строку Юникода, заканчивающуюся нулем, которая описывает эту группу записей. |
-| [NDescription](../../aspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup/ndescription) { get; set; } | Получает или задает количество символов Юникода в следующей опциональной строке описания. |
-| [PublicCommentIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentpublicrecordtype/publiccommentidentifier) { get; set; } | Получает или задает 32-разрядное целое число без знака, определяющее тип записи открытого комментария . Это ДОЛЖНО быть одним из значений, перечисленных в предыдущей таблице, которые указаны в перечислении EmrComment (раздел 2.1.10), если не были реализованы дополнительные общедоступные типы записей комментариев. на сервере печати. |
+| override [CommentIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentpublicrecordtype/commentidentifier) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое идентифицирует эту запись комментария как определяющую общедоступные данные. Значение 0x43494447, которое является строкой ASCII "CIDG", идентифицирует это как запись EMR_COMMENT_PUBLIC. |
+| [DataSize](../../aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер в байтах полей CommentIdentifier и CommentRecordParm в поле RecordBuffer, за которым следует . Он НЕ ДОЛЖЕН включать размер самого себя или размер поля AlignmentPadding, если present |
+| [Description](../../aspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup/description) { get; set; } | Получает или задает необязательную строку Юникода с завершающим нулем, описывающую эту группу записей. |
+| [NDescription](../../aspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup/ndescription) { get; set; } | Получает или задает количество символов Юникода в необязательной строке описания, следующей за ним. |
+| [PublicCommentIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentpublicrecordtype/publiccommentidentifier) { get; set; } | Получает или задает 32-разрядное целое число без знака, определяющее тип записи общественного комментария . Это ДОЛЖНО быть одним из значений, перечисленных в предыдущей таблице, которые указаны в перечислении EmrComment (раздел 2.1.10), если на сервере печати не реализованы дополнительные общедоступные типы записей комментариев . |
 | [Rectangle](../../aspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup/rectangle) { get; set; } | Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который определяет выходной прямоугольник в логических координатах. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

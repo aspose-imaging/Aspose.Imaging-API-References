@@ -1,14 +1,14 @@
 ---
 title: YNum
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 y num
+description: 获取或设置y数
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/ynum/
 ---
 ## WmfScaleWindowExt.YNum property
 
-获取或设置 y num。
+获取或设置y数。
 
 ```csharp
 public short YNum { get; set; }
@@ -16,7 +16,7 @@ public short YNum { get; set; }
 
 ### 适当的价值
 
-当前 y 范围乘以的数量。
+乘以当前 y 范围的数量。
 
 ### 也可以看看
 

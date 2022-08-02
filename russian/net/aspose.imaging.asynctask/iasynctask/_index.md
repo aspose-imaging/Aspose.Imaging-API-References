@@ -18,8 +18,8 @@ public interface IAsyncTask : IAsyncResult, IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [Error](../../aspose.imaging.asynctask/iasynctask/error) { get; } | Получает ошибку задачи, которая доступна после завершения задачи. |
-| [IsBusy](../../aspose.imaging.asynctask/iasynctask/isbusy) { get; } | Получает значение, указывающее, выполняется ли в данный момент эта задача. |
+| [Error](../../aspose.imaging.asynctask/iasynctask/error) { get; } | Получает ошибку задачи, доступную после завершения задачи. |
+| [IsBusy](../../aspose.imaging.asynctask/iasynctask/isbusy) { get; } | Получает значение, указывающее, выполняется ли эта задача в данный момент. |
 | [IsCanceled](../../aspose.imaging.asynctask/iasynctask/iscanceled) { get; } | Получает значение, указывающее, была ли эта задача отменена. |
 | [IsFaulted](../../aspose.imaging.asynctask/iasynctask/isfaulted) { get; } | Получает значение, указывающее, была ли эта задача ошибочной. |
 | [ProgressEventHandler](../../aspose.imaging.asynctask/iasynctask/progresseventhandler) { get; set; } | Получает или задает обработчик событий выполнения асинхронной задачи. |
@@ -29,8 +29,8 @@ public interface IAsyncTask : IAsyncResult, IDisposable
 
 | Имя | Описание |
 | --- | --- |
-| [Abort](../../aspose.imaging.asynctask/iasynctask/abort)() | Прерывает эту задачу. Задача выполняется немедленно, с риском не освободить внутренние неуправляемые ресурсы. |
-| [Cancel](../../aspose.imaging.asynctask/iasynctask/cancel)() | Отменяет эту задачу. Задача безопасно завершается управляемой остановкой алгоритма. |
+| [Abort](../../aspose.imaging.asynctask/iasynctask/abort)() | Прерывает эту задачу. Задача завершается немедленно, с риском не освободить внутренние неуправляемые ресурсы. |
+| [Cancel](../../aspose.imaging.asynctask/iasynctask/cancel)() | Отменяет эту задачу. Задача безопасно завершается контролируемой остановкой алгоритма. |
 | [RunAsync](../../aspose.imaging.asynctask/iasynctask/runasync#runasync)() | Запускает эту задачу. |
 | [RunAsync](../../aspose.imaging.asynctask/iasynctask/runasync#runasync_1)(ThreadPriority) | Запускает эту задачу. |
 | [SetCompleteCallback](../../aspose.imaging.asynctask/iasynctask/setcompletecallback)(CompleteCallback) | Устанавливает полный делегат обратного вызова. |

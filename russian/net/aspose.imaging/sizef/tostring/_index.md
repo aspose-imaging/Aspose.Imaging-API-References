@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Создает удобочитаемую строку которая представляет этоSizeFaspose.imaging/sizef.
+description: Создает удобочитаемую строку представляющую этотSizeFaspose.imaging/sizef .
 type: docs
 weight: 120
 url: /ru/net/aspose.imaging/sizef/tostring/
 ---
 ## SizeF.ToString method
 
-Создает удобочитаемую строку, которая представляет это[`SizeF`](../../sizef).
+Создает удобочитаемую строку, представляющую этот[`SizeF`](../../sizef) .
 
 ```csharp
 public override string ToString()

@@ -1,14 +1,14 @@
 ---
 title: CanSave
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Определяет можно ли сохранить изображение в указанный формат файла представленный переданными параметрами сохранения.
+description: Определяет можно ли сохранить изображение в указанном формате файла представленном переданными параметрами сохранения.
 type: docs
 weight: 170
 url: /ru/net/aspose.imaging/image/cansave/
 ---
 ## Image.CanSave method
 
-Определяет, можно ли сохранить изображение в указанный формат файла, представленный переданными параметрами сохранения.
+Определяет, можно ли сохранить изображение в указанном формате файла, представленном переданными параметрами сохранения.
 
 ```csharp
 public bool CanSave(ImageOptionsBase options)
@@ -20,7 +20,7 @@ public bool CanSave(ImageOptionsBase options)
 
 ### Возвращаемое значение
 
-` true` если изображение может быть сохранено в указанный формат файла представлены переданными параметрами сохранения; в противном случае` false` .
+`истинный` можно ли сохранить изображение в указанный формат файла, представленный переданными параметрами сохранения; в противном случае,`ЛОЖЬ` .
 
 ### Примеры
 
@@ -36,7 +36,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"
     Aspose.Imaging.ImageOptions.JpegOptions saveOptions = new Aspose.Imaging.ImageOptions.JpegOptions();
     saveOptions.Quality = 50;
 
-     // Определяем, можно ли сохранить изображение в Jpeg
+    // Определяем, можно ли сохранить изображение в формате Jpeg
     bool canSave = image.CanSave(saveOptions);
 }
 ```

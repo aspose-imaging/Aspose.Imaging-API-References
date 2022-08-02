@@ -1,14 +1,14 @@
 ---
 title: RegionDataHeader
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置描述以下数据的 256 位 RegionDataHeader 对象
+description: 获取或设置一个 256 位 RegionDataHeader 对象描述以下数据
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfregiondata/regiondataheader/
 ---
 ## EmfRegionData.RegionDataHeader property
 
-获取或设置描述以下数据的 256 位 RegionDataHeader 对象。
+获取或设置一个 256 位 RegionDataHeader 对象，描述以下数据。
 
 ```csharp
 public EmfRegionDataHeader RegionDataHeader { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: OdShortCurveTo
 second_title: Aspose.Imaging for .NET API 参考
-description: 短 CurveTo
+description: 短CurveTo
 type: docs
 weight: 7250
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odshortcurveto/
 ---
 ## OdShortCurveTo class
 
-短 CurveTo
+短CurveTo
 
 ```csharp
 public class OdShortCurveTo : OdCurveTo
@@ -18,16 +18,16 @@ public class OdShortCurveTo : OdCurveTo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OdShortCurveTo](odshortcurveto)(OdObject) | 初始化[`OdShortCurveTo`](../odshortcurveto)类的新实例。 |
+| [OdShortCurveTo](odshortcurveto)(OdObject) | 初始化[`OdShortCurveTo`](../odshortcurveto)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]。 |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | 获取项目。 |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | 获取父对象。 |
-| [Points](../../aspose.imaging.fileformats.opendocument.objects.graphic/odcurveto/points) { get; set; } | 获取或设置点。 |
+| [Points](../../aspose.imaging.fileformats.opendocument.objects.graphic/odcurveto/points) { get; set; } | 获取或设置点数。 |
 
 ### 也可以看看
 

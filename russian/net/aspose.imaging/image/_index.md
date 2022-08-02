@@ -1,14 +1,14 @@
 ---
 title: Image
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Образ является базовым классом для всех типов изображений.
+description: Изображение является базовым классом для всех типов изображений.
 type: docs
 weight: 9660
 url: /ru/net/aspose.imaging/image/
 ---
 ## Image class
 
-Образ является базовым классом для всех типов изображений.
+Изображение является базовым классом для всех типов изображений.
 
 ```csharp
 public abstract class Image : DataStreamSupporter, IObjectWithBounds
@@ -22,8 +22,8 @@ public abstract class Image : DataStreamSupporter, IObjectWithBounds
 | virtual [BackgroundColor](../../aspose.imaging/image/backgroundcolor) { get; set; } | Получает или задает значение цвета фона. |
 | abstract [BitsPerPixel](../../aspose.imaging/image/bitsperpixel) { get; } | Получает количество бит изображения на пиксель. |
 | [Bounds](../../aspose.imaging/image/bounds) { get; } | Получает границы изображения. |
-| [BufferSizeHint](../../aspose.imaging/image/buffersizehint) { get; set; } | Получает или устанавливает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
-| [Container](../../aspose.imaging/image/container) { get; } | Получает контейнер[`Image`](../image). |
+| [BufferSizeHint](../../aspose.imaging/image/buffersizehint) { get; set; } | Получает или задает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
+| [Container](../../aspose.imaging/image/container) { get; } | Получает[`Image`](../image) контейнер. |
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer) { get; } | Получает поток данных объекта. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
 | virtual [FileFormat](../../aspose.imaging/image/fileformat) { get; } | Получает значение формата файла |
@@ -40,41 +40,41 @@ public abstract class Image : DataStreamSupporter, IObjectWithBounds
 
 | Имя | Описание |
 | --- | --- |
-| static [Create](../../aspose.imaging/image/create#create_1)(Image[]) | Создает новый образ, используя указанные изображения как страницы |
+| static [Create](../../aspose.imaging/image/create#create_1)(Image[]) | Создает новое изображение, используя указанные изображения в качестве страниц |
 | static [Create](../../aspose.imaging/image/create#create_2)(Image[], bool) | Создает новое изображение из указанных изображений в качестве страниц. |
 | static [Create](../../aspose.imaging/image/create#create)(ImageOptionsBase, int, int) | Создает новый образ, используя указанные параметры создания. |
 | static [Load](../../aspose.imaging/image/load#load)(Stream) | Загружает новое изображение из указанного потока. |
 | static [Load](../../aspose.imaging/image/load#load_2)(string) | Загружает новое изображение из указанного файла. |
 | static [Load](../../aspose.imaging/image/load#load_1)(Stream, LoadOptions) | Загружает новое изображение из указанного потока. |
 | static [Load](../../aspose.imaging/image/load#load_3)(string, LoadOptions) | Загружает новое изображение из указанного файла. |
-| abstract [CacheData](../../aspose.imaging/datastreamsupporter/cachedata)() | Кэширует данные и гарантирует, что дополнительная загрузка данных не будет выполняться из базового[`DataStreamContainer`](../datastreamsupporter/datastreamcontainer). |
-| [CanSave](../../aspose.imaging/image/cansave)(ImageOptionsBase) | Определяет, можно ли сохранить изображение в указанный формат файла, представленный переданными параметрами сохранения. |
+| abstract [CacheData](../../aspose.imaging/datastreamsupporter/cachedata)() | Кэширует данные и гарантирует, что дополнительная загрузка данных не будет выполняться из базового[`DataStreamContainer`](../datastreamsupporter/datastreamcontainer) . |
+| [CanSave](../../aspose.imaging/image/cansave)(ImageOptionsBase) | Определяет, можно ли сохранить изображение в указанном формате файла, представленном переданными параметрами сохранения. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose)() | Удаляет текущий экземпляр. |
 | virtual [GetDefaultOptions](../../aspose.imaging/image/getdefaultoptions)(object[]) | Получает параметры по умолчанию. |
-| virtual [GetOriginalOptions](../../aspose.imaging/image/getoriginaloptions)() | Получает параметры на основе исходных настроек файла. Это может быть полезно для сохранения битовой глубины и других параметров исходного изображения без изменений. Например, если мы загрузим черно-белое изображение PNG с 1 битом на пиксель, а затем сохраним его с помощью [`Save`](../datastreamsupporter/save)будет создано выходное изображение PNG с 8 битами на пиксель. Чтобы избежать этого и сохранить изображение PNG с 1 битом на пиксель, используйте этот метод, чтобы получить соответствующие параметры сохранения и передать их в[`Save`](./save)метод в качестве второго параметра. |
-| [Resize](../../aspose.imaging/image/resize#resize)(int, int) | Изменяет размер изображения. По умолчанию используетсяNearestNeighbourResample. |
+| virtual [GetOriginalOptions](../../aspose.imaging/image/getoriginaloptions)() | Получает параметры, основанные на настройках исходного файла. Это может быть полезно для сохранения без изменений битовой глубины и других параметров исходного изображения. Например, если мы загружаем черно-белое изображение PNG с 1 битом на пиксель, а затем сохраните его, используя the [`Save`](../datastreamsupporter/save) будет создано выходное изображение PNG с 8 битами на пиксель. Чтобы избежать этого и сохранить изображение PNG с 1 битом на пиксель, используйте этот метод, чтобы получить соответствующие параметры сохранения и передать их [`Save`](./save) метод в качестве второго параметра. |
+| [Resize](../../aspose.imaging/image/resize#resize)(int, int) | Изменяет размер изображения. По умолчаниюNearestNeighbourResample используется. |
 | abstract [Resize](../../aspose.imaging/image/resize#resize_1)(int, int, ImageResizeSettings) | Изменяет размер изображения. |
 | abstract [Resize](../../aspose.imaging/image/resize#resize_2)(int, int, ResizeType) | Изменяет размер изображения. |
-| [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally#resizeheightproportionally)(int) | Пропорционально изменяет размер высоты. По умолчанию используетсяNearestNeighbourResample. |
-| virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally#resizeheightproportionally_1)(int, ImageResizeSettings) | Пропорционально изменяет размер высоты. |
-| virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally#resizeheightproportionally_2)(int, ResizeType) | Пропорционально изменяет размер высоты. |
-| [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally#resizewidthproportionally)(int) | Пропорционально изменяет ширину. По умолчанию используетсяNearestNeighbourResample. |
-| virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally#resizewidthproportionally_1)(int, ImageResizeSettings) | Пропорционально изменяет ширину. |
-| virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally#resizewidthproportionally_2)(int, ResizeType) | Пропорционально изменяет ширину. |
+| [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally#resizeheightproportionally)(int) | Изменяет размер высоты пропорционально. По умолчаниюNearestNeighbourResample используется. |
+| virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally#resizeheightproportionally_1)(int, ImageResizeSettings) | Изменяет размер высоты пропорционально. |
+| virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally#resizeheightproportionally_2)(int, ResizeType) | Изменяет размер высоты пропорционально. |
+| [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally#resizewidthproportionally)(int) | Изменяет ширину пропорционально. По умолчаниюNearestNeighbourResample используется. |
+| virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally#resizewidthproportionally_1)(int, ImageResizeSettings) | Изменяет ширину пропорционально. |
+| virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally#resizewidthproportionally_2)(int, ResizeType) | Изменяет ширину пропорционально. |
 | abstract [RotateFlip](../../aspose.imaging/image/rotateflip)(RotateFlipType) | Вращает, переворачивает или поворачивает и переворачивает изображение. |
-| [Save](../../aspose.imaging/image/save#save)() | Сохраняет данные изображения в основной поток. |
+| [Save](../../aspose.imaging/image/save#save)() | Сохраняет данные изображения в базовый поток. |
 | [Save](../../aspose.imaging/datastreamsupporter/save)(Stream) | Сохраняет данные объекта в указанный поток. |
-| override [Save](../../aspose.imaging/image/save#save_4)(string) | Сохраняет изображение в указанное местоположение файла. |
+| override [Save](../../aspose.imaging/image/save#save_4)(string) | Сохраняет изображение в указанном месте файла. |
 | [Save](../../aspose.imaging/image/save#save_2)(Stream, ImageOptionsBase) | Сохраняет данные изображения в указанный поток в указанном формате файла в соответствии с параметрами сохранения. |
 | virtual [Save](../../aspose.imaging/datastreamsupporter/save)(string, bool) | Сохраняет данные объекта в указанном месте файла. |
 | virtual [Save](../../aspose.imaging/image/save#save_5)(string, ImageOptionsBase) | Сохраняет данные объекта в указанном месте файла в указанном формате файла в соответствии с параметрами сохранения. |
 | virtual [Save](../../aspose.imaging/image/save#save_3)(Stream, ImageOptionsBase, Rectangle) | Сохраняет данные изображения в указанный поток в указанном формате файла в соответствии с параметрами сохранения. |
 | virtual [Save](../../aspose.imaging/image/save#save_6)(string, ImageOptionsBase, Rectangle) | Сохраняет данные объекта в указанном месте файла в указанном формате файла в соответствии с параметрами сохранения. |
-| abstract [SetPalette](../../aspose.imaging/image/setpalette)(IColorPalette, bool) | Устанавливает палитру изображения. |
+| abstract [SetPalette](../../aspose.imaging/image/setpalette)(IColorPalette, bool) | Задает палитру изображения. |
 | static [CanLoad](../../aspose.imaging/image/canload#canload)(Stream) | Определяет, можно ли загрузить изображение из указанного потока. |
 | static [CanLoad](../../aspose.imaging/image/canload#canload_2)(string) | Определяет, можно ли загрузить изображение из указанного пути к файлу. |
-| static [CanLoad](../../aspose.imaging/image/canload#canload_1)(Stream, LoadOptions) | Определяет, может ли изображение быть загружено из указанного потока и, при необходимости, с помощью указанного*loadOptions*. |
-| static [CanLoad](../../aspose.imaging/image/canload#canload_3)(string, LoadOptions) | Определяет, может ли изображение быть загружено из указанного пути к файлу и, возможно, с использованием указанных параметров открытия. |
+| static [CanLoad](../../aspose.imaging/image/canload#canload_1)(Stream, LoadOptions) | Определяет, может ли изображение быть загружено из указанного потока и, возможно, с использованием указанного*loadOptions* . |
+| static [CanLoad](../../aspose.imaging/image/canload#canload_3)(string, LoadOptions) | Определяет, может ли изображение быть загружено из указанного пути к файлу и, при необходимости, с использованием указанных параметров открытия. |
 | static [GetFileFormat](../../aspose.imaging/image/getfileformat#getfileformat)(Stream) | Получает формат файла. |
 | static [GetFileFormat](../../aspose.imaging/image/getfileformat#getfileformat_1)(string) | Получает формат файла. |
 | static [GetFittingRectangle](../../aspose.imaging/image/getfittingrectangle#getfittingrectangle)(Rectangle, int, int) | Получает прямоугольник, соответствующий текущему изображению. |
@@ -84,49 +84,41 @@ public abstract class Image : DataStreamSupporter, IObjectWithBounds
 
 ### Примеры
 
-Определить, используется ли палитра изображением.
+Определите, используется ли палитра изображением.
 
 ```csharp
 [C#]
 
- //Создаем экземпляр BmpOptions и устанавливаем его различные свойства
-Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
-bmpOptions.BitsPerPixel = 24;
-
- //Создаем экземпляр FileCreateSource и назначаем его в качестве источника для экземпляра BmpOptions
- //Второй логический параметр определяет, является ли создаваемый файл временным или нет
-bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"C:\temp\output.bmp", false);
-
- //Создаем экземпляр Image и инициализируем его экземпляром BmpOptions, вызвав Create method
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
+using (var image = Image.Load(folder + "Sample.bmp"))
 {
-     // сделать некоторую обработку изображения
-
-     // сохранить все изменения
-    image.Save();
+    if (image.UsePalette)
+    {
+        Console.WriteLine("The palette is used by the image");
+    }
 }
 ```
 
-Изменение размера изображения с использованием определенного типа изменения размера.
+Измените размер изображения, используя определенный тип изменения размера.
 
 ```csharp
 [C#]
 
- //Создаем экземпляр BmpOptions и устанавливаем его различные свойства
-Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
-bmpOptions.BitsPerPixel = 24;
-
- //Создаем экземпляр FileCreateSource и назначаем его в качестве источника для экземпляра BmpOptions
- //Второй логический параметр определяет, является ли создаваемый файл временным или нет
-bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"C:\temp\output.bmp", false);
-
- //Создаем экземпляр Image и инициализируем его экземпляром BmpOptions, вызвав Create method
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
+using (var image = Image.Load("Photo.jpg"))
 {
-     // сделать некоторую обработку изображения
+    image.Resize(640, 480, ResizeType.CatmullRom);
+    image.Save("ResizedPhoto.jpg");
 
-     // сохранить все изменения
-    image.Save();
+    image.Resize(1024, 768, ResizeType.CubicConvolution);
+    image.Save("ResizedPhoto2.jpg");
+
+    var resizeSettings = new ImageResizeSettings
+    {
+        Mode = ResizeType.CubicBSpline,
+        FilterType = ImageFilterType.SmallRectangular
+    };
+
+    image.Resize(800, 800, resizeSettings);
+    image.Save("ResizedPhoto3.jpg");
 }
 ```
 
@@ -135,20 +127,20 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
 ```csharp
 [C#]
 
- //Создаем экземпляр BmpOptions и устанавливаем его различные свойства
+//Создаем экземпляр BmpOptions и устанавливаем его различные свойства
 Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 bmpOptions.BitsPerPixel = 24;
 
- //Создаем экземпляр FileCreateSource и назначаем его в качестве источника для экземпляра BmpOptions
- //Второй логический параметр определяет, является ли создаваемый файл временным или нет
+//Создаем экземпляр FileCreateSource и назначаем его в качестве источника для экземпляра BmpOptions
+//Второй логический параметр определяет, является ли создаваемый файл временным или нет
 bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"C:\temp\output.bmp", false);
 
- //Создаем экземпляр Image и инициализируем его экземпляром BmpOptions, вызвав Create method
+//Создаем экземпляр Image и инициализируем его экземпляром BmpOptions, вызвав метод Create
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
 {
-     // сделать некоторую обработку изображения
+    // делаем некоторую обработку изображения
 
-     // сохранить все изменения
+    // сохранить все изменения
     image.Save();
 }
 ```

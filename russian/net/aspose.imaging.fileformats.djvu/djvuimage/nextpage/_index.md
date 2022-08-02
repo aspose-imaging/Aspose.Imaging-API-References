@@ -22,7 +22,7 @@ public DjvuPage NextPage { get; }
 
 | исключение | условие |
 | --- | --- |
-| [DjvuImageException](../../../aspose.imaging.coreexceptions.imageformats/djvuimageexception) | Следующая страница не найдена |
+| [DjvuImageException](../../../aspose.imaging.coreexceptions.imageformats/djvuimageexception) | Следующая страница не может быть найдена |
 
 ### Смотрите также
 

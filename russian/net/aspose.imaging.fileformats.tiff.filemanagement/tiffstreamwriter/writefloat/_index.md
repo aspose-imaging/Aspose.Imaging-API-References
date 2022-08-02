@@ -1,14 +1,14 @@
 ---
 title: WriteFloat
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Записывает в поток одно значение с плавающей запятой.
+description: Записывает одно значение с плавающей запятой в поток.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writefloat/
 ---
 ## TiffStreamWriter.WriteFloat method
 
-Записывает в поток одно значение с плавающей запятой.
+Записывает одно значение с плавающей запятой в поток.
 
 ```csharp
 public void WriteFloat(float data)

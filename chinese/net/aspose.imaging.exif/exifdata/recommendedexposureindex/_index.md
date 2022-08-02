@@ -16,7 +16,7 @@ public uint RecommendedExposureIndex { get; set; }
 
 ### 适当的价值
 
-推荐曝光指数。
+推荐的曝光指数。
 
 ### 也可以看看
 

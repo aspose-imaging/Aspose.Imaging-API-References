@@ -1,14 +1,14 @@
 ---
 title: CurveAdjustment
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数指定曲线调整为 应用于位图中的颜色该值必须在 CurveAdjustments 枚举第 2.1.1.7 节中定义
+description: 获取或设置一个 32 位无符号整数指定曲线调整 to 应用于位图中的颜色该值必须在 CurveAdjustments 枚举第 2.1.1.7 节中定义
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorcurveeffect/curveadjustment/
 ---
 ## EmfPlusColorCurveEffect.CurveAdjustment property
 
-获取或设置一个 32 位无符号整数，指定曲线调整为 应用于位图中的颜色。该值必须在 CurveAdjustments 枚举（第 2.1.1.7 节）中定义。
+获取或设置一个 32 位无符号整数，指定曲线调整 to 应用于位图中的颜色。该值必须在 CurveAdjustments 枚举（第 2.1.1.7 节）中定义。
 
 ```csharp
 public EmfPlusCurveAdjustments CurveAdjustment { get; set; }

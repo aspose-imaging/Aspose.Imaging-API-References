@@ -1,14 +1,14 @@
 ---
 title: RgnSize
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数它指定矩形缓冲区的大小以字节为单位
+description: 获取或设置一个 32 位无符号整数以字节为单位指定矩形缓冲区的大小
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/rgnsize/
 ---
 ## EmfRegionDataHeader.RgnSize property
 
-获取或设置一个 32 位无符号整数，它指定矩形缓冲区的大小（以字节为单位）。
+获取或设置一个 32 位无符号整数，以字节为单位指定矩形缓冲区的大小。
 
 ```csharp
 public int RgnSize { get; set; }

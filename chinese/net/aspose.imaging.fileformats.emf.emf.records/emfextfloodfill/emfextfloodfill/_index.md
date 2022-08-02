@@ -1,14 +1,14 @@
 ---
 title: EmfExtFloodFill
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfExtFloodFillaspose.imaging.fileformats.emf.emf.records/emfextfloodfill类的新实例
+description: 初始化EmfExtFloodFillaspose.imaging.fileformats.emf.emf.records/emfextfloodfill类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/emfextfloodfill/
 ---
 ## EmfExtFloodFill constructor
 
-初始化[`EmfExtFloodFill`](../../emfextfloodfill)类的新实例。
+初始化[`EmfExtFloodFill`](../../emfextfloodfill)类.
 
 ```csharp
 public EmfExtFloodFill(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfExtFloodFill(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 

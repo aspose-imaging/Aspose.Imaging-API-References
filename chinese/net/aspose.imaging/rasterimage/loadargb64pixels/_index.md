@@ -24,7 +24,7 @@ public long[] LoadArgb64Pixels(Rectangle rectangle)
 
 ### 例子
 
-以下示例显示如何加载和处理光栅图像的像素。像素表示为 64 位整数值。例如，考虑计算图像的完全透明像素的问题。
+以下示例显示了如何加载和处理光栅图像的像素。像素表示为 64 位整数值。例如，考虑计算图像的完全透明像素的问题。
 
 ```csharp
 [C#]
@@ -33,16 +33,15 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\16rgba.p
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-        // 加载整个图像的像素。图像的任何矩形部分都可以指定为 Aspose.Imaging.RasterImage.LoadArgb64Pixels 方法的参数。
-        // 注意图像本身每个样本必须有 16 位，因为 Aspose.Imaging.RasterImage.LoadArgb64Pixels 不适用于每个样本 8 位。
-        // 为了使用每个样本 8 位，请使用旧的 Aspose.Imaging.RasterImage.LoadArgb32Pixels 方法。
+    // 加载整个图像的像素。图像的任何矩形部分都可以指定为 Aspose.Imaging.RasterImage.LoadArgb64Pixels 方法的参数。
+    // 注意图像本身每个样本必须有 16 位，因为 Aspose.Imaging.RasterImage.LoadArgb64Pixels 不适用于每个样本 8 位。
+    // 为了使用每个样本 8 位，请使用旧的 Aspose.Imaging.RasterImage.LoadArgb32Pixels 方法。
     long[] pixels = rasterImage.LoadArgb64Pixels(rasterImage.Bounds);
 
     int count = 0;
     foreach (int pixel in pixels)
     {
-            // 注意，包括 alpha 在内的所有颜色分量都用 16 位值表示，因此它们的允许值在 [0, 63535].
- 范围内
+        // 请注意，包括 alpha 在内的所有颜色分量均由 16 位值表示，因此它们的允许值在 [0, 63535] 范围内。
         int alpha = (pixel >> 48) & 0xffff;
         if (alpha == 0)
         {

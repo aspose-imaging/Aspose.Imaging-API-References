@@ -1,14 +1,14 @@
 ---
 title: LineType
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置行的类型
+description: 获取或设置线条的类型
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/linetype/
 ---
 ## CmxOutline.LineType property
 
-获取或设置行的类型。
+获取或设置线条的类型。
 
 ```csharp
 public LineTypes LineType { get; set; }

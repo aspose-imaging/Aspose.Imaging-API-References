@@ -1,14 +1,14 @@
 ---
 title: WrapMode
 second_title: Aspose.Imaging for .NET API 参考
-description: 从指定 是否绘制边界外区域的 WrapMode 枚举第 2.1.1.34 节获取或设置 32 位有符号整数的刷子在边界外绘制 时环绕模式指定颜色渐变如何重复
+description: 从 WrapMode 枚举第 2.1.1.34 节获取或设置 32 位有符号整数指定 是否绘制画笔边界外的区域在边界外绘制 时环绕模式指定颜色渐变如何重复
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/wrapmode/
 ---
 ## EmfPlusPathGradientBrushData.WrapMode property
 
-从指定 是否绘制边界外区域的 WrapMode 枚举（第 2.1.1.34 节）获取或设置 32 位有符号整数的刷子。在边界外绘制 时，环绕模式指定颜色渐变如何重复
+从 WrapMode 枚举（第 2.1.1.34 节）获取或设置 32 位有符号整数，指定 是否绘制画笔边界外的区域。在边界外绘制 时，环绕模式指定颜色渐变如何重复
 
 ```csharp
 public EmfPlusWrapMode WrapMode { get; set; }

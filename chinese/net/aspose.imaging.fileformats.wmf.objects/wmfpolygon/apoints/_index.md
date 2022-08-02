@@ -1,14 +1,14 @@
 ---
 title: APoints
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置点 32 位 PointS 对象的 NumberOfPoints 数组第 2.2.2.16 节以逻辑单元表示
+description: 获取或设置点 32 位 PointS 对象的 NumberOfPoints 数组第 2.2.2.16 节以逻辑单元为单位
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfpolygon/apoints/
 ---
 ## WmfPolygon.APoints property
 
-获取或设置点。 32 位 PointS 对象的 NumberOfPoints 数组（第 2.2.2.16 节），以逻辑单元表示。
+获取或设置点。 32 位 PointS 对象的 NumberOfPoints 数组（第 2.2.2.16 节），以逻辑单元为单位。
 
 ```csharp
 public Point[] APoints { get; set; }
@@ -16,7 +16,7 @@ public Point[] APoints { get; set; }
 
 ### 适当的价值
 
-点。
+点数。
 
 ### 也可以看看
 

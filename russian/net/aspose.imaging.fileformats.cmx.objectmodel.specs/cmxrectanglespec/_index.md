@@ -24,18 +24,18 @@ public class CmxRectangleSpec : ICmxObjectSpec
 
 | Имя | Описание |
 | --- | --- |
-| [Angle](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/angle) { get; set; } | Получает или задает угол поворота прямоугольника. Измеряется в радианах. |
-| [CenterX](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/centerx) { get; set; } | Получает или задает координату X для центра прямоугольника. Меры в общепринятых единицах расстояния документа. |
-| [CenterY](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/centery) { get; set; } | Получает или задает координату Y для центра прямоугольника. Меры в общепринятых единицах расстояния документа. |
-| [Height](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/height) { get; set; } | Получает или задает высоту прямоугольника. Меры в общепринятых единицах расстояния документа. |
-| [Radius](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/radius) { get; set; } | Получает или задает радиус закругленных углов прямоугольника. Если его значение равно` 0` , то углы прямоугольника не закруглены. Меры в общепринятых единицах расстояния документа. |
-| [Width](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/width) { get; set; } | Получает или задает ширину прямоугольника. Меры в общепринятых единицах расстояния документа. |
+| [Angle](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/angle) { get; set; } | Получает или задает угол поворота прямоугольника. Измеряет в радианах. |
+| [CenterX](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/centerx) { get; set; } | Получает или задает координату X для центра прямоугольника. Измеряет в общепринятых единицах измерения расстояния документа. |
+| [CenterY](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/centery) { get; set; } | Получает или задает координату Y для центра прямоугольника. Измеряет в общепринятых единицах измерения расстояния документа. |
+| [Height](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/height) { get; set; } | Получает или задает высоту прямоугольника. Измеряет в общепринятых единицах измерения расстояния документа. |
+| [Radius](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/radius) { get; set; } | Получает или задает радиус закругленных углов прямоугольника. Если его значение равно`0` то прямоугольник не имеет закругленных углов. Измерения в общепринятых единицах измерения расстояния документа. |
+| [Width](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/width) { get; set; } | Получает или задает ширину прямоугольника. Измеряет в общепринятых единицах измерения расстояния документа. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 
 ### Смотрите также
 

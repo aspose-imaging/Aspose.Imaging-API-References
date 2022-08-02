@@ -1,14 +1,14 @@
 ---
 title: ResetTransform
 second_title: Aspose.Imaging for .NET API 参考
-description: 将Transformaspose.imaging/graphics/transform属性重置为标识
+description: 重置Transformaspose.imaging/graphics/transform身份的属性.
 type: docs
 weight: 440
 url: /zh/net/aspose.imaging/graphics/resettransform/
 ---
 ## Graphics.ResetTransform method
 
-将[`Transform`](../transform)属性重置为标识。
+重置[`Transform`](../transform)身份的属性.
 
 ```csharp
 public void ResetTransform()

@@ -1,14 +1,14 @@
 ---
 title: StretchMode
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个指定拉伸模式的 32 位无符号整数在 StretchMode 枚举中可以是 
+description: 获取或设置一个 32 位无符号整数用于指定拉伸模式并且可以在 StretchMode 枚举中为 
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetstrechbltmode/stretchmode/
 ---
 ## EmfSetStrechBltMode.StretchMode property
 
-获取或设置一个指定拉伸模式的 32 位无符号整数，在 StretchMode 枚举中可以是 。
+获取或设置一个 32 位无符号整数，用于指定拉伸模式，并且可以在 StretchMode 枚举中为 。
 
 ```csharp
 public EmfStretchMode StretchMode { get; set; }

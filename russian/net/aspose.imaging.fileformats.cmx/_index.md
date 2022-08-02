@@ -1,19 +1,19 @@
 ---
 title: Aspose.Imaging.FileFormats.Cmx
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пространство имен обрабатывает обработку файлов формата Tiff.
+description: Пространство имен обрабатывает формат файла Tiff.
 type: docs
 weight: 220
 url: /ru/net/aspose.imaging.fileformats.cmx/
 ---
-Пространство имен обрабатывает обработку файлов формата Tiff.
+Пространство имен обрабатывает формат файла Tiff.
 
 ## Классы
 
 | Учебный класс | Описание |
 | --- | --- |
 | [CmxImage](./cmximage) | Образ CMX. |
-| [CmxImagePage](./cmximagepage) | Изображение страницы CMX |
+| [CmxImagePage](./cmximagepage) | Образ страницы CMX |
 ## Интерфейсы
 
 | Интерфейс | Описание |

@@ -1,14 +1,14 @@
 ---
 title: EmfStrokeAndFillPath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfStrokeAndFillPathaspose.imaging.fileformats.emf.emf.records/emfstrokeandfillpath.
+description: Инициализирует новый экземплярEmfStrokeAndFillPathaspose.imaging.fileformats.emf.emf.records/emfstrokeandfillpath класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfstrokeandfillpath/emfstrokeandfillpath/
 ---
 ## EmfStrokeAndFillPath(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfStrokeAndFillPath`](../../emfstrokeandfillpath).
+Инициализирует новый экземпляр[`EmfStrokeAndFillPath`](../../emfstrokeandfillpath) класс.
 
 ```csharp
 public EmfStrokeAndFillPath(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfStrokeAndFillPath(EmfRecord source)
 
 ## EmfStrokeAndFillPath() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfStrokeAndFillPath`](../../emfstrokeandfillpath).
+Инициализирует новый экземпляр[`EmfStrokeAndFillPath`](../../emfstrokeandfillpath) класс.
 
 ```csharp
 public EmfStrokeAndFillPath()

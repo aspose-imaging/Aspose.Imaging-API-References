@@ -1,14 +1,14 @@
 ---
 title: LeadingMargin
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位浮点值该值指定要添加到字符串起始位置的空间长度  默认为 1/6 英寸对于印刷字体 默认值为 0
+description: 获取或设置一个 32 位浮点值指定要添加到字符串起始位置的空间长度  默认为 1/6 英寸对于印刷字体 默认值为 0.
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/leadingmargin/
 ---
 ## EmfPlusStringFormat.LeadingMargin property
 
-获取或设置一个 32 位浮点值，该值指定要添加到字符串起始位置的空间长度 。 默认为 1/6 英寸；对于印刷字体， 默认值为 0。
+获取或设置一个 32 位浮点值，指定要添加到字符串起始位置的空间长度 。 默认为 1/6 英寸；对于印刷字体， 默认值为 0.
 
 ```csharp
 public float LeadingMargin { get; set; }

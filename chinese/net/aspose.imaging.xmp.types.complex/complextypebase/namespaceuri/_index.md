@@ -16,7 +16,7 @@ public string NamespaceUri { get; }
 
 ### 适当的价值
 
-默认命名空间 URI。
+默认命名空间 URI.
 
 ### 也可以看看
 

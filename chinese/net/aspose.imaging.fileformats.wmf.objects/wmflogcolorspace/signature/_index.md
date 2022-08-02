@@ -1,14 +1,14 @@
 ---
 title: Signature
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定 signature颜色空间对象它必须设置为 值 0x50534F43这是字符串 PSOC 的 ASCII 编码
+description: 获取或设置一个 32 位无符号整数指定 signature颜色空间对象它必须设置为 值0x50534F43这是string PSOC的ASCII编码
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/signature/
 ---
 ## WmfLogColorSpace.Signature property
 
-获取或设置指定 signature颜色空间对象；它必须设置为 值 0x50534F43，这是字符串 "PSOC" 的 ASCII 编码。
+获取或设置一个 32 位无符号整数，指定 signature颜色空间对象；它必须设置为 值0x50534F43，这是string “PSOC”的ASCII编码。
 
 ```csharp
 public int Signature { get; set; }

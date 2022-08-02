@@ -1,14 +1,14 @@
 ---
 title: CanSave
 second_title: Aspose.Imaging for .NET API 参考
-description: 确定图像是否可以保存为传递的保存选项表示的指定文件格式
+description: 判断图像是否可以保存为传递的保存选项所代表的指定文件格式
 type: docs
 weight: 170
 url: /zh/net/aspose.imaging/image/cansave/
 ---
 ## Image.CanSave method
 
-确定图像是否可以保存为传递的保存选项表示的指定文件格式。
+判断图像是否可以保存为传递的保存选项所代表的指定文件格式。
 
 ```csharp
 public bool CanSave(ImageOptionsBase options)
@@ -20,11 +20,11 @@ public bool CanSave(ImageOptionsBase options)
 
 ### 返回值
 
-` true` 如果图像可以保存为指定的文件格式由传递的保存选项表示；否则，` false` 。
+`真的`是否可以将图像保存为传递的保存选项表示的指定文件格式；否则，`错误的` .
 
 ### 例子
 
-这个例子展示了如何确定图像是否可以保存为传递的保存选项表示的指定文件格式。
+此示例显示如何确定图像是否可以保存为传递的保存选项表示的指定文件格式。
 
 ```csharp
 [C#]
@@ -36,7 +36,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"
     Aspose.Imaging.ImageOptions.JpegOptions saveOptions = new Aspose.Imaging.ImageOptions.JpegOptions();
     saveOptions.Quality = 50;
 
-        // 判断图片是否可以保存到Jpeg
+    // 判断图片是否可以保存为Jpeg
     bool canSave = image.CanSave(saveOptions);
 }
 ```

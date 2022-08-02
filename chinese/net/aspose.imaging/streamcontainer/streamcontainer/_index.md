@@ -1,14 +1,14 @@
 ---
 title: StreamContainer
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化StreamContaineraspose.imaging/streamcontainer类的新实例
+description: 初始化StreamContaineraspose.imaging/streamcontainer类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/streamcontainer/streamcontainer/
 ---
 ## StreamContainer(Stream) {#constructor}
 
-初始化[`StreamContainer`](../../streamcontainer)类的新实例。
+初始化[`StreamContainer`](../../streamcontainer)类.
 
 ```csharp
 public StreamContainer(Stream stream)
@@ -28,7 +28,7 @@ public StreamContainer(Stream stream)
 
 ## StreamContainer(Stream, bool) {#constructor_1}
 
-初始化[`StreamContainer`](../../streamcontainer)类的新实例。
+初始化[`StreamContainer`](../../streamcontainer)类.
 
 ```csharp
 public StreamContainer(Stream stream, bool disposeStream)
@@ -37,7 +37,7 @@ public StreamContainer(Stream stream, bool disposeStream)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 数据流。 |
-| disposeStream | Boolean | 如果设置为` true` 将在处置容器时处置流。 |
+| disposeStream | Boolean | 如果设置为`真的`当容器被处理时，流将被处理。 |
 
 ### 也可以看看
 

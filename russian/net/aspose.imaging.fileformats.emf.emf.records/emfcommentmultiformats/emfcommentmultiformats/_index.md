@@ -1,14 +1,14 @@
 ---
 title: EmfCommentMultiFormats
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfCommentMultiFormatsaspose.imaging.fileformats.emf.emf.records/emfcommentmultiformats.
+description: Инициализирует новый экземплярEmfCommentMultiFormatsaspose.imaging.fileformats.emf.emf.records/emfcommentmultiformats класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcommentmultiformats/emfcommentmultiformats/
 ---
 ## EmfCommentMultiFormats constructor
 
-Инициализирует новый экземпляр класса[`EmfCommentMultiFormats`](../../emfcommentmultiformats).
+Инициализирует новый экземпляр[`EmfCommentMultiFormats`](../../emfcommentmultiformats) класс.
 
 ```csharp
 public EmfCommentMultiFormats(EmfRecord source)

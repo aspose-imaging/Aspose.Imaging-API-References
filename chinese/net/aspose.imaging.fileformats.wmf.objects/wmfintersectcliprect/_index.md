@@ -1,14 +1,14 @@
 ---
 title: WmfIntersectClipRect
 second_title: Aspose.Imaging for .NET API 参考
-description: META_INTERSECTCLIPRECT 记录将 播放设备上下文中的剪辑区域设置为现有剪辑 区域和指定的矩形
+description: META_INTERSECTCLIPRECT 记录将 播放设备上下文中的剪辑区域设置为现有剪辑 区域和指定矩形的交集
 type: docs
 weight: 8720
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfintersectcliprect/
 ---
 ## WmfIntersectClipRect class
 
-META_INTERSECTCLIPRECT 记录将 播放设备上下文中的剪辑区域设置为现有剪辑 区域和指定的矩形。
+META_INTERSECTCLIPRECT 记录将 播放设备上下文中的剪辑区域设置为现有剪辑 区域和指定矩形的交集。
 
 ```csharp
 public class WmfIntersectClipRect : WmfObject

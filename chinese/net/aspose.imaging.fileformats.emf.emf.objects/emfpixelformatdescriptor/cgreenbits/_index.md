@@ -1,14 +1,14 @@
 ---
 title: CGreenBits
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 指定每个 RGBA 颜色缓冲区中绿色位平面的数量
+description: 获取或设置指定每个 RGBA 颜色缓冲区中绿色位平面的数量
 type: docs
 weight: 150
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/cgreenbits/
 ---
 ## EmfPixelFormatDescriptor.CGreenBits property
 
-获取或设置 指定每个 RGBA 颜色缓冲区中绿色位平面的数量
+获取或设置指定每个 RGBA 颜色缓冲区中绿色位平面的数量
 
 ```csharp
 public byte CGreenBits { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: WmfRecorderGraphics2D
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化WmfRecorderGraphics2Daspose.imaging.fileformats.wmf.graphics/wmfrecordergraphics2d类的新实例
+description: 初始化WmfRecorderGraphics2Daspose.imaging.fileformats.wmf.graphics/wmfrecordergraphics2d类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.wmf.graphics/wmfrecordergraphics2d/wmfrecordergraphics2d/
 ---
 ## WmfRecorderGraphics2D constructor
 
-初始化[`WmfRecorderGraphics2D`](../../wmfrecordergraphics2d)类的新实例。
+初始化[`WmfRecorderGraphics2D`](../../wmfrecordergraphics2d)类.
 
 ```csharp
 public WmfRecorderGraphics2D(Rectangle frame, int inch)
@@ -16,12 +16,12 @@ public WmfRecorderGraphics2D(Rectangle frame, int inch)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| frame | Rectangle | 目标矩形，以缇为单位，用于显示元文件。 |
+| frame | Rectangle | 用于显示元文件的目标矩形，以缇为单位。 |
 | inch | Int32 | 每英寸的像素数。 |
 
 ### 例子
 
-这个例子展示了如何使用 WmfRecorderGraphics2D 创建一个 WMF 图像并绘制一些几何形状。
+此示例说明如何使用 WmfRecorderGraphics2D 创建 WMF 图像并绘制一些几何形状。
 
 ```csharp
 [C#]
@@ -31,39 +31,39 @@ string dir = "c:\\temp\\";
 int imageWidth = 600;
 int imageHeight = 400;
 
-    // 这是默认的屏幕分辨率。
+// 这是默认的屏幕分辨率。
 int dpi = 96;
 
 Aspose.Imaging.Rectangle frame = new Aspose.Imaging.Rectangle(0, 0, imageWidth, imageHeight);
 
-    // 创建一个 WMF 图像。
+// 创建一个 WMF 图像。
 Aspose.Imaging.FileFormats.Wmf.Graphics.WmfRecorderGraphics2D graphics =
     new Aspose.Imaging.FileFormats.Wmf.Graphics.WmfRecorderGraphics2D(frame, dpi);
 
-    // 使用 1 像素宽的黑色笔沿图像边框绘制一个黑色矩形。
+// 使用 1 像素宽的黑色笔沿图像边框绘制一个黑色矩形。
 graphics.DrawRectangle(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Black, 1), 0, 0, imageWidth, imageHeight);
 
-    // 用白色烟雾填充一个矩形。
+// 用白色烟雾填充一个矩形。
 graphics.FillRectangle(new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.WhiteSmoke), new Aspose.Imaging.Rectangle(10, 10, 580, 380));
 
-    // 使用 1 像素宽的深绿色笔绘制两条对角线。
+// 使用 1 像素宽的深绿色笔绘制两条对角线。
 graphics.DrawLine(new Aspose.Imaging.Pen(Aspose.Imaging.Color.DarkGreen, 1), 0, 0, imageWidth, imageHeight);
 graphics.DrawLine(new Aspose.Imaging.Pen(Aspose.Imaging.Color.DarkGreen, 1), 0, imageHeight, imageWidth, 0);
 
-    // 使用 2 像素宽的蓝色笔在矩形 {0, 0, 200, 200} 内绘制弧线。
+// 使用 2 像素宽的蓝色笔在矩形 {0, 0, 200, 200} 内绘制弧线。
 graphics.DrawArc(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Blue, 2), new Aspose.Imaging.Rectangle(0, 0, 200, 200), 90, 270);
 
-    // 填充一个 arc
+// 填充圆弧
 graphics.FillPie(new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.LightSkyBlue), new Aspose.Imaging.Rectangle(0, 0, 150, 150), 90, 270);
 
-    // 使用 2 像素宽的红笔绘制三次贝塞尔曲线。
+// 使用 2 像素宽的红笔绘制三次贝塞尔曲线。
 graphics.DrawCubicBezier(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Red, 2),
     new Aspose.Imaging.Point(0, 0),
     new Aspose.Imaging.Point(200, 133),
     new Aspose.Imaging.Point(400, 166),
     new Aspose.Imaging.Point(600, 400));
 
-    // 在指定位置绘制指定大小的光栅图
+// 在指定位置绘制指定大小的光栅图像。
 // 图像被缩放以适合所需的矩形。
 using (Aspose.Imaging.RasterImage imageToDraw = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "sample.bmp"))
 {
@@ -73,11 +73,10 @@ using (Aspose.Imaging.RasterImage imageToDraw = (Aspose.Imaging.RasterImage)Aspo
         Aspose.Imaging.GraphicsUnit.Pixel);
 }
 
-    // 绘制一个文本 string
+// 绘制一个文本字符串
 graphics.DrawString("Hello World!", new Aspose.Imaging.Font("Arial", 48, Aspose.Imaging.FontStyle.Regular), Aspose.Imaging.Color.DarkRed, 200, 300);
 
-    // 创建到 fill
- 的路径
+// 创建要填充的路径
 Aspose.Imaging.Figure figureToFill = new Aspose.Imaging.Figure();
 figureToFill.IsClosed = true;
 
@@ -106,8 +105,7 @@ figureToFill.AddShapes(new Shape[]
 // 使用黄色画笔和绿色笔填充路径以绘制轮廓
 graphics.FillPath(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Green, 2), new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Yellow), pathToFill);
 
-    // 创建draw
-的路径
+// 创建绘制路径
 Aspose.Imaging.GraphicsPath pathToDraw = new Aspose.Imaging.GraphicsPath();
 Aspose.Imaging.Figure figureToDraw = new Aspose.Imaging.Figure();
 pathToDraw.AddFigure(figureToDraw);
@@ -125,7 +123,7 @@ Aspose.Imaging.ImageOptions.SvgRasterizationOptions rasterizationOptions = new A
 Aspose.Imaging.ImageOptions.PngOptions saveOptions = new Aspose.Imaging.ImageOptions.PngOptions();
 saveOptions.VectorRasterizationOptions = rasterizationOptions;
 
-    // 获取包含所有绘图命令的最终 WMF 图像
+// 获取包含所有绘图命令的最终 WMF 图像
 using (Aspose.Imaging.FileFormats.Wmf.WmfImage wmfImage = graphics.EndRecording())
 {
     wmfImage.Save(dir + "test.output.wmf");

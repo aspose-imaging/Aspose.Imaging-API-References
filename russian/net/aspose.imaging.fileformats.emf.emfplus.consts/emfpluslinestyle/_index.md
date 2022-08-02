@@ -20,14 +20,14 @@ public enum EmfPlusLineStyle
 | --- | --- | --- |
 | LineStyleSolid | `0` | Задает сплошную линию. |
 | LineStyleDash | `1` | Указывает пунктирную линию. |
-| LineStyleDot | `2` | Указывает пунктирную линию. |
+| LineStyleDot | `2` | Задает пунктирную линию. |
 | LineStyleDashDot | `3` | Задает чередующуюся штрихпунктирную линию. |
-| LineStyleDashDotDot | `4` | Задает чередующуюся штрихпунктирную линию. |
-| LineStyleCustom | `5` | Указывает пользовательскую пунктирную линию. |
+| LineStyleDashDotDot | `4` | Указывает чередующуюся штрихпунктирную линию. |
+| LineStyleCustom | `5` | Определяет пользовательскую пунктирную линию. |
 
 ### Примечания
 
-Линии графики определяются[`EmfPlusPen`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen)объекты (раздел 2.2.1.7).
+Линии графики задаются[`EmfPlusPen`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen) объекты (раздел 2.2.1.7).
 
 ### Смотрите также
 

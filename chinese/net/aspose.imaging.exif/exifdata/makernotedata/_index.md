@@ -1,14 +1,14 @@
 ---
 title: MakerNoteData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取制造商票据数据
+description: 获取制造商注释数据
 type: docs
 weight: 790
 url: /zh/net/aspose.imaging.exif/exifdata/makernotedata/
 ---
 ## ExifData.MakerNoteData property
 
-获取制造商票据数据。
+获取制造商注释数据。
 
 ```csharp
 public TiffDataType[] MakerNoteData { get; }
@@ -16,7 +16,7 @@ public TiffDataType[] MakerNoteData { get; }
 
 ### 适当的价值
 
-制造商票据数据。
+厂商票据数据。
 
 ### 也可以看看
 

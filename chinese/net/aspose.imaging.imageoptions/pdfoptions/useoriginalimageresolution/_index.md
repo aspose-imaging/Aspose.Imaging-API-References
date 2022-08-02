@@ -1,14 +1,14 @@
 ---
 title: UseOriginalImageResolution
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置使用原始图像DPI分辨率的值
+description: 获取或设置使用原图DPI分辨率的值
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.imageoptions/pdfoptions/useoriginalimageresolution/
 ---
 ## PdfOptions.UseOriginalImageResolution property
 
-获取或设置使用原始图像DPI分辨率的值
+获取或设置使用原图DPI分辨率的值
 
 ```csharp
 public bool UseOriginalImageResolution { get; set; }
@@ -16,7 +16,7 @@ public bool UseOriginalImageResolution { get; set; }
 
 ### 适当的价值
 
-指示使用原始图像 DPI 分辨率
+使用原始图像DPI分辨率的指标
 
 ### 也可以看看
 

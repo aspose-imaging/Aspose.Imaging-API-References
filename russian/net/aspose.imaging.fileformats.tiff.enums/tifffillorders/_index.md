@@ -1,14 +1,14 @@
 ---
 title: TiffFillOrders
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Порядок данных внутри байта.ltbr /gt Возможные значения тега FILLORDER.
+description: Порядок данных внутри байта. Возможные значения тега FILLORDER.
 type: docs
 weight: 7660
 url: /ru/net/aspose.imaging.fileformats.tiff.enums/tifffillorders/
 ---
 ## TiffFillOrders enumeration
 
-Порядок данных внутри байта.&lt;br /&gt; Возможные значения тега FILLORDER.
+Порядок данных внутри байта. Возможные значения тега FILLORDER.
 
 ```csharp
 public enum TiffFillOrders : ushort
@@ -18,8 +18,8 @@ public enum TiffFillOrders : ushort
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Msb2Lsb | `1` | Самый значимый -&gt; наименее. |
-| Lsb2Msb | `2` | Младший значащий -&gt; самый. |
+| Msb2Lsb | `1` | Самый значимый -&gt; наименьший. |
+| Lsb2Msb | `2` | Наименее значащие -&gt; наиболее. |
 
 ### Смотрите также
 

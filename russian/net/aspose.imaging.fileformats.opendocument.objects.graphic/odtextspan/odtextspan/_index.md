@@ -1,14 +1,14 @@
 ---
 title: OdTextSpan
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdTextSpanaspose.imaging.fileformats.opendocument.objects.graphic/odtextspan.
+description: Инициализирует новый экземплярOdTextSpanaspose.imaging.fileformats.opendocument.objects.graphic/odtextspan класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odtextspan/odtextspan/
 ---
 ## OdTextSpan constructor
 
-Инициализирует новый экземпляр класса[`OdTextSpan`](../../odtextspan).
+Инициализирует новый экземпляр[`OdTextSpan`](../../odtextspan) класс.
 
 ```csharp
 public OdTextSpan(OdObject parent)

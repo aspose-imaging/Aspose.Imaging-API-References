@@ -1,14 +1,14 @@
 ---
 title: XDenom
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 x denom
+description: 获取或设置 x denom.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/xdenom/
 ---
 ## WmfScaleWindowExt.XDenom property
 
-获取或设置 x denom。
+获取或设置 x denom.
 
 ```csharp
 public short XDenom { get; set; }
@@ -16,7 +16,7 @@ public short XDenom { get; set; }
 
 ### 适当的价值
 
-乘以当前 x 的结果除以的数量-xNum 成员的值的范围。
+将 current x-extent 乘以 xNum 成员的值的结果除以的数量。
 
 ### 也可以看看
 

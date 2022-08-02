@@ -1,14 +1,14 @@
 ---
 title: MetafileSignature
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает MetafileSignature 20 битзначение определяющее тип метафайла. Значение для метафайла EMF 0xDBC01.
+description: Получает MetafileSignature 20 бит значение определяющее тип метафайла. Значение для метафайла EMF 0xDBC01.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion/metafilesignature/
 ---
 ## EmfPlusGraphicsVersion.MetafileSignature property
 
-Получает MetafileSignature (20 бит):значение, определяющее тип метафайла. Значение для метафайла EMF+: 0xDBC01.
+Получает MetafileSignature (20 бит): значение, определяющее тип метафайла. Значение для метафайла EMF+: 0xDBC01.
 
 ```csharp
 public int MetafileSignature { get; set; }

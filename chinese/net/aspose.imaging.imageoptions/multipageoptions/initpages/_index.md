@@ -1,14 +1,14 @@
 ---
 title: InitPages
 second_title: Aspose.Imaging for .NET API 参考
-description: 从范围数组初始化页面
+description: 从范围 array 初始化页面
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.imageoptions/multipageoptions/initpages/
 ---
 ## MultiPageOptions.InitPages method
 
-从范围数组初始化页面
+从范围 array 初始化页面
 
 ```csharp
 public void InitPages(IntRange[] ranges)

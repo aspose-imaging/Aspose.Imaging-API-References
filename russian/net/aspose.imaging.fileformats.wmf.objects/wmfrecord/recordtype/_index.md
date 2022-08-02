@@ -1,14 +1,14 @@
 ---
 title: RecordType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: RecordTypeaspose.imaging.fileformats.wmf.objects/wmfrecord/recordtypeчисло определено в WINDOWS.H
+description: RecordTypeaspose.imaging.fileformats.wmf.objects/wmfrecord/recordtype номер определен в WINDOWS.H
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfrecord/recordtype/
 ---
 ## WmfRecord.RecordType property
 
-`RecordType`число (определено в WINDOWS.H)
+`RecordType` номер (определен в WINDOWS.H)
 
 ```csharp
 public WmfRecordType RecordType { get; set; }

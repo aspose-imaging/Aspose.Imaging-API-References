@@ -1,14 +1,14 @@
 ---
 title: ChannelsCount
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取频道数
+description: 获取通道数
 type: docs
 weight: 320
 url: /zh/net/aspose.imaging/pixeldataformat/channelscount/
 ---
 ## PixelDataFormat.ChannelsCount property
 
-获取频道数。
+获取通道数。
 
 ```csharp
 public int ChannelsCount { get; }

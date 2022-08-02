@@ -1,21 +1,21 @@
 ---
 title: Aspose.Imaging.FileFormats.Eps
 second_title: Aspose.Imaging for .NET API 参考
-description: 命名空间包含 EPS 格式类型
+description: 命名空间包含 EPS 格式 type
 type: docs
 weight: 420
 url: /zh/net/aspose.imaging.fileformats.eps/
 ---
-命名空间包含 EPS 格式类型
+命名空间包含 EPS 格式 type
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
-| [EpsBinaryImage](./epsbinaryimage) | 带二进制头文件的封装 PostScript 格式类 |
+| [EpsBinaryImage](./epsbinaryimage) | 带有二进制标头的封装 PostScript 格式的类 |
 | [EpsImage](./epsimage) | EPS 格式的基类 |
-| [EpsInterchangeImage](./epsinterchangeimage) | 封装 PostScript 交换格式类 |
-| [EpsLoadOptions](./epsloadoptions) | EPS 加载选项 |
+| [EpsInterchangeImage](./epsinterchangeimage) | 封装 PostScript 交换格式的类 |
+| [EpsLoadOptions](./epsloadoptions) | EPS 负载选项 |
 | [EpsOptions](./epsoptions) | EPS 选项（当前未使用） |
 ## 枚举
 

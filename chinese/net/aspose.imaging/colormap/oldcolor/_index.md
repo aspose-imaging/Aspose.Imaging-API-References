@@ -1,14 +1,14 @@
 ---
 title: OldColor
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置要转换的现有Coloraspose.imaging/color结构
+description: 获取或设置现有的Coloraspose.imaging/color要转换的结构
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging/colormap/oldcolor/
 ---
 ## ColorMap.OldColor property
 
-获取或设置要转换的现有[`Color`](../../color)结构。
+获取或设置现有的[`Color`](../../color)要转换的结构。
 
 ```csharp
 public Color OldColor { get; set; }
@@ -16,7 +16,7 @@ public Color OldColor { get; set; }
 
 ### 适当的价值
 
-要转换的现有[`Color`](../../color)结构。
+现有的[`Color`](../../color)要转换的结构。
 
 ### 也可以看看
 

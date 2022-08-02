@@ -1,14 +1,14 @@
 ---
 title: TranslationCfaDng
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает массив переводов для формата DNG мозаики CFA.
+description: Получает массив перевода для формата DNG мозаики CFA.
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging.fileformats.dng.decoder/imageparameters/translationcfadng/
 ---
 ## ImageParameters.TranslationCfaDng property
 
-Получает массив переводов для формата DNG мозаики CFA.
+Получает массив перевода для формата DNG мозаики CFA.
 
 ```csharp
 public string[] TranslationCfaDng { get; }
@@ -66,24 +66,24 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "test.dng"))
         System.Console.WriteLine("The date of shooting:                 {0}", System.DateTime.FromFileTime(otherParameters.Timestamp));
     }
 
-     // Экспорт в PNG с параметрами по умолчанию.
+    // Экспорт в PNG с параметрами по умолчанию.
     dngImage.Save(dir + "test.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
- // Производитель камеры: Leica
- // Модель камеры: M8 Digital Camera
- // Количество цветов: 3
- // Описание цветов: RGBG
- // Версия DNG: 16777216
- // Количество изображений RAW в файле: 1
- // Программное обеспечение: 1.107
- // Порядок цветовых пикселей: 10110100101101001011010010110100
- // Апертура: 0
- // Описание: 
- // Фокусное расстояние: 50
- // Чувствительность ISO: 160
- // Серийный номер изображения: 0
- // Скорость затвора: 12
+// Производитель камеры: Leica
+// Модель камеры: цифровая камера M8
+// Количество цветов: 3
+// Описание цветов: RGBG
+// Версия DNG: 16777216
+// Количество изображений RAW в файле: 1
+// Программное обеспечение: 1.107
+// Порядок цветовых пикселей: 10110100101101001011010010110100
+// Диафрагма: 0
+// Описание:                      
+// Фокусное расстояние: 50
+// Чувствительность ISO: 160
+// Серийный номер изображения: 0
+// Скорость затвора: 12
 // Дата съемки: 03.08.2007 3:13:49
 ```
 

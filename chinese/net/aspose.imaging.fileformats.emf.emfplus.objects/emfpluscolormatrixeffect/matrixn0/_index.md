@@ -16,7 +16,7 @@ public int[] MatrixN0 { get; set; }
 
 ### 评论
 
-Matrix_0_0 (4 bytes):Matrix[0][0]，这是红色。 Matrix_1_0（4 字节）:Matrix[1][0]。 Matrix_2_0（4 个字节）:Matrix[2][0]。 Matrix_3_0（4 个字节）:Matrix[3][0]。 Matrix_4_0（4 个字节）:Matrix[4][0]。该值必须为 0.0。
+Matrix_0_0（4 个字节）：Matrix[0][0]，它是红色的因子。 Matrix_1_0（4 个字节）：Matrix[1][0]. Matrix_2_0（4 个字节）：Matrix[2] [0]. Matrix_3_0（4 个字节）：Matrix[3][0]. Matrix_4_0（4 个字节）：Matrix[4][0]。这个值必须是 0.0.
 
 ### 也可以看看
 

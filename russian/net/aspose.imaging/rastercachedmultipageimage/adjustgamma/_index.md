@@ -17,8 +17,8 @@ public override void AdjustGamma(float gammaRed, float gammaGreen, float gammaBl
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | gammaRed | Single | Гамма для коэффициента красного канала |
-| gammaGreen | Single | Гамма для коэффициент зеленого канала |
-| gammaBlue | Single | Гамма для коэффициента синего канала |
+| gammaGreen | Single | Гамма коэффициента зеленого канала |
+| gammaBlue | Single | Гамма коэффициента синего канала |
 
 ### Смотрите также
 
@@ -38,7 +38,7 @@ public override void AdjustGamma(float gamma)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| gamma | Single | Коэффициент гаммы для красного, зеленого и синего каналов |
+| gamma | Single | Гамма для красного, зеленого и синего каналов коэффициент |
 
 ### Смотрите также
 

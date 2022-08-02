@@ -1,14 +1,14 @@
 ---
 title: OdTextMeasure
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Текстовая мера
+description: Размер текста
 type: docs
 weight: 7290
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odtextmeasure/
 ---
 ## OdTextMeasure class
 
-Текстовая мера
+Размер текста
 
 ```csharp
 public class OdTextMeasure : OdStyledObject
@@ -18,13 +18,13 @@ public class OdTextMeasure : OdStyledObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdTextMeasure](odtextmeasure)(OdObject) | Инициализирует новый экземпляр класса[`OdTextMeasure`](../odtextmeasure). |
+| [OdTextMeasure](odtextmeasure)(OdObject) | Инициализирует новый экземпляр[`OdTextMeasure`](../odtextmeasure) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [Kind](../../aspose.imaging.fileformats.opendocument.objects.graphic/odtextmeasure/kind) { get; set; } | Получает или задает вид. |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Получает родительский объект. |

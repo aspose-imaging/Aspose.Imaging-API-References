@@ -1,14 +1,14 @@
 ---
 title: OdRectangle
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdRectangleaspose.imaging.fileformats.opendocument.objects.graphic/odrectangle.
+description: Инициализирует новый экземплярOdRectangleaspose.imaging.fileformats.opendocument.objects.graphic/odrectangle класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odrectangle/odrectangle/
 ---
 ## OdRectangle constructor
 
-Инициализирует новый экземпляр класса[`OdRectangle`](../../odrectangle).
+Инициализирует новый экземпляр[`OdRectangle`](../../odrectangle) класс.
 
 ```csharp
 public OdRectangle(OdObject parent)

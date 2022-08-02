@@ -1,14 +1,14 @@
 ---
 title: OdTextBox
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdTextBoxaspose.imaging.fileformats.opendocument.objects.graphic/odtextbox.
+description: Инициализирует новый экземплярOdTextBoxaspose.imaging.fileformats.opendocument.objects.graphic/odtextbox класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odtextbox/odtextbox/
 ---
 ## OdTextBox constructor
 
-Инициализирует новый экземпляр класса[`OdTextBox`](../../odtextbox).
+Инициализирует новый экземпляр[`OdTextBox`](../../odtextbox) класс.
 
 ```csharp
 public OdTextBox(OdObject parent)

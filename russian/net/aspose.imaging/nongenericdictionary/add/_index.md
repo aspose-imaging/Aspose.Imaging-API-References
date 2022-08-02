@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Добавляет элемент с предоставленным ключом и значением в объект IDictionary.
+description: Добавляет элемент с предоставленным ключом и значением в IDictionary объект.
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging/nongenericdictionary/add/
 ---
 ## NonGenericDictionary.Add method
 
-Добавляет элемент с предоставленным ключом и значением в объект IDictionary.
+Добавляет элемент с предоставленным ключом и значением в IDictionary объект.
 
 ```csharp
 public void Add(object key, object value)
@@ -16,8 +16,8 @@ public void Add(object key, object value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | Object | Объект Objectдля использования в качестве ключ добавляемого элемента. |
-| value | Object | Объект Objectдля использования в качестве значения добавляемого элемента. |
+| key | Object | Object использовать в качестве ключа добавляемого элемента. |
+| value | Object | Object для использования в качестве значения добавляемого элемента. |
 
 ### Смотрите также
 

@@ -16,7 +16,7 @@ public OdTransformInfo Copy()
 
 ### 返回值
 
-获取 OdTransformInfo
+获取 OdTransformInfo 的实例
 
 ### 也可以看看
 

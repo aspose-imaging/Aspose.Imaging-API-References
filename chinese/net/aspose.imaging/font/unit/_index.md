@@ -1,14 +1,14 @@
 ---
 title: Unit
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取此Fontaspose.imaging/font的度量单位
+description: 获取测量单位Fontaspose.imaging/font .
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging/font/unit/
 ---
 ## Font.Unit property
 
-获取此[`Font`](../../font)的度量单位。
+获取测量单位[`Font`](../../font) .
 
 ```csharp
 public GraphicsUnit Unit { get; }
@@ -16,7 +16,7 @@ public GraphicsUnit Unit { get; }
 
 ### 适当的价值
 
-A[`GraphicsUnit`](../../graphicsunit)表示此:::的测量单位R5:T:Aspose.Imaging.Font:::。
+一个[`GraphicsUnit`](../../graphicsunit)代表此的度量单位[`Font`](../../font).
 
 ### 也可以看看
 

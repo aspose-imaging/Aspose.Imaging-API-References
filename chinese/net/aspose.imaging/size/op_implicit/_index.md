@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Aspose.Imaging for .NET API 参考
-description: 将指定的Sizeaspose.imaging/size转换为SizeFaspose.imaging/sizef.
+description: 转换指定的Sizeaspose.imaging/size到一个SizeFaspose.imaging/sizef .
 type: docs
 weight: 170
 url: /zh/net/aspose.imaging/size/op_implicit/
 ---
 ## Size Implicit operator
 
-将指定的[`Size`](../../size)转换为[`SizeF`](../../sizef).
+转换指定的[`Size`](../../size)到一个[`SizeF`](../../sizef) .
 
 ```csharp
 public static implicit operator SizeF(Size size)
@@ -16,11 +16,11 @@ public static implicit operator SizeF(Size size)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| size | Size | [`Size`](../../size)进行转换。 |
+| size | Size | 这[`Size`](../../size)转换。 |
 
 ### 返回值
 
-[`SizeF`](../../sizef)此运算符转换为的结构。
+这[`SizeF`](../../sizef)此运算符转换为的结构。
 
 ### 也可以看看
 

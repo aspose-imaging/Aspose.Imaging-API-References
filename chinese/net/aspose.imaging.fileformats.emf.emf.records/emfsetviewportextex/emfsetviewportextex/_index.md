@@ -1,14 +1,14 @@
 ---
 title: EmfSetViewportExtEx
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfSetViewportExtExaspose.imaging.fileformats.emf.emf.records/emfsetviewportextex类的新实例
+description: 初始化EmfSetViewportExtExaspose.imaging.fileformats.emf.emf.records/emfsetviewportextex类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetviewportextex/emfsetviewportextex/
 ---
 ## EmfSetViewportExtEx(EmfRecord) {#constructor_1}
 
-初始化[`EmfSetViewportExtEx`](../../emfsetviewportextex)类的新实例。
+初始化[`EmfSetViewportExtEx`](../../emfsetviewportextex)类.
 
 ```csharp
 public EmfSetViewportExtEx(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfSetViewportExtEx(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfSetViewportExtEx(EmfRecord source)
 
 ## EmfSetViewportExtEx() {#constructor}
 
-初始化[`EmfSetViewportExtEx`](../../emfsetviewportextex)类的新实例。
+初始化[`EmfSetViewportExtEx`](../../emfsetviewportextex)类.
 
 ```csharp
 public EmfSetViewportExtEx()

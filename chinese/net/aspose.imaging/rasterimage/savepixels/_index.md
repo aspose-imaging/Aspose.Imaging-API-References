@@ -21,55 +21,29 @@ public void SavePixels(Rectangle rectangle, Color[] pixels)
 
 ### 例子
 
-以下示例使用 Aspose.Imaging.RasterImage.SavePixels 方法用黑色像素填充光栅图像的中心区域。
+下面的示例使用 Aspose.Imaging.RasterImage.SavePixels 方法用黑色像素填充光栅图像的中心区域。
 
 ```csharp
 [C#]
 
-    //创建一个MemoryStream
-的实例
-using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
+string dir = "c:\\temp\\";
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
 {
-    //创建 GifOptions 实例并设置其各种属性，包括 Source 属性
-    Aspose.Imaging.ImageOptions.GifOptions gifOptions = new Aspose.Imaging.ImageOptions.GifOptions();
-    gifOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream);
+    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-        //创建Image
-的实例
-    using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Create(gifOptions, 500, 500))
+    // 黑色方块
+    Color[] pixels = new Color[(rasterImage.Width / 2) * (rasterImage.Height / 2)];
+    for (int i = 0; i < pixels.Length; i++)
     {
-        //通过指定区域为图像边界
-获取图像的像素
-        Aspose.Imaging.Color[] pixels = image.LoadPixels(image.Bounds);
-
-        //遍历数组并设置alrenative索引pixel
-的颜色
-        for (int index = 0; index < pixels.Length; index++)
-        {
-            if (index % 2 == 0)
-            {
-                //设置索引像素颜色为yellow
-                pixels[index] = Aspose.Imaging.Color.Yellow;
-            }
-            else
-            {
-                //设置索引像素颜色为blue
-                pixels[index] = Aspose.Imaging.Color.Blue;
-            }
-        }
-
-            //将像素变化应用到image
-        image.SavePixels(image.Bounds, pixels);
-
-        // 保存所有更改。
-        image.Save();
+        pixels[i] = Color.Black;
     }
 
-        // 将 MemoryStream 写入 File
-    using (System.IO.FileStream fileStream = new System.IO.FileStream(@"C:\temp\output.gif", System.IO.FileMode.Create))
-    {
-        stream.WriteTo(fileStream);
-    }   
+    // 在图像中心绘制黑色方块。
+    Aspose.Imaging.Rectangle area = new Aspose.Imaging.Rectangle(rasterImage.Width / 4, rasterImage.Height / 4, rasterImage.Width / 2, rasterImage.Height / 2);
+    rasterImage.SavePixels(area, pixels);
+
+    rasterImage.Save(dir + "sample.SavePixels.png");
 }
 ```
 
@@ -78,46 +52,42 @@ using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
 ```csharp
 [C#]
 
-    //创建一个MemoryStream
-的实例
+//创建一个MemoryStream实例
 using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
 {
-    //创建 GifOptions 实例并设置其各种属性，包括 Source 属性
+    //创建一个 GifOptions 实例并设置它的各种属性，包括 Source 属性
     Aspose.Imaging.ImageOptions.GifOptions gifOptions = new Aspose.Imaging.ImageOptions.GifOptions();
     gifOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream);
 
-        //创建Image
-的实例
+    //创建一个Image实例
     using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Create(gifOptions, 500, 500))
     {
-        //通过指定区域为图像边界
-获取图像的像素
+        //通过指定区域为图像边界来获取图像的像素
         Aspose.Imaging.Color[] pixels = image.LoadPixels(image.Bounds);
 
-        //遍历数组并设置alrenative索引pixel
-的颜色
+        //遍历数组并设置alrenative索引像素的颜色
         for (int index = 0; index < pixels.Length; index++)
         {
             if (index % 2 == 0)
             {
-                //设置索引像素颜色为yellow
+                //设置索引像素颜色为黄色
                 pixels[index] = Aspose.Imaging.Color.Yellow;
             }
             else
             {
-                //设置索引像素颜色为blue
+                //设置索引像素颜色为蓝色
                 pixels[index] = Aspose.Imaging.Color.Blue;
             }
         }
 
-            //将像素变化应用到image
+        //将像素变化应用到图像
         image.SavePixels(image.Bounds, pixels);
 
         // 保存所有更改。
         image.Save();
     }
 
-        // 将 MemoryStream 写入 File
+    // 将 MemoryStream 写入文件
     using (System.IO.FileStream fileStream = new System.IO.FileStream(@"C:\temp\output.gif", System.IO.FileMode.Create))
     {
         stream.WriteTo(fileStream);

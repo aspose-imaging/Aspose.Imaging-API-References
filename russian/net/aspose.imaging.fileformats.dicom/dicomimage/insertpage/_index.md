@@ -20,17 +20,17 @@ public DicomPage InsertPage(int pageIndex)
 
 ### Возвращаемое значение
 
-Вновь созданный[`DicomPage`](../../dicompage).
+Недавно созданный[`DicomPage`](../../dicompage).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *pageIndex*- Индекс страницы меньше` 0` . или *pageIndex*- Индекс страницы больше, чем[`PageCount`](../pagecount). |
+| ArgumentOutOfRangeException | *pageIndex* - Индекс страницы меньше`0` . или *pageIndex* - Индекс страницы больше, чем[`PageCount`](../pagecount) . |
 
 ### Примеры
 
-Создание многостраничного изображения Dicom.
+Создайте многостраничное изображение Dicom.
 
 ```csharp
 [C#]
@@ -40,16 +40,16 @@ using (DicomImage image = (DicomImage)Image.Create(
         100,
         100))
 {
-     // Нарисуйте что-нибудь, используя векторную графику
+    // Рисуем что-нибудь с помощью векторной графики
     Graphics graphics = new Graphics(image);
     graphics.FillRectangle(new SolidBrush(Color.BlueViolet), image.Bounds);
     graphics.FillRectangle(new SolidBrush(Color.Aqua), 10, 20, 50, 20);
     graphics.FillEllipse(new SolidBrush(Color.Orange), 30, 50, 70, 30);
 
-    // Сохраняем пиксели нарисованного изображения. Теперь они на первой странице изображения Dicom.
+    // Сохраняем пиксели нарисованного изображения. Теперь они находятся на первой странице изображения Dicom.
     int[] pixels = image.LoadArgb32Pixels(image.Bounds);
 
-     // Добавляем несколько страниц после, делая их темнее
+    // Добавляем несколько страниц после, делая их темнее
     for (int i = 1; i < 5; i++)
     {
         DicomPage page = image.AddPage();
@@ -57,7 +57,7 @@ using (DicomImage image = (DicomImage)Image.Create(
         page.AdjustBrightness(i * 30);
     }
 
-     // Добавляем несколько страниц перед главной, делая их ярче
+    // Добавляем несколько страниц перед главной, делая их ярче
     for (int i = 1; i < 5; i++)
     {
         DicomPage page = image.InsertPage(0);
@@ -65,7 +65,7 @@ using (DicomImage image = (DicomImage)Image.Create(
         page.AdjustBrightness(-i * 30);
     }
 
-     // Сохраняем созданное многостраничное изображение в выходной файл file
+    // Сохраняем созданное многостраничное изображение в выходной файл
     image.Save("MultiPage.dcm");
 }
 ```

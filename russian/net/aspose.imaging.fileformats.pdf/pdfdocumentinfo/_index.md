@@ -27,7 +27,7 @@ public class PdfDocumentInfo
 | [Author](../../aspose.imaging.fileformats.pdf/pdfdocumentinfo/author) { get; set; } | Получает или устанавливает автора документа. |
 | [Keywords](../../aspose.imaging.fileformats.pdf/pdfdocumentinfo/keywords) { get; set; } | Получает или задает ключевые слова документа. |
 | [Subject](../../aspose.imaging.fileformats.pdf/pdfdocumentinfo/subject) { get; set; } | Получает или задает тему документа. |
-| [Title](../../aspose.imaging.fileformats.pdf/pdfdocumentinfo/title) { get; set; } | Получает или устанавливает заголовок документа. |
+| [Title](../../aspose.imaging.fileformats.pdf/pdfdocumentinfo/title) { get; set; } | Получает или задает заголовок документа. |
 
 ### Смотрите также
 

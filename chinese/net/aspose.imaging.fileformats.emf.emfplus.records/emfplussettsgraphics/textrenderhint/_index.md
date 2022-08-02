@@ -1,14 +1,14 @@
 ---
 title: TextRenderHint
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 8 位无符号整数指定文本 渲染的质量包括文本抗锯齿的类型它必须在 TextRenderingHint 枚举第 2.1.1.32 节中定义
+description: 获取或设置一个 8 位无符号整数指定 text 渲染的质量包括文本抗锯齿的类型它必须在 TextRenderingHint 枚举第 2.1.1.32 节中定义
 type: docs
 weight: 130
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics/textrenderhint/
 ---
 ## EmfPlusSetTsGraphics.TextRenderHint property
 
-获取或设置一个 8 位无符号整数，指定文本 渲染的质量，包括文本抗锯齿的类型。它必须在 TextRenderingHint 枚举（第 2.1.1.32 节）中定义。
+获取或设置一个 8 位无符号整数，指定 text 渲染的质量，包括文本抗锯齿的类型。它必须在 TextRenderingHint 枚举（第 2.1.1.32 节）中定义。
 
 ```csharp
 public EmfPlusTextRenderingHint TextRenderHint { get; set; }

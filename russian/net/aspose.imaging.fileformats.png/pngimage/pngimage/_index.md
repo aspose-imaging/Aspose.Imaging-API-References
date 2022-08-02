@@ -1,14 +1,14 @@
 ---
 title: PngImage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаPngImageaspose.imaging.fileformats.png/pngimage.
+description: Инициализирует новый экземплярPngImageaspose.imaging.fileformats.png/pngimage класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.png/pngimage/pngimage/
 ---
 ## PngImage(int, int) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`PngImage`](../../pngimage).
+Инициализирует новый экземпляр[`PngImage`](../../pngimage) класс.
 
 ```csharp
 public PngImage(int width, int height)
@@ -21,22 +21,22 @@ public PngImage(int width, int height)
 
 ### Примеры
 
-В этом примере показано, как создать PNG-изображение заданного размера, заполнить его сплошным цветом и сохранить в файл.
+В этом примере показано, как создать изображение PNG заданного размера, заполнить его сплошным цветом и сохранить в файл.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
- // Создаем изображение PNG размером 100x100 px.
+// Создаем PNG-изображение размером 100x100 пикселей.
 using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.FileFormats.Png.PngImage(100, 100))
 {
-     // Произвести некоторую обработку изображения, например, заполнить все изображение красным цветом.
+    // Произвести некоторую обработку изображения, например, заполнить все изображение красным цветом.
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(pngImage);
     Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
     graphics.FillRectangle(brush, pngImage.Bounds);
 
-     // Сохраняем в файл.
+    // Сохраняем в файл.
     pngImage.Save(dir + "output.png");
 }
 ```
@@ -51,7 +51,7 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
 ## PngImage(string) {#constructor_6}
 
-Инициализирует новый экземпляр класса[`PngImage`](../../pngimage).
+Инициализирует новый экземпляр[`PngImage`](../../pngimage) класс.
 
 ```csharp
 public PngImage(string path)
@@ -70,13 +70,13 @@ public PngImage(string path)
 
 string dir = "c:\\temp\\";
 
- // Загружаем изображение PNG из файла.
+// Загружаем изображение PNG из файла.
 using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.FileFormats.Png.PngImage(dir + "sample.png"))
 {
-     // Преобразование изображения в оттенки серого, представление
+    // Преобразование изображения в представление в градациях серого
     pngImage.Grayscale();
 
-     // Сохраняем в файл.
+    // Сохраняем в файл.
     pngImage.Save(dir + "sample.grayscale.png");
 }
 ```
@@ -91,7 +91,7 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
 ## PngImage(RasterImage) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`PngImage`](../../pngimage).
+Инициализирует новый экземпляр[`PngImage`](../../pngimage) класс.
 
 ```csharp
 public PngImage(RasterImage rasterImage)
@@ -110,12 +110,12 @@ public PngImage(RasterImage rasterImage)
 
 string dir = "c:\\temp\\";
 
- // Загружаем изображение TrueColor PNG из изображения BMP.
- // Во-первых, создайте временное изображение BMP, которое будет основой для построения изображения PNG.
- // Вы также можете загрузить изображение BMP из файла или использовать изображение любого другого растрового формата.
+// Загрузите изображение TrueColor PNG из изображения BMP.
+// Во-первых, создайте временное изображение BMP, которое будет основой для построения изображения PNG.
+// Вы также можете загрузить изображение BMP из файла или использовать изображение любого другого растрового формата.
 using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100))
 {
-     // Заливаем все изображение BMP красным цветом.
+    // Заливаем все BMP-изображение красным цветом.
     Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(bmpImage);
     Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
     gr.FillRectangle(brush, bmpImage.Bounds);
@@ -139,7 +139,7 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
 
 ## PngImage(string, PngColorType) {#constructor_7}
 
-Инициализирует новый экземпляр класса[`PngImage`](../../pngimage).
+Инициализирует новый экземпляр[`PngImage`](../../pngimage) класс.
 
 ```csharp
 public PngImage(string path, PngColorType colorType)
@@ -165,11 +165,11 @@ public PngImage(string path, PngColorType colorType)
 
 string dir = "c:\\temp\\";
 
- // Загружаем изображение PNG из файла.
- // Обратите внимание, что цветное изображение будет автоматически преобразовано в оттенки серого.
+// Загружаем изображение PNG из файла.
+// Обратите внимание, что цветное изображение будет автоматически преобразовано в оттенки серого.
 using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.FileFormats.Png.PngImage(dir + "sample.png", Aspose.Imaging.FileFormats.Png.PngColorType.Grayscale))
 {
-     // Сохраняем в файл.
+    // Сохраняем в файл.
     pngImage.Save(dir + "sample.grayscale.png");
 }
 ```
@@ -185,7 +185,7 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
 ## PngImage(RasterImage, PngColorType) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`PngImage`](../../pngimage).
+Инициализирует новый экземпляр[`PngImage`](../../pngimage) класс.
 
 ```csharp
 public PngImage(RasterImage rasterImage, PngColorType colorType)
@@ -205,17 +205,17 @@ public PngImage(RasterImage rasterImage, PngColorType colorType)
 
 string dir = "c:\\temp\\";
 
- // Загрузите изображение PNG в оттенках серого из цветного изображения BMP.
- // Во-первых, создайте временное изображение BMP, которое будет основой для построения изображения PNG.
- // Вы также можете загрузить изображение BMP из файла или использовать изображение любого другого растрового формата.
+// Загрузите изображение PNG в градациях серого из цветного изображения BMP.
+// Во-первых, создайте временное изображение BMP, которое будет основой для построения изображения PNG.
+// Вы также можете загрузить изображение BMP из файла или использовать изображение любого другого растрового формата.
 using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100))
 {
-     // Заливаем все изображение BMP красным цветом.
+    // Заливаем все BMP-изображение красным цветом.
     Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(bmpImage);
     Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
     gr.FillRectangle(brush, bmpImage.Bounds);
 
-     // Цвета пикселей изображения будут преобразованы в их оттенки серого.
+    // Цвета пикселей изображения будут преобразованы в их оттенки серого.
     using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.FileFormats.Png.PngImage(bmpImage, Aspose.Imaging.FileFormats.Png.PngColorType.Grayscale))
     {
         pngImage.Save(dir + "output.grayscale.png");
@@ -235,7 +235,7 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
 
 ## PngImage(Stream) {#constructor_5}
 
-Инициализирует новый экземпляр класса[`PngImage`](../../pngimage).
+Инициализирует новый экземпляр[`PngImage`](../../pngimage) класс.
 
 ```csharp
 public PngImage(Stream stream)
@@ -254,15 +254,15 @@ public PngImage(Stream stream)
 
 string dir = "c:\\temp\\";
 
- // Загрузить изображение PNG из файлового потока.
+// Загрузить изображение PNG из файлового потока.
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.png"))
 {
     using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.FileFormats.Png.PngImage(stream))
     {
-         // Преобразование изображения в оттенки серого, представление
+        // Преобразование изображения в представление в градациях серого
         pngImage.Grayscale();
 
-         // Сохраняем в файл.
+        // Сохраняем в файл.
         pngImage.Save(dir + "sample.grayscale.png");
     }
 }
@@ -278,7 +278,7 @@ using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.png"))
 
 ## PngImage(int, int, PngColorType) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`PngImage`](../../pngimage).
+Инициализирует новый экземпляр[`PngImage`](../../pngimage) класс.
 
 ```csharp
 public PngImage(int width, int height, PngColorType colorType)
@@ -292,23 +292,23 @@ public PngImage(int width, int height, PngColorType colorType)
 
 ### Примеры
 
-В этом примере показано, как создать изображение PNG заданного размера с указанным типом цвета, заполнить его сплошным цветом и сохранить его в файл.
+В этом примере показано, как создать изображение PNG указанного размера с указанным типом цвета, заполнить его сплошным цветом и сохранить в файл.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
- // Создаем изображение PNG в градациях серого размером 100x100 px.
+// Создаем изображение PNG в градациях серого размером 100x100 пикселей.
 // Все цвета будут автоматически преобразованы в формат оттенков серого.
 using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.FileFormats.Png.PngImage(100, 100, Aspose.Imaging.FileFormats.Png.PngColorType.Grayscale))
 {
-     // Произвести некоторую обработку изображения, например, заполнить все изображение красным цветом.
+    // Произвести некоторую обработку изображения, например, заполнить все изображение красным цветом.
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(pngImage);
     Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
     graphics.FillRectangle(brush, pngImage.Bounds);
 
-     // Сохраняем в файл.
+    // Сохраняем в файл.
     pngImage.Save(dir + "output.grayscale.png");
 }
 ```
@@ -324,7 +324,7 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
 ## PngImage(PngOptions, int, int) {#constructor}
 
-Инициализирует новый экземпляр класса[`PngImage`](../../pngimage).
+Инициализирует новый экземпляр[`PngImage`](../../pngimage) класс.
 
 ```csharp
 public PngImage(PngOptions pngOptions, int width, int height)
@@ -338,7 +338,7 @@ public PngImage(PngOptions pngOptions, int width, int height)
 
 ### Примеры
 
-В этом примере показано, как создать изображение PNG с указанными параметрами, заполнить его цветами линейного градиента и сохранить в файл .
+В этом примере показано, как создать изображение PNG с указанными параметрами, заполнить его цветами линейного градиента и сохранить в файл.
 
 ```csharp
 [C#]
@@ -347,22 +347,22 @@ string dir = "c:\\temp\\";
 
 Aspose.Imaging.ImageOptions.PngOptions createOptions = new Aspose.Imaging.ImageOptions.PngOptions();
 
- // Количество бит на цвет channel
+// Количество бит на цветовой канал
 createOptions.BitDepth = 8;
 
- // Каждый пиксель представляет собой тройку (красный, зеленый, синий), за которой следует альфа-компонент.
+// Каждый пиксель представляет собой тройку (красный, зеленый, синий), за которой следует альфа-компонент.
 createOptions.ColorType = Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
 
- // Максимальный уровень сжатия.
+// Максимальный уровень сжатия.
 createOptions.CompressionLevel = 9;
 
- // Использование фильтров позволяет более эффективно сжимать непрерывные тональные изображения.
+// Использование фильтров позволяет более эффективно сжимать непрерывные тональные изображения.
 createOptions.FilterType = Aspose.Imaging.FileFormats.Png.PngFilterType.Sub;
 
- // Использовать прогрессивную загрузку
+// Использовать прогрессивную загрузку
 createOptions.Progressive = true;
 
- // Создаем изображение PNG с пользовательскими параметрами.
+// Создаем изображение PNG с пользовательскими параметрами.
 using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.FileFormats.Png.PngImage(createOptions, 100, 100))
 {
     Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
@@ -373,10 +373,10 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(pngImage);
 
-     // Заливаем изображение полупрозрачным градиентом.
+    // Заливаем изображение полупрозрачным градиентом.
     graphics.FillRectangle(gradientBrush, pngImage.Bounds);
 
-     // Сохраняем в файл.
+    // Сохраняем в файл.
     pngImage.Save(dir + "output.explicitoptions.png");
 }
 ```

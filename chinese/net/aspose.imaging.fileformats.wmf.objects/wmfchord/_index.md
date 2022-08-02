@@ -1,14 +1,14 @@
 ---
 title: WmfChord
 second_title: Aspose.Imaging for .NET API 参考
-description: META_CHORD 记录绘制一个弦该弦由一个区域 定义该区域以椭圆与线段的交点为界和弦 使用笔勾勒并使用在播放设备上下文中定义的画笔填充 
+description: META_CHORD 记录绘制和弦该弦由以椭圆与线段的交点为界的 region 定义 chord 使用笔勾勒出轮廓并使用在播放设备上下文中定义的画笔进行填充
 type: docs
 weight: 8480
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfchord/
 ---
 ## WmfChord class
 
-META_CHORD 记录绘制一个弦，该弦由一个区域 定义，该区域以椭圆与线段的交点为界。和弦 使用笔勾勒并使用在播放设备上下文中定义的画笔填充 。
+META_CHORD 记录绘制和弦，该弦由以椭圆与线段的交点为界的 region 定义。 chord 使用笔勾勒出轮廓，并使用在播放设备上下文中定义的画笔进行填充。
 
 ```csharp
 public class WmfChord : WmfRectangle
@@ -24,8 +24,8 @@ public class WmfChord : WmfRectangle
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Radial1](../../aspose.imaging.fileformats.wmf.objects/wmfchord/radial1) { get; set; } | 获取或设置radial1。 |
-| [Radial2](../../aspose.imaging.fileformats.wmf.objects/wmfchord/radial2) { get; set; } | 获取或设置radial2。 |
+| [Radial1](../../aspose.imaging.fileformats.wmf.objects/wmfchord/radial1) { get; set; } | 获取或设置radial1. |
+| [Radial2](../../aspose.imaging.fileformats.wmf.objects/wmfchord/radial2) { get; set; } | 获取或设置radial2. |
 | [Rectangle](../../aspose.imaging.fileformats.wmf.objects/wmfrectangle/rectangle) { get; set; } | 获取或设置矩形。 |
 
 ### 也可以看看

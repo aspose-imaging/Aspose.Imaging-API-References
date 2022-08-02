@@ -1,14 +1,14 @@
 ---
 title: CRedBits
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 指定每个 RGBA 颜色缓冲区中红色位平面的数量
+description: 获取或设置指定每个 RGBA 颜色缓冲区中红色位平面的数量
 type: docs
 weight: 170
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/credbits/
 ---
 ## EmfPixelFormatDescriptor.CRedBits property
 
-获取或设置 指定每个 RGBA 颜色缓冲区中红色位平面的数量
+获取或设置指定每个 RGBA 颜色缓冲区中红色位平面的数量
 
 ```csharp
 public byte CRedBits { get; set; }

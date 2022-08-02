@@ -18,24 +18,24 @@ public sealed class EmfPolyTextOutA : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPolyTextOutA](emfpolytextouta#constructor)() | Инициализирует новый экземпляр класса[`EmfPolyTextOutA`](../emfpolytextouta). |
-| [EmfPolyTextOutA](emfpolytextouta#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfPolyTextOutA`](../emfpolytextouta). |
+| [EmfPolyTextOutA](emfpolytextouta#constructor)() | Инициализирует новый экземпляр[`EmfPolyTextOutA`](../emfpolytextouta) класс. |
+| [EmfPolyTextOutA](emfpolytextouta#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfPolyTextOutA`](../emfpolytextouta) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AEmrText](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextouta/aemrtext) { get; set; } | Получает или задает массив объектов EmrText (раздел 2.2.5), определяющих выходные строки в 8-битных символах ASCII с текстом. атрибуты и значения интервалов. Количество объектов EmrText определяется параметром cStrings. |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextouta/bounds) { get; set; } | Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который определяет ограничивающий прямоугольник в единицах устройства. |
-| [ExScale](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextouta/exscale) { get; set; } | Получает или задает 32-битное значение с плавающей запятой, указывающее масштаб X от единиц страницы до 0,01 мм, если графический режим GM_COMPATIBLE . |
-| [EyScale](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextouta/eyscale) { get; set; } | Получает или задает 32-разрядное значение с плавающей запятой, указывающее масштаб Y от единиц страницы до 0,01 мм, если графический режим GM_COMPATIBLE . |
+| [AEmrText](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextouta/aemrtext) { get; set; } | Получает или задает массив объектов EmrText (раздел 2.2.5), которые задают выходные строки в 8-битных символах ASCII с текстовыми атрибутами и значениями интервалов. Количество объектов EmrText определяется cStrings. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextouta/bounds) { get; set; } | Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который определяет ограничивающий прямоугольник в единицах измерения устройства. |
+| [ExScale](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextouta/exscale) { get; set; } | Получает или задает 32-битное значение с плавающей запятой, указывающее масштаб X от единиц страницы до единиц 0,01 мм, если графический режим GM_COMPATIBLE. |
+| [EyScale](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextouta/eyscale) { get; set; } | Получает или задает 32-битное значение с плавающей запятой, указывающее масштаб Y от единиц страницы до единиц 0,01 мм, если графический режим GM_COMPATIBLE. |
 | [IGraphicsMode](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextouta/igraphicsmode) { get; set; } | Получает или задает 32-битное целое число без знака, указывающее текущий графический режим, из перечисления GraphicsMode (раздел 2.1.16). |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Примечания
 
-Цвета шрифта и текста, используемые для вывода, определяются свойствами в текущем состоянии контекст устройства воспроизведения. EMR_POLYTEXTOUTA СЛЕДУЕТ эмулировать серией записей EMR_EXTTEXTOUTW (раздел 2.3.5.7), по одной на строку. Для этого требуется, чтобы текстовая строка ASCII в каждом объекте EmrText была преобразована в кодировку Unicode UTF16-LE.
+Цвета шрифта и текста, используемые для вывода, определяются свойствами в текущем состоянии контекста устройства воспроизведения . EMR_POLYTEXTOUTA СЛЕДУЕТ эмулировать серией записей EMR_EXTTEXTOUTW (раздел 2.3.5.7), по одной на строку. Для этого требуется, чтобы текстовая строка ASCII в каждом объекте EmrText была преобразована в кодировку Unicode UTF16-LE.
 
 ### Смотрите также
 

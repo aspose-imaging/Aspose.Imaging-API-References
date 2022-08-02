@@ -1,14 +1,14 @@
 ---
 title: HasAlpha
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее имеет ли этот экземпляр альфа-канал.
+description: Получает значение указывающее есть ли у этого экземпляра альфа.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging.fileformats.tiff/tiffframe/hasalpha/
 ---
 ## TiffFrame.HasAlpha property
 
-Получает значение, указывающее, имеет ли этот экземпляр альфа-канал.
+Получает значение, указывающее, есть ли у этого экземпляра альфа.
 
 ```csharp
 public override bool HasAlpha { get; }
@@ -16,7 +16,7 @@ public override bool HasAlpha { get; }
 
 ### Стоимость имущества
 
-` true` если у этого экземпляра есть альфа; в противном случае` false` .
+`истинный` если у этого экземпляра есть альфа; в противном случае,`ЛОЖЬ` .
 
 ### Примеры
 
@@ -32,7 +32,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(fileName))
 {
     Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)image;
 
-     // Если активный кадр TIFF имеет альфа-канал, то все изображение TIFF считается имеющим альфа-канал.
+    // Если активный кадр TIFF имеет альфа-канал, то считается, что все изображение TIFF имеет альфа-канал.
     System.Console.WriteLine("ImageFile={0}, FileFormat={1}, HasAlpha={2}", fileName, tiffImage.RawDataFormat, tiffImage.HasAlpha);
 
     int i = 0;
@@ -42,9 +42,9 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(fileName))
     }
 }
 
-// Вывод может выглядеть так: 
- // ImageFile=c:\temp\sample.tif, FileFormat=RgbIndexed1Bpp, используемые каналы: 1, HasAlpha=False
- // Frame=1, FileFormat=RgbIndexed1Bpp, используемые каналы: 1, HasAlpha=False
+// Вывод может выглядеть так:
+// ImageFile=c:\temp\sample.tif, FileFormat=RgbIndexed1Bpp, используемые каналы: 1, HasAlpha=False
+// Frame=1, FileFormat=RgbIndexed1Bpp, используемые каналы: 1, HasAlpha=False
 // Frame=2, FileFormat=RgbIndexed1Bpp, используемые каналы: 1, HasAlpha=False
 ```
 

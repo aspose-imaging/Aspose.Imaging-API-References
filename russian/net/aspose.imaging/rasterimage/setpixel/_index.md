@@ -17,7 +17,7 @@ public void SetPixel(int x, int y, Color color)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | x | Int32 | Местоположение пикселя x. |
-| y | Int32 | Местоположение пикселя y. |
+| y | Int32 | Расположение пикселя по оси y. |
 | color | Color | Цвет пикселя для указанной позиции. |
 
 ### Примеры
@@ -31,10 +31,10 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\sample.p
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-     // Устанавливает цвет верхнего левого пикселя.
+    // Устанавливает цвет верхнего левого пикселя.
     rasterImage.SetArgb32Pixel(0, 0, Aspose.Imaging.Color.Aqua.ToArgb());
 
-     // Другой способ — передать экземпляр Aspose.Imaging.Color сразу
+    // Другой способ — напрямую передать экземпляр Aspose.Imaging.Color
     rasterImage.SetPixel(0, 0, Aspose.Imaging.Color.Aqua);
 }
 ```

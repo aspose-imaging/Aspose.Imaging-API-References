@@ -1,14 +1,14 @@
 ---
 title: DrawLines
 second_title: Aspose.Imaging for .NET API 参考
-description: 绘制一系列连接Pointaspose.imaging/point结构数组的线段
+description: 绘制一系列连接数组的线段Pointaspose.imaging/point结构.
 type: docs
 weight: 260
 url: /zh/net/aspose.imaging/graphics/drawlines/
 ---
 ## DrawLines(Pen, Point[]) {#drawlines_1}
 
-绘制一系列连接[`Point`](../../point)结构数组的线段。
+绘制一系列连接数组的线段[`Point`](../../point)结构.
 
 ```csharp
 public void DrawLines(Pen pen, Point[] points)
@@ -16,15 +16,15 @@ public void DrawLines(Pen pen, Point[] points)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen)确定颜色、宽度和样式线段。 |
-| points | Point[] | [`Point`](../../point)结构的数组，表示要连接的点。 |
+| pen | Pen | [`Pen`](../../pen)它决定了线段的颜色、宽度和样式。 |
+| points | Point[] | 数组[`Point`](../../point)表示要连接的点的结构。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *pen*为空。 -或- *points*为空。 |
-| ArgumentException | *points*数组包含少于 2 个点。 |
+| ArgumentNullException | *pen*为空。 -或- *points*一片空白。 |
+| ArgumentException | 这*points*数组包含少于 2 个点。 |
 
 ### 也可以看看
 
@@ -38,7 +38,7 @@ public void DrawLines(Pen pen, Point[] points)
 
 ## DrawLines(Pen, PointF[]) {#drawlines}
 
-绘制一系列连接[`PointF`](../../pointf)结构数组的线段。
+绘制一系列连接数组的线段[`PointF`](../../pointf)结构.
 
 ```csharp
 public void DrawLines(Pen pen, PointF[] points)
@@ -46,15 +46,15 @@ public void DrawLines(Pen pen, PointF[] points)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen)确定颜色、宽度和样式线段。 |
-| points | PointF[] | [`PointF`](../../pointf)结构的数组，表示要连接的点。 |
+| pen | Pen | [`Pen`](../../pen)它决定了线段的颜色、宽度和样式。 |
+| points | PointF[] | 数组[`PointF`](../../pointf)表示要连接的点的结构。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *pen*为空。 -或- *points*为空。 |
-| ArgumentException | *points*数组包含少于 2 个点。 |
+| ArgumentNullException | *pen*为空。 -或- *points*一片空白。 |
+| ArgumentException | 这*points*数组包含少于 2 个点。 |
 
 ### 也可以看看
 

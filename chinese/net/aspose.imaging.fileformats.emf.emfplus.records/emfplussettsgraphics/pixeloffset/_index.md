@@ -1,14 +1,14 @@
 ---
 title: PixelOffset
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 8 位无符号整数指定图像 和文本渲染过程的整体质量它必须是 PixelOffsetMode 枚举中的一个值第 2.1.1.26 节
+description: 获取或设置一个 8 位无符号整数用于指定 image 和文本渲染过程的整体质量它必须是 PixelOffsetMode 枚举第 2.1.1.26 节中的一个值
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics/pixeloffset/
 ---
 ## EmfPlusSetTsGraphics.PixelOffset property
 
-获取或设置一个 8 位无符号整数，指定图像 和文本渲染过程的整体质量。它必须是 PixelOffsetMode 枚举中的一个值（第 2.1.1.26 节）。
+获取或设置一个 8 位无符号整数，用于指定 image 和文本渲染过程的整体质量。它必须是 PixelOffsetMode 枚举（第 2.1.1.26 节）中的一个值。
 
 ```csharp
 public EmfPlusPixelOffsetMode PixelOffset { get; set; }

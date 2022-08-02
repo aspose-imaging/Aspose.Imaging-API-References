@@ -1,14 +1,14 @@
 ---
 title: CharRange
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 RangeCount EmfPlusCharacterRange 对象的可选数组这些对象指定字符串中的字符位置 文本边界区域由由字符范围指定的字符组 占据的显示区域定义  如果 EmfPlusStringFormat 对象中 RangeCount 字段的值大于 0则该字段必须存在
+description: 获取或设置 RangeCount EmfPlusCharacterRange 对象的可选数组这些对象指定文本字符串中字符位置 的范围边界区域由字符范围指定的字符组 占据的显示区域定义 如果 EmfPlusStringFormat 对象中 RangeCount 字段的值大于 0. 则必须存在此字段
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformatdata/charrange/
 ---
 ## EmfPlusStringFormatData.CharRange property
 
-获取或设置 RangeCount EmfPlusCharacterRange 对象的可选数组，这些对象指定字符串中的字符位置 文本。边界区域由由字符范围指定的字符组 占据的显示区域定义 。 如果 EmfPlusStringFormat 对象中 RangeCount 字段的值大于 0，则该字段必须存在。
+获取或设置 RangeCount EmfPlusCharacterRange 对象的可选数组，这些对象指定文本字符串中字符位置 的范围。边界区域由字符范围指定的字符组 占据的显示区域定义 。如果 EmfPlusStringFormat 对象中 RangeCount 字段的值大于 0. ，则必须存在此字段
 
 ```csharp
 public EmfPlusCharacterRange[] CharRange { get; set; }

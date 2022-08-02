@@ -1,14 +1,14 @@
 ---
 title: ExifSceneCaptureType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: тип захвата сцены exif enum.
+description: Тип захвата сцены exif enum.
 type: docs
 weight: 1010
 url: /ru/net/aspose.imaging.exif.enums/exifscenecapturetype/
 ---
 ## ExifSceneCaptureType enumeration
 
-тип захвата сцены exif enum.
+Тип захвата сцены exif enum.
 
 ```csharp
 public enum ExifSceneCaptureType

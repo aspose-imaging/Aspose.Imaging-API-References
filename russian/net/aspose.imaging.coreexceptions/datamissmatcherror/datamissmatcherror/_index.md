@@ -1,14 +1,14 @@
 ---
 title: DataMissmatchError
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаDataMissmatchErroraspose.imaging.coreexceptions/datamissmatcherror.
+description: Инициализирует новый экземплярDataMissmatchErroraspose.imaging.coreexceptions/datamissmatcherror класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions/datamissmatcherror/datamissmatcherror/
 ---
 ## DataMissmatchError constructor
 
-Инициализирует новый экземпляр класса[`DataMissmatchError`](../../datamissmatcherror).
+Инициализирует новый экземпляр[`DataMissmatchError`](../../datamissmatcherror) класс.
 
 ```csharp
 public DataMissmatchError(string message)

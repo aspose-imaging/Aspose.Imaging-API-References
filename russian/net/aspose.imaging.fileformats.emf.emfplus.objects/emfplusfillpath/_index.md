@@ -1,14 +1,14 @@
 ---
 title: EmfPlusFillPath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект EmfPlusFillPath определяет графический путь для заливки произвольной строки
+description: Объект EmfPlusFillPath задает графический путь для заливки пользовательской строки cap
 type: docs
 weight: 5430
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusfillpath/
 ---
 ## EmfPlusFillPath class
 
-Объект EmfPlusFillPath определяет графический путь для заливки произвольной строки
+Объект EmfPlusFillPath задает графический путь для заливки пользовательской строки cap
 
 ```csharp
 public sealed class EmfPlusFillPath : EmfPlusStructureObjectType

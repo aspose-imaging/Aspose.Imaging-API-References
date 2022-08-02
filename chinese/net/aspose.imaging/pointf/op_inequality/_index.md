@@ -16,12 +16,12 @@ public static bool operator !=(PointF point1, PointF point2)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| point1 | PointF | 第一个[`PointF`](../../pointf)进行比较。 |
-| point2 | PointF | 第二个[`PointF`](../../pointf)进行比较。 |
+| point1 | PointF | 第一个[`PointF`](../../pointf)比较。 |
+| point2 | PointF | 一秒[`PointF`](../../pointf)比较。 |
 
 ### 返回值
 
-True 表示[`X`](../x)和PointFR9:point1:::和*point2*的 .Y:::值不相等；否则为假。
+True 表示[`X`](../x)和[`Y`](../y)的值*point1*和*point2*不相等；否则为假。
 
 ### 也可以看看
 

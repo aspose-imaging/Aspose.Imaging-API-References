@@ -3,7 +3,7 @@ title: ShapeSegment
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет сегмент формы. Сегмент  это линия или кривая соединяющая две точки.
 type: docs
-weight: 10930
+weight: 10920
 url: /ru/net/aspose.imaging/shapesegment/
 ---
 ## ShapeSegment class

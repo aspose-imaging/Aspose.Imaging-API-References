@@ -18,8 +18,8 @@ public class BmpImageException : ImageException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BmpImageException](bmpimageexception#constructor)(string) | 初始化[`BmpImageException`](../bmpimageexception)类的新实例。 |
-| [BmpImageException](bmpimageexception#constructor_1)(string, Exception) | 初始化[`BmpImageException`](../bmpimageexception)类的新实例。 |
+| [BmpImageException](bmpimageexception#constructor)(string) | 初始化[`BmpImageException`](../bmpimageexception)类. |
+| [BmpImageException](bmpimageexception#constructor_1)(string, Exception) | 初始化[`BmpImageException`](../bmpimageexception)类. |
 
 ### 也可以看看
 

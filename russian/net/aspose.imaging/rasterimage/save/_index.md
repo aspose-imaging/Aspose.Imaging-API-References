@@ -17,8 +17,8 @@ public override void Save(Stream stream, ImageOptionsBase optionsBase, Rectangle
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток, в который сохраняются данные изображения. |
-| optionsBase | ImageOptionsBase | Параметры сохранения. |
-| boundsRectangle | Rectangle | Конечный прямоугольник, ограничивающий изображение. Установите пустой прямоугольник для использования исходных границ. |
+| optionsBase | ImageOptionsBase | Варианты сохранения. |
+| boundsRectangle | Rectangle | Конечный образ ограничивает прямоугольник. Установите пустой прямоугольник для использования исходных границ. |
 
 ### Смотрите также
 

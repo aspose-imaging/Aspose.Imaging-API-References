@@ -18,11 +18,11 @@ public enum EmfPlusLineCapType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| LineCapTypeFlat | `0` | 指定平方线帽。行尾必须是行中的最后一个点。 |
-| LineCapTypeSquare | `1` | 指定方形线帽。正方形的中心必须位于线的最后一点。正方形的宽度就是线的宽度。 |
-| LineCapTypeRound | `2` | 指定圆形线帽。圆的中心必须位于直线的最后一点。圆的直径就是线的宽度。 |
+| LineCapTypeFlat | `0` | 指定一个平方的线帽。行尾必须是行中的最后一个点。 |
+| LineCapTypeSquare | `1` | 指定方形线帽。正方形的中心必须位于线的最后一点。正方形的宽度是线宽。 |
+| LineCapTypeRound | `2` | 指定圆形线帽。圆的中心必须位于直线的最后一点。圆的直径就是线宽。 |
 | LineCapTypeTriangle | `3` | 指定三角形线帽。三角形的底边必须位于直线的最后一点。三角形的底边是线宽。 |
-| LineCapTypeNoAnchor | `16` | 指定不锚定行尾。 |
+| LineCapTypeNoAnchor | `16` | 指定线端未锚定。 |
 | LineCapTypeSquareAnchor | `17` | 指定用方形线帽锚定线端。正方形的中心必须位于线的最后一点。正方形的高和宽就是线宽。 |
 | LineCapTypeRoundAnchor | `18` | 指定用圆形线帽锚定线端。圆的中心必须位于直线的最后一点。圆圈应该比线宽。 |
 | LineCapTypeDiamondAnchor | `19` | 指定用菱形线帽锚定线端，该线帽是一个 45 度角的正方形。菱形的中心必须位于线的最后一点。菱形应该比线宽。 |
@@ -32,7 +32,7 @@ public enum EmfPlusLineCapType
 
 ### 评论
 
-图形行帽由EmfPlusPen对象（第 2.2.1.7 节）。
+图形线帽由[`EmfPlusPen`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen)对象（第 2.2.1.7 节）.
 
 ### 也可以看看
 

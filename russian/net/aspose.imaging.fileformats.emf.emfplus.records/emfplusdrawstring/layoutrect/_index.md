@@ -1,14 +1,14 @@
 ---
 title: LayoutRect
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает прямоугольник макета Объект EmfPlusRectF раздел 2.2.2.39 определяющий ограничивающую область пункт назначения который получит строку
+description: Получает или задает макет rect Объект EmfPlusRectF раздел 2.2.2.39 определяющий ограничивающую область места назначения которое получит string
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/layoutrect/
 ---
 ## EmfPlusDrawString.LayoutRect property
 
-Получает или задает прямоугольник макета Объект EmfPlusRectF (раздел 2.2.2.39), определяющий ограничивающую область пункт назначения, который получит строку
+Получает или задает макет rect Объект EmfPlusRectF (раздел 2.2.2.39), определяющий ограничивающую область места назначения, которое получит string
 
 ```csharp
 public RectangleF LayoutRect { get; set; }

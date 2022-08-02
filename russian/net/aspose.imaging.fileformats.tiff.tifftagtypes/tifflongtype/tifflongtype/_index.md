@@ -1,14 +1,14 @@
 ---
 title: TiffLongType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTiffLongTypeaspose.imaging.fileformats.tiff.tifftagtypes/tifflongtype.
+description: Инициализирует новый экземплярTiffLongTypeaspose.imaging.fileformats.tiff.tifftagtypes/tifflongtype класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.tiff.tifftagtypes/tifflongtype/tifflongtype/
 ---
 ## TiffLongType(TiffTags) {#constructor}
 
-Инициализирует новый экземпляр класса[`TiffLongType`](../../tifflongtype).
+Инициализирует новый экземпляр[`TiffLongType`](../../tifflongtype) класс.
 
 ```csharp
 public TiffLongType(TiffTags tagId)
@@ -29,7 +29,7 @@ public TiffLongType(TiffTags tagId)
 
 ## TiffLongType(ushort) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TiffLongType`](../../tifflongtype).
+Инициализирует новый экземпляр[`TiffLongType`](../../tifflongtype) класс.
 
 ```csharp
 public TiffLongType(ushort tagId)

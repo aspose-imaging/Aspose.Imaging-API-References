@@ -1,14 +1,14 @@
 ---
 title: GifPlainTextRenderingBlock
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаGifPlainTextRenderingBlockaspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock.
+description: Инициализирует новый экземплярGifPlainTextRenderingBlockaspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/gifplaintextrenderingblock/
 ---
 ## GifPlainTextRenderingBlock() {#constructor}
 
-Инициализирует новый экземпляр класса[`GifPlainTextRenderingBlock`](../../gifplaintextrenderingblock).
+Инициализирует новый экземпляр[`GifPlainTextRenderingBlock`](../../gifplaintextrenderingblock) класс.
 
 ```csharp
 public GifPlainTextRenderingBlock()
@@ -24,7 +24,7 @@ public GifPlainTextRenderingBlock()
 
 ## GifPlainTextRenderingBlock(ushort, ushort, ushort, ushort, byte, byte, byte, byte, byte[]) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`GifPlainTextRenderingBlock`](../../gifplaintextrenderingblock).
+Инициализирует новый экземпляр[`GifPlainTextRenderingBlock`](../../gifplaintextrenderingblock) класс.
 
 ```csharp
 public GifPlainTextRenderingBlock(ushort textGridLeftPosition, ushort textGridTopPosition, 
@@ -34,15 +34,15 @@ public GifPlainTextRenderingBlock(ushort textGridLeftPosition, ushort textGridTo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| textGridLeftPosition | UInt16 | Левая позиция сетки текста. |
-| textGridTopPosition | UInt16 | Верхняя позиция сетки текста. |
+| textGridLeftPosition | UInt16 | Левая позиция текстовой сетки. |
+| textGridTopPosition | UInt16 | Верхнее положение текстовой сетки. |
 | textGridWidth | UInt16 | Ширина сетки текста. |
-| textGridHeight | UInt16 | Высота сетки текста. |
-| characterCellWidth | Byte | Ширина символьной ячейки. |
+| textGridHeight | UInt16 | Высота текстовой сетки. |
+| characterCellWidth | Byte | Ширина ячейки символа. |
 | characterCellHeight | Byte | Высота ячейки символа. |
 | textForegroundColorIndex | Byte | Индекс цвета переднего плана. |
 | textBackgroundColorIndex | Byte | Индекс цвета фона. |
-| data | Byte[] | Данные в виде обычного текста. |
+| data | Byte[] | Обычные текстовые данные. |
 
 ### Смотрите также
 

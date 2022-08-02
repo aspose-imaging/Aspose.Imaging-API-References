@@ -1,14 +1,14 @@
 ---
 title: SubjectDistanceRange
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает диапазон расстояний до объекта.
+description: Получает или задает диапазон расстояния до объекта.
 type: docs
 weight: 1030
 url: /ru/net/aspose.imaging.exif/exifdata/subjectdistancerange/
 ---
 ## ExifData.SubjectDistanceRange property
 
-Получает или задает диапазон расстояний до объекта.
+Получает или задает диапазон расстояния до объекта.
 
 ```csharp
 public ExifSubjectDistanceRange SubjectDistanceRange { get; set; }

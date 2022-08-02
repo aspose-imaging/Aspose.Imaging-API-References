@@ -18,17 +18,17 @@ public class OdEllipticalQundrant : OdGraphicObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdEllipticalQundrant](odellipticalqundrant)(OdObject) | Инициализирует новый экземпляр класса[`OdEllipticalQundrant`](../odellipticalqundrant). |
+| [OdEllipticalQundrant](odellipticalqundrant)(OdObject) | Инициализирует новый экземпляр[`OdEllipticalQundrant`](../odellipticalqundrant) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
 | [AxisX](../../aspose.imaging.fileformats.opendocument.objects.graphic/odellipticalqundrant/axisx) { get; set; } | Получает или задает значение, указывающее, является ли [ось x]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Получает родительский объект. |
-| [Point](../../aspose.imaging.fileformats.opendocument.objects.graphic/odellipticalqundrant/point) { get; set; } | Получает или задает точку. |
+| [Point](../../aspose.imaging.fileformats.opendocument.objects.graphic/odellipticalqundrant/point) { get; set; } | Получает или устанавливает точку. |
 
 ### Смотрите также
 

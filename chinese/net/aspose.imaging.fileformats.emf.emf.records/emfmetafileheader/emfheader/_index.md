@@ -1,14 +1,14 @@
 ---
 title: EmfHeader
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 Header 对象第 2.2.9 节其中包含有关内容 和元文件47 结构的信息
+description: 获取或设置一个 Header 对象第 2.2.9 节其中包含有关 content 和 metafile 结构的信息
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfheader/
 ---
 ## EmfMetafileHeader.EmfHeader property
 
-获取或设置一个 Header 对象（第 2.2.9 节），其中包含有关内容 和元文件:::47 结构的信息:::
+获取或设置一个 Header 对象（第 2.2.9 节），其中包含有关 content 和 metafile 结构的信息
 
 ```csharp
 public EmfHeaderObject EmfHeader { get; set; }

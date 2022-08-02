@@ -1,14 +1,14 @@
 ---
 title: DrawBeziers
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Рисует ряд сплайнов Безье из массива структурPointaspose.imaging/point.
+description: Рисует серию сплайнов Безье из массиваPointaspose.imaging/point структуры.
 type: docs
 weight: 180
 url: /ru/net/aspose.imaging/graphics/drawbeziers/
 ---
 ## DrawBeziers(Pen, Point[]) {#drawbeziers_1}
 
-Рисует ряд сплайнов Безье из массива структур[`Point`](../../point).
+Рисует серию сплайнов Безье из массива[`Point`](../../point) структуры.
 
 ```csharp
 public void DrawBeziers(Pen pen, Point[] points)
@@ -16,14 +16,14 @@ public void DrawBeziers(Pen pen, Point[] points)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen)который определяет цвет, ширину и стиль Кривая. |
-| points | Point[] | Массив структур[`Point`](../../point), представляющих точки, определяющие кривую. |
+| pen | Pen | [`Pen`](../../pen) который определяет цвет, ширину и стиль кривой. |
+| points | Point[] | Массив[`Point`](../../point) структуры, представляющие точки, определяющие кривую. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *pen*равно нулю. -или- *points*равно null. |
+| ArgumentNullException | *pen* равно null. -или- *points* нулевой. |
 
 ### Смотрите также
 
@@ -37,7 +37,7 @@ public void DrawBeziers(Pen pen, Point[] points)
 
 ## DrawBeziers(Pen, PointF[]) {#drawbeziers}
 
-Рисует серию сплайнов Безье из массива структур[`PointF`](../../pointf).
+Рисует серию сплайнов Безье из массива[`PointF`](../../pointf) структуры.
 
 ```csharp
 public void DrawBeziers(Pen pen, PointF[] points)
@@ -45,14 +45,14 @@ public void DrawBeziers(Pen pen, PointF[] points)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen)который определяет цвет, ширину и стиль Кривая. |
-| points | PointF[] | Массив структур[`PointF`](../../pointf), представляющих точки, определяющие кривую. |
+| pen | Pen | [`Pen`](../../pen) который определяет цвет, ширину и стиль кривой. |
+| points | PointF[] | Массив[`PointF`](../../pointf) структуры, представляющие точки, определяющие кривую. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *pen*равно нулю. -или- *points*равно null. |
+| ArgumentNullException | *pen* равно null. -или- *points* нулевой. |
 
 ### Смотрите также
 

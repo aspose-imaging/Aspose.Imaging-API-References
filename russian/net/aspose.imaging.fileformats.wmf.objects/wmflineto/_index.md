@@ -1,14 +1,14 @@
 ---
 title: WmfLineTo
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_LINETO рисует линию от позиции рисования которая определена в контексте устройства воспроизведения до но не включая указанная точка.
+description: Запись META_LINETO рисует линию от позиции рисования которая определена в контексте устройства воспроизведения до но не включая указанную точку .
 type: docs
 weight: 8740
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmflineto/
 ---
 ## WmfLineTo class
 
-Запись META_LINETO рисует линию от позиции рисования, которая определена в контексте устройства воспроизведения, до, но не включая, указанная точка.
+Запись META_LINETO рисует линию от позиции рисования, которая определена в контексте устройства воспроизведения, до, но не включая, указанную точку .
 
 ```csharp
 public class WmfLineTo : WmfPointObject
@@ -24,7 +24,7 @@ public class WmfLineTo : WmfPointObject
 
 | Имя | Описание |
 | --- | --- |
-| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или задает точку. |
+| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или устанавливает точку. |
 
 ### Смотрите также
 

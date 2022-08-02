@@ -1,14 +1,14 @@
 ---
 title: PolyFillMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает режим заливки полигонов.
+description: Получает или задает режим полигональной заливки.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfsetpolyfillmode/polyfillmode/
 ---
 ## WmfSetPolyFillMode.PolyFillMode property
 
-Получает или устанавливает режим заливки полигонов.
+Получает или задает режим полигональной заливки.
 
 ```csharp
 public WmfPolyFillMode PolyFillMode { get; set; }
@@ -16,7 +16,7 @@ public WmfPolyFillMode PolyFillMode { get; set; }
 
 ### Стоимость имущества
 
-Режим полигональной заливки.
+Режим полифонической заливки.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: EmfPlusMultiplyWorldTransform
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusMultiplyWorldTransformaspose.imaging.fileformats.emf.emfplus.records/emfplusmultiplyworldtransform.
+description: Инициализирует новый экземплярEmfPlusMultiplyWorldTransformaspose.imaging.fileformats.emf.emfplus.records/emfplusmultiplyworldtransform класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusmultiplyworldtransform/emfplusmultiplyworldtransform/
 ---
 ## EmfPlusMultiplyWorldTransform constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusMultiplyWorldTransform`](../../emfplusmultiplyworldtransform).
+Инициализирует новый экземпляр[`EmfPlusMultiplyWorldTransform`](../../emfplusmultiplyworldtransform) класс.
 
 ```csharp
 public EmfPlusMultiplyWorldTransform(EmfPlusRecord source)

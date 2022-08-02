@@ -1,14 +1,14 @@
 ---
 title: WriteSByteArray
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Записывает в поток массив значений байтов со знаком.
+description: Записывает в поток массив байтовых значений со знаком.
 type: docs
 weight: 120
 url: /ru/net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesbytearray/
 ---
 ## TiffStreamWriter.WriteSByteArray method
 
-Записывает в поток массив значений байтов со знаком.
+Записывает в поток массив байтовых значений со знаком.
 
 ```csharp
 public void WriteSByteArray(sbyte[] data)

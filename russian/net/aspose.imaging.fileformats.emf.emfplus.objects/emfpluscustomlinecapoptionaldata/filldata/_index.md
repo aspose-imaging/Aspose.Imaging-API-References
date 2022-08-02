@@ -1,14 +1,14 @@
 ---
 title: FillData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает необязательный объект EmfPlusFillPath раздел 2.2.2.17 указывающий путь для заливки пользовательского графического штриха. Это поле ДОЛЖНО присутствовать если флаг CustomLineCapDataFillPath установлен в поле CustomLineCapDataFlags объекта EmfPlusCustomLineCapData.
+description: Получает или задает необязательный объект EmfPlusFillPath раздел 2.2.2.17 указывающий путь для заполнения графической строки custom . Это поле ДОЛЖНО присутствовать если флаг CustomLineCapDataFillPath установлен в поле CustomLineCapDataFlags объекта EmfPlusCustomLineCapData.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapoptionaldata/filldata/
 ---
 ## EmfPlusCustomLineCapOptionalData.FillData property
 
-Получает или задает необязательный объект EmfPlusFillPath (раздел 2.2.2.17), указывающий путь для заливки пользовательского графического штриха. Это поле ДОЛЖНО присутствовать, если флаг CustomLineCapDataFillPath установлен в поле CustomLineCapDataFlags объекта EmfPlusCustomLineCapData.
+Получает или задает необязательный объект EmfPlusFillPath (раздел 2.2.2.17), указывающий путь для заполнения графической строки custom . Это поле ДОЛЖНО присутствовать, если флаг CustomLineCapDataFillPath установлен в поле CustomLineCapDataFlags объекта EmfPlusCustomLineCapData.
 
 ```csharp
 public EmfPlusFillPath FillData { get; set; }

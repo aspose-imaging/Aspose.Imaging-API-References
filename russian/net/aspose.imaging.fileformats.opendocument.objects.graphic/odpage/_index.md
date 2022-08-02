@@ -18,13 +18,13 @@ public class OdPage : OdGraphicObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdPage](odpage)(OdObject) | Инициализирует новый экземпляр класса[`OdPage`](../odpage). |
+| [OdPage](odpage)(OdObject) | Инициализирует новый экземпляр[`OdPage`](../odpage) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [MasterPageName](../../aspose.imaging.fileformats.opendocument.objects.graphic/odpage/masterpagename) { get; set; } | Получает или задает имя главной страницы. |
 | [Name](../../aspose.imaging.fileformats.opendocument.objects.graphic/odpage/name) { get; set; } | Получает или задает имя. |

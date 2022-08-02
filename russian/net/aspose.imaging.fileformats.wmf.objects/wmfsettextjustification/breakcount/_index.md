@@ -1,14 +1,14 @@
 ---
 title: BreakCount
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает счетчик ltsee langwordbreak /gt.
+description: Получает или задаетbreak кол.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfsettextjustification/breakcount/
 ---
 ## WmfSetTextJustification.BreakCount property
 
-Получает или задает счетчик &lt;see langword="break" /&gt;.
+Получает или задает`break` кол.
 
 ```csharp
 public int BreakCount { get; set; }
@@ -16,7 +16,7 @@ public int BreakCount { get; set; }
 
 ### Стоимость имущества
 
-Счетчик &lt;see langword="break" /&gt;.
+`break` кол.
 
 ### Смотрите также
 

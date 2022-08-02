@@ -1,14 +1,14 @@
 ---
 title: EmfSetLinkedUfis
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_SETLINKEDUFIS устанавливает для UniversalFontIds раздел 2.2.27 связанных шрифтов значение для использования во время поиска символов.
+description: Запись EMR_SETLINKEDUFIS устанавливает для UniversalFontIds раздел 2.2.27 связанных шрифтов значение для использования при поиске символов.
 type: docs
 weight: 4390
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetlinkedufis/
 ---
 ## EmfSetLinkedUfis class
 
-Запись EMR_SETLINKEDUFIS устанавливает для UniversalFontIds (раздел 2.2.27) связанных шрифтов значение для использования во время поиска символов.
+Запись EMR_SETLINKEDUFIS устанавливает для UniversalFontIds (раздел 2.2.27) связанных шрифтов значение для использования при поиске символов.
 
 ```csharp
 public sealed class EmfSetLinkedUfis : EmfStateRecordType
@@ -18,13 +18,13 @@ public sealed class EmfSetLinkedUfis : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetLinkedUfis](emfsetlinkedufis)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetLinkedUfis`](../emfsetlinkedufis). |
+| [EmfSetLinkedUfis](emfsetlinkedufis)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetLinkedUfis`](../emfsetlinkedufis) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 | [Ufis](../../aspose.imaging.fileformats.emf.emf.records/emfsetlinkedufis/ufis) { get; set; } | Получает или задает массив элементов uNumLinkedUFI типа UniversalFontId, который указывает идентификаторы связанных шрифтов. |
 

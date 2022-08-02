@@ -1,14 +1,14 @@
 ---
 title: DefinedValues
 second_title: Aspose.Imaging for .NET API 参考
-description: 定义值
+description: 定义的值
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.xmp.types.derived/renditionclass/definedvalues/
 ---
 ## RenditionClass.DefinedValues property
 
-定义值
+定义的值
 
 ```csharp
 public static string[] DefinedValues { get; }

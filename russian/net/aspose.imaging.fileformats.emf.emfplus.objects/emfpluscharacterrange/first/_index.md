@@ -1,14 +1,14 @@
 ---
 title: First
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число со знаком которое указывает первую позицию в этом диапазоне.
+description: Получает или задает 32-разрядное целое число со знаком которое определяет первую позицию в этом диапазоне.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscharacterrange/first/
 ---
 ## EmfPlusCharacterRange.First property
 
-Получает или задает 32-разрядное целое число со знаком, которое указывает первую позицию в этом диапазоне.
+Получает или задает 32-разрядное целое число со знаком, которое определяет первую позицию в этом диапазоне.
 
 ```csharp
 public int First { get; set; }

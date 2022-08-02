@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Aspose.Imaging for .NET API 参考
-description: 确定IList是否包含特定值
+description: 确定是否IList包含特定值
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging/nongenericlist/contains/
 ---
 ## NonGenericList.Contains method
 
-确定IList是否包含特定值。
+确定是否IList包含特定值。
 
 ```csharp
 public bool Contains(object value)
@@ -16,11 +16,11 @@ public bool Contains(object value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Object | Object定位在IList。 |
+| value | Object | 这Object定位在IList. |
 
 ### 返回值
 
-如果在中找到R5:T:System.Object:::则为真:System.Collections.IList:::;否则为假。
+如果Object被发现在IList;否则为假。
 
 ### 也可以看看
 

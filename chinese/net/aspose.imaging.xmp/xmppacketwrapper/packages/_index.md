@@ -1,14 +1,14 @@
 ---
 title: Packages
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取 XMP 中XmpPackageaspose.imaging.xmp/xmppackage的数组
+description: 获取数组XmpPackageaspose.imaging.xmp/xmppackage在 XMP. 里面
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.xmp/xmppacketwrapper/packages/
 ---
 ## XmpPacketWrapper.Packages property
 
-获取 XMP 中[`XmpPackage`](../../xmppackage)的数组。
+获取数组[`XmpPackage`](../../xmppackage)在 XMP. 里面
 
 ```csharp
 public XmpPackage[] Packages { get; }
@@ -16,7 +16,7 @@ public XmpPackage[] Packages { get; }
 
 ### 适当的价值
 
-[`XmpPackage`](../../xmppackage)的数组在 XMP 中。
+的数组[`XmpPackage`](../../xmppackage)在 XMP. 里面
 
 ### 也可以看看
 

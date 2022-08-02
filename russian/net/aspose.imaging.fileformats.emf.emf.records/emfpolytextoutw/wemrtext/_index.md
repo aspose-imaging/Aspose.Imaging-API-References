@@ -1,14 +1,14 @@
 ---
 title: WEmrText
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив объектов EmrText раздел 2.2.5 определяющих выходные строки в 16-разрядных символах Unicode UTF16-LE.  с текстовыми атрибутами и значениями интервалов. Число объектов EmrText определяется cStrings.
+description: Получает или задает массив объектов EmrText раздел 2.2.5 которые определяют выходные строки в 16-битных символах Unicode UTF16-LE с текстовыми атрибутами и значениями интервалов. Количество объектов EmrText определяется cStrings.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/wemrtext/
 ---
 ## EmfPolyTextOutW.WEmrText property
 
-Получает или задает массив объектов EmrText (раздел 2.2.5), определяющих выходные строки в 16-разрядных символах Unicode UTF16-LE. , с текстовыми атрибутами и значениями интервалов. Число объектов EmrText определяется cStrings.
+Получает или задает массив объектов EmrText (раздел 2.2.5), которые определяют выходные строки в 16-битных символах Unicode UTF16-LE с текстовыми атрибутами и значениями интервалов. Количество объектов EmrText определяется cStrings.
 
 ```csharp
 public EmfText[] WEmrText { get; set; }

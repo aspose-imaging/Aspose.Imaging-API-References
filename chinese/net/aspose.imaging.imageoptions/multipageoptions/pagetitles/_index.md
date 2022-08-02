@@ -27,7 +27,7 @@ public string[] PageTitles { get; set; }
 
 string dir = "c:\\temp\\";
 
-    // 从文件流加载 DJVU 图像。
+// 从文件流加载 DJVU 图像。
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
 {
     using (Aspose.Imaging.FileFormats.Djvu.DjvuImage djvuImage = new Aspose.Imaging.FileFormats.Djvu.DjvuImage(stream))
@@ -35,19 +35,19 @@ using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
         Aspose.Imaging.ImageOptions.TiffOptions saveOptions = new Aspose.Imaging.ImageOptions.TiffOptions(Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
         saveOptions.Compression = Aspose.Imaging.FileFormats.Tiff.Enums.TiffCompressions.Deflate;
 
-            // 注意如果图片是彩色的，会根据下面的选项自动转换成黑白格式：
+        // 注意，如果图像是彩色的，它会根据下面的选项自动转换为黑白格式：
         saveOptions.BitsPerSample = new ushort[] { 1 };
 
         saveOptions.MultiPageOptions = new Aspose.Imaging.ImageOptions.DjvuMultiPageOptions();
 
-            // 默认情况下，所有页面都将存储到输出 TIFF，但可以显式指定所需的页面集。
-            // 只会导出第一页和第二页。
+        // 默认情况下，所有页面都将存储到输出 TIFF，但可以明确指定所需的页面集。
+        // 只会导出第一页和第二页。
         saveOptions.MultiPageOptions.Pages = new int[] { 0, 1 };
 
-            // 设置页面标题.
+        // 设置页面标题。
         saveOptions.MultiPageOptions.PageTitles = new string[] { "The First Page", "The Second Page" };
 
-            // 保存到 TIFF
+        // 保存到 TIFF
         djvuImage.Save(dir + "sample.tif", saveOptions);
     }
 }

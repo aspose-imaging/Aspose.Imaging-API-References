@@ -24,9 +24,9 @@ public class CdrFill : CdrDictionaryItem
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Color1](../../aspose.imaging.fileformats.cdr.objects/cdrfill/color1) { get; set; } | 获取或设置 color1。 |
-| [Color2](../../aspose.imaging.fileformats.cdr.objects/cdrfill/color2) { get; set; } | 获取或设置 color2。 |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示该实例是否被释放。 |
+| [Color1](../../aspose.imaging.fileformats.cdr.objects/cdrfill/color1) { get; set; } | 获取或设置 color1. |
+| [Color2](../../aspose.imaging.fileformats.cdr.objects/cdrfill/color2) { get; set; } | 获取或设置 color2. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示此实例是否被释放。 |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | 获取或设置文档。 |
 | [FillType](../../aspose.imaging.fileformats.cdr.objects/cdrfill/filltype) { get; set; } | 获取或设置填充的类型。 |
 | [Gradient](../../aspose.imaging.fileformats.cdr.objects/cdrfill/gradient) { get; set; } | 获取或设置渐变。 |
@@ -38,10 +38,11 @@ public class CdrFill : CdrDictionaryItem
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 释放当前实例。 |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 处理当前实例。 |
 
 ### 也可以看看
 
+* class [CdrObjectContainer](../cdrobjectcontainer)
 * class [CdrDictionaryItem](../cdrdictionaryitem)
 * 命名空间 [Aspose.Imaging.FileFormats.Cdr.Objects](../../aspose.imaging.fileformats.cdr.objects)
 * 部件 [Aspose.Imaging](../../)

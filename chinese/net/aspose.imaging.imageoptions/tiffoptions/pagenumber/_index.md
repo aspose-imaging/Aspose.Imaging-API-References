@@ -22,8 +22,8 @@ public ushort[] PageNumber { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 值 |
-| ArgumentOutOfRangeException | value;数组中预期的 2 个值:PageNumber[0] 是页码，PageNumber[1] 是文档中的总页数。 |
+| ArgumentNullException | 价值 |
+| ArgumentOutOfRangeException | value; 数组中的预期 2 个值：PageNumber[0] 是页码，PageNumber[1] 是文档中的总页数。 |
 
 ### 也可以看看
 

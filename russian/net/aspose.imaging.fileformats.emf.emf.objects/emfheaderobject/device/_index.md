@@ -1,14 +1,14 @@
 ---
 title: Device
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект WMF SizeL MS-WMF раздел 2.2.2.22 который указывает размер эталонного устройства в пикселях
+description: Получает или задает объект WMF SizeL MS-WMF раздел 2.2.2.22 который определяет размер эталонного устройства в пикселях
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/device/
 ---
 ## EmfHeaderObject.Device property
 
-Получает или задает объект WMF SizeL ([MS-WMF], раздел 2.2.2.22), который указывает размер эталонного устройства в пикселях
+Получает или задает объект WMF SizeL ([MS-WMF], раздел 2.2.2.22), который определяет размер эталонного устройства в пикселях
 
 ```csharp
 public Size Device { get; set; }

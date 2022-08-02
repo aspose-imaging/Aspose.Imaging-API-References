@@ -1,14 +1,14 @@
 ---
 title: ClearPackages
 second_title: Aspose.Imaging for .NET API 参考
-description: 删除 XMP 内的所有XmpPackageaspose.imaging.xmp/xmppackage
+description: 删除所有XmpPackageaspose.imaging.xmp/xmppackage在 XMP. 里面
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.xmp/xmppacketwrapper/clearpackages/
 ---
 ## XmpPacketWrapper.ClearPackages method
 
-删除 XMP 内的所有[`XmpPackage`](../../xmppackage)。
+删除所有[`XmpPackage`](../../xmppackage)在 XMP. 里面
 
 ```csharp
 public void ClearPackages()

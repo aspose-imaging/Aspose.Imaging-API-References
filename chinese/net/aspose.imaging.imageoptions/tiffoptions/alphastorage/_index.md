@@ -1,14 +1,14 @@
 ---
 title: AlphaStorage
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 alpha 存储选项当有超过 3 个Aspose时使用除R5FAspose.Imaging.FileFormats.Tiff.Enums.TiffAlphaStorage.Unspecified 以外的选项 Imaging.ImageOptions.TiffOptions.SamplesPerPixel已定义
+description: 获取或设置 alpha 存储选项以外的选项Unspecified 多于 3 个时使用SamplesPerPixelaspose.imaging.imageoptions/tiffoptions/samplesperpixel定义.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.imageoptions/tiffoptions/alphastorage/
 ---
 ## TiffOptions.AlphaStorage property
 
-获取或设置 alpha 存储选项。当有超过 3 个Aspose时，使用除R5:F:Aspose.Imaging.FileFormats.Tiff.Enums.TiffAlphaStorage.Unspecified::: 以外的选项。 Imaging.ImageOptions.TiffOptions.SamplesPerPixel:::已定义。
+获取或设置 alpha 存储选项。以外的选项Unspecified 多于 3 个时使用[`SamplesPerPixel`](../samplesperpixel)定义.
 
 ```csharp
 public TiffAlphaStorage AlphaStorage { get; set; }

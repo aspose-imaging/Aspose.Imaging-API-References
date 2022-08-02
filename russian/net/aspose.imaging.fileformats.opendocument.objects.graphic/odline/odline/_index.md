@@ -1,14 +1,14 @@
 ---
 title: OdLine
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdPageaspose.imaging.fileformats.opendocument.objects.graphic/odpage.
+description: Инициализирует новый экземплярOdPageaspose.imaging.fileformats.opendocument.objects.graphic/odpage класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odline/odline/
 ---
 ## OdLine constructor
 
-Инициализирует новый экземпляр класса[`OdPage`](../../odpage).
+Инициализирует новый экземпляр[`OdPage`](../../odpage) класс.
 
 ```csharp
 public OdLine(OdObject parent)

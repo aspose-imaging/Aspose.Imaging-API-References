@@ -1,14 +1,14 @@
 ---
 title: GetXmlValue
 second_title: Aspose.Imaging for .NET API 参考
-description: 将 XMP 值转换为 XML 表示
+description: 将 XMP 值转换为 XML 表示形式
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.xmp/xmppackage/getxmlvalue/
 ---
 ## XmpPackage.GetXmlValue method
 
-将 XMP 值转换为 XML 表示。
+将 XMP 值转换为 XML 表示形式。
 
 ```csharp
 public virtual string GetXmlValue()
@@ -16,7 +16,7 @@ public virtual string GetXmlValue()
 
 ### 返回值
 
-返回转换为 XML 表示的 XMP 值。
+返回转换为 XML 表示形式的 XMP 值。
 
 ### 也可以看看
 

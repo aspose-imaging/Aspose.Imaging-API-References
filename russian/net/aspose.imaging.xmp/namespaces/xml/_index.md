@@ -1,14 +1,14 @@
 ---
 title: Xml
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пространство имен Xml.
+description: Пространство имен XML.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.xmp/namespaces/xml/
 ---
 ## Namespaces.Xml field
 
-Пространство имен Xml.
+Пространство имен XML.
 
 ```csharp
 public const string Xml;

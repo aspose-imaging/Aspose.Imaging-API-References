@@ -19,14 +19,14 @@ public enum VectorPathType : short
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | ClosedSubpathLengthRecord | `0` | Запись длины закрытого подпути |
-| ClosedSubpathBezierKnotLinked | `1` | Замкнутый подконтур, связанный узлом Безье |
-| ClosedSubpathBezierKnotUnlinked | `2` | Замкнутый узел Безье подпути несвязанный |
+| ClosedSubpathBezierKnotLinked | `1` | Замкнутый узел Безье подпути linked |
+| ClosedSubpathBezierKnotUnlinked | `2` | Замкнутый узел Безье подпути unlinked |
 | OpenSubpathLengthRecord | `3` | Запись длины открытого подпути |
-| OpenSubpathBezierKnotLinked | `4` | Узел Безье с открытым подпутем связан |
-| OpenSubpathBezierKnotUnlinked | `5` | Узел Безье открытого подпути несвязанный |
-| PathFillRuleRecord | `6` | Запись правила заполнения пути |
+| OpenSubpathBezierKnotLinked | `4` | Узел Безье с открытым подпутем linked |
+| OpenSubpathBezierKnotUnlinked | `5` | Узел Безье открытого подпути unlinked |
+| PathFillRuleRecord | `6` | Правило заполнения пути record |
 | ClipboardRecord | `7` | Запись буфера обмена |
-| InitialFillRuleRecord | `8` | Начальная запись правила заполнения |
+| InitialFillRuleRecord | `8` | Начальное правило заполнения record |
 
 ### Смотрите также
 

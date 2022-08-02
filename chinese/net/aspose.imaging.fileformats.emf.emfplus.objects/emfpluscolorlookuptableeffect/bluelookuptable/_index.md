@@ -1,14 +1,14 @@
 ---
 title: BlueLookupTable
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 256 字节的数组用于指定蓝色通道的调整
+description: 获取或设置一个 256 字节的数组指定蓝色通道的调整
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorlookuptableeffect/bluelookuptable/
 ---
 ## EmfPlusColorLookupTableEffect.BlueLookupTable property
 
-获取或设置一个 256 字节的数组，用于指定蓝色通道的调整。
+获取或设置一个 256 字节的数组，指定蓝色通道的调整。
 
 ```csharp
 public byte[] BlueLookupTable { get; set; }

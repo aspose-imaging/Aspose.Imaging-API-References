@@ -1,14 +1,14 @@
 ---
 title: GetRange
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取从 start
+description: 获取从 start 开始的 int 元素的计数范围
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging/intrange/getrange/
 ---
 ## IntRange.GetRange method
 
-获取从 start
+获取从 start 开始的 int 元素的计数范围
 
 ```csharp
 public static IEnumerable<int> GetRange(int start, int count, int delta)
@@ -16,9 +16,9 @@ public static IEnumerable<int> GetRange(int start, int count, int delta)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| start | Int32 | 开始的 int 元素的计数范围开始。 |
-| count | Int32 | 计数。 |
-| delta | Int32 | 增量。 |
+| start | Int32 | 开始。 |
+| count | Int32 | 伯爵。 |
+| delta | Int32 | 三角洲。 |
 
 ### 返回值
 
@@ -28,7 +28,7 @@ public static IEnumerable<int> GetRange(int start, int count, int delta)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 计数不能超过 1 或 {D255958A-8513-4226-94B9-080D98F904A1}起始页不能超过 0 |
+| ArgumentException | 计数不能是情人比1 or {D255958A-8513-4226-94B9-080D98F904A1}起始页不能是情人比0 |
 
 ### 也可以看看
 

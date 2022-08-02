@@ -1,14 +1,14 @@
 ---
 title: IsGrayScale
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее является ли этот файлTgaImageaspose.imaging.fileformats.tga/tgaimageполутоновым.
+description: Получает значение указывающее является ли этоTgaImageaspose.imaging.fileformats.tga/tgaimage в оттенках серого.
 type: docs
 weight: 170
 url: /ru/net/aspose.imaging.fileformats.tga/tgaimage/isgrayscale/
 ---
 ## TgaImage.IsGrayScale property
 
-Получает значение, указывающее, является ли этот файл[`TgaImage`](../../tgaimage)полутоновым.
+Получает значение, указывающее, является ли это[`TgaImage`](../../tgaimage) в оттенках серого.
 
 ```csharp
 public bool IsGrayScale { get; }
@@ -16,7 +16,7 @@ public bool IsGrayScale { get; }
 
 ### Примеры
 
-Получение значений публичных свойств загруженного TGA-изображения.
+Получение значений публичных свойств загруженного изображения TGA.
 
 ```csharp
 [C#]

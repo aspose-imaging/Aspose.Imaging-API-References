@@ -1,14 +1,14 @@
 ---
 title: Color1
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 color1
+description: 获取或设置 color1.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrfill/color1/
 ---
 ## CdrFill.Color1 property
 
-获取或设置 color1。
+获取或设置 color1.
 
 ```csharp
 public CdrColor Color1 { get; set; }
@@ -16,7 +16,7 @@ public CdrColor Color1 { get; set; }
 
 ### 适当的价值
 
-颜色1。
+颜色1.
 
 ### 也可以看看
 

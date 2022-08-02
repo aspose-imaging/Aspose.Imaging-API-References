@@ -1,14 +1,14 @@
 ---
 title: XmpLocale
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化XmpLocaleaspose.imaging.xmp.types.derived/xmplocale类的新实例
+description: 初始化XmpLocaleaspose.imaging.xmp.types.derived/xmplocale类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp.types.derived/xmplocale/xmplocale/
 ---
 ## XmpLocale constructor
 
-初始化[`XmpLocale`](../../xmplocale)类的新实例。
+初始化[`XmpLocale`](../../xmplocale)类.
 
 ```csharp
 public XmpLocale(string value)
@@ -16,7 +16,7 @@ public XmpLocale(string value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 值。 |
+| value | String | 价值。 |
 
 ### 也可以看看
 

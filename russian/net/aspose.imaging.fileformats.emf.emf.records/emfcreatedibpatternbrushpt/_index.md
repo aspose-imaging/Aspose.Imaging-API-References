@@ -18,22 +18,22 @@ public sealed class EmfCreateDibPatternBrushPt : EmfObjectCreationRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfCreateDibPatternBrushPt](emfcreatedibpatternbrushpt#constructor)() | Инициализирует новый экземпляр класса[`EmfCreateDibPatternBrushPt`](../emfcreatedibpatternbrushpt). |
-| [EmfCreateDibPatternBrushPt](emfcreatedibpatternbrushpt#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfCreateDibPatternBrushPt`](../emfcreatedibpatternbrushpt). |
+| [EmfCreateDibPatternBrushPt](emfcreatedibpatternbrushpt#constructor)() | Инициализирует новый экземпляр[`EmfCreateDibPatternBrushPt`](../emfcreatedibpatternbrushpt) класс. |
+| [EmfCreateDibPatternBrushPt](emfcreatedibpatternbrushpt#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfCreateDibPatternBrushPt`](../emfcreatedibpatternbrushpt) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BitmapBuffer](../../aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/bitmapbuffer) { get; set; } | Получает или задает буфер, содержащий упакованный DIB в форме объекта WMF DeviceIndependentBitmap ([MS-WMF], раздел 2.2.2.9) . Не требуется, чтобы совпадал с фиксированной частью записи EMR_CREATEDIBPATTERNBRUSHPT. |
-| [IhBrush](../../aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/ihbrush) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс узорчатой кисти объекта в таблице объектов EMF (раздел 3.1.1.1). ). Этот индекс ДОЛЖЕН быть сохранен, чтобы этот объект можно было повторно использовать или модифицировать. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [BitmapBuffer](../../aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/bitmapbuffer) { get; set; } | Получает или задает буфер, содержащий упакованный DIB в форме объекта WMF DeviceIndependentBitmap ([MS-WMF], раздел 2.2.2.9). Не требуется, чтобы он был непрерывным с фиксированной частью записи EMR_CREATEDIBPATTERNBRUSHPT. |
+| [IhBrush](../../aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/ihbrush) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс объекта pattern brush в таблице объектов EMF (раздел 3.1.1.1). Этот индекс ДОЛЖЕН быть сохранен, чтобы этот объект можно было повторно использовать или изменить. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
-| [Usage](../../aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/usage) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее, как интерпретировать значения в таблице цвета в заголовке DIB. Это значение ДОЛЖНО быть в перечислении DIBColors (раздел 2.1.9). |
+| [Usage](../../aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/usage) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее, как интерпретировать значения в таблице color в заголовке DIB. Это значение ДОЛЖНО находиться в перечислении DIBColors (раздел 2.1.9). |
 
 ### Примечания
 
-Объект узорчатой кисти, определенный этой записью, может быть выбран в контексте устройства воспроизведения с помощью запись EMR_SELECTOBJECT (раздел 2.3.8.5), которая определяет узорчатую кисть для использования в последующих графических операциях.
+Объект узорчатой кисти, определенный этой записью, может быть выбран в контексте устройства воспроизведения с помощью записи EMR_SELECTOBJECT (раздел 2.3.8.5), которая определяет узорчатую кисть для использования в последующих графических операциях.
 
 ### Смотрите также
 

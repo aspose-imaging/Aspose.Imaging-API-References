@@ -16,7 +16,7 @@ public byte[] ExtendedBytes { get; set; }
 
 ### 适当的价值
 
-扩展字节。
+扩展字节数。
 
 ### 也可以看看
 

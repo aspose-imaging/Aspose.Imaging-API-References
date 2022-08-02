@@ -1,14 +1,14 @@
 ---
 title: ComplexTypeBase
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化ComplexTypeBaseaspose.imaging.xmp.types.complex/complextypebase类的新实例
+description: 初始化ComplexTypeBaseaspose.imaging.xmp.types.complex/complextypebase类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp.types.complex/complextypebase/complextypebase/
 ---
 ## ComplexTypeBase constructor
 
-初始化[`ComplexTypeBase`](../../complextypebase)类的新实例。
+初始化[`ComplexTypeBase`](../../complextypebase)类.
 
 ```csharp
 public ComplexTypeBase(string prefix, string namespaceUri)
@@ -23,7 +23,7 @@ public ComplexTypeBase(string prefix, string namespaceUri)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 前缀为空 或 namespaceUri 为空 |
+| ArgumentNullException | 前缀为 null 或 namespaceUri 为 null |
 
 ### 也可以看看
 

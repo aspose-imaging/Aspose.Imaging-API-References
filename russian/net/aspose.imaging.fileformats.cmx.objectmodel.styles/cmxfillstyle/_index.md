@@ -35,7 +35,7 @@ public class CmxFillStyle
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxfillstyle/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxfillstyle/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 
 ### Смотрите также
 

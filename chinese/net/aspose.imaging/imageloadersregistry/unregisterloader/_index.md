@@ -1,14 +1,14 @@
 ---
 title: UnregisterLoader
 second_title: Aspose.Imaging for .NET API 参考
-description: 注销加载器
+description: 注销加载程序
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging/imageloadersregistry/unregisterloader/
 ---
 ## ImageLoadersRegistry.UnregisterLoader method
 
-注销加载器。
+注销加载程序。
 
 ```csharp
 public static void UnregisterLoader(IImageLoaderDescriptor loaderDescriptor)
@@ -16,7 +16,7 @@ public static void UnregisterLoader(IImageLoaderDescriptor loaderDescriptor)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| loaderDescriptor | IImageLoaderDescriptor | 要注销的加载器描述符。 |
+| loaderDescriptor | IImageLoaderDescriptor | 要注销的加载程序描述符。 |
 
 ### 也可以看看
 

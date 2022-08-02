@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Возвращает перечислитель который перебирает коллекцию.
+description: Возвращает перечислитель который выполняет итерацию по коллекции.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging.xmp/xmppackage/getenumerator/
 ---
 ## XmpPackage.GetEnumerator method
 
-Возвращает перечислитель, который перебирает коллекцию.
+Возвращает перечислитель, который выполняет итерацию по коллекции.
 
 ```csharp
 public IEnumerator<KeyValuePair<string, object>> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<KeyValuePair<string, object>> GetEnumerator()
 
 ### Возвращаемое значение
 
-AIEnumeratorкоторые можно использовать для перебора коллекции.
+АIEnumerator который можно использовать для перебора коллекции.
 
 ### Смотрите также
 

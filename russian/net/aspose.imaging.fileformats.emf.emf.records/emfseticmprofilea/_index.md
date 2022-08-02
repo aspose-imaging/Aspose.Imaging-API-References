@@ -1,14 +1,14 @@
 ---
 title: EmfSetIcmProfileA
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_SETICMPROFILEA определяет цветовой профиль в файле с именем состоящим из символов ASCII  для вывода графики.
+description: Запись EMR_SETICMPROFILEA указывает цветовой профиль в файле с именем состоящим из символов ASCII  для вывода графики.
 type: docs
 weight: 4350
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/
 ---
 ## EmfSetIcmProfileA class
 
-Запись EMR_SETICMPROFILEA определяет цветовой профиль в файле с именем, состоящим из символов ASCII , для вывода графики.
+Запись EMR_SETICMPROFILEA указывает цветовой профиль в файле с именем, состоящим из символов ASCII , для вывода графики.
 
 ```csharp
 public sealed class EmfSetIcmProfileA : EmfStateRecordType
@@ -18,19 +18,19 @@ public sealed class EmfSetIcmProfileA : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetIcmProfileA](emfseticmprofilea)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetIcmProfileA`](../emfseticmprofilea). |
+| [EmfSetIcmProfileA](emfseticmprofilea)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetIcmProfileA`](../emfseticmprofilea) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [CbData](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/cbdata) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер данных цветового профиля, если оно содержится в поле Data. |
+| [CbData](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/cbdata) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер данных цветового профиля, если оно содержится в поле данных. |
 | [CbName](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/cbname) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее количество байтов в имени ASCII желаемого цветового профиля. |
-| [Data](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/data) { get; set; } | Получает или задает массив размера (cbName + cbData) в байтах, который указывает имя ASCII и необработанные данные желаемого цветового профиля . |
+| [Data](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/data) { get; set; } | Получает или задает массив размера (cbName + cbData) в байтах, который указывает имя ASCII и необработанные данные желаемого цветового профиля. |
 | [DwFlags](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/dwflags) { get; set; } | Получает или задает 32-разрядное целое число без знака, содержащее флаги цветового профиля. |
 | [Name](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/name) { get; } | Получает имя |
 | [RawData](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/rawdata) { get; } | Получает необработанные данные |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

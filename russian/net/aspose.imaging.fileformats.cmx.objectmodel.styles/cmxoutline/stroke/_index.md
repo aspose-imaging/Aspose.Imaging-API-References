@@ -1,14 +1,14 @@
 ---
 title: Stroke
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает образец обводки.
+description: Получает или задает шаблон обводки.
 type: docs
 weight: 110
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/stroke/
 ---
 ## CmxOutline.Stroke property
 
-Получает или задает образец обводки.
+Получает или задает шаблон обводки.
 
 ```csharp
 public int[] Stroke { get; set; }

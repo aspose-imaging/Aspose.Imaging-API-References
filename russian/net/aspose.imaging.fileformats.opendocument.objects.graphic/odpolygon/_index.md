@@ -18,16 +18,16 @@ public class OdPolygon : OdStyledObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdPolygon](odpolygon)(OdObject) | Инициализирует новый экземпляр класса[`OdPolygon`](../odpolygon). |
+| [OdPolygon](odpolygon)(OdObject) | Инициализирует новый экземпляр[`OdPolygon`](../odpolygon) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Получает родительский объект. |
-| [Points](../../aspose.imaging.fileformats.opendocument.objects.graphic/odpolygon/points) { get; set; } | Получает или устанавливает точки. |
+| [Points](../../aspose.imaging.fileformats.opendocument.objects.graphic/odpolygon/points) { get; set; } | Получает или устанавливает очки. |
 | [Rectangle](../../aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/rectangle) { get; set; } | Получает или задает прямоугольник. |
 | [Style](../../aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/style) { get; set; } | Получает или задает стиль. |
 

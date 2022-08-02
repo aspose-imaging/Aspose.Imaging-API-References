@@ -1,14 +1,14 @@
 ---
 title: TileOffsetX
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置平铺偏移 X
+description: 获取或设置瓦片偏移 X.
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/tileoffsetx/
 ---
 ## CmxImageFill.TileOffsetX property
 
-获取或设置平铺偏移 X。
+获取或设置瓦片偏移 X.
 
 ```csharp
 public float TileOffsetX { get; set; }

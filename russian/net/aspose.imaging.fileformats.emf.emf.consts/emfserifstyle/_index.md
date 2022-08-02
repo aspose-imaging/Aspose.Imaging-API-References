@@ -1,14 +1,14 @@
 ---
 title: EmfSerifStyle
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Перечисление SerifType определяет значения одной из характеристик в системе PANOSE для классификации шрифтов
+description: Перечисление SerifType определяет значения одной из характеристик в системе PANOSE для классификации гарнитур
 type: docs
 weight: 2840
 url: /ru/net/aspose.imaging.fileformats.emf.emf.consts/emfserifstyle/
 ---
 ## EmfSerifStyle enumeration
 
-Перечисление SerifType определяет значения одной из характеристик в системе PANOSE для классификации шрифтов
+Перечисление SerifType определяет значения одной из характеристик в системе PANOSE для классификации гарнитур
 
 ```csharp
 public enum EmfSerifStyle : byte
@@ -19,11 +19,11 @@ public enum EmfSerifStyle : byte
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | PAN_ANY | `0` | Любой стиль. |
-| PAN_NO_FIT | `1` | Стиль не подходит. |
-| PAN_SERIF_COVE | `2` | Стиль Бухты. |
+| PAN_NO_FIT | `1` | Неподходящий стиль. |
+| PAN_SERIF_COVE | `2` | Стиль бухты. |
 | PAN_SERIF_OBTUSE_COVE | `3` | Стиль Тупой бухты. |
 | PAN_SERIF_SQUARE_COVE | `4` | Стиль квадратной бухты. |
-| PAN_SERIF_OBTUSE_SQUARE_COVE | `5` | Тупой квадратный стиль бухты. |
+| PAN_SERIF_OBTUSE_SQUARE_COVE | `5` | Стиль тупой квадратной бухты. |
 | PAN_SERIF_SQUARE | `6` | Квадратный стиль. |
 | PAN_SERIF_THIN | `7` | Тонкий стиль. |
 | PAN_SERIF_BONE | `8` | Костяной стиль. |

@@ -1,14 +1,14 @@
 ---
 title: RawDataSettings
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取当前原始数据设置请注意使用这些设置时数据加载时无需转换
+description: 获取当前的原始数据设置请注意使用这些设置时数据加载时无需转换
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging/irasterimagerawdataloader/rawdatasettings/
 ---
 ## IRasterImageRawDataLoader.RawDataSettings property
 
-获取当前原始数据设置。请注意，使用这些设置时，数据加载时无需转换。
+获取当前的原始数据设置。请注意，使用这些设置时，数据加载时无需转换。
 
 ```csharp
 public RawDataSettings RawDataSettings { get; }
@@ -16,7 +16,7 @@ public RawDataSettings RawDataSettings { get; }
 
 ### 适当的价值
 
-当前原始数据设置。
+当前的原始数据设置。
 
 ### 也可以看看
 

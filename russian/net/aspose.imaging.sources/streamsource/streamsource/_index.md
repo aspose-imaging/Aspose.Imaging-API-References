@@ -1,14 +1,14 @@
 ---
 title: StreamSource
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаStreamSourceaspose.imaging.sources/streamsource.
+description: Инициализирует новый экземплярStreamSourceaspose.imaging.sources/streamsource класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.sources/streamsource/streamsource/
 ---
 ## StreamSource(Stream) {#constructor}
 
-Инициализирует новый экземпляр класса[`StreamSource`](../../streamsource).
+Инициализирует новый экземпляр[`StreamSource`](../../streamsource) класс.
 
 ```csharp
 public StreamSource(Stream stream)
@@ -16,51 +16,51 @@ public StreamSource(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, который необходимо открыть. |
+| stream | Stream | Поток открыть. |
 
 ### Примеры
 
-В этом примере показано, как загружать информацию о пикселях в массив цветов типа, манипулировать массивом и возвращать его в изображение. Для выполнения этих операций в этом примере создается новый файл изображения (в формате GIF) с использованием объекта MemoryStream.
+В этом примере показано, как загрузить информацию о пикселях в массив цвета типа, манипулировать массивом и установить его обратно в изображение. Для выполнения этих операций в этом примере создается новый файл изображения (в формате GIF) с использованием объекта MemoryStream.
 
 ```csharp
 [C#]
 
- //Создаем экземпляр MemoryStream
+//Создаем экземпляр MemoryStream
 using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
 {
-     //Создаем экземпляр GifOptions и устанавливаем его различные свойства, включая Source property
+    //Создаем экземпляр GifOptions и устанавливаем его различные свойства, включая свойство Source
     Aspose.Imaging.ImageOptions.GifOptions gifOptions = new Aspose.Imaging.ImageOptions.GifOptions();
     gifOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream);
 
-     //Создаем экземпляр Image
+    //Создаем экземпляр изображения
     using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Create(gifOptions, 500, 500))
     {
-         //Получить пиксели изображения, указав область как изображение border
+        //Получить пиксели изображения, указав область в качестве границы изображения
         Aspose.Imaging.Color[] pixels = image.LoadPixels(image.Bounds);
 
-         // Перебираем массив и устанавливаем цвет альтернативного индексированного pixel
+        // Цикл по массиву и установка цвета альтернативного индексированного пикселя
         for (int index = 0; index < pixels.Length; index++)
         {
             if (index % 2 == 0)
             {
-                 //Установите цвет индексированного пикселя на yellow
+                //Устанавливаем желтый цвет индексированного пикселя
                 pixels[index] = Aspose.Imaging.Color.Yellow;
             }
             else
             {
-                //Установите цвет индексированного пикселя на blue
+                //Устанавливаем синий цвет индексированного пикселя
                 pixels[index] = Aspose.Imaging.Color.Blue;
             }
         }
 
-         // Применяем изменения пикселей к image
+        // Применяем изменения пикселей к изображению
         image.SavePixels(image.Bounds, pixels);
 
-         // сохранить все изменения.
+        // сохранить все изменения.
         image.Save();
     }
 
-     // Запись MemoryStream в File
+    // Запись MemoryStream в файл
     using (System.IO.FileStream fileStream = new System.IO.FileStream(@"C:\temp\output.gif", System.IO.FileMode.Create))
     {
         stream.WriteTo(fileStream);
@@ -78,7 +78,7 @@ using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
 
 ## StreamSource(Stream, bool) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`StreamSource`](../../streamsource).
+Инициализирует новый экземпляр[`StreamSource`](../../streamsource) класс.
 
 ```csharp
 public StreamSource(Stream stream, bool disposeStream)
@@ -86,30 +86,30 @@ public StreamSource(Stream stream, bool disposeStream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, который необходимо открыть. |
-| disposeStream | Boolean | если установлено значение` true` поток будет удален. |
+| stream | Stream | Поток открыть. |
+| disposeStream | Boolean | если установлено`истинный` поток будет удален. |
 
 ### Примеры
 
-Этот пример демонстрирует использование System.IO.Stream для создания нового файла изображения (тип JPEG)
+В этом примере демонстрируется использование System.IO.Stream для создания нового файла изображения (типа JPEG).
 
 ```csharp
 [C#]
 
- //Создает экземпляр JpegOptions и устанавливает его различные свойства
+//Создает экземпляр JpegOptions и устанавливает его различные свойства
 Aspose.Imaging.ImageOptions.JpegOptions jpegOptions = new Aspose.Imaging.ImageOptions.JpegOptions();
 
- //Создаем экземпляр System.IO.Stream
+//Создаем экземпляр System.IO.Stream
 System.IO.Stream stream = new System.IO.FileStream(@"C:\temp\sample.jpeg", System.IO.FileMode.Create);
 
- //Определяем исходное свойство для экземпляра JpegOptions
- //Второй логический параметр определяет, удаляется ли поток после выхода из scope
+//Определяем исходное свойство для экземпляра JpegOptions
+//Второй логический параметр определяет, удаляется ли поток после выхода из области видимости
 jpegOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream, true);
 
- //Создает экземпляр Image и вызывает метод Create с параметром JpegOptions для инициализации объекта Image 
+//Создает экземпляр Image и вызывает метод Create с JpegOptions в качестве параметра для инициализации объекта Image   
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(jpegOptions, 500, 500))
 {
-     // сделать некоторую обработку изображения
+    // делаем некоторую обработку изображения
 }
 ```
 

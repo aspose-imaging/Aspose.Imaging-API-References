@@ -1,14 +1,14 @@
 ---
 title: RegisterLoader
 second_title: Aspose.Imaging for .NET API 参考
-description: 注册加载器
+description: 注册加载程序
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging/imageloadersregistry/registerloader/
 ---
 ## ImageLoadersRegistry.RegisterLoader method
 
-注册加载器。
+注册加载程序。
 
 ```csharp
 public static void RegisterLoader(IImageLoaderDescriptor loaderDescriptor)

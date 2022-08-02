@@ -1,14 +1,14 @@
 ---
 title: CompoundLineData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив значений CompoundLineDataSize с плавающей запятой  которые определяют составную линию пера. Элементы ДОЛЖНЫ быть в порядке возрастания а их значения ДОЛЖНЫ быть между 0.0 и 1.0 включительно
+description: Получает или задает массив CompoundLineDataSize значений с плавающей запятой  которые определяют составную линию пера. Элементы ДОЛЖНЫ быть в порядке возрастания а их значения ДОЛЖНЫ быть между 00 и 10 включительно
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompoundlinedata/compoundlinedata/
 ---
 ## EmfPlusCompoundLineData.CompoundLineData property
 
-Получает или задает массив значений CompoundLineDataSize с плавающей запятой , которые определяют составную линию пера. Элементы ДОЛЖНЫ быть в порядке возрастания, а их значения ДОЛЖНЫ быть между 0.0 и 1.0 включительно
+Получает или задает массив CompoundLineDataSize значений с плавающей запятой , которые определяют составную линию пера. Элементы ДОЛЖНЫ быть в порядке возрастания, а их значения ДОЛЖНЫ быть между 0,0 и 1,0 включительно
 
 ```csharp
 public float[] CompoundLineData { get; set; }

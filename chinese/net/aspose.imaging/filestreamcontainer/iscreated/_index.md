@@ -1,14 +1,14 @@
 ---
 title: IsCreated
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示是否显式创建了流
+description: 获取一个值该值指示是否明确创建了流
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging/filestreamcontainer/iscreated/
 ---
 ## FileStreamContainer.IsCreated property
 
-获取一个值，该值指示是否显式创建了流。
+获取一个值，该值指示是否明确创建了流。
 
 ```csharp
 public bool IsCreated { get; }
@@ -16,7 +16,7 @@ public bool IsCreated { get; }
 
 ### 适当的价值
 
-` true` 如果流是显式创建的；否则，` false` 。
+`真的`如果流是显式创建的；否则，`错误的` .
 
 ### 也可以看看
 

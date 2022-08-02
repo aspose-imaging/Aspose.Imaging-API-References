@@ -1,14 +1,14 @@
 ---
 title: GraphicsPathExtensions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Содержит методы расширенияGraphicsPath../aspose.imaging/graphicspath.
+description: СодержитGraphicsPath../aspose.imaging/graphicspath методы расширения.
 type: docs
 weight: 1190
 url: /ru/net/aspose.imaging.extensions/graphicspathextensions/
 ---
 ## GraphicsPathExtensions class
 
-Содержит методы расширения[`GraphicsPath`](../../aspose.imaging/graphicspath).
+Содержит[`GraphicsPath`](../../aspose.imaging/graphicspath) методы расширения.
 
 ```csharp
 public static class GraphicsPathExtensions
@@ -18,7 +18,7 @@ public static class GraphicsPathExtensions
 
 | Имя | Описание |
 | --- | --- |
-| static [ToGdiGraphicsPath](../../aspose.imaging.extensions/graphicspathextensions/togdigraphicspath)(GraphicsPath) | Преобразует[`GraphicsPath`](../../aspose.imaging/graphicspath)вGraphicsPath. |
+| static [ToGdiGraphicsPath](../../aspose.imaging.extensions/graphicspathextensions/togdigraphicspath)(GraphicsPath) | Преобразует[`GraphicsPath`](../../aspose.imaging/graphicspath) кGraphicsPath . |
 
 ### Смотрите также
 

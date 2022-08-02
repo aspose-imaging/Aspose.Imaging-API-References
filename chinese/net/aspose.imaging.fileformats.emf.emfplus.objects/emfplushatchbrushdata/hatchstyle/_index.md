@@ -1,14 +1,14 @@
 ---
 title: HatchStyle
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定画笔阴影样式的 32 位无符号整数它必须在EmfPlusHatchStyleaspose.imaging.fileformats.emf.emfplus.consts/emfplushatchstyle枚举中定义
+description: 获取或设置一个 32 位无符号整数用于指定画笔阴影样式它必须在EmfPlusHatchStyleaspose.imaging.fileformats.emf.emfplus.consts/emfplushatchstyle枚举.
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplushatchbrushdata/hatchstyle/
 ---
 ## EmfPlusHatchBrushData.HatchStyle property
 
-获取或设置指定画笔阴影样式的 32 位无符号整数。它必须在[`EmfPlusHatchStyle`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfplushatchstyle)枚举中定义。
+获取或设置一个 32 位无符号整数，用于指定画笔阴影样式。它必须在[`EmfPlusHatchStyle`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfplushatchstyle)枚举.
 
 ```csharp
 public EmfPlusHatchStyle HatchStyle { get; set; }

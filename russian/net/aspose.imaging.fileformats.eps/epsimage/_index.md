@@ -21,33 +21,33 @@ public abstract class EpsImage : VectorImage
 | [AutoAdjustPalette](../../aspose.imaging/image/autoadjustpalette) { get; set; } | Получает или задает значение, указывающее, следует ли автоматически настраивать палитру. |
 | virtual [BackgroundColor](../../aspose.imaging/image/backgroundcolor) { get; set; } | Получает или задает значение цвета фона. |
 | override [BitsPerPixel](../../aspose.imaging.fileformats.eps/epsimage/bitsperpixel) { get; } | Получает количество бит изображения на пиксель. |
-| [BoundingBoxBottomLeft](../../aspose.imaging.fileformats.eps/epsimage/boundingboxbottomleft) { get; } | Получает нижнее левое положение ограничительной рамки |
-| [BoundingBoxString](../../aspose.imaging.fileformats.eps/epsimage/boundingboxstring) { get; } | Получает строковое значение BoundingBox |
+| [BoundingBoxBottomLeft](../../aspose.imaging.fileformats.eps/epsimage/boundingboxbottomleft) { get; } | Получает нижнюю левую позицию ограничительной рамки |
+| [BoundingBoxString](../../aspose.imaging.fileformats.eps/epsimage/boundingboxstring) { get; } | Получает значение строки BoundingBox |
 | [BoundingBoxTopRight](../../aspose.imaging.fileformats.eps/epsimage/boundingboxtopright) { get; } | Получает верхнюю правую позицию ограничительной рамки |
 | [Bounds](../../aspose.imaging/image/bounds) { get; } | Получает границы изображения. |
-| [BufferSizeHint](../../aspose.imaging/image/buffersizehint) { get; set; } | Получает или устанавливает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
-| [Container](../../aspose.imaging/image/container) { get; } | Получает контейнер[`Image`](../../aspose.imaging/image). |
+| [BufferSizeHint](../../aspose.imaging/image/buffersizehint) { get; set; } | Получает или задает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
+| [Container](../../aspose.imaging/image/container) { get; } | Получает[`Image`](../../aspose.imaging/image) контейнер. |
 | [CreationDate](../../aspose.imaging.fileformats.eps/epsimage/creationdate) { get; } | Получает поле CreationDate |
-| [CreationDateString](../../aspose.imaging.fileformats.eps/epsimage/creationdatestring) { get; } | Получает строковое значение поля CreationDate |
+| [CreationDateString](../../aspose.imaging.fileformats.eps/epsimage/creationdatestring) { get; } | Получает строку значения поля CreationDate |
 | [Creator](../../aspose.imaging.fileformats.eps/epsimage/creator) { get; } | Получает поле Creator |
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer) { get; } | Получает поток данных объекта. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
 | abstract [EpsType](../../aspose.imaging.fileformats.eps/epsimage/epstype) { get; } | Получает значение подтипа EPS |
 | override [FileFormat](../../aspose.imaging.fileformats.eps/epsimage/fileformat) { get; } | Получает значение формата файла |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor) { get; set; } | Получает или задает значение, указывающее, имеет ли изображение фоновый цвет. |
-| abstract [HasRasterPreview](../../aspose.imaging.fileformats.eps/epsimage/hasrasterpreview) { get; } | Получает значение, указывающее, имеет ли данный экземпляр предварительный просмотр растра для конкретного формата |
+| abstract [HasRasterPreview](../../aspose.imaging.fileformats.eps/epsimage/hasrasterpreview) { get; } | Получает значение, указывающее, имеет ли данный экземпляр растровый файл preview для определенного формата. |
 | override [Height](../../aspose.imaging.fileformats.eps/epsimage/height) { get; } | Получает высоту изображения. |
 | virtual [HeightF](../../aspose.imaging/vectorimage/heightf) { get; } | Получает высоту объекта в дюймах. |
 | [InterruptMonitor](../../aspose.imaging/image/interruptmonitor) { get; set; } | Получает или устанавливает монитор прерываний. |
 | override [IsCached](../../aspose.imaging.fileformats.eps/epsimage/iscached) { get; } | Получает значение, указывающее, кэшируются ли в данный момент данные объекта и чтение данных не требуется. |
 | [PageNumber](../../aspose.imaging.fileformats.eps/epsimage/pagenumber) { get; } | Получает номер страницы |
-| [PagesCount](../../aspose.imaging.fileformats.eps/epsimage/pagescount) { get; } | Получает количество страниц |
+| [PagesCount](../../aspose.imaging.fileformats.eps/epsimage/pagescount) { get; } | Получает количество страниц count |
 | [Palette](../../aspose.imaging/image/palette) { get; set; } | Получает или задает цветовую палитру. Цветовая палитра не используется, когда пиксели представлены напрямую. |
 | [PhotoshopThumbnail](../../aspose.imaging.fileformats.eps/epsimage/photoshopthumbnail) { get; } | Получает миниатюру предварительного просмотра Photoshop (если она присутствует в исходных данных EPS) |
 | [PostScriptVersion](../../aspose.imaging.fileformats.eps/epsimage/postscriptversion) { get; } | Получает поле версии PostScript |
 | [Size](../../aspose.imaging/image/size) { get; } | Получает размер изображения. |
 | [SizeF](../../aspose.imaging/vectorimage/sizef) { get; } | Получает размер объекта в дюймах. |
-| [Title](../../aspose.imaging.fileformats.eps/epsimage/title) { get; } | Получает поле Заголовок |
+| [Title](../../aspose.imaging.fileformats.eps/epsimage/title) { get; } | Получает поле заголовка |
 | virtual [UsePalette](../../aspose.imaging/image/usepalette) { get; } | Получает значение, указывающее, используется ли палитра изображения. |
 | override [Width](../../aspose.imaging.fileformats.eps/epsimage/width) { get; } | Получает ширину изображения. |
 | virtual [WidthF](../../aspose.imaging/vectorimage/widthf) { get; } | Получает ширину объекта в дюймах. |
@@ -57,145 +57,114 @@ public abstract class EpsImage : VectorImage
 | Имя | Описание |
 | --- | --- |
 | override [CacheData](../../aspose.imaging.fileformats.eps/epsimage/cachedata)() | Кэш нельзя использовать. |
-| [CanSave](../../aspose.imaging/image/cansave)(ImageOptionsBase) | Определяет, можно ли сохранить изображение в указанный формат файла, представленный переданными параметрами сохранения. |
+| [CanSave](../../aspose.imaging/image/cansave)(ImageOptionsBase) | Определяет, можно ли сохранить изображение в указанном формате файла, представленном переданными параметрами сохранения. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose)() | Удаляет текущий экземпляр. |
 | override [GetDefaultOptions](../../aspose.imaging.fileformats.eps/epsimage/getdefaultoptions)(object[]) | Получает параметры по умолчанию. |
-| virtual [GetEmbeddedImages](../../aspose.imaging/vectorimage/getembeddedimages)() | Получает внедренные изображения. |
-| virtual [GetOriginalOptions](../../aspose.imaging/image/getoriginaloptions)() | Получает параметры на основе исходных настроек файла. Это может быть полезно для сохранения битовой глубины и других параметров исходного изображения без изменений. Например, если мы загрузим черно-белое изображение PNG с 1 битом на пиксель, а затем сохраним его с помощью [`Save`](../../aspose.imaging/datastreamsupporter/save)будет создано выходное изображение PNG с 8 битами на пиксель. Чтобы избежать этого и сохранить изображение PNG с 1 битом на пиксель, используйте этот метод, чтобы получить соответствующие параметры сохранения и передать их в[`Save`](../../aspose.imaging/image/save)метод в качестве второго параметра. |
-| [Resize](../../aspose.imaging/image/resize)(int, int) | Изменяет размер изображения. По умолчанию используетсяNearestNeighbourResample. |
+| virtual [GetEmbeddedImages](../../aspose.imaging/vectorimage/getembeddedimages)() | Получает встроенные изображения. |
+| virtual [GetOriginalOptions](../../aspose.imaging/image/getoriginaloptions)() | Получает параметры, основанные на настройках исходного файла. Это может быть полезно для сохранения без изменений битовой глубины и других параметров исходного изображения. Например, если мы загружаем черно-белое изображение PNG с 1 битом на пиксель, а затем сохраните его, используя the [`Save`](../../aspose.imaging/datastreamsupporter/save) будет создано выходное изображение PNG с 8 битами на пиксель. Чтобы избежать этого и сохранить изображение PNG с 1 битом на пиксель, используйте этот метод, чтобы получить соответствующие параметры сохранения и передать их [`Save`](../../aspose.imaging/image/save) метод в качестве второго параметра. |
+| [Resize](../../aspose.imaging/image/resize)(int, int) | Изменяет размер изображения. По умолчаниюNearestNeighbourResample используется. |
 | override [Resize](../../aspose.imaging.fileformats.eps/epsimage/resize#resize_1)(int, int, ImageResizeSettings) | Изменяет размер изображения. |
 | override [Resize](../../aspose.imaging.fileformats.eps/epsimage/resize#resize_2)(int, int, ResizeType) | Изменяет размер изображения. |
-| [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally)(int) | Пропорционально изменяет размер высоты. По умолчанию используетсяNearestNeighbourResample. |
-| virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally)(int, ImageResizeSettings) | Пропорционально изменяет размер высоты. |
-| virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally)(int, ResizeType) | Пропорционально изменяет размер высоты. |
-| [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally)(int) | Пропорционально изменяет ширину. По умолчанию используетсяNearestNeighbourResample. |
-| virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally)(int, ImageResizeSettings) | Пропорционально изменяет ширину. |
-| virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally)(int, ResizeType) | Пропорционально изменяет ширину. |
+| [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally)(int) | Изменяет размер высоты пропорционально. По умолчаниюNearestNeighbourResample используется. |
+| virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally)(int, ImageResizeSettings) | Изменяет размер высоты пропорционально. |
+| virtual [ResizeHeightProportionally](../../aspose.imaging/image/resizeheightproportionally)(int, ResizeType) | Изменяет размер высоты пропорционально. |
+| [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally)(int) | Изменяет ширину пропорционально. По умолчаниюNearestNeighbourResample используется. |
+| virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally)(int, ImageResizeSettings) | Изменяет ширину пропорционально. |
+| virtual [ResizeWidthProportionally](../../aspose.imaging/image/resizewidthproportionally)(int, ResizeType) | Изменяет ширину пропорционально. |
 | override [RotateFlip](../../aspose.imaging.fileformats.eps/epsimage/rotateflip)(RotateFlipType) | Вращает, переворачивает или поворачивает и переворачивает изображение. |
-| [Save](../../aspose.imaging/image/save)() | Сохраняет данные изображения в основной поток. |
+| [Save](../../aspose.imaging/image/save)() | Сохраняет данные изображения в базовый поток. |
 | [Save](../../aspose.imaging/datastreamsupporter/save)(Stream) | Сохраняет данные объекта в указанный поток. |
-| override [Save](../../aspose.imaging/image/save)(string) | Сохраняет изображение в указанное местоположение файла. |
+| override [Save](../../aspose.imaging/image/save)(string) | Сохраняет изображение в указанном месте файла. |
 | [Save](../../aspose.imaging/image/save)(Stream, ImageOptionsBase) | Сохраняет данные изображения в указанный поток в указанном формате файла в соответствии с параметрами сохранения. |
 | virtual [Save](../../aspose.imaging/datastreamsupporter/save)(string, bool) | Сохраняет данные объекта в указанном месте файла. |
 | virtual [Save](../../aspose.imaging/image/save)(string, ImageOptionsBase) | Сохраняет данные объекта в указанном месте файла в указанном формате файла в соответствии с параметрами сохранения. |
 | virtual [Save](../../aspose.imaging/image/save)(Stream, ImageOptionsBase, Rectangle) | Сохраняет данные изображения в указанный поток в указанном формате файла в соответствии с параметрами сохранения. |
 | virtual [Save](../../aspose.imaging/image/save)(string, ImageOptionsBase, Rectangle) | Сохраняет данные объекта в указанном месте файла в указанном формате файла в соответствии с параметрами сохранения. |
-| override [SetPalette](../../aspose.imaging.fileformats.eps/epsimage/setpalette)(IColorPalette, bool) | Устанавливает палитру изображения. |
+| override [SetPalette](../../aspose.imaging.fileformats.eps/epsimage/setpalette)(IColorPalette, bool) | Задает палитру изображения. |
 
 ### Примеры
 
-Измените размер изображения EPS и экспортируйте его в Формат PNG.
+Измените размер изображения EPS и экспортируйте его в формат PNG.
 
 ```csharp
 [C#]
 
- // Загрузить EPS image
+// Загружаем EPS-изображение
 using (var image = Image.Load("AstrixObelix.eps"))
 {
-    // Изменяем размер изображения, используя расширенные параметры изменения размера settings
-    image.Resize(400, 400, new ImageResizeSettings
-    {
-         // Установить режим интерполяции
-        Mode = ResizeType.LanczosResample,
+    // Изменяем размер изображения, используя метод кубической интерполяции Митчелла
+    image.Resize(400, 400, ResizeType.Mitchell);
 
-         // Установить тип filter
-        FilterType = ImageFilterType.SmallRectangular,
-
-         // Устанавливает сравнение цветов method
-        ColorCompareMethod = ColorCompareMethod.Euclidian,
-
-         // Установить метод квантования цвета
-        ColorQuantizationMethod = ColorQuantizationMethod.Popularity
-    });
-
-     // Экспорт изображения в PNG format
+    // Экспорт изображения в формат PNG
     image.Save("ExportResult.png", new PngOptions());
 }
 ```
 
-Преобразование изображения EPS в PDF с использованием рендеринга PostScript.
+Преобразуйте изображение EPS в PDF, используя рендеринг PostScript.
 
 ```csharp
 [C#]
 
- // Загрузить EPS image
-using (var image = Image.Load("AstrixObelix.eps"))
+using (var image = (EpsImage)Image.Load("Sample.eps"))
 {
-    // Изменяем размер изображения, используя расширенные параметры изменения размера settings
-    image.Resize(400, 400, new ImageResizeSettings
+    var options = new PdfOptions
     {
-         // Установить режим интерполяции
-        Mode = ResizeType.LanczosResample,
-
-         // Установить тип filter
-        FilterType = ImageFilterType.SmallRectangular,
-
-         // Устанавливает сравнение цветов method
-        ColorCompareMethod = ColorCompareMethod.Euclidian,
-
-         // Установить метод квантования цвета
-        ColorQuantizationMethod = ColorQuantizationMethod.Popularity
-    });
-
-     // Экспорт изображения в PNG format
-    image.Save("ExportResult.png", new PngOptions());
+        PdfCoreOptions = new PdfCoreOptions
+        {
+            PdfCompliance = PdfComplianceVersion.PdfA1b // Установить требуемое соответствие PDF
+        }
+    };
+  
+    image.Save("Sample.pdf", options);
 }
 ```
 
-Преобразование изображения EPS в PNG с использованием рендеринга PostScript.
+Преобразуйте изображение EPS в PNG, используя рендеринг PostScript.
 
 ```csharp
 [C#]
 
- // Загрузить EPS image
-using (var image = Image.Load("AstrixObelix.eps"))
+using (var image = (EpsImage)Image.Load("Sample.eps"))
 {
-    // Изменяем размер изображения, используя расширенные параметры изменения размера settings
-    image.Resize(400, 400, new ImageResizeSettings
+    var options = new PngOptions
     {
-         // Установить режим интерполяции
-        Mode = ResizeType.LanczosResample,
+        VectorRasterizationOptions = new EpsRasterizationOptions
+        {
+            PageWidth = 500, // Ширина изображения
+            PageHeight = 500 // Высота изображения
+            PreviewToExport = EpsPreviewFormat.PostScriptRendering; // Рендерим растровое изображение с помощью PostScript
+        }
+    };
 
-         // Установить тип filter
-        FilterType = ImageFilterType.SmallRectangular,
-
-         // Устанавливает сравнение цветов method
-        ColorCompareMethod = ColorCompareMethod.Euclidian,
-
-         // Установить метод квантования цвета
-        ColorQuantizationMethod = ColorQuantizationMethod.Popularity
-    });
-
-     // Экспорт изображения в PNG format
-    image.Save("ExportResult.png", new PngOptions());
+    image.Save("Sample.png", options);
 }
 ```
 
-Изменение размера изображения EPS с помощью дополнительных настроек.
+Измените размер изображения EPS, используя дополнительные настройки.
 
 ```csharp
 [C#]
 
- // Загрузить EPS image
+// Загружаем EPS-изображение
 using (var image = Image.Load("AstrixObelix.eps"))
 {
-    // Изменяем размер изображения, используя расширенные параметры изменения размера settings
+    // Изменяем размер изображения, используя расширенные настройки изменения размера
     image.Resize(400, 400, new ImageResizeSettings
     {
-         // Установить режим интерполяции
+        // Установить режим интерполяции
         Mode = ResizeType.LanczosResample,
 
-         // Установить тип filter
+        // Задаем тип фильтра
         FilterType = ImageFilterType.SmallRectangular,
 
-         // Устанавливает сравнение цветов method
+        // Устанавливаем метод сравнения цветов
         ColorCompareMethod = ColorCompareMethod.Euclidian,
 
-         // Установить метод квантования цвета
+        // Устанавливаем метод квантования цвета
         ColorQuantizationMethod = ColorQuantizationMethod.Popularity
     });
 
-     // Экспорт изображения в PNG format
+    // Экспорт изображения в формат PNG
     image.Save("ExportResult.png", new PngOptions());
 }
 ```

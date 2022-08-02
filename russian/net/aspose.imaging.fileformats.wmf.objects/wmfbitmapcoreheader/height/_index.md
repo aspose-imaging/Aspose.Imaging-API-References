@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 16-разрядное целое число без знака которое определяет heightDIB в пикселях
+description: Получает или задает 16-разрядное целое число без знака которое определяет height DIB в пикселях
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfbitmapcoreheader/height/
 ---
 ## WmfBitmapCoreHeader.Height property
 
-Получает или задает 16-разрядное целое число без знака, которое определяет heightDIB, в пикселях
+Получает или задает 16-разрядное целое число без знака, которое определяет height DIB, в пикселях
 
 ```csharp
 public short Height { get; set; }

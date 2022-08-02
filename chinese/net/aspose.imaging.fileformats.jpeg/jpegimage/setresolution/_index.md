@@ -1,14 +1,14 @@
 ---
 title: SetResolution
 second_title: Aspose.Imaging for .NET API 参考
-description: 设置分辨率RasterImageaspose.imaging/rasterimage
+description: 为此设置分辨率RasterImageaspose.imaging/rasterimage .
 type: docs
 weight: 210
 url: /zh/net/aspose.imaging.fileformats.jpeg/jpegimage/setresolution/
 ---
 ## JpegImage.SetResolution method
 
-设置分辨率[`RasterImage`](../../../aspose.imaging/rasterimage)。
+为此设置分辨率[`RasterImage`](../../../aspose.imaging/rasterimage) .
 
 ```csharp
 public override void SetResolution(double dpiX, double dpiY)
@@ -16,8 +16,8 @@ public override void SetResolution(double dpiX, double dpiY)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dpiX | Double | :::R5:T:Aspose.Imaging.RasterImage::的水平分辨率，以每英寸点数为单位:. |
-| dpiY | Double | [`RasterImage`](../../../aspose.imaging/rasterimage)的垂直分辨率，以每英寸点数为单位。 |
+| dpiX | Double | 水平分辨率（以每英寸点数为单位）[`RasterImage`](../../../aspose.imaging/rasterimage). |
+| dpiY | Double | 垂直分辨率（以每英寸点数为单位）[`RasterImage`](../../../aspose.imaging/rasterimage). |
 
 ### 例子
 
@@ -32,8 +32,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.jpg"
 {
     Aspose.Imaging.FileFormats.Jpeg.JpegImage jpegImage = (Aspose.Imaging.FileFormats.Jpeg.JpegImage)image;
 
-        // 获取BmpImage
-的水平和垂直分辨率
+    // 获取 BmpImage 的水平和垂直分辨率
     double horizontalResolution = jpegImage.HorizontalResolution;
     double verticalResolution = jpegImage.VerticalResolution;
     System.Console.WriteLine("The horizontal resolution, in pixels per inch: {0}", horizontalResolution);
@@ -50,11 +49,11 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.jpg"
     }
 
     // 输出可能如下所示：
-        // 水平分辨率，以每英寸像素为单位：300
-        // 垂直分辨率，以每英寸像素为单位：300
-        // 将分辨率值设置为 96 dpi
+    // 水平分辨率，以每英寸像素为单位：300
+    // 垂直分辨率，以每英寸像素为单位：300
+    // 将分辨率值设置为 96 dpi
     // 水平分辨率，以每英寸像素为单位：96
-        // 垂直分辨率，以每英寸像素为单位：96
+    // 垂直分辨率，以每英寸像素为单位：96
 }
 ```
 

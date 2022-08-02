@@ -1,14 +1,14 @@
 ---
 title: PixelData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает данные пикселей PixelData переменнаямассив байтов определяющих данные пикселей. Размер и формат этих данных может быть вычислен из полей в объекте EmfPlusBitmap включая формат пикселей из EmfPlusPixelFormataspose.imaging.fileformats.emf.emfplus.consts/emfpluspixelformatперечисление раздел 2.1.1.25.
+description: Получает или задает данные пикселей. PixelData переменная массив байтов определяющих данные пикселей. Размер и формат этих данных можно вычислить из полей в объекте EmfPlusBitmap включая формат пикселей из the EmfPlusPixelFormataspose.imaging.fileformats.emf.emfplus.consts/emfpluspixelformat перечисление раздел 2.1.1.25.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmapdata/pixeldata/
 ---
 ## EmfPlusBitmapData.PixelData property
 
-Получает или задает данные пикселей PixelData (переменная):массив байтов, определяющих данные пикселей. Размер и формат этих данных может быть вычислен из полей в объекте EmfPlusBitmap, включая формат пикселей из [`EmfPlusPixelFormat`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfpluspixelformat)перечисление (раздел 2.1.1.25).
+Получает или задает данные пикселей. PixelData (переменная): массив байтов, определяющих данные пикселей. Размер и формат этих данных можно вычислить из полей в объекте EmfPlusBitmap, включая формат пикселей из the [`EmfPlusPixelFormat`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfpluspixelformat) перечисление (раздел 2.1.1.25).
 
 ```csharp
 public byte[] PixelData { get; set; }

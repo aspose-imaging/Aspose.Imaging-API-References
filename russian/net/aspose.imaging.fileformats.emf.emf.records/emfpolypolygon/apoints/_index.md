@@ -1,14 +1,14 @@
 ---
 title: APoints
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив объектов WMF PointL MS-WMF раздел 2.2.2.15 который указывает точки для всех полигонов в логические единицы. Количество точек определяется значением поля Count.
+description: Получает или задает массив объектов WMF PointL MS-WMF раздел 2.2.2.15 который определяет точки для всех полигонов в логических единицах. Количество баллов задается значением поля Count.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/apoints/
 ---
 ## EmfPolyPolygon.APoints property
 
-Получает или задает массив объектов WMF PointL ([MS-WMF], раздел 2.2.2.15), который указывает точки для всех полигонов в логические единицы. Количество точек определяется значением поля Count.
+Получает или задает массив объектов WMF PointL ([MS-WMF], раздел 2.2.2.15), который определяет точки для всех полигонов в логических единицах. Количество баллов задается значением поля Count.
 
 ```csharp
 public Point[][] APoints { get; set; }

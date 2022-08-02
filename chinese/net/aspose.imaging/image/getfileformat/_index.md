@@ -35,7 +35,7 @@ public static FileFormat GetFileFormat(string filePath)
 
 string dir = "c:\\temp\\";
 
-    // 使用文件的绝对路径
+// 使用文件的绝对路径
 Aspose.Imaging.FileFormat format = Aspose.Imaging.Image.GetFileFormat(dir + "sample.gif");
 System.Console.WriteLine("The file format is {0}", format);
 ```
@@ -78,14 +78,14 @@ public static FileFormat GetFileFormat(Stream stream)
 
 string dir = "c:\\temp\\";
 
-    // 使用文件stream
+// 使用文件流
 using (System.IO.FileStream stream = System.IO.File.OpenRead(dir + "sample.bmp"))
 {
     Aspose.Imaging.FileFormat format = Aspose.Imaging.Image.GetFileFormat(stream);
     System.Console.WriteLine("The file format is {0}", format);
 }
 
-    // 下面的数据不是有效的图片流，所以GetFileFormat返回FileFormat.Undefined.
+// 下面的数据不是有效的图片流，所以GetFileFormat返回FileFormat.Undefined。
 byte[] imageData = new byte[] { 0, 0, 0, 0, 0, 0, 0, 0 };
 using (System.IO.MemoryStream stream = new System.IO.MemoryStream(imageData))
 {

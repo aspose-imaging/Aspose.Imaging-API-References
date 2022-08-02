@@ -1,14 +1,14 @@
 ---
 title: LineWidth
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает ширину линии. Использует стандартную единицу измерения расстояния до документа.
+description: Получает или задает ширину линии. Использует общепринятую единицу измерения расстояния документа.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/linewidth/
 ---
 ## CmxOutline.LineWidth property
 
-Получает или задает ширину линии. Использует стандартную единицу измерения расстояния до документа.
+Получает или задает ширину линии. Использует общепринятую единицу измерения расстояния документа.
 
 ```csharp
 public float LineWidth { get; set; }

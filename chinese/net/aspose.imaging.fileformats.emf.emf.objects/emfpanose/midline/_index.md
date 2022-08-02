@@ -1,14 +1,14 @@
 ---
 title: Midline
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定字体中线的 8 位无符号整数值 必须在 MidLine第 2.1.23 节枚举表中
+description: 获取或设置指定字体中线的 8 位无符号整数值 必须在中线第 2.1.23 节枚举表中
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfpanose/midline/
 ---
 ## EmfPanose.Midline property
 
-获取或设置指定字体中线的 8 位无符号整数。值 必须在 MidLine（第 2.1.23 节）枚举表中。
+获取或设置指定字体中线的 8 位无符号整数。值 必须在中线（第 2.1.23 节）枚举表中。
 
 ```csharp
 public EmfMidLine Midline { get; set; }

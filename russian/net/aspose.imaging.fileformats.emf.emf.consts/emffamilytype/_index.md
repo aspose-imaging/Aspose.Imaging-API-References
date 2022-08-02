@@ -1,14 +1,14 @@
 ---
 title: EmfFamilyType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Перечисление FamilyType определяет значения одной из характеристик в системе PANOSE для классификации гарнитур.
+description: Перечисление FamilyType определяет значения одной из характеристик в системе PANOSE для классификации шрифтов.
 type: docs
 weight: 2640
 url: /ru/net/aspose.imaging.fileformats.emf.emf.consts/emffamilytype/
 ---
 ## EmfFamilyType enumeration
 
-Перечисление FamilyType определяет значения одной из характеристик в системе PANOSE для классификации гарнитур.
+Перечисление FamilyType определяет значения одной из характеристик в системе PANOSE для классификации шрифтов.
 
 ```csharp
 public enum EmfFamilyType : byte
@@ -18,10 +18,10 @@ public enum EmfFamilyType : byte
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| PAN_ANY | `0` | Тип Any. |
+| PAN_ANY | `0` | Любой тип. |
 | PAN_NO_FIT | `1` | Не подходит. |
-| PAN_FAMILY_TEXT_DISPLAY | `2` | Текст и отображение. |
-| PAN_FAMILY_SCRIPT | `3` | Флаг скрипта. |
+| PAN_FAMILY_TEXT_DISPLAY | `2` | Текст и дисплей. |
+| PAN_FAMILY_SCRIPT | `3` | Флаг сценария. |
 | PAN_FAMILY_DECORATIVE | `4` | Декоративный флаг. |
 | PAN_FAMILY_PICTORIAL | `5` | Графический флаг. |
 

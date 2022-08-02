@@ -1,14 +1,14 @@
 ---
 title: Angle
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置以度为单位指定旋转角度的 32 位浮点值 操作是通过从以下 图构造一个新的变换矩阵来执行的 -------------- ------------------- x7C sin角度 x7C cos角度 x7C 0 x7C x7C cos角度 x7C sin角度 x7C 0 x7C --------------------------------- 图2Rotation Transform Matrix 当前世界空间变换乘以这个矩阵结果变成 新的当前世界空间变换 Flags 字段确定乘法的顺序
+description: 获取或设置一个 32 位浮点值以度为单位指定旋转角度 通过从以下 图构造新的变换矩阵来执行操作 ------------ ---------------------- x7C sin角度 x7C cos角度 x7C 0 x7C x7C cos角度 x7C sin角度 x7C 0 x7C --------------------------------- 图2旋转变换矩阵 当前世界空间变换相乘通过这个矩阵结果变成了 新的当前世界空间变换 Flags 字段决定了乘法的顺序
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrotateworldtransform/angle/
 ---
 ## EmfPlusRotateWorldTransform.Angle property
 
-获取或设置以度为单位指定旋转角度的 32 位浮点值。 操作是通过从以下 图构造一个新的变换矩阵来执行的: -------------- ------------------- &#x7C; sin(角度) &#x7C; cos(角度) &#x7C; 0 &#x7C; &#x7C; cos(角度) &#x7C; sin(角度) &#x7C; 0 &#x7C; --------------------------------- 图2:Rotation Transform Matrix 当前世界空间变换乘以这个矩阵，结果变成 新的当前世界空间变换。 Flags 字段确定乘法的顺序。
+获取或设置一个 32 位浮点值，以度为单位指定旋转角度。 通过从以下 图构造新的变换矩阵来执行操作： ------------ ---------------------- &#x7C; sin(角度) &#x7C; cos(角度) &#x7C; 0 &#x7C; &#x7C; cos(角度) &#x7C; sin(角度) &#x7C; 0 &#x7C; --------------------------------- 图2：旋转变换矩阵 当前世界空间变换相乘通过这个矩阵，结果变成了 新的当前世界空间变换。 Flags 字段决定了乘法的顺序。
 
 ```csharp
 public float Angle { get; set; }
@@ -16,7 +16,7 @@ public float Angle { get; set; }
 
 ### 适当的价值
 
-角度。
+角度.
 
 ### 也可以看看
 

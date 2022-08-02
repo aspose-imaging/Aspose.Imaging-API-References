@@ -1,14 +1,14 @@
 ---
 title: K
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение черного компонента этойColoraspose.imaging/colorструктуры.
+description: Получает значение черного компонента этогоColoraspose.imaging/color структура.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging/cmykcolor/k/
 ---
 ## CmykColor.K property
 
-Получает значение черного компонента этой[`Color`](../../color)структуры.
+Получает значение черного компонента этого[`Color`](../../color) структура.
 
 ```csharp
 public byte K { get; }
@@ -16,7 +16,7 @@ public byte K { get; }
 
 ### Стоимость имущества
 
-Значение черного компонента этого[`Color`](../../color).
+Значение черного компонента этого[`Color`](../../color) .
 
 ### Смотрите также
 

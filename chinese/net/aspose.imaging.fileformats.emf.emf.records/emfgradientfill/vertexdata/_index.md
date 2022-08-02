@@ -1,14 +1,14 @@
 ---
 title: VertexData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定矩形或三角形顶点的对象和 对应的颜色
+description: 获取或设置指定矩形或三角形顶点的对象以及 对应于它们的颜色
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfgradientfill/vertexdata/
 ---
 ## EmfGradientFill.VertexData property
 
-获取或设置指定矩形或三角形顶点的对象和 对应的颜色。
+获取或设置指定矩形或三角形顶点的对象以及 对应于它们的颜色。
 
 ```csharp
 public EmfVertexData VertexData { get; set; }

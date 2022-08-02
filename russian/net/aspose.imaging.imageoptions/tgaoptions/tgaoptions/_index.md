@@ -1,14 +1,14 @@
 ---
 title: TgaOptions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTgaOptionsaspose.imaging.imageoptions/tgaoptions.
+description: Инициализирует новый экземплярTgaOptionsaspose.imaging.imageoptions/tgaoptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.imageoptions/tgaoptions/tgaoptions/
 ---
 ## TgaOptions() {#constructor}
 
-Инициализирует новый экземпляр класса[`TgaOptions`](../../tgaoptions).
+Инициализирует новый экземпляр[`TgaOptions`](../../tgaoptions) класс.
 
 ```csharp
 public TgaOptions()
@@ -37,7 +37,7 @@ using (RasterImage image = (JpegImage)Image.Load("test.jpg"))
 
 ## TgaOptions(TgaOptions) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TgaOptions`](../../tgaoptions).
+Инициализирует новый экземпляр[`TgaOptions`](../../tgaoptions) класс.
 
 ```csharp
 public TgaOptions(TgaOptions tgaOptions)
@@ -45,7 +45,7 @@ public TgaOptions(TgaOptions tgaOptions)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| tgaOptions | TgaOptions | Параметры TGA. |
+| tgaOptions | TgaOptions | Варианты ТГА. |
 
 ### Смотрите также
 

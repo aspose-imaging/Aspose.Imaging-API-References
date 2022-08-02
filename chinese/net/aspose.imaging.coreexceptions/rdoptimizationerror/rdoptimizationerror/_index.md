@@ -1,14 +1,14 @@
 ---
 title: RdOptimizationError
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化RdOptimizationErroraspose.imaging.coreexceptions/rdoptimizationerror类的新实例
+description: 初始化RdOptimizationErroraspose.imaging.coreexceptions/rdoptimizationerror类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.coreexceptions/rdoptimizationerror/rdoptimizationerror/
 ---
 ## RdOptimizationError constructor
 
-初始化[`RdOptimizationError`](../../rdoptimizationerror)类的新实例。
+初始化[`RdOptimizationError`](../../rdoptimizationerror)类.
 
 ```csharp
 public RdOptimizationError(string message)

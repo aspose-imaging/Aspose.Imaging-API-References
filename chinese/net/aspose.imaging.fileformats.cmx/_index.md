@@ -13,7 +13,7 @@ url: /zh/net/aspose.imaging.fileformats.cmx/
 | 班级 | 描述 |
 | --- | --- |
 | [CmxImage](./cmximage) | CMX 图像。 |
-| [CmxImagePage](./cmximagepage) | CMX 页面图像 |
+| [CmxImagePage](./cmximagepage) | CMX 页面的图像 |
 ## 接口
 
 | 界面 | 描述 |

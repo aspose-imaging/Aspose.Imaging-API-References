@@ -1,14 +1,14 @@
 ---
 title: WmfAnimatePalette
 second_title: Aspose.Imaging for .NET API 参考
-description: META_ANIMATEPALETTE 记录重新定义逻辑调色板 中的条目该逻辑调色板在回放设备上下文中定义具有指定的 Palette对象第 2.2.1.3 节
+description: META_ANIMATEPALETTE 记录重新定义逻辑调色板 中的条目该逻辑调色板 在回放设备上下文中使用指定的 调色板对象第 2.2.1.3 节定义
 type: docs
 weight: 8410
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfanimatepalette/
 ---
 ## WmfAnimatePalette class
 
-META_ANIMATEPALETTE 记录重新定义逻辑调色板 中的条目，该逻辑调色板在回放设备上下文中定义，具有指定的 Palette对象（第 2.2.1.3 节）。
+META_ANIMATEPALETTE 记录重新定义逻辑调色板 中的条目，该逻辑调色板 在回放设备上下文中使用指定的 调色板对象（第 2.2.1.3 节）定义。
 
 ```csharp
 public class WmfAnimatePalette : WmfObject

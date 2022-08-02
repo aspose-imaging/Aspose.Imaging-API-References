@@ -1,14 +1,14 @@
 ---
 title: MatrixPresent
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置矩阵是否存在标志 一个 32 位无符号整数指定 TransformMatrix 字段中是否存在变换矩阵 0 - 不存在矩阵 1 - 变换矩阵位于 TransformMatrix 字段
+description: 获取或设置矩阵是否存在 flag 一个 32 位无符号整数指定 TransformMatrix 字段中是否存在变换矩阵 0 - 不存在矩阵 1 - 变换矩阵在 TransformMatrix field
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/matrixpresent/
 ---
 ## EmfPlusDrawDriverString.MatrixPresent property
 
-获取或设置矩阵是否存在标志 一个 32 位无符号整数，指定 TransformMatrix 字段中是否存在变换矩阵 0 - 不存在矩阵。 1 - 变换矩阵位于 TransformMatrix 字段
+获取或设置矩阵是否存在 flag 一个 32 位无符号整数，指定 TransformMatrix 字段中是否存在变换矩阵 0 - 不存在矩阵。 1 - 变换矩阵在 TransformMatrix field
 
 ```csharp
 public int MatrixPresent { get; set; }

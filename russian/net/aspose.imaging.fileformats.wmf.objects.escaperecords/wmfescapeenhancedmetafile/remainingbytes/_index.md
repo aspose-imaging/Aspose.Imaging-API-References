@@ -1,14 +1,14 @@
 ---
 title: RemainingBytes
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает оставшиеся байты.
+description: Получает или устанавливает оставшиеся байты.
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/remainingbytes/
 ---
 ## WmfEscapeEnhancedMetafile.RemainingBytes property
 
-Получает или задает оставшиеся байты.
+Получает или устанавливает оставшиеся байты.
 
 ```csharp
 public int RemainingBytes { get; set; }
@@ -16,7 +16,7 @@ public int RemainingBytes { get; set; }
 
 ### Стоимость имущества
 
-32-битное целое число без знака, указывающее количество байтов в потоке EMF, которое осталось обрабатывается после этой записи. Эти дополнительные байты EMF ДОЛЖНЫ следовать в полях EnhancedMetafileData последующих escape-записей META_ESCAPE_ENHANDED_METAFILE.
+32-битное целое число без знака, указывающее количество байтов в потоке EMF, которое осталось обработать после этой записи. Эти дополнительные байты EMF ДОЛЖНЫ следовать в полях EnhancedMetafileData последующих escape-записей META_ESCAPE_ENHANDED_METAFILE.
 
 ### Смотрите также
 

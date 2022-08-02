@@ -1,14 +1,14 @@
 ---
 title: SyncRoot
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取可用于同步访问 ICollection的对象
+description: 获取可用于同步访问 的对象ICollection .
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging/nongenericdictionary/syncroot/
 ---
 ## NonGenericDictionary.SyncRoot property
 
-获取可用于同步访问 ICollection的对象。
+获取可用于同步访问 的对象ICollection .
 
 ```csharp
 public object SyncRoot { get; }
@@ -16,7 +16,7 @@ public object SyncRoot { get; }
 
 ### 返回值
 
-可用于同步访问ICollection的对象。
+可用于同步访问的对象ICollection.
 
 ### 也可以看看
 

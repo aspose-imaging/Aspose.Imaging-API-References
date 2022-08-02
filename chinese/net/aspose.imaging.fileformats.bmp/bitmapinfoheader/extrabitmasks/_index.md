@@ -1,14 +1,14 @@
 ---
 title: ExtraBitMasks
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置额外的位掩码 仅在 DIB 标头是 BITMAPINFOHEADER 并且BitmapCompressionaspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapcompression设置为F的情况下才存在Aspose.Imaging.FileFormats.Bmp.BitmapCompression.BitfieldsRGB 或AlphaBitfieldsRGBA
+description: 获取或设置额外的位掩码 仅在 DIB 标头是 BITMAPINFOHEADER 和BitmapCompressionaspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapcompression设置为BitfieldsRGB 或AlphaBitfieldsRGBA.
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.bmp/bitmapinfoheader/extrabitmasks/
 ---
 ## BitmapInfoHeader.ExtraBitMasks property
 
-获取或设置额外的位掩码。 仅在 DIB 标头是 BITMAPINFOHEADER 并且[`BitmapCompression`](../bitmapcompression)设置为F的情况下才存在:Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Bitfields(RGB) 或AlphaBitfields(RGBA)。
+获取或设置额外的位掩码。 仅在 DIB 标头是 BITMAPINFOHEADER 和[`BitmapCompression`](../bitmapcompression)设置为Bitfields(RGB) 或AlphaBitfields(RGBA).
 
 ```csharp
 public int[] ExtraBitMasks { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Union
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает структуруRectangleaspose.imaging/rectangle содержащую объединение двухПрямоугольникструктуры.
+description: ПолучаетRectangleaspose.imaging/rectangle структура содержащая объединение двухRectangleaspose.imaging/rectangle структуры.
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging/rectangle/union/
 ---
 ## Rectangle.Union method
 
-Получает структуру[`Rectangle`](../../rectangle), содержащую объединение двухПрямоугольникструктуры.
+Получает[`Rectangle`](../../rectangle) структура, содержащая объединение двух[`Rectangle`](../../rectangle) структуры.
 
 ```csharp
 public static Rectangle Union(Rectangle a, Rectangle b)
@@ -21,7 +21,7 @@ public static Rectangle Union(Rectangle a, Rectangle b)
 
 ### Возвращаемое значение
 
-A[`Rectangle`](../../rectangle)структура, ограничивающая объединение двух[`Rectangle`](../../rectangle)структуры.
+А[`Rectangle`](../../rectangle) структура, ограничивающая объединение двух[`Rectangle`](../../rectangle) структуры.
 
 ### Смотрите также
 

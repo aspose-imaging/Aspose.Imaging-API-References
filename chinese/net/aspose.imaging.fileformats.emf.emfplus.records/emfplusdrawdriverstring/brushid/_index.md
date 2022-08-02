@@ -1,14 +1,14 @@
 ---
 title: BrushId
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置画笔标识符 一个 32 位无符号整数指定文本或图形画笔的前景色 取决于 Flags
+description: 获取或设置画笔标识符 一个 32 位无符号整数指定文本或图形画笔的前景色 取决于 Flags 中 S 标志的值
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/brushid/
 ---
 ## EmfPlusDrawDriverString.BrushId property
 
-获取或设置画笔标识符 一个 32 位无符号整数，指定文本或图形画笔的前景色， 取决于 Flags
+获取或设置画笔标识符 一个 32 位无符号整数，指定文本或图形画笔的前景色， 取决于 Flags 中 S 标志的值
 
 ```csharp
 public int BrushId { get; set; }

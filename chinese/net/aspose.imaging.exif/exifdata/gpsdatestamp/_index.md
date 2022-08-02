@@ -1,14 +1,14 @@
 ---
 title: GPSDateStamp
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置相对于 UTC协调世界时的 GPS 字符串记录日期和时间信息
+description: 获取或设置 GPS 字符串记录相对于 UTC协调世界时的日期和时间信息
 type: docs
 weight: 390
 url: /zh/net/aspose.imaging.exif/exifdata/gpsdatestamp/
 ---
 ## ExifData.GPSDateStamp property
 
-获取或设置相对于 UTC（协调世界时）的 GPS 字符串记录日期和时间信息。
+获取或设置 GPS 字符串记录相对于 UTC（协调世界时）的日期和时间信息。
 
 ```csharp
 public string GPSDateStamp { get; set; }

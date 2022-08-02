@@ -1,14 +1,14 @@
 ---
 title: EmfWeight
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Перечисление Weight определяет значения одной из характеристик в системе PANOSE для классификации гарнитур.
+description: Перечисление Weight определяет значения одной из характеристик в системе PANOSE для классификации шрифтов.
 type: docs
 weight: 2890
 url: /ru/net/aspose.imaging.fileformats.emf.emf.consts/emfweight/
 ---
 ## EmfWeight enumeration
 
-Перечисление Weight определяет значения одной из характеристик в системе PANOSE для классификации гарнитур.
+Перечисление Weight определяет значения одной из характеристик в системе PANOSE для классификации шрифтов.
 
 ```csharp
 public enum EmfWeight : byte
@@ -25,7 +25,7 @@ public enum EmfWeight : byte
 | PAN_WEIGHT_THIN | `4` | Тонкий вес. |
 | PAN_WEIGHT_BOOK | `5` | Вес книги. |
 | PAN_WEIGHT_MEDIUM | `6` | Средний вес. |
-| PAN_WEIGHT_DEMI | `7` | Деми вес. |
+| PAN_WEIGHT_DEMI | `7` | Вес полуфабриката. |
 | PAN_WEIGHT_BOLD | `8` | Жирный вес. |
 | PAN_WEIGHT_HEAVY | `9` | Тяжелый вес. |
 | PAN_WEIGHT_BLACK | `10` | Черный вес. |

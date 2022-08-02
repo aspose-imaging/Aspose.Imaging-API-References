@@ -1,14 +1,14 @@
 ---
 title: EmfPlusDrawPath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusDrawPathaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawpath.
+description: Инициализирует новый экземплярEmfPlusDrawPathaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawpath класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawpath/emfplusdrawpath/
 ---
 ## EmfPlusDrawPath constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusDrawPath`](../../emfplusdrawpath).
+Инициализирует новый экземпляр[`EmfPlusDrawPath`](../../emfplusdrawpath) класс.
 
 ```csharp
 public EmfPlusDrawPath(EmfPlusRecord source)

@@ -1,14 +1,14 @@
 ---
 title: Culture
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数该整数必须设置为零并且必须被忽略
+description: 获取或设置一个 32 位无符号整数必须将其设置为零并且必须被忽略
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emflogfontpanose/culture/
 ---
 ## EmfLogFontPanose.Culture property
 
-获取或设置一个 32 位无符号整数，该整数必须设置为零并且必须被忽略。
+获取或设置一个 32 位无符号整数，必须将其设置为零并且必须被忽略。
 
 ```csharp
 public int Culture { get; set; }

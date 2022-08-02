@@ -1,14 +1,14 @@
 ---
 title: ColorModels
 second_title: Aspose.Imaging for .NET API 参考
-description: 彩色模型
+description: 彩色模型.
 type: docs
 weight: 2020
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.enums/colormodels/
 ---
 ## ColorModels enumeration
 
-彩色模型。
+彩色模型.
 
 ```csharp
 public enum ColorModels
@@ -24,14 +24,14 @@ public enum ColorModels
 | CMYK255 | `3` | CMYK 颜色模型，以 0-255 字节范围表示。 |
 | CMY | `4` | CMY 颜色模型。 |
 | RGB | `5` | RGM 颜色模型。 |
-| HSB | `6` | HSB 颜色模型。 |
+| HSB | `6` | HSB 颜色模型. |
 | HLS | `7` | HLS 颜色模型。 |
 | BW | `8` | 黑白颜色。 |
 | Gray | `9` | 灰度颜色模型。 |
 | YIQ255 | `10` | YIQ 颜色模型，以 0-255 字节范围表示。 |
 | LAB | `11` | 实验室颜色模型。 |
 | BGR | `12` | 颜色模型 BGR |
-| LAB255 | `13` | 实验室颜色模型 LAB255。 |
+| LAB255 | `13` | 实验室颜色模型 LAB255. |
 
 ### 也可以看看
 

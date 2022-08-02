@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает размер этогоRectangleFaspose.imaging/rectanglef.
+description: Получает или задает размер этогоRectangleFaspose.imaging/rectanglef .
 type: docs
 weight: 140
 url: /ru/net/aspose.imaging/rectanglef/size/
 ---
 ## RectangleF.Size property
 
-Получает или задает размер этого[`RectangleF`](../../rectanglef).
+Получает или задает размер этого[`RectangleF`](../../rectanglef) .
 
 ```csharp
 public SizeF Size { get; set; }
@@ -16,7 +16,7 @@ public SizeF Size { get; set; }
 
 ### Возвращаемое значение
 
-A[`SizeF`](../../sizef)который представляет ширину и высоту этого[`RectangleF`](../../rectanglef)структура.
+А[`SizeF`](../../sizef) который представляет ширину и высоту этого[`RectangleF`](../../rectanglef) структура.
 
 ### Смотрите также
 

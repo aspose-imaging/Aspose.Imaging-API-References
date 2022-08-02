@@ -1,14 +1,14 @@
 ---
 title: Version
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 16 位无符号整数它以支持设备无关位图 DIB 的 形式指定 WMF 元文件版本来自 WMF MetafileVersion 枚举MS-WMF 第 2.1.1.19 节
+description: 获取或设置一个 16 位无符号整数它根据 WMF MetafileVersion 枚举MS-WMF 第 2.1.1.19 节的 支持与设备无关的位图 DIB 来指定 WMF 元文件版本
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcommentwindowsmetafile/version/
 ---
 ## EmfCommentWindowsMetaFile.Version property
 
-获取或设置一个 16 位无符号整数，它以支持设备无关位图 (DIB) 的 形式指定 WMF 元文件版本，来自 WMF MetafileVersion 枚举（[MS-WMF] 第 2.1.1.19 节）。
+获取或设置一个 16 位无符号整数，它根据 WMF MetafileVersion 枚举（[MS-WMF] 第 2.1.1.19 节）的 支持与设备无关的位图 (DIB) 来指定 WMF 元文件版本。
 
 ```csharp
 public WmfMetafileVersion Version { get; set; }

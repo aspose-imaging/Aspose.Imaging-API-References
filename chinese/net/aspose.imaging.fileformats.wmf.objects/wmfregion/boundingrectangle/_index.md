@@ -16,7 +16,7 @@ public Rectangle BoundingRectangle { get; set; }
 
 ### 适当的价值
 
-定义边界 的 Rect 对象（第 2.2.2.18 节）长方形。
+一个 Rect 对象（第 2.2.2.18 节），它定义了 bounding rectangle.
 
 ### 也可以看看
 

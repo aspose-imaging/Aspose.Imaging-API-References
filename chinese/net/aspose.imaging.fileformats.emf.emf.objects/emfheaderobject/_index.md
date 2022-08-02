@@ -1,14 +1,14 @@
 ---
 title: EmfHeaderObject
 second_title: Aspose.Imaging for .NET API 参考
-description: Header 对象定义 EMF 元文件头它指定在其上创建元文件中的图像的设备的属性
+description: Header 对象定义 EMF 元文件头它指定创建元文件中的图像的设备的属性
 type: docs
 weight: 3010
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/
 ---
 ## EmfHeaderObject class
 
-Header 对象定义 EMF 元文件头。它指定在其上创建元文件中的图像的设备的属性。
+Header 对象定义 EMF 元文件头。它指定创建元文件中的图像的设备的属性。
 
 ```csharp
 public class EmfHeaderObject : EmfObject
@@ -24,20 +24,20 @@ public class EmfHeaderObject : EmfObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/bounds) { get; set; } | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象指定了设备中包含的矩形 边界可以围绕存储在 元文件 |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/bounds) { get; set; } | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象指定可以围绕存储在 元文件 中的图像绘制的最小矩形的设备单位中的矩形包容性 边界 |
 | [Bytes](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/bytes) { get; set; } | 获取或设置指定元文件大小的 32 位无符号整数，以字节为单位。 |
-| [Device](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/device) { get; set; } | 获取或设置指定参考设备大小的 WMF SizeL 对象（[MS-WMF] 2.2.2.22 节），以像素为单位 |
-| [Frame](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/frame) { get; set; } | 获取或设置一个 WMF RectL 对象，该对象指定包围存储在元文件 |
-| [Handles](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/handles) { get; set; } | 获取或设置一个 16 位无符号整数，指定在处理元文件时将使用的图形对象的数量 |
-| [Millimeters](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/millimeters) { get; set; } | 获取或设置指定参考设备大小的 WMF SizeL 对象，以毫米为单位 |
-| [NDesription](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/ndesription) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定数组 中包含元文件内容描述的字符数。如果没有描述字符串，则为零。 |
+| [Device](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/device) { get; set; } | 获取或设置一个 WMF SizeL 对象（[MS-WMF] 第 2.2.2.22 节），它指定参考设备的大小，以像素为单位 |
+| [Frame](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/frame) { get; set; } | 获取或设置一个 WMF RectL 对象，该对象指定围绕存储在元文件 中的图像的矩形的矩形包含尺寸，以 0.01 毫米 为单位 |
+| [Handles](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/handles) { get; set; } | 获取或设置一个 16 位无符号整数，指定在处理元文件期间将使用的图形对象的数量 |
+| [Millimeters](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/millimeters) { get; set; } | 获取或设置一个 WMF SizeL 对象，该对象指定参考设备的大小，以毫米为单位 |
+| [NDesription](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/ndesription) { get; set; } | 获取或设置一个 32 位无符号整数，它指定数组 中包含元文件内容描述的字符数。如果没有描述字符串，则为零。 |
 | [NPalEntries](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/npalentries) { get; set; } | 获取或设置一个 32 位无符号整数，它指定元文件 调色板中的条目数。调色板位于 EMR_EOF 记录 |
-| [OffDescription](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/offdescription) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定从该 记录的开头到包含描述的数组的偏移量元文件的内容 |
+| [OffDescription](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/offdescription) { get; set; } | 获取或设置一个 32 位无符号整数，指定从该 记录的开头到包含元文件内容描述的数组的偏移量 |
 | [Records](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/records) { get; set; } | 获取或设置一个 32 位无符号整数，指定元文件中的记录数 |
 | [RecordSignature](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/recordsignature) { get; set; } | 获取或设置指定记录签名的 32 位无符号整数。这必须是 ENHMETA_SIGNATURE, 来自 FormatSignature 枚举（第 2.1.14 节）。 |
 | [Reserved](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/reserved) { get; set; } | 获取或设置一个必须为 0x0000 且必须被忽略的 16 位无符号整数 |
-| [Valid](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/valid) { get; } | 获取一个值，该值指示此[`EmfHeaderObject`](../emfheaderobject)是否有效。 |
-| [Version](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/version) { get; set; } | 获取或设置版本（4 字节）:一个 32 位无符号整数，用于指定 EMF 图元文件的互操作性。这应该是 0x00010000 |
+| [Valid](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/valid) { get; } | 获取一个值，该值指示这是否[`EmfHeaderObject`](../emfheaderobject)是有效的。 |
+| [Version](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/version) { get; set; } | 获取或设置版本（4 字节）：一个 32 位无符号整数，用于指定 EMF 元文件互操作性。这应该是 0x00010000 |
 
 ### 也可以看看
 

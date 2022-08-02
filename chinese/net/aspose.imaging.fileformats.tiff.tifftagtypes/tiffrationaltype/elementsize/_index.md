@@ -1,14 +1,14 @@
 ---
 title: ElementSize
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取元素大小以字节为单位
+description: 以字节为单位获取元素大小
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffrationaltype/elementsize/
 ---
 ## TiffRationalType.ElementSize property
 
-获取元素大小（以字节为单位）。
+以字节为单位获取元素大小。
 
 ```csharp
 public override uint ElementSize { get; }
@@ -16,7 +16,7 @@ public override uint ElementSize { get; }
 
 ### 适当的价值
 
-元素大小（以字节为单位）。
+以字节为单位的元素大小。
 
 ### 也可以看看
 

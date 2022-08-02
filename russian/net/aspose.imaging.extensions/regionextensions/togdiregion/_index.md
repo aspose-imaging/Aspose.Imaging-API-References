@@ -1,14 +1,14 @@
 ---
 title: ToGdiRegion
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПреобразуетRegionaspose.imaging/regionвRegion.
+description: ПреобразуетRegionaspose.imaging/region кRegion .
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.extensions/regionextensions/togdiregion/
 ---
 ## RegionExtensions.ToGdiRegion method
 
-Преобразует[`Region`](../../../aspose.imaging/region)вRegion.
+Преобразует[`Region`](../../../aspose.imaging/region) кRegion .
 
 ```csharp
 public static Region ToGdiRegion(Region region)
@@ -16,7 +16,7 @@ public static Region ToGdiRegion(Region region)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| region | Region | [`Region`](../../../aspose.imaging/region)для преобразования. |
+| region | Region | [`Region`](../../../aspose.imaging/region) конвертировать. |
 
 ### Возвращаемое значение
 

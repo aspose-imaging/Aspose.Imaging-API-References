@@ -1,14 +1,14 @@
 ---
 title: SvgResourceKeeperCallback
 second_title: Aspose.Imaging for .NET API 参考
-description: 资源管理器回调
+description: 资源管理员回调
 type: docs
 weight: 7570
 url: /zh/net/aspose.imaging.fileformats.svg/svgresourcekeepercallback/
 ---
 ## SvgResourceKeeperCallback class
 
-资源管理器回调
+资源管理员回调
 
 ```csharp
 public class SvgResourceKeeperCallback : ISvgResourceKeeperCallback
@@ -24,9 +24,9 @@ public class SvgResourceKeeperCallback : ISvgResourceKeeperCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [OnFontResourceReady](../../aspose.imaging.fileformats.svg/svgresourcekeepercallback/onfontresourceready)(FontStoringArgs) | [字体资源就绪]时调用。 |
-| virtual [OnImageResourceReady](../../aspose.imaging.fileformats.svg/svgresourcekeepercallback/onimageresourceready)(byte[], SvgImageType, string, ref bool) | 当图像资源准备好时调用。 |
-| virtual [OnSvgDocumentReady](../../aspose.imaging.fileformats.svg/svgresourcekeepercallback/onsvgdocumentready)(byte[], string) | 当 SVG 文档准备好时调用。 |
+| virtual [OnFontResourceReady](../../aspose.imaging.fileformats.svg/svgresourcekeepercallback/onfontresourceready)(FontStoringArgs) | 在 [字体资源就绪] 时调用。 |
+| virtual [OnImageResourceReady](../../aspose.imaging.fileformats.svg/svgresourcekeepercallback/onimageresourceready)(byte[], SvgImageType, string, ref bool) | 图像资源就绪时调用。 |
+| virtual [OnSvgDocumentReady](../../aspose.imaging.fileformats.svg/svgresourcekeepercallback/onsvgdocumentready)(byte[], string) | 在 SVG 文档准备就绪时调用。 |
 
 ### 也可以看看
 

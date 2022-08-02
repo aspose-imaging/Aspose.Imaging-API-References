@@ -15,13 +15,13 @@ url: /zh/net/aspose.imaging.coreexceptions.imageformats/
 | [BmpImageException](./bmpimageexception) | bmp 图像异常。 |
 | [DicomImageException](./dicomimageexception) | Dicom 图像异常。 |
 | [DjvuImageException](./djvuimageexception) | DJVU 图像异常。 |
-| [EmfException](./emfexception) | Emf 类的例外 |
+| [EmfException](./emfexception) | Emf 类的异常 |
 | [GifImageException](./gifimageexception) | Gif 图像异常。 |
-| [Jpeg2000Exception](./jpeg2000exception) | Jpeg 文件例外 |
-| [JpegException](./jpegexception) | Jpeg 文件例外 |
-| [JpegLoadException](./jpegloadexception) | 表示JPEG图片加载异常。 |
+| [Jpeg2000Exception](./jpeg2000exception) | Jpeg 文件的例外情况 |
+| [JpegException](./jpegexception) | Jpeg 文件的例外情况 |
+| [JpegLoadException](./jpegloadexception) | 代表JPEG图片加载异常。 |
 | [PngImageException](./pngimageexception) | png 图片异常。 |
-| [PsdImageException](./psdimageexception) | psd 图像异常。 |
+| [PsdImageException](./psdimageexception) | psd图片异常。 |
 | [SvgImageException](./svgimageexception) | SVG 图像异常类。 |
 | [TiffImageException](./tiffimageexception) | Tiff 图像异常 |
 

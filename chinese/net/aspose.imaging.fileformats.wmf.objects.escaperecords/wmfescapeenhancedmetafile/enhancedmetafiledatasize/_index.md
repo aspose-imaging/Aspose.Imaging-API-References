@@ -16,7 +16,7 @@ public int EnhancedMetafileDataSize { get; set; }
 
 ### 适当的价值
 
-一个 32 位无符号整数，指定嵌入在此序列中的 EMF 流的总大小META_ESCAPE_ENHANCED_METAFILE 记录。
+一个 32 位无符号整数，指定嵌入在 META_ESCAPE_ENHANCED_METAFILE 记录序列中的 EMF 流的总大小。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-битное значение с плавающей запятой указывающее ширину наконечника стрелки
+description: Получает или задает 32-битное значение с плавающей запятой указывающее ширину стрелки cap
 type: docs
 weight: 110
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/width/
 ---
 ## EmfPlusCustomLineCapArrowData.Width property
 
-Получает или задает 32-битное значение с плавающей запятой, указывающее ширину наконечника стрелки
+Получает или задает 32-битное значение с плавающей запятой, указывающее ширину стрелки cap
 
 ```csharp
 public float Width { get; set; }

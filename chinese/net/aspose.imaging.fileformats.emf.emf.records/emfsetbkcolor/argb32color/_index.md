@@ -1,14 +1,14 @@
 ---
 title: Argb32Color
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位 WMF ColorRef 对象在 MS-WMF 2.2.2.8 节中指定其中 指定背景颜色价值
+description: 获取或设置一个 32 位 WMF ColorRef 对象在 MS-WMF 2.2.2.8 节中指定其中 指定背景颜色值
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetbkcolor/argb32color/
 ---
 ## EmfSetBkColor.Argb32Color property
 
-获取或设置一个 32 位 WMF ColorRef 对象，在 [MS-WMF] 2.2.2.8 节中指定，其中 指定背景颜色价值。
+获取或设置一个 32 位 WMF ColorRef 对象，在 [MS-WMF] 2.2.2.8 节中指定，其中 指定背景颜色值。
 
 ```csharp
 public int Argb32Color { get; set; }

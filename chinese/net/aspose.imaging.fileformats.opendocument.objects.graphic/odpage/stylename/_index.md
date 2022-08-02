@@ -1,14 +1,14 @@
 ---
 title: StyleName
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置样式名称
+description: 获取或设置样式的名称
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odpage/stylename/
 ---
 ## OdPage.StyleName property
 
-获取或设置样式名称。
+获取或设置样式的名称。
 
 ```csharp
 public string StyleName { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: EmfSetDiBitsToDevice
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_SETDIBITSTODEVICE 记录指定像素从 源位图的指定扫描线到目标矩形的块传输
+description: EMR_SETDIBITSTODEVICE 记录指定像素从 的指定扫描线到目标矩形的块传输
 type: docs
 weight: 4330
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/
 ---
 ## EmfSetDiBitsToDevice class
 
-EMR_SETDIBITSTODEVICE 记录指定像素从 源位图的指定扫描线到目标矩形的块传输。
+EMR_SETDIBITSTODEVICE 记录指定像素从 的指定扫描线到目标矩形的块传输。
 
 ```csharp
 public sealed class EmfSetDiBitsToDevice : EmfBitmapRecordType
@@ -18,29 +18,29 @@ public sealed class EmfSetDiBitsToDevice : EmfBitmapRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSetDiBitsToDevice](emfsetdibitstodevice)(EmfRecord) | 初始化[`EmfSetDiBitsToDevice`](../emfsetdibitstodevice)类的新实例。 |
+| [EmfSetDiBitsToDevice](emfsetdibitstodevice)(EmfRecord) | 初始化[`EmfSetDiBitsToDevice`](../emfsetdibitstodevice)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/bounds) { get; set; } | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象以设备单位定义 目标边界矩形。 |
-| [CScans](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/cscans) { get; set; } | 获取或设置指定扫描行数的 32 位无符号整数。 |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/bounds) { get; set; } | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），它以设备单位定义 目标边界矩形。 |
+| [CScans](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/cscans) { get; set; } | 获取或设置一个 32 位无符号整数，指定扫描线数。 |
 | [CxSrc](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/cxsrc) { get; set; } | 获取或设置一个 32 位有符号整数，它指定源矩形的宽度（以像素为单位）。 |
-| [CySrc](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/cysrc) { get; set; } | 获取或设置一个 32 位有符号整数，指定源矩形的像素高度 |
-| [IStartScan](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/istartscan) { get; set; } | 获取或设置一个 32 位无符号整数，它指定数组中的第一个扫描行。 |
+| [CySrc](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/cysrc) { get; set; } | 获取或设置一个 32 位有符号整数，指定源矩形的高度（以像素为单位） |
+| [IStartScan](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/istartscan) { get; set; } | 获取或设置一个 32 位无符号整数，指定数组中的第一条扫描线。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
-| [SourceBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/sourcebitmap) { get; set; } | 获取或设置包含源位图的缓冲区，它不需要是 与 EMR_SETDIBITSTODEVICE 记录的固定部分连续。因此，此缓冲区中标记为“UndefinedSpace”的字段 是可选的，必须被忽略。 |
+| [SourceBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/sourcebitmap) { get; set; } | 获取或设置包含源位图的缓冲区，该缓冲区不需要与 EMR_SETDIBITSTODEVICE 记录的固定部分 连续。因此，此缓冲区中标记为“UndefinedSpace”的字段 是可选的，必须被忽略。 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
-| [UsageSrc](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/usagesrc) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定如何解释源位图标头中 颜色表中的值。该值必须在 DIBColors 枚举中（第 2.1.9 节）。 |
+| [UsageSrc](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/usagesrc) { get; set; } | 获取或设置一个 32 位无符号整数，它指定如何解释源位图头中的 颜色表中的值。此值必须在 DIBColors 枚举（第 2.1.9 节）中。 |
 | [XDest](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/xdest) { get; set; } | 获取或设置一个 32 位有符号整数，它指定目标矩形左上角 角的逻辑 x 坐标。 |
 | [XSrc](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/xsrc) { get; set; } | 获取或设置一个 32 位有符号整数，指定源矩形左下角 角的 x 坐标（以像素为单位）。 |
 | [YDest](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/ydest) { get; set; } | 获取或设置一个 32 位有符号整数，它指定目标矩形左上角 角的逻辑 y 坐标。 |
-| [YSrc](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/ysrc) { get; set; } | 获取或设置一个 32 位有符号整数，指定源矩形左下角 角的 y 坐标（以像素为单位）。 |
+| [YSrc](../../aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/ysrc) { get; set; } | 获取或设置一个 32 位有符号整数，它指定源矩形左下角 角的 y 坐标（以像素为单位）。 |
 
 ### 评论
 
-此记录支持 JPEG 和 PNG 格式的源图像。源 位图头中的 Compression 字段指定图像格式。
+此记录支持JPEG 和PNG 格式的源图像。源 位图头中的 Compression 字段指定图像格式。
 
 ### 也可以看看
 

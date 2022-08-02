@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Imaging for .NET API 参考
-description: 确定指定的Object是否等于此实例
+description: 判断是否指定Object等于这个实例
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging/matrix/equals/
 ---
 ## Equals(object)
 
-确定指定的Object是否等于此实例。
+判断是否指定Object等于这个实例。
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,17 +16,17 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | Object与此实例进行比较。 |
+| obj | Object | 这Object与此实例进行比较。 |
 
 ### 返回值
 
-` true` 如果指定的Object是等于这个实例；否则，` false` 。
+`真的`如果指定Object等于这个实例；否则，`错误的` .
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NullReferenceException | *obj*参数为空。 |
+| NullReferenceException | 的*obj*参数为空。 |
 
 ### 也可以看看
 

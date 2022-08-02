@@ -1,14 +1,14 @@
 ---
 title: TransformMatrix
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置变换矩阵 一个可选的 EmfPlusTransformMatrix 对象第 2.2.2.47 节指定要应用于47 的变换文本数组中的每个值此数据的存在由 MatrixPresent 字段确定
+description: 获取或设置变换矩阵 一个可选的 EmfPlusTransformMatrix 对象第 2.2.2.47 节它指定要应用于 文本数组中每个值的变换此数据的存在由 MatrixPresent 字段确定
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/transformmatrix/
 ---
 ## EmfPlusDrawDriverString.TransformMatrix property
 
-获取或设置变换矩阵 一个可选的 EmfPlusTransformMatrix 对象（第 2.2.2.47 节），指定要应用于:::47 的变换:::文本数组中的每个值。此数据的存在由 MatrixPresent 字段确定。
+获取或设置变换矩阵 一个可选的 EmfPlusTransformMatrix 对象（第 2.2.2.47 节），它指定要应用于 文本数组中每个值的变换。此数据的存在由 MatrixPresent 字段确定。
 
 ```csharp
 public Matrix TransformMatrix { get; set; }

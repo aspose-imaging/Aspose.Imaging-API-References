@@ -18,8 +18,8 @@ public class WmfFillRegion : WmfObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WmfFillRegion](wmffillregion#constructor)() | 初始化[`WmfFillRegion`](../wmffillregion)类的新实例。 |
-| [WmfFillRegion](wmffillregion#constructor_1)(WmfGraphicObject, WmfGraphicObject) | 初始化[`WmfFillRegion`](../wmffillregion)类的新实例。 |
+| [WmfFillRegion](wmffillregion#constructor)() | 初始化[`WmfFillRegion`](../wmffillregion)类. |
+| [WmfFillRegion](wmffillregion#constructor_1)(WmfGraphicObject, WmfGraphicObject) | 初始化[`WmfFillRegion`](../wmffillregion)类. |
 
 ## 特性
 

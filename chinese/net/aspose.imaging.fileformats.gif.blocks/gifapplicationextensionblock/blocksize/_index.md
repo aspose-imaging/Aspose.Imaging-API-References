@@ -1,14 +1,14 @@
 ---
 title: BlockSize
 second_title: Aspose.Imaging for .NET API 参考
-description: 扩展名  版本块大小
+description: 扩展名版本块大小
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/blocksize/
 ---
 ## GifApplicationExtensionBlock.BlockSize field
 
-扩展名 + 版本块大小
+扩展名+版本块大小
 
 ```csharp
 public const byte BlockSize;

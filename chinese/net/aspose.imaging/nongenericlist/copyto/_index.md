@@ -1,14 +1,14 @@
 ---
 title: CopyTo
 second_title: Aspose.Imaging for .NET API 参考
-description: 将ICollection的元素复制到Array从特定的Array索引开始
+description: 复制元素ICollection对一个Array从一个特定的开始Array索引.
 type: docs
 weight: 110
 url: /zh/net/aspose.imaging/nongenericlist/copyto/
 ---
 ## NonGenericList.CopyTo method
 
-将ICollection的元素复制到Array，从特定的Array索引开始。
+复制元素ICollection对一个Array，从一个特定的开始Array索引.
 
 ```csharp
 public void CopyTo(Array array, int index)
@@ -16,8 +16,8 @@ public void CopyTo(Array array, int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| array | Array | 一维Array即复制元素的目的地来自ICollection。Array必须具有从零开始的索引。 |
-| index | Int32 | *array*中从零开始的索引，从这里开始复制。 |
+| array | Array | 一维的Array那是从中复制的元素的目的地ICollection.这Array必须具有从零开始的索引。 |
+| index | Int32 | 从零开始的索引*array*复制开始的地方。 |
 
 ### 也可以看看
 

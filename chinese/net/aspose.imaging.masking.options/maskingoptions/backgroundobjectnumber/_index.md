@@ -1,14 +1,14 @@
 ---
 title: BackgroundObjectNumber
 second_title: Aspose.Imaging for .NET API 参考
-description: 背景对象编号
+description: 背景物体编号
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.masking.options/maskingoptions/backgroundobjectnumber/
 ---
 ## MaskingOptions.BackgroundObjectNumber field
 
-背景对象编号
+背景物体编号
 
 ```csharp
 public const int BackgroundObjectNumber;

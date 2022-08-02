@@ -1,14 +1,14 @@
 ---
 title: DeepClone
 second_title: Aspose.Imaging for .NET API 参考
-description: 创建当前Brushaspose.imaging/brush的新深度克隆
+description: 创建当前的新深层克隆Brushaspose.imaging/brush .
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging/brush/deepclone/
 ---
 ## Brush.DeepClone method
 
-创建当前[`Brush`](../../brush)的新深度克隆。
+创建当前的新深层克隆[`Brush`](../../brush) .
 
 ```csharp
 public virtual Brush DeepClone()
@@ -16,7 +16,7 @@ public virtual Brush DeepClone()
 
 ### 返回值
 
-一个新的[`Brush`](../../brush)这是这个:::的深层克隆R5:T:Aspose.Imaging.Brush:::实例。
+一个新的[`Brush`](../../brush)这是这个的深层克隆[`Brush`](../../brush)实例。
 
 ### 也可以看看
 

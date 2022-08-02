@@ -32,17 +32,17 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-        // 获取 CMYK 颜色空间中黑色的整数表示。
+    // 在 CMYK 颜色空间中获取黑色的整数表示。
     int blackCmyk = Aspose.Imaging.CmykColorHelper.ToCmyk(Color.Black);
 
-        // 黑色方块.
+    // 黑色方块。
     int[] pixels = new int[(rasterImage.Width / 2) * (rasterImage.Height / 2)];
     for (int i = 0; i < pixels.Length; i++)
     {
         pixels[i] = blackCmyk;
     }
 
-        // 在图像中心绘制黑色方块。
+    // 在图像中心绘制黑色方块。
     Aspose.Imaging.Rectangle area = new Aspose.Imaging.Rectangle(rasterImage.Width / 4, rasterImage.Height / 4, rasterImage.Width / 2, rasterImage.Height / 2);
     rasterImage.SaveCmyk32Pixels(area, pixels);
 

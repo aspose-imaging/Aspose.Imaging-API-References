@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示大小
+description: 代表大小
 type: docs
-weight: 11050
+weight: 11040
 url: /zh/net/aspose.imaging/size/
 ---
 ## Size structure
 
-表示大小。
+代表大小。
 
 ```csharp
 public struct Size
@@ -18,36 +18,36 @@ public struct Size
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Size](size#constructor)(Point) | 从指定的Imaging初始化R5:T:Aspose.Imaging.Size:::结构的新实例。观点:::。 |
-| [Size](size#constructor_1)(int, int) | 从指定维度初始化[`Size`](../size)结构的新实例。 |
+| [Size](size#constructor)(Point) | 初始化[`Size`](../size)从指定的结构[`Point`](../point) . |
+| [Size](size#constructor_1)(int, int) | 初始化[`Size`](../size)指定尺寸的结构。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Empty](../../aspose.imaging/size/empty) { get; } | 获取具有Imaging的R5:T:Aspose.Imaging.Size:::结构的新实例。 Size.Width:::和[`Height`](./height)值设置为零。 |
-| [Height](../../aspose.imaging/size/height) { get; set; } | 获取或设置此[`Size`](../size)的垂直分量。 |
-| [IsEmpty](../../aspose.imaging/size/isempty) { get; } | 获取一个值，该值指示此[`Size`](../size)的宽度和高度是否为 0。 |
-| [Width](../../aspose.imaging/size/width) { get; set; } | 获取或设置此[`Size`](../size)的水平分量。 |
+| static [Empty](../../aspose.imaging/size/empty) { get; } | 获取一个新的实例[`Size`](../size)具有的结构[`Width`](./width)和[`Height`](./height)值设置为零。 |
+| [Height](../../aspose.imaging/size/height) { get; set; } | 获取或设置 this 的垂直分量[`Size`](../size) . |
+| [IsEmpty](../../aspose.imaging/size/isempty) { get; } | 获取一个值，该值指示这是否[`Size`](../size)宽度和高度为 0. |
+| [Width](../../aspose.imaging/size/width) { get; set; } | 获取或设置 this 的水平分量[`Size`](../size) . |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Add](../../aspose.imaging/size/add)(Size, Size) | 将一个[`Size`](../size)结构的宽度和高度添加到另一个:::R5 的宽度和高度:T:Aspose.Imaging.Size:::结构。 |
-| static [Ceiling](../../aspose.imaging/size/ceiling)(SizeF) | 将指定的[`SizeF`](../sizef)结构转换为[`Size`](../size)通过将[`Size`](../size)结构的值四舍五入到下一个更高的整数值来构建结构。 |
-| static [Round](../../aspose.imaging/size/round)(SizeF) | 将指定的[`SizeF`](../sizef)结构转换为[`Size`](../size)通过将[`SizeF`](../sizef)结构的值四舍五入为最接近的整数值来构建结构。 |
-| static [Subtract](../../aspose.imaging/size/subtract)(Size, Size) | 从另一个:::R5 的宽度和高度中减去一个[`Size`](../size)结构的宽度和高度:T:Aspose.Imaging.Size:::结构。 |
-| static [Truncate](../../aspose.imaging/size/truncate)(SizeF) | 将指定的[`SizeF`](../sizef)结构转换为[`Size`](../size)结构，将[`SizeF`](../sizef)结构的值截断为下一个较低的整数值。 |
-| override [Equals](../../aspose.imaging/size/equals)(object) | 测试指定对象是否为[`Size`](../size)与此[`Size`](../size)。 |
-| override [GetHashCode](../../aspose.imaging/size/gethashcode)() | 返回此[`Size`](../size)结构的哈希码。 |
-| override [ToString](../../aspose.imaging/size/tostring)() | 创建一个人类可读的字符串来表示这个[`Size`](../size)。 |
-| [operator +](../../aspose.imaging/size/op_addition) | 将一个[`Size`](../size)结构的宽度和高度添加到另一个:::R5 的宽度和高度:T:Aspose.Imaging.Size:::结构。 |
-| [operator ==](../../aspose.imaging/size/op_equality) | 测试两个[`Size`](../size)结构是否相等。 |
-| [explicit operator](../../aspose.imaging/size/op_explicit) | 将指定的[`Size`](../size)转换为[`Point`](../point). |
-| [implicit operator](../../aspose.imaging/size/op_implicit) | 将指定的[`Size`](../size)转换为[`SizeF`](../sizef). |
-| [operator !=](../../aspose.imaging/size/op_inequality) | 测试两个[`Size`](../size)结构是否不同。 |
-| [operator -](../../aspose.imaging/size/op_subtraction) | 从另一个:::R5 的宽度和高度中减去一个[`Size`](../size)结构的宽度和高度:T:Aspose.Imaging.Size:::结构。 |
+| static [Add](../../aspose.imaging/size/add)(Size, Size) | 加一的宽和高[`Size`](../size)结构到另一个的宽度和高度[`Size`](../size)结构. |
+| static [Ceiling](../../aspose.imaging/size/ceiling)(SizeF) | 转换指定的[`SizeF`](../sizef)结构为[`Size`](../size)通过四舍五入的值的结构[`Size`](../size)结构到下一个更高的整数值。 |
+| static [Round](../../aspose.imaging/size/round)(SizeF) | 转换指定的[`SizeF`](../sizef)结构为[`Size`](../size)通过四舍五入的值的结构[`SizeF`](../sizef)结构到最接近的整数值。 |
+| static [Subtract](../../aspose.imaging/size/subtract)(Size, Size) | 减去一个的宽度和高度[`Size`](../size)结构从另一个的宽度和高度[`Size`](../size)结构. |
+| static [Truncate](../../aspose.imaging/size/truncate)(SizeF) | 转换指定的[`SizeF`](../sizef)结构为[`Size`](../size)通过截断的值的结构[`SizeF`](../sizef)结构到下一个较低的整数值。 |
+| override [Equals](../../aspose.imaging/size/equals)(object) | 测试指定对象是否为[`Size`](../size)与此尺寸相同[`Size`](../size) . |
+| override [GetHashCode](../../aspose.imaging/size/gethashcode)() | 为此返回哈希码[`Size`](../size)结构. |
+| override [ToString](../../aspose.imaging/size/tostring)() | 创建一个人类可读的字符串来表示这个[`Size`](../size) . |
+| [operator +](../../aspose.imaging/size/op_addition) | 加一的宽和高[`Size`](../size)结构到另一个的宽度和高度[`Size`](../size)结构. |
+| [operator ==](../../aspose.imaging/size/op_equality) | 测试是否两个[`Size`](../size)结构是平等的。 |
+| [explicit operator](../../aspose.imaging/size/op_explicit) | 转换指定的[`Size`](../size)到一个[`Point`](../point) . |
+| [implicit operator](../../aspose.imaging/size/op_implicit) | 转换指定的[`Size`](../size)到一个[`SizeF`](../sizef) . |
+| [operator !=](../../aspose.imaging/size/op_inequality) | 测试是否两个[`Size`](../size)结构不同。 |
+| [operator -](../../aspose.imaging/size/op_subtraction) | 减去一个的宽度和高度[`Size`](../size)结构从另一个的宽度和高度[`Size`](../size)结构. |
 
 ### 也可以看看
 

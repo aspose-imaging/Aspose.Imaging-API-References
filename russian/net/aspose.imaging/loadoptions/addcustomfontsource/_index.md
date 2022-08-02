@@ -1,14 +1,14 @@
 ---
 title: AddCustomFontSource
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Добавляет пользовательский источник шрифтов для предоставления шрифтов специфичных для изображения.
+description: Добавляет пользовательский источник шрифта для предоставления шрифтов специфичных для изображения.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging/loadoptions/addcustomfontsource/
 ---
 ## LoadOptions.AddCustomFontSource method
 
-Добавляет пользовательский источник шрифтов для предоставления шрифтов, специфичных для изображения.
+Добавляет пользовательский источник шрифта для предоставления шрифтов, специфичных для изображения.
 
 ```csharp
 public void AddCustomFontSource(CustomFontSource source, params object[] args)

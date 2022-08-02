@@ -3,7 +3,7 @@ title: XmpDate
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет дату в пакете XMP.
 type: docs
-weight: 11470
+weight: 11460
 url: /ru/net/aspose.imaging.xmp.types.basic/xmpdate/
 ---
 ## XmpDate class
@@ -18,8 +18,8 @@ public sealed class XmpDate : XmpTypeBase
 
 | Имя | Описание |
 | --- | --- |
-| [XmpDate](xmpdate#constructor)(DateTime) | Инициализирует новый экземпляр класса[`XmpDate`](../xmpdate). |
-| [XmpDate](xmpdate#constructor_1)(string) | Инициализирует новый экземпляр класса[`XmpDate`](../xmpdate). |
+| [XmpDate](xmpdate#constructor)(DateTime) | Инициализирует новый экземпляр[`XmpDate`](../xmpdate) класс. |
+| [XmpDate](xmpdate#constructor_1)(string) | Инициализирует новый экземпляр[`XmpDate`](../xmpdate) класс. |
 
 ## Характеристики
 
@@ -42,7 +42,7 @@ public sealed class XmpDate : XmpTypeBase
 
 ### Примечания
 
-Значение даты и времени представляется с использованием подмножества форматов, определенных в Форматах даты и времени.: ГГГГ ГГГГ-ММ ГГГГ-ММ-ДД ГГГГ-ММ-ДДThh:mmTZD YYYY-MM-DDThh:mm:ssTZD YYYY-MM-DDThh:mm:ss.sTZD
+Значение даты и времени представляется с использованием подмножества форматов, определенных в Форматах даты и времени: ГГГГ ГГГГ-ММ ГГГГ-ММ-ДД ГГГГ-ММ-ДДThh:mmTZD YYYY-MM-DDThh:mm:ssTZD_x000-d_ YYYY ММ-ДДТчч:мм:сс.sTZD
 
 ### Смотрите также
 

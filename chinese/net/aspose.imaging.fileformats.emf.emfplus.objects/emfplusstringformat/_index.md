@@ -1,14 +1,14 @@
 ---
 title: EmfPlusStringFormat
 second_title: Aspose.Imaging for .NET API 参考
-description: EmfPlusStringFormat 对象指定文本布局 显示操作和语言识别
+description: EmfPlusStringFormat 对象指定文本布局 显示操作和语言标识
 type: docs
 weight: 5780
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/
 ---
 ## EmfPlusStringFormat class
 
-EmfPlusStringFormat 对象指定文本布局、 显示操作和语言识别
+EmfPlusStringFormat 对象指定文本布局、 显示操作和语言标识
 
 ```csharp
 public sealed class EmfPlusStringFormat : EmfPlusGraphicsObjectType
@@ -24,21 +24,21 @@ public sealed class EmfPlusStringFormat : EmfPlusGraphicsObjectType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DigitLanguage](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/digitlanguage) { get; set; } | 获取或设置一个 EmfPlusLanguageIdentifier 对象，该对象指定用于字符串中数字的 语言。 例如，如果此字符串包含阿拉伯数字，则 此字段必须包含语言标识符 指定阿拉伯语 |
-| [DigitSubstitution](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/digitsubstitution) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定如何根据区域设置或语言替换字符串中的 数字。 这个值必须在 StringDigitSubstitution 枚举中定义（第 2.1.1.30 节）。 |
-| [FirstTabOffset](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/firsttaboffset) { get; set; } | 获取或设置一个 32 位浮点值，该值指定文本行开头和:::之间的空格数 47:::第一个制表位 |
-| [HotkeyPrefix](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/hotkeyprefix) { get; set; } | 获取或设置一个 32 位有符号整数，该整数指定 处理的类型，当键盘 快捷键前缀（即 , 一个 &amp; 符号) 遇到。 基本上，此字段指定是否显示与文本相关的 键盘快捷键前缀。 该值必须在 HotkeyPrefix 枚举中定义（第 2.1.1.14 节）。 |
-| [Language](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/language) { get; set; } | 获取或设置 EmfPlusLanguageIdentifier 对象（第 2.2.2.23 节） 指定用于字符串 的语言 |
-| [LeadingMargin](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/leadingmargin) { get; set; } | 获取或设置一个 32 位浮点值，该值指定要添加到字符串起始位置的空间长度 。 默认为 1/6 英寸；对于印刷字体， 默认值为 0。 |
-| [LineAlign](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/linealign) { get; set; } | 获取或设置一个 32 位无符号整数，指定如何在布局矩形中垂直对齐 字符串。 这个值必须在 StringAlignment 枚举中定义。 |
-| [RangeCount](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/rangecount) { get; set; } | 获取或设置一个 32 位有符号整数，该整数指定在 StringFormatData 字段中定义的 EmfPlusCharacterRange 对象（第 2.2.2.8 节）的数量。 |
-| [StringAlignment](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/stringalignment) { get; set; } | 获取或设置一个 32 位无符号整数，指定如何在布局矩形中水平对齐字符串 。 这个值必须在 StringAlignment 枚举中定义（第 2.1.1.29 节）。 |
+| [DigitLanguage](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/digitlanguage) { get; set; } | 获取或设置 EmfPlusLanguageIdentifier 对象，该对象指定 用于字符串中数字的语言。 例如，如果此字符串包含阿拉伯数字， 此字段必须包含 指定阿拉伯语的语言标识符 |
+| [DigitSubstitution](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/digitsubstitution) { get; set; } | 获取或设置一个 32 位无符号整数，它指定如何根据语言环境或语言替换字符串中的 数字。 该值必须在 StringDigitSubstitution 枚举（第 2.1.1.30 节）中定义。 |
+| [FirstTabOffset](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/firsttaboffset) { get; set; } | 获取或设置一个 32 位浮点值，该值指定文本行开头和 第一个制表位之间的空格数 |
+| [HotkeyPrefix](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/hotkeyprefix) { get; set; } | 获取或设置一个 32 位有符号整数，它指定在遇到 keyboard 快捷键前缀（即 &amp; 符号）时对字符串执行的 处理类型。 基本上，该字段指定是否显示 键盘快捷键前缀与文本相关。 该值必须在 HotkeyPrefix 枚举中定义（第 2.1.1.14 节）。 |
+| [Language](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/language) { get; set; } | 获取或设置一个 EmfPlusLanguageIdentifier 对象（第 2.2.2.23 节） ，它指定用于字符串的语言 |
+| [LeadingMargin](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/leadingmargin) { get; set; } | 获取或设置一个 32 位浮点值，指定要添加到字符串起始位置的空间长度 。 默认为 1/6 英寸；对于印刷字体， 默认值为 0. |
+| [LineAlign](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/linealign) { get; set; } | 获取或设置一个 32 位无符号整数，它指定如何在布局矩形中 垂直对齐字符串。 该值必须在 StringAlignment 枚举中定义。 |
+| [RangeCount](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/rangecount) { get; set; } | 获取或设置一个 32 位有符号整数，它指定在 StringFormatData 字段中定义的 EmfPlusCharacterRange 对象（第 2.2.2.8 节）的数量。 |
+| [StringAlignment](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/stringalignment) { get; set; } | 获取或设置一个 32 位无符号整数，指定如何在布局矩形中水平对齐字符串。 必须在 StringAlignment 枚举（第 2.1.1.29 节）中定义此值。 |
 | [StringFormatData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/stringformatdata) { get; set; } | 获取或设置指定可选文本布局数据的 EmfPlusStringFormatData 对象（第 2.2.2.44 节） 。 |
-| [StringFormatFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/stringformatflags) { get; set; } | 获取或设置一个 32 位无符号整数，指定文本布局 用于格式化、剪辑和字体处理的选项。 该值必须由 StringFormat 标志 组成（第 2.1.2.8 节）。 |
-| [TabstopCount](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/tabstopcount) { get; set; } | 获取或设置一个 32 位有符号整数，它指定在 StringFormatData 字段中定义的制表位 的数量。 |
-| [Tracking](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/tracking) { get; set; } | 获取或设置一个 32 位浮点值，该值指定分配给:::47 中每个字符的水平空间比例 :::指定字符串到 字符的字体定义宽度。此属性的较大值指定字符之间有足够的 空间；小于 1 的值会产生 字符重叠。默认为 1.03；对于印刷字体 字体，默认值为 1.00。 |
-| [TrailingMargin](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/trailingmargin) { get; set; } | 获取或设置一个 32 位浮点值，该值指定字符串后面要离开的空间的长度 。默认 为 1/6 英寸；对于印刷字体，默认值为 0。 |
-| [Trimming](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/trimming) { get; set; } | 获取或设置指定如何从 太大而无法放入布局矩形的字符串中修剪字符。这个值 必须在 StringTrimming 枚举中定义（第 2.1.1.31 节）。 |
+| [StringFormatFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/stringformatflags) { get; set; } | 获取或设置一个 32 位无符号整数，用于指定文本布局 用于格式化、剪辑和字体处理的选项。 此值必须由 StringFormat flags （第 2.1.2.8 节）组成。 |
+| [TabstopCount](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/tabstopcount) { get; set; } | 获取或设置一个 32 位有符号整数，它指定在 StringFormatData 字段中定义的制表位的数量 。 |
+| [Tracking](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/tracking) { get; set; } | 获取或设置一个 32 位浮点值，该值指定在 指定字符串中分配给每个字符的水平空间与 字符的字体定义宽度的比率 。此属性的较大值指定字符之间有充足的 空间；小于 1 的值会产生 字符重叠。默认为 1.03；对于 typographic 字体，默认值为 1.00. |
+| [TrailingMargin](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/trailingmargin) { get; set; } | 获取或设置一个 32 位浮点值，该值指定字符串后面要离开的空间的 length 。 default 为 1/6 英寸；对于印刷字体，默认值为 0. |
+| [Trimming](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/trimming) { get; set; } | 获取或设置指定如何从字符串中修剪字符，因为 太大而无法放入布局矩形。此 value 必须在 StringTrimming 枚举（第 2.1.1.31 节）中定义。 |
 | [Version](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsobjecttype/version) { get; set; } | 获取或设置版本。 |
 
 ### 也可以看看

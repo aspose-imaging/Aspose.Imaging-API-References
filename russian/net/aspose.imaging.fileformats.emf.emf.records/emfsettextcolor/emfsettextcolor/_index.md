@@ -1,14 +1,14 @@
 ---
 title: EmfSetTextColor
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetTextColoraspose.imaging.fileformats.emf.emf.records/emfsettextcolor.
+description: Инициализирует новый экземплярEmfSetTextColoraspose.imaging.fileformats.emf.emf.records/emfsettextcolor класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsettextcolor/emfsettextcolor/
 ---
 ## EmfSetTextColor(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfSetTextColor`](../../emfsettextcolor).
+Инициализирует новый экземпляр[`EmfSetTextColor`](../../emfsettextcolor) класс.
 
 ```csharp
 public EmfSetTextColor(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfSetTextColor(EmfRecord source)
 
 ## EmfSetTextColor() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfSetTextColor`](../../emfsettextcolor).
+Инициализирует новый экземпляр[`EmfSetTextColor`](../../emfsettextcolor) класс.
 
 ```csharp
 public EmfSetTextColor()

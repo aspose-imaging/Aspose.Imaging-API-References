@@ -16,7 +16,7 @@ public override Image[] Pages { get; }
 
 ### 适当的价值
 
-页面。
+页数。
 
 ### 例子
 
@@ -27,15 +27,15 @@ public override Image[] Pages { get; }
 
 string dir = "c:\\temp\\";
 
-    // 从文件流加载 DJVU 图像。
+// 从文件流加载 DJVU 图像。
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
 {
     using (Aspose.Imaging.FileFormats.Djvu.DjvuImage djvuImage = new Aspose.Imaging.FileFormats.Djvu.DjvuImage(stream))
     {
-            // 将每个页面保存为单独的 PNG 图像。
+        // 将每个页面保存为单独的 PNG 图像。
         foreach (Aspose.Imaging.FileFormats.Djvu.DjvuPage djvuPage in djvuImage.Pages)
         {
-                // 根据页码生成文件名.
+            // 根据页码生成文件名。
             string fileName = string.Format("sample.{0}.png", djvuPage.PageNumber);
             djvuPage.Save(dir + fileName, new Aspose.Imaging.ImageOptions.PngOptions());
         }

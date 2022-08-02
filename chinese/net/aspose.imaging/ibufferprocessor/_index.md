@@ -1,14 +1,14 @@
 ---
 title: IBufferProcessor
 second_title: Aspose.Imaging for .NET API 参考
-description: 缓冲区处理器
+description: 缓冲处理器
 type: docs
 weight: 9430
 url: /zh/net/aspose.imaging/ibufferprocessor/
 ---
 ## IBufferProcessor interface
 
-缓冲区处理器。
+缓冲处理器。
 
 ```csharp
 public interface IBufferProcessor

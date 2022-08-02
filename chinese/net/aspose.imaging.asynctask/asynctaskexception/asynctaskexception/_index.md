@@ -1,14 +1,14 @@
 ---
 title: AsyncTaskException
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化AsyncTaskExceptionaspose.imaging.asynctask/asynctaskexception类的新实例
+description: 初始化AsyncTaskExceptionaspose.imaging.asynctask/asynctaskexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.asynctask/asynctaskexception/asynctaskexception/
 ---
 ## AsyncTaskException constructor
 
-初始化[`AsyncTaskException`](../../asynctaskexception)类的新实例。
+初始化[`AsyncTaskException`](../../asynctaskexception)类.
 
 ```csharp
 public AsyncTaskException(string message)

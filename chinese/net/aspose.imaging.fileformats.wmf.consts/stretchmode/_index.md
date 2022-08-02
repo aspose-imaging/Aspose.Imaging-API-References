@@ -1,14 +1,14 @@
 ---
 title: StretchMode
 second_title: Aspose.Imaging for .NET API 参考
-description: StretchMode./stretchmode枚举指定位图 拉伸模式它定义了系统如何将位图的行或列 与现有像素组合在一起
+description: 的StretchMode./stretchmode枚举指定bitmap 拉伸模式它定义了系统如何将位图的行或列 与现有像素结合
 type: docs
 weight: 8090
 url: /zh/net/aspose.imaging.fileformats.wmf.consts/stretchmode/
 ---
 ## StretchMode enumeration
 
-[`StretchMode`](../stretchmode)枚举指定位图 拉伸模式，它定义了系统如何将位图的行或列 与现有像素组合在一起。
+的[`StretchMode`](../stretchmode)枚举指定bitmap 拉伸模式，它定义了系统如何将位图的行或列 与现有像素结合。
 
 ```csharp
 public enum StretchMode
@@ -18,10 +18,10 @@ public enum StretchMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| BlackOnWhite | `1` | 使用 已消除像素和现有像素的颜色值执行布尔 AND 运算。如果位图是单色 位图，此模式会保留黑色像素，但会牺牲白色 像素 |
-| WhiteOnBlack | `2` | 使用 已消除像素和现有像素的颜色值执行布尔 OR 运算。如果位图是单色 位图，此模式会保留白色像素，但会牺牲黑色 像素 |
-| ColorOnColor | `3` | 删除像素。此模式会删除所有消除的像素行 而不尝试保留其信息。 |
-| HalfTone | `4` | 将源矩形中的像素映射到 目标矩形中的像素块。目标块 像素的平均颜色近似于源像素的颜色。 |
+| BlackOnWhite | `1` | 使用 已消除像素和现有像素的颜色值执行布尔与运算。如果位图是单色 位图，此模式会保留黑色像素，但会牺牲 white pixels |
+| WhiteOnBlack | `2` | 使用 已消除像素和现有像素的颜色值执行布尔或运算。如果位图是单色 位图，此模式会保留白色像素，但会牺牲 black pixels |
+| ColorOnColor | `3` | 删除像素。此模式会删除所有消除的像素 行，而不尝试保留它们的信息。 |
+| HalfTone | `4` | 将源矩形中的像素映射到 目标矩形中的像素块。目标像素块 上的平均颜色接近源像素的颜色。 |
 
 ### 也可以看看
 

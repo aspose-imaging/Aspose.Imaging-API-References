@@ -1,14 +1,14 @@
 ---
 title: Jpeg2000Options
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаJpeg2000Optionsaspose.imaging.imageoptions/jpeg2000options.
+description: Инициализирует новый экземплярJpeg2000Optionsaspose.imaging.imageoptions/jpeg2000options класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.imageoptions/jpeg2000options/jpeg2000options/
 ---
 ## Jpeg2000Options() {#constructor}
 
-Инициализирует новый экземпляр класса[`Jpeg2000Options`](../../jpeg2000options).
+Инициализирует новый экземпляр[`Jpeg2000Options`](../../jpeg2000options) класс.
 
 ```csharp
 public Jpeg2000Options()
@@ -24,7 +24,7 @@ public Jpeg2000Options()
 
 ## Jpeg2000Options(Jpeg2000Options) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`Jpeg2000Options`](../../jpeg2000options).
+Инициализирует новый экземпляр[`Jpeg2000Options`](../../jpeg2000options) класс.
 
 ```csharp
 public Jpeg2000Options(Jpeg2000Options jpeg2000Options)
@@ -32,7 +32,7 @@ public Jpeg2000Options(Jpeg2000Options jpeg2000Options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| jpeg2000Options | Jpeg2000Options | Параметры формата файла Jpeg2000, из которого копируются настройки. |
+| jpeg2000Options | Jpeg2000Options | Параметры формата файла Jpeg2000, из которых копируются настройки. |
 
 ### Смотрите также
 

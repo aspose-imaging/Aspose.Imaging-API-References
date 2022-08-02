@@ -24,24 +24,24 @@ public class CmxRasterImage : ICmxObjectSpec
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BitsPerPixel](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/bitsperpixel) { get; set; } | 获取或设置每个像素的位数。 |
+| [BitsPerPixel](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/bitsperpixel) { get; set; } | 获取或设置每像素的位数。 |
 | [BytesPerLine](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/bytesperline) { get; set; } | 获取或设置行的大小。 以字节为单位。 |
 | [ColorModel](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/colormodel) { get; set; } | 获取或设置颜色模型。 |
-| [ColorPalette](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/colorpalette) { get; set; } | 获取或设置调色板数组。 元素是在Int32 |
+| [ColorPalette](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/colorpalette) { get; set; } | 获取或设置调色板数组。 元素是ARGB颜色值，表示在Int32 |
 | [CompressedSize](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/compressedsize) { get; set; } | 获取或设置图像的压缩大小。 以字节为单位。 |
 | [Compression](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/compression) { get; set; } | 获取或设置压缩。 |
 | [Height](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/height) { get; set; } | 获取或设置图像的高度。 以像素为单位。 |
-| [IsMask](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/ismask) { get; set; } | 获取或设置一个指示此实例是否为掩码的值。 |
+| [IsMask](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/ismask) { get; set; } | 获取或设置一个值，指示此实例是否为掩码。 |
 | [RawData](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/rawdata) { get; set; } | 获取或设置图像的原始字节数据。 |
 | [Size](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/size) { get; set; } | 获取或设置图像的大小。 以字节为单位。 |
-| [Type](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/type) { get; set; } | 获取或设置图像的类型。 |
+| [Type](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/type) { get; set; } | 获取或设置图片的类型。 |
 | [Width](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/width) { get; set; } | 获取或设置图像的宽度。 以像素为单位。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/tostring)() | 返回代表此实例的String。 |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/tostring)() | 返回一个String代表这个实例。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: SetKey
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Устанавливает тональность звука.
+description: Устанавливает музыкальную тональность аудио.
 type: docs
 weight: 260
 url: /ru/net/aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setkey/
 ---
 ## XmpDynamicMediaPackage.SetKey method
 
-Устанавливает тональность звука.
+Устанавливает музыкальную тональность аудио.
 
 ```csharp
 public void SetKey(string key)
@@ -16,7 +16,7 @@ public void SetKey(string key)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | String | Музыкальный ключ аудио. Один из:C, C#, D, D#, E, F, F#, G, G#, A, A# и B. |
+| key | String | Музыкальный ключ аудио. Один из: C, C#, D, D#, E, F, F#, G, G#, A, A# и B. |
 
 ### Смотрите также
 

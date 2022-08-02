@@ -1,14 +1,14 @@
 ---
 title: OptionalData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置可选 EmfPlusCustomLineCapOptionalData 对象第 2.2.2.14 节 指定自定义图形线帽的附加数据 T 该字段的具体内容由 CustomLineCapDataFlags 字段的值决定 
+description: 获取或设置可选的 EmfPlusCustomLineCapOptionalData 对象第 2.2.2.14 节 指定自定义图形线帽的附加数据 T 该字段的具体内容 由CustomLineCapDataFlags字段的值决定
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/optionaldata/
 ---
 ## EmfPlusCustomLineCapData.OptionalData property
 
-获取或设置可选 EmfPlusCustomLineCapOptionalData 对象（第 2.2.2.14 节） 指定自定义图形线帽的附加数据。 T 该字段的具体内容由 CustomLineCapDataFlags 字段的值决定 。
+获取或设置可选的 EmfPlusCustomLineCapOptionalData 对象（第 2.2.2.14 节） 指定自定义图形线帽的附加数据。 T 该字段的具体内容 由CustomLineCapDataFlags字段的值决定
 
 ```csharp
 public EmfPlusCustomLineCapOptionalData OptionalData { get; set; }

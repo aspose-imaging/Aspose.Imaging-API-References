@@ -1,14 +1,14 @@
 ---
 title: EmfArc
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfArcaspose.imaging.fileformats.emf.emf.records/emfarc类的新实例
+description: 初始化EmfArcaspose.imaging.fileformats.emf.emf.records/emfarc类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfarc/emfarc/
 ---
 ## EmfArc(EmfRecord) {#constructor_1}
 
-初始化[`EmfArc`](../../emfarc)类的新实例。
+初始化[`EmfArc`](../../emfarc)类.
 
 ```csharp
 public EmfArc(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfArc(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfArc(EmfRecord source)
 
 ## EmfArc() {#constructor}
 
-初始化[`EmfArc`](../../emfarc)类的新实例。
+初始化[`EmfArc`](../../emfarc)类.
 
 ```csharp
 public EmfArc()

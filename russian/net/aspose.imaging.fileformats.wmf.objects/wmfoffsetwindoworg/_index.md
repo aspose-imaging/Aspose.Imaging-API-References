@@ -1,14 +1,14 @@
 ---
 title: WmfOffsetWindowOrg
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_OFFSETWINDOWORG перемещает начало окна вывода в контексте устройства воспроизведения на указанные смещения по горизонтали и вертикали.
+description: Запись META_OFFSETWINDOWORG перемещает исходную точку выходного окна в контексте устройства воспроизведения на указанные смещения по горизонтали и вертикали.
 type: docs
 weight: 8810
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfoffsetwindoworg/
 ---
 ## WmfOffsetWindowOrg class
 
-Запись META_OFFSETWINDOWORG перемещает начало окна вывода в контексте устройства воспроизведения на указанные смещения по горизонтали и вертикали.
+Запись META_OFFSETWINDOWORG перемещает исходную точку выходного окна в контексте устройства воспроизведения на указанные смещения по горизонтали и вертикали.
 
 ```csharp
 public class WmfOffsetWindowOrg : WmfPointObject
@@ -24,7 +24,7 @@ public class WmfOffsetWindowOrg : WmfPointObject
 
 | Имя | Описание |
 | --- | --- |
-| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или задает точку. |
+| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или устанавливает точку. |
 
 ### Смотрите также
 

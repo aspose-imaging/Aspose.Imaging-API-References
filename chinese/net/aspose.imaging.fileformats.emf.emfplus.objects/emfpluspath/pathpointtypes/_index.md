@@ -1,14 +1,14 @@
 ---
 title: PathPointTypes
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个数组该数组指定如何使用 PathPoints 字段中的点绘制路径 此数组中的对象类型由 PathPointFlags 字段中的 R 标志指定
+description: 获取或设置一个数组该数组指定如何使用 PathPoints 字段中的点绘制路径 该数组中的对象类型由 PathPointFlags 字段中的 R 标志指定
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath/pathpointtypes/
 ---
 ## EmfPlusPath.PathPointTypes property
 
-获取或设置一个数组，该数组指定如何使用 PathPoints 字段中的点绘制路径。 此数组中的对象类型由 PathPointFlags 字段中的 R 标志指定
+获取或设置一个数组，该数组指定如何使用 PathPoints 字段中的点绘制路径。 该数组中的对象类型由 PathPointFlags 字段中的 R 标志指定
 
 ```csharp
 public EmfPlusBasePointType[] PathPointTypes { get; set; }

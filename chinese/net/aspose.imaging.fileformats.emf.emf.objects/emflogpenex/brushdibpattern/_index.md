@@ -16,7 +16,7 @@ public WmfDeviceIndependentBitmap BrushDibPattern { get; set; }
 
 ### 适当的价值
 
-画笔 dib 图案。
+笔刷 dib 图案。
 
 ### 也可以看看
 

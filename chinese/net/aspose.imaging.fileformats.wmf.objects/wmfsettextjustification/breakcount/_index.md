@@ -1,14 +1,14 @@
 ---
 title: BreakCount
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 ltsee langwordbreak /gt 计数
+description: 获取或设置break计数.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfsettextjustification/breakcount/
 ---
 ## WmfSetTextJustification.BreakCount property
 
-获取或设置 &lt;see langword="break" /&gt; 计数。
+获取或设置`break`计数.
 
 ```csharp
 public int BreakCount { get; set; }
@@ -16,7 +16,7 @@ public int BreakCount { get; set; }
 
 ### 适当的价值
 
-&lt;see langword="break" /&gt; 计数。
+的`break`计数.
 
 ### 也可以看看
 

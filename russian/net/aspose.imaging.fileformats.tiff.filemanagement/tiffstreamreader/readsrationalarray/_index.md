@@ -1,14 +1,14 @@
 ---
 title: ReadSRationalArray
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Считывает из потока массив рациональных значений со знаком.
+description: Считывает массив рациональных значений со знаком из потока.
 type: docs
 weight: 160
 url: /ru/net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsrationalarray/
 ---
 ## TiffStreamReader.ReadSRationalArray method
 
-Считывает из потока массив рациональных значений со знаком.
+Считывает массив рациональных значений со знаком из потока.
 
 ```csharp
 public TiffSRational[] ReadSRationalArray(long position, long count)
@@ -17,7 +17,7 @@ public TiffSRational[] ReadSRationalArray(long position, long count)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | position | Int64 | Позиция для чтения. |
-| count | Int64 | Количество элементов. |
+| count | Int64 | Элементы считаются. |
 
 ### Возвращаемое значение
 

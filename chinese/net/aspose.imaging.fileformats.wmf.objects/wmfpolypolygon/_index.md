@@ -26,7 +26,7 @@ public class WmfPolyPolygon : WmfObject
 | --- | --- |
 | [APoints](../../aspose.imaging.fileformats.wmf.objects/wmfpolypolygon/apoints) { get; set; } | 获取或设置一个点。 |
 | [APointsPerPolygon](../../aspose.imaging.fileformats.wmf.objects/wmfpolypolygon/apointsperpolygon) { get; set; } | 获取或设置每个多边形的点。 |
-| [NumberOfPolygons](../../aspose.imaging.fileformats.wmf.objects/wmfpolypolygon/numberofpolygons) { get; set; } | 获取或设置多边形的数量。 对象中的多边形数量。 |
+| [NumberOfPolygons](../../aspose.imaging.fileformats.wmf.objects/wmfpolypolygon/numberofpolygons) { get; set; } | 获取或设置多边形的数量。 对象中的多边形数。 |
 
 ### 也可以看看
 

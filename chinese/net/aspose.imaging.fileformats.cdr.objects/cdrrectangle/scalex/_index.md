@@ -1,14 +1,14 @@
 ---
 title: ScaleX
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置比例 x
+description: 获取或设置刻度x.
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrrectangle/scalex/
 ---
 ## CdrRectangle.ScaleX property
 
-获取或设置比例 x。
+获取或设置刻度x.
 
 ```csharp
 public double ScaleX { get; set; }
@@ -16,7 +16,7 @@ public double ScaleX { get; set; }
 
 ### 适当的价值
 
-比例 x。
+比例尺 x.
 
 ### 也可以看看
 

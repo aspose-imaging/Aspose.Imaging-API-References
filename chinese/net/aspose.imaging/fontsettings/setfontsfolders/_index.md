@@ -1,14 +1,14 @@
 ---
 title: SetFontsFolders
 second_title: Aspose.Imaging for .NET API 参考
-description: 设置加载 TrueType 字体的文件夹并清除所有加载的字体 没有对字体文件夹进行检查
+description: 设置加载 TrueType 字体的文件夹并清除所有加载的字体 没有对字体文件夹执行检查
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging/fontsettings/setfontsfolders/
 ---
 ## FontSettings.SetFontsFolders method
 
-设置加载 TrueType 字体的文件夹并清除所有加载的字体。 没有对字体文件夹进行检查。
+设置加载 TrueType 字体的文件夹并清除所有加载的字体。 没有对字体文件夹执行检查。
 
 ```csharp
 public static void SetFontsFolders(string[] fontsFolders, bool recursive)
@@ -17,7 +17,7 @@ public static void SetFontsFolders(string[] fontsFolders, bool recursive)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontsFolders | String[] | 字体文件夹。 |
-| recursive | Boolean | 如果设置为` true` [递归]。 |
+| recursive | Boolean | 如果设置为`真的` [递归]。 |
 
 ### 也可以看看
 

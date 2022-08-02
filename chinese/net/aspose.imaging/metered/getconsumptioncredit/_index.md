@@ -1,14 +1,14 @@
 ---
 title: GetConsumptionCredit
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取消费信用
+description: 获取消费额度
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging/metered/getconsumptioncredit/
 ---
 ## Metered.GetConsumptionCredit method
 
-获取消费信用
+获取消费额度
 
 ```csharp
 public static decimal GetConsumptionCredit()
@@ -16,7 +16,7 @@ public static decimal GetConsumptionCredit()
 
 ### 返回值
 
-消费数量
+消费量
 
 ### 也可以看看
 

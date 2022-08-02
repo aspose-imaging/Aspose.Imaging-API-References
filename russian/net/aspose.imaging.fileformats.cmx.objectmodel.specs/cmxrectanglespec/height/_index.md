@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает высоту прямоугольника. Меры в общепринятых единицах расстояния документа.
+description: Получает или задает высоту прямоугольника. Измеряет в общепринятых единицах измерения расстояния документа.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/height/
 ---
 ## CmxRectangleSpec.Height property
 
-Получает или задает высоту прямоугольника. Меры в общепринятых единицах расстояния документа.
+Получает или задает высоту прямоугольника. Измеряет в общепринятых единицах измерения расстояния документа.
 
 ```csharp
 public float Height { get; set; }

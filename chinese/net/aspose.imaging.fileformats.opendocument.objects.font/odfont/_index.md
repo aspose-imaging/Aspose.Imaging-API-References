@@ -24,11 +24,11 @@ public class OdFont
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bold](../../aspose.imaging.fileformats.opendocument.objects.font/odfont/bold) { get; set; } | 获取或设置一个值，该值指示此[`OdFont`](../odfont)是否为权重。 |
+| [Bold](../../aspose.imaging.fileformats.opendocument.objects.font/odfont/bold) { get; set; } | 获取或设置一个值，该值指示是否[`OdFont`](../odfont)是重量。 |
 | [Facename](../../aspose.imaging.fileformats.opendocument.objects.font/odfont/facename) { get; set; } | 获取或设置人脸名称。 |
 | [Height](../../aspose.imaging.fileformats.opendocument.objects.font/odfont/height) { get; set; } | 获取或设置高度。 |
-| [Italic](../../aspose.imaging.fileformats.opendocument.objects.font/odfont/italic) { get; set; } | 获取或设置一个值，该值指示此[`OdFont`](../odfont)是否为斜体。 |
-| [Strikeout](../../aspose.imaging.fileformats.opendocument.objects.font/odfont/strikeout) { get; set; } | 获取或设置一个值，该值指示此[`OdFont`](../odfont)是否为删除线。 |
+| [Italic](../../aspose.imaging.fileformats.opendocument.objects.font/odfont/italic) { get; set; } | 获取或设置一个值，该值指示是否[`OdFont`](../odfont)是斜体。 |
+| [Strikeout](../../aspose.imaging.fileformats.opendocument.objects.font/odfont/strikeout) { get; set; } | 获取或设置一个值，该值指示是否[`OdFont`](../odfont)是三振出局。 |
 
 ### 也可以看看
 

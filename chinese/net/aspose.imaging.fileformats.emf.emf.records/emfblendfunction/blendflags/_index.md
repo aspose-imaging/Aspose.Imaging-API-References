@@ -1,14 +1,14 @@
 ---
 title: BlendFlags
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取混合标志 这个值必须是 0x00 并且必须被忽略
+description: 获取混合标志 该值必须为 0x00并且必须被忽略
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfblendfunction/blendflags/
 ---
 ## EmfBlendFunction.BlendFlags property
 
-获取混合标志。 这个值必须是 0x00 并且必须被忽略。
+获取混合标志。 该值必须为 0x00，并且必须被忽略。
 
 ```csharp
 public byte BlendFlags { get; }

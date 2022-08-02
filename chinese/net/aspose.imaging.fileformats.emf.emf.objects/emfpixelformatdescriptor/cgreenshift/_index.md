@@ -1,14 +1,14 @@
 ---
 title: CGreenShift
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 指定每个 RGBA 颜色缓冲区中绿色位平面的移位计数
+description: 获取或设置指定每个 RGBA 颜色缓冲区中绿色位平面的移位计数
 type: docs
 weight: 160
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/cgreenshift/
 ---
 ## EmfPixelFormatDescriptor.CGreenShift property
 
-获取或设置 指定每个 RGBA 颜色缓冲区中绿色位平面的移位计数。
+获取或设置指定每个 RGBA 颜色缓冲区中绿色位平面的移位计数。
 
 ```csharp
 public byte CGreenShift { get; set; }

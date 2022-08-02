@@ -1,14 +1,14 @@
 ---
 title: APoints
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 WMF PointS 对象的 Count 长度数组在 MS-WMF 2.2.2.16 节中指定它指定了数组的点
+description: 获取或设置 WMF PointS 对象的 Count 长度数组在 MS-WMF 2.2.2.16 节中指定它指定点数组
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfpolygon16/apoints/
 ---
 ## EmfPolygon16.APoints property
 
-获取或设置 WMF PointS 对象的 Count 长度数组，在 [MS-WMF] 2.2.2.16 节中指定，它指定了数组的点。
+获取或设置 WMF PointS 对象的 Count 长度数组，在 [MS-WMF] 2.2.2.16 节中指定，它指定点数组。
 
 ```csharp
 public Point[] APoints { get; set; }

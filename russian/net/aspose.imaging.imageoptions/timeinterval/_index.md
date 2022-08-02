@@ -3,7 +3,7 @@ title: TimeInterval
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет интервал времени в миллисекундах
 type: docs
-weight: 10260
+weight: 10250
 url: /ru/net/aspose.imaging.imageoptions/timeinterval/
 ---
 ## TimeInterval class
@@ -18,18 +18,18 @@ public class TimeInterval
 
 | Имя | Описание |
 | --- | --- |
-| [TimeInterval](timeinterval)(uint, uint) | Инициализирует новый экземпляр класса[`TimeInterval`](../timeinterval). |
+| [TimeInterval](timeinterval)(uint, uint) | Инициализирует новый экземпляр[`TimeInterval`](../timeinterval) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [From](../../aspose.imaging.imageoptions/timeinterval/from) { get; set; } | Получает или задает From миллисекунд. |
+| [From](../../aspose.imaging.imageoptions/timeinterval/from) { get; set; } | Получает или задает из миллисекунд. |
 | [To](../../aspose.imaging.imageoptions/timeinterval/to) { get; set; } | Получает или задает значение в миллисекундах. |
 
 ### Примеры
 
-Экспорт части анимации из GIF-изображение на основе временного интервала.
+Экспорт части анимации из изображения GIF на основе временного интервала.
 
 ```csharp
 [C#]

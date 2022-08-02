@@ -3,7 +3,7 @@ title: RdOptimizerSettings
 second_title: Aspose.Imaging for .NET API 参考
 description: RD 优化器设置类
 type: docs
-weight: 10170
+weight: 10160
 url: /zh/net/aspose.imaging.imageoptions/rdoptimizersettings/
 ---
 ## RdOptimizerSettings class
@@ -26,7 +26,7 @@ public class RdOptimizerSettings
 | --- | --- |
 | [BppMax](../../aspose.imaging.imageoptions/rdoptimizersettings/bppmax) { get; set; } | 获取或设置要考虑的最大 R 值（以每像素位数为单位） |
 | [BppScale](../../aspose.imaging.imageoptions/rdoptimizersettings/bppscale) { get; set; } | 获取或设置 BPP（每像素位数）比例因子。 |
-| [DiscretizedBppMax](../../aspose.imaging.imageoptions/rdoptimizersettings/discretizedbppmax) { get; } | 获取最大 R 值以供考虑。 |
+| [DiscretizedBppMax](../../aspose.imaging.imageoptions/rdoptimizersettings/discretizedbppmax) { get; } | 获取考虑的最大 R 值。 |
 | [MaxPixelValue](../../aspose.imaging.imageoptions/rdoptimizersettings/maxpixelvalue) { get; } | 获取最大像素值。 |
 | [MaxQ](../../aspose.imaging.imageoptions/rdoptimizersettings/maxq) { get; set; } | 获取或设置最大量化值。 |
 | [MinQ](../../aspose.imaging.imageoptions/rdoptimizersettings/minq) { get; } | 获取允许的最小量化值。 |

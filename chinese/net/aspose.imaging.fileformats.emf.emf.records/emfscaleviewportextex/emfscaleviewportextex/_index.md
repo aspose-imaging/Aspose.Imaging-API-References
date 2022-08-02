@@ -1,14 +1,14 @@
 ---
 title: EmfScaleViewportExtex
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfScaleViewportExtexaspose.imaging.fileformats.emf.emf.records/emfscaleviewportextex类的新实例
+description: 初始化EmfScaleViewportExtexaspose.imaging.fileformats.emf.emf.records/emfscaleviewportextex类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfscaleviewportextex/emfscaleviewportextex/
 ---
 ## EmfScaleViewportExtex(EmfRecord) {#constructor_1}
 
-初始化[`EmfScaleViewportExtex`](../../emfscaleviewportextex)类的新实例。
+初始化[`EmfScaleViewportExtex`](../../emfscaleviewportextex)类.
 
 ```csharp
 public EmfScaleViewportExtex(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfScaleViewportExtex(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfScaleViewportExtex(EmfRecord source)
 
 ## EmfScaleViewportExtex() {#constructor}
 
-初始化[`EmfScaleViewportExtex`](../../emfscaleviewportextex)类的新实例。
+初始化[`EmfScaleViewportExtex`](../../emfscaleviewportextex)类.
 
 ```csharp
 public EmfScaleViewportExtex()

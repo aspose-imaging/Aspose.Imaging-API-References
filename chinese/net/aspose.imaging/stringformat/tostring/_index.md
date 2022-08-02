@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Imaging for .NET API 参考
-description: 将此StringFormataspose.imaging/stringformat对象转换为人类可读的字符串
+description: 转换这个StringFormataspose.imaging/stringformat对象为人类可读的字符串
 type: docs
 weight: 160
 url: /zh/net/aspose.imaging/stringformat/tostring/
 ---
 ## StringFormat.ToString method
 
-将此[`StringFormat`](../../stringformat)对象转换为人类可读的字符串。
+转换这个[`StringFormat`](../../stringformat)对象为人类可读的字符串。
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-这个[`StringFormat`](../../stringformat)的字符串表示目的。
+这个的字符串表示[`StringFormat`](../../stringformat)对象.
 
 ### 也可以看看
 

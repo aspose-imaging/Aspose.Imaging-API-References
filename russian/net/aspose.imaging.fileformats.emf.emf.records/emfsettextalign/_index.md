@@ -1,14 +1,14 @@
 ---
 title: EmfSetTextAlign
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_SETTEXTALIGN определяет выравнивание текста.
+description: Запись EMR_SETTEXTALIGN задает выравнивание текста.
 type: docs
 weight: 4490
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsettextalign/
 ---
 ## EmfSetTextAlign class
 
-Запись EMR_SETTEXTALIGN определяет выравнивание текста.
+Запись EMR_SETTEXTALIGN задает выравнивание текста.
 
 ```csharp
 public sealed class EmfSetTextAlign : EmfStateRecordType
@@ -18,20 +18,20 @@ public sealed class EmfSetTextAlign : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetTextAlign](emfsettextalign#constructor)() | Инициализирует новый экземпляр класса[`EmfSetTextAlign`](../emfsettextalign). |
-| [EmfSetTextAlign](emfsettextalign#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetTextAlign`](../emfsettextalign). |
+| [EmfSetTextAlign](emfsettextalign#constructor)() | Инициализирует новый экземпляр[`EmfSetTextAlign`](../emfsettextalign) класс. |
+| [EmfSetTextAlign](emfsettextalign#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetTextAlign`](../emfsettextalign) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
-| [TextAlignmentMode](../../aspose.imaging.fileformats.emf.emf.records/emfsettextalign/textalignmentmode) { get; set; } | Получает или задает 32-разрядное целое число без знака, задающее выравнивание текста с помощью с использованием маски флагов выравнивания текста. Это либо[`WmfTextAlignmentModeFlags`](../../aspose.imaging.fileformats.wmf.consts/wmftextalignmentmodeflags) ([MS-WMF], раздел 2.1.2.3) для текста с горизонтальной базовой линией, либо[`WmfVerticalTextAlignmentModeFlags`](../../aspose.imaging.fileformats.wmf.consts/wmfverticaltextalignmentmodeflags) ([MS-WMF], раздел 2.1.2.4) для текста с вертикальным базовый уровень. Можно выбрать только одно значение из тех, которые влияют на горизонтальное и вертикальное выравнивание. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
+| [TextAlignmentMode](../../aspose.imaging.fileformats.emf.emf.records/emfsettextalign/textalignmentmode) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее выравнивание текста по с использованием маски флагов выравнивания текста. Это либо[`WmfTextAlignmentModeFlags`](../../aspose.imaging.fileformats.wmf.consts/wmftextalignmentmodeflags) ([MS-WMF], раздел 2.1.2.3) для текста с горизонтальной базовой линией или[`WmfVerticalTextAlignmentModeFlags`](../../aspose.imaging.fileformats.wmf.consts/wmfverticaltextalignmentmodeflags) ([MS-WMF], раздел 2.1.2.4) для текста с базовой линией vertical . Можно выбрать только одно значение из тех, которые влияют на выравнивание по горизонтали и вертикали . |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Примечания
 
-В записях EMR_SMALLTEXTOUT, EMR_EXTTEXTOUTA и EMR_EXTTEXTOUTW используются текстовые значения выравнивания для разместить строку текста на выходном носителе. Значения определяют отношение между опорной точкой и прямоугольником, ограничивающим текст. Контрольной точкой является либо текущая позиция, либо точка, переданная в запись вывода текста. Прямоугольник, ограничивающий текст, формируется символьными ячейками в текстовой строке.
+Записи EMR_SMALLTEXTOUT, EMR_EXTTEXTOUTA и EMR_EXTTEXTOUTW используют значения выравнивания text для позиционирования строки текста на носителе вывода. Значения определяют отношение между опорной точкой и прямоугольником, ограничивающим текст. Контрольной точкой является либо текущая позиция, либо точка, переданная в запись вывода текста. Прямоугольник, ограничивающий текст, формируется символьными ячейками в текстовой строке.
 
 ### Смотрите также
 

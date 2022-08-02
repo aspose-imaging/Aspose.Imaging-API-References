@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.FileFormats.Emf
 second_title: Aspose.Imaging for .NET API 参考
-description: 命名空间包含类型 MS-EMF MS-EMFPLUS
+description: 命名空间包含类型 MS-EMFMS-EMFPLUS
 type: docs
 weight: 320
 url: /zh/net/aspose.imaging.fileformats.emf/
 ---
-命名空间包含类型 [MS-EMF], [MS-EMFPLUS]
+命名空间包含类型 [MS-EMF]、[MS-EMFPLUS]
 
 ## 课程
 

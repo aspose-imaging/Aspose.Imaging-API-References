@@ -3,7 +3,7 @@ title: TypeOfEntities
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示要渲染的实体类型
 type: docs
-weight: 10270
+weight: 10260
 url: /zh/net/aspose.imaging.imageoptions/typeofentities/
 ---
 ## TypeOfEntities enumeration
@@ -18,7 +18,7 @@ public enum TypeOfEntities
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Entities2D | `0` | 渲染二维实体 |
+| Entities2D | `0` | 渲染 2D 实体 |
 | Entities3D | `1` | 渲染 3D 实体 |
 
 ### 也可以看看

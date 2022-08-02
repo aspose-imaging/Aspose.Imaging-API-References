@@ -22,7 +22,7 @@ public void AddPage(RasterImage page)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *page*为空。 |
+| ArgumentNullException | *page*一片空白。 |
 
 ### 也可以看看
 

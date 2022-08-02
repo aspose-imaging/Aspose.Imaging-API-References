@@ -1,14 +1,14 @@
 ---
 title: HorizontalResolution
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает горизонтальное разрешение в пикселях на дюйм для этогоRasterImageaspose.imaging/rasterimage.
+description: Получает или задает горизонтальное разрешение в пикселях на дюйм для этогоRasterImageaspose.imaging/rasterimage .
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging/rasterimage/horizontalresolution/
 ---
 ## RasterImage.HorizontalResolution property
 
-Получает или задает горизонтальное разрешение в пикселях на дюйм для этого[`RasterImage`](../../rasterimage).
+Получает или задает горизонтальное разрешение в пикселях на дюйм для этого[`RasterImage`](../../rasterimage) .
 
 ```csharp
 public virtual double HorizontalResolution { get; set; }
@@ -35,7 +35,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.jpg"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-     // Получить горизонтальное и вертикальное разрешение изображения
+    // Получить горизонтальное и вертикальное разрешение изображения
     double horizontalResolution = rasterImage.HorizontalResolution;
     double verticalResolution = rasterImage.VerticalResolution;
     System.Console.WriteLine("The horizontal resolution, in pixels per inch: {0}", horizontalResolution);
@@ -43,7 +43,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.jpg"
 
     if (horizontalResolution != 96.0 || verticalResolution != 96.0)
     {
-         // Используйте метод SetResolution для обновления обоих значений разрешения в одном вызове.
+        // Используйте метод SetResolution для обновления обоих значений разрешения за один вызов.
         System.Console.WriteLine("Set resolution values to 96 dpi");
         rasterImage.SetResolution(96.0, 96.0);
 
@@ -51,12 +51,12 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.jpg"
         System.Console.WriteLine("The vertical resolution, in pixels per inch: {0}", rasterImage.VerticalResolution);
     }
 
-    // Вывод может выглядеть так: 
-     // Горизонтальное разрешение в пикселях на дюйм: 300
-     // Вертикальное разрешение в пикселях на дюйм: 300
-     // Установите значения разрешения на 96 dpi
-    // Горизонтальное разрешение в пикселях на дюйм: 96
-     // Вертикальное разрешение в пикселях на дюйм: 96
+    // Вывод может выглядеть так:
+    // Горизонтальное разрешение, в пикселях на дюйм: 300
+    // Вертикальное разрешение, в пикселях на дюйм: 300
+    // Установите значения разрешения на 96 dpi
+    // Горизонтальное разрешение, в пикселях на дюйм: 96
+    // Вертикальное разрешение, в пикселях на дюйм: 96
 }
 ```
 

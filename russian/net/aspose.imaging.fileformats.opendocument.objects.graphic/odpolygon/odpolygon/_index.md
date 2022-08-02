@@ -1,14 +1,14 @@
 ---
 title: OdPolygon
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdPolygonaspose.imaging.fileformats.opendocument.objects.graphic/odpolygon.
+description: Инициализирует новый экземплярOdPolygonaspose.imaging.fileformats.opendocument.objects.graphic/odpolygon класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odpolygon/odpolygon/
 ---
 ## OdPolygon constructor
 
-Инициализирует новый экземпляр класса[`OdPolygon`](../../odpolygon).
+Инициализирует новый экземпляр[`OdPolygon`](../../odpolygon) класс.
 
 ```csharp
 public OdPolygon(OdObject parent)

@@ -25,93 +25,76 @@ public int BitsPerPixel { get; set; }
 ```csharp
 [C#]
 
- // Создаем изображение BMP 100 x 100 px.
-using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100))
+string dir = "c:\\temp\\";
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
 {
-     // Линейный градиент от левого верхнего до правого нижнего угла изображения.
-    Aspose.Imaging.Brushes.LinearGradientBrush brush =
-        new Aspose.Imaging.Brushes.LinearGradientBrush(
-            new Aspose.Imaging.Point(0, 0),
-            new Aspose.Imaging.Point(bmpImage.Width, bmpImage.Height),
-            Aspose.Imaging.Color.Red,
-            Aspose.Imaging.Color.Green);
+    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-     // Заливаем всё изображение кистью линейного градиента.
-    Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(bmpImage);
-    gr.FillRectangle(brush, bmpImage.Bounds);
-
-     // Получить ближайшую 8-битную цветовую палитру, покрывающую максимально возможное количество пикселей, чтобы палитра image
-     // визуально практически неотличим от не палетированного.
-    Aspose.Imaging.IColorPalette palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(bmpImage, 256);
-
-     // 8-битная палитра содержит не более 256 цветов.
+    // Создать BmpOptions
     Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
-    saveOptions.Palette = palette;
+
+    // Используйте 8 бит на пиксель, чтобы уменьшить размер выходного изображения.
     saveOptions.BitsPerPixel = 8;
 
-    using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
-    {
-        bmpImage.Save(stream, saveOptions);
-        System.Console.WriteLine("The palettized image size is {0} bytes.", stream.Length);
-    }
+    // Устанавливаем ближайшую 8-битную цветовую палитру, которая покрывает максимальное количество пикселей изображения, чтобы изображение с палитрой
+    // визуально практически неотличим от не палетированного.
+    saveOptions.Palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(rasterImage, 256);
 
-    using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
-    {
-        bmpImage.Save(stream);
-        System.Console.WriteLine("The non-palettized image size is {0} bytes.", stream.Length);
-    }
+    // Сохранить без сжатия.
+    // Вы также можете использовать сжатие RLE-8, чтобы уменьшить размер выходного изображения.
+    saveOptions.Compression = Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb;
+
+    // Установите разрешение по горизонтали и вертикали на 96 dpi.
+    saveOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
+
+    image.Save(dir + "sample.bmpoptions.bmp", saveOptions);
 }
-
- // Вывод выглядит следующим образом: 
- // Размер палетированного изображения 11078 байт.
-// Размер изображения без палитры составляет 40054 байта.
 ```
 
-В следующем примере создается BMP-изображение в градациях серого с палитрой, а затем сохраняется в файл.
+В следующем примере создается изображение BMP с палитрой оттенков серого, а затем сохраняется в файл.
 
 ```csharp
 [C#]
 
- // Создаем изображение BMP 100 x 100 px.
-using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100))
+string dir = "c:\\temp\\";
+
+Aspose.Imaging.ImageOptions.BmpOptions createOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
+
+// Сохраняем в файл
+createOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(dir + "output.palette8bit.bmp", false);
+    
+// Используйте 8 бит на пиксель, чтобы уменьшить размер выходного изображения.
+createOptions.BitsPerPixel = 8;
+
+// Установите стандартную 8-битную цветовую палитру оттенков серого, которая охватывает все цвета оттенков серого.
+// Если обработанное изображение содержит только оттенки серого, то его версия с палитрой
+// визуально неотличим от не палетированного.
+createOptions.Palette = Aspose.Imaging.ColorPaletteHelper.Create8BitGrayscale(false);
+
+// Сохранить без сжатия.
+// Вы также можете использовать сжатие RLE-8, чтобы уменьшить размер выходного изображения.
+createOptions.Compression = Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb;
+
+// Установите разрешение по горизонтали и вертикали на 96 dpi.
+createOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
+
+// Создаем BMP-изображение размером 100 x 100 пикселей и сохраняем его в файл.
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(createOptions, 100, 100))
 {
-     // Линейный градиент от левого верхнего до правого нижнего угла изображения.
-    Aspose.Imaging.Brushes.LinearGradientBrush brush =
-        new Aspose.Imaging.Brushes.LinearGradientBrush(
-            new Aspose.Imaging.Point(0, 0),
-            new Aspose.Imaging.Point(bmpImage.Width, bmpImage.Height),
-            Aspose.Imaging.Color.Red,
-            Aspose.Imaging.Color.Green);
+    Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
 
-     // Заливаем всё изображение кистью линейного градиента.
-    Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(bmpImage);
-    gr.FillRectangle(brush, bmpImage.Bounds);
+    Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
+        new Aspose.Imaging.Point(0, 0),
+        new Aspose.Imaging.Point(image.Width, image.Height),
+        Aspose.Imaging.Color.Black,
+        Aspose.Imaging.Color.White);
 
-     // Получить ближайшую 8-битную цветовую палитру, покрывающую максимально возможное количество пикселей, чтобы палитра image
-     // визуально практически неотличим от не палетированного.
-    Aspose.Imaging.IColorPalette palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(bmpImage, 256);
+    // Заливаем изображение градиентом в градациях серого
+    graphics.FillRectangle(gradientBrush, image.Bounds);
 
-     // 8-битная палитра содержит не более 256 цветов.
-    Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
-    saveOptions.Palette = palette;
-    saveOptions.BitsPerPixel = 8;
-
-    using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
-    {
-        bmpImage.Save(stream, saveOptions);
-        System.Console.WriteLine("The palettized image size is {0} bytes.", stream.Length);
-    }
-
-    using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
-    {
-        bmpImage.Save(stream);
-        System.Console.WriteLine("The non-palettized image size is {0} bytes.", stream.Length);
-    }
+    image.Save();
 }
-
- // Вывод выглядит следующим образом: 
- // Размер палетированного изображения 11078 байт.
-// Размер изображения без палитры составляет 40054 байта.
 ```
 
 В следующем примере показано, как разместить изображение BMP на поддонах, чтобы уменьшить его выходной размер.
@@ -119,10 +102,10 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
 ```csharp
 [C#]
 
- // Создаем изображение BMP 100 x 100 px.
+// Создаем BMP-изображение 100 x 100 пикселей.
 using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100))
 {
-     // Линейный градиент от левого верхнего до правого нижнего угла изображения.
+    // Линейный градиент от левого верхнего до правого нижнего угла изображения.
     Aspose.Imaging.Brushes.LinearGradientBrush brush =
         new Aspose.Imaging.Brushes.LinearGradientBrush(
             new Aspose.Imaging.Point(0, 0),
@@ -130,15 +113,15 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
             Aspose.Imaging.Color.Red,
             Aspose.Imaging.Color.Green);
 
-     // Заливаем всё изображение кистью линейного градиента.
+    // Залейте все изображение кистью линейного градиента.
     Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(bmpImage);
     gr.FillRectangle(brush, bmpImage.Bounds);
 
-     // Получить ближайшую 8-битную цветовую палитру, покрывающую максимально возможное количество пикселей, чтобы палитра image
-     // визуально практически неотличим от не палетированного.
+    // Получаем ближайшую 8-битную цветовую палитру, покрывающую максимально возможное количество пикселей, чтобы изображение с палитрой
+    // визуально практически неотличим от не палетированного.
     Aspose.Imaging.IColorPalette palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(bmpImage, 256);
 
-     // 8-битная палитра содержит не более 256 цветов.
+    // 8-битная палитра содержит не более 256 цветов.
     Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
     saveOptions.Palette = palette;
     saveOptions.BitsPerPixel = 8;
@@ -156,8 +139,8 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
     }
 }
 
- // Вывод выглядит следующим образом: 
- // Размер палетированного изображения 11078 байт.
+// Вывод выглядит так:
+// Размер изображения с палитрой составляет 11078 байт.
 // Размер изображения без палитры составляет 40054 байта.
 ```
 

@@ -22,7 +22,7 @@ public void SetDefaultImage(RasterImage image)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Изображение равно null. |
+| ArgumentNullException | изображение нулевое. |
 
 ### Смотрите также
 

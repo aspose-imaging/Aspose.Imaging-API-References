@@ -1,14 +1,14 @@
 ---
 title: EmfExtCreatePen
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_EXTCREATEPEN 记录定义了用于图形操作的扩展逻辑笔可以指定一个 可选的 DIB 以用作线条样式
+description: EMR_EXTCREATEPEN 记录定义图形操作的扩展逻辑笔 An 可选 DIB 可以指定用作线型
 type: docs
 weight: 3630
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/
 ---
 ## EmfExtCreatePen class
 
-EMR_EXTCREATEPEN 记录定义了用于图形操作的扩展逻辑笔。可以指定一个 可选的 DIB 以用作线条样式。
+EMR_EXTCREATEPEN 记录定义图形操作的扩展逻辑笔。 An 可选 DIB 可以指定用作线型。
 
 ```csharp
 public sealed class EmfExtCreatePen : EmfObjectCreationRecordType
@@ -18,16 +18,16 @@ public sealed class EmfExtCreatePen : EmfObjectCreationRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfExtCreatePen](emfextcreatepen#constructor)() | 初始化[`EmfExtCreatePen`](../emfextcreatepen)类的新实例。 |
-| [EmfExtCreatePen](emfextcreatepen#constructor_1)(EmfRecord) | 初始化[`EmfExtCreatePen`](../emfextcreatepen)类的新实例。 |
+| [EmfExtCreatePen](emfextcreatepen#constructor)() | 初始化[`EmfExtCreatePen`](../emfextcreatepen)类. |
+| [EmfExtCreatePen](emfextcreatepen#constructor_1)(EmfRecord) | 初始化[`EmfExtCreatePen`](../emfextcreatepen)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BitmapBuffer](../../aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/bitmapbuffer) { get; set; } | 获取或设置包含 WMF DeviceIndependentBitmap 对象形式的打包 DIB 的可选缓冲区 ([MS-WMF] 第 2.2.2.9 节）。它不需要与 EMR_EXTCREATEPEN 记录 |
-| [Elp](../../aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/elp) { get; set; } | 获取或设置一个 LogPenEx 对象（第 2.2.20 节），该对象指定扩展逻辑 笔，其属性包括可选的线型数组。 |
-| [IhPen](../../aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/ihpen) { get; set; } | 获取或设置 32 位无符号整数，该整数指定 EMF 对象表中扩展逻辑 笔对象的索引（第 3.1.1.1 节）。 必须保存此索引，以便可以重用或修改此对象。 |
+| [BitmapBuffer](../../aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/bitmapbuffer) { get; set; } | 获取或设置包含 WMF DeviceIndependentBitmap object 形式的打包 DIB 的可选缓冲区（[MS-WMF] 第 2.2.2.9 节）。它不需要与 EMR_EXTCREATEPEN 记录 的固定部分连续 |
+| [Elp](../../aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/elp) { get; set; } | 获取或设置一个 LogPenEx 对象（第 2.2.20 节），该对象指定一个扩展的逻辑 笔，其属性包括可选的线型数组。 |
+| [IhPen](../../aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/ihpen) { get; set; } | 获取或设置 32 位无符号整数，指定 EMF 对象表（第 3.1.1.1 节）中扩展逻辑 笔对象的索引。 必须保存此索引，以便可以重用或修改此对象。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

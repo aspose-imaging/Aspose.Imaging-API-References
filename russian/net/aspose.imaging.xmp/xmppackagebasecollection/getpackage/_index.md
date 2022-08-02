@@ -1,14 +1,14 @@
 ---
 title: GetPackage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПолучаетXmpPackageaspose.imaging.xmp/xmppackageпо его namespaceURI.
+description: получаетXmpPackageaspose.imaging.xmp/xmppackage по его namespaceURI.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.xmp/xmppackagebasecollection/getpackage/
 ---
 ## XmpPackageBaseCollection.GetPackage method
 
-Получает[`XmpPackage`](../../xmppackage)по его namespaceURI.
+получает[`XmpPackage`](../../xmppackage) по его namespaceURI.
 
 ```csharp
 public XmpPackage GetPackage(string namespaceUri)

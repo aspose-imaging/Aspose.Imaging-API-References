@@ -20,7 +20,7 @@ public enum JoinTypes
 | --- | --- | --- |
 | MiteredCorners | `0` | 创建尖角。 |
 | RoundCorners | `1` | 在线条或轮廓中创建圆角。 |
-| BeveledCorners | `2` | 线或轮廓中的斜角（方形）角。 |
+| BeveledCorners | `2` | 线条或轮廓中的斜角（方形）。 |
 
 ### 也可以看看
 

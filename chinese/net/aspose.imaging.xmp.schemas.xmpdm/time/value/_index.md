@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定比例的时间值
+description: 获取或设置指定刻度的时间值
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/time/value/
 ---
 ## Time.Value property
 
-获取或设置指定比例的时间值。
+获取或设置指定刻度的时间值。
 
 ```csharp
 public int Value { get; set; }
@@ -16,7 +16,7 @@ public int Value { get; set; }
 
 ### 适当的价值
 
-指定刻度的时间值。
+指定刻度内的时间值。
 
 ### 也可以看看
 

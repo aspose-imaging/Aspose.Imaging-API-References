@@ -1,14 +1,14 @@
 ---
 title: OdPath
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化OdPathaspose.imaging.fileformats.opendocument.objects.graphic/odpath类的新实例
+description: 初始化OdPathaspose.imaging.fileformats.opendocument.objects.graphic/odpath类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odpath/odpath/
 ---
 ## OdPath constructor
 
-初始化[`OdPath`](../../odpath)类的新实例。
+初始化[`OdPath`](../../odpath)类.
 
 ```csharp
 public OdPath(OdObject parent)
@@ -16,7 +16,7 @@ public OdPath(OdObject parent)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | OdObject | 父级。 |
+| parent | OdObject | 家长。 |
 
 ### 也可以看看
 

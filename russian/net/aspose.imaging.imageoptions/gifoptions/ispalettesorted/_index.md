@@ -1,14 +1,14 @@
 ---
 title: IsPaletteSorted
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее сортируются ли элементы палитры.
+description: Получает или задает значение указывающее отсортированы ли элементы палитры.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging.imageoptions/gifoptions/ispalettesorted/
 ---
 ## GifOptions.IsPaletteSorted property
 
-Получает или задает значение, указывающее, сортируются ли элементы палитры.
+Получает или задает значение, указывающее, отсортированы ли элементы палитры.
 
 ```csharp
 public bool IsPaletteSorted { get; set; }
@@ -16,7 +16,7 @@ public bool IsPaletteSorted { get; set; }
 
 ### Стоимость имущества
 
-` true` если элементы палитры отсортированы; в противном случае` false` .
+`истинный` если элементы палитры отсортированы; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

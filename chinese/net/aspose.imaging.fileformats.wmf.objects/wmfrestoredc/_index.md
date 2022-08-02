@@ -24,7 +24,7 @@ public class WmfRestoreDc : WmfObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [NSavedDc](../../aspose.imaging.fileformats.wmf.objects/wmfrestoredc/nsaveddc) { get; set; } | 获取或设置第 n 个保存的 dc。 |
+| [NSavedDc](../../aspose.imaging.fileformats.wmf.objects/wmfrestoredc/nsaveddc) { get; set; } | 获取或设置第 n 个保存的 dc. |
 
 ### 也可以看看
 

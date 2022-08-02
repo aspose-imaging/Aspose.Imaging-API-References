@@ -12,9 +12,9 @@ url: /zh/net/aspose.imaging.fileformats.svg/
 
 | 班级 | 描述 |
 | --- | --- |
-| [FontStoringArgs](./fontstoringargs) | 字体存储参数 |
+| [FontStoringArgs](./fontstoringargs) | 存储参数的字体 |
 | [SvgImage](./svgimage) | 表示 SVG 图像类。 |
-| [SvgResourceKeeperCallback](./svgresourcekeepercallback) | 资源管理器回调 |
+| [SvgResourceKeeperCallback](./svgresourcekeepercallback) | 资源管理员回调 |
 ## 接口
 
 | 界面 | 描述 |

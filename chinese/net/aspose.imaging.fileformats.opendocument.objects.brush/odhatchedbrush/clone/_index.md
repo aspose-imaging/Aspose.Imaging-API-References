@@ -16,7 +16,7 @@ public override object Clone()
 
 ### 返回值
 
-返回源画笔的新实例
+源刷子的返回新实例
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: XPSubject
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置图像信息供 Windows 资源管理器使用
+description: 获取或设置图像信息供 Windows Explorer 使用
 type: docs
 weight: 650
 url: /zh/net/aspose.imaging.imageoptions/tiffoptions/xpsubject/
 ---
 ## TiffOptions.XPSubject property
 
-获取或设置图像信息，供 Windows 资源管理器使用。
+获取或设置图像信息，供 Windows Explorer 使用。
 
 ```csharp
 public string XPSubject { get; set; }

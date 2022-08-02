@@ -1,14 +1,14 @@
 ---
 title: BrushDibPattern
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает образец кисти.
+description: Получает или задает шаблон кисти.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emflogpenex/brushdibpattern/
 ---
 ## EmfLogPenEx.BrushDibPattern property
 
-Получает или задает образец кисти.
+Получает или задает шаблон кисти.
 
 ```csharp
 public WmfDeviceIndependentBitmap BrushDibPattern { get; set; }

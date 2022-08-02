@@ -18,14 +18,14 @@ public sealed class EmfSelectPalette : EmfObjectManipulationRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSelectPalette](emfselectpalette)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSelectPalette`](../emfselectpalette). |
+| [EmfSelectPalette](emfselectpalette)(EmfRecord) | Инициализирует новый экземпляр[`EmfSelectPalette`](../emfselectpalette) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [IhPal](../../aspose.imaging.fileformats.emf.emf.records/emfselectpalette/ihpal) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое указывает либо индекс объекта LogPalette (раздел 2.2.17) в объекте EMF Таблица или значение DEFAULT_PALETTE, которое является индексом палитры стандартных объектов из перечисления StockObject (раздел 2.1.31). |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [IhPal](../../aspose.imaging.fileformats.emf.emf.records/emfselectpalette/ihpal) { get; set; } | Получает или задает 32-битное целое число без знака, которое указывает либо индекс LogPalette object (раздел 2.2.17) в таблице объектов EMF, либо значение DEFAULT_PALETTE, которое является index палитры стандартных объектов из перечисления StockObject (раздел 2.1.31). |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

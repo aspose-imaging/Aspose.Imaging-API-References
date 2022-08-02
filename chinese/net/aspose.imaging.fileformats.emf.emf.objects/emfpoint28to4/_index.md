@@ -1,14 +1,14 @@
 ---
 title: EmfPoint28To4
 second_title: Aspose.Imaging for .NET API 参考
-description: Point28_4 对象用 28.4 位 FIX 表示法表示设备表面上的点的位置
+description: Point28_4 对象表示设备表面上点的位置坐标采用 28.4 位 FIX 表示法
 type: docs
 weight: 3130
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfpoint28to4/
 ---
 ## EmfPoint28To4 class
 
-Point28_4 对象用 28.4 位 FIX 表示法表示设备表面上的点的位置。
+Point28_4 对象表示设备表面上点的位置，坐标采用 28.4 位 FIX 表示法。
 
 ```csharp
 public sealed class EmfPoint28To4 : EmfObject
@@ -24,8 +24,8 @@ public sealed class EmfPoint28To4 : EmfObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [X](../../aspose.imaging.fileformats.emf.emf.objects/emfpoint28to4/x) { get; set; } | 获取或设置表示点水平坐标的 BitFIX28_4 对象（第 2.2.1 节）。 |
-| [Y](../../aspose.imaging.fileformats.emf.emf.objects/emfpoint28to4/y) { get; set; } | 获取或设置表示点垂直坐标的BitFIX28_4对象。 |
+| [X](../../aspose.imaging.fileformats.emf.emf.objects/emfpoint28to4/x) { get; set; } | 获取或设置一个BitFIX28_4对象（2.2.1节），表示点的水平坐标。 |
+| [Y](../../aspose.imaging.fileformats.emf.emf.objects/emfpoint28to4/y) { get; set; } | 获取或设置一个BitFIX28_4对象，表示点的垂直坐标 |
 
 ### 也可以看看
 

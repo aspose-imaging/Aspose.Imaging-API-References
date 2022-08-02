@@ -1,14 +1,14 @@
 ---
 title: RectData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置矩形数据 定义图像边界框的 EmfPlusRect 或 EmfPlusRectF 对象 SrcRect 字段指定的图像部分被缩放以适合该矩形
+description: 获取或设置矩形数据 定义图像边界框的 EmfPlusRect 或 EmfPlusRectF 对象 SrcRect 字段指定的图像部分被缩放以适合此矩形
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimage/rectdata/
 ---
 ## EmfPlusDrawImage.RectData property
 
-获取或设置矩形数据 定义图像边界框的 EmfPlusRect 或 EmfPlusRectF 对象。 SrcRect 字段指定的图像部分被缩放以适合该矩形。
+获取或设置矩形数据 定义图像边界框的 EmfPlusRect 或 EmfPlusRectF 对象。 SrcRect 字段指定的图像部分被缩放以适合此矩形。
 
 ```csharp
 public RectangleF RectData { get; set; }

@@ -24,9 +24,9 @@ public sealed class EmfPlusMetafile : EmfPlusBaseImageData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MetafileData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusmetafile/metafiledata) { get; set; } | 获取或设置指定嵌入元文件的可变长度数据。每种元文件类型的数据内容 和格式可能不同。 |
-| [MetafileDataSize](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusmetafile/metafiledatasize) { get; set; } | 获取或设置 32 位无符号整数，它指定 MetafileData 字段中的元文件 数据的字节大小 |
-| [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusmetafile/type) { get; set; } | 获取或设置 32 位无符号整数，该整数指定在 MetafileData 字段中嵌入 的图元文件的类型。该值必须在 MetafileDataType 枚举（第 2.1.1.21 节）中定义。 |
+| [MetafileData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusmetafile/metafiledata) { get; set; } | 获取或设置指定嵌入元文件的可变长度数据。每个元文件类型的数据内容 和格式可以不同。 |
+| [MetafileDataSize](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusmetafile/metafiledatasize) { get; set; } | 获取或设置 32 位无符号整数，指定元文件 MetafileData 字段中数据的字节大小 |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusmetafile/type) { get; set; } | 获取或设置 32 位无符号整数，它指定 MetafileData 字段中嵌入 的图元文件的类型。该值必须在 MetafileDataType 枚举（第 2.1.1.21 节）中定义。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: LineHeight
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置行高
+description: 获取或设置线条的高度
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/lineheight/
 ---
 ## OdGraphicStyle.LineHeight property
 
-获取或设置行高。
+获取或设置线条的高度。
 
 ```csharp
 public int LineHeight { get; set; }
@@ -16,7 +16,7 @@ public int LineHeight { get; set; }
 
 ### 适当的价值
 
-行的高度。
+线的高度。
 
 ### 也可以看看
 

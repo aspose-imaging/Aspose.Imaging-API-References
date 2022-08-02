@@ -1,14 +1,14 @@
 ---
 title: OdConnector
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Разъем
+description: Соединитель
 type: docs
 weight: 7000
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odconnector/
 ---
 ## OdConnector class
 
-Разъем
+Соединитель
 
 ```csharp
 public class OdConnector : OdStyledObject
@@ -18,18 +18,18 @@ public class OdConnector : OdStyledObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdConnector](odconnector)(OdObject) | Инициализирует новый экземпляр класса[`OdConnector`](../odconnector). |
+| [OdConnector](odconnector)(OdObject) | Инициализирует новый экземпляр[`OdConnector`](../odconnector) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Получает родительский объект. |
 | [PathCommands](../../aspose.imaging.fileformats.opendocument.objects.graphic/odconnector/pathcommands) { get; set; } | Получает или задает команды пути. |
 | [Point1](../../aspose.imaging.fileformats.opendocument.objects.graphic/odconnector/point1) { get; set; } | Получает или задает точку1. |
-| [Point2](../../aspose.imaging.fileformats.opendocument.objects.graphic/odconnector/point2) { get; set; } | Получает или устанавливает точку2. |
+| [Point2](../../aspose.imaging.fileformats.opendocument.objects.graphic/odconnector/point2) { get; set; } | Получает или задает точку2. |
 | [Rectangle](../../aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/rectangle) { get; set; } | Получает или задает прямоугольник. |
 | [Style](../../aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/style) { get; set; } | Получает или задает стиль. |
 

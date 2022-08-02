@@ -1,14 +1,14 @@
 ---
 title: ReadWriteBytesCount
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Указывает количество байтов чтения и записи при последовательном чтении.
+description: Указывает количество байтов для чтения и записи при последовательном чтении.
 type: docs
 weight: 200
 url: /ru/net/aspose.imaging/streamcontainer/readwritebytescount/
 ---
 ## StreamContainer.ReadWriteBytesCount field
 
-Указывает количество байтов чтения и записи при последовательном чтении.
+Указывает количество байтов для чтения и записи при последовательном чтении.
 
 ```csharp
 public const int ReadWriteBytesCount;

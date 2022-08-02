@@ -1,14 +1,14 @@
 ---
 title: RawLineSize
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает необработанный размер строки в байтах.
+description: Получает исходный размер строки в байтах.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/rawlinesize/
 ---
 ## Jpeg2000Image.RawLineSize property
 
-Получает необработанный размер строки в байтах.
+Получает исходный размер строки в байтах.
 
 ```csharp
 public override int RawLineSize { get; }

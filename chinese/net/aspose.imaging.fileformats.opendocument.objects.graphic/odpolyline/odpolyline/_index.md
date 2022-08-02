@@ -1,14 +1,14 @@
 ---
 title: OdPolyLine
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化OdPolyLineaspose.imaging.fileformats.opendocument.objects.graphic/odpolyline类的新实例
+description: 初始化OdPolyLineaspose.imaging.fileformats.opendocument.objects.graphic/odpolyline类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odpolyline/odpolyline/
 ---
 ## OdPolyLine constructor
 
-初始化[`OdPolyLine`](../../odpolyline)类的新实例。
+初始化[`OdPolyLine`](../../odpolyline)类.
 
 ```csharp
 public OdPolyLine(OdObject parent)
@@ -16,7 +16,7 @@ public OdPolyLine(OdObject parent)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | OdObject | 父级。 |
+| parent | OdObject | 家长。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Radius
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置圆角矩形角的半径 如果其值为 0 则矩形没有圆角 以通用文档距离单位测量
+description: 获取或设置圆角矩形角的半径 如果其值为0那么矩形没有圆角 以常用文档距离单位测量
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/radius/
 ---
 ## CmxRectangleSpec.Radius property
 
-获取或设置圆角矩形角的半径。 如果其值为` 0` 则矩形没有圆角。 以通用文档距离单位测量。
+获取或设置圆角矩形角的半径。 如果其值为`0`那么矩形没有圆角。 以常用文档距离单位测量。
 
 ```csharp
 public float Radius { get; set; }

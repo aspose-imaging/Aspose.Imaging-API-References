@@ -1,14 +1,14 @@
 ---
 title: WmfRealizePalette
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_REALIZEPALETTE сопоставляет записи из логической палитры  определенной в контексте устройства воспроизведения в системную палитру.
+description: Запись META_REALIZEPALETTE отображает записи из логической палитры  определенной в контексте устройства воспроизведения в системную палитру.
 type: docs
 weight: 8900
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfrealizepalette/
 ---
 ## WmfRealizePalette class
 
-Запись META_REALIZEPALETTE сопоставляет записи из логической палитры , определенной в контексте устройства воспроизведения, в системную палитру.
+Запись META_REALIZEPALETTE отображает записи из логической палитры , определенной в контексте устройства воспроизведения, в системную палитру.
 
 ```csharp
 public class WmfRealizePalette : WmfObject

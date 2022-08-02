@@ -24,7 +24,7 @@ public class CdrVectorPattern : CdrDictionaryItem
 
 | Имя | Описание |
 | --- | --- |
-| [Data](../../aspose.imaging.fileformats.cdr.objects/cdrvectorpattern/data) { get; set; } | Получает или задает данные. |
+| [Data](../../aspose.imaging.fileformats.cdr.objects/cdrvectorpattern/data) { get; set; } | Получает или устанавливает данные. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | Получает или задает документ. |
 | [Id](../../aspose.imaging.fileformats.cdr.objects/cdrdictionaryitem/id) { get; set; } | Получает или задает идентификатор. |

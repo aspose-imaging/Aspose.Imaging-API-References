@@ -20,25 +20,25 @@ public void AddBlock(IGifBlock block)
 
 ### 例子
 
-以下示例展示了如何从单个 GIF 块组成动画 GIF 图像。
+以下示例显示如何从单个 GIF 块组成动画 GIF 图像。
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-    // 创建一个 100 x 100 像素的 GIF 图片。
-    // 第一个块默认是全黑的
+// 创建一个 100 x 100 像素的 GIF 图片。
+// 默认情况下，第一个块是全黑的。
 using (Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock firstBlock = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100))
 using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.FileFormats.Gif.GifImage(firstBlock))
 {
-        // 第一个圆圈是red
+    // 第一个圆圈是红色的
     Aspose.Imaging.Brushes.SolidBrush brush1 = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
 
-        //第二个圆圈是black
+    //第二个圆圈是黑色的
     Aspose.Imaging.Brushes.SolidBrush brush2 = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Black);
 
-        // 逐渐增加红色圆弧形状的角度。
+    // 逐渐增加红色弧形的角度。
     for (int angle = 10; angle <= 360; angle += 10)
     {
         Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock block = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100);
@@ -49,7 +49,7 @@ using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.Fil
         gifImage.AddBlock(block);
     }
 
-        // 逐渐增加黑弧的角度，抹去红弧。
+    // 逐渐增加黑色弧线的角度，将红色弧线抹去。
     for (int angle = 10; angle <= 360; angle += 10)
     {
         Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock block = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100);

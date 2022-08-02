@@ -22,7 +22,7 @@ public enum TiffSampleFormats
 | Int | `2` | 有符号整数数据 |
 | IeeeFp | `3` | IEEE 浮点数据 |
 | Void | `4` | 无类型数据 |
-| ComplexInt | `5` | 复杂有符号整数 |
+| ComplexInt | `5` | 复数符号 int |
 | ComplexIeeeFp | `6` | 复杂 ieee 浮动 |
 
 ### 也可以看看

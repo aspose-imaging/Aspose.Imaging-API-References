@@ -1,14 +1,14 @@
 ---
 title: DrawImageUnscaled
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Рисует указанное изображение используя его исходный физический размер в указанном месте.
+description: Рисует указанное изображение используя исходный физический размер в указанном месте.
 type: docs
 weight: 230
 url: /ru/net/aspose.imaging/graphics/drawimageunscaled/
 ---
 ## DrawImageUnscaled(Image, Point) {#drawimageunscaled}
 
-Рисует указанное изображение, используя его исходный физический размер в указанном месте.
+Рисует указанное изображение, используя исходный физический размер в указанном месте.
 
 ```csharp
 public void DrawImageUnscaled(Image sourceImage, Point point)
@@ -17,13 +17,13 @@ public void DrawImageUnscaled(Image sourceImage, Point point)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceImage | Image | Изображение для рисования. |
-| point | Point | [`Point`](../../point)структура, указывающая верхний левый угол нарисованного изображения. |
+| point | Point | [`Point`](../../point) структура, определяющая левый верхний угол нарисованного изображения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceImage*равно null. |
+| ArgumentNullException | *sourceImage* нулевой. |
 
 ### Смотрите также
 
@@ -37,7 +37,7 @@ public void DrawImageUnscaled(Image sourceImage, Point point)
 
 ## DrawImageUnscaled(Image, int, int) {#drawimageunscaled_2}
 
-Рисует указанное изображение, используя его исходный физический размер, в месте, указанном парой координат.
+Рисует указанное изображение, используя его исходный физический размер в месте, указанном парой координат.
 
 ```csharp
 public void DrawImageUnscaled(Image sourceImage, int x, int y)
@@ -53,7 +53,7 @@ public void DrawImageUnscaled(Image sourceImage, int x, int y)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceImage*равно null. |
+| ArgumentNullException | *sourceImage* нулевой. |
 
 ### Смотрите также
 
@@ -66,7 +66,7 @@ public void DrawImageUnscaled(Image sourceImage, int x, int y)
 
 ## DrawImageUnscaled(Image, Rectangle) {#drawimageunscaled_1}
 
-Рисует указанное изображение, используя его исходный физический размер в указанном месте.
+Рисует указанное изображение, используя исходный физический размер в указанном месте.
 
 ```csharp
 public void DrawImageUnscaled(Image sourceImage, Rectangle rect)
@@ -75,13 +75,13 @@ public void DrawImageUnscaled(Image sourceImage, Rectangle rect)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceImage | Image | Изображение для рисования. |
-| rect | Rectangle | [`Rectangle`](../../rectangle)задает левый верхний угол нарисованного изображения. Свойства X и Y прямоугольника определяют левый верхний угол. Свойства ширины и высоты игнорируются. |
+| rect | Rectangle | [`Rectangle`](../../rectangle) который указывает верхний левый угол нарисованного изображения. Свойства X и Y прямоугольника определяют левый верхний угол. Свойства ширины и высоты игнорируются. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceImage*равно null. |
+| ArgumentNullException | *sourceImage* нулевой. |
 
 ### Смотрите также
 
@@ -95,7 +95,7 @@ public void DrawImageUnscaled(Image sourceImage, Rectangle rect)
 
 ## DrawImageUnscaled(Image, int, int, int, int) {#drawimageunscaled_3}
 
-Рисует указанное изображение, используя его исходный физический размер в указанном месте.
+Рисует указанное изображение, используя исходный физический размер в указанном месте.
 
 ```csharp
 public void DrawImageUnscaled(Image sourceImage, int x, int y, int width, int height)
@@ -113,7 +113,7 @@ public void DrawImageUnscaled(Image sourceImage, int x, int y, int width, int he
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceImage*равно null. |
+| ArgumentNullException | *sourceImage* нулевой. |
 
 ### Смотрите также
 

@@ -16,7 +16,7 @@ public int ScanCount { get; set; }
 
 ### 适当的价值
 
-源中的扫描行数。
+源中的扫描线数。
 
 ### 也可以看看
 

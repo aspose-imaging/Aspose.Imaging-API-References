@@ -16,11 +16,11 @@ public static ColorPalette GetDownscalePalette(RasterImage image)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| image | RasterImage | 图像。 |
+| image | RasterImage | 图片。 |
 
 ### 返回值
 
-[`ColorPalette`](../../colorpalette)。
+的[`ColorPalette`](../../colorpalette) .
 
 ### 也可以看看
 

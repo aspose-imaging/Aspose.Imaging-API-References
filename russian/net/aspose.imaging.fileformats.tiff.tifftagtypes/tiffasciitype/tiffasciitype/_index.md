@@ -1,14 +1,14 @@
 ---
 title: TiffASCIIType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTiffASCIITypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffasciitype.
+description: Инициализирует новый экземплярTiffASCIITypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffasciitype класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffasciitype/tiffasciitype/
 ---
 ## TiffASCIIType(TiffTags) {#constructor}
 
-Инициализирует новый экземпляр класса[`TiffASCIIType`](../../tiffasciitype).
+Инициализирует новый экземпляр[`TiffASCIIType`](../../tiffasciitype) класс.
 
 ```csharp
 public TiffASCIIType(TiffTags tagId)
@@ -29,7 +29,7 @@ public TiffASCIIType(TiffTags tagId)
 
 ## TiffASCIIType(ushort) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TiffASCIIType`](../../tiffasciitype).
+Инициализирует новый экземпляр[`TiffASCIIType`](../../tiffasciitype) класс.
 
 ```csharp
 public TiffASCIIType(ushort tagId)

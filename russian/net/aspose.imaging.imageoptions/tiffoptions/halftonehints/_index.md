@@ -16,13 +16,13 @@ public ushort[] HalfToneHints { get; set; }
 
 ### Стоимость имущества
 
-Подсказки полутонов.
+Полутоновые намеки.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | значение |
+| ArgumentNullException | ценность |
 | ArgumentOutOfRangeException | value;Длина массива полутоновых подсказок должна быть равна 2. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: EmfPlusCompoundLineData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект EmfPlusCompoundLineData указывает данные строки и пробела для составной линии.
+description: Объект EmfPlusCompoundLineData указывает данные линии и пространства для составной линии.
 type: docs
 weight: 5330
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompoundlinedata/
 ---
 ## EmfPlusCompoundLineData class
 
-Объект EmfPlusCompoundLineData указывает данные строки и пробела для составной линии.
+Объект EmfPlusCompoundLineData указывает данные линии и пространства для составной линии.
 
 ```csharp
 public sealed class EmfPlusCompoundLineData : EmfPlusStructureObjectType
@@ -24,7 +24,7 @@ public sealed class EmfPlusCompoundLineData : EmfPlusStructureObjectType
 
 | Имя | Описание |
 | --- | --- |
-| [CompoundLineData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompoundlinedata/compoundlinedata) { get; set; } | Получает или задает массив значений CompoundLineDataSize с плавающей запятой , которые определяют составную линию пера. Элементы ДОЛЖНЫ быть в порядке возрастания, а их значения ДОЛЖНЫ быть между 0.0 и 1.0 включительно |
+| [CompoundLineData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompoundlinedata/compoundlinedata) { get; set; } | Получает или задает массив CompoundLineDataSize значений с плавающей запятой , которые определяют составную линию пера. Элементы ДОЛЖНЫ быть в порядке возрастания, а их значения ДОЛЖНЫ быть между 0,0 и 1,0 включительно |
 
 ### Смотрите также
 

@@ -3,7 +3,7 @@ title: Width
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Получает или задает ширину.
 type: docs
-weight: 40
+weight: 30
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrpattern/width/
 ---
 ## CdrPattern.Width property

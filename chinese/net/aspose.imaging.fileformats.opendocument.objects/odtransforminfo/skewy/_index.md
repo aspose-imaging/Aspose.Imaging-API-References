@@ -1,14 +1,14 @@
 ---
 title: SkewY
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置偏斜 y
+description: 获取或设置倾斜 y.
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects/odtransforminfo/skewy/
 ---
 ## OdTransformInfo.SkewY property
 
-获取或设置偏斜 y。
+获取或设置倾斜 y.
 
 ```csharp
 public float SkewY { get; set; }
@@ -16,7 +16,7 @@ public float SkewY { get; set; }
 
 ### 适当的价值
 
-偏斜 y。
+歪斜y.
 
 ### 也可以看看
 

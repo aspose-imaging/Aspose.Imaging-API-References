@@ -1,14 +1,14 @@
 ---
 title: PdfDocumentInfo
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает метаданные для документа.
+description: Получает или задает метаданные для документа.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.imageoptions/pdfoptions/pdfdocumentinfo/
 ---
 ## PdfOptions.PdfDocumentInfo property
 
-Получает или устанавливает метаданные для документа.
+Получает или задает метаданные для документа.
 
 ```csharp
 public PdfDocumentInfo PdfDocumentInfo { get; set; }

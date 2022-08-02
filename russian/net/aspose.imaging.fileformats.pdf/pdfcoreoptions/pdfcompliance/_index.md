@@ -20,7 +20,7 @@ public PdfComplianceVersion PdfCompliance { get; set; }
 
 ### Примеры
 
-Преобразование изображения EPS в PDF с использованием рендеринга PostScript.
+Преобразуйте изображение EPS в PDF, используя рендеринг PostScript.
 
 ```csharp
 [C#]
@@ -31,7 +31,7 @@ using (var image = (EpsImage)Image.Load("Sample.eps"))
     {
         PdfCoreOptions = new PdfCoreOptions
         {
-            PdfCompliance = PdfComplianceVersion.PdfA1b  // Установить требуемое соответствие PDF
+            PdfCompliance = PdfComplianceVersion.PdfA1b // Установить требуемое соответствие PDF
         }
     };
   

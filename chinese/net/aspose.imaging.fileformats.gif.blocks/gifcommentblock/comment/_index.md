@@ -1,14 +1,14 @@
 ---
 title: Comment
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置注释请注意注释必须使用 ASCII 编码并将相应地存储
+description: 获取或设置注释请注意注释必须使用 ASCII 编码并将相应存储
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifcommentblock/comment/
 ---
 ## GifCommentBlock.Comment property
 
-获取或设置注释。请注意，注释必须使用 ASCII 编码，并将相应地存储。
+获取或设置注释。请注意，注释必须使用 ASCII 编码，并将相应存储。
 
 ```csharp
 public string Comment { get; set; }

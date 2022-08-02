@@ -1,14 +1,14 @@
 ---
 title: ClockWise
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее по часовой стрелке.
+description: Получает или задает значение указывающее будет ли по часовой стрелке.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odarc/clockwise/
 ---
 ## OdArc.ClockWise property
 
-Получает или задает значение, указывающее, [по часовой стрелке].
+Получает или задает значение, указывающее, будет ли [по часовой стрелке].
 
 ```csharp
 public bool ClockWise { get; set; }
@@ -16,7 +16,7 @@ public bool ClockWise { get; set; }
 
 ### Стоимость имущества
 
-` true` if [по часовой стрелке]; в противном случае` false` .
+`истинный` если [по часовой стрелке]; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

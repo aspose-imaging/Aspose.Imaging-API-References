@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置表示点水平坐标的 BitFIX28_4 对象第 2.2.1 节
+description: 获取或设置一个BitFIX28_4对象2.2.1节表示点的水平坐标
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfpoint28to4/x/
 ---
 ## EmfPoint28To4.X property
 
-获取或设置表示点水平坐标的 BitFIX28_4 对象（第 2.2.1 节）。
+获取或设置一个BitFIX28_4对象（2.2.1节），表示点的水平坐标。
 
 ```csharp
 public EmfBitFix28To4 X { get; set; }

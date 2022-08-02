@@ -1,14 +1,14 @@
 ---
 title: SetDerivedFrom
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Устанавливает производное от.
+description: Устанавливает производное от .
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/setderivedfrom/
 ---
 ## XmpMediaManagementPackage.SetDerivedFrom method
 
-Устанавливает производное от.
+Устанавливает производное от .
 
 ```csharp
 public void SetDerivedFrom(ResourceRef resourceRef)

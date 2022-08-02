@@ -1,14 +1,14 @@
 ---
 title: TiffASCIIType
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化TiffASCIITypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffasciitype类的新实例
+description: 初始化TiffASCIITypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffasciitype类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffasciitype/tiffasciitype/
 ---
 ## TiffASCIIType(TiffTags) {#constructor}
 
-初始化[`TiffASCIIType`](../../tiffasciitype)类的新实例。
+初始化[`TiffASCIIType`](../../tiffasciitype)类.
 
 ```csharp
 public TiffASCIIType(TiffTags tagId)
@@ -16,7 +16,7 @@ public TiffASCIIType(TiffTags tagId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tagId | TiffTags | 标签 ID。 |
+| tagId | TiffTags | 标签标识。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public TiffASCIIType(TiffTags tagId)
 
 ## TiffASCIIType(ushort) {#constructor_1}
 
-初始化[`TiffASCIIType`](../../tiffasciitype)类的新实例。
+初始化[`TiffASCIIType`](../../tiffasciitype)类.
 
 ```csharp
 public TiffASCIIType(ushort tagId)
@@ -37,7 +37,7 @@ public TiffASCIIType(ushort tagId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tagId | UInt16 | 标签 ID。 |
+| tagId | UInt16 | 标签标识。 |
 
 ### 也可以看看
 

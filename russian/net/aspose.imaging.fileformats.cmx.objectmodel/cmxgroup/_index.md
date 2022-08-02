@@ -31,7 +31,7 @@ public class CmxGroup : CmxContainer
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel/cmxgroup/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel/cmxgroup/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 
 ### Смотрите также
 

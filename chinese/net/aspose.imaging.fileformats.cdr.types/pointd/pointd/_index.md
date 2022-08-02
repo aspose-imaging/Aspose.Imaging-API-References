@@ -1,14 +1,14 @@
 ---
 title: PointD
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化PointDaspose.imaging.fileformats.cdr.types/pointd结构的新实例
+description: 初始化PointDaspose.imaging.fileformats.cdr.types/pointd struct.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.cdr.types/pointd/pointd/
 ---
 ## PointD constructor
 
-初始化[`PointD`](../../pointd)结构的新实例。
+初始化[`PointD`](../../pointd) struct.
 
 ```csharp
 public PointD(double x, double y)

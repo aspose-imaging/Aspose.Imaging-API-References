@@ -16,9 +16,9 @@ public void Translate(float offsetX, float offsetY, MatrixOrder order)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| offsetX | Single | Смещение X. |
-| offsetY | Single | Смещение Y . |
-| order | MatrixOrder | Заказ. |
+| offsetX | Single | Смещение Х. |
+| offsetY | Single | Смещение Ю. |
+| order | MatrixOrder | Приказ. |
 
 ### Смотрите также
 
@@ -31,7 +31,7 @@ public void Translate(float offsetX, float offsetY, MatrixOrder order)
 
 ## Translate(float, float) {#translate}
 
-Применяет указанный вектор переноса к этому[`Matrix`](../../matrix)с использованием (по умолчанию) порядка добавления.
+Применяет указанный вектор смещения к этому[`Matrix`](../../matrix) используя (по умолчанию) Prepend order.
 
 ```csharp
 public void Translate(float tx, float ty)
@@ -39,8 +39,8 @@ public void Translate(float tx, float ty)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| tx | Single | tx. TX. TX. |
-| ty | Single | ty. Тай. Тай. |
+| tx | Single | TX. TX. TX. |
+| ty | Single | Тай. Тай. Тай. |
 
 ### Смотрите также
 

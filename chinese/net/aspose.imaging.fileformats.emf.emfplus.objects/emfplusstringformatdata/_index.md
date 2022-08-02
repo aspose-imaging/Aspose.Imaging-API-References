@@ -24,8 +24,8 @@ public sealed class EmfPlusStringFormatData : EmfPlusStructureObjectType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CharRange](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformatdata/charrange) { get; set; } | 获取或设置 RangeCount EmfPlusCharacterRange 对象的可选数组，这些对象指定字符串中的字符位置 文本。边界区域由由字符范围指定的字符组 占据的显示区域定义 。 如果 EmfPlusStringFormat 对象中 RangeCount 字段的值大于 0，则该字段必须存在。 |
-| [TabStops](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformatdata/tabstops) { get; set; } | 获取或设置浮点值的可选数组，指定 此对象的可选制表位位置。每个制表符 停止值表示制表符 停止之间的空格数，或者，对于第一个制表位，空格数 开头之间的空格数文本行和第一个制表位。 如果 EmfPlusStringFormat 对象中 TabStopCount 字段的值大于 0，则该字段必须存在。 |
+| [CharRange](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformatdata/charrange) { get; set; } | 获取或设置 RangeCount EmfPlusCharacterRange 对象的可选数组，这些对象指定文本字符串中字符位置 的范围。边界区域由字符范围指定的字符组 占据的显示区域定义 。如果 EmfPlusStringFormat 对象中 RangeCount 字段的值大于 0. ，则必须存在此字段 |
+| [TabStops](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformatdata/tabstops) { get; set; } | 获取或设置浮点值的可选数组，指定 此对象的可选制表位位置。每个制表位 停止值表示制表位之间的空格数 停止，或者对于第一个制表位，表示一行文本的开头和第一个制表位之间的空格数 。 如果 EmfPlusStringFormat 对象中 TabStopCount 字段的值大于 0，则该字段必须存在。 |
 
 ### 也可以看看
 

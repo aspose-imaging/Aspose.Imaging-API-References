@@ -1,14 +1,14 @@
 ---
 title: WmfSetDibToDev
 second_title: Aspose.Imaging for .NET API 参考
-description: META_SETDIBTODEV 记录使用与设备无关的颜色数据在播放 设备上下文中设置像素块 颜色数据的来源是 DIB
+description: META_SETDIBTODEV 记录使用与设备无关的颜色数据在播放 设备上下文中设置像素块 颜色数据的来源是 DIB.
 type: docs
 weight: 9060
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfsetdibtodev/
 ---
 ## WmfSetDibToDev class
 
-META_SETDIBTODEV 记录使用与设备无关的颜色数据在播放 设备上下文中设置像素块。 颜色数据的来源是 DIB。
+META_SETDIBTODEV 记录使用与设备无关的颜色数据在播放 设备上下文中设置像素块。 颜色数据的来源是 DIB.
 
 ```csharp
 public class WmfSetDibToDev : WmfObject
@@ -24,9 +24,9 @@ public class WmfSetDibToDev : WmfObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ColorUsage](../../aspose.imaging.fileformats.wmf.objects/wmfsetdibtodev/colorusage) { get; set; } | 获取或设置颜色使用。 |
+| [ColorUsage](../../aspose.imaging.fileformats.wmf.objects/wmfsetdibtodev/colorusage) { get; set; } | 获取或设置颜色使用情况。 |
 | [DestPos](../../aspose.imaging.fileformats.wmf.objects/wmfsetdibtodev/destpos) { get; set; } | 获取或设置目标位置。 |
-| [Dib](../../aspose.imaging.fileformats.wmf.objects/wmfsetdibtodev/dib) { get; set; } | 获取或设置 dib。 |
+| [Dib](../../aspose.imaging.fileformats.wmf.objects/wmfsetdibtodev/dib) { get; set; } | 获取或设置 dib. |
 | [DibPos](../../aspose.imaging.fileformats.wmf.objects/wmfsetdibtodev/dibpos) { get; set; } | 获取或设置 dib 位置。 |
 | [Height](../../aspose.imaging.fileformats.wmf.objects/wmfsetdibtodev/height) { get; set; } | 获取或设置高度。 |
 | [ScanCount](../../aspose.imaging.fileformats.wmf.objects/wmfsetdibtodev/scancount) { get; set; } | 获取或设置扫描计数。 |

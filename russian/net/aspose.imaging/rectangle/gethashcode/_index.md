@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Возвращает хеш-код для этойRectangleaspose.imaging/rectangleструктуры.
+description: Возвращает хеш-код для этогоRectangleaspose.imaging/rectangle структура.
 type: docs
 weight: 240
 url: /ru/net/aspose.imaging/rectangle/gethashcode/
 ---
 ## Rectangle.GetHashCode method
 
-Возвращает хеш-код для этой[`Rectangle`](../../rectangle)структуры.
+Возвращает хеш-код для этого[`Rectangle`](../../rectangle) структура.
 
 ```csharp
 public override int GetHashCode()

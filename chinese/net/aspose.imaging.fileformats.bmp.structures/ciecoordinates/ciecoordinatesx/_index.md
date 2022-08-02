@@ -1,14 +1,14 @@
 ---
 title: CieCoordinatesX
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置坐标x
+description: 获取或设置坐标x.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.bmp.structures/ciecoordinates/ciecoordinatesx/
 ---
 ## CieCoordinates.CieCoordinatesX property
 
-获取或设置坐标x。
+获取或设置坐标x.
 
 ```csharp
 public long CieCoordinatesX { get; set; }
@@ -16,7 +16,7 @@ public long CieCoordinatesX { get; set; }
 
 ### 适当的价值
 
-坐标 x。
+坐标 x.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: GammaGreen
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное значение с фиксированной точкой определяющее тонированную кривую отклика для зеленого цвета. Если в полеColorSpaceTypeaspose.imaging.fileformats.wmf.objects/wmflogcolorspace/colorspacetype не указан LCS_CALIBRATED_RGB это поле ДОЛЖНО быть проигнорировано.
+description: Получает или задает 32-битное значение с фиксированной точкой которое определяет кривую отклика toned для зеленого цвета. ЕслиColorSpaceTypeaspose.imaging.fileformats.wmf.objects/wmflogcolorspace/colorspacetype field не указывает LCS_CALIBRATED_RGB это поле ДОЛЖНО быть проигнорировано.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/gammagreen/
 ---
 ## WmfLogColorSpace.GammaGreen property
 
-Получает или задает 32-разрядное значение с фиксированной точкой, определяющее тонированную кривую отклика для зеленого цвета. Если в поле[`ColorSpaceType`](../colorspacetype) не указан LCS_CALIBRATED_RGB, это поле ДОЛЖНО быть проигнорировано.
+Получает или задает 32-битное значение с фиксированной точкой, которое определяет кривую отклика toned для зеленого цвета. Если[`ColorSpaceType`](../colorspacetype) field не указывает LCS_CALIBRATED_RGB, это поле ДОЛЖНО быть проигнорировано.
 
 ```csharp
 public int GammaGreen { get; set; }

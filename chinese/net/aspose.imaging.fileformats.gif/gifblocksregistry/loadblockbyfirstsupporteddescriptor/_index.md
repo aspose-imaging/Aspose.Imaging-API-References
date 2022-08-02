@@ -1,14 +1,14 @@
 ---
 title: LoadBlockByFirstSupportedDescriptor
 second_title: Aspose.Imaging for .NET API 参考
-description: 使用适合指定stream的第一个找到的开启程序加载 gif 块
+description: 使用第一个找到的适合指定的开启器加载 gif 块stream .
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.gif/gifblocksregistry/loadblockbyfirstsupporteddescriptor/
 ---
 ## GifBlocksRegistry.LoadBlockByFirstSupportedDescriptor method
 
-使用适合指定*stream*的第一个找到的开启程序加载 gif 块。
+使用第一个找到的适合指定的开启器加载 gif 块*stream* .
 
 ```csharp
 public static IGifBlock LoadBlockByFirstSupportedDescriptor(Stream stream, 
@@ -22,11 +22,11 @@ public static IGifBlock LoadBlockByFirstSupportedDescriptor(Stream stream,
 
 ### 返回值
 
-加载的 gif 块，如果没有找到开启器，则返回 null。
+加载的 gif 块，如果没有找到开启器，则为 null。
 
 ### 评论
 
-第一个开启者实际上是最后一个注册的。
+第一个开启者实际上是最后注册的。
 
 ### 也可以看看
 

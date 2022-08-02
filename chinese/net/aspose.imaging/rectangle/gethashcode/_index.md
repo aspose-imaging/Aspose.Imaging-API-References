@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Aspose.Imaging for .NET API 参考
-description: 返回此Rectangleaspose.imaging/rectangle结构的哈希码
+description: 返回此哈希码Rectangleaspose.imaging/rectangle结构.
 type: docs
 weight: 240
 url: /zh/net/aspose.imaging/rectangle/gethashcode/
 ---
 ## Rectangle.GetHashCode method
 
-返回此[`Rectangle`](../../rectangle)结构的哈希码。
+返回此哈希码[`Rectangle`](../../rectangle)结构.
 
 ```csharp
 public override int GetHashCode()

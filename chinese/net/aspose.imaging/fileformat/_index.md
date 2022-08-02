@@ -1,14 +1,14 @@
 ---
 title: FileFormat
 second_title: Aspose.Imaging for .NET API 参考
-description: 一种受支持的映像文件格式
+description: 支持的图像文件格式之一
 type: docs
 weight: 1300
 url: /zh/net/aspose.imaging/fileformat/
 ---
 ## FileFormat enumeration
 
-一种受支持的映像文件格式。
+支持的图像文件格式之一。
 
 ```csharp
 [Flags]
@@ -24,29 +24,29 @@ public enum FileFormat : ulong
 | Bmp | `2` | Bmp (Dib) 文件格式。 |
 | Gif | `4` | Gif 文件格式。 |
 | Jpeg | `8` | Jpeg 文件格式。 |
-| Png | `10` | Png 文件格式。 |
+| Png | `10` | png 文件格式. |
 | Tiff | `20` | Tiff 文件格式。 |
 | Psd | `40` | Psd 文件格式。 |
 | Jpeg2000 | `200` | Jpeg2000 文件格式 |
 | Djvu | `400` | Djvu 文件格式 |
-| Webp | `800` | webp 文件格式 |
+| Webp | `800` | webp文件格式 |
 | Emf | `1000` | Emf/Emf+ 文件格式 |
 | Dicom | `2000` | dicom 格式 |
 | Svg | `4000` | SVG 文件格式 |
 | Wmf | `8000` | Wmf 文件格式 |
 | Dng | `10000` | DNG 文件格式 |
 | Odg | `20000` | 打开文档图形格式 |
-| Cdr | `80000` | CDR 文件格式 |
+| Cdr | `80000` | 话单文件格式 |
 | Cmx | `100000` | CMX 文件格式 |
-| Otg | `200000` | otg 文件格式 |
-| Html5Canvas | `400000` | Html5 Canvas 格式 |
+| Otg | `200000` | otg文件格式 |
+| Html5Canvas | `400000` | Html5 画布格式 |
 | Eps | `40000` | 封装的 PostScript 格式 |
 | Apng | `800000` | 动画 Png 文件格式。 |
 | Tga | `1000000` | Truevision TGA 文件格式。 |
 | Dxf | `2000000` | AutoCAD 图形交换格式。 |
-| Emz | `4000000` | emz，压缩的 emf |
-| Wmz | `8000000` | WMZ，压缩的 wmf |
-| Svgz | `10000000` | SVGZ，压缩 svg |
+| Emz | `4000000` | emz，压缩后的 emf |
+| Wmz | `8000000` | WMZ，压缩 wmf |
+| Svgz | `10000000` | SVGZ，压缩的 svg |
 | FOdg | `20000000` | fodg，扁平 odg 格式 |
 
 ### 也可以看看

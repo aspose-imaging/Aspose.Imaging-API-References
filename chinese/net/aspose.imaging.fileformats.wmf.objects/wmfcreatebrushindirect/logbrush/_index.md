@@ -16,7 +16,7 @@ public EmfLogBrushEx LogBrush { get; set; }
 
 ### 适当的价值
 
-日志刷。
+日志刷.
 
 ### 也可以看看
 

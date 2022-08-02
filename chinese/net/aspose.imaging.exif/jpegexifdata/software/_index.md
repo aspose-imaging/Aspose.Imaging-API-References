@@ -16,7 +16,7 @@ public string Software { get; set; }
 
 ### 适当的价值
 
-软件。
+软件.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: CjDriver
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数它指定 DriverName 字段中的字节数该值必须是偶数
+description: 获取或设置一个 32 位无符号整数它指定 DriverName 字段中的字节数此值必须是偶数
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfnamedescape/cjdriver/
 ---
 ## EmfNamedEscape.CjDriver property
 
-获取或设置一个 32 位无符号整数，它指定 DriverName 字段中的字节数。该值必须是偶数。
+获取或设置一个 32 位无符号整数，它指定 DriverName 字段中的字节数。此值必须是偶数。
 
 ```csharp
 public int CjDriver { get; set; }

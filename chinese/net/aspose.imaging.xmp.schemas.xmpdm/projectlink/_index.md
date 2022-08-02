@@ -1,14 +1,14 @@
 ---
 title: ProjectLink
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示项目的路径
+description: 代表项目的路径
 type: docs
-weight: 11380
+weight: 11370
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/projectlink/
 ---
 ## ProjectLink class
 
-表示项目的路径。
+代表项目的路径。
 
 ```csharp
 public sealed class ProjectLink : XmpTypeBase
@@ -31,7 +31,7 @@ public sealed class ProjectLink : XmpTypeBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [GetXmpRepresentation](../../aspose.imaging.xmp.schemas.xmpdm/projectlink/getxmprepresentation)() | 以 XMP 格式返回字符串包含的值。 |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.schemas.xmpdm/projectlink/getxmprepresentation)() | 以 XMP 格式返回包含字符串的值。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Rotate180
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值该值指示此ImageSpec是否颠倒
+description: 获取或设置一个值该值指示是否ImageSpec是颠倒的
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/rotate180/
 ---
 ## CmxImageFill.Rotate180 property
 
-获取或设置一个值，该值指示此!:ImageSpec是否颠倒。
+获取或设置一个值，该值指示是否!:ImageSpec是颠倒的。
 
 ```csharp
 public bool Rotate180 { get; set; }
@@ -16,7 +16,7 @@ public bool Rotate180 { get; set; }
 
 ### 适当的价值
 
-` true` 如果图像倒置；否则，` false` 。
+`真的`如果图像是颠倒的；否则，`错误的` .
 
 ### 也可以看看
 

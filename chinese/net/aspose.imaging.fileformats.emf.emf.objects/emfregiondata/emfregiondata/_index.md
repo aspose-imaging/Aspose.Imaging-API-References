@@ -1,14 +1,14 @@
 ---
 title: EmfRegionData
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfRegionDataaspose.imaging.fileformats.emf.emf.objects/emfregiondata类的新实例
+description: 初始化EmfRegionDataaspose.imaging.fileformats.emf.emf.objects/emfregiondata类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfregiondata/emfregiondata/
 ---
 ## EmfRegionData() {#constructor}
 
-初始化[`EmfRegionData`](../../emfregiondata)类的新实例。
+初始化[`EmfRegionData`](../../emfregiondata)类.
 
 ```csharp
 public EmfRegionData()
@@ -24,7 +24,7 @@ public EmfRegionData()
 
 ## EmfRegionData(Rectangle) {#constructor_1}
 
-初始化[`EmfRegionData`](../../emfregiondata)类的新实例。
+初始化[`EmfRegionData`](../../emfregiondata)类.
 
 ```csharp
 public EmfRegionData(Rectangle rectangle)

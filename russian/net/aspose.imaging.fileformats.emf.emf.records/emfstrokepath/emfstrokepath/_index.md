@@ -1,14 +1,14 @@
 ---
 title: EmfStrokePath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfStrokePathaspose.imaging.fileformats.emf.emf.records/emfstrokepath.
+description: Инициализирует новый экземплярEmfStrokePathaspose.imaging.fileformats.emf.emf.records/emfstrokepath класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfstrokepath/emfstrokepath/
 ---
 ## EmfStrokePath(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfStrokePath`](../../emfstrokepath).
+Инициализирует новый экземпляр[`EmfStrokePath`](../../emfstrokepath) класс.
 
 ```csharp
 public EmfStrokePath(EmfRecord record)
@@ -29,7 +29,7 @@ public EmfStrokePath(EmfRecord record)
 
 ## EmfStrokePath() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfStrokePath`](../../emfstrokepath).
+Инициализирует новый экземпляр[`EmfStrokePath`](../../emfstrokepath) класс.
 
 ```csharp
 public EmfStrokePath()

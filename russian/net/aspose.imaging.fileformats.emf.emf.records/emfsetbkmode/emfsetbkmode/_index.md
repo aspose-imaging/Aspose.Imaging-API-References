@@ -1,14 +1,14 @@
 ---
 title: EmfSetBkMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetBkModeaspose.imaging.fileformats.emf.emf.records/emfsetbkmode.
+description: Инициализирует новый экземплярEmfSetBkModeaspose.imaging.fileformats.emf.emf.records/emfsetbkmode класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetbkmode/emfsetbkmode/
 ---
 ## EmfSetBkMode(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfSetBkMode`](../../emfsetbkmode).
+Инициализирует новый экземпляр[`EmfSetBkMode`](../../emfsetbkmode) класс.
 
 ```csharp
 public EmfSetBkMode(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfSetBkMode(EmfRecord source)
 
 ## EmfSetBkMode() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfSetBkMode`](../../emfsetbkmode).
+Инициализирует новый экземпляр[`EmfSetBkMode`](../../emfsetbkmode) класс.
 
 ```csharp
 public EmfSetBkMode()

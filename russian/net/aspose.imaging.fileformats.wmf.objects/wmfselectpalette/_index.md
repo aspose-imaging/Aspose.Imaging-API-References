@@ -1,14 +1,14 @@
 ---
 title: WmfSelectPalette
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_SELECTPALETTE определяет текущую логическую палитру с указанным объектом палитры.
+description: Запись META_SELECTPALETTE определяет текущую логическую палитру с указанным a объектом палитры.
 type: docs
 weight: 9030
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfselectpalette/
 ---
 ## WmfSelectPalette class
 
-Запись META_SELECTPALETTE определяет текущую логическую палитру с указанным объектом палитры.
+Запись META_SELECTPALETTE определяет текущую логическую палитру с указанным a объектом палитры.
 
 ```csharp
 public class WmfSelectPalette : WmfObject

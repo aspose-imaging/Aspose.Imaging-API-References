@@ -1,14 +1,14 @@
 ---
 title: EmfPlusCompositingMode
 second_title: Aspose.Imaging for .NET API 参考
-description: CompositingMode 枚举定义了将源颜色与背景颜色组合的模式合成模式表示 Alpha 混合的启用状态
+description: CompositingMode 枚举定义了将源颜色与背景颜色组合的模式合成模式代表alpha blending的启用状态
 type: docs
 weight: 4720
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscompositingmode/
 ---
 ## EmfPlusCompositingMode enumeration
 
-CompositingMode 枚举定义了将源颜色与背景颜色组合的模式。合成模式表示 Alpha 混合的启用状态。
+CompositingMode 枚举定义了将源颜色与背景颜色组合的模式。合成模式代表alpha blending的启用状态。
 
 ```csharp
 public enum EmfPlusCompositingMode : byte

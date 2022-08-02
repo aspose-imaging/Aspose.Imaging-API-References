@@ -1,14 +1,14 @@
 ---
 title: Jpeg2000Exception
 second_title: Aspose.Imaging for .NET API 参考
-description: Jpeg 文件例外
+description: Jpeg 文件的例外情况
 type: docs
 weight: 570
 url: /zh/net/aspose.imaging.coreexceptions.imageformats/jpeg2000exception/
 ---
 ## Jpeg2000Exception class
 
-Jpeg 文件例外
+Jpeg 文件的例外情况
 
 ```csharp
 public class Jpeg2000Exception : ImageException
@@ -18,8 +18,8 @@ public class Jpeg2000Exception : ImageException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Jpeg2000Exception](jpeg2000exception#constructor)(string) | 初始化[`Jpeg2000Exception`](../jpeg2000exception)类的新实例。 |
-| [Jpeg2000Exception](jpeg2000exception#constructor_1)(string, Exception) | 初始化[`Jpeg2000Exception`](../jpeg2000exception)类的新实例。 |
+| [Jpeg2000Exception](jpeg2000exception#constructor)(string) | 初始化[`Jpeg2000Exception`](../jpeg2000exception)类. |
+| [Jpeg2000Exception](jpeg2000exception#constructor_1)(string, Exception) | 初始化[`Jpeg2000Exception`](../jpeg2000exception)类. |
 
 ### 也可以看看
 

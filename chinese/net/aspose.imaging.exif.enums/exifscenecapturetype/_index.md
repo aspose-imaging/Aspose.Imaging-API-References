@@ -19,8 +19,8 @@ public enum ExifSceneCaptureType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Standard | `0` | 标准场景。 |
-| Landscape | `1` | 风景场景。 |
-| Portrait | `2` | 肖像场景。 |
+| Landscape | `1` | 风景场景. |
+| Portrait | `2` | 人像场景。 |
 | NightScene | `3` | 夜景。 |
 
 ### 也可以看看

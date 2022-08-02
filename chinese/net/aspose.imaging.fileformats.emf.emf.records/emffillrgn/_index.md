@@ -18,17 +18,17 @@ public sealed class EmfFillRgn : EmfDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfFillRgn](emffillrgn#constructor)() | 初始化[`EmfFillRgn`](../emffillrgn)类的新实例。 |
-| [EmfFillRgn](emffillrgn#constructor_1)(EmfRecord) | 初始化[`EmfFillRgn`](../emffillrgn)类的新实例。 |
+| [EmfFillRgn](emffillrgn#constructor)() | 初始化[`EmfFillRgn`](../emffillrgn)类. |
+| [EmfFillRgn](emffillrgn#constructor_1)(EmfRecord) | 初始化[`EmfFillRgn`](../emffillrgn)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emffillrgn/bounds) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象，在 [MS-WMF] 第 2.2.2.19 节中指定， 指定边界矩形. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emffillrgn/bounds) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象，在 [MS-WMF] 第 2.2.2.19 节中指定， 指定边界矩形。 |
 | [IhBrush](../../aspose.imaging.fileformats.emf.emf.records/emffillrgn/ihbrush) { get; set; } | 获取或设置一个 32 位无符号整数，指定刷 EMF 对象表索引 以填充区域。 |
 | [RgnData](../../aspose.imaging.fileformats.emf.emf.records/emffillrgn/rgndata) { get; set; } | 获取或设置包含 RegionData（第 2.2.24 节）对象的 RgnDataSize 长度字节数组。 |
-| [RgnDataSize](../../aspose.imaging.fileformats.emf.emf.records/emffillrgn/rgndatasize) { get; set; } | 获取或设置指定区域数据大小的 32 位无符号整数，以字节为单位。 |
+| [RgnDataSize](../../aspose.imaging.fileformats.emf.emf.records/emffillrgn/rgndatasize) { get; set; } | 获取或设置一个 32 位无符号整数，指定区域数据的大小，以字节为单位。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

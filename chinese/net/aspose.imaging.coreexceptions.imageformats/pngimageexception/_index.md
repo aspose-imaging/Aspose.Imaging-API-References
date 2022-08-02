@@ -18,8 +18,8 @@ public class PngImageException : Exception
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PngImageException](pngimageexception#constructor)(string) | 初始化[`PngImageException`](../pngimageexception)类的新实例。 |
-| [PngImageException](pngimageexception#constructor_1)(string, Exception) | 初始化[`PngImageException`](../pngimageexception)类的新实例。 |
+| [PngImageException](pngimageexception#constructor)(string) | 初始化[`PngImageException`](../pngimageexception)类. |
+| [PngImageException](pngimageexception#constructor_1)(string, Exception) | 初始化[`PngImageException`](../pngimageexception)类. |
 
 ### 也可以看看
 

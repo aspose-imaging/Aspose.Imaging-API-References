@@ -1,14 +1,14 @@
 ---
 title: EmfSetLayout.LayoutModeEnum
 second_title: Aspose.Imaging for .NET API 参考
-description: 一个 32 位无符号整数指定布局模式
+description: 指定布局模式的 32 位无符号整数
 type: docs
 weight: 4380
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetlayout.layoutmodeenum/
 ---
 ## EmfSetLayout.LayoutModeEnum enumeration
 
-一个 32 位无符号整数，指定布局模式
+指定布局模式的 32 位无符号整数
 
 ```csharp
 public enum LayoutModeEnum
@@ -18,9 +18,9 @@ public enum LayoutModeEnum
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| LAYOUT_LTR | `0` | 将默认水平布局设置为从左到右。 这是英语和欧洲 语言环境的默认模式。 |
+| LAYOUT_LTR | `0` | 将默认水平布局设置为从左到右。 这是英语和欧洲语言的默认模式 语言环境。 |
 | LAYOUT_RTL | `1` | 将默认水平布局设置为从右到左。 某些语言需要此模式，包括 阿拉伯语和希伯来语。 |
-| LAYOUT_BITMAPORIENTATIONPRESERVED | `8` | 在布局 时禁用由 位图记录类型（第 2.3.1 节）绘制的位图的镜像模式是从右到左。 |
+| LAYOUT_BITMAPORIENTATIONPRESERVED | `8` | 当 layout 模式为从右到左时，禁用由 位图记录类型（第 2.3.1 节）绘制的位图的镜像。 |
 
 ### 也可以看看
 

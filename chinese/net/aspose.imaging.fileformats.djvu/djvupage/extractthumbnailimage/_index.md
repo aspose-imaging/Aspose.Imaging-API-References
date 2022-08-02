@@ -1,14 +1,14 @@
 ---
 title: ExtractThumbnailImage
 second_title: Aspose.Imaging for .NET API 参考
-description: 从 Djvu 页面提取缩略图
+description: 从 Djvu 页面中提取缩略图
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.fileformats.djvu/djvupage/extractthumbnailimage/
 ---
 ## DjvuPage.ExtractThumbnailImage method
 
-从 Djvu 页面提取缩略图。
+从 Djvu 页面中提取缩略图。
 
 ```csharp
 public DjvuRaster ExtractThumbnailImage()

@@ -1,14 +1,14 @@
 ---
 title: Bits
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Фактор дискретизации изображения с размытием.
+description: Коэффициент дискретизации сглаженного изображения.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.dithering/ditheringmode/bits/
 ---
 ## DitheringMode.Bits property
 
-Фактор дискретизации изображения с размытием.
+Коэффициент дискретизации сглаженного изображения.
 
 ```csharp
 public int Bits { get; set; }

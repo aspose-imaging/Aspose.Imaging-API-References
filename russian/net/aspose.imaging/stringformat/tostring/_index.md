@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Преобразует этот объектStringFormataspose.imaging/stringformatв удобочитаемую строку.
+description: Преобразует этоStringFormataspose.imaging/stringformat объект в удобочитаемую строку.
 type: docs
 weight: 160
 url: /ru/net/aspose.imaging/stringformat/tostring/
 ---
 ## StringFormat.ToString method
 
-Преобразует этот объект[`StringFormat`](../../stringformat)в удобочитаемую строку.
+Преобразует это[`StringFormat`](../../stringformat) объект в удобочитаемую строку.
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Возвращаемое значение
 
-Строковое представление этого[`StringFormat`](../../stringformat)объект.
+Строковое представление этого[`StringFormat`](../../stringformat) объект.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: IsRawDataAvailable
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示是否可以加载原始数据
+description: 获取一个值指示是否可以加载原始数据
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging/rasterimage/israwdataavailable/
 ---
 ## RasterImage.IsRawDataAvailable property
 
-获取一个值，该值指示是否可以加载原始数据。
+获取一个值，指示是否可以加载原始数据。
 
 ```csharp
 public bool IsRawDataAvailable { get; }
@@ -16,7 +16,7 @@ public bool IsRawDataAvailable { get; }
 
 ### 适当的价值
 
-` true` 如果此原始数据加载可用；否则，` false` 。
+`真的`如果此原始数据加载可用；否则，`错误的` .
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: SrcRect
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 EmfPlusRectF 矩形该矩形与 DestRect 一起为容器指定变换 此转换在应用于 DestRect 时会产生 SrcRect
+description: 获取或设置一个 EmfPlusRectF 矩形它与 DestRect 一起为容器指定一个 transformation 当应用于 DestRect. 时此转换会导致 SrcRect
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer/srcrect/
 ---
 ## EmfPlusBeginContainer.SrcRect property
 
-获取或设置一个 EmfPlusRectF 矩形，该矩形与 DestRect 一起为容器指定变换 。此转换在应用于 DestRect 时会产生 SrcRect。
+获取或设置一个 EmfPlusRectF 矩形，它与 DestRect 一起为容器指定一个 transformation 。当应用于 DestRect. 时，此转换会导致 SrcRect
 
 ```csharp
 public RectangleF SrcRect { get; set; }

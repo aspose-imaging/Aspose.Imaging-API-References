@@ -1,14 +1,14 @@
 ---
 title: AdjustBrightness
 second_title: Aspose.Imaging for .NET API 参考
-description: 调整图像的brightness
+description: 调整一个brightness对于图像.
 type: docs
 weight: 130
 url: /zh/net/aspose.imaging.fileformats.dicom/dicomimage/adjustbrightness/
 ---
 ## DicomImage.AdjustBrightness method
 
-调整图像的*brightness*。
+调整一个*brightness*对于图像.
 
 ```csharp
 public override void AdjustBrightness(int brightness)
@@ -31,8 +31,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.dico
 {
     Aspose.Imaging.FileFormats.Dicom.DicomImage dicomImage = (Aspose.Imaging.FileFormats.Dicom.DicomImage)image;
 
-        // 设置亮度值。可接受的亮度值在 [-255, 255].
- 范围内
+    // 设置亮度值。可接受的亮度值在 [-255, 255] 范围内。
     dicomImage.AdjustBrightness(50);
     dicomImage.Save(dir + "sample.AdjustBrightness.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }

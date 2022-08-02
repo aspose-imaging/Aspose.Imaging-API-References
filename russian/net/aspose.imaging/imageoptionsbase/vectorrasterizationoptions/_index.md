@@ -16,7 +16,7 @@ public VectorRasterizationOptions VectorRasterizationOptions { get; set; }
 
 ### Стоимость имущества
 
-Параметры растеризации вектора.
+Параметры векторной растеризации.
 
 ### Смотрите также
 

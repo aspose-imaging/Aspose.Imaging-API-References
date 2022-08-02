@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Imaging for .NET API 参考
-description: 将此Rectangleaspose.imaging/rectangle的属性转换为人类可读的字符串
+description: 转换 this 的属性Rectangleaspose.imaging/rectangle到一个人类可读的字符串
 type: docs
 weight: 280
 url: /zh/net/aspose.imaging/rectangle/tostring/
 ---
 ## Rectangle.ToString method
 
-将此[`Rectangle`](../../rectangle)的属性转换为人类可读的字符串。
+转换 this 的属性[`Rectangle`](../../rectangle)到一个人类可读的字符串。
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-包含此:::R5:T:Aspose.Imaging.Rectangle::的位置、宽度和高度的字符串:结构体。
+包含 this 的位置、宽度和高度的字符串[`Rectangle`](../../rectangle)结构体。
 
 ### 也可以看看
 

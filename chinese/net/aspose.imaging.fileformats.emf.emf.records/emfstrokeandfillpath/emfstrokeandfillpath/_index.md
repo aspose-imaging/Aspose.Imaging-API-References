@@ -1,14 +1,14 @@
 ---
 title: EmfStrokeAndFillPath
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfStrokeAndFillPathaspose.imaging.fileformats.emf.emf.records/emfstrokeandfillpath类的新实例
+description: 初始化EmfStrokeAndFillPathaspose.imaging.fileformats.emf.emf.records/emfstrokeandfillpath类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfstrokeandfillpath/emfstrokeandfillpath/
 ---
 ## EmfStrokeAndFillPath(EmfRecord) {#constructor_1}
 
-初始化[`EmfStrokeAndFillPath`](../../emfstrokeandfillpath)类的新实例。
+初始化[`EmfStrokeAndFillPath`](../../emfstrokeandfillpath)类.
 
 ```csharp
 public EmfStrokeAndFillPath(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfStrokeAndFillPath(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfStrokeAndFillPath(EmfRecord source)
 
 ## EmfStrokeAndFillPath() {#constructor}
 
-初始化[`EmfStrokeAndFillPath`](../../emfstrokeandfillpath)类的新实例。
+初始化[`EmfStrokeAndFillPath`](../../emfstrokeandfillpath)类.
 
 ```csharp
 public EmfStrokeAndFillPath()

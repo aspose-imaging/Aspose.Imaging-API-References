@@ -1,14 +1,14 @@
 ---
 title: EmfPlusRegionNodeChildNodes
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект EmfPlusRegionNodeChildNodes указывает дочерние узлы узла графической области
+description: Объект EmfPlusRegionNodeChildNodes указывает дочерние узлы графической области node
 type: docs
 weight: 5730
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/
 ---
 ## EmfPlusRegionNodeChildNodes class
 
-Объект EmfPlusRegionNodeChildNodes указывает дочерние узлы узла графической области
+Объект EmfPlusRegionNodeChildNodes указывает дочерние узлы графической области node
 
 ```csharp
 public sealed class EmfPlusRegionNodeChildNodes : EmfPlusStructureObjectType
@@ -24,9 +24,9 @@ public sealed class EmfPlusRegionNodeChildNodes : EmfPlusStructureObjectType
 
 | Имя | Описание |
 | --- | --- |
-| [Left](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/left) { get; set; } | Получает или задает объект EmfPlusRegionNode, указывающий левый дочерний узел данного узла региона. |
+| [Left](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/left) { get; set; } | Получает или задает объект EmfPlusRegionNode, указывающий левый дочерний узел этого узла области. |
 | [Operation](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/operation) { get; set; } | Получает или задает операцию. |
-| [Right](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/right) { get; set; } | Получает или задает объект EmfPlusRegionNode, определяющий правый дочерний узел данного узла региона. |
+| [Right](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/right) { get; set; } | Получает или задает объект EmfPlusRegionNode, определяющий правый дочерний узел этого узла области. |
 
 ### Смотрите также
 

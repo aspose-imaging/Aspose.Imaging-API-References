@@ -20,31 +20,31 @@ public static CacheType CacheType { get; set; }
 
 ### Примеры
 
-Этот пример демонстрирует использование Aspose.Imaging.Cache
+Этот пример демонстрирует использование Aspose.Imaging.Cache.
 
 ```csharp
 [C#]
 
- // По умолчанию папка кеша устанавливается в локальный временный каталог пользователя.
- // Вы также можете указать другую папку кэша, отличную от стандартной, например: 
- // Cache.CacheFolder = @"D:\\MyTemp";
+// По умолчанию папка кеша устанавливается в локальный временный каталог пользователя.
+// Вы также можете указать другую папку кеша, отличную от стандартной, например:
+// Cache.CacheFolder = @"D:\\MyTemp";
 
- // Автоматический режим гибкий и эффективный
+// Автоматический режим гибок и эффективен
 Aspose.Imaging.Cache.CacheType = Aspose.Imaging.CacheType.Auto;
 
- // Значение по умолчанию равно 0, что означает отсутствие верхнего предела
-Aspose.Imaging.Cache.MaxDiskSpaceForCache = 1073741824;  // 1 гигабайт
-Aspose.Imaging.Cache.MaxMemoryForCache = 1073741824;  // 1 гигабайт
+// Значение по умолчанию равно 0, что означает отсутствие верхнего предела
+Aspose.Imaging.Cache.MaxDiskSpaceForCache = 1073741824; // 1 гигабайт
+Aspose.Imaging.Cache.MaxMemoryForCache = 1073741824; // 1 гигабайт
 
- // Не рекомендуется изменять следующее свойство, так как это может сильно повлиять на performance
+// Не рекомендуется изменять следующее свойство, так как это может сильно повлиять на производительность
 Aspose.Imaging.Cache.ExactReallocateOnly = false;
 
- // В любой момент вы можете проверить, сколько байт в данный момент выделено для памяти или диска 
- // кешировать, изучив следующие свойства
+// В любой момент вы можете проверить, сколько байт в данный момент выделено для памяти или диска 
+// кешируем, изучая следующие свойства
 long l1 = Aspose.Imaging.Cache.AllocatedDiskBytesCount;
 long l2 = Aspose.Imaging.Cache.AllocatedMemoryBytesCount;
 
- // Выполняем некоторую обработку изображения, как показано ниже
+// Выполняем некоторую обработку изображения, как показано ниже
 Aspose.Imaging.ImageOptions.GifOptions options = new Aspose.Imaging.ImageOptions.GifOptions();
 options.Palette = new ColorPalette(new Aspose.Imaging.Color[] { Aspose.Imaging.Color.Red, Aspose.Imaging.Color.Blue, Aspose.Imaging.Color.Black, Aspose.Imaging.Color.White });
 options.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream(), true);
@@ -58,13 +58,13 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 
     image.SavePixels(image.Bounds, pixels);
 
-    // после выполнения кода выше в памяти будет выделено 40000 байт.
+    // после выполнения кода выше будет выделено 40000 байт в памяти.
     long diskBytes = Aspose.Imaging.Cache.AllocatedDiskBytesCount;
     long memoryBytes = Aspose.Imaging.Cache.AllocatedMemoryBytesCount;
 }
 
- // Свойства выделения можно использовать для проверки правильности размещения всех объектов Aspose.Imaging.
- // Если вы забыли вызвать dispose для какого-либо объекта, значения кеша будут отличаться от 0. 
+// Свойства выделения можно использовать для проверки правильности размещения всех объектов Aspose.Imaging.
+// Если вы забыли вызвать dispose для какого-либо объекта, значения кеша будут отличаться от 0.            
 l1 = Aspose.Imaging.Cache.AllocatedDiskBytesCount;
 l2 = Aspose.Imaging.Cache.AllocatedMemoryBytesCount;
 ```

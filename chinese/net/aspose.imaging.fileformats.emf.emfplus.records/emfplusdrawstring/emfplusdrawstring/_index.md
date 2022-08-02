@@ -1,14 +1,14 @@
 ---
 title: EmfPlusDrawString
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPlusDrawStringaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring类的新实例
+description: 初始化EmfPlusDrawStringaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/emfplusdrawstring/
 ---
 ## EmfPlusDrawString constructor
 
-初始化[`EmfPlusDrawString`](../../emfplusdrawstring)类的新实例。
+初始化[`EmfPlusDrawString`](../../emfplusdrawstring)类.
 
 ```csharp
 public EmfPlusDrawString(EmfPlusRecord source)
@@ -16,7 +16,7 @@ public EmfPlusDrawString(EmfPlusRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfPlusRecord | 源。 |
+| source | EmfPlusRecord | 来源。 |
 
 ### 也可以看看
 

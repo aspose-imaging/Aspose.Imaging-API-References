@@ -17,7 +17,7 @@ public static TiffDataType CreateInstance(ushort dataType, ushort tagId)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | dataType | UInt16 | 数据类型实例。 |
-| tagId | UInt16 | 标签 ID。 |
+| tagId | UInt16 | 标签标识。 |
 
 ### 返回值
 

@@ -1,14 +1,14 @@
 ---
 title: GetPackage
 second_title: Aspose.Imaging for .NET API 参考
-description: 通过它的 namespaceURI 获取XmpPackageaspose.imaging.xmp/xmppackage
+description: 获取XmpPackageaspose.imaging.xmp/xmppackage通过它的 namespaceURI.
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.xmp/xmppackagebasecollection/getpackage/
 ---
 ## XmpPackageBaseCollection.GetPackage method
 
-通过它的 namespaceURI 获取[`XmpPackage`](../../xmppackage)。
+获取[`XmpPackage`](../../xmppackage)通过它的 namespaceURI.
 
 ```csharp
 public XmpPackage GetPackage(string namespaceUri)
@@ -20,7 +20,7 @@ public XmpPackage GetPackage(string namespaceUri)
 
 ### 返回值
 
-返回指定命名空间 Uri 的 XMP 包。
+返回指定命名空间 Uri. 的 XMP 包
 
 ### 也可以看看
 

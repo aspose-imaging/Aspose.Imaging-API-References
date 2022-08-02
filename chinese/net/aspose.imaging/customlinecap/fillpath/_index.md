@@ -1,14 +1,14 @@
 ---
 title: FillPath
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置定义自定义上限填充的对象
+description: 获取或设置为自定义帽定义填充的对象
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging/customlinecap/fillpath/
 ---
 ## CustomLineCap.FillPath property
 
-获取或设置定义自定义上限填充的对象。
+获取或设置为自定义帽定义填充的对象。
 
 ```csharp
 public GraphicsPath FillPath { get; set; }
@@ -16,7 +16,7 @@ public GraphicsPath FillPath { get; set; }
 
 ### 适当的价值
 
-定义自定义上限填充的对象。
+为自定义帽定义填充的对象。
 
 ### 也可以看看
 

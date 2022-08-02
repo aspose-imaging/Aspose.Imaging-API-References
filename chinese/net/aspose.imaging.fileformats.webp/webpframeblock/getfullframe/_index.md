@@ -1,14 +1,14 @@
 ---
 title: GetFullFrame
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取完整帧
+description: 获取全帧
 type: docs
 weight: 130
 url: /zh/net/aspose.imaging.fileformats.webp/webpframeblock/getfullframe/
 ---
 ## WebPFrameBlock.GetFullFrame method
 
-获取完整帧。
+获取全帧。
 
 ```csharp
 public RasterImage GetFullFrame()

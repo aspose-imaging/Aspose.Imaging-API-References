@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSetInterpolationMode
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPlusSetInterpolationModeaspose.imaging.fileformats.emf.emfplus.records/emfplussetinterpolationmode类的新实例
+description: 初始化EmfPlusSetInterpolationModeaspose.imaging.fileformats.emf.emfplus.records/emfplussetinterpolationmode类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetinterpolationmode/emfplussetinterpolationmode/
 ---
 ## EmfPlusSetInterpolationMode constructor
 
-初始化[`EmfPlusSetInterpolationMode`](../../emfplussetinterpolationmode)类的新实例。
+初始化[`EmfPlusSetInterpolationMode`](../../emfplussetinterpolationmode)类.
 
 ```csharp
 public EmfPlusSetInterpolationMode(EmfPlusRecord source)
@@ -16,7 +16,7 @@ public EmfPlusSetInterpolationMode(EmfPlusRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfPlusRecord | 源。 |
+| source | EmfPlusRecord | 来源。 |
 
 ### 也可以看看
 

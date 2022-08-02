@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Создает асинхронную задачу без какого-либо результата.
+description: Создает асинхронную задачу без результата.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.asynctask/asynctask/create/
 ---
 ## Create(AsyncTaskAction) {#create}
 
-Создает асинхронную задачу без какого-либо результата.
+Создает асинхронную задачу без результата.
 
 ```csharp
 public static IAsyncTask Create(AsyncTaskAction taskAction)

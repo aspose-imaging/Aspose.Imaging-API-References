@@ -1,14 +1,14 @@
 ---
 title: OutLineId
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置输出行标识符
+description: 获取或设置出线标识符
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrlistobjects/outlineid/
 ---
 ## CdrListObjects.OutLineId property
 
-获取或设置输出行标识符。
+获取或设置出线标识符。
 
 ```csharp
 public int OutLineId { get; set; }
@@ -16,7 +16,7 @@ public int OutLineId { get; set; }
 
 ### 适当的价值
 
-外线标识符。
+出线标识符。
 
 ### 也可以看看
 

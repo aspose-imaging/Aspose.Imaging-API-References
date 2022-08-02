@@ -1,14 +1,14 @@
 ---
 title: SrcUnit
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置源单位 指定 SrcRect 字段单位的 32 位有符号整数 它必须是 UnitType 枚举的 UnitTypePixel 成员第 2.1.1.33 节
+description: 获取或设置源单元 32 位有符号整数它指定 SrcRect 字段的单位 它必须是 UnitType 枚举的 UnitTypePixel 成员第 2.1.1.33 节
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimage/srcunit/
 ---
 ## EmfPlusDrawImage.SrcUnit property
 
-获取或设置源单位 指定 SrcRect 字段单位的 32 位有符号整数。 它必须是 UnitType 枚举的 UnitTypePixel 成员（第 2.1.1.33 节）。
+获取或设置源单元 32 位有符号整数，它指定 SrcRect 字段的单位。 它必须是 UnitType 枚举的 UnitTypePixel 成员（第 2.1.1.33 节）。
 
 ```csharp
 public EmfPlusUnitType SrcUnit { get; set; }

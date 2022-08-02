@@ -32,7 +32,7 @@ public void ClearRemapTable(ColorAdjustType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype), указывающий категорию, для которой таблица переназначения очищается. |
+| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype) который указывает категорию, для которой очищается таблица переназначения. |
 
 ### Смотрите также
 

@@ -25,7 +25,7 @@ public class WmfSetRop2 : WmfObject
 | Имя | Описание |
 | --- | --- |
 | [DrawMode](../../aspose.imaging.fileformats.wmf.objects/wmfsetrop2/drawmode) { get; set; } | Получает или устанавливает режим рисования. |
-| [Reserved](../../aspose.imaging.fileformats.wmf.objects/wmfsetrop2/reserved) { get; set; } | Получает или устанавливает зарезервированное значение. |
+| [Reserved](../../aspose.imaging.fileformats.wmf.objects/wmfsetrop2/reserved) { get; set; } | Получает или устанавливает зарезервированное. |
 
 ### Смотрите также
 

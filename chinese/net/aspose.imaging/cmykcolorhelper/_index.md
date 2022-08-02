@@ -1,14 +1,14 @@
 ---
 title: CmykColorHelper
 second_title: Aspose.Imaging for .NET API 参考
-description: 使用 CMYK 颜色的辅助方法以带符号的 32 位整数值表示 提供与CmykColor./cmykcolor结构类似的 API 它更轻量级因为 CMYK 颜色以 Int32 的形式呈现而不是具有内部字段的结构 请尽可能使用此类的静态方法而不是已弃用的 CmykColor./cmykcolor结构
+description: 使用 CMYK 颜色的辅助方法以带符号的 32 位整数值表示 提供与CmykColor./cmykcolorstruct. 它更轻量级因为 CMYK 颜色显示为 Int32 而不是具有内部字段的结构 请尽可能使用此类的静态方法而不是弃用的 CmykColor./cmykcolor struct.
 type: docs
 weight: 290
 url: /zh/net/aspose.imaging/cmykcolorhelper/
 ---
 ## CmykColorHelper class
 
-使用 CMYK 颜色的辅助方法，以带符号的 32 位整数值表示。 提供与[`CmykColor`](../cmykcolor)结构类似的 API。 它更轻量级，因为 CMYK 颜色以 Int32 的形式呈现，而不是具有内部字段的结构。 请尽可能使用此类的静态方法，而不是已弃用的 [`CmykColor`](../cmykcolor)结构。
+使用 CMYK 颜色的辅助方法，以带符号的 32 位整数值表示。 提供与[`CmykColor`](../cmykcolor)struct. 它更轻量级，因为 CMYK 颜色显示为 Int32 而不是具有内部字段的结构。 请尽可能使用此类的静态方法，而不是弃用的 [`CmykColor`](../cmykcolor) struct.
 
 ```csharp
 public static class CmykColorHelper
@@ -26,16 +26,16 @@ public static class CmykColorHelper
 | static [ToArgb](../../aspose.imaging/cmykcolorhelper/toargb#toargb)(int) | 从 CMYK 颜色到 ARGB 颜色的转换。 |
 | static [ToArgb](../../aspose.imaging/cmykcolorhelper/toargb#toargb_1)(int[]) | 从 CMYK 颜色到 ARGB 颜色的转换。 |
 | static [ToArgb32](../../aspose.imaging/cmykcolorhelper/toargb32)(int[]) | 从 CMYK 颜色到 ARGB 颜色的转换。 |
-| static [ToArgbIcc](../../aspose.imaging/cmykcolorhelper/toargbicc#toargbicc)(int) | 使用带有默认配置文件的 Icc 转换从 CMYK 颜色到 ARGB 颜色的转换。 |
-| static [ToArgbIcc](../../aspose.imaging/cmykcolorhelper/toargbicc#toargbicc_2)(int[]) | 使用带有默认配置文件的 Icc 转换从 CMYK 颜色到 ARGB 颜色的转换。 |
+| static [ToArgbIcc](../../aspose.imaging/cmykcolorhelper/toargbicc#toargbicc)(int) | 使用默认配置文件的 Icc 转换从 CMYK 颜色到 ARGB 颜色的转换。 |
+| static [ToArgbIcc](../../aspose.imaging/cmykcolorhelper/toargbicc#toargbicc_2)(int[]) | 使用默认配置文件的 Icc 转换从 CMYK 颜色到 ARGB 颜色的转换。 |
 | static [ToArgbIcc](../../aspose.imaging/cmykcolorhelper/toargbicc#toargbicc_1)(int, Stream, Stream) | 使用带有自定义配置文件的 Icc 转换从 CMYK 颜色到 ARGB 颜色的转换。 |
 | static [ToArgbIcc](../../aspose.imaging/cmykcolorhelper/toargbicc#toargbicc_3)(int[], Stream, Stream) | 使用带有自定义配置文件的 Icc 转换从 CMYK 颜色到 ARGB 颜色的转换。 |
-| static [ToCmyk](../../aspose.imaging/cmykcolorhelper/tocmyk#tocmyk)(Color) | 从 ARGB 颜色到 CMYK 颜色的转换。 |
+| static [ToCmyk](../../aspose.imaging/cmykcolorhelper/tocmyk#tocmyk)(Color) | ARGB 颜色到 CMYK 颜色的转换。 |
 | static [ToCmyk](../../aspose.imaging/cmykcolorhelper/tocmyk#tocmyk_2)(Color[]) | 从 ARGB 颜色到 CMYK 颜色的转换。 |
-| static [ToCmyk](../../aspose.imaging/cmykcolorhelper/tocmyk#tocmyk_1)(int) | 从 ARGB 颜色到 CMYK 颜色的转换。 |
+| static [ToCmyk](../../aspose.imaging/cmykcolorhelper/tocmyk#tocmyk_1)(int) | ARGB 颜色到 CMYK 颜色的转换。 |
 | static [ToCmyk](../../aspose.imaging/cmykcolorhelper/tocmyk#tocmyk_3)(int[]) | 从 ARGB 颜色到 CMYK 颜色的转换。 |
 | static [ToCmykBytes](../../aspose.imaging/cmykcolorhelper/tocmykbytes)(int[], int, int) | 将 RGB 转换为 CMYK。 |
-| static [ToCmykIcc](../../aspose.imaging/cmykcolorhelper/tocmykicc#tocmykicc)(Color) | 使用带有默认配置文件的 Icc 转换从 ARGB 颜色到 CMYK 颜色的转换。 |
+| static [ToCmykIcc](../../aspose.imaging/cmykcolorhelper/tocmykicc#tocmykicc)(Color) | 使用默认配置文件的 Icc 转换从 ARGB 颜色到 CMYK 颜色的转换。 |
 | static [ToCmykIcc](../../aspose.imaging/cmykcolorhelper/tocmykicc#tocmykicc_2)(Color[]) | 使用带有默认配置文件的 Icc 转换从 ARGB 颜色到 CMYK 颜色的转换。 |
 | static [ToCmykIcc](../../aspose.imaging/cmykcolorhelper/tocmykicc#tocmykicc_1)(Color, Stream, Stream) | 使用带有自定义配置文件的 Icc 转换从 ARGB 颜色到 CMYK 颜色的转换。 |
 | static [ToCmykIcc](../../aspose.imaging/cmykcolorhelper/tocmykicc#tocmykicc_3)(Color[], Stream, Stream) | 使用带有自定义配置文件的 Icc 转换从 ARGB 颜色到 CMYK 颜色的转换。 |

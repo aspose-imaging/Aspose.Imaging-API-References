@@ -1,14 +1,14 @@
 ---
 title: EmfMetafileHeaderExtension2
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfMetafileHeaderExtension2aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension2类的新实例
+description: 初始化EmfMetafileHeaderExtension2aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension2类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension2/emfmetafileheaderextension2/
 ---
 ## EmfMetafileHeaderExtension2(EmfMetafileHeaderExtension1) {#constructor}
 
-初始化[`EmfMetafileHeaderExtension2`](../../emfmetafileheaderextension2)类的新实例。
+初始化[`EmfMetafileHeaderExtension2`](../../emfmetafileheaderextension2)类.
 
 ```csharp
 public EmfMetafileHeaderExtension2(EmfMetafileHeaderExtension1 header)
@@ -29,7 +29,7 @@ public EmfMetafileHeaderExtension2(EmfMetafileHeaderExtension1 header)
 
 ## EmfMetafileHeaderExtension2(EmfMetafileHeaderExtension2) {#constructor_1}
 
-初始化[`EmfMetafileHeaderExtension2`](../../emfmetafileheaderextension2)类的新实例。
+初始化[`EmfMetafileHeaderExtension2`](../../emfmetafileheaderextension2)类.
 
 ```csharp
 public EmfMetafileHeaderExtension2(EmfMetafileHeaderExtension2 header)

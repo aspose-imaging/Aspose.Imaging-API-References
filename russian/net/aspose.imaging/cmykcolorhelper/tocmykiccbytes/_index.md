@@ -17,7 +17,7 @@ public static byte[] ToCmykIccBytes(int[] pixels, int startIndex, int length, St
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| пиксели | Int32[] | Цвета RGB представлены в виде 32-битных целых значений. |
+| pixels | Int32[] | Цвета RGB представлены в виде 32-битных целых чисел. |
 | startIndex | Int32 | Начальный индекс цвета RGB. |
 | length | Int32 | Количество пикселей RGB для преобразования. |
 | rgbIccStream | Stream | Поток профиля RGB. |

@@ -1,14 +1,14 @@
 ---
 title: APoints
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 WMF PointL 对象的 Count 长度数组在 MS-WMF 2.2.2.15 节中指定它指定了数组点数以逻辑单位表示
+description: 获取或设置 WMF PointL 对象的 Count 长度数组在 MS-WMF 2.2.2.15 节中指定它以逻辑单位指定点数组
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfpolydraw/apoints/
 ---
 ## EmfPolyDraw.APoints property
 
-获取或设置 WMF PointL 对象的 Count 长度数组，在 [MS-WMF] 2.2.2.15 节中指定，它指定了数组点数，以逻辑单位表示。
+获取或设置 WMF PointL 对象的 Count 长度数组，在 [MS-WMF] 2.2.2.15 节中指定，它以逻辑单位指定点数组。
 
 ```csharp
 public Point[] APoints { get; set; }

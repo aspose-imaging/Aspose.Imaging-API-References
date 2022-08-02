@@ -1,14 +1,12 @@
 ---
 title: UpdateCache
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ltinheritdoc crefMAspose.Imaging.FontParsing.OpenType.Serialization.OpenTypeInfoCacheProcessor.UpdateFontsCacheSystem.Boolean /gt
+description: 
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging/opentypefontscache/updatecache/
 ---
 ## OpenTypeFontsCache.UpdateCache method
-
-&lt;inheritdoc cref="M:Aspose.Imaging.FontParsing.OpenType.Serialization.OpenTypeInfoCacheProcessor.UpdateFontsCache(System.Boolean)" /&gt;
 
 ```csharp
 public static void UpdateCache()

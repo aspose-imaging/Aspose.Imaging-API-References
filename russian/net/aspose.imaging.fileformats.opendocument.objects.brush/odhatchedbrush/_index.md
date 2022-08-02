@@ -1,14 +1,14 @@
 ---
 title: OdHatchedBrush
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Заштрихованная кисть
+description: Вылупившаяся кисть
 type: docs
 weight: 6920
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.brush/odhatchedbrush/
 ---
 ## OdHatchedBrush class
 
-Заштрихованная кисть
+Вылупившаяся кисть
 
 ```csharp
 public class OdHatchedBrush : OdBrush

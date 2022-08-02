@@ -16,8 +16,8 @@ public void Multiply(Matrix Tx, MatrixOrder order)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| Tx | Matrix | tx。发送。发送。 |
-| order | MatrixOrder | 订单。命令。命令。 |
+| Tx | Matrix | 发送。发送。发送。 |
+| order | MatrixOrder | 命令。命令。命令。 |
 
 ### 也可以看看
 
@@ -30,7 +30,7 @@ public void Multiply(Matrix Tx, MatrixOrder order)
 
 ## Multiply(Matrix) {#multiply}
 
-使用（默认）前置顺序将此矩阵乘以在矩阵参数中指定的矩阵。
+将此矩阵乘以在矩阵参数中指定的矩阵，使用（默认）前置顺序。
 
 ```csharp
 public void Multiply(Matrix Tx)

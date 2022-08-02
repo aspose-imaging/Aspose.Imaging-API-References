@@ -32,7 +32,7 @@ public void ClearOutputChannelColorProfile(ColorAdjustType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype), указывающий категорию, для которой настройка профиля выходного канала очищена. |
+| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype) который указывает категорию, для которой сбрасывается настройка профиля выходного канала. |
 
 ### Смотрите также
 

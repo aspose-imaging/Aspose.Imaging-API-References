@@ -18,33 +18,33 @@ public class MetaObjectList : NonGenericList
 
 | Имя | Описание |
 | --- | --- |
-| [MetaObjectList](metaobjectlist#constructor)() | Инициализирует новый экземпляр класса[`MetaObjectList`](../metaobjectlist). |
-| [MetaObjectList](metaobjectlist#constructor_1)(IList) | Инициализирует новый экземпляр класса[`MetaObjectList`](../metaobjectlist). |
+| [MetaObjectList](metaobjectlist#constructor)() | Инициализирует новый экземпляр[`MetaObjectList`](../metaobjectlist) класс. |
+| [MetaObjectList](metaobjectlist#constructor_1)(IList) | Инициализирует новый экземпляр[`MetaObjectList`](../metaobjectlist) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.imaging/nongenericlist/count) { get; } | Получает количество элементов, содержащихся в коллекцииICollection. |
-| [IsFixedSize](../../aspose.imaging/nongenericlist/isfixedsize) { get; } | Получает значение, указывающее, имеет лиIListфиксированный размер. |
-| [IsReadOnly](../../aspose.imaging/nongenericlist/isreadonly) { get; } | Получает значение, указывающее, доступен лиIListтолько для чтения. |
-| [IsSynchronized](../../aspose.imaging/nongenericlist/issynchronized) { get; } | Получает значение, указывающее, является ли доступ кICollectionсинхронизированным (потокобезопасным). |
+| [Count](../../aspose.imaging/nongenericlist/count) { get; } | Получает количество элементов, содержащихся вICollection . |
+| [IsFixedSize](../../aspose.imaging/nongenericlist/isfixedsize) { get; } | Получает значение, указывающее,IList имеет фиксированный размер. |
+| [IsReadOnly](../../aspose.imaging/nongenericlist/isreadonly) { get; } | Получает значение, указывающее,IList доступен только для чтения. |
+| [IsSynchronized](../../aspose.imaging/nongenericlist/issynchronized) { get; } | Получает значение, указывающее, доступен ли доступ кICollection синхронизирован (потокобезопасный). |
 | [Item](../../aspose.imaging/nongenericlist/item) { get; set; } | Получает или задает элемент по указанному индексу. |
-| [SyncRoot](../../aspose.imaging/nongenericlist/syncroot) { get; } | Получает объект, который можно использовать для синхронизации доступа кICollection. |
+| [SyncRoot](../../aspose.imaging/nongenericlist/syncroot) { get; } | Получает объект, который можно использовать для синхронизации доступа кICollection . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.imaging/nongenericlist/add)(object) | Добавляет элемент вIList. |
-| [Clear](../../aspose.imaging/nongenericlist/clear)() | Удаляет все элементы изIList. |
-| [Contains](../../aspose.imaging/nongenericlist/contains)(object) | Определяет, содержит лиIListопределенное значение. |
-| [CopyTo](../../aspose.imaging/nongenericlist/copyto)(Array, int) | Копирует элементыICollectionвArray, начиная с определенногоArrayindex. |
+| [Add](../../aspose.imaging/nongenericlist/add)(object) | Добавляет элемент вIList . |
+| [Clear](../../aspose.imaging/nongenericlist/clear)() | Удаляет все элементы изIList . |
+| [Contains](../../aspose.imaging/nongenericlist/contains)(object) | Определяет,IList содержит определенное значение. |
+| [CopyTo](../../aspose.imaging/nongenericlist/copyto)(Array, int) | Копирует элементыICollection чтобыArray , начиная с определенногоArray индекс. |
 | [GetEnumerator](../../aspose.imaging/nongenericlist/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| [IndexOf](../../aspose.imaging/nongenericlist/indexof)(object) | Определяет индекс определенного элемента вIList. |
-| [Insert](../../aspose.imaging/nongenericlist/insert)(int, object) | Вставляет элемент вIListпо указанному индексу. |
-| [Remove](../../aspose.imaging/nongenericlist/remove)(object) | Удаляет первое вхождение определенного объекта изIList. |
-| [RemoveAt](../../aspose.imaging/nongenericlist/removeat)(int) | Удаляет элементIListпо указанному индексу. |
+| [IndexOf](../../aspose.imaging/nongenericlist/indexof)(object) | Определяет индекс конкретного элемента вIList . |
+| [Insert](../../aspose.imaging/nongenericlist/insert)(int, object) | Вставляет элемент вIList по указанному индексу. |
+| [Remove](../../aspose.imaging/nongenericlist/remove)(object) | Удаляет первое вхождение определенного объекта изIList . |
+| [RemoveAt](../../aspose.imaging/nongenericlist/removeat)(int) | УдаляетIList элемент по указанному индексу. |
 
 ### Смотрите также
 

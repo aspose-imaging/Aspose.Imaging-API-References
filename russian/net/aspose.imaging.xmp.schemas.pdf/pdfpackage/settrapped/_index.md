@@ -1,14 +1,14 @@
 ---
 title: SetTrapped
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Устанавливает в ловушку.
+description: Устанавливает ловушку.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.xmp.schemas.pdf/pdfpackage/settrapped/
 ---
 ## PdfPackage.SetTrapped method
 
-Устанавливает в ловушку.
+Устанавливает ловушку.
 
 ```csharp
 public void SetTrapped(bool isTrapped)
@@ -16,7 +16,7 @@ public void SetTrapped(bool isTrapped)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| isTrapped | Boolean | если установлено значение` true` документ попал в ловушку . |
+| isTrapped | Boolean | если установлено`истинный` документ застрял. |
 
 ### Смотрите также
 

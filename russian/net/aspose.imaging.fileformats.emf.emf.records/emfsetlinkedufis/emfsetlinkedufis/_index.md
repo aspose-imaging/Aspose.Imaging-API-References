@@ -1,14 +1,14 @@
 ---
 title: EmfSetLinkedUfis
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetLinkedUfisaspose.imaging.fileformats.emf.emf.records/emfsetlinkedufis.
+description: Инициализирует новый экземплярEmfSetLinkedUfisaspose.imaging.fileformats.emf.emf.records/emfsetlinkedufis класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetlinkedufis/emfsetlinkedufis/
 ---
 ## EmfSetLinkedUfis constructor
 
-Инициализирует новый экземпляр класса[`EmfSetLinkedUfis`](../../emfsetlinkedufis).
+Инициализирует новый экземпляр[`EmfSetLinkedUfis`](../../emfsetlinkedufis) класс.
 
 ```csharp
 public EmfSetLinkedUfis(EmfRecord source)

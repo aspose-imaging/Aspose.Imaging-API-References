@@ -3,7 +3,7 @@ title: OpenTypeFontsCache
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Кэш для шрифтов OpenType установленных в системе.
 type: docs
-weight: 10650
+weight: 10640
 url: /ru/net/aspose.imaging/opentypefontscache/
 ---
 ## OpenTypeFontsCache class
@@ -18,7 +18,7 @@ public static class OpenTypeFontsCache
 
 | Имя | Описание |
 | --- | --- |
-| static [UpdateCache](../../aspose.imaging/opentypefontscache/updatecache)() | &lt;inheritdoc cref="M:Aspose.Imaging.FontParsing.OpenType.Serialization.OpenTypeInfoCacheProcessor.UpdateFontsCache(System.Boolean)" /&gt; |
+| static [UpdateCache](../../aspose.imaging/opentypefontscache/updatecache)() |  |
 
 ### Смотрите также
 

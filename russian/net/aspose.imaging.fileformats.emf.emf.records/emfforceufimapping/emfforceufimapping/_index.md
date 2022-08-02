@@ -1,14 +1,14 @@
 ---
 title: EmfForceUfiMapping
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfForceUfiMappingaspose.imaging.fileformats.emf.emf.records/emfforceufimapping.
+description: Инициализирует новый экземплярEmfForceUfiMappingaspose.imaging.fileformats.emf.emf.records/emfforceufimapping класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfforceufimapping/emfforceufimapping/
 ---
 ## EmfForceUfiMapping constructor
 
-Инициализирует новый экземпляр класса[`EmfForceUfiMapping`](../../emfforceufimapping).
+Инициализирует новый экземпляр[`EmfForceUfiMapping`](../../emfforceufimapping) класс.
 
 ```csharp
 public EmfForceUfiMapping(EmfRecord source)

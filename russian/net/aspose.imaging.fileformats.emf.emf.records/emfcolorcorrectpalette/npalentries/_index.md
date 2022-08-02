@@ -1,14 +1,14 @@
 ---
 title: NPalEntries
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее количество исправимых элементов палитры.
+description: Получает или задает 32-разрядное целое число без знака указывающее количество элементов палитры для исправления.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/npalentries/
 ---
 ## EmfColorCorrectPalette.NPalEntries property
 
-Получает или задает 32-разрядное целое число без знака, указывающее количество исправимых элементов палитры.
+Получает или задает 32-разрядное целое число без знака, указывающее количество элементов палитры для исправления.
 
 ```csharp
 public int NPalEntries { get; set; }

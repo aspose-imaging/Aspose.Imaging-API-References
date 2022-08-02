@@ -1,14 +1,14 @@
 ---
 title: OdTextMeasure
 second_title: Aspose.Imaging for .NET API 参考
-description: 文本度量
+description: 文本测量
 type: docs
 weight: 7290
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odtextmeasure/
 ---
 ## OdTextMeasure class
 
-文本度量
+文本测量
 
 ```csharp
 public class OdTextMeasure : OdStyledObject
@@ -18,13 +18,13 @@ public class OdTextMeasure : OdStyledObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OdTextMeasure](odtextmeasure)(OdObject) | 初始化[`OdTextMeasure`](../odtextmeasure)类的新实例。 |
+| [OdTextMeasure](odtextmeasure)(OdObject) | 初始化[`OdTextMeasure`](../odtextmeasure)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]。 |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | 获取项目。 |
 | [Kind](../../aspose.imaging.fileformats.opendocument.objects.graphic/odtextmeasure/kind) { get; set; } | 获取或设置种类。 |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | 获取父对象。 |

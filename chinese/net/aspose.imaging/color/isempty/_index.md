@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示此Coloraspose.imaging/color结构是否未初始化
+description: 获取一个值该值指示这是否Coloraspose.imaging/color结构未初始化
 type: docs
 weight: 1490
 url: /zh/net/aspose.imaging/color/isempty/
 ---
 ## Color.IsEmpty property
 
-获取一个值，该值指示此[`Color`](../../color)结构是否未初始化。
+获取一个值，该值指示这是否[`Color`](../../color)结构未初始化。
 
 ```csharp
 public bool IsEmpty { get; }

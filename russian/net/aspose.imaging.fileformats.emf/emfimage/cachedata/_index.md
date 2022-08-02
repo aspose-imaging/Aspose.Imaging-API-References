@@ -1,14 +1,14 @@
 ---
 title: CacheData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Кэширует данные и гарантирует что дополнительная загрузка данных не будет выполняться из базовогоDataStreamContaineraspose.imaging/datastreamsupporter/datastreamcontainer.
+description: Кэширует данные и гарантирует что дополнительная загрузка данных не будет выполняться из базовогоDataStreamContaineraspose.imaging/datastreamsupporter/datastreamcontainer .
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging.fileformats.emf/emfimage/cachedata/
 ---
 ## EmfImage.CacheData method
 
-Кэширует данные и гарантирует, что дополнительная загрузка данных не будет выполняться из базового[`DataStreamContainer`](../../../aspose.imaging/datastreamsupporter/datastreamcontainer).
+Кэширует данные и гарантирует, что дополнительная загрузка данных не будет выполняться из базового[`DataStreamContainer`](../../../aspose.imaging/datastreamsupporter/datastreamcontainer) .
 
 ```csharp
 public override void CacheData()
@@ -23,18 +23,18 @@ public override void CacheData()
 
 string dir = "c:\\temp\\";
 
- // Использование Aspose.Imaging.Image.Load — это унифицированный способ загрузки всех типов изображений, включая WMF.
+// Использование Aspose.Imaging.Image.Load — это унифицированный способ загрузки всех типов изображений, включая WMF.
 using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFormats.Emf.EmfImage)Aspose.Imaging.Image.Load(dir + "test.emf"))
 {
-     // Кэшировать данные для загрузки всех записей.
+    // Кэшировать данные для загрузки всех записей.
     emfImage.CacheData();
     System.Console.WriteLine("The total number of records: {0}", emfImage.Records.Count);
 
-     // Ключ — тип записи, значение — количество записей этого типа в образе WMF.
+    // Ключ — тип записи, значение — количество записей этого типа в образе WMF.
     System.Collections.Generic.Dictionary<System.Type, int> types =
         new System.Collections.Generic.Dictionary<System.Type, int>();
 
-     // Собираем статистику 
+    // Собираем статистику 
     foreach (Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfRecord obj in emfImage.Records)
     {
         System.Type objType = obj.GetType();
@@ -48,7 +48,7 @@ using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFo
         }
     }
 
-     // Распечатать статистику
+    // Печатаем статистику
     System.Console.WriteLine("Record Type                              Count");
     System.Console.WriteLine("----------------------------------------------");
     foreach (System.Collections.Generic.KeyValuePair<System.Type, int> entry in types)
@@ -59,32 +59,32 @@ using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFo
     }
 }
 
- // Вывод может выглядеть так: 
- //Общее количество записей: 1188
- //Тип записи Count
- //--------------------------------
-// Заголовок EmfMetafile: 1
- //EmfSetBkMode: 1
- //EmfSetTextAlign: 1
- //EmfSetRop2: 1
- //EmfSetWorldTransform: 1
- //EmfExtSelectClipRgn: 1
- //EmfCreateBrushIndirect: 113
- //EmfSelectObject: 240
- //EmfCreatePen: 116
- //EmfSetPolyFillMode: 1
- //EmfBeginPath: 120
- //EmfMoveToEx: 122
- //EmfPolyBezierTo16: 36
- //EmfLineTo: 172
- //EmfCloseРисунок: 14
- //EmfEndPath: 120
- //EmfStrokeAndFillPath: 113
+//Вывод может выглядеть так:
+//Общее количество записей: 1188
+//Количество типов записи
+//--------------------------------
+//EmfMetafileHeader: 1
+//EmfSetBkMode: 1
+//EmfSetTextAlign: 1
+//EmfSetRop2: 1
+//EmfSetWorldTransform: 1
+//EmfExtSelectClipRgn: 1
+//EmfCreateBrushIndirect: 113
+//EmfSelectObject: 240
+//EmfCreatePen: 116
+//EmfSetPolyFillMode: 1
+//EmfBeginPath: 120
+//EmfMoveToEx: 122
+//EmfPolyBezierTo16: 36
+//EmfLineTo: 172
+//EmfCloseРисунок: 14
+//EmfEndPath: 120
+//EmfStrokeAndFillPath: 113
 //EmfStrokePath: 7
- //EmfSetTextColor: 2
- //EmfExtCreateFontIndirectW: 2
- //EmfExtTextOutW: 2
- //EmfStretchBlt: 1
+//EmfSetTextColor: 2
+//EmfExtCreateFontIndirectW: 2
+//EmfExtTextOutW: 2
+//EmfStretchBlt: 1
 //ЭмфЭоф: 1
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: ImageException
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化ImageExceptionaspose.imaging.coreexceptions/imageexception类的新实例
+description: 初始化ImageExceptionaspose.imaging.coreexceptions/imageexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.coreexceptions/imageexception/imageexception/
 ---
 ## ImageException(string) {#constructor}
 
-初始化[`ImageException`](../../imageexception)类的新实例。
+初始化[`ImageException`](../../imageexception)类.
 
 ```csharp
 public ImageException(string message)
@@ -28,7 +28,7 @@ public ImageException(string message)
 
 ## ImageException(string, Exception) {#constructor_1}
 
-初始化[`ImageException`](../../imageexception)类的新实例。
+初始化[`ImageException`](../../imageexception)类.
 
 ```csharp
 public ImageException(string message, Exception innerException)
@@ -37,7 +37,7 @@ public ImageException(string message, Exception innerException)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 异常消息。 |
-| innerException | Exception | 内部异常。 |
+| innerException | Exception | 内在异常。 |
 
 ### 也可以看看
 

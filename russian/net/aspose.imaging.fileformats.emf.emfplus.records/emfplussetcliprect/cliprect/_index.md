@@ -1,14 +1,14 @@
 ---
 title: ClipRect
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект EmfPlusRectF раздел 2.2.2.39 который определяет прямоугольник для использования в операции CombineMode.
+description: Получает или задает объект EmfPlusRectF раздел 2.2.2.39 определяющий прямоугольник который используется в операции CombineMode.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetcliprect/cliprect/
 ---
 ## EmfPlusSetClipRect.ClipRect property
 
-Получает или задает объект EmfPlusRectF (раздел 2.2.2.39), который определяет прямоугольник для использования в операции CombineMode.
+Получает или задает объект EmfPlusRectF (раздел 2.2.2.39), определяющий прямоугольник, который используется в операции CombineMode.
 
 ```csharp
 public RectangleF ClipRect { get; set; }

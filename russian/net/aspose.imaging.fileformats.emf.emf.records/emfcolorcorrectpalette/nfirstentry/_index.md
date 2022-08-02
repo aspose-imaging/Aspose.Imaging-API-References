@@ -1,14 +1,14 @@
 ---
 title: NFirstEntry
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее индекс первой исправляемой записи.
+description: Получает или задает 32-разрядное целое число без знака указывающее индекс первой записи для исправления.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/nfirstentry/
 ---
 ## EmfColorCorrectPalette.NFirstEntry property
 
-Получает или задает 32-разрядное целое число без знака, указывающее индекс первой исправляемой записи.
+Получает или задает 32-разрядное целое число без знака, указывающее индекс первой записи для исправления.
 
 ```csharp
 public int NFirstEntry { get; set; }

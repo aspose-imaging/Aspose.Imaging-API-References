@@ -1,14 +1,14 @@
 ---
 title: Timecode30
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取时间码30
+description: 获取时间码30.
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/timeformat/timecode30/
 ---
 ## TimeFormat.Timecode30 property
 
-获取时间码30。
+获取时间码30.
 
 ```csharp
 public static TimeFormat Timecode30 { get; }
@@ -16,7 +16,7 @@ public static TimeFormat Timecode30 { get; }
 
 ### 适当的价值
 
-时间码30。
+时间码30.
 
 ### 也可以看看
 

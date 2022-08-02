@@ -23,7 +23,7 @@ url: /zh/net/aspose.imaging.fileformats.core.vectorpaths/
 
 | 界面 | 描述 |
 | --- | --- |
-| [IVectorPathData](./ivectorpathdata) | 访问矢量路径数据的接口。 |
+| [IVectorPathData](./ivectorpathdata) | 获取矢量路径数据的接口。 |
 ## 枚举
 
 | 枚举 | 描述 |

@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSetTsGraphics
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPlusSetTsGraphicsaspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics类的新实例
+description: 初始化EmfPlusSetTsGraphicsaspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics/emfplussettsgraphics/
 ---
 ## EmfPlusSetTsGraphics constructor
 
-初始化[`EmfPlusSetTsGraphics`](../../emfplussettsgraphics)类的新实例。
+初始化[`EmfPlusSetTsGraphics`](../../emfplussettsgraphics)类.
 
 ```csharp
 public EmfPlusSetTsGraphics(EmfPlusRecord source)
@@ -16,7 +16,7 @@ public EmfPlusSetTsGraphics(EmfPlusRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfPlusRecord | 源。 |
+| source | EmfPlusRecord | 来源。 |
 
 ### 也可以看看
 

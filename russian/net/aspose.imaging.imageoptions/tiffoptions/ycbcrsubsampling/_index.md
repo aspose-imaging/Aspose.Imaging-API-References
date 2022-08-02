@@ -1,14 +1,14 @@
 ---
 title: YCbCrSubsampling
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает коэффициенты подвыборки для фотометрического YCbCr.
+description: Получает или задает коэффициенты субдискретизации для фотометрического YCbCr.
 type: docs
 weight: 690
 url: /ru/net/aspose.imaging.imageoptions/tiffoptions/ycbcrsubsampling/
 ---
 ## TiffOptions.YCbCrSubsampling property
 
-Получает или задает коэффициенты подвыборки для фотометрического YCbCr.
+Получает или задает коэффициенты субдискретизации для фотометрического YCbCr.
 
 ```csharp
 public ushort[] YCbCrSubsampling { get; set; }
@@ -23,11 +23,11 @@ public ushort[] YCbCrSubsampling { get; set; }
 | исключение | условие |
 | --- | --- |
 | [TiffImageException](../../../aspose.imaging.coreexceptions.imageformats/tiffimageexception) | Недопустимая длина поля. Поле YCbCrSubsampling должно содержать два значения. |
-| ArgumentNullException | value |
+| ArgumentNullException | ценность |
 
 ### Примеры
 
-В этом примере показано, как сохранить растровое изображение в формате TIFF с помощью различных опций.
+В этом примере показано, как сохранить растровое изображение в формате TIFF, используя различные параметры.
 
 ```csharp
 [C#]
@@ -36,38 +36,38 @@ string dir = "c:\\temp\\";
 
 Aspose.Imaging.ImageOptions.TiffOptions saveOptions = new Aspose.Imaging.ImageOptions.TiffOptions(Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
 
-// Установить 8 бит для каждого компонента цвета.
+// Устанавливаем 8 бит для каждого компонента цвета.
 saveOptions.BitsPerSample = new ushort[] { 8, 8, 8 };
 
- // Установить порядок байтов с прямым порядком байтов (Motorola)
+// Установить порядок байтов с обратным порядком байтов (Motorola)
 saveOptions.ByteOrder = Aspose.Imaging.FileFormats.Tiff.Enums.TiffByteOrder.BigEndian;
 
- // Установить сжатие LZW.
+// Установить сжатие LZW.
 saveOptions.Compression = Aspose.Imaging.FileFormats.Tiff.Enums.TiffCompressions.Lzw;
 
- // Разрешить уменьшать размер изображений с непрерывными тонами.
- // В настоящее время это поле используется только с кодировкой LZW, поскольку LZW, вероятно, является единственной схемой кодирования TIFF
- // что значительно выигрывает от шага предиктора.
+// Разрешить уменьшать размер изображений с непрерывным тонированием.
+// В настоящее время это поле используется только с кодировкой LZW, потому что LZW, вероятно, является единственной схемой кодирования TIFF
+// что значительно выигрывает от шага предиктора.
 saveOptions.Predictor = Imaging.FileFormats.Tiff.Enums.TiffPredictor.Horizontal;
 
- // Установить цветовую модель RGB.
+// Установить цветовую модель RGB.
 saveOptions.Photometric = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.Rgb;
 
- // Для YCbCr вы можете использовать один из следующих вариантов: 
- // Поле YCbCrSubSampling Факторы выборки JPEG
- // -------------------------------------------------------------
- // 1,1 1x1, 1x1, 1x1
- // 2,1 2x1, 1x1, 1x1
- // 2,2 (значение по умолчанию) 2x2, 1x1, 1x1
- // saveOptions.YCbCrSubsampling = new ushort[] { 2, 2 };
+// Для YCbCr вы можете использовать один из следующих вариантов:
+// Поле YCbCrSubSampling Коэффициенты выборки JPEG
+// -------------------------------------------------------------
+// 1,1 1x1, 1x1, 1x1
+// 2,1 2x1, 1x1, 1x1
+// 2,2 (значение по умолчанию) 2x2, 1x1, 1x1
+// saveOptions.YCbCrSubsampling = new ushort[] { 2, 2 };
 
- // Все компоненты цвета будут храниться в одной плоскости.
+// Все компоненты цвета будут храниться в одной плоскости.
 saveOptions.PlanarConfiguration = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPlanarConfigs.Contiguous;
 
- // Создаем кадр TIFF размером 100x100 пикселей.
+// Создаем кадр TIFF размером 100x100 пикселей.
 using (Aspose.Imaging.Image image = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100))
 {
-     // Заливаем все изображение сине-желтым градиентом.
+    // Заливаем все изображение сине-желтым градиентом.
     Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
             new Aspose.Imaging.Point(0, 0),
             new Aspose.Imaging.Point(image.Width, image.Height),

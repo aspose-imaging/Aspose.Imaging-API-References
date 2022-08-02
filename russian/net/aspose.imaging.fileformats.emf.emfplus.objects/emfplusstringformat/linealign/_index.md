@@ -1,14 +1,14 @@
 ---
 title: LineAlign
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее как выравнивать строку по вертикали в прямоугольнике макета. Это значение ДОЛЖНО быть определено в перечислении StringAlignment.
+description: Получает или задает 32-разрядное целое число без знака указывающее как выровнять строку по вертикали в прямоугольнике макета. Это значение ДОЛЖНО быть определено в перечислении StringAlignment.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/linealign/
 ---
 ## EmfPlusStringFormat.LineAlign property
 
-Получает или задает 32-разрядное целое число без знака, указывающее, как выравнивать строку по вертикали в прямоугольнике макета. Это значение ДОЛЖНО быть определено в перечислении StringAlignment.
+Получает или задает 32-разрядное целое число без знака, указывающее, как выровнять строку по вертикали в прямоугольнике макета. Это значение ДОЛЖНО быть определено в перечислении StringAlignment.
 
 ```csharp
 public EmfPlusStringAlignment LineAlign { get; set; }

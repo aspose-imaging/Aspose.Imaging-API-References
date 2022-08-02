@@ -1,14 +1,14 @@
 ---
 title: GifImage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаGifImageaspose.imaging.fileformats.gif/gifimage.
+description: Инициализирует новый экземплярGifImageaspose.imaging.fileformats.gif/gifimage класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.gif/gifimage/gifimage/
 ---
 ## GifImage(GifFrameBlock, IColorPalette) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`GifImage`](../../gifimage).
+Инициализирует новый экземпляр[`GifImage`](../../gifimage) класс.
 
 ```csharp
 public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette)
@@ -17,15 +17,15 @@ public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | firstFrame | GifFrameBlock | Первый кадр для инициализации gif-изображения. |
-| globalPalette | IColorPalette | Используемая глобальная палитра. Обратите внимание, что если оба параметра*firstFrame*и*globalPalette*имеют значение null, то используется глобальная палитра по умолчанию. |
+| globalPalette | IColorPalette | Глобальная палитра для использования. Обратите внимание, если оба*firstFrame* а также*globalPalette* являются нулевыми, то используется глобальная палитра по умолчанию. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Кадр не может быть нулевым;firstFrame |
+| ArgumentNullException | Фрейм не может быть пустым;firstFrame |
 | ArgumentException | Первый кадр уже принадлежит какому-то другому изображению. Проверьте свойство Container.;firstFrame |
-| [GifImageException](../../../aspose.imaging.coreexceptions.imageformats/gifimageexception) | Указанная палитра должна содержать число элементов, равное степени 2. Минимальная палитра размер 2, максимальный 256. |
+| [GifImageException](../../../aspose.imaging.coreexceptions.imageformats/gifimageexception) | Указанная палитра должна содержать число элементов, равное степени 2. Минимальный размер палитры — 2, максимальный — 256. |
 
 ### Примеры
 
@@ -36,15 +36,15 @@ public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette)
 
 string dir = "c:\\temp\\";
 
- // Создаем блок кадра GIF размером 100x100 px.
+// Создаем блок GIF Frame размером 100x100 пикселей.
 using (Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock firstBlock = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100))
 {
-     // Заливаем весь блок красным.
+    // Заливаем весь блок красным.
     Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(firstBlock);
     Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
     gr.FillRectangle(brush, firstBlock.Bounds);
 
-     // Используйте 4-битную палитру для уменьшения размера изображения. Качество может ухудшиться.
+    // Используйте 4-битную палитру для уменьшения размера изображения. Качество может ухудшиться.
     Aspose.Imaging.IColorPalette palette = Aspose.Imaging.ColorPaletteHelper.Create4Bit();
 
     using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.FileFormats.Gif.GifImage(firstBlock, palette))
@@ -66,7 +66,7 @@ using (Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock firstBlock = new Aspo
 
 ## GifImage(GifFrameBlock) {#constructor}
 
-Инициализирует новый экземпляр класса[`GifImage`](../../gifimage).
+Инициализирует новый экземпляр[`GifImage`](../../gifimage) класс.
 
 ```csharp
 public GifImage(GifFrameBlock firstFrame)
@@ -80,9 +80,9 @@ public GifImage(GifFrameBlock firstFrame)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Кадр не может быть нулевым;firstFrame |
+| ArgumentNullException | Фрейм не может быть пустым;firstFrame |
 | ArgumentException | Первый кадр уже принадлежит какому-то другому изображению. Проверьте свойство Container.;firstFrame |
-| [GifImageException](../../../aspose.imaging.coreexceptions.imageformats/gifimageexception) | Указанная палитра должна содержать число элементов, равное степени 2. Минимальная палитра размер 2, максимальный 256. |
+| [GifImageException](../../../aspose.imaging.coreexceptions.imageformats/gifimageexception) | Указанная палитра должна содержать число элементов, равное степени 2. Минимальный размер палитры — 2, максимальный — 256. |
 
 ### Примеры
 
@@ -93,41 +93,18 @@ public GifImage(GifFrameBlock firstFrame)
 
 string dir = "c:\\temp\\";
 
- // Создаем GIF-изображение 100 x 100 px.
- // Первый блок по умолчанию полностью черный.
+// Создаем блок GIF Frame размером 100x100 пикселей.
 using (Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock firstBlock = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100))
-using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.FileFormats.Gif.GifImage(firstBlock))
 {
-     // Первый круг — red
-    Aspose.Imaging.Brushes.SolidBrush brush1 = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
+    // Заливаем весь блок красным.
+    Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(firstBlock);
+    Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
+    gr.FillRectangle(brush, firstBlock.Bounds);
 
-     // Второй круг — black
-    Aspose.Imaging.Brushes.SolidBrush brush2 = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Black);
-
-     // Постепенно увеличиваем угол красной дуги shape.
-    for (int angle = 10; angle <= 360; angle += 10)
+    using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.FileFormats.Gif.GifImage(firstBlock))
     {
-        Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock block = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100);
-
-        Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(block);
-        gr.FillPie(brush1, block.Bounds, 0, angle);
-
-        gifImage.AddBlock(block);
+        gifImage.Save(dir + "output.gif");
     }
-
-     // Постепенно увеличиваем угол черной дуги и стираем красную дугу.
-    for (int angle = 10; angle <= 360; angle += 10)
-    {
-        Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock block = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100);
-
-        Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(block);
-        gr.FillPie(brush2, block.Bounds, 0, angle);
-        gr.FillPie(brush1, block.Bounds, angle, 360 - angle);
-
-        gifImage.AddBlock(block);
-    }
-
-    gifImage.Save(dir + "animated_radar.gif");
 }
 ```
 
@@ -138,18 +115,18 @@ using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.Fil
 
 string dir = "c:\\temp\\";
 
- // Создаем GIF-изображение 100 x 100 px.
- // Первый блок по умолчанию полностью черный.
+// Создаем GIF-изображение 100 x 100 пикселей.
+// Первый блок по умолчанию полностью черный.
 using (Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock firstBlock = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100))
 using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.FileFormats.Gif.GifImage(firstBlock))
 {
-     // Первый круг — red
+    // Первый круг красный
     Aspose.Imaging.Brushes.SolidBrush brush1 = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
 
-     // Второй круг — black
+    // Второй круг черный
     Aspose.Imaging.Brushes.SolidBrush brush2 = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Black);
 
-     // Постепенно увеличиваем угол красной дуги shape.
+    // Постепенно увеличивайте угол красной дуги.
     for (int angle = 10; angle <= 360; angle += 10)
     {
         Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock block = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100);
@@ -160,7 +137,7 @@ using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.Fil
         gifImage.AddBlock(block);
     }
 
-     // Постепенно увеличиваем угол черной дуги и стираем красную дугу.
+    // Постепенно увеличивайте угол черной дуги и стирайте красную дугу.
     for (int angle = 10; angle <= 360; angle += 10)
     {
         Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock block = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100);
@@ -187,7 +164,7 @@ using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.Fil
 
 ## GifImage(GifFrameBlock, IColorPalette, bool, byte, byte, byte, bool) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`GifImage`](../../gifimage).
+Инициализирует новый экземпляр[`GifImage`](../../gifimage) класс.
 
 ```csharp
 public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, bool isPaletteSorted, 
@@ -198,20 +175,20 @@ public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, bool isPa
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | firstFrame | GifFrameBlock | Первый кадр для инициализации gif-изображения. |
-| globalPalette | IColorPalette | Используемая глобальная палитра. Обратите внимание, что если оба параметра*firstFrame*и*globalPalette*имеют значение null, то используется глобальная палитра по умолчанию. |
-| isPaletteSorted | Boolean | если установлено значение` true` палитра сортируется. Обратите внимание, что параметр используется, когда*globalPalette*не равен нулю. |
-| paletteColorResolution | Byte | Цветовое разрешение палитры. Обратите внимание, что параметр используется, когда*globalPalette*не равен нулю. |
+| globalPalette | IColorPalette | Глобальная палитра для использования. Обратите внимание, если оба*firstFrame* а также*globalPalette* являются нулевыми, то используется глобальная палитра по умолчанию. |
+| isPaletteSorted | Boolean | если установлено`истинный` палитра отсортирована. Обратите внимание, что параметр используется, когда*globalPalette* не является нулевым. |
+| paletteColorResolution | Byte | Цветовое разрешение палитры. Обратите внимание, что параметр используется, когда*globalPalette* не является нулевым. |
 | paletteBackgroundColorIndex | Byte | Индекс цвета фона палитры. |
 | aspectRatio | Byte | Соотношение сторон. |
-| hasTrailer | Boolean | если установлено на` true` изображение gif имеет трейлер, в противном случае трейлер не пишется в конце потока. |
+| hasTrailer | Boolean | если установлено`истинный` GIF-изображение имеет трейлер, иначе в конце потока не будет записано трейлера. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Кадр не может быть нулевым;firstFrame |
+| ArgumentNullException | Фрейм не может быть пустым;firstFrame |
 | ArgumentException | Первый кадр уже принадлежит какому-то другому изображению. Проверьте свойство Container.;firstFrame |
-| [GifImageException](../../../aspose.imaging.coreexceptions.imageformats/gifimageexception) | Указанная палитра должна содержать число элементов, равное степени 2. Минимальная палитра размер 2, максимальный 256. |
+| [GifImageException](../../../aspose.imaging.coreexceptions.imageformats/gifimageexception) | Указанная палитра должна содержать число элементов, равное степени 2. Минимальный размер палитры — 2, максимальный — 256. |
 
 ### Смотрите также
 

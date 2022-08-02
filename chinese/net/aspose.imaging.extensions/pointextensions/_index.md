@@ -1,14 +1,14 @@
 ---
 title: PointExtensions
 second_title: Aspose.Imaging for .NET API 参考
-description: 包含Point../aspose.imaging/point和PointF../aspose.imaging/pointf的扩展方法结构
+description: 包含扩展方法Point../aspose.imaging/point和PointF../aspose.imaging/pointf结构.
 type: docs
 weight: 1240
 url: /zh/net/aspose.imaging.extensions/pointextensions/
 ---
 ## PointExtensions class
 
-包含[`Point`](../../aspose.imaging/point)和[`PointF`](../../aspose.imaging/pointf)的扩展方法结构。
+包含扩展方法[`Point`](../../aspose.imaging/point)和[`PointF`](../../aspose.imaging/pointf)结构.
 
 ```csharp
 public static class PointExtensions
@@ -18,9 +18,9 @@ public static class PointExtensions
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [ToGdiPoint](../../aspose.imaging.extensions/pointextensions/togdipoint)(PointF) | 将[`PointF`](../../aspose.imaging/pointf)转换为PointF。 |
-| static [ToGdiPoints](../../aspose.imaging.extensions/pointextensions/togdipoints)(PointF[]) | 将[`PointF`](../../aspose.imaging/pointf)数组转换为PointF大批。 |
-| static [ToPointsArray](../../aspose.imaging.extensions/pointextensions/topointsarray)(Point[]) | 将[`Point`](../../aspose.imaging/point)数组转换为[`PointF`](../../aspose.imaging/pointf)大批。 |
+| static [ToGdiPoint](../../aspose.imaging.extensions/pointextensions/togdipoint)(PointF) | 转换[`PointF`](../../aspose.imaging/pointf)至PointF . |
+| static [ToGdiPoints](../../aspose.imaging.extensions/pointextensions/togdipoints)(PointF[]) | 转换[`PointF`](../../aspose.imaging/pointf)数组到PointF数组. |
+| static [ToPointsArray](../../aspose.imaging.extensions/pointextensions/topointsarray)(Point[]) | 转换[`Point`](../../aspose.imaging/point)数组到[`PointF`](../../aspose.imaging/pointf)数组. |
 
 ### 也可以看看
 

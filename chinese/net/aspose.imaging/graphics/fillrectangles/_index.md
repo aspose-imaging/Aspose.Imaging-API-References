@@ -1,14 +1,14 @@
 ---
 title: FillRectangles
 second_title: Aspose.Imaging for .NET API 参考
-description: 填充由Rectangleaspose.imaging/rectangle结构指定的一系列矩形的内部
+description: 填充由指定的一系列矩形的内部Rectangleaspose.imaging/rectangle结构.
 type: docs
 weight: 400
 url: /zh/net/aspose.imaging/graphics/fillrectangles/
 ---
 ## FillRectangles(Brush, Rectangle[]) {#fillrectangles_1}
 
-填充由[`Rectangle`](../../rectangle)结构指定的一系列矩形的内部。
+填充由指定的一系列矩形的内部[`Rectangle`](../../rectangle)结构.
 
 ```csharp
 public void FillRectangles(Brush brush, Rectangle[] rects)
@@ -16,14 +16,14 @@ public void FillRectangles(Brush brush, Rectangle[] rects)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)决定了填充的特性。 |
-| rects | Rectangle[] | [`Rectangle`](../../rectangle)结构的数组，表示要填充的矩形。 |
+| brush | Brush | [`Brush`](../../brush)这决定了填充的特性。 |
+| rects | Rectangle[] | 数组[`Rectangle`](../../rectangle)表示要填充的矩形的结构。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *brush*为空或*rects*为空。 |
+| ArgumentNullException | *brush*为空或*rects*一片空白。 |
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public void FillRectangles(Brush brush, Rectangle[] rects)
 
 ## FillRectangles(Brush, RectangleF[]) {#fillrectangles}
 
-填充由[`RectangleF`](../../rectanglef)结构指定的一系列矩形的内部。
+填充由指定的一系列矩形的内部[`RectangleF`](../../rectanglef)结构.
 
 ```csharp
 public void FillRectangles(Brush brush, RectangleF[] rects)
@@ -45,14 +45,14 @@ public void FillRectangles(Brush brush, RectangleF[] rects)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)决定了填充的特性。 |
-| rects | RectangleF[] | [`Rectangle`](../../rectangle)结构的数组，表示要填充的矩形。 |
+| brush | Brush | [`Brush`](../../brush)这决定了填充的特性。 |
+| rects | RectangleF[] | 数组[`Rectangle`](../../rectangle)表示要填充的矩形的结构。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *brush*为空或*rects*为空。 |
+| ArgumentNullException | *brush*为空或*rects*一片空白。 |
 
 ### 也可以看看
 

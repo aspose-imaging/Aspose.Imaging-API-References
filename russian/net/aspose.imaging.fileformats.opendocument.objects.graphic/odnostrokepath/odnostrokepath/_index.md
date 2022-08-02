@@ -1,14 +1,14 @@
 ---
 title: OdNoStrokePath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdNoStrokePathaspose.imaging.fileformats.opendocument.objects.graphic/odnostrokepath.
+description: Инициализирует новый экземплярOdNoStrokePathaspose.imaging.fileformats.opendocument.objects.graphic/odnostrokepath класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odnostrokepath/odnostrokepath/
 ---
 ## OdNoStrokePath constructor
 
-Инициализирует новый экземпляр класса[`OdNoStrokePath`](../../odnostrokepath).
+Инициализирует новый экземпляр[`OdNoStrokePath`](../../odnostrokepath) класс.
 
 ```csharp
 public OdNoStrokePath(OdObject parent)

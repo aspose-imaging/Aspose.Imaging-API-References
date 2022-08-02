@@ -1,14 +1,14 @@
 ---
 title: MeasureString
 second_title: Aspose.Imaging for .NET API 参考
-description: 测量指定参数的指定文本字符串
+description: 用指定的参数测量指定的文本字符串
 type: docs
 weight: 420
 url: /zh/net/aspose.imaging/graphics/measurestring/
 ---
 ## Graphics.MeasureString method
 
-测量指定参数的指定文本字符串
+用指定的参数测量指定的文本字符串
 
 ```csharp
 public SizeF MeasureString(string text, Font font, SizeF layoutArea, StringFormat stringFormat)
@@ -16,14 +16,14 @@ public SizeF MeasureString(string text, Font font, SizeF layoutArea, StringForma
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| text | String | 文本测量。 |
+| text | String | 要测量的文本。 |
 | font | Font | 要测量的字体。 |
 | layoutArea | SizeF | 布局区域。 |
 | stringFormat | StringFormat | 字符串格式。 |
 
 ### 返回值
 
-测量文本字符串的像素大小
+测量文本字符串的大小（以像素为单位）
 
 ### 也可以看看
 

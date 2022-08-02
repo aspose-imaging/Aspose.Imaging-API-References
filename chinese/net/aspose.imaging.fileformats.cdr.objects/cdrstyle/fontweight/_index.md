@@ -8,7 +8,7 @@ url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrstyle/fontweight/
 ---
 ## CdrStyle.FontWeight property
 
-获取或设置字体粗细。
+获取或设置字体粗细
 
 ```csharp
 public int FontWeight { get; set; }
@@ -16,7 +16,7 @@ public int FontWeight { get; set; }
 
 ### 适当的价值
 
-字体粗细。
+字体粗细
 
 ### 也可以看看
 

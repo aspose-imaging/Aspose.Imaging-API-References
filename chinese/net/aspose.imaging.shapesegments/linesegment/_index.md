@@ -1,14 +1,14 @@
 ---
 title: LineSegment
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示从特定点直接到下一点的段
+description: 表示从特定点直接到下一个点的段
 type: docs
-weight: 10950
+weight: 10940
 url: /zh/net/aspose.imaging.shapesegments/linesegment/
 ---
 ## LineSegment class
 
-表示从特定点直接到下一点的段。
+表示从特定点直接到下一个点的段。
 
 ```csharp
 public class LineSegment : ShapeSegment
@@ -18,7 +18,7 @@ public class LineSegment : ShapeSegment
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LineSegment](linesegment)(PointF, PointF) | 初始化[`LineSegment`](../linesegment)类的新实例。 |
+| [LineSegment](linesegment)(PointF, PointF) | 初始化[`LineSegment`](../linesegment)类. |
 
 ## 特性
 

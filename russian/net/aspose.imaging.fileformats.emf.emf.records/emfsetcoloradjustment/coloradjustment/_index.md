@@ -1,14 +1,14 @@
 ---
 title: ColorAdjustment
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект ColorAdjustment раздел 2.2.2 который определяет значения настройки цвета .
+description: Получает или задает объект ColorAdjustment раздел 2.2.2 который определяет значения настройки color .
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetcoloradjustment/coloradjustment/
 ---
 ## EmfSetColorAdjustment.ColorAdjustment property
 
-Получает или задает объект ColorAdjustment (раздел 2.2.2), который определяет значения настройки цвета .
+Получает или задает объект ColorAdjustment (раздел 2.2.2), который определяет значения настройки color .
 
 ```csharp
 public EmfColorAdjustment ColorAdjustment { get; set; }

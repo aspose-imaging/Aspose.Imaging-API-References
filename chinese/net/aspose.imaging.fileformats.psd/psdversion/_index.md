@@ -18,7 +18,7 @@ public enum PsdVersion : byte
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Psd | `1` | 默认 PSD 版本。 |
+| Psd | `1` | 默认的PSD版本。 |
 | Psb | `2` | PSB 版本。 |
 
 ### 也可以看看

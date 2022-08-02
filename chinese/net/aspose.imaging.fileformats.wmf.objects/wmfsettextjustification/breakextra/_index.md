@@ -1,14 +1,14 @@
 ---
 title: BreakExtra
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置额外的 ltsee langwordbreak /gt
+description: 获取或设置break额外的.
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfsettextjustification/breakextra/
 ---
 ## WmfSetTextJustification.BreakExtra property
 
-获取或设置额外的 &lt;see langword="break" /&gt;。
+获取或设置`break`额外的.
 
 ```csharp
 public int BreakExtra { get; set; }
@@ -16,7 +16,7 @@ public int BreakExtra { get; set; }
 
 ### 适当的价值
 
-&lt;see langword="break" /&gt; 额外。
+的`break`额外的.
 
 ### 也可以看看
 

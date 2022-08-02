@@ -1,14 +1,14 @@
 ---
 title: Argb32ColorRef
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект WMF ColorRef MS-WMF раздел 2.2.2.8 который указывает значение цвета пера.
+description: Получает или задает объект WMF ColorRef MS-WMF раздел 2.2.2.8 который определяет значение цвета пера.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emflogpen/argb32colorref/
 ---
 ## EmfLogPen.Argb32ColorRef property
 
-Получает или задает объект WMF ColorRef ([MS-WMF], раздел 2.2.2.8), который указывает значение цвета пера.
+Получает или задает объект WMF ColorRef ([MS-WMF], раздел 2.2.2.8), который определяет значение цвета пера.
 
 ```csharp
 public override int Argb32ColorRef { get; set; }

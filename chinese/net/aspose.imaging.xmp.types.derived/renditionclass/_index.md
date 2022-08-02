@@ -3,7 +3,7 @@ title: RenditionClass
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示 XMP 再现
 type: docs
-weight: 11650
+weight: 11640
 url: /zh/net/aspose.imaging.xmp.types.derived/renditionclass/
 ---
 ## RenditionClass class
@@ -18,8 +18,8 @@ public sealed class RenditionClass : XmpTypeBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RenditionClass](renditionclass#constructor)() | 初始化[`RenditionClass`](../renditionclass)类的新实例。 |
-| [RenditionClass](renditionclass#constructor_1)(string, string) | 初始化[`RenditionClass`](../renditionclass)类的新实例。 |
+| [RenditionClass](renditionclass#constructor)() | 初始化[`RenditionClass`](../renditionclass)类. |
+| [RenditionClass](renditionclass#constructor_1)(string, string) | 初始化[`RenditionClass`](../renditionclass)类. |
 
 ## 特性
 
@@ -27,7 +27,7 @@ public sealed class RenditionClass : XmpTypeBase
 | --- | --- |
 | [Token](../../aspose.imaging.xmp.types.derived/renditionclass/token) { get; set; } | 获取或设置令牌。 |
 | [Value](../../aspose.imaging.xmp.types.derived/renditionclass/value) { get; set; } | 获取或设置值。 |
-| static [DefinedValues](../../aspose.imaging.xmp.types.derived/renditionclass/definedvalues) { get; } | 定义值 |
+| static [DefinedValues](../../aspose.imaging.xmp.types.derived/renditionclass/definedvalues) { get; } | 定义的值 |
 
 ## 方法
 

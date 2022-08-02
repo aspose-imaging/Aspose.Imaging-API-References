@@ -16,7 +16,7 @@ public void SetGamma(float gamma)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| gamma | Single | 伽马校正值。 |
+| gamma | Single | 伽玛校正值。 |
 
 ### 也可以看看
 
@@ -36,8 +36,8 @@ public void SetGamma(float gamma, ColorAdjustType type)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| gamma | Single | 伽马校正值。 |
-| type | ColorAdjustType | [`ColorAdjustType`](../../coloradjusttype)枚举的一个元素，它指定设置伽马值的类别。 |
+| gamma | Single | 伽玛校正值。 |
+| type | ColorAdjustType | 的一个元素[`ColorAdjustType`](../../coloradjusttype)枚举，指定为其设置 Gamma 值的类别。 |
 
 ### 也可以看看
 

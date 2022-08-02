@@ -1,14 +1,14 @@
 ---
 title: CieCoordinatesTriple
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化CieCoordinatesTripleaspose.imaging.fileformats.bmp.structures/ciecoordinatestriple类的新实例
+description: 初始化CieCoordinatesTripleaspose.imaging.fileformats.bmp.structures/ciecoordinatestriple类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.bmp.structures/ciecoordinatestriple/ciecoordinatestriple/
 ---
 ## CieCoordinatesTriple constructor
 
-初始化[`CieCoordinatesTriple`](../../ciecoordinatestriple)类的新实例。
+初始化[`CieCoordinatesTriple`](../../ciecoordinatestriple)类.
 
 ```csharp
 public CieCoordinatesTriple(byte[] bytes)

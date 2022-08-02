@@ -1,14 +1,14 @@
 ---
 title: SetMeteredKey
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Устанавливает измеренный открытый и закрытый ключ
+description: Устанавливает лимитированный открытый и закрытый ключ
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging/metered/setmeteredkey/
 ---
 ## Metered.SetMeteredKey method
 
-Устанавливает измеренный открытый и закрытый ключ
+Устанавливает лимитированный открытый и закрытый ключ
 
 ```csharp
 public void SetMeteredKey(string publicKey, string privateKey)

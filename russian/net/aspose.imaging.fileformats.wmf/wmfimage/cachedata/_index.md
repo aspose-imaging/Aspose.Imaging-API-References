@@ -1,14 +1,14 @@
 ---
 title: CacheData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Кэширует данные и гарантирует что дополнительная загрузка данных не будет выполняться из базового DataStreamContaineraspose.imaging/datastreamsupporter/datastreamcontainer.
+description: Кэширует данные и гарантирует что дополнительная загрузка данных не будет выполняться из базового DataStreamContaineraspose.imaging/datastreamsupporter/datastreamcontainer .
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging.fileformats.wmf/wmfimage/cachedata/
 ---
 ## WmfImage.CacheData method
 
-Кэширует данные и гарантирует, что дополнительная загрузка данных не будет выполняться из базового [`DataStreamContainer`](../../../aspose.imaging/datastreamsupporter/datastreamcontainer).
+Кэширует данные и гарантирует, что дополнительная загрузка данных не будет выполняться из базового [`DataStreamContainer`](../../../aspose.imaging/datastreamsupporter/datastreamcontainer) .
 
 ```csharp
 public override void CacheData()
@@ -22,25 +22,25 @@ public override void CacheData()
 
 ### Примеры
 
-В этом примере показано, как загрузите изображение WMF из файла и перечислите все его записи.
+В этом примере показано, как загрузить изображение WMF из файла и перечислить все его записи.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
- // Использование Aspose.Imaging.Image.Load — это унифицированный способ загрузки всех типов изображений, включая WMF.
+// Использование Aspose.Imaging.Image.Load — это унифицированный способ загрузки всех типов изображений, включая WMF.
 using (Aspose.Imaging.FileFormats.Wmf.WmfImage wmfImage = (Aspose.Imaging.FileFormats.Wmf.WmfImage)Aspose.Imaging.Image.Load(dir + "test.wmf"))
 {
-     // Кэшировать данные для загрузки всех записей.
+    // Кэшировать данные для загрузки всех записей.
     wmfImage.CacheData();
     System.Console.WriteLine("The total number of records: {0}", wmfImage.Records.Count);
 
-     // Ключ — тип записи, значение — количество записей этого типа в образе WMF.
+    // Ключ — тип записи, значение — количество записей этого типа в образе WMF.
     System.Collections.Generic.Dictionary<System.Type, int> types =
         new System.Collections.Generic.Dictionary<System.Type, int>();
 
-     // Собираем статистику 
+    // Собираем статистику 
     foreach (Aspose.Imaging.FileFormats.Wmf.Objects.WmfObject obj in wmfImage.Records)
     {
         System.Type objType = obj.GetType();
@@ -54,7 +54,7 @@ using (Aspose.Imaging.FileFormats.Wmf.WmfImage wmfImage = (Aspose.Imaging.FileFo
         }
     }
 
-     // Распечатать статистику
+    // Печатаем статистику
     System.Console.WriteLine("Record Type                              Count");
     System.Console.WriteLine("----------------------------------------------");
     foreach (System.Collections.Generic.KeyValuePair<System.Type, int> entry in types)
@@ -65,25 +65,25 @@ using (Aspose.Imaging.FileFormats.Wmf.WmfImage wmfImage = (Aspose.Imaging.FileFo
     }
 }
 
- // Вывод может выглядеть так: 
- //Общее количество записей: 613
- //Тип записи Count
- //--------------------------------
- //WmfSetBkMode: 1
- //WmfSetTextAlign: 1
- //WmfSetRop2: 1
- //WmfSetWindowOrg: 1
- //WmfSetWindowExt: 1
- //WmfCreateBrushInDirect: 119
- //WmfSelectObject: 240
- //WmfCreatePenInDirect: 119
- //WmfSetPolyFillMode: 1
+//Вывод может выглядеть так:
+//Общее количество записей: 613
+//Количество типов записи
+//--------------------------------
+//Вмфсетбкмоде: 1
+//Вмфсеттексталигн: 1
+//WmfSetRop2: 1
+//Вмфсетвиндоворг: 1
+//Вмфсетвиндовекст: 1
+//WmfCreateBrushInDirect: 119
+//WmfSelectObject: 240
+//Вмфкреатепениндирект: 119
+//WmfSetPolyFillMode: 1
 //WmfPolyPolygon: 114
- //WmfPolyLine: 7
- //WmfSetTextColor: 2
- //WmfCreateFontInDirect: 2
- //WmfExtTextOut: 2
- //WmfDibStrechBlt: 1
+//WmfPolyLine: 7
+//Вмфсеттекстколор: 2
+//WmfCreateFontInDirect: 2
+//WmfExtTextOut: 2
+//WmfDibStrechBlt: 1
 //WmfEof: 1
 ```
 

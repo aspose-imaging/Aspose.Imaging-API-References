@@ -1,14 +1,14 @@
 ---
 title: Round
 second_title: Aspose.Imaging for .NET API 参考
-description: 将指定的RectangleFaspose.imaging/rectanglef转换为Rectangleaspose.imaging/rectangle通过将RectangleFaspose.imaging/rectanglef值四舍五入为最接近的整数值
+description: 转换指定的RectangleFaspose.imaging/rectanglef到一个Rectangleaspose.imaging/rectangle通过四舍五入RectangleFaspose.imaging/rectanglef值到最接近的整数值
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging/rectangle/round/
 ---
 ## Rectangle.Round method
 
-将指定的[`RectangleF`](../../rectanglef)转换为[`Rectangle`](../../rectangle)通过将[`RectangleF`](../../rectanglef)值四舍五入为最接近的整数值。
+转换指定的[`RectangleF`](../../rectanglef)到一个[`Rectangle`](../../rectangle)通过四舍五入[`RectangleF`](../../rectanglef)值到最接近的整数值。
 
 ```csharp
 public static Rectangle Round(RectangleF value)
@@ -16,11 +16,11 @@ public static Rectangle Round(RectangleF value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | RectangleF | [`RectangleF`](../../rectanglef)被转换。 |
+| value | RectangleF | 这[`RectangleF`](../../rectanglef)被转换。 |
 
 ### 返回值
 
-一个新的[`Rectangle`](../../rectangle)。
+一个新的[`Rectangle`](../../rectangle).
 
 ### 也可以看看
 

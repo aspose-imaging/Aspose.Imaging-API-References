@@ -16,7 +16,7 @@ public virtual DateTime GetModifyDate(bool useDefault)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| useDefault | Boolean | 如果设置为` true` 使用来自 FileInfo 的信息作为默认值。 |
+| useDefault | Boolean | 如果设置为`真的`使用来自 FileInfo 的信息作为默认值。 |
 
 ### 返回值
 

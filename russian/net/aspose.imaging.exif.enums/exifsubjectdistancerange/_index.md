@@ -1,14 +1,14 @@
 ---
 title: ExifSubjectDistanceRange
 second_title: Справочник по Aspose.Imaging for .NET API
-description: exif диапазон расстояния до объекта enum.
+description: exif диапазон расстояний до объекта enum.
 type: docs
 weight: 1030
 url: /ru/net/aspose.imaging.exif.enums/exifsubjectdistancerange/
 ---
 ## ExifSubjectDistanceRange enumeration
 
-exif диапазон расстояния до объекта enum.
+exif диапазон расстояний до объекта enum.
 
 ```csharp
 public enum ExifSubjectDistanceRange
@@ -20,8 +20,8 @@ public enum ExifSubjectDistanceRange
 | --- | --- | --- |
 | Unknown | `0` | Неизвестный диапазон расстояний до объекта |
 | Macro | `1` | Диапазон макросов |
-| CloseView | `2` | Закрыть вид. |
-| DistantView | `3` | Дальний вид. |
+| CloseView | `2` | Закрыть представление. |
+| DistantView | `3` | Вид издалека. |
 
 ### Смотрите также
 

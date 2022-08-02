@@ -1,14 +1,14 @@
 ---
 title: Rotate
 second_title: Aspose.Imaging for .NET API 参考
-description: 以指定顺序围绕该矩阵的原点零 x 和 y 坐标应用角度参数中指定的量的顺时针旋转
+description: 以指定的顺序围绕该矩阵的原点零 x 和 y 坐标应用角度参数中指定的量的顺时针旋转
 type: docs
 weight: 140
 url: /zh/net/aspose.imaging/matrix/rotate/
 ---
 ## Rotate(float, MatrixOrder) {#rotate_1}
 
-以指定顺序围绕该矩阵的原点（零 x 和 y 坐标）应用角度参数中指定的量的顺时针旋转。
+以指定的顺序围绕该矩阵的原点（零 x 和 y 坐标）应用角度参数中指定的量的顺时针旋转。
 
 ```csharp
 public void Rotate(float angle, MatrixOrder order)

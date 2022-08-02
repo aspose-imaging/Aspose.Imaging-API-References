@@ -1,14 +1,14 @@
 ---
 title: RectData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает прямоугольные данные Объект EmfPlusRect или EmfPlusRectF определяющий ограничивающую рамку изображения. Часть изображения заданная полем SrcRect масштабируется чтобы соответствовать этому прямоугольнику.
+description: Получает или задает прямоугольные данные Либо объект EmfPlusRect либо EmfPlusRectF определяющий ограничивающую рамку изображения. Часть изображения указанная в поле SrcRect масштабируется чтобы соответствовать этому прямоугольнику.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimage/rectdata/
 ---
 ## EmfPlusDrawImage.RectData property
 
-Получает или задает прямоугольные данные Объект EmfPlusRect или EmfPlusRectF, определяющий ограничивающую рамку изображения. Часть изображения, заданная полем SrcRect, масштабируется, чтобы соответствовать этому прямоугольнику.
+Получает или задает прямоугольные данные Либо объект EmfPlusRect, либо EmfPlusRectF, определяющий ограничивающую рамку изображения. Часть изображения, указанная в поле SrcRect, масштабируется, чтобы соответствовать этому прямоугольнику.
 
 ```csharp
 public RectangleF RectData { get; set; }

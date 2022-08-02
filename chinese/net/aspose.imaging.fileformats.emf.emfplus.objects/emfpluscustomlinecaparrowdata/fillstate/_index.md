@@ -1,14 +1,14 @@
 ---
 title: FillState
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位布尔值该值指定箭头帽是否被填充如果箭头帽为 未填充则仅绘制轮廓
+description: 获取或设置一个 32 位布尔值该值指定箭头帽是否被填充如果箭头帽 未填充只绘制轮廓
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/fillstate/
 ---
 ## EmfPlusCustomLineCapArrowData.FillState property
 
-获取或设置一个 32 位布尔值，该值指定箭头帽是否被填充。如果箭头帽为 未填充，则仅绘制轮廓
+获取或设置一个 32 位布尔值，该值指定箭头帽是否被填充。如果箭头帽 未填充，只绘制轮廓
 
 ```csharp
 public bool FillState { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Stretch
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает растяжение.
+description: Получает или задает растяжку.
 type: docs
 weight: 110
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdroutline/stretch/
 ---
 ## CdrOutline.Stretch property
 
-Получает или задает растяжение.
+Получает или задает растяжку.
 
 ```csharp
 public double Stretch { get; set; }

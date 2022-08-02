@@ -1,14 +1,14 @@
 ---
 title: RdOptimizerSettings
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Класс настроек оптимизатора RD
+description: Настройки оптимизатора удаленных рабочих столов class
 type: docs
-weight: 10170
+weight: 10160
 url: /ru/net/aspose.imaging.imageoptions/rdoptimizersettings/
 ---
 ## RdOptimizerSettings class
 
-Класс настроек оптимизатора RD
+Настройки оптимизатора удаленных рабочих столов class
 
 ```csharp
 public class RdOptimizerSettings
@@ -27,7 +27,7 @@ public class RdOptimizerSettings
 | [BppMax](../../aspose.imaging.imageoptions/rdoptimizersettings/bppmax) { get; set; } | Получает или задает максимальное значение R для рассмотрения в битах на пиксель |
 | [BppScale](../../aspose.imaging.imageoptions/rdoptimizersettings/bppscale) { get; set; } | Получает или задает коэффициент масштабирования BPP (бит на пиксель). |
 | [DiscretizedBppMax](../../aspose.imaging.imageoptions/rdoptimizersettings/discretizedbppmax) { get; } | Получает максимальное значение R для рассмотрения. |
-| [MaxPixelValue](../../aspose.imaging.imageoptions/rdoptimizersettings/maxpixelvalue) { get; } | Получает максимальное значение в пикселях. |
+| [MaxPixelValue](../../aspose.imaging.imageoptions/rdoptimizersettings/maxpixelvalue) { get; } | Получает максимальное значение пикселя. |
 | [MaxQ](../../aspose.imaging.imageoptions/rdoptimizersettings/maxq) { get; set; } | Получает или задает максимальное значение квантования. |
 | [MinQ](../../aspose.imaging.imageoptions/rdoptimizersettings/minq) { get; } | Получает минимально допустимое значение квантования. |
 | [PsnrMax](../../aspose.imaging.imageoptions/rdoptimizersettings/psnrmax) { get; } | Получает максимальное ожидаемое значение PSNR. |

@@ -24,8 +24,8 @@ public sealed class EmfPlusPathGradientBrushOptionalData : EmfPlusStructureObjec
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BlendPattern](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushoptionaldata/blendpattern) { get; set; } | 获取或设置路径渐变画笔的可选混合模式。如果此字段为 存在，则它必须包含 EmfPlusBlendColors 对象（第 2.2.2.4 节）、 或 EmfPlusBlendFactors 对象（第 2.2.2.5 节），但不得包含两个都。 下表显示 EmfPlusPathGradientBrushData BrushData 标志和相应混合模式的有效组合: |
-| [FocusScaleData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushoptionaldata/focusscaledata) { get; set; } | 获取或设置一个可选的 EmfPlusFocusScaleData 对象（第 2.2.2.18 节），该对象指定路径渐变画笔的 焦点缩放。如果 BrushDataFocusScales 标志在 EmfPlusPathGradientBrushData 对象的 BrushDataFlags 字段中设置，则必须存在此字段。 |
+| [BlendPattern](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushoptionaldata/blendpattern) { get; set; } | 获取或设置路径渐变画笔的可选混合模式。如果此字段存在 ，则它必须包含 EmfPlusBlendColors 对象（第 2.2.2.4 节）、 或 EmfPlusBlendFactors 对象（第 2.2.2.5 节），但不得同时包含两者。 下表显示 EmfPlusPathGradientBrushData BrushData 标志的有效组合和相应的混合模式： |
+| [FocusScaleData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushoptionaldata/focusscaledata) { get; set; } | 获取或设置一个可选的 EmfPlusFocusScaleData 对象（第 2.2.2.18 节），该对象指定路径渐变画笔的 焦点比例。如果在 EmfPlusPathGradientBrushData 对象的 BrushDataFlags 字段中设置了 BrushDataFocusScales 标志，则该字段必须存在。 |
 | [TransformMatrix](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushoptionaldata/transformmatrix) { get; set; } | 获取或设置一个可选的 EmfPlusTransformMatrix 对象（第 2.2.2.47 节），该对象指定路径渐变画笔的世界空间到设备空间的变换。 如果在 EmfPlusPathGradientBrushData 对象的 BrushDataFlags 字段中设置了 BrushDataTransform 标志，则该字段必须存在。 |
 
 ### 也可以看看

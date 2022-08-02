@@ -1,14 +1,14 @@
 ---
 title: TextAlign
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置文本对齐
+description: 获取或设置文本对齐方式
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfsettextalign/textalign/
 ---
 ## WmfSetTextAlign.TextAlign property
 
-获取或设置文本对齐。
+获取或设置文本对齐方式。
 
 ```csharp
 public WmfTextAlignmentModeFlags TextAlign { get; set; }
@@ -16,7 +16,7 @@ public WmfTextAlignmentModeFlags TextAlign { get; set; }
 
 ### 适当的价值
 
-文本对齐。
+文字对齐。
 
 ### 也可以看看
 

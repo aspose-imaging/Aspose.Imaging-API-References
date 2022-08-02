@@ -1,14 +1,14 @@
 ---
 title: WmfFrameRegion
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化WmfFillRegionaspose.imaging.fileformats.wmf.objects/wmffillregion类的新实例
+description: 初始化WmfFillRegionaspose.imaging.fileformats.wmf.objects/wmffillregion类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfframeregion/wmfframeregion/
 ---
 ## WmfFrameRegion() {#constructor}
 
-初始化[`WmfFillRegion`](../../wmffillregion)类的新实例。
+初始化[`WmfFillRegion`](../../wmffillregion)类.
 
 ```csharp
 public WmfFrameRegion()
@@ -24,7 +24,7 @@ public WmfFrameRegion()
 
 ## WmfFrameRegion(WmfGraphicObject, WmfGraphicObject) {#constructor_1}
 
-初始化[`WmfFillRegion`](../../wmffillregion)类的新实例。
+初始化[`WmfFillRegion`](../../wmffillregion)类.
 
 ```csharp
 public WmfFrameRegion(WmfGraphicObject region, WmfGraphicObject brush)
@@ -32,8 +32,8 @@ public WmfFrameRegion(WmfGraphicObject region, WmfGraphicObject brush)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| region | WmfGraphicObject | 区域。 |
-| brush | WmfGraphicObject | 画笔。 |
+| region | WmfGraphicObject | 该区域。 |
+| brush | WmfGraphicObject | 刷子。 |
 
 ### 也可以看看
 

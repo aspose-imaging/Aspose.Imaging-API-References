@@ -1,14 +1,14 @@
 ---
 title: Pitch
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取描述 字符的音高的字体属性这必须是 PitchFont 枚举中的一个值
+description: 获取描述 个字符的间距的字体属性这必须是 PitchFont 枚举中的一个值
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/pitch/
 ---
 ## WmfPitchAndFamily.Pitch property
 
-获取描述 字符的音高的字体属性。这必须是 PitchFont 枚举中的一个值。
+获取描述 个字符的间距的字体属性。这必须是 PitchFont 枚举中的一个值。
 
 ```csharp
 public WmfPitchFont Pitch { get; }
@@ -16,7 +16,7 @@ public WmfPitchFont Pitch { get; }
 
 ### 适当的价值
 
-音高。
+音高.
 
 ### 也可以看看
 

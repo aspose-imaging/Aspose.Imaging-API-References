@@ -1,14 +1,14 @@
 ---
 title: EmfPlusPathGradientBrushOptionalData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект EmfPlusPathGradientBrushOptionalData задает дополнительные данные для градиентной кисти пути.
+description: Объект EmfPlusPathGradientBrushOptionalData указывает дополнительные данные для кисти градиента контура.
 type: docs
 weight: 5630
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushoptionaldata/
 ---
 ## EmfPlusPathGradientBrushOptionalData class
 
-Объект EmfPlusPathGradientBrushOptionalData задает дополнительные данные для градиентной кисти пути.
+Объект EmfPlusPathGradientBrushOptionalData указывает дополнительные данные для кисти градиента контура.
 
 ```csharp
 public sealed class EmfPlusPathGradientBrushOptionalData : EmfPlusStructureObjectType
@@ -24,8 +24,8 @@ public sealed class EmfPlusPathGradientBrushOptionalData : EmfPlusStructureObjec
 
 | Имя | Описание |
 | --- | --- |
-| [BlendPattern](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushoptionaldata/blendpattern) { get; set; } | Получает или задает необязательный шаблон наложения для кисти градиента пути. Если это поле присутствует, оно ДОЛЖНО содержать объект EmfPlusBlendColors (раздел 2.2.2.4), или объект EmfPlusBlendFactors (раздел 2.2.2.5), но НЕ ДОЛЖНО содержать оба. В таблице ниже показаны допустимые комбинации флагов EmfPlusPathGradientBrushData BrushData и соответствующих шаблонов наложения: |
-| [FocusScaleData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushoptionaldata/focusscaledata) { get; set; } | Получает или задает необязательный объект EmfPlusFocusScaleData (раздел 2.2.2.18), который указывает масштабы фокуса для кисти градиента пути. Это поле ДОЛЖНО присутствовать, если флаг BrushDataFocusScales установлен в поле BrushDataFlags объекта EmfPlusPathGradientBrushData. |
+| [BlendPattern](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushoptionaldata/blendpattern) { get; set; } | Получает или задает необязательный шаблон наложения для кисти градиента пути. Если это поле присутствует, оно ДОЛЖНО содержать либо объект EmfPlusBlendColors (раздел 2.2.2.4), , либо объект EmfPlusBlendFactors (раздел 2.2.2.5), но НЕ ДОЛЖНО содержать оба объекта. В таблице ниже показаны допустимые комбинации флагов EmfPlusPathGradientBrushData BrushData и соответствующих шаблонов наложения: |
+| [FocusScaleData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushoptionaldata/focusscaledata) { get; set; } | Получает или задает необязательный объект EmfPlusFocusScaleData (раздел 2.2.2.18), который определяет масштабы фокуса для градиентной кисти пути. Это поле ДОЛЖНО присутствовать, если флаг BrushDataFocusScales установлен в поле BrushDataFlags объекта EmfPlusPathGradientBrushData. |
 | [TransformMatrix](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushoptionaldata/transformmatrix) { get; set; } | Получает или задает необязательный объект EmfPlusTransformMatrix (раздел 2.2.2.47), который определяет преобразование мирового пространства в пространство устройства для кисти градиента пути. Это поле ДОЛЖНО присутствовать, если флаг BrushDataTransform установлен в поле BrushDataFlags объекта EmfPlusPathGradientBrushData. |
 
 ### Смотрите также

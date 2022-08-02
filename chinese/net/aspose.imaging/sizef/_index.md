@@ -3,7 +3,7 @@ title: SizeF
 second_title: Aspose.Imaging for .NET API 参考
 description: 存储一对有序的浮点数通常是矩形的宽度和高度
 type: docs
-weight: 11060
+weight: 11050
 url: /zh/net/aspose.imaging/sizef/
 ---
 ## SizeF structure
@@ -18,35 +18,35 @@ public struct SizeF
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SizeF](sizef#constructor)(PointF) | 从指定的Imaging初始化R5:T:Aspose.Imaging.SizeF:::结构的新实例.PointF:::。 |
-| [SizeF](sizef#constructor_1)(SizeF) | 从指定的Imaging初始化R5:T:Aspose.Imaging.SizeF:::结构的新实例.SizeF:::。 |
-| [SizeF](sizef#constructor_2)(float, float) | 从指定维度初始化[`SizeF`](../sizef)结构的新实例。 |
+| [SizeF](sizef#constructor)(PointF) | 初始化[`SizeF`](../sizef)从指定的结构[`PointF`](../pointf) . |
+| [SizeF](sizef#constructor_1)(SizeF) | 初始化[`SizeF`](../sizef)从指定的结构[`SizeF`](../sizef) . |
+| [SizeF](sizef#constructor_2)(float, float) | 初始化[`SizeF`](../sizef)指定尺寸的结构。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Empty](../../aspose.imaging/sizef/empty) { get; } | 获取具有Imaging的R5:T:Aspose.Imaging.SizeF:::结构的新实例。 SizeF.Width:::和[`Height`](./height)值设置为零。 |
-| [Height](../../aspose.imaging/sizef/height) { get; set; } | 获取或设置此[`SizeF`](../sizef)的垂直分量。 |
-| [IsEmpty](../../aspose.imaging/sizef/isempty) { get; } | 获取一个值，该值指示此[`SizeF`](../sizef)是否具有零宽度和高度。 |
-| [Width](../../aspose.imaging/sizef/width) { get; set; } | 获取或设置此[`SizeF`](../sizef)的水平分量。 |
+| static [Empty](../../aspose.imaging/sizef/empty) { get; } | 获取一个新的实例[`SizeF`](../sizef)具有的结构[`Width`](./width)和[`Height`](./height)值设置为零。 |
+| [Height](../../aspose.imaging/sizef/height) { get; set; } | 获取或设置 this 的垂直分量[`SizeF`](../sizef) . |
+| [IsEmpty](../../aspose.imaging/sizef/isempty) { get; } | 获取一个值，该值指示这是否[`SizeF`](../sizef)宽度和高度为零。 |
+| [Width](../../aspose.imaging/sizef/width) { get; set; } | 获取或设置 this 的水平分量[`SizeF`](../sizef) . |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Add](../../aspose.imaging/sizef/add)(SizeF, SizeF) | 将一个[`SizeF`](../sizef)结构的宽度和高度添加到另一个:::R5 的宽度和高度:T:Aspose.Imaging.SizeF:::结构。 |
-| static [Subtract](../../aspose.imaging/sizef/subtract)(SizeF, SizeF) | 从另一个:::R5 的宽度和高度中减去一个[`SizeF`](../sizef)结构的宽度和高度:T:Aspose.Imaging.SizeF:::结构。 |
-| override [Equals](../../aspose.imaging/sizef/equals)(object) | 测试指定对象是否为[`SizeF`](../sizef)与此[`SizeF`](../sizef)。 |
-| override [GetHashCode](../../aspose.imaging/sizef/gethashcode)() | 返回此[`Size`](../size)结构的哈希码。 |
-| [ToPointF](../../aspose.imaging/sizef/topointf)() | 将[`SizeF`](../sizef)转换为[`PointF`](../pointf)。 |
-| [ToSize](../../aspose.imaging/sizef/tosize)() | 将[`SizeF`](../sizef)转换为[`Size`](../size)结构具有截断的大小值。 |
-| override [ToString](../../aspose.imaging/sizef/tostring)() | 创建一个人类可读的字符串来表示这个[`SizeF`](../sizef)。 |
-| [operator +](../../aspose.imaging/sizef/op_addition) | 将一个[`SizeF`](../sizef)结构的宽度和高度添加到另一个:::R5 的宽度和高度:T:Aspose.Imaging.SizeF:::结构。 |
-| [operator ==](../../aspose.imaging/sizef/op_equality) | 测试两个[`SizeF`](../sizef)结构是否相等。 |
-| [explicit operator](../../aspose.imaging/sizef/op_explicit) | 将指定的[`SizeF`](../sizef)转换为[`PointF`](../pointf). |
-| [operator !=](../../aspose.imaging/sizef/op_inequality) | 测试两个[`SizeF`](../sizef)结构是否不同。 |
-| [operator -](../../aspose.imaging/sizef/op_subtraction) | 从另一个:::R5 的宽度和高度中减去一个[`SizeF`](../sizef)结构的宽度和高度:T:Aspose.Imaging.SizeF:::结构。 |
+| static [Add](../../aspose.imaging/sizef/add)(SizeF, SizeF) | 加一的宽和高[`SizeF`](../sizef)结构到另一个的宽度和高度[`SizeF`](../sizef)结构. |
+| static [Subtract](../../aspose.imaging/sizef/subtract)(SizeF, SizeF) | 减去一个的宽度和高度[`SizeF`](../sizef)结构从另一个的宽度和高度[`SizeF`](../sizef)结构. |
+| override [Equals](../../aspose.imaging/sizef/equals)(object) | 测试指定对象是否为[`SizeF`](../sizef)与此尺寸相同[`SizeF`](../sizef) . |
+| override [GetHashCode](../../aspose.imaging/sizef/gethashcode)() | 为此返回哈希码[`Size`](../size)结构. |
+| [ToPointF](../../aspose.imaging/sizef/topointf)() | 转换一个[`SizeF`](../sizef)到一个[`PointF`](../pointf) . |
+| [ToSize](../../aspose.imaging/sizef/tosize)() | 转换一个[`SizeF`](../sizef)到一个[`Size`](../size)具有截断大小值的结构。 |
+| override [ToString](../../aspose.imaging/sizef/tostring)() | 创建一个人类可读的字符串来表示这个[`SizeF`](../sizef) . |
+| [operator +](../../aspose.imaging/sizef/op_addition) | 加一的宽和高[`SizeF`](../sizef)结构到另一个的宽度和高度[`SizeF`](../sizef)结构. |
+| [operator ==](../../aspose.imaging/sizef/op_equality) | 测试是否两个[`SizeF`](../sizef)结构是平等的。 |
+| [explicit operator](../../aspose.imaging/sizef/op_explicit) | 转换指定的[`SizeF`](../sizef)到一个[`PointF`](../pointf) . |
+| [operator !=](../../aspose.imaging/sizef/op_inequality) | 测试是否两个[`SizeF`](../sizef)结构不同。 |
+| [operator -](../../aspose.imaging/sizef/op_subtraction) | 减去一个的宽度和高度[`SizeF`](../sizef)结构从另一个的宽度和高度[`SizeF`](../sizef)结构. |
 
 ### 也可以看看
 

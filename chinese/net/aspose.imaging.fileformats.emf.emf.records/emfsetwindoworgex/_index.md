@@ -18,14 +18,14 @@ public sealed class EmfSetWindowOrgEx : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSetWindowOrgEx](emfsetwindoworgex#constructor)() | 初始化[`EmfSetWindowOrgEx`](../emfsetwindoworgex)类的新实例。 |
-| [EmfSetWindowOrgEx](emfsetwindoworgex#constructor_1)(EmfRecord) | 初始化[`EmfSetWindowOrgEx`](../emfsetwindoworgex)类的新实例。 |
+| [EmfSetWindowOrgEx](emfsetwindoworgex#constructor)() | 初始化[`EmfSetWindowOrgEx`](../emfsetwindoworgex)类. |
+| [EmfSetWindowOrgEx](emfsetwindoworgex#constructor_1)(EmfRecord) | 初始化[`EmfSetWindowOrgEx`](../emfsetwindoworgex)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Origin](../../aspose.imaging.fileformats.emf.emf.records/emfsetwindoworgex/origin) { get; set; } | 获取或设置指定 水平和垂直窗口的 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节）以逻辑单元为原点。 |
+| [Origin](../../aspose.imaging.fileformats.emf.emf.records/emfsetwindoworgex/origin) { get; set; } | 获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），它以逻辑单位指定 窗口水平和垂直原点。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

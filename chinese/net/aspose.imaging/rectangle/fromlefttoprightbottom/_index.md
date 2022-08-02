@@ -1,14 +1,14 @@
 ---
 title: FromLeftTopRightBottom
 second_title: Aspose.Imaging for .NET API 参考
-description: 创建具有指定边缘位置的Rectangleaspose.imaging/rectangle结构
+description: 创建一个Rectangleaspose.imaging/rectangle具有指定边缘位置的结构
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging/rectangle/fromlefttoprightbottom/
 ---
 ## Rectangle.FromLeftTopRightBottom method
 
-创建具有指定边缘位置的[`Rectangle`](../../rectangle)结构。
+创建一个[`Rectangle`](../../rectangle)具有指定边缘位置的结构。
 
 ```csharp
 public static Rectangle FromLeftTopRightBottom(int left, int top, int right, int bottom)
@@ -16,14 +16,14 @@ public static Rectangle FromLeftTopRightBottom(int left, int top, int right, int
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| left | Int32 | 这个Rectangle左上角的x坐标结构体。 |
-| top | Int32 | 这个[`Rectangle`](../../rectangle)结构左上角的 y 坐标。 |
-| right | Int32 | 这个[`Rectangle`](../../rectangle)结构右下角的 x 坐标。 |
-| bottom | Int32 | 这个[`Rectangle`](../../rectangle)结构右下角的 y 坐标。 |
+| left | Int32 | 这个左上角的x坐标[`Rectangle`](../../rectangle)结构体。 |
+| top | Int32 | 这个左上角的y坐标[`Rectangle`](../../rectangle)结构体。 |
+| right | Int32 | 这个右下角的x坐标[`Rectangle`](../../rectangle)结构体。 |
+| bottom | Int32 | 这个右下角的y坐标[`Rectangle`](../../rectangle)结构体。 |
 
 ### 返回值
 
-此方法创建的新[`Rectangle`](../../rectangle)。
+新的[`Rectangle`](../../rectangle)该方法创建的。
 
 ### 也可以看看
 

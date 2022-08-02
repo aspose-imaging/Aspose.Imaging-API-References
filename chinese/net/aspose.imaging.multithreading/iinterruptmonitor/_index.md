@@ -1,14 +1,14 @@
 ---
 title: IInterruptMonitor
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示中断信息
+description: 代表中断信息
 type: docs
-weight: 10600
+weight: 10590
 url: /zh/net/aspose.imaging.multithreading/iinterruptmonitor/
 ---
 ## IInterruptMonitor interface
 
-表示中断信息。
+代表中断信息。
 
 ```csharp
 public interface IInterruptMonitor
@@ -18,7 +18,7 @@ public interface IInterruptMonitor
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsInterrupted](../../aspose.imaging.multithreading/iinterruptmonitor/isinterrupted) { get; } | 获取是否应该中断操作的值。 |
+| [IsInterrupted](../../aspose.imaging.multithreading/iinterruptmonitor/isinterrupted) { get; } | 获取指示操作是否应中断的值。 |
 
 ## 方法
 

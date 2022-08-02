@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает счетчик.
+description: Получает или задает количество.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfscanobject/count/
 ---
 ## WmfScanObject.Count property
 
-Получает или задает счетчик.
+Получает или задает количество.
 
 ```csharp
 public int Count { get; set; }
@@ -16,7 +16,7 @@ public int Count { get; set; }
 
 ### Стоимость имущества
 
-Количество горизонтальных (ось x) координат в [`ScanLines`](../scanlines) массив. Это значение ДОЛЖНО быть кратно 2, поскольку для указания каждой строки сканирования требуются левые и правые конечные точки.
+Количество горизонтальных (ось X) координат в [`ScanLines`](../scanlines) массив . Это значение ДОЛЖНО быть кратным 2, поскольку конечные точки left и right необходимы для указания каждой строки сканирования.
 
 ### Смотрите также
 

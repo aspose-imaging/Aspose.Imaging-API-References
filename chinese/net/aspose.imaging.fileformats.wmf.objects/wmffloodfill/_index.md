@@ -25,7 +25,7 @@ public class WmfFloodFill : WmfObject
 | 姓名 | 描述 |
 | --- | --- |
 | [ColorRef](../../aspose.imaging.fileformats.wmf.objects/wmffloodfill/colorref) { get; set; } | 获取或设置颜色参考。 |
-| [XStart](../../aspose.imaging.fileformats.wmf.objects/wmffloodfill/xstart) { get; set; } | 获取或设置 x 开始。 |
+| [XStart](../../aspose.imaging.fileformats.wmf.objects/wmffloodfill/xstart) { get; set; } | 获取或设置 x 起点。 |
 | [YStart](../../aspose.imaging.fileformats.wmf.objects/wmffloodfill/ystart) { get; set; } | 获取或设置 y 起点。 |
 
 ### 也可以看看

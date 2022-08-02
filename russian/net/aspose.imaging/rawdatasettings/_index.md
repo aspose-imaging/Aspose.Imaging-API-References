@@ -3,7 +3,7 @@ title: RawDataSettings
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Настройки необработанных данных
 type: docs
-weight: 10830
+weight: 10820
 url: /ru/net/aspose.imaging/rawdatasettings/
 ---
 ## RawDataSettings class
@@ -24,13 +24,13 @@ public class RawDataSettings
 
 | Имя | Описание |
 | --- | --- |
-| [ColorPalette](../../aspose.imaging/rawdatasettings/colorpalette) { get; set; } | Получает или устанавливает цветовую палитру |
-| [CustomColorConverter](../../aspose.imaging/rawdatasettings/customcolorconverter) { get; set; } | Получает или задает пользовательский преобразователь цвета |
-| [DitheringMethod](../../aspose.imaging/rawdatasettings/ditheringmethod) { get; set; } | Получает или задает метод сглаживания для преобразования необработанных данных |
+| [ColorPalette](../../aspose.imaging/rawdatasettings/colorpalette) { get; set; } | Получает или задает цветовую палитру |
+| [CustomColorConverter](../../aspose.imaging/rawdatasettings/customcolorconverter) { get; set; } | Получает или задает пользовательский конвертер цветов |
+| [DitheringMethod](../../aspose.imaging/rawdatasettings/ditheringmethod) { get; set; } | Получает или задает метод дизеринга для преобразования необработанных данных |
 | [FallbackIndex](../../aspose.imaging/rawdatasettings/fallbackindex) { get; set; } | Получает или задает резервный индекс для использования, когда индекс палитры выходит за пределы |
 | [IndexedColorConverter](../../aspose.imaging/rawdatasettings/indexedcolorconverter) { get; set; } | Получает или задает преобразователь индексированных цветов |
 | [LineSize](../../aspose.imaging/rawdatasettings/linesize) { get; set; } | Получает или задает размер строки пикселей в байтах для обработки необработанных данных |
-| [PixelDataFormat](../../aspose.imaging/rawdatasettings/pixeldataformat) { get; set; } | Получает или задает формат данных пикселей |
+| [PixelDataFormat](../../aspose.imaging/rawdatasettings/pixeldataformat) { get; set; } | Получает или задает формат пиксельных данных |
 
 ### Смотрите также
 

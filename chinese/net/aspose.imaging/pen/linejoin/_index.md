@@ -1,14 +1,14 @@
 ---
 title: LineJoin
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置使用此Penaspose.imaging/pen绘制的两条连续线的末端的连接样式
+description: 获取或设置用 this 绘制的两条连续线的末端的连接样式Penaspose.imaging/pen .
 type: docs
 weight: 130
 url: /zh/net/aspose.imaging/pen/linejoin/
 ---
 ## Pen.LineJoin property
 
-获取或设置使用此[`Pen`](../../pen)绘制的两条连续线的末端的连接样式。
+获取或设置用 this 绘制的两条连续线的末端的连接样式[`Pen`](../../pen) .
 
 ```csharp
 public LineJoin LineJoin { get; set; }
@@ -16,13 +16,13 @@ public LineJoin LineJoin { get; set; }
 
 ### 适当的价值
 
-A`LineJoin`表示末端的连接样式用这个[`Pen`](../../pen)绘制两条连续的线。
+一个`LineJoin`表示用 this 绘制的两条连续线末端的连接样式[`Pen`](../../pen).
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | `LineJoin`属性设置在不可变的:::R5 上:T:Aspose.Imaging.Pen:::，例如[`Pen`](../../pen)类返回的那些。 |
+| ArgumentException | 这`LineJoin`属性设置在不可变对象上[`Pen`](../../pen)，例如那些由[`Pen`](../../pen)班级。 |
 
 ### 也可以看看
 

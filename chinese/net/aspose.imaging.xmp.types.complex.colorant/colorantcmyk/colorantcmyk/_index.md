@@ -1,14 +1,14 @@
 ---
 title: ColorantCmyk
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化ColorantCmykaspose.imaging.xmp.types.complex.colorant/colorantcmyk类的新实例
+description: 初始化ColorantCmykaspose.imaging.xmp.types.complex.colorant/colorantcmyk类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp.types.complex.colorant/colorantcmyk/colorantcmyk/
 ---
 ## ColorantCmyk() {#constructor}
 
-初始化[`ColorantCmyk`](../../colorantcmyk)类的新实例。
+初始化[`ColorantCmyk`](../../colorantcmyk)类.
 
 ```csharp
 public ColorantCmyk()
@@ -24,7 +24,7 @@ public ColorantCmyk()
 
 ## ColorantCmyk(float, float, float, float) {#constructor_1}
 
-初始化[`ColorantCmyk`](../../colorantcmyk)类的新实例。
+初始化[`ColorantCmyk`](../../colorantcmyk)类.
 
 ```csharp
 public ColorantCmyk(float black, float cyan, float magenta, float yellow)
@@ -34,8 +34,8 @@ public ColorantCmyk(float black, float cyan, float magenta, float yellow)
 | --- | --- | --- |
 | black | Single | 黑色分量值。 |
 | cyan | Single | 青色分量值。 |
-| magenta | Single | 洋红色分量值。 |
-| yellow | Single | 黄色分量值。 |
+| magenta | Single | 品红色分量值。 |
+| yellow | Single | 黄色组件值。 |
 
 ### 也可以看看
 

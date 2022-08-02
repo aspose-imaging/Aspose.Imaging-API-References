@@ -1,14 +1,14 @@
 ---
 title: MetafileRecorderGraphics2D
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Графика записи метафайлов
+description: Рекордер метафайлов graphics
 type: docs
 weight: 6500
 url: /ru/net/aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/
 ---
 ## MetafileRecorderGraphics2D class
 
-Графика записи метафайлов
+Рекордер метафайлов graphics
 
 ```csharp
 public abstract class MetafileRecorderGraphics2D
@@ -19,7 +19,7 @@ public abstract class MetafileRecorderGraphics2D
 | Имя | Описание |
 | --- | --- |
 | [BackgroundColor](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/backgroundcolor) { get; set; } | Получает или задает цвет фона. |
-| [Clip](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/clip) { get; set; } | Получает или задает регион, который ограничивает область рисования этой графики |
+| [Clip](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/clip) { get; set; } | Получает или задает регион, который ограничивает область рисования этого объекта Graphics |
 | [ClipBounds](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/clipbounds) { get; } | Получает границы клипа. |
 
 ## Методы
@@ -30,8 +30,9 @@ public abstract class MetafileRecorderGraphics2D
 | [DrawArc](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/drawarc)(Pen, Rectangle, float, float) | Рисует дугу, представляющую часть эллипса, заданного структурой Rectangle. |
 | [DrawCubicBezier](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/drawcubicbezier)(Pen, Point, Point, Point, Point) | Рисует куб Безье. |
 | [DrawEllipse](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/drawellipse)(Pen, Rectangle) | Рисует эллипс. |
-| [DrawImage](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/drawimage#drawimage)(RasterImage, Point) | Рисует указанное изображение, используя его исходный физический размер, в указанном месте. |
+| [DrawImage](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/drawimage#drawimage)(RasterImage, Point) | Рисует указанное изображение, используя исходный физический размер, в указанном месте. |
 | [DrawImage](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/drawimage#drawimage_2)(byte[], Rectangle, GraphicsUnit) | Рисует изображение. |
+| [DrawImage](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/drawimage#drawimage_3)(Stream, Rectangle, GraphicsUnit) | Рисует изображение. |
 | [DrawImage](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/drawimage#drawimage_1)(RasterImage, Rectangle, Rectangle, GraphicsUnit) | Рисует указанную часть указанного изображения в указанном месте и с указанным размером. |
 | [DrawLine](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/drawline#drawline)(Pen, Point, Point) | Рисует линию. |
 | [DrawLine](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/drawline#drawline_1)(Pen, int, int, int, int) | Рисует линию. |
@@ -45,7 +46,7 @@ public abstract class MetafileRecorderGraphics2D
 | [DrawString](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/drawstring#drawstring)(string, Font, Color, int, int) | Рисует строку. |
 | [DrawString](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/drawstring#drawstring_1)(string, Font, Color, int, int, float) | Рисует строку. |
 | [ExcludeClip](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/excludeclip#excludeclip)(Rectangle) | Обновляет область отсечения этой графики, чтобы исключить область, указанную структурой Rectangle. |
-| [ExcludeClip](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/excludeclip#excludeclip_1)(Region) | Обновляет область отсечения этой графики, чтобы исключить область, указанную в области. |
+| [ExcludeClip](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/excludeclip#excludeclip_1)(Region) | Обновляет область отсечения этой графики, чтобы исключить область, указанную в Region. |
 | [FillEllipse](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/fillellipse)(Brush, Rectangle) | Заполняет эллипс. |
 | [FillPath](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/fillpath)(Pen, Brush, GraphicsPath) | Заполняет путь. |
 | [FillPie](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/fillpie)(Brush, Rectangle, float, float) | Заполняет круг. |
@@ -53,18 +54,18 @@ public abstract class MetafileRecorderGraphics2D
 | [FillPolygon](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/fillpolygon#fillpolygon_1)(Brush, Point[], FillMode) | Заполняет полигон. |
 | [FillRectangle](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/fillrectangle)(Brush, Rectangle) | Заполняет прямоугольник. |
 | [GetTransform](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/gettransform)() | Получает преобразование мира. |
-| [IntersectClip](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/intersectclip#intersectclip)(RectangleF) | Обновляет область отсечения этого объекта Graphics до пересечения текущей области отсечения и указанной структуры Rectangle. |
+| [IntersectClip](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/intersectclip#intersectclip)(RectangleF) | Обновляет область отсечения этой графики до пересечения текущей области отсечения и указанной структуры Rectangle. |
 | [IntersectClip](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/intersectclip#intersectclip_1)(Region) | Обновляет область отсечения этой графики до пересечения текущей области отсечения и указанной области. |
-| [MultiplyTransform](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/multiplytransform#multiplytransform)(Matrix) | Умножает мировое преобразование этой Графики и указанной Матрицы. |
+| [MultiplyTransform](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/multiplytransform#multiplytransform)(Matrix) | Умножает мировое преобразование этого Графика и указанную Матрицу. |
 | [MultiplyTransform](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/multiplytransform#multiplytransform_1)(Matrix, MatrixOrder) | Умножает мировое преобразование этой Графики и указанной Матрицы в указанном порядке. |
 | [ResetClip](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/resetclip)() | Сбрасывает клип. |
 | [RotateTransform](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/rotatetransform#rotatetransform)(float) | Применяет указанное вращение к матрице преобразования этой графики. |
 | [RotateTransform](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/rotatetransform#rotatetransform_1)(float, PointF, MatrixOrder) | Применяет указанное вращение к матрице преобразования этой графики в указанном порядке. |
-| [ScaleTransform](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/scaletransform#scaletransform)(float, float) | Применяет указанную операцию масштабирования к матрице преобразования этого объекта Graphics, добавляя ее перед матрицей преобразования объекта. |
+| [ScaleTransform](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/scaletransform#scaletransform)(float, float) | Применяет указанную операцию масштабирования к матрице преобразования этой графики, добавляя ее перед матрицей преобразования объекта. |
 | [ScaleTransform](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/scaletransform#scaletransform_1)(float, float, MatrixOrder) | Применяет указанную операцию масштабирования к матрице преобразования этой графики в указанном порядке. |
 | [SetTransform](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/settransform)(Matrix) | Устанавливает преобразование. |
 | [TranslateTransform](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/translatetransform#translatetransform)(float, float) | Изменяет начало системы координат, добавляя указанный перевод к матрице преобразования этой графики. |
-| [TranslateTransform](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/translatetransform#translatetransform_1)(float, float, MatrixOrder) | Изменяет начало системы координат, применяя указанный перевод к матрице преобразования этого Графика в указанном порядке. |
+| [TranslateTransform](../../aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/translatetransform#translatetransform_1)(float, float, MatrixOrder) | Изменяет начало системы координат, применяя указанный перевод к матрице преобразования этой графики в указанном порядке. |
 
 ### Смотрите также
 

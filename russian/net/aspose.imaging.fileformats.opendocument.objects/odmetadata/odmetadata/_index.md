@@ -1,14 +1,14 @@
 ---
 title: OdMetadata
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdMetadataaspose.imaging.fileformats.opendocument.objects/odmetadata.
+description: Инициализирует новый экземплярOdMetadataaspose.imaging.fileformats.opendocument.objects/odmetadata класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects/odmetadata/odmetadata/
 ---
 ## OdMetadata constructor
 
-Инициализирует новый экземпляр класса[`OdMetadata`](../../odmetadata).
+Инициализирует новый экземпляр[`OdMetadata`](../../odmetadata) класс.
 
 ```csharp
 public OdMetadata(OdObject parent)

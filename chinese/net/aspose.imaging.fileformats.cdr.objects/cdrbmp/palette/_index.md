@@ -3,7 +3,7 @@ title: Palette
 second_title: Aspose.Imaging for .NET API 参考
 description: 获取或设置调色板
 type: docs
-weight: 70
+weight: 60
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrbmp/palette/
 ---
 ## CdrBmp.Palette property
@@ -16,7 +16,7 @@ public int[] Palette { get; set; }
 
 ### 适当的价值
 
-调色板。
+调色板.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Style
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает информацию о стиле для этогоFontaspose.imaging/font.
+description: Получает информацию о стиле для этогоFontaspose.imaging/font .
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging/font/style/
 ---
 ## Font.Style property
 
-Получает информацию о стиле для этого[`Font`](../../font).
+Получает информацию о стиле для этого[`Font`](../../font) .
 
 ```csharp
 public FontStyle Style { get; }
@@ -16,7 +16,7 @@ public FontStyle Style { get; }
 
 ### Стоимость имущества
 
-A[`FontStyle`](../../fontstyle)перечисление, которое содержит информацию о стиле для этого[`Font`](../../font).
+А[`FontStyle`](../../fontstyle) перечисление, содержащее информацию о стиле для этого[`Font`](../../font).
 
 ### Смотрите также
 

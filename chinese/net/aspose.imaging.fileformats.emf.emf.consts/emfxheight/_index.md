@@ -21,9 +21,9 @@ public enum EmfXHeight : byte
 | PAN_ANY | `0` | 任意高度。 |
 | PAN_NO_FIT | `1` | 不合适。 |
 | PAN_XHEIGHT_CONSTANT_SMALL | `2` | 常数/小 |
-| PAN_XHEIGHT_CONSTANT_STD | `3` | 常量/标准 |
-| PAN_XHEIGHT_CONSTANT_LARGE | `4` | 常量/大 |
-| PAN_XHEIGHT_DUCKING_SMALL | `5` | 闪避/小 |
+| PAN_XHEIGHT_CONSTANT_STD | `3` | 常数/标准 |
+| PAN_XHEIGHT_CONSTANT_LARGE | `4` | 常数/大 |
+| PAN_XHEIGHT_DUCKING_SMALL | `5` | 闪避/small |
 | PAN_XHEIGHT_DUCKING_STD | `6` | 闪避/标准 |
 | PAN_XHEIGHT_DUCKING_LARGE | `7` | 闪避/大 |
 

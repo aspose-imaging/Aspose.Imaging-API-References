@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSetCompositingMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusSetCompositingModeaspose.imaging.fileformats.emf.emfplus.records/emfplussetcompositingmode.
+description: Инициализирует новый экземплярEmfPlusSetCompositingModeaspose.imaging.fileformats.emf.emfplus.records/emfplussetcompositingmode класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetcompositingmode/emfplussetcompositingmode/
 ---
 ## EmfPlusSetCompositingMode constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusSetCompositingMode`](../../emfplussetcompositingmode).
+Инициализирует новый экземпляр[`EmfPlusSetCompositingMode`](../../emfplussetcompositingmode) класс.
 
 ```csharp
 public EmfPlusSetCompositingMode(EmfPlusRecord source)

@@ -1,14 +1,14 @@
 ---
 title: EmfPlusResetWorldTransform
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EmfPlusResetWorldTransform сбрасывает текущее преобразование мирового пространства в матрицу идентификации.
+description: Запись EmfPlusResetWorldTransform сбрасывает текущее преобразование мирового пространства в идентификационную матрицу.
 type: docs
 weight: 6220
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusresetworldtransform/
 ---
 ## EmfPlusResetWorldTransform class
 
-Запись EmfPlusResetWorldTransform сбрасывает текущее преобразование мирового пространства в матрицу идентификации.
+Запись EmfPlusResetWorldTransform сбрасывает текущее преобразование мирового пространства в идентификационную матрицу.
 
 ```csharp
 public sealed class EmfPlusResetWorldTransform : EmfPlusTerminalServerRecordType
@@ -18,15 +18,15 @@ public sealed class EmfPlusResetWorldTransform : EmfPlusTerminalServerRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPlusResetWorldTransform](emfplusresetworldtransform)(EmfPlusRecord) | Инициализирует новый экземпляр класса[`EmfPlusResetWorldTransform`](../emfplusresetworldtransform). |
+| [EmfPlusResetWorldTransform](emfplusresetworldtransform)(EmfPlusRecord) | Инициализирует новый экземпляр[`EmfPlusResetWorldTransform`](../emfplusresetworldtransform) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО определять 32-разрядное выровненное число байтов данных в поле RecordData, которое следует. Это число не включает 12-байтовый заголовок записи. |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | Получает или задает 16-разрядное целое число без знака, содержащее информацию для некоторых записей о том, как должна выполняться операция , и о структуре запись. |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее число байтов, выровненных по 32-разрядному выравниванию во всей записи, включая 12 -байтовый заголовок записи и данные, относящиеся к записи. |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО определять 32-разрядное выровненное количество байтов данных в следующем поле RecordData. Это число не включает 12-байтовый заголовок записи. |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | Получает или задает 16-разрядное целое число без знака, содержащее информацию для некоторых записей о том, как должна выполняться операция, и о структуре записи. |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее 32-разрядное выровненное количество байтов во всей записи, включая 12-разрядный заголовок записи и данные, относящиеся к записи. |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | Получает 16-разрядное целое число без знака, определяющее тип записи. |
 
 ### Смотрите также

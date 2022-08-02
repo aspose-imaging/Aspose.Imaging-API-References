@@ -23,33 +23,28 @@ public SizeF PageSize { get; set; }
 
 string dir = "c:\\temp\\";
 
- // Использование Aspose.Imaging.Image.Load — это унифицированный способ загрузки изображения.
-using (Aspose.Imaging.FileFormats.Svg.SvgImage svgImage = (Aspose.Imaging.FileFormats.Svg.SvgImage)Aspose.Imaging.Image.Load(dir + "test.svg"))
+// Использование Aspose.Imaging.Image.Load — это унифицированный способ загрузки всех типов изображений, включая WMF.
+using (Aspose.Imaging.FileFormats.Wmf.WmfImage wmfImage = (Aspose.Imaging.FileFormats.Wmf.WmfImage)Aspose.Imaging.Image.Load(dir + "test.wmf"))
 {
-     // Чтобы растеризовать SVG, нам нужно указать параметры растеризации.
-    Aspose.Imaging.ImageOptions.SvgRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.SvgRasterizationOptions();
+    Aspose.Imaging.ImageOptions.SvgOptions saveOptions = new Aspose.Imaging.ImageOptions.SvgOptions();
+        
+    // Текст будет преобразован в фигуры.
+    saveOptions.TextAsShapes = true;
 
-     // Установить цвет фона по умолчанию для изображения. Значение по умолчанию — белый.
-    rasterizationOptions.BackgroundColor = Aspose.Imaging.Color.Gray;
+    Aspose.Imaging.ImageOptions.WmfRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.WmfRasterizationOptions();
 
-     // Установить размер страницы
-    rasterizationOptions.PageSize = svgImage.Size;
+    // Цвет фона поверхности рисования.
+    rasterizationOptions.BackgroundColor = Aspose.Imaging.Color.WhiteSmoke;
 
-     // Сглаживание применяется к линиям и кривым, а также к краям заполненных областей.
-    rasterizationOptions.SmoothingMode = Aspose.Imaging.SmoothingMode.AntiAlias;
+    // Размер страницы.
+    rasterizationOptions.PageSize = wmfImage.Size;
 
-     // Каждый символ рисуется с использованием сглаженного растрового изображения глифа без хинтинга.
-    rasterizationOptions.TextRenderingHint = Aspose.Imaging.TextRenderingHint.AntiAlias;
+    // Если встроенная ЭДС существует, то визуализировать ЭДС; в противном случае визуализируйте wmf.
+    rasterizationOptions.RenderMode = Aspose.Imaging.FileFormats.Wmf.WmfRenderMode.Auto;
 
-     // Уменьшаем размер изображения в 10 раз, т.е. выходной размер будет 10% от исходного размера.
-    rasterizationOptions.ScaleX = 0.1f;
-    rasterizationOptions.ScaleY = 0.1f;
-
-    Aspose.Imaging.ImageOptions.PngOptions saveOptions = new Aspose.Imaging.ImageOptions.PngOptions();
     saveOptions.VectorRasterizationOptions = rasterizationOptions;
 
-     // Сохранить в PNG file
-    svgImage.Save(dir + "test.output.png", saveOptions);
+    wmfImage.Save(dir + "test.output.svg", saveOptions);
 }
 ```
 
@@ -60,33 +55,34 @@ using (Aspose.Imaging.FileFormats.Svg.SvgImage svgImage = (Aspose.Imaging.FileFo
 
 string dir = "c:\\temp\\";
 
- // Использование Aspose.Imaging.Image.Load — это унифицированный способ загрузки изображения.
-using (Aspose.Imaging.FileFormats.Svg.SvgImage svgImage = (Aspose.Imaging.FileFormats.Svg.SvgImage)Aspose.Imaging.Image.Load(dir + "test.svg"))
+// Использование Aspose.Imaging.Image.Load — это унифицированный способ загрузки всех типов изображений, включая EMF.
+using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFormats.Emf.EmfImage)Aspose.Imaging.Image.Load(dir + "test.emf"))
 {
-     // Чтобы растеризовать SVG, нам нужно указать параметры растеризации.
-    Aspose.Imaging.ImageOptions.SvgRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.SvgRasterizationOptions();
+    Aspose.Imaging.ImageOptions.SvgOptions saveOptions = new Aspose.Imaging.ImageOptions.SvgOptions();
 
-     // Установить цвет фона по умолчанию для изображения. Значение по умолчанию — белый.
-    rasterizationOptions.BackgroundColor = Aspose.Imaging.Color.Gray;
+    // Текст будет преобразован в фигуры.
+    saveOptions.TextAsShapes = true;
 
-     // Установить размер страницы
-    rasterizationOptions.PageSize = svgImage.Size;
+    Aspose.Imaging.ImageOptions.EmfRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.EmfRasterizationOptions();
 
-     // Сглаживание применяется к линиям и кривым, а также к краям заполненных областей.
-    rasterizationOptions.SmoothingMode = Aspose.Imaging.SmoothingMode.AntiAlias;
+    // Цвет фона поверхности рисования.
+    rasterizationOptions.BackgroundColor = Aspose.Imaging.Color.WhiteSmoke;
 
-     // Каждый символ рисуется с использованием сглаженного растрового изображения глифа без хинтинга.
-    rasterizationOptions.TextRenderingHint = Aspose.Imaging.TextRenderingHint.AntiAlias;
+    // Размер страницы.
+    rasterizationOptions.PageSize = emfImage.Size;
 
-     // Уменьшаем размер изображения в 10 раз, т.е. выходной размер будет 10% от исходного размера.
-    rasterizationOptions.ScaleX = 0.1f;
-    rasterizationOptions.ScaleY = 0.1f;
+    // Если встроенная ЭДС существует, то визуализировать ЭДС; в противном случае визуализируйте wmf.
+    rasterizationOptions.RenderMode = Aspose.Imaging.FileFormats.Emf.EmfRenderMode.Auto;
 
-    Aspose.Imaging.ImageOptions.PngOptions saveOptions = new Aspose.Imaging.ImageOptions.PngOptions();
+    // Установить горизонтальное поле
+    rasterizationOptions.BorderX = 50;
+
+    // Установить вертикальное поле
+    rasterizationOptions.BorderY = 50;
+
     saveOptions.VectorRasterizationOptions = rasterizationOptions;
 
-     // Сохранить в PNG file
-    svgImage.Save(dir + "test.output.png", saveOptions);
+    emfImage.Save(dir + "test.output.svg", saveOptions);
 }
 ```
 
@@ -97,32 +93,32 @@ using (Aspose.Imaging.FileFormats.Svg.SvgImage svgImage = (Aspose.Imaging.FileFo
 
 string dir = "c:\\temp\\";
 
- // Использование Aspose.Imaging.Image.Load — это унифицированный способ загрузки изображения.
+// Использование Aspose.Imaging.Image.Load — это унифицированный способ загрузки изображения.
 using (Aspose.Imaging.FileFormats.Svg.SvgImage svgImage = (Aspose.Imaging.FileFormats.Svg.SvgImage)Aspose.Imaging.Image.Load(dir + "test.svg"))
 {
-     // Чтобы растеризовать SVG, нам нужно указать параметры растеризации.
+    // Чтобы растеризовать SVG, нам нужно указать параметры растеризации.
     Aspose.Imaging.ImageOptions.SvgRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.SvgRasterizationOptions();
 
-     // Установить цвет фона по умолчанию для изображения. Значение по умолчанию — белый.
+    // Установить цвет фона по умолчанию для изображения. Значение по умолчанию — белый.
     rasterizationOptions.BackgroundColor = Aspose.Imaging.Color.Gray;
 
-     // Установить размер страницы
+    // Установить размер страницы
     rasterizationOptions.PageSize = svgImage.Size;
 
-     // Сглаживание применяется к линиям и кривым, а также к краям заполненных областей.
+    // Сглаживание применяется к линиям и кривым, а также к краям заполненных областей.
     rasterizationOptions.SmoothingMode = Aspose.Imaging.SmoothingMode.AntiAlias;
 
-     // Каждый символ рисуется с использованием сглаженного растрового изображения глифа без хинтинга.
+    // Каждый символ рисуется с использованием своего сглаженного растрового изображения глифа без подсказок.
     rasterizationOptions.TextRenderingHint = Aspose.Imaging.TextRenderingHint.AntiAlias;
 
-     // Уменьшаем размер изображения в 10 раз, т.е. выходной размер будет 10% от исходного размера.
+    // Уменьшить размер изображения в 10 раз, т.е. выходной размер будет 10% от исходного размера.
     rasterizationOptions.ScaleX = 0.1f;
     rasterizationOptions.ScaleY = 0.1f;
 
     Aspose.Imaging.ImageOptions.PngOptions saveOptions = new Aspose.Imaging.ImageOptions.PngOptions();
     saveOptions.VectorRasterizationOptions = rasterizationOptions;
 
-     // Сохранить в PNG file
+    // Сохраняем в файл PNG
     svgImage.Save(dir + "test.output.png", saveOptions);
 }
 ```

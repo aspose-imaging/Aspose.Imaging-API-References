@@ -1,14 +1,14 @@
 ---
 title: TypeTranslation
 second_title: Aspose.Imaging for .NET API 参考
-description: 平移将坐标在 x 和 y 中移动一个常数而不改变向量的长度或角度
+description: 平移在 x 和 y 中以恒定的量移动坐标而不改变向量的长度或角度
 type: docs
 weight: 280
 url: /zh/net/aspose.imaging/matrix/typetranslation/
 ---
 ## Matrix.TypeTranslation field
 
-平移将坐标在 x 和 y 中移动一个常数，而不改变向量的长度或角度。
+平移在 x 和 y 中以恒定的量移动坐标，而不改变向量的长度或角度。
 
 ```csharp
 public const int TypeTranslation;

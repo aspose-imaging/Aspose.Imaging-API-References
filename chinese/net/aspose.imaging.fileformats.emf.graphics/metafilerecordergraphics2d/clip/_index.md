@@ -1,14 +1,14 @@
 ---
 title: Clip
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置限制此 Graphics 的绘制区域的 Region
+description: 获取或设置一个Region限制此Graphics的绘制区域
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/clip/
 ---
 ## MetafileRecorderGraphics2D.Clip property
 
-获取或设置限制此 Graphics 的绘制区域的 Region
+获取或设置一个Region，限制此Graphics的绘制区域
 
 ```csharp
 public Region Clip { get; set; }

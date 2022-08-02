@@ -1,14 +1,14 @@
 ---
 title: M
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение пурпурного компонента этойColoraspose.imaging/colorструктуры.
+description: Получает значение пурпурного компонента этогоColoraspose.imaging/color структура.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging/cmykcolor/m/
 ---
 ## CmykColor.M property
 
-Получает значение пурпурного компонента этой[`Color`](../../color)структуры.
+Получает значение пурпурного компонента этого[`Color`](../../color) структура.
 
 ```csharp
 public byte M { get; }
@@ -16,7 +16,7 @@ public byte M { get; }
 
 ### Стоимость имущества
 
-Значение пурпурного компонента этого[`Color`](../../color).
+Значение пурпурного компонента этого[`Color`](../../color) .
 
 ### Смотрите также
 

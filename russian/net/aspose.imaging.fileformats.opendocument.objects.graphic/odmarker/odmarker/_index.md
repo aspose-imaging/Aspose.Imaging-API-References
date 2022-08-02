@@ -1,14 +1,14 @@
 ---
 title: OdMarker
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdMarkeraspose.imaging.fileformats.opendocument.objects.graphic/odmarker.
+description: Инициализирует новый экземплярOdMarkeraspose.imaging.fileformats.opendocument.objects.graphic/odmarker класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odmarker/odmarker/
 ---
 ## OdMarker constructor
 
-Инициализирует новый экземпляр класса[`OdMarker`](../../odmarker).
+Инициализирует новый экземпляр[`OdMarker`](../../odmarker) класс.
 
 ```csharp
 public OdMarker(OdObject parent)

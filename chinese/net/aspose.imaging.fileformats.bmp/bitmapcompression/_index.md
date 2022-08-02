@@ -24,8 +24,8 @@ public enum BitmapCompression : uint
 | Bitfields | `3` | RGB 位域。只能用于 16 和 32 位/像素位图。 |
 | Jpeg | `4` | JPEG 压缩。位图包含 JPEG 图像。 |
 | Png | `5` | PNG 压缩。位图包含一个 PNG 图像。 |
-| AlphaBitfields | `6` | RGBA 位域。只能用于 16 和 32 位/像素位图。 |
-| Dxt1 | `827611204` | DXT1 压缩。位图包含纹理。 |
+| AlphaBitfields | `6` | RGBA 位字段。只能用于 16 和 32 位/像素位图。 |
+| Dxt1 | `827611204` | DXT1 压缩。位图包含一个纹理。 |
 
 ### 也可以看看
 

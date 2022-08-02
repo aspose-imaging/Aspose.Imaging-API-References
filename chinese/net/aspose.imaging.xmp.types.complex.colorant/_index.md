@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.Xmp.Types.Complex.Colorant
 second_title: Aspose.Imaging for .NET API 参考
-description: 命名空间包含的类代表包含文档中使用的着色剂样本特征的结构
+description: 命名空间包含的类表示包含文档中使用的着色剂样本特征的结构
 type: docs
 weight: 1010
 url: /zh/net/aspose.imaging.xmp.types.complex.colorant/
 ---
-命名空间包含的类代表包含文档中使用的着色剂（样本）特征的结构。
+命名空间包含的类表示包含文档中使用的着色剂（样本）特征的结构。
 
 ## 课程
 
@@ -15,7 +15,7 @@ url: /zh/net/aspose.imaging.xmp.types.complex.colorant/
 | [ColorantBase](./colorantbase) | 表示 XMP 着色剂类型。 |
 | [ColorantCmyk](./colorantcmyk) | 代表 CMYK 着色剂。 |
 | [ColorantLab](./colorantlab) | 代表 LAB 着色剂。 |
-| [ColorantRgb](./colorantrgb) | 表示 RGB 着色剂。 |
+| [ColorantRgb](./colorantrgb) | 代表 RGB 着色剂。 |
 ## 枚举
 
 | 枚举 | 描述 |

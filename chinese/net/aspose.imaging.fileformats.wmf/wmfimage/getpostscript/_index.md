@@ -1,14 +1,14 @@
 ---
 title: GetPostScript
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取发布脚本
+description: 获取 post 脚本
 type: docs
 weight: 130
 url: /zh/net/aspose.imaging.fileformats.wmf/wmfimage/getpostscript/
 ---
 ## WmfImage.GetPostScript method
 
-获取发布脚本。
+获取 post 脚本。
 
 ```csharp
 public string GetPostScript()
@@ -16,7 +16,7 @@ public string GetPostScript()
 
 ### 返回值
 
-后置脚本
+帖子脚本
 
 ### 也可以看看
 

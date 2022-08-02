@@ -1,14 +1,14 @@
 ---
 title: MultiPageOptions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаMultiPageOptionsaspose.imaging.imageoptions/multipageoptions.
+description: Инициализирует новый экземплярMultiPageOptionsaspose.imaging.imageoptions/multipageoptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.imageoptions/multipageoptions/multipageoptions/
 ---
 ## MultiPageOptions() {#constructor}
 
-Инициализирует новый экземпляр класса[`MultiPageOptions`](../../multipageoptions).
+Инициализирует новый экземпляр[`MultiPageOptions`](../../multipageoptions) класс.
 
 ```csharp
 public MultiPageOptions()
@@ -24,7 +24,7 @@ public MultiPageOptions()
 
 ## MultiPageOptions(int[]) {#constructor_7}
 
-Инициализирует новый экземпляр класса[`MultiPageOptions`](../../multipageoptions).
+Инициализирует новый экземпляр[`MultiPageOptions`](../../multipageoptions) класс.
 
 ```csharp
 public MultiPageOptions(int[] pages)
@@ -44,7 +44,7 @@ public MultiPageOptions(int[] pages)
 
 ## MultiPageOptions(int[], Rectangle) {#constructor_8}
 
-Инициализирует новый экземпляр класса[`MultiPageOptions`](../../multipageoptions).
+Инициализирует новый экземпляр[`MultiPageOptions`](../../multipageoptions) класс.
 
 ```csharp
 public MultiPageOptions(int[] pages, Rectangle exportArea)
@@ -53,7 +53,7 @@ public MultiPageOptions(int[] pages, Rectangle exportArea)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pages | Int32[] | Массив страниц. |
-| exportArea | Rectangle | Область экспорта. |
+| exportArea | Rectangle | Зона экспорта. |
 
 ### Смотрите также
 
@@ -66,7 +66,7 @@ public MultiPageOptions(int[] pages, Rectangle exportArea)
 
 ## MultiPageOptions(string[]) {#constructor_9}
 
-Инициализирует новый экземпляр класса[`MultiPageOptions`](../../multipageoptions).
+Инициализирует новый экземпляр[`MultiPageOptions`](../../multipageoptions) класс.
 
 ```csharp
 public MultiPageOptions(string[] pageTitles)
@@ -86,7 +86,7 @@ public MultiPageOptions(string[] pageTitles)
 
 ## MultiPageOptions(string[], Rectangle) {#constructor_10}
 
-Инициализирует новый экземпляр класса[`MultiPageOptions`](../../multipageoptions).
+Инициализирует новый экземпляр[`MultiPageOptions`](../../multipageoptions) класс.
 
 ```csharp
 public MultiPageOptions(string[] pageTitles, Rectangle exportArea)
@@ -95,7 +95,7 @@ public MultiPageOptions(string[] pageTitles, Rectangle exportArea)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pageTitles | String[] | Заголовки страниц. |
-| exportArea | Rectangle | Область экспорта. |
+| exportArea | Rectangle | Зона экспорта. |
 
 ### Смотрите также
 
@@ -108,7 +108,7 @@ public MultiPageOptions(string[] pageTitles, Rectangle exportArea)
 
 ## MultiPageOptions(IntRange[]) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`MultiPageOptions`](../../multipageoptions).
+Инициализирует новый экземпляр[`MultiPageOptions`](../../multipageoptions) класс.
 
 ```csharp
 public MultiPageOptions(IntRange[] ranges)
@@ -129,7 +129,7 @@ public MultiPageOptions(IntRange[] ranges)
 
 ## MultiPageOptions(IntRange[], Rectangle) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`MultiPageOptions`](../../multipageoptions).
+Инициализирует новый экземпляр[`MultiPageOptions`](../../multipageoptions) класс.
 
 ```csharp
 public MultiPageOptions(IntRange[] ranges, Rectangle exportArea)
@@ -138,7 +138,7 @@ public MultiPageOptions(IntRange[] ranges, Rectangle exportArea)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | ranges | IntRange[] | [`IntRange`](../../../aspose.imaging/intrange). |
-| exportArea | Rectangle | Область экспорта. |
+| exportArea | Rectangle | Зона экспорта. |
 
 ### Смотрите также
 
@@ -152,7 +152,7 @@ public MultiPageOptions(IntRange[] ranges, Rectangle exportArea)
 
 ## MultiPageOptions(IntRange) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MultiPageOptions`](../../multipageoptions).
+Инициализирует новый экземпляр[`MultiPageOptions`](../../multipageoptions) класс.
 
 ```csharp
 public MultiPageOptions(IntRange range)
@@ -173,7 +173,7 @@ public MultiPageOptions(IntRange range)
 
 ## MultiPageOptions(IntRange, Rectangle) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`MultiPageOptions`](../../multipageoptions).
+Инициализирует новый экземпляр[`MultiPageOptions`](../../multipageoptions) класс.
 
 ```csharp
 public MultiPageOptions(IntRange range, Rectangle exportArea)
@@ -182,7 +182,7 @@ public MultiPageOptions(IntRange range, Rectangle exportArea)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | range | IntRange | [`IntRange`](../../../aspose.imaging/intrange). |
-| exportArea | Rectangle | Область экспорта. |
+| exportArea | Rectangle | Зона экспорта. |
 
 ### Смотрите также
 
@@ -196,7 +196,7 @@ public MultiPageOptions(IntRange range, Rectangle exportArea)
 
 ## MultiPageOptions(int) {#constructor_5}
 
-Инициализирует новый экземпляр класса[`MultiPageOptions`](../../multipageoptions).
+Инициализирует новый экземпляр[`MultiPageOptions`](../../multipageoptions) класс.
 
 ```csharp
 public MultiPageOptions(int page)
@@ -216,7 +216,7 @@ public MultiPageOptions(int page)
 
 ## MultiPageOptions(int, Rectangle) {#constructor_6}
 
-Инициализирует новый экземпляр класса[`MultiPageOptions`](../../multipageoptions).
+Инициализирует новый экземпляр[`MultiPageOptions`](../../multipageoptions) класс.
 
 ```csharp
 public MultiPageOptions(int page, Rectangle exportArea)
@@ -225,7 +225,7 @@ public MultiPageOptions(int page, Rectangle exportArea)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | page | Int32 | Индекс страницы. |
-| exportArea | Rectangle | Область экспорта. |
+| exportArea | Rectangle | Зона экспорта. |
 
 ### Смотрите также
 

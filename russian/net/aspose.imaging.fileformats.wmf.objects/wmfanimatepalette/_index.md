@@ -1,14 +1,14 @@
 ---
 title: WmfAnimatePalette
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_ANIMATEPALETTE переопределяет записи в логической палитре которая определена в контексте устройства воспроизведения с указанной палитрой объекта п. 2.2.1.3.
+description: Запись META_ANIMATEPALETTE переопределяет записи в логической палитре  которая определена в контексте устройства воспроизведения с указанным объектом палитры раздел 2.2.1.3.
 type: docs
 weight: 8410
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfanimatepalette/
 ---
 ## WmfAnimatePalette class
 
-Запись META_ANIMATEPALETTE переопределяет записи в логической палитре которая определена в контексте устройства воспроизведения с указанной палитрой объекта (п. 2.2.1.3).
+Запись META_ANIMATEPALETTE переопределяет записи в логической палитре , которая определена в контексте устройства воспроизведения с указанным объектом палитры (раздел 2.2.1.3).
 
 ```csharp
 public class WmfAnimatePalette : WmfObject

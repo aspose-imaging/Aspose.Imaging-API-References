@@ -1,14 +1,14 @@
 ---
 title: op_Addition
 second_title: Aspose.Imaging for .NET API 参考
-description: 将Pointaspose.imaging/point转换为给定的Sizeaspose.imaging/size.
+description: 翻译一个Pointaspose.imaging/point由给定的Sizeaspose.imaging/size .
 type: docs
 weight: 150
 url: /zh/net/aspose.imaging/point/op_addition/
 ---
 ## Point Addition operator
 
-将[`Point`](../../point)转换为给定的[`Size`](../../size).
+翻译一个[`Point`](../../point)由给定的[`Size`](../../size) .
 
 ```csharp
 public static Point operator +(Point point, Size size)
@@ -16,12 +16,12 @@ public static Point operator +(Point point, Size size)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| point | Point | [`Point`](../../point)进行翻译。 |
-| size | Size | A[`Size`](../../size)指定要添加到:::R9 坐标的数字对:观点:::。 |
+| point | Point | 这[`Point`](../../point)翻译。 |
+| size | Size | 一个[`Size`](../../size)指定要添加到坐标的数字对*point*. |
 
 ### 返回值
 
-翻译后的[`Point`](../../point)。
+翻译的[`Point`](../../point).
 
 ### 也可以看看
 

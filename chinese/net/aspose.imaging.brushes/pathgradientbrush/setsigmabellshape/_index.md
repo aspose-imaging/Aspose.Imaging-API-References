@@ -1,14 +1,14 @@
 ---
 title: SetSigmaBellShape
 second_title: Aspose.Imaging for .NET API 参考
-description: 创建一个渐变画笔从路径中心向外改变颜色到路径边界从一种颜色到另一种颜色的过渡基于钟形曲线
+description: 创建一个渐变画笔从路径中心向外更改颜色到路径边界从一种颜色到另一种颜色的过渡基于钟形曲线
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.brushes/pathgradientbrush/setsigmabellshape/
 ---
 ## SetSigmaBellShape(float) {#setsigmabellshape}
 
-创建一个渐变画笔，从路径中心向外改变颜色到路径边界。从一种颜色到另一种颜色的过渡基于钟形曲线。
+创建一个渐变画笔，从路径中心向外更改颜色到路径边界。从一种颜色到另一种颜色的过渡基于钟形曲线。
 
 ```csharp
 public void SetSigmaBellShape(float focus)
@@ -16,7 +16,7 @@ public void SetSigmaBellShape(float focus)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| focus | Single | 一个从 0 到 1 的值，它指定沿着从路径中心到路径边界的任何径向，中心颜色将处于最高强度。值 1（默认值）将最高强度放置在路径的中心。 |
+| focus | Single | 一个从 0 到 1 的值，它指定沿着从路径中心到路径边界的任何径向，中心颜色将处于其最高强度的位置。值 1（默认值）将最高强度放置在路径的中心。 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public void SetSigmaBellShape(float focus)
 
 ## SetSigmaBellShape(float, float) {#setsigmabellshape_1}
 
-创建一个渐变画笔，从路径中心向外改变颜色到路径边界。从一种颜色到另一种颜色的过渡基于钟形曲线。
+创建一个渐变画笔，从路径中心向外更改颜色到路径边界。从一种颜色到另一种颜色的过渡基于钟形曲线。
 
 ```csharp
 public void SetSigmaBellShape(float focus, float scale)
@@ -36,8 +36,8 @@ public void SetSigmaBellShape(float focus, float scale)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| focus | Single | 一个从 0 到 1 的值，它指定沿着从路径中心到路径边界的任何径向，中心颜色将处于最高强度。值 1（默认值）将最高强度放置在路径的中心。 |
-| scale | Single | 一个从 0 到 1 的值，指定与边界颜色混合的中心颜色的最大强度。值 1 会导致中心颜色的最高强度，它是默认值。 |
+| focus | Single | 一个从 0 到 1 的值，它指定沿着从路径中心到路径边界的任何径向，中心颜色将处于其最高强度的位置。值 1（默认值）将最高强度放置在路径的中心。 |
+| scale | Single | 一个从 0 到 1 的值，它指定与边界颜色混合的中心颜色的最大强度。值 1 会导致中心颜色的最高强度，它是默认值。 |
 
 ### 也可以看看
 

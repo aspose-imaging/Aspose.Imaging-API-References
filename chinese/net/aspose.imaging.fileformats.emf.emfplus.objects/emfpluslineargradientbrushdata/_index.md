@@ -27,9 +27,9 @@ public sealed class EmfPlusLinearGradientBrushData : EmfPlusBaseBrushData
 | [BrushDataFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushdata/brushdataflags) { get; set; } | 获取或设置画笔数据标志。 |
 | [EndArgb32Color](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushdata/endargb32color) { get; set; } | 获取或设置结束颜色。 |
 | [OptionalData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushdata/optionaldata) { get; set; } | 获取或设置可选数据。 |
-| [RectF](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushdata/rectf) { get; set; } | 获取或设置矩形 f。 |
-| [StartArgb32Color](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushdata/startargb32color) { get; set; } | 获取或设置开始颜色。 |
-| [WrapMode](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushdata/wrapmode) { get; set; } | 获取或设置环绕模式。 |
+| [RectF](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushdata/rectf) { get; set; } | 获取或设置矩形 f. |
+| [StartArgb32Color](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushdata/startargb32color) { get; set; } | 获取或设置起始颜色。 |
+| [WrapMode](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushdata/wrapmode) { get; set; } | 获取或设置换行模式。 |
 
 ### 也可以看看
 

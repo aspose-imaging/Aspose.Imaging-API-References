@@ -1,14 +1,14 @@
 ---
 title: BitmapData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置位图数据 BitmapData variable定义在 Type 字段中指定的位图数据对象的可变长度数据 数据的内容和格式对于每种位图类型都可能不同
+description: 获取或设置位图数据 BitmapData变量定义在Type 字段中指定的位图数据对象的可变长度数据 The 数据的内容和格式对于每个位图类型可能不同
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap/bitmapdata/
 ---
 ## EmfPlusBitmap.BitmapData property
 
-获取或设置位图数据 BitmapData (variable):定义在 Type 字段中指定的位图数据对象的可变长度数据。 数据的内容和格式对于每种位图类型都可能不同。
+获取或设置位图数据 BitmapData（变量）：定义在Type 字段中指定的位图数据对象的可变长度数据。 The 数据的内容和格式对于每个位图类型可能不同。
 
 ```csharp
 public EmfPlusBaseBitmapData BitmapData { get; set; }

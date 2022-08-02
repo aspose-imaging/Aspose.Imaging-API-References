@@ -1,14 +1,14 @@
 ---
 title: OdEquation
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdEquationaspose.imaging.fileformats.opendocument.objects.graphic/odequation.
+description: Инициализирует новый экземплярOdEquationaspose.imaging.fileformats.opendocument.objects.graphic/odequation класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odequation/odequation/
 ---
 ## OdEquation constructor
 
-Инициализирует новый экземпляр класса[`OdEquation`](../../odequation).
+Инициализирует новый экземпляр[`OdEquation`](../../odequation) класс.
 
 ```csharp
 public OdEquation(OdObject parent)

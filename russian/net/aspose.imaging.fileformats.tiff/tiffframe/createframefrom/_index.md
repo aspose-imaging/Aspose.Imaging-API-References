@@ -1,14 +1,14 @@
 ---
 title: CreateFrameFrom
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Создает фрейм из указанногоtiffFrameс использованием указанныхoptions. Данные пикселей сохраняются но преобразуются в нужный формат.
+description: Создает кадр из указанногоtiffFrame используя указанныйoptions . Данные пикселей сохраняются но преобразуются в нужный формат.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.tiff/tiffframe/createframefrom/
 ---
 ## TiffFrame.CreateFrameFrom method
 
-Создает фрейм из указанного*tiffFrame*с использованием указанных*options*. Данные пикселей сохраняются, но преобразуются в нужный формат.
+Создает кадр из указанного*tiffFrame* используя указанный*options* . Данные пикселей сохраняются, но преобразуются в нужный формат.
 
 ```csharp
 public static TiffFrame CreateFrameFrom(TiffFrame tiffFrame, TiffOptions options)
@@ -16,16 +16,16 @@ public static TiffFrame CreateFrameFrom(TiffFrame tiffFrame, TiffOptions options
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| tiffFrame | TiffFrame | Кадр tiff для создания. |
+| tiffFrame | TiffFrame | Кадр TIFF для создания из. |
 | options | TiffOptions | Новые параметры для использования. |
 
 ### Возвращаемое значение
 
-Вновь созданный кадр.
+Недавно созданный кадр.
 
 ### Примеры
 
-В следующем примере показано, как создать копию существующего кадра в градациях серого и добавить ее к изображению TIFF.
+В следующем примере показано, как создать копию существующего кадра в градациях серого и добавить ее в изображение TIFF.
 
 ```csharp
 [C#]
@@ -34,14 +34,14 @@ string dir = "c:\\temp\\";
 
 Aspose.Imaging.ImageOptions.TiffOptions createTiffOptions = new Aspose.Imaging.ImageOptions.TiffOptions(Aspose.Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
 
- // Создаем постоянный, а не временный файл source.
+// Создать постоянный, а не временный источник файла.
 createTiffOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(dir + "multipage.tif", false);
 createTiffOptions.Photometric = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.Rgb;
 createTiffOptions.BitsPerSample = new ushort[] { 8, 8, 8 };
 
 using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)Image.Create(createTiffOptions, 100, 100))
 {
-     // Линейный градиент от левого верхнего до правого нижнего угла изображения.
+    // Линейный градиент от левого верхнего до правого нижнего угла изображения.
     Aspose.Imaging.Brushes.LinearGradientBrush brush =
         new Aspose.Imaging.Brushes.LinearGradientBrush(
             new Aspose.Imaging.Point(0, 0),
@@ -53,17 +53,17 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.Fil
     Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(tiffImage.ActiveFrame);
     gr.FillRectangle(brush, tiffImage.Bounds);
 
-     // Оттенки серого options
+    // Параметры оттенков серого
     Aspose.Imaging.ImageOptions.TiffOptions createTiffFrameOptions = new Aspose.Imaging.ImageOptions.TiffOptions(Aspose.Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
     createTiffFrameOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream());
     createTiffFrameOptions.Photometric = Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.MinIsBlack;
     createTiffFrameOptions.BitsPerSample = new ushort[] { 8 };
 
-     // Создаем копию активного кадра в градациях серого.
-     // Данные пикселей сохраняются, но преобразуются в нужный формат.
+    // Создаем копию активного кадра в градациях серого.
+    // Данные пикселей сохраняются, но преобразуются в нужный формат.
     Aspose.Imaging.FileFormats.Tiff.TiffFrame grayscaleFrame = Aspose.Imaging.FileFormats.Tiff.TiffFrame.CreateFrameFrom(tiffImage.ActiveFrame, createTiffFrameOptions);
 
-     // Добавляем только что созданный кадр к изображению TIFF.
+    // Добавляем только что созданный кадр к изображению TIFF.
     tiffImage.AddFrame(grayscaleFrame);
 
     tiffImage.Save();

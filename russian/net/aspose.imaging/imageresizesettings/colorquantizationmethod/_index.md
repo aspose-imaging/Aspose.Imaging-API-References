@@ -16,7 +16,7 @@ public ColorQuantizationMethod ColorQuantizationMethod { get; set; }
 
 ### Стоимость имущества
 
-Метод цветового квантования.
+Метод квантования цвета.
 
 ### Смотрите также
 

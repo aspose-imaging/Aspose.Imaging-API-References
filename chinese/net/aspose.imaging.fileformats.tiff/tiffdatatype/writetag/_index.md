@@ -23,7 +23,7 @@ public void WriteTag(TiffStreamWriter dataStream, long additionalDataOffset)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [ImageSaveException](../../../aspose.imaging.coreexceptions/imagesaveexception) | 无法写入 + this.TagType + Message 的值:+ exception.Message |
+| [ImageSaveException](../../../aspose.imaging.coreexceptions/imagesaveexception) | 无法为 + this.TagType + Message 写入值：+ exception.Message |
 
 ### 也可以看看
 

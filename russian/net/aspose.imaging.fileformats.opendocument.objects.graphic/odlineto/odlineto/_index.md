@@ -1,14 +1,14 @@
 ---
 title: OdLineTo
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdLineToaspose.imaging.fileformats.opendocument.objects.graphic/odlineto.
+description: Инициализирует новый экземплярOdLineToaspose.imaging.fileformats.opendocument.objects.graphic/odlineto класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/odlineto/
 ---
 ## OdLineTo constructor
 
-Инициализирует новый экземпляр класса[`OdLineTo`](../../odlineto).
+Инициализирует новый экземпляр[`OdLineTo`](../../odlineto) класс.
 
 ```csharp
 public OdLineTo(OdObject parent)

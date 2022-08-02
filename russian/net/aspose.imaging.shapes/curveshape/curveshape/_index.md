@@ -1,14 +1,14 @@
 ---
 title: CurveShape
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаCurveShapeaspose.imaging.shapes/curveshape.
+description: Инициализирует новый экземплярCurveShapeaspose.imaging.shapes/curveshape класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.shapes/curveshape/curveshape/
 ---
 ## CurveShape() {#constructor}
 
-Инициализирует новый экземпляр класса[`CurveShape`](../../curveshape).
+Инициализирует новый экземпляр[`CurveShape`](../../curveshape) класс.
 
 ```csharp
 public CurveShape()
@@ -24,7 +24,7 @@ public CurveShape()
 
 ## CurveShape(PointF[]) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`CurveShape`](../../curveshape). Используется натяжение по умолчанию 0,5.
+Инициализирует новый экземпляр[`CurveShape`](../../curveshape) учебный класс. Используется натяжение по умолчанию 0,5.
 
 ```csharp
 public CurveShape(PointF[] points)
@@ -32,7 +32,7 @@ public CurveShape(PointF[] points)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| points | PointF[] | Массив точек. |
+| points | PointF[] | Массив очков. |
 
 ### Смотрите также
 
@@ -45,7 +45,7 @@ public CurveShape(PointF[] points)
 
 ## CurveShape(PointF[], bool) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`CurveShape`](../../curveshape). Используется натяжение по умолчанию 0,5.
+Инициализирует новый экземпляр[`CurveShape`](../../curveshape) учебный класс. Используется натяжение по умолчанию 0,5.
 
 ```csharp
 public CurveShape(PointF[] points, bool isClosed)
@@ -53,8 +53,8 @@ public CurveShape(PointF[] points, bool isClosed)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| points | PointF[] | Массив точек. |
-| isClosed | Boolean | если установлено` true` кривая закрыто. |
+| points | PointF[] | Массив очков. |
+| isClosed | Boolean | если установлено`истинный` кривая замкнута. |
 
 ### Смотрите также
 
@@ -67,7 +67,7 @@ public CurveShape(PointF[] points, bool isClosed)
 
 ## CurveShape(PointF[], float) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`CurveShape`](../../curveshape).
+Инициализирует новый экземпляр[`CurveShape`](../../curveshape) класс.
 
 ```csharp
 public CurveShape(PointF[] points, float tension)
@@ -75,8 +75,8 @@ public CurveShape(PointF[] points, float tension)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| points | PointF[] | Массив точек. |
-| tension | Single | Кривая натяжения. |
+| points | PointF[] | Массив очков. |
+| tension | Single | Кривая напряжения. |
 
 ### Смотрите также
 
@@ -89,7 +89,7 @@ public CurveShape(PointF[] points, float tension)
 
 ## CurveShape(PointF[], float, bool) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`CurveShape`](../../curveshape).
+Инициализирует новый экземпляр[`CurveShape`](../../curveshape) класс.
 
 ```csharp
 public CurveShape(PointF[] points, float tension, bool isClosed)
@@ -97,9 +97,9 @@ public CurveShape(PointF[] points, float tension, bool isClosed)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| points | PointF[] | Массив точек. |
-| tension | Single | Кривая натяжения. |
-| isClosed | Boolean | если установлено` true` кривая замкнута. |
+| points | PointF[] | Массив очков. |
+| tension | Single | Кривая напряжения. |
+| isClosed | Boolean | если установлено`истинный` кривая замкнута. |
 
 ### Смотрите также
 

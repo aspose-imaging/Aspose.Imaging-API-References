@@ -1,14 +1,14 @@
 ---
 title: Rotation
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает угол поворота эллипса. Измеряется в радианах.
+description: Получает или задает угол поворота эллипса. Измеряет в радианах.
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/rotation/
 ---
 ## CmxEllipseSpec.Rotation property
 
-Получает или задает угол поворота эллипса. Измеряется в радианах.
+Получает или задает угол поворота эллипса. Измеряет в радианах.
 
 ```csharp
 public float Rotation { get; set; }

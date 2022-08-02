@@ -1,14 +1,14 @@
 ---
 title: OdgImage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdgImageaspose.imaging.fileformats.opendocument/odgimage.
+description: Инициализирует новый экземплярOdgImageaspose.imaging.fileformats.opendocument/odgimage класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument/odgimage/odgimage/
 ---
 ## OdgImage(StreamContainer, LoadOptions) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`OdgImage`](../../odgimage).
+Инициализирует новый экземпляр[`OdgImage`](../../odgimage) класс.
 
 ```csharp
 public OdgImage(StreamContainer streamContainer, LoadOptions options)
@@ -31,7 +31,7 @@ public OdgImage(StreamContainer streamContainer, LoadOptions options)
 
 ## OdgImage(StreamContainer) {#constructor}
 
-Инициализирует новый экземпляр класса[`OdgImage`](../../odgimage).
+Инициализирует новый экземпляр[`OdgImage`](../../odgimage) класс.
 
 ```csharp
 public OdgImage(StreamContainer streamContainer)

@@ -1,14 +1,14 @@
 ---
 title: Rotate180
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее является ли этоImageSpecперевернутым.
+description: Получает или задает значение указывающее является ли этоImageSpec вверх ногами.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/rotate180/
 ---
 ## CmxImageFill.Rotate180 property
 
-Получает или задает значение, указывающее, является ли это!:ImageSpecперевернутым.
+Получает или задает значение, указывающее, является ли это!:ImageSpec вверх ногами.
 
 ```csharp
 public bool Rotate180 { get; set; }
@@ -16,7 +16,7 @@ public bool Rotate180 { get; set; }
 
 ### Стоимость имущества
 
-` true` если изображение перевернуто; в противном случае` false` .
+`истинный` если изображение перевернуто; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: RectFloat
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值指示数据是否包含 EmfPlusRectF 或 EmfPlusRect 记录 该位指示数据是否在RectData 字段被压缩 如果设置则 RectData 包含 EmfPlusRect 对象第 2.2.2.38 节 如果清除则 RectData 包含 EmfPlusRectF 对象第 2.2.2.39 节
+description: 获取或设置一个值指示数据是否包含 EmfPlusRectF 或 EmfPlusRect 记录包含 EmfPlusRectF 对象第 2.2.2.39 节
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/rectfloat/
 ---
 ## EmfPlusDrawArc.RectFloat property
 
-获取或设置一个值，指示数据是否包含 EmfPlusRectF 或 EmfPlusRect 记录 该位指示数据是否在RectData 字段被压缩。 如果设置，则 RectData 包含 EmfPlusRect 对象（第 2.2.2.38 节）。 如果清除，则 RectData 包含 EmfPlusRectF 对象（第 2.2.2.39 节）。
+获取或设置一个值，指示数据是否包含 EmfPlusRectF 或 EmfPlusRect 记录包含 EmfPlusRectF 对象（第 2.2.2.39 节）。
 
 ```csharp
 public bool RectFloat { get; set; }
@@ -16,7 +16,7 @@ public bool RectFloat { get; set; }
 
 ### 适当的价值
 
-` true` 如果浮动；否则，` false` 。
+`真的`如果浮动；否则，`错误的` .
 
 ### 也可以看看
 

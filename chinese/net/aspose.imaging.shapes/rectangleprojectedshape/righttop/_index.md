@@ -1,14 +1,14 @@
 ---
 title: RightTop
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取右上矩形点
+description: 获取右上角的矩形点
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.shapes/rectangleprojectedshape/righttop/
 ---
 ## RectangleProjectedShape.RightTop property
 
-获取右上矩形点。
+获取右上角的矩形点。
 
 ```csharp
 public PointF RightTop { get; }

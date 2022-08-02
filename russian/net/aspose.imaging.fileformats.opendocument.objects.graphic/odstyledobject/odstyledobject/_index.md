@@ -1,14 +1,14 @@
 ---
 title: OdStyledObject
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdStyledObjectaspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject.
+description: Инициализирует новый экземплярOdStyledObjectaspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/odstyledobject/
 ---
 ## OdStyledObject constructor
 
-Инициализирует новый экземпляр класса[`OdStyledObject`](../../odstyledobject).
+Инициализирует новый экземпляр[`OdStyledObject`](../../odstyledobject) класс.
 
 ```csharp
 public OdStyledObject(OdObject parent)

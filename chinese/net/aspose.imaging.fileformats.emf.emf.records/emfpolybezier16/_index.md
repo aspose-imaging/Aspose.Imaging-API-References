@@ -18,21 +18,21 @@ public sealed class EmfPolyBezier16 : EmfDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfPolyBezier16](emfpolybezier16#constructor)() | 初始化[`EmfPolyBezier16`](../emfpolybezier16)类的新实例。 |
-| [EmfPolyBezier16](emfpolybezier16#constructor_1)(EmfRecord) | 初始化[`EmfPolyBezier16`](../emfpolybezier16)类的新实例。 |
+| [EmfPolyBezier16](emfpolybezier16#constructor)() | 初始化[`EmfPolyBezier16`](../emfpolybezier16)类. |
+| [EmfPolyBezier16](emfpolybezier16#constructor_1)(EmfRecord) | 初始化[`EmfPolyBezier16`](../emfpolybezier16)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolybezier16/apoints) { get; set; } | 获取或设置 WMF PointS 对象的 Count 长度数组，在 [MS-WMF] 2.2.2.16 节中指定，它指定了数组的点。 |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolybezier16/bounds) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象，在 [MS-WMF] 第 2.2.2.19 节中指定， 指定边界矩形, 以设备为单位。 |
+| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolybezier16/apoints) { get; set; } | 获取或设置 WMF PointS 对象的 Count 长度数组，在 [MS-WMF] 2.2.2.16 节中指定，它指定点数组。 |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolybezier16/bounds) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象，在 [MS-WMF] 第 2.2.2.19 节中指定， 指定边界矩形，以设备为单位。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 
 ### 评论
 
-三次贝塞尔曲线是使用 aPoints:::47 指定的端点和控制点定义的:::场地。第一条曲线是从第一个点到第四个点绘制的，使用第二个和第三个 点作为控制点。序列中的每条后续曲线恰好需要多三个点: 以前一条曲线的终点作为起点， 序列中接下来的两个点是控制点，第三个是终点。 应该使用当前笔绘制三次贝塞尔曲线
+三次贝塞尔曲线是使用 aPoints 字段指定的端点和控制点定义的。第一条曲线是从第一个点到第四个点绘制的，使用第二个和第三个 点作为控制点。序列中的每条后续曲线恰好需要多三个点： 前一条曲线的终点作为起点， 序列中接下来的两个点是控制点，第三个是终点。 三次贝塞尔曲线应该使用当前的笔绘制
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: EmfChord
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfChordaspose.imaging.fileformats.emf.emf.records/emfchord类的新实例
+description: 初始化EmfChordaspose.imaging.fileformats.emf.emf.records/emfchord类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfchord/emfchord/
 ---
 ## EmfChord(EmfRecord) {#constructor_1}
 
-初始化[`EmfChord`](../../emfchord)类的新实例。
+初始化[`EmfChord`](../../emfchord)类.
 
 ```csharp
 public EmfChord(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfChord(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfChord(EmfRecord source)
 
 ## EmfChord() {#constructor}
 
-初始化[`EmfChord`](../../emfchord)类的新实例。
+初始化[`EmfChord`](../../emfchord)类.
 
 ```csharp
 public EmfChord()

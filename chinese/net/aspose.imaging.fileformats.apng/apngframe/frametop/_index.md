@@ -1,14 +1,14 @@
 ---
 title: FrameTop
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取帧顶部偏移量
+description: 获取框架顶部偏移量
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.apng/apngframe/frametop/
 ---
 ## ApngFrame.FrameTop property
 
-获取帧顶部偏移量。
+获取框架顶部偏移量。
 
 ```csharp
 public int FrameTop { get; }

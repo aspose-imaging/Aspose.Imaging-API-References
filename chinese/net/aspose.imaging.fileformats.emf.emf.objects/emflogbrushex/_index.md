@@ -24,9 +24,9 @@ public sealed class EmfLogBrushEx : EmfObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Argb32ColorRef](../../aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/argb32colorref) { get; set; } | 获取或设置指定 颜色的 32 位 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节）。该字段的解释取决于 BrushStyle 的值，如下表 中所述。 |
-| [BrushHatch](../../aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/brushhatch) { get; set; } | 获取或设置一个包含画笔阴影数据的 32 位无符号字段。它的 解释取决于 BrushStyle 的值， |
-| [BrushStyle](../../aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/brushstyle) { get; set; } | 获取或设置指定画笔样式的 32 位无符号整数。值必须 是来自 WMF BrushStyle 枚举的枚举（[MS-WMF] 第 2.1.1.4 节）。此结构中支持的样式 值将在本节后面列出。 BS_NULL 样式 应该用于指定没有效果的画笔。 |
+| [Argb32ColorRef](../../aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/argb32colorref) { get; set; } | 获取或设置指定 a 颜色的 32 位 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节）。该字段的解释取决于BrushStyle的值，如下表 中的解释。 |
+| [BrushHatch](../../aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/brushhatch) { get; set; } | 获取或设置一个包含画笔阴影数据的 32 位无符号字段。它的 解释取决于BrushStyle的值， |
+| [BrushStyle](../../aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/brushstyle) { get; set; } | 获取或设置指定画笔样式的 32 位无符号整数。值必须 是来自 WMF BrushStyle 枚举的枚举（[MS-WMF] 第 2.1.1.4 节）。此结构中支持的样式 值在本节后面列出。 BS_NULL 样式 应该用于指定没有效果的画笔。 |
 
 ### 也可以看看
 

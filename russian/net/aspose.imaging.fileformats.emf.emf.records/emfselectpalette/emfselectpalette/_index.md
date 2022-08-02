@@ -1,14 +1,14 @@
 ---
 title: EmfSelectPalette
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSelectPaletteaspose.imaging.fileformats.emf.emf.records/emfselectpalette.
+description: Инициализирует новый экземплярEmfSelectPaletteaspose.imaging.fileformats.emf.emf.records/emfselectpalette класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfselectpalette/emfselectpalette/
 ---
 ## EmfSelectPalette constructor
 
-Инициализирует новый экземпляр класса[`EmfSelectPalette`](../../emfselectpalette).
+Инициализирует новый экземпляр[`EmfSelectPalette`](../../emfselectpalette) класс.
 
 ```csharp
 public EmfSelectPalette(EmfRecord source)

@@ -1,14 +1,14 @@
 ---
 title: Interlaced
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее является ли этот файлGifFrameBlockaspose.imaging.fileformats.gif.blocks/gifframeblockчересстрочным.
+description: Получает или задает значение указывающее является ли этоGifFrameBlockaspose.imaging.fileformats.gif.blocks/gifframeblock чересстрочная развертка.
 type: docs
 weight: 140
 url: /ru/net/aspose.imaging.fileformats.gif.blocks/gifframeblock/interlaced/
 ---
 ## GifFrameBlock.Interlaced property
 
-Получает или задает значение, указывающее, является ли этот файл[`GifFrameBlock`](../../gifframeblock)чересстрочным.
+Получает или задает значение, указывающее, является ли это[`GifFrameBlock`](../../gifframeblock) чересстрочная развертка.
 
 ```csharp
 public bool Interlaced { get; set; }
@@ -16,7 +16,7 @@ public bool Interlaced { get; set; }
 
 ### Стоимость имущества
 
-` true` если чересстрочная; в противном случае` false` .
+`истинный` если чересстрочный; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

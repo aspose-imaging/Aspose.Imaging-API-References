@@ -1,14 +1,14 @@
 ---
 title: ToBytes
 second_title: Aspose.Imaging for .NET API 参考
-description: 将流数据转换为Byte数组
+description: 将流数据转换为Byte数组.
 type: docs
 weight: 160
 url: /zh/net/aspose.imaging/splitstreamcontainer/tobytes/
 ---
 ## ToBytes() {#tobytes}
 
-将流数据转换为Byte数组。
+将流数据转换为Byte数组.
 
 ```csharp
 public override byte[] ToBytes()
@@ -28,7 +28,7 @@ public override byte[] ToBytes()
 
 ## ToBytes(long, long) {#tobytes_1}
 
-将流数据转换为Byte数组。
+将流数据转换为Byte数组.
 
 ```csharp
 public override byte[] ToBytes(long position, long bytesCount)
@@ -41,7 +41,7 @@ public override byte[] ToBytes(long position, long bytesCount)
 
 ### 返回值
 
-流数据转换为Byte数组。
+流数据转换为Byte数组.
 
 ### 也可以看看
 

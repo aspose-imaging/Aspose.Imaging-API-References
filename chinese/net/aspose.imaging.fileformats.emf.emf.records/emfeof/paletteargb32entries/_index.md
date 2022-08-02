@@ -1,14 +1,14 @@
 ---
 title: PaletteArgb32Entries
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置包含调色板数据的可选缓冲区它不是 需要与 EMR_EOF的固定部分连续47记录因此此缓冲区中标记为 UndefinedSpace 的字段是可选的并且必须被忽略 该字段的大小必须是 4 个字节的倍数
+description: 获取或设置包含调色板数据的可选缓冲区该缓冲区不是 要求与 EMR_EOF 记录的固定部分连续的因此此缓冲区中标记为 UndefinedSpace的字段是可选的必须被忽略 这个字段的大小必须是4字节的倍数
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfeof/paletteargb32entries/
 ---
 ## EmfEof.PaletteArgb32Entries property
 
-获取或设置包含调色板数据的可选缓冲区，它不是 需要与 EMR_EOF:::的固定部分连续47:::记录。因此，此缓冲区中标记为 "UndefinedSpace" 的字段是可选的并且必须被忽略。 该字段的大小必须是 4 个字节的倍数
+获取或设置包含调色板数据的可选缓冲区，该缓冲区不是 要求与 EMR_EOF 记录的固定部分连续的。因此，此缓冲区中标记为 “UndefinedSpace”的字段是可选的，必须被忽略。 这个字段的大小必须是4字节的倍数
 
 ```csharp
 public int[] PaletteArgb32Entries { get; set; }

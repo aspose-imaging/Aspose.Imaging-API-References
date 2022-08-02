@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 WMF PointL 对象MS-WMF 第 2.2.2.15 节该对象通过值指定 笔的宽度的 x 字段必须忽略其 y 字段的值
+description: 获取或设置一个 WMF PointL 对象MS-WMF 第 2.2.2.15 节该对象通过其 x 字段的值指定 笔的宽度必须忽略其 y 字段的值
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emflogpen/width/
 ---
 ## EmfLogPen.Width property
 
-获取或设置 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象通过值指定 笔的宽度的 x 字段。必须忽略其 y 字段的值。
+获取或设置一个 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象通过其 x 字段的值指定 笔的宽度。必须忽略其 y 字段的值。
 
 ```csharp
 public Point Width { get; set; }

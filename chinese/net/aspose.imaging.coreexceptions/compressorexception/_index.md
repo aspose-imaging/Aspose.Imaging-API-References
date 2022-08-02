@@ -18,8 +18,8 @@ public class CompressorException : FrameworkException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CompressorException](compressorexception#constructor)(string) | 初始化[`CompressorException`](../compressorexception)类的新实例。 |
-| [CompressorException](compressorexception#constructor_1)(string, Exception) | 初始化[`CompressorException`](../compressorexception)类的新实例。 |
+| [CompressorException](compressorexception#constructor)(string) | 初始化[`CompressorException`](../compressorexception)类. |
+| [CompressorException](compressorexception#constructor_1)(string, Exception) | 初始化[`CompressorException`](../compressorexception)类. |
 
 ### 也可以看看
 

@@ -21,11 +21,11 @@ public enum EmfPlusPaletteStyleFlags
 | --- | --- | --- |
 | PaletteStyleHasAlpha | `1` | Если установлено, одна или несколько записей палитры ДОЛЖНЫ содержать информацию об альфа-прозрачности. |
 | PaletteStyleGrayScale | `2` | Если установлено, палитра ДОЛЖНА содержать только записи в градациях серого. |
-| PaletteStyleHalftone | `4` | Если установлено, палитра ДОЛЖНА содержать дискретные значения цвета, которые можно использовать для полутонов. |
+| PaletteStyleHalftone | `4` | Если установлено, палитра ДОЛЖНА содержать дискретные значения цвета, которые можно использовать для полутонового изображения. |
 
 ### Примечания
 
-Графические палитры определяются[`EmfPlusPalette`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspalette)объекты.
+Графические палитры определяются[`EmfPlusPalette`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspalette) объекты.
 
 ### Смотрите также
 

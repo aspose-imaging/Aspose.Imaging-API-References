@@ -16,7 +16,7 @@ public override bool HasAlpha { get; }
 
 ### 适当的价值
 
-` true` 如果此实例具有 alpha；否则，` false` 。
+`真的`如果这个实例有 alpha；否则，`错误的` .
 
 ### 也可以看看
 

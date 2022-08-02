@@ -1,14 +1,14 @@
 ---
 title: WmfMoveTo
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_MOVETO устанавливает позицию вывода в контексте устройства в указанную точку.
+description: Запись META_MOVETO устанавливает позицию вывода в контексте устройства воспроизведения в указанную точку.
 type: docs
 weight: 8770
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfmoveto/
 ---
 ## WmfMoveTo class
 
-Запись META_MOVETO устанавливает позицию вывода в контексте устройства в указанную точку.
+Запись META_MOVETO устанавливает позицию вывода в контексте устройства воспроизведения в указанную точку.
 
 ```csharp
 public class WmfMoveTo : WmfPointObject
@@ -24,7 +24,7 @@ public class WmfMoveTo : WmfPointObject
 
 | Имя | Описание |
 | --- | --- |
-| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или задает точку. |
+| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или устанавливает точку. |
 
 ### Смотрите также
 

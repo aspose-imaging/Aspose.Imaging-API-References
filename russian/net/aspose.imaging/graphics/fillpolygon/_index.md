@@ -1,14 +1,14 @@
 ---
 title: FillPolygon
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Заполняет внутреннюю часть многоугольника определяемого массивом точек заданнымPointFaspose.imaging/pointfструктурами иAlternate.
+description: Заполняет внутреннюю часть многоугольника определяемого массивом точек заданным параметромPointFaspose.imaging/pointf структуры иAlternate .
 type: docs
 weight: 380
 url: /ru/net/aspose.imaging/graphics/fillpolygon/
 ---
 ## FillPolygon(Brush, PointF[]) {#fillpolygon}
 
-Заполняет внутреннюю часть многоугольника, определяемого массивом точек, заданным[`PointF`](../../pointf)структурами иAlternate.
+Заполняет внутреннюю часть многоугольника, определяемого массивом точек, заданным параметром[`PointF`](../../pointf) структуры иAlternate .
 
 ```csharp
 public void FillPolygon(Brush brush, PointF[] points)
@@ -16,14 +16,14 @@ public void FillPolygon(Brush brush, PointF[] points)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)который определяет характеристики заливки. |
-| points | PointF[] | Массив структур[`PointF`](../../pointf), представляющих вершины полигона для заполнения. |
+| brush | Brush | [`Brush`](../../brush) что определяет характеристики заливки. |
+| points | PointF[] | Массив[`PointF`](../../pointf) структуры, представляющие вершины многоугольника для заполнения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *brush*равно null. -или- *points*равно null. |
+| ArgumentNullException | *brush* равно null. -или- *points* нулевой. |
 
 ### Смотрите также
 
@@ -37,7 +37,7 @@ public void FillPolygon(Brush brush, PointF[] points)
 
 ## FillPolygon(Brush, PointF[], FillMode) {#fillpolygon_1}
 
-Заполняет внутреннюю часть полигона, определяемого массивом точек, заданных структурами[`PointF`](../../pointf)с использованием указанного режима заполнения .
+Заполняет внутреннюю часть многоугольника, определяемого массивом точек, заданным параметром[`PointF`](../../pointf) структуры, использующие указанный режим заливки.
 
 ```csharp
 public void FillPolygon(Brush brush, PointF[] points, FillMode fillMode)
@@ -45,15 +45,15 @@ public void FillPolygon(Brush brush, PointF[] points, FillMode fillMode)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)который определяет характеристики заливки. |
-| points | PointF[] | Массив структур[`PointF`](../../pointf), представляющих вершины полигона для заполнения. |
-| fillMode | FillMode | Член перечисления[`FillMode`](../../fillmode), определяющий стиль заливки. |
+| brush | Brush | [`Brush`](../../brush) что определяет характеристики заливки. |
+| points | PointF[] | Массив[`PointF`](../../pointf) структуры, представляющие вершины многоугольника для заполнения. |
+| fillMode | FillMode | Член[`FillMode`](../../fillmode) перечисление, определяющее стиль заливки. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *brush*равно null. -или- *points*равно null. |
+| ArgumentNullException | *brush* равно null. -или- *points* нулевой. |
 
 ### Смотрите также
 
@@ -68,7 +68,7 @@ public void FillPolygon(Brush brush, PointF[] points, FillMode fillMode)
 
 ## FillPolygon(Brush, Point[]) {#fillpolygon_2}
 
-Заполняет внутреннюю часть многоугольника, определяемого массивом точек, заданным[`Point`](../../point)структурами иAlternate.
+Заполняет внутреннюю часть многоугольника, определяемого массивом точек, заданным параметром[`Point`](../../point) структуры иAlternate .
 
 ```csharp
 public void FillPolygon(Brush brush, Point[] points)
@@ -76,14 +76,14 @@ public void FillPolygon(Brush brush, Point[] points)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)который определяет характеристики заливки. |
-| points | Point[] | Массив структур[`Point`](../../point), представляющих вершины полигона для заполнения. |
+| brush | Brush | [`Brush`](../../brush) что определяет характеристики заливки. |
+| points | Point[] | Массив[`Point`](../../point) структуры, представляющие вершины многоугольника для заполнения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *brush*равно null. -или- *points*равно null. |
+| ArgumentNullException | *brush* равно null. -или- *points* нулевой. |
 
 ### Смотрите также
 
@@ -97,7 +97,7 @@ public void FillPolygon(Brush brush, Point[] points)
 
 ## FillPolygon(Brush, Point[], FillMode) {#fillpolygon_3}
 
-Заполняет внутреннюю часть полигона, определяемого массивом точек, заданных структурами[`Point`](../../point)с использованием указанного режима заполнения .
+Заполняет внутреннюю часть многоугольника, определяемого массивом точек, заданным параметром[`Point`](../../point) структуры, использующие указанный режим заливки.
 
 ```csharp
 public void FillPolygon(Brush brush, Point[] points, FillMode fillMode)
@@ -105,15 +105,15 @@ public void FillPolygon(Brush brush, Point[] points, FillMode fillMode)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)который определяет характеристики заливки. |
-| points | Point[] | Массив структур[`Point`](../../point), представляющих вершины полигона для заполнения. |
-| fillMode | FillMode | Член перечисления[`FillMode`](../../fillmode), определяющий стиль заливки. |
+| brush | Brush | [`Brush`](../../brush) что определяет характеристики заливки. |
+| points | Point[] | Массив[`Point`](../../point) структуры, представляющие вершины многоугольника для заполнения. |
+| fillMode | FillMode | Член[`FillMode`](../../fillmode) перечисление, определяющее стиль заливки. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *brush*равно null. -или- *points*равно null. |
+| ArgumentNullException | *brush* равно null. -или- *points* нулевой. |
 
 ### Смотрите также
 

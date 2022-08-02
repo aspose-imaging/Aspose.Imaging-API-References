@@ -1,14 +1,14 @@
 ---
 title: LogicalDpiY
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置逻辑 dpi y 一个 32 位无符号整数指定记录元文件 的垂直分辨率以每英寸行数为单位
+description: 获取或设置逻辑 dpi y. 一个 32 位无符号整数指定记录元文件 的垂直分辨率以每英寸行数为单位
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/logicaldpiy/
 ---
 ## EmfPlusHeader.LogicalDpiY property
 
-获取或设置逻辑 dpi y。 一个 32 位无符号整数，指定记录元文件 的垂直分辨率，以每英寸行数为单位
+获取或设置逻辑 dpi y. 一个 32 位无符号整数，指定记录元文件 的垂直分辨率，以每英寸行数为单位
 
 ```csharp
 public int LogicalDpiY { get; set; }
@@ -16,7 +16,7 @@ public int LogicalDpiY { get; set; }
 
 ### 适当的价值
 
-逻辑 dpi y。
+逻辑 dpi y.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此Pointaspose.imaging/point的 y 坐标
+description: 获取或设置 this 的 y 坐标Pointaspose.imaging/point .
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging/point/y/
 ---
 ## Point.Y property
 
-获取或设置此[`Point`](../../point)的 y 坐标。
+获取或设置 this 的 y 坐标[`Point`](../../point) .
 
 ```csharp
 public int Y { get; set; }

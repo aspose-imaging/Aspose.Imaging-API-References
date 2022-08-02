@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 x
+description: 获取或设置 x.
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/width/
 ---
 ## CdrGraphicObject.Width property
 
-获取或设置 x。
+获取或设置 x.
 
 ```csharp
 public double Width { get; set; }
@@ -16,7 +16,7 @@ public double Width { get; set; }
 
 ### 适当的价值
 
-x。
+x.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: FromKnownColor
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Создает структуруColoraspose.imaging/colorиз указанного предопределенного цвета.
+description: СоздаетColoraspose.imaging/colorструктура из указанного предопределенного цвета.
 type: docs
 weight: 1440
 url: /ru/net/aspose.imaging/color/fromknowncolor/
 ---
 ## Color.FromKnownColor method
 
-Создает структуру[`Color`](../../color)из указанного предопределенного цвета.
+Создает[`Color`](../../color)структура из указанного предопределенного цвета.
 
 ```csharp
 public static Color FromKnownColor(KnownColor color)
@@ -16,11 +16,11 @@ public static Color FromKnownColor(KnownColor color)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| color | KnownColor | Элемент перечисления[`KnownColor`](../../knowncolor). |
+| color | KnownColor | Элемент[`KnownColor`](../../knowncolor) перечисление. |
 
 ### Возвращаемое значение
 
-[`Color`](../../color), который создает этот метод.
+[`Color`](../../color) что создает этот метод.
 
 ### Смотрите также
 

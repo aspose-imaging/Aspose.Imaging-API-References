@@ -19,7 +19,7 @@ public static class FontSettings
 | 姓名 | 描述 |
 | --- | --- |
 | static [DefaultFontName](../../aspose.imaging/fontsettings/defaultfontname) { get; set; } | 获取或设置字体的默认名称。 |
-| static [GetSystemAlternativeFont](../../aspose.imaging/fontsettings/getsystemalternativefont) { get; set; } | 获取或设置一个值，指示是否[获取替代字体]。 |
+| static [GetSystemAlternativeFont](../../aspose.imaging/fontsettings/getsystemalternativefont) { get; set; } | 获取或设置一个值，指示是否[获取替代字体]. |
 
 ## 方法
 
@@ -28,9 +28,9 @@ public static class FontSettings
 | static [GetDefaultFontsFolders](../../aspose.imaging/fontsettings/getdefaultfontsfolders)() | 获取默认字体文件夹。 |
 | static [GetFontsFolders](../../aspose.imaging/fontsettings/getfontsfolders)() | 获取包含 Aspose.Words 查找 TrueType 字体的文件夹列表的数组副本。 |
 | static [Reset](../../aspose.imaging/fontsettings/reset)() | 将字体文件夹和默认字体名称重置为系统默认值。 |
-| static [SetFontsFolder](../../aspose.imaging/fontsettings/setfontsfolder)(string) | 这是[`SetFontsFolders`](./setfontsfolders)设置的快捷方式只有一个字体目录。 没有对字体文件夹进行检查。 |
-| static [SetFontsFolders](../../aspose.imaging/fontsettings/setfontsfolders)(string[], bool) | 设置加载 TrueType 字体的文件夹并清除所有加载的字体。 没有对字体文件夹进行检查。 |
-| static [UpdateFonts](../../aspose.imaging/fontsettings/updatefonts)() | 更新包含文本层的 PSD 文件的字体缓存。此方法保证在处理 PSD 文件时，将考虑使用 方法 FontSettings.SetFontsFolder(fontsFolder) 或使用 FontSettings.Reset() 重置字体后来自文件夹 fontsFolder 的字体。请在每次调用 PSD 图像 FontSettings.SetFontsFolder(fontsFolder) 或 FontSettings.Reset() 时使用此方法。如果不调用此方法，则无法保证字体会被更新。 |
+| static [SetFontsFolder](../../aspose.imaging/fontsettings/setfontsfolder)(string) | 这是一个快捷方式[`SetFontsFolders`](./setfontsfolders)只设置一个字体目录。 没有对字体文件夹进行检查。 |
+| static [SetFontsFolders](../../aspose.imaging/fontsettings/setfontsfolders)(string[], bool) | 设置加载 TrueType 字体的文件夹并清除所有加载的字体。 没有对字体文件夹执行检查。 |
+| static [UpdateFonts](../../aspose.imaging/fontsettings/updatefonts)() | 更新包含文本层的 PSD 文件的字体缓存。此方法保证在处理 PSD 文件时将考虑使用 方法 FontSettings.SetFontsFolder(fontsFolder) 或使用 FontSettings.Reset() 重置字体后的文件夹 fontsFolder 中的字体。每次调用 FontSettings.SetFontsFolder(fontsFolder) 或 FontSettings.Reset() 调用 PSD 图像时，请使用此方法。如果不调用此方法，则无法保证字体会被更新。 |
 
 ### 也可以看看
 

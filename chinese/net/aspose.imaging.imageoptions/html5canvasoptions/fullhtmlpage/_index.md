@@ -16,7 +16,7 @@ public bool FullHtmlPage { get; set; }
 
 ### 适当的价值
 
-` true` 如果需要完整的 HTML 页面；否则，` false` 。
+`真的`如果需要完整的 HTML 页面；否则，`错误的` .
 
 ### 也可以看看
 

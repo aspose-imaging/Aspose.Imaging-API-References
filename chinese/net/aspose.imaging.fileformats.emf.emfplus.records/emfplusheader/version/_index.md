@@ -1,14 +1,14 @@
 ---
 title: Version
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置版本 一个 EmfPlusGraphicsVersion 对象第 2.2.2.19 节它指定用于创建此图元文件的操作 系统图形的版本
+description: 获取或设置版本 一个 EmfPlusGraphicsVersion 对象第 2.2.2.19 节它指定用于创建此图元文件的操作系统图形的版本 
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/version/
 ---
 ## EmfPlusHeader.Version property
 
-获取或设置版本。 一个 EmfPlusGraphicsVersion 对象（第 2.2.2.19 节），它指定用于创建此图元文件的操作 系统图形的版本。
+获取或设置版本。 一个 EmfPlusGraphicsVersion 对象（第 2.2.2.19 节），它指定用于创建此图元文件的操作系统图形的版本 。
 
 ```csharp
 public EmfPlusGraphicsVersion Version { get; set; }
@@ -16,7 +16,7 @@ public EmfPlusGraphicsVersion Version { get; set; }
 
 ### 适当的价值
 
-版本。
+版本.
 
 ### 也可以看看
 

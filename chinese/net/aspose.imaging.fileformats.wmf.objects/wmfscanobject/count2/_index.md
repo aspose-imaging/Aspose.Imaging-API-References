@@ -1,14 +1,14 @@
 ---
 title: Count2
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置count2
+description: 获取或设置count2.
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfscanobject/count2/
 ---
 ## WmfScanObject.Count2 property
 
-获取或设置count2。
+获取或设置count2.
 
 ```csharp
 public int Count2 { get; set; }
@@ -16,7 +16,7 @@ public int Count2 { get; set; }
 
 ### 适当的价值
 
-与 P的值相同:Aspose.Imaging.FileFormats.Wmf.Objects.WmfScanObject.Count 字段；它的存在是为了允许在结构中向上移动。
+与 的值相同[`Count`](../count) 字段；它的存在是为了允许在结构中向上移动。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Radius
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位浮点数以像素为单位指定锐化半径 确定参与计算的像素数给定像素的新值 随着该值的增加计算中涉及的像素数增加并且 生成的位图应该变得更清晰
+description: 获取或设置一个 32 位浮点数以像素为单位指定锐化半径 确定计算给定像素的新值时所涉及的像素数 随着该值的增加所涉及的像素数计算增加 生成的位图应该变得更清晰
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplussharpeneffect/radius/
 ---
 ## EmfPlusSharpenEffect.Radius property
 
-获取或设置一个 32 位浮点数，以像素为单位指定锐化半径， 确定参与计算的像素数给定像素的新值。 随着该值的增加，计算中涉及的像素数增加，并且 生成的位图应该变得更清晰。
+获取或设置一个 32 位浮点数，以像素为单位指定锐化半径， 确定计算给定像素的新值时所涉及的像素数。 随着该值的增加，所涉及的像素数计算增加， 生成的位图应该变得更清晰。
 
 ```csharp
 public float Radius { get; set; }

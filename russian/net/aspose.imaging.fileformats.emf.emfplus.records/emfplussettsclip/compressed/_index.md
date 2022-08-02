@@ -1,14 +1,14 @@
 ---
 title: Compressed
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее сжат ли этот файлEmfPlusSetTsClipaspose.imaging.fileformats.emf.emfplus.records/emfplussettsclip. Этот бит определяет формат данных прямоугольника в поле rects. Если установлено каждый прямоугольник определяется в 4 байта. Если флажок не установлен каждый прямоугольник определяется в 8 байтах.
+description: Получает значение указывающее является ли этоEmfPlusSetTsClipaspose.imaging.fileformats.emf.emfplus.records/emfplussettsclipсжато. Этот бит определяет формат данных прямоугольника в поле rects. Если установлено прямоугольник each определяется 4 байтами. Если флажок не установлен каждый прямоугольник определяется в 8 байтах.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsclip/compressed/
 ---
 ## EmfPlusSetTsClip.Compressed property
 
-Получает значение, указывающее, сжат ли этот файл[`EmfPlusSetTsClip`](../../emfplussettsclip). Этот бит определяет формат данных прямоугольника в поле rects. Если установлено, каждый прямоугольник определяется в 4 байта. Если флажок не установлен, каждый прямоугольник определяется в 8 байтах.
+Получает значение, указывающее, является ли это[`EmfPlusSetTsClip`](../../emfplussettsclip)сжато. Этот бит определяет формат данных прямоугольника в поле rects. Если установлено, прямоугольник each определяется 4 байтами. Если флажок не установлен, каждый прямоугольник определяется в 8 байтах.
 
 ```csharp
 public bool Compressed { get; }
@@ -16,7 +16,7 @@ public bool Compressed { get; }
 
 ### Стоимость имущества
 
-` true` при сжатии; в противном случае` false` .
+`истинный` если сжато; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

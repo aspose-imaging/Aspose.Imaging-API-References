@@ -16,7 +16,7 @@ public string InitialCreator { get; set; }
 
 ### 适当的价值
 
-初始创建者。
+最初的创建者。
 
 ### 也可以看看
 

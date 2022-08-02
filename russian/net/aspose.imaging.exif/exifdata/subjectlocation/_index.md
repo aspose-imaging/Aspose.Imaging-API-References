@@ -1,14 +1,14 @@
 ---
 title: SubjectLocation
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает местоположение объекта.
+description: Получает или задает местоположение субъекта.
 type: docs
 weight: 1040
 url: /ru/net/aspose.imaging.exif/exifdata/subjectlocation/
 ---
 ## ExifData.SubjectLocation property
 
-Получает или задает местоположение объекта.
+Получает или задает местоположение субъекта.
 
 ```csharp
 public ushort[] SubjectLocation { get; set; }
@@ -16,7 +16,7 @@ public ushort[] SubjectLocation { get; set; }
 
 ### Стоимость имущества
 
-Местоположение предмета.
+Местоположение объекта.
 
 ### Смотрите также
 

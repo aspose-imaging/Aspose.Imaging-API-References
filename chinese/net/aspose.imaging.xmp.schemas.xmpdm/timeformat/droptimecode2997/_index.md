@@ -1,14 +1,14 @@
 ---
 title: DropTimecode2997
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取掉落时间码2997
+description: 获取丢弃时间码2997.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/timeformat/droptimecode2997/
 ---
 ## TimeFormat.DropTimecode2997 property
 
-获取掉落时间码2997。
+获取丢弃时间码2997.
 
 ```csharp
 public static TimeFormat DropTimecode2997 { get; }
@@ -16,7 +16,7 @@ public static TimeFormat DropTimecode2997 { get; }
 
 ### 适当的价值
 
-掉落时间码2997。
+掉落时间码2997.
 
 ### 也可以看看
 

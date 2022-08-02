@@ -1,14 +1,14 @@
 ---
 title: EmfArcTo
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_ARCTO задает эллиптическую дугу. Он сбрасывает текущую позицию в конечную точку дуги.
+description: Запись EMR_ARCTO задает эллиптическую дугу. Сбрасывает текущую позицию в конечную точку дуги.
 type: docs
 weight: 3230
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfarcto/
 ---
 ## EmfArcTo class
 
-Запись EMR_ARCTO задает эллиптическую дугу. Он сбрасывает текущую позицию в конечную точку дуги.
+Запись EMR_ARCTO задает эллиптическую дугу. Сбрасывает текущую позицию в конечную точку дуги.
 
 ```csharp
 public sealed class EmfArcTo : EmfDrawingRecordType
@@ -18,17 +18,17 @@ public sealed class EmfArcTo : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfArcTo](emfarcto#constructor)() | Инициализирует новый экземпляр класса[`EmfArcTo`](../emfarcto). |
-| [EmfArcTo](emfarcto#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfArcTo`](../emfarcto). |
+| [EmfArcTo](emfarcto#constructor)() | Инициализирует новый экземпляр[`EmfArcTo`](../emfarcto) класс. |
+| [EmfArcTo](emfarcto#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfArcTo`](../emfarcto) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Box](../../aspose.imaging.fileformats.emf.emf.records/emfarcto/box) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе 2.2.2.19 [MS-WMF], который определяет ограничивающий прямоугольник . |
-| [End](../../aspose.imaging.fileformats.emf.emf.records/emfarcto/end) { get; set; } | Получает или задает 64-разрядный объект WMF PointL, который указывает координаты второй радиальной конечной точки в логических единицах. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
-| [Start](../../aspose.imaging.fileformats.emf.emf.records/emfarcto/start) { get; set; } | Получает или задает 64-битный объект WMF PointL, указанный в разделе 2.2.2.15 [MS-WMF], который указывает координаты первая радиальная конечная точка в логических единицах. |
+| [Box](../../aspose.imaging.fileformats.emf.emf.records/emfarcto/box) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе 2.2.2.19 [MS-WMF], который указывает ограничивающий прямоугольник. |
+| [End](../../aspose.imaging.fileformats.emf.emf.records/emfarcto/end) { get; set; } | Получает или задает 64-битный объект WMF PointL, который указывает координаты второй радиальной конечной точки в логических единицах. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
+| [Start](../../aspose.imaging.fileformats.emf.emf.records/emfarcto/start) { get; set; } | Получает или задает 64-битный объект WMF PointL, указанный в разделе 2.2.2.15 [MS-WMF], где указывает координаты первой радиальной конечной точки в логических единицах. |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

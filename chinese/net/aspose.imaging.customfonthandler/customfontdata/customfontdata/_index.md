@@ -1,14 +1,14 @@
 ---
 title: CustomFontData
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化CustomFontDataaspose.imaging.customfonthandler/customfontdata类的新实例
+description: 初始化一个新的实例CustomFontDataaspose.imaging.customfonthandler/customfontdata班级
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.customfonthandler/customfontdata/customfontdata/
 ---
 ## CustomFontData constructor
 
-初始化[`CustomFontData`](../../customfontdata)类的新实例。
+初始化一个新的实例[`CustomFontData`](../../customfontdata)班级。
 
 ```csharp
 public CustomFontData(string fontName, byte[] fontData)
@@ -16,7 +16,7 @@ public CustomFontData(string fontName, byte[] fontData)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fontName | String | 字体名称。 |
+| fontName | String | 字体的名称。 |
 | fontData | Byte[] | 字体数据。 |
 
 ### 也可以看看

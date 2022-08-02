@@ -16,7 +16,7 @@ public IImageExporter CreateInstance()
 
 ### 返回值
 
-一个新的导出器实例。
+一个新的出口商实例。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ImageAttributesExtensions
 second_title: Aspose.Imaging for .NET API 参考
-description: 包含ImageAttributes../aspose.imaging/imageattributes和ImageAttributes的扩展方法.
+description: 包含扩展方法ImageAttributes../aspose.imaging/imageattributes和ImageAttributes .
 type: docs
 weight: 1200
 url: /zh/net/aspose.imaging.extensions/imageattributesextensions/
 ---
 ## ImageAttributesExtensions class
 
-包含[`ImageAttributes`](../../aspose.imaging/imageattributes)和ImageAttributes的扩展方法.
+包含扩展方法[`ImageAttributes`](../../aspose.imaging/imageattributes)和ImageAttributes .
 
 ```csharp
 public static class ImageAttributesExtensions
@@ -18,7 +18,7 @@ public static class ImageAttributesExtensions
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [ToGdiImageAttributes](../../aspose.imaging.extensions/imageattributesextensions/togdiimageattributes)(ImageAttributes) | 将[`ImageAttributes`](../../aspose.imaging/imageattributes)转换为ImageAttributes. |
+| static [ToGdiImageAttributes](../../aspose.imaging.extensions/imageattributesextensions/togdiimageattributes)(ImageAttributes) | 转换[`ImageAttributes`](../../aspose.imaging/imageattributes)到ImageAttributes . |
 
 ### 也可以看看
 

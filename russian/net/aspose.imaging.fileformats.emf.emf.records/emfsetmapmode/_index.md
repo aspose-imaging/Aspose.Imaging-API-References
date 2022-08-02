@@ -1,14 +1,14 @@
 ---
 title: EmfSetMapMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_SETMAPMODE определяет режим отображения контекста устройства воспроизведения. Режим сопоставления определяет единицу измерения используемую для преобразования единиц пространства страницы в единицы пространства устройства а также определяет ориентацию осей x и y устройства.
+description: Запись EMR_SETMAPMODE определяет режим отображения контекста устройства воспроизведения. Режим сопоставления указывает единицу измерения используемую для преобразования единиц пространства страницы в единицы пространства устройства а также определяет ориентацию осей X и Y устройства.
 type: docs
 weight: 4400
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetmapmode/
 ---
 ## EmfSetMapMode class
 
-Запись EMR_SETMAPMODE определяет режим отображения контекста устройства воспроизведения. Режим сопоставления определяет единицу измерения, используемую для преобразования единиц пространства страницы в единицы пространства устройства, а также определяет ориентацию осей x и y устройства.
+Запись EMR_SETMAPMODE определяет режим отображения контекста устройства воспроизведения. Режим сопоставления указывает единицу измерения, используемую для преобразования единиц пространства страницы в единицы пространства устройства, а также определяет ориентацию осей X и Y устройства.
 
 ```csharp
 public sealed class EmfSetMapMode : EmfRecord
@@ -18,15 +18,15 @@ public sealed class EmfSetMapMode : EmfRecord
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetMapMode](emfsetmapmode#constructor)() | Инициализирует новый экземпляр класса[`EmfSetMapMode`](../emfsetmapmode). |
-| [EmfSetMapMode](emfsetmapmode#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetMapMode`](../emfsetmapmode). |
+| [EmfSetMapMode](emfsetmapmode#constructor)() | Инициализирует новый экземпляр[`EmfSetMapMode`](../emfsetmapmode) класс. |
+| [EmfSetMapMode](emfsetmapmode#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetMapMode`](../emfsetmapmode) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [MapMode](../../aspose.imaging.fileformats.emf.emf.records/emfsetmapmode/mapmode) { get; set; } | Получает или устанавливает режим карты. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

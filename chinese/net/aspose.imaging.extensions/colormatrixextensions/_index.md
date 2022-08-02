@@ -1,14 +1,14 @@
 ---
 title: ColorMatrixExtensions
 second_title: Aspose.Imaging for .NET API 参考
-description: ColorMatrix../aspose.imaging/colormatrix扩展方法
+description: 的ColorMatrix../aspose.imaging/colormatrix扩展方法.
 type: docs
 weight: 1160
 url: /zh/net/aspose.imaging.extensions/colormatrixextensions/
 ---
 ## ColorMatrixExtensions class
 
-[`ColorMatrix`](../../aspose.imaging/colormatrix)扩展方法。
+的[`ColorMatrix`](../../aspose.imaging/colormatrix)扩展方法.
 
 ```csharp
 public static class ColorMatrixExtensions
@@ -18,7 +18,7 @@ public static class ColorMatrixExtensions
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [ToGdiColorMatrix](../../aspose.imaging.extensions/colormatrixextensions/togdicolormatrix)(ColorMatrix) | 将[`ColorMatrix`](../../aspose.imaging/colormatrix)转换为ColorMatrix. |
+| static [ToGdiColorMatrix](../../aspose.imaging.extensions/colormatrixextensions/togdicolormatrix)(ColorMatrix) | 转换[`ColorMatrix`](../../aspose.imaging/colormatrix)到ColorMatrix . |
 
 ### 也可以看看
 

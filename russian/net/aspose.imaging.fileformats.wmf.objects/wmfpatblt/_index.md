@@ -1,14 +1,14 @@
 ---
 title: WmfPatBlt
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_PATBLT закрашивает указанный прямоугольник с помощью кисти которая определена в контексте устройства воспроизведения. Цвет кисти и цвет или цвета поверхности комбинируются с использованием указанной растровой операции .
+description: Запись META_PATBLT закрашивает указанный прямоугольник с помощью кисти которая определена в контексте устройства воспроизведения. Цвет кисти и цвет или цвета поверхности объединяются с помощью указанной операции raster .
 type: docs
 weight: 8830
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfpatblt/
 ---
 ## WmfPatBlt class
 
-Запись META_PATBLT закрашивает указанный прямоугольник с помощью кисти, которая определена в контексте устройства воспроизведения. Цвет кисти и цвет или цвета поверхности комбинируются с использованием указанной растровой операции .
+Запись META_PATBLT закрашивает указанный прямоугольник с помощью кисти, которая определена в контексте устройства воспроизведения. Цвет кисти и цвет или цвета поверхности объединяются с помощью указанной операции raster .
 
 ```csharp
 public class WmfPatBlt : WmfPointObject
@@ -25,7 +25,7 @@ public class WmfPatBlt : WmfPointObject
 | Имя | Описание |
 | --- | --- |
 | [Height](../../aspose.imaging.fileformats.wmf.objects/wmfpatblt/height) { get; set; } | Получает или задает высоту. |
-| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или задает точку. |
+| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или устанавливает точку. |
 | [RasterOperation](../../aspose.imaging.fileformats.wmf.objects/wmfpatblt/rasteroperation) { get; set; } | Получает или задает растровую операцию. |
 | [Width](../../aspose.imaging.fileformats.wmf.objects/wmfpatblt/width) { get; set; } | Получает или задает ширину. |
 

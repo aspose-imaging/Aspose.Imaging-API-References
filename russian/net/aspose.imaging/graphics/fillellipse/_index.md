@@ -1,14 +1,14 @@
 ---
 title: FillEllipse
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Заполняет внутреннюю часть эллипса определяемого ограничивающим прямоугольником заданным структуройRectangleFaspose.imaging/rectanglef.
+description: Заполняет внутреннюю часть эллипса определяемого ограничивающим прямоугольником указаннымRectangleFaspose.imaging/rectanglef структура.
 type: docs
 weight: 350
 url: /ru/net/aspose.imaging/graphics/fillellipse/
 ---
 ## FillEllipse(Brush, RectangleF) {#fillellipse_1}
 
-Заполняет внутреннюю часть эллипса, определяемого ограничивающим прямоугольником, заданным структурой[`RectangleF`](../../rectanglef).
+Заполняет внутреннюю часть эллипса, определяемого ограничивающим прямоугольником, указанным[`RectangleF`](../../rectanglef) структура.
 
 ```csharp
 public void FillEllipse(Brush brush, RectangleF rect)
@@ -16,14 +16,14 @@ public void FillEllipse(Brush brush, RectangleF rect)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)который определяет характеристики заливки. |
-| rect | RectangleF | [`RectangleF`](../../rectanglef)структура, представляющая ограничивающий прямоугольник, определяющий эллипс. |
+| brush | Brush | [`Brush`](../../brush) что определяет характеристики заливки. |
+| rect | RectangleF | [`RectangleF`](../../rectanglef) структура, представляющая ограничивающий прямоугольник, определяющий эллипс. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *brush*равно null. |
+| ArgumentNullException | *brush* нулевой. |
 
 ### Смотрите также
 
@@ -45,9 +45,9 @@ public void FillEllipse(Brush brush, float x, float y, float width, float height
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)который определяет характеристики заливки. |
-| x | Single | Координата x верхнего левого угла ограничивающего прямоугольника, определяющего эллипс. |
-| y | Single | Y-координата левого верхнего угла ограничивающего прямоугольника, определяющего эллипс. |
+| brush | Brush | [`Brush`](../../brush) что определяет характеристики заливки. |
+| x | Single | Координата x левого верхнего угла ограничивающего прямоугольника, определяющего эллипс. |
+| y | Single | Координата Y верхнего левого угла ограничивающего прямоугольника, определяющего эллипс. |
 | width | Single | Ширина ограничивающего прямоугольника, определяющего эллипс. |
 | height | Single | Высота ограничивающего прямоугольника, определяющего эллипс. |
 
@@ -55,7 +55,7 @@ public void FillEllipse(Brush brush, float x, float y, float width, float height
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *brush*равно null. |
+| ArgumentNullException | *brush* нулевой. |
 
 ### Смотрите также
 
@@ -68,7 +68,7 @@ public void FillEllipse(Brush brush, float x, float y, float width, float height
 
 ## FillEllipse(Brush, Rectangle) {#fillellipse}
 
-Заполняет внутреннюю часть эллипса, определяемого ограничивающим прямоугольником, заданным структурой[`Rectangle`](../../rectangle).
+Заполняет внутреннюю часть эллипса, определяемого ограничивающим прямоугольником, указанным[`Rectangle`](../../rectangle) структура.
 
 ```csharp
 public void FillEllipse(Brush brush, Rectangle rect)
@@ -76,14 +76,14 @@ public void FillEllipse(Brush brush, Rectangle rect)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)который определяет характеристики заливки. |
-| rect | Rectangle | [`Rectangle`](../../rectangle)структура, представляющая ограничивающий прямоугольник, определяющий эллипс. |
+| brush | Brush | [`Brush`](../../brush) что определяет характеристики заливки. |
+| rect | Rectangle | [`Rectangle`](../../rectangle) структура, представляющая ограничивающий прямоугольник, определяющий эллипс. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *brush*равно null. |
+| ArgumentNullException | *brush* нулевой. |
 
 ### Смотрите также
 
@@ -105,9 +105,9 @@ public void FillEllipse(Brush brush, int x, int y, int width, int height)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)который определяет характеристики заливки. |
-| x | Int32 | Координата x верхнего левого угла ограничивающего прямоугольника, определяющего эллипс. |
-| y | Int32 | Y-координата левого верхнего угла ограничивающего прямоугольника, определяющего эллипс. |
+| brush | Brush | [`Brush`](../../brush) что определяет характеристики заливки. |
+| x | Int32 | Координата x левого верхнего угла ограничивающего прямоугольника, определяющего эллипс. |
+| y | Int32 | Координата Y верхнего левого угла ограничивающего прямоугольника, определяющего эллипс. |
 | width | Int32 | Ширина ограничивающего прямоугольника, определяющего эллипс. |
 | height | Int32 | Высота ограничивающего прямоугольника, определяющего эллипс. |
 
@@ -115,7 +115,7 @@ public void FillEllipse(Brush brush, int x, int y, int width, int height)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *brush*равно null. |
+| ArgumentNullException | *brush* нулевой. |
 
 ### Смотрите также
 

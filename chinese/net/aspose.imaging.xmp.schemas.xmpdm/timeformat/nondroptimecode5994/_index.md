@@ -1,14 +1,14 @@
 ---
 title: NonDropTimecode5994
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取非丢弃时间码5994
+description: 获取非丢包时间码5994.
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/timeformat/nondroptimecode5994/
 ---
 ## TimeFormat.NonDropTimecode5994 property
 
-获取非丢弃时间码5994。
+获取非丢包时间码5994.
 
 ```csharp
 public static TimeFormat NonDropTimecode5994 { get; }
@@ -16,7 +16,7 @@ public static TimeFormat NonDropTimecode5994 { get; }
 
 ### 适当的价值
 
-不丢时间码5994。
+不丢时间码5994.
 
 ### 也可以看看
 

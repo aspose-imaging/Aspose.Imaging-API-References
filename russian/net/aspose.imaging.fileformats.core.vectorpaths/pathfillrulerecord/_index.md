@@ -18,8 +18,8 @@ public class PathFillRuleRecord : VectorPathRecord
 
 | Имя | Описание |
 | --- | --- |
-| [PathFillRuleRecord](pathfillrulerecord#constructor)() | Инициализирует новый экземпляр класса[`PathFillRuleRecord`](../pathfillrulerecord). |
-| [PathFillRuleRecord](pathfillrulerecord#constructor_1)(byte[]) | Инициализирует новый экземпляр класса[`PathFillRuleRecord`](../pathfillrulerecord). |
+| [PathFillRuleRecord](pathfillrulerecord#constructor)() | Инициализирует новый экземпляр[`PathFillRuleRecord`](../pathfillrulerecord) класс. |
+| [PathFillRuleRecord](pathfillrulerecord#constructor_1)(byte[]) | Инициализирует новый экземпляр[`PathFillRuleRecord`](../pathfillrulerecord) класс. |
 
 ## Характеристики
 

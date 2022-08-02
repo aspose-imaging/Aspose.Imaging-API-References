@@ -1,14 +1,14 @@
 ---
 title: EmfPlusDrawEllipse
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusDrawEllipseaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawellipse.
+description: Инициализирует новый экземплярEmfPlusDrawEllipseaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawellipse класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawellipse/emfplusdrawellipse/
 ---
 ## EmfPlusDrawEllipse constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusDrawEllipse`](../../emfplusdrawellipse).
+Инициализирует новый экземпляр[`EmfPlusDrawEllipse`](../../emfplusdrawellipse) класс.
 
 ```csharp
 public EmfPlusDrawEllipse(EmfPlusRecord source)

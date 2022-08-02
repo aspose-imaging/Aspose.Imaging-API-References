@@ -1,14 +1,14 @@
 ---
 title: ObjectId
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает индекс объекта EmfPlusRegion раздел 2.2.1.8 в таблице объектов EMF . Значение ДОЛЖНО быть от нуля до 63.  включительно.
+description: Получает или задает индекс объекта EmfPlusRegion раздел 2.2.1.8 в таблице объектов EMF . Значение ДОЛЖНО быть от нуля до 63 включительно.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetclipregion/objectid/
 ---
 ## EmfPlusSetClipRegion.ObjectId property
 
-Получает или задает индекс объекта EmfPlusRegion (раздел 2.2.1.8) в таблице объектов EMF+ . Значение ДОЛЖНО быть от нуля до 63. , включительно.
+Получает или задает индекс объекта EmfPlusRegion (раздел 2.2.1.8) в таблице объектов EMF+ . Значение ДОЛЖНО быть от нуля до 63 включительно.
 
 ```csharp
 public byte ObjectId { get; set; }

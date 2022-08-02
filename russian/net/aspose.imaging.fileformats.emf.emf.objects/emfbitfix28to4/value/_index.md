@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает результирующее значение с плавающей запятой
+description: Получает результирующее значение с плавающей точкой
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/value/
 ---
 ## EmfBitFix28To4.Value property
 
-Получает результирующее значение с плавающей запятой;
+Получает результирующее значение с плавающей точкой;
 
 ```csharp
 public float Value { get; }

@@ -18,16 +18,16 @@ public sealed class EmfSetPaletteEntries : EmfObjectManipulationRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetPaletteEntries](emfsetpaletteentries)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetPaletteEntries`](../emfsetpaletteentries). |
+| [EmfSetPaletteEntries](emfsetpaletteentries)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetPaletteEntries`](../emfsetpaletteentries) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Argb32PalEntries](../../aspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries/argb32palentries) { get; set; } | Получает или задает массив объектов LogPaletteEntry (раздел 2.2.18) длиной NumberOfEntries, который определяет данные записи палитры. Элементы Values не содержат никаких значений. |
+| [Argb32PalEntries](../../aspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries/argb32palentries) { get; set; } | Получает или задает массив объектов LogPaletteEntry (раздел 2.2.18) длиной NumberOfEntries, который определяет данные записи палитры. Члены Values do не содержат значений. |
 | [IhPal](../../aspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries/ihpal) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс таблицы объектов EMF палитры. |
 | [NumberofEntries](../../aspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries/numberofentries) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее количество записей. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Start](../../aspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries/start) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс первой устанавливаемой записи. |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 

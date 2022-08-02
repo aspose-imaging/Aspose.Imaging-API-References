@@ -16,7 +16,7 @@ public byte GifFrameBitsPerPixel { get; set; }
 
 ### 适当的价值
 
-每个像素的 GIF 帧位数。
+每像素的 GIF 帧位数。
 
 ### 也可以看看
 

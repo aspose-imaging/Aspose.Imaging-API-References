@@ -1,14 +1,14 @@
 ---
 title: WmfExtTextOut
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Wmf ext text out
+description: Расширенный текст WMF out
 type: docs
 weight: 8670
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfexttextout/
 ---
 ## WmfExtTextOut class
 
-Wmf ext text out
+Расширенный текст WMF out
 
 ```csharp
 public class WmfExtTextOut : WmfPointObject
@@ -26,8 +26,8 @@ public class WmfExtTextOut : WmfPointObject
 | --- | --- |
 | [Dx](../../aspose.imaging.fileformats.wmf.objects/wmfexttextout/dx) { get; set; } | Получает или устанавливает dx. |
 | [ExtendedByte](../../aspose.imaging.fileformats.wmf.objects/wmfexttextout/extendedbyte) { get; set; } | Получает или задает расширенный байт. |
-| [FwOpts](../../aspose.imaging.fileformats.wmf.objects/wmfexttextout/fwopts) { get; set; } | Получает или устанавливает параметры fw. |
-| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или задает точку. |
+| [FwOpts](../../aspose.imaging.fileformats.wmf.objects/wmfexttextout/fwopts) { get; set; } | Получает или задает опции fw. |
+| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или устанавливает точку. |
 | [Rectangle](../../aspose.imaging.fileformats.wmf.objects/wmfexttextout/rectangle) { get; set; } | Получает или задает прямоугольник. |
 | [StringLength](../../aspose.imaging.fileformats.wmf.objects/wmfexttextout/stringlength) { get; set; } | Получает или задает длину строки. |
 | [Text](../../aspose.imaging.fileformats.wmf.objects/wmfexttextout/text) { get; set; } | Получает или задает текст. |

@@ -16,7 +16,7 @@ public abstract OdBrushStyle BrushStyle { get; }
 
 ### 适当的价值
 
-样式。
+风格.
 
 ### 也可以看看
 

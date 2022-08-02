@@ -16,7 +16,7 @@ public void SetBrushRemapTable(ColorMap[] map)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| map | ColorMap[] | [`ColorMap`](../../colormap)对象的数组。 |
+| map | ColorMap[] | 一个数组[`ColorMap`](../../colormap)对象。 |
 
 ### 也可以看看
 

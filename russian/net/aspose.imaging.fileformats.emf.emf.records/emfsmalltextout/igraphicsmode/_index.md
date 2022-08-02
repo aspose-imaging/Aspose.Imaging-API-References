@@ -1,14 +1,14 @@
 ---
 title: IGraphicsMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-битное целое число без знака определяющее графический режим из перечисления GraphicsMode раздел 2.1.16.
+description: Получает или задает 32-битное целое число без знака указывающее графический режим из перечисления GraphicsMode раздел 2.1.16.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/igraphicsmode/
 ---
 ## EmfSmallTextOut.IGraphicsMode property
 
-Получает или задает 32-битное целое число без знака, определяющее графический режим, из перечисления GraphicsMode (раздел 2.1.16).
+Получает или задает 32-битное целое число без знака, указывающее графический режим, из перечисления GraphicsMode (раздел 2.1.16).
 
 ```csharp
 public EmfGraphicsMode IGraphicsMode { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Truncate
 second_title: Aspose.Imaging for .NET API 参考
-description: 将指定的PointFaspose.imaging/pointf转换为Pointaspose.imaging/point通过截断Pointaspose.imaging/point的值
+description: 转换指定的PointFaspose.imaging/pointf到一个Pointaspose.imaging/point通过截断的值Pointaspose.imaging/point .
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging/point/truncate/
 ---
 ## Point.Truncate method
 
-将指定的[`PointF`](../../pointf)转换为[`Point`](../../point)通过截断[`Point`](../../point)的值。
+转换指定的[`PointF`](../../pointf)到一个[`Point`](../../point)通过截断的值[`Point`](../../point) .
 
 ```csharp
 public static Point Truncate(PointF point)
@@ -16,11 +16,11 @@ public static Point Truncate(PointF point)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| point | PointF | [`PointF`](../../pointf)进行转换。 |
+| point | PointF | 这[`PointF`](../../pointf)转换。 |
 
 ### 返回值
 
-[`Point`](../../point)此方法转换为。
+这[`Point`](../../point)此方法转换为。
 
 ### 也可以看看
 

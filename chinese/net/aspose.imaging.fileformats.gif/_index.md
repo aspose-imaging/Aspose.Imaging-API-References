@@ -13,14 +13,14 @@ url: /zh/net/aspose.imaging.fileformats.gif/
 | 班级 | 描述 |
 | --- | --- |
 | [GifBlock](./gifblock) | 默认的 gif 块实现。 |
-| [GifBlocksRegistry](./gifblocksregistry) | 表示 gif 块开启者注册表。 |
-| [GifImage](./gifimage) | gif 图像。 |
+| [GifBlocksRegistry](./gifblocksregistry) | 表示 gif 块开启程序注册表。 |
+| [GifImage](./gifimage) | 一个 gif 图像。 |
 ## 接口
 
 | 界面 | 描述 |
 | --- | --- |
-| [IGifBlock](./igifblock) | 代表GIF块接口。 |
-| [IGifBlockLoaderDescriptor](./igifblockloaderdescriptor) | Gif 块加载器描述符。 |
+| [IGifBlock](./igifblock) | 代表 GIF 块接口。 |
+| [IGifBlockLoaderDescriptor](./igifblockloaderdescriptor) | Gif 块加载器描述符. |
 ## 枚举
 
 | 枚举 | 描述 |

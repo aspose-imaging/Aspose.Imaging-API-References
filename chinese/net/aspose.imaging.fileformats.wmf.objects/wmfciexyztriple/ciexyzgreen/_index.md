@@ -1,14 +1,14 @@
 ---
 title: CiexyzGreen
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置定义绿色 色度值的 96 位 CIEXYZ 对象
+description: 获取或设置定义 green 色度值的 96 位 CIEXYZ 对象
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfciexyztriple/ciexyzgreen/
 ---
 ## WmfCieXyzTriple.CiexyzGreen property
 
-获取或设置定义绿色 色度值的 96 位 CIEXYZ 对象。
+获取或设置定义 green 色度值的 96 位 CIEXYZ 对象。
 
 ```csharp
 public WmfCieXyz CiexyzGreen { get; set; }

@@ -18,16 +18,16 @@ public sealed class EmfCreatePen : EmfObjectCreationRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfCreatePen](emfcreatepen#constructor)() | Инициализирует новый экземпляр класса[`EmfCreatePen`](../emfcreatepen). |
-| [EmfCreatePen](emfcreatepen#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfCreatePen`](../emfcreatepen). |
+| [EmfCreatePen](emfcreatepen#constructor)() | Инициализирует новый экземпляр[`EmfCreatePen`](../emfcreatepen) класс. |
+| [EmfCreatePen](emfcreatepen#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfCreatePen`](../emfcreatepen) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [IhPen](../../aspose.imaging.fileformats.emf.emf.records/emfcreatepen/ihpen) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс объекта логического пера в таблице объектов EMF (раздел 3.1.1.1). ). Этот индекс ДОЛЖЕН быть сохранен, чтобы этот объект можно было повторно использовать или модифицировать. |
-| [LogPen](../../aspose.imaging.fileformats.emf.emf.records/emfcreatepen/logpen) { get; set; } | Получает или задает объект LogPen (раздел 2.2.19), определяющий стиль, ширину и цвет логического пера. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [IhPen](../../aspose.imaging.fileformats.emf.emf.records/emfcreatepen/ihpen) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс объекта логического пера в таблице объектов EMF (раздел 3.1.1.1). Этот индекс ДОЛЖЕН быть сохранен, чтобы этот объект можно было повторно использовать или модифицировать. |
+| [LogPen](../../aspose.imaging.fileformats.emf.emf.records/emfcreatepen/logpen) { get; set; } | Получает или задает объект LogPen (раздел 2.2.19), который определяет стиль, ширину и цвет логического пера. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

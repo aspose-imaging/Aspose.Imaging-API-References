@@ -3,7 +3,7 @@ title: PointF
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示浮点 x 和 y 坐标的有序对定义二维平面中的点
 type: docs
-weight: 10760
+weight: 10750
 url: /zh/net/aspose.imaging/pointf/
 ---
 ## PointF structure
@@ -18,32 +18,32 @@ public struct PointF
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PointF](pointf)(float, float) | 使用指定坐标初始化[`PointF`](../pointf)结构的新实例。 |
+| [PointF](pointf)(float, float) | 初始化[`PointF`](../pointf)具有指定坐标的结构。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Empty](../../aspose.imaging/pointf/empty) { get; } | 获取[`PointF`](../pointf)结构的新实例，该结构具有X和[`Y`](./y)值设置为零。 |
-| [IsEmpty](../../aspose.imaging/pointf/isempty) { get; } | 获取一个值，该值指示此[`PointF`](../pointf)是否为空。 |
-| [X](../../aspose.imaging/pointf/x) { get; set; } | 获取或设置此[`PointF`](../pointf)的 x 坐标。 |
-| [Y](../../aspose.imaging/pointf/y) { get; set; } | 获取或设置此[`PointF`](../pointf)的 y 坐标。 |
+| static [Empty](../../aspose.imaging/pointf/empty) { get; } | 获取一个新的实例[`PointF`](../pointf)具有的结构[`X`](./x)和[`Y`](./y)值设置为零。 |
+| [IsEmpty](../../aspose.imaging/pointf/isempty) { get; } | 获取一个值，该值指示这是否[`PointF`](../pointf)是空的。 |
+| [X](../../aspose.imaging/pointf/x) { get; set; } | 获取或设置 this 的 x 坐标[`PointF`](../pointf) . |
+| [Y](../../aspose.imaging/pointf/y) { get; set; } | 获取或设置 this 的 y 坐标[`PointF`](../pointf) . |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Add](../../aspose.imaging/pointf/add#add)(PointF, Size) | 将给定的[`PointF`](../pointf)转换为指定的[`Size`](../size). |
-| static [Add](../../aspose.imaging/pointf/add#add_1)(PointF, SizeF) | 将给定的[`PointF`](../pointf)转换为指定的[`SizeF`](../sizef). |
-| static [Subtract](../../aspose.imaging/pointf/subtract#subtract)(PointF, Size) | 将[`PointF`](../pointf)转换为指定大小的负数。 |
-| static [Subtract](../../aspose.imaging/pointf/subtract#subtract_1)(PointF, SizeF) | 将[`PointF`](../pointf)转换为指定大小的负数。 |
-| override [Equals](../../aspose.imaging/pointf/equals)(object) | 指定此[`PointF`](../pointf)是否包含与指定Object相同的坐标。 |
-| override [GetHashCode](../../aspose.imaging/pointf/gethashcode)() | 返回此[`PointF`](../pointf)结构的哈希码。 |
-| override [ToString](../../aspose.imaging/pointf/tostring)() | 将此[`PointF`](../pointf)转换为人类可读的字符串。 |
-| [operator +](../../aspose.imaging/pointf/op_addition#op_addition) | 将[`PointF`](../pointf)转换为给定的[`Size`](../size). (2 operators) |
-| [operator ==](../../aspose.imaging/pointf/op_equality) | 比较两个[`PointF`](../pointf)结构。结果指定[`X`](./x)和[`Y`](./y)两个:::属性的值是否R5:T:Aspose.Imaging.PointF:::结构是相等的。 |
+| static [Add](../../aspose.imaging/pointf/add#add)(PointF, Size) | 翻译给定的[`PointF`](../pointf)由指定的[`Size`](../size) . |
+| static [Add](../../aspose.imaging/pointf/add#add_1)(PointF, SizeF) | 翻译给定的[`PointF`](../pointf)由指定的[`SizeF`](../sizef) . |
+| static [Subtract](../../aspose.imaging/pointf/subtract#subtract)(PointF, Size) | 翻译一个[`PointF`](../pointf)由指定大小的负数。 |
+| static [Subtract](../../aspose.imaging/pointf/subtract#subtract_1)(PointF, SizeF) | 翻译一个[`PointF`](../pointf)由指定大小的负数。 |
+| override [Equals](../../aspose.imaging/pointf/equals)(object) | 指定这是否[`PointF`](../pointf)包含与指定相同的坐标Object . |
+| override [GetHashCode](../../aspose.imaging/pointf/gethashcode)() | 为此返回哈希码[`PointF`](../pointf)结构. |
+| override [ToString](../../aspose.imaging/pointf/tostring)() | 转换这个[`PointF`](../pointf)到人类可读的字符串。 |
+| [operator +](../../aspose.imaging/pointf/op_addition#op_addition) | 翻译一个[`PointF`](../pointf)由给定的[`Size`](../size) . (2 operators) |
+| [operator ==](../../aspose.imaging/pointf/op_equality) | 比较两个[`PointF`](../pointf)结构。结果指定的值是否[`X`](./x)和[`Y`](./y)两者的属性[`PointF`](../pointf)结构是平等的。 |
 | [operator !=](../../aspose.imaging/pointf/op_inequality) | 判断指定点的坐标是否不等。 |
-| [operator -](../../aspose.imaging/pointf/op_subtraction#op_subtraction) | 将[`PointF`](../pointf)转换为给定Size的负数。 (2 operators) |
+| [operator -](../../aspose.imaging/pointf/op_subtraction#op_subtraction) | 翻译一个[`PointF`](../pointf)通过给定的否定[`Size`](../size) . (2 operators) |
 
 ### 也可以看看
 

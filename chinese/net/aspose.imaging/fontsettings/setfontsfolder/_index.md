@@ -1,14 +1,14 @@
 ---
 title: SetFontsFolder
 second_title: Aspose.Imaging for .NET API 参考
-description: 这是SetFontsFoldersaspose.imaging/fontsettings/setfontsfolders设置的快捷方式只有一个字体目录 没有对字体文件夹进行检查
+description: 这是一个快捷方式SetFontsFoldersaspose.imaging/fontsettings/setfontsfolders只设置一个字体目录 没有对字体文件夹进行检查
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging/fontsettings/setfontsfolder/
 ---
 ## FontSettings.SetFontsFolder method
 
-这是[`SetFontsFolders`](../setfontsfolders)设置的快捷方式只有一个字体目录。 没有对字体文件夹进行检查。
+这是一个快捷方式[`SetFontsFolders`](../setfontsfolders)只设置一个字体目录。 没有对字体文件夹进行检查。
 
 ```csharp
 public static void SetFontsFolder(string fontFolder)

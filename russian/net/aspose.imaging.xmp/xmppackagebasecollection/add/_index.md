@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Добавляет новый экземплярXmpPackageaspose.imaging.xmp/xmppackage.
+description: Добавляет новый экземплярXmpPackageaspose.imaging.xmp/xmppackage .
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.xmp/xmppackagebasecollection/add/
 ---
 ## XmpPackageBaseCollection.Add method
 
-Добавляет новый экземпляр[`XmpPackage`](../../xmppackage).
+Добавляет новый экземпляр[`XmpPackage`](../../xmppackage) .
 
 ```csharp
 public void Add(XmpPackage package)
@@ -16,7 +16,7 @@ public void Add(XmpPackage package)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| package | XmpPackage | Добавляемый пакет XMP. |
+| package | XmpPackage | Пакет XMP для добавления. |
 
 ### Смотрите также
 

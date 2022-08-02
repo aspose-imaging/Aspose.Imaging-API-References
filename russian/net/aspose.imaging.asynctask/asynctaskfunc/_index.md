@@ -20,7 +20,7 @@ public delegate object AsyncTaskFunc(IAsyncTaskState taskState);
 
 ### Возвращаемое значение
 
-Результат долгой работы.
+Результат долгой эксплуатации.
 
 ### Смотрите также
 

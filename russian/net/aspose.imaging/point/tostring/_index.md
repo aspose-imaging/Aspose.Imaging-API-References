@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Преобразует этоPointaspose.imaging/pointв удобочитаемую строку.
+description: Преобразует этоPointaspose.imaging/point в удобочитаемую строку.
 type: docs
 weight: 140
 url: /ru/net/aspose.imaging/point/tostring/
 ---
 ## Point.ToString method
 
-Преобразует это[`Point`](../../point)в удобочитаемую строку.
+Преобразует это[`Point`](../../point) в удобочитаемую строку.
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Возвращаемое значение
 
-AStringкоторый представляет этот экземпляр.
+АString который представляет этот экземпляр.
 
 ### Смотрите также
 

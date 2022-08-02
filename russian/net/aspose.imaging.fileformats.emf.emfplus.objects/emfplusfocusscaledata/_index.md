@@ -1,14 +1,14 @@
 ---
 title: EmfPlusFocusScaleData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект EmfPlusFocusScaleData определяет масштабы фокуса для шаблона наложения кисти градиента контура.
+description: Объект EmfPlusFocusScaleData определяет масштабы фокуса для шаблона наложения кисти градиента пути.
 type: docs
 weight: 5440
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusfocusscaledata/
 ---
 ## EmfPlusFocusScaleData class
 
-Объект EmfPlusFocusScaleData определяет масштабы фокуса для шаблона наложения кисти градиента контура.
+Объект EmfPlusFocusScaleData определяет масштабы фокуса для шаблона наложения кисти градиента пути.
 
 ```csharp
 public sealed class EmfPlusFocusScaleData : EmfPlusStructureObjectType
@@ -25,8 +25,8 @@ public sealed class EmfPlusFocusScaleData : EmfPlusStructureObjectType
 | Имя | Описание |
 | --- | --- |
 | [FocusScaleCount](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfocusscaledata/focusscalecount) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее количество масштабов фокуса. Это значение ДОЛЖНО быть 2. |
-| [FocusScaleX](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfocusscaledata/focusscalex) { get; set; } | Получает или задает значение с плавающей запятой, определяющее горизонтальную шкалу фокусировки. Масштаб фокуса ДОЛЖЕН иметь значение от 0,0 до 1,0, исключая. |
-| [FocusScaleY](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfocusscaledata/focusscaley) { get; set; } | Получает или задает значение с плавающей запятой, определяющее масштаб вертикальной фокусировки. Масштаб фокуса ДОЛЖЕН иметь значение от 0,0 до 1,0, исключая. |
+| [FocusScaleX](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfocusscaledata/focusscalex) { get; set; } | Получает или задает значение с плавающей запятой, определяющее горизонтальную шкалу фокусировки. Шкала фокуса ДОЛЖНА иметь значение от 0,0 до 1,0, исключая. |
+| [FocusScaleY](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfocusscaledata/focusscaley) { get; set; } | Получает или задает значение с плавающей запятой, определяющее масштаб вертикальной фокусировки. Шкала фокуса ДОЛЖНА иметь значение от 0,0 до 1,0, исключая. |
 
 ### Смотрите также
 

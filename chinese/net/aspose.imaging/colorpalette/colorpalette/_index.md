@@ -1,14 +1,14 @@
 ---
 title: ColorPalette
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化ColorPaletteaspose.imaging/colorpalette类的新实例
+description: 初始化ColorPaletteaspose.imaging/colorpalette类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/colorpalette/colorpalette/
 ---
 ## ColorPalette(int[], bool) {#constructor_3}
 
-初始化[`ColorPalette`](../../colorpalette)类的新实例。
+初始化[`ColorPalette`](../../colorpalette)类.
 
 ```csharp
 public ColorPalette(int[] argb32Entries, bool isCompactPalette)
@@ -17,7 +17,7 @@ public ColorPalette(int[] argb32Entries, bool isCompactPalette)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | argb32Entries | Int32[] | 32 位 ARGB 调色板条目。 |
-| isCompactPalette | Boolean | 表示是否压缩调色板。 |
+| isCompactPalette | Boolean | 指示是否压缩它的调色板。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public ColorPalette(int[] argb32Entries, bool isCompactPalette)
 
 ## ColorPalette(int[]) {#constructor_2}
 
-初始化[`ColorPalette`](../../colorpalette)类的新实例，并且 IsCompactPalette 为假。
+初始化[`ColorPalette`](../../colorpalette)类和 IsCompactPalette 为假。
 
 ```csharp
 public ColorPalette(int[] argb32Entries)
@@ -49,7 +49,7 @@ public ColorPalette(int[] argb32Entries)
 
 ## ColorPalette(Color[], bool) {#constructor_1}
 
-初始化[`ColorPalette`](../../colorpalette)类的新实例。
+初始化[`ColorPalette`](../../colorpalette)类.
 
 ```csharp
 public ColorPalette(Color[] entries, bool isCompactPalette)
@@ -58,7 +58,7 @@ public ColorPalette(Color[] entries, bool isCompactPalette)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | entries | Color[] | 调色板条目。 |
-| isCompactPalette | Boolean | 表示是否压缩调色板。 |
+| isCompactPalette | Boolean | 指示是否压缩它的调色板。 |
 
 ### 也可以看看
 
@@ -71,7 +71,7 @@ public ColorPalette(Color[] entries, bool isCompactPalette)
 
 ## ColorPalette(Color[]) {#constructor}
 
-初始化[`ColorPalette`](../../colorpalette)类的新实例，并且 IsCompactPalette 为假。
+初始化[`ColorPalette`](../../colorpalette)类和 IsCompactPalette 为假。
 
 ```csharp
 public ColorPalette(Color[] entries)

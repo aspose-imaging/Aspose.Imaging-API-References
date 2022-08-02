@@ -1,14 +1,14 @@
 ---
 title: TypeGeneralRotation
 second_title: Aspose.Imaging for .NET API 参考
-description: 该标志位表示该对象定义的变换 除了47之外还执行任意角度的旋转其他标志位指示的转换 旋转以相同的量改变向量的角度 与向量的原始方向无关并且没有 改变向量的长度 该标志位与
+description: 该标志位表示由该对象定义的变换 执行除其他标志位指示的 转换之外的任意角度的旋转 旋转以相同的量改变向量的角度 而与向量的原始方向无关并且没有 改变向量的长度 这个标志位与 互斥
 type: docs
 weight: 210
 url: /zh/net/aspose.imaging/matrix/typegeneralrotation/
 ---
 ## Matrix.TypeGeneralRotation field
 
-该标志位表示该对象定义的变换 除了:::47::之外还执行任意角度的旋转:其他标志位指示的转换。 旋转以相同的量改变向量的角度 与向量的原始方向无关，并且没有 改变向量的长度。 该标志位与
+该标志位表示由该对象定义的变换 执行除其他标志位指示的 转换之外的任意角度的旋转。 旋转以相同的量改变向量的角度 而与向量的原始方向无关并且没有 改变向量的长度。 这个标志位与 互斥
 
 ```csharp
 public const int TypeGeneralRotation;

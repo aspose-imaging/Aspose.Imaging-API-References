@@ -1,14 +1,14 @@
 ---
 title: WrapMode
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个WrapModeaspose.imaging/wrapmode枚举指示此TransformBrush
+description: 获取或设置一个WrapModeaspose.imaging/wrapmode指示此包装模式的枚举TransformBrushaspose.imaging.brushes/transformbrush .
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.brushes/transformbrush/wrapmode/
 ---
 ## TransformBrush.WrapMode property
 
-获取或设置一个[`WrapMode`](../../../aspose.imaging/wrapmode)枚举，指示此TransformBrush。
+获取或设置一个[`WrapMode`](../../../aspose.imaging/wrapmode)指示此包装模式的枚举[`TransformBrush`](../../transformbrush) .
 
 ```csharp
 public WrapMode WrapMode { get; set; }
@@ -16,7 +16,7 @@ public WrapMode WrapMode { get; set; }
 
 ### 返回值
 
-A[`WrapMode`](../../../aspose.imaging/wrapmode)指定如何使用此:::R5 绘制填充:T:Aspose.Imaging.Brushes.TransformBrush:::是平铺的。
+一个[`WrapMode`](../../../aspose.imaging/wrapmode)指定如何用它绘制填充[`TransformBrush`](../../transformbrush)是平铺的。
 
 ### 也可以看看
 

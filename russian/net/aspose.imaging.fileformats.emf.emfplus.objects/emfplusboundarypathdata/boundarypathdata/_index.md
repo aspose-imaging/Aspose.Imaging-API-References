@@ -1,14 +1,14 @@
 ---
 title: BoundaryPathData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект EmfPlusPath раздел 2.2.1.6 определяющий границу кисти
+description: Получает или задает объект EmfPlusPath раздел 2.2.1.6 указывающий границу кисти
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundarypathdata/boundarypathdata/
 ---
 ## EmfPlusBoundaryPathData.BoundaryPathData property
 
-Получает или задает объект EmfPlusPath (раздел 2.2.1.6), определяющий границу кисти
+Получает или задает объект EmfPlusPath (раздел 2.2.1.6), указывающий границу кисти
 
 ```csharp
 public EmfPlusPath BoundaryPathData { get; set; }

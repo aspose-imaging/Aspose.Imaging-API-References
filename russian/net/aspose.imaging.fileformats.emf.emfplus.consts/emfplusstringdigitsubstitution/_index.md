@@ -1,14 +1,14 @@
 ---
 title: EmfPlusStringDigitSubstitution
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Перечисление StringDigitSubstitution определяет способы замены цифр в строке в соответствии с локалью или языком пользователя.
+description: Перечисление StringDigitSubstitution определяет способы замены цифр в строке в соответствии с региональными настройками или языком пользователя.
 type: docs
 weight: 5070
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusstringdigitsubstitution/
 ---
 ## EmfPlusStringDigitSubstitution enumeration
 
-Перечисление StringDigitSubstitution определяет способы замены цифр в строке в соответствии с локалью или языком пользователя.
+Перечисление StringDigitSubstitution определяет способы замены цифр в строке в соответствии с региональными настройками или языком пользователя.
 
 ```csharp
 public enum EmfPlusStringDigitSubstitution
@@ -18,10 +18,10 @@ public enum EmfPlusStringDigitSubstitution
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| StringDigitSubstitutionUser | `0` | Задает схему замещения, определяемую реализацией. |
-| StringDigitSubstitutionNone | `1` | Запрещает подстановки. |
-| StringDigitSubstitutionNational | `2` | Определяет цифры замены, которые соответствуют официальному национальному языку региона пользователя. |
-| StringDigitSubstitutionTraditional | `3` | Указывает замещающие цифры, которые соответствуют родному алфавиту или языку пользователя, который может отличаться от официального национального языка региона пользователя. |
+| StringDigitSubstitutionUser | `0` | Указывает схему замещения, определяемую реализацией. |
+| StringDigitSubstitutionNone | `1` | Указывает на отключение замен. |
+| StringDigitSubstitutionNational | `2` | Указывает замещающие цифры, соответствующие официальному национальному языку региона пользователя. |
+| StringDigitSubstitutionTraditional | `3` | Указывает замещающие цифры, соответствующие родному алфавиту или языку пользователя, который может отличаться от официального национального языка региона пользователя. |
 
 ### Смотрите также
 

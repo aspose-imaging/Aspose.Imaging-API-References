@@ -1,14 +1,14 @@
 ---
 title: GetPackages
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取XmpPackageaspose.imaging.xmp/xmppackage的数组
+description: 获取数组XmpPackageaspose.imaging.xmp/xmppackage .
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.xmp/xmppackagebasecollection/getpackages/
 ---
 ## XmpPackageBaseCollection.GetPackages method
 
-获取[`XmpPackage`](../../xmppackage)的数组。
+获取数组[`XmpPackage`](../../xmppackage) .
 
 ```csharp
 public XmpPackage[] GetPackages()
@@ -16,7 +16,7 @@ public XmpPackage[] GetPackages()
 
 ### 返回值
 
-返回 XMP 包数组。
+返回 XMP 包的数组。
 
 ### 也可以看看
 

@@ -19,12 +19,12 @@ public enum EmfPlusUnitType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | UnitTypeWorld | `0` | 指定世界空间内的逻辑距离单位。 |
-| UnitTypeDisplay | `1` | 根据物理显示器的特性指定距离单位。 例如，如果显示设备是监视器，则单位为 1 像素。 |
+| UnitTypeDisplay | `1` | 根据物理显示器的特性指定距离单位。 例如，如果显示设备是显示器，那么单位是1像素。 |
 | UnitTypePixel | `2` | 指定 1 个像素的单位。 |
 | UnitTypePoint | `3` | 指定单位为 1 个打印机点，或 1/72 英寸。 |
 | UnitTypeInch | `4` | 指定 1 英寸的单位。 |
-| UnitTypeDocument | `5` | 指定单位为 1/300 英寸。 |
-| UnitTypeMillimeter | `6` | 指定单位为 1 毫米。 |
+| UnitTypeDocument | `5` | 指定 1/300 英寸的单位。 |
+| UnitTypeMillimeter | `6` | 指定 1 毫米的单位。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: BrushHatch
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个包含画笔阴影数据的 32 位无符号字段它的 解释取决于 BrushStyle 的值
+description: 获取或设置一个包含画笔阴影数据的 32 位无符号字段它的 解释取决于BrushStyle的值
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/brushhatch/
 ---
 ## EmfLogBrushEx.BrushHatch property
 
-获取或设置一个包含画笔阴影数据的 32 位无符号字段。它的 解释取决于 BrushStyle 的值，
+获取或设置一个包含画笔阴影数据的 32 位无符号字段。它的 解释取决于BrushStyle的值，
 
 ```csharp
 public EmfHatchStyle BrushHatch { get; set; }

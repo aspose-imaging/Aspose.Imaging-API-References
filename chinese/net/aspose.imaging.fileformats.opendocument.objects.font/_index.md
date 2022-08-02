@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.FileFormats.OpenDocument.Objects.Font
 second_title: Aspose.Imaging for .NET API 参考
-description: 打开文档对象
+description: 打开的文档对象
 type: docs
 weight: 520
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.font/
 ---
-打开文档对象
+打开的文档对象
 
 ## 课程
 

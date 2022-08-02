@@ -1,14 +1,14 @@
 ---
 title: BkMode
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 bk 模式
+description: 获取或设置bk模式
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfsetbkmode/bkmode/
 ---
 ## WmfSetBkMode.BkMode property
 
-获取或设置 bk 模式。
+获取或设置bk模式。
 
 ```csharp
 public WmfMixMode BkMode { get; set; }
@@ -16,7 +16,7 @@ public WmfMixMode BkMode { get; set; }
 
 ### 适当的价值
 
-bk 模式。
+bk模式。
 
 ### 也可以看看
 

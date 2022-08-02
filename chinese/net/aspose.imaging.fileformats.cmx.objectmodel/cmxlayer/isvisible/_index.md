@@ -1,14 +1,14 @@
 ---
 title: IsVisible
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值指示该层是否可见
+description: 获取或设置一个值指示该图层是否可见
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/isvisible/
 ---
 ## CmxLayer.IsVisible property
 
-获取或设置一个值，指示该层是否可见。
+获取或设置一个值，指示该图层是否可见。
 
 ```csharp
 public bool IsVisible { get; set; }
@@ -16,7 +16,7 @@ public bool IsVisible { get; set; }
 
 ### 适当的价值
 
-` true` 如果该层可见；否则，` false` 。
+`真的`如果该层可见；否则，`错误的` .
 
 ### 也可以看看
 

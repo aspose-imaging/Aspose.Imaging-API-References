@@ -16,7 +16,7 @@ public double Smooth { get; set; }
 
 ### 适当的价值
 
-平滑。
+顺利.
 
 ### 也可以看看
 

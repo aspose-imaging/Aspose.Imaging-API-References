@@ -1,14 +1,14 @@
 ---
 title: CompareTo
 second_title: Aspose.Imaging for .NET API 参考
-description: 将当前实例与另一个相同类型的对象进行比较并返回一个整数指示当前实例在排序顺序中是在相同位置之前之后还是出现在相同位置作为另一个对象
+description: 将当前实例与另一个相同类型的对象进行比较并返回一个整数指示当前实例在排序顺序中是在与另一个对象相同的位置之前之后还是出现在相同的位置
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.fileformats.tiff/tiffdatatype/compareto/
 ---
 ## TiffDataType.CompareTo method
 
-将当前实例与另一个相同类型的对象进行比较，并返回一个整数，指示当前实例在排序顺序中是在相同位置之前、之后还是出现在相同位置作为另一个对象。
+将当前实例与另一个相同类型的对象进行比较，并返回一个整数，指示当前实例在排序顺序中是在与另一个对象相同的位置之前、之后还是出现在相同的位置。
 
 ```csharp
 public int CompareTo(object obj)
@@ -20,7 +20,7 @@ public int CompareTo(object obj)
 
 ### 返回值
 
-一个 32 位有符号整数，表示被比较对象的相对顺序。返回值具有以下含义: Value 含义 小于零 此实例小于*对象*。 零 这个实例等于*obj*。 大于零 此实例大于*obj*。
+一个 32 位有符号整数，指示被比较对象的相对顺序。返回值有以下含义： 值 含义 小于零 本实例小于*obj*. Zero 这个实例等于*obj*. 大于零 此实例大于*obj* .
 
 ### 例外
 

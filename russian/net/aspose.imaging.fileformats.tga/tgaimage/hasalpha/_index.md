@@ -1,14 +1,14 @@
 ---
 title: HasAlpha
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее имеет ли этот файлTgaImageaspose.imaging.fileformats.tga/tgaimageальфа-канал.
+description: Получает значение указывающее является ли этоTgaImageaspose.imaging.fileformats.tga/tgaimage имеет альфа-канал.
 type: docs
 weight: 110
 url: /ru/net/aspose.imaging.fileformats.tga/tgaimage/hasalpha/
 ---
 ## TgaImage.HasAlpha property
 
-Получает значение, указывающее, имеет ли этот файл[`TgaImage`](../../tgaimage)альфа-канал.
+Получает значение, указывающее, является ли это[`TgaImage`](../../tgaimage) имеет альфа-канал.
 
 ```csharp
 public override bool HasAlpha { get; }
@@ -16,7 +16,7 @@ public override bool HasAlpha { get; }
 
 ### Примеры
 
-Получение значений публичных свойств загруженного TGA-изображения.
+Получение значений публичных свойств загруженного изображения TGA.
 
 ```csharp
 [C#]

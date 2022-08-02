@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Определяет содержит ли объект IDictionaryэлемент с указанным ключом.
+description: Определяет является ли IDictionary объект содержит элемент с указанным ключом.
 type: docs
 weight: 120
 url: /ru/net/aspose.imaging/nongenericdictionary/contains/
 ---
 ## NonGenericDictionary.Contains method
 
-Определяет, содержит ли объект IDictionaryэлемент с указанным ключом.
+Определяет, является ли IDictionary объект содержит элемент с указанным ключом.
 
 ```csharp
 public bool Contains(object key)
@@ -16,11 +16,11 @@ public bool Contains(object key)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | Object | Ключ для поиска в IDictionaryобъект. |
+| key | Object | Ключ найти в IDictionary объект. |
 
 ### Возвращаемое значение
 
-true, если IDictionaryсодержит элемент с ключом; в противном случае ложно.
+верно, если IDictionary содержит элемент с ключом; в противном случае false.
 
 ### Смотрите также
 

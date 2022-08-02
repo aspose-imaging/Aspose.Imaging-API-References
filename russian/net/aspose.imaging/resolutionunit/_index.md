@@ -3,7 +3,7 @@ title: ResolutionUnit
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Единица разрешения enum.
 type: docs
-weight: 10890
+weight: 10880
 url: /ru/net/aspose.imaging/resolutionunit/
 ---
 ## ResolutionUnit enumeration
@@ -18,7 +18,7 @@ public enum ResolutionUnit : byte
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `0` | Неопределенные единицы |
+| None | `0` | Неопределенные единицы измерения |
 | Inch | `1` | Дюймовые единицы |
 | Cm | `2` | Метрические сантиметры |
 

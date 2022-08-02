@@ -1,14 +1,14 @@
 ---
 title: GuidPacketRepresentation
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化GuidPacketRepresentationaspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation结构的新实例
+description: 初始化GuidPacketRepresentationaspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation struct.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation/guidpacketrepresentation/
 ---
 ## GuidPacketRepresentation constructor
 
-初始化[`GuidPacketRepresentation`](../../guidpacketrepresentation)结构的新实例。
+初始化[`GuidPacketRepresentation`](../../guidpacketrepresentation) struct.
 
 ```csharp
 public GuidPacketRepresentation(int data1, short data2, short data3, long data4)
@@ -16,10 +16,10 @@ public GuidPacketRepresentation(int data1, short data2, short data3, long data4)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| data1 | Int32 | 数据1。 |
-| data2 | Int16 | 数据2。 |
-| data3 | Int16 | 数据3。 |
-| data4 | Int64 | 数据4。 |
+| data1 | Int32 | 资料1。 |
+| data2 | Int16 | 资料2。 |
+| data3 | Int16 | 资料3。 |
+| data4 | Int64 | 资料4。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: EmfGlsBoundedRecord
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfGlsBoundedRecordaspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord.
+description: Инициализирует новый экземплярEmfGlsBoundedRecordaspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord/emfglsboundedrecord/
 ---
 ## EmfGlsBoundedRecord constructor
 
-Инициализирует новый экземпляр класса[`EmfGlsBoundedRecord`](../../emfglsboundedrecord).
+Инициализирует новый экземпляр[`EmfGlsBoundedRecord`](../../emfglsboundedrecord) класс.
 
 ```csharp
 public EmfGlsBoundedRecord(EmfRecord source)

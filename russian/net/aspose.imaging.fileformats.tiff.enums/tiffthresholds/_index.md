@@ -1,14 +1,14 @@
 ---
 title: TiffThresholds
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Для данных используется пороговое значение.
+description: Пороговое значение используемое для данных.
 type: docs
 weight: 7750
 url: /ru/net/aspose.imaging.fileformats.tiff.enums/tiffthresholds/
 ---
 ## TiffThresholds enumeration
 
-Для данных используется пороговое значение.
+Пороговое значение, используемое для данных.
 
 ```csharp
 public enum TiffThresholds : ushort

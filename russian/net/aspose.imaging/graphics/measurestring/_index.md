@@ -1,14 +1,14 @@
 ---
 title: MeasureString
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Измеряет указанную текстовую строку с заданными параметрами
+description: Измеряет указанную текстовую строку с указанными параметрами
 type: docs
 weight: 420
 url: /ru/net/aspose.imaging/graphics/measurestring/
 ---
 ## Graphics.MeasureString method
 
-Измеряет указанную текстовую строку с заданными параметрами
+Измеряет указанную текстовую строку с указанными параметрами
 
 ```csharp
 public SizeF MeasureString(string text, Font font, SizeF layoutArea, StringFormat stringFormat)
@@ -16,9 +16,9 @@ public SizeF MeasureString(string text, Font font, SizeF layoutArea, StringForma
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | String | Текст измерять. |
-| font | Font | Измеряемый шрифт. |
-| layoutArea | SizeF | Область макета. |
+| text | String | Текст для измерения. |
+| font | Font | Шрифт для измерения. |
+| layoutArea | SizeF | Площадь макета. |
 | stringFormat | StringFormat | Формат строки. |
 
 ### Возвращаемое значение

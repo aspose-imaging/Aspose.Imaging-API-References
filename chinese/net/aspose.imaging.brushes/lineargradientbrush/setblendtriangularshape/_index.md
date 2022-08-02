@@ -1,14 +1,14 @@
 ---
 title: SetBlendTriangularShape
 second_title: Aspose.Imaging for .NET API 参考
-description: 使用中心颜色创建线性渐变两端线性衰减为单一颜色
+description: 创建一个具有中心颜色的线性渐变并在两端线性衰减为单一颜色
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.brushes/lineargradientbrush/setblendtriangularshape/
 ---
 ## SetBlendTriangularShape(float) {#setblendtriangularshape}
 
-使用中心颜色创建线性渐变，两端线性衰减为单一颜色。
+创建一个具有中心颜色的线性渐变，并在两端线性衰减为单一颜色。
 
 ```csharp
 public void SetBlendTriangularShape(float focus)
@@ -16,7 +16,7 @@ public void SetBlendTriangularShape(float focus)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| focus | Single | 一个从 0 到 1 的值，指定渐变的中心（渐变仅由结尾组成的点）颜色）。 |
+| focus | Single | 一个从 0 到 1 的值，指定渐变的中心（渐变仅由结束颜色组成的点）。 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public void SetBlendTriangularShape(float focus)
 
 ## SetBlendTriangularShape(float, float) {#setblendtriangularshape_1}
 
-使用中心颜色创建线性渐变，两端线性衰减为单一颜色。
+创建一个具有中心颜色的线性渐变，并在两端线性衰减为单一颜色。
 
 ```csharp
 public void SetBlendTriangularShape(float focus, float scale)
@@ -36,8 +36,8 @@ public void SetBlendTriangularShape(float focus, float scale)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| focus | Single | 一个从 0 到 1 的值，指定渐变的中心（渐变仅由结尾组成的点）颜色）。 |
-| scale | Single | 一个从 0 到 1 的值，指定颜色从起始颜色衰减到*focus*（结束颜色）的速度 |
+| focus | Single | 一个从 0 到 1 的值，指定渐变的中心（渐变仅由结束颜色组成的点）。 |
+| scale | Single | 一个从 0 到 1 的值，指定颜色从起始颜色衰减到*focus*（结束颜色） |
 
 ### 也可以看看
 

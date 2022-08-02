@@ -1,14 +1,14 @@
 ---
 title: GetNamespaceUri
 second_title: Aspose.Imaging for .NET API 参考
-description: 通过特定前缀获取命名空间 URI前缀可以在没有 xmlns 的情况下开始
+description: 通过特定前缀获取命名空间 URI前缀可以在没有 xmlns. 的情况下开始
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.xmp/xmprdfroot/getnamespaceuri/
 ---
 ## XmpRdfRoot.GetNamespaceUri method
 
-通过特定前缀获取命名空间 URI。前缀可以在没有 xmlns 的情况下开始。
+通过特定前缀获取命名空间 URI。前缀可以在没有 xmlns. 的情况下开始
 
 ```csharp
 public string GetNamespaceUri(string prefix)

@@ -1,14 +1,14 @@
 ---
 title: Valid
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее является ли этотEmfHeaderObjectaspose.imaging.fileformats.emf.emf.objects/emfheaderobjectдопустимым.
+description: Получает значение указывающее является ли этоEmfHeaderObjectaspose.imaging.fileformats.emf.emf.objects/emfheaderobjectдействителен.
 type: docs
 weight: 140
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/valid/
 ---
 ## EmfHeaderObject.Valid property
 
-Получает значение, указывающее, является ли этот[`EmfHeaderObject`](../../emfheaderobject)допустимым.
+Получает значение, указывающее, является ли это[`EmfHeaderObject`](../../emfheaderobject)действителен.
 
 ```csharp
 public bool Valid { get; }
@@ -16,7 +16,7 @@ public bool Valid { get; }
 
 ### Стоимость имущества
 
-` true` если допустимо; в противном случае` false` .
+`истинный` если действительный; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: SetCaptionWriter
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Устанавливает автора подписи.
+description: Устанавливает автора титров.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.xmp.schemas.photoshop/photoshoppackage/setcaptionwriter/
 ---
 ## PhotoshopPackage.SetCaptionWriter method
 
-Устанавливает автора подписи.
+Устанавливает автора титров.
 
 ```csharp
 public void SetCaptionWriter(string captionWriter)
@@ -16,7 +16,7 @@ public void SetCaptionWriter(string captionWriter)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| captionWriter | String | Автор подписи. |
+| captionWriter | String | Автор титров. |
 
 ### Смотрите также
 

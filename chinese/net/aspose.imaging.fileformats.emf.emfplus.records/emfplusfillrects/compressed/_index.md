@@ -1,14 +1,14 @@
 ---
 title: Compressed
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值该值指示此EmfPlusFillRectsaspose.imaging.fileformats.emf.emfplus.records/emfplusfillrects是否被压缩 如果设置则 RectData 包含 EmfPlusRect 对象第 2.2.2.38 节如果清除则 RectData 包含 EmfPlusRectF 对象第 2.2.2.39 节对象
+description: 获取或设置一个值该值指示是否EmfPlusFillRectsaspose.imaging.fileformats.emf.emfplus.records/emfplusfillrects已压缩 如果设置则 RectData 包含 EmfPlusRect 对象第 2.2.2.38 节如果清除则 RectData 包含 EmfPlusRectF 对象第 2.2.2.39 节 object
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillrects/compressed/
 ---
 ## EmfPlusFillRects.Compressed property
 
-获取或设置一个值，该值指示此[`EmfPlusFillRects`](../../emfplusfillrects)是否被压缩。 如果设置，则 RectData 包含 EmfPlusRect 对象（第 2.2.2.38 节）。如果清除，则 RectData 包含 EmfPlusRectF 对象（第 2.2.2.39 节）对象
+获取或设置一个值，该值指示是否[`EmfPlusFillRects`](../../emfplusfillrects)已压缩。 如果设置，则 RectData 包含 EmfPlusRect 对象（第 2.2.2.38 节）。如果清除，则 RectData 包含 EmfPlusRectF 对象（第 2.2.2.39 节） object
 
 ```csharp
 public bool Compressed { get; set; }
@@ -16,7 +16,7 @@ public bool Compressed { get; set; }
 
 ### 适当的价值
 
-` true` 如果压缩；否则，` false` 。
+`真的`如果压缩；否则，`错误的` .
 
 ### 也可以看看
 

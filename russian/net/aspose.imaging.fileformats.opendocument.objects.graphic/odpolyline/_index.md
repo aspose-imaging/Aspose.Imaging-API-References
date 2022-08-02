@@ -1,14 +1,14 @@
 ---
 title: OdPolyLine
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Ломаная линия
+description: Полилиния
 type: docs
 weight: 7220
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odpolyline/
 ---
 ## OdPolyLine class
 
-Ломаная линия
+Полилиния
 
 ```csharp
 public class OdPolyLine : OdPolygon
@@ -18,16 +18,16 @@ public class OdPolyLine : OdPolygon
 
 | Имя | Описание |
 | --- | --- |
-| [OdPolyLine](odpolyline)(OdObject) | Инициализирует новый экземпляр класса[`OdPolyLine`](../odpolyline). |
+| [OdPolyLine](odpolyline)(OdObject) | Инициализирует новый экземпляр[`OdPolyLine`](../odpolyline) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Получает родительский объект. |
-| [Points](../../aspose.imaging.fileformats.opendocument.objects.graphic/odpolygon/points) { get; set; } | Получает или устанавливает точки. |
+| [Points](../../aspose.imaging.fileformats.opendocument.objects.graphic/odpolygon/points) { get; set; } | Получает или устанавливает очки. |
 | [Rectangle](../../aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/rectangle) { get; set; } | Получает или задает прямоугольник. |
 | [Style](../../aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/style) { get; set; } | Получает или задает стиль. |
 

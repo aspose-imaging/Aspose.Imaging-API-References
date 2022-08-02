@@ -1,14 +1,14 @@
 ---
 title: HorizontalResolution
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取此Imageaspose.imaging/image的水平分辨率以每英寸像素为单位
+description: 获取水平分辨率以每英寸像素为单位Imageaspose.imaging/image .
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.tiff/tiffimage/horizontalresolution/
 ---
 ## TiffImage.HorizontalResolution property
 
-获取此[`Image`](../../../aspose.imaging/image)的水平分辨率，以每英寸像素为单位。
+获取水平分辨率（以每英寸像素为单位）[`Image`](../../../aspose.imaging/image) .
 
 ```csharp
 public override double HorizontalResolution { get; set; }
@@ -20,7 +20,7 @@ public override double HorizontalResolution { get; set; }
 
 ### 评论
 
-注意默认情况下这个值总是96，因为不同的平台不能返回屏幕分辨率。您可以考虑使用 SetResolution 方法在一次调用中更新两个分辨率值。
+请注意，默认情况下，此值始终为 96，因为不同的平台无法返回屏幕分辨率。您可以考虑使用 SetResolution 方法在一次调用中更新两个分辨率值。
 
 ### 例子
 
@@ -35,8 +35,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"
 {
     Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)image;
 
-        // 获取 TiffImage.
- 的水平和垂直分辨率
+    // 获取 TiffImage 的水平和垂直分辨率。
     double horizontalResolution = tiffImage.HorizontalResolution;
     double verticalResolution = tiffImage.VerticalResolution;
     System.Console.WriteLine("The horizontal resolution, in pixels per inch: {0}", horizontalResolution);

@@ -1,14 +1,14 @@
 ---
 title: EmfSaveDc
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfSaveDcaspose.imaging.fileformats.emf.emf.records/emfsavedc类的新实例
+description: 初始化EmfSaveDcaspose.imaging.fileformats.emf.emf.records/emfsavedc类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsavedc/emfsavedc/
 ---
 ## EmfSaveDc(EmfRecord) {#constructor_1}
 
-初始化[`EmfSaveDc`](../../emfsavedc)类的新实例。
+初始化[`EmfSaveDc`](../../emfsavedc)类.
 
 ```csharp
 public EmfSaveDc(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfSaveDc(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfSaveDc(EmfRecord source)
 
 ## EmfSaveDc() {#constructor}
 
-初始化[`EmfSaveDc`](../../emfsavedc)类的新实例。
+初始化[`EmfSaveDc`](../../emfsavedc)类.
 
 ```csharp
 public EmfSaveDc()

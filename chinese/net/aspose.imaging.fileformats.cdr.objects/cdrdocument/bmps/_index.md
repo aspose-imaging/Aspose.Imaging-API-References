@@ -16,7 +16,7 @@ public Dictionary<int, CdrBmp> Bmps { get; }
 
 ### 适当的价值
 
-BMPS。
+BMPS.
 
 ### 也可以看看
 

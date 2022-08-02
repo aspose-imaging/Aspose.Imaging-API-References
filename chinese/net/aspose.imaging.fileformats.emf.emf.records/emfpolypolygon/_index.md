@@ -18,21 +18,21 @@ public sealed class EmfPolyPolygon : EmfDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfPolyPolygon](emfpolypolygon#constructor)() | 初始化[`EmfPolyPolygon`](../emfpolypolygon)类的新实例。 |
-| [EmfPolyPolygon](emfpolypolygon#constructor_1)(EmfRecord) | 初始化[`EmfPolyPolygon`](../emfpolypolygon)类的新实例。 |
+| [EmfPolyPolygon](emfpolypolygon#constructor)() | 初始化[`EmfPolyPolygon`](../emfpolypolygon)类. |
+| [EmfPolyPolygon](emfpolypolygon#constructor_1)(EmfRecord) | 初始化[`EmfPolyPolygon`](../emfpolypolygon)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/apoints) { get; set; } | 获取或设置 WMF PointL 对象数组（[MS-WMF] 第 2.2.2.15 节）， 指定所有多边形的点逻辑单元。点数由 Count 字段值指定。 |
+| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/apoints) { get; set; } | 获取或设置一个 WMF PointL 对象数组（[MS-WMF] 第 2.2.2.15 节）， 以逻辑单位指定所有多边形的点。点数由 Count字段值指定。 |
 | [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/bounds) { get; set; } | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），它以设备单位指定 边界矩形。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 
 ### 评论
 
-每个多边形都应该使用当前画笔勾勒，并使用当前画笔和 在播放设备上下文中定义的多边形填充模式。此 记录定义的多边形可以重叠。
+每个多边形都应该使用当前画笔勾勒出轮廓，并使用当前画笔和播放设备上下文中定义的 多边形填充模式进行填充。此 记录定义的多边形可以重叠。
 
 ### 也可以看看
 

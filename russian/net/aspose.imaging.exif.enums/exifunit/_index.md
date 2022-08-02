@@ -1,14 +1,14 @@
 ---
 title: ExifUnit
 second_title: Справочник по Aspose.Imaging for .NET API
-description: exif unit enum.
+description: единица exif enum.
 type: docs
 weight: 1040
 url: /ru/net/aspose.imaging.exif.enums/exifunit/
 ---
 ## ExifUnit enumeration
 
-exif unit enum.
+единица exif enum.
 
 ```csharp
 public enum ExifUnit
@@ -18,7 +18,7 @@ public enum ExifUnit
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `1` | Неопределенные единицы |
+| None | `1` | Неопределенные единицы измерения |
 | Inch | `2` | Дюймовые единицы |
 | Cm | `3` | Метрические сантиметры |
 

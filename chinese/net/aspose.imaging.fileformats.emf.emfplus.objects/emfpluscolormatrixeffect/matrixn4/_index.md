@@ -16,11 +16,11 @@ public int[] MatrixN4 { get; set; }
 
 ### 适当的价值
 
-矩阵 n1。
+矩阵 n1.
 
 ### 评论
 
-Matrix_0_4（4 字节）:Matrix[0][4]。 Matrix_1_4（4 个字节）:Matrix[1][4]。 Matrix_2_4（4 个字节）:Matrix[2][4]。 Matrix_3_4（4 个字节）:Matrix[3][4]。 Matrix_4_4（4 个字节）:Matrix[4][4]。这个值应该是 1.0。
+Matrix_0_4 (4 bytes): Matrix[0][4]. Matrix_1_4 (4 bytes): Matrix[1][4]. Matrix_2_4 (4 bytes): Matrix[2][4]. Matrix_3_4 (4 bytes ): Matrix[3][4]. Matrix_4_4 (4 bytes): Matrix[4][4]。这个值应该是 1.0.
 
 ### 也可以看看
 

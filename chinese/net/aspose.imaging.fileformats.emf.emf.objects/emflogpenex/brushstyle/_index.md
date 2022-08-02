@@ -1,14 +1,14 @@
 ---
 title: BrushStyle
 second_title: Aspose.Imaging for .NET API 参考
-description: 从 WMF BrushStyle 枚举MS-WMF第 2.1.1.4 节 如果 PenStyle 字段中的笔类型是 PS_GEOMETRIC则此值必须是 BS_SOLID 或 BS_HATCHED该字段的值可以是 BS_NULL但前提是 PenStyle 中指定的 线型为 PS_NULL应该使用 BS_NULL 样式 来指定没有效果的画笔
+description: 从 WMF BrushStyle 枚举MS-WMF 第 2.1.1.4 节中获取或设置一个 32 位无符号整数该整数指定画笔的画笔样式 如果 PenStyle 字段中的笔类型是 PS_GEOMETRIC则此值必须是 BS_SOLID 或 BS_HATCHED此字段的值可以是 BS_NULL但前提是 PenStyle 中指定的 线型为 PS_NULL应该使用 BS_NULL 样式 来指定没有效果的画笔
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emflogpenex/brushstyle/
 ---
 ## EmfLogPenEx.BrushStyle property
 
-从 WMF BrushStyle 枚举（[MS-WMF]第 2.1.1.4 节）。 如果 PenStyle 字段中的笔类型是 PS_GEOMETRIC，则此值必须是 BS_SOLID 或 BS_HATCHED。该字段的值可以是 BS_NULL，但前提是 PenStyle 中指定的 线型为 PS_NULL。应该使用 BS_NULL 样式 来指定没有效果的画笔。
+从 WMF BrushStyle 枚举（[MS-WMF] 第 2.1.1.4 节）中获取或设置一个 32 位无符号整数，该整数指定画笔的画笔样式。 如果 PenStyle 字段中的笔类型是 PS_GEOMETRIC，则此值必须是 BS_SOLID 或 BS_HATCHED。此字段的值可以是 BS_NULL，但前提是 PenStyle 中指定的 线型为 PS_NULL。应该使用 BS_NULL 样式 来指定没有效果的画笔。
 
 ```csharp
 public WmfBrushStyle BrushStyle { get; set; }

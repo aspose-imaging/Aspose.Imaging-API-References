@@ -1,14 +1,14 @@
 ---
 title: CurveShape
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Представляет криволинейную форму сплайна.
+description: Представляет форму изогнутого сплайна.
 type: docs
-weight: 10980
+weight: 10970
 url: /ru/net/aspose.imaging.shapes/curveshape/
 ---
 ## CurveShape class
 
-Представляет криволинейную форму сплайна.
+Представляет форму изогнутого сплайна.
 
 ```csharp
 public sealed class CurveShape : PolygonShape
@@ -18,11 +18,11 @@ public sealed class CurveShape : PolygonShape
 
 | Имя | Описание |
 | --- | --- |
-| [CurveShape](curveshape#constructor)() | Инициализирует новый экземпляр класса[`CurveShape`](../curveshape). |
-| [CurveShape](curveshape#constructor_1)(PointF[]) | Инициализирует новый экземпляр класса[`CurveShape`](../curveshape). Используется натяжение по умолчанию 0,5. |
-| [CurveShape](curveshape#constructor_2)(PointF[], bool) | Инициализирует новый экземпляр класса[`CurveShape`](../curveshape). Используется натяжение по умолчанию 0,5. |
-| [CurveShape](curveshape#constructor_3)(PointF[], float) | Инициализирует новый экземпляр класса[`CurveShape`](../curveshape). |
-| [CurveShape](curveshape#constructor_4)(PointF[], float, bool) | Инициализирует новый экземпляр класса[`CurveShape`](../curveshape). |
+| [CurveShape](curveshape#constructor)() | Инициализирует новый экземпляр[`CurveShape`](../curveshape) класс. |
+| [CurveShape](curveshape#constructor_1)(PointF[]) | Инициализирует новый экземпляр[`CurveShape`](../curveshape) учебный класс. Используется натяжение по умолчанию 0,5. |
+| [CurveShape](curveshape#constructor_2)(PointF[], bool) | Инициализирует новый экземпляр[`CurveShape`](../curveshape) учебный класс. Используется натяжение по умолчанию 0,5. |
+| [CurveShape](curveshape#constructor_3)(PointF[], float) | Инициализирует новый экземпляр[`CurveShape`](../curveshape) класс. |
+| [CurveShape](curveshape#constructor_4)(PointF[], float, bool) | Инициализирует новый экземпляр[`CurveShape`](../curveshape) класс. |
 
 ## Характеристики
 

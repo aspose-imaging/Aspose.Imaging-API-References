@@ -3,7 +3,7 @@ title: WarpMode
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Указывает тип применяемого преобразования деформации.
 type: docs
-weight: 11240
+weight: 11230
 url: /ru/net/aspose.imaging/warpmode/
 ---
 ## WarpMode enumeration
@@ -19,7 +19,7 @@ public enum WarpMode
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Perspective | `0` | Определяет деформацию перспективы. |
-| Bilinear | `1` | Задает билинейную деформацию. |
+| Bilinear | `1` | Определяет билинейную деформацию. |
 
 ### Смотрите также
 

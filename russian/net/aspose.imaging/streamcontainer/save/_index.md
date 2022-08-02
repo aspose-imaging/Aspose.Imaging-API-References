@@ -17,8 +17,8 @@ public virtual void Save(Stream destinationStream, int bufferSize, long length)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | destinationStream | Stream | Поток для сохранения данных. |
-| bufferSize | Int32 | Размер буфера. По умолчанию используется значение[`ReadWriteBytesCount`](../readwritebytescount). |
-| length | Int64 | Длина копируемых данных потока. По умолчанию для длины установлено значение[`Length`](../length). |
+| bufferSize | Int32 | Размер буфера. По умолчанию[`ReadWriteBytesCount`](../readwritebytescount) используется значение. |
+| length | Int64 | Длина данных потока для копирования. По умолчанию установлена длина[`Length`](../length) ценность. |
 
 ### Смотрите также
 
@@ -30,7 +30,7 @@ public virtual void Save(Stream destinationStream, int bufferSize, long length)
 
 ## Save(Stream) {#save}
 
-Сохраняет (копирует) данные потока в указанный поток. Использует размер буфера по умолчанию[`ReadWriteBytesCount`](../readwritebytescount)и значение stream[`Length`](../length).
+Сохраняет (копирует) данные потока в указанный поток. Использует размер буфера по умолчанию[`ReadWriteBytesCount`](../readwritebytescount) и поток[`Length`](../length) значение.
 
 ```csharp
 public virtual void Save(Stream destinationStream)
@@ -50,7 +50,7 @@ public virtual void Save(Stream destinationStream)
 
 ## Save(Stream, int) {#save_1}
 
-Сохраняет (копирует) все данные потока в указанный поток. Использует значение stream[`Length`](../length).
+Сохраняет (копирует) все данные потока в указанный поток. Использует поток[`Length`](../length) значение.
 
 ```csharp
 public virtual void Save(Stream destinationStream, int bufferSize)
@@ -71,7 +71,7 @@ public virtual void Save(Stream destinationStream, int bufferSize)
 
 ## Save(string) {#save_3}
 
-Сохраняет (копирует) данные потока в указанный поток. Использует размер буфера по умолчанию[`ReadWriteBytesCount`](../readwritebytescount)и значение stream[`Length`](../length).
+Сохраняет (копирует) данные потока в указанный поток. Использует размер буфера по умолчанию[`ReadWriteBytesCount`](../readwritebytescount) и поток[`Length`](../length) значение.
 
 ```csharp
 public virtual void Save(string filePath)
@@ -91,7 +91,7 @@ public virtual void Save(string filePath)
 
 ## Save(string, int) {#save_4}
 
-Сохраняет (копирует) данные потока в указанный поток. Использует значение stream[`Length`](../length).
+Сохраняет (копирует) данные потока в указанный поток. Использует поток[`Length`](../length) значение.
 
 ```csharp
 public virtual void Save(string filePath, int bufferSize)
@@ -100,7 +100,7 @@ public virtual void Save(string filePath, int bufferSize)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | filePath | String | Путь к файлу для сохранения данных потока. |
-| bufferSize | Int32 | Размер буфера. По умолчанию используется значение[`ReadWriteBytesCount`](../readwritebytescount). |
+| bufferSize | Int32 | Размер буфера. По умолчанию[`ReadWriteBytesCount`](../readwritebytescount) используется значение. |
 
 ### Смотрите также
 
@@ -121,8 +121,8 @@ public virtual void Save(string filePath, int bufferSize, long length)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | filePath | String | Путь к файлу для сохранения данных потока. |
-| bufferSize | Int32 | Размер буфера. По умолчанию используется значение[`ReadWriteBytesCount`](../readwritebytescount). |
-| length | Int64 | Длина копируемых данных потока. По умолчанию для длины установлено значение[`Length`](../length). |
+| bufferSize | Int32 | Размер буфера. По умолчанию[`ReadWriteBytesCount`](../readwritebytescount) используется значение. |
+| length | Int64 | Длина данных потока для копирования. По умолчанию установлена длина[`Length`](../length) ценность. |
 
 ### Смотрите также
 

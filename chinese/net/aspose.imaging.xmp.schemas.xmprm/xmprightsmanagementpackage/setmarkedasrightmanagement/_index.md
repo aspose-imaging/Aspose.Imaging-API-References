@@ -16,7 +16,7 @@ public void SetMarkedAsRightManagement(bool value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Boolean | 如果设置为` true` 这是一个权限管理的资源。 |
+| value | Boolean | 如果设置为`真的`这是一个权限管理的资源。 |
 
 ### 也可以看看
 

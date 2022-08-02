@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 32 位无符号整数该整数指定在 MetafileData 字段中嵌入 的图元文件的类型该值必须在 MetafileDataType 枚举第 2.1.1.21 节中定义
+description: 获取或设置 32 位无符号整数它指定 MetafileData 字段中嵌入 的图元文件的类型该值必须在 MetafileDataType 枚举第 2.1.1.21 节中定义
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusmetafile/type/
 ---
 ## EmfPlusMetafile.Type property
 
-获取或设置 32 位无符号整数，该整数指定在 MetafileData 字段中嵌入 的图元文件的类型。该值必须在 MetafileDataType 枚举（第 2.1.1.21 节）中定义。
+获取或设置 32 位无符号整数，它指定 MetafileData 字段中嵌入 的图元文件的类型。该值必须在 MetafileDataType 枚举（第 2.1.1.21 节）中定义。
 
 ```csharp
 public EmfPlusMetafileDataType Type { get; set; }

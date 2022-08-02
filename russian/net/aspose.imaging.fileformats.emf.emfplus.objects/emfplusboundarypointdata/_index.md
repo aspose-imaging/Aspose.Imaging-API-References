@@ -1,14 +1,14 @@
 ---
 title: EmfPlusBoundaryPointData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект EmfPlusBoundaryPointData задает замкнутую границу кардинального сплайна для градиентной кисти
+description: Объект EmfPlusBoundaryPointData указывает замкнутую кардинальную границу сплайна для градиентной кисти
 type: docs
 weight: 5250
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundarypointdata/
 ---
 ## EmfPlusBoundaryPointData class
 
-Объект EmfPlusBoundaryPointData задает замкнутую границу кардинального сплайна для градиентной кисти
+Объект EmfPlusBoundaryPointData указывает замкнутую кардинальную границу сплайна для градиентной кисти
 
 ```csharp
 public sealed class EmfPlusBoundaryPointData : EmfPlusBoundaryBase

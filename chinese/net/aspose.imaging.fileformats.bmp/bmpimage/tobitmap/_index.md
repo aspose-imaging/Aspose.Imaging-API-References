@@ -20,7 +20,7 @@ public override Bitmap ToBitmap()
 
 ### 例子
 
-以下示例将 BMP 图像转换为GDI 位图。
+以下示例将 BMP 图像转换为 GDI 位图。
 
 ```csharp
 [C#]
@@ -30,7 +30,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\sample.b
     Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = (Aspose.Imaging.FileFormats.Bmp.BmpImage)image;
     System.Drawing.Bitmap bitmap = bmpImage.ToBitmap();
 
-        // 处理 GDI 位图。
+    // 处理 GDI 位图。
 }
 ```
 

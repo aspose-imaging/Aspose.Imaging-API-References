@@ -1,14 +1,14 @@
 ---
 title: TextForegroundColorIndex
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает индекс цвета в глобальной цветовой палитре используемой для рисования переднего плана текста.
+description: Получает или задает индекс цвета в глобальной цветовой палитре используемой для рисования текста на переднем плане.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textforegroundcolorindex/
 ---
 ## GifPlainTextRenderingBlock.TextForegroundColorIndex property
 
-Получает или задает индекс цвета в глобальной цветовой палитре, используемой для рисования переднего плана текста.
+Получает или задает индекс цвета в глобальной цветовой палитре, используемой для рисования текста на переднем плане.
 
 ```csharp
 public byte TextForegroundColorIndex { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Left
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект EmfPlusRegionNode указывающий левый дочерний узел данного узла региона.
+description: Получает или задает объект EmfPlusRegionNode указывающий левый дочерний узел этого узла области.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/left/
 ---
 ## EmfPlusRegionNodeChildNodes.Left property
 
-Получает или задает объект EmfPlusRegionNode, указывающий левый дочерний узел данного узла региона.
+Получает или задает объект EmfPlusRegionNode, указывающий левый дочерний узел этого узла области.
 
 ```csharp
 public EmfPlusRegionNode Left { get; set; }

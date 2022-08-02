@@ -1,14 +1,14 @@
 ---
 title: MultiplyTransform
 second_title: Aspose.Imaging for .NET API 参考
-description: 乘以此 Graphics 的世界变换并指定矩阵
+description: 将此图形的世界变换相乘并指定矩阵
 type: docs
 weight: 250
 url: /zh/net/aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/multiplytransform/
 ---
 ## MultiplyTransform(Matrix) {#multiplytransform}
 
-乘以此 Graphics 的世界变换并指定矩阵。
+将此图形的世界变换相乘并指定矩阵。
 
 ```csharp
 public void MultiplyTransform(Matrix matrix)
@@ -29,7 +29,7 @@ public void MultiplyTransform(Matrix matrix)
 
 ## MultiplyTransform(Matrix, MatrixOrder) {#multiplytransform_1}
 
-乘以此 Graphics 的世界变换并按指定顺序指定 Matrix。
+乘以这个Graphics的世界变换，并按指定的顺序指定Matrix。
 
 ```csharp
 public void MultiplyTransform(Matrix matrix, MatrixOrder order)

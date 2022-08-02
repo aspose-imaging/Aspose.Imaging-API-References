@@ -1,14 +1,14 @@
 ---
 title: LayoutMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее режим компоновки
+description: Получает или задает 32-разрядное целое число без знака указывающее режим макета
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetlayout/layoutmode/
 ---
 ## EmfSetLayout.LayoutMode property
 
-Получает или задает 32-разрядное целое число без знака, указывающее режим компоновки
+Получает или задает 32-разрядное целое число без знака, указывающее режим макета
 
 ```csharp
 public LayoutModeEnum LayoutMode { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: TiffDoubleType
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化TiffDoubleTypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffdoubletype类的新实例
+description: 初始化TiffDoubleTypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffdoubletype类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffdoubletype/tiffdoubletype/
 ---
 ## TiffDoubleType(TiffTags) {#constructor}
 
-初始化[`TiffDoubleType`](../../tiffdoubletype)类的新实例。
+初始化[`TiffDoubleType`](../../tiffdoubletype)类.
 
 ```csharp
 public TiffDoubleType(TiffTags tagId)
@@ -16,7 +16,7 @@ public TiffDoubleType(TiffTags tagId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tagId | TiffTags | 标签 ID。 |
+| tagId | TiffTags | 标签标识。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public TiffDoubleType(TiffTags tagId)
 
 ## TiffDoubleType(ushort) {#constructor_1}
 
-初始化[`TiffDoubleType`](../../tiffdoubletype)类的新实例。
+初始化[`TiffDoubleType`](../../tiffdoubletype)类.
 
 ```csharp
 public TiffDoubleType(ushort tagId)
@@ -37,7 +37,7 @@ public TiffDoubleType(ushort tagId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tagId | UInt16 | 标签 ID。 |
+| tagId | UInt16 | 标签标识。 |
 
 ### 也可以看看
 

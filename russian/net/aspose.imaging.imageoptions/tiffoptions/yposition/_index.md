@@ -1,14 +1,14 @@
 ---
 title: Yposition
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает позицию y.
+description: Получает или задает позицию Y.
 type: docs
 weight: 700
 url: /ru/net/aspose.imaging.imageoptions/tiffoptions/yposition/
 ---
 ## TiffOptions.Yposition property
 
-Получает или задает позицию y.
+Получает или задает позицию Y.
 
 ```csharp
 public TiffRational Yposition { get; set; }
@@ -16,7 +16,7 @@ public TiffRational Yposition { get; set; }
 
 ### Стоимость имущества
 
-Позиция y.
+Позиция Y.
 
 ### Смотрите также
 

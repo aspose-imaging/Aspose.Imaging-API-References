@@ -1,14 +1,14 @@
 ---
 title: FontStoringArgs
 second_title: Aspose.Imaging for .NET API 参考
-description: 字体存储参数
+description: 存储参数的字体
 type: docs
 weight: 7510
 url: /zh/net/aspose.imaging.fileformats.svg/fontstoringargs/
 ---
 ## FontStoringArgs class
 
-字体存储参数
+存储参数的字体
 
 ```csharp
 public class FontStoringArgs
@@ -25,9 +25,9 @@ public class FontStoringArgs
 | 姓名 | 描述 |
 | --- | --- |
 | [DestFontStream](../../aspose.imaging.fileformats.svg/fontstoringargs/destfontstream) { get; set; } | 获取或设置目标字体流。 |
-| [DisposeStream](../../aspose.imaging.fileformats.svg/fontstoringargs/disposestream) { get; set; } | 获取或设置是否[dispose stream]的值。 |
-| [FontFileUri](../../aspose.imaging.fileformats.svg/fontstoringargs/fontfileuri) { get; set; } | 获取或设置字体文件 URI。 |
-| [FontStoreType](../../aspose.imaging.fileformats.svg/fontstoringargs/fontstoretype) { get; set; } | 获取或设置是否[使用嵌入字体]的值。 |
+| [DisposeStream](../../aspose.imaging.fileformats.svg/fontstoringargs/disposestream) { get; set; } | 获取或设置一个值，指示是否 [dispose stream]. |
+| [FontFileUri](../../aspose.imaging.fileformats.svg/fontstoringargs/fontfileuri) { get; set; } | 获取或设置字体文件 URI. |
+| [FontStoreType](../../aspose.imaging.fileformats.svg/fontstoringargs/fontstoretype) { get; set; } | 获取或设置一个值，指示是否[使用嵌入字体]。 |
 | [SourceFontFileName](../../aspose.imaging.fileformats.svg/fontstoringargs/sourcefontfilename) { get; } | 获取源字体文件。 |
 | [SourceFontStream](../../aspose.imaging.fileformats.svg/fontstoringargs/sourcefontstream) { get; } | 获取源字体流。 |
 

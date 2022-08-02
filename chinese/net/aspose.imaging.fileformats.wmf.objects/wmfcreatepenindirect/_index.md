@@ -1,14 +1,14 @@
 ---
 title: WmfCreatePenInDirect
 second_title: Aspose.Imaging for .NET API 参考
-description: 直接创建笔
+description: direct 中的创建笔
 type: docs
 weight: 8550
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfcreatepenindirect/
 ---
 ## WmfCreatePenInDirect class
 
-直接创建笔
+direct 中的创建笔
 
 ```csharp
 public class WmfCreatePenInDirect : WmfGraphicObject

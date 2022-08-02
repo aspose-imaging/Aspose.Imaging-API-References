@@ -1,14 +1,14 @@
 ---
 title: DicomPackage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаDicomPackageaspose.imaging.xmp.schemas.dicom/dicompackage.
+description: Инициализирует новый экземплярDicomPackageaspose.imaging.xmp.schemas.dicom/dicompackage класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp.schemas.dicom/dicompackage/dicompackage/
 ---
 ## DicomPackage constructor
 
-Инициализирует новый экземпляр класса[`DicomPackage`](../../dicompackage).
+Инициализирует новый экземпляр[`DicomPackage`](../../dicompackage) класс.
 
 ```csharp
 public DicomPackage()

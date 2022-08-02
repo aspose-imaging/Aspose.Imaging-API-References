@@ -1,14 +1,14 @@
 ---
 title: CieCoordinatesTriple
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаCieCoordinatesTripleaspose.imaging.fileformats.bmp.structures/ciecoordinatestriple.
+description: Инициализирует новый экземплярCieCoordinatesTripleaspose.imaging.fileformats.bmp.structures/ciecoordinatestriple класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.bmp.structures/ciecoordinatestriple/ciecoordinatestriple/
 ---
 ## CieCoordinatesTriple constructor
 
-Инициализирует новый экземпляр класса[`CieCoordinatesTriple`](../../ciecoordinatestriple).
+Инициализирует новый экземпляр[`CieCoordinatesTriple`](../../ciecoordinatestriple) класс.
 
 ```csharp
 public CieCoordinatesTriple(byte[] bytes)

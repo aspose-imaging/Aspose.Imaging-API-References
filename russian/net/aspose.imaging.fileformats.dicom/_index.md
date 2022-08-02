@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.FileFormats.Dicom
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пространство имен обрабатывает формат файлов Dicom в
+description: Пространство имен обрабатывает формат файла Dicom processin
 type: docs
 weight: 280
 url: /ru/net/aspose.imaging.fileformats.dicom/
 ---
-Пространство имен обрабатывает формат файлов Dicom в
+Пространство имен обрабатывает формат файла Dicom processin
 
 ## Классы
 
@@ -15,7 +15,7 @@ url: /ru/net/aspose.imaging.fileformats.dicom/
 | [Compression](./compression) | Содержит настройки сжатия изображения. |
 | [DicomImage](./dicomimage) | Это класс реализации, работающей с изображением из файла DICOM |
 | [DicomImageInfo](./dicomimageinfo) | Содержит всю метаинформацию из заголовка файла Dicom |
-| [DicomPage](./dicompage) | Это класс для работы с файлами DICOM типа multi frame |
+| [DicomPage](./dicompage) | Класс для работы с файлами DICOM типа multiframe |
 ## перечисление
 
 | перечисление | Описание |

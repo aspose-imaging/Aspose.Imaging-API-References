@@ -16,7 +16,7 @@ public ExifExposureProgram ExposureProgram { get; set; }
 
 ### 适当的价值
 
-曝光程序。
+曝光程序.
 
 ### 也可以看看
 

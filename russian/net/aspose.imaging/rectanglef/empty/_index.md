@@ -1,14 +1,14 @@
 ---
 title: Empty
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает новый экземпляр структурыRectangleFaspose.imaging/rectanglefсXaspose.imaging/rectanglef/xYaspose.imaging/rectanglef/yWidthaspose.imaging/rectanglef/widthиHeightравны нулю.
+description: Получает новый экземплярRectangleFaspose.imaging/rectanglef структура которая имеетXaspose.imaging/rectanglef/x Yaspose.imaging/rectanglef/y Widthaspose.imaging/rectanglef/width а такжеHeightaspose.imaging/rectanglef/height значения равны нулю.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging/rectanglef/empty/
 ---
 ## RectangleF.Empty property
 
-Получает новый экземпляр структуры[`RectangleF`](../../rectanglef)с[`X`](../x),[`Y`](../y),[`Width`](../width)иHeightравны нулю.
+Получает новый экземпляр[`RectangleF`](../../rectanglef) структура, которая имеет[`X`](../x) ,[`Y`](../y) ,[`Width`](../width) а также[`Height`](../height) значения равны нулю.
 
 ```csharp
 public static RectangleF Empty { get; }

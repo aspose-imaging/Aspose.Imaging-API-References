@@ -20,7 +20,7 @@ public StreamContainer ToStreamContainer(long startPosition)
 
 ### 返回值
 
-[`StreamContainer`](../../../aspose.imaging/streamcontainer)带有转换后的数据。
+这[`StreamContainer`](../../../aspose.imaging/streamcontainer)带有转换后的数据。
 
 ### 也可以看看
 

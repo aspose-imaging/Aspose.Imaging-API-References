@@ -1,14 +1,14 @@
 ---
 title: Interlaced
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示此PngImageaspose.imaging.fileformats.png/pngimage是否是隔行扫描的
+description: 获取一个值该值指示这是否PngImageaspose.imaging.fileformats.png/pngimage是隔行扫描的
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.fileformats.png/pngimage/interlaced/
 ---
 ## PngImage.Interlaced property
 
-获取一个值，该值指示此[`PngImage`](../../pngimage)是否是隔行扫描的。
+获取一个值，该值指示这是否[`PngImage`](../../pngimage)是隔行扫描的。
 
 ```csharp
 public bool Interlaced { get; }
@@ -16,7 +16,7 @@ public bool Interlaced { get; }
 
 ### 适当的价值
 
-` true` 如果隔行扫描；否则，` false` 。
+`真的`如果交错；否则，`错误的` .
 
 ### 也可以看看
 

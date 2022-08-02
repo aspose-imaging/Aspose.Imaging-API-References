@@ -19,7 +19,7 @@ public interface IVectorPathData
 | Имя | Описание |
 | --- | --- |
 | [IsDisabled](../../aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/isdisabled) { get; set; } | Получает или задает значение, указывающее, отключен ли этот экземпляр. |
-| [IsInverted](../../aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/isinverted) { get; set; } | Получает или задает значение, указывающее, инвертирован ли данный экземпляр. |
+| [IsInverted](../../aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/isinverted) { get; set; } | Получает или задает значение, указывающее, инвертирован ли этот экземпляр. |
 | [IsNotLinked](../../aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/isnotlinked) { get; set; } | Получает или задает значение, указывающее, не связан ли этот экземпляр. |
 | [Paths](../../aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/paths) { get; set; } | Получает или задает записи пути. |
 | [Version](../../aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/version) { get; set; } | Получает или задает версию. |

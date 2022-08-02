@@ -24,11 +24,11 @@ public class OdFont
 
 | Имя | Описание |
 | --- | --- |
-| [Bold](../../aspose.imaging.fileformats.opendocument.objects.font/odfont/bold) { get; set; } | Получает или задает значение, указывающее, является ли это[`OdFont`](../odfont)весомым. |
+| [Bold](../../aspose.imaging.fileformats.opendocument.objects.font/odfont/bold) { get; set; } | Получает или задает значение, указывающее, является ли это[`OdFont`](../odfont) вес. |
 | [Facename](../../aspose.imaging.fileformats.opendocument.objects.font/odfont/facename) { get; set; } | Получает или устанавливает имя лица. |
 | [Height](../../aspose.imaging.fileformats.opendocument.objects.font/odfont/height) { get; set; } | Получает или задает высоту. |
-| [Italic](../../aspose.imaging.fileformats.opendocument.objects.font/odfont/italic) { get; set; } | Получает или задает значение, указывающее, является ли шрифт[`OdFont`](../odfont)курсивом. |
-| [Strikeout](../../aspose.imaging.fileformats.opendocument.objects.font/odfont/strikeout) { get; set; } | Получает или задает значение, указывающее, является ли это[`OdFont`](../odfont)зачеркнутым. |
+| [Italic](../../aspose.imaging.fileformats.opendocument.objects.font/odfont/italic) { get; set; } | Получает или задает значение, указывающее, является ли это[`OdFont`](../odfont) выделено курсивом. |
+| [Strikeout](../../aspose.imaging.fileformats.opendocument.objects.font/odfont/strikeout) { get; set; } | Получает или задает значение, указывающее, является ли это[`OdFont`](../odfont) зачеркнут. |
 
 ### Смотрите также
 

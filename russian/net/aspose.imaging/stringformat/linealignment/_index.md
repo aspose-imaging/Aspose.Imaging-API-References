@@ -16,7 +16,7 @@ public StringAlignment LineAlignment { get; set; }
 
 ### Стоимость имущества
 
-A[`StringAlignment`](../../stringalignment)перечисление, представляющее выравнивание строк.
+А[`StringAlignment`](../../stringalignment) перечисление, представляющее выравнивание строки.
 
 ### Смотрите также
 

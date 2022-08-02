@@ -1,14 +1,14 @@
 ---
 title: CColorBits
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 RGBA 像素类型的每个像素的位数不包括 alpha 位平面对于色表像素它是每个色表索引的大小
+description: 获取或设置 RGBA 像素类型的每个像素的位数不包括 alpha 位平面对于色表像素就是每个色表index 的大小
 type: docs
 weight: 130
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/ccolorbits/
 ---
 ## EmfPixelFormatDescriptor.CColorBits property
 
-获取或设置 RGBA 像素类型的每个像素的位数，不包括 alpha 位平面。对于色表像素，它是每个色表索引的大小
+获取或设置 RGBA 像素类型的每个像素的位数，不包括 alpha 位平面。对于色表像素，就是每个色表index 的大小
 
 ```csharp
 public byte CColorBits { get; set; }

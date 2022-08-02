@@ -3,7 +3,7 @@ title: SizeF
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Хранит упорядоченную пару чисел с плавающей запятой обычно ширину и высоту прямоугольника.
 type: docs
-weight: 11060
+weight: 11050
 url: /ru/net/aspose.imaging/sizef/
 ---
 ## SizeF structure
@@ -18,35 +18,35 @@ public struct SizeF
 
 | Имя | Описание |
 | --- | --- |
-| [SizeF](sizef#constructor)(PointF) | Инициализирует новый экземпляр структуры[`SizeF`](../sizef)из указанной[`PointF`](../pointf). |
-| [SizeF](sizef#constructor_1)(SizeF) | Инициализирует новый экземпляр структуры[`SizeF`](../sizef)из указаннойРазмерF. |
-| [SizeF](sizef#constructor_2)(float, float) | Инициализирует новый экземпляр структуры[`SizeF`](../sizef)из указанных измерений. |
+| [SizeF](sizef#constructor)(PointF) | Инициализирует новый экземпляр[`SizeF`](../sizef) структура из указанного[`PointF`](../pointf) . |
+| [SizeF](sizef#constructor_1)(SizeF) | Инициализирует новый экземпляр[`SizeF`](../sizef) структура из указанного[`SizeF`](../sizef) . |
+| [SizeF](sizef#constructor_2)(float, float) | Инициализирует новый экземпляр[`SizeF`](../sizef) структура из указанных размеров. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| static [Empty](../../aspose.imaging/sizef/empty) { get; } | Получает новый экземпляр структуры[`SizeF`](../sizef)сWidthи[`Height`](./height)равны нулю. |
-| [Height](../../aspose.imaging/sizef/height) { get; set; } | Получает или задает вертикальный компонент этого[`SizeF`](../sizef). |
-| [IsEmpty](../../aspose.imaging/sizef/isempty) { get; } | Получает значение, указывающее, имеет ли этот[`SizeF`](../sizef)нулевую ширину и высоту. |
-| [Width](../../aspose.imaging/sizef/width) { get; set; } | Получает или задает горизонтальный компонент этого[`SizeF`](../sizef). |
+| static [Empty](../../aspose.imaging/sizef/empty) { get; } | Получает новый экземпляр[`SizeF`](../sizef) структура, которая имеет[`Width`](./width) а также[`Height`](./height) значения равны нулю. |
+| [Height](../../aspose.imaging/sizef/height) { get; set; } | Получает или задает вертикальный компонент этого[`SizeF`](../sizef) . |
+| [IsEmpty](../../aspose.imaging/sizef/isempty) { get; } | Получает значение, указывающее, является ли это[`SizeF`](../sizef) имеет нулевую ширину и высоту. |
+| [Width](../../aspose.imaging/sizef/width) { get; set; } | Получает или задает горизонтальную составляющую этого[`SizeF`](../sizef) . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| static [Add](../../aspose.imaging/sizef/add)(SizeF, SizeF) | Добавляет ширину и высоту одной[`SizeF`](../sizef)структуры к ширине и высоте другой[`SizeF`](../sizef)структура. |
-| static [Subtract](../../aspose.imaging/sizef/subtract)(SizeF, SizeF) | Вычитает ширину и высоту одной[`SizeF`](../sizef)структуры из ширины и высоты другой[`SizeF`](../sizef)структура. |
-| override [Equals](../../aspose.imaging/sizef/equals)(object) | Проверяет, является ли указанный объект объектом[`SizeF`](../sizef)с такими же размерами, как этот[`SizeF`](../sizef). |
-| override [GetHashCode](../../aspose.imaging/sizef/gethashcode)() | Возвращает хэш-код для этой[`Size`](../size)структуры. |
-| [ToPointF](../../aspose.imaging/sizef/topointf)() | Преобразует[`SizeF`](../sizef)в[`PointF`](../pointf). |
-| [ToSize](../../aspose.imaging/sizef/tosize)() | Преобразует структуру[`SizeF`](../sizef)в структуру[`Size`](../size)с усеченными значениями размера. |
-| override [ToString](../../aspose.imaging/sizef/tostring)() | Создает удобочитаемую строку, которая представляет это[`SizeF`](../sizef). |
-| [operator +](../../aspose.imaging/sizef/op_addition) | Добавляет ширину и высоту одной[`SizeF`](../sizef)структуры к ширине и высоте другой[`SizeF`](../sizef)структура. |
-| [operator ==](../../aspose.imaging/sizef/op_equality) | Проверяет, равны ли две структуры[`SizeF`](../sizef). |
-| [explicit operator](../../aspose.imaging/sizef/op_explicit) | Преобразует указанный[`SizeF`](../sizef)в[`PointF`](../pointf). |
-| [operator !=](../../aspose.imaging/sizef/op_inequality) | Проверяет, различаются ли две структуры[`SizeF`](../sizef). |
-| [operator -](../../aspose.imaging/sizef/op_subtraction) | Вычитает ширину и высоту одной[`SizeF`](../sizef)структуры из ширины и высоты другой[`SizeF`](../sizef)структура. |
+| static [Add](../../aspose.imaging/sizef/add)(SizeF, SizeF) | Добавляет ширину и высоту одного[`SizeF`](../sizef) структура по ширине и высоте другой[`SizeF`](../sizef) структура. |
+| static [Subtract](../../aspose.imaging/sizef/subtract)(SizeF, SizeF) | Вычитает ширину и высоту из одного[`SizeF`](../sizef) структура от ширины и высоты другой[`SizeF`](../sizef) структура. |
+| override [Equals](../../aspose.imaging/sizef/equals)(object) | Проверяет, является ли указанный объект[`SizeF`](../sizef)с такими же размерами как этот[`SizeF`](../sizef) . |
+| override [GetHashCode](../../aspose.imaging/sizef/gethashcode)() | Возвращает хеш-код для этого[`Size`](../size) структура. |
+| [ToPointF](../../aspose.imaging/sizef/topointf)() | Преобразует[`SizeF`](../sizef) к[`PointF`](../pointf) . |
+| [ToSize](../../aspose.imaging/sizef/tosize)() | Преобразует[`SizeF`](../sizef) к[`Size`](../size) структура с усеченными значениями размера. |
+| override [ToString](../../aspose.imaging/sizef/tostring)() | Создает удобочитаемую строку, представляющую этот[`SizeF`](../sizef) . |
+| [operator +](../../aspose.imaging/sizef/op_addition) | Добавляет ширину и высоту одного[`SizeF`](../sizef) структура по ширине и высоте другой[`SizeF`](../sizef) структура. |
+| [operator ==](../../aspose.imaging/sizef/op_equality) | Проверяет, являются ли два[`SizeF`](../sizef) структуры равны. |
+| [explicit operator](../../aspose.imaging/sizef/op_explicit) | Преобразует указанный[`SizeF`](../sizef) к[`PointF`](../pointf) . |
+| [operator !=](../../aspose.imaging/sizef/op_inequality) | Проверяет, являются ли два[`SizeF`](../sizef) структуры разные. |
+| [operator -](../../aspose.imaging/sizef/op_subtraction) | Вычитает ширину и высоту из одного[`SizeF`](../sizef) структура от ширины и высоты другой[`SizeF`](../sizef) структура. |
 
 ### Смотрите также
 

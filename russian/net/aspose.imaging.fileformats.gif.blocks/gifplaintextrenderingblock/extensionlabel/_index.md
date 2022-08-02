@@ -1,14 +1,14 @@
 ---
 title: ExtensionLabel
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Метка расширения обычного текста.
+description: Метка расширения в виде обычного текста.
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/extensionlabel/
 ---
 ## GifPlainTextRenderingBlock.ExtensionLabel field
 
-Метка расширения обычного текста.
+Метка расширения в виде обычного текста.
 
 ```csharp
 public const byte ExtensionLabel;

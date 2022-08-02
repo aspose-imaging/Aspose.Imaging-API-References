@@ -1,14 +1,14 @@
 ---
 title: EmfPlusPathGradientBrushData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект EmfPlusPathGradientBrushData определяет градиент пути для графической кисти.
+description: Объект EmfPlusPathGradientBrushData определяет градиент траектории для графической кисти.
 type: docs
 weight: 5620
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/
 ---
 ## EmfPlusPathGradientBrushData class
 
-Объект EmfPlusPathGradientBrushData определяет градиент пути для графической кисти.
+Объект EmfPlusPathGradientBrushData определяет градиент траектории для графической кисти.
 
 ```csharp
 public sealed class EmfPlusPathGradientBrushData : EmfPlusBaseBrushData
@@ -25,12 +25,12 @@ public sealed class EmfPlusPathGradientBrushData : EmfPlusBaseBrushData
 | Имя | Описание |
 | --- | --- |
 | [BoundaryData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/boundarydata) { get; set; } | Получает или задает границу кисти градиента пути, которая задается либо путем, либо замкнутым кардинальным сплайном. Если в поле BrushDataFlags установлен флаг BrushDataPath, это поле ДОЛЖНО содержать объект EmfPlusBoundaryPathData (раздел 2.2.2.6); в противном случае это поле ДОЛЖНО содержать объект EmfPlusBoundaryPointData (раздел 2.2.2.7). |
-| [BrushDataFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/brushdataflags) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее данные в поле OptionalData. Это значение ДОЛЖНО состоять из флагов BrushData (раздел 2.1.2.1). Следующие флаги относятся к кисти градиента пути: |
-| [CenterArgb32Color](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/centerargb32color) { get; set; } | Получает или задает объект EmfPlusARGB (раздел 2.2.2.1), указывающий центральный цвет кисти градиента пути, который является отображаемым цветом в центре кисти. Цвет кисти постепенно меняется от границы цвета к центральному цвету по мере движения от границы к центральной точке. |
-| [CenterPointF](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/centerpointf) { get; set; } | Получает или задает объект EmfPlusARGB (раздел 2.2.2.1), который определяет центральный цвет кисти градиента контура, отображаемый цвет в центре кисти. Цвет кисти постепенно меняется от цвета границы к центральному цвету по мере ее перемещения от границы к центральной точке. |
+| [BrushDataFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/brushdataflags) { get; set; } | Получает или задает 32-битное целое число без знака, определяющее данные в поле OptionalData. Это значение ДОЛЖНО состоять из флагов BrushData (раздел 2.1.2.1). Следующие флаги относятся к кисти градиента пути: |
+| [CenterArgb32Color](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/centerargb32color) { get; set; } | Получает или задает объект EmfPlusARGB (раздел 2.2.2.1), указывающий центральный цвет кисти градиента пути, то есть цвет, отображаемый в центральной точке кисти. Цвет кисти постепенно меняется от цвета границы к центральному цвету по мере движения от границы к центральной точке. |
+| [CenterPointF](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/centerpointf) { get; set; } | Получает или задает объект EmfPlusARGB (раздел 2.2.2.1), указывающий центральный цвет кисти градиента пути, — цвет, отображаемый в центральной точке кисти. Цвет кисти постепенно меняется от цвета границы к центральному цвету по мере перемещения от границы к центральной точке. |
 | [OptionalData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/optionaldata) { get; set; } | Получает или задает необязательный объект EmfPlusPathGradientBrushOptionalData (раздел 2.2.2.30), который указывает дополнительные данные для кисти градиента пути. Конкретное содержимое этого поля определяется значением поля BrushDataFlags. |
 | [SurroundingArgb32Colors](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/surroundingargb32colors) { get; set; } | Получает или задает массив объектов EmfPlusARGB SurroundingColorCount , которые определяют цвета для дискретных точек на границе кисти. |
-| [WrapMode](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/wrapmode) { get; set; } | Получает или задает 32-битное целое число со знаком из перечисления WrapMode (раздел 2.1.1.34), которое указывает закрашивать ли область за границей кисти. При рисовании за пределами границы режим обтекания указывает, как повторяется цветовой градиент |
+| [WrapMode](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/wrapmode) { get; set; } | Получает или задает 32-битное целое число со знаком из перечисления WrapMode (раздел 2.1.1.34), которое указывает , следует ли закрашивать область за границей кисти. При рисовании за пределами границы режим переноса указывает, как повторяется цветовой градиент |
 
 ### Смотрите также
 

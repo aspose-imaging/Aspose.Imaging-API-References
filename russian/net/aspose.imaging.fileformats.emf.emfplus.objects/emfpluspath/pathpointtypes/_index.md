@@ -1,14 +1,14 @@
 ---
 title: PathPointTypes
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив указывающий как точки в поле PathPoints используются для рисования пути. Тип объектов в этом массиве задается флагом R в поле PathPointFlags
+description: Получает или задает массив указывающий как точки в поле PathPoints используются для рисования пути. Тип объектов в этом массиве определяется флагом R в поле PathPointFlags
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath/pathpointtypes/
 ---
 ## EmfPlusPath.PathPointTypes property
 
-Получает или задает массив, указывающий, как точки в поле PathPoints используются для рисования пути. Тип объектов в этом массиве задается флагом R в поле PathPointFlags
+Получает или задает массив, указывающий, как точки в поле PathPoints используются для рисования пути. Тип объектов в этом массиве определяется флагом R в поле PathPointFlags
 
 ```csharp
 public EmfPlusBasePointType[] PathPointTypes { get; set; }

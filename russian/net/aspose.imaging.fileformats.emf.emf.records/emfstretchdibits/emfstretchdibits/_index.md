@@ -1,14 +1,14 @@
 ---
 title: EmfStretchDiBits
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfStretchDiBitsaspose.imaging.fileformats.emf.emf.records/emfstretchdibits.
+description: Инициализирует новый экземплярEmfStretchDiBitsaspose.imaging.fileformats.emf.emf.records/emfstretchdibits класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfstretchdibits/emfstretchdibits/
 ---
 ## EmfStretchDiBits constructor
 
-Инициализирует новый экземпляр класса[`EmfStretchDiBits`](../../emfstretchdibits).
+Инициализирует новый экземпляр[`EmfStretchDiBits`](../../emfstretchdibits) класс.
 
 ```csharp
 public EmfStretchDiBits(EmfRecord source)

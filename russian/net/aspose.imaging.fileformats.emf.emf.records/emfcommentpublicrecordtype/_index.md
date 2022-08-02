@@ -1,14 +1,14 @@
 ---
 title: EmfCommentPublicRecordType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Типы записей EMR_COMMENT_PUBLIC задают расширения для обработки EMF.
+description: Типы записей EMR_COMMENT_PUBLIC указывают расширения для обработки EMF.
 type: docs
 weight: 3410
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcommentpublicrecordtype/
 ---
 ## EmfCommentPublicRecordType class
 
-Типы записей EMR_COMMENT_PUBLIC задают расширения для обработки EMF.
+Типы записей EMR_COMMENT_PUBLIC указывают расширения для обработки EMF.
 
 ```csharp
 public abstract class EmfCommentPublicRecordType : EmfCommentRecordType
@@ -18,10 +18,10 @@ public abstract class EmfCommentPublicRecordType : EmfCommentRecordType
 
 | Имя | Описание |
 | --- | --- |
-| override [CommentIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentpublicrecordtype/commentidentifier) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое идентифицирует эту запись комментария как определяющую общедоступные данные. Значение 0x43494447, представляющее собой строку ASCII "CIDG", идентифицирует это как запись EMR_COMMENT_PUBLIC. |
-| [DataSize](../../aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер (в байтах) полей CommentIdentifier и CommentRecordParm в поле RecordBuffer, следует. Он НЕ ДОЛЖЕН включать размер самого себя или размер поля AlignmentPadding, если присутствует |
-| [PublicCommentIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentpublicrecordtype/publiccommentidentifier) { get; set; } | Получает или задает 32-разрядное целое число без знака, определяющее тип записи открытого комментария . Это ДОЛЖНО быть одним из значений, перечисленных в предыдущей таблице, которые указаны в перечислении EmrComment (раздел 2.1.10), если не были реализованы дополнительные общедоступные типы записей комментариев. на сервере печати. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| override [CommentIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentpublicrecordtype/commentidentifier) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое идентифицирует эту запись комментария как определяющую общедоступные данные. Значение 0x43494447, которое является строкой ASCII "CIDG", идентифицирует это как запись EMR_COMMENT_PUBLIC. |
+| [DataSize](../../aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер в байтах полей CommentIdentifier и CommentRecordParm в поле RecordBuffer, за которым следует . Он НЕ ДОЛЖЕН включать размер самого себя или размер поля AlignmentPadding, если present |
+| [PublicCommentIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentpublicrecordtype/publiccommentidentifier) { get; set; } | Получает или задает 32-разрядное целое число без знака, определяющее тип записи общественного комментария . Это ДОЛЖНО быть одним из значений, перечисленных в предыдущей таблице, которые указаны в перечислении EmrComment (раздел 2.1.10), если на сервере печати не реализованы дополнительные общедоступные типы записей комментариев . |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

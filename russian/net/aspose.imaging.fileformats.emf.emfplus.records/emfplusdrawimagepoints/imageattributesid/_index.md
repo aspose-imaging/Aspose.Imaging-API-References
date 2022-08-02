@@ -1,14 +1,14 @@
 ---
 title: ImageAttributesId
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака содержащее индекс необязательного объекта EmfPlusImageAttributes раздел 2.2.1.5 в объекте EMF. Стол.
+description: Получает или задает 32-разрядное целое число без знака содержащее индекс необязательного объекта EmfPlusImageAttributes раздел 2.2.1.5 в таблице объектов EMF.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimagepoints/imageattributesid/
 ---
 ## EmfPlusDrawImagePoints.ImageAttributesId property
 
-Получает или задает 32-разрядное целое число без знака, содержащее индекс необязательного объекта EmfPlusImageAttributes (раздел 2.2.1.5) в объекте EMF+. Стол.
+Получает или задает 32-разрядное целое число без знака, содержащее индекс необязательного объекта EmfPlusImageAttributes (раздел 2.2.1.5) в таблице объектов EMF+.
 
 ```csharp
 public int ImageAttributesId { get; set; }

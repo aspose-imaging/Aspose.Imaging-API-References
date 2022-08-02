@@ -1,14 +1,14 @@
 ---
 title: ColorPalette
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置调色板数组 元素是在Int32
+description: 获取或设置调色板数组 元素是ARGB颜色值表示在Int32
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/colorpalette/
 ---
 ## CmxRasterImage.ColorPalette property
 
-获取或设置调色板数组。 元素是在Int32
+获取或设置调色板数组。 元素是ARGB颜色值，表示在Int32
 
 ```csharp
 public int[] ColorPalette { get; set; }

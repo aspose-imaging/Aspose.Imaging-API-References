@@ -1,14 +1,14 @@
 ---
 title: ToGdiColor
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПреобразуетColoraspose.imaging/colorвColor.
+description: ПреобразуетColoraspose.imaging/color кColor .
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.extensions/colorextensions/togdicolor/
 ---
 ## ColorExtensions.ToGdiColor method
 
-Преобразует[`Color`](../../../aspose.imaging/color)вColor.
+Преобразует[`Color`](../../../aspose.imaging/color) кColor .
 
 ```csharp
 public static Color ToGdiColor(Color color)
@@ -16,7 +16,7 @@ public static Color ToGdiColor(Color color)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| color | Color | [`Color`](../../../aspose.imaging/color)для преобразования. |
+| color | Color | [`Color`](../../../aspose.imaging/color) конвертировать. |
 
 ### Возвращаемое значение
 

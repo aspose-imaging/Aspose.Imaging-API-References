@@ -1,14 +1,14 @@
 ---
 title: Points
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置点
+description: 获取或设置点数
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrppdt/points/
 ---
 ## CdrPpdt.Points property
 
-获取或设置点。
+获取或设置点数。
 
 ```csharp
 public PointD[] Points { get; set; }
@@ -16,7 +16,7 @@ public PointD[] Points { get; set; }
 
 ### 适当的价值
 
-点。
+点数。
 
 ### 也可以看看
 

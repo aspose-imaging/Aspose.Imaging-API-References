@@ -1,14 +1,14 @@
 ---
 title: UlMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака определяющее режим градиентной заливки. Значение ДОЛЖНО находиться в перечислении GradientFill раздел 2.1.15.
+description: Получает или задает 32-разрядное целое число без знака указывающее режим градиентной заливки. Значение ДОЛЖНО быть в перечислении GradientFill раздел 2.1.15.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfgradientfill/ulmode/
 ---
 ## EmfGradientFill.UlMode property
 
-Получает или задает 32-разрядное целое число без знака, определяющее режим градиентной заливки. Значение ДОЛЖНО находиться в перечислении GradientFill (раздел 2.1.15).
+Получает или задает 32-разрядное целое число без знака, указывающее режим градиентной заливки. Значение ДОЛЖНО быть в перечислении GradientFill (раздел 2.1.15).
 
 ```csharp
 public EmfGradientFill UlMode { get; set; }

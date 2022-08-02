@@ -1,14 +1,14 @@
 ---
 title: ToSize
 second_title: Aspose.Imaging for .NET API 参考
-description: 将SizeFaspose.imaging/sizef转换为Sizeaspose.imaging/size结构具有截断的大小值
+description: 转换一个SizeFaspose.imaging/sizef到一个Sizeaspose.imaging/size具有截断大小值的结构
 type: docs
 weight: 110
 url: /zh/net/aspose.imaging/sizef/tosize/
 ---
 ## SizeF.ToSize method
 
-将[`SizeF`](../../sizef)转换为[`Size`](../../size)结构具有截断的大小值。
+转换一个[`SizeF`](../../sizef)到一个[`Size`](../../size)具有截断大小值的结构。
 
 ```csharp
 public Size ToSize()
@@ -16,7 +16,7 @@ public Size ToSize()
 
 ### 返回值
 
-返回[`Size`](../../size)结构。
+返回一个[`Size`](../../size)结构体。
 
 ### 也可以看看
 

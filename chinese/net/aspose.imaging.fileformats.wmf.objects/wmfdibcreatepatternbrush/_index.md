@@ -1,14 +1,14 @@
 ---
 title: WmfDibCreatePatternBrush
 second_title: Aspose.Imaging for .NET API 参考
-description: META_DIBCREATEPATTERNBRUSH 记录创建一个画笔对象章节 2.2.1.1其模式由 DeviceIndependentBitmap DIB47 指定对象第 2.2.2.9 节
+description: META_DIBCREATEPATTERNBRUSH 记录创建一个画笔对象 section 2.2.1.1其图案由 DeviceIndependentBitmap DIB 对象第 2.2.2.9 节指定
 type: docs
 weight: 8600
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfdibcreatepatternbrush/
 ---
 ## WmfDibCreatePatternBrush class
 
-META_DIBCREATEPATTERNBRUSH 记录创建一个画笔对象（章节 2.2.1.1），其模式由 DeviceIndependentBitmap (DIB):::47 指定:::对象（第 2.2.2.9 节）。
+META_DIBCREATEPATTERNBRUSH 记录创建一个画笔对象 (section 2.2.1.1)，其图案由 DeviceIndependentBitmap (DIB) 对象（第 2.2.2.9 节）指定。
 
 ```csharp
 public class WmfDibCreatePatternBrush : WmfGraphicObject
@@ -24,7 +24,7 @@ public class WmfDibCreatePatternBrush : WmfGraphicObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ColorUsage](../../aspose.imaging.fileformats.wmf.objects/wmfdibcreatepatternbrush/colorusage) { get; set; } | 获取或设置颜色使用。 |
+| [ColorUsage](../../aspose.imaging.fileformats.wmf.objects/wmfdibcreatepatternbrush/colorusage) { get; set; } | 获取或设置颜色使用情况。 |
 | [Index](../../aspose.imaging.fileformats.wmf.objects/wmfgraphicobject/index) { get; set; } | 获取或设置索引。 |
 | [SourceBitmap](../../aspose.imaging.fileformats.wmf.objects/wmfdibcreatepatternbrush/sourcebitmap) { get; set; } | 获取或设置源位图。 |
 | [Style](../../aspose.imaging.fileformats.wmf.objects/wmfdibcreatepatternbrush/style) { get; set; } | 获取或设置样式。 |

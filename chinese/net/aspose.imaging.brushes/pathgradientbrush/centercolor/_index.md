@@ -16,7 +16,7 @@ public Color CenterColor { get; set; }
 
 ### 适当的价值
 
-A[`Color`](../../../aspose.imaging/color)表示路径渐变中心的颜色.
+一个[`Color`](../../../aspose.imaging/color)表示路径渐变中心的颜色。
 
 ### 也可以看看
 

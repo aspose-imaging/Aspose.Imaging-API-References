@@ -3,7 +3,7 @@ title: CurveShape
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示曲线样条形状
 type: docs
-weight: 10980
+weight: 10970
 url: /zh/net/aspose.imaging.shapes/curveshape/
 ---
 ## CurveShape class
@@ -18,11 +18,11 @@ public sealed class CurveShape : PolygonShape
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CurveShape](curveshape#constructor)() | 初始化[`CurveShape`](../curveshape)类的新实例。 |
-| [CurveShape](curveshape#constructor_1)(PointF[]) | 初始化[`CurveShape`](../curveshape)类的新实例。使用默认张力 0.5。 |
-| [CurveShape](curveshape#constructor_2)(PointF[], bool) | 初始化[`CurveShape`](../curveshape)类的新实例。使用默认张力 0.5。 |
-| [CurveShape](curveshape#constructor_3)(PointF[], float) | 初始化[`CurveShape`](../curveshape)类的新实例。 |
-| [CurveShape](curveshape#constructor_4)(PointF[], float, bool) | 初始化[`CurveShape`](../curveshape)类的新实例。 |
+| [CurveShape](curveshape#constructor)() | 初始化[`CurveShape`](../curveshape)类. |
+| [CurveShape](curveshape#constructor_1)(PointF[]) | 初始化[`CurveShape`](../curveshape)班级。使用默认张力 0.5。 |
+| [CurveShape](curveshape#constructor_2)(PointF[], bool) | 初始化[`CurveShape`](../curveshape)班级。使用默认张力 0.5。 |
+| [CurveShape](curveshape#constructor_3)(PointF[], float) | 初始化[`CurveShape`](../curveshape)类. |
+| [CurveShape](curveshape#constructor_4)(PointF[], float, bool) | 初始化[`CurveShape`](../curveshape)类. |
 
 ## 特性
 
@@ -31,7 +31,7 @@ public sealed class CurveShape : PolygonShape
 | override [Bounds](../../aspose.imaging.shapes/curveshape/bounds) { get; } | 获取对象的边界。 |
 | override [Center](../../aspose.imaging.shapes/curveshape/center) { get; } | 获取形状的中心。 |
 | virtual [EndPoint](../../aspose.imaging.shapes/polygonshape/endpoint) { get; } | 获取结束形状点。 |
-| override [HasSegments](../../aspose.imaging.shapes/polygonshape/hassegments) { get; } | 获取表示形状是否有段的值。 |
+| override [HasSegments](../../aspose.imaging.shapes/polygonshape/hassegments) { get; } | 获取一个表示形状是否有段的值。 |
 | [IsClosed](../../aspose.imaging.shapes/polygonshape/isclosed) { get; set; } | 获取或设置一个表示形状是否闭合的值。 |
 | [Points](../../aspose.imaging.shapes/polygonshape/points) { get; set; } | 获取或设置曲线点。 |
 | override [Segments](../../aspose.imaging.shapes/curveshape/segments) { get; } | 获取形状段。 |

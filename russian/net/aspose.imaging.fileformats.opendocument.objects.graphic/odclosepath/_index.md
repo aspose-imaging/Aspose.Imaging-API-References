@@ -18,13 +18,13 @@ public class OdClosePath : OdGraphicObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdClosePath](odclosepath)(OdObject) | Инициализирует новый экземпляр класса[`OdClosePath`](../odclosepath). |
+| [OdClosePath](odclosepath)(OdObject) | Инициализирует новый экземпляр[`OdClosePath`](../odclosepath) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Получает родительский объект. |
 

@@ -16,13 +16,13 @@ public void RemovePage(int pageIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageIndex | Int32 | 页面索引。 |
+| pageIndex | Int32 | 页面的索引。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | *pageIndex*- 页面索引小于` 0` 。 或 *pageIndex*- 页面索引等于或大于DicomImage。页数。 |
+| ArgumentOutOfRangeException | *pageIndex* - 页面索引小于`0`. 或 *pageIndex* - 页面索引等于或大于[`PageCount`](../pagecount) . |
 
 ### 也可以看看
 

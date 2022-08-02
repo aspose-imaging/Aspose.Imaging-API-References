@@ -1,14 +1,14 @@
 ---
 title: CdrDocument
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 CDR 文档
+description: 获取或设置话单文档
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.cdr/icdrimage/cdrdocument/
 ---
 ## ICdrImage.CdrDocument property
 
-获取或设置 CDR 文档。
+获取或设置话单文档。
 
 ```csharp
 public CdrDocument CdrDocument { get; }
@@ -16,7 +16,7 @@ public CdrDocument CdrDocument { get; }
 
 ### 适当的价值
 
-CDR 文档。
+CDR 文件。
 
 ### 也可以看看
 

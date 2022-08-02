@@ -16,7 +16,7 @@ public ApngFrame InsertFrame(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 索引。 |
+| index | Int32 | 指数。 |
 
 ### 返回值
 
@@ -26,7 +26,7 @@ public ApngFrame InsertFrame(int index)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | *index*小于 0。 或 ::R9:index:::大于[`PageCount`](../pagecount)。 |
+| ArgumentOutOfRangeException | *index*小于 0. 或 *index*大于[`PageCount`](../pagecount) . |
 
 ### 也可以看看
 
@@ -39,7 +39,7 @@ public ApngFrame InsertFrame(int index)
 
 ## InsertFrame(int, RasterImage) {#insertframe_1}
 
-在指定索引处将新帧插入到自己的帧集合中。 新帧的内容将从指定的图像开始填充。
+在指定索引处将新帧插入到自己的帧集合中。 新帧的内容将从指定的图像中填充。
 
 ```csharp
 public void InsertFrame(int index, RasterImage frameImage)
@@ -47,15 +47,15 @@ public void InsertFrame(int index, RasterImage frameImage)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 索引。 |
+| index | Int32 | 指数。 |
 | frameImage | RasterImage | 帧图像。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | *index*小于 0。 或 ::R9:index:::大于[`PageCount`](../pagecount)。 |
-| ArgumentNullException | frameImage 为空。 |
+| ArgumentOutOfRangeException | *index*小于 0. 或 *index*大于[`PageCount`](../pagecount) . |
+| ArgumentNullException | 帧图像为空。 |
 
 ### 也可以看看
 
@@ -68,7 +68,7 @@ public void InsertFrame(int index, RasterImage frameImage)
 
 ## InsertFrame(int, RasterImage, uint) {#insertframe_2}
 
-在指定索引处将新帧插入到自己的帧集合中。 新帧的内容将从指定的图像开始填充。
+在指定索引处将新帧插入到自己的帧集合中。 新帧的内容将从指定的图像中填充。
 
 ```csharp
 public void InsertFrame(int index, RasterImage frameImage, uint frameTime)
@@ -76,7 +76,7 @@ public void InsertFrame(int index, RasterImage frameImage, uint frameTime)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 索引。 |
+| index | Int32 | 指数。 |
 | frameImage | RasterImage | 帧图像。 |
 | frameTime | UInt32 | 帧持续时间，以毫秒为单位。 |
 
@@ -84,8 +84,8 @@ public void InsertFrame(int index, RasterImage frameImage, uint frameTime)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | *index*小于 0。 或 ::R9:index:::大于[`PageCount`](../pagecount)。 |
-| ArgumentNullException | frameImage 为空。 |
+| ArgumentOutOfRangeException | *index*小于 0. 或 *index*大于[`PageCount`](../pagecount) . |
+| ArgumentNullException | 帧图像为空。 |
 
 ### 也可以看看
 

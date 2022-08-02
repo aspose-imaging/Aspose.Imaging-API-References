@@ -1,14 +1,14 @@
 ---
 title: SetStudyDateTime
 second_title: Aspose.Imaging for .NET API 参考
-description: 设置研究日期时间
+description: 设置学习日期时间
 type: docs
 weight: 120
 url: /zh/net/aspose.imaging.xmp.schemas.dicom/dicompackage/setstudydatetime/
 ---
 ## DicomPackage.SetStudyDateTime method
 
-设置研究日期时间。
+设置学习日期时间。
 
 ```csharp
 public void SetStudyDateTime(string studyDateTime)
@@ -16,7 +16,7 @@ public void SetStudyDateTime(string studyDateTime)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| studyDateTime | String | studyDateTime。 |
+| studyDateTime | String | 学习日期时间。 |
 
 ### 也可以看看
 

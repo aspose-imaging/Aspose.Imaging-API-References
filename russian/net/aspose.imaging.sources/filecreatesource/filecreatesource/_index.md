@@ -1,14 +1,14 @@
 ---
 title: FileCreateSource
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаFileCreateSourceaspose.imaging.sources/filecreatesource.
+description: Инициализирует новый экземплярFileCreateSourceaspose.imaging.sources/filecreatesource класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.sources/filecreatesource/filecreatesource/
 ---
 ## FileCreateSource(string) {#constructor}
 
-Инициализирует новый экземпляр класса[`FileCreateSource`](../../filecreatesource).
+Инициализирует новый экземпляр[`FileCreateSource`](../../filecreatesource) класс.
 
 ```csharp
 public FileCreateSource(string filePath)
@@ -16,7 +16,7 @@ public FileCreateSource(string filePath)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filePath | String | Путь к создаваемому файлу. |
+| filePath | String | Путь к файлу для создания. |
 
 ### Примеры
 
@@ -25,18 +25,18 @@ public FileCreateSource(string filePath)
 ```csharp
 [C#]
 
- //Создает экземпляр BmpOptions и устанавливает его различные свойства
+//Создает экземпляр BmpOptions и устанавливает его различные свойства
 Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 bmpOptions.BitsPerPixel = 24;
 
- //Создаем экземпляр FileCreateSource и назначаем его в качестве источника для экземпляра BmpOptions
+//Создаем экземпляр FileCreateSource и назначаем его в качестве источника для экземпляра BmpOptions
 //Если второй параметр не передан, то по умолчанию для файла IsTemporal установлено значение True
 bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"C:\temp\output.bmp");
 
- // Создает экземпляр изображения 
+// Создает экземпляр изображения 
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
 {
-     // сделать некоторую обработку изображения
+    // делаем некоторую обработку изображения
 }
 ```
 
@@ -50,7 +50,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
 
 ## FileCreateSource(string, bool) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`FileCreateSource`](../../filecreatesource).
+Инициализирует новый экземпляр[`FileCreateSource`](../../filecreatesource) класс.
 
 ```csharp
 public FileCreateSource(string filePath, bool isTemporal)
@@ -58,8 +58,8 @@ public FileCreateSource(string filePath, bool isTemporal)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| filePath | String | Путь к создаваемому файлу. |
-| isTemporal | Boolean | Если установлено значение` true` , созданный файл будет временным. |
+| filePath | String | Путь к файлу для создания. |
+| isTemporal | Boolean | Если установлено`истинный`созданный файл будет временным. |
 
 ### Примеры
 
@@ -68,20 +68,20 @@ public FileCreateSource(string filePath, bool isTemporal)
 ```csharp
 [C#]
 
- //Создаем экземпляр BmpOptions и устанавливаем его различные свойства
+//Создаем экземпляр BmpOptions и устанавливаем его различные свойства
 Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 bmpOptions.BitsPerPixel = 24;
 
- //Создаем экземпляр FileCreateSource и назначаем его в качестве источника для экземпляра BmpOptions
- //Второй логический параметр определяет, является ли создаваемый файл временным или нет
+//Создаем экземпляр FileCreateSource и назначаем его в качестве источника для экземпляра BmpOptions
+//Второй логический параметр определяет, является ли создаваемый файл временным или нет
 bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"C:\temp\output.bmp", false);
 
- //Создаем экземпляр Image и инициализируем его экземпляром BmpOptions, вызвав Create method
+//Создаем экземпляр Image и инициализируем его экземпляром BmpOptions, вызвав метод Create
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
 {
-     // сделать некоторую обработку изображения
+    // делаем некоторую обработку изображения
 
-     // сохранить все изменения
+    // сохранить все изменения
     image.Save();
 }
 ```

@@ -18,8 +18,8 @@ public enum ExifColorSpace
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| SRgb | `1` | SRGB 颜色空间。 |
-| AdobeRgb | `2` | Adobe rgb 颜色空间。 |
+| SRgb | `1` | SRGB 色彩空间。 |
+| AdobeRgb | `2` | Adobe rgb 色彩空间。 |
 | Uncalibrated | `65535` | 未校准的色彩空间。 |
 
 ### 也可以看看

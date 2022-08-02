@@ -16,7 +16,7 @@ public void SetPatientId(string patientId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| patientId | String | 患者 ID。 |
+| patientId | String | 病人的身份证。 |
 
 ### 也可以看看
 

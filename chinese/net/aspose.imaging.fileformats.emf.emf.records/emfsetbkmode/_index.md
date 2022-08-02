@@ -18,8 +18,8 @@ public sealed class EmfSetBkMode : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSetBkMode](emfsetbkmode#constructor)() | 初始化[`EmfSetBkMode`](../emfsetbkmode)类的新实例。 |
-| [EmfSetBkMode](emfsetbkmode#constructor_1)(EmfRecord) | 初始化[`EmfSetBkMode`](../emfsetbkmode)类的新实例。 |
+| [EmfSetBkMode](emfsetbkmode#constructor)() | 初始化[`EmfSetBkMode`](../emfsetbkmode)类. |
+| [EmfSetBkMode](emfsetbkmode#constructor_1)(EmfRecord) | 初始化[`EmfSetBkMode`](../emfsetbkmode)类. |
 
 ## 特性
 

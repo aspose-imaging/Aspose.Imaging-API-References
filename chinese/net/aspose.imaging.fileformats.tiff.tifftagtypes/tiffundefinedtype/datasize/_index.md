@@ -16,7 +16,7 @@ public override uint DataSize { get; }
 
 ### 适当的价值
 
-附加数据大小（以字节为单位）。
+以字节为单位的附加数据大小。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: TiffUnknownType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Неизвестный тип tiff. В случае если тег tiff не может быть распознан этот тип создается экземпляром.
+description: Неизвестный тип TIFF. В случае если тег tiff не может быть распознан создается экземпляр этого типа.
 type: docs
 weight: 8050
 url: /ru/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/
 ---
 ## TiffUnknownType class
 
-Неизвестный тип tiff. В случае, если тег tiff не может быть распознан, этот тип создается экземпляром.
+Неизвестный тип TIFF. В случае, если тег tiff не может быть распознан, создается экземпляр этого типа.
 
 ```csharp
 public sealed class TiffUnknownType : TiffDataType
@@ -18,7 +18,7 @@ public sealed class TiffUnknownType : TiffDataType
 
 | Имя | Описание |
 | --- | --- |
-| [TiffUnknownType](tiffunknowntype)(TiffStreamReader, ushort, ushort, uint, uint) | Инициализирует новый экземпляр класса[`TiffUnknownType`](../tiffunknowntype). |
+| [TiffUnknownType](tiffunknowntype)(TiffStreamReader, ushort, ushort, uint, uint) | Инициализирует новый экземпляр[`TiffUnknownType`](../tiffunknowntype) класс. |
 
 ## Характеристики
 
@@ -29,8 +29,8 @@ public sealed class TiffUnknownType : TiffDataType
 | override [DataSize](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/datasize) { get; } | Получает размер дополнительных данных в байтах (в случае, если 12 байтов недостаточно для размещения данных тега). |
 | [Id](../../aspose.imaging.fileformats.tiff/tiffdatatype/id) { get; } | Получает целочисленное представление идентификатора тега. |
 | [IsValid](../../aspose.imaging.fileformats.tiff/tiffdatatype/isvalid) { get; } | Получает значение, указывающее, допустимы ли данные тега. Действительный тег содержит данные, которые можно сохранить. Недопустимый тег не может быть сохранен. |
-| [OffsetOrValue](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/offsetorvalue) { get; } | Получает значение смещения для дополнительных данных или самого значения в случае, если count равен 1. |
-| [Stream](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/stream) { get; } | Получает поток, из которого считываются дополнительные данные. |
+| [OffsetOrValue](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/offsetorvalue) { get; } | Получает значение смещения для дополнительных данных или самого значения, если count равен 1. |
+| [Stream](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/stream) { get; } | Получает поток для чтения дополнительных данных из. |
 | [TagId](../../aspose.imaging.fileformats.tiff/tiffdatatype/tagid) { get; } | Получает идентификатор тега. |
 | override [TagType](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/tagtype) { get; } | Получает тип тега. |
 | override [Value](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/value) { get; set; } | Получает или задает значение, которое содержит этот тип данных. |
@@ -39,15 +39,15 @@ public sealed class TiffUnknownType : TiffDataType
 
 | Имя | Описание |
 | --- | --- |
-| [CompareTo](../../aspose.imaging.fileformats.tiff/tiffdatatype/compareto)(object) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует ли за ним или находится в той же позиции в порядке сортировки как другой объект. |
+| [CompareTo](../../aspose.imaging.fileformats.tiff/tiffdatatype/compareto)(object) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует за ним или находится в той же позиции в порядке сортировки, что и другой объект. |
 | virtual [DeepClone](../../aspose.imaging.fileformats.tiff/tiffdatatype/deepclone)() | Выполняет глубокое клонирование этого экземпляра. |
-| override [ToString](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 | override [WriteAdditionalData](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/writeadditionaldata)(TiffStreamWriter) | Записывает дополнительные данные тега. |
 | [WriteTag](../../aspose.imaging.fileformats.tiff/tiffdatatype/writetag)(TiffStreamWriter, long) | Записывает данные тега. |
 
 ### Примечания
 
-Обратите внимание, что[`TiffUnknownType`](../tiffunknowntype)не сериализуется обратно транслировать.
+Обратите внимание[`TiffUnknownType`](../tiffunknowntype) не сериализуется обратно в поток.
 
 ### Смотрите также
 

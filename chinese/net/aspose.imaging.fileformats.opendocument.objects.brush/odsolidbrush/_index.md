@@ -1,14 +1,14 @@
 ---
 title: OdSolidBrush
 second_title: Aspose.Imaging for .NET API 参考
-description: 打开文档实体画笔
+description: 打开的文档实体刷
 type: docs
 weight: 6940
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.brush/odsolidbrush/
 ---
 ## OdSolidBrush class
 
-打开文档实体画笔
+打开的文档实体刷
 
 ```csharp
 public class OdSolidBrush : OdBrush
@@ -24,7 +24,7 @@ public class OdSolidBrush : OdBrush
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Argb32Color](../../aspose.imaging.fileformats.opendocument.objects.brush/odsolidbrush/argb32color) { get; set; } | 获取或设置 argb32 的颜色。 |
+| [Argb32Color](../../aspose.imaging.fileformats.opendocument.objects.brush/odsolidbrush/argb32color) { get; set; } | 获取或设置 argb32. 的颜色 |
 | override [BrushStyle](../../aspose.imaging.fileformats.opendocument.objects.brush/odsolidbrush/brushstyle) { get; } | 获取样式。 |
 
 ## 方法

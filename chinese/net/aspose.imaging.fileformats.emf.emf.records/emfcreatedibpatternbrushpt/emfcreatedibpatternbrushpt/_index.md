@@ -1,14 +1,14 @@
 ---
 title: EmfCreateDibPatternBrushPt
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfCreateDibPatternBrushPtaspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt类的新实例
+description: 初始化EmfCreateDibPatternBrushPtaspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/emfcreatedibpatternbrushpt/
 ---
 ## EmfCreateDibPatternBrushPt(EmfRecord) {#constructor_1}
 
-初始化[`EmfCreateDibPatternBrushPt`](../../emfcreatedibpatternbrushpt)类的新实例。
+初始化[`EmfCreateDibPatternBrushPt`](../../emfcreatedibpatternbrushpt)类.
 
 ```csharp
 public EmfCreateDibPatternBrushPt(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfCreateDibPatternBrushPt(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfCreateDibPatternBrushPt(EmfRecord source)
 
 ## EmfCreateDibPatternBrushPt() {#constructor}
 
-初始化[`EmfCreateDibPatternBrushPt`](../../emfcreatedibpatternbrushpt)类的新实例。
+初始化[`EmfCreateDibPatternBrushPt`](../../emfcreatedibpatternbrushpt)类.
 
 ```csharp
 public EmfCreateDibPatternBrushPt()

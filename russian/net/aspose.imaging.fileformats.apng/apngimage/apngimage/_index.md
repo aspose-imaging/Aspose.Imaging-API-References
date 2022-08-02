@@ -1,14 +1,14 @@
 ---
 title: ApngImage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаApngImageaspose.imaging.fileformats.apng/apngimage.
+description: Инициализирует новый экземплярApngImageaspose.imaging.fileformats.apng/apngimage класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.apng/apngimage/apngimage/
 ---
 ## ApngImage constructor
 
-Инициализирует новый экземпляр класса[`ApngImage`](../../apngimage).
+Инициализирует новый экземпляр[`ApngImage`](../../apngimage) класс.
 
 ```csharp
 public ApngImage(ApngOptions options, int width, int height)
@@ -16,7 +16,7 @@ public ApngImage(ApngOptions options, int width, int height)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | ApngOptions | Опции. |
+| options | ApngOptions | Варианты. |
 | width | Int32 | Ширина. |
 | height | Int32 | Высота. |
 

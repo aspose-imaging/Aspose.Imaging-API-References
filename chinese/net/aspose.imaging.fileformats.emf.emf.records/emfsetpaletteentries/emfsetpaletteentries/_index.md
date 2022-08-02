@@ -1,14 +1,14 @@
 ---
 title: EmfSetPaletteEntries
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfSetPaletteEntriesaspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries类的新实例
+description: 初始化EmfSetPaletteEntriesaspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries/emfsetpaletteentries/
 ---
 ## EmfSetPaletteEntries constructor
 
-初始化[`EmfSetPaletteEntries`](../../emfsetpaletteentries)类的新实例。
+初始化[`EmfSetPaletteEntries`](../../emfsetpaletteentries)类.
 
 ```csharp
 public EmfSetPaletteEntries(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfSetPaletteEntries(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 

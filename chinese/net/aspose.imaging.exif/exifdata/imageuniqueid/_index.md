@@ -1,14 +1,14 @@
 ---
 title: ImageUniqueID
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置图像唯一标识符
+description: 获取或设置图片唯一标识
 type: docs
 weight: 680
 url: /zh/net/aspose.imaging.exif/exifdata/imageuniqueid/
 ---
 ## ExifData.ImageUniqueID property
 
-获取或设置图像唯一标识符。
+获取或设置图片唯一标识
 
 ```csharp
 public string ImageUniqueID { get; set; }

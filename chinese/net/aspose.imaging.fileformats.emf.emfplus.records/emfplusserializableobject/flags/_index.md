@@ -1,14 +1,14 @@
 ---
 title: Flags
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置未使用的 16 位无符号整数该字段应该设置为零 并且必须在收到时被忽略
+description: 获取或设置未使用的 16 位无符号整数该字段应该设置为 zero 并且在收到时必须被忽略
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/flags/
 ---
 ## EmfPlusSerializableObject.Flags property
 
-获取或设置未使用的 16 位无符号整数。该字段应该设置为零 并且必须在收到时被忽略。
+获取或设置未使用的 16 位无符号整数。该字段应该设置为 zero 并且在收到时必须被忽略。
 
 ```csharp
 public override short Flags { get; set; }
@@ -16,7 +16,7 @@ public override short Flags { get; set; }
 
 ### 适当的价值
 
-标志。
+旗帜.
 
 ### 也可以看看
 

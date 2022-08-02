@@ -1,14 +1,14 @@
 ---
 title: IsInfinite
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Проверяет имеет ли этотRegionaspose.imaging/regionбесконечный внутренний объем на указанной поверхности рисования.
+description: Проверяет является ли этоRegionaspose.imaging/region имеет бесконечную внутреннюю часть на указанной поверхности рисования.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging/region/isinfinite/
 ---
 ## Region.IsInfinite method
 
-Проверяет, имеет ли этот[`Region`](../../region)бесконечный внутренний объем на указанной поверхности рисования.
+Проверяет, является ли это[`Region`](../../region) имеет бесконечную внутреннюю часть на указанной поверхности рисования.
 
 ```csharp
 public bool IsInfinite(Graphics g)
@@ -16,17 +16,17 @@ public bool IsInfinite(Graphics g)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| g | Graphics | A[`Graphics`](../../graphics)который представляет поверхность рисования. |
+| g | Graphics | А[`Graphics`](../../graphics)который представляет собой поверхность для рисования. |
 
 ### Возвращаемое значение
 
-true, если внутренняя часть этого[`Region`](../../region)бесконечна, когда преобразование связано с*g*применяется; в противном случае ложно.
+true, если внутренняя часть этого[`Region`](../../region) бесконечно, когда преобразование, связанное с*g* применены; в противном случае false.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *g*равно нулю. |
+| ArgumentNullException | *g* равно нулю. |
 
 ### Смотрите также
 

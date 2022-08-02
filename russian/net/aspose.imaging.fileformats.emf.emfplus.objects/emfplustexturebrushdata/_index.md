@@ -25,8 +25,8 @@ public sealed class EmfPlusTextureBrushData : EmfPlusBaseBrushData
 | Имя | Описание |
 | --- | --- |
 | [BrushDataFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushdata/brushdataflags) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее данные в поле OptionalData. Это значение ДОЛЖНО состоять из флагов BrushData (раздел 2.1.2.1). Следующие флаги относятся к текстурной кисти BrushDataTransform BrushDataIsGammaCorrected BrushDataDoNotTransform |
-| [OptionalData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushdata/optionaldata) { get; set; } | Получает или задает необязательный объект EmfPlusTextureBrushOptionalData (раздел 2.2.2.46), который указывает дополнительные данные для текстурной кисти. Конкретное содержимое этого поля определяется значением поля BrushDataFlags |
-| [WrapMode](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushdata/wrapmode) { get; set; } | Получает или задает 32-битное целое число со знаком из перечисления WrapMode (раздел 2.1.1.34) которое указывает, как повторять изображение текстуры через фигура, когда изображение меньше, чем заполняемая область. |
+| [OptionalData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushdata/optionaldata) { get; set; } | Получает или задает необязательный объект EmfPlusTextureBrushOptionalData (раздел 2.2.2.46), который указывает дополнительные данные для текстурной кисти. Конкретное содержимое этого поля определяется значением поля BrushDataFlags field |
+| [WrapMode](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushdata/wrapmode) { get; set; } | Получает или задает 32-битное целое число со знаком из перечисления WrapMode (раздел 2.1.1.34) , которое указывает, как повторять изображение текстуры по фигуре, когда изображение меньше, чем заполняемая область. |
 
 ### Смотрите также
 

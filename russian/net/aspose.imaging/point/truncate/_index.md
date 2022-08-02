@@ -1,14 +1,14 @@
 ---
 title: Truncate
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Преобразует указанныйPointFaspose.imaging/pointfвPointaspose.imaging/pointпутем усечения значенийPointaspose.imaging/point.
+description: Преобразует указанныйPointFaspose.imaging/pointf кPointaspose.imaging/point путем усечения значенийPointaspose.imaging/point .
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging/point/truncate/
 ---
 ## Point.Truncate method
 
-Преобразует указанный[`PointF`](../../pointf)в[`Point`](../../point)путем усечения значений[`Point`](../../point).
+Преобразует указанный[`PointF`](../../pointf) к[`Point`](../../point) путем усечения значений[`Point`](../../point) .
 
 ```csharp
 public static Point Truncate(PointF point)
@@ -16,11 +16,11 @@ public static Point Truncate(PointF point)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | PointF | [`PointF`](../../pointf)для преобразования. |
+| point | PointF | [`PointF`](../../pointf) конвертировать. |
 
 ### Возвращаемое значение
 
-[`Point`](../../point)этот метод преобразует в.
+[`Point`](../../point) этот метод преобразуется в.
 
 ### Смотрите также
 

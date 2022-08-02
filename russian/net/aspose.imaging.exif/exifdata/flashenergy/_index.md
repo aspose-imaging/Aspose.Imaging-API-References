@@ -1,14 +1,14 @@
 ---
 title: FlashEnergy
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает энергию вспышки.
+description: Получает или задает энергию вспышки.
 type: docs
 weight: 260
 url: /ru/net/aspose.imaging.exif/exifdata/flashenergy/
 ---
 ## ExifData.FlashEnergy property
 
-Получает или устанавливает энергию вспышки.
+Получает или задает энергию вспышки.
 
 ```csharp
 public TiffRational FlashEnergy { get; set; }

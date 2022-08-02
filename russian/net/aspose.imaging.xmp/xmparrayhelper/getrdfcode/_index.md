@@ -1,14 +1,14 @@
 ---
 title: GetRdfCode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает код RDF для конкретногоXmpArrayTypeaspose.imaging.xmp/xmparraytype.
+description: Получает код RDF для определенныхXmpArrayTypeaspose.imaging.xmp/xmparraytype .
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp/xmparrayhelper/getrdfcode/
 ---
 ## XmpArrayHelper.GetRdfCode method
 
-Получает код RDF для конкретного[`XmpArrayType`](../../xmparraytype).
+Получает код RDF для определенных[`XmpArrayType`](../../xmparraytype) .
 
 ```csharp
 public static string GetRdfCode(XmpArrayType xmpArrayType)
@@ -20,13 +20,13 @@ public static string GetRdfCode(XmpArrayType xmpArrayType)
 
 ### Возвращаемое значение
 
-Возвращает код RDF для конкретного[`XmpArrayType`](../../xmparraytype).
+Возвращает код RDF для определенных[`XmpArrayType`](../../xmparraytype).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| [XmpException](../../../aspose.imaging.coreexceptions/xmpexception) | Неверное исключение аргумента перечисления |
+| [XmpException](../../../aspose.imaging.coreexceptions/xmpexception) | Недопустимое исключение аргумента enum |
 
 ### Смотрите также
 

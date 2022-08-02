@@ -1,14 +1,14 @@
 ---
 title: SvgImage
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化SvgImageaspose.imaging.fileformats.svg/svgimage类的新实例
+description: 初始化SvgImageaspose.imaging.fileformats.svg/svgimage类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.svg/svgimage/svgimage/
 ---
 ## SvgImage(string) {#constructor_3}
 
-初始化[`SvgImage`](../../svgimage)类的新实例。
+初始化[`SvgImage`](../../svgimage)类.
 
 ```csharp
 public SvgImage(string path)
@@ -16,7 +16,7 @@ public SvgImage(string path)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| path | String | 加载图像和初始化像素和调色板数据的路径。 |
+| path | String | 从中加载图像和初始化像素和调色板数据的路径。 |
 
 ### 例外
 
@@ -34,7 +34,7 @@ public SvgImage(string path)
 
 ## SvgImage(Stream) {#constructor_2}
 
-初始化[`SvgImage`](../../svgimage)类的新实例。
+初始化[`SvgImage`](../../svgimage)类.
 
 ```csharp
 public SvgImage(Stream stream)
@@ -42,7 +42,7 @@ public SvgImage(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 要从中加载图像并初始化像素和调色板数据的流。 |
+| stream | Stream | 用于从中加载图像并用于初始化像素和调色板数据的流。 |
 
 ### 例外
 
@@ -59,7 +59,7 @@ public SvgImage(Stream stream)
 
 string dir = "c:\\temp\\";
 
-    // 从文件流中加载 SVG 图像。
+// 从文件流中加载 SVG 图像。
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "test.svg"))
 using (Aspose.Imaging.FileFormats.Svg.SvgImage svgImage = new Aspose.Imaging.FileFormats.Svg.SvgImage(stream))
 {
@@ -82,7 +82,7 @@ using (Aspose.Imaging.FileFormats.Svg.SvgImage svgImage = new Aspose.Imaging.Fil
 
 ## SvgImage(int, int) {#constructor_1}
 
-初始化[`SvgImage`](../../svgimage)类的新实例。
+初始化[`SvgImage`](../../svgimage)类.
 
 ```csharp
 public SvgImage(int width, int height)
@@ -103,7 +103,7 @@ public SvgImage(int width, int height)
 
 ## SvgImage(SvgOptions, int, int) {#constructor}
 
-初始化[`SvgImage`](../../svgimage)类的新实例。
+初始化[`SvgImage`](../../svgimage)类.
 
 ```csharp
 public SvgImage(SvgOptions svgOptions, int width, int height)

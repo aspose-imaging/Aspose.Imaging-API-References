@@ -8,7 +8,7 @@ url: /zh/net/aspose.imaging.imageoptions/multipageoptions/exportarea/
 ---
 ## MultiPageOptions.ExportArea property
 
-获取或设置导出区域。
+获取或设置导出区域
 
 ```csharp
 public Rectangle ExportArea { get; set; }
@@ -16,7 +16,7 @@ public Rectangle ExportArea { get; set; }
 
 ### 适当的价值
 
-导出区域。
+出口区。
 
 ### 也可以看看
 

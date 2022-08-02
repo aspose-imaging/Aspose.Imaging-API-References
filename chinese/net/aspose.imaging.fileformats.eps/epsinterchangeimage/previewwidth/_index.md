@@ -1,14 +1,14 @@
 ---
 title: PreviewWidth
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取预览图像的宽度
+description: 获取预览图的宽度
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.eps/epsinterchangeimage/previewwidth/
 ---
 ## EpsInterchangeImage.PreviewWidth property
 
-获取预览图像的宽度
+获取预览图的宽度
 
 ```csharp
 public int PreviewWidth { get; }

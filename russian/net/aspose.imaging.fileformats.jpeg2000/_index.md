@@ -12,7 +12,7 @@ url: /ru/net/aspose.imaging.fileformats.jpeg2000/
 
 | Учебный класс | Описание |
 | --- | --- |
-| [Jpeg2000CustomException](./jpeg2000customexception) | Код Jpeg2000 OpenJpeg сгенерировал исключение |
+| [Jpeg2000CustomException](./jpeg2000customexception) | Jpeg2000 Код OpenJpeg сгенерировал исключение |
 | [Jpeg2000Image](./jpeg2000image) | Основной класс библиотеки Jpeg2000 |
 ## перечисление
 

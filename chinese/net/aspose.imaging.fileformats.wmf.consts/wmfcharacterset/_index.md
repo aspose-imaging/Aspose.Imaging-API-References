@@ -19,12 +19,12 @@ public enum WmfCharacterSet : byte
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Ansi | `0` | 指定英文字符集。 |
-| Default | `1` | 指定基于当前系统语言环境的字符集；对于 示例，当系统区域设置为美国英语时，默认字符集为 ANSI_CHARSET。 |
+| Default | `1` | 指定基于当前系统语言环境的字符集； for 例如，当系统语言环境为美国英语时，默认字符集为 ANSI_CHARSET. |
 | Symbol | `2` | 指定符号的字符集。 |
 | Mac | `77` | 指定 Apple Macintosh 字符集。 |
 | Shiftjis | `128` | 指定日语字符集。 |
-| Hangul | `129` | 也拼写为“韩文”。指定 Hangul 朝鲜语字符集。 |
-| Johab | `130` | 也拼写为“Johap”。指定 Johab 朝鲜语字符集。 |
+| Hangul | `129` | 也拼写为“韩文”。指定韩文朝鲜语字符集。 |
+| Johab | `130` | 也拼写为“Johap”。指定 Johab 韩语字符集。 |
 | Gb2312 | `134` | 指定中华人民共和国的“简体”中文字符集。 |
 | Chinesebig5 | `136` | 指定“繁体”中文字符集，主要用于 台湾和香港和澳门特别行政区。 |
 | Greek | `161` | 指定希腊字符集。 |
@@ -36,7 +36,7 @@ public enum WmfCharacterSet : byte
 | Russian | `204` | 指定俄语西里尔字符集。 |
 | Thai | `222` | 指定泰语字符集。 |
 | Easteurope | `238` | 指定东欧字符集。 |
-| Oem | `255` | 根据当前 系统区域设置指定到 OEM 代码页之一的映射。 |
+| Oem | `255` | 根据 current 系统区域设置指定到 OEM 代码页之一的映射。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Pie
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值该值指示此CmxEllipseSpecaspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec是否为饼图
+description: 获取或设置一个值该值指示是否CmxEllipseSpecaspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec是一个馅饼
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/pie/
 ---
 ## CmxEllipseSpec.Pie property
 
-获取或设置一个值，该值指示此[`CmxEllipseSpec`](../../cmxellipsespec)是否为饼图。
+获取或设置一个值，该值指示是否[`CmxEllipseSpec`](../../cmxellipsespec)是一个馅饼。
 
 ```csharp
 public bool Pie { get; set; }
@@ -16,7 +16,7 @@ public bool Pie { get; set; }
 
 ### 适当的价值
 
-` true` if pie;否则，` false` 。
+`真的`如果馅饼;否则，`错误的` .
 
 ### 也可以看看
 

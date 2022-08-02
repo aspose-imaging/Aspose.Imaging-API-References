@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置ColorMatrixaspose.imaging/colormatrix中指定行和列的元素
+description: 获取或设置指定行列中的元素ColorMatrixaspose.imaging/colormatrix .
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging/colormatrix/item/
 ---
 ## ColorMatrix indexer
 
-获取或设置[`ColorMatrix`](../../colormatrix)中指定行和列的元素。
+获取或设置指定行列中的元素[`ColorMatrix`](../../colormatrix) .
 
 ```csharp
 public float this[int row, int column] { get; set; }

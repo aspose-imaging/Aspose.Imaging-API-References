@@ -1,14 +1,14 @@
 ---
 title: R
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение красного компонента этойColoraspose.imaging/colorструктуры.
+description: Получает значение красного компонента этогоColoraspose.imaging/color структура.
 type: docs
 weight: 1530
 url: /ru/net/aspose.imaging/color/r/
 ---
 ## Color.R property
 
-Получает значение красного компонента этой[`Color`](../../color)структуры.
+Получает значение красного компонента этого[`Color`](../../color) структура.
 
 ```csharp
 public byte R { get; }

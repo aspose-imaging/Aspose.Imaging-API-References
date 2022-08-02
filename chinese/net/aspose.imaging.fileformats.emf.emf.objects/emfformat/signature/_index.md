@@ -1,14 +1,14 @@
 ---
 title: Signature
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定图像数据格式的 32 位无符号整数 此值必须在 FormatSignature 枚举中第 2.1.14 节
+description: 获取或设置指定图像数据格式的 32 位无符号整数 该值必须在 FormatSignature 枚举中第 2.1.14 节
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfformat/signature/
 ---
 ## EmfFormat.Signature property
 
-获取或设置指定图像数据格式的 32 位无符号整数。 此值必须在 FormatSignature 枚举中（第 2.1.14 节）。
+获取或设置指定图像数据格式的 32 位无符号整数。 该值必须在 FormatSignature 枚举中（第 2.1.14 节）。
 
 ```csharp
 public EmfFormatSignature Signature { get; set; }

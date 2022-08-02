@@ -1,14 +1,14 @@
 ---
 title: MaskingOptions
 second_title: Aspose.Imaging for .NET API 参考
-description: 屏蔽选项
+description: 掩蔽选项
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.masking.result/maskingresult/maskingoptions/
 ---
 ## MaskingResult.MaskingOptions field
 
-屏蔽选项
+掩蔽选项
 
 ```csharp
 public readonly MaskingOptions MaskingOptions;

@@ -1,14 +1,14 @@
 ---
 title: CanLoad
 second_title: Aspose.Imaging for .NET API 参考
-description: 确定是否可以从指定的文件路径加载图像
+description: 判断是否可以从指定的文件路径加载图片
 type: docs
 weight: 260
 url: /zh/net/aspose.imaging/image/canload/
 ---
 ## CanLoad(string) {#canload_2}
 
-确定是否可以从指定的文件路径加载图像。
+判断是否可以从指定的文件路径加载图片。
 
 ```csharp
 public static bool CanLoad(string filePath)
@@ -20,7 +20,7 @@ public static bool CanLoad(string filePath)
 
 ### 返回值
 
-` true` 如果可以从指定文件加载图像；否则，` false` 。
+`真的`是否可以从指定文件加载图像；否则，`错误的` .
 
 ### 例子
 
@@ -29,7 +29,7 @@ public static bool CanLoad(string filePath)
 ```csharp
 [C#]
 
-    // 使用文件的绝对路径
+// 使用文件的绝对路径
 bool canLoad = Aspose.Imaging.Image.CanLoad(@"c:\temp\sample.gif");
 ```
 
@@ -56,7 +56,7 @@ public static bool CanLoad(string filePath, LoadOptions loadOptions)
 
 ### 返回值
 
-` true` 如果可以从指定文件加载图像；否则，` false` 。
+`真的`是否可以从指定文件加载图像；否则，`错误的` .
 
 ### 也可以看看
 
@@ -69,7 +69,7 @@ public static bool CanLoad(string filePath, LoadOptions loadOptions)
 
 ## CanLoad(Stream) {#canload}
 
-确定是否可以从指定流加载图像。
+确定是否可以从指定流中加载图像。
 
 ```csharp
 public static bool CanLoad(Stream stream)
@@ -81,11 +81,11 @@ public static bool CanLoad(Stream stream)
 
 ### 返回值
 
-` true` 如果可以从指定的流中加载图像；否则，` false` 。
+`真的`是否可以从指定的流中加载图像；否则，`错误的` .
 
 ### 例子
 
-此示例确定是否可以从文件流加载图像。
+此示例确定是否可以从文件流中加载图像。
 
 ```csharp
 [C#]
@@ -94,13 +94,13 @@ string dir = "c:\\temp\\";
 
 bool canLoad;
 
-    // 使用文件stream
+// 使用文件流
 using (System.IO.FileStream stream = System.IO.File.OpenRead(dir + "sample.bmp"))
 {
     canLoad = Aspose.Imaging.Image.CanLoad(stream);
 }
 
-    // 下面的数据不是有效的图片流，所以CanLoad返回false.
+// 下面的数据不是有效的图片流，所以 CanLoad 返回 false。
 byte[] imageData = new byte[] { 0, 0, 0, 0, 0, 0, 0, 0 };
 using (System.IO.MemoryStream stream = new System.IO.MemoryStream(imageData))
 {
@@ -118,7 +118,7 @@ using (System.IO.MemoryStream stream = new System.IO.MemoryStream(imageData))
 
 ## CanLoad(Stream, LoadOptions) {#canload_1}
 
-确定是否可以从指定的流中加载图像，并且可以选择使用指定的*loadOptions*。
+确定是否可以从指定的流加载图像，并且可以选择使用指定的*loadOptions* .
 
 ```csharp
 public static bool CanLoad(Stream stream, LoadOptions loadOptions)
@@ -131,7 +131,7 @@ public static bool CanLoad(Stream stream, LoadOptions loadOptions)
 
 ### 返回值
 
-` true` 如果可以从指定的流中加载图像；否则，` false` 。
+`真的`是否可以从指定的流中加载图像；否则，`错误的` .
 
 ### 也可以看看
 

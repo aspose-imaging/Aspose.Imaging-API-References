@@ -1,14 +1,14 @@
 ---
 title: XHeight
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定字体 x 高度的 8 位无符号整数值 必须在 XHeight第 2.1.35 节枚举表中
+description: 获取或设置一个 8 位无符号整数用于指定字体的 x 高度值 必须在 XHeight第 2.1.35 节枚举表中
 type: docs
 weight: 110
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfpanose/xheight/
 ---
 ## EmfPanose.XHeight property
 
-获取或设置指定字体 x 高度的 8 位无符号整数。值 必须在 XHeight（第 2.1.35 节）枚举表中。
+获取或设置一个 8 位无符号整数，用于指定字体的 x 高度。值 必须在 XHeight（第 2.1.35 节）枚举表中。
 
 ```csharp
 public EmfXHeight XHeight { get; set; }

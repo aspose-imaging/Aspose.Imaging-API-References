@@ -1,14 +1,14 @@
 ---
 title: ResourceEvent
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Содержит размеры нарисованного объекта.
+description: Содержит размеры для нарисованного объекта.
 type: docs
-weight: 11600
+weight: 11590
 url: /ru/net/aspose.imaging.xmp.types.complex.resourceevent/resourceevent/
 ---
 ## ResourceEvent class
 
-Содержит размеры нарисованного объекта.
+Содержит размеры для нарисованного объекта.
 
 ```csharp
 public sealed class ResourceEvent : ComplexTypeBase

@@ -18,14 +18,14 @@ public sealed class EmfSetLayout : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetLayout](emfsetlayout)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetLayout`](../emfsetlayout). |
+| [EmfSetLayout](emfsetlayout)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetLayout`](../emfsetlayout) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [LayoutMode](../../aspose.imaging.fileformats.emf.emf.records/emfsetlayout/layoutmode) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее режим компоновки |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [LayoutMode](../../aspose.imaging.fileformats.emf.emf.records/emfsetlayout/layoutmode) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее режим макета |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

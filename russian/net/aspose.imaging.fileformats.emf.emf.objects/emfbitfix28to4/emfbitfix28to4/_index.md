@@ -1,14 +1,14 @@
 ---
 title: EmfBitFix28To4
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfBitFix28To4aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4.
+description: Инициализирует новый экземплярEmfBitFix28To4aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4 класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/emfbitfix28to4/
 ---
 ## EmfBitFix28To4 constructor
 
-Инициализирует новый экземпляр класса[`EmfBitFix28To4`](../../emfbitfix28to4).
+Инициализирует новый экземпляр[`EmfBitFix28To4`](../../emfbitfix28to4) класс.
 
 ```csharp
 public EmfBitFix28To4(int dwordData)

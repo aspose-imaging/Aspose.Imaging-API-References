@@ -1,14 +1,14 @@
 ---
 title: ImageExtensions
 second_title: Aspose.Imaging for .NET API 参考
-description: 包含基于Image和Image的转换扩展方法
+description: 包含基于转换的扩展方法Image和Image../aspose.imaging/image .
 type: docs
 weight: 1210
 url: /zh/net/aspose.imaging.extensions/imageextensions/
 ---
 ## ImageExtensions class
 
-包含基于Image和Image的转换扩展方法。
+包含基于转换的扩展方法Image和[`Image`](../../aspose.imaging/image) .
 
 ```csharp
 public static class ImageExtensions

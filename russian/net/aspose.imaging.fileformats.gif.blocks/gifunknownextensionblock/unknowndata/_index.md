@@ -1,14 +1,14 @@
 ---
 title: UnknownData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает неизвестные данные.
+description: Получает или устанавливает неизвестные данные.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/unknowndata/
 ---
 ## GifUnknownExtensionBlock.UnknownData property
 
-Получает или задает неизвестные данные.
+Получает или устанавливает неизвестные данные.
 
 ```csharp
 public byte[] UnknownData { get; set; }

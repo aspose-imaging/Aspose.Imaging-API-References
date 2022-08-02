@@ -1,14 +1,14 @@
 ---
 title: TextString
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置包含要绘制的文本字符串的可变长度字符串格式为 8 位或 16 位字符代码根据 fuOptions 字段的值
+description: 根据 fuOptions 字段的值获取或设置包含要绘制的文本字符串的可变长度字符串可以是 8 位或 16 位字符代码
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/textstring/
 ---
 ## EmfSmallTextOut.TextString property
 
-获取或设置包含要绘制的文本字符串的可变长度字符串，格式为 8 位或 16 位字符代码，根据 fuOptions 字段的值。
+根据 fuOptions 字段的值，获取或设置包含要绘制的文本字符串的可变长度字符串，可以是 8 位或 16 位字符代码。
 
 ```csharp
 public string TextString { get; set; }

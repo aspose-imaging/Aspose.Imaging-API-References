@@ -16,7 +16,7 @@ public Color BackgroundColor { get; set; }
 
 ### 适当的价值
 
-背景颜色。
+背景的颜色。
 
 ### 也可以看看
 

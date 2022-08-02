@@ -1,14 +1,14 @@
 ---
 title: ExifSaturation
 second_title: Aspose.Imaging for .NET API 参考
-description: exif 饱和枚举
+description: exif 饱和枚举.
 type: docs
 weight: 1000
 url: /zh/net/aspose.imaging.exif.enums/exifsaturation/
 ---
 ## ExifSaturation enumeration
 
-exif 饱和枚举。
+exif 饱和枚举.
 
 ```csharp
 public enum ExifSaturation

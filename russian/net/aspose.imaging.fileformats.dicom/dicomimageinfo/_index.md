@@ -19,10 +19,10 @@ public sealed class DicomImageInfo
 | Имя | Описание |
 | --- | --- |
 | [BitsAllocated](../../aspose.imaging.fileformats.dicom/dicomimageinfo/bitsallocated) { get; } | Получает значение "bitsAllocated". |
-| [Blues](../../aspose.imaging.fileformats.dicom/dicomimageinfo/blues) { get; } | Получает массив цветов синего |
+| [Blues](../../aspose.imaging.fileformats.dicom/dicomimageinfo/blues) { get; } | Получает цвета массива blue |
 | [DicomHeaderInfoByBytes](../../aspose.imaging.fileformats.dicom/dicomimageinfo/dicomheaderinfobybytes) { get; } | Получает информацию о заголовке dicom по байтам. |
 | [DicomInfo](../../aspose.imaging.fileformats.dicom/dicomimageinfo/dicominfo) { get; } | Получает информацию о заголовке файла DICOM. |
-| [Greens](../../aspose.imaging.fileformats.dicom/dicomimageinfo/greens) { get; } | Получает массив цветов зеленого |
+| [Greens](../../aspose.imaging.fileformats.dicom/dicomimageinfo/greens) { get; } | Получает цвета массива green |
 | [Height](../../aspose.imaging.fileformats.dicom/dicomimageinfo/height) { get; } | Получает высоту. |
 | [IsLittleEndian](../../aspose.imaging.fileformats.dicom/dicomimageinfo/islittleendian) { get; } | Получает значение, указывающее, является ли этот экземпляр прямым порядком байтов. |
 | [NumberOfFrames](../../aspose.imaging.fileformats.dicom/dicomimageinfo/numberofframes) { get; } | Получает количество кадров. |
@@ -30,7 +30,7 @@ public sealed class DicomImageInfo
 | [PhotoInterpretation](../../aspose.imaging.fileformats.dicom/dicomimageinfo/photointerpretation) { get; } | Получает значение "PhotoInterpretation". |
 | [PixelRepresentation](../../aspose.imaging.fileformats.dicom/dicomimageinfo/pixelrepresentation) { get; } | Получает значение пикселя "pixelRepresentation". |
 | [PlanarConfiguration](../../aspose.imaging.fileformats.dicom/dicomimageinfo/planarconfiguration) { get; } | Получает плоскую конфигурацию. |
-| [Reds](../../aspose.imaging.fileformats.dicom/dicomimageinfo/reds) { get; } | Получает массив цветов красного |
+| [Reds](../../aspose.imaging.fileformats.dicom/dicomimageinfo/reds) { get; } | Получает цвета массива red |
 | [RescaleIntercept](../../aspose.imaging.fileformats.dicom/dicomimageinfo/rescaleintercept) { get; } | Получает значение "rescaleIntercept". |
 | [RescaleSlope](../../aspose.imaging.fileformats.dicom/dicomimageinfo/rescaleslope) { get; } | Получает значение "rescaleSlope". |
 | [SamplesPerPixel](../../aspose.imaging.fileformats.dicom/dicomimageinfo/samplesperpixel) { get; } | Получает значение "samplesPerPixel". |

@@ -1,14 +1,14 @@
 ---
 title: Transform
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此Penaspose.imaging/pen的几何变换的副本
+description: 获取或设置几何变换的副本Penaspose.imaging/pen .
 type: docs
 weight: 170
 url: /zh/net/aspose.imaging/pen/transform/
 ---
 ## Pen.Transform property
 
-获取或设置此[`Pen`](../../pen)的几何变换的副本。
+获取或设置几何变换的副本[`Pen`](../../pen) .
 
 ```csharp
 public Matrix Transform { get; set; }
@@ -16,13 +16,13 @@ public Matrix Transform { get; set; }
 
 ### 适当的价值
 
-[`Matrix`](../../matrix)的副本，它表示此的几何变换[`Pen`](../../pen)。
+的副本[`Matrix`](../../matrix)表示这个的几何变换[`Pen`](../../pen).
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | `Transform`属性设置在不可变的:::R5 上:T:Aspose.Imaging.Pen:::，例如[`Pen`](../../pen)类返回的那些。 |
+| ArgumentException | 这`Transform`属性设置在不可变对象上[`Pen`](../../pen)，例如那些由[`Pen`](../../pen)班级。 |
 
 ### 也可以看看
 

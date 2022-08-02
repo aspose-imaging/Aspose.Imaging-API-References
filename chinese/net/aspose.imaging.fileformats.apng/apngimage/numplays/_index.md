@@ -1,14 +1,14 @@
 ---
 title: NumPlays
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置循环动画的次数 0 表示无限循环
+description: 获取或设置循环动画的次数 0表示无限循环
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.apng/apngimage/numplays/
 ---
 ## ApngImage.NumPlays property
 
-获取或设置循环动画的次数。 0 表示无限循环。
+获取或设置循环动画的次数。 0表示无限循环。
 
 ```csharp
 public int NumPlays { get; set; }
@@ -16,7 +16,7 @@ public int NumPlays { get; set; }
 
 ### 适当的价值
 
-循环次数。
+循环的次数。
 
 ### 也可以看看
 

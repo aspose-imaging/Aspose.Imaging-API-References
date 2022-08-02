@@ -1,14 +1,14 @@
 ---
 title: Meta
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取 XMP 元数据可选的
+description: 获取 XMP 元数据可选的.
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.xmp/xmppacketwrapper/meta/
 ---
 ## XmpPacketWrapper.Meta property
 
-获取 XMP 元数据。可选的。
+获取 XMP 元数据。可选的.
 
 ```csharp
 public XmpMeta Meta { get; set; }
@@ -16,7 +16,7 @@ public XmpMeta Meta { get; set; }
 
 ### 适当的价值
 
-XMP 元数据。可选的。
+XMP 元数据。可选的.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: AlphaStorage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает параметр хранения альфа-канала. Параметры отличные отUnspecified  используются когда имеется более 3SamplesPerPixelaspose.imaging.imageoptions/tiffoptions/samplesperpixelопределено.
+description: Получает или задает параметр хранения альфа-канала. Варианты кромеUnspecified используются когда их более 3SamplesPerPixelaspose.imaging.imageoptions/tiffoptions/samplesperpixel определено.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.imageoptions/tiffoptions/alphastorage/
 ---
 ## TiffOptions.AlphaStorage property
 
-Получает или задает параметр хранения альфа-канала. Параметры, отличные отUnspecified , используются, когда имеется более 3[`SamplesPerPixel`](../samplesperpixel)определено.
+Получает или задает параметр хранения альфа-канала. Варианты кромеUnspecified используются, когда их более 3[`SamplesPerPixel`](../samplesperpixel) определено.
 
 ```csharp
 public TiffAlphaStorage AlphaStorage { get; set; }
@@ -16,7 +16,7 @@ public TiffAlphaStorage AlphaStorage { get; set; }
 
 ### Стоимость имущества
 
-Опция хранения альфы.
+Опция хранения альфа-версии.
 
 ### Смотрите также
 

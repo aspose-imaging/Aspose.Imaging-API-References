@@ -1,14 +1,14 @@
 ---
 title: BreakExtra
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает дополнительный параметр ltsee langwordbreak /gt.
+description: Получает или задаетbreak доп.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfsettextjustification/breakextra/
 ---
 ## WmfSetTextJustification.BreakExtra property
 
-Получает или задает дополнительный параметр &lt;see langword="break" /&gt;.
+Получает или задает`break` доп.
 
 ```csharp
 public int BreakExtra { get; set; }
@@ -16,7 +16,7 @@ public int BreakExtra { get; set; }
 
 ### Стоимость имущества
 
-Дополнительный элемент &lt;see langword="break" /&gt;.
+`break` доп.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: JpegException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Исключения для файлов Jpeg
+description: Исключения для файлов JPEG
 type: docs
 weight: 580
 url: /ru/net/aspose.imaging.coreexceptions.imageformats/jpegexception/
 ---
 ## JpegException class
 
-Исключения для файлов Jpeg
+Исключения для файлов JPEG
 
 ```csharp
 public class JpegException : ImageException
@@ -18,8 +18,8 @@ public class JpegException : ImageException
 
 | Имя | Описание |
 | --- | --- |
-| [JpegException](jpegexception#constructor)(string) | Инициализирует новый экземпляр класса[`JpegException`](../jpegexception). |
-| [JpegException](jpegexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр класса[`JpegException`](../jpegexception). |
+| [JpegException](jpegexception#constructor)(string) | Инициализирует новый экземпляр[`JpegException`](../jpegexception) класс. |
+| [JpegException](jpegexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр[`JpegException`](../jpegexception) класс. |
 
 ### Смотрите также
 

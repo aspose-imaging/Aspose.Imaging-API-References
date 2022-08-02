@@ -1,14 +1,14 @@
 ---
 title: WrapMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее как обрабатывать краевые условия с значением из перечисления WrapMode раздел 2.1.1.34. .
+description: Получает или задает 32-разрядное целое число без знака указывающее как обрабатывать пограничные условия с значением из перечисления WrapMode раздел 2.1.1.34.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageattributes/wrapmode/
 ---
 ## EmfPlusImageAttributes.WrapMode property
 
-Получает или задает 32-разрядное целое число без знака, указывающее, как обрабатывать краевые условия с значением из перечисления WrapMode (раздел 2.1.1.34). ).
+Получает или задает 32-разрядное целое число без знака, указывающее, как обрабатывать пограничные условия с значением из перечисления WrapMode (раздел 2.1.1.34).
 
 ```csharp
 public EmfPlusWrapMode WrapMode { get; set; }

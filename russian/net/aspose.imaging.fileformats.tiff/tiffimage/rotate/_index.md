@@ -17,7 +17,7 @@ public override void Rotate(float angle, bool resizeProportionally, Color backgr
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | angle | Single | Угол поворота в градусах. Положительные значения будут вращаться по часовой стрелке. |
-| resizeProportionally | Boolean | если установлено значение` true` размер изображения изменится в соответствии с повернутым прямоугольником ( угловые точки) проекции в другом случае, при котором размеры остаются нетронутыми, а вращается только внутреннее содержимое изображения. |
+| resizeProportionally | Boolean | если установлено`истинный` у вас будет размер вашего изображения, измененный в соответствии с проекциями повернутого прямоугольника (угловые точки), в другом случае, который оставляет размеры нетронутыми, и поворачивается только внутреннее содержимое изображения. |
 | backgroundColor | Color | Цвет фона. |
 
 ### Примеры
@@ -30,14 +30,14 @@ public override void Rotate(float angle, bool resizeProportionally, Color backgr
 string dir = "c:\\temp\\";
 Aspose.Imaging.ImageOptions.TiffOptions createTiffOptions = new Aspose.Imaging.ImageOptions.TiffOptions(Aspose.Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
     
- // Создаем постоянный, а не временный файл source.
+// Создать постоянный, а не временный источник файла.
 createTiffOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(dir + "rotated.tif", false);
 createTiffOptions.Photometric = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.Rgb;
 createTiffOptions.BitsPerSample = new ushort[] { 8, 8, 8 };
 
 using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)Image.Create(createTiffOptions, 100, 100))
 {
-     // Линейный градиент от левого верхнего до правого нижнего угла изображения.
+    // Линейный градиент от левого верхнего до правого нижнего угла изображения.
     Aspose.Imaging.Brushes.LinearGradientBrush brush =
         new Aspose.Imaging.Brushes.LinearGradientBrush(
             new Aspose.Imaging.Point(0, 0),
@@ -45,17 +45,17 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.Fil
             Aspose.Imaging.Color.Red,
             Aspose.Imaging.Color.Green);
 
-     // Заливаем активный кадр кистью линейного градиента.
+    // Заливаем активный кадр кистью линейного градиента.
     Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(tiffImage);
     gr.FillRectangle(brush, tiffImage.Bounds);
 
-     // Поворачиваем изображение вокруг центра на 45 градусов по часовой стрелке. 
-     // Размер изображения изменился в соответствии с повернутым прямоугольником (угловые точки).
+    // Поворачиваем изображение вокруг центра на 45 градусов по часовой стрелке. 
+    // Размер изображения изменился в соответствии с повернутым прямоугольником (угловые точки).
     tiffImage.Rotate(45f, true, Aspose.Imaging.Color.Black);
     tiffImage.Save();
 
     // Поворачиваем изображение вокруг центра на 45 градусов по часовой стрелке.
-     // Оставляем размеры изображения нетронутыми, поворачивается только внутреннее содержимое изображения.
+    // Оставляем размеры изображения нетронутыми, поворачивается только внутреннее содержимое изображения.
     tiffImage.Rotate(45f, false, Aspose.Imaging.Color.Gray);
     tiffImage.Save(dir + "rotated.preservesize.tif");
 }

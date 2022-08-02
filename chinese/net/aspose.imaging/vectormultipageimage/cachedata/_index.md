@@ -1,14 +1,14 @@
 ---
 title: CacheData
 second_title: Aspose.Imaging for .NET API 参考
-description: 缓存数据并确保不会从底层 DataStreamSupporter执行额外的数据加载数据流容器
+description: 缓存数据并确保不会从底层执行额外的数据加载 DataStreamContaineraspose.imaging/datastreamsupporter/datastreamcontainer .
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging/vectormultipageimage/cachedata/
 ---
 ## VectorMultipageImage.CacheData method
 
-缓存数据并确保不会从底层 DataStreamSupporter执行额外的数据加载。数据流容器。
+缓存数据并确保不会从底层执行额外的数据加载 [`DataStreamContainer`](../../datastreamsupporter/datastreamcontainer) .
 
 ```csharp
 public override void CacheData()

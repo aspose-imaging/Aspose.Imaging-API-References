@@ -1,14 +1,14 @@
 ---
 title: EmfPlusImageAttributes
 second_title: Aspose.Imaging for .NET API 参考
-description: EmfPlusImageAttributes 对象指定在渲染过程中如何处理位图图像 颜色
+description: EmfPlusImageAttributes 对象指定在渲染过程中如何操作位图 image 颜色
 type: docs
 weight: 5510
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageattributes/
 ---
 ## EmfPlusImageAttributes class
 
-EmfPlusImageAttributes 对象指定在渲染过程中如何处理位图图像 颜色。
+EmfPlusImageAttributes 对象指定在渲染过程中如何操作位图 image 颜色。
 
 ```csharp
 public sealed class EmfPlusImageAttributes : EmfPlusGraphicsObjectType
@@ -24,10 +24,10 @@ public sealed class EmfPlusImageAttributes : EmfPlusGraphicsObjectType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ClampArgb32Color](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageattributes/clampargb32color) { get; set; } | 获取或设置 EmfPlusARGB（第 2.2.2.1 节）对象，该对象指定在 WrapMode 值为 WrapModeClamp 时使用 的边缘颜色。当 EmfPlusDrawImage（第 2.3.4.8 节）记录 处理的 源矩形记录 大于图像本身时，此颜色可见。 |
-| [ObjectClamp](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageattributes/objectclamp) { get; set; } | 获取或设置指定对象钳位行为的 32 位有符号整数。 在将此对象应用于正在绘制的图像 之前，不会使用它。该值必须是在 下表中定义的值之一。 |
+| [ClampArgb32Color](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageattributes/clampargb32color) { get; set; } | 获取或设置 EmfPlusARGB（第 2.2.2.1 节）对象，该对象指定当 WrapMode 值为 WrapModeClamp 时要使用 的边缘颜色。当 EmfPlusDrawImage 处理的 源矩形（第 2.3.4.8 节）record 大于图像本身时，此颜色可见。 |
+| [ObjectClamp](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageattributes/objectclamp) { get; set; } | 获取或设置指定对象钳制行为的 32 位有符号整数。 直到将此对象应用于正在 绘制的图像时才使用它。此值必须是 下表中定义的值之一。 |
 | [Version](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsobjecttype/version) { get; set; } | 获取或设置版本。 |
-| [WrapMode](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageattributes/wrapmode) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定如何使用来自 WrapMode 枚举的 值处理边缘条件（第 2.1.1.34 节）。 |
+| [WrapMode](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageattributes/wrapmode) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定如何使用 WrapMode 枚举（第 2.1.1.34 节）中的 值处理边缘条件。 |
 
 ### 也可以看看
 

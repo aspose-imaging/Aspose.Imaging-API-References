@@ -18,8 +18,8 @@ public class ImageException : Exception
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImageException](imageexception#constructor)(string) | 初始化[`ImageException`](../imageexception)类的新实例。 |
-| [ImageException](imageexception#constructor_1)(string, Exception) | 初始化[`ImageException`](../imageexception)类的新实例。 |
+| [ImageException](imageexception#constructor)(string) | 初始化[`ImageException`](../imageexception)类. |
+| [ImageException](imageexception#constructor_1)(string, Exception) | 初始化[`ImageException`](../imageexception)类. |
 
 ### 也可以看看
 

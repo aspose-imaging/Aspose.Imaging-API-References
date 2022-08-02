@@ -1,14 +1,14 @@
 ---
 title: VerticalResolution
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此RasterImageaspose.imaging/rasterimage的垂直分辨率以每英寸像素为单位
+description: 获取或设置此对象的垂直分辨率以每英寸像素为单位RasterImageaspose.imaging/rasterimage .
 type: docs
 weight: 130
 url: /zh/net/aspose.imaging.fileformats.tiff/tiffframe/verticalresolution/
 ---
 ## TiffFrame.VerticalResolution property
 
-获取或设置此[`RasterImage`](../../../aspose.imaging/rasterimage)的垂直分辨率，以每英寸像素为单位。
+获取或设置此对象的垂直分辨率，以每英寸像素为单位[`RasterImage`](../../../aspose.imaging/rasterimage) .
 
 ```csharp
 public override double VerticalResolution { get; set; }
@@ -27,7 +27,7 @@ public override double VerticalResolution { get; set; }
 
 string dir = "c:\\temp\\";
 
-    // 从文件中加载 TIFF 图像。
+// 从文件加载 TIFF 图像。
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"))
 {
     Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)image;
@@ -35,8 +35,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"
     int i = 0;
     foreach (Aspose.Imaging.FileFormats.Tiff.TiffFrame frame in tiffImage.Frames)
     {
-            // 获取TiffFrame.
-的水平和垂直分辨率
+        // 获取 TiffFrame 的水平和垂直分辨率。
         double horizontalResolution = frame.HorizontalResolution;
         double verticalResolution = frame.VerticalResolution;
         System.Console.WriteLine("The horizontal resolution of frame {0}, pixels per inch: {1}", i, horizontalResolution);

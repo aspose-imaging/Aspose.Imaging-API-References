@@ -1,14 +1,14 @@
 ---
 title: EmfContrast
 second_title: Aspose.Imaging for .NET API 参考
-description: 对比度枚举定义了 PANOSE 系统中用于对字体进行分类的特征之一的值
+description: 对比度枚举定义了PANOSE系统中用于字体分类的特征之一的值
 type: docs
 weight: 2600
 url: /zh/net/aspose.imaging.fileformats.emf.emf.consts/emfcontrast/
 ---
 ## EmfContrast enumeration
 
-对比度枚举定义了 PANOSE 系统中用于对字体进行分类的特征之一的值。
+对比度枚举定义了PANOSE系统中用于字体分类的特征之一的值。
 
 ```csharp
 public enum EmfContrast : byte
@@ -18,13 +18,13 @@ public enum EmfContrast : byte
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| PAN_ANY | `0` | 任意对比 |
+| PAN_ANY | `0` | 任何对比 |
 | PAN_NO_FIT | `1` | 不合适。 |
 | PAN_CONTRAST_NONE | `2` | 无对比。 |
 | PAN_CONTRAST_VERY_LOW | `3` | 对比度非常低。 |
 | PAN_CONTRAST_LOW | `4` | 低对比度。 |
 | PAN_CONTRAST_MEDIUM_LOW | `5` | 中低。 |
-| PAN_CONTRAST_MEDIUM | `6` | 媒体。 |
+| PAN_CONTRAST_MEDIUM | `6` | 媒介. |
 | PAN_CONTRAST_MEDIUM_HIGH | `7` | 中高。 |
 | PAN_CONTRAST_HIGH | `8` | 高对比度。 |
 | PAN_CONTRAST_VERY_HIGH | `9` | 非常高。 |

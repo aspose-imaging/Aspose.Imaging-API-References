@@ -18,12 +18,12 @@ public enum EmfStrokeVariation : byte
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| PAN_ANY | `0` | 任意笔画。 |
+| PAN_ANY | `0` | 任意中风. |
 | PAN_NO_FIT | `1` | 不合适。 |
 | PAN_STROKE_GRADUAL_DIAG | `2` | 渐变/对角线 |
 | PAN_STROKE_GRADUAL_TRAN | `3` | 逐渐过渡 |
-| PAN_STROKE_GRADUAL_VERT | `4` | 渐变垂直 |
-| PAN_STROKE_GRADUAL_HORZ | `5` | 渐变水平 |
+| PAN_STROKE_GRADUAL_VERT | `4` | 逐渐垂直 |
+| PAN_STROKE_GRADUAL_HORZ | `5` | 逐渐水平 |
 | PAN_STROKE_RAPID_VERT | `6` | 快速垂直 |
 | PAN_STROKE_RAPID_HORZ | `7` | 快速水平 |
 | PAN_STROKE_INSTANT_VERT | `8` | 即时垂直 |

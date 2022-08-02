@@ -1,14 +1,14 @@
 ---
 title: ISOSpeedLatitudeYYY
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение широты yyy скорости ISO камеры или устройства ввода определенное в ISO 12232.
+description: Получает или задает значение широты yyy скорости ISO камеры или устройства ввода которое определено в ISO 12232.
 type: docs
 weight: 710
 url: /ru/net/aspose.imaging.exif/exifdata/isospeedlatitudeyyy/
 ---
 ## ExifData.ISOSpeedLatitudeYYY property
 
-Получает или задает значение широты yyy скорости ISO камеры или устройства ввода, определенное в ISO 12232.
+Получает или задает значение широты yyy скорости ISO камеры или устройства ввода, которое определено в ISO 12232.
 
 ```csharp
 public uint ISOSpeedLatitudeYYY { get; set; }
@@ -20,7 +20,7 @@ public uint ISOSpeedLatitudeYYY { get; set; }
 
 ### Примечания
 
-Этот тег не должен записываться без ISOSpeed и ISOSpeedLatitudezzz
+Этот тег не должен записываться без ISOSpeed и ISOSpeedLatitudezzz.
 
 ### Смотрите также
 

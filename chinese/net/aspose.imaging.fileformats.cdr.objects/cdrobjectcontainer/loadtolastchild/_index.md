@@ -1,14 +1,14 @@
 ---
 title: LoadToLastChild
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值该值指示是否 load to last child
+description: 获取或设置一个值该值指示是否 load to last child.
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/loadtolastchild/
 ---
 ## CdrObjectContainer.LoadToLastChild property
 
-获取或设置一个值，该值指示是否 [load to last child]。
+获取或设置一个值，该值指示是否 [load to last child].
 
 ```csharp
 public bool LoadToLastChild { get; set; }
@@ -16,7 +16,7 @@ public bool LoadToLastChild { get; set; }
 
 ### 适当的价值
 
-` true` if [加载到最后一个孩子];否则，` false` 。
+`真的` if [加载到最后一个孩子];否则，`错误的` .
 
 ### 也可以看看
 

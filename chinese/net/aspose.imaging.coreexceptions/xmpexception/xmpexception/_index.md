@@ -1,14 +1,14 @@
 ---
 title: XmpException
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化XmpExceptionaspose.imaging.coreexceptions/xmpexception类的新实例
+description: 初始化XmpExceptionaspose.imaging.coreexceptions/xmpexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.coreexceptions/xmpexception/xmpexception/
 ---
 ## XmpException() {#constructor}
 
-初始化[`XmpException`](../../xmpexception)类的新实例。
+初始化[`XmpException`](../../xmpexception)类.
 
 ```csharp
 public XmpException()
@@ -24,7 +24,7 @@ public XmpException()
 
 ## XmpException(string) {#constructor_1}
 
-初始化[`XmpException`](../../xmpexception)类的新实例。
+初始化[`XmpException`](../../xmpexception)类.
 
 ```csharp
 public XmpException(string message)
@@ -44,7 +44,7 @@ public XmpException(string message)
 
 ## XmpException(string, Exception) {#constructor_2}
 
-初始化[`XmpException`](../../xmpexception)类的新实例。
+初始化[`XmpException`](../../xmpexception)类.
 
 ```csharp
 public XmpException(string message, Exception innerException)
@@ -53,7 +53,7 @@ public XmpException(string message, Exception innerException)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 消息。 |
-| innerException | Exception | 内部异常。 |
+| innerException | Exception | 内在异常。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Ufi
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置要使用的字体 ID指定为 UniversalFontId第 2.2.27 节
+description: 获取或设置要使用的字体 id指定为 UniversalFontId第 2.2.27 节
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfforceufimapping/ufi/
 ---
 ## EmfForceUfiMapping.Ufi property
 
-获取或设置要使用的字体 ID，指定为 UniversalFontId（第 2.2.27 节）。
+获取或设置要使用的字体 id，指定为 UniversalFontId（第 2.2.27 节）。
 
 ```csharp
 public EmfUniversalFontId Ufi { get; set; }

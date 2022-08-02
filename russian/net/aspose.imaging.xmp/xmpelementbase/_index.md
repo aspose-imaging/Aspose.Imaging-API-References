@@ -3,7 +3,7 @@ title: XmpElementBase
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет базовый элемент xmp содержащий атрибуты.
 type: docs
-weight: 11760
+weight: 11750
 url: /ru/net/aspose.imaging.xmp/xmpelementbase/
 ---
 ## XmpElementBase class
@@ -20,7 +20,7 @@ public abstract class XmpElementBase : IEquatable<XmpElementBase>
 | --- | --- |
 | virtual [AddAttribute](../../aspose.imaging.xmp/xmpelementbase/addattribute)(string, string) | Добавляет атрибут. |
 | virtual [ClearAttributes](../../aspose.imaging.xmp/xmpelementbase/clearattributes)() | Удаляет все атрибуты. |
-| override [Equals](../../aspose.imaging.xmp/xmpelementbase/equals#equals_1)(object) | Определяет, равен ли указанныйObjectэтому экземпляру. |
+| override [Equals](../../aspose.imaging.xmp/xmpelementbase/equals#equals_1)(object) | Определяет, является ли указанныйObject , равно этому экземпляру. |
 | [Equals](../../aspose.imaging.xmp/xmpelementbase/equals#equals)(XmpElementBase) | Указывает, равен ли текущий объект другому объекту того же типа. |
 | virtual [GetAttribute](../../aspose.imaging.xmp/xmpelementbase/getattribute)(string) | Получает атрибут. |
 | override [GetHashCode](../../aspose.imaging.xmp/xmpelementbase/gethashcode)() | Возвращает хэш-код для этого экземпляра. |

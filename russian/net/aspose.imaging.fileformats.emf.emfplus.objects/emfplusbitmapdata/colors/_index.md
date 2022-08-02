@@ -1,14 +1,14 @@
 ---
 title: Colors
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает цвета палитры Цвета переменнаяНеобязательныйEmfPlusPaletteaspose.imaging.fileformats.emf.emfplus.objects/emfpluspaletteобъект раздел 2.2.2.28 который определяет палитру цветов используемых в пиксельных данных. Это поле ДОЛЖНО присутствовать если в поле PixelFormat объекта EmfPlusBitmapaspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmapустановлен флаг I.
+description: Получает или задает цвета палитры. Цвета переменная необязательный параметр.EmfPlusPaletteaspose.imaging.fileformats.emf.emfplus.objects/emfpluspalette объект раздел 2.2.2.28 который определяет палитру цветов используемых в пиксельных данных. Это поле ДОЛЖНО присутствовать если в поле PixelFormat файла the установлен флаг I.EmfPlusBitmapaspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap объект.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmapdata/colors/
 ---
 ## EmfPlusBitmapData.Colors property
 
-Получает или задает цвета палитры Цвета (переменная):Необязательный[`EmfPlusPalette`](../../emfpluspalette)объект (раздел 2.2.2.28), который определяет палитру цветов, используемых в пиксельных данных. Это поле ДОЛЖНО присутствовать, если в поле PixelFormat объекта [`EmfPlusBitmap`](../../emfplusbitmap)установлен флаг I.
+Получает или задает цвета палитры. Цвета (переменная): необязательный параметр.[`EmfPlusPalette`](../../emfpluspalette) объект (раздел 2.2.2.28), который определяет палитру цветов, используемых в пиксельных данных. Это поле ДОЛЖНО присутствовать, если в поле PixelFormat файла the установлен флаг I.[`EmfPlusBitmap`](../../emfplusbitmap) объект.
 
 ```csharp
 public EmfPlusPalette Colors { get; set; }

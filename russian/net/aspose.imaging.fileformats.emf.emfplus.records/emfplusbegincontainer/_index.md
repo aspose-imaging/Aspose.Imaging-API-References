@@ -18,19 +18,19 @@ public sealed class EmfPlusBeginContainer : EmfPlusStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPlusBeginContainer](emfplusbegincontainer)(EmfPlusRecord) | Инициализирует новый экземпляр класса[`EmfPlusBeginContainer`](../emfplusbegincontainer). |
+| [EmfPlusBeginContainer](emfplusbegincontainer)(EmfPlusRecord) | Инициализирует новый экземпляр[`EmfPlusBeginContainer`](../emfplusbegincontainer) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО определять 32-разрядное выровненное число байтов данных в поле RecordData, которое следует. Это число не включает 12-байтовый заголовок записи. |
-| [DestRect](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer/destrect) { get; set; } | Получает или задает объект EmfPlusRectF (раздел 2.2.2.39), который вместе с SrcRect определяет преобразование для контейнера. Это преобразование приводит к SrcRect при применении к DestRect. |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | Получает или задает 16-разрядное целое число без знака, содержащее информацию для некоторых записей о том, как должна выполняться операция , и о структуре запись. |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО определять 32-разрядное выровненное количество байтов данных в следующем поле RecordData. Это число не включает 12-байтовый заголовок записи. |
+| [DestRect](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer/destrect) { get; set; } | Получает или задает объект EmfPlusRectF (раздел 2.2.2.39), который вместе с SrcRect указывает преобразование для контейнера. Это преобразование приводит к SrcRect при применении к DestRect. |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | Получает или задает 16-разрядное целое число без знака, содержащее информацию для некоторых записей о том, как должна выполняться операция, и о структуре записи. |
 | [PageUnit](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer/pageunit) { get; } | Получает единицу страницы. |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее число байтов, выровненных по 32-разрядному выравниванию во всей записи, включая 12 -байтовый заголовок записи и данные, относящиеся к записи. |
-| [SrcRect](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer/srcrect) { get; set; } | Получает или задает прямоугольник EmfPlusRectF, который вместе с DestRect задает преобразование для контейнера. Это преобразование приводит к SrcRect при применении к DestRect. |
-| [StackIndex](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer/stackindex) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс, связанный с контейнером состояния графики . На индекс ДОЛЖНА ссылаться последующая запись EmfPlusEndContainer (раздел 2.3.7.3), чтобы закрыть контейнер графического состояния. |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее 32-разрядное выровненное количество байтов во всей записи, включая 12-разрядный заголовок записи и данные, относящиеся к записи. |
+| [SrcRect](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer/srcrect) { get; set; } | Получает или задает прямоугольник EmfPlusRectF, который вместе с DestRect задает для контейнера преобразование . Это преобразование приводит к SrcRect при применении к DestRect. |
+| [StackIndex](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer/stackindex) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс, связанный с контейнером состояния графики . На индекс ДОЛЖНА ссылаться запись after EmfPlusEndContainer (раздел 2.3.7.3), чтобы закрыть контейнер графического состояния. |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | Получает 16-разрядное целое число без знака, определяющее тип записи. |
 
 ### Смотрите также

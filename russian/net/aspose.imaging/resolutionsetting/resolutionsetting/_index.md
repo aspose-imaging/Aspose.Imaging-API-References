@@ -1,14 +1,14 @@
 ---
 title: ResolutionSetting
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаResolutionSettingaspose.imaging/resolutionsetting.
+description: Инициализирует новый экземплярResolutionSettingaspose.imaging/resolutionsetting класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging/resolutionsetting/resolutionsetting/
 ---
 ## ResolutionSetting() {#constructor}
 
-Инициализирует новый экземпляр класса[`ResolutionSetting`](../../resolutionsetting).
+Инициализирует новый экземпляр[`ResolutionSetting`](../../resolutionsetting) класс.
 
 ```csharp
 public ResolutionSetting()
@@ -24,7 +24,7 @@ public ResolutionSetting()
 
 ## ResolutionSetting(double, double) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`ResolutionSetting`](../../resolutionsetting).
+Инициализирует новый экземпляр[`ResolutionSetting`](../../resolutionsetting) класс.
 
 ```csharp
 public ResolutionSetting(double horizontalResolution, double verticalResolution)

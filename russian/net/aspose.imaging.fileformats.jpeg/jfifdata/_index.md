@@ -18,7 +18,7 @@ public sealed class JFIFData
 
 | Имя | Описание |
 | --- | --- |
-| [JFIFData](jfifdata)() | Инициализирует новый экземпляр класса[`JFIFData`](../jfifdata). |
+| [JFIFData](jfifdata)() | Инициализирует новый экземпляр[`JFIFData`](../jfifdata) класс. |
 
 ## Характеристики
 

@@ -31,11 +31,11 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterCachedImage rasterImage = (Aspose.Imaging.RasterCachedImage)image;
 
-     // Обрезать изображение. Область кадрирования — это прямоугольная центральная область изображения.
+    // Обрезать изображение. Область кадрирования представляет собой прямоугольную центральную область изображения.
     Aspose.Imaging.Rectangle area = new Aspose.Imaging.Rectangle(rasterImage.Width / 4, rasterImage.Height / 4, rasterImage.Width / 2, rasterImage.Height / 2);
     rasterImage.Crop(area);
 
-     // Сохраняем обрезанное изображение в PNG
+    // Сохраняем обрезанное изображение в PNG
     rasterImage.Save(dir + "sample.Crop.png");
 }
 ```

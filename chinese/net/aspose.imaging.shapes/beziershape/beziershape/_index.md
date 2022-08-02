@@ -1,14 +1,14 @@
 ---
 title: BezierShape
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化BezierShapeaspose.imaging.shapes/beziershape类的新实例
+description: 初始化BezierShapeaspose.imaging.shapes/beziershape类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.shapes/beziershape/beziershape/
 ---
 ## BezierShape() {#constructor}
 
-初始化[`BezierShape`](../../beziershape)类的新实例。
+初始化[`BezierShape`](../../beziershape)类.
 
 ```csharp
 public BezierShape()
@@ -24,7 +24,7 @@ public BezierShape()
 
 ## BezierShape(PointF[]) {#constructor_1}
 
-初始化[`BezierShape`](../../beziershape)类的新实例。
+初始化[`BezierShape`](../../beziershape)类.
 
 ```csharp
 public BezierShape(PointF[] points)
@@ -45,7 +45,7 @@ public BezierShape(PointF[] points)
 
 ## BezierShape(PointF[], bool) {#constructor_2}
 
-初始化[`BezierShape`](../../beziershape)类的新实例。
+初始化[`BezierShape`](../../beziershape)类.
 
 ```csharp
 public BezierShape(PointF[] points, bool isClosed)
@@ -54,7 +54,7 @@ public BezierShape(PointF[] points, bool isClosed)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | points | PointF[] | 点数组。 |
-| isClosed | Boolean | 如果设置为` true` ，则贝塞尔样条曲线关闭。 |
+| isClosed | Boolean | 如果设置为`真的`贝塞尔样条是闭合的。 |
 
 ### 也可以看看
 

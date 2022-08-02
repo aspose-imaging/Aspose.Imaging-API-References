@@ -1,14 +1,14 @@
 ---
 title: EmfHeader
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект Header раздел 2.2.9 который содержит информацию о содержимом и структуре метафайла
+description: Получает или задает объект заголовка раздел 2.2.9 который содержит информацию о content и структуре метафайла
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfheader/
 ---
 ## EmfMetafileHeader.EmfHeader property
 
-Получает или задает объект Header (раздел 2.2.9), который содержит информацию о содержимом и структуре метафайла
+Получает или задает объект заголовка (раздел 2.2.9), который содержит информацию о content и структуре метафайла
 
 ```csharp
 public EmfHeaderObject EmfHeader { get; set; }

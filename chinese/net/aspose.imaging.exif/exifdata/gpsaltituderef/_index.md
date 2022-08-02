@@ -1,14 +1,14 @@
 ---
 title: GPSAltitudeRef
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置用作参考高度的 GPS 高度
+description: 获取或设置作为参考高度的 GPS 高度
 type: docs
 weight: 370
 url: /zh/net/aspose.imaging.exif/exifdata/gpsaltituderef/
 ---
 ## ExifData.GPSAltitudeRef property
 
-获取或设置用作参考高度的 GPS 高度。
+获取或设置作为参考高度的 GPS 高度。
 
 ```csharp
 public ExifGPSAltitudeRef GPSAltitudeRef { get; set; }
@@ -16,7 +16,7 @@ public ExifGPSAltitudeRef GPSAltitudeRef { get; set; }
 
 ### 适当的价值
 
-GPS 高度用作参考高度。
+用作参考高度的 GPS 高度。
 
 ### 也可以看看
 

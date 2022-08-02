@@ -1,14 +1,14 @@
 ---
 title: Strikeout
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее является ли этоOdFontaspose.imaging.fileformats.opendocument.objects.font/odfontзачеркнутым.
+description: Получает или задает значение указывающее является ли этоOdFontaspose.imaging.fileformats.opendocument.objects.font/odfont зачеркнут.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.font/odfont/strikeout/
 ---
 ## OdFont.Strikeout property
 
-Получает или задает значение, указывающее, является ли это[`OdFont`](../../odfont)зачеркнутым.
+Получает или задает значение, указывающее, является ли это[`OdFont`](../../odfont) зачеркнут.
 
 ```csharp
 public bool Strikeout { get; set; }
@@ -16,7 +16,7 @@ public bool Strikeout { get; set; }
 
 ### Стоимость имущества
 
-` true` если зачеркнуть; в противном случае` false` .
+`истинный` если зачеркнуть; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

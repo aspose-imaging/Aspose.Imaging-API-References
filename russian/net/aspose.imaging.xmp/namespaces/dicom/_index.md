@@ -1,14 +1,14 @@
 ---
 title: Dicom
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пространство имен Dicom.
+description: пространство имен Dicom.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp/namespaces/dicom/
 ---
 ## Namespaces.Dicom field
 
-Пространство имен Dicom.
+пространство имен Dicom.
 
 ```csharp
 public const string Dicom;

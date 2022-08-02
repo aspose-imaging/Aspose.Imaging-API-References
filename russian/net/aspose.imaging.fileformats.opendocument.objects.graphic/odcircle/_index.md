@@ -1,14 +1,14 @@
 ---
 title: OdCircle
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Круговой объект
+description: Круглый объект
 type: docs
 weight: 6980
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odcircle/
 ---
 ## OdCircle class
 
-Круговой объект
+Круглый объект
 
 ```csharp
 public class OdCircle : OdAngleEllipse
@@ -18,14 +18,14 @@ public class OdCircle : OdAngleEllipse
 
 | Имя | Описание |
 | --- | --- |
-| [OdCircle](odcircle)(OdObject) | Инициализирует новый экземпляр класса[`OdCircle`](../odcircle). |
+| [OdCircle](odcircle)(OdObject) | Инициализирует новый экземпляр[`OdCircle`](../odcircle) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
-| [Closed](../../aspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse/closed) { get; set; } | Получает или задает значение, указывающее, закрыт ли этот[`OdAngleEllipse`](../odangleellipse). |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
+| [Closed](../../aspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse/closed) { get; set; } | Получает или задает значение, указывающее, является ли это[`OdAngleEllipse`](../odangleellipse) закрыто. |
 | [EndAngle](../../aspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse/endangle) { get; set; } | Получает или задает конечный угол. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [Kind](../../aspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse/kind) { get; set; } | Получает или задает вид. |

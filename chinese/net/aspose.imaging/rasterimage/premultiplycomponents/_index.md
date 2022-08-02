@@ -16,11 +16,11 @@ public virtual bool PremultiplyComponents { get; set; }
 
 ### 适当的价值
 
-` true` 如果必须对图像分量进行预乘；否则，` false` 。
+`真的`如果必须对图像分量进行预乘；否则，`错误的` .
 
 ### 例子
 
-以下示例创建一个新的光栅图像，保存指定的半透明像素，然后加载这些像素并在预乘形式。
+下面的示例创建一个新的光栅图像，保存指定的半透明像素，然后加载这些像素并以预乘形式获取最终颜色。
 
 ```csharp
 [C#]
@@ -46,15 +46,15 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(createOptions, i
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-        // 保存整个图像的像素。
+    // 保存整个图像的像素。
     rasterImage.SavePixels(rasterImage.Bounds, colors);
 
-        // 像素以非预乘形式存储在原始图像中。
-        // 需要显式指定相应的选项才能获得预乘的颜色分量
-        // 预乘的颜色分量由公式计算：
-        // 红色 = original_red * alpha / 255;
-        // 绿色 = original_green * alpha / 255;
-        // 蓝色 = original_blue * alpha / 255;
+    // 像素以非预乘的形式存储在原始图像中。
+    // 需要显式指定相应的选项才能获得预乘的颜色分量。
+    // 预乘的颜色分量由以下公式计算：
+    // 红色 = original_red * alpha / 255;
+    // 绿色 = original_green * alpha / 255;
+    // 蓝色 = original_blue * alpha / 255;
     rasterImage.PremultiplyComponents = true;
     Aspose.Imaging.Color[] premultipliedColors = rasterImage.LoadPixels(rasterImage.Bounds);
 

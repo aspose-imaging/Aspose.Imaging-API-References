@@ -1,14 +1,14 @@
 ---
 title: HasAlpha
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получите значение указывающее имеет ли этот экземпляр альфа-канал.
+description: Получить значение указывающее есть ли у этого экземпляра альфа.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.png/pngimage/hasalpha/
 ---
 ## PngImage.HasAlpha property
 
-Получите значение, указывающее, имеет ли этот экземпляр альфа-канал.
+Получить значение, указывающее, есть ли у этого экземпляра альфа.
 
 ```csharp
 public override bool HasAlpha { get; }
@@ -16,7 +16,7 @@ public override bool HasAlpha { get; }
 
 ### Стоимость имущества
 
-` true` если у этого экземпляра есть альфа; в противном случае` false` .
+`истинный` если у этого экземпляра есть альфа; в противном случае,`ЛОЖЬ` .
 
 ### Примеры
 
@@ -25,7 +25,7 @@ public override bool HasAlpha { get; }
 ```csharp
 [C#]
 
- // Получить все поддерживаемые типы цветов PNG.
+// Получить все поддерживаемые типы цветов PNG.
 System.Array colorTypes = System.Enum.GetValues(typeof(Aspose.Imaging.FileFormats.Png.PngColorType));
 
 foreach (Aspose.Imaging.FileFormats.Png.PngColorType colorType in colorTypes)
@@ -49,11 +49,11 @@ foreach (Aspose.Imaging.FileFormats.Png.PngColorType colorType in colorTypes)
     }
 }
 
- // Вывод выглядит следующим образом: 
- // Изображение PNG в оттенках серого не поддерживает альфа-канал
- // Изображение Truecolor PNG не поддерживает альфа-канал
- // Изображение IndexedColor PNG не поддерживает альфа-канал
- // Изображение PNG в оттенках серого с альфа-каналом поддерживает альфа-канал
+// Вывод выглядит так:
+// Изображение PNG в оттенках серого не поддерживает альфа-канал
+// Изображение Truecolor PNG не поддерживает альфа-канал
+// Изображение IndexedColor PNG не поддерживает альфа-канал
+// Изображение PNG в оттенках серого с альфа-каналом поддерживает альфа-канал
 // Изображение TruecolorWithAlpha PNG поддерживает альфа-канал
 ```
 

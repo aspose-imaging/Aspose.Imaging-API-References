@@ -1,14 +1,14 @@
 ---
 title: NonGenericList
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаNonGenericListaspose.imaging/nongenericlist.
+description: Инициализирует новый экземплярNonGenericListaspose.imaging/nongenericlist класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging/nongenericlist/nongenericlist/
 ---
 ## NonGenericList constructor
 
-Инициализирует новый экземпляр класса[`NonGenericList`](../../nongenericlist).
+Инициализирует новый экземпляр[`NonGenericList`](../../nongenericlist) класс.
 
 ```csharp
 public NonGenericList(IList list)

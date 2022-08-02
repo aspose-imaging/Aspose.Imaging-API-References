@@ -20,7 +20,7 @@ public enum OdPenStyle
 | --- | --- | --- |
 | None | `0` | Стиль пера none |
 | Solid | `1` | Стиль пера solid |
-| Dash | `2` | Тире в стиле пера |
+| Dash | `2` | Стиль пера dash |
 
 ### Смотрите также
 

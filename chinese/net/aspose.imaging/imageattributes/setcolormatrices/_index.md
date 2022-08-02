@@ -41,7 +41,7 @@ public void SetColorMatrices(ColorMatrix newColorMatrix, ColorMatrix grayMatrix,
 | --- | --- | --- |
 | newColorMatrix | ColorMatrix | 颜色调整矩阵。 |
 | grayMatrix | ColorMatrix | 灰度调整矩阵。 |
-| flags | ColorMatrixFlag | [`ColorMatrixFlag`](../../colormatrixflag)的一个元素，指定将受颜色调整和灰度调整矩阵。 |
+| flags | ColorMatrixFlag | 一个元素[`ColorMatrixFlag`](../../colormatrixflag)指定将受颜色调整和灰度调整矩阵影响的图像类型和颜色。 |
 
 ### 也可以看看
 
@@ -66,8 +66,8 @@ public void SetColorMatrices(ColorMatrix newColorMatrix, ColorMatrix grayMatrix,
 | --- | --- | --- |
 | newColorMatrix | ColorMatrix | 颜色调整矩阵。 |
 | grayMatrix | ColorMatrix | 灰度调整矩阵。 |
-| mode | ColorMatrixFlag | [`ColorMatrixFlag`](../../colormatrixflag)的一个元素，指定将受颜色调整和灰度调整矩阵。 |
-| type | ColorAdjustType | [`ColorAdjustType`](../../coloradjusttype)的一个元素，指定颜色调整和灰度调整的类别矩阵设置。 |
+| mode | ColorMatrixFlag | 一个元素[`ColorMatrixFlag`](../../colormatrixflag)指定将受颜色调整和灰度调整矩阵影响的图像类型和颜色。 |
+| type | ColorAdjustType | 一个元素[`ColorAdjustType`](../../coloradjusttype)指定为其设置颜色调整和灰度调整矩阵的类别。 |
 
 ### 也可以看看
 

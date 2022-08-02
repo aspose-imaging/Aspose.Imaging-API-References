@@ -1,14 +1,14 @@
 ---
 title: SharpenFilterOptions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Параметры фильтра Sharpen
+description: Параметры фильтра резкости
 type: docs
 weight: 9810
 url: /ru/net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/
 ---
 ## SharpenFilterOptions class
 
-Параметры фильтра Sharpen
+Параметры фильтра резкости
 
 ```csharp
 public class SharpenFilterOptions : ConvolutionFilterOptions
@@ -18,21 +18,21 @@ public class SharpenFilterOptions : ConvolutionFilterOptions
 
 | Имя | Описание |
 | --- | --- |
-| [SharpenFilterOptions](sharpenfilteroptions#constructor)() | Инициализирует новый экземпляр класса[`SharpenFilterOptions`](../sharpenfilteroptions). С настройками по умолчанию. |
-| [SharpenFilterOptions](sharpenfilteroptions#constructor_1)(int, double) | Инициализирует новый экземпляр класса[`SharpenFilterOptions`](../sharpenfilteroptions). |
+| [SharpenFilterOptions](sharpenfilteroptions#constructor)() | Инициализирует новый экземпляр[`SharpenFilterOptions`](../sharpenfilteroptions)class. С настройками по умолчанию. |
+| [SharpenFilterOptions](sharpenfilteroptions#constructor_1)(int, double) | Инициализирует новый экземпляр[`SharpenFilterOptions`](../sharpenfilteroptions) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [Bias](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/bias) { get; set; } | Получает или задает смещение. |
-| [Factor](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/factor) { get; set; } | Получает или задает коэффициент. |
+| [Factor](../../aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/factor) { get; set; } | Получает или задает фактор. |
 | [Sigma](../../aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/sigma) { get; set; } | Получает или задает сигму. |
 | [Size](../../aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/size) { get; set; } | Получает или задает размер. |
 
 ### Примеры
 
-В следующем примере применяются различные типы фильтров в растровое изображение.
+В следующем примере к растровому изображению применяются различные типы фильтров.
 
 ```csharp
 [C#]
@@ -43,7 +43,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-     // Применяем медианный фильтр с размером прямоугольника 5 ко всему изображению.
+    // Применяем медианный фильтр с размером прямоугольника 5 ко всему изображению.
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.MedianFilterOptions(5));
     rasterImage.Save(dir + "sample.MedianFilter.png");
 }
@@ -52,7 +52,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-     // Применяем фильтр двустороннего сглаживания с размером ядра 5 ко всему изображению.
+    // Применяем фильтр двустороннего сглаживания с размером ядра 5 ко всему изображению.
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.BilateralSmoothingFilterOptions(5));
     rasterImage.Save(dir + "sample.BilateralSmoothingFilter.png");
 }
@@ -61,7 +61,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    // Применяем фильтр размытия по Гауссу с радиусом 5 и значением сигмы 4,0 ко всему изображению.
+    // Применяем ко всему изображению фильтр размытия по Гауссу с радиусом 5 и значением сигмы 4,0.
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.GaussianBlurFilterOptions(5, 4.0));
     rasterImage.Save(dir + "sample.GaussianBlurFilter.png");
 }
@@ -70,7 +70,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-     // Применяем ко всему изображению фильтр Гаусса-Винера с радиусом 5 и значением гладкости 4,0.
+    // Применяем ко всему изображению фильтр Гаусса-Винера с радиусом 5 и значением гладкости 4,0.
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.GaussWienerFilterOptions(5, 4.0));
     rasterImage.Save(dir + "sample.GaussWienerFilter.png");
 }
@@ -79,7 +79,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-     // Применяем фильтр Винера движения с длиной 5, значением гладкости 4,0 и углом 90,0 градусов ко всему изображению.
+    // Применяем фильтр Винера движения с длиной 5, значением гладкости 4,0 и углом 90,0 градусов ко всему изображению.
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.MotionWienerFilterOptions(10, 1.0, 90.0));
     rasterImage.Save(dir + "sample.MotionWienerFilter.png");
 }
@@ -88,7 +88,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-     // Применяем фильтр резкости с размером ядра 5 и значением сигмы 4,0 ко всему изображению.
+    // Применяем фильтр резкости с размером ядра 5 и значением сигмы 4,0 ко всему изображению.
     rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.SharpenFilterOptions(5, 4.0));
     rasterImage.Save(dir + "sample.SharpenFilter.png");
 }

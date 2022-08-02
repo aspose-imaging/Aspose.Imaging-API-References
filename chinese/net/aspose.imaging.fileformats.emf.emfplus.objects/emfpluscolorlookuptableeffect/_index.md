@@ -25,7 +25,7 @@ public sealed class EmfPlusColorLookupTableEffect : EmfPlusImageEffectsObjectTyp
 | 姓名 | 描述 |
 | --- | --- |
 | [AlphaLookupTable](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorlookuptableeffect/alphalookuptable) { get; set; } | 获取或设置一个 256 字节的数组，用于指定 alpha 颜色通道的调整。 |
-| [BlueLookupTable](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorlookuptableeffect/bluelookuptable) { get; set; } | 获取或设置一个 256 字节的数组，用于指定蓝色通道的调整。 |
+| [BlueLookupTable](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorlookuptableeffect/bluelookuptable) { get; set; } | 获取或设置一个 256 字节的数组，指定蓝色通道的调整。 |
 | [GreenLookupTable](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorlookuptableeffect/greenlookuptable) { get; set; } | 获取或设置一个 256 字节的数组，用于指定绿色通道的调整。 |
 | [RedLookupTable](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorlookuptableeffect/redlookuptable) { get; set; } | 获取或设置一个 256 字节的数组，用于指定红色通道的调整。 |
 

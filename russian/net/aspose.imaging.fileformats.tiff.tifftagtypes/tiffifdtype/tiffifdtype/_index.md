@@ -1,14 +1,14 @@
 ---
 title: TiffIfdType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTiffIfdTypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffifdtype.
+description: Инициализирует новый экземплярTiffIfdTypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffifdtype класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffifdtype/tiffifdtype/
 ---
 ## TiffIfdType(TiffTags) {#constructor}
 
-Инициализирует новый экземпляр класса[`TiffIfdType`](../../tiffifdtype).
+Инициализирует новый экземпляр[`TiffIfdType`](../../tiffifdtype) класс.
 
 ```csharp
 public TiffIfdType(TiffTags tagId)
@@ -29,7 +29,7 @@ public TiffIfdType(TiffTags tagId)
 
 ## TiffIfdType(ushort) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TiffIfdType`](../../tiffifdtype).
+Инициализирует новый экземпляр[`TiffIfdType`](../../tiffifdtype) класс.
 
 ```csharp
 public TiffIfdType(ushort tagId)

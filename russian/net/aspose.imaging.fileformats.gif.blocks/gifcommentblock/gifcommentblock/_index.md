@@ -1,14 +1,14 @@
 ---
 title: GifCommentBlock
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаGifCommentBlockaspose.imaging.fileformats.gif.blocks/gifcommentblock.
+description: Инициализирует новый экземплярGifCommentBlockaspose.imaging.fileformats.gif.blocks/gifcommentblock класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.gif.blocks/gifcommentblock/gifcommentblock/
 ---
 ## GifCommentBlock() {#constructor}
 
-Инициализирует новый экземпляр класса[`GifCommentBlock`](../../gifcommentblock).
+Инициализирует новый экземпляр[`GifCommentBlock`](../../gifcommentblock) класс.
 
 ```csharp
 public GifCommentBlock()
@@ -24,7 +24,7 @@ public GifCommentBlock()
 
 ## GifCommentBlock(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`GifCommentBlock`](../../gifcommentblock).
+Инициализирует новый экземпляр[`GifCommentBlock`](../../gifcommentblock) класс.
 
 ```csharp
 public GifCommentBlock(string comment)

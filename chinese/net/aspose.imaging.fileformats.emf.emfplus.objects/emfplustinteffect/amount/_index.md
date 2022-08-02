@@ -1,14 +1,14 @@
 ---
 title: Amount
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位有符号整数指定色调增强或减弱的程度 -100  值 lt 0 负值指定色调减弱的程度这相当于 添加黑色 0 值 0 指定色调不得更改 0 lt value  100 正值指定色调增强的程度这相当于 添加白色
+description: 获取或设置一个 32 位有符号整数指定色调增强或减弱的程度 -100  value lt 0 负值指定色调减弱的程度相当于 加黑色 0 值为 0 表示色调不得更改 0 lt value  100 正值指定色调增强的程度这相当于 添加白色
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplustinteffect/amount/
 ---
 ## EmfPlusTintEffect.Amount property
 
-获取或设置一个 32 位有符号整数，指定色调增强或减弱的程度。 -100 ≤ 值 &lt; 0 负值指定色调减弱的程度，这相当于 添加黑色。 0 值 0 指定色调不得更改。 0 &lt; value ≤ 100 正值指定色调增强的程度，这相当于 添加白色。
+获取或设置一个 32 位有符号整数，指定色调增强或减弱的程度。 -100 ≤ value &lt; 0 负值指定色调减弱的程度，相当于 加黑色。 0 值为 0 表示色调不得更改。 0 &lt; value ≤ 100 正值指定色调增强的程度，这相当于 添加白色。
 
 ```csharp
 public int Amount { get; set; }

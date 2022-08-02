@@ -1,14 +1,14 @@
 ---
 title: FilterType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 8-разрядное целое число без знака указывающее как выполняется масштабирование включая растяжение и сжатие. Это ДОЛЖНО быть значением в перечислении FilterType раздел 2.1.1.11.
+description: Получает или задает 8-битное целое число без знака указывающее как выполняется масштабирование включая stretching и сжатие. Это ДОЛЖНО быть значение в перечислении FilterType раздел 2.1.1.11.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics/filtertype/
 ---
 ## EmfPlusSetTsGraphics.FilterType property
 
-Получает или задает 8-разрядное целое число без знака, указывающее, как выполняется масштабирование, включая растяжение и сжатие. Это ДОЛЖНО быть значением в перечислении FilterType (раздел 2.1.1.11).
+Получает или задает 8-битное целое число без знака, указывающее, как выполняется масштабирование, включая stretching и сжатие. Это ДОЛЖНО быть значение в перечислении FilterType (раздел 2.1.1.11).
 
 ```csharp
 public EmfPlusFilterType FilterType { get; set; }

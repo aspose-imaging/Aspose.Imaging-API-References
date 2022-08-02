@@ -1,14 +1,14 @@
 ---
 title: ColorAdjustment
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定颜色 调整值的 ColorAdjustment 对象第 2.2.2 节
+description: 获取或设置指定 color 调整值的 ColorAdjustment 对象第 2.2.2 节
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetcoloradjustment/coloradjustment/
 ---
 ## EmfSetColorAdjustment.ColorAdjustment property
 
-获取或设置指定颜色 调整值的 ColorAdjustment 对象（第 2.2.2 节）。
+获取或设置指定 color 调整值的 ColorAdjustment 对象（第 2.2.2 节）。
 
 ```csharp
 public EmfColorAdjustment ColorAdjustment { get; set; }

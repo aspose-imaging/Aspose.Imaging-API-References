@@ -1,14 +1,14 @@
 ---
 title: RotateFlipExtensions
 second_title: Aspose.Imaging for .NET API 参考
-description: 包含用于转换RotateFlipType和RotateFlipType的扩展方法类
+description: 包含用于转换的扩展方法RotateFlipType和RotateFlipType../aspose.imaging/rotatefliptype类.
 type: docs
 weight: 1270
 url: /zh/net/aspose.imaging.extensions/rotateflipextensions/
 ---
 ## RotateFlipExtensions class
 
-包含用于转换RotateFlipType和RotateFlipType的扩展方法类。
+包含用于转换的扩展方法RotateFlipType和[`RotateFlipType`](../../aspose.imaging/rotatefliptype)类.
 
 ```csharp
 public static class RotateFlipExtensions
@@ -18,7 +18,7 @@ public static class RotateFlipExtensions
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [ToGdiRotateFlipType](../../aspose.imaging.extensions/rotateflipextensions/togdirotatefliptype)(RotateFlipType) | 将 Aspose.Imaging.RotateFlipType 转换为 System.Drawing.RotateFlipType。 |
+| static [ToGdiRotateFlipType](../../aspose.imaging.extensions/rotateflipextensions/togdirotatefliptype)(RotateFlipType) | 将 Aspose.Imaging.RotateFlipType 转换为 System.Drawing.RotateFlipType. |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Imaging for .NET API 参考
-description: 返回代表此实例的String
+description: 返回一个String代表这个实例
 type: docs
 weight: 120
 url: /zh/net/aspose.imaging.fileformats.tiff/tiffdatatype/tostring/
 ---
 ## TiffDataType.ToString method
 
-返回代表此实例的String。
+返回一个String代表这个实例。
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-AString表示此实例。
+一个String代表这个实例。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: GetOriginalOptions
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取基于原始文件设置的选项 这有助于保持原始图像的位深度和其他参数不变 例如如果我们加载一个每像素 1 位的黑白 PNG 图像然后使用 String方法将生成每像素 8 位的输出 PNG 图像 为避免它并以每像素 1 位保存 PNG 图像请使用此方法获取相应的保存选项并将它们传递 到ImageOptionsBase方法作为第二个参数
+description: 获取基于原始文件设置的选项 这有助于保持原始图像的位深度和其他参数不变 例如如果我们加载一个每像素 1 位的黑白 PNG 图像然后使用 the 保存它Saveaspose.imaging/datastreamsupporter/save方法将产生每像素8位的输出PNG图像 为了避免它并以每像素1位保存PNG图像使用此方法获取相应的保存选项并将它们 传递给Saveaspose.imaging/image/save方法作为第二个参数
 type: docs
 weight: 230
 url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifframeblock/getoriginaloptions/
 ---
 ## GifFrameBlock.GetOriginalOptions method
 
-获取基于原始文件设置的选项。 这有助于保持原始图像的位深度和其他参数不变。 例如，如果我们加载一个每像素 1 位的黑白 PNG 图像，然后使用 String)方法，将生成每像素 8 位的输出 PNG 图像。 为避免它并以每像素 1 位保存 PNG 图像，请使用此方法获取相应的保存选项并将它们传递 到ImageOptionsBase)方法作为第二个参数。
+获取基于原始文件设置的选项。 这有助于保持原始图像的位深度和其他参数不变。 例如，如果我们加载一个每像素 1 位的黑白 PNG 图像，然后使用 the 保存它[`Save`](../../../aspose.imaging/datastreamsupporter/save)方法，将产生每像素8位的输出PNG图像。 为了避免它并以每像素1位保存PNG图像，使用此方法获取相应的保存选项并将它们 传递给[`Save`](../../../aspose.imaging/image/save)方法作为第二个参数。
 
 ```csharp
 public override ImageOptionsBase GetOriginalOptions()

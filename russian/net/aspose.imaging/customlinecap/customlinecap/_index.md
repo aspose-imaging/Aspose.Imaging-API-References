@@ -1,14 +1,14 @@
 ---
 title: CustomLineCap
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаCustomLineCapaspose.imaging/customlinecapс указанным контуром и заливкой.
+description: Инициализирует новый экземплярCustomLineCapaspose.imaging/customlinecap класс с указанным контуром и заливкой.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging/customlinecap/customlinecap/
 ---
 ## CustomLineCap(GraphicsPath, GraphicsPath) {#constructor}
 
-Инициализирует новый экземпляр класса[`CustomLineCap`](../../customlinecap)с указанным контуром и заливкой.
+Инициализирует новый экземпляр[`CustomLineCap`](../../customlinecap) класс с указанным контуром и заливкой.
 
 ```csharp
 public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath)
@@ -16,8 +16,8 @@ public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fillPath | GraphicsPath | A[`GraphicsPath`](../../graphicspath)объект, определяющий заливку пользовательского колпачка . |
-| strokePath | GraphicsPath | A[`GraphicsPath`](../../graphicspath)объект, определяющий контур пользовательской кепки. |
+| fillPath | GraphicsPath | А[`GraphicsPath`](../../graphicspath) объект, который определяет заливку пользовательского колпачка. |
+| strokePath | GraphicsPath | А[`GraphicsPath`](../../graphicspath) объект, определяющий контур пользовательской кепки. |
 
 ### Смотрите также
 
@@ -30,7 +30,7 @@ public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath)
 
 ## CustomLineCap(GraphicsPath, GraphicsPath, LineCap) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`CustomLineCap`](../../customlinecap)из указанного существующего[`LineCap`](../../linecap)перечисление с заданным контуром и заливкой.
+Инициализирует новый экземпляр[`CustomLineCap`](../../customlinecap) класс из указанного существующего[`LineCap`](../../linecap) перечисление с заданным контуром и заливкой.
 
 ```csharp
 public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath, LineCap baseCap)
@@ -38,9 +38,9 @@ public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath, LineCap bas
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fillPath | GraphicsPath | A[`GraphicsPath`](../../graphicspath)объект, определяющий заливку пользовательского колпачка . |
-| strokePath | GraphicsPath | A[`GraphicsPath`](../../graphicspath)объект, определяющий контур пользовательской кепки. |
-| baseCap | LineCap | Заглушка строки, из которой создается пользовательская заглушка. |
+| fillPath | GraphicsPath | А[`GraphicsPath`](../../graphicspath) объект, который определяет заливку пользовательского колпачка. |
+| strokePath | GraphicsPath | А[`GraphicsPath`](../../graphicspath) объект, определяющий контур пользовательской кепки. |
+| baseCap | LineCap | Ограничение строки, из которого создается пользовательское ограничение. |
 
 ### Смотрите также
 
@@ -54,7 +54,7 @@ public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath, LineCap bas
 
 ## CustomLineCap(GraphicsPath, GraphicsPath, LineCap, float) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`CustomLineCap`](../../customlinecap)из указанного существующего[`LineCap`](../../linecap)перечисление с указанным контуром, заливкой и вставкой.
+Инициализирует новый экземпляр[`CustomLineCap`](../../customlinecap) класс из указанного существующего[`LineCap`](../../linecap) перечисление с указанным контуром, заливкой и вставкой.
 
 ```csharp
 public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath, LineCap baseCap, 
@@ -63,10 +63,10 @@ public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath, LineCap bas
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fillPath | GraphicsPath | A[`GraphicsPath`](../../graphicspath)объект, определяющий заливку пользовательского колпачка . |
-| strokePath | GraphicsPath | A[`GraphicsPath`](../../graphicspath)объект, определяющий контур пользовательской кепки. |
-| baseCap | LineCap | Заглушка строки, из которой создается пользовательская заглушка. |
-| baseInset | Single | Расстояние между шапкой и линией. |
+| fillPath | GraphicsPath | А[`GraphicsPath`](../../graphicspath) объект, который определяет заливку пользовательского колпачка. |
+| strokePath | GraphicsPath | А[`GraphicsPath`](../../graphicspath) объект, определяющий контур пользовательской кепки. |
+| baseCap | LineCap | Ограничение строки, из которого создается пользовательское ограничение. |
+| baseInset | Single | Расстояние между кепкой и линией. |
 
 ### Смотрите также
 

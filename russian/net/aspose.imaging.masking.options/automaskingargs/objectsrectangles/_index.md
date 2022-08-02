@@ -1,14 +1,14 @@
 ---
 title: ObjectsRectangles
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает прямоугольники объектов которые принадлежат разделенным объектам необязательно. Этот параметр используется для увеличения точности метода сегментации.
+description: Получает или задает прямоугольники объектов которые принадлежат разделенным объектам необязательно. Этот параметр используется для повышения точности метода сегментации.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.masking.options/automaskingargs/objectsrectangles/
 ---
 ## AutoMaskingArgs.ObjectsRectangles property
 
-Получает или задает прямоугольники объектов, которые принадлежат разделенным объектам (необязательно). Этот параметр используется для увеличения точности метода сегментации.
+Получает или задает прямоугольники объектов, которые принадлежат разделенным объектам (необязательно). Этот параметр используется для повышения точности метода сегментации.
 
 ```csharp
 public Rectangle[] ObjectsRectangles { get; set; }
@@ -20,7 +20,7 @@ public Rectangle[] ObjectsRectangles { get; set; }
 
 ### Примеры
 
-В этом примере показано, как указать предложения для алгоритма маскирования изображения для повышения точности метода сегментации (кластеризации). Маскирование изображения — это метод обработки изображения, который используется для отделения фона от объектов изображения переднего плана.
+В этом примере показано, как указать предложения для алгоритма маскирования изображения, чтобы повысить точность метода сегментации (кластеризации). Маскирование изображения — это метод обработки изображения, который используется для отделения фона от объектов изображения переднего плана.
 
 ```csharp
 [C#]
@@ -31,15 +31,15 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 {
     Aspose.Imaging.Masking.Options.AutoMaskingArgs args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
 
-     // Предложение №1.
-     // Визуально проанализируйте изображение и установите область интереса. Результат сегментации будет включать только те объекты, которые будут полностью находиться в пределах этой области.
+    // Предложение №1.
+    // Визуально проанализируйте изображение и установите область интереса. Результат сегментации будет включать только те объекты, которые будут полностью расположены в пределах этой области.
     args.ObjectsRectangles = new Rectangle[]
     {
         new Rectangle(86, 6, 270, 364),
     };
 
-     // Предложение № 2.
-     // Визуально анализируем изображение и устанавливаем точки, которые принадлежат разделенным объектам.
+    // Предложение №2.
+    // Визуально проанализируйте изображение и установите точки, которые принадлежат разделенным объектам.
     args.ObjectsPoints = new Point[][]
     {
         new Point[] { new Point(103, 326) },
@@ -47,7 +47,7 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
         new Point[] { new Point(319, 86) },
     };
 
-     // Каждый кластер (сегмент) будет храниться в отдельном файле PNG.
+    // Каждый кластер (сегмент) будет храниться в отдельном файле PNG.
     Aspose.Imaging.ImageOptions.PngOptions exportOptions = new Aspose.Imaging.ImageOptions.PngOptions();
     exportOptions.ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
     exportOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream());
@@ -59,17 +59,17 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
     maskingOptions.Decompose = false;
     maskingOptions.Args = args;
 
-     // Цвет фона будет оранжевый.
+    // Цвет фона будет оранжевый.
     maskingOptions.BackgroundReplacementColor = Aspose.Imaging.Color.Orange;
     maskingOptions.ExportOptions = exportOptions;
 
-     // Создаем экземпляр класса ImageMasking.
+    // Создаем экземпляр класса ImageMasking.
     Aspose.Imaging.Masking.ImageMasking masking = new Aspose.Imaging.Masking.ImageMasking(image);
 
-     // Разделить исходное изображение на несколько кластеров (сегментов).
+    // Разделить исходное изображение на несколько кластеров (сегментов).
     using (Aspose.Imaging.Masking.Result.MaskingResult maskingResult = masking.Decompose(maskingOptions))
     {
-         // Получаем изображения из результата маскирования и сохраняем их в PNG.
+        // Получаем изображения из результата маскирования и сохраняем их в PNG.
         for (int i = 0; i < maskingResult.Length; i++)
         {
             string outputFileName = string.Format("Gorilla.Segment{0}.png", maskingResult[i].ObjectNumber);

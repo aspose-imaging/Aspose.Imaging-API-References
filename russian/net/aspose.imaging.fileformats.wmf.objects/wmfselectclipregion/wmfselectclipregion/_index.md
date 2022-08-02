@@ -1,14 +1,14 @@
 ---
 title: WmfSelectClipRegion
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаWmfSelectClipRegionaspose.imaging.fileformats.wmf.objects/wmfselectclipregion.
+description: Инициализирует новый экземплярWmfSelectClipRegionaspose.imaging.fileformats.wmf.objects/wmfselectclipregion класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfselectclipregion/wmfselectclipregion/
 ---
 ## WmfSelectClipRegion() {#constructor}
 
-Инициализирует новый экземпляр класса[`WmfSelectClipRegion`](../../wmfselectclipregion).
+Инициализирует новый экземпляр[`WmfSelectClipRegion`](../../wmfselectclipregion) класс.
 
 ```csharp
 public WmfSelectClipRegion()
@@ -24,7 +24,7 @@ public WmfSelectClipRegion()
 
 ## WmfSelectClipRegion(WmfGraphicObject) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`WmfSelectClipRegion`](../../wmfselectclipregion).
+Инициализирует новый экземпляр[`WmfSelectClipRegion`](../../wmfselectclipregion) класс.
 
 ```csharp
 public WmfSelectClipRegion(WmfGraphicObject region)
@@ -32,7 +32,7 @@ public WmfSelectClipRegion(WmfGraphicObject region)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| region | WmfGraphicObject | Регион. |
+| region | WmfGraphicObject | Область. |
 
 ### Смотрите также
 

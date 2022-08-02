@@ -18,7 +18,7 @@ public sealed class EmfSetLinkedUfis : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSetLinkedUfis](emfsetlinkedufis)(EmfRecord) | 初始化[`EmfSetLinkedUfis`](../emfsetlinkedufis)类的新实例。 |
+| [EmfSetLinkedUfis](emfsetlinkedufis)(EmfRecord) | 初始化[`EmfSetLinkedUfis`](../emfsetlinkedufis)类. |
 
 ## 特性
 
@@ -26,7 +26,7 @@ public sealed class EmfSetLinkedUfis : EmfStateRecordType
 | --- | --- |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
-| [Ufis](../../aspose.imaging.fileformats.emf.emf.records/emfsetlinkedufis/ufis) { get; set; } | 获取或设置 UniversalFontId 类型的 uNumLinkedUFI 元素数组，它指定 链接字体的标识符。 |
+| [Ufis](../../aspose.imaging.fileformats.emf.emf.records/emfsetlinkedufis/ufis) { get; set; } | 获取或设置UniversalFontId 类型的uNumLinkedUFI 元素数组，它指定 链接字体的标识符。 |
 
 ### 也可以看看
 

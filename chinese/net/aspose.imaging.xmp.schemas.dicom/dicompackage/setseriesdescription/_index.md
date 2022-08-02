@@ -16,7 +16,7 @@ public void SetSeriesDescription(string seriesDescription)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| seriesDescription | String | 系列描述。 |
+| seriesDescription | String | 系列说明。 |
 
 ### 也可以看看
 

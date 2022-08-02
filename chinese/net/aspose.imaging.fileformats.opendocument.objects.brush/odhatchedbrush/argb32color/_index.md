@@ -1,14 +1,14 @@
 ---
 title: Argb32Color
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 argb32 的颜色
+description: 获取或设置 argb32. 的颜色
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.brush/odhatchedbrush/argb32color/
 ---
 ## OdHatchedBrush.Argb32Color property
 
-获取或设置 argb32 的颜色。
+获取或设置 argb32. 的颜色
 
 ```csharp
 public int Argb32Color { get; set; }
@@ -16,7 +16,7 @@ public int Argb32Color { get; set; }
 
 ### 适当的价值
 
-argb32 的颜色。
+argb32. 的颜色
 
 ### 也可以看看
 

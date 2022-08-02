@@ -16,7 +16,7 @@ public bool IsInverted { get; set; }
 
 ### 适当的价值
 
-` true` 如果此实例倒置；否则，` false` 。
+`真的`如果这个实例是倒置的；否则，`错误的` .
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: TiffSShortType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Короткий тип со знаком tiff.
+description: Подписанный короткий тип tiff.
 type: docs
 weight: 8020
 url: /ru/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffsshorttype/
 ---
 ## TiffSShortType class
 
-Короткий тип со знаком tiff.
+Подписанный короткий тип tiff.
 
 ```csharp
 public sealed class TiffSShortType : TiffCommonArrayType
@@ -18,8 +18,8 @@ public sealed class TiffSShortType : TiffCommonArrayType
 
 | Имя | Описание |
 | --- | --- |
-| [TiffSShortType](tiffsshorttype#constructor)(TiffTags) | Инициализирует новый экземпляр класса[`TiffSShortType`](../tiffsshorttype). |
-| [TiffSShortType](tiffsshorttype#constructor_1)(ushort) | Инициализирует новый экземпляр класса[`TiffSShortType`](../tiffsshorttype). |
+| [TiffSShortType](tiffsshorttype#constructor)(TiffTags) | Инициализирует новый экземпляр[`TiffSShortType`](../tiffsshorttype) класс. |
+| [TiffSShortType](tiffsshorttype#constructor_1)(ushort) | Инициализирует новый экземпляр[`TiffSShortType`](../tiffsshorttype) класс. |
 
 ## Характеристики
 
@@ -41,9 +41,9 @@ public sealed class TiffSShortType : TiffCommonArrayType
 
 | Имя | Описание |
 | --- | --- |
-| [CompareTo](../../aspose.imaging.fileformats.tiff/tiffdatatype/compareto)(object) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует ли за ним или находится в той же позиции в порядке сортировки как другой объект. |
+| [CompareTo](../../aspose.imaging.fileformats.tiff/tiffdatatype/compareto)(object) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует за ним или находится в той же позиции в порядке сортировки, что и другой объект. |
 | virtual [DeepClone](../../aspose.imaging.fileformats.tiff/tiffdatatype/deepclone)() | Выполняет глубокое клонирование этого экземпляра. |
-| override [ToString](../../aspose.imaging.fileformats.tiff/tiffdatatype/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.imaging.fileformats.tiff/tiffdatatype/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 | override [WriteAdditionalData](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffsshorttype/writeadditionaldata)(TiffStreamWriter) | Записывает дополнительные данные тега. |
 | [WriteTag](../../aspose.imaging.fileformats.tiff/tiffdatatype/writetag)(TiffStreamWriter, long) | Записывает данные тега. |
 

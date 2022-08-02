@@ -1,14 +1,14 @@
 ---
 title: CdrStyle
 second_title: Aspose.Imaging for .NET API 参考
-description: cdr 样式
+description: cdr风格
 type: docs
 weight: 1770
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrstyle/
 ---
 ## CdrStyle class
 
-cdr 样式
+cdr风格
 
 ```csharp
 public class CdrStyle : CdrDictionaryItem
@@ -24,15 +24,15 @@ public class CdrStyle : CdrDictionaryItem
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Align](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/align) { get; set; } | 获取或设置对齐。 |
+| [Align](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/align) { get; set; } | 获取或设置对齐方式。 |
 | [Charset](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/charset) { get; set; } | 获取或设置字符集。 |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示该实例是否被释放。 |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示此实例是否被释放。 |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | 获取或设置文档。 |
 | [Fill](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/fill) { get; set; } | 获取或设置填充。 |
 | [FirstIndent](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/firstindent) { get; set; } | 获取或设置第一个缩进。 |
 | [FontName](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/fontname) { get; set; } | 获取或设置字体名称。 |
 | [FontSize](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/fontsize) { get; set; } | 获取或设置字体大小。 |
-| [FontWeight](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/fontweight) { get; set; } | 获取或设置字体粗细。 |
+| [FontWeight](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/fontweight) { get; set; } | 获取或设置字体粗细 |
 | [Id](../../aspose.imaging.fileformats.cdr.objects/cdrdictionaryitem/id) { get; set; } | 获取或设置标识符。 |
 | [LeftIndent](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/leftindent) { get; set; } | 获取或设置左缩进。 |
 | [OutLine](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/outline) { get; set; } | 获取或设置出线。 |
@@ -45,10 +45,11 @@ public class CdrStyle : CdrDictionaryItem
 | 姓名 | 描述 |
 | --- | --- |
 | [Copy](../../aspose.imaging.fileformats.cdr.objects/cdrstyle/copy)() | 复制此实例。 |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 释放当前实例。 |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 处理当前实例。 |
 
 ### 也可以看看
 
+* class [CdrObjectContainer](../cdrobjectcontainer)
 * class [CdrDictionaryItem](../cdrdictionaryitem)
 * 命名空间 [Aspose.Imaging.FileFormats.Cdr.Objects](../../aspose.imaging.fileformats.cdr.objects)
 * 部件 [Aspose.Imaging](../../)

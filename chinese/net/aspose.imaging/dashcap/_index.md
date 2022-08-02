@@ -1,14 +1,14 @@
 ---
 title: DashCap
 second_title: Aspose.Imaging for .NET API 参考
-description: 指定要在虚线中每个虚线两端使用的图形形状的类型
+description: 指定要在虚线中每个虚线的两端使用的图形形状的类型
 type: docs
 weight: 780
 url: /zh/net/aspose.imaging/dashcap/
 ---
 ## DashCap enumeration
 
-指定要在虚线中每个虚线两端使用的图形形状的类型。
+指定要在虚线中每个虚线的两端使用的图形形状的类型。
 
 ```csharp
 public enum DashCap

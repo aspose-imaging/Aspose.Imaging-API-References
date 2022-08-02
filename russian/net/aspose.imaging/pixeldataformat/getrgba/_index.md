@@ -16,7 +16,7 @@ public static PixelDataFormat GetRgba(int bitsPerSample)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| bitsPerSample | Int32 | Количество битов в выборке. |
+| bitsPerSample | Int32 | Количество битов на выборку. |
 
 ### Возвращаемое значение
 
@@ -41,7 +41,7 @@ public static PixelDataFormat GetRgba(int bitsPerRedChannel, int bitsPerGreenCha
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| bitsPerRedChannel | Int32 | Количество битов на красный канал. |
+| bitsPerRedChannel | Int32 | Количество бит на красный канал. |
 | bitsPerGreenChannel | Int32 | Количество битов на зеленый канал. |
 | bitsPerBlueChannel | Int32 | Количество битов на синий канал. |
 | bitsPerAlphaChannel | Int32 | Количество битов на альфа-канал. |

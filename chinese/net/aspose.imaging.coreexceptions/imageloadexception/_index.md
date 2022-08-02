@@ -18,8 +18,8 @@ public class ImageLoadException : ImageException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImageLoadException](imageloadexception#constructor)(string) | 初始化[`ImageLoadException`](../imageloadexception)类的新实例。 |
-| [ImageLoadException](imageloadexception#constructor_1)(string, Exception) | 初始化[`ImageLoadException`](../imageloadexception)类的新实例。 |
+| [ImageLoadException](imageloadexception#constructor)(string) | 初始化[`ImageLoadException`](../imageloadexception)类. |
+| [ImageLoadException](imageloadexception#constructor_1)(string, Exception) | 初始化[`ImageLoadException`](../imageloadexception)类. |
 
 ### 也可以看看
 

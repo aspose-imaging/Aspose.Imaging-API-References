@@ -20,11 +20,11 @@ public byte ColorResolution { get; set; }
 
 ### 评论
 
-颜色分辨率 - 每个原色可用的位数 到原始图像，减 1。该值表示 从中选择图形颜色的整个调色板 的大小，而不是图形中实际使用的颜色数。 例如，如果此字段中的值为 3，则 原始图像的调色板具有可用于创建 的每种原色的 4 位图片。应设置此值以指示 原始调色板的丰富性，即使不是整个 调色板中的每种颜色都在源计算机上可用。
+颜色分辨率 - 原始图像可用的每个原色的位数 减去 1。此值表示 从中选择图形中的颜色 的整个调色板的大小，而不是图形中实际使用的颜色数。 例如，如果此字段中的值为 3，则原始图像的调色板 具有可用于创建 图像的每种原色的 4 位。应设置此值以指示原始调色板的 的丰富程度，即使在源计算机上并非whole 调色板中的每种颜色都可用。
 
 ### 例子
 
-此示例说明如何使用各种选项将 BMP 图像保存为 GIF 格式。
+此示例显示如何使用各种选项将 BMP 图像保存为 GIF 格式。
 
 ```csharp
 [C#]
@@ -45,30 +45,30 @@ using (Aspose.Imaging.Image bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpIma
 
     Aspose.Imaging.ImageOptions.GifOptions saveOptions = new Aspose.Imaging.ImageOptions.GifOptions();
 
-        // 存储颜色所需的位数，减 1.
+    // 存储颜色所需的位数，减 1。
     saveOptions.ColorResolution = 7;
 
-    // 调色板校正意味着每当图像导出为 GIF 时，都会分析源图像颜色
-        // 为了构建最佳匹配的调色板（如果图像调色板不存在或未在选项中指定）
+    // 调色板校正意味着每当图像导出为 GIF 时，都会分析源图像的颜色
+    // 为了构建最佳匹配的调色板（如果图像调色板不存在或未在选项中指定）
     saveOptions.DoPaletteCorrection = true;
 
-        // 以渐进方式加载 GIF 图片。
-        // 隔行扫描的 GIF 不会从上到下线性显示其扫描线，而是重新排序 it
-        // 所以 GIF 的内容在加载完成之前就变得清晰了。
+    // 以渐进方式加载 GIF 图片。
+    // 隔行扫描的 GIF 不会从上到下线性显示其扫描线，而是重新排序
+    // 所以 GIF 的内容在加载完成之前就变得清晰了。
     saveOptions.Interlaced = true;
 
-        // 另存为无损 GIF.
+    // 另存为无损 GIF。
     using (System.IO.Stream stream = System.IO.File.OpenWrite(dir + "output.gif"))
     {
         bmpImage.Save(stream, saveOptions);
         System.Console.WriteLine("The size of the lossless GIF: {0} bytes.", stream.Length);
     }
 
-        // 设置允许的最大像素差。如果大于零，将使用有损压缩。
-        // 最佳有损压缩的推荐值为 80。30 是非常轻的压缩，200 是重的。
+    // 设置允许的最大像素差。如果大于零，将使用有损压缩。
+    // 最佳有损压缩的推荐值为 80。30 是非常轻的压缩，200 是重的。
     saveOptions.MaxDiff = 80;
 
-        // 另存为有损 GIF.
+    // 另存为有损 GIF。
     using (System.IO.Stream stream = System.IO.File.OpenWrite(dir + "output.lossy.gif"))
     {
         bmpImage.Save(stream, saveOptions);
@@ -76,8 +76,8 @@ using (Aspose.Imaging.Image bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpIma
     }
 }
 
-    //输出可能如下所示：
-    //无损GIF的大小：212816字节.
+//输出可能如下所示：
+//无损GIF的大小：212816字节。
 //有损GIF的大小：89726字节。
 ```
 

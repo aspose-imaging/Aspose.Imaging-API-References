@@ -1,14 +1,14 @@
 ---
 title: Radial1
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置radial1
+description: 获取或设置radial1.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfpie/radial1/
 ---
 ## WmfPie.Radial1 property
 
-获取或设置radial1。
+获取或设置radial1.
 
 ```csharp
 public Point Radial1 { get; set; }
@@ -16,7 +16,7 @@ public Point Radial1 { get; set; }
 
 ### 适当的价值
 
-径向1。
+径向1.
 
 ### 也可以看看
 

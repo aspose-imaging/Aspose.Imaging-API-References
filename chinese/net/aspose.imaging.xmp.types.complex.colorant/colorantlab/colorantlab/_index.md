@@ -1,14 +1,14 @@
 ---
 title: ColorantLab
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化ColorantLabaspose.imaging.xmp.types.complex.colorant/colorantlab类的新实例
+description: 初始化ColorantLabaspose.imaging.xmp.types.complex.colorant/colorantlab类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp.types.complex.colorant/colorantlab/colorantlab/
 ---
 ## ColorantLab() {#constructor}
 
-初始化[`ColorantLab`](../../colorantlab)类的新实例。
+初始化[`ColorantLab`](../../colorantlab)类.
 
 ```csharp
 public ColorantLab()
@@ -24,7 +24,7 @@ public ColorantLab()
 
 ## ColorantLab(int, int, float) {#constructor_1}
 
-初始化[`ColorantLab`](../../colorantlab)类的新实例。
+初始化[`ColorantLab`](../../colorantlab)类.
 
 ```csharp
 public ColorantLab(int a, int b, float l)
@@ -33,7 +33,7 @@ public ColorantLab(int a, int b, float l)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | a | Int32 | 一个组件。 |
-| b | Int32 | B 组件。 |
+| b | Int32 | B 成分。 |
 | l | Single | L 分量。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: EmfCommentEndGroup
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfCommentEndGroupaspose.imaging.fileformats.emf.emf.records/emfcommentendgroup类的新实例
+description: 初始化EmfCommentEndGroupaspose.imaging.fileformats.emf.emf.records/emfcommentendgroup类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcommentendgroup/emfcommentendgroup/
 ---
 ## EmfCommentEndGroup constructor
 
-初始化[`EmfCommentEndGroup`](../../emfcommentendgroup)类的新实例。
+初始化[`EmfCommentEndGroup`](../../emfcommentendgroup)类.
 
 ```csharp
 public EmfCommentEndGroup(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfCommentEndGroup(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 

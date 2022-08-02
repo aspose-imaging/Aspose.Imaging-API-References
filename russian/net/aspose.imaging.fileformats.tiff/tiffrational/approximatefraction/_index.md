@@ -17,11 +17,11 @@ public static TiffRational ApproximateFraction(double value, double epsilon)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | Double | Значение. |
-| epsilon | Double | Допущена ошибка. |
+| epsilon | Double | Ошибка разрешена. |
 
 ### Возвращаемое значение
 
-Рациональное число с ошибкой меньше*epsilon*.
+Рациональное число, имеющее ошибку менее*epsilon*.
 
 ### Смотрите также
 
@@ -45,7 +45,7 @@ public static TiffRational ApproximateFraction(double value)
 
 ### Возвращаемое значение
 
-Рациональное число с ошибкой меньше[`Epsilon`](../epsilon).
+Рациональное число с ошибкой менее[`Epsilon`](../epsilon) .
 
 ### Смотрите также
 
@@ -66,11 +66,11 @@ public static TiffRational ApproximateFraction(float value, double epsilon)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | value | Single | Значение. |
-| epsilon | Double | Допущена ошибка. |
+| epsilon | Double | Ошибка разрешена. |
 
 ### Возвращаемое значение
 
-Рациональное число с ошибкой меньше*epsilon*.
+Рациональное число, имеющее ошибку менее*epsilon*.
 
 ### Смотрите также
 
@@ -94,7 +94,7 @@ public static TiffRational ApproximateFraction(float value)
 
 ### Возвращаемое значение
 
-Рациональное число с ошибкой меньше[`Epsilon`](../epsilon).
+Рациональное число с ошибкой менее[`Epsilon`](../epsilon) .
 
 ### Смотрите также
 

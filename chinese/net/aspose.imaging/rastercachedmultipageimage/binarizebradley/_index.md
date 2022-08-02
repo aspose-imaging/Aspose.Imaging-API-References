@@ -1,14 +1,14 @@
 ---
 title: BinarizeBradley
 second_title: Aspose.Imaging for .NET API 参考
-description: 使用 Bradley 自适应阈值算法对图像进行二值化 使用积分图像阈值
+description: 使用 Bradley 自适应阈值算法对图像进行二值化使用积分图像阈值
 type: docs
 weight: 160
 url: /zh/net/aspose.imaging/rastercachedmultipageimage/binarizebradley/
 ---
 ## BinarizeBradley(double, int) {#binarizebradley_1}
 
-使用 Bradley 自适应阈值算法对图像进行二值化 使用积分图像阈值
+使用 Bradley 自适应阈值算法对图像进行二值化，使用积分图像阈值
 
 ```csharp
 public override void BinarizeBradley(double brightnessDifference, int windowSize)
@@ -16,8 +16,8 @@ public override void BinarizeBradley(double brightnessDifference, int windowSize
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| brightnessDifference | Double | 像素与 sxs 像素窗口平均值之间的亮度差异 以该像素为中心。 |
-| windowSize | Int32 | 以该像素为中心的像素的 sxs 窗口大小 |
+| brightnessDifference | Double | 像素与以该像素为中心的像素 的 sxs 窗口的平均值之间的亮度差。 |
+| windowSize | Int32 | 以该像素为中心的像素的 sxs 窗口的大小 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public override void BinarizeBradley(double brightnessDifference, int windowSize
 
 ## BinarizeBradley(double) {#binarizebradley}
 
-使用 Bradley 自适应阈值算法对图像进行二值化 使用积分图像阈值
+使用 Bradley 自适应阈值算法对图像进行二值化，使用积分图像阈值
 
 ```csharp
 public override void BinarizeBradley(double brightnessDifference)
@@ -37,7 +37,7 @@ public override void BinarizeBradley(double brightnessDifference)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| brightnessDifference | Double | 像素与 sxs 像素窗口平均值之间的亮度差异 以该像素为中心。 |
+| brightnessDifference | Double | 像素与以该像素为中心的像素 的 sxs 窗口的平均值之间的亮度差。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: LimitMemoryException
 second_title: Aspose.Imaging for .NET API 参考
-description: 内存限制异常在应减少内存使用时发生
+description: 限制内存异常在应该减少内存使用时发生
 type: docs
 weight: 690
 url: /zh/net/aspose.imaging.coreexceptions/limitmemoryexception/
 ---
 ## LimitMemoryException class
 
-内存限制异常。在应减少内存使用时发生。
+限制内存异常。在应该减少内存使用时发生。
 
 ```csharp
 public class LimitMemoryException : OutOfMemoryException
@@ -18,10 +18,10 @@ public class LimitMemoryException : OutOfMemoryException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LimitMemoryException](limitmemoryexception#constructor)(string) | 初始化[`LimitMemoryException`](../limitmemoryexception)类的新实例。 |
-| [LimitMemoryException](limitmemoryexception#constructor_2)(string, Exception) | 初始化[`LimitMemoryException`](../limitmemoryexception)类的新实例。 |
-| [LimitMemoryException](limitmemoryexception#constructor_1)(string, long) | 初始化[`LimitMemoryException`](../limitmemoryexception)类的新实例。 |
-| [LimitMemoryException](limitmemoryexception#constructor_3)(string, Exception, int) | 初始化[`LimitMemoryException`](../limitmemoryexception)类的新实例。 |
+| [LimitMemoryException](limitmemoryexception#constructor)(string) | 初始化[`LimitMemoryException`](../limitmemoryexception)类. |
+| [LimitMemoryException](limitmemoryexception#constructor_2)(string, Exception) | 初始化[`LimitMemoryException`](../limitmemoryexception)类. |
+| [LimitMemoryException](limitmemoryexception#constructor_1)(string, long) | 初始化[`LimitMemoryException`](../limitmemoryexception)类. |
+| [LimitMemoryException](limitmemoryexception#constructor_3)(string, Exception, int) | 初始化[`LimitMemoryException`](../limitmemoryexception)类. |
 
 ## 特性
 

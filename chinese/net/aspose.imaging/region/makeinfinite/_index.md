@@ -1,14 +1,14 @@
 ---
 title: MakeInfinite
 second_title: Aspose.Imaging for .NET API 参考
-description: 将此Regionaspose.imaging/region对象初始化为无限内部
+description: 初始化这个Regionaspose.imaging/region反对无限的内部
 type: docs
 weight: 110
 url: /zh/net/aspose.imaging/region/makeinfinite/
 ---
 ## Region.MakeInfinite method
 
-将此[`Region`](../../region)对象初始化为无限内部。
+初始化这个[`Region`](../../region)反对无限的内部。
 
 ```csharp
 public void MakeInfinite()

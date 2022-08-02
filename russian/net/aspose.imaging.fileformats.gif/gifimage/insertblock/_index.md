@@ -17,7 +17,7 @@ public void InsertBlock(int index, IGifBlock block)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | index | Int32 | Отсчитываемый от нуля элемент, в который будет вставлен блок. |
-| block | IGifBlock | Добавляемый блок GIF. |
+| block | IGifBlock | Блок GIF для добавления. |
 
 ### Смотрите также
 

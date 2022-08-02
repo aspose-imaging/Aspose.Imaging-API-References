@@ -20,11 +20,11 @@ public enum EmfXHeight : byte
 | --- | --- | --- |
 | PAN_ANY | `0` | Любая высота. |
 | PAN_NO_FIT | `1` | Не подходит. |
-| PAN_XHEIGHT_CONSTANT_SMALL | `2` | Постоянное/малое |
-| PAN_XHEIGHT_CONSTANT_STD | `3` | Постоянная/стандартная |
-| PAN_XHEIGHT_CONSTANT_LARGE | `4` | Постоянное/большое |
-| PAN_XHEIGHT_DUCKING_SMALL | `5` | Уклонение/маленький |
-| PAN_XHEIGHT_DUCKING_STD | `6` | Дакинг/стандартный |
+| PAN_XHEIGHT_CONSTANT_SMALL | `2` | Константа/маленький |
+| PAN_XHEIGHT_CONSTANT_STD | `3` | Константа/стандарт |
+| PAN_XHEIGHT_CONSTANT_LARGE | `4` | Константа/большой |
+| PAN_XHEIGHT_DUCKING_SMALL | `5` | Уклонение/small |
+| PAN_XHEIGHT_DUCKING_STD | `6` | Приглушенный/стандартный |
 | PAN_XHEIGHT_DUCKING_LARGE | `7` | Уклонение/большой |
 
 ### Смотрите также

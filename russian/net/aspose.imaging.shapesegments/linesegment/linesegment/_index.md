@@ -1,14 +1,14 @@
 ---
 title: LineSegment
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаLineSegmentaspose.imaging.shapesegments/linesegment.
+description: Инициализирует новый экземплярLineSegmentaspose.imaging.shapesegments/linesegment класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.shapesegments/linesegment/linesegment/
 ---
 ## LineSegment constructor
 
-Инициализирует новый экземпляр класса[`LineSegment`](../../linesegment).
+Инициализирует новый экземпляр[`LineSegment`](../../linesegment) класс.
 
 ```csharp
 public LineSegment(PointF startPoint, PointF endPoint)

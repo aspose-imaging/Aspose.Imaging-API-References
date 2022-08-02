@@ -3,7 +3,7 @@ title: XmpTypeBase
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示基本 XMP 类型的基类
 type: docs
-weight: 11720
+weight: 11710
 url: /zh/net/aspose.imaging.xmp.types/xmptypebase/
 ---
 ## XmpTypeBase class

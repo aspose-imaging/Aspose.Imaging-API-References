@@ -16,17 +16,17 @@ public int[] GetArrayOneItemFromIndex(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 范围索引. |
+| index | Int32 | 范围索引。 |
 
 ### 返回值
 
-Int32
+数组Int32
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException的数组 | 索引超出范围 |
+| ArgumentException | 索引超出范围 |
 
 ### 也可以看看
 

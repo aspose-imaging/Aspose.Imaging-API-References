@@ -28,8 +28,8 @@ public static class ImageExportersRegistry
 | static [CreateFirstSupportedExporter](../../aspose.imaging/imageexportersregistry/createfirstsupportedexporter)(Image, ImageOptionsBase) | 创建第一个找到的适合指定保存选项和图像的导出器。 |
 | static [GetFirstSupportedDescriptor](../../aspose.imaging/imageexportersregistry/getfirstsupporteddescriptor)(Image, ImageOptionsBase) | 获取第一个找到的适用于指定保存选项和图像的支持描述符。 |
 | static [Register](../../aspose.imaging/imageexportersregistry/register)(IImageExporterDescriptor) | 注册指定的图像导出器描述符。 |
-| static [RegisterExporter](../../aspose.imaging/imageexportersregistry/registerexporter)(IImageExporterDescriptor) | 注册导出器。 |
-| static [UnregisterExporter](../../aspose.imaging/imageexportersregistry/unregisterexporter)(IImageExporterDescriptor) | 注销导出器。 |
+| static [RegisterExporter](../../aspose.imaging/imageexportersregistry/registerexporter)(IImageExporterDescriptor) | 注册出口商。 |
+| static [UnregisterExporter](../../aspose.imaging/imageexportersregistry/unregisterexporter)(IImageExporterDescriptor) | 注销出口商。 |
 
 ### 也可以看看
 

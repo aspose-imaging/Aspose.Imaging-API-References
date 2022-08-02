@@ -16,7 +16,7 @@ public CdrColorModel ColorModel { get; set; }
 
 ### 适当的价值
 
-颜色模型。
+颜色模型.
 
 ### 也可以看看
 

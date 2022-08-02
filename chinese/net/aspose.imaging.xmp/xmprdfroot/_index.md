@@ -3,7 +3,7 @@ title: XmpRdfRoot
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示 rdfRDF 元素 单个 XMP 数据包应使用单个 rdfRDF XML 元素进行序列化 rdfRDF 元素内容应仅包含零个或多个 rdfDescription 元素
 type: docs
-weight: 11820
+weight: 11810
 url: /zh/net/aspose.imaging.xmp/xmprdfroot/
 ---
 ## XmpRdfRoot class
@@ -26,13 +26,13 @@ public sealed class XmpRdfRoot : XmpElementBase, IXmlValue
 | --- | --- |
 | virtual [AddAttribute](../../aspose.imaging.xmp/xmpelementbase/addattribute)(string, string) | 添加属性。 |
 | virtual [ClearAttributes](../../aspose.imaging.xmp/xmpelementbase/clearattributes)() | 删除所有属性。 |
-| override [Equals](../../aspose.imaging.xmp/xmpelementbase/equals)(object) | 确定指定的Object是否等于此实例。 |
+| override [Equals](../../aspose.imaging.xmp/xmpelementbase/equals)(object) | 判断是否指定Object 等于这个实例。 |
 | [Equals](../../aspose.imaging.xmp/xmpelementbase/equals)(XmpElementBase) | 表示当前对象是否等于另一个同类型的对象。 |
 | virtual [GetAttribute](../../aspose.imaging.xmp/xmpelementbase/getattribute)(string) | 获取属性。 |
 | override [GetHashCode](../../aspose.imaging.xmp/xmpelementbase/gethashcode)() | 返回此实例的哈希码。 |
-| [GetNamespaceUri](../../aspose.imaging.xmp/xmprdfroot/getnamespaceuri)(string) | 通过特定前缀获取命名空间 URI。前缀可以在没有 xmlns 的情况下开始。 |
-| [GetXmlValue](../../aspose.imaging.xmp/xmprdfroot/getxmlvalue)() | 将 xmp 值转换为 xml 表示。 |
-| [RegisterNamespaceUri](../../aspose.imaging.xmp/xmprdfroot/registernamespaceuri)(string, string) | 通过前缀添加命名空间 uri。前缀可以在没有 xmlns 的情况下开始。 |
+| [GetNamespaceUri](../../aspose.imaging.xmp/xmprdfroot/getnamespaceuri)(string) | 通过特定前缀获取命名空间 URI。前缀可以在没有 xmlns. 的情况下开始 |
+| [GetXmlValue](../../aspose.imaging.xmp/xmprdfroot/getxmlvalue)() | 将 xmp 值转换为 xml 表示形式。 |
+| [RegisterNamespaceUri](../../aspose.imaging.xmp/xmprdfroot/registernamespaceuri)(string, string) | 按前缀添加命名空间 uri。前缀可以在没有 xmlns. 的情况下开始 |
 
 ### 也可以看看
 

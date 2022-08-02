@@ -1,14 +1,14 @@
 ---
 title: Greens
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает массив цветов зеленого
+description: Получает цвета массива green
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.dicom/dicomimageinfo/greens/
 ---
 ## DicomImageInfo.Greens property
 
-Получает массив цветов зеленого
+Получает цвета массива green
 
 ```csharp
 public byte[] Greens { get; }

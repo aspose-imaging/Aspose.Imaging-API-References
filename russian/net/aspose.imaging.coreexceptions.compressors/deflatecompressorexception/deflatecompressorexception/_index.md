@@ -1,14 +1,14 @@
 ---
 title: DeflateCompressorException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаDeflateCompressorExceptionaspose.imaging.coreexceptions.compressors/deflatecompressorexception.
+description: Инициализирует новый экземплярDeflateCompressorExceptionaspose.imaging.coreexceptions.compressors/deflatecompressorexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions.compressors/deflatecompressorexception/deflatecompressorexception/
 ---
 ## DeflateCompressorException(string) {#constructor}
 
-Инициализирует новый экземпляр класса[`DeflateCompressorException`](../../deflatecompressorexception).
+Инициализирует новый экземпляр[`DeflateCompressorException`](../../deflatecompressorexception) класс.
 
 ```csharp
 public DeflateCompressorException(string message)
@@ -28,7 +28,7 @@ public DeflateCompressorException(string message)
 
 ## DeflateCompressorException(string, Exception) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`DeflateCompressorException`](../../deflatecompressorexception).
+Инициализирует новый экземпляр[`DeflateCompressorException`](../../deflatecompressorexception) класс.
 
 ```csharp
 public DeflateCompressorException(string message, Exception innerException)

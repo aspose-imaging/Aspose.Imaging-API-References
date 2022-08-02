@@ -1,14 +1,14 @@
 ---
 title: WmfBitmap16
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект Bitmap16 указывает информацию о размерах и цвете формата растрового изображения.
+description: Объект Bitmap16 указывает информацию о размерах и формате color растрового изображения.
 type: docs
 weight: 8440
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfbitmap16/
 ---
 ## WmfBitmap16 class
 
-Объект Bitmap16 указывает информацию о размерах и цвете формата растрового изображения.
+Объект Bitmap16 указывает информацию о размерах и формате color растрового изображения.
 
 ```csharp
 public class WmfBitmap16 : MetaObject
@@ -27,7 +27,7 @@ public class WmfBitmap16 : MetaObject
 | [Bits](../../aspose.imaging.fileformats.wmf.objects/wmfbitmap16/bits) { get; set; } | Получает или устанавливает биты. |
 | [BitsPixel](../../aspose.imaging.fileformats.wmf.objects/wmfbitmap16/bitspixel) { get; set; } | Получает или устанавливает биты пикселя. |
 | [Height](../../aspose.imaging.fileformats.wmf.objects/wmfbitmap16/height) { get; set; } | Получает или задает высоту. |
-| [Planes](../../aspose.imaging.fileformats.wmf.objects/wmfbitmap16/planes) { get; set; } | Получает или устанавливает плоскости. |
+| [Planes](../../aspose.imaging.fileformats.wmf.objects/wmfbitmap16/planes) { get; set; } | Получает или задает плоскости. |
 | [Type](../../aspose.imaging.fileformats.wmf.objects/wmfbitmap16/type) { get; set; } | Получает или задает тип. |
 | [Width](../../aspose.imaging.fileformats.wmf.objects/wmfbitmap16/width) { get; set; } | Получает или задает ширину. |
 | [WidthBytes](../../aspose.imaging.fileformats.wmf.objects/wmfbitmap16/widthbytes) { get; set; } | Получает или задает ширину в байтах. |

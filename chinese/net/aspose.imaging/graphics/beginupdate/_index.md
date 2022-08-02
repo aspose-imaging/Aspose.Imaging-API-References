@@ -16,7 +16,7 @@ public void BeginUpdate()
 
 ### 评论
 
-注意，如果未调用 EndUpdate，则调用 BeginUpdate 后的效果将不会生效。
+请注意，如果未调用 EndUpdate，则不会应用调用 BeginUpdate 后的效果。
 
 ### 也可以看看
 

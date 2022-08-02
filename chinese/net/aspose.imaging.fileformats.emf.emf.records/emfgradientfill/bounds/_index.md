@@ -1,14 +1,14 @@
 ---
 title: Bounds
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定 边界矩形的 WMF RectL 对象MS-WMF 2.2.2.19 节包含设备单元
+description: 获取或设置一个 WMF RectL 对象MS-WMF 第 2.2.2.19 节该对象指定一个 边界矩形以包含设备单位为单位
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfgradientfill/bounds/
 ---
 ## EmfGradientFill.Bounds property
 
-获取或设置指定 边界矩形的 WMF RectL 对象（[MS-WMF] 2.2.2.19 节），包含设备单元。
+获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象指定一个 边界矩形，以包含设备单位为单位。
 
 ```csharp
 public Rectangle Bounds { get; set; }

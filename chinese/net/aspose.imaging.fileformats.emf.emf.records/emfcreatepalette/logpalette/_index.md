@@ -1,14 +1,14 @@
 ---
 title: LogPalette
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 LogPalette 对象第 2.2.17 节此对象的版本字段 必须设置为 0x0300如果此对象中的 NumberOfEntries 值为零则处理 此记录必须失败
+description: 获取或设置 LogPalette 对象第 2.2.17 节此 object 的版本字段必须设置为 0x0300如果此对象中的 NumberOfEntries 值为零则处理 此记录必须失败
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcreatepalette/logpalette/
 ---
 ## EmfCreatePalette.LogPalette property
 
-获取或设置 LogPalette 对象（第 2.2.17 节）。此对象的版本字段 必须设置为 0x0300。如果此对象中的 NumberOfEntries 值为零，则处理 此记录必须失败。
+获取或设置 LogPalette 对象（第 2.2.17 节）。此 object 的版本字段必须设置为 0x0300。如果此对象中的 NumberOfEntries 值为零，则处理 此记录必须失败。
 
 ```csharp
 public EmfLogPalette LogPalette { get; set; }

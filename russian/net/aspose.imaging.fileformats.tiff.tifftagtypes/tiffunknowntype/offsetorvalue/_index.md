@@ -1,14 +1,14 @@
 ---
 title: OffsetOrValue
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение смещения для дополнительных данных или самого значения в случае если count равен 1.
+description: Получает значение смещения для дополнительных данных или самого значения если count равен 1.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/offsetorvalue/
 ---
 ## TiffUnknownType.OffsetOrValue property
 
-Получает значение смещения для дополнительных данных или самого значения в случае, если count равен 1.
+Получает значение смещения для дополнительных данных или самого значения, если count равен 1.
 
 ```csharp
 public uint OffsetOrValue { get; }

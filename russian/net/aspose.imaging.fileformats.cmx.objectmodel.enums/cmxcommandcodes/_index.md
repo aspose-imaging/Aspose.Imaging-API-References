@@ -23,41 +23,41 @@ public enum CmxCommandCodes : short
 | BeginEmbedded | `22` | Команда запуска встроенного файла |
 | BeginGroup | `13` | Команда начала группы |
 | BeginLayer | `11` | Команда начала слоя |
-| BeginPage | `9` | Команда начала страницы |
+| BeginPage | `9` | Начальная страница command |
 | BeginParagraph | `99` | Команда начала абзаца |
-| BeginProcedure | `17` | Команда начала процедуры |
+| BeginProcedure | `17` | Команда запуска процедуры |
 | BeginTextGroup | `72` | Команда начала текстовой группы |
-| BeginTextObject | `70` | Команда начала текстового объекта |
+| BeginTextObject | `70` | Начало текстового объекта command |
 | BeginTextStream | `20` | Команда начала текстового потока |
-| CharInfo | `101` | Команда информации о персонаже |
-| Characters | `102` | Команда символов |
+| CharInfo | `101` | Информация о персонаже command |
+| Characters | `102` | Персонажи command |
 | ClearClipping | `90` | Команда очистки отсечения |
-| Comment | `2` | Команда комментариев |
+| Comment | `2` | Комментарий command |
 | DrawImage | `69` | Команда рисования изображения |
 | DrawChars | `65` | Команда рисования символов |
-| Ellipse | `66` | Команда эллипса |
-| EndEmbedded | `23` | Команда завершения встроенного файла |
-| EndGroup | `14` | Команда конца группы |
+| Ellipse | `66` | Эллипс command |
+| EndEmbedded | `23` | Конец встроенного файла command |
+| EndGroup | `14` | Конечная группа command |
 | EndLayer | `12` | Команда конечного слоя |
-| EndPage | `10` | Команда закрытия страницы |
-| EndParagraph | `100` | Команда конца абзаца |
-| EndSection | `18` | Команда конца раздела |
-| EndTextGroup | `73` | Команда завершения текстовой группы |
-| EndTextObject | `71` | Команда завершения текстового объекта |
-| EndTextStream | `21` | Команда завершения текстового потока |
+| EndPage | `10` | Конечная страница command |
+| EndParagraph | `100` | Конец абзаца command |
+| EndSection | `18` | Конечная секция command |
+| EndTextGroup | `73` | Конечная текстовая группа command |
+| EndTextObject | `71` | Конечный текстовый объект command |
+| EndTextStream | `21` | Конечный текстовый поток command |
 | JumpAbsolute | `111` | Команда перехода в абсолютную позицию |
-| PolyCurve | `67` | Команда поликривой |
-| PopMappingMode | `92` | Команда режима отображения всплывающих окон |
-| PopTint | `104` | Команда всплывающего оттенка |
-| PushMappingMode | `91` | Команда режима отображения push |
+| PolyCurve | `67` | Полигональная кривая command |
+| PopMappingMode | `92` | Режим отображения всплывающих окон command |
+| PopTint | `104` | Команда поп-оттенка |
+| PushMappingMode | `91` | Команда режима push-отображения |
 | PushTint | `103` | Команда push tint |
-| Rectangle | `68` | Команда прямоугольника |
+| Rectangle | `68` | Прямоугольник command |
 | RemoveLastClippingRegion | `89` | Команда удаления последней области отсечения |
-| RestoreLastGlobalTransfo | `95` | Команда восстановления последней глобальной трансформации |
-| SetCharStyle | `85` | Команда установки стиля символа |
-| SetGlobalTransfo | `93` | Команда глобального преобразования set |
-| SimpleWideText | `86` | Простая команда расширенного текста |
-| TextFrame | `98` | Команда текстового фрейма |
+| RestoreLastGlobalTransfo | `95` | Команда восстановления последнего глобального преобразования |
+| SetCharStyle | `85` | Задать стиль символов command |
+| SetGlobalTransfo | `93` | Набор глобальных команд преобразования |
+| SimpleWideText | `86` | Простая команда с широким текстом |
+| TextFrame | `98` | Текстовый фрейм command |
 
 ### Смотрите также
 

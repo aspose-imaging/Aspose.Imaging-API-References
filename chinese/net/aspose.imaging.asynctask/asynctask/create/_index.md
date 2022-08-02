@@ -16,7 +16,7 @@ public static IAsyncTask Create(AsyncTaskAction taskAction)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| taskAction | AsyncTaskAction | 任务操作。 |
+| taskAction | AsyncTaskAction | 任务动作。 |
 
 ### 返回值
 
@@ -42,7 +42,7 @@ public static IAsyncTask Create(AsyncTaskFunc taskFunc)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| taskFunc | AsyncTaskFunc | 任务函数。 |
+| taskFunc | AsyncTaskFunc | 任务功能。 |
 
 ### 返回值
 

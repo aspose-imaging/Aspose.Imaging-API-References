@@ -1,14 +1,14 @@
 ---
 title: AdjustContrast
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Настройка контрастности.
+description: Регулирует контрастность.
 type: docs
 weight: 240
 url: /ru/net/aspose.imaging.fileformats.gif/gifimage/adjustcontrast/
 ---
 ## GifImage.AdjustContrast method
 
-Настройка контрастности.
+Регулирует контрастность.
 
 ```csharp
 public override void AdjustContrast(float contrast)
@@ -22,7 +22,7 @@ public override void AdjustContrast(float contrast)
 
 | исключение | условие |
 | --- | --- |
-| [ImageException](../../../aspose.imaging.coreexceptions/imageexception) | Невозможно изменить контраст. Индекс кадра:" + frameIndex |
+| [ImageException](../../../aspose.imaging.coreexceptions/imageexception) | Не могу изменить контраст. Индекс кадра: "+frameIndex |
 
 ### Примеры
 
@@ -37,7 +37,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"
 {
     Aspose.Imaging.FileFormats.Gif.GifImage gifImage = (Aspose.Imaging.FileFormats.Gif.GifImage)image;
 
-     // Установить значение контраста. Допустимые значения контраста находятся в диапазоне [-100f, 100f].
+    // Установить значение контраста. Принятые значения контраста находятся в диапазоне [-100f, 100f].
     gifImage.AdjustContrast(50f);
     gifImage.Save(dir + "sample.AdjustContrast.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }

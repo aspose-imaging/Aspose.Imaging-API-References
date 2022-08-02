@@ -1,14 +1,14 @@
 ---
 title: HorizontalResolution
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает разрешение по горизонтали.
+description: Получает или задает горизонтальное разрешение.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging/resolutionsetting/horizontalresolution/
 ---
 ## ResolutionSetting.HorizontalResolution property
 
-Получает или задает разрешение по горизонтали.
+Получает или задает горизонтальное разрешение.
 
 ```csharp
 public double HorizontalResolution { get; set; }

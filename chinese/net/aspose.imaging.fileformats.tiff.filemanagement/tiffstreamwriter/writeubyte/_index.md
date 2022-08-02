@@ -1,14 +1,14 @@
 ---
 title: WriteUByte
 second_title: Aspose.Imaging for .NET API 参考
-description: 将单字节值写入流
+description: 将单个字节值写入流
 type: docs
 weight: 190
 url: /zh/net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writeubyte/
 ---
 ## TiffStreamWriter.WriteUByte method
 
-将单字节值写入流。
+将单个字节值写入流。
 
 ```csharp
 public void WriteUByte(byte data)

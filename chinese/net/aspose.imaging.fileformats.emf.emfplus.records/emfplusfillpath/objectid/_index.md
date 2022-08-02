@@ -1,14 +1,14 @@
 ---
 title: ObjectId
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置对象标识符 EmfPlusPath 对象第 2.2.1.6 节的索引在 EMF 对象表中填写该值必须是 0 到 63含
+description: 获取或设置对象标识符 EmfPlusPath 对象的索引第 2.2.1.6 节填写在 EMF 对象表中该值必须是 0 到 63包括在内
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpath/objectid/
 ---
 ## EmfPlusFillPath.ObjectId property
 
-获取或设置对象标识符。 EmfPlusPath 对象（第 2.2.1.6 节）的索引，在 EMF+ 对象表中填写。该值必须是 0 到 63（含）。
+获取或设置对象标识符。 EmfPlusPath 对象的索引（第 2.2.1.6 节）填写，在 EMF+ 对象表中。该值必须是 0 到 63，包括在内。
 
 ```csharp
 public byte ObjectId { get; set; }

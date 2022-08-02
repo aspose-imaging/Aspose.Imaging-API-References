@@ -1,14 +1,14 @@
 ---
 title: BitmapColorsUsed
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает число используемых цветов палитры.
+description: Получает или задает количество используемых цветов палитры.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapcolorsused/
 ---
 ## BitmapInfoHeader.BitmapColorsUsed property
 
-Получает или задает число используемых цветов палитры.
+Получает или задает количество используемых цветов палитры.
 
 ```csharp
 public uint BitmapColorsUsed { get; set; }

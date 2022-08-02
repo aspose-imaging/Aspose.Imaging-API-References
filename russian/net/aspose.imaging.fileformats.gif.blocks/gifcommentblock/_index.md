@@ -18,14 +18,14 @@ public class GifCommentBlock : GifBlock
 
 | Имя | Описание |
 | --- | --- |
-| [GifCommentBlock](gifcommentblock#constructor)() | Инициализирует новый экземпляр класса[`GifCommentBlock`](../gifcommentblock). |
-| [GifCommentBlock](gifcommentblock#constructor_1)(string) | Инициализирует новый экземпляр класса[`GifCommentBlock`](../gifcommentblock). |
+| [GifCommentBlock](gifcommentblock#constructor)() | Инициализирует новый экземпляр[`GifCommentBlock`](../gifcommentblock) класс. |
+| [GifCommentBlock](gifcommentblock#constructor_1)(string) | Инициализирует новый экземпляр[`GifCommentBlock`](../gifcommentblock) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Comment](../../aspose.imaging.fileformats.gif.blocks/gifcommentblock/comment) { get; set; } | Получает или задает комментарий. Обратите внимание, что комментарий должен использовать кодировку ASCII и будет храниться соответствующим образом. |
+| [Comment](../../aspose.imaging.fileformats.gif.blocks/gifcommentblock/comment) { get; set; } | Получает или задает комментарий. Обратите внимание, что комментарий должен использовать кодировку ASCII и будет сохранен соответствующим образом. |
 | [IsChanged](../../aspose.imaging.fileformats.gif/gifblock/ischanged) { get; set; } | Получает или задает значение, указывающее, изменился ли блок и требуется ли его сохранение. |
 
 ## Методы

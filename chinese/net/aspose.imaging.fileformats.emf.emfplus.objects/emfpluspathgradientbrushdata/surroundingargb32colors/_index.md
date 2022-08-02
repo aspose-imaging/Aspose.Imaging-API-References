@@ -1,14 +1,14 @@
 ---
 title: SurroundingArgb32Colors
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 SurroundingColorCount EmfPlusARGB 对象数组 指定画笔边界上离散点的颜色
+description: 获取或设置一组 SurroundingColorCount EmfPlusARGB 对象 它们指定画笔边界上离散点的颜色
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/surroundingargb32colors/
 ---
 ## EmfPlusPathGradientBrushData.SurroundingArgb32Colors property
 
-获取或设置 SurroundingColorCount EmfPlusARGB 对象数组 指定画笔边界上离散点的颜色。
+获取或设置一组 SurroundingColorCount EmfPlusARGB 对象 ，它们指定画笔边界上离散点的颜色。
 
 ```csharp
 public int[] SurroundingArgb32Colors { get; set; }

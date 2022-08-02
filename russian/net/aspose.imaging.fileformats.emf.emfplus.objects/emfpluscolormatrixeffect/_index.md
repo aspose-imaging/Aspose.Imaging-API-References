@@ -1,14 +1,14 @@
 ---
 title: EmfPlusColorMatrixEffect
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект ColorMatrixEffect задает аффинное преобразование применяемое к изображению.
+description: Объект ColorMatrixEffect указывает аффинное преобразование применяемое к изображению.
 type: docs
 weight: 5320
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolormatrixeffect/
 ---
 ## EmfPlusColorMatrixEffect class
 
-Объект ColorMatrixEffect задает аффинное преобразование, применяемое к изображению.
+Объект ColorMatrixEffect указывает аффинное преобразование, применяемое к изображению.
 
 ```csharp
 public sealed class EmfPlusColorMatrixEffect : EmfPlusImageEffectsObjectType
@@ -29,11 +29,11 @@ public sealed class EmfPlusColorMatrixEffect : EmfPlusImageEffectsObjectType
 | [MatrixN1](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolormatrixeffect/matrixn1) { get; set; } | Получает или задает Matrix[N][1] цветовой матрицы 5x5. Эта строка используется для преобразований. |
 | [MatrixN2](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolormatrixeffect/matrixn2) { get; set; } | Получает или задает Matrix[N][2] цветовой матрицы 5x5. Эта строка используется для преобразований. |
 | [MatrixN3](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolormatrixeffect/matrixn3) { get; set; } | Получает или задает Matrix[N][3] цветовой матрицы 5x5. Эта строка используется для преобразований. |
-| [MatrixN4](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolormatrixeffect/matrixn4) { get; set; } | Получает или задает Matrix[N][4] цветовой матрицы 5x5. Эта строка используется для перевода цвета. |
+| [MatrixN4](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolormatrixeffect/matrixn4) { get; set; } | Получает или задает Matrix[N][4] цветовой матрицы 5x5. Эта строка используется для преобразования цвета. |
 
 ### Примечания
 
-Растровые изображения задаются объектами EmfPlusBitmap (раздел 2.2.2.2). Эффект цветовой матрицы выполняется путем умножения цветового вектора на объект ColorMatrixEffect. Цветовая матрица 5x5 может выполнять линейное преобразование, включая отражение, вращение, сдвиг или масштабирование с последующим перемещением.
+Растровые изображения задаются объектами EmfPlusBitmap (раздел 2.2.2.2). Эффект цветовой матрицы выполняется путем умножения цветового вектора на объект ColorMatrixEffect. Цветовая матрица 5x5 может выполнять линейное преобразование, включая отражение, вращение, сдвиг или масштабирование с последующим преобразованием.
 
 ### Смотрите также
 

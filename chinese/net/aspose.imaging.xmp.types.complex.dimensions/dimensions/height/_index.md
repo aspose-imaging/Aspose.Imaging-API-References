@@ -22,7 +22,7 @@ public float Height { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | 值；高度不能小于零 |
+| ArgumentOutOfRangeException | value;高度不能小于零 |
 
 ### 也可以看看
 

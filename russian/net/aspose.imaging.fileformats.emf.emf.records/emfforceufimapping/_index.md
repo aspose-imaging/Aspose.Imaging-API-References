@@ -18,13 +18,13 @@ public sealed class EmfForceUfiMapping : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfForceUfiMapping](emfforceufimapping)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfForceUfiMapping`](../emfforceufimapping). |
+| [EmfForceUfiMapping](emfforceufimapping)(EmfRecord) | Инициализирует новый экземпляр[`EmfForceUfiMapping`](../emfforceufimapping) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 | [Ufi](../../aspose.imaging.fileformats.emf.emf.records/emfforceufimapping/ufi) { get; set; } | Получает или задает используемый идентификатор шрифта, указанный как UniversalFontId (раздел 2.2.27). |
 

@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Удаляет первое вхождение определенного объекта изIList.
+description: Удаляет первое вхождение определенного объекта изIList .
 type: docs
 weight: 150
 url: /ru/net/aspose.imaging/nongenericlist/remove/
 ---
 ## NonGenericList.Remove method
 
-Удаляет первое вхождение определенного объекта изIList.
+Удаляет первое вхождение определенного объекта изIList .
 
 ```csharp
 public void Remove(object value)
@@ -16,7 +16,7 @@ public void Remove(object value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | Object | ОбъектObjectдля удаления изIList. |
+| value | Object | Object удалить изIList. |
 
 ### Смотрите также
 

@@ -17,7 +17,7 @@ public override void Filter(Rectangle rectangle, FilterOptionsBase options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | rectangle | Rectangle | Прямоугольник. |
-| options | FilterOptionsBase | Опции. |
+| options | FilterOptionsBase | Варианты. |
 
 ### Смотрите также
 

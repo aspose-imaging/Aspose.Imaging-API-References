@@ -20,7 +20,7 @@ public virtual void Crop(Rectangle rectangle)
 
 ### Примеры
 
-В следующем примере растровое изображение обрезается. Область обрезки задается через Aspose.Imaging.Rectangle.
+В следующем примере выполняется обрезка растрового изображения. Область обрезки задается через Aspose.Imaging.Rectangle.
 
 ```csharp
 [C#]
@@ -31,11 +31,11 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-     // Обрезать изображение. Область кадрирования — это прямоугольная центральная область изображения.
+    // Обрезать изображение. Область кадрирования представляет собой прямоугольную центральную область изображения.
     Aspose.Imaging.Rectangle area = new Aspose.Imaging.Rectangle(rasterImage.Width / 4, rasterImage.Height / 4, rasterImage.Width / 2, rasterImage.Height / 2);
     rasterImage.Crop(area);
 
-     // Сохраняем обрезанное изображение в PNG
+    // Сохраняем обрезанное изображение в PNG
     rasterImage.Save(dir + "sample.Crop.png");
 }
 ```
@@ -59,14 +59,14 @@ public virtual void Crop(int leftShift, int rightShift, int topShift, int bottom
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| leftShift | Int32 | Сдвиг влево. |
-| rightShift | Int32 | Сдвиг вправо. |
+| leftShift | Int32 | Левый сдвиг. |
+| rightShift | Int32 | Правильный сдвиг. |
 | topShift | Int32 | Верхняя смена. |
-| bottomShift | Int32 | Нижнее смещение. |
+| bottomShift | Int32 | Нижний сдвиг. |
 
 ### Примеры
 
-В следующем примере растровое изображение обрезается. Область обрезки задается с помощью левого, верхнего, правого и нижнего полей.
+В следующем примере выполняется обрезка растрового изображения. Область обрезки задается с помощью левого, верхнего, правого и нижнего полей.
 
 ```csharp
 [C#]
@@ -77,12 +77,12 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-     // Обрезать снова. Установите поле в 10% от размера изображения.
+    // Обрезать снова. Установите поле в 10% от размера изображения.
     int horizontalMargin = rasterImage.Width / 10;
     int verticalMargin = rasterImage.Height / 10;
     rasterImage.Crop(horizontalMargin, horizontalMargin, verticalMargin, verticalMargin);
 
-     // Сохраняем обрезанное изображение в PNG.
+    // Сохраняем обрезанное изображение в формате PNG.
     rasterImage.Save(dir + "sample.Crop.png");
 }
 ```

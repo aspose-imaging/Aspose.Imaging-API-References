@@ -1,14 +1,14 @@
 ---
 title: IsValid
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее допустим ли этот экземпляр.
+description: Получает значение указывающее является ли этот экземпляр допустимым.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/isvalid/
 ---
 ## EmfPlusHeader.IsValid property
 
-Получает значение, указывающее, допустим ли этот экземпляр.
+Получает значение, указывающее, является ли этот экземпляр допустимым.
 
 ```csharp
 public bool IsValid { get; }
@@ -16,7 +16,7 @@ public bool IsValid { get; }
 
 ### Стоимость имущества
 
-` true` если этот экземпляр действителен; в противном случае` false` .
+`истинный`если этот экземпляр действителен; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

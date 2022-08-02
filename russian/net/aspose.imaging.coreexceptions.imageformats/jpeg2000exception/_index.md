@@ -1,14 +1,14 @@
 ---
 title: Jpeg2000Exception
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Исключения для файлов Jpeg
+description: Исключения для файлов JPEG
 type: docs
 weight: 570
 url: /ru/net/aspose.imaging.coreexceptions.imageformats/jpeg2000exception/
 ---
 ## Jpeg2000Exception class
 
-Исключения для файлов Jpeg
+Исключения для файлов JPEG
 
 ```csharp
 public class Jpeg2000Exception : ImageException
@@ -18,8 +18,8 @@ public class Jpeg2000Exception : ImageException
 
 | Имя | Описание |
 | --- | --- |
-| [Jpeg2000Exception](jpeg2000exception#constructor)(string) | Инициализирует новый экземпляр класса[`Jpeg2000Exception`](../jpeg2000exception). |
-| [Jpeg2000Exception](jpeg2000exception#constructor_1)(string, Exception) | Инициализирует новый экземпляр класса[`Jpeg2000Exception`](../jpeg2000exception). |
+| [Jpeg2000Exception](jpeg2000exception#constructor)(string) | Инициализирует новый экземпляр[`Jpeg2000Exception`](../jpeg2000exception) класс. |
+| [Jpeg2000Exception](jpeg2000exception#constructor_1)(string, Exception) | Инициализирует новый экземпляр[`Jpeg2000Exception`](../jpeg2000exception) класс. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: EmfFillRgn
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfFillRgnaspose.imaging.fileformats.emf.emf.records/emffillrgn类的新实例
+description: 初始化EmfFillRgnaspose.imaging.fileformats.emf.emf.records/emffillrgn类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emffillrgn/emffillrgn/
 ---
 ## EmfFillRgn(EmfRecord) {#constructor_1}
 
-初始化[`EmfFillRgn`](../../emffillrgn)类的新实例。
+初始化[`EmfFillRgn`](../../emffillrgn)类.
 
 ```csharp
 public EmfFillRgn(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfFillRgn(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfFillRgn(EmfRecord source)
 
 ## EmfFillRgn() {#constructor}
 
-初始化[`EmfFillRgn`](../../emffillrgn)类的新实例。
+初始化[`EmfFillRgn`](../../emffillrgn)类.
 
 ```csharp
 public EmfFillRgn()

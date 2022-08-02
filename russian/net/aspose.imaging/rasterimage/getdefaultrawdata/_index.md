@@ -42,7 +42,7 @@ public byte[] GetDefaultRawData(Rectangle rectangle, RawDataSettings rawDataSett
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rectangle | Rectangle | Прямоугольник, для которого необходимо получить необработанные данные. |
+| rectangle | Rectangle | Прямоугольник, для которого нужно получить необработанные данные. |
 | rawDataSettings | RawDataSettings | Настройки необработанных данных. |
 
 ### Возвращаемое значение

@@ -1,14 +1,14 @@
 ---
 title: CieCoordinatesY
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置坐标y
+description: 获取或设置坐标y.
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.bmp.structures/ciecoordinates/ciecoordinatesy/
 ---
 ## CieCoordinates.CieCoordinatesY property
 
-获取或设置坐标y。
+获取或设置坐标y.
 
 ```csharp
 public long CieCoordinatesY { get; set; }
@@ -16,7 +16,7 @@ public long CieCoordinatesY { get; set; }
 
 ### 适当的价值
 
-坐标 y。
+坐标y.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: EmfRegionData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект RegionData указывает данные определяющие область состоящую из неперекрывающихся прямоугольников.
+description: Объект RegionData указывает данные определяющие область состоящую из непересекающихся прямоугольников.
 type: docs
 weight: 3140
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfregiondata/
 ---
 ## EmfRegionData class
 
-Объект RegionData указывает данные, определяющие область, состоящую из неперекрывающихся прямоугольников.
+Объект RegionData указывает данные, определяющие область, состоящую из непересекающихся прямоугольников.
 
 ```csharp
 public sealed class EmfRegionData : EmfObject
@@ -18,15 +18,15 @@ public sealed class EmfRegionData : EmfObject
 
 | Имя | Описание |
 | --- | --- |
-| [EmfRegionData](emfregiondata#constructor)() | Инициализирует новый экземпляр класса[`EmfRegionData`](../emfregiondata). |
-| [EmfRegionData](emfregiondata#constructor_1)(Rectangle) | Инициализирует новый экземпляр класса[`EmfRegionData`](../emfregiondata). |
+| [EmfRegionData](emfregiondata#constructor)() | Инициализирует новый экземпляр[`EmfRegionData`](../emfregiondata) класс. |
+| [EmfRegionData](emfregiondata#constructor_1)(Rectangle) | Инициализирует новый экземпляр[`EmfRegionData`](../emfregiondata) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Data](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondata/data) { get; set; } | Получает или задает массив объектов WMF RectL ([MS-WMF], раздел 2.2.2.19); объекты объединены для создания региона |
-| [RegionDataHeader](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondata/regiondataheader) { get; set; } | Получает или задает 256-разрядный объект RegionDataHeader, описывающий следующие данные. |
+| [Data](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondata/data) { get; set; } | Получает или задает массив объектов WMF RectL ([MS-WMF], раздел 2.2.2.19); объекты объединены для создания region |
+| [RegionDataHeader](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondata/regiondataheader) { get; set; } | Получает или задает 256-битный объект RegionDataHeader, описывающий следующие данные. |
 
 ### Смотрите также
 

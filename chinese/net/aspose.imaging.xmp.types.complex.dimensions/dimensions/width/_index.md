@@ -16,13 +16,13 @@ public float Width { get; set; }
 
 ### 适当的价值
 
-宽度。
+宽度.
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | 值；宽度不能小于零 |
+| ArgumentOutOfRangeException | value;宽度不能小于零 |
 
 ### 也可以看看
 

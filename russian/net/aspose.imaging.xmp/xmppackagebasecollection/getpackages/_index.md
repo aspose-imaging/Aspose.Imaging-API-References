@@ -1,14 +1,14 @@
 ---
 title: GetPackages
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получить массивXmpPackageaspose.imaging.xmp/xmppackage.
+description: Получить массивXmpPackageaspose.imaging.xmp/xmppackage .
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.xmp/xmppackagebasecollection/getpackages/
 ---
 ## XmpPackageBaseCollection.GetPackages method
 
-Получить массив[`XmpPackage`](../../xmppackage).
+Получить массив[`XmpPackage`](../../xmppackage) .
 
 ```csharp
 public XmpPackage[] GetPackages()

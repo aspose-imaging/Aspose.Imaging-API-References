@@ -18,19 +18,19 @@ public enum EmfPlusRegionNodeDataType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| RegionNodeDataTypeAnd | `1` | Указывает узел региона с дочерними узлами. Булеву операцию И СЛЕДУЕТ применять к левому и правому дочерним узлам, заданным объектом[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes)(раздел 2.2.2.41). |
-| RegionNodeDataTypeOr | `2` | Указывает узел региона с дочерними узлами. Логическую операцию ИЛИ СЛЕДУЕТ применять к левому и правому дочерним узлам, заданным объектом[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes). |
-| RegionNodeDataTypeXor | `3` | Указывает узел региона с дочерними узлами. Булеву операцию XOR СЛЕДУЕТ применять к левому и правому дочерним узлам, указанным в объекте[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes). |
-| RegionNodeDataTypeExclude | `4` | Указывает узел региона с дочерними узлами. Булеву операцию, определяемую как «часть области 1, которая исключена из области 2», СЛЕДУЕТ применять к левому и правому дочерним узлам, указанным[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes)объект. |
-| RegionNodeDataTypeComplement | `5` | Указывает узел региона с дочерними узлами. Логическую операцию, определяемую как «часть области 2, которая исключена из области 1», СЛЕДУЕТ применять к левому и правому дочерним узлам, указанным[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes)объект. |
-| RegionNodeDataTypeRect | `268435456` | Указывает узел региона без дочерних узлов. В поле RegionNodeData СЛЕДУЕТ указывать границу с объектом[`EmfPlusRectF`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusrectf)(раздел 2.2.2.39). |
-| RegionNodeDataTypePath | `268435457` | Указывает узел региона без дочерних узлов. В поле RegionNodeData СЛЕДУЕТ указывать границу с объектом[`EmfPlusRegionNodePath`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodepath)(раздел 2.2.2.42). |
+| RegionNodeDataTypeAnd | `1` | Указывает узел региона с дочерними узлами. Булеву операцию И СЛЕДУЕТ применять к левому и правому дочерним узлам, указанным[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes)объект (раздел 2.2.2.41). |
+| RegionNodeDataTypeOr | `2` | Указывает узел региона с дочерними узлами. Логическую операцию ИЛИ СЛЕДУЕТ применять к левому и правому дочерним узлам, указанным[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes) объект. |
+| RegionNodeDataTypeXor | `3` | Указывает узел региона с дочерними узлами. Булеву операцию XOR СЛЕДУЕТ применять к левому и правому дочерним узлам, указанным[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes) объект. |
+| RegionNodeDataTypeExclude | `4` | Указывает узел региона с дочерними узлами. Логическую операцию, определяемую как «часть области 1, которая исключена из области 2», СЛЕДУЕТ применять к левому и правому дочерним узлам, указанным[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes) объект. |
+| RegionNodeDataTypeComplement | `5` | Указывает узел региона с дочерними узлами. Булева операция, определяемая как «часть области 2, которая исключена из области 1», СЛЕДУЕТ применять к левому и правому дочерним узлам, указанным[`EmfPlusRegionNodeChildNodes`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes) объект. |
+| RegionNodeDataTypeRect | `268435456` | Указывает узел региона без дочерних узлов. В поле RegionNodeData СЛЕДУЕТ указывать границу с[`EmfPlusRectF`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusrectf) объект (раздел 2.2.2.39). |
+| RegionNodeDataTypePath | `268435457` | Указывает узел региона без дочерних узлов. В поле RegionNodeData СЛЕДУЕТ указывать границу с[`EmfPlusRegionNodePath`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodepath)объект (раздел 2.2.2.42). |
 | RegionNodeDataTypeEmpty | `268435458` | Указывает узел региона без дочерних узлов. Поле RegionNodeData НЕ ДОЛЖНО присутствовать |
 | RegionNodeDataTypeInfinite | `268435459` | Задает узел региона без дочерних узлов, и его границы не определены. |
 
 ### Примечания
 
-Данные узла региона задаются[`EmfPlusRegionNode`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnode)объекты (раздел 2.2.2.40).
+Данные узла региона задаются[`EmfPlusRegionNode`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnode) объекты (раздел 2.2.2.40).
 
 ### Смотрите также
 

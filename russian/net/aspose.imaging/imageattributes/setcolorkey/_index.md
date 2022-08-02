@@ -16,8 +16,8 @@ public void SetColorKey(Color colorLow, Color colorHigh)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| colorLow | Color | Младшее значение цветового ключа. |
-| colorHigh | Color | Верхнее значение цветового ключа. |
+| colorLow | Color | Низкое значение цветового ключа. |
+| colorHigh | Color | Высокое значение цветового ключа. |
 
 ### Смотрите также
 
@@ -38,9 +38,9 @@ public void SetColorKey(Color colorLow, Color colorHigh, ColorAdjustType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| colorLow | Color | Младшее значение цветового ключа. |
-| colorHigh | Color | Верхнее значение цветового ключа. |
-| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype), указывающий категорию, для которой задан цветовой ключ. |
+| colorLow | Color | Низкое значение цветового ключа. |
+| colorHigh | Color | Высокое значение цветового ключа. |
+| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype)который указывает категорию, для которой установлен цветовой ключ. |
 
 ### Смотрите также
 

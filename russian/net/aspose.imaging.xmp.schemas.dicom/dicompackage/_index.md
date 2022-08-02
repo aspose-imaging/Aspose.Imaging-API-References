@@ -3,7 +3,7 @@ title: DicomPackage
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Пакет Dicom Xmp.
 type: docs
-weight: 11290
+weight: 11280
 url: /ru/net/aspose.imaging.xmp.schemas.dicom/dicompackage/
 ---
 ## DicomPackage class
@@ -18,13 +18,13 @@ public sealed class DicomPackage : XmpPackage
 
 | Имя | Описание |
 | --- | --- |
-| [DicomPackage](dicompackage)() | Инициализирует новый экземпляр класса[`DicomPackage`](../dicompackage). |
+| [DicomPackage](dicompackage)() | Инициализирует новый экземпляр[`DicomPackage`](../dicompackage) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| virtual [Item](../../aspose.imaging.xmp/xmppackage/item) { get; set; } | Получает или задаетObjectс указанным ключом. |
+| virtual [Item](../../aspose.imaging.xmp/xmppackage/item) { get; set; } | Получает или задаетObject с указанным ключом. |
 | virtual [Keys](../../aspose.imaging.xmp/xmppackage/keys) { get; } | Получает ключи в пакете XMP. |
 | [NamespaceUri](../../aspose.imaging.xmp/xmppackage/namespaceuri) { get; } | Получает URI пространства имен. |
 | [Prefix](../../aspose.imaging.xmp/xmppackage/prefix) { get; } | Получает префикс. |
@@ -36,11 +36,11 @@ public sealed class DicomPackage : XmpPackage
 | --- | --- |
 | virtual [AddValue](../../aspose.imaging.xmp/xmppackage/addvalue)(string, string) | Добавляет значение. |
 | virtual [Clear](../../aspose.imaging.xmp/xmppackage/clear)() | Очищает этот экземпляр. |
-| virtual [ContainsKey](../../aspose.imaging.xmp/xmppackage/containskey)(string) | Определяет, содержит ли указанный ключ ключ. |
-| [GetEnumerator](../../aspose.imaging.xmp/xmppackage/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| virtual [ContainsKey](../../aspose.imaging.xmp/xmppackage/containskey)(string) | Определяет, содержит ли указанный ключ key. |
+| [GetEnumerator](../../aspose.imaging.xmp/xmppackage/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | virtual [GetXmlValue](../../aspose.imaging.xmp/xmppackage/getxmlvalue)() | Преобразует значение XMP в представление XML. |
 | virtual [Remove](../../aspose.imaging.xmp/xmppackage/remove)(string) | Удалить значение с указанным ключом. |
-| [SetEquipmentInstitution](../../aspose.imaging.xmp.schemas.dicom/dicompackage/setequipmentinstitution)(string) | Устанавливает институт оборудования. |
+| [SetEquipmentInstitution](../../aspose.imaging.xmp.schemas.dicom/dicompackage/setequipmentinstitution)(string) | Устанавливает учреждение оборудования. |
 | [SetEquipmentManufacturer](../../aspose.imaging.xmp.schemas.dicom/dicompackage/setequipmentmanufacturer)(string) | Устанавливает производителя оборудования. |
 | [SetPatientBirthDate](../../aspose.imaging.xmp.schemas.dicom/dicompackage/setpatientbirthdate)(string) | Устанавливает дату рождения пациента. |
 | [SetPatientId](../../aspose.imaging.xmp.schemas.dicom/dicompackage/setpatientid)(string) | Устанавливает идентификатор пациента. |

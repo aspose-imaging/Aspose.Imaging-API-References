@@ -18,8 +18,8 @@ public class WmfPaintRegion : WmfObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WmfPaintRegion](wmfpaintregion#constructor)() | 初始化[`WmfSelectClipRegion`](../wmfselectclipregion)类的新实例。 |
-| [WmfPaintRegion](wmfpaintregion#constructor_1)(WmfGraphicObject) | 初始化[`WmfSelectClipRegion`](../wmfselectclipregion)类的新实例。 |
+| [WmfPaintRegion](wmfpaintregion#constructor)() | 初始化[`WmfSelectClipRegion`](../wmfselectclipregion)类. |
+| [WmfPaintRegion](wmfpaintregion#constructor_1)(WmfGraphicObject) | 初始化[`WmfSelectClipRegion`](../wmfselectclipregion)类. |
 
 ## 特性
 

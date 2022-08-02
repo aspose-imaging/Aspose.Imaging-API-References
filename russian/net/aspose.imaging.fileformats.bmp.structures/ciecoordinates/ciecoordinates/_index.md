@@ -1,14 +1,14 @@
 ---
 title: CieCoordinates
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаCieCoordinatesaspose.imaging.fileformats.bmp.structures/ciecoordinates.
+description: Инициализирует новый экземплярCieCoordinatesaspose.imaging.fileformats.bmp.structures/ciecoordinates класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.bmp.structures/ciecoordinates/ciecoordinates/
 ---
 ## CieCoordinates constructor
 
-Инициализирует новый экземпляр класса[`CieCoordinates`](../../ciecoordinates).
+Инициализирует новый экземпляр[`CieCoordinates`](../../ciecoordinates) класс.
 
 ```csharp
 public CieCoordinates(byte[] bytes)

@@ -1,14 +1,14 @@
 ---
 title: BitsPerPixel
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置每像素位数的位数
+description: 获取或设置每个像素计数的位数
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.bmp/bitmapcoreheader/bitsperpixel/
 ---
 ## BitmapCoreHeader.BitsPerPixel property
 
-获取或设置每像素位数的位数。
+获取或设置每个像素计数的位数。
 
 ```csharp
 public ushort BitsPerPixel { get; set; }

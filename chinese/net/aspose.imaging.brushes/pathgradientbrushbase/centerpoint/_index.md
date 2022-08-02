@@ -16,7 +16,7 @@ public PointF CenterPoint { get; set; }
 
 ### 适当的价值
 
-A[`PointF`](../../../aspose.imaging/pointf)表示路径渐变的中心点。
+一个[`PointF`](../../../aspose.imaging/pointf)表示路径渐变的中心点。
 
 ### 也可以看看
 

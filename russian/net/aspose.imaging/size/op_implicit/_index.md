@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Преобразует указанныйSizeaspose.imaging/sizeвSizeFaspose.imaging/sizef.
+description: Преобразует указанныйSizeaspose.imaging/size кSizeFaspose.imaging/sizef .
 type: docs
 weight: 170
 url: /ru/net/aspose.imaging/size/op_implicit/
 ---
 ## Size Implicit operator
 
-Преобразует указанный[`Size`](../../size)в[`SizeF`](../../sizef).
+Преобразует указанный[`Size`](../../size) к[`SizeF`](../../sizef) .
 
 ```csharp
 public static implicit operator SizeF(Size size)
@@ -16,11 +16,11 @@ public static implicit operator SizeF(Size size)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| size | Size | [`Size`](../../size)для преобразования. |
+| size | Size | [`Size`](../../size) конвертировать. |
 
 ### Возвращаемое значение
 
-Структура[`SizeF`](../../sizef), в которую преобразует этот оператор.
+[`SizeF`](../../sizef) структура, в которую преобразуется этот оператор.
 
 ### Смотрите также
 

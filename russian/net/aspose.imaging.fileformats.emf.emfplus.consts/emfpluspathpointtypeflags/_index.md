@@ -19,13 +19,13 @@ public enum EmfPlusPathPointTypeFlags
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| PathPointTypeDashMode | `1` | Указывает, что отрезок линии, проходящий через точку, отображается пунктиром. |
+| PathPointTypeDashMode | `1` | Указывает, что отрезок линии, проходящий через точку, заштрихован. |
 | PathPointTypePathMarker | `2` | Указывает, что точка является маркером положения. |
 | PathPointTypeCloseSubpath | `8` | Указывает, что точка является конечной точкой подпути. |
 
 ### Примечания
 
-Графические пути задаются[`EmfPlusPath`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath)объекты.
+Графические пути задаются[`EmfPlusPath`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath) объекты.
 
 ### Смотрите также
 

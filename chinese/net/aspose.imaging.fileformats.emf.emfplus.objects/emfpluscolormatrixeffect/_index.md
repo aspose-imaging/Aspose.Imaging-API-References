@@ -33,7 +33,7 @@ public sealed class EmfPlusColorMatrixEffect : EmfPlusImageEffectsObjectType
 
 ### 评论
 
-位图图像由 EmfPlusBitmap 对象指定（第 2.2.2.2 节）。颜色矩阵效果是 通过将颜色向量乘以 ColorMatrixEffect 对象来执行的。 5x5 颜色矩阵可以 执行线性变换，包括反射、旋转、剪切或缩放，然后进行平移。
+位图图像由 EmfPlusBitmap 对象指定（第 2.2.2.2 节）。颜色矩阵效果 is 通过将颜色向量乘以 ColorMatrixEffect 对象来执行。 5x5 颜色矩阵 can 执行线性变换，包括反射、旋转、剪切或缩放，然后进行平移。
 
 ### 也可以看看
 

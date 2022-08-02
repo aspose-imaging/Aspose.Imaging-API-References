@@ -1,14 +1,14 @@
 ---
 title: IsColor
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个指示此实例是否为彩色的值 如果设置BrushId 将颜色指定为 EmfPlusARGB 对象第 2.2.2.1 节 如果清除BrushId 包含 EmfPlusBrush 对象 第 2.2.1.1 节在 EMF 对象表中的索引
+description: 获取或设置一个指示此实例是否为颜色的值 如果设置BrushId 将颜色指定为 EmfPlusARGB 对象第 2.2.2.1 节 如果清除BrushId 包含 EmfPlusBrush 对象的索引 第 2.2.1.1 节 在 EMF 对象表中
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/iscolor/
 ---
 ## EmfPlusFillEllipse.IsColor property
 
-获取或设置一个指示此实例是否为彩色的值。 如果设置，BrushId 将颜色指定为 EmfPlusARGB 对象（第 2.2.2.1 节）。 如果清除，BrushId 包含 EmfPlusBrush 对象 （第 2.2.1.1 节）在 EMF+ 对象表中的索引。
+获取或设置一个指示此实例是否为颜色的值。 如果设置，BrushId 将颜色指定为 EmfPlusARGB 对象（第 2.2.2.1 节）。 如果清除，BrushId 包含 EmfPlusBrush 对象的索引 （第 2.2.1.1 节) 在 EMF+ 对象表中。
 
 ```csharp
 public bool IsColor { get; set; }
@@ -16,7 +16,7 @@ public bool IsColor { get; set; }
 
 ### 适当的价值
 
-` true` 如果此实例是彩色的；否则，` false` 。
+`真的`如果这个实例是彩色的；否则，`错误的` .
 
 ### 也可以看看
 

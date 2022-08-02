@@ -1,14 +1,14 @@
 ---
 title: JpegOptions
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化JpegOptionsaspose.imaging.imageoptions/jpegoptions类的新实例
+description: 初始化JpegOptionsaspose.imaging.imageoptions/jpegoptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.imageoptions/jpegoptions/jpegoptions/
 ---
 ## JpegOptions() {#constructor}
 
-初始化[`JpegOptions`](../../jpegoptions)类的新实例。
+初始化[`JpegOptions`](../../jpegoptions)类.
 
 ```csharp
 public JpegOptions()
@@ -23,46 +23,39 @@ public JpegOptions()
 
 string dir = "c:\\temp\\";
 
-// 创建一个 100x100 像素的 JPEG 图像。
+// 从文件中加载 BMP 图像。
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
+{
+    // 做一些图像处理。
+
     // 使用附加选项来指定所需的图像参数。
-Aspose.Imaging.ImageOptions.JpegOptions createOptions = new Aspose.Imaging.ImageOptions.JpegOptions();
+    Aspose.Imaging.ImageOptions.JpegOptions saveOptions = new Aspose.Imaging.ImageOptions.JpegOptions();
 
-    // 每个通道的位数分别为 8、8、8 对应 Y、Cr、Cb 分量。
-createOptions.BitsPerChannel = 8;
+    // 每个通道的位数为 8。
+    // 使用调色板时，颜色索引存储在图像数据中，而不是颜色本身。
+    saveOptions.BitsPerChannel = 8;
 
-    // 设置压缩的渐进类型。
-createOptions.CompressionType = Aspose.Imaging.FileFormats.Jpeg.JpegCompressionMode.Progressive;
+    // 设置渐进式压缩类型。
+    saveOptions.CompressionType = Aspose.Imaging.FileFormats.Jpeg.JpegCompressionMode.Progressive;
 
     // 设置图像质量。它是一个介于 1 和 100 之间的值。
-createOptions.Quality = 100;
+    saveOptions.Quality = 100;
 
     // 将水平/垂直分辨率设置为每英寸 96 点。
-createOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
-createOptions.ResolutionUnit = Aspose.Imaging.ResolutionUnit.Inch;
+    saveOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
+    saveOptions.ResolutionUnit = Aspose.Imaging.ResolutionUnit.Inch;
 
-    // 这是 JPEG 图像的标准选项。
-    // 两个色度分量（Cb 和 Cr）可以进行带宽缩减、二次采样、压缩。
-createOptions.ColorType = Aspose.Imaging.FileFormats.Jpeg.JpegCompressionColorMode.YCbCr;
+    // 如果源图像是彩色的，它将被转换为灰度。
+    saveOptions.ColorType = Aspose.Imaging.FileFormats.Jpeg.JpegCompressionColorMode.Grayscale;
 
-using (Aspose.Imaging.FileFormats.Jpeg.JpegImage jpegImage = new Aspose.Imaging.FileFormats.Jpeg.JpegImage(createOptions, 100, 100))
-{
-    Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(jpegImage);
+    // 使用调色板来减小输出大小。
+    saveOptions.Palette = Aspose.Imaging.ColorPaletteHelper.Create8BitGrayscale(false);
 
-    Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
-        new Aspose.Imaging.Point(0, 0),
-        new Aspose.Imaging.Point(jpegImage.Width, jpegImage.Height),
-        Aspose.Imaging.Color.Yellow,
-        Aspose.Imaging.Color.Blue);
-
-        // 用灰度梯度填充图像 gradient
-    graphics.FillRectangle(gradientBrush, jpegImage.Bounds);
-
-        // 保存到文件.
-    jpegImage.Save(dir + "output.explicitoptions.jpg");
+    image.Save(dir + "sample.palettized.jpg", saveOptions);
 }
 ```
 
-以下示例说明如何使用指定参数创建指定大小的 JPEG 图像。
+以下示例显示如何使用指定参数创建指定大小的 JPEG 图像。
 
 ```csharp
 [C#]
@@ -70,24 +63,24 @@ using (Aspose.Imaging.FileFormats.Jpeg.JpegImage jpegImage = new Aspose.Imaging.
 string dir = "c:\\temp\\";
 
 // 创建一个 100x100 像素的 JPEG 图像。
-    // 使用附加选项来指定所需的图像参数。
+// 使用附加选项来指定所需的图像参数。
 Aspose.Imaging.ImageOptions.JpegOptions createOptions = new Aspose.Imaging.ImageOptions.JpegOptions();
 
-    // 每个通道的位数分别为 8、8、8 对应 Y、Cr、Cb 分量。
+// 对于 Y、Cr、Cb 分量，每个通道的位数分别为 8、8、8。
 createOptions.BitsPerChannel = 8;
 
-    // 设置压缩的渐进类型。
+// 设置渐进式压缩类型。
 createOptions.CompressionType = Aspose.Imaging.FileFormats.Jpeg.JpegCompressionMode.Progressive;
 
-    // 设置图像质量。它是一个介于 1 和 100 之间的值。
+// 设置图像质量。它是一个介于 1 和 100 之间的值。
 createOptions.Quality = 100;
 
-    // 将水平/垂直分辨率设置为每英寸 96 点。
+// 将水平/垂直分辨率设置为每英寸 96 点。
 createOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
 createOptions.ResolutionUnit = Aspose.Imaging.ResolutionUnit.Inch;
 
-    // 这是 JPEG 图像的标准选项。
-    // 两个色度分量（Cb 和 Cr）可以进行带宽缩减、二次采样、压缩。
+// 这是 JPEG 图像的标准选项。
+// 两个色度分量（Cb 和 Cr）可以进行带宽缩减、二次采样、压缩。
 createOptions.ColorType = Aspose.Imaging.FileFormats.Jpeg.JpegCompressionColorMode.YCbCr;
 
 using (Aspose.Imaging.FileFormats.Jpeg.JpegImage jpegImage = new Aspose.Imaging.FileFormats.Jpeg.JpegImage(createOptions, 100, 100))
@@ -100,10 +93,10 @@ using (Aspose.Imaging.FileFormats.Jpeg.JpegImage jpegImage = new Aspose.Imaging.
         Aspose.Imaging.Color.Yellow,
         Aspose.Imaging.Color.Blue);
 
-        // 用灰度梯度填充图像 gradient
+    // 用灰度渐变填充图像
     graphics.FillRectangle(gradientBrush, jpegImage.Bounds);
 
-        // 保存到文件.
+    // 保存到文件。
     jpegImage.Save(dir + "output.explicitoptions.jpg");
 }
 ```
@@ -118,7 +111,7 @@ using (Aspose.Imaging.FileFormats.Jpeg.JpegImage jpegImage = new Aspose.Imaging.
 
 ## JpegOptions(JpegOptions) {#constructor_1}
 
-初始化[`JpegOptions`](../../jpegoptions)类的新实例。
+初始化[`JpegOptions`](../../jpegoptions)类.
 
 ```csharp
 public JpegOptions(JpegOptions jpegOptions)

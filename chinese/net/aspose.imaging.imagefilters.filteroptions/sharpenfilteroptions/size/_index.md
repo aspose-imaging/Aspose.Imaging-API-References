@@ -16,7 +16,7 @@ public int Size { get; set; }
 
 ### 适当的价值
 
-大小。
+大小.
 
 ### 也可以看看
 

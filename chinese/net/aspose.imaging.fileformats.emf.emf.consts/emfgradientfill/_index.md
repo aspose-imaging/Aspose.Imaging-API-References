@@ -18,8 +18,8 @@ public enum EmfGradientFill
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| GRADIENT_FILL_RECT_H | `0` | 沿着矩形从左到右边缘的渐变执行颜色插值的模式 |
-| GRADIENT_FILL_RECT_V | `1` | 一种沿矩形从上到下边缘的渐变进行颜色插值的模式。 |
+| GRADIENT_FILL_RECT_H | `0` | 一种沿矩形从左到右边缘的渐变进行颜色插值的模式 |
+| GRADIENT_FILL_RECT_V | `1` | 一种沿矩形从顶部到底部边缘的渐变执行颜色插值的模式。 |
 | GRADIENT_FILL_TRIANGLE | `2` | 在三角形的顶点之间执行颜色插值的模式S |
 
 ### 也可以看看

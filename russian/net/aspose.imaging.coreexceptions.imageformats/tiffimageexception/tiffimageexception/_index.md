@@ -1,14 +1,14 @@
 ---
 title: TiffImageException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTiffImageExceptionaspose.imaging.coreexceptions.imageformats/tiffimageexception.
+description: Инициализирует новый экземплярTiffImageExceptionaspose.imaging.coreexceptions.imageformats/tiffimageexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions.imageformats/tiffimageexception/tiffimageexception/
 ---
 ## TiffImageException(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TiffImageException`](../../tiffimageexception).
+Инициализирует новый экземпляр[`TiffImageException`](../../tiffimageexception) класс.
 
 ```csharp
 public TiffImageException(string message)
@@ -28,7 +28,7 @@ public TiffImageException(string message)
 
 ## TiffImageException(string, Exception) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`TiffImageException`](../../tiffimageexception).
+Инициализирует новый экземпляр[`TiffImageException`](../../tiffimageexception) класс.
 
 ```csharp
 public TiffImageException(string message, Exception innerException)
@@ -49,7 +49,7 @@ public TiffImageException(string message, Exception innerException)
 
 ## TiffImageException(string, TiffOptionsError) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`TiffImageException`](../../tiffimageexception).
+Инициализирует новый экземпляр[`TiffImageException`](../../tiffimageexception) класс.
 
 ```csharp
 public TiffImageException(string message, TiffOptionsError error)
@@ -71,7 +71,7 @@ public TiffImageException(string message, TiffOptionsError error)
 
 ## TiffImageException(TiffOptionsError) {#constructor}
 
-Инициализирует новый экземпляр класса[`TiffImageException`](../../tiffimageexception).
+Инициализирует новый экземпляр[`TiffImageException`](../../tiffimageexception) класс.
 
 ```csharp
 public TiffImageException(TiffOptionsError error)

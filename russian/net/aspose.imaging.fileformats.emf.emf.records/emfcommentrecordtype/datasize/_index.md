@@ -1,14 +1,14 @@
 ---
 title: DataSize
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее размер в байтах полей CommentIdentifier и CommentRecordParm в поле RecordBuffer следует. Он НЕ ДОЛЖЕН включать размер самого себя или размер поля AlignmentPadding если присутствует
+description: Получает или задает 32-разрядное целое число без знака указывающее размер в байтах полей CommentIdentifier и CommentRecordParm в поле RecordBuffer за которым следует . Он НЕ ДОЛЖЕН включать размер самого себя или размер поля AlignmentPadding если present
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/datasize/
 ---
 ## EmfCommentRecordType.DataSize property
 
-Получает или задает 32-разрядное целое число без знака, указывающее размер (в байтах) полей CommentIdentifier и CommentRecordParm в поле RecordBuffer, следует. Он НЕ ДОЛЖЕН включать размер самого себя или размер поля AlignmentPadding, если присутствует
+Получает или задает 32-разрядное целое число без знака, указывающее размер в байтах полей CommentIdentifier и CommentRecordParm в поле RecordBuffer, за которым следует . Он НЕ ДОЛЖЕН включать размер самого себя или размер поля AlignmentPadding, если present
 
 ```csharp
 public int DataSize { get; set; }

@@ -24,8 +24,8 @@ public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
 
 | исключение | условие |
 | --- | --- |
-| NotImplementedException | Не реализовано. |
-| NotImplementedException | Не реализовано. |
+| NotImplementedException | Не реализованы. |
+| NotImplementedException | Не реализованы. |
 
 ### Смотрите также
 
@@ -54,7 +54,7 @@ public override void Resize(int newWidth, int newHeight, ImageResizeSettings set
 
 | исключение | условие |
 | --- | --- |
-| NotImplementedException | Не реализовано. |
+| NotImplementedException | Не реализованы. |
 
 ### Смотрите также
 

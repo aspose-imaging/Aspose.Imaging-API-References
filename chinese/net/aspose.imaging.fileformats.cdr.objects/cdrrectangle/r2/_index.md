@@ -1,14 +1,14 @@
 ---
 title: R2
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 r2
+description: 获取或设置 r2.
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrrectangle/r2/
 ---
 ## CdrRectangle.R2 property
 
-获取或设置 r2。
+获取或设置 r2.
 
 ```csharp
 public double R2 { get; set; }

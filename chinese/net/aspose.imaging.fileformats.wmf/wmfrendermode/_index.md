@@ -18,10 +18,10 @@ public enum WmfRenderMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| WmfRecordsOnly | `0` | 渲染 wmf 只记录没有嵌入的 emf。 |
+| WmfRecordsOnly | `0` | 只渲染 wmf 记录，没有嵌入 emf. |
 | EmbeddedEmfOnly | `1` | 仅渲染嵌入的 emf。 |
 | Both | `2` | 按顺序渲染。 |
-| Auto | `3` | 自动渲染。如果存在嵌入式 emf，则渲染 emf，否则渲染 wmf。 |
+| Auto | `3` | 自动渲染。如果存在嵌入式 emf，则渲染 emf，否则渲染 wmf. |
 
 ### 也可以看看
 

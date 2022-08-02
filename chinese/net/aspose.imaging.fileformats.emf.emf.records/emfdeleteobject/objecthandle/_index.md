@@ -1,14 +1,14 @@
 ---
 title: ObjectHandle
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 32 位无符号整数指定 EMF 对象表中图形对象的索引 或股票的索引StockObject 枚举中的对象
+description: 获取或设置 32 位无符号整数它指定 EMF 对象表中图形对象 的索引或 StockObject 枚举中的库存对象的索引
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfdeleteobject/objecthandle/
 ---
 ## EmfDeleteObject.ObjectHandle property
 
-获取或设置 32 位无符号整数，指定 EMF 对象表中图形对象的索引 或股票的索引StockObject 枚举中的对象。
+获取或设置 32 位无符号整数，它指定 EMF 对象表中图形对象 的索引或 StockObject 枚举中的库存对象的索引。
 
 ```csharp
 public int ObjectHandle { get; set; }

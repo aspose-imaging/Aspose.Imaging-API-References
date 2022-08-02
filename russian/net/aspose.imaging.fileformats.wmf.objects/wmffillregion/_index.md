@@ -18,8 +18,8 @@ public class WmfFillRegion : WmfObject
 
 | Имя | Описание |
 | --- | --- |
-| [WmfFillRegion](wmffillregion#constructor)() | Инициализирует новый экземпляр класса[`WmfFillRegion`](../wmffillregion). |
-| [WmfFillRegion](wmffillregion#constructor_1)(WmfGraphicObject, WmfGraphicObject) | Инициализирует новый экземпляр класса[`WmfFillRegion`](../wmffillregion). |
+| [WmfFillRegion](wmffillregion#constructor)() | Инициализирует новый экземпляр[`WmfFillRegion`](../wmffillregion) класс. |
+| [WmfFillRegion](wmffillregion#constructor_1)(WmfGraphicObject, WmfGraphicObject) | Инициализирует новый экземпляр[`WmfFillRegion`](../wmffillregion) класс. |
 
 ## Характеристики
 

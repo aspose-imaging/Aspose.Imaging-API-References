@@ -1,14 +1,14 @@
 ---
 title: CacheData
 second_title: Aspose.Imaging for .NET API 参考
-description: 缓存数据并确保不会从底层 DataStreamSupporter执行额外的数据加载数据流容器
+description: 缓存数据并确保不会从底层执行额外的数据加载 DataStreamContaineraspose.imaging/datastreamsupporter/datastreamcontainer .
 type: docs
 weight: 110
 url: /zh/net/aspose.imaging.fileformats.cdr/cdrimage/cachedata/
 ---
 ## CdrImage.CacheData method
 
-缓存数据并确保不会从底层 DataStreamSupporter执行额外的数据加载。数据流容器。
+缓存数据并确保不会从底层执行额外的数据加载 [`DataStreamContainer`](../../../aspose.imaging/datastreamsupporter/datastreamcontainer) .
 
 ```csharp
 public override void CacheData()
@@ -16,20 +16,20 @@ public override void CacheData()
 
 ### 例子
 
-以下示例说明如何缓存 CDR 映像的所有页面。
+以下示例显示如何缓存 CDR 映像的所有页面。
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-    // 从 CDR 文件加载图像。
+// 从 CDR 文件加载图像。
 using (Aspose.Imaging.FileFormats.Cdr.CdrImage image = (Aspose.Imaging.FileFormats.Cdr.CdrImage)Aspose.Imaging.Image.Load(dir + "sample.cdr"))
 {
-        // 此调用仅缓存默认页面。
+    // 此调用仅缓存默认页面。
     image.CacheData();
 
-        // 缓存所有页面，这样就不会从底层数据流执行额外的数据加载。
+    // 缓存所有页面，这样就不会从底层数据流执行额外的数据加载。
     foreach (Aspose.Imaging.FileFormats.Cdr.CdrImagePage page in image.Pages)
     {
         page.CacheData();

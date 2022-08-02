@@ -18,9 +18,9 @@ public interface ISvgResourceKeeperCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OnFontResourceReady](../../aspose.imaging.fileformats.svg/isvgresourcekeepercallback/onfontresourceready)(FontStoringArgs) | [字体资源就绪]时调用。 |
-| [OnImageResourceReady](../../aspose.imaging.fileformats.svg/isvgresourcekeepercallback/onimageresourceready)(byte[], SvgImageType, string, ref bool) | 当图像资源准备好时调用。 |
-| [OnSvgDocumentReady](../../aspose.imaging.fileformats.svg/isvgresourcekeepercallback/onsvgdocumentready)(byte[], string) | 当 SVG 文档准备好时调用。 |
+| [OnFontResourceReady](../../aspose.imaging.fileformats.svg/isvgresourcekeepercallback/onfontresourceready)(FontStoringArgs) | 在 [字体资源就绪] 时调用。 |
+| [OnImageResourceReady](../../aspose.imaging.fileformats.svg/isvgresourcekeepercallback/onimageresourceready)(byte[], SvgImageType, string, ref bool) | 图像资源就绪时调用。 |
+| [OnSvgDocumentReady](../../aspose.imaging.fileformats.svg/isvgresourcekeepercallback/onsvgdocumentready)(byte[], string) | 在 SVG 文档准备就绪时调用。 |
 
 ### 也可以看看
 

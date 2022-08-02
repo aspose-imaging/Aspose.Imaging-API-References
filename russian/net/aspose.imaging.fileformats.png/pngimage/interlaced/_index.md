@@ -1,14 +1,14 @@
 ---
 title: Interlaced
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее является ли этот файлPngImageaspose.imaging.fileformats.png/pngimageчересстрочным.
+description: Получает значение указывающее является ли этоPngImageaspose.imaging.fileformats.png/pngimage чересстрочная развертка.
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging.fileformats.png/pngimage/interlaced/
 ---
 ## PngImage.Interlaced property
 
-Получает значение, указывающее, является ли этот файл[`PngImage`](../../pngimage)чересстрочным.
+Получает значение, указывающее, является ли это[`PngImage`](../../pngimage) чересстрочная развертка.
 
 ```csharp
 public bool Interlaced { get; }
@@ -16,7 +16,7 @@ public bool Interlaced { get; }
 
 ### Стоимость имущества
 
-` true` если чересстрочная; в противном случае` false` .
+`истинный` если чересстрочный; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

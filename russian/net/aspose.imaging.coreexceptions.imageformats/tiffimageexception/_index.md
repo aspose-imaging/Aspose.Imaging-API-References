@@ -18,10 +18,10 @@ public class TiffImageException : ImageException
 
 | Имя | Описание |
 | --- | --- |
-| [TiffImageException](tiffimageexception#constructor_1)(string) | Инициализирует новый экземпляр класса[`TiffImageException`](../tiffimageexception). |
-| [TiffImageException](tiffimageexception#constructor)(TiffOptionsError) | Инициализирует новый экземпляр класса[`TiffImageException`](../tiffimageexception). |
-| [TiffImageException](tiffimageexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр класса[`TiffImageException`](../tiffimageexception). |
-| [TiffImageException](tiffimageexception#constructor_2)(string, TiffOptionsError) | Инициализирует новый экземпляр класса[`TiffImageException`](../tiffimageexception). |
+| [TiffImageException](tiffimageexception#constructor_1)(string) | Инициализирует новый экземпляр[`TiffImageException`](../tiffimageexception) класс. |
+| [TiffImageException](tiffimageexception#constructor)(TiffOptionsError) | Инициализирует новый экземпляр[`TiffImageException`](../tiffimageexception) класс. |
+| [TiffImageException](tiffimageexception#constructor_3)(string, Exception) | Инициализирует новый экземпляр[`TiffImageException`](../tiffimageexception) класс. |
+| [TiffImageException](tiffimageexception#constructor_2)(string, TiffOptionsError) | Инициализирует новый экземпляр[`TiffImageException`](../tiffimageexception) класс. |
 
 ## Характеристики
 

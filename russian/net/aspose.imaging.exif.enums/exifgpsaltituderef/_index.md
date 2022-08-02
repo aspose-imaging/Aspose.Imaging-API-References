@@ -1,14 +1,14 @@
 ---
 title: ExifGPSAltitudeRef
 second_title: Справочник по Aspose.Imaging for .NET API
-description: exif ссылка на высоту GPS.
+description: exif ссылка на высоту GPS enum.
 type: docs
 weight: 950
 url: /ru/net/aspose.imaging.exif.enums/exifgpsaltituderef/
 ---
 ## ExifGPSAltitudeRef enumeration
 
-exif ссылка на высоту GPS.
+exif ссылка на высоту GPS enum.
 
 ```csharp
 public enum ExifGPSAltitudeRef : byte

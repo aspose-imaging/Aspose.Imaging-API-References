@@ -1,14 +1,14 @@
 ---
 title: Pixel
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 64-битный объект WMF PointL MS-WMF раздел 2.2.2.15 который указывает логические координаты для пиксель.
+description: Получает или задает 64-битный объект WMF PointL MS-WMF раздел 2.2.2.15 который определяет логические координаты для пикселя.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetpixelv/pixel/
 ---
 ## EmfSetPixelV.Pixel property
 
-Получает или задает 64-битный объект WMF PointL ([MS-WMF], раздел 2.2.2.15), который указывает логические координаты для пиксель.
+Получает или задает 64-битный объект WMF PointL ([MS-WMF], раздел 2.2.2.15), который определяет логические координаты для пикселя.
 
 ```csharp
 public Point Pixel { get; set; }

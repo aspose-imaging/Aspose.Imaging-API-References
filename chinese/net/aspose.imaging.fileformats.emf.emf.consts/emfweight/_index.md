@@ -18,17 +18,17 @@ public enum EmfWeight : byte
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| PAN_ANY | `0` | 任意权重。 |
+| PAN_ANY | `0` | 任意重量。 |
 | PAN_NO_FIT | `1` | 不合适。 |
 | PAN_WEIGHT_VERY_LIGHT | `2` | 重量很轻。 |
 | PAN_WEIGHT_LIGHT | `3` | 重量轻。 |
-| PAN_WEIGHT_THIN | `4` | 瘦体重。 |
-| PAN_WEIGHT_BOOK | `5` | 书重。 |
-| PAN_WEIGHT_MEDIUM | `6` | 中等权重。 |
-| PAN_WEIGHT_DEMI | `7` | 半重量。 |
+| PAN_WEIGHT_THIN | `4` | 瘦体重. |
+| PAN_WEIGHT_BOOK | `5` | 书重. |
+| PAN_WEIGHT_MEDIUM | `6` | 中等重量。 |
+| PAN_WEIGHT_DEMI | `7` | 半体重。 |
 | PAN_WEIGHT_BOLD | `8` | 粗体字重。 |
-| PAN_WEIGHT_HEAVY | `9` | 重量级。 |
-| PAN_WEIGHT_BLACK | `10` | 黑色权重。 |
+| PAN_WEIGHT_HEAVY | `9` | 重量级. |
+| PAN_WEIGHT_BLACK | `10` | 黑色重量。 |
 | PAN_WEIGHT_NORD | `11` | 北重。 |
 
 ### 也可以看看

@@ -17,7 +17,7 @@ public static Image Create(ImageOptionsBase imageOptions, int width, int height)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | imageOptions | ImageOptionsBase | 图像选项。 |
-| width | Int32 | 宽度。 |
+| width | Int32 | 宽度. |
 | height | Int32 | 高度。 |
 
 ### 返回值
@@ -26,26 +26,25 @@ public static Image Create(ImageOptionsBase imageOptions, int width, int height)
 
 ### 例子
 
-此示例在 BmpOptions 实例的 Source 属性指定的某个磁盘位置创建一个新图像文件。 BmpOptions 实例的几个属性在创建实际图像之前设置。特别是 Source 属性，在这种情况下指的是实际的磁盘位置。
+此示例在 BmpOptions 实例的 Source 属性指定的某个磁盘位置创建一个新的图像文件。 BmpOptions 实例的几个属性在创建实际图像之前设置。特别是 Source 属性，在这种情况下指的是实际的磁盘位置。
 
 ```csharp
 [C#]
 
-    //创建一个BmpOptions的实例并设置它的各种属性
+//创建一个BmpOptions的实例并设置它的各种属性
 Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 bmpOptions.BitsPerPixel = 24;
 
-    //创建一个FileCreateSource的实例并将其分配为BmpOptions
-实例的Source
-    //第二个布尔参数决定要创建的文件是IsTemporal还是not
+//创建一个 FileCreateSource 的实例并将其分配为 BmpOptions 实例的 Source
+//第二个布尔参数确定要创建的文件是否为IsTemporal
 bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"C:\temp\output.bmp", false);
 
-    //创建一个Image实例并通过调用Create方法用BmpOptions实例初始化它
+//创建一个Image实例并通过调用Create方法用BmpOptions实例初始化它
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
 {
-        //做一些图像处理
+    //做一些图像处理
 
-        // 保存所有更改
+    // 保存所有更改
     image.Save();
 }
 ```
@@ -61,7 +60,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
 
 ## Create(Image[]) {#create_1}
 
-使用指定图像作为页面创建新图像
+使用指定的图像作为 pages 创建一个新图像
 
 ```csharp
 public static Image Create(Image[] images)
@@ -85,7 +84,7 @@ public static Image Create(Image[] images)
 
 ## Create(Image[], bool) {#create_2}
 
-将指定图像创建为页面的新图像。
+将指定图像作为页面创建一个新图像。
 
 ```csharp
 public static Image Create(Image[] images, bool disposeImages)
@@ -94,7 +93,7 @@ public static Image Create(Image[] images, bool disposeImages)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | images | Image[] | 图像。 |
-| disposeImages | Boolean | 如果设置为` true` [处置图像]。 |
+| disposeImages | Boolean | 如果设置为`真的` [处理图像]。 |
 
 ### 返回值
 

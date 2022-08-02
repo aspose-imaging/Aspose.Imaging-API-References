@@ -1,14 +1,14 @@
 ---
 title: B
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 B 组件
+description: 获取或设置B组件
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.xmp.types.complex.colorant/colorantlab/b/
 ---
 ## ColorantLab.B property
 
-获取或设置 B 组件。
+获取或设置B组件。
 
 ```csharp
 public int B { get; set; }

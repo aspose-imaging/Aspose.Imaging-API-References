@@ -24,7 +24,7 @@ public sealed class EmfPlusDashedLineData : EmfPlusStructureObjectType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DashedLineData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusdashedlinedata/dashedlinedata) { get; set; } | 获取或设置 DashedLineDataSize 浮点值数组 指定 中的破折号和空格的长度虚线 |
+| [DashedLineData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusdashedlinedata/dashedlinedata) { get; set; } | 获取或设置 DashedLineDataSize 浮点值数组 指定 虚线 中的破折号和空格的长度 |
 
 ### 也可以看看
 

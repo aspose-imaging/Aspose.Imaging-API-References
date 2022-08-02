@@ -1,14 +1,14 @@
 ---
 title: EmfPolyPolygon
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_POLYPOLYGON определяет ряд замкнутых многоугольников.
+description: Запись EMR_POLYPOLYGON определяет серию замкнутых многоугольников.
 type: docs
 weight: 4020
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/
 ---
 ## EmfPolyPolygon class
 
-Запись EMR_POLYPOLYGON определяет ряд замкнутых многоугольников.
+Запись EMR_POLYPOLYGON определяет серию замкнутых многоугольников.
 
 ```csharp
 public sealed class EmfPolyPolygon : EmfDrawingRecordType
@@ -18,21 +18,21 @@ public sealed class EmfPolyPolygon : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPolyPolygon](emfpolypolygon#constructor)() | Инициализирует новый экземпляр класса[`EmfPolyPolygon`](../emfpolypolygon). |
-| [EmfPolyPolygon](emfpolypolygon#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfPolyPolygon`](../emfpolypolygon). |
+| [EmfPolyPolygon](emfpolypolygon#constructor)() | Инициализирует новый экземпляр[`EmfPolyPolygon`](../emfpolypolygon) класс. |
+| [EmfPolyPolygon](emfpolypolygon#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfPolyPolygon`](../emfpolypolygon) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/apoints) { get; set; } | Получает или задает массив объектов WMF PointL ([MS-WMF], раздел 2.2.2.15), который указывает точки для всех полигонов в логические единицы. Количество точек определяется значением поля Count. |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/bounds) { get; set; } | Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который определяет ограничивающий прямоугольник в единицах устройства. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/apoints) { get; set; } | Получает или задает массив объектов WMF PointL ([MS-WMF], раздел 2.2.2.15), который определяет точки для всех полигонов в логических единицах. Количество баллов задается значением поля Count. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/bounds) { get; set; } | Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который указывает ограничивающий прямоугольник в единицах устройства. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Примечания
 
-Каждый полигон ДОЛЖЕН быть обведен текущим пером и заполнен текущим кистью и режим заливки полигонов, которые определены в контексте устройства воспроизведения. Полигоны, определенные этой записью, могут перекрываться.
+Каждый полигон ДОЛЖЕН быть обведен текущим пером и заполнен с использованием текущей кисти и режима заливки полигона , которые определены в контексте устройства воспроизведения. Полигоны, определенные этой записью , могут перекрываться.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Сравнивает два объектаPointaspose.imaging/point. Результат указывает соответствуют ли значения свойствXaspose.imaging/point/xиYaspose.imaging/point/yдвухPointaspose.imaging/pointобъекты равны.
+description: Сравнивает дваPointaspose.imaging/point объекты. Результат указывает являются ли значенияXaspose.imaging/point/x а такжеYaspose.imaging/point/y свойства двухPointaspose.imaging/point объекты равны.
 type: docs
 weight: 160
 url: /ru/net/aspose.imaging/point/op_equality/
 ---
 ## Point Equality operator
 
-Сравнивает два объекта[`Point`](../../point). Результат указывает, соответствуют ли значения свойств[`X`](../x)и[`Y`](../y)двух[`Point`](../../point)объекты равны.
+Сравнивает два[`Point`](../../point) объекты. Результат указывает, являются ли значения[`X`](../x) а также[`Y`](../y) свойства двух[`Point`](../../point) объекты равны.
 
 ```csharp
 public static bool operator ==(Point point1, Point point2)
@@ -16,12 +16,12 @@ public static bool operator ==(Point point1, Point point2)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point1 | Point | Первая[`Point`](../../point)для сравнения. |
-| point2 | Point | Секунда[`Point`](../../point)для сравнения. |
+| point1 | Point | Первый[`Point`](../../point) сравнивать. |
+| point2 | Point | Второй[`Point`](../../point) сравнивать. |
 
 ### Возвращаемое значение
 
-Истина, если[`X`](../x)и[`Y`](../y)значения*point1*и*point2*равны; в противном случае ложно.
+Верно, если[`X`](../x) а также[`Y`](../y) ценности*point1* а также*point2* равны; в противном случае ложно.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: VectorDataCompositionMode
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置矢量数据合成方式定义用于从矢量格式导出到 PSD 的矢量数据组合模式
+description: 获取或设置矢量数据合成模式定义用于从矢量格式导出到 PSD. 的矢量数据组合模式
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.imageoptions/psdvectorizationoptions/vectordatacompositionmode/
 ---
 ## PsdVectorizationOptions.VectorDataCompositionMode property
 
-获取或设置矢量数据合成方式。定义用于从矢量格式导出到 PSD 的矢量数据组合模式。
+获取或设置矢量数据合成模式。定义用于从矢量格式导出到 PSD. 的矢量数据组合模式
 
 ```csharp
 public VectorDataCompositionMode VectorDataCompositionMode { get; set; }

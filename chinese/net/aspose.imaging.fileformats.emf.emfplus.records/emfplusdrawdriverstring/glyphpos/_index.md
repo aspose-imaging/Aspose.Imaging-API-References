@@ -1,14 +1,14 @@
 ---
 title: GlyphPos
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置字形位置数组 EmfPlusPointF 对象数组第 2.2.2.36 节指定每个字符字形的输出位置 必须有 GlyphCount 元素它们与 Glyphs 数组中的元素一一对应 如果 DriverStringOptionsRealizedAdvance 设置了 DriverStringOptions 标志中的标志则从第一个字形的位置计算字形位置在这种情况下GlyphPos 仅指定第一个字形的位置
+description: 获取或设置字形位置 array EmfPlusPointF 对象数组第 2.2.2.36 节指定每个字符字形的输出位置 必须有 GlyphCount 元素它们与Glyphs array. 如果设置了 DriverStringOptions flags 中的 DriverStringOptionsRealizedAdvance 标志则从第一个字形的位置计算字形位置在这种情况下GlyphPos 仅指定第一个字形的位置
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/glyphpos/
 ---
 ## EmfPlusDrawDriverString.GlyphPos property
 
-获取或设置字形位置数组 EmfPlusPointF 对象数组（第 2.2.2.36 节），指定每个字符字形的输出位置。 必须有 GlyphCount 元素，它们与 Glyphs 数组中的元素一一对应。 如果 DriverStringOptionsRealizedAdvance 设置了 DriverStringOptions 标志中的标志，则从第一个字形的位置计算字形位置。在这种情况下，GlyphPos 仅指定第一个字形的位置。
+获取或设置字形位置 array EmfPlusPointF 对象数组（第 2.2.2.36 节），指定每个字符字形的输出位置。 必须有 GlyphCount 元素，它们与Glyphs array. 如果设置了 DriverStringOptions flags 中的 DriverStringOptionsRealizedAdvance 标志，则从第一个字形的位置计算字形位置。在这种情况下，GlyphPos 仅指定第一个字形的位置。
 
 ```csharp
 public PointF[] GlyphPos { get; set; }

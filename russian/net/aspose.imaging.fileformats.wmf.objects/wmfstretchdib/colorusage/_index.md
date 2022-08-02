@@ -16,7 +16,7 @@ public WmfColorUsageEnum ColorUsage { get; set; }
 
 ### Стоимость имущества
 
-Поле Colors в DIB содержит явные значения RGB или индексы в палитру. Это значение ДОЛЖНО быть в `ColorUsage`
+Поле Colors в DIB содержит явные значения RGB или indexes в палитру. Это значение ДОЛЖНО быть в `ColorUsage`
 
 Перечисление (раздел 2.1.1.6).
 

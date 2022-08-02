@@ -1,14 +1,14 @@
 ---
 title: EmfRecord
 second_title: Aspose.Imaging for .NET API 参考
-description: EMF 记录的基类 所有 EMF 记录的长度必须是 4 字节的倍数这在上述 EMF 记录类型的 通用结构中进行了描述方法是在这些结构的末尾适当地包含 AlignmentPadding 字段  AlignmentPadding 字段 的内容必须始终被忽略为简洁起见这些字段并未显示在每个单独的 EMF 记录定义中
+description: EMF 记录的基类 所有 EMF 记录的长度必须是 4 字节的倍数这在前面 EMF 记录类型的 通用结构中进行了描述方法是在这些结构的末尾适当地包括 AlignmentPadding fields  AlignmentPadding fields 的内容必须始终被忽略为简洁起见这些字段并未显示在每个单独的 EMF 记录定义中
 type: docs
 weight: 4150
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfrecord/
 ---
 ## EmfRecord class
 
-EMF 记录的基类 所有 EMF 记录的长度必须是 4 字节的倍数。这在上述 EMF 记录类型的 通用结构中进行了描述，方法是在这些结构的末尾适当地包含 AlignmentPadding 字段 。 AlignmentPadding 字段 的内容必须始终被忽略。为简洁起见，这些字段并未显示在每个单独的 EMF 记录定义中。
+EMF 记录的基类 所有 EMF 记录的长度必须是 4 字节的倍数。这在前面 EMF 记录类型的 通用结构中进行了描述，方法是在这些结构的末尾适当地包括 AlignmentPadding fields 。 AlignmentPadding fields 的内容必须始终被忽略。为简洁起见，这些字段并未显示在每个单独的 EMF 记录定义中。
 
 ```csharp
 public class EmfRecord : MetaObject
@@ -18,9 +18,9 @@ public class EmfRecord : MetaObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfRecord](emfrecord#constructor)() | 初始化[`EmfRecord`](../emfrecord)类的新实例。 |
-| [EmfRecord](emfrecord#constructor_2)(EmfRecord) | 初始化[`EmfRecord`](../emfrecord)类的新实例。 |
-| [EmfRecord](emfrecord#constructor_1)(EmfRecordType) | 初始化[`EmfRecord`](../emfrecord)类的新实例。 |
+| [EmfRecord](emfrecord#constructor)() | 初始化[`EmfRecord`](../emfrecord)类. |
+| [EmfRecord](emfrecord#constructor_2)(EmfRecord) | 初始化[`EmfRecord`](../emfrecord)类. |
+| [EmfRecord](emfrecord#constructor_1)(EmfRecordType) | 初始化[`EmfRecord`](../emfrecord)类. |
 
 ## 特性
 

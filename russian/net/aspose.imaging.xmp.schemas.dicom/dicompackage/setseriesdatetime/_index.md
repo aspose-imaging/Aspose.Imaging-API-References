@@ -16,7 +16,7 @@ public void SetSeriesDateTime(string seriesDateTime)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| seriesDateTime | String | Дата и время серии. |
+| seriesDateTime | String | Время даты сериала. |
 
 ### Смотрите также
 

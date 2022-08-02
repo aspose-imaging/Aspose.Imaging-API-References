@@ -1,14 +1,14 @@
 ---
 title: EmfPlusObjectClamp
 second_title: Aspose.Imaging for .NET API 参考
-description: EmfPlusObjectClamp 指定对象夹紧行为它 在此对象应用于正在绘制的图像之前不使用
+description: EmfPlusObjectClamp 指定对象夹紧行为在将此对象应用于正在绘制的图像之前不会使用 It 
 type: docs
 weight: 4930
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusobjectclamp/
 ---
 ## EmfPlusObjectClamp enumeration
 
-EmfPlusObjectClamp 指定对象夹紧行为。它 在此对象应用于正在绘制的图像之前不使用。
+EmfPlusObjectClamp 指定对象夹紧行为。在将此对象应用于正在绘制的图像之前，不会使用 It 。
 
 ```csharp
 public enum EmfPlusObjectClamp
@@ -18,8 +18,8 @@ public enum EmfPlusObjectClamp
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| RectClamp | `0` | 矩形夹 |
-| BitmapClamp | `1` | 位图夹 |
+| RectClamp | `0` | 矩形夹子 |
+| BitmapClamp | `1` | 位图钳位 |
 
 ### 也可以看看
 

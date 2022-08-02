@@ -1,14 +1,14 @@
 ---
 title: DeepClone
 second_title: Aspose.Imaging for .NET API 参考
-description: 创建此Fontaspose.imaging/font的精确深层副本
+description: 创建一个精确的深拷贝Fontaspose.imaging/font .
 type: docs
 weight: 110
 url: /zh/net/aspose.imaging/font/deepclone/
 ---
 ## Font.DeepClone method
 
-创建此[`Font`](../../font)的精确深层副本。
+创建一个精确的深拷贝[`Font`](../../font) .
 
 ```csharp
 public Font DeepClone()
@@ -16,7 +16,7 @@ public Font DeepClone()
 
 ### 返回值
 
-[`Font`](../../font)此方法创建。
+这[`Font`](../../font)此方法创建。
 
 ### 也可以看看
 

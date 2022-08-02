@@ -1,14 +1,14 @@
 ---
 title: APoints
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив длины счетчика объектов WMF PointL MS-WMF раздел 2.2.2.15 который указывает данные точки в логических единицах.
+description: Получает или задает массив длин объектов WMF PointL MS-WMF раздел 2.2.2.15  указывающий данные точки в логических единицах.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpolyline/apoints/
 ---
 ## EmfPolyline.APoints property
 
-Получает или задает массив длины счетчика объектов WMF PointL ([MS-WMF], раздел 2.2.2.15) который указывает данные точки, в логических единицах.
+Получает или задает массив длин объектов WMF PointL ([MS-WMF], раздел 2.2.2.15) , указывающий данные точки в логических единицах.
 
 ```csharp
 public Point[] APoints { get; set; }

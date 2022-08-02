@@ -20,7 +20,7 @@ public string Version { get; set; }
 
 ### 例子
 
-/version 用于 Type1 字体 nameId 5 用于 Apple True Type 和 OpenType CID 字体的 /CIDFontVersion 位图字体的空字符串
+/version 用于 Type1 字体 nameId 5 用于 Apple True Type 和 OpenType /CIDFontVersion 用于 CID 字体 位图字体的空字符串
 
 ### 也可以看看
 

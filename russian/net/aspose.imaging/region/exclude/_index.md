@@ -1,14 +1,14 @@
 ---
 title: Exclude
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Обновляет этотRegionaspose.imaging/region чтобы он содержал только ту часть его внутренней части которая не пересекается с указаннымRectangleFaspose.imaging/rectanglefструктура.
+description: Обновляет этоRegionaspose.imaging/region содержать только ту часть его внутренней части которая не пересекается с указаннымRectangleFaspose.imaging/rectanglef структура.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging/region/exclude/
 ---
 ## Exclude(RectangleF) {#exclude_2}
 
-Обновляет этот[`Region`](../../region), чтобы он содержал только ту часть его внутренней части, которая не пересекается с указанным[`RectangleF`](../../rectanglef)структура.
+Обновляет это[`Region`](../../region) содержать только ту часть его внутренней части, которая не пересекается с указанным[`RectangleF`](../../rectanglef) структура.
 
 ```csharp
 public void Exclude(RectangleF rect)
@@ -16,7 +16,7 @@ public void Exclude(RectangleF rect)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rect | RectangleF | Структура[`RectangleF`](../../rectanglef)для исключения из этой[`Region`](../../region). |
+| rect | RectangleF | [`RectangleF`](../../rectanglef) структуру, чтобы исключить из этого[`Region`](../../region). |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public void Exclude(RectangleF rect)
 
 ## Exclude(Rectangle) {#exclude_1}
 
-Обновляет этот[`Region`](../../region), чтобы он содержал только ту часть его внутренней части, которая не пересекается с указанным[`Rectangle`](../../rectangle)структура.
+Обновляет это[`Region`](../../region) содержать только ту часть его внутренней части, которая не пересекается с указанным[`Rectangle`](../../rectangle) структура.
 
 ```csharp
 public void Exclude(Rectangle rect)
@@ -37,7 +37,7 @@ public void Exclude(Rectangle rect)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rect | Rectangle | Структура[`Rectangle`](../../rectangle)для исключения из этой[`Region`](../../region). |
+| rect | Rectangle | [`Rectangle`](../../rectangle) структуру, чтобы исключить из этого[`Region`](../../region). |
 
 ### Смотрите также
 
@@ -50,7 +50,7 @@ public void Exclude(Rectangle rect)
 
 ## Exclude(GraphicsPath) {#exclude}
 
-Обновляет этот[`Region`](../../region), чтобы он содержал только ту часть его внутренней части, которая не пересекается с указанным[`GraphicsPath`](../../graphicspath).
+Обновляет это[`Region`](../../region) содержать только ту часть его внутренней части, которая не пересекается с указанным[`GraphicsPath`](../../graphicspath) .
 
 ```csharp
 public void Exclude(GraphicsPath path)
@@ -58,13 +58,13 @@ public void Exclude(GraphicsPath path)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | GraphicsPath | [`GraphicsPath`](../../graphicspath)исключить из этого[`Region`](../../region). |
+| path | GraphicsPath | [`GraphicsPath`](../../graphicspath) исключить из этого[`Region`](../../region). |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path*равно null. |
+| ArgumentNullException | *path* равно нулю. |
 
 ### Смотрите также
 
@@ -77,7 +77,7 @@ public void Exclude(GraphicsPath path)
 
 ## Exclude(Region) {#exclude_3}
 
-Обновляет этот[`Region`](../../region), чтобы он содержал только ту часть его внутренней части, которая не пересекается с указанным[`Region`](../../region).
+Обновляет это[`Region`](../../region) содержать только ту часть его внутренней части, которая не пересекается с указанным[`Region`](../../region) .
 
 ```csharp
 public void Exclude(Region region)
@@ -85,13 +85,13 @@ public void Exclude(Region region)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| region | Region | [`Region`](../../region)исключить из этого[`Region`](../../region). |
+| region | Region | [`Region`](../../region) исключить из этого[`Region`](../../region). |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *region*равно null. |
+| ArgumentNullException | *region* равно нулю. |
 
 ### Смотрите также
 

@@ -16,7 +16,7 @@ public string Formula { get; set; }
 
 ### 适当的价值
 
-公式。
+公式.
 
 ### 也可以看看
 

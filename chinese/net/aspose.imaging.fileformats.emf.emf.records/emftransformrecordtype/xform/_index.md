@@ -1,14 +1,14 @@
 ---
 title: Xform
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 XForm 对象第 2.2.28 节它定义了世界空间到页面空间的转换
+description: 获取或设置一个 XForm 对象第 2.2.28 节它定义了一个世界空间到页面空间的转换
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emftransformrecordtype/xform/
 ---
 ## EmfTransformRecordType.Xform property
 
-获取或设置一个 XForm 对象（第 2.2.28 节），它定义了世界空间到页面空间的转换。
+获取或设置一个 XForm 对象（第 2.2.28 节），它定义了一个世界空间到页面空间的转换。
 
 ```csharp
 public Matrix Xform { get; set; }

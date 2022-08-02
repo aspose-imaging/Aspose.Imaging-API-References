@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее является лиWidthaspose.imaging/rectanglef/widthилиHeightaspose.imaging/rectanglef/heightсвойство этогоRectangleFaspose.imaging/rectanglefимеет нулевое значение.
+description: Получает значение указывающееWidthaspose.imaging/rectanglef/width или жеHeightaspose.imaging/rectanglef/height свойство этогоRectangleFaspose.imaging/rectanglef имеет нулевое значение.
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging/rectanglef/isempty/
 ---
 ## RectangleF.IsEmpty property
 
-Получает значение, указывающее, является ли[`Width`](../width)или[`Height`](../height)свойство этого[`RectangleF`](../../rectanglef)имеет нулевое значение.
+Получает значение, указывающее,[`Width`](../width) или же[`Height`](../height) свойство этого[`RectangleF`](../../rectanglef) имеет нулевое значение.
 
 ```csharp
 public bool IsEmpty { get; }
@@ -16,7 +16,7 @@ public bool IsEmpty { get; }
 
 ### Возвращаемое значение
 
-Это свойство возвращает значение true, если[`Width`](../width)или[`Height`](../height)свойство этого[`RectangleF`](../../rectanglef)имеет нулевое значение; в противном случае ложно.
+Это свойство возвращает значение true, если[`Width`](../width) или же[`Height`](../height) свойство этого[`RectangleF`](../../rectanglef) имеет нулевое значение; в противном случае ложно.
 
 ### Смотрите также
 

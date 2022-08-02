@@ -46,7 +46,7 @@ public void Process(Rectangle rectangle, byte[] data, Point start, Point end,
 | data | Byte[] | 原始数据。 |
 | start | Point | 起始数据点。如果不等于 (left,top) 意味着它不是我们拥有的完整矩形。 |
 | end | Point | 结束数据点。如果不等于 (right,bottom) 意味着它不是我们拥有的完整矩形。 |
-| loadOptions | LoadOptions | 加载选项。 |
+| loadOptions | LoadOptions | 负载选项。 |
 
 ### 也可以看看
 

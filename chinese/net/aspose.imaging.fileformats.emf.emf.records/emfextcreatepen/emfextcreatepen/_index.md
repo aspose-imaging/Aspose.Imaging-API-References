@@ -1,14 +1,14 @@
 ---
 title: EmfExtCreatePen
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfExtCreatePenaspose.imaging.fileformats.emf.emf.records/emfextcreatepen类的新实例
+description: 初始化EmfExtCreatePenaspose.imaging.fileformats.emf.emf.records/emfextcreatepen类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/emfextcreatepen/
 ---
 ## EmfExtCreatePen(EmfRecord) {#constructor_1}
 
-初始化[`EmfExtCreatePen`](../../emfextcreatepen)类的新实例。
+初始化[`EmfExtCreatePen`](../../emfextcreatepen)类.
 
 ```csharp
 public EmfExtCreatePen(EmfRecord record)
@@ -29,7 +29,7 @@ public EmfExtCreatePen(EmfRecord record)
 
 ## EmfExtCreatePen() {#constructor}
 
-初始化[`EmfExtCreatePen`](../../emfextcreatepen)类的新实例。
+初始化[`EmfExtCreatePen`](../../emfextcreatepen)类.
 
 ```csharp
 public EmfExtCreatePen()

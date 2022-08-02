@@ -1,14 +1,14 @@
 ---
 title: Checksum
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数用于指定此记录的校验和
+description: 获取或设置一个 32 位无符号整数指定此记录的校验和
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcommentwindowsmetafile/checksum/
 ---
 ## EmfCommentWindowsMetaFile.Checksum property
 
-获取或设置一个 32 位无符号整数，用于指定此记录的校验和。
+获取或设置一个 32 位无符号整数，指定此记录的校验和。
 
 ```csharp
 public int Checksum { get; set; }

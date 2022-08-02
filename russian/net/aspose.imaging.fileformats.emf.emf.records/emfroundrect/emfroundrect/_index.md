@@ -1,14 +1,14 @@
 ---
 title: EmfRoundRect
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfRoundRectaspose.imaging.fileformats.emf.emf.records/emfroundrect.
+description: Инициализирует новый экземплярEmfRoundRectaspose.imaging.fileformats.emf.emf.records/emfroundrect класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfroundrect/emfroundrect/
 ---
 ## EmfRoundRect(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfRoundRect`](../../emfroundrect).
+Инициализирует новый экземпляр[`EmfRoundRect`](../../emfroundrect) класс.
 
 ```csharp
 public EmfRoundRect(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfRoundRect(EmfRecord source)
 
 ## EmfRoundRect() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfRoundRect`](../../emfroundrect).
+Инициализирует новый экземпляр[`EmfRoundRect`](../../emfroundrect) класс.
 
 ```csharp
 public EmfRoundRect()

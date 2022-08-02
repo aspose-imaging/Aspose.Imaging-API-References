@@ -1,14 +1,14 @@
 ---
 title: GPSDestDistanceRef
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置用于表示到目标点距离的 GPS 单位
+description: 获取或设置用于表示到目的地点距离的 GPS 单位
 type: docs
 weight: 430
 url: /zh/net/aspose.imaging.exif/exifdata/gpsdestdistanceref/
 ---
 ## ExifData.GPSDestDistanceRef property
 
-获取或设置用于表示到目标点距离的 GPS 单位。
+获取或设置用于表示到目的地点距离的 GPS 单位。
 
 ```csharp
 public string GPSDestDistanceRef { get; set; }
@@ -16,7 +16,7 @@ public string GPSDestDistanceRef { get; set; }
 
 ### 适当的价值
 
-GPS 单位，用于表示到目的地的距离。
+用于表示到目的地点距离的 GPS 单位。
 
 ### 也可以看看
 

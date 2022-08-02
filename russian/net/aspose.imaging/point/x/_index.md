@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает координату x этогоPointaspose.imaging/point.
+description: Получает или задает координату x этогоPointaspose.imaging/point .
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging/point/x/
 ---
 ## Point.X property
 
-Получает или задает координату x этого[`Point`](../../point).
+Получает или задает координату x этого[`Point`](../../point) .
 
 ```csharp
 public int X { get; set; }

@@ -18,8 +18,8 @@ public class LzwCompressorException : CompressorException
 
 | Имя | Описание |
 | --- | --- |
-| [LzwCompressorException](lzwcompressorexception#constructor)(string) | Инициализирует новый экземпляр класса[`LzwCompressorException`](../lzwcompressorexception). |
-| [LzwCompressorException](lzwcompressorexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр класса[`LzwCompressorException`](../lzwcompressorexception). |
+| [LzwCompressorException](lzwcompressorexception#constructor)(string) | Инициализирует новый экземпляр[`LzwCompressorException`](../lzwcompressorexception) класс. |
+| [LzwCompressorException](lzwcompressorexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр[`LzwCompressorException`](../lzwcompressorexception) класс. |
 
 ### Смотрите также
 

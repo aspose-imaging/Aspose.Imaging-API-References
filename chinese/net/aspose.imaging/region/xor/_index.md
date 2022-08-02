@@ -1,14 +1,14 @@
 ---
 title: Xor
 second_title: Aspose.Imaging for .NET API 参考
-description: 将此Regionaspose.imaging/region更新为联合减去其自身与指定T的交集Aspose.Imaging.RectangleF结构
+description: 更新这个Regionaspose.imaging/region到并集减去自身与指定的交集RectangleFaspose.imaging/rectanglef结构.
 type: docs
 weight: 150
 url: /zh/net/aspose.imaging/region/xor/
 ---
 ## Xor(RectangleF) {#xor_2}
 
-将此[`Region`](../../region)更新为联合减去其自身与指定T的交集:Aspose.Imaging.RectangleF结构。
+更新这个[`Region`](../../region)到并集减去自身与指定的交集[`RectangleF`](../../rectanglef)结构.
 
 ```csharp
 public void Xor(RectangleF rect)
@@ -16,7 +16,7 @@ public void Xor(RectangleF rect)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | RectangleF | [`RectangleF`](../../rectanglef)结构与此:::R5 异或:T:Aspose.Imaging.Region:::。 |
+| rect | RectangleF | 这[`RectangleF`](../../rectanglef)与此异或的结构[`Region`](../../region). |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public void Xor(RectangleF rect)
 
 ## Xor(Rectangle) {#xor_1}
 
-将此[`Region`](../../region)更新为联合减去其自身与指定T的交集:Aspose.Imaging.Rectangle结构。
+更新这个[`Region`](../../region)到并集减去自身与指定的交集[`Rectangle`](../../rectangle)结构.
 
 ```csharp
 public void Xor(Rectangle rect)
@@ -37,7 +37,7 @@ public void Xor(Rectangle rect)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | Rectangle | [`Rectangle`](../../rectangle)结构与此:::R5 异或:T:Aspose.Imaging.Region:::。 |
+| rect | Rectangle | 这[`Rectangle`](../../rectangle)与此异或的结构[`Region`](../../region). |
 
 ### 也可以看看
 
@@ -50,7 +50,7 @@ public void Xor(Rectangle rect)
 
 ## Xor(GraphicsPath) {#xor}
 
-将此[`Region`](../../region)更新为联合减去其自身与指定T的交集:Aspose.Imaging.GraphicsPath。
+更新这个[`Region`](../../region)到并集减去自身与指定的交集[`GraphicsPath`](../../graphicspath) .
 
 ```csharp
 public void Xor(GraphicsPath path)
@@ -58,7 +58,7 @@ public void Xor(GraphicsPath path)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| path | GraphicsPath | [`GraphicsPath`](../../graphicspath)与这个:::R5 异或:T:Aspose.Imaging.Region:::。 |
+| path | GraphicsPath | 这[`GraphicsPath`](../../graphicspath)与此异或[`Region`](../../region). |
 
 ### 例外
 
@@ -77,7 +77,7 @@ public void Xor(GraphicsPath path)
 
 ## Xor(Region) {#xor_3}
 
-将此[`Region`](../../region)更新为联合减去其自身与指定T的交集:Aspose.Imaging.Region。
+更新这个[`Region`](../../region)到并集减去自身与指定的交集[`Region`](../../region) .
 
 ```csharp
 public void Xor(Region region)
@@ -85,7 +85,7 @@ public void Xor(Region region)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| region | Region | [`Region`](../../region)与此:::R5 异或:T:Aspose.Imaging.Region:::。 |
+| region | Region | 这[`Region`](../../region)与此异或[`Region`](../../region). |
 
 ### 例外
 

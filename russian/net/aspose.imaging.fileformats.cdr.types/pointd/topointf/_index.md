@@ -1,14 +1,14 @@
 ---
 title: ToPointF
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПреобразуетPointFaspose.imaging/pointfвPointDaspose.imaging.fileformats.cdr.types/pointdструктура.
+description: ПреобразуетPointFaspose.imaging/pointf кPointDaspose.imaging.fileformats.cdr.types/pointd структура.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.cdr.types/pointd/topointf/
 ---
 ## PointD.ToPointF method
 
-Преобразует[`PointF`](../../../aspose.imaging/pointf)в[`PointD`](../../pointd)структура.
+Преобразует[`PointF`](../../../aspose.imaging/pointf) к[`PointD`](../../pointd) структура.
 
 ```csharp
 public PointF ToPointF()
@@ -16,7 +16,7 @@ public PointF ToPointF()
 
 ### Возвращаемое значение
 
-[`PointF`](../../../aspose.imaging/pointf)структура
+[`PointF`](../../../aspose.imaging/pointf) структура
 
 ### Смотрите также
 

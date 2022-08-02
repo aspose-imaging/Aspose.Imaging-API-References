@@ -1,14 +1,14 @@
 ---
 title: OdEllipticalQundrant
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化OdEllipticalQundrantaspose.imaging.fileformats.opendocument.objects.graphic/odellipticalqundrant类的新实例
+description: 初始化OdEllipticalQundrantaspose.imaging.fileformats.opendocument.objects.graphic/odellipticalqundrant类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odellipticalqundrant/odellipticalqundrant/
 ---
 ## OdEllipticalQundrant constructor
 
-初始化[`OdEllipticalQundrant`](../../odellipticalqundrant)类的新实例。
+初始化[`OdEllipticalQundrant`](../../odellipticalqundrant)类.
 
 ```csharp
 public OdEllipticalQundrant(OdObject parent)
@@ -16,7 +16,7 @@ public OdEllipticalQundrant(OdObject parent)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | OdObject | 父级。 |
+| parent | OdObject | 家长。 |
 
 ### 也可以看看
 

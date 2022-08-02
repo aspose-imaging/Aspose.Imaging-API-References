@@ -1,14 +1,14 @@
 ---
 title: EmfOffsetClipRgn
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfOffsetClipRgnaspose.imaging.fileformats.emf.emf.records/emfoffsetcliprgn.
+description: Инициализирует новый экземплярEmfOffsetClipRgnaspose.imaging.fileformats.emf.emf.records/emfoffsetcliprgn класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfoffsetcliprgn/emfoffsetcliprgn/
 ---
 ## EmfOffsetClipRgn(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfOffsetClipRgn`](../../emfoffsetcliprgn).
+Инициализирует новый экземпляр[`EmfOffsetClipRgn`](../../emfoffsetcliprgn) класс.
 
 ```csharp
 public EmfOffsetClipRgn(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfOffsetClipRgn(EmfRecord source)
 
 ## EmfOffsetClipRgn() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfOffsetClipRgn`](../../emfoffsetcliprgn).
+Инициализирует новый экземпляр[`EmfOffsetClipRgn`](../../emfoffsetcliprgn) класс.
 
 ```csharp
 public EmfOffsetClipRgn()

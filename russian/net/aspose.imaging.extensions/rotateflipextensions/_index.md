@@ -1,14 +1,14 @@
 ---
 title: RotateFlipExtensions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Содержит методы расширения для преобразованияRotateFlipTypeиRotateFlipType../aspose.imaging/rotatefliptypeзанятия.
+description: Содержит методы расширения для преобразованияRotateFlipType иRotateFlipType../aspose.imaging/rotatefliptype классы.
 type: docs
 weight: 1270
 url: /ru/net/aspose.imaging.extensions/rotateflipextensions/
 ---
 ## RotateFlipExtensions class
 
-Содержит методы расширения для преобразованияRotateFlipTypeи[`RotateFlipType`](../../aspose.imaging/rotatefliptype)занятия.
+Содержит методы расширения для преобразованияRotateFlipType и[`RotateFlipType`](../../aspose.imaging/rotatefliptype) классы.
 
 ```csharp
 public static class RotateFlipExtensions

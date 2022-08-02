@@ -1,14 +1,14 @@
 ---
 title: RgnData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 RgnDataSize 长度字节数组该数组指定一个 RegionData 对象以逻辑单位表示
+description: 获取或设置一个 RgnDataSize 长度的字节数组它指定一个 RegionData 对象以逻辑单位为单位
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfinvertrgn/rgndata/
 ---
 ## EmfInvertRgn.RgnData property
 
-获取或设置一个 RgnDataSize 长度字节数组，该数组指定一个 RegionData 对象，以逻辑单位表示。
+获取或设置一个 RgnDataSize 长度的字节数组，它指定一个 RegionData 对象，以逻辑单位为单位。
 
 ```csharp
 public byte[] RgnData { get; set; }

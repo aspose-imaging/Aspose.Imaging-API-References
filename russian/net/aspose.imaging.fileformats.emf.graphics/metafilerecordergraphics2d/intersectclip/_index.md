@@ -1,14 +1,14 @@
 ---
 title: IntersectClip
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Обновляет область отсечения этого объекта Graphics до пересечения текущей области отсечения и указанной структуры Rectangle.
+description: Обновляет область отсечения этой графики до пересечения текущей области отсечения и указанной структуры Rectangle.
 type: docs
 weight: 240
 url: /ru/net/aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/intersectclip/
 ---
 ## IntersectClip(RectangleF) {#intersectclip}
 
-Обновляет область отсечения этого объекта Graphics до пересечения текущей области отсечения и указанной структуры Rectangle.
+Обновляет область отсечения этой графики до пересечения текущей области отсечения и указанной структуры Rectangle.
 
 ```csharp
 public void IntersectClip(RectangleF rect)
@@ -37,7 +37,7 @@ public void IntersectClip(Region region)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| region | Region | Область для пересечения с текущей областью. |
+| region | Region | Регион для пересечения с текущим регионом. |
 
 ### Смотрите также
 

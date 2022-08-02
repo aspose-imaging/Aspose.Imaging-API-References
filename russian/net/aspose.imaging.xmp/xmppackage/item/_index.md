@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задаетObjectс указанным ключом.
+description: Получает или задаетObject с указанным ключом.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp/xmppackage/item/
 ---
 ## XmpPackage indexer
 
-Получает или задаетObjectс указанным ключом.
+Получает или задаетObject с указанным ключом.
 
 ```csharp
 public virtual object this[string key] { get; set; }
@@ -20,11 +20,11 @@ public virtual object this[string key] { get; set; }
 
 ### Возвращаемое значение
 
-ВозвращаетObjectс указанным ключом.
+ВозвращаетObject с указанным ключом.
 
 ### Стоимость имущества
 
-ОбъектObject.
+Object .
 
 ### Смотрите также
 

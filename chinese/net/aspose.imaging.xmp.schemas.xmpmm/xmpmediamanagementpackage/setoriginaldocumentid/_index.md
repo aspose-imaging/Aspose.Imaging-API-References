@@ -1,14 +1,14 @@
 ---
 title: SetOriginalDocumentId
 second_title: Aspose.Imaging for .NET API 参考
-description: 设置原始文档ID
+description: 设置原始文档id
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/setoriginaldocumentid/
 ---
 ## SetOriginalDocumentId(Guid) {#setoriginaldocumentid}
 
-设置原始文档ID。
+设置原始文档id。
 
 ```csharp
 public void SetOriginalDocumentId(Guid guid)
@@ -28,7 +28,7 @@ public void SetOriginalDocumentId(Guid guid)
 
 ## SetOriginalDocumentId(string) {#setoriginaldocumentid_1}
 
-设置原始文档ID。
+设置原始文档id。
 
 ```csharp
 public void SetOriginalDocumentId(string guid)

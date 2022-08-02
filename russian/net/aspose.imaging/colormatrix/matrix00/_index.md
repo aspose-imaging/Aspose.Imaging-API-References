@@ -1,14 +1,14 @@
 ---
 title: Matrix00
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает элемент в 0 нулевой строке и 0 столбце этогоColorMatrixaspose.imaging/colormatrix.
+description: Получает или устанавливает элемент в 0 нулевой строке и 0 столбце этогоColorMatrixaspose.imaging/colormatrix .
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging/colormatrix/matrix00/
 ---
 ## ColorMatrix.Matrix00 property
 
-Получает или задает элемент в 0 (нулевой) строке и 0 столбце этого[`ColorMatrix`](../../colormatrix).
+Получает или устанавливает элемент в 0 (нулевой) строке и 0 столбце этого[`ColorMatrix`](../../colormatrix) .
 
 ```csharp
 public float Matrix00 { get; set; }

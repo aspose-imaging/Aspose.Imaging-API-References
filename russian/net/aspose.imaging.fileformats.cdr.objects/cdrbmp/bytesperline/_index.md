@@ -1,14 +1,14 @@
 ---
 title: BytesPerLine
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает количество байтов в строке.
+description: Получает или задает количество байтов на строку.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrbmp/bytesperline/
 ---
 ## CdrBmp.BytesPerLine property
 
-Получает или задает количество байтов в строке.
+Получает или задает количество байтов на строку.
 
 ```csharp
 public int BytesPerLine { get; set; }

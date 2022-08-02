@@ -1,14 +1,14 @@
 ---
 title: Mode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает режим.
+description: Получает или устанавливает режим.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.fileformats.cdr.types/cdrgradient/mode/
 ---
 ## CdrGradient.Mode property
 
-Получает или задает режим.
+Получает или устанавливает режим.
 
 ```csharp
 public int Mode { get; set; }

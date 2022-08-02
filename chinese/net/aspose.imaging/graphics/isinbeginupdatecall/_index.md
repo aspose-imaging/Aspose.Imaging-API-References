@@ -1,14 +1,14 @@
 ---
 title: IsInBeginUpdateCall
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取图形是否处于 BeginUpdate 调用状态的值
+description: 获取一个值该值指示图形是否处于 BeginUpdate 调用状态
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging/graphics/isinbeginupdatecall/
 ---
 ## Graphics.IsInBeginUpdateCall property
 
-获取图形是否处于 BeginUpdate 调用状态的值。
+获取一个值，该值指示图形是否处于 BeginUpdate 调用状态。
 
 ```csharp
 public bool IsInBeginUpdateCall { get; }
@@ -16,7 +16,7 @@ public bool IsInBeginUpdateCall { get; }
 
 ### 适当的价值
 
-` True` 如果图形处于 BeginUpdate 调用状态；否则，` false` 。
+`真的`如果图形处于 BeginUpdate 调用状态；否则，`错误的` .
 
 ### 也可以看看
 

@@ -16,8 +16,8 @@ public void Multiply(Matrix Tx, MatrixOrder order)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| Tx | Matrix | Тег. TX. TX. |
-| order | MatrixOrder | Заказ. Приказ. Приказ. |
+| Tx | Matrix | TX. TX. TX. |
+| order | MatrixOrder | Приказ. Приказ. Приказ. |
 
 ### Смотрите также
 
@@ -30,7 +30,7 @@ public void Multiply(Matrix Tx, MatrixOrder order)
 
 ## Multiply(Matrix) {#multiply}
 
-Умножает эту матрицу на матрицу, указанную в параметре матрицы, используя (по умолчанию) порядок добавления.
+Умножает эту матрицу на матрицу, указанную в параметре matrix, используя (по умолчанию) Prepend order.
 
 ```csharp
 public void Multiply(Matrix Tx)

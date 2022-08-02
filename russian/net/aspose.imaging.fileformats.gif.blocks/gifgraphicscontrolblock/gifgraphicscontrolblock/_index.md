@@ -1,14 +1,14 @@
 ---
 title: GifGraphicsControlBlock
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаGifGraphicsControlBlockaspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock.
+description: Инициализирует новый экземплярGifGraphicsControlBlockaspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/gifgraphicscontrolblock/
 ---
 ## GifGraphicsControlBlock() {#constructor}
 
-Инициализирует новый экземпляр класса[`GifGraphicsControlBlock`](../../gifgraphicscontrolblock).
+Инициализирует новый экземпляр[`GifGraphicsControlBlock`](../../gifgraphicscontrolblock) класс.
 
 ```csharp
 public GifGraphicsControlBlock()
@@ -24,7 +24,7 @@ public GifGraphicsControlBlock()
 
 ## GifGraphicsControlBlock(byte, ushort, byte) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`GifGraphicsControlBlock`](../../gifgraphicscontrolblock).
+Инициализирует новый экземпляр[`GifGraphicsControlBlock`](../../gifgraphicscontrolblock) класс.
 
 ```csharp
 public GifGraphicsControlBlock(byte flags, ushort delayTime, byte transparentColorIndex)
@@ -46,7 +46,7 @@ public GifGraphicsControlBlock(byte flags, ushort delayTime, byte transparentCol
 
 ## GifGraphicsControlBlock(ushort, bool, byte, bool, DisposalMethod) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`GifGraphicsControlBlock`](../../gifgraphicscontrolblock).
+Инициализирует новый экземпляр[`GifGraphicsControlBlock`](../../gifgraphicscontrolblock) класс.
 
 ```csharp
 public GifGraphicsControlBlock(ushort delayTime, bool hasTransparentColor, 
@@ -56,9 +56,9 @@ public GifGraphicsControlBlock(ushort delayTime, bool hasTransparentColor,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | delayTime | UInt16 | Время задержки, выраженное в 1/100 секунды. |
-| hasTransparentColor | Boolean | , если установлено значение` true`*transparentColorIndex*действителен . |
+| hasTransparentColor | Boolean | если установлено`истинный` в*transparentColorIndex* является действительным. |
 | transparentColorIndex | Byte | Индекс прозрачного цвета. |
-| requiresUserInput | Boolean | если установлено значение` true` ожидается ввод данных пользователем. |
+| requiresUserInput | Boolean | если установлено`истинный` ожидается пользовательский ввод. |
 | disposalMethod | DisposalMethod | Метод утилизации. |
 
 ### Смотрите также

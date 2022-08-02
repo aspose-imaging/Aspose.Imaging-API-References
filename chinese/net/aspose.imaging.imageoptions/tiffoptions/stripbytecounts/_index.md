@@ -16,7 +16,7 @@ public uint[] StripByteCounts { get; set; }
 
 ### 适当的价值
 
-条带字节计数。
+条带字节数。
 
 ### 也可以看看
 

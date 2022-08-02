@@ -16,7 +16,7 @@ public ushort SensitivityType { get; set; }
 
 ### 适当的价值
 
-灵敏度类型。
+灵敏度的类型。
 
 ### 也可以看看
 

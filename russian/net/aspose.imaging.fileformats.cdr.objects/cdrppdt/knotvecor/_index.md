@@ -1,14 +1,14 @@
 ---
 title: KnotVecor
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает векторы узла.
+description: Получает или задает векторы узлов.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrppdt/knotvecor/
 ---
 ## CdrPpdt.KnotVecor property
 
-Получает или задает векторы узла.
+Получает или задает векторы узлов.
 
 ```csharp
 public int[] KnotVecor { get; set; }
@@ -16,7 +16,7 @@ public int[] KnotVecor { get; set; }
 
 ### Стоимость имущества
 
-Узел векторов.
+Векторы узлов.
 
 ### Смотрите также
 

@@ -24,7 +24,7 @@ public sealed class EmfRegionDataHeader : EmfObject
 
 | Имя | Описание |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF ([MS-WMF], раздел 2.2.2.19), который определяет границы область, край. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF ([MS-WMF], раздел 2.2.2.19), который определяет границы области. |
 | [CountRects](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/countrects) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее количество прямоугольников в этой области. |
 | [RgnSize](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/rgnsize) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер буфера прямоугольников в байтах. |
 | [Size](../../aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер этого объекта в байтах. Это ДОЛЖНО быть 0x00000020. |

@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置定义 height以像素为单位
+description: 获取或设置一个 16 位无符号整数它定义了 height DIB 的以像素 为单位
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfbitmapcoreheader/height/
 ---
 ## WmfBitmapCoreHeader.Height property
 
-获取或设置定义 height，以像素为单位
+获取或设置一个 16 位无符号整数，它定义了 height DIB 的，以像素 为单位
 
 ```csharp
 public short Height { get; set; }

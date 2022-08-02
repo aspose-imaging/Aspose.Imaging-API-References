@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Aspose.Imaging for .NET API 参考
-description: 从IList中删除所有项目
+description: 从IList .
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging/nongenericlist/clear/
 ---
 ## NonGenericList.Clear method
 
-从IList中删除所有项目。
+从IList .
 
 ```csharp
 public void Clear()

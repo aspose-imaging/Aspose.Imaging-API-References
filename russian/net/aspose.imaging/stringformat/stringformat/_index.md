@@ -1,14 +1,14 @@
 ---
 title: StringFormat
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый объектStringFormataspose.imaging/stringformat.
+description: Инициализирует новыйStringFormataspose.imaging/stringformat объект.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging/stringformat/stringformat/
 ---
 ## StringFormat() {#constructor}
 
-Инициализирует новый объект[`StringFormat`](../../stringformat).
+Инициализирует новый[`StringFormat`](../../stringformat) объект.
 
 ```csharp
 public StringFormat()
@@ -24,7 +24,7 @@ public StringFormat()
 
 ## StringFormat(StringFormatFlags) {#constructor_2}
 
-Инициализирует новый[`StringFormat`](../../stringformat)объект с указанным[`StringFormatFlags`](../../stringformatflags)перечисление и язык.
+Инициализирует новый[`StringFormat`](../../stringformat) объект с указанным[`StringFormatFlags`](../../stringformatflags) перечисление и язык.
 
 ```csharp
 public StringFormat(StringFormatFlags options)
@@ -32,7 +32,7 @@ public StringFormat(StringFormatFlags options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | StringFormatFlags | Перечисление[`StringFormatFlags`](../../stringformatflags)для нового[`StringFormat`](../../stringformat)объект. |
+| options | StringFormatFlags | [`StringFormatFlags`](../../stringformatflags) перечисление для нового[`StringFormat`](../../stringformat) объект. |
 
 ### Смотрите также
 
@@ -45,7 +45,7 @@ public StringFormat(StringFormatFlags options)
 
 ## StringFormat(StringFormat) {#constructor_1}
 
-Инициализирует новый[`StringFormat`](../../stringformat)объект из указанного существующего[`StringFormat`](../../stringformat)объект.
+Инициализирует новый[`StringFormat`](../../stringformat) объект из указанного существующего[`StringFormat`](../../stringformat) объект.
 
 ```csharp
 public StringFormat(StringFormat format)
@@ -53,13 +53,13 @@ public StringFormat(StringFormat format)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| format | StringFormat | Объект[`StringFormat`](../../stringformat), из которого инициализируется новый[`StringFormat`](../../stringformat)объект. |
+| format | StringFormat | [`StringFormat`](../../stringformat) объект, из которого инициализируется новый[`StringFormat`](../../stringformat) объект. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *format*равно null. |
+| ArgumentNullException | *format* нулевой. |
 
 ### Смотрите также
 

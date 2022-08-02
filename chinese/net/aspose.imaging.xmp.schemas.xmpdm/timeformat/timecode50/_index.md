@@ -1,14 +1,14 @@
 ---
 title: Timecode50
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取时间码50
+description: 获取时间码50.
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/timeformat/timecode50/
 ---
 ## TimeFormat.Timecode50 property
 
-获取时间码50。
+获取时间码50.
 
 ```csharp
 public static TimeFormat Timecode50 { get; }
@@ -16,7 +16,7 @@ public static TimeFormat Timecode50 { get; }
 
 ### 适当的价值
 
-时间码50。
+时间码50.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: OdCustomShape
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdCustomShapeaspose.imaging.fileformats.opendocument.objects.graphic/odcustomshape.
+description: Инициализирует новый экземплярOdCustomShapeaspose.imaging.fileformats.opendocument.objects.graphic/odcustomshape класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odcustomshape/odcustomshape/
 ---
 ## OdCustomShape constructor
 
-Инициализирует новый экземпляр класса[`OdCustomShape`](../../odcustomshape).
+Инициализирует новый экземпляр[`OdCustomShape`](../../odcustomshape) класс.
 
 ```csharp
 public OdCustomShape(OdObject parent)

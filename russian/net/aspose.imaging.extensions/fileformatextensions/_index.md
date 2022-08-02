@@ -1,14 +1,14 @@
 ---
 title: FileFormatExtensions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: СодержитFileFormat../aspose.imaging/fileformatметоды расширения.
+description: СодержитFileFormat../aspose.imaging/fileformat методы расширения.
 type: docs
 weight: 1170
 url: /ru/net/aspose.imaging.extensions/fileformatextensions/
 ---
 ## FileFormatExtensions class
 
-Содержит[`FileFormat`](../../aspose.imaging/fileformat)методы расширения.
+Содержит[`FileFormat`](../../aspose.imaging/fileformat) методы расширения.
 
 ```csharp
 public static class FileFormatExtensions

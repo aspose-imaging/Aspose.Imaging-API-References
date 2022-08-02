@@ -24,8 +24,8 @@ public class WmfPolygon : WmfObject
 
 | Имя | Описание |
 | --- | --- |
-| [APoints](../../aspose.imaging.fileformats.wmf.objects/wmfpolygon/apoints) { get; set; } | Получает или устанавливает точки. Массив NumberOfPoints 32-битных объектов PointS (раздел 2.2.2.16) в логических единицах. |
-| [NumberOfPoint](../../aspose.imaging.fileformats.wmf.objects/wmfpolygon/numberofpoint) { get; set; } | Получает или задает количество точек. 16-разрядное целое число со знаком, которое определяет количество точек в массиве. |
+| [APoints](../../aspose.imaging.fileformats.wmf.objects/wmfpolygon/apoints) { get; set; } | Получает или устанавливает точки. Массив NumberOfPoints из 32-битных объектов PointS (раздел 2.2.2.16) в логических единицах. |
+| [NumberOfPoint](../../aspose.imaging.fileformats.wmf.objects/wmfpolygon/numberofpoint) { get; set; } | Получает или задает количество точек. 16-битное целое число со знаком, которое определяет количество точек в массиве. |
 
 ### Смотрите также
 

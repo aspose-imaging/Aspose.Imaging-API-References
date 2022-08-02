@@ -1,14 +1,14 @@
 ---
 title: GreenMask
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает цветовую маску определяющую зеленый компонент каждого пикселя действительную только если для bV4Compression задано значение BI_BITFIELDS.
+description: Получает или задает цветовую маску определяющую зеленый компонент каждого пикселя допустимую только если для параметра bV4Compression задано значение BI_BITFIELDS.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging.fileformats.bmp/bitmapv4header/greenmask/
 ---
 ## BitmapV4Header.GreenMask property
 
-Получает или задает цветовую маску, определяющую зеленый компонент каждого пикселя, действительную, только если для bV4Compression задано значение BI_BITFIELDS.
+Получает или задает цветовую маску, определяющую зеленый компонент каждого пикселя, допустимую, только если для параметра bV4Compression задано значение BI_BITFIELDS.
 
 ```csharp
 public int GreenMask { get; set; }

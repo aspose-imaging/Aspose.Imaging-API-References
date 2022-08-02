@@ -1,14 +1,14 @@
 ---
 title: CacheData
 second_title: Aspose.Imaging for .NET API 参考
-description: 缓存数据并确保不会从底层 DataStreamSupporter执行额外的数据加载数据流容器
+description: 缓存数据并确保不会从底层执行额外的数据加载 DataStreamContaineraspose.imaging/datastreamsupporter/datastreamcontainer .
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.fileformats.wmf/wmfimage/cachedata/
 ---
 ## WmfImage.CacheData method
 
-缓存数据并确保不会从底层 DataStreamSupporter执行额外的数据加载。数据流容器。
+缓存数据并确保不会从底层执行额外的数据加载 [`DataStreamContainer`](../../../aspose.imaging/datastreamsupporter/datastreamcontainer) .
 
 ```csharp
 public override void CacheData()
@@ -29,19 +29,18 @@ public override void CacheData()
 
 string dir = "c:\\temp\\";
 
-    // 使用 Aspose.Imaging.Image.Load 是一种统一的方式来加载包括 WMF.
- 在内的所有类型的图像
+// 使用 Aspose.Imaging.Image.Load 是一种统一的方式来加载包括 WMF 在内的所有类型的图像。
 using (Aspose.Imaging.FileFormats.Wmf.WmfImage wmfImage = (Aspose.Imaging.FileFormats.Wmf.WmfImage)Aspose.Imaging.Image.Load(dir + "test.wmf"))
 {
     // 缓存数据以加载所有记录。
     wmfImage.CacheData();
     System.Console.WriteLine("The total number of records: {0}", wmfImage.Records.Count);
 
-        // 键是记录类型，值是WMF图像中该类型的记录数。
+    // 键是记录类型，值是WMF图像中该类型的记录数。
     System.Collections.Generic.Dictionary<System.Type, int> types =
         new System.Collections.Generic.Dictionary<System.Type, int>();
 
-        // 收集统计数据 
+    // 收集统计信息 
     foreach (Aspose.Imaging.FileFormats.Wmf.Objects.WmfObject obj in wmfImage.Records)
     {
         System.Type objType = obj.GetType();
@@ -55,7 +54,7 @@ using (Aspose.Imaging.FileFormats.Wmf.WmfImage wmfImage = (Aspose.Imaging.FileFo
         }
     }
 
-        // 打印统计信息
+    // 打印统计信息
     System.Console.WriteLine("Record Type                              Count");
     System.Console.WriteLine("----------------------------------------------");
     foreach (System.Collections.Generic.KeyValuePair<System.Type, int> entry in types)
@@ -66,25 +65,25 @@ using (Aspose.Imaging.FileFormats.Wmf.WmfImage wmfImage = (Aspose.Imaging.FileFo
     }
 }
 
-    //输出可能如下所示：
-    //总记录数：613
-    //记录类型Count
-    //----------------------------------------------------------x000d_
-    //WmfSetBkMode: 1
-    //WmfSetTextAlign: 1
-    //WmfSetRop2: 1
-    //WmfSetWindowOrg: 1
-    //WmfSetWindowExt: 1
-    //WmfCreateBrushInDirect: 119
-    //WmfSelectObject: 240
-    //WmfCreatePenInDirect: 119
-    //WmfSetPolyFillMode: 1
+//输出可能如下所示：
+//总记录数：613
+//记录类型计数
+//----------------------------------------------------------
+//WmfSetBkMode: 1
+//WmfSetTextAlign: 1
+//WmfSetRop2: 1
+//WmfSetWindowOrg: 1
+//WmfSetWindowExt: 1
+//WmfCreateBrushInDirect: 119
+//WmfSelectObject: 240
+//WmfCreatePenInDirect: 119
+//WmfSetPolyFillMode: 1
 //WmfPolyPolygon: 114
-    //WmfPolyLine: 7
-    //WmfSetTextColor: 2
-    //WmfCreateFontInDirect: 2
-    //WmfExtTextOut: 2
-    //WmfDibStrechBlt: 1
+//WmfPolyLine: 7
+//WmfSetTextColor: 2
+//WmfCreateFontInDirect: 2
+//WmfExtTextOut: 2
+//WmfDibStrechBlt: 1
 //WmfEof: 1
 ```
 

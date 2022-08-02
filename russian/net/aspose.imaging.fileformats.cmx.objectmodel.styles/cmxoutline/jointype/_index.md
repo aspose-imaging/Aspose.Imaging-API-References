@@ -1,14 +1,14 @@
 ---
 title: JoinType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает тип соединения строк.
+description: Получает или задает тип соединения линии.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/jointype/
 ---
 ## CmxOutline.JoinType property
 
-Получает или задает тип соединения строк.
+Получает или задает тип соединения линии.
 
 ```csharp
 public JoinTypes JoinType { get; set; }

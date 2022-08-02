@@ -18,16 +18,16 @@ url: /zh/net/aspose.imaging.exif.enums/
 | [ExifExposureMode](./exifexposuremode) | exif 曝光模式枚举。 |
 | [ExifExposureProgram](./exifexposureprogram) | exif 曝光程序枚举。 |
 | [ExifFileSource](./exiffilesource) | exif 文件源枚举。 |
-| [ExifFlash](./exifflash) | Flash 模式。 |
-| [ExifGainControl](./exifgaincontrol) | exif 获得控制枚举。 |
+| [ExifFlash](./exifflash) | 闪光模式。 |
+| [ExifGainControl](./exifgaincontrol) | exif 增益控制枚举。 |
 | [ExifGPSAltitudeRef](./exifgpsaltituderef) | exif gps 高度参考枚举。 |
 | [ExifLightSource](./exiflightsource) | exif 光源。 |
 | [ExifMeteringMode](./exifmeteringmode) | exif 计量模式枚举。 |
 | [ExifOrientation](./exiforientation) | Exif 图像方向。 |
-| [ExifSaturation](./exifsaturation) | exif 饱和枚举。 |
+| [ExifSaturation](./exifsaturation) | exif 饱和枚举. |
 | [ExifSceneCaptureType](./exifscenecapturetype) | exif 场景捕获类型枚举。 |
-| [ExifSensingMethod](./exifsensingmethod) | exif 感应方法枚举。 |
-| [ExifSubjectDistanceRange](./exifsubjectdistancerange) | exif 主题距离范围枚举。 |
+| [ExifSensingMethod](./exifsensingmethod) | exif 感应方式枚举. |
+| [ExifSubjectDistanceRange](./exifsubjectdistancerange) | exif 主体距离范围枚举。 |
 | [ExifUnit](./exifunit) | exif 单元枚举。 |
 | [ExifWhiteBalance](./exifwhitebalance) | exif 白平衡枚举。 |
 | [ExifYCbCrPositioning](./exifycbcrpositioning) | exif y cb cr 定位枚举。 |

@@ -20,7 +20,7 @@ public string OnImageResourceReady(byte[] imageData, SvgImageType imageType,
 | imageData | Byte[] | Данные ресурса. |
 | imageType | SvgImageType | Тип изображения. |
 | suggestedFileName | String | Имя предлагаемого файла. |
-| useEmbeddedImage | Boolean& | если установлено значение` true` , необходимо использовать встроенное изображение. |
+| useEmbeddedImage | Boolean& | если установлено`истинный` необходимо использовать встроенное изображение. |
 
 ### Возвращаемое значение
 

@@ -16,7 +16,7 @@ public override void ResizeCanvas(Rectangle newRectangle)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newRectangle | Rectangle | 新矩形。 |
+| newRectangle | Rectangle | 新的矩形。 |
 
 ### 也可以看看
 

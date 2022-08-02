@@ -1,14 +1,14 @@
 ---
 title: XDest
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает x место назначения.
+description: Получает или задает x dest.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfstretchdib/xdest/
 ---
 ## WmfStretchDib.XDest property
 
-Получает или задает x место назначения.
+Получает или задает x dest.
 
 ```csharp
 public short XDest { get; set; }
@@ -16,7 +16,7 @@ public short XDest { get; set; }
 
 ### Стоимость имущества
 
-Координата x, в логических единицах, верхнего левого угла прямоугольник назначения.
+Координата x в логических единицах левого верхнего угла прямоугольника назначения .
 
 ### Смотрите также
 

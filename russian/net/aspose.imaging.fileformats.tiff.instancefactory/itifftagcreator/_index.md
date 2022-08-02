@@ -1,14 +1,14 @@
 ---
 title: ITiffTagCreator
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Создатель тегов tiff.
+description: Создатель тега TIFF.
 type: docs
 weight: 7810
 url: /ru/net/aspose.imaging.fileformats.tiff.instancefactory/itifftagcreator/
 ---
 ## ITiffTagCreator interface
 
-Создатель тегов tiff.
+Создатель тега TIFF.
 
 ```csharp
 public interface ITiffTagCreator

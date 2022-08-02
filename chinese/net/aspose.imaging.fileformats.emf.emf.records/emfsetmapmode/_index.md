@@ -1,14 +1,14 @@
 ---
 title: EmfSetMapMode
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_SETMAPMODE 记录指定播放设备上下文的映射模式 映射模式指定了用于将页面空间单位 转换为设备空间单位的度量单位并且还指定了设备的 x 轴和 y 轴的方向
+description: EMR_SETMAPMODE 记录指定播放设备上下文的映射模式 映射模式指定了用于将页面空间单元 转换为设备空间单元的度量单位同时也指定了设备的x轴和y轴的方向
 type: docs
 weight: 4400
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetmapmode/
 ---
 ## EmfSetMapMode class
 
-EMR_SETMAPMODE 记录指定播放设备上下文的映射模式。 映射模式指定了用于将页面空间单位 转换为设备空间单位的度量单位，并且还指定了设备的 x 轴和 y 轴的方向。
+EMR_SETMAPMODE 记录指定播放设备上下文的映射模式。 映射模式指定了用于将页面空间单元 转换为设备空间单元的度量单位，同时也指定了设备的x轴和y轴的方向。
 
 ```csharp
 public sealed class EmfSetMapMode : EmfRecord
@@ -18,8 +18,8 @@ public sealed class EmfSetMapMode : EmfRecord
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSetMapMode](emfsetmapmode#constructor)() | 初始化[`EmfSetMapMode`](../emfsetmapmode)类的新实例。 |
-| [EmfSetMapMode](emfsetmapmode#constructor_1)(EmfRecord) | 初始化[`EmfSetMapMode`](../emfsetmapmode)类的新实例。 |
+| [EmfSetMapMode](emfsetmapmode#constructor)() | 初始化[`EmfSetMapMode`](../emfsetmapmode)类. |
+| [EmfSetMapMode](emfsetmapmode#constructor_1)(EmfRecord) | 初始化[`EmfSetMapMode`](../emfsetmapmode)类. |
 
 ## 特性
 

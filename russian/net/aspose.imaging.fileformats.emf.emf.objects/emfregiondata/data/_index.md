@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив объектов WMF RectL MS-WMF раздел 2.2.2.19 объекты объединены для создания региона
+description: Получает или задает массив объектов WMF RectL MS-WMF раздел 2.2.2.19 объекты объединены для создания region
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfregiondata/data/
 ---
 ## EmfRegionData.Data property
 
-Получает или задает массив объектов WMF RectL ([MS-WMF], раздел 2.2.2.19); объекты объединены для создания региона
+Получает или задает массив объектов WMF RectL ([MS-WMF], раздел 2.2.2.19); объекты объединены для создания region
 
 ```csharp
 public Rectangle[] Data { get; set; }

@@ -16,7 +16,7 @@ public static Color[] ToArgb(int[] cmykPixels)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cmykPixels | Int32[] | CMYK 颜色呈现为 32 位整数值。 |
+| cmykPixels | Int32[] | CMYK 颜色显示为 32 位整数值。 |
 
 ### 返回值
 
@@ -41,7 +41,7 @@ public static Color ToArgb(int cmykPixel)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cmykPixel | Int32 | CMYK 颜色以 32 位整数值表示。 |
+| cmykPixel | Int32 | CMYK 颜色显示为 32 位整数值。 |
 
 ### 返回值
 
@@ -49,17 +49,17 @@ ARGB 颜色。
 
 ### 例子
 
-以下示例展示了如何在不使用 ICC 配置文件的情况下按照简单的公式快速将 CMYK 颜色转换为对应的 RGB 颜色。
+以下示例显示了如何在不使用 ICC 配置文件的情况下按照简单的公式快速将 CMYK 颜色转换为对应的 RGB 颜色。
 
 ```csharp
 [C#]
 
 int[] cmykColors = new int[]
 {
-    Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0),       // 青色
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0),       // 洋红色
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0),       // 黄色
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255),       // 黑色
+    Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0),   // 青色
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0),   // 洋红色
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0),   // 黄色
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255),   // 黑色的
 };
 
 System.Console.WriteLine("Convert CMYK to RGB without using ICC profiles.");
@@ -74,11 +74,11 @@ foreach (int cmykColor in cmykColors)
     System.Console.WriteLine("CMYK({0},{1},{2},{3})\t\t=> RGB({4},{5},{6})", c, m, y, k, rgbColor.R, rgbColor.G, rgbColor.B);
 }
 
-    //输出看起来像这样：
-    //在不使用ICC配置文件的情况下将CMYK转换为RGB。
-    //CMYK(255,0,0,0) => RGB(0,255,255)
-    //CMYK(0,255,0,0) => RGB(255,0,255)
-    //CMYK(0,0,255,0) => RGB(255,255,0)
+//输出看起来像这样：
+//在不使用ICC配置文件的情况下将CMYK转换为RGB。
+//CMYK(255,0,0,0) => RGB(0,255,255)
+//CMYK(0,255,0,0) => RGB(255,0,255)
+//CMYK(0,0,255,0) => RGB(255,255,0)
 //CMYK(0,0,0,255) => RGB(0,0,0)
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: StringFormatExtensions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Содержит методы расширения для классаStringFormat../aspose.imaging/stringformat.
+description: Содержит методы расширения дляStringFormat../aspose.imaging/stringformat класс.
 type: docs
 weight: 1280
 url: /ru/net/aspose.imaging.extensions/stringformatextensions/
 ---
 ## StringFormatExtensions class
 
-Содержит методы расширения для класса[`StringFormat`](../../aspose.imaging/stringformat).
+Содержит методы расширения для[`StringFormat`](../../aspose.imaging/stringformat) класс.
 
 ```csharp
 public static class StringFormatExtensions
@@ -18,7 +18,7 @@ public static class StringFormatExtensions
 
 | Имя | Описание |
 | --- | --- |
-| static [ToGdiStringFormat](../../aspose.imaging.extensions/stringformatextensions/togdistringformat)(StringFormat) | Преобразует[`StringFormat`](../../aspose.imaging/stringformat)вStringFormat. |
+| static [ToGdiStringFormat](../../aspose.imaging.extensions/stringformatextensions/togdistringformat)(StringFormat) | Преобразует[`StringFormat`](../../aspose.imaging/stringformat) кStringFormat . |
 
 ### Смотрите также
 

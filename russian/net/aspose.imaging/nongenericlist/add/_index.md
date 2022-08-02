@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Добавляет элемент вIList.
+description: Добавляет элемент вIList .
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging/nongenericlist/add/
 ---
 ## NonGenericList.Add method
 
-Добавляет элемент вIList.
+Добавляет элемент вIList .
 
 ```csharp
 public int Add(object value)
@@ -16,7 +16,7 @@ public int Add(object value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | Object | ОбъектObjectдля добавления кIList. |
+| value | Object | Object добавить кIList. |
 
 ### Возвращаемое значение
 

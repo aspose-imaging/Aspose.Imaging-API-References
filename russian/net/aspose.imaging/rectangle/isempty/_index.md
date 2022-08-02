@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее имеют ли все числовые свойства этогоRectangleaspose.imaging/rectangleнулевые значения.
+description: Получает значение указывающее все ли числовые свойства этогоRectangleaspose.imaging/rectangle имеют нулевые значения.
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging/rectangle/isempty/
 ---
 ## Rectangle.IsEmpty property
 
-Получает значение, указывающее, имеют ли все числовые свойства этого[`Rectangle`](../../rectangle)нулевые значения.
+Получает значение, указывающее, все ли числовые свойства этого[`Rectangle`](../../rectangle) имеют нулевые значения.
 
 ```csharp
 public bool IsEmpty { get; }
@@ -16,7 +16,7 @@ public bool IsEmpty { get; }
 
 ### Стоимость имущества
 
-Это свойство возвращает значение true, если[`Width`](../width),[`Height`](../height),[`X`](../x), и[`Y`](../y)свойства этого[`Rectangle`](../../rectangle)все имеют нулевые значения; в противном случае ложно.
+Это свойство возвращает значение true, если[`Width`](../width) ,[`Height`](../height) ,[`X`](../x) , а также[`Y`](../y) свойства этого[`Rectangle`](../../rectangle) все имеют нулевые значения; в противном случае ложно.
 
 ### Смотрите также
 

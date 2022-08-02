@@ -1,14 +1,14 @@
 ---
 title: OdShortCurveTo
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdShortCurveToaspose.imaging.fileformats.opendocument.objects.graphic/odshortcurveto.
+description: Инициализирует новый экземплярOdShortCurveToaspose.imaging.fileformats.opendocument.objects.graphic/odshortcurveto класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odshortcurveto/odshortcurveto/
 ---
 ## OdShortCurveTo constructor
 
-Инициализирует новый экземпляр класса[`OdShortCurveTo`](../../odshortcurveto).
+Инициализирует новый экземпляр[`OdShortCurveTo`](../../odshortcurveto) класс.
 
 ```csharp
 public OdShortCurveTo(OdObject parent)

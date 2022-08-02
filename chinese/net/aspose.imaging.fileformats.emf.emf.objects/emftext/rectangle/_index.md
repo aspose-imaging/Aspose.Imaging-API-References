@@ -1,14 +1,14 @@
 ---
 title: Rectangle
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个可选的 WMF RectL 对象MS-WMF 第 2.2.2.19 节它定义了一个裁剪 和/或不透明矩形以逻辑单位此矩形应用于包含记录执行的文本 输出
+description: 获取或设置一个可选的 WMF RectL 对象MS-WMF 第 2.2.2.19 节它以逻辑单位定义了一个剪裁 和/或不透明矩形此矩形应用于包含记录执行的文本 输出
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emftext/rectangle/
 ---
 ## EmfText.Rectangle property
 
-获取或设置一个可选的 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），它定义了一个裁剪 和/或不透明矩形以逻辑单位。此矩形应用于包含记录执行的文本 输出。
+获取或设置一个可选的 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），它以逻辑单位定义了一个剪裁 和/或不透明矩形。此矩形应用于包含记录执行的文本 输出。
 
 ```csharp
 public Rectangle Rectangle { get; set; }

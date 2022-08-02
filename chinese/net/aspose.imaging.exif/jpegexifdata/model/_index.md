@@ -16,7 +16,7 @@ public string Model { get; set; }
 
 ### 适当的价值
 
-模型。
+型号.
 
 ### 也可以看看
 

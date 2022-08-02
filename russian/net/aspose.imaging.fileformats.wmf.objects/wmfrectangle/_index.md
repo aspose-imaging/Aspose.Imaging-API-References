@@ -44,7 +44,7 @@ using (Aspose.Imaging.FileFormats.Emf.MetaImage image = (Aspose.Imaging.FileForm
 }
 
 /// <summary>
- /// Вспомогательный метод для изменения фона WMF. 
+/// Вспомогательный метод для изменения фона WMF. 
 /// </summary>
 public static void AddBackgroundRectangleWmf(Aspose.Imaging.FileFormats.Wmf.WmfImage image, Aspose.Imaging.Color color)
 {
@@ -54,22 +54,22 @@ public static void AddBackgroundRectangleWmf(Aspose.Imaging.FileFormats.Wmf.WmfI
         return;
     }
 
-     //Установить Rectangle
+    //Установить прямоугольник
     Aspose.Imaging.FileFormats.Wmf.Objects.WmfRectangle rectangle = new Aspose.Imaging.FileFormats.Wmf.Objects.WmfRectangle();
     rectangle.Rectangle = image.FrameBounds;
 
-     //Установить кисть
+    //Установить кисть
     Aspose.Imaging.FileFormats.Wmf.Objects.WmfCreateBrushInDirect brush = new Aspose.Imaging.FileFormats.Wmf.Objects.WmfCreateBrushInDirect();
     brush.LogBrush = new Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfLogBrushEx();
     brush.LogBrush.Argb32ColorRef = color.ToArgb();
 
-     //Выберите кисть
+    //Выбрать кисть
     Aspose.Imaging.FileFormats.Wmf.Objects.WmfSelectObject selectObject = new Aspose.Imaging.FileFormats.Wmf.Objects.WmfSelectObject(brush);
 
-     //Удалить кисть
+    //Удалить кисть
     Aspose.Imaging.FileFormats.Wmf.Objects.WmfDeleteObject deleteObject = new Aspose.Imaging.FileFormats.Wmf.Objects.WmfDeleteObject(brush);
 
-     //Добавить записи
+    //Добавить записи
     image.Records.Insert(0, brush);
     image.Records.Insert(1, selectObject);
     image.Records.Insert(2, rectangle);

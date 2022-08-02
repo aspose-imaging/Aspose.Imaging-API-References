@@ -1,14 +1,14 @@
 ---
 title: ToGdiColorMaps
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Преобразует массивColorMapaspose.imaging/colormapв массивColorMapмножество.
+description: ПреобразуетColorMapaspose.imaging/colormapмассив кColorMap массив.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.extensions/colormapextensions/togdicolormaps/
 ---
 ## ColorMapExtensions.ToGdiColorMaps method
 
-Преобразует массив[`ColorMap`](../../../aspose.imaging/colormap)в массивColorMapмножество.
+Преобразует[`ColorMap`](../../../aspose.imaging/colormap)массив кColorMap массив.
 
 ```csharp
 public static ColorMap[] ToGdiColorMaps(ColorMap[] colorMaps)
@@ -16,11 +16,11 @@ public static ColorMap[] ToGdiColorMaps(ColorMap[] colorMaps)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| colorMaps | ColorMap[] | Цветовые карты для преобразования. |
+| colorMaps | ColorMap[] | Карты цветов для преобразования. |
 
 ### Возвращаемое значение
 
-Преобразованный массивColorMap.
+ПреобразованныйColorMap массив.
 
 ### Смотрите также
 

@@ -18,8 +18,8 @@ public enum EmfGraphicsMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| GM_COMPATIBLE | `1` | TrueType 文本必须从左到右，右侧朝上书写，即使其余图形 围绕 x 轴旋转或 y 轴，因为 播放设备上下文中的当前世界到设备转换。只有文本的高度应该被缩放。弧线必须使用 播放设备上下文中的当前弧线方向绘制，但它们不得尊重当前的 世界到设备转换，这可能需要沿x 轴或 y 轴。 只能通过使用 EMR_SETWINDOWEXTEX（第 2.3.11.30 节）和 EMR_SETVIEWPORTEXTEX:::47 更改窗口和视口 范围和原点来修改世界到设备的转换:::（第 2.3.11.28 节）记录，以及 EMR_SETWINDOWORGEX（第 2.3.11.31 节）和 EMR_SETVIEWPORTORGEX （第 2.3.11.30 节）记录。 b 可能不支持使用 EMR_MODIFYWORLDTRANSFORM（第 2.3.12.1 节）或 EMR_SETWORLDTRANSFORM（第 2.3.12.2 节）记录直接更改转换。 在 GM_COMPATIBLE 图形模式下，绘制矩形时必须排除底部和最右侧边缘 |
-| GM_ADVANCED | `2` | TrueType 文本输出必须完全符合播放设备上下文中当前世界到设备的转换。 弧线必须在世界空间中以逆时针方向绘制；然而，弧线控制点 和弧线本身必须完全尊重播放设备上下文中当前世界到设备的转换。 世界到设备的转换可以通过使用 EMR_MODIFYWORLDTRANSFORM 或 EMR_SETWORLDTRANSFORM 记录直接修改，或通过更改窗口和视口范围和原点间接修改， 分别使用 EMR_SETWINDOWEXTEX（第 2.3.11.30 节）和 EMR_SETVIEWPORTEXTEX（第 2.3.11.28 节）记录， 和 EMR_SETWINDOWORGEX（第 2.3.11.31 节）和 EMR_SETVIEWPORTORGEX（第 2.3.11.30 节）记录。 在 GM_ADVANCED 图形模式下，绘制矩形时必须包括底边和最右边。 |
+| GM_COMPATIBLE | `1` | TrueType 文本必须从左向右书写，右侧朝上，即使由于 播放设备上下文中的当前世界到设备转换，其余图形 围绕 x 轴或 y 轴旋转.只有文本的高度应该被缩放。必须使用 播放设备上下文中的当前弧线方向来绘制弧线，但它们不得尊重当前的 世界到设备转换，这可能需要沿 x 轴或 y 轴旋转。 世界-到设备的转换只能通过使用 EMR_SETWINDOWEXTEX（第 2.3.11.30 节）和 EMR_SETVIEWPORTEXTEX （第 2.3.11.28 节）记录以及 EMR_SETWINDOWORGEX（第 2.3.11.31 节）和 EMR_SETVIEWPORTORGEX 更改窗口和视口 范围和原点来修改 （第 2.3.11.30 节）记录，分别。 b 可能不支持使用 EMR_MODIFYWORLDTRANSFORM（第2.3.12.1节）或EMR_SETWORLDTRANSFORM（第2.3.12.2节）记录直接更改转换。 在GM_COMPATIBLE图形模式下，绘制矩形时必须排除底部和最右边的边缘 |
+| GM_ADVANCED | `2` | TrueType 文本输出必须完全符合播放设备上下文中当前世界到设备的转换。 弧必须在世界空间中以逆时针方向绘制；但是，弧控制点 和弧本身必须完全尊重播放设备上下文中的当前世界到设备转换。 世界到设备转换可以通过使用 EMR_MODIFYWORLDTRANSFORM 或 EMR_SETWORLDTRANSFORM 记录直接修改，或者间接通过更改窗口和视口范围和原点， 使用 EMR_SETWINDOWEXTEX（第 2.3.11.30 节）和 EMR_SETVIEWPORTEXTEX（第 2.3.11.28 节）记录， 和 EMR_SETWINDOWORGEX（第 2.3.11.31 节）和 EMR_SETVIEWPORTORGEX（第 2.3.11.30 节）记录，分别。 在 GM_ADVANCED 图形模式下，绘制矩形时必须包括底部和最右边的边缘。 |
 
 ### 也可以看看
 

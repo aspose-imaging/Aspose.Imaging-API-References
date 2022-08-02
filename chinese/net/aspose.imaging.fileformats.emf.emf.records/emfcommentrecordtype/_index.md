@@ -1,14 +1,14 @@
 ---
 title: EmfCommentRecordType
 second_title: Aspose.Imaging for .NET API 参考
-description: 注释记录类型定义了用于指定任意私有数据的格式在其他元文件格式中嵌入记录 以及添加新的或特殊用途的命令
+description: 注释记录类型定义了用于指定任意私有数据的格式将记录 嵌入其他元文件格式以及添加新的或特殊用途的命令
 type: docs
 weight: 3420
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/
 ---
 ## EmfCommentRecordType class
 
-注释记录类型定义了用于指定任意私有数据的格式，在其他元文件格式中嵌入记录 以及添加新的或特殊用途的命令。
+注释记录类型定义了用于指定任意私有数据的格式，将记录 嵌入其他元文件格式，以及添加新的或特殊用途的命令。
 
 ```csharp
 public abstract class EmfCommentRecordType : EmfRecord
@@ -19,7 +19,7 @@ public abstract class EmfCommentRecordType : EmfRecord
 | 姓名 | 描述 |
 | --- | --- |
 | virtual [CommentIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/commentidentifier) { get; set; } | 获取或设置评论标识符。 |
-| [DataSize](../../aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，它指定 RecordBuffer 字段中 CommentIdentifier 和 CommentRecordParm 字段的大小（以字节为单位） 如下。如果 存在 |
+| [DataSize](../../aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，它指定 后面的 RecordBuffer 字段中的 CommentIdentifier 和 CommentRecordParm 字段的大小（以字节为单位）。如果 present 它不能包含自身的大小或 AlignmentPadding 字段的大小 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

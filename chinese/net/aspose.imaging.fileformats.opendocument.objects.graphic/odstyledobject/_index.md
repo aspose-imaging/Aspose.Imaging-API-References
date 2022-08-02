@@ -18,13 +18,13 @@ public class OdStyledObject : OdGraphicObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OdStyledObject](odstyledobject)(OdObject) | 初始化[`OdStyledObject`](../odstyledobject)类的新实例。 |
+| [OdStyledObject](odstyledobject)(OdObject) | 初始化[`OdStyledObject`](../odstyledobject)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]。 |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | 获取项目。 |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | 获取父对象。 |
 | [Rectangle](../../aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/rectangle) { get; set; } | 获取或设置矩形。 |

@@ -1,14 +1,14 @@
 ---
 title: TiffSRational
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化TiffSRationalaspose.imaging.fileformats.tiff/tiffsrational类的新实例
+description: 初始化TiffSRationalaspose.imaging.fileformats.tiff/tiffsrational类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.tiff/tiffsrational/tiffsrational/
 ---
 ## TiffSRational() {#constructor}
 
-初始化[`TiffSRational`](../../tiffsrational)类的新实例。
+初始化[`TiffSRational`](../../tiffsrational)类.
 
 ```csharp
 public TiffSRational()
@@ -24,7 +24,7 @@ public TiffSRational()
 
 ## TiffSRational(int) {#constructor_1}
 
-初始化[`TiffRational`](../../tiffrational)类的新实例。
+初始化[`TiffRational`](../../tiffrational)类.
 
 ```csharp
 public TiffSRational(int value)
@@ -32,11 +32,11 @@ public TiffSRational(int value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Int32 | 提名者值。 |
+| value | Int32 | 提名人的价值。 |
 
 ### 评论
 
-命名符将用作指定的值，分母将等于 1。
+提名者将用作指定的值，分母将等于 1。
 
 ### 也可以看看
 
@@ -48,7 +48,7 @@ public TiffSRational(int value)
 
 ## TiffSRational(int, int) {#constructor_2}
 
-初始化[`TiffSRational`](../../tiffsrational)类的新实例。
+初始化[`TiffSRational`](../../tiffsrational)类.
 
 ```csharp
 public TiffSRational(int nominator, int denominator)
@@ -57,7 +57,7 @@ public TiffSRational(int nominator, int denominator)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | nominator | Int32 | 提名人。 |
-| 分母 | Int32 | 分母。 |
+| denominator | Int32 | 分母。 |
 
 ### 也可以看看
 

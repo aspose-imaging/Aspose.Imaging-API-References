@@ -1,14 +1,14 @@
 ---
 title: LogicalDpiY
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает логическое значение dpi y. 32-битное целое число без знака указывающее вертикальное разрешение для которого был записан метафайл  в единицах строк на дюйм
+description: Получает или задает логическое значение dpi.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/logicaldpiy/
 ---
 ## EmfPlusHeader.LogicalDpiY property
 
-Получает или задает логическое значение dpi y. 32-битное целое число без знака, указывающее вертикальное разрешение, для которого был записан метафайл , в единицах строк на дюйм
+Получает или задает логическое значение dpi.
 
 ```csharp
 public int LogicalDpiY { get; set; }
@@ -16,7 +16,7 @@ public int LogicalDpiY { get; set; }
 
 ### Стоимость имущества
 
-Логическое значение dpi y.
+Логическое разрешение y.
 
 ### Смотрите также
 

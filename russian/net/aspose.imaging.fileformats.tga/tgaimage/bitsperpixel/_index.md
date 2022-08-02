@@ -1,14 +1,14 @@
 ---
 title: BitsPerPixel
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает биты на пиксель.
+description: Получает количество бит на пиксель.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.tga/tgaimage/bitsperpixel/
 ---
 ## TgaImage.BitsPerPixel property
 
-Получает биты на пиксель.
+Получает количество бит на пиксель.
 
 ```csharp
 public override int BitsPerPixel { get; }

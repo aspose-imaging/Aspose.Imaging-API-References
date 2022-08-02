@@ -1,14 +1,14 @@
 ---
 title: Layer
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化Layeraspose.imaging.xmp.schemas.photoshop/layer类的新实例
+description: 初始化Layeraspose.imaging.xmp.schemas.photoshop/layer类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp.schemas.photoshop/layer/layer/
 ---
 ## Layer(string, string) {#constructor_1}
 
-初始化[`Layer`](../../layer)类的新实例。
+初始化[`Layer`](../../layer)类.
 
 ```csharp
 public Layer(string layerName, string layerText)
@@ -29,7 +29,7 @@ public Layer(string layerName, string layerText)
 
 ## Layer() {#constructor}
 
-初始化[`Layer`](../../layer)类的新实例。
+初始化[`Layer`](../../layer)类.
 
 ```csharp
 public Layer()

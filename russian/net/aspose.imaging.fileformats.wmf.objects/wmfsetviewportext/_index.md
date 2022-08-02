@@ -1,14 +1,14 @@
 ---
 title: WmfSetViewportExt
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_SETVIEWPORTEXT устанавливает горизонтальные и вертикальные размеры области просмотра в контексте устройства воспроизведения.
+description: Запись META_SETVIEWPORTEXT устанавливает горизонтальную и вертикальную протяженность окна просмотра в контексте устройства воспроизведения.
 type: docs
 weight: 9200
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfsetviewportext/
 ---
 ## WmfSetViewportExt class
 
-Запись META_SETVIEWPORTEXT устанавливает горизонтальные и вертикальные размеры области просмотра в контексте устройства воспроизведения.
+Запись META_SETVIEWPORTEXT устанавливает горизонтальную и вертикальную протяженность окна просмотра в контексте устройства воспроизведения.
 
 ```csharp
 public class WmfSetViewportExt : WmfPointObject
@@ -24,7 +24,7 @@ public class WmfSetViewportExt : WmfPointObject
 
 | Имя | Описание |
 | --- | --- |
-| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или задает точку. |
+| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или устанавливает точку. |
 
 ### Смотрите также
 

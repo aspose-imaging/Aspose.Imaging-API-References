@@ -18,14 +18,14 @@ public sealed class EmfResizePalette : EmfObjectManipulationRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfResizePalette](emfresizepalette)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfResizePalette`](../emfresizepalette). |
+| [EmfResizePalette](emfresizepalette)(EmfRecord) | Инициализирует новый экземпляр[`EmfResizePalette`](../emfresizepalette) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [IhPal](../../aspose.imaging.fileformats.emf.emf.records/emfresizepalette/ihpal) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс объекта палитры в Таблице объектов EMF (раздел 3.1.1.1) . |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [IhPal](../../aspose.imaging.fileformats.emf.emf.records/emfresizepalette/ihpal) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс объекта палитры в таблице объектов EMF (раздел 3.1.1.1). |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Примечания

@@ -3,7 +3,7 @@ title: ColorType
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Тип цвета.
 type: docs
-weight: 11520
+weight: 11510
 url: /ru/net/aspose.imaging.xmp.types.complex.colorant/colortype/
 ---
 ## ColorType enumeration
@@ -18,7 +18,7 @@ public enum ColorType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Process | `1` | Тип обработки цвета. |
+| Process | `1` | Тип цвета процесса. |
 | Spot | `2` | Тип плашечного цвета. |
 
 ### Смотрите также

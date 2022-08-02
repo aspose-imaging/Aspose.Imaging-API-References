@@ -1,14 +1,14 @@
 ---
 title: PathFillRuleRecord
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化PathFillRuleRecordaspose.imaging.fileformats.core.vectorpaths/pathfillrulerecord类的新实例
+description: 初始化PathFillRuleRecordaspose.imaging.fileformats.core.vectorpaths/pathfillrulerecord类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.core.vectorpaths/pathfillrulerecord/pathfillrulerecord/
 ---
 ## PathFillRuleRecord() {#constructor}
 
-初始化[`PathFillRuleRecord`](../../pathfillrulerecord)类的新实例。
+初始化[`PathFillRuleRecord`](../../pathfillrulerecord)类.
 
 ```csharp
 public PathFillRuleRecord()
@@ -24,7 +24,7 @@ public PathFillRuleRecord()
 
 ## PathFillRuleRecord(byte[]) {#constructor_1}
 
-初始化[`PathFillRuleRecord`](../../pathfillrulerecord)类的新实例。
+初始化[`PathFillRuleRecord`](../../pathfillrulerecord)类.
 
 ```csharp
 public PathFillRuleRecord(byte[] data)

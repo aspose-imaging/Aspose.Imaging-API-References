@@ -16,7 +16,7 @@ public EmfPlusGraphicsVersion Version { get; set; }
 
 ### 适当的价值
 
-AnObjects。EmfPlusGraphicsVersion对象（第 2.2.2.19 节）指定用于创建此对象的操作系统图形的版本。
+一个[`EmfPlusGraphicsVersion`](../../emfplusgraphicsversion)指定用于创建此对象的操作系统图形版本的对象（第 2.2.2.19 节）。
 
 ### 也可以看看
 

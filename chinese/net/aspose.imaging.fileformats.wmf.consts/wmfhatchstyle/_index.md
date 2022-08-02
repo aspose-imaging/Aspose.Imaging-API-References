@@ -18,10 +18,10 @@ public enum WmfHatchStyle : short
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Horizontal | `0` | 水平阴影 |
-| Vertical | `1` | 垂直阴影。 |
-| Fdiagonal | `2` | 向下 45 度，从左到右的阴影。 |
-| Bdiagonal | `3` | 向上 45 度，从左到右的阴影。 |
+| Horizontal | `0` | 水平舱口 |
+| Vertical | `1` | 垂直舱口。 |
+| Fdiagonal | `2` | 向下 45 度，从左到右的阴影线。 |
+| Bdiagonal | `3` | 向上 45 度，从左到右的阴影线。 |
 | Cross | `4` | 水平和垂直交叉影线。 |
 | Diagcross | `5` | A 45 度剖面线。 |
 

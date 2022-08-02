@@ -1,14 +1,14 @@
 ---
 title: AddItem
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Добавляет новый предмет.
+description: Добавляет новый элемент.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.xmp/xmparray/additem/
 ---
 ## XmpArray.AddItem method
 
-Добавляет новый предмет.
+Добавляет новый элемент.
 
 ```csharp
 public void AddItem(string item)
@@ -16,7 +16,7 @@ public void AddItem(string item)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| item | String | Элемент, добавляемый в список элементов. |
+| item | String | Элемент, который необходимо добавить в список элементов. |
 
 ### Смотрите также
 

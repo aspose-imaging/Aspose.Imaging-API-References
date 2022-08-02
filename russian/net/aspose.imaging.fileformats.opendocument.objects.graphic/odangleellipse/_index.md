@@ -1,14 +1,14 @@
 ---
 title: OdAngleEllipse
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Расширенный угловой эллипс
+description: Улучшенный угловой эллипс
 type: docs
 weight: 6960
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse/
 ---
 ## OdAngleEllipse class
 
-Расширенный угловой эллипс
+Улучшенный угловой эллипс
 
 ```csharp
 public class OdAngleEllipse : OdStyledObject
@@ -18,14 +18,14 @@ public class OdAngleEllipse : OdStyledObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdAngleEllipse](odangleellipse)(OdObject) | Инициализирует новый экземпляр класса[`OdAngleEllipse`](../odangleellipse). |
+| [OdAngleEllipse](odangleellipse)(OdObject) | Инициализирует новый экземпляр[`OdAngleEllipse`](../odangleellipse) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
-| [Closed](../../aspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse/closed) { get; set; } | Получает или задает значение, указывающее, закрыт ли этот[`OdAngleEllipse`](../odangleellipse). |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
+| [Closed](../../aspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse/closed) { get; set; } | Получает или задает значение, указывающее, является ли это[`OdAngleEllipse`](../odangleellipse) закрыто. |
 | [EndAngle](../../aspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse/endangle) { get; set; } | Получает или задает конечный угол. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [Kind](../../aspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse/kind) { get; set; } | Получает или задает вид. |

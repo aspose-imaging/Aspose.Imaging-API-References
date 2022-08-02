@@ -1,14 +1,14 @@
 ---
 title: ParentImage
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取页面所属的父图像
+description: 获取页面所属的父图
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.djvu/djvupage/parentimage/
 ---
 ## DjvuPage.ParentImage property
 
-获取页面所属的父图像
+获取页面所属的父图
 
 ```csharp
 public DjvuImage ParentImage { get; }

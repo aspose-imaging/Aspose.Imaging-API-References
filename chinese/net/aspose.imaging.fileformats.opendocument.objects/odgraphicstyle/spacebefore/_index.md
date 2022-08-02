@@ -1,14 +1,14 @@
 ---
 title: SpaceBefore
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置之前的空格
+description: 获取或设置之前的空间
 type: docs
 weight: 170
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/spacebefore/
 ---
 ## OdGraphicStyle.SpaceBefore property
 
-获取或设置之前的空格。
+获取或设置之前的空间。
 
 ```csharp
 public float SpaceBefore { get; set; }
@@ -16,7 +16,7 @@ public float SpaceBefore { get; set; }
 
 ### 适当的价值
 
-前面的空格。
+之前的空间。
 
 ### 也可以看看
 

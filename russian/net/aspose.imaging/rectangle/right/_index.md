@@ -1,14 +1,14 @@
 ---
 title: Right
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает координату x которая является суммойXaspose.imaging/rectangle/xиWidthaspose.imaging/rectangle/widthзначения свойств этойRectangleaspose.imaging/rectangleструктуры.
+description: Получает или задает координату x которая является суммойXaspose.imaging/rectangle/x а такжеWidthaspose.imaging/rectangle/width значения свойств этогоRectangleaspose.imaging/rectangle структура.
 type: docs
 weight: 160
 url: /ru/net/aspose.imaging/rectangle/right/
 ---
 ## Rectangle.Right property
 
-Получает или задает координату x, которая является суммой[`X`](../x)и[`Width`](../width)значения свойств этой[`Rectangle`](../../rectangle)структуры.
+Получает или задает координату x, которая является суммой[`X`](../x) а также[`Width`](../width) значения свойств этого[`Rectangle`](../../rectangle) структура.
 
 ```csharp
 public int Right { get; set; }
@@ -16,7 +16,7 @@ public int Right { get; set; }
 
 ### Стоимость имущества
 
-Координата x, являющаяся суммой[`X`](../x)и[`Width`](../width)этого[`Rectangle`](../../rectangle).
+Координата x, представляющая собой сумму[`X`](../x) а также[`Width`](../width) этого[`Rectangle`](../../rectangle) .
 
 ### Смотрите также
 

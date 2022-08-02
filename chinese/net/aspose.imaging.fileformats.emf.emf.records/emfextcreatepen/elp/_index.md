@@ -1,14 +1,14 @@
 ---
 title: Elp
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 LogPenEx 对象第 2.2.20 节该对象指定扩展逻辑 笔其属性包括可选的线型数组
+description: 获取或设置一个 LogPenEx 对象第 2.2.20 节该对象指定一个扩展的逻辑 笔其属性包括可选的线型数组
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/elp/
 ---
 ## EmfExtCreatePen.Elp property
 
-获取或设置一个 LogPenEx 对象（第 2.2.20 节），该对象指定扩展逻辑 笔，其属性包括可选的线型数组。
+获取或设置一个 LogPenEx 对象（第 2.2.20 节），该对象指定一个扩展的逻辑 笔，其属性包括可选的线型数组。
 
 ```csharp
 public EmfLogPenEx Elp { get; set; }

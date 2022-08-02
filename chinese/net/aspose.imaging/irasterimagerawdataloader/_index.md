@@ -19,7 +19,7 @@ public interface IRasterImageRawDataLoader
 | 姓名 | 描述 |
 | --- | --- |
 | [IsRawDataAvailable](../../aspose.imaging/irasterimagerawdataloader/israwdataavailable) { get; } | 获取一个值，该值指示是否支持原始数据加载。 |
-| [RawDataSettings](../../aspose.imaging/irasterimagerawdataloader/rawdatasettings) { get; } | 获取当前原始数据设置。请注意，使用这些设置时，数据加载时无需转换。 |
+| [RawDataSettings](../../aspose.imaging/irasterimagerawdataloader/rawdatasettings) { get; } | 获取当前的原始数据设置。请注意，使用这些设置时，数据加载时无需转换。 |
 
 ## 方法
 

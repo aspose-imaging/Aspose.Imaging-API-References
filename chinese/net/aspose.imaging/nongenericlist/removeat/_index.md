@@ -1,14 +1,14 @@
 ---
 title: RemoveAt
 second_title: Aspose.Imaging for .NET API 参考
-description: 删除指定索引处的IList项
+description: 删除IList指定索引处的项目
 type: docs
 weight: 160
 url: /zh/net/aspose.imaging/nongenericlist/removeat/
 ---
 ## NonGenericList.RemoveAt method
 
-删除指定索引处的IList项。
+删除IList指定索引处的项目。
 
 ```csharp
 public void RemoveAt(int index)

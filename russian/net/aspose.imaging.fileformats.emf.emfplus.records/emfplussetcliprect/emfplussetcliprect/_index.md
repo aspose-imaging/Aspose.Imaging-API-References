@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSetClipRect
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusSetClipRectaspose.imaging.fileformats.emf.emfplus.records/emfplussetcliprect.
+description: Инициализирует новый экземплярEmfPlusSetClipRectaspose.imaging.fileformats.emf.emfplus.records/emfplussetcliprect класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetcliprect/emfplussetcliprect/
 ---
 ## EmfPlusSetClipRect constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusSetClipRect`](../../emfplussetcliprect).
+Инициализирует новый экземпляр[`EmfPlusSetClipRect`](../../emfplussetcliprect) класс.
 
 ```csharp
 public EmfPlusSetClipRect(EmfPlusRecord source)

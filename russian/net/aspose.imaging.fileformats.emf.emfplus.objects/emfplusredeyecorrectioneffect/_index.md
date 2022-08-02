@@ -24,7 +24,7 @@ public sealed class EmfPlusRedEyeCorrectionEffect : EmfPlusImageEffectsObjectTyp
 
 | Имя | Описание |
 | --- | --- |
-| [Areas](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusredeyecorrectioneffect/areas) { get; set; } | Получает или задает массив объектов NumberOfAreas WMF RectL, указанных в [MS-WMF] раздел 2.2.2.19. Каждый прямоугольник определяет область растрового изображения, к которой СЛЕДУЕТ применять эффект коррекции красных глаз . |
+| [Areas](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusredeyecorrectioneffect/areas) { get; set; } | Получает или задает массив объектов NumberOfAreas WMF RectL, указанных в [MS-WMF] , раздел 2.2.2.19. Каждый прямоугольник определяет область растрового изображения, к которой СЛЕДУЕТ применять эффект коррекции красных глаз . |
 | [NumberOfAreas](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusredeyecorrectioneffect/numberofareas) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее количество прямоугольников в поле Areas. |
 
 ### Смотрите также

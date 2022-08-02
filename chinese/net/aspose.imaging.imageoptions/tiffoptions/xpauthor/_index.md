@@ -1,14 +1,14 @@
 ---
 title: XPAuthor
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置图片作者供 Windows 资源管理器使用
+description: 获取或设置图片作者供 Windows Explorer 使用
 type: docs
 weight: 610
 url: /zh/net/aspose.imaging.imageoptions/tiffoptions/xpauthor/
 ---
 ## TiffOptions.XPAuthor property
 
-获取或设置图片作者，供 Windows 资源管理器使用。
+获取或设置图片作者，供 Windows Explorer 使用。
 
 ```csharp
 public string XPAuthor { get; set; }
@@ -16,7 +16,7 @@ public string XPAuthor { get; set; }
 
 ### 适当的价值
 
-Image Author，由 Windows 资源管理器使用。 `XPAuthor`如果Artist被WindowsExplorer忽略标签存在。
+图像作者，由 Windows 资源管理器使用。 `XPAuthor`如果[`Artist`](../artist)标签存在。
 
 ### 也可以看看
 

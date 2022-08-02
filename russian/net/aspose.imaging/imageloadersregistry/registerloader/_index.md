@@ -16,7 +16,7 @@ public static void RegisterLoader(IImageLoaderDescriptor loaderDescriptor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| loaderDescriptor | IImageLoaderDescriptor | Регистрируемый дескриптор загрузчика. |
+| loaderDescriptor | IImageLoaderDescriptor | Дескриптор загрузчика для регистрации. |
 
 ### Смотрите также
 

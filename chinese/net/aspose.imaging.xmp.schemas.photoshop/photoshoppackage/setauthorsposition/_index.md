@@ -16,7 +16,7 @@ public void SetAuthorsPosition(string authorsPosition)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| authorsPosition | String | 作者位置。 |
+| authorsPosition | String | 作者的立场。 |
 
 ### 也可以看看
 

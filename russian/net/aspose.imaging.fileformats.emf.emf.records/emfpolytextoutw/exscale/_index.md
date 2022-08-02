@@ -1,14 +1,14 @@
 ---
 title: ExScale
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-битное значение с плавающей запятой указывающее масштаб X от единиц страницы до 001 мм если графический режим GM_COMPATIBLE .
+description: Получает или задает 32-битное значение с плавающей запятой указывающее масштаб X от единиц страницы до единиц 001 мм если графический режим GM_COMPATIBLE.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/exscale/
 ---
 ## EmfPolyTextOutW.ExScale property
 
-Получает или задает 32-битное значение с плавающей запятой, указывающее масштаб X от единиц страницы до 0,01 мм, если графический режим GM_COMPATIBLE .
+Получает или задает 32-битное значение с плавающей запятой, указывающее масштаб X от единиц страницы до единиц 0,01 мм, если графический режим GM_COMPATIBLE.
 
 ```csharp
 public float ExScale { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: FillHotSpot
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置当前未使用的 EmfPlusPointF 对象它必须设置为 0.0 0.0
+description: 获取或设置当前未使用的 EmfPlusPointF 对象它必须设置为 0.0 0.0.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/fillhotspot/
 ---
 ## EmfPlusCustomLineCapArrowData.FillHotSpot property
 
-获取或设置当前未使用的 EmfPlusPointF 对象。它必须设置为 {0.0, 0.0}。
+获取或设置当前未使用的 EmfPlusPointF 对象。它必须设置为 {0.0, 0.0}.
 
 ```csharp
 public PointF FillHotSpot { get; set; }

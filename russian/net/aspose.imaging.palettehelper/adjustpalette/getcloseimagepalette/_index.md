@@ -1,14 +1,14 @@
 ---
 title: GetCloseImagePalette
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает палитру близких изображений.
+description: Получает близкую палитру изображений.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.palettehelper/adjustpalette/getcloseimagepalette/
 ---
 ## AdjustPalette.GetCloseImagePalette method
 
-Получает палитру близких изображений.
+Получает близкую палитру изображений.
 
 ```csharp
 public static IColorPalette GetCloseImagePalette(RasterImage image, int entriesCount, 
@@ -18,8 +18,8 @@ public static IColorPalette GetCloseImagePalette(RasterImage image, int entriesC
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | image | RasterImage | Изображение. |
-| entriesCount | Int32 | Количество записей. |
-| colorQuantizationMethod | ColorQuantizationMethod | Метод квантования цвета. |
+| entriesCount | Int32 | Записи засчитываются. |
+| colorQuantizationMethod | ColorQuantizationMethod | Метод цветового квантования. |
 | colorCompareMethod | ColorCompareMethod | Метод сравнения цветов. |
 
 ### Возвращаемое значение

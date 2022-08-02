@@ -1,14 +1,14 @@
 ---
 title: DicomPage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаDicomPageaspose.imaging.fileformats.dicom/dicompage.
+description: Инициализирует новый экземплярDicomPageaspose.imaging.fileformats.dicom/dicompage класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.dicom/dicompage/dicompage/
 ---
 ## DicomPage(DicomImage, int) {#constructor}
 
-Инициализирует новый экземпляр класса[`DicomPage`](../../dicompage).
+Инициализирует новый экземпляр[`DicomPage`](../../dicompage) класс.
 
 ```csharp
 public DicomPage(DicomImage image, int index)
@@ -30,7 +30,7 @@ public DicomPage(DicomImage image, int index)
 
 ## DicomPage(DicomImage, int, LoadOptions) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`DicomPage`](../../dicompage).
+Инициализирует новый экземпляр[`DicomPage`](../../dicompage) класс.
 
 ```csharp
 public DicomPage(DicomImage image, int index, LoadOptions loadOptions)
@@ -40,7 +40,7 @@ public DicomPage(DicomImage image, int index, LoadOptions loadOptions)
 | --- | --- | --- |
 | image | DicomImage | Изображение. |
 | index | Int32 | Индекс. |
-| loadOptions | LoadOptions | Параметры загрузки. |
+| loadOptions | LoadOptions | Варианты загрузки. |
 
 ### Смотрите также
 

@@ -16,7 +16,7 @@ public string FontName { get; set; }
 
 ### 适当的价值
 
-PostScript 字体名称。
+PostScript 字体名称的名称。
 
 ### 也可以看看
 

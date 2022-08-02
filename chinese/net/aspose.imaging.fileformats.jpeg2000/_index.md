@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.FileFormats.Jpeg2000
 second_title: Aspose.Imaging for .NET API 参考
-description: 命名空间处理 Jpeg2000 文件格式处理
+description: 命名空间处理Jpeg2000文件格式处理
 type: docs
 weight: 470
 url: /zh/net/aspose.imaging.fileformats.jpeg2000/
 ---
-命名空间处理 Jpeg2000 文件格式处理。
+命名空间处理Jpeg2000文件格式处理。
 
 ## 课程
 

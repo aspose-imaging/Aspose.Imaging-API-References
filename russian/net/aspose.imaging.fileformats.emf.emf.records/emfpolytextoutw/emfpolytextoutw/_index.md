@@ -1,14 +1,14 @@
 ---
 title: EmfPolyTextOutW
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPolyTextOutWaspose.imaging.fileformats.emf.emf.records/emfpolytextoutw.
+description: Инициализирует новый экземплярEmfPolyTextOutWaspose.imaging.fileformats.emf.emf.records/emfpolytextoutw класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/emfpolytextoutw/
 ---
 ## EmfPolyTextOutW(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfPolyTextOutW`](../../emfpolytextoutw).
+Инициализирует новый экземпляр[`EmfPolyTextOutW`](../../emfpolytextoutw) класс.
 
 ```csharp
 public EmfPolyTextOutW(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfPolyTextOutW(EmfRecord source)
 
 ## EmfPolyTextOutW() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfPolyTextOutW`](../../emfpolytextoutw).
+Инициализирует новый экземпляр[`EmfPolyTextOutW`](../../emfpolytextoutw) класс.
 
 ```csharp
 public EmfPolyTextOutW()

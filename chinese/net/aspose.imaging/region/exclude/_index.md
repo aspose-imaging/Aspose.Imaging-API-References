@@ -1,14 +1,14 @@
 ---
 title: Exclude
 second_title: Aspose.Imaging for .NET API 参考
-description: 更新此Regionaspose.imaging/region以仅包含其内部不与指定相交的部分R5TAspose.Imaging.RectangleF结构
+description: 更新这个Regionaspose.imaging/region仅包含其内部不与指定的部分相交的部分RectangleFaspose.imaging/rectanglef结构.
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging/region/exclude/
 ---
 ## Exclude(RectangleF) {#exclude_2}
 
-更新此[`Region`](../../region)以仅包含其内部不与指定:::相交的部分R5:T:Aspose.Imaging.RectangleF:::结构。
+更新这个[`Region`](../../region)仅包含其内部不与指定的部分相交的部分[`RectangleF`](../../rectanglef)结构.
 
 ```csharp
 public void Exclude(RectangleF rect)
@@ -16,7 +16,7 @@ public void Exclude(RectangleF rect)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | RectangleF | [`RectangleF`](../../rectanglef)结构要从中排除[`Region`](../../region)。 |
+| rect | RectangleF | 这[`RectangleF`](../../rectanglef)从中排除的结构[`Region`](../../region). |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public void Exclude(RectangleF rect)
 
 ## Exclude(Rectangle) {#exclude_1}
 
-更新此[`Region`](../../region)以仅包含其内部不与指定:::相交的部分R5:T:Aspose.Imaging.Rectangle:::结构。
+更新这个[`Region`](../../region)仅包含其内部不与指定的部分相交的部分[`Rectangle`](../../rectangle)结构.
 
 ```csharp
 public void Exclude(Rectangle rect)
@@ -37,7 +37,7 @@ public void Exclude(Rectangle rect)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | Rectangle | [`Rectangle`](../../rectangle)结构要从中排除[`Region`](../../region)。 |
+| rect | Rectangle | 这[`Rectangle`](../../rectangle)从中排除的结构[`Region`](../../region). |
 
 ### 也可以看看
 
@@ -50,7 +50,7 @@ public void Exclude(Rectangle rect)
 
 ## Exclude(GraphicsPath) {#exclude}
 
-更新此[`Region`](../../region)以仅包含其内部不与指定:::相交的部分R5:T:Aspose.Imaging.GraphicsPath:::。
+更新这个[`Region`](../../region)仅包含其内部不与指定的部分相交的部分[`GraphicsPath`](../../graphicspath) .
 
 ```csharp
 public void Exclude(GraphicsPath path)
@@ -58,7 +58,7 @@ public void Exclude(GraphicsPath path)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| path | GraphicsPath | [`GraphicsPath`](../../graphicspath)要从中排除[`Region`](../../region)。 |
+| path | GraphicsPath | 这[`GraphicsPath`](../../graphicspath)排除在外[`Region`](../../region). |
 
 ### 例外
 
@@ -77,7 +77,7 @@ public void Exclude(GraphicsPath path)
 
 ## Exclude(Region) {#exclude_3}
 
-更新此[`Region`](../../region)以仅包含其内部不与指定:::相交的部分R5:T:Aspose.Imaging.Region:::。
+更新这个[`Region`](../../region)仅包含其内部不与指定的部分相交的部分[`Region`](../../region) .
 
 ```csharp
 public void Exclude(Region region)
@@ -85,7 +85,7 @@ public void Exclude(Region region)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| region | Region | [`Region`](../../region)从这个:::R5 中排除:T:Aspose.Imaging.Region:::。 |
+| region | Region | 这[`Region`](../../region)排除在外[`Region`](../../region). |
 
 ### 例外
 

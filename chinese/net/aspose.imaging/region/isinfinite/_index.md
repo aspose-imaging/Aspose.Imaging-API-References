@@ -1,14 +1,14 @@
 ---
 title: IsInfinite
 second_title: Aspose.Imaging for .NET API 参考
-description: 测试此Regionaspose.imaging/region在指定绘图表面上是否具有无限内部
+description: 测试这是否Regionaspose.imaging/region在指定的绘图表面上有一个无限的内部
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging/region/isinfinite/
 ---
 ## Region.IsInfinite method
 
-测试此[`Region`](../../region)在指定绘图表面上是否具有无限内部。
+测试这是否[`Region`](../../region)在指定的绘图表面上有一个无限的内部。
 
 ```csharp
 public bool IsInfinite(Graphics g)
@@ -16,11 +16,11 @@ public bool IsInfinite(Graphics g)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| g | Graphics | A[`Graphics`](../../graphics)表示绘图表面。 |
+| g | Graphics | 一个[`Graphics`](../../graphics)表示绘图表面。 |
 
 ### 返回值
 
-如果这个[`Region`](../../region)的内部在变换关联时是无限的应用*g*；否则为假。
+true 如果这个内部[`Region`](../../region)当变换与*g*被申请;被应用;否则为假。
 
 ### 例外
 

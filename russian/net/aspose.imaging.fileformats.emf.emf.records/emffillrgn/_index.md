@@ -18,18 +18,18 @@ public sealed class EmfFillRgn : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfFillRgn](emffillrgn#constructor)() | Инициализирует новый экземпляр класса[`EmfFillRgn`](../emffillrgn). |
-| [EmfFillRgn](emffillrgn#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfFillRgn`](../emffillrgn). |
+| [EmfFillRgn](emffillrgn#constructor)() | Инициализирует новый экземпляр[`EmfFillRgn`](../emffillrgn) класс. |
+| [EmfFillRgn](emffillrgn#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfFillRgn`](../emffillrgn) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emffillrgn/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе [MS-WMF] 2.2.2.19, который указывает ограничивающий прямоугольник . |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emffillrgn/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе 2.2.2.19 [MS-WMF], , который указывает ограничивающий прямоугольник. |
 | [IhBrush](../../aspose.imaging.fileformats.emf.emf.records/emffillrgn/ihbrush) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс таблицы объектов EMF кисти для заполнения области. |
 | [RgnData](../../aspose.imaging.fileformats.emf.emf.records/emffillrgn/rgndata) { get; set; } | Получает или задает массив байтов длины RgnDataSize, содержащий объект RegionData (раздел 2.2.24). |
 | [RgnDataSize](../../aspose.imaging.fileformats.emf.emf.records/emffillrgn/rgndatasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер данных региона в байтах. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

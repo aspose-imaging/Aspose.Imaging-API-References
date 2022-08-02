@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取此实例的哈希码不适合用作键因为TgaImageaspose.imaging.fileformats.tga/tgaimage不是不可变的
+description: 获取此实例的哈希码不适合用作钥匙作为TgaImageaspose.imaging.fileformats.tga/tgaimage不是一成不变的
 type: docs
 weight: 330
 url: /zh/net/aspose.imaging.fileformats.tga/tgaimage/gethashcode/
 ---
 ## TgaImage.GetHashCode method
 
-获取此实例的哈希码。不适合用作键，因为[`TgaImage`](../../tgaimage)不是不可变的。
+获取此实例的哈希码。不适合用作钥匙作为[`TgaImage`](../../tgaimage)不是一成不变的。
 
 ```csharp
 public override int GetHashCode()

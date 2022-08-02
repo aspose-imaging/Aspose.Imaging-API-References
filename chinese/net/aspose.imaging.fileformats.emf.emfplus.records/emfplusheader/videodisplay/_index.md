@@ -1,14 +1,14 @@
 ---
 title: VideoDisplay
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置是否显示视频的值 如果设置此标志表示元文件是使用参考设备记录的 视频显示上下文如果清除则元文件是使用打印机的参考设备 上下文记录的
+description: 获取或设置一个值该值指示是否显示视频 如果设置则此标志指示元文件是使用视频显示的参考设备 上下文记录的如果清除则元文件已使用打印机的参考 device 上下文记录
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/videodisplay/
 ---
 ## EmfPlusHeader.VideoDisplay property
 
-获取或设置是否显示视频的值。 如果设置，此标志表示元文件是使用参考设备记录的 视频显示上下文。如果清除，则元文件是使用打印机的参考设备 上下文记录的。
+获取或设置一个值，该值指示是否显示视频。 如果设置，则此标志指示元文件是使用视频显示的参考设备 上下文记录的。如果清除，则元文件已使用打印机的参考 device 上下文记录。
 
 ```csharp
 public bool VideoDisplay { get; set; }
@@ -16,7 +16,7 @@ public bool VideoDisplay { get; set; }
 
 ### 适当的价值
 
-` true` if [视频显示];否则，` false` 。
+`真的` if [视频显示];否则，`错误的` .
 
 ### 也可以看看
 

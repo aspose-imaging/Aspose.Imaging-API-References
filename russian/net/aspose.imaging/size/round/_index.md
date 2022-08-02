@@ -1,14 +1,14 @@
 ---
 title: Round
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Преобразует указанную структуруSizeFaspose.imaging/sizefв структуруSizeaspose.imaging/sizeпутем округления значений структурыSizeFaspose.imaging/sizefдо ближайших целых значений.
+description: Преобразует указанныйSizeFaspose.imaging/sizef структура кSizeaspose.imaging/size структуры путем округления значенийSizeFaspose.imaging/sizef структура до ближайших целочисленных значений.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging/size/round/
 ---
 ## Size.Round method
 
-Преобразует указанную структуру[`SizeF`](../../sizef)в структуру[`Size`](../../size)путем округления значений структуры[`SizeF`](../../sizef)до ближайших целых значений.
+Преобразует указанный[`SizeF`](../../sizef) структура к[`Size`](../../size) структуры путем округления значений[`SizeF`](../../sizef) структура до ближайших целочисленных значений.
 
 ```csharp
 public static Size Round(SizeF size)
@@ -16,11 +16,11 @@ public static Size Round(SizeF size)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| size | SizeF | Преобразуемая структура[`SizeF`](../../sizef). |
+| size | SizeF | [`SizeF`](../../sizef) структура для преобразования. |
 
 ### Возвращаемое значение
 
-Структура[`Size`](../../size), в которую преобразуется этот метод.
+[`Size`](../../size) структура, в которую преобразуется этот метод.
 
 ### Смотрите также
 

@@ -16,7 +16,7 @@ public void SetSource(string source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | String | 源。 |
+| source | String | 来源。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: EmfSetWindowExtEx
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetWindowExtExaspose.imaging.fileformats.emf.emf.records/emfsetwindowextex.
+description: Инициализирует новый экземплярEmfSetWindowExtExaspose.imaging.fileformats.emf.emf.records/emfsetwindowextex класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetwindowextex/emfsetwindowextex/
 ---
 ## EmfSetWindowExtEx(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfSetWindowExtEx`](../../emfsetwindowextex).
+Инициализирует новый экземпляр[`EmfSetWindowExtEx`](../../emfsetwindowextex) класс.
 
 ```csharp
 public EmfSetWindowExtEx(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfSetWindowExtEx(EmfRecord source)
 
 ## EmfSetWindowExtEx() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfSetWindowExtEx`](../../emfsetwindowextex).
+Инициализирует новый экземпляр[`EmfSetWindowExtEx`](../../emfsetwindowextex) класс.
 
 ```csharp
 public EmfSetWindowExtEx()

@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет параметры загрузки.
 type: docs
-weight: 10410
+weight: 10400
 url: /ru/net/aspose.imaging/loadoptions/
 ---
 ## LoadOptions class
@@ -24,8 +24,8 @@ public class LoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| [BufferSizeHint](../../aspose.imaging/loadoptions/buffersizehint) { get; set; } | Получает или устанавливает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
-| [DataBackgroundColor](../../aspose.imaging/loadoptions/databackgroundcolor) { get; set; } | Получает или задает[`Image`](../image)background[`Color`](../color). |
+| [BufferSizeHint](../../aspose.imaging/loadoptions/buffersizehint) { get; set; } | Получает или задает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
+| [DataBackgroundColor](../../aspose.imaging/loadoptions/databackgroundcolor) { get; set; } | Получает или задает[`Image`](../image) фон[`Color`](../color) . |
 | [DataRecoveryMode](../../aspose.imaging/loadoptions/datarecoverymode) { get; set; } | Получает или задает режим восстановления данных. |
 | [ProgressEventHandler](../../aspose.imaging/loadoptions/progresseventhandler) { get; set; } | Получает или задает обработчик события выполнения. |
 
@@ -33,7 +33,7 @@ public class LoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| [AddCustomFontSource](../../aspose.imaging/loadoptions/addcustomfontsource)(CustomFontSource, params object[]) | Добавляет пользовательский источник шрифтов для предоставления шрифтов, специфичных для изображения. |
+| [AddCustomFontSource](../../aspose.imaging/loadoptions/addcustomfontsource)(CustomFontSource, params object[]) | Добавляет пользовательский источник шрифта для предоставления шрифтов, специфичных для изображения. |
 
 ### Смотрите также
 

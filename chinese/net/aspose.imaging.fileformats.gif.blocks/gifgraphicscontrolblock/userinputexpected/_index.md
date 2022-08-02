@@ -1,14 +1,14 @@
 ---
 title: UserInputExpected
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值该值指示是否需要用户输入
+description: 获取或设置一个值指示是否需要用户输入
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/userinputexpected/
 ---
 ## GifGraphicsControlBlock.UserInputExpected property
 
-获取或设置一个值，该值指示是否需要用户输入。
+获取或设置一个值，指示是否需要用户输入。
 
 ```csharp
 public bool UserInputExpected { get; set; }
@@ -16,7 +16,7 @@ public bool UserInputExpected { get; set; }
 
 ### 适当的价值
 
-` true` 如果需要用户输入；否则，` false` 。
+`真的`如果需要用户输入；否则，`错误的` .
 
 ### 也可以看看
 

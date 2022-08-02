@@ -18,7 +18,7 @@ public class CdrImageFill
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CdrImageFill](cdrimagefill)(int, double, double, bool, double, double, double, byte) | 初始化[`CdrImageFill`](../cdrimagefill)类的新实例。 |
+| [CdrImageFill](cdrimagefill)(int, double, double, bool, double, double, double, byte) | 初始化[`CdrImageFill`](../cdrimagefill)类. |
 
 ## 特性
 

@@ -1,14 +1,14 @@
 ---
 title: DateTimeDigitized
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает оцифрованную дату и время.
+description: Получает или устанавливает оцифрованную дату и время.
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging.exif/exifdata/datetimedigitized/
 ---
 ## ExifData.DateTimeDigitized property
 
-Получает или задает оцифрованную дату и время.
+Получает или устанавливает оцифрованную дату и время.
 
 ```csharp
 public string DateTimeDigitized { get; set; }

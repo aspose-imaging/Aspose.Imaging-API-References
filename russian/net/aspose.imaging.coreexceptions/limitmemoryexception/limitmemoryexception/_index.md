@@ -1,14 +1,14 @@
 ---
 title: LimitMemoryException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаLimitMemoryExceptionaspose.imaging.coreexceptions/limitmemoryexception.
+description: Инициализирует новый экземплярLimitMemoryExceptionaspose.imaging.coreexceptions/limitmemoryexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions/limitmemoryexception/limitmemoryexception/
 ---
 ## LimitMemoryException(string) {#constructor}
 
-Инициализирует новый экземпляр класса[`LimitMemoryException`](../../limitmemoryexception).
+Инициализирует новый экземпляр[`LimitMemoryException`](../../limitmemoryexception) класс.
 
 ```csharp
 public LimitMemoryException(string message)
@@ -28,7 +28,7 @@ public LimitMemoryException(string message)
 
 ## LimitMemoryException(string, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`LimitMemoryException`](../../limitmemoryexception).
+Инициализирует новый экземпляр[`LimitMemoryException`](../../limitmemoryexception) класс.
 
 ```csharp
 public LimitMemoryException(string message, Exception innerException)
@@ -49,7 +49,7 @@ public LimitMemoryException(string message, Exception innerException)
 
 ## LimitMemoryException(string, long) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`LimitMemoryException`](../../limitmemoryexception).
+Инициализирует новый экземпляр[`LimitMemoryException`](../../limitmemoryexception) класс.
 
 ```csharp
 public LimitMemoryException(string message, long reduceMemoryFactor)
@@ -58,7 +58,7 @@ public LimitMemoryException(string message, long reduceMemoryFactor)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | message | String | Сообщение об исключении. |
-| reduceMemoryFactor | Int64 | Коэффициент уменьшения памяти. |
+| reduceMemoryFactor | Int64 | Фактор уменьшения памяти. |
 
 ### Смотрите также
 
@@ -70,7 +70,7 @@ public LimitMemoryException(string message, long reduceMemoryFactor)
 
 ## LimitMemoryException(string, Exception, int) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`LimitMemoryException`](../../limitmemoryexception).
+Инициализирует новый экземпляр[`LimitMemoryException`](../../limitmemoryexception) класс.
 
 ```csharp
 public LimitMemoryException(string message, Exception innerException, int reduceMemoryFactor)
@@ -80,7 +80,7 @@ public LimitMemoryException(string message, Exception innerException, int reduce
 | --- | --- | --- |
 | message | String | Сообщение об исключении. |
 | innerException | Exception | Внутреннее исключение. |
-| reduceMemoryFactor | Int32 | Коэффициент уменьшения памяти. |
+| reduceMemoryFactor | Int32 | Фактор уменьшения памяти. |
 
 ### Смотрите также
 

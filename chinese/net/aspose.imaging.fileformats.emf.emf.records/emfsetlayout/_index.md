@@ -18,7 +18,7 @@ public sealed class EmfSetLayout : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSetLayout](emfsetlayout)(EmfRecord) | 初始化[`EmfSetLayout`](../emfsetlayout)类的新实例。 |
+| [EmfSetLayout](emfsetlayout)(EmfRecord) | 初始化[`EmfSetLayout`](../emfsetlayout)类. |
 
 ## 特性
 

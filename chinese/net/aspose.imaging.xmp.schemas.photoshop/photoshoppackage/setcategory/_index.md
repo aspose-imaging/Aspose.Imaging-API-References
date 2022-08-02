@@ -22,7 +22,7 @@ public void SetCategory(string category)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | 类别；类别限制为 3 个字符 |
+| ArgumentOutOfRangeException | 类别;类别限制为 3 个字符 |
 
 ### 也可以看看
 

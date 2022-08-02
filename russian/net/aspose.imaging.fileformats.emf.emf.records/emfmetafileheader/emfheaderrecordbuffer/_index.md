@@ -1,14 +1,14 @@
 ---
 title: EmfHeaderRecordBuffer
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает необязательный массив байтов содержащий остаток записи заголовка EMF. Размер этого поля ДОЛЖЕН быть кратен 4 байтам
+description: Получает или задает необязательный массив байтов содержащий оставшуюся часть записи заголовка EMF. Размер этого поля ДОЛЖЕН быть кратен 4 байтам
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfheaderrecordbuffer/
 ---
 ## EmfMetafileHeader.EmfHeaderRecordBuffer property
 
-Получает или задает необязательный массив байтов, содержащий остаток записи заголовка EMF. Размер этого поля ДОЛЖЕН быть кратен 4 байтам
+Получает или задает необязательный массив байтов, содержащий оставшуюся часть записи заголовка EMF. Размер этого поля ДОЛЖЕН быть кратен 4 байтам
 
 ```csharp
 public byte[] EmfHeaderRecordBuffer { get; set; }

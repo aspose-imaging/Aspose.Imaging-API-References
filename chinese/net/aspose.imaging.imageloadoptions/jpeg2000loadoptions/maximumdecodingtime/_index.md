@@ -1,14 +1,14 @@
 ---
 title: MaximumDecodingTime
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置最大解码时间以秒为单位此选项可用于内存机器上非常慢的机器以防止在非常大的图像上挂起进程 - 分辨率超过 5500x6500像素
+description: 获取或设置最大解码时间以秒为单位此选项可用于内存机器上速度非常慢的情况以防止在非常大的图像上挂起进程 - 分辨率超过 5500x6500 像素
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.imageloadoptions/jpeg2000loadoptions/maximumdecodingtime/
 ---
 ## Jpeg2000LoadOptions.MaximumDecodingTime property
 
-获取或设置最大解码时间（以秒为单位）（此选项可用于内存机器上非常慢的机器，以防止在非常大的图像上挂起进程 - 分辨率超过 5500x6500像素）。
+获取或设置最大解码时间（以秒为单位）（此选项可用于内存机器上速度非常慢的情况，以防止在非常大的图像上挂起进程 - 分辨率超过 5500x6500 像素）。
 
 ```csharp
 public int MaximumDecodingTime { get; set; }

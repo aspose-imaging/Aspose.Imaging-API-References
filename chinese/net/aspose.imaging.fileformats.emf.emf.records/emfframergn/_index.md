@@ -18,21 +18,21 @@ public sealed class EmfFrameRgn : EmfDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfFrameRgn](emfframergn#constructor)() | 初始化[`EmfFrameRgn`](../emfframergn)类的新实例。 |
-| [EmfFrameRgn](emfframergn#constructor_1)(EmfRecord) | 初始化[`EmfFrameRgn`](../emfframergn)类的新实例。 |
+| [EmfFrameRgn](emfframergn#constructor)() | 初始化[`EmfFrameRgn`](../emfframergn)类. |
+| [EmfFrameRgn](emfframergn#constructor_1)(EmfRecord) | 初始化[`EmfFrameRgn`](../emfframergn)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfframergn/bounds) { get; set; } | 获取或设置 128 位 WMF RectL 对象，在 [MS-WMF] 第 2.2.2.19 节中指定，其中 指定边界矩形。 |
-| [Height](../../aspose.imaging.fileformats.emf.emf.records/emfframergn/height) { get; set; } | 获取或设置一个 32 位有符号整数，该整数指定水平画笔 笔触的高度，以逻辑单位表示。 |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfframergn/bounds) { get; set; } | 获取或设置 128 位 WMF RectL 对象，在 [MS-WMF] 2.2.2.19 节中指定， 指定边界矩形。 |
+| [Height](../../aspose.imaging.fileformats.emf.emf.records/emfframergn/height) { get; set; } | 获取或设置一个 32 位有符号整数，它指定水平画笔 笔划的高度，以逻辑单位表示。 |
 | [IhBrush](../../aspose.imaging.fileformats.emf.emf.records/emfframergn/ihbrush) { get; set; } | 获取或设置一个 32 位无符号整数，指定画笔 EMF 对象表索引。 |
-| [RgnData](../../aspose.imaging.fileformats.emf.emf.records/emfframergn/rgndata) { get; set; } | 获取或设置 RgnDataSize 长度字节数组，该数组指定 RegionData 对象 逻辑单位 |
-| [RgnDataSize](../../aspose.imaging.fileformats.emf.emf.records/emfframergn/rgndatasize) { get; set; } | 获取或设置指定区域数据大小的 32 位无符号整数，以字节为单位。 |
+| [RgnData](../../aspose.imaging.fileformats.emf.emf.records/emfframergn/rgndata) { get; set; } | 获取或设置一个 RgnDataSize 长度的字节数组，它指定一个 RegionData 对象， 以逻辑单位为单位 |
+| [RgnDataSize](../../aspose.imaging.fileformats.emf.emf.records/emfframergn/rgndatasize) { get; set; } | 获取或设置一个 32 位无符号整数，它指定区域数据的大小，以字节为单位。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
-| [Width](../../aspose.imaging.fileformats.emf.emf.records/emfframergn/width) { get; set; } | 获取或设置一个 32 位有符号整数，该整数指定垂直画笔描边的宽度，以逻辑单位表示。 |
+| [Width](../../aspose.imaging.fileformats.emf.emf.records/emfframergn/width) { get; set; } | 获取或设置一个 32 位有符号整数，它指定垂直画笔笔触的宽度，以逻辑单位为单位。 |
 
 ### 也可以看看
 

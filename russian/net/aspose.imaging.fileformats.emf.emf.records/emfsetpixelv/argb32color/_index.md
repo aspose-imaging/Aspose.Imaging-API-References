@@ -1,14 +1,14 @@
 ---
 title: Argb32Color
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядный объект ColorRef WMF раздел 2.2.2.8 MS-WMF определяющий цвет пикселя.
+description: Получает или задает 32-битный объект WMF ColorRef MS-WMF раздел 2.2.2.8 который определяет цвет пикселя.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetpixelv/argb32color/
 ---
 ## EmfSetPixelV.Argb32Color property
 
-Получает или задает 32-разрядный объект ColorRef WMF (раздел 2.2.2.8 [MS-WMF]), определяющий цвет пикселя.
+Получает или задает 32-битный объект WMF ColorRef ([MS-WMF], раздел 2.2.2.8), который определяет цвет пикселя.
 
 ```csharp
 public int Argb32Color { get; set; }

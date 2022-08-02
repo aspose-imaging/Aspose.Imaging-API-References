@@ -1,14 +1,14 @@
 ---
 title: IFrame
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Webp-фрейм ltsee langwordinterface /gt
+description: Веб-кадрinterface
 type: docs
 weight: 8060
 url: /ru/net/aspose.imaging.fileformats.webp/iframe/
 ---
 ## IFrame interface
 
-Webp-фрейм &lt;see langword="interface" /&gt;
+Веб-кадр`interface`
 
 ```csharp
 public interface IFrame
@@ -19,7 +19,7 @@ public interface IFrame
 | Имя | Описание |
 | --- | --- |
 | [Duration](../../aspose.imaging.fileformats.webp/iframe/duration) { get; set; } | Получает или задает продолжительность кадра. |
-| [Left](../../aspose.imaging.fileformats.webp/iframe/left) { get; set; } | Получает или задает позицию кадра слева. |
+| [Left](../../aspose.imaging.fileformats.webp/iframe/left) { get; set; } | Получает или задает положение кадра слева. |
 | [Top](../../aspose.imaging.fileformats.webp/iframe/top) { get; set; } | Получает или задает верхнюю позицию кадра. |
 
 ### Смотрите также

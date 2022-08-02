@@ -1,14 +1,14 @@
 ---
 title: WmfPatBlt
 second_title: Aspose.Imaging for .NET API 参考
-description: META_PATBLT 记录使用在播放设备上下文中定义的 画笔绘制指定的矩形画笔颜色和 表面颜色使用指定的光栅 操作组合
+description: META_PATBLT 记录使用在播放设备上下文中定义的 画笔绘制指定的矩形使用指定的 raster 操作将画笔颜色和 表面颜色组合在一起
 type: docs
 weight: 8830
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfpatblt/
 ---
 ## WmfPatBlt class
 
-META_PATBLT 记录使用在播放设备上下文中定义的 画笔绘制指定的矩形。画笔颜色和 表面颜色使用指定的光栅 操作组合。
+META_PATBLT 记录使用在播放设备上下文中定义的 画笔绘制指定的矩形。使用指定的 raster 操作将画笔颜色和 表面颜色组合在一起。
 
 ```csharp
 public class WmfPatBlt : WmfPointObject

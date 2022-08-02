@@ -1,14 +1,14 @@
 ---
 title: DiscretizedBppMax
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取最大 R 值以供考虑
+description: 获取考虑的最大 R 值
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.imageoptions/rdoptimizersettings/discretizedbppmax/
 ---
 ## RdOptimizerSettings.DiscretizedBppMax property
 
-获取最大 R 值以供考虑。
+获取考虑的最大 R 值。
 
 ```csharp
 public int DiscretizedBppMax { get; }

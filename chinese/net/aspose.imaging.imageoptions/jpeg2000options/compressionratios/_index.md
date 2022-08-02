@@ -1,14 +1,14 @@
 ---
 title: CompressionRatios
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置压缩比数组 连续层的不同压缩比 为每个质量级别指定的速率是所需的 压缩系数 需要降低比率
+description: 获取或设置压缩比数组 连续层的不同压缩比 为每个质量级别指定的速率是期望的 压缩因子 需要降低比
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.imageoptions/jpeg2000options/compressionratios/
 ---
 ## Jpeg2000Options.CompressionRatios property
 
-获取或设置压缩比数组。 连续层的不同压缩比。 为每个质量级别指定的速率是所需的 压缩系数。 需要降低比率。
+获取或设置压缩比数组。 连续层的不同压缩比。 为每个质量级别指定的速率是期望的 压缩因子。 需要降低比。
 
 ```csharp
 public int[] CompressionRatios { get; set; }

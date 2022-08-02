@@ -1,14 +1,14 @@
 ---
 title: FinishRow
 second_title: Aspose.Imaging for .NET API 参考
-description: 完成该行
+description: 完成行
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/iadvancedbufferprocessor/finishrow/
 ---
 ## IAdvancedBufferProcessor.FinishRow method
 
-完成该行。
+完成行。
 
 ```csharp
 public void FinishRow()

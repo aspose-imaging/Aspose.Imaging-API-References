@@ -16,7 +16,7 @@ public int EndArgb32Color { get; set; }
 
 ### 适当的价值
 
-EmfPlusARGB 对象，指定线性:::47 的结束边界点的颜色:::渐变画笔。
+一个 EmfPlusARGB 对象，指定线性 渐变画笔结束边界点的颜色。
 
 ### 也可以看看
 

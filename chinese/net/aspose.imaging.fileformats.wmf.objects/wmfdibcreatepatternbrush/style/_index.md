@@ -16,7 +16,7 @@ public WmfBrushStyle Style { get; set; }
 
 ### 适当的价值
 
-该字段的合法值定义如下:如果值 不是 BS_PATTERN，必须假定 BS_DIBPATTERNPT。这些值是在 BrushStyle 枚举（第 2.1.1.4 节）中指定的 。
+该字段的合法值定义如下：如果 value 不是 BS_PATTERN，则必须假定 BS_DIBPATTERNPT。这些值是在 BrushStyle 枚举（第 2.1.1.4 节）中指定的 。
 
 ### 也可以看看
 

@@ -18,14 +18,14 @@ public class AsyncTaskProgress
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsyncTaskProgress](asynctaskprogress)(int, TimeSpan) | 初始化[`AsyncTaskProgress`](../asynctaskprogress)类的新实例。 |
+| [AsyncTaskProgress](asynctaskprogress)(int, TimeSpan) | 初始化[`AsyncTaskProgress`](../asynctaskprogress)类. |
 
 ## 字段
 
 | 姓名 | 描述 |
 | --- | --- |
 | readonly [Duration](../../aspose.imaging.asynctask/asynctaskprogress/duration) | 异步任务的持续时间。 |
-| readonly [ProgressPercentage](../../aspose.imaging.asynctask/asynctaskprogress/progresspercentage) | 异步任务的进度，百分比。 |
+| readonly [ProgressPercentage](../../aspose.imaging.asynctask/asynctaskprogress/progresspercentage) | 异步任务的进度，以百分比为单位。 |
 
 ### 也可以看看
 

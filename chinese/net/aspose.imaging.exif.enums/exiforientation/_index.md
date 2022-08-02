@@ -20,7 +20,7 @@ public enum ExifOrientation
 | --- | --- | --- |
 | TopLeft | `1` | 左上角。默认方向。 |
 | TopRight | `2` | 右上角。水平反转。 |
-| BottomRight | `3` | 右下角。旋转了 180 度。 |
+| BottomRight | `3` | 右下角。旋转 180 度。 |
 | BottomLeft | `4` | 左下角。旋转 180 度，然后水平反转。 |
 | LeftTop | `5` | 左上角。逆时针旋转 90 度，然后水平反转。 |
 | RightTop | `6` | 右上角。顺时针旋转 90 度。 |

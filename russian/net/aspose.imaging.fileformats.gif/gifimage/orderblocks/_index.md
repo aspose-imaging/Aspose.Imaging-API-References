@@ -1,14 +1,14 @@
 ---
 title: OrderBlocks
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Упорядочивает блоки GIF в соответствии со спецификацией GIF. Некоторые файлыGifGraphicsControlBlockaspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblockмогут быть удалены для правильного макета GIF.
+description: Упорядочивает блоки GIF в соответствии со спецификацией GIF. НемногоGifGraphicsControlBlockaspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock может быть удален для правильного макета GIF.
 type: docs
 weight: 360
 url: /ru/net/aspose.imaging.fileformats.gif/gifimage/orderblocks/
 ---
 ## GifImage.OrderBlocks method
 
-Упорядочивает блоки GIF в соответствии со спецификацией GIF. Некоторые файлы[`GifGraphicsControlBlock`](../../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock)могут быть удалены для правильного макета GIF.
+Упорядочивает блоки GIF в соответствии со спецификацией GIF. Немного[`GifGraphicsControlBlock`](../../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock) может быть удален для правильного макета GIF.
 
 ```csharp
 public void OrderBlocks()

@@ -1,14 +1,14 @@
 ---
 title: PointD
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр структурыPointDaspose.imaging.fileformats.cdr.types/pointd.
+description: Инициализирует новый экземплярPointDaspose.imaging.fileformats.cdr.types/pointd структура.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.cdr.types/pointd/pointd/
 ---
 ## PointD constructor
 
-Инициализирует новый экземпляр структуры[`PointD`](../../pointd).
+Инициализирует новый экземпляр[`PointD`](../../pointd) структура.
 
 ```csharp
 public PointD(double x, double y)
@@ -16,8 +16,8 @@ public PointD(double x, double y)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| x | Double | Значение x. |
-| y | Double | Значение y. |
+| x | Double | Значение х. |
+| y | Double | Значение у. |
 
 ### Смотрите также
 

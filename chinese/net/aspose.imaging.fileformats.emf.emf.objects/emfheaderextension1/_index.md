@@ -24,23 +24,23 @@ public sealed class EmfHeaderExtension1 : EmfHeaderObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BOpenGl](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderextension1/bopengl) { get; set; } | 获取或设置一个 32 位无符号整数，指示元文件中是否存在 OpenGL 命令。 0x00000000 OpenGL 记录不存在于元文件中。 0x00000001 OpenGL 记录存在于元文件中。 |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/bounds) { get; set; } | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象指定了设备中包含的矩形 边界可以围绕存储在 元文件 |
+| [BOpenGl](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderextension1/bopengl) { get; set; } | 获取或设置一个 32 位无符号整数，指示元文件中是否存在 OpenGL 命令。 0x00000000 元文件中不存在 OpenGL 记录。 0x00000001 元文件中存在 OpenGL 记录。 |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/bounds) { get; set; } | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象指定可以围绕存储在 元文件 中的图像绘制的最小矩形的设备单位中的矩形包容性 边界 |
 | [Bytes](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/bytes) { get; set; } | 获取或设置指定元文件大小的 32 位无符号整数，以字节为单位。 |
-| [CbPixelFormat](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderextension1/cbpixelformat) { get; set; } | 获取或设置指定 PixelFormatDescriptor 对象大小的 32 位无符号整数。 如果没有设置像素格式，则必须为 0x00000000 |
-| [Device](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/device) { get; set; } | 获取或设置指定参考设备大小的 WMF SizeL 对象（[MS-WMF] 2.2.2.22 节），以像素为单位 |
-| [Frame](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/frame) { get; set; } | 获取或设置一个 WMF RectL 对象，该对象指定包围存储在元文件 |
-| [Handles](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/handles) { get; set; } | 获取或设置一个 16 位无符号整数，指定在处理元文件时将使用的图形对象的数量 |
-| [Millimeters](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/millimeters) { get; set; } | 获取或设置指定参考设备大小的 WMF SizeL 对象，以毫米为单位 |
-| [NDesription](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/ndesription) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定数组 中包含元文件内容描述的字符数。如果没有描述字符串，则为零。 |
+| [CbPixelFormat](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderextension1/cbpixelformat) { get; set; } | 获取或设置一个 32 位无符号整数，它指定 PixelFormatDescriptor 对象的大小。 如果没有设置像素格式，则必须为 0x00000000 |
+| [Device](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/device) { get; set; } | 获取或设置一个 WMF SizeL 对象（[MS-WMF] 第 2.2.2.22 节），它指定参考设备的大小，以像素为单位 |
+| [Frame](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/frame) { get; set; } | 获取或设置一个 WMF RectL 对象，该对象指定围绕存储在元文件 中的图像的矩形的矩形包含尺寸，以 0.01 毫米 为单位 |
+| [Handles](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/handles) { get; set; } | 获取或设置一个 16 位无符号整数，指定在处理元文件期间将使用的图形对象的数量 |
+| [Millimeters](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/millimeters) { get; set; } | 获取或设置一个 WMF SizeL 对象，该对象指定参考设备的大小，以毫米为单位 |
+| [NDesription](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/ndesription) { get; set; } | 获取或设置一个 32 位无符号整数，它指定数组 中包含元文件内容描述的字符数。如果没有描述字符串，则为零。 |
 | [NPalEntries](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/npalentries) { get; set; } | 获取或设置一个 32 位无符号整数，它指定元文件 调色板中的条目数。调色板位于 EMR_EOF 记录 |
-| [OffDescription](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/offdescription) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定从该 记录的开头到包含描述的数组的偏移量元文件的内容 |
-| [OffPixelFormat](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderextension1/offpixelformat) { get; set; } | 获取或设置一个 32 位无符号整数，它指定 PixelFormatDescriptor 对象的偏移量。 如果未设置像素格式，则必须为 0x00000000。 |
+| [OffDescription](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/offdescription) { get; set; } | 获取或设置一个 32 位无符号整数，指定从该 记录的开头到包含元文件内容描述的数组的偏移量 |
+| [OffPixelFormat](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderextension1/offpixelformat) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定 PixelFormatDescriptor 对象的偏移量。 如果未设置像素格式，则必须为 0x00000000。 |
 | [Records](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/records) { get; set; } | 获取或设置一个 32 位无符号整数，指定元文件中的记录数 |
 | [RecordSignature](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/recordsignature) { get; set; } | 获取或设置指定记录签名的 32 位无符号整数。这必须是 ENHMETA_SIGNATURE, 来自 FormatSignature 枚举（第 2.1.14 节）。 |
 | [Reserved](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/reserved) { get; set; } | 获取或设置一个必须为 0x0000 且必须被忽略的 16 位无符号整数 |
-| [Valid](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/valid) { get; } | 获取一个值，该值指示此[`EmfHeaderObject`](../emfheaderobject)是否有效。 |
-| [Version](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/version) { get; set; } | 获取或设置版本（4 字节）:一个 32 位无符号整数，用于指定 EMF 图元文件的互操作性。这应该是 0x00010000 |
+| [Valid](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/valid) { get; } | 获取一个值，该值指示这是否[`EmfHeaderObject`](../emfheaderobject)是有效的。 |
+| [Version](../../aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/version) { get; set; } | 获取或设置版本（4 字节）：一个 32 位无符号整数，用于指定 EMF 元文件互操作性。这应该是 0x00010000 |
 
 ### 也可以看看
 

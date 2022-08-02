@@ -1,14 +1,14 @@
 ---
 title: NumSegments
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置线段数 一个 32 位无符号整数指定组成样条的线段数
+description: 获取或设置线段计数 一个 32 位无符号整数指定组成样条的线段数
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawcurve/numsegments/
 ---
 ## EmfPlusDrawCurve.NumSegments property
 
-获取或设置线段数 一个 32 位无符号整数，指定组成样条的线段数。
+获取或设置线段计数 一个 32 位无符号整数，指定组成样条的线段数。
 
 ```csharp
 public int NumSegments { get; set; }

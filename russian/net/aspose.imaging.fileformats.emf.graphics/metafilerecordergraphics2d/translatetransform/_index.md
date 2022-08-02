@@ -29,7 +29,7 @@ public void TranslateTransform(float x, float y)
 
 ## TranslateTransform(float, float, MatrixOrder) {#translatetransform_1}
 
-Изменяет начало системы координат, применяя указанный перевод к матрице преобразования этого Графика в указанном порядке.
+Изменяет начало системы координат, применяя указанный перевод к матрице преобразования этой графики в указанном порядке.
 
 ```csharp
 public void TranslateTransform(float x, float y, MatrixOrder order)

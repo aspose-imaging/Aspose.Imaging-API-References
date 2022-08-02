@@ -27,15 +27,15 @@ public class CdrPolygonTransform : CdrObjectContainer
 | [Childs](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/childs) { get; } | Получает или задает объекты. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | Получает или задает документ. |
-| [Hidden](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/hidden) { get; set; } | Получает или задает значение, указывающее, является ли этот[`CdrObjectContainer`](../cdrobjectcontainer)видимым. |
-| [LastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/lastchild) { get; set; } | Получает или устанавливает последний дочерний элемент. |
-| [LoadToLastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/loadtolastchild) { get; set; } | Получает или задает значение, указывающее, выполняется ли [загрузка в последний дочерний элемент]. |
+| [Hidden](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/hidden) { get; set; } | Получает или задает значение, указывающее, является ли это[`CdrObjectContainer`](../cdrobjectcontainer) виден. |
+| [LastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/lastchild) { get; set; } | Получает или задает последний дочерний элемент. |
+| [LoadToLastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/loadtolastchild) { get; set; } | Получает или задает значение, указывающее, [загружать ли последний дочерний элемент]. |
 | [NextPoint](../../aspose.imaging.fileformats.cdr.objects/cdrpolygontransform/nextpoint) { get; set; } | Получает или задает следующую точку. |
 | [NumAngles](../../aspose.imaging.fileformats.cdr.objects/cdrpolygontransform/numangles) { get; set; } | Получает или задает количество углов. |
 | [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | Получает или задает родителя. |
 | [Position](../../aspose.imaging.fileformats.cdr.objects/cdrpolygontransform/position) { get; set; } | Получает или задает позицию. |
 | [XRadius](../../aspose.imaging.fileformats.cdr.objects/cdrpolygontransform/xradius) { get; set; } | Получает или задает радиус x. |
-| [YRadius](../../aspose.imaging.fileformats.cdr.objects/cdrpolygontransform/yradius) { get; set; } | Получает или задает радиус y. |
+| [YRadius](../../aspose.imaging.fileformats.cdr.objects/cdrpolygontransform/yradius) { get; set; } | Получает или задает радиус Y. |
 
 ## Методы
 

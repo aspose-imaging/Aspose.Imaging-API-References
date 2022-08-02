@@ -1,14 +1,14 @@
 ---
 title: ClipPrecision
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定裁剪精度的 8 位无符号整数 裁剪精度定义了如何裁剪部分位于裁剪区域之外的字符 它可以是一个或多个 WMF ClipPrecision Flags
+description: 获取或设置指定裁剪精度的 8 位无符号整数 裁剪精度定义了如何裁剪部分位于裁剪区域之外的字符 可以是WMF ClipPrecision Flags中的一个或多个
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emflogfont/clipprecision/
 ---
 ## EmfLogFont.ClipPrecision property
 
-获取或设置指定裁剪精度的 8 位无符号整数。 裁剪精度定义了如何裁剪部分位于裁剪区域之外的字符。 它可以是一个或多个 WMF ClipPrecision Flags
+获取或设置指定裁剪精度的 8 位无符号整数。 裁剪精度定义了如何裁剪部分位于裁剪区域之外的字符。 可以是WMF ClipPrecision Flags中的一个或多个
 
 ```csharp
 public WmfClipPrecisionFlags ClipPrecision { get; set; }

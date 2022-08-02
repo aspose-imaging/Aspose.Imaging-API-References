@@ -16,9 +16,9 @@ public void Translate(float offsetX, float offsetY, MatrixOrder order)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| offsetX | Single | 偏移量 X |
-| offsetY | Single | 偏移量 Y . |
-| order | MatrixOrder | 订单。 |
+| offsetX | Single | 偏移量 X。 |
+| offsetY | Single | 偏移量 Y。 |
+| order | MatrixOrder | 命令。 |
 
 ### 也可以看看
 
@@ -31,7 +31,7 @@ public void Translate(float offsetX, float offsetY, MatrixOrder order)
 
 ## Translate(float, float) {#translate}
 
-将指定的平移向量应用于此[`Matrix`](../../matrix)使用（默认）前置顺序。
+将指定的平移向量应用于此[`Matrix`](../../matrix)使用（默认）前置订单.
 
 ```csharp
 public void Translate(float tx, float ty)
@@ -39,8 +39,8 @@ public void Translate(float tx, float ty)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tx | Single | tx。发送。发送。 |
-| ty | Single | ty。泰。泰。 |
+| tx | Single | 发送。发送。发送。 |
+| ty | Single | 泰。泰。泰。 |
 
 ### 也可以看看
 

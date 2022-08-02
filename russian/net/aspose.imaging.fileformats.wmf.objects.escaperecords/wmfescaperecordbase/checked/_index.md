@@ -1,14 +1,14 @@
 ---
 title: Checked
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее проверено ли этоWmfEscapeRecordBaseaspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase.
+description: Получает значение указывающее является ли этоWmfEscapeRecordBaseaspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase проверено.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/checked/
 ---
 ## WmfEscapeRecordBase.Checked property
 
-Получает значение, указывающее, проверено ли это[`WmfEscapeRecordBase`](../../wmfescaperecordbase).
+Получает значение, указывающее, является ли это[`WmfEscapeRecordBase`](../../wmfescaperecordbase) проверено.
 
 ```csharp
 public virtual bool Checked { get; set; }
@@ -16,7 +16,7 @@ public virtual bool Checked { get; set; }
 
 ### Стоимость имущества
 
-` true` если отмечено; в противном случае` false` .
+`истинный` если отмечено; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

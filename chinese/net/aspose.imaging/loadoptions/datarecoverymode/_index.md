@@ -8,7 +8,7 @@ url: /zh/net/aspose.imaging/loadoptions/datarecoverymode/
 ---
 ## LoadOptions.DataRecoveryMode property
 
-获取或设置数据恢复模式。
+获取或设置数据恢复模式
 
 ```csharp
 public DataRecoveryMode DataRecoveryMode { get; set; }
@@ -16,7 +16,7 @@ public DataRecoveryMode DataRecoveryMode { get; set; }
 
 ### 适当的价值
 
-数据恢复模式。
+数据恢复模式
 
 ### 也可以看看
 

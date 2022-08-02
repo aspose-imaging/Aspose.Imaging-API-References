@@ -1,14 +1,14 @@
 ---
 title: FromLeftTopRightBottom
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Создает структуруRectangleFaspose.imaging/rectanglefс левым верхним и правым нижним углами в указанных местах.
+description: СоздаетRectangleFaspose.imaging/rectanglef структура с левым верхним и правым нижним углами в указанных местах.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging/rectanglef/fromlefttoprightbottom/
 ---
 ## RectangleF.FromLeftTopRightBottom method
 
-Создает структуру[`RectangleF`](../../rectanglef)с левым верхним и правым нижним углами в указанных местах.
+Создает[`RectangleF`](../../rectanglef) структура с левым верхним и правым нижним углами в указанных местах.
 
 ```csharp
 public static RectangleF FromLeftTopRightBottom(float left, float top, float right, float bottom)
@@ -18,12 +18,12 @@ public static RectangleF FromLeftTopRightBottom(float left, float top, float rig
 | --- | --- | --- |
 | left | Single | Координата x левого верхнего угла прямоугольной области. |
 | top | Single | Y-координата левого верхнего угла прямоугольной области. |
-| right | Single | Координата x правого нижнего угла прямоугольной области. |
+| right | Single | Координата x нижнего правого угла прямоугольной области. |
 | bottom | Single | Y-координата правого нижнего угла прямоугольной области. |
 
 ### Возвращаемое значение
 
-Новый объект[`RectangleF`](../../rectanglef), который создает этот метод.
+Новый[`RectangleF`](../../rectanglef) что создает этот метод.
 
 ### Смотрите также
 

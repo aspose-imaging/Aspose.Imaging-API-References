@@ -1,14 +1,14 @@
 ---
 title: Colors
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个颜色数组该数组表示沿渐变的相应位置使用的颜色
+description: 获取或设置一个颜色数组表示要在渐变的相应位置使用的颜色
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging/colorblend/colors/
 ---
 ## ColorBlend.Colors property
 
-获取或设置一个颜色数组，该数组表示沿渐变的相应位置使用的颜色。
+获取或设置一个颜色数组，表示要在渐变的相应位置使用的颜色。
 
 ```csharp
 public Color[] Colors { get; set; }
@@ -16,7 +16,7 @@ public Color[] Colors { get; set; }
 
 ### 返回值
 
-[`Color`](../../color)结构的数组，表示要在相应位置使用的颜色沿渐变的位置。
+一个数组[`Color`](../../color)表示要在沿渐变的相应位置使用的颜色的结构。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Dimensions
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化Dimensionsaspose.imaging.xmp.types.complex.dimensions/dimensions类的新实例
+description: 初始化Dimensionsaspose.imaging.xmp.types.complex.dimensions/dimensions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp.types.complex.dimensions/dimensions/dimensions/
 ---
 ## Dimensions() {#constructor}
 
-初始化[`Dimensions`](../../dimensions)类的新实例。
+初始化[`Dimensions`](../../dimensions)类.
 
 ```csharp
 public Dimensions()
@@ -24,7 +24,7 @@ public Dimensions()
 
 ## Dimensions(float, float) {#constructor_1}
 
-初始化[`Dimensions`](../../dimensions)类的新实例。
+初始化[`Dimensions`](../../dimensions)类.
 
 ```csharp
 public Dimensions(float width, float height)

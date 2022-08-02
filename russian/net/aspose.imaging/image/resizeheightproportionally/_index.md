@@ -1,14 +1,14 @@
 ---
 title: ResizeHeightProportionally
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пропорционально изменяет размер высоты. По умолчанию используетсяNearestNeighbourResample.
+description: Изменяет размер высоты пропорционально. По умолчаниюNearestNeighbourResample используется.
 type: docs
 weight: 210
 url: /ru/net/aspose.imaging/image/resizeheightproportionally/
 ---
 ## ResizeHeightProportionally(int) {#resizeheightproportionally}
 
-Пропорционально изменяет размер высоты. По умолчанию используетсяNearestNeighbourResample.
+Изменяет размер высоты пропорционально. По умолчаниюNearestNeighbourResample используется.
 
 ```csharp
 public void ResizeHeightProportionally(int newHeight)
@@ -28,7 +28,7 @@ public void ResizeHeightProportionally(int newHeight)
 
 ## ResizeHeightProportionally(int, ResizeType) {#resizeheightproportionally_2}
 
-Пропорционально изменяет размер высоты.
+Изменяет размер высоты пропорционально.
 
 ```csharp
 public virtual void ResizeHeightProportionally(int newHeight, ResizeType resizeType)
@@ -46,50 +46,34 @@ public virtual void ResizeHeightProportionally(int newHeight, ResizeType resizeT
 ```csharp
 [C#]
 
- // Маскировка экспорта options
-Aspose.Imaging.ImageOptions.PngOptions exportOptions = new Aspose.Imaging.ImageOptions.PngOptions();
-exportOptions.ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
-exportOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream());
-
-Aspose.Imaging.Masking.Options.MaskingOptions maskingOptions = new Aspose.Imaging.Masking.Options.MaskingOptions();
-    
-// Использовать кластеризацию GraphCut.
-maskingOptions.Method = Masking.Options.SegmentationMethod.GraphCut;
-maskingOptions.Decompose = false;
-maskingOptions.Args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
-
- // Цвет фона будет прозрачным.
-maskingOptions.BackgroundReplacementColor = Aspose.Imaging.Color.Transparent;
-maskingOptions.ExportOptions = exportOptions;
-
 string dir = "c:\\temp\\";
-using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "BigImage.jpg"))
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-    Aspose.Imaging.Size imageSize = image.Size;
+    // Масштабирование в 2 раза с использованием передискретизации ближайших соседей.
+    image.ResizeHeightProportionally(image.Height* 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
+    image.Save(dir + "upsample.nearestneighbour.gif");
+}
 
-     // Уменьшение размера изображения для ускорения процесса сегментации
-    image.ResizeHeightProportionally(600, Aspose.Imaging.ResizeType.HighQualityResample);
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
+{
+    // Масштабирование в 2 раза с использованием передискретизации ближайших соседей.
+    image.ResizeHeightProportionally(image.Height / 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
+    image.Save(dir + "upsample.nearestneighbour.gif");
+}
 
-     // Создаем экземпляр класса ImageMasking.
-    Aspose.Imaging.Masking.ImageMasking masking = new Aspose.Imaging.Masking.ImageMasking(image);
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
+{
+    // Масштабируем в 2 раза, используя билинейную передискретизацию.
+    image.ResizeHeightProportionally(image.Height* 2, Aspose.Imaging.ResizeType.BilinearResample);
+    image.Save(dir + "upsample.bilinear.gif");
+}
 
-     // Разделить исходное изображение на несколько кластеров (сегментов).
-    using (Aspose.Imaging.Masking.Result.MaskingResult maskingResult = masking.Decompose(maskingOptions))
-    {
-         // Получение маски переднего плана
-        using (Aspose.Imaging.RasterImage foregroundMask = maskingResult[1].GetMask()) 
-        {
-             // Увеличиваем размер маски до размера оригинального image
-            foregroundMask.Resize(imageSize.Width, imageSize.Height, Aspose.Imaging.ResizeType.NearestNeighbourResample);
-
-             // Применение маски к исходному изображению для получения переднего плана segment
-            using (Aspose.Imaging.RasterImage originImage = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "BigImage.jpg"))
-            {
-                Aspose.Imaging.Masking.ImageMasking.ApplyMask(originImage, foregroundMask, maskingOptions);
-                originImage.Save(dir + "BigImage_foreground.png", exportOptions);
-            }
-        }
-    }
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
+{
+    // Уменьшить масштаб в 2 раза, используя билинейную передискретизацию.
+    image.ResizeHeightProportionally(image.Height / 2, Aspose.Imaging.ResizeType.BilinearResample);
+    image.Save(dir + "downsample.bilinear.gif");
 }
 ```
 
@@ -98,7 +82,7 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 ```csharp
 [C#]
 
- // Маскировка экспорта options
+// Маскировка опций экспорта
 Aspose.Imaging.ImageOptions.PngOptions exportOptions = new Aspose.Imaging.ImageOptions.PngOptions();
 exportOptions.ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
 exportOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream());
@@ -110,7 +94,7 @@ maskingOptions.Method = Masking.Options.SegmentationMethod.GraphCut;
 maskingOptions.Decompose = false;
 maskingOptions.Args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
 
- // Цвет фона будет прозрачным.
+// Цвет фона будет прозрачным.
 maskingOptions.BackgroundReplacementColor = Aspose.Imaging.Color.Transparent;
 maskingOptions.ExportOptions = exportOptions;
 
@@ -119,22 +103,22 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 {
     Aspose.Imaging.Size imageSize = image.Size;
 
-     // Уменьшение размера изображения для ускорения процесса сегментации
+    // Уменьшение размера изображения для ускорения процесса сегментации
     image.ResizeHeightProportionally(600, Aspose.Imaging.ResizeType.HighQualityResample);
 
-     // Создаем экземпляр класса ImageMasking.
+    // Создаем экземпляр класса ImageMasking.
     Aspose.Imaging.Masking.ImageMasking masking = new Aspose.Imaging.Masking.ImageMasking(image);
 
-     // Разделить исходное изображение на несколько кластеров (сегментов).
+    // Разделить исходное изображение на несколько кластеров (сегментов).
     using (Aspose.Imaging.Masking.Result.MaskingResult maskingResult = masking.Decompose(maskingOptions))
     {
-         // Получение маски переднего плана
+        // Получение маски переднего плана
         using (Aspose.Imaging.RasterImage foregroundMask = maskingResult[1].GetMask()) 
         {
-             // Увеличиваем размер маски до размера оригинального image
+            // Увеличиваем размер маски до размера исходного изображения
             foregroundMask.Resize(imageSize.Width, imageSize.Height, Aspose.Imaging.ResizeType.NearestNeighbourResample);
 
-             // Применение маски к исходному изображению для получения переднего плана segment
+            // Применение маски к исходному изображению для получения сегмента переднего плана
             using (Aspose.Imaging.RasterImage originImage = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "BigImage.jpg"))
             {
                 Aspose.Imaging.Masking.ImageMasking.ApplyMask(originImage, foregroundMask, maskingOptions);
@@ -156,7 +140,7 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 
 ## ResizeHeightProportionally(int, ImageResizeSettings) {#resizeheightproportionally_1}
 
-Пропорционально изменяет размер высоты.
+Изменяет размер высоты пропорционально.
 
 ```csharp
 public virtual void ResizeHeightProportionally(int newHeight, ImageResizeSettings settings)

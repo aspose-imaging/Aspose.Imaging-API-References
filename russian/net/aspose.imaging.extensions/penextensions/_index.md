@@ -1,14 +1,14 @@
 ---
 title: PenExtensions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Содержит методы расширения дляPen../aspose.imaging/penиPen.
+description: Содержит методы расширения дляPen../aspose.imaging/pen а такжеPen .
 type: docs
 weight: 1230
 url: /ru/net/aspose.imaging.extensions/penextensions/
 ---
 ## PenExtensions class
 
-Содержит методы расширения для[`Pen`](../../aspose.imaging/pen)иPen.
+Содержит методы расширения для[`Pen`](../../aspose.imaging/pen) а такжеPen .
 
 ```csharp
 public static class PenExtensions
@@ -18,7 +18,7 @@ public static class PenExtensions
 
 | Имя | Описание |
 | --- | --- |
-| static [ToGdiPen](../../aspose.imaging.extensions/penextensions/togdipen)(Pen) | Преобразует[`Pen`](../../aspose.imaging/pen)вPen. |
+| static [ToGdiPen](../../aspose.imaging.extensions/penextensions/togdipen)(Pen) | Преобразует[`Pen`](../../aspose.imaging/pen) кPen . |
 
 ### Смотрите также
 

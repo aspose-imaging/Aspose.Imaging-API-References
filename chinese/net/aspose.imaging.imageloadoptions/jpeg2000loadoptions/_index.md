@@ -18,17 +18,17 @@ public class Jpeg2000LoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Jpeg2000LoadOptions](jpeg2000loadoptions)() | 初始化[`Jpeg2000LoadOptions`](../jpeg2000loadoptions)类的新实例。 |
+| [Jpeg2000LoadOptions](jpeg2000loadoptions)() | 初始化[`Jpeg2000LoadOptions`](../jpeg2000loadoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [BufferSizeHint](../../aspose.imaging/loadoptions/buffersizehint) { get; set; } | 获取或设置缓冲区大小提示，该提示定义了所有内部缓冲区的最大允许大小。 |
-| [DataBackgroundColor](../../aspose.imaging/loadoptions/databackgroundcolor) { get; set; } | 获取或设置[`Image`](../../aspose.imaging/image)背景[`Color`](../../aspose.imaging/color). |
-| [DataRecoveryMode](../../aspose.imaging/loadoptions/datarecoverymode) { get; set; } | 获取或设置数据恢复模式。 |
-| [MaximumDecodingTime](../../aspose.imaging.imageloadoptions/jpeg2000loadoptions/maximumdecodingtime) { get; set; } | 获取或设置最大解码时间（以秒为单位）（此选项可用于内存机器上非常慢的机器，以防止在非常大的图像上挂起进程 - 分辨率超过 5500x6500像素）。 |
-| [MaximumDecodingTimeForTile](../../aspose.imaging.imageloadoptions/jpeg2000loadoptions/maximumdecodingtimefortile) { get; set; } | 获取或设置图块的最大解码时间。 |
+| [DataBackgroundColor](../../aspose.imaging/loadoptions/databackgroundcolor) { get; set; } | 获取或设置[`Image`](../../aspose.imaging/image)背景[`Color`](../../aspose.imaging/color) . |
+| [DataRecoveryMode](../../aspose.imaging/loadoptions/datarecoverymode) { get; set; } | 获取或设置数据恢复模式 |
+| [MaximumDecodingTime](../../aspose.imaging.imageloadoptions/jpeg2000loadoptions/maximumdecodingtime) { get; set; } | 获取或设置最大解码时间（以秒为单位）（此选项可用于内存机器上速度非常慢的情况，以防止在非常大的图像上挂起进程 - 分辨率超过 5500x6500 像素）。 |
+| [MaximumDecodingTimeForTile](../../aspose.imaging.imageloadoptions/jpeg2000loadoptions/maximumdecodingtimefortile) { get; set; } | 获取或设置tile的最大解码时间。 |
 | [ProgressEventHandler](../../aspose.imaging/loadoptions/progresseventhandler) { get; set; } | 获取或设置进度事件处理程序。 |
 
 ## 方法

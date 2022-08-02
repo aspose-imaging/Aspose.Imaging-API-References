@@ -1,14 +1,14 @@
 ---
 title: CmxDocument
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化CmxDocumentaspose.imaging.fileformats.cmx.objectmodel/cmxdocument类的新实例
+description: 初始化CmxDocumentaspose.imaging.fileformats.cmx.objectmodel/cmxdocument类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel/cmxdocument/cmxdocument/
 ---
 ## CmxDocument constructor
 
-初始化[`CmxDocument`](../../cmxdocument)类的新实例。
+初始化[`CmxDocument`](../../cmxdocument)类.
 
 ```csharp
 public CmxDocument()

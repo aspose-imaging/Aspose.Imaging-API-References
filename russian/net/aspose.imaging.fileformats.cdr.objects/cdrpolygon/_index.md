@@ -1,14 +1,14 @@
 ---
 title: CdrPolygon
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Полигон cdr
+description: Полигон CDR
 type: docs
 weight: 1710
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrpolygon/
 ---
 ## CdrPolygon class
 
-Полигон cdr
+Полигон CDR
 
 ```csharp
 public class CdrPolygon : CdrGraphicObject
@@ -30,7 +30,7 @@ public class CdrPolygon : CdrGraphicObject
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | Получает или задает документ. |
 | [Height](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/height) { get; set; } | Получает или задает y. |
 | [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | Получает или задает родителя. |
-| [Points](../../aspose.imaging.fileformats.cdr.objects/cdrpolygon/points) { get; set; } | Получает или устанавливает точки. |
+| [Points](../../aspose.imaging.fileformats.cdr.objects/cdrpolygon/points) { get; set; } | Получает или устанавливает очки. |
 | [PointTypes](../../aspose.imaging.fileformats.cdr.objects/cdrpolygon/pointtypes) { get; set; } | Получает или задает типы точек. |
 | [Width](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/width) { get; set; } | Получает или задает x. |
 

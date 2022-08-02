@@ -20,14 +20,14 @@ public enum EmfArmStyle : byte
 | --- | --- | --- |
 | PAN_ANY | `0` | 任何风格。 |
 | PAN_NO_FIT | `1` | 不合适。 |
-| PAN_STRAIGHT_ARMS_HORZ | `2` | 直臂/水平。 |
+| PAN_STRAIGHT_ARMS_HORZ | `2` | 直臂/水平. |
 | PAN_STRAIGHT_ARMS_WEDGE | `3` | 直臂/楔形 |
-| PAN_STRAIGHT_ARMS_VERT | `4` | 直臂/垂直 |
+| PAN_STRAIGHT_ARMS_VERT | `4` | 直臂/vertical |
 | PAN_STRAIGHT_ARMS_SINGLE_SERIF | `5` | 直臂/单衬线。 |
 | PAN_STRAIGHT_ARMS_DOUBLE_SERIF | `6` | 直臂/双衬线。 |
-| PAN_BENT_ARMS_HORZ | `7` | 非直臂/水平。 |
+| PAN_BENT_ARMS_HORZ | `7` | 非直臂/水平. |
 | PAN_BENT_ARMS_WEDGE | `8` | 非直臂/楔形 |
-| PAN_BENT_ARMS_VERT | `9` | 非直臂/垂直。 |
+| PAN_BENT_ARMS_VERT | `9` | 非直臂/垂直. |
 | PAN_BENT_ARMS_SINGLE_SERIF | `10` | 非直臂/单衬线。 |
 | PAN_BENT_ARMS_DOUBLE_SERIF | `11` | 非直臂/双衬线。 |
 

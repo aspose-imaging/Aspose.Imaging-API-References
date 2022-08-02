@@ -1,14 +1,14 @@
 ---
 title: TiffFillOrders
 second_title: Aspose.Imaging for .NET API 参考
-description: 字节内的数据顺序ltbr /gt FILLORDER 标记的可能值
+description: 一个字节内的数据顺序 FILLORDER 标记的可能值
 type: docs
 weight: 7660
 url: /zh/net/aspose.imaging.fileformats.tiff.enums/tifffillorders/
 ---
 ## TiffFillOrders enumeration
 
-字节内的数据顺序。&lt;br /&gt; FILLORDER 标记的可能值。
+一个字节内的数据顺序。 FILLORDER 标记的可能值。
 
 ```csharp
 public enum TiffFillOrders : ushort
@@ -18,8 +18,8 @@ public enum TiffFillOrders : ushort
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Msb2Lsb | `1` | 最重要 -&gt;至少。 |
-| Lsb2Msb | `2` | 最不重要 -&gt;最多。 |
+| Msb2Lsb | `1` | 最重要 -&gt; 最不重要。 |
+| Lsb2Msb | `2` | 最不重要 -&gt; 大多数. |
 
 ### 也可以看看
 

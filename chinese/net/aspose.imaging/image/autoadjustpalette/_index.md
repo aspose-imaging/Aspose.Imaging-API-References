@@ -16,7 +16,7 @@ public bool AutoAdjustPalette { get; set; }
 
 ### 适当的价值
 
-` true` 如果启用自动调整调色板；否则，` false` 。
+`真的`如果启用自动调整调色板；否则，`错误的` .
 
 ### 也可以看看
 

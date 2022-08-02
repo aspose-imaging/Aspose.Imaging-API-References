@@ -1,14 +1,14 @@
 ---
 title: ColorantRgb
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示 RGB 着色剂
+description: 代表 RGB 着色剂
 type: docs
-weight: 11560
+weight: 11550
 url: /zh/net/aspose.imaging.xmp.types.complex.colorant/colorantrgb/
 ---
 ## ColorantRgb class
 
-表示 RGB 着色剂。
+代表 RGB 着色剂。
 
 ```csharp
 public sealed class ColorantRgb : ColorantBase
@@ -18,8 +18,8 @@ public sealed class ColorantRgb : ColorantBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ColorantRgb](colorantrgb#constructor)() | 初始化[`ColorantRgb`](../colorantrgb)类的新实例。 |
-| [ColorantRgb](colorantrgb#constructor_1)(byte, byte, byte) | 初始化[`ColorantRgb`](../colorantrgb)类的新实例。 |
+| [ColorantRgb](colorantrgb#constructor)() | 初始化[`ColorantRgb`](../colorantrgb)类. |
+| [ColorantRgb](colorantrgb#constructor_1)(byte, byte, byte) | 初始化[`ColorantRgb`](../colorantrgb)类. |
 
 ## 特性
 
@@ -28,7 +28,7 @@ public sealed class ColorantRgb : ColorantBase
 | [Blue](../../aspose.imaging.xmp.types.complex.colorant/colorantrgb/blue) { get; set; } | 获取或设置蓝色分量值。 |
 | [ColorType](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/colortype) { get; set; } | 获取或设置颜色的类型。 |
 | [Green](../../aspose.imaging.xmp.types.complex.colorant/colorantrgb/green) { get; set; } | 获取或设置绿色分量值。 |
-| [Mode](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/mode) { get; } | 获取[`ColorMode`](../colormode)。 |
+| [Mode](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/mode) { get; } | 获取[`ColorMode`](../colormode) . |
 | [NamespaceUri](../../aspose.imaging.xmp.types.complex/complextypebase/namespaceuri) { get; } | 获取默认命名空间 URI。 |
 | [Prefix](../../aspose.imaging.xmp.types.complex/complextypebase/prefix) { get; } | 获取前缀。 |
 | [Red](../../aspose.imaging.xmp.types.complex.colorant/colorantrgb/red) { get; set; } | 获取或设置红色分量值。 |

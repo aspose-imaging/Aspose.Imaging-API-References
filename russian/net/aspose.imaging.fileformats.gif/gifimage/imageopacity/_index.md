@@ -1,14 +1,14 @@
 ---
 title: ImageOpacity
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает прозрачность этого изображения активный кадр.
+description: Получает непрозрачность этого изображения активный кадр.
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging.fileformats.gif/gifimage/imageopacity/
 ---
 ## GifImage.ImageOpacity property
 
-Получает прозрачность этого изображения (активный кадр).
+Получает непрозрачность этого изображения (активный кадр).
 
 ```csharp
 public override float ImageOpacity { get; }

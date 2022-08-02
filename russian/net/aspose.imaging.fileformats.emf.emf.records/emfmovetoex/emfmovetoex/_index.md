@@ -1,14 +1,14 @@
 ---
 title: EmfMoveToEx
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfMoveToExaspose.imaging.fileformats.emf.emf.records/emfmovetoex.
+description: Инициализирует новый экземплярEmfMoveToExaspose.imaging.fileformats.emf.emf.records/emfmovetoex класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfmovetoex/emfmovetoex/
 ---
 ## EmfMoveToEx(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfMoveToEx`](../../emfmovetoex).
+Инициализирует новый экземпляр[`EmfMoveToEx`](../../emfmovetoex) класс.
 
 ```csharp
 public EmfMoveToEx(EmfRecord record)
@@ -29,7 +29,7 @@ public EmfMoveToEx(EmfRecord record)
 
 ## EmfMoveToEx() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfMoveToEx`](../../emfmovetoex).
+Инициализирует новый экземпляр[`EmfMoveToEx`](../../emfmovetoex) класс.
 
 ```csharp
 public EmfMoveToEx()

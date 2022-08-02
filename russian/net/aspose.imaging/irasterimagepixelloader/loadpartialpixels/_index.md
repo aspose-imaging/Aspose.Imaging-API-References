@@ -17,7 +17,7 @@ public void LoadPartialPixels(Rectangle rectangle, IPartialPixelLoader partialPi
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | rectangle | Rectangle | Прямоугольник, из которого загружаются пиксели. |
-| partialPixelLoader | IPartialPixelLoader | Частичный загрузчик пикселей. |
+| partialPixelLoader | IPartialPixelLoader | Частичная загрузка пикселей. |
 
 ### Смотрите также
 

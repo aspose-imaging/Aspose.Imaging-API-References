@@ -1,14 +1,14 @@
 ---
 title: ReadSRational
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Считать из потока значение рационального числа с одним знаком.
+description: Считать значение рационального числа с одним знаком из потока.
 type: docs
 weight: 150
 url: /ru/net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsrational/
 ---
 ## TiffStreamReader.ReadSRational method
 
-Считать из потока значение рационального числа с одним знаком.
+Считать значение рационального числа с одним знаком из потока.
 
 ```csharp
 public TiffSRational ReadSRational(long position)

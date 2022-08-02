@@ -1,14 +1,14 @@
 ---
 title: CdrColor
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Цвет cdr
+description: CDR color
 type: docs
 weight: 1840
 url: /ru/net/aspose.imaging.fileformats.cdr.types/cdrcolor/
 ---
 ## CdrColor class
 
-Цвет cdr
+CDR color
 
 ```csharp
 public class CdrColor

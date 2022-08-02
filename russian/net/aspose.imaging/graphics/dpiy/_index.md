@@ -1,14 +1,14 @@
 ---
 title: DpiY
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает вертикальное разрешение этого Aspose.Imaging.Graphics.
+description: Получает вертикальное разрешение Aspose.Imaging.Graphics.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging/graphics/dpiy/
 ---
 ## Graphics.DpiY property
 
-Получает вертикальное разрешение этого Aspose.Imaging.Graphics.
+Получает вертикальное разрешение Aspose.Imaging.Graphics.
 
 ```csharp
 public float DpiY { get; }
@@ -16,7 +16,7 @@ public float DpiY { get; }
 
 ### Стоимость имущества
 
-Значение в точках на дюйм для вертикального разрешения, поддерживаемого этим Aspose.Imaging.Graphics .
+Значение в точках на дюйм для вертикального разрешения, поддерживаемого этим Aspose.Imaging.Graphics.
 
 ### Смотрите также
 

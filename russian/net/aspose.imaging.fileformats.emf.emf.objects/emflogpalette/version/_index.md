@@ -1,14 +1,14 @@
 ---
 title: Version
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 16-разрядное целое число без знака указывающее номер версии системы. Это ДОЛЖНО быть 0x0300.
+description: Получает или задает 16-разрядное целое число без знака указывающее номер версии системы. ДОЛЖЕН быть 0x0300.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emflogpalette/version/
 ---
 ## EmfLogPalette.Version property
 
-Получает или задает 16-разрядное целое число без знака, указывающее номер версии системы. Это ДОЛЖНО быть 0x0300.
+Получает или задает 16-разрядное целое число без знака, указывающее номер версии системы. ДОЛЖЕН быть 0x0300.
 
 ```csharp
 public short Version { get; set; }

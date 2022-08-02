@@ -1,14 +1,14 @@
 ---
 title: MergeLayers
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值指示是否merege layers
+description: 获取或设置一个值指示是否 merege layers.
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.imageoptions/multipageoptions/mergelayers/
 ---
 ## MultiPageOptions.MergeLayers property
 
-获取或设置一个值，指示是否[merege layers]。
+获取或设置一个值，指示是否 [merege layers].
 
 ```csharp
 public bool MergeLayers { get; set; }
@@ -16,7 +16,7 @@ public bool MergeLayers { get; set; }
 
 ### 适当的价值
 
-` true` if [merege layers];否则，` false` 。
+`真的` if [合并层]；否则，`错误的` .
 
 ### 也可以看看
 

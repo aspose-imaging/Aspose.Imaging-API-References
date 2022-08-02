@@ -18,8 +18,8 @@ public class GifUnknownExtensionBlock : GifBlock
 
 | Имя | Описание |
 | --- | --- |
-| [GifUnknownExtensionBlock](gifunknownextensionblock#constructor)() | Инициализирует новый экземпляр класса[`GifUnknownExtensionBlock`](../gifunknownextensionblock). |
-| [GifUnknownExtensionBlock](gifunknownextensionblock#constructor_1)(byte, byte[]) | Инициализирует новый экземпляр класса[`GifUnknownExtensionBlock`](../gifunknownextensionblock). |
+| [GifUnknownExtensionBlock](gifunknownextensionblock#constructor)() | Инициализирует новый экземпляр[`GifUnknownExtensionBlock`](../gifunknownextensionblock) класс. |
+| [GifUnknownExtensionBlock](gifunknownextensionblock#constructor_1)(byte, byte[]) | Инициализирует новый экземпляр[`GifUnknownExtensionBlock`](../gifunknownextensionblock) класс. |
 
 ## Характеристики
 
@@ -27,7 +27,7 @@ public class GifUnknownExtensionBlock : GifBlock
 | --- | --- |
 | [ExtensionLabel](../../aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/extensionlabel) { get; set; } | Получает или задает метку расширения блока. |
 | [IsChanged](../../aspose.imaging.fileformats.gif/gifblock/ischanged) { get; set; } | Получает или задает значение, указывающее, изменился ли блок и требуется ли его сохранение. |
-| [UnknownData](../../aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/unknowndata) { get; set; } | Получает или задает неизвестные данные. |
+| [UnknownData](../../aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/unknowndata) { get; set; } | Получает или устанавливает неизвестные данные. |
 
 ## Методы
 

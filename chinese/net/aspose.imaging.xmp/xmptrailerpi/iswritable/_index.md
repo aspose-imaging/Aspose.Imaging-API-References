@@ -16,7 +16,7 @@ public bool IsWritable { get; set; }
 
 ### 适当的价值
 
-` true` 如果此实例是可写的；否则，` false` 。
+`真的`如果这个实例是可写的；否则，`错误的` .
 
 ### 也可以看看
 

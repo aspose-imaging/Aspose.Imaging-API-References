@@ -1,14 +1,14 @@
 ---
 title: SetOutputChannelColorProfile
 second_title: Aspose.Imaging for .NET API 参考
-description: 设置默认类别的输出通道颜色配置文件
+description: 为默认类别设置输出通道颜色配置文件
 type: docs
 weight: 180
 url: /zh/net/aspose.imaging/imageattributes/setoutputchannelcolorprofile/
 ---
 ## SetOutputChannelColorProfile(string) {#setoutputchannelcolorprofile}
 
-设置默认类别的输出通道颜色配置文件。
+为默认类别设置输出通道颜色配置文件。
 
 ```csharp
 public void SetOutputChannelColorProfile(string colorProfileFilename)
@@ -37,7 +37,7 @@ public void SetOutputChannelColorProfile(string colorProfileFilename, ColorAdjus
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | colorProfileFilename | String | 颜色配置文件的路径名。如果颜色配置文件在 %SystemRoot%\System32\Spool\Drivers\Color 目录下，该参数可以是文件名。否则，此参数必须是完全限定的路径名。 |
-| type | ColorAdjustType | [`ColorAdjustType`](../../coloradjusttype)的一个元素，指定输出通道颜色配置文件所在的类别放。 |
+| type | ColorAdjustType | 一个元素[`ColorAdjustType`](../../coloradjusttype)指定为其设置输出通道颜色配置文件的类别。 |
 
 ### 也可以看看
 

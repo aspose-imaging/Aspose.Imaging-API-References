@@ -1,14 +1,14 @@
 ---
 title: Epsilon
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Эпсилон для расчета дроби
+description: Эпсилон для вычисления дроби
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging.fileformats.tiff/tiffrational/epsilon/
 ---
 ## TiffRational.Epsilon field
 
-Эпсилон для расчета дроби
+Эпсилон для вычисления дроби
 
 ```csharp
 public const double Epsilon;

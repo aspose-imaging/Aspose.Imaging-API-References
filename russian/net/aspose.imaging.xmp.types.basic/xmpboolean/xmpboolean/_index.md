@@ -1,14 +1,14 @@
 ---
 title: XmpBoolean
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаXmpBooleanaspose.imaging.xmp.types.basic/xmpbooleanна основе логического значения.
+description: Инициализирует новый экземплярXmpBooleanaspose.imaging.xmp.types.basic/xmpboolean класс на основе логического значения.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp.types.basic/xmpboolean/xmpboolean/
 ---
 ## XmpBoolean(bool) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`XmpBoolean`](../../xmpboolean)на основе логического значения.
+Инициализирует новый экземпляр[`XmpBoolean`](../../xmpboolean) класс на основе логического значения.
 
 ```csharp
 public XmpBoolean(bool value)
@@ -16,7 +16,7 @@ public XmpBoolean(bool value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | Boolean | Логическое значение. Допустимые значения:True или False. |
+| value | Boolean | Логическое значение. Допустимые значения: True или False. |
 
 ### Смотрите также
 
@@ -28,7 +28,7 @@ public XmpBoolean(bool value)
 
 ## XmpBoolean() {#constructor}
 
-Инициализирует новый экземпляр класса[`XmpBoolean`](../../xmpboolean)со значением по умолчанию.
+Инициализирует новый экземпляр[`XmpBoolean`](../../xmpboolean) класс со значением по умолчанию.
 
 ```csharp
 public XmpBoolean()
@@ -44,7 +44,7 @@ public XmpBoolean()
 
 ## XmpBoolean(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`XmpBoolean`](../../xmpboolean).
+Инициализирует новый экземпляр[`XmpBoolean`](../../xmpboolean) класс.
 
 ```csharp
 public XmpBoolean(string value)
@@ -58,8 +58,8 @@ public XmpBoolean(string value)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | значение |
-| ArgumentException | Неверное строковое значение;значение |
+| ArgumentNullException | ценность |
+| ArgumentException | Недопустимое строковое значение;значение |
 
 ### Смотрите также
 

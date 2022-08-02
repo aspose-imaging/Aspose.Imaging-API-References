@@ -1,14 +1,14 @@
 ---
 title: EmfContrast
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Перечисление Contrast определяет значения одной из характеристик в системе PANOSE для классификации гарнитур.
+description: Перечисление Contrast определяет значения одной из характеристик в системе PANOSE для классификации шрифтов.
 type: docs
 weight: 2600
 url: /ru/net/aspose.imaging.fileformats.emf.emf.consts/emfcontrast/
 ---
 ## EmfContrast enumeration
 
-Перечисление Contrast определяет значения одной из характеристик в системе PANOSE для классификации гарнитур.
+Перечисление Contrast определяет значения одной из характеристик в системе PANOSE для классификации шрифтов.
 
 ```csharp
 public enum EmfContrast : byte
@@ -21,13 +21,13 @@ public enum EmfContrast : byte
 | PAN_ANY | `0` | Любой контраст |
 | PAN_NO_FIT | `1` | Не подходит. |
 | PAN_CONTRAST_NONE | `2` | Нет контраста. |
-| PAN_CONTRAST_VERY_LOW | `3` | Очень низкий контраст. |
+| PAN_CONTRAST_VERY_LOW | `3` | Очень низкая контрастность. |
 | PAN_CONTRAST_LOW | `4` | Низкая контрастность. |
 | PAN_CONTRAST_MEDIUM_LOW | `5` | Средний лоу. |
 | PAN_CONTRAST_MEDIUM | `6` | Медиум. |
 | PAN_CONTRAST_MEDIUM_HIGH | `7` | Средний высокий. |
 | PAN_CONTRAST_HIGH | `8` | Высокая контрастность. |
-| PAN_CONTRAST_VERY_HIGH | `9` | Очень высокая. |
+| PAN_CONTRAST_VERY_HIGH | `9` | Очень высокий. |
 
 ### Смотрите также
 

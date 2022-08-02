@@ -16,7 +16,7 @@ public static RotateFlipType ToGdiRotateFlipType(RotateFlipType rotateFlipType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rotateFlipType | RotateFlipType | Тип флипа с поворотом. |
+| rotateFlipType | RotateFlipType | Тип поворотного флипа. |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: EmfRoundRect
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_ROUNDRECT определяет прямоугольник с закругленными углами. Прямоугольник обводится с помощью текущего пера и заполняется с помощью текущей кисти.
+description: Запись EMR_ROUNDRECT определяет прямоугольник со скругленными углами. Прямоугольник обведен с помощью текущего пера и заполнен с помощью текущей кисти.
 type: docs
 weight: 4200
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfroundrect/
 ---
 ## EmfRoundRect class
 
-Запись EMR_ROUNDRECT определяет прямоугольник с закругленными углами. Прямоугольник обводится с помощью текущего пера и заполняется с помощью текущей кисти.
+Запись EMR_ROUNDRECT определяет прямоугольник со скругленными углами. Прямоугольник обведен с помощью текущего пера и заполнен с помощью текущей кисти.
 
 ```csharp
 public sealed class EmfRoundRect : EmfDrawingRecordType
@@ -18,16 +18,16 @@ public sealed class EmfRoundRect : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfRoundRect](emfroundrect#constructor)() | Инициализирует новый экземпляр класса[`EmfRoundRect`](../emfroundrect). |
-| [EmfRoundRect](emfroundrect#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfRoundRect`](../emfroundrect). |
+| [EmfRoundRect](emfroundrect#constructor)() | Инициализирует новый экземпляр[`EmfRoundRect`](../emfroundrect) класс. |
+| [EmfRoundRect](emfroundrect#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfRoundRect`](../emfroundrect) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Box](../../aspose.imaging.fileformats.emf.emf.records/emfroundrect/box) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе 2.2.2.19 [MS-WMF], который указывает включающее- инклюзивный прямоугольник для рисования. |
-| [Corner](../../aspose.imaging.fileformats.emf.emf.records/emfroundrect/corner) { get; set; } | Получает или задает 64-битный объект WMF SizeL, указанный в разделе 2.2.2.22 [MS-WMF], который указывает ширину и высота в логических координатах эллипса, используемого для рисования закругленных углов. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Box](../../aspose.imaging.fileformats.emf.emf.records/emfroundrect/box) { get; set; } | Получает или задает 128-битный объект WMF RectL, указанный в разделе 2.2.2.19 [MS-WMF], который указывает прямоугольник для рисования включительно-включающий. |
+| [Corner](../../aspose.imaging.fileformats.emf.emf.records/emfroundrect/corner) { get; set; } | Получает или задает 64-битный объект WMF SizeL, указанный в разделе 2.2.2.22 [MS-WMF], где указывает ширину и высоту в логических координатах эллипса, используемого для рисования закругленных углов. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

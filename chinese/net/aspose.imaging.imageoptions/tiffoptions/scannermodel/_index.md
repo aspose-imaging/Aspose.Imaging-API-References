@@ -16,7 +16,7 @@ public string ScannerModel { get; set; }
 
 ### 适当的价值
 
-扫描仪型号。
+扫描仪型号.
 
 ### 也可以看看
 

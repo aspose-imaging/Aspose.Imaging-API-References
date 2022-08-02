@@ -1,14 +1,14 @@
 ---
 title: EmfPixelFormatBuffer
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置包含 EMF 像素格式描述符的可选字节数组 不需要与EmfMetafileHeaderExtension1 记录或 EMF 描述字符串因此此缓冲区中标记为UndefinedSpace的字段是 可选的并且必须被忽略
+description: 获取或设置一个可选的字节数组其中包含 EMF 像素格式描述符 不需要与 EmfMetafileHeaderExtension1 记录的固定部分或 EMF 描述字符串连续因此此缓冲区中标记为UndefinedSpace的字段是 可选的必须被忽略
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension1/emfpixelformatbuffer/
 ---
 ## EmfMetafileHeaderExtension1.EmfPixelFormatBuffer property
 
-获取或设置包含 EMF 像素格式描述符的可选字节数组， 不需要与EmfMetafileHeaderExtension1 记录或 EMF 描述字符串。因此，此缓冲区中标记为“UndefinedSpace”的字段是 可选的并且必须被忽略
+获取或设置一个可选的字节数组，其中包含 EMF 像素格式描述符， 不需要与 EmfMetafileHeaderExtension1 记录的固定部分或 EMF 描述字符串连续。因此，此缓冲区中标记为“UndefinedSpace”的字段是 可选的，必须被忽略
 
 ```csharp
 public byte[] EmfPixelFormatBuffer { get; set; }

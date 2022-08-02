@@ -1,14 +1,14 @@
 ---
 title: CommentIdentifier
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака которое идентифицирует эту запись комментария как определяющую общедоступные данные. Значение 0x43494447 представляющее собой строку ASCII CIDG идентифицирует это как запись EMR_COMMENT_PUBLIC.
+description: Получает или задает 32-разрядное целое число без знака которое идентифицирует эту запись комментария как определяющую общедоступные данные. Значение 0x43494447 которое является строкой ASCII CIDG идентифицирует это как запись EMR_COMMENT_PUBLIC.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcommentpublicrecordtype/commentidentifier/
 ---
 ## EmfCommentPublicRecordType.CommentIdentifier property
 
-Получает или задает 32-разрядное целое число без знака, которое идентифицирует эту запись комментария как определяющую общедоступные данные. Значение 0x43494447, представляющее собой строку ASCII "CIDG", идентифицирует это как запись EMR_COMMENT_PUBLIC.
+Получает или задает 32-разрядное целое число без знака, которое идентифицирует эту запись комментария как определяющую общедоступные данные. Значение 0x43494447, которое является строкой ASCII "CIDG", идентифицирует это как запись EMR_COMMENT_PUBLIC.
 
 ```csharp
 public override CommentIdentifierEnum CommentIdentifier { get; set; }

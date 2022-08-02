@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает размер записи
+description: Получает или задает размер записи
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfrecord/size/
 ---
 ## EmfRecord.Size property
 
-Получает или устанавливает размер записи
+Получает или задает размер записи
 
 ```csharp
 public int Size { get; set; }

@@ -16,7 +16,7 @@ public SvgColorMode ColorType { get; set; }
 
 ### 适当的价值
 
-SVG图像的颜色类型。
+SVG 图像的颜色类型。
 
 ### 也可以看看
 

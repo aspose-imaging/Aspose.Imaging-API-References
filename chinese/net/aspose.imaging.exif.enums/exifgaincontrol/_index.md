@@ -1,14 +1,14 @@
 ---
 title: ExifGainControl
 second_title: Aspose.Imaging for .NET API 参考
-description: exif 获得控制枚举
+description: exif 增益控制枚举
 type: docs
 weight: 960
 url: /zh/net/aspose.imaging.exif.enums/exifgaincontrol/
 ---
 ## ExifGainControl enumeration
 
-exif 获得控制枚举。
+exif 增益控制枚举。
 
 ```csharp
 public enum ExifGainControl

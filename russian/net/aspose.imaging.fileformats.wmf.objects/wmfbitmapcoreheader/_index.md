@@ -24,11 +24,11 @@ public class WmfBitmapCoreHeader : WmfBitmapBaseHeader
 
 | Имя | Описание |
 | --- | --- |
-| [BitCount](../../aspose.imaging.fileformats.wmf.objects/wmfbitmapbaseheader/bitcount) { get; set; } | Получает или задает 16-разрядное целое число без знака, определяющее формат каждого пикселя и максимальное количество цветов в DIB. Это значение ДОЛЖНО находиться в перечислении[`BitCount`](../wmfbitmapbaseheader/bitcount)(раздел 2.1.1.3). |
-| [HeaderSize](../../aspose.imaging.fileformats.wmf.objects/wmfbitmapbaseheader/headersize) { get; set; } | Получает или задает 32-разрядное целое число без знака, определяющее размер этого объекта в байтах. |
-| [Height](../../aspose.imaging.fileformats.wmf.objects/wmfbitmapcoreheader/height) { get; set; } | Получает или задает 16-разрядное целое число без знака, которое определяет heightDIB, в пикселях |
-| [Planes](../../aspose.imaging.fileformats.wmf.objects/wmfbitmapbaseheader/planes) { get; set; } | Получает или задает 16-разрядное целое число без знака, определяющее количество planesдля целевого устройства. Это значение ДОЛЖНО быть 0x0001. |
-| [Width](../../aspose.imaging.fileformats.wmf.objects/wmfbitmapcoreheader/width) { get; set; } | Получает или задает 16-разрядное целое число без знака, которое определяет widthDIB, в пикселях |
+| [BitCount](../../aspose.imaging.fileformats.wmf.objects/wmfbitmapbaseheader/bitcount) { get; set; } | Получает или задает 16-разрядное целое число без знака, определяющее формат каждого пикселя и максимальное количество цветов в DIB. Это значение ДОЛЖНО быть в[`BitCount`](../wmfbitmapbaseheader/bitcount) Перечисление (раздел 2.1.1.3). |
+| [HeaderSize](../../aspose.imaging.fileformats.wmf.objects/wmfbitmapbaseheader/headersize) { get; set; } | Получает или задает 32-разрядное целое число без знака, определяющее размер объекта this в байтах. |
+| [Height](../../aspose.imaging.fileformats.wmf.objects/wmfbitmapcoreheader/height) { get; set; } | Получает или задает 16-разрядное целое число без знака, которое определяет height DIB, в пикселях |
+| [Planes](../../aspose.imaging.fileformats.wmf.objects/wmfbitmapbaseheader/planes) { get; set; } | Получает или задает 16-разрядное целое число без знака, определяющее число planes для целевого устройства. Это значение ДОЛЖНО быть 0x0001. |
+| [Width](../../aspose.imaging.fileformats.wmf.objects/wmfbitmapcoreheader/width) { get; set; } | Получает или задает 16-разрядное целое число без знака, которое определяет width DIB, в пикселях |
 
 ### Смотрите также
 

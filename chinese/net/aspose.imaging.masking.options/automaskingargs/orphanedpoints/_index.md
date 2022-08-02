@@ -1,14 +1,14 @@
 ---
 title: OrphanedPoints
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置不再属于任何对象的点可选 该参数仅在重新分段的情况下使用
+description: 获取或设置不再属于任何对象的点可选 该参数仅用于重新分割的情况
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.masking.options/automaskingargs/orphanedpoints/
 ---
 ## AutoMaskingArgs.OrphanedPoints property
 
-获取或设置不再属于任何对象的点（可选）。 该参数仅在重新分段的情况下使用。
+获取或设置不再属于任何对象的点（可选）。 该参数仅用于重新分割的情况。
 
 ```csharp
 public Point[] OrphanedPoints { get; set; }

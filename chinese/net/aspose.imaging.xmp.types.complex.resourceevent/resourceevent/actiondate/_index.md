@@ -1,14 +1,14 @@
 ---
 title: ActionDate
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置操作日期
+description: 获取或设置动作日期
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.xmp.types.complex.resourceevent/resourceevent/actiondate/
 ---
 ## ResourceEvent.ActionDate property
 
-获取或设置操作日期。
+获取或设置动作日期。
 
 ```csharp
 public DateTime ActionDate { get; set; }
@@ -16,7 +16,7 @@ public DateTime ActionDate { get; set; }
 
 ### 适当的价值
 
-动作日期。
+行动日期。
 
 ### 也可以看看
 

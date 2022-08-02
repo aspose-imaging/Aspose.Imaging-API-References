@@ -20,14 +20,14 @@ public enum EmfProportion : byte
 | --- | --- | --- |
 | PAN_ANY | `0` | 任意比例。 |
 | PAN_NO_FIT | `1` | 不合适。 |
-| PAN_PROP_OLD_STYLE | `2` | 旧式。 |
-| PAN_PROP_MODERN | `3` | 现代 |
+| PAN_PROP_OLD_STYLE | `2` | 旧式. |
+| PAN_PROP_MODERN | `3` | 现代的 |
 | PAN_PROP_EVEN_WIDTH | `4` | 偶数宽度 |
-| PAN_PROP_EXPANDED | `5` | 扩展的 |
+| PAN_PROP_EXPANDED | `5` | 展开的 |
 | PAN_PROP_CONDENSED | `6` | 浓缩的 |
 | PAN_PROP_VERY_EXPANDED | `7` | 非常扩展的 |
-| PAN_PROP_VERY_CONDENSED | `8` | 非常浓缩的 |
-| PAN_PROP_MONOSPACED | `9` | 单间距 |
+| PAN_PROP_VERY_CONDENSED | `8` | 很浓缩的 |
+| PAN_PROP_MONOSPACED | `9` | 单声道间隔 |
 
 ### 也可以看看
 

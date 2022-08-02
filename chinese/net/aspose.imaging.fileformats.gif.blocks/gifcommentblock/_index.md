@@ -1,14 +1,14 @@
 ---
 title: GifCommentBlock
 second_title: Aspose.Imaging for .NET API 参考
-description: Gif 评论块
+description: Gif 评论块.
 type: docs
 weight: 6620
 url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifcommentblock/
 ---
 ## GifCommentBlock class
 
-Gif 评论块。
+Gif 评论块.
 
 ```csharp
 public class GifCommentBlock : GifBlock
@@ -18,21 +18,21 @@ public class GifCommentBlock : GifBlock
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GifCommentBlock](gifcommentblock#constructor)() | 初始化[`GifCommentBlock`](../gifcommentblock)类的新实例。 |
-| [GifCommentBlock](gifcommentblock#constructor_1)(string) | 初始化[`GifCommentBlock`](../gifcommentblock)类的新实例。 |
+| [GifCommentBlock](gifcommentblock#constructor)() | 初始化[`GifCommentBlock`](../gifcommentblock)类. |
+| [GifCommentBlock](gifcommentblock#constructor_1)(string) | 初始化[`GifCommentBlock`](../gifcommentblock)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Comment](../../aspose.imaging.fileformats.gif.blocks/gifcommentblock/comment) { get; set; } | 获取或设置注释。请注意，注释必须使用 ASCII 编码，并将相应地存储。 |
+| [Comment](../../aspose.imaging.fileformats.gif.blocks/gifcommentblock/comment) { get; set; } | 获取或设置注释。请注意，注释必须使用 ASCII 编码，并将相应存储。 |
 | [IsChanged](../../aspose.imaging.fileformats.gif/gifblock/ischanged) { get; set; } | 获取或设置一个值，指示块是否已更改并需要保存。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Save](../../aspose.imaging.fileformats.gif.blocks/gifcommentblock/save)(Stream) | 将块保存到指定的流。 |
+| override [Save](../../aspose.imaging.fileformats.gif.blocks/gifcommentblock/save)(Stream) | 将块保存到指定的流中。 |
 
 ## 字段
 

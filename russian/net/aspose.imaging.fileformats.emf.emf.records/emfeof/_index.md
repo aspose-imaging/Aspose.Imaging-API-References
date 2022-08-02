@@ -18,16 +18,16 @@ public sealed class EmfEof : EmfControlRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfEof](emfeof#constructor)() | Инициализирует новый экземпляр класса[`EmfEof`](../emfeof). |
-| [EmfEof](emfeof#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfEof`](../emfeof). |
+| [EmfEof](emfeof#constructor)() | Инициализирует новый экземпляр[`EmfEof`](../emfeof) класс. |
+| [EmfEof](emfeof#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfEof`](../emfeof) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [PaletteArgb32Entries](../../aspose.imaging.fileformats.emf.emf.records/emfeof/paletteargb32entries) { get; set; } | Получает или задает необязательный буфер, содержащий данные палитры, которые не обязаны быть непрерывными с фиксированной частью EMR_EOF запись. Соответственно, поля в этом буфере, помеченные "UndefinedSpace", являются необязательными и ДОЛЖНЫ игнорироваться. Размер этого поля ДОЛЖЕН быть кратен 4 байтам |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
-| [SizeLast](../../aspose.imaging.fileformats.emf.emf.records/emfeof/sizelast) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО быть таким же, как Size, и ДОЛЖНО быть последним полем записи и, следовательно, метафайл. Объекты LogPaletteEntry, если они существуют, ДОЛЖНЫ предшествовать этому полю. |
+| [PaletteArgb32Entries](../../aspose.imaging.fileformats.emf.emf.records/emfeof/paletteargb32entries) { get; set; } | Получает или задает необязательный буфер, содержащий данные палитры, которые не обязательно должны быть непрерывными с фиксированной частью записи EMR_EOF . Соответственно, поля в этом буфере, помеченные как «UndefinedSpace», являются необязательными и ДОЛЖНЫ игнорироваться. Размер этого поля ДОЛЖЕН быть кратен 4 байтам |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
+| [SizeLast](../../aspose.imaging.fileformats.emf.emf.records/emfeof/sizelast) { get; set; } | Получает или задает 32-битное целое число без знака, которое ДОЛЖНО совпадать с размером и ДОЛЖНО быть последним полем записи и, следовательно, метафайла. Объекты LogPaletteEntry, если они существуют, ДОЛЖНЫ предшествовать этому полю. |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

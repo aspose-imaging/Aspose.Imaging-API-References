@@ -1,14 +1,14 @@
 ---
 title: EmfLogFontWeight
 second_title: Aspose.Imaging for .NET API 参考
-description: EmfLogFont../aspose.imaging.fileformats.emf.emf.objects/emflogfont权重
+description: 的EmfLogFont../aspose.imaging.fileformats.emf.emf.objects/emflogfont重量.
 type: docs
 weight: 2730
 url: /zh/net/aspose.imaging.fileformats.emf.emf.consts/emflogfontweight/
 ---
 ## EmfLogFontWeight enumeration
 
-[`EmfLogFont`](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont)权重。
+的[`EmfLogFont`](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont)重量.
 
 ```csharp
 public enum EmfLogFontWeight
@@ -18,21 +18,21 @@ public enum EmfLogFontWeight
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| FW_DONTCARE | `0` | 无关 |
-| FW_THIN | `100` | 瘦体重。 |
+| FW_DONTCARE | `0` | 不在乎 |
+| FW_THIN | `100` | 瘦体重. |
 | FW_EXTRALIGHT | `200` | 超轻重量。 |
 | FW_ULTRALIGHT | `200` | 超轻量级。 |
 | FW_LIGHT | `300` | 重量轻。 |
-| FW_NORMAL | `400` | 正常重量。 |
-| FW_REGULAR | `400` | 常规重量。 |
-| FW_MEDIUM | `500` | 中等权重。 |
+| FW_NORMAL | `400` | 正常体重。 |
+| FW_REGULAR | `400` | 常规体重。 |
+| FW_MEDIUM | `500` | 中等重量。 |
 | FW_SEMIBOLD | `600` | 半粗体字重。 |
 | FW_DEMIBOLD | `600` | 半粗体重量。 |
 | FW_BOLD | `700` | 粗体字重。 |
-| FW_EXTRABOLD | `800` | 粗体字重。 |
+| FW_EXTRABOLD | `800` | 超粗的重量。 |
 | FW_ULTRABOLD | `800` | 超粗的重量。 |
-| FW_BLACK | `900` | 黑色权重。 |
-| FW_HEAVY | `900` | 重量级。 |
+| FW_BLACK | `900` | 黑色重量。 |
+| FW_HEAVY | `900` | 重量级. |
 
 ### 也可以看看
 

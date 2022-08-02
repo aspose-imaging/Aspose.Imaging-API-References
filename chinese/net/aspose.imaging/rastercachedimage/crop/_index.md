@@ -31,11 +31,11 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterCachedImage rasterImage = (Aspose.Imaging.RasterCachedImage)image;
 
-        // 裁剪图像。裁剪区域是图像的矩形中心区域。
+    // 裁剪图像。裁剪区域是图像的矩形中心区域。
     Aspose.Imaging.Rectangle area = new Aspose.Imaging.Rectangle(rasterImage.Width / 4, rasterImage.Height / 4, rasterImage.Width / 2, rasterImage.Height / 2);
     rasterImage.Crop(area);
 
-        // 将裁剪后的图像保存到 PNG
+    // 将裁剪后的图像保存为 PNG
     rasterImage.Save(dir + "sample.Crop.png");
 }
 ```

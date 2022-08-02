@@ -16,7 +16,7 @@ public string XPTitle { get; set; }
 
 ### Стоимость имущества
 
-Информация об изображении, используемом проводником Windows. `XPTitle`игнорируется проводником Windows, если[`ImageDescription`](../imagedescription)тег существует.
+Информация об изображении, используемом проводником Windows. `XPTitle` игнорируется проводником Windows, если[`ImageDescription`](../imagedescription) тег существует.
 
 ### Смотрите также
 

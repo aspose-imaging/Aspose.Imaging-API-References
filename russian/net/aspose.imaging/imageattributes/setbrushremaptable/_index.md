@@ -1,14 +1,14 @@
 ---
 title: SetBrushRemapTable
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Устанавливает таблицу переназначения цвета для категории кистей.
+description: Устанавливает таблицу переназначения цветов для категории кистей.
 type: docs
 weight: 110
 url: /ru/net/aspose.imaging/imageattributes/setbrushremaptable/
 ---
 ## ImageAttributes.SetBrushRemapTable method
 
-Устанавливает таблицу переназначения цвета для категории кистей.
+Устанавливает таблицу переназначения цветов для категории кистей.
 
 ```csharp
 public void SetBrushRemapTable(ColorMap[] map)
@@ -16,7 +16,7 @@ public void SetBrushRemapTable(ColorMap[] map)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| map | ColorMap[] | Массив объектов[`ColorMap`](../../colormap). |
+| map | ColorMap[] | Массив[`ColorMap`](../../colormap) объекты. |
 
 ### Смотрите также
 

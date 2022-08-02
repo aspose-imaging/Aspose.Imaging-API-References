@@ -1,14 +1,14 @@
 ---
 title: ObjectGuid
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 GUID 数据包表示值MS-DTYP 第 2.3.4.2 节 用于图像效果这必须对应于 ImageEffects 标识符之一第 2.1.3.1 节
+description: 获取或设置图像效果的 GUID 数据包表示值MS-DTYP 第 2.3.4.2 节 这必须对应于 ImageEffects 标识符之一第 2.1.3.1 节
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/objectguid/
 ---
 ## EmfPlusSerializableObject.ObjectGuid property
 
-获取或设置 GUID 数据包表示值（[MS-DTYP] 第 2.3.4.2 节） 用于图像效果。这必须对应于 ImageEffects 标识符之一（第 2.1.3.1 节）。
+获取或设置图像效果的 GUID 数据包表示值（[MS-DTYP] 第 2.3.4.2 节） 。这必须对应于 ImageEffects 标识符之一（第 2.1.3.1 节）。
 
 ```csharp
 public GuidPacketRepresentation ObjectGuid { get; set; }

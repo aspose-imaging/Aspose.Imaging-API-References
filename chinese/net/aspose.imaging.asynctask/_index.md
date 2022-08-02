@@ -12,12 +12,12 @@ url: /zh/net/aspose.imaging.asynctask/
 
 | 班级 | 描述 |
 | --- | --- |
-| [AsyncTask](./asynctask) | 用于创建异步任务的静态工厂类 |
+| [AsyncTask](./asynctask) | 创建异步任务的静态工厂类 |
 | [AsyncTaskAction](./asynctaskaction) | 异步任务的长操作委托，没有任何结果。 |
 | [AsyncTaskException](./asynctaskexception) | 异步任务的异常。 |
-| [AsyncTaskFunc](./asynctaskfunc) | 具有泛型类型结果的异步任务的长操作委托。 |
+| [AsyncTaskFunc](./asynctaskfunc) | 具有通用类型结果的异步任务的长操作委托。 |
 | [AsyncTaskProgress](./asynctaskprogress) | 提供异步任务的进度信息。 |
-| [CompleteCallback](./completecallback) | 回调函数接收任务完成事件。 |
+| [CompleteCallback](./completecallback) | 接收任务完成事件的回调函数。 |
 ## 接口
 
 | 界面 | 描述 |

@@ -25,12 +25,12 @@ public sealed class EmfPlusPathGradientBrushData : EmfPlusBaseBrushData
 | 姓名 | 描述 |
 | --- | --- |
 | [BoundaryData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/boundarydata) { get; set; } | 获取或设置路径渐变画笔的边界，由路径或闭合基数样条指定。 如果在 BrushDataFlags 字段中设置了 BrushDataPath 标志，则该字段必须包含 EmfPlusBoundaryPathData 对象（第 2.2.2.6 节）； 否则，该字段必须包含 EmfPlusBoundaryPointData 对象（第 2.2.2.7 节）。 |
-| [BrushDataFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/brushdataflags) { get; set; } | 获取或设置 32 位无符号整数，用于指定 OptionalData 字段中的数据。 该值必须由 BrushData 标志组成（第 2.1.2.1 节）。以下标志与路径渐变画笔相关: |
-| [CenterArgb32Color](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/centerargb32color) { get; set; } | 获取或设置 EmfPlusARGB 对象（第 2.2.2.1 节），该对象指定 路径渐变画笔的中心颜色，即出现的颜色在画笔的中心点。 画笔的颜色从边界 颜色随着从边界移动到中心点逐渐变为中心颜色。 |
-| [CenterPointF](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/centerpointf) { get; set; } | 获取或设置 EmfPlusARGB 对象（第 2.2.2.1 节），指定路径渐变画笔的中心颜色 即出现的颜色在画笔的中心点。 笔刷的颜色随着 从边界到中心点的移动而逐渐从边界颜色变为中心颜色。 |
-| [OptionalData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/optionaldata) { get; set; } | 获取或设置可选的 EmfPlusPathGradientBrushOptionalData 对象（第 2.2.2.30 节），该对象 指定路径渐变画笔的附加数据。 该字段的具体内容由BrushDataFlags字段的值决定。 |
-| [SurroundingArgb32Colors](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/surroundingargb32colors) { get; set; } | 获取或设置 SurroundingColorCount EmfPlusARGB 对象数组 指定画笔边界上离散点的颜色。 |
-| [WrapMode](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/wrapmode) { get; set; } | 从指定 是否绘制边界外区域的 WrapMode 枚举（第 2.1.1.34 节）获取或设置 32 位有符号整数的刷子。在边界外绘制 时，环绕模式指定颜色渐变如何重复 |
+| [BrushDataFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/brushdataflags) { get; set; } | 获取或设置 32 位无符号整数，指定 OptionalData 字段中的数据。 该值必须由 BrushData 标志组成（第 2.1.2.1 节）。以下标志与路径渐变画笔相关： |
+| [CenterArgb32Color](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/centerargb32color) { get; set; } | 获取或设置 EmfPlusARGB 对象（第 2.2.2.1 节），该对象指定 路径渐变画笔的中心颜色，即出现在画笔中心点的颜色。 画笔的颜色从边界 颜色逐渐变为中心颜色，因为它从边界移动到中心点。 |
+| [CenterPointF](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/centerpointf) { get; set; } | 获取或设置 EmfPlusARGB 对象（第 2.2.2.1 节），它指定路径渐变画笔的中心颜色， 是出现在画笔中心点的颜色。 笔刷的颜色从边界颜色逐渐变为中心颜色，因为它从边界移动 到中心点。 |
+| [OptionalData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/optionaldata) { get; set; } | 获取或设置一个可选的 EmfPlusPathGradientBrushOptionalData 对象（第 2.2.2.30 节）， 为路径渐变画笔指定附加数据。 该字段的具体内容由BrushDataFlags字段的值决定。 |
+| [SurroundingArgb32Colors](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/surroundingargb32colors) { get; set; } | 获取或设置一组 SurroundingColorCount EmfPlusARGB 对象 ，它们指定画笔边界上离散点的颜色。 |
+| [WrapMode](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/wrapmode) { get; set; } | 从 WrapMode 枚举（第 2.1.1.34 节）获取或设置 32 位有符号整数，指定 是否绘制画笔边界外的区域。在边界外绘制 时，环绕模式指定颜色渐变如何重复 |
 
 ### 也可以看看
 

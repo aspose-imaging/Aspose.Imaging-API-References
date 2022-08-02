@@ -1,14 +1,14 @@
 ---
 title: XmpException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаXmpExceptionaspose.imaging.coreexceptions/xmpexception.
+description: Инициализирует новый экземплярXmpExceptionaspose.imaging.coreexceptions/xmpexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions/xmpexception/xmpexception/
 ---
 ## XmpException() {#constructor}
 
-Инициализирует новый экземпляр класса[`XmpException`](../../xmpexception).
+Инициализирует новый экземпляр[`XmpException`](../../xmpexception) класс.
 
 ```csharp
 public XmpException()
@@ -24,7 +24,7 @@ public XmpException()
 
 ## XmpException(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`XmpException`](../../xmpexception).
+Инициализирует новый экземпляр[`XmpException`](../../xmpexception) класс.
 
 ```csharp
 public XmpException(string message)
@@ -44,7 +44,7 @@ public XmpException(string message)
 
 ## XmpException(string, Exception) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`XmpException`](../../xmpexception).
+Инициализирует новый экземпляр[`XmpException`](../../xmpexception) класс.
 
 ```csharp
 public XmpException(string message, Exception innerException)

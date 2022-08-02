@@ -1,14 +1,14 @@
 ---
 title: BitmapCoreHeader
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Размеры и цветовой формат DIB. Имя заголовка BITMAPCOREHEADER или OS21XBITMAPHEADER.
+description: Размеры и цветовой формат DIB. Имя заголовка BITMAPCOREHEADER также известное как OS21XBITMAPHEADER.
 type: docs
 weight: 1340
 url: /ru/net/aspose.imaging.fileformats.bmp/bitmapcoreheader/
 ---
 ## BitmapCoreHeader class
 
-Размеры и цветовой формат DIB. Имя заголовка BITMAPCOREHEADER или OS21XBITMAPHEADER.
+Размеры и цветовой формат DIB. Имя заголовка BITMAPCOREHEADER, также известное как OS21XBITMAPHEADER.
 
 ```csharp
 public abstract class BitmapCoreHeader
@@ -19,7 +19,7 @@ public abstract class BitmapCoreHeader
 | Имя | Описание |
 | --- | --- |
 | [BitmapHeight](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapheight) { get; set; } | Получает или задает высоту растрового изображения. |
-| [BitmapPlanes](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapplanes) { get; set; } | Получает или устанавливает количество плоскостей. |
+| [BitmapPlanes](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapplanes) { get; set; } | Получает или задает количество плоскостей. |
 | [BitmapWidth](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapwidth) { get; set; } | Получает или задает ширину растрового изображения. |
 | [BitsPerPixel](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitsperpixel) { get; set; } | Получает или задает количество битов на пиксель. |
 | [HeaderSize](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/headersize) { get; set; } | Получает или устанавливает размер этой структуры в байтах. |
@@ -34,8 +34,8 @@ public abstract class BitmapCoreHeader
 | const [BitmapInfoHeaderSizeV3](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapinfoheadersizev3) | Размер заголовка растровой информации v3 |
 | const [BitmapInfoHeaderSizeV4](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapinfoheadersizev4) | Размер заголовка растровой информации v4 |
 | const [BitmapInfoHeaderSizeV5](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapinfoheadersizev5) | Размер заголовка растровой информации v5 |
-| const [Os22XBitmapHeaderFullSize](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/os22xbitmapheaderfullsize) | Размер заголовка2 растрового ядра |
-| const [Os22XBitmapHeaderSize](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/os22xbitmapheadersize) | Размер заголовка2 растрового ядра |
+| const [Os22XBitmapHeaderFullSize](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/os22xbitmapheaderfullsize) | Размер заголовка2 ядра растрового изображения |
+| const [Os22XBitmapHeaderSize](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/os22xbitmapheadersize) | Размер заголовка2 ядра растрового изображения |
 
 ### Смотрите также
 

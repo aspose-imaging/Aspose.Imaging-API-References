@@ -16,7 +16,7 @@ public OdPenStyle PenStyle { get; set; }
 
 ### 适当的价值
 
-钢笔风格。
+钢笔风格.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: TextAlignmentMode
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数通过 使用文本对齐标志的掩码指定文本对齐对于具有水平基线的文本它们是WmfTextAlignmentModeFlagsaspose.imaging.fileformats.wmf.consts/wmftextalignmentmodeflags MS-WMF 第 2.1.2.3 节或者WmfVerticalTextAlignmentModeFlagsaspose.imaging.fileformats.wmf.consts/wmfverticaltextalignmentmodeflags MS-WMF 第 2.1.2.4 节用于具有垂直47的文本基线只能从影响水平和垂直 对齐的值中选择一个值
+description: 获取或设置一个 32 位无符号整数它使用文本对齐标志掩码指定文本对齐方式 by 这些要么WmfTextAlignmentModeFlagsaspose.imaging.fileformats.wmf.consts/wmftextalignmentmodeflags MS-WMF 第 2.1.2.3 节用于具有水平基线的文本或WmfVerticalTextAlignmentModeFlagsaspose.imaging.fileformats.wmf.consts/wmfverticaltextalignmentmodeflags MS-WMF 第 2.1.2.4 节用于具有 vertical 基线的文本从影响水平和垂直对齐的值中只能选择一个值
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsettextalign/textalignmentmode/
 ---
 ## EmfSetTextAlign.TextAlignmentMode property
 
-获取或设置一个 32 位无符号整数，通过 使用文本对齐标志的掩码指定文本对齐。对于具有水平基线的文本，它们是[`WmfTextAlignmentModeFlags`](../../../aspose.imaging.fileformats.wmf.consts/wmftextalignmentmodeflags) ([MS-WMF] 第 2.1.2.3 节)，或者[`WmfVerticalTextAlignmentModeFlags`](../../../aspose.imaging.fileformats.wmf.consts/wmfverticaltextalignmentmodeflags) （[MS-WMF] 第 2.1.2.4 节）用于具有垂直:::47::的文本:基线。只能从影响水平和垂直 对齐的值中选择一个值。
+获取或设置一个 32 位无符号整数，它使用文本对齐标志掩码指定文本对齐方式 by 。这些要么[`WmfTextAlignmentModeFlags`](../../../aspose.imaging.fileformats.wmf.consts/wmftextalignmentmodeflags) （[MS-WMF] 第 2.1.2.3 节）用于具有水平基线的文本，或[`WmfVerticalTextAlignmentModeFlags`](../../../aspose.imaging.fileformats.wmf.consts/wmfverticaltextalignmentmodeflags) （[MS-WMF] 第 2.1.2.4 节）用于具有 vertical 基线的文本。从影响水平和垂直对齐的值中只能选择一个值。
 
 ```csharp
 public int TextAlignmentMode { get; set; }

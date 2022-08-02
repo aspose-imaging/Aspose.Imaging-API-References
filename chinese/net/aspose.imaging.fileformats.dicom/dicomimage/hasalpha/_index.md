@@ -1,14 +1,14 @@
 ---
 title: HasAlpha
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取 Has alpha 通道
+description: 获取有 alpha 通道
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.dicom/dicomimage/hasalpha/
 ---
 ## DicomImage.HasAlpha property
 
-获取 Has alpha 通道。
+获取有 alpha 通道。
 
 ```csharp
 public override bool HasAlpha { get; }

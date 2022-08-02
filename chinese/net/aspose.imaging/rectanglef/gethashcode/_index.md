@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取此RectangleFaspose.imaging/rectanglef结构的哈希码
+description: 获取此哈希码RectangleFaspose.imaging/rectanglef结构.
 type: docs
 weight: 210
 url: /zh/net/aspose.imaging/rectanglef/gethashcode/
 ---
 ## RectangleF.GetHashCode method
 
-获取此[`RectangleF`](../../rectanglef)结构的哈希码。
+获取此哈希码[`RectangleF`](../../rectanglef)结构.
 
 ```csharp
 public override int GetHashCode()
@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### 返回值
 
-这个[`RectangleF`](../../rectanglef)的哈希码。
+这个的哈希码[`RectangleF`](../../rectanglef).
 
 ### 也可以看看
 

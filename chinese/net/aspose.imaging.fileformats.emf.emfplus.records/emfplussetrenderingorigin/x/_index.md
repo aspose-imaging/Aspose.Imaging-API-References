@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个定义渲染原点水平坐标值的 32 位无符号整数
+description: 获取或设置一个 32 位无符号整数定义渲染原点的水平坐标值
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetrenderingorigin/x/
 ---
 ## EmfPlusSetRenderingOrigin.X property
 
-获取或设置一个定义渲染原点水平坐标值的 32 位无符号整数。
+获取或设置一个 32 位无符号整数，定义渲染原点的水平坐标值。
 
 ```csharp
 public int X { get; set; }
@@ -16,7 +16,7 @@ public int X { get; set; }
 
 ### 适当的价值
 
-x。
+x.
 
 ### 也可以看看
 

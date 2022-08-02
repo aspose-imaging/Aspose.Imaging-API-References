@@ -1,14 +1,14 @@
 ---
 title: WmfTernaryRasterOperationOperand
 second_title: Aspose.Imaging for .NET API 参考
-description: 每个三元光栅操作码代表一个布尔运算其中源选定画笔和目标中像素 的值分别为结合以下是这些操作中使用的三个 操作数
+description: 每个三元光栅操作代码代表一个布尔运算其中将源所选画笔和目标中的像素 的值组合在一起以下是这些操作中使用的三个 操作数
 type: docs
 weight: 8340
 url: /zh/net/aspose.imaging.fileformats.wmf.consts/wmfternaryrasteroperationoperand/
 ---
 ## WmfTernaryRasterOperationOperand enumeration
 
-每个三元光栅操作码代表一个布尔运算，其中源、选定画笔和目标中像素 的值分别为结合。以下是这些操作中使用的三个 操作数。
+每个三元光栅操作代码代表一个布尔运算，其中将源、所选画笔和目标中的像素 的值组合在一起。以下是这些操作中使用的三个 操作数。
 
 ```csharp
 public enum WmfTernaryRasterOperationOperand
@@ -19,7 +19,7 @@ public enum WmfTernaryRasterOperationOperand
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | D | `0` | 目标位图 |
-| P | `1` | 选定画笔（也称为图案） |
+| P | `1` | 选定的画笔（也称为图案） |
 | S | `2` | 源位图 |
 | a | `3` | 按位与 |
 | n | `4` | 按位非（逆） |

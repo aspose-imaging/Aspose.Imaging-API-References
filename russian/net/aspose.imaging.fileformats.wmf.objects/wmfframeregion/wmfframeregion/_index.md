@@ -1,14 +1,14 @@
 ---
 title: WmfFrameRegion
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаWmfFillRegionaspose.imaging.fileformats.wmf.objects/wmffillregion.
+description: Инициализирует новый экземплярWmfFillRegionaspose.imaging.fileformats.wmf.objects/wmffillregion класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfframeregion/wmfframeregion/
 ---
 ## WmfFrameRegion() {#constructor}
 
-Инициализирует новый экземпляр класса[`WmfFillRegion`](../../wmffillregion).
+Инициализирует новый экземпляр[`WmfFillRegion`](../../wmffillregion) класс.
 
 ```csharp
 public WmfFrameRegion()
@@ -24,7 +24,7 @@ public WmfFrameRegion()
 
 ## WmfFrameRegion(WmfGraphicObject, WmfGraphicObject) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`WmfFillRegion`](../../wmffillregion).
+Инициализирует новый экземпляр[`WmfFillRegion`](../../wmffillregion) класс.
 
 ```csharp
 public WmfFrameRegion(WmfGraphicObject region, WmfGraphicObject brush)
@@ -32,8 +32,8 @@ public WmfFrameRegion(WmfGraphicObject region, WmfGraphicObject brush)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| region | WmfGraphicObject | Регион. |
-| brush | WmfGraphicObject | Кисть. |
+| region | WmfGraphicObject | Область. |
+| brush | WmfGraphicObject | Щетка. |
 
 ### Смотрите также
 

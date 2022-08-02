@@ -1,14 +1,14 @@
 ---
 title: EscapeRecord
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置转义记录
+description: 获取或设置逃生记录
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfescape/escaperecord/
 ---
 ## WmfEscape.EscapeRecord property
 
-获取或设置转义记录。
+获取或设置逃生记录。
 
 ```csharp
 public WmfEscapeRecordBase EscapeRecord { get; set; }
@@ -16,7 +16,7 @@ public WmfEscapeRecordBase EscapeRecord { get; set; }
 
 ### 适当的价值
 
-转义记录。
+逃跑记录。
 
 ### 也可以看看
 

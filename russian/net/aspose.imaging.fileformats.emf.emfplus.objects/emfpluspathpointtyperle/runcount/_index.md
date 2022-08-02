@@ -1,14 +1,14 @@
 ---
 title: RunCount
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает количество запусков. RunCount 6 битколичество запусков которое представляет собой количество точек пути  которые будут связаны с типом в поле PointType
+description: Получает или устанавливает количество запусков. RunCount 6 бит количество запусков которое представляет собой количество точек пути  которые должны быть связаны с типом в поле PointType
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtyperle/runcount/
 ---
 ## EmfPlusPathPointTypeRle.RunCount property
 
-Получает или задает количество запусков. RunCount (6 бит):количество запусков, которое представляет собой количество точек пути , которые будут связаны с типом в поле PointType
+Получает или устанавливает количество запусков. RunCount (6 бит): количество запусков, которое представляет собой количество точек пути , которые должны быть связаны с типом в поле PointType
 
 ```csharp
 public byte RunCount { get; set; }
@@ -16,7 +16,7 @@ public byte RunCount { get; set; }
 
 ### Стоимость имущества
 
-Счетчик запусков.
+Количество запусков.
 
 ### Смотрите также
 

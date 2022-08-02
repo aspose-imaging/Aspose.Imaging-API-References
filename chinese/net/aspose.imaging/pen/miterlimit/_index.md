@@ -22,7 +22,7 @@ public float MiterLimit { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | `MiterLimit`属性设置在不可变的:::R5 上:T:Aspose.Imaging.Pen:::，例如[`Pen`](../../pen)类返回的那些。 |
+| ArgumentException | 这`MiterLimit`属性设置在不可变对象上[`Pen`](../../pen)，例如那些由[`Pen`](../../pen)班级。 |
 
 ### 也可以看看
 

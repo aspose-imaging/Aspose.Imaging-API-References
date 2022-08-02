@@ -1,14 +1,14 @@
 ---
 title: GetTiffReader
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает программу чтения потока TIFF.
+description: Получает читатель потока TIFF.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/gettiffreader/
 ---
 ## GetTiffReader(StreamContainer, TiffByteOrder) {#gettiffreader}
 
-Получает программу чтения потока TIFF.
+Получает читатель потока TIFF.
 
 ```csharp
 public static TiffStreamReader GetTiffReader(StreamContainer stream, TiffByteOrder byteOrder)
@@ -21,7 +21,7 @@ public static TiffStreamReader GetTiffReader(StreamContainer stream, TiffByteOrd
 
 ### Возвращаемое значение
 
-Tiff поток пригодный для чтения.
+Поток Tiff, пригодный для чтения.
 
 ### Смотрите также
 
@@ -36,7 +36,7 @@ Tiff поток пригодный для чтения.
 
 ## GetTiffReader(byte[], int, int, TiffByteOrder) {#gettiffreader_1}
 
-Получает программу чтения потока TIFF.
+Получает читатель потока TIFF.
 
 ```csharp
 public static TiffStreamReader GetTiffReader(byte[] bytes, int bytesOffset, int dataLength, 
@@ -46,13 +46,13 @@ public static TiffStreamReader GetTiffReader(byte[] bytes, int bytesOffset, int 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | bytes | Byte[] | Байты. |
-| bytesOffset | Int32 | Смещение в байтах. |
+| bytesOffset | Int32 | Смещение байтов. |
 | dataLength | Int32 | Длина данных. |
 | byteOrder | TiffByteOrder | Порядок байтов. |
 
 ### Возвращаемое значение
 
-Tiff поток пригодный для чтения.
+Поток Tiff, пригодный для чтения.
 
 ### Смотрите также
 

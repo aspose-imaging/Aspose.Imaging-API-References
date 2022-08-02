@@ -27,7 +27,7 @@ public uint[] ReadULongArray(long position, long count)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | count;总字节数为负数。 + count + x4= + totalBytes |
+| ArgumentOutOfRangeException | count;总字节数为负数。 + 计数 + x4= + 总字节数 |
 
 ### 也可以看看
 

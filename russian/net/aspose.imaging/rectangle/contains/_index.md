@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Определяет содержится ли указанная точка в этойRectangleaspose.imaging/rectangleструктуре.
+description: Определяет содержится ли указанная точка в этомRectangleaspose.imaging/rectangle структура.
 type: docs
 weight: 220
 url: /ru/net/aspose.imaging/rectangle/contains/
 ---
 ## Contains(int, int) {#contains_2}
 
-Определяет, содержится ли указанная точка в этой[`Rectangle`](../../rectangle)структуре.
+Определяет, содержится ли указанная точка в этом[`Rectangle`](../../rectangle) структура.
 
 ```csharp
 public bool Contains(int x, int y)
@@ -17,11 +17,11 @@ public bool Contains(int x, int y)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | x | Int32 | X-координата точки для проверки. |
-| y | Int32 | Y-координата проверяемой точки. |
+| y | Int32 | Y-координата точки для проверки. |
 
 ### Возвращаемое значение
 
-Этот метод возвращает true, если точка, определенная*x*и*y*, содержится внутри этого[`Rectangle`](../../rectangle)структура; иначе ложно.
+Этот метод возвращает true, если точка, определенная*x* а также*y* содержится в этом[`Rectangle`](../../rectangle) структура; иначе ложно.
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ public bool Contains(int x, int y)
 
 ## Contains(Point) {#contains}
 
-Определяет, содержится ли указанная точка в этой[`Rectangle`](../../rectangle)структуре.
+Определяет, содержится ли указанная точка в этом[`Rectangle`](../../rectangle) структура.
 
 ```csharp
 public bool Contains(Point point)
@@ -41,11 +41,11 @@ public bool Contains(Point point)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | Point | [`Point`](../../point)для тестирования. |
+| point | Point | [`Point`](../../point) тестировать. |
 
 ### Возвращаемое значение
 
-Этот метод возвращает true, если точка, представленная*point*, содержится внутри этого[`Rectangle`](../../rectangle)структура; иначе ложно.
+Этот метод возвращает true, если точка, представленная*point* содержится в этом[`Rectangle`](../../rectangle) структура; иначе ложно.
 
 ### Смотрите также
 
@@ -58,7 +58,7 @@ public bool Contains(Point point)
 
 ## Contains(Rectangle) {#contains_1}
 
-Определяет, содержится ли прямоугольная область, представленная*rect*полностью внутри этого[`Rectangle`](../../rectangle)структура.
+Определяет, является ли прямоугольная область, представленная*rect* полностью содержится в этом[`Rectangle`](../../rectangle) структура.
 
 ```csharp
 public bool Contains(Rectangle rect)
@@ -66,11 +66,11 @@ public bool Contains(Rectangle rect)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rect | Rectangle | [`Rectangle`](../../rectangle)для тестирования. |
+| rect | Rectangle | [`Rectangle`](../../rectangle) тестировать. |
 
 ### Возвращаемое значение
 
-Этот метод возвращает true, если прямоугольная область, представленная*rect*, полностью содержится внутри этого[`Rectangle`](../../rectangle)структура; иначе ложно.
+Этот метод возвращает значение true, если прямоугольная область, представленная*rect* полностью содержится в этом[`Rectangle`](../../rectangle) структура; иначе ложно.
 
 ### Смотрите также
 

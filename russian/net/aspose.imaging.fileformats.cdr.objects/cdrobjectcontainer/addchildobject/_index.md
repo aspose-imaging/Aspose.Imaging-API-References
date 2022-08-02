@@ -16,7 +16,7 @@ public void AddChildObject(CdrObject cdrObject)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cdrObject | CdrObject | Объект CDR. |
+| cdrObject | CdrObject | CDR-объект. |
 
 ### Смотрите также
 

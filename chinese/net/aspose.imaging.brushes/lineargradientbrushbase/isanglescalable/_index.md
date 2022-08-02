@@ -1,14 +1,14 @@
 ---
 title: IsAngleScalable
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值该值指示Angleaspose.imaging.brushes/lineargradientbrushbase/angle在使用此的转换期间是否更改R5TAspose.Imaging.Brushes.LinearGradientBrushBase
+description: 获取或设置一个值指示是否Angleaspose.imaging.brushes/lineargradientbrushbase/angle在转换过程中改变了这个LinearGradientBrushBaseaspose.imaging.brushes/lineargradientbrushbase .
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.brushes/lineargradientbrushbase/isanglescalable/
 ---
 ## LinearGradientBrushBase.IsAngleScalable property
 
-获取或设置一个值，该值指示[`Angle`](../angle)在使用此:::的转换期间是否更改R5:T:Aspose.Imaging.Brushes.LinearGradientBrushBase:::。
+获取或设置一个值，指示是否[`Angle`](../angle)在转换过程中改变了这个[`LinearGradientBrushBase`](../../lineargradientbrushbase) .
 
 ```csharp
 public bool IsAngleScalable { get; set; }
@@ -16,7 +16,7 @@ public bool IsAngleScalable { get; set; }
 
 ### 适当的价值
 
-` true` ifAngle在转换过程中使用此[`LinearGradientBrushBase`](../../lineargradientbrushbase)进行更改；否则，` false` 。
+`真的`如果[`Angle`](../angle)在转换过程中被改变[`LinearGradientBrushBase`](../../lineargradientbrushbase);否则，`错误的` .
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public int ExpectedReadCount { get; }
 
 ### 适当的价值
 
-预期读取字节数。
+预期的读取字节数。
 
 ### 也可以看看
 

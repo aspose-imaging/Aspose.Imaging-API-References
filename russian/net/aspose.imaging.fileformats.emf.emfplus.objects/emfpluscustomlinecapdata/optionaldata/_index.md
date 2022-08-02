@@ -1,14 +1,14 @@
 ---
 title: OptionalData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает необязательный объект EmfPlusCustomLineCapOptionalData раздел 2.2.2.14  который указывает дополнительные данные для пользовательского окончания строки графики. T Конкретное содержимое этого поля определяется значением поля CustomLineCapDataFlags.
+description: Получает или задает необязательный объект EmfPlusCustomLineCapOptionalData раздел 2.2.2.14  который указывает дополнительные данные для настраиваемой границы графической строки. T Конкретное содержимое этого поля определяется значением поля CustomLineCapDataFlags.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/optionaldata/
 ---
 ## EmfPlusCustomLineCapData.OptionalData property
 
-Получает или задает необязательный объект EmfPlusCustomLineCapOptionalData (раздел 2.2.2.14) , который указывает дополнительные данные для пользовательского окончания строки графики. T Конкретное содержимое этого поля определяется значением поля CustomLineCapDataFlags.
+Получает или задает необязательный объект EmfPlusCustomLineCapOptionalData (раздел 2.2.2.14) , который указывает дополнительные данные для настраиваемой границы графической строки. T Конкретное содержимое этого поля определяется значением поля CustomLineCapDataFlags.
 
 ```csharp
 public EmfPlusCustomLineCapOptionalData OptionalData { get; set; }

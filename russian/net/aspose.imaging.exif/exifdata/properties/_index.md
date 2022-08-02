@@ -1,14 +1,14 @@
 ---
 title: Properties
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает все теги EXIF включая общие теги и теги GPS.
+description: Получает или задает все теги EXIF включая общие теги и теги GPS.
 type: docs
 weight: 880
 url: /ru/net/aspose.imaging.exif/exifdata/properties/
 ---
 ## ExifData.Properties property
 
-Получает или устанавливает все теги EXIF (включая общие теги и теги GPS).
+Получает или задает все теги EXIF (включая общие теги и теги GPS).
 
 ```csharp
 public TiffDataType[] Properties { get; set; }

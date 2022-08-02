@@ -1,14 +1,14 @@
 ---
 title: IhFonts
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数指定 EMF 对象表中逻辑字体对象 的索引第 3.1.1.1 节必须保存该索引以便该对象可以被 重用或修改
+description: 获取或设置一个 32 位无符号整数它指定 EMF 对象表第 3.1.1.1 节中逻辑字体 object 的索引必须保存此索引以便可以 重用或修改此对象
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw/ihfonts/
 ---
 ## EmfExtCreateFontIndirectW.IhFonts property
 
-获取或设置一个 32 位无符号整数，指定 EMF 对象表中逻辑字体对象 的索引（第 3.1.1.1 节）。必须保存该索引，以便该对象可以被 重用或修改。
+获取或设置一个 32 位无符号整数，它指定 EMF 对象表（第 3.1.1.1 节）中逻辑字体 object 的索引。必须保存此索引，以便可以 重用或修改此对象。
 
 ```csharp
 public int IhFonts { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: EmfPolyDraw
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPolyDrawaspose.imaging.fileformats.emf.emf.records/emfpolydraw类的新实例
+description: 初始化EmfPolyDrawaspose.imaging.fileformats.emf.emf.records/emfpolydraw类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfpolydraw/emfpolydraw/
 ---
 ## EmfPolyDraw(EmfRecord) {#constructor_1}
 
-初始化[`EmfPolyDraw`](../../emfpolydraw)类的新实例。
+初始化[`EmfPolyDraw`](../../emfpolydraw)类.
 
 ```csharp
 public EmfPolyDraw(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfPolyDraw(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfPolyDraw(EmfRecord source)
 
 ## EmfPolyDraw() {#constructor}
 
-初始化[`EmfPolyDraw`](../../emfpolydraw)类的新实例。
+初始化[`EmfPolyDraw`](../../emfpolydraw)类.
 
 ```csharp
 public EmfPolyDraw()

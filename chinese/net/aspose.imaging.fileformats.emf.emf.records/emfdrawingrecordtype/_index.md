@@ -1,14 +1,14 @@
 ---
 title: EmfDrawingRecordType
 second_title: Aspose.Imaging for .NET API 参考
-description: 绘制记录类型执行图形绘制
+description: 绘图记录类型执行图形绘制
 type: docs
 weight: 3560
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfdrawingrecordtype/
 ---
 ## EmfDrawingRecordType class
 
-绘制记录类型执行图形绘制。
+绘图记录类型执行图形绘制。
 
 ```csharp
 public abstract class EmfDrawingRecordType : EmfRecord

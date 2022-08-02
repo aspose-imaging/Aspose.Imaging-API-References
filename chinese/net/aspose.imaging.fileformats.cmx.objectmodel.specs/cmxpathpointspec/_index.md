@@ -25,16 +25,16 @@ public class CmxPathPointSpec
 | 姓名 | 描述 |
 | --- | --- |
 | [BezierOrder](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/bezierorder) { get; set; } | 获取或设置贝塞尔曲线顺序。 |
-| [IsClosedPath](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/isclosedpath) { get; set; } | 获取或设置一个值，该值指示此点是否关闭其路径。 |
+| [IsClosedPath](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/isclosedpath) { get; set; } | 获取或设置一个值，指示此点是否关闭其路径。 |
 | [JumpType](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/jumptype) { get; set; } | 获取或设置跳转的类型。 |
-| [X](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/x) { get; set; } | 获取或设置点的 X 坐标。 以通用文档距离单位测量。 |
-| [Y](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/y) { get; set; } | 获取或设置点的 Y 坐标。 以通用文档距离单位测量。 |
+| [X](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/x) { get; set; } | 获取或设置点的X坐标。 常用文档距离单位测量。 |
+| [Y](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/y) { get; set; } | 获取或设置点的 Y 坐标。 以常用文档距离单位测量。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/tostring)() | 返回代表此实例的String。 |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/tostring)() | 返回一个String代表这个实例。 |
 
 ### 也可以看看
 

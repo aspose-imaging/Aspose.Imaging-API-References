@@ -1,14 +1,14 @@
 ---
 title: SavedDc
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位有符号整数该整数指定要恢复的保存状态相对于 当前状态该值必须为负 1 代表最近保存在堆栈中最多的状态 2 代表之前的状态等等
+description: 获取或设置一个 32 位有符号整数它指定保存的状态以恢复相对于 当前状态该值必须为负 1 代表最近 保存在堆栈中的状态2 代表之前的状态等等
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfrestoredc/saveddc/
 ---
 ## EmfRestoreDc.SavedDc property
 
-获取或设置一个 32 位有符号整数，该整数指定要恢复的保存状态相对于 当前状态。该值必须为负； –1 代表最近保存在堆栈中最多的状态 ，–2 代表之前的状态，等等。
+获取或设置一个 32 位有符号整数，它指定保存的状态以恢复相对于 当前状态。该值必须为负； –1 代表最近 保存在堆栈中的状态，–2 代表之前的状态，等等。
 
 ```csharp
 public int SavedDc { get; set; }

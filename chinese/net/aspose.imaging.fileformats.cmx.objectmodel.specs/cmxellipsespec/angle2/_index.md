@@ -1,14 +1,14 @@
 ---
 title: Angle2
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置用于定义饼扇区的第二个角度 如果Pieaspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/pie为则无影响 假 . 以弧度为单位测量
+description: 获取或设置用于定义饼扇区的第二个角度 不影响 ifPieaspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/pie是错误的. 以弧度为单位测量
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/angle2/
 ---
 ## CmxEllipseSpec.Angle2 property
 
-获取或设置用于定义饼扇区的第二个角度。 如果[`Pie`](../pie)为`则无影响 假` . 以弧度为单位测量。
+获取或设置用于定义饼扇区的第二个角度。 不影响 if[`Pie`](../pie)是`错误的`. 以弧度为单位测量。
 
 ```csharp
 public float Angle2 { get; set; }

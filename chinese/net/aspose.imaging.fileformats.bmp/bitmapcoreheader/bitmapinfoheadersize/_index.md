@@ -1,14 +1,14 @@
 ---
 title: BitmapInfoHeaderSize
 second_title: Aspose.Imaging for .NET API 参考
-description: 位图信息头大小 v3
+description: 位图信息头大小v3
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapinfoheadersize/
 ---
 ## BitmapCoreHeader.BitmapInfoHeaderSize field
 
-位图信息头大小 v3
+位图信息头大小v3
 
 ```csharp
 public const int BitmapInfoHeaderSize;

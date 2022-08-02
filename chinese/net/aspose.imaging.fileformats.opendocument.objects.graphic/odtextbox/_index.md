@@ -18,13 +18,13 @@ public class OdTextBox : OdGraphicObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OdTextBox](odtextbox)(OdObject) | 初始化[`OdTextBox`](../odtextbox)类的新实例。 |
+| [OdTextBox](odtextbox)(OdObject) | 初始化[`OdTextBox`](../odtextbox)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]。 |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | 获取项目。 |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | 获取父对象。 |
 | [Rectangle](../../aspose.imaging.fileformats.opendocument.objects.graphic/odtextbox/rectangle) { get; set; } | 获取或设置矩形。 |

@@ -3,7 +3,7 @@ title: PenType
 second_title: Aspose.Imaging for .NET API 参考
 description: 指定填充类型Pen./pen对象用于填充线条
 type: docs
-weight: 10720
+weight: 10710
 url: /zh/net/aspose.imaging/pentype/
 ---
 ## PenType enumeration
@@ -19,7 +19,7 @@ public enum PenType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | SolidColor | `0` | 指定实心填充。 |
-| HatchFill | `1` | 指定填充。 |
+| HatchFill | `1` | 指定填充填充。 |
 | TextureFill | `2` | 指定位图纹理填充。 |
 | PathGradient | `3` | 指定路径渐变填充。 |
 | LinearGradient | `4` | 指定线性渐变填充。 |

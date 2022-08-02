@@ -1,14 +1,14 @@
 ---
 title: EmfLineTo
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfLineToaspose.imaging.fileformats.emf.emf.records/emflineto类的新实例
+description: 初始化EmfLineToaspose.imaging.fileformats.emf.emf.records/emflineto类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emflineto/emflineto/
 ---
 ## EmfLineTo(EmfRecord) {#constructor_1}
 
-初始化[`EmfLineTo`](../../emflineto)类的新实例。
+初始化[`EmfLineTo`](../../emflineto)类.
 
 ```csharp
 public EmfLineTo(EmfRecord record)
@@ -29,7 +29,7 @@ public EmfLineTo(EmfRecord record)
 
 ## EmfLineTo() {#constructor}
 
-初始化[`EmfLineTo`](../../emflineto)类的新实例。
+初始化[`EmfLineTo`](../../emflineto)类.
 
 ```csharp
 public EmfLineTo()

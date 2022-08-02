@@ -1,14 +1,14 @@
 ---
 title: GuidPacketRepresentation
 second_title: Aspose.Imaging for .NET API 参考
-description: 数据包版本用于块协议中下图将 GUID 表示为 不透明的字节序列 GUID也称为 UUID是一个 16 字节的结构旨在用作 对象的唯一标识符 GUID 有三种表示形式如以下部分所述
+description: 数据包版本在块协议中使用下图将 GUID 表示为一个 不透明的字节序列 GUID也称为 UUID是一个 16 字节的结构旨在用作 对象的唯一标识符 GUID 有三种表示形式如以下部分所述
 type: docs
 weight: 2530
 url: /zh/net/aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation/
 ---
 ## GuidPacketRepresentation structure
 
-数据包版本用于块协议中。下图将 GUID 表示为 不透明的字节序列。 GUID，也称为 UUID，是一个 16 字节的结构，旨在用作 对象的唯一标识符。 GUID 有三种表示形式，如以下部分所述。
+数据包版本在块协议中使用。下图将 GUID 表示为一个 不透明的字节序列。 GUID，也称为 UUID，是一个 16 字节的结构，旨在用作 对象的唯一标识符。 GUID 有三种表示形式，如以下部分所述。
 
 ```csharp
 public struct GuidPacketRepresentation
@@ -18,7 +18,7 @@ public struct GuidPacketRepresentation
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GuidPacketRepresentation](guidpacketrepresentation)(int, short, short, long) | 初始化[`GuidPacketRepresentation`](../guidpacketrepresentation)结构的新实例。 |
+| [GuidPacketRepresentation](guidpacketrepresentation)(int, short, short, long) | 初始化[`GuidPacketRepresentation`](../guidpacketrepresentation) struct. |
 
 ## 特性
 
@@ -33,7 +33,7 @@ public struct GuidPacketRepresentation
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation/tostring)() | 返回代表此实例的String。 |
+| override [ToString](../../aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation/tostring)() | 返回一个String代表这个实例。 |
 
 ### 也可以看看
 

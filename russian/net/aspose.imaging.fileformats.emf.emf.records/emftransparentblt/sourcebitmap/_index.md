@@ -8,7 +8,7 @@ url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emftransparentblt/source
 ---
 ## EmfTransparentBlt.SourceBitmap property
 
-Получает или задает буфер, содержащий исходное растровое изображение, которое не обязательно должно быть непрерывным с фиксированной частью записи EMR_TRANSPARENTBLT. Соответственно, поля в этого буфера, помеченные как "UndefinedSpace", являются необязательными и ДОЛЖНЫ игнорироваться.
+Получает или задает буфер, содержащий исходное растровое изображение, которое не обязательно должно быть непрерывным с фиксированной частью записи EMR_TRANSPARENTBLT. Соответственно, поля в этого буфера, помеченные как «UndefinedSpace», являются необязательными и ДОЛЖНЫ игнорироваться.
 
 ```csharp
 public WmfDeviceIndependentBitmap SourceBitmap { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: EmfBitBlt
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfBitBltaspose.imaging.fileformats.emf.emf.records/emfbitblt.
+description: Инициализирует новый экземплярEmfBitBltaspose.imaging.fileformats.emf.emf.records/emfbitblt класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfbitblt/emfbitblt/
 ---
 ## EmfBitBlt constructor
 
-Инициализирует новый экземпляр класса[`EmfBitBlt`](../../emfbitblt).
+Инициализирует новый экземпляр[`EmfBitBlt`](../../emfbitblt) класс.
 
 ```csharp
 public EmfBitBlt(EmfRecord source)

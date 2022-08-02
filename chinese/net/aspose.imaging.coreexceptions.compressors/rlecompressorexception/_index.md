@@ -18,8 +18,8 @@ public class RleCompressorException : CompressorException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RleCompressorException](rlecompressorexception#constructor)(string) | 初始化[`RleCompressorException`](../rlecompressorexception)类的新实例。 |
-| [RleCompressorException](rlecompressorexception#constructor_1)(string, Exception) | 初始化[`RleCompressorException`](../rlecompressorexception)类的新实例。 |
+| [RleCompressorException](rlecompressorexception#constructor)(string) | 初始化[`RleCompressorException`](../rlecompressorexception)类. |
+| [RleCompressorException](rlecompressorexception#constructor_1)(string, Exception) | 初始化[`RleCompressorException`](../rlecompressorexception)类. |
 
 ### 也可以看看
 

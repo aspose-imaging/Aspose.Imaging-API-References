@@ -1,14 +1,14 @@
 ---
 title: RegionNode
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 RegionNodeCount1 EmfPlusRegionNode 对象的数组 第 2.2.2.40 节区域被指定为区域节点的二叉树 每个节点必须是终端 节点或指定一个或两个子节点 RegionNode 必须至少包含一个元素
+description: 获取或设置一组 RegionNodeCount1 EmfPlusRegionNode 对象 第 2.2.2.40 节区域被指定为区域节点的二叉树 每个节点必须是终端 节点或指定一个或两个子节点 RegionNode 必须包含至少一个元素
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregion/regionnode/
 ---
 ## EmfPlusRegion.RegionNode property
 
-获取或设置 RegionNodeCount+1 EmfPlusRegionNode 对象的数组 （第 2.2.2.40 节）。区域被指定为区域节点的二叉树 ，每个节点必须是终端 节点或指定一个或两个子节点。 RegionNode 必须至少包含一个元素
+获取或设置一组 RegionNodeCount+1 EmfPlusRegionNode 对象 （第 2.2.2.40 节）。区域被指定为区域节点的二叉树 ，每个节点必须是终端 节点或指定一个或两个子节点。 RegionNode 必须包含至少一个元素
 
 ```csharp
 public EmfPlusRegionNode[] RegionNode { get; set; }

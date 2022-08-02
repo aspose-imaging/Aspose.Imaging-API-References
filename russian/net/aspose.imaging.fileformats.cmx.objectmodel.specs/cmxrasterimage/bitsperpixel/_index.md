@@ -1,14 +1,14 @@
 ---
 title: BitsPerPixel
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает количество битов на пиксель.
+description: Получает или задает количество бит на пиксель.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/bitsperpixel/
 ---
 ## CmxRasterImage.BitsPerPixel property
 
-Получает или задает количество битов на пиксель.
+Получает или задает количество бит на пиксель.
 
 ```csharp
 public uint BitsPerPixel { get; set; }

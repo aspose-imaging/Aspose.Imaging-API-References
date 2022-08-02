@@ -8,7 +8,7 @@ url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odimageobje
 ---
 ## OdImageObject.ImageLink property
 
-获取或设置图片链接。
+获取或设置图片链接
 
 ```csharp
 public string ImageLink { get; set; }

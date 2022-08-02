@@ -1,14 +1,14 @@
 ---
 title: EmfChord
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_CHORD 记录指定一个弦它是一个由 椭圆和一条线段的交点界定的区域称为割线使用当前笔勾勒和弦轮廓并使用当前画笔填充 
+description: EMR_CHORD 记录指定了一个弦它是一个由 椭圆和一条线段的交点界定的区域称为割线使用当前笔勾勒和弦使用当前画笔填充 
 type: docs
 weight: 3290
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfchord/
 ---
 ## EmfChord class
 
-EMR_CHORD 记录指定一个弦，它是一个由 椭圆和一条线段的交点界定的区域，称为割线。使用当前笔勾勒和弦轮廓，并使用当前画笔填充 。
+EMR_CHORD 记录指定了一个弦，它是一个由 椭圆和一条线段的交点界定的区域，称为割线。使用当前笔勾勒和弦，使用当前画笔填充 。
 
 ```csharp
 public sealed class EmfChord : EmfDrawingRecordType
@@ -18,17 +18,17 @@ public sealed class EmfChord : EmfDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfChord](emfchord#constructor)() | 初始化[`EmfChord`](../emfchord)类的新实例。 |
-| [EmfChord](emfchord#constructor_1)(EmfRecord) | 初始化[`EmfChord`](../emfchord)类的新实例。 |
+| [EmfChord](emfchord#constructor)() | 初始化[`EmfChord`](../emfchord)类. |
+| [EmfChord](emfchord#constructor_1)(EmfRecord) | 初始化[`EmfChord`](../emfchord)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Box](../../aspose.imaging.fileformats.emf.emf.records/emfchord/box) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象，在 [MS-WMF] 第 2.2.2.19 节中指定，其中 指定包含-包含边界矩形。 |
+| [Box](../../aspose.imaging.fileformats.emf.emf.records/emfchord/box) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象，在 [MS-WMF] 2.2.2.19 节中指定，其中 指定包含的边界矩形。 |
 | [End](../../aspose.imaging.fileformats.emf.emf.records/emfchord/end) { get; set; } | 获取或设置一个 64 位 WMF PointL 对象，该对象指定定义弦末端的径向线的 端点的逻辑坐标。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
-| [Start](../../aspose.imaging.fileformats.emf.emf.records/emfchord/start) { get; set; } | 获取或设置一个 64 位 WMF PointL 对象，在 [MS-WMF] 第 2.2.2.15 节中指定，其中 指定逻辑坐标定义弦的开始的径向端点。 |
+| [Start](../../aspose.imaging.fileformats.emf.emf.records/emfchord/start) { get; set; } | 获取或设置一个 64 位 WMF PointL 对象，在 [MS-WMF] 第 2.2.2.15 节中指定， 指定定义弦起点的径向端点的逻辑坐标。 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 
 ### 也可以看看

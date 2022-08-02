@@ -16,7 +16,7 @@ public override void BinarizeOtsu()
 
 ### 例子
 
-使用 Otsu 阈值处理的 DICOM 图像。二值化图像仅包含 2 种颜色 - 黑色和白色。
+以下示例使用 Otsu 阈值对 DICOM 图像进行二值化。二值化图像仅包含 2 种颜色 - 黑色和白色。
 
 ```csharp
 [C#]
@@ -27,7 +27,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.dico
 {
     Aspose.Imaging.FileFormats.Dicom.DicomImage dicomImage = (Aspose.Imaging.FileFormats.Dicom.DicomImage)image;
 
-        // 使用 Otsu 阈值对图像进行二值化。
+    // 使用 Otsu 阈值对图像进行二值化。
     dicomImage.BinarizeOtsu();
     dicomImage.Save(dir + "sample.BinarizeOtsu.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }

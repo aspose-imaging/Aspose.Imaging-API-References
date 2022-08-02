@@ -22,19 +22,19 @@ public class CdrDocument : CdrObjectContainer
 | [BmpMasks](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/bmpmasks) { get; } | Получает маски BMP. |
 | [Bmps](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/bmps) { get; } | Получает BMPS. |
 | [Childs](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/childs) { get; } | Получает или задает объекты. |
-| [ClipIds](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/clipids) { get; set; } | Получает или задает идентификаторы клипов. |
+| [ClipIds](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/clipids) { get; set; } | Получает или задает идентификаторы клипа. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | Получает или задает документ. |
 | [Fills](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/fills) { get; } | Получает заливки. |
 | [Fonts](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/fonts) { get; } | Получает шрифты. |
-| [Hidden](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/hidden) { get; set; } | Получает или задает значение, указывающее, является ли этот[`CdrObjectContainer`](../cdrobjectcontainer)видимым. |
-| [LastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/lastchild) { get; set; } | Получает или устанавливает последний дочерний элемент. |
+| [Hidden](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/hidden) { get; set; } | Получает или задает значение, указывающее, является ли это[`CdrObjectContainer`](../cdrobjectcontainer) виден. |
+| [LastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/lastchild) { get; set; } | Получает или задает последний дочерний элемент. |
 | [LastTextIndex](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/lasttextindex) { get; set; } | Получает текстовые индексы. |
-| [LoadToLastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/loadtolastchild) { get; set; } | Получает или задает значение, указывающее, выполняется ли [загрузка в последний дочерний элемент]. |
+| [LoadToLastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/loadtolastchild) { get; set; } | Получает или задает значение, указывающее, [загружать ли последний дочерний элемент]. |
 | [OutLines](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/outlines) { get; } | Получает исходящие линии. |
 | [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | Получает или задает родителя. |
 | [Patterns](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/patterns) { get; } | Получает шаблоны. |
-| [PowerClips](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/powerclips) { get; set; } | Получает зажимы силы. |
+| [PowerClips](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/powerclips) { get; set; } | Получает силовые зажимы. |
 | [Styles](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/styles) { get; } | Получает стили. |
 | [Texts](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/texts) { get; } | Получает тексты. |
 | [VectorPatterns](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/vectorpatterns) { get; } | Получает векторные шаблоны. |

@@ -18,10 +18,10 @@ public abstract class DeconvolutionFilterOptions : FilterOptionsBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Brightness](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/brightness) { get; set; } | 获取或设置亮度。 推荐范围 1 - 1.5 默认值 = 1.15 |
-| [Grayscale](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/grayscale) { get; set; } | 获取或设置一个值，该值指示此[`DeconvolutionFilterOptions`](../deconvolutionfilteroptions)是否为灰度。 返回灰度模式或RGB模式。 |
-| [IsPartialLoaded](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/ispartialloaded) { get; } | 获取指示此实例是否部分加载的值。 |
-| [Snr](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/snr) { get; set; } | 获取或设置 SNR（信噪比） 推荐范围 0.002 - 0.009，默认值 = 0.007 |
+| [Brightness](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/brightness) { get; set; } | 获取或设置亮度。 推荐范围1-1.5 默认值=1.15 |
+| [Grayscale](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/grayscale) { get; set; } | 获取或设置一个值，该值指示是否[`DeconvolutionFilterOptions`](../deconvolutionfilteroptions)是灰度。 返回灰度模式或RGB模式。 |
+| [IsPartialLoaded](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/ispartialloaded) { get; } | 获取一个值，该值指示此实例是否部分加载。 |
+| [Snr](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/snr) { get; set; } | 获取或设置SNR(信噪比) 推荐范围0.002-0.009，默认值=0.007 |
 
 ### 也可以看看
 

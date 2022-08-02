@@ -1,14 +1,14 @@
 ---
 title: BinarizeBradley
 second_title: Aspose.Imaging for .NET API 参考
-description: 使用 Bradley 自适应阈值算法对图像进行二值化 使用积分图像阈值
+description: 使用 Bradley 自适应阈值算法对图像进行二值化使用积分图像阈值
 type: docs
 weight: 260
 url: /zh/net/aspose.imaging.fileformats.gif/gifimage/binarizebradley/
 ---
 ## GifImage.BinarizeBradley method
 
-使用 Bradley 自适应阈值算法对图像进行二值化 使用积分图像阈值
+使用 Bradley 自适应阈值算法对图像进行二值化，使用积分图像阈值
 
 ```csharp
 public override void BinarizeBradley(double brightnessDifference)

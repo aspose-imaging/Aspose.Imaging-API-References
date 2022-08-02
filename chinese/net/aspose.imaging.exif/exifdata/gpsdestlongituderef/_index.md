@@ -1,14 +1,14 @@
 ---
 title: GPSDestLongitudeRef
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指示目标点的经度是东经还是西经的GPS值
+description: 获取或设置GPS值指示目标点的经度是东经还是西经
 type: docs
 weight: 470
 url: /zh/net/aspose.imaging.exif/exifdata/gpsdestlongituderef/
 ---
 ## ExifData.GPSDestLongitudeRef property
 
-获取或设置指示目标点的经度是东经还是西经的GPS值。
+获取或设置GPS值，指示目标点的经度是东经还是西经。
 
 ```csharp
 public string GPSDestLongitudeRef { get; set; }
@@ -16,7 +16,7 @@ public string GPSDestLongitudeRef { get; set; }
 
 ### 适当的价值
 
-GPS 值，指示目的地点的经度是东经还是西经。
+指示目的地点的经度是东经还是西经的 GPS 值。
 
 ### 也可以看看
 

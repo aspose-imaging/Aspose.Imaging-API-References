@@ -3,7 +3,7 @@ title: MatrixOrder
 second_title: Aspose.Imaging for .NET API 参考
 description: 指定矩阵变换操作的顺序
 type: docs
-weight: 10570
+weight: 10560
 url: /zh/net/aspose.imaging/matrixorder/
 ---
 ## MatrixOrder enumeration
@@ -18,7 +18,7 @@ public enum MatrixOrder
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Prepend | `0` | 新操作在旧操作之前应用。 |
+| Prepend | `0` | 在旧操作之前应用新操作。 |
 | Append | `1` | 在旧操作之后应用新操作。 |
 
 ### 也可以看看

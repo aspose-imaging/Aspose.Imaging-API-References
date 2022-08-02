@@ -1,14 +1,14 @@
 ---
 title: HasTransparentColor
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置GIF图像是否为透明色的值
+description: 获取或设置GIF图像是否具有透明色的值
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.imageoptions/gifoptions/hastransparentcolor/
 ---
 ## GifOptions.HasTransparentColor property
 
-获取或设置GIF图像是否为透明色的值。
+获取或设置GIF图像是否具有透明色的值。
 
 ```csharp
 public bool HasTransparentColor { get; set; }

@@ -20,23 +20,23 @@ public enum ExifLightSource
 | --- | --- | --- |
 | Unknown | `0` | 未知数。 |
 | Daylight | `1` | 日光。 |
-| Fluorescent | `2` | 荧光灯。 |
-| Tungsten | `3` | 钨。 |
+| Fluorescent | `2` | 荧光灯. |
+| Tungsten | `3` | 钨丝。 |
 | Flash | `4` | 闪光灯。 |
 | Fineweather | `9` | 好天气。 |
 | Cloudyweather | `10` | 阴天。 |
 | Shade | `11` | 阴影。 |
 | DaylightFluorescent | `12` | 日光荧光灯。 |
 | DayWhiteFluorescent | `13` | 天白荧光。 |
-| CoolWhiteFluorescent | `14` | 冷白荧光。 |
+| CoolWhiteFluorescent | `14` | 冷白荧光灯。 |
 | WhiteFluorescent | `15` | 白色荧光灯。 |
 | StandardlightA | `17` | 标准光 a. |
 | StandardlightB | `18` | 标准光 b. |
 | StandardlightC | `19` | 标准光 c. |
-| D55 | `20` | d55 值（5500K）。 |
-| D65 | `21` | d65 值（6500K）。 |
-| D75 | `22` | d75 值（7500K）。 |
-| D50 | `23` | d50 值（5000K）。 |
+| D55 | `20` | d55 值(5500K). |
+| D65 | `21` | d65 值(6500K). |
+| D75 | `22` | d75 值(7500K). |
+| D50 | `23` | d50 值(5000K). |
 | ISOstudiotungsten | `24` | iso 工作室钨丝灯。 |
 | Otherlightsource | `255` | 另一个光源。 |
 

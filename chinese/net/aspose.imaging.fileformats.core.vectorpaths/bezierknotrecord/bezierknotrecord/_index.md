@@ -1,14 +1,14 @@
 ---
 title: BezierKnotRecord
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化BezierKnotRecordaspose.imaging.fileformats.core.vectorpaths/bezierknotrecord类的新实例
+description: 初始化BezierKnotRecordaspose.imaging.fileformats.core.vectorpaths/bezierknotrecord类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/bezierknotrecord/
 ---
 ## BezierKnotRecord() {#constructor}
 
-初始化[`BezierKnotRecord`](../../bezierknotrecord)类的新实例。
+初始化[`BezierKnotRecord`](../../bezierknotrecord)类.
 
 ```csharp
 public BezierKnotRecord()
@@ -24,7 +24,7 @@ public BezierKnotRecord()
 
 ## BezierKnotRecord(byte[]) {#constructor_1}
 
-初始化[`BezierKnotRecord`](../../bezierknotrecord)类的新实例。
+初始化[`BezierKnotRecord`](../../bezierknotrecord)类.
 
 ```csharp
 public BezierKnotRecord(byte[] data)

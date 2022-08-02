@@ -1,14 +1,14 @@
 ---
 title: SerifStyle
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定衬线样式的 8 位无符号整数在 SerifType第 2.1.30 节枚举表中该值必须是 
+description: 获取或设置指定衬线样式的 8 位无符号整数 SerifType第 2.1.30 节枚举表中的值必须是 
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfpanose/serifstyle/
 ---
 ## EmfPanose.SerifStyle property
 
-获取或设置指定衬线样式的 8 位无符号整数。在 SerifType（第 2.1.30 节）枚举表中，该值必须是 。
+获取或设置指定衬线样式的 8 位无符号整数。 SerifType（第 2.1.30 节）枚举表中的值必须是 。
 
 ```csharp
 public EmfSerifStyle SerifStyle { get; set; }

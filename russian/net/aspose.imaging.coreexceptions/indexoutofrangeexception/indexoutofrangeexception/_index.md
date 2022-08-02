@@ -1,14 +1,14 @@
 ---
 title: IndexOutOFRangeException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаCompressorExceptionaspose.imaging.coreexceptions/compressorexception.
+description: Инициализирует новый экземплярCompressorExceptionaspose.imaging.coreexceptions/compressorexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions/indexoutofrangeexception/indexoutofrangeexception/
 ---
 ## IndexOutOFRangeException(string) {#constructor}
 
-Инициализирует новый экземпляр класса[`CompressorException`](../../compressorexception).
+Инициализирует новый экземпляр[`CompressorException`](../../compressorexception) класс.
 
 ```csharp
 public IndexOutOFRangeException(string message)
@@ -28,7 +28,7 @@ public IndexOutOFRangeException(string message)
 
 ## IndexOutOFRangeException(string, Exception) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`CompressorException`](../../compressorexception).
+Инициализирует новый экземпляр[`CompressorException`](../../compressorexception) класс.
 
 ```csharp
 public IndexOutOFRangeException(string message, Exception innerException)

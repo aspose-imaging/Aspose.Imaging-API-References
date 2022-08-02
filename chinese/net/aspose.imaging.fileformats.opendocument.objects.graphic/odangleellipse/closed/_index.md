@@ -1,14 +1,14 @@
 ---
 title: Closed
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值该值指示此OdAngleEllipseaspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse是否关闭
+description: 获取或设置一个值该值指示是否OdAngleEllipseaspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse已关闭
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse/closed/
 ---
 ## OdAngleEllipse.Closed property
 
-获取或设置一个值，该值指示此[`OdAngleEllipse`](../../odangleellipse)是否关闭。
+获取或设置一个值，该值指示是否[`OdAngleEllipse`](../../odangleellipse)已关闭。
 
 ```csharp
 public bool Closed { get; set; }
@@ -16,7 +16,7 @@ public bool Closed { get; set; }
 
 ### 适当的价值
 
-` true` 如果关闭；否则，` false` 。
+`真的`如果关闭；否则，`错误的` .
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Resize
 second_title: Aspose.Imaging for .NET API 参考
-description: 调整图像大小使用默认NearestNeighbourResample
+description: 调整图像大小默认NearestNeighbourResample已使用
 type: docs
 weight: 200
 url: /zh/net/aspose.imaging/image/resize/
 ---
 ## Resize(int, int) {#resize}
 
-调整图像大小。使用默认NearestNeighbourResample。
+调整图像大小。默认NearestNeighbourResample已使用。
 
 ```csharp
 public void Resize(int newWidth, int newHeight)
@@ -16,7 +16,7 @@ public void Resize(int newWidth, int newHeight)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newWidth | Int32 | 新宽度。 |
+| newWidth | Int32 | 新的宽度。 |
 | newHeight | Int32 | 新高度。 |
 
 ### 例子
@@ -26,34 +26,17 @@ public void Resize(int newWidth, int newHeight)
 ```csharp
 [C#]
 
-string dir = "c:\\aspose.imaging\\net\\issues\\3549";
-string[] fileNames = new string[]
+string dir = "c:\\aspose.imaging\\issues\\net\\3280\\";
+string[] fileNames = new[] { "image3.emf", "image4.wmf" };
+foreach (string fileName in fileNames)
 {
-    "Logotype.svg",
-    "sample_car.svg",
-    "rg1024_green_grapes.svg",
-    "MidMarkerFigure.svg",
-    "embeddedFonts.svg"
-};
+    string inputFilePath = dir + fileName;
+    string outputFilePath = dir + "Downscale_" + fileName;
 
-Aspose.Imaging.PointF[] scales = new Aspose.Imaging.PointF[]
-{
-    new Aspose.Imaging.PointF(0.5f, 0.5f),
-    new Aspose.Imaging.PointF(1f, 1f),
-    new Aspose.Imaging.PointF(2f, 2f),
-    new Aspose.Imaging.PointF(3.5f, 9.2f),
-};
-
-foreach (string inputFile in fileNames)
-{
-    foreach (Aspose.Imaging.PointF scale in scales)
+    using (Aspose.Imaging.FileFormats.Emf.MetaImage image = (Aspose.Imaging.FileFormats.Emf.MetaImage)Aspose.Imaging.Image.Load(inputFilePath))
     {
-        string outputFile = string.Format("{0}_{1}_{2}.png", inputFile, scale.X.ToString(System.Globalization.CultureInfo.InvariantCulture), scale.Y.ToString(System.Globalization.CultureInfo.InvariantCulture));
-        using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(System.IO.Path.Combine(dir, inputFile)))
-        {
-            image.Resize((int)(image.Width * scale.X), (int)(image.Height * scale.Y));
-            image.Save(System.IO.Path.Combine(dir, outputFile), new Aspose.Imaging.ImageOptions.PngOptions());
-        }
+        image.Resize(image.Width / 4, image.Height / 4);
+        image.Save(outputFilePath);
     }
 }
 ```
@@ -113,61 +96,33 @@ public abstract void Resize(int newWidth, int newHeight, ResizeType resizeType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newWidth | Int32 | 新宽度。 |
+| newWidth | Int32 | 新的宽度。 |
 | newHeight | Int32 | 新高度。 |
 | resizeType | ResizeType | 调整大小类型。 |
 
 ### 例子
 
-使用特定调整大小类型调整图像大小。
+使用特定的调整大小类型调整图像大小。
 
 ```csharp
 [C#]
 
-    // 屏蔽导出选项
-Aspose.Imaging.ImageOptions.PngOptions exportOptions = new Aspose.Imaging.ImageOptions.PngOptions();
-exportOptions.ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
-exportOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream());
-
-Aspose.Imaging.Masking.Options.MaskingOptions maskingOptions = new Aspose.Imaging.Masking.Options.MaskingOptions();
-    
-// 使用 GraphCut 聚类。
-maskingOptions.Method = Masking.Options.SegmentationMethod.GraphCut;
-maskingOptions.Decompose = false;
-maskingOptions.Args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
-
-    // 背景颜色将是透明的。
-maskingOptions.BackgroundReplacementColor = Aspose.Imaging.Color.Transparent;
-maskingOptions.ExportOptions = exportOptions;
-
-string dir = "c:\\temp\\";
-using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "BigImage.jpg"))
+using (var image = Image.Load("Photo.jpg"))
 {
-    Aspose.Imaging.Size imageSize = image.Size;
+    image.Resize(640, 480, ResizeType.CatmullRom);
+    image.Save("ResizedPhoto.jpg");
 
-        // 减小图像大小以加快分割过程
-    image.ResizeHeightProportionally(600, Aspose.Imaging.ResizeType.HighQualityResample);
+    image.Resize(1024, 768, ResizeType.CubicConvolution);
+    image.Save("ResizedPhoto2.jpg");
 
-        // 创建 ImageMasking 类的实例。
-    Aspose.Imaging.Masking.ImageMasking masking = new Aspose.Imaging.Masking.ImageMasking(image);
-
-        // 将源图像分成若干簇（段）。
-    using (Aspose.Imaging.Masking.Result.MaskingResult maskingResult = masking.Decompose(maskingOptions))
+    var resizeSettings = new ImageResizeSettings
     {
-            // 获取前景 mask
-        using (Aspose.Imaging.RasterImage foregroundMask = maskingResult[1].GetMask()) 
-        {
-                // 将蒙版的大小增加到原始图像的大小
-            foregroundMask.Resize(imageSize.Width, imageSize.Height, Aspose.Imaging.ResizeType.NearestNeighbourResample);
+        Mode = ResizeType.CubicBSpline,
+        FilterType = ImageFilterType.SmallRectangular
+    };
 
-                // 对原图应用蒙版，得到前景段
-            using (Aspose.Imaging.RasterImage originImage = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "BigImage.jpg"))
-            {
-                Aspose.Imaging.Masking.ImageMasking.ApplyMask(originImage, foregroundMask, maskingOptions);
-                originImage.Save(dir + "BigImage_foreground.png", exportOptions);
-            }
-        }
-    }
+    image.Resize(800, 800, resizeSettings);
+    image.Save("ResizedPhoto3.jpg");
 }
 ```
 
@@ -176,59 +131,43 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 ```csharp
 [C#]
 
-    // 屏蔽导出选项
-Aspose.Imaging.ImageOptions.PngOptions exportOptions = new Aspose.Imaging.ImageOptions.PngOptions();
-exportOptions.ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
-exportOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream());
-
-Aspose.Imaging.Masking.Options.MaskingOptions maskingOptions = new Aspose.Imaging.Masking.Options.MaskingOptions();
-    
-// 使用 GraphCut 聚类。
-maskingOptions.Method = Masking.Options.SegmentationMethod.GraphCut;
-maskingOptions.Decompose = false;
-maskingOptions.Args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
-
-    // 背景颜色将是透明的。
-maskingOptions.BackgroundReplacementColor = Aspose.Imaging.Color.Transparent;
-maskingOptions.ExportOptions = exportOptions;
-
 string dir = "c:\\temp\\";
-using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "BigImage.jpg"))
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-    Aspose.Imaging.Size imageSize = image.Size;
+    // 使用最近邻重采样放大 2 倍。
+    image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
+    image.Save(dir + "upsample.nearestneighbour.gif");
+}
 
-        // 减小图像大小以加快分割过程
-    image.ResizeHeightProportionally(600, Aspose.Imaging.ResizeType.HighQualityResample);
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
+{
+    // 使用最近邻重采样缩小 2 倍。
+    image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
+    image.Save(dir + "downsample.nearestneighbour.gif");
+}
 
-        // 创建 ImageMasking 类的实例。
-    Aspose.Imaging.Masking.ImageMasking masking = new Aspose.Imaging.Masking.ImageMasking(image);
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
+{
+    // 使用双线性重采样放大 2 倍。
+    image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.BilinearResample);
+    image.Save(dir + "upsample.bilinear.gif");
+}
 
-        // 将源图像分成若干簇（段）。
-    using (Aspose.Imaging.Masking.Result.MaskingResult maskingResult = masking.Decompose(maskingOptions))
-    {
-            // 获取前景 mask
-        using (Aspose.Imaging.RasterImage foregroundMask = maskingResult[1].GetMask()) 
-        {
-                // 将蒙版的大小增加到原始图像的大小
-            foregroundMask.Resize(imageSize.Width, imageSize.Height, Aspose.Imaging.ResizeType.NearestNeighbourResample);
-
-                // 对原图应用蒙版，得到前景段
-            using (Aspose.Imaging.RasterImage originImage = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "BigImage.jpg"))
-            {
-                Aspose.Imaging.Masking.ImageMasking.ApplyMask(originImage, foregroundMask, maskingOptions);
-                originImage.Save(dir + "BigImage_foreground.png", exportOptions);
-            }
-        }
-    }
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
+{
+    // 使用双线性重采样缩小 2 倍。
+    image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.BilinearResample);
+    image.Save(dir + "downsample.bilinear.gif");
 }
 ```
 
-使用段掩码加快分割过程
+使用分段掩码加快分段过程
 
 ```csharp
 [C#]
 
-    // 屏蔽导出选项
+// 屏蔽导出选项
 Aspose.Imaging.ImageOptions.PngOptions exportOptions = new Aspose.Imaging.ImageOptions.PngOptions();
 exportOptions.ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
 exportOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream());
@@ -240,7 +179,7 @@ maskingOptions.Method = Masking.Options.SegmentationMethod.GraphCut;
 maskingOptions.Decompose = false;
 maskingOptions.Args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
 
-    // 背景颜色将是透明的。
+// 背景颜色将是透明的。
 maskingOptions.BackgroundReplacementColor = Aspose.Imaging.Color.Transparent;
 maskingOptions.ExportOptions = exportOptions;
 
@@ -249,22 +188,22 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 {
     Aspose.Imaging.Size imageSize = image.Size;
 
-        // 减小图像大小以加快分割过程
+    // 减小图像大小以加快分割过程
     image.ResizeHeightProportionally(600, Aspose.Imaging.ResizeType.HighQualityResample);
 
-        // 创建 ImageMasking 类的实例。
+    // 创建 ImageMasking 类的实例。
     Aspose.Imaging.Masking.ImageMasking masking = new Aspose.Imaging.Masking.ImageMasking(image);
 
-        // 将源图像分成若干簇（段）。
+    // 将源图像分成几个簇（段）。
     using (Aspose.Imaging.Masking.Result.MaskingResult maskingResult = masking.Decompose(maskingOptions))
     {
-            // 获取前景 mask
+        // 获取前景蒙版
         using (Aspose.Imaging.RasterImage foregroundMask = maskingResult[1].GetMask()) 
         {
-                // 将蒙版的大小增加到原始图像的大小
+            // 将蒙版的大小增加到原始图像的大小
             foregroundMask.Resize(imageSize.Width, imageSize.Height, Aspose.Imaging.ResizeType.NearestNeighbourResample);
 
-                // 对原图应用蒙版，得到前景段
+            // 将掩码应用于原始图像以获得前景段
             using (Aspose.Imaging.RasterImage originImage = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "BigImage.jpg"))
             {
                 Aspose.Imaging.Masking.ImageMasking.ApplyMask(originImage, foregroundMask, maskingOptions);
@@ -294,41 +233,33 @@ public abstract void Resize(int newWidth, int newHeight, ImageResizeSettings set
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newWidth | Int32 | 新宽度。 |
+| newWidth | Int32 | 新的宽度。 |
 | newHeight | Int32 | 新高度。 |
 | settings | ImageResizeSettings | 调整大小设置。 |
 
 ### 例子
 
-使用特定调整大小类型调整图像大小。
+使用特定的调整大小类型调整图像大小。
 
 ```csharp
 [C#]
 
-string dir = "c:\\temp\\";
-
-Aspose.Imaging.ImageResizeSettings resizeSettings = new Aspose.Imaging.ImageResizeSettings();
-
-    // 基于加权混合有理函数和lanczos3插值的自适应算法。
-resizeSettings.Mode = Aspose.Imaging.ResizeType.AdaptiveResample;
-
-    // 小矩形过滤器
-resizeSettings.FilterType = Aspose.Imaging.ImageFilterType.SmallRectangular;
-
-    // 调色板中的颜色数量.
-resizeSettings.EntriesCount = 256;
-
-    // 没有使用颜色量化
-resizeSettings.ColorQuantizationMethod = ColorQuantizationMethod.None;
-
-    // 欧几里得方法
-resizeSettings.ColorCompareMethod = ColorCompareMethod.Euclidian;
-
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
+using (var image = Image.Load("Photo.jpg"))
 {
-        // 使用自适应重采样缩小 2 倍。
-    image.Resize(image.Width / 2, image.Height / 2, resizeSettings);
-    image.Save(dir + "downsample.adaptive.gif");
+    image.Resize(640, 480, ResizeType.CatmullRom);
+    image.Save("ResizedPhoto.jpg");
+
+    image.Resize(1024, 768, ResizeType.CubicConvolution);
+    image.Save("ResizedPhoto2.jpg");
+
+    var resizeSettings = new ImageResizeSettings
+    {
+        Mode = ResizeType.CubicBSpline,
+        FilterType = ImageFilterType.SmallRectangular
+    };
+
+    image.Resize(800, 800, resizeSettings);
+    image.Save("ResizedPhoto3.jpg");
 }
 ```
 
@@ -341,24 +272,24 @@ string dir = "c:\\temp\\";
 
 Aspose.Imaging.ImageResizeSettings resizeSettings = new Aspose.Imaging.ImageResizeSettings();
 
-    // 基于加权混合有理函数和lanczos3插值的自适应算法。
+// 基于加权混合有理函数和 lanczos3 插值的自适应算法。
 resizeSettings.Mode = Aspose.Imaging.ResizeType.AdaptiveResample;
 
-    // 小矩形过滤器
+// 小矩形过滤器
 resizeSettings.FilterType = Aspose.Imaging.ImageFilterType.SmallRectangular;
 
-    // 调色板中的颜色数量.
+// 调色板中的颜色数量。
 resizeSettings.EntriesCount = 256;
 
-    // 没有使用颜色量化
+// 不使用颜色量化
 resizeSettings.ColorQuantizationMethod = ColorQuantizationMethod.None;
 
-    // 欧几里得方法
+// 欧几里得方法
 resizeSettings.ColorCompareMethod = ColorCompareMethod.Euclidian;
 
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-        // 使用自适应重采样缩小 2 倍。
+    // 使用自适应重采样缩小 2 倍。
     image.Resize(image.Width / 2, image.Height / 2, resizeSettings);
     image.Save(dir + "downsample.adaptive.gif");
 }

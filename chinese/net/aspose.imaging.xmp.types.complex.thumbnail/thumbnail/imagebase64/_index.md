@@ -1,14 +1,14 @@
 ---
 title: ImageBase64
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 base64 格式的图像
+description: 获取或设置base64格式的图片
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.xmp.types.complex.thumbnail/thumbnail/imagebase64/
 ---
 ## Thumbnail.ImageBase64 property
 
-获取或设置 base64 格式的图像。
+获取或设置base64格式的图片。
 
 ```csharp
 public string ImageBase64 { get; set; }
@@ -16,7 +16,7 @@ public string ImageBase64 { get; set; }
 
 ### 适当的价值
 
-base64 格式的图像。
+base64格式的图片。
 
 ### 也可以看看
 

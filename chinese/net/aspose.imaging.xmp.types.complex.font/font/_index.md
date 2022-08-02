@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示 XMP 字体
+description: 代表 XMP 字体
 type: docs
-weight: 11590
+weight: 11580
 url: /zh/net/aspose.imaging.xmp.types.complex.font/font/
 ---
 ## Font class
 
-表示 XMP 字体。
+代表 XMP 字体。
 
 ```csharp
 public sealed class Font : ComplexTypeBase
@@ -18,8 +18,8 @@ public sealed class Font : ComplexTypeBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Font](font#constructor)() | 初始化[`Font`](../font)类的新实例。 |
-| [Font](font#constructor_1)(string) | 初始化[`Font`](../font)类的新实例。 |
+| [Font](font#constructor)() | 初始化[`Font`](../font)类. |
+| [Font](font#constructor_1)(string) | 初始化[`Font`](../font)类. |
 
 ## 特性
 
@@ -31,7 +31,7 @@ public sealed class Font : ComplexTypeBase
 | [FontFileName](../../aspose.imaging.xmp.types.complex.font/font/fontfilename) { get; set; } | 获取或设置不带完整路径的字体文件名。 |
 | [FontName](../../aspose.imaging.xmp.types.complex.font/font/fontname) { get; set; } | 获取或设置 PostScript 字体名称。 |
 | [FontType](../../aspose.imaging.xmp.types.complex.font/font/fonttype) { get; set; } | 获取或设置字体类型。 |
-| [IsComposite](../../aspose.imaging.xmp.types.complex.font/font/iscomposite) { get; set; } | 获取或设置一个值，指示此字体是否为复合字体。 |
+| [IsComposite](../../aspose.imaging.xmp.types.complex.font/font/iscomposite) { get; set; } | 获取或设置一个值，该值指示此字体是否为复合字体。 |
 | [NamespaceUri](../../aspose.imaging.xmp.types.complex/complextypebase/namespaceuri) { get; } | 获取默认命名空间 URI。 |
 | [Prefix](../../aspose.imaging.xmp.types.complex/complextypebase/prefix) { get; } | 获取前缀。 |
 | [Version](../../aspose.imaging.xmp.types.complex.font/font/version) { get; set; } | 获取或设置字体版本。 |

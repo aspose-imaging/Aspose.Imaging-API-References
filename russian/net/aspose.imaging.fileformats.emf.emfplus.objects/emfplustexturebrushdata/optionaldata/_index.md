@@ -1,14 +1,14 @@
 ---
 title: OptionalData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает необязательный объект EmfPlusTextureBrushOptionalData раздел 2.2.2.46 который указывает дополнительные данные для текстурной кисти. Конкретное содержимое этого поля определяется значением поля BrushDataFlags
+description: Получает или задает необязательный объект EmfPlusTextureBrushOptionalData раздел 2.2.2.46 который указывает дополнительные данные для текстурной кисти. Конкретное содержимое этого поля определяется значением поля BrushDataFlags field
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushdata/optionaldata/
 ---
 ## EmfPlusTextureBrushData.OptionalData property
 
-Получает или задает необязательный объект EmfPlusTextureBrushOptionalData (раздел 2.2.2.46), который указывает дополнительные данные для текстурной кисти. Конкретное содержимое этого поля определяется значением поля BrushDataFlags
+Получает или задает необязательный объект EmfPlusTextureBrushOptionalData (раздел 2.2.2.46), который указывает дополнительные данные для текстурной кисти. Конкретное содержимое этого поля определяется значением поля BrushDataFlags field
 
 ```csharp
 public EmfPlusTextureBrushOptionalData OptionalData { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: RelatedSoundFile
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置相关的声音文件
+description: 获取或设置相关声音文件
 type: docs
 weight: 900
 url: /zh/net/aspose.imaging.exif/exifdata/relatedsoundfile/
 ---
 ## ExifData.RelatedSoundFile property
 
-获取或设置相关的声音文件。
+获取或设置相关声音文件
 
 ```csharp
 public string RelatedSoundFile { get; set; }
@@ -16,7 +16,7 @@ public string RelatedSoundFile { get; set; }
 
 ### 适当的价值
 
-相关声音文件。
+相关的声音文件。
 
 ### 也可以看看
 

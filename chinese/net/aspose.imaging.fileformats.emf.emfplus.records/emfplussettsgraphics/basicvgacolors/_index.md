@@ -1,14 +1,14 @@
 ---
 title: BasicVgaColors
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示是否基本vga颜色 如果设置调色板只包含基本的 VGA 颜色
+description: 获取一个值指示是否 基本 vga 颜色 如果设置则调色板仅包含基本 VGA 颜色
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics/basicvgacolors/
 ---
 ## EmfPlusSetTsGraphics.BasicVgaColors property
 
-获取一个值，该值指示是否[基本vga颜色]。 如果设置，调色板只包含基本的 VGA 颜色。
+获取一个值，指示是否 [基本 vga 颜色]。 如果设置，则调色板仅包含基本 VGA 颜色。
 
 ```csharp
 public bool BasicVgaColors { get; }
@@ -16,7 +16,7 @@ public bool BasicVgaColors { get; }
 
 ### 适当的价值
 
-` true` if [基本 vga 颜色];否则，` false` 。
+`真的` if [基本VGA颜色]；否则，`错误的` .
 
 ### 也可以看看
 

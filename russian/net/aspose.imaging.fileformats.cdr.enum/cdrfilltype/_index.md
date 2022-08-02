@@ -1,14 +1,14 @@
 ---
 title: CdrFillType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Тип заполнения cdr
+description: Тип заполнения CDR
 type: docs
 weight: 1450
 url: /ru/net/aspose.imaging.fileformats.cdr.enum/cdrfilltype/
 ---
 ## CdrFillType enumeration
 
-Тип заполнения cdr
+Тип заполнения CDR
 
 ```csharp
 public enum CdrFillType : short
@@ -18,13 +18,13 @@ public enum CdrFillType : short
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `0` | Тип заполнения none |
+| None | `0` | Тип заполнения без заливки |
 | Solid | `1` | Тип сплошной заливки |
 | Gradient | `2` | Тип градиентной заливки |
 | Pattern | `7` | Тип заливки узором |
 | Pattern1 | `8` | Тип заливки узором |
-| Bitmap | `9` | Тип растровой заливки |
-| FullColor | `10` | Полноцветная заливка |
+| Bitmap | `9` | Тип заливки растровым изображением |
+| FullColor | `10` | Тип полноцветной заливки |
 | Texture | `11` | Тип заливки текстуры |
 
 ### Смотрите также

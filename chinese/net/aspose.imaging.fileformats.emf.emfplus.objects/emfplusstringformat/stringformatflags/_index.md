@@ -1,14 +1,14 @@
 ---
 title: StringFormatFlags
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数指定文本布局 用于格式化剪辑和字体处理的选项 该值必须由 StringFormat 标志 组成第 2.1.2.8 节
+description: 获取或设置一个 32 位无符号整数用于指定文本布局 用于格式化剪辑和字体处理的选项 此值必须由 StringFormat flags 第 2.1.2.8 节组成
 type: docs
 weight: 120
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/stringformatflags/
 ---
 ## EmfPlusStringFormat.StringFormatFlags property
 
-获取或设置一个 32 位无符号整数，指定文本布局 用于格式化、剪辑和字体处理的选项。 该值必须由 StringFormat 标志 组成（第 2.1.2.8 节）。
+获取或设置一个 32 位无符号整数，用于指定文本布局 用于格式化、剪辑和字体处理的选项。 此值必须由 StringFormat flags （第 2.1.2.8 节）组成。
 
 ```csharp
 public EmfPlusStringFormatFlags StringFormatFlags { get; set; }

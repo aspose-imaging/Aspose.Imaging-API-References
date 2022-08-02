@@ -18,7 +18,7 @@ public sealed class EmfDrawEscape : EmfEscapeRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfDrawEscape](emfdrawescape)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfDrawEscape`](../emfdrawescape). |
+| [EmfDrawEscape](emfdrawescape)(EmfRecord) | Инициализирует новый экземпляр[`EmfDrawEscape`](../emfdrawescape) класс. |
 
 ## Характеристики
 
@@ -26,8 +26,8 @@ public sealed class EmfDrawEscape : EmfEscapeRecordType
 | --- | --- |
 | [CjIn](../../aspose.imaging.fileformats.emf.emf.records/emfdrawescape/cjin) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее количество байтов, передаваемых драйверу принтера. |
 | [Data](../../aspose.imaging.fileformats.emf.emf.records/emfdrawescape/data) { get; set; } | Получает или задает данные для передачи драйверу принтера. ДОЛЖНЫ быть доступны байты cjIn. |
-| [IEscape](../../aspose.imaging.fileformats.emf.emf.records/emfescaperecordtype/iescape) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее переход драйвера принтера в execute. Это ДОЛЖНО быть одним из значений в перечислении WMF MetafileEscapes ([MSWMF], раздел 2.1.1.17). |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [IEscape](../../aspose.imaging.fileformats.emf.emf.records/emfescaperecordtype/iescape) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее, что escape-последовательность драйвера принтера to будет выполняться. Это ДОЛЖНО быть одним из значений перечисления WMF MetafileEscapes ([MSWMF], раздел 2.1.1.17). |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

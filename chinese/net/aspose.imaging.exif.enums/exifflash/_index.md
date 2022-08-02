@@ -1,14 +1,14 @@
 ---
 title: ExifFlash
 second_title: Aspose.Imaging for .NET API 参考
-description: Flash 模式
+description: 闪光模式
 type: docs
 weight: 940
 url: /zh/net/aspose.imaging.exif.enums/exifflash/
 ---
 ## ExifFlash enumeration
 
-Flash 模式。
+闪光模式。
 
 ```csharp
 public enum ExifFlash
@@ -23,12 +23,12 @@ public enum ExifFlash
 | FiredReturnLightNotDetected | `5` | 闪光，未检测到返回光。 |
 | FiredReturnLightDetected | `7` | 闪光，检测到返回光。 |
 | YesCompulsory | `9` | 闪光，强制闪光模式。 |
-| YesCompulsoryReturnLightNotDetected | `13` | 闪光，强制模式，未检测到返回光。 |
-| YesCompulsoryReturnLightDetected | `15` | 闪光，强制模式，检测到返回光。 |
-| NoCompulsory | `16` | 闪光灯未触发，强制闪光模式。 |
+| YesCompulsoryReturnLightNotDetected | `13` | 闪光灯闪光，强制模式，未检测到返回光。 |
+| YesCompulsoryReturnLightDetected | `15` | 闪光灯启动，强制模式，检测到返回光。 |
+| NoCompulsory | `16` | 没有闪光，强制闪光模式。 |
 | NoDidNotFireReturnLightNotDetected | `20` | 闪光灯未触发，未检测到返回光。 |
-| NoAuto | `24` | Flash 没有触发，自动模式。 |
-| YesAuto | `25` | Flash 自动模式。 |
+| NoAuto | `24` | 闪光灯未触发，自动模式。 |
+| YesAuto | `25` | 闪光自动模式。 |
 | YesAutoReturnLightNotDetected | `29` | 闪光，自动模式，未检测到返回光。 |
 | YesAutoReturnLightDetected | `31` | 闪光，自动模式，检测到返回光。 |
 | NoFlashFunction | `32` | 没有闪光功能。 |

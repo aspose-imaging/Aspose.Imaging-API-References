@@ -1,14 +1,14 @@
 ---
 title: GifPlainTextRenderingBlock
 second_title: Aspose.Imaging for .NET API 参考
-description: Gif 纯文本扩展块纯文本扩展包含文本数据和以简单形式将该数据呈现为图形所必需的 参数
+description: Gif 纯文本扩展块纯文本扩展包含文本数据和以简单形式将该数据呈现为图形所需的 参数
 type: docs
 weight: 6650
 url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/
 ---
 ## GifPlainTextRenderingBlock class
 
-Gif 纯文本扩展块。纯文本扩展包含文本数据和以简单形式将该数据呈现为图形所必需的 参数。
+Gif 纯文本扩展块。纯文本扩展包含文本数据和以简单形式将该数据呈现为图形所需的 参数。
 
 ```csharp
 public class GifPlainTextRenderingBlock : GifBlock
@@ -18,8 +18,8 @@ public class GifPlainTextRenderingBlock : GifBlock
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GifPlainTextRenderingBlock](gifplaintextrenderingblock#constructor)() | 初始化[`GifPlainTextRenderingBlock`](../gifplaintextrenderingblock)类的新实例。 |
-| [GifPlainTextRenderingBlock](gifplaintextrenderingblock#constructor_1)(ushort, ushort, ushort, ushort, byte, byte, byte, byte, byte[]) | 初始化[`GifPlainTextRenderingBlock`](../gifplaintextrenderingblock)类的新实例。 |
+| [GifPlainTextRenderingBlock](gifplaintextrenderingblock#constructor)() | 初始化[`GifPlainTextRenderingBlock`](../gifplaintextrenderingblock)类. |
+| [GifPlainTextRenderingBlock](gifplaintextrenderingblock#constructor_1)(ushort, ushort, ushort, ushort, byte, byte, byte, byte, byte[]) | 初始化[`GifPlainTextRenderingBlock`](../gifplaintextrenderingblock)类. |
 
 ## 特性
 
@@ -31,8 +31,8 @@ public class GifPlainTextRenderingBlock : GifBlock
 | [PlainTextData](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/plaintextdata) { get; set; } | 获取或设置纯文本数据。 |
 | [TextBackgroundColorIndex](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textbackgroundcolorindex) { get; set; } | 获取或设置用于绘制文本背景的全局调色板中颜色的索引。 |
 | [TextForegroundColorIndex](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textforegroundcolorindex) { get; set; } | 获取或设置用于绘制文本前景的全局调色板中颜色的索引。 |
-| [TextGridHeight](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textgridheight) { get; set; } | 获取或设置文本网格高度（以像素为单位） |
-| [TextGridLeftPosition](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textgridleftposition) { get; set; } | 获取或设置文本网格左侧位置。 |
+| [TextGridHeight](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textgridheight) { get; set; } | 获取或设置文本网格高度，以像素为单位 |
+| [TextGridLeftPosition](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textgridleftposition) { get; set; } | 获取或设置文本网格左位置。 |
 | [TextGridTopPosition](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textgridtopposition) { get; set; } | 获取或设置文本网格顶部位置。 |
 | [TextGridWidth](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textgridwidth) { get; set; } | 获取或设置文本网格，以像素为单位 |
 
@@ -40,7 +40,7 @@ public class GifPlainTextRenderingBlock : GifBlock
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Save](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/save)(Stream) | 将块保存到指定的流。 |
+| override [Save](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/save)(Stream) | 将块保存到指定的流中。 |
 
 ## 字段
 

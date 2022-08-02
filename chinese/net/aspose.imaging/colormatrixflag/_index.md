@@ -1,14 +1,14 @@
 ---
 title: ColorMatrixFlag
 second_title: Aspose.Imaging for .NET API 参考
-description: 指定将受ImageAttributes./imageattributes的颜色和灰度调整设置影响的图像和颜色类型.
+description: 指定将受图像的颜色和灰度调整设置影响的图像类型和颜色ImageAttributes./imageattributes .
 type: docs
 weight: 370
 url: /zh/net/aspose.imaging/colormatrixflag/
 ---
 ## ColorMatrixFlag enumeration
 
-指定将受[`ImageAttributes`](../imageattributes)的颜色和灰度调整设置影响的图像和颜色类型.
+指定将受图像的颜色和灰度调整设置影响的图像类型和颜色[`ImageAttributes`](../imageattributes) .
 
 ```csharp
 public enum ColorMatrixFlag
@@ -18,7 +18,7 @@ public enum ColorMatrixFlag
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Default | `0` | 所有颜色值，包括灰度，都由相同的颜色调整矩阵调整。 |
+| Default | `0` | 所有颜色值，包括灰度，都由同一个颜色调整矩阵调整。 |
 | SkipGrays | `1` | 调整所有颜色，但不调整灰度。灰色阴影是其红色、绿色和蓝色分量具有相同值的任何颜色。 |
 | AltGrays | `2` | 仅调整灰色阴影。 |
 

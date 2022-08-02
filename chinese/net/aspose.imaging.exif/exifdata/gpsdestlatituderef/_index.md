@@ -1,14 +1,14 @@
 ---
 title: GPSDestLatitudeRef
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指示目的地纬度是北纬还是南纬的GPS值
+description: 获取或设置GPS值指示目标点的纬度是北纬还是南纬
 type: docs
 weight: 450
 url: /zh/net/aspose.imaging.exif/exifdata/gpsdestlatituderef/
 ---
 ## ExifData.GPSDestLatitudeRef property
 
-获取或设置指示目的地纬度是北纬还是南纬的GPS值。
+获取或设置GPS值，指示目标点的纬度是北纬还是南纬。
 
 ```csharp
 public string GPSDestLatitudeRef { get; set; }
@@ -16,7 +16,7 @@ public string GPSDestLatitudeRef { get; set; }
 
 ### 适当的价值
 
-GPS值，表示目的地的纬度是北纬还是南纬。
+指示目的地纬度是北纬还是南纬的 GPS 值。
 
 ### 也可以看看
 

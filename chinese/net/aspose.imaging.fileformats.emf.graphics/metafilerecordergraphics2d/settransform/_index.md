@@ -20,7 +20,7 @@ public void SetTransform(Matrix transform)
 
 ### 例子
 
-此示例说明如何从文件加载 EMF 图像并在其上绘制文本字符串。
+此示例显示如何从文件加载 EMF 图像并在其上绘制文本字符串。
 
 ```csharp
 [C#]
@@ -32,12 +32,12 @@ using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFo
     Aspose.Imaging.FileFormats.Emf.Graphics.EmfRecorderGraphics2D graphics =
         Aspose.Imaging.FileFormats.Emf.Graphics.EmfRecorderGraphics2D.FromEmfImage(emfImage);
 
-        // 首先，获取图片size
+    // 首先，获取图片大小
     int width = emfImage.Width;
     int height = emfImage.Height;
 
-        // 其次，计算一个变换，沿着图像的主对角线放置一个文本字符串 -
-        // 从左上角到右下角。
+    // 其次，计算一个变换，沿着图像的主对角线放置一个文本字符串 -
+    // 从左上角到右下角。
     float emFontSize = 96f;
     float d = (float)System.Math.Sqrt(width * width + height * height);
     float scaleFactor = d / (emFontSize * 5f);
@@ -50,13 +50,13 @@ using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFo
     transform.Rotate((float)degrees);
     transform.Scale(scaleFactor, scaleFactor);
 
-        // 然后，设置变换。
+    // 然后，设置变换。
     graphics.SetTransform(transform);
 
-        // 最后，沿主对角线放一个水印（粉红色的文字串）。
+    // 最后，沿主对角线放置一个水印（粉红色的文本字符串）。
     graphics.DrawString("WATERMARK", new Aspose.Imaging.Font("Courier New", emFontSize), Aspose.Imaging.Color.LightPink, 0, 0/*, (float)degrees*/);
 
-        // 将带水印的图像保存到另一个 EMF 文件中。
+    // 将带水印的图像保存到另一个 EMF 文件中。
     using (Aspose.Imaging.FileFormats.Emf.EmfImage scaledEmfImage = graphics.EndRecording())
     {
         scaledEmfImage.Save(dir + "test.scaled.emf");

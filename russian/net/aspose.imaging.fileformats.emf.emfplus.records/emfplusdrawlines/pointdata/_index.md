@@ -1,14 +1,14 @@
 ---
 title: PointData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает данные точки Массив точек Count указывающих начальную и конечную точки линий которые необходимо нарисовать.
+description: Получает или задает точку data Массив точек Count указывающих начальную и конечную точки рисуемых линий.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawlines/pointdata/
 ---
 ## EmfPlusDrawLines.PointData property
 
-Получает или задает данные точки Массив точек Count, указывающих начальную и конечную точки линий, которые необходимо нарисовать.
+Получает или задает точку data Массив точек Count, указывающих начальную и конечную точки рисуемых линий.
 
 ```csharp
 public PointF[] PointData { get; set; }

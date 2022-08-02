@@ -18,16 +18,16 @@ public sealed class EmfPlusComment : EmfPlusRecord
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPlusComment](emfpluscomment)(EmfPlusRecord) | Инициализирует новый экземпляр класса[`EmfPlusComment`](../emfpluscomment). |
+| [EmfPlusComment](emfpluscomment)(EmfPlusRecord) | Инициализирует новый экземпляр[`EmfPlusComment`](../emfpluscomment) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО определять 32-разрядное выровненное число байтов данных в поле RecordData, которое следует. Это число не включает 12-байтовый заголовок записи. |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО определять 32-разрядное выровненное количество байтов данных в следующем поле RecordData. Это число не включает 12-байтовый заголовок записи. |
 | override [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfpluscomment/flags) { get; set; } | Получает или задает 16-разрядное целое число без знака, которое не используется. Это поле ДОЛЖНО быть установлено равным нулю и ДОЛЖНО игнорироваться при получении |
-| [PrivateData](../../aspose.imaging.fileformats.emf.emfplus.records/emfpluscomment/privatedata) { get; set; } | Получает или задает байтовый массив закрытых данных длиной DataSize. следующие байты данных, относящихся к записи. |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее число байтов, выровненных по 32-разрядному выравниванию во всей записи, включая 12 -байтовый заголовок записи и данные, относящиеся к записи. |
+| [PrivateData](../../aspose.imaging.fileformats.emf.emfplus.records/emfpluscomment/privatedata) { get; set; } | Получает или задает байтовый массив частных данных длиной DataSize. байтов данных, относящихся к записи, которые следуют. |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее 32-разрядное выровненное количество байтов во всей записи, включая 12-разрядный заголовок записи и данные, относящиеся к записи. |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | Получает 16-разрядное целое число без знака, определяющее тип записи. |
 
 ### Смотрите также

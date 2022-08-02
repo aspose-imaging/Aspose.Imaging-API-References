@@ -1,14 +1,14 @@
 ---
 title: OdTextMeasure
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdTextMeasureaspose.imaging.fileformats.opendocument.objects.graphic/odtextmeasure.
+description: Инициализирует новый экземплярOdTextMeasureaspose.imaging.fileformats.opendocument.objects.graphic/odtextmeasure класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odtextmeasure/odtextmeasure/
 ---
 ## OdTextMeasure constructor
 
-Инициализирует новый экземпляр класса[`OdTextMeasure`](../../odtextmeasure).
+Инициализирует новый экземпляр[`OdTextMeasure`](../../odtextmeasure) класс.
 
 ```csharp
 public OdTextMeasure(OdObject parent)

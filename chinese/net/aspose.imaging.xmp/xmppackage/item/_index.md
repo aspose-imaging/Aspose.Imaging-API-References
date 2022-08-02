@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Imaging for .NET API 参考
-description: 使用指定的键获取或设置Object
+description: 获取或设置Object使用指定的密钥
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp/xmppackage/item/
 ---
 ## XmpPackage indexer
 
-使用指定的键获取或设置Object。
+获取或设置Object使用指定的密钥。
 
 ```csharp
 public virtual object this[string key] { get; set; }
@@ -20,11 +20,11 @@ public virtual object this[string key] { get; set; }
 
 ### 返回值
 
-返回具有指定键的Object。
+返回Object用指定的键。
 
 ### 适当的价值
 
-Object。
+的Object .
 
 ### 也可以看看
 

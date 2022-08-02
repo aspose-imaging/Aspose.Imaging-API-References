@@ -1,14 +1,14 @@
 ---
 title: EmfExtEscape
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfExtEscapeaspose.imaging.fileformats.emf.emf.records/emfextescape.
+description: Инициализирует новый экземплярEmfExtEscapeaspose.imaging.fileformats.emf.emf.records/emfextescape класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfextescape/emfextescape/
 ---
 ## EmfExtEscape constructor
 
-Инициализирует новый экземпляр класса[`EmfExtEscape`](../../emfextescape).
+Инициализирует новый экземпляр[`EmfExtEscape`](../../emfextescape) класс.
 
 ```csharp
 public EmfExtEscape(EmfRecord source)

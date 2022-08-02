@@ -20,7 +20,7 @@ public uint ReadULong(long position)
 
 ### 返回值
 
-无符号整数值。
+一个无符号整数值。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: NormalizeAngle
 second_title: Aspose.Imaging for .NET API 参考
-description: 标准化角度 此方法适用于扫描的文本文档以消除倾斜扫描 此方法使用GetSkewAngleaspose.imaging/rasterimage/getskewangle和Rotateaspose.imaging/rasterimage/rotate方法
+description: 角度归一化 此方法适用于扫描的文本文档以消除倾斜扫描 此方法使用GetSkewAngleaspose.imaging/rasterimage/getskewangle和Rotateaspose.imaging/rasterimage/rotate方法.
 type: docs
 weight: 430
 url: /zh/net/aspose.imaging/rasterimage/normalizeangle/
 ---
 ## NormalizeAngle() {#normalizeangle}
 
-标准化角度。 此方法适用于扫描的文本文档，以消除倾斜扫描。 此方法使用[`GetSkewAngle`](../getskewangle)和[`Rotate`](../rotate)方法。
+角度归一化。 此方法适用于扫描的文本文档，以消除倾斜扫描。 此方法使用[`GetSkewAngle`](../getskewangle)和[`Rotate`](../rotate)方法.
 
 ```csharp
 public void NormalizeAngle()
@@ -24,7 +24,7 @@ public void NormalizeAngle()
 
 ## NormalizeAngle(bool, Color) {#normalizeangle_1}
 
-标准化角度。 此方法适用于扫描的文本文档，以消除倾斜扫描。 此方法使用[`GetSkewAngle`](../getskewangle)和[`Rotate`](../rotate)方法。
+角度归一化。 此方法适用于扫描的文本文档，以消除倾斜扫描。 此方法使用[`GetSkewAngle`](../getskewangle)和[`Rotate`](../rotate)方法.
 
 ```csharp
 public virtual void NormalizeAngle(bool resizeProportionally, Color backgroundColor)
@@ -32,12 +32,12 @@ public virtual void NormalizeAngle(bool resizeProportionally, Color backgroundCo
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| resizeProportionally | Boolean | 如果设置为` true` 你将拥有你的图像大小根据旋转的矩形（角点）投影改变，在其他情况下保持尺寸不变并且仅旋转内部图像内容。 |
-| backgroundColor | Color | 背景颜色。 |
+| resizeProportionally | Boolean | 如果设置为`真的`您将根据旋转的矩形（角点）投影更改图像大小，在其他情况下保持尺寸不变并且仅旋转内部图像内容。 |
+| backgroundColor | Color | 背景的颜色。 |
 
 ### 例子
 
-歪斜是文档扫描过程中文档的文本/图像以微小角度旋转时可能出现的伪影。它可能有多种原因，但最常见的是在扫描过程中纸张放错了位置。因此，纠偏是在扫描文件（即位图）上检测和修复此问题的过程，因此纠偏文档将正确地调整文本/图像并进行水平调整。
+倾斜是在文档扫描过程中当文档的文本/图像以微小角度旋转时可能出现的伪影。它可能有多种原因，但最常见的是在扫描过程中纸张放错了位置。因此，去歪斜是在扫描文件（即位图）上检测和修复此问题的过程，因此去歪斜的文档将正确和水平调整文本/图像。
 
 ```csharp
 [C#]
@@ -47,10 +47,10 @@ string dir = "c:\\aspose.imaging\\issues\\net\\3567\\";
 string inputFilePath = dir + "skewed.png";
 string outputFilePath = dir + "skewed.out.png";
 
-    // 用默认参数摆脱倾斜扫描
+// 用默认参数摆脱倾斜扫描
 using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(inputFilePath))
 {
-        //去歪斜
+    // 去歪斜
     image.NormalizeAngle(false /*do not resize*/, Aspose.Imaging.Color.LightGray /*background color*/);
     image.Save(outputFilePath);
 }

@@ -24,7 +24,7 @@ public class WmfSetBkMode : WmfObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BkMode](../../aspose.imaging.fileformats.wmf.objects/wmfsetbkmode/bkmode) { get; set; } | 获取或设置 bk 模式。 |
+| [BkMode](../../aspose.imaging.fileformats.wmf.objects/wmfsetbkmode/bkmode) { get; set; } | 获取或设置bk模式。 |
 | [Reserved](../../aspose.imaging.fileformats.wmf.objects/wmfsetbkmode/reserved) { get; set; } | 获取或设置保留。 |
 
 ### 也可以看看

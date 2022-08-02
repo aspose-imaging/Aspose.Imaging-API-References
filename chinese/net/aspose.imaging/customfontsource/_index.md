@@ -1,14 +1,14 @@
 ---
 title: CustomFontSource
 second_title: Aspose.Imaging for .NET API 参考
-description: 自定义字体源提供程序函数
+description: 自定义字体源提供函数
 type: docs
 weight: 760
 url: /zh/net/aspose.imaging/customfontsource/
 ---
 ## CustomFontSource delegate
 
-自定义字体源提供程序函数
+自定义字体源提供函数
 
 ```csharp
 public delegate CustomFontData[] CustomFontSource(params object[] args);
@@ -16,7 +16,7 @@ public delegate CustomFontData[] CustomFontSource(params object[] args);
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| args | Object[] | 参数。 |
+| args | Object[] | 论据。 |
 
 ### 返回值
 
@@ -24,7 +24,7 @@ public delegate CustomFontData[] CustomFontSource(params object[] args);
 
 ### 例子
 
-此示例演示了提供给使用特定字体进行图像渲染。与 FontSettings.SetFontsFolders 方法不同，它在图像范围内工作，并允许在多用户场景中提供字体。
+此示例演示了提供使用特定字体进行图像渲染的自定义字体源。与 FontSettings.SetFontsFolders 方法不同，它在图像范围内工作，并允许在多用户场景中提供字体。
 
 ```csharp
 [C#]
@@ -47,7 +47,7 @@ public void CustomFontSourceTest(string inputPath, string outputPath, string fil
     }
 }
 
-    // 自定义字体提供程序示例。 
+// 自定义字体提供程序示例。 
 private Aspose.Imaging.CustomFontHandler.CustomFontData[] GetFontSource(params object[] args)
 {
     string fontsPath = string.Empty;

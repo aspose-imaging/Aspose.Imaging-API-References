@@ -16,7 +16,7 @@ public bool IsRelative { get; set; }
 
 ### 适当的价值
 
-` true` ifPatternWidth和[`PatternHeight`](../patternheight)具有相对尺寸；否则，` false` 。
+`真的`如果[`PatternWidth`](../patternwidth)和[`PatternHeight`](../patternheight)有相对维度；否则，`错误的` .
 
 ### 也可以看看
 

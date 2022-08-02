@@ -18,19 +18,19 @@ public sealed class EmfPlusFillEllipse : EmfPlusDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPlusFillEllipse](emfplusfillellipse)(EmfPlusRecord) | Инициализирует новый экземпляр класса[`EmfPlusFillEllipse`](../emfplusfillellipse). |
+| [EmfPlusFillEllipse](emfplusfillellipse)(EmfPlusRecord) | Инициализирует новый экземпляр[`EmfPlusFillEllipse`](../emfplusfillellipse) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BrushId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/brushid) { get; set; } | Получает или задает идентификатор кисти 32-битное целое число без знака, указывающее кисть, содержимое которой определяется битом S в поле Flags. Это определение используется для заполнения внутренней части эллипса |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО определять 32-разрядное выровненное число байтов данных в поле RecordData, которое следует. Это число не включает 12-байтовый заголовок записи. |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | Получает или задает 16-разрядное целое число без знака, содержащее информацию для некоторых записей о том, как должна выполняться операция , и о структуре запись. |
-| [IsColor](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/iscolor) { get; set; } | Получает или задает значение, указывающее, является ли данный экземпляр цветным. Если установлено, BrushId определяет цвет как объект EmfPlusARGB (раздел 2.2.2.1). Если флажок не установлен, BrushId содержит индекс объекта EmfPlusBrush (раздел 2.2.1.1) в таблице объектов EMF+. |
-| [IsCompressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/iscompressed) { get; set; } | Получает или задает значение, указывающее, сжат ли этот экземпляр. Если установлено, RectData содержит объект EmfPlusRect (раздел 2.2.2.38). Если этот параметр не установлен, RectData содержит объект EmfPlusRectF (раздел 2.2.2.39). |
-| [RectData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/rectdata) { get; set; } | Получает или устанавливает данные прямоугольника Либо объект EmfPlusRect, либо EmfPlusRectF, определяющий ограничивающую рамку эллипса |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее число байтов, выровненных по 32-разрядному выравниванию во всей записи, включая 12 -байтовый заголовок записи и данные, относящиеся к записи. |
+| [BrushId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/brushid) { get; set; } | Получает или задает идентификатор кисти 32-разрядное целое число без знака, указывающее кисть, содержимое которой определяется битом S в поле Flags. Это определение используется для заполнения внутренней части эллипса |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО определять 32-разрядное выровненное количество байтов данных в следующем поле RecordData. Это число не включает 12-байтовый заголовок записи. |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | Получает или задает 16-разрядное целое число без знака, содержащее информацию для некоторых записей о том, как должна выполняться операция, и о структуре записи. |
+| [IsColor](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/iscolor) { get; set; } | Получает или задает значение, указывающее, является ли этот экземпляр цветом. Если установлено, BrushId указывает цвет как объект EmfPlusARGB (раздел 2.2.2.1). Если этот параметр не установлен, BrushId содержит индекс объекта EmfPlusBrush (раздел 2.2.1.1). ) в таблице объектов EMF+. |
+| [IsCompressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/iscompressed) { get; set; } | Получает или задает значение, указывающее, сжат ли этот экземпляр. Если установлено, RectData содержит объект EmfPlusRect (раздел 2.2.2.38). Если флажок не установлен, RectData содержит объект EmfPlusRectF (раздел 2.2.2.39). |
+| [RectData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/rectdata) { get; set; } | Получает или задает прямоугольник data Объект EmfPlusRect или EmfPlusRectF, определяющий ограничивающую рамку эллипса |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее 32-разрядное выровненное количество байтов во всей записи, включая 12-разрядный заголовок записи и данные, относящиеся к записи. |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | Получает 16-разрядное целое число без знака, определяющее тип записи. |
 
 ### Смотрите также

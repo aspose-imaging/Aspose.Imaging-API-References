@@ -1,14 +1,14 @@
 ---
 title: Empty
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取Rectangleaspose.imaging/rectangle结构的新实例该结构具有XYaspose.imaging/rectangle/yWidthaspose.imaging/rectangle/width和Heightaspose.imaging/rectangle/height值设置为零
+description: 获取一个新的实例Rectangleaspose.imaging/rectangle具有的结构Xaspose.imaging/rectangle/x Yaspose.imaging/rectangle/y Widthaspose.imaging/rectangle/width和Heightaspose.imaging/rectangle/height值设置为零
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging/rectangle/empty/
 ---
 ## Rectangle.Empty property
 
-获取[`Rectangle`](../../rectangle)结构的新实例，该结构具有X,[`Y`](../y),[`Width`](../width)和[`Height`](../height)值设置为零。
+获取一个新的实例[`Rectangle`](../../rectangle)具有的结构[`X`](../x) ,[`Y`](../y) ,[`Width`](../width)和[`Height`](../height)值设置为零。
 
 ```csharp
 public static Rectangle Empty { get; }

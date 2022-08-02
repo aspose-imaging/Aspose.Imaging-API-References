@@ -1,14 +1,14 @@
 ---
 title: ToSize
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Преобразует структуруSizeFaspose.imaging/sizefв структуруSizeaspose.imaging/sizeс усеченными значениями размера.
+description: ПреобразуетSizeFaspose.imaging/sizef кSizeaspose.imaging/size структура с усеченными значениями размера.
 type: docs
 weight: 110
 url: /ru/net/aspose.imaging/sizef/tosize/
 ---
 ## SizeF.ToSize method
 
-Преобразует структуру[`SizeF`](../../sizef)в структуру[`Size`](../../size)с усеченными значениями размера.
+Преобразует[`SizeF`](../../sizef) к[`Size`](../../size) структура с усеченными значениями размера.
 
 ```csharp
 public Size ToSize()
@@ -16,7 +16,7 @@ public Size ToSize()
 
 ### Возвращаемое значение
 
-Возвращает структуру[`Size`](../../size).
+Возвращает[`Size`](../../size) структура.
 
 ### Смотрите также
 

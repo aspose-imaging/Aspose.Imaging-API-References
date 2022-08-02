@@ -26,8 +26,8 @@ public sealed class EmfLogPen : EmfBasePen
 | --- | --- |
 | [AffectWidth](../../aspose.imaging.fileformats.emf.emf.objects/emflogpen/affectwidth) { get; set; } | 获取或设置影响的宽度。 |
 | override [Argb32ColorRef](../../aspose.imaging.fileformats.emf.emf.objects/emflogpen/argb32colorref) { get; set; } | 获取或设置指定笔颜色值的 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节）。 |
-| override [PenStyle](../../aspose.imaging.fileformats.emf.emf.objects/emflogpen/penstyle) { get; set; } | 获取或设置指定 PenStyle 的 32 位无符号整数。该值必须是 从 PenStyle 枚举表中定义的，在第 2.1.25 节中指定。 |
-| [Width](../../aspose.imaging.fileformats.emf.emf.objects/emflogpen/width) { get; set; } | 获取或设置 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象通过值指定 笔的宽度的 x 字段。必须忽略其 y 字段的值。 |
+| override [PenStyle](../../aspose.imaging.fileformats.emf.emf.objects/emflogpen/penstyle) { get; set; } | 获取或设置指定 PenStyle 的 32 位无符号整数。该值必须是从 PenStyle 枚举表定义的 ，在第 2.1.25. 节中指定 |
+| [Width](../../aspose.imaging.fileformats.emf.emf.objects/emflogpen/width) { get; set; } | 获取或设置一个 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象通过其 x 字段的值指定 笔的宽度。必须忽略其 y 字段的值。 |
 
 ### 也可以看看
 

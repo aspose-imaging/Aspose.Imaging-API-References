@@ -1,14 +1,14 @@
 ---
 title: NDesription
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数该整数指定数组 中包含元文件内容描述的字符数如果没有描述字符串则为零
+description: 获取或设置一个 32 位无符号整数它指定数组 中包含元文件内容描述的字符数如果没有描述字符串则为零
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/ndesription/
 ---
 ## EmfHeaderObject.NDesription property
 
-获取或设置一个 32 位无符号整数，该整数指定数组 中包含元文件内容描述的字符数。如果没有描述字符串，则为零。
+获取或设置一个 32 位无符号整数，它指定数组 中包含元文件内容描述的字符数。如果没有描述字符串，则为零。
 
 ```csharp
 public int NDesription { get; set; }

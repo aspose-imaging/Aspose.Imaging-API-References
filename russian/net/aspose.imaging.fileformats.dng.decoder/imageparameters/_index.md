@@ -27,7 +27,7 @@ public class ImageParameters
 | [Model](../../aspose.imaging.fileformats.dng.decoder/imageparameters/model) { get; } | Получает модель камеры. |
 | [RawCount](../../aspose.imaging.fileformats.dng.decoder/imageparameters/rawcount) { get; } | Получает количество изображений RAW в файле (0 означает, что файл не был распознан). |
 | [Software](../../aspose.imaging.fileformats.dng.decoder/imageparameters/software) { get; } | Получает программное обеспечение. |
-| [TranslationCfaDng](../../aspose.imaging.fileformats.dng.decoder/imageparameters/translationcfadng) { get; } | Получает массив переводов для формата DNG мозаики CFA. |
+| [TranslationCfaDng](../../aspose.imaging.fileformats.dng.decoder/imageparameters/translationcfadng) { get; } | Получает массив перевода для формата DNG мозаики CFA. |
 | [XmpData](../../aspose.imaging.fileformats.dng.decoder/imageparameters/xmpdata) { get; } | Получает данные XMP. |
 
 ### Смотрите также

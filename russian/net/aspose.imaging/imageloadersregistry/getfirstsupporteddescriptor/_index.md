@@ -1,14 +1,14 @@
 ---
 title: GetFirstSupportedDescriptor
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает первый найденный поддерживаемый дескриптор подходящий для указанногоstreamи возможноloadOptions.
+description: Получает первый найденный поддерживаемый дескриптор подходящий для указанногоstream и необязательноloadOptions .
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging/imageloadersregistry/getfirstsupporteddescriptor/
 ---
 ## ImageLoadersRegistry.GetFirstSupportedDescriptor method
 
-Получает первый найденный поддерживаемый дескриптор, подходящий для указанного*stream*и, возможно,*loadOptions*.
+Получает первый найденный поддерживаемый дескриптор, подходящий для указанного*stream* и необязательно*loadOptions* .
 
 ```csharp
 public static IImageLoaderDescriptor GetFirstSupportedDescriptor(Stream stream, 
@@ -18,15 +18,15 @@ public static IImageLoaderDescriptor GetFirstSupportedDescriptor(Stream stream,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток. |
-| loadOptions | LoadOptions | Параметры загрузки. |
+| loadOptions | LoadOptions | Варианты загрузки. |
 
 ### Возвращаемое значение
 
-Дескриптор загрузчика, поддерживающий указанные*stream*и*loadOptions*или null, если такой дескриптор не найден.
+Дескриптор загрузчика, который поддерживает указанный*stream* а также*loadOptions* или null, если такой дескриптор не найден.
 
 ### Примечания
 
-Первый дескриптор загрузчика будет фактически последним зарегистрированным.
+Первый дескриптор загрузчика фактически будет последним зарегистрированным.
 
 ### Смотрите также
 

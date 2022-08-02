@@ -18,16 +18,16 @@ public sealed class EmfExtFloodFill : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfExtFloodFill](emfextfloodfill)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfExtFloodFill`](../emfextfloodfill). |
+| [EmfExtFloodFill](emfextfloodfill)(EmfRecord) | Инициализирует новый экземпляр[`EmfExtFloodFill`](../emfextfloodfill) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Argb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/argb32color) { get; set; } | Получает или задает объект WMF ColorRef ([MS-WMF], раздел 2.2.2.8), который используется с FloodFillMode для определения площадь для заполнения. |
-| [FloodFillMode](../../aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/floodfillmode) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее, как использовать значение Color для определения области операции заливки заливкой. Значение ДОЛЖНО быть в перечислении FloodFill (раздел 2.1.13). |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
-| [Start](../../aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/start) { get; set; } | Получает или задает объект WMF PointL ([MS-WMF], раздел 2.2.2.15), который определяет координаты в логических единицах, где начинается заполнение. |
+| [Argb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/argb32color) { get; set; } | Получает или задает объект WMF ColorRef ([MS-WMF], раздел 2.2.2.8), который используется с FloodFillMode для определения области для заполнения. |
+| [FloodFillMode](../../aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/floodfillmode) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее, как использовать значение цвета для определения области для операции заливки заливкой. Значение ДОЛЖНО находиться в перечислении FloodFill (раздел 2.1.13). |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
+| [Start](../../aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/start) { get; set; } | Получает или задает объект WMF PointL ([MS-WMF], раздел 2.2.2.15), который указывает координаты в логических единицах, где начинается заполнение. |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

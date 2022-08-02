@@ -1,14 +1,14 @@
 ---
 title: TiffSRationalType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTiffSRationalTypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffsrationaltype.
+description: Инициализирует новый экземплярTiffSRationalTypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffsrationaltype класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffsrationaltype/tiffsrationaltype/
 ---
 ## TiffSRationalType(TiffTags) {#constructor}
 
-Инициализирует новый экземпляр класса[`TiffSRationalType`](../../tiffsrationaltype).
+Инициализирует новый экземпляр[`TiffSRationalType`](../../tiffsrationaltype) класс.
 
 ```csharp
 public TiffSRationalType(TiffTags tagId)
@@ -29,7 +29,7 @@ public TiffSRationalType(TiffTags tagId)
 
 ## TiffSRationalType(ushort) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TiffSRationalType`](../../tiffsrationaltype).
+Инициализирует новый экземпляр[`TiffSRationalType`](../../tiffsrationaltype) класс.
 
 ```csharp
 public TiffSRationalType(ushort tagId)

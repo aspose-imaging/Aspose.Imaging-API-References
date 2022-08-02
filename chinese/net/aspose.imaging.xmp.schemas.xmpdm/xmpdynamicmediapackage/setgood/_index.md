@@ -16,7 +16,7 @@ public void SetGood(bool good)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| good | Boolean | 如果设置为` true` 射门就是守门员. |
+| good | Boolean | 如果设置为`真的`射门是守门员。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Ycck
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПолучаетPixelDataFormataspose.imaging/pixeldataformatопределенный для 32 битов на пиксель с 8 битами для каждой из яркостей синих различий  красноразностная и черная компоненты цветности.
+description: ПолучаетPixelDataFormataspose.imaging/pixeldataformat определяется для 32 бит на пиксель с 8 битами для каждого компонента яркости синего красного и черного цветных компонентов.
 type: docs
 weight: 160
 url: /ru/net/aspose.imaging/pixeldataformat/ycck/
 ---
 ## PixelDataFormat.Ycck property
 
-Получает[`PixelDataFormat`](../../pixeldataformat)определенный для 32 битов на пиксель с 8 битами для каждой из яркостей, синих различий , красноразностная и черная компоненты цветности.
+Получает[`PixelDataFormat`](../../pixeldataformat) определяется для 32 бит на пиксель с 8 битами для каждого компонента яркости, синего, красного и черного цветных компонентов.
 
 ```csharp
 public static PixelDataFormat Ycck { get; }
@@ -16,7 +16,7 @@ public static PixelDataFormat Ycck { get; }
 
 ### Стоимость имущества
 
-Формат[`PixelDataFormat`](../../pixeldataformat)определен для 32 бит на пиксель с 8 битами для каждого из компонентов яркости, синей разницы, красной разницы и черного цвета.
+[`PixelDataFormat`](../../pixeldataformat) определяется для 32 бит на пиксель с 8 битами для каждого компонента яркости, синего, красного и черного цветных компонентов.
 
 ### Смотрите также
 

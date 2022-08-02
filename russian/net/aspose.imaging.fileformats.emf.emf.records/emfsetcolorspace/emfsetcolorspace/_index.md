@@ -1,14 +1,14 @@
 ---
 title: EmfSetColorSpace
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetColorSpaceaspose.imaging.fileformats.emf.emf.records/emfsetcolorspace.
+description: Инициализирует новый экземплярEmfSetColorSpaceaspose.imaging.fileformats.emf.emf.records/emfsetcolorspace класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetcolorspace/emfsetcolorspace/
 ---
 ## EmfSetColorSpace constructor
 
-Инициализирует новый экземпляр класса[`EmfSetColorSpace`](../../emfsetcolorspace).
+Инициализирует новый экземпляр[`EmfSetColorSpace`](../../emfsetcolorspace) класс.
 
 ```csharp
 public EmfSetColorSpace(EmfRecord source)

@@ -1,14 +1,14 @@
 ---
 title: RectangleData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置矩形数据 EmfPlusRect 或 EmfPlusRectF 对象用于定义椭圆的边界框 与圆弧共线这个矩形定义了弧线的 位置大小和形状此字段中的对象类型是 由 Flags 字段的值指定
+description: 获取或设置矩形 data EmfPlusRect 或 EmfPlusRectF 对象用于定义与圆弧共线的椭圆的边界框 此矩形定义弧的 位置大小和形状该字段中的对象类型是 由Flags字段的值指定
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/rectangledata/
 ---
 ## EmfPlusDrawArc.RectangleData property
 
-获取或设置矩形数据 EmfPlusRect 或 EmfPlusRectF 对象，用于定义椭圆的边界框 与圆弧共线。这个矩形定义了弧线的 位置、大小和形状。此字段中的对象类型是 由 Flags 字段的值指定。
+获取或设置矩形 data EmfPlusRect 或 EmfPlusRectF 对象，用于定义与圆弧共线的椭圆的边界框 。此矩形定义弧的 位置、大小和形状。该字段中的对象类型是 ，由Flags字段的值指定。
 
 ```csharp
 public RectangleF RectangleData { get; set; }

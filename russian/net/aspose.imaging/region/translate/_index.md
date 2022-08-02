@@ -1,14 +1,14 @@
 ---
 title: Translate
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Смещает координаты этогоRegionaspose.imaging/regionна указанную величину.
+description: Смещает координаты этогоRegionaspose.imaging/region на указанную сумму.
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging/region/translate/
 ---
 ## Translate(float, float) {#translate_1}
 
-Смещает координаты этого[`Region`](../../region)на указанную величину.
+Смещает координаты этого[`Region`](../../region) на указанную сумму.
 
 ```csharp
 public void Translate(float dx, float dy)
@@ -16,8 +16,8 @@ public void Translate(float dx, float dy)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dx | Single | Величина смещения этого[`Region`](../../region)по горизонтали. |
-| dy | Single | Величина смещения этого[`Region`](../../region)по вертикали. |
+| dx | Single | Сумма для компенсации этого[`Region`](../../region) по горизонтали. |
+| dy | Single | Сумма для компенсации этого[`Region`](../../region) вертикально. |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public void Translate(float dx, float dy)
 
 ## Translate(int, int) {#translate}
 
-Смещает координаты этого[`Region`](../../region)на указанную величину.
+Смещает координаты этого[`Region`](../../region) на указанную сумму.
 
 ```csharp
 public void Translate(int dx, int dy)
@@ -37,8 +37,8 @@ public void Translate(int dx, int dy)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dx | Int32 | Величина смещения этого[`Region`](../../region)по горизонтали. |
-| dy | Int32 | Величина смещения этого[`Region`](../../region)по вертикали. |
+| dx | Int32 | Сумма для компенсации этого[`Region`](../../region) по горизонтали. |
+| dy | Int32 | Сумма для компенсации этого[`Region`](../../region) вертикально. |
 
 ### Смотрите также
 

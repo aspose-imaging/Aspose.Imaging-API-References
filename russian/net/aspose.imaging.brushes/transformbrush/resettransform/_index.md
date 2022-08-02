@@ -1,14 +1,14 @@
 ---
 title: ResetTransform
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Сбрасывает свойствоTransformaspose.imaging.brushes/transformbrush/transformв идентичность.
+description: СбрасываетTransformaspose.imaging.brushes/transformbrush/transform свойство к личности.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.brushes/transformbrush/resettransform/
 ---
 ## TransformBrush.ResetTransform method
 
-Сбрасывает свойство[`Transform`](../transform)в идентичность.
+Сбрасывает[`Transform`](../transform) свойство к личности.
 
 ```csharp
 public void ResetTransform()

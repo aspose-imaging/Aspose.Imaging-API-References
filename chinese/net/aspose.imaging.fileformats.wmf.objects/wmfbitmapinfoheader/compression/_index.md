@@ -1,14 +1,14 @@
 ---
 title: Compression
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置定义DIB压缩模式的32位无符号整数该值必须在 压缩枚举第 2.1.1.7 节中 如果 DIB 是自上而下的位图则该值不得指定压缩格式如 Height 值所示
+description: 获取或设置一个 32 位无符号整数用于定义 DIB 的压缩模式该值必须在 压缩枚举第 2.1.1.7 节中 如果 DIB 是自上而下的位图则该值不得指定压缩格式如高度值所示
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfbitmapinfoheader/compression/
 ---
 ## WmfBitmapInfoHeader.Compression property
 
-获取或设置定义DIB压缩模式的32位无符号整数。该值必须在 压缩枚举（第 2.1.1.7 节）中。 如果 DIB 是自上而下的位图，则该值不得指定压缩格式，如 Height 值所示。
+获取或设置一个 32 位无符号整数，用于定义 DIB 的压缩模式。该值必须在 压缩枚举（第 2.1.1.7 节）中。 如果 DIB 是自上而下的位图，则该值不得指定压缩格式，如高度值所示。
 
 ```csharp
 public WmfCompression Compression { get; set; }

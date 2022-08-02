@@ -1,14 +1,14 @@
 ---
 title: AddFrames
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Добавляет массив кадров к изображению
+description: Добавляет массив кадров в image
 type: docs
 weight: 150
 url: /ru/net/aspose.imaging.fileformats.tiff/tiffimage/addframes/
 ---
 ## TiffImage.AddFrames method
 
-Добавляет массив кадров к изображению
+Добавляет массив кадров в image
 
 ```csharp
 public void AddFrames(TiffFrame[] frames)

@@ -1,14 +1,14 @@
 ---
 title: PenAlignment
 second_title: Aspose.Imaging for .NET API 参考
-description: 指定Pen./pen对象相对于理论零宽度线的对齐方式
+description: 指定对齐方式Pen./pen相对于理论的零宽度线的对象
 type: docs
-weight: 10710
+weight: 10700
 url: /zh/net/aspose.imaging/penalignment/
 ---
 ## PenAlignment enumeration
 
-指定[`Pen`](../pen)对象相对于理论零宽度线的对齐方式。
+指定对齐方式[`Pen`](../pen)相对于理论的零宽度线的对象。
 
 ```csharp
 public enum PenAlignment
@@ -18,7 +18,7 @@ public enum PenAlignment
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Center | `0` | 指定[`Pen`](../pen)对象位于理论线的中心。 |
+| Center | `0` | 指定[`Pen`](../pen)对象以理论线为中心。 |
 | Inset | `1` | 指定[`Pen`](../pen)位于理论线的内侧。 |
 | Outset | `2` | 指定[`Pen`](../pen)位于理论线的外侧。 |
 | Left | `3` | 指定[`Pen`](../pen)位于理论线的左侧。 |

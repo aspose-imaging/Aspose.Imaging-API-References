@@ -1,14 +1,14 @@
 ---
 title: CustomLineCap
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инкапсулирует определяемый пользователем конец строки.
+description: Инкапсулирует определяемый пользователем заголовок строки.
 type: docs
 weight: 770
 url: /ru/net/aspose.imaging/customlinecap/
 ---
 ## CustomLineCap class
 
-Инкапсулирует определяемый пользователем конец строки.
+Инкапсулирует определяемый пользователем заголовок строки.
 
 ```csharp
 public class CustomLineCap
@@ -18,27 +18,27 @@ public class CustomLineCap
 
 | Имя | Описание |
 | --- | --- |
-| [CustomLineCap](customlinecap#constructor)(GraphicsPath, GraphicsPath) | Инициализирует новый экземпляр класса[`CustomLineCap`](../customlinecap)с указанным контуром и заливкой. |
-| [CustomLineCap](customlinecap#constructor_1)(GraphicsPath, GraphicsPath, LineCap) | Инициализирует новый экземпляр класса[`CustomLineCap`](../customlinecap)из указанного существующего[`LineCap`](../linecap)перечисление с заданным контуром и заливкой. |
-| [CustomLineCap](customlinecap#constructor_2)(GraphicsPath, GraphicsPath, LineCap, float) | Инициализирует новый экземпляр класса[`CustomLineCap`](../customlinecap)из указанного существующего[`LineCap`](../linecap)перечисление с указанным контуром, заливкой и вставкой. |
+| [CustomLineCap](customlinecap#constructor)(GraphicsPath, GraphicsPath) | Инициализирует новый экземпляр[`CustomLineCap`](../customlinecap) класс с указанным контуром и заливкой. |
+| [CustomLineCap](customlinecap#constructor_1)(GraphicsPath, GraphicsPath, LineCap) | Инициализирует новый экземпляр[`CustomLineCap`](../customlinecap) класс из указанного существующего[`LineCap`](../linecap) перечисление с заданным контуром и заливкой. |
+| [CustomLineCap](customlinecap#constructor_2)(GraphicsPath, GraphicsPath, LineCap, float) | Инициализирует новый экземпляр[`CustomLineCap`](../customlinecap) класс из указанного существующего[`LineCap`](../linecap) перечисление с указанным контуром, заливкой и вставкой. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BaseCap](../../aspose.imaging/customlinecap/basecap) { get; set; } | Получает или задает перечисление[`LineCap`](../linecap)для которого используется[`CustomLineCap`](../customlinecap)основано. |
+| [BaseCap](../../aspose.imaging/customlinecap/basecap) { get; set; } | Получает или задает[`LineCap`](../linecap) перечисление, по которому это[`CustomLineCap`](../customlinecap) основано . |
 | [BaseInset](../../aspose.imaging/customlinecap/baseinset) { get; set; } | Получает или задает расстояние между крышкой и линией. |
 | [FillPath](../../aspose.imaging/customlinecap/fillpath) { get; set; } | Получает или задает объект, определяющий заливку пользовательского колпачка. |
-| [StrokeJoin](../../aspose.imaging/customlinecap/strokejoin) { get; set; } | Получает или задает перечисление[`LineJoin`](../linejoin), которое определяет, как строки составляют этоCustomLineCapобъединены. |
+| [StrokeJoin](../../aspose.imaging/customlinecap/strokejoin) { get; set; } | Получает или задает[`LineJoin`](../linejoin) перечисление, которое определяет, как строки, составляющие это[`CustomLineCap`](../customlinecap) объекты объединены. |
 | [StrokePath](../../aspose.imaging/customlinecap/strokepath) { get; set; } | Получает или задает объект, определяющий контур пользовательской крышки. |
-| [WidthScale](../../aspose.imaging/customlinecap/widthscale) { get; set; } | Получает или задает величину масштабирования этого объекта[`CustomLineCap`](../customlinecap)Class относительно шириныPenобъект. |
+| [WidthScale](../../aspose.imaging/customlinecap/widthscale) { get; set; } | Получает или задает величину масштабирования этого[`CustomLineCap`](../customlinecap) Объект класса относительно шириныPen объект. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetStrokeCaps](../../aspose.imaging/customlinecap/getstrokecaps)(out LineCap, out LineCap) | Получает заглавные буквы, используемые для начала и окончания строк, составляющих этот настраиваемый заглавный элемент. |
-| [SetStrokeCaps](../../aspose.imaging/customlinecap/setstrokecaps)(LineCap, LineCap) | Устанавливает заглавные буквы, используемые для начала и окончания строк, составляющих этот пользовательский заглавный элемент. |
+| [GetStrokeCaps](../../aspose.imaging/customlinecap/getstrokecaps)(out LineCap, out LineCap) | Получает заглавные буквы, используемые для начальной и конечной строк, составляющих этот пользовательский заглавный элемент. |
+| [SetStrokeCaps](../../aspose.imaging/customlinecap/setstrokecaps)(LineCap, LineCap) | Устанавливает заглавные буквы, используемые для начальной и конечной строк, составляющих этот пользовательский заглавный элемент. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Aspose.Imaging for .NET API 参考
-description: 从指定的Imaging初始化R5TAspose.Imaging.Size结构的新实例观点
+description: 初始化Sizeaspose.imaging/size从指定的结构Pointaspose.imaging/point .
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/size/size/
 ---
 ## Size(Point) {#constructor}
 
-从指定的Imaging初始化R5:T:Aspose.Imaging.Size:::结构的新实例。观点:::。
+初始化[`Size`](../../size)从指定的结构[`Point`](../../point) .
 
 ```csharp
 public Size(Point point)
@@ -16,7 +16,7 @@ public Size(Point point)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| point | Point | [`Point`](../../point)从中初始化这个[`Size`](../../size)。 |
+| point | Point | 这[`Point`](../../point)从中初始化它[`Size`](../../size). |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public Size(Point point)
 
 ## Size(int, int) {#constructor_1}
 
-从指定维度初始化[`Size`](../../size)结构的新实例。
+初始化[`Size`](../../size)指定尺寸的结构。
 
 ```csharp
 public Size(int width, int height)
@@ -37,8 +37,8 @@ public Size(int width, int height)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| width | Int32 | 新[`Size`](../../size)的宽度分量。 |
-| height | Int32 | 新[`Size`](../../size)的高度分量。 |
+| width | Int32 | 新的宽度分量[`Size`](../../size). |
+| height | Int32 | 新的高度分量[`Size`](../../size). |
 
 ### 也可以看看
 

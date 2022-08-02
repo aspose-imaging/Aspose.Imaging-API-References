@@ -1,14 +1,14 @@
 ---
 title: Saturation
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает насыщенность.
+description: Получает или устанавливает насыщенность.
 type: docs
 weight: 910
 url: /ru/net/aspose.imaging.exif/exifdata/saturation/
 ---
 ## ExifData.Saturation property
 
-Получает или задает насыщенность.
+Получает или устанавливает насыщенность.
 
 ```csharp
 public ExifSaturation Saturation { get; set; }

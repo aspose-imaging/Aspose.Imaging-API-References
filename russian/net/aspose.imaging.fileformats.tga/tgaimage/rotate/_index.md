@@ -1,14 +1,14 @@
 ---
 title: Rotate
 second_title: Справочник по Aspose.Imaging for .NET API
-description: RasterCahcedMultipageImage.Rotateизображение вокруг центра.
+description: RasterCahcedMultipageImage.Rotate изображение вокруг центра.
 type: docs
 weight: 350
 url: /ru/net/aspose.imaging.fileformats.tga/tgaimage/rotate/
 ---
 ## TgaImage.Rotate method
 
-!:RasterCahcedMultipageImage.Rotateизображение вокруг центра.
+!:RasterCahcedMultipageImage.Rotate изображение вокруг центра.
 
 ```csharp
 public override void Rotate(float angle, bool resizeProportionally, Color backgroundColor)
@@ -17,7 +17,7 @@ public override void Rotate(float angle, bool resizeProportionally, Color backgr
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | angle | Single | Угол поворота в градусах. Положительные значения будут вращаться по часовой стрелке. |
-| resizeProportionally | Boolean | если установлено` true` у вас будет изменен размер изображения в соответствии с проекциями повернутого прямоугольника (угловые точки) в другом случае, который оставляет размеры нетронутыми и поворачивается только &lt;see langword="internal" /&gt; содержимое изображения. |
+| resizeProportionally | Boolean | если установлено`истинный` у вас будет изменен размер изображения в соответствии с проекциями повернутого прямоугольника (угловые точки) в случае other , который оставляет размеры нетронутыми и only `internal` содержимое изображения повернуто. |
 | backgroundColor | Color | Цвет фона. |
 
 ### Смотрите также

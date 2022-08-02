@@ -1,14 +1,14 @@
 ---
 title: Timecode24
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取时间码24
+description: 获取时间码24.
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/timeformat/timecode24/
 ---
 ## TimeFormat.Timecode24 property
 
-获取时间码24。
+获取时间码24.
 
 ```csharp
 public static TimeFormat Timecode24 { get; }
@@ -16,7 +16,7 @@ public static TimeFormat Timecode24 { get; }
 
 ### 适当的价值
 
-时间码24。
+时间码24.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: SvgGraphics2D
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Предоставляет команды рисования для составления изображения Svg.
+description: Предоставляет команды рисования для создания изображения Svg.
 type: docs
 weight: 7520
 url: /ru/net/aspose.imaging.fileformats.svg.graphics/svggraphics2d/
 ---
 ## SvgGraphics2D class
 
-Предоставляет команды рисования для составления изображения Svg.
+Предоставляет команды рисования для создания изображения Svg.
 
 ```csharp
 public class SvgGraphics2D
@@ -18,8 +18,8 @@ public class SvgGraphics2D
 
 | Имя | Описание |
 | --- | --- |
-| [SvgGraphics2D](svggraphics2d#constructor)(SvgImage) | Инициализирует новый экземпляр класса[`SvgGraphics2D`](../svggraphics2d). |
-| [SvgGraphics2D](svggraphics2d#constructor_1)(int, int, int) | Инициализирует новый экземпляр класса[`SvgGraphics2D`](../svggraphics2d). |
+| [SvgGraphics2D](svggraphics2d#constructor)(SvgImage) | Инициализирует новый экземпляр[`SvgGraphics2D`](../svggraphics2d) класс. |
+| [SvgGraphics2D](svggraphics2d#constructor_1)(int, int, int) | Инициализирует новый экземпляр[`SvgGraphics2D`](../svggraphics2d) класс. |
 
 ## Методы
 
@@ -34,7 +34,7 @@ public class SvgGraphics2D
 | [DrawPath](../../aspose.imaging.fileformats.svg.graphics/svggraphics2d/drawpath)(Pen, GraphicsPath) | Рисует путь. |
 | [DrawRectangle](../../aspose.imaging.fileformats.svg.graphics/svggraphics2d/drawrectangle)(Pen, int, int, int, int) | Рисует прямоугольник. |
 | [DrawString](../../aspose.imaging.fileformats.svg.graphics/svggraphics2d/drawstring)(Font, string, Point, Color) | Рисует текстовую строку. |
-| [EndRecording](../../aspose.imaging.fileformats.svg.graphics/svggraphics2d/endrecording)() | Получает окончательное изображение Svg, которое включает в себя все команды рисования, выполняемые через объект[`SvgGraphics2D`](../svggraphics2d). |
+| [EndRecording](../../aspose.imaging.fileformats.svg.graphics/svggraphics2d/endrecording)() | Получает окончательное изображение Svg, которое включает в себя все команды рисования, выполненные через[`SvgGraphics2D`](../svggraphics2d) объект. |
 | [FillArc](../../aspose.imaging.fileformats.svg.graphics/svggraphics2d/fillarc)(Pen, Brush, Rectangle, float, float) | Заполняет дугу, представляющую часть эллипса, заданного структурой Rectangle. |
 | [FillPath](../../aspose.imaging.fileformats.svg.graphics/svggraphics2d/fillpath)(Pen, Brush, GraphicsPath) | Заполняет путь. |
 | [FillRectangle](../../aspose.imaging.fileformats.svg.graphics/svggraphics2d/fillrectangle)(Pen, Brush, int, int, int, int) | Заполняет прямоугольник. |

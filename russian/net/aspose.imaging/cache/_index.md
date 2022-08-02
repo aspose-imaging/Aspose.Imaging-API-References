@@ -1,14 +1,14 @@
 ---
 title: Cache
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Содержит настройки кэша.
+description: Содержит настройки кеша.
 type: docs
 weight: 250
 url: /ru/net/aspose.imaging/cache/
 ---
 ## Cache class
 
-Содержит настройки кэша.
+Содержит настройки кеша.
 
 ```csharp
 public static class Cache
@@ -23,42 +23,42 @@ public static class Cache
 | static [CacheFolder](../../aspose.imaging/cache/cachefolder) { get; set; } | Получает или задает папку кэша. |
 | static [CacheType](../../aspose.imaging/cache/cachetype) { get; set; } | Получает или задает используемую схему кэширования. |
 | static [ExactReallocateOnly](../../aspose.imaging/cache/exactreallocateonly) { get; set; } | Получает или задает значение, указывающее, должно ли перераспределение быть точным или нет. Если перераспределение не точное, производительность должна быть выше. |
-| static [MaxDiskSpaceForCache](../../aspose.imaging/cache/maxdiskspaceforcache) { get; set; } | Получает или задает максимальное доступное дисковое пространство для кэша. Указанное значение является количеством мегабайт. |
-| static [MaxMemoryForCache](../../aspose.imaging/cache/maxmemoryforcache) { get; set; } | Получает или задает максимально доступную память для кэша в памяти. Указанное значение является количеством мегабайт. |
+| static [MaxDiskSpaceForCache](../../aspose.imaging/cache/maxdiskspaceforcache) { get; set; } | Получает или задает максимальное доступное дисковое пространство для кэша. Указанное значение равно количеству мегабайт. |
+| static [MaxMemoryForCache](../../aspose.imaging/cache/maxmemoryforcache) { get; set; } | Получает или задает максимально доступную память для кэша в памяти. Указанное значение равно количеству мегабайт. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| static [SetDefaults](../../aspose.imaging/cache/setdefaults)() | Устанавливает для[`Cache`](../cache)настройки по умолчанию. |
+| static [SetDefaults](../../aspose.imaging/cache/setdefaults)() | Устанавливает[`Cache`](../cache) настройки по умолчанию. |
 
 ### Примеры
 
-Этот пример демонстрирует использование Aspose.Imaging.Cache
+Этот пример демонстрирует использование Aspose.Imaging.Cache.
 
 ```csharp
 [C#]
 
- // По умолчанию папка кеша устанавливается в локальный временный каталог пользователя.
- // Вы также можете указать другую папку кэша, отличную от стандартной, например: 
- // Cache.CacheFolder = @"D:\\MyTemp";
+// По умолчанию папка кеша устанавливается в локальный временный каталог пользователя.
+// Вы также можете указать другую папку кеша, отличную от стандартной, например:
+// Cache.CacheFolder = @"D:\\MyTemp";
 
- // Автоматический режим гибкий и эффективный
+// Автоматический режим гибок и эффективен
 Aspose.Imaging.Cache.CacheType = Aspose.Imaging.CacheType.Auto;
 
- // Значение по умолчанию равно 0, что означает отсутствие верхнего предела
-Aspose.Imaging.Cache.MaxDiskSpaceForCache = 1073741824;  // 1 гигабайт
-Aspose.Imaging.Cache.MaxMemoryForCache = 1073741824;  // 1 гигабайт
+// Значение по умолчанию равно 0, что означает отсутствие верхнего предела
+Aspose.Imaging.Cache.MaxDiskSpaceForCache = 1073741824; // 1 гигабайт
+Aspose.Imaging.Cache.MaxMemoryForCache = 1073741824; // 1 гигабайт
 
- // Не рекомендуется изменять следующее свойство, так как это может сильно повлиять на performance
+// Не рекомендуется изменять следующее свойство, так как это может сильно повлиять на производительность
 Aspose.Imaging.Cache.ExactReallocateOnly = false;
 
- // В любой момент вы можете проверить, сколько байт в данный момент выделено для памяти или диска 
- // кешировать, изучив следующие свойства
+// В любой момент вы можете проверить, сколько байт в данный момент выделено для памяти или диска 
+// кешируем, изучая следующие свойства
 long l1 = Aspose.Imaging.Cache.AllocatedDiskBytesCount;
 long l2 = Aspose.Imaging.Cache.AllocatedMemoryBytesCount;
 
- // Выполняем некоторую обработку изображения, как показано ниже
+// Выполняем некоторую обработку изображения, как показано ниже
 Aspose.Imaging.ImageOptions.GifOptions options = new Aspose.Imaging.ImageOptions.GifOptions();
 options.Palette = new ColorPalette(new Aspose.Imaging.Color[] { Aspose.Imaging.Color.Red, Aspose.Imaging.Color.Blue, Aspose.Imaging.Color.Black, Aspose.Imaging.Color.White });
 options.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream(), true);
@@ -72,13 +72,13 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 
     image.SavePixels(image.Bounds, pixels);
 
-    // после выполнения кода выше в памяти будет выделено 40000 байт.
+    // после выполнения кода выше будет выделено 40000 байт в памяти.
     long diskBytes = Aspose.Imaging.Cache.AllocatedDiskBytesCount;
     long memoryBytes = Aspose.Imaging.Cache.AllocatedMemoryBytesCount;
 }
 
- // Свойства выделения можно использовать для проверки правильности размещения всех объектов Aspose.Imaging.
- // Если вы забыли вызвать dispose для какого-либо объекта, значения кеша будут отличаться от 0. 
+// Свойства выделения можно использовать для проверки правильности размещения всех объектов Aspose.Imaging.
+// Если вы забыли вызвать dispose для какого-либо объекта, значения кеша будут отличаться от 0.            
 l1 = Aspose.Imaging.Cache.AllocatedDiskBytesCount;
 l2 = Aspose.Imaging.Cache.AllocatedMemoryBytesCount;
 ```

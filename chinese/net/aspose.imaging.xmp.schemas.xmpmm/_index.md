@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.Xmp.Schemas.XmpMm
 second_title: Aspose.Imaging for .NET API 参考
-description: 命名空间包含主要由数字资产管理 DAM 系统使用的相关帮助类常量和方法
+description: 命名空间包含主要由数字资产管理 DAM 系统使用的相关帮助程序类常量和方法
 type: docs
 weight: 960
 url: /zh/net/aspose.imaging.xmp.schemas.xmpmm/
 ---
-命名空间包含主要由数字资产管理 (DAM) 系统使用的相关帮助类、常量和方法。
+命名空间包含主要由数字资产管理 (DAM) 系统使用的相关帮助程序类、常量和方法。
 
 ## 课程
 

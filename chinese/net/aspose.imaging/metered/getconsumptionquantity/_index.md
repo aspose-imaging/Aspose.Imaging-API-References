@@ -16,7 +16,7 @@ public static decimal GetConsumptionQuantity()
 
 ### 返回值
 
-消费数量
+消费量
 
 ### 也可以看看
 

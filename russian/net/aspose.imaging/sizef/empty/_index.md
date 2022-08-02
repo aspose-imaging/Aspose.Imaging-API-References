@@ -1,14 +1,14 @@
 ---
 title: Empty
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает новый экземпляр структурыSizeFaspose.imaging/sizefсWidthиHeightaspose.imaging/sizef/heightравны нулю.
+description: Получает новый экземплярSizeFaspose.imaging/sizef структура которая имеетWidthaspose.imaging/sizef/width а такжеHeightaspose.imaging/sizef/height значения равны нулю.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging/sizef/empty/
 ---
 ## SizeF.Empty property
 
-Получает новый экземпляр структуры[`SizeF`](../../sizef)сWidthи[`Height`](../height)равны нулю.
+Получает новый экземпляр[`SizeF`](../../sizef) структура, которая имеет[`Width`](../width) а также[`Height`](../height) значения равны нулю.
 
 ```csharp
 public static SizeF Empty { get; }

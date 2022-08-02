@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此Pointaspose.imaging/point的 x 坐标
+description: 获取或设置 this 的 x 坐标Pointaspose.imaging/point .
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging/point/x/
 ---
 ## Point.X property
 
-获取或设置此[`Point`](../../point)的 x 坐标。
+获取或设置 this 的 x 坐标[`Point`](../../point) .
 
 ```csharp
 public int X { get; set; }

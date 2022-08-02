@@ -1,14 +1,14 @@
 ---
 title: ReferenceBlackWhite
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает ссылку черный белый.
+description: Получает или задает эталонный черный белый.
 type: docs
 weight: 150
 url: /ru/net/aspose.imaging.exif/jpegexifdata/referenceblackwhite/
 ---
 ## JpegExifData.ReferenceBlackWhite property
 
-Получает или задает ссылку черный белый.
+Получает или задает эталонный черный белый.
 
 ```csharp
 public TiffRational[] ReferenceBlackWhite { get; set; }
@@ -16,7 +16,7 @@ public TiffRational[] ReferenceBlackWhite { get; set; }
 
 ### Стоимость имущества
 
-Эталон черный белый.
+Эталонный черный белый.
 
 ### Смотрите также
 

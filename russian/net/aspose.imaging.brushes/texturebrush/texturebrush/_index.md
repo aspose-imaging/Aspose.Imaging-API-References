@@ -1,14 +1,14 @@
 ---
 title: TextureBrush
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTextureBrushaspose.imaging.brushes/texturebrush который использует указанное изображение.
+description: Инициализирует новый экземплярTextureBrushaspose.imaging.brushes/texturebrush класс использующий указанное изображение.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.brushes/texturebrush/texturebrush/
 ---
 ## TextureBrush(Image) {#constructor}
 
-Инициализирует новый экземпляр класса[`TextureBrush`](../../texturebrush), который использует указанное изображение.
+Инициализирует новый экземпляр[`TextureBrush`](../../texturebrush) класс, использующий указанное изображение.
 
 ```csharp
 public TextureBrush(Image image)
@@ -16,7 +16,7 @@ public TextureBrush(Image image)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| image | Image | Объект[`Image`](../../../aspose.imaging/image)с которым этот[`TextureBrush`](../../texturebrush)объект заполняет интерьер. |
+| image | Image | [`Image`](../../../aspose.imaging/image) предмет, с которым это[`TextureBrush`](../../texturebrush) объект заполняет интерьеры. |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public TextureBrush(Image image)
 
 ## TextureBrush(Image, WrapMode) {#constructor_5}
 
-Инициализирует новый экземпляр класса[`TextureBrush`](../../texturebrush), который использует указанное изображение и режим переноса.
+Инициализирует новый экземпляр[`TextureBrush`](../../texturebrush) класс, который использует указанное изображение и режим переноса.
 
 ```csharp
 public TextureBrush(Image image, WrapMode wrapMode)
@@ -37,8 +37,8 @@ public TextureBrush(Image image, WrapMode wrapMode)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| image | Image | Объект[`Image`](../../../aspose.imaging/image)с которым этот[`TextureBrush`](../../texturebrush)объект заполняет интерьер. |
-| wrapMode | WrapMode | A[`WrapMode`](../../../aspose.imaging/wrapmode)перечисление, указывающее, как это[`TextureBrush`](../../texturebrush)объект мозаичный. |
+| image | Image | [`Image`](../../../aspose.imaging/image) предмет, с которым это[`TextureBrush`](../../texturebrush) объект заполняет интерьеры. |
+| wrapMode | WrapMode | А[`WrapMode`](../../../aspose.imaging/wrapmode) перечисление, которое указывает, как это[`TextureBrush`](../../texturebrush) объект мозаичный. |
 
 ### Смотрите также
 
@@ -52,7 +52,7 @@ public TextureBrush(Image image, WrapMode wrapMode)
 
 ## TextureBrush(Image, WrapMode, RectangleF) {#constructor_7}
 
-Инициализирует новый экземпляр класса[`TextureBrush`](../../texturebrush), который использует указанное изображение, режим переноса и границы прямоугольник.
+Инициализирует новый экземпляр[`TextureBrush`](../../texturebrush) класс, который использует указанное изображение, режим переноса и ограничивающий прямоугольник.
 
 ```csharp
 public TextureBrush(Image image, WrapMode wrapMode, RectangleF destinationRectangle)
@@ -60,9 +60,9 @@ public TextureBrush(Image image, WrapMode wrapMode, RectangleF destinationRectan
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| image | Image | Объект[`Image`](../../../aspose.imaging/image)с которым этот[`TextureBrush`](../../texturebrush)объект заполняет интерьер. |
-| wrapMode | WrapMode | A[`WrapMode`](../../../aspose.imaging/wrapmode)перечисление, указывающее, как это[`TextureBrush`](../../texturebrush)объект мозаичный. |
-| destinationRectangle | RectangleF | A[`RectangleF`](../../../aspose.imaging/rectanglef)структура, представляющая ограничивающий прямоугольник для этого[`TextureBrush`](../../texturebrush)объект. |
+| image | Image | [`Image`](../../../aspose.imaging/image) предмет, с которым это[`TextureBrush`](../../texturebrush) объект заполняет интерьеры. |
+| wrapMode | WrapMode | А[`WrapMode`](../../../aspose.imaging/wrapmode) перечисление, которое указывает, как это[`TextureBrush`](../../texturebrush) объект мозаичный. |
+| destinationRectangle | RectangleF | А[`RectangleF`](../../../aspose.imaging/rectanglef) структура, представляющая ограничивающий прямоугольник для этого[`TextureBrush`](../../texturebrush) объект. |
 
 ### Смотрите также
 
@@ -77,7 +77,7 @@ public TextureBrush(Image image, WrapMode wrapMode, RectangleF destinationRectan
 
 ## TextureBrush(Image, WrapMode, Rectangle) {#constructor_6}
 
-Инициализирует новый экземпляр класса[`TextureBrush`](../../texturebrush), который использует указанное изображение, режим переноса и границы прямоугольник.
+Инициализирует новый экземпляр[`TextureBrush`](../../texturebrush) класс, который использует указанное изображение, режим переноса и ограничивающий прямоугольник.
 
 ```csharp
 public TextureBrush(Image image, WrapMode wrapMode, Rectangle destinationRectangle)
@@ -85,9 +85,9 @@ public TextureBrush(Image image, WrapMode wrapMode, Rectangle destinationRectang
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| image | Image | Объект[`Image`](../../../aspose.imaging/image)с которым этот[`TextureBrush`](../../texturebrush)объект заполняет интерьер. |
-| wrapMode | WrapMode | A[`WrapMode`](../../../aspose.imaging/wrapmode)перечисление, указывающее, как это[`TextureBrush`](../../texturebrush)объект мозаичный. |
-| destinationRectangle | Rectangle | A[`Rectangle`](../../../aspose.imaging/rectangle)структура, представляющая ограничивающий прямоугольник для этого[`TextureBrush`](../../texturebrush)объект. |
+| image | Image | [`Image`](../../../aspose.imaging/image) предмет, с которым это[`TextureBrush`](../../texturebrush) объект заполняет интерьеры. |
+| wrapMode | WrapMode | А[`WrapMode`](../../../aspose.imaging/wrapmode) перечисление, которое указывает, как это[`TextureBrush`](../../texturebrush) объект мозаичный. |
+| destinationRectangle | Rectangle | А[`Rectangle`](../../../aspose.imaging/rectangle) структура, представляющая ограничивающий прямоугольник для этого[`TextureBrush`](../../texturebrush) объект. |
 
 ### Смотрите также
 
@@ -102,7 +102,7 @@ public TextureBrush(Image image, WrapMode wrapMode, Rectangle destinationRectang
 
 ## TextureBrush(Image, RectangleF) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`TextureBrush`](../../texturebrush), который использует указанное изображение и ограничивающий прямоугольник.
+Инициализирует новый экземпляр[`TextureBrush`](../../texturebrush) класс, который использует указанное изображение и ограничивающий прямоугольник.
 
 ```csharp
 public TextureBrush(Image image, RectangleF destinationRectangle)
@@ -110,8 +110,8 @@ public TextureBrush(Image image, RectangleF destinationRectangle)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| image | Image | Объект[`Image`](../../../aspose.imaging/image)с которым этот[`TextureBrush`](../../texturebrush)объект заполняет интерьер. |
-| destinationRectangle | RectangleF | A[`RectangleF`](../../../aspose.imaging/rectanglef)структура, представляющая ограничивающий прямоугольник для этого[`TextureBrush`](../../texturebrush)объект. |
+| image | Image | [`Image`](../../../aspose.imaging/image) предмет, с которым это[`TextureBrush`](../../texturebrush) объект заполняет интерьеры. |
+| destinationRectangle | RectangleF | А[`RectangleF`](../../../aspose.imaging/rectanglef) структура, представляющая ограничивающий прямоугольник для этого[`TextureBrush`](../../texturebrush) объект. |
 
 ### Смотрите также
 
@@ -125,7 +125,7 @@ public TextureBrush(Image image, RectangleF destinationRectangle)
 
 ## TextureBrush(Image, RectangleF, ImageAttributes) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`TextureBrush`](../../texturebrush), который использует указанное изображение, ограничивающий прямоугольник и изображение атрибуты.
+Инициализирует новый экземпляр[`TextureBrush`](../../texturebrush) класс, который использует указанное изображение, ограничивающий прямоугольник и атрибуты изображения.
 
 ```csharp
 public TextureBrush(Image image, RectangleF destinationRectangle, ImageAttributes imageAttributes)
@@ -133,9 +133,9 @@ public TextureBrush(Image image, RectangleF destinationRectangle, ImageAttribute
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| image | Image | Объект[`Image`](../../../aspose.imaging/image)с которым этот[`TextureBrush`](../../texturebrush)объект заполняет интерьер. |
-| destinationRectangle | RectangleF | A[`RectangleF`](../../../aspose.imaging/rectanglef)структура, представляющая ограничивающий прямоугольник для этого[`TextureBrush`](../../texturebrush)объект. |
-| imageAttributes | ImageAttributes | Объект[`ImageAttributes`](../../../aspose.imaging/imageattributes), содержащий дополнительную информацию об изображении, используемом этимОбъектT:Aspose.Imaging.Brushes.TextureBrush. |
+| image | Image | [`Image`](../../../aspose.imaging/image) предмет, с которым это[`TextureBrush`](../../texturebrush) объект заполняет интерьеры. |
+| destinationRectangle | RectangleF | А[`RectangleF`](../../../aspose.imaging/rectanglef) структура, представляющая ограничивающий прямоугольник для этого[`TextureBrush`](../../texturebrush) объект. |
+| imageAttributes | ImageAttributes | Ан[`ImageAttributes`](../../../aspose.imaging/imageattributes) объект, который содержит дополнительную информацию об изображении, используемом этим[`TextureBrush`](../../texturebrush) объект. |
 
 ### Смотрите также
 
@@ -150,7 +150,7 @@ public TextureBrush(Image image, RectangleF destinationRectangle, ImageAttribute
 
 ## TextureBrush(Image, Rectangle) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TextureBrush`](../../texturebrush), который использует указанное изображение и ограничивающий прямоугольник.
+Инициализирует новый экземпляр[`TextureBrush`](../../texturebrush) класс, который использует указанное изображение и ограничивающий прямоугольник.
 
 ```csharp
 public TextureBrush(Image image, Rectangle destinationRectangle)
@@ -158,8 +158,8 @@ public TextureBrush(Image image, Rectangle destinationRectangle)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| image | Image | Объект[`Image`](../../../aspose.imaging/image)с которым этот[`TextureBrush`](../../texturebrush)объект заполняет интерьер. |
-| destinationRectangle | Rectangle | A[`Rectangle`](../../../aspose.imaging/rectangle)структура, представляющая ограничивающий прямоугольник для этого[`TextureBrush`](../../texturebrush)объект. |
+| image | Image | [`Image`](../../../aspose.imaging/image) предмет, с которым это[`TextureBrush`](../../texturebrush) объект заполняет интерьеры. |
+| destinationRectangle | Rectangle | А[`Rectangle`](../../../aspose.imaging/rectangle) структура, представляющая ограничивающий прямоугольник для этого[`TextureBrush`](../../texturebrush) объект. |
 
 ### Смотрите также
 
@@ -173,7 +173,7 @@ public TextureBrush(Image image, Rectangle destinationRectangle)
 
 ## TextureBrush(Image, Rectangle, ImageAttributes) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`TextureBrush`](../../texturebrush), который использует указанное изображение, ограничивающий прямоугольник и изображение атрибуты.
+Инициализирует новый экземпляр[`TextureBrush`](../../texturebrush) класс, который использует указанное изображение, ограничивающий прямоугольник и атрибуты изображения.
 
 ```csharp
 public TextureBrush(Image image, Rectangle destinationRectangle, ImageAttributes imageAttributes)
@@ -181,9 +181,9 @@ public TextureBrush(Image image, Rectangle destinationRectangle, ImageAttributes
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| image | Image | Объект[`Image`](../../../aspose.imaging/image)с которым этот[`TextureBrush`](../../texturebrush)объект заполняет интерьер. |
-| destinationRectangle | Rectangle | A[`Rectangle`](../../../aspose.imaging/rectangle)структура, представляющая ограничивающий прямоугольник для этого[`TextureBrush`](../../texturebrush)объект. |
-| imageAttributes | ImageAttributes | Объект[`ImageAttributes`](../../../aspose.imaging/imageattributes), содержащий дополнительную информацию об изображении, используемом этимОбъектT:Aspose.Imaging.Brushes.TextureBrush. |
+| image | Image | [`Image`](../../../aspose.imaging/image) предмет, с которым это[`TextureBrush`](../../texturebrush) объект заполняет интерьеры. |
+| destinationRectangle | Rectangle | А[`Rectangle`](../../../aspose.imaging/rectangle) структура, представляющая ограничивающий прямоугольник для этого[`TextureBrush`](../../texturebrush) объект. |
+| imageAttributes | ImageAttributes | Ан[`ImageAttributes`](../../../aspose.imaging/imageattributes) объект, который содержит дополнительную информацию об изображении, используемом этим[`TextureBrush`](../../texturebrush) объект. |
 
 ### Смотрите также
 

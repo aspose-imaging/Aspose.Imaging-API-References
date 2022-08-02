@@ -16,7 +16,7 @@ public void SetPdfVersion(string version)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| version | String | Версия PDF, например:1.0, 1.3 и т.д. |
+| version | String | Версия PDF, например: 1.0, 1.3 и т.д. |
 
 ### Смотрите также
 

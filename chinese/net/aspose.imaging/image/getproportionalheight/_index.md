@@ -18,7 +18,7 @@ public static int GetProportionalHeight(int width, int height, int newWidth)
 | --- | --- | --- |
 | width | Int32 | 宽度。 |
 | height | Int32 | 高度。 |
-| newWidth | Int32 | 新宽度。 |
+| newWidth | Int32 | 新的宽度。 |
 
 ### 返回值
 

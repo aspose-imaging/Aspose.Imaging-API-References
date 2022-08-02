@@ -24,7 +24,7 @@ public class WmfEscape : WmfObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EscapeRecord](../../aspose.imaging.fileformats.wmf.objects/wmfescape/escaperecord) { get; set; } | 获取或设置转义记录。 |
+| [EscapeRecord](../../aspose.imaging.fileformats.wmf.objects/wmfescape/escaperecord) { get; set; } | 获取或设置逃生记录。 |
 | [EscapeType](../../aspose.imaging.fileformats.wmf.objects/wmfescape/escapetype) { get; set; } | 获取或设置转义的类型。 |
 
 ### 也可以看看

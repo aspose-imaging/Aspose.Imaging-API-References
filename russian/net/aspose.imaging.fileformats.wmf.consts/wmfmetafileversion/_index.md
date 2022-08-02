@@ -1,14 +1,14 @@
 ---
 title: WmfMetafileVersion
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Перечисление MetafileVersion определяет значения которые определяют поддержку аппаратно-независимых растровых изображений DIB в метафайлах.
+description: Перечисление MetafileVersion определяет значения указывающие поддержку аппаратно-независимых растровых изображений DIB в метафайлах.
 type: docs
 weight: 8240
 url: /ru/net/aspose.imaging.fileformats.wmf.consts/wmfmetafileversion/
 ---
 ## WmfMetafileVersion enumeration
 
-Перечисление MetafileVersion определяет значения, которые определяют поддержку аппаратно-независимых растровых изображений (DIB) в метафайлах.
+Перечисление MetafileVersion определяет значения, указывающие поддержку аппаратно-независимых растровых изображений (DIB) в метафайлах.
 
 ```csharp
 public enum WmfMetafileVersion : short
@@ -19,7 +19,7 @@ public enum WmfMetafileVersion : short
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | METAVERSION100 | `256` | DIB не поддерживаются. |
-| METAVERSION300 | `768` | DIB поддерживаются. |
+| METAVERSION300 | `768` | Поддерживаются DIB. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: EmfPolygon16
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_POLYGON16 记录指定由两个或多个顶点组成的多边形这些顶点通过 直线连接使用当前画笔勾勒出多边形轮廓并使用当前画笔 和多边形填充模式进行填充通过从最后一个顶点到第一个顶点绘制一条线来自动闭合多边形
+description: EMR_POLYGON16 记录指定了一个多边形该多边形由两个或多个由 直线连接的顶点组成使用当前画笔勾勒出多边形轮廓并使用当前画笔 和多边形填充模式进行填充通过从最后一个顶点到第一个顶点绘制一条线来自动关闭多边形
 type: docs
 weight: 4090
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfpolygon16/
 ---
 ## EmfPolygon16 class
 
-EMR_POLYGON16 记录指定由两个或多个顶点组成的多边形，这些顶点通过 直线连接。使用当前画笔勾勒出多边形轮廓，并使用当前画笔 和多边形填充模式进行填充。通过从最后一个顶点到第一个顶点绘制一条线来自动闭合多边形。
+EMR_POLYGON16 记录指定了一个多边形，该多边形由两个或多个由 直线连接的顶点组成。使用当前画笔勾勒出多边形轮廓，并使用当前画笔 和多边形填充模式进行填充。通过从最后一个顶点到第一个顶点绘制一条线来自动关闭多边形。
 
 ```csharp
 public sealed class EmfPolygon16 : EmfDrawingRecordType
@@ -18,21 +18,21 @@ public sealed class EmfPolygon16 : EmfDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfPolygon16](emfpolygon16#constructor)() | 初始化[`EmfPolygon16`](../emfpolygon16)类的新实例。 |
-| [EmfPolygon16](emfpolygon16#constructor_1)(EmfRecord) | 初始化[`EmfPolygon16`](../emfpolygon16)类的新实例。 |
+| [EmfPolygon16](emfpolygon16#constructor)() | 初始化[`EmfPolygon16`](../emfpolygon16)类. |
+| [EmfPolygon16](emfpolygon16#constructor_1)(EmfRecord) | 初始化[`EmfPolygon16`](../emfpolygon16)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolygon16/apoints) { get; set; } | 获取或设置 WMF PointS 对象的 Count 长度数组，在 [MS-WMF] 2.2.2.16 节中指定，它指定了数组的点。 |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolygon16/bounds) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象，在 [MS-WMF] 第 2.2.2.19 节中指定， 指定边界矩形, 以设备为单位。 |
+| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolygon16/apoints) { get; set; } | 获取或设置 WMF PointS 对象的 Count 长度数组，在 [MS-WMF] 2.2.2.16 节中指定，它指定点数组。 |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolygon16/bounds) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象，在 [MS-WMF] 第 2.2.2.19 节中指定， 指定边界矩形，以设备为单位。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 
 ### 评论
 
-多边形应该使用当前笔勾勒出轮廓并使用当前画笔和:::47 填充:::多边形填充模式。应该通过从最后一个 顶点到第一个
+多边形应该使用当前笔勾勒出轮廓并使用当前画笔和 多边形填充模式进行填充。应该通过从最后一个 顶点到第一个 顶点绘制一条线来自动关闭多边形
 
 ### 也可以看看
 

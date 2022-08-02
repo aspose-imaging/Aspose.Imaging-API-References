@@ -1,14 +1,14 @@
 ---
 title: MultiplyTransform
 second_title: Aspose.Imaging for .NET API 参考
-description: 将此Penaspose.imaging/pen的变换矩阵乘以指定的Imaging矩阵
+description: 乘以变换矩阵Penaspose.imaging/pen由指定的Matrixaspose.imaging/matrix .
 type: docs
 weight: 190
 url: /zh/net/aspose.imaging/pen/multiplytransform/
 ---
 ## MultiplyTransform(Matrix) {#multiplytransform}
 
-将此[`Pen`](../../pen)的变换矩阵乘以指定的Imaging。矩阵。
+乘以变换矩阵[`Pen`](../../pen)由指定的[`Matrix`](../../matrix) .
 
 ```csharp
 public void MultiplyTransform(Matrix matrix)
@@ -16,7 +16,7 @@ public void MultiplyTransform(Matrix matrix)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| matrix | Matrix | [`Matrix`](../../matrix)对象，与变换矩阵相乘。 |
+| matrix | Matrix | 这[`Matrix`](../../matrix)与变换矩阵相乘的对象。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public void MultiplyTransform(Matrix matrix)
 
 ## MultiplyTransform(Matrix, MatrixOrder) {#multiplytransform_1}
 
-将此[`Pen`](../../pen)的变换矩阵乘以指定的Imaging。Matrix以指定的顺序。
+乘以变换矩阵[`Pen`](../../pen)由指定的[`Matrix`](../../matrix)按指定顺序。
 
 ```csharp
 public void MultiplyTransform(Matrix matrix, MatrixOrder order)
@@ -37,7 +37,7 @@ public void MultiplyTransform(Matrix matrix, MatrixOrder order)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| matrix | Matrix | [`Matrix`](../../matrix)与变换矩阵相乘。 |
+| matrix | Matrix | 这[`Matrix`](../../matrix)乘以变换矩阵。 |
 | order | MatrixOrder | 执行乘法运算的顺序。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: EmfSetPolyFillMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetPolyFillModeaspose.imaging.fileformats.emf.emf.records/emfsetpolyfillmode.
+description: Инициализирует новый экземплярEmfSetPolyFillModeaspose.imaging.fileformats.emf.emf.records/emfsetpolyfillmode класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetpolyfillmode/emfsetpolyfillmode/
 ---
 ## EmfSetPolyFillMode(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfSetPolyFillMode`](../../emfsetpolyfillmode).
+Инициализирует новый экземпляр[`EmfSetPolyFillMode`](../../emfsetpolyfillmode) класс.
 
 ```csharp
 public EmfSetPolyFillMode(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfSetPolyFillMode(EmfRecord source)
 
 ## EmfSetPolyFillMode() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfSetPolyFillMode`](../../emfsetpolyfillmode).
+Инициализирует новый экземпляр[`EmfSetPolyFillMode`](../../emfsetpolyfillmode) класс.
 
 ```csharp
 public EmfSetPolyFillMode()

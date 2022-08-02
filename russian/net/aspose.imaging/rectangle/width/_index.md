@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает ширину этойRectangleaspose.imaging/rectangleструктуры.
+description: Получает или задает ширину этогоRectangleaspose.imaging/rectangle структура.
 type: docs
 weight: 190
 url: /ru/net/aspose.imaging/rectangle/width/
 ---
 ## Rectangle.Width property
 
-Получает или задает ширину этой[`Rectangle`](../../rectangle)структуры.
+Получает или задает ширину этого[`Rectangle`](../../rectangle) структура.
 
 ```csharp
 public int Width { get; set; }
@@ -16,7 +16,7 @@ public int Width { get; set; }
 
 ### Возвращаемое значение
 
-Ширина этой[`Rectangle`](../../rectangle)структуры.
+Ширина этого[`Rectangle`](../../rectangle) структура.
 
 ### Смотрите также
 

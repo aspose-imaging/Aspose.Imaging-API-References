@@ -24,9 +24,9 @@ public int CompressedQuality { get; set; }
 using (Aspose.Imaging.FileFormats.Tiff.TiffImage image = (Aspose.Imaging.FileFormats.Tiff.TiffImage)Aspose.Imaging.Image.Load("c:\\temp\\zeebra.tif"))
 {
     Aspose.Imaging.ImageOptions.TiffOptions tiffOptions = new TiffOptions(Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
-        // 设置 RGB 颜色模型.
+    // 设置 RGB 颜色模型。
     tiffOptions.Photometric = TiffPhotometrics.Rgb;
-        //设置Jpeg压缩。
+    // 设置 Jpeg 压缩。
     tiffOptions.Compression = TiffCompressions.Jpeg;
     tiffOptions.CompressedQuality = 50;
     // 为每个颜色分量设置 8 位。

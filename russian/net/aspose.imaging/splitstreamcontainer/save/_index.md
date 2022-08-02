@@ -17,8 +17,8 @@ public override void Save(Stream destinationStream, int bufferSize, long length)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | destinationStream | Stream | Поток для сохранения данных. |
-| bufferSize | Int32 | Размер буфера. По умолчанию используется значение!:ReadWriteBytesCount. |
-| length | Int64 | Длина копируемых данных потока. По умолчанию для длины установлено значение[`Length`](../length)value. |
+| bufferSize | Int32 | Размер буфера. По умолчанию!:ReadWriteBytesCount используется значение. |
+| length | Int64 | Длина данных потока для копирования. По умолчанию установлена длина[`Length`](../length) ценность. |
 
 ### Смотрите также
 

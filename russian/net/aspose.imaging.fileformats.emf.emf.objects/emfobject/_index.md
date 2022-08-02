@@ -1,14 +1,14 @@
 ---
 title: EmfObject
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Базовый класс для объектов Emf
+description: Базовый класс для объектов ЭДС
 type: docs
 weight: 3100
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfobject/
 ---
 ## EmfObject class
 
-Базовый класс для объектов Emf
+Базовый класс для объектов ЭДС
 
 ```csharp
 public abstract class EmfObject : MetaObject

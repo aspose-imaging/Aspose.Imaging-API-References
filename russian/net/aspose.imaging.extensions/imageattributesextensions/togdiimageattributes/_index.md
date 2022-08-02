@@ -1,14 +1,14 @@
 ---
 title: ToGdiImageAttributes
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПреобразуетImageAttributesaspose.imaging/imageattributesвImageAttributes.
+description: ПреобразуетImageAttributesaspose.imaging/imageattributes кImageAttributes .
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.extensions/imageattributesextensions/togdiimageattributes/
 ---
 ## ImageAttributesExtensions.ToGdiImageAttributes method
 
-Преобразует[`ImageAttributes`](../../../aspose.imaging/imageattributes)вImageAttributes.
+Преобразует[`ImageAttributes`](../../../aspose.imaging/imageattributes) кImageAttributes .
 
 ```csharp
 public static ImageAttributes ToGdiImageAttributes(ImageAttributes imageAttributes)
@@ -16,7 +16,7 @@ public static ImageAttributes ToGdiImageAttributes(ImageAttributes imageAttribut
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| imageAttributes | ImageAttributes | [`ImageAttributes`](../../../aspose.imaging/imageattributes)для преобразования. |
+| imageAttributes | ImageAttributes | [`ImageAttributes`](../../../aspose.imaging/imageattributes) конвертировать. |
 
 ### Возвращаемое значение
 

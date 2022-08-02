@@ -1,14 +1,14 @@
 ---
 title: EmfIntersectClipRect
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfIntersectClipRectaspose.imaging.fileformats.emf.emf.records/emfintersectcliprect.
+description: Инициализирует новый экземплярEmfIntersectClipRectaspose.imaging.fileformats.emf.emf.records/emfintersectcliprect класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfintersectcliprect/emfintersectcliprect/
 ---
 ## EmfIntersectClipRect constructor
 
-Инициализирует новый экземпляр класса[`EmfIntersectClipRect`](../../emfintersectcliprect).
+Инициализирует новый экземпляр[`EmfIntersectClipRect`](../../emfintersectcliprect) класс.
 
 ```csharp
 public EmfIntersectClipRect(EmfRecord source)

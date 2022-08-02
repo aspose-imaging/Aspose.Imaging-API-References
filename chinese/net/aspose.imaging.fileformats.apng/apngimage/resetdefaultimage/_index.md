@@ -1,14 +1,14 @@
 ---
 title: ResetDefaultImage
 second_title: Aspose.Imaging for .NET API 参考
-description: 删除之前设置的默认图像 之后默认图片是自己帧集合中的第一帧 不能用这个方法删除
+description: 删除之前设置的默认图片 之后默认图片是自己的帧集合中的第一帧 不能用这个方法删除
 type: docs
 weight: 290
 url: /zh/net/aspose.imaging.fileformats.apng/apngimage/resetdefaultimage/
 ---
 ## ApngImage.ResetDefaultImage method
 
-删除之前设置的默认图像。 之后，默认图片是自己帧集合中的第一帧 （不能用这个方法删除）。
+删除之前设置的默认图片。 之后，默认图片是自己的帧集合中的第一帧 （不能用这个方法删除）。
 
 ```csharp
 public void ResetDefaultImage()

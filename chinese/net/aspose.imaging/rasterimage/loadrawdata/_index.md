@@ -23,7 +23,7 @@ public void LoadRawData(Rectangle rectangle, RawDataSettings rawDataSettings,
 
 ### 例子
 
-以下示例说明如何使用 RawDataSettings 从原始图像数据中提取像素。例如，考虑计算图像的完全透明像素的问题。
+以下示例显示如何使用 RawDataSettings 从原始图像数据中提取像素。例如，考虑计算图像的完全透明像素的问题。
 
 ```csharp
 [C#]
@@ -44,23 +44,22 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\Grayscal
 
 // 如果是原始数据，计数器可能如下所示：
 /// <summary>
-    /// 计算 alpha 通道值为 0.
- 的完全透明像素的数量
+/// 计算 alpha 通道值为 0 的完全透明像素的数量。
 /// </summary>
 private class TransparentPixelRawDataCounter : IPartialRawDataLoader
 {
     /// <summary>
-    /// 完全透明像素的数量.
+    /// 完全透明像素的数量。
     /// </summary>
     private int count;
 
     /// <summary>
-        /// 加载图像的原始数据设置.
+    /// 加载图像的原始数据设置。
     /// </summary>
     private Aspose.Imaging.RawDataSettings rawDataSettings;
 
     /// <summary>
-        /// 获取完全透明像素的数量。
+    /// 获取完全透明像素的数量。
     /// </summary>
     public int Count
     {
@@ -68,9 +67,9 @@ private class TransparentPixelRawDataCounter : IPartialRawDataLoader
     }
 
     /// <summary>
-        /// 初始化 <see TransparentPixelRawDataCounter /> 的新实例类.
+    /// 初始化 <see TransparentPixelRawDataCounter /> 的新实例班级。
     /// </summary>
-        /// <param name="settings">原始数据设置允许从原始数据中提取颜色分量。</param>
+    /// <param name="settings">原始数据设置允许从原始数据中提取颜色成分。</param>
     public TransparentPixelRawDataCounter(Aspose.Imaging.RawDataSettings settings)
     {
         this.rawDataSettings = settings;
@@ -78,17 +77,17 @@ private class TransparentPixelRawDataCounter : IPartialRawDataLoader
     }
 
     /// <summary>
-           /// 处理加载的原始数据。每次加载新部分原始数据时都会回调此方法。
+    /// 处理加载的原始数据。每次加载新的原始数据部分时都会回调此方法。
     /// </summary>
-           /// <param name="dataRectangle">原始数据矩形。</param>
-           /// <param name="data">原始数据。</param>
-           /// <param name="start">起始数据点。</param>
-           /// <param name="end">结束数据点。</param>
+    /// <param name="dataRectangle">原始数据矩形。</param>
+    /// <param name="data">原始数据。</param>
+    /// <param name="start">起始数据点。</param>
+    /// <param name="end">结束数据点。</param>
     public void Process(Aspose.Imaging.Rectangle dataRectangle, byte[] data, Aspose.Imaging.Point start, Aspose.Imaging.Point end)
     {
         int[] channelBits = this.rawDataSettings.PixelDataFormat.ChannelBits;
 
-            // 这里只考虑简单的格式来简化代码。
+        // 这里只考虑简单的格式来简化代码。
         // 让我们只考虑每个样本 8 位的图像。
         for (int i = 0; i < channelBits.Length; i++)
         {
@@ -105,10 +104,10 @@ private class TransparentPixelRawDataCounter : IPartialRawDataLoader
                 {
                     if (channelBits.Length == 4)
                     {
-                            // ARGB
+                        // ARGB
                         for (int i = 0; i < data.Length; i += 4)
                         {
-                                   // 最后存储 alpha 通道，在颜色组件之后。
+                            // Alpha 通道最后存储，在颜色分量之后。
                             if (data[i + 3] == 0)
                             {
                                 this.count++;
@@ -122,10 +121,10 @@ private class TransparentPixelRawDataCounter : IPartialRawDataLoader
                 {
                     if (channelBits.Length == 2)
                     {
-                            //灰度Alpha
+                        //灰度阿尔法
                         for (int i = 0; i < data.Length; i += 2)
                         {
-                                   // 最后存储 alpha 通道，在颜色组件之后。
+                            // Alpha 通道最后存储，在颜色分量之后。
                             if (data[i + 1] == 0)
                             {
                                 this.count++;
@@ -141,13 +140,13 @@ private class TransparentPixelRawDataCounter : IPartialRawDataLoader
     }
 
     /// <summary>
-           /// 处理加载的原始数据。每次加载新部分原始数据时都会回调此方法。
+    /// 处理加载的原始数据。每次加载新的原始数据部分时都会回调此方法。
     /// </summary>
-           /// <param name="dataRectangle">原始数据矩形。</param>
-           /// <param name="data">原始数据。</param>
-           /// <param name="start">起始数据点。</param>
-           /// <param name="end">结束数据点。</param>
-        /// <param name="loadOptions">加载选项。</param>
+    /// <param name="dataRectangle">原始数据矩形。</param>
+    /// <param name="data">原始数据。</param>
+    /// <param name="start">起始数据点。</param>
+    /// <param name="end">结束数据点。</param>
+    /// <param name="loadOptions">加载选项。</param>
     public void Process(Aspose.Imaging.Rectangle dataRectangle, byte[] data, Aspose.Imaging.Point start, Aspose.Imaging.Point end, Aspose.Imaging.LoadOptions loadOptions)
     {
         this.Process(dataRectangle, data, start, end);

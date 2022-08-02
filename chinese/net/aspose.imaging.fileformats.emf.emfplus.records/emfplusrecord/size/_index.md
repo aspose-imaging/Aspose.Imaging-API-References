@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数指定整条记录中的 32 位对齐字节数 包括 12 -byte 记录头和特定于记录的数据
+description: 获取或设置一个 32 位无符号整数指定整个记录中 32 位对齐的字节数 包括 12 字节的记录头和特定于记录的数据
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size/
 ---
 ## EmfPlusRecord.Size property
 
-获取或设置一个 32 位无符号整数，指定整条记录中的 32 位对齐字节数 ，包括 12 -byte 记录头和特定于记录的数据。
+获取或设置一个 32 位无符号整数，指定整个记录中 32 位对齐的字节数 ，包括 12 字节的记录头和特定于记录的数据。
 
 ```csharp
 public virtual int Size { get; set; }
@@ -16,7 +16,7 @@ public virtual int Size { get; set; }
 
 ### 适当的价值
 
-大小。
+大小.
 
 ### 也可以看看
 

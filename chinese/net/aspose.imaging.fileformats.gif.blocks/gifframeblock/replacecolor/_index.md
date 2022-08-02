@@ -18,7 +18,7 @@ public override void ReplaceColor(int oldColorArgb, byte oldColorDiff, int newCo
 | --- | --- | --- |
 | oldColorArgb | Int32 | 要替换的旧颜色 ARGB 值。 |
 | oldColorDiff | Byte | 允许旧颜色的差异能够扩大替换的色调。 |
-| newColorArgb | Int32 | 用新颜色 ARGB 值替换旧颜色。 |
+| newColorArgb | Int32 | 用于替换旧颜色的新颜色 ARGB 值。 |
 
 ### 也可以看看
 

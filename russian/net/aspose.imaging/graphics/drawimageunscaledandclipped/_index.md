@@ -1,14 +1,14 @@
 ---
 title: DrawImageUnscaledAndClipped
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Рисует указанное изображение без масштабирования и при необходимости обрезает его чтобы оно поместилось в указанный прямоугольник.
+description: Рисует заданное изображение без масштабирования и при необходимости обрезает его чтобы оно поместилось в указанный прямоугольник.
 type: docs
 weight: 240
 url: /ru/net/aspose.imaging/graphics/drawimageunscaledandclipped/
 ---
 ## Graphics.DrawImageUnscaledAndClipped method
 
-Рисует указанное изображение без масштабирования и при необходимости обрезает его, чтобы оно поместилось в указанный прямоугольник.
+Рисует заданное изображение без масштабирования и при необходимости обрезает его, чтобы оно поместилось в указанный прямоугольник.
 
 ```csharp
 public void DrawImageUnscaledAndClipped(Image sourceImage, Rectangle rect)
@@ -17,13 +17,13 @@ public void DrawImageUnscaledAndClipped(Image sourceImage, Rectangle rect)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceImage | Image | Изображение для рисования. |
-| rect | Rectangle | Объект[`Rectangle`](../../rectangle)для рисования изображения. |
+| rect | Rectangle | [`Rectangle`](../../rectangle) в котором рисовать изображение. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceImage*равно null. |
+| ArgumentNullException | *sourceImage* нулевой. |
 
 ### Смотрите также
 

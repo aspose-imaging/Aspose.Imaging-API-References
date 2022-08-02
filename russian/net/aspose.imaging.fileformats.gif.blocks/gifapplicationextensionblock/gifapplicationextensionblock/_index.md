@@ -1,14 +1,14 @@
 ---
 title: GifApplicationExtensionBlock
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаGifApplicationExtensionBlockaspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock.
+description: Инициализирует новый экземплярGifApplicationExtensionBlockaspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/gifapplicationextensionblock/
 ---
 ## GifApplicationExtensionBlock() {#constructor}
 
-Инициализирует новый экземпляр класса[`GifApplicationExtensionBlock`](../../gifapplicationextensionblock).
+Инициализирует новый экземпляр[`GifApplicationExtensionBlock`](../../gifapplicationextensionblock) класс.
 
 ```csharp
 public GifApplicationExtensionBlock()
@@ -24,7 +24,7 @@ public GifApplicationExtensionBlock()
 
 ## GifApplicationExtensionBlock(string, byte[], byte[]) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`GifApplicationExtensionBlock`](../../gifapplicationextensionblock).
+Инициализирует новый экземпляр[`GifApplicationExtensionBlock`](../../gifapplicationextensionblock) класс.
 
 ```csharp
 public GifApplicationExtensionBlock(string applicationIdentifier, 

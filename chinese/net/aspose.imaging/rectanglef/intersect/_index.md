@@ -1,14 +1,14 @@
 ---
 title: Intersect
 second_title: Aspose.Imaging for .NET API 参考
-description: 返回一个RectangleFaspose.imaging/rectanglef结构表示两个矩形的交集如果没有交集则返回空RectangleFaspose.imaging/rectanglef
+description: 返回一个RectangleFaspose.imaging/rectanglef表示两个矩形相交的结构如果没有交集并且为空RectangleFaspose.imaging/rectanglef被退回
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging/rectanglef/intersect/
 ---
 ## Intersect(RectangleF, RectangleF)
 
-返回一个[`RectangleF`](../../rectanglef)结构，表示两个矩形的交集。如果没有交集，则返回空[`RectangleF`](../../rectanglef)。
+返回一个[`RectangleF`](../../rectanglef)表示两个矩形相交的结构。如果没有交集，并且为空[`RectangleF`](../../rectanglef)被退回。
 
 ```csharp
 public static RectangleF Intersect(RectangleF a, RectangleF b)
@@ -16,12 +16,12 @@ public static RectangleF Intersect(RectangleF a, RectangleF b)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| a | RectangleF | 第一个要相交的矩形。 |
-| b | RectangleF | 第二个要相交的矩形。 |
+| a | RectangleF | 第一个相交的矩形。 |
+| b | RectangleF | 要相交的第二个矩形。 |
 
 ### 返回值
 
-第三个[`RectangleF`](../../rectanglef)结构，其大小表示两个指定矩形的重叠区域。
+三分之一[`RectangleF`](../../rectanglef)结构，其大小表示两个指定矩形的重叠区域。
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public static RectangleF Intersect(RectangleF a, RectangleF b)
 
 ## Intersect(RectangleF)
 
-将此[`RectangleF`](../../rectanglef)结构替换为自身与指定RectangleF结构。
+替换这个[`RectangleF`](../../rectanglef)具有自身和指定的交集的结构[`RectangleF`](../../rectanglef)结构.
 
 ```csharp
 public void Intersect(RectangleF rect)

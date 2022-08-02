@@ -1,14 +1,14 @@
 ---
 title: PenStyle
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定 PenStyle 的 32 位无符号整数该值必须是 从 PenStyle 枚举表中定义的在第 2.1.25 节中指定
+description: 获取或设置指定 PenStyle 的 32 位无符号整数该值必须是从 PenStyle 枚举表定义的 在第 2.1.25. 节中指定
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emflogpen/penstyle/
 ---
 ## EmfLogPen.PenStyle property
 
-获取或设置指定 PenStyle 的 32 位无符号整数。该值必须是 从 PenStyle 枚举表中定义的，在第 2.1.25 节中指定。
+获取或设置指定 PenStyle 的 32 位无符号整数。该值必须是从 PenStyle 枚举表定义的 ，在第 2.1.25. 节中指定
 
 ```csharp
 public override EmfPenStyle PenStyle { get; set; }

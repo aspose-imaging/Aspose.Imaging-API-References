@@ -1,14 +1,14 @@
 ---
 title: TiffNewSubFileTypes
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Перечисление нового типа файла tiff.
+description: Тип нового подфайла tiff enum.
 type: docs
 weight: 7670
 url: /ru/net/aspose.imaging.fileformats.tiff.enums/tiffnewsubfiletypes/
 ---
 ## TiffNewSubFileTypes enumeration
 
-Перечисление нового типа файла tiff.
+Тип нового подфайла tiff enum.
 
 ```csharp
 public enum TiffNewSubFileTypes : uint
@@ -19,7 +19,7 @@ public enum TiffNewSubFileTypes : uint
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | FileTypeDefault | `0` | Тип файла по умолчанию. |
-| FileTypeReducedImage | `1` | Уменьшенный тип файла изображения. |
+| FileTypeReducedImage | `1` | Тип файла уменьшенного изображения. |
 | FileTypePage | `2` | Тип файла страницы. |
 | FileTypeMask | `4` | Тип файла маски. |
 | FileTypeLast | `5` | Последний тип файла. |

@@ -25,7 +25,7 @@ public enum EmfPlusPathPointTypeFlags
 
 ### 评论
 
-图形路径由EmfPlusPath对象。
+图形路径由[`EmfPlusPath`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath)对象.
 
 ### 也可以看看
 

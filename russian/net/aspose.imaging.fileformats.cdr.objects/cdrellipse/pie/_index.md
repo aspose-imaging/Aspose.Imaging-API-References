@@ -1,14 +1,14 @@
 ---
 title: Pie
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее является ли этоCdrEllipseaspose.imaging.fileformats.cdr.objects/cdrellipseкруговой диаграммой.
+description: Получает или задает значение указывающее является ли этоCdrEllipseaspose.imaging.fileformats.cdr.objects/cdrellipse пирог.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrellipse/pie/
 ---
 ## CdrEllipse.Pie property
 
-Получает или задает значение, указывающее, является ли это[`CdrEllipse`](../../cdrellipse)круговой диаграммой.
+Получает или задает значение, указывающее, является ли это[`CdrEllipse`](../../cdrellipse) пирог.
 
 ```csharp
 public bool Pie { get; set; }
@@ -16,7 +16,7 @@ public bool Pie { get; set; }
 
 ### Стоимость имущества
 
-` true` если круговая; в противном случае` false` .
+`истинный` если пирог; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

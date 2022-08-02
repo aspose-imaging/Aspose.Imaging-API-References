@@ -1,14 +1,14 @@
 ---
 title: Flags
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 16 位无符号整数该整数包含有关如何执行 操作和结构的一些记录的信息记录
+description: 获取或设置一个 16 位无符号整数其中包含一些记录的信息关于如何执行 操作以及记录的结构
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags/
 ---
 ## EmfPlusRecord.Flags property
 
-获取或设置一个 16 位无符号整数，该整数包含有关如何执行 操作和结构的一些记录的信息记录。
+获取或设置一个 16 位无符号整数，其中包含一些记录的信息，关于如何执行 操作以及记录的结构。
 
 ```csharp
 public virtual short Flags { get; set; }
@@ -16,7 +16,7 @@ public virtual short Flags { get; set; }
 
 ### 适当的价值
 
-标志。
+旗帜.
 
 ### 也可以看看
 

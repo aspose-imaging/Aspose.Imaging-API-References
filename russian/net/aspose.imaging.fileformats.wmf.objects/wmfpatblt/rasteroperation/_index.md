@@ -16,7 +16,7 @@ public WmfTernaryRasterOperation RasterOperation { get; set; }
 
 ### Стоимость имущества
 
-Код растровой операции. Этот код ДОЛЖЕН быть одним из значений в перечисляемой таблице Ternary Raster Operation.
+Код растровой операции. Этот код ДОЛЖЕН быть одним из значений в таблице перечисления Ternary Raster Operation.
 
 ### Смотрите также
 

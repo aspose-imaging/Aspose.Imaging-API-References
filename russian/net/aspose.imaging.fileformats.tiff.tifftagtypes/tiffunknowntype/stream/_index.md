@@ -1,14 +1,14 @@
 ---
 title: Stream
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает поток из которого считываются дополнительные данные.
+description: Получает поток для чтения дополнительных данных из.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/stream/
 ---
 ## TiffUnknownType.Stream property
 
-Получает поток, из которого считываются дополнительные данные.
+Получает поток для чтения дополнительных данных из.
 
 ```csharp
 public TiffStreamReader Stream { get; }
@@ -16,7 +16,7 @@ public TiffStreamReader Stream { get; }
 
 ### Стоимость имущества
 
-Поток, из которого считываются данные.
+Поток для чтения данных.
 
 ### Смотрите также
 

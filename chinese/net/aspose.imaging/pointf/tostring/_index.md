@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Imaging for .NET API 参考
-description: 将此PointFaspose.imaging/pointf转换为人类可读的字符串
+description: 转换这个PointFaspose.imaging/pointf到人类可读的字符串
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging/pointf/tostring/
 ---
 ## PointF.ToString method
 
-将此[`PointF`](../../pointf)转换为人类可读的字符串。
+转换这个[`PointF`](../../pointf)到人类可读的字符串。
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-表示此[`PointF`](../../pointf)的字符串。
+代表这个的字符串[`PointF`](../../pointf).
 
 ### 也可以看看
 

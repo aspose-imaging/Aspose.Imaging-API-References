@@ -11,7 +11,7 @@ url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/c
 Получает или задает кэшированное растровое изображение.
 
 ```csharp
-public MemoryStream CachedImage { get; set; }
+public byte[] CachedImage { get; set; }
 ```
 
 ### Стоимость имущества

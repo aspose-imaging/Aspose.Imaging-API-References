@@ -1,14 +1,14 @@
 ---
 title: EmfSelectClipPath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSelectClipPathaspose.imaging.fileformats.emf.emf.records/emfselectclippath.
+description: Инициализирует новый экземплярEmfSelectClipPathaspose.imaging.fileformats.emf.emf.records/emfselectclippath класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfselectclippath/emfselectclippath/
 ---
 ## EmfSelectClipPath(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfSelectClipPath`](../../emfselectclippath).
+Инициализирует новый экземпляр[`EmfSelectClipPath`](../../emfselectclippath) класс.
 
 ```csharp
 public EmfSelectClipPath(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfSelectClipPath(EmfRecord source)
 
 ## EmfSelectClipPath() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfSelectClipPath`](../../emfselectclippath).
+Инициализирует новый экземпляр[`EmfSelectClipPath`](../../emfselectclippath) класс.
 
 ```csharp
 public EmfSelectClipPath()

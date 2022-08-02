@@ -1,14 +1,14 @@
 ---
 title: BrushHatch
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное поле без знака содержащее данные штриховки кисти. Его интерпретация зависит от значения BrushStyle
+description: Получает или задает 32-битное поле без знака содержащее данные штриховки кисти. Его интерпретация зависит от значения BrushStyle
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/brushhatch/
 ---
 ## EmfLogBrushEx.BrushHatch property
 
-Получает или задает 32-разрядное поле без знака, содержащее данные штриховки кисти. Его интерпретация зависит от значения BrushStyle,
+Получает или задает 32-битное поле без знака, содержащее данные штриховки кисти. Его интерпретация зависит от значения BrushStyle,
 
 ```csharp
 public EmfHatchStyle BrushHatch { get; set; }

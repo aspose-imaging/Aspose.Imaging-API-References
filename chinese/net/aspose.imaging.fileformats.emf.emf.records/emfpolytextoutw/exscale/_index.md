@@ -1,14 +1,14 @@
 ---
 title: ExScale
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位浮点值如果图形模式为 GM_COMPATIBLE则指定从页面单位到 .01mm 单位的 X 比例.
+description: 获取或设置一个 32 位浮点值如果图形模式为 GM_COMPATIBLE则指定从页面单位到 .01mm 单位的 X 比例
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/exscale/
 ---
 ## EmfPolyTextOutW.ExScale property
 
-获取或设置一个 32 位浮点值，如果图形模式为 GM_COMPATIBLE，则指定从页面单位到 .01mm 单位的 X 比例.
+获取或设置一个 32 位浮点值，如果图形模式为 GM_COMPATIBLE，则指定从页面单位到 .01mm 单位的 X 比例。
 
 ```csharp
 public float ExScale { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: DjvuImage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаDjvuImageaspose.imaging.fileformats.djvu/djvuimage.
+description: Инициализирует новый экземплярDjvuImageaspose.imaging.fileformats.djvu/djvuimage класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.djvu/djvuimage/djvuimage/
 ---
 ## DjvuImage(Stream) {#constructor}
 
-Инициализирует новый экземпляр класса[`DjvuImage`](../../djvuimage).
+Инициализирует новый экземпляр[`DjvuImage`](../../djvuimage) класс.
 
 ```csharp
 public DjvuImage(Stream stream)
@@ -26,22 +26,22 @@ public DjvuImage(Stream stream)
 
 ### Примеры
 
-Этот пример показывает как загрузить изображение DJVU из файлового потока.
+В этом примере показано, как загрузить изображение DJVU из файлового потока.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
- // Загружаем образ DJVU из файлового потока.
+// Загружаем изображение DJVU из файлового потока.
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
 {
     using (Aspose.Imaging.FileFormats.Djvu.DjvuImage djvuImage = new Aspose.Imaging.FileFormats.Djvu.DjvuImage(stream))
     {
-         // Сохраняем каждую страницу как отдельное изображение PNG.
+        // Сохраняем каждую страницу как отдельное изображение PNG.
         foreach (Aspose.Imaging.FileFormats.Djvu.DjvuPage djvuPage in djvuImage.Pages)
         {
-             // Генерируем имя файла на основе номера страницы.
+            // Генерируем имя файла на основе номера страницы.
             string fileName = string.Format("sample.{0}.png", djvuPage.PageNumber);
             djvuPage.Save(dir + fileName, new Aspose.Imaging.ImageOptions.PngOptions());
         }
@@ -59,7 +59,7 @@ using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
 
 ## DjvuImage(Stream, LoadOptions) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`DjvuImage`](../../djvuimage).
+Инициализирует новый экземпляр[`DjvuImage`](../../djvuimage) класс.
 
 ```csharp
 public DjvuImage(Stream stream, LoadOptions loadOptions)
@@ -68,7 +68,7 @@ public DjvuImage(Stream stream, LoadOptions loadOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток для загрузки. |
-| loadOptions | LoadOptions | Параметры загрузки. |
+| loadOptions | LoadOptions | Варианты загрузки. |
 
 ### Исключения
 
@@ -78,26 +78,26 @@ public DjvuImage(Stream stream, LoadOptions loadOptions)
 
 ### Примеры
 
-Этот пример показывает как загрузить изображение DJVU из файлового потока, чтобы не выходить за указанный лимит памяти.
+В этом примере показано, как загрузить изображение DJVU из файлового потока, чтобы не выходить за указанный лимит памяти.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
- // Загружаем образ DJVU из файлового потока.
+// Загружаем изображение DJVU из файлового потока.
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
 {
-     // Максимально допустимый размер всех внутренних буферов — 1 МБ.
+    // Максимально допустимый размер всех внутренних буферов — 1 МБ.
     Aspose.Imaging.LoadOptions loadOptions = new Aspose.Imaging.LoadOptions();
     loadOptions.BufferSizeHint = 1 * 1024 * 1024;
 
     using (Aspose.Imaging.FileFormats.Djvu.DjvuImage djvuImage = new Aspose.Imaging.FileFormats.Djvu.DjvuImage(stream, loadOptions))
     {
-         // Сохраняем каждую страницу как отдельное изображение PNG.
+        // Сохраняем каждую страницу как отдельное изображение PNG.
         foreach (Aspose.Imaging.FileFormats.Djvu.DjvuPage djvuPage in djvuImage.Pages)
         {
-             // Генерируем имя файла на основе номера страницы.
+            // Генерируем имя файла на основе номера страницы.
             string fileName = string.Format("sample.{0}.png", djvuPage.PageNumber);
             djvuPage.Save(dir + fileName, new Aspose.Imaging.ImageOptions.PngOptions());
         }

@@ -1,14 +1,14 @@
 ---
 title: Matrix10
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此ColorMatrixaspose.imaging/colormatrix第一行和 0零列的元素
+description: 获取或设置此元素的第一行和第 0零列的元素ColorMatrixaspose.imaging/colormatrix .
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging/colormatrix/matrix10/
 ---
 ## ColorMatrix.Matrix10 property
 
-获取或设置此[`ColorMatrix`](../../colormatrix)第一行和 0（零）列的元素。
+获取或设置此元素的第一行和第 0（零）列的元素[`ColorMatrix`](../../colormatrix) .
 
 ```csharp
 public float Matrix10 { get; set; }
@@ -16,7 +16,7 @@ public float Matrix10 { get; set; }
 
 ### 适当的价值
 
-这个[`ColorMatrix`](../../colormatrix)第一行第 0 列的元素。
+this 第一行第 0 列的元素[`ColorMatrix`](../../colormatrix).
 
 ### 也可以看看
 

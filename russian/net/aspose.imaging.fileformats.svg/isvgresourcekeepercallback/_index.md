@@ -1,14 +1,14 @@
 ---
 title: ISvgResourceKeeperCallback
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Интерфейс обратного вызова svg
+description: Интерфейс обратного вызова SVG
 type: docs
 weight: 7530
 url: /ru/net/aspose.imaging.fileformats.svg/isvgresourcekeepercallback/
 ---
 ## ISvgResourceKeeperCallback interface
 
-Интерфейс обратного вызова svg
+Интерфейс обратного вызова SVG
 
 ```csharp
 public interface ISvgResourceKeeperCallback

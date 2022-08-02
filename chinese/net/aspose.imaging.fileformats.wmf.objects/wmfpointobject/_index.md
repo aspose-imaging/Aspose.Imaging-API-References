@@ -1,14 +1,14 @@
 ---
 title: WmfPointObject
 second_title: Aspose.Imaging for .NET API 参考
-description: Point 对象
+description: 点对象
 type: docs
 weight: 8860
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfpointobject/
 ---
 ## WmfPointObject class
 
-Point 对象。
+点对象。
 
 ```csharp
 public class WmfPointObject : WmfObject

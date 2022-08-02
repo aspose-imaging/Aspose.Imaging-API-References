@@ -29,7 +29,7 @@ public class WmfBitBlt : WmfStretchBlt
 | [DestWidth](../../aspose.imaging.fileformats.wmf.objects/wmfstretchblt/destwidth) { get; set; } | Получает или задает ширину адресата. |
 | [DstPosition](../../aspose.imaging.fileformats.wmf.objects/wmfstretchblt/dstposition) { get; set; } | Получает или задает положение летнего времени. |
 | [RasterOperation](../../aspose.imaging.fileformats.wmf.objects/wmfstretchblt/rasteroperation) { get; set; } | Получает или задает растровую операцию. |
-| [Reserved](../../aspose.imaging.fileformats.wmf.objects/wmfstretchblt/reserved) { get; set; } | Получает или устанавливает зарезервированное значение. |
+| [Reserved](../../aspose.imaging.fileformats.wmf.objects/wmfstretchblt/reserved) { get; set; } | Получает или устанавливает зарезервированное. |
 | [SrcHeight](../../aspose.imaging.fileformats.wmf.objects/wmfstretchblt/srcheight) { get; set; } | Получает или задает высоту источника. |
 | [SrcPosition](../../aspose.imaging.fileformats.wmf.objects/wmfstretchblt/srcposition) { get; set; } | Получает или задает исходную позицию. |
 | [SrcWidth](../../aspose.imaging.fileformats.wmf.objects/wmfstretchblt/srcwidth) { get; set; } | Получает или задает ширину источника. |

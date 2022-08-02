@@ -18,10 +18,10 @@ public enum WmfPostScriptCap
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| PostScriptNotSet | `-2` | 指定尚未设置行尾样式，并且默认样式 可以使用 [24]。 |
+| PostScriptNotSet | `-2` | 指定未设置行尾样式，并且使用默认样式 可以 [24] 使用。 |
 | PostScriptFlatCap | `0` | 指定行结束于最后一点。结尾是方形的。 |
-| PostScriptRoundCap | `1` | 指定圆形帽。圆的中心是 线的最后一个点。圆的直径与线宽相同；也就是线的粗细。 |
-| PostScriptSquareCap | `2` | 指定方帽。正方形的中心是 行的最后一个点。正方形的高宽与线宽相同；即线的粗细 。 |
+| PostScriptRoundCap | `1` | 指定圆形帽。圆心是 线的最后一个点。圆的直径与线宽相同；也就是线的粗细 |
+| PostScriptSquareCap | `2` | 指定方帽。正方形的中心是 线的最后一个点。正方形的高宽与线宽相同；也就是线的粗细 |
 
 ### 也可以看看
 

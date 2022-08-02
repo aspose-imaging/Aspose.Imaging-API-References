@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Удаляет все элементы изIList.
+description: Удаляет все элементы изIList .
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging/nongenericlist/clear/
 ---
 ## NonGenericList.Clear method
 
-Удаляет все элементы изIList.
+Удаляет все элементы изIList .
 
 ```csharp
 public void Clear()

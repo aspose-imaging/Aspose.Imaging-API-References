@@ -1,14 +1,14 @@
 ---
 title: Brightness
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置亮度 推荐范围 1 - 1.5 默认值  1.15
+description: 获取或设置亮度 推荐范围1-1.5 默认值1.15
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/brightness/
 ---
 ## DeconvolutionFilterOptions.Brightness property
 
-获取或设置亮度。 推荐范围 1 - 1.5 默认值 = 1.15
+获取或设置亮度。 推荐范围1-1.5 默认值=1.15
 
 ```csharp
 public double Brightness { get; set; }

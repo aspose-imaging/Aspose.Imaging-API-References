@@ -1,14 +1,14 @@
 ---
 title: DigitLanguage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект EmfPlusLanguageIdentifier указывающий язык для числовых цифр в строке. Например если эта строка содержит арабские цифры это поле ДОЛЖНО содержать идентификатор языка который указывает арабский язык
+description: Получает или задает объект EmfPlusLanguageIdentifier указывающий язык  используемый для числовых цифр в строке. Например если эта строка содержит арабские цифры это поле ДОЛЖНО содержать идентификатор языка который указывает арабский язык
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/digitlanguage/
 ---
 ## EmfPlusStringFormat.DigitLanguage property
 
-Получает или задает объект EmfPlusLanguageIdentifier, указывающий язык для числовых цифр в строке. Например, если эта строка содержит арабские цифры, это поле ДОЛЖНО содержать идентификатор языка, который указывает арабский язык
+Получает или задает объект EmfPlusLanguageIdentifier, указывающий язык , используемый для числовых цифр в строке. Например, если эта строка содержит арабские цифры, это поле ДОЛЖНО содержать идентификатор языка, который указывает арабский язык
 
 ```csharp
 public EmfPlusLanguageIdentifierType DigitLanguage { get; set; }

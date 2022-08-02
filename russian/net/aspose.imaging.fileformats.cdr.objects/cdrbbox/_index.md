@@ -1,14 +1,14 @@
 ---
 title: CdrBbox
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Поле cdr
+description: Блок CDR
 type: docs
 weight: 1490
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrbbox/
 ---
 ## CdrBbox class
 
-Поле cdr
+Блок CDR
 
 ```csharp
 public class CdrBbox : CdrObjectContainer
@@ -28,9 +28,9 @@ public class CdrBbox : CdrObjectContainer
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | Получает или задает документ. |
 | [Height](../../aspose.imaging.fileformats.cdr.objects/cdrbbox/height) { get; } | Получает высоту. |
-| [Hidden](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/hidden) { get; set; } | Получает или задает значение, указывающее, является ли этот[`CdrObjectContainer`](../cdrobjectcontainer)видимым. |
-| [LastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/lastchild) { get; set; } | Получает или устанавливает последний дочерний элемент. |
-| [LoadToLastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/loadtolastchild) { get; set; } | Получает или задает значение, указывающее, выполняется ли [загрузка в последний дочерний элемент]. |
+| [Hidden](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/hidden) { get; set; } | Получает или задает значение, указывающее, является ли это[`CdrObjectContainer`](../cdrobjectcontainer) виден. |
+| [LastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/lastchild) { get; set; } | Получает или задает последний дочерний элемент. |
+| [LoadToLastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/loadtolastchild) { get; set; } | Получает или задает значение, указывающее, [загружать ли последний дочерний элемент]. |
 | [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | Получает или задает родителя. |
 | [Width](../../aspose.imaging.fileformats.cdr.objects/cdrbbox/width) { get; } | Получает ширину. |
 | [X](../../aspose.imaging.fileformats.cdr.objects/cdrbbox/x) { get; } | Получает x. |

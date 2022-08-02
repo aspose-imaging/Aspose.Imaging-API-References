@@ -31,8 +31,8 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.dico
 {
     Aspose.Imaging.FileFormats.Dicom.DicomImage dicomImage = (Aspose.Imaging.FileFormats.Dicom.DicomImage)image;
 
-     // Бинаризация изображения с пороговым значением 127.
-     // Если соответствующее значение серого пикселя больше 127, ему будет присвоено значение 255, иначе 0.
+    // Бинаризовать изображение с пороговым значением 127.
+    // Если соответствующее значение серого пикселя больше 127, ему будет присвоено значение 255, иначе 0.
     dicomImage.BinarizeFixed(127);
     dicomImage.Save(dir + "sample.BinarizeFixed.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }

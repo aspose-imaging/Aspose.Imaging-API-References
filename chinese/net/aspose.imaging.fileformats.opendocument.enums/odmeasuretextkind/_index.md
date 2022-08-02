@@ -1,14 +1,14 @@
 ---
 title: OdMeasureTextKind
 second_title: Aspose.Imaging for .NET API 参考
-description: 度量文本类型
+description: 度量文本种类
 type: docs
 weight: 6860
 url: /zh/net/aspose.imaging.fileformats.opendocument.enums/odmeasuretextkind/
 ---
 ## OdMeasureTextKind enumeration
 
-度量文本类型
+度量文本种类
 
 ```csharp
 public enum OdMeasureTextKind
@@ -18,10 +18,10 @@ public enum OdMeasureTextKind
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 测量文本类型为无 |
-| Gap | `1` | 测量文本类型是间隙 |
-| Value | `2` | 测量文本类型是值 |
-| Unit | `3` | 测量文本类型为单位 |
+| None | `0` | Measure 文本类型是 none |
+| Gap | `1` | 测量文本类型是 gap |
+| Value | `2` | Measure 文本类型是 value |
+| Unit | `3` | 测量文本类型是 unit |
 
 ### 也可以看看
 

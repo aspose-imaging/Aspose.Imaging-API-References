@@ -22,7 +22,7 @@ public enum TiffPhotometrics : ushort
 | MinIsBlack | `1` | Минимальное значение — черный. |
 | Rgb | `2` | Цветовая модель RGB. |
 | Palette | `3` | Карта цветов проиндексирована. |
-| Mask | `4` | [устарело TIFF rev. 6.0] Маска удержания. |
+| Mask | `4` | [устарело в версии TIFF rev. 6.0] Маска удержания. |
 | Separated | `5` | Цветоделение. |
 | Ycbcr | `6` | CCIR 601. |
 | Cielab | `8` | 1976 CIE L*a*b*. |

@@ -1,14 +1,14 @@
 ---
 title: EmfScaleViewportExtex
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfScaleViewportExtexaspose.imaging.fileformats.emf.emf.records/emfscaleviewportextex.
+description: Инициализирует новый экземплярEmfScaleViewportExtexaspose.imaging.fileformats.emf.emf.records/emfscaleviewportextex класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfscaleviewportextex/emfscaleviewportextex/
 ---
 ## EmfScaleViewportExtex(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfScaleViewportExtex`](../../emfscaleviewportextex).
+Инициализирует новый экземпляр[`EmfScaleViewportExtex`](../../emfscaleviewportextex) класс.
 
 ```csharp
 public EmfScaleViewportExtex(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfScaleViewportExtex(EmfRecord source)
 
 ## EmfScaleViewportExtex() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfScaleViewportExtex`](../../emfscaleviewportextex).
+Инициализирует новый экземпляр[`EmfScaleViewportExtex`](../../emfscaleviewportextex) класс.
 
 ```csharp
 public EmfScaleViewportExtex()

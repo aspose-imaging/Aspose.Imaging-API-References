@@ -1,14 +1,14 @@
 ---
 title: EmfPlusFillClosedCurve
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusFillClosedCurveaspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve.
+description: Инициализирует новый экземплярEmfPlusFillClosedCurveaspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve/emfplusfillclosedcurve/
 ---
 ## EmfPlusFillClosedCurve constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusFillClosedCurve`](../../emfplusfillclosedcurve).
+Инициализирует новый экземпляр[`EmfPlusFillClosedCurve`](../../emfplusfillclosedcurve) класс.
 
 ```csharp
 public EmfPlusFillClosedCurve(EmfPlusRecord source)

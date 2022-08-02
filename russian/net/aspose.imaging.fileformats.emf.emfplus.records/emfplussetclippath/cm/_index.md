@@ -1,14 +1,14 @@
 ---
 title: Cm
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает CM 4 битазадает логическую операцию для объединения двух регионов. См. перечисление CombineMode раздел 2.1.1.4 для значений значений.
+description: Получает или устанавливает CM 4 бита определяет логическую операцию для объединения двух областей. См. перечисление CombineMode раздел 2.1.1.4 для значений значений.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetclippath/cm/
 ---
 ## EmfPlusSetClipPath.Cm property
 
-Получает или устанавливает CM (4 бита):задает логическую операцию для объединения двух регионов. См. перечисление CombineMode (раздел 2.1.1.4) для значений значений.
+Получает или устанавливает CM (4 бита): определяет логическую операцию для объединения двух областей. См. перечисление CombineMode (раздел 2.1.1.4) для значений значений.
 
 ```csharp
 public EmfPlusCombineMode Cm { get; set; }

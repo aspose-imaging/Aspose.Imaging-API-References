@@ -1,14 +1,14 @@
 ---
 title: EmfSetBrushOrgEx
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfSetBrushOrgExaspose.imaging.fileformats.emf.emf.records/emfsetbrushorgex类的新实例
+description: 初始化EmfSetBrushOrgExaspose.imaging.fileformats.emf.emf.records/emfsetbrushorgex类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetbrushorgex/emfsetbrushorgex/
 ---
 ## EmfSetBrushOrgEx(EmfRecord) {#constructor_1}
 
-初始化[`EmfSetBrushOrgEx`](../../emfsetbrushorgex)类的新实例。
+初始化[`EmfSetBrushOrgEx`](../../emfsetbrushorgex)类.
 
 ```csharp
 public EmfSetBrushOrgEx(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfSetBrushOrgEx(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfSetBrushOrgEx(EmfRecord source)
 
 ## EmfSetBrushOrgEx() {#constructor}
 
-初始化[`EmfSetBrushOrgEx`](../../emfsetbrushorgex)类的新实例。
+初始化[`EmfSetBrushOrgEx`](../../emfsetbrushorgex)类.
 
 ```csharp
 public EmfSetBrushOrgEx()

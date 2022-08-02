@@ -1,14 +1,14 @@
 ---
 title: ImageOpacity
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取此图像活动帧的不透明度
+description: 获取此图像的不透明度活动帧
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.fileformats.gif/gifimage/imageopacity/
 ---
 ## GifImage.ImageOpacity property
 
-获取此图像（活动帧）的不透明度。
+获取此图像的不透明度（活动帧）。
 
 ```csharp
 public override float ImageOpacity { get; }
@@ -16,7 +16,7 @@ public override float ImageOpacity { get; }
 
 ### 适当的价值
 
-不透明度值介于 0.0（完全透明）和 1.0（完全不透明）之间。
+0.0（完全透明）和 1.0（完全不透明）之间的不透明度值。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: BrushId
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置画笔标识符 指定画笔的 32 位无符号整数其内容 由标志字段中的 S 位确定此定义用于 填充椭圆的内部
+description: 获取或设置画笔标识符 一个32位无符号整数指定画笔其中 的内容由Flags字段中的S位决定这个定义用 来填充椭圆的内部
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/brushid/
 ---
 ## EmfPlusFillEllipse.BrushId property
 
-获取或设置画笔标识符 指定画笔的 32 位无符号整数，其内容 由标志字段中的 S 位确定。此定义用于 填充椭圆的内部
+获取或设置画笔标识符 一个32位无符号整数，指定画笔，其中 的内容由Flags字段中的S位决定。这个定义用 来填充椭圆的内部
 
 ```csharp
 public int BrushId { get; set; }

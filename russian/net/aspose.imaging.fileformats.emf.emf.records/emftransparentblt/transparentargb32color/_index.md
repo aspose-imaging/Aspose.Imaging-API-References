@@ -1,14 +1,14 @@
 ---
 title: TransparentArgb32Color
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект WMF ColorRef MS-WMF раздел 2.2.2.8 который определяет цвет исходного растрового изображения трактуются как прозрачные.
+description: Получает или задает объект WMF ColorRef MS-WMF раздел 2.2.2.8 который указывает цвет исходного растрового изображения который следует рассматривать как прозрачный.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emftransparentblt/transparentargb32color/
 ---
 ## EmfTransparentBlt.TransparentArgb32Color property
 
-Получает или задает объект WMF ColorRef ([MS-WMF], раздел 2.2.2.8), который определяет цвет исходного растрового изображения, трактуются как прозрачные.
+Получает или задает объект WMF ColorRef ([MS-WMF], раздел 2.2.2.8), который указывает цвет исходного растрового изображения, который следует рассматривать как прозрачный.
 
 ```csharp
 public int TransparentArgb32Color { get; set; }

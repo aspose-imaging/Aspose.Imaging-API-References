@@ -1,14 +1,14 @@
 ---
 title: OdFrame
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdFrameaspose.imaging.fileformats.opendocument.objects.graphic/odframe.
+description: Инициализирует новый экземплярOdFrameaspose.imaging.fileformats.opendocument.objects.graphic/odframe класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odframe/odframe/
 ---
 ## OdFrame constructor
 
-Инициализирует новый экземпляр класса[`OdFrame`](../../odframe).
+Инициализирует новый экземпляр[`OdFrame`](../../odframe) класс.
 
 ```csharp
 public OdFrame(OdObject parent)

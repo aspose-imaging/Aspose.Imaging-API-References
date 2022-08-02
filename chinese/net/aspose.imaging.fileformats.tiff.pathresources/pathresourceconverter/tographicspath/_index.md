@@ -1,14 +1,14 @@
 ---
 title: ToGraphicsPath
 second_title: Aspose.Imaging for .NET API 参考
-description: 将路径资源转换为GraphicsPathaspose.imaging/graphicspath实例
+description: 将路径资源转换为GraphicsPathaspose.imaging/graphicspath实例.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.tiff.pathresources/pathresourceconverter/tographicspath/
 ---
 ## PathResourceConverter.ToGraphicsPath method
 
-将路径资源转换为[`GraphicsPath`](../../../aspose.imaging/graphicspath)实例。
+将路径资源转换为[`GraphicsPath`](../../../aspose.imaging/graphicspath)实例.
 
 ```csharp
 public static GraphicsPath ToGraphicsPath(PathResource[] pathResources, Size imageSize)
@@ -21,13 +21,13 @@ public static GraphicsPath ToGraphicsPath(PathResource[] pathResources, Size ima
 
 ### 返回值
 
-[`GraphicsPath`](../../../aspose.imaging/graphicspath)实例。
+这[`GraphicsPath`](../../../aspose.imaging/graphicspath)实例。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *pathResources*为空。 |
+| ArgumentNullException | *pathResources*一片空白。 |
 
 ### 也可以看看
 

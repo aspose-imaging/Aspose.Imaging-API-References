@@ -1,14 +1,14 @@
 ---
 title: op_Explicit
 second_title: Aspose.Imaging for .NET API 参考
-description: 执行从FileStreamContaineraspose.imaging/filestreamcontainer到R5TSystem.IO.Stream的显式转换.
+description: 执行显式转换FileStreamContaineraspose.imaging/filestreamcontainer至Stream .
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging/filestreamcontainer/op_explicit/
 ---
 ## explicit operator {#op_explicit_1}
 
-执行从[`FileStreamContainer`](../../filestreamcontainer)到:::R5:T:System.IO.Stream::的显式转换:.
+执行显式转换[`FileStreamContainer`](../../filestreamcontainer)至Stream .
 
 ```csharp
 public static explicit operator Stream(FileStreamContainer fileStreamContainer)
@@ -32,7 +32,7 @@ public static explicit operator Stream(FileStreamContainer fileStreamContainer)
 
 ## explicit operator {#op_explicit}
 
-执行从[`FileStreamContainer`](../../filestreamcontainer)到:::R5:T:System.IO.FileStream::的显式转换:.
+执行显式转换[`FileStreamContainer`](../../filestreamcontainer)至FileStream .
 
 ```csharp
 public static explicit operator FileStream(FileStreamContainer fileStreamContainer)

@@ -1,14 +1,14 @@
 ---
 title: Matrix20
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает элемент во второй строке и 0 нулевом столбце этогоColorMatrixaspose.imaging/colormatrix.
+description: Получает или устанавливает элемент во второй строке и 0 нулевом столбце этогоColorMatrixaspose.imaging/colormatrix .
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging/colormatrix/matrix20/
 ---
 ## ColorMatrix.Matrix20 property
 
-Получает или задает элемент во второй строке и 0 (нулевом) столбце этого[`ColorMatrix`](../../colormatrix).
+Получает или устанавливает элемент во второй строке и 0 (нулевом) столбце этого[`ColorMatrix`](../../colormatrix) .
 
 ```csharp
 public float Matrix20 { get; set; }

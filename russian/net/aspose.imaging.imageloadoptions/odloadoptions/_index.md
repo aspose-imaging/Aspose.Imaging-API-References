@@ -24,17 +24,17 @@ public class OdLoadOptions : LoadOptions
 
 | Имя | Описание |
 | --- | --- |
-| [BufferSizeHint](../../aspose.imaging/loadoptions/buffersizehint) { get; set; } | Получает или устанавливает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
-| [DataBackgroundColor](../../aspose.imaging/loadoptions/databackgroundcolor) { get; set; } | Получает или задает[`Image`](../../aspose.imaging/image)background[`Color`](../../aspose.imaging/color). |
+| [BufferSizeHint](../../aspose.imaging/loadoptions/buffersizehint) { get; set; } | Получает или задает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
+| [DataBackgroundColor](../../aspose.imaging/loadoptions/databackgroundcolor) { get; set; } | Получает или задает[`Image`](../../aspose.imaging/image) фон[`Color`](../../aspose.imaging/color) . |
 | [DataRecoveryMode](../../aspose.imaging/loadoptions/datarecoverymode) { get; set; } | Получает или задает режим восстановления данных. |
-| [Password](../../aspose.imaging.imageloadoptions/odloadoptions/password) { get; set; } | Получает или задает пароль. |
+| [Password](../../aspose.imaging.imageloadoptions/odloadoptions/password) { get; set; } | Получает или устанавливает пароль. |
 | [ProgressEventHandler](../../aspose.imaging/loadoptions/progresseventhandler) { get; set; } | Получает или задает обработчик события выполнения. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddCustomFontSource](../../aspose.imaging/loadoptions/addcustomfontsource)(CustomFontSource, params object[]) | Добавляет пользовательский источник шрифтов для предоставления шрифтов, специфичных для изображения. |
+| [AddCustomFontSource](../../aspose.imaging/loadoptions/addcustomfontsource)(CustomFontSource, params object[]) | Добавляет пользовательский источник шрифта для предоставления шрифтов, специфичных для изображения. |
 
 ### Смотрите также
 

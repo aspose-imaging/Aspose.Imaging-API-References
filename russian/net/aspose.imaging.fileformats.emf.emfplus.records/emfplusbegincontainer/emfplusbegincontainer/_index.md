@@ -1,14 +1,14 @@
 ---
 title: EmfPlusBeginContainer
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusBeginContaineraspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer.
+description: Инициализирует новый экземплярEmfPlusBeginContaineraspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer/emfplusbegincontainer/
 ---
 ## EmfPlusBeginContainer constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusBeginContainer`](../../emfplusbegincontainer).
+Инициализирует новый экземпляр[`EmfPlusBeginContainer`](../../emfplusbegincontainer) класс.
 
 ```csharp
 public EmfPlusBeginContainer(EmfPlusRecord source)

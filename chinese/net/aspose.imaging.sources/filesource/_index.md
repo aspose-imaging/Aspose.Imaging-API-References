@@ -3,7 +3,7 @@ title: FileSource
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示能够进行文件操作的文件源
 type: docs
-weight: 11110
+weight: 11100
 url: /zh/net/aspose.imaging.sources/filesource/
 ---
 ## FileSource class

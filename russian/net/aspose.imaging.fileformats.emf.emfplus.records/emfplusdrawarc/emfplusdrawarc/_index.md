@@ -1,14 +1,14 @@
 ---
 title: EmfPlusDrawArc
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusDrawArcaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc.
+description: Инициализирует новый экземплярEmfPlusDrawArcaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/emfplusdrawarc/
 ---
 ## EmfPlusDrawArc constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusDrawArc`](../../emfplusdrawarc).
+Инициализирует новый экземпляр[`EmfPlusDrawArc`](../../emfplusdrawarc) класс.
 
 ```csharp
 public EmfPlusDrawArc(EmfPlusRecord source)

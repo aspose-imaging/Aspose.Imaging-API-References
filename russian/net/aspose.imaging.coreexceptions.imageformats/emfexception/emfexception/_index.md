@@ -1,14 +1,14 @@
 ---
 title: EmfException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfExceptionaspose.imaging.coreexceptions.imageformats/emfexception.
+description: Инициализирует новый экземплярEmfExceptionaspose.imaging.coreexceptions.imageformats/emfexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions.imageformats/emfexception/emfexception/
 ---
 ## EmfException constructor
 
-Инициализирует новый экземпляр класса[`EmfException`](../../emfexception).
+Инициализирует новый экземпляр[`EmfException`](../../emfexception) класс.
 
 ```csharp
 public EmfException(string message)

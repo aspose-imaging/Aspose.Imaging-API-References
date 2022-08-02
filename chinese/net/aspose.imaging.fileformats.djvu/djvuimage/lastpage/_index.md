@@ -22,7 +22,7 @@ public DjvuPage LastPage { get; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [DjvuImageException](../../../aspose.imaging.coreexceptions.imageformats/djvuimageexception) | 最后一页找不到 |
+| [DjvuImageException](../../../aspose.imaging.coreexceptions.imageformats/djvuimageexception) | 找不到最后一页 |
 
 ### 例子
 
@@ -33,7 +33,7 @@ public DjvuPage LastPage { get; }
 
 string dir = "c:\\temp\\";
 
-    // 从文件流加载 DJVU 图像。
+// 从文件流加载 DJVU 图像。
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
 {
     using (Aspose.Imaging.FileFormats.Djvu.DjvuImage djvuImage = new Aspose.Imaging.FileFormats.Djvu.DjvuImage(stream))
@@ -53,18 +53,18 @@ using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
     }
 }
 
-    //输出可能如下所示：
-    //总页数：2
-    //活动页码：1
-    //第一页码：1
+//输出可能如下所示：
+//总页数：2
+//活动页码：1
+//第一页数：1
 //最后页码：2
-       //------------------------------------------------ --
-    //页码：1
-       //页面大小：{ Width = 2481, Height = 3508}
-    //页面原始格式：RgbIndexed1Bpp，使用通道：1
-       //------------------------------------------------ --
-    //页码：2
-       //页面大小：{ Width = 2481, Height = 3508}
+//------------------------------------------------ --
+//页码：1
+//页面大小：{ Width = 2481, Height = 3508}
+//页面原始格式：RgbIndexed1Bpp，使用通道：1
+//------------------------------------------------ --
+//页码：2
+//页面大小：{ Width = 2481, Height = 3508}
 //页面原始格式：RgbIndexed1Bpp，使用通道：1
 ```
 

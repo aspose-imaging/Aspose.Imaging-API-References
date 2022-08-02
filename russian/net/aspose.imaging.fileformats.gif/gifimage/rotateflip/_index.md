@@ -16,11 +16,11 @@ public override void RotateFlip(RotateFlipType rotateFlipType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rotateFlipType | RotateFlipType | Тип переворота с поворотом. |
+| rotateFlipType | RotateFlipType | Тип вращения флип. |
 
 ### Примеры
 
-Этот пример загружает изображение в формате GIF, поворачивает его на 90 градусов по часовой стрелке и, при необходимости, переворачивает изображение по горизонтали и (или) по вертикали.
+Этот пример загружает изображение GIF, поворачивает его на 90 градусов по часовой стрелке и, при необходимости, переворачивает изображение по горизонтали и (или) по вертикали.
 
 ```csharp
 [C#]
@@ -37,7 +37,7 @@ Aspose.Imaging.RotateFlipType[] rotateFlipTypes = new Aspose.Imaging.RotateFlipT
 
 foreach (Aspose.Imaging.RotateFlipType rotateFlipType in rotateFlipTypes)
 {
-     // Повернуть, отразить и сохранить в выходной файл.
+    // Повернуть, отразить и сохранить в выходной файл.
     using (Aspose.Imaging.FileFormats.Gif.GifImage image = (Aspose.Imaging.FileFormats.Gif.GifImage)Aspose.Imaging.Image.Load(dir + "sample.gif"))
     {
         image.RotateFlip(rotateFlipType);

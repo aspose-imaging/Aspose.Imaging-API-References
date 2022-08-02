@@ -1,14 +1,14 @@
 ---
 title: TypeUniformScale
 second_title: Aspose.Imaging for .NET API 参考
-description: 统一比例将向量的长度乘以相同的量 在 x 和 y 方向上而不改变47 之间的角度向量 此标志位与 TypeGeneralScale 标志互斥
+description: 统一比例将向量的长度乘以相同的数量 在x和y方向上不改变 向量之间的角度 这个标志位与TypeGeneralScale标志互斥
 type: docs
 weight: 290
 url: /zh/net/aspose.imaging/matrix/typeuniformscale/
 ---
 ## Matrix.TypeUniformScale field
 
-统一比例将向量的长度乘以相同的量 在 x 和 y 方向上，而不改变:::47 之间的角度:::向量。 此标志位与 TypeGeneralScale 标志互斥。
+统一比例将向量的长度乘以相同的数量 在x和y方向上不改变 向量之间的角度。 这个标志位与TypeGeneralScale标志互斥。
 
 ```csharp
 public const int TypeUniformScale;

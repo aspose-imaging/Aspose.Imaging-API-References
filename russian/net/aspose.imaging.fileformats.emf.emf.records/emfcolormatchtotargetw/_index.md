@@ -1,14 +1,14 @@
 ---
 title: EmfColorMatchToTargetW
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_COLORMATCHTOTargetW указывает следует ли выполнять сопоставление цветов с профилем цвета  указанным в файле с именем состоящим из символов Unicode.
+description: Запись EMR_COLORMATCHTOTargetW указывает следует ли выполнять сопоставление цветов с профилем color  указанным в файле с именем состоящим из символов Unicode.
 type: docs
 weight: 3330
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/
 ---
 ## EmfColorMatchToTargetW class
 
-Запись EMR_COLORMATCHTOTargetW указывает, следует ли выполнять сопоставление цветов с профилем цвета , указанным в файле с именем, состоящим из символов Unicode.
+Запись EMR_COLORMATCHTOTargetW указывает, следует ли выполнять сопоставление цветов с профилем color , указанным в файле с именем, состоящим из символов Unicode.
 
 ```csharp
 public sealed class EmfColorMatchToTargetW : EmfStateRecordType
@@ -18,25 +18,25 @@ public sealed class EmfColorMatchToTargetW : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfColorMatchToTargetW](emfcolormatchtotargetw)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfColorMatchToTargetW`](../emfcolormatchtotargetw). |
+| [EmfColorMatchToTargetW](emfcolormatchtotargetw)(EmfRecord) | Инициализирует новый экземпляр[`EmfColorMatchToTargetW`](../emfcolormatchtotargetw) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [CbData](../../aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/cbdata) { get; set; } | Получает или задает 32-битное целое число без знака, указывающее размер необработанных данных целевого цветового профиля , если он содержится в поле Данные. |
+| [CbData](../../aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/cbdata) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер необработанных данных цветового профиля target , если он содержится в поле Data. |
 | [CbName](../../aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/cbname) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее количество байтов в имени Unicode UTF16-LE требуемого цветового профиля. |
-| [Data](../../aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/data) { get; set; } | Получает или задает массив размера (cbName + cbData) в байтах, который указывает имя UTF16-LE и необработанные данные нужного цветовой профиль. |
+| [Data](../../aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/data) { get; set; } | Получает или задает массив размера (cbName + cbData) в байтах, который указывает имя UTF16-LE и необработанные данные желаемого цветового профиля. |
 | [DwAction](../../aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/dwaction) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее значение из перечисления ColorSpace (раздел 2.1.7). |
-| [DwFlags](../../aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/dwflags) { get; set; } | Получает или задает 32-разрядное целое число без знака, задающее значение из перечисления ColorMatchToTarget (раздел 2.1.6). |
+| [DwFlags](../../aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/dwflags) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее значение из перечисления ColorMatchToTarget (раздел 2.1.6). |
 | [Name](../../aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/name) { get; } | Получает имя |
 | [RawData](../../aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/rawdata) { get; } | Получает необработанные данные |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Примечания
 
-Запись EMR_COLORMATCHTOTargetW может использоваться для управления применением текущего преобразование цвета в контексте устройства воспроизведения. Если значение dwAction равно CS_ENABLE, отображение цвета включено, и текущее преобразование цвета СЛЕДУЕТ применять к последующим графическим операциям . Если для dwAction установлено значение CS_DISABLE, цветовое преобразование НЕ ДОЛЖНО применяться . В то время как цветовое сопоставление с целью включено значением dwAction CS_ENABLE, изменения в цветовом пространстве сопоставлении цветовой гаммы не применяются. Однако эти изменения ДОЛЖНЫ вступить в силу когда отображение цвета на цель отключено. Поле dwAction НЕ ДОЛЖНО быть установлено в CS_DELETE_TRANSFORM, если управление цветом уже не было включено с записью EMR_SETICMMODE (раздел 2.3.11.14).
+Запись EMR_COLORMATCHTOTargetW может использоваться для управления применением преобразования цвета current в контексте устройства воспроизведения. Если значение dwAction равно CS_ENABLE, отображение color включено, и текущее преобразование цвета СЛЕДУЕТ применять к последующим операциям Graphics . Если для dwAction установлено значение CS_DISABLE, цветовое преобразование НЕ СЛЕДУЕТ применять . Пока цветовое сопоставление с целью разрешено значением dwAction CS_ENABLE, изменения в цветовом пространстве или отображении цветовой гаммы не применяются. Однако эти изменения ДОЛЖНЫ вступить в силу , когда цветовое сопоставление с целью отключено. В поле dwAction НЕ СЛЕДУЕТ устанавливать значение CS_DELETE_TRANSFORM, если только управление цветом уже не было включено с помощью записи EMR_SETICMMODE (раздел 2.3.11.14).
 
 ### Смотрите также
 

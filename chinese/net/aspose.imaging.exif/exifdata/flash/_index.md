@@ -16,7 +16,7 @@ public ExifFlash Flash { get; set; }
 
 ### 适当的价值
 
-闪存。
+闪光灯。
 
 ### 也可以看看
 

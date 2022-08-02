@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает данные.
+description: Получает или устанавливает данные.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/data/
 ---
 ## WmfEscapeRecordBase.Data property
 
-Получает или задает данные.
+Получает или устанавливает данные.
 
 ```csharp
 public byte[] Data { get; set; }

@@ -3,7 +3,7 @@ title: XmpText
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет базовый тип XMP Text.
 type: docs
-weight: 11500
+weight: 11490
 url: /ru/net/aspose.imaging.xmp.types.basic/xmptext/
 ---
 ## XmpText class
@@ -18,7 +18,7 @@ public class XmpText : XmpTypeBase
 
 | Имя | Описание |
 | --- | --- |
-| [XmpText](xmptext)(string) | Инициализирует новый экземпляр класса[`XmpText`](../xmptext). |
+| [XmpText](xmptext)(string) | Инициализирует новый экземпляр[`XmpText`](../xmptext) класс. |
 
 ## Характеристики
 

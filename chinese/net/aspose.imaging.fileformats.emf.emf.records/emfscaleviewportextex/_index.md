@@ -1,14 +1,14 @@
 ---
 title: EmfScaleViewportExtex
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_SCALEVIEWPORTEXTEX 记录使用指定的被乘数和除数形成的 比率重新指定设备上下文的视口
+description: EMR_SCALEVIEWPORTEXTEX 记录通过使用由指定的被乘数和除数形成的 比率重新指定设备上下文的视口
 type: docs
 weight: 4220
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfscaleviewportextex/
 ---
 ## EmfScaleViewportExtex class
 
-EMR_SCALEVIEWPORTEXTEX 记录使用指定的被乘数和除数形成的 比率重新指定设备上下文的视口。
+EMR_SCALEVIEWPORTEXTEX 记录通过使用由指定的被乘数和除数形成的 比率重新指定设备上下文的视口。
 
 ```csharp
 public sealed class EmfScaleViewportExtex : EmfStateRecordType
@@ -18,8 +18,8 @@ public sealed class EmfScaleViewportExtex : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfScaleViewportExtex](emfscaleviewportextex#constructor)() | 初始化[`EmfScaleViewportExtex`](../emfscaleviewportextex)类的新实例。 |
-| [EmfScaleViewportExtex](emfscaleviewportextex#constructor_1)(EmfRecord) | 初始化[`EmfScaleViewportExtex`](../emfscaleviewportextex)类的新实例。 |
+| [EmfScaleViewportExtex](emfscaleviewportextex#constructor)() | 初始化[`EmfScaleViewportExtex`](../emfscaleviewportextex)类. |
+| [EmfScaleViewportExtex](emfscaleviewportextex#constructor_1)(EmfRecord) | 初始化[`EmfScaleViewportExtex`](../emfscaleviewportextex)类. |
 
 ## 特性
 
@@ -34,7 +34,7 @@ public sealed class EmfScaleViewportExtex : EmfStateRecordType
 
 ### 评论
 
-如果设备上下文使用固定比例映射模式，则无法更改范围。 只有 MM_ISOTROPIC 和 MM_ANISOTROPIC 不是固定比例。视口范围 修改如下。 xNewWE = (xOldWE * xNum) / xDenom yNewWE = (yOldWE * yNum) / yDenom
+如果设备上下文使用固定比例映射模式，则无法更改范围。 只有 MM_ISOTROPIC 和 MM_ANISOTROPIC 不是固定比例。视口 extents 修改如下。 xNewWE = (xOldWE * xNum) / xDenom yNewWE = (yOldWE * yNum) / yDenom
 
 ### 也可以看看
 

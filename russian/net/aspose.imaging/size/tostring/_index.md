@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Создает удобочитаемую строку которая представляет этотSizeaspose.imaging/size.
+description: Создает удобочитаемую строку представляющую этотSizeaspose.imaging/size .
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging/size/tostring/
 ---
 ## Size.ToString method
 
-Создает удобочитаемую строку, которая представляет этот[`Size`](../../size).
+Создает удобочитаемую строку, представляющую этот[`Size`](../../size) .
 
 ```csharp
 public override string ToString()

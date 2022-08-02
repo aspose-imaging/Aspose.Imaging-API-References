@@ -18,18 +18,18 @@ public class BezierKnotRecord : VectorPathRecord
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BezierKnotRecord](bezierknotrecord#constructor)() | 初始化[`BezierKnotRecord`](../bezierknotrecord)类的新实例。 |
-| [BezierKnotRecord](bezierknotrecord#constructor_1)(byte[]) | 初始化[`BezierKnotRecord`](../bezierknotrecord)类的新实例。 |
+| [BezierKnotRecord](bezierknotrecord#constructor)() | 初始化[`BezierKnotRecord`](../bezierknotrecord)类. |
+| [BezierKnotRecord](bezierknotrecord#constructor_1)(byte[]) | 初始化[`BezierKnotRecord`](../bezierknotrecord)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsClosed](../../aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/isclosed) { get; set; } | 获取或设置一个指示此实例是否关闭的值。 |
+| [IsClosed](../../aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/isclosed) { get; set; } | 获取或设置一个值，指示此实例是否关闭。 |
 | [IsLinked](../../aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/islinked) { get; set; } | 获取或设置一个值，该值指示此实例是否已链接。 |
 | [IsOpen](../../aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/isopen) { get; set; } | 获取或设置一个指示此实例是否打开的值。 |
 | [PathPoints](../../aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/pathpoints) { get; set; } | 获取或设置路径点。 |
-| [Points](../../aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/points) { get; set; } | 获取或设置点。 |
+| [Points](../../aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/points) { get; set; } | 获取或设置点数。 |
 | override [Type](../../aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/type) { get; } | 获取类型。 |
 
 ### 也可以看看

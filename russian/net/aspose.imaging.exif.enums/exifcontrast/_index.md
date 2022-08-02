@@ -1,14 +1,14 @@
 ---
 title: ExifContrast
 second_title: Справочник по Aspose.Imaging for .NET API
-description: exif обычный мягкий жесткий перечисление.
+description: exif обычный мягкий жесткий enum.
 type: docs
 weight: 890
 url: /ru/net/aspose.imaging.exif.enums/exifcontrast/
 ---
 ## ExifContrast enumeration
 
-exif обычный мягкий жесткий перечисление.
+exif обычный мягкий жесткий enum.
 
 ```csharp
 public enum ExifContrast

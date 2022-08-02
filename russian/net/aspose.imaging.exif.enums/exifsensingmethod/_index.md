@@ -20,8 +20,8 @@ public enum ExifSensingMethod
 | --- | --- | --- |
 | Notdefined | `1` | Не определено. |
 | OneChipColorArea | `2` | Область цвета одной фишки. |
-| TwoChipColorArea | `3` | Область цвета двух фишек. |
-| ThreeChipColorArea | `4` | Область цвета трех фишек. |
+| TwoChipColorArea | `3` | Цветовая область с двумя фишками. |
+| ThreeChipColorArea | `4` | Цветовая область с тремя фишками. |
 | Colorsequentialarea | `5` | Цвет Последовательная область. |
 | Trilinearsensor | `7` | Трехлинейный датчик. |
 | Colorsequentiallinear | `8` | Цветной последовательный линейный датчик. |

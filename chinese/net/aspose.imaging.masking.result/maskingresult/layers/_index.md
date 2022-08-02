@@ -16,7 +16,7 @@ public abstract IMaskingLayer[] Layers { get; }
 
 ### 适当的价值
 
-层。
+层数。
 
 ### 也可以看看
 

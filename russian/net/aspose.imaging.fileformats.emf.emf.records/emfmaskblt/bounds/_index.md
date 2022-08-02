@@ -1,14 +1,14 @@
 ---
 title: Bounds
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект WMF RectL MS-WMF раздел 2.2.2.19 который определяет ограничивающий прямоугольник назначения в единицах устройства.
+description: Получает или задает объект WMF RectL MS-WMF раздел 2.2.2.19 который определяет ограничивающий прямоугольник назначения в единицах измерения устройства.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfmaskblt/bounds/
 ---
 ## EmfMaskBlt.Bounds property
 
-Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который определяет ограничивающий прямоугольник назначения в единицах устройства.
+Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который определяет ограничивающий прямоугольник назначения в единицах измерения устройства.
 
 ```csharp
 public Rectangle Bounds { get; set; }

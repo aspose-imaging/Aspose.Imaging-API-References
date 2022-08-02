@@ -1,14 +1,14 @@
 ---
 title: ToGdiMatrix
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПреобразуетMatrixaspose.imaging/matrixвMatrix.
+description: ПреобразуетMatrixaspose.imaging/matrix кMatrix .
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.extensions/matrixextensions/togdimatrix/
 ---
 ## MatrixExtensions.ToGdiMatrix method
 
-Преобразует[`Matrix`](../../../aspose.imaging/matrix)вMatrix.
+Преобразует[`Matrix`](../../../aspose.imaging/matrix) кMatrix .
 
 ```csharp
 public static Matrix ToGdiMatrix(Matrix matrix)
@@ -16,7 +16,7 @@ public static Matrix ToGdiMatrix(Matrix matrix)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| matrix | Matrix | [`Matrix`](../../../aspose.imaging/matrix)для преобразования. |
+| matrix | Matrix | [`Matrix`](../../../aspose.imaging/matrix) конвертировать. |
 
 ### Возвращаемое значение
 

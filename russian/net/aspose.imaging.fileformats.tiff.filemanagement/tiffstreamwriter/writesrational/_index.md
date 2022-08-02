@@ -1,14 +1,14 @@
 ---
 title: WriteSRational
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Записывает в поток одно рациональное число со знаком.
+description: Записывает в поток значение рационального числа с одним знаком.
 type: docs
 weight: 150
 url: /ru/net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesrational/
 ---
 ## TiffStreamWriter.WriteSRational method
 
-Записывает в поток одно рациональное число со знаком.
+Записывает в поток значение рационального числа с одним знаком.
 
 ```csharp
 public void WriteSRational(TiffSRational data)

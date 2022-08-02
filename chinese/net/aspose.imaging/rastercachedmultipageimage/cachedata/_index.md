@@ -1,14 +1,14 @@
 ---
 title: CacheData
 second_title: Aspose.Imaging for .NET API 参考
-description: 缓存数据私有
+description: 缓存私有数据
 type: docs
 weight: 190
 url: /zh/net/aspose.imaging/rastercachedmultipageimage/cachedata/
 ---
 ## RasterCachedMultipageImage.CacheData method
 
-缓存数据私有。
+缓存私有数据。
 
 ```csharp
 public override void CacheData()

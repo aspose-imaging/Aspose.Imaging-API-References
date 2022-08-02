@@ -1,14 +1,14 @@
 ---
 title: GPSLongitudeRef
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает долготу GPSвосточную или западную долготу.
+description: Получает или задает долготу GPS для восточной или западной долготы.
 type: docs
 weight: 550
 url: /ru/net/aspose.imaging.exif/exifdata/gpslongituderef/
 ---
 ## ExifData.GPSLongitudeRef property
 
-Получает или задает долготу GPS:восточную или западную долготу.
+Получает или задает долготу GPS для восточной или западной долготы.
 
 ```csharp
 public string GPSLongitudeRef { get; set; }
@@ -16,7 +16,7 @@ public string GPSLongitudeRef { get; set; }
 
 ### Стоимость имущества
 
-Долгота GPS - восточная или западная долгота.
+Долгота GPS — восточная или западная долгота.
 
 ### Смотрите также
 

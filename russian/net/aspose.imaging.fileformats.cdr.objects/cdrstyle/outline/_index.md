@@ -1,14 +1,14 @@
 ---
 title: OutLine
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает линию выхода.
+description: Получает или устанавливает линию аута.
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrstyle/outline/
 ---
 ## CdrStyle.OutLine property
 
-Получает или устанавливает линию выхода.
+Получает или устанавливает линию аута.
 
 ```csharp
 public CdrOutline OutLine { get; set; }

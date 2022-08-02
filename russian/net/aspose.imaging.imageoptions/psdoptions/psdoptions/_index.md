@@ -1,14 +1,14 @@
 ---
 title: PsdOptions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаPsdOptionsaspose.imaging.imageoptions/psdoptions.
+description: Инициализирует новый экземплярPsdOptionsaspose.imaging.imageoptions/psdoptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.imageoptions/psdoptions/psdoptions/
 ---
 ## PsdOptions() {#constructor}
 
-Инициализирует новый экземпляр класса[`PsdOptions`](../../psdoptions).
+Инициализирует новый экземпляр[`PsdOptions`](../../psdoptions) класс.
 
 ```csharp
 public PsdOptions()
@@ -24,7 +24,7 @@ public PsdOptions()
 
 ## PsdOptions(PsdOptions) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`PsdOptions`](../../psdoptions).
+Инициализирует новый экземпляр[`PsdOptions`](../../psdoptions) класс.
 
 ```csharp
 public PsdOptions(PsdOptions options)
@@ -32,7 +32,7 @@ public PsdOptions(PsdOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | PsdOptions | Опции. |
+| options | PsdOptions | Варианты. |
 
 ### Смотрите также
 

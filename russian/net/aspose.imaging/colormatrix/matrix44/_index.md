@@ -1,14 +1,14 @@
 ---
 title: Matrix44
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает элемент в четвертой строке и четвертом столбце этогоColorMatrixaspose.imaging/colormatrix.
+description: Получает или задает элемент в четвертой строке и четвертом столбце этогоColorMatrixaspose.imaging/colormatrix .
 type: docs
 weight: 270
 url: /ru/net/aspose.imaging/colormatrix/matrix44/
 ---
 ## ColorMatrix.Matrix44 property
 
-Получает или задает элемент в четвертой строке и четвертом столбце этого[`ColorMatrix`](../../colormatrix).
+Получает или задает элемент в четвертой строке и четвертом столбце этого[`ColorMatrix`](../../colormatrix) .
 
 ```csharp
 public float Matrix44 { get; set; }

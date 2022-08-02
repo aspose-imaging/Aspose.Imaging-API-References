@@ -1,14 +1,14 @@
 ---
 title: EmfSetStrechBltMode
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfSetStrechBltModeaspose.imaging.fileformats.emf.emf.records/emfsetstrechbltmode类的新实例
+description: 初始化EmfSetStrechBltModeaspose.imaging.fileformats.emf.emf.records/emfsetstrechbltmode类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetstrechbltmode/emfsetstrechbltmode/
 ---
 ## EmfSetStrechBltMode constructor
 
-初始化[`EmfSetStrechBltMode`](../../emfsetstrechbltmode)类的新实例。
+初始化[`EmfSetStrechBltMode`](../../emfsetstrechbltmode)类.
 
 ```csharp
 public EmfSetStrechBltMode(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfSetStrechBltMode(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 

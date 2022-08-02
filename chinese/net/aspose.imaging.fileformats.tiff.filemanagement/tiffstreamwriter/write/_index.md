@@ -1,14 +1,14 @@
 ---
 title: Write
 second_title: Aspose.Imaging for .NET API 参考
-description: 写入指定数据
+description: 写入指定的数据
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/
 ---
 ## Write(byte[], int, int) {#write_1}
 
-写入指定数据。
+写入指定的数据。
 
 ```csharp
 public void Write(byte[] data, int offset, int dataLength)
@@ -18,7 +18,7 @@ public void Write(byte[] data, int offset, int dataLength)
 | --- | --- | --- |
 | data | Byte[] | 要写入的数据。 |
 | offset | Int32 | 数据偏移量。 |
-| dataLength | Int32 | 写入数据的长度。 |
+| dataLength | Int32 | 写入器的数据长度。 |
 
 ### 也可以看看
 
@@ -30,7 +30,7 @@ public void Write(byte[] data, int offset, int dataLength)
 
 ## Write(byte[]) {#write}
 
-写入指定数据。
+写入指定的数据。
 
 ```csharp
 public void Write(byte[] data)

@@ -16,7 +16,7 @@ public int[] KnotVecor { get; set; }
 
 ### 适当的价值
 
-结向量。
+结矢量.
 
 ### 也可以看看
 

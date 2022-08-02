@@ -1,14 +1,14 @@
 ---
 title: IBufferProcessor
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Процессор буфера.
+description: Буферный процессор.
 type: docs
 weight: 9430
 url: /ru/net/aspose.imaging/ibufferprocessor/
 ---
 ## IBufferProcessor interface
 
-Процессор буфера.
+Буферный процессор.
 
 ```csharp
 public interface IBufferProcessor

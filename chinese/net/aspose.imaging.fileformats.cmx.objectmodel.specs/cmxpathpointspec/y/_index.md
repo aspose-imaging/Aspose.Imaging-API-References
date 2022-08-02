@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置点的 Y 坐标 以通用文档距离单位测量
+description: 获取或设置点的 Y 坐标 以常用文档距离单位测量
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/y/
 ---
 ## CmxPathPointSpec.Y property
 
-获取或设置点的 Y 坐标。 以通用文档距离单位测量。
+获取或设置点的 Y 坐标。 以常用文档距离单位测量。
 
 ```csharp
 public float Y { get; set; }

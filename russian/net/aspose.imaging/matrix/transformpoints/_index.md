@@ -1,14 +1,14 @@
 ---
 title: TransformPoints
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Применяет геометрическое преобразование представленное этимMatrixaspose.imaging/matrixк указанному массиву точек.
+description: Применяет геометрическое преобразование представленное этимMatrixaspose.imaging/matrixв указанный массив точек.
 type: docs
 weight: 180
 url: /ru/net/aspose.imaging/matrix/transformpoints/
 ---
 ## Matrix.TransformPoints method
 
-Применяет геометрическое преобразование, представленное этим[`Matrix`](../../matrix)к указанному массиву точек.
+Применяет геометрическое преобразование, представленное этим[`Matrix`](../../matrix)в указанный массив точек.
 
 ```csharp
 public void TransformPoints(PointF[] points)

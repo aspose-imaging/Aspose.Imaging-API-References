@@ -1,14 +1,14 @@
 ---
 title: EmfSetWindowExtEx
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_SETWINDOWEXTEX определяет размер окна.
+description: Запись EMR_SETWINDOWEXTEX определяет экстент окна.
 type: docs
 weight: 4540
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetwindowextex/
 ---
 ## EmfSetWindowExtEx class
 
-Запись EMR_SETWINDOWEXTEX определяет размер окна.
+Запись EMR_SETWINDOWEXTEX определяет экстент окна.
 
 ```csharp
 public sealed class EmfSetWindowExtEx : EmfStateRecordType
@@ -18,15 +18,15 @@ public sealed class EmfSetWindowExtEx : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetWindowExtEx](emfsetwindowextex#constructor)() | Инициализирует новый экземпляр класса[`EmfSetWindowExtEx`](../emfsetwindowextex). |
-| [EmfSetWindowExtEx](emfsetwindowextex#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetWindowExtEx`](../emfsetwindowextex). |
+| [EmfSetWindowExtEx](emfsetwindowextex#constructor)() | Инициализирует новый экземпляр[`EmfSetWindowExtEx`](../emfsetwindowextex) класс. |
+| [EmfSetWindowExtEx](emfsetwindowextex#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetWindowExtEx`](../emfsetwindowextex) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Extent](../../aspose.imaging.fileformats.emf.emf.records/emfsetwindowextex/extent) { get; set; } | Получает или задает 64-битный объект WMF SizeL ([MS-WMF], раздел 2.2.2.22), который указывает горизонтальную и вертикальную границы в логических единицах. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Extent](../../aspose.imaging.fileformats.emf.emf.records/emfsetwindowextex/extent) { get; set; } | Получает или задает 64-битный объект WMF SizeL ([MS-WMF], раздел 2.2.2.22), который определяет горизонтальные и вертикальные границы в логических единицах. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: EmfPlusImage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект EmfPlusImage определяет графическое изображение в виде растрового изображения или метафайла.
+description: Объект EmfPlusImage задает графическое изображение в виде растрового изображения или метафайла.
 type: docs
 weight: 5500
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage/
 ---
 ## EmfPlusImage class
 
-Объект EmfPlusImage определяет графическое изображение в виде растрового изображения или метафайла.
+Объект EmfPlusImage задает графическое изображение в виде растрового изображения или метафайла.
 
 ```csharp
 public sealed class EmfPlusImage : EmfPlusGraphicsObjectType
@@ -24,8 +24,8 @@ public sealed class EmfPlusImage : EmfPlusGraphicsObjectType
 
 | Имя | Описание |
 | --- | --- |
-| [ImageData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage/imagedata) { get; set; } | Получает или задает данные изображения Данные переменной длины, определяющие данные изображения, указанные в поле Тип. Содержание и формат данных могут различаться для каждого типа изображения. |
-| [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage/type) { get; set; } | Получает или задает тип изображения 32-разрядное целое число без знака, указывающее тип данных в поле ImageData. . Это значение ДОЛЖНО быть определено в перечислении ImageDataType (раздел 2.1.1.15). |
+| [ImageData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage/imagedata) { get; set; } | Получает или задает данные переменной длины Image data , которые определяют данные изображения, указанные в поле Тип. Содержание и формат данных могут отличаться для каждого типа изображения. |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage/type) { get; set; } | Получает или задает тип изображения 32-разрядное целое число без знака, указывающее тип данных в поле ImageData. Это значение ДОЛЖНО быть определено в перечислении ImageDataType (раздел 2.1.1.15). |
 | [Version](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsobjecttype/version) { get; set; } | Получает или задает версию. |
 
 ### Смотрите также

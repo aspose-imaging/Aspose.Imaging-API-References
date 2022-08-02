@@ -3,7 +3,7 @@ title: XmpAgentName
 second_title: Aspose.Imaging for .NET API 参考
 description: 代表代理名称软件组织等
 type: docs
-weight: 11660
+weight: 11650
 url: /zh/net/aspose.imaging.xmp.types.derived/xmpagentname/
 ---
 ## XmpAgentName class
@@ -18,7 +18,7 @@ public sealed class XmpAgentName : XmpText
 
 | 姓名 | 描述 |
 | --- | --- |
-| [XmpAgentName](xmpagentname)(string) | 初始化[`XmpAgentName`](../xmpagentname)类的新实例。 |
+| [XmpAgentName](xmpagentname)(string) | 初始化[`XmpAgentName`](../xmpagentname)类. |
 
 ## 特性
 

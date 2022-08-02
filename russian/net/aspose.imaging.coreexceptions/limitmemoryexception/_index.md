@@ -18,10 +18,10 @@ public class LimitMemoryException : OutOfMemoryException
 
 | Имя | Описание |
 | --- | --- |
-| [LimitMemoryException](limitmemoryexception#constructor)(string) | Инициализирует новый экземпляр класса[`LimitMemoryException`](../limitmemoryexception). |
-| [LimitMemoryException](limitmemoryexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса[`LimitMemoryException`](../limitmemoryexception). |
-| [LimitMemoryException](limitmemoryexception#constructor_1)(string, long) | Инициализирует новый экземпляр класса[`LimitMemoryException`](../limitmemoryexception). |
-| [LimitMemoryException](limitmemoryexception#constructor_3)(string, Exception, int) | Инициализирует новый экземпляр класса[`LimitMemoryException`](../limitmemoryexception). |
+| [LimitMemoryException](limitmemoryexception#constructor)(string) | Инициализирует новый экземпляр[`LimitMemoryException`](../limitmemoryexception) класс. |
+| [LimitMemoryException](limitmemoryexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр[`LimitMemoryException`](../limitmemoryexception) класс. |
+| [LimitMemoryException](limitmemoryexception#constructor_1)(string, long) | Инициализирует новый экземпляр[`LimitMemoryException`](../limitmemoryexception) класс. |
+| [LimitMemoryException](limitmemoryexception#constructor_3)(string, Exception, int) | Инициализирует новый экземпляр[`LimitMemoryException`](../limitmemoryexception) класс. |
 
 ## Характеристики
 

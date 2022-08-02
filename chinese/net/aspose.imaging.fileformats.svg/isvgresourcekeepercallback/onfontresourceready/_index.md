@@ -1,14 +1,14 @@
 ---
 title: OnFontResourceReady
 second_title: Aspose.Imaging for .NET API 参考
-description: 字体资源就绪时调用
+description: 在 字体资源就绪 时调用
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.svg/isvgresourcekeepercallback/onfontresourceready/
 ---
 ## ISvgResourceKeeperCallback.OnFontResourceReady method
 
-[字体资源就绪]时调用。
+在 [字体资源就绪] 时调用。
 
 ```csharp
 public void OnFontResourceReady(FontStoringArgs args)
@@ -16,7 +16,7 @@ public void OnFontResourceReady(FontStoringArgs args)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| args | FontStoringArgs | 参数。 |
+| args | FontStoringArgs | 论据。 |
 
 ### 也可以看看
 

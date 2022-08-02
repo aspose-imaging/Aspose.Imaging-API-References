@@ -24,8 +24,8 @@ public sealed class EmfPlusCustomLineCap : EmfPlusGraphicsObjectType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CustomLineCapData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap/customlinecapdata) { get; set; } | 获取或设置定义在 Type 字段中指定的自定义线帽数据对象的可变长度数据。每种自定义线帽类型的数据内容 和格式可能不同。 |
-| [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap/type) { get; set; } | 获取或设置一个 32 位有符号整数，它指定自定义线帽对象的类型， 确定 CustomLineCapData 字段的内容。 |
+| [CustomLineCapData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap/customlinecapdata) { get; set; } | 获取或设置定义在 Type 字段中指定的自定义线帽数据对象的可变长度数据。每个自定义线帽类型的数据内容 和格式可能不同。 |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap/type) { get; set; } | 获取或设置一个 32 位有符号整数，指定自定义线帽对象的类型， 确定 CustomLineCapData 字段的内容。 |
 | [Version](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsobjecttype/version) { get; set; } | 获取或设置版本。 |
 
 ### 也可以看看

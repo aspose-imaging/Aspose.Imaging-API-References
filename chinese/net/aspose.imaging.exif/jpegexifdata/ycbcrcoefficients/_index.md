@@ -1,14 +1,14 @@
 ---
 title: YCbCrCoefficients
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置从 RGB 到 YCbCr 图像数据转换的矩阵系数
+description: 获取或设置用于从 RGB 图像数据转换为 YCbCr 图像数据的矩阵系数
 type: docs
 weight: 220
 url: /zh/net/aspose.imaging.exif/jpegexifdata/ycbcrcoefficients/
 ---
 ## JpegExifData.YCbCrCoefficients property
 
-获取或设置从 RGB 到 YCbCr 图像数据转换的矩阵系数。
+获取或设置用于从 RGB 图像数据转换为 YCbCr 图像数据的矩阵系数。
 
 ```csharp
 public TiffRational[] YCbCrCoefficients { get; set; }

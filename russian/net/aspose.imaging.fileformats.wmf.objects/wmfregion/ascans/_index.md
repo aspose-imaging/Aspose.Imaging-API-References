@@ -1,14 +1,14 @@
 ---
 title: AScans
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает сканы.
+description: Получает или задает сканирование.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfregion/ascans/
 ---
 ## WmfRegion.AScans property
 
-Получает или задает сканы.
+Получает или задает сканирование.
 
 ```csharp
 public WmfScanObject[] AScans { get; set; }

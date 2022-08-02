@@ -1,14 +1,14 @@
 ---
 title: WmfCreatePenInDirect
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Создание пера в директ
+description: Перо создания в direct
 type: docs
 weight: 8550
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfcreatepenindirect/
 ---
 ## WmfCreatePenInDirect class
 
-Создание пера в директ
+Перо создания в direct
 
 ```csharp
 public class WmfCreatePenInDirect : WmfGraphicObject

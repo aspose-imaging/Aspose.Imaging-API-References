@@ -3,7 +3,7 @@ title: XmpInteger
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示 XMP Integer 基本类型
 type: docs
-weight: 11480
+weight: 11470
 url: /zh/net/aspose.imaging.xmp.types.basic/xmpinteger/
 ---
 ## XmpInteger class
@@ -18,9 +18,9 @@ public sealed class XmpInteger : XmpTypeBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [XmpInteger](xmpinteger#constructor)(int) | 初始化[`XmpInteger`](../xmpinteger)类的新实例。 |
-| [XmpInteger](xmpinteger#constructor_1)(long) | 初始化[`XmpInteger`](../xmpinteger)类的新实例。 |
-| [XmpInteger](xmpinteger#constructor_2)(string) | 初始化[`XmpInteger`](../xmpinteger)类的新实例。 |
+| [XmpInteger](xmpinteger#constructor)(int) | 初始化[`XmpInteger`](../xmpinteger)类. |
+| [XmpInteger](xmpinteger#constructor_1)(long) | 初始化[`XmpInteger`](../xmpinteger)类. |
+| [XmpInteger](xmpinteger#constructor_2)(string) | 初始化[`XmpInteger`](../xmpinteger)类. |
 
 ## 特性
 

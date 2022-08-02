@@ -17,7 +17,7 @@ public void AddCustomFontSource(CustomFontSource source, params object[] args)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | source | CustomFontSource | 自定义字体源提供程序功能。 |
-| args | Object[] | 参数。 |
+| args | Object[] | 论据。 |
 
 ### 也可以看看
 

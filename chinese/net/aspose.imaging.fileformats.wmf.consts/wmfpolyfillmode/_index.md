@@ -1,14 +1,14 @@
 ---
 title: WmfPolyFillMode
 second_title: Aspose.Imaging for .NET API 参考
-description: PolyFillMode 枚举指定用于填充 多边形的方法
+description: PolyFillMode 枚举指定用于填充 a 多边形的方法
 type: docs
 weight: 8290
 url: /zh/net/aspose.imaging.fileformats.wmf.consts/wmfpolyfillmode/
 ---
 ## WmfPolyFillMode enumeration
 
-PolyFillMode 枚举指定用于填充 多边形的方法。
+PolyFillMode 枚举指定用于填充 a 多边形的方法。
 
 ```csharp
 public enum WmfPolyFillMode : short

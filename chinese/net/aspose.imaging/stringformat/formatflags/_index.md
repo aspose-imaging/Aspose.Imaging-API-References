@@ -1,14 +1,14 @@
 ---
 title: FormatFlags
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置包含格式信息的StringFormatFlagsaspose.imaging/stringformatflags枚举
+description: 获取或设置一个StringFormatFlagsaspose.imaging/stringformatflags包含格式信息的枚举
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging/stringformat/formatflags/
 ---
 ## StringFormat.FormatFlags property
 
-获取或设置包含格式信息的[`StringFormatFlags`](../../stringformatflags)枚举。
+获取或设置一个[`StringFormatFlags`](../../stringformatflags)包含格式信息的枚举。
 
 ```csharp
 public StringFormatFlags FormatFlags { get; set; }

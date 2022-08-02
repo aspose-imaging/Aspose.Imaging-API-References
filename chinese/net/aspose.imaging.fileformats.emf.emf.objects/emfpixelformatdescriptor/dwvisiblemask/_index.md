@@ -1,14 +1,14 @@
 ---
 title: DwVisibleMask
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定底层平面的透明颜色或索引当像素 类型为 RGBA 时dwVisibleMask 为透明 RGB 颜色值当像素 类型为颜色索引时为透明索引值
+description: 获取或设置指定底层平面的透明颜色或索引当像素 类型为RGBA时dwVisibleMask为透明RGB颜色值当像素 类型为颜色索引时为透明索引值
 type: docs
 weight: 230
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/dwvisiblemask/
 ---
 ## EmfPixelFormatDescriptor.DwVisibleMask property
 
-获取或设置指定底层平面的透明颜色或索引。当像素 类型为 RGBA 时，dwVisibleMask 为透明 RGB 颜色值。当像素 类型为颜色索引时，为透明索引值。
+获取或设置指定底层平面的透明颜色或索引。当像素 类型为RGBA时，dwVisibleMask为透明RGB颜色值。当像素 类型为颜色索引时，为透明索引值。
 
 ```csharp
 public int DwVisibleMask { get; set; }

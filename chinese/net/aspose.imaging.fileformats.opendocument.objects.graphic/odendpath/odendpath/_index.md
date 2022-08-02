@@ -1,14 +1,14 @@
 ---
 title: OdEndPath
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化OdEndPathaspose.imaging.fileformats.opendocument.objects.graphic/odendpath类的新实例
+description: 初始化OdEndPathaspose.imaging.fileformats.opendocument.objects.graphic/odendpath类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odendpath/odendpath/
 ---
 ## OdEndPath constructor
 
-初始化[`OdEndPath`](../../odendpath)类的新实例。
+初始化[`OdEndPath`](../../odendpath)类.
 
 ```csharp
 public OdEndPath(OdObject parent)
@@ -16,7 +16,7 @@ public OdEndPath(OdObject parent)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | OdObject | 父级。 |
+| parent | OdObject | 家长。 |
 
 ### 也可以看看
 

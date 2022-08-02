@@ -1,14 +1,14 @@
 ---
 title: Lcs
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект WMF LogColorSpaceW MS-WMF раздел 2.2.2.12 который может указывать имя цветового профиля в Символы Unicode UTF16-LE
+description: Получает или задает объект WMF LogColorSpaceW MS-WMF раздел 2.2.2.12 который может указывать имя цветового профиля в символах Unicode UTF16-LE
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/lcs/
 ---
 ## EmfCreateColorSpaceW.Lcs property
 
-Получает или задает объект WMF LogColorSpaceW ([MS-WMF], раздел 2.2.2.12), который может указывать имя цветового профиля в Символы Unicode UTF16-LE
+Получает или задает объект WMF LogColorSpaceW ([MS-WMF], раздел 2.2.2.12), который может указывать имя цветового профиля в символах Unicode UTF16-LE
 
 ```csharp
 public WmfLogColorSpaceW Lcs { get; set; }

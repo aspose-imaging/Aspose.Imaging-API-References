@@ -1,14 +1,14 @@
 ---
 title: Size1
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取 size1
+description: 获取 size1.
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.bmp/os22xbitmapheader/size1/
 ---
 ## Os22XBitmapHeader.Size1 property
 
-获取 size1。
+获取 size1.
 
 ```csharp
 public int Size1 { get; }
@@ -16,7 +16,7 @@ public int Size1 { get; }
 
 ### 适当的价值
 
-保留用于半色调算法
+保留给半色调算法使用
 
 ### 也可以看看
 

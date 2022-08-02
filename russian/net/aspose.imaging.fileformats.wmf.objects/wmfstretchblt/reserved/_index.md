@@ -1,14 +1,14 @@
 ---
 title: Reserved
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает зарезервированное значение.
+description: Получает или устанавливает зарезервированное.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfstretchblt/reserved/
 ---
 ## WmfStretchBlt.Reserved property
 
-Получает или устанавливает зарезервированное значение.
+Получает или устанавливает зарезервированное.
 
 ```csharp
 public short Reserved { get; set; }
@@ -16,7 +16,7 @@ public short Reserved { get; set; }
 
 ### Стоимость имущества
 
-Зарезервировано. Это поле ДОЛЖНО быть проигнорировано.
+Зарезервировано. Это поле ДОЛЖНО игнорироваться.
 
 ### Смотрите также
 

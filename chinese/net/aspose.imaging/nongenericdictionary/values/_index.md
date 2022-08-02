@@ -1,14 +1,14 @@
 ---
 title: Values
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取 ICollection对象其中包含47 中的值IDictionary对象
+description: 获取 ICollection包含 中的值的对象IDictionary对象.
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging/nongenericdictionary/values/
 ---
 ## NonGenericDictionary.Values property
 
-获取 ICollection对象，其中包含:::47 中的值:::IDictionary对象。
+获取 ICollection包含 中的值的对象IDictionary对象.
 
 ```csharp
 public ICollection Values { get; }
@@ -16,7 +16,7 @@ public ICollection Values { get; }
 
 ### 返回值
 
-一个ICollection对象，包含:::R5 中的值:T:System.Collections.IDictionary:::对象。
+一个ICollection包含值的对象IDictionary目的。
 
 ### 也可以看看
 

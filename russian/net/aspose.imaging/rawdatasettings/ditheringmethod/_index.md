@@ -1,14 +1,14 @@
 ---
 title: DitheringMethod
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает метод сглаживания для преобразования необработанных данных
+description: Получает или задает метод дизеринга для преобразования необработанных данных
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging/rawdatasettings/ditheringmethod/
 ---
 ## RawDataSettings.DitheringMethod property
 
-Получает или задает метод сглаживания для преобразования необработанных данных
+Получает или задает метод дизеринга для преобразования необработанных данных
 
 ```csharp
 public DitheringMethods DitheringMethod { get; set; }
@@ -16,7 +16,7 @@ public DitheringMethods DitheringMethod { get; set; }
 
 ### Стоимость имущества
 
-Метод сглаживания для преобразования необработанных данных
+Метод дизеринга для преобразования необработанных данных
 
 ### Смотрите также
 

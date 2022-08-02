@@ -1,14 +1,14 @@
 ---
 title: Pixel
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 64 位 WMF PointL 对象MS-WMF 第 2.2.2.15 节该对象指定 逻辑坐标像素
+description: 获取或设置一个 64 位 WMF PointL 对象MS-WMF 第 2.2.2.15 节该对象指定像素的 逻辑坐标
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetpixelv/pixel/
 ---
 ## EmfSetPixelV.Pixel property
 
-获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定 逻辑坐标像素。
+获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定像素的 逻辑坐标。
 
 ```csharp
 public Point Pixel { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: EmfPlusDrawCurve
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPlusDrawCurveaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawcurve类的新实例
+description: 初始化EmfPlusDrawCurveaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawcurve类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawcurve/emfplusdrawcurve/
 ---
 ## EmfPlusDrawCurve constructor
 
-初始化[`EmfPlusDrawCurve`](../../emfplusdrawcurve)类的新实例。
+初始化[`EmfPlusDrawCurve`](../../emfplusdrawcurve)类.
 
 ```csharp
 public EmfPlusDrawCurve(EmfPlusRecord source)
@@ -16,7 +16,7 @@ public EmfPlusDrawCurve(EmfPlusRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfPlusRecord | 源。 |
+| source | EmfPlusRecord | 来源。 |
 
 ### 也可以看看
 

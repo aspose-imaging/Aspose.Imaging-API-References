@@ -20,56 +20,18 @@ public uint DefaultFrameTime { get; set; }
 
 ### Примеры
 
-В следующем примере показано, как экспортировать файл формата APNG APNG из другого неанимированного многостраничного формата.
+В следующем примере показано, как экспортировать файл apng в формате APNG из другого неанимированного многостраничного формата.
 
 ```csharp
 [C#]
 
 using Aspose.Imaging;
 using Aspose.Imaging.ImageOptions;
-using Aspose.Imaging.FileFormats.Apng;
 
-const int AnimationDuration = 1000; // 1 s
-const int FrameDuration = 70;  // 70 мс
-using (RasterImage sourceImage = (RasterImage)Image.Load("not_animated.png"))
-{
-    ApngOptions createOptions = new ApngOptions
-    {
-        Source = new FileCreateSource("raster_animation.png", false),
-        DefaultFrameTime = (uint)FrameDuration,
-        ColorType = PngColorType.TruecolorWithAlpha,
-    };
-
-    using (ApngImage apngImage = (ApngImage)Image.Create(
-        createOptions,
-        sourceImage.Width,
-        sourceImage.Height))
-    {
-         // Здесь можно установить время кадра изображения по умолчанию: apngImage.DefaultFrameTime = (uint)FrameDuration;
-
-        int numOfFrames = AnimationDuration / FrameDuration;
-        int numOfFrames2 = numOfFrames / 2;
-
-         // Очистка, так как изображение содержит один кадр по умолчанию
-        apngImage.RemoveAllFrames();
-
-         // добавить первый кадр
-        apngImage.AddFrame(sourceImage);
-
-         // добавляем промежуточные кадры
-        for (int frameIndex = 1; frameIndex < numOfFrames - 1; ++frameIndex)
-        {
-            apngImage.AddFrame(sourceImage);
-            ApngFrame lastFrame = (ApngFrame)apngImage.Pages[apngImage.PageCount - 1];
-            float gamma = frameIndex >= numOfFrames2 ? numOfFrames - frameIndex - 1 : frameIndex;
-            lastFrame.AdjustGamma(gamma);
-        }
-
-         // добавить последний кадр
-        apngImage.AddFrame(sourceImage);
-
-        apngImage.Save();
-    }
+using (Image image = Image.Load("img4.tif")) {
+    // Установка длительности кадра по умолчанию
+    image.Save("img4.tif.500ms.png", new ApngOptions() { DefaultFrameTime = 500 }); // 500 мс
+    image.Save("img4.tif.250ms.png", new ApngOptions() { DefaultFrameTime = 250 }); // 250 мс
 }
 ```
 
@@ -82,8 +44,8 @@ using Aspose.Imaging;
 using Aspose.Imaging.ImageOptions;
 using Aspose.Imaging.FileFormats.Apng;
 
-const int AnimationDuration = 1000; // 1 s
-const int FrameDuration = 70;  // 70 мс
+const int AnimationDuration = 1000; // 1 с
+const int FrameDuration = 70; // 70 мс
 using (RasterImage sourceImage = (RasterImage)Image.Load("not_animated.png"))
 {
     ApngOptions createOptions = new ApngOptions
@@ -98,18 +60,18 @@ using (RasterImage sourceImage = (RasterImage)Image.Load("not_animated.png"))
         sourceImage.Width,
         sourceImage.Height))
     {
-         // Здесь можно установить время кадра изображения по умолчанию: apngImage.DefaultFrameTime = (uint)FrameDuration;
+        // Здесь можно установить время кадра изображения по умолчанию: apngImage.DefaultFrameTime = (uint)FrameDuration;
 
         int numOfFrames = AnimationDuration / FrameDuration;
         int numOfFrames2 = numOfFrames / 2;
 
-         // Очистка, так как изображение содержит один кадр по умолчанию
+        // Очистка, так как изображение по умолчанию содержит один кадр
         apngImage.RemoveAllFrames();
 
-         // добавить первый кадр
+        // добавляем первый кадр
         apngImage.AddFrame(sourceImage);
 
-         // добавляем промежуточные кадры
+        // добавляем промежуточные кадры
         for (int frameIndex = 1; frameIndex < numOfFrames - 1; ++frameIndex)
         {
             apngImage.AddFrame(sourceImage);
@@ -118,7 +80,7 @@ using (RasterImage sourceImage = (RasterImage)Image.Load("not_animated.png"))
             lastFrame.AdjustGamma(gamma);
         }
 
-         // добавить последний кадр
+        // добавляем последний кадр
         apngImage.AddFrame(sourceImage);
 
         apngImage.Save();

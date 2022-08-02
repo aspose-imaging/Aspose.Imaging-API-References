@@ -1,14 +1,14 @@
 ---
 title: EmfScaleWindowExtex
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfScaleWindowExtexaspose.imaging.fileformats.emf.emf.records/emfscalewindowextex.
+description: Инициализирует новый экземплярEmfScaleWindowExtexaspose.imaging.fileformats.emf.emf.records/emfscalewindowextex класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfscalewindowextex/emfscalewindowextex/
 ---
 ## EmfScaleWindowExtex(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfScaleWindowExtex`](../../emfscalewindowextex).
+Инициализирует новый экземпляр[`EmfScaleWindowExtex`](../../emfscalewindowextex) класс.
 
 ```csharp
 public EmfScaleWindowExtex(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfScaleWindowExtex(EmfRecord source)
 
 ## EmfScaleWindowExtex() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfScaleWindowExtex`](../../emfscalewindowextex).
+Инициализирует новый экземпляр[`EmfScaleWindowExtex`](../../emfscalewindowextex) класс.
 
 ```csharp
 public EmfScaleWindowExtex()

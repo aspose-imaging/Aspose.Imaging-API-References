@@ -1,14 +1,14 @@
 ---
 title: EmfSaveDc
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSaveDcaspose.imaging.fileformats.emf.emf.records/emfsavedc.
+description: Инициализирует новый экземплярEmfSaveDcaspose.imaging.fileformats.emf.emf.records/emfsavedc класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsavedc/emfsavedc/
 ---
 ## EmfSaveDc(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfSaveDc`](../../emfsavedc).
+Инициализирует новый экземпляр[`EmfSaveDc`](../../emfsavedc) класс.
 
 ```csharp
 public EmfSaveDc(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfSaveDc(EmfRecord source)
 
 ## EmfSaveDc() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfSaveDc`](../../emfsavedc).
+Инициализирует новый экземпляр[`EmfSaveDc`](../../emfsavedc) класс.
 
 ```csharp
 public EmfSaveDc()

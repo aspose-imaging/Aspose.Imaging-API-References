@@ -31,10 +31,10 @@ string dir = "c:\\temp\\";
 
 using (Aspose.Imaging.FileFormats.Tiff.TiffImage image = (Aspose.Imaging.FileFormats.Tiff.TiffImage)Aspose.Imaging.Image.Load(dir + "sample.tif"))
 {
-     // Масштабирование в 2 раза с использованием передискретизации ближайших соседей.
+    // Масштабирование в 2 раза с использованием передискретизации ближайших соседей.
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
 
-     // Сохранить в PNG с параметрами по умолчанию.
+    // Сохранить в PNG с параметрами по умолчанию.
     image.Save(dir + "upsample.nearestneighbour.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
@@ -43,25 +43,25 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage image = (Aspose.Imaging.FileFor
     // Масштабирование в 2 раза с использованием передискретизации ближайших соседей.
     image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
 
-     // Сохранить в PNG с параметрами по умолчанию.
+    // Сохранить в PNG с параметрами по умолчанию.
     image.Save(dir + "downsample.nearestneighbour.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
 using (Aspose.Imaging.FileFormats.Tiff.TiffImage image = (Aspose.Imaging.FileFormats.Tiff.TiffImage)Aspose.Imaging.Image.Load(dir + "sample.tif"))
 {
-     // Увеличение в 2 раза с использованием билинейной передискретизации.
+    // Масштабируем в 2 раза, используя билинейную передискретизацию.
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.BilinearResample);
 
-     // Сохранить в PNG с параметрами по умолчанию.
+    // Сохранить в PNG с параметрами по умолчанию.
     image.Save(dir + "upsample.bilinear.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
 using (Aspose.Imaging.FileFormats.Tiff.TiffImage image = (Aspose.Imaging.FileFormats.Tiff.TiffImage)Aspose.Imaging.Image.Load(dir + "sample.tif"))
 {
-     // Уменьшить масштаб в 2 раза, используя билинейную передискретизацию.
+    // Уменьшить масштаб в 2 раза, используя билинейную передискретизацию.
     image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.BilinearResample);
 
-     // Сохранить в PNG с параметрами по умолчанию.
+    // Сохранить в PNG с параметрами по умолчанию.
     image.Save(dir + "downsample.bilinear.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```
@@ -100,29 +100,29 @@ string dir = "c:\\temp\\";
 
 Aspose.Imaging.ImageResizeSettings resizeSettings = new Aspose.Imaging.ImageResizeSettings();
 
- // Адаптивный алгоритм, основанный на взвешенной и смешанной рациональной функции и интерполяции lanczos3.
+// Адаптивный алгоритм, основанный на взвешенной и смешанной рациональной функции и интерполяции Ланцоша3.
 resizeSettings.Mode = Aspose.Imaging.ResizeType.AdaptiveResample;
 
- // Маленький прямоугольный filter
+// Маленький прямоугольный фильтр
 resizeSettings.FilterType = Aspose.Imaging.ImageFilterType.SmallRectangular;
 
- // Количество цветов в палитре.
+// Количество цветов в палитре.
 resizeSettings.EntriesCount = 256;
 
- // Квантование цвета не используется
+// Квантование цвета не используется
 resizeSettings.ColorQuantizationMethod = ColorQuantizationMethod.None;
 
- // Евклидов метод
+// Евклидов метод
 resizeSettings.ColorCompareMethod = ColorCompareMethod.Euclidian;
 
 using (Aspose.Imaging.Image image = (Aspose.Imaging.Image)Aspose.Imaging.Image.Load(dir + "sample.tif"))
 {
     Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)image;
 
-     // Масштабирование в 2 раза с использованием адаптивной передискретизации.
+    // Уменьшить масштаб в 2 раза, используя адаптивную передискретизацию.
     tiffImage.Resize(image.Width / 2, image.Height / 2, resizeSettings);
 
-     // Сохранить в PNG
+    // Сохранить в PNG
     tiffImage.Save(dir + "downsample.adaptive.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```

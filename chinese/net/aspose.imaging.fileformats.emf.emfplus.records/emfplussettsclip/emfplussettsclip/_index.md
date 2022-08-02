@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSetTsClip
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPlusSetTsClipaspose.imaging.fileformats.emf.emfplus.records/emfplussettsclip类的新实例
+description: 初始化EmfPlusSetTsClipaspose.imaging.fileformats.emf.emfplus.records/emfplussettsclip类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsclip/emfplussettsclip/
 ---
 ## EmfPlusSetTsClip constructor
 
-初始化[`EmfPlusSetTsClip`](../../emfplussettsclip)类的新实例。
+初始化[`EmfPlusSetTsClip`](../../emfplussettsclip)类.
 
 ```csharp
 public EmfPlusSetTsClip(EmfPlusRecord source)
@@ -16,7 +16,7 @@ public EmfPlusSetTsClip(EmfPlusRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfPlusRecord | 源。 |
+| source | EmfPlusRecord | 来源。 |
 
 ### 也可以看看
 

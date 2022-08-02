@@ -24,8 +24,8 @@ public sealed class EmfPlusSharpenEffect : EmfPlusImageEffectsObjectType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Amount](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplussharpeneffect/amount) { get; set; } | 获取或设置一个 32 位浮点数，指定给定像素和周围像素之间的强度差异 。 0 指定不得执行锐化。 0 &lt; value ≤ 100 随着该值的增加，像素之间的强度差异应该 增加。 |
-| [Radius](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplussharpeneffect/radius) { get; set; } | 获取或设置一个 32 位浮点数，以像素为单位指定锐化半径， 确定参与计算的像素数给定像素的新值。 随着该值的增加，计算中涉及的像素数增加，并且 生成的位图应该变得更清晰。 |
+| [Amount](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplussharpeneffect/amount) { get; set; } | 获取或设置一个 32 位浮点数，指定给定像素和周围像素之间的强度差像素之间的强度应该 增加。 |
+| [Radius](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplussharpeneffect/radius) { get; set; } | 获取或设置一个 32 位浮点数，以像素为单位指定锐化半径， 确定计算给定像素的新值时所涉及的像素数。 随着该值的增加，所涉及的像素数计算增加， 生成的位图应该变得更清晰。 |
 
 ### 也可以看看
 

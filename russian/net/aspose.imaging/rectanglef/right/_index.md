@@ -1,14 +1,14 @@
 ---
 title: Right
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает координату x которая является суммойXaspose.imaging/rectanglef/xиWidthaspose.imaging/rectanglef/widthэтойRectangleFaspose.imaging/rectanglefструктуры.
+description: Получает или задает координату x которая является суммойXaspose.imaging/rectanglef/x а такжеWidthaspose.imaging/rectanglef/width этогоRectangleFaspose.imaging/rectanglef структура.
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging/rectanglef/right/
 ---
 ## RectangleF.Right property
 
-Получает или задает координату x, которая является суммой[`X`](../x)и[`Width`](../width)этой[`RectangleF`](../../rectanglef)структуры.
+Получает или задает координату x, которая является суммой[`X`](../x) а также[`Width`](../width) этого[`RectangleF`](../../rectanglef) структура.
 
 ```csharp
 public float Right { get; set; }
@@ -16,7 +16,7 @@ public float Right { get; set; }
 
 ### Возвращаемое значение
 
-Координата x, являющаяся суммой[`X`](../x)и[`Width`](../width)этой[`RectangleF`](../../rectanglef)структуры.
+Координата x, представляющая собой сумму[`X`](../x) а также[`Width`](../width) этого[`RectangleF`](../../rectanglef) структура.
 
 ### Смотрите также
 

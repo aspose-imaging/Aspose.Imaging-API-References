@@ -1,14 +1,14 @@
 ---
 title: Pages
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取当前文档的页面
+description: 获取当前文档的页数
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel/cmxdocument/pages/
 ---
 ## CmxDocument.Pages property
 
-获取当前文档的页面。
+获取当前文档的页数。
 
 ```csharp
 public virtual IList<CmxPage> Pages { get; }
@@ -16,7 +16,7 @@ public virtual IList<CmxPage> Pages { get; }
 
 ### 适当的价值
 
-当前文档的页面。
+当前文档的页数。
 
 ### 也可以看看
 

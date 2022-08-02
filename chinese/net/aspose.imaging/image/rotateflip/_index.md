@@ -20,33 +20,23 @@ public abstract void RotateFlip(RotateFlipType rotateFlipType)
 
 ### 例子
 
-此示例演示了对图像使用旋转操作。示例从某个磁盘位置加载现有图像文件并根据 Enum Aspose.Imaging.RotateFlipType
+此示例演示了在图像上使用旋转操作。示例从某个磁盘位置加载现有图像文件，并根据 Enum Aspose.Imaging.RotateFlipType 的值对图像执行旋转操作
 
 ```csharp
 [C#]
 
-string dir = "c:\\temp\\";
-
-Aspose.Imaging.RotateFlipType[] rotateFlipTypes = new Aspose.Imaging.RotateFlipType[]
+//创建一个image类的实例，并通过File path用已有的图片文件对其进行初始化
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"C:\temp\sample.bmp"))
 {
-    Aspose.Imaging.RotateFlipType.Rotate90FlipNone,
-    Aspose.Imaging.RotateFlipType.Rotate90FlipX,
-    Aspose.Imaging.RotateFlipType.Rotate90FlipXY,
-    Aspose.Imaging.RotateFlipType.Rotate90FlipY,
-};
+    //将图像绕X轴旋转180度
+    image.RotateFlip(Aspose.Imaging.RotateFlipType.Rotate180FlipX);
 
-foreach (Aspose.Imaging.RotateFlipType rotateFlipType in rotateFlipTypes)
-{
-        // 旋转、翻转并保存到输出文件.
-    using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
-    {
-        image.RotateFlip(rotateFlipType);
-        image.Save(dir + "sample." + rotateFlipType + ".bmp");
-    }
+    // 保存所有更改。
+    image.Save();
 }
 ```
 
-的值对图像执行旋转操作 本示例加载图像, 将其顺时针旋转 90 度，并可选择水平和（或）垂直翻转图像。
+此示例加载图像，将其顺时针旋转 90 度，并可选择水平和（或）垂直翻转图像。
 
 ```csharp
 [C#]
@@ -63,7 +53,7 @@ Aspose.Imaging.RotateFlipType[] rotateFlipTypes = new Aspose.Imaging.RotateFlipT
 
 foreach (Aspose.Imaging.RotateFlipType rotateFlipType in rotateFlipTypes)
 {
-        // 旋转、翻转并保存到输出文件.
+    // 旋转、翻转并保存到输出文件。
     using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
     {
         image.RotateFlip(rotateFlipType);

@@ -1,14 +1,14 @@
 ---
 title: DelayTime
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置以 1/100 秒表示的帧延迟时间
+description: 获取或设置以1/100秒表示的帧延迟时间
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/delaytime/
 ---
 ## GifGraphicsControlBlock.DelayTime property
 
-获取或设置以 1/100 秒表示的帧延迟时间。
+获取或设置以1/100秒表示的帧延迟时间
 
 ```csharp
 public ushort DelayTime { get; set; }

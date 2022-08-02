@@ -1,14 +1,14 @@
 ---
 title: PngOptions
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化PngOptionsaspose.imaging.imageoptions/pngoptions类的新实例
+description: 初始化PngOptionsaspose.imaging.imageoptions/pngoptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.imageoptions/pngoptions/pngoptions/
 ---
 ## PngOptions() {#constructor}
 
-初始化[`PngOptions`](../../pngoptions)类的新实例。
+初始化[`PngOptions`](../../pngoptions)类.
 
 ```csharp
 public PngOptions()
@@ -24,7 +24,7 @@ public PngOptions()
 
 ## PngOptions(PngOptions) {#constructor_1}
 
-初始化[`PngOptions`](../../pngoptions)类的新实例。
+初始化[`PngOptions`](../../pngoptions)类.
 
 ```csharp
 public PngOptions(PngOptions pngOptions)

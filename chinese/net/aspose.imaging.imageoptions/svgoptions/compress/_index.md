@@ -1,14 +1,14 @@
 ---
 title: Compress
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值该值指示此ICompressedOptions是否被压缩
+description: 获取或设置一个值该值指示是否ICompressedOptions被压缩
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.imageoptions/svgoptions/compress/
 ---
 ## SvgOptions.Compress property
 
-获取或设置一个值，该值指示此ICompressedOptions是否被压缩。
+获取或设置一个值，该值指示是否ICompressedOptions被压缩。
 
 ```csharp
 public bool Compress { get; set; }
@@ -16,11 +16,11 @@ public bool Compress { get; set; }
 
 ### 适当的价值
 
-` true` 如果压缩；否则，` false` 。
+`真的`如果压缩；否则，`错误的` .
 
 ### 例子
 
-以下示例显示如何将 svg 图像从 at
+以下示例显示如何将 svg 图像转换为 svgz fromat
 
 ```csharp
 [C#]

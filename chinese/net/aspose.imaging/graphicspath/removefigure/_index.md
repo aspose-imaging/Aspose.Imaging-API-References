@@ -16,7 +16,7 @@ public void RemoveFigure(Figure figure)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| figure | Figure | 要删除的图形。 |
+| figure | Figure | 要删除的图。 |
 
 ### 也可以看看
 

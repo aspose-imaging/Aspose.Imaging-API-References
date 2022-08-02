@@ -1,14 +1,14 @@
 ---
 title: ToGdiBrush
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПреобразуетBrushaspose.imaging/brushвBrush.
+description: ПреобразуетBrushaspose.imaging/brush кBrush .
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.extensions/brushextensions/togdibrush/
 ---
 ## BrushExtensions.ToGdiBrush method
 
-Преобразует[`Brush`](../../../aspose.imaging/brush)вBrush.
+Преобразует[`Brush`](../../../aspose.imaging/brush) кBrush .
 
 ```csharp
 public static Brush ToGdiBrush(Brush brush)
@@ -16,7 +16,7 @@ public static Brush ToGdiBrush(Brush brush)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../../aspose.imaging/brush)для преобразования. |
+| brush | Brush | [`Brush`](../../../aspose.imaging/brush) конвертировать. |
 
 ### Возвращаемое значение
 

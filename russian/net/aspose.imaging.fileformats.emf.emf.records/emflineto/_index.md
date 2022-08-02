@@ -1,14 +1,14 @@
 ---
 title: EmfLineTo
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_LINETO определяет линию от текущей позиции до указанной точки  но не включая ее. указанная точка.
+description: Запись EMR_LINETO указывает линию от текущей позиции до но не включая указанную точку . Она сбрасывает текущую позицию до указанной точки.
 type: docs
 weight: 3790
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emflineto/
 ---
 ## EmfLineTo class
 
-Запись EMR_LINETO определяет линию от текущей позиции до указанной точки , но не включая ее. указанная точка.
+Запись EMR_LINETO указывает линию от текущей позиции до, но не включая указанную точку . Она сбрасывает текущую позицию до указанной точки.
 
 ```csharp
 public sealed class EmfLineTo : EmfRecord
@@ -18,15 +18,15 @@ public sealed class EmfLineTo : EmfRecord
 
 | Имя | Описание |
 | --- | --- |
-| [EmfLineTo](emflineto#constructor)() | Инициализирует новый экземпляр класса[`EmfLineTo`](../emflineto). |
-| [EmfLineTo](emflineto#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfLineTo`](../emflineto). |
+| [EmfLineTo](emflineto#constructor)() | Инициализирует новый экземпляр[`EmfLineTo`](../emflineto) класс. |
+| [EmfLineTo](emflineto#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfLineTo`](../emflineto) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Point](../../aspose.imaging.fileformats.emf.emf.records/emflineto/point) { get; set; } | Получает или задает 64-битный объект WMF PointL, указанный в разделе 2.2.2.15 [MS-WMF], который указывает координаты конечная точка линии. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Point](../../aspose.imaging.fileformats.emf.emf.records/emflineto/point) { get; set; } | Получает или задает 64-битный объект WMF PointL, указанный в разделе 2.2.2.15 [MS-WMF], который указывает координаты конечной точки линии. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

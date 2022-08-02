@@ -1,14 +1,14 @@
 ---
 title: Center
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 64 位 WMF PointL 对象在 MS-WMF 第 2.2.2.15 节中指定其中 指定逻辑坐标的圆心
+description: 获取或设置一个 64 位 WMF PointL 对象在 MS-WMF 第 2.2.2.15 节中指定 指定圆心的逻辑坐标
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfanglearc/center/
 ---
 ## EmfAngleArc.Center property
 
-获取或设置一个 64 位 WMF PointL 对象，在 [MS-WMF] 第 2.2.2.15 节中指定，其中 指定逻辑坐标的圆心。
+获取或设置一个 64 位 WMF PointL 对象，在 [MS-WMF] 第 2.2.2.15 节中指定， 指定圆心的逻辑坐标。
 
 ```csharp
 public Point Center { get; set; }

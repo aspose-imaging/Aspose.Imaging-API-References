@@ -1,14 +1,14 @@
 ---
 title: GetRdfCode
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取特定XmpArrayTypeaspose.imaging.xmp/xmparraytype的 RDF 代码
+description: 获取特定的 RDF 代码XmpArrayTypeaspose.imaging.xmp/xmparraytype .
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp/xmparrayhelper/getrdfcode/
 ---
 ## XmpArrayHelper.GetRdfCode method
 
-获取特定[`XmpArrayType`](../../xmparraytype)的 RDF 代码。
+获取特定的 RDF 代码[`XmpArrayType`](../../xmparraytype) .
 
 ```csharp
 public static string GetRdfCode(XmpArrayType xmpArrayType)
@@ -20,13 +20,13 @@ public static string GetRdfCode(XmpArrayType xmpArrayType)
 
 ### 返回值
 
-返回特定[`XmpArrayType`](../../xmparraytype)的 RDF 代码。
+返回特定的 RDF 代码[`XmpArrayType`](../../xmparraytype).
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [XmpException](../../../aspose.imaging.coreexceptions/xmpexception) | 无效枚举参数异常 |
+| [XmpException](../../../aspose.imaging.coreexceptions/xmpexception) | 无效的枚举参数异常 |
 
 ### 也可以看看
 

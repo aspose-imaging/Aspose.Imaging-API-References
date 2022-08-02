@@ -17,7 +17,7 @@ public void SaveArgb32Pixels(Rectangle rectangle, int[] pixels)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | rectangle | Rectangle | Прямоугольник для сохранения пикселей. |
-| pixels | Int32[] | 32-битный массив пикселей ARGB. |
+| pixels | Int32[] | Массив 32-битных пикселей ARGB. |
 
 ### Примеры
 
@@ -32,14 +32,14 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-     // Черный квадрат
+    // Черный квадрат
     int[] pixels = new int[(rasterImage.Width / 2) * (rasterImage.Height / 2)];
     for (int i = 0; i < pixels.Length; i++)
     {
         pixels[i] = Color.Black.ToArgb();
     }
 
-     // Рисуем черный квадрат в центре изображения.
+    // Рисуем черный квадрат в центре изображения.
     Aspose.Imaging.Rectangle area = new Aspose.Imaging.Rectangle(rasterImage.Width / 4, rasterImage.Height / 4, rasterImage.Width / 2, rasterImage.Height / 2);
     rasterImage.SaveArgb32Pixels(area, pixels);
 

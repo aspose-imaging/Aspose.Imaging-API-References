@@ -1,14 +1,14 @@
 ---
 title: GetNearestColorIndex
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取最接近的 32 位 ARGB 颜色的索引
+description: 获取最近的 32 位 ARGB 颜色的索引
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging/icolorpalette/getnearestcolorindex/
 ---
 ## GetNearestColorIndex(int) {#getnearestcolorindex_1}
 
-获取最接近的 32 位 ARGB 颜色的索引。
+获取最近的 32 位 ARGB 颜色的索引。
 
 ```csharp
 public int GetNearestColorIndex(int argb32Color)

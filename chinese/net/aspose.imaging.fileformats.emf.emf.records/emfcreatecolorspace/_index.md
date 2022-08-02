@@ -1,14 +1,14 @@
 ---
 title: EmfCreateColorSpace
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_CREATECOLORSPACE 记录从颜色配置文件创建逻辑颜色空间对象该颜色配置文件的名称为47由 ASCII 字符组成
+description: EMR_CREATECOLORSPACE 记录从颜色配置文件创建一个逻辑颜色空间对象其名称为 名称由 ASCII 字符组成
 type: docs
 weight: 3470
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspace/
 ---
 ## EmfCreateColorSpace class
 
-EMR_CREATECOLORSPACE 记录从颜色配置文件创建逻辑颜色空间对象，该颜色配置文件的名称为::47:::由 ASCII 字符组成。
+EMR_CREATECOLORSPACE 记录从颜色配置文件创建一个逻辑颜色空间对象，其名称为 ，名称由 ASCII 字符组成。
 
 ```csharp
 public sealed class EmfCreateColorSpace : EmfObjectCreationRecordType
@@ -18,20 +18,20 @@ public sealed class EmfCreateColorSpace : EmfObjectCreationRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfCreateColorSpace](emfcreatecolorspace)(EmfRecord) | 初始化[`EmfCreateColorSpace`](../emfcreatecolorspace)类的新实例。 |
+| [EmfCreateColorSpace](emfcreatecolorspace)(EmfRecord) | 初始化[`EmfCreateColorSpace`](../emfcreatecolorspace)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IhCS](../../aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspace/ihcs) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定 EMF 对象表中逻辑颜色空间 对象的索引（第 3.1 节。 1.1）。必须保存此索引，以便可以重用或修改此对象 。 |
-| [Lcs](../../aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspace/lcs) { get; set; } | 获取或设置 WMF LogColorSpace 对象（[MS-WMF] 第 2.2.2.11 节），它可以指定 颜色配置文件的名称ASCII 字符。 |
+| [IhCS](../../aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspace/ihcs) { get; set; } | 获取或设置一个 32 位无符号整数，它指定 EMF 对象表中逻辑颜色空间 对象的索引（第 3.1.1.1 节）。必须保存此索引，以便可以重用或修改此 object 。 |
+| [Lcs](../../aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspace/lcs) { get; set; } | 获取或设置 WMF LogColorSpace 对象（[MS-WMF] 第 2.2.2.11 节），它可以指定 ASCII 字符的颜色配置文件的名称。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 
 ### 评论
 
-该记录定义的逻辑色彩空间对象可以选择到播放设备上下文 由 EMR_SETCOLORSPACE 记录（第 2.3.8.7 节）定义，它定义了在 后续图形操作中使用的逻辑色彩空间。
+该记录定义的逻辑色彩空间对象可以通过EMR_SETCOLORSPACE记录（第2.3.8.7节）选择到播放设备context 中，该记录定义了在 后续图形操作中使用的逻辑色彩空间。
 
 ### 也可以看看
 

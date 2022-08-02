@@ -1,14 +1,14 @@
 ---
 title: WriteDoubleArray
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Записывает в поток массив значений типа double.
+description: Записывает в поток массив двойных значений.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writedoublearray/
 ---
 ## TiffStreamWriter.WriteDoubleArray method
 
-Записывает в поток массив значений типа double.
+Записывает в поток массив двойных значений.
 
 ```csharp
 public void WriteDoubleArray(double[] data)

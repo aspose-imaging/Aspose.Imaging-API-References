@@ -1,14 +1,14 @@
 ---
 title: OnSvgDocumentReady
 second_title: Aspose.Imaging for .NET API 参考
-description: 当 SVG 文档准备好时调用
+description: 在 SVG 文档准备就绪时调用
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.svg/svgresourcekeepercallback/onsvgdocumentready/
 ---
 ## SvgResourceKeeperCallback.OnSvgDocumentReady method
 
-当 SVG 文档准备好时调用。
+在 SVG 文档准备就绪时调用。
 
 ```csharp
 public virtual string OnSvgDocumentReady(byte[] htmlData, string suggestedFileName)

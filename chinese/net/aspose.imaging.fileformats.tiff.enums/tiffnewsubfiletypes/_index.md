@@ -1,14 +1,14 @@
 ---
 title: TiffNewSubFileTypes
 second_title: Aspose.Imaging for .NET API 参考
-description: tiff 新子文件类型枚举
+description: tiff 新的子文件类型枚举
 type: docs
 weight: 7670
 url: /zh/net/aspose.imaging.fileformats.tiff.enums/tiffnewsubfiletypes/
 ---
 ## TiffNewSubFileTypes enumeration
 
-tiff 新子文件类型枚举。
+tiff 新的子文件类型枚举。
 
 ```csharp
 public enum TiffNewSubFileTypes : uint

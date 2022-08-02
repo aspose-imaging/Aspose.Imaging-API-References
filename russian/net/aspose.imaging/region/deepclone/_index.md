@@ -1,14 +1,14 @@
 ---
 title: DeepClone
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Создает точную глубокую копию этогоRegionaspose.imaging/region.
+description: Создает точную глубокую копию этогоRegionaspose.imaging/region .
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging/region/deepclone/
 ---
 ## Region.DeepClone method
 
-Создает точную глубокую копию этого[`Region`](../../region).
+Создает точную глубокую копию этого[`Region`](../../region) .
 
 ```csharp
 public Region DeepClone()
@@ -16,7 +16,7 @@ public Region DeepClone()
 
 ### Возвращаемое значение
 
-Объект[`Region`](../../region), который создает этот метод.
+[`Region`](../../region) что создает этот метод.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此Rectangleaspose.imaging/rectangle结构的宽度
+description: 获取或设置 this 的宽度Rectangleaspose.imaging/rectangle结构.
 type: docs
 weight: 190
 url: /zh/net/aspose.imaging/rectangle/width/
 ---
 ## Rectangle.Width property
 
-获取或设置此[`Rectangle`](../../rectangle)结构的宽度。
+获取或设置 this 的宽度[`Rectangle`](../../rectangle)结构.
 
 ```csharp
 public int Width { get; set; }
@@ -16,7 +16,7 @@ public int Width { get; set; }
 
 ### 返回值
 
-这个[`Rectangle`](../../rectangle)结构的宽度。
+这个宽度[`Rectangle`](../../rectangle)结构体。
 
 ### 也可以看看
 

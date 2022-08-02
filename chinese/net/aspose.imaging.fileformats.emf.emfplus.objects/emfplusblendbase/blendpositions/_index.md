@@ -1,14 +1,14 @@
 ---
 title: BlendPositions
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置混合位置 PositionCount 32 位浮点值数组 指定距离比例沿着渐变线 每个元素必须是介于 0.0 和 1.0 之间的数字 对于线性渐变画笔0.0 代表起点 1.0 代表终点对于路径渐变画笔 0.0 代表中点1.0 代表端点
+description: 获取或设置混合位置 PositionCount 32 位浮点值数组 指定沿梯度线的距离比例 每个元素必须是介于 0.0 和 1.0 之间的数字 对于线性渐变画笔0.0 代表起点 1.0 代表终点对于路径渐变画笔 0.0 代表中点1.0 代表端点
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendbase/blendpositions/
 ---
 ## EmfPlusBlendBase.BlendPositions property
 
-获取或设置混合位置 PositionCount 32 位浮点值数组 指定距离比例沿着渐变线。 每个元素必须是介于 0.0 和 1.0 之间的数字。 对于线性渐变画笔，0.0 代表起点 ，1.0 代表终点。对于路径渐变画笔， 0.0 代表中点，1.0 代表端点
+获取或设置混合位置 PositionCount 32 位浮点值数组 指定沿梯度线的距离比例。 每个元素必须是介于 0.0 和 1.0 之间的数字。 对于线性渐变画笔，0.0 代表起点 ，1.0 代表终点。对于路径渐变画笔， 0.0 代表中点，1.0 代表端点
 
 ```csharp
 public float[] BlendPositions { get; set; }

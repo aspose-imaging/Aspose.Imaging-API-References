@@ -24,14 +24,14 @@ public class WmfRegion : MetaObject
 
 | Имя | Описание |
 | --- | --- |
-| [AScans](../../aspose.imaging.fileformats.wmf.objects/wmfregion/ascans) { get; set; } | Получает или задает сканы. |
+| [AScans](../../aspose.imaging.fileformats.wmf.objects/wmfregion/ascans) { get; set; } | Получает или задает сканирование. |
 | [BoundingRectangle](../../aspose.imaging.fileformats.wmf.objects/wmfregion/boundingrectangle) { get; set; } | Получает или задает ограничивающий прямоугольник. |
 | [MaxScan](../../aspose.imaging.fileformats.wmf.objects/wmfregion/maxscan) { get; set; } | Получает или задает максимальное сканирование. |
 | [NextInChain](../../aspose.imaging.fileformats.wmf.objects/wmfregion/nextinchain) { get; set; } | Получает или задает следующее в цепочке. |
 | [ObjectCount](../../aspose.imaging.fileformats.wmf.objects/wmfregion/objectcount) { get; set; } | Получает или задает количество объектов. |
 | [ObjectType](../../aspose.imaging.fileformats.wmf.objects/wmfregion/objecttype) { get; set; } | Получает или задает тип объекта. |
 | [RegionSize](../../aspose.imaging.fileformats.wmf.objects/wmfregion/regionsize) { get; set; } | Получает или задает размер области. |
-| [ScanCount](../../aspose.imaging.fileformats.wmf.objects/wmfregion/scancount) { get; set; } | Получает или задает счетчик сканирования. |
+| [ScanCount](../../aspose.imaging.fileformats.wmf.objects/wmfregion/scancount) { get; set; } | Получает или задает количество сканирований. |
 
 ### Смотрите также
 

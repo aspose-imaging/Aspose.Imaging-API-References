@@ -16,7 +16,7 @@ public string TextStyleName { get; set; }
 
 ### 适当的价值
 
-文本样式的名称。
+文字样式的名称。
 
 ### 也可以看看
 

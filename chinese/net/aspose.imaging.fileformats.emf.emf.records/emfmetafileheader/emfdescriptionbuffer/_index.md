@@ -1,14 +1,14 @@
 ---
 title: EmfDescriptionBuffer
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 EMF 描述缓冲区 包含 EMF 描述字符串的可选字节数组即 不需要与 EmfMetafileHeader 记录的固定部分连续因此此缓冲区中标记为UndefinedSpace 的字段是可选的并且必须被忽略
+description: 获取或设置 EMF 描述缓冲区 包含 EMF 描述字符串的可选字节数组它是 不需要与 EmfMetafileHeader 记录的固定部分连续因此此缓冲区中标记为UndefinedSpace 的字段是可选的必须被忽略
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfdescriptionbuffer/
 ---
 ## EmfMetafileHeader.EmfDescriptionBuffer property
 
-获取或设置 EMF 描述缓冲区 包含 EMF 描述字符串的可选字节数组，即 不需要与 EmfMetafileHeader 记录的固定部分连续。因此，此缓冲区中标记为“UndefinedSpace” 的字段是可选的并且必须被忽略。
+获取或设置 EMF 描述缓冲区 包含 EMF 描述字符串的可选字节数组，它是 不需要与 EmfMetafileHeader 记录的固定部分连续。因此，此缓冲区中标记为“UndefinedSpace” 的字段是可选的，必须被忽略。
 
 ```csharp
 public byte[] EmfDescriptionBuffer { get; set; }

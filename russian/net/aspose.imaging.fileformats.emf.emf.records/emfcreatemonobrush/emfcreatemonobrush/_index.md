@@ -1,14 +1,14 @@
 ---
 title: EmfCreateMonoBrush
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfCreateMonoBrushaspose.imaging.fileformats.emf.emf.records/emfcreatemonobrush.
+description: Инициализирует новый экземплярEmfCreateMonoBrushaspose.imaging.fileformats.emf.emf.records/emfcreatemonobrush класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcreatemonobrush/emfcreatemonobrush/
 ---
 ## EmfCreateMonoBrush constructor
 
-Инициализирует новый экземпляр класса[`EmfCreateMonoBrush`](../../emfcreatemonobrush).
+Инициализирует новый экземпляр[`EmfCreateMonoBrush`](../../emfcreatemonobrush) класс.
 
 ```csharp
 public EmfCreateMonoBrush(EmfRecord source)

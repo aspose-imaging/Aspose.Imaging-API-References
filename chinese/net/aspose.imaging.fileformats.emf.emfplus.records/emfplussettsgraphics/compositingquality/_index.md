@@ -1,14 +1,14 @@
 ---
 title: CompositingQuality
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 8 位无符号整数指定应用于直线曲线和填充区域边缘的 平滑度使它们看起来更 连续或明确定义它必须是 CompositingQuality 枚举中的一个值第 2.1.1.6 节
+description: 获取或设置一个 8 位无符号整数该整数指定应用于线条曲线和填充区域边缘的 平滑度以使它们看起来更加连续或清晰它必须是 CompositingQuality 枚举中的一个值第 2.1.1.6 节
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics/compositingquality/
 ---
 ## EmfPlusSetTsGraphics.CompositingQuality property
 
-获取或设置一个 8 位无符号整数，指定应用于直线、曲线和填充区域边缘的 平滑度使它们看起来更 连续或明确定义。它必须是 CompositingQuality 枚举中的一个值（第 2.1.1.6 节）。
+获取或设置一个 8 位无符号整数，该整数指定应用于线条、曲线和填充区域边缘的 平滑度，以使它们看起来更加连续或清晰。它必须是 CompositingQuality 枚举中的一个值（第 2.1.1.6 节）。
 
 ```csharp
 public EmfPlusCompositingQuality CompositingQuality { get; set; }

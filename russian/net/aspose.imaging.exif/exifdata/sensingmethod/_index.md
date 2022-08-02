@@ -1,14 +1,14 @@
 ---
 title: SensingMethod
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает метод обнаружения.
+description: Получает или задает метод распознавания.
 type: docs
 weight: 940
 url: /ru/net/aspose.imaging.exif/exifdata/sensingmethod/
 ---
 ## ExifData.SensingMethod property
 
-Получает или задает метод обнаружения.
+Получает или задает метод распознавания.
 
 ```csharp
 public ExifSensingMethod SensingMethod { get; set; }
@@ -16,7 +16,7 @@ public ExifSensingMethod SensingMethod { get; set; }
 
 ### Стоимость имущества
 
-Метод зондирования.
+Метод обнаружения.
 
 ### Смотрите также
 

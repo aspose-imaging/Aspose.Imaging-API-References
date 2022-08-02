@@ -1,14 +1,14 @@
 ---
 title: DataSize
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数它指定 RecordBuffer 字段中 CommentIdentifier 和 CommentRecordParm 字段的大小以字节为单位 如下如果 存在
+description: 获取或设置一个 32 位无符号整数它指定 后面的 RecordBuffer 字段中的 CommentIdentifier 和 CommentRecordParm 字段的大小以字节为单位如果 present 它不能包含自身的大小或 AlignmentPadding 字段的大小
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/datasize/
 ---
 ## EmfCommentRecordType.DataSize property
 
-获取或设置一个 32 位无符号整数，它指定 RecordBuffer 字段中 CommentIdentifier 和 CommentRecordParm 字段的大小（以字节为单位） 如下。如果 存在
+获取或设置一个 32 位无符号整数，它指定 后面的 RecordBuffer 字段中的 CommentIdentifier 和 CommentRecordParm 字段的大小（以字节为单位）。如果 present 它不能包含自身的大小或 AlignmentPadding 字段的大小
 
 ```csharp
 public int DataSize { get; set; }

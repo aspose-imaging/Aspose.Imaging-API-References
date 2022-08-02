@@ -1,14 +1,14 @@
 ---
 title: EmfSelectClipPath
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_SELECTCLIPPATH 记录将当前路径指定为播放 设备上下文的剪辑区域使用指定模式
+description: EMR_SELECTCLIPPATH 记录将当前路径指定为播放的剪辑区域 设备上下文使用指定的模式将新区域与任何现有剪辑区域结合起来
 type: docs
 weight: 4240
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfselectclippath/
 ---
 ## EmfSelectClipPath class
 
-EMR_SELECTCLIPPATH 记录将当前路径指定为播放 设备上下文的剪辑区域，使用指定模式。
+EMR_SELECTCLIPPATH 记录将当前路径指定为播放的剪辑区域 设备上下文，使用指定的模式将新区域与任何现有剪辑区域结合起来。
 
 ```csharp
 public sealed class EmfSelectClipPath : EmfClippingRecordType
@@ -18,14 +18,14 @@ public sealed class EmfSelectClipPath : EmfClippingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSelectClipPath](emfselectclippath#constructor)() | 初始化[`EmfSelectClipPath`](../emfselectclippath)类的新实例。 |
-| [EmfSelectClipPath](emfselectclippath#constructor_1)(EmfRecord) | 初始化[`EmfSelectClipPath`](../emfselectclippath)类的新实例。 |
+| [EmfSelectClipPath](emfselectclippath#constructor)() | 初始化[`EmfSelectClipPath`](../emfselectclippath)类. |
+| [EmfSelectClipPath](emfselectclippath#constructor_1)(EmfRecord) | 初始化[`EmfSelectClipPath`](../emfselectclippath)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RegionMode](../../aspose.imaging.fileformats.emf.emf.records/emfselectclippath/regionmode) { get; set; } | 获取或设置指定路径使用方式的 32 位无符号整数。 值必须在 RegionMode 枚举中（第 2.1.29 节）。 |
+| [RegionMode](../../aspose.imaging.fileformats.emf.emf.records/emfselectclippath/regionmode) { get; set; } | 获取或设置一个 32 位无符号整数，指定使用路径的方式。 值必须在 RegionMode 枚举中（第 2.1.29 节）。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

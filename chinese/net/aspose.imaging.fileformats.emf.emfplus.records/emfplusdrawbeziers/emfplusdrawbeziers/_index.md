@@ -1,14 +1,14 @@
 ---
 title: EmfPlusDrawBeziers
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPlusDrawBeziersaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawbeziers类的新实例
+description: 初始化EmfPlusDrawBeziersaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawbeziers类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawbeziers/emfplusdrawbeziers/
 ---
 ## EmfPlusDrawBeziers constructor
 
-初始化[`EmfPlusDrawBeziers`](../../emfplusdrawbeziers)类的新实例。
+初始化[`EmfPlusDrawBeziers`](../../emfplusdrawbeziers)类.
 
 ```csharp
 public EmfPlusDrawBeziers(EmfPlusRecord source)
@@ -16,7 +16,7 @@ public EmfPlusDrawBeziers(EmfPlusRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfPlusRecord | 源。 |
+| source | EmfPlusRecord | 来源。 |
 
 ### 也可以看看
 

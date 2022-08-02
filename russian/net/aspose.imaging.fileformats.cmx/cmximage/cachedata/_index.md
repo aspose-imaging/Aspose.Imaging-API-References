@@ -1,14 +1,14 @@
 ---
 title: CacheData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Кэширует данные и гарантирует что дополнительная загрузка данных не будет выполняться из базовогоDataStreamContaineraspose.imaging/datastreamsupporter/datastreamcontainer.
+description: Кэширует данные и гарантирует что дополнительная загрузка данных не будет выполняться из базовогоDataStreamContaineraspose.imaging/datastreamsupporter/datastreamcontainer .
 type: docs
 weight: 120
 url: /ru/net/aspose.imaging.fileformats.cmx/cmximage/cachedata/
 ---
 ## CmxImage.CacheData method
 
-Кэширует данные и гарантирует, что дополнительная загрузка данных не будет выполняться из базового[`DataStreamContainer`](../../../aspose.imaging/datastreamsupporter/datastreamcontainer).
+Кэширует данные и гарантирует, что дополнительная загрузка данных не будет выполняться из базового[`DataStreamContainer`](../../../aspose.imaging/datastreamsupporter/datastreamcontainer) .
 
 ```csharp
 public override void CacheData()
@@ -23,13 +23,13 @@ public override void CacheData()
 
 string dir = "c:\\temp\\";
 
- // Загрузить изображение из файла CMX.
+// Загрузить изображение из файла CMX.
 using (Aspose.Imaging.FileFormats.Cmx.CmxImage image = (Aspose.Imaging.FileFormats.Cmx.CmxImage)Aspose.Imaging.Image.Load(dir + "sample.cmx"))
 {
-     // Этот вызов кэширует только страницу по умолчанию.
+    // Этот вызов кэширует только страницу по умолчанию.
     image.CacheData();
 
-     // Кэшируем все страницы, чтобы не выполнялась дополнительная загрузка данных из базового потока данных.
+    // Кэшировать все страницы, чтобы не выполнялась дополнительная загрузка данных из базового потока данных.
     foreach (Aspose.Imaging.FileFormats.Cmx.CmxImagePage page in image.Pages)
     {
         page.CacheData();

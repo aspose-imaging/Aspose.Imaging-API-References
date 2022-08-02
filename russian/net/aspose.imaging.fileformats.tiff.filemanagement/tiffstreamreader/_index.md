@@ -18,10 +18,10 @@ public class TiffStreamReader
 
 | Имя | Описание |
 | --- | --- |
-| [TiffStreamReader](tiffstreamreader#constructor_1)(byte[]) | Инициализирует новый экземпляр класса[`TiffStreamReader`](../tiffstreamreader). |
-| [TiffStreamReader](tiffstreamreader#constructor)(StreamContainer) | Инициализирует новый экземпляр класса[`TiffStreamReader`](../tiffstreamreader). |
-| [TiffStreamReader](tiffstreamreader#constructor_2)(byte[], int) | Инициализирует новый экземпляр класса[`TiffStreamReader`](../tiffstreamreader). |
-| [TiffStreamReader](tiffstreamreader#constructor_3)(byte[], int, int) | Инициализирует новый экземпляр класса[`TiffStreamReader`](../tiffstreamreader). |
+| [TiffStreamReader](tiffstreamreader#constructor_1)(byte[]) | Инициализирует новый экземпляр[`TiffStreamReader`](../tiffstreamreader) класс. |
+| [TiffStreamReader](tiffstreamreader#constructor)(StreamContainer) | Инициализирует новый экземпляр[`TiffStreamReader`](../tiffstreamreader) класс. |
+| [TiffStreamReader](tiffstreamreader#constructor_2)(byte[], int) | Инициализирует новый экземпляр[`TiffStreamReader`](../tiffstreamreader) класс. |
+| [TiffStreamReader](tiffstreamreader#constructor_3)(byte[], int, int) | Инициализирует новый экземпляр[`TiffStreamReader`](../tiffstreamreader) класс. |
 
 ## Характеристики
 
@@ -36,24 +36,24 @@ public class TiffStreamReader
 | --- | --- |
 | [ReadBytes](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readbytes#readbytes)(long, long) | Считывает из потока массив байтовых значений без знака. |
 | [ReadBytes](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readbytes#readbytes_1)(byte[], int, long, long) | Считывает массив байтовых значений из потока. |
-| [ReadDouble](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readdouble)(long) | Прочитать одно двойное значение из потока. |
+| [ReadDouble](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readdouble)(long) | Считать одно двойное значение из потока. |
 | [ReadDoubleArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readdoublearray)(long, long) | Считывает массив двойных значений из потока. |
-| [ReadFloat](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readfloat)(long) | Прочитать одно значение с плавающей запятой из потока. |
+| [ReadFloat](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readfloat)(long) | Считать одно значение с плавающей запятой из потока. |
 | [ReadFloatArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readfloatarray)(long, long) | Считывает массив значений с плавающей запятой из потока. |
 | [ReadRational](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readrational)(long) | Считать из потока значение одного рационального числа. |
-| [ReadRationalArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readrationalarray)(long, long) | Считывает из потока массив рациональных значений. |
+| [ReadRationalArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readrationalarray)(long, long) | Считывает массив рациональных значений из потока. |
 | [ReadSByte](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsbyte)(long) | Читает байтовые данные со знаком из потока. |
-| [ReadSByteArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsbytearray)(long, long) | Считывает из потока массив значений байтов со знаком. |
+| [ReadSByteArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsbytearray)(long, long) | Считывает массив значений байтов со знаком из потока. |
 | [ReadSLong](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readslong)(long) | Чтение целочисленного значения со знаком из потока. |
 | [ReadSLongArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readslongarray)(long, long) | Считывает массив целых чисел со знаком из потока. |
-| [ReadSRational](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsrational)(long) | Считать из потока значение рационального числа с одним знаком. |
-| [ReadSRationalArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsrationalarray)(long, long) | Считывает из потока массив рациональных значений со знаком. |
+| [ReadSRational](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsrational)(long) | Считать значение рационального числа с одним знаком из потока. |
+| [ReadSRationalArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsrationalarray)(long, long) | Считывает массив рациональных значений со знаком из потока. |
 | [ReadSShort](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsshort)(long) | Чтение короткого значения со знаком из потока. |
-| [ReadSShortArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsshortarray)(long, long) | Считывает из потока массив коротких значений со знаком. |
+| [ReadSShortArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsshortarray)(long, long) | Считывает массив коротких значений со знаком из потока. |
 | [ReadULong](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readulong)(long) | Чтение целочисленного значения без знака из потока. |
-| [ReadULongArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readulongarray)(long, long) | Считывает массив беззнаковых целых значений из потока. |
+| [ReadULongArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readulongarray)(long, long) | Считывает из потока массив целочисленных значений без знака. |
 | [ReadUShort](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readushort)(long) | Чтение беззнакового короткого значения из потока. |
-| [ReadUShortArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readushortarray)(long, long) | Считывает массив беззнаковых целых значений из потока. |
+| [ReadUShortArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readushortarray)(long, long) | Считывает из потока массив целочисленных значений без знака. |
 | [ToStreamContainer](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/tostreamcontainer)(long) | Преобразует базовые данные в контейнер потока. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: Snr
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 SNR信噪比 推荐范围 0.002 - 0.009默认值  0.007
+description: 获取或设置SNR信噪比 推荐范围0.002-0.009默认值0.007
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/snr/
 ---
 ## DeconvolutionFilterOptions.Snr property
 
-获取或设置 SNR（信噪比） 推荐范围 0.002 - 0.009，默认值 = 0.007
+获取或设置SNR(信噪比) 推荐范围0.002-0.009，默认值=0.007
 
 ```csharp
 public double Snr { get; set; }
@@ -16,7 +16,7 @@ public double Snr { get; set; }
 
 ### 适当的价值
 
-SNR。
+信噪比。
 
 ### 也可以看看
 

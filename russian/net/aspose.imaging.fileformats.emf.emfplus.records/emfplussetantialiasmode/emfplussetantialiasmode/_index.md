@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSetAntiAliasMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusSetAntiAliasModeaspose.imaging.fileformats.emf.emfplus.records/emfplussetantialiasmode.
+description: Инициализирует новый экземплярEmfPlusSetAntiAliasModeaspose.imaging.fileformats.emf.emfplus.records/emfplussetantialiasmode класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetantialiasmode/emfplussetantialiasmode/
 ---
 ## EmfPlusSetAntiAliasMode constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusSetAntiAliasMode`](../../emfplussetantialiasmode).
+Инициализирует новый экземпляр[`EmfPlusSetAntiAliasMode`](../../emfplussetantialiasmode) класс.
 
 ```csharp
 public EmfPlusSetAntiAliasMode(EmfPlusRecord source)

@@ -16,7 +16,7 @@ public virtual ImageOptionsBase GetDefaultOptions(object[] args)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| args | Object[] | 参数。 |
+| args | Object[] | 论据。 |
 
 ### 返回值
 

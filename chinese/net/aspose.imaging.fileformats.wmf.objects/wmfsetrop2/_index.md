@@ -1,14 +1,14 @@
 ---
 title: WmfSetRop2
 second_title: Aspose.Imaging for .NET API 参考
-description: 设置 rop2
+description: 设置的 rop2
 type: docs
 weight: 9140
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfsetrop2/
 ---
 ## WmfSetRop2 class
 
-设置 rop2
+设置的 rop2
 
 ```csharp
 public class WmfSetRop2 : WmfObject

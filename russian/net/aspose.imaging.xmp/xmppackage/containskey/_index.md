@@ -1,14 +1,14 @@
 ---
 title: ContainsKey
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Определяет содержит ли указанный ключ ключ.
+description: Определяет содержит ли указанный ключ key.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging.xmp/xmppackage/containskey/
 ---
 ## XmpPackage.ContainsKey method
 
-Определяет, содержит ли указанный ключ ключ.
+Определяет, содержит ли указанный ключ key.
 
 ```csharp
 public virtual bool ContainsKey(string key)
@@ -16,7 +16,7 @@ public virtual bool ContainsKey(string key)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| key | String | Проверяемый ключ. |
+| key | String | Ключ для проверки. |
 
 ### Возвращаемое значение
 

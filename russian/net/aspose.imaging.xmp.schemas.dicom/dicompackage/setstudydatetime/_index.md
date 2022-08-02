@@ -16,7 +16,7 @@ public void SetStudyDateTime(string studyDateTime)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| studyDateTime | String | StudyDateTime. |
+| studyDateTime | String | ИсследованиеДатаВремя. |
 
 ### Смотрите также
 

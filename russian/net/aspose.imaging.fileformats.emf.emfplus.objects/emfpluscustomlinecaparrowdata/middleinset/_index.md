@@ -1,14 +1,14 @@
 ---
 title: MiddleInset
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное значение с плавающей запятой указывающее количество пикселей между контуром стрелки колпачком и заполнением крышка стрелы.
+description: Получает или задает 32-разрядное значение с плавающей запятой указывающее количество пикселей между контуром колпачка arrow и заполнением колпачка стрелки.
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/middleinset/
 ---
 ## EmfPlusCustomLineCapArrowData.MiddleInset property
 
-Получает или задает 32-разрядное значение с плавающей запятой, указывающее количество пикселей между контуром стрелки колпачком и заполнением крышка стрелы.
+Получает или задает 32-разрядное значение с плавающей запятой, указывающее количество пикселей между контуром колпачка arrow и заполнением колпачка стрелки.
 
 ```csharp
 public float MiddleInset { get; set; }

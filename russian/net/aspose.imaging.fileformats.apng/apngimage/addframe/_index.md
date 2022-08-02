@@ -43,7 +43,7 @@ public void AddFrame(RasterImage frameImage)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | frameImage имеет значение null. |
+| ArgumentNullException | кадримаже имеет значение null. |
 
 ### Примеры
 
@@ -56,8 +56,8 @@ using Aspose.Imaging;
 using Aspose.Imaging.ImageOptions;
 using Aspose.Imaging.FileFormats.Apng;
 
-const int AnimationDuration = 1000; // 1 s
-const int FrameDuration = 70;  // 70 мс
+const int AnimationDuration = 1000; // 1 с
+const int FrameDuration = 70; // 70 мс
 using (RasterImage sourceImage = (RasterImage)Image.Load("not_animated.png"))
 {
     ApngOptions createOptions = new ApngOptions
@@ -72,18 +72,18 @@ using (RasterImage sourceImage = (RasterImage)Image.Load("not_animated.png"))
         sourceImage.Width,
         sourceImage.Height))
     {
-         // Здесь можно установить время кадра изображения по умолчанию: apngImage.DefaultFrameTime = (uint)FrameDuration;
+        // Здесь можно установить время кадра изображения по умолчанию: apngImage.DefaultFrameTime = (uint)FrameDuration;
 
         int numOfFrames = AnimationDuration / FrameDuration;
         int numOfFrames2 = numOfFrames / 2;
 
-         // Очистка, так как изображение содержит один кадр по умолчанию
+        // Очистка, так как изображение по умолчанию содержит один кадр
         apngImage.RemoveAllFrames();
 
-         // добавить первый кадр
+        // добавляем первый кадр
         apngImage.AddFrame(sourceImage);
 
-         // добавляем промежуточные кадры
+        // добавляем промежуточные кадры
         for (int frameIndex = 1; frameIndex < numOfFrames - 1; ++frameIndex)
         {
             apngImage.AddFrame(sourceImage);
@@ -92,7 +92,7 @@ using (RasterImage sourceImage = (RasterImage)Image.Load("not_animated.png"))
             lastFrame.AdjustGamma(gamma);
         }
 
-         // добавить последний кадр
+        // добавляем последний кадр
         apngImage.AddFrame(sourceImage);
 
         apngImage.Save();
@@ -126,7 +126,7 @@ public void AddFrame(RasterImage frameImage, uint frameTime)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | frameImage имеет значение null. |
+| ArgumentNullException | кадримаже имеет значение null. |
 
 ### Смотрите также
 

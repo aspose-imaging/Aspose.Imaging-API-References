@@ -16,7 +16,7 @@ public static Color LimeGreen { get; }
 
 ### 适当的价值
 
-A[`Color`](../../color)表示系统定义的颜色。
+一个[`Color`](../../color)表示系统定义的颜色。
 
 ### 也可以看看
 

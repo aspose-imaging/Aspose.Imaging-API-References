@@ -1,14 +1,14 @@
 ---
 title: DeepClone
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Создает глубокий клон этогоStringFormataspose.imaging/stringformatобъекта.
+description: Создает глубокий клон этогоStringFormataspose.imaging/stringformat объект.
 type: docs
 weight: 140
 url: /ru/net/aspose.imaging/stringformat/deepclone/
 ---
 ## StringFormat.DeepClone method
 
-Создает глубокий клон этого[`StringFormat`](../../stringformat)объекта.
+Создает глубокий клон этого[`StringFormat`](../../stringformat) объект.
 
 ```csharp
 public StringFormat DeepClone()
@@ -16,7 +16,7 @@ public StringFormat DeepClone()
 
 ### Возвращаемое значение
 
-Глубокий клон текущего[`StringFormat`](../../stringformat).
+Глубокий клон текущего[`StringFormat`](../../stringformat) .
 
 ### Смотрите также
 

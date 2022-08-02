@@ -1,14 +1,14 @@
 ---
 title: WmfUntyped
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Нетипизированный объект wmf
+description: Нетипизированный объект WMF
 type: docs
 weight: 9270
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfuntyped/
 ---
 ## WmfUntyped class
 
-Нетипизированный объект wmf
+Нетипизированный объект WMF
 
 ```csharp
 public class WmfUntyped : WmfObject

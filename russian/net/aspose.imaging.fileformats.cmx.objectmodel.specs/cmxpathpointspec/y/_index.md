@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает координату Y точки. Меры в общепринятых единицах расстояния документа.
+description: Получает или задает координату Y точки. Измеряет в общепринятых единицах измерения расстояния документа.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/y/
 ---
 ## CmxPathPointSpec.Y property
 
-Получает или задает координату Y точки. Меры в общепринятых единицах расстояния документа.
+Получает или задает координату Y точки. Измеряет в общепринятых единицах измерения расстояния документа.
 
 ```csharp
 public float Y { get; set; }

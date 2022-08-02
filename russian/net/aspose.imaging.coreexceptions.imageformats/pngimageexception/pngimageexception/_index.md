@@ -1,14 +1,14 @@
 ---
 title: PngImageException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаPngImageExceptionaspose.imaging.coreexceptions.imageformats/pngimageexception.
+description: Инициализирует новый экземплярPngImageExceptionaspose.imaging.coreexceptions.imageformats/pngimageexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions.imageformats/pngimageexception/pngimageexception/
 ---
 ## PngImageException(string) {#constructor}
 
-Инициализирует новый экземпляр класса[`PngImageException`](../../pngimageexception).
+Инициализирует новый экземпляр[`PngImageException`](../../pngimageexception) класс.
 
 ```csharp
 public PngImageException(string message)
@@ -28,7 +28,7 @@ public PngImageException(string message)
 
 ## PngImageException(string, Exception) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`PngImageException`](../../pngimageexception).
+Инициализирует новый экземпляр[`PngImageException`](../../pngimageexception) класс.
 
 ```csharp
 public PngImageException(string message, Exception innerException)

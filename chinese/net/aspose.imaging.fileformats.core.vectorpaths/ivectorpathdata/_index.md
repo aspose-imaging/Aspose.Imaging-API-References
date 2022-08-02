@@ -1,14 +1,14 @@
 ---
 title: IVectorPathData
 second_title: Aspose.Imaging for .NET API 参考
-description: 访问矢量路径数据的接口
+description: 获取矢量路径数据的接口
 type: docs
 weight: 2300
 url: /zh/net/aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/
 ---
 ## IVectorPathData interface
 
-访问矢量路径数据的接口。
+获取矢量路径数据的接口。
 
 ```csharp
 public interface IVectorPathData
@@ -20,7 +20,7 @@ public interface IVectorPathData
 | --- | --- |
 | [IsDisabled](../../aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/isdisabled) { get; set; } | 获取或设置一个值，该值指示此实例是否被禁用。 |
 | [IsInverted](../../aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/isinverted) { get; set; } | 获取或设置一个值，指示此实例是否反转。 |
-| [IsNotLinked](../../aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/isnotlinked) { get; set; } | 获取或设置一个指示此实例是否未链接的值。 |
+| [IsNotLinked](../../aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/isnotlinked) { get; set; } | 获取或设置一个值，该值指示此实例是否未链接。 |
 | [Paths](../../aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/paths) { get; set; } | 获取或设置路径记录。 |
 | [Version](../../aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/version) { get; set; } | 获取或设置版本。 |
 

@@ -37,10 +37,10 @@ public override void Crop(int leftShift, int rightShift, int topShift, int botto
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| leftShift | Int32 | Сдвиг влево. |
-| rightShift | Int32 | Сдвиг вправо. |
+| leftShift | Int32 | Левый сдвиг. |
+| rightShift | Int32 | Правильный сдвиг. |
 | topShift | Int32 | Верхняя смена. |
-| bottomShift | Int32 | Нижнее смещение. |
+| bottomShift | Int32 | Нижний сдвиг. |
 
 ### Смотрите также
 

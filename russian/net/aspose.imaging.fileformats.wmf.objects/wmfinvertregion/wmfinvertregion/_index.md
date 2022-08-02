@@ -1,14 +1,14 @@
 ---
 title: WmfInvertRegion
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаWmfInvertRegionaspose.imaging.fileformats.wmf.objects/wmfinvertregion.
+description: Инициализирует новый экземплярWmfInvertRegionaspose.imaging.fileformats.wmf.objects/wmfinvertregion класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfinvertregion/wmfinvertregion/
 ---
 ## WmfInvertRegion(WmfGraphicObject) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`WmfInvertRegion`](../../wmfinvertregion).
+Инициализирует новый экземпляр[`WmfInvertRegion`](../../wmfinvertregion) класс.
 
 ```csharp
 public WmfInvertRegion(WmfGraphicObject region)
@@ -16,7 +16,7 @@ public WmfInvertRegion(WmfGraphicObject region)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| region | WmfGraphicObject | Регион. |
+| region | WmfGraphicObject | Область. |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public WmfInvertRegion(WmfGraphicObject region)
 
 ## WmfInvertRegion() {#constructor}
 
-Инициализирует новый экземпляр класса[`WmfInvertRegion`](../../wmfinvertregion).
+Инициализирует новый экземпляр[`WmfInvertRegion`](../../wmfinvertregion) класс.
 
 ```csharp
 public WmfInvertRegion()

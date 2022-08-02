@@ -38,7 +38,7 @@ public static class EmfPlusImageEffectsIdentifiers
 
 ### 评论
 
-图像效果标识符和图像效果参数块由EmfPlusSerializableObject记录[`EmfPlusDrawImagePoints`](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimagepoints)记录。
+图像效果标识符和图像效果参数块由[`EmfPlusSerializableObject`](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject)记录[`EmfPlusDrawImagePoints`](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimagepoints)记录.
 
 ### 也可以看看
 

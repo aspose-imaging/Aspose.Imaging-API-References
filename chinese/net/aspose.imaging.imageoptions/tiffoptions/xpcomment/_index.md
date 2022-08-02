@@ -16,7 +16,7 @@ public string XPComment { get; set; }
 
 ### 适当的价值
 
-图像注释，由 Windows 资源管理器使用。
+对图像的评论，由 Windows 资源管理器使用。
 
 ### 也可以看看
 

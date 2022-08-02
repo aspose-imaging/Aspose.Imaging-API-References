@@ -1,14 +1,14 @@
 ---
 title: ToGraphicsPath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Преобразует ресурсы пути в экземплярGraphicsPathaspose.imaging/graphicspath.
+description: Преобразует ресурсы пути вGraphicsPathaspose.imaging/graphicspath экземпляр.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.tiff.pathresources/pathresourceconverter/tographicspath/
 ---
 ## PathResourceConverter.ToGraphicsPath method
 
-Преобразует ресурсы пути в экземпляр[`GraphicsPath`](../../../aspose.imaging/graphicspath).
+Преобразует ресурсы пути в[`GraphicsPath`](../../../aspose.imaging/graphicspath) экземпляр.
 
 ```csharp
 public static GraphicsPath ToGraphicsPath(PathResource[] pathResources, Size imageSize)
@@ -21,13 +21,13 @@ public static GraphicsPath ToGraphicsPath(PathResource[] pathResources, Size ima
 
 ### Возвращаемое значение
 
-Экземпляр[`GraphicsPath`](../../../aspose.imaging/graphicspath).
+[`GraphicsPath`](../../../aspose.imaging/graphicspath) пример.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *pathResources*равно null. |
+| ArgumentNullException | *pathResources* нулевой. |
 
 ### Смотрите также
 

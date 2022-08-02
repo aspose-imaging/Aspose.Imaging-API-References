@@ -1,14 +1,14 @@
 ---
 title: SubsecTimeDigitized
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает доли секунд для тега DateTimeDigitized.
+description: Получает или задает доли секунды для тега DateTimeDigitized.
 type: docs
 weight: 1060
 url: /ru/net/aspose.imaging.exif/exifdata/subsectimedigitized/
 ---
 ## ExifData.SubsecTimeDigitized property
 
-Получает или задает доли секунд для тега DateTimeDigitized.
+Получает или задает доли секунды для тега DateTimeDigitized.
 
 ```csharp
 public string SubsecTimeDigitized { get; set; }

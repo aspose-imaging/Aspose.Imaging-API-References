@@ -18,8 +18,8 @@ public class CompressorException : FrameworkException
 
 | Имя | Описание |
 | --- | --- |
-| [CompressorException](compressorexception#constructor)(string) | Инициализирует новый экземпляр класса[`CompressorException`](../compressorexception). |
-| [CompressorException](compressorexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр класса[`CompressorException`](../compressorexception). |
+| [CompressorException](compressorexception#constructor)(string) | Инициализирует новый экземпляр[`CompressorException`](../compressorexception) класс. |
+| [CompressorException](compressorexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр[`CompressorException`](../compressorexception) класс. |
 
 ### Смотрите также
 

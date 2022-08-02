@@ -1,14 +1,14 @@
 ---
 title: GetCmyka
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает цвет CMYKA с указанным количеством битов на выборку.
+description: Получает цвет CMYKA с указанным количеством битов на образец.
 type: docs
 weight: 210
 url: /ru/net/aspose.imaging/pixeldataformat/getcmyka/
 ---
 ## PixelDataFormat.GetCmyka method
 
-Получает цвет CMYKA с указанным количеством битов на выборку.
+Получает цвет CMYKA с указанным количеством битов на образец.
 
 ```csharp
 public static PixelDataFormat GetCmyka(int bitsPerCyanChannel, int bitsPerMagentaChannel, 
@@ -17,8 +17,8 @@ public static PixelDataFormat GetCmyka(int bitsPerCyanChannel, int bitsPerMagent
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| bitsPerCyanChannel | Int32 | Количество битов на канал Cyan. |
-| bitsPerMagentaChannel | Int32 | Количество битов на канал Magenta. |
+| bitsPerCyanChannel | Int32 | Количество битов на голубой канал. |
+| bitsPerMagentaChannel | Int32 | Количество битов на пурпурный канал. |
 | bitsPerYellowChannel | Int32 | Количество битов на желтый канал. |
 | bitsPerKeyChannel | Int32 | Количество битов на ключевой канал. |
 | bitsPerAlphaChannel | Int32 | Количество битов на альфа-канал. |

@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化Fontaspose.imaging.xmp.types.complex.font/font类的新实例
+description: 初始化Fontaspose.imaging.xmp.types.complex.font/font类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp.types.complex.font/font/font/
 ---
 ## Font() {#constructor}
 
-初始化[`Font`](../../font)类的新实例。
+初始化[`Font`](../../font)类.
 
 ```csharp
 public Font()
@@ -24,7 +24,7 @@ public Font()
 
 ## Font(string) {#constructor_1}
 
-初始化[`Font`](../../font)类的新实例。
+初始化[`Font`](../../font)类.
 
 ```csharp
 public Font(string fontFamily)

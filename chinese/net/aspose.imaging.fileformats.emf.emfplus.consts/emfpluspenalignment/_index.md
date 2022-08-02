@@ -18,7 +18,7 @@ public enum EmfPlusPenAlignment
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| PenAlignmentCenter | `0` | 指定 EmfPlusPen 对象位于理论线的中心。 |
+| PenAlignmentCenter | `0` | 指定 EmfPlusPen 对象以理论线为中心。 |
 | PenAlignmentInset | `1` | 指定笔位于理论线的内侧。 |
 | PenAlignmentLeft | `2` | 指定笔位于理论线的左侧。 |
 | PenAlignmentOutset | `3` | 指定笔位于理论线的外侧。 |
@@ -26,7 +26,7 @@ public enum EmfPlusPenAlignment
 
 ### 评论
 
-图形笔由EmfPlusPen对象（第 2.2.1.7 节）。 笔对齐可以通过考虑在两个指定点之间绘制的理论一维线来可视化。 笔对齐决定了笔宽与理论线正交的比例。
+图形笔由[`EmfPlusPen`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen)对象（第 2.2.1.7 节）. 笔对齐可以通过考虑在两个指定点之间绘制的理论一维线来可视化。 笔的对齐方式决定了笔宽与理论线正交的比例。
 
 ### 也可以看看
 

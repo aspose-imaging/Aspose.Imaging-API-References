@@ -1,14 +1,14 @@
 ---
 title: JpegOptions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает параметры JPEG используемые для создания или загрузки этого экземпляраJpegImageaspose.imaging.fileformats.jpeg/jpegimage.
+description: Получает параметры JPEG используемые для создания или загрузки этогоJpegImageaspose.imaging.fileformats.jpeg/jpegimage экземпляр.
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging.fileformats.jpeg/jpegimage/jpegoptions/
 ---
 ## JpegImage.JpegOptions property
 
-Получает параметры JPEG, используемые для создания или загрузки этого экземпляра[`JpegImage`](../../jpegimage).
+Получает параметры JPEG, используемые для создания или загрузки этого[`JpegImage`](../../jpegimage) экземпляр.
 
 ```csharp
 public JpegOptions JpegOptions { get; }
@@ -49,13 +49,13 @@ using (Aspose.Imaging.FileFormats.Jpeg.JpegImage image = (Aspose.Imaging.FileFor
     }
 }
 
- // Вывод выглядит так: 
- //Количество бит на канал: 8
- // Максимально допустимый размер для всех внутренних буферов: 0
- // Тип цвета: YCbCr
- //Тип сжатия: Baseline
- //Качество изображения: 75
- //Выборка для компонента 0: 1x1
+//Вывод выглядит так:
+//Количество бит на канал: 8
+// Максимально допустимый размер для всех внутренних буферов: 0
+// Тип цвета: YCbCr
+//Тип сжатия: Базовый
+//Качество изображения: 75
+//Выборка для компонента 0: 1x1
 //Выборка для компонента 1: 1x1
 //Выборка для компонента 2: 1x1
 ```

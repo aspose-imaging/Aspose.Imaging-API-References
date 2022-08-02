@@ -1,14 +1,14 @@
 ---
 title: EntriesCount
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置条目数
+description: 获取或设置条目计数
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging/imageresizesettings/entriescount/
 ---
 ## ImageResizeSettings.EntriesCount property
 
-获取或设置条目数
+获取或设置条目计数
 
 ```csharp
 public int EntriesCount { get; set; }
@@ -16,7 +16,7 @@ public int EntriesCount { get; set; }
 
 ### 适当的价值
 
-条目数
+条目计数
 
 ### 也可以看看
 

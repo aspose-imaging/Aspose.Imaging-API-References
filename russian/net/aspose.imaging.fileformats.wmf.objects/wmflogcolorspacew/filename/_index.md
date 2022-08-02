@@ -1,14 +1,14 @@
 ---
 title: Filename
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает необязательный символ Unicode UTF16-LE с нулем в конце строку которая указывает имя файла содержащего цвет профиль. Если указано имя файла и в поле ColorSpaceTypeaspose.imaging.fileformats.wmf.objects/wmflogcolorspacew/colorspacetypeустановлено значение LCS_CALIBRATED_RGB то другие поля этой структуры ДОЛЖНЫ игнорироваться.
+description: Получает или задает необязательную строку символа Unicode UTF16-LE character  заканчивающуюся нулем которая указывает имя файла содержащего профиль color . Если указано имя файла и параметр ColorSpaceTypeaspose.imaging.fileformats.wmf.objects/wmflogcolorspacew/colorspacetype установлено значение LCS_CALIBRATED_RGB другие поля этой структуры ДОЛЖНЫ игнорироваться.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmflogcolorspacew/filename/
 ---
 ## WmfLogColorSpaceW.Filename property
 
-Получает или задает необязательный символ Unicode UTF16-LE с нулем в конце строку, которая указывает имя файла, содержащего цвет профиль. Если указано имя файла и в поле [`ColorSpaceType`](../colorspacetype)установлено значение LCS_CALIBRATED_RGB, то другие поля этой структуры ДОЛЖНЫ игнорироваться.
+Получает или задает необязательную строку символа Unicode UTF16-LE character , заканчивающуюся нулем, которая указывает имя файла, содержащего профиль color . Если указано имя файла и параметр [`ColorSpaceType`](../colorspacetype) установлено значение LCS_CALIBRATED_RGB, другие поля этой структуры ДОЛЖНЫ игнорироваться.
 
 ```csharp
 public string Filename { get; set; }

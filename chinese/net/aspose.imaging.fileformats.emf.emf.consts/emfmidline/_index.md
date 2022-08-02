@@ -21,13 +21,13 @@ public enum EmfMidLine : byte
 | PAN_ANY | `0` | 任意中线。 |
 | PAN_NO_FIT | `1` | 不合适。 |
 | PAN_MIDLINE_STANDARD_TRIMMED | `2` | 标准/修剪。 |
-| PAN_MIDLINE_STANDARD_POINTED | `3` | 标准/尖。 |
+| PAN_MIDLINE_STANDARD_POINTED | `3` | 标准/尖头。 |
 | PAN_MIDLINE_STANDARD_SERIFED | `4` | 标准/衬线。 |
 | PAN_MIDLINE_HIGH_TRIMMED | `5` | 高/修剪 |
 | PAN_MIDLINE_HIGH_POINTED | `6` | 高/尖。 |
 | PAN_MIDLINE_HIGH_SERIFED | `7` | 高/衬线。 |
 | PAN_MIDLINE_CONSTANT_TRIMMED | `8` | 常量/修剪。 |
-| PAN_MIDLINE_CONSTANT_POINTED | `9` | 常量/指向 |
+| PAN_MIDLINE_CONSTANT_POINTED | `9` | 常数/指向 |
 | PAN_MIDLINE_CONSTANT_SERIFED | `10` | 常量/衬线 |
 | PAN_MIDLINE_LOW_TRIMMED | `11` | 低/修剪。 |
 | PAN_MIDLINE_LOW_POINTED | `12` | 低/尖。 |

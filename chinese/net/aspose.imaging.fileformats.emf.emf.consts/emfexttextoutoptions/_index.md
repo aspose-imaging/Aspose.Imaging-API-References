@@ -1,14 +1,14 @@
 ---
 title: EmfExtTextOutOptions
 second_title: Aspose.Imaging for .NET API 参考
-description: ExtTextOutOptions 枚举指定控制 EMR_SMALLTEXTOUT第 2.3.5.37 节记录和 EmrText 对象的 文本输出的各个方面的参数
+description: ExtTextOutOptions 枚举指定控制 EMR_SMALLTEXTOUT第 2.3.5.37 节记录和 EmrText 对象中的 文本输出的各个方面的参数
 type: docs
 weight: 2630
 url: /zh/net/aspose.imaging.fileformats.emf.emf.consts/emfexttextoutoptions/
 ---
 ## EmfExtTextOutOptions enumeration
 
-ExtTextOutOptions 枚举指定控制 EMR_SMALLTEXTOUT（第 2.3.5.37 节）记录和 EmrText 对象的 文本输出的各个方面的参数。
+ExtTextOutOptions 枚举指定控制 EMR_SMALLTEXTOUT（第 2.3.5.37 节）记录和 EmrText 对象中的 文本输出的各个方面的参数。
 
 ```csharp
 [Flags]
@@ -19,16 +19,16 @@ public enum EmfExtTextOutOptions
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| ETO_OPAQUE | `2` | 该位表示应该使用当前背景颜色填充矩形 |
-| ETO_CLIPPED | `4` | 该位指示文本应该被剪切到矩形。 |
-| ETO_GLYPH_INDEX | `10` | 该位表示输出文本字符串中的字符代码实际上是 TrueType 字体中字符字形的 索引。字形索引是特定于字体的， 因此要在播放时显示正确的字符，使用的字体必须是 与用于生成索引的字体相同。 |
-| ETO_RTLREADING | `80` | 该位表示文本必须以从右到左的阅读顺序排列， 而不是默认的从左到右命令。仅当在播放设备上下文中选择的字体 是希伯来语或阿拉伯语 |
+| ETO_OPAQUE | `2` | 该位表示应该使用当前背景颜色来填充矩形 |
+| ETO_CLIPPED | `4` | 该位表示应该将文本剪切到矩形。 |
+| ETO_GLYPH_INDEX | `10` | 该位表示输出文本字符串中的字符代码实际上是 TrueType 字体中字符字形的 索引。字形索引是字体特定的， ，因此要在播放时显示正确的字符，使用的字体必须与用于生成索引的字体 相同。 |
+| ETO_RTLREADING | `80` | 该位指示文本必须以从右到左的阅读顺序排列， 而不是默认的从左到右的顺序。 This SHOULD be applied only when the font selected into the playback device context is either Hebrew or Arabic |
 | ETO_NO_RECT | `100` | 该位表示记录没有为文本输出指定边界矩形。 |
-| ETO_SMALL_CHARS | `200` | 该位表示输出文本字符串中字符的编码为 8 位， 来源于 16 位 Unicode UTF16 的低字节-LE 字符代码， 其中高字节假定为 0。 |
-| ETO_NUMERICSLOCAL | `400` | 该位表示要显示数字，应使用适合区域设置的数字 |
-| ETO_NUMERICSLATIN | `800` | 该位表示要显示数字，应使用欧洲数字 |
-| ETO_IGNORELANGUAGE | `1000` | 该位表示不应该对从右到左的字符串执行 对字形放置的特殊操作系统处理；也就是说，所有字形定位都应该由 绘图和元文件中的状态记录处理 |
-| ETO_PDY | `2000` | 该位指示应该提供水平和垂直字符位移值 |
+| ETO_SMALL_CHARS | `200` | 该位表示输出文本串中字符的编码为 8 位， 来源于 16 位 Unicode UTF16-LE 字符编码的低字节， 其中高字节假定为 0。 |
+| ETO_NUMERICSLOCAL | `400` | 该位指示要显示数字，应使用适合区域设置的数字 |
+| ETO_NUMERICSLATIN | `800` | 该位表示要显示数字，应该使用欧洲数字 |
+| ETO_IGNORELANGUAGE | `1000` | 该位表示不应对字形放置的特殊操作系统处理 对从右到左的字符串执行；也就是说，所有字形定位都应该由元文件 中的 绘图和状态记录来处理 |
+| ETO_PDY | `2000` | 该位表示应该提供水平和垂直字符位移值 |
 | ETO_REVERSE_INDEX_MAP | `10000` | 该位保留，不应使用 |
 
 ### 也可以看看

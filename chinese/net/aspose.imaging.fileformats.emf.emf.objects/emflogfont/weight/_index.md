@@ -1,14 +1,14 @@
 ---
 title: Weight
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位有符号整数该整数在 0 到 1000 范围内指定字体的粗细例如400 是正常和 700 是粗体如果此值为零则可以使用默认的 权重
+description: 获取或设置一个 32 位有符号整数指定从 零到 1000 范围内的字体粗细例如400 是正常的700 是粗体如果此值为零则可以使用默认的 权重
 type: docs
 weight: 140
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emflogfont/weight/
 ---
 ## EmfLogFont.Weight property
 
-获取或设置一个 32 位有符号整数，该整数在 0 到 1000 范围内指定字体的粗细。例如，400 是正常和 700 是粗体。如果此值为零，则可以使用默认的 权重。
+获取或设置一个 32 位有符号整数，指定从 零到 1000 范围内的字体粗细。例如，400 是正常的，700 是粗体。如果此值为零，则可以使用默认的 权重。
 
 ```csharp
 public EmfLogFontWeight Weight { get; set; }

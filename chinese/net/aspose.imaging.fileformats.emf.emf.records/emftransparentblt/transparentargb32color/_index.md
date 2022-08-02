@@ -1,14 +1,14 @@
 ---
 title: TransparentArgb32Color
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 WMF ColorRef 对象MS-WMF 第 2.2.2.8 节该对象指定 源位图中的颜色为视为透明
+description: 获取或设置一个 WMF ColorRef 对象MS-WMF 第 2.2.2.8 节它指定 源位图中被视为透明的颜色
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emftransparentblt/transparentargb32color/
 ---
 ## EmfTransparentBlt.TransparentArgb32Color property
 
-获取或设置一个 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节），该对象指定 源位图中的颜色为视为透明。
+获取或设置一个 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节），它指定 源位图中被视为透明的颜色。
 
 ```csharp
 public int TransparentArgb32Color { get; set; }

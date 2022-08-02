@@ -32,7 +32,7 @@ public void ClearColorMatrix(ColorAdjustType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype), указывающий категорию, для которой матрица настройки цвета очищается. |
+| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype) который указывает категорию, для которой очищается матрица настройки цвета. |
 
 ### Смотрите также
 

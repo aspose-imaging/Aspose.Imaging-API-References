@@ -1,14 +1,14 @@
 ---
 title: ToGdiColorMap
 second_title: Aspose.Imaging for .NET API 参考
-description: 将ColorMapaspose.imaging/colormap转换为ColorMap.
+description: 转换ColorMapaspose.imaging/colormap到ColorMap .
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.extensions/colormapextensions/togdicolormap/
 ---
 ## ColorMapExtensions.ToGdiColorMap method
 
-将[`ColorMap`](../../../aspose.imaging/colormap)转换为ColorMap.
+转换[`ColorMap`](../../../aspose.imaging/colormap)到ColorMap .
 
 ```csharp
 public static ColorMap ToGdiColorMap(ColorMap colorMap)
@@ -20,7 +20,7 @@ public static ColorMap ToGdiColorMap(ColorMap colorMap)
 
 ### 返回值
 
-转换后的ColorMap。
+转换后的ColorMap .
 
 ### 也可以看看
 

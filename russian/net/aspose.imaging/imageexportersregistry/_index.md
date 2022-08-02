@@ -25,9 +25,9 @@ public static class ImageExportersRegistry
 
 | Имя | Описание |
 | --- | --- |
-| static [CreateFirstSupportedExporter](../../aspose.imaging/imageexportersregistry/createfirstsupportedexporter)(Image, ImageOptionsBase) | Создает первый найденный экспортер, подходящий для указанных параметров сохранения и изображения. |
+| static [CreateFirstSupportedExporter](../../aspose.imaging/imageexportersregistry/createfirstsupportedexporter)(Image, ImageOptionsBase) | Создает первый найденный экспортер, подходящий для указанных параметров сохранения и образа. |
 | static [GetFirstSupportedDescriptor](../../aspose.imaging/imageexportersregistry/getfirstsupporteddescriptor)(Image, ImageOptionsBase) | Получает первый найденный поддерживаемый дескриптор, подходящий для указанных параметров сохранения и изображения. |
-| static [Register](../../aspose.imaging/imageexportersregistry/register)(IImageExporterDescriptor) | Регистрирует указанный дескриптор экспортера изображения. |
+| static [Register](../../aspose.imaging/imageexportersregistry/register)(IImageExporterDescriptor) | Регистрирует указанный дескриптор экспортера изображений. |
 | static [RegisterExporter](../../aspose.imaging/imageexportersregistry/registerexporter)(IImageExporterDescriptor) | Регистрирует экспортера. |
 | static [UnregisterExporter](../../aspose.imaging/imageexportersregistry/unregisterexporter)(IImageExporterDescriptor) | Отменяет регистрацию экспортера. |
 

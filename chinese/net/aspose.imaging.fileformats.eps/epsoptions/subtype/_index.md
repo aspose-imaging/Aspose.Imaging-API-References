@@ -1,14 +1,14 @@
 ---
 title: SubType
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 EPS 格式的子类型
+description: 获取或设置EPS格式的子类型
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.eps/epsoptions/subtype/
 ---
 ## EpsOptions.SubType property
 
-获取或设置 EPS 格式的子类型。
+获取或设置EPS格式的子类型
 
 ```csharp
 public EpsType SubType { get; set; }

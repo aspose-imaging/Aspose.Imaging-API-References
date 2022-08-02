@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.FileFormats.Cdr.Const
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пространство имен обрабатывает формат файлов Cdr.
+description: Пространство имен обрабатывает формат файла Cdr.
 type: docs
 weight: 180
 url: /ru/net/aspose.imaging.fileformats.cdr.const/
 ---
-Пространство имен обрабатывает формат файлов Cdr.
+Пространство имен обрабатывает формат файла Cdr.
 
 ## перечисление
 

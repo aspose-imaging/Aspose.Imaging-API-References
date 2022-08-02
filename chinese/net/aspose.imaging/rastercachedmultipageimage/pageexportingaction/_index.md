@@ -1,14 +1,14 @@
 ---
 title: PageExportingAction
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置页面导出动作 请注意设置该方法执行后会自动释放页面资源 它将在每个页面保存之前执行
+description: 获取或设置页面导出动作 请注意设置此方法执行后会自动释放页面资源 会在每页保存前执行
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging/rastercachedmultipageimage/pageexportingaction/
 ---
 ## RasterCachedMultipageImage.PageExportingAction property
 
-获取或设置页面导出动作。 请注意，设置该方法执行后会自动释放页面资源。 它将在每个页面保存之前执行。
+获取或设置页面导出动作。 请注意，设置此方法执行后会自动释放页面资源。 会在每页保存前执行。
 
 ```csharp
 public virtual PageExportingAction PageExportingAction { get; set; }
@@ -30,15 +30,14 @@ string fileName = "10MB_Tif.tif";
 
     string outputFileNameTif = "output.tif";
     
-        //实现保存（导出）Tiff图像前批量转换的可能性。
+    //实现了在保存（导出）Tiff图像之前进行批量转换的可能性。
 
     using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)Aspose.Imaging.Image.Load(inputFileName))
     {
-            // 为 pages
- 设置批处理操作
+        // 设置页面的批量操作
         tiffImage.PageExportingAction = delegate(int index, Image page)
         {
-            // 触发垃圾收集以避免之前页面中不必要的垃圾存储
+            // 触发垃圾收集以避免前页不必要的垃圾存储
             GC.Collect();
 
             ((Aspose.Imaging.RasterImage)page).Rotate(90);

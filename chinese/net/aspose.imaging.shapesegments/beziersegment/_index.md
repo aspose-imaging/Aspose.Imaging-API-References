@@ -3,7 +3,7 @@ title: BezierSegment
 second_title: Aspose.Imaging for .NET API 参考
 description: 从一个点到下一个点并使用两个控制点的贝塞尔线段
 type: docs
-weight: 10940
+weight: 10930
 url: /zh/net/aspose.imaging.shapesegments/beziersegment/
 ---
 ## BezierSegment class
@@ -18,7 +18,7 @@ public sealed class BezierSegment : LineSegment
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BezierSegment](beziersegment)(PointF, PointF, PointF, PointF) | 初始化[`BezierSegment`](../beziersegment)类的新实例。 |
+| [BezierSegment](beziersegment)(PointF, PointF, PointF, PointF) | 初始化[`BezierSegment`](../beziersegment)类. |
 
 ## 特性
 

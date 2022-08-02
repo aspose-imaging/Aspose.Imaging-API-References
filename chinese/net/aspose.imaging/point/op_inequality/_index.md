@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: Aspose.Imaging for .NET API 参考
-description: 比较两个Pointaspose.imaging/point对象结果指定两个Xaspose.imaging/point/x或Yaspose.imaging/point/y属性的值是否为Pointaspose.imaging/point对象不相等
+description: 比较两个Pointaspose.imaging/point对象结果指定的值是否Xaspose.imaging/point/x或者Yaspose.imaging/point/y两者的属性Pointaspose.imaging/point对象不相等
 type: docs
 weight: 190
 url: /zh/net/aspose.imaging/point/op_inequality/
 ---
 ## Point Inequality operator
 
-比较两个[`Point`](../../point)对象。结果指定两个[`X`](../x)或[`Y`](../y)属性的值是否为[`Point`](../../point)对象不相等。
+比较两个[`Point`](../../point)对象。结果指定的值是否[`X`](../x)或者[`Y`](../y)两者的属性[`Point`](../../point)对象不相等。
 
 ```csharp
 public static bool operator !=(Point point1, Point point2)
@@ -16,12 +16,12 @@ public static bool operator !=(Point point1, Point point2)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| point1 | Point | 第一个[`Point`](../../point)进行比较。 |
-| point2 | Point | 第二个[`Point`](../../point)进行比较。 |
+| point1 | Point | 第一个[`Point`](../../point)比较。 |
+| point2 | Point | 一秒[`Point`](../../point)比较。 |
 
 ### 返回值
 
-如果[`X`](../x)属性或Y*point1*和*point2*的属性不同；否则为假。
+真，如果任何一个的值[`X`](../x)属性或[`Y`](../y)的属性*point1*和*point2*不同;否则为假。
 
 ### 也可以看看
 

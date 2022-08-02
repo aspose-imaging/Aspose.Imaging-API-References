@@ -1,14 +1,14 @@
 ---
 title: EyScale
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位浮点值该值指定沿 Y 轴应用的比例因子以从页面空间单位转换至 0.01 毫米单位仅当 iGraphicsMode 指定的 图形模式为 GM_COMPATIBLE 时才应使用此选项
+description: 获取或设置一个 32 位浮点值该值指定沿 Y 轴应用的比例因子以将页面空间单位转换为 0.01mm 单位仅当 iGraphicsMode 指定的 图形模式为 GM_COMPATIBLE. 时才应使用此选项
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfexttextouta/eyscale/
 ---
 ## EmfExtTextOutA.EyScale property
 
-获取或设置一个 32 位浮点值，该值指定沿 Y 轴应用的比例因子以从页面空间单位转换至 0.01 毫米单位。仅当 iGraphicsMode 指定的 图形模式为 GM_COMPATIBLE 时才应使用此选项。
+获取或设置一个 32 位浮点值，该值指定沿 Y 轴应用的比例因子，以将页面空间单位转换为 0.01mm 单位。仅当 iGraphicsMode 指定的 图形模式为 GM_COMPATIBLE. 时才应使用此选项
 
 ```csharp
 public float EyScale { get; set; }

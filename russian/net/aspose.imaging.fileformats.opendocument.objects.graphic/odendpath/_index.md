@@ -18,14 +18,14 @@ public class OdEndPath : OdGraphicObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdEndPath](odendpath)(OdObject) | Инициализирует новый экземпляр класса[`OdEndPath`](../odendpath). |
+| [OdEndPath](odendpath)(OdObject) | Инициализирует новый экземпляр[`OdEndPath`](../odendpath) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
-| [Fill](../../aspose.imaging.fileformats.opendocument.objects.graphic/odendpath/fill) { get; set; } | Получает или задает значение, указывающее, является ли это[`OdEndPath`](../odendpath)заполненным. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
+| [Fill](../../aspose.imaging.fileformats.opendocument.objects.graphic/odendpath/fill) { get; set; } | Получает или задает значение, указывающее, является ли это[`OdEndPath`](../odendpath) заполняется. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Получает родительский объект. |
 

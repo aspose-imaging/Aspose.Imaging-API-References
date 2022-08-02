@@ -1,14 +1,14 @@
 ---
 title: Intersect
 second_title: Aspose.Imaging for .NET API 参考
-description: 返回第三个Rectangleaspose.imaging/rectangle结构表示两个其他Rectangle结构如果没有交集则返回一个空的Rectangleaspose.imaging/rectangle
+description: 返回第三个Rectangleaspose.imaging/rectangle表示两个其他交集的结构Rectangleaspose.imaging/rectangle结构如果没有交叉点则为空Rectangleaspose.imaging/rectangle被退回
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging/rectangle/intersect/
 ---
 ## Intersect(Rectangle, Rectangle)
 
-返回第三个[`Rectangle`](../../rectangle)结构，表示两个其他Rectangle结构。如果没有交集，则返回一个空的[`Rectangle`](../../rectangle)。
+返回第三个[`Rectangle`](../../rectangle)表示两个其他交集的结构[`Rectangle`](../../rectangle)结构。如果没有交叉点，则为空[`Rectangle`](../../rectangle)被退回。
 
 ```csharp
 public static Rectangle Intersect(Rectangle a, Rectangle b)
@@ -16,12 +16,12 @@ public static Rectangle Intersect(Rectangle a, Rectangle b)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| a | Rectangle | 第一个要相交的矩形。 |
-| b | Rectangle | 第二个要相交的矩形。 |
+| a | Rectangle | 第一个相交的矩形。 |
+| b | Rectangle | 要相交的第二个矩形。 |
 
 ### 返回值
 
-A[`Rectangle`](../../rectangle)表示*a*和:::的交集R9:b:::。
+一个[`Rectangle`](../../rectangle)表示交集*a*和*b*.
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ A[`Rectangle`](../../rectangle)表示*a*和:::的交集R9:b:::。
 
 ## Intersect(Rectangle)
 
-将此[`Rectangle`](../../rectangle)替换为自身与指定Imaging的交集。长方形。
+替换这个[`Rectangle`](../../rectangle)与自身和指定的交集[`Rectangle`](../../rectangle) .
 
 ```csharp
 public void Intersect(Rectangle rect)
@@ -41,7 +41,7 @@ public void Intersect(Rectangle rect)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | Rectangle | [`Rectangle`](../../rectangle)与之相交。 |
+| rect | Rectangle | 这[`Rectangle`](../../rectangle)与之相交。 |
 
 ### 也可以看看
 

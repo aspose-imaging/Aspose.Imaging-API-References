@@ -1,14 +1,14 @@
 ---
 title: ToGdiColors
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Преобразует массивColoraspose.imaging/colorв массивColorмножество.
+description: ПреобразуетColoraspose.imaging/colorмассив кColor массив.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.extensions/colorextensions/togdicolors/
 ---
 ## ColorExtensions.ToGdiColors method
 
-Преобразует массив[`Color`](../../../aspose.imaging/color)в массивColorмножество.
+Преобразует[`Color`](../../../aspose.imaging/color)массив кColor массив.
 
 ```csharp
 public static Color[] ToGdiColors(Color[] colors)
@@ -16,11 +16,11 @@ public static Color[] ToGdiColors(Color[] colors)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| colors | Color[] | Массив[`Color`](../../../aspose.imaging/color)для преобразования. |
+| colors | Color[] | [`Color`](../../../aspose.imaging/color) массив для преобразования. |
 
 ### Возвращаемое значение
 
-Преобразованный массивColor.
+ПреобразованныйColor множество.
 
 ### Смотрите также
 

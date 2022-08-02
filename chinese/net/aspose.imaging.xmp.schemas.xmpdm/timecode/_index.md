@@ -3,7 +3,7 @@ title: Timecode
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示视频中的时间码值
 type: docs
-weight: 11420
+weight: 11410
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/timecode/
 ---
 ## Timecode class
@@ -18,23 +18,23 @@ public sealed class Timecode : XmpTypeBase, IEquatable<Timecode>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Timecode](timecode)(TimeFormat, string) | 初始化[`Timecode`](../timecode)类的新实例。 |
+| [Timecode](timecode)(TimeFormat, string) | 初始化[`Timecode`](../timecode)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Format](../../aspose.imaging.xmp.schemas.xmpdm/timecode/format) { get; set; } | 获取或设置[`TimeValue`](./timevalue)中使用的格式。 |
-| [TimeValue](../../aspose.imaging.xmp.schemas.xmpdm/timecode/timevalue) { get; set; } | 获取或设置指定格式的时间值。 |
+| [Format](../../aspose.imaging.xmp.schemas.xmpdm/timecode/format) { get; set; } | 获取或设置在[`TimeValue`](./timevalue) . |
+| [TimeValue](../../aspose.imaging.xmp.schemas.xmpdm/timecode/timevalue) { get; set; } | 获取或设置指定格式的时间值 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.imaging.xmp.schemas.xmpdm/timecode/equals#equals_1)(object) | 确定指定的Object是否等于此实例。 |
+| override [Equals](../../aspose.imaging.xmp.schemas.xmpdm/timecode/equals#equals_1)(object) | 判断是否指定Object 等于这个实例。 |
 | [Equals](../../aspose.imaging.xmp.schemas.xmpdm/timecode/equals#equals)(Timecode) | 表示当前对象是否等于另一个同类型的对象。 |
 | override [GetHashCode](../../aspose.imaging.xmp.schemas.xmpdm/timecode/gethashcode)() | 返回此实例的哈希码。 |
-| override [GetXmpRepresentation](../../aspose.imaging.xmp.schemas.xmpdm/timecode/getxmprepresentation)() | 以 XMP 格式返回字符串包含的值。 |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.schemas.xmpdm/timecode/getxmprepresentation)() | 以 XMP 格式返回包含值的字符串。 |
 
 ### 也可以看看
 

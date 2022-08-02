@@ -1,14 +1,14 @@
 ---
 title: DiameterY
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает диаметр для измерения Y прямоугольника. Меры в общепринятых единицах расстояния документа.
+description: Получает или задает диаметр для измерения Y прямоугольника. Измеряет в общепринятых единицах измерения расстояния документа.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/diametery/
 ---
 ## CmxEllipseSpec.DiameterY property
 
-Получает или задает диаметр для измерения Y прямоугольника. Меры в общепринятых единицах расстояния документа.
+Получает или задает диаметр для измерения Y прямоугольника. Измеряет в общепринятых единицах измерения расстояния документа.
 
 ```csharp
 public float DiameterY { get; set; }

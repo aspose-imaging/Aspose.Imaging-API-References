@@ -1,14 +1,14 @@
 ---
 title: Create
 second_title: Aspose.Imaging for .NET API 参考
-description: 使用 ltparamref nameimageOptionsgtlt/paramrefgt 创建一个新的图像实例
+description: 创建一个新的图像实例imageOptions .
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/iimagecreator/create/
 ---
 ## IImageCreator.Create method
 
-使用 &lt;paramref name="imageOptions"&gt;&lt;/paramref&gt; 创建一个新的图像实例。
+创建一个新的图像实例*imageOptions* .
 
 ```csharp
 public Image Create(StreamContainer streamContainer, ImageOptionsBase imageOptions, int width, 
@@ -17,7 +17,7 @@ public Image Create(StreamContainer streamContainer, ImageOptionsBase imageOptio
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| streamContainer | StreamContainer | 要在其中创建图像数据的流容器。 |
+| streamContainer | StreamContainer | 在其中创建图像数据的流容器。 |
 | imageOptions | ImageOptionsBase | 图像选项。 |
 | width | Int32 | 新图像的宽度 |
 | height | Int32 | 新图像的高度 |

@@ -8,7 +8,7 @@ url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsettextjustification/
 ---
 ## EmfSetTextJustification.NBreakExtra property
 
-Получает или задает 32-разрядное целое число со знаком, указывающее общий объем дополнительного пространства в логических единицах для добавления.
+Получает или задает 32-разрядное целое число со знаком, указывающее общий объем дополнительного пространства, в логических единицах, для добавления.
 
 ```csharp
 public int NBreakExtra { get; set; }

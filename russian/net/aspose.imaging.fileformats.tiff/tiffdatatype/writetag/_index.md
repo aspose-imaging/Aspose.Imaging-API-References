@@ -23,7 +23,7 @@ public void WriteTag(TiffStreamWriter dataStream, long additionalDataOffset)
 
 | исключение | условие |
 | --- | --- |
-| [ImageSaveException](../../../aspose.imaging.coreexceptions/imagesaveexception) | Невозможно записать значения для + this.TagType + Message:+ exception.Message |
+| [ImageSaveException](../../../aspose.imaging.coreexceptions/imagesaveexception) | Невозможно записать значения для + this.TagType + Message : + exception.Message |
 
 ### Смотрите также
 

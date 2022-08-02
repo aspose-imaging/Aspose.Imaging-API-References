@@ -1,14 +1,14 @@
 ---
 title: AEmrText
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект EmrText раздел 2.2.5 определяющий выходную строку в 8-разрядных символах ASCII текстовых атрибутах и значения интервалов.
+description: Получает или задает объект EmrText раздел 2.2.5 который указывает выходную строку в виде 8-битных символов ASCII текстовых атрибутов и значений интервалов.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfexttextouta/aemrtext/
 ---
 ## EmfExtTextOutA.AEmrText property
 
-Получает или задает объект EmrText (раздел 2.2.5), определяющий выходную строку в 8-разрядных символах ASCII, текстовых атрибутах и значения интервалов.
+Получает или задает объект EmrText (раздел 2.2.5), который указывает выходную строку в виде 8-битных символов ASCII, текстовых атрибутов и значений интервалов.
 
 ```csharp
 public EmfText AEmrText { get; set; }

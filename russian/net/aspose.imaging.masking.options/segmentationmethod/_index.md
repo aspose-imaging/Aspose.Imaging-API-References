@@ -3,7 +3,7 @@ title: SegmentationMethod
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Типы методов сегментации
 type: docs
-weight: 10530
+weight: 10520
 url: /ru/net/aspose.imaging.masking.options/segmentationmethod/
 ---
 ## SegmentationMethod enumeration
@@ -20,7 +20,7 @@ public enum SegmentationMethod
 | --- | --- | --- |
 | Manual | `0` | Алгоритм ручной сегментации |
 | KMeans | `1` | Алгоритм сегментации K-средних. |
-| FuzzyCMeans | `2` | Алгоритм нечеткой сегментации C-средних. |
+| FuzzyCMeans | `2` | Алгоритм сегментации нечетких C-средних. |
 | Watershed | `3` | Алгоритм сегментации водораздела. |
 | GraphCut | `4` | Алгоритм сегментации Graph Cut |
 

@@ -1,14 +1,14 @@
 ---
 title: EmfColorAdjustmentEnum
 second_title: Aspose.Imaging for .NET API 参考
-description: ColorAdjustment 枚举用于指定当拉伸模式为 HALFTONE 时应如何准备输出图像 
+description: ColorAdjustment 枚举用于指定在拉伸模式为 HALFTONE 时应如何准备输出图像 
 type: docs
 weight: 2570
 url: /zh/net/aspose.imaging.fileformats.emf.emf.consts/emfcoloradjustmentenum/
 ---
 ## EmfColorAdjustmentEnum enumeration
 
-ColorAdjustment 枚举用于指定当拉伸模式为 HALFTONE 时应如何准备输出图像 。
+ColorAdjustment 枚举用于指定在拉伸模式为 HALFTONE 时应如何准备输出图像 。
 
 ```csharp
 public enum EmfColorAdjustmentEnum
@@ -19,7 +19,7 @@ public enum EmfColorAdjustmentEnum
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | CA_NEGATIVE | `1` | 指定应该显示原始图像的负片。 |
-| CA_LOG_FILTER | `2` | The 指定对数过程应该应用于最终的 输出颜色的密度。这将在亮度较低时增加颜色对比度 |
+| CA_LOG_FILTER | `2` | 指定对数过程应该应用于输出颜色的最终 密度。这将增加亮度低时的颜色对比度 |
 
 ### 也可以看看
 

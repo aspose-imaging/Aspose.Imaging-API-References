@@ -19,8 +19,8 @@ public enum EmfPointEnum : byte
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| PT_CLOSEFIGURE | `1` | PT_LINETO 或 PT_BEZIERTO 类型可以与此值组合使用按位 运算符 OR 表示对应点是最后一个点一个图 并且该图已关闭 |
-| PT_LINETO | `2` | 指定从当前位置到该点绘制一条线 然后成为新的当前位置 |
+| PT_CLOSEFIGURE | `1` | PT_LINETO 或 PT_BEZIERTO 类型可以通过按位 运算符与此值组合或表示对应的点是图形中的最后一个点 并且图形是封闭的 |
+| PT_LINETO | `2` | 指定从当前位置到该点绘制一条线， 然后成为新的当前位置 |
 | PT_BEZIERTO | `4` | 指定该点是贝塞尔曲线的控制点或终点。 |
 | PT_MOVETO | `6` | 指定此点开始一个不相交的图形。该点成为新的当前位置。 |
 

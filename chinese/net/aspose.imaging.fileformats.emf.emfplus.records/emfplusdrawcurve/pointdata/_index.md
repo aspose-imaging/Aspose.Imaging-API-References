@@ -1,14 +1,14 @@
 ---
 title: PointData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 32 位有符号整数或 32 位浮点数的数组 定义坐标值的计数长度要描边的线的端点
+description: 获取或设置 32 位有符号整数或 32 位浮点数的数组 定义要描边的线端点的坐标值的计数长度
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawcurve/pointdata/
 ---
 ## EmfPlusDrawCurve.PointData property
 
-获取或设置 32 位有符号整数或 32 位浮点数的数组 定义坐标值的计数长度要描边的线的端点。
+获取或设置 32 位有符号整数或 32 位浮点数的数组 定义要描边的线端点的坐标值的计数长度。
 
 ```csharp
 public PointF[] PointData { get; set; }

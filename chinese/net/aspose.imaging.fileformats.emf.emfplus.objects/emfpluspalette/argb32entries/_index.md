@@ -16,7 +16,7 @@ public int[] Argb32Entries { get; set; }
 
 ### 适当的价值
 
-PaletteEntries（变量）:PaletteCount 32 位 ARGB 对象的数组，用于指定 调色板。
+PaletteEntries（变量）：PaletteCount 32 位 ARGB 对象的数组，用于指定 调色板中的数据。
 
 ### 也可以看看
 

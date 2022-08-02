@@ -1,14 +1,14 @@
 ---
 title: CapsTypes
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Типы шапок для строки.
+description: Типы шапок для линейки.
 type: docs
 weight: 2000
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.enums/capstypes/
 ---
 ## CapsTypes enumeration
 
-Типы шапок для строки.
+Типы шапок для линейки.
 
 ```csharp
 public enum CapsTypes

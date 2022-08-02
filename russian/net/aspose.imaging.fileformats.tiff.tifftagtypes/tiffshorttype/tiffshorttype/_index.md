@@ -1,14 +1,14 @@
 ---
 title: TiffShortType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTiffShortTypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffshorttype.
+description: Инициализирует новый экземплярTiffShortTypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffshorttype класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffshorttype/tiffshorttype/
 ---
 ## TiffShortType(TiffTags) {#constructor}
 
-Инициализирует новый экземпляр класса[`TiffShortType`](../../tiffshorttype).
+Инициализирует новый экземпляр[`TiffShortType`](../../tiffshorttype) класс.
 
 ```csharp
 public TiffShortType(TiffTags tagId)
@@ -29,7 +29,7 @@ public TiffShortType(TiffTags tagId)
 
 ## TiffShortType(ushort) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TiffShortType`](../../tiffshorttype).
+Инициализирует новый экземпляр[`TiffShortType`](../../tiffshorttype) класс.
 
 ```csharp
 public TiffShortType(ushort tagId)

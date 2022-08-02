@@ -1,14 +1,14 @@
 ---
 title: Tension
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置张力 一个 32 位浮点值指定样条曲线通过时的弯曲程度 通过点值 0.0 指定样条曲线是直线 线的序列随着值的增加曲线变得更加圆润更多信息 参见 SPLINE77 和 PETZOLD
+description: 获取或设置张力 一个 32 位浮点值用于指定样条曲线在通过 点时弯曲的紧密程度值 0.0 指定样条是一系列直线 线随着值的增加曲线变得更加圆润有关详细信息 请参阅 SPLINE77 和 PETZOLD
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve/tension/
 ---
 ## EmfPlusFillClosedCurve.Tension property
 
-获取或设置张力 一个 32 位浮点值，指定样条曲线通过时的弯曲程度 通过点。值 0.0 指定样条曲线是直线 线的序列。随着值的增加，曲线变得更加圆润。更多信息， 参见 [SPLINE77] 和 [PETZOLD]。
+获取或设置张力 一个 32 位浮点值，用于指定样条曲线在通过 点时弯曲的紧密程度。值 0.0 指定样条是一系列直线 线。随着值的增加，曲线变得更加圆润。有关详细信息， 请参阅 [SPLINE77] 和 [PETZOLD]。
 
 ```csharp
 public float Tension { get; set; }

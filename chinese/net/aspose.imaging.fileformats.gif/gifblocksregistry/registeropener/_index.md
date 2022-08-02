@@ -16,7 +16,7 @@ public static void RegisterOpener(IGifBlockLoaderDescriptor openerDescriptor)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| openerDescriptor | IGifBlockLoaderDescriptor | 要注册的开启器描述符。 |
+| openerDescriptor | IGifBlockLoaderDescriptor | 要注册的开启者描述符。 |
 
 ### 也可以看看
 

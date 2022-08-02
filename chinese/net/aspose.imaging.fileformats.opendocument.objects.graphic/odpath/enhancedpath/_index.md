@@ -16,7 +16,7 @@ public OdGraphicObject[] EnhancedPath { get; set; }
 
 ### 适当的价值
 
-增强路径。
+增强路径.
 
 ### 也可以看看
 

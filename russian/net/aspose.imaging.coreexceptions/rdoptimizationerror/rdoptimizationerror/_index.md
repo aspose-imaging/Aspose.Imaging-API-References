@@ -1,14 +1,14 @@
 ---
 title: RdOptimizationError
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаRdOptimizationErroraspose.imaging.coreexceptions/rdoptimizationerror.
+description: Инициализирует новый экземплярRdOptimizationErroraspose.imaging.coreexceptions/rdoptimizationerror класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions/rdoptimizationerror/rdoptimizationerror/
 ---
 ## RdOptimizationError constructor
 
-Инициализирует новый экземпляр класса[`RdOptimizationError`](../../rdoptimizationerror).
+Инициализирует новый экземпляр[`RdOptimizationError`](../../rdoptimizationerror) класс.
 
 ```csharp
 public RdOptimizationError(string message)

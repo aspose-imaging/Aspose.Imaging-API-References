@@ -1,14 +1,14 @@
 ---
 title: IsPartialLoaded
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取指示此实例是否部分加载的值
+description: 获取一个值该值指示此实例是否部分加载
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/ispartialloaded/
 ---
 ## DeconvolutionFilterOptions.IsPartialLoaded property
 
-获取指示此实例是否部分加载的值。
+获取一个值，该值指示此实例是否部分加载。
 
 ```csharp
 public bool IsPartialLoaded { get; }
@@ -16,7 +16,7 @@ public bool IsPartialLoaded { get; }
 
 ### 适当的价值
 
-` true` 如果此实例是部分加载的；否则，` false` 。
+`真的`如果这个实例是部分加载的；否则，`错误的` .
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: EmfPolyline16
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_POLYLINE16 задает ряд отрезков соединяющих точки в указанном массиве .
+description: Запись EMR_POLYLINE16 задает серию сегментов линии соединяя точки в указанном массиве .
 type: docs
 weight: 4110
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpolyline16/
 ---
 ## EmfPolyline16 class
 
-Запись EMR_POLYLINE16 задает ряд отрезков, соединяющих точки в указанном массиве .
+Запись EMR_POLYLINE16 задает серию сегментов линии, соединяя точки в указанном массиве .
 
 ```csharp
 public sealed class EmfPolyline16 : EmfDrawingRecordType
@@ -18,16 +18,16 @@ public sealed class EmfPolyline16 : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPolyline16](emfpolyline16#constructor)() | Инициализирует новый экземпляр класса[`EmfPolyline16`](../emfpolyline16). |
-| [EmfPolyline16](emfpolyline16#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfPolyline16`](../emfpolyline16). |
+| [EmfPolyline16](emfpolyline16#constructor)() | Инициализирует новый экземпляр[`EmfPolyline16`](../emfpolyline16) класс. |
+| [EmfPolyline16](emfpolyline16#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfPolyline16`](../emfpolyline16) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolyline16/apoints) { get; set; } | Получает или задает массив длины счетчика объектов WMF PointS, указанный в [MS-WMF] раздел 2.2.2.16, который определяет массив точек. |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolyline16/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе [MS-WMF] 2.2.2.19, который указывает ограничивающий прямоугольник , в единицах устройства. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolyline16/apoints) { get; set; } | Получает или задает массив Count длины объектов WMF PointS, указанный в [MS-WMF] , раздел 2.2.2.16, который определяет массив точек. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolyline16/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе 2.2.2.19 [MS-WMF], , который определяет ограничивающий прямоугольник в единицах измерения устройства. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: HasColorMap
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее имеет ли это изображение карту цветов.
+description: Получает значение указывающее имеет ли это изображение цветовую карту.
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging.fileformats.tga/tgaimage/hascolormap/
 ---
 ## TgaImage.HasColorMap property
 
-Получает значение, указывающее, имеет ли это изображение карту цветов.
+Получает значение, указывающее, имеет ли это изображение цветовую карту.
 
 ```csharp
 public bool HasColorMap { get; }
@@ -16,7 +16,7 @@ public bool HasColorMap { get; }
 
 ### Примеры
 
-Получение значений публичных свойств загруженного TGA-изображения.
+Получение значений публичных свойств загруженного изображения TGA.
 
 ```csharp
 [C#]

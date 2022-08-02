@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Очистить всеXmpPackageaspose.imaging.xmp/xmppackageвнутри коллекции.
+description: Очистить всеXmpPackageaspose.imaging.xmp/xmppackage внутри коллекции.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.xmp/xmppackagebasecollection/clear/
 ---
 ## XmpPackageBaseCollection.Clear method
 
-Очистить все[`XmpPackage`](../../xmppackage)внутри коллекции.
+Очистить все[`XmpPackage`](../../xmppackage) внутри коллекции.
 
 ```csharp
 public void Clear()

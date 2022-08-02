@@ -18,17 +18,17 @@ public sealed class EmfPolyDraw : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPolyDraw](emfpolydraw#constructor)() | Инициализирует новый экземпляр класса[`EmfPolyDraw`](../emfpolydraw). |
-| [EmfPolyDraw](emfpolydraw#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfPolyDraw`](../emfpolydraw). |
+| [EmfPolyDraw](emfpolydraw#constructor)() | Инициализирует новый экземпляр[`EmfPolyDraw`](../emfpolydraw) класс. |
+| [EmfPolyDraw](emfpolydraw#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfPolyDraw`](../emfpolydraw) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbTypes](../../aspose.imaging.fileformats.emf.emf.records/emfpolydraw/abtypes) { get; set; } | Получает или задает массив байтовых значений длины счетчика, который указывает, как используется каждая точка в Получает или задает массив aPoints. Это значение ДОЛЖНО быть в перечислении Point (раздел 2.1.26). |
-| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolydraw/apoints) { get; set; } | Получает или задает массив длины счетчика объектов WMF PointL, указанный в [MS-WMF] раздел 2.2.2.15, который определяет массив баллов в логических единицах. |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolydraw/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе [MS-WMF] 2.2.2.19, который указывает ограничивающий прямоугольник , в единицах устройства. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [AbTypes](../../aspose.imaging.fileformats.emf.emf.records/emfpolydraw/abtypes) { get; set; } | Получает или задает массив байтовых значений Count length, который указывает, как используется каждая точка в массиве Получает или задает aPoints. Это значение ДОЛЖНО быть в перечислении Point (раздел 2.1.26). |
+| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolydraw/apoints) { get; set; } | Получает или задает массив длин объектов WMF PointL, указанный в [MS-WMF] , раздел 2.2.2.15, который определяет массив точек в логических единицах. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolydraw/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе 2.2.2.19 [MS-WMF], , который определяет ограничивающий прямоугольник в единицах измерения устройства. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

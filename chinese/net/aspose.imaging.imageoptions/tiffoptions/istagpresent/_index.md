@@ -20,7 +20,7 @@ public bool IsTagPresent(TiffTags tag)
 
 ### 返回值
 
-` true` 如果标签存在；否则，` false` 。
+`真的`如果标签存在；否则，`错误的` .
 
 ### 也可以看看
 

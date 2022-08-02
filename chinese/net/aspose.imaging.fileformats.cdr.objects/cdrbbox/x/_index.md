@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取 x
+description: 获取 x.
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrbbox/x/
 ---
 ## CdrBbox.X property
 
-获取 x。
+获取 x.
 
 ```csharp
 public double X { get; }
@@ -16,7 +16,7 @@ public double X { get; }
 
 ### 适当的价值
 
-x。
+x.
 
 ### 也可以看看
 

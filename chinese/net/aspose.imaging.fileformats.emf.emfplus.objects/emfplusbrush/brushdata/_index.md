@@ -1,14 +1,14 @@
 ---
 title: BrushData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置画笔数据 定义类型字段中指定的画笔对象的可变长度数据 每种画笔类型的数据内容和格式可能不同 EmfPlusHatchBrushData第 2.2.2.20 节完成 EmfPlusLinearGradientBrushData 对象第 2.2.2.24 节完成 EmfPlusPathGradientBrushData 对象第 2.2.2.29 节 完成 EmfPlusSolidBrushData 对象 第 2.2.2.43 节 完成 EmfPlusTextureBrushData 对象 第 2.2.2.45 节 完成
+description: 获取或设置画笔数据 定义Type字段中指定的画笔对象的可变长度数据 每种画笔类型的数据内容和格式可以不同 EmfPlusHatchBrushData第2.2.2.20节完成 EmfPlusLinearGradientBrushData 对象第 2.2.2.24 节完成 EmfPlusPathGradientBrushData 对象第 2.2.2.29 节完成 EmfPlusSolidBrushData 对象第 2.2.2.43 节完成 EmfPlusTextureBrushData 对象第 2.2.2.45 节完成_x
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrush/brushdata/
 ---
 ## EmfPlusBrush.BrushData property
 
-获取或设置画笔数据 定义类型字段中指定的画笔对象的可变长度数据。 每种画笔类型的数据内容和格式可能不同。 EmfPlusHatchBrushData（第 2.2.2.20 节）（完成） EmfPlusLinearGradientBrushData 对象（第 2.2.2.24 节）（完成） EmfPlusPathGradientBrushData 对象（第 2.2.2.29 节） (完成) EmfPlusSolidBrushData 对象 (第 2.2.2.43 节) (完成) EmfPlusTextureBrushData 对象 (第 2.2.2.45 节) (完成)
+获取或设置画笔数据 定义Type字段中指定的画笔对象的可变长度数据。 每种画笔类型的数据内容和格式可以不同。 EmfPlusHatchBrushData（第2.2.2.20节）（完成） EmfPlusLinearGradientBrushData 对象（第 2.2.2.24 节）（完成） EmfPlusPathGradientBrushData 对象（第 2.2.2.29 节）（完成） EmfPlusSolidBrushData 对象（第 2.2.2.43 节）（完成） EmfPlusTextureBrushData 对象（第 2.2.2.45 节）（完成）_x
 
 ```csharp
 public EmfPlusBaseBrushData BrushData { get; set; }
@@ -16,7 +16,7 @@ public EmfPlusBaseBrushData BrushData { get; set; }
 
 ### 适当的价值
 
-画笔数据。
+刷机数据.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: CSType
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 DIB 的色彩空间
+description: 获取或设置DIB的色彩空间
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.bmp/bitmapv4header/cstype/
 ---
 ## BitmapV4Header.CSType property
 
-获取或设置 DIB 的色彩空间。
+获取或设置DIB的色彩空间。
 
 ```csharp
 public int CSType { get; set; }

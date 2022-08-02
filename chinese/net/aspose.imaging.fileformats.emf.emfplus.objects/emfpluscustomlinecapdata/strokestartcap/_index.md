@@ -1,14 +1,14 @@
 ---
 title: StrokeStartCap
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 32 位无符号整数该整数指定 LineCap 枚举中的值该值指示行首使用的 行上限待绘制
+description: 获取或设置 32 位无符号整数该整数指定 LineCap 枚举中的值该值指示 在要绘制的行的开头使用的行上限
 type: docs
 weight: 110
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokestartcap/
 ---
 ## EmfPlusCustomLineCapData.StrokeStartCap property
 
-获取或设置 32 位无符号整数，该整数指定 LineCap 枚举中的值，该值指示行首使用的 行上限待绘制
+获取或设置 32 位无符号整数，该整数指定 LineCap 枚举中的值，该值指示 在要绘制的行的开头使用的行上限
 
 ```csharp
 public int StrokeStartCap { get; set; }

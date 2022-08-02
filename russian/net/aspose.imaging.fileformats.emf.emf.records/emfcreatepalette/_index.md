@@ -18,15 +18,15 @@ public sealed class EmfCreatePalette : EmfObjectCreationRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfCreatePalette](emfcreatepalette)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfCreatePalette`](../emfcreatepalette). |
+| [EmfCreatePalette](emfcreatepalette)(EmfRecord) | Инициализирует новый экземпляр[`EmfCreatePalette`](../emfcreatepalette) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [IhPal](../../aspose.imaging.fileformats.emf.emf.records/emfcreatepalette/ihpal) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс объекта логической палитры в таблице объектов EMF (раздел 3.1.1.1 ). Этот индекс ДОЛЖЕН быть сохранен, чтобы этот объект можно было повторно использовать или модифицировать. |
-| [LogPalette](../../aspose.imaging.fileformats.emf.emf.records/emfcreatepalette/logpalette) { get; set; } | Получает или задает объект LogPalette (раздел 2.2.17). Поле версии этого объекта ДОЛЖНО быть установлено на 0x0300. Если значение NumberOfEntries в этом объекте равно нулю, обработка этой записи ДОЛЖНА завершиться ошибкой. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [IhPal](../../aspose.imaging.fileformats.emf.emf.records/emfcreatepalette/ihpal) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс логической палитры object в таблице объектов EMF (раздел 3.1.1.1). Этот индекс ДОЛЖЕН быть сохранен, чтобы этот объект можно было повторно использовать или модифицировать. |
+| [LogPalette](../../aspose.imaging.fileformats.emf.emf.records/emfcreatepalette/logpalette) { get; set; } | Получает или задает объект LogPalette (раздел 2.2.17). Поле версии этого object ДОЛЖНО быть установлено на 0x0300. Если значение NumberOfEntries в этом объекте равно нулю, обработка этой записи ДОЛЖНА завершиться ошибкой. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

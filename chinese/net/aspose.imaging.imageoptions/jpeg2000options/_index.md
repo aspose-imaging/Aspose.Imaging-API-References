@@ -3,7 +3,7 @@ title: Jpeg2000Options
 second_title: Aspose.Imaging for .NET API 参考
 description: Jpeg2000 文件格式选项
 type: docs
-weight: 10030
+weight: 10020
 url: /zh/net/aspose.imaging.imageoptions/jpeg2000options/
 ---
 ## Jpeg2000Options class
@@ -18,20 +18,20 @@ public class Jpeg2000Options : ImageOptionsBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Jpeg2000Options](jpeg2000options#constructor)() | 初始化[`Jpeg2000Options`](../jpeg2000options)类的新实例。 |
-| [Jpeg2000Options](jpeg2000options#constructor_1)(Jpeg2000Options) | 初始化[`Jpeg2000Options`](../jpeg2000options)类的新实例。 |
+| [Jpeg2000Options](jpeg2000options#constructor)() | 初始化[`Jpeg2000Options`](../jpeg2000options)类. |
+| [Jpeg2000Options](jpeg2000options#constructor_1)(Jpeg2000Options) | 初始化[`Jpeg2000Options`](../jpeg2000options)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | 获取或设置缓冲区大小提示，该提示定义了所有内部缓冲区的最大允许大小。 |
-| [Codec](../../aspose.imaging.imageoptions/jpeg2000options/codec) { get; set; } | 获取或设置 JPEG2000 编解码器 |
+| [Codec](../../aspose.imaging.imageoptions/jpeg2000options/codec) { get; set; } | 获取或设置JPEG2000编解码器 |
 | [Comments](../../aspose.imaging.imageoptions/jpeg2000options/comments) { get; set; } | 获取或设置 Jpeg 注释标记。 |
-| [CompressionRatios](../../aspose.imaging.imageoptions/jpeg2000options/compressionratios) { get; set; } | 获取或设置压缩比数组。 连续层的不同压缩比。 为每个质量级别指定的速率是所需的 压缩系数。 需要降低比率。 |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示该实例是否被释放。 |
-| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | 获取或设置一个值，指示是否[全帧]。 |
-| [Irreversible](../../aspose.imaging.imageoptions/jpeg2000options/irreversible) { get; set; } | 获取或设置一个值，该值指示是使用不可逆 DWT 9-7（真）还是使用无损 DWT 5-3 压缩（默认）。 |
+| [CompressionRatios](../../aspose.imaging.imageoptions/jpeg2000options/compressionratios) { get; set; } | 获取或设置压缩比数组。 连续层的不同压缩比。 为每个质量级别指定的速率是期望的 压缩因子。 需要降低比。 |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示此实例是否被释放。 |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | 获取或设置一个值，指示是否[全帧]. |
+| [Irreversible](../../aspose.imaging.imageoptions/jpeg2000options/irreversible) { get; set; } | 获取或设置一个值，该值指示是使用不可逆的 DWT 9-7（真）还是使用无损 DWT 5-3 压缩（默认）。 |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | 多页选项 |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | 获取或设置调色板。 |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | 获取或设置进度事件处理程序。 |
@@ -45,7 +45,7 @@ public class Jpeg2000Options : ImageOptionsBase
 | 姓名 | 描述 |
 | --- | --- |
 | virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | 克隆此实例。 |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 释放当前实例。 |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 处理当前实例。 |
 
 ### 例子
 

@@ -1,14 +1,14 @@
 ---
 title: ToGdiStringFormat
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПреобразуетStringFormataspose.imaging/stringformatвStringFormat.
+description: ПреобразуетStringFormataspose.imaging/stringformat кStringFormat .
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.extensions/stringformatextensions/togdistringformat/
 ---
 ## StringFormatExtensions.ToGdiStringFormat method
 
-Преобразует[`StringFormat`](../../../aspose.imaging/stringformat)вStringFormat.
+Преобразует[`StringFormat`](../../../aspose.imaging/stringformat) кStringFormat .
 
 ```csharp
 public static StringFormat ToGdiStringFormat(StringFormat stringFormat)
@@ -16,7 +16,7 @@ public static StringFormat ToGdiStringFormat(StringFormat stringFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stringFormat | StringFormat | [`StringFormat`](../../../aspose.imaging/stringformat)для преобразования. |
+| stringFormat | StringFormat | [`StringFormat`](../../../aspose.imaging/stringformat) конвертировать. |
 
 ### Возвращаемое значение
 

@@ -1,14 +1,14 @@
 ---
 title: CieCoordinatesZ
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置坐标 z
+description: 获取或设置坐标z.
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.bmp.structures/ciecoordinates/ciecoordinatesz/
 ---
 ## CieCoordinates.CieCoordinatesZ property
 
-获取或设置坐标 z。
+获取或设置坐标z.
 
 ```csharp
 public long CieCoordinatesZ { get; set; }
@@ -16,7 +16,7 @@ public long CieCoordinatesZ { get; set; }
 
 ### 适当的价值
 
-坐标 z。
+坐标 z.
 
 ### 也可以看看
 

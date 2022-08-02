@@ -1,14 +1,14 @@
 ---
 title: DateTimeStamp
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置日期/时间戳 此字段定义图像保存的日期和时间值 尽管操作系统通常是时间戳和日期戳文件但提供此功能是 因为如果文件是47操作系统可能会更改时间和日期戳复制通过使用此区域您可以保证在日期和时间 记录中使用未修改的区域
+description: 获取或设置日期/时间戳 此字段定义保存图像的日期和时间的值 尽管操作系统通常使用时间戳和日期戳文件但 提供了此功能因为如果文件被 复制操作系统可能会更改时间和日期戳通过使用此区域您可以保证日期和时间的未修改区域 recording.
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.tga/tgaimage/datetimestamp/
 ---
 ## TgaImage.DateTimeStamp property
 
-获取或设置日期/时间戳。 此字段定义图像保存的日期和时间值。 尽管操作系统通常是时间戳和日期戳文件，但提供此功能是 因为如果文件是:::47，操作系统可能会更改时间和日期戳:::复制。通过使用此区域，您可以保证在日期和时间 记录中使用未修改的区域。
+获取或设置日期/时间戳。 此字段定义保存图像的日期和时间的值。 尽管操作系统通常使用时间戳和日期戳文件，但 提供了此功能，因为如果文件被 复制，操作系统可能会更改时间和日期戳。通过使用此区域，您可以保证日期和时间的未修改区域 recording.
 
 ```csharp
 public DateTime? DateTimeStamp { get; set; }
@@ -16,40 +16,32 @@ public DateTime? DateTimeStamp { get; set; }
 
 ### 例子
 
-更新加载的 TGA 图像的公共属性。
+更新加载的 TGA 映像的公共属性。
 
 ```csharp
 [C#]
 
 using (TgaImage image = (TgaImage)Image.Load("test.tga"))
 {
-    dateTimeStamp = image.DateTimeStamp;
-    authorName = image.AuthorName;
-    authorComments = image.AuthorComments;
-    imageId = image.ImageId;
-    jobNameOrId = image.JobNameOrId;
-    jobTime = image.JobTime;
-    keyColor = image.TransparentColor;
-    softwareId = image.SoftwareId;
-    softwareVersion = image.SoftwareVersion;
-    softwareVersionLetter = image.SoftwareVersionLetter;
-    softwareVersionNumber = image.SoftwareVersionNumber;
-    xOrigin = image.XOrigin;
-    yOrigin = image.YOrigin;
-    gammaValueDenominator = image.GammaValueDenominator;
-    gammaValueNumerator = image.GammaValueNumerator;
-    hasAlphaChannel = image.HasAlpha;
-    hasColorMap = image.HasColorMap;
-    height = image.Height;
-    isGrayScale = image.IsGrayScale;
-    pixelAspectRatioDenominator = image.PixelAspectRatioDenominator;
-    pixelAspectRatioNumerator = image.PixelAspectRatioNumerator;
-    size = image.Size;
-    width = image.Width;
+    image.DateTimeStamp = testTime;
+    image.AuthorName = "John Smith";
+    image.AuthorComments = "Comment";
+    image.ImageId = "ImageId";
+    image.JobNameOrId = "Important Job";
+    image.JobTime = TimeSpan.FromDays(10);
+    image.TransparentColor = Color.FromArgb(123);
+    image.SoftwareId = "SoftwareId";
+    image.SoftwareVersion = "abc1";
+    image.SoftwareVersionLetter = 'a';
+    image.SoftwareVersionNumber = 2;
+    image.XOrigin = 1000;
+    image.YOrigin = 1000;
+
+    image.Save("test.tga")
 }
 ```
 
-获取已加载 TGA 图像的公共属性值。
+获取加载的 TGA 图像的公共属性的值。
 
 ```csharp
 [C#]

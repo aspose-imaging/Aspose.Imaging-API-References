@@ -1,14 +1,14 @@
 ---
 title: EmfMetafileHeaderExtension2
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EmfMetafileHeaderExtension2  это запись заголовка используемая во втором расширении метафайлов EMF . После поля EmfHeaderExtension2 остальные поля являются необязательными и могут присутствовать в любом порядке.
+description: Запись EmfMetafileHeaderExtension2  это запись заголовка используемая во втором расширении для метафайлов EMF . После поля EmfHeaderExtension2 остальные поля являются необязательными и могут присутствовать в любом порядке.
 type: docs
 weight: 3830
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension2/
 ---
 ## EmfMetafileHeaderExtension2 class
 
-Запись EmfMetafileHeaderExtension2 — это запись заголовка, используемая во втором расширении метафайлов EMF . После поля EmfHeaderExtension2 остальные поля являются необязательными и могут присутствовать в любом порядке.
+Запись EmfMetafileHeaderExtension2 — это запись заголовка, используемая во втором расширении для метафайлов EMF . После поля EmfHeaderExtension2 остальные поля являются необязательными и могут присутствовать в любом порядке.
 
 ```csharp
 public sealed class EmfMetafileHeaderExtension2 : EmfMetafileHeaderExtension1
@@ -18,21 +18,21 @@ public sealed class EmfMetafileHeaderExtension2 : EmfMetafileHeaderExtension1
 
 | Имя | Описание |
 | --- | --- |
-| [EmfMetafileHeaderExtension2](emfmetafileheaderextension2#constructor)(EmfMetafileHeaderExtension1) | Инициализирует новый экземпляр класса[`EmfMetafileHeaderExtension2`](../emfmetafileheaderextension2). |
-| [EmfMetafileHeaderExtension2](emfmetafileheaderextension2#constructor_1)(EmfMetafileHeaderExtension2) | Инициализирует новый экземпляр класса[`EmfMetafileHeaderExtension2`](../emfmetafileheaderextension2). |
+| [EmfMetafileHeaderExtension2](emfmetafileheaderextension2#constructor)(EmfMetafileHeaderExtension1) | Инициализирует новый экземпляр[`EmfMetafileHeaderExtension2`](../emfmetafileheaderextension2) класс. |
+| [EmfMetafileHeaderExtension2](emfmetafileheaderextension2#constructor_1)(EmfMetafileHeaderExtension2) | Инициализирует новый экземпляр[`EmfMetafileHeaderExtension2`](../emfmetafileheaderextension2) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [EmfDescription](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfdescription) { get; set; } | Получает или задает описание EMF Необязательная строка Unicode UTF16-LE с нулевым символом в конце произвольной длины и содержимого. Его расположение в записи и количество символов задаются полями offDescription и nDescription соответственно в EmfHeader. Если значение любого из полей равно нулю, строка описания отсутствует. |
-| [EmfDescriptionBuffer](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfdescriptionbuffer) { get; set; } | Получает или задает буфер описания EMF Необязательный массив байтов, содержащий строку описания EMF, которая имеет вид не требуется, чтобы он был непрерывным с фиксированной частью записи EmfMetafileHeader . Соответственно, поле в этом буфере, помеченное как "UndefinedSpace" , является необязательным и ДОЛЖНО игнорироваться. |
-| [EmfHeader](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfheader) { get; set; } | Получает или задает объект Header (раздел 2.2.9), который содержит информацию о содержимом и структуре метафайла |
+| [EmfDescription](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfdescription) { get; set; } | Получает или задает описание EMF Необязательная строка Unicode UTF16-LE с нулем в конце произвольной длины и содержимого. Его расположение в записи и количество символов задаются полями offDescription и nDescription соответственно в EmfHeader. Если значение любого из полей равно нулю, строка описания отсутствует. |
+| [EmfDescriptionBuffer](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfdescriptionbuffer) { get; set; } | Получает или задает описание EMF buffer Необязательный массив байтов, содержащий строку описания EMF, которая не обязательно должна быть непрерывной с фиксированной частью записи EmfMetafileHeader . Соответственно, поле в этом буфере с пометкой «UndefinedSpace» является необязательным и ДОЛЖНО игнорироваться. |
+| [EmfHeader](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfheader) { get; set; } | Получает или задает объект заголовка (раздел 2.2.9), который содержит информацию о content и структуре метафайла |
 | [EmfHeaderExtension1](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension1/emfheaderextension1) { get; set; } | Получает или задает объект HeaderExtension1, который указывает дополнительную информацию об изображении в метафайле. |
 | [EmfHeaderExtension2](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension2/emfheaderextension2) { get; set; } | Получает или задает объект HeaderExtension2, который указывает дополнительную информацию об изображении в метафайле |
-| [EmfHeaderRecordBuffer](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfheaderrecordbuffer) { get; set; } | Получает или задает необязательный массив байтов, содержащий остаток записи заголовка EMF. Размер этого поля ДОЛЖЕН быть кратен 4 байтам |
-| [EmfPixelFormatBuffer](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension1/emfpixelformatbuffer) { get; set; } | Получает или задает необязательный массив байтов, содержащий дескриптор формата пикселя EMF, который не требуется, чтобы был непрерывным с фиксированной частью запись EmfMetafileHeaderExtension1 или строку описания EMF . Соответственно, поле в этом буфере с пометкой «UndefinedSpace» является необязательным и ДОЛЖНО игнорироваться |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [EmfHeaderRecordBuffer](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfheaderrecordbuffer) { get; set; } | Получает или задает необязательный массив байтов, содержащий оставшуюся часть записи заголовка EMF. Размер этого поля ДОЛЖЕН быть кратен 4 байтам |
+| [EmfPixelFormatBuffer](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension1/emfpixelformatbuffer) { get; set; } | Получает или задает необязательный массив байтов, содержащий дескриптор пиксельного формата EMF, который не требуется, чтобы был непрерывным с фиксированной частью записи EmfMetafileHeaderExtension1 или со строкой описания EMF . Соответственно, поле в этом буфере с пометкой «UndefinedSpace» является необязательным и ДОЛЖНО быть проигнорировано |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

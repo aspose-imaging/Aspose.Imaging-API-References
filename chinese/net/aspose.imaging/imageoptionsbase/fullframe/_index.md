@@ -1,14 +1,14 @@
 ---
 title: FullFrame
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值指示是否全帧
+description: 获取或设置一个值指示是否全帧.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging/imageoptionsbase/fullframe/
 ---
 ## ImageOptionsBase.FullFrame property
 
-获取或设置一个值，指示是否[全帧]。
+获取或设置一个值，指示是否[全帧].
 
 ```csharp
 public bool FullFrame { get; set; }
@@ -16,7 +16,7 @@ public bool FullFrame { get; set; }
 
 ### 适当的价值
 
-` true` if [full frame];否则，` false` 。
+`真的`如果 [全画幅];否则，`错误的` .
 
 ### 也可以看看
 

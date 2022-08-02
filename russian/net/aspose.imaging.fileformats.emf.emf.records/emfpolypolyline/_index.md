@@ -18,21 +18,21 @@ public sealed class EmfPolyPolyline : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPolyPolyline](emfpolypolyline#constructor)() | Инициализирует новый экземпляр класса[`EmfPolyPolyline`](../emfpolypolyline). |
-| [EmfPolyPolyline](emfpolypolyline#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfPolyPolyline`](../emfpolypolyline). |
+| [EmfPolyPolyline](emfpolypolyline#constructor)() | Инициализирует новый экземпляр[`EmfPolyPolyline`](../emfpolypolyline) класс. |
+| [EmfPolyPolyline](emfpolypolyline#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfPolyPolyline`](../emfpolypolyline) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolyline/apoints) { get; set; } | Получает или задает массив Count-length объектов WMF PointL ([MS-WMF], раздел 2.2.2.15) которые определяют данные точки , в логических единицах. |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolyline/bounds) { get; set; } | Получает или задает 128-битный объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который указывает ограничивающий прямоугольник в устройстве единицы. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolyline/apoints) { get; set; } | Получает или задает массив Count-length объектов WMF PointL ([MS-WMF], раздел 2.2.2.15) , которые определяют данные точки в логических единицах. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolyline/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF ([MS-WMF], раздел 2.2.2.19), который указывает ограничивающий прямоугольник в единицах измерения устройства. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Примечания
 
-Сегменты линий СЛЕДУЕТ рисовать текущим пером. Цифры, образованные сегментами НЕ ДОЛЖНЫ заполняться. Текущая позиция НЕ ДОЛЖНА использоваться или обновляться этой записью.
+Сегменты линий ДОЛЖНЫ быть нарисованы текущим пером. Цифры, образованные сегментами , НЕ ДОЛЖНЫ заполняться. Текущая позиция НЕ ДОЛЖНА использоваться или обновляться этой записью.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: FileOpenSource
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化FileOpenSourceaspose.imaging.sources/fileopensource类的新实例
+description: 初始化FileOpenSourceaspose.imaging.sources/fileopensource类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.sources/fileopensource/fileopensource/
 ---
 ## FileOpenSource constructor
 
-初始化[`FileOpenSource`](../../fileopensource)类的新实例。
+初始化[`FileOpenSource`](../../fileopensource)类.
 
 ```csharp
 public FileOpenSource(string filePath)

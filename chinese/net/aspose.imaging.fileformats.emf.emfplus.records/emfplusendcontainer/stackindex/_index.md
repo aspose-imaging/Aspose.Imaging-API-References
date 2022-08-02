@@ -1,14 +1,14 @@
 ---
 title: StackIndex
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数指定图形状态 容器的索引索引必须与由先前的 EmfPlusBeginContainer第 2.3.7.1 节或 EmfPlusBeginContainerNoParams 记录第 2.3.7.2 节打开的图形状态容器关联的值匹配
+description: 获取或设置一个 32 位无符号整数它指定图形 state 容器的索引索引必须与先前 EmfPlusBeginContainer第 2.3.7.1 节或 EmfPlusBeginContainerNoParams 记录第 2.3.7.2 节打开的图形状态 container 关联的值匹配
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusendcontainer/stackindex/
 ---
 ## EmfPlusEndContainer.StackIndex property
 
-获取或设置一个 32 位无符号整数，指定图形状态 容器的索引。索引必须与由先前的 EmfPlusBeginContainer（第 2.3.7.1 节）或 EmfPlusBeginContainerNoParams 记录（第 2.3.7.2 节）打开的图形状态容器关联的值匹配。
+获取或设置一个 32 位无符号整数，它指定图形 state 容器的索引。索引必须与先前 EmfPlusBeginContainer（第 2.3.7.1 节）或 EmfPlusBeginContainerNoParams 记录（第 2.3.7.2 节）打开的图形状态 container 关联的值匹配。
 
 ```csharp
 public int StackIndex { get; set; }
@@ -16,7 +16,7 @@ public int StackIndex { get; set; }
 
 ### 适当的价值
 
-堆栈的索引。
+栈的索引。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: op_Addition
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Добавляет ширину и высоту однойSizeFaspose.imaging/sizefструктуры к ширине и высоте другойSizeFaspose.imaging/sizefструктура.
+description: Добавляет ширину и высоту одногоSizeFaspose.imaging/sizef структура по ширине и высоте другойSizeFaspose.imaging/sizef структура.
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging/sizef/op_addition/
 ---
 ## SizeF Addition operator
 
-Добавляет ширину и высоту одной[`SizeF`](../../sizef)структуры к ширине и высоте другой[`SizeF`](../../sizef)структура.
+Добавляет ширину и высоту одного[`SizeF`](../../sizef) структура по ширине и высоте другой[`SizeF`](../../sizef) структура.
 
 ```csharp
 public static SizeF operator +(SizeF size1, SizeF size2)
@@ -16,12 +16,12 @@ public static SizeF operator +(SizeF size1, SizeF size2)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| size1 | SizeF | Первый[`SizeF`](../../sizef)добавить. |
-| size2 | SizeF | Второй[`SizeF`](../../sizef)добавить. |
+| size1 | SizeF | Первый[`SizeF`](../../sizef) добавить. |
+| size2 | SizeF | Секунда[`SizeF`](../../sizef) добавить. |
 
 ### Возвращаемое значение
 
-A[`SizeF`](../../sizef)структура, являющаяся результатом операции сложения.
+А[`SizeF`](../../sizef) структура, являющаяся результатом операции сложения.
 
 ### Смотрите также
 

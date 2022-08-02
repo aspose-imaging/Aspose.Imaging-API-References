@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.FileFormats.Cmx.ObjectModel.Specs
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пространство имен обрабатывает обработку файлов формата Tiff.
+description: Пространство имен обрабатывает формат файла Tiff.
 type: docs
 weight: 250
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.specs/
 ---
-Пространство имен обрабатывает обработку файлов формата Tiff.
+Пространство имен обрабатывает формат файла Tiff.
 
 ## Классы
 

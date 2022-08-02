@@ -1,14 +1,14 @@
 ---
 title: CdrImage
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化CdrImageaspose.imaging.fileformats.cdr/cdrimage类的新实例
+description: 初始化CdrImageaspose.imaging.fileformats.cdr/cdrimage类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.cdr/cdrimage/cdrimage/
 ---
 ## CdrImage constructor
 
-初始化[`CdrImage`](../../cdrimage)类的新实例。
+初始化[`CdrImage`](../../cdrimage)类.
 
 ```csharp
 public CdrImage(Stream stream, LoadOptions loadOptions)
@@ -17,13 +17,13 @@ public CdrImage(Stream stream, LoadOptions loadOptions)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 流。 |
-| loadOptions | LoadOptions | 加载选项。 |
+| loadOptions | LoadOptions | 负载选项。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| IndexOutOfRangeException | 本文档不包含页面 |
+| IndexOutOfRangeException | 此文档不包含页面 |
 
 ### 也可以看看
 

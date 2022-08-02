@@ -1,14 +1,14 @@
 ---
 title: PsdImageException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Исключение для psd-изображений.
+description: Исключение для изображений PSD.
 type: docs
 weight: 620
 url: /ru/net/aspose.imaging.coreexceptions.imageformats/psdimageexception/
 ---
 ## PsdImageException class
 
-Исключение для psd-изображений.
+Исключение для изображений PSD.
 
 ```csharp
 public class PsdImageException : ImageException
@@ -18,8 +18,8 @@ public class PsdImageException : ImageException
 
 | Имя | Описание |
 | --- | --- |
-| [PsdImageException](psdimageexception#constructor)(string) | Инициализирует новый экземпляр класса[`PsdImageException`](../psdimageexception). |
-| [PsdImageException](psdimageexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр класса[`PsdImageException`](../psdimageexception). |
+| [PsdImageException](psdimageexception#constructor)(string) | Инициализирует новый экземпляр[`PsdImageException`](../psdimageexception) класс. |
+| [PsdImageException](psdimageexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр[`PsdImageException`](../psdimageexception) класс. |
 
 ### Смотрите также
 

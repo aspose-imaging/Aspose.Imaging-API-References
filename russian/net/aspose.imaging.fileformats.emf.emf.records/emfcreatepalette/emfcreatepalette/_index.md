@@ -1,14 +1,14 @@
 ---
 title: EmfCreatePalette
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfCreatePaletteaspose.imaging.fileformats.emf.emf.records/emfcreatepalette.
+description: Инициализирует новый экземплярEmfCreatePaletteaspose.imaging.fileformats.emf.emf.records/emfcreatepalette класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcreatepalette/emfcreatepalette/
 ---
 ## EmfCreatePalette constructor
 
-Инициализирует новый экземпляр класса[`EmfCreatePalette`](../../emfcreatepalette).
+Инициализирует новый экземпляр[`EmfCreatePalette`](../../emfcreatepalette) класс.
 
 ```csharp
 public EmfCreatePalette(EmfRecord source)

@@ -1,14 +1,14 @@
 ---
 title: StreamReadException
 second_title: Aspose.Imaging for .NET API 参考
-description: 流读取异常由于不正确的偏移量和字节计数请求导致流读取失败时导致
+description: 流读取异常由于不正确的偏移量和字节计数请求导致流读取失败
 type: docs
 weight: 730
 url: /zh/net/aspose.imaging.coreexceptions/streamreadexception/
 ---
 ## StreamReadException class
 
-流读取异常。由于不正确的偏移量和字节计数请求导致流读取失败时导致。
+流读取异常。由于不正确的偏移量和字节计数请求导致流读取失败。
 
 ```csharp
 public class StreamReadException : FrameworkException
@@ -18,10 +18,10 @@ public class StreamReadException : FrameworkException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [StreamReadException](streamreadexception#constructor)(string) | 初始化[`StreamReadException`](../streamreadexception)类的新实例。 |
-| [StreamReadException](streamreadexception#constructor_2)(string, Exception) | 初始化[`StreamReadException`](../streamreadexception)类的新实例。 |
-| [StreamReadException](streamreadexception#constructor_1)(string, int, int) | 初始化[`StreamReadException`](../streamreadexception)类的新实例。 |
-| [StreamReadException](streamreadexception#constructor_3)(string, Exception, int, int) | 初始化[`StreamReadException`](../streamreadexception)类的新实例。 |
+| [StreamReadException](streamreadexception#constructor)(string) | 初始化[`StreamReadException`](../streamreadexception)类. |
+| [StreamReadException](streamreadexception#constructor_2)(string, Exception) | 初始化[`StreamReadException`](../streamreadexception)类. |
+| [StreamReadException](streamreadexception#constructor_1)(string, int, int) | 初始化[`StreamReadException`](../streamreadexception)类. |
+| [StreamReadException](streamreadexception#constructor_3)(string, Exception, int, int) | 初始化[`StreamReadException`](../streamreadexception)类. |
 
 ## 特性
 

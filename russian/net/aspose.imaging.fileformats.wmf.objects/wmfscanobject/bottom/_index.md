@@ -1,14 +1,14 @@
 ---
 title: Bottom
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает нижнюю часть.
+description: Получает или задает нижнюю часть.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfscanobject/bottom/
 ---
 ## WmfScanObject.Bottom property
 
-Получает или устанавливает нижнюю часть.
+Получает или задает нижнюю часть.
 
 ```csharp
 public int Bottom { get; set; }
@@ -16,7 +16,7 @@ public int Bottom { get; set; }
 
 ### Стоимость имущества
 
-Вертикальная (ось Y) координата дна в логических единицах строка сканирования.
+Вертикальная (ось Y) координата в логических единицах нижней строки развертки.
 
 ### Смотрите также
 

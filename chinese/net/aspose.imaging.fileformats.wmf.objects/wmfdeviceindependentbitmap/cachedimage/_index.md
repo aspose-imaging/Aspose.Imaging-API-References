@@ -11,7 +11,7 @@ url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/c
 获取或设置缓存的光栅图像。
 
 ```csharp
-public MemoryStream CachedImage { get; set; }
+public byte[] CachedImage { get; set; }
 ```
 
 ### 适当的价值

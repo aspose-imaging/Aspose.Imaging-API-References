@@ -1,14 +1,14 @@
 ---
 title: Values
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает объект ICollection содержащий значения в IDictionaryобъект.
+description: Получает ICollection объект содержащий значения в IDictionary объект.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging/nongenericdictionary/values/
 ---
 ## NonGenericDictionary.Values property
 
-Получает объект ICollection, содержащий значения в IDictionaryобъект.
+Получает ICollection объект, содержащий значения в IDictionary объект.
 
 ```csharp
 public ICollection Values { get; }
@@ -16,7 +16,7 @@ public ICollection Values { get; }
 
 ### Возвращаемое значение
 
-ОбъектICollection, содержащий значения вIDictionaryобъект.
+АнICollection объект, содержащий значения вIDictionary объект.
 
 ### Смотрите также
 

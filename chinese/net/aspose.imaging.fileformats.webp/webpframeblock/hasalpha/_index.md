@@ -16,11 +16,11 @@ public override bool HasAlpha { get; }
 
 ### 适当的价值
 
-` true` 如果此实例具有 alpha；否则，` false` 。
+`真的`如果这个实例有 alpha；否则，`错误的` .
 
 ### 例子
 
-以下示例加载 WEBP 图像并打印有关原始数据格式和 alpha 通道的信息。
+以下示例加载 WEBP 图像并打印有关原始数据格式和 Alpha 通道的信息。
 
 ```csharp
 [C#]
@@ -32,7 +32,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(fileName))
 {
     Aspose.Imaging.FileFormats.Webp.WebPImage webpImage = (Aspose.Imaging.FileFormats.Webp.WebPImage)image;
 
-        // 如果活动 TIFF 帧有 alpha 通道，则认为整个 TIFF 图像有 alpha 通道。
+    // 如果活动 TIFF 帧有 alpha 通道，则认为整个 TIFF 图像有 alpha 通道。
     System.Console.WriteLine("ImageFile={0}, FileFormat={1}, HasAlpha={2}", fileName, webpImage.RawDataFormat, webpImage.HasAlpha);
 
     int i = 0;
@@ -47,7 +47,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(fileName))
 }
 
 // 输出可能如下所示：
-    // ImageFile=c:\temp\sample.webp, FileFormat=RgbIndexed1Bpp, 使用通道：1, HasAlpha=False
+// ImageFile=c:\temp\sample.webp, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
 // Frame=0, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
 ```
 

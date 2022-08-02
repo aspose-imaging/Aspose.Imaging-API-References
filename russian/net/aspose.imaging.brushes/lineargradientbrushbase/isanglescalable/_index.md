@@ -1,14 +1,14 @@
 ---
 title: IsAngleScalable
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее изменяется лиAngleaspose.imaging.brushes/lineargradientbrushbase/angleво время преобразований с этимLinearGradientBrushBaseaspose.imaging.brushes/lineargradientbrushbase.
+description: Получает или задает значение указывающееAngleaspose.imaging.brushes/lineargradientbrushbase/angle изменяется во время трансформаций с этимLinearGradientBrushBaseaspose.imaging.brushes/lineargradientbrushbase .
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.brushes/lineargradientbrushbase/isanglescalable/
 ---
 ## LinearGradientBrushBase.IsAngleScalable property
 
-Получает или задает значение, указывающее, изменяется ли[`Angle`](../angle)во время преобразований с этим[`LinearGradientBrushBase`](../../lineargradientbrushbase).
+Получает или задает значение, указывающее,[`Angle`](../angle) изменяется во время трансформаций с этим[`LinearGradientBrushBase`](../../lineargradientbrushbase) .
 
 ```csharp
 public bool IsAngleScalable { get; set; }
@@ -16,7 +16,7 @@ public bool IsAngleScalable { get; set; }
 
 ### Стоимость имущества
 
-` true` if[`Angle`](../angle)изменяется во время преобразований с помощью этого[`LinearGradientBrushBase`](../../lineargradientbrushbase); в противном случае` false` .
+`истинный` если[`Angle`](../angle) изменяется во время преобразований с этим[`LinearGradientBrushBase`](../../lineargradientbrushbase) ; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

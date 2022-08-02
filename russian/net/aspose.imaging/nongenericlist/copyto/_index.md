@@ -1,14 +1,14 @@
 ---
 title: CopyTo
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Копирует элементыICollectionвArray начиная с определенногоArrayindex.
+description: Копирует элементыICollection чтобыArray  начиная с определенногоArray индекс.
 type: docs
 weight: 110
 url: /ru/net/aspose.imaging/nongenericlist/copyto/
 ---
 ## NonGenericList.CopyTo method
 
-Копирует элементыICollectionвArray, начиная с определенногоArrayindex.
+Копирует элементыICollection чтобыArray , начиная с определенногоArray индекс.
 
 ```csharp
 public void CopyTo(Array array, int index)
@@ -16,8 +16,8 @@ public void CopyTo(Array array, int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| array | Array | ОдномерныйArrayкуда копируются элементы fromICollection.Arrayдолжен иметь индексацию с отсчетом от нуля. |
-| index | Int32 | Отсчитываемый от нуля индекс в*array*с которого начинается копирование. |
+| array | Array | одномерныйArray это место назначения элементов, скопированных изICollection .Array должны иметь индексацию с отсчетом от нуля. |
+| index | Int32 | Индекс с отсчетом от нуля в*array* при котором начинается копирование. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: EndCap
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置可选的 32 位有符号整数该整数指定形状 用于 CustomEndCapData 字段中的行尾如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataEndCap 标志则必须存在此 字段并且值 必须在 LineCapType 中定义枚举
+description: 获取或设置可选的 32 位有符号整数该整数指定 CustomEndCapData 字段中行尾的 shape 如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataEndCap 标志则必须存在此 字段并且值 必须在 LineCapType 枚举 中定义
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata/endcap/
 ---
 ## EmfPlusPenOptionalData.EndCap property
 
-获取或设置可选的 32 位有符号整数，该整数指定形状 用于 CustomEndCapData 字段中的行尾。如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataEndCap 标志，则必须存在此 字段，并且值 必须在 LineCapType 中定义枚举
+获取或设置可选的 32 位有符号整数，该整数指定 CustomEndCapData 字段中行尾的 shape 。如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataEndCap 标志，则必须存在此 字段，并且值 必须在 LineCapType 枚举 中定义
 
 ```csharp
 public EmfPlusLineCapType EndCap { get; set; }

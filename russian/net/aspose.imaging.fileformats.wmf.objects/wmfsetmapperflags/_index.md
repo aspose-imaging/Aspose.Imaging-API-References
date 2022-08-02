@@ -1,14 +1,14 @@
 ---
 title: WmfSetMapperFlags
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_SETMAPPERFLAGS определяет алгоритм который использует средство отображения шрифта при сопоставлении логических шрифтов с физическими.
+description: Запись META_SETMAPPERFLAGS определяет алгоритм который использует средство отображения font при сопоставлении логических шрифтов с физическими шрифтами.
 type: docs
 weight: 9090
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfsetmapperflags/
 ---
 ## WmfSetMapperFlags class
 
-Запись META_SETMAPPERFLAGS определяет алгоритм, который использует средство отображения шрифта при сопоставлении логических шрифтов с физическими.
+Запись META_SETMAPPERFLAGS определяет алгоритм, который использует средство отображения font при сопоставлении логических шрифтов с физическими шрифтами.
 
 ```csharp
 public class WmfSetMapperFlags : WmfObject

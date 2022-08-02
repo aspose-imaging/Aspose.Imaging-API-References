@@ -1,14 +1,14 @@
 ---
 title: ICdrImage
 second_title: Aspose.Imaging for .NET API 参考
-description: Cdr 图像接口
+description: Cdr图像接口
 type: docs
 weight: 1460
 url: /zh/net/aspose.imaging.fileformats.cdr/icdrimage/
 ---
 ## ICdrImage interface
 
-Cdr 图像接口
+Cdr图像接口
 
 ```csharp
 public interface ICdrImage
@@ -18,7 +18,7 @@ public interface ICdrImage
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CdrDocument](../../aspose.imaging.fileformats.cdr/icdrimage/cdrdocument) { get; } | 获取或设置 CDR 文档。 |
+| [CdrDocument](../../aspose.imaging.fileformats.cdr/icdrimage/cdrdocument) { get; } | 获取或设置话单文档。 |
 
 ### 也可以看看
 

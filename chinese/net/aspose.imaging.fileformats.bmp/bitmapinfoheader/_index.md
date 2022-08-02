@@ -1,14 +1,14 @@
 ---
 title: BitmapInfoHeader
 second_title: Aspose.Imaging for .NET API 参考
-description: 指定 BITMAPINFOHEADER 操作系统支持Windows NT3.1x 或更高版本 特点添加 16 bpp 和 32 bpp 格式添加 RLE 压缩
+description: 指定 BITMAPINFOHEADER 操作系统支持Windows NT3.1x 或更高版本 功能添加 16 bpp 和 32 bpp 格式添加 RLE 压缩
 type: docs
 weight: 1350
 url: /zh/net/aspose.imaging.fileformats.bmp/bitmapinfoheader/
 ---
 ## BitmapInfoHeader class
 
-指定 BITMAPINFOHEADER。 操作系统支持:Windows NT、3.1x 或更高版本。 特点:添加 16 bpp 和 32 bpp 格式。添加 RLE 压缩。
+指定 BITMAPINFOHEADER。 操作系统支持：Windows NT、3.1x 或更高版本。 功能：添加 16 bpp 和 32 bpp 格式。添加 RLE 压缩。
 
 ```csharp
 public class BitmapInfoHeader : BitmapCoreHeader
@@ -22,13 +22,13 @@ public class BitmapInfoHeader : BitmapCoreHeader
 | [BitmapColorsUsed](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapcolorsused) { get; set; } | 获取或设置使用的调色板颜色数。 |
 | [BitmapCompression](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapcompression) { get; set; } | 获取或设置位图压缩。 |
 | [BitmapHeight](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapheight) { get; set; } | 获取或设置位图高度。 |
-| [BitmapImageSize](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapimagesize) { get; set; } | 获取或设置指定位图原始数据大小（以字节为单位）。 |
+| [BitmapImageSize](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapimagesize) { get; set; } | 获取或设置以字节为单位的指定位图原始数据大小。 |
 | [BitmapPlanes](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapplanes) { get; set; } | 获取或设置平面数。 |
 | [BitmapWidth](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapwidth) { get; set; } | 获取或设置位图宽度。 |
 | [BitmapXPelsPerMeter](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapxpelspermeter) { get; set; } | 获取或设置水平像素分辨率。 |
 | [BitmapYPelsPerMeter](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapypelspermeter) { get; set; } | 获取或设置垂直像素分辨率。 |
-| [BitsPerPixel](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitsperpixel) { get; set; } | 获取或设置每像素位数的位数。 |
-| [ExtraBitMasks](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/extrabitmasks) { get; set; } | 获取或设置额外的位掩码。 仅在 DIB 标头是 BITMAPINFOHEADER 并且[`BitmapCompression`](./bitmapcompression)设置为F的情况下才存在:Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Bitfields(RGB) 或AlphaBitfields(RGBA)。 |
+| [BitsPerPixel](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitsperpixel) { get; set; } | 获取或设置每个像素计数的位数。 |
+| [ExtraBitMasks](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/extrabitmasks) { get; set; } | 获取或设置额外的位掩码。 仅在 DIB 标头是 BITMAPINFOHEADER 和[`BitmapCompression`](./bitmapcompression)设置为Bitfields(RGB) 或AlphaBitfields(RGBA). |
 | [HeaderSize](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/headersize) { get; set; } | 获取或设置此结构的大小（以字节为单位）。 |
 
 ### 也可以看看

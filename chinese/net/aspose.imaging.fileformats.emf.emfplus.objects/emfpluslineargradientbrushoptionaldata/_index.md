@@ -24,11 +24,11 @@ public sealed class EmfPlusLinearGradientBrushOptionalData : EmfPlusStructureObj
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BlendPattern](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushoptionaldata/blendpattern) { get; set; } | 获取或设置线性渐变画笔的可选混合模式。如果该字段存在， 它必须包含 EmfPlusBlendColors 对象（第 2.2.2.4 节）、 或一个或两个 EmfPlusBlendFactors 对象（第 2.2.2.5 节）、 但它不能同时包含两者。下表显示 EmfPlusLinearGradientBrushData BrushData 标志和相应混合模式的有效组合: EmfPlusBlendFactors |
-| [BlendPatternAsBlendFactorsH](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushoptionaldata/blendpatternasblendfactorsh) { get; } | 获取混合模式作为混合因子 h。 |
+| [BlendPattern](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushoptionaldata/blendpattern) { get; set; } | 获取或设置线性渐变画笔的可选混合模式。如果此字段存在， 它必须包含 EmfPlusBlendColors 对象（第 2.2.2.4 节）、 或一或两个 EmfPlusBlendFactors 对象（第 2.2.2.5 节）、 ，但不得同时包含两者。下表显示了 EmfPlusLinearGradientBrushData BrushData 标志和相应混合模式的有效组合： EmfPlusBlendFactors |
+| [BlendPatternAsBlendFactorsH](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushoptionaldata/blendpatternasblendfactorsh) { get; } | 获取混合模式作为混合因子 h. |
 | [BlendPatternAsBlendFactorsV](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushoptionaldata/blendpatternasblendfactorsv) { get; } | 获取混合模式作为混合因子 v. |
 | [BlendPatternAsPresetColors](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushoptionaldata/blendpatternaspresetcolors) { get; } | 获取混合图案作为预设颜色。 |
-| [TransformMatrix](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushoptionaldata/transformmatrix) { get; set; } | 获取或设置一个可选的 EmfPlusTransformMatrix 对象（第 2.2.2.47 节），该对象为线性渐变画笔指定 世界空间到设备空间的变换。 如果在 EmfPlusLinearGradientBrushData 对象的 BrushDataFlags 字段中设置了 BrushDataTransform 标志，则该字段必须存在。 |
+| [TransformMatrix](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushoptionaldata/transformmatrix) { get; set; } | 获取或设置一个可选的 EmfPlusTransformMatrix 对象（第 2.2.2.47 节），该对象为线性渐变画笔指定 a 世界空间到设备空间的变换。 如果在 EmfPlusLinearGradientBrushData 对象的 BrushDataFlags 字段中设置了 BrushDataTransform 标志，则该字段必须存在。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: TiffStreamWriter
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись потока Tiff.
+description: Потоковое устройство записи Tiff.
 type: docs
 weight: 7800
 url: /ru/net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/
 ---
 ## TiffStreamWriter class
 
-Запись потока Tiff.
+Потоковое устройство записи Tiff.
 
 ```csharp
 public class TiffStreamWriter
@@ -18,7 +18,7 @@ public class TiffStreamWriter
 
 | Имя | Описание |
 | --- | --- |
-| [TiffStreamWriter](tiffstreamwriter)(StreamContainer) | Инициализирует новый экземпляр класса[`TiffStreamWriter`](../tiffstreamwriter). |
+| [TiffStreamWriter](tiffstreamwriter)(StreamContainer) | Инициализирует новый экземпляр[`TiffStreamWriter`](../tiffstreamwriter) класс. |
 
 ## Характеристики
 
@@ -34,18 +34,18 @@ public class TiffStreamWriter
 | [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write#write)(byte[]) | Записывает указанные данные. |
 | [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write#write_1)(byte[], int, int) | Записывает указанные данные. |
 | [WriteDouble](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writedouble)(double) | Записывает в поток одно двойное значение. |
-| [WriteDoubleArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writedoublearray)(double[]) | Записывает в поток массив значений типа double. |
-| [WriteFloat](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writefloat)(float) | Записывает в поток одно значение с плавающей запятой. |
+| [WriteDoubleArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writedoublearray)(double[]) | Записывает в поток массив двойных значений. |
+| [WriteFloat](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writefloat)(float) | Записывает одно значение с плавающей запятой в поток. |
 | [WriteFloatArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writefloatarray)(float[]) | Записывает в поток массив значений с плавающей запятой. |
 | [WriteRational](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writerational)(TiffRational) | Записывает в поток значение одного рационального числа. |
 | [WriteRationalArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writerationalarray)(TiffRational[]) | Записывает в поток массив рациональных значений без знака. |
 | [WriteSByte](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesbyte)(sbyte) | Записывает в поток значение одного байта со знаком. |
-| [WriteSByteArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesbytearray)(sbyte[]) | Записывает в поток массив значений байтов со знаком. |
+| [WriteSByteArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesbytearray)(sbyte[]) | Записывает в поток массив байтовых значений со знаком. |
 | [WriteSlong](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writeslong)(int) | Записывает в поток одно целочисленное значение. |
 | [WriteSLongArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writeslongarray)(int[]) | Записывает в поток массив целочисленных значений. |
-| [WriteSRational](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesrational)(TiffSRational) | Записывает в поток одно рациональное число со знаком. |
+| [WriteSRational](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesrational)(TiffSRational) | Записывает в поток значение рационального числа с одним знаком. |
 | [WriteSRationalArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesrationalarray)(TiffSRational[]) | Записывает в поток массив рациональных значений со знаком. |
-| [WriteSShort](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesshort)(short) | Записывает в поток одно короткое значение. |
+| [WriteSShort](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesshort)(short) | Записывает одно короткое значение в поток. |
 | [WriteSShortArray](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesshortarray)(short[]) | Записывает в поток массив коротких значений. |
 | [WriteUByte](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writeubyte)(byte) | Записывает однобайтовое значение в поток. |
 | [WriteULong](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writeulong)(uint) | Записывает в поток одно целое число без знака. |

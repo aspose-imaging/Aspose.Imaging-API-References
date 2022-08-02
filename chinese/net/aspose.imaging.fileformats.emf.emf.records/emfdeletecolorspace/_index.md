@@ -18,19 +18,19 @@ public sealed class EmfDeleteColorSpace : EmfObjectManipulationRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfDeleteColorSpace](emfdeletecolorspace)(EmfRecord) | 初始化[`EmfDeleteColorSpace`](../emfdeletecolorspace)类的新实例。 |
+| [EmfDeleteColorSpace](emfdeletecolorspace)(EmfRecord) | 初始化[`EmfDeleteColorSpace`](../emfdeletecolorspace)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IhCS](../../aspose.imaging.fileformats.emf.emf.records/emfdeletecolorspace/ihcs) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定 EMF 对象表中逻辑色彩空间对象 的索引（第 3.1 节。 1.1）。 |
+| [IhCS](../../aspose.imaging.fileformats.emf.emf.records/emfdeletecolorspace/ihcs) { get; set; } | 获取或设置一个 32 位无符号整数，它指定 EMF 对象表（第 3.1.1.1 节）中逻辑颜色空间 object 的索引。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 
 ### 评论
 
-应该使用 EMR_DELETEOBJECT 记录而不是 EMR_DELETECOLORSPACE 来删除 逻辑颜色空间对象。
+应该使用 EMR_DELETEOBJECT 记录而不是 EMR_DELETECOLORSPACE 来删除 a 逻辑色彩空间对象。
 
 ### 也可以看看
 

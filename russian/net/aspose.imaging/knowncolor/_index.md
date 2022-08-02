@@ -1,14 +1,14 @@
 ---
 title: KnownColor
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Задает известные системные цвета.
+description: Определяет известные системные цвета.
 type: docs
-weight: 10370
+weight: 10360
 url: /ru/net/aspose.imaging/knowncolor/
 ---
 ## KnownColor enumeration
 
-Задает известные системные цвета.
+Определяет известные системные цвета.
 
 ```csharp
 public enum KnownColor

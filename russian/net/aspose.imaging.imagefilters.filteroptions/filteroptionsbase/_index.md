@@ -1,14 +1,14 @@
 ---
 title: FilterOptionsBase
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Параметры фильтра База абстрактный класс
+description: База параметров фильтра абстрактный class
 type: docs
 weight: 9760
 url: /ru/net/aspose.imaging.imagefilters.filteroptions/filteroptionsbase/
 ---
 ## FilterOptionsBase class
 
-Параметры фильтра База, абстрактный класс
+База параметров фильтра, абстрактный class
 
 ```csharp
 public abstract class FilterOptionsBase

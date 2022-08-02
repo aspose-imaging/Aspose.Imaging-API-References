@@ -1,14 +1,14 @@
 ---
 title: ImageDescription
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置图像描述
+description: 获取或设置图片描述
 type: docs
 weight: 210
 url: /zh/net/aspose.imaging.imageoptions/tiffoptions/imagedescription/
 ---
 ## TiffOptions.ImageDescription property
 
-获取或设置图像描述。
+获取或设置图片描述。
 
 ```csharp
 public string ImageDescription { get; set; }
@@ -16,7 +16,7 @@ public string ImageDescription { get; set; }
 
 ### 适当的价值
 
-图像描述。
+图片说明。
 
 ### 也可以看看
 

@@ -23,13 +23,13 @@ public override void CacheData()
 
 string dir = "c:\\temp\\";
 
- // Загрузить изображение из файла CMX.
+// Загрузить изображение из файла CMX.
 using (Aspose.Imaging.FileFormats.Cmx.CmxImage image = (Aspose.Imaging.FileFormats.Cmx.CmxImage)Aspose.Imaging.Image.Load(dir + "sample.cmx"))
 {
-     // Этот вызов кэширует только страницу по умолчанию.
+    // Этот вызов кэширует только страницу по умолчанию.
     image.CacheData();
 
-     // Кэшируем все страницы, чтобы не выполнялась дополнительная загрузка данных из базового потока данных.
+    // Кэшировать все страницы, чтобы не выполнялась дополнительная загрузка данных из базового потока данных.
     foreach (Aspose.Imaging.FileFormats.Cmx.CmxImagePage page in image.Pages)
     {
         page.CacheData();

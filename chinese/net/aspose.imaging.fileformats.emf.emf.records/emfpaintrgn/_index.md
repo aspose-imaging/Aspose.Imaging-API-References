@@ -18,16 +18,16 @@ public sealed class EmfPaintRgn : EmfDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfPaintRgn](emfpaintrgn#constructor)() | 初始化[`EmfPaintRgn`](../emfpaintrgn)类的新实例。 |
-| [EmfPaintRgn](emfpaintrgn#constructor_1)(EmfRecord) | 初始化[`EmfPaintRgn`](../emfpaintrgn)类的新实例。 |
+| [EmfPaintRgn](emfpaintrgn#constructor)() | 初始化[`EmfPaintRgn`](../emfpaintrgn)类. |
+| [EmfPaintRgn](emfpaintrgn#constructor_1)(EmfRecord) | 初始化[`EmfPaintRgn`](../emfpaintrgn)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/bounds) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象，在 [MS-WMF] 第 2.2.2.19 节中指定， 指定边界矩形. |
-| [RgnData](../../aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/rgndata) { get; set; } | 获取或设置一个 RgnDataSize 长度字节数组，该数组以逻辑单位指定 RegionData（第 2.2.24 节）对象。 |
-| [RgnDataSize](../../aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/rgndatasize) { get; set; } | 获取或设置指定区域数据大小的 32 位无符号整数，以字节为单位。 |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/bounds) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象，在 [MS-WMF] 第 2.2.2.19 节中指定， 指定边界矩形。 |
+| [RgnData](../../aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/rgndata) { get; set; } | 获取或设置一个 RgnDataSize 长度的字节数组，以逻辑单位指定 RegionData（ 2.2.24 节）对象。 |
+| [RgnDataSize](../../aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/rgndatasize) { get; set; } | 获取或设置一个 32 位无符号整数，指定区域数据的大小，以字节为单位。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

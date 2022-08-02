@@ -1,14 +1,14 @@
 ---
 title: DestRect
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект EmfPlusRectF раздел 2.2.2.39 который вместе с SrcRect определяет преобразование для контейнера. Это преобразование приводит к SrcRect при применении к DestRect.
+description: Получает или задает объект EmfPlusRectF раздел 2.2.2.39 который вместе с SrcRect указывает преобразование для контейнера. Это преобразование приводит к SrcRect при применении к DestRect.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer/destrect/
 ---
 ## EmfPlusBeginContainer.DestRect property
 
-Получает или задает объект EmfPlusRectF (раздел 2.2.2.39), который вместе с SrcRect определяет преобразование для контейнера. Это преобразование приводит к SrcRect при применении к DestRect.
+Получает или задает объект EmfPlusRectF (раздел 2.2.2.39), который вместе с SrcRect указывает преобразование для контейнера. Это преобразование приводит к SrcRect при применении к DestRect.
 
 ```csharp
 public RectangleF DestRect { get; set; }

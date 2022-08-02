@@ -1,14 +1,14 @@
 ---
 title: EmfPlusObject
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Базовый тип объекта Emf.
+description: Тип объекта Базовая ЭДС.
 type: docs
 weight: 5590
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusobject/
 ---
 ## EmfPlusObject class
 
-Базовый тип объекта Emf+.
+Тип объекта Базовая ЭДС+.
 
 ```csharp
 public abstract class EmfPlusObject : MetaObject

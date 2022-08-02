@@ -1,14 +1,14 @@
 ---
 title: GammaBlue
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает гамму синего цвета.
+description: Получает или задает гамму синего.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.bmp/bitmapv4header/gammablue/
 ---
 ## BitmapV4Header.GammaBlue property
 
-Получает или задает гамму синего цвета.
+Получает или задает гамму синего.
 
 ```csharp
 public int GammaBlue { get; set; }
@@ -16,7 +16,7 @@ public int GammaBlue { get; set; }
 
 ### Стоимость имущества
 
-Гамма синего.
+Голубая гамма.
 
 ### Смотрите также
 

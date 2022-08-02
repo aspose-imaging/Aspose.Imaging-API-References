@@ -1,14 +1,14 @@
 ---
 title: IImageLoader
 second_title: Aspose.Imaging for .NET API 参考
-description: 图像加载器
+description: 图像加载器.
 type: docs
 weight: 9510
 url: /zh/net/aspose.imaging/iimageloader/
 ---
 ## IImageLoader interface
 
-图像加载器。
+图像加载器.
 
 ```csharp
 public interface IImageLoader
@@ -18,7 +18,7 @@ public interface IImageLoader
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Load](../../aspose.imaging/iimageloader/load)(StreamContainer, LoadOptions) | 使用 &lt;paramref name="loadOptions"&gt;&lt;/paramref&gt; 打开一个新图像。 |
+| [Load](../../aspose.imaging/iimageloader/load)(StreamContainer, LoadOptions) | 打开一个新图像*loadOptions* . |
 
 ### 也可以看看
 

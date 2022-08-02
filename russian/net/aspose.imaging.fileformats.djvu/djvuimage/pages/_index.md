@@ -27,15 +27,15 @@ public override Image[] Pages { get; }
 
 string dir = "c:\\temp\\";
 
- // Загружаем образ DJVU из файлового потока.
+// Загружаем изображение DJVU из файлового потока.
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
 {
     using (Aspose.Imaging.FileFormats.Djvu.DjvuImage djvuImage = new Aspose.Imaging.FileFormats.Djvu.DjvuImage(stream))
     {
-         // Сохраняем каждую страницу как отдельное изображение PNG.
+        // Сохраняем каждую страницу как отдельное изображение PNG.
         foreach (Aspose.Imaging.FileFormats.Djvu.DjvuPage djvuPage in djvuImage.Pages)
         {
-             // Генерируем имя файла на основе номера страницы.
+            // Генерируем имя файла на основе номера страницы.
             string fileName = string.Format("sample.{0}.png", djvuPage.PageNumber);
             djvuPage.Save(dir + fileName, new Aspose.Imaging.ImageOptions.PngOptions());
         }

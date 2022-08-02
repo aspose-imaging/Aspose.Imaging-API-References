@@ -25,17 +25,17 @@ public class WmfEscapeEnhancedMetafile : WmfEscapeRecordBase
 | Имя | Описание |
 | --- | --- |
 | [ByteCount](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/bytecount) { get; set; } | Получает или задает количество байтов. |
-| virtual [Checked](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/checked) { get; set; } | Получает значение, указывающее, проверено ли это[`WmfEscapeRecordBase`](../wmfescaperecordbase). |
+| virtual [Checked](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/checked) { get; set; } | Получает значение, указывающее, является ли это[`WmfEscapeRecordBase`](../wmfescaperecordbase) проверено. |
 | [Checksum](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/checksum) { get; set; } | Получает или устанавливает контрольную сумму. |
 | [CommentIdentifier](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/commentidentifier) { get; set; } | Получает или задает идентификатор комментария. |
 | [CommentRecordCount](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/commentrecordcount) { get; set; } | Получает или задает количество записей комментариев. |
 | [CommentType](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/commenttype) { get; set; } | Получает или задает тип комментария. |
 | [CurrentRecordSize](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/currentrecordsize) { get; set; } | Получает или задает размер текущей записи. |
-| [Data](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/data) { get; set; } | Получает или задает данные. |
+| [Data](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/data) { get; set; } | Получает или устанавливает данные. |
 | [EnhancedMetafileData](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/enhancedmetafiledata) { get; set; } | Получает или задает расширенные данные метафайла. |
 | [EnhancedMetafileDataSize](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/enhancedmetafiledatasize) { get; set; } | Получает или задает размер расширенных данных метафайла. |
 | [Flags](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/flags) { get; set; } | Получает или устанавливает флаги. |
-| [RemainingBytes](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/remainingbytes) { get; set; } | Получает или задает оставшиеся байты. |
+| [RemainingBytes](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/remainingbytes) { get; set; } | Получает или устанавливает оставшиеся байты. |
 | [Version](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/version) { get; set; } | Получает или задает версию. |
 
 ### Смотрите также

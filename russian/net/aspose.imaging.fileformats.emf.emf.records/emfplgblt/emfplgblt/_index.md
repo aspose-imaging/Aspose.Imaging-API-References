@@ -1,14 +1,14 @@
 ---
 title: EmfPlgBlt
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlgBltaspose.imaging.fileformats.emf.emf.records/emfplgblt.
+description: Инициализирует новый экземплярEmfPlgBltaspose.imaging.fileformats.emf.emf.records/emfplgblt класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfplgblt/emfplgblt/
 ---
 ## EmfPlgBlt constructor
 
-Инициализирует новый экземпляр класса[`EmfPlgBlt`](../../emfplgblt).
+Инициализирует новый экземпляр[`EmfPlgBlt`](../../emfplgblt) класс.
 
 ```csharp
 public EmfPlgBlt(EmfRecord source)

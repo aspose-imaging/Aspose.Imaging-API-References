@@ -1,14 +1,14 @@
 ---
 title: Generator
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает генератор.
+description: Получает или устанавливает генератор.
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects/odmetadata/generator/
 ---
 ## OdMetadata.Generator property
 
-Получает или задает генератор.
+Получает или устанавливает генератор.
 
 ```csharp
 public string Generator { get; set; }

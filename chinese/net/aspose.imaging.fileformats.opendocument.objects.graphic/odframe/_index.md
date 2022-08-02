@@ -1,14 +1,14 @@
 ---
 title: OdFrame
 second_title: Aspose.Imaging for .NET API 参考
-description: 打开的文档对象框架
+description: 打开的文档对象frame
 type: docs
 weight: 7080
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odframe/
 ---
 ## OdFrame class
 
-打开的文档对象框架
+打开的文档对象frame
 
 ```csharp
 public class OdFrame : OdStyledObject
@@ -18,13 +18,13 @@ public class OdFrame : OdStyledObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OdFrame](odframe)(OdObject) | 初始化[`OdFrame`](../odframe)类的新实例。 |
+| [OdFrame](odframe)(OdObject) | 初始化[`OdFrame`](../odframe)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]。 |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | 获取项目。 |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | 获取父对象。 |
 | [Rectangle](../../aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/rectangle) { get; set; } | 获取或设置矩形。 |

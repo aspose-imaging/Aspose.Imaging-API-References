@@ -18,23 +18,23 @@ public sealed class EmfGradientFill : EmfDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfGradientFill](emfgradientfill)(EmfRecord) | 初始化[`EmfGradientFill`](../emfgradientfill)类的新实例。 |
+| [EmfGradientFill](emfgradientfill)(EmfRecord) | 初始化[`EmfGradientFill`](../emfgradientfill)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/bounds) { get; set; } | 获取或设置指定 边界矩形的 WMF RectL 对象（[MS-WMF] 2.2.2.19 节），包含设备单元。 |
-| [NTri](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/ntri) { get; set; } | 获取或设置一个 32 位无符号整数，它指定要填充的矩形或三角形的数量。 |
-| [NVer](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/nver) { get; set; } | 获取或设置指定顶点数的 32 位无符号整数。 |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/bounds) { get; set; } | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象指定一个 边界矩形，以包含设备单位为单位。 |
+| [NTri](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/ntri) { get; set; } | 获取或设置一个 32 位无符号整数，指定要填充的矩形或三角形的数量。 |
+| [NVer](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/nver) { get; set; } | 获取或设置一个 32 位无符号整数，指定顶点数。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 | [UlMode](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/ulmode) { get; set; } | 获取或设置指定渐变填充模式的 32 位无符号整数。值 必须在 GradientFill 枚举中（第 2.1.15 节）。 |
-| [VertexData](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/vertexdata) { get; set; } | 获取或设置指定矩形或三角形顶点的对象和 对应的颜色。 |
+| [VertexData](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/vertexdata) { get; set; } | 获取或设置指定矩形或三角形顶点的对象以及 对应于它们的颜色。 |
 
 ### 评论
 
-EMR_GRADIENTFILL 记录，指定三角形的三个顶点应该填充 具有平滑渐变颜色的图形。[85] EMR_GRADIENTFILL 记录，指定 矩形的左上角和右下角顶点应该用平滑的颜色渐变填充图形。 GradientFill 枚举中有两种渐变填充模式，可以在绘制矩形时使用。在 GRADIENT_FILL_RECT_H 模式下，矩形从左到右填充。在 GRADIENT_FILL_RECT_V 模式下，矩形从上到下填充。 注意 EMR_GRADIENTFILL 记录必须忽略 TriVertex 对象中的 Alpha 字段。紧跟在 EMR_GRADIENTFILL 记录 之后的 EMR_ALPHABLEND 记录（第 2.3.1.1 节）可用于将 alpha 透明度渐变应用于填充区域。
+一个 EMR_GRADIENTFILL 记录，指定三角形的三个顶点应该用平滑的颜色渐变填充 图。[85] 一个 EMR_GRADIENTFILL 记录，指定一个 矩形的左上角和右下角顶点应该填充具有平滑颜色渐变的图形。 GradientFill 枚举中有两种渐变填充模式，可以在绘制矩形时使用。在 GRADIENT_FILL_RECT_H 模式下，矩形从左到右填充。在 GRADIENT_FILL_RECT_V 模式下，矩形从上到下填充。 注意 EMR_GRADIENTFILL 记录必须忽略 TriVertex 对象中的 Alpha 字段。紧跟在 EMR_GRADIENTFILL 记录 之后的 EMR_ALPHABLEND 记录（第 2.3.1.1 节）可用于将 alpha 透明度渐变应用于填充区域。
 
 ### 也可以看看
 

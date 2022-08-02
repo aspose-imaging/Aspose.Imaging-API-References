@@ -31,11 +31,11 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-        // 裁剪图像。裁剪区域是图像的矩形中心区域。
+    // 裁剪图像。裁剪区域是图像的矩形中心区域。
     Aspose.Imaging.Rectangle area = new Aspose.Imaging.Rectangle(rasterImage.Width / 4, rasterImage.Height / 4, rasterImage.Width / 2, rasterImage.Height / 2);
     rasterImage.Crop(area);
 
-        // 将裁剪后的图像保存到 PNG
+    // 将裁剪后的图像保存为 PNG
     rasterImage.Save(dir + "sample.Crop.png");
 }
 ```
@@ -51,7 +51,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 
 ## Crop(int, int, int, int) {#crop_1}
 
-带班次裁剪图像。
+使用班次裁剪图像。
 
 ```csharp
 public virtual void Crop(int leftShift, int rightShift, int topShift, int bottomShift)
@@ -61,8 +61,8 @@ public virtual void Crop(int leftShift, int rightShift, int topShift, int bottom
 | --- | --- | --- |
 | leftShift | Int32 | 左移。 |
 | rightShift | Int32 | 右移。 |
-| topShift | Int32 | 顶部移位。 |
-| bottomShift | Int32 | 底部移位。 |
+| topShift | Int32 | 最高班次。 |
+| bottomShift | Int32 | 下移。 |
 
 ### 例子
 
@@ -77,12 +77,12 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-        // 再次裁剪。设置图像大小的 10% 的边距。
+    // 再次裁剪。将边距设置为图像大小的 10%。
     int horizontalMargin = rasterImage.Width / 10;
     int verticalMargin = rasterImage.Height / 10;
     rasterImage.Crop(horizontalMargin, horizontalMargin, verticalMargin, verticalMargin);
 
-        // 将裁剪后的图像保存为 PNG.
+    // 将裁剪后的图像保存为 PNG。
     rasterImage.Save(dir + "sample.Crop.png");
 }
 ```

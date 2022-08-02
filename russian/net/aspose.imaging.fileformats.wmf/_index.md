@@ -12,7 +12,7 @@ url: /ru/net/aspose.imaging.fileformats.wmf/
 
 | Учебный класс | Описание |
 | --- | --- |
-| [WmfImage](./wmfimage) | Изображение Wmf |
+| [WmfImage](./wmfimage) | Изображение WMF |
 ## перечисление
 
 | перечисление | Описание |

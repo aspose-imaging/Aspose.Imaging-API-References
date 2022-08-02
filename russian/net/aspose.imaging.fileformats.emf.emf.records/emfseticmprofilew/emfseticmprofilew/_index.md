@@ -1,14 +1,14 @@
 ---
 title: EmfSetIcmProfileW
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetIcmProfileWaspose.imaging.fileformats.emf.emf.records/emfseticmprofilew.
+description: Инициализирует новый экземплярEmfSetIcmProfileWaspose.imaging.fileformats.emf.emf.records/emfseticmprofilew класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfseticmprofilew/emfseticmprofilew/
 ---
 ## EmfSetIcmProfileW constructor
 
-Инициализирует новый экземпляр класса[`EmfSetIcmProfileW`](../../emfseticmprofilew).
+Инициализирует новый экземпляр[`EmfSetIcmProfileW`](../../emfseticmprofilew) класс.
 
 ```csharp
 public EmfSetIcmProfileW(EmfRecord source)

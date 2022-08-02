@@ -1,14 +1,14 @@
 ---
 title: EmfCreatePen
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfCreatePenaspose.imaging.fileformats.emf.emf.records/emfcreatepen.
+description: Инициализирует новый экземплярEmfCreatePenaspose.imaging.fileformats.emf.emf.records/emfcreatepen класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcreatepen/emfcreatepen/
 ---
 ## EmfCreatePen(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfCreatePen`](../../emfcreatepen).
+Инициализирует новый экземпляр[`EmfCreatePen`](../../emfcreatepen) класс.
 
 ```csharp
 public EmfCreatePen(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfCreatePen(EmfRecord source)
 
 ## EmfCreatePen() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfCreatePen`](../../emfcreatepen).
+Инициализирует новый экземпляр[`EmfCreatePen`](../../emfcreatepen) класс.
 
 ```csharp
 public EmfCreatePen()

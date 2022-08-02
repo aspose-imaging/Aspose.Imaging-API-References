@@ -32,7 +32,7 @@ public void SetNoOp(ColorAdjustType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype)который указывает категорию, для которой цвет коррекция отключена. |
+| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype) который указывает категорию, для которой коррекция цвета отключена. |
 
 ### Смотрите также
 

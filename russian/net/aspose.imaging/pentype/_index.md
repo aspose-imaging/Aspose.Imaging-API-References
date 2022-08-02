@@ -1,14 +1,14 @@
 ---
 title: PenType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Определяет тип заливки которую объектPen./penиспользует для заполнения линий.
+description: Определяет тип заливкиPen./pen объект использует для заполнения строк.
 type: docs
-weight: 10720
+weight: 10710
 url: /ru/net/aspose.imaging/pentype/
 ---
 ## PenType enumeration
 
-Определяет тип заливки, которую объект[`Pen`](../pen)использует для заполнения линий.
+Определяет тип заливки[`Pen`](../pen) объект использует для заполнения строк.
 
 ```csharp
 public enum PenType
@@ -18,8 +18,8 @@ public enum PenType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| SolidColor | `0` | Задает сплошную заливку. |
-| HatchFill | `1` | Задает заливку штриховкой. |
+| SolidColor | `0` | Определяет сплошную заливку. |
+| HatchFill | `1` | Указывает заливку штриховки. |
 | TextureFill | `2` | Задает заливку растровой текстурой. |
 | PathGradient | `3` | Задает градиентную заливку контура. |
 | LinearGradient | `4` | Определяет заливку линейным градиентом. |

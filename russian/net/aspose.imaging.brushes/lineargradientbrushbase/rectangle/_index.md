@@ -16,7 +16,7 @@ public RectangleF Rectangle { get; set; }
 
 ### Стоимость имущества
 
-A[`RectangleF`](../../../aspose.imaging/rectanglef)структура, определяющая начальную и конечную точки градиента .
+А[`RectangleF`](../../../aspose.imaging/rectanglef) структура, определяющая начальную и конечную точки градиента.
 
 ### Смотрите также
 

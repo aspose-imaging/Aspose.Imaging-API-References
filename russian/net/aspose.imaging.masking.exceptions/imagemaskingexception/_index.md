@@ -3,7 +3,7 @@ title: ImageMaskingException
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Исключения указанные для системы маскирования изображений.
 type: docs
-weight: 10420
+weight: 10410
 url: /ru/net/aspose.imaging.masking.exceptions/imagemaskingexception/
 ---
 ## ImageMaskingException class
@@ -18,7 +18,7 @@ public sealed class ImageMaskingException : Exception
 
 | Имя | Описание |
 | --- | --- |
-| [ImageMaskingException](imagemaskingexception)(string) | Инициализирует новый экземпляр класса[`ImageMaskingException`](../imagemaskingexception). |
+| [ImageMaskingException](imagemaskingexception)(string) | Инициализирует новый экземпляр[`ImageMaskingException`](../imagemaskingexception) класс. |
 
 ### Смотрите также
 

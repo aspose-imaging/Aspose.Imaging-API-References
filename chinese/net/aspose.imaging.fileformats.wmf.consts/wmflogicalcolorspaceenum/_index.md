@@ -20,7 +20,7 @@ public enum WmfLogicalColorSpaceEnum
 | --- | --- | --- |
 | LCS_CALIBRATED_RGB | `0` | 颜色值是校准的红绿蓝 (RGB) 值。 |
 | LCS_sRGB | `1934772034` | 该值为ASCII字符“sRGB”的编码，表示 颜色值为sRGB值。 |
-| LCS_WINDOWS_COLOR_SPACE | `1466527264` | 该值为 ASCII 字符“Win”、 包括尾随空格的编码，表示颜色值为 Windows 默认值颜色空间值。 |
+| LCS_WINDOWS_COLOR_SPACE | `1466527264` | 该值为ASCII字符“Win”的编码， 包括尾随空格，表示颜色值为Windows默认颜色空间值。 |
 
 ### 也可以看看
 

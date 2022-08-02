@@ -16,7 +16,7 @@ public virtual bool IsStreamDisposedOnClose { get; }
 
 ### 适当的价值
 
-` true` 如果流在关闭时处理；否则，` false` 。
+`真的`如果流在关闭时被处理；否则，`错误的`.
 
 ### 也可以看看
 

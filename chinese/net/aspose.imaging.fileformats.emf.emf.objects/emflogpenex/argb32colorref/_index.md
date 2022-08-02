@@ -1,14 +1,14 @@
 ---
 title: Argb32ColorRef
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 WMF ColorRef 对象MS-WMF 第 2.2.2.8 节此 字段的解释取决于 BrushStyle 值如本节后面的表中所示
+description: 获取或设置 WMF ColorRef 对象MS-WMF 第 2.2.2.8 节 this 字段的解释取决于 BrushStyle 值如本节后面的表格所示
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emflogpenex/argb32colorref/
 ---
 ## EmfLogPenEx.Argb32ColorRef property
 
-获取或设置 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节）。此 字段的解释取决于 BrushStyle 值，如本节后面的表中所示。
+获取或设置 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节）。 this 字段的解释取决于 BrushStyle 值，如本节后面的表格所示。
 
 ```csharp
 public override int Argb32ColorRef { get; set; }

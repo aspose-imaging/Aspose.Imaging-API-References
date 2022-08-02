@@ -16,7 +16,7 @@ public byte TextBackgroundColorIndex { get; set; }
 
 ### 适当的价值
 
-背景颜色索引。
+背景色索引。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект WMF PointL MS-WMF раздел 2.2.2.15 который указывает ширину пера по значению своего поля x. Значение его поля y ДОЛЖНО игнорироваться.
+description: Получает или задает объект WMF PointL MS-WMF раздел 2.2.2.15 который указывает ширину пера по значению его поля x. Значение его поля y ДОЛЖНО игнорироваться.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emflogpen/width/
 ---
 ## EmfLogPen.Width property
 
-Получает или задает объект WMF PointL ([MS-WMF], раздел 2.2.2.15), который указывает ширину пера по значению своего поля x. Значение его поля y ДОЛЖНО игнорироваться.
+Получает или задает объект WMF PointL ([MS-WMF], раздел 2.2.2.15), который указывает ширину пера по значению его поля x. Значение его поля y ДОЛЖНО игнорироваться.
 
 ```csharp
 public Point Width { get; set; }

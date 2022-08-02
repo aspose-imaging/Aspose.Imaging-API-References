@@ -3,7 +3,7 @@ title: ColorantBase
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет тип красителя XMP.
 type: docs
-weight: 11530
+weight: 11520
 url: /ru/net/aspose.imaging.xmp.types.complex.colorant/colorantbase/
 ---
 ## ColorantBase class
@@ -19,7 +19,7 @@ public abstract class ColorantBase : ComplexTypeBase
 | Имя | Описание |
 | --- | --- |
 | [ColorType](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/colortype) { get; set; } | Получает или задает тип цвета. |
-| [Mode](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/mode) { get; } | Получает[`ColorMode`](../colormode). |
+| [Mode](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/mode) { get; } | получает[`ColorMode`](../colormode) . |
 | [NamespaceUri](../../aspose.imaging.xmp.types.complex/complextypebase/namespaceuri) { get; } | Получает URI пространства имен по умолчанию. |
 | [Prefix](../../aspose.imaging.xmp.types.complex/complextypebase/prefix) { get; } | Получает префикс. |
 | [SwatchName](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/swatchname) { get; set; } | Получает или задает имя образца. |

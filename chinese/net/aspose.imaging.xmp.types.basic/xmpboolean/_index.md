@@ -3,7 +3,7 @@ title: XmpBoolean
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示 XMP 布尔基本类型
 type: docs
-weight: 11460
+weight: 11450
 url: /zh/net/aspose.imaging.xmp.types.basic/xmpboolean/
 ---
 ## XmpBoolean class
@@ -18,21 +18,21 @@ public sealed class XmpBoolean : XmpTypeBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [XmpBoolean](xmpboolean#constructor)() | 使用默认值初始化[`XmpBoolean`](../xmpboolean)类的新实例。 |
-| [XmpBoolean](xmpboolean#constructor_1)(bool) | 基于布尔值初始化[`XmpBoolean`](../xmpboolean)类的新实例。 |
-| [XmpBoolean](xmpboolean#constructor_2)(string) | 初始化[`XmpBoolean`](../xmpboolean)类的新实例。 |
+| [XmpBoolean](xmpboolean#constructor)() | 初始化[`XmpBoolean`](../xmpboolean)具有默认值的类。 |
+| [XmpBoolean](xmpboolean#constructor_1)(bool) | 初始化[`XmpBoolean`](../xmpboolean)基于布尔值的类。 |
+| [XmpBoolean](xmpboolean#constructor_2)(string) | 初始化[`XmpBoolean`](../xmpboolean)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Value](../../aspose.imaging.xmp.types.basic/xmpboolean/value) { get; set; } | 获取或设置一个值，该值指示此[`XmpBoolean`](../xmpboolean)是否为值。 |
+| [Value](../../aspose.imaging.xmp.types.basic/xmpboolean/value) { get; set; } | 获取或设置一个值，该值指示是否[`XmpBoolean`](../xmpboolean)是值。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [GetXmpRepresentation](../../aspose.imaging.xmp.types.basic/xmpboolean/getxmprepresentation)() | 以 XMP 格式返回字符串包含的值。 |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.types.basic/xmpboolean/getxmprepresentation)() | 以 XMP 格式返回包含字符串的值。 |
 
 ### 也可以看看
 

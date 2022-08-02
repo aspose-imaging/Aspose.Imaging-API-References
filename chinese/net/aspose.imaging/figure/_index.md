@@ -1,14 +1,14 @@
 ---
 title: Figure
 second_title: Aspose.Imaging for .NET API 参考
-description: 图形状的容器
+description: 图形状的容器.
 type: docs
 weight: 1290
 url: /zh/net/aspose.imaging/figure/
 ---
 ## Figure class
 
-图。形状的容器。
+图。形状的容器.
 
 ```csharp
 public class Figure : ObjectWithBounds
@@ -25,7 +25,7 @@ public class Figure : ObjectWithBounds
 | 姓名 | 描述 |
 | --- | --- |
 | override [Bounds](../../aspose.imaging/figure/bounds) { get; } | 获取或设置对象的边界。 |
-| [IsClosed](../../aspose.imaging/figure/isclosed) { get; set; } | 获取或设置一个值，表示该图窗是否闭合。只有在 第一个和最后一个图形的形状是连续形状的情况下，闭合图形才会有所不同。在这种情况下，第一个形状的第一个点将是 从最后一个形状的最后一个点通过直线连接。 |
+| [IsClosed](../../aspose.imaging/figure/isclosed) { get; set; } | 获取或设置该图窗是否闭合的值。只有在 第一个和最后一个图形的形状是连续形状的情况下，封闭图形才会有所不同。在这种情况下，第一个形状的第一个点将 由最后一个形状的最后一个点的直线连接。 |
 | [Segments](../../aspose.imaging/figure/segments) { get; } | 获取整个图形段。 |
 | [Shapes](../../aspose.imaging/figure/shapes) { get; } | 获取图形形状。 |
 
@@ -33,7 +33,7 @@ public class Figure : ObjectWithBounds
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddShape](../../aspose.imaging/figure/addshape)(Shape) | 向图形添加形状。 |
+| [AddShape](../../aspose.imaging/figure/addshape)(Shape) | 为图形添加形状。 |
 | [AddShapes](../../aspose.imaging/figure/addshapes)(Shape[]) | 为图形添加一系列形状。 |
 | override [GetBounds](../../aspose.imaging/figure/getbounds#getbounds)(Matrix) | 获取对象的边界。 |
 | override [GetBounds](../../aspose.imaging/figure/getbounds#getbounds_1)(Matrix, Pen) | 获取对象的边界。 |
@@ -49,46 +49,39 @@ public class Figure : ObjectWithBounds
 ```csharp
 [C#]
 
-    //创建一个FileStream
-的实例
+//创建一个FileStream实例
 using (System.IO.FileStream stream = new System.IO.FileStream(@"C:\temp\output.tiff", System.IO.FileMode.Create))
 {
     //创建一个TiffOptions实例并设置它的各种属性
     Aspose.Imaging.ImageOptions.TiffOptions tiffOptions = new Aspose.Imaging.ImageOptions.TiffOptions(Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
 
-        //设置ImageOptions
-实例的来源
+    //设置ImageOptions实例的来源
     tiffOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream);
 
-    //创建一个Image
-的实例
+    //创建一个Image实例 
     using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(tiffOptions, 500, 500))
     {
-        //创建并初始化一个Graphics class
-的实例
+        //创建并初始化一个Graphics类的实例
         Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
 
-        //清除图形surface
+        //清除图形表面
         graphics.Clear(Color.Wheat);
 
-        //创建GraphicsPath class
-的实例
+        //创建GraphicsPath类的实例
         Aspose.Imaging.GraphicsPath graphicspath = new Aspose.Imaging.GraphicsPath();
 
-        //创建Figure class
-的实例
+        //创建一个Figure类的实例
         Aspose.Imaging.Figure figure = new Aspose.Imaging.Figure();
 
-        //将形状添加到图形 object
+        //将形状添加到图形对象
         figure.AddShape(new Aspose.Imaging.Shapes.RectangleShape(new Aspose.Imaging.RectangleF(10f, 10f, 300f, 300f)));
         figure.AddShape(new Aspose.Imaging.Shapes.EllipseShape(new Aspose.Imaging.RectangleF(50f, 50f, 300f, 300f)));
         figure.AddShape(new Aspose.Imaging.Shapes.PieShape(new Aspose.Imaging.RectangleF(new Aspose.Imaging.PointF(250f, 250f), new Aspose.Imaging.SizeF(200f, 200f)), 0f, 45f));
 
-            //将图形对象添加到GraphicsPath
+        //将Figure对象添加到GraphicsPath
         graphicspath.AddFigure(figure);
 
-            //用颜色为Black
-的Pen对象绘制路径
+        //使用颜色为黑色的 Pen 对象绘制路径
         graphics.DrawPath(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Black, 2), graphicspath);
 
         // 保存所有更改。

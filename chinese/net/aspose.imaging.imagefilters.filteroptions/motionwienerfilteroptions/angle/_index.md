@@ -1,14 +1,14 @@
 ---
 title: Angle
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 gradus 的角度
+description: 获取或设置gradus中的角度
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions/angle/
 ---
 ## MotionWienerFilterOptions.Angle property
 
-获取或设置 gradus 的角度。
+获取或设置gradus中的角度。
 
 ```csharp
 public double Angle { get; set; }
@@ -16,7 +16,7 @@ public double Angle { get; set; }
 
 ### 适当的价值
 
-角度。
+角度.
 
 ### 也可以看看
 

@@ -24,7 +24,7 @@ public sealed class EmfPlusRegion : EmfPlusGraphicsObjectType
 
 | Имя | Описание |
 | --- | --- |
-| [RegionNode](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregion/regionnode) { get; set; } | Получает или задает массив объектов RegionNodeCount+1 EmfPlusRegionNode (раздел 2.2.2.40). Регионы задаются в виде двоичного дерева узлов региона, и каждый узел ДОЛЖЕН быть либо конечным узлом , либо указывать один или два дочерних узла. RegionNode ДОЛЖЕН содержать хотя бы один элемент |
+| [RegionNode](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregion/regionnode) { get; set; } | Получает или задает массив объектов RegionNodeCount+1 EmfPlusRegionNode (раздел 2.2.2.40). Регионы задаются в виде двоичного дерева узлов региона, и каждый узел ДОЛЖЕН быть либо конечным узлом , либо указывать один или два дочерних узла. RegionNode ДОЛЖЕН содержать хотя бы один element |
 | [Version](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsobjecttype/version) { get; set; } | Получает или задает версию. |
 
 ### Смотрите также

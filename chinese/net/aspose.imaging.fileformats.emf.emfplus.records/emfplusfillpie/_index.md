@@ -18,21 +18,21 @@ public sealed class EmfPlusFillPie : EmfPlusDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfPlusFillPie](emfplusfillpie)(EmfPlusRecord) | 初始化[`EmfPlusFillPie`](../emfplusfillpie)类的新实例。 |
+| [EmfPlusFillPie](emfplusfillpie)(EmfPlusRecord) | 初始化[`EmfPlusFillPie`](../emfplusfillpie)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BrushId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/brushid) { get; set; } | 获取或设置画笔标识符 定义画笔的 32 位无符号整数，其内容 由标志字段中的 S 位确定。 |
-| [Compressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/compressed) { get; set; } | 获取或设置一个指示PointData是否被压缩的值。 如果设置，则 RectData 包含 EmfPlusRect 对象（第 2.2.2.38 节）。 如果清除，则 RectData 包含 EmfPlusRectF 对象（第 2.2.2.39 节）。 |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，该整数必须在 RecordData 字段中定义 32 位对齐的 数据字节数跟随。这个数字不包括 12 字节的记录头。 |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | 获取或设置一个 16 位无符号整数，该整数包含有关如何执行 操作和结构的一些记录的信息记录。 |
-| [IsColor](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/iscolor) { get; set; } | 获取或设置一个指示此实例是否为彩色的值。 如果设置，BrushId 将颜色指定为 EmfPlusARGB 对象（第 2.2.2.1 节）。 如果清除，BrushId 包含 EmfPlusBrush 对象（第 2.2.1.1 节）在 EMF+ 对象表中的索引。 |
-| [RectData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/rectdata) { get; set; } | 获取或设置矩形数据 EmfPlusRect 或 EmfPlusRectF 对象，定义 椭圆的边界框包含馅饼楔。这个矩形定义了饼图的位置、大小、 和形状。此字段中的对象类型由 Flags 字段的值 指定。 |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | 获取或设置一个 32 位无符号整数，指定整条记录中的 32 位对齐字节数 ，包括 12 -byte 记录头和特定于记录的数据。 |
-| [StartAngle](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/startangle) { get; set; } | 获取或设置起始角度 一个 32 位非负浮点值，指定:::47 之间的角度:::x 轴和饼形楔形的起点。任何值都是可接受的，但它 必须以 360 为模进行解释，使用的结果在 0.0 （包括）到 360.0 （不包括）的范围内。 |
-| [SweepAngle](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/sweepangle) { get; set; } | 获取或设置扫角 一个 32 位浮点值，指定定义:::47 的弧的范围:::要绘制的饼图楔形，作为从起点 测量的角度，由 StartAngle 值定义。任何值都是可接受的，但必须将其限制为 到 -360.0 到 360.0（含）。正值表示按顺时针方向定义扫描 ，负值表示按逆时针方向定义扫描 。 |
+| [BrushId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/brushid) { get; set; } | 获取或设置画笔标识符 定义画笔的32位无符号整数， 的内容由Flags字段中的S位决定 |
+| [Compressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/compressed) { get; set; } | 获取或设置一个指示 PointData 是否被压缩的值。 如果设置，则 RectData 包含 EmfPlusRect 对象（第 2.2.2.38 节）。 如果清除，则 RectData 包含 EmfPlusRectF 对象（第 2.2.2.39 节）。 |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，该整数必须在随后的 RecordData 字段中定义 32 位对齐的 字节数据。这个数字不包括 12 字节的记录头。 |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | 获取或设置一个 16 位无符号整数，其中包含一些记录的信息，关于如何执行 操作以及记录的结构。 |
+| [IsColor](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/iscolor) { get; set; } | 获取或设置指示此实例是否为颜色的值。 如果设置，BrushId 将颜色指定为 EmfPlusARGB 对象（第 2.2.2.1 节）。 如果清除，BrushId 包含 EMF+ 对象表中 EmfPlusBrush 对象（第 2.2.1.1 节）的索引。 |
+| [RectData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/rectdata) { get; set; } | 获取或设置矩形 datas EmfPlusRect 或 EmfPlusRectF 对象，用于定义包含饼形楔形的 椭圆的边界框。该矩形定义了饼图的位置、大小、 和形状。此字段中的对象类型由 Flags 字段的值 指定。 |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | 获取或设置一个 32 位无符号整数，指定整个记录中 32 位对齐的字节数 ，包括 12 字节的记录头和特定于记录的数据。 |
+| [StartAngle](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/startangle) { get; set; } | 获取或设置起始角度 一个 32 位非负浮点值，用于指定 x 轴与饼形楔形起点之间的角度。任何值都是可接受的，但它 必须以 360 为模进行解释，使用的结果在 0.0（含）到 360.0（不含）的范围内。 |
+| [SweepAngle](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/sweepangle) { get; set; } | 获取或设置扫描角度 一个 32 位浮点值，它指定定义要绘制的 饼楔的弧的范围，作为从 StartAngle 值定义的起点 测量的角度，以度为单位。任何值都是可接受的，但必须将其限制为 到 -360.0 到 360.0（含）。正值表示按顺时针方向定义 扫描，负值表示按逆时针方向定义 扫描。 |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | 获取标识记录类型的 16 位无符号整数。 |
 
 ### 也可以看看

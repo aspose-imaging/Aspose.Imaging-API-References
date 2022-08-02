@@ -1,14 +1,14 @@
 ---
 title: SplitStreamContainer
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаSplitStreamContaineraspose.imaging/splitstreamcontainer.
+description: Инициализирует новый экземплярSplitStreamContaineraspose.imaging/splitstreamcontainer класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging/splitstreamcontainer/splitstreamcontainer/
 ---
 ## SplitStreamContainer(Stream) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`SplitStreamContainer`](../../splitstreamcontainer).
+Инициализирует новый экземпляр[`SplitStreamContainer`](../../splitstreamcontainer) класс.
 
 ```csharp
 public SplitStreamContainer(Stream stream)
@@ -28,7 +28,7 @@ public SplitStreamContainer(Stream stream)
 
 ## SplitStreamContainer(Stream, bool) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`SplitStreamContainer`](../../splitstreamcontainer).
+Инициализирует новый экземпляр[`SplitStreamContainer`](../../splitstreamcontainer) класс.
 
 ```csharp
 public SplitStreamContainer(Stream stream, bool disposeStream)
@@ -37,7 +37,7 @@ public SplitStreamContainer(Stream stream, bool disposeStream)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток данных. |
-| disposeStream | Boolean | если установлено значение` true` , поток будет удален при удалении контейнера. |
+| disposeStream | Boolean | если установлено`истинный` поток будет удален, когда контейнер будет удален. |
 
 ### Смотрите также
 
@@ -49,7 +49,7 @@ public SplitStreamContainer(Stream stream, bool disposeStream)
 
 ## SplitStreamContainer(StreamContainer, bool) {#constructor}
 
-Инициализирует новый экземпляр класса[`SplitStreamContainer`](../../splitstreamcontainer).
+Инициализирует новый экземпляр[`SplitStreamContainer`](../../splitstreamcontainer) класс.
 
 ```csharp
 public SplitStreamContainer(StreamContainer stream, bool disposeStream)
@@ -58,7 +58,7 @@ public SplitStreamContainer(StreamContainer stream, bool disposeStream)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | StreamContainer | Контейнер потока. |
-| disposeStream | Boolean | , если установлено значение` true` удаляет поток. |
+| disposeStream | Boolean | если установлено`истинный` распоряжается потоком. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置点的 X 坐标 以通用文档距离单位测量
+description: 获取或设置点的X坐标 常用文档距离单位测量
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/x/
 ---
 ## CmxPathPointSpec.X property
 
-获取或设置点的 X 坐标。 以通用文档距离单位测量。
+获取或设置点的X坐标。 常用文档距离单位测量。
 
 ```csharp
 public float X { get; set; }

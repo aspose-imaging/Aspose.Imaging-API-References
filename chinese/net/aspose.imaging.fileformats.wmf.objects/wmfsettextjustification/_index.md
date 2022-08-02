@@ -1,14 +1,14 @@
 ---
 title: WmfSetTextJustification
 second_title: Aspose.Imaging for .NET API 参考
-description: META_SETTEXTJUSTIFICATION 记录定义了在对齐文本字符串中添加 到 ltsee langwordbreak /gt 字符的空间量
+description: META_SETTEXTJUSTIFICATION 记录定义了要添加 的空间量break对齐文本字符串中的字符
 type: docs
 weight: 9190
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfsettextjustification/
 ---
 ## WmfSetTextJustification class
 
-META_SETTEXTJUSTIFICATION 记录定义了在对齐文本字符串中添加 到 &lt;see langword="break" /&gt; 字符的空间量。
+META_SETTEXTJUSTIFICATION 记录定义了要添加 的空间量`break`对齐文本字符串中的字符。
 
 ```csharp
 public class WmfSetTextJustification : WmfObject
@@ -24,8 +24,8 @@ public class WmfSetTextJustification : WmfObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BreakCount](../../aspose.imaging.fileformats.wmf.objects/wmfsettextjustification/breakcount) { get; set; } | 获取或设置 &lt;see langword="break" /&gt; 计数。 |
-| [BreakExtra](../../aspose.imaging.fileformats.wmf.objects/wmfsettextjustification/breakextra) { get; set; } | 获取或设置额外的 &lt;see langword="break" /&gt;。 |
+| [BreakCount](../../aspose.imaging.fileformats.wmf.objects/wmfsettextjustification/breakcount) { get; set; } | 获取或设置`break`计数. |
+| [BreakExtra](../../aspose.imaging.fileformats.wmf.objects/wmfsettextjustification/breakextra) { get; set; } | 获取或设置`break`额外的. |
 
 ### 也可以看看
 

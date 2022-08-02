@@ -18,14 +18,14 @@ public sealed class EmfStrokePath : EmfDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfStrokePath](emfstrokepath#constructor)() | 初始化[`EmfStrokePath`](../emfstrokepath)类的新实例。 |
-| [EmfStrokePath](emfstrokepath#constructor_1)(EmfRecord) | 初始化[`EmfStrokePath`](../emfstrokepath)类的新实例。 |
+| [EmfStrokePath](emfstrokepath#constructor)() | 初始化[`EmfStrokePath`](../emfstrokepath)类. |
+| [EmfStrokePath](emfstrokepath#constructor_1)(EmfRecord) | 初始化[`EmfStrokePath`](../emfstrokepath)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfstrokepath/bounds) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），它以设备单位指定边界矩形 |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfstrokepath/bounds) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），它以设备为单位指定边界矩形 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 
