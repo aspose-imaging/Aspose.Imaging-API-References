@@ -44,7 +44,9 @@ public struct Point
 | override [GetHashCode](../../aspose.imaging/point/gethashcode)() | Returns a hash code for this [`Point`](../point). |
 | [Offset](../../aspose.imaging/point/offset)(Point) | Translates this [`Point`](../point) by the specified [`Point`](../point). |
 | [Offset](../../aspose.imaging/point/offset)(int, int) | Translates this [`Point`](../point) by the specified amount. |
+| [ToLong](../../aspose.imaging/point/tolong)() | Convert this Point to a single long value, containing X and Y coordinates in high and low bits. |
 | override [ToString](../../aspose.imaging/point/tostring)() | Converts this [`Point`](../point) to a human-readable string. |
+| static [FromLong](../../aspose.imaging/point/fromlong)(long, out int, out int) | Deconstruct a Point object packed into a long object to separate X and Y int values. |
 | [operator +](../../aspose.imaging/point/op_addition) | Translates a [`Point`](../point) by a given [`Size`](../size). |
 | [operator ==](../../aspose.imaging/point/op_equality) | Compares two [`Point`](../point) objects. The result specifies whether the values of the [`X`](./x) and [`Y`](./y) properties of the two [`Point`](../point) objects are equal. |
 | [explicit operator](../../aspose.imaging/point/op_explicit) | Converts the specified [`Point`](../point) structure to a [`Size`](../size) structure. |

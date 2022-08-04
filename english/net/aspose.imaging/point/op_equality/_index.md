@@ -3,7 +3,7 @@ title: op_Equality
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 180
 url: /net/aspose.imaging/point/op_equality/
 ---
 ## Point Equality operator

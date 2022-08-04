@@ -3,7 +3,7 @@ title: op_Subtraction
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 220
 url: /net/aspose.imaging/point/op_subtraction/
 ---
 ## Point Subtraction operator

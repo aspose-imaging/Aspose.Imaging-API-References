@@ -3,7 +3,7 @@ title: op_Explicit
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 190
 url: /net/aspose.imaging/point/op_explicit/
 ---
 ## Point Explicit operator

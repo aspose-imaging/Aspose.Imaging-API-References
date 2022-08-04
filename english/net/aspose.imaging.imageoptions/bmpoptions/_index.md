@@ -27,7 +27,7 @@ public class BmpOptions : ImageOptionsBase
 | --- | --- |
 | [BitsPerPixel](../../aspose.imaging.imageoptions/bmpoptions/bitsperpixel) { get; set; } | Gets or sets the image bits per pixel count. |
 | [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
-| [Compression](../../aspose.imaging.imageoptions/bmpoptions/compression) { get; set; } | Gets or sets the compression. |
+| [Compression](../../aspose.imaging.imageoptions/bmpoptions/compression) { get; set; } | Gets or sets the compression type. The default compression type is Bitfields, that allows saving a [`BmpImage`](../../aspose.imaging.fileformats.bmp/bmpimage) with transparency. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | Gets or sets a value indicating whether [full frame]. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | The multipage options |

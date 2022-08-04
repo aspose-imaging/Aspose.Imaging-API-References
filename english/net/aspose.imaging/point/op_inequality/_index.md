@@ -3,7 +3,7 @@ title: op_Inequality
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 210
 url: /net/aspose.imaging/point/op_inequality/
 ---
 ## Point Inequality operator

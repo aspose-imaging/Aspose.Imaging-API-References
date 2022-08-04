@@ -22,7 +22,7 @@ public void RemovePage(int pageIndex)
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | *pageIndex* - Page index is less than `0`. or *pageIndex* - Page index is equal to or greater than [`PageCount`](../pagecount). |
+| ArgumentOutOfRangeException | *pageIndex* is out of range. |
 
 ### See Also
 

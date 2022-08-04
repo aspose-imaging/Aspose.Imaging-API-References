@@ -23,7 +23,7 @@ public override void SetPalette(IColorPalette palette, bool updateColors)
 
 | exception | condition |
 | --- | --- |
-| NotImplementedException | Not valid for vector images |
+| NotImplementedException | Invalid for vector images |
 
 ### See Also
 
