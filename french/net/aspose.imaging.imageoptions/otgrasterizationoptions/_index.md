@@ -1,0 +1,87 @@
+---
+title: OtgRasterizationOptions
+second_title: Référence de l'API Aspose.Imaging pour .NET
+description: Les options de rastérisation Otg
+type: docs
+weight: 10090
+url: /fr/net/aspose.imaging.imageoptions/otgrasterizationoptions/
+---
+## OtgRasterizationOptions class
+
+Les options de rastérisation Otg
+
+```csharp
+public class OtgRasterizationOptions : OdRasterizationOptions
+```
+
+## Constructeurs
+
+| Nom | La description |
+| --- | --- |
+| [OtgRasterizationOptions](otgrasterizationoptions)() | Default_Constructor |
+
+## Propriétés
+
+| Nom | La description |
+| --- | --- |
+| [BackgroundColor](../../aspose.imaging.imageoptions/vectorrasterizationoptions/backgroundcolor) { get; set; } | Obtient ou définit une couleur d'arrière-plan. |
+| [BorderX](../../aspose.imaging.imageoptions/vectorrasterizationoptions/borderx) { get; set; } | Obtient ou définit la bordure X. |
+| [BorderY](../../aspose.imaging.imageoptions/vectorrasterizationoptions/bordery) { get; set; } | Obtient ou définit la bordure Y. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Obtient ou définit l'indice de taille de tampon qui est défini comme la taille maximale autorisée pour tous les tampons internes. |
+| [CenterDrawing](../../aspose.imaging.imageoptions/vectorrasterizationoptions/centerdrawing) { get; set; } | Obtient ou définit une valeur indiquant si le dessin est centré. |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Obtient une valeur indiquant si cette instance est supprimée. |
+| [DrawColor](../../aspose.imaging.imageoptions/vectorrasterizationoptions/drawcolor) { get; set; } | Obtient ou définit une couleur de premier plan. |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | Obtient ou définit une valeur indiquant si [plein cadre]. |
+| [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | Les options multipages |
+| [PageHeight](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pageheight) { get; set; } | Obtient ou définit la hauteur de la page. |
+| [PageSize](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pagesize) { get; set; } | Obtient ou définit la taille de la page. |
+| [PageWidth](../../aspose.imaging.imageoptions/vectorrasterizationoptions/pagewidth) { get; set; } | Obtient ou définit la largeur de la page. |
+| virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Obtient ou définit la palette de couleurs. |
+| [Positioning](../../aspose.imaging.imageoptions/vectorrasterizationoptions/positioning) { get; set; } | Obtient ou définit le positionnement. |
+| [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Obtient ou définit le gestionnaire d'événements de progression. |
+| virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Obtient ou définit les paramètres de résolution. |
+| [SmoothingMode](../../aspose.imaging.imageoptions/vectorrasterizationoptions/smoothingmode) { get; set; } | Obtient ou définit le mode de lissage. |
+| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Obtient ou définit la source dans laquelle créer l'image. |
+| [TextRenderingHint](../../aspose.imaging.imageoptions/vectorrasterizationoptions/textrenderinghint) { get; set; } | Obtient ou définit l'indice de rendu du texte. |
+| [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Obtient ou définit les options de pixellisation vectorielle. |
+| virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata) { get; set; } | Obtient ou définit le conteneur de métadonnées XMP. |
+
+## Méthodes
+
+| Nom | La description |
+| --- | --- |
+| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | Clone cette instance. |
+| [CopyTo](../../aspose.imaging.imageoptions/vectorrasterizationoptions/copyto)(VectorRasterizationOptions) | Copie vers. |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | Supprime l'instance actuelle. |
+
+### Exemples
+
+L'extrait de code suivant montre comment convertir une image OTG en PDF et en d'autres formats d'image.
+
+```csharp
+[C#]
+
+string dir = "c:\\aspose.imaging\\issues\\net\\3567\\";
+string inputFilePath = dir + "VariousObjectsMultiPage.otg";
+Aspose.Imaging.ImageOptionsBase[] options = { new Aspose.Imaging.ImageOptions.PngOptions(), new Aspose.Imaging.ImageOptions.PdfOptions() };
+foreach (Aspose.Imaging.ImageOptionsBase saveOptions in options)
+{
+    string extension = saveOptions is Aspose.Imaging.ImageOptions.PngOptions ? ".png" : ".pdf";
+    using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFilePath))
+    {
+        Aspose.Imaging.ImageOptions.OtgRasterizationOptions otgRasterizationOptions = new Aspose.Imaging.ImageOptions.OtgRasterizationOptions();
+        otgRasterizationOptions.PageSize = image.Size;
+        saveOptions.VectorRasterizationOptions = otgRasterizationOptions;
+
+        image.Save(inputFilePath + extension, saveOptions);
+    }
+}
+```
+
+### Voir également
+
+* class [OdRasterizationOptions](../odrasterizationoptions)
+* espace de noms [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions)
+* Assemblée [Aspose.Imaging](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->

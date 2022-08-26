@@ -1,0 +1,115 @@
+---
+title: HorizontalResolution
+second_title: Référence de l'API Aspose.Imaging pour .NET
+description: Obtient ou définit la résolution horizontale en pixels par pouce de ceRasterImageaspose.imaging/rasterimage .
+type: docs
+weight: 70
+url: /fr/net/aspose.imaging.fileformats.bmp/bmpimage/horizontalresolution/
+---
+## BmpImage.HorizontalResolution property
+
+Obtient ou définit la résolution horizontale, en pixels par pouce, de ce[`RasterImage`](../../../aspose.imaging/rasterimage) .
+
+```csharp
+public override double HorizontalResolution { get; set; }
+```
+
+### Valeur de la propriété
+
+La résolution horizontale.
+
+### Remarques
+
+Notez que par défaut, cette valeur est toujours 96 car différentes plates-formes ne peuvent pas renvoyer la résolution de l'écran. Vous pouvez envisager d'utiliser la méthode SetResolution pour mettre à jour les deux valeurs de résolution en un seul appel.
+
+### Exemples
+
+L'exemple suivant montre comment définir la résolution horizontale/verticale d'une image BMP.
+
+```csharp
+[C#]
+
+string dir = "c:\\temp\\";
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
+{
+    Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = (Aspose.Imaging.FileFormats.Bmp.BmpImage)image;
+
+    // Récupère la résolution horizontale et verticale du BmpImage
+    double horizontalResolution = bmpImage.HorizontalResolution;
+    double verticalResolution = bmpImage.VerticalResolution;
+    System.Console.WriteLine("The horizontal resolution, in pixels per inch: {0}", horizontalResolution);
+    System.Console.WriteLine("The vertical resolution, in pixels per inch: {0}", verticalResolution);
+
+    if (horizontalResolution != 96.0 || verticalResolution != 96.0)
+    {
+        // Utilisez la méthode SetResolution pour mettre à jour les deux valeurs de résolution en un seul appel.
+        System.Console.WriteLine("Set resolution values to 96 dpi");
+        bmpImage.SetResolution(96.0, 96.0);
+
+        System.Console.WriteLine("The horizontal resolution, in pixels per inch: {0}", bmpImage.HorizontalResolution);
+        System.Console.WriteLine("The vertical resolution, in pixels per inch: {0}", bmpImage.VerticalResolution);
+    }
+
+    // La sortie peut ressembler à ceci :
+    // La résolution horizontale, en pixels par pouce : 0
+    // La résolution verticale, en pixels par pouce : 0
+    // Définissez les valeurs de résolution sur 96 dpi
+    // La résolution horizontale, en pixels par pouce : 96,012
+    // La résolution verticale, en pixels par pouce : 96,012
+}
+```
+
+L'exemple suivant obtient les informations générales sur l'image, y compris le format de pixel, la taille de l'image, la résolution, la compression, etc.
+
+```csharp
+[C#]
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\sample.bmp"))
+{
+    Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = (Aspose.Imaging.FileFormats.Bmp.BmpImage)image;                
+
+    System.Console.WriteLine("The pixel format: {0}", bmpImage.RawDataFormat);                
+    System.Console.WriteLine("The raw line size in bytes: {0}", bmpImage.RawLineSize);
+    System.Console.WriteLine("The bitmap compression: {0}", bmpImage.Compression);
+    System.Console.WriteLine("The bitmap width: {0}", bmpImage.Width);
+    System.Console.WriteLine("The bitmap height: {0}", bmpImage.Height);
+    System.Console.WriteLine("The number of bits per pixel: {0}", bmpImage.BitsPerPixel);
+
+    double hres = bmpImage.HorizontalResolution;
+    double vres = bmpImage.VerticalResolution;
+    System.Console.WriteLine("The horizontal resolution, in pixels per inch: {0}", hres);
+    System.Console.WriteLine("The vertical resolution, in pixels per inch: {0}", vres);
+
+    if (hres != 96.0 || vres != 96.0)
+    {
+        // Vous pouvez envisager d'utiliser la méthode SetResolution pour mettre à jour les deux valeurs de résolution en un seul appel.
+        System.Console.WriteLine("Set resolution values to 96 dpi");
+        bmpImage.SetResolution(96.0, 96.0);
+
+        System.Console.WriteLine("The horizontal resolution, in pixels per inch: {0}", bmpImage.HorizontalResolution);
+        System.Console.WriteLine("The vertical resolution, in pixels per inch: {0}", bmpImage.VerticalResolution);
+    }
+
+    //La sortie peut ressembler à ceci :
+    //Le format pixel : Rgb24Bpp, canaux utilisés : 8,8,8
+    // La taille de la ligne brute en octets : 1 500
+    //La compression bitmap : Rgb
+    //La largeur du bitmap : 500
+    // La hauteur du bitmap : 375
+    //Le nombre de bits par pixel : 24
+    //La résolution horizontale, en pixels par pouce : 0
+    //La résolution verticale, en pixels par pouce : 0
+    //Définir les valeurs de résolution à 96 dpi
+    //La résolution horizontale, en pixels par pouce : 96,012
+    //La résolution verticale, en pixels par pouce : 96,012
+}
+```
+
+### Voir également
+
+* class [BmpImage](../../bmpimage)
+* espace de noms [Aspose.Imaging.FileFormats.Bmp](../../bmpimage)
+* Assemblée [Aspose.Imaging](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
