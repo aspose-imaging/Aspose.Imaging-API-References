@@ -3,7 +3,7 @@ title: OdEllipticalQundrant
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7040
+weight: 7050
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odellipticalqundrant/
 ---
 ## OdEllipticalQundrant class

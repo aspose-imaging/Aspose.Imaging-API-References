@@ -3,7 +3,7 @@ title: OdListItem
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7140
+weight: 7150
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odlistitem/
 ---
 ## OdListItem class

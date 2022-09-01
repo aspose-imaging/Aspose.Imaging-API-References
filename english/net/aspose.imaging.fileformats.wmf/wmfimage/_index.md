@@ -3,7 +3,7 @@ title: WmfImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9280
+weight: 9290
 url: /net/aspose.imaging.fileformats.wmf/wmfimage/
 ---
 ## WmfImage class

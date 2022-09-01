@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10400
+weight: 10420
 url: /net/aspose.imaging/loadoptions/
 ---
 ## LoadOptions class

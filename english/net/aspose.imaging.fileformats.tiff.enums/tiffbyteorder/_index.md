@@ -3,7 +3,7 @@ title: TiffByteOrder
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7610
+weight: 7620
 url: /net/aspose.imaging.fileformats.tiff.enums/tiffbyteorder/
 ---
 ## TiffByteOrder enumeration

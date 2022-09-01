@@ -3,7 +3,7 @@ title: JpegLsInterleaveMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6780
+weight: 6790
 url: /net/aspose.imaging.fileformats.jpeg/jpeglsinterleavemode/
 ---
 ## JpegLsInterleaveMode enumeration

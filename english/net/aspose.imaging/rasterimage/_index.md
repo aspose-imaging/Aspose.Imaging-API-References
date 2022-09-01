@@ -3,7 +3,7 @@ title: RasterImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10810
+weight: 10830
 url: /net/aspose.imaging/rasterimage/
 ---
 ## RasterImage class

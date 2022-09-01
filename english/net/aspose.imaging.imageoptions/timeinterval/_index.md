@@ -3,7 +3,7 @@ title: TimeInterval
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10250
+weight: 10270
 url: /net/aspose.imaging.imageoptions/timeinterval/
 ---
 ## TimeInterval class

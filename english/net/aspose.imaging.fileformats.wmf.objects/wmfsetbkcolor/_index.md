@@ -3,7 +3,7 @@ title: WmfSetBkColor
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9040
+weight: 9050
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsetbkcolor/
 ---
 ## WmfSetBkColor class

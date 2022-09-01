@@ -3,7 +3,7 @@ title: ShapeSegment
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10920
+weight: 10940
 url: /net/aspose.imaging/shapesegment/
 ---
 ## ShapeSegment class

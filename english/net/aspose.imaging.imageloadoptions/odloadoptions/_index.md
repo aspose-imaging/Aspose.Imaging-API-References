@@ -3,7 +3,7 @@ title: OdLoadOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9870
+weight: 9880
 url: /net/aspose.imaging.imageloadoptions/odloadoptions/
 ---
 ## OdLoadOptions class

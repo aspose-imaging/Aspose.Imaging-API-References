@@ -3,7 +3,7 @@ title: WmfMetafileEscapes
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8230
+weight: 8240
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfmetafileescapes/
 ---
 ## WmfMetafileEscapes enumeration

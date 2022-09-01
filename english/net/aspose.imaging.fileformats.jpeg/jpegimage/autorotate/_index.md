@@ -14,6 +14,12 @@ Perform automatic rotate of image depending on orientation data provided by Exif
 public void AutoRotate()
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | The 'Orientation' value of 'JpegExifData' is out of allowed range [1...8], so auto-rotation can not be applied. |
+
 ### See Also
 
 * class [JpegImage](../../jpegimage)

@@ -48,6 +48,7 @@ public enum FileFormat : ulong
 | Wmz | `8000000` | The WMZ, compressed wmf |
 | Svgz | `10000000` | The SVGZ, compressed svg |
 | FOdg | `20000000` | The fodg, flat odg format |
+| Ico | `40000000` | ICO file format. |
 
 ### See Also
 

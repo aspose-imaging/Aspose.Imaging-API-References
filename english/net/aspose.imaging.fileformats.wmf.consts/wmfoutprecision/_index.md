@@ -3,7 +3,7 @@ title: WmfOutPrecision
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8260
+weight: 8270
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfoutprecision/
 ---
 ## WmfOutPrecision enumeration

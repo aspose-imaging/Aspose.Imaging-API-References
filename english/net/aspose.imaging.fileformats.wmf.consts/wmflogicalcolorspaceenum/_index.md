@@ -3,7 +3,7 @@ title: WmfLogicalColorSpaceEnum
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8210
+weight: 8220
 url: /net/aspose.imaging.fileformats.wmf.consts/wmflogicalcolorspaceenum/
 ---
 ## WmfLogicalColorSpaceEnum enumeration

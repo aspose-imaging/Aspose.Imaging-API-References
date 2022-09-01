@@ -3,7 +3,7 @@ title: WmfColorUsageEnum
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8140
+weight: 8150
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfcolorusageenum/
 ---
 ## WmfColorUsageEnum enumeration

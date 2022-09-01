@@ -3,7 +3,7 @@ title: WmfPostScriptCap
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8300
+weight: 8310
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfpostscriptcap/
 ---
 ## WmfPostScriptCap enumeration

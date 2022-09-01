@@ -3,7 +3,7 @@ title: WmfHatchStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8200
+weight: 8210
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfhatchstyle/
 ---
 ## WmfHatchStyle enumeration

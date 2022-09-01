@@ -3,7 +3,7 @@ title: Group3Options
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7590
+weight: 7600
 url: /net/aspose.imaging.fileformats.tiff.enums/group3options/
 ---
 ## Group3Options enumeration

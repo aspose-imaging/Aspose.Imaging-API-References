@@ -3,7 +3,7 @@ title: Aspose.Imaging.FlatArray.Exceptions
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles Psd file format processing.
 type: docs
-weight: 730
+weight: 740
 url: /net/aspose.imaging.flatarray.exceptions/
 ---
 The namespace handles Psd file format processing.

@@ -3,7 +3,7 @@ title: WebPFrameBlock
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8070
+weight: 8080
 url: /net/aspose.imaging.fileformats.webp/webpframeblock/
 ---
 ## WebPFrameBlock class
@@ -32,7 +32,7 @@ public class WebPFrameBlock : RasterCachedImage, IAnimationFrame, IFrame
 | [BufferSizeHint](../../aspose.imaging/image/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | [Container](../../aspose.imaging/image/container) { get; } | Gets the [`Image`](../../aspose.imaging/image) container. |
 | [DataStreamContainer](../../aspose.imaging/datastreamsupporter/datastreamcontainer) { get; } | Gets the object's data stream. |
-| [DisposalMethod](../../aspose.imaging.fileformats.webp/webpframeblock/disposalmethod) { get; } | Gets the disposal method. |
+| [DisposalMethod](../../aspose.imaging.fileformats.webp/webpframeblock/disposalmethod) { get; set; } | Gets or sets the disposal method. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
 | [Duration](../../aspose.imaging.fileformats.webp/webpframeblock/duration) { get; set; } | Gets or sets the frame duration. |
 | virtual [FileFormat](../../aspose.imaging/image/fileformat) { get; } | Gets a value of file format |
@@ -61,6 +61,7 @@ public class WebPFrameBlock : RasterCachedImage, IAnimationFrame, IFrame
 | [Top](../../aspose.imaging.fileformats.webp/webpframeblock/top) { get; set; } | Gets or sets the frame position top. |
 | virtual [TransparentColor](../../aspose.imaging/rasterimage/transparentcolor) { get; set; } | Gets the image transparent color. |
 | virtual [UpdateXmpData](../../aspose.imaging/rasterimage/updatexmpdata) { get; set; } | Gets or sets a value indicating whether to update the XMP metadata. |
+| [UseAlphaBlending](../../aspose.imaging.fileformats.webp/webpframeblock/usealphablending) { get; set; } | Gets or sets the value indicating whether current frame gets blended with the previous frame alpha values. |
 | override [UsePalette](../../aspose.imaging/rasterimage/usepalette) { get; } | Gets a value indicating whether the image palette is used. |
 | virtual [UseRawData](../../aspose.imaging/rasterimage/userawdata) { get; set; } | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
 | virtual [VerticalResolution](../../aspose.imaging/rasterimage/verticalresolution) { get; set; } | Gets or sets the vertical resolution, in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage). |

@@ -3,7 +3,7 @@ title: OdImageObject
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7100
+weight: 7110
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odimageobject/
 ---
 ## OdImageObject class

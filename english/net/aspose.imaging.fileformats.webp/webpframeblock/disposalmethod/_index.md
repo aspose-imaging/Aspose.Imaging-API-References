@@ -8,10 +8,10 @@ url: /net/aspose.imaging.fileformats.webp/webpframeblock/disposalmethod/
 ---
 ## WebPFrameBlock.DisposalMethod property
 
-Gets the disposal method.
+Gets or sets the disposal method.
 
 ```csharp
-public AnimationDisposalMethods DisposalMethod { get; }
+public AnimationDisposalMethods DisposalMethod { get; set; }
 ```
 
 ### Property Value

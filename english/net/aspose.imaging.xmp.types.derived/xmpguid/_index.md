@@ -3,7 +3,7 @@ title: XmpGuid
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11670
+weight: 11690
 url: /net/aspose.imaging.xmp.types.derived/xmpguid/
 ---
 ## XmpGuid class

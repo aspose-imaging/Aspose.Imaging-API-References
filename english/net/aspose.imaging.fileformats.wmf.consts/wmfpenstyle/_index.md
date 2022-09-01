@@ -3,7 +3,7 @@ title: WmfPenStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8270
+weight: 8280
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfpenstyle/
 ---
 ## WmfPenStyle enumeration

@@ -3,7 +3,7 @@ title: TiffTags
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7740
+weight: 7750
 url: /net/aspose.imaging.fileformats.tiff.enums/tifftags/
 ---
 ## TiffTags enumeration

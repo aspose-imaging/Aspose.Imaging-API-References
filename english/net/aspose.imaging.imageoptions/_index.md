@@ -3,7 +3,7 @@ title: Aspose.Imaging.ImageOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains classes suitable for export save or creation of different file formats.
 type: docs
-weight: 760
+weight: 770
 url: /net/aspose.imaging.imageoptions/
 ---
 The namespace contains classes suitable for export, save or creation of different file formats.
@@ -24,6 +24,7 @@ The namespace contains classes suitable for export, save or creation of differen
 | [EpsRasterizationOptions](./epsrasterizationoptions) | The Eps rasterization options. |
 | [GifOptions](./gifoptions) | The gif file format creation options. |
 | [Html5CanvasOptions](./html5canvasoptions) | The Html5 Canvas file format creation options. |
+| [IcoOptions](./icooptions) | The ICO file format creation options. |
 | [Jpeg2000Options](./jpeg2000options) | The Jpeg2000 file format options. |
 | [JpegOptions](./jpegoptions) | The jpeg file format create options. |
 | [MetafileOptions](./metafileoptions) | The Metafiles base options. |
