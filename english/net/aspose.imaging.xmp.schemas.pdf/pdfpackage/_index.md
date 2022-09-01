@@ -3,7 +3,7 @@ title: PdfPackage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11310
+weight: 11300
 url: /net/aspose.imaging.xmp.schemas.pdf/pdfpackage/
 ---
 ## PdfPackage class

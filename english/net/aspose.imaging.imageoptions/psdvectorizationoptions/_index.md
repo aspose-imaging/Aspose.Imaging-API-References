@@ -3,7 +3,7 @@ title: PsdVectorizationOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10160
+weight: 10150
 url: /net/aspose.imaging.imageoptions/psdvectorizationoptions/
 ---
 ## PsdVectorizationOptions class

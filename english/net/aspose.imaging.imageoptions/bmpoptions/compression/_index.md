@@ -8,7 +8,7 @@ url: /net/aspose.imaging.imageoptions/bmpoptions/compression/
 ---
 ## BmpOptions.Compression property
 
-Gets or sets the compression.
+Gets or sets the compression type. The default compression type is Bitfields, that allows saving a [`BmpImage`](../../../aspose.imaging.fileformats.bmp/bmpimage) with transparency.
 
 ```csharp
 public BitmapCompression Compression { get; set; }
@@ -16,7 +16,7 @@ public BitmapCompression Compression { get; set; }
 
 ### Property Value
 
-The compression.
+The compression type.
 
 ### Examples
 
@@ -39,6 +39,43 @@ Compress BMP image using DXT1 compression algorithm.
 using (var image = Image.Load("Tiger.bmp"))
 {
     image.Save("CompressedTiger.bmp", new BmpOptions { Compression = BitmapCompression.Dxt1 });
+}
+```
+
+The example shows how to export a BmpImage with the Rgb compression type.
+
+```csharp
+[C#]
+
+string sourcePath = "input.png";
+// Load a PNG image from a file.
+using (Image pngImage = Image.Load(sourcePath))
+{
+    // BMP image is saved with transparency support by default, that is achieved by using the BitmapCompression.Bitfields compression method. 
+    // To save a BMP image with the Rgb compression method, the BmpOptions with the Compression property set to BitmapCompression.Rgb should be specified.
+    pngImage.Save(outputPath, new BmpOptions() { Compression = BitmapCompression.Rgb });
+}
+```
+
+The example shows how to export a BmpImage from a Png file while keeping the alpha channel, save a Bmp file with transparency.
+
+```csharp
+[C#]
+
+string sourcePath = "input.png";
+// Load a PNG image from a file.
+using (Image pngImage = Image.Load(sourcePath))
+{
+    // BMP image is saved with transparency support by default. 
+    // If you want to explicitly specify such mode, the BmpOptions's Compression property should be set to BitmapCompression.Bitfields.
+    // The BitmapCompression.Bitfields compression method is the default compression method in the BmpOptions.
+    // So the same result of exporting a Bmp image with transparency can be achieved by either one of the following ways.
+    // With an implicit default options:
+    pngImage.Save(outputPath);
+    // With an explicit default options:
+    pngImage.Save(outputPath, new BmpOptions());
+    // Specifying the BitmapCompression.Bitfields compression method:
+    pngImage.Save(outputPath, new BmpOptions() { Compression = BitmapCompression.Bitfields });
 }
 ```
 

@@ -3,7 +3,7 @@ title: op_Implicit
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 200
 url: /net/aspose.imaging/point/op_implicit/
 ---
 ## Point Implicit operator

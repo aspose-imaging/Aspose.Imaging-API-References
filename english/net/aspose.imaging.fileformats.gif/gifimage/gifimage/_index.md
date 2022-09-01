@@ -23,9 +23,9 @@ public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette)
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | The frame cannot be null;firstFrame |
-| ArgumentException | The first frame already belongs to some other image. Check the Container property.;firstFrame |
-| [GifImageException](../../../aspose.imaging.coreexceptions.imageformats/gifimageexception) | The palette specified should contain entries count equal to power of 2. Minimal palette size is 2, maximal is 256. |
+| ArgumentNullException | The *firstFrame* cannot be null |
+| ArgumentException | The *firstFrame* already belongs to some other image. Check the Container property. |
+| [GifImageException](../../../aspose.imaging.coreexceptions.imageformats/gifimageexception) | The *globalPalette* specified should contain entries count equal to power of 2. Minimal palette size is 2, maximal is 256. |
 
 ### Examples
 
@@ -80,9 +80,9 @@ public GifImage(GifFrameBlock firstFrame)
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | The frame cannot be null;firstFrame |
-| ArgumentException | The first frame already belongs to some other image. Check the Container property.;firstFrame |
-| [GifImageException](../../../aspose.imaging.coreexceptions.imageformats/gifimageexception) | The palette specified should contain entries count equal to power of 2. Minimal palette size is 2, maximal is 256. |
+| ArgumentNullException | The *firstFrame* cannot be null |
+| ArgumentException | The *firstFrame* already belongs to some other image. Check the Container property. |
+| [GifImageException](../../../aspose.imaging.coreexceptions.imageformats/gifimageexception) | The palette specified must contain entries count equal to power of 2. Minimal palette size is 2, maximal is 256. |
 
 ### Examples
 
@@ -186,9 +186,9 @@ public GifImage(GifFrameBlock firstFrame, IColorPalette globalPalette, bool isPa
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | The frame cannot be null;firstFrame |
-| ArgumentException | The first frame already belongs to some other image. Check the Container property.;firstFrame |
-| [GifImageException](../../../aspose.imaging.coreexceptions.imageformats/gifimageexception) | The palette specified should contain entries count equal to power of 2. Minimal palette size is 2, maximal is 256. |
+| ArgumentNullException | The *firstFrame* cannot be null |
+| ArgumentException | The *firstFrame* already belongs to some other image. Check the Container property. |
+| [GifImageException](../../../aspose.imaging.coreexceptions.imageformats/gifimageexception) | The *globalPalette* specified should contain entries count equal to power of 2. Minimal palette size is 2, maximal is 256. |
 
 ### See Also
 

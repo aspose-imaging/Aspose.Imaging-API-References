@@ -3,7 +3,7 @@ title: StringAlignment
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11150
+weight: 11140
 url: /net/aspose.imaging/stringalignment/
 ---
 ## StringAlignment enumeration

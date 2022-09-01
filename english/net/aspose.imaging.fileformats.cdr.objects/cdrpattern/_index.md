@@ -24,7 +24,6 @@ public class CdrPattern : CdrDictionaryItem
 
 | Name | Description |
 | --- | --- |
-| [Data](../../aspose.imaging.fileformats.cdr.objects/cdrpattern/data) { get; set; } | Gets or sets the data. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | Gets or sets the document. |
 | [Height](../../aspose.imaging.fileformats.cdr.objects/cdrpattern/height) { get; set; } | Gets or sets the height. |

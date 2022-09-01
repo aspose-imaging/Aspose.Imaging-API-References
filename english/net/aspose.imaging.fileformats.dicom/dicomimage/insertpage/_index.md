@@ -26,7 +26,7 @@ The newly created [`DicomPage`](../../dicompage).
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | *pageIndex* - Page index is less than `0`. or *pageIndex* - Page index is greater than [`PageCount`](../pagecount). |
+| ArgumentOutOfRangeException | *pageIndex* is out of range. |
 
 ### Examples
 

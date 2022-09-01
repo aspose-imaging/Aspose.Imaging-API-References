@@ -3,7 +3,7 @@ title: SplitStreamContainer
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11130
+weight: 11120
 url: /net/aspose.imaging/splitstreamcontainer/
 ---
 ## SplitStreamContainer class

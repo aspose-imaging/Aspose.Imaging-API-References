@@ -1,22 +1,22 @@
 ---
-title: ToString
+title: ToLong
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 150
-url: /net/aspose.imaging/point/tostring/
+weight: 140
+url: /net/aspose.imaging/point/tolong/
 ---
-## Point.ToString method
+## Point.ToLong method
 
-Converts this [`Point`](../../point) to a human-readable string.
+Convert this Point to a single long value, containing X and Y coordinates in high and low bits.
 
 ```csharp
-public override string ToString()
+public long ToLong()
 ```
 
 ### Return Value
 
-A String that represents this instance.
+The Point object packed into one long value.
 
 ### See Also
 

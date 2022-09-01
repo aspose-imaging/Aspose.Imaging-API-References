@@ -23,7 +23,7 @@ public CdrImage(Stream stream, LoadOptions loadOptions)
 
 | exception | condition |
 | --- | --- |
-| IndexOutOfRangeException | This document not be contained pages |
+| IndexOutOfRangeException | CDR document contains no pages. |
 
 ### See Also
 

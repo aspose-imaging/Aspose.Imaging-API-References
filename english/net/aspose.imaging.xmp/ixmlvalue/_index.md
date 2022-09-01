@@ -3,7 +3,7 @@ title: IXmlValue
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11260
+weight: 11250
 url: /net/aspose.imaging.xmp/ixmlvalue/
 ---
 ## IXmlValue interface

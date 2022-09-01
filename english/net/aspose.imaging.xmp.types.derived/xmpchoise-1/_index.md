@@ -3,7 +3,7 @@ title: XmpChoiseT
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11670
+weight: 11660
 url: /net/aspose.imaging.xmp.types.derived/xmpchoise-1/
 ---
 ## XmpChoise&lt;T&gt; class

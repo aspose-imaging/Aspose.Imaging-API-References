@@ -22,9 +22,9 @@ public BmpImage(string path)
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | raster image is null;rasterImage |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height should be positive. |
-| ArgumentException | Palette should be specified for images with 8 bits per pixel or less.;palette |
+| ArgumentNullException | raster image is null. |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height must be positive. |
+| ArgumentException | Palette must be specified for images with 8 bits per pixel or less. |
 
 ### Examples
 
@@ -74,9 +74,9 @@ public BmpImage(string path, ushort bitsPerPixel, BitmapCompression compression,
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | The raster image cannot be null;rasterImage |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height should be positive. |
-| ArgumentException | Palette should be specified for images with 8 bits per pixel or less.;palette |
+| ArgumentNullException | raster image is null. |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height must be positive. |
+| ArgumentException | Palette must be specified for images with 8 bits per pixel or less. |
 
 ### Examples
 
@@ -124,9 +124,9 @@ public BmpImage(Stream stream)
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | The raster image cannot be null;rasterImage |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height should be positive. |
-| ArgumentException | Palette should be specified for images with 8 bits per pixel or less.;palette |
+| ArgumentNullException | raster image is null. |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height must be positive. |
+| ArgumentException | Palette must be specified for images with 8 bits per pixel or less. |
 
 ### Examples
 
@@ -179,9 +179,9 @@ public BmpImage(Stream stream, ushort bitsPerPixel, BitmapCompression compressio
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | The raster image cannot be null;rasterImage |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height should be positive. |
-| ArgumentException | Palette should be specified for images with 8 bits per pixel or less.;palette |
+| ArgumentNullException | raster image is null. |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height must be positive. |
+| ArgumentException | Palette must be specified for images with 8 bits per pixel or less. |
 
 ### Examples
 
@@ -232,9 +232,9 @@ public BmpImage(RasterImage rasterImage)
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | The raster image cannot be null;rasterImage |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height should be positive. |
-| ArgumentException | Palette should be specified for images with 8 bits per pixel or less.;palette |
+| ArgumentNullException | raster image is null. |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height must be positive. |
+| ArgumentException | Palette must be specified for images with 8 bits per pixel or less. |
 
 ### Examples
 
@@ -295,9 +295,9 @@ public BmpImage(RasterImage rasterImage, ushort bitsPerPixel, BitmapCompression 
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | The raster image cannot be null;rasterImage |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height should be positive. |
-| ArgumentException | Palette should be specified for images with 8 bits per pixel or less.;palette |
+| ArgumentNullException | raster image is null. |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height must be positive. |
+| ArgumentException | Palette must be specified for images with 8 bits per pixel or less. |
 
 ### Examples
 
@@ -356,8 +356,8 @@ public BmpImage(int width, int height)
 
 | exception | condition |
 | --- | --- |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height should be positive. |
-| ArgumentException | Palette should be specified for images with 8 bits per pixel or less.;palette |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height must be positive. |
+| ArgumentException | Palette must be specified for images with 8 bits per pixel or less. |
 
 ### Examples
 
@@ -455,8 +455,8 @@ public BmpImage(int width, int height, ushort bitsPerPixel, IColorPalette palett
 
 | exception | condition |
 | --- | --- |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height should be positive. |
-| ArgumentException | Palette should be specified for images with 8 bits per pixel or less.;palette |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height must be positive. |
+| ArgumentException | Palette must be specified for images with 8 bits per pixel or less. |
 
 ### Examples
 
@@ -526,8 +526,8 @@ public BmpImage(int width, int height, ushort bitsPerPixel, IColorPalette palett
 
 | exception | condition |
 | --- | --- |
-| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height should be positive. |
-| ArgumentException | Palette should be specified for images with 8 bits per pixel or less.;palette |
+| [BmpImageException](../../../aspose.imaging.coreexceptions.imageformats/bmpimageexception) | The height must be positive. |
+| ArgumentException | Palette must be specified for images with 8 bits per pixel or less. |
 
 ### Examples
 

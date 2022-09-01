@@ -22,7 +22,7 @@ public TiffImage(TiffFrame frame)
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | Tiff frame cannot be empty.;frame |
+| ArgumentNullException | Tiff *frame* cannot be empty. |
 
 ### Examples
 

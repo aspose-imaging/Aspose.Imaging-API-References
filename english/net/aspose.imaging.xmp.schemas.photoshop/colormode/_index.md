@@ -3,7 +3,7 @@ title: ColorMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11320
+weight: 11310
 url: /net/aspose.imaging.xmp.schemas.photoshop/colormode/
 ---
 ## ColorMode enumeration

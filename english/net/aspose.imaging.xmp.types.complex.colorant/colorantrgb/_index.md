@@ -3,7 +3,7 @@ title: ColorantRgb
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11560
+weight: 11550
 url: /net/aspose.imaging.xmp.types.complex.colorant/colorantrgb/
 ---
 ## ColorantRgb class
