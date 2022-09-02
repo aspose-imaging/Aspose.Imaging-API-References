@@ -1,0 +1,133 @@
+---
+title: PageSize
+second_title: Aspose.Imaging for .NET API Referansı
+description: Sayfa boyutunu alır veya ayarlar.
+type: docs
+weight: 80
+url: /tr/net/aspose.imaging.imageoptions/vectorrasterizationoptions/pagesize/
+---
+## VectorRasterizationOptions.PageSize property
+
+Sayfa boyutunu alır veya ayarlar.
+
+```csharp
+public SizeF PageSize { get; set; }
+```
+
+### Örnekler
+
+Bu örnek, bir dosyadan bir WMF görüntüsünün nasıl yükleneceğini ve WmfRasterizationOptions kullanılarak SVG'ye nasıl dönüştürüleceğini gösterir.
+
+```csharp
+[C#]
+
+string dir = "c:\\temp\\";
+
+// Aspose.Imaging.Image.Load'u kullanmak, WMF dahil tüm görüntü türlerini yüklemek için birleşik bir yoldur.
+using (Aspose.Imaging.FileFormats.Wmf.WmfImage wmfImage = (Aspose.Imaging.FileFormats.Wmf.WmfImage)Aspose.Imaging.Image.Load(dir + "test.wmf"))
+{
+    Aspose.Imaging.ImageOptions.SvgOptions saveOptions = new Aspose.Imaging.ImageOptions.SvgOptions();
+        
+    // Metin şekillere dönüştürülecek.
+    saveOptions.TextAsShapes = true;
+
+    Aspose.Imaging.ImageOptions.WmfRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.WmfRasterizationOptions();
+
+    // Çizim yüzeyinin arka plan rengi.
+    rasterizationOptions.BackgroundColor = Aspose.Imaging.Color.WhiteSmoke;
+
+    // Sayfa boyutu.
+    rasterizationOptions.PageSize = wmfImage.Size;
+
+    // Gömülü emf varsa, emf oluştur; aksi takdirde wmf oluştur.
+    rasterizationOptions.RenderMode = Aspose.Imaging.FileFormats.Wmf.WmfRenderMode.Auto;
+
+    saveOptions.VectorRasterizationOptions = rasterizationOptions;
+
+    wmfImage.Save(dir + "test.output.svg", saveOptions);
+}
+```
+
+Bu örnek, bir dosyadan bir EMF görüntüsünün nasıl yükleneceğini ve EmfRasterizationOptions kullanılarak SVG'ye nasıl dönüştürüleceğini gösterir.
+
+```csharp
+[C#]
+
+string dir = "c:\\temp\\";
+
+// Aspose.Imaging.Image.Load'u kullanmak, EMF dahil her türlü görüntüyü yüklemek için birleşik bir yoldur.
+using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFormats.Emf.EmfImage)Aspose.Imaging.Image.Load(dir + "test.emf"))
+{
+    Aspose.Imaging.ImageOptions.SvgOptions saveOptions = new Aspose.Imaging.ImageOptions.SvgOptions();
+
+    // Metin şekillere dönüştürülecek.
+    saveOptions.TextAsShapes = true;
+
+    Aspose.Imaging.ImageOptions.EmfRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.EmfRasterizationOptions();
+
+    // Çizim yüzeyinin arka plan rengi.
+    rasterizationOptions.BackgroundColor = Aspose.Imaging.Color.WhiteSmoke;
+
+    // Sayfa boyutu.
+    rasterizationOptions.PageSize = emfImage.Size;
+
+    // Gömülü emf varsa, emf oluştur; aksi takdirde wmf oluştur.
+    rasterizationOptions.RenderMode = Aspose.Imaging.FileFormats.Emf.EmfRenderMode.Auto;
+
+    // Yatay kenar boşluğunu ayarla
+    rasterizationOptions.BorderX = 50;
+
+    // Dikey kenar boşluğunu ayarla
+    rasterizationOptions.BorderY = 50;
+
+    saveOptions.VectorRasterizationOptions = rasterizationOptions;
+
+    emfImage.Save(dir + "test.output.svg", saveOptions);
+}
+```
+
+Bu örnek, bir dosyadan bir SVG görüntüsünün nasıl yükleneceğini ve çeşitli seçenekleri kullanarak PNG'ye nasıl rasterleştirileceğini gösterir.
+
+```csharp
+[C#]
+
+string dir = "c:\\temp\\";
+
+// Aspose.Imaging.Image.Load kullanmak, imaj yüklemek için birleşik bir yoldur.
+using (Aspose.Imaging.FileFormats.Svg.SvgImage svgImage = (Aspose.Imaging.FileFormats.Svg.SvgImage)Aspose.Imaging.Image.Load(dir + "test.svg"))
+{
+    // SVG'yi rasterleştirmek için rasterleştirme seçeneklerini belirtmemiz gerekiyor.
+    Aspose.Imaging.ImageOptions.SvgRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.SvgRasterizationOptions();
+
+    // Bir görüntü için bir arka planın varsayılan rengini ayarlayın. Varsayılan değer beyazdır.
+    rasterizationOptions.BackgroundColor = Aspose.Imaging.Color.Gray;
+
+    // Sayfa boyutunu ayarla
+    rasterizationOptions.PageSize = svgImage.Size;
+
+    // Çizgilere, eğrilere ve dolgulu alanların kenarlarına kenar yumuşatma uygulanır.
+    rasterizationOptions.SmoothingMode = Aspose.Imaging.SmoothingMode.AntiAlias;
+
+    // Her karakter, kenar yumuşatılmış glif bit eşlemi kullanılarak ipucu verilmeden çizilir.
+    rasterizationOptions.TextRenderingHint = Aspose.Imaging.TextRenderingHint.AntiAlias;
+
+    // Görüntü boyutunu 10 kat küçültün, yani çıktı boyutu orijinal boyutun %10'u olacaktır.
+    rasterizationOptions.ScaleX = 0.1f;
+    rasterizationOptions.ScaleY = 0.1f;
+
+    Aspose.Imaging.ImageOptions.PngOptions saveOptions = new Aspose.Imaging.ImageOptions.PngOptions();
+    saveOptions.VectorRasterizationOptions = rasterizationOptions;
+
+    // PNG dosyasına kaydet
+    svgImage.Save(dir + "test.output.png", saveOptions);
+}
+```
+
+### Ayrıca bakınız
+
+* struct [SizeF](../../../aspose.imaging/sizef)
+* class [VectorRasterizationOptions](../../vectorrasterizationoptions)
+* ad alanı [Aspose.Imaging.ImageOptions](../../vectorrasterizationoptions)
+* toplantı [Aspose.Imaging](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->
