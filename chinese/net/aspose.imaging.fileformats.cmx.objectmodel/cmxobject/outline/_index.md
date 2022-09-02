@@ -16,7 +16,7 @@ public CmxOutline Outline { get; set; }
 
 ### 适当的价值
 
-轮廓样式。
+轮廓样式.
 
 ### 也可以看看
 

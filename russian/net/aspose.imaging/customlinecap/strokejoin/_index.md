@@ -1,14 +1,14 @@
 ---
 title: StrokeJoin
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает перечислениеLineJoinaspose.imaging/linejoin которое определяет как строки составляют этоCustomLineCapобъединены.
+description: Получает или задаетLineJoinaspose.imaging/linejoin перечисление которое определяет как строки составляющие этоCustomLineCapaspose.imaging/customlinecap объекты объединены.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging/customlinecap/strokejoin/
 ---
 ## CustomLineCap.StrokeJoin property
 
-Получает или задает перечисление[`LineJoin`](../../linejoin), которое определяет, как строки составляют этоCustomLineCapобъединены.
+Получает или задает[`LineJoin`](../../linejoin) перечисление, которое определяет, как строки, составляющие это[`CustomLineCap`](../../customlinecap) объекты объединены.
 
 ```csharp
 public LineJoin StrokeJoin { get; set; }
@@ -16,7 +16,7 @@ public LineJoin StrokeJoin { get; set; }
 
 ### Стоимость имущества
 
-[`LineJoin`](../../linejoin)перечисление этогоCustomLineCapиспользуется для соединения линий.
+[`LineJoin`](../../linejoin) перечислить это[`CustomLineCap`](../../customlinecap) объект использует для соединения линий.
 
 ### Смотрите также
 

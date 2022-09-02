@@ -1,14 +1,14 @@
 ---
 title: EmfStrokePath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Класс EMR_STROKEPATH
+description: EMR_STROKEPATH class
 type: docs
 weight: 4620
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfstrokepath/
 ---
 ## EmfStrokePath class
 
-Класс EMR_STROKEPATH
+EMR_STROKEPATH class
 
 ```csharp
 public sealed class EmfStrokePath : EmfDrawingRecordType
@@ -18,15 +18,15 @@ public sealed class EmfStrokePath : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfStrokePath](emfstrokepath#constructor)() | Инициализирует новый экземпляр класса[`EmfStrokePath`](../emfstrokepath). |
-| [EmfStrokePath](emfstrokepath#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfStrokePath`](../emfstrokepath). |
+| [EmfStrokePath](emfstrokepath#constructor)() | Инициализирует новый экземпляр[`EmfStrokePath`](../emfstrokepath) класс. |
+| [EmfStrokePath](emfstrokepath#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfStrokePath`](../emfstrokepath) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfstrokepath/bounds) { get; set; } | Получает или задает 128-битный объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который указывает ограничивающий прямоугольник в единицах устройства |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfstrokepath/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF ([MS-WMF], раздел 2.2.2.19), который указывает ограничивающий прямоугольник в устройстве unit |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

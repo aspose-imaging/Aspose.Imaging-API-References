@@ -1,14 +1,14 @@
 ---
 title: GPSAreaInformation
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 GPS 区域信息
+description: 获取或设置GPS区域信息
 type: docs
 weight: 380
 url: /zh/net/aspose.imaging.exif/exifdata/gpsareainformation/
 ---
 ## ExifData.GPSAreaInformation property
 
-获取或设置 GPS 区域信息。
+获取或设置GPS区域信息
 
 ```csharp
 public byte[] GPSAreaInformation { get; set; }
@@ -16,7 +16,7 @@ public byte[] GPSAreaInformation { get; set; }
 
 ### 适当的价值
 
-GPS区域信息。
+GPS 区域信息。
 
 ### 也可以看看
 

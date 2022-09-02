@@ -1,14 +1,14 @@
 ---
 title: GetXmpRepresentation
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение содержащееся в строке в формате XMP.
+description: Получает содержащееся в строке значение в формате XMP.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.xmp.types.derived/rational/getxmprepresentation/
 ---
 ## Rational.GetXmpRepresentation method
 
-Получает значение, содержащееся в строке, в формате XMP.
+Получает содержащееся в строке значение в формате XMP.
 
 ```csharp
 public override string GetXmpRepresentation()
@@ -16,7 +16,7 @@ public override string GetXmpRepresentation()
 
 ### Возвращаемое значение
 
-Возвращает строку, содержащую значение, в формате XMP.
+Возвращает содержащееся в строке значение в формате XMP.
 
 ### Смотрите также
 

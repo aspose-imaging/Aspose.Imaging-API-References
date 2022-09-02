@@ -1,14 +1,14 @@
 ---
 title: Bounds
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект WMF RectL MS-WMF раздел 2.2.2.19 определяющий ограничивающий прямоугольник в единицах устройства для вывода созданного при выполнении функции OpenGL.
+description: Получает или задает объект WMF RectL MS-WMF раздел 2.2.2.19 который определяет прямоугольник bounding в единицах устройства для вывода создаваемого выполнением функции OpenGL.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord/bounds/
 ---
 ## EmfGlsBoundedRecord.Bounds property
 
-Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19), определяющий ограничивающий прямоугольник в единицах устройства, для вывода, созданного при выполнении функции OpenGL.
+Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который определяет прямоугольник bounding в единицах устройства для вывода, создаваемого выполнением функции OpenGL.
 
 ```csharp
 public Rectangle Bounds { get; set; }

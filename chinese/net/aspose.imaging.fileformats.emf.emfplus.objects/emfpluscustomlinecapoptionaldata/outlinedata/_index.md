@@ -1,14 +1,14 @@
 ---
 title: OutlineData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置可选的 EmfPlusLinePath 对象第 2.2.2.26 节 指定自定义图形线帽轮廓的路径如果在 EmfPlusCustomLineCapData 对象的 CustomLineCapDataFlags 字段中设置了 CustomLineCapDataLinePath 标志则该字段必须存在
+description: 获取或设置可选的 EmfPlusLinePath 对象第 2.2.2.26 节 指定用于勾画自定义图形线帽的路径如果在 EmfPlusCustomLineCapData 对象的 CustomLineCapDataFlags 字段中设置了 CustomLineCapDataLinePath 标志则该字段必须存在
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapoptionaldata/outlinedata/
 ---
 ## EmfPlusCustomLineCapOptionalData.OutlineData property
 
-获取或设置可选的 EmfPlusLinePath 对象（第 2.2.2.26 节） 指定自定义图形线帽轮廓的路径。如果在 EmfPlusCustomLineCapData 对象的 CustomLineCapDataFlags 字段中设置了 CustomLineCapDataLinePath 标志，则该字段必须存在。
+获取或设置可选的 EmfPlusLinePath 对象（第 2.2.2.26 节） 指定用于勾画自定义图形线帽的路径。如果在 EmfPlusCustomLineCapData 对象的 CustomLineCapDataFlags 字段中设置了 CustomLineCapDataLinePath 标志，则该字段必须存在。
 
 ```csharp
 public EmfPlusLinePath OutlineData { get; set; }

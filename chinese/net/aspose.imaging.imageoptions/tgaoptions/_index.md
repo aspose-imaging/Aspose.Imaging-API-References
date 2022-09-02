@@ -3,7 +3,7 @@ title: TgaOptions
 second_title: Aspose.Imaging for .NET API 参考
 description: TGA 文件格式创建选项
 type: docs
-weight: 10220
+weight: 10210
 url: /zh/net/aspose.imaging.imageoptions/tgaoptions/
 ---
 ## TgaOptions class
@@ -18,16 +18,16 @@ public class TgaOptions : ImageOptionsBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TgaOptions](tgaoptions#constructor)() | 初始化[`TgaOptions`](../tgaoptions)类的新实例。 |
-| [TgaOptions](tgaoptions#constructor_1)(TgaOptions) | 初始化[`TgaOptions`](../tgaoptions)类的新实例。 |
+| [TgaOptions](tgaoptions#constructor)() | 初始化[`TgaOptions`](../tgaoptions)类. |
+| [TgaOptions](tgaoptions#constructor_1)(TgaOptions) | 初始化[`TgaOptions`](../tgaoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | 获取或设置缓冲区大小提示，该提示定义了所有内部缓冲区的最大允许大小。 |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示该实例是否被释放。 |
-| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | 获取或设置一个值，指示是否[全帧]。 |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示此实例是否被释放。 |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | 获取或设置一个值，指示是否[全帧]. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | 多页选项 |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | 获取或设置调色板。 |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | 获取或设置进度事件处理程序。 |
@@ -41,7 +41,7 @@ public class TgaOptions : ImageOptionsBase
 | 姓名 | 描述 |
 | --- | --- |
 | virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | 克隆此实例。 |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 释放当前实例。 |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 处理当前实例。 |
 
 ### 例子
 

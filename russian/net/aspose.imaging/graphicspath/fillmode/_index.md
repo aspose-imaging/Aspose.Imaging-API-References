@@ -1,14 +1,14 @@
 ---
 title: FillMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает перечислениеFillModeaspose.imaging/fillmode которое определяет как внутренности фигур в этомGraphicsPathaspose.imaging/graphicspathзаполнены.
+description: Получает или задаетFillModeaspose.imaging/fillmode перечисление которое определяет как внутренности фигур в этомGraphicsPathaspose.imaging/graphicspath заполнены.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging/graphicspath/fillmode/
 ---
 ## GraphicsPath.FillMode property
 
-Получает или задает перечисление[`FillMode`](../../fillmode), которое определяет, как внутренности фигур в этом[`GraphicsPath`](../../graphicspath)заполнены.
+Получает или задает[`FillMode`](../../fillmode) перечисление, которое определяет, как внутренности фигур в этом[`GraphicsPath`](../../graphicspath) заполнены.
 
 ```csharp
 public FillMode FillMode { get; set; }
@@ -16,7 +16,7 @@ public FillMode FillMode { get; set; }
 
 ### Возвращаемое значение
 
-A[`FillMode`](../../fillmode)перечисление, определяющее, как внутренности фигур в этом[`GraphicsPath`](../../graphicspath)заполнены.
+А[`FillMode`](../../fillmode) перечисление, указывающее, как внутренности фигур в этом[`GraphicsPath`](../../graphicspath) заполнены.
 
 ### Стоимость имущества
 

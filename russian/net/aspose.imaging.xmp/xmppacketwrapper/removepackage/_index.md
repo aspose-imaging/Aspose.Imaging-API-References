@@ -16,7 +16,7 @@ public void RemovePackage(XmpPackage package)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| package | XmpPackage | Пакет. |
+| package | XmpPackage | Посылка. |
 
 ### Смотрите также
 

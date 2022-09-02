@@ -15,7 +15,7 @@ url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel/
 | [CmxContainer](./cmxcontainer) | 子元素的容器。 |
 | [CmxDocument](./cmxdocument) | CMX 文档。 |
 | [CmxGroup](./cmxgroup) | 组[`ICmxDocElement`](../aspose.imaging.fileformats.cmx.objectmodel/icmxdocelement) |
-| [CmxLayer](./cmxlayer) | 位于 CMX 文档页面上的图形层。 |
+| [CmxLayer](./cmxlayer) | 位于 CMX 文档页面上的图形图层。 |
 | [CmxObject](./cmxobject) | 包含有关图形元素信息的对象。 |
 | [CmxPage](./cmxpage) | CMX 文档的页面。 |
 | [CmxProcedure](./cmxprocedure) | CMX 程序。 |

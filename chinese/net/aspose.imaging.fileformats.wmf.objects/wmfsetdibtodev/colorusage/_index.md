@@ -1,14 +1,14 @@
 ---
 title: ColorUsage
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置颜色使用
+description: 获取或设置颜色使用情况
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfsetdibtodev/colorusage/
 ---
 ## WmfSetDibToDev.ColorUsage property
 
-获取或设置颜色使用。
+获取或设置颜色使用情况。
 
 ```csharp
 public WmfColorUsageEnum ColorUsage { get; set; }
@@ -16,7 +16,7 @@ public WmfColorUsageEnum ColorUsage { get; set; }
 
 ### 适当的价值
 
-DIB 的颜色字段包含显式 RGB 值或索引 到一个调色板。这必须是 `ColorUsage` 枚举中的值之一（第 2.1 节.1.6)。
+DIB 的颜色字段包含显式 RGB 值或索引 到调色板中。这必须是 the 中的值之一`ColorUsage` 枚举（第 2.1.1.6 节）。
 
 ### 也可以看看
 

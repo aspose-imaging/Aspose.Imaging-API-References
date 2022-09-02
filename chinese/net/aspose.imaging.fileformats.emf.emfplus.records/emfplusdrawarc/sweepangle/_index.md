@@ -1,14 +1,14 @@
 ---
 title: SweepAngle
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置扫描角 一个 32 位浮点值指定要绘制的弧的范围 作为从 StartAngle 值定义的起点测量的角度任何值都是可接受的但必须将其限制为 -360.0 到 360.0 含正值表示按顺时针方向定义在 中的扫描负值表示按逆时针方向定义在 中的扫描
+description: 获取或设置扫描角度 一个 32 位浮点值它指定要绘制的弧的范围 为从由 StartAngle 值定义的起点测量的角度以度为单位任何值都是可接受的但必须将其限制在 -360.0 到 360.0含正值表示扫描定义在 顺时针方向负值表示扫描定义 逆时针方向
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/sweepangle/
 ---
 ## EmfPlusDrawArc.SweepAngle property
 
-获取或设置扫描角 一个 32 位浮点值，指定要绘制的弧的范围， 作为从 StartAngle 值定义的起点测量的角度。任何值都是可接受的，但必须将其限制为 -360.0 到 360.0 （含）。正值表示按顺时针方向定义在 中的扫描，负值表示按逆时针方向定义在 中的扫描。
+获取或设置扫描角度 一个 32 位浮点值，它指定要绘制的弧的范围， 为从由 StartAngle 值定义的起点测量的角度，以度为单位。任何值都是可接受的，但必须将其限制在 -360.0 到 360.0（含）。正值表示扫描定义在 顺时针方向，负值表示扫描定义 逆时针方向。
 
 ```csharp
 public float SweepAngle { get; set; }

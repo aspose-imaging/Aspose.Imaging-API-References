@@ -1,14 +1,14 @@
 ---
 title: BezierSegment
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Отрезок Безье идущий от одной точки к другой и использующий две контрольные точки.
+description: Сегмент Безье идущий от одной точки к другой и использующий две контрольные точки.
 type: docs
-weight: 10940
+weight: 10930
 url: /ru/net/aspose.imaging.shapesegments/beziersegment/
 ---
 ## BezierSegment class
 
-Отрезок Безье, идущий от одной точки к другой и использующий две контрольные точки.
+Сегмент Безье, идущий от одной точки к другой и использующий две контрольные точки.
 
 ```csharp
 public sealed class BezierSegment : LineSegment
@@ -18,7 +18,7 @@ public sealed class BezierSegment : LineSegment
 
 | Имя | Описание |
 | --- | --- |
-| [BezierSegment](beziersegment)(PointF, PointF, PointF, PointF) | Инициализирует новый экземпляр класса[`BezierSegment`](../beziersegment). |
+| [BezierSegment](beziersegment)(PointF, PointF, PointF, PointF) | Инициализирует новый экземпляр[`BezierSegment`](../beziersegment) класс. |
 
 ## Характеристики
 

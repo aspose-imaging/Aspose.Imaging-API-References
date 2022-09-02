@@ -1,14 +1,14 @@
 ---
 title: Empty
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取具有Imaging的R5TAspose.Imaging.Size结构的新实例 Size.Width和Heightaspose.imaging/size/height值设置为零
+description: 获取一个新的实例Sizeaspose.imaging/size具有的结构Widthaspose.imaging/size/width和Heightaspose.imaging/size/height值设置为零
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging/size/empty/
 ---
 ## Size.Empty property
 
-获取具有Imaging的R5:T:Aspose.Imaging.Size:::结构的新实例。 Size.Width:::和[`Height`](../height)值设置为零。
+获取一个新的实例[`Size`](../../size)具有的结构[`Width`](../width)和[`Height`](../height)值设置为零。
 
 ```csharp
 public static Size Empty { get; }

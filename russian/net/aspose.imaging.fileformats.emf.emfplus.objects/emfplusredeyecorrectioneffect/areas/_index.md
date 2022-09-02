@@ -1,14 +1,14 @@
 ---
 title: Areas
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив объектов NumberOfAreas WMF RectL указанных в MS-WMF раздел 2.2.2.19. Каждый прямоугольник определяет область растрового изображения к которой СЛЕДУЕТ применять эффект коррекции красных глаз .
+description: Получает или задает массив объектов NumberOfAreas WMF RectL указанных в MS-WMF  раздел 2.2.2.19. Каждый прямоугольник определяет область растрового изображения к которой СЛЕДУЕТ применять эффект коррекции красных глаз .
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusredeyecorrectioneffect/areas/
 ---
 ## EmfPlusRedEyeCorrectionEffect.Areas property
 
-Получает или задает массив объектов NumberOfAreas WMF RectL, указанных в [MS-WMF] раздел 2.2.2.19. Каждый прямоугольник определяет область растрового изображения, к которой СЛЕДУЕТ применять эффект коррекции красных глаз .
+Получает или задает массив объектов NumberOfAreas WMF RectL, указанных в [MS-WMF] , раздел 2.2.2.19. Каждый прямоугольник определяет область растрового изображения, к которой СЛЕДУЕТ применять эффект коррекции красных глаз .
 
 ```csharp
 public Rectangle[] Areas { get; set; }

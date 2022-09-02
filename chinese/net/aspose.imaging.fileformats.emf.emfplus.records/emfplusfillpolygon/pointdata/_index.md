@@ -1,14 +1,14 @@
 ---
 title: PointData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置点数据 定义多边形顶点的 Count 点数组 数组中的前两个点指定多边形的第一边 每个附加点指定一个新边其顶点 包括该点和前一个点如果最后一个点和 第一个点不重合则它们指定多边形的最后一条边
+description: 获取或设置点 data 定义多边形顶点的 Count 点数组 数组中的前两个点指定多边形的第一边 每个附加点指定一个新边 的顶点包括该点和前一个点如果最后一个点和 第一个点不重合则它们指定多边形的最后一条边
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpolygon/pointdata/
 ---
 ## EmfPlusFillPolygon.PointData property
 
-获取或设置点数据 定义多边形顶点的 Count 点数组。 数组中的前两个点指定多边形的第一边。 每个附加点指定一个新边，其顶点 包括该点和前一个点。如果最后一个点和 第一个点不重合，则它们指定多边形的最后一条边。
+获取或设置点 data 定义多边形顶点的 Count 点数组。 数组中的前两个点指定多边形的第一边。 每个附加点指定一个新边， 的顶点包括该点和前一个点。如果最后一个点和 第一个点不重合，则它们指定多边形的最后一条边。
 
 ```csharp
 public PointF[] PointData { get; set; }

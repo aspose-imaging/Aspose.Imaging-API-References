@@ -3,7 +3,7 @@ title: Time
 second_title: Aspose.Imaging for .NET API 参考
 description: 以秒为单位的时间值表示
 type: docs
-weight: 11400
+weight: 11390
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/time/
 ---
 ## Time class
@@ -18,14 +18,14 @@ public sealed class Time : XmpTypeBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Time](time)(Rational, int) | 初始化[`Time`](../time)类的新实例。 |
+| [Time](time)(Rational, int) | 初始化[`Time`](../time)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Scale](../../aspose.imaging.xmp.schemas.xmpdm/time/scale) { get; set; } | 获取或设置时间值的比例。 |
-| [Value](../../aspose.imaging.xmp.schemas.xmpdm/time/value) { get; set; } | 获取或设置指定比例的时间值。 |
+| [Value](../../aspose.imaging.xmp.schemas.xmpdm/time/value) { get; set; } | 获取或设置指定刻度的时间值。 |
 
 ## 方法
 

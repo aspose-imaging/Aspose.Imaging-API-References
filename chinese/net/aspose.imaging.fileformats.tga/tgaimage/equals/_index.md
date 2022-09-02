@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Imaging for .NET API 参考
-description: 相等比较
+description: 平等比较
 type: docs
 weight: 320
 url: /zh/net/aspose.imaging.fileformats.tga/tgaimage/equals/
 ---
 ## Equals(TgaImage) {#equals}
 
-相等比较。
+平等比较。
 
 ```csharp
 public bool Equals(TgaImage other)
@@ -16,7 +16,7 @@ public bool Equals(TgaImage other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | TgaImage | 第二[`TgaImage`](../../tgaimage)参与比较. |
+| other | TgaImage | 第二[`TgaImage`](../../tgaimage)参与比较。 |
 
 ### 返回值
 
@@ -32,7 +32,7 @@ public bool Equals(TgaImage other)
 
 ## Equals(object) {#equals_1}
 
-相等比较。
+平等比较。
 
 ```csharp
 public override bool Equals(object other)
@@ -40,7 +40,7 @@ public override bool Equals(object other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | Object | 第二[`TgaImage`](../../tgaimage)参与比较. |
+| other | Object | 第二[`TgaImage`](../../tgaimage)参与比较。 |
 
 ### 返回值
 

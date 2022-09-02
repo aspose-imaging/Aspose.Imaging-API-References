@@ -1,14 +1,14 @@
 ---
 title: IsFixedSize
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示IList是否具有固定大小
+description: 获取一个值该值指示是否IList有一个固定的大小
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging/nongenericlist/isfixedsize/
 ---
 ## NonGenericList.IsFixedSize property
 
-获取一个值，该值指示IList是否具有固定大小。
+获取一个值，该值指示是否IList有一个固定的大小。
 
 ```csharp
 public bool IsFixedSize { get; }

@@ -1,14 +1,14 @@
 ---
 title: NormalizeAngle
 second_title: Aspose.Imaging for .NET API 参考
-description: 标准化角度 此方法适用于扫描的文本文档以消除倾斜扫描 此方法使用GetSkewAngle和Color方法
+description: 角度归一化 此方法适用于扫描的文本文档以消除倾斜扫描 此方法使用GetSkewAngle和Rotateaspose.imaging/rastercachedmultipageimage/rotate方法.
 type: docs
 weight: 240
 url: /zh/net/aspose.imaging/rastercachedmultipageimage/normalizeangle/
 ---
 ## RasterCachedMultipageImage.NormalizeAngle method
 
-标准化角度。 此方法适用于扫描的文本文档，以消除倾斜扫描。 此方法使用!:GetSkewAngle和Color）方法。
+角度归一化。 此方法适用于扫描的文本文档，以消除倾斜扫描。 此方法使用!:GetSkewAngle和[`Rotate`](../rotate)方法.
 
 ```csharp
 public override void NormalizeAngle(bool resizeProportionally, Color backgroundColor)
@@ -16,8 +16,8 @@ public override void NormalizeAngle(bool resizeProportionally, Color backgroundC
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| resizeProportionally | Boolean | 如果设置为` true` 你将拥有你的图像大小根据旋转的矩形（角点）投影改变，在其他情况下保持尺寸不变并且仅旋转内部图像内容。 |
-| backgroundColor | Color | 背景颜色。 |
+| resizeProportionally | Boolean | 如果设置为`真的`您将根据旋转的矩形（角点）投影更改图像大小，在其他情况下保持尺寸不变并且仅旋转内部图像内容。 |
+| backgroundColor | Color | 背景的颜色。 |
 
 ### 也可以看看
 

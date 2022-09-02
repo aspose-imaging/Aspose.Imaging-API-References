@@ -1,14 +1,14 @@
 ---
 title: OdList
 second_title: Aspose.Imaging for .NET API 参考
-description: List 对象
+description: 列表对象
 type: docs
 weight: 7130
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odlist/
 ---
 ## OdList class
 
-List 对象
+列表对象
 
 ```csharp
 public class OdList : OdStyledObject
@@ -18,13 +18,13 @@ public class OdList : OdStyledObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OdList](odlist)(OdObject) | 初始化[`OdList`](../odlist)类的新实例。 |
+| [OdList](odlist)(OdObject) | 初始化[`OdList`](../odlist)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]。 |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | 获取项目。 |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | 获取父对象。 |
 | [Rectangle](../../aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/rectangle) { get; set; } | 获取或设置矩形。 |

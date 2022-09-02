@@ -1,14 +1,14 @@
 ---
 title: EmfPlusBlendBase
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Базовый объект для бленд-объектов
+description: Базовый объект для смешанных объектов
 type: docs
 weight: 5190
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendbase/
 ---
 ## EmfPlusBlendBase class
 
-Базовый объект для бленд-объектов
+Базовый объект для смешанных объектов
 
 ```csharp
 public abstract class EmfPlusBlendBase : EmfPlusStructureObjectType
@@ -18,7 +18,7 @@ public abstract class EmfPlusBlendBase : EmfPlusStructureObjectType
 
 | Имя | Описание |
 | --- | --- |
-| [BlendPositions](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendbase/blendpositions) { get; set; } | Получает или задает позиции перехода Массив 32-разрядных значений с плавающей запятой PositionCount , определяющих пропорции расстояния по линии градиента. Каждый элемент ДОЛЖЕН быть числом от 0,0 до 1,0 включительно. Для кисти с линейным градиентом 0,0 представляет начальную точку и 1,0 представляет собой конечную точку. Для кисти градиента пути 0.0 представляет собой среднюю точку, а 1.0 представляет собой конечную точку |
+| [BlendPositions](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendbase/blendpositions) { get; set; } | Получает или устанавливает позиции смешивания Массив 32-битных значений с плавающей запятой PositionCount , которые определяют пропорции расстояния вдоль линии градиента. Каждый элемент ДОЛЖЕН быть числом от 0,0 до 1,0 включительно. Для кисти с линейным градиентом 0,0 представляет начальную точку, , а 1,0 — конечную точку. Для кисти градиента пути 0.0 представляет собой среднюю точку, а 1.0 представляет собой конечную точку |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ColorImportant
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数它定义了显示 DIB 所需的颜色索引数 如果此值为零则需要所有颜色索引
+description: 获取或设置一个 32 位无符号整数定义显示所需的颜色索引数 DIB 如果此值为零则需要所有颜色索引
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfbitmapinfoheader/colorimportant/
 ---
 ## WmfBitmapInfoHeader.ColorImportant property
 
-获取或设置一个 32 位无符号整数，它定义了显示 DIB 所需的颜色索引数。 如果此值为零，则需要所有颜色索引
+获取或设置一个 32 位无符号整数，定义显示所需的颜色索引数 DIB。 如果此值为零，则需要所有颜色索引
 
 ```csharp
 public int ColorImportant { get; set; }

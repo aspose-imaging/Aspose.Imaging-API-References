@@ -1,14 +1,14 @@
 ---
 title: Region
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化一个新的Regionaspose.imaging/region
+description: 初始化一个新的Regionaspose.imaging/region .
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/region/region/
 ---
 ## Region() {#constructor}
 
-初始化一个新的[`Region`](../../region)。
+初始化一个新的[`Region`](../../region) .
 
 ```csharp
 public Region()
@@ -24,7 +24,7 @@ public Region()
 
 ## Region(RectangleF) {#constructor_3}
 
-从指定的RectangleF::初始化一个新的R5:T:Aspose.Imaging.Region::::结构体。
+初始化一个新的[`Region`](../../region)从指定的[`RectangleF`](../../rectanglef)结构.
 
 ```csharp
 public Region(RectangleF rect)
@@ -32,7 +32,7 @@ public Region(RectangleF rect)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | RectangleF | A[`RectangleF`](../../rectanglef)结构定义了新的内部[`Region`](../../region)。 |
+| rect | RectangleF | 一个[`RectangleF`](../../rectanglef)定义新内部的结构[`Region`](../../region). |
 
 ### 也可以看看
 
@@ -45,7 +45,7 @@ public Region(RectangleF rect)
 
 ## Region(Rectangle) {#constructor_2}
 
-从指定的Rectangle::初始化一个新的R5:T:Aspose.Imaging.Region::::结构体。
+初始化一个新的[`Region`](../../region)从指定的[`Rectangle`](../../rectangle)结构.
 
 ```csharp
 public Region(Rectangle rect)
@@ -53,7 +53,7 @@ public Region(Rectangle rect)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | Rectangle | 一个[`Rectangle`](../../rectangle)结构，定义了新的内部[`Region`](../../region)。 |
+| rect | Rectangle | 一个[`Rectangle`](../../rectangle)定义新内部的结构[`Region`](../../region). |
 
 ### 也可以看看
 
@@ -66,7 +66,7 @@ public Region(Rectangle rect)
 
 ## Region(GraphicsPath) {#constructor_1}
 
-用指定的GraphicsPath::初始化一个新的R5:T:Aspose.Imaging.Region::::.
+初始化一个新的[`Region`](../../region)与指定[`GraphicsPath`](../../graphicspath) .
 
 ```csharp
 public Region(GraphicsPath path)
@@ -74,13 +74,13 @@ public Region(GraphicsPath path)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| path | GraphicsPath | A[`GraphicsPath`](../../graphicspath)定义了新的[`Region`](../../region)。 |
+| path | GraphicsPath | 一个[`GraphicsPath`](../../graphicspath)定义了新的[`Region`](../../region). |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *path*为空。 |
+| ArgumentNullException | *path*一片空白。 |
 
 ### 也可以看看
 

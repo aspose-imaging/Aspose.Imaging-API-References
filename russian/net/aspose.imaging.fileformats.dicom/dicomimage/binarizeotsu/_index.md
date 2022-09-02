@@ -16,7 +16,7 @@ public override void BinarizeOtsu()
 
 ### Примеры
 
-В следующем примере бинаризируется Изображение DICOM с пороговым значением Otsu. Бинаризованные изображения содержат только 2 цвета — черный и белый.
+В следующем примере выполняется бинаризация изображения DICOM с пороговым значением Otsu. Бинаризованные изображения содержат только 2 цвета — черный и белый.
 
 ```csharp
 [C#]
@@ -27,7 +27,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.dico
 {
     Aspose.Imaging.FileFormats.Dicom.DicomImage dicomImage = (Aspose.Imaging.FileFormats.Dicom.DicomImage)image;
 
-     // Бинаризация изображения с помощью порога Otsu.
+    // Бинаризация изображения с пороговым значением Otsu.
     dicomImage.BinarizeOtsu();
     dicomImage.Save(dir + "sample.BinarizeOtsu.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }

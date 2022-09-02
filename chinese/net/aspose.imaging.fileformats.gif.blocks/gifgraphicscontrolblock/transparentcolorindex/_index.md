@@ -16,7 +16,7 @@ public byte TransparentColorIndex { get; set; }
 
 ### 适当的价值
 
-透明色索引。
+透明色指数。
 
 ### 也可以看看
 

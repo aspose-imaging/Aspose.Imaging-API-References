@@ -1,14 +1,14 @@
 ---
 title: ObjectId
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置对象标识符 EMF 对象表中与该记录创建的对象 关联的索引该值必须是 0 到 63含
+description: 获取或设置对象标识符 EMF 对象表中与此记录创建的对象 关联的索引该值必须是 0 到 63包括在内
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusobject/objectid/
 ---
 ## EmfPlusObject.ObjectId property
 
-获取或设置对象标识符。 EMF+ 对象表中与该记录创建的对象 关联的索引。该值必须是 0 到 63（含）。
+获取或设置对象标识符。 EMF+ 对象表中与此记录创建的对象 关联的索引。该值必须是 0 到 63，包括在内。
 
 ```csharp
 public byte ObjectId { get; set; }

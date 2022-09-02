@@ -1,14 +1,14 @@
 ---
 title: EmfPlusRestore
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusRestoreaspose.imaging.fileformats.emf.emfplus.records/emfplusrestore.
+description: Инициализирует новый экземплярEmfPlusRestoreaspose.imaging.fileformats.emf.emfplus.records/emfplusrestore класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrestore/emfplusrestore/
 ---
 ## EmfPlusRestore constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusRestore`](../../emfplusrestore).
+Инициализирует новый экземпляр[`EmfPlusRestore`](../../emfplusrestore) класс.
 
 ```csharp
 public EmfPlusRestore(EmfPlusRecord source)

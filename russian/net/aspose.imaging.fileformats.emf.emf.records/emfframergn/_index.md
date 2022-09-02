@@ -1,14 +1,14 @@
 ---
 title: EmfFrameRgn
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_FRAMERGN рисует границу вокруг указанной области используя указанную кисть.
+description: Запись EMR_FRAMERGN рисует границу вокруг указанной области с помощью указанной кисти.
 type: docs
 weight: 3730
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfframergn/
 ---
 ## EmfFrameRgn class
 
-Запись EMR_FRAMERGN рисует границу вокруг указанной области, используя указанную кисть.
+Запись EMR_FRAMERGN рисует границу вокруг указанной области с помощью указанной кисти.
 
 ```csharp
 public sealed class EmfFrameRgn : EmfDrawingRecordType
@@ -18,19 +18,19 @@ public sealed class EmfFrameRgn : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfFrameRgn](emfframergn#constructor)() | Инициализирует новый экземпляр класса[`EmfFrameRgn`](../emfframergn). |
-| [EmfFrameRgn](emfframergn#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfFrameRgn`](../emfframergn). |
+| [EmfFrameRgn](emfframergn#constructor)() | Инициализирует новый экземпляр[`EmfFrameRgn`](../emfframergn) класс. |
+| [EmfFrameRgn](emfframergn#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfFrameRgn`](../emfframergn) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfframergn/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе 2.2.2.19 [MS-WMF], который определяет ограничивающий прямоугольник. |
-| [Height](../../aspose.imaging.fileformats.emf.emf.records/emfframergn/height) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее высоту горизонтальной кисти обводки в логических единицах. |
+| [Height](../../aspose.imaging.fileformats.emf.emf.records/emfframergn/height) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее высоту горизонтального штриха кисти в логических единицах. |
 | [IhBrush](../../aspose.imaging.fileformats.emf.emf.records/emfframergn/ihbrush) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс таблицы объектов EMF кисти. |
 | [RgnData](../../aspose.imaging.fileformats.emf.emf.records/emfframergn/rgndata) { get; set; } | Получает или задает массив байтов длины RgnDataSize, указывающий объект RegionData, в логических единицах |
 | [RgnDataSize](../../aspose.imaging.fileformats.emf.emf.records/emfframergn/rgndatasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер данных региона в байтах. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 | [Width](../../aspose.imaging.fileformats.emf.emf.records/emfframergn/width) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее ширину вертикального мазка кистью в логических единицах. |
 

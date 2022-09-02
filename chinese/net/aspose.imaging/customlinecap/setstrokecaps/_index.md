@@ -16,8 +16,8 @@ public void SetStrokeCaps(LineCap startCap, LineCap endCap)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startCap | LineCap | [`LineCap`](../../linecap)枚举在行首使用这个帽子。 |
-| endCap | LineCap | [`LineCap`](../../linecap)枚举在此上限内的行尾使用。 |
+| startCap | LineCap | 这[`LineCap`](../../linecap)在此上限内的行首使用的枚举。 |
+| endCap | LineCap | 这[`LineCap`](../../linecap)在此上限内的行尾使用的枚举。 |
 
 ### 也可以看看
 

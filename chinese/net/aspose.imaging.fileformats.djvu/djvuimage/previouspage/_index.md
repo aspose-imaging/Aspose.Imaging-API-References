@@ -22,7 +22,7 @@ public DjvuPage PreviousPage { get; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [DjvuImageException](../../../aspose.imaging.coreexceptions.imageformats/djvuimageexception) | 上一页找不到 |
+| [DjvuImageException](../../../aspose.imaging.coreexceptions.imageformats/djvuimageexception) | 上一页找不到了 |
 
 ### 也可以看看
 

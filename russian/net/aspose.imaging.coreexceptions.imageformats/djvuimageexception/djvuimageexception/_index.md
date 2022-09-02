@@ -1,14 +1,14 @@
 ---
 title: DjvuImageException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаDjvuImageExceptionaspose.imaging.coreexceptions.imageformats/djvuimageexception.
+description: Инициализирует новый экземплярDjvuImageExceptionaspose.imaging.coreexceptions.imageformats/djvuimageexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions.imageformats/djvuimageexception/djvuimageexception/
 ---
 ## DjvuImageException(string) {#constructor}
 
-Инициализирует новый экземпляр класса[`DjvuImageException`](../../djvuimageexception).
+Инициализирует новый экземпляр[`DjvuImageException`](../../djvuimageexception) класс.
 
 ```csharp
 public DjvuImageException(string message)
@@ -28,7 +28,7 @@ public DjvuImageException(string message)
 
 ## DjvuImageException(string, Exception) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`DjvuImageException`](../../djvuimageexception).
+Инициализирует новый экземпляр[`DjvuImageException`](../../djvuimageexception) класс.
 
 ```csharp
 public DjvuImageException(string message, Exception innerException)

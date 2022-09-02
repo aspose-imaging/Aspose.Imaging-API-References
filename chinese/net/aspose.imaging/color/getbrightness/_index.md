@@ -1,14 +1,14 @@
 ---
 title: GetBrightness
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取此Coloraspose.imaging/color结构的色调饱和度 HSB 亮度值
+description: 获取此颜色的色相饱和度 HSB 亮度值Coloraspose.imaging/color结构.
 type: docs
 weight: 1550
 url: /zh/net/aspose.imaging/color/getbrightness/
 ---
 ## Color.GetBrightness method
 
-获取此[`Color`](../../color)结构的色调饱和度 (HSB) 亮度值。
+获取此颜色的色相饱和度 (HSB) 亮度值[`Color`](../../color)结构.
 
 ```csharp
 public float GetBrightness()
@@ -16,7 +16,7 @@ public float GetBrightness()
 
 ### 返回值
 
-这个[`Color`](../../color)的亮度。亮度范围从 0.0 到 1.0，其中 0.0 代表黑色，1.0 代表白色。
+这光辉[`Color`](../../color).亮度范围从 0.0 到 1.0，其中 0.0 代表黑色，1.0 代表白色。
 
 ### 也可以看看
 

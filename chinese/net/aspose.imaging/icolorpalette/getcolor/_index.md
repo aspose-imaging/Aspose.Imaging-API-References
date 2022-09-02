@@ -20,13 +20,13 @@ public Color GetColor(int index)
 
 ### 返回值
 
-*index*指定的调色板条目。
+由指定的调色板条目*index*.
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | 如果指定的调色板*index*超出调色板条目范围。 |
+| ArgumentOutOfRangeException | 如果调色板*index*指定超出调色板条目范围。 |
 
 ### 也可以看看
 

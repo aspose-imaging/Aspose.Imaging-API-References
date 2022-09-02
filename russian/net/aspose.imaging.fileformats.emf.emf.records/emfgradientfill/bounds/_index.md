@@ -1,14 +1,14 @@
 ---
 title: Bounds
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект RectL WMF MS-WMF раздел 2.2.2.19 который указывает ограничивающий прямоугольник в включительно-включительном единицы устройства.
+description: Получает или задает объект WMF RectL MS-WMF раздел 2.2.2.19 который указывает ограничивающий прямоугольник в единицах устройства включительно-включительно.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfgradientfill/bounds/
 ---
 ## EmfGradientFill.Bounds property
 
-Получает или задает объект RectL WMF ([MS-WMF], раздел 2.2.2.19), который указывает ограничивающий прямоугольник в включительно-включительном единицы устройства.
+Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который указывает ограничивающий прямоугольник в единицах устройства включительно-включительно.
 
 ```csharp
 public Rectangle Bounds { get; set; }

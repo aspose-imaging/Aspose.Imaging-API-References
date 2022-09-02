@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Imaging for .NET API 参考
-description: 将具有提供的键和值的元素添加到 IDictionary对象
+description: 将具有提供的键和值的元素添加到 IDictionary对象.
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging/nongenericdictionary/add/
 ---
 ## NonGenericDictionary.Add method
 
-将具有提供的键和值的元素添加到 IDictionary对象。
+将具有提供的键和值的元素添加到 IDictionary对象.
 
 ```csharp
 public void Add(object key, object value)

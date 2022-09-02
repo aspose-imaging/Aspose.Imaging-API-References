@@ -28,18 +28,18 @@ public class CmxOutline
 | [CapsType](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/capstype) { get; set; } | Получает или задает тип заглавных букв строки. |
 | [Color](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/color) { get; set; } | Получает или задает цвет контура. |
 | [EndArrowhead](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/endarrowhead) { get; set; } | Получает или задает форму конца строки |
-| [JoinType](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/jointype) { get; set; } | Получает или задает тип соединения строк. |
+| [JoinType](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/jointype) { get; set; } | Получает или задает тип соединения линии. |
 | [LineType](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/linetype) { get; set; } | Получает или задает тип линии. |
-| [LineWidth](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/linewidth) { get; set; } | Получает или задает ширину линии. Использует стандартную единицу измерения расстояния до документа. |
+| [LineWidth](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/linewidth) { get; set; } | Получает или задает ширину линии. Использует общепринятую единицу измерения расстояния документа. |
 | [StartArrowhead](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/startarrowhead) { get; set; } | Получает или задает форму начала строки |
 | [Stretch](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/stretch) { get; set; } | Получает или задает значение растяжения. |
-| [Stroke](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/stroke) { get; set; } | Получает или задает образец обводки. |
+| [Stroke](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/stroke) { get; set; } | Получает или задает шаблон обводки. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 
 ### Смотрите также
 

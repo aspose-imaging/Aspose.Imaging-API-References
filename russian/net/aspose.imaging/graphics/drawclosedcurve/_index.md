@@ -1,14 +1,14 @@
 ---
 title: DrawClosedCurve
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Рисует замкнутый кардинальный сплайн определяемый массивом структурPointFaspose.imaging/pointf. Этот метод использует натяжение по умолчанию 05 иAlternateрежим заполнения.
+description: Рисует замкнутый кардинальный сплайн определяемый массивомPointFaspose.imaging/pointf структуры. Этот метод использует натяжение по умолчанию 05 иAlternate режим заполнения.
 type: docs
 weight: 190
 url: /ru/net/aspose.imaging/graphics/drawclosedcurve/
 ---
 ## DrawClosedCurve(Pen, PointF[]) {#drawclosedcurve}
 
-Рисует замкнутый кардинальный сплайн, определяемый массивом структур[`PointF`](../../pointf). Этот метод использует натяжение по умолчанию 0,5 иAlternateрежим заполнения.
+Рисует замкнутый кардинальный сплайн, определяемый массивом[`PointF`](../../pointf) структуры. Этот метод использует натяжение по умолчанию 0,5 иAlternate режим заполнения.
 
 ```csharp
 public void DrawClosedCurve(Pen pen, PointF[] points)
@@ -16,14 +16,14 @@ public void DrawClosedCurve(Pen pen, PointF[] points)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen)который определяет цвет, ширину и высоту Кривая. |
-| points | PointF[] | Массив структур[`PointF`](../../pointf), определяющих сплайн. |
+| pen | Pen | [`Pen`](../../pen) который определяет цвет, ширину и высоту кривой. |
+| points | PointF[] | Массив[`PointF`](../../pointf) структуры, определяющие сплайн. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *pen*равно нулю. -или- *points*равно null. |
+| ArgumentNullException | *pen* равно null. -или- *points* нулевой. |
 
 ### Смотрите также
 
@@ -37,7 +37,7 @@ public void DrawClosedCurve(Pen pen, PointF[] points)
 
 ## DrawClosedCurve(Pen, PointF[], float) {#drawclosedcurve_1}
 
-Рисует замкнутый кардинальный сплайн, определяемый массивом структур[`PointF`](../../pointf), используя заданное натяжение. Этот метод использует режим заливки по умолчаниюAlternate.
+Рисует замкнутый кардинальный сплайн, определяемый массивом[`PointF`](../../pointf) конструкции с заданным натяжением. Этот метод использует значение по умолчаниюAlternate режим заполнения.
 
 ```csharp
 public void DrawClosedCurve(Pen pen, PointF[] points, float tension)
@@ -45,15 +45,15 @@ public void DrawClosedCurve(Pen pen, PointF[] points, float tension)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen)который определяет цвет, ширину и высоту Кривая. |
-| points | PointF[] | Массив структур[`PointF`](../../pointf), определяющих сплайн. |
-| tension | Single | Значение больше или равное 0,0F, определяющее натяжение кривой. |
+| pen | Pen | [`Pen`](../../pen) который определяет цвет, ширину и высоту кривой. |
+| points | PointF[] | Массив[`PointF`](../../pointf) структуры, определяющие сплайн. |
+| tension | Single | Значение больше или равно 0,0F, которое определяет натяжение кривой. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *pen*равно нулю. -или- *points*равно null. |
+| ArgumentNullException | *pen* равно null. -или- *points* нулевой. |
 
 ### Смотрите также
 
@@ -67,7 +67,7 @@ public void DrawClosedCurve(Pen pen, PointF[] points, float tension)
 
 ## DrawClosedCurve(Pen, Point[]) {#drawclosedcurve_2}
 
-Рисует замкнутый кардинальный сплайн, определяемый массивом структур[`Point`](../../point). Этот метод использует натяжение по умолчанию 0,5 иAlternateрежим заполнения.
+Рисует замкнутый кардинальный сплайн, определяемый массивом[`Point`](../../point) структуры. Этот метод использует натяжение по умолчанию 0,5 иAlternate режим заполнения.
 
 ```csharp
 public void DrawClosedCurve(Pen pen, Point[] points)
@@ -75,14 +75,14 @@ public void DrawClosedCurve(Pen pen, Point[] points)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen)который определяет цвет, ширину и высоту Кривая. |
-| points | Point[] | Массив структур[`Point`](../../point), определяющих сплайн. |
+| pen | Pen | [`Pen`](../../pen) который определяет цвет, ширину и высоту кривой. |
+| points | Point[] | Массив[`Point`](../../point) структуры, определяющие сплайн. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *pen*равно нулю. -или- *points*равно null. |
+| ArgumentNullException | *pen* равно null. -или- *points* нулевой. |
 
 ### Смотрите также
 
@@ -96,7 +96,7 @@ public void DrawClosedCurve(Pen pen, Point[] points)
 
 ## DrawClosedCurve(Pen, Point[], float) {#drawclosedcurve_3}
 
-Рисует замкнутый кардинальный сплайн, определяемый массивом структур[`Point`](../../point)с заданным натяжением. Этот метод использует режим заливки по умолчаниюAlternate.
+Рисует замкнутый кардинальный сплайн, определяемый массивом[`Point`](../../point) конструкции с заданным натяжением. Этот метод использует значение по умолчаниюAlternate режим заполнения.
 
 ```csharp
 public void DrawClosedCurve(Pen pen, Point[] points, float tension)
@@ -104,15 +104,15 @@ public void DrawClosedCurve(Pen pen, Point[] points, float tension)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen)который определяет цвет, ширину и высоту Кривая. |
-| points | Point[] | Массив структур[`Point`](../../point), определяющих сплайн. |
-| tension | Single | Значение больше или равное 0,0F, определяющее натяжение кривой. |
+| pen | Pen | [`Pen`](../../pen) который определяет цвет, ширину и высоту кривой. |
+| points | Point[] | Массив[`Point`](../../point) структуры, определяющие сплайн. |
+| tension | Single | Значение больше или равно 0,0F, которое определяет натяжение кривой. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *pen*равно нулю. -или- *points*равно null. |
+| ArgumentNullException | *pen* равно null. -или- *points* нулевой. |
 
 ### Смотрите также
 

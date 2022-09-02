@@ -16,7 +16,7 @@ public ColorCompareMethod ColorCompareMethod { get; set; }
 
 ### 适当的价值
 
-颜色比较方法。
+颜色比较方法.
 
 ### 也可以看看
 

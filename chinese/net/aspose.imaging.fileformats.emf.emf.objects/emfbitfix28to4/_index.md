@@ -18,14 +18,14 @@ public sealed class EmfBitFix28To4 : EmfObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfBitFix28To4](emfbitfix28to4)(int) | 初始化[`EmfBitFix28To4`](../emfbitfix28to4)类的新实例。 |
+| [EmfBitFix28To4](emfbitfix28to4)(int) | 初始化[`EmfBitFix28To4`](../emfbitfix28to4)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [FracValue](../../aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/fracvalue) { get; set; } | 获取或设置小数值 |
-| [IntVal](../../aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/intval) { get; set; } | 获取或设置整数值值 |
+| [IntVal](../../aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/intval) { get; set; } | 获取或设置整数值value |
 | [Value](../../aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/value) { get; } | 获取结果浮点值； |
 
 ### 也可以看看

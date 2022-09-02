@@ -1,14 +1,14 @@
 ---
 title: Blend
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化Blendaspose.imaging/blend类的新实例因子和混合数组中的元素数将等于 1
+description: 初始化Blendaspose.imaging/blend班级因子和混合数组中的元素数将等于 1.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/blend/blend/
 ---
 ## Blend() {#constructor}
 
-初始化[`Blend`](../../blend)类的新实例。因子和混合数组中的元素数将等于 1。
+初始化[`Blend`](../../blend)班级。因子和混合数组中的元素数将等于 1.
 
 ```csharp
 public Blend()
@@ -24,7 +24,7 @@ public Blend()
 
 ## Blend(int) {#constructor_1}
 
-使用指定数量的因子和位置初始化[`Blend`](../../blend)类的新实例。
+初始化[`Blend`](../../blend)具有指定数量的因子和位置的类。
 
 ```csharp
 public Blend(int count)

@@ -1,14 +1,14 @@
 ---
 title: ExifData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 exif 数据容器
+description: 获取或设置exif数据容器
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.jpeg/jpegimage/exifdata/
 ---
 ## JpegImage.ExifData property
 
-获取或设置 exif 数据容器
+获取或设置exif数据容器
 
 ```csharp
 public JpegExifData ExifData { get; set; }
@@ -16,7 +16,7 @@ public JpegExifData ExifData { get; set; }
 
 ### 例子
 
-以下示例显示如何从 JPEG 图像中提取 EXIF 标签。
+以下示例展示了如何从 JPEG 图像中提取 EXIF 标签。
 
 ```csharp
 [C#]
@@ -64,33 +64,33 @@ using (Aspose.Imaging.FileFormats.Jpeg.JpegImage image = (Aspose.Imaging.FileFor
     }
 }
 
-    //输出看起来像这样：
-    //一般EXIF数据
-       //------------------------------------------------------x000d_
-    //EXIF版本：System.Byte[]
-    //相机序列号：7100536
-    //颜色空间：SRgb
-    //亮度：
-    //对比度：Normal
-    //伽玛：
-    //锐度：0
-    //孔径：4.64(4643856 / 1000000)
-    //曝光模式：Manual
-    //曝光偏差：0.67(4 / 6)
-    //曝光时间：0.01(1 / 160)
-    //焦距：145.00(1450 / 10)
-    //焦平面分辨率单位：cm
-    //镜头型号：70.0 - 200.0 mm f/ 4.0
-    //快门速度：7.32(7321928 / 1000000)
-    //JPEG EXIF data
-       //------------------------------------------------------x000d_
-    //相机制造商：NIKON CORPORATION
-    //相机型号：NIKON D5
-    //光度解释：0
-//艺术家：
-    //版权：
-    //图片说明：
-    //方向：TopLeft
+//输出看起来像这样：
+//一般EXIF数据
+//------------------------------------------------------------------
+//EXIF版本：System.Byte[]
+//相机序列号：7100536
+//颜色空间：SRgb
+//亮度：
+//对比度：正常
+//伽玛：
+//锐度：0
+//孔径：4.64(4643856 / 1000000)
+//曝光模式：手动
+//曝光偏差：0.67(4 / 6)
+//曝光时间：0.01(1 / 160)
+//焦距：145.00(1450 / 10)
+//焦平面分辨率单位：cm
+//镜头型号：70.0 - 200.0 mm f/ 4.0
+//快门速度：7.32(7321928 / 1000000)
+//JPEG EXIF 数据
+//------------------------------------------------------------------
+//相机制造商：NIKON CORPORATION
+//相机型号：NIKON D5
+//光度解释：0
+//艺术家： 
+//版权： 
+//图片说明：
+//方向：左上角
 //软件：Adobe Photoshop Camera Raw 9.9(Macintosh)
 ```
 

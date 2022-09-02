@@ -1,14 +1,14 @@
 ---
 title: SvgImageException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаSvgImageExceptionaspose.imaging.coreexceptions.imageformats/svgimageexception.
+description: Инициализирует новый экземплярSvgImageExceptionaspose.imaging.coreexceptions.imageformats/svgimageexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions.imageformats/svgimageexception/svgimageexception/
 ---
 ## SvgImageException(string) {#constructor}
 
-Инициализирует новый экземпляр класса[`SvgImageException`](../../svgimageexception).
+Инициализирует новый экземпляр[`SvgImageException`](../../svgimageexception) класс.
 
 ```csharp
 public SvgImageException(string message)
@@ -28,7 +28,7 @@ public SvgImageException(string message)
 
 ## SvgImageException(string, Exception) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`SvgImageException`](../../svgimageexception).
+Инициализирует новый экземпляр[`SvgImageException`](../../svgimageexception) класс.
 
 ```csharp
 public SvgImageException(string message, Exception innerException)

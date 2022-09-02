@@ -1,14 +1,14 @@
 ---
 title: OdContainer
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdContaineraspose.imaging.fileformats.opendocument.objects.graphic/odcontainer.
+description: Инициализирует новый экземплярOdContaineraspose.imaging.fileformats.opendocument.objects.graphic/odcontainer класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odcontainer/odcontainer/
 ---
 ## OdContainer constructor
 
-Инициализирует новый экземпляр класса[`OdContainer`](../../odcontainer).
+Инициализирует новый экземпляр[`OdContainer`](../../odcontainer) класс.
 
 ```csharp
 public OdContainer(OdObject parent)

@@ -18,8 +18,8 @@ public enum NodesOperation
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| And | `0` | 与运算 |
-| Or | `1` | or 操作 |
+| And | `0` | 和操作 |
+| Or | `1` | 或运算 |
 | Xor | `2` | 异或运算 |
 | Exclude | `3` | 排除操作 |
 | Complement | `4` | 补码运算 |

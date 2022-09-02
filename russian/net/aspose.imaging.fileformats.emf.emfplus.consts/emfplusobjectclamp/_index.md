@@ -1,14 +1,14 @@
 ---
 title: EmfPlusObjectClamp
 second_title: Справочник по Aspose.Imaging for .NET API
-description: EmfPlusObjectClamp определяет поведение зажима объекта. Он не используется до тех пор пока этот объект не будет применен к рисуемому изображению.
+description: EmfPlusObjectClamp определяет поведение зажима объекта. It не используется пока этот объект не будет применен к рисуемому изображению.
 type: docs
 weight: 4930
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusobjectclamp/
 ---
 ## EmfPlusObjectClamp enumeration
 
-EmfPlusObjectClamp определяет поведение зажима объекта. Он не используется до тех пор, пока этот объект не будет применен к рисуемому изображению.
+EmfPlusObjectClamp определяет поведение зажима объекта. It не используется, пока этот объект не будет применен к рисуемому изображению.
 
 ```csharp
 public enum EmfPlusObjectClamp

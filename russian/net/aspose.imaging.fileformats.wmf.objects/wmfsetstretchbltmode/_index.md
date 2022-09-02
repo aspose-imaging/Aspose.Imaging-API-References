@@ -24,7 +24,7 @@ public class WmfSetStretchbltMode : WmfObject
 
 | Имя | Описание |
 | --- | --- |
-| [Reserved](../../aspose.imaging.fileformats.wmf.objects/wmfsetstretchbltmode/reserved) { get; set; } | Получает или устанавливает зарезервированное значение. |
+| [Reserved](../../aspose.imaging.fileformats.wmf.objects/wmfsetstretchbltmode/reserved) { get; set; } | Получает или устанавливает зарезервированное. |
 | [StretchMode](../../aspose.imaging.fileformats.wmf.objects/wmfsetstretchbltmode/stretchmode) { get; set; } | Получает или задает режим растяжения. |
 
 ### Смотрите также

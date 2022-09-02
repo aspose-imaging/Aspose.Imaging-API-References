@@ -16,7 +16,7 @@ public abstract VectorPathType Type { get; }
 
 ### 适当的价值
 
-向量路径类型。
+向量路径类型.
 
 ### 也可以看看
 

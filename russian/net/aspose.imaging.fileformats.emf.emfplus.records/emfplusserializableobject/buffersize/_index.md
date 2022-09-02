@@ -1,14 +1,14 @@
 ---
 title: BufferSize
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее размер в байтах поля буфера выровненного по 32 битам.
+description: Получает или задает 32-разрядное целое число без знака указывающее размер в байтах поля Buffer с 32-разрядным выравниванием.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/buffersize/
 ---
 ## EmfPlusSerializableObject.BufferSize property
 
-Получает или задает 32-разрядное целое число без знака, указывающее размер в байтах поля буфера, выровненного по 32 битам.
+Получает или задает 32-разрядное целое число без знака, указывающее размер в байтах поля Buffer с 32-разрядным выравниванием.
 
 ```csharp
 public int BufferSize { get; set; }

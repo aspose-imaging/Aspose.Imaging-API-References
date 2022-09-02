@@ -1,14 +1,14 @@
 ---
 title: XmpText
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаXmpTextaspose.imaging.xmp.types.basic/xmptext.
+description: Инициализирует новый экземплярXmpTextaspose.imaging.xmp.types.basic/xmptext класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp.types.basic/xmptext/xmptext/
 ---
 ## XmpText constructor
 
-Инициализирует новый экземпляр класса[`XmpText`](../../xmptext).
+Инициализирует новый экземпляр[`XmpText`](../../xmptext) класс.
 
 ```csharp
 public XmpText(string value)

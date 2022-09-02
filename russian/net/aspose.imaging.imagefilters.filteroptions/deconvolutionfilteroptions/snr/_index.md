@@ -1,14 +1,14 @@
 ---
 title: Snr
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает SNR отношение сигнал/шум рекомендуемый диапазон 00020009 значение по умолчанию  0007
+description: Получает или задает SNR отношение сигнал/шум рекомендуемый диапазон 00020009 значение по умолчанию  0007
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/snr/
 ---
 ## DeconvolutionFilterOptions.Snr property
 
-Получает или устанавливает SNR (отношение сигнал/шум) рекомендуемый диапазон 0,002–0,009, значение по умолчанию = 0,007
+Получает или задает SNR (отношение сигнал/шум) рекомендуемый диапазон 0,002–0,009, значение по умолчанию = 0,007
 
 ```csharp
 public double Snr { get; set; }

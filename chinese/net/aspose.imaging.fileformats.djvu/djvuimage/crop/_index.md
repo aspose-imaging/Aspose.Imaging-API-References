@@ -31,11 +31,11 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.djvu
 {
     Aspose.Imaging.FileFormats.Djvu.DjvuImage djvuImage = (Aspose.Imaging.FileFormats.Djvu.DjvuImage)image;
 
-        // 裁剪图像。裁剪区域是图像的矩形中心区域。
+    // 裁剪图像。裁剪区域是图像的矩形中心区域。
     Aspose.Imaging.Rectangle area = new Aspose.Imaging.Rectangle(djvuImage.Width / 4, djvuImage.Height / 4, djvuImage.Width / 2, djvuImage.Height / 2);
     djvuImage.Crop(area);
 
-        // 将裁剪后的图像保存到 PNG
+    // 将裁剪后的图像保存为 PNG
     djvuImage.Save(dir + "sample.Crop.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```
@@ -51,7 +51,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.djvu
 
 ## Crop(int, int, int, int) {#crop_1}
 
-带班次裁剪图像。
+使用班次裁剪图像。
 
 ```csharp
 public override void Crop(int leftShift, int rightShift, int topShift, int bottomShift)
@@ -61,8 +61,8 @@ public override void Crop(int leftShift, int rightShift, int topShift, int botto
 | --- | --- | --- |
 | leftShift | Int32 | 左移。 |
 | rightShift | Int32 | 右移。 |
-| topShift | Int32 | 顶部移位。 |
-| bottomShift | Int32 | 底部移位。 |
+| topShift | Int32 | 最高班次。 |
+| bottomShift | Int32 | 下移。 |
 
 ### 也可以看看
 

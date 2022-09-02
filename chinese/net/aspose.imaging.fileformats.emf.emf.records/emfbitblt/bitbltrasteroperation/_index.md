@@ -1,14 +1,14 @@
 ---
 title: BitBltRasterOperation
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定光栅操作 代码的 32 位无符号整数此代码定义了如何将源矩形的颜色数据与目标矩形的 颜色数据以及可选的画笔图案相结合以实现最终颜色
+description: 获取或设置一个 32 位无符号整数指定光栅操作 代码此代码定义了如何将源矩形的颜色数据与目标矩形的 颜色数据以及可选的画笔图案组合以实现最终颜色
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfbitblt/bitbltrasteroperation/
 ---
 ## EmfBitBlt.BitBltRasterOperation property
 
-获取或设置指定光栅操作 代码的 32 位无符号整数。此代码定义了如何将源矩形的颜色数据与目标矩形的 颜色数据以及可选的画笔图案相结合，以实现最终颜色。
+获取或设置一个 32 位无符号整数，指定光栅操作 代码。此代码定义了如何将源矩形的颜色数据与目标矩形的 颜色数据以及可选的画笔图案组合，以实现最终颜色。
 
 ```csharp
 public WmfTernaryRasterOperation BitBltRasterOperation { get; set; }

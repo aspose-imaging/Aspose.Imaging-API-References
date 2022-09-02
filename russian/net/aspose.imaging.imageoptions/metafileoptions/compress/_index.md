@@ -1,14 +1,14 @@
 ---
 title: Compress
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее сжат ли этот файлICompressedOptions.
+description: Получает или задает значение указывающее является ли этоICompressedOptions сжат.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.imageoptions/metafileoptions/compress/
 ---
 ## MetafileOptions.Compress property
 
-Получает или задает значение, указывающее, сжат ли этот файлICompressedOptions.
+Получает или задает значение, указывающее, является ли этоICompressedOptions сжат.
 
 ```csharp
 public bool Compress { get; set; }
@@ -16,27 +16,27 @@ public bool Compress { get; set; }
 
 ### Стоимость имущества
 
-` true` при сжатии; в противном случае` false` .
+`истинный` если сжато; в противном случае,`ЛОЖЬ` .
 
 ### Примеры
 
-В следующем примере показано, как преобразовать изображения emf в emz fromat
+В следующем примере показано, как преобразовать изображения emf в emz fromat.
 
 ```csharp
 [C#]
 
-string file = "castle.wmf";
+string file = "input.emf";
 string baseFolder = System.IO.Path.Combine("D:", "Compressed");
 string inputFile = System.IO.Path.Combine(baseFolder, file);
-string outFile = inputFile + ".wmz";
+string outFile = inputFile + ".emz";
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFile))
 {
-    Aspose.Imaging.ImageOptions.VectorRasterizationOptions vectorRasterizationOptions = new Aspose.Imaging.ImageOptions.WmfRasterizationOptions() { PageSize = image.Size};
-    image.Save(outFile, new Aspose.Imaging.ImageOptions.WmfOptions() {VectorRasterizationOptions = vectorRasterizationOptions, Compress = true});
+    Aspose.Imaging.ImageOptions.VectorRasterizationOptions vectorRasterizationOptions = new Aspose.Imaging.ImageOptions.EmfRasterizationOptions() { PageSize = image.Size};
+    image.Save(outFile, new Aspose.Imaging.ImageOptions.EmfOptions() {VectorRasterizationOptions = vectorRasterizationOptions, Compress = true});
 }
 ```
 
-В следующем примере показано, как преобразовать изображения wmf в wmz fromat
+В следующем примере показано, как преобразовать изображения wmf в wmz fromat.
 
 ```csharp
 [C#]

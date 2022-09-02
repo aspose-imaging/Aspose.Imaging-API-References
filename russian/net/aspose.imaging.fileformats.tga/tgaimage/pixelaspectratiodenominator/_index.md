@@ -1,14 +1,14 @@
 ---
 title: PixelAspectRatioDenominator
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает часть знаменателя соотношения сторон пикселей.
+description: Получает часть знаменателя соотношения сторон пикселя.
 type: docs
 weight: 200
 url: /ru/net/aspose.imaging.fileformats.tga/tgaimage/pixelaspectratiodenominator/
 ---
 ## TgaImage.PixelAspectRatioDenominator property
 
-Получает часть знаменателя соотношения сторон пикселей.
+Получает часть знаменателя соотношения сторон пикселя.
 
 ```csharp
 public ushort PixelAspectRatioDenominator { get; }
@@ -16,7 +16,7 @@ public ushort PixelAspectRatioDenominator { get; }
 
 ### Примеры
 
-Получение значений публичных свойств загруженного TGA-изображения.
+Получение значений публичных свойств загруженного изображения TGA.
 
 ```csharp
 [C#]

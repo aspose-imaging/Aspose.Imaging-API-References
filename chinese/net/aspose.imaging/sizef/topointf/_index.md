@@ -1,14 +1,14 @@
 ---
 title: ToPointF
 second_title: Aspose.Imaging for .NET API 参考
-description: 将SizeFaspose.imaging/sizef转换为PointFaspose.imaging/pointf
+description: 转换一个SizeFaspose.imaging/sizef到一个PointFaspose.imaging/pointf .
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging/sizef/topointf/
 ---
 ## SizeF.ToPointF method
 
-将[`SizeF`](../../sizef)转换为[`PointF`](../../pointf)。
+转换一个[`SizeF`](../../sizef)到一个[`PointF`](../../pointf) .
 
 ```csharp
 public PointF ToPointF()
@@ -16,7 +16,7 @@ public PointF ToPointF()
 
 ### 返回值
 
-返回[`PointF`](../../pointf)结构。
+返回一个[`PointF`](../../pointf)结构体。
 
 ### 也可以看看
 

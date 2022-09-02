@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Aspose.Imaging for .NET API 参考
-description: 从 IDictionary对象中删除所有元素
+description: 从 中删除所有元素IDictionary对象.
 type: docs
 weight: 110
 url: /zh/net/aspose.imaging/nongenericdictionary/clear/
 ---
 ## NonGenericDictionary.Clear method
 
-从 IDictionary对象中删除所有元素。
+从 中删除所有元素IDictionary对象.
 
 ```csharp
 public void Clear()

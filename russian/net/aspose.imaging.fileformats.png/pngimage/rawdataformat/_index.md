@@ -16,12 +16,12 @@ public override PixelDataFormat RawDataFormat { get; }
 
 ### Примеры
 
-Следующий пример загружает изображения PNG и выводит информацию о формате необработанных данных и альфа-канале.
+В следующем примере загружаются изображения PNG и печатается информация о формате необработанных данных и альфа-канале.
 
 ```csharp
 [C#]
 
- // Изображения PNG для загрузки.
+// Изображения PNG для загрузки.
 string[] fileNames = new string[]
 {
     @"c:\temp\sample.png",
@@ -37,8 +37,8 @@ foreach (string fileName in fileNames)
     }
 }
 
-// Вывод может выглядеть так: 
- // ImageFile=c:\temp\sample.png, FileFormat=Rgb24Bpp, используемые каналы: 8,8,8, HasAlpha=False
+// Вывод может выглядеть так:
+// ImageFile=c:\temp\sample.png, FileFormat=Rgb24Bpp, используемые каналы: 8,8,8, HasAlpha=False
 // ImageFile=c:\temp\alpha.png, FileFormat=RGBA32Bpp, используемые каналы: 8,8,8,8, HasAlpha=True
 ```
 

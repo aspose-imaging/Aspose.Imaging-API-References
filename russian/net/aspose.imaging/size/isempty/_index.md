@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее имеет ли этотSizeaspose.imaging/sizeширину и высоту 0.
+description: Получает значение указывающее является ли этоSizeaspose.imaging/size имеет ширину и высоту 0.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging/size/isempty/
 ---
 ## Size.IsEmpty property
 
-Получает значение, указывающее, имеет ли этот[`Size`](../../size)ширину и высоту 0.
+Получает значение, указывающее, является ли это[`Size`](../../size) имеет ширину и высоту 0.
 
 ```csharp
 public bool IsEmpty { get; }

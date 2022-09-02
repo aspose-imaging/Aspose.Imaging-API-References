@@ -1,14 +1,14 @@
 ---
 title: Rop4
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置四元光栅操作它为 位图的前景色和背景色指定三元光栅运算这些值定义了 源矩形的颜色数据如何与目标矩形的颜色数据组合
+description: 获取或设置四元光栅操作它为 位图的前景色和背景色指定三元光栅操作这些值定义了 源矩形的颜色数据如何与目标矩形的颜色数据结合
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfmaskblt/rop4/
 ---
 ## EmfMaskBlt.Rop4 property
 
-获取或设置四元光栅操作，它为 位图的前景色和背景色指定三元光栅运算。这些值定义了 源矩形的颜色数据如何与目标矩形的颜色数据组合。
+获取或设置四元光栅操作，它为 位图的前景色和背景色指定三元光栅操作。这些值定义了 源矩形的颜色数据如何与目标矩形的颜色数据结合。
 
 ```csharp
 public EmfRop4 Rop4 { get; set; }

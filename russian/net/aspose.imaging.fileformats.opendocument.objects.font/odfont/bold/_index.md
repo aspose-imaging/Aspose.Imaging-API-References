@@ -1,14 +1,14 @@
 ---
 title: Bold
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее является ли этоOdFontaspose.imaging.fileformats.opendocument.objects.font/odfontвесомым.
+description: Получает или задает значение указывающее является ли этоOdFontaspose.imaging.fileformats.opendocument.objects.font/odfont вес.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.font/odfont/bold/
 ---
 ## OdFont.Bold property
 
-Получает или задает значение, указывающее, является ли это[`OdFont`](../../odfont)весомым.
+Получает или задает значение, указывающее, является ли это[`OdFont`](../../odfont) вес.
 
 ```csharp
 public bool Bold { get; set; }
@@ -16,7 +16,7 @@ public bool Bold { get; set; }
 
 ### Стоимость имущества
 
-` true` если вес; в противном случае` false` .
+`истинный` если вес; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

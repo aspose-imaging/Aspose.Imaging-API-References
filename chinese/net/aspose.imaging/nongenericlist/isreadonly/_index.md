@@ -1,14 +1,14 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示IList是否为只读
+description: 获取一个值该值指示是否IList是只读的
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging/nongenericlist/isreadonly/
 ---
 ## NonGenericList.IsReadOnly property
 
-获取一个值，该值指示IList是否为只读。
+获取一个值，该值指示是否IList是只读的。
 
 ```csharp
 public bool IsReadOnly { get; }

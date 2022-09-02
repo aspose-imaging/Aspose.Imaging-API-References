@@ -3,7 +3,7 @@ title: ResizeType
 second_title: Aspose.Imaging for .NET API 参考
 description: 指定调整大小类型
 type: docs
-weight: 10870
+weight: 10860
 url: /zh/net/aspose.imaging/resizetype/
 ---
 ## ResizeType enumeration
@@ -19,58 +19,46 @@ public enum ResizeType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 在调整大小操作期间不保留像素。 |
-| LeftTopToLeftTop | `1` | 新图像的左上点将与原始图像的左上点重合。如果需要，将发生作物。 |
-| RightTopToRightTop | `2` | 新图像的右顶点将与原始图像的右顶点重合。如果需要，将发生作物。 |
-| RightBottomToRightBottom | `3` | 新图像的右下点将与原始图像的右下点重合。如果需要，将发生作物。 |
-| LeftBottomToLeftBottom | `4` | 新图像的左下点将与原始图像的左下点重合。如果需要，将发生作物。 |
-| CenterToCenter | `5` | 新图像的中心将与原始图像的中心重合。如果需要，将发生作物。 |
-| LanczosResample | `6` | 使用 a=3 的 lanczos 算法重新采样。 |
+| LeftTopToLeftTop | `1` | 新图像的左上点将与原始图像的左上点重合。如果需要，将进行裁剪。 |
+| RightTopToRightTop | `2` | 新图像的右顶点将与原始图像的右顶点重合。如果需要，将进行裁剪。 |
+| RightBottomToRightBottom | `3` | 新图像的右下点将与原始图像的右下点重合。如果需要，将进行裁剪。 |
+| LeftBottomToLeftBottom | `4` | 新图像的左下点将与原始图像的左下点重合。如果需要，将进行裁剪。 |
+| CenterToCenter | `5` | 新图像的中心将与原始图像的中心重合。如果需要，将进行裁剪。 |
+| LanczosResample | `6` | 使用 lanczos 算法重新采样，a=3. |
 | NearestNeighbourResample | `7` | 使用最近邻算法重新采样。 |
-| AdaptiveResample | `8` | 使用基于加权和混合有理函数的自适应算法和 lanczos3 插值算法进行重采样。 |
+| AdaptiveResample | `8` | 使用基于加权和混合有理函数和 lanczos3 插值算法的自适应算法进行重采样。 |
 | BilinearResample | `9` | 使用双线性插值重新采样。图像预过滤允许在重新采样之前去除噪声，当需要时 |
-| HighQualityResample | `10` | 高质量重采样 |
-| CatmullRom | `11` | Catmull-Rom 三次插值方法。 |
-| CubicConvolution | `12` | 三次卷积插值方法 |
-| CubicBSpline | `13` | CubicBSpline 三次插值法 |
+| HighQualityResample | `10` | 高质量的重采样 |
+| CatmullRom | `11` | Catmull-Rom 三次插值法。 |
+| CubicConvolution | `12` | 三次卷积插值法 |
+| CubicBSpline | `13` | CubicBSpline三次插值法 |
 | Mitchell | `14` | 米切尔三次插值法 |
-| SinC | `15` | Sinc (Lanczos3) 三次插值法 |
+| SinC | `15` | Sinc（Lanczos3）三次插值法 |
 | Bell | `16` | 贝尔插值法 |
 
 ### 例子
 
-使用特定调整大小类型调整图像大小。
+使用特定的调整大小类型调整图像大小。
 
 ```csharp
 [C#]
 
-string dir = "c:\\temp\\";
-
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
+using (var image = Image.Load("Photo.jpg"))
 {
-        // 使用最近邻重采样放大 2 倍。
-    image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
-    image.Save(dir + "upsample.nearestneighbour.gif");
-}
+    image.Resize(640, 480, ResizeType.CatmullRom);
+    image.Save("ResizedPhoto.jpg");
 
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
-{
-    // 使用最近邻重采样缩小 2 倍。
-    image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
-    image.Save(dir + "downsample.nearestneighbour.gif");
-}
+    image.Resize(1024, 768, ResizeType.CubicConvolution);
+    image.Save("ResizedPhoto2.jpg");
 
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
-{
-        // 使用双线性重采样放大 2 倍。
-    image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.BilinearResample);
-    image.Save(dir + "upsample.bilinear.gif");
-}
+    var resizeSettings = new ImageResizeSettings
+    {
+        Mode = ResizeType.CubicBSpline,
+        FilterType = ImageFilterType.SmallRectangular
+    };
 
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
-{
-        // 使用双线性重采样缩小 2 倍。
-    image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.BilinearResample);
-    image.Save(dir + "downsample.bilinear.gif");
+    image.Resize(800, 800, resizeSettings);
+    image.Save("ResizedPhoto3.jpg");
 }
 ```
 
@@ -83,7 +71,7 @@ string dir = "c:\\temp\\";
 
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-        // 使用最近邻重采样放大 2 倍。
+    // 使用最近邻重采样放大 2 倍。
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
     image.Save(dir + "upsample.nearestneighbour.gif");
 }
@@ -97,14 +85,14 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"
 
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-        // 使用双线性重采样放大 2 倍。
+    // 使用双线性重采样放大 2 倍。
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.BilinearResample);
     image.Save(dir + "upsample.bilinear.gif");
 }
 
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-        // 使用双线性重采样缩小 2 倍。
+    // 使用双线性重采样缩小 2 倍。
     image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.BilinearResample);
     image.Save(dir + "downsample.bilinear.gif");
 }

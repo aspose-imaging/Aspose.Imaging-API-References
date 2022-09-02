@@ -18,14 +18,14 @@ public sealed class EmfSetMiterLimit : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSetMiterLimit](emfsetmiterlimit#constructor)() | 初始化[`EmfSetMiterLimit`](../emfsetmiterlimit)类的新实例。 |
-| [EmfSetMiterLimit](emfsetmiterlimit#constructor_1)(EmfRecord) | 初始化[`EmfSetMiterLimit`](../emfsetmiterlimit)类的新实例。 |
+| [EmfSetMiterLimit](emfsetmiterlimit#constructor)() | 初始化[`EmfSetMiterLimit`](../emfsetmiterlimit)类. |
+| [EmfSetMiterLimit](emfsetmiterlimit#constructor_1)(EmfRecord) | 初始化[`EmfSetMiterLimit`](../emfsetmiterlimit)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MiterLimit](../../aspose.imaging.fileformats.emf.emf.records/emfsetmiterlimit/miterlimit) { get; set; } | 获取或设置指定新斜接长度限制的 32 位无符号整数。 |
+| [MiterLimit](../../aspose.imaging.fileformats.emf.emf.records/emfsetmiterlimit/miterlimit) { get; set; } | 获取或设置一个 32 位无符号整数，指定新的斜接长度限制。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

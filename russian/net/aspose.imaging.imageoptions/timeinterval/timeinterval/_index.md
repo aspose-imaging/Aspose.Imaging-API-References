@@ -1,14 +1,14 @@
 ---
 title: TimeInterval
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTimeIntervalaspose.imaging.imageoptions/timeinterval.
+description: Инициализирует новый экземплярTimeIntervalaspose.imaging.imageoptions/timeinterval класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.imageoptions/timeinterval/timeinterval/
 ---
 ## TimeInterval constructor
 
-Инициализирует новый экземпляр класса[`TimeInterval`](../../timeinterval).
+Инициализирует новый экземпляр[`TimeInterval`](../../timeinterval) класс.
 
 ```csharp
 public TimeInterval(uint from, uint to)
@@ -17,7 +17,7 @@ public TimeInterval(uint from, uint to)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | from | UInt32 | От миллисекунд. |
-| to | UInt32 | В миллисекунды. |
+| to | UInt32 | До миллисекунд. |
 
 ### Смотрите также
 

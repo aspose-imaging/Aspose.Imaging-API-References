@@ -1,14 +1,14 @@
 ---
 title: Radial2
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает радиал2.
+description: Получает или задает радиал2.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfpie/radial2/
 ---
 ## WmfPie.Radial2 property
 
-Получает или устанавливает радиал2.
+Получает или задает радиал2.
 
 ```csharp
 public Point Radial2 { get; set; }

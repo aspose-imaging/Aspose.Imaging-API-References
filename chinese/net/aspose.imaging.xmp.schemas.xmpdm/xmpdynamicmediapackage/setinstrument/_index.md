@@ -16,7 +16,7 @@ public void SetInstrument(string instrument)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| instrument | String | 仪器。 |
+| instrument | String | 这个仪器。 |
 
 ### 也可以看看
 

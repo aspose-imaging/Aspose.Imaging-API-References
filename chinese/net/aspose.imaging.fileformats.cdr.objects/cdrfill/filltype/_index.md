@@ -16,7 +16,7 @@ public CdrFillType FillType { get; set; }
 
 ### 适当的价值
 
-填充类型。
+填充的类型。
 
 ### 也可以看看
 

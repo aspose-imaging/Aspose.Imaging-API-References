@@ -1,14 +1,14 @@
 ---
 title: WebPImage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаWebPImageaspose.imaging.fileformats.webp/webpimage из потока .
+description: Инициализирует новый экземплярWebPImageaspose.imaging.fileformats.webp/webpimage class из потока.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.webp/webpimage/webpimage/
 ---
 ## WebPImage(Stream) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`WebPImage`](../../webpimage) из потока .
+Инициализирует новый экземпляр[`WebPImage`](../../webpimage) class из потока.
 
 ```csharp
 public WebPImage(Stream stream)
@@ -27,12 +27,12 @@ public WebPImage(Stream stream)
 
 string dir = "c:\\temp\\";
 
- // Загрузить изображение WebP из файлового потока.
+// Загрузить изображение WebP из файлового потока.
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "test.webp"))
 using (Aspose.Imaging.FileFormats.Webp.WebPImage webPImage = new Aspose.Imaging.FileFormats.Webp.WebPImage(stream))
 {
-     // Сохранить в PNG
-     // Обратите внимание, что в формате PNG будет сохранен только активный кадр, так как PNG не является многостраничным форматом.
+    // Сохранить в PNG
+    // Обратите внимание, что в формате PNG будет сохранен только активный кадр, так как PNG не является многостраничным форматом.
     webPImage.Save(dir + "test.output.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```
@@ -47,7 +47,7 @@ using (Aspose.Imaging.FileFormats.Webp.WebPImage webPImage = new Aspose.Imaging.
 
 ## WebPImage(Stream, LoadOptions) {#constructor_5}
 
-Инициализирует новый экземпляр класса[`WebPImage`](../../webpimage)из потока.
+Инициализирует новый экземпляр[`WebPImage`](../../webpimage) класс из потока.
 
 ```csharp
 public WebPImage(Stream stream, LoadOptions loadOptions)
@@ -56,7 +56,7 @@ public WebPImage(Stream stream, LoadOptions loadOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Потоковое изображение WebP. |
-| loadOptions | LoadOptions | Параметры загрузки. |
+| loadOptions | LoadOptions | Варианты загрузки. |
 
 ### Смотрите также
 
@@ -69,7 +69,7 @@ public WebPImage(Stream stream, LoadOptions loadOptions)
 
 ## WebPImage(string) {#constructor_6}
 
-Инициализирует новый экземпляр класса[`WebPImage`](../../webpimage)из файла.
+Инициализирует новый экземпляр[`WebPImage`](../../webpimage) класс из файла .
 
 ```csharp
 public WebPImage(string path)
@@ -81,18 +81,18 @@ public WebPImage(string path)
 
 ### Примеры
 
-Этот пример показывает как загрузить изображение WebP из файла и сохранить его в формате PNG.
+В этом примере показано, как загрузить изображение WebP из файла и сохранить его в формате PNG.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
- // Загрузить изображение WebP из файла.
+// Загрузить изображение WebP из файла.
 using (Aspose.Imaging.FileFormats.Webp.WebPImage webPImage = new Aspose.Imaging.FileFormats.Webp.WebPImage(dir + "test.webp"))
 {
-     // Сохранить в PNG
-     // Обратите внимание, что в формате PNG будет сохранен только активный кадр, так как PNG не является многостраничным форматом.
+    // Сохранить в PNG
+    // Обратите внимание, что в формате PNG будет сохранен только активный кадр, так как PNG не является многостраничным форматом.
     webPImage.Save(dir + "test.output.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```
@@ -107,7 +107,7 @@ using (Aspose.Imaging.FileFormats.Webp.WebPImage webPImage = new Aspose.Imaging.
 
 ## WebPImage(string, LoadOptions) {#constructor_7}
 
-Инициализирует новый экземпляр класса[`WebPImage`](../../webpimage)из файла.
+Инициализирует новый экземпляр[`WebPImage`](../../webpimage) класс из файла .
 
 ```csharp
 public WebPImage(string path, LoadOptions loadOptions)
@@ -116,7 +116,7 @@ public WebPImage(string path, LoadOptions loadOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | path | String | Путь к файлу изображения WebP |
-| loadOptions | LoadOptions | варианты загрузки. |
+| loadOptions | LoadOptions | Варианты загрузки. |
 
 ### Смотрите также
 
@@ -129,7 +129,7 @@ public WebPImage(string path, LoadOptions loadOptions)
 
 ## WebPImage(RasterImage) {#constructor}
 
-Инициализирует новый экземпляр класса[`WebPImage`](../../webpimage)из rasterImage.
+Инициализирует новый экземпляр[`WebPImage`](../../webpimage) класс из rasterImage.
 
 ```csharp
 public WebPImage(RasterImage rasterImage)
@@ -148,19 +148,19 @@ public WebPImage(RasterImage rasterImage)
 
 string dir = "c:\\temp\\";
 
- // Загрузите изображение PNG размером 100x100 px.
+// Загрузите изображение PNG размером 100x100 пикселей.
 using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.FileFormats.Png.PngImage(100, 100))
 {
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(pngImage);
 
-     // Заливаем все изображение красным.
+    // Заливаем все изображение красным.
     Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
     graphics.FillRectangle(brush, pngImage.Bounds);
 
-     // Создаем изображение WebP на основе изображения PNG.
+    // Создаем изображение WebP на основе изображения PNG.
     using (Aspose.Imaging.FileFormats.Webp.WebPImage webPImage = new Aspose.Imaging.FileFormats.Webp.WebPImage(pngImage))
     {
-         // Сохранить в файл WebP с параметрами по умолчанию options
+        // Сохранить в файл WebP с параметрами по умолчанию
         webPImage.Save(dir + "output.webp", new Aspose.Imaging.ImageOptions.WebPOptions());
     }
 }
@@ -177,7 +177,7 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
 ## WebPImage(RasterImage, LoadOptions) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`WebPImage`](../../webpimage)из rasterImage.
+Инициализирует новый экземпляр[`WebPImage`](../../webpimage) класс из rasterImage.
 
 ```csharp
 public WebPImage(RasterImage rasterImage, LoadOptions loadOptions)
@@ -186,7 +186,7 @@ public WebPImage(RasterImage rasterImage, LoadOptions loadOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | rasterImage | RasterImage | Растровое изображение. |
-| loadOptions | LoadOptions | Параметры загрузки. |
+| loadOptions | LoadOptions | Варианты загрузки. |
 
 ### Смотрите также
 
@@ -200,7 +200,7 @@ public WebPImage(RasterImage rasterImage, LoadOptions loadOptions)
 
 ## WebPImage(int, int, WebPOptions) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`WebPImage`](../../webpimage)с пустым изображением.
+Инициализирует новый экземпляр[`WebPImage`](../../webpimage) класс с пустым изображением.
 
 ```csharp
 public WebPImage(int width, int height, WebPOptions options)
@@ -210,7 +210,7 @@ public WebPImage(int width, int height, WebPOptions options)
 | --- | --- | --- |
 | width | Int32 | Ширина изображения |
 | height | Int32 | Высота изображения. |
-| options | WebPOptions | Опции. |
+| options | WebPOptions | Варианты. |
 
 ### Примеры
 
@@ -224,43 +224,18 @@ string dir = "c:\\temp\\";
 Aspose.Imaging.ImageOptions.WebPOptions createOptions = new Aspose.Imaging.ImageOptions.WebPOptions();
 createOptions.Lossless = true;
 createOptions.Quality = 100f;
-createOptions.AnimBackgroundColor = (uint)Aspose.Imaging.Color.Gray.ToArgb();
+//createOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(dir + "output.webp");
 
-// Кадр по умолчанию плюс 36 + 36 дополнительных кадров.
-createOptions.AnimLoopCount = 36 + 36 + 1;
-
- // Создаем изображение WebP размером 100x100 пикселей.
+// Создаем изображение WebP размером 100x100 пикселей.
 using (Aspose.Imaging.FileFormats.Webp.WebPImage webPImage = new Aspose.Imaging.FileFormats.Webp.WebPImage(100, 100, createOptions))
 {
-     // Первый круг — red
-    Aspose.Imaging.Brushes.SolidBrush brush1 = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
+    Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(webPImage);
 
-     // Второй круг — black
-    Aspose.Imaging.Brushes.SolidBrush brush2 = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Black);
+    // Заливаем все изображение красным.
+    Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
+    graphics.FillRectangle(brush, webPImage.Bounds);
 
-     // Постепенно увеличиваем угол красной дуги shape.
-    for (int angle = 10; angle <= 360; angle += 10)
-    {
-        Aspose.Imaging.FileFormats.Webp.WebPFrameBlock block = new Aspose.Imaging.FileFormats.Webp.WebPFrameBlock(100, 100);
-        Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(block);
-        graphics.FillPie(brush1, block.Bounds, 0, angle);
-
-        webPImage.AddBlock(block);
-    }
-
-     // Постепенно увеличиваем угол черной дуги и стираем красную дугу.
-    for (int angle = 10; angle <= 360; angle += 10)
-    {
-        Aspose.Imaging.FileFormats.Webp.WebPFrameBlock block = new Aspose.Imaging.FileFormats.Webp.WebPFrameBlock(100, 100);
-
-        Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(block);
-        graphics.FillPie(brush2, block.Bounds, 0, angle);
-        graphics.FillPie(brush1, block.Bounds, angle, 360 - angle);
-
-        webPImage.AddBlock(block);
-    }
-
-     // Сохранить в WebP file
+    // Сохраняем в файл WebP
     webPImage.Save(dir + "output.webp");
 }
 ```
@@ -280,16 +255,16 @@ createOptions.AnimBackgroundColor = (uint)Aspose.Imaging.Color.Gray.ToArgb();
 // Кадр по умолчанию плюс 36 + 36 дополнительных кадров.
 createOptions.AnimLoopCount = 36 + 36 + 1;
 
- // Создаем изображение WebP размером 100x100 пикселей.
+// Создаем изображение WebP размером 100x100 пикселей.
 using (Aspose.Imaging.FileFormats.Webp.WebPImage webPImage = new Aspose.Imaging.FileFormats.Webp.WebPImage(100, 100, createOptions))
 {
-     // Первый круг — red
+    // Первый круг красный
     Aspose.Imaging.Brushes.SolidBrush brush1 = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
 
-     // Второй круг — black
+    // Второй круг черный
     Aspose.Imaging.Brushes.SolidBrush brush2 = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Black);
 
-     // Постепенно увеличиваем угол красной дуги shape.
+    // Постепенно увеличивайте угол красной дуги.
     for (int angle = 10; angle <= 360; angle += 10)
     {
         Aspose.Imaging.FileFormats.Webp.WebPFrameBlock block = new Aspose.Imaging.FileFormats.Webp.WebPFrameBlock(100, 100);
@@ -299,7 +274,7 @@ using (Aspose.Imaging.FileFormats.Webp.WebPImage webPImage = new Aspose.Imaging.
         webPImage.AddBlock(block);
     }
 
-     // Постепенно увеличиваем угол черной дуги и стираем красную дугу.
+    // Постепенно увеличивайте угол черной дуги и стирайте красную дугу.
     for (int angle = 10; angle <= 360; angle += 10)
     {
         Aspose.Imaging.FileFormats.Webp.WebPFrameBlock block = new Aspose.Imaging.FileFormats.Webp.WebPFrameBlock(100, 100);
@@ -311,7 +286,7 @@ using (Aspose.Imaging.FileFormats.Webp.WebPImage webPImage = new Aspose.Imaging.
         webPImage.AddBlock(block);
     }
 
-     // Сохранить в WebP file
+    // Сохраняем в файл WebP
     webPImage.Save(dir + "output.webp");
 }
 ```
@@ -327,7 +302,7 @@ using (Aspose.Imaging.FileFormats.Webp.WebPImage webPImage = new Aspose.Imaging.
 
 ## WebPImage(int, int, WebPOptions, LoadOptions) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`WebPImage`](../../webpimage)с пустым изображением.
+Инициализирует новый экземпляр[`WebPImage`](../../webpimage) класс с пустым изображением.
 
 ```csharp
 public WebPImage(int width, int height, WebPOptions options, LoadOptions loadOptions)
@@ -337,8 +312,8 @@ public WebPImage(int width, int height, WebPOptions options, LoadOptions loadOpt
 | --- | --- | --- |
 | width | Int32 | Ширина изображения |
 | height | Int32 | Высота изображения. |
-| options | WebPOptions | Опции. |
-| loadOptions | LoadOptions | Параметры загрузки. |
+| options | WebPOptions | Варианты. |
+| loadOptions | LoadOptions | Варианты загрузки. |
 
 ### Смотрите также
 

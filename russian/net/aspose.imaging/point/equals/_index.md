@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Указывает содержит ли этотPointaspose.imaging/pointте же координаты что и указанныйObject.
+description: Указывает является ли этоPointaspose.imaging/point содержит те же координаты что и указанныйObject .
 type: docs
 weight: 110
 url: /ru/net/aspose.imaging/point/equals/
 ---
 ## Point.Equals method
 
-Указывает, содержит ли этот[`Point`](../../point)те же координаты, что и указанныйObject.
+Указывает, является ли это[`Point`](../../point) содержит те же координаты, что и указанныйObject .
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Objectдля тестирования. |
+| obj | Object | Object тестировать. |
 
 ### Возвращаемое значение
 
-Истинно, если*obj*является[`Point`](../../point)и имеет те же координаты, что и это[`Point`](../../point).
+Верно, если*obj* это[`Point`](../../point) и имеет те же координаты, что и это[`Point`](../../point).
 
 ### Смотрите также
 

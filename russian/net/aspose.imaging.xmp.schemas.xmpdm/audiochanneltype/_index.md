@@ -3,7 +3,7 @@ title: AudioChannelType
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет тип аудиоканала.
 type: docs
-weight: 11360
+weight: 11350
 url: /ru/net/aspose.imaging.xmp.schemas.xmpdm/audiochanneltype/
 ---
 ## AudioChannelType class
@@ -18,7 +18,7 @@ public sealed class AudioChannelType
 
 | Имя | Описание |
 | --- | --- |
-| static [Audio16Channel](../../aspose.imaging.xmp.schemas.xmpdm/audiochanneltype/audio16channel) { get; } | Получает 16 аудиоканал. |
+| static [Audio16Channel](../../aspose.imaging.xmp.schemas.xmpdm/audiochanneltype/audio16channel) { get; } | Получает 16 аудиоканалов. |
 | static [Audio51](../../aspose.imaging.xmp.schemas.xmpdm/audiochanneltype/audio51) { get; } | Получает аудиоканал 5.1. |
 | static [Audio71](../../aspose.imaging.xmp.schemas.xmpdm/audiochanneltype/audio71) { get; } | Получает аудиоканал 7.1. |
 | static [Mono](../../aspose.imaging.xmp.schemas.xmpdm/audiochanneltype/mono) { get; } | Получает монофонический аудиоканал. |
@@ -29,7 +29,7 @@ public sealed class AudioChannelType
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.imaging.xmp.schemas.xmpdm/audiochanneltype/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.imaging.xmp.schemas.xmpdm/audiochanneltype/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 
 ### Смотрите также
 

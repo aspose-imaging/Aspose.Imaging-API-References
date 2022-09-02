@@ -3,7 +3,7 @@ title: TgaImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7580
+weight: 7590
 url: /net/aspose.imaging.fileformats.tga/tgaimage/
 ---
 ## TgaImage class
@@ -67,7 +67,7 @@ public class TgaImage : RasterCachedImage
 | virtual [RawLineSize](../../aspose.imaging/rasterimage/rawlinesize) { get; } | Gets the raw line size in bytes. |
 | [Size](../../aspose.imaging/image/size) { get; } | Gets the image size. |
 | [SoftwareId](../../aspose.imaging.fileformats.tga/tgaimage/softwareid) { get; set; } | Gets or sets Software ID. A total of 40 ASCII characters for the Software ID. |
-| [SoftwareVersion](../../aspose.imaging.fileformats.tga/tgaimage/softwareversion) { get; set; } | Gets or sets Software Version. Accepted version string Length is 3-4 characters. |
+| [SoftwareVersion](../../aspose.imaging.fileformats.tga/tgaimage/softwareversion) { get; set; } | Gets or sets Software Version. Accepted version string length is 3-4 characters. |
 | [SoftwareVersionLetter](../../aspose.imaging.fileformats.tga/tgaimage/softwareversionletter) { get; set; } | Gets or sets Software Version letter part. |
 | [SoftwareVersionNumber](../../aspose.imaging.fileformats.tga/tgaimage/softwareversionnumber) { get; set; } | Gets or sets Software Version number part. |
 | override [TransparentColor](../../aspose.imaging.fileformats.tga/tgaimage/transparentcolor) { get; set; } | Gets or sets Key Color. |

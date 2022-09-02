@@ -16,7 +16,7 @@ public Dictionary<int, CdrFill> Fills { get; }
 
 ### Стоимость имущества
 
-Заполняет.
+Заливки.
 
 ### Смотрите также
 

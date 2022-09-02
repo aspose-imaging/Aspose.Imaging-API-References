@@ -1,14 +1,14 @@
 ---
 title: EmfPlusRegionNodeChildNodes
 second_title: Aspose.Imaging for .NET API 参考
-description: EmfPlusRegionNodeChildNodes 对象指定图形区域节点的子节点
+description: EmfPlusRegionNodeChildNodes 对象指定图形区域的子节点 node
 type: docs
 weight: 5730
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/
 ---
 ## EmfPlusRegionNodeChildNodes class
 
-EmfPlusRegionNodeChildNodes 对象指定图形区域节点的子节点
+EmfPlusRegionNodeChildNodes 对象指定图形区域的子节点 node
 
 ```csharp
 public sealed class EmfPlusRegionNodeChildNodes : EmfPlusStructureObjectType
@@ -26,7 +26,7 @@ public sealed class EmfPlusRegionNodeChildNodes : EmfPlusStructureObjectType
 | --- | --- |
 | [Left](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/left) { get; set; } | 获取或设置一个 EmfPlusRegionNode 对象，该对象指定该区域节点的左子节点。 |
 | [Operation](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/operation) { get; set; } | 获取或设置操作。 |
-| [Right](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/right) { get; set; } | 获取或设置定义此区域节点右子节点的 EmfPlusRegionNode 对象。 |
+| [Right](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodechildnodes/right) { get; set; } | 获取或设置一个EmfPlusRegionNode对象，该对象定义了这个区域节点的右子节点。 |
 
 ### 也可以看看
 

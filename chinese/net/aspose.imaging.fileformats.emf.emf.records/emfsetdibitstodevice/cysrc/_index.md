@@ -1,14 +1,14 @@
 ---
 title: CySrc
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位有符号整数指定源矩形的像素高度
+description: 获取或设置一个 32 位有符号整数指定源矩形的高度以像素为单位
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/cysrc/
 ---
 ## EmfSetDiBitsToDevice.CySrc property
 
-获取或设置一个 32 位有符号整数，指定源矩形的像素高度
+获取或设置一个 32 位有符号整数，指定源矩形的高度（以像素为单位）
 
 ```csharp
 public int CySrc { get; set; }

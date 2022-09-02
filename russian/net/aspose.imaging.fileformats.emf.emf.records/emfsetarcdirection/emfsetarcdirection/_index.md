@@ -1,14 +1,14 @@
 ---
 title: EmfSetArcDirection
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetArcDirectionaspose.imaging.fileformats.emf.emf.records/emfsetarcdirection.
+description: Инициализирует новый экземплярEmfSetArcDirectionaspose.imaging.fileformats.emf.emf.records/emfsetarcdirection класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetarcdirection/emfsetarcdirection/
 ---
 ## EmfSetArcDirection(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfSetArcDirection`](../../emfsetarcdirection).
+Инициализирует новый экземпляр[`EmfSetArcDirection`](../../emfsetarcdirection) класс.
 
 ```csharp
 public EmfSetArcDirection(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfSetArcDirection(EmfRecord source)
 
 ## EmfSetArcDirection() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfSetArcDirection`](../../emfsetarcdirection).
+Инициализирует новый экземпляр[`EmfSetArcDirection`](../../emfsetarcdirection) класс.
 
 ```csharp
 public EmfSetArcDirection()

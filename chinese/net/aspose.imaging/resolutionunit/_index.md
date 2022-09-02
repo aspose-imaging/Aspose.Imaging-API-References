@@ -3,7 +3,7 @@ title: ResolutionUnit
 second_title: Aspose.Imaging for .NET API 参考
 description: 分辨率单位枚举
 type: docs
-weight: 10890
+weight: 10880
 url: /zh/net/aspose.imaging/resolutionunit/
 ---
 ## ResolutionUnit enumeration
@@ -19,7 +19,7 @@ public enum ResolutionUnit : byte
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 未定义单位 |
-| Inch | `1` | 英制单位 |
+| Inch | `1` | 英寸单位 |
 | Cm | `2` | 公制厘米单位 |
 
 ### 也可以看看

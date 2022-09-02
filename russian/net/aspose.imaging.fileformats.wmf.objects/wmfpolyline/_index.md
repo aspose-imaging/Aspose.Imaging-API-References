@@ -1,14 +1,14 @@
 ---
 title: WmfPolyLine
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект ломаной линии.
+description: Объект полилинии.
 type: docs
 weight: 8870
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfpolyline/
 ---
 ## WmfPolyLine class
 
-Объект ломаной линии.
+Объект полилинии.
 
 ```csharp
 public class WmfPolyLine : WmfObject
@@ -24,8 +24,8 @@ public class WmfPolyLine : WmfObject
 
 | Имя | Описание |
 | --- | --- |
-| [APoints](../../aspose.imaging.fileformats.wmf.objects/wmfpolyline/apoints) { get; set; } | Получает или устанавливает точки. Массив NumberOfPoints 32-битных объектов PointS в логических единицах. |
-| [NumberOfPoint](../../aspose.imaging.fileformats.wmf.objects/wmfpolyline/numberofpoint) { get; set; } | Получает или задает количество точек. 16-разрядное целое число со знаком, которое определяет количество точек в массиве. |
+| [APoints](../../aspose.imaging.fileformats.wmf.objects/wmfpolyline/apoints) { get; set; } | Получает или устанавливает точки. Массив NumberOfPoints из 32-битных объектов PointS в логических единицах. |
+| [NumberOfPoint](../../aspose.imaging.fileformats.wmf.objects/wmfpolyline/numberofpoint) { get; set; } | Получает или задает количество точек. 16-битное целое число со знаком, которое определяет количество точек в массиве. |
 
 ### Смотрите также
 

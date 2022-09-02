@@ -1,14 +1,14 @@
 ---
 title: Bounds
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 WMF RectL 对象MS-WMF 第 2.2.2.19 节该对象指定了设备中包含的矩形 边界可以围绕存储在 元文件
+description: 获取或设置一个 WMF RectL 对象MS-WMF 第 2.2.2.19 节该对象指定可以围绕存储在 元文件 中的图像绘制的最小矩形的设备单位中的矩形包容性 边界
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/bounds/
 ---
 ## EmfHeaderObject.Bounds property
 
-获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象指定了设备中包含的矩形 边界可以围绕存储在 元文件
+获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象指定可以围绕存储在 元文件 中的图像绘制的最小矩形的设备单位中的矩形包容性 边界
 
 ```csharp
 public Rectangle Bounds { get; set; }

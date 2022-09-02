@@ -1,14 +1,14 @@
 ---
 title: IntersectClip
 second_title: Aspose.Imaging for .NET API 参考
-description: 将此 Graphics 的剪辑区域更新为当前剪辑区域与指定 Rectangle 结构的交集
+description: 将此 Graphics 的剪辑区域更新为当前剪辑区域与指定的 Rectangle 结构的交集
 type: docs
 weight: 240
 url: /zh/net/aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/intersectclip/
 ---
 ## IntersectClip(RectangleF) {#intersectclip}
 
-将此 Graphics 的剪辑区域更新为当前剪辑区域与指定 Rectangle 结构的交集。
+将此 Graphics 的剪辑区域更新为当前剪辑区域与指定的 Rectangle 结构的交集。
 
 ```csharp
 public void IntersectClip(RectangleF rect)
@@ -29,7 +29,7 @@ public void IntersectClip(RectangleF rect)
 
 ## IntersectClip(Region) {#intersectclip_1}
 
-更新此Graphics的剪辑区域为当前剪辑区域与指定Region的交集。
+将此Graphics的剪辑区域更新为当前剪辑区域与指定区域的交集。
 
 ```csharp
 public void IntersectClip(Region region)

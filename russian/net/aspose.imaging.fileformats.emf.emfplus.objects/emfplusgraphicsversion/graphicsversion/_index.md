@@ -1,14 +1,14 @@
 ---
 title: GraphicsVersion
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает GraphicsVersion 12 битВерсия графики операционной системы. Это значение ДОЛЖНО быть определено в перечислении EmfPlusGraphicsVersionaspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion
+description: Получает GraphicsVersion 12 бит версия графики операционной системы. Это значение ДОЛЖНО быть определено в the EmfPlusGraphicsVersionaspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion перечисление
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion/graphicsversion/
 ---
 ## EmfPlusGraphicsVersion.GraphicsVersion property
 
-Получает GraphicsVersion (12 бит):Версия графики операционной системы. Это значение ДОЛЖНО быть определено в перечислении [`EmfPlusGraphicsVersion`](../../emfplusgraphicsversion)
+Получает GraphicsVersion (12 бит): версия графики операционной системы. Это значение ДОЛЖНО быть определено в the [`EmfPlusGraphicsVersion`](../../emfplusgraphicsversion) перечисление
 
 ```csharp
 public EmfPlusGraphicsVersionEnum GraphicsVersion { get; set; }

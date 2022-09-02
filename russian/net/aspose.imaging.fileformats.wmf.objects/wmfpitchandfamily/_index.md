@@ -1,14 +1,14 @@
 ---
 title: WmfPitchAndFamily
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект PitchAndFamily определяет высоту тона и свойства семейства объекта Font раздел 2.2.1.2. Шаг относится к ширине символов  а семейство относится к общему виду шрифта.
+description: Объект PitchAndFamily определяет высоту тона и свойства семейства объекта a Font раздел 2.2.1.2. Шаг относится к ширине символов  а семейство относится к общему виду шрифта.
 type: docs
 weight: 8850
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/
 ---
 ## WmfPitchAndFamily structure
 
-Объект PitchAndFamily определяет высоту тона и свойства семейства объекта Font (раздел 2.2.1.2). Шаг относится к ширине символов , а семейство относится к общему виду шрифта.
+Объект PitchAndFamily определяет высоту тона и свойства семейства объекта a Font (раздел 2.2.1.2). Шаг относится к ширине символов , а семейство относится к общему виду шрифта.
 
 ```csharp
 public struct WmfPitchAndFamily
@@ -18,14 +18,14 @@ public struct WmfPitchAndFamily
 
 | Имя | Описание |
 | --- | --- |
-| [WmfPitchAndFamily](wmfpitchandfamily#constructor_1)(byte) | Инициализирует новый экземпляр структуры[`WmfPitchAndFamily`](../wmfpitchandfamily) . |
-| [WmfPitchAndFamily](wmfpitchandfamily#constructor)(WmfPitchFont, WmfFamilyFont) | Инициализирует новый экземпляр структуры[`WmfPitchAndFamily`](../wmfpitchandfamily) . |
+| [WmfPitchAndFamily](wmfpitchandfamily#constructor_1)(byte) | Инициализирует новый экземпляр[`WmfPitchAndFamily`](../wmfpitchandfamily) структура. |
+| [WmfPitchAndFamily](wmfpitchandfamily#constructor)(WmfPitchFont, WmfFamilyFont) | Инициализирует новый экземпляр[`WmfPitchAndFamily`](../wmfpitchandfamily) структура. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [ByteData](../../aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/bytedata) { get; set; } | Устанавливает данные &lt;see langword="byte" /&gt;. |
+| [ByteData](../../aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/bytedata) { get; set; } | Устанавливает`byte` данные. |
 | [Family](../../aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/family) { get; } | Получает свойство шрифта, описывающее его общий вид. Это ДОЛЖНО быть значением в перечислении FamilyFont |
 | [Pitch](../../aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/pitch) { get; } | Получает свойство шрифта, описывающее шаг символов . Это ДОЛЖНО быть значением в перечислении PitchFont. |
 

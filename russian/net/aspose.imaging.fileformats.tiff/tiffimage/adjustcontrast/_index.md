@@ -1,14 +1,14 @@
 ---
 title: AdjustContrast
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Imageaspose.imaging/imageконтраст
+description: Imageaspose.imaging/image контрастный
 type: docs
 weight: 180
 url: /ru/net/aspose.imaging.fileformats.tiff/tiffimage/adjustcontrast/
 ---
 ## TiffImage.AdjustContrast method
 
-[`Image`](../../../aspose.imaging/image)контраст
+[`Image`](../../../aspose.imaging/image) контрастный
 
 ```csharp
 public override void AdjustContrast(float contrast)
@@ -16,7 +16,7 @@ public override void AdjustContrast(float contrast)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| контраст | Single | Контраст значение (в диапазоне [-100; 100]) |
+| contrast | Single | Значение контраста (в диапазоне [-100; 100]) |
 
 ### Примеры
 
@@ -31,7 +31,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"
 {
     Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)image;
 
-     // Установить значение контраста. Допустимые значения контраста находятся в диапазоне [-100f, 100f].
+    // Установить значение контраста. Принятые значения контраста находятся в диапазоне [-100f, 100f].
     tiffImage.AdjustContrast(50f);
     tiffImage.Save(dir + "sample.AdjustContrast.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }

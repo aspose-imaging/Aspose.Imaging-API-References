@@ -18,16 +18,16 @@ public class OdPolyLine : OdPolygon
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OdPolyLine](odpolyline)(OdObject) | 初始化[`OdPolyLine`](../odpolyline)类的新实例。 |
+| [OdPolyLine](odpolyline)(OdObject) | 初始化[`OdPolyLine`](../odpolyline)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]。 |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | 获取项目。 |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | 获取父对象。 |
-| [Points](../../aspose.imaging.fileformats.opendocument.objects.graphic/odpolygon/points) { get; set; } | 获取或设置点。 |
+| [Points](../../aspose.imaging.fileformats.opendocument.objects.graphic/odpolygon/points) { get; set; } | 获取或设置点数。 |
 | [Rectangle](../../aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/rectangle) { get; set; } | 获取或设置矩形。 |
 | [Style](../../aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/style) { get; set; } | 获取或设置样式。 |
 

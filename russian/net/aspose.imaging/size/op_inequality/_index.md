@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Проверяет различаются ли две структурыSizeaspose.imaging/size.
+description: Проверяет являются ли дваSizeaspose.imaging/size структуры разные.
 type: docs
 weight: 180
 url: /ru/net/aspose.imaging/size/op_inequality/
 ---
 ## Size Inequality operator
 
-Проверяет, различаются ли две структуры[`Size`](../../size).
+Проверяет, являются ли два[`Size`](../../size) структуры разные.
 
 ```csharp
 public static bool operator !=(Size size1, Size size2)
@@ -16,12 +16,12 @@ public static bool operator !=(Size size1, Size size2)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| size1 | Size | Структура[`Size`](../../size)слева от оператора неравенства. |
-| size2 | Size | Структура[`Size`](../../size)справа от оператора неравенства. |
+| size1 | Size | [`Size`](../../size) структура слева от оператора неравенства. |
+| size2 | Size | [`Size`](../../size) структура справа от оператора неравенства. |
 
 ### Возвращаемое значение
 
-Истинно, если*size1*и*size2*отличаются либо шириной, либо высотой; false, если*size1*и*size2*равны.
+Верно, если*size1* а также*size2* отличаются либо шириной, либо высотой; ложно, если*size1* а также*size2* равны.
 
 ### Смотрите также
 

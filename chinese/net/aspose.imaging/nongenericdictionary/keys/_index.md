@@ -1,14 +1,14 @@
 ---
 title: Keys
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个 ICollection对象其中包含47 的键IDictionary对象
+description: 获取 ICollection包含 键的对象IDictionary对象.
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging/nongenericdictionary/keys/
 ---
 ## NonGenericDictionary.Keys property
 
-获取一个 ICollection对象，其中包含:::47 的键:::IDictionary对象。
+获取 ICollection包含 键的对象IDictionary对象.
 
 ```csharp
 public ICollection Keys { get; }
@@ -16,7 +16,7 @@ public ICollection Keys { get; }
 
 ### 返回值
 
-一个ICollection对象，包含:::R5 的键:T:System.Collections.IDictionary:::对象。
+一个ICollection包含键的对象IDictionary目的。
 
 ### 也可以看看
 

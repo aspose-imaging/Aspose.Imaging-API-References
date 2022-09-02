@@ -1,14 +1,14 @@
 ---
 title: EmfArc
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_ARC задает эллиптическую дугу.
+description: Запись EMR_ARC указывает эллиптическую дугу.
 type: docs
 weight: 3220
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfarc/
 ---
 ## EmfArc class
 
-Запись EMR_ARC задает эллиптическую дугу.
+Запись EMR_ARC указывает эллиптическую дугу.
 
 ```csharp
 public sealed class EmfArc : EmfDrawingRecordType
@@ -18,17 +18,17 @@ public sealed class EmfArc : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfArc](emfarc#constructor)() | Инициализирует новый экземпляр класса[`EmfArc`](../emfarc). |
-| [EmfArc](emfarc#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfArc`](../emfarc). |
+| [EmfArc](emfarc#constructor)() | Инициализирует новый экземпляр[`EmfArc`](../emfarc) класс. |
+| [EmfArc](emfarc#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfArc`](../emfarc) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Box](../../aspose.imaging.fileformats.emf.emf.records/emfarc/box) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе 2.2.2.19 [MS-WMF], который указывает включающее- включая ограничивающий прямоугольник. |
-| [End](../../aspose.imaging.fileformats.emf.emf.records/emfarc/end) { get; set; } | Получает или задает 64-битный объект WMF PointL, который указывает координаты в логических единицах конечной точки радиальной линии, определяющей конечная точка дуги. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
-| [Start](../../aspose.imaging.fileformats.emf.emf.records/emfarc/start) { get; set; } | Получает или задает 64-битный объект WMF PointL, указанный в разделе 2.2.2.15 [MS-WMF], который указывает координаты, в логических единицах конечной точки радиальной линии, определяющей начальную точку дуги. |
+| [Box](../../aspose.imaging.fileformats.emf.emf.records/emfarc/box) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе 2.2.2.19 [MS-WMF], где указывает ограничивающий прямоугольник включительно. |
+| [End](../../aspose.imaging.fileformats.emf.emf.records/emfarc/end) { get; set; } | Получает или задает 64-битный объект WMF PointL, который указывает координаты в логических единицах конечной точки радиальной линии, определяющей конечную точку дуги. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
+| [Start](../../aspose.imaging.fileformats.emf.emf.records/emfarc/start) { get; set; } | Получает или задает 64-битный объект WMF PointL, указанный в разделе 2.2.2.15 [MS-WMF], где указывает координаты в логических единицах конечной точки радиальной линии, определяющей начальную точку дуги. . |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: Meta
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает метаданные XMP. По желанию.
+description: Получает метаданные XMP. Дополнительно.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.xmp/xmppacketwrapper/meta/
 ---
 ## XmpPacketWrapper.Meta property
 
-Получает метаданные XMP. По желанию.
+Получает метаданные XMP. Дополнительно.
 
 ```csharp
 public XmpMeta Meta { get; set; }
@@ -16,7 +16,7 @@ public XmpMeta Meta { get; set; }
 
 ### Стоимость имущества
 
-Мета XMP. По желанию.
+Мета XMP. Дополнительно.
 
 ### Смотрите также
 

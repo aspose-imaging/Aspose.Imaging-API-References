@@ -1,14 +1,14 @@
 ---
 title: CenterPointF
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 EmfPlusARGB 对象第 2.2.2.1 节指定路径渐变画笔的中心颜色 即出现的颜色在画笔的中心点 笔刷的颜色随着 从边界到中心点的移动而逐渐从边界颜色变为中心颜色
+description: 获取或设置 EmfPlusARGB 对象第 2.2.2.1 节它指定路径渐变画笔的中心颜色 是出现在画笔中心点的颜色 笔刷的颜色从边界颜色逐渐变为中心颜色因为它从边界移动 到中心点
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/centerpointf/
 ---
 ## EmfPlusPathGradientBrushData.CenterPointF property
 
-获取或设置 EmfPlusARGB 对象（第 2.2.2.1 节），指定路径渐变画笔的中心颜色 即出现的颜色在画笔的中心点。 笔刷的颜色随着 从边界到中心点的移动而逐渐从边界颜色变为中心颜色。
+获取或设置 EmfPlusARGB 对象（第 2.2.2.1 节），它指定路径渐变画笔的中心颜色， 是出现在画笔中心点的颜色。 笔刷的颜色从边界颜色逐渐变为中心颜色，因为它从边界移动 到中心点。
 
 ```csharp
 public PointF CenterPointF { get; set; }

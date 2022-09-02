@@ -1,14 +1,14 @@
 ---
 title: GetFirstSupportedDescriptorByTypeName
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает первый поддерживаемый дескриптор по имени типа.
+description: Получает первый поддерживаемый дескриптор по имени его типа.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.gif/gifblocksregistry/getfirstsupporteddescriptorbytypename/
 ---
 ## GifBlocksRegistry.GetFirstSupportedDescriptorByTypeName method
 
-Получает первый поддерживаемый дескриптор по имени типа.
+Получает первый поддерживаемый дескриптор по имени его типа.
 
 ```csharp
 public static IGifBlockLoaderDescriptor GetFirstSupportedDescriptorByTypeName(
@@ -21,7 +21,7 @@ public static IGifBlockLoaderDescriptor GetFirstSupportedDescriptorByTypeName(
 
 ### Возвращаемое значение
 
-Первый найденный дескриптор открывателя или null, если такой дескриптор не найден.
+Первый найденный дескриптор открывателя или нуль, если такой дескриптор не найден.
 
 ### Примечания
 

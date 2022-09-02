@@ -1,14 +1,14 @@
 ---
 title: OdRectangle
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化OdRectangleaspose.imaging.fileformats.opendocument.objects.graphic/odrectangle类的新实例
+description: 初始化OdRectangleaspose.imaging.fileformats.opendocument.objects.graphic/odrectangle类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odrectangle/odrectangle/
 ---
 ## OdRectangle constructor
 
-初始化[`OdRectangle`](../../odrectangle)类的新实例。
+初始化[`OdRectangle`](../../odrectangle)类.
 
 ```csharp
 public OdRectangle(OdObject parent)
@@ -16,7 +16,7 @@ public OdRectangle(OdObject parent)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | OdObject | 父级。 |
+| parent | OdObject | 家长。 |
 
 ### 也可以看看
 

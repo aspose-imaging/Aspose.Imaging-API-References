@@ -1,14 +1,14 @@
 ---
 title: OnImageResourceReady
 second_title: Aspose.Imaging for .NET API 参考
-description: 当图像资源准备好时调用
+description: 图像资源就绪时调用
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.svg/isvgresourcekeepercallback/onimageresourceready/
 ---
 ## ISvgResourceKeeperCallback.OnImageResourceReady method
 
-当图像资源准备好时调用。
+图像资源就绪时调用。
 
 ```csharp
 public string OnImageResourceReady(byte[] imageData, SvgImageType imageType, 
@@ -20,11 +20,11 @@ public string OnImageResourceReady(byte[] imageData, SvgImageType imageType,
 | imageData | Byte[] | 资源数据。 |
 | imageType | SvgImageType | 图像的类型。 |
 | suggestedFileName | String | 建议文件的名称。 |
-| useEmbeddedImage | Boolean& | 如果设置为` true` 必须使用嵌入图像。 |
+| useEmbeddedImage | Boolean& | 如果设置为`真的`必须使用嵌入的图像。 |
 
 ### 返回值
 
-返回保存资源的路径。路径应该相对于目标 SVG 文档。
+返回保存资源的路径。路径应相对于目标 SVG 文档。
 
 ### 也可以看看
 

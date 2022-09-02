@@ -1,14 +1,14 @@
 ---
 title: TiffPlanarConfigs
 second_title: Aspose.Imaging for .NET API 参考
-description: 存储组织ltbr /gt PLANARCONFIG 标签的可能值
+description: 存储组织 PLANARCONFIG 标签的可能值
 type: docs
 weight: 7700
 url: /zh/net/aspose.imaging.fileformats.tiff.enums/tiffplanarconfigs/
 ---
 ## TiffPlanarConfigs enumeration
 
-存储组织。&lt;br /&gt; PLANARCONFIG 标签的可能值。
+存储组织。 PLANARCONFIG 标签的可能值。
 
 ```csharp
 public enum TiffPlanarConfigs : ushort
@@ -18,8 +18,8 @@ public enum TiffPlanarConfigs : ushort
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Contiguous | `1` | 单图像平面。 |
-| Separate | `2` | 单独的数据平面。 |
+| Contiguous | `1` | 单个图像平面。 |
+| Separate | `2` | 分离数据平面。 |
 
 ### 也可以看看
 

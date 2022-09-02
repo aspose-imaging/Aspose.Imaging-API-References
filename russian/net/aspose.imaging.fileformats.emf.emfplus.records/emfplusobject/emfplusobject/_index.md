@@ -1,14 +1,14 @@
 ---
 title: EmfPlusObject
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusObjectaspose.imaging.fileformats.emf.emfplus.records/emfplusobject.
+description: Инициализирует новый экземплярEmfPlusObjectaspose.imaging.fileformats.emf.emfplus.records/emfplusobject класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusobject/emfplusobject/
 ---
 ## EmfPlusObject constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusObject`](../../emfplusobject).
+Инициализирует новый экземпляр[`EmfPlusObject`](../../emfplusobject) класс.
 
 ```csharp
 public EmfPlusObject(EmfPlusRecord source)

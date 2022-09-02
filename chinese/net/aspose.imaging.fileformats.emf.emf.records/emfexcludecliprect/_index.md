@@ -18,14 +18,14 @@ public sealed class EmfExcludeClipRect : EmfClippingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfExcludeClipRect](emfexcludecliprect#constructor)() | 初始化[`EmfExcludeClipRect`](../emfexcludecliprect)类的新实例。 |
-| [EmfExcludeClipRect](emfexcludecliprect#constructor_1)(EmfRecord) | 初始化[`EmfExcludeClipRect`](../emfexcludecliprect)类的新实例。 |
+| [EmfExcludeClipRect](emfexcludecliprect#constructor)() | 初始化[`EmfExcludeClipRect`](../emfexcludecliprect)类. |
+| [EmfExcludeClipRect](emfexcludecliprect#constructor_1)(EmfRecord) | 初始化[`EmfExcludeClipRect`](../emfexcludecliprect)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Clip](../../aspose.imaging.fileformats.emf.emf.records/emfexcludecliprect/clip) { get; set; } | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象以逻辑单位指定裁剪 矩形。 |
+| [Clip](../../aspose.imaging.fileformats.emf.emf.records/emfexcludecliprect/clip) { get; set; } | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），它以逻辑单位指定剪裁 矩形。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

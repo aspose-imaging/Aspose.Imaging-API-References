@@ -16,7 +16,7 @@ public Point EndArc { get; set; }
 
 ### 适当的价值
 
-定义 结尾的径向线的终点坐标
+定义 的径向线终点的坐标_ending
 
 ### 也可以看看
 

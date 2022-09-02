@@ -1,14 +1,14 @@
 ---
 title: NDescription
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает количество символов Юникода в следующей опциональной строке описания.
+description: Получает или задает количество символов Юникода в необязательной строке описания следующей за ним.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup/ndescription/
 ---
 ## EmfCommentBeginGroup.NDescription property
 
-Получает или задает количество символов Юникода в следующей опциональной строке описания.
+Получает или задает количество символов Юникода в необязательной строке описания, следующей за ним.
 
 ```csharp
 public int NDescription { get; set; }

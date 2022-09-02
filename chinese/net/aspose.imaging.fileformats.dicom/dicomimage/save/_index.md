@@ -16,7 +16,7 @@ public override void Save(Stream stream, ImageOptionsBase optionsBase, Rectangle
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 保存图像数据的流。 |
+| stream | Stream | 将图像数据保存到的流。 |
 | optionsBase | ImageOptionsBase | 保存选项。 |
 | boundsRectangle | Rectangle | 目标图像边界矩形。为使用源边界设置空矩形。 |
 
@@ -35,7 +35,7 @@ using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileF
     Aspose.Imaging.Rectangle bounds = new Aspose.Imaging.Rectangle(0, 0, image.Width / 2, image.Height / 2);
     using (System.IO.Stream outputStream = System.IO.File.Open(dir + "output.png", System.IO.FileMode.Create))
     {
-            // 将图像左上角的四分之一保存到文件流中。
+        // 将图像左上角的四分之一保存到文件流中。
         image.Save(outputStream, saveOptions, bounds);
     }
 }

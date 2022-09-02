@@ -1,14 +1,14 @@
 ---
 title: Mode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает режим.
+description: Получает или устанавливает режим.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfextfloodfill/mode/
 ---
 ## WmfExtFloodFill.Mode property
 
-Получает или задает режим.
+Получает или устанавливает режим.
 
 ```csharp
 public WmfFloodFillMode Mode { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: SetDirector
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Устанавливает директора.
+description: Устанавливает режиссера.
 type: docs
 weight: 170
 url: /ru/net/aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setdirector/
 ---
 ## XmpDynamicMediaPackage.SetDirector method
 
-Устанавливает директора.
+Устанавливает режиссера.
 
 ```csharp
 public void SetDirector(string director)
@@ -16,7 +16,7 @@ public void SetDirector(string director)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| директор | String | Директор. |
+| director | String | Директор. |
 
 ### Смотрите также
 

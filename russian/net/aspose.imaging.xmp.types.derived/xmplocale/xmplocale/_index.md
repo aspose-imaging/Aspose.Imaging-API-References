@@ -1,14 +1,14 @@
 ---
 title: XmpLocale
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаXmpLocaleaspose.imaging.xmp.types.derived/xmplocale.
+description: Инициализирует новый экземплярXmpLocaleaspose.imaging.xmp.types.derived/xmplocale класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp.types.derived/xmplocale/xmplocale/
 ---
 ## XmpLocale constructor
 
-Инициализирует новый экземпляр класса[`XmpLocale`](../../xmplocale).
+Инициализирует новый экземпляр[`XmpLocale`](../../xmplocale) класс.
 
 ```csharp
 public XmpLocale(string value)

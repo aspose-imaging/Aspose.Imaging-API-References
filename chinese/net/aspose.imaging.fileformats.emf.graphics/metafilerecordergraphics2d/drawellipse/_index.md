@@ -16,7 +16,7 @@ public void DrawEllipse(Pen pen, Rectangle rect)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pen | Pen | 确定图形颜色、宽度和样式的笔。 |
+| pen | Pen | 确定图形颜色、宽度和样式的钢笔。 |
 | rect | Rectangle | 椭圆的边界。 |
 
 ### 也可以看看

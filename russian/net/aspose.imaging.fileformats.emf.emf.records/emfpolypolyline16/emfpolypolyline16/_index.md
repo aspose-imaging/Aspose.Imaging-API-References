@@ -1,14 +1,14 @@
 ---
 title: EmfPolyPolyline16
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPolyPolyline16aspose.imaging.fileformats.emf.emf.records/emfpolypolyline16.
+description: Инициализирует новый экземплярEmfPolyPolyline16aspose.imaging.fileformats.emf.emf.records/emfpolypolyline16 класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpolypolyline16/emfpolypolyline16/
 ---
 ## EmfPolyPolyline16(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfPolyPolyline16`](../../emfpolypolyline16).
+Инициализирует новый экземпляр[`EmfPolyPolyline16`](../../emfpolypolyline16) класс.
 
 ```csharp
 public EmfPolyPolyline16(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfPolyPolyline16(EmfRecord source)
 
 ## EmfPolyPolyline16() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfPolyPolyline16`](../../emfpolypolyline16).
+Инициализирует новый экземпляр[`EmfPolyPolyline16`](../../emfpolypolyline16) класс.
 
 ```csharp
 public EmfPolyPolyline16()

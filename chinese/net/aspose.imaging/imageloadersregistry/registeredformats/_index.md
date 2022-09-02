@@ -8,7 +8,7 @@ url: /zh/net/aspose.imaging/imageloadersregistry/registeredformats/
 ---
 ## ImageLoadersRegistry.RegisteredFormats property
 
-获取注册的图片加载格式。
+获取注册的图片加载格式
 
 ```csharp
 public static FileFormat RegisteredFormats { get; }

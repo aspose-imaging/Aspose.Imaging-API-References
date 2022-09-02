@@ -1,14 +1,14 @@
 ---
 title: NewColor
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置要转换到的新Coloraspose.imaging/color结构
+description: 获取或设置新的Coloraspose.imaging/color要转换的结构
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging/colormap/newcolor/
 ---
 ## ColorMap.NewColor property
 
-获取或设置要转换到的新[`Color`](../../color)结构。
+获取或设置新的[`Color`](../../color)要转换的结构。
 
 ```csharp
 public Color NewColor { get; set; }
@@ -16,7 +16,7 @@ public Color NewColor { get; set; }
 
 ### 适当的价值
 
-要转换到的新[`Color`](../../color)结构。
+新的[`Color`](../../color)要转换的结构。
 
 ### 也可以看看
 

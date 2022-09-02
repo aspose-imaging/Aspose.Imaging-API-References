@@ -16,7 +16,7 @@ public void SetModifyDate(DateTime modifiedDate)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| modifiedDate | DateTime | 最后修改日期。 |
+| modifiedDate | DateTime | 上次修改日期。 |
 
 ### 也可以看看
 
@@ -36,7 +36,7 @@ public void SetModifyDate(string modifiedDate)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| modifiedDate | String | 最后修改日期。 |
+| modifiedDate | String | 上次修改日期。 |
 
 ### 也可以看看
 

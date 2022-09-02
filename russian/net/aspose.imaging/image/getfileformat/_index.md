@@ -24,7 +24,7 @@ public static FileFormat GetFileFormat(string filePath)
 
 ### Примечания
 
-Определенный формат файла не означает, что указанное изображение может быть загружено. Используйте одну из перегруженных версий метода CanLoad, чтобы определить, можно ли загрузить файл.
+Определенный формат файла не означает, что указанное изображение может быть загружено. Используйте одну из перегрузок метода CanLoad, чтобы определить, можно ли загрузить файл.
 
 ### Примеры
 
@@ -35,7 +35,7 @@ public static FileFormat GetFileFormat(string filePath)
 
 string dir = "c:\\temp\\";
 
- // Использовать абсолютный путь к файлу file
+// Использовать абсолютный путь к файлу
 Aspose.Imaging.FileFormat format = Aspose.Imaging.Image.GetFileFormat(dir + "sample.gif");
 System.Console.WriteLine("The file format is {0}", format);
 ```
@@ -78,14 +78,14 @@ public static FileFormat GetFileFormat(Stream stream)
 
 string dir = "c:\\temp\\";
 
- // Используем файл stream
+// Использовать файловый поток
 using (System.IO.FileStream stream = System.IO.File.OpenRead(dir + "sample.bmp"))
 {
     Aspose.Imaging.FileFormat format = Aspose.Imaging.Image.GetFileFormat(stream);
     System.Console.WriteLine("The file format is {0}", format);
 }
 
- // Следующие данные не являются допустимым потоком изображений, поэтому GetFileFormat возвращает FileFormat.Undefined.
+// Следующие данные не являются допустимым потоком изображений, поэтому GetFileFormat возвращает FileFormat.Undefined.
 byte[] imageData = new byte[] { 0, 0, 0, 0, 0, 0, 0, 0 };
 using (System.IO.MemoryStream stream = new System.IO.MemoryStream(imageData))
 {

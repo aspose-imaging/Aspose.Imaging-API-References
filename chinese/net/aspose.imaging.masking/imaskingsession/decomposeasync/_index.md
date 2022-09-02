@@ -1,14 +1,14 @@
 ---
 title: DecomposeAsync
 second_title: Aspose.Imaging for .NET API 参考
-description: 创建可以执行第一个粗分解操作的异步任务
+description: 创建可以执行第一次粗分解操作的异步任务
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.masking/imaskingsession/decomposeasync/
 ---
 ## IMaskingSession.DecomposeAsync method
 
-创建可以执行第一个粗分解操作的异步任务
+创建可以执行第一次粗分解操作的异步任务
 
 ```csharp
 public IAsyncTask DecomposeAsync()

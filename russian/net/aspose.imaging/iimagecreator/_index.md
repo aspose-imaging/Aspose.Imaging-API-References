@@ -18,7 +18,7 @@ public interface IImageCreator
 
 | Имя | Описание |
 | --- | --- |
-| [Create](../../aspose.imaging/iimagecreator/create)(StreamContainer, ImageOptionsBase, int, int) | Создает новый экземпляр изображения с &lt;paramref name="imageOptions"&gt;&lt;/paramref&gt;. |
+| [Create](../../aspose.imaging/iimagecreator/create)(StreamContainer, ImageOptionsBase, int, int) | Создает новый экземпляр образа с*imageOptions* . |
 
 ### Смотрите также
 

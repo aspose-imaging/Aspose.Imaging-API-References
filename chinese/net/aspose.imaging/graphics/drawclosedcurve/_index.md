@@ -1,14 +1,14 @@
 ---
 title: DrawClosedCurve
 second_title: Aspose.Imaging for .NET API 参考
-description: 绘制由PointFaspose.imaging/pointf结构数组定义的闭合基数样条此方法使用默认张力 0.5 和Alternate填充模式
+description: 绘制由数组定义的闭合基数样条PointFaspose.imaging/pointf结构此方法使用默认张力 0.5 和Alternate填充模式.
 type: docs
 weight: 190
 url: /zh/net/aspose.imaging/graphics/drawclosedcurve/
 ---
 ## DrawClosedCurve(Pen, PointF[]) {#drawclosedcurve}
 
-绘制由[`PointF`](../../pointf)结构数组定义的闭合基数样条。此方法使用默认张力 0.5 和Alternate填充模式。
+绘制由数组定义的闭合基数样条[`PointF`](../../pointf)结构。此方法使用默认张力 0.5 和Alternate填充模式.
 
 ```csharp
 public void DrawClosedCurve(Pen pen, PointF[] points)
@@ -16,14 +16,14 @@ public void DrawClosedCurve(Pen pen, PointF[] points)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen)确定颜色、宽度和高度曲线。 |
-| points | PointF[] | [`PointF`](../../pointf)定义样条的结构的数组。 |
+| pen | Pen | [`Pen`](../../pen)它决定了曲线的颜色、宽度和高度。 |
+| points | PointF[] | 数组[`PointF`](../../pointf)定义样条的结构。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *pen*为空。 -或- *points*为空。 |
+| ArgumentNullException | *pen*为空。 -或- *points*一片空白。 |
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public void DrawClosedCurve(Pen pen, PointF[] points)
 
 ## DrawClosedCurve(Pen, PointF[], float) {#drawclosedcurve_1}
 
-使用指定的张力绘制由[`PointF`](../../pointf)结构数组定义的闭合基数样条。此方法使用默认的Alternate填充模式。
+绘制由数组定义的闭合基数样条[`PointF`](../../pointf)使用指定张力的结构。此方法使用默认值Alternate填充模式.
 
 ```csharp
 public void DrawClosedCurve(Pen pen, PointF[] points, float tension)
@@ -45,15 +45,15 @@ public void DrawClosedCurve(Pen pen, PointF[] points, float tension)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen)确定颜色、宽度和高度曲线。 |
-| points | PointF[] | [`PointF`](../../pointf)定义样条的结构的数组。 |
-| tension | Single | 指定曲线张力的大于或等于 0.0F 的值。 |
+| pen | Pen | [`Pen`](../../pen)它决定了曲线的颜色、宽度和高度。 |
+| points | PointF[] | 数组[`PointF`](../../pointf)定义样条的结构。 |
+| tension | Single | 大于或等于 0.0F 的值指定曲线的张力。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *pen*为空。 -或- *points*为空。 |
+| ArgumentNullException | *pen*为空。 -或- *points*一片空白。 |
 
 ### 也可以看看
 
@@ -67,7 +67,7 @@ public void DrawClosedCurve(Pen pen, PointF[] points, float tension)
 
 ## DrawClosedCurve(Pen, Point[]) {#drawclosedcurve_2}
 
-绘制由[`Point`](../../point)结构数组定义的闭合基数样条。此方法使用默认张力 0.5 和Alternate填充模式。
+绘制由数组定义的闭合基数样条[`Point`](../../point)结构。此方法使用默认张力 0.5 和Alternate填充模式.
 
 ```csharp
 public void DrawClosedCurve(Pen pen, Point[] points)
@@ -75,14 +75,14 @@ public void DrawClosedCurve(Pen pen, Point[] points)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen)确定颜色、宽度和高度曲线。 |
-| points | Point[] | [`Point`](../../point)定义样条的结构的数组。 |
+| pen | Pen | [`Pen`](../../pen)它决定了曲线的颜色、宽度和高度。 |
+| points | Point[] | 数组[`Point`](../../point)定义样条的结构。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *pen*为空。 -或- *points*为空。 |
+| ArgumentNullException | *pen*为空。 -或- *points*一片空白。 |
 
 ### 也可以看看
 
@@ -96,7 +96,7 @@ public void DrawClosedCurve(Pen pen, Point[] points)
 
 ## DrawClosedCurve(Pen, Point[], float) {#drawclosedcurve_3}
 
-使用指定的张力绘制由[`Point`](../../point)结构数组定义的闭合基数样条。此方法使用默认的Alternate填充模式。
+绘制由数组定义的闭合基数样条[`Point`](../../point)使用指定张力的结构。此方法使用默认值Alternate填充模式.
 
 ```csharp
 public void DrawClosedCurve(Pen pen, Point[] points, float tension)
@@ -104,15 +104,15 @@ public void DrawClosedCurve(Pen pen, Point[] points, float tension)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen)确定颜色、宽度和高度曲线。 |
-| points | Point[] | [`Point`](../../point)定义样条的结构的数组。 |
-| tension | Single | 指定曲线张力的大于或等于 0.0F 的值。 |
+| pen | Pen | [`Pen`](../../pen)它决定了曲线的颜色、宽度和高度。 |
+| points | Point[] | 数组[`Point`](../../point)定义样条的结构。 |
+| tension | Single | 大于或等于 0.0F 的值指定曲线的张力。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *pen*为空。 -或- *points*为空。 |
+| ArgumentNullException | *pen*为空。 -或- *points*一片空白。 |
 
 ### 也可以看看
 

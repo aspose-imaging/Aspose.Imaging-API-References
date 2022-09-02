@@ -1,14 +1,14 @@
 ---
 title: IhPal
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数该整数指定 EMF 对象中的 LogPalette 对象 第 2.2.17 节的索引表或值 DEFAULT_PALETTE它是 StockObject 枚举第 2.1.31 节中库存对象调色板的索引 
+description: 获取或设置一个 32 位无符号整数它指定 EMF 对象表中 LogPalette object 第 2.2.17 节的索引或值 DEFAULT_PALETTE即 StockObject 枚举第2.1.31.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfselectpalette/ihpal/
 ---
 ## EmfSelectPalette.IhPal property
 
-获取或设置一个 32 位无符号整数，该整数指定 EMF 对象中的 LogPalette 对象 （第 2.2.17 节）的索引表或值 DEFAULT_PALETTE，它是 StockObject 枚举（第 2.1.31 节）中库存对象调色板的索引 。
+获取或设置一个 32 位无符号整数，它指定 EMF 对象表中 LogPalette object （第 2.2.17 节）的索引或值 DEFAULT_PALETTE，即 StockObject 枚举（第2.1.31).
 
 ```csharp
 public int IhPal { get; set; }

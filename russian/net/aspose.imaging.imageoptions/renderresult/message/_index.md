@@ -1,14 +1,14 @@
 ---
 title: Message
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает строковое сообщение
+description: Получает или задает строку message
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.imageoptions/renderresult/message/
 ---
 ## RenderResult.Message property
 
-Получает или устанавливает строковое сообщение
+Получает или задает строку message
 
 ```csharp
 public string Message { get; set; }

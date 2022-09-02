@@ -16,7 +16,7 @@ public void SetWebStatement(string webStatementUrl)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| webStatementUrl | String | URL веб-выписки. |
+| webStatementUrl | String | URL-адрес веб-выписки. |
 
 ### Смотрите также
 

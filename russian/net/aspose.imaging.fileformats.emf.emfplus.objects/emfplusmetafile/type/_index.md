@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее тип метафайла внедренного в поле MetafileData. Это значение ДОЛЖНО быть определено в перечислении MetafileDataType раздел 2.1.1.21.
+description: Получает или задает 32-разрядное целое число без знака указывающее тип метафайла встроенного в поле MetafileData. Это значение ДОЛЖНО быть определено в перечислении MetafileDataType раздел 2.1.1.21.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusmetafile/type/
 ---
 ## EmfPlusMetafile.Type property
 
-Получает или задает 32-разрядное целое число без знака, указывающее тип метафайла, внедренного в поле MetafileData. Это значение ДОЛЖНО быть определено в перечислении MetafileDataType (раздел 2.1.1.21).
+Получает или задает 32-разрядное целое число без знака, указывающее тип метафайла, встроенного в поле MetafileData. Это значение ДОЛЖНО быть определено в перечислении MetafileDataType (раздел 2.1.1.21).
 
 ```csharp
 public EmfPlusMetafileDataType Type { get; set; }

@@ -3,7 +3,7 @@ title: PaletteMiningMethod
 second_title: Aspose.Imaging for .NET API 参考
 description: 图像调色板挖掘方法
 type: docs
-weight: 10680
+weight: 10670
 url: /zh/net/aspose.imaging/paletteminingmethod/
 ---
 ## PaletteMiningMethod enumeration
@@ -24,12 +24,12 @@ public enum PaletteMiningMethod
 
 ### 例子
 
-以下示例说明如何压缩PNG 图像，使用索引颜色和最适合的调色板
+以下示例显示了如何使用最适合调色板的索引颜色来压缩 PNG 图像
 
 ```csharp
 [C#]
 
-    // 加载 png 图片 
+// 加载 png 图片        
     string  sourceFilePath="OriginalRings.png";
     string  outputFilePath="OriginalRingsOutput.png";
     using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(sourceFilePath))
@@ -37,12 +37,12 @@ public enum PaletteMiningMethod
     image.Save(outputFilePath, new Aspose.Imaging.ImageOptions.PngOptions()
     {
          Progressive = true,
-                 // 使用索引颜色 type
+             // 使用索引颜色类型
          ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.IndexedColor,
-                 // 使用最大压缩
+             // 使用最大压缩
          CompressionLevel = 9,
-          // 获取覆盖尽可能多像素的最接近的 8 位调色板，以便调色板化的 image
-             // 在视觉上几乎与非托盘化的没有区别。
+      // 获取覆盖尽可能多像素的最接近的 8 位调色板，以便调色图像
+         // 在视觉上几乎与非托盘化的没有区别。
          Palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette((Aspose.Imaging.RasterImage)image, 256, Aspose.Imaging.PaletteMiningMethod.Histogram)
     });
 }

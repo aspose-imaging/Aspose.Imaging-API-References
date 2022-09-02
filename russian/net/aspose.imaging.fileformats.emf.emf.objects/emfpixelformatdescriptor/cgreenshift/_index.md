@@ -1,14 +1,14 @@
 ---
 title: CGreenShift
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает количество смещений для зеленых битовых плоскостей в каждом цветовом буфере RGBA.
+description: Получает или задает количество сдвигов для зеленых битовых плоскостей в каждом цветовом буфере RGBA.
 type: docs
 weight: 160
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/cgreenshift/
 ---
 ## EmfPixelFormatDescriptor.CGreenShift property
 
-Получает или устанавливает количество смещений для зеленых битовых плоскостей в каждом цветовом буфере RGBA.
+Получает или задает количество сдвигов для зеленых битовых плоскостей в каждом цветовом буфере RGBA.
 
 ```csharp
 public byte CGreenShift { get; set; }

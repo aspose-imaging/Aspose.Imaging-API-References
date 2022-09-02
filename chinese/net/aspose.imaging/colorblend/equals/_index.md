@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Imaging for .NET API 参考
-description: 测试指定的对象是否是ColorBlendaspose.imaging/colorblend类并且等价于这个ColorBlendaspose.imaging/colorblend类
+description: 测试指定对象是否为ColorBlendaspose.imaging/colorblend类相当于这个ColorBlendaspose.imaging/colorblend类.
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging/colorblend/equals/
 ---
 ## ColorBlend.Equals method
 
-测试指定的对象是否是[`ColorBlend`](../../colorblend)类并且等价于这个[`ColorBlend`](../../colorblend)类。
+测试指定对象是否为[`ColorBlend`](../../colorblend)类，相当于这个[`ColorBlend`](../../colorblend)类.
 
 ```csharp
 public override bool Equals(object obj)
@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-如果*obj*是一个[`ColorBlend`](../../colorblend)类等价于这个:[`ColorBlend`](../../colorblend)类；否则为假。
+真如果*obj*是一个[`ColorBlend`](../../colorblend)相当于这个的类[`ColorBlend`](../../colorblend)班级;否则为假。
 
 ### 也可以看看
 

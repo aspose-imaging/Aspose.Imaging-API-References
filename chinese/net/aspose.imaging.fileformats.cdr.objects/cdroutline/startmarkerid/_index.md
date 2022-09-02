@@ -1,14 +1,14 @@
 ---
 title: StartMarkerId
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置开始标记标识符
+description: 获取或设置起始标记标识符
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdroutline/startmarkerid/
 ---
 ## CdrOutline.StartMarkerId property
 
-获取或设置开始标记标识符。
+获取或设置起始标记标识符。
 
 ```csharp
 public int StartMarkerId { get; set; }

@@ -16,7 +16,7 @@ public void SetCameraLabel(string cameraLabel)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cameraLabel | String | Метка камеры. |
+| cameraLabel | String | Этикетка камеры. |
 
 ### Смотрите также
 

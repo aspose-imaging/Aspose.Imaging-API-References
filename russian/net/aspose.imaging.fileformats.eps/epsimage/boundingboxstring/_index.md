@@ -1,14 +1,14 @@
 ---
 title: BoundingBoxString
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает строковое значение BoundingBox
+description: Получает значение строки BoundingBox
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.eps/epsimage/boundingboxstring/
 ---
 ## EpsImage.BoundingBoxString property
 
-Получает строковое значение BoundingBox
+Получает значение строки BoundingBox
 
 ```csharp
 public string BoundingBoxString { get; }
@@ -16,7 +16,7 @@ public string BoundingBoxString { get; }
 
 ### Стоимость имущества
 
-Строковое значение BoundingBox
+Значение строки BoundingBox
 
 ### Смотрите также
 

@@ -3,7 +3,7 @@ title: XmpChoiseT
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет значение из словаря значений.
 type: docs
-weight: 11670
+weight: 11660
 url: /ru/net/aspose.imaging.xmp.types.derived/xmpchoise-1/
 ---
 ## XmpChoise&lt;T&gt; class

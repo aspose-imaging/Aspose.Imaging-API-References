@@ -1,14 +1,14 @@
 ---
 title: EmfRealizePalette
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfRealizePaletteaspose.imaging.fileformats.emf.emf.records/emfrealizepalette类的新实例
+description: 初始化EmfRealizePaletteaspose.imaging.fileformats.emf.emf.records/emfrealizepalette类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfrealizepalette/emfrealizepalette/
 ---
 ## EmfRealizePalette constructor
 
-初始化[`EmfRealizePalette`](../../emfrealizepalette)类的新实例。
+初始化[`EmfRealizePalette`](../../emfrealizepalette)类.
 
 ```csharp
 public EmfRealizePalette(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfRealizePalette(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 

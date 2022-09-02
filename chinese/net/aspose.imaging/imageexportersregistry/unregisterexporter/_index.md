@@ -1,14 +1,14 @@
 ---
 title: UnregisterExporter
 second_title: Aspose.Imaging for .NET API 参考
-description: 注销导出器
+description: 注销出口商
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging/imageexportersregistry/unregisterexporter/
 ---
 ## ImageExportersRegistry.UnregisterExporter method
 
-注销导出器。
+注销出口商。
 
 ```csharp
 public static void UnregisterExporter(IImageExporterDescriptor exporterDescriptor)

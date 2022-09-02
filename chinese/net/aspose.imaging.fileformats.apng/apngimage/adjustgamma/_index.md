@@ -1,14 +1,14 @@
 ---
 title: AdjustGamma
 second_title: Aspose.Imaging for .NET API 参考
-description: 图像的伽玛校正
+description: 图像的 Gamma 校正
 type: docs
 weight: 140
 url: /zh/net/aspose.imaging.fileformats.apng/apngimage/adjustgamma/
 ---
 ## AdjustGamma(float) {#adjustgamma}
 
-图像的伽玛校正。
+图像的 Gamma 校正。
 
 ```csharp
 public override void AdjustGamma(float gamma)
@@ -16,7 +16,7 @@ public override void AdjustGamma(float gamma)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| gamma | Single | 红色、绿色和蓝色通道系数 |
+| gamma | Single | 红色、绿色和蓝色通道系数的 Gamma |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public override void AdjustGamma(float gamma)
 
 ## AdjustGamma(float, float, float) {#adjustgamma_1}
 
-图像的伽玛校正。
+图像的 Gamma 校正。
 
 ```csharp
 public override void AdjustGamma(float gammaRed, float gammaGreen, float gammaBlue)
@@ -36,9 +36,9 @@ public override void AdjustGamma(float gammaRed, float gammaGreen, float gammaBl
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| gammaRed | Single | Gamma 为红色通道系数 |
-| gammaGreen | Single | Gamma 为绿色通道系数 |
-| gammaBlue | Single | 蓝色通道系数的伽玛 |
+| gammaRed | Single | 红色通道系数的 Gamma |
+| gammaGreen | Single | 绿色通道系数的 Gamma |
+| gammaBlue | Single | 蓝色通道系数的 Gamma |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: EndMarker
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает конечный маркер.
+description: Получает или задает конечный маркер.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/endmarker/
 ---
 ## OdGraphicStyle.EndMarker property
 
-Получает или устанавливает конечный маркер.
+Получает или задает конечный маркер.
 
 ```csharp
 public OdMarker EndMarker { get; set; }

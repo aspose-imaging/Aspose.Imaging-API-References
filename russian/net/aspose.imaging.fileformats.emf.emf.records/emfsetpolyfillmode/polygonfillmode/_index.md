@@ -1,14 +1,14 @@
 ---
 title: PolygonFillMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-битное целое число без знака определяющее режим заполнения полигона и ДОЛЖНО находиться в перечислении PolygonFillMode раздел 2.1.27 .
+description: Получает или задает 32-битное целое число без знака определяющее режим заполнения многоугольника и ДОЛЖЕН находиться в перечислении PolygonFillMode раздел 2.1.27.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetpolyfillmode/polygonfillmode/
 ---
 ## EmfSetPolyFillMode.PolygonFillMode property
 
-Получает или задает 32-битное целое число без знака, определяющее режим заполнения полигона и ДОЛЖНО находиться в перечислении PolygonFillMode (раздел 2.1.27) .
+Получает или задает 32-битное целое число без знака, определяющее режим заполнения многоугольника, и ДОЛЖЕН находиться в перечислении PolygonFillMode (раздел 2.1.27).
 
 ```csharp
 public EmfPolygonFillMode PolygonFillMode { get; set; }

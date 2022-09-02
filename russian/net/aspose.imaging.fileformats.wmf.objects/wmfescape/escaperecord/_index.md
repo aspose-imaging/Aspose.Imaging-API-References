@@ -1,14 +1,14 @@
 ---
 title: EscapeRecord
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает запись escape.
+description: Получает или устанавливает escape-запись.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfescape/escaperecord/
 ---
 ## WmfEscape.EscapeRecord property
 
-Получает или устанавливает запись escape.
+Получает или устанавливает escape-запись.
 
 ```csharp
 public WmfEscapeRecordBase EscapeRecord { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: DataBackgroundColor
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置Imageaspose.imaging/image背景Coloraspose.imaging/color.
+description: 获取或设置Imageaspose.imaging/image背景Coloraspose.imaging/color .
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging/loadoptions/databackgroundcolor/
 ---
 ## LoadOptions.DataBackgroundColor property
 
-获取或设置[`Image`](../../image)背景[`Color`](../../color).
+获取或设置[`Image`](../../image)背景[`Color`](../../color) .
 
 ```csharp
 public Color DataBackgroundColor { get; set; }

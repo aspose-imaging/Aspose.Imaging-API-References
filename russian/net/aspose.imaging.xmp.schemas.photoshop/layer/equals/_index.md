@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Определяет равен ли указанныйObjectэтому экземпляру.
+description: Определяет является ли указанныйObject  равно этому экземпляру.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.xmp.schemas.photoshop/layer/equals/
 ---
 ## Equals(object) {#equals_1}
 
-Определяет, равен ли указанныйObjectэтому экземпляру.
+Определяет, является ли указанныйObject , равно этому экземпляру.
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Objectдля сравнения с этим экземпляром. |
+| obj | Object | Object для сравнения с этим экземпляром. |
 
 ### Возвращаемое значение
 
-` true` если указанныйObjectявляется равно этому экземпляру; в противном случае` false` .
+`истинный` если указанныйObject равен этому экземпляру; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 
@@ -44,7 +44,7 @@ public bool Equals(Layer other)
 
 ### Возвращаемое значение
 
-true, если текущий объект равен параметру*other*; в противном случае ложно.
+true, если текущий объект равен*other* параметр; в противном случае false.
 
 ### Смотрите также
 

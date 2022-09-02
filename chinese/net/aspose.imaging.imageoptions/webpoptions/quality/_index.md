@@ -16,7 +16,7 @@ public float Quality { get; set; }
 
 ### 适当的价值
 
-质量。
+质量.
 
 ### 例子
 
@@ -30,32 +30,32 @@ string dir = "c:\\temp\\";
 // 加载一个 GIF 动画
 using (Aspose.Imaging.Image image = new Aspose.Imaging.Image.Load(dir + "test.gif"))
 {
-        // 对于无损压缩，增加质量设置会提高压缩质量并减小文件大小
+    // 对于无损压缩，增加质量设置会提高压缩质量并减小文件大小
     image.Save(
         dir + "output_lossless_20.webp",
         new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = true, Quality = 20 }); // 文件大小：42 KB
 
     image.Save(
         dir + "output_lossless_50.webp",
-        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = true, Quality = 50 });     // 文件大小：41 KB
+        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = true, Quality = 50 }); // 文件大小：41 KB
 
     image.Save(
         dir + "output_lossless_80.webp",
-        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = true, Quality = 80 });     // 文件大小：40 KB
+        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = true, Quality = 80 }); // 文件大小：40 KB
 
 
-        // 对于有损压缩，增加 Quality 值会提高图像质量并增加文件大小
+    // 对于有损压缩，增加 Quality 值会提高图像质量并增加文件大小
     image.Save(
         dir + "output_lossy_20.webp",
-        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = false, Quality = 20 });     // 文件大小：24 KB
+        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = false, Quality = 20 }); // 文件大小：24 KB
 
     image.Save(
         dir + "output_lossy_50.webp",
-        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = false, Quality = 50 });     // 文件大小：36 KB
+        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = false, Quality = 50 }); // 文件大小：36 KB
 
     image.Save(
         dir + "output_lossy_80.webp",
-        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = false, Quality = 80 });     // 文件大小：51 KB
+        new  Aspose.Imaging.ImageOptions.WebPOptions() { Lossless = false, Quality = 80 }); // 文件大小：51 KB
 }
 ```
 

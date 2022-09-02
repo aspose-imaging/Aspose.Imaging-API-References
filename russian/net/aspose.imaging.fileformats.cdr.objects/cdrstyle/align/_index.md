@@ -1,14 +1,14 @@
 ---
 title: Align
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает выравнивание.
+description: Получает или задает align.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrstyle/align/
 ---
 ## CdrStyle.Align property
 
-Получает или задает выравнивание.
+Получает или задает align.
 
 ```csharp
 public int Align { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: SeekOrigin
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Предоставляет поля представляющие контрольные точки вStreamContainer./streamcontainerдля поиска.
+description: Предоставляет поля представляющие контрольные точки вStreamContainer./streamcontainer для поиска.
 type: docs
-weight: 10910
+weight: 10900
 url: /ru/net/aspose.imaging/seekorigin/
 ---
 ## SeekOrigin enumeration
 
-Предоставляет поля, представляющие контрольные точки в[`StreamContainer`](../streamcontainer)для поиска.
+Предоставляет поля, представляющие контрольные точки в[`StreamContainer`](../streamcontainer) для поиска.
 
 ```csharp
 public enum SeekOrigin
@@ -18,9 +18,9 @@ public enum SeekOrigin
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Begin | `0` | Задает начало потока. |
-| Current | `1` | Указывает текущую позицию в потоке. |
-| End | `2` | Указывает конец потока. |
+| Begin | `0` | Определяет начало потока. |
+| Current | `1` | Определяет текущую позицию в потоке. |
+| End | `2` | Определяет конец потока. |
 
 ### Смотрите также
 

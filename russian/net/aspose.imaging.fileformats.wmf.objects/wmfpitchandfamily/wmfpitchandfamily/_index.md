@@ -1,14 +1,14 @@
 ---
 title: WmfPitchAndFamily
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр структурыWmfPitchAndFamilyaspose.imaging.fileformats.wmf.objects/wmfpitchandfamily .
+description: Инициализирует новый экземплярWmfPitchAndFamilyaspose.imaging.fileformats.wmf.objects/wmfpitchandfamily структура.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/wmfpitchandfamily/
 ---
 ## WmfPitchAndFamily(byte) {#constructor_1}
 
-Инициализирует новый экземпляр структуры[`WmfPitchAndFamily`](../../wmfpitchandfamily) .
+Инициализирует новый экземпляр[`WmfPitchAndFamily`](../../wmfpitchandfamily) структура.
 
 ```csharp
 public WmfPitchAndFamily(byte byteData)
@@ -16,7 +16,7 @@ public WmfPitchAndFamily(byte byteData)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| byteData | Byte | Данные &lt;see langword="byte" /&gt;. |
+| byteData | Byte | `byte` данные. |
 
 ### Смотрите также
 
@@ -28,7 +28,7 @@ public WmfPitchAndFamily(byte byteData)
 
 ## WmfPitchAndFamily(WmfPitchFont, WmfFamilyFont) {#constructor}
 
-Инициализирует новый экземпляр структуры[`WmfPitchAndFamily`](../../wmfpitchandfamily) .
+Инициализирует новый экземпляр[`WmfPitchAndFamily`](../../wmfpitchandfamily) структура.
 
 ```csharp
 public WmfPitchAndFamily(WmfPitchFont pitch, WmfFamilyFont family)
@@ -37,7 +37,7 @@ public WmfPitchAndFamily(WmfPitchFont pitch, WmfFamilyFont family)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pitch | WmfPitchFont | Шаг. |
-| family | WmfFamilyFont | Семейство. |
+| family | WmfFamilyFont | Семья. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Winding
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее является ли этотEmfPlusFillClosedCurveaspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurveизвилистым. Этот бит указывает как выполнить операцию заполнения. Если установлено заливка является наматывающей. Если флажок не установлен заливка является альтернативной.
+description: Получает или задает значение указывающее является ли этоEmfPlusFillClosedCurveaspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurveis winding. Этот бит указывает как выполнять операцию заполнения. Если установлено заполнение является наматывающим заполнением. Если флажок не установлен заливка является альтернативной.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve/winding/
 ---
 ## EmfPlusFillClosedCurve.Winding property
 
-Получает или задает значение, указывающее, является ли этот[`EmfPlusFillClosedCurve`](../../emfplusfillclosedcurve)извилистым. Этот бит указывает, как выполнить операцию заполнения. Если установлено, заливка является "наматывающей". Если флажок не установлен, заливка является «альтернативной».
+Получает или задает значение, указывающее, является ли это[`EmfPlusFillClosedCurve`](../../emfplusfillclosedcurve)is winding. Этот бит указывает, как выполнять операцию заполнения. Если установлено, заполнение является "наматывающим" заполнением. Если флажок не установлен, заливка является "альтернативной".
 
 ```csharp
 public bool Winding { get; set; }
@@ -16,7 +16,7 @@ public bool Winding { get; set; }
 
 ### Стоимость имущества
 
-` true` если обмотка; в противном случае` false` .
+`истинный` если обмотка; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

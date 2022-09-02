@@ -1,14 +1,14 @@
 ---
 title: OperationInterruptedException
 second_title: Aspose.Imaging for .NET API 参考
-description: 在操作中断时发生
+description: 操作中断时发生
 type: docs
 weight: 710
 url: /zh/net/aspose.imaging.coreexceptions/operationinterruptedexception/
 ---
 ## OperationInterruptedException class
 
-在操作中断时发生。
+操作中断时发生。
 
 ```csharp
 public class OperationInterruptedException : FrameworkException
@@ -18,8 +18,8 @@ public class OperationInterruptedException : FrameworkException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OperationInterruptedException](operationinterruptedexception#constructor)(string) | 初始化[`OperationInterruptedException`](../operationinterruptedexception)类的新实例。 |
-| [OperationInterruptedException](operationinterruptedexception#constructor_1)(string, Exception) | 初始化[`OperationInterruptedException`](../operationinterruptedexception)类的新实例。 |
+| [OperationInterruptedException](operationinterruptedexception#constructor)(string) | 初始化[`OperationInterruptedException`](../operationinterruptedexception)类. |
+| [OperationInterruptedException](operationinterruptedexception#constructor_1)(string, Exception) | 初始化[`OperationInterruptedException`](../operationinterruptedexception)类. |
 
 ### 也可以看看
 

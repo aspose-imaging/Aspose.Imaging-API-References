@@ -1,14 +1,14 @@
 ---
 title: CompressedBitsPerPixel
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置每个像素的压缩位
+description: 获取或设置每像素的压缩位数
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.exif/exifdata/compressedbitsperpixel/
 ---
 ## ExifData.CompressedBitsPerPixel property
 
-获取或设置每个像素的压缩位。
+获取或设置每像素的压缩位数。
 
 ```csharp
 public TiffRational CompressedBitsPerPixel { get; set; }

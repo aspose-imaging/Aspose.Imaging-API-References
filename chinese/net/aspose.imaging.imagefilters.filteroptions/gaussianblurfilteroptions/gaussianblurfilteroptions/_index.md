@@ -1,14 +1,14 @@
 ---
 title: GaussianBlurFilterOptions
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化GaussianBlurFilterOptionsaspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions类的新实例
+description: 初始化GaussianBlurFilterOptionsaspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/gaussianblurfilteroptions/
 ---
 ## GaussianBlurFilterOptions(int, double) {#constructor_1}
 
-初始化[`GaussianBlurFilterOptions`](../../gaussianblurfilteroptions)类的新实例。
+初始化[`GaussianBlurFilterOptions`](../../gaussianblurfilteroptions)类.
 
 ```csharp
 public GaussianBlurFilterOptions(int radius, double sigma)
@@ -29,7 +29,7 @@ public GaussianBlurFilterOptions(int radius, double sigma)
 
 ## GaussianBlurFilterOptions() {#constructor}
 
-初始化[`GaussianBlurFilterOptions`](../../gaussianblurfilteroptions)类的新实例。 使用默认设置。
+初始化[`GaussianBlurFilterOptions`](../../gaussianblurfilteroptions)类. 使用默认设置.
 
 ```csharp
 public GaussianBlurFilterOptions()

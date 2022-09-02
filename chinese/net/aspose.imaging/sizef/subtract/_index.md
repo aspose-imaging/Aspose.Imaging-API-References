@@ -1,14 +1,14 @@
 ---
 title: Subtract
 second_title: Aspose.Imaging for .NET API 参考
-description: 从另一个R5 的宽度和高度中减去一个SizeFaspose.imaging/sizef结构的宽度和高度TAspose.Imaging.SizeF结构
+description: 减去一个的宽度和高度SizeFaspose.imaging/sizef结构从另一个的宽度和高度SizeFaspose.imaging/sizef结构.
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging/sizef/subtract/
 ---
 ## SizeF.Subtract method
 
-从另一个:::R5 的宽度和高度中减去一个[`SizeF`](../../sizef)结构的宽度和高度:T:Aspose.Imaging.SizeF:::结构。
+减去一个的宽度和高度[`SizeF`](../../sizef)结构从另一个的宽度和高度[`SizeF`](../../sizef)结构.
 
 ```csharp
 public static SizeF Subtract(SizeF size1, SizeF size2)
@@ -16,12 +16,12 @@ public static SizeF Subtract(SizeF size1, SizeF size2)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| size1 | SizeF | 减法运算符左侧的[`SizeF`](../../sizef)结构. |
-| size2 | SizeF | 减法运算符右侧的[`SizeF`](../../sizef)结构。 |
+| size1 | SizeF | 这[`SizeF`](../../sizef)减法运算符左侧的结构。 |
+| size2 | SizeF | 这[`SizeF`](../../sizef)减法运算符右侧的结构。 |
 
 ### 返回值
 
-[`SizeF`](../../sizef)是减法运算的结果。
+这[`SizeF`](../../sizef)这是减法运算的结果。
 
 ### 也可以看看
 

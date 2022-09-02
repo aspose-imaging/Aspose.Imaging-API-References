@@ -1,14 +1,14 @@
 ---
 title: FileCreateSource
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化FileCreateSourceaspose.imaging.sources/filecreatesource类的新实例
+description: 初始化FileCreateSourceaspose.imaging.sources/filecreatesource类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.sources/filecreatesource/filecreatesource/
 ---
 ## FileCreateSource(string) {#constructor}
 
-初始化[`FileCreateSource`](../../filecreatesource)类的新实例。
+初始化[`FileCreateSource`](../../filecreatesource)类.
 
 ```csharp
 public FileCreateSource(string filePath)
@@ -25,20 +25,18 @@ public FileCreateSource(string filePath)
 ```csharp
 [C#]
 
-    //创建一个BmpOptions实例并设置它的各种属性
+//创建一个BmpOptions实例并设置它的各种属性
 Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 bmpOptions.BitsPerPixel = 24;
 
-    //创建一个FileCreateSource的实例并将其分配为BmpOptions
-实例的Source
+//创建一个 FileCreateSource 的实例并将其分配为 BmpOptions 实例的 Source
 //如果没有传递第二个参数，则默认情况下文件将 IsTemporal 设置为 True
 bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"C:\temp\output.bmp");
 
-    //创建一个Image 
-的实例
+//创建一个Image实例 
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
 {
-        //做一些图像处理
+    //做一些图像处理
 }
 ```
 
@@ -52,7 +50,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
 
 ## FileCreateSource(string, bool) {#constructor_1}
 
-初始化[`FileCreateSource`](../../filecreatesource)类的新实例。
+初始化[`FileCreateSource`](../../filecreatesource)类.
 
 ```csharp
 public FileCreateSource(string filePath, bool isTemporal)
@@ -61,7 +59,7 @@ public FileCreateSource(string filePath, bool isTemporal)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | filePath | String | 要创建的文件路径。 |
-| isTemporal | Boolean | 如果设置为` true` 创建的文件将是临时的。 |
+| isTemporal | Boolean | 如果设置为`真的`创建的文件将是临时的。 |
 
 ### 例子
 
@@ -70,21 +68,20 @@ public FileCreateSource(string filePath, bool isTemporal)
 ```csharp
 [C#]
 
-    //创建一个BmpOptions的实例并设置它的各种属性
+//创建一个BmpOptions的实例并设置它的各种属性
 Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 bmpOptions.BitsPerPixel = 24;
 
-    //创建一个FileCreateSource的实例并将其分配为BmpOptions
-实例的Source
-    //第二个布尔参数决定要创建的文件是IsTemporal还是not
+//创建一个 FileCreateSource 的实例并将其分配为 BmpOptions 实例的 Source
+//第二个布尔参数确定要创建的文件是否为IsTemporal
 bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"C:\temp\output.bmp", false);
 
-    //创建一个Image实例并通过调用Create方法用BmpOptions实例初始化它
+//创建一个Image实例并通过调用Create方法用BmpOptions实例初始化它
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
 {
-        //做一些图像处理
+    //做一些图像处理
 
-        // 保存所有更改
+    // 保存所有更改
     image.Save();
 }
 ```

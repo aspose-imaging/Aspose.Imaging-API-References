@@ -1,14 +1,14 @@
 ---
 title: IMaskingSession
 second_title: Aspose.Imaging for .NET API 参考
-description: 屏蔽会话
+description: 掩蔽会话
 type: docs
-weight: 10430
+weight: 10420
 url: /zh/net/aspose.imaging.masking/imaskingsession/
 ---
 ## IMaskingSession interface
 
-屏蔽会话
+掩蔽会话
 
 ```csharp
 public interface IMaskingSession : IDisposable
@@ -18,11 +18,11 @@ public interface IMaskingSession : IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Decompose](../../aspose.imaging.masking/imaskingsession/decompose)() | 执行第一个粗分解操作 |
-| [DecomposeAsync](../../aspose.imaging.masking/imaskingsession/decomposeasync)() | 创建可以执行第一个粗分解操作的异步任务 |
+| [Decompose](../../aspose.imaging.masking/imaskingsession/decompose)() | 执行第一次粗分解操作 |
+| [DecomposeAsync](../../aspose.imaging.masking/imaskingsession/decomposeasync)() | 创建可以执行第一次粗分解操作的异步任务 |
 | [ImproveDecomposition](../../aspose.imaging.masking/imaskingsession/improvedecomposition)(IMaskingArgs) | 执行再训练分解操作 |
-| [ImproveDecompositionAsync](../../aspose.imaging.masking/imaskingsession/improvedecompositionasync)(IMaskingArgs) | 创建可以执行再训练分解操作的异步任务 |
-| [Save](../../aspose.imaging.masking/imaskingsession/save#save)(Stream) | 将会话状态保存到指定流。 |
+| [ImproveDecompositionAsync](../../aspose.imaging.masking/imaskingsession/improvedecompositionasync)(IMaskingArgs) | 创建可以进行再训练分解操作的异步任务 |
+| [Save](../../aspose.imaging.masking/imaskingsession/save#save)(Stream) | 将会话状态保存到指定的流中。 |
 | [Save](../../aspose.imaging.masking/imaskingsession/save#save_1)(string) | 将会话状态保存到指定文件。 |
 
 ### 例子
@@ -35,7 +35,7 @@ public interface IMaskingSession : IDisposable
 string dir = "c:\\temp\\";
 string sessionBackupFile = dir + "session.bak";
 
-    // 屏蔽导出选项
+// 屏蔽导出选项
 Aspose.Imaging.ImageOptions.PngOptions exportOptions = new Aspose.Imaging.ImageOptions.PngOptions();
 exportOptions.ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
 exportOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream());
@@ -47,14 +47,14 @@ maskingOptions.Method = Masking.Options.SegmentationMethod.GraphCut;
 maskingOptions.Decompose = false;
 maskingOptions.Args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
 
-    // 背景颜色为橙色。
+// 背景颜色为橙色。
 maskingOptions.BackgroundReplacementColor = Aspose.Imaging.Color.Orange;
 maskingOptions.ExportOptions = exportOptions;
 
-    // 首次启动会话并保存到文件
+// 首次启动会话并保存到文件
 using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "Gorilla.bmp"))
 {
-           // 创建 ImageMasking 类的实例。
+    // 创建 ImageMasking 类的实例。
     Aspose.Imaging.Masking.ImageMasking masking = new Aspose.Imaging.Masking.ImageMasking(image);
 
     using (Aspose.Imaging.Masking.IMaskingSession session = masking.CreateSession(maskingOptions))
@@ -71,18 +71,17 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
     }
 }
 
-    // 从 file
- 恢复屏蔽会话
+// 从文件恢复屏蔽会话
 using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "Gorilla.bmp"))
 {
-           // 创建 ImageMasking 类的实例。
+    // 创建 ImageMasking 类的实例。
     Aspose.Imaging.Masking.ImageMasking masking = new Aspose.Imaging.Masking.ImageMasking(image);
 
     using (Aspose.Imaging.Masking.IMaskingSession session = masking.LoadSession(sessionBackupFile))
     {
         Aspose.Imaging.Masking.Options.AutoMaskingArgs args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
 
-        // 对图像进行可视化分析，设置属于分离对象的点。
+        // 对图像进行可视化分析，并设置属于分离对象的点。
         args.ObjectsPoints = new Point[][]
                                      {
                                          new Point[]
@@ -94,7 +93,7 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
                                      };
         using (Aspose.Imaging.Masking.Result.MaskingResult maskingResult = session.ImproveDecomposition(args))
         {
-            // 导出选项的显式传输，因为它不是可序列化的
+            // 导出选项的显式传输，因为它不可序列化
             maskingResult.MaskingOptions.ExportOptions = exportOptions;
 
             using (Aspose.Imaging.RasterImage segmentImage = maskingResult[1].GetImage())

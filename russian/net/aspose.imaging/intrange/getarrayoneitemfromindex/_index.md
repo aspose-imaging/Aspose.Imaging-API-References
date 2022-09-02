@@ -1,14 +1,14 @@
 ---
 title: GetArrayOneItemFromIndex
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Возвращает один массив элементов из указанного индекса
+description: Возвращает один массив элементов из указанного index
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging/intrange/getarrayoneitemfromindex/
 ---
 ## IntRange.GetArrayOneItemFromIndex method
 
-Возвращает один массив элементов из указанного индекса
+Возвращает один массив элементов из указанного index
 
 ```csharp
 public int[] GetArrayOneItemFromIndex(int index)
@@ -16,7 +16,7 @@ public int[] GetArrayOneItemFromIndex(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс диапазона . |
+| index | Int32 | Индекс ассортимента. |
 
 ### Возвращаемое значение
 
@@ -26,7 +26,7 @@ public int[] GetArrayOneItemFromIndex(int index)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Индекс вне диапазона |
+| ArgumentException | Индекс вне допустимого диапазона |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: BrushObject
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 EmfPlusBrush 对象该对象指定与笔关联的图形画笔
+description: 获取或设置一个 EmfPlusBrush 对象该对象指定与 pen 关联的图形画笔
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen/brushobject/
 ---
 ## EmfPlusPen.BrushObject property
 
-获取或设置一个 EmfPlusBrush 对象，该对象指定与笔关联的图形画笔
+获取或设置一个 EmfPlusBrush 对象，该对象指定与 pen 关联的图形画笔
 
 ```csharp
 public EmfPlusBrush BrushObject { get; set; }

@@ -18,14 +18,14 @@ public class OdCircle : OdAngleEllipse
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OdCircle](odcircle)(OdObject) | 初始化[`OdCircle`](../odcircle)类的新实例。 |
+| [OdCircle](odcircle)(OdObject) | 初始化[`OdCircle`](../odcircle)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]。 |
-| [Closed](../../aspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse/closed) { get; set; } | 获取或设置一个值，该值指示此[`OdAngleEllipse`](../odangleellipse)是否关闭。 |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]. |
+| [Closed](../../aspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse/closed) { get; set; } | 获取或设置一个值，该值指示是否[`OdAngleEllipse`](../odangleellipse)已关闭。 |
 | [EndAngle](../../aspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse/endangle) { get; set; } | 获取或设置结束角度。 |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | 获取项目。 |
 | [Kind](../../aspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse/kind) { get; set; } | 获取或设置种类。 |

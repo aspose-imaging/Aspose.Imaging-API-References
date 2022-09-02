@@ -1,14 +1,14 @@
 ---
 title: EmfEof
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfEofaspose.imaging.fileformats.emf.emf.records/emfeof类的新实例
+description: 初始化EmfEofaspose.imaging.fileformats.emf.emf.records/emfeof类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfeof/emfeof/
 ---
 ## EmfEof(EmfRecord) {#constructor_1}
 
-初始化[`EmfEof`](../../emfeof)类的新实例。
+初始化[`EmfEof`](../../emfeof)类.
 
 ```csharp
 public EmfEof(EmfRecord record)
@@ -29,7 +29,7 @@ public EmfEof(EmfRecord record)
 
 ## EmfEof() {#constructor}
 
-初始化[`EmfEof`](../../emfeof)类的新实例。
+初始化[`EmfEof`](../../emfeof)类.
 
 ```csharp
 public EmfEof()

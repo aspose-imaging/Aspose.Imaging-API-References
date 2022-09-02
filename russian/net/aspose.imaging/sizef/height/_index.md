@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает вертикальный компонент этогоSizeFaspose.imaging/sizef.
+description: Получает или задает вертикальный компонент этогоSizeFaspose.imaging/sizef .
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging/sizef/height/
 ---
 ## SizeF.Height property
 
-Получает или задает вертикальный компонент этого[`SizeF`](../../sizef).
+Получает или задает вертикальный компонент этого[`SizeF`](../../sizef) .
 
 ```csharp
 public float Height { get; set; }
@@ -16,7 +16,7 @@ public float Height { get; set; }
 
 ### Возвращаемое значение
 
-Вертикальный компонент этого[`SizeF`](../../sizef), обычно измеряемый в пикселях.
+Вертикальная составляющая этого[`SizeF`](../../sizef), обычно измеряется в пикселях.
 
 ### Смотрите также
 

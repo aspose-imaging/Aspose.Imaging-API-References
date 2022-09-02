@@ -1,14 +1,14 @@
 ---
 title: GPSLongitude
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает долготу GPS.
+description: Получает или задает долготу GPS.
 type: docs
 weight: 540
 url: /ru/net/aspose.imaging.exif/exifdata/gpslongitude/
 ---
 ## ExifData.GPSLongitude property
 
-Получает или устанавливает долготу GPS.
+Получает или задает долготу GPS.
 
 ```csharp
 public TiffRational[] GPSLongitude { get; set; }

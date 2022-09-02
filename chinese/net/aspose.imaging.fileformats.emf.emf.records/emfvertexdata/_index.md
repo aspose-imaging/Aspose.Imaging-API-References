@@ -1,14 +1,14 @@
 ---
 title: EmfVertexData
 second_title: Aspose.Imaging for .NET API 参考
-description: 指定矩形或三角形顶点的对象和 对应的颜色
+description: 指定矩形或三角形顶点的对象以及 对应于它们的颜色
 type: docs
 weight: 4650
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfvertexdata/
 ---
 ## EmfVertexData class
 
-指定矩形或三角形顶点的对象和 对应的颜色。
+指定矩形或三角形顶点的对象以及 对应于它们的颜色。
 
 ```csharp
 public sealed class EmfVertexData
@@ -24,9 +24,9 @@ public sealed class EmfVertexData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [VertexIndexes](../../aspose.imaging.fileformats.emf.emf.records/emfvertexdata/vertexindexes) { get; set; } | 获取或设置 nTri GradientRectangle 对象（第 2.2.7 节）或 GradientTriangle 对象（第 2.2.8 节）的数组，具体取决于ulMode 字段的值。 每个对象在 VertexObjects 字段中指定 TriVertex 对象数组的索引。 |
+| [VertexIndexes](../../aspose.imaging.fileformats.emf.emf.records/emfvertexdata/vertexindexes) { get; set; } | 获取或设置 nTri GradientRectangle 对象（第 2.2.7 节）或 GradientTriangle 对象（第 2.2.8 节）的数组，具体取决于 ulMode 字段的值。 每个对象在 VertexObjects 字段中指定 TriVertex 对象数组的索引。 |
 | [VertexObjects](../../aspose.imaging.fileformats.emf.emf.records/emfvertexdata/vertexobjects) { get; set; } | 获取或设置 nVer TriVertex 对象数组（第 2.2.26 节）。每个 对象指定矩形或三角形的顶点的位置和颜色， 取决于 ulMode 字段的值。 |
-| [VertexPadding](../../aspose.imaging.fileformats.emf.emf.records/emfvertexdata/vertexpadding) { get; set; } | 获取或设置一个可选的可变长度数组 nTri 乘以四个字节 如果 ulMode 字段的值指示 GradientRectangle 则必须存在 对象（第 2.2.7 节）。如果 ulMode 字段的值指示 GradientTriangle 对象（第 2.2.8 节），则不存在 VertexPadding。该字段必须被忽略。 |
+| [VertexPadding](../../aspose.imaging.fileformats.emf.emf.records/emfvertexdata/vertexpadding) { get; set; } | 获取或设置一个可选的 nTri 可变长度数组乘以四个字节 ，如果 ulMode 字段的值指示 GradientRectangle 对象，则必须存在该数组（第 2.2.7 节）。如果 ulMode 字段的值指示 GradientTriangle 对象（第 2.2.8 节），则不存在 VertexPadding。该字段必须被忽略。 |
 
 ### 也可以看看
 

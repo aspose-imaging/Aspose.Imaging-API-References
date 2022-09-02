@@ -1,14 +1,14 @@
 ---
 title: CdrGradient
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Градиент cdr
+description: Градиент CDR
 type: docs
 weight: 1850
 url: /ru/net/aspose.imaging.fileformats.cdr.types/cdrgradient/
 ---
 ## CdrGradient class
 
-Градиент cdr
+Градиент CDR
 
 ```csharp
 public class CdrGradient
@@ -29,7 +29,7 @@ public class CdrGradient
 | [CenterYOffset](../../aspose.imaging.fileformats.cdr.types/cdrgradient/centeryoffset) { get; set; } | Получает или задает смещение центра по оси y. |
 | [EdgeOffset](../../aspose.imaging.fileformats.cdr.types/cdrgradient/edgeoffset) { get; set; } | Получает или задает смещение края. |
 | [MidPoint](../../aspose.imaging.fileformats.cdr.types/cdrgradient/midpoint) { get; set; } | Получает или задает среднюю точку. |
-| [Mode](../../aspose.imaging.fileformats.cdr.types/cdrgradient/mode) { get; set; } | Получает или задает режим. |
+| [Mode](../../aspose.imaging.fileformats.cdr.types/cdrgradient/mode) { get; set; } | Получает или устанавливает режим. |
 | [Stops](../../aspose.imaging.fileformats.cdr.types/cdrgradient/stops) { get; set; } | Получает или устанавливает остановки. |
 | [Type](../../aspose.imaging.fileformats.cdr.types/cdrgradient/type) { get; set; } | Получает или задает тип. |
 

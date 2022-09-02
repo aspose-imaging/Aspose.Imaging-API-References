@@ -16,7 +16,7 @@ public DjvuRaster Image { get; }
 
 ### 适当的价值
 
-图像。
+图片。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Blues
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取蓝色的数组颜色
+description: 获取 blue 的数组颜色
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.dicom/dicomimageinfo/blues/
 ---
 ## DicomImageInfo.Blues property
 
-获取蓝色的数组颜色
+获取 blue 的数组颜色
 
 ```csharp
 public byte[] Blues { get; }

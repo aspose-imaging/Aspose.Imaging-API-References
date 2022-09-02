@@ -1,14 +1,14 @@
 ---
 title: EmfScaleWindowExtex
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_SCALEWINDOWEXTEX 记录通过 使用指定的被乘数和除数形成的比率重新指定播放设备上下文的窗口
+description: EMR_SCALEWINDOWEXTEX 记录通过 使用由指定的被乘数和除数形成的比率重新指定播放设备上下文的窗口
 type: docs
 weight: 4230
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfscalewindowextex/
 ---
 ## EmfScaleWindowExtex class
 
-EMR_SCALEWINDOWEXTEX 记录通过 使用指定的被乘数和除数形成的比率重新指定播放设备上下文的窗口。
+EMR_SCALEWINDOWEXTEX 记录通过 使用由指定的被乘数和除数形成的比率重新指定播放设备上下文的窗口。
 
 ```csharp
 public sealed class EmfScaleWindowExtex : EmfStateRecordType
@@ -18,8 +18,8 @@ public sealed class EmfScaleWindowExtex : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfScaleWindowExtex](emfscalewindowextex#constructor)() | 初始化[`EmfScaleWindowExtex`](../emfscalewindowextex)类的新实例。 |
-| [EmfScaleWindowExtex](emfscalewindowextex#constructor_1)(EmfRecord) | 初始化[`EmfScaleWindowExtex`](../emfscalewindowextex)类的新实例。 |
+| [EmfScaleWindowExtex](emfscalewindowextex#constructor)() | 初始化[`EmfScaleWindowExtex`](../emfscalewindowextex)类. |
+| [EmfScaleWindowExtex](emfscalewindowextex#constructor_1)(EmfRecord) | 初始化[`EmfScaleWindowExtex`](../emfscalewindowextex)类. |
 
 ## 特性
 
@@ -34,7 +34,7 @@ public sealed class EmfScaleWindowExtex : EmfStateRecordType
 
 ### 评论
 
-如果设备上下文使用固定比例映射模式，则无法更改范围。只有 MM_ISOTROPIC 和 MM_ANISOTROPIC 不是固定比例。窗口范围为 修改如下。 xNewWE = (xOldWE * xNum) / xDenom yNewWE = (yOldWE * yNum) / yDenom
+如果设备上下文使用固定比例映射模式，则无法更改范围。只有 MM_ISOTROPIC 和MM_ANISOTROPIC 不是固定比例。窗口范围为 修改如下。 xNewWE = (xOldWE * xNum) / xDenom yNewWE = (yOldWE * yNum) / yDenom
 
 ### 也可以看看
 

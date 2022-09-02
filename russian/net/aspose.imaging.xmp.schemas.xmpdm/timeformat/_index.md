@@ -1,14 +1,14 @@
 ---
 title: TimeFormat
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Представляет формат времени вTimecode./timecode.
+description: Представляет формат времени вTimecode./timecode .
 type: docs
-weight: 11410
+weight: 11400
 url: /ru/net/aspose.imaging.xmp.schemas.xmpdm/timeformat/
 ---
 ## TimeFormat class
 
-Представляет формат времени в[`Timecode`](../timecode).
+Представляет формат времени в[`Timecode`](../timecode) .
 
 ```csharp
 public sealed class TimeFormat : IEquatable<TimeFormat>
@@ -18,22 +18,22 @@ public sealed class TimeFormat : IEquatable<TimeFormat>
 
 | Имя | Описание |
 | --- | --- |
-| static [DropTimecode2997](../../aspose.imaging.xmp.schemas.xmpdm/timeformat/droptimecode2997) { get; } | Получает timecode2997 отбрасывания. |
-| static [DropTimecode5994](../../aspose.imaging.xmp.schemas.xmpdm/timeformat/droptimecode5994) { get; } | Получает временной код отбрасывания5994. |
-| static [NonDropTimecode2997](../../aspose.imaging.xmp.schemas.xmpdm/timeformat/nondroptimecode2997) { get; } | Получает временной код 2997 без удаления. |
-| static [NonDropTimecode5994](../../aspose.imaging.xmp.schemas.xmpdm/timeformat/nondroptimecode5994) { get; } | Получает временной код 5994 без удаления. |
+| static [DropTimecode2997](../../aspose.imaging.xmp.schemas.xmpdm/timeformat/droptimecode2997) { get; } | Получает временной код сброса 2997. |
+| static [DropTimecode5994](../../aspose.imaging.xmp.schemas.xmpdm/timeformat/droptimecode5994) { get; } | Получает временной код сброса 5994. |
+| static [NonDropTimecode2997](../../aspose.imaging.xmp.schemas.xmpdm/timeformat/nondroptimecode2997) { get; } | Получает тайм-код 2997 без сброса. |
+| static [NonDropTimecode5994](../../aspose.imaging.xmp.schemas.xmpdm/timeformat/nondroptimecode5994) { get; } | Получает тайм-код 5994 без сброса. |
 | static [Timecode23976](../../aspose.imaging.xmp.schemas.xmpdm/timeformat/timecode23976) { get; } | Получает временной код 23976. |
-| static [Timecode24](../../aspose.imaging.xmp.schemas.xmpdm/timeformat/timecode24) { get; } | Получает таймкод24. |
+| static [Timecode24](../../aspose.imaging.xmp.schemas.xmpdm/timeformat/timecode24) { get; } | Получает временной код24. |
 | static [Timecode25](../../aspose.imaging.xmp.schemas.xmpdm/timeformat/timecode25) { get; } | Получает временной код25. |
-| static [Timecode30](../../aspose.imaging.xmp.schemas.xmpdm/timeformat/timecode30) { get; } | Получает таймкод30. |
+| static [Timecode30](../../aspose.imaging.xmp.schemas.xmpdm/timeformat/timecode30) { get; } | Получает временной код30. |
 | static [Timecode50](../../aspose.imaging.xmp.schemas.xmpdm/timeformat/timecode50) { get; } | Получает временной код50. |
-| static [Timecode60](../../aspose.imaging.xmp.schemas.xmpdm/timeformat/timecode60) { get; } | Получает таймкод60. |
+| static [Timecode60](../../aspose.imaging.xmp.schemas.xmpdm/timeformat/timecode60) { get; } | Получает временной код60. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.imaging.xmp.schemas.xmpdm/timeformat/equals#equals_1)(object) | Определяет, равен ли указанныйObjectэтому экземпляру. |
+| override [Equals](../../aspose.imaging.xmp.schemas.xmpdm/timeformat/equals#equals_1)(object) | Определяет, является ли указанныйObject , равно этому экземпляру. |
 | [Equals](../../aspose.imaging.xmp.schemas.xmpdm/timeformat/equals#equals)(TimeFormat) | Указывает, равен ли текущий объект другому объекту того же типа. |
 | override [GetHashCode](../../aspose.imaging.xmp.schemas.xmpdm/timeformat/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
 

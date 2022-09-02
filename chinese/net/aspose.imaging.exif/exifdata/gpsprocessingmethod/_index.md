@@ -16,7 +16,7 @@ public byte[] GPSProcessingMethod { get; set; }
 
 ### 适当的价值
 
-GPS 字符串，记录用于定位的方法名称。
+GPS 字符串，记录用于定位的方法的名称。
 
 ### 也可以看看
 

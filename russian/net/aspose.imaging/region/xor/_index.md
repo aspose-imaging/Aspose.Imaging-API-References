@@ -1,14 +1,14 @@
 ---
 title: Xor
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Обновляет этотRegionaspose.imaging/regionдо объединения минус пересечение самого себя с указаннымRectangleFaspose.imaging/rectanglefструктура.
+description: Обновляет этоRegionaspose.imaging/region на объединение минус пересечение себя с указаннымRectangleFaspose.imaging/rectanglef структура.
 type: docs
 weight: 150
 url: /ru/net/aspose.imaging/region/xor/
 ---
 ## Xor(RectangleF) {#xor_2}
 
-Обновляет этот[`Region`](../../region)до объединения минус пересечение самого себя с указанным[`RectangleF`](../../rectanglef)структура.
+Обновляет это[`Region`](../../region) на объединение минус пересечение себя с указанным[`RectangleF`](../../rectanglef) структура.
 
 ```csharp
 public void Xor(RectangleF rect)
@@ -16,7 +16,7 @@ public void Xor(RectangleF rect)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rect | RectangleF | Структура[`RectangleF`](../../rectanglef)для xor с этим[`Region`](../../region). |
+| rect | RectangleF | [`RectangleF`](../../rectanglef) структура для xor с этим[`Region`](../../region). |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public void Xor(RectangleF rect)
 
 ## Xor(Rectangle) {#xor_1}
 
-Обновляет этот[`Region`](../../region)до объединения минус пересечение самого себя с указанным[`Rectangle`](../../rectangle)структура.
+Обновляет это[`Region`](../../region) на объединение минус пересечение себя с указанным[`Rectangle`](../../rectangle) структура.
 
 ```csharp
 public void Xor(Rectangle rect)
@@ -37,7 +37,7 @@ public void Xor(Rectangle rect)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rect | Rectangle | Структура[`Rectangle`](../../rectangle)для xor с этим[`Region`](../../region). |
+| rect | Rectangle | [`Rectangle`](../../rectangle) структура для xor с этим[`Region`](../../region). |
 
 ### Смотрите также
 
@@ -50,7 +50,7 @@ public void Xor(Rectangle rect)
 
 ## Xor(GraphicsPath) {#xor}
 
-Обновляет этот[`Region`](../../region)до объединения минус пересечение самого себя с указанным[`GraphicsPath`](../../graphicspath).
+Обновляет это[`Region`](../../region) на объединение минус пересечение себя с указанным[`GraphicsPath`](../../graphicspath) .
 
 ```csharp
 public void Xor(GraphicsPath path)
@@ -58,13 +58,13 @@ public void Xor(GraphicsPath path)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | GraphicsPath | [`GraphicsPath`](../../graphicspath)для xor с этим[`Region`](../../region). |
+| path | GraphicsPath | [`GraphicsPath`](../../graphicspath) xor с этим[`Region`](../../region). |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path*равно null. |
+| ArgumentNullException | *path* равно нулю. |
 
 ### Смотрите также
 
@@ -77,7 +77,7 @@ public void Xor(GraphicsPath path)
 
 ## Xor(Region) {#xor_3}
 
-Обновляет этот[`Region`](../../region)до объединения минус пересечение самого себя с указанным[`Region`](../../region).
+Обновляет это[`Region`](../../region) на объединение минус пересечение себя с указанным[`Region`](../../region) .
 
 ```csharp
 public void Xor(Region region)
@@ -85,13 +85,13 @@ public void Xor(Region region)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| region | Region | [`Region`](../../region)для xor с этим[`Region`](../../region). |
+| region | Region | [`Region`](../../region) xor с этим[`Region`](../../region). |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *region*равно null. |
+| ArgumentNullException | *region* равно нулю. |
 
 ### Смотрите также
 

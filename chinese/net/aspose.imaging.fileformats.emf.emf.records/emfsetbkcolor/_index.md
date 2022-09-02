@@ -18,14 +18,14 @@ public sealed class EmfSetBkColor : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSetBkColor](emfsetbkcolor#constructor)() | 初始化[`EmfSetBkColor`](../emfsetbkcolor)类的新实例。 |
-| [EmfSetBkColor](emfsetbkcolor#constructor_1)(EmfRecord) | 初始化[`EmfSetBkColor`](../emfsetbkcolor)类的新实例。 |
+| [EmfSetBkColor](emfsetbkcolor#constructor)() | 初始化[`EmfSetBkColor`](../emfsetbkcolor)类. |
+| [EmfSetBkColor](emfsetbkcolor#constructor_1)(EmfRecord) | 初始化[`EmfSetBkColor`](../emfsetbkcolor)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Argb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfsetbkcolor/argb32color) { get; set; } | 获取或设置一个 32 位 WMF ColorRef 对象，在 [MS-WMF] 2.2.2.8 节中指定，其中 指定背景颜色价值。 |
+| [Argb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfsetbkcolor/argb32color) { get; set; } | 获取或设置一个 32 位 WMF ColorRef 对象，在 [MS-WMF] 2.2.2.8 节中指定，其中 指定背景颜色值。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

@@ -1,14 +1,14 @@
 ---
 title: ObjectId
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置对象标识符 ltsee hrefEmfPlusFont /gt 对象第 2.2.1.3 节的 EMF 对象表索引以呈现文本该值必须是 0 到 63含
+description: 获取或设置对象标识符 一个对象的 EMF 对象表索引EmfPlusFontEmfPlusFont对象 section 2.2.1.3 来呈现文本该值必须是 0 到 63包括在内
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/objectid/
 ---
 ## EmfPlusDrawDriverString.ObjectId property
 
-获取或设置对象标识符。 &lt;see href="EmfPlusFont" /&gt; 对象（第 2.2.1.3 节）的 EMF+ 对象表索引以呈现文本。该值必须是 0 到 63（含）。
+获取或设置对象标识符。 一个对象的 EMF+ 对象表索引[EmfPlusFont](EmfPlusFont)对象 (section 2.2.1.3) 来呈现文本。该值必须是 0 到 63，包括在内。
 
 ```csharp
 public byte ObjectId { get; set; }

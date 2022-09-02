@@ -13,7 +13,7 @@ url: /ru/net/aspose.imaging.fileformats.djvu/
 | Учебный класс | Описание |
 | --- | --- |
 | [DjvuImage](./djvuimage) | Класс DjvuDocument |
-| [DjvuPage](./djvupage) | Класс страницы Djvu |
+| [DjvuPage](./djvupage) | Djvu-страница class |
 | [DjvuRaster](./djvuraster) | Класс для представления растрового изображения Djvu, в котором находится результат какой-либо операции |
 | [OnPageExportedAction](./onpageexportedaction) | Делегат для запуска при экспорте страницы |
 

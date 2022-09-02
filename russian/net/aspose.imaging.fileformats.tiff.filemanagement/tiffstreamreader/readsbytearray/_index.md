@@ -1,14 +1,14 @@
 ---
 title: ReadSByteArray
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Считывает из потока массив значений байтов со знаком.
+description: Считывает массив значений байтов со знаком из потока.
 type: docs
 weight: 120
 url: /ru/net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsbytearray/
 ---
 ## TiffStreamReader.ReadSByteArray method
 
-Считывает из потока массив значений байтов со знаком.
+Считывает массив значений байтов со знаком из потока.
 
 ```csharp
 public sbyte[] ReadSByteArray(long position, long count)
@@ -17,7 +17,7 @@ public sbyte[] ReadSByteArray(long position, long count)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | position | Int64 | Позиция для чтения. |
-| count | Int64 | Количество элементов. |
+| count | Int64 | Элементы считаются. |
 
 ### Возвращаемое значение
 

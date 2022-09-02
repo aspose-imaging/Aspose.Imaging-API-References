@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取指定索引处的IMaskingLayeraspose.imaging.masking.result/imaskinglayer
+description: 获取IMaskingLayeraspose.imaging.masking.result/imaskinglayer在指定的索引处
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.masking.result/maskingresult/item/
 ---
 ## MaskingResult indexer
 
-获取指定索引处的[`IMaskingLayer`](../../imaskinglayer)。
+获取[`IMaskingLayer`](../../imaskinglayer)在指定的索引处。
 
 ```csharp
 public IMaskingLayer this[int index] { get; }
@@ -16,15 +16,15 @@ public IMaskingLayer this[int index] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 返回值
 
-遮罩层。
+遮蔽层。
 
 ### 适当的价值
 
-[`IMaskingLayer`](../../imaskinglayer).
+的[`IMaskingLayer`](../../imaskinglayer) .
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public void SetPublisher(string publisher)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| publisher | String | 发布者。 |
+| publisher | String | 出版商。 |
 
 ### 也可以看看
 
@@ -36,13 +36,13 @@ public void SetPublisher(string[] publisher)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| publisher | String[] | 发布者。 |
+| publisher | String[] | 出版商。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 发布者 |
+| ArgumentNullException | 出版商 |
 
 ### 也可以看看
 

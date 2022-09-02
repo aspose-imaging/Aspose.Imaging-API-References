@@ -1,14 +1,14 @@
 ---
 title: DjvuMultiPageOptions
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化DjvuMultiPageOptionsaspose.imaging.imageoptions/djvumultipageoptions类的新实例
+description: 初始化DjvuMultiPageOptionsaspose.imaging.imageoptions/djvumultipageoptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.imageoptions/djvumultipageoptions/djvumultipageoptions/
 ---
 ## DjvuMultiPageOptions() {#constructor}
 
-初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类的新实例。
+初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类.
 
 ```csharp
 public DjvuMultiPageOptions()
@@ -24,7 +24,7 @@ public DjvuMultiPageOptions()
 
 ## DjvuMultiPageOptions(int[]) {#constructor_7}
 
-初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类的新实例。
+初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类.
 
 ```csharp
 public DjvuMultiPageOptions(int[] pages)
@@ -44,7 +44,7 @@ public DjvuMultiPageOptions(int[] pages)
 
 ## DjvuMultiPageOptions(int[], Rectangle) {#constructor_8}
 
-初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类的新实例。
+初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类.
 
 ```csharp
 public DjvuMultiPageOptions(int[] pages, Rectangle exportArea)
@@ -53,7 +53,7 @@ public DjvuMultiPageOptions(int[] pages, Rectangle exportArea)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pages | Int32[] | 页面索引。 |
-| exportArea | Rectangle | 导出区域。 |
+| exportArea | Rectangle | 出口区。 |
 
 ### 也可以看看
 
@@ -66,7 +66,7 @@ public DjvuMultiPageOptions(int[] pages, Rectangle exportArea)
 
 ## DjvuMultiPageOptions(IntRange) {#constructor_1}
 
-初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类的新实例。
+初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类.
 
 ```csharp
 public DjvuMultiPageOptions(IntRange range)
@@ -87,7 +87,7 @@ public DjvuMultiPageOptions(IntRange range)
 
 ## DjvuMultiPageOptions(IntRange, Rectangle) {#constructor_2}
 
-初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类的新实例。
+初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类.
 
 ```csharp
 public DjvuMultiPageOptions(IntRange range, Rectangle exportArea)
@@ -96,7 +96,7 @@ public DjvuMultiPageOptions(IntRange range, Rectangle exportArea)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | range | IntRange | 范围。 |
-| exportArea | Rectangle | 导出区域。 |
+| exportArea | Rectangle | 出口区。 |
 
 ### 也可以看看
 
@@ -110,7 +110,7 @@ public DjvuMultiPageOptions(IntRange range, Rectangle exportArea)
 
 ## DjvuMultiPageOptions(IntRange[]) {#constructor_3}
 
-初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类的新实例。
+初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类.
 
 ```csharp
 public DjvuMultiPageOptions(IntRange[] ranges)
@@ -131,7 +131,7 @@ public DjvuMultiPageOptions(IntRange[] ranges)
 
 ## DjvuMultiPageOptions(IntRange[], Rectangle) {#constructor_4}
 
-初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类的新实例。
+初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类.
 
 ```csharp
 public DjvuMultiPageOptions(IntRange[] ranges, Rectangle exportArea)
@@ -140,7 +140,7 @@ public DjvuMultiPageOptions(IntRange[] ranges, Rectangle exportArea)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | ranges | IntRange[] | 范围。 |
-| exportArea | Rectangle | 导出区域。 |
+| exportArea | Rectangle | 出口区。 |
 
 ### 也可以看看
 
@@ -154,7 +154,7 @@ public DjvuMultiPageOptions(IntRange[] ranges, Rectangle exportArea)
 
 ## DjvuMultiPageOptions(int) {#constructor_5}
 
-初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类的新实例。
+初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类.
 
 ```csharp
 public DjvuMultiPageOptions(int page)
@@ -174,7 +174,7 @@ public DjvuMultiPageOptions(int page)
 
 ## DjvuMultiPageOptions(int, Rectangle) {#constructor_6}
 
-初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类的新实例。
+初始化[`DjvuMultiPageOptions`](../../djvumultipageoptions)类.
 
 ```csharp
 public DjvuMultiPageOptions(int page, Rectangle exportArea)
@@ -183,7 +183,7 @@ public DjvuMultiPageOptions(int page, Rectangle exportArea)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | page | Int32 | 页面索引。 |
-| exportArea | Rectangle | 导出区域。 |
+| exportArea | Rectangle | 出口区。 |
 
 ### 也可以看看
 

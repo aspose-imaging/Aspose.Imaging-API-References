@@ -1,14 +1,14 @@
 ---
 title: HorizontalResolution
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此RasterImageaspose.imaging/rasterimage的水平分辨率以每英寸像素为单位
+description: 获取或设置此图像的水平分辨率以每英寸像素为单位RasterImageaspose.imaging/rasterimage .
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/horizontalresolution/
 ---
 ## Jpeg2000Image.HorizontalResolution property
 
-获取或设置此[`RasterImage`](../../../aspose.imaging/rasterimage)的水平分辨率，以每英寸像素为单位。
+获取或设置此图像的水平分辨率，以每英寸像素为单位[`RasterImage`](../../../aspose.imaging/rasterimage) .
 
 ```csharp
 public override double HorizontalResolution { get; set; }
@@ -20,7 +20,7 @@ public override double HorizontalResolution { get; set; }
 
 ### 评论
 
-注意默认此值始终为 96，因为不同平台无法返回屏幕分辨率。您可以考虑使用 SetResolution 方法在一次调用中更新两个分辨率值。
+注意默认情况下这个值总是96，因为不同的平台不能返回屏幕分辨率。您可以考虑使用 SetResolution 方法在单个调用中更新两个分辨率值。
 
 ### 例子
 
@@ -35,8 +35,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.jp2"
 {
     Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image jpeg2000Image = (Aspose.Imaging.FileFormats.Jpeg2000.Jpeg2000Image)image;
 
-    // 获取Jpeg2000Image.
-的水平和垂直分辨率
+    // 获取 Jpeg2000Image 的水平和垂直分辨率。
     double horizontalResolution = jpeg2000Image.HorizontalResolution;
     double verticalResolution = jpeg2000Image.VerticalResolution;
     System.Console.WriteLine("The horizontal resolution, in pixels per inch: {0}", horizontalResolution);

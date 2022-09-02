@@ -3,7 +3,7 @@ title: XmpMimeType
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет тип MIME.
 type: docs
-weight: 11700
+weight: 11690
 url: /ru/net/aspose.imaging.xmp.types.derived/xmpmimetype/
 ---
 ## XmpMimeType class
@@ -18,7 +18,7 @@ public sealed class XmpMimeType : XmpText
 
 | Имя | Описание |
 | --- | --- |
-| [XmpMimeType](xmpmimetype)(string) | Инициализирует новый экземпляр класса[`XmpMimeType`](../xmpmimetype). |
+| [XmpMimeType](xmpmimetype)(string) | Инициализирует новый экземпляр[`XmpMimeType`](../xmpmimetype) класс. |
 
 ## Характеристики
 
@@ -34,7 +34,7 @@ public sealed class XmpMimeType : XmpText
 
 ### Примечания
 
-Тип MIME определен в IETF RFC 2046.
+Тип MIME, определенный в IETF RFC 2046.
 
 ### Смотрите также
 

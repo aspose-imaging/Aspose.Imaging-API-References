@@ -1,14 +1,14 @@
 ---
 title: FwOpts
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 fw opts
+description: 获取或设置 fw opts.
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfexttextout/fwopts/
 ---
 ## WmfExtTextOut.FwOpts property
 
-获取或设置 fw opts。
+获取或设置 fw opts.
 
 ```csharp
 public int FwOpts { get; set; }

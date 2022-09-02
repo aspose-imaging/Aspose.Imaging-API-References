@@ -1,14 +1,14 @@
 ---
 title: Clip
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает область отсечения.
+description: Получает или задает область клипа.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging/graphics/clip/
 ---
 ## Graphics.Clip property
 
-Получает или задает область отсечения.
+Получает или задает область клипа.
 
 ```csharp
 public Region Clip { get; set; }
@@ -16,7 +16,7 @@ public Region Clip { get; set; }
 
 ### Стоимость имущества
 
-Область отсечения.
+Область клипа.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: CharacterCellWidth
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает ширину символьной ячейки в пикселях для каждой ячейки сетки.
+description: Получает или задает ширину символьной ячейки в пикселях для каждой ячейки в сетке.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/charactercellwidth/
 ---
 ## GifPlainTextRenderingBlock.CharacterCellWidth property
 
-Получает или задает ширину символьной ячейки в пикселях для каждой ячейки сетки.
+Получает или задает ширину символьной ячейки в пикселях для каждой ячейки в сетке.
 
 ```csharp
 public byte CharacterCellWidth { get; set; }
@@ -16,7 +16,7 @@ public byte CharacterCellWidth { get; set; }
 
 ### Стоимость имущества
 
-Ширина символьной ячейки.
+Ширина ячейки символа.
 
 ### Смотрите также
 

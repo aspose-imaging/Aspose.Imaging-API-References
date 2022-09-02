@@ -1,14 +1,14 @@
 ---
 title: Proportion
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定字体比例的 8 位无符号整数 值必须在 Proportion第 2.1.28 节枚举表中
+description: 获取或设置指定字体比例的 8 位无符号整数 值必须在比例第 2.1.28 节枚举表中
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfpanose/proportion/
 ---
 ## EmfPanose.Proportion property
 
-获取或设置指定字体比例的 8 位无符号整数。 值必须在 Proportion（第 2.1.28 节）枚举表中。
+获取或设置指定字体比例的 8 位无符号整数。 值必须在比例（第 2.1.28 节）枚举表中。
 
 ```csharp
 public EmfProportion Proportion { get; set; }

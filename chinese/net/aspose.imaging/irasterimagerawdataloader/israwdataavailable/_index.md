@@ -16,7 +16,7 @@ public bool IsRawDataAvailable { get; }
 
 ### 适当的价值
 
-` true` 如果支持原始数据加载；否则，` false` 。
+`真的`是否支持原始数据加载；否则，`错误的` .
 
 ### 也可以看看
 

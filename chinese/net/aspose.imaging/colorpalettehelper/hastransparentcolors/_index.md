@@ -20,13 +20,13 @@ public static bool HasTransparentColors(IColorPalette palette)
 
 ### 返回值
 
-` true` 如果指定的调色板具有透明色；否则，` false` 。
+`真的`如果指定的调色板具有透明色；否则，`错误的` .
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *palette*为空。 |
+| ArgumentNullException | *palette*一片空白。 |
 
 ### 也可以看看
 

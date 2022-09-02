@@ -1,14 +1,14 @@
 ---
 title: TiffStreamReader
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTiffStreamReaderaspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader.
+description: Инициализирует новый экземплярTiffStreamReaderaspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/tiffstreamreader/
 ---
 ## TiffStreamReader(byte[]) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TiffStreamReader`](../../tiffstreamreader).
+Инициализирует новый экземпляр[`TiffStreamReader`](../../tiffstreamreader) класс.
 
 ```csharp
 public TiffStreamReader(byte[] data)
@@ -28,7 +28,7 @@ public TiffStreamReader(byte[] data)
 
 ## TiffStreamReader(byte[], int) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`TiffStreamReader`](../../tiffstreamreader).
+Инициализирует новый экземпляр[`TiffStreamReader`](../../tiffstreamreader) класс.
 
 ```csharp
 public TiffStreamReader(byte[] data, int startIndex)
@@ -49,7 +49,7 @@ public TiffStreamReader(byte[] data, int startIndex)
 
 ## TiffStreamReader(byte[], int, int) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`TiffStreamReader`](../../tiffstreamreader).
+Инициализирует новый экземпляр[`TiffStreamReader`](../../tiffstreamreader) класс.
 
 ```csharp
 public TiffStreamReader(byte[] data, int startIndex, int dataLength)
@@ -71,7 +71,7 @@ public TiffStreamReader(byte[] data, int startIndex, int dataLength)
 
 ## TiffStreamReader(StreamContainer) {#constructor}
 
-Инициализирует новый экземпляр класса[`TiffStreamReader`](../../tiffstreamreader).
+Инициализирует новый экземпляр[`TiffStreamReader`](../../tiffstreamreader) класс.
 
 ```csharp
 public TiffStreamReader(StreamContainer streamContainer)

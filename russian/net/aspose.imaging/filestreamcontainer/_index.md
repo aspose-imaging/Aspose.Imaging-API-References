@@ -26,7 +26,7 @@ public sealed class FileStreamContainer : StreamContainer
 | [IsCreated](../../aspose.imaging/filestreamcontainer/iscreated) { get; } | Получает значение, указывающее, был ли поток создан явно. |
 | virtual [IsStreamDisposedOnClose](../../aspose.imaging/streamcontainer/isstreamdisposedonclose) { get; } | Получает значение, указывающее, удаляется ли этот поток при закрытии. |
 | [IsTemporal](../../aspose.imaging/filestreamcontainer/istemporal) { get; set; } | Получает или задает значение, указывающее, является ли поток временным. |
-| virtual [Length](../../aspose.imaging/streamcontainer/length) { get; set; } | Получает или задает длину потока в байтах. Это значение меньшеLengthна начальную позицию потока, переданную в конструкторе StreamContainer. |
+| virtual [Length](../../aspose.imaging/streamcontainer/length) { get; set; } | Получает или задает длину потока в байтах. Это значение меньше, чемLength по начальной позиции потока, переданной в конструкторе StreamContainer. |
 | virtual [Position](../../aspose.imaging/streamcontainer/position) { get; set; } | Получает или задает текущую позицию в потоке. Это значение представляет собой смещение от начальной позиции потока, переданной в конструкторе StreamContainer. |
 | virtual [Stream](../../aspose.imaging/streamcontainer/stream) { get; } | Получает поток данных. |
 | [SyncRoot](../../aspose.imaging/streamcontainer/syncroot) { get; } | Получает объект, который можно использовать для синхронизации доступа к синхронизируемому ресурсу. |
@@ -42,22 +42,22 @@ public sealed class FileStreamContainer : StreamContainer
 | virtual [Read](../../aspose.imaging/streamcontainer/read)(byte[]) | Считывает байты, чтобы заполнить указанный буфер байтов. |
 | virtual [Read](../../aspose.imaging/streamcontainer/read)(byte[], int, int) | Считывает последовательность байтов из текущего потока и перемещает позицию в потоке на количество прочитанных байтов. |
 | virtual [ReadByte](../../aspose.imaging/streamcontainer/readbyte)() | Считывает байт из потока и сдвигает позицию в потоке на один байт или возвращает -1, если в конце потока. |
-| virtual [Save](../../aspose.imaging/streamcontainer/save)(Stream) | Сохраняет (копирует) данные потока в указанный поток. Использует размер буфера по умолчанию[`ReadWriteBytesCount`](../streamcontainer/readwritebytescount)и значение stream[`Length`](../streamcontainer/length). |
-| virtual [Save](../../aspose.imaging/streamcontainer/save)(string) | Сохраняет (копирует) данные потока в указанный поток. Использует размер буфера по умолчанию[`ReadWriteBytesCount`](../streamcontainer/readwritebytescount)и значение stream[`Length`](../streamcontainer/length). |
-| virtual [Save](../../aspose.imaging/streamcontainer/save)(Stream, int) | Сохраняет (копирует) все данные потока в указанный поток. Использует значение stream[`Length`](../streamcontainer/length). |
-| virtual [Save](../../aspose.imaging/streamcontainer/save)(string, int) | Сохраняет (копирует) данные потока в указанный поток. Использует значение stream[`Length`](../streamcontainer/length). |
+| virtual [Save](../../aspose.imaging/streamcontainer/save)(Stream) | Сохраняет (копирует) данные потока в указанный поток. Использует размер буфера по умолчанию[`ReadWriteBytesCount`](../streamcontainer/readwritebytescount) и поток[`Length`](../streamcontainer/length) значение. |
+| virtual [Save](../../aspose.imaging/streamcontainer/save)(string) | Сохраняет (копирует) данные потока в указанный поток. Использует размер буфера по умолчанию[`ReadWriteBytesCount`](../streamcontainer/readwritebytescount) и поток[`Length`](../streamcontainer/length) значение. |
+| virtual [Save](../../aspose.imaging/streamcontainer/save)(Stream, int) | Сохраняет (копирует) все данные потока в указанный поток. Использует поток[`Length`](../streamcontainer/length) значение. |
+| virtual [Save](../../aspose.imaging/streamcontainer/save)(string, int) | Сохраняет (копирует) данные потока в указанный поток. Использует поток[`Length`](../streamcontainer/length) значение. |
 | virtual [Save](../../aspose.imaging/streamcontainer/save)(Stream, int, long) | Сохраняет (копирует) данные потока в указанный поток. |
 | virtual [Save](../../aspose.imaging/streamcontainer/save)(string, int, long) | Сохраняет (копирует) данные потока в указанный поток. |
 | virtual [Seek](../../aspose.imaging/streamcontainer/seek)(long, SeekOrigin) | Устанавливает позицию в текущем потоке. |
 | virtual [SeekBegin](../../aspose.imaging/streamcontainer/seekbegin)() | Устанавливает позицию потока в начало потока. Это значение представляет собой смещение от начальной позиции потока, переданной в конструкторе StreamContainer. |
-| virtual [ToBytes](../../aspose.imaging/streamcontainer/tobytes)() | Преобразует данные потока в массивByte. |
-| virtual [ToBytes](../../aspose.imaging/streamcontainer/tobytes)(long, long) | Преобразует данные потока в массивByte. |
+| virtual [ToBytes](../../aspose.imaging/streamcontainer/tobytes)() | Преобразует потоковые данные вByte массив. |
+| virtual [ToBytes](../../aspose.imaging/streamcontainer/tobytes)(long, long) | Преобразует потоковые данные вByte массив. |
 | virtual [Write](../../aspose.imaging/streamcontainer/write)(byte[]) | Записывает все указанные байты в поток. |
 | virtual [Write](../../aspose.imaging/streamcontainer/write)(byte[], int, int) | Записывает последовательность байтов в текущий поток и продвигает текущую позицию в этом потоке на количество записанных байтов. |
 | virtual [WriteByte](../../aspose.imaging/streamcontainer/writebyte)(byte) | Записывает байт в текущую позицию в потоке и перемещает позицию в потоке на один байт. |
-| virtual [WriteTo](../../aspose.imaging/streamcontainer/writeto)(StreamContainer) | Копирует содержащиеся данные в другой[`StreamContainer`](../streamcontainer). |
-| virtual [WriteTo](../../aspose.imaging/streamcontainer/writeto)(StreamContainer, long) | Копирует содержащиеся данные в другой[`StreamContainer`](../streamcontainer). |
-| [explicit operator](../../aspose.imaging/filestreamcontainer/op_explicit#op_explicit_1) | Выполняет явное преобразование из[`FileStreamContainer`](../filestreamcontainer)вStream. (2 operators) |
+| virtual [WriteTo](../../aspose.imaging/streamcontainer/writeto)(StreamContainer) | Копирует содержащиеся данные в другой[`StreamContainer`](../streamcontainer) . |
+| virtual [WriteTo](../../aspose.imaging/streamcontainer/writeto)(StreamContainer, long) | Копирует содержащиеся данные в другой[`StreamContainer`](../streamcontainer) . |
+| [explicit operator](../../aspose.imaging/filestreamcontainer/op_explicit#op_explicit_1) | Выполняет явное преобразование из[`FileStreamContainer`](../filestreamcontainer) кStream . (2 operators) |
 
 ### Смотрите также
 

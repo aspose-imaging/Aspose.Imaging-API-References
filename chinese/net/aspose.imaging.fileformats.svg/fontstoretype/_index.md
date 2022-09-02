@@ -19,8 +19,8 @@ public enum FontStoreType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 无，未存储字体 |
-| Stream | `1` | 流，存储到流中的字体 |
-| Embedded | `2` | 嵌入在 svg 文件中的字体为 base64 |
+| Stream | `1` | Stream，字体存储到 stream |
+| Embedded | `2` | 在svg文件中嵌入的嵌入字体为base64 |
 
 ### 也可以看看
 

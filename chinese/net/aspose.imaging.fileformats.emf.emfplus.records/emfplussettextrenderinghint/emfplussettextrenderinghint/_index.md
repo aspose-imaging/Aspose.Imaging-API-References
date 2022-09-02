@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSetTextRenderingHint
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPlusSetTextRenderingHintaspose.imaging.fileformats.emf.emfplus.records/emfplussettextrenderinghint类的新实例
+description: 初始化EmfPlusSetTextRenderingHintaspose.imaging.fileformats.emf.emfplus.records/emfplussettextrenderinghint类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettextrenderinghint/emfplussettextrenderinghint/
 ---
 ## EmfPlusSetTextRenderingHint constructor
 
-初始化[`EmfPlusSetTextRenderingHint`](../../emfplussettextrenderinghint)类的新实例。
+初始化[`EmfPlusSetTextRenderingHint`](../../emfplussettextrenderinghint)类.
 
 ```csharp
 public EmfPlusSetTextRenderingHint(EmfPlusRecord source)
@@ -16,7 +16,7 @@ public EmfPlusSetTextRenderingHint(EmfPlusRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfPlusRecord | 源。 |
+| source | EmfPlusRecord | 来源。 |
 
 ### 也可以看看
 

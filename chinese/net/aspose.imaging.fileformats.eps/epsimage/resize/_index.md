@@ -16,7 +16,7 @@ public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newWidth | Int32 | 新宽度。 |
+| newWidth | Int32 | 新的宽度。 |
 | newHeight | Int32 | 新高度。 |
 | resizeType | ResizeType | 调整大小类型。 |
 
@@ -27,13 +27,13 @@ public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
 ```csharp
 [C#]
 
-    // 加载 EPS image
+// 加载 EPS 图像
 using (var image = Image.Load("AstrixObelix.eps"))
 {
-        // 使用米切尔三次插值法调整图像大小
+    // 使用米切尔三次插值法调整图像大小
     image.Resize(400, 400, ResizeType.Mitchell);
 
-        // 导出图片为PNG格式
+    // 将图片导出为PNG格式
     image.Save("ExportResult.png", new PngOptions());
 }
 ```
@@ -57,37 +57,37 @@ public override void Resize(int newWidth, int newHeight, ImageResizeSettings set
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newWidth | Int32 | 新宽度。 |
+| newWidth | Int32 | 新的宽度。 |
 | newHeight | Int32 | 新高度。 |
 | settings | ImageResizeSettings | 调整大小设置。 |
 
 ### 例子
 
-使用高级设置调整 EPS 图像大小。
+使用高级设置调整 EPS 图像的大小。
 
 ```csharp
 [C#]
 
-    // 加载 EPS image
+// 加载 EPS 图像
 using (var image = Image.Load("AstrixObelix.eps"))
 {
     // 使用高级调整大小设置调整图像大小
     image.Resize(400, 400, new ImageResizeSettings
     {
-            // 设置插值模式
+        // 设置插值模式
         Mode = ResizeType.LanczosResample,
 
-            // 设置过滤器的类型
+        // 设置过滤器的类型
         FilterType = ImageFilterType.SmallRectangular,
 
-            // 设置颜色比较方法
+        // 设置颜色比较方法
         ColorCompareMethod = ColorCompareMethod.Euclidian,
 
-            // 设置颜色量化方法
+        // 设置颜色量化方式
         ColorQuantizationMethod = ColorQuantizationMethod.Popularity
     });
 
-        // 导出图片为PNG格式
+    // 将图片导出为PNG格式
     image.Save("ExportResult.png", new PngOptions());
 }
 ```

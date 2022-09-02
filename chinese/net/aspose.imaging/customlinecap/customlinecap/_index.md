@@ -1,14 +1,14 @@
 ---
 title: CustomLineCap
 second_title: Aspose.Imaging for .NET API 参考
-description: 使用指定的轮廓和填充初始化CustomLineCapaspose.imaging/customlinecap类的新实例
+description: 初始化CustomLineCapaspose.imaging/customlinecap具有指定轮廓和填充的类
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/customlinecap/customlinecap/
 ---
 ## CustomLineCap(GraphicsPath, GraphicsPath) {#constructor}
 
-使用指定的轮廓和填充初始化[`CustomLineCap`](../../customlinecap)类的新实例。
+初始化[`CustomLineCap`](../../customlinecap)具有指定轮廓和填充的类。
 
 ```csharp
 public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath)
@@ -16,8 +16,8 @@ public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fillPath | GraphicsPath | 一个[`GraphicsPath`](../../graphicspath)对象，用于定义自定义帽的填充. |
-| strokePath | GraphicsPath | A[`GraphicsPath`](../../graphicspath)对象，用于定义自定义帽的轮廓。 |
+| fillPath | GraphicsPath | 一个[`GraphicsPath`](../../graphicspath)定义自定义上限填充的对象。 |
+| strokePath | GraphicsPath | 一个[`GraphicsPath`](../../graphicspath)定义自定义帽的轮廓的对象。 |
 
 ### 也可以看看
 
@@ -30,7 +30,7 @@ public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath)
 
 ## CustomLineCap(GraphicsPath, GraphicsPath, LineCap) {#constructor_1}
 
-从指定的现有Aspose初始化R5:T:Aspose.Imaging.CustomLineCap:::类的新实例。 Imaging.LineCap:::枚举具有指定的轮廓和填充。
+初始化[`CustomLineCap`](../../customlinecap)来自指定现有的类[`LineCap`](../../linecap)具有指定轮廓和填充的枚举。
 
 ```csharp
 public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath, LineCap baseCap)
@@ -38,9 +38,9 @@ public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath, LineCap bas
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fillPath | GraphicsPath | 一个[`GraphicsPath`](../../graphicspath)对象，用于定义自定义帽的填充. |
-| strokePath | GraphicsPath | A[`GraphicsPath`](../../graphicspath)对象，用于定义自定义帽的轮廓。 |
-| baseCap | LineCap | 创建自定义上限的线上限。 |
+| fillPath | GraphicsPath | 一个[`GraphicsPath`](../../graphicspath)定义自定义上限填充的对象。 |
+| strokePath | GraphicsPath | 一个[`GraphicsPath`](../../graphicspath)定义自定义帽的轮廓的对象。 |
+| baseCap | LineCap | 用于创建自定义上限的线上限。 |
 
 ### 也可以看看
 
@@ -54,7 +54,7 @@ public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath, LineCap bas
 
 ## CustomLineCap(GraphicsPath, GraphicsPath, LineCap, float) {#constructor_2}
 
-从指定的现有Aspose初始化R5:T:Aspose.Imaging.CustomLineCap:::类的新实例。 Imaging.LineCap:::具有指定轮廓、填充和插图的枚举。
+初始化[`CustomLineCap`](../../customlinecap)来自指定现有的类[`LineCap`](../../linecap)具有指定轮廓、填充和插图的枚举。
 
 ```csharp
 public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath, LineCap baseCap, 
@@ -63,10 +63,10 @@ public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath, LineCap bas
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fillPath | GraphicsPath | 一个[`GraphicsPath`](../../graphicspath)对象，用于定义自定义帽的填充. |
-| strokePath | GraphicsPath | A[`GraphicsPath`](../../graphicspath)对象，用于定义自定义帽的轮廓。 |
-| baseCap | LineCap | 创建自定义上限的线上限。 |
-| baseInset | Single | 帽和线之间的距离。 |
+| fillPath | GraphicsPath | 一个[`GraphicsPath`](../../graphicspath)定义自定义上限填充的对象。 |
+| strokePath | GraphicsPath | 一个[`GraphicsPath`](../../graphicspath)定义自定义帽的轮廓的对象。 |
+| baseCap | LineCap | 用于创建自定义上限的线上限。 |
+| baseInset | Single | 帽与线之间的距离。 |
 
 ### 也可以看看
 

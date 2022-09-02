@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.FileFormats.Gif.Blocks
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пространство имен содержит сущности файлового формата Gif.
+description: Пространство имен содержит объекты формата файла Gif.
 type: docs
 weight: 450
 url: /ru/net/aspose.imaging.fileformats.gif.blocks/
 ---
-Пространство имен содержит сущности файлового формата Gif.
+Пространство имен содержит объекты формата файла Gif.
 
 ## Классы
 

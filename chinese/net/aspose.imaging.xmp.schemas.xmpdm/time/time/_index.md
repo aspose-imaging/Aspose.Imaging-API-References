@@ -1,14 +1,14 @@
 ---
 title: Time
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化Timeaspose.imaging.xmp.schemas.xmpdm/time类的新实例
+description: 初始化Timeaspose.imaging.xmp.schemas.xmpdm/time类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/time/time/
 ---
 ## Time constructor
 
-初始化[`Time`](../../time)类的新实例。
+初始化[`Time`](../../time)类.
 
 ```csharp
 public Time(Rational scale, int value)
@@ -16,8 +16,8 @@ public Time(Rational scale, int value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| scale | Rational | 比例。 |
-| value | Int32 | 值。 |
+| scale | Rational | 规模。 |
+| value | Int32 | 价值。 |
 
 ### 也可以看看
 

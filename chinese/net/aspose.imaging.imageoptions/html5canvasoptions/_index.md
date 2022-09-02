@@ -3,7 +3,7 @@ title: Html5CanvasOptions
 second_title: Aspose.Imaging for .NET API 参考
 description: Html5 Canvas 文件格式创建选项
 type: docs
-weight: 10020
+weight: 10010
 url: /zh/net/aspose.imaging.imageoptions/html5canvasoptions/
 ---
 ## Html5CanvasOptions class
@@ -26,9 +26,9 @@ public class Html5CanvasOptions : ImageOptionsBase
 | --- | --- |
 | [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | 获取或设置缓冲区大小提示，该提示定义了所有内部缓冲区的最大允许大小。 |
 | [CanvasTagId](../../aspose.imaging.imageoptions/html5canvasoptions/canvastagid) { get; set; } | 获取或设置画布标签标识符。 |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示该实例是否被释放。 |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示此实例是否被释放。 |
 | [Encoding](../../aspose.imaging.imageoptions/html5canvasoptions/encoding) { get; set; } | 获取或设置编码。 |
-| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | 获取或设置一个值，指示是否[全帧]。 |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | 获取或设置一个值，指示是否[全帧]. |
 | [FullHtmlPage](../../aspose.imaging.imageoptions/html5canvasoptions/fullhtmlpage) { get; set; } | 获取或设置一个值，该值指示是否应生成完整的 HTML 页面。 |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | 多页选项 |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | 获取或设置调色板。 |
@@ -43,7 +43,7 @@ public class Html5CanvasOptions : ImageOptionsBase
 | 姓名 | 描述 |
 | --- | --- |
 | virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | 克隆此实例。 |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 释放当前实例。 |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 处理当前实例。 |
 
 ### 例子
 
@@ -56,8 +56,7 @@ using (var image = Image.Load(@"Sample.svg"))
 {
     image.Save(@"Canvas.html", new Html5CanvasOptions
     {
-        VectorRasterizationOptions = new SvgRasterizationOptions(),
-        FullHtmlPage = false
+        VectorRasterizationOptions = new SvgRasterizationOptions()
     });
 }
 ```

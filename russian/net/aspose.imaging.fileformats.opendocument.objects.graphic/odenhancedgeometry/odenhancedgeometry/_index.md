@@ -1,14 +1,14 @@
 ---
 title: OdEnhancedGeometry
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdEnhancedGeometryaspose.imaging.fileformats.opendocument.objects.graphic/odenhancedgeometry.
+description: Инициализирует новый экземплярOdEnhancedGeometryaspose.imaging.fileformats.opendocument.objects.graphic/odenhancedgeometry класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odenhancedgeometry/odenhancedgeometry/
 ---
 ## OdEnhancedGeometry constructor
 
-Инициализирует новый экземпляр класса[`OdEnhancedGeometry`](../../odenhancedgeometry).
+Инициализирует новый экземпляр[`OdEnhancedGeometry`](../../odenhancedgeometry) класс.
 
 ```csharp
 public OdEnhancedGeometry(OdObject parent)

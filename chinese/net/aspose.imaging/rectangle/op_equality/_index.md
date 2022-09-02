@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: Aspose.Imaging for .NET API 参考
-description: 测试两个Rectangleaspose.imaging/rectangle结构是否具有相同的位置和大小
+description: 测试是否两个Rectangleaspose.imaging/rectangle结构具有相同的位置和大小
 type: docs
 weight: 290
 url: /zh/net/aspose.imaging/rectangle/op_equality/
 ---
 ## Rectangle Equality operator
 
-测试两个[`Rectangle`](../../rectangle)结构是否具有相同的位置和大小。
+测试是否两个[`Rectangle`](../../rectangle)结构具有相同的位置和大小。
 
 ```csharp
 public static bool operator ==(Rectangle left, Rectangle right)
@@ -16,12 +16,12 @@ public static bool operator ==(Rectangle left, Rectangle right)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| left | Rectangle | [`Rectangle`](../../rectangle)等式左侧的结构操作员。 |
-| right | Rectangle | [`Rectangle`](../../rectangle)等式运算符右侧的结构。 |
+| left | Rectangle | 这[`Rectangle`](../../rectangle)位于等式运算符左侧的结构。 |
+| right | Rectangle | 这[`Rectangle`](../../rectangle)等式运算符右侧的结构。 |
 
 ### 返回值
 
-如果两个[`Rectangle`](../../rectangle)结构具有相等的X,[`Y`](../y),[`Width`](../width)和[`Height`](../height)属性。
+如果这两个操作符返回 true[`Rectangle`](../../rectangle)结构相等[`X`](../x) ,[`Y`](../y) ,[`Width`](../width)， 和[`Height`](../height)特性。
 
 ### 也可以看看
 

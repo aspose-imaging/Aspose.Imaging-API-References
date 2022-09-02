@@ -1,14 +1,14 @@
 ---
 title: DefaultHeight
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает высоту по умолчанию. Свойство DefaultHeight использовать только в том случае если высота не задана в файле.
+description: Получает или задает высоту по умолчанию. Свойство DefaultHeight используется только в том случае когда высота не задана в файле.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.imageloadoptions/svgloadoptions/defaultheight/
 ---
 ## SvgLoadOptions.DefaultHeight property
 
-Получает или задает высоту по умолчанию. Свойство DefaultHeight использовать только в том случае, если высота не задана в файле.
+Получает или задает высоту по умолчанию. Свойство DefaultHeight используется только в том случае, когда высота не задана в файле.
 
 ```csharp
 public int DefaultHeight { get; set; }

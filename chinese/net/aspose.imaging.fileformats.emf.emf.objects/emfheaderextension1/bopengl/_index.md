@@ -1,14 +1,14 @@
 ---
 title: BOpenGl
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数指示元文件中是否存在 OpenGL 命令 0x00000000 OpenGL 记录不存在于元文件中 0x00000001 OpenGL 记录存在于元文件中
+description: 获取或设置一个 32 位无符号整数指示元文件中是否存在 OpenGL 命令 0x00000000 元文件中不存在 OpenGL 记录 0x00000001 元文件中存在 OpenGL 记录
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfheaderextension1/bopengl/
 ---
 ## EmfHeaderExtension1.BOpenGl property
 
-获取或设置一个 32 位无符号整数，指示元文件中是否存在 OpenGL 命令。 0x00000000 OpenGL 记录不存在于元文件中。 0x00000001 OpenGL 记录存在于元文件中。
+获取或设置一个 32 位无符号整数，指示元文件中是否存在 OpenGL 命令。 0x00000000 元文件中不存在 OpenGL 记录。 0x00000001 元文件中存在 OpenGL 记录。
 
 ```csharp
 public int BOpenGl { get; set; }

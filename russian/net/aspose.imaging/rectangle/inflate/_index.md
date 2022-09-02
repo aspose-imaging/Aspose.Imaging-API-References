@@ -1,14 +1,14 @@
 ---
 title: Inflate
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Создает и возвращает увеличенную копию указаннойRectangleaspose.imaging/rectangleструктуры. Копия завышена на указанную сумму. Исходная структураRectangleaspose.imaging/rectangleостается неизменной.
+description: Создает и возвращает увеличенную копию указанногоRectangleaspose.imaging/rectangle структура. Копия завышена на указанную сумму. ОригиналRectangleaspose.imaging/rectangle структура остается неизменной.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging/rectangle/inflate/
 ---
 ## Inflate(Rectangle, int, int)
 
-Создает и возвращает увеличенную копию указанной[`Rectangle`](../../rectangle)структуры. Копия завышена на указанную сумму. Исходная структура[`Rectangle`](../../rectangle)остается неизменной.
+Создает и возвращает увеличенную копию указанного[`Rectangle`](../../rectangle) структура. Копия завышена на указанную сумму. Оригинал[`Rectangle`](../../rectangle) структура остается неизменной.
 
 ```csharp
 public static Rectangle Inflate(Rectangle rect, int x, int y)
@@ -16,13 +16,13 @@ public static Rectangle Inflate(Rectangle rect, int x, int y)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rect | Rectangle | [`Rectangle`](../../rectangle)с которого нужно начать. Этот прямоугольник не изменяется. |
-| x | Int32 | Величина надувания этого[`Rectangle`](../../rectangle)по горизонтали. |
-| y | Int32 | Величина надувания этого[`Rectangle`](../../rectangle)по вертикали. |
+| rect | Rectangle | [`Rectangle`](../../rectangle) с чего начать. Этот прямоугольник не изменяется. |
+| x | Int32 | Сумма, чтобы раздуть это[`Rectangle`](../../rectangle) по горизонтали. |
+| y | Int32 | Сумма, чтобы раздуть это[`Rectangle`](../../rectangle) вертикально. |
 
 ### Возвращаемое значение
 
-Надутый[`Rectangle`](../../rectangle).
+надутый[`Rectangle`](../../rectangle).
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public static Rectangle Inflate(Rectangle rect, int x, int y)
 
 ## Inflate(int, int) {#inflate_1}
 
-Увеличивает этот[`Rectangle`](../../rectangle)на указанную величину.
+раздувает это[`Rectangle`](../../rectangle) на указанную сумму.
 
 ```csharp
 public void Inflate(int width, int height)
@@ -42,8 +42,8 @@ public void Inflate(int width, int height)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| width | Int32 | Величина для расширения этого[`Rectangle`](../../rectangle)по горизонтали. |
-| height | Int32 | Величина надувания этого[`Rectangle`](../../rectangle)по вертикали. |
+| width | Int32 | Сумма, чтобы раздуть это[`Rectangle`](../../rectangle) по горизонтали. |
+| height | Int32 | Сумма, чтобы раздуть это[`Rectangle`](../../rectangle) вертикально. |
 
 ### Смотрите также
 
@@ -55,7 +55,7 @@ public void Inflate(int width, int height)
 
 ## Inflate(Size) {#inflate}
 
-Увеличивает этот[`Rectangle`](../../rectangle)на указанную величину.
+раздувает это[`Rectangle`](../../rectangle) на указанную сумму.
 
 ```csharp
 public void Inflate(Size size)
@@ -63,7 +63,7 @@ public void Inflate(Size size)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| size | Size | Величина надувания этого прямоугольника. |
+| size | Size | Величина, на которую нужно надуть этот прямоугольник. |
 
 ### Смотрите также
 

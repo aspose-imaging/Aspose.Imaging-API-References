@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Проверяет является ли указанный объект классомBlendaspose.imaging/blendи эквивалентен этомуBlendaspose.imaging/blendclass.
+description: Проверяет является ли указанный объектBlendaspose.imaging/blend класс и эквивалентен этомуBlendaspose.imaging/blend класс.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging/blend/equals/
 ---
 ## Blend.Equals method
 
-Проверяет, является ли указанный объект классом[`Blend`](../../blend)и эквивалентен этому[`Blend`](../../blend)class.
+Проверяет, является ли указанный объект[`Blend`](../../blend) класс и эквивалентен этому[`Blend`](../../blend) класс.
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Объект для проверки. |
+| obj | Object | Объект для тестирования. |
 
 ### Возвращаемое значение
 
-Истинно, если*obj*является классом[`Blend`](../../blend), эквивалентным этому[`Blend`](../../blend)class; в противном случае ложно.
+Верно, если*obj* это[`Blend`](../../blend) класс, эквивалентный этому[`Blend`](../../blend) учебный класс; в противном случае ложно.
 
 ### Смотрите также
 

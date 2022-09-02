@@ -3,7 +3,7 @@ title: SegmentationMethod
 second_title: Aspose.Imaging for .NET API 参考
 description: 分割方法类型
 type: docs
-weight: 10530
+weight: 10520
 url: /zh/net/aspose.imaging.masking.options/segmentationmethod/
 ---
 ## SegmentationMethod enumeration

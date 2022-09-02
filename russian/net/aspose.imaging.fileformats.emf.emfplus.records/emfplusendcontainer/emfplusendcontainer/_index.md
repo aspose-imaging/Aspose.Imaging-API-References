@@ -1,14 +1,14 @@
 ---
 title: EmfPlusEndContainer
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusEndContaineraspose.imaging.fileformats.emf.emfplus.records/emfplusendcontainer.
+description: Инициализирует новый экземплярEmfPlusEndContaineraspose.imaging.fileformats.emf.emfplus.records/emfplusendcontainer класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusendcontainer/emfplusendcontainer/
 ---
 ## EmfPlusEndContainer constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusEndContainer`](../../emfplusendcontainer).
+Инициализирует новый экземпляр[`EmfPlusEndContainer`](../../emfplusendcontainer) класс.
 
 ```csharp
 public EmfPlusEndContainer(EmfPlusRecord source)

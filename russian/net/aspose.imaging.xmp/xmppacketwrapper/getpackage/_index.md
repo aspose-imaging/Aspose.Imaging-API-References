@@ -26,7 +26,7 @@ public XmpPackage GetPackage(string namespaceUri)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | namespaceUri |
+| ArgumentNullException | пространство именUri |
 
 ### Смотрите также
 

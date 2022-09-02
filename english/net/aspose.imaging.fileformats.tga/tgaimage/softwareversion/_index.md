@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/softwareversion/
 ---
 ## TgaImage.SoftwareVersion property
 
-Gets or sets Software Version. Accepted version string Length is 3-4 characters.
+Gets or sets Software Version. Accepted version string length is 3-4 characters.
 
 ```csharp
 public string SoftwareVersion { get; set; }

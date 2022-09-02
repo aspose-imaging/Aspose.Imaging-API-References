@@ -18,8 +18,8 @@ public class DjvuImageException : ImageException
 
 | Имя | Описание |
 | --- | --- |
-| [DjvuImageException](djvuimageexception#constructor)(string) | Инициализирует новый экземпляр класса[`DjvuImageException`](../djvuimageexception). |
-| [DjvuImageException](djvuimageexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр класса[`DjvuImageException`](../djvuimageexception). |
+| [DjvuImageException](djvuimageexception#constructor)(string) | Инициализирует новый экземпляр[`DjvuImageException`](../djvuimageexception) класс. |
+| [DjvuImageException](djvuimageexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр[`DjvuImageException`](../djvuimageexception) класс. |
 
 ### Смотрите также
 

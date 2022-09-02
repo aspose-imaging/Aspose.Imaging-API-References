@@ -1,14 +1,14 @@
 ---
 title: Millimeters
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定参考设备大小的 WMF SizeL 对象以毫米为单位
+description: 获取或设置一个 WMF SizeL 对象该对象指定参考设备的大小以毫米为单位
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/millimeters/
 ---
 ## EmfHeaderObject.Millimeters property
 
-获取或设置指定参考设备大小的 WMF SizeL 对象，以毫米为单位
+获取或设置一个 WMF SizeL 对象，该对象指定参考设备的大小，以毫米为单位
 
 ```csharp
 public Size Millimeters { get; set; }

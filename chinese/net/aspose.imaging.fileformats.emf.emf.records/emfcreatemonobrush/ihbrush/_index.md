@@ -1,14 +1,14 @@
 ---
 title: IhBrush
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数它指定 EMF 对象表中单色 图案画笔对象的索引第 3.1 节 1.1此索引必须保存为 以便可以重用或修改此对象
+description: 获取或设置一个 32 位无符号整数指定 EMF 对象表第 3.1.1.1 节中单色 图案画笔对象的索引必须保存此索引以便 可以重用或修改此对象
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcreatemonobrush/ihbrush/
 ---
 ## EmfCreateMonoBrush.IhBrush property
 
-获取或设置一个 32 位无符号整数，它指定 EMF 对象表中单色 图案画笔对象的索引（第 3.1 节。 1.1）。此索引必须保存为 以便可以重用或修改此对象。
+获取或设置一个 32 位无符号整数，指定 EMF 对象表（第 3.1.1.1 节）中单色 图案画笔对象的索引。必须保存此索引以便 可以重用或修改此对象。
 
 ```csharp
 public int IhBrush { get; set; }

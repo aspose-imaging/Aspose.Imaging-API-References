@@ -16,7 +16,7 @@ public void SetTitle(string title)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| title | String | Заголовок. |
+| title | String | Название. |
 
 ### Смотрите также
 
@@ -36,7 +36,7 @@ public void SetTitle(LangAlt title)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| title | LangAlt | Экземпляр[`LangAlt`](../../../aspose.imaging.xmp/langalt). |
+| title | LangAlt | Случай[`LangAlt`](../../../aspose.imaging.xmp/langalt). |
 
 ### Смотрите также
 

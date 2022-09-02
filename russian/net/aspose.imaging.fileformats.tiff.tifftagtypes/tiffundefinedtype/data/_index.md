@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает данные.
+description: Получает или устанавливает данные.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffundefinedtype/data/
 ---
 ## TiffUndefinedType.Data property
 
-Получает или задает данные.
+Получает или устанавливает данные.
 
 ```csharp
 public byte[] Data { get; set; }

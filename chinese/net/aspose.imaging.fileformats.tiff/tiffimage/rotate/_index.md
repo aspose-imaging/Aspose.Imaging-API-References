@@ -17,8 +17,8 @@ public override void Rotate(float angle, bool resizeProportionally, Color backgr
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | angle | Single | 以度为单位的旋转角度。正值将顺时针旋转。 |
-| resizeProportionally | Boolean | 如果设置为` true` 您将根据旋转的矩形更改图像大小（角点）投影在其他情况下保持尺寸不变并且仅旋转内部图像内容。 |
-| backgroundColor | Color | 背景颜色。 |
+| resizeProportionally | Boolean | 如果设置为`真的`您将根据旋转的矩形（角点）投影更改图像大小，在其他情况下保持尺寸不变并且仅旋转内部图像内容。 |
+| backgroundColor | Color | 背景的颜色。 |
 
 ### 例子
 
@@ -30,14 +30,14 @@ public override void Rotate(float angle, bool resizeProportionally, Color backgr
 string dir = "c:\\temp\\";
 Aspose.Imaging.ImageOptions.TiffOptions createTiffOptions = new Aspose.Imaging.ImageOptions.TiffOptions(Aspose.Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
     
-// 创建一个永久的，不是临时的文件 source.
+// 创建一个永久的，不是临时的文件源。
 createTiffOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(dir + "rotated.tif", false);
 createTiffOptions.Photometric = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.Rgb;
 createTiffOptions.BitsPerSample = new ushort[] { 8, 8, 8 };
 
 using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)Image.Create(createTiffOptions, 100, 100))
 {
-        // 从图像左上角到右下角的线性渐变。
+    // 从图像左上角到右下角的线性渐变。
     Aspose.Imaging.Brushes.LinearGradientBrush brush =
         new Aspose.Imaging.Brushes.LinearGradientBrush(
             new Aspose.Imaging.Point(0, 0),
@@ -49,13 +49,13 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.Fil
     Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(tiffImage);
     gr.FillRectangle(brush, tiffImage.Bounds);
 
-        // 将图像围绕中心顺时针旋转 45 度。 
-        // 图像大小根据旋转矩形（角点）改变。
+    // 将图像围绕中心顺时针旋转 45 度。 
+    // 图像大小根据旋转的矩形（角点）改变。
     tiffImage.Rotate(45f, true, Aspose.Imaging.Color.Black);
     tiffImage.Save();
 
-    // 将图像绕中心顺时针旋转 45 度。
-        // 保持图像尺寸不变，仅旋转内部图像内容。
+    // 将图像围绕中心顺时针旋转 45 度。
+    // 保持图像尺寸不变，仅旋转内部图像内容。
     tiffImage.Rotate(45f, false, Aspose.Imaging.Color.Gray);
     tiffImage.Save(dir + "rotated.preservesize.tif");
 }

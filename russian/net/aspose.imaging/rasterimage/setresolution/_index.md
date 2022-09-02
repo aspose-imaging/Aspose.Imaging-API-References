@@ -1,14 +1,14 @@
 ---
 title: SetResolution
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Устанавливает разрешение для этогоRasterImageaspose.imaging/rasterimage.
+description: Устанавливает разрешение для этогоRasterImageaspose.imaging/rasterimage .
 type: docs
 weight: 580
 url: /ru/net/aspose.imaging/rasterimage/setresolution/
 ---
 ## RasterImage.SetResolution method
 
-Устанавливает разрешение для этого[`RasterImage`](../../rasterimage).
+Устанавливает разрешение для этого[`RasterImage`](../../rasterimage) .
 
 ```csharp
 public virtual void SetResolution(double dpiX, double dpiY)
@@ -16,8 +16,8 @@ public virtual void SetResolution(double dpiX, double dpiY)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dpiX | Double | Горизонтальное разрешение, в точках на дюйм, для[`RasterImage`](../../rasterimage). |
-| dpiY | Double | Вертикальное разрешение в точках на дюйм для[`RasterImage`](../../rasterimage). |
+| dpiX | Double | Горизонтальное разрешение, в точках на дюйм,[`RasterImage`](../../rasterimage). |
+| dpiY | Double | Вертикальное разрешение, в точках на дюйм,[`RasterImage`](../../rasterimage). |
 
 ### Примеры
 
@@ -32,7 +32,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.jpg"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-     // Получить горизонтальное и вертикальное разрешение изображения
+    // Получить горизонтальное и вертикальное разрешение изображения
     double horizontalResolution = rasterImage.HorizontalResolution;
     double verticalResolution = rasterImage.VerticalResolution;
     System.Console.WriteLine("The horizontal resolution, in pixels per inch: {0}", horizontalResolution);
@@ -40,7 +40,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.jpg"
 
     if (horizontalResolution != 96.0 || verticalResolution != 96.0)
     {
-         // Используйте метод SetResolution для обновления обоих значений разрешения в одном вызове.
+        // Используйте метод SetResolution для обновления обоих значений разрешения за один вызов.
         System.Console.WriteLine("Set resolution values to 96 dpi");
         rasterImage.SetResolution(96.0, 96.0);
 
@@ -48,12 +48,12 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.jpg"
         System.Console.WriteLine("The vertical resolution, in pixels per inch: {0}", rasterImage.VerticalResolution);
     }
 
-    // Вывод может выглядеть так: 
-     // Горизонтальное разрешение в пикселях на дюйм: 300
-     // Вертикальное разрешение в пикселях на дюйм: 300
-     // Установите значения разрешения на 96 dpi
-    // Горизонтальное разрешение в пикселях на дюйм: 96
-     // Вертикальное разрешение в пикселях на дюйм: 96
+    // Вывод может выглядеть так:
+    // Горизонтальное разрешение, в пикселях на дюйм: 300
+    // Вертикальное разрешение, в пикселях на дюйм: 300
+    // Установите значения разрешения на 96 dpi
+    // Горизонтальное разрешение, в пикселях на дюйм: 96
+    // Вертикальное разрешение, в пикселях на дюйм: 96
 }
 ```
 

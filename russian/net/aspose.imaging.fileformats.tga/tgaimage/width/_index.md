@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает эту ширину изображения.
+description: Получает ширину этого изображения.
 type: docs
 weight: 270
 url: /ru/net/aspose.imaging.fileformats.tga/tgaimage/width/
 ---
 ## TgaImage.Width property
 
-Получает эту ширину изображения.
+Получает ширину этого изображения.
 
 ```csharp
 public override int Width { get; }
@@ -16,7 +16,7 @@ public override int Width { get; }
 
 ### Примеры
 
-Получение значений публичных свойств загруженного TGA-изображения.
+Получение значений публичных свойств загруженного изображения TGA.
 
 ```csharp
 [C#]

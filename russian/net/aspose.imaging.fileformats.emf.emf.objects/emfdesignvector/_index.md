@@ -1,14 +1,14 @@
 ---
 title: EmfDesignVector
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект DesignVector раздел 2.2.3 определяет вектор дизайна который задает значения для осей шрифта множественного эталонного шрифта.
+description: Объект DesignVector раздел 2.2.3 определяет вектор дизайна который задает значения для осей шрифта множественного основного шрифта.
 type: docs
 weight: 2940
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/
 ---
 ## EmfDesignVector class
 
-Объект DesignVector (раздел 2.2.3) определяет вектор дизайна, который задает значения для осей шрифта множественного эталонного шрифта.
+Объект DesignVector (раздел 2.2.3) определяет вектор дизайна, который задает значения для осей шрифта множественного основного шрифта.
 
 ```csharp
 public sealed class EmfDesignVector : EmfObject
@@ -24,9 +24,9 @@ public sealed class EmfDesignVector : EmfObject
 
 | Имя | Описание |
 | --- | --- |
-| [NumAxes](../../aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/numaxes) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее количество элементов в массиве Values. ДОЛЖЕН быть в диапазоне от 0 до 16 включительно |
+| [NumAxes](../../aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/numaxes) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее количество элементов в массиве Values. ДОЛЖЕН быть в диапазоне от 0 до 16, inclusive |
 | [Signature](../../aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/signature) { get; set; } | Получает или задает 32-битное целое число без знака, которое ДОЛЖНО быть установлено равным 0x08007664. |
-| [Values](../../aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/values) { get; set; } | Получает или задает необязательный массив 32-разрядных целых чисел со знаком, которые определяют значения осей шрифта для нескольких эталонных шрифтов OpenType. Максимальное количество значений в массиве равно 16. |
+| [Values](../../aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/values) { get; set; } | Получает или задает необязательный массив 32-разрядных целых чисел со знаком, которые определяют значения осей шрифта множественного эталонного шрифта OpenType. Максимальное количество значений в массиве 16. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Points
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает точки.
+description: Получает или устанавливает очки.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odcurveto/points/
 ---
 ## OdCurveTo.Points property
 
-Получает или устанавливает точки.
+Получает или устанавливает очки.
 
 ```csharp
 public PointF[] Points { get; set; }
@@ -16,7 +16,7 @@ public PointF[] Points { get; set; }
 
 ### Стоимость имущества
 
-Точки.
+Очки.
 
 ### Смотрите также
 

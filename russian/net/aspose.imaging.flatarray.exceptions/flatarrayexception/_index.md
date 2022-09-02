@@ -1,14 +1,14 @@
 ---
 title: FlatArrayException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Специальное исключение для классаFlatArray.
+description: Специальное исключение дляFlatArray класс.
 type: docs
 weight: 9320
 url: /ru/net/aspose.imaging.flatarray.exceptions/flatarrayexception/
 ---
 ## FlatArrayException class
 
-Специальное исключение для классаFlatArray.
+Специальное исключение дляFlatArray класс.
 
 ```csharp
 public class FlatArrayException : Exception

@@ -3,7 +3,7 @@ title: IImageDescriptor
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9480
+weight: 9490
 url: /net/aspose.imaging/iimagedescriptor/
 ---
 ## IImageDescriptor interface

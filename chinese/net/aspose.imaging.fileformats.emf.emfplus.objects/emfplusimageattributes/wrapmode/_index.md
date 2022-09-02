@@ -1,14 +1,14 @@
 ---
 title: WrapMode
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数该整数指定如何使用来自 WrapMode 枚举的 值处理边缘条件第 2.1.1.34 节
+description: 获取或设置一个 32 位无符号整数该整数指定如何使用 WrapMode 枚举第 2.1.1.34 节中的 值处理边缘条件
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageattributes/wrapmode/
 ---
 ## EmfPlusImageAttributes.WrapMode property
 
-获取或设置一个 32 位无符号整数，该整数指定如何使用来自 WrapMode 枚举的 值处理边缘条件（第 2.1.1.34 节）。
+获取或设置一个 32 位无符号整数，该整数指定如何使用 WrapMode 枚举（第 2.1.1.34 节）中的 值处理边缘条件。
 
 ```csharp
 public EmfPlusWrapMode WrapMode { get; set; }

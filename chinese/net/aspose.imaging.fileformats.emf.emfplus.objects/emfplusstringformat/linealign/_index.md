@@ -1,14 +1,14 @@
 ---
 title: LineAlign
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数指定如何在布局矩形中垂直对齐 字符串 这个值必须在 StringAlignment 枚举中定义
+description: 获取或设置一个 32 位无符号整数它指定如何在布局矩形中 垂直对齐字符串 该值必须在 StringAlignment 枚举中定义
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/linealign/
 ---
 ## EmfPlusStringFormat.LineAlign property
 
-获取或设置一个 32 位无符号整数，指定如何在布局矩形中垂直对齐 字符串。 这个值必须在 StringAlignment 枚举中定义。
+获取或设置一个 32 位无符号整数，它指定如何在布局矩形中 垂直对齐字符串。 该值必须在 StringAlignment 枚举中定义。
 
 ```csharp
 public EmfPlusStringAlignment LineAlign { get; set; }

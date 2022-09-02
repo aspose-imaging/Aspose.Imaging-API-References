@@ -1,14 +1,14 @@
 ---
 title: EmfSetLayout
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfSetLayoutaspose.imaging.fileformats.emf.emf.records/emfsetlayout类的新实例
+description: 初始化EmfSetLayoutaspose.imaging.fileformats.emf.emf.records/emfsetlayout类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetlayout/emfsetlayout/
 ---
 ## EmfSetLayout constructor
 
-初始化[`EmfSetLayout`](../../emfsetlayout)类的新实例。
+初始化[`EmfSetLayout`](../../emfsetlayout)类.
 
 ```csharp
 public EmfSetLayout(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfSetLayout(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 

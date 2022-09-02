@@ -1,14 +1,14 @@
 ---
 title: Horizontal
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее является ли этоOdLineToaspose.imaging.fileformats.opendocument.objects.graphic/odlinetoвертикальным.
+description: Получает или задает значение указывающее является ли этоOdLineToaspose.imaging.fileformats.opendocument.objects.graphic/odlineto вертикально.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/horizontal/
 ---
 ## OdLineTo.Horizontal property
 
-Получает или задает значение, указывающее, является ли это[`OdLineTo`](../../odlineto)вертикальным.
+Получает или задает значение, указывающее, является ли это[`OdLineTo`](../../odlineto) вертикально.
 
 ```csharp
 public bool Horizontal { get; set; }
@@ -16,7 +16,7 @@ public bool Horizontal { get; set; }
 
 ### Стоимость имущества
 
-` true` если вертикально; в противном случае` false` .
+`истинный` если вертикально; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Tags
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает теги.
+description: Получает или устанавливает теги.
 type: docs
 weight: 510
 url: /ru/net/aspose.imaging.imageoptions/tiffoptions/tags/
 ---
 ## TiffOptions.Tags property
 
-Получает или задает теги.
+Получает или устанавливает теги.
 
 ```csharp
 public TiffDataType[] Tags { get; set; }

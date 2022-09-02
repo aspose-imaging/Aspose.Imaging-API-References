@@ -1,14 +1,14 @@
 ---
 title: DngException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Класс исключений DNG
+description: Класс исключения DNG
 type: docs
 weight: 2510
 url: /ru/net/aspose.imaging.fileformats.dng/dngexception/
 ---
 ## DngException class
 
-Класс исключений DNG
+Класс исключения DNG
 
 ```csharp
 public class DngException : Exception

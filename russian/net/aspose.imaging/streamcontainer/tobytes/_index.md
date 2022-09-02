@@ -1,14 +1,14 @@
 ---
 title: ToBytes
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Преобразует данные потока в массивByte.
+description: Преобразует потоковые данные вByte массив.
 type: docs
 weight: 160
 url: /ru/net/aspose.imaging/streamcontainer/tobytes/
 ---
 ## ToBytes() {#tobytes}
 
-Преобразует данные потока в массивByte.
+Преобразует потоковые данные вByte массив.
 
 ```csharp
 public virtual byte[] ToBytes()
@@ -16,7 +16,7 @@ public virtual byte[] ToBytes()
 
 ### Возвращаемое значение
 
-Данные потока, преобразованные в массивByte.
+Потоковые данные, преобразованные в форматByte массив.
 
 ### Смотрите также
 
@@ -28,7 +28,7 @@ public virtual byte[] ToBytes()
 
 ## ToBytes(long, long) {#tobytes_1}
 
-Преобразует данные потока в массивByte.
+Преобразует потоковые данные вByte массив.
 
 ```csharp
 public virtual byte[] ToBytes(long position, long bytesCount)
@@ -37,11 +37,11 @@ public virtual byte[] ToBytes(long position, long bytesCount)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | position | Int64 | Позиция, с которой начинается чтение байтов. |
-| bytesCount | Int64 | Количество байтов для чтения. |
+| bytesCount | Int64 | Байты считаются для чтения. |
 
 ### Возвращаемое значение
 
-Данные потока преобразованы в массивByte.
+Потоковые данные, преобразованные в форматByte массив.
 
 ### Смотрите также
 

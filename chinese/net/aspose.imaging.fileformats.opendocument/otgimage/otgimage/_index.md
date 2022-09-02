@@ -1,14 +1,14 @@
 ---
 title: OtgImage
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化OtgImageaspose.imaging.fileformats.opendocument/otgimage类的新实例
+description: 初始化OtgImageaspose.imaging.fileformats.opendocument/otgimage类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.opendocument/otgimage/otgimage/
 ---
 ## OtgImage(StreamContainer, LoadOptions) {#constructor_1}
 
-初始化[`OtgImage`](../../otgimage)类的新实例。
+初始化[`OtgImage`](../../otgimage)类.
 
 ```csharp
 public OtgImage(StreamContainer streamContainer, LoadOptions loadOptions)
@@ -17,7 +17,7 @@ public OtgImage(StreamContainer streamContainer, LoadOptions loadOptions)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | streamContainer | StreamContainer | 流。 |
-| loadOptions | LoadOptions | 加载选项。 |
+| loadOptions | LoadOptions | 负载选项。 |
 
 ### 也可以看看
 
@@ -31,7 +31,7 @@ public OtgImage(StreamContainer streamContainer, LoadOptions loadOptions)
 
 ## OtgImage(StreamContainer) {#constructor}
 
-初始化[`OtgImage`](../../otgimage)类的新实例。
+初始化[`OtgImage`](../../otgimage)类.
 
 ```csharp
 public OtgImage(StreamContainer streamContainer)

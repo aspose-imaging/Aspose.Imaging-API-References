@@ -1,14 +1,14 @@
 ---
 title: CompoundLineData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает необязательный объект EmfPlusCompoundLineData раздел 2.2.2.9 который указывает массив значений с плавающей запятой которые определяют составная линия пера состоящая из параллельных линий и пробелов. Это поле ДОЛЖНО присутствовать если флаг PenDataCompoundLine установлен в поле PenDataFlags объекта EmfPlusPenData
+description: Получает или задает необязательный объект EmfPlusCompoundLineData раздел 2.2.2.9  указывающий массив значений с плавающей запятой определяющих составную линию пера состоящую из параллельных линий и пробелов. Это поле ДОЛЖНО присутствовать если флаг PenDataCompoundLine установлен в поле PenDataFlags объекта EmfPlusPenData object
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata/compoundlinedata/
 ---
 ## EmfPlusPenOptionalData.CompoundLineData property
 
-Получает или задает необязательный объект EmfPlusCompoundLineData (раздел 2.2.2.9) который указывает массив значений с плавающей запятой, которые определяют составная линия пера, состоящая из параллельных линий и пробелов. Это поле ДОЛЖНО присутствовать, если флаг PenDataCompoundLine установлен в поле PenDataFlags объекта EmfPlusPenData
+Получает или задает необязательный объект EmfPlusCompoundLineData (раздел 2.2.2.9) , указывающий массив значений с плавающей запятой, определяющих составную линию пера, состоящую из параллельных линий и пробелов. Это поле ДОЛЖНО присутствовать, если флаг PenDataCompoundLine установлен в поле PenDataFlags объекта EmfPlusPenData object
 
 ```csharp
 public EmfPlusCompoundLineData CompoundLineData { get; set; }

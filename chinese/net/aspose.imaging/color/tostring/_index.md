@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Imaging for .NET API 参考
-description: 将此Coloraspose.imaging/color结构转换为人类可读的字符串
+description: 转换这个Coloraspose.imaging/color结构为人类可读的字符串
 type: docs
 weight: 1610
 url: /zh/net/aspose.imaging/color/tostring/
 ---
 ## Color.ToString method
 
-将此[`Color`](../../color)结构转换为人类可读的字符串。
+转换这个[`Color`](../../color)结构为人类可读的字符串。
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-一个字符串，它是这个[`Color`](../../color)的名称，如果[`Color`](../../color)是通过使用[`FromName`](../fromname)方法或以下方法从预定义的颜色创建的[`FromKnownColor`](../fromknowncolor)方法；否则，一个由 ARGB 组件名称及其值组成的字符串。
+一个字符串，它是这个的名称[`Color`](../../color)，如果[`Color`](../../color)通过使用任一预定义颜色创建[`FromName`](../fromname)方法或[`FromKnownColor`](../fromknowncolor)方法;否则，一个由 ARGB 组件名称及其值组成的字符串。
 
 ### 也可以看看
 

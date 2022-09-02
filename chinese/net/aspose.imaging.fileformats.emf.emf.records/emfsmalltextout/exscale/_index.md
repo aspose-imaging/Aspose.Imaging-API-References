@@ -1,14 +1,14 @@
 ---
 title: ExScale
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位浮点值该值指定在 x 方向上缩放文本的程度
+description: 获取或设置一个 32 位浮点值指定在 x 方向上缩放文本的程度
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/exscale/
 ---
 ## EmfSmallTextOut.ExScale property
 
-获取或设置一个 32 位浮点值，该值指定在 x 方向上缩放文本的程度。
+获取或设置一个 32 位浮点值，指定在 x 方向上缩放文本的程度。
 
 ```csharp
 public float ExScale { get; set; }

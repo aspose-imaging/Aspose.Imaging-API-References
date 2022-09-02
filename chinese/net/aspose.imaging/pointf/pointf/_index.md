@@ -1,14 +1,14 @@
 ---
 title: PointF
 second_title: Aspose.Imaging for .NET API 参考
-description: 使用指定坐标初始化PointFaspose.imaging/pointf结构的新实例
+description: 初始化PointFaspose.imaging/pointf具有指定坐标的结构
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/pointf/pointf/
 ---
 ## PointF constructor
 
-使用指定坐标初始化[`PointF`](../../pointf)结构的新实例。
+初始化[`PointF`](../../pointf)具有指定坐标的结构。
 
 ```csharp
 public PointF(float x, float y)

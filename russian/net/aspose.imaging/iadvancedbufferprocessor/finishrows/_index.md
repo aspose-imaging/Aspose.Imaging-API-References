@@ -16,7 +16,7 @@ public void FinishRows(int rowsCount)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rowsCount | Int32 | Количество строк. |
+| rowsCount | Int32 | Ряды считаются. |
 
 ### Смотрите также
 

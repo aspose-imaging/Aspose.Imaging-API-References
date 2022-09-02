@@ -16,7 +16,7 @@ public void SetDocumentAncestors(string[] ancestors)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| предки | String[] | Предки. |
+| ancestors | String[] | Предки. |
 
 ### Смотрите также
 

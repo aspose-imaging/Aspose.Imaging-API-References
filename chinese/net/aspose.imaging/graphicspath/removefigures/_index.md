@@ -1,14 +1,14 @@
 ---
 title: RemoveFigures
 second_title: Aspose.Imaging for .NET API 参考
-description: 删除数字
+description: 删除人物
 type: docs
 weight: 140
 url: /zh/net/aspose.imaging/graphicspath/removefigures/
 ---
 ## GraphicsPath.RemoveFigures method
 
-删除数字。
+删除人物。
 
 ```csharp
 public void RemoveFigures(Figure[] figures)

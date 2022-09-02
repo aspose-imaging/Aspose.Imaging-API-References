@@ -1,14 +1,14 @@
 ---
 title: CdrVersion
 second_title: Aspose.Imaging for .NET API 参考
-description: cdr 版本
+description: cdr版本
 type: docs
 weight: 1830
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrversion/
 ---
 ## CdrVersion class
 
-cdr 版本
+cdr版本
 
 ```csharp
 public class CdrVersion : CdrObjectContainer
@@ -25,11 +25,11 @@ public class CdrVersion : CdrObjectContainer
 | 姓名 | 描述 |
 | --- | --- |
 | [Childs](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/childs) { get; } | 获取或设置对象。 |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示该实例是否被释放。 |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示此实例是否被释放。 |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | 获取或设置文档。 |
-| [Hidden](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/hidden) { get; set; } | 获取或设置一个值，该值指示此[`CdrObjectContainer`](../cdrobjectcontainer)是否可见。 |
+| [Hidden](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/hidden) { get; set; } | 获取或设置一个值，该值指示是否[`CdrObjectContainer`](../cdrobjectcontainer)可见。 |
 | [LastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/lastchild) { get; set; } | 获取或设置最后一个孩子。 |
-| [LoadToLastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/loadtolastchild) { get; set; } | 获取或设置一个值，该值指示是否 [load to last child]。 |
+| [LoadToLastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/loadtolastchild) { get; set; } | 获取或设置一个值，该值指示是否 [load to last child]. |
 | [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | 获取或设置父级。 |
 | [Version](../../aspose.imaging.fileformats.cdr.objects/cdrversion/version) { get; set; } | 获取或设置版本。 |
 
@@ -38,7 +38,7 @@ public class CdrVersion : CdrObjectContainer
 | 姓名 | 描述 |
 | --- | --- |
 | [AddChildObject](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/addchildobject)(CdrObject) | 添加子对象。 |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 释放当前实例。 |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 处理当前实例。 |
 | [InsertObject](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/insertobject)(CdrObject) | 插入对象 |
 
 ### 也可以看看

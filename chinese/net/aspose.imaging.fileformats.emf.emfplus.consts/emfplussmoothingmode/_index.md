@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSmoothingMode
 second_title: Aspose.Imaging for .NET API 参考
-description: SmoothingMode 枚举定义了应用于线条曲线和填充区域边缘的平滑模式以使它们看起来更连续或更清晰
+description: SmoothingMode 枚举定义平滑模式以应用于线条曲线和填充区域的边缘以使它们看起来更连续或更清晰
 type: docs
 weight: 5050
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.consts/emfplussmoothingmode/
 ---
 ## EmfPlusSmoothingMode enumeration
 
-SmoothingMode 枚举定义了应用于线条、曲线和填充区域边缘的平滑模式，以使它们看起来更连续或更清晰。
+SmoothingMode 枚举定义平滑模式以应用于线条、曲线和填充区域的边缘，以使它们看起来更连续或更清晰。
 
 ```csharp
 public enum EmfPlusSmoothingMode : byte

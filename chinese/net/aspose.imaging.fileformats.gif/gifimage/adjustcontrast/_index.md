@@ -16,13 +16,13 @@ public override void AdjustContrast(float contrast)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| contrast | Single | 对比度值（在 [-100; 100] 范围内） |
+| contrast | Single | 对比度值（范围 [-100; 100]） |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [ImageException](../../../aspose.imaging.coreexceptions/imageexception) | 无法更改对比度。帧索引:" + frameIndex |
+| [ImageException](../../../aspose.imaging.coreexceptions/imageexception) | 不能改变对比度。帧索引：" + frameIndex |
 
 ### 例子
 
@@ -37,8 +37,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"
 {
     Aspose.Imaging.FileFormats.Gif.GifImage gifImage = (Aspose.Imaging.FileFormats.Gif.GifImage)image;
 
-    // 设置对比度值。可接受的对比度值在 [-100f, 100f].
- 范围内
+    // 设置对比度值。可接受的对比度值在 [-100f, 100f] 范围内。
     gifImage.AdjustContrast(50f);
     gifImage.Save(dir + "sample.AdjustContrast.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }

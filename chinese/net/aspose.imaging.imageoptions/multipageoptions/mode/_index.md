@@ -16,7 +16,7 @@ public MultiPageMode Mode { get; set; }
 
 ### 适当的价值
 
-模式。
+模式.
 
 ### 也可以看看
 

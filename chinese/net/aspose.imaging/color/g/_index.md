@@ -1,14 +1,14 @@
 ---
 title: G
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取此Coloraspose.imaging/color结构的绿色分量值
+description: 获取此的绿色分量值Coloraspose.imaging/color结构.
 type: docs
 weight: 1480
 url: /zh/net/aspose.imaging/color/g/
 ---
 ## Color.G property
 
-获取此[`Color`](../../color)结构的绿色分量值。
+获取此的绿色分量值[`Color`](../../color)结构.
 
 ```csharp
 public byte G { get; }
@@ -16,7 +16,7 @@ public byte G { get; }
 
 ### 适当的价值
 
-这个[`Color`](../../color)的绿色分量值。
+这个的绿色分量值[`Color`](../../color).
 
 ### 也可以看看
 

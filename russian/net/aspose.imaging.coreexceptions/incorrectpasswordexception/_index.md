@@ -18,8 +18,8 @@ public class IncorrectPasswordException : Exception
 
 | Имя | Описание |
 | --- | --- |
-| [IncorrectPasswordException](incorrectpasswordexception#constructor)(string) | Инициализирует новый экземпляр класса[`IncorrectPasswordException`](../incorrectpasswordexception). |
-| [IncorrectPasswordException](incorrectpasswordexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр класса[`IncorrectPasswordException`](../incorrectpasswordexception). |
+| [IncorrectPasswordException](incorrectpasswordexception#constructor)(string) | Инициализирует новый экземпляр[`IncorrectPasswordException`](../incorrectpasswordexception) класс. |
+| [IncorrectPasswordException](incorrectpasswordexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр[`IncorrectPasswordException`](../incorrectpasswordexception) класс. |
 
 ### Смотрите также
 

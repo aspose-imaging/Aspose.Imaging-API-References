@@ -17,7 +17,7 @@ public static Image Load(string filePath, LoadOptions loadOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | filePath | String | Путь к файлу для загрузки изображения. |
-| loadOptions | LoadOptions | Параметры загрузки. |
+| loadOptions | LoadOptions | Варианты загрузки. |
 
 ### Возвращаемое значение
 
@@ -50,15 +50,15 @@ public static Image Load(string filePath)
 
 ### Примеры
 
-В этом примере демонстрируется загрузка существующего файла изображения в экземпляр Aspose.Imaging.Image с использованием указанного пути к файлу
+В этом примере демонстрируется загрузка существующего файла изображения в экземпляр Aspose.Imaging.Image с использованием указанного пути к файлу.
 
 ```csharp
 [C#]
 
- //Создаем экземпляр образа и инициализируем его существующим файлом образа с диска location
+//Создаем экземпляр образа и инициализируем его существующим файлом образа с диска
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"C:\temp\sample.bmp"))
 {
-     // сделать некоторую обработку изображения
+    // делаем некоторую обработку изображения
 }
 ```
 
@@ -81,7 +81,7 @@ public static Image Load(Stream stream, LoadOptions loadOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток, из которого загружается изображение. |
-| loadOptions | LoadOptions | Параметры загрузки. |
+| loadOptions | LoadOptions | Варианты загрузки. |
 
 ### Возвращаемое значение
 
@@ -106,7 +106,7 @@ public static Image Load(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, из которого загружается изображение. |
+| stream | Stream | Поток для загрузки изображения. |
 
 ### Возвращаемое значение
 
@@ -114,18 +114,18 @@ public static Image Load(Stream stream)
 
 ### Примеры
 
-Этот пример демонстрирует использование объектов System.IO.Stream для загрузки существующего файла изображения
+В этом примере демонстрируется использование объектов System.IO.Stream для загрузки существующего файла изображения.
 
 ```csharp
 [C#]
 
- //Создаем экземпляр FileStream
+//Создаем экземпляр FileStream
 using (System.IO.FileStream stream = new System.IO.FileStream(@"C:\temp\sample.bmp", System.IO.FileMode.Open))
 {
-     //Создаем экземпляр класса Image и загружаем существующий файл через объект FileStream, вызвав метод Load method
+    //Создаем экземпляр класса Image и загружаем существующий файл через объект FileStream, вызывая метод Load
     using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(stream))
     {
-         // делаем некоторую обработку изображения.
+        // делаем некоторую обработку изображения.
     }
 }
 ```

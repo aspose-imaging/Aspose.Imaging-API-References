@@ -1,14 +1,14 @@
 ---
 title: Interlaced
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值该值指示此GifFrameBlockaspose.imaging.fileformats.gif.blocks/gifframeblock是否是隔行扫描的
+description: 获取或设置一个值该值指示是否GifFrameBlockaspose.imaging.fileformats.gif.blocks/gifframeblock是隔行扫描的
 type: docs
 weight: 140
 url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifframeblock/interlaced/
 ---
 ## GifFrameBlock.Interlaced property
 
-获取或设置一个值，该值指示此[`GifFrameBlock`](../../gifframeblock)是否是隔行扫描的。
+获取或设置一个值，该值指示是否[`GifFrameBlock`](../../gifframeblock)是隔行扫描的。
 
 ```csharp
 public bool Interlaced { get; set; }
@@ -16,7 +16,7 @@ public bool Interlaced { get; set; }
 
 ### 适当的价值
 
-` true` 如果隔行扫描；否则，` false` 。
+`真的`如果交错；否则，`错误的` .
 
 ### 也可以看看
 

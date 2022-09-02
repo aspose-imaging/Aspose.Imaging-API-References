@@ -1,14 +1,14 @@
 ---
 title: TiffRationalType
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化TiffRationalTypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffrationaltype类的新实例
+description: 初始化TiffRationalTypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffrationaltype类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffrationaltype/tiffrationaltype/
 ---
 ## TiffRationalType(TiffTags) {#constructor}
 
-初始化[`TiffRationalType`](../../tiffrationaltype)类的新实例。
+初始化[`TiffRationalType`](../../tiffrationaltype)类.
 
 ```csharp
 public TiffRationalType(TiffTags tagId)
@@ -16,7 +16,7 @@ public TiffRationalType(TiffTags tagId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tagId | TiffTags | 标签 ID。 |
+| tagId | TiffTags | 标签标识。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public TiffRationalType(TiffTags tagId)
 
 ## TiffRationalType(ushort) {#constructor_1}
 
-初始化[`TiffRationalType`](../../tiffrationaltype)类的新实例。
+初始化[`TiffRationalType`](../../tiffrationaltype)类.
 
 ```csharp
 public TiffRationalType(ushort tagId)
@@ -37,7 +37,7 @@ public TiffRationalType(ushort tagId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tagId | UInt16 | 标签 ID。 |
+| tagId | UInt16 | 标签标识。 |
 
 ### 也可以看看
 

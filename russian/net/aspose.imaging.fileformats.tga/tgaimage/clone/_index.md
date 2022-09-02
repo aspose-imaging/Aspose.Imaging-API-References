@@ -28,7 +28,7 @@ public TgaImage Clone()
 
 ## Clone(TgaImage) {#clone_1}
 
-Клонировать другие[`TgaImage`](../../tgaimage)свойства объекта.
+Клонировать другое[`TgaImage`](../../tgaimage) свойства объекта.
 
 ```csharp
 public void Clone(TgaImage tgaImage)
@@ -36,7 +36,7 @@ public void Clone(TgaImage tgaImage)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| tgaImage | TgaImage | Другое[`TgaImage`](../../tgaimage) |
+| tgaImage | TgaImage | Другой[`TgaImage`](../../tgaimage) |
 
 ### Смотрите также
 

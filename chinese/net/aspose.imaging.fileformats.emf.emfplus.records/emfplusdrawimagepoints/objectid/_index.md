@@ -1,14 +1,14 @@
 ---
 title: ObjectId
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置对象标识符 EmfPlusImage 对象第 2.2.1.4 节在 EMF 对象表中的索引它指定要渲染的图像该值必须是 0 到 63含
+description: 获取或设置对象标识符 EmfPlusImage 对象第 2.2.1.4 节在 EMF 对象表中的索引它指定要渲染的图像该值必须是 0 到 63包括在内
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimagepoints/objectid/
 ---
 ## EmfPlusDrawImagePoints.ObjectId property
 
-获取或设置对象标识符。 EmfPlusImage 对象（第 2.2.1.4 节）在 EMF+ 对象表中的索引，它指定要渲染的图像。该值必须是 0 到 63（含）。
+获取或设置对象标识符。 EmfPlusImage 对象（第 2.2.1.4 节）在 EMF+ 对象表中的索引，它指定要渲染的图像。该值必须是 0 到 63，包括在内。
 
 ```csharp
 public byte ObjectId { get; set; }

@@ -16,7 +16,7 @@ public int BppScale { get; set; }
 
 ### 适当的价值
 
-BPP 标度。
+BPP 规模。
 
 ### 也可以看看
 

@@ -18,14 +18,14 @@ public sealed class EmfCommentEmfPlus : EmfCommentRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfCommentEmfPlus](emfcommentemfplus)(EmfRecord) | 初始化[`EmfCommentEmfPlus`](../emfcommentemfplus)类的新实例。 |
+| [EmfCommentEmfPlus](emfcommentemfplus)(EmfRecord) | 初始化[`EmfCommentEmfPlus`](../emfcommentemfplus)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | override [CommentIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentemfplus/commentidentifier) { get; set; } | 获取或设置一个 32 位无符号整数，用于标识此评论记录 包含 EMF+ 记录。值 0x2B464D45，即 ASCII 字符串“+FME”， 将其标识为 EMR_COMMENT_EMFPLUS 记录。 |
-| [DataSize](../../aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，它指定 RecordBuffer 字段中 CommentIdentifier 和 CommentRecordParm 字段的大小（以字节为单位） 如下。如果 存在 |
+| [DataSize](../../aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，它指定 后面的 RecordBuffer 字段中的 CommentIdentifier 和 CommentRecordParm 字段的大小（以字节为单位）。如果 present 它不能包含自身的大小或 AlignmentPadding 字段的大小 |
 | [EmfPlusRecords](../../aspose.imaging.fileformats.emf.emf.records/emfcommentemfplus/emfplusrecords) { get; set; } | 获取或设置包含一个或多个 EMF+ 记录的字节数组（[MS-EMFPLUS] 第 2.3.1 节）。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |

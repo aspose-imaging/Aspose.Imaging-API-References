@@ -22,30 +22,30 @@ public void AddPage(RasterImage page)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *page*равно null. |
+| ArgumentNullException | *page* нулевой. |
 
 ### Примеры
 
-Создание многостраничного GIF-изображения с использованием одностраничных растровых изображений.
+Создайте многостраничное изображение GIF, используя одностраничные растровые изображения.
 
 ```csharp
 [C#]
 
 static void Main(string[] args)
 {
-     // Загрузить кадры
+    // Загружаем фреймы
     var frames = LoadFrames("Animation frames").ToArray();
 
-     // Создаем GIF-изображение, используя первый frame
+    // Создаем GIF-изображение, используя первый кадр
     using (var image = new GifImage(new GifFrameBlock(frames[0])))
     {
-         // Добавляем кадры к GIF-изображению с помощью метода AddPage
+        // Добавляем кадры к GIF-изображению с помощью метода AddPage
         for (var index = 1; index < frames.Length; index++)
         {
             image.AddPage(frames[index]);
         }
 
-         // Сохранить GIF image
+        // Сохранить GIF-изображение
         image.Save("Multipage.gif");
     }
 }

@@ -1,14 +1,14 @@
 ---
 title: OnPageExportedAction
 second_title: Aspose.Imaging for .NET API 参考
-description: 页面导出时触发
+description: 页面导出时触发的委托
 type: docs
 weight: 2470
 url: /zh/net/aspose.imaging.fileformats.djvu/onpageexportedaction/
 ---
 ## OnPageExportedAction delegate
 
-页面导出时触发
+页面导出时触发的委托
 
 ```csharp
 public delegate void OnPageExportedAction(DjvuPage page);
@@ -16,7 +16,7 @@ public delegate void OnPageExportedAction(DjvuPage page);
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| page | DjvuPage | 页面被导出到 |
+| page | DjvuPage | 导出到的页面 |
 
 ### 也可以看看
 

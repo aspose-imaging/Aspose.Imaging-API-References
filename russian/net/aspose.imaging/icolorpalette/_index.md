@@ -19,7 +19,7 @@ public interface IColorPalette
 | Имя | Описание |
 | --- | --- |
 | [Argb32Entries](../../aspose.imaging/icolorpalette/argb32entries) { get; } | Получает массив 32-битных структур ARGB. |
-| [Entries](../../aspose.imaging/icolorpalette/entries) { get; } | Получает массив структур[`Color`](../color). |
+| [Entries](../../aspose.imaging/icolorpalette/entries) { get; } | Получает массив[`Color`](../color) структуры. |
 | [EntriesCount](../../aspose.imaging/icolorpalette/entriescount) { get; } | Получает количество записей. |
 | [IsCompactPalette](../../aspose.imaging/icolorpalette/iscompactpalette) { get; } | Получает значение, указывающее, используется ли компактная палитра. |
 

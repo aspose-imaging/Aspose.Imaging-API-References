@@ -1,14 +1,14 @@
 ---
 title: ArcDirection
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定圆弧方向的 32 位无符号整数值 必须在 ArcDirection 枚举中第 2.1.2 节 默认方向是逆时针方向
+description: 获取或设置指定圆弧方向的 32 位无符号整数 value 必须在 ArcDirection 枚举中第 2.1.2 节 默认方向是逆时针方向
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetarcdirection/arcdirection/
 ---
 ## EmfSetArcDirection.ArcDirection property
 
-获取或设置指定圆弧方向的 32 位无符号整数。值 必须在 ArcDirection 枚举中（第 2.1.2 节）。 默认方向是逆时针方向。
+获取或设置指定圆弧方向的 32 位无符号整数。 value 必须在 ArcDirection 枚举中（第 2.1.2 节）。 默认方向是逆时针方向。
 
 ```csharp
 public EmfArcDirection ArcDirection { get; set; }

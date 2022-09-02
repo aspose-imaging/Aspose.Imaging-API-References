@@ -25,7 +25,7 @@ public class WmfExtFloodFill : WmfFloodFill
 | Имя | Описание |
 | --- | --- |
 | [ColorRef](../../aspose.imaging.fileformats.wmf.objects/wmffloodfill/colorref) { get; set; } | Получает или задает ссылку на цвет. |
-| [Mode](../../aspose.imaging.fileformats.wmf.objects/wmfextfloodfill/mode) { get; set; } | Получает или задает режим. |
+| [Mode](../../aspose.imaging.fileformats.wmf.objects/wmfextfloodfill/mode) { get; set; } | Получает или устанавливает режим. |
 | [XStart](../../aspose.imaging.fileformats.wmf.objects/wmffloodfill/xstart) { get; set; } | Получает или задает начало x. |
 | [YStart](../../aspose.imaging.fileformats.wmf.objects/wmffloodfill/ystart) { get; set; } | Получает или задает начало y. |
 

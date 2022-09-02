@@ -1,14 +1,14 @@
 ---
 title: APoints
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив длины счетчика объектов WMF PointS указанный в MS-WMF раздел 2.2.2.16 который определяет массив точек.
+description: Получает или задает массив Count длины объектов WMF PointS указанный в MS-WMF  раздел 2.2.2.16 который определяет массив точек.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon16/apoints/
 ---
 ## EmfPolyPolygon16.APoints property
 
-Получает или задает массив длины счетчика объектов WMF PointS, указанный в [MS-WMF] раздел 2.2.2.16, который определяет массив точек.
+Получает или задает массив Count длины объектов WMF PointS, указанный в [MS-WMF] , раздел 2.2.2.16, который определяет массив точек.
 
 ```csharp
 public Point[][] APoints { get; set; }

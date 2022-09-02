@@ -1,14 +1,14 @@
 ---
 title: GetCloseImagePalette
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает цветовую палитру из растрового изображения палетизирует изображение если у изображения его нет. Если палитра существует она будет использоваться вместо выполнения вычислений.
+description: Получает цветовую палитру из растрового изображения палетизирует изображение если у изображения ее нет. Если палитра существует она будет использоваться вместо выполнения вычислений.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging/colorpalettehelper/getcloseimagepalette/
 ---
 ## GetCloseImagePalette(RasterImage, int) {#getcloseimagepalette_3}
 
-Получает цветовую палитру из растрового изображения (палетизирует изображение), если у изображения его нет. Если палитра существует, она будет использоваться вместо выполнения вычислений.
+Получает цветовую палитру из растрового изображения (палетизирует изображение), если у изображения ее нет. Если палитра существует, она будет использоваться вместо выполнения вычислений.
 
 ```csharp
 public static IColorPalette GetCloseImagePalette(RasterImage image, int entriesCount)
@@ -17,11 +17,11 @@ public static IColorPalette GetCloseImagePalette(RasterImage image, int entriesC
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | image | RasterImage | Растровое изображение. |
-| entriesCount | Int32 | Количество требуемых записей. |
+| entriesCount | Int32 | Желаемые записи учитываются. |
 
 ### Возвращаемое значение
 
-Цветовая палитра, которая начинается с наиболее часто встречающихся цветов из*изображения*и содержит*entriesCount*записей.
+Цветовая палитра, которая начинается с наиболее часто встречающихся цветов из*image* и содержит*entriesCount* записи.
 
 ### Примеры
 
@@ -30,46 +30,31 @@ public static IColorPalette GetCloseImagePalette(RasterImage image, int entriesC
 ```csharp
 [C#]
 
- // Создаем изображение BMP 100 x 100 px.
-using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100))
+string dir = "c:\\temp\\";
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
 {
-     // Линейный градиент от левого верхнего до правого нижнего угла изображения.
-    Aspose.Imaging.Brushes.LinearGradientBrush brush =
-        new Aspose.Imaging.Brushes.LinearGradientBrush(
-            new Aspose.Imaging.Point(0, 0),
-            new Aspose.Imaging.Point(bmpImage.Width, bmpImage.Height),
-            Aspose.Imaging.Color.Red,
-            Aspose.Imaging.Color.Green);
+    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-     // Заливаем всё изображение кистью линейного градиента.
-    Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(bmpImage);
-    gr.FillRectangle(brush, bmpImage.Bounds);
-
-     // Получить ближайшую 8-битную цветовую палитру, покрывающую максимально возможное количество пикселей, чтобы палитра image
-     // визуально практически неотличим от не палетированного.
-    Aspose.Imaging.IColorPalette palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(bmpImage, 256);
-
-     // 8-битная палитра содержит не более 256 цветов.
+    // Создать BmpOptions
     Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
-    saveOptions.Palette = palette;
+
+    // Используйте 8 бит на пиксель, чтобы уменьшить размер выходного изображения.
     saveOptions.BitsPerPixel = 8;
 
-    using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
-    {
-        bmpImage.Save(stream, saveOptions);
-        System.Console.WriteLine("The palettized image size is {0} bytes.", stream.Length);
-    }
+    // Устанавливаем ближайшую 8-битную цветовую палитру, которая покрывает максимальное количество пикселей изображения, чтобы изображение с палитрой
+    // визуально практически неотличим от не палетированного.
+    saveOptions.Palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(rasterImage, 256);
 
-    using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
-    {
-        bmpImage.Save(stream);
-        System.Console.WriteLine("The non-palettized image size is {0} bytes.", stream.Length);
-    }
+    // Сохранить без сжатия.
+    // Вы также можете использовать сжатие RLE-8, чтобы уменьшить размер выходного изображения.
+    saveOptions.Compression = Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb;
+
+    // Установите разрешение по горизонтали и вертикали на 96 dpi.
+    saveOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
+
+    image.Save(dir + "sample.bmpoptions.bmp", saveOptions);
 }
-
- // Вывод выглядит следующим образом: 
- // Размер палетированного изображения 11078 байт.
-// Размер изображения без палитры составляет 40054 байта.
 ```
 
 В следующем примере показано, как разместить изображение BMP на поддонах, чтобы уменьшить его выходной размер.
@@ -77,10 +62,10 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
 ```csharp
 [C#]
 
- // Создаем изображение BMP 100 x 100 px.
+// Создаем BMP-изображение 100 x 100 пикселей.
 using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100))
 {
-     // Линейный градиент от левого верхнего до правого нижнего угла изображения.
+    // Линейный градиент от левого верхнего до правого нижнего угла изображения.
     Aspose.Imaging.Brushes.LinearGradientBrush brush =
         new Aspose.Imaging.Brushes.LinearGradientBrush(
             new Aspose.Imaging.Point(0, 0),
@@ -88,15 +73,15 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
             Aspose.Imaging.Color.Red,
             Aspose.Imaging.Color.Green);
 
-     // Заливаем всё изображение кистью линейного градиента.
+    // Залейте все изображение кистью линейного градиента.
     Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(bmpImage);
     gr.FillRectangle(brush, bmpImage.Bounds);
 
-     // Получить ближайшую 8-битную цветовую палитру, покрывающую максимально возможное количество пикселей, чтобы палитра image
-     // визуально практически неотличим от не палетированного.
+    // Получаем ближайшую 8-битную цветовую палитру, покрывающую максимально возможное количество пикселей, чтобы изображение с палитрой
+    // визуально практически неотличим от не палетированного.
     Aspose.Imaging.IColorPalette palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(bmpImage, 256);
 
-     // 8-битная палитра содержит не более 256 цветов.
+    // 8-битная палитра содержит не более 256 цветов.
     Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
     saveOptions.Palette = palette;
     saveOptions.BitsPerPixel = 8;
@@ -114,8 +99,8 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
     }
 }
 
- // Вывод выглядит следующим образом: 
- // Размер палетированного изображения 11078 байт.
+// Вывод выглядит так:
+// Размер изображения с палитрой составляет 11078 байт.
 // Размер изображения без палитры составляет 40054 байта.
 ```
 
@@ -131,7 +116,7 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
 
 ## GetCloseImagePalette(RasterImage, int, PaletteMiningMethod) {#getcloseimagepalette_4}
 
-Получает цветовую палитру из растрового изображения (палетизирует изображение), если у изображения его нет. Палитра будет оптимизирована для лучшего качества индексированного изображения или будет взята «КАК ЕСТЬ» при использовании PaletteMiningMethod.UseCurrentPalette.
+Получает цветовую палитру из растрового изображения (палетизирует изображение), если у изображения его нет. Палитра будет оптимизирована для лучшего качества индексированного изображения или будет взята «КАК ЕСТЬ», когда используется PaletteMiningMethod.UseCurrentPalette.
 
 ```csharp
 public static IColorPalette GetCloseImagePalette(RasterImage image, int entriesCount, 
@@ -141,21 +126,21 @@ public static IColorPalette GetCloseImagePalette(RasterImage image, int entriesC
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | image | RasterImage | Растровое изображение. |
-| entriesCount | Int32 | Количество требуемых записей. |
-| paletteMiningMethod | PaletteMiningMethod | Метод извлечения палитры. |
+| entriesCount | Int32 | Желаемые записи учитываются. |
+| paletteMiningMethod | PaletteMiningMethod | Метод добычи палитры. |
 
 ### Возвращаемое значение
 
-Цветовая палитра, которая начинается с наиболее часто встречающихся цветов из*изображения*и содержит*entriesCount*записей.
+Цветовая палитра, которая начинается с наиболее часто встречающихся цветов из*image* и содержит*entriesCount* записи.
 
 ### Примеры
 
-В следующем примере показано, как сжать изображение PNG с использованием индексированного цвета с палитрой наилучшего соответствия
+В следующем примере показано, как сжать изображение PNG с использованием индексированного цвета с палитрой наилучшего соответствия.
 
 ```csharp
 [C#]
 
- // Загружает png изображение 
+// Загружаем png изображение        
     string  sourceFilePath="OriginalRings.png";
     string  outputFilePath="OriginalRingsOutput.png";
     using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(sourceFilePath))
@@ -163,12 +148,12 @@ public static IColorPalette GetCloseImagePalette(RasterImage image, int entriesC
     image.Save(outputFilePath, new Aspose.Imaging.ImageOptions.PngOptions()
     {
          Progressive = true,
-              // Использовать индексированный цвет type
+             // Использовать индексированный тип цвета
          ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.IndexedColor,
-              // Использовать максимальное сжатие
+             // Использовать максимальное сжатие
          CompressionLevel = 9,
-       // Получить ближайшую 8-битную цветовую палитру, покрывающую максимально возможное количество пикселей, чтобы палитра image
-          // визуально практически неотличим от не палетированного.
+      // Получаем ближайшую 8-битную цветовую палитру, покрывающую максимально возможное количество пикселей, чтобы изображение с палитрой
+         // визуально практически неотличим от не палетированного.
          Palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette((Aspose.Imaging.RasterImage)image, 256, Aspose.Imaging.PaletteMiningMethod.Histogram)
     });
 }
@@ -188,7 +173,7 @@ public static IColorPalette GetCloseImagePalette(RasterImage image, int entriesC
 
 ## GetCloseImagePalette(RasterImage, Rectangle, int) {#getcloseimagepalette}
 
-Получает цветовую палитру из растрового изображения (палетизирует изображение), если у изображения его нет. Если палитра существует, она будет использоваться вместо выполнения вычислений.
+Получает цветовую палитру из растрового изображения (палетизирует изображение), если у изображения ее нет. Если палитра существует, она будет использоваться вместо выполнения вычислений.
 
 ```csharp
 public static IColorPalette GetCloseImagePalette(RasterImage image, Rectangle destBounds, 
@@ -199,11 +184,11 @@ public static IColorPalette GetCloseImagePalette(RasterImage image, Rectangle de
 | --- | --- | --- |
 | image | RasterImage | Растровое изображение. |
 | destBounds | Rectangle | Границы целевого изображения. |
-| entriesCount | Int32 | Количество требуемых записей. |
+| entriesCount | Int32 | Желаемые записи учитываются. |
 
 ### Возвращаемое значение
 
-Цветовая палитра, которая начинается с наиболее часто встречающихся цветов из*изображения*и содержит*entriesCount*записей.
+Цветовая палитра, которая начинается с наиболее часто встречающихся цветов из*image* и содержит*entriesCount* записи.
 
 ### Смотрите также
 
@@ -218,7 +203,7 @@ public static IColorPalette GetCloseImagePalette(RasterImage image, Rectangle de
 
 ## GetCloseImagePalette(RasterImage, Rectangle, int, bool) {#getcloseimagepalette_1}
 
-Получает цветовую палитру из растрового изображения (палетизирует изображение), если у изображения его нет. Если палитра существует, она будет использоваться вместо выполнения вычислений.
+Получает цветовую палитру из растрового изображения (палетизирует изображение), если у изображения ее нет. Если палитра существует, она будет использоваться вместо выполнения вычислений.
 
 ```csharp
 public static IColorPalette GetCloseImagePalette(RasterImage image, Rectangle destBounds, 
@@ -229,12 +214,12 @@ public static IColorPalette GetCloseImagePalette(RasterImage image, Rectangle de
 | --- | --- | --- |
 | image | RasterImage | Растровое изображение. |
 | destBounds | Rectangle | Границы целевого изображения. |
-| entriesCount | Int32 | Количество требуемых записей. |
-| useImagePalette | Boolean | Если установлено, будет использоваться собственная палитра изображений, если она доступна |
+| entriesCount | Int32 | Желаемые записи учитываются. |
+| useImagePalette | Boolean | Если установлено, будет использоваться собственная палитра изображений, если она доступна. |
 
 ### Возвращаемое значение
 
-Цветовая палитра, которая начинается с наиболее часто встречающихся цветов из*image*и содержит элементы*entriesCount*.
+Цветовая палитра, которая начинается с наиболее часто встречающихся цветов из*image* и содержит*entriesCount* записи.
 
 ### Смотрите также
 
@@ -249,7 +234,7 @@ public static IColorPalette GetCloseImagePalette(RasterImage image, Rectangle de
 
 ## GetCloseImagePalette(RasterImage, Rectangle, int, bool, Color) {#getcloseimagepalette_2}
 
-Получает цветовую палитру из растрового изображения (палетизирует изображение), если у изображения его нет. Если палитра существует, она будет использоваться вместо выполнения вычислений.
+Получает цветовую палитру из растрового изображения (палетизирует изображение), если у изображения ее нет. Если палитра существует, она будет использоваться вместо выполнения вычислений.
 
 ```csharp
 public static IColorPalette GetCloseImagePalette(RasterImage image, Rectangle destBounds, 
@@ -260,13 +245,13 @@ public static IColorPalette GetCloseImagePalette(RasterImage image, Rectangle de
 | --- | --- | --- |
 | image | RasterImage | Растровое изображение. |
 | destBounds | Rectangle | Границы целевого изображения. |
-| entriesCount | Int32 | Количество требуемых записей. |
-| useImagePalette | Boolean | Если установлено, будет использоваться собственная палитра изображений, если она доступна |
-| alphaBlendInColor | Color | Цвет который следует использовать в качестве цвета фона для полупрозрачной альфа-замены. |
+| entriesCount | Int32 | Желаемые записи учитываются. |
+| useImagePalette | Boolean | Если установлено, будет использоваться собственная палитра изображений, если она доступна. |
+| alphaBlendInColor | Color | Цвет, который следует использовать в качестве цвета фона для полупрозрачной альфа-замены. |
 
 ### Возвращаемое значение
 
-Цветовая палитра, которая начинается с наиболее часто встречающихся цветов из*изображения*и содержит*entriesCount*записей.
+Цветовая палитра, которая начинается с наиболее часто встречающихся цветов из*image* и содержит*entriesCount* записи.
 
 ### Смотрите также
 

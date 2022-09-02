@@ -17,7 +17,7 @@ public float[] ReadFloatArray(long position, long count)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | position | Int64 | Позиция для чтения. |
-| count | Int64 | Количество элементов. |
+| count | Int64 | Элементы считаются. |
 
 ### Возвращаемое значение
 

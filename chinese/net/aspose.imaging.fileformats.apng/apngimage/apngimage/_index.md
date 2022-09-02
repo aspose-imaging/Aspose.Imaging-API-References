@@ -1,14 +1,14 @@
 ---
 title: ApngImage
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化ApngImageaspose.imaging.fileformats.apng/apngimage类的新实例
+description: 初始化ApngImageaspose.imaging.fileformats.apng/apngimage类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.apng/apngimage/apngimage/
 ---
 ## ApngImage constructor
 
-初始化[`ApngImage`](../../apngimage)类的新实例。
+初始化[`ApngImage`](../../apngimage)类.
 
 ```csharp
 public ApngImage(ApngOptions options, int width, int height)

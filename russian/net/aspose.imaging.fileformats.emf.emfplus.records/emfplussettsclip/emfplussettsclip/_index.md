@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSetTsClip
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusSetTsClipaspose.imaging.fileformats.emf.emfplus.records/emfplussettsclip.
+description: Инициализирует новый экземплярEmfPlusSetTsClipaspose.imaging.fileformats.emf.emfplus.records/emfplussettsclip класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsclip/emfplussettsclip/
 ---
 ## EmfPlusSetTsClip constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusSetTsClip`](../../emfplussettsclip).
+Инициализирует новый экземпляр[`EmfPlusSetTsClip`](../../emfplussettsclip) класс.
 
 ```csharp
 public EmfPlusSetTsClip(EmfPlusRecord source)

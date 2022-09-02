@@ -1,14 +1,14 @@
 ---
 title: GetEmbeddedImages
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает внедренные изображения.
+description: Получает встроенные изображения.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging/vectormultipageimage/getembeddedimages/
 ---
 ## VectorMultipageImage.GetEmbeddedImages method
 
-Получает внедренные изображения.
+Получает встроенные изображения.
 
 ```csharp
 public override EmbeddedImage[] GetEmbeddedImages()

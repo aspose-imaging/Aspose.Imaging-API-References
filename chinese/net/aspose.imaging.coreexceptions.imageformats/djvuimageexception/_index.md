@@ -18,8 +18,8 @@ public class DjvuImageException : ImageException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DjvuImageException](djvuimageexception#constructor)(string) | 初始化[`DjvuImageException`](../djvuimageexception)类的新实例。 |
-| [DjvuImageException](djvuimageexception#constructor_1)(string, Exception) | 初始化[`DjvuImageException`](../djvuimageexception)类的新实例。 |
+| [DjvuImageException](djvuimageexception#constructor)(string) | 初始化[`DjvuImageException`](../djvuimageexception)类. |
+| [DjvuImageException](djvuimageexception#constructor_1)(string, Exception) | 初始化[`DjvuImageException`](../djvuimageexception)类. |
 
 ### 也可以看看
 

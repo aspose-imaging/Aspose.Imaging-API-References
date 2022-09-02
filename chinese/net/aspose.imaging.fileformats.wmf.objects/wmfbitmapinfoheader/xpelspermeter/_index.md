@@ -1,14 +1,14 @@
 ---
 title: XPelsPerMeter
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位有符号整数用于定义目标 设备的水平分辨率以每米像素为单位 DIB
+description: 获取或设置一个 32 位有符号整数用于定义 DIB 的 target 设备的水平分辨率以每米像素为单位
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfbitmapinfoheader/xpelspermeter/
 ---
 ## WmfBitmapInfoHeader.XPelsPerMeter property
 
-获取或设置一个 32 位有符号整数，用于定义目标 设备的水平分辨率（以每米像素为单位） DIB
+获取或设置一个 32 位有符号整数，用于定义 DIB 的 target 设备的水平分辨率（以每米像素为单位）
 
 ```csharp
 public int XPelsPerMeter { get; set; }

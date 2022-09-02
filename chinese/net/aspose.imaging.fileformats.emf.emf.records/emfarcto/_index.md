@@ -18,17 +18,17 @@ public sealed class EmfArcTo : EmfDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfArcTo](emfarcto#constructor)() | 初始化[`EmfArcTo`](../emfarcto)类的新实例。 |
-| [EmfArcTo](emfarcto#constructor_1)(EmfRecord) | 初始化[`EmfArcTo`](../emfarcto)类的新实例。 |
+| [EmfArcTo](emfarcto#constructor)() | 初始化[`EmfArcTo`](../emfarcto)类. |
+| [EmfArcTo](emfarcto#constructor_1)(EmfRecord) | 初始化[`EmfArcTo`](../emfarcto)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Box](../../aspose.imaging.fileformats.emf.emf.records/emfarcto/box) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象，在 [MS-WMF] 第 2.2.2.19 节中指定，其中 指定边界矩形. |
+| [Box](../../aspose.imaging.fileformats.emf.emf.records/emfarcto/box) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象，在 [MS-WMF] 2.2.2.19 节中指定， 指定边界矩形。 |
 | [End](../../aspose.imaging.fileformats.emf.emf.records/emfarcto/end) { get; set; } | 获取或设置一个 64 位 WMF PointL 对象，该对象以逻辑单位指定第二个径向 终点的坐标。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
-| [Start](../../aspose.imaging.fileformats.emf.emf.records/emfarcto/start) { get; set; } | 获取或设置一个 64 位 WMF PointL 对象，在 [MS-WMF] 2.2.2.15 节中指定，其中 指定坐标第一个径向终点，以逻辑单位表示。 |
+| [Start](../../aspose.imaging.fileformats.emf.emf.records/emfarcto/start) { get; set; } | 获取或设置一个 64 位 WMF PointL 对象，在 [MS-WMF] 第 2.2.2.15 节中指定， 指定第一个径向终点的坐标，以逻辑单位表示。 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 
 ### 也可以看看

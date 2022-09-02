@@ -1,14 +1,14 @@
 ---
 title: CRedShift
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 指定每个 RGBA 颜色缓冲区中红色位平面的移位计数以位为单位
+description: 获取或设置为每个 RGBA 颜色缓冲区中的红色位平面指定移位计数
 type: docs
 weight: 180
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/credshift/
 ---
 ## EmfPixelFormatDescriptor.CRedShift property
 
-获取或设置 指定每个 RGBA 颜色缓冲区中红色位平面的移位计数（以位为单位）。
+获取或设置为每个 RGBA 颜色缓冲区中的红色位平面指定移位计数。
 
 ```csharp
 public byte CRedShift { get; set; }

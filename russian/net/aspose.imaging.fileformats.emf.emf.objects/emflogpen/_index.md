@@ -25,9 +25,9 @@ public sealed class EmfLogPen : EmfBasePen
 | Имя | Описание |
 | --- | --- |
 | [AffectWidth](../../aspose.imaging.fileformats.emf.emf.objects/emflogpen/affectwidth) { get; set; } | Получает или задает ширину эффекта. |
-| override [Argb32ColorRef](../../aspose.imaging.fileformats.emf.emf.objects/emflogpen/argb32colorref) { get; set; } | Получает или задает объект WMF ColorRef ([MS-WMF], раздел 2.2.2.8), который указывает значение цвета пера. |
-| override [PenStyle](../../aspose.imaging.fileformats.emf.emf.objects/emflogpen/penstyle) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее стиль PenStyle. Значение ДОЛЖНО быть определенным из таблицы перечисления PenStyle, указанной в разделе 2.1.25. |
-| [Width](../../aspose.imaging.fileformats.emf.emf.objects/emflogpen/width) { get; set; } | Получает или задает объект WMF PointL ([MS-WMF], раздел 2.2.2.15), который указывает ширину пера по значению своего поля x. Значение его поля y ДОЛЖНО игнорироваться. |
+| override [Argb32ColorRef](../../aspose.imaging.fileformats.emf.emf.objects/emflogpen/argb32colorref) { get; set; } | Получает или задает объект WMF ColorRef ([MS-WMF], раздел 2.2.2.8), который определяет значение цвета пера. |
+| override [PenStyle](../../aspose.imaging.fileformats.emf.emf.objects/emflogpen/penstyle) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее стиль PenStyle. Значение ДОЛЖНО быть , определенным из таблицы перечисления PenStyle, указанной в разделе 2.1.25. . |
+| [Width](../../aspose.imaging.fileformats.emf.emf.objects/emflogpen/width) { get; set; } | Получает или задает объект WMF PointL ([MS-WMF], раздел 2.2.2.15), который указывает ширину пера по значению его поля x. Значение его поля y ДОЛЖНО игнорироваться. |
 
 ### Смотрите также
 

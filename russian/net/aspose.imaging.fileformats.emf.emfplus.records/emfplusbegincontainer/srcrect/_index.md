@@ -1,14 +1,14 @@
 ---
 title: SrcRect
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает прямоугольник EmfPlusRectF который вместе с DestRect задает преобразование для контейнера. Это преобразование приводит к SrcRect при применении к DestRect.
+description: Получает или задает прямоугольник EmfPlusRectF который вместе с DestRect задает для контейнера преобразование . Это преобразование приводит к SrcRect при применении к DestRect.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer/srcrect/
 ---
 ## EmfPlusBeginContainer.SrcRect property
 
-Получает или задает прямоугольник EmfPlusRectF, который вместе с DestRect задает преобразование для контейнера. Это преобразование приводит к SrcRect при применении к DestRect.
+Получает или задает прямоугольник EmfPlusRectF, который вместе с DestRect задает для контейнера преобразование . Это преобразование приводит к SrcRect при применении к DestRect.
 
 ```csharp
 public RectangleF SrcRect { get; set; }

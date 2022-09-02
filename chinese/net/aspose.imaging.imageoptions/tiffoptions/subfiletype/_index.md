@@ -16,7 +16,7 @@ public TiffNewSubFileTypes SubFileType { get; set; }
 
 ### 适当的价值
 
-此子文件中包含的数据类型的一般指示。
+该子文件中包含的数据类型的一般指示。
 
 ### 也可以看看
 

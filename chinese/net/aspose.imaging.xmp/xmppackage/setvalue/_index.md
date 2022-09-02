@@ -16,7 +16,7 @@ public virtual void SetValue(string key, IXmlValue value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| key | String | 以附加值标识的键的字符串表示形式。 |
+| key | String | 用附加值标识的键的字符串表示形式。 |
 | value | IXmlValue | 要添加的值。 |
 
 ### 也可以看看

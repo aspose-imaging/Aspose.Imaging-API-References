@@ -24,9 +24,9 @@ public sealed class EmfLogBrushEx : EmfObject
 
 | Имя | Описание |
 | --- | --- |
-| [Argb32ColorRef](../../aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/argb32colorref) { get; set; } | Получает или задает 32-разрядный объект ColorRef WMF ([MS-WMF], раздел 2.2.2.8), который определяет цвет . Интерпретация этого поля зависит от значения BrushStyle, как описано в следующей таблице . |
-| [BrushHatch](../../aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/brushhatch) { get; set; } | Получает или задает 32-разрядное поле без знака, содержащее данные штриховки кисти. Его интерпретация зависит от значения BrushStyle, |
-| [BrushStyle](../../aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/brushstyle) { get; set; } | Получает или задает 32-разрядное целое число без знака, определяющее стиль кисти. Значение ДОЛЖНО быть перечислением из перечисления WMF BrushStyle ([MS-WMF], раздел 2.1.1.4). Значения стиля , поддерживаемые в этой структуре, перечислены далее в этом разделе. Стиль BS_NULL СЛЕДУЕТ использовать для указания кисти, которая не имеет эффекта. |
+| [Argb32ColorRef](../../aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/argb32colorref) { get; set; } | Получает или задает 32-разрядный объект WMF ColorRef ([MS-WMF], раздел 2.2.2.8), который определяет цвет a . Интерпретация этого поля зависит от значения BrushStyle, как описано в следующей таблице. |
+| [BrushHatch](../../aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/brushhatch) { get; set; } | Получает или задает 32-битное поле без знака, содержащее данные штриховки кисти. Его интерпретация зависит от значения BrushStyle, |
+| [BrushStyle](../../aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/brushstyle) { get; set; } | Получает или задает 32-разрядное целое число без знака, определяющее стиль кисти. Значение ДОЛЖНО быть перечислением из перечисления WMF BrushStyle ([MS-WMF], раздел 2.1.1.4). Значения стиля , поддерживаемые в этой структуре, перечислены далее в этом разделе. Стиль BS_NULL ДОЛЖЕН использоваться для указания кисти, которая не имеет эффекта. |
 
 ### Смотрите также
 

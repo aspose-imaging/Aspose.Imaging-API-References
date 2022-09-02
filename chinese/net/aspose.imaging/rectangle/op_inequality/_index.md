@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: Aspose.Imaging for .NET API 参考
-description: 测试两个Rectangleaspose.imaging/rectangle结构的位置或大小是否不同
+description: 测试是否两个Rectangleaspose.imaging/rectangle结构的位置或大小不同
 type: docs
 weight: 300
 url: /zh/net/aspose.imaging/rectangle/op_inequality/
 ---
 ## Rectangle Inequality operator
 
-测试两个[`Rectangle`](../../rectangle)结构的位置或大小是否不同。
+测试是否两个[`Rectangle`](../../rectangle)结构的位置或大小不同。
 
 ```csharp
 public static bool operator !=(Rectangle left, Rectangle right)
@@ -16,12 +16,12 @@ public static bool operator !=(Rectangle left, Rectangle right)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| left | Rectangle | [`Rectangle`](../../rectangle)不等式左侧的结构操作员。 |
-| right | Rectangle | [`Rectangle`](../../rectangle)结构，它位于不等式运算符的右侧。 |
+| left | Rectangle | 这[`Rectangle`](../../rectangle)不等式运算符左侧的结构。 |
+| right | Rectangle | 这[`Rectangle`](../../rectangle)不等式运算符右侧的结构。 |
 
 ### 返回值
 
-如果[`X`](../x),Y,[`Width`](../width)或[`Height`](../height)两者的属性[`Rectangle`](../../rectangle)结构不相等；否则为假。
+如果有任何一个，则此运算符返回 true[`X`](../x) ,[`Y`](../y) ,[`Width`](../width)或者[`Height`](../height)两者的属性[`Rectangle`](../../rectangle)结构不平等；否则为假。
 
 ### 也可以看看
 

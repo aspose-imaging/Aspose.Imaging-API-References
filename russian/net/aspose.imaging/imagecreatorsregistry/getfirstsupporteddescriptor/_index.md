@@ -16,7 +16,7 @@ public static IImageCreatorDescriptor GetFirstSupportedDescriptor(ImageOptionsBa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| imageOptions | ImageOptionsBase | Параметры изображения. |
+| imageOptions | ImageOptionsBase | Варианты изображения. |
 
 ### Возвращаемое значение
 

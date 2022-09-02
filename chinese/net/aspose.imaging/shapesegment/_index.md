@@ -3,7 +3,7 @@ title: ShapeSegment
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示一个形状段线段是连接两点的直线或曲线
 type: docs
-weight: 10930
+weight: 10920
 url: /zh/net/aspose.imaging/shapesegment/
 ---
 ## ShapeSegment class

@@ -1,14 +1,14 @@
 ---
 title: DateTimeStamp
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает метку даты/времени. Это поле определяет значение даты и времени сохранения изображения. Несмотря на то что операционные системы обычно добавляют файлы с отметками времени и даты эта функция предоставляется потому что операционная система может изменить отметку времени и даты если файл скопировано. Используя эту область вы гарантируете неизмененный регион для даты и времени записи.
+description: Получает или задает метку даты/времени. Это поле определяет значение даты и времени сохранения изображения. Несмотря на то что операционные системы обычно используют файлы с отметками времени и даты эта функция предоставляется поскольку операционная система может изменить отметку времени и даты если файл скопирован. Используя эту область вы гарантируете неизмененный регион для даты и времени записи.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.fileformats.tga/tgaimage/datetimestamp/
 ---
 ## TgaImage.DateTimeStamp property
 
-Получает или устанавливает метку даты/времени. Это поле определяет значение даты и времени сохранения изображения. Несмотря на то, что операционные системы обычно добавляют файлы с отметками времени и даты, эта функция предоставляется потому что операционная система может изменить отметку времени и даты, если файл скопировано. Используя эту область, вы гарантируете неизмененный регион для даты и времени записи.
+Получает или задает метку даты/времени. Это поле определяет значение даты и времени сохранения изображения. Несмотря на то, что операционные системы обычно используют файлы с отметками времени и даты, эта функция предоставляется, поскольку операционная система может изменить отметку времени и даты, если файл скопирован. Используя эту область, вы гарантируете неизмененный регион для даты и времени записи.
 
 ```csharp
 public DateTime? DateTimeStamp { get; set; }
@@ -23,33 +23,25 @@ public DateTime? DateTimeStamp { get; set; }
 
 using (TgaImage image = (TgaImage)Image.Load("test.tga"))
 {
-    dateTimeStamp = image.DateTimeStamp;
-    authorName = image.AuthorName;
-    authorComments = image.AuthorComments;
-    imageId = image.ImageId;
-    jobNameOrId = image.JobNameOrId;
-    jobTime = image.JobTime;
-    keyColor = image.TransparentColor;
-    softwareId = image.SoftwareId;
-    softwareVersion = image.SoftwareVersion;
-    softwareVersionLetter = image.SoftwareVersionLetter;
-    softwareVersionNumber = image.SoftwareVersionNumber;
-    xOrigin = image.XOrigin;
-    yOrigin = image.YOrigin;
-    gammaValueDenominator = image.GammaValueDenominator;
-    gammaValueNumerator = image.GammaValueNumerator;
-    hasAlphaChannel = image.HasAlpha;
-    hasColorMap = image.HasColorMap;
-    height = image.Height;
-    isGrayScale = image.IsGrayScale;
-    pixelAspectRatioDenominator = image.PixelAspectRatioDenominator;
-    pixelAspectRatioNumerator = image.PixelAspectRatioNumerator;
-    size = image.Size;
-    width = image.Width;
+    image.DateTimeStamp = testTime;
+    image.AuthorName = "John Smith";
+    image.AuthorComments = "Comment";
+    image.ImageId = "ImageId";
+    image.JobNameOrId = "Important Job";
+    image.JobTime = TimeSpan.FromDays(10);
+    image.TransparentColor = Color.FromArgb(123);
+    image.SoftwareId = "SoftwareId";
+    image.SoftwareVersion = "abc1";
+    image.SoftwareVersionLetter = 'a';
+    image.SoftwareVersionNumber = 2;
+    image.XOrigin = 1000;
+    image.YOrigin = 1000;
+
+    image.Save("test.tga")
 }
 ```
 
-Получение значений публичных свойств загруженного TGA-изображения.
+Получение значений публичных свойств загруженного изображения TGA.
 
 ```csharp
 [C#]

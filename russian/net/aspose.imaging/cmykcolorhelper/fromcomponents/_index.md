@@ -16,28 +16,28 @@ public static int FromComponents(int cyan, int magenta, int yellow, int black)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cyan | Int32 | Голубой компонент. Допустимые значения:от 0 до 255. |
-| пурпурный | Int32 | Пурпурный компонент. Допустимые значения:от 0 до 255. |
-| yellow | Int32 | Желтый компонент. Допустимые значения:от 0 до 255. |
-| black | Int32 | Черный компонент. Допустимые значения:от 0 до 255. |
+| cyan | Int32 | Голубой компонент. Допустимые значения: от 0 до 255. |
+| magenta | Int32 | Пурпурный компонент. Допустимые значения: от 0 до 255. |
+| yellow | Int32 | Желтая составляющая. Допустимые значения: от 0 до 255. |
+| black | Int32 | Черная составляющая. Допустимые значения: от 0 до 255. |
 
 ### Возвращаемое значение
 
-Цвет CMYK, представленный как 32-битное целочисленное значение.
+Цвет CMYK, представленный в виде 32-битного целого числа.
 
 ### Примеры
 
-В следующем примере показано, как быстро преобразовать цвета CMYK в их аналоги RGB, следуя простым формулам, без использования профилей ICC.
+В следующем примере показано, как быстро преобразовать цвета CMYK в их аналоги RGB с помощью простых формул без использования профилей ICC.
 
 ```csharp
 [C#]
 
 int[] cmykColors = new int[]
 {
-    Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0),    // голубой
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0),    // Пурпурный
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0),    // Желтый
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255),    // Черный
+    Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0),   // голубой
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0),   // Пурпурный
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0),   // Желтый
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255),   // Черный
 };
 
 System.Console.WriteLine("Convert CMYK to RGB without using ICC profiles.");
@@ -52,11 +52,11 @@ foreach (int cmykColor in cmykColors)
     System.Console.WriteLine("CMYK({0},{1},{2},{3})\t\t=> RGB({4},{5},{6})", c, m, y, k, rgbColor.R, rgbColor.G, rgbColor.B);
 }
 
- // Вывод выглядит так: 
- //Преобразование CMYK в RGB без использования профилей ICC.
- //CMYK(255,0,0,0) => RGB(0,255,255)
- //CMYK(0,255,0,0) => RGB(255,0,255)
- //CMYK(0,0,255,0) => RGB(255,255,0)
+//Вывод выглядит так:
+//Преобразование CMYK в RGB без использования профилей ICC.
+//CMYK(255,0,0,0) => RGB(0,255,255)
+//CMYK(0,255,0,0) => RGB(255,0,255)
+//CMYK(0,0,255,0) => RGB(255,255,0)
 //CMYK(0,0,0,255) => RGB(0,0,0)
 ```
 

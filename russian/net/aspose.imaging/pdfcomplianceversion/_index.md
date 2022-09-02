@@ -3,7 +3,7 @@ title: PdfComplianceVersion
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Указывает уровень соответствия PDF для выходного файла.
 type: docs
-weight: 10690
+weight: 10680
 url: /ru/net/aspose.imaging/pdfcomplianceversion/
 ---
 ## PdfComplianceVersion enumeration
@@ -19,7 +19,7 @@ public enum PdfComplianceVersion
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Pdf15 | `0` | Выходной файл будет совместим с PDF 1.5. |
-| PdfA1a | `1` | Выходной файл будет совместим с PDF/A-1a. |
+| PdfA1a | `1` | Выходной файл будет соответствовать формату PDF/A-1a. |
 | PdfA1b | `2` | Выходной файл будет соответствовать формату PDF/A-1b. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: NumberOfPoint
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置点数 的 16 位有符号整数定义数组中的点数
+description: 获取或设置点数一个 16 位有符号整数 定义数组中的点数
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfpolygon/numberofpoint/
 ---
 ## WmfPolygon.NumberOfPoint property
 
-获取或设置点数。 的 16 位有符号整数定义数组中的点数。
+获取或设置点数。一个 16 位有符号整数， 定义数组中的点数。
 
 ```csharp
 public short NumberOfPoint { get; set; }

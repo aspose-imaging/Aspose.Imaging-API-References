@@ -1,14 +1,14 @@
 ---
 title: ToGdiRegion
 second_title: Aspose.Imaging for .NET API 参考
-description: 将Regionaspose.imaging/region转换为Region
+description: 转换Regionaspose.imaging/region到Region .
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.extensions/regionextensions/togdiregion/
 ---
 ## RegionExtensions.ToGdiRegion method
 
-将[`Region`](../../../aspose.imaging/region)转换为Region。
+转换[`Region`](../../../aspose.imaging/region)到Region .
 
 ```csharp
 public static Region ToGdiRegion(Region region)
@@ -16,11 +16,11 @@ public static Region ToGdiRegion(Region region)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| region | Region | [`Region`](../../../aspose.imaging/region)进行转换。 |
+| region | Region | 这[`Region`](../../../aspose.imaging/region)转换。 |
 
 ### 返回值
 
-转换后的Region。
+转换的Region.
 
 ### 也可以看看
 

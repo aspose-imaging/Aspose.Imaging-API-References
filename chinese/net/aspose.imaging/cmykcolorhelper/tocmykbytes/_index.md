@@ -16,13 +16,13 @@ public static byte[] ToCmykBytes(int[] argbPixels, int startIndex, int length)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| argbPixels | Int32[] | RGB 颜色表示为 32 位整数值。 |
+| argbPixels | Int32[] | RGB 颜色显示为 32 位整数值。 |
 | startIndex | Int32 | RGB 颜色的起始索引。 |
 | length | Int32 | 要转换的 RGB 像素数。 |
 
 ### 返回值
 
-CMYK 颜色呈现为字节数组。
+以字节数组形式呈现的 CMYK 颜色。
 
 ### 也可以看看
 

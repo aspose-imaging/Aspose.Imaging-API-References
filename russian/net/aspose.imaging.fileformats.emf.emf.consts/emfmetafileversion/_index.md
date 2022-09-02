@@ -18,7 +18,7 @@ public enum EmfMetafileVersion
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| META_FORMAT_ENHANCED | `65536` | Определяет совместимость метафайлов EMF |
+| META_FORMAT_ENHANCED | `65536` | Определяет совместимость метафайла EMF |
 
 ### Смотрите также
 

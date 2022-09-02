@@ -1,14 +1,14 @@
 ---
 title: ColorBlendExtensions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: СодержитColorBlend../aspose.imaging/colorblendметоды расширения.
+description: СодержитColorBlend../aspose.imaging/colorblend методы расширения.
 type: docs
 weight: 1130
 url: /ru/net/aspose.imaging.extensions/colorblendextensions/
 ---
 ## ColorBlendExtensions class
 
-Содержит[`ColorBlend`](../../aspose.imaging/colorblend)методы расширения.
+Содержит[`ColorBlend`](../../aspose.imaging/colorblend) методы расширения.
 
 ```csharp
 public static class ColorBlendExtensions
@@ -18,7 +18,7 @@ public static class ColorBlendExtensions
 
 | Имя | Описание |
 | --- | --- |
-| static [ToGdiColorBlend](../../aspose.imaging.extensions/colorblendextensions/togdicolorblend)(ColorBlend) | Преобразует[`ColorBlend`](../../aspose.imaging/colorblend)вColorBlend. |
+| static [ToGdiColorBlend](../../aspose.imaging.extensions/colorblendextensions/togdicolorblend)(ColorBlend) | Преобразует[`ColorBlend`](../../aspose.imaging/colorblend) кColorBlend . |
 
 ### Смотрите также
 

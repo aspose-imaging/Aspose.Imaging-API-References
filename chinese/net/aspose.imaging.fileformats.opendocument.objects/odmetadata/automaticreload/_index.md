@@ -1,14 +1,14 @@
 ---
 title: AutomaticReload
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置自动重新加载
+description: 获取或设置自动重载
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects/odmetadata/automaticreload/
 ---
 ## OdMetadata.AutomaticReload property
 
-获取或设置自动重新加载。
+获取或设置自动重载。
 
 ```csharp
 public string AutomaticReload { get; set; }

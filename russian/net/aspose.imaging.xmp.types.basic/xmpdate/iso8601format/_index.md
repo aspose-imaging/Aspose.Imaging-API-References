@@ -16,7 +16,7 @@ public const string Iso8601Format;
 
 ### Примечания
 
-Подробнее:https://en.wikipedia.org/wiki/ISO_8601.
+Подробнее: https://en.wikipedia.org/wiki/ISO_8601.
 
 ### Смотрите также
 

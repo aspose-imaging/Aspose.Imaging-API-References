@@ -18,11 +18,11 @@ public enum EmfPlusInterpolationMode : byte
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| InterpolationModeDefault | `0` | 指定默认的插值模式，定义为 InterpolationModeBilinear。 |
-| InterpolationModeLowQuality | `1` | 指定低质量插值模式，定义为InterpolationModeNearestNeighbor。 |
-| InterpolationModeHighQuality | `2` | 指定一种高质量的插值模式，定义为InterpolationModeHighQualityBicubic。 |
-| InterpolationModeBilinear | `3` | 指定双线性插值，它使用插值像素周围已知像素的最近 2x2 邻域。这 4 个已知像素值的加权平均值决定了分配给插值像素的值。结果比 InterpolationModeNearestNeighbor 看起来更平滑。 |
-| InterpolationModeBicubic | `4` | 指定双三次插值，它使用插值像素周围的已知像素最近的 4x4 邻域。这 16 个已知像素值的加权平均值决定了分配给内插像素的值。因为已知像素可能与插值像素之间的距离不同，所以在计算中给更近的像素赋予更高的权重。结果看起来比 InterpolationModeBilinear 更平滑。 |
+| InterpolationModeDefault | `0` | 指定默认插值模式，定义为 InterpolationModeBilinear. |
+| InterpolationModeLowQuality | `1` | 指定低质量插值模式，定义为 InterpolationModeNearestNeighbor. |
+| InterpolationModeHighQuality | `2` | 指定一个高质量的插值模式，定义为 InterpolationModeHighQualityBicubic. |
+| InterpolationModeBilinear | `3` | 指定双线性插值，它使用插值像素周围的已知像素最近的 2x2 邻域。这 4 个已知像素值的加权平均值决定了分配给插值像素的值。结果看起来比 InterpolationModeNearestNeighbor. 更平滑 |
+| InterpolationModeBicubic | `4` | 指定双三次插值，它使用插值像素周围已知像素的最近 4x4 邻域。这 16 个已知像素值的加权平均值决定了分配给内插像素的值。因为已知像素可能与插值像素之间的距离不同，所以在计算中给更近的像素赋予更高的权重。结果比 InterpolationModeBilinear. 看起来更平滑 |
 | InterpolationModeNearestNeighbor | `5` | 指定最近邻插值，它只使用最接近插值像素的像素值。此模式只是复制或删除像素，在这些选项中产生最低质量的结果。 |
 | InterpolationModeHighQualityBilinear | `6` | 使用预过滤指定双线性插值。 |
 | InterpolationModeHighQualityBicubic | `7` | 使用预过滤指定双三次插值，这会在这些选项中产生最高质量的结果。 |

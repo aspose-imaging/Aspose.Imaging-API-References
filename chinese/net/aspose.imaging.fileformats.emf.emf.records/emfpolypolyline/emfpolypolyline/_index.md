@@ -1,14 +1,14 @@
 ---
 title: EmfPolyPolyline
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPolyPolylineaspose.imaging.fileformats.emf.emf.records/emfpolypolyline类的新实例
+description: 初始化EmfPolyPolylineaspose.imaging.fileformats.emf.emf.records/emfpolypolyline类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfpolypolyline/emfpolypolyline/
 ---
 ## EmfPolyPolyline(EmfRecord) {#constructor_1}
 
-初始化[`EmfPolyPolyline`](../../emfpolypolyline)类的新实例。
+初始化[`EmfPolyPolyline`](../../emfpolypolyline)类.
 
 ```csharp
 public EmfPolyPolyline(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfPolyPolyline(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfPolyPolyline(EmfRecord source)
 
 ## EmfPolyPolyline() {#constructor}
 
-初始化[`EmfPolyPolyline`](../../emfpolypolyline)类的新实例。
+初始化[`EmfPolyPolyline`](../../emfpolypolyline)类.
 
 ```csharp
 public EmfPolyPolyline()

@@ -22,12 +22,12 @@ YCbCr 光度计的子采样因子。
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [TiffImageException](../../../aspose.imaging.coreexceptions.imageformats/tiffimageexception) | 无效字段长度。 YCbCrSubsampling 字段必须包含两个值。 |
-| ArgumentNullException | value |
+| [TiffImageException](../../../aspose.imaging.coreexceptions.imageformats/tiffimageexception) | 无效的字段长度。 YCbCrSubsampling 字段必须包含两个值。 |
+| ArgumentNullException | 价值 |
 
 ### 例子
 
-这个例子展示了如何使用各种选项将光栅图像保存为 TIFF 格式。
+此示例说明如何使用各种选项将光栅图像保存为 TIFF 格式。
 
 ```csharp
 [C#]
@@ -39,32 +39,32 @@ Aspose.Imaging.ImageOptions.TiffOptions saveOptions = new Aspose.Imaging.ImageOp
 // 为每个颜色分量设置 8 位。
 saveOptions.BitsPerSample = new ushort[] { 8, 8, 8 };
 
-    // 设置大端字节序（摩托罗拉）
+// 设置大端字节序（摩托罗拉）
 saveOptions.ByteOrder = Aspose.Imaging.FileFormats.Tiff.Enums.TiffByteOrder.BigEndian;
 
-    // 设置 LZW 压缩。
+// 设置 LZW 压缩。
 saveOptions.Compression = Aspose.Imaging.FileFormats.Tiff.Enums.TiffCompressions.Lzw;
 
-    // 允许减小连续色调图像的大小。
-    // 目前该字段仅用于 LZW 编码，因为 LZW 可能是唯一的 TIFF 编码方案
-    // 这显着受益于预测步骤。
+// 允许减小连续色调图像的大小。
+// 目前该字段仅用于 LZW 编码，因为 LZW 可能是唯一的 TIFF 编码方案
+// 这显着受益于预测步骤。
 saveOptions.Predictor = Imaging.FileFormats.Tiff.Enums.TiffPredictor.Horizontal;
 
-    // 设置 RGB 颜色模型.
+// 设置 RGB 颜色模型。
 saveOptions.Photometric = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.Rgb;
 
-    // 对于 YCbCr，您可以使用以下选项之一：
-    // YCbCrSubSampling 字段 JPEG 采样因子
-    // ----------------------------------------------
-    // 1,1 1x1, 1x1, 1x1
-    // 2,1 2x1, 1x1, 1x1
-    // 2,2(默认值) 2x2, 1x1, 1x1
-    // saveOptions.YCbCrSubsampling = new ushort[] { 2, 2 };
+// 对于 YCbCr，您可以使用以下选项之一：
+// YCbCrSubSampling 字段 JPEG 采样因子
+// ----------------------------------------------
+// 1,1 1x1, 1x1, 1x1
+// 2,1 2x1, 1x1, 1x1
+// 2,2(默认值) 2x2, 1x1, 1x1
+// saveOptions.YCbCrSubsampling = new ushort[] { 2, 2 };
 
-    // 所有颜色分量都将存储在一个平面内。
+// 所有颜色分量都将存储在单个平面内。
 saveOptions.PlanarConfiguration = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPlanarConfigs.Contiguous;
 
-    // 创建一个 100x100 像素的 TIFF 帧。
+// 创建一个 100x100 像素的 TIFF 帧。
 using (Aspose.Imaging.Image image = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100))
 {
     // 用蓝黄色渐变填充整个图像。

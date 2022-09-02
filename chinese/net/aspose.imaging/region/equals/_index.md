@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Imaging for .NET API 参考
-description: 测试指定的Regionaspose.imaging/region是否与此Region相同在指定的绘图表面上
+description: 测试是否指定Regionaspose.imaging/region与此相同Regionaspose.imaging/region在指定的绘图表面上
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging/region/equals/
 ---
 ## Region.Equals method
 
-测试指定的[`Region`](../../region)是否与此Region相同在指定的绘图表面上。
+测试是否指定[`Region`](../../region)与此相同[`Region`](../../region)在指定的绘图表面上。
 
 ```csharp
 public bool Equals(Region region, Graphics g)
@@ -16,18 +16,18 @@ public bool Equals(Region region, Graphics g)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| region | Region | [`Region`](../../region)进行测试。 |
-| g | Graphics | A[`Graphics`](../../graphics)表示绘图表面。 |
+| region | Region | 这[`Region`](../../region)去测试。 |
+| g | Graphics | 一个[`Graphics`](../../graphics)表示绘图表面。 |
 
 ### 返回值
 
-当与*g相关的变换时，如果区域内部与该区域内部相同，则为真*应用参数；否则为假。
+当与*g*应用参数；否则为假。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | &lt;paramref name="g " /&gt;或&lt;paramref name=" region" /&gt; 为空. |
+| ArgumentNullException | *g *或者* region*一片空白。 |
 
 ### 也可以看看
 

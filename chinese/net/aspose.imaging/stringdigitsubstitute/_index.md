@@ -1,14 +1,14 @@
 ---
 title: StringDigitSubstitute
 second_title: Aspose.Imaging for .NET API 参考
-description: 枚举指定如何根据用户的区域设置或语言替换字符串中的数字
+description: 枚举指定如何根据用户的区域或语言替换字符串中的数字
 type: docs
-weight: 11160
+weight: 11150
 url: /zh/net/aspose.imaging/stringdigitsubstitute/
 ---
 ## StringDigitSubstitute enumeration
 
-枚举指定如何根据用户的区域设置或语言替换字符串中的数字。
+枚举指定如何根据用户的区域或语言替换字符串中的数字。
 
 ```csharp
 public enum StringDigitSubstitute
@@ -21,7 +21,7 @@ public enum StringDigitSubstitute
 | User | `0` | 指定用户定义的替换方案。 |
 | None | `1` | 指定禁用替换。 |
 | National | `2` | 指定与用户区域设置的官方国家语言相对应的替换数字。 |
-| Traditional | `3` | 指定与用户的本地脚本或语言相对应的替换数字，可能与用户区域设置的官方国家语言不同。 |
+| Traditional | `3` | 指定与用户的本地脚本或语言对应的替换数字，可能与用户区域设置的官方国家语言不同。 |
 
 ### 也可以看看
 

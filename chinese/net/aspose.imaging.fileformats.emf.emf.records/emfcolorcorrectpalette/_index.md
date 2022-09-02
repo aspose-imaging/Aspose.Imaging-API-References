@@ -18,15 +18,15 @@ public sealed class EmfColorCorrectPalette : EmfObjectManipulationRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfColorCorrectPalette](emfcolorcorrectpalette)(EmfRecord) | 初始化[`EmfColorCorrectPalette`](../emfcolorcorrectpalette)类的新实例。 |
+| [EmfColorCorrectPalette](emfcolorcorrectpalette)(EmfRecord) | 初始化[`EmfColorCorrectPalette`](../emfcolorcorrectpalette)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IhPalette](../../aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/ihpalette) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定 EMF 对象表中逻辑调色板对象 （第 2.2.17 节）的索引（第 3.1.1.1 节）。 |
+| [IhPalette](../../aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/ihpalette) { get; set; } | 获取或设置一个 32 位无符号整数，指定 EMF 对象表（第 3.1.1.1 节）中逻辑调色板对象 （第 2.2.17 节）的索引。 |
 | [NFirstEntry](../../aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/nfirstentry) { get; set; } | 获取或设置一个 32 位无符号整数，它指定要更正的第一个条目的索引。 |
-| [NPalEntries](../../aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/npalentries) { get; set; } | 获取或设置一个 32 位无符号整数，它指定要更正的调色板条目数。 |
+| [NPalEntries](../../aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/npalentries) { get; set; } | 获取或设置一个 32 位无符号整数，指定要纠正的调色板条目数。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

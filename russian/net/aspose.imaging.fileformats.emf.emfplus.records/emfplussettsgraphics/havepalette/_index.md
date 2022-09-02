@@ -1,14 +1,14 @@
 ---
 title: HavePalette
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее есть ли палитра. Если установлено эта запись содержит объект EmfPlusPalette раздел 2.2.2.28 в поле Палитра после данных состояния графики.
+description: Получает значение указывающее есть ли палитра. Если установлено эта запись содержит объект EmfPlusPalette раздел 2.2.2.28 в поле палитры после данных состояния графики.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics/havepalette/
 ---
 ## EmfPlusSetTsGraphics.HavePalette property
 
-Получает значение, указывающее, [есть ли палитра]. Если установлено, эта запись содержит объект EmfPlusPalette (раздел 2.2.2.28) в поле Палитра после данных состояния графики.
+Получает значение, указывающее, [есть ли палитра]. Если установлено, эта запись содержит объект EmfPlusPalette (раздел 2.2.2.28) в поле палитры после данных состояния графики.
 
 ```csharp
 public bool HavePalette { get; }
@@ -16,7 +16,7 @@ public bool HavePalette { get; }
 
 ### Стоимость имущества
 
-` true` if [есть палитра]; в противном случае` false` .
+`истинный` если [есть палитра]; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

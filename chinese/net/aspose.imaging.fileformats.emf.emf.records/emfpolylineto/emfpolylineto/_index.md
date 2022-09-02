@@ -1,14 +1,14 @@
 ---
 title: EmfPolylineTo
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPolylineToaspose.imaging.fileformats.emf.emf.records/emfpolylineto类的新实例
+description: 初始化EmfPolylineToaspose.imaging.fileformats.emf.emf.records/emfpolylineto类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfpolylineto/emfpolylineto/
 ---
 ## EmfPolylineTo(EmfRecord) {#constructor_1}
 
-初始化[`EmfPolylineTo`](../../emfpolylineto)类的新实例。
+初始化[`EmfPolylineTo`](../../emfpolylineto)类.
 
 ```csharp
 public EmfPolylineTo(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfPolylineTo(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfPolylineTo(EmfRecord source)
 
 ## EmfPolylineTo() {#constructor}
 
-初始化[`EmfPolylineTo`](../../emfpolylineto)类的新实例。
+初始化[`EmfPolylineTo`](../../emfpolylineto)类.
 
 ```csharp
 public EmfPolylineTo()

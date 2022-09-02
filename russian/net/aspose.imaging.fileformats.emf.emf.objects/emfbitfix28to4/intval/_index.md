@@ -1,14 +1,14 @@
 ---
 title: IntVal
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение целочисленного значения
+description: Получает или задает целочисленное значение value
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/intval/
 ---
 ## EmfBitFix28To4.IntVal property
 
-Получает или задает значение целочисленного значения
+Получает или задает целочисленное значение value
 
 ```csharp
 public int IntVal { get; set; }

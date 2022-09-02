@@ -1,14 +1,14 @@
 ---
 title: Offset
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 WMF PointL 对象MS-WMF 第 2.2.2.15 节该对象指定 逻辑单位的水平和垂直偏移量.
+description: 获取或设置一个 WMF PointL 对象MS-WMF 第 2.2.2.15 节它以逻辑单位指定 水平和垂直偏移量
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfoffsetcliprgn/offset/
 ---
 ## EmfOffsetClipRgn.Offset property
 
-获取或设置一个 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），该对象指定 逻辑单位的水平和垂直偏移量.
+获取或设置一个 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），它以逻辑单位指定 水平和垂直偏移量。
 
 ```csharp
 public Point Offset { get; set; }

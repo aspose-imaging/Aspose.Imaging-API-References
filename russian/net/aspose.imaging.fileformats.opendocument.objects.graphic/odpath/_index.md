@@ -1,14 +1,14 @@
 ---
 title: OdPath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Путь к объекту открытого документа
+description: Объект открытого документа path
 type: docs
 weight: 7210
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odpath/
 ---
 ## OdPath class
 
-Путь к объекту открытого документа
+Объект открытого документа path
 
 ```csharp
 public class OdPath : OdStyledObject
@@ -18,14 +18,14 @@ public class OdPath : OdStyledObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdPath](odpath)(OdObject) | Инициализирует новый экземпляр класса[`OdPath`](../odpath). |
+| [OdPath](odpath)(OdObject) | Инициализирует новый экземпляр[`OdPath`](../odpath) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
-| [Data](../../aspose.imaging.fileformats.opendocument.objects.graphic/odpath/data) { get; set; } | Получает или задает данные. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
+| [Data](../../aspose.imaging.fileformats.opendocument.objects.graphic/odpath/data) { get; set; } | Получает или устанавливает данные. |
 | [EnhancedPath](../../aspose.imaging.fileformats.opendocument.objects.graphic/odpath/enhancedpath) { get; set; } | Получает или задает расширенный путь. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [Layer](../../aspose.imaging.fileformats.opendocument.objects.graphic/odpath/layer) { get; set; } | Получает или задает слой. |

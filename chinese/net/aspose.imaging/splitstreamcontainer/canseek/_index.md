@@ -1,14 +1,14 @@
 ---
 title: CanSeek
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取流是否支持查找的值
+description: 获取流是否支持搜索的值
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging/splitstreamcontainer/canseek/
 ---
 ## SplitStreamContainer.CanSeek property
 
-获取流是否支持查找的值。
+获取流是否支持搜索的值。
 
 ```csharp
 public override bool CanSeek { get; }
@@ -16,7 +16,7 @@ public override bool CanSeek { get; }
 
 ### 适当的价值
 
-` true` 如果流支持查找；否则，` false` 。
+`真的`如果流支持查找；否则，`错误的`.
 
 ### 也可以看看
 

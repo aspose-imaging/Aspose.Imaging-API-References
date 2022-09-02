@@ -18,11 +18,11 @@ public static Rectangle GetFittingRectangle(Rectangle rectangle, int width, int 
 | --- | --- | --- |
 | rectangle | Rectangle | 得到拟合矩形的矩形。 |
 | width | Int32 | 对象宽度。 |
-| height | Int32 | 对象高度。 |
+| height | Int32 | 物体高度。 |
 
 ### 返回值
 
-拟合矩形或找不到拟合矩形的异常。
+拟合矩形或找不到拟合矩形时的异常。
 
 ### 也可以看看
 
@@ -47,11 +47,11 @@ public static Rectangle GetFittingRectangle(Rectangle rectangle, int[] pixels, i
 | rectangle | Rectangle | 得到拟合矩形的矩形。 |
 | pixels | Int32[] | 32 位 ARGB 像素。 |
 | width | Int32 | 对象宽度。 |
-| height | Int32 | 对象高度。 |
+| height | Int32 | 物体高度。 |
 
 ### 返回值
 
-拟合矩形或找不到拟合矩形的异常。
+拟合矩形或找不到拟合矩形时的异常。
 
 ### 也可以看看
 

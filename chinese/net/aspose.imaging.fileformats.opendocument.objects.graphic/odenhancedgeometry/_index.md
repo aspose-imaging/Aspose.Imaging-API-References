@@ -1,14 +1,14 @@
 ---
 title: OdEnhancedGeometry
 second_title: Aspose.Imaging for .NET API 参考
-description: 增强几何对象
+description: 增强的几何对象
 type: docs
 weight: 7060
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odenhancedgeometry/
 ---
 ## OdEnhancedGeometry class
 
-增强几何对象。
+增强的几何对象。
 
 ```csharp
 public class OdEnhancedGeometry : OdGraphicObject
@@ -18,13 +18,13 @@ public class OdEnhancedGeometry : OdGraphicObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OdEnhancedGeometry](odenhancedgeometry)(OdObject) | 初始化[`OdEnhancedGeometry`](../odenhancedgeometry)类的新实例。 |
+| [OdEnhancedGeometry](odenhancedgeometry)(OdObject) | 初始化[`OdEnhancedGeometry`](../odenhancedgeometry)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]。 |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]. |
 | [EnhancedPath](../../aspose.imaging.fileformats.opendocument.objects.graphic/odenhancedgeometry/enhancedpath) { get; set; } | 获取或设置增强路径。 |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | 获取项目。 |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | 获取父对象。 |

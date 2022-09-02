@@ -1,14 +1,14 @@
 ---
 title: WmfImage
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化WmfImageaspose.imaging.fileformats.wmf/wmfimage类的新实例
+description: 初始化WmfImageaspose.imaging.fileformats.wmf/wmfimage类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.wmf/wmfimage/wmfimage/
 ---
 ## WmfImage() {#constructor}
 
-初始化[`WmfImage`](../../wmfimage)类的新实例。
+初始化[`WmfImage`](../../wmfimage)类.
 
 ```csharp
 public WmfImage()
@@ -24,7 +24,7 @@ public WmfImage()
 
 ## WmfImage(int, int) {#constructor_1}
 
-初始化[`WmfImage`](../../wmfimage)类的新实例。
+初始化[`WmfImage`](../../wmfimage)类.
 
 ```csharp
 public WmfImage(int width, int height)

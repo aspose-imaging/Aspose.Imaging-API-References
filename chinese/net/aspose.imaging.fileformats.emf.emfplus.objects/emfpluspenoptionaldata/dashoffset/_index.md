@@ -1,14 +1,14 @@
 ---
 title: DashOffset
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置可选的 32 位浮点值该值指定 从行首到开头的距离47虚线模式中的第一个空格如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataDashedLineOffset 标志则该字段必须是 存在
+description: 获取或设置可选的 32 位浮点值该值指定虚线模式中从行的开头到 第一个空格的开头的 距离如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataDashedLineOffset 标志则该字段必须存在 
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata/dashoffset/
 ---
 ## EmfPlusPenOptionalData.DashOffset property
 
-获取或设置可选的 32 位浮点值，该值指定 从行首到::开头的距离:47:::虚线模式中的第一个空格。如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataDashedLineOffset 标志，则该字段必须是 存在。
+获取或设置可选的 32 位浮点值，该值指定虚线模式中从行的开头到 第一个空格的开头的 距离。如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataDashedLineOffset 标志，则该字段必须存在 。
 
 ```csharp
 public float DashOffset { get; set; }

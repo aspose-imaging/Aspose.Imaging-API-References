@@ -1,14 +1,14 @@
 ---
 title: ColorantRgb
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаColorantRgbaspose.imaging.xmp.types.complex.colorant/colorantrgb.
+description: Инициализирует новый экземплярColorantRgbaspose.imaging.xmp.types.complex.colorant/colorantrgb класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp.types.complex.colorant/colorantrgb/colorantrgb/
 ---
 ## ColorantRgb() {#constructor}
 
-Инициализирует новый экземпляр класса[`ColorantRgb`](../../colorantrgb).
+Инициализирует новый экземпляр[`ColorantRgb`](../../colorantrgb) класс.
 
 ```csharp
 public ColorantRgb()
@@ -24,7 +24,7 @@ public ColorantRgb()
 
 ## ColorantRgb(byte, byte, byte) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`ColorantRgb`](../../colorantrgb).
+Инициализирует новый экземпляр[`ColorantRgb`](../../colorantrgb) класс.
 
 ```csharp
 public ColorantRgb(byte red, byte green, byte blue)

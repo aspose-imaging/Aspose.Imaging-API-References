@@ -16,28 +16,28 @@ public static int FromComponents(int cyan, int magenta, int yellow, int black)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cyan | Int32 | 青色分量。有效值为 0 到 255。 |
-| magenta | Int32 | 洋红色分量。有效值为 0 到 255。 |
-| yellow | Int32 | 黄色分量。有效值为 0 到 255。 |
-| black | Int32 | 黑色分量。有效值为 0 到 255。 |
+| cyan | Int32 | 青色成分。有效值为 0 到 255。 |
+| magenta | Int32 | 洋红色成分。有效值为 0 到 255。 |
+| yellow | Int32 | 黄色成分。有效值为 0 到 255。 |
+| black | Int32 | 黑色成分。有效值为 0 到 255。 |
 
 ### 返回值
 
-CMYK 颜色显示为 32 位整数值。
+以 32 位整数值呈现的 CMYK 颜色。
 
 ### 例子
 
-以下示例展示了如何在不使用 ICC 配置文件的情况下按照简单的公式快速将 CMYK 颜色转换为对应的 RGB 颜色。
+以下示例显示了如何在不使用 ICC 配置文件的情况下按照简单的公式快速将 CMYK 颜色转换为对应的 RGB 颜色。
 
 ```csharp
 [C#]
 
 int[] cmykColors = new int[]
 {
-    Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0),       // 青色
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0),       // 洋红色
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0),       // 黄色
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255),       // 黑色
+    Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0),   // 青色
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0),   // 洋红色
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0),   // 黄色
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255),   // 黑色的
 };
 
 System.Console.WriteLine("Convert CMYK to RGB without using ICC profiles.");
@@ -52,11 +52,11 @@ foreach (int cmykColor in cmykColors)
     System.Console.WriteLine("CMYK({0},{1},{2},{3})\t\t=> RGB({4},{5},{6})", c, m, y, k, rgbColor.R, rgbColor.G, rgbColor.B);
 }
 
-    //输出看起来像这样：
-    //在不使用ICC配置文件的情况下将CMYK转换为RGB。
-    //CMYK(255,0,0,0) => RGB(0,255,255)
-    //CMYK(0,255,0,0) => RGB(255,0,255)
-    //CMYK(0,0,255,0) => RGB(255,255,0)
+//输出看起来像这样：
+//在不使用ICC配置文件的情况下将CMYK转换为RGB。
+//CMYK(255,0,0,0) => RGB(0,255,255)
+//CMYK(0,255,0,0) => RGB(255,0,255)
+//CMYK(0,0,255,0) => RGB(255,255,0)
 //CMYK(0,0,0,255) => RGB(0,0,0)
 ```
 

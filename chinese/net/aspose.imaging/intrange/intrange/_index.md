@@ -1,14 +1,14 @@
 ---
 title: IntRange
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化IntRangeaspose.imaging/intrange类的新实例
+description: 初始化IntRangeaspose.imaging/intrange类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/intrange/intrange/
 ---
 ## IntRange(int, int) {#constructor}
 
-初始化[`IntRange`](../../intrange)类的新实例。
+初始化[`IntRange`](../../intrange)类.
 
 ```csharp
 public IntRange(int start, int count)
@@ -17,7 +17,7 @@ public IntRange(int start, int count)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | start | Int32 | 开始。 |
-| count | Int32 | 计数。 |
+| count | Int32 | 伯爵。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public IntRange(int start, int count)
 
 ## IntRange(int, int, int) {#constructor_1}
 
-初始化[`IntRange`](../../intrange)类的新实例。
+初始化[`IntRange`](../../intrange)类.
 
 ```csharp
 public IntRange(int start, int count, int delta)
@@ -38,8 +38,8 @@ public IntRange(int start, int count, int delta)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | start | Int32 | 开始。 |
-| count | Int32 | 计数。 |
-| delta | Int32 | 增量。 |
+| count | Int32 | 伯爵。 |
+| delta | Int32 | 三角洲。 |
 
 ### 也可以看看
 
@@ -51,7 +51,7 @@ public IntRange(int start, int count, int delta)
 
 ## IntRange(int[]) {#constructor_2}
 
-初始化[`IntRange`](../../intrange)类的新实例。
+初始化[`IntRange`](../../intrange)类.
 
 ```csharp
 public IntRange(int[] range)

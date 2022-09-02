@@ -1,14 +1,14 @@
 ---
 title: XmpMeta
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化XmpMetaaspose.imaging.xmp/xmpmeta类的新实例
+description: 初始化XmpMetaaspose.imaging.xmp/xmpmeta类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp/xmpmeta/xmpmeta/
 ---
 ## XmpMeta(string) {#constructor_1}
 
-初始化[`XmpMeta`](../../xmpmeta)类的新实例。
+初始化[`XmpMeta`](../../xmpmeta)类.
 
 ```csharp
 public XmpMeta(string toolkitVersion)
@@ -28,7 +28,7 @@ public XmpMeta(string toolkitVersion)
 
 ## XmpMeta() {#constructor}
 
-初始化[`XmpMeta`](../../xmpmeta)类的新实例。
+初始化[`XmpMeta`](../../xmpmeta)类.
 
 ```csharp
 public XmpMeta()

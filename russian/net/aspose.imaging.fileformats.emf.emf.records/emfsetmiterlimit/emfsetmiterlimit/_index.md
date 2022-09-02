@@ -1,14 +1,14 @@
 ---
 title: EmfSetMiterLimit
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetMiterLimitaspose.imaging.fileformats.emf.emf.records/emfsetmiterlimit.
+description: Инициализирует новый экземплярEmfSetMiterLimitaspose.imaging.fileformats.emf.emf.records/emfsetmiterlimit класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetmiterlimit/emfsetmiterlimit/
 ---
 ## EmfSetMiterLimit(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfSetMiterLimit`](../../emfsetmiterlimit).
+Инициализирует новый экземпляр[`EmfSetMiterLimit`](../../emfsetmiterlimit) класс.
 
 ```csharp
 public EmfSetMiterLimit(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfSetMiterLimit(EmfRecord source)
 
 ## EmfSetMiterLimit() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfSetMiterLimit`](../../emfsetmiterlimit).
+Инициализирует новый экземпляр[`EmfSetMiterLimit`](../../emfsetmiterlimit) класс.
 
 ```csharp
 public EmfSetMiterLimit()

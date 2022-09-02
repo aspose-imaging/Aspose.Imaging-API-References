@@ -1,14 +1,14 @@
 ---
 title: RemoveAt
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Удаляет элементIListпо указанному индексу.
+description: УдаляетIList элемент по указанному индексу.
 type: docs
 weight: 160
 url: /ru/net/aspose.imaging/nongenericlist/removeat/
 ---
 ## NonGenericList.RemoveAt method
 
-Удаляет элементIListпо указанному индексу.
+УдаляетIList элемент по указанному индексу.
 
 ```csharp
 public void RemoveAt(int index)

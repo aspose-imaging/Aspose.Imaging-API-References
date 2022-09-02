@@ -1,14 +1,14 @@
 ---
 title: VerticalResolution
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает вертикальное разрешение в пикселях на дюйм для этогоRasterImageaspose.imaging/rasterimage.
+description: Получает или задает разрешение по вертикали в пикселях на дюйм этогоRasterImageaspose.imaging/rasterimage .
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/verticalresolution/
 ---
 ## Jpeg2000Image.VerticalResolution property
 
-Получает или задает вертикальное разрешение в пикселях на дюйм для этого[`RasterImage`](../../../aspose.imaging/rasterimage).
+Получает или задает разрешение по вертикали в пикселях на дюйм этого[`RasterImage`](../../../aspose.imaging/rasterimage) .
 
 ```csharp
 public override double VerticalResolution { get; set; }
@@ -20,7 +20,7 @@ public override double VerticalResolution { get; set; }
 
 ### Примечания
 
-Обратите внимание, что по умолчанию это значение всегда равно 96, так как разные платформы не могут возвращать разрешение экрана. Вы можете рассмотреть возможность использования метода SetResolution для обновления обоих значений разрешения в одном вызове.
+Обратите внимание, что по умолчанию это значение всегда равно 96, поскольку разные платформы не могут возвращать разрешение экрана. Вы можете использовать метод SetResolution для обновления обоих значений разрешения в одном вызове.
 
 ### Примеры
 
@@ -43,7 +43,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.jp2"
 
     if (horizontalResolution != 96.0 || verticalResolution != 96.0)
     {
-         // Используйте метод SetResolution для обновления обоих значений разрешения в одном вызове.
+        // Используйте метод SetResolution для обновления обоих значений разрешения за один вызов.
         System.Console.WriteLine("Set resolution values to 96 dpi");
         jpeg2000Image.SetResolution(96.0, 96.0);
 

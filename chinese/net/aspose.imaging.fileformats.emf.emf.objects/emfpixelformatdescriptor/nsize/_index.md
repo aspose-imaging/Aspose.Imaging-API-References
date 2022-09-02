@@ -1,14 +1,14 @@
 ---
 title: NSize
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 16 位整数该整数指定此数据结构的大小以字节为单位
+description: 获取或设置一个 16 位整数指定此数据结构的大小以字节为单位
 type: docs
 weight: 260
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/nsize/
 ---
 ## EmfPixelFormatDescriptor.NSize property
 
-获取或设置一个 16 位整数，该整数指定此数据结构的大小（以字节为单位）。
+获取或设置一个 16 位整数，指定此数据结构的大小（以字节为单位）。
 
 ```csharp
 public short NSize { get; set; }

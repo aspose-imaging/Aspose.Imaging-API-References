@@ -1,14 +1,14 @@
 ---
 title: EmfPlusColorLookupTableEffect
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект ColorLookupTableEffect задает настройки цветов в изображении.
+description: Объект ColorLookupTableEffect определяет настройки цветов в изображении.
 type: docs
 weight: 5310
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorlookuptableeffect/
 ---
 ## EmfPlusColorLookupTableEffect class
 
-Объект ColorLookupTableEffect задает настройки цветов в изображении.
+Объект ColorLookupTableEffect определяет настройки цветов в изображении.
 
 ```csharp
 public sealed class EmfPlusColorLookupTableEffect : EmfPlusImageEffectsObjectType
@@ -26,8 +26,8 @@ public sealed class EmfPlusColorLookupTableEffect : EmfPlusImageEffectsObjectTyp
 | --- | --- |
 | [AlphaLookupTable](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorlookuptableeffect/alphalookuptable) { get; set; } | Получает или задает массив из 256 байтов, определяющий настройку альфа-канала цвета. |
 | [BlueLookupTable](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorlookuptableeffect/bluelookuptable) { get; set; } | Получает или задает массив из 256 байтов, определяющий корректировку канала синего цвета. |
-| [GreenLookupTable](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorlookuptableeffect/greenlookuptable) { get; set; } | Получает или задает массив из 256 байтов, определяющий настройку канала зеленого цвета. |
-| [RedLookupTable](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorlookuptableeffect/redlookuptable) { get; set; } | Получает или задает массив из 256 байтов, определяющий настройку канала красного цвета. |
+| [GreenLookupTable](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorlookuptableeffect/greenlookuptable) { get; set; } | Получает или задает массив из 256 байтов, определяющий корректировку канала зеленого цвета. |
+| [RedLookupTable](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorlookuptableeffect/redlookuptable) { get; set; } | Получает или задает массив из 256 байтов, определяющий корректировку канала красного цвета. |
 
 ### Смотрите также
 

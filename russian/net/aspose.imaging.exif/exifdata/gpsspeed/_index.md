@@ -1,14 +1,14 @@
 ---
 title: GPSSpeed
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает скорость движения GPS-приемника.
+description: Получает или задает скорость движения приемника GPS.
 type: docs
 weight: 600
 url: /ru/net/aspose.imaging.exif/exifdata/gpsspeed/
 ---
 ## ExifData.GPSSpeed property
 
-Получает или задает скорость движения GPS-приемника.
+Получает или задает скорость движения приемника GPS.
 
 ```csharp
 public TiffRational GPSSpeed { get; set; }
@@ -16,7 +16,7 @@ public TiffRational GPSSpeed { get; set; }
 
 ### Стоимость имущества
 
-Скорость движения GPS приемника.
+Скорость движения GPS-приемника.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: OdTextParagraph
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Абзац текста
+description: Текстовый абзац
 type: docs
 weight: 7300
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odtextparagraph/
 ---
 ## OdTextParagraph class
 
-Абзац текста
+Текстовый абзац
 
 ```csharp
 public class OdTextParagraph : OdStyledObject
@@ -18,13 +18,13 @@ public class OdTextParagraph : OdStyledObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdTextParagraph](odtextparagraph)(OdObject) | Инициализирует новый экземпляр класса[`OdTextParagraph`](../odtextparagraph). |
+| [OdTextParagraph](odtextparagraph)(OdObject) | Инициализирует новый экземпляр[`OdTextParagraph`](../odtextparagraph) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Получает родительский объект. |
 | [Rectangle](../../aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/rectangle) { get; set; } | Получает или задает прямоугольник. |

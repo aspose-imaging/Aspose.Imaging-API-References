@@ -1,14 +1,14 @@
 ---
 title: Fill
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值该值指示此OdEndPathaspose.imaging.fileformats.opendocument.objects.graphic/odendpath是否为填充
+description: 获取或设置一个值该值指示是否OdEndPathaspose.imaging.fileformats.opendocument.objects.graphic/odendpath是填充
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odendpath/fill/
 ---
 ## OdEndPath.Fill property
 
-获取或设置一个值，该值指示此[`OdEndPath`](../../odendpath)是否为填充。
+获取或设置一个值，该值指示是否[`OdEndPath`](../../odendpath)是填充。
 
 ```csharp
 public bool Fill { get; set; }
@@ -16,7 +16,7 @@ public bool Fill { get; set; }
 
 ### 适当的价值
 
-` true` 如果填充；否则，` false` 。
+`真的`如果填写；否则，`错误的` .
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: TiffFrame
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化TiffFrameaspose.imaging.fileformats.tiff/tiffframe类的新实例
+description: 初始化TiffFrameaspose.imaging.fileformats.tiff/tiffframe类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.tiff/tiffframe/tiffframe/
 ---
 ## TiffFrame(Stream) {#constructor_3}
 
-初始化[`TiffFrame`](../../tiffframe)类的新实例。
+初始化[`TiffFrame`](../../tiffframe)类.
 
 ```csharp
 public TiffFrame(Stream stream)
@@ -16,7 +16,7 @@ public TiffFrame(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 用于加载图像和初始化帧像素和调色板数据的流。 |
+| stream | Stream | 用于从中加载图像并用于初始化帧像素和调色板数据的流。 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public TiffFrame(Stream stream)
 
 ## TiffFrame(Stream, TiffOptions) {#constructor_4}
 
-初始化[`TiffFrame`](../../tiffframe)类的新实例。
+初始化[`TiffFrame`](../../tiffframe)类.
 
 ```csharp
 public TiffFrame(Stream stream, TiffOptions options)
@@ -36,8 +36,8 @@ public TiffFrame(Stream stream, TiffOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 用于加载图像和初始化帧像素和调色板数据的流。 |
-| options | TiffOptions | 用于新创建框架的选项。 |
+| stream | Stream | 用于从中加载图像并用于初始化帧像素和调色板数据的流。 |
+| options | TiffOptions | 用于新创建的框架的选项。 |
 
 ### 也可以看看
 
@@ -50,7 +50,7 @@ public TiffFrame(Stream stream, TiffOptions options)
 
 ## TiffFrame(string) {#constructor_5}
 
-初始化[`TiffFrame`](../../tiffframe)类的新实例。
+初始化[`TiffFrame`](../../tiffframe)类.
 
 ```csharp
 public TiffFrame(string path)
@@ -58,7 +58,7 @@ public TiffFrame(string path)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| path | String | 加载图像和初始化帧像素和调色板数据的路径。 |
+| path | String | 从中加载图像和初始化帧像素和调色板数据的路径。 |
 
 ### 也可以看看
 
@@ -70,7 +70,7 @@ public TiffFrame(string path)
 
 ## TiffFrame(string, TiffOptions) {#constructor_6}
 
-初始化[`TiffFrame`](../../tiffframe)类的新实例。
+初始化[`TiffFrame`](../../tiffframe)类.
 
 ```csharp
 public TiffFrame(string path, TiffOptions options)
@@ -78,8 +78,8 @@ public TiffFrame(string path, TiffOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| path | String | 加载图像和初始化帧像素和调色板数据的路径。 |
-| options | TiffOptions | 用于新创建框架的选项。 |
+| path | String | 从中加载图像和初始化帧像素和调色板数据的路径。 |
+| options | TiffOptions | 用于新创建的框架的选项。 |
 
 ### 也可以看看
 
@@ -92,7 +92,7 @@ public TiffFrame(string path, TiffOptions options)
 
 ## TiffFrame(RasterImage) {#constructor_1}
 
-初始化[`TiffFrame`](../../tiffframe)类的新实例。
+初始化[`TiffFrame`](../../tiffframe)类.
 
 ```csharp
 public TiffFrame(RasterImage image)
@@ -116,11 +116,11 @@ createTiffOptions.BitsPerSample = new ushort[] { 8, 8, 8 };
 
 using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)Image.Create(createTiffOptions, 100, 100))
 {
-        // 这是用于在单个帧上绘制文本的字体和画笔。
+    // 这是用于在单个帧上绘制文本的字体和画笔。
     Aspose.Imaging.Font font = new Aspose.Imaging.Font("Arial", 64);
     Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.White);
 
-        // 创建 5 帧
+    // 创建 5 帧
     for (int i = 1; i <= 5; i++)
     {
         Aspose.Imaging.ImageOptions.PngOptions createPngOptions = new Aspose.Imaging.ImageOptions.PngOptions();
@@ -131,20 +131,19 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.Fil
         Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(pngImage);
         gr.DrawString(i.ToString(), font, brush, 10, 10);
 
-            // 基于PNG图片创建一个frame.
+        // 根据 PNG 图像创建一个框架。
         Aspose.Imaging.FileFormats.Tiff.TiffFrame frame = new Aspose.Imaging.FileFormats.Tiff.TiffFrame(pngImage);
 
-            // 将帧添加到 TIFF 图像。
+        // 将帧添加到 TIFF 图像。
         tiffImage.AddFrame(frame);
     }
 
-        // 图像是使用单个默认帧创建的。让我们删除它。
+    // 图像是使用单个默认帧创建的。让我们删除它。
     Aspose.Imaging.FileFormats.Tiff.TiffFrame activeFrame = tiffImage.ActiveFrame;
     tiffImage.ActiveFrame = tiffImage.Frames[1];
     tiffImage.RemoveFrame(0);
 
-        // 如果您不将它添加到其他一些 TiffImage
-，请不要忘记处理帧
+    // 如果你不将它添加到其他 TiffImage 中，不要忘记处理帧
     activeFrame.Dispose();
 
     tiffImage.Save();
@@ -162,7 +161,7 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.Fil
 
 ## TiffFrame(RasterImage, TiffOptions) {#constructor_2}
 
-初始化[`TiffFrame`](../../tiffframe)类的新实例。
+初始化[`TiffFrame`](../../tiffframe)类.
 
 ```csharp
 public TiffFrame(RasterImage image, TiffOptions options)
@@ -171,7 +170,7 @@ public TiffFrame(RasterImage image, TiffOptions options)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | image | RasterImage | 用于初始化帧像素和调色板数据的图像。 |
-| options | TiffOptions | 用于新创建框架的选项。 |
+| options | TiffOptions | 用于新创建的框架的选项。 |
 
 ### 也可以看看
 
@@ -185,7 +184,7 @@ public TiffFrame(RasterImage image, TiffOptions options)
 
 ## TiffFrame(TiffOptions, int, int) {#constructor}
 
-初始化[`TiffFrame`](../../tiffframe)类的新实例。
+初始化[`TiffFrame`](../../tiffframe)类.
 
 ```csharp
 public TiffFrame(TiffOptions options, int width, int height)
@@ -212,68 +211,42 @@ public TiffFrame(TiffOptions options, int width, int height)
 
 string dir = "c:\\temp\\";
 
-       // 第一帧的选项
-Aspose.Imaging.ImageOptions.TiffOptions createOptions1 = new Aspose.Imaging.ImageOptions.TiffOptions(Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
-
+Aspose.Imaging.ImageOptions.TiffOptions createOptions = new Aspose.Imaging.ImageOptions.TiffOptions(Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
+    
 // 为每个颜色分量设置 8 位。
-createOptions1.BitsPerSample = new ushort[] { 8, 8, 8 };
+createOptions.BitsPerSample = new ushort[] { 8, 8, 8 };
 
-    // 设置大端字节序（摩托罗拉）
-createOptions1.ByteOrder = Aspose.Imaging.FileFormats.Tiff.Enums.TiffByteOrder.BigEndian;
+// 设置大端字节序（摩托罗拉）
+createOptions.ByteOrder = Aspose.Imaging.FileFormats.Tiff.Enums.TiffByteOrder.BigEndian;
 
-    // 设置 LZW 压缩。
-createOptions1.Compression = Aspose.Imaging.FileFormats.Tiff.Enums.TiffCompressions.Lzw;
+// 设置 LZW 压缩。
+createOptions.Compression = Aspose.Imaging.FileFormats.Tiff.Enums.TiffCompressions.Lzw;
 
-    // 设置 RGB 颜色模型.
-createOptions1.Photometric = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.Rgb;
+// 设置 RGB 颜色模型。
+createOptions.Photometric = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.Rgb;
 
-    // 所有颜色分量都将存储在一个平面内。
-createOptions1.PlanarConfiguration = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPlanarConfigs.Contiguous;
+// 所有颜色分量都将存储在一个平面内。
+createOptions.PlanarConfiguration = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPlanarConfigs.Contiguous;
 
-    // 创建第一个 100x100 像素的 TIFF 帧。
-    // 请注意，如果帧包含在 TiffImage.
- 中，则不必显式处理帧
+// 创建一个 100x100 像素的 TIFF 帧。
+// 请注意，如果帧包含在 TiffImage 中，则不必显式处理它。
 // 当容器被释放时，所有的帧都会被自动释放。
-Aspose.Imaging.FileFormats.Tiff.TiffFrame frame1 = new Aspose.Imaging.FileFormats.Tiff.TiffFrame(createOptions1, 100, 100);
-
-// 用蓝黄色渐变填充第一帧。
+Aspose.Imaging.FileFormats.Tiff.TiffFrame firstFrame = new Aspose.Imaging.FileFormats.Tiff.TiffFrame(createOptions, 100, 100);
+    
+// 用蓝黄色渐变填充整个帧。
 Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
         new Aspose.Imaging.Point(0, 0),
-        new Aspose.Imaging.Point(frame1.Width, frame1.Height),
+        new Aspose.Imaging.Point(firstFrame.Width, firstFrame.Height),
         Aspose.Imaging.Color.Blue,
         Aspose.Imaging.Color.Yellow);
 
-Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(frame1);
-graphics.FillRectangle(gradientBrush, frame1.Bounds);
+Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(firstFrame);
+graphics.FillRectangle(gradientBrush, firstFrame.Bounds);
 
-       // 第一帧的选项
-Aspose.Imaging.ImageOptions.TiffOptions createOptions2 = new Aspose.Imaging.ImageOptions.TiffOptions(Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
-
-    // 为黑白图像设置每像素 1 位。
-createOptions2.BitsPerSample = new ushort[] { 1 };
-
-    // 设置 Little Endian 字节顺序 (Intel)
-createOptions2.ByteOrder = Aspose.Imaging.FileFormats.Tiff.Enums.TiffByteOrder.LittleEndian;
-
-// 设置 CCITT Group 3 传真压缩。
-createOptions2.Compression = Aspose.Imaging.FileFormats.Tiff.Enums.TiffCompressions.CcittFax3;
-
-    // 设置 B/W 颜色模型，其中 0 为黑色，1 为白色。
-createOptions2.Photometric = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.MinIsBlack;
-
-    // 创建第二个 200x200px 的 TIFF 帧。
-Aspose.Imaging.FileFormats.Tiff.TiffFrame frame2 = new Aspose.Imaging.FileFormats.Tiff.TiffFrame(createOptions2, 200, 200);
-
-    // 用蓝黄色渐变填充第二帧。
-    // 由于frame的相应设置，会自动转换为B/W格式。
-Aspose.Imaging.Graphics graphics2 = new Aspose.Imaging.Graphics(frame2);
-graphics2.FillRectangle(gradientBrush, frame2.Bounds);
-
-    // 创建一个 TIFF 图像。
-using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = new Aspose.Imaging.FileFormats.Tiff.TiffImage(
-    new Aspose.Imaging.FileFormats.Tiff.TiffFrame[] { frame1, frame2 }))
+// 创建一个 TIFF 图像。
+using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = new Aspose.Imaging.FileFormats.Tiff.TiffImage(firstFrame))
 {
-    tiffImage.Save(dir + "output.mutliframe.tif");
+    tiffImage.Save(dir + "output.tif");
 }
 ```
 
@@ -284,27 +257,26 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = new Aspose.Imaging.
 
 string dir = "c:\\temp\\";
 
-       // 第一帧的选项
+// 第一帧的选项
 Aspose.Imaging.ImageOptions.TiffOptions createOptions1 = new Aspose.Imaging.ImageOptions.TiffOptions(Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
 
 // 为每个颜色分量设置 8 位。
 createOptions1.BitsPerSample = new ushort[] { 8, 8, 8 };
 
-    // 设置大端字节序（摩托罗拉）
+// 设置大端字节序（摩托罗拉）
 createOptions1.ByteOrder = Aspose.Imaging.FileFormats.Tiff.Enums.TiffByteOrder.BigEndian;
 
-    // 设置 LZW 压缩。
+// 设置 LZW 压缩。
 createOptions1.Compression = Aspose.Imaging.FileFormats.Tiff.Enums.TiffCompressions.Lzw;
 
-    // 设置 RGB 颜色模型.
+// 设置 RGB 颜色模型。
 createOptions1.Photometric = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.Rgb;
 
-    // 所有颜色分量都将存储在一个平面内。
+// 所有颜色分量都将存储在一个平面内。
 createOptions1.PlanarConfiguration = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPlanarConfigs.Contiguous;
 
-    // 创建第一个 100x100 像素的 TIFF 帧。
-    // 请注意，如果帧包含在 TiffImage.
- 中，则不必显式处理帧
+// 创建第一个 100x100 像素的 TIFF 帧。
+// 请注意，如果帧包含在 TiffImage 中，则不必显式处理帧。
 // 当容器被释放时，所有的帧都会被自动释放。
 Aspose.Imaging.FileFormats.Tiff.TiffFrame frame1 = new Aspose.Imaging.FileFormats.Tiff.TiffFrame(createOptions1, 100, 100);
 
@@ -318,30 +290,30 @@ Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Br
 Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(frame1);
 graphics.FillRectangle(gradientBrush, frame1.Bounds);
 
-       // 第一帧的选项
+// 第一帧的选项
 Aspose.Imaging.ImageOptions.TiffOptions createOptions2 = new Aspose.Imaging.ImageOptions.TiffOptions(Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
 
-    // 为黑白图像设置每像素 1 位。
+// 为黑白图像设置每像素 1 位。
 createOptions2.BitsPerSample = new ushort[] { 1 };
 
-    // 设置 Little Endian 字节顺序 (Intel)
+// 设置 Little Endian 字节顺序（Intel）
 createOptions2.ByteOrder = Aspose.Imaging.FileFormats.Tiff.Enums.TiffByteOrder.LittleEndian;
 
-// 设置 CCITT Group 3 传真压缩。
+// 设置 CCITT Group 3 Fax 压缩。
 createOptions2.Compression = Aspose.Imaging.FileFormats.Tiff.Enums.TiffCompressions.CcittFax3;
 
-    // 设置 B/W 颜色模型，其中 0 为黑色，1 为白色。
+// 设置 B/W 颜色模型，其中 0 为黑色，1 为白色。
 createOptions2.Photometric = Aspose.Imaging.FileFormats.Tiff.Enums.TiffPhotometrics.MinIsBlack;
 
-    // 创建第二个 200x200px 的 TIFF 帧。
+// 创建第二个 200x200px 的 TIFF 帧。
 Aspose.Imaging.FileFormats.Tiff.TiffFrame frame2 = new Aspose.Imaging.FileFormats.Tiff.TiffFrame(createOptions2, 200, 200);
 
-    // 用蓝黄色渐变填充第二帧。
-    // 由于frame的相应设置，会自动转换为B/W格式。
+// 用蓝黄色渐变填充第二帧。
+// 由于帧的相应设置，它会自动转换为黑白格式。
 Aspose.Imaging.Graphics graphics2 = new Aspose.Imaging.Graphics(frame2);
 graphics2.FillRectangle(gradientBrush, frame2.Bounds);
 
-    // 创建一个 TIFF 图像。
+// 创建一个 TIFF 图像。
 using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = new Aspose.Imaging.FileFormats.Tiff.TiffImage(
     new Aspose.Imaging.FileFormats.Tiff.TiffFrame[] { frame1, frame2 }))
 {

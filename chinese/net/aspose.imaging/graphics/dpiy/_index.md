@@ -1,14 +1,14 @@
 ---
 title: DpiY
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取此 Aspose.Imaging.Graphics 的垂直分辨率
+description: 获取此 Aspose.Imaging.Graphics. 的垂直分辨率
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging/graphics/dpiy/
 ---
 ## Graphics.DpiY property
 
-获取此 Aspose.Imaging.Graphics 的垂直分辨率。
+获取此 Aspose.Imaging.Graphics. 的垂直分辨率
 
 ```csharp
 public float DpiY { get; }
@@ -16,7 +16,7 @@ public float DpiY { get; }
 
 ### 适当的价值
 
-此 Aspose.Imaging.Graphics 支持的垂直分辨率的值，以每英寸点数为单位.
+此 Aspose.Imaging.Graphics. 支持的垂直分辨率的值，以每英寸点数为单位
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Intersect
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Обновляет этотRegionaspose.imaging/regionдо пересечения себя с указаннымRectangleFaspose.imaging/rectanglefструктура.
+description: Обновляет этоRegionaspose.imaging/region до пересечения себя с указаннымRectangleFaspose.imaging/rectanglef структура.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging/region/intersect/
 ---
 ## Intersect(RectangleF) {#intersect_2}
 
-Обновляет этот[`Region`](../../region)до пересечения себя с указанным[`RectangleF`](../../rectanglef)структура.
+Обновляет это[`Region`](../../region) до пересечения себя с указанным[`RectangleF`](../../rectanglef) структура.
 
 ```csharp
 public void Intersect(RectangleF rect)
@@ -16,7 +16,7 @@ public void Intersect(RectangleF rect)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rect | RectangleF | Структура[`RectangleF`](../../rectanglef)для пересечения с этой[`Region`](../../region). |
+| rect | RectangleF | [`RectangleF`](../../rectanglef) структура пересекается с этим[`Region`](../../region). |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public void Intersect(RectangleF rect)
 
 ## Intersect(Rectangle) {#intersect_1}
 
-Обновляет этот[`Region`](../../region)до пересечения себя с указанным[`Rectangle`](../../rectangle)структура.
+Обновляет это[`Region`](../../region) до пересечения себя с указанным[`Rectangle`](../../rectangle) структура.
 
 ```csharp
 public void Intersect(Rectangle rect)
@@ -37,7 +37,7 @@ public void Intersect(Rectangle rect)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rect | Rectangle | Структура[`Rectangle`](../../rectangle)для пересечения с этой[`Region`](../../region). |
+| rect | Rectangle | [`Rectangle`](../../rectangle) структура пересекается с этим[`Region`](../../region). |
 
 ### Смотрите также
 
@@ -50,7 +50,7 @@ public void Intersect(Rectangle rect)
 
 ## Intersect(GraphicsPath) {#intersect}
 
-Обновляет этот[`Region`](../../region)до пересечения себя с указаннымПутькграфике.
+Обновляет это[`Region`](../../region) до пересечения себя с указанным[`GraphicsPath`](../../graphicspath) .
 
 ```csharp
 public void Intersect(GraphicsPath path)
@@ -58,7 +58,7 @@ public void Intersect(GraphicsPath path)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | GraphicsPath | [`GraphicsPath`](../../graphicspath)для пересечения с этим[`Region`](../../region). |
+| path | GraphicsPath | [`GraphicsPath`](../../graphicspath)пересекаться с этим[`Region`](../../region). |
 
 ### Смотрите также
 
@@ -71,7 +71,7 @@ public void Intersect(GraphicsPath path)
 
 ## Intersect(Region) {#intersect_3}
 
-Обновляет этот[`Region`](../../region)до пересечения себя с указаннымОбласть,край.
+Обновляет это[`Region`](../../region) до пересечения себя с указанным[`Region`](../../region) .
 
 ```csharp
 public void Intersect(Region region)
@@ -79,7 +79,7 @@ public void Intersect(Region region)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| region | Region | [`Region`](../../region)для пересечения с этим[`Region`](../../region). |
+| region | Region | [`Region`](../../region)пересекаться с этим[`Region`](../../region). |
 
 ### Смотрите также
 

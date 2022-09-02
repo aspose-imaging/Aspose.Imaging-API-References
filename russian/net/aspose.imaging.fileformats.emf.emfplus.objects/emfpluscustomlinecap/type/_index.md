@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число со знаком указывающее тип пользовательского объекта окончания строки который определяет содержимое поля CustomLineCapData.
+description: Получает или задает 32-разрядное целое число со знаком указывающее тип пользовательского объекта окончания строки определяющий содержимое поля CustomLineCapData.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap/type/
 ---
 ## EmfPlusCustomLineCap.Type property
 
-Получает или задает 32-разрядное целое число со знаком, указывающее тип пользовательского объекта окончания строки, который определяет содержимое поля CustomLineCapData.
+Получает или задает 32-разрядное целое число со знаком, указывающее тип пользовательского объекта окончания строки, определяющий содержимое поля CustomLineCapData.
 
 ```csharp
 public EmfPlusCustomLineCapDataType Type { get; set; }

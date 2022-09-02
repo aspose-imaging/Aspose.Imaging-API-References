@@ -1,14 +1,14 @@
 ---
 title: EmfPolyBezierTo
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPolyBezierToaspose.imaging.fileformats.emf.emf.records/emfpolybezierto.
+description: Инициализирует новый экземплярEmfPolyBezierToaspose.imaging.fileformats.emf.emf.records/emfpolybezierto класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpolybezierto/emfpolybezierto/
 ---
 ## EmfPolyBezierTo(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfPolyBezierTo`](../../emfpolybezierto).
+Инициализирует новый экземпляр[`EmfPolyBezierTo`](../../emfpolybezierto) класс.
 
 ```csharp
 public EmfPolyBezierTo(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfPolyBezierTo(EmfRecord source)
 
 ## EmfPolyBezierTo() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfPolyBezierTo`](../../emfpolybezierto).
+Инициализирует новый экземпляр[`EmfPolyBezierTo`](../../emfpolybezierto) класс.
 
 ```csharp
 public EmfPolyBezierTo()

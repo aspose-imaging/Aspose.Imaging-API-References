@@ -1,14 +1,14 @@
 ---
 title: ReadArgb32ScanLine
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Читает всю строку сканирования по указанному индексу строки сканирования.
+description: Считывает всю строку сканирования по указанному индексу строки сканирования.
 type: docs
 weight: 440
 url: /ru/net/aspose.imaging/rasterimage/readargb32scanline/
 ---
 ## RasterImage.ReadArgb32ScanLine method
 
-Читает всю строку сканирования по указанному индексу строки сканирования.
+Считывает всю строку сканирования по указанному индексу строки сканирования.
 
 ```csharp
 public int[] ReadArgb32ScanLine(int scanLineIndex)
@@ -20,7 +20,7 @@ public int[] ReadArgb32ScanLine(int scanLineIndex)
 
 ### Возвращаемое значение
 
-Массив 32-битных значений цвета строки развертки ARGB.
+Массив 32-битных значений цвета строки сканирования ARGB.
 
 ### Смотрите также
 

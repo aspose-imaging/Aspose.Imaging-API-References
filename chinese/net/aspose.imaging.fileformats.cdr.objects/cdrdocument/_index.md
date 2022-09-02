@@ -23,15 +23,15 @@ public class CdrDocument : CdrObjectContainer
 | [Bmps](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/bmps) { get; } | 获取 BMPS。 |
 | [Childs](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/childs) { get; } | 获取或设置对象。 |
 | [ClipIds](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/clipids) { get; set; } | 获取或设置剪辑 ID。 |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示该实例是否被释放。 |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示此实例是否被释放。 |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | 获取或设置文档。 |
-| [Fills](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/fills) { get; } | 获取填充。 |
+| [Fills](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/fills) { get; } | 获取填充物。 |
 | [Fonts](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/fonts) { get; } | 获取字体。 |
-| [Hidden](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/hidden) { get; set; } | 获取或设置一个值，该值指示此[`CdrObjectContainer`](../cdrobjectcontainer)是否可见。 |
+| [Hidden](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/hidden) { get; set; } | 获取或设置一个值，该值指示是否[`CdrObjectContainer`](../cdrobjectcontainer)可见。 |
 | [LastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/lastchild) { get; set; } | 获取或设置最后一个孩子。 |
 | [LastTextIndex](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/lasttextindex) { get; set; } | 获取文本索引。 |
-| [LoadToLastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/loadtolastchild) { get; set; } | 获取或设置一个值，该值指示是否 [load to last child]。 |
-| [OutLines](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/outlines) { get; } | 获取输出行。 |
+| [LoadToLastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/loadtolastchild) { get; set; } | 获取或设置一个值，该值指示是否 [load to last child]. |
+| [OutLines](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/outlines) { get; } | 获取出线。 |
 | [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | 获取或设置父级。 |
 | [Patterns](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/patterns) { get; } | 获取模式。 |
 | [PowerClips](../../aspose.imaging.fileformats.cdr.objects/cdrdocument/powerclips) { get; set; } | 获取电源剪辑。 |
@@ -45,7 +45,7 @@ public class CdrDocument : CdrObjectContainer
 | 姓名 | 描述 |
 | --- | --- |
 | [AddChildObject](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/addchildobject)(CdrObject) | 添加子对象。 |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 释放当前实例。 |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 处理当前实例。 |
 | [InsertObject](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/insertobject)(CdrObject) | 插入对象 |
 
 ### 也可以看看

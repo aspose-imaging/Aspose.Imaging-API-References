@@ -16,7 +16,7 @@ public int RegionIndex { get; set; }
 
 ### 适当的价值
 
-WMF 对象表的索引以获取要填充的区域。
+索引到 WMF 对象表以获取要填充的区域。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: IsTiled
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取图像是否平铺的值
+description: 获取一个表示图像是否平铺的值
 type: docs
 weight: 260
 url: /zh/net/aspose.imaging.imageoptions/tiffoptions/istiled/
 ---
 ## TiffOptions.IsTiled property
 
-获取图像是否平铺的值。
+获取一个表示图像是否平铺的值。
 
 ```csharp
 public bool IsTiled { get; }
@@ -16,7 +16,7 @@ public bool IsTiled { get; }
 
 ### 适当的价值
 
-` true` 如果图像是平铺的；否则，` false` 。
+`真的`如果图像是平铺的；否则，`错误的` .
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: TextContrast
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 16 位无符号整数指定伽马校正值 用于呈现抗锯齿和 ClearType 文本此值必须在 0 到 12 的范围内包括 0 到 12
+description: 获取或设置一个 16 位无符号整数该整数指定用于渲染抗锯齿和 ClearType 文本的 gamma 校正值 该值必须在 0 到 12 的范围内包括 0 到 12
 type: docs
 weight: 120
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics/textcontrast/
 ---
 ## EmfPlusSetTsGraphics.TextContrast property
 
-获取或设置一个 16 位无符号整数，指定伽马校正值 用于呈现抗锯齿和 ClearType 文本。此值必须在 0 到 12 的范围内，包括 0 到 12。
+获取或设置一个 16 位无符号整数，该整数指定用于渲染抗锯齿和 ClearType 文本的 gamma 校正值 。该值必须在 0 到 12 的范围内，包括 0 到 12。
 
 ```csharp
 public short TextContrast { get; set; }
@@ -16,7 +16,7 @@ public short TextContrast { get; set; }
 
 ### 适当的价值
 
-文本对比。
+文字对比。
 
 ### 也可以看看
 

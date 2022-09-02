@@ -1,14 +1,14 @@
 ---
 title: SampleRoundingMode
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置样本舍入模式以使 8 位值适合 n 位值BitsPerChannel
+description: 获取或设置样本舍入模式以将 8 位值适合 n 位值BitsPerChannel
 type: docs
 weight: 180
 url: /zh/net/aspose.imaging.imageoptions/jpegoptions/sampleroundingmode/
 ---
 ## JpegOptions.SampleRoundingMode property
 
-获取或设置样本舍入模式以使 8 位值适合 n 位值。BitsPerChannel
+获取或设置样本舍入模式以将 8 位值适合 n 位值。BitsPerChannel
 
 ```csharp
 public SampleRoundingMode SampleRoundingMode { get; set; }

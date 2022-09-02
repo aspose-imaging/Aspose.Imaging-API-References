@@ -1,14 +1,14 @@
 ---
 title: Complement
 second_title: Aspose.Imaging for .NET API 参考
-description: 更新此Regionaspose.imaging/region以包含指定Imaging的部分与此R5TAspose.Imaging.Region不相交的 RectangleF结构
+description: 更新这个Regionaspose.imaging/region包含指定的部分RectangleFaspose.imaging/rectanglef与此不相交的结构Regionaspose.imaging/region .
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging/region/complement/
 ---
 ## Complement(RectangleF) {#complement_2}
 
-更新此[`Region`](../../region)以包含指定Imaging的部分。与此R5:T:Aspose.Imaging.Region:::不相交的 RectangleF:::结构。
+更新这个[`Region`](../../region)包含指定的部分[`RectangleF`](../../rectanglef)与此不相交的结构[`Region`](../../region) .
 
 ```csharp
 public void Complement(RectangleF rect)
@@ -16,7 +16,7 @@ public void Complement(RectangleF rect)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | RectangleF | [`RectangleF`](../../rectanglef)结构来补充这个[`Region`](../../region)。 |
+| rect | RectangleF | 这[`RectangleF`](../../rectanglef)结构来补充这个[`Region`](../../region). |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public void Complement(RectangleF rect)
 
 ## Complement(Rectangle) {#complement_1}
 
-更新此[`Region`](../../region)以包含指定Imaging的部分。与此R5:T:Aspose.Imaging.Region:::不相交的 Rectangle:::结构。
+更新这个[`Region`](../../region)包含指定的部分[`Rectangle`](../../rectangle)与此不相交的结构[`Region`](../../region) .
 
 ```csharp
 public void Complement(Rectangle rect)
@@ -37,7 +37,7 @@ public void Complement(Rectangle rect)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | Rectangle | [`Rectangle`](../../rectangle)结构来补充这个[`Region`](../../region)。 |
+| rect | Rectangle | 这[`Rectangle`](../../rectangle)结构来补充这个[`Region`](../../region). |
 
 ### 也可以看看
 
@@ -50,7 +50,7 @@ public void Complement(Rectangle rect)
 
 ## Complement(GraphicsPath) {#complement}
 
-更新此[`Region`](../../region)以包含指定Imaging的部分。GraphicsPath不与此[`Region`](../../region)相交。
+更新这个[`Region`](../../region)包含指定的部分[`GraphicsPath`](../../graphicspath)与此不相交[`Region`](../../region) .
 
 ```csharp
 public void Complement(GraphicsPath path)
@@ -58,13 +58,13 @@ public void Complement(GraphicsPath path)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| path | GraphicsPath | [`GraphicsPath`](../../graphicspath)补充这个[`Region`](../../region)。 |
+| path | GraphicsPath | 这[`GraphicsPath`](../../graphicspath)补充这一点[`Region`](../../region). |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *path*isnull。 |
+| ArgumentNullException | *path*isnull. |
 
 ### 也可以看看
 
@@ -77,7 +77,7 @@ public void Complement(GraphicsPath path)
 
 ## Complement(Region) {#complement_3}
 
-更新此[`Region`](../../region)以包含指定Imaging的部分。Region不与此[`Region`](../../region)相交。
+更新这个[`Region`](../../region)包含指定的部分[`Region`](../../region)与此不相交[`Region`](../../region) .
 
 ```csharp
 public void Complement(Region region)
@@ -85,13 +85,13 @@ public void Complement(Region region)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| region | Region | [`Region`](../../region)对象补充这个[`Region`](../../region)对象。 |
+| region | Region | 这[`Region`](../../region)反对对此进行补充[`Region`](../../region)目的。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *region*isnull。 |
+| ArgumentNullException | *region*isnull. |
 
 ### 也可以看看
 

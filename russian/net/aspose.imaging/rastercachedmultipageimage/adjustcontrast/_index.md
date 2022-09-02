@@ -1,14 +1,14 @@
 ---
 title: AdjustContrast
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Imageaspose.imaging/imageконтраст
+description: Imageaspose.imaging/image контрастный
 type: docs
 weight: 140
 url: /ru/net/aspose.imaging/rastercachedmultipageimage/adjustcontrast/
 ---
 ## RasterCachedMultipageImage.AdjustContrast method
 
-[`Image`](../../image)контраст
+[`Image`](../../image) контрастный
 
 ```csharp
 public override void AdjustContrast(float contrast)
@@ -16,7 +16,7 @@ public override void AdjustContrast(float contrast)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| контраст | Single | Контраст значение (в диапазоне [-100; 100]) |
+| contrast | Single | Значение контраста (в диапазоне [-100; 100]) |
 
 ### Смотрите также
 

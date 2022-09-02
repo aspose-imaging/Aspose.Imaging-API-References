@@ -3,7 +3,7 @@ title: Time
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представление значения времени в секундах.
 type: docs
-weight: 11400
+weight: 11390
 url: /ru/net/aspose.imaging.xmp.schemas.xmpdm/time/
 ---
 ## Time class
@@ -18,7 +18,7 @@ public sealed class Time : XmpTypeBase
 
 | Имя | Описание |
 | --- | --- |
-| [Time](time)(Rational, int) | Инициализирует новый экземпляр класса[`Time`](../time). |
+| [Time](time)(Rational, int) | Инициализирует новый экземпляр[`Time`](../time) класс. |
 
 ## Характеристики
 

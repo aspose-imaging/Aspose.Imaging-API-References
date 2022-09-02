@@ -1,14 +1,14 @@
 ---
 title: TiffStreamFactory
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Фабрика для правильного создания вспомогательных потоков tiff
+description: Factory для правильного создания вспомогательных потоков tiff
 type: docs
 weight: 7780
 url: /ru/net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/
 ---
 ## TiffStreamFactory class
 
-Фабрика для правильного создания вспомогательных потоков tiff
+Factory для правильного создания вспомогательных потоков tiff
 
 ```csharp
 public static class TiffStreamFactory
@@ -18,8 +18,8 @@ public static class TiffStreamFactory
 
 | Имя | Описание |
 | --- | --- |
-| static [GetTiffReader](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/gettiffreader#gettiffreader)(StreamContainer, TiffByteOrder) | Получает программу чтения потока TIFF. |
-| static [GetTiffReader](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/gettiffreader#gettiffreader_1)(byte[], int, int, TiffByteOrder) | Получает программу чтения потока TIFF. |
+| static [GetTiffReader](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/gettiffreader#gettiffreader)(StreamContainer, TiffByteOrder) | Получает читатель потока TIFF. |
+| static [GetTiffReader](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/gettiffreader#gettiffreader_1)(byte[], int, int, TiffByteOrder) | Получает читатель потока TIFF. |
 | static [GetTiffWriter](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/gettiffwriter)(StreamContainer, TiffByteOrder) | Получает средство записи потока tiff. |
 
 ### Смотрите также

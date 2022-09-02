@@ -1,14 +1,14 @@
 ---
 title: Empty
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取Pointaspose.imaging/point结构的新实例该结构具有X和Yaspose.imaging/point/y值设置为零
+description: 获取一个新的实例Pointaspose.imaging/point具有的结构Xaspose.imaging/point/x和Yaspose.imaging/point/y值设置为零
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging/point/empty/
 ---
 ## Point.Empty property
 
-获取[`Point`](../../point)结构的新实例，该结构具有X和[`Y`](../y)值设置为零。
+获取一个新的实例[`Point`](../../point)具有的结构[`X`](../x)和[`Y`](../y)值设置为零。
 
 ```csharp
 public static Point Empty { get; }

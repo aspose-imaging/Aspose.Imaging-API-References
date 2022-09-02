@@ -29,7 +29,7 @@ public override void Crop(Rectangle rectangle)
 
 ## Crop(int, int, int, int) {#crop_1}
 
-带班次裁剪图像。
+使用班次裁剪图像。
 
 ```csharp
 public override void Crop(int leftShift, int rightShift, int topShift, int bottomShift)
@@ -39,15 +39,15 @@ public override void Crop(int leftShift, int rightShift, int topShift, int botto
 | --- | --- | --- |
 | leftShift | Int32 | 左移。 |
 | rightShift | Int32 | 右移。 |
-| topShift | Int32 | 顶部移位。 |
-| bottomShift | Int32 | 底部移位。 |
+| topShift | Int32 | 最高班次。 |
+| bottomShift | Int32 | 下移。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | 矩形不正确。 - 矩形 或 矩形必须包含在图像边界中。 - 矩形 |
-| [ImageException](../../../aspose.imaging.coreexceptions/imageexception) | 无法裁剪图像。帧索引:" + frameIndex 或 无法裁剪图像。 |
+| ArgumentException | 矩形不正确。 - rectangle or 矩形必须包含在图像边界中。 - 矩形 |
+| [ImageException](../../../aspose.imaging.coreexceptions/imageexception) | 无法裁剪图像。帧索引：" + frameIndex or 无法裁剪图像。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: JpegLoadException
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示JPEG图片加载异常
+description: 代表JPEG图片加载异常
 type: docs
 weight: 590
 url: /zh/net/aspose.imaging.coreexceptions.imageformats/jpegloadexception/
 ---
 ## JpegLoadException class
 
-表示JPEG图片加载异常。
+代表JPEG图片加载异常。
 
 ```csharp
 public class JpegLoadException : JpegException
@@ -18,10 +18,10 @@ public class JpegLoadException : JpegException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [JpegLoadException](jpegloadexception#constructor)(string) | 初始化[`JpegLoadException`](../jpegloadexception)类的新实例。 |
-| [JpegLoadException](jpegloadexception#constructor_1)(string, ErrorReason) | 初始化[`JpegLoadException`](../jpegloadexception)类的新实例。 |
-| [JpegLoadException](jpegloadexception#constructor_2)(string, Exception) | 初始化[`JpegLoadException`](../jpegloadexception)类的新实例。 |
-| [JpegLoadException](jpegloadexception#constructor_3)(string, Exception, ErrorReason) | 初始化[`JpegLoadException`](../jpegloadexception)类的新实例。 |
+| [JpegLoadException](jpegloadexception#constructor)(string) | 初始化[`JpegLoadException`](../jpegloadexception)类. |
+| [JpegLoadException](jpegloadexception#constructor_1)(string, ErrorReason) | 初始化[`JpegLoadException`](../jpegloadexception)类. |
+| [JpegLoadException](jpegloadexception#constructor_2)(string, Exception) | 初始化[`JpegLoadException`](../jpegloadexception)类. |
+| [JpegLoadException](jpegloadexception#constructor_3)(string, Exception, ErrorReason) | 初始化[`JpegLoadException`](../jpegloadexception)类. |
 
 ## 特性
 

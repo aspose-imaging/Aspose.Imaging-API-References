@@ -1,14 +1,14 @@
 ---
 title: HasTransparentColor
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值该值指示图像是否具有透明色
+description: 获取或设置图像是否具有透明色的值
 type: docs
 weight: 140
 url: /zh/net/aspose.imaging.fileformats.tga/tgaimage/hastransparentcolor/
 ---
 ## TgaImage.HasTransparentColor property
 
-获取或设置一个值，该值指示图像是否具有透明色。
+获取或设置图像是否具有透明色的值。
 
 ```csharp
 public override bool HasTransparentColor { get; set; }

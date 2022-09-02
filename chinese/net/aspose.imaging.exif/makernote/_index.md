@@ -29,7 +29,7 @@ public class MakerNote
 
 ### 例子
 
-以 Jpeg 图像访问相机制造商制造商注释。
+访问 Jpeg 图像中的相机制造商制造商注释。
 
 ```csharp
 [C#]

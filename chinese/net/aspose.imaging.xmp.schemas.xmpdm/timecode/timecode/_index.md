@@ -1,14 +1,14 @@
 ---
 title: Timecode
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化Timecodeaspose.imaging.xmp.schemas.xmpdm/timecode类的新实例
+description: 初始化Timecodeaspose.imaging.xmp.schemas.xmpdm/timecode类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/timecode/timecode/
 ---
 ## Timecode constructor
 
-初始化[`Timecode`](../../timecode)类的新实例。
+初始化[`Timecode`](../../timecode)类.
 
 ```csharp
 public Timecode(TimeFormat format, string timeValue)
@@ -17,7 +17,7 @@ public Timecode(TimeFormat format, string timeValue)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | format | TimeFormat | 时间格式。 |
-| timeValue | String | 时间值。 |
+| timeValue | String | 时间价值。 |
 
 ### 也可以看看
 

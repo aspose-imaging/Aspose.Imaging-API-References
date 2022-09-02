@@ -1,14 +1,14 @@
 ---
 title: PenWidth
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 32 位浮点值该值指定笔绘制的 线的宽度单位由 PenUnit 指定 字段如果指定了零宽度则使用最小值 由单位
+description: 获取或设置 32 位浮点值该值以 PenUnit 字段指定的单位指定由笔绘制的 线的宽度如果指定了零宽度则使用最小值 它由单位 确定
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/penwidth/
 ---
 ## EmfPlusPenData.PenWidth property
 
-获取或设置 32 位浮点值，该值指定笔绘制的 线的宽度，单位由 PenUnit 指定 字段。如果指定了零宽度，则使用最小值 由单位
+获取或设置 32 位浮点值，该值以 PenUnit 字段指定的单位指定由笔绘制的 线的宽度。如果指定了零宽度，则使用最小值， ，它由单位 确定
 
 ```csharp
 public float PenWidth { get; set; }

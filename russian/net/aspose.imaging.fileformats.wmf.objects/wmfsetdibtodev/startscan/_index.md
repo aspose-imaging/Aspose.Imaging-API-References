@@ -1,14 +1,14 @@
 ---
 title: StartScan
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает начальное сканирование.
+description: Получает или задает начало сканирования.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfsetdibtodev/startscan/
 ---
 ## WmfSetDibToDev.StartScan property
 
-Получает или задает начальное сканирование.
+Получает или задает начало сканирования.
 
 ```csharp
 public int StartScan { get; set; }

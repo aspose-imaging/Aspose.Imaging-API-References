@@ -1,14 +1,14 @@
 ---
 title: EmfExtTextOutW
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfExtTextOutWaspose.imaging.fileformats.emf.emf.records/emfexttextoutw.
+description: Инициализирует новый экземплярEmfExtTextOutWaspose.imaging.fileformats.emf.emf.records/emfexttextoutw класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfexttextoutw/emfexttextoutw/
 ---
 ## EmfExtTextOutW(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfExtTextOutW`](../../emfexttextoutw).
+Инициализирует новый экземпляр[`EmfExtTextOutW`](../../emfexttextoutw) класс.
 
 ```csharp
 public EmfExtTextOutW(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfExtTextOutW(EmfRecord source)
 
 ## EmfExtTextOutW() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfExtTextOutW`](../../emfexttextoutw).
+Инициализирует новый экземпляр[`EmfExtTextOutW`](../../emfexttextoutw) класс.
 
 ```csharp
 public EmfExtTextOutW()

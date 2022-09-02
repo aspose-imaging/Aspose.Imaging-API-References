@@ -1,14 +1,14 @@
 ---
 title: NVersion
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个必须设置为 0x0001 的 16 位整数
+description: 获取或设置一个 16 位整数必须设置为 0x0001.
 type: docs
 weight: 270
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/nversion/
 ---
 ## EmfPixelFormatDescriptor.NVersion property
 
-获取或设置一个必须设置为 0x0001 的 16 位整数。
+获取或设置一个 16 位整数，必须设置为 0x0001.
 
 ```csharp
 public short NVersion { get; set; }

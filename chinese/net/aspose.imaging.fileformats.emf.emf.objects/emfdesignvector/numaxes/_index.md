@@ -1,14 +1,14 @@
 ---
 title: NumAxes
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数该整数指定 Values 数组中的元素数它必须在 0 到 16 的范围内包括
+description: 获取或设置一个 32 位无符号整数它指定 Values 数组中的元素数它必须在 0 到 16 的范围内inclusive
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/numaxes/
 ---
 ## EmfDesignVector.NumAxes property
 
-获取或设置一个 32 位无符号整数，该整数指定 Values 数组中的元素数。它必须在 0 到 16 的范围内，包括
+获取或设置一个 32 位无符号整数，它指定 Values 数组中的元素数。它必须在 0 到 16 的范围内，inclusive
 
 ```csharp
 public int NumAxes { get; set; }

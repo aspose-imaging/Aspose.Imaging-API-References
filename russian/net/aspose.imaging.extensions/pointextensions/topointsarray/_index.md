@@ -1,14 +1,14 @@
 ---
 title: ToPointsArray
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Преобразует массивPointaspose.imaging/pointв массивPointFaspose.imaging/pointfмножество.
+description: ПреобразуетPointaspose.imaging/pointмассив кPointFaspose.imaging/pointf массив.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.extensions/pointextensions/topointsarray/
 ---
 ## PointExtensions.ToPointsArray method
 
-Преобразует массив[`Point`](../../../aspose.imaging/point)в массив[`PointF`](../../../aspose.imaging/pointf)множество.
+Преобразует[`Point`](../../../aspose.imaging/point)массив к[`PointF`](../../../aspose.imaging/pointf) массив.
 
 ```csharp
 public static PointF[] ToPointsArray(Point[] points)
@@ -16,11 +16,11 @@ public static PointF[] ToPointsArray(Point[] points)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| points | Point[] | Массив[`Point`](../../../aspose.imaging/point)для преобразования. |
+| points | Point[] | [`Point`](../../../aspose.imaging/point) массив для преобразования. |
 
 ### Возвращаемое значение
 
-Преобразованный массив[`PointF`](../../../aspose.imaging/pointf).
+Преобразованный[`PointF`](../../../aspose.imaging/pointf) множество.
 
 ### Смотрите также
 

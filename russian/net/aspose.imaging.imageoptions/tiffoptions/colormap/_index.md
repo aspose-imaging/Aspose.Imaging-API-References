@@ -1,14 +1,14 @@
 ---
 title: ColorMap
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает карту цветов.
+description: Получает или задает цветовую карту.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.imageoptions/tiffoptions/colormap/
 ---
 ## TiffOptions.ColorMap property
 
-Получает или задает карту цветов.
+Получает или задает цветовую карту.
 
 ```csharp
 public ushort[] ColorMap { get; set; }
@@ -22,9 +22,9 @@ public ushort[] ColorMap { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | значение |
-| [TiffImageException](../../../aspose.imaging.coreexceptions.imageformats/tiffimageexception) | Цветовая карта может быть определена только для отсчетов на пиксель, равных 1. или Количество битов на выборку не определено. |
-| ArgumentOutOfRangeException | value;Длина массива должна соответствовать следующей формуле:3 * (2**BitsPerSample). |
+| ArgumentNullException | ценность |
+| [TiffImageException](../../../aspose.imaging.coreexceptions.imageformats/tiffimageexception) | Цветовая карта может быть определена только для выборок на пиксель, равных 1. или Биты на выборку не определены. |
+| ArgumentOutOfRangeException | value;Длина массива должна соответствовать следующей формуле: 3 * (2**BitsPerSample). |
 
 ### Смотрите также
 

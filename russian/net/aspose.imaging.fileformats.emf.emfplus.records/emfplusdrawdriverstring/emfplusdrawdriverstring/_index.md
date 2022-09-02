@@ -1,14 +1,14 @@
 ---
 title: EmfPlusDrawDriverString
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusDrawDriverStringaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring.
+description: Инициализирует новый экземплярEmfPlusDrawDriverStringaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/emfplusdrawdriverstring/
 ---
 ## EmfPlusDrawDriverString constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusDrawDriverString`](../../emfplusdrawdriverstring).
+Инициализирует новый экземпляр[`EmfPlusDrawDriverString`](../../emfplusdrawdriverstring) класс.
 
 ```csharp
 public EmfPlusDrawDriverString(EmfPlusRecord source)

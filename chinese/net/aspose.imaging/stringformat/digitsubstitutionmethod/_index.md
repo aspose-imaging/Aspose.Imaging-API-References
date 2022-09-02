@@ -16,7 +16,7 @@ public StringDigitSubstitute DigitSubstitutionMethod { get; set; }
 
 ### 适当的价值
 
-一个[`StringDigitSubstitute`](../../stringdigitsubstitute)枚举值，指定如何替换字符串中的字符无法显示，因为当前字体不支持它们。
+一个[`StringDigitSubstitute`](../../stringdigitsubstitute)枚举值，指定如何替换字符串中由于当前字体不支持而无法显示的字符。
 
 ### 评论
 

@@ -1,14 +1,14 @@
 ---
 title: TagId
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取标签 ID
+description: 获取标签id
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.tiff/tiffdatatype/tagid/
 ---
 ## TiffDataType.TagId property
 
-获取标签 ID。
+获取标签id。
 
 ```csharp
 public TiffTags TagId { get; }
@@ -16,7 +16,7 @@ public TiffTags TagId { get; }
 
 ### 适当的价值
 
-标签 ID。
+标签 id.
 
 ### 也可以看看
 

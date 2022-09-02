@@ -34,10 +34,10 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\sample.p
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-        // 获取图像左上角像素的颜色。
+    // 获取图像左上角像素的颜色。
     Color color = rasterImage.GetPixel(0, 0);
 
-        // 获取各个颜色分量的值
+    // 获取各个颜色分量的值
     byte alpha = color.A;
     byte red = color.R;
     int green = color.G;

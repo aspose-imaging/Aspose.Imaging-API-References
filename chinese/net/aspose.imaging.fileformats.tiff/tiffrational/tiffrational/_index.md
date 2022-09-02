@@ -1,14 +1,14 @@
 ---
 title: TiffRational
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化TiffRationalaspose.imaging.fileformats.tiff/tiffrational类的新实例
+description: 初始化TiffRationalaspose.imaging.fileformats.tiff/tiffrational类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.tiff/tiffrational/tiffrational/
 ---
 ## TiffRational() {#constructor}
 
-初始化[`TiffRational`](../../tiffrational)类的新实例。
+初始化[`TiffRational`](../../tiffrational)类.
 
 ```csharp
 public TiffRational()
@@ -24,7 +24,7 @@ public TiffRational()
 
 ## TiffRational(uint) {#constructor_1}
 
-初始化[`TiffRational`](../../tiffrational)类的新实例。
+初始化[`TiffRational`](../../tiffrational)类.
 
 ```csharp
 public TiffRational(uint value)
@@ -32,11 +32,11 @@ public TiffRational(uint value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | UInt32 | 提名者值。 |
+| value | UInt32 | 提名人的价值。 |
 
 ### 评论
 
-命名符将用作指定的值，分母将等于 1。
+提名者将用作指定的值，分母将等于 1。
 
 ### 也可以看看
 
@@ -48,7 +48,7 @@ public TiffRational(uint value)
 
 ## TiffRational(uint, uint) {#constructor_2}
 
-初始化[`TiffRational`](../../tiffrational)类的新实例。
+初始化[`TiffRational`](../../tiffrational)类.
 
 ```csharp
 public TiffRational(uint nominator, uint denominator)
@@ -57,7 +57,7 @@ public TiffRational(uint nominator, uint denominator)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | nominator | UInt32 | 提名人。 |
-| 分母 | UInt32 | 分母。 |
+| denominator | UInt32 | 分母。 |
 
 ### 也可以看看
 

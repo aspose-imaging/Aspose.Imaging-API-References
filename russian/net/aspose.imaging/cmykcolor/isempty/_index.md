@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее является ли эта структураColoraspose.imaging/colorнеинициализированной.
+description: Получает значение указывающее является ли этоColoraspose.imaging/color структура не инициализирована.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging/cmykcolor/isempty/
 ---
 ## CmykColor.IsEmpty property
 
-Получает значение, указывающее, является ли эта структура[`Color`](../../color)неинициализированной.
+Получает значение, указывающее, является ли это[`Color`](../../color) структура не инициализирована.
 
 ```csharp
 public bool IsEmpty { get; }

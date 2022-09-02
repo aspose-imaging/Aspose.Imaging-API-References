@@ -1,14 +1,14 @@
 ---
 title: Transform
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个副本Matrixaspose.imaging/matrix为这个T定义一个局部几何变换Aspose.Imaging.Brushes.TransformBrush
+description: 获取或设置一个副本Matrixaspose.imaging/matrix它为此定义了一个局部几何变换TransformBrushaspose.imaging.brushes/transformbrush .
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.brushes/transformbrush/transform/
 ---
 ## TransformBrush.Transform property
 
-获取或设置一个副本[`Matrix`](../../../aspose.imaging/matrix)为这个T定义一个局部几何变换:Aspose.Imaging.Brushes.TransformBrush。
+获取或设置一个副本[`Matrix`](../../../aspose.imaging/matrix)它为此定义了一个局部几何变换[`TransformBrush`](../../transformbrush) .
 
 ```csharp
 public Matrix Transform { get; set; }
@@ -16,7 +16,7 @@ public Matrix Transform { get; set; }
 
 ### 返回值
 
-[`Matrix`](../../../aspose.imaging/matrix)的副本，它定义了仅适用的几何变换用这个[`TransformBrush`](../../transformbrush)绘制填充。
+的副本[`Matrix`](../../../aspose.imaging/matrix)定义了一个几何变换，该变换仅适用于用这个绘制的填充[`TransformBrush`](../../transformbrush).
 
 ### 也可以看看
 

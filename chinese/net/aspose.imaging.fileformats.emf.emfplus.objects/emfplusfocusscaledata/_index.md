@@ -1,14 +1,14 @@
 ---
 title: EmfPlusFocusScaleData
 second_title: Aspose.Imaging for .NET API 参考
-description: EmfPlusFocusScaleData 对象为路径渐变画笔的混合模式指定焦点比例
+description: EmfPlusFocusScaleData 对象指定路径渐变画笔的混合模式的焦点比例
 type: docs
 weight: 5440
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusfocusscaledata/
 ---
 ## EmfPlusFocusScaleData class
 
-EmfPlusFocusScaleData 对象为路径渐变画笔的混合模式指定焦点比例。
+EmfPlusFocusScaleData 对象指定路径渐变画笔的混合模式的焦点比例。
 
 ```csharp
 public sealed class EmfPlusFocusScaleData : EmfPlusStructureObjectType
@@ -24,9 +24,9 @@ public sealed class EmfPlusFocusScaleData : EmfPlusStructureObjectType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FocusScaleCount](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfocusscaledata/focusscalecount) { get; set; } | 获取或设置一个 32 位无符号整数，它指定焦点刻度的数量。 这个值必须是 2。 |
-| [FocusScaleX](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfocusscaledata/focusscalex) { get; set; } | 获取或设置定义水平焦点刻度的浮点值。 焦点比例必须是 0.0 和 1.0 之间的值，不包括在内。 |
-| [FocusScaleY](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfocusscaledata/focusscaley) { get; set; } | 获取或设置定义垂直焦点刻度的浮点值。 焦点比例必须是 0.0 和 1.0 之间的值，不包括在内。 |
+| [FocusScaleCount](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfocusscaledata/focusscalecount) { get; set; } | 获取或设置一个 32 位无符号整数，它指定焦点刻度的数量。 这个值必须是 2. |
+| [FocusScaleX](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfocusscaledata/focusscalex) { get; set; } | 获取或设置定义水平焦点刻度的浮点值。 焦点比例必须是 0.0 和 1.0 之间的值，不包括。 |
+| [FocusScaleY](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfocusscaledata/focusscaley) { get; set; } | 获取或设置定义垂直焦点刻度的浮点值。 焦点比例必须是 0.0 和 1.0 之间的值，不包括。 |
 
 ### 也可以看看
 

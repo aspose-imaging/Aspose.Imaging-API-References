@@ -18,7 +18,7 @@ public enum EpsType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Binary | `0` | EPS 二进制 |
+| Binary | `0` | EPS二进制 |
 | Interchange | `1` | EPS 交汇处 |
 
 ### 也可以看看

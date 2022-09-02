@@ -24,21 +24,21 @@ public class CmxEllipseSpec : ICmxObjectSpec
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Angle1](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/angle1) { get; set; } | 获取或设置用于定义饼图扇区的第一个角度。 如果[`Pie`](./pie)为`则无影响 假` . 以弧度为单位测量。 |
-| [Angle2](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/angle2) { get; set; } | 获取或设置用于定义饼扇区的第二个角度。 如果[`Pie`](./pie)为`则无影响 假` . 以弧度为单位测量。 |
+| [Angle1](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/angle1) { get; set; } | 获取或设置用于定义饼扇区的第一个角度。 不影响 if[`Pie`](./pie)是`错误的`. 以弧度为单位测量。 |
+| [Angle2](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/angle2) { get; set; } | 获取或设置用于定义饼扇区的第二个角度。 不影响 if[`Pie`](./pie)是`错误的`. 以弧度为单位测量。 |
 | [BoundingBox](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/boundingbox) { get; set; } | 获取或设置边界框。 |
-| [CenterX](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/centerx) { get; set; } | 获取或设置矩形中心的 X 坐标。 以通用文档距离单位测量。 |
-| [CenterY](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/centery) { get; set; } | 获取或设置矩形中心的 Y 坐标。 以通用文档距离单位测量。 |
-| [DiameterX](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/diameterx) { get; set; } | 获取或设置矩形 X 维度的直径。 以通用文档距离单位测量。 |
-| [DiameterY](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/diametery) { get; set; } | 获取或设置矩形 Y 维度的直径。 以通用文档距离单位测量。 |
-| [Pie](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/pie) { get; set; } | 获取或设置一个值，该值指示此[`CmxEllipseSpec`](../cmxellipsespec)是否为饼图。 |
-| [Rotation](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/rotation) { get; set; } | 获取或设置椭圆的旋转角度。 以弧度为单位测量。 |
+| [CenterX](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/centerx) { get; set; } | 获取或设置矩形中心的 X 坐标。 以常用文档距离单位测量。 |
+| [CenterY](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/centery) { get; set; } | 获取或设置矩形中心的 Y 坐标。 以常用文档距离单位测量。 |
+| [DiameterX](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/diameterx) { get; set; } | 获取或设置矩形 X 维度的直径。 以常用文档距离单位测量。 |
+| [DiameterY](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/diametery) { get; set; } | 获取或设置矩形 Y 尺寸的直径。 以常用文档距离单位测量。 |
+| [Pie](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/pie) { get; set; } | 获取或设置一个值，该值指示是否[`CmxEllipseSpec`](../cmxellipsespec)是一个馅饼。 |
+| [Rotation](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/rotation) { get; set; } | 获取或设置椭圆的旋转角度。 以弧度为单位。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/tostring)() | 返回代表此实例的String。 |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/tostring)() | 返回一个String代表这个实例。 |
 
 ### 也可以看看
 

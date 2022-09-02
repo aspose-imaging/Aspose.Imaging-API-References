@@ -29,7 +29,7 @@ public class CdrArtisticText : CdrGraphicObject
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | Получает или задает документ. |
 | [Height](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/height) { get; set; } | Получает или задает y. |
-| [Origin](../../aspose.imaging.fileformats.cdr.objects/cdrartistictext/origin) { get; set; } | Получает или задает исходную точку. |
+| [Origin](../../aspose.imaging.fileformats.cdr.objects/cdrartistictext/origin) { get; set; } | Получает или задает источник. |
 | [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | Получает или задает родителя. |
 | [TextIndex](../../aspose.imaging.fileformats.cdr.objects/cdrartistictext/textindex) { get; set; } | Получает или задает индекс текста. |
 | [Width](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/width) { get; set; } | Получает или задает x. |

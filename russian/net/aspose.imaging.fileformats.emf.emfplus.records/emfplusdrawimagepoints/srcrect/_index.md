@@ -1,14 +1,14 @@
 ---
 title: SrcRect
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект EmfPlusRectF раздел 2.2.2.39 определяющий часть изображения для визуализации.
+description: Получает или задает объект EmfPlusRectF раздел 2.2.2.39 который определяет часть изображения для визуализации.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimagepoints/srcrect/
 ---
 ## EmfPlusDrawImagePoints.SrcRect property
 
-Получает или задает объект EmfPlusRectF (раздел 2.2.2.39), определяющий часть изображения для визуализации.
+Получает или задает объект EmfPlusRectF (раздел 2.2.2.39), который определяет часть изображения для визуализации.
 
 ```csharp
 public RectangleF SrcRect { get; set; }

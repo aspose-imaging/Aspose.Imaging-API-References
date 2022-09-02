@@ -1,14 +1,14 @@
 ---
 title: CustomCharIdent
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает пользовательский идентификатор персонажа.
+description: Получает или задает идентификатор пользовательского символа.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging/stringformat/customcharident/
 ---
 ## StringFormat.CustomCharIdent property
 
-Получает или задает пользовательский идентификатор персонажа.
+Получает или задает идентификатор пользовательского символа.
 
 ```csharp
 public PointF CustomCharIdent { get; set; }

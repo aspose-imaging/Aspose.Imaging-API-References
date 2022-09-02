@@ -1,14 +1,14 @@
 ---
 title: IsReadOnly
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示 IDictionary对象是否为只读
+description: 获取一个值该值指示 是否IDictionary对象是只读的
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging/nongenericdictionary/isreadonly/
 ---
 ## NonGenericDictionary.IsReadOnly property
 
-获取一个值，该值指示 IDictionary对象是否为只读。
+获取一个值，该值指示 是否IDictionary对象是只读的。
 
 ```csharp
 public bool IsReadOnly { get; }
@@ -16,7 +16,7 @@ public bool IsReadOnly { get; }
 
 ### 返回值
 
-如果IDictionary对象是只读的，则为真；否则为假。
+如果IDictionary对象是只读的；否则为假。
 
 ### 也可以看看
 

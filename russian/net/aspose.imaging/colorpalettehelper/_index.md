@@ -1,14 +1,14 @@
 ---
 title: ColorPaletteHelper
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Вспомогательный класс для работы с цветовыми палитрами.
+description: Вспомогательный класс для управления цветовыми палитрами.
 type: docs
 weight: 390
 url: /ru/net/aspose.imaging/colorpalettehelper/
 ---
 ## ColorPaletteHelper class
 
-Вспомогательный класс для работы с цветовыми палитрами.
+Вспомогательный класс для управления цветовыми палитрами.
 
 ```csharp
 public static class ColorPaletteHelper
@@ -23,13 +23,13 @@ public static class ColorPaletteHelper
 | static [Create8Bit](../../aspose.imaging/colorpalettehelper/create8bit)() | Создает 8-битную цветовую палитру. |
 | static [Create8BitGrayscale](../../aspose.imaging/colorpalettehelper/create8bitgrayscale)(bool) | Создает 8-битную палитру оттенков серого. |
 | static [CreateMonochrome](../../aspose.imaging/colorpalettehelper/createmonochrome)() | Создает монохромную цветовую палитру, содержащую только 2 цвета. |
-| static [GetCloseImagePalette](../../aspose.imaging/colorpalettehelper/getcloseimagepalette#getcloseimagepalette_3)(RasterImage, int) | Получает цветовую палитру из растрового изображения (палетизирует изображение), если у изображения его нет. Если палитра существует, она будет использоваться вместо выполнения вычислений. |
-| static [GetCloseImagePalette](../../aspose.imaging/colorpalettehelper/getcloseimagepalette#getcloseimagepalette_4)(RasterImage, int, PaletteMiningMethod) | Получает цветовую палитру из растрового изображения (палетизирует изображение), если у изображения его нет. Палитра будет оптимизирована для лучшего качества индексированного изображения или будет взята «КАК ЕСТЬ» при использовании PaletteMiningMethod.UseCurrentPalette. |
-| static [GetCloseImagePalette](../../aspose.imaging/colorpalettehelper/getcloseimagepalette#getcloseimagepalette)(RasterImage, Rectangle, int) | Получает цветовую палитру из растрового изображения (палетизирует изображение), если у изображения его нет. Если палитра существует, она будет использоваться вместо выполнения вычислений. |
-| static [GetCloseImagePalette](../../aspose.imaging/colorpalettehelper/getcloseimagepalette#getcloseimagepalette_1)(RasterImage, Rectangle, int, bool) | Получает цветовую палитру из растрового изображения (палетизирует изображение), если у изображения его нет. Если палитра существует, она будет использоваться вместо выполнения вычислений. |
-| static [GetCloseImagePalette](../../aspose.imaging/colorpalettehelper/getcloseimagepalette#getcloseimagepalette_2)(RasterImage, Rectangle, int, bool, Color) | Получает цветовую палитру из растрового изображения (палетизирует изображение), если у изображения его нет. Если палитра существует, она будет использоваться вместо выполнения вычислений. |
+| static [GetCloseImagePalette](../../aspose.imaging/colorpalettehelper/getcloseimagepalette#getcloseimagepalette_3)(RasterImage, int) | Получает цветовую палитру из растрового изображения (палетизирует изображение), если у изображения ее нет. Если палитра существует, она будет использоваться вместо выполнения вычислений. |
+| static [GetCloseImagePalette](../../aspose.imaging/colorpalettehelper/getcloseimagepalette#getcloseimagepalette_4)(RasterImage, int, PaletteMiningMethod) | Получает цветовую палитру из растрового изображения (палетизирует изображение), если у изображения его нет. Палитра будет оптимизирована для лучшего качества индексированного изображения или будет взята «КАК ЕСТЬ», когда используется PaletteMiningMethod.UseCurrentPalette. |
+| static [GetCloseImagePalette](../../aspose.imaging/colorpalettehelper/getcloseimagepalette#getcloseimagepalette)(RasterImage, Rectangle, int) | Получает цветовую палитру из растрового изображения (палетизирует изображение), если у изображения ее нет. Если палитра существует, она будет использоваться вместо выполнения вычислений. |
+| static [GetCloseImagePalette](../../aspose.imaging/colorpalettehelper/getcloseimagepalette#getcloseimagepalette_1)(RasterImage, Rectangle, int, bool) | Получает цветовую палитру из растрового изображения (палетизирует изображение), если у изображения ее нет. Если палитра существует, она будет использоваться вместо выполнения вычислений. |
+| static [GetCloseImagePalette](../../aspose.imaging/colorpalettehelper/getcloseimagepalette#getcloseimagepalette_2)(RasterImage, Rectangle, int, bool, Color) | Получает цветовую палитру из растрового изображения (палетизирует изображение), если у изображения ее нет. Если палитра существует, она будет использоваться вместо выполнения вычислений. |
 | static [GetDownscalePalette](../../aspose.imaging/colorpalettehelper/getdownscalepalette)(RasterImage) | Получить палитру из 256 цветов, состоящую из старших битов исходных значений цвета изображения. |
-| static [GetUniformColorPalette](../../aspose.imaging/colorpalettehelper/getuniformcolorpalette)(RasterImage) | Получите единую палитру из 256 цветов. |
+| static [GetUniformColorPalette](../../aspose.imaging/colorpalettehelper/getuniformcolorpalette)(RasterImage) | Получить единую палитру из 256 цветов. |
 | static [HasTransparentColors](../../aspose.imaging/colorpalettehelper/hastransparentcolors)(IColorPalette) | Определяет, есть ли в указанной палитре прозрачные цвета. |
 
 ### Смотрите также

@@ -16,7 +16,7 @@ public StringAlignment Alignment { get; set; }
 
 ### 适当的价值
 
-A[`StringAlignment`](../../stringalignment)枚举，指定文本对齐信息。
+一个[`StringAlignment`](../../stringalignment)指定文本对齐信息的枚举。
 
 ### 也可以看看
 

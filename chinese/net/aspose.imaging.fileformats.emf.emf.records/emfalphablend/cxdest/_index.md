@@ -1,14 +1,14 @@
 ---
 title: CxDest
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位有符号整数指定目标 矩形的逻辑宽度该值必须大于零
+description: 获取或设置一个 32 位有符号整数它指定目标 矩形的逻辑宽度此值必须大于零
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfalphablend/cxdest/
 ---
 ## EmfAlphaBlend.CxDest property
 
-获取或设置一个 32 位有符号整数，指定目标 矩形的逻辑宽度。该值必须大于零。
+获取或设置一个 32 位有符号整数，它指定目标 矩形的逻辑宽度。此值必须大于零。
 
 ```csharp
 public int CxDest { get; set; }

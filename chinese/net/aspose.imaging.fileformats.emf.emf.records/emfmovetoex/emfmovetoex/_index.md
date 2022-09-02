@@ -1,14 +1,14 @@
 ---
 title: EmfMoveToEx
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfMoveToExaspose.imaging.fileformats.emf.emf.records/emfmovetoex类的新实例
+description: 初始化EmfMoveToExaspose.imaging.fileformats.emf.emf.records/emfmovetoex类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfmovetoex/emfmovetoex/
 ---
 ## EmfMoveToEx(EmfRecord) {#constructor_1}
 
-初始化[`EmfMoveToEx`](../../emfmovetoex)类的新实例。
+初始化[`EmfMoveToEx`](../../emfmovetoex)类.
 
 ```csharp
 public EmfMoveToEx(EmfRecord record)
@@ -29,7 +29,7 @@ public EmfMoveToEx(EmfRecord record)
 
 ## EmfMoveToEx() {#constructor}
 
-初始化[`EmfMoveToEx`](../../emfmovetoex)类的新实例。
+初始化[`EmfMoveToEx`](../../emfmovetoex)类.
 
 ```csharp
 public EmfMoveToEx()

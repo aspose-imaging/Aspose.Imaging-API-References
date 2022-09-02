@@ -1,14 +1,14 @@
 ---
 title: LogPalette
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект LogPalette раздел 2.2.17. Поле версии этого объекта ДОЛЖНО быть установлено на 0x0300. Если значение NumberOfEntries в этом объекте равно нулю обработка этой записи ДОЛЖНА завершиться ошибкой.
+description: Получает или задает объект LogPalette раздел 2.2.17. Поле версии этого object ДОЛЖНО быть установлено на 0x0300. Если значение NumberOfEntries в этом объекте равно нулю обработка этой записи ДОЛЖНА завершиться ошибкой.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcreatepalette/logpalette/
 ---
 ## EmfCreatePalette.LogPalette property
 
-Получает или задает объект LogPalette (раздел 2.2.17). Поле версии этого объекта ДОЛЖНО быть установлено на 0x0300. Если значение NumberOfEntries в этом объекте равно нулю, обработка этой записи ДОЛЖНА завершиться ошибкой.
+Получает или задает объект LogPalette (раздел 2.2.17). Поле версии этого object ДОЛЖНО быть установлено на 0x0300. Если значение NumberOfEntries в этом объекте равно нулю, обработка этой записи ДОЛЖНА завершиться ошибкой.
 
 ```csharp
 public EmfLogPalette LogPalette { get; set; }

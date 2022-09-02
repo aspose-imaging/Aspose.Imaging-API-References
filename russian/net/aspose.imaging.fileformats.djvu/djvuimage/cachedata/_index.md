@@ -23,13 +23,13 @@ public override void CacheData()
 
 string dir = "c:\\temp\\";
 
- // Загружаем изображение из файла DJVU.
+// Загрузить изображение из файла DJVU.
 using (Aspose.Imaging.FileFormats.Djvu.DjvuImage image = (Aspose.Imaging.FileFormats.Djvu.DjvuImage)Aspose.Imaging.Image.Load(dir + "sample.djvu"))
 {
-     // Этот вызов кэширует все страницы, чтобы не выполнялась дополнительная загрузка данных из базового потока данных.
+    // Этот вызов кэширует все страницы, чтобы не выполнялась дополнительная загрузка данных из базового потока данных.
     image.CacheData();
 
-     // Или вы можете кэшировать страницы по отдельности.
+    // Или вы можете кэшировать страницы по отдельности.
     foreach (Aspose.Imaging.FileFormats.Djvu.DjvuPage page in image.Pages)
     {
         page.CacheData();

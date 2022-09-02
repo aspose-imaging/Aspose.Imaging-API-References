@@ -1,14 +1,14 @@
 ---
 title: GifPlainTextRenderingBlock
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化GifPlainTextRenderingBlockaspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock类的新实例
+description: 初始化GifPlainTextRenderingBlockaspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/gifplaintextrenderingblock/
 ---
 ## GifPlainTextRenderingBlock() {#constructor}
 
-初始化[`GifPlainTextRenderingBlock`](../../gifplaintextrenderingblock)类的新实例。
+初始化[`GifPlainTextRenderingBlock`](../../gifplaintextrenderingblock)类.
 
 ```csharp
 public GifPlainTextRenderingBlock()
@@ -24,7 +24,7 @@ public GifPlainTextRenderingBlock()
 
 ## GifPlainTextRenderingBlock(ushort, ushort, ushort, ushort, byte, byte, byte, byte, byte[]) {#constructor_1}
 
-初始化[`GifPlainTextRenderingBlock`](../../gifplaintextrenderingblock)类的新实例。
+初始化[`GifPlainTextRenderingBlock`](../../gifplaintextrenderingblock)类.
 
 ```csharp
 public GifPlainTextRenderingBlock(ushort textGridLeftPosition, ushort textGridTopPosition, 

@@ -16,7 +16,7 @@ public bool IsBigEndian { get; set; }
 
 ### 适当的价值
 
-` true` 如果创建的流 EXIF 数据是大端;否则，` false` 。
+`真的`如果从创建的流 EXIF 数据是大端；否则，`错误的` .
 
 ### 也可以看看
 

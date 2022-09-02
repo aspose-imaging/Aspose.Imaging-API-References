@@ -1,14 +1,14 @@
 ---
 title: WmfSetViewportExt
 second_title: Aspose.Imaging for .NET API 参考
-description: META_SETVIEWPORTEXT 记录设置回放设备上下文中视口的水平和垂直范围 
+description: META_SETVIEWPORTEXT 记录设置播放设备上下文中视口的水平和垂直范围 
 type: docs
 weight: 9200
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfsetviewportext/
 ---
 ## WmfSetViewportExt class
 
-META_SETVIEWPORTEXT 记录设置回放设备上下文中视口的水平和垂直范围 。
+META_SETVIEWPORTEXT 记录设置播放设备上下文中视口的水平和垂直范围 。
 
 ```csharp
 public class WmfSetViewportExt : WmfPointObject

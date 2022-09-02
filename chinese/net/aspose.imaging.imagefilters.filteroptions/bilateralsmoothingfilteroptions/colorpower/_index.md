@@ -1,14 +1,14 @@
 ---
 title: ColorPower
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置色度
+description: 获取或设置颜色强度
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/colorpower/
 ---
 ## BilateralSmoothingFilterOptions.ColorPower property
 
-获取或设置色度。
+获取或设置颜色强度。
 
 ```csharp
 public double ColorPower { get; set; }
@@ -16,7 +16,7 @@ public double ColorPower { get; set; }
 
 ### 适当的价值
 
-色彩强度。
+色力。
 
 ### 也可以看看
 

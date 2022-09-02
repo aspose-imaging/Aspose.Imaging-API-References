@@ -1,14 +1,14 @@
 ---
 title: InsertPage
 second_title: Aspose.Imaging for .NET API 参考
-description: 将新页面插入到页面列表中指定索引处
+description: 在指定索引的页面列表中插入一个新页面
 type: docs
 weight: 240
 url: /zh/net/aspose.imaging.fileformats.dicom/dicomimage/insertpage/
 ---
 ## DicomImage.InsertPage method
 
-将新页面插入到页面列表中指定索引处。
+在指定索引的页面列表中插入一个新页面。
 
 ```csharp
 public DicomPage InsertPage(int pageIndex)
@@ -16,17 +16,17 @@ public DicomPage InsertPage(int pageIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageIndex | Int32 | 页面索引。 |
+| pageIndex | Int32 | 页面的索引。 |
 
 ### 返回值
 
-新创建的[`DicomPage`](../../dicompage)。
+新创建的[`DicomPage`](../../dicompage).
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | *pageIndex*- 页面索引小于` 0` 。 或 *pageIndex*- 页面索引大于[`PageCount`](../pagecount). |
+| ArgumentOutOfRangeException | *pageIndex* - 页面索引小于`0`. 或 *pageIndex* - 页面索引大于[`PageCount`](../pagecount) . |
 
 ### 例子
 
@@ -40,8 +40,7 @@ using (DicomImage image = (DicomImage)Image.Create(
         100,
         100))
 {
-        // 使用矢量图形
- 绘制一些东西
+    // 使用矢量图形绘制一些东西
     Graphics graphics = new Graphics(image);
     graphics.FillRectangle(new SolidBrush(Color.BlueViolet), image.Bounds);
     graphics.FillRectangle(new SolidBrush(Color.Aqua), 10, 20, 50, 20);
@@ -50,7 +49,7 @@ using (DicomImage image = (DicomImage)Image.Create(
     // 保存绘制图像的像素。它们现在位于 Dicom 图像的第一页。
     int[] pixels = image.LoadArgb32Pixels(image.Bounds);
 
-        // 之后添加几页，使它们变暗
+    // 之后添加几页，使它们变暗
     for (int i = 1; i < 5; i++)
     {
         DicomPage page = image.AddPage();
@@ -58,7 +57,7 @@ using (DicomImage image = (DicomImage)Image.Create(
         page.AdjustBrightness(i * 30);
     }
 
-        // 在主页面前面添加几页，使它们更亮
+    // 在主页面前面添加几页，使它们更亮
     for (int i = 1; i < 5; i++)
     {
         DicomPage page = image.InsertPage(0);
@@ -66,7 +65,7 @@ using (DicomImage image = (DicomImage)Image.Create(
         page.AdjustBrightness(-i * 30);
     }
 
-        // 将创建的多页图片保存到输出文件
+    // 将创建的多页图片保存到输出文件
     image.Save("MultiPage.dcm");
 }
 ```

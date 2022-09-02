@@ -1,14 +1,14 @@
 ---
 title: SoftwareId
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает идентификатор программного обеспечения. Всего 40 символов ASCII для идентификатора программного обеспечения.
+description: Получает или устанавливает идентификатор программного обеспечения. Всего 40 символов ASCII для идентификатора программного обеспечения.
 type: docs
 weight: 220
 url: /ru/net/aspose.imaging.fileformats.tga/tgaimage/softwareid/
 ---
 ## TgaImage.SoftwareId property
 
-Получает или задает идентификатор программного обеспечения. Всего 40 символов ASCII для идентификатора программного обеспечения.
+Получает или устанавливает идентификатор программного обеспечения. Всего 40 символов ASCII для идентификатора программного обеспечения.
 
 ```csharp
 public string SoftwareId { get; set; }
@@ -23,33 +23,25 @@ public string SoftwareId { get; set; }
 
 using (TgaImage image = (TgaImage)Image.Load("test.tga"))
 {
-    dateTimeStamp = image.DateTimeStamp;
-    authorName = image.AuthorName;
-    authorComments = image.AuthorComments;
-    imageId = image.ImageId;
-    jobNameOrId = image.JobNameOrId;
-    jobTime = image.JobTime;
-    keyColor = image.TransparentColor;
-    softwareId = image.SoftwareId;
-    softwareVersion = image.SoftwareVersion;
-    softwareVersionLetter = image.SoftwareVersionLetter;
-    softwareVersionNumber = image.SoftwareVersionNumber;
-    xOrigin = image.XOrigin;
-    yOrigin = image.YOrigin;
-    gammaValueDenominator = image.GammaValueDenominator;
-    gammaValueNumerator = image.GammaValueNumerator;
-    hasAlphaChannel = image.HasAlpha;
-    hasColorMap = image.HasColorMap;
-    height = image.Height;
-    isGrayScale = image.IsGrayScale;
-    pixelAspectRatioDenominator = image.PixelAspectRatioDenominator;
-    pixelAspectRatioNumerator = image.PixelAspectRatioNumerator;
-    size = image.Size;
-    width = image.Width;
+    image.DateTimeStamp = testTime;
+    image.AuthorName = "John Smith";
+    image.AuthorComments = "Comment";
+    image.ImageId = "ImageId";
+    image.JobNameOrId = "Important Job";
+    image.JobTime = TimeSpan.FromDays(10);
+    image.TransparentColor = Color.FromArgb(123);
+    image.SoftwareId = "SoftwareId";
+    image.SoftwareVersion = "abc1";
+    image.SoftwareVersionLetter = 'a';
+    image.SoftwareVersionNumber = 2;
+    image.XOrigin = 1000;
+    image.YOrigin = 1000;
+
+    image.Save("test.tga")
 }
 ```
 
-Получение значений публичных свойств загруженного TGA-изображения.
+Получение значений публичных свойств загруженного изображения TGA.
 
 ```csharp
 [C#]

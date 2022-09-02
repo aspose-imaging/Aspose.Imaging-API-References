@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取标签 ID 整数表示
+description: 获取标签 id 整数表示
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.tiff/tiffdatatype/id/
 ---
 ## TiffDataType.Id property
 
-获取标签 ID 整数表示。
+获取标签 id 整数表示。
 
 ```csharp
 public ushort Id { get; }

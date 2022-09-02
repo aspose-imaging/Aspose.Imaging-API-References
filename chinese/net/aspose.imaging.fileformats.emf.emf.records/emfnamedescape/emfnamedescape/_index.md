@@ -1,14 +1,14 @@
 ---
 title: EmfNamedEscape
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfNamedEscapeaspose.imaging.fileformats.emf.emf.records/emfnamedescape类的新实例
+description: 初始化EmfNamedEscapeaspose.imaging.fileformats.emf.emf.records/emfnamedescape类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfnamedescape/emfnamedescape/
 ---
 ## EmfNamedEscape constructor
 
-初始化[`EmfNamedEscape`](../../emfnamedescape)类的新实例。
+初始化[`EmfNamedEscape`](../../emfnamedescape)类.
 
 ```csharp
 public EmfNamedEscape(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfNamedEscape(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 

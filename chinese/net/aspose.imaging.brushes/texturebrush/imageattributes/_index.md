@@ -1,14 +1,14 @@
 ---
 title: ImageAttributes
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取与此Imaging关联的R5PAspose.Imaging.Brushes.TextureBrush.ImageAttributes画笔.TextureBrush
+description: 获取ImageAttributesaspose.imaging.brushes/texturebrush/imageattributes与此相关TextureBrushaspose.imaging.brushes/texturebrush .
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.brushes/texturebrush/imageattributes/
 ---
 ## TextureBrush.ImageAttributes property
 
-获取与此Imaging关联的R5:P:Aspose.Imaging.Brushes.TextureBrush.ImageAttributes:::。画笔.TextureBrush:::。
+获取`ImageAttributes`与此相关[`TextureBrush`](../../texturebrush) .
 
 ```csharp
 public ImageAttributes ImageAttributes { get; }
@@ -16,7 +16,7 @@ public ImageAttributes ImageAttributes { get; }
 
 ### 适当的价值
 
-`ImageAttributes`。
+这`ImageAttributes`.
 
 ### 也可以看看
 

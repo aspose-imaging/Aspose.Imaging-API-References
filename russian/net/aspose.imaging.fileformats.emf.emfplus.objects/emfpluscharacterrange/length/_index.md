@@ -1,14 +1,14 @@
 ---
 title: Length
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число со знаком указывающее количество позиций в этом диапазоне
+description: Получает или задает 32-разрядное целое число со знаком которое определяет количество позиций в этом диапазоне
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscharacterrange/length/
 ---
 ## EmfPlusCharacterRange.Length property
 
-Получает или задает 32-разрядное целое число со знаком, указывающее количество позиций в этом диапазоне
+Получает или задает 32-разрядное целое число со знаком, которое определяет количество позиций в этом диапазоне
 
 ```csharp
 public int Length { get; set; }

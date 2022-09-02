@@ -18,16 +18,16 @@ public struct EmfBlendFunction
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfBlendFunction](emfblendfunction)(int) | 初始化[`EmfBlendFunction`](../emfblendfunction)类的新实例。 |
+| [EmfBlendFunction](emfblendfunction)(int) | 初始化[`EmfBlendFunction`](../emfblendfunction)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AlphaFormat](../../aspose.imaging.fileformats.emf.emf.records/emfblendfunction/alphaformat) { get; } | 获取一个结构，该结构指定源像素和目标像素如何根据 alpha 透明度解释 。 |
-| [BlendFlags](../../aspose.imaging.fileformats.emf.emf.records/emfblendfunction/blendflags) { get; } | 获取混合标志。 这个值必须是 0x00 并且必须被忽略。 |
-| [BlendOperation](../../aspose.imaging.fileformats.emf.emf.records/emfblendfunction/blendoperation) { get; } | 获取混合操作代码。 唯一定义的源和目标::47:::混合操作是 0x00，它指定源位图 必须与目标位图结合基于源像素的 alpha 透明度值 。有关详细信息，请参见以下等式。 |
-| [SrcConstantAlpha](../../aspose.imaging.fileformats.emf.emf.records/emfblendfunction/srcconstantalpha) { get; } | 获取指定 alpha 透明度的 8 位无符号整数 确定源位图和目标位图的混合。这个值必须是 用于整个源位图。最小 alpha 透明度值，零， 对应于完全透明，最大值，0xFF，对应于 完全不透明。实际上，值 0xFF 指定每个像素的 alpha 值 确定源位图和目标位图的混合。有关详细信息，请参阅后面 本节中的方程式。 |
+| [AlphaFormat](../../aspose.imaging.fileformats.emf.emf.records/emfblendfunction/alphaformat) { get; } | 获取一个结构，该结构指定如何 相对于 alpha 透明度解释源像素和目标像素。 |
+| [BlendFlags](../../aspose.imaging.fileformats.emf.emf.records/emfblendfunction/blendflags) { get; } | 获取混合标志。 该值必须为 0x00，并且必须被忽略。 |
+| [BlendOperation](../../aspose.imaging.fileformats.emf.emf.records/emfblendfunction/blendoperation) { get; } | 获取混合操作代码。 唯一已定义的源和目标 混合操作是 0x00，它指定源位图 必须根据源像素的 alpha 透明度值 与目标位图组合。有关详细信息，请参见以下等式。 |
+| [SrcConstantAlpha](../../aspose.imaging.fileformats.emf.emf.records/emfblendfunction/srcconstantalpha) { get; } | 获取指定 alpha 透明度的 8 位无符号整数， 确定源位图和目标位图的混合。该值必须在整个源位图上使用 。最小 alpha 透明度值，零， 对应于完全透明，最大值，0xFF，对应于 完全不透明。实际上，值 0xFF 指定每像素 alpha 值 确定源位图和目标位图的混合。有关详细信息，请参阅本节后面的 中的方程式。 |
 
 ## 方法
 
@@ -39,7 +39,7 @@ public struct EmfBlendFunction
 
 | 姓名 | 描述 |
 | --- | --- |
-| enum [AlphaFormatEnum](emfblendfunction.alphaformatenum) | 一个结构，它指定源像素和目标像素如何被 解释为相对于 alpha 透明度。 |
+| enum [AlphaFormatEnum](emfblendfunction.alphaformatenum) | 一个结构，它指定源像素和目标像素如何 相对于 alpha 透明度进行解释。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: DashOffset
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает необязательное 32-битное значение с плавающей запятой указывающее расстояние от начала строки до начала.47первый пробел в шаблоне пунктирной линии. Это поле ДОЛЖНО присутствовать если флаг PenDataDashedLineOffset установлен в поле PenDataFlags объекта EmfPlusPenData.
+description: Получает или задает необязательное 32-битное значение с плавающей запятой указывающее расстояние от начала строки до начала первого пробела в шаблоне пунктирной линии. Это поле ДОЛЖНО иметь значение  если флаг PenDataDashedLineOffset установлен в поле PenDataFlags объекта EmfPlusPenData.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata/dashoffset/
 ---
 ## EmfPlusPenOptionalData.DashOffset property
 
-Получает или задает необязательное 32-битное значение с плавающей запятой, указывающее расстояние от начала строки до начала::.:47:::первый пробел в шаблоне пунктирной линии. Это поле ДОЛЖНО присутствовать, если флаг PenDataDashedLineOffset установлен в поле PenDataFlags объекта EmfPlusPenData.
+Получает или задает необязательное 32-битное значение с плавающей запятой, указывающее расстояние от начала строки до начала первого пробела в шаблоне пунктирной линии. Это поле ДОЛЖНО иметь значение , если флаг PenDataDashedLineOffset установлен в поле PenDataFlags объекта EmfPlusPenData.
 
 ```csharp
 public float DashOffset { get; set; }

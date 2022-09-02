@@ -1,14 +1,14 @@
 ---
 title: StretchMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-битное целое число без знака определяющее режим растяжения и МОЖЕТ быть в перечислении StretchMode.
+description: Получает или задает 32-битное целое число без знака которое определяет режим растяжения и МОЖЕТ быть в перечислении StretchMode.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetstrechbltmode/stretchmode/
 ---
 ## EmfSetStrechBltMode.StretchMode property
 
-Получает или задает 32-битное целое число без знака, определяющее режим растяжения и МОЖЕТ быть в перечислении StretchMode.
+Получает или задает 32-битное целое число без знака, которое определяет режим растяжения и МОЖЕТ быть в перечислении StretchMode.
 
 ```csharp
 public EmfStretchMode StretchMode { get; set; }

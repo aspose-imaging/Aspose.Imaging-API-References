@@ -1,14 +1,14 @@
 ---
 title: Rectangle
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр структурыRectangleaspose.imaging/rectangleс указанным расположением и размером.
+description: Инициализирует новый экземплярRectangleaspose.imaging/rectangle структура с указанным расположением и размером.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging/rectangle/rectangle/
 ---
 ## Rectangle(int, int, int, int) {#constructor_1}
 
-Инициализирует новый экземпляр структуры[`Rectangle`](../../rectangle)с указанным расположением и размером.
+Инициализирует новый экземпляр[`Rectangle`](../../rectangle) структура с указанным расположением и размером.
 
 ```csharp
 public Rectangle(int x, int y, int width, int height)
@@ -31,7 +31,7 @@ public Rectangle(int x, int y, int width, int height)
 
 ## Rectangle(Point, Size) {#constructor}
 
-Инициализирует новый экземпляр структуры[`Rectangle`](../../rectangle)с указанным расположением и размером.
+Инициализирует новый экземпляр[`Rectangle`](../../rectangle) структура с указанным расположением и размером.
 
 ```csharp
 public Rectangle(Point location, Size size)
@@ -39,8 +39,8 @@ public Rectangle(Point location, Size size)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| location | Point | A[`Point`](../../point)который представляет верхний левый угол прямоугольная область. |
-| size | Size | A[`Size`](../../size)представляет ширину и высоту прямоугольной области. |
+| location | Point | А[`Point`](../../point) который представляет верхний левый угол прямоугольной области. |
+| size | Size | А[`Size`](../../size) который представляет ширину и высоту прямоугольной области. |
 
 ### Смотрите также
 

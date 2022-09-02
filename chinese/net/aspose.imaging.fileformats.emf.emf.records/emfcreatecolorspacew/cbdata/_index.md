@@ -1,14 +1,14 @@
 ---
 title: CbData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数它指定数据字段的大小以字节为单位
+description: 获取或设置一个 32 位无符号整数用于指定数据字段的大小以字节为单位
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/cbdata/
 ---
 ## EmfCreateColorSpaceW.CbData property
 
-获取或设置一个 32 位无符号整数，它指定数据字段的大小（以字节为单位）。
+获取或设置一个 32 位无符号整数，用于指定数据字段的大小（以字节为单位）。
 
 ```csharp
 public int CbData { get; set; }

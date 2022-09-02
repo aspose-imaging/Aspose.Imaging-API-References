@@ -20,7 +20,7 @@ public ushort ReadUShort(long position)
 
 ### 返回值
 
-无符号短值。
+一个无符号短值。
 
 ### 也可以看看
 

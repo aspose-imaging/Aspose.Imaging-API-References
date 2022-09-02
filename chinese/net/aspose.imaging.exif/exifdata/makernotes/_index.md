@@ -16,11 +16,11 @@ public MakerNote[] MakerNotes { get; }
 
 ### 适当的价值
 
-制作者备注。
+制作者备注.
 
 ### 例子
 
-以 Jpeg 图像访问相机制造商制造商注释。
+访问 Jpeg 图像中的相机制造商制造商注释。
 
 ```csharp
 [C#]

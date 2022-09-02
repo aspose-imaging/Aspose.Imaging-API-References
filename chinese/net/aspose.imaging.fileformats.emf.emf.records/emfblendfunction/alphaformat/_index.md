@@ -1,14 +1,14 @@
 ---
 title: AlphaFormat
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个结构该结构指定源像素和目标像素如何根据 alpha 透明度解释 
+description: 获取一个结构该结构指定如何 相对于 alpha 透明度解释源像素和目标像素
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfblendfunction/alphaformat/
 ---
 ## EmfBlendFunction.AlphaFormat property
 
-获取一个结构，该结构指定源像素和目标像素如何根据 alpha 透明度解释 。
+获取一个结构，该结构指定如何 相对于 alpha 透明度解释源像素和目标像素。
 
 ```csharp
 public AlphaFormatEnum AlphaFormat { get; }

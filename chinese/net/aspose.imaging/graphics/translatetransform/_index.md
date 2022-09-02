@@ -1,14 +1,14 @@
 ---
 title: TranslateTransform
 second_title: Aspose.Imaging for .NET API 参考
-description: 按指定尺寸平移局部几何变换此方法将转换添加到转换之前
+description: 按指定尺寸平移局部几何变换此方法将转换添加到 transform.
 type: docs
 weight: 470
 url: /zh/net/aspose.imaging/graphics/translatetransform/
 ---
 ## TranslateTransform(float, float) {#translatetransform}
 
-按指定尺寸平移局部几何变换。此方法将转换添加到转换之前。
+按指定尺寸平移局部几何变换。此方法将转换添加到 transform.
 
 ```csharp
 public void TranslateTransform(float dx, float dy)
@@ -29,7 +29,7 @@ public void TranslateTransform(float dx, float dy)
 
 ## TranslateTransform(float, float, MatrixOrder) {#translatetransform_1}
 
-以指定顺序将局部几何变换平移指定维度。
+以指定顺序按指定维度平移局部几何变换。
 
 ```csharp
 public void TranslateTransform(float dx, float dy, MatrixOrder order)

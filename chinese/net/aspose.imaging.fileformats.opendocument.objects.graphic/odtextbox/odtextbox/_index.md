@@ -1,14 +1,14 @@
 ---
 title: OdTextBox
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化OdTextBoxaspose.imaging.fileformats.opendocument.objects.graphic/odtextbox类的新实例
+description: 初始化OdTextBoxaspose.imaging.fileformats.opendocument.objects.graphic/odtextbox类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odtextbox/odtextbox/
 ---
 ## OdTextBox constructor
 
-初始化[`OdTextBox`](../../odtextbox)类的新实例。
+初始化[`OdTextBox`](../../odtextbox)类.
 
 ```csharp
 public OdTextBox(OdObject parent)
@@ -16,7 +16,7 @@ public OdTextBox(OdObject parent)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | OdObject | 父级。 |
+| parent | OdObject | 家长。 |
 
 ### 也可以看看
 

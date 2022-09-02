@@ -1,14 +1,14 @@
 ---
 title: CScans
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее количество строк сканирования.
+description: Получает или задает 32-разрядное целое число без знака указывающее количество строк развертки.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/cscans/
 ---
 ## EmfSetDiBitsToDevice.CScans property
 
-Получает или задает 32-разрядное целое число без знака, указывающее количество строк сканирования.
+Получает или задает 32-разрядное целое число без знака, указывающее количество строк развертки.
 
 ```csharp
 public int CScans { get; set; }

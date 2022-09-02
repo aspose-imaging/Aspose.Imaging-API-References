@@ -1,14 +1,14 @@
 ---
 title: TiffDoubleType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTiffDoubleTypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffdoubletype.
+description: Инициализирует новый экземплярTiffDoubleTypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffdoubletype класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffdoubletype/tiffdoubletype/
 ---
 ## TiffDoubleType(TiffTags) {#constructor}
 
-Инициализирует новый экземпляр класса[`TiffDoubleType`](../../tiffdoubletype).
+Инициализирует новый экземпляр[`TiffDoubleType`](../../tiffdoubletype) класс.
 
 ```csharp
 public TiffDoubleType(TiffTags tagId)
@@ -29,7 +29,7 @@ public TiffDoubleType(TiffTags tagId)
 
 ## TiffDoubleType(ushort) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TiffDoubleType`](../../tiffdoubletype).
+Инициализирует новый экземпляр[`TiffDoubleType`](../../tiffdoubletype) класс.
 
 ```csharp
 public TiffDoubleType(ushort tagId)

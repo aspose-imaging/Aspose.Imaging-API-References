@@ -24,18 +24,18 @@ public sealed class EmfColorAdjustment : EmfObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BlueGamma](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/bluegamma) { get; set; } | 获取或设置一个 16 位无符号整数，该整数指定源颜色 蓝色原色的 n 次方伽马校正值。这个值应该在 2,500 到 65,000 的范围内。 值 10,000 表示不得执行伽马校正。 |
-| [Brightness](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/brightness) { get; set; } | 获取或设置一个 16 位有符号整数，它指定要应用于源对象的亮度量。 该值应在 –100 到 100 的范围内。 零值表示不得执行亮度调整。 |
+| [BlueGamma](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/bluegamma) { get; set; } | 获取或设置一个 16 位无符号整数，它指定源颜色的 蓝色原色的 n 次方伽马校正值。这个值应该在 2,500 到 65,000 的范围内。 值 10,000 表示不得执行伽马校正。 |
+| [Brightness](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/brightness) { get; set; } | 获取或设置一个 16 位有符号整数，它指定要应用于源对象的亮度量。 该值应在 –100 到 100 的范围内。 值为零表示不得执行亮度调整。 |
 | [Colorfullness](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/colorfullness) { get; set; } | 获取或设置一个 16 位有符号整数，它指定要应用于源对象的色彩量。 该值应在 –100 到 100 的范围内。 值为零表示不得执行色彩调整 |
-| [Contrast](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/contrast) { get; set; } | 获取或设置一个 16 位有符号整数，它指定要应用于源对象的对比度量。 这个值应该在 –100 到 100 的范围内。零值意味着不得执行对比度调整。 |
-| [GreenGamma](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/greengamma) { get; set; } | 获取或设置一个 16 位无符号整数，用于指定源颜色的绿色 原色的 n 次方伽马校正值。这个值应该在 2,500 到 65,000 的范围内。 值 10,000 表示不得执行伽马校正。 |
-| [IlluminantIndex](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/illuminantindex) { get; set; } | 获取或设置一个 16 位无符号整数，该整数指定查看 图像的标准光源类型，来自 Illuminant 枚举（第 2.1.19 节）。 |
-| [RedGamma](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/redgamma) { get; set; } | 获取或设置一个 16 位无符号整数，指定源颜色的红色 原色的 n 次方伽马校正值。这个值应该在 2,500 到 65,000 的范围内。 值 10,000 表示不得执行伽马校正。 |
-| [RedGreenTint](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/redgreentint) { get; set; } | 获取或设置 16 位有符号整数，指定要应用于源对象的红色或绿色色调调整量 。此值应在 –100 到 100 的范围内。 正数调整为红色，负数调整为绿色。 零值表示不得执行色调调整 |
-| [ReferenceBlack](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/referenceblack) { get; set; } | 获取或设置一个 16 位无符号整数，指定源颜色的黑色参考。 任何比这更暗的颜色都被视为黑色。 这个值应该在 0 到 4,000 的范围内 |
-| [ReferenceWhite](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/referencewhite) { get; set; } | 获取或设置一个 16 位无符号整数，指定源颜色的白色参考。 任何比这更亮的颜色都被视为白色。 这个值应该在 6,000 到 10,000 的范围内。 |
-| [Size](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/size) { get; set; } | 获取或设置一个 16 位无符号整数，指定此对象的字节大小。这必须是 0x0018。 |
-| [Values](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/values) { get; set; } | 获取或设置指定如何准备输出图像的 16 位无符号整数。该字段可以是 设置为 NULL 或 ColorAdjustment 枚举（第 2.1.5 节）中的任何值组合。 |
+| [Contrast](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/contrast) { get; set; } | 获取或设置一个 16 位有符号整数，它指定要应用于源对象的对比度量。 该值应在 –100 到 100 的范围内。值为零表示不得执行对比度调整。 |
+| [GreenGamma](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/greengamma) { get; set; } | 获取或设置一个 16 位无符号整数，指定源颜色的绿色 原色的 n 次方伽马校正值。这个值应该在 2,500 到 65,000 的范围内。 值 10,000 表示不得执行伽马校正。 |
+| [IlluminantIndex](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/illuminantindex) { get; set; } | 从 Illuminant 枚举（第 2.1.19 节）中获取或设置一个 16 位无符号整数，指定查看 图像的标准光源类型。 |
+| [RedGamma](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/redgamma) { get; set; } | 获取或设置一个 16 位无符号整数，指定源颜色的红色 原色的 n 次方伽马校正值。此值应在 2,500 到 65,000 的范围内。 值 10,000 表示不得执行伽马校正。 |
+| [RedGreenTint](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/redgreentint) { get; set; } | 获取或设置 16 位有符号整数，指定要应用到源对象 的红色或绿色色调调整量。此值应在 –100 到 100 的范围内。 正数调整为红色，负数调整为绿色。 值为零表示不得执行色调调整 |
+| [ReferenceBlack](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/referenceblack) { get; set; } | 获取或设置一个 16 位无符号整数，指定源颜色的黑色参考。 任何比这更暗的颜色都被视为黑色。 这个值应该在从零到 4,000 的范围内 |
+| [ReferenceWhite](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/referencewhite) { get; set; } | 获取或设置一个 16 位无符号整数，指定源颜色的白色参考。 任何比这更亮的颜色都被视为白色。 这个值应该在 6,000 到 10,000 之间。 |
+| [Size](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/size) { get; set; } | 获取或设置一个 16 位无符号整数，指定此对象的大小（以字节为单位）。这必须是 0x0018. |
+| [Values](../../aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/values) { get; set; } | 获取或设置一个 16 位无符号整数，指定如何准备输出图像。此字段可以 设置为 NULL 或 ColorAdjustment 枚举（第 2.1.5 节）中的任何值组合。 |
 
 ### 也可以看看
 

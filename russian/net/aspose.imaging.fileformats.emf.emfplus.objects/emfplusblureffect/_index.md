@@ -1,14 +1,14 @@
 ---
 title: EmfPlusBlurEffect
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект BlurEffect задает уменьшение разницы в интенсивности между пикселями изображения.
+description: Объект BlurEffect определяет уменьшение разницы в интенсивности между пикселями изображения.
 type: docs
 weight: 5220
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusblureffect/
 ---
 ## EmfPlusBlurEffect class
 
-Объект BlurEffect задает уменьшение разницы в интенсивности между пикселями изображения.
+Объект BlurEffect определяет уменьшение разницы в интенсивности между пикселями изображения.
 
 ```csharp
 public sealed class EmfPlusBlurEffect : EmfPlusImageEffectsObjectType
@@ -24,8 +24,8 @@ public sealed class EmfPlusBlurEffect : EmfPlusImageEffectsObjectType
 
 | Имя | Описание |
 | --- | --- |
-| [BlurRadius](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusblureffect/blurradius) { get; set; } | Получает или задает 32-разрядное число с плавающей запятой, определяющее радиус размытия в пикселях, определяющее количество пикселей, участвующих в вычислении новое значение данного пикселя. Это значение ДОЛЖНО находиться в диапазоне от 0,0 до 255,0. |
-| [ExpandEdge](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusblureffect/expandedge) { get; set; } | Получает или задает 32-битное логическое значение, указывающее, расширяется ли растровое изображение на величину, равную значению BlurRadius для создания мягкого края. Это значение ДОЛЖНО быть одним из следующих: FALSE 0x00000000 Размер растрового изображения НЕ ДОЛЖЕН изменяться, и его мягкие края ДОЛЖНЫ быть обрезаны до размера BlurRadius. TRUE 0x00000001 Размер растрового изображения ДОЛЖЕН увеличиваться на величину, равную BlurRadius, чтобы создавать мягкие края. |
+| [BlurRadius](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusblureffect/blurradius) { get; set; } | Получает или задает 32-битное число с плавающей запятой, указывающее радиус размытия в пикселях, определяющее количество пикселей, участвующих в вычислении нового значения данного пикселя. Это значение ДОЛЖНО находиться в диапазоне от 0,0 до 255,0. |
+| [ExpandEdge](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusblureffect/expandedge) { get; set; } | Получает или задает 32-разрядное логическое значение, указывающее, расширяется ли растровое изображение на на величину, равную значению BlurRadius для создания мягких краев. Это значение ДОЛЖНО быть одним из следующих: FALSE 0x00000000 Размер растрового изображения НЕ ДОЛЖЕН изменяться, а его мягкие края ДОЛЖНЫ быть обрезаны до размера BlurRadius. BlurRadius to создает мягкие края. |
 
 ### Смотрите также
 

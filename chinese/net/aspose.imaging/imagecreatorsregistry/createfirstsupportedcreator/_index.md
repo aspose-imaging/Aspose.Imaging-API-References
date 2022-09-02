@@ -20,7 +20,7 @@ public static IImageCreator CreateFirstSupportedCreator(ImageOptionsBase imageOp
 
 ### 返回值
 
-支持指定的创建者，如果没有找到这样的创建者，则返回 null。
+支持指定的创建者，如果没有找到这样的创建者，则为null。
 
 ### 评论
 

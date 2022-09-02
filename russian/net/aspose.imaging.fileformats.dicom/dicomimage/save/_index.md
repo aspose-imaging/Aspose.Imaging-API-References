@@ -17,8 +17,8 @@ public override void Save(Stream stream, ImageOptionsBase optionsBase, Rectangle
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток, в который сохраняются данные изображения. |
-| optionsBase | ImageOptionsBase | Параметры сохранения. |
-| boundsRectangle | Rectangle | Конечный прямоугольник, ограничивающий изображение. Установите пустой прямоугольник для использования исходных границ. |
+| optionsBase | ImageOptionsBase | Варианты сохранения. |
+| boundsRectangle | Rectangle | Конечный образ ограничивает прямоугольник. Установите пустой прямоугольник для использования исходных границ. |
 
 ### Примеры
 
@@ -35,7 +35,7 @@ using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileF
     Aspose.Imaging.Rectangle bounds = new Aspose.Imaging.Rectangle(0, 0, image.Width / 2, image.Height / 2);
     using (System.IO.Stream outputStream = System.IO.File.Open(dir + "output.png", System.IO.FileMode.Create))
     {
-         // Сохраняем верхнюю левую четверть изображения в файл stream.
+        // Сохраняем верхнюю левую четверть изображения в файловый поток.
         image.Save(outputStream, saveOptions, bounds);
     }
 }

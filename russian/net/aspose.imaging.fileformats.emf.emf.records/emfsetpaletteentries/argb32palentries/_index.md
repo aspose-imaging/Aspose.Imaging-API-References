@@ -1,14 +1,14 @@
 ---
 title: Argb32PalEntries
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив объектов LogPaletteEntry раздел 2.2.18 длиной NumberOfEntries который определяет данные записи палитры. Элементы Values не содержат никаких значений.
+description: Получает или задает массив объектов LogPaletteEntry раздел 2.2.18 длиной NumberOfEntries который определяет данные записи палитры. Члены Values do не содержат значений.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries/argb32palentries/
 ---
 ## EmfSetPaletteEntries.Argb32PalEntries property
 
-Получает или задает массив объектов LogPaletteEntry (раздел 2.2.18) длиной NumberOfEntries, который определяет данные записи палитры. Элементы Values не содержат никаких значений.
+Получает или задает массив объектов LogPaletteEntry (раздел 2.2.18) длиной NumberOfEntries, который определяет данные записи палитры. Члены Values do не содержат значений.
 
 ```csharp
 public int[] Argb32PalEntries { get; set; }

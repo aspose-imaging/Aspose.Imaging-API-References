@@ -1,14 +1,14 @@
 ---
 title: EmfPlusLinePath
 second_title: Aspose.Imaging for .NET API 参考
-description: EmfPlusLinePath 对象指定用于勾画自定义线帽的图形路径
+description: EmfPlusLinePath 对象指定用于勾勒自定义线帽的图形路径
 type: docs
 weight: 5550
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslinepath/
 ---
 ## EmfPlusLinePath class
 
-EmfPlusLinePath 对象指定用于勾画自定义线帽的图形路径。
+EmfPlusLinePath 对象指定用于勾勒自定义线帽的图形路径。
 
 ```csharp
 public sealed class EmfPlusLinePath : EmfPlusStructureObjectType
@@ -24,7 +24,7 @@ public sealed class EmfPlusLinePath : EmfPlusStructureObjectType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LinePath](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslinepath/linepath) { get; set; } | 获取或设置定义轮廓的[`EmfPlusPath`](../emfpluspath)对象。 |
+| [LinePath](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslinepath/linepath) { get; set; } | 获取或设置一个[`EmfPlusPath`](../emfpluspath)定义轮廓的对象。 |
 
 ### 也可以看看
 

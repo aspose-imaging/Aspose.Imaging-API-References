@@ -1,14 +1,14 @@
 ---
 title: Rects
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置定义剪切区域的 NumRects 矩形数组 该数据的格式由标志字段中的 C 位确定
+description: 获取或设置定义剪切区域的 NumRects 矩形数组 这个数据的格式是由Flags字段中的C位决定的
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsclip/rects/
 ---
 ## EmfPlusSetTsClip.Rects property
 
-获取或设置定义剪切区域的 NumRects 矩形数组。 该数据的格式由标志字段中的 C 位确定。
+获取或设置定义剪切区域的 NumRects 矩形数组。 这个数据的格式是由Flags字段中的C位决定的。
 
 ```csharp
 public Rectangle[] Rects { get; set; }
@@ -16,7 +16,7 @@ public Rectangle[] Rects { get; set; }
 
 ### 适当的价值
 
-矩形。
+rects.
 
 ### 也可以看看
 

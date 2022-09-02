@@ -1,14 +1,14 @@
 ---
 title: RectangleF
 second_title: Aspose.Imaging for .NET API 参考
-description: 用指定的位置和大小初始化RectangleFaspose.imaging/rectanglef结构的新实例
+description: 初始化RectangleFaspose.imaging/rectanglef具有指定位置和大小的结构
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/rectanglef/rectanglef/
 ---
 ## RectangleF(float, float, float, float) {#constructor_1}
 
-用指定的位置和大小初始化[`RectangleF`](../../rectanglef)结构的新实例。
+初始化[`RectangleF`](../../rectanglef)具有指定位置和大小的结构。
 
 ```csharp
 public RectangleF(float x, float y, float width, float height)
@@ -31,7 +31,7 @@ public RectangleF(float x, float y, float width, float height)
 
 ## RectangleF(PointF, SizeF) {#constructor}
 
-用指定的位置和大小初始化[`RectangleF`](../../rectanglef)结构的新实例。
+初始化[`RectangleF`](../../rectanglef)具有指定位置和大小的结构。
 
 ```csharp
 public RectangleF(PointF location, SizeF size)
@@ -39,8 +39,8 @@ public RectangleF(PointF location, SizeF size)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| location | PointF | A[`PointF`](../../pointf)表示左上角矩形区域。 |
-| size | SizeF | A[`SizeF`](../../sizef)表示矩形区域的宽度和高度。 |
+| location | PointF | 一个[`PointF`](../../pointf)表示矩形区域的左上角。 |
+| size | SizeF | 一个[`SizeF`](../../sizef)表示矩形区域的宽度和高度。 |
 
 ### 也可以看看
 

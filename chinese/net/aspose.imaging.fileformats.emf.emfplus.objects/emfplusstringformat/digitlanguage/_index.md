@@ -1,14 +1,14 @@
 ---
 title: DigitLanguage
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 EmfPlusLanguageIdentifier 对象该对象指定用于字符串中数字的 语言 例如如果此字符串包含阿拉伯数字则 此字段必须包含语言标识符 指定阿拉伯语
+description: 获取或设置 EmfPlusLanguageIdentifier 对象该对象指定 用于字符串中数字的语言 例如如果此字符串包含阿拉伯数字 此字段必须包含 指定阿拉伯语的语言标识符
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/digitlanguage/
 ---
 ## EmfPlusStringFormat.DigitLanguage property
 
-获取或设置一个 EmfPlusLanguageIdentifier 对象，该对象指定用于字符串中数字的 语言。 例如，如果此字符串包含阿拉伯数字，则 此字段必须包含语言标识符 指定阿拉伯语
+获取或设置 EmfPlusLanguageIdentifier 对象，该对象指定 用于字符串中数字的语言。 例如，如果此字符串包含阿拉伯数字， 此字段必须包含 指定阿拉伯语的语言标识符
 
 ```csharp
 public EmfPlusLanguageIdentifierType DigitLanguage { get; set; }

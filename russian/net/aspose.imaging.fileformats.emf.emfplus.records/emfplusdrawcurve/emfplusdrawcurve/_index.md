@@ -1,14 +1,14 @@
 ---
 title: EmfPlusDrawCurve
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusDrawCurveaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawcurve.
+description: Инициализирует новый экземплярEmfPlusDrawCurveaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawcurve класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawcurve/emfplusdrawcurve/
 ---
 ## EmfPlusDrawCurve constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusDrawCurve`](../../emfplusdrawcurve).
+Инициализирует новый экземпляр[`EmfPlusDrawCurve`](../../emfplusdrawcurve) класс.
 
 ```csharp
 public EmfPlusDrawCurve(EmfPlusRecord source)

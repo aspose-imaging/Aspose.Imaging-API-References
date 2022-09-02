@@ -16,7 +16,7 @@ public void SetStudyDescription(string studyDescription)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| studyDescription | String | 研究描述。 |
+| studyDescription | String | 研究说明。 |
 
 ### 也可以看看
 

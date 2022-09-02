@@ -26,7 +26,7 @@ public XmpPackage GetPackage(string namespaceUri)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | namespaceUri |
+| ArgumentNullException | 命名空间Uri |
 
 ### 也可以看看
 

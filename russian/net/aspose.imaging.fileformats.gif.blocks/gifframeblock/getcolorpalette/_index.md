@@ -17,8 +17,8 @@ public static IColorPalette GetColorPalette(IColorPalette framePalette,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| framePalette | IColorPalette | Палитра кадров. |
-| containerPalette | IColorPalette | Палитра контейнера. |
+| framePalette | IColorPalette | Палитра кадра. |
+| containerPalette | IColorPalette | Палитра контейнеров. |
 
 ### Возвращаемое значение
 

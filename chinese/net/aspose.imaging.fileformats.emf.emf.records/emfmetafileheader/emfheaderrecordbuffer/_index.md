@@ -1,14 +1,14 @@
 ---
 title: EmfHeaderRecordBuffer
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置包含 EMF 标头记录剩余部分的可选字节数组 该字段的大小必须是 4 个字节的倍数
+description: 获取或设置一个可选的字节数组其中包含 EMF 标头记录的其余部分 这个字段的大小必须是4字节的倍数
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfheaderrecordbuffer/
 ---
 ## EmfMetafileHeader.EmfHeaderRecordBuffer property
 
-获取或设置包含 EMF 标头记录剩余部分的可选字节数组。 该字段的大小必须是 4 个字节的倍数
+获取或设置一个可选的字节数组，其中包含 EMF 标头记录的其余部分。 这个字段的大小必须是4字节的倍数
 
 ```csharp
 public byte[] EmfHeaderRecordBuffer { get; set; }

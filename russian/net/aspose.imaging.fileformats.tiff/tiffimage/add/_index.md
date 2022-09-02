@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Добавляет указанные кадры изображения к текущему кадру.
+description: Добавляет кадры указанного изображения к текущему кадру.
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging.fileformats.tiff/tiffimage/add/
 ---
 ## TiffImage.Add method
 
-Добавляет указанные кадры изображения к текущему кадру.
+Добавляет кадры указанного изображения к текущему кадру.
 
 ```csharp
 public void Add(TiffImage image)

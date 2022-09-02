@@ -8,7 +8,7 @@ url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfstretchblt/argb32bkco
 ---
 ## EmfStretchBlt.Argb32BkColorSrc property
 
-获取或设置 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节指定源位图的 背景颜色。
+获取或设置 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节，指定源位图的 背景颜色。
 
 ```csharp
 public int Argb32BkColorSrc { get; set; }

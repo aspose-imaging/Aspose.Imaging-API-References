@@ -1,14 +1,14 @@
 ---
 title: EmfExtCreateFontIndirectW
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfExtCreateFontIndirectWaspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw.
+description: Инициализирует новый экземплярEmfExtCreateFontIndirectWaspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw/emfextcreatefontindirectw/
 ---
 ## EmfExtCreateFontIndirectW(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfExtCreateFontIndirectW`](../../emfextcreatefontindirectw).
+Инициализирует новый экземпляр[`EmfExtCreateFontIndirectW`](../../emfextcreatefontindirectw) класс.
 
 ```csharp
 public EmfExtCreateFontIndirectW(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfExtCreateFontIndirectW(EmfRecord source)
 
 ## EmfExtCreateFontIndirectW() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfExtCreateFontIndirectW`](../../emfextcreatefontindirectw).
+Инициализирует новый экземпляр[`EmfExtCreateFontIndirectW`](../../emfextcreatefontindirectw) класс.
 
 ```csharp
 public EmfExtCreateFontIndirectW()

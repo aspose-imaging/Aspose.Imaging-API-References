@@ -1,14 +1,14 @@
 ---
 title: CompositingQuality
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает качество композиции.
+description: Получает или задает качество композитинга.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging/graphics/compositingquality/
 ---
 ## Graphics.CompositingQuality property
 
-Получает или задает качество композиции.
+Получает или задает качество композитинга.
 
 ```csharp
 public CompositingQuality CompositingQuality { get; set; }
@@ -16,7 +16,7 @@ public CompositingQuality CompositingQuality { get; set; }
 
 ### Стоимость имущества
 
-Качество композиции.
+Качество компоновки.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: EmfPlusComment
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPlusCommentaspose.imaging.fileformats.emf.emfplus.records/emfpluscomment类的新实例
+description: 初始化EmfPlusCommentaspose.imaging.fileformats.emf.emfplus.records/emfpluscomment类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfpluscomment/emfpluscomment/
 ---
 ## EmfPlusComment constructor
 
-初始化[`EmfPlusComment`](../../emfpluscomment)类的新实例。
+初始化[`EmfPlusComment`](../../emfpluscomment)类.
 
 ```csharp
 public EmfPlusComment(EmfPlusRecord source)
@@ -16,7 +16,7 @@ public EmfPlusComment(EmfPlusRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfPlusRecord | 源。 |
+| source | EmfPlusRecord | 来源。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: EmfEllipse
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfEllipseaspose.imaging.fileformats.emf.emf.records/emfellipse.
+description: Инициализирует новый экземплярEmfEllipseaspose.imaging.fileformats.emf.emf.records/emfellipse класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfellipse/emfellipse/
 ---
 ## EmfEllipse(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfEllipse`](../../emfellipse).
+Инициализирует новый экземпляр[`EmfEllipse`](../../emfellipse) класс.
 
 ```csharp
 public EmfEllipse(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfEllipse(EmfRecord source)
 
 ## EmfEllipse() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfEllipse`](../../emfellipse).
+Инициализирует новый экземпляр[`EmfEllipse`](../../emfellipse) класс.
 
 ```csharp
 public EmfEllipse()

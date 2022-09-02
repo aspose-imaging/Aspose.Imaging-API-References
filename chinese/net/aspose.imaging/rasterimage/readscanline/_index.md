@@ -1,14 +1,14 @@
 ---
 title: ReadScanLine
 second_title: Aspose.Imaging for .NET API 参考
-description: 通过指定的扫描线索引读取整个扫描线
+description: 按指定的扫描线索引读取整个扫描线
 type: docs
 weight: 450
 url: /zh/net/aspose.imaging/rasterimage/readscanline/
 ---
 ## RasterImage.ReadScanLine method
 
-通过指定的扫描线索引读取整个扫描线。
+按指定的扫描线索引读取整个扫描线。
 
 ```csharp
 public Color[] ReadScanLine(int scanLineIndex)

@@ -1,14 +1,14 @@
 ---
 title: BookmarksOutlineLevel
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Указывает на каком уровне структуры документа отображать объекты закладок. 0 - не отображается. 1 на первом уровне и так далее. По умолчанию 0.
+description: Указывает на каком уровне структуры документа отображать объекты закладок. 0  не отображается. 1 на первом уровне и т. д. По умолчанию 0.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.pdf/pdfcoreoptions/bookmarksoutlinelevel/
 ---
 ## PdfCoreOptions.BookmarksOutlineLevel property
 
-Указывает, на каком уровне структуры документа отображать объекты закладок. 0 - не отображается. 1 на первом уровне и так далее. По умолчанию 0.
+Указывает, на каком уровне структуры документа отображать объекты закладок. 0 — не отображается. 1 на первом уровне и т. д. По умолчанию 0.
 
 ```csharp
 public int BookmarksOutlineLevel { get; set; }

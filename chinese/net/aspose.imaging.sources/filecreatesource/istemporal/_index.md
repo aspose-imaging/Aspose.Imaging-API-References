@@ -16,7 +16,7 @@ public override bool IsTemporal { get; }
 
 ### 适当的价值
 
-` true` 如果文件是临时文件；否则，` false` 。
+`真的`如果文件是临时的；否则，`错误的`.
 
 ### 也可以看看
 

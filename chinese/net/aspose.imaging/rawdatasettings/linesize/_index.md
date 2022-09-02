@@ -1,14 +1,14 @@
 ---
 title: LineSize
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置用于原始数据处理的像素线大小以字节为单位
+description: 获取或设置用于处理原始数据的像素线大小以字节为单位
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging/rawdatasettings/linesize/
 ---
 ## RawDataSettings.LineSize property
 
-获取或设置用于原始数据处理的像素线大小（以字节为单位）
+获取或设置用于处理原始数据的像素线大小（以字节为单位）
 
 ```csharp
 public int LineSize { get; set; }

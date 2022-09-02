@@ -1,14 +1,14 @@
 ---
 title: Clip
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект WMF RectL MS-WMF раздел 2.2.2.19 который определяет прямоугольник отсечения в логических единицах.
+description: Получает или задает объект WMF RectL MS-WMF раздел 2.2.2.19 который определяет отсеченный прямоугольник в логических единицах.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfexcludecliprect/clip/
 ---
 ## EmfExcludeClipRect.Clip property
 
-Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который определяет прямоугольник отсечения в логических единицах.
+Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который определяет отсеченный прямоугольник в логических единицах.
 
 ```csharp
 public Rectangle Clip { get; set; }

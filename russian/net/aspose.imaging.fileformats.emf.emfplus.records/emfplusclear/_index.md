@@ -1,14 +1,14 @@
 ---
 title: EmfPlusClear
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EmfPlusClear очищает выходное координатное пространство и инициализирует его фоновым цветом и прозрачностью
+description: Запись EmfPlusClear очищает выходное координатное пространство и инициализирует его цветом фона и прозрачностью
 type: docs
 weight: 5860
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusclear/
 ---
 ## EmfPlusClear class
 
-Запись EmfPlusClear очищает выходное координатное пространство и инициализирует его фоновым цветом и прозрачностью
+Запись EmfPlusClear очищает выходное координатное пространство и инициализирует его цветом фона и прозрачностью
 
 ```csharp
 public sealed class EmfPlusClear : EmfPlusDrawingRecordType
@@ -18,16 +18,16 @@ public sealed class EmfPlusClear : EmfPlusDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPlusClear](emfplusclear)(EmfPlusRecord) | Инициализирует новый экземпляр класса[`EmfPlusClear`](../emfplusclear). |
+| [EmfPlusClear](emfplusclear)(EmfPlusRecord) | Инициализирует новый экземпляр[`EmfPlusClear`](../emfplusclear) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [Argb32Color](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusclear/argb32color) { get; set; } | Получает или задает цвет. Объект EmfPlusARGB (раздел 2.2.2.1), который определяет цвет для рисования экрана. Все цвета указаны в [IEC-RGB], если не указано иное. |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО определять 32-разрядное выровненное число байтов данных в поле RecordData, которое следует. Это число не включает 12-байтовый заголовок записи. |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | Получает или задает 16-разрядное целое число без знака, содержащее информацию для некоторых записей о том, как должна выполняться операция , и о структуре запись. |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее число байтов, выровненных по 32-разрядному выравниванию во всей записи, включая 12 -байтовый заголовок записи и данные, относящиеся к записи. |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО определять 32-разрядное выровненное количество байтов данных в следующем поле RecordData. Это число не включает 12-байтовый заголовок записи. |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | Получает или задает 16-разрядное целое число без знака, содержащее информацию для некоторых записей о том, как должна выполняться операция, и о структуре записи. |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее 32-разрядное выровненное количество байтов во всей записи, включая 12-разрядный заголовок записи и данные, относящиеся к записи. |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | Получает 16-разрядное целое число без знака, определяющее тип записи. |
 
 ### Смотрите также

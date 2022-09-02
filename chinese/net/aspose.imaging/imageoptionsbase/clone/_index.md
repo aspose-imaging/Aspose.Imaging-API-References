@@ -16,7 +16,7 @@ public virtual ImageOptionsBase Clone()
 
 ### 返回值
 
-返回此实例的浅表副本
+返回此实例的浅拷贝
 
 ### 也可以看看
 

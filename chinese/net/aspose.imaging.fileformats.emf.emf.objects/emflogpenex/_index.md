@@ -24,14 +24,14 @@ public sealed class EmfLogPenEx : EmfBasePen
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Argb32ColorRef](../../aspose.imaging.fileformats.emf.emf.objects/emflogpenex/argb32colorref) { get; set; } | 获取或设置 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节）。此 字段的解释取决于 BrushStyle 值，如本节后面的表中所示。 |
+| override [Argb32ColorRef](../../aspose.imaging.fileformats.emf.emf.objects/emflogpenex/argb32colorref) { get; set; } | 获取或设置 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节）。 this 字段的解释取决于 BrushStyle 值，如本节后面的表格所示。 |
 | [BrushDibPattern](../../aspose.imaging.fileformats.emf.emf.objects/emflogpenex/brushdibpattern) { get; set; } | 获取或设置画笔 dib 模式。 |
-| [BrushHatch](../../aspose.imaging.fileformats.emf.emf.objects/emflogpenex/brushhatch) { get; set; } | 获取或设置画笔填充图案。此字段的定义取决于 BrushStyle 值，如本节后面的表格中所示。 |
-| [BrushStyle](../../aspose.imaging.fileformats.emf.emf.objects/emflogpenex/brushstyle) { get; set; } | 从 WMF BrushStyle 枚举（[MS-WMF]第 2.1.1.4 节）。 如果 PenStyle 字段中的笔类型是 PS_GEOMETRIC，则此值必须是 BS_SOLID 或 BS_HATCHED。该字段的值可以是 BS_NULL，但前提是 PenStyle 中指定的 线型为 PS_NULL。应该使用 BS_NULL 样式 来指定没有效果的画笔。 |
-| [NumStyleEntities](../../aspose.imaging.fileformats.emf.emf.objects/emflogpenex/numstyleentities) { get; } | 获取 StyleEntry 字段中指定的数组中的元素数。 如果 PenStyle 未指定 PS_USERSTYLE，此值应为零。 |
+| [BrushHatch](../../aspose.imaging.fileformats.emf.emf.objects/emflogpenex/brushhatch) { get; set; } | 获取或设置画笔填充图案。该字段的定义取决于 BrushStyle 值，如本节后面的表格所示。 |
+| [BrushStyle](../../aspose.imaging.fileformats.emf.emf.objects/emflogpenex/brushstyle) { get; set; } | 从 WMF BrushStyle 枚举（[MS-WMF] 第 2.1.1.4 节）中获取或设置一个 32 位无符号整数，该整数指定画笔的画笔样式。 如果 PenStyle 字段中的笔类型是 PS_GEOMETRIC，则此值必须是 BS_SOLID 或 BS_HATCHED。此字段的值可以是 BS_NULL，但前提是 PenStyle 中指定的 线型为 PS_NULL。应该使用 BS_NULL 样式 来指定没有效果的画笔。 |
+| [NumStyleEntities](../../aspose.imaging.fileformats.emf.emf.objects/emflogpenex/numstyleentities) { get; } | 获取在 StyleEntry 字段中指定的数组中的元素数。 如果 PenStyle 未指定 PS_USERSTYLE，此值应为零。 |
 | override [PenStyle](../../aspose.imaging.fileformats.emf.emf.objects/emflogpenex/penstyle) { get; set; } | 获取或设置画笔样式 |
-| [StyleEntry](../../aspose.imaging.fileformats.emf.emf.objects/emflogpenex/styleentry) { get; set; } | 获取或设置一个可选的 32 位无符号整数数组，该数组定义了 此笔绘制的线条中的破折号和间隙的长度，当 PenStyle 的值为笔的 PS_USERSTYLE 线型时。该数组包含许多由 NumStyleEntries 指定的 条目，但它被用作无限重复 数组中的第一个条目指定第一个破折号的长度。第二个 条目指定第一个间隙的长度。此后，虚线和间隙的长度交替变化。 如果 PenStyle 字段中的笔类型为 PS_GEOMETRIC，则长度以 逻辑单位指定；否则，长度以设备单位指定。 |
-| [Width](../../aspose.imaging.fileformats.emf.emf.objects/emflogpenex/width) { get; set; } | 获取或设置一个 32 位无符号整数，指定笔画线的宽度。 如果 PenStyle 字段中的笔类型为 PS_GEOMETRIC，则该值为 逻辑单位的宽度；否则，宽度以设备单位指定。 如果 PenStyle 字段中的笔类型为 PS_COSMETIC，则此值必须为 0x00000001。 |
+| [StyleEntry](../../aspose.imaging.fileformats.emf.emf.objects/emflogpenex/styleentry) { get; set; } | 获取或设置一个可选的 32 位无符号整数数组，当 PenStyle 的值为笔的 PS_USERSTYLE 线条样式时，该数组定义此笔绘制的线条中 破折号和间隙的长度。该数组包含由 NumStyleEntries 指定的多个 条目，但它被用作无限重复 数组中的第一个条目指定第一个破折号的长度。第二个 条目指定第一个间隙的长度。此后，短划线和间隙的长度交替变化。 如果 PenStyle 字段中的笔类型为 PS_GEOMETRIC，则长度以 逻辑单位指定；否则，长度以设备单位指定。 |
+| [Width](../../aspose.imaging.fileformats.emf.emf.objects/emflogpenex/width) { get; set; } | 获取或设置一个32位无符号整数，指定笔画线的宽度。 如果PenStyle字段中的笔类型为PS_GEOMETRIC，则该值为 逻辑单位的宽度；否则，宽度以设备单位指定。 如果 PenStyle 字段中的笔类型为 PS_COSMETIC，则此值必须为 0x00000001. |
 
 ### 也可以看看
 

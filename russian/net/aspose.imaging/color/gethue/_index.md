@@ -1,14 +1,14 @@
 ---
 title: GetHue
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение оттенка оттенка-насыщенности-яркости HSB в градусах для этойColoraspose.imaging/colorструктуры.
+description: Получает значение оттенка оттенка-насыщенности-яркости HSB в градусах для данногоColoraspose.imaging/color структура.
 type: docs
 weight: 1570
 url: /ru/net/aspose.imaging/color/gethue/
 ---
 ## Color.GetHue method
 
-Получает значение оттенка оттенка-насыщенности-яркости (HSB) в градусах для этой[`Color`](../../color)структуры.
+Получает значение оттенка оттенка-насыщенности-яркости (HSB) в градусах для данного[`Color`](../../color) структура.
 
 ```csharp
 public float GetHue()

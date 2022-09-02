@@ -1,14 +1,14 @@
 ---
 title: Rgb16Bpp555
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取PixelDataFormataspose.imaging/pixeldataformat定义为每像素 16 位红色绿色和蓝色各 5 位 alpha 未定义
+description: 获取PixelDataFormataspose.imaging/pixeldataformat定义为每像素 16 位红色绿色和蓝色各 5 位未定义 alpha
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging/pixeldataformat/rgb16bpp555/
 ---
 ## PixelDataFormat.Rgb16Bpp555 property
 
-获取[`PixelDataFormat`](../../pixeldataformat)定义为每像素 16 位，红色、绿色和蓝色各 5 位, alpha 未定义。
+获取[`PixelDataFormat`](../../pixeldataformat)定义为每像素 16 位，红色、绿色和蓝色各 5 位，未定义 alpha。
 
 ```csharp
 public static PixelDataFormat Rgb16Bpp555 { get; }
@@ -16,7 +16,7 @@ public static PixelDataFormat Rgb16Bpp555 { get; }
 
 ### 适当的价值
 
-[`PixelDataFormat`](../../pixeldataformat)定义为 16 位每个像素，红色、绿色和蓝色各有 5 位，未定义 alpha。
+的[`PixelDataFormat`](../../pixeldataformat)定义为每像素 16 位，红色、绿色和蓝色各 5 位，未定义 alpha。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: PointData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置点数据 Count 点数组指定要绘制的线的起点和终点
+description: 获取或设置点 data Count 点数组指定要绘制的线的起点和终点
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawlines/pointdata/
 ---
 ## EmfPlusDrawLines.PointData property
 
-获取或设置点数据 Count 点数组，指定要绘制的线的起点和终点。
+获取或设置点 data Count 点数组，指定要绘制的线的起点和终点。
 
 ```csharp
 public PointF[] PointData { get; set; }

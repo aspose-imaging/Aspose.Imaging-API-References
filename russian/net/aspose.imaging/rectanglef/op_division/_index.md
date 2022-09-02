@@ -27,7 +27,7 @@ public static RectangleF operator /(RectangleF rectangle, float divider)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | делитель - Деление на ноль запрещено. |
+| ArgumentOutOfRangeException | делитель - Деление на ноль не допускается. |
 
 ### Смотрите также
 

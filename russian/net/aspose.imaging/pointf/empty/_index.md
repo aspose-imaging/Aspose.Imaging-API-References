@@ -1,14 +1,14 @@
 ---
 title: Empty
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает новый экземпляр структурыPointFaspose.imaging/pointfсXиYaspose.imaging/pointf/yравны нулю.
+description: Получает новый экземплярPointFaspose.imaging/pointf структура которая имеетXaspose.imaging/pointf/x а такжеYaspose.imaging/pointf/y значения равны нулю.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging/pointf/empty/
 ---
 ## PointF.Empty property
 
-Получает новый экземпляр структуры[`PointF`](../../pointf)сXи[`Y`](../y)равны нулю.
+Получает новый экземпляр[`PointF`](../../pointf) структура, которая имеет[`X`](../x) а также[`Y`](../y) значения равны нулю.
 
 ```csharp
 public static PointF Empty { get; }

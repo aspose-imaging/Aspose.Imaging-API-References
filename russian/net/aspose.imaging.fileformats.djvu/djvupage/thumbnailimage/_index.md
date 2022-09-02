@@ -1,14 +1,14 @@
 ---
 title: ThumbnailImage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает эскиз изображения для страницы
+description: Получает или задает миниатюру для страницы
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.fileformats.djvu/djvupage/thumbnailimage/
 ---
 ## DjvuPage.ThumbnailImage property
 
-Получает или задает эскиз изображения для страницы
+Получает или задает миниатюру для страницы
 
 ```csharp
 public DjvuRaster ThumbnailImage { get; set; }

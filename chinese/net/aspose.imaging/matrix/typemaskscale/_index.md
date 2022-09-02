@@ -1,14 +1,14 @@
 ---
 title: TypeMaskScale
 second_title: Aspose.Imaging for .NET API 参考
-description: 此常量是任何比例标志位的位掩码
+description: 这个常数是任何比例标志位的位掩码
 type: docs
 weight: 260
 url: /zh/net/aspose.imaging/matrix/typemaskscale/
 ---
 ## Matrix.TypeMaskScale field
 
-此常量是任何比例标志位的位掩码。
+这个常数是任何比例标志位的位掩码。
 
 ```csharp
 public const int TypeMaskScale;

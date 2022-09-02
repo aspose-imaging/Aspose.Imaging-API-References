@@ -18,13 +18,13 @@ public class OdEquation : OdGraphicObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OdEquation](odequation)(OdObject) | 初始化[`OdEquation`](../odequation)类的新实例。 |
+| [OdEquation](odequation)(OdObject) | 初始化[`OdEquation`](../odequation)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]。 |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]. |
 | [Formula](../../aspose.imaging.fileformats.opendocument.objects.graphic/odequation/formula) { get; set; } | 获取或设置公式。 |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | 获取项目。 |
 | [Name](../../aspose.imaging.fileformats.opendocument.objects.graphic/odequation/name) { get; set; } | 获取或设置名称。 |

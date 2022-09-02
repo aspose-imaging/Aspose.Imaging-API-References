@@ -1,14 +1,14 @@
 ---
 title: EmfDeleteObject
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfDeleteObjectaspose.imaging.fileformats.emf.emf.records/emfdeleteobject.
+description: Инициализирует новый экземплярEmfDeleteObjectaspose.imaging.fileformats.emf.emf.records/emfdeleteobject класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfdeleteobject/emfdeleteobject/
 ---
 ## EmfDeleteObject(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfDeleteObject`](../../emfdeleteobject).
+Инициализирует новый экземпляр[`EmfDeleteObject`](../../emfdeleteobject) класс.
 
 ```csharp
 public EmfDeleteObject(EmfRecord record)
@@ -29,7 +29,7 @@ public EmfDeleteObject(EmfRecord record)
 
 ## EmfDeleteObject() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfDeleteObject`](../../emfdeleteobject).
+Инициализирует новый экземпляр[`EmfDeleteObject`](../../emfdeleteobject) класс.
 
 ```csharp
 public EmfDeleteObject()
@@ -54,7 +54,7 @@ using (Aspose.Imaging.FileFormats.Emf.MetaImage image = (Aspose.Imaging.FileForm
 }
     
 /// <summary>
- /// Вспомогательный метод для изменения фона EMF.
+/// Вспомогательный метод для изменения фона EMF.
 /// </summary>
 public static void AddBackgroundRectangleEmf(Aspose.Imaging.FileFormats.Emf.EmfImage image, Aspose.Imaging.Color color)
 {
@@ -64,28 +64,28 @@ public static void AddBackgroundRectangleEmf(Aspose.Imaging.FileFormats.Emf.EmfI
         return;
     }
 
-     //Установить Rectangle
+    //Установить прямоугольник
     Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfRectangle rectangle = new Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfRectangle();
     rectangle.Box = image.Header.EmfHeader.Bounds;
 
-     //Установить кисть
+    //Установить кисть
     Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfCreateBrushIndirect brush = new Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfCreateBrushIndirect();
     brush.LogBrush = new Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfLogBrushEx();
     brush.LogBrush.Argb32ColorRef = color.ToArgb();
 
-     // Индексы объектов начинаются с 1; ноль зарезервирован для ссылок на сам метафайл, см. 
-     // https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-emf/e4fa4e63-9096-4cdc-b776-85e2a1e4e1f4
+    // Индексы объектов начинаются с 1; ноль зарезервирован для ссылок на сам метафайл, см.
+    // https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-emf/e4fa4e63-9096-4cdc-b776-85e2a1e4e1f4
     brush.IhBrush = 1;
 
-     //Выберите кисть
+    //Выбрать кисть
     Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSelectObject selectObject = new Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfSelectObject();
     selectObject.ObjectHandle = 1;
 
-     //Удалить кисть
+    //Удалить кисть
     Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfDeleteObject deleteObject = new Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfDeleteObject();
     deleteObject.ObjectHandle = 1;
 
-     //Добавить записи
+    //Добавить записи
     image.Records.Insert(1, brush);
     image.Records.Insert(2, selectObject);
     image.Records.Insert(3, rectangle);

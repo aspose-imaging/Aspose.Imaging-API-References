@@ -1,14 +1,14 @@
 ---
 title: Title
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает поле Заголовок
+description: Получает поле заголовка
 type: docs
 weight: 170
 url: /ru/net/aspose.imaging.fileformats.eps/epsimage/title/
 ---
 ## EpsImage.Title property
 
-Получает поле Заголовок
+Получает поле заголовка
 
 ```csharp
 public string Title { get; }

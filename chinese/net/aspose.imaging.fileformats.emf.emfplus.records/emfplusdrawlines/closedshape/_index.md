@@ -1,14 +1,14 @@
 ---
 title: ClosedShape
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值是否闭合形状
+description: 获取或设置一个值指示是否闭合形状.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawlines/closedshape/
 ---
 ## EmfPlusDrawLines.ClosedShape property
 
-获取或设置一个值是否[闭合形状]。
+获取或设置一个值，指示是否[闭合形状].
 
 ```csharp
 public bool ClosedShape { get; set; }
@@ -16,7 +16,7 @@ public bool ClosedShape { get; set; }
 
 ### 适当的价值
 
-` true` if [闭合形状]；否则，` false` 。
+`真的` if [闭合形状];否则，`错误的` .
 
 ### 也可以看看
 

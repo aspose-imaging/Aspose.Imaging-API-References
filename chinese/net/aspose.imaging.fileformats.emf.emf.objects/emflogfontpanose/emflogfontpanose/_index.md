@@ -1,14 +1,14 @@
 ---
 title: EmfLogFontPanose
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfLogFontPanoseaspose.imaging.fileformats.emf.emf.objects/emflogfontpanose类的新实例
+description: 初始化EmfLogFontPanoseaspose.imaging.fileformats.emf.emf.objects/emflogfontpanose类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emflogfontpanose/emflogfontpanose/
 ---
 ## EmfLogFontPanose constructor
 
-初始化[`EmfLogFontPanose`](../../emflogfontpanose)类的新实例。
+初始化[`EmfLogFontPanose`](../../emflogfontpanose)类.
 
 ```csharp
 public EmfLogFontPanose(EmfLogFont emfLogFont)

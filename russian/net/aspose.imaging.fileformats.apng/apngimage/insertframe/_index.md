@@ -1,14 +1,14 @@
 ---
 title: InsertFrame
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Вставляет новый фрейм в собственную коллекцию фреймов по указанному индексу. Новый кадр будет создан в соответствии с размером текущего изображения.
+description: Вставляет новый кадр в собственную коллекцию кадров по указанному индексу. Новый кадр будет создан в соответствии с размером текущего изображения.
 type: docs
 weight: 250
 url: /ru/net/aspose.imaging.fileformats.apng/apngimage/insertframe/
 ---
 ## InsertFrame(int) {#insertframe}
 
-Вставляет новый фрейм в собственную коллекцию фреймов по указанному индексу. Новый кадр будет создан в соответствии с размером текущего изображения.
+Вставляет новый кадр в собственную коллекцию кадров по указанному индексу. Новый кадр будет создан в соответствии с размером текущего изображения.
 
 ```csharp
 public ApngFrame InsertFrame(int index)
@@ -26,7 +26,7 @@ public ApngFrame InsertFrame(int index)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *index*меньше 0. или *index*больше, чем[`PageCount`](../pagecount). |
+| ArgumentOutOfRangeException | *index* меньше 0. или *index* больше, чем[`PageCount`](../pagecount) . |
 
 ### Смотрите также
 
@@ -39,7 +39,7 @@ public ApngFrame InsertFrame(int index)
 
 ## InsertFrame(int, RasterImage) {#insertframe_1}
 
-Вставляет новый фрейм в собственную коллекцию фреймов по указанному индексу. Содержимое нового кадра будет заполнено из указанного изображения.
+Вставляет новый кадр в собственную коллекцию кадров по указанному индексу. Содержимое нового кадра будет заполнено из указанного изображения.
 
 ```csharp
 public void InsertFrame(int index, RasterImage frameImage)
@@ -54,8 +54,8 @@ public void InsertFrame(int index, RasterImage frameImage)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *index*меньше 0. или *index*больше, чем[`PageCount`](../pagecount). |
-| ArgumentNullException | frameImage имеет значение null. |
+| ArgumentOutOfRangeException | *index* меньше 0. или *index* больше, чем[`PageCount`](../pagecount) . |
+| ArgumentNullException | кадримаже имеет значение null. |
 
 ### Смотрите также
 
@@ -68,7 +68,7 @@ public void InsertFrame(int index, RasterImage frameImage)
 
 ## InsertFrame(int, RasterImage, uint) {#insertframe_2}
 
-Вставляет новый фрейм в собственную коллекцию фреймов по указанному индексу. Содержимое нового кадра будет заполнено из указанного изображения.
+Вставляет новый кадр в собственную коллекцию кадров по указанному индексу. Содержимое нового кадра будет заполнено из указанного изображения.
 
 ```csharp
 public void InsertFrame(int index, RasterImage frameImage, uint frameTime)
@@ -84,8 +84,8 @@ public void InsertFrame(int index, RasterImage frameImage, uint frameTime)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *index*меньше 0. или *index*больше, чем[`PageCount`](../pagecount). |
-| ArgumentNullException | frameImage имеет значение null. |
+| ArgumentOutOfRangeException | *index* меньше 0. или *index* больше, чем[`PageCount`](../pagecount) . |
+| ArgumentNullException | кадримаже имеет значение null. |
 
 ### Смотрите также
 

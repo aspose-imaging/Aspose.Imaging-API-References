@@ -1,14 +1,14 @@
 ---
 title: EmfMaskBlt
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfMaskBltaspose.imaging.fileformats.emf.emf.records/emfmaskblt.
+description: Инициализирует новый экземплярEmfMaskBltaspose.imaging.fileformats.emf.emf.records/emfmaskblt класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfmaskblt/emfmaskblt/
 ---
 ## EmfMaskBlt constructor
 
-Инициализирует новый экземпляр класса[`EmfMaskBlt`](../../emfmaskblt).
+Инициализирует новый экземпляр[`EmfMaskBlt`](../../emfmaskblt) класс.
 
 ```csharp
 public EmfMaskBlt(EmfRecord source)

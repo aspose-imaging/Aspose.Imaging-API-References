@@ -1,14 +1,14 @@
 ---
 title: CmykColor
 second_title: Aspose.Imaging for .NET API 参考
-description: 像素的 CMYK 颜色
+description: 像素的CMYK颜色
 type: docs
 weight: 280
 url: /zh/net/aspose.imaging/cmykcolor/
 ---
 ## CmykColor structure
 
-像素的 CMYK 颜色。
+像素的CMYK颜色。
 
 ```csharp
 public struct CmykColor
@@ -19,17 +19,17 @@ public struct CmykColor
 | 姓名 | 描述 |
 | --- | --- |
 | static [Empty](../../aspose.imaging/cmykcolor/empty) { get; } | 获取空。 |
-| [C](../../aspose.imaging/cmykcolor/c) { get; } | 获取此[`Color`](../color)结构的青色分量值。 |
-| [IsEmpty](../../aspose.imaging/cmykcolor/isempty) { get; } | 获取一个值，该值指示此[`Color`](../color)结构是否未初始化。 |
-| [K](../../aspose.imaging/cmykcolor/k) { get; } | 获取此[`Color`](../color)结构的黑色分量值。 |
-| [M](../../aspose.imaging/cmykcolor/m) { get; } | 获取此[`Color`](../color)结构的洋红色分量值。 |
-| [Y](../../aspose.imaging/cmykcolor/y) { get; } | 获取此[`Color`](../color)结构的黄色分量值。 |
+| [C](../../aspose.imaging/cmykcolor/c) { get; } | 获取这个的青色分量值[`Color`](../color)结构. |
+| [IsEmpty](../../aspose.imaging/cmykcolor/isempty) { get; } | 获取一个值，该值指示这是否[`Color`](../color)结构未初始化。 |
+| [K](../../aspose.imaging/cmykcolor/k) { get; } | 获取此的黑色分量值[`Color`](../color)结构. |
+| [M](../../aspose.imaging/cmykcolor/m) { get; } | 获取这个的洋红色分量值[`Color`](../color)结构. |
+| [Y](../../aspose.imaging/cmykcolor/y) { get; } | 获取this的黄色分量值[`Color`](../color)结构. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.imaging/cmykcolor/equals)(object) | 确定指定的Object是否等于此实例。 |
+| override [Equals](../../aspose.imaging/cmykcolor/equals)(object) | 判断是否指定Object 等于这个实例。 |
 | override [GetHashCode](../../aspose.imaging/cmykcolor/gethashcode)() | 获取哈希码。 |
 | [ToValue](../../aspose.imaging/cmykcolor/tovalue)() | to 值。 |
 

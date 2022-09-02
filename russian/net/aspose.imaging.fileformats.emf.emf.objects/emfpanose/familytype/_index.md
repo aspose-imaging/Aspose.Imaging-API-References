@@ -1,14 +1,14 @@
 ---
 title: FamilyType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 8-разрядное целое число без знака указывающее тип семейства. Значение ДОЛЖНО находиться в таблице перечисления FamilyType раздел 2.1.12.
+description: Получает или задает 8-разрядное целое число без знака указывающее тип семейства. Значение ДОЛЖНО быть в таблице перечисления FamilyType раздел 2.1.12.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfpanose/familytype/
 ---
 ## EmfPanose.FamilyType property
 
-Получает или задает 8-разрядное целое число без знака, указывающее тип семейства. Значение ДОЛЖНО находиться в таблице перечисления FamilyType (раздел 2.1.12).
+Получает или задает 8-разрядное целое число без знака, указывающее тип семейства. Значение ДОЛЖНО быть в таблице перечисления FamilyType (раздел 2.1.12).
 
 ```csharp
 public EmfFamilyType FamilyType { get; set; }

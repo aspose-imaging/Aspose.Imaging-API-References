@@ -1,14 +1,14 @@
 ---
 title: DiameterX
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает диаметр для измерения X прямоугольника. Меры в общепринятых единицах расстояния документа.
+description: Получает или задает диаметр для измерения X прямоугольника. Измеряет в общепринятых единицах измерения расстояния документа.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/diameterx/
 ---
 ## CmxEllipseSpec.DiameterX property
 
-Получает или задает диаметр для измерения X прямоугольника. Меры в общепринятых единицах расстояния документа.
+Получает или задает диаметр для измерения X прямоугольника. Измеряет в общепринятых единицах измерения расстояния документа.
 
 ```csharp
 public float DiameterX { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: IsArcTo
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее является ли этот экземпляр дугой.
+description: Получает или задает значение указывающее является ли этот экземпляр дугой для.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odarc/isarcto/
 ---
 ## OdArc.IsArcTo property
 
-Получает или задает значение, указывающее, является ли этот экземпляр дугой.
+Получает или задает значение, указывающее, является ли этот экземпляр дугой для.
 
 ```csharp
 public bool IsArcTo { get; set; }
@@ -16,7 +16,7 @@ public bool IsArcTo { get; set; }
 
 ### Стоимость имущества
 
-` true` если этот экземпляр является дугой; в противном случае` false` .
+`истинный` если этот экземпляр является дугой; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

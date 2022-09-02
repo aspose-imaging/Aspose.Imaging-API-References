@@ -19,12 +19,12 @@ public enum EmfPlusCustomLineCapDataFlags
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| CustomLineCapDataFillPath | `1` | Если установлено, объект[`EmfPlusFillPath`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfillpath)ДОЛЖЕН быть указан в поле OptionalData объекта[`EmfPlusCustomLineCapData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata)для заполнения произвольной строки. |
-| CustomLineCapDataLinePath | `2` | Если установлено, объект[`EmfPlusLinePath`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslinepath)ДОЛЖЕН быть указан в поле OptionalData объекта EmfPlusCustomLineCapData для очертания настраиваемой шапки строки. |
+| CustomLineCapDataFillPath | `1` | Если установлено,[`EmfPlusFillPath`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfillpath) объект ДОЛЖЕН быть указан в поле OptionalData[`EmfPlusCustomLineCapData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata) объект для заполнения пользовательской строки cap. |
+| CustomLineCapDataLinePath | `2` | Если установлено,[`EmfPlusLinePath`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluslinepath)объект ДОЛЖЕН быть указан в поле OptionalData объекта EmfPlusCustomLineCapData для выделения пользовательской строки. |
 
 ### Примечания
 
-Пользовательские заглавные буквы графических строк определяются[`EmfPlusCustomLineCap`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap)объекты.
+Пользовательские заглавные буквы графических строк определяются[`EmfPlusCustomLineCap`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap) объекты.
 
 ### Смотрите также
 

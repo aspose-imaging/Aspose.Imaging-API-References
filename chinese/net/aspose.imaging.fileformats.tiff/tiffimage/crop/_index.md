@@ -31,11 +31,11 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"
 {
     Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)image;
 
-        // 裁剪图像。裁剪区域是图像的矩形中心区域。
+    // 裁剪图像。裁剪区域是图像的矩形中心区域。
     Aspose.Imaging.Rectangle area = new Aspose.Imaging.Rectangle(tiffImage.Width / 4, tiffImage.Height / 4, tiffImage.Width / 2, tiffImage.Height / 2);
     tiffImage.Crop(area);
 
-        // 将裁剪后的图像保存到 PNG
+    // 将裁剪后的图像保存为 PNG
     tiffImage.Save(dir + "sample.Crop.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```
@@ -51,7 +51,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"
 
 ## Crop(int, int, int, int) {#crop_1}
 
-带班次裁剪图像。
+使用班次裁剪图像。
 
 ```csharp
 public override void Crop(int leftShift, int rightShift, int topShift, int bottomShift)
@@ -61,8 +61,8 @@ public override void Crop(int leftShift, int rightShift, int topShift, int botto
 | --- | --- | --- |
 | leftShift | Int32 | 左移。 |
 | rightShift | Int32 | 右移。 |
-| topShift | Int32 | 顶部移位。 |
-| bottomShift | Int32 | 底部移位。 |
+| topShift | Int32 | 最高班次。 |
+| bottomShift | Int32 | 下移。 |
 
 ### 例子
 
@@ -77,12 +77,12 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"
 {
     Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)image;
 
-        // 再次裁剪。设置图像大小的 10% 的边距。
+    // 再次裁剪。将边距设置为图像大小的 10%。
     int horizontalMargin = tiffImage.Width / 10;
     int verticalMargin = tiffImage.Height / 10;
     tiffImage.Crop(horizontalMargin, horizontalMargin, verticalMargin, verticalMargin);
 
-        // 将裁剪后的图像保存为 PNG.
+    // 将裁剪后的图像保存为 PNG。
     tiffImage.Save(dir + "sample.Crop.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```

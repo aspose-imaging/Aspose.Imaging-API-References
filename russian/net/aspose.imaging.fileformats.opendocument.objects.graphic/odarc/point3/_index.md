@@ -1,14 +1,14 @@
 ---
 title: Point3
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает точку3.
+description: Получает или задает точку3.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odarc/point3/
 ---
 ## OdArc.Point3 property
 
-Получает или устанавливает точку3.
+Получает или задает точку3.
 
 ```csharp
 public PointF Point3 { get; set; }

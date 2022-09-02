@@ -1,14 +1,14 @@
 ---
 title: GetCloseImagePalette
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取关闭图像调色板
+description: 获取关闭的图像调色板
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.palettehelper/adjustpalette/getcloseimagepalette/
 ---
 ## AdjustPalette.GetCloseImagePalette method
 
-获取关闭图像调色板。
+获取关闭的图像调色板。
 
 ```csharp
 public static IColorPalette GetCloseImagePalette(RasterImage image, int entriesCount, 
@@ -17,8 +17,8 @@ public static IColorPalette GetCloseImagePalette(RasterImage image, int entriesC
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| image | RasterImage | 图像。 |
-| entriesCount | Int32 | 条目计数。 |
+| image | RasterImage | 图片。 |
+| entriesCount | Int32 | 条目数。 |
 | colorQuantizationMethod | ColorQuantizationMethod | 颜色量化方法。 |
 | colorCompareMethod | ColorCompareMethod | 颜色比较方法。 |
 

@@ -18,8 +18,8 @@ public class ImageCreateException : ImageException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImageCreateException](imagecreateexception#constructor)(string) | 初始化[`ImageCreateException`](../imagecreateexception)类的新实例。 |
-| [ImageCreateException](imagecreateexception#constructor_1)(string, Exception) | 初始化[`ImageCreateException`](../imagecreateexception)类的新实例。 |
+| [ImageCreateException](imagecreateexception#constructor)(string) | 初始化[`ImageCreateException`](../imagecreateexception)类. |
+| [ImageCreateException](imagecreateexception#constructor_1)(string, Exception) | 初始化[`ImageCreateException`](../imagecreateexception)类. |
 
 ### 也可以看看
 

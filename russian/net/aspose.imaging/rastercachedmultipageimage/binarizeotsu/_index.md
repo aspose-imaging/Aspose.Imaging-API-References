@@ -1,14 +1,14 @@
 ---
 title: BinarizeOtsu
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Бинаризация изображения с порогом Оцу
+description: Бинаризация изображения с пороговым значением Otsu
 type: docs
 weight: 180
 url: /ru/net/aspose.imaging/rastercachedmultipageimage/binarizeotsu/
 ---
 ## RasterCachedMultipageImage.BinarizeOtsu method
 
-Бинаризация изображения с порогом Оцу
+Бинаризация изображения с пороговым значением Otsu
 
 ```csharp
 public override void BinarizeOtsu()

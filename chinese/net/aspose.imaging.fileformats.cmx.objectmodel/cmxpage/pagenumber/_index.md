@@ -8,7 +8,7 @@ url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel/cmxpage/pagenumber/
 ---
 ## CmxPage.PageNumber property
 
-获取或设置页序号。
+获取或设置页序号
 
 ```csharp
 public int PageNumber { get; set; }

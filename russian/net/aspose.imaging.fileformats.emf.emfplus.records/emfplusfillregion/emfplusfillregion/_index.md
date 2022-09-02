@@ -1,14 +1,14 @@
 ---
 title: EmfPlusFillRegion
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusFillRegionaspose.imaging.fileformats.emf.emfplus.records/emfplusfillregion.
+description: Инициализирует новый экземплярEmfPlusFillRegionaspose.imaging.fileformats.emf.emfplus.records/emfplusfillregion класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillregion/emfplusfillregion/
 ---
 ## EmfPlusFillRegion constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusFillRegion`](../../emfplusfillregion).
+Инициализирует новый экземпляр[`EmfPlusFillRegion`](../../emfplusfillregion) класс.
 
 ```csharp
 public EmfPlusFillRegion(EmfPlusRecord source)

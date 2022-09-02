@@ -1,14 +1,14 @@
 ---
 title: IsVisible
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Проверяет содержится ли указанная точка в этомRegionaspose.imaging/region.
+description: Проверяет содержится ли указанная точка в этомRegionaspose.imaging/region .
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging/region/isvisible/
 ---
 ## IsVisible(float, float) {#isvisible_11}
 
-Проверяет, содержится ли указанная точка в этом[`Region`](../../region).
+Проверяет, содержится ли указанная точка в этом[`Region`](../../region) .
 
 ```csharp
 public bool IsVisible(float x, float y)
@@ -17,11 +17,11 @@ public bool IsVisible(float x, float y)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | x | Single | X-координата точки для проверки. |
-| y | Single | Y-координата проверяемой точки. |
+| y | Single | Y-координата точки для проверки. |
 
 ### Возвращаемое значение
 
-Истинно, когда указанная точка содержится в этом[`Region`](../../region); в противном случае ложно.
+Истинно, если указанная точка содержится в этом[`Region`](../../region) ; в противном случае false.
 
 ### Смотрите также
 
@@ -33,7 +33,7 @@ public bool IsVisible(float x, float y)
 
 ## IsVisible(PointF) {#isvisible_2}
 
-Проверяет, содержится ли указанная структура[`PointF`](../../pointf)в этомОбласть,край.
+Проверяет, указанный[`PointF`](../../pointf) структура содержится в этом[`Region`](../../region) .
 
 ```csharp
 public bool IsVisible(PointF point)
@@ -41,11 +41,11 @@ public bool IsVisible(PointF point)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | PointF | Тестируемая структура[`PointF`](../../pointf). |
+| point | PointF | [`PointF`](../../pointf) структуру для тестирования. |
 
 ### Возвращаемое значение
 
-true, когда*point*содержится в этом[`Region`](../../region); в противном случае ложно.
+верно, когда*point* содержится в этом[`Region`](../../region) ; в противном случае false.
 
 ### Смотрите также
 
@@ -58,7 +58,7 @@ true, когда*point*содержится в этом[`Region`](../../region);
 
 ## IsVisible(float, float, Graphics) {#isvisible_12}
 
-Проверяет, содержится ли указанная точка в этом[`Region`](../../region)при рисовании с использованием указанного[`Graphics`](../../graphics).
+Проверяет, содержится ли указанная точка в этом[`Region`](../../region)при рисовании с использованием указанного[`Graphics`](../../graphics) .
 
 ```csharp
 public bool IsVisible(float x, float y, Graphics g)
@@ -67,12 +67,12 @@ public bool IsVisible(float x, float y, Graphics g)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | x | Single | X-координата точки для проверки. |
-| y | Single | Y-координата проверяемой точки. |
-| g | Graphics | A[`Graphics`](../../graphics)который представляет графический контекст. |
+| y | Single | Y-координата точки для проверки. |
+| g | Graphics | А[`Graphics`](../../graphics) который представляет графический контекст. |
 
 ### Возвращаемое значение
 
-Истинно, когда указанная точка содержится в этом[`Region`](../../region); в противном случае ложно.
+Истинно, если указанная точка содержится в этом[`Region`](../../region) ; в противном случае false.
 
 ### Смотрите также
 
@@ -85,7 +85,7 @@ public bool IsVisible(float x, float y, Graphics g)
 
 ## IsVisible(PointF, Graphics) {#isvisible_3}
 
-Проверяет, содержится ли указанная структура[`PointF`](../../pointf)в этом[`Region`](../../region)при рисовании с использованием указанного[`Graphics`](../../graphics).
+Проверяет, указанный[`PointF`](../../pointf) структура содержится в этом[`Region`](../../region)при рисовании с использованием указанного[`Graphics`](../../graphics) .
 
 ```csharp
 public bool IsVisible(PointF point, Graphics g)
@@ -93,12 +93,12 @@ public bool IsVisible(PointF point, Graphics g)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | PointF | Тестируемая структура[`PointF`](../../pointf). |
-| g | Graphics | A[`Graphics`](../../graphics)который представляет графический контекст. |
+| point | PointF | [`PointF`](../../pointf) структуру для тестирования. |
+| g | Graphics | А[`Graphics`](../../graphics) который представляет графический контекст. |
 
 ### Возвращаемое значение
 
-true, когда*point*содержится в этом[`Region`](../../region); в противном случае ложно.
+верно, когда*point* содержится в этом[`Region`](../../region) ; в противном случае false.
 
 ### Смотрите также
 
@@ -112,7 +112,7 @@ true, когда*point*содержится в этом[`Region`](../../region);
 
 ## IsVisible(float, float, float, float) {#isvisible_13}
 
-Проверяет, содержится ли какая-либо часть указанного прямоугольника в этом[`Region`](../../region).
+Проверяет, содержится ли какая-либо часть указанного прямоугольника в этом[`Region`](../../region) .
 
 ```csharp
 public bool IsVisible(float x, float y, float width, float height)
@@ -122,12 +122,12 @@ public bool IsVisible(float x, float y, float width, float height)
 | --- | --- | --- |
 | x | Single | Координата x левого верхнего угла прямоугольника для проверки. |
 | y | Single | Y-координата левого верхнего угла прямоугольника для проверки. |
-| width | Single | Ширина тестируемого прямоугольника. |
-| height | Single | Высота тестируемого прямоугольника. |
+| width | Single | Ширина прямоугольника для проверки. |
+| height | Single | Высота прямоугольника для проверки. |
 
 ### Возвращаемое значение
 
-true, когда любая часть указанного прямоугольника содержится внутри этого[`Region`](../../region)объект; в противном случае ложно.
+true, когда любая часть указанного прямоугольника содержится в этом[`Region`](../../region) объект; в противном случае false.
 
 ### Смотрите также
 
@@ -139,7 +139,7 @@ true, когда любая часть указанного прямоуголь
 
 ## IsVisible(RectangleF) {#isvisible_6}
 
-Проверяет, содержится ли какая-либо часть указанной структуры[`RectangleF`](../../rectanglef)внутри этойРегион.
+Проверяет, является ли какая-либо часть указанного[`RectangleF`](../../rectanglef) структура содержится в этом[`Region`](../../region) .
 
 ```csharp
 public bool IsVisible(RectangleF rect)
@@ -147,11 +147,11 @@ public bool IsVisible(RectangleF rect)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rect | RectangleF | Тестируемая структура[`RectangleF`](../../rectanglef). |
+| rect | RectangleF | [`RectangleF`](../../rectanglef) структуру для тестирования. |
 
 ### Возвращаемое значение
 
-true, если какая-либо часть*rect*содержится внутри этогоРегион; в противном случае ложно.
+true, когда любая часть*rect* содержится в этом[`Region`](../../region) ; в противном случае false.
 
 ### Смотрите также
 
@@ -164,7 +164,7 @@ true, если какая-либо часть*rect*содержится внут
 
 ## IsVisible(float, float, float, float, Graphics) {#isvisible_14}
 
-Проверяет, содержится ли какая-либо часть указанного прямоугольника в этом[`Region`](../../region)при рисовании с использованием указанного[`Graphics`](../../graphics).
+Проверяет, содержится ли какая-либо часть указанного прямоугольника в этом[`Region`](../../region)при рисовании с использованием указанного[`Graphics`](../../graphics) .
 
 ```csharp
 public bool IsVisible(float x, float y, float width, float height, Graphics g)
@@ -174,13 +174,13 @@ public bool IsVisible(float x, float y, float width, float height, Graphics g)
 | --- | --- | --- |
 | x | Single | Координата x левого верхнего угла прямоугольника для проверки. |
 | y | Single | Y-координата левого верхнего угла прямоугольника для проверки. |
-| width | Single | Ширина тестируемого прямоугольника. |
-| height | Single | Высота тестируемого прямоугольника. |
-| g | Graphics | A[`Graphics`](../../graphics)который представляет графический контекст. |
+| width | Single | Ширина прямоугольника для проверки. |
+| height | Single | Высота прямоугольника для проверки. |
+| g | Graphics | А[`Graphics`](../../graphics) который представляет графический контекст. |
 
 ### Возвращаемое значение
 
-true, когда любая часть указанного прямоугольника содержится внутри этого[`Region`](../../region); в противном случае ложно.
+true, когда любая часть указанного прямоугольника содержится в этом[`Region`](../../region) ; в противном случае false.
 
 ### Смотрите также
 
@@ -193,7 +193,7 @@ true, когда любая часть указанного прямоуголь
 
 ## IsVisible(RectangleF, Graphics) {#isvisible_7}
 
-Проверяет, содержится ли какая-либо часть указанной структуры[`RectangleF`](../../rectanglef)внутри этой[`Region`](../../region)при рисовании с использованием указанного[`Graphics`](../../graphics).
+Проверяет, является ли какая-либо часть указанного[`RectangleF`](../../rectanglef) структура содержится в этом[`Region`](../../region)при рисовании с использованием указанного[`Graphics`](../../graphics) .
 
 ```csharp
 public bool IsVisible(RectangleF rect, Graphics g)
@@ -201,12 +201,12 @@ public bool IsVisible(RectangleF rect, Graphics g)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rect | RectangleF | Тестируемая структура[`RectangleF`](../../rectanglef). |
-| g | Graphics | A[`Graphics`](../../graphics)который представляет графический контекст. |
+| rect | RectangleF | [`RectangleF`](../../rectanglef) структуру для тестирования. |
+| g | Graphics | А[`Graphics`](../../graphics) который представляет графический контекст. |
 
 ### Возвращаемое значение
 
-true, когда*rect*содержится в этом[`Region`](../../region); в противном случае ложно.
+верно, когда*rect* содержится в этом[`Region`](../../region) ; в противном случае false.
 
 ### Смотрите также
 
@@ -220,7 +220,7 @@ true, когда*rect*содержится в этом[`Region`](../../region); 
 
 ## IsVisible(int, int, Graphics) {#isvisible_8}
 
-Проверяет, содержится ли указанная точка в этом объекте[`Region`](../../region)при рисовании с использованием указанного[`Graphics`](../../graphics)объект.
+Проверяет, содержится ли указанная точка в этом[`Region`](../../region) объект при рисовании с использованием указанного[`Graphics`](../../graphics) объект.
 
 ```csharp
 public bool IsVisible(int x, int y, Graphics g)
@@ -229,12 +229,12 @@ public bool IsVisible(int x, int y, Graphics g)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | x | Int32 | X-координата точки для проверки. |
-| y | Int32 | Y-координата проверяемой точки. |
-| g | Graphics | A[`Graphics`](../../graphics)который представляет графический контекст. |
+| y | Int32 | Y-координата точки для проверки. |
+| g | Graphics | А[`Graphics`](../../graphics) который представляет графический контекст. |
 
 ### Возвращаемое значение
 
-true, когда указанная точка содержится в этом[`Region`](../../region); в противном случае ложно.
+true, когда указанная точка содержится в этом[`Region`](../../region) ; в противном случае false.
 
 ### Смотрите также
 
@@ -247,7 +247,7 @@ true, когда указанная точка содержится в этом[
 
 ## IsVisible(Point) {#isvisible}
 
-Проверяет, содержится ли указанная структура[`Point`](../../point)в этомОбласть,край.
+Проверяет, указанный[`Point`](../../point) структура содержится в этом[`Region`](../../region) .
 
 ```csharp
 public bool IsVisible(Point point)
@@ -255,11 +255,11 @@ public bool IsVisible(Point point)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | Point | Тестируемая структура[`Point`](../../point). |
+| point | Point | [`Point`](../../point) структуру для тестирования. |
 
 ### Возвращаемое значение
 
-true, когда*point*содержится в этом[`Region`](../../region); в противном случае ложно.
+верно, когда*point* содержится в этом[`Region`](../../region) ; в противном случае false.
 
 ### Смотрите также
 
@@ -272,7 +272,7 @@ true, когда*point*содержится в этом[`Region`](../../region);
 
 ## IsVisible(Point, Graphics) {#isvisible_1}
 
-Проверяет, содержится ли указанная структура[`Point`](../../point)в этом[`Region`](../../region)при рисовании с использованием указанного[`Graphics`](../../graphics).
+Проверяет, указанный[`Point`](../../point) структура содержится в этом[`Region`](../../region)при рисовании с использованием указанного[`Graphics`](../../graphics) .
 
 ```csharp
 public bool IsVisible(Point point, Graphics g)
@@ -280,12 +280,12 @@ public bool IsVisible(Point point, Graphics g)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | Point | Тестируемая структура[`Point`](../../point). |
-| g | Graphics | A[`Graphics`](../../graphics)который представляет графический контекст. |
+| point | Point | [`Point`](../../point) структуру для тестирования. |
+| g | Graphics | А[`Graphics`](../../graphics) который представляет графический контекст. |
 
 ### Возвращаемое значение
 
-true, когда*point*содержится в этом[`Region`](../../region); в противном случае ложно.
+верно, когда*point* содержится в этом[`Region`](../../region) ; в противном случае false.
 
 ### Смотрите также
 
@@ -299,7 +299,7 @@ true, когда*point*содержится в этом[`Region`](../../region);
 
 ## IsVisible(int, int, int, int) {#isvisible_9}
 
-Проверяет, содержится ли какая-либо часть указанного прямоугольника в этом[`Region`](../../region).
+Проверяет, содержится ли какая-либо часть указанного прямоугольника в этом[`Region`](../../region) .
 
 ```csharp
 public bool IsVisible(int x, int y, int width, int height)
@@ -309,12 +309,12 @@ public bool IsVisible(int x, int y, int width, int height)
 | --- | --- | --- |
 | x | Int32 | Координата x левого верхнего угла прямоугольника для проверки. |
 | y | Int32 | Y-координата левого верхнего угла прямоугольника для проверки. |
-| width | Int32 | Ширина тестируемого прямоугольника. |
-| height | Int32 | Высота тестируемого прямоугольника. |
+| width | Int32 | Ширина прямоугольника для проверки. |
+| height | Int32 | Высота прямоугольника для проверки. |
 
 ### Возвращаемое значение
 
-true, когда любая часть указанного прямоугольника содержится внутри этого[`Region`](../../region); в противном случае ложно.
+true, когда любая часть указанного прямоугольника содержится в этом[`Region`](../../region) ; в противном случае false.
 
 ### Смотрите также
 
@@ -326,7 +326,7 @@ true, когда любая часть указанного прямоуголь
 
 ## IsVisible(Rectangle) {#isvisible_4}
 
-Проверяет, содержится ли какая-либо часть указанной структуры[`Rectangle`](../../rectangle)внутри этойРегион.
+Проверяет, является ли какая-либо часть указанного[`Rectangle`](../../rectangle) структура содержится в этом[`Region`](../../region) .
 
 ```csharp
 public bool IsVisible(Rectangle rect)
@@ -334,11 +334,11 @@ public bool IsVisible(Rectangle rect)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rect | Rectangle | Тестируемая структура[`Rectangle`](../../rectangle). |
+| rect | Rectangle | [`Rectangle`](../../rectangle) структуру для тестирования. |
 
 ### Возвращаемое значение
 
-Этот метод возвращает true, когда какая-либо часть*rect*содержится внутри этого[`Region`](../../region); в противном случае ложно.
+Этот метод возвращает true, когда любая часть*rect* содержится в этом[`Region`](../../region) ; в противном случае false.
 
 ### Смотрите также
 
@@ -351,7 +351,7 @@ public bool IsVisible(Rectangle rect)
 
 ## IsVisible(int, int, int, int, Graphics) {#isvisible_10}
 
-Проверяет, содержится ли какая-либо часть указанного прямоугольника в этом[`Region`](../../region)при рисовании с использованием указанного[`Graphics`](../../graphics).
+Проверяет, содержится ли какая-либо часть указанного прямоугольника в этом[`Region`](../../region)при рисовании с использованием указанного[`Graphics`](../../graphics) .
 
 ```csharp
 public bool IsVisible(int x, int y, int width, int height, Graphics g)
@@ -361,13 +361,13 @@ public bool IsVisible(int x, int y, int width, int height, Graphics g)
 | --- | --- | --- |
 | x | Int32 | Координата x левого верхнего угла прямоугольника для проверки. |
 | y | Int32 | Y-координата левого верхнего угла прямоугольника для проверки. |
-| width | Int32 | Ширина тестируемого прямоугольника. |
-| height | Int32 | Высота тестируемого прямоугольника. |
-| g | Graphics | A[`Graphics`](../../graphics)который представляет графический контекст. |
+| width | Int32 | Ширина прямоугольника для проверки. |
+| height | Int32 | Высота прямоугольника для проверки. |
+| g | Graphics | А[`Graphics`](../../graphics) который представляет графический контекст. |
 
 ### Возвращаемое значение
 
-true, когда любая часть указанного прямоугольника содержится внутри этого[`Region`](../../region); в противном случае ложно.
+true, когда любая часть указанного прямоугольника содержится в этом[`Region`](../../region) ; в противном случае false.
 
 ### Смотрите также
 
@@ -380,7 +380,7 @@ true, когда любая часть указанного прямоуголь
 
 ## IsVisible(Rectangle, Graphics) {#isvisible_5}
 
-Проверяет, содержится ли какая-либо часть указанной структуры[`Rectangle`](../../rectangle)внутри этой[`Region`](../../region)при рисовании с использованием указанного[`Graphics`](../../graphics).
+Проверяет, является ли какая-либо часть указанного[`Rectangle`](../../rectangle) структура содержится в этом[`Region`](../../region)при рисовании с использованием указанного[`Graphics`](../../graphics) .
 
 ```csharp
 public bool IsVisible(Rectangle rect, Graphics g)
@@ -388,12 +388,12 @@ public bool IsVisible(Rectangle rect, Graphics g)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rect | Rectangle | Тестируемая структура[`Rectangle`](../../rectangle). |
-| g | Graphics | A[`Graphics`](../../graphics)который представляет графический контекст. |
+| rect | Rectangle | [`Rectangle`](../../rectangle) структуру для тестирования. |
+| g | Graphics | А[`Graphics`](../../graphics) который представляет графический контекст. |
 
 ### Возвращаемое значение
 
-true, если какая-либо часть*rect*содержится внутри этогоИзображения; в противном случае ложно.
+true, когда любая часть*rect* содержится в этом[`Region`](../../region) ; в противном случае false.
 
 ### Смотрите также
 

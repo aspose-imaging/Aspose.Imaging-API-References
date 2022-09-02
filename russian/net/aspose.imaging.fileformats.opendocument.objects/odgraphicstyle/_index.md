@@ -26,22 +26,22 @@ public class OdGraphicStyle
 | --- | --- |
 | [Brush](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/brush) { get; set; } | Получает кисть. |
 | [EndGuide](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/endguide) { get; set; } | Получает или задает конечную направляющую. |
-| [EndMarker](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/endmarker) { get; set; } | Получает или устанавливает конечный маркер. |
+| [EndMarker](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/endmarker) { get; set; } | Получает или задает конечный маркер. |
 | [EndMarkerWidth](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/endmarkerwidth) { get; set; } | Получает или задает конечную ширину маркера. |
 | [Font](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/font) { get; } | Получает шрифт. |
 | [LineHeight](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/lineheight) { get; set; } | Получает или задает высоту строки. |
 | [MarginBottom](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/marginbottom) { get; set; } | Получает или задает нижнее поле. |
-| [MarginTop](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/margintop) { get; set; } | Получает или задает верхнее поле. |
+| [MarginTop](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/margintop) { get; set; } | Получает или задает верхнюю границу поля. |
 | [MeasureLineDistance](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/measurelinedistance) { get; set; } | Получает или задает расстояние линии измерения. |
 | [Opacity](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/opacity) { get; set; } | Получает или задает прозрачность. |
 | [PaddingBottom](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/paddingbottom) { get; set; } | Получает или задает нижний отступ. |
 | [PaddingLeft](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/paddingleft) { get; set; } | Получает или задает отступ слева. |
-| [PaddingRight](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/paddingright) { get; set; } | Получает или задает правильное заполнение. |
+| [PaddingRight](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/paddingright) { get; set; } | Получает или задает правильный отступ. |
 | [PaddingTop](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/paddingtop) { get; set; } | Получает или задает верхнюю часть заполнения. |
 | [Pen](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/pen) { get; } | Получает ручку. |
-| [SpaceBefore](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/spacebefore) { get; set; } | Получает или устанавливает предшествующий пробел. |
-| [StartGuide](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/startguide) { get; set; } | Получает или задает начальное руководство. |
-| [StartMarker](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/startmarker) { get; set; } | Получает или устанавливает начальный маркер. |
+| [SpaceBefore](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/spacebefore) { get; set; } | Получает или устанавливает пробел перед. |
+| [StartGuide](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/startguide) { get; set; } | Получает или задает руководство по началу работы. |
+| [StartMarker](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/startmarker) { get; set; } | Получает или задает начальный маркер. |
 | [StartMarkerWidth](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/startmarkerwidth) { get; set; } | Получает или задает начальную ширину маркера. |
 | [StylePosition](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/styleposition) { get; set; } | Получает или задает позицию стиля. |
 | [TextAlign](../../aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/textalign) { get; set; } | Получает или задает выравнивание текста. |

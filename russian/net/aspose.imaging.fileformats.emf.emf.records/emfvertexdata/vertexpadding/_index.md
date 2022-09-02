@@ -1,14 +1,14 @@
 ---
 title: VertexPadding
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает необязательный массив переменной длины из nTri умноженный на четыре байта  который ДОЛЖЕН присутствовать если значение поля ulMode указывает GradientRectangle объекты раздел 2.2.7. Если значение поля ulMode указывает на объекты GradientTriangle раздел 2.2.8 VertexPadding отсутствует. Это поле ДОЛЖНО быть проигнорировано.
+description: Получает или задает необязательный массив переменной длины из nTri умноженный на четыре байта  который ДОЛЖЕН присутствовать если значение поля ulMode указывает на объекты GradientRectangle раздел 2.2.7. Если значение поля ulMode указывает на объекты GradientTriangle раздел 2.2.8 VertexPadding отсутствует. Это поле ДОЛЖНО быть проигнорировано.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfvertexdata/vertexpadding/
 ---
 ## EmfVertexData.VertexPadding property
 
-Получает или задает необязательный массив переменной длины из nTri, умноженный на четыре байта , который ДОЛЖЕН присутствовать, если значение поля ulMode указывает GradientRectangle объекты (раздел 2.2.7). Если значение поля ulMode указывает на объекты GradientTriangle (раздел 2.2.8), VertexPadding отсутствует. Это поле ДОЛЖНО быть проигнорировано.
+Получает или задает необязательный массив переменной длины из nTri, умноженный на четыре байта , который ДОЛЖЕН присутствовать, если значение поля ulMode указывает на объекты GradientRectangle (раздел 2.2.7). Если значение поля ulMode указывает на объекты GradientTriangle (раздел 2.2.8), VertexPadding отсутствует. Это поле ДОЛЖНО быть проигнорировано.
 
 ```csharp
 public byte[] VertexPadding { get; set; }

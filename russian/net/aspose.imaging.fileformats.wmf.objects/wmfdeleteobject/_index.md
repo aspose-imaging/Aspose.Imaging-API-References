@@ -18,8 +18,8 @@ public class WmfDeleteObject : WmfObject
 
 | Имя | Описание |
 | --- | --- |
-| [WmfDeleteObject](wmfdeleteobject#constructor)() | Инициализирует новый экземпляр класса[`WmfDeleteObject`](../wmfdeleteobject). |
-| [WmfDeleteObject](wmfdeleteobject#constructor_1)(WmfGraphicObject) | Инициализирует новый экземпляр класса[`WmfDeleteObject`](../wmfdeleteobject). |
+| [WmfDeleteObject](wmfdeleteobject#constructor)() | Инициализирует новый экземпляр[`WmfDeleteObject`](../wmfdeleteobject) класс. |
+| [WmfDeleteObject](wmfdeleteobject#constructor_1)(WmfGraphicObject) | Инициализирует новый экземпляр[`WmfDeleteObject`](../wmfdeleteobject) класс. |
 
 ## Характеристики
 

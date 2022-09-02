@@ -18,19 +18,19 @@ public sealed class EmfSetColorSpace : EmfObjectManipulationRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetColorSpace](emfsetcolorspace)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetColorSpace`](../emfsetcolorspace). |
+| [EmfSetColorSpace](emfsetcolorspace)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetColorSpace`](../emfsetcolorspace) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [IhCS](../../aspose.imaging.fileformats.emf.emf.records/emfsetcolorspace/ihcs) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс объекта логического цветового пространства в таблице объектов EMF (раздел 3.1. 1.1). |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [IhCS](../../aspose.imaging.fileformats.emf.emf.records/emfsetcolorspace/ihcs) { get; set; } | Получает или задает 32-битное целое число без знака, указывающее индекс логического цветового пространства object в таблице объектов EMF (раздел 3.1.1.1). |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Примечания
 
-Объект логического цветового пространства, определенный этой записью, ДОЛЖЕН использоваться в операциях рисования, которые определяется последующими записями EMF, до тех пор, пока другой объект логического цветового пространства не будет указан другой записью EMR_SETCOLORSPACE, или объект не будет удален записью EMR_DELETECOLORSPACE .
+Объект логического цветового пространства, определенный этой записью, ДОЛЖЕН использоваться в операциях рисования, которые определяются последующими записями EMF, до тех пор, пока либо другой объект логического цветового пространства не будет указан другой записью EMR_SETCOLORSPACE, или объект не будет удален записью EMR_DELETECOLORSPACE .
 
 ### Смотрите также
 

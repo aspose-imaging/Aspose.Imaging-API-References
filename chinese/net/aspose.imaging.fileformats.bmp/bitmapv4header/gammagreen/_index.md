@@ -16,7 +16,7 @@ public int GammaGreen { get; set; }
 
 ### 适当的价值
 
-伽马绿色。
+伽玛绿。
 
 ### 也可以看看
 

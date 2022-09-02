@@ -1,14 +1,14 @@
 ---
 title: EmfForceUfiMapping
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfForceUfiMappingaspose.imaging.fileformats.emf.emf.records/emfforceufimapping类的新实例
+description: 初始化EmfForceUfiMappingaspose.imaging.fileformats.emf.emf.records/emfforceufimapping类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfforceufimapping/emfforceufimapping/
 ---
 ## EmfForceUfiMapping constructor
 
-初始化[`EmfForceUfiMapping`](../../emfforceufimapping)类的新实例。
+初始化[`EmfForceUfiMapping`](../../emfforceufimapping)类.
 
 ```csharp
 public EmfForceUfiMapping(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfForceUfiMapping(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 

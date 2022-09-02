@@ -19,7 +19,7 @@ public enum TiffDataTypes : ushort
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Byte | `1` | 8 位无符号整数。 |
-| Ascii | `2` | 8 位字节，最后一个字节` null` 。 |
+| Ascii | `2` | 最后一个字节的 8 位字节`无效的` . |
 | Short | `3` | 16 位无符号整数。 |
 | Long | `4` | 32 位无符号整数。 |
 | Rational | `5` | 64 位无符号小数。 |
@@ -29,7 +29,7 @@ public enum TiffDataTypes : ushort
 | Slong | `9` | 32 位有符号整数。 |
 | Srational | `10` | 64 位有符号小数。 |
 | Float | `11` | 32 位 IEEE 浮点数。 |
-| Double | `12` | 64 位 IEEE 浮点。 |
+| Double | `12` | 64 位 IEEE 浮点数。 |
 | Ifd | `13` | 指向 Exif 图像文件目录 (IFD) 的指针。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: OdClosePath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdClosePathaspose.imaging.fileformats.opendocument.objects.graphic/odclosepath.
+description: Инициализирует новый экземплярOdClosePathaspose.imaging.fileformats.opendocument.objects.graphic/odclosepath класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odclosepath/odclosepath/
 ---
 ## OdClosePath constructor
 
-Инициализирует новый экземпляр класса[`OdClosePath`](../../odclosepath).
+Инициализирует новый экземпляр[`OdClosePath`](../../odclosepath) класс.
 
 ```csharp
 public OdClosePath(OdObject parent)

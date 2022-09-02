@@ -1,14 +1,14 @@
 ---
 title: RotateTransform
 second_title: Aspose.Imaging for .NET API 参考
-description: 将局部几何变换旋转指定的量此方法将旋转添加到变换中
+description: 将局部几何变换旋转指定的量此方法将旋转添加到 transform.
 type: docs
 weight: 450
 url: /zh/net/aspose.imaging/graphics/rotatetransform/
 ---
 ## RotateTransform(float) {#rotatetransform}
 
-将局部几何变换旋转指定的量。此方法将旋转添加到变换中。
+将局部几何变换旋转指定的量。此方法将旋转添加到 transform.
 
 ```csharp
 public void RotateTransform(float angle)
@@ -37,7 +37,7 @@ public void RotateTransform(float angle, MatrixOrder order)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | angle | Single | 旋转角度。 |
-| order | MatrixOrder | A[`MatrixOrder`](../../matrixorder)指定是附加还是附加旋转矩阵。 |
+| order | MatrixOrder | 一个[`MatrixOrder`](../../matrixorder)指定是附加还是前置旋转矩阵。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: WEmrText
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект EmrText раздел 2.2.5 указывающий выходную строку в 16-битных символах Unicode UTF16-LE с текстовыми атрибутами и значениями интервалов.
+description: Получает или задает объект EmrText раздел 2.2.5 который определяет выходную строку в 16-битных символах Unicode UTF16-LE с текстовыми атрибутами и значениями интервалов.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfexttextoutw/wemrtext/
 ---
 ## EmfExtTextOutW.WEmrText property
 
-Получает или задает объект EmrText (раздел 2.2.5), указывающий выходную строку в 16-битных символах Unicode UTF16-LE с текстовыми атрибутами и значениями интервалов.
+Получает или задает объект EmrText (раздел 2.2.5), который определяет выходную строку в 16-битных символах Unicode UTF16-LE с текстовыми атрибутами и значениями интервалов.
 
 ```csharp
 public EmfText WEmrText { get; set; }

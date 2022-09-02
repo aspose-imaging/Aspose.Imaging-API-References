@@ -1,14 +1,14 @@
 ---
 title: DwFlags
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака задающее значение из перечисления ColorMatchToTarget раздел 2.1.6.
+description: Получает или задает 32-разрядное целое число без знака указывающее значение из перечисления ColorMatchToTarget раздел 2.1.6.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/dwflags/
 ---
 ## EmfColorMatchToTargetW.DwFlags property
 
-Получает или задает 32-разрядное целое число без знака, задающее значение из перечисления ColorMatchToTarget (раздел 2.1.6).
+Получает или задает 32-разрядное целое число без знака, указывающее значение из перечисления ColorMatchToTarget (раздел 2.1.6).
 
 ```csharp
 public EmfColorMatchToTarget DwFlags { get; set; }

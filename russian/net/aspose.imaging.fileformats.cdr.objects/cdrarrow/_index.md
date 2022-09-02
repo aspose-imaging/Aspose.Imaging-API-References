@@ -1,14 +1,14 @@
 ---
 title: CdrArrow
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Стрелка cdr
+description: CDR arrow
 type: docs
 weight: 1470
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrarrow/
 ---
 ## CdrArrow class
 
-Стрелка cdr
+CDR arrow
 
 ```csharp
 public class CdrArrow : CdrDictionaryItem
@@ -28,7 +28,7 @@ public class CdrArrow : CdrDictionaryItem
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | Получает или задает документ. |
 | [Id](../../aspose.imaging.fileformats.cdr.objects/cdrdictionaryitem/id) { get; set; } | Получает или задает идентификатор. |
 | [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | Получает или задает родителя. |
-| [Points](../../aspose.imaging.fileformats.cdr.objects/cdrarrow/points) { get; set; } | Получает или устанавливает точки. |
+| [Points](../../aspose.imaging.fileformats.cdr.objects/cdrarrow/points) { get; set; } | Получает или устанавливает очки. |
 | [PointTypes](../../aspose.imaging.fileformats.cdr.objects/cdrarrow/pointtypes) { get; set; } | Получает или задает типы точек. |
 
 ## Методы

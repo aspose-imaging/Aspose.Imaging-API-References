@@ -1,14 +1,14 @@
 ---
 title: ColorSpaceType
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定颜色空间 类型的 32 位有符号整数它必须在 LogicalColorSpace 枚举 中定义第 2.1.1.14 节如果此值为 LCS_sRGB 或 LCS_WINDOWS_COLOR_SPACE则必须使用 sRGB 颜色空间
+description: 获取或设置一个 32 位有符号整数指定颜色空间 类型它必须在 LogicalColorSpace enumeration 第 2.1.1.14 节中定义如果此值为 LCS_sRGB 或 LCS_WINDOWS_COLOR_SPACE则必须使用 sRGB 颜色空间
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/colorspacetype/
 ---
 ## WmfLogColorSpace.ColorSpaceType property
 
-获取或设置指定颜色空间 类型的 32 位有符号整数。它必须在 LogicalColorSpace 枚举 中定义（第 2.1.1.14 节）。如果此值为 LCS_sRGB 或 LCS_WINDOWS_COLOR_SPACE，则必须使用 sRGB 颜色空间。
+获取或设置一个 32 位有符号整数，指定颜色空间 类型。它必须在 LogicalColorSpace enumeration （第 2.1.1.14 节）中定义。如果此值为 LCS_sRGB 或 LCS_WINDOWS_COLOR_SPACE，则必须使用 sRGB 颜色空间。
 
 ```csharp
 public WmfLogicalColorSpaceEnum ColorSpaceType { get; set; }

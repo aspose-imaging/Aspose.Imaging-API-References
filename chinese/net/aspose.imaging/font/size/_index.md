@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取此Fontaspose.imaging/font的 em 大小以P指定的单位测量Aspose.Imaging.Font.Unit属性
+description: 获取这个的 em-sizeFontaspose.imaging/font以指定的单位测量Unitaspose.imaging/font/unit属性.
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging/font/size/
 ---
 ## Font.Size property
 
-获取此[`Font`](../../font)的 em 大小，以P指定的单位测量:Aspose.Imaging.Font.Unit属性。
+获取这个的 em-size[`Font`](../../font)以指定的单位测量[`Unit`](../unit)属性.
 
 ```csharp
 public float Size { get; }
@@ -16,7 +16,7 @@ public float Size { get; }
 
 ### 适当的价值
 
-这个[`Font`](../../font)的 em 大小。
+这个的 em 大小[`Font`](../../font).
 
 ### 也可以看看
 

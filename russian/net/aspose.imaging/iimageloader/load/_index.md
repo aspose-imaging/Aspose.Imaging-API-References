@@ -1,14 +1,14 @@
 ---
 title: Load
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Открывает новое изображение с ltparamref nameloadOptionsgtlt/paramrefgt.
+description: Открывает новое изображение сloadOptions .
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging/iimageloader/load/
 ---
 ## IImageLoader.Load method
 
-Открывает новое изображение с &lt;paramref name="loadOptions"&gt;&lt;/paramref&gt;.
+Открывает новое изображение с*loadOptions* .
 
 ```csharp
 public Image Load(StreamContainer streamContainer, LoadOptions loadOptions)
@@ -17,7 +17,7 @@ public Image Load(StreamContainer streamContainer, LoadOptions loadOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | streamContainer | StreamContainer | Контейнер потока. |
-| loadOptions | LoadOptions | Параметры загрузки. |
+| loadOptions | LoadOptions | Варианты загрузки. |
 
 ### Возвращаемое значение
 

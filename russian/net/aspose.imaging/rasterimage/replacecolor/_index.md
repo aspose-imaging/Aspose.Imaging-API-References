@@ -1,14 +1,14 @@
 ---
 title: ReplaceColor
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Заменяет один цвет другим с допустимой разницей и сохраняет исходное значение альфа-канала для сохранения гладких краев.
+description: Заменяет один цвет другим с допустимой разницей и сохраняет исходное значение альфа-канала для сохранения сглаженных краев.
 type: docs
 weight: 460
 url: /ru/net/aspose.imaging/rasterimage/replacecolor/
 ---
 ## ReplaceColor(Color, byte, Color) {#replacecolor}
 
-Заменяет один цвет другим с допустимой разницей и сохраняет исходное значение альфа-канала для сохранения гладких краев.
+Заменяет один цвет другим с допустимой разницей и сохраняет исходное значение альфа-канала для сохранения сглаженных краев.
 
 ```csharp
 public void ReplaceColor(Color oldColor, byte oldColorDiff, Color newColor)
@@ -16,8 +16,8 @@ public void ReplaceColor(Color oldColor, byte oldColorDiff, Color newColor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| oldColor | Color | Старый цвет для замены. |
-| oldColorDiff | Byte | Разрешена разница в старом цвете, чтобы можно было расширить замененный цветовой тон. |
+| oldColor | Color | Старый цвет на замену. |
+| oldColorDiff | Byte | Допускается разница в старом цвете, чтобы можно было расширить замененный цветовой тон. |
 | newColor | Color | Новый цвет для замены старого. |
 
 ### Смотрите также
@@ -31,7 +31,7 @@ public void ReplaceColor(Color oldColor, byte oldColorDiff, Color newColor)
 
 ## ReplaceColor(int, byte, int) {#replacecolor_1}
 
-Заменяет один цвет другим с допустимой разницей и сохраняет исходное значение альфа-канала для сохранения гладких краев.
+Заменяет один цвет другим с допустимой разницей и сохраняет исходное значение альфа-канала для сохранения сглаженных краев.
 
 ```csharp
 public virtual void ReplaceColor(int oldColorArgb, byte oldColorDiff, int newColorArgb)
@@ -39,8 +39,8 @@ public virtual void ReplaceColor(int oldColorArgb, byte oldColorDiff, int newCol
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| oldColorArgb | Int32 | Старое значение цвета ARGB для замены. |
-| oldColorDiff | Byte | Разрешена разница в старом цвете, чтобы можно было расширить замененный цветовой тон. |
+| oldColorArgb | Int32 | Старое значение цвета ARGB, подлежащее замене. |
+| oldColorDiff | Byte | Допускается разница в старом цвете, чтобы можно было расширить замененный цветовой тон. |
 | newColorArgb | Int32 | Новое значение цвета ARGB для замены старого цвета. |
 
 ### Смотрите также

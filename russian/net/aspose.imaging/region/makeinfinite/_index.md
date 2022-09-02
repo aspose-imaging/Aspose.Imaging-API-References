@@ -1,14 +1,14 @@
 ---
 title: MakeInfinite
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует этотRegionaspose.imaging/regionобъект бесконечной внутренней частью.
+description: Инициализирует этоRegionaspose.imaging/region объект в бесконечный интерьер.
 type: docs
 weight: 110
 url: /ru/net/aspose.imaging/region/makeinfinite/
 ---
 ## Region.MakeInfinite method
 
-Инициализирует этот[`Region`](../../region)объект бесконечной внутренней частью.
+Инициализирует это[`Region`](../../region) объект в бесконечный интерьер.
 
 ```csharp
 public void MakeInfinite()

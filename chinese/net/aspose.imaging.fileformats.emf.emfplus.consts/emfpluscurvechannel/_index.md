@@ -1,14 +1,14 @@
 ---
 title: EmfPlusCurveChannel
 second_title: Aspose.Imaging for .NET API 参考
-description: CurveChannel 枚举定义了可以受图像颜色曲线效果调整影响的颜色通道
+description: CurveChannel 枚举定义了可能受图像颜色曲线效果调整影响的颜色通道
 type: docs
 weight: 4750
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscurvechannel/
 ---
 ## EmfPlusCurveChannel enumeration
 
-CurveChannel 枚举定义了可以受图像颜色曲线效果调整影响的颜色通道。
+CurveChannel 枚举定义了可能受图像颜色曲线效果调整影响的颜色通道。
 
 ```csharp
 public enum EmfPlusCurveChannel

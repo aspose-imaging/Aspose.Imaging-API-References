@@ -8,7 +8,7 @@ url: /zh/net/aspose.imaging.exif/exifdata/gpslatituderef/
 ---
 ## ExifData.GPSLatitudeRef property
 
-获取或设置GPS纬度是北纬还是南纬。
+获取或设置GPS纬度是北纬还是南纬
 
 ```csharp
 public string GPSLatitudeRef { get; set; }
@@ -16,7 +16,7 @@ public string GPSLatitudeRef { get; set; }
 
 ### 适当的价值
 
-GPS 纬度为北纬或南纬。
+GPS 纬度是北纬还是南纬。
 
 ### 也可以看看
 

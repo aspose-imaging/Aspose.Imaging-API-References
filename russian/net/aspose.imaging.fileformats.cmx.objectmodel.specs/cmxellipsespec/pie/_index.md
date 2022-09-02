@@ -1,14 +1,14 @@
 ---
 title: Pie
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее является ли этоCmxEllipseSpecaspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespecкруговой диаграммой.
+description: Получает или задает значение указывающее является ли этоCmxEllipseSpecaspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespecпирог.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/pie/
 ---
 ## CmxEllipseSpec.Pie property
 
-Получает или задает значение, указывающее, является ли это[`CmxEllipseSpec`](../../cmxellipsespec)круговой диаграммой.
+Получает или задает значение, указывающее, является ли это[`CmxEllipseSpec`](../../cmxellipsespec)пирог.
 
 ```csharp
 public bool Pie { get; set; }
@@ -16,7 +16,7 @@ public bool Pie { get; set; }
 
 ### Стоимость имущества
 
-` true` если круговая; в противном случае` false` .
+`истинный` если пирог; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

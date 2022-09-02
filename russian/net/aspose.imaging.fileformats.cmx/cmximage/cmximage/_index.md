@@ -1,14 +1,14 @@
 ---
 title: CmxImage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаCmxImageaspose.imaging.fileformats.cmx/cmximage.
+description: Инициализирует новый экземплярCmxImageaspose.imaging.fileformats.cmx/cmximage класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.cmx/cmximage/cmximage/
 ---
 ## CmxImage constructor
 
-Инициализирует новый экземпляр класса[`CmxImage`](../../cmximage).
+Инициализирует новый экземпляр[`CmxImage`](../../cmximage) класс.
 
 ```csharp
 public CmxImage(StreamContainer streamContainer, LoadOptions loadOptions)
@@ -17,7 +17,7 @@ public CmxImage(StreamContainer streamContainer, LoadOptions loadOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | streamContainer | StreamContainer | Контейнер потока. |
-| loadOptions | LoadOptions | Параметры загрузки. |
+| loadOptions | LoadOptions | Варианты загрузки. |
 
 ### Смотрите также
 

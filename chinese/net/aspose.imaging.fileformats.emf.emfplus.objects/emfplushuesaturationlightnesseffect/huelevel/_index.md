@@ -1,14 +1,14 @@
 ---
 title: HueLevel
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 指定对色调的调整 -180  值 lt 0 负值指定色轮顺时针旋转 0 值 0 指定色调不能改变 0 lt value  180 正值指定色轮逆时针旋转
+description: 获取或设置指定对色调的调整 -180  value lt 0 负值指定色轮上的顺时针旋转 0 值 0 指定色调不得改变 0 lt value  180 正值指定色轮上的逆时针旋转
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplushuesaturationlightnesseffect/huelevel/
 ---
 ## EmfPlusHueSaturationLightnessEffect.HueLevel property
 
-获取或设置 指定对色调的调整。 -180 ≤ 值 &lt; 0 负值指定色轮顺时针旋转。 0 值 0 指定色调不能改变。 0 &lt; value ≤ 180 正值指定色轮逆时针旋转。
+获取或设置指定对色调的调整。 -180 ≤ value &lt; 0 负值指定色轮上的顺时针旋转。 0 值 0 指定色调不得改变。 0 &lt; value ≤ 180 正值指定色轮上的逆时针旋转。
 
 ```csharp
 public int HueLevel { get; set; }
@@ -16,7 +16,7 @@ public int HueLevel { get; set; }
 
 ### 适当的价值
 
-色调级别。
+色调等级。
 
 ### 也可以看看
 

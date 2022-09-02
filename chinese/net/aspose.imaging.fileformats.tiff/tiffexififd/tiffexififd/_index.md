@@ -1,14 +1,14 @@
 ---
 title: TiffExifIfd
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化TiffExifIfdaspose.imaging.fileformats.tiff/tiffexififd类的新实例
+description: 初始化TiffExifIfdaspose.imaging.fileformats.tiff/tiffexififd类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.tiff/tiffexififd/tiffexififd/
 ---
 ## TiffExifIfd() {#constructor}
 
-初始化[`TiffExifIfd`](../../tiffexififd)类的新实例。
+初始化[`TiffExifIfd`](../../tiffexififd)类.
 
 ```csharp
 public TiffExifIfd()
@@ -24,7 +24,7 @@ public TiffExifIfd()
 
 ## TiffExifIfd(uint) {#constructor_1}
 
-初始化[`TiffExifIfd`](../../tiffexififd)类的新实例。
+初始化[`TiffExifIfd`](../../tiffexififd)类.
 
 ```csharp
 public TiffExifIfd(uint ifdOffset)
@@ -36,7 +36,7 @@ public TiffExifIfd(uint ifdOffset)
 
 ### 评论
 
-互操作性，Exif IFD与TIFF中指定的IFD结构相同。通常， 但是，它不像 TIFF 那样包含图像数据。
+互操作性，Exif IFD 与 TIFF 中指定的 IFD 具有相同的结构。通常， 但是，它不像 TIFF 那样包含图像数据。
 
 ### 也可以看看
 

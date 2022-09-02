@@ -16,7 +16,7 @@ public float Resolution { get; set; }
 
 ### 适当的价值
 
-分辨率。
+分辨率.
 
 ### 也可以看看
 

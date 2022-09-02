@@ -1,14 +1,14 @@
 ---
 title: HasTransparentColor
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取图像是否具有透明色的值
+description: 获取一个表示图像是否具有透明色的值
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging.fileformats.tiff/tiffframe/hastransparentcolor/
 ---
 ## TiffFrame.HasTransparentColor property
 
-获取图像是否具有透明色的值。
+获取一个表示图像是否具有透明色的值。
 
 ```csharp
 public override bool HasTransparentColor { get; set; }

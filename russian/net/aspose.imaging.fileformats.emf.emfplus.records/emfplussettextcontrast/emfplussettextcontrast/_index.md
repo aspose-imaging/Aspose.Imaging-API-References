@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSetTextContrast
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusSetTextContrastaspose.imaging.fileformats.emf.emfplus.records/emfplussettextcontrast.
+description: Инициализирует новый экземплярEmfPlusSetTextContrastaspose.imaging.fileformats.emf.emfplus.records/emfplussettextcontrast класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettextcontrast/emfplussettextcontrast/
 ---
 ## EmfPlusSetTextContrast constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusSetTextContrast`](../../emfplussettextcontrast).
+Инициализирует новый экземпляр[`EmfPlusSetTextContrast`](../../emfplussettextcontrast) класс.
 
 ```csharp
 public EmfPlusSetTextContrast(EmfPlusRecord source)

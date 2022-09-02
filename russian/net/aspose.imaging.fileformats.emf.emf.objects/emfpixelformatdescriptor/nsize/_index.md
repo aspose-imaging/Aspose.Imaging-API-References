@@ -1,14 +1,14 @@
 ---
 title: NSize
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 16-разрядное целое число указывающее размер этой структуры данных в байтах.
+description: Получает или задает 16-разрядное целое число указывающее размер в байтах этой структуры данных.
 type: docs
 weight: 260
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/nsize/
 ---
 ## EmfPixelFormatDescriptor.NSize property
 
-Получает или задает 16-разрядное целое число, указывающее размер этой структуры данных в байтах.
+Получает или задает 16-разрядное целое число, указывающее размер в байтах этой структуры данных.
 
 ```csharp
 public short NSize { get; set; }

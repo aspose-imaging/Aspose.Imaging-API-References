@@ -29,7 +29,7 @@ public void SetRemapTable(ColorMap[] map)
 
 ## SetRemapTable(ColorMap[], ColorAdjustType) {#setremaptable_1}
 
-Устанавливает таблицу переназначения цветов для указанной категории.
+Задает таблицу переназначения цветов для указанной категории.
 
 ```csharp
 public void SetRemapTable(ColorMap[] map, ColorAdjustType type)
@@ -38,7 +38,7 @@ public void SetRemapTable(ColorMap[] map, ColorAdjustType type)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | map | ColorMap[] | Массив цветовых пар типа[`ColorMap`](../../colormap). Каждая цветовая пара содержит существующий цвет (первое значение) и цвет, на который она будет сопоставлена (второе значение). |
-| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype), указывающий категорию, для которой установлена таблица преобразования цветов. |
+| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype) который указывает категорию, для которой установлена таблица переназначения цветов. |
 
 ### Смотрите также
 

@@ -21,7 +21,7 @@ public static RectangleF UnionWith(RectangleF rectangle, RectangleF otherRectang
 
 ### 返回值
 
-作为联合运算结果的新矩形
+新矩形作为联合运算结果
 
 ### 也可以看看
 

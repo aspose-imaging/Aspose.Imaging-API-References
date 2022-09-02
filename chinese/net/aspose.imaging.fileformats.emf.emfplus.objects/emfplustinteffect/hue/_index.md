@@ -1,14 +1,14 @@
 ---
 title: Hue
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位有符号整数该整数指定应用着色效果的色调 -180  值 lt 0 色轮逆时针旋转指定的颜色从蓝色开始  0 值 0 指定色轮上的蓝色 0 lt value  180 色轮指定顺时针旋转时的颜色从蓝色开始
+description: 获取或设置一个 32 位带符号整数指定应用色调效果的色调 -180  value lt 0 色轮逆时针旋转指定的颜色从蓝色开始  0值 0 指定色轮上的蓝色 0 lt value  180 色轮指定顺时针旋转时的颜色从 blue 开始
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplustinteffect/hue/
 ---
 ## EmfPlusTintEffect.Hue property
 
-获取或设置一个 32 位有符号整数，该整数指定应用着色效果的色调。 -180 ≤ 值 &lt; 0 色轮逆时针旋转指定的颜色，从蓝色开始 。 0 值 0 指定色轮上的蓝色。 0 &lt; value ≤ 180 色轮指定顺时针旋转时的颜色，从蓝色开始
+获取或设置一个 32 位带符号整数，指定应用色调效果的色调。 -180 ≤ value &lt; 0 色轮逆时针旋转指定的颜色，从蓝色开始 。 0值 0 指定色轮上的蓝色。 0 &lt; value ≤ 180 色轮指定顺时针旋转时的颜色，从 blue 开始
 
 ```csharp
 public int Hue { get; set; }

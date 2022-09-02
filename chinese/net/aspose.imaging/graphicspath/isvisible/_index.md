@@ -1,14 +1,14 @@
 ---
 title: IsVisible
 second_title: Aspose.Imaging for .NET API 参考
-description: 指示指定点是否包含在此GraphicsPathaspose.imaging/graphicspath中
+description: 表示指定的点是否包含在这个范围内GraphicsPathaspose.imaging/graphicspath .
 type: docs
 weight: 120
 url: /zh/net/aspose.imaging/graphicspath/isvisible/
 ---
 ## IsVisible(float, float) {#isvisible_6}
 
-指示指定点是否包含在此[`GraphicsPath`](../../graphicspath)中。
+表示指定的点是否包含在这个范围内[`GraphicsPath`](../../graphicspath) .
 
 ```csharp
 public bool IsVisible(float x, float y)
@@ -21,7 +21,7 @@ public bool IsVisible(float x, float y)
 
 ### 返回值
 
-如果指定点包含在此[`GraphicsPath`](../../graphicspath)中，则此方法返回 true ;否则为假。
+如果指定的点包含在此方法中，则此方法返回 true[`GraphicsPath`](../../graphicspath);否则为假。
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public bool IsVisible(float x, float y)
 
 ## IsVisible(PointF) {#isvisible_2}
 
-指示指定点是否包含在此[`GraphicsPath`](../../graphicspath)中。
+表示指定的点是否包含在这个范围内[`GraphicsPath`](../../graphicspath) .
 
 ```csharp
 public bool IsVisible(PointF point)
@@ -41,11 +41,11 @@ public bool IsVisible(PointF point)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| point | PointF | A[`PointF`](../../pointf)表示要测试的点。 |
+| point | PointF | 一个[`PointF`](../../pointf)表示要测试的点。 |
 
 ### 返回值
 
-如果指定点包含在此[`GraphicsPath`](../../graphicspath)中，则此方法返回 true ;否则为假。
+如果指定的点包含在此方法中，则此方法返回 true[`GraphicsPath`](../../graphicspath);否则为假。
 
 ### 也可以看看
 
@@ -58,7 +58,7 @@ public bool IsVisible(PointF point)
 
 ## IsVisible(int, int) {#isvisible_4}
 
-指示指定点是否包含在此[`GraphicsPath`](../../graphicspath)中。
+表示指定的点是否包含在这个范围内[`GraphicsPath`](../../graphicspath) .
 
 ```csharp
 public bool IsVisible(int x, int y)
@@ -71,7 +71,7 @@ public bool IsVisible(int x, int y)
 
 ### 返回值
 
-如果指定点包含在此[`GraphicsPath`](../../graphicspath)中，则此方法返回 true ;否则为假。
+如果指定的点包含在此方法中，则此方法返回 true[`GraphicsPath`](../../graphicspath);否则为假。
 
 ### 也可以看看
 
@@ -83,7 +83,7 @@ public bool IsVisible(int x, int y)
 
 ## IsVisible(Point) {#isvisible}
 
-指示指定点是否包含在此[`GraphicsPath`](../../graphicspath)中。
+表示指定的点是否包含在这个范围内[`GraphicsPath`](../../graphicspath) .
 
 ```csharp
 public bool IsVisible(Point point)
@@ -91,11 +91,11 @@ public bool IsVisible(Point point)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| point | Point | A[`Point`](../../point)表示要测试的点。 |
+| point | Point | 一个[`Point`](../../point)表示要测试的点。 |
 
 ### 返回值
 
-如果指定点包含在此[`GraphicsPath`](../../graphicspath)中，则此方法返回 true ;否则为假。
+如果指定的点包含在此方法中，则此方法返回 true[`GraphicsPath`](../../graphicspath);否则为假。
 
 ### 也可以看看
 
@@ -108,7 +108,7 @@ public bool IsVisible(Point point)
 
 ## IsVisible(float, float, Graphics) {#isvisible_7}
 
-指示指定点是否包含在此[`GraphicsPath`](../../graphicspath)中指定:::的可见剪辑区域中R5:T:Aspose.Imaging.Graphics:::。
+表示指定的点是否包含在这个范围内[`GraphicsPath`](../../graphicspath)在指定的可见剪辑区域中[`Graphics`](../../graphics) .
 
 ```csharp
 public bool IsVisible(float x, float y, Graphics graphics)
@@ -118,11 +118,11 @@ public bool IsVisible(float x, float y, Graphics graphics)
 | --- | --- | --- |
 | x | Single | 要测试的点的 x 坐标。 |
 | y | Single | 要测试的点的 y 坐标。 |
-| graphics | Graphics | [`Graphics`](../../graphics)用于测试可见性。 |
+| graphics | Graphics | 这[`Graphics`](../../graphics)用于测试可见性。 |
 
 ### 返回值
 
-如果指定点包含在此[`GraphicsPath`](../../graphicspath)中，则此方法返回 true ;否则为假。
+如果指定的点包含在此方法中，则此方法返回 true[`GraphicsPath`](../../graphicspath);否则为假。
 
 ### 也可以看看
 
@@ -135,7 +135,7 @@ public bool IsVisible(float x, float y, Graphics graphics)
 
 ## IsVisible(PointF, Graphics) {#isvisible_3}
 
-指示指定点是否包含在此[`GraphicsPath`](../../graphicspath)中。
+表示指定的点是否包含在这个范围内[`GraphicsPath`](../../graphicspath) .
 
 ```csharp
 public bool IsVisible(PointF pt, Graphics graphics)
@@ -143,8 +143,8 @@ public bool IsVisible(PointF pt, Graphics graphics)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pt | PointF | A[`PointF`](../../pointf)表示要测试的点。 |
-| graphics | Graphics | [`Graphics`](../../graphics)用于测试可见性。 |
+| pt | PointF | 一个[`PointF`](../../pointf)表示要测试的点。 |
+| graphics | Graphics | 这[`Graphics`](../../graphics)用于测试可见性。 |
 
 ### 返回值
 
@@ -162,7 +162,7 @@ public bool IsVisible(PointF pt, Graphics graphics)
 
 ## IsVisible(int, int, Graphics) {#isvisible_5}
 
-指示指定点是否包含在此[`GraphicsPath`](../../graphicspath)中，使用指定的[`Graphics`](../../graphics)。
+表示指定的点是否包含在这个范围内[`GraphicsPath`](../../graphicspath) , 使用指定的[`Graphics`](../../graphics) .
 
 ```csharp
 public bool IsVisible(int x, int y, Graphics graphics)
@@ -172,11 +172,11 @@ public bool IsVisible(int x, int y, Graphics graphics)
 | --- | --- | --- |
 | x | Int32 | 要测试的点的 x 坐标。 |
 | y | Int32 | 要测试的点的 y 坐标。 |
-| graphics | Graphics | [`Graphics`](../../graphics)用于测试可见性。 |
+| graphics | Graphics | 这[`Graphics`](../../graphics)用于测试可见性。 |
 
 ### 返回值
 
-如果指定点包含在此[`GraphicsPath`](../../graphicspath)中，则此方法返回 true ;否则为假。
+如果指定的点包含在此方法中，则此方法返回 true[`GraphicsPath`](../../graphicspath);否则为假。
 
 ### 也可以看看
 
@@ -189,7 +189,7 @@ public bool IsVisible(int x, int y, Graphics graphics)
 
 ## IsVisible(Point, Graphics) {#isvisible_1}
 
-指示指定点是否包含在此[`GraphicsPath`](../../graphicspath)中。
+表示指定的点是否包含在这个范围内[`GraphicsPath`](../../graphicspath) .
 
 ```csharp
 public bool IsVisible(Point pt, Graphics graphics)
@@ -197,12 +197,12 @@ public bool IsVisible(Point pt, Graphics graphics)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pt | Point | A[`Point`](../../point)表示要测试的点。 |
-| graphics | Graphics | [`Graphics`](../../graphics)用于测试可见性。 |
+| pt | Point | 一个[`Point`](../../point)表示要测试的点。 |
+| graphics | Graphics | 这[`Graphics`](../../graphics)用于测试可见性。 |
 
 ### 返回值
 
-如果指定点包含在此[`GraphicsPath`](../../graphicspath)中，则此方法返回 true ;否则为假。
+如果指定的点包含在此方法中，则此方法返回 true[`GraphicsPath`](../../graphicspath);否则为假。
 
 ### 也可以看看
 

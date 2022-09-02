@@ -1,14 +1,14 @@
 ---
 title: Join
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个可选的 32 位有符号整数该整数指定如何连接 由同一支笔绘制且两端相接的两条线. 如果 PenDataJoin 标志设置在 EmfPlusPenData 对象的 PenDataFlags 字段中则该字段必须存在并且 值必须在 LineJoinType 中定义枚举 第 2.1.1.19 节
+description: 获取或设置一个可选的 32 位有符号整数该整数指定如何连接 由同一支笔绘制且末端相接的两条线 如果 PenDataJoin 标志设置在 EmfPlusPenData 对象的 PenDataFlags 字段中则该字段必须存在并且 值必须在 LineJoinType 枚举 第 2.1.1.19 节中定义
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata/join/
 ---
 ## EmfPlusPenOptionalData.Join property
 
-获取或设置一个可选的 32 位有符号整数，该整数指定如何连接 由同一支笔绘制且两端相接的两条线. 如果 PenDataJoin 标志设置在 EmfPlusPenData 对象的 PenDataFlags 字段中，则该字段必须存在，并且 值必须在 LineJoinType 中定义枚举 （第 2.1.1.19 节）。
+获取或设置一个可选的 32 位有符号整数，该整数指定如何连接 由同一支笔绘制且末端相接的两条线。 如果 PenDataJoin 标志设置在 EmfPlusPenData 对象的 PenDataFlags 字段中，则该字段必须存在，并且 值必须在 LineJoinType 枚举 （第 2.1.1.19 节）中定义。
 
 ```csharp
 public EmfPlusLineJoinType Join { get; set; }

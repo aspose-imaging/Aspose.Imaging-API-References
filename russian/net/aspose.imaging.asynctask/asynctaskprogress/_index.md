@@ -18,7 +18,7 @@ public class AsyncTaskProgress
 
 | Имя | Описание |
 | --- | --- |
-| [AsyncTaskProgress](asynctaskprogress)(int, TimeSpan) | Инициализирует новый экземпляр класса[`AsyncTaskProgress`](../asynctaskprogress). |
+| [AsyncTaskProgress](asynctaskprogress)(int, TimeSpan) | Инициализирует новый экземпляр[`AsyncTaskProgress`](../asynctaskprogress) класс. |
 
 ## Поля
 

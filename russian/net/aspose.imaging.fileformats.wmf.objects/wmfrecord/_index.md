@@ -1,14 +1,14 @@
 ---
 title: WmfRecord
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Рекорд Wmf
+description: Запись WMF
 type: docs
 weight: 8910
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfrecord/
 ---
 ## WmfRecord class
 
-Рекорд Wmf
+Запись WMF
 
 ```csharp
 public class WmfRecord : MetaObject
@@ -24,7 +24,7 @@ public class WmfRecord : MetaObject
 
 | Имя | Описание |
 | --- | --- |
-| [RecordType](../../aspose.imaging.fileformats.wmf.objects/wmfrecord/recordtype) { get; set; } | [`RecordType`](./recordtype)число (определено в WINDOWS.H) |
+| [RecordType](../../aspose.imaging.fileformats.wmf.objects/wmfrecord/recordtype) { get; set; } | [`RecordType`](./recordtype) номер (определен в WINDOWS.H) |
 | [Size](../../aspose.imaging.fileformats.wmf.objects/wmfrecord/size) { get; set; } | Получает или задает размер. |
 
 ### Смотрите также

@@ -18,8 +18,8 @@ public class RleCompressorException : CompressorException
 
 | Имя | Описание |
 | --- | --- |
-| [RleCompressorException](rlecompressorexception#constructor)(string) | Инициализирует новый экземпляр класса[`RleCompressorException`](../rlecompressorexception). |
-| [RleCompressorException](rlecompressorexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр класса[`RleCompressorException`](../rlecompressorexception). |
+| [RleCompressorException](rlecompressorexception#constructor)(string) | Инициализирует новый экземпляр[`RleCompressorException`](../rlecompressorexception) класс. |
+| [RleCompressorException](rlecompressorexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр[`RleCompressorException`](../rlecompressorexception) класс. |
 
 ### Смотрите также
 

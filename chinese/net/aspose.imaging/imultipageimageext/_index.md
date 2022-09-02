@@ -1,14 +1,14 @@
 ---
 title: IMultipageImageExt
 second_title: Aspose.Imaging for .NET API 参考
-description: 扩展多页图像接口
+description: 扩展的多页图像接口
 type: docs
 weight: 9560
 url: /zh/net/aspose.imaging/imultipageimageext/
 ---
 ## IMultipageImageExt interface
 
-扩展多页图像接口
+扩展的多页图像接口
 
 ```csharp
 public interface IMultipageImageExt : IMultipageImage

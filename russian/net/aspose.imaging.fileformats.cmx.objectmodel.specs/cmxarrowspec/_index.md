@@ -25,7 +25,7 @@ public class CmxArrowSpec : CmxPathSpec
 | Имя | Описание |
 | --- | --- |
 | [ArrowOffset](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxarrowspec/arrowoffset) { get; set; } | Получает или задает смещение стрелки. |
-| [Points](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec/points) { get; set; } | Получает или устанавливает точки. |
+| [Points](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec/points) { get; set; } | Получает или устанавливает очки. |
 | [Type](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

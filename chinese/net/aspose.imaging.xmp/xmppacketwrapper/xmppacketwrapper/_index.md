@@ -1,14 +1,14 @@
 ---
 title: XmpPacketWrapper
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化XmpPacketWrapperaspose.imaging.xmp/xmppacketwrapper类的新实例
+description: 初始化XmpPacketWrapperaspose.imaging.xmp/xmppacketwrapper类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp/xmppacketwrapper/xmppacketwrapper/
 ---
 ## XmpPacketWrapper(XmpHeaderPi, XmpTrailerPi, XmpMeta) {#constructor_1}
 
-初始化[`XmpPacketWrapper`](../../xmppacketwrapper)类的新实例。
+初始化[`XmpPacketWrapper`](../../xmppacketwrapper)类.
 
 ```csharp
 public XmpPacketWrapper(XmpHeaderPi header, XmpTrailerPi trailer, XmpMeta xmpMeta)
@@ -16,8 +16,8 @@ public XmpPacketWrapper(XmpHeaderPi header, XmpTrailerPi trailer, XmpMeta xmpMet
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| header | XmpHeaderPi | 处理指令的 XMP 头。 |
-| trailer | XmpTrailerPi | 处理指令的 XMP 预告片。 |
+| header | XmpHeaderPi | 处理指令的 XMP 标头。 |
+| trailer | XmpTrailerPi | 处理指令的 XMP 尾部。 |
 | xmpMeta | XmpMeta | XMP 元数据。 |
 
 ### 也可以看看
@@ -33,7 +33,7 @@ public XmpPacketWrapper(XmpHeaderPi header, XmpTrailerPi trailer, XmpMeta xmpMet
 
 ## XmpPacketWrapper() {#constructor}
 
-初始化[`XmpPacketWrapper`](../../xmppacketwrapper)类的新实例。
+初始化[`XmpPacketWrapper`](../../xmppacketwrapper)类.
 
 ```csharp
 public XmpPacketWrapper()

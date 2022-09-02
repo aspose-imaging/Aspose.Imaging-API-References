@@ -1,14 +1,14 @@
 ---
 title: XmpMeta
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示 xmpmeta可选的 此元素的目的是识别一般 XML 文本中的 XMP 元数据这些文本可能包含 RDF 的其他非 XMP 用途
+description: 表示 xmpmeta可选 此元素的目的是在一般 XML 文本中识别 XMP 元数据这些元数据可能包含 RDF 的其他非 XMP 用途
 type: docs
-weight: 11780
+weight: 11770
 url: /zh/net/aspose.imaging.xmp/xmpmeta/
 ---
 ## XmpMeta class
 
-表示 xmpmeta。可选的。 此元素的目的是识别一般 XML 文本中的 XMP 元数据，这些文本可能包含 RDF 的其他非 XMP 用途。
+表示 xmpmeta。可选。 此元素的目的是在一般 XML 文本中识别 XMP 元数据，这些元数据可能包含 RDF 的其他非 XMP 用途。
 
 ```csharp
 public sealed class XmpMeta : XmpElementBase, IEquatable<XmpMeta>, IXmlValue
@@ -18,8 +18,8 @@ public sealed class XmpMeta : XmpElementBase, IEquatable<XmpMeta>, IXmlValue
 
 | 姓名 | 描述 |
 | --- | --- |
-| [XmpMeta](xmpmeta#constructor)() | 初始化[`XmpMeta`](../xmpmeta)类的新实例。 |
-| [XmpMeta](xmpmeta#constructor_1)(string) | 初始化[`XmpMeta`](../xmpmeta)类的新实例。 |
+| [XmpMeta](xmpmeta#constructor)() | 初始化[`XmpMeta`](../xmpmeta)类. |
+| [XmpMeta](xmpmeta#constructor_1)(string) | 初始化[`XmpMeta`](../xmpmeta)类. |
 
 ## 特性
 
@@ -33,12 +33,12 @@ public sealed class XmpMeta : XmpElementBase, IEquatable<XmpMeta>, IXmlValue
 | --- | --- |
 | override [AddAttribute](../../aspose.imaging.xmp/xmpmeta/addattribute)(string, string) | 添加属性。 |
 | virtual [ClearAttributes](../../aspose.imaging.xmp/xmpelementbase/clearattributes)() | 删除所有属性。 |
-| override [Equals](../../aspose.imaging.xmp/xmpmeta/equals#equals_2)(object) | 确定指定的Object是否等于此实例。 |
+| override [Equals](../../aspose.imaging.xmp/xmpmeta/equals#equals_2)(object) | 判断是否指定Object 等于这个实例。 |
 | [Equals](../../aspose.imaging.xmp/xmpelementbase/equals)(XmpElementBase) | 表示当前对象是否等于另一个同类型的对象。 |
 | [Equals](../../aspose.imaging.xmp/xmpmeta/equals#equals_1)(XmpMeta) | 表示当前对象是否等于另一个同类型的对象。 |
 | virtual [GetAttribute](../../aspose.imaging.xmp/xmpelementbase/getattribute)(string) | 获取属性。 |
 | override [GetHashCode](../../aspose.imaging.xmp/xmpmeta/gethashcode)() | 返回此实例的哈希码。 |
-| [GetXmlValue](../../aspose.imaging.xmp/xmpmeta/getxmlvalue)() | 将 XMP 值转换为 XML 表示。 |
+| [GetXmlValue](../../aspose.imaging.xmp/xmpmeta/getxmlvalue)() | 将 XMP 值转换为 XML 表示形式。 |
 
 ### 也可以看看
 

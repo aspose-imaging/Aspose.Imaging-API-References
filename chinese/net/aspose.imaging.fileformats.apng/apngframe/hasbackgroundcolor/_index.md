@@ -1,14 +1,14 @@
 ---
 title: HasBackgroundColor
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取是否有背景色的值
+description: 获取一个值表示是否有背景色
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.apng/apngframe/hasbackgroundcolor/
 ---
 ## ApngFrame.HasBackgroundColor property
 
-获取是否有背景色的值。
+获取一个值，表示是否有背景色。
 
 ```csharp
 public override bool HasBackgroundColor { get; set; }

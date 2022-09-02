@@ -31,8 +31,8 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterCachedImage rasterImage = (Aspose.Imaging.RasterCachedImage)image;
 
-     // Бинаризация изображения с пороговым значением 127.
-     // Если соответствующее значение серого пикселя больше 127, ему будет присвоено значение 255, иначе 0.
+    // Бинаризовать изображение с пороговым значением 127.
+    // Если соответствующее значение серого пикселя больше 127, ему будет присвоено значение 255, иначе 0.
     rasterImage.BinarizeFixed(127);
     rasterImage.Save(dir + "sample.BinarizeFixed.png");
 }

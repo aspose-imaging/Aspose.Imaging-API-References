@@ -1,14 +1,14 @@
 ---
 title: Graphics
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化Graphicsaspose.imaging/graphics类的新实例
+description: 初始化Graphicsaspose.imaging/graphics类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/graphics/graphics/
 ---
 ## Graphics constructor
 
-初始化[`Graphics`](../../graphics)类的新实例。
+初始化[`Graphics`](../../graphics)类.
 
 ```csharp
 public Graphics(Image sourceImage)

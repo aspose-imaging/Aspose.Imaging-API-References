@@ -1,14 +1,14 @@
 ---
 title: CmxImage
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化CmxImageaspose.imaging.fileformats.cmx/cmximage类的新实例
+description: 初始化CmxImageaspose.imaging.fileformats.cmx/cmximage类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.cmx/cmximage/cmximage/
 ---
 ## CmxImage constructor
 
-初始化[`CmxImage`](../../cmximage)类的新实例。
+初始化[`CmxImage`](../../cmximage)类.
 
 ```csharp
 public CmxImage(StreamContainer streamContainer, LoadOptions loadOptions)
@@ -17,7 +17,7 @@ public CmxImage(StreamContainer streamContainer, LoadOptions loadOptions)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | streamContainer | StreamContainer | 流容器。 |
-| loadOptions | LoadOptions | 加载选项。 |
+| loadOptions | LoadOptions | 负载选项。 |
 
 ### 也可以看看
 

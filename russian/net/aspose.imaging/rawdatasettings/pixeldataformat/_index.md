@@ -1,14 +1,14 @@
 ---
 title: PixelDataFormat
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает формат данных пикселей
+description: Получает или задает формат пиксельных данных
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging/rawdatasettings/pixeldataformat/
 ---
 ## RawDataSettings.PixelDataFormat property
 
-Получает или задает формат данных пикселей
+Получает или задает формат пиксельных данных
 
 ```csharp
 public PixelDataFormat PixelDataFormat { get; set; }

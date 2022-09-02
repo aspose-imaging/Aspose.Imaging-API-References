@@ -1,14 +1,14 @@
 ---
 title: PointD
 second_title: Aspose.Imaging for .NET API 参考
-description: 双点
+description: 点双倍
 type: docs
 weight: 1890
 url: /zh/net/aspose.imaging.fileformats.cdr.types/pointd/
 ---
 ## PointD structure
 
-双点
+点双倍
 
 ```csharp
 public struct PointD
@@ -18,21 +18,21 @@ public struct PointD
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PointD](pointd)(double, double) | 初始化[`PointD`](../pointd)结构的新实例。 |
+| [PointD](pointd)(double, double) | 初始化[`PointD`](../pointd) struct. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [X](../../aspose.imaging.fileformats.cdr.types/pointd/x) { get; set; } | 获取或设置 x。 |
-| [Y](../../aspose.imaging.fileformats.cdr.types/pointd/y) { get; set; } | 获取或设置 y。 |
+| [X](../../aspose.imaging.fileformats.cdr.types/pointd/x) { get; set; } | 获取或设置 x. |
+| [Y](../../aspose.imaging.fileformats.cdr.types/pointd/y) { get; set; } | 获取或设置 y. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FromPointF](../../aspose.imaging.fileformats.cdr.types/pointd/frompointf)(PointF) | 将[`PointD`](../pointd)转换为Imaging。PointF结构。 |
-| [ToPointF](../../aspose.imaging.fileformats.cdr.types/pointd/topointf)() | 将[`PointF`](../../aspose.imaging/pointf)转换为Types。PointD结构。 |
+| [FromPointF](../../aspose.imaging.fileformats.cdr.types/pointd/frompointf)(PointF) | 转换[`PointD`](../pointd)到[`PointF`](../../aspose.imaging/pointf)结构. |
+| [ToPointF](../../aspose.imaging.fileformats.cdr.types/pointd/topointf)() | 转换[`PointF`](../../aspose.imaging/pointf)到[`PointD`](../pointd)结构. |
 | override [ToString](../../aspose.imaging.fileformats.cdr.types/pointd/tostring)() | 转换为字符串。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: EmfSetBkMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_SETBKMODE указывает режим фонового микширования контекста устройства воспроизведения. Режим смешивания фона используется с текстом штрихованными кистями и стилями пера которые не являются сплошными линиями.
+description: Запись EMR_SETBKMODE определяет режим смешения фона контекста устройства воспроизведения. Режим смешения фона используется с текстом штрихованными кистями и стилями пера которые не являются сплошными линиями.
 type: docs
 weight: 4290
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetbkmode/
 ---
 ## EmfSetBkMode class
 
-Запись EMR_SETBKMODE указывает режим фонового микширования контекста устройства воспроизведения. Режим смешивания фона используется с текстом, штрихованными кистями и стилями пера, которые не являются сплошными линиями.
+Запись EMR_SETBKMODE определяет режим смешения фона контекста устройства воспроизведения. Режим смешения фона используется с текстом, штрихованными кистями и стилями пера, которые не являются сплошными линиями.
 
 ```csharp
 public sealed class EmfSetBkMode : EmfStateRecordType
@@ -18,15 +18,15 @@ public sealed class EmfSetBkMode : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetBkMode](emfsetbkmode#constructor)() | Инициализирует новый экземпляр класса[`EmfSetBkMode`](../emfsetbkmode). |
-| [EmfSetBkMode](emfsetbkmode#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetBkMode`](../emfsetbkmode). |
+| [EmfSetBkMode](emfsetbkmode#constructor)() | Инициализирует новый экземпляр[`EmfSetBkMode`](../emfsetbkmode) класс. |
+| [EmfSetBkMode](emfsetbkmode#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetBkMode`](../emfsetbkmode) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [BackgroundMode](../../aspose.imaging.fileformats.emf.emf.records/emfsetbkmode/backgroundmode) { get; set; } | Получает или задает 32-битное целое число без знака, определяющее фоновый режим и ДОЛЖНО находиться в перечислении BackgroundMode (раздел 2.1.4). |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

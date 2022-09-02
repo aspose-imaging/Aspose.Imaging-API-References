@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSetPageTransform
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusSetPageTransformaspose.imaging.fileformats.emf.emfplus.records/emfplussetpagetransform.
+description: Инициализирует новый экземплярEmfPlusSetPageTransformaspose.imaging.fileformats.emf.emfplus.records/emfplussetpagetransform класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetpagetransform/emfplussetpagetransform/
 ---
 ## EmfPlusSetPageTransform constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusSetPageTransform`](../../emfplussetpagetransform).
+Инициализирует новый экземпляр[`EmfPlusSetPageTransform`](../../emfplussetpagetransform) класс.
 
 ```csharp
 public EmfPlusSetPageTransform(EmfPlusRecord source)

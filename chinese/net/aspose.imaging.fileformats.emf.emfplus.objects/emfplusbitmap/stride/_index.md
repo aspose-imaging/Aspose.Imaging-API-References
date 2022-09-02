@@ -1,14 +1,14 @@
 ---
 title: Stride
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置图像的步幅 步幅4 字节一个 32 位有符号整数指定开头之间的字节偏移量一个扫描线和 下一个该值是每个像素的字节数在 PixelFormat 字段中指定乘以 宽度以像素为单位在 Width 字段中指定该字段的值必须是四的倍数 如果图像被压缩根据 Type 字段这个值是未定义的并且必须被忽略
+description: 获取或设置图像的步幅 步幅4 个字节一个 32 位有符号整数指定一个扫描行的开头和下一个扫描行的开头之间的字节偏移量该值是在 PixelFormat 字段中指定的每个像素的字节数乘以在 Width 字段中指定的以像素为单位的宽度该字段的值必须是四的倍数 如果图像被压缩根据类型字段该值未定义必须被忽略
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap/stride/
 ---
 ## EmfPlusBitmap.Stride property
 
-获取或设置图像的步幅 步幅（4 字节）:一个 32 位有符号整数，指定开头之间的字节偏移量一个扫描线和 下一个。该值是每个像素的字节数，在 PixelFormat 字段中指定，乘以 宽度，以像素为单位，在 Width 字段中指定。该字段的值必须是四的倍数。 如果图像被压缩，根据 Type 字段，这个值是未定义的并且必须被忽略。
+获取或设置图像的步幅 步幅（4 个字节）：一个 32 位有符号整数，指定一个扫描行的开头和下一个扫描行的开头之间的字节偏移量。该值是在 PixelFormat 字段中指定的每个像素的字节数乘以在 Width 字段中指定的以像素为单位的宽度。该字段的值必须是四的倍数。 如果图像被压缩，根据类型字段，该值未定义，必须被忽略。
 
 ```csharp
 public int Stride { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此RectangleFaspose.imaging/rectanglef的大小
+description: 获取或设置 this 的大小RectangleFaspose.imaging/rectanglef .
 type: docs
 weight: 140
 url: /zh/net/aspose.imaging/rectanglef/size/
 ---
 ## RectangleF.Size property
 
-获取或设置此[`RectangleF`](../../rectanglef)的大小。
+获取或设置 this 的大小[`RectangleF`](../../rectanglef) .
 
 ```csharp
 public SizeF Size { get; set; }
@@ -16,7 +16,7 @@ public SizeF Size { get; set; }
 
 ### 返回值
 
-A[`SizeF`](../../sizef)表示这个:::的宽度和高度R5:T:Aspose.Imaging.RectangleF:::结构。
+一个[`SizeF`](../../sizef)表示这个的宽度和高度[`RectangleF`](../../rectanglef)结构体。
 
 ### 也可以看看
 

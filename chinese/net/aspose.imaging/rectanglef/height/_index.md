@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此RectangleFaspose.imaging/rectanglef结构的高度
+description: 获取或设置 this 的高度RectangleFaspose.imaging/rectanglef结构.
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging/rectanglef/height/
 ---
 ## RectangleF.Height property
 
-获取或设置此[`RectangleF`](../../rectanglef)结构的高度。
+获取或设置 this 的高度[`RectangleF`](../../rectanglef)结构.
 
 ```csharp
 public float Height { get; set; }
@@ -16,7 +16,7 @@ public float Height { get; set; }
 
 ### 返回值
 
-这个[`RectangleF`](../../rectanglef)结构的高度。
+这个高度[`RectangleF`](../../rectanglef)结构体。
 
 ### 也可以看看
 

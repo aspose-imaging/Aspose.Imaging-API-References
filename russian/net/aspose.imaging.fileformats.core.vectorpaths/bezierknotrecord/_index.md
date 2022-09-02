@@ -18,8 +18,8 @@ public class BezierKnotRecord : VectorPathRecord
 
 | Имя | Описание |
 | --- | --- |
-| [BezierKnotRecord](bezierknotrecord#constructor)() | Инициализирует новый экземпляр класса[`BezierKnotRecord`](../bezierknotrecord). |
-| [BezierKnotRecord](bezierknotrecord#constructor_1)(byte[]) | Инициализирует новый экземпляр класса[`BezierKnotRecord`](../bezierknotrecord). |
+| [BezierKnotRecord](bezierknotrecord#constructor)() | Инициализирует новый экземпляр[`BezierKnotRecord`](../bezierknotrecord) класс. |
+| [BezierKnotRecord](bezierknotrecord#constructor_1)(byte[]) | Инициализирует новый экземпляр[`BezierKnotRecord`](../bezierknotrecord) класс. |
 
 ## Характеристики
 
@@ -29,7 +29,7 @@ public class BezierKnotRecord : VectorPathRecord
 | [IsLinked](../../aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/islinked) { get; set; } | Получает или задает значение, указывающее, связан ли этот экземпляр. |
 | [IsOpen](../../aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/isopen) { get; set; } | Получает или задает значение, указывающее, открыт ли этот экземпляр. |
 | [PathPoints](../../aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/pathpoints) { get; set; } | Получает или задает точки пути. |
-| [Points](../../aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/points) { get; set; } | Получает или устанавливает точки. |
+| [Points](../../aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/points) { get; set; } | Получает или устанавливает очки. |
 | override [Type](../../aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/type) { get; } | Получает тип. |
 
 ### Смотрите также

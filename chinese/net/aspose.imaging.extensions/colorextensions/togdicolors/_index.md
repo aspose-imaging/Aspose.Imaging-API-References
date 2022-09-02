@@ -1,14 +1,14 @@
 ---
 title: ToGdiColors
 second_title: Aspose.Imaging for .NET API 参考
-description: 将Coloraspose.imaging/color数组转换为Color大批
+description: 转换Coloraspose.imaging/color数组到Color数组.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.extensions/colorextensions/togdicolors/
 ---
 ## ColorExtensions.ToGdiColors method
 
-将[`Color`](../../../aspose.imaging/color)数组转换为Color大批。
+转换[`Color`](../../../aspose.imaging/color)数组到Color数组.
 
 ```csharp
 public static Color[] ToGdiColors(Color[] colors)
@@ -16,11 +16,11 @@ public static Color[] ToGdiColors(Color[] colors)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| colors | Color[] | [`Color`](../../../aspose.imaging/color)数组要转换。 |
+| colors | Color[] | 这[`Color`](../../../aspose.imaging/color)要转换的数组。 |
 
 ### 返回值
 
-转换后的Color数组。
+转换的Color大批。
 
 ### 也可以看看
 

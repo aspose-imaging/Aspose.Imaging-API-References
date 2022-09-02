@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取此Fontaspose.imaging/font的哈希码
+description: 获取此哈希码Fontaspose.imaging/font .
 type: docs
 weight: 130
 url: /zh/net/aspose.imaging/font/gethashcode/
 ---
 ## Font.GetHashCode method
 
-获取此[`Font`](../../font)的哈希码。
+获取此哈希码[`Font`](../../font) .
 
 ```csharp
 public override int GetHashCode()
@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### 返回值
 
-这个[`Font`](../../font)的哈希码。
+这个的哈希码[`Font`](../../font).
 
 ### 也可以看看
 

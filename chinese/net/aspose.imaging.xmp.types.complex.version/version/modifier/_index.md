@@ -16,7 +16,7 @@ public string Modifier { get; set; }
 
 ### 适当的价值
 
-修饰符。
+修饰符.
 
 ### 也可以看看
 

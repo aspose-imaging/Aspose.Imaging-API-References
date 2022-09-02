@@ -29,7 +29,7 @@ public void TranslateTransform(float dx, float dy)
 
 ## TranslateTransform(float, float, MatrixOrder) {#translatetransform_1}
 
-将局部几何变换按指定顺序平移指定维度。
+按指定顺序按指定尺寸平移局部几何变换。
 
 ```csharp
 public void TranslateTransform(float dx, float dy, MatrixOrder order)

@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Проверяет равны ли две структурыSizeaspose.imaging/size.
+description: Проверяет являются ли дваSizeaspose.imaging/size структуры равны.
 type: docs
 weight: 150
 url: /ru/net/aspose.imaging/size/op_equality/
 ---
 ## Size Equality operator
 
-Проверяет, равны ли две структуры[`Size`](../../size).
+Проверяет, являются ли два[`Size`](../../size) структуры равны.
 
 ```csharp
 public static bool operator ==(Size size1, Size size2)
@@ -16,12 +16,12 @@ public static bool operator ==(Size size1, Size size2)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| size1 | Size | Структура[`Size`](../../size)в левой части оператора равенства . |
-| size2 | Size | Структура[`Size`](../../size)справа от оператора равенства. |
+| size1 | Size | [`Size`](../../size) структура в левой части оператора равенства. |
+| size2 | Size | [`Size`](../../size) структура справа от оператора равенства. |
 
 ### Возвращаемое значение
 
-Истинно, если*size1*и*size2*имеют одинаковую ширину и высоту; в противном случае ложно.
+Верно, если*size1* а также*size2* иметь одинаковую ширину и высоту; в противном случае ложно.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Bounds
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 128 位 WMF RectL 对象在 MS-WMF 第 2.2.2.19 节中指定其中 指定边界矩形
+description: 获取或设置 128 位 WMF RectL 对象在 MS-WMF 2.2.2.19 节中指定 指定边界矩形
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfframergn/bounds/
 ---
 ## EmfFrameRgn.Bounds property
 
-获取或设置 128 位 WMF RectL 对象，在 [MS-WMF] 第 2.2.2.19 节中指定，其中 指定边界矩形。
+获取或设置 128 位 WMF RectL 对象，在 [MS-WMF] 2.2.2.19 节中指定， 指定边界矩形。
 
 ```csharp
 public Rectangle Bounds { get; set; }

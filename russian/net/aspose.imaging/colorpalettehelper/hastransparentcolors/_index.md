@@ -20,13 +20,13 @@ public static bool HasTransparentColors(IColorPalette palette)
 
 ### Возвращаемое значение
 
-` true` если указанная палитра имеет прозрачные цвета; в противном случае` false` .
+`истинный` если указанная палитра имеет прозрачные цвета; в противном случае,`ЛОЖЬ` .
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *palette*равно null. |
+| ArgumentNullException | *palette* нулевой. |
 
 ### Смотрите также
 

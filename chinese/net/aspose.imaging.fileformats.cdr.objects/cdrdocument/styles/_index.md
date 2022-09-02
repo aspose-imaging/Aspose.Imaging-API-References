@@ -16,7 +16,7 @@ public Dictionary<int, CdrStyle> Styles { get; }
 
 ### 适当的价值
 
-样式。
+样式.
 
 ### 也可以看看
 

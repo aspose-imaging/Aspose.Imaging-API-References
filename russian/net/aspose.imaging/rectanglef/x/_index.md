@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает координату x левого верхнего угла этойRectangleFaspose.imaging/rectanglefструктуры.
+description: Получает или задает x-координату левого верхнего угла этогоRectangleFaspose.imaging/rectanglef структура.
 type: docs
 weight: 170
 url: /ru/net/aspose.imaging/rectanglef/x/
 ---
 ## RectangleF.X property
 
-Получает или задает координату x левого верхнего угла этой[`RectangleF`](../../rectanglef)структуры.
+Получает или задает x-координату левого верхнего угла этого[`RectangleF`](../../rectanglef) структура.
 
 ```csharp
 public float X { get; set; }
@@ -16,7 +16,7 @@ public float X { get; set; }
 
 ### Возвращаемое значение
 
-Координата x верхнего левого угла этого[`RectangleF`](../../rectanglef)структура.
+Координата x верхнего левого угла этого[`RectangleF`](../../rectanglef) структура.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: OdCircle
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdCircleaspose.imaging.fileformats.opendocument.objects.graphic/odcircle.
+description: Инициализирует новый экземплярOdCircleaspose.imaging.fileformats.opendocument.objects.graphic/odcircle класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odcircle/odcircle/
 ---
 ## OdCircle constructor
 
-Инициализирует новый экземпляр класса[`OdCircle`](../../odcircle).
+Инициализирует новый экземпляр[`OdCircle`](../../odcircle) класс.
 
 ```csharp
 public OdCircle(OdObject parent)

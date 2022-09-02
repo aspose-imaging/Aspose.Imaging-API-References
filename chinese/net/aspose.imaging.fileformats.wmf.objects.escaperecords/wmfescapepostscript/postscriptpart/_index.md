@@ -1,14 +1,14 @@
 ---
 title: PostScriptPart
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置后置脚本部分
+description: 获取或设置后期脚本部分
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapepostscript/postscriptpart/
 ---
 ## WmfEscapePostScript.PostScriptPart property
 
-获取或设置后置脚本部分。
+获取或设置后期脚本部分。
 
 ```csharp
 public string PostScriptPart { get; set; }
@@ -16,7 +16,7 @@ public string PostScriptPart { get; set; }
 
 ### 适当的价值
 
-后脚本部分。
+后期脚本部分。
 
 ### 也可以看看
 

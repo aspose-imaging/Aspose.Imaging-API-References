@@ -1,14 +1,14 @@
 ---
 title: Angle2
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает угол2.
+description: Получает или задает угол 2.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrellipse/angle2/
 ---
 ## CdrEllipse.Angle2 property
 
-Получает или задает угол2.
+Получает или задает угол 2.
 
 ```csharp
 public double Angle2 { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает тип изображения 32-разрядное целое число без знака указывающее тип данных в поле ImageData. . Это значение ДОЛЖНО быть определено в перечислении ImageDataType раздел 2.1.1.15.
+description: Получает или задает тип изображения 32-разрядное целое число без знака указывающее тип данных в поле ImageData. Это значение ДОЛЖНО быть определено в перечислении ImageDataType раздел 2.1.1.15.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage/type/
 ---
 ## EmfPlusImage.Type property
 
-Получает или задает тип изображения 32-разрядное целое число без знака, указывающее тип данных в поле ImageData. . Это значение ДОЛЖНО быть определено в перечислении ImageDataType (раздел 2.1.1.15).
+Получает или задает тип изображения 32-разрядное целое число без знака, указывающее тип данных в поле ImageData. Это значение ДОЛЖНО быть определено в перечислении ImageDataType (раздел 2.1.1.15).
 
 ```csharp
 public EmfPlusImageDataType Type { get; set; }

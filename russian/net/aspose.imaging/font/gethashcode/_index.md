@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает хэш-код для этогоFontaspose.imaging/font.
+description: Получает хэш-код для этогоFontaspose.imaging/font .
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging/font/gethashcode/
 ---
 ## Font.GetHashCode method
 
-Получает хэш-код для этого[`Font`](../../font).
+Получает хэш-код для этого[`Font`](../../font) .
 
 ```csharp
 public override int GetHashCode()

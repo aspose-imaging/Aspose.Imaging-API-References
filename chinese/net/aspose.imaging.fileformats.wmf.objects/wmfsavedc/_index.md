@@ -1,14 +1,14 @@
 ---
 title: WmfSaveDc
 second_title: Aspose.Imaging for .NET API 参考
-description: META_SAVEDC 记录保存播放设备上下文以供以后 检索
+description: META_SAVEDC 记录保存播放设备上下文以供稍后 检索
 type: docs
 weight: 8970
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfsavedc/
 ---
 ## WmfSaveDc class
 
-META_SAVEDC 记录保存播放设备上下文以供以后 检索。
+META_SAVEDC 记录保存播放设备上下文以供稍后 检索。
 
 ```csharp
 public class WmfSaveDc : WmfObject

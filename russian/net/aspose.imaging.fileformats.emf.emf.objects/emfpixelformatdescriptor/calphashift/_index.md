@@ -1,14 +1,14 @@
 ---
 title: CAlphaShift
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает количество сдвигов для альфа-битовых плоскостей в каждом цветовом буфере RGBA
+description: Получает или устанавливает количество смещений для альфа-битовых плоскостей в каждом цветовом буфере RGBA
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/calphashift/
 ---
 ## EmfPixelFormatDescriptor.CAlphaShift property
 
-Получает или устанавливает количество сдвигов для альфа-битовых плоскостей в каждом цветовом буфере RGBA
+Получает или устанавливает количество смещений для альфа-битовых плоскостей в каждом цветовом буфере RGBA
 
 ```csharp
 public byte CAlphaShift { get; set; }

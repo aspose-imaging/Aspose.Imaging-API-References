@@ -1,14 +1,14 @@
 ---
 title: TextRenderingHint
 second_title: Aspose.Imaging for .NET API 参考
-description: 从 TextRenderingHint 枚举第 2.1.1.32 节获取或设置文本渲染提示值该枚举指定质量为 在后续的文本渲染中使用
+description: 获取或设置文本渲染提示值来自 TextRenderingHint枚举第2.1.1.32节它指定了to 在后续文本渲染中使用的质量
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettextrenderinghint/textrenderinghint/
 ---
 ## EmfPlusSetTextRenderingHint.TextRenderingHint property
 
-从 TextRenderingHint 枚举（第 2.1.1.32 节）获取或设置文本渲染提示值，该枚举指定质量为 在后续的文本渲染中使用。
+获取或设置文本渲染提示值，来自 TextRenderingHint枚举（第2.1.1.32节），它指定了to 在后续文本渲染中使用的质量。
 
 ```csharp
 public EmfPlusTextRenderingHint TextRenderingHint { get; set; }

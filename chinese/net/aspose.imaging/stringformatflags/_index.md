@@ -3,7 +3,7 @@ title: StringFormatFlags
 second_title: Aspose.Imaging for .NET API 参考
 description: 指定文本字符串的显示和布局信息
 type: docs
-weight: 11180
+weight: 11170
 url: /zh/net/aspose.imaging/stringformatflags/
 ---
 ## StringFormatFlags enumeration
@@ -21,12 +21,12 @@ public enum StringFormatFlags
 | --- | --- | --- |
 | DirectionRightToLeft | `1` | 文本从右到左显示。 |
 | DirectionVertical | `2` | 文本垂直对齐。 |
-| FitBlackBox | `4` | 允许部分字符伸出字符串的布局矩形。默认情况下，字符会重新定位以避免任何悬垂。 |
+| FitBlackBox | `4` | 允许部分字符悬垂在字符串的布局矩形上。默认情况下，字符会重新定位以避免任何悬垂。 |
 | DisplayFormatControl | `20` | 控制字符（例如从左到右的标记）在输出中显示为具有代表性的字形。 |
-| NoFontFallback | `400` | 对于请求字体中不支持的字符回退到备用字体已禁用。任何缺失的字符都与缺失字形的字体一起显示，通常是一个空心方块。 |
-| MeasureTrailingSpaces | `800` | 包括每行末尾的尾随空格。默认情况下，MeasureString 方法返回的边界矩形不包括每行末尾的空格。设置此标志以将该空间包括在测量中。 |
+| NoFontFallback | `400` | 请求字体中不支持的字符回退到备用字体已禁用。任何缺失的字符都会与缺失字形的字体一起显示，通常是一个空心方块。 |
+| MeasureTrailingSpaces | `800` | 包括每行末尾的尾随空格。默认情况下，MeasureString 方法返回的边界矩形不包括每行末尾的空格。设置此标志以在测量中包含该空间。 |
 | NoWrap | `1000` | 禁用矩形内格式化时行间换行。当传递一个点而不是一个矩形时，或者当指定的矩形的线长为零时，这个标志是隐含的。 |
-| LineLimit | `2000` | 格式化矩形中只有整行布局。默认情况下，布局会一直持续到文本的结尾，或者直到由于剪裁而不再可见行，以先到者为准。 请注意，默认设置允许最后一行被不是行高整数倍的格式化矩形部分遮挡。为确保只看到整行， 指定此值并注意提供至少与一行高度一样高的格式化矩形。 |
+| LineLimit | `2000` | 在格式化矩形中仅布置整行。默认情况下，布局一直持续到文本的末尾，或者直到由于剪切而不再可见行，以先到者为准。 请注意，默认设置允许最后一行被非格式矩形部分遮挡行高的整数倍。为确保只看到整行， 指定此值并注意提供至少与一行高度一样高的格式化矩形。 |
 | NoClip | `4000` | 字形的悬垂部分和到达格式化矩形之外的展开文本被允许显示。默认情况下，所有超出格式化矩形的文本和字形部分都会被剪裁。 |
 | ExactAlignment | `8000` | 精确对齐，正确填充 GDI+ |
 

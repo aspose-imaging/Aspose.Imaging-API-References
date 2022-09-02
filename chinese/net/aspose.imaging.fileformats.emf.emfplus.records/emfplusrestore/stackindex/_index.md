@@ -1,14 +1,14 @@
 ---
 title: StackIndex
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数它指定与 图形状态关联的级别级别值由先前的 EmfPlusSave 记录第 2.3.7.5 节分配给图形状态
+description: 获取或设置一个 32 位无符号整数它指定与 a 图形状态关联的级别级别值由先前的 EmfPlusSave 记录第 2.3.7.5 节分配给图形状态
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrestore/stackindex/
 ---
 ## EmfPlusRestore.StackIndex property
 
-获取或设置一个 32 位无符号整数，它指定与 图形状态关联的级别。级别值由先前的 EmfPlusSave 记录（第 2.3.7.5 节）分配给图形状态。
+获取或设置一个 32 位无符号整数，它指定与 a 图形状态关联的级别。级别值由先前的 EmfPlusSave 记录（第 2.3.7.5 节）分配给图形状态。
 
 ```csharp
 public int StackIndex { get; set; }
@@ -16,7 +16,7 @@ public int StackIndex { get; set; }
 
 ### 适当的价值
 
-堆栈的索引。
+栈的索引。
 
 ### 也可以看看
 

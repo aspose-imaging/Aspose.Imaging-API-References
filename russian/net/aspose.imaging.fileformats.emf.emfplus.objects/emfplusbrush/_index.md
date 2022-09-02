@@ -1,14 +1,14 @@
 ---
 title: EmfPlusBrush
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект EmfPlusBrush определяет графическую кисть для заполнения областей.
+description: Объект EmfPlusBrush определяет графическую кисть для заливки областей.
 type: docs
 weight: 5270
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrush/
 ---
 ## EmfPlusBrush class
 
-Объект EmfPlusBrush определяет графическую кисть для заполнения областей.
+Объект EmfPlusBrush определяет графическую кисть для заливки областей.
 
 ```csharp
 public sealed class EmfPlusBrush : EmfPlusGraphicsObjectType
@@ -24,7 +24,7 @@ public sealed class EmfPlusBrush : EmfPlusGraphicsObjectType
 
 | Имя | Описание |
 | --- | --- |
-| [BrushData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrush/brushdata) { get; set; } | Получает или задает данные кисти Данные переменной длины, определяющие объект кисти, указанный в поле Тип. Содержание и формат данных могут различаться для каждого типа кисти. EmfPlusHatchBrushData (раздел 2.2.2.20) (выполнено) Объект EmfPlusLinearGradientBrushData (раздел 2.2.2.24) (выполнено) Объект EmfPlusPathGradientBrushData (раздел 2.2.2.29) (сделано) Объект EmfPlusSolidBrushData (раздел 2.2.2.43) (сделано) Объект EmfPlusTextureBrushData (раздел 2.2.2.45) (сделано) |
+| [BrushData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrush/brushdata) { get; set; } | Получает или задает данные кисти. Данные переменной длины, определяющие объект кисти, указанный в поле «Тип». Содержимое и формат данных могут различаться для каждого типа кисти. Объект EmfPlusLinearGradientBrushData (раздел 2.2.2.24) (готово) Объект EmfPlusPathGradientBrushData (раздел 2.2.2.29) (готово) Объект EmfPlusSolidBrushData (раздел 2.2.2.43) (готово) Объект EmfPlusTextureBrushData (раздел 2.2.2.45)_0d) (0d) |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrush/type) { get; set; } | Получает или задает тип. |
 | [Version](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsobjecttype/version) { get; set; } | Получает или задает версию. |
 

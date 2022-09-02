@@ -1,14 +1,14 @@
 ---
 title: Point2
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置point2
+description: 获取或设置point2.
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odline/point2/
 ---
 ## OdLine.Point2 property
 
-获取或设置point2。
+获取或设置point2.
 
 ```csharp
 public PointF Point2 { get; set; }
@@ -16,7 +16,7 @@ public PointF Point2 { get; set; }
 
 ### 适当的价值
 
-点2。
+点2.
 
 ### 也可以看看
 

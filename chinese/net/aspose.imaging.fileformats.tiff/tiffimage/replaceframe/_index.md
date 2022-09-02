@@ -1,14 +1,14 @@
 ---
 title: ReplaceFrame
 second_title: Aspose.Imaging for .NET API 参考
-description: 替换指定位置的帧
+description: 替换指定位置的框架
 type: docs
 weight: 320
 url: /zh/net/aspose.imaging.fileformats.tiff/tiffimage/replaceframe/
 ---
 ## TiffImage.ReplaceFrame method
 
-替换指定位置的帧。
+替换指定位置的框架。
 
 ```csharp
 public TiffFrame ReplaceFrame(int index, TiffFrame frameToReplace)
@@ -16,16 +16,16 @@ public TiffFrame ReplaceFrame(int index, TiffFrame frameToReplace)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 从零开始的帧位置。 |
-| frameToReplace | TiffFrame | 要替换的帧。 |
+| index | Int32 | 基于零的帧位置。 |
+| frameToReplace | TiffFrame | 要更换的框架。 |
 
 ### 返回值
 
-移除的帧。
+移除的框架。
 
 ### 评论
 
-注意:如果您不将其添加到其他 TiffImage，请不要忘记 Dispose 框架。
+注意：如果您不将它添加到其他一些 TiffImage 中，请不要忘记 Dispose 帧。
 
 ### 也可以看看
 

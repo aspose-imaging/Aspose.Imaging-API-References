@@ -1,18 +1,18 @@
 ---
 title: Aspose.Imaging.FileFormats.OpenDocument
 second_title: Aspose.Imaging for .NET API 参考
-description: 打开文档图形对象
+description: 打开的文档图形对象
 type: docs
 weight: 480
 url: /zh/net/aspose.imaging.fileformats.opendocument/
 ---
-打开文档图形对象
+打开的文档图形对象
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
-| [OdgImage](./odgimage) | 开放文档图形 |
+| [OdgImage](./odgimage) | 打开文档图形 |
 | [OdImage](./odimage) | 打开的文档 |
 | [OdObject](./odobject) | 打开的文档对象。 |
 | [OtgImage](./otgimage) | Otg 图像 |

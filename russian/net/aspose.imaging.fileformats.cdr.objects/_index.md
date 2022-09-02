@@ -1,50 +1,50 @@
 ---
 title: Aspose.Imaging.FileFormats.Cdr.Objects
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пространство имен обрабатывает формат файлов Cdr.
+description: Пространство имен обрабатывает формат файла Cdr.
 type: docs
 weight: 200
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/
 ---
-Пространство имен обрабатывает формат файлов Cdr.
+Пространство имен обрабатывает формат файла Cdr.
 
 ## Классы
 
 | Учебный класс | Описание |
 | --- | --- |
-| [CdrArrow](./cdrarrow) | Стрелка cdr |
+| [CdrArrow](./cdrarrow) | CDR arrow |
 | [CdrArtisticText](./cdrartistictext) | CDR Художественный текст |
-| [CdrBbox](./cdrbbox) | Поле cdr |
+| [CdrBbox](./cdrbbox) | Блок CDR |
 | [CdrBmp](./cdrbmp) | cdr bmp |
-| [CdrCurve](./cdrcurve) | Кривая cdr |
+| [CdrCurve](./cdrcurve) | Кривая CDR |
 | [CdrDictionaryItem](./cdrdictionaryitem) | Элемент словаря cdr |
 | [CdrDisp](./cdrdisp) | CDR Disp |
 | [CdrDocument](./cdrdocument) | Корневой объект cdr |
-| [CdrEllipse](./cdrellipse) | Эллипс cdr |
-| [CdrFill](./cdrfill) | Заполнение cdr |
-| [CdrFillTransform](./cdrfilltransform) | преобразование заполнения cdr |
-| [CdrFlgs](./cdrflgs) | Флаги cdr |
-| [CdrFont](./cdrfont) | шрифт cdr |
+| [CdrEllipse](./cdrellipse) | CDR Ellipse |
+| [CdrFill](./cdrfill) | CDR fill |
+| [CdrFillTransform](./cdrfilltransform) | заполнение CDR transform |
+| [CdrFlgs](./cdrflgs) | Флаги CDR |
+| [CdrFont](./cdrfont) | cdr Font |
 | [CdrGraphicObject](./cdrgraphicobject) | Графический объект cdr |
-| [CdrIcc](./cdricc) | Icc-профиль cdr |
-| [CdrListObjects](./cdrlistobjects) | Объекты списка cdr |
+| [CdrIcc](./cdricc) | Профиль CDR ICC |
+| [CdrListObjects](./cdrlistobjects) | Объекты списка CDR |
 | [CdrMcfg](./cdrmcfg) | Объект конфигурации cdr |
-| [CdrObject](./cdrobject) | Объект cdr |
-| [CdrObjectContainer](./cdrobjectcontainer) | Контейнер объектов cdr |
-| [CdrOutline](./cdroutline) | Выходная строка cdr |
-| [CdrPage](./cdrpage) | Страница cdr |
-| [CdrParagraph](./cdrparagraph) | Пункт cdr |
+| [CdrObject](./cdrobject) | CDR object |
+| [CdrObjectContainer](./cdrobjectcontainer) | Объект cdr container |
+| [CdrOutline](./cdroutline) | Выходной cdr line |
+| [CdrPage](./cdrpage) | CDR-страница |
+| [CdrParagraph](./cdrparagraph) | CDR Параграф |
 | [CdrPathObject](./cdrpathobject) | Путь Cdr |
 | [CdrPattern](./cdrpattern) | Битовая карта cdr |
-| [CdrPolygon](./cdrpolygon) | Полигон cdr |
+| [CdrPolygon](./cdrpolygon) | Полигон CDR |
 | [CdrPolygonTransform](./cdrpolygontransform) | Преобразование многоугольника |
-| [CdrPpdt](./cdrppdt) | Объект вектора узла cdr |
+| [CdrPpdt](./cdrppdt) | Вектор узла cdr object |
 | [CdrRectangle](./cdrrectangle) | Прямоугольник cdr |
-| [CdrSpnd](./cdrspnd) | Диапазон cdr |
-| [CdrStyd](./cdrstyd) | Стиль cdr |
-| [CdrStyle](./cdrstyle) | Стиль cdr |
-| [CdrText](./cdrtext) | Текст cdr |
-| [CdrTransforms](./cdrtransforms) | CDR преобразует объект |
+| [CdrSpnd](./cdrspnd) | CDR span |
+| [CdrStyd](./cdrstyd) | Стиль CDR |
+| [CdrStyle](./cdrstyle) | Стиль CDR |
+| [CdrText](./cdrtext) | CDR text |
+| [CdrTransforms](./cdrtransforms) | CDR преобразует object |
 | [CdrUdta](./cdrudta) | CDR udta |
 | [CdrUserPalette](./cdruserpalette) | Пользовательская палитра cdr |
 | [CdrVectorPattern](./cdrvectorpattern) | Шаблон вектора cdr |

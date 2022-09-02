@@ -14,9 +14,9 @@ url: /ru/net/aspose.imaging.fileformats.opendocument.objects.brush/
 | --- | --- |
 | [OdBrush](./odbrush) | Кисть открытого документа |
 | [OdGradientBrush](./odgradientbrush) | Градиентная заливка |
-| [OdHatchedBrush](./odhatchedbrush) | Заштрихованная кисть |
+| [OdHatchedBrush](./odhatchedbrush) | Вылупившаяся кисть |
 | [OdPatternBrush](./odpatternbrush) | Кисть шаблона открытого документа |
-| [OdSolidBrush](./odsolidbrush) | Сплошная кисть открытого документа |
+| [OdSolidBrush](./odsolidbrush) | Сплошная кисть в открытом документе |
 ## перечисление
 
 | перечисление | Описание |

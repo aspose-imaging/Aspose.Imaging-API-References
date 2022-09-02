@@ -1,14 +1,14 @@
 ---
 title: EmfImage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfImageaspose.imaging.fileformats.emf/emfimage.
+description: Инициализирует новый экземплярEmfImageaspose.imaging.fileformats.emf/emfimage класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf/emfimage/emfimage/
 ---
 ## EmfImage() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfImage`](../../emfimage).
+Инициализирует новый экземпляр[`EmfImage`](../../emfimage) класс.
 
 ```csharp
 public EmfImage()
@@ -24,7 +24,7 @@ public EmfImage()
 
 ## EmfImage(int, int) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfImage`](../../emfimage).
+Инициализирует новый экземпляр[`EmfImage`](../../emfimage) класс.
 
 ```csharp
 public EmfImage(int width, int height)

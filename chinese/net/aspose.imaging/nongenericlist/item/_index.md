@@ -16,7 +16,7 @@ public object this[int index] { get; set; }
 
 | 范围 | 描述 |
 | --- | --- |
-| index | 索引。 |
+| index | 指数。 |
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: Dimensions
 second_title: Aspose.Imaging for .NET API 参考
 description: 包含绘制对象的尺寸
 type: docs
-weight: 11580
+weight: 11570
 url: /zh/net/aspose.imaging.xmp.types.complex.dimensions/dimensions/
 ---
 ## Dimensions class
@@ -18,8 +18,8 @@ public sealed class Dimensions : ComplexTypeBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Dimensions](dimensions#constructor)() | 初始化[`Dimensions`](../dimensions)类的新实例。 |
-| [Dimensions](dimensions#constructor_1)(float, float) | 初始化[`Dimensions`](../dimensions)类的新实例。 |
+| [Dimensions](dimensions#constructor)() | 初始化[`Dimensions`](../dimensions)类. |
+| [Dimensions](dimensions#constructor_1)(float, float) | 初始化[`Dimensions`](../dimensions)类. |
 
 ## 特性
 

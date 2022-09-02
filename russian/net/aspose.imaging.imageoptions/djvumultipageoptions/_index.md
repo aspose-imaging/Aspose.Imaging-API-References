@@ -18,15 +18,15 @@ public class DjvuMultiPageOptions : MultiPageOptions
 
 | Имя | Описание |
 | --- | --- |
-| [DjvuMultiPageOptions](djvumultipageoptions#constructor)() | Инициализирует новый экземпляр класса[`DjvuMultiPageOptions`](../djvumultipageoptions). |
-| [DjvuMultiPageOptions](djvumultipageoptions#constructor_5)(int) | Инициализирует новый экземпляр класса[`DjvuMultiPageOptions`](../djvumultipageoptions). |
-| [DjvuMultiPageOptions](djvumultipageoptions#constructor_1)(IntRange) | Инициализирует новый экземпляр класса[`DjvuMultiPageOptions`](../djvumultipageoptions). |
-| [DjvuMultiPageOptions](djvumultipageoptions#constructor_3)(IntRange[]) | Инициализирует новый экземпляр класса[`DjvuMultiPageOptions`](../djvumultipageoptions). |
-| [DjvuMultiPageOptions](djvumultipageoptions#constructor_7)(int[]) | Инициализирует новый экземпляр класса[`DjvuMultiPageOptions`](../djvumultipageoptions). |
-| [DjvuMultiPageOptions](djvumultipageoptions#constructor_6)(int, Rectangle) | Инициализирует новый экземпляр класса[`DjvuMultiPageOptions`](../djvumultipageoptions). |
-| [DjvuMultiPageOptions](djvumultipageoptions#constructor_2)(IntRange, Rectangle) | Инициализирует новый экземпляр класса[`DjvuMultiPageOptions`](../djvumultipageoptions). |
-| [DjvuMultiPageOptions](djvumultipageoptions#constructor_4)(IntRange[], Rectangle) | Инициализирует новый экземпляр класса[`DjvuMultiPageOptions`](../djvumultipageoptions). |
-| [DjvuMultiPageOptions](djvumultipageoptions#constructor_8)(int[], Rectangle) | Инициализирует новый экземпляр класса[`DjvuMultiPageOptions`](../djvumultipageoptions). |
+| [DjvuMultiPageOptions](djvumultipageoptions#constructor)() | Инициализирует новый экземпляр[`DjvuMultiPageOptions`](../djvumultipageoptions) класс. |
+| [DjvuMultiPageOptions](djvumultipageoptions#constructor_5)(int) | Инициализирует новый экземпляр[`DjvuMultiPageOptions`](../djvumultipageoptions) класс. |
+| [DjvuMultiPageOptions](djvumultipageoptions#constructor_1)(IntRange) | Инициализирует новый экземпляр[`DjvuMultiPageOptions`](../djvumultipageoptions) класс. |
+| [DjvuMultiPageOptions](djvumultipageoptions#constructor_3)(IntRange[]) | Инициализирует новый экземпляр[`DjvuMultiPageOptions`](../djvumultipageoptions) класс. |
+| [DjvuMultiPageOptions](djvumultipageoptions#constructor_7)(int[]) | Инициализирует новый экземпляр[`DjvuMultiPageOptions`](../djvumultipageoptions) класс. |
+| [DjvuMultiPageOptions](djvumultipageoptions#constructor_6)(int, Rectangle) | Инициализирует новый экземпляр[`DjvuMultiPageOptions`](../djvumultipageoptions) класс. |
+| [DjvuMultiPageOptions](djvumultipageoptions#constructor_2)(IntRange, Rectangle) | Инициализирует новый экземпляр[`DjvuMultiPageOptions`](../djvumultipageoptions) класс. |
+| [DjvuMultiPageOptions](djvumultipageoptions#constructor_4)(IntRange[], Rectangle) | Инициализирует новый экземпляр[`DjvuMultiPageOptions`](../djvumultipageoptions) класс. |
+| [DjvuMultiPageOptions](djvumultipageoptions#constructor_8)(int[], Rectangle) | Инициализирует новый экземпляр[`DjvuMultiPageOptions`](../djvumultipageoptions) класс. |
 
 ## Характеристики
 
@@ -34,8 +34,8 @@ public class DjvuMultiPageOptions : MultiPageOptions
 | --- | --- |
 | [ExportArea](../../aspose.imaging.imageoptions/multipageoptions/exportarea) { get; set; } | Получает или задает область экспорта. |
 | [MergeLayers](../../aspose.imaging.imageoptions/multipageoptions/mergelayers) { get; set; } | Получает или задает значение, указывающее, используются ли [слои слияния]. |
-| [Mode](../../aspose.imaging.imageoptions/multipageoptions/mode) { get; set; } | Получает или задает режим. |
-| [OutputLayersNames](../../aspose.imaging.imageoptions/multipageoptions/outputlayersnames) { get; set; } | Получает или устанавливает имена выходных слоев (работает, если формат экспорта поддерживает имена слоев, например, для Psd) |
+| [Mode](../../aspose.imaging.imageoptions/multipageoptions/mode) { get; set; } | Получает или устанавливает режим. |
+| [OutputLayersNames](../../aspose.imaging.imageoptions/multipageoptions/outputlayersnames) { get; set; } | Получает или задает имена выходных слоев (работает, если формат экспорта поддерживает имена слоев, например, для Psd) |
 | [PageRasterizationOptions](../../aspose.imaging.imageoptions/multipageoptions/pagerasterizationoptions) { get; set; } | Получает или задает параметры растеризации страницы. |
 | [Pages](../../aspose.imaging.imageoptions/multipageoptions/pages) { get; set; } | Получает или задает страницы. |
 | [PageTitles](../../aspose.imaging.imageoptions/multipageoptions/pagetitles) { get; set; } | Получает или задает заголовки страниц. |
@@ -45,7 +45,7 @@ public class DjvuMultiPageOptions : MultiPageOptions
 
 | Имя | Описание |
 | --- | --- |
-| [InitPages](../../aspose.imaging.imageoptions/multipageoptions/initpages)(IntRange[]) | Инициализирует страницы из массива диапазонов |
+| [InitPages](../../aspose.imaging.imageoptions/multipageoptions/initpages)(IntRange[]) | Инициализирует страницы из диапазонов array |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Matrix43
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此ColorMatrixaspose.imaging/colormatrix第四行第三列的元素
+description: 获取或设置 this 第四行第三列的元素ColorMatrixaspose.imaging/colormatrix .
 type: docs
 weight: 260
 url: /zh/net/aspose.imaging/colormatrix/matrix43/
 ---
 ## ColorMatrix.Matrix43 property
 
-获取或设置此[`ColorMatrix`](../../colormatrix)第四行第三列的元素。
+获取或设置 this 第四行第三列的元素[`ColorMatrix`](../../colormatrix) .
 
 ```csharp
 public float Matrix43 { get; set; }
@@ -16,7 +16,7 @@ public float Matrix43 { get; set; }
 
 ### 适当的价值
 
-这个[`ColorMatrix`](../../colormatrix)第四行第三列的元素。
+第四行第三列的元素[`ColorMatrix`](../../colormatrix).
 
 ### 也可以看看
 

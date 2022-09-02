@@ -1,14 +1,14 @@
 ---
 title: TransparentColor
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取框架块的透明色
+description: 获取框架块的透明颜色
 type: docs
 weight: 190
 url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifframeblock/transparentcolor/
 ---
 ## GifFrameBlock.TransparentColor property
 
-获取框架块的透明色。
+获取框架块的透明颜色。
 
 ```csharp
 public override Color TransparentColor { get; set; }

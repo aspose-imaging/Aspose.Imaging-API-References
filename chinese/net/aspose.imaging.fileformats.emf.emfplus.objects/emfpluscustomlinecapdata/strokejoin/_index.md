@@ -1,14 +1,14 @@
 ---
 title: StrokeJoin
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定 LineJoin 枚举 中的值的 32 位无符号整数该值指定如何加入由 同一支笔绘制的两条线它们的末端相交在两条线端的交点处 线连接使连接看起来更连续
+description: 获取或设置 32 位无符号整数该整数指定 LineJoin 枚举 第 2.1.1.19 节中的值该值指定如何连接由 同一支笔绘制且其末端相接的两条线在两条线端的交点处 一个线连接使连接看起来更连续
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokejoin/
 ---
 ## EmfPlusCustomLineCapData.StrokeJoin property
 
-获取或设置指定 LineJoin 枚举 中的值的 32 位无符号整数，该值指定如何加入由 同一支笔绘制的两条线，它们的末端相交。在两条线端的交点处， 线连接使连接看起来更连续。
+获取或设置 32 位无符号整数，该整数指定 LineJoin 枚举 （第 2.1.1.19 节）中的值，该值指定如何连接由 同一支笔绘制且其末端相接的两条线。在两条线端的交点处， 一个线连接使连接看起来更连续。
 
 ```csharp
 public EmfPlusLineJoinType StrokeJoin { get; set; }

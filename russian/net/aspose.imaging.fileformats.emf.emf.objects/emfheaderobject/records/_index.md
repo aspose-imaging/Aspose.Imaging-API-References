@@ -1,14 +1,14 @@
 ---
 title: Records
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-битное целое число без знака указывающее количество записей в метафайле
+description: Получает или задает 32-разрядное целое число без знака указывающее количество записей в метафайле
 type: docs
 weight: 110
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/records/
 ---
 ## EmfHeaderObject.Records property
 
-Получает или задает 32-битное целое число без знака, указывающее количество записей в метафайле
+Получает или задает 32-разрядное целое число без знака, указывающее количество записей в метафайле
 
 ```csharp
 public int Records { get; set; }

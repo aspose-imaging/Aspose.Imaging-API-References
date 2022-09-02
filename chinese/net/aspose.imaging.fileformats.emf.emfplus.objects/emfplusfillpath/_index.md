@@ -1,14 +1,14 @@
 ---
 title: EmfPlusFillPath
 second_title: Aspose.Imaging for .NET API 参考
-description: EmfPlusFillPath 对象指定用于填充自定义线帽的图形路径
+description: EmfPlusFillPath 对象指定用于填充自定义线 cap 的图形路径
 type: docs
 weight: 5430
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusfillpath/
 ---
 ## EmfPlusFillPath class
 
-EmfPlusFillPath 对象指定用于填充自定义线帽的图形路径
+EmfPlusFillPath 对象指定用于填充自定义线 cap 的图形路径
 
 ```csharp
 public sealed class EmfPlusFillPath : EmfPlusStructureObjectType

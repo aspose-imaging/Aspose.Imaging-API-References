@@ -1,14 +1,14 @@
 ---
 title: AEmrText
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив объектов EmrText раздел 2.2.5 определяющих выходные строки в 8-битных символах ASCII с текстом. атрибуты и значения интервалов. Количество объектов EmrText определяется параметром cStrings.
+description: Получает или задает массив объектов EmrText раздел 2.2.5 которые задают выходные строки в 8-битных символах ASCII с текстовыми атрибутами и значениями интервалов. Количество объектов EmrText определяется cStrings.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpolytextouta/aemrtext/
 ---
 ## EmfPolyTextOutA.AEmrText property
 
-Получает или задает массив объектов EmrText (раздел 2.2.5), определяющих выходные строки в 8-битных символах ASCII с текстом. атрибуты и значения интервалов. Количество объектов EmrText определяется параметром cStrings.
+Получает или задает массив объектов EmrText (раздел 2.2.5), которые задают выходные строки в 8-битных символах ASCII с текстовыми атрибутами и значениями интервалов. Количество объектов EmrText определяется cStrings.
 
 ```csharp
 public EmfText[] AEmrText { get; set; }

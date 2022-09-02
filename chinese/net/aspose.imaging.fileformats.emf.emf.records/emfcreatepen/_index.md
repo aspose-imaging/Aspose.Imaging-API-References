@@ -1,14 +1,14 @@
 ---
 title: EmfCreatePen
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_CREATEPEN 记录定义了图形操作的逻辑笔
+description: EMR_CREATEPEN 记录定义了一个用于图形操作的逻辑笔
 type: docs
 weight: 3520
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcreatepen/
 ---
 ## EmfCreatePen class
 
-EMR_CREATEPEN 记录定义了图形操作的逻辑笔。
+EMR_CREATEPEN 记录定义了一个用于图形操作的逻辑笔。
 
 ```csharp
 public sealed class EmfCreatePen : EmfObjectCreationRecordType
@@ -18,14 +18,14 @@ public sealed class EmfCreatePen : EmfObjectCreationRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfCreatePen](emfcreatepen#constructor)() | 初始化[`EmfCreatePen`](../emfcreatepen)类的新实例。 |
-| [EmfCreatePen](emfcreatepen#constructor_1)(EmfRecord) | 初始化[`EmfCreatePen`](../emfcreatepen)类的新实例。 |
+| [EmfCreatePen](emfcreatepen#constructor)() | 初始化[`EmfCreatePen`](../emfcreatepen)类. |
+| [EmfCreatePen](emfcreatepen#constructor_1)(EmfRecord) | 初始化[`EmfCreatePen`](../emfcreatepen)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IhPen](../../aspose.imaging.fileformats.emf.emf.records/emfcreatepen/ihpen) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定 EMF 对象表中逻辑笔对象的索引（第 3.1.1.1 节）。必须保存该索引，以便该对象可以被 重用或修改。 |
+| [IhPen](../../aspose.imaging.fileformats.emf.emf.records/emfcreatepen/ihpen) { get; set; } | 获取或设置一个 32 位无符号整数，它指定逻辑笔对象在 EMF 对象表（第 3.1.1.1 节）中的索引。必须保存此索引，以便可以 重用或修改此对象。 |
 | [LogPen](../../aspose.imaging.fileformats.emf.emf.records/emfcreatepen/logpen) { get; set; } | 获取或设置一个 LogPen 对象（第 2.2.19 节），该对象指定逻辑笔的样式、宽度和颜色 。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |

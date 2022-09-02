@@ -19,17 +19,17 @@ public class Os22XBitmapHeader : BitmapInfoHeader
 | Имя | Описание |
 | --- | --- |
 | [BitmapColorsImportant](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapcolorsimportant) { get; set; } | Получает или устанавливает количество важных цветов палитры. |
-| [BitmapColorsUsed](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapcolorsused) { get; set; } | Получает или задает число используемых цветов палитры. |
+| [BitmapColorsUsed](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapcolorsused) { get; set; } | Получает или задает количество используемых цветов палитры. |
 | [BitmapCompression](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapcompression) { get; set; } | Получает или задает сжатие растрового изображения. |
 | [BitmapHeight](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapheight) { get; set; } | Получает или задает высоту растрового изображения. |
-| [BitmapImageSize](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapimagesize) { get; set; } | Получает или устанавливает размер необработанных данных растрового изображения в байтах. |
-| [BitmapPlanes](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapplanes) { get; set; } | Получает или устанавливает количество плоскостей. |
+| [BitmapImageSize](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapimagesize) { get; set; } | Получает или задает размер необработанных данных растрового изображения в байтах. |
+| [BitmapPlanes](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapplanes) { get; set; } | Получает или задает количество плоскостей. |
 | [BitmapWidth](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapwidth) { get; set; } | Получает или задает ширину растрового изображения. |
-| [BitmapXPelsPerMeter](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapxpelspermeter) { get; set; } | Получает или устанавливает разрешение в пикселях по горизонтали. |
-| [BitmapYPelsPerMeter](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapypelspermeter) { get; set; } | Получает или устанавливает разрешение по вертикали в пикселях. |
+| [BitmapXPelsPerMeter](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapxpelspermeter) { get; set; } | Получает или задает разрешение в пикселях по горизонтали. |
+| [BitmapYPelsPerMeter](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapypelspermeter) { get; set; } | Получает или задает разрешение в пикселях по вертикали. |
 | [BitsPerPixel](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitsperpixel) { get; set; } | Получает или задает количество битов на пиксель. |
 | [ColorEncoding](../../aspose.imaging.fileformats.bmp/os22xbitmapheader/colorencoding) { get; } | Получает кодировку цвета. |
-| [ExtraBitMasks](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/extrabitmasks) { get; set; } | Получает или задает дополнительные битовые маски. Присутствует только в том случае, если заголовок DIB является BITMAPINFOHEADER, а[`BitmapCompression`](../bitmapinfoheader/bitmapcompression)имеет значениеBitfields(RGB) илиAlphaBitfields(RGBA). |
+| [ExtraBitMasks](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/extrabitmasks) { get; set; } | Получает или устанавливает дополнительные битовые маски. Присутствует только в том случае, если заголовок DIB является BITMAPINFOHEADER, а[`BitmapCompression`](../bitmapinfoheader/bitmapcompression) установлен либоBitfields (RGB) илиAlphaBitfields (RGBA). |
 | [HeaderSize](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/headersize) { get; set; } | Получает или устанавливает размер этой структуры в байтах. |
 | [Identifier](../../aspose.imaging.fileformats.bmp/os22xbitmapheader/identifier) { get; } | Получает идентификатор. |
 | [Recording](../../aspose.imaging.fileformats.bmp/os22xbitmapheader/recording) { get; } | Получает запись. |

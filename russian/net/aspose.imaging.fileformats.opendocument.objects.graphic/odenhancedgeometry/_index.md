@@ -18,13 +18,13 @@ public class OdEnhancedGeometry : OdGraphicObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdEnhancedGeometry](odenhancedgeometry)(OdObject) | Инициализирует новый экземпляр класса[`OdEnhancedGeometry`](../odenhancedgeometry). |
+| [OdEnhancedGeometry](odenhancedgeometry)(OdObject) | Инициализирует новый экземпляр[`OdEnhancedGeometry`](../odenhancedgeometry) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
 | [EnhancedPath](../../aspose.imaging.fileformats.opendocument.objects.graphic/odenhancedgeometry/enhancedpath) { get; set; } | Получает или задает расширенный путь. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Получает родительский объект. |

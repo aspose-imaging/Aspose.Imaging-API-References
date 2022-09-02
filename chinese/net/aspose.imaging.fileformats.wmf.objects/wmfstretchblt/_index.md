@@ -1,14 +1,14 @@
 ---
 title: WmfStretchBlt
 second_title: Aspose.Imaging for .NET API 参考
-description: META_STRETCHBLT 记录根据光栅操作指定像素块 的传输可能扩展或收缩
+description: META_STRETCHBLT 记录指定像素块的传输 根据光栅操作可能扩展或收缩
 type: docs
 weight: 9240
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfstretchblt/
 ---
 ## WmfStretchBlt class
 
-META_STRETCHBLT 记录根据光栅操作指定像素块 的传输，可能扩展或收缩。
+META_STRETCHBLT 记录指定像素块的传输 根据光栅操作，可能扩展或收缩。
 
 ```csharp
 public class WmfStretchBlt : WmfObject

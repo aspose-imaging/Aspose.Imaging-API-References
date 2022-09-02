@@ -1,14 +1,14 @@
 ---
 title: Argb32Color
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-битный объект WMF ColorRef указанный в разделе 2.2.2.8 MS-WMF который определяет цвет фона ценность.
+description: Получает или задает 32-битный объект WMF ColorRef указанный в разделе 2.2.2.8 MS-WMF который определяет значение цвета фона.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetbkcolor/argb32color/
 ---
 ## EmfSetBkColor.Argb32Color property
 
-Получает или задает 32-битный объект WMF ColorRef, указанный в разделе 2.2.2.8 [MS-WMF], который определяет цвет фона ценность.
+Получает или задает 32-битный объект WMF ColorRef, указанный в разделе 2.2.2.8 [MS-WMF], который определяет значение цвета фона.
 
 ```csharp
 public int Argb32Color { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: OutputLayersNames
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает имена выходных слоев работает если формат экспорта поддерживает имена слоев например для Psd
+description: Получает или задает имена выходных слоев работает если формат экспорта поддерживает имена слоев например для Psd
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.imageoptions/multipageoptions/outputlayersnames/
 ---
 ## MultiPageOptions.OutputLayersNames property
 
-Получает или устанавливает имена выходных слоев (работает, если формат экспорта поддерживает имена слоев, например, для Psd)
+Получает или задает имена выходных слоев (работает, если формат экспорта поддерживает имена слоев, например, для Psd)
 
 ```csharp
 public string[] OutputLayersNames { get; set; }

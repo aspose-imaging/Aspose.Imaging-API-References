@@ -1,14 +1,14 @@
 ---
 title: Union
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个Rectangleaspose.imaging/rectangle结构该结构包含两个Imaging的联合矩形结构
+description: 得到一个Rectangleaspose.imaging/rectangle包含两个并集的结构Rectangleaspose.imaging/rectangle结构.
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging/rectangle/union/
 ---
 ## Rectangle.Union method
 
-获取一个[`Rectangle`](../../rectangle)结构，该结构包含两个Imaging的联合。矩形结构。
+得到一个[`Rectangle`](../../rectangle)包含两个并集的结构[`Rectangle`](../../rectangle)结构.
 
 ```csharp
 public static Rectangle Union(Rectangle a, Rectangle b)
@@ -21,7 +21,7 @@ public static Rectangle Union(Rectangle a, Rectangle b)
 
 ### 返回值
 
-A[`Rectangle`](../../rectangle)结构，限定两个Rectangle结构。
+一个[`Rectangle`](../../rectangle)限制两者结合的结构[`Rectangle`](../../rectangle)结构。
 
 ### 也可以看看
 

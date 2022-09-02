@@ -1,14 +1,14 @@
 ---
 title: MatrixData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置定义 新当前世界变换的 EmfPlusTransformMatrix 对象第 2.2.2.47 节
+description: 获取或设置定义了 新的当前世界变换的 EmfPlusTransformMatrix 对象第 2.2.2.47 节
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetworldtransform/matrixdata/
 ---
 ## EmfPlusSetWorldTransform.MatrixData property
 
-获取或设置定义 新当前世界变换的 EmfPlusTransformMatrix 对象（第 2.2.2.47 节）。
+获取或设置定义了 新的当前世界变换的 EmfPlusTransformMatrix 对象（第 2.2.2.47 节）。
 
 ```csharp
 public Matrix MatrixData { get; set; }

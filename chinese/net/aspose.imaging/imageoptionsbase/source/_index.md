@@ -16,7 +16,7 @@ public Source Source { get; set; }
 
 ### 适当的价值
 
-源在中创建图像。
+在其中创建图像的源。
 
 ### 也可以看看
 

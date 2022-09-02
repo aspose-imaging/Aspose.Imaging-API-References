@@ -16,7 +16,7 @@ public float SweepAngle { get; set; }
 
 ### 适当的价值
 
-扫角。
+扫掠角。
 
 ### 也可以看看
 

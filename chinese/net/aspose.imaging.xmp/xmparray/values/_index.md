@@ -1,14 +1,14 @@
 ---
 title: Values
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取XmpArrayaspose.imaging.xmp/xmparray内的值数组
+description: 获取里面的值数组XmpArrayaspose.imaging.xmp/xmparray .
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.xmp/xmparray/values/
 ---
 ## XmpArray.Values property
 
-获取[`XmpArray`](../../xmparray)内的值数组。
+获取里面的值数组[`XmpArray`](../../xmparray) .
 
 ```csharp
 public string[] Values { get; }

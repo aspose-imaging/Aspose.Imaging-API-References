@@ -3,7 +3,7 @@ title: WmfCieXyz
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8490
+weight: 8500
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfciexyz/
 ---
 ## WmfCieXyz structure

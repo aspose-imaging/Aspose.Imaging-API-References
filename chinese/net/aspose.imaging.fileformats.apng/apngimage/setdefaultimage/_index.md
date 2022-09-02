@@ -16,7 +16,7 @@ public void SetDefaultImage(RasterImage image)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| image | RasterImage | 图像。 |
+| image | RasterImage | 图片。 |
 
 ### 例外
 

@@ -16,11 +16,11 @@ public static WmfRecorderGraphics2D FromWmfImage(WmfImage wmfImage)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| wmfImage | WmfImage | Образ Wmf, для которого нужно получить устройство записи. |
+| wmfImage | WmfImage | Образ Wmf, для которого нужно получить рекордер. |
 
 ### Возвращаемое значение
 
-Экземпляр класса[`WmfRecorderGraphics2D`](../../wmfrecordergraphics2d).
+Экземпляр[`WmfRecorderGraphics2D`](../../wmfrecordergraphics2d) учебный класс.
 
 ### Смотрите также
 

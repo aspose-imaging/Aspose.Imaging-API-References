@@ -1,14 +1,14 @@
 ---
 title: Values
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает массив значений внутриXmpArrayaspose.imaging.xmp/xmparray.
+description: Получает массив значений внутриXmpArrayaspose.imaging.xmp/xmparray .
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.xmp/xmparray/values/
 ---
 ## XmpArray.Values property
 
-Получает массив значений внутри[`XmpArray`](../../xmparray).
+Получает массив значений внутри[`XmpArray`](../../xmparray) .
 
 ```csharp
 public string[] Values { get; }

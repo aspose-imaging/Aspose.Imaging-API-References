@@ -18,27 +18,27 @@ public class GifGraphicsControlBlock : GifBlock
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GifGraphicsControlBlock](gifgraphicscontrolblock#constructor)() | 初始化[`GifGraphicsControlBlock`](../gifgraphicscontrolblock)类的新实例。 |
-| [GifGraphicsControlBlock](gifgraphicscontrolblock#constructor_1)(byte, ushort, byte) | 初始化[`GifGraphicsControlBlock`](../gifgraphicscontrolblock)类的新实例。 |
-| [GifGraphicsControlBlock](gifgraphicscontrolblock#constructor_2)(ushort, bool, byte, bool, DisposalMethod) | 初始化[`GifGraphicsControlBlock`](../gifgraphicscontrolblock)类的新实例。 |
+| [GifGraphicsControlBlock](gifgraphicscontrolblock#constructor)() | 初始化[`GifGraphicsControlBlock`](../gifgraphicscontrolblock)类. |
+| [GifGraphicsControlBlock](gifgraphicscontrolblock#constructor_1)(byte, ushort, byte) | 初始化[`GifGraphicsControlBlock`](../gifgraphicscontrolblock)类. |
+| [GifGraphicsControlBlock](gifgraphicscontrolblock#constructor_2)(ushort, bool, byte, bool, DisposalMethod) | 初始化[`GifGraphicsControlBlock`](../gifgraphicscontrolblock)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DelayTime](../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/delaytime) { get; set; } | 获取或设置以 1/100 秒表示的帧延迟时间。 |
-| [DisposalMethod](../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/disposalmethod) { get; set; } | 获取或设置处理方法。 |
+| [DelayTime](../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/delaytime) { get; set; } | 获取或设置以1/100秒表示的帧延迟时间 |
+| [DisposalMethod](../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/disposalmethod) { get; set; } | 获取或设置处置方法。 |
 | [Flags](../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/flags) { get; set; } | 获取或设置标志。 |
 | [HasTransparentColor](../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/hastransparentcolor) { get; set; } | 获取或设置图形控制块是否具有透明色的值。 |
 | [IsChanged](../../aspose.imaging.fileformats.gif/gifblock/ischanged) { get; set; } | 获取或设置一个值，指示块是否已更改并需要保存。 |
 | [TransparentColorIndex](../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/transparentcolorindex) { get; set; } | 获取或设置透明色索引。 |
-| [UserInputExpected](../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/userinputexpected) { get; set; } | 获取或设置一个值，该值指示是否需要用户输入。 |
+| [UserInputExpected](../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/userinputexpected) { get; set; } | 获取或设置一个值，指示是否需要用户输入。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Save](../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/save)(Stream) | 将块保存到指定的流。 |
+| override [Save](../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/save)(Stream) | 将块保存到指定的流中。 |
 | static [CreateFlags](../../aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/createflags)(bool, bool, DisposalMethod) | 创建标志。 |
 
 ## 字段

@@ -1,14 +1,14 @@
 ---
 title: LzwCompressorException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаLzwCompressorExceptionaspose.imaging.coreexceptions.compressors/lzwcompressorexception.
+description: Инициализирует новый экземплярLzwCompressorExceptionaspose.imaging.coreexceptions.compressors/lzwcompressorexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions.compressors/lzwcompressorexception/lzwcompressorexception/
 ---
 ## LzwCompressorException(string) {#constructor}
 
-Инициализирует новый экземпляр класса[`LzwCompressorException`](../../lzwcompressorexception).
+Инициализирует новый экземпляр[`LzwCompressorException`](../../lzwcompressorexception) класс.
 
 ```csharp
 public LzwCompressorException(string message)
@@ -28,7 +28,7 @@ public LzwCompressorException(string message)
 
 ## LzwCompressorException(string, Exception) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`LzwCompressorException`](../../lzwcompressorexception).
+Инициализирует новый экземпляр[`LzwCompressorException`](../../lzwcompressorexception) класс.
 
 ```csharp
 public LzwCompressorException(string message, Exception innerException)

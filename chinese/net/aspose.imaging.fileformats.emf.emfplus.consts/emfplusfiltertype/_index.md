@@ -21,10 +21,10 @@ public enum EmfPlusFilterType : byte
 | FilterTypeNone | `0` | 指定不执行过滤。 |
 | FilterTypePoint | `1` | 指定每个目标像素是通过从源图像中采样最近的像素来计算的。 |
 | FilterTypeLinear | `2` | 指定使用源像素周围 2x2 像素区域的加权平均值执行线性插值。 |
-| FilterTypeTriangle | `3` | 指定源图像中的每个像素对目标图像的贡献相同。这是最慢的过滤算法。 |
-| FilterTypeBox | `4` | 指定一个框过滤器算法，其中每个目标像素是通过平均一个矩形源像素来计算的。该算法仅在减小图像大小时才有用。 |
+| FilterTypeTriangle | `3` | 指定源图像中的每个像素对目标图像的贡献相等。这是最慢的过滤算法。 |
+| FilterTypeBox | `4` | 指定一个框过滤器算法，其中每个目标像素是通过平均一个矩形的源像素来计算的。此算法仅在减小图像大小时有用。 |
 | FilterTypePyramidalQuad | `6` | 指定使用 4-sample tent 过滤器。 |
-| FilterTypeGaussianQuad | `7` | 指定使用 4 样本高斯过滤器，这会在图像上创建模糊效果。 |
+| FilterTypeGaussianQuad | `7` | 指定使用 4-sample Gaussian 过滤器，它在图像上创建模糊效果。 |
 
 ### 也可以看看
 

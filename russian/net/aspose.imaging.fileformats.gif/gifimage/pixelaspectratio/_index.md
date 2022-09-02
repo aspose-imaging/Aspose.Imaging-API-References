@@ -1,14 +1,14 @@
 ---
 title: PixelAspectRatio
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает соотношение сторон в пикселях.
+description: Получает или задает соотношение сторон пикселя.
 type: docs
 weight: 180
 url: /ru/net/aspose.imaging.fileformats.gif/gifimage/pixelaspectratio/
 ---
 ## GifImage.PixelAspectRatio property
 
-Получает или задает соотношение сторон в пикселях.
+Получает или задает соотношение сторон пикселя.
 
 ```csharp
 public byte PixelAspectRatio { get; set; }
@@ -16,7 +16,7 @@ public byte PixelAspectRatio { get; set; }
 
 ### Стоимость имущества
 
-Соотношение сторон в пикселях.
+Соотношение сторон пикселя.
 
 ### Смотрите также
 

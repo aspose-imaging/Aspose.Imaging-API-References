@@ -1,14 +1,14 @@
 ---
 title: Entries
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает массив структурColoraspose.imaging/color.
+description: Получает массивColoraspose.imaging/color структуры.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging/icolorpalette/entries/
 ---
 ## IColorPalette.Entries property
 
-Получает массив структур[`Color`](../../color).
+Получает массив[`Color`](../../color) структуры.
 
 ```csharp
 public Color[] Entries { get; }
@@ -16,7 +16,7 @@ public Color[] Entries { get; }
 
 ### Возвращаемое значение
 
-Копия массива[`Color`](../../color)структуры, которая составляет это[`ColorPalette`](../../colorpalette).
+Копия массива[`Color`](../../color) структуры, составляющие это[`ColorPalette`](../../colorpalette) .
 
 ### Стоимость имущества
 

@@ -1,14 +1,14 @@
 ---
 title: Strikeout
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示此Fontaspose.imaging/font是否指定穿过字体的水平线
+description: 获取一个值该值指示这是否Fontaspose.imaging/font指定一条穿过字体的水平线
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging/font/strikeout/
 ---
 ## Font.Strikeout property
 
-获取一个值，该值指示此[`Font`](../../font)是否指定穿过字体的水平线。
+获取一个值，该值指示这是否[`Font`](../../font)指定一条穿过字体的水平线。
 
 ```csharp
 public bool Strikeout { get; }
@@ -16,7 +16,7 @@ public bool Strikeout { get; }
 
 ### 适当的价值
 
-如果这个[`Font`](../../font)有一条水平线穿过它，则为真；否则为假。
+如果这是真的[`Font`](../../font)有一条水平线穿过它；否则为假。
 
 ### 也可以看看
 

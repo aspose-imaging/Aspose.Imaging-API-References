@@ -1,14 +1,14 @@
 ---
 title: TiffStreamWriter
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化TiffStreamWriteraspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter类的新实例
+description: 初始化TiffStreamWriteraspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/tiffstreamwriter/
 ---
 ## TiffStreamWriter constructor
 
-初始化[`TiffStreamWriter`](../../tiffstreamwriter)类的新实例。
+初始化[`TiffStreamWriter`](../../tiffstreamwriter)类.
 
 ```csharp
 public TiffStreamWriter(StreamContainer writer)
@@ -16,7 +16,7 @@ public TiffStreamWriter(StreamContainer writer)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| writer | StreamContainer | 流写入器。 |
+| writer | StreamContainer | 流作家。 |
 
 ### 也可以看看
 

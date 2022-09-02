@@ -3,7 +3,7 @@ title: WmfRecorderGraphics2D
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8370
+weight: 8380
 url: /net/aspose.imaging.fileformats.wmf.graphics/wmfrecordergraphics2d/
 ---
 ## WmfRecorderGraphics2D class

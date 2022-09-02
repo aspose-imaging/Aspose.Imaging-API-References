@@ -1,14 +1,14 @@
 ---
 title: Clip
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает регион который ограничивает область рисования этой графики
+description: Получает или задает регион который ограничивает область рисования этого объекта Graphics
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/clip/
 ---
 ## MetafileRecorderGraphics2D.Clip property
 
-Получает или задает регион, который ограничивает область рисования этой графики
+Получает или задает регион, который ограничивает область рисования этого объекта Graphics
 
 ```csharp
 public Region Clip { get; set; }

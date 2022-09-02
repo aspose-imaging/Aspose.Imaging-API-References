@@ -1,14 +1,14 @@
 ---
 title: XmpInteger
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化XmpIntegeraspose.imaging.xmp.types.basic/xmpinteger类的新实例
+description: 初始化XmpIntegeraspose.imaging.xmp.types.basic/xmpinteger类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp.types.basic/xmpinteger/xmpinteger/
 ---
 ## XmpInteger(long) {#constructor_1}
 
-初始化[`XmpInteger`](../../xmpinteger)类的新实例。
+初始化[`XmpInteger`](../../xmpinteger)类.
 
 ```csharp
 public XmpInteger(long value)
@@ -16,7 +16,7 @@ public XmpInteger(long value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Int64 | 值。 |
+| value | Int64 | 价值。 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public XmpInteger(long value)
 
 ## XmpInteger(int) {#constructor}
 
-初始化[`XmpInteger`](../../xmpinteger)类的新实例。
+初始化[`XmpInteger`](../../xmpinteger)类.
 
 ```csharp
 public XmpInteger(int value)
@@ -36,7 +36,7 @@ public XmpInteger(int value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Int32 | 值。 |
+| value | Int32 | 价值。 |
 
 ### 也可以看看
 
@@ -48,7 +48,7 @@ public XmpInteger(int value)
 
 ## XmpInteger(string) {#constructor_2}
 
-初始化[`XmpInteger`](../../xmpinteger)类的新实例。
+初始化[`XmpInteger`](../../xmpinteger)类.
 
 ```csharp
 public XmpInteger(string value)
@@ -56,7 +56,7 @@ public XmpInteger(string value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 值。 |
+| value | String | 价值。 |
 
 ### 例外
 

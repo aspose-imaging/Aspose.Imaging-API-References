@@ -30,14 +30,14 @@ string fileName = "10MB_Tif.tif";
 
     string outputFileNameTif = "output.tif";
     
-     //Реализована возможность пакетной конвертации перед сохранением (экспортом) Tiff-изображений.
+    //Реализована возможность пакетной конвертации перед сохранением (экспортом) Tiff-изображений.
 
     using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)Aspose.Imaging.Image.Load(inputFileName))
     {
-         // Установить пакетную операцию для pages
+        // Установить пакетную операцию для страниц
         tiffImage.PageExportingAction = delegate(int index, Image page)
         {
-             // Запускаем сборку мусора, чтобы избежать ненужного хранения мусора с предыдущих страниц
+            // Запускаем сборку мусора, чтобы избежать ненужного хранения мусора с предыдущих страниц
             GC.Collect();
 
             ((Aspose.Imaging.RasterImage)page).Rotate(90);

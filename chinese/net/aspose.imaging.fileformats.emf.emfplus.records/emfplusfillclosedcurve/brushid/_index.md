@@ -1,14 +1,14 @@
 ---
 title: BrushId
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置画笔标识符 一个 32 位无符号整数指定 EmfPlusBrush其内容为 由标志字段中的 S 位确定此笔刷用于填充闭合基数样条线的内部 
+description: 获取或设置画笔标识符 32 位无符号整数指定EmfPlusBrush其内容为 由Flags 字段中的S 位决定此笔刷用于填充闭合基数样条线的内部 
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillclosedcurve/brushid/
 ---
 ## EmfPlusFillClosedCurve.BrushId property
 
-获取或设置画笔标识符 一个 32 位无符号整数，指定 EmfPlusBrush，其内容为 由标志字段中的 S 位确定。此笔刷用于填充闭合基数样条线的内部 。
+获取或设置画笔标识符 32 位无符号整数，指定EmfPlusBrush，其内容为 ，由Flags 字段中的S 位决定。此笔刷用于填充闭合基数样条线的内部 。
 
 ```csharp
 public int BrushId { get; set; }

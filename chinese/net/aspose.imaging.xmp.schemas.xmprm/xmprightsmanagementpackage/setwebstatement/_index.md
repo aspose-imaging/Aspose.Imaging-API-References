@@ -16,7 +16,7 @@ public void SetWebStatement(string webStatementUrl)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| webStatementUrl | String | Web 语句 URL。 |
+| webStatementUrl | String | 网络声明 URL。 |
 
 ### 也可以看看
 

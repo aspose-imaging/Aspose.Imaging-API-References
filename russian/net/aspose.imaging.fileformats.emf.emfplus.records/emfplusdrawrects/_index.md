@@ -18,18 +18,18 @@ public sealed class EmfPlusDrawRects : EmfPlusDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPlusDrawRects](emfplusdrawrects)(EmfPlusRecord) | Инициализирует новый экземпляр класса[`EmfPlusDrawRects`](../emfplusdrawrects). |
+| [EmfPlusDrawRects](emfplusdrawrects)(EmfPlusRecord) | Инициализирует новый экземпляр[`EmfPlusDrawRects`](../emfplusdrawrects) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Compressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawrects/compressed) { get; set; } | Получает или задает значение, указывающее, сжат ли PointData. Если установлено, RectData содержит объект EmfPlusRect (раздел 2.2.2.38). Если этот параметр не установлен, RectData содержит объект EmfPlusRectF (раздел 2.2.2.39). |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО определять 32-разрядное выровненное число байтов данных в поле RecordData, которое следует. Это число не включает 12-байтовый заголовок записи. |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | Получает или задает 16-разрядное целое число без знака, содержащее информацию для некоторых записей о том, как должна выполняться операция , и о структуре запись. |
+| [Compressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawrects/compressed) { get; set; } | Получает или задает значение, указывающее, сжат ли PointData. Если установлено, RectData содержит объект EmfPlusRect (раздел 2.2.2.38). Если не установлен, RectData содержит объект EmfPlusRectF (раздел 2.2.2.39). |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО определять 32-разрядное выровненное количество байтов данных в следующем поле RecordData. Это число не включает 12-байтовый заголовок записи. |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | Получает или задает 16-разрядное целое число без знака, содержащее информацию для некоторых записей о том, как должна выполняться операция, и о структуре записи. |
 | [ObjectId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawrects/objectid) { get; set; } | Получает или задает идентификатор объекта. Индекс объекта EmfPlusPen (раздел 2.2.1.7) в таблице объектов EMF+ для рисования прямоугольников. Значение ДОЛЖНО быть от нуля до 63 включительно. |
-| [RectData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawrects/rectdata) { get; set; } | Получает или задает данные прямоугольника Массив объектов EmfPlusRect или EmfPlusRectF длины Count, который определяет данные прямоугольника. |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее число байтов, выровненных по 32-разрядному выравниванию во всей записи, включая 12 -байтовый заголовок записи и данные, относящиеся к записи. |
+| [RectData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawrects/rectdata) { get; set; } | Получает или задает прямоугольные данные Массив объектов EmfPlusRect или EmfPlusRectF длины Count, который определяет данные прямоугольника. |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее 32-разрядное выровненное количество байтов во всей записи, включая 12-разрядный заголовок записи и данные, относящиеся к записи. |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | Получает 16-разрядное целое число без знака, определяющее тип записи. |
 
 ### Смотрите также

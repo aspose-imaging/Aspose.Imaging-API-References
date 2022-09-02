@@ -1,14 +1,14 @@
 ---
 title: EmfPlusResetWorldTransform
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusResetWorldTransformaspose.imaging.fileformats.emf.emfplus.records/emfplusresetworldtransform.
+description: Инициализирует новый экземплярEmfPlusResetWorldTransformaspose.imaging.fileformats.emf.emfplus.records/emfplusresetworldtransform класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusresetworldtransform/emfplusresetworldtransform/
 ---
 ## EmfPlusResetWorldTransform constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusResetWorldTransform`](../../emfplusresetworldtransform).
+Инициализирует новый экземпляр[`EmfPlusResetWorldTransform`](../../emfplusresetworldtransform) класс.
 
 ```csharp
 public EmfPlusResetWorldTransform(EmfPlusRecord source)

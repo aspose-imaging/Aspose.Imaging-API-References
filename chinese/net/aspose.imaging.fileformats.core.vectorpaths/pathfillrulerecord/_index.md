@@ -18,8 +18,8 @@ public class PathFillRuleRecord : VectorPathRecord
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PathFillRuleRecord](pathfillrulerecord#constructor)() | 初始化[`PathFillRuleRecord`](../pathfillrulerecord)类的新实例。 |
-| [PathFillRuleRecord](pathfillrulerecord#constructor_1)(byte[]) | 初始化[`PathFillRuleRecord`](../pathfillrulerecord)类的新实例。 |
+| [PathFillRuleRecord](pathfillrulerecord#constructor)() | 初始化[`PathFillRuleRecord`](../pathfillrulerecord)类. |
+| [PathFillRuleRecord](pathfillrulerecord#constructor_1)(byte[]) | 初始化[`PathFillRuleRecord`](../pathfillrulerecord)类. |
 
 ## 特性
 

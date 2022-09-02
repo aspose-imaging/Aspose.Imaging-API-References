@@ -1,14 +1,14 @@
 ---
 title: TiffFloatType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTiffFloatTypeaspose.imaging.fileformats.tiff.tifftagtypes/tifffloattype.
+description: Инициализирует новый экземплярTiffFloatTypeaspose.imaging.fileformats.tiff.tifftagtypes/tifffloattype класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.tiff.tifftagtypes/tifffloattype/tifffloattype/
 ---
 ## TiffFloatType(TiffTags) {#constructor}
 
-Инициализирует новый экземпляр класса[`TiffFloatType`](../../tifffloattype).
+Инициализирует новый экземпляр[`TiffFloatType`](../../tifffloattype) класс.
 
 ```csharp
 public TiffFloatType(TiffTags tagId)
@@ -29,7 +29,7 @@ public TiffFloatType(TiffTags tagId)
 
 ## TiffFloatType(ushort) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TiffFloatType`](../../tifffloattype).
+Инициализирует новый экземпляр[`TiffFloatType`](../../tifffloattype) класс.
 
 ```csharp
 public TiffFloatType(ushort tagId)

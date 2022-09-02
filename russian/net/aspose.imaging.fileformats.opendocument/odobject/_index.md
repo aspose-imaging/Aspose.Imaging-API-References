@@ -18,8 +18,8 @@ public class OdObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdObject](odobject#constructor)() | Инициализирует новый экземпляр класса[`OdObject`](../odobject). |
-| [OdObject](odobject#constructor_1)(OdObject) | Инициализирует новый экземпляр класса[`OdObject`](../odobject). |
+| [OdObject](odobject#constructor)() | Инициализирует новый экземпляр[`OdObject`](../odobject) класс. |
+| [OdObject](odobject#constructor_1)(OdObject) | Инициализирует новый экземпляр[`OdObject`](../odobject) класс. |
 
 ## Характеристики
 

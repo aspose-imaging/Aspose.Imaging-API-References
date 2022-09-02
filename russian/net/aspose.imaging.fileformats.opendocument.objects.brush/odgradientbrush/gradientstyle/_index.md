@@ -16,7 +16,7 @@ public OdGradientStyle GradientStyle { get; set; }
 
 ### Стоимость имущества
 
-Градиентный стиль.
+Стиль градиента.
 
 ### Смотрите также
 

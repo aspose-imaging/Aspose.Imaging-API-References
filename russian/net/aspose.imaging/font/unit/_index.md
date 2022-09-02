@@ -1,14 +1,14 @@
 ---
 title: Unit
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает единицу измерения для этогоFontaspose.imaging/font.
+description: Получает единицу измерения для этогоFontaspose.imaging/font .
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging/font/unit/
 ---
 ## Font.Unit property
 
-Получает единицу измерения для этого[`Font`](../../font).
+Получает единицу измерения для этого[`Font`](../../font) .
 
 ```csharp
 public GraphicsUnit Unit { get; }
@@ -16,7 +16,7 @@ public GraphicsUnit Unit { get; }
 
 ### Стоимость имущества
 
-A[`GraphicsUnit`](../../graphicsunit)который представляет единицу измерения для этого[`Font`](../../font).
+А[`GraphicsUnit`](../../graphicsunit) который представляет собой единицу измерения для этого[`Font`](../../font).
 
 ### Смотрите также
 

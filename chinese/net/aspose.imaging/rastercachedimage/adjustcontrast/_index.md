@@ -1,14 +1,14 @@
 ---
 title: AdjustContrast
 second_title: Aspose.Imaging for .NET API 参考
-description: 图像对比度
+description: 图像对比
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging/rastercachedimage/adjustcontrast/
 ---
 ## RasterCachedImage.AdjustContrast method
 
-图像对比度
+图像对比
 
 ```csharp
 public override void AdjustContrast(float contrast)
@@ -16,7 +16,7 @@ public override void AdjustContrast(float contrast)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| contrast | Single | 对比度值（范围 [-100 ; 100]) |
+| contrast | Single | 对比度值（范围 [-100; 100]） |
 
 ### 例子
 
@@ -31,8 +31,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterCachedImage rasterImage = (Aspose.Imaging.RasterCachedImage)image;
 
-    // 设置对比度值。可接受的对比度值在 [-100f, 100f].
- 范围内
+    // 设置对比度值。可接受的对比度值在 [-100f, 100f] 范围内。
     rasterImage.AdjustContrast(50);
     rasterImage.Save(dir + "sample.AdjustContrast.png");
 }

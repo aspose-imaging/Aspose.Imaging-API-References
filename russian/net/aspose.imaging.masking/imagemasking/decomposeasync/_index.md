@@ -16,11 +16,11 @@ public IAsyncTask DecomposeAsync(MaskingOptions options)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| options | MaskingOptions | Параметры маскирования. |
+| options | MaskingOptions | Варианты маскировки. |
 
 ### Возвращаемое значение
 
-Асинхронная задача декомпозиции
+Задача асинхронной декомпозиции
 
 ### Смотрите также
 

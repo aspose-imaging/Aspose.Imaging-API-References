@@ -1,14 +1,14 @@
 ---
 title: FillEllipse
 second_title: Aspose.Imaging for .NET API 参考
-description: 填充由RectangleFaspose.imaging/rectanglef结构指定的边界矩形定义的椭圆内部
+description: 填充由 a 指定的边界矩形定义的椭圆的内部RectangleFaspose.imaging/rectanglef结构.
 type: docs
 weight: 350
 url: /zh/net/aspose.imaging/graphics/fillellipse/
 ---
 ## FillEllipse(Brush, RectangleF) {#fillellipse_1}
 
-填充由[`RectangleF`](../../rectanglef)结构指定的边界矩形定义的椭圆内部。
+填充由 a 指定的边界矩形定义的椭圆的内部[`RectangleF`](../../rectanglef)结构.
 
 ```csharp
 public void FillEllipse(Brush brush, RectangleF rect)
@@ -16,14 +16,14 @@ public void FillEllipse(Brush brush, RectangleF rect)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)决定了填充的特性。 |
-| rect | RectangleF | [`RectangleF`](../../rectanglef)结构，表示定义椭圆的边界矩形。 |
+| brush | Brush | [`Brush`](../../brush)这决定了填充的特性。 |
+| rect | RectangleF | [`RectangleF`](../../rectanglef)表示定义椭圆的边界矩形的结构。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *brush*为空。 |
+| ArgumentNullException | *brush*一片空白。 |
 
 ### 也可以看看
 
@@ -45,7 +45,7 @@ public void FillEllipse(Brush brush, float x, float y, float width, float height
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)决定了填充的特性。 |
+| brush | Brush | [`Brush`](../../brush)这决定了填充的特性。 |
 | x | Single | 定义椭圆的边界矩形左上角的 x 坐标。 |
 | y | Single | 定义椭圆的边界矩形左上角的 y 坐标。 |
 | width | Single | 定义椭圆的边界矩形的宽度。 |
@@ -55,7 +55,7 @@ public void FillEllipse(Brush brush, float x, float y, float width, float height
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *brush*为空。 |
+| ArgumentNullException | *brush*一片空白。 |
 
 ### 也可以看看
 
@@ -68,7 +68,7 @@ public void FillEllipse(Brush brush, float x, float y, float width, float height
 
 ## FillEllipse(Brush, Rectangle) {#fillellipse}
 
-填充由[`Rectangle`](../../rectangle)结构指定的边界矩形定义的椭圆内部。
+填充由 a 指定的边界矩形定义的椭圆的内部[`Rectangle`](../../rectangle)结构.
 
 ```csharp
 public void FillEllipse(Brush brush, Rectangle rect)
@@ -76,14 +76,14 @@ public void FillEllipse(Brush brush, Rectangle rect)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)决定了填充的特性。 |
-| rect | Rectangle | [`Rectangle`](../../rectangle)结构，表示定义椭圆的边界矩形。 |
+| brush | Brush | [`Brush`](../../brush)这决定了填充的特性。 |
+| rect | Rectangle | [`Rectangle`](../../rectangle)表示定义椭圆的边界矩形的结构。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *brush*为空。 |
+| ArgumentNullException | *brush*一片空白。 |
 
 ### 也可以看看
 
@@ -105,7 +105,7 @@ public void FillEllipse(Brush brush, int x, int y, int width, int height)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)决定了填充的特性。 |
+| brush | Brush | [`Brush`](../../brush)这决定了填充的特性。 |
 | x | Int32 | 定义椭圆的边界矩形左上角的 x 坐标。 |
 | y | Int32 | 定义椭圆的边界矩形左上角的 y 坐标。 |
 | width | Int32 | 定义椭圆的边界矩形的宽度。 |
@@ -115,7 +115,7 @@ public void FillEllipse(Brush brush, int x, int y, int width, int height)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *brush*为空。 |
+| ArgumentNullException | *brush*一片空白。 |
 
 ### 也可以看看
 

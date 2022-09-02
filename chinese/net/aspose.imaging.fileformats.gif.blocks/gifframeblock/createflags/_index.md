@@ -18,8 +18,8 @@ public static byte CreateFlags(IColorPalette colorPalette, bool isPaletteSorted,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | colorPalette | IColorPalette | 调色板。 |
-| isPaletteSorted | Boolean | 如果设置为` true` 调色板中的颜色会被排序。 |
-| isGifFrameInterlaced | Boolean | 如果设置为` true` GIF 帧图像是隔行扫描的。 |
+| isPaletteSorted | Boolean | 如果设置为`真的`调色板中的颜色已排序。 |
+| isGifFrameInterlaced | Boolean | 如果设置为`真的` GIF 帧图像是隔行扫描的。 |
 
 ### 返回值
 

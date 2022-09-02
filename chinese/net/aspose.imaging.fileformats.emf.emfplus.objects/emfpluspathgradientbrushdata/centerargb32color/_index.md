@@ -1,14 +1,14 @@
 ---
 title: CenterArgb32Color
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 EmfPlusARGB 对象第 2.2.2.1 节该对象指定 路径渐变画笔的中心颜色即出现的颜色在画笔的中心点 画笔的颜色从边界 颜色随着从边界移动到中心点逐渐变为中心颜色
+description: 获取或设置 EmfPlusARGB 对象第 2.2.2.1 节该对象指定 路径渐变画笔的中心颜色即出现在画笔中心点的颜色 画笔的颜色从边界 颜色逐渐变为中心颜色因为它从边界移动到中心点
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/centerargb32color/
 ---
 ## EmfPlusPathGradientBrushData.CenterArgb32Color property
 
-获取或设置 EmfPlusARGB 对象（第 2.2.2.1 节），该对象指定 路径渐变画笔的中心颜色，即出现的颜色在画笔的中心点。 画笔的颜色从边界 颜色随着从边界移动到中心点逐渐变为中心颜色。
+获取或设置 EmfPlusARGB 对象（第 2.2.2.1 节），该对象指定 路径渐变画笔的中心颜色，即出现在画笔中心点的颜色。 画笔的颜色从边界 颜色逐渐变为中心颜色，因为它从边界移动到中心点。
 
 ```csharp
 public int CenterArgb32Color { get; set; }

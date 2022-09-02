@@ -1,14 +1,14 @@
 ---
 title: R
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取此Coloraspose.imaging/color结构的红色分量值
+description: 获取this的红色分量值Coloraspose.imaging/color结构.
 type: docs
 weight: 1530
 url: /zh/net/aspose.imaging/color/r/
 ---
 ## Color.R property
 
-获取此[`Color`](../../color)结构的红色分量值。
+获取this的红色分量值[`Color`](../../color)结构.
 
 ```csharp
 public byte R { get; }
@@ -16,7 +16,7 @@ public byte R { get; }
 
 ### 适当的价值
 
-这个[`Color`](../../color)的红色分量值。
+这个的红色分量值[`Color`](../../color).
 
 ### 也可以看看
 

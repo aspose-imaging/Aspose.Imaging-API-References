@@ -18,18 +18,18 @@ public sealed class EmfPlusScaleWorldTransform : EmfPlusTerminalServerRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPlusScaleWorldTransform](emfplusscaleworldtransform)(EmfPlusRecord) | Инициализирует новый экземпляр класса[`EmfPlusScaleWorldTransform`](../emfplusscaleworldtransform). |
+| [EmfPlusScaleWorldTransform](emfplusscaleworldtransform)(EmfPlusRecord) | Инициализирует новый экземпляр[`EmfPlusScaleWorldTransform`](../emfplusscaleworldtransform) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО определять 32-разрядное выровненное число байтов данных в поле RecordData, которое следует. Это число не включает 12-байтовый заголовок записи. |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | Получает или задает 16-разрядное целое число без знака, содержащее информацию для некоторых записей о том, как должна выполняться операция , и о структуре запись. |
-| [PostMultipliedMatrix](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusscaleworldtransform/postmultipliedmatrix) { get; } | Получает значение, указывающее, была ли [матрица умножения постов]. Если установлено, матрица преобразования должна быть постумножена. Если ясно, это должно быть предварительно умножено. |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее число байтов, выровненных по 32-разрядному выравниванию во всей записи, включая 12 -байтовый заголовок записи и данные, относящиеся к записи. |
-| [Sx](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusscaleworldtransform/sx) { get; set; } | Получает или задает 32-разрядное значение с плавающей запятой, определяющее масштабный коэффициент по горизонтали. Масштабирование выполняется путем построения новой матрицы преобразования из значений полей Sx и Sy, как показано в следующей таблице. ----------------- &#x7C; х &#x7C; 0 &#x7C; 0 &#x7C; &#x7C; 0 &#x7C; х &#x7C; 0 &#x7C; ----------------- Рисунок 3:Матрица преобразования масштаба |
-| [Sy](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusscaleworldtransform/sy) { get; set; } | Получает или задает 32-разрядное значение с плавающей запятой, определяющее коэффициент масштабирования по вертикали. |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО определять 32-разрядное выровненное количество байтов данных в следующем поле RecordData. Это число не включает 12-байтовый заголовок записи. |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | Получает или задает 16-разрядное целое число без знака, содержащее информацию для некоторых записей о том, как должна выполняться операция, и о структуре записи. |
+| [PostMultipliedMatrix](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusscaleworldtransform/postmultipliedmatrix) { get; } | Получает значение, указывающее, следует ли [матрица пост-умножения]. Если установлено, матрица преобразования должна подвергаться пост-умножению. Если ясно, оно должно быть предварительно умножено. |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее 32-разрядное выровненное количество байтов во всей записи, включая 12-разрядный заголовок записи и данные, относящиеся к записи. |
+| [Sx](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusscaleworldtransform/sx) { get; set; } | Получает или задает 32-разрядное значение с плавающей запятой, определяющее масштабный коэффициент по горизонтали. Масштабирование выполняется путем построения новой матрицы преобразования из значений полей Sx и Sy, как , как показано в следующей таблице. ------------------ &#x7C; х &#x7C; 0 &#x7C; 0 &#x7C; &#x7C; 0 &#x7C; х &#x7C; 0 &#x7C; ------------------ Рисунок 3: Матрица преобразования масштаба |
+| [Sy](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusscaleworldtransform/sy) { get; set; } | Получает или задает 32-разрядное значение с плавающей запятой, определяющее масштабный коэффициент по вертикали. |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | Получает 16-разрядное целое число без знака, определяющее тип записи. |
 
 ### Смотрите также

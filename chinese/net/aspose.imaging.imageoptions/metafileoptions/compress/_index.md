@@ -1,14 +1,14 @@
 ---
 title: Compress
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值该值指示此ICompressedOptions是否被压缩
+description: 获取或设置一个值该值指示是否ICompressedOptions被压缩
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.imageoptions/metafileoptions/compress/
 ---
 ## MetafileOptions.Compress property
 
-获取或设置一个值，该值指示此ICompressedOptions是否被压缩。
+获取或设置一个值，该值指示是否ICompressedOptions被压缩。
 
 ```csharp
 public bool Compress { get; set; }
@@ -16,7 +16,7 @@ public bool Compress { get; set; }
 
 ### 适当的价值
 
-` true` 如果压缩；否则，` false` 。
+`真的`如果压缩；否则，`错误的` .
 
 ### 例子
 
@@ -25,14 +25,14 @@ public bool Compress { get; set; }
 ```csharp
 [C#]
 
-string file = "castle.wmf";
+string file = "input.emf";
 string baseFolder = System.IO.Path.Combine("D:", "Compressed");
 string inputFile = System.IO.Path.Combine(baseFolder, file);
-string outFile = inputFile + ".wmz";
+string outFile = inputFile + ".emz";
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFile))
 {
-    Aspose.Imaging.ImageOptions.VectorRasterizationOptions vectorRasterizationOptions = new Aspose.Imaging.ImageOptions.WmfRasterizationOptions() { PageSize = image.Size};
-    image.Save(outFile, new Aspose.Imaging.ImageOptions.WmfOptions() {VectorRasterizationOptions = vectorRasterizationOptions, Compress = true});
+    Aspose.Imaging.ImageOptions.VectorRasterizationOptions vectorRasterizationOptions = new Aspose.Imaging.ImageOptions.EmfRasterizationOptions() { PageSize = image.Size};
+    image.Save(outFile, new Aspose.Imaging.ImageOptions.EmfOptions() {VectorRasterizationOptions = vectorRasterizationOptions, Compress = true});
 }
 ```
 

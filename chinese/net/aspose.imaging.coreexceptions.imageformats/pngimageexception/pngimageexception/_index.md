@@ -1,14 +1,14 @@
 ---
 title: PngImageException
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化PngImageExceptionaspose.imaging.coreexceptions.imageformats/pngimageexception类的新实例
+description: 初始化PngImageExceptionaspose.imaging.coreexceptions.imageformats/pngimageexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.coreexceptions.imageformats/pngimageexception/pngimageexception/
 ---
 ## PngImageException(string) {#constructor}
 
-初始化[`PngImageException`](../../pngimageexception)类的新实例。
+初始化[`PngImageException`](../../pngimageexception)类.
 
 ```csharp
 public PngImageException(string message)
@@ -28,7 +28,7 @@ public PngImageException(string message)
 
 ## PngImageException(string, Exception) {#constructor_1}
 
-初始化[`PngImageException`](../../pngimageexception)类的新实例。
+初始化[`PngImageException`](../../pngimageexception)类.
 
 ```csharp
 public PngImageException(string message, Exception innerException)

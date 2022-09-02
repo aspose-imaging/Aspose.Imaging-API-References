@@ -1,14 +1,14 @@
 ---
 title: StructureSize
 second_title: Aspose.Imaging for .NET API 参考
-description: 结构体大小
+description: 结构大小
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfbitmapinfoheader/structuresize/
 ---
 ## WmfBitmapInfoHeader.StructureSize field
 
-结构体大小
+结构大小
 
 ```csharp
 public const int StructureSize;

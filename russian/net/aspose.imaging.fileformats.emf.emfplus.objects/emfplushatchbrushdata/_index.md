@@ -25,12 +25,12 @@ public sealed class EmfPlusHatchBrushData : EmfPlusBaseBrushData
 | Имя | Описание |
 | --- | --- |
 | [BackArgb32Color](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplushatchbrushdata/backargb32color) { get; set; } | Получает или задает 32-разрядный объект EmfPlusArgb, указывающий цвет, используемый для окраски фона шаблона штриховки. |
-| [ForeArgb32Color](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplushatchbrushdata/foreargb32color) { get; set; } | Получает или задает 32-разрядный объект EmfPlusArgb, указывающий цвет, используемый для рисования линий образца штриховки. |
-| [HatchStyle](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplushatchbrushdata/hatchstyle) { get; set; } | Получает или задает 32-разрядное целое число без знака, определяющее стиль штриховки кисти. Он ДОЛЖЕН быть определен в перечислении[`EmfPlusHatchStyle`](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplushatchstyle). |
+| [ForeArgb32Color](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplushatchbrushdata/foreargb32color) { get; set; } | Получает или задает 32-разрядный объект EmfPlusArgb, указывающий цвет, используемый для рисования линий шаблона штриховки. |
+| [HatchStyle](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplushatchbrushdata/hatchstyle) { get; set; } | Получает или задает 32-разрядное целое число без знака, определяющее стиль штриховки кистью. ДОЛЖЕН быть определен в[`EmfPlusHatchStyle`](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplushatchstyle) перечисление. |
 
 ### Примечания
 
-Графические кисти определяются[`EmfPlusBrush`](../emfplusbrush)объекты (раздел 2.2.1.1). Кисть штриховки закрашивает фон и рисует узор из линий, точек, штрихов, квадратов и линий штриховки поверх этого фона. Кисть штриховки определяет два цвета:один для фона и один для узора на фоне. Цвет фона называется цветом фона, а цвет узора — цветом переднего плана.
+Графические кисти определяются[`EmfPlusBrush`](../emfplusbrush) объекты (раздел 2.2.1.1). Кисть штриховки закрашивает фон и рисует узор из линий, точек, штрихов, квадратов и линий штриховки поверх этого фона. Кисть штриховки определяет два цвета: один для фона и один для узора на фоне. Цвет фона называется цветом фона, а цвет узора — цветом переднего плана.
 
 ### Смотрите также
 

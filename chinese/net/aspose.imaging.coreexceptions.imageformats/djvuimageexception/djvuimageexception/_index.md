@@ -1,14 +1,14 @@
 ---
 title: DjvuImageException
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化DjvuImageExceptionaspose.imaging.coreexceptions.imageformats/djvuimageexception类的新实例
+description: 初始化DjvuImageExceptionaspose.imaging.coreexceptions.imageformats/djvuimageexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.coreexceptions.imageformats/djvuimageexception/djvuimageexception/
 ---
 ## DjvuImageException(string) {#constructor}
 
-初始化[`DjvuImageException`](../../djvuimageexception)类的新实例。
+初始化[`DjvuImageException`](../../djvuimageexception)类.
 
 ```csharp
 public DjvuImageException(string message)
@@ -28,7 +28,7 @@ public DjvuImageException(string message)
 
 ## DjvuImageException(string, Exception) {#constructor_1}
 
-初始化[`DjvuImageException`](../../djvuimageexception)类的新实例。
+初始化[`DjvuImageException`](../../djvuimageexception)类.
 
 ```csharp
 public DjvuImageException(string message, Exception innerException)
@@ -37,7 +37,7 @@ public DjvuImageException(string message, Exception innerException)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 异常消息。 |
-| innerException | Exception | 内部异常。 |
+| innerException | Exception | 内在异常。 |
 
 ### 也可以看看
 

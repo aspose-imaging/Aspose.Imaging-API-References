@@ -1,14 +1,14 @@
 ---
 title: EmfChord
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_CHORD определяет хорду которая представляет собой область ограниченную пересечением эллипса и отрезка называемого секущей. Аккорд обводится с помощью текущего пера и заполняется с помощью текущей кисти.
+description: Запись EMR_CHORD определяет хорду которая представляет собой область ограниченную пересечением эллипса и отрезка называемого секущей. Аккорд обводится текущим пером и заполняется текущей кистью.
 type: docs
 weight: 3290
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfchord/
 ---
 ## EmfChord class
 
-Запись EMR_CHORD определяет хорду, которая представляет собой область, ограниченную пересечением эллипса и отрезка, называемого секущей. Аккорд обводится с помощью текущего пера и заполняется с помощью текущей кисти.
+Запись EMR_CHORD определяет хорду, которая представляет собой область, ограниченную пересечением эллипса и отрезка, называемого секущей. Аккорд обводится текущим пером и заполняется текущей кистью.
 
 ```csharp
 public sealed class EmfChord : EmfDrawingRecordType
@@ -18,17 +18,17 @@ public sealed class EmfChord : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfChord](emfchord#constructor)() | Инициализирует новый экземпляр класса[`EmfChord`](../emfchord). |
-| [EmfChord](emfchord#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfChord`](../emfchord). |
+| [EmfChord](emfchord#constructor)() | Инициализирует новый экземпляр[`EmfChord`](../emfchord) класс. |
+| [EmfChord](emfchord#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfChord`](../emfchord) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Box](../../aspose.imaging.fileformats.emf.emf.records/emfchord/box) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе 2.2.2.19 [MS-WMF], который указывает включающее- включая ограничивающий прямоугольник. |
-| [End](../../aspose.imaging.fileformats.emf.emf.records/emfchord/end) { get; set; } | Получает или задает 64-разрядный объект WMF PointL, указывающий логические координаты конечной точки радиала, определяющего конец хорды. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
-| [Start](../../aspose.imaging.fileformats.emf.emf.records/emfchord/start) { get; set; } | Получает или задает 64-битный объект WMF PointL, указанный в разделе 2.2.2.15 [MS-WMF], который определяет логические координаты конечной точки радиала, определяющего начало хорды. |
+| [Box](../../aspose.imaging.fileformats.emf.emf.records/emfchord/box) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе 2.2.2.19 [MS-WMF], где указывает ограничивающий прямоугольник включительно-включающий. |
+| [End](../../aspose.imaging.fileformats.emf.emf.records/emfchord/end) { get; set; } | Получает или задает 64-битный объект WMF PointL, указывающий логические координаты конечной точки радиала, определяющего конец хорды. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
+| [Start](../../aspose.imaging.fileformats.emf.emf.records/emfchord/start) { get; set; } | Получает или задает 64-битный объект WMF PointL, указанный в разделе 2.2.2.15 [MS-WMF], где указывает логические координаты конечной точки радиала, определяющего начало хорды. |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

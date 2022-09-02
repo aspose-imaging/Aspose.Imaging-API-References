@@ -1,14 +1,14 @@
 ---
 title: TiffUndefinedType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTiffUndefinedTypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffundefinedtype.
+description: Инициализирует новый экземплярTiffUndefinedTypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffundefinedtype класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffundefinedtype/tiffundefinedtype/
 ---
 ## TiffUndefinedType(TiffTags) {#constructor}
 
-Инициализирует новый экземпляр класса[`TiffUndefinedType`](../../tiffundefinedtype).
+Инициализирует новый экземпляр[`TiffUndefinedType`](../../tiffundefinedtype) класс.
 
 ```csharp
 public TiffUndefinedType(TiffTags tagId)
@@ -29,7 +29,7 @@ public TiffUndefinedType(TiffTags tagId)
 
 ## TiffUndefinedType(ushort) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TiffUndefinedType`](../../tiffundefinedtype).
+Инициализирует новый экземпляр[`TiffUndefinedType`](../../tiffundefinedtype) класс.
 
 ```csharp
 public TiffUndefinedType(ushort tagId)

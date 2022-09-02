@@ -1,14 +1,14 @@
 ---
 title: EmfCommentRecordType.CommentIdentifierEnum
 second_title: Aspose.Imaging for .NET API 参考
-description: 有效的注释标识符值
+description: 有效的评论标识符值
 type: docs
 weight: 3430
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype.commentidentifierenum/
 ---
 ## EmfCommentRecordType.CommentIdentifierEnum enumeration
 
-有效的注释标识符值。
+有效的评论标识符值。
 
 ```csharp
 public enum CommentIdentifierEnum
@@ -18,9 +18,9 @@ public enum CommentIdentifierEnum
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| EMR_COMMENT_EMFSPOOL | `0` | 值 0x00000000 将其标识为 EMR_COMMENT_EMFSPOOL 记录。 |
+| EMR_COMMENT_EMFSPOOL | `0` | 值 0x00000000 将此标识为 an EMR_COMMENT_EMFSPOOL 记录。 |
 | EMR_COMMENT_EMFPLUS | `726027589` | 值 0x2B464D45，即 ASCII 字符串“+FME”， 将其标识为 EMR_COMMENT_EMFPLUS 记录。 |
-| EMR_COMMENT_PUBLIC | `1128875079` | 值 0x43494447 是 ASCII 字符串“CIDG”，将 标识为 EMR_COMMENT_PUBLIC 记录。 |
+| EMR_COMMENT_PUBLIC | `1128875079` | 值 0x43494447，即 ASCII 字符串“CIDG”，将 标识为 EMR_COMMENT_PUBLIC 记录。 |
 
 ### 也可以看看
 

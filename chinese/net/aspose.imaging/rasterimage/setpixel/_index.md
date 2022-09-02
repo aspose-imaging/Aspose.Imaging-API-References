@@ -31,10 +31,10 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\sample.p
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-        // 设置左上角像素的颜色。
+    // 设置左上角像素的颜色。
     rasterImage.SetArgb32Pixel(0, 0, Aspose.Imaging.Color.Aqua.ToArgb());
 
-        // 另一种方法是直接传递Aspose.Imaging.Color的一个实例
+    // 另一种方法是直接传递 Aspose.Imaging.Color 的一个实例
     rasterImage.SetPixel(0, 0, Aspose.Imaging.Color.Aqua);
 }
 ```

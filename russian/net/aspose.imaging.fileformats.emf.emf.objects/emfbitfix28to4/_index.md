@@ -18,15 +18,15 @@ public sealed class EmfBitFix28To4 : EmfObject
 
 | Имя | Описание |
 | --- | --- |
-| [EmfBitFix28To4](emfbitfix28to4)(int) | Инициализирует новый экземпляр класса[`EmfBitFix28To4`](../emfbitfix28to4). |
+| [EmfBitFix28To4](emfbitfix28to4)(int) | Инициализирует новый экземпляр[`EmfBitFix28To4`](../emfbitfix28to4) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [FracValue](../../aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/fracvalue) { get; set; } | Получает или задает значение дроби |
-| [IntVal](../../aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/intval) { get; set; } | Получает или задает значение целочисленного значения |
-| [Value](../../aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/value) { get; } | Получает результирующее значение с плавающей запятой; |
+| [FracValue](../../aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/fracvalue) { get; set; } | Получает или задает дробное значение |
+| [IntVal](../../aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/intval) { get; set; } | Получает или задает целочисленное значение value |
+| [Value](../../aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/value) { get; } | Получает результирующее значение с плавающей точкой; |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Password
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает пароль.
+description: Получает или устанавливает пароль.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.imageloadoptions/odloadoptions/password/
 ---
 ## OdLoadOptions.Password property
 
-Получает или задает пароль.
+Получает или устанавливает пароль.
 
 ```csharp
 public string Password { get; set; }

@@ -41,7 +41,7 @@ public static DjvuImage LoadDocument(Stream stream, LoadOptions loadOptions)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 流。 |
-| loadOptions | LoadOptions | 加载选项。 |
+| loadOptions | LoadOptions | 负载选项。 |
 
 ### 返回值
 

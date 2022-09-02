@@ -1,14 +1,14 @@
 ---
 title: Truncate
 second_title: Aspose.Imaging for .NET API 参考
-description: 将指定的RectangleFaspose.imaging/rectanglef转换为Rectangleaspose.imaging/rectangle通过截断RectangleFaspose.imaging/rectanglef值
+description: 转换指定的RectangleFaspose.imaging/rectanglef到一个Rectangleaspose.imaging/rectangle通过截断RectangleFaspose.imaging/rectanglef值.
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging/rectangle/truncate/
 ---
 ## Rectangle.Truncate method
 
-将指定的[`RectangleF`](../../rectanglef)转换为[`Rectangle`](../../rectangle)通过截断[`RectangleF`](../../rectanglef)值。
+转换指定的[`RectangleF`](../../rectanglef)到一个[`Rectangle`](../../rectangle)通过截断[`RectangleF`](../../rectanglef)值.
 
 ```csharp
 public static Rectangle Truncate(RectangleF value)
@@ -16,11 +16,11 @@ public static Rectangle Truncate(RectangleF value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | RectangleF | [`RectangleF`](../../rectanglef)被转换。 |
+| value | RectangleF | 这[`RectangleF`](../../rectanglef)被转换。 |
 
 ### 返回值
 
-一个新的[`Rectangle`](../../rectangle)。
+一个新的[`Rectangle`](../../rectangle).
 
 ### 也可以看看
 

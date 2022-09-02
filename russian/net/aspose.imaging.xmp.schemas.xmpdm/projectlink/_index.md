@@ -3,7 +3,7 @@ title: ProjectLink
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет путь к проекту.
 type: docs
-weight: 11380
+weight: 11370
 url: /ru/net/aspose.imaging.xmp.schemas.xmpdm/projectlink/
 ---
 ## ProjectLink class

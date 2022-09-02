@@ -16,7 +16,7 @@ public int StartScan { get; set; }
 
 ### 适当的价值
 
-源中的起始扫描行。
+源中的起始扫描线。
 
 ### 也可以看看
 

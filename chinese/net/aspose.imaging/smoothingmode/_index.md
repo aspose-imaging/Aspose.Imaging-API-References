@@ -3,7 +3,7 @@ title: SmoothingMode
 second_title: Aspose.Imaging for .NET API 参考
 description: 指定是否对直线和曲线以及填充区域的边缘应用平滑抗锯齿
 type: docs
-weight: 11070
+weight: 11060
 url: /zh/net/aspose.imaging/smoothingmode/
 ---
 ## SmoothingMode enumeration

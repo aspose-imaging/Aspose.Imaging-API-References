@@ -1,14 +1,14 @@
 ---
 title: Group3Options
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Параметры кодирования факса CCITT Group 3/4.ltbr /gt Возможные значения для GROUP3OPTIONS / TiffTag.T4OPTIONS и Теги TiffTag.GROUP4OPTIONS / TiffTag.T6OPTIONS.
+description: Параметры кодирования факса CCITT Group 3/4. Возможные значения для тегов GROUP3OPTIONS / TiffTag.T4OPTIONS и TiffTag.GROUP4OPTIONS / TiffTag.T6OPTIONS.
 type: docs
 weight: 7590
 url: /ru/net/aspose.imaging.fileformats.tiff.enums/group3options/
 ---
 ## Group3Options enumeration
 
-Параметры кодирования факса CCITT Group 3/4.&lt;br /&gt; Возможные значения для GROUP3OPTIONS / TiffTag.T4OPTIONS и Теги TiffTag.GROUP4OPTIONS / TiffTag.T6OPTIONS.
+Параметры кодирования факса CCITT Group 3/4. Возможные значения для тегов GROUP3OPTIONS / TiffTag.T4OPTIONS и TiffTag.GROUP4OPTIONS / TiffTag.T6OPTIONS.
 
 ```csharp
 [Flags]

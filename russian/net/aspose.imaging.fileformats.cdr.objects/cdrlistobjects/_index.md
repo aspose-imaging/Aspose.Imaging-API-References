@@ -1,14 +1,14 @@
 ---
 title: CdrListObjects
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объекты списка cdr
+description: Объекты списка CDR
 type: docs
 weight: 1620
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrlistobjects/
 ---
 ## CdrListObjects class
 
-Объекты списка cdr
+Объекты списка CDR
 
 ```csharp
 public class CdrListObjects : CdrObjectContainer
@@ -28,11 +28,11 @@ public class CdrListObjects : CdrObjectContainer
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | Получает или задает документ. |
 | [FillId](../../aspose.imaging.fileformats.cdr.objects/cdrlistobjects/fillid) { get; set; } | Получает или задает идентификатор заполнения. |
-| [Hidden](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/hidden) { get; set; } | Получает или задает значение, указывающее, является ли этот[`CdrObjectContainer`](../cdrobjectcontainer)видимым. |
-| [LastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/lastchild) { get; set; } | Получает или устанавливает последний дочерний элемент. |
-| [LoadToLastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/loadtolastchild) { get; set; } | Получает или задает значение, указывающее, выполняется ли [загрузка в последний дочерний элемент]. |
+| [Hidden](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/hidden) { get; set; } | Получает или задает значение, указывающее, является ли это[`CdrObjectContainer`](../cdrobjectcontainer) виден. |
+| [LastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/lastchild) { get; set; } | Получает или задает последний дочерний элемент. |
+| [LoadToLastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/loadtolastchild) { get; set; } | Получает или задает значение, указывающее, [загружать ли последний дочерний элемент]. |
 | [Opacity](../../aspose.imaging.fileformats.cdr.objects/cdrlistobjects/opacity) { get; set; } | Получает или задает прозрачность. |
-| [OpacityFillId](../../aspose.imaging.fileformats.cdr.objects/cdrlistobjects/opacityfillid) { get; set; } | Получает или задает идентификатор заполнения непрозрачности. |
+| [OpacityFillId](../../aspose.imaging.fileformats.cdr.objects/cdrlistobjects/opacityfillid) { get; set; } | Получает или задает идентификатор заливки непрозрачности. |
 | [OutLineId](../../aspose.imaging.fileformats.cdr.objects/cdrlistobjects/outlineid) { get; set; } | Получает или задает идентификатор исходящей линии. |
 | [PageHeight](../../aspose.imaging.fileformats.cdr.objects/cdrlistobjects/pageheight) { get; set; } | Получает или задает высоту страницы. |
 | [PageWidth](../../aspose.imaging.fileformats.cdr.objects/cdrlistobjects/pagewidth) { get; set; } | Получает или задает ширину страницы. |

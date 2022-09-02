@@ -1,14 +1,14 @@
 ---
 title: BitmapImageSize
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定位图原始数据大小以字节为单位
+description: 获取或设置以字节为单位的指定位图原始数据大小
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapimagesize/
 ---
 ## BitmapInfoHeader.BitmapImageSize property
 
-获取或设置指定位图原始数据大小（以字节为单位）。
+获取或设置以字节为单位的指定位图原始数据大小。
 
 ```csharp
 public uint BitmapImageSize { get; set; }

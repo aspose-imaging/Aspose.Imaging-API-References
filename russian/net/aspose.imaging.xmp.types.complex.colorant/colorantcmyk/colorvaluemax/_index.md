@@ -1,14 +1,14 @@
 ---
 title: ColorValueMax
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Максимальное значение цвета в колоранте CMYK.
+description: Максимальное значение цвета в CMYK.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.xmp.types.complex.colorant/colorantcmyk/colorvaluemax/
 ---
 ## ColorantCmyk.ColorValueMax field
 
-Максимальное значение цвета в колоранте CMYK.
+Максимальное значение цвета в CMYK.
 
 ```csharp
 public const float ColorValueMax;

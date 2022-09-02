@@ -1,14 +1,14 @@
 ---
 title: TgaOptions
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化TgaOptionsaspose.imaging.imageoptions/tgaoptions类的新实例
+description: 初始化TgaOptionsaspose.imaging.imageoptions/tgaoptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.imageoptions/tgaoptions/tgaoptions/
 ---
 ## TgaOptions() {#constructor}
 
-初始化[`TgaOptions`](../../tgaoptions)类的新实例。
+初始化[`TgaOptions`](../../tgaoptions)类.
 
 ```csharp
 public TgaOptions()
@@ -37,7 +37,7 @@ using (RasterImage image = (JpegImage)Image.Load("test.jpg"))
 
 ## TgaOptions(TgaOptions) {#constructor_1}
 
-初始化[`TgaOptions`](../../tgaoptions)类的新实例。
+初始化[`TgaOptions`](../../tgaoptions)类.
 
 ```csharp
 public TgaOptions(TgaOptions tgaOptions)

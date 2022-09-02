@@ -1,14 +1,14 @@
 ---
 title: TypeOfEntities
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Представляет типы объектов для визуализации
+description: Представляет типы сущностей для рендеринга
 type: docs
-weight: 10270
+weight: 10260
 url: /ru/net/aspose.imaging.imageoptions/typeofentities/
 ---
 ## TypeOfEntities enumeration
 
-Представляет типы объектов для визуализации
+Представляет типы сущностей для рендеринга
 
 ```csharp
 public enum TypeOfEntities
@@ -18,8 +18,8 @@ public enum TypeOfEntities
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Entities2D | `0` | Рендеринг 2D объектов |
-| Entities3D | `1` | Рендеринг 3D объектов |
+| Entities2D | `0` | Рендеринг 2D-объектов |
+| Entities3D | `1` | Рендеринг 3D-объектов |
 
 ### Смотрите также
 

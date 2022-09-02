@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此SizeFaspose.imaging/sizef的水平分量
+description: 获取或设置 this 的水平分量SizeFaspose.imaging/sizef .
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging/sizef/width/
 ---
 ## SizeF.Width property
 
-获取或设置此[`SizeF`](../../sizef)的水平分量。
+获取或设置 this 的水平分量[`SizeF`](../../sizef) .
 
 ```csharp
 public float Width { get; set; }
@@ -16,7 +16,7 @@ public float Width { get; set; }
 
 ### 返回值
 
-这个[`SizeF`](../../sizef)的水平分量，通常以像素为单位。
+这个的水平分量[`SizeF`](../../sizef)，通常以像素为单位。
 
 ### 也可以看看
 

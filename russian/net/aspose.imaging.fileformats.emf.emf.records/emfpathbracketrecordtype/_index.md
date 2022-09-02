@@ -1,14 +1,14 @@
 ---
 title: EmfPathBracketRecordType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Типы записей в скобках пути определяют и управляют путями в скобках пути. Примечание. Ни одна из записей скобок пути не указывает параметры.
+description: Типы записей в скобках пути определяют и управляют путями в скобках пути. Примечание. Ни в одной из записей скобок пути не указываются параметры.
 type: docs
 weight: 3920
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpathbracketrecordtype/
 ---
 ## EmfPathBracketRecordType class
 
-Типы записей в скобках пути определяют и управляют путями в скобках пути. Примечание. Ни одна из записей скобок пути не указывает параметры.
+Типы записей в скобках пути определяют и управляют путями в скобках пути. Примечание. Ни в одной из записей скобок пути не указываются параметры.
 
 ```csharp
 public abstract class EmfPathBracketRecordType : EmfRecord
@@ -18,7 +18,7 @@ public abstract class EmfPathBracketRecordType : EmfRecord
 
 | Имя | Описание |
 | --- | --- |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

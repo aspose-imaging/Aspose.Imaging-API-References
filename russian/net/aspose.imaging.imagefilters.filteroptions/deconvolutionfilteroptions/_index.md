@@ -1,14 +1,14 @@
 ---
 title: DeconvolutionFilterOptions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Параметры фильтра деконволюции абстрактный класс
+description: Параметры фильтра деконволюции абстрактный class
 type: docs
 weight: 9750
 url: /ru/net/aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/
 ---
 ## DeconvolutionFilterOptions class
 
-Параметры фильтра деконволюции, абстрактный класс
+Параметры фильтра деконволюции, абстрактный class
 
 ```csharp
 public abstract class DeconvolutionFilterOptions : FilterOptionsBase
@@ -18,10 +18,10 @@ public abstract class DeconvolutionFilterOptions : FilterOptionsBase
 
 | Имя | Описание |
 | --- | --- |
-| [Brightness](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/brightness) { get; set; } | Получает или устанавливает яркость. рекомендуемый диапазон 1 - 1,5 значение по умолчанию = 1,15 |
-| [Grayscale](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/grayscale) { get; set; } | Получает или задает значение, указывающее, является ли этот[`DeconvolutionFilterOptions`](../deconvolutionfilteroptions)в градациях серого. Вернуть режим оттенков серого или режим RGB. |
+| [Brightness](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/brightness) { get; set; } | Получает или устанавливает яркость. рекомендуемый диапазон 1–1,5 значение по умолчанию = 1,15 |
+| [Grayscale](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/grayscale) { get; set; } | Получает или задает значение, указывающее, является ли это[`DeconvolutionFilterOptions`](../deconvolutionfilteroptions)в градациях серого. Вернуть режим градаций серого или режим RGB. |
 | [IsPartialLoaded](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/ispartialloaded) { get; } | Получает значение, указывающее, загружен ли этот экземпляр частично. |
-| [Snr](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/snr) { get; set; } | Получает или устанавливает SNR (отношение сигнал/шум) рекомендуемый диапазон 0,002–0,009, значение по умолчанию = 0,007 |
+| [Snr](../../aspose.imaging.imagefilters.filteroptions/deconvolutionfilteroptions/snr) { get; set; } | Получает или задает SNR (отношение сигнал/шум) рекомендуемый диапазон 0,002–0,009, значение по умолчанию = 0,007 |
 
 ### Смотрите также
 

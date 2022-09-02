@@ -17,7 +17,7 @@ public void GetDefaultPixels(Rectangle rectangle, IPartialArgb32PixelLoader part
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | rectangle | Rectangle | Прямоугольник, для которого нужно получить пиксели. |
-| partialPixelLoader | IPartialArgb32PixelLoader | Частичный загрузчик пикселей. |
+| partialPixelLoader | IPartialArgb32PixelLoader | Частичная загрузка пикселей. |
 
 ### Смотрите также
 

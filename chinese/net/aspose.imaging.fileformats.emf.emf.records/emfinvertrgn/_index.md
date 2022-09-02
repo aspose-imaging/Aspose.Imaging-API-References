@@ -18,15 +18,15 @@ public sealed class EmfInvertRgn : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfInvertRgn](emfinvertrgn)(EmfRecord) | 初始化[`EmfInvertRgn`](../emfinvertrgn)类的新实例。 |
+| [EmfInvertRgn](emfinvertrgn)(EmfRecord) | 初始化[`EmfInvertRgn`](../emfinvertrgn)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfinvertrgn/bounds) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象，在 [MS-WMF] 第 2.2.2.19 节中指定， 指定边界矩形. |
-| [RgnData](../../aspose.imaging.fileformats.emf.emf.records/emfinvertrgn/rgndata) { get; set; } | 获取或设置一个 RgnDataSize 长度字节数组，该数组指定一个 RegionData 对象，以逻辑单位表示。 |
-| [RgnDataSize](../../aspose.imaging.fileformats.emf.emf.records/emfinvertrgn/rgndatasize) { get; set; } | 获取或设置指定区域数据大小的 32 位无符号整数，以字节为单位。 |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfinvertrgn/bounds) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象，在 [MS-WMF] 第 2.2.2.19 节中指定， 指定边界矩形。 |
+| [RgnData](../../aspose.imaging.fileformats.emf.emf.records/emfinvertrgn/rgndata) { get; set; } | 获取或设置一个 RgnDataSize 长度的字节数组，它指定一个 RegionData 对象，以逻辑单位为单位。 |
+| [RgnDataSize](../../aspose.imaging.fileformats.emf.emf.records/emfinvertrgn/rgndatasize) { get; set; } | 获取或设置一个 32 位无符号整数，指定区域数据的大小，以字节为单位。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

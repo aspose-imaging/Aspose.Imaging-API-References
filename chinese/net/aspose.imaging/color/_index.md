@@ -60,7 +60,7 @@ public struct Color
 | static [DeepSkyBlue](../../aspose.imaging/color/deepskyblue) { get; } | 获取系统定义的颜色。 |
 | static [DimGray](../../aspose.imaging/color/dimgray) { get; } | 获取系统定义的颜色。 |
 | static [DodgerBlue](../../aspose.imaging/color/dodgerblue) { get; } | 获取系统定义的颜色。 |
-| static [Empty](../../aspose.imaging/color/empty) { get; } | 获取一个空的[`Color`](../color)。 |
+| static [Empty](../../aspose.imaging/color/empty) { get; } | 得到一个空的[`Color`](../color) . |
 | static [Firebrick](../../aspose.imaging/color/firebrick) { get; } | 获取系统定义的颜色。 |
 | static [FloralWhite](../../aspose.imaging/color/floralwhite) { get; } | 获取系统定义的颜色。 |
 | static [ForestGreen](../../aspose.imaging/color/forestgreen) { get; } | 获取系统定义的颜色。 |
@@ -160,35 +160,35 @@ public struct Color
 | static [WhiteSmoke](../../aspose.imaging/color/whitesmoke) { get; } | 获取系统定义的颜色。 |
 | static [Yellow](../../aspose.imaging/color/yellow) { get; } | 获取系统定义的颜色。 |
 | static [YellowGreen](../../aspose.imaging/color/yellowgreen) { get; } | 获取系统定义的颜色。 |
-| [A](../../aspose.imaging/color/a) { get; } | 获取此[`Color`](../color)结构的 alpha 分量值。 |
-| [B](../../aspose.imaging/color/b) { get; } | 获取此[`Color`](../color)结构的蓝色分量值。 |
-| [G](../../aspose.imaging/color/g) { get; } | 获取此[`Color`](../color)结构的绿色分量值。 |
-| [IsEmpty](../../aspose.imaging/color/isempty) { get; } | 获取一个值，该值指示此[`Color`](../color)结构是否未初始化。 |
-| [IsKnownColor](../../aspose.imaging/color/isknowncolor) { get; } | 获取一个值，该值指示此[`Color`](../color)结构是否为预定义颜色。预定义的颜色由[`KnownColor`](../knowncolor)枚举的元素表示。 |
-| [IsNamedColor](../../aspose.imaging/color/isnamedcolor) { get; } | 获取一个值，该值指示此[`Color`](../color)结构是命名颜色还是:::R5 的成员:T:Aspose.Imaging.KnownColor:::枚举。 |
-| [Name](../../aspose.imaging/color/name) { get; } | 获取此[`Color`](../color)的名称。 |
-| [R](../../aspose.imaging/color/r) { get; } | 获取此[`Color`](../color)结构的红色分量值。 |
+| [A](../../aspose.imaging/color/a) { get; } | 获取 this 的 alpha 分量值[`Color`](../color)结构. |
+| [B](../../aspose.imaging/color/b) { get; } | 获取这个的蓝色分量值[`Color`](../color)结构. |
+| [G](../../aspose.imaging/color/g) { get; } | 获取此的绿色分量值[`Color`](../color)结构. |
+| [IsEmpty](../../aspose.imaging/color/isempty) { get; } | 获取一个值，该值指示这是否[`Color`](../color)结构未初始化。 |
+| [IsKnownColor](../../aspose.imaging/color/isknowncolor) { get; } | 获取一个值，该值指示这是否[`Color`](../color)结构是预定义的颜色。预定义的颜色由[`KnownColor`](../knowncolor)枚举. |
+| [IsNamedColor](../../aspose.imaging/color/isnamedcolor) { get; } | 获取一个值，该值指示这是否[`Color`](../color)结构是一个命名的颜色或成员[`KnownColor`](../knowncolor)枚举. |
+| [Name](../../aspose.imaging/color/name) { get; } | 获取此名称[`Color`](../color) . |
+| [R](../../aspose.imaging/color/r) { get; } | 获取this的红色分量值[`Color`](../color)结构. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [FromArgb](../../aspose.imaging/color/fromargb#fromargb)(int) | 从 32 位 ARGB 值创建[`Color`](../color)结构。 |
-| static [FromArgb](../../aspose.imaging/color/fromargb#fromargb_1)(int, Color) | 从指定的Color::创建R5:T:Aspose.Imaging.Color:::结构:结构，但具有新的指定 alpha 值。尽管此方法允许为 alpha 值传递 32 位值，但该值被限制为 8 位。 |
-| static [FromArgb](../../aspose.imaging/color/fromargb#fromargb_2)(int, int, int) | 从指定的 8 位颜色值（红色、绿色和蓝色）创建[`Color`](../color)结构。 alpha 值隐含为 255（完全不透明）。尽管此方法允许为每个颜色分量传递一个 32 位的值，但每个分量的值被限制为 8 位。 |
-| static [FromArgb](../../aspose.imaging/color/fromargb#fromargb_3)(int, int, int, int) | 从四个 ARGB 分量（alpha、红色、绿色和蓝色）值创建[`Color`](../color)结构。尽管此方法允许为每个组件传递一个 32 位的值，但每个组件的值被限制为 8 位。 |
-| static [FromKnownColor](../../aspose.imaging/color/fromknowncolor)(KnownColor) | 从指定的预定义颜色创建[`Color`](../color)结构。 |
-| static [FromName](../../aspose.imaging/color/fromname)(string) | 从预定义颜色的指定名称创建[`Color`](../color)结构。 |
-| override [Equals](../../aspose.imaging/color/equals)(object) | 测试指定的对象是否是[`Color`](../color)结构并且等价于这个[`Color`](../color)结构。 |
-| [GetBrightness](../../aspose.imaging/color/getbrightness)() | 获取此[`Color`](../color)结构的色调饱和度 (HSB) 亮度值。 |
-| override [GetHashCode](../../aspose.imaging/color/gethashcode)() | 返回此[`Color`](../color)结构的哈希码。 |
-| [GetHue](../../aspose.imaging/color/gethue)() | 获取此[`Color`](../color)结构的色调饱和度 (HSB) 色调值，以度为单位。 |
-| [GetSaturation](../../aspose.imaging/color/getsaturation)() | 获取此[`Color`](../color)结构的色调饱和度 (HSB) 饱和度值。 |
-| [ToArgb](../../aspose.imaging/color/toargb)() | 获取此[`Color`](../color)结构的 32 位 ARGB 值。 |
-| [ToKnownColor](../../aspose.imaging/color/toknowncolor)() | 获取[`KnownColor`](../knowncolor)的值[`Color`](../color)结构体。 |
-| override [ToString](../../aspose.imaging/color/tostring)() | 将此[`Color`](../color)结构转换为人类可读的字符串。 |
-| [operator ==](../../aspose.imaging/color/op_equality) | 测试两个指定的[`Color`](../color)结构是否等价。 |
-| [operator !=](../../aspose.imaging/color/op_inequality) | 测试两个指定的[`Color`](../color)结构是否不同。 |
+| static [FromArgb](../../aspose.imaging/color/fromargb#fromargb)(int) | 创建一个[`Color`](../color)来自 32 位 ARGB 值的结构。 |
+| static [FromArgb](../../aspose.imaging/color/fromargb#fromargb_1)(int, Color) | 创建一个[`Color`](../color)从指定的结构[`Color`](../color)结构，但具有新的指定 alpha 值。尽管此方法允许为 alpha 值传递 32 位值，但该值限制为 8 位。 |
+| static [FromArgb](../../aspose.imaging/color/fromargb#fromargb_2)(int, int, int) | 创建一个[`Color`](../color)来自指定的 8 位颜色值（红色、绿色和蓝色）的结构。 alpha 值隐含为 255（完全不透明）。虽然这种方法允许为每个颜色分量传递一个 32 位的值，但每个分量的值被限制为 8 位。 |
+| static [FromArgb](../../aspose.imaging/color/fromargb#fromargb_3)(int, int, int, int) | 创建一个[`Color`](../color)四个 ARGB 分量（alpha、红色、绿色和蓝色）值的结构。虽然这种方法允许为每个组件传递一个 32 位的值，但每个组件的值限制为 8 位。 |
+| static [FromKnownColor](../../aspose.imaging/color/fromknowncolor)(KnownColor) | 创建一个[`Color`](../color)来自指定预定义颜色的结构。 |
+| static [FromName](../../aspose.imaging/color/fromname)(string) | 创建一个[`Color`](../color)结构来自预定义颜色的指定名称。 |
+| override [Equals](../../aspose.imaging/color/equals)(object) | 测试指定对象是否为[`Color`](../color)结构，相当于这个[`Color`](../color)结构. |
+| [GetBrightness](../../aspose.imaging/color/getbrightness)() | 获取此颜色的色相饱和度 (HSB) 亮度值[`Color`](../color)结构. |
+| override [GetHashCode](../../aspose.imaging/color/gethashcode)() | 为此返回哈希码[`Color`](../color)结构. |
+| [GetHue](../../aspose.imaging/color/gethue)() | 获取色调-饱和度-亮度 (HSB) 色调值，以度为单位，为此[`Color`](../color)结构. |
+| [GetSaturation](../../aspose.imaging/color/getsaturation)() | 获取此颜色的色相饱和度 (HSB) 饱和度值[`Color`](../color)结构. |
+| [ToArgb](../../aspose.imaging/color/toargb)() | 获取这个的 32 位 ARGB 值[`Color`](../color)结构. |
+| [ToKnownColor](../../aspose.imaging/color/toknowncolor)() | 获取[`KnownColor`](../knowncolor)这个的价值[`Color`](../color)结构. |
+| override [ToString](../../aspose.imaging/color/tostring)() | 转换这个[`Color`](../color)结构为人类可读的字符串。 |
+| [operator ==](../../aspose.imaging/color/op_equality) | 测试两个是否指定[`Color`](../color)结构是等价的。 |
+| [operator !=](../../aspose.imaging/color/op_inequality) | 测试两个是否指定[`Color`](../color)结构不同。 |
 
 ### 也可以看看
 

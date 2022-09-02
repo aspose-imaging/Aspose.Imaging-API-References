@@ -1,14 +1,14 @@
 ---
 title: SetKeywords
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Устанавливает ключевые слова.
+description: Задает ключевые слова.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.xmp.schemas.pdf/pdfpackage/setkeywords/
 ---
 ## PdfPackage.SetKeywords method
 
-Устанавливает ключевые слова.
+Задает ключевые слова.
 
 ```csharp
 public void SetKeywords(string keywords)

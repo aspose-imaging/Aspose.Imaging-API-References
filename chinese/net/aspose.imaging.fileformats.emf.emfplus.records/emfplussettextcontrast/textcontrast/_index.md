@@ -1,14 +1,14 @@
 ---
 title: TextContrast
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 gamma 校正值 X 1000将应用于 后续文本渲染操作允许的范围是 1000 到 2200 表示 1.0 到 2.2 的文本 Gamma 值
+description: 获取或设置伽玛校正值X 1000将应用于 后续文本渲染操作允许的范围是 1000 到 2200 代表 1.0 到 2.2 的文本 Gamma 值
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettextcontrast/textcontrast/
 ---
 ## EmfPlusSetTextContrast.TextContrast property
 
-获取或设置 gamma 校正值 X 1000，将应用于 后续文本渲染操作。允许的范围是 1000 到 2200， 表示 1.0 到 2.2 的文本 Gamma 值。
+获取或设置伽玛校正值X 1000，将应用于 后续文本渲染操作。允许的范围是 1000 到 2200， 代表 1.0 到 2.2 的文本 Gamma 值。
 
 ```csharp
 public short TextContrast { get; set; }
@@ -16,13 +16,13 @@ public short TextContrast { get; set; }
 
 ### 适当的价值
 
-文本对比度值。
+文字对比度值。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | 值 |
+| ArgumentOutOfRangeException | 价值 |
 
 ### 也可以看看
 

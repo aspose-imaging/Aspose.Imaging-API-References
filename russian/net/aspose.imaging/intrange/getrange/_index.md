@@ -1,14 +1,14 @@
 ---
 title: GetRange
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает диапазон числа элементов int начиная с start
+description: Получает диапазон количества элементов int начиная с start
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging/intrange/getrange/
 ---
 ## IntRange.GetRange method
 
-Получает диапазон числа элементов int, начиная с start
+Получает диапазон количества элементов int, начиная с start
 
 ```csharp
 public static IEnumerable<int> GetRange(int start, int count, int delta)
@@ -17,7 +17,7 @@ public static IEnumerable<int> GetRange(int start, int count, int delta)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | start | Int32 | Начало. |
-| count | Int32 | Количество. |
+| count | Int32 | Счет. |
 | delta | Int32 | Дельта. |
 
 ### Возвращаемое значение
@@ -28,7 +28,7 @@ public static IEnumerable<int> GetRange(int start, int count, int delta)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Количество не может быть меньше 1 или {D255958A-8513-4226-94B9-080D98F904A1} Стартовая страница не может быть меньше 0 |
+| ArgumentException | Количество не может быть меньше 1 или {D255958A-8513-4226-94B9-080D98F904A1} Стартовая страница не может быть больше 0 |
 
 ### Смотрите также
 

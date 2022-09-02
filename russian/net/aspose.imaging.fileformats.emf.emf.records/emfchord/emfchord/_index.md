@@ -1,14 +1,14 @@
 ---
 title: EmfChord
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfChordaspose.imaging.fileformats.emf.emf.records/emfchord.
+description: Инициализирует новый экземплярEmfChordaspose.imaging.fileformats.emf.emf.records/emfchord класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfchord/emfchord/
 ---
 ## EmfChord(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfChord`](../../emfchord).
+Инициализирует новый экземпляр[`EmfChord`](../../emfchord) класс.
 
 ```csharp
 public EmfChord(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfChord(EmfRecord source)
 
 ## EmfChord() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfChord`](../../emfchord).
+Инициализирует новый экземпляр[`EmfChord`](../../emfchord) класс.
 
 ```csharp
 public EmfChord()

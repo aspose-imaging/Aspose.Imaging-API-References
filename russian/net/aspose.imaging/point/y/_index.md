@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает координату y этогоPointaspose.imaging/point.
+description: Получает или задает координату y этогоPointaspose.imaging/point .
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging/point/y/
 ---
 ## Point.Y property
 
-Получает или задает координату y этого[`Point`](../../point).
+Получает или задает координату y этого[`Point`](../../point) .
 
 ```csharp
 public int Y { get; set; }

@@ -16,7 +16,7 @@ public static PixelDataFormat Cmyka { get; }
 
 ### 适当的价值
 
-[`PixelDataFormat`](../../pixeldataformat)定义为 40 位每个像素，alpha、青色、品红色、黄色和黑色各有 8 位。
+的[`PixelDataFormat`](../../pixeldataformat)定义为每像素 40 位，alpha、青色、洋红色、黄色和黑色各 8 位。
 
 ### 也可以看看
 

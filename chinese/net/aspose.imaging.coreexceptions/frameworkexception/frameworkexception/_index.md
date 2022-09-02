@@ -1,14 +1,14 @@
 ---
 title: FrameworkException
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化FrameworkExceptionaspose.imaging.coreexceptions/frameworkexception类的新实例
+description: 初始化FrameworkExceptionaspose.imaging.coreexceptions/frameworkexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.coreexceptions/frameworkexception/frameworkexception/
 ---
 ## FrameworkException(string) {#constructor}
 
-初始化[`FrameworkException`](../../frameworkexception)类的新实例。
+初始化[`FrameworkException`](../../frameworkexception)类.
 
 ```csharp
 public FrameworkException(string message)
@@ -28,7 +28,7 @@ public FrameworkException(string message)
 
 ## FrameworkException(string, Exception) {#constructor_1}
 
-初始化[`FrameworkException`](../../frameworkexception)类的新实例。
+初始化[`FrameworkException`](../../frameworkexception)类.
 
 ```csharp
 public FrameworkException(string message, Exception innerException)
@@ -37,7 +37,7 @@ public FrameworkException(string message, Exception innerException)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 消息。 |
-| innerException | Exception | 内部异常。 |
+| innerException | Exception | 内在异常。 |
 
 ### 也可以看看
 

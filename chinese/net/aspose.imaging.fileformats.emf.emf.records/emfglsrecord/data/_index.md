@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个可选的 cbData 字节数组用于指定 OpenGL 函数的数据
+description: 获取或设置一个可选的 cbData 长度字节数组用于指定 OpenGL 函数的数据
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfglsrecord/data/
 ---
 ## EmfGlsRecord.Data property
 
-获取或设置一个可选的 cbData 字节数组，用于指定 OpenGL 函数的数据。
+获取或设置一个可选的 cbData 长度字节数组，用于指定 OpenGL 函数的数据。
 
 ```csharp
 public byte[] Data { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: CustomFontData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаCustomFontDataaspose.imaging.customfonthandler/customfontdata.
+description: Инициализирует новый экземплярCustomFontDataaspose.imaging.customfonthandler/customfontdata учебный класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.customfonthandler/customfontdata/customfontdata/
 ---
 ## CustomFontData constructor
 
-Инициализирует новый экземпляр класса[`CustomFontData`](../../customfontdata).
+Инициализирует новый экземпляр[`CustomFontData`](../../customfontdata) учебный класс.
 
 ```csharp
 public CustomFontData(string fontName, byte[] fontData)
@@ -16,7 +16,7 @@ public CustomFontData(string fontName, byte[] fontData)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontName | String | Имя шрифта. |
+| fontName | String | Название шрифта. |
 | fontData | Byte[] | Данные шрифта. |
 
 ### Смотрите также

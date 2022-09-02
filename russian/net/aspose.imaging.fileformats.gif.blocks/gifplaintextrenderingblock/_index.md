@@ -18,23 +18,23 @@ public class GifPlainTextRenderingBlock : GifBlock
 
 | Имя | Описание |
 | --- | --- |
-| [GifPlainTextRenderingBlock](gifplaintextrenderingblock#constructor)() | Инициализирует новый экземпляр класса[`GifPlainTextRenderingBlock`](../gifplaintextrenderingblock). |
-| [GifPlainTextRenderingBlock](gifplaintextrenderingblock#constructor_1)(ushort, ushort, ushort, ushort, byte, byte, byte, byte, byte[]) | Инициализирует новый экземпляр класса[`GifPlainTextRenderingBlock`](../gifplaintextrenderingblock). |
+| [GifPlainTextRenderingBlock](gifplaintextrenderingblock#constructor)() | Инициализирует новый экземпляр[`GifPlainTextRenderingBlock`](../gifplaintextrenderingblock) класс. |
+| [GifPlainTextRenderingBlock](gifplaintextrenderingblock#constructor_1)(ushort, ushort, ushort, ushort, byte, byte, byte, byte, byte[]) | Инициализирует новый экземпляр[`GifPlainTextRenderingBlock`](../gifplaintextrenderingblock) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [CharacterCellHeight](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/charactercellheight) { get; set; } | Получает или задает высоту символьной ячейки в пикселях для каждой ячейки сетки. |
-| [CharacterCellWidth](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/charactercellwidth) { get; set; } | Получает или задает ширину символьной ячейки в пикселях для каждой ячейки сетки. |
+| [CharacterCellHeight](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/charactercellheight) { get; set; } | Получает или задает высоту символьной ячейки в пикселях для каждой ячейки в сетке. |
+| [CharacterCellWidth](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/charactercellwidth) { get; set; } | Получает или задает ширину символьной ячейки в пикселях для каждой ячейки в сетке. |
 | [IsChanged](../../aspose.imaging.fileformats.gif/gifblock/ischanged) { get; set; } | Получает или задает значение, указывающее, изменился ли блок и требуется ли его сохранение. |
 | [PlainTextData](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/plaintextdata) { get; set; } | Получает или задает данные в виде обычного текста. |
 | [TextBackgroundColorIndex](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textbackgroundcolorindex) { get; set; } | Получает или задает индекс цвета в глобальной цветовой палитре, используемой для рисования фона текста. |
-| [TextForegroundColorIndex](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textforegroundcolorindex) { get; set; } | Получает или задает индекс цвета в глобальной цветовой палитре, используемой для рисования переднего плана текста. |
+| [TextForegroundColorIndex](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textforegroundcolorindex) { get; set; } | Получает или задает индекс цвета в глобальной цветовой палитре, используемой для рисования текста на переднем плане. |
 | [TextGridHeight](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textgridheight) { get; set; } | Получает или задает высоту сетки текста в пикселях |
 | [TextGridLeftPosition](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textgridleftposition) { get; set; } | Получает или задает левую позицию текстовой сетки. |
 | [TextGridTopPosition](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textgridtopposition) { get; set; } | Получает или задает верхнюю позицию текстовой сетки. |
-| [TextGridWidth](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textgridwidth) { get; set; } | Получает или задает сетку текста в пикселях |
+| [TextGridWidth](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textgridwidth) { get; set; } | Получает или задает текстовую сетку в пикселях |
 
 ## Методы
 
@@ -47,7 +47,7 @@ public class GifPlainTextRenderingBlock : GifBlock
 | Имя | Описание |
 | --- | --- |
 | const [BlockSize](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/blocksize) | Общий размер блока. |
-| const [ExtensionLabel](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/extensionlabel) | Метка расширения обычного текста. |
+| const [ExtensionLabel](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/extensionlabel) | Метка расширения в виде обычного текста. |
 | const [SubBlockSize](../../aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/subblocksize) | Размер подблока. |
 
 ### Смотрите также

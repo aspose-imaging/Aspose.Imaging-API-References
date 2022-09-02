@@ -1,14 +1,14 @@
 ---
 title: ImproveDecompositionAsync
 second_title: Aspose.Imaging for .NET API 参考
-description: 创建可以执行再训练分解操作的异步任务
+description: 创建可以进行再训练分解操作的异步任务
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.masking/imaskingsession/improvedecompositionasync/
 ---
 ## IMaskingSession.ImproveDecompositionAsync method
 
-创建可以执行再训练分解操作的异步任务
+创建可以进行再训练分解操作的异步任务
 
 ```csharp
 public IAsyncTask ImproveDecompositionAsync(IMaskingArgs maskingArguments)

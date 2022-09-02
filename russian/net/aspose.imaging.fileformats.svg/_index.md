@@ -1,25 +1,25 @@
 ---
 title: Aspose.Imaging.FileFormats.Svg
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пространство имен обрабатывает обработку файлов формата SVG.
+description: Пространство имен обрабатывает формат файла SVG.
 type: docs
 weight: 580
 url: /ru/net/aspose.imaging.fileformats.svg/
 ---
-Пространство имен обрабатывает обработку файлов формата SVG.
+Пространство имен обрабатывает формат файла SVG.
 
 ## Классы
 
 | Учебный класс | Описание |
 | --- | --- |
 | [FontStoringArgs](./fontstoringargs) | Шрифт, хранящий аргументы |
-| [SvgImage](./svgimage) | Представляет класс изображений SVG. |
+| [SvgImage](./svgimage) | Представляет класс изображения SVG. |
 | [SvgResourceKeeperCallback](./svgresourcekeepercallback) | Обратный вызов хранителя ресурсов |
 ## Интерфейсы
 
 | Интерфейс | Описание |
 | --- | --- |
-| [ISvgResourceKeeperCallback](./isvgresourcekeepercallback) | Интерфейс обратного вызова svg |
+| [ISvgResourceKeeperCallback](./isvgresourcekeepercallback) | Интерфейс обратного вызова SVG |
 ## перечисление
 
 | перечисление | Описание |

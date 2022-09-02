@@ -50,9 +50,9 @@ using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.Fil
     }
 }
 
-    // 输出如下所示：
-    // 活动帧大小：{ Width = 100, Height = 100}
-    //清除所有blocks
+// 输出如下所示：
+// 活动帧大小：{ Width = 100, Height = 100}
+// 清除所有块
 // 未设置活动框架
 ```
 

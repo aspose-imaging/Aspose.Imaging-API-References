@@ -1,14 +1,14 @@
 ---
 title: EmfBasePen
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Базовый объект пера
+description: Базовая ручка object
 type: docs
 weight: 2910
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfbasepen/
 ---
 ## EmfBasePen class
 
-Базовый объект пера
+Базовая ручка object
 
 ```csharp
 public abstract class EmfBasePen : EmfObject
@@ -18,7 +18,7 @@ public abstract class EmfBasePen : EmfObject
 
 | Имя | Описание |
 | --- | --- |
-| abstract [Argb32ColorRef](../../aspose.imaging.fileformats.emf.emf.objects/emfbasepen/argb32colorref) { get; set; } | Получает или задает ссылку на 32-разрядный цвет ARGB. |
+| abstract [Argb32ColorRef](../../aspose.imaging.fileformats.emf.emf.objects/emfbasepen/argb32colorref) { get; set; } | Получает или задает 32-битную ссылку на цвет ARGB. |
 | abstract [PenStyle](../../aspose.imaging.fileformats.emf.emf.objects/emfbasepen/penstyle) { get; set; } | Получает или задает стиль пера. |
 
 ### Смотрите также

@@ -16,7 +16,7 @@ public void SetSeriesModality(string seriesModality)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| seriesModality | String | Серийная модальность. |
+| seriesModality | String | Модальность сериала. |
 
 ### Смотрите также
 

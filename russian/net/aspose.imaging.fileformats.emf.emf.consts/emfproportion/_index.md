@@ -1,14 +1,14 @@
 ---
 title: EmfProportion
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Перечисление Proportion определяет значения одной из характеристик в системе PANOSE для классификации гарнитур.
+description: Перечисление Proportion определяет значения одной из характеристик в системе PANOSE для классификации шрифтов.
 type: docs
 weight: 2810
 url: /ru/net/aspose.imaging.fileformats.emf.emf.consts/emfproportion/
 ---
 ## EmfProportion enumeration
 
-Перечисление Proportion определяет значения одной из характеристик в системе PANOSE для классификации гарнитур.
+Перечисление Proportion определяет значения одной из характеристик в системе PANOSE для классификации шрифтов.
 
 ```csharp
 public enum EmfProportion : byte
@@ -25,8 +25,8 @@ public enum EmfProportion : byte
 | PAN_PROP_EVEN_WIDTH | `4` | Четная ширина |
 | PAN_PROP_EXPANDED | `5` | Расширенный |
 | PAN_PROP_CONDENSED | `6` | Конденсированный |
-| PAN_PROP_VERY_EXPANDED | `7` | То самое расширенное |
-| PAN_PROP_VERY_CONDENSED | `8` | Самое сжатое |
+| PAN_PROP_VERY_EXPANDED | `7` | Тот самый расширенный |
+| PAN_PROP_VERY_CONDENSED | `8` | Очень сжато |
 | PAN_PROP_MONOSPACED | `9` | Моно интервал |
 
 ### Смотрите также

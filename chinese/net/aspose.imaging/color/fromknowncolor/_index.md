@@ -1,14 +1,14 @@
 ---
 title: FromKnownColor
 second_title: Aspose.Imaging for .NET API 参考
-description: 从指定的预定义颜色创建Coloraspose.imaging/color结构
+description: 创建一个Coloraspose.imaging/color来自指定预定义颜色的结构
 type: docs
 weight: 1440
 url: /zh/net/aspose.imaging/color/fromknowncolor/
 ---
 ## Color.FromKnownColor method
 
-从指定的预定义颜色创建[`Color`](../../color)结构。
+创建一个[`Color`](../../color)来自指定预定义颜色的结构。
 
 ```csharp
 public static Color FromKnownColor(KnownColor color)
@@ -16,11 +16,11 @@ public static Color FromKnownColor(KnownColor color)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| color | KnownColor | [`KnownColor`](../../knowncolor)枚举的一个元素。 |
+| color | KnownColor | 的一个元素[`KnownColor`](../../knowncolor)枚举。 |
 
 ### 返回值
 
-[`Color`](../../color)此方法创建。
+这[`Color`](../../color)该方法创建的。
 
 ### 也可以看看
 

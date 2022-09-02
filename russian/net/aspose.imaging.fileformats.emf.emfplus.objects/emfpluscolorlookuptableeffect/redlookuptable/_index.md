@@ -1,14 +1,14 @@
 ---
 title: RedLookupTable
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив из 256 байтов определяющий настройку канала красного цвета.
+description: Получает или задает массив из 256 байтов определяющий корректировку канала красного цвета.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorlookuptableeffect/redlookuptable/
 ---
 ## EmfPlusColorLookupTableEffect.RedLookupTable property
 
-Получает или задает массив из 256 байтов, определяющий настройку канала красного цвета.
+Получает или задает массив из 256 байтов, определяющий корректировку канала красного цвета.
 
 ```csharp
 public byte[] RedLookupTable { get; set; }

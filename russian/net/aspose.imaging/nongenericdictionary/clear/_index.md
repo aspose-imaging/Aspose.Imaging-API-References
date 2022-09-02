@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Удаляет все элементы из объекта IDictionary.
+description: Удаляет все элементы из IDictionary объект.
 type: docs
 weight: 110
 url: /ru/net/aspose.imaging/nongenericdictionary/clear/
 ---
 ## NonGenericDictionary.Clear method
 
-Удаляет все элементы из объекта IDictionary.
+Удаляет все элементы из IDictionary объект.
 
 ```csharp
 public void Clear()

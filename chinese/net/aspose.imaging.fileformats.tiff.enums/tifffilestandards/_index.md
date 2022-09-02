@@ -18,8 +18,8 @@ public enum TiffFileStandards : ushort
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Baseline | `0` | 基线 TIFF 6.0 文件标准。该标准正式称为 TIFF 6.0，第 1 部分:基线 TIFF。 |
-| Extended | `1` | 扩展 TIFF 6.0 文件标准。该标准正式称为扩展 TIFF 6.0，第 2 部分:TIFF 扩展。 |
+| Baseline | `0` | 基线 TIFF 6.0 文件标准。该标准正式称为 TIFF 6.0，第 1 部分：基线 TIFF. |
+| Extended | `1` | 扩展 TIFF 6.0 文件标准。该标准正式称为扩展 TIFF 6.0，第 2 部分：TIFF 扩展。 |
 
 ### 也可以看看
 

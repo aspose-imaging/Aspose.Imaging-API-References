@@ -1,14 +1,14 @@
 ---
 title: WmfSetTextAlign
 second_title: Aspose.Imaging for .NET API 参考
-description: 设置文本对齐
+description: 设置文本 align
 type: docs
 weight: 9160
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfsettextalign/
 ---
 ## WmfSetTextAlign class
 
-设置文本对齐
+设置文本 align
 
 ```csharp
 public class WmfSetTextAlign : WmfObject
@@ -25,7 +25,7 @@ public class WmfSetTextAlign : WmfObject
 | 姓名 | 描述 |
 | --- | --- |
 | [Reserved](../../aspose.imaging.fileformats.wmf.objects/wmfsettextalign/reserved) { get; set; } | 获取或设置保留。 |
-| [TextAlign](../../aspose.imaging.fileformats.wmf.objects/wmfsettextalign/textalign) { get; set; } | 获取或设置文本对齐。 |
+| [TextAlign](../../aspose.imaging.fileformats.wmf.objects/wmfsettextalign/textalign) { get; set; } | 获取或设置文本对齐方式。 |
 
 ### 也可以看看
 

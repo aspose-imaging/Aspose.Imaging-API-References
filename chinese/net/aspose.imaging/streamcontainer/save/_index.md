@@ -16,9 +16,9 @@ public virtual void Save(Stream destinationStream, int bufferSize, long length)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| destinationStream | Stream | 将数据保存到的流。 |
-| bufferSize | Int32 | 缓冲区大小。默认使用[`ReadWriteBytesCount`](../readwritebytescount)值。 |
-| length | Int64 | 要复制的流数据长度。默认情况下，长度设置为[`Length`](../length)值。 |
+| destinationStream | Stream | 要将数据保存到的流。 |
+| bufferSize | Int32 | 缓冲区大小。默认[`ReadWriteBytesCount`](../readwritebytescount)值被使用。 |
+| length | Int64 | 要复制的流数据长度。默认情况下，长度设置为[`Length`](../length)价值。 |
 
 ### 也可以看看
 
@@ -30,7 +30,7 @@ public virtual void Save(Stream destinationStream, int bufferSize, long length)
 
 ## Save(Stream) {#save}
 
-将流的数据保存（复制）到指定的流。使用默认缓冲区大小[`ReadWriteBytesCount`](../readwritebytescount)和流[`Length`](../length)值。
+将流的数据保存（复制）到指定的流。使用默认缓冲区大小[`ReadWriteBytesCount`](../readwritebytescount)和流[`Length`](../length)值.
 
 ```csharp
 public virtual void Save(Stream destinationStream)
@@ -38,7 +38,7 @@ public virtual void Save(Stream destinationStream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| destinationStream | Stream | 将数据保存到的流。 |
+| destinationStream | Stream | 要将数据保存到的流。 |
 
 ### 也可以看看
 
@@ -50,7 +50,7 @@ public virtual void Save(Stream destinationStream)
 
 ## Save(Stream, int) {#save_1}
 
-将所有流的数据保存（复制）到指定的流。使用流[`Length`](../length)值。
+将所有流的数据保存（复制）到指定的流。使用流[`Length`](../length)值.
 
 ```csharp
 public virtual void Save(Stream destinationStream, int bufferSize)
@@ -58,7 +58,7 @@ public virtual void Save(Stream destinationStream, int bufferSize)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| destinationStream | Stream | 将数据保存到的流。 |
+| destinationStream | Stream | 要将数据保存到的流。 |
 | bufferSize | Int32 | 缓冲区。 |
 
 ### 也可以看看
@@ -71,7 +71,7 @@ public virtual void Save(Stream destinationStream, int bufferSize)
 
 ## Save(string) {#save_3}
 
-将流的数据保存（复制）到指定的流。使用默认缓冲区大小[`ReadWriteBytesCount`](../readwritebytescount)和流[`Length`](../length)值。
+将流的数据保存（复制）到指定的流。使用默认缓冲区大小[`ReadWriteBytesCount`](../readwritebytescount)和流[`Length`](../length)值.
 
 ```csharp
 public virtual void Save(string filePath)
@@ -91,7 +91,7 @@ public virtual void Save(string filePath)
 
 ## Save(string, int) {#save_4}
 
-将流的数据保存（复制）到指定的流。使用流[`Length`](../length)值。
+将流的数据保存（复制）到指定的流。使用流[`Length`](../length)值.
 
 ```csharp
 public virtual void Save(string filePath, int bufferSize)
@@ -100,7 +100,7 @@ public virtual void Save(string filePath, int bufferSize)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | filePath | String | 保存流数据的文件路径。 |
-| bufferSize | Int32 | 缓冲区大小。默认使用[`ReadWriteBytesCount`](../readwritebytescount)值。 |
+| bufferSize | Int32 | 缓冲区大小。默认[`ReadWriteBytesCount`](../readwritebytescount)值被使用。 |
 
 ### 也可以看看
 
@@ -121,8 +121,8 @@ public virtual void Save(string filePath, int bufferSize, long length)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | filePath | String | 保存流数据的文件路径。 |
-| bufferSize | Int32 | 缓冲区大小。默认使用[`ReadWriteBytesCount`](../readwritebytescount)值。 |
-| length | Int64 | 要复制的流数据长度。默认情况下，长度设置为[`Length`](../length)值。 |
+| bufferSize | Int32 | 缓冲区大小。默认[`ReadWriteBytesCount`](../readwritebytescount)值被使用。 |
+| length | Int64 | 要复制的流数据长度。默认情况下，长度设置为[`Length`](../length)价值。 |
 
 ### 也可以看看
 

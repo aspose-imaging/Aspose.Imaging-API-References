@@ -18,8 +18,8 @@ public enum ExifFileSource : byte
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Others | `0` | 其他。 |
-| FilmScanner | `1` | 胶片扫描仪。 |
+| Others | `0` | 其他人. |
+| FilmScanner | `1` | 胶片扫描仪. |
 | ReflexionPrintScanner | `2` | 反射打印扫描仪。 |
 | DigitalStillCamera | `3` | 数码相机。 |
 

@@ -1,14 +1,14 @@
 ---
 title: MiterLimit
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает ограничение толщины соединения на скошенном углу.
+description: Получает или задает предел толщины соединения на скошенном углу.
 type: docs
 weight: 140
 url: /ru/net/aspose.imaging/pen/miterlimit/
 ---
 ## Pen.MiterLimit property
 
-Получает или задает ограничение толщины соединения на скошенном углу.
+Получает или задает предел толщины соединения на скошенном углу.
 
 ```csharp
 public float MiterLimit { get; set; }
@@ -22,7 +22,7 @@ public float MiterLimit { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Свойство`MiterLimit`устанавливается для неизменяемого[`Pen`](../../pen), например возвращаемые классом[`Pen`](../../pen). |
+| ArgumentException | `MiterLimit` свойство установлено на неизменном[`Pen`](../../pen) такие как возвращенные[`Pen`](../../pen) учебный класс. |
 
 ### Смотрите также
 

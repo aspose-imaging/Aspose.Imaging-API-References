@@ -1,14 +1,14 @@
 ---
 title: FocusScaleData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает необязательный объект EmfPlusFocusScaleData раздел 2.2.2.18 который указывает масштабы фокуса для кисти градиента пути. Это поле ДОЛЖНО присутствовать если флаг BrushDataFocusScales установлен в поле BrushDataFlags объекта EmfPlusPathGradientBrushData.
+description: Получает или задает необязательный объект EmfPlusFocusScaleData раздел 2.2.2.18 который определяет масштабы фокуса для градиентной кисти пути. Это поле ДОЛЖНО присутствовать если флаг BrushDataFocusScales установлен в поле BrushDataFlags объекта EmfPlusPathGradientBrushData.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushoptionaldata/focusscaledata/
 ---
 ## EmfPlusPathGradientBrushOptionalData.FocusScaleData property
 
-Получает или задает необязательный объект EmfPlusFocusScaleData (раздел 2.2.2.18), который указывает масштабы фокуса для кисти градиента пути. Это поле ДОЛЖНО присутствовать, если флаг BrushDataFocusScales установлен в поле BrushDataFlags объекта EmfPlusPathGradientBrushData.
+Получает или задает необязательный объект EmfPlusFocusScaleData (раздел 2.2.2.18), который определяет масштабы фокуса для градиентной кисти пути. Это поле ДОЛЖНО присутствовать, если флаг BrushDataFocusScales установлен в поле BrushDataFlags объекта EmfPlusPathGradientBrushData.
 
 ```csharp
 public EmfPlusFocusScaleData FocusScaleData { get; set; }

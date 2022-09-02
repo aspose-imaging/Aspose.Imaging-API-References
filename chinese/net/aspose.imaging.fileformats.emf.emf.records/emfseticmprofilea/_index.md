@@ -18,15 +18,15 @@ public sealed class EmfSetIcmProfileA : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSetIcmProfileA](emfseticmprofilea)(EmfRecord) | 初始化[`EmfSetIcmProfileA`](../emfseticmprofilea)类的新实例。 |
+| [EmfSetIcmProfileA](emfseticmprofilea)(EmfRecord) | 初始化[`EmfSetIcmProfileA`](../emfseticmprofilea)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CbData](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/cbdata) { get; set; } | 获取或设置一个 32 位无符号整数，它指定颜色配置文件数据的大小，如果它 包含在数据字段中。 |
-| [CbName](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/cbname) { get; set; } | 获取或设置一个 32 位无符号整数，它指定所需颜色配置文件的 ASCII 名称中的字节数。 |
-| [Data](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/data) { get; set; } | 获取或设置大小为 (cbName + cbData) 的数组，以字节为单位，指定所需颜色配置文件的 ASCII 名称和原始数据. |
+| [CbData](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/cbdata) { get; set; } | 获取或设置一个 32 位无符号整数，它指定颜色配置文件数据的大小，如果 it 包含在数据字段中。 |
+| [CbName](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/cbname) { get; set; } | 获取或设置一个 32 位无符号整数，指定所需颜色配置文件的 ASCII 名称中的字节数。 |
+| [Data](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/data) { get; set; } | 获取或设置大小为 (cbName + cbData) 的数组，以字节为单位，指定所需颜色配置文件的 ASCII 名称和原始数据。 |
 | [DwFlags](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/dwflags) { get; set; } | 获取或设置一个包含颜色配置文件标志的 32 位无符号整数。 |
 | [Name](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/name) { get; } | 获取名称 |
 | [RawData](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/rawdata) { get; } | 获取原始数据 |

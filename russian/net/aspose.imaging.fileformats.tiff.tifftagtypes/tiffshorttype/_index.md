@@ -18,8 +18,8 @@ public sealed class TiffShortType : TiffCommonArrayType
 
 | Имя | Описание |
 | --- | --- |
-| [TiffShortType](tiffshorttype#constructor)(TiffTags) | Инициализирует новый экземпляр класса[`TiffShortType`](../tiffshorttype). |
-| [TiffShortType](tiffshorttype#constructor_1)(ushort) | Инициализирует новый экземпляр класса[`TiffShortType`](../tiffshorttype). |
+| [TiffShortType](tiffshorttype#constructor)(TiffTags) | Инициализирует новый экземпляр[`TiffShortType`](../tiffshorttype) класс. |
+| [TiffShortType](tiffshorttype#constructor_1)(ushort) | Инициализирует новый экземпляр[`TiffShortType`](../tiffshorttype) класс. |
 
 ## Характеристики
 
@@ -34,16 +34,16 @@ public sealed class TiffShortType : TiffCommonArrayType
 | [TagId](../../aspose.imaging.fileformats.tiff/tiffdatatype/tagid) { get; } | Получает идентификатор тега. |
 | override [TagType](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffshorttype/tagtype) { get; } | Получает тип тега. |
 | override [Value](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffshorttype/value) { get; set; } | Получает или задает значение, которое содержит этот тип данных. |
-| [Values](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffshorttype/values) { get; set; } | Получает или задает данные. |
+| [Values](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffshorttype/values) { get; set; } | Получает или устанавливает данные. |
 | override [ValuesContainer](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffshorttype/valuescontainer) { get; } | Получает контейнер значений. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CompareTo](../../aspose.imaging.fileformats.tiff/tiffdatatype/compareto)(object) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует ли за ним или находится в той же позиции в порядке сортировки как другой объект. |
+| [CompareTo](../../aspose.imaging.fileformats.tiff/tiffdatatype/compareto)(object) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует за ним или находится в той же позиции в порядке сортировки, что и другой объект. |
 | virtual [DeepClone](../../aspose.imaging.fileformats.tiff/tiffdatatype/deepclone)() | Выполняет глубокое клонирование этого экземпляра. |
-| override [ToString](../../aspose.imaging.fileformats.tiff/tiffdatatype/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.imaging.fileformats.tiff/tiffdatatype/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 | override [WriteAdditionalData](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffshorttype/writeadditionaldata)(TiffStreamWriter) | Записывает дополнительные данные тега. |
 | [WriteTag](../../aspose.imaging.fileformats.tiff/tiffdatatype/writetag)(TiffStreamWriter, long) | Записывает данные тега. |
 

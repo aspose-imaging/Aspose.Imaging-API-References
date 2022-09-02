@@ -1,14 +1,14 @@
 ---
 title: LensMake
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает производителя объектива.
+description: Получает или задает производителя объектива.
 type: docs
 weight: 730
 url: /ru/net/aspose.imaging.exif/exifdata/lensmake/
 ---
 ## ExifData.LensMake property
 
-Получает или устанавливает производителя объектива.
+Получает или задает производителя объектива.
 
 ```csharp
 public string LensMake { get; set; }

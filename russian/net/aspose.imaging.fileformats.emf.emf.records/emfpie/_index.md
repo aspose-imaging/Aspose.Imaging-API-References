@@ -18,17 +18,17 @@ public sealed class EmfPie : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPie](emfpie#constructor)() | Инициализирует новый экземпляр класса[`EmfPie`](../emfpie). |
-| [EmfPie](emfpie#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfPie`](../emfpie). |
+| [EmfPie](emfpie#constructor)() | Инициализирует новый экземпляр[`EmfPie`](../emfpie) класс. |
+| [EmfPie](emfpie#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfPie`](../emfpie) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Box](../../aspose.imaging.fileformats.emf.emf.records/emfpie/box) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе 2.2.2.19 [MS-WMF], который указывает включающее- включая ограничивающий прямоугольник. |
-| [End](../../aspose.imaging.fileformats.emf.emf.records/emfpie/end) { get; set; } | Получает или задает 64-битный объект PointL, который указывает координаты в логических единицах конечной точки второго радиуса. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
-| [Start](../../aspose.imaging.fileformats.emf.emf.records/emfpie/start) { get; set; } | Получает или задает 64-битные объекты WMF PointL, указанные в разделе 2.2.2.15 [MS-WMF], которые задают координаты, в логических единицах конечной точки первого радиуса. |
+| [Box](../../aspose.imaging.fileformats.emf.emf.records/emfpie/box) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе 2.2.2.19 [MS-WMF], где указывает ограничивающий прямоугольник включительно. |
+| [End](../../aspose.imaging.fileformats.emf.emf.records/emfpie/end) { get; set; } | Получает или задает 64-битный объект PointL, указывающий координаты (в логических единицах) конечной точки второго радиала. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
+| [Start](../../aspose.imaging.fileformats.emf.emf.records/emfpie/start) { get; set; } | Получает или задает 64-битные объекты WMF PointL, указанные в разделе 2.2.2.15 [MS-WMF], где указывает координаты в логических единицах конечной точки первого радиуса. |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

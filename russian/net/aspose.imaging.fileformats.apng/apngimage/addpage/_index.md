@@ -22,7 +22,7 @@ public void AddPage(RasterImage page)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *page*равно null. |
+| ArgumentNullException | *page* нулевой. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: NPalEntries
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数它指定要更正的调色板条目数
+description: 获取或设置一个 32 位无符号整数指定要纠正的调色板条目数
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/npalentries/
 ---
 ## EmfColorCorrectPalette.NPalEntries property
 
-获取或设置一个 32 位无符号整数，它指定要更正的调色板条目数。
+获取或设置一个 32 位无符号整数，指定要纠正的调色板条目数。
 
 ```csharp
 public int NPalEntries { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: NumberofEntries
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定条目数的 32 位无符号整数
+description: 获取或设置一个 32 位无符号整数指定条目数
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries/numberofentries/
 ---
 ## EmfSetPaletteEntries.NumberofEntries property
 
-获取或设置指定条目数的 32 位无符号整数。
+获取或设置一个 32 位无符号整数，指定条目数。
 
 ```csharp
 public int NumberofEntries { get; set; }

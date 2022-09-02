@@ -1,14 +1,14 @@
 ---
 title: Jpeg2000Exception
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化Jpeg2000Exceptionaspose.imaging.coreexceptions.imageformats/jpeg2000exception类的新实例
+description: 初始化Jpeg2000Exceptionaspose.imaging.coreexceptions.imageformats/jpeg2000exception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.coreexceptions.imageformats/jpeg2000exception/jpeg2000exception/
 ---
 ## Jpeg2000Exception(string) {#constructor}
 
-初始化[`Jpeg2000Exception`](../../jpeg2000exception)类的新实例。
+初始化[`Jpeg2000Exception`](../../jpeg2000exception)类.
 
 ```csharp
 public Jpeg2000Exception(string message)
@@ -28,7 +28,7 @@ public Jpeg2000Exception(string message)
 
 ## Jpeg2000Exception(string, Exception) {#constructor_1}
 
-初始化[`Jpeg2000Exception`](../../jpeg2000exception)类的新实例。
+初始化[`Jpeg2000Exception`](../../jpeg2000exception)类.
 
 ```csharp
 public Jpeg2000Exception(string message, Exception innerException)
@@ -37,7 +37,7 @@ public Jpeg2000Exception(string message, Exception innerException)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 消息。 |
-| innerException | Exception | 内部异常。 |
+| innerException | Exception | 内在异常。 |
 
 ### 也可以看看
 

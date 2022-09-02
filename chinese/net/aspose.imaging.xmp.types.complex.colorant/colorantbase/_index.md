@@ -3,7 +3,7 @@ title: ColorantBase
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示 XMP 着色剂类型
 type: docs
-weight: 11530
+weight: 11520
 url: /zh/net/aspose.imaging.xmp.types.complex.colorant/colorantbase/
 ---
 ## ColorantBase class
@@ -19,7 +19,7 @@ public abstract class ColorantBase : ComplexTypeBase
 | 姓名 | 描述 |
 | --- | --- |
 | [ColorType](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/colortype) { get; set; } | 获取或设置颜色的类型。 |
-| [Mode](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/mode) { get; } | 获取[`ColorMode`](../colormode)。 |
+| [Mode](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/mode) { get; } | 获取[`ColorMode`](../colormode) . |
 | [NamespaceUri](../../aspose.imaging.xmp.types.complex/complextypebase/namespaceuri) { get; } | 获取默认命名空间 URI。 |
 | [Prefix](../../aspose.imaging.xmp.types.complex/complextypebase/prefix) { get; } | 获取前缀。 |
 | [SwatchName](../../aspose.imaging.xmp.types.complex.colorant/colorantbase/swatchname) { get; set; } | 获取或设置样本的名称。 |

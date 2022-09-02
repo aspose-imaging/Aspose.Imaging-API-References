@@ -3,7 +3,7 @@ title: PdfImageCompressionOptions
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Параметры сжатия изображений в формате PDF
 type: docs
-weight: 10110
+weight: 10100
 url: /ru/net/aspose.imaging.imageoptions/pdfimagecompressionoptions/
 ---
 ## PdfImageCompressionOptions enumeration
@@ -20,13 +20,13 @@ public enum PdfImageCompressionOptions
 | --- | --- | --- |
 | Auto | `0` | Автоматически выбирает наиболее подходящее сжатие для каждого изображения. |
 | None | `1` | Сохраняет необработанные байты изображения, что приводит к увеличению размера файла PDF. |
-| Rle | `2` | Сжатие длины прогона. |
+| Rle | `2` | Сжатие длины цикла. |
 | Flate | `3` | Плоское сжатие. |
-| LzwBaselinePredictor | `4` | Выбор предиктора ограничен предиктором PNG Paeth для ускорения процесса. На практике работает на удивление хорошо. Лучше, чемLzwOptimizedPredictor. |
-| LzwOptimizedPredictor | `5` | Выбор предиктора более сложен и должен привести к меньшим размерам изображения, но занимает больше времени. RFC 2083 говорит, что это лучший способ. Но на тестовых данных базовый предиктор LzwBaselinePredictorнадрал задницу, оставив оптимизированный предиктор к 25-40 % увеличения степени сжатия. |
+| LzwBaselinePredictor | `4` | Выбор предиктора ограничен предиктором PNG Paeth для ускорения процесса. На практике работает на удивление хорошо. Лучше чемLzwOptimizedPredictor . |
+| LzwOptimizedPredictor | `5` | Выбор предиктора более сложен и должен привести к уменьшению размера изображения, но займет больше времени. RFC 2083 говорит, что это лучший способ. Но на тестовых данных базовый предиктор LzwBaselinePredictor надирает задницу, оставляя оптимизированный предиктор позади с увеличением коэффициента сжатия на 25-40%. |
 | Jpeg | `6` | Сжатие JPEG. Не поддерживает прозрачность. |
-| Ccitt3 | `7` | /CCITTFaxDecode/DecodeParms/K 0/Columns 173 Не поддерживает прозрачность. |
-| Ccitt4 | `8` | /CCITTFaxDecode/DecodeParms/K -1/Columns 173 Не поддерживает прозрачность. |
+| Ccitt3 | `7` | /CCITTFaxDecode/DecodeParms/K 0/Столбцы 173 Не поддерживает прозрачность. |
+| Ccitt4 | `8` | /CCITTFaxDecode/DecodeParms/K -1/Столбцы 173 Не поддерживает прозрачность. |
 
 ### Смотрите также
 

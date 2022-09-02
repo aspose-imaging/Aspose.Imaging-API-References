@@ -1,14 +1,14 @@
 ---
 title: CompoundArray
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定复合笔的值数组复合笔绘制由平行线和空格组成的复合线
+description: 获取或设置指定复合笔的值数组复合笔画出由平行线和空格组成的复合线
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging/pen/compoundarray/
 ---
 ## Pen.CompoundArray property
 
-获取或设置指定复合笔的值数组。复合笔绘制由平行线和空格组成的复合线。
+获取或设置指定复合笔的值数组。复合笔画出由平行线和空格组成的复合线。
 
 ```csharp
 public float[] CompoundArray { get; set; }
@@ -22,7 +22,7 @@ public float[] CompoundArray { get; set; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | `CompoundArray`属性设置在不可变[`Pen`](../../pen)上，例如Pen类。 |
+| ArgumentException | 这`CompoundArray`属性设置在不可变对象上[`Pen`](../../pen)，例如那些由[`Pen`](../../pen)班级。 |
 
 ### 也可以看看
 

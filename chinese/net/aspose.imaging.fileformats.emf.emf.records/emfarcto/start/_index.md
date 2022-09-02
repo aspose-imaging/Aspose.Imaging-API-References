@@ -1,14 +1,14 @@
 ---
 title: Start
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 64 位 WMF PointL 对象在 MS-WMF 2.2.2.15 节中指定其中 指定坐标第一个径向终点以逻辑单位表示
+description: 获取或设置一个 64 位 WMF PointL 对象在 MS-WMF 第 2.2.2.15 节中指定 指定第一个径向终点的坐标以逻辑单位表示
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfarcto/start/
 ---
 ## EmfArcTo.Start property
 
-获取或设置一个 64 位 WMF PointL 对象，在 [MS-WMF] 2.2.2.15 节中指定，其中 指定坐标第一个径向终点，以逻辑单位表示。
+获取或设置一个 64 位 WMF PointL 对象，在 [MS-WMF] 第 2.2.2.15 节中指定， 指定第一个径向终点的坐标，以逻辑单位表示。
 
 ```csharp
 public Point Start { get; set; }

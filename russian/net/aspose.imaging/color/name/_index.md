@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает имя этогоColoraspose.imaging/color.
+description: Получает имя этогоColoraspose.imaging/color .
 type: docs
 weight: 1520
 url: /ru/net/aspose.imaging/color/name/
 ---
 ## Color.Name property
 
-Получает имя этого[`Color`](../../color).
+Получает имя этого[`Color`](../../color) .
 
 ```csharp
 public string Name { get; }
@@ -16,7 +16,7 @@ public string Name { get; }
 
 ### Стоимость имущества
 
-Имя этого[`Color`](../../color).
+Название этого[`Color`](../../color).
 
 ### Смотрите также
 

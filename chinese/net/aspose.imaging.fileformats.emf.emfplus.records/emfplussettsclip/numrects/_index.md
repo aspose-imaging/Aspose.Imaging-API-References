@@ -1,14 +1,14 @@
 ---
 title: NumRects
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取数字矩形 此字段指定在 rect 字段中定义的矩形数量
+description: 获取矩形的数量 该字段指定矩形字段中定义的矩形数量
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsclip/numrects/
 ---
 ## EmfPlusSetTsClip.NumRects property
 
-获取数字矩形。 此字段指定在 rect 字段中定义的矩形数量。
+获取矩形的数量。 该字段指定矩形字段中定义的矩形数量。
 
 ```csharp
 public short NumRects { get; }
@@ -16,7 +16,7 @@ public short NumRects { get; }
 
 ### 适当的价值
 
-数字直角。
+矩形数。
 
 ### 也可以看看
 

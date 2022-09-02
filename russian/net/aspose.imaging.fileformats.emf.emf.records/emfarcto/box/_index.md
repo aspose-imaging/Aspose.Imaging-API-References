@@ -1,14 +1,14 @@
 ---
 title: Box
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 128-битный объект RectL WMF указанный в разделе 2.2.2.19 MS-WMF который определяет ограничивающий прямоугольник .
+description: Получает или задает 128-битный объект RectL WMF указанный в разделе 2.2.2.19 MS-WMF который указывает ограничивающий прямоугольник.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfarcto/box/
 ---
 ## EmfArcTo.Box property
 
-Получает или задает 128-битный объект RectL WMF, указанный в разделе 2.2.2.19 [MS-WMF], который определяет ограничивающий прямоугольник .
+Получает или задает 128-битный объект RectL WMF, указанный в разделе 2.2.2.19 [MS-WMF], который указывает ограничивающий прямоугольник.
 
 ```csharp
 public Rectangle Box { get; set; }

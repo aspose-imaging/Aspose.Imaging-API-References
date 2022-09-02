@@ -18,18 +18,18 @@ public sealed class EmfCommentBeginGroup : EmfCommentPublicRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfCommentBeginGroup](emfcommentbegingroup)(EmfRecord) | 初始化[`EmfCommentBeginGroup`](../emfcommentbegingroup)类的新实例。 |
+| [EmfCommentBeginGroup](emfcommentbegingroup)(EmfRecord) | 初始化[`EmfCommentBeginGroup`](../emfcommentbegingroup)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [CommentIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentpublicrecordtype/commentidentifier) { get; set; } | 获取或设置一个 32 位无符号整数，用于标识此评论记录 为指定公共数据。值 0x43494447 是 ASCII 字符串“CIDG”，将 标识为 EMR_COMMENT_PUBLIC 记录。 |
-| [DataSize](../../aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，它指定 RecordBuffer 字段中 CommentIdentifier 和 CommentRecordParm 字段的大小（以字节为单位） 如下。如果 存在 |
-| [Description](../../aspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup/description) { get; set; } | 获取或设置描述这组记录的可选的、以 null 结尾的 Unicode 字符串。 |
-| [NDescription](../../aspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup/ndescription) { get; set; } | 获取或设置后面可选描述字符串中的 Unicode 字符数。 |
-| [PublicCommentIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentpublicrecordtype/publiccommentidentifier) { get; set; } | 获取或设置一个标识 公共评论记录类型的 32 位无符号整数。这应该是上表中列出的值之一，其中 在 EmrComment 枚举（第 2.1.10 节）中指定，除非已实现其他公共 评论记录类型在打印服务器上。 |
-| [Rectangle](../../aspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup/rectangle) { get; set; } | 获取或设置在逻辑坐标中指定 输出矩形的 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节）。 |
+| override [CommentIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentpublicrecordtype/commentidentifier) { get; set; } | 获取或设置一个 32 位无符号整数，将这条评论记录 标识为指定公共数据。值 0x43494447，即 ASCII 字符串“CIDG”，将 标识为 EMR_COMMENT_PUBLIC 记录。 |
+| [DataSize](../../aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，它指定 后面的 RecordBuffer 字段中的 CommentIdentifier 和 CommentRecordParm 字段的大小（以字节为单位）。如果 present 它不能包含自身的大小或 AlignmentPadding 字段的大小 |
+| [Description](../../aspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup/description) { get; set; } | 获取或设置一个可选的、以 null 结尾的 Unicode 字符串，用于描述这组记录。 |
+| [NDescription](../../aspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup/ndescription) { get; set; } | 获取或设置后面的可选描述字符串中的 Unicode 字符数。 |
+| [PublicCommentIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentpublicrecordtype/publiccommentidentifier) { get; set; } | 获取或设置一个 32 位无符号整数，用于标识 公共评论记录的类型。这应该是上表中列出的值之一，其中 在 EmrComment 枚举（第 2.1.10 节）中指定，除非在打印服务器上实现了额外的公共 评论记录类型。 |
+| [Rectangle](../../aspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup/rectangle) { get; set; } | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），它指定逻辑坐标中的 输出矩形。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

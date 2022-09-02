@@ -24,8 +24,8 @@ public sealed class EmfPlusTintEffect : EmfPlusImageEffectsObjectType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Amount](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustinteffect/amount) { get; set; } | 获取或设置一个 32 位有符号整数，指定色调增强或减弱的程度。 -100 ≤ 值 &lt; 0 负值指定色调减弱的程度，这相当于 添加黑色。 0 值 0 指定色调不得更改。 0 &lt; value ≤ 100 正值指定色调增强的程度，这相当于 添加白色。 |
-| [Hue](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustinteffect/hue) { get; set; } | 获取或设置一个 32 位有符号整数，该整数指定应用着色效果的色调。 -180 ≤ 值 &lt; 0 色轮逆时针旋转指定的颜色，从蓝色开始 。 0 值 0 指定色轮上的蓝色。 0 &lt; value ≤ 180 色轮指定顺时针旋转时的颜色，从蓝色开始 |
+| [Amount](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustinteffect/amount) { get; set; } | 获取或设置一个 32 位有符号整数，指定色调增强或减弱的程度。 -100 ≤ value &lt; 0 负值指定色调减弱的程度，相当于 加黑色。 0 值为 0 表示色调不得更改。 0 &lt; value ≤ 100 正值指定色调增强的程度，这相当于 添加白色。 |
+| [Hue](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplustinteffect/hue) { get; set; } | 获取或设置一个 32 位带符号整数，指定应用色调效果的色调。 -180 ≤ value &lt; 0 色轮逆时针旋转指定的颜色，从蓝色开始 。 0值 0 指定色轮上的蓝色。 0 &lt; value ≤ 180 色轮指定顺时针旋转时的颜色，从 blue 开始 |
 
 ### 也可以看看
 

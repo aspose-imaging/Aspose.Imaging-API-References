@@ -1,14 +1,14 @@
 ---
 title: TiffTagFactory
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Класс фабрики тегов
+description: Фабрика тегов class
 type: docs
 weight: 7820
 url: /ru/net/aspose.imaging.fileformats.tiff.instancefactory/tifftagfactory/
 ---
 ## TiffTagFactory class
 
-Класс фабрики тегов
+Фабрика тегов class
 
 ```csharp
 public static class TiffTagFactory

@@ -1,14 +1,14 @@
 ---
 title: DrawRectangles
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Рисует ряд прямоугольников заданных структурамиRectangleFaspose.imaging/rectanglef.
+description: Рисует серию прямоугольников указанныхRectangleFaspose.imaging/rectanglef структуры.
 type: docs
 weight: 310
 url: /ru/net/aspose.imaging/graphics/drawrectangles/
 ---
 ## DrawRectangles(Pen, RectangleF[]) {#drawrectangles}
 
-Рисует ряд прямоугольников, заданных структурами[`RectangleF`](../../rectanglef).
+Рисует серию прямоугольников, указанных[`RectangleF`](../../rectanglef) структуры.
 
 ```csharp
 public void DrawRectangles(Pen pen, RectangleF[] rects)
@@ -16,14 +16,14 @@ public void DrawRectangles(Pen pen, RectangleF[] rects)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen)который определяет цвет, ширину и стиль очертания прямоугольников. |
-| rects | RectangleF[] | Массив структур[`RectangleF`](../../rectanglef), которые представляют прямоугольники для рисования. |
+| pen | Pen | [`Pen`](../../pen)который определяет цвет, ширину и стиль контуров прямоугольников. |
+| rects | RectangleF[] | Массив[`RectangleF`](../../rectanglef) структуры, которые представляют прямоугольники для рисования. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *pen*равно нулю. -или- *rects*равно null. |
+| ArgumentNullException | *pen* равно null. -или- *rects* нулевой. |
 
 ### Смотрите также
 
@@ -37,7 +37,7 @@ public void DrawRectangles(Pen pen, RectangleF[] rects)
 
 ## DrawRectangles(Pen, Rectangle[]) {#drawrectangles_1}
 
-Рисует ряд прямоугольников, заданных структурами[`Rectangle`](../../rectangle).
+Рисует серию прямоугольников, указанных[`Rectangle`](../../rectangle) структуры.
 
 ```csharp
 public void DrawRectangles(Pen pen, Rectangle[] rects)
@@ -45,14 +45,14 @@ public void DrawRectangles(Pen pen, Rectangle[] rects)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen)который определяет цвет, ширину и стиль очертания прямоугольников. |
-| rects | Rectangle[] | Массив структур[`Rectangle`](../../rectangle), которые представляют прямоугольники для рисования. |
+| pen | Pen | [`Pen`](../../pen)который определяет цвет, ширину и стиль контуров прямоугольников. |
+| rects | Rectangle[] | Массив[`Rectangle`](../../rectangle) структуры, которые представляют прямоугольники для рисования. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *pen*равно нулю. -или- *rects*равно null. |
+| ArgumentNullException | *pen* равно null. -или- *rects* нулевой. |
 
 ### Примеры
 
@@ -61,36 +61,36 @@ public void DrawRectangles(Pen pen, Rectangle[] rects)
 ```csharp
 [C#]
 
- //Создаем экземпляр BmpOptions и устанавливаем его различные свойства
+//Создаем экземпляр BmpOptions и устанавливаем его различные свойства
 Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 bmpOptions.BitsPerPixel = 24;
 
- //Создаем экземпляр FileCreateSource и назначаем его в качестве источника для экземпляра BmpOptions
- //Второй логический параметр определяет, является ли создаваемый файл временным или нет
+//Создаем экземпляр FileCreateSource и назначаем его в качестве источника для экземпляра BmpOptions
+//Второй логический параметр определяет, является ли создаваемый файл временным или нет
 bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"C:\temp\sample.bmp", false);
 
- //Создать экземпляр изображения по указанному пути
+//Создаем экземпляр изображения по указанному пути
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
 {
-     //Создаем экземпляр Graphics и инициализируем его изображением object
+    //Создаем экземпляр Graphics и инициализируем его объектом Image
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
 
-     // Очистить графическую поверхность с помощью белого цвета
+    // Очистить графическую поверхность белым цветом
     graphics.Clear(Aspose.Imaging.Color.White);
 
-     //Создаем экземпляр Pen красного цвета и ширины 5
+    //Создаем экземпляр Pen красного цвета и ширины 5
     Aspose.Imaging.Pen pen = new Aspose.Imaging.Pen(Aspose.Imaging.Color.Red, 5f);
 
-     //Создаем экземпляр HatchBrush и устанавливаем его свойства
+    //Создаем экземпляр HatchBrush и устанавливаем его свойства
     Aspose.Imaging.Brushes.HatchBrush brush = new Aspose.Imaging.Brushes.HatchBrush();
     brush.BackgroundColor = Aspose.Imaging.Color.Wheat;
     brush.ForegroundColor = Aspose.Imaging.Color.Red;
 
-     //Создаем экземпляр Pen
-     //инициализируем его с помощью объекта HatchBrush и width
+    //Создаем экземпляр пера
+    // инициализируем его объектом HatchBrush и шириной
     Aspose.Imaging.Pen brusedpen = new Pen(brush, 5);
 
-     // Рисуем прямоугольники, указав Pen object
+    // Рисуем прямоугольники, указав объект Pen
     graphics.DrawRectangles(pen, new[]
     {
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(210, 210), new Aspose.Imaging.Size(100, 100)),
@@ -98,14 +98,14 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(310, 310), new Aspose.Imaging.Size(100, 100))
     });
 
-     // Рисуем прямоугольники, указав Pen object
+    // Рисуем прямоугольники, указав объект Pen
     graphics.DrawRectangles(brusedpen, new[]
     {
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(310, 110), new Aspose.Imaging.Size(100, 100)),
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(110, 310), new Aspose.Imaging.Size(100, 100))
     });
 
-     // сохранить все изменения.
+    // сохранить все изменения.
     image.Save();
 }
 ```

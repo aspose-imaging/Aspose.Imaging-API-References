@@ -3,7 +3,7 @@ title: PdfComplianceVersion
 second_title: Aspose.Imaging for .NET API 参考
 description: 指定输出文件的 PDF 合规级别
 type: docs
-weight: 10690
+weight: 10680
 url: /zh/net/aspose.imaging/pdfcomplianceversion/
 ---
 ## PdfComplianceVersion enumeration

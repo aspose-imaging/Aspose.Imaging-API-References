@@ -1,14 +1,14 @@
 ---
 title: IhPalette
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数该整数指定 EMF 对象表中逻辑调色板对象 第 2.2.17 节的索引第 3.1.1.1 节
+description: 获取或设置一个 32 位无符号整数指定 EMF 对象表第 3.1.1.1 节中逻辑调色板对象 第 2.2.17 节的索引
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/ihpalette/
 ---
 ## EmfColorCorrectPalette.IhPalette property
 
-获取或设置一个 32 位无符号整数，该整数指定 EMF 对象表中逻辑调色板对象 （第 2.2.17 节）的索引（第 3.1.1.1 节）。
+获取或设置一个 32 位无符号整数，指定 EMF 对象表（第 3.1.1.1 节）中逻辑调色板对象 （第 2.2.17 节）的索引。
 
 ```csharp
 public int IhPalette { get; set; }

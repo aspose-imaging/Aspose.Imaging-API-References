@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSetTextRenderingHint
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusSetTextRenderingHintaspose.imaging.fileformats.emf.emfplus.records/emfplussettextrenderinghint.
+description: Инициализирует новый экземплярEmfPlusSetTextRenderingHintaspose.imaging.fileformats.emf.emfplus.records/emfplussettextrenderinghint класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettextrenderinghint/emfplussettextrenderinghint/
 ---
 ## EmfPlusSetTextRenderingHint constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusSetTextRenderingHint`](../../emfplussettextrenderinghint).
+Инициализирует новый экземпляр[`EmfPlusSetTextRenderingHint`](../../emfplussettextrenderinghint) класс.
 
 ```csharp
 public EmfPlusSetTextRenderingHint(EmfPlusRecord source)

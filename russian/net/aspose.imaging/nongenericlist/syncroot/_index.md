@@ -1,14 +1,14 @@
 ---
 title: SyncRoot
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает объект который можно использовать для синхронизации доступа кICollection.
+description: Получает объект который можно использовать для синхронизации доступа кICollection .
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging/nongenericlist/syncroot/
 ---
 ## NonGenericList.SyncRoot property
 
-Получает объект, который можно использовать для синхронизации доступа кICollection.
+Получает объект, который можно использовать для синхронизации доступа кICollection .
 
 ```csharp
 public object SyncRoot { get; }

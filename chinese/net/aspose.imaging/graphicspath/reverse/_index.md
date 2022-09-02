@@ -1,14 +1,14 @@
 ---
 title: Reverse
 second_title: Aspose.Imaging for .NET API 参考
-description: 反转此GraphicsPathaspose.imaging/graphicspath的每个形状中的图形形状和点的顺序
+description: 颠倒每个形状中的图形形状和点的顺序GraphicsPathaspose.imaging/graphicspath .
 type: docs
 weight: 160
 url: /zh/net/aspose.imaging/graphicspath/reverse/
 ---
 ## GraphicsPath.Reverse method
 
-反转此[`GraphicsPath`](../../graphicspath)的每个形状中的图形、形状和点的顺序。
+颠倒每个形状中的图形、形状和点的顺序[`GraphicsPath`](../../graphicspath) .
 
 ```csharp
 public void Reverse()

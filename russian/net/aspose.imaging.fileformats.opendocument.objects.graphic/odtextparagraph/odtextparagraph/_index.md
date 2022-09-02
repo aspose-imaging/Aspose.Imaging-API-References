@@ -1,14 +1,14 @@
 ---
 title: OdTextParagraph
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdTextParagraphaspose.imaging.fileformats.opendocument.objects.graphic/odtextparagraph.
+description: Инициализирует новый экземплярOdTextParagraphaspose.imaging.fileformats.opendocument.objects.graphic/odtextparagraph класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odtextparagraph/odtextparagraph/
 ---
 ## OdTextParagraph constructor
 
-Инициализирует новый экземпляр класса[`OdTextParagraph`](../../odtextparagraph).
+Инициализирует новый экземпляр[`OdTextParagraph`](../../odtextparagraph) класс.
 
 ```csharp
 public OdTextParagraph(OdObject parent)

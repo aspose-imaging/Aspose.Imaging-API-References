@@ -1,14 +1,14 @@
 ---
 title: WriteDoubleArray
 second_title: Aspose.Imaging for .NET API 参考
-description: 将一个双精度值数组写入流
+description: 将双精度值数组写入流
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writedoublearray/
 ---
 ## TiffStreamWriter.WriteDoubleArray method
 
-将一个双精度值数组写入流。
+将双精度值数组写入流。
 
 ```csharp
 public void WriteDoubleArray(double[] data)

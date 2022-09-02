@@ -1,14 +1,14 @@
 ---
 title: CustomLineCap
 second_title: Aspose.Imaging for .NET API 参考
-description: 封装自定义的用户定义的线帽
+description: 封装了一个自定义的用户定义的线帽
 type: docs
 weight: 770
 url: /zh/net/aspose.imaging/customlinecap/
 ---
 ## CustomLineCap class
 
-封装自定义的用户定义的线帽。
+封装了一个自定义的用户定义的线帽。
 
 ```csharp
 public class CustomLineCap
@@ -18,20 +18,20 @@ public class CustomLineCap
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CustomLineCap](customlinecap#constructor)(GraphicsPath, GraphicsPath) | 使用指定的轮廓和填充初始化[`CustomLineCap`](../customlinecap)类的新实例。 |
-| [CustomLineCap](customlinecap#constructor_1)(GraphicsPath, GraphicsPath, LineCap) | 从指定的现有Aspose初始化R5:T:Aspose.Imaging.CustomLineCap:::类的新实例。 Imaging.LineCap:::枚举具有指定的轮廓和填充。 |
-| [CustomLineCap](customlinecap#constructor_2)(GraphicsPath, GraphicsPath, LineCap, float) | 从指定的现有Aspose初始化R5:T:Aspose.Imaging.CustomLineCap:::类的新实例。 Imaging.LineCap:::具有指定轮廓、填充和插图的枚举。 |
+| [CustomLineCap](customlinecap#constructor)(GraphicsPath, GraphicsPath) | 初始化[`CustomLineCap`](../customlinecap)具有指定轮廓和填充的类。 |
+| [CustomLineCap](customlinecap#constructor_1)(GraphicsPath, GraphicsPath, LineCap) | 初始化[`CustomLineCap`](../customlinecap)来自指定现有的类[`LineCap`](../linecap)具有指定轮廓和填充的枚举。 |
+| [CustomLineCap](customlinecap#constructor_2)(GraphicsPath, GraphicsPath, LineCap, float) | 初始化[`CustomLineCap`](../customlinecap)来自指定现有的类[`LineCap`](../linecap)具有指定轮廓、填充和插图的枚举。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BaseCap](../../aspose.imaging/customlinecap/basecap) { get; set; } | 获取或设置[`LineCap`](../linecap)枚举，此[`CustomLineCap`](../customlinecap)基于。 |
-| [BaseInset](../../aspose.imaging/customlinecap/baseinset) { get; set; } | 获取或设置帽和线之间的距离。 |
-| [FillPath](../../aspose.imaging/customlinecap/fillpath) { get; set; } | 获取或设置定义自定义上限填充的对象。 |
-| [StrokeJoin](../../aspose.imaging/customlinecap/strokejoin) { get; set; } | 获取或设置[`LineJoin`](../linejoin)枚举，确定如何组成此CustomLineCap对象被加入。 |
-| [StrokePath](../../aspose.imaging/customlinecap/strokepath) { get; set; } | 获取或设置定义自定义上限轮廓的对象。 |
-| [WidthScale](../../aspose.imaging/customlinecap/widthscale) { get; set; } | 获取或设置此[`CustomLineCap`](../customlinecap)类对象相对于宽度的缩放量Pen对象。 |
+| [BaseCap](../../aspose.imaging/customlinecap/basecap) { get; set; } | 获取或设置[`LineCap`](../linecap)这个枚举[`CustomLineCap`](../customlinecap)基于. |
+| [BaseInset](../../aspose.imaging/customlinecap/baseinset) { get; set; } | 获取或设置帽子和线之间的距离。 |
+| [FillPath](../../aspose.imaging/customlinecap/fillpath) { get; set; } | 获取或设置为自定义帽定义填充的对象。 |
+| [StrokeJoin](../../aspose.imaging/customlinecap/strokejoin) { get; set; } | 获取或设置[`LineJoin`](../linejoin)枚举，它决定了如何组成这个的行[`CustomLineCap`](../customlinecap)对象已加入。 |
+| [StrokePath](../../aspose.imaging/customlinecap/strokepath) { get; set; } | 获取或设置定义自定义帽盖轮廓的对象。 |
+| [WidthScale](../../aspose.imaging/customlinecap/widthscale) { get; set; } | 获取或设置缩放的数量[`CustomLineCap`](../customlinecap)类对象相对于宽度的Pen对象. |
 
 ## 方法
 

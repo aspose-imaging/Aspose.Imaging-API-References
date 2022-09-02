@@ -16,7 +16,7 @@ public string PhotoInterpretation { get; }
 
 ### 适当的价值
 
-“照片解释”的值。
+“照片解释”的a值。
 
 ### 也可以看看
 

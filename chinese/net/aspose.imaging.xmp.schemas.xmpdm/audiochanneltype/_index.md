@@ -3,7 +3,7 @@ title: AudioChannelType
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示音频通道类型
 type: docs
-weight: 11360
+weight: 11350
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/audiochanneltype/
 ---
 ## AudioChannelType class
@@ -18,7 +18,7 @@ public sealed class AudioChannelType
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [Audio16Channel](../../aspose.imaging.xmp.schemas.xmpdm/audiochanneltype/audio16channel) { get; } | 获取 16 个音频通道。 |
+| static [Audio16Channel](../../aspose.imaging.xmp.schemas.xmpdm/audiochanneltype/audio16channel) { get; } | 获取16个音频通道。 |
 | static [Audio51](../../aspose.imaging.xmp.schemas.xmpdm/audiochanneltype/audio51) { get; } | 获取 5.1 音频通道。 |
 | static [Audio71](../../aspose.imaging.xmp.schemas.xmpdm/audiochanneltype/audio71) { get; } | 获取 7.1 音频通道。 |
 | static [Mono](../../aspose.imaging.xmp.schemas.xmpdm/audiochanneltype/mono) { get; } | 获取单声道音频通道。 |
@@ -29,7 +29,7 @@ public sealed class AudioChannelType
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.imaging.xmp.schemas.xmpdm/audiochanneltype/tostring)() | 返回代表此实例的String。 |
+| override [ToString](../../aspose.imaging.xmp.schemas.xmpdm/audiochanneltype/tostring)() | 返回一个String代表这个实例。 |
 
 ### 也可以看看
 

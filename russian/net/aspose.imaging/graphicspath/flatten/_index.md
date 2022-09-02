@@ -1,14 +1,14 @@
 ---
 title: Flatten
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Преобразует каждую кривую на этом пути в последовательность соединенных отрезков.
+description: Преобразует каждую кривую на этом пути в последовательность соединенных сегментов линии.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging/graphicspath/flatten/
 ---
 ## Flatten() {#flatten}
 
-Преобразует каждую кривую на этом пути в последовательность соединенных отрезков.
+Преобразует каждую кривую на этом пути в последовательность соединенных сегментов линии.
 
 ```csharp
 public void Flatten()
@@ -24,7 +24,7 @@ public void Flatten()
 
 ## Flatten(Matrix) {#flatten_1}
 
-Применяет указанное преобразование, а затем преобразует каждую кривую в этом[`GraphicsPath`](../../graphicspath)в последовательность соединенных сегментов линии.
+Применяет указанное преобразование, а затем преобразует каждую кривую в этот[`GraphicsPath`](../../graphicspath) в последовательность соединенных отрезков линии.
 
 ```csharp
 public void Flatten(Matrix matrix)
@@ -32,7 +32,7 @@ public void Flatten(Matrix matrix)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| matrix | Matrix | A[`Matrix`](../../matrix)чтобы преобразовать это[`GraphicsPath`](../../graphicspath)перед сведением. |
+| matrix | Matrix | А[`Matrix`](../../matrix) с помощью которого можно преобразовать это[`GraphicsPath`](../../graphicspath) перед уплощением. |
 
 ### Смотрите также
 
@@ -45,7 +45,7 @@ public void Flatten(Matrix matrix)
 
 ## Flatten(Matrix, float) {#flatten_2}
 
-Преобразует каждую кривую в этом[`GraphicsPath`](../../graphicspath)в последовательность соединенных сегментов линии.
+Преобразует каждую кривую в этот[`GraphicsPath`](../../graphicspath) в последовательность соединенных отрезков линии.
 
 ```csharp
 public void Flatten(Matrix matrix, float flatness)
@@ -53,7 +53,7 @@ public void Flatten(Matrix matrix, float flatness)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| matrix | Matrix | A[`Matrix`](../../matrix)чтобы преобразовать это[`GraphicsPath`](../../graphicspath)перед сведением. |
+| matrix | Matrix | А[`Matrix`](../../matrix) с помощью которого можно преобразовать это[`GraphicsPath`](../../graphicspath) перед уплощением. |
 | flatness | Single | Определяет максимально допустимую ошибку между кривой и ее уплощенной аппроксимацией. По умолчанию используется значение 0,25. Уменьшение значения плоскостности увеличит количество отрезков линии в аппроксимации. |
 
 ### Смотрите также

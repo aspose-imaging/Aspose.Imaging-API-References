@@ -16,7 +16,7 @@ public void SetCompleteCallback(CompleteCallback completeCallback)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| completeCallback | CompleteCallback | 完成回调。 |
+| completeCallback | CompleteCallback | 完整的回调。 |
 
 ### 也可以看看
 

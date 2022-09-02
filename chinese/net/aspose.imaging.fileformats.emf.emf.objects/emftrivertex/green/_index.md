@@ -1,14 +1,14 @@
 ---
 title: Green
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定点的绿色值的 16 位无符号整数
+description: 获取或设置一个 16 位无符号整数指定点的绿色值
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emftrivertex/green/
 ---
 ## EmfTriVertex.Green property
 
-获取或设置指定点的绿色值的 16 位无符号整数。
+获取或设置一个 16 位无符号整数，指定点的绿色值。
 
 ```csharp
 public short Green { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: LoadPartialArgb32Pixels
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Загружает 32-битные ARGB-пиксели частично пачками.
+description: Загружает 32-битные пиксели ARGB частично по пакетам.
 type: docs
 weight: 390
 url: /ru/net/aspose.imaging/rasterimage/loadpartialargb32pixels/
 ---
 ## RasterImage.LoadPartialArgb32Pixels method
 
-Загружает 32-битные ARGB-пиксели частично пачками.
+Загружает 32-битные пиксели ARGB частично по пакетам.
 
 ```csharp
 public void LoadPartialArgb32Pixels(Rectangle rectangle, 
@@ -17,7 +17,7 @@ public void LoadPartialArgb32Pixels(Rectangle rectangle,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rectangle | Rectangle | Искомый прямоугольник. |
+| rectangle | Rectangle | Желаемый прямоугольник. |
 | partialPixelLoader | IPartialArgb32PixelLoader | 32-битный загрузчик пикселей ARGB. |
 
 ### Примеры
@@ -31,29 +31,29 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\alpha.pn
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-     // Создаем экземпляр Aspose.Imaging.IPartialArgb32PixelLoader и передаем его Aspose.Imaging.RasterImage.LoadPartialArgb32Pixels
+    // Создаем экземпляр Aspose.Imaging.IPartialArgb32PixelLoader и передаем его Aspose.Imaging.RasterImage.LoadPartialArgb32Pixels
     TransparentArgb32PixelCounter counter = new TransparentArgb32PixelCounter();
 
-     // Загрузить пиксели для всего изображения. Любая прямоугольная часть изображения может быть указана в качестве первого параметра метода Aspose.Imaging.RasterImage.LoadPartialArgb32Pixels.
+    // Загрузить пиксели для всего изображения. Любая прямоугольная часть изображения может быть указана в качестве первого параметра метода Aspose.Imaging.RasterImage.LoadPartialArgb32Pixels.
     rasterImage.LoadPartialArgb32Pixels(rasterImage.Bounds, counter);
 
     System.Console.WriteLine("The number of fully transparent pixels is {0}", counter.Count);
     System.Console.WriteLine("The total number of pixels is {0}", image.Width * image.Height);
 }
 
- // Счетчик может выглядеть так: 
+// Счетчик может выглядеть так:        
 /// <summary>
- /// Подсчитывает количество полностью прозрачных пикселей со значением альфа-канала 0.
+/// Подсчитывает количество полностью прозрачных пикселей со значением альфа-канала, равным 0.
 /// </summary>
 private class TransparentArgb32PixelCounter : IPartialArgb32PixelLoader
 {
     /// <summary>
-     /// Количество полностью прозрачных пикселей.
+    /// Количество полностью прозрачных пикселей.
     /// </summary>
     private int count;
 
     /// <summary>
-     /// Получает количество полностью прозрачных пикселей.
+    /// Получает количество полностью прозрачных пикселей.
     /// </summary>
     public int Count
     {
@@ -63,10 +63,10 @@ private class TransparentArgb32PixelCounter : IPartialArgb32PixelLoader
     /// <summary>
     /// Обрабатывает загруженные пиксели. Этот метод вызывается каждый раз, когда загружается новая порция пикселей.
     /// </summary>
-     /// <param name="pixelsRectangle">Прямоугольник в пикселях.</param>
-     /// <param name="pixels">32-битные пиксели ARGB.</param>
-     /// <param name="start">Точка начального пикселя.</param>
-     /// <param name="end">Конечная точка пикселей.</param>
+    /// <param name="pixelsRectangle">Прямоугольник в пикселях.</param>
+    /// <param name="pixels">32-битные пиксели ARGB.</param>
+    /// <param name="start">Начальная точка пикселей.</param>
+    /// <param name="end">Конечная точка пикселей.</param>
     public void Process(Aspose.Imaging.Rectangle pixelsRectangle, int[] pixels, Aspose.Imaging.Point start, Aspose.Imaging.Point end)
     {
         foreach (int pixel in pixels)

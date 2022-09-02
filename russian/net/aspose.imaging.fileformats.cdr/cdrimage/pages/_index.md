@@ -25,27 +25,19 @@ public override Image[] Pages { get; }
 ```csharp
 [C#]
 
-int pageNumber = 0;
-string dir = "c:\\aspose.imaging\\issues\\net\\3635\\testdata\\3570";
-string inputCdrFileName = System.IO.Path.Combine(dir, "tiger.cdr");
-string outputPdfFileName = System.IO.Path.Combine(dir, "tiger.cdr.page" + pageNumber + ".pdf");
+string dir = "c:\\temp\\";
 
-using (Aspose.Imaging.FileFormats.Cdr.CdrImage image = (Aspose.Imaging.FileFormats.Cdr.CdrImage) Aspose.Imaging.Image.Load(inputCdrFileName))
+// Загрузить изображение из файла CDR.
+using (Aspose.Imaging.FileFormats.Cdr.CdrImage image = (Aspose.Imaging.FileFormats.Cdr.CdrImage)Aspose.Imaging.Image.Load(dir + "sample.cdr"))
 {
-    Aspose.Imaging.FileFormats.Cdr.CdrImagePage imagePage = (Aspose.Imaging.FileFormats.Cdr.CdrImagePage) image.Pages[pageNumber];
+    // Этот вызов кэширует только страницу по умолчанию.
+    image.CacheData();
 
-    Aspose.Imaging.ImageOptions.PdfOptions pdfOptions = new Aspose.Imaging.ImageOptions.PdfOptions();
-    Aspose.Imaging.ImageOptions.CdrRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.CdrRasterizationOptions()
+    // Кэшировать все страницы, чтобы не выполнялась дополнительная загрузка данных из базового потока данных.
+    foreach (Aspose.Imaging.FileFormats.Cdr.CdrImagePage page in image.Pages)
     {
-        TextRenderingHint = Aspose.Imaging.TextRenderingHint.SingleBitPerPixel,
-        SmoothingMode = Aspose.Imaging.SmoothingMode.None
-    };
-
-    pdfOptions.VectorRasterizationOptions = rasterizationOptions;
-    pdfOptions.VectorRasterizationOptions.PageWidth = imagePage.Width;
-    pdfOptions.VectorRasterizationOptions.PageHeight = imagePage.Height;
-
-    imagePage.Save(outputPdfFileName, pdfOptions);
+        page.CacheData();
+    }
 }
 ```
 

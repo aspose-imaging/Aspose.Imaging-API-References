@@ -1,14 +1,14 @@
 ---
 title: ColorChannelFlag
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Задает отдельные каналы в цветовом пространстве CMYK голубой пурпурный желтый черный. Это перечисление используется методами SetOutputChannel.
+description: Определяет отдельные каналы в цветовом пространстве CMYK голубой пурпурный желтый черный. Это перечисление используется методами SetOutputChannel.
 type: docs
 weight: 330
 url: /ru/net/aspose.imaging/colorchannelflag/
 ---
 ## ColorChannelFlag enumeration
 
-Задает отдельные каналы в цветовом пространстве CMYK (голубой, пурпурный, желтый, черный). Это перечисление используется методами SetOutputChannel.
+Определяет отдельные каналы в цветовом пространстве CMYK (голубой, пурпурный, желтый, черный). Это перечисление используется методами SetOutputChannel.
 
 ```csharp
 public enum ColorChannelFlag
@@ -22,7 +22,7 @@ public enum ColorChannelFlag
 | ColorChannelM | `1` | Канал пурпурного цвета. |
 | ColorChannelY | `2` | Канал желтого цвета. |
 | ColorChannelK | `3` | Канал черного цвета. |
-| ColorChannelLast | `4` | Должен использоваться последний выбранный канал. |
+| ColorChannelLast | `4` | Следует использовать последний выбранный канал. |
 
 ### Смотрите также
 

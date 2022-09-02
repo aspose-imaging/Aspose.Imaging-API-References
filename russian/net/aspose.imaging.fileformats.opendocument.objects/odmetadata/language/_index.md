@@ -1,14 +1,14 @@
 ---
 title: Language
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает язык.
+description: Получает или устанавливает язык.
 type: docs
 weight: 140
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects/odmetadata/language/
 ---
 ## OdMetadata.Language property
 
-Получает или задает язык.
+Получает или устанавливает язык.
 
 ```csharp
 public string Language { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: LengthRecord
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаLengthRecordaspose.imaging.fileformats.core.vectorpaths/lengthrecord.
+description: Инициализирует новый экземплярLengthRecordaspose.imaging.fileformats.core.vectorpaths/lengthrecord класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.core.vectorpaths/lengthrecord/lengthrecord/
 ---
 ## LengthRecord(byte[]) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`LengthRecord`](../../lengthrecord).
+Инициализирует новый экземпляр[`LengthRecord`](../../lengthrecord) класс.
 
 ```csharp
 public LengthRecord(byte[] data)
@@ -34,7 +34,7 @@ public LengthRecord(byte[] data)
 
 ## LengthRecord() {#constructor}
 
-Инициализирует новый экземпляр класса[`LengthRecord`](../../lengthrecord).
+Инициализирует новый экземпляр[`LengthRecord`](../../lengthrecord) класс.
 
 ```csharp
 public LengthRecord()

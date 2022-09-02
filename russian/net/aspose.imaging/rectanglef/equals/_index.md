@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Проверяет является лиobjобъектомRectangleFaspose.imaging/rectanglefс тем же расположением и размером этоRectangleFaspose.imaging/rectanglef.
+description: Проверяетobj этоRectangleFaspose.imaging/rectanglef с таким же расположением и размером этогоRectangleFaspose.imaging/rectanglef .
 type: docs
 weight: 200
 url: /ru/net/aspose.imaging/rectanglef/equals/
 ---
 ## RectangleF.Equals method
 
-Проверяет, является ли*obj*объектом[`RectangleF`](../../rectanglef)с тем же расположением и размером это[`RectangleF`](../../rectanglef).
+Проверяет,*obj* это[`RectangleF`](../../rectanglef) с таким же расположением и размером этого[`RectangleF`](../../rectanglef) .
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Objectдля тестирования. |
+| obj | Object | Object тестировать. |
 
 ### Возвращаемое значение
 
-Этот метод возвращает true, если*obj*является[`RectangleF`](../../rectanglef)и его X , свойства Y, Width и Height равны соответствующим свойствам этого[`RectangleF`](../../rectanglef); в противном случае ложно.
+Этот метод возвращает true, если*obj* это[`RectangleF`](../../rectanglef) а его свойства X, Y, Width и Height равны соответствующим свойствам этого[`RectangleF`](../../rectanglef); в противном случае ложно.
 
 ### Смотрите также
 

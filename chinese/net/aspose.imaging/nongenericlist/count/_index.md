@@ -1,14 +1,14 @@
 ---
 title: Count
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取ICollection中包含的元素数
+description: 获取包含在ICollection .
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging/nongenericlist/count/
 ---
 ## NonGenericList.Count property
 
-获取ICollection中包含的元素数。
+获取包含在ICollection .
 
 ```csharp
 public int Count { get; }

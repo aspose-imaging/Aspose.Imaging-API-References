@@ -1,14 +1,14 @@
 ---
 title: IObjectWithSizeF
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示大小为实数以英寸为单位的对象
+description: 表示大小为实数英寸的对象
 type: docs
-weight: 10350
+weight: 10340
 url: /zh/net/aspose.imaging.interfaces/iobjectwithsizef/
 ---
 ## IObjectWithSizeF interface
 
-表示大小为实数（以英寸为单位）的对象。
+表示大小为实数（英寸）的对象。
 
 ```csharp
 public interface IObjectWithSizeF

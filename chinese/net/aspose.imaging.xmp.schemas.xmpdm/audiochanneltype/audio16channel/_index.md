@@ -1,14 +1,14 @@
 ---
 title: Audio16Channel
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取 16 个音频通道
+description: 获取16个音频通道
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/audiochanneltype/audio16channel/
 ---
 ## AudioChannelType.Audio16Channel property
 
-获取 16 个音频通道。
+获取16个音频通道。
 
 ```csharp
 public static AudioChannelType Audio16Channel { get; }

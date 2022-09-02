@@ -1,14 +1,14 @@
 ---
 title: XmpHeaderPi
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化XmpHeaderPiaspose.imaging.xmp/xmpheaderpi类的新实例
+description: 初始化XmpHeaderPiaspose.imaging.xmp/xmpheaderpi类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp/xmpheaderpi/xmpheaderpi/
 ---
 ## XmpHeaderPi() {#constructor}
 
-初始化[`XmpHeaderPi`](../../xmpheaderpi)类的新实例。
+初始化[`XmpHeaderPi`](../../xmpheaderpi)类.
 
 ```csharp
 public XmpHeaderPi()
@@ -24,7 +24,7 @@ public XmpHeaderPi()
 
 ## XmpHeaderPi(string) {#constructor_1}
 
-初始化[`XmpHeaderPi`](../../xmpheaderpi)类的新实例。
+初始化[`XmpHeaderPi`](../../xmpheaderpi)类.
 
 ```csharp
 public XmpHeaderPi(string guid)

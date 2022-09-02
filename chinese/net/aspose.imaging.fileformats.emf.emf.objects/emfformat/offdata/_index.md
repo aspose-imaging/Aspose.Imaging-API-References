@@ -1,14 +1,14 @@
 ---
 title: OffData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 32 位无符号整数该整数指定从 EMR_COMMENT_PUBLIC 记录中标识符字段的 开始到数据的偏移量部分2.3.3.4 偏移量必须是 32 位对齐的
+description: 获取或设置 32 位无符号整数它指定从 EMR_COMMENT_PUBLIC 记录中标识符字段的 开始的数据偏移量第 2.3.3.4 节 偏移量必须是 32 位对齐的
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfformat/offdata/
 ---
 ## EmfFormat.OffData property
 
-获取或设置 32 位无符号整数，该整数指定从 EMR_COMMENT_PUBLIC 记录中标识符字段的 开始到数据的偏移量（部分2.3.3.4)。 偏移量必须是 32 位对齐的。
+获取或设置 32 位无符号整数，它指定从 EMR_COMMENT_PUBLIC 记录中标识符字段的 开始的数据偏移量（第 2.3.3.4 节）。 偏移量必须是 32 位对齐的。
 
 ```csharp
 public int OffData { get; set; }

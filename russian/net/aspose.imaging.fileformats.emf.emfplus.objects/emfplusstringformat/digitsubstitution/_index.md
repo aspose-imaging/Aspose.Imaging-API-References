@@ -1,14 +1,14 @@
 ---
 title: DigitSubstitution
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее как заменять числовые цифры в строке в соответствии с языковым стандартом или языком. Это значение ДОЛЖНО быть определено в перечислении StringDigitSubstitution раздел 2.1.1.30.
+description: Получает или задает 32-разрядное целое число без знака указывающее как заменять числовые цифры в строке в соответствии с локалью или языком. Это значение ДОЛЖНО быть определено в перечислении StringDigitSubstitution раздел 2.1.1.30.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/digitsubstitution/
 ---
 ## EmfPlusStringFormat.DigitSubstitution property
 
-Получает или задает 32-разрядное целое число без знака, указывающее, как заменять числовые цифры в строке в соответствии с языковым стандартом или языком. Это значение ДОЛЖНО быть определено в перечислении StringDigitSubstitution (раздел 2.1.1.30).
+Получает или задает 32-разрядное целое число без знака, указывающее, как заменять числовые цифры в строке в соответствии с локалью или языком. Это значение ДОЛЖНО быть определено в перечислении StringDigitSubstitution (раздел 2.1.1.30).
 
 ```csharp
 public EmfPlusStringDigitSubstitution DigitSubstitution { get; set; }

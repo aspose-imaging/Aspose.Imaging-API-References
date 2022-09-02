@@ -18,8 +18,8 @@ public sealed class TiffASCIIType : TiffDataType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TiffASCIIType](tiffasciitype#constructor)(TiffTags) | 初始化[`TiffASCIIType`](../tiffasciitype)类的新实例。 |
-| [TiffASCIIType](tiffasciitype#constructor_1)(ushort) | 初始化[`TiffASCIIType`](../tiffasciitype)类的新实例。 |
+| [TiffASCIIType](tiffasciitype#constructor)(TiffTags) | 初始化[`TiffASCIIType`](../tiffasciitype)类. |
+| [TiffASCIIType](tiffasciitype#constructor_1)(ushort) | 初始化[`TiffASCIIType`](../tiffasciitype)类. |
 
 ## 特性
 
@@ -28,9 +28,9 @@ public sealed class TiffASCIIType : TiffDataType
 | [AlignedDataSize](../../aspose.imaging.fileformats.tiff/tiffdatatype/aligneddatasize) { get; } | 获取以字节为单位的附加数据大小（如果 12 个字节不足以容纳标签数据）。 |
 | override [Count](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffasciitype/count) { get; } | 获取元素的计数。 |
 | override [DataSize](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffasciitype/datasize) { get; } | 获取以字节为单位的附加数据大小（如果 12 个字节不足以容纳标签数据）。 |
-| [Id](../../aspose.imaging.fileformats.tiff/tiffdatatype/id) { get; } | 获取标签 ID 整数表示。 |
-| [IsValid](../../aspose.imaging.fileformats.tiff/tiffdatatype/isvalid) { get; } | 获取标签数据是否有效的值。有效标签包含可以保留的数据。无法存储无效标签。 |
-| [TagId](../../aspose.imaging.fileformats.tiff/tiffdatatype/tagid) { get; } | 获取标签 ID。 |
+| [Id](../../aspose.imaging.fileformats.tiff/tiffdatatype/id) { get; } | 获取标签 id 整数表示。 |
+| [IsValid](../../aspose.imaging.fileformats.tiff/tiffdatatype/isvalid) { get; } | 获取一个值，该值指示标签数据是否有效。有效标签包含可以保留的数据。无法存储无效标签。 |
+| [TagId](../../aspose.imaging.fileformats.tiff/tiffdatatype/tagid) { get; } | 获取标签id。 |
 | override [TagType](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffasciitype/tagtype) { get; } | 获取标签类型。 |
 | [Text](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffasciitype/text) { get; set; } | 获取或设置文本。 |
 | override [Value](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffasciitype/value) { get; set; } | 获取或设置此数据类型包含的值。 |
@@ -39,9 +39,9 @@ public sealed class TiffASCIIType : TiffDataType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CompareTo](../../aspose.imaging.fileformats.tiff/tiffdatatype/compareto)(object) | 将当前实例与另一个相同类型的对象进行比较，并返回一个整数，指示当前实例在排序顺序中是在相同位置之前、之后还是出现在相同位置作为另一个对象。 |
+| [CompareTo](../../aspose.imaging.fileformats.tiff/tiffdatatype/compareto)(object) | 将当前实例与另一个相同类型的对象进行比较，并返回一个整数，指示当前实例在排序顺序中是在与另一个对象相同的位置之前、之后还是出现在相同的位置。 |
 | virtual [DeepClone](../../aspose.imaging.fileformats.tiff/tiffdatatype/deepclone)() | 执行此实例的深度克隆。 |
-| override [ToString](../../aspose.imaging.fileformats.tiff/tiffdatatype/tostring)() | 返回代表此实例的String。 |
+| override [ToString](../../aspose.imaging.fileformats.tiff/tiffdatatype/tostring)() | 返回一个String代表这个实例。 |
 | override [WriteAdditionalData](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffasciitype/writeadditionaldata)(TiffStreamWriter) | 写入附加标签数据。 |
 | [WriteTag](../../aspose.imaging.fileformats.tiff/tiffdatatype/writetag)(TiffStreamWriter, long) | 写入标签数据。 |
 

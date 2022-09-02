@@ -1,14 +1,14 @@
 ---
 title: ColorMatrix
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化ColorMatrixaspose.imaging/colormatrix类的新实例
+description: 初始化ColorMatrixaspose.imaging/colormatrix类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/colormatrix/colormatrix/
 ---
 ## ColorMatrix() {#constructor}
 
-初始化[`ColorMatrix`](../../colormatrix)类的新实例。
+初始化[`ColorMatrix`](../../colormatrix)类.
 
 ```csharp
 public ColorMatrix()
@@ -24,7 +24,7 @@ public ColorMatrix()
 
 ## ColorMatrix(float[][]) {#constructor_1}
 
-使用指定矩阵:::R9:newColorMatrix中的元素初始化[`ColorMatrix`](../../colormatrix)类的新实例:::。
+初始化[`ColorMatrix`](../../colormatrix)使用指定矩阵中的元素进行类*newColorMatrix* .
 
 ```csharp
 public ColorMatrix(float[][] newColorMatrix)
@@ -32,7 +32,7 @@ public ColorMatrix(float[][] newColorMatrix)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newColorMatrix | Single[][] | 新[`ColorMatrix`](../../colormatrix)的元素值。 |
+| newColorMatrix | Single[][] | 新元素的值[`ColorMatrix`](../../colormatrix). |
 
 ### 也可以看看
 

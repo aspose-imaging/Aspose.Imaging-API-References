@@ -1,14 +1,14 @@
 ---
 title: PageScale
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此 Aspose.Imaging.Graphics 的世界单位和页面单位之间的缩放比例
+description: 获取或设置此 Aspose.Imaging.Graphics. 的世界单位和页面单位之间的缩放比例
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging/graphics/pagescale/
 ---
 ## Graphics.PageScale property
 
-获取或设置此 Aspose.Imaging.Graphics 的世界单位和页面单位之间的缩放比例。
+获取或设置此 Aspose.Imaging.Graphics. 的世界单位和页面单位之间的缩放比例
 
 ```csharp
 public float PageScale { get; set; }
@@ -16,7 +16,7 @@ public float PageScale { get; set; }
 
 ### 适当的价值
 
-此 Aspose.Imaging.Graphics 的世界单位和页面单位之间的缩放比例。
+这个 Aspose.Imaging.Graphics. 的世界单位和页面单位之间的缩放比例
 
 ### 也可以看看
 

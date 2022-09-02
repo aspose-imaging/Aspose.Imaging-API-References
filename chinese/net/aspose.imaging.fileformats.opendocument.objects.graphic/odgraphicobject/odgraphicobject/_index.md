@@ -1,14 +1,14 @@
 ---
 title: OdGraphicObject
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化OdGraphicObjectaspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject类的新实例
+description: 初始化OdGraphicObjectaspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/odgraphicobject/
 ---
 ## OdGraphicObject constructor
 
-初始化[`OdGraphicObject`](../../odgraphicobject)类的新实例。
+初始化[`OdGraphicObject`](../../odgraphicobject)类.
 
 ```csharp
 public OdGraphicObject(OdObject parent)
@@ -16,7 +16,7 @@ public OdGraphicObject(OdObject parent)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | OdObject | 父级。 |
+| parent | OdObject | 家长。 |
 
 ### 也可以看看
 

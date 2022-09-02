@@ -18,14 +18,14 @@ public sealed class EmfMoveToEx : EmfRecord
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfMoveToEx](emfmovetoex#constructor)() | 初始化[`EmfMoveToEx`](../emfmovetoex)类的新实例。 |
-| [EmfMoveToEx](emfmovetoex#constructor_1)(EmfRecord) | 初始化[`EmfMoveToEx`](../emfmovetoex)类的新实例。 |
+| [EmfMoveToEx](emfmovetoex#constructor)() | 初始化[`EmfMoveToEx`](../emfmovetoex)类. |
+| [EmfMoveToEx](emfmovetoex#constructor_1)(EmfRecord) | 初始化[`EmfMoveToEx`](../emfmovetoex)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Offset](../../aspose.imaging.fileformats.emf.emf.records/emfmovetoex/offset) { get; set; } | 获取或设置一个 64 位 WMF PointL 对象，在 [MS-WMF] 第 2.2.2.15 节中指定， 指定坐标逻辑单元中的新当前位置。 |
+| [Offset](../../aspose.imaging.fileformats.emf.emf.records/emfmovetoex/offset) { get; set; } | 获取或设置一个 64 位 WMF PointL 对象，在 [MS-WMF] 第 2.2.2.15 节中指定， 以逻辑单位指定新当前位置的坐标。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

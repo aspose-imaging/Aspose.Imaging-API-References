@@ -32,7 +32,7 @@ public void ClearColorKey(ColorAdjustType type)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| type | ColorAdjustType | [`ColorAdjustType`](../../coloradjusttype)的一个元素，它指定了其所属的类别颜色键被清除。 |
+| type | ColorAdjustType | 一个元素[`ColorAdjustType`](../../coloradjusttype)指定清除颜色键的类别。 |
 
 ### 也可以看看
 

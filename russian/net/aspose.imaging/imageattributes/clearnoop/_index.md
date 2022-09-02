@@ -32,7 +32,7 @@ public void ClearNoOp(ColorAdjustType type)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype), указывающий категорию, для которой Настройка NoOp очищена. |
+| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype) который указывает категорию, для которой параметр NoOp очищается. |
 
 ### Смотрите также
 

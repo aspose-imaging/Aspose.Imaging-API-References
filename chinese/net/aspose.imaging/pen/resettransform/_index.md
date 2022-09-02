@@ -1,14 +1,14 @@
 ---
 title: ResetTransform
 second_title: Aspose.Imaging for .NET API 参考
-description: 将此Penaspose.imaging/pen的几何变换矩阵重置为恒等式
+description: 为此重置几何变换矩阵Penaspose.imaging/pen身份.
 type: docs
 weight: 200
 url: /zh/net/aspose.imaging/pen/resettransform/
 ---
 ## Pen.ResetTransform method
 
-将此[`Pen`](../../pen)的几何变换矩阵重置为恒等式。
+为此重置几何变换矩阵[`Pen`](../../pen)身份.
 
 ```csharp
 public void ResetTransform()

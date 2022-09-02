@@ -1,14 +1,14 @@
 ---
 title: DriverStringOptionsFlags
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает флаги параметров строки драйвера 32-разрядное целое число без знака указывающее интервал ориентацию и качество рендеринга строки. .
+description: Получает или задает параметры строки драйвера. flags 32-разрядное целое число без знака указывающее интервал ориентацию и качество отображения строки.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/driverstringoptionsflags/
 ---
 ## EmfPlusDrawDriverString.DriverStringOptionsFlags property
 
-Получает или устанавливает флаги параметров строки драйвера 32-разрядное целое число без знака, указывающее интервал, ориентацию и качество рендеринга строки. .
+Получает или задает параметры строки драйвера. flags 32-разрядное целое число без знака, указывающее интервал, ориентацию и качество отображения строки.
 
 ```csharp
 public EmfPlusDriverStringOptionsFlags DriverStringOptionsFlags { get; set; }

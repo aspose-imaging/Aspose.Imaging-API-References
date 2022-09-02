@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив размера cbName  cbData в байтах который указывает имя ASCII и необработанные данные желаемого цветового профиля .
+description: Получает или задает массив размера cbName  cbData в байтах который указывает имя ASCII и необработанные данные желаемого цветового профиля.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/data/
 ---
 ## EmfSetIcmProfileA.Data property
 
-Получает или задает массив размера (cbName + cbData) в байтах, который указывает имя ASCII и необработанные данные желаемого цветового профиля .
+Получает или задает массив размера (cbName + cbData) в байтах, который указывает имя ASCII и необработанные данные желаемого цветового профиля.
 
 ```csharp
 public byte[] Data { get; set; }

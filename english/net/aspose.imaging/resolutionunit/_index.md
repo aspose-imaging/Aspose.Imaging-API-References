@@ -3,7 +3,7 @@ title: ResolutionUnit
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10880
+weight: 10900
 url: /net/aspose.imaging/resolutionunit/
 ---
 ## ResolutionUnit enumeration

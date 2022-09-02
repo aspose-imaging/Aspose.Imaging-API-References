@@ -8,7 +8,7 @@ url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emflogpenex/brushstyle/
 ---
 ## EmfLogPenEx.BrushStyle property
 
-Получает или задает 32-разрядное целое число без знака, указывающее стиль кисти для пера из перечисления WMF BrushStyle ([MS-WMF] раздел 2.1.1.4). Если тип пера в поле PenStyle — PS_GEOMETRIC, это значение ДОЛЖНО быть либо BS_SOLID, либо BS_HATCHED. Значение этого поля может быть BS_NULL, но только если стиль линии , указанный в PenStyle, равен PS_NULL. Стиль BS_NULL СЛЕДУЕТ использовать для указания кисти, которая не имеет эффекта.
+Получает или задает 32-разрядное целое число без знака, указывающее стиль кисти для пера из перечисления WMF BrushStyle ([MS-WMF], раздел 2.1.1.4). Если тип пера в поле PenStyle — PS_GEOMETRIC, это значение ДОЛЖНО быть либо BS_SOLID, либо BS_HATCHED. Значение этого поля может быть BS_NULL, но только если стиль линии , указанный в PenStyle, равен PS_NULL. Стиль BS_NULL СЛЕДУЕТ использовать для указания кисти, которая не имеет эффекта.
 
 ```csharp
 public WmfBrushStyle BrushStyle { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: RotateFlip
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Флип с поворотом.
+description: Переворот с поворотом.
 type: docs
 weight: 360
 url: /ru/net/aspose.imaging.fileformats.tga/tgaimage/rotateflip/
 ---
 ## TgaImage.RotateFlip method
 
-Флип с поворотом.
+Переворот с поворотом.
 
 ```csharp
 public override void RotateFlip(RotateFlipType rotateFlipType)

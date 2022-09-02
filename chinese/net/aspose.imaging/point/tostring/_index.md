@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Imaging for .NET API 参考
-description: 将此Pointaspose.imaging/point转换为人类可读的字符串
+description: 转换这个Pointaspose.imaging/point到一个人类可读的字符串
 type: docs
 weight: 140
 url: /zh/net/aspose.imaging/point/tostring/
 ---
 ## Point.ToString method
 
-将此[`Point`](../../point)转换为人类可读的字符串。
+转换这个[`Point`](../../point)到一个人类可读的字符串。
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-AString表示此实例。
+一个String代表这个实例。
 
 ### 也可以看看
 

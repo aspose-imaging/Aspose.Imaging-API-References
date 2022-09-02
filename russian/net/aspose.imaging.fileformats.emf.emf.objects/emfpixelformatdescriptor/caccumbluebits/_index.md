@@ -1,14 +1,14 @@
 ---
 title: CAccumBlueBits
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает количество синих битовых плоскостей в буфере накопления.
+description: Получает или задает количество синих битовых плоскостей в буфере накопления.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/caccumbluebits/
 ---
 ## EmfPixelFormatDescriptor.CAccumBlueBits property
 
-Получает или устанавливает количество синих битовых плоскостей в буфере накопления.
+Получает или задает количество синих битовых плоскостей в буфере накопления.
 
 ```csharp
 public byte CAccumBlueBits { get; set; }

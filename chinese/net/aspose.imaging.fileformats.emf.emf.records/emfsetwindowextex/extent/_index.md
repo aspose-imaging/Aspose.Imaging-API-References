@@ -1,14 +1,14 @@
 ---
 title: Extent
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定 水平和垂直范围的 64 位 WMF SizeL 对象MS-WMF 第 2.2.2.22 节以逻辑单位
+description: 获取或设置一个 64 位 WMF SizeL 对象MS-WMF 第 2.2.2.22 节以逻辑单位指定 水平和垂直范围
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetwindowextex/extent/
 ---
 ## EmfSetWindowExtEx.Extent property
 
-获取或设置指定 水平和垂直范围的 64 位 WMF SizeL 对象（[MS-WMF] 第 2.2.2.22 节）以逻辑单位。
+获取或设置一个 64 位 WMF SizeL 对象（[MS-WMF] 第 2.2.2.22 节），以逻辑单位指定 水平和垂直范围。
 
 ```csharp
 public Size Extent { get; set; }

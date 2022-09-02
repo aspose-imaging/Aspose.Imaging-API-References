@@ -18,7 +18,7 @@ public enum EmfMetafileVersion
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| META_FORMAT_ENHANCED | `65536` | 指定 EMF 图元文件互操作性 |
+| META_FORMAT_ENHANCED | `65536` | 指定 EMF 元文件互操作性 |
 
 ### 也可以看看
 

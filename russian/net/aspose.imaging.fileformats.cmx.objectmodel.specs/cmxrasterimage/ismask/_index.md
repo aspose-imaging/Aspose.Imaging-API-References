@@ -1,14 +1,14 @@
 ---
 title: IsMask
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее является ли данный экземпляр маской.
+description: Получает или задает значение указывающее является ли этот экземпляр маской.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/ismask/
 ---
 ## CmxRasterImage.IsMask property
 
-Получает или задает значение, указывающее, является ли данный экземпляр маской.
+Получает или задает значение, указывающее, является ли этот экземпляр маской.
 
 ```csharp
 public bool IsMask { get; set; }

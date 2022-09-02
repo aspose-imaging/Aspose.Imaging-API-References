@@ -1,14 +1,14 @@
 ---
 title: EmfPolyBezier16
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_POLYBEZIER16 определяет одну или несколько кривых Безье. Кривые рисуются с использованием текущего пера.
+description: Запись EMR_POLYBEZIER16 указывает одну или несколько кривых Безье. Кривые рисуются с использованием текущего пера.
 type: docs
 weight: 3970
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpolybezier16/
 ---
 ## EmfPolyBezier16 class
 
-Запись EMR_POLYBEZIER16 определяет одну или несколько кривых Безье. Кривые рисуются с использованием текущего пера.
+Запись EMR_POLYBEZIER16 указывает одну или несколько кривых Безье. Кривые рисуются с использованием текущего пера.
 
 ```csharp
 public sealed class EmfPolyBezier16 : EmfDrawingRecordType
@@ -18,21 +18,21 @@ public sealed class EmfPolyBezier16 : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPolyBezier16](emfpolybezier16#constructor)() | Инициализирует новый экземпляр класса[`EmfPolyBezier16`](../emfpolybezier16). |
-| [EmfPolyBezier16](emfpolybezier16#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfPolyBezier16`](../emfpolybezier16). |
+| [EmfPolyBezier16](emfpolybezier16#constructor)() | Инициализирует новый экземпляр[`EmfPolyBezier16`](../emfpolybezier16) класс. |
+| [EmfPolyBezier16](emfpolybezier16#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfPolyBezier16`](../emfpolybezier16) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolybezier16/apoints) { get; set; } | Получает или задает массив длины счетчика объектов WMF PointS, указанный в [MS-WMF] раздел 2.2.2.16, который определяет массив точек. |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolybezier16/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе [MS-WMF] 2.2.2.19, который указывает ограничивающий прямоугольник , в единицах устройства. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolybezier16/apoints) { get; set; } | Получает или задает массив Count длины объектов WMF PointS, указанный в [MS-WMF] , раздел 2.2.2.16, который определяет массив точек. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolybezier16/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе 2.2.2.19 [MS-WMF], , который определяет ограничивающий прямоугольник в единицах измерения устройства. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Примечания
 
-Кубические кривые Безье определяются с помощью конечных точек и контрольных точек, заданных aPoints поле. Первая кривая проводится от первой точки до четвертой, используя вторую и третью точки в качестве контрольных точек. Каждая последующая кривая в последовательности требует еще ровно три точки: конечная точка предыдущей кривой используется как начальная точка, следующие две точки в последовательности являются контрольными точками , а третья - конечная точка. Кубические кривые Безье СЛЕДУЕТ рисовать текущим пером
+Кубические кривые Безье определяются с использованием конечных и контрольных точек, указанных в поле aPoints . Первая кривая строится от первой точки до четвертой, используя вторую и третью точки в качестве контрольных точек. Каждой последующей кривой в последовательности требуется ровно три точки: конечная точка предыдущей кривой используется в качестве начальной точки, следующие две точки в последовательности являются контрольными точками, а третья является конечной точкой. Кубические кривые Безье ДОЛЖНЫ быть нарисованы с использованием текущего pen
 
 ### Смотрите также
 

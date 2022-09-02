@@ -3,7 +3,7 @@ title: ResolutionSetting
 second_title: Aspose.Imaging for .NET API 参考
 description: 图像保存选项的分辨率设置
 type: docs
-weight: 10880
+weight: 10870
 url: /zh/net/aspose.imaging/resolutionsetting/
 ---
 ## ResolutionSetting class
@@ -18,8 +18,8 @@ public class ResolutionSetting
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ResolutionSetting](resolutionsetting#constructor)() | 初始化[`ResolutionSetting`](../resolutionsetting)类的新实例。 |
-| [ResolutionSetting](resolutionsetting#constructor_1)(double, double) | 初始化[`ResolutionSetting`](../resolutionsetting)类的新实例。 |
+| [ResolutionSetting](resolutionsetting#constructor)() | 初始化[`ResolutionSetting`](../resolutionsetting)类. |
+| [ResolutionSetting](resolutionsetting#constructor_1)(double, double) | 初始化[`ResolutionSetting`](../resolutionsetting)类. |
 
 ## 特性
 

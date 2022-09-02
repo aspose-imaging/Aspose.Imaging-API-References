@@ -1,14 +1,14 @@
 ---
 title: TextShape
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化TextShapeaspose.imaging.shapes/textshape类的新实例
+description: 初始化TextShapeaspose.imaging.shapes/textshape类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.shapes/textshape/textshape/
 ---
 ## TextShape() {#constructor}
 
-初始化[`TextShape`](../../textshape)类的新实例。
+初始化[`TextShape`](../../textshape)类.
 
 ```csharp
 public TextShape()
@@ -24,7 +24,7 @@ public TextShape()
 
 ## TextShape(string, RectangleF, Font, StringFormat) {#constructor_1}
 
-初始化[`TextShape`](../../textshape)类的新实例。
+初始化[`TextShape`](../../textshape)类.
 
 ```csharp
 public TextShape(string text, RectangleF rectangle, Font font, StringFormat stringFormat)

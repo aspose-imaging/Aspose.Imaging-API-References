@@ -1,14 +1,14 @@
 ---
 title: IsCompressed
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее сжат ли этот экземпляр. Если установлено RectData содержит объект EmfPlusRect раздел 2.2.2.38. Если этот параметр не установлен RectData содержит объект EmfPlusRectF раздел 2.2.2.39.
+description: Получает или задает значение указывающее сжат ли этот экземпляр. Если установлено RectData содержит объект EmfPlusRect раздел 2.2.2.38. Если флажок не установлен RectData содержит объект EmfPlusRectF раздел 2.2.2.39.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/iscompressed/
 ---
 ## EmfPlusFillEllipse.IsCompressed property
 
-Получает или задает значение, указывающее, сжат ли этот экземпляр. Если установлено, RectData содержит объект EmfPlusRect (раздел 2.2.2.38). Если этот параметр не установлен, RectData содержит объект EmfPlusRectF (раздел 2.2.2.39).
+Получает или задает значение, указывающее, сжат ли этот экземпляр. Если установлено, RectData содержит объект EmfPlusRect (раздел 2.2.2.38). Если флажок не установлен, RectData содержит объект EmfPlusRectF (раздел 2.2.2.39).
 
 ```csharp
 public bool IsCompressed { get; set; }
@@ -16,7 +16,7 @@ public bool IsCompressed { get; set; }
 
 ### Стоимость имущества
 
-` true` если этот экземпляр сжат; в противном случае` false` .
+`истинный` если этот экземпляр сжат; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

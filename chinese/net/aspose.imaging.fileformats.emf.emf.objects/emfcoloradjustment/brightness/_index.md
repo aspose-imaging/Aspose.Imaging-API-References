@@ -1,14 +1,14 @@
 ---
 title: Brightness
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 16 位有符号整数它指定要应用于源对象的亮度量 该值应在 100 到 100 的范围内 零值表示不得执行亮度调整
+description: 获取或设置一个 16 位有符号整数它指定要应用于源对象的亮度量 该值应在 100 到 100 的范围内 值为零表示不得执行亮度调整
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/brightness/
 ---
 ## EmfColorAdjustment.Brightness property
 
-获取或设置一个 16 位有符号整数，它指定要应用于源对象的亮度量。 该值应在 –100 到 100 的范围内。 零值表示不得执行亮度调整。
+获取或设置一个 16 位有符号整数，它指定要应用于源对象的亮度量。 该值应在 –100 到 100 的范围内。 值为零表示不得执行亮度调整。
 
 ```csharp
 public short Brightness { get; set; }

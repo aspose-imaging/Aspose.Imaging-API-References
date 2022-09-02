@@ -1,14 +1,14 @@
 ---
 title: BaseInset
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное значение с плавающей запятой указывающее расстояние между началом конца строки и концом строки.
+description: Получает или задает 32-битное значение с плавающей запятой указывающее расстояние между началом конца строки и концом строки.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/baseinset/
 ---
 ## EmfPlusCustomLineCapData.BaseInset property
 
-Получает или задает 32-разрядное значение с плавающей запятой, указывающее расстояние между началом конца строки и концом строки.
+Получает или задает 32-битное значение с плавающей запятой, указывающее расстояние между началом конца строки и концом строки.
 
 ```csharp
 public float BaseInset { get; set; }

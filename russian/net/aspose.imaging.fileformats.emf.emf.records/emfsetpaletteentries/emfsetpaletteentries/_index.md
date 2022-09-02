@@ -1,14 +1,14 @@
 ---
 title: EmfSetPaletteEntries
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetPaletteEntriesaspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries.
+description: Инициализирует новый экземплярEmfSetPaletteEntriesaspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries/emfsetpaletteentries/
 ---
 ## EmfSetPaletteEntries constructor
 
-Инициализирует новый экземпляр класса[`EmfSetPaletteEntries`](../../emfsetpaletteentries).
+Инициализирует новый экземпляр[`EmfSetPaletteEntries`](../../emfsetpaletteentries) класс.
 
 ```csharp
 public EmfSetPaletteEntries(EmfRecord source)

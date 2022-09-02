@@ -1,14 +1,14 @@
 ---
 title: BlendFunction
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定源位图和 目标位图的混合操作的结构
+description: 获取或设置一个结构该结构指定源位图和 目标位图的混合操作
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfalphablend/blendfunction/
 ---
 ## EmfAlphaBlend.BlendFunction property
 
-获取或设置指定源位图和 目标位图的混合操作的结构
+获取或设置一个结构，该结构指定源位图和 目标位图的混合操作
 
 ```csharp
 public EmfBlendFunction BlendFunction { get; set; }

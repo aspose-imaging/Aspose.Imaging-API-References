@@ -1,14 +1,14 @@
 ---
 title: WmfEscapeEnhancedMetafile
 second_title: Aspose.Imaging for .NET API 参考
-description: Escape Enhanced Meta 文件记录
+description: Escape 增强元文件记录
 type: docs
 weight: 8380
 url: /zh/net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/
 ---
 ## WmfEscapeEnhancedMetafile class
 
-Escape Enhanced Meta 文件记录。
+Escape 增强元文件记录。
 
 ```csharp
 public class WmfEscapeEnhancedMetafile : WmfEscapeRecordBase
@@ -25,7 +25,7 @@ public class WmfEscapeEnhancedMetafile : WmfEscapeRecordBase
 | 姓名 | 描述 |
 | --- | --- |
 | [ByteCount](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/bytecount) { get; set; } | 获取或设置字节数。 |
-| virtual [Checked](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/checked) { get; set; } | 获取一个值，该值指示是否检查了此[`WmfEscapeRecordBase`](../wmfescaperecordbase)。 |
+| virtual [Checked](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/checked) { get; set; } | 获取一个值，该值指示这是否[`WmfEscapeRecordBase`](../wmfescaperecordbase)已检查。 |
 | [Checksum](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/checksum) { get; set; } | 获取或设置校验和。 |
 | [CommentIdentifier](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/commentidentifier) { get; set; } | 获取或设置评论标识符。 |
 | [CommentRecordCount](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/commentrecordcount) { get; set; } | 获取或设置评论记录数。 |
@@ -35,7 +35,7 @@ public class WmfEscapeEnhancedMetafile : WmfEscapeRecordBase
 | [EnhancedMetafileData](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/enhancedmetafiledata) { get; set; } | 获取或设置增强的元文件数据。 |
 | [EnhancedMetafileDataSize](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/enhancedmetafiledatasize) { get; set; } | 获取或设置增强元文件数据的大小。 |
 | [Flags](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/flags) { get; set; } | 获取或设置标志。 |
-| [RemainingBytes](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/remainingbytes) { get; set; } | 获取或设置剩余字节。 |
+| [RemainingBytes](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/remainingbytes) { get; set; } | 获取或设置剩余字节数。 |
 | [Version](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/version) { get; set; } | 获取或设置版本。 |
 
 ### 也可以看看

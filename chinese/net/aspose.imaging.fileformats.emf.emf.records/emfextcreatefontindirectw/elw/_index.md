@@ -1,14 +1,14 @@
 ---
 title: Elw
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定逻辑字体的 LogFontExDv 对象第 2.2.15 节一个 LogFont 对象 2.2.13 可能会出现90 在此字段中确定 对象类型的过程如下所述
+description: 获取或设置一个 LogFontExDv 对象第 2.2.15 节它指定逻辑字体 A LogFont 对象 2.2.13 可能会出现90 确定该字段中 对象类型的过程如下所述
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw/elw/
 ---
 ## EmfExtCreateFontIndirectW.Elw property
 
-获取或设置指定逻辑字体的 LogFontExDv 对象（第 2.2.15 节）。一个 LogFont 对象 2.2.13 可能会出现。[90] 在此字段中确定 对象类型的过程如下所述。
+获取或设置一个 LogFontExDv 对象（第 2.2.15 节），它指定逻辑字体。 A LogFont 对象 2.2.13 可能会出现。[90] 确定该字段中 对象类型的过程如下所述。
 
 ```csharp
 public EmfLogFont Elw { get; set; }

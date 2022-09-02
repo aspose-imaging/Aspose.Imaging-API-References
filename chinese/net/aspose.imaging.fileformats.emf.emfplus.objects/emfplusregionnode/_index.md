@@ -24,8 +24,8 @@ public sealed class EmfPlusRegionNode : EmfPlusStructureObjectType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RegionNodeData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnode/regionnodedata) { get; set; } | 获取或设置一个可选的可变长度数据，该数据定义在 Type 字段中指定的区域节点 数据对象。对于每个区域 节点类型，数据的内容和 格式可能不同。如果节点 类型为 RegionNodeDataTypeEmpty 或 RegionNodeDataTypeInfinite 则该字段不得存在:此对象是通用的，用于指定不同类型的区域节点数据，包括: EmfPlusRegionNodePath 对象（第 2.2.2.42 节），用于终端节点； EmfPlusRectF 对象（第 2.2.2.39 节），用于终端节点；和 EmfPlusRegionNodeChildNodes 对象（第 2.2.2.41 节），用于非终端节点。 |
-| [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnode/type) { get; set; } | 获取或设置 32 位无符号整数，指定 RegionNodeData 字段中 数据的类型。该值必须在 RegionNodeDataType 枚举（第 2.1.1.27 节）中定义。 |
+| [RegionNodeData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnode/regionnodedata) { get; set; } | 获取或设置一个可选的可变长度数据，该数据定义在 Type 字段中指定的区域 node 数据对象。对于每个 region 节点类型，数据的内容和 格式可能不同。如果 node 类型为 RegionNodeDataTypeEmpty 或 RegionNodeDataTypeInfinite 该对象是通用的，用于指定不同类型的区域节点数据，则该字段不得存在，包括： 一个终端节点的 EmfPlusRegionNodePath 对象（第 2.2.2.42 节）； 一个EmfPlusRectF 对象（第 2.2.2.39 节），用于终端节点； and 一个 EmfPlusRegionNodeChildNodes 对象（第 2.2.2.41 节），用于非终端节点。 |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnode/type) { get; set; } | 获取或设置 32 位无符号整数，指定 RegionNodeData 字段中的 数据类型。该值必须在 RegionNodeDataType 枚举（第 2.1.1.27 节）中定义。 |
 
 ### 也可以看看
 

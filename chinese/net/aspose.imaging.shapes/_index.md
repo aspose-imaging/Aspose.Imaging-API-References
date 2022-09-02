@@ -13,10 +13,10 @@ url: /zh/net/aspose.imaging.shapes/
 | 班级 | 描述 |
 | --- | --- |
 | [ArcShape](./arcshape) | 表示弧形。 |
-| [BezierShape](./beziershape) | 表示贝塞尔样条。 |
+| [BezierShape](./beziershape) | 表示贝塞尔样条曲线。 |
 | [CurveShape](./curveshape) | 表示曲线样条形状。 |
 | [EllipseShape](./ellipseshape) | 表示椭圆形。 |
-| [PieShape](./pieshape) | 表示饼状。 |
+| [PieShape](./pieshape) | 代表一个饼形。 |
 | [PolygonShape](./polygonshape) | 表示多边形形状。 |
 | [RectangleProjectedShape](./rectangleprojectedshape) | 表示投影到特定方向的矩形上的形状。 由可以在空间中旋转的四个点指定，保持相同的边长度和相邻边之间的 90 度。 |
 | [RectangleShape](./rectangleshape) | 表示一个矩形。 |

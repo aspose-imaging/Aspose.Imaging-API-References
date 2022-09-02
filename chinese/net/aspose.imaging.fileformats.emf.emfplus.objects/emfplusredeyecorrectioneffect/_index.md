@@ -24,7 +24,7 @@ public sealed class EmfPlusRedEyeCorrectionEffect : EmfPlusImageEffectsObjectTyp
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Areas](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusredeyecorrectioneffect/areas) { get; set; } | 获取或设置 NumberOfAreas WMF RectL 对象的数组，在 [MS-WMF] 部分 2.2.2.19 中指定。每个矩形指定位图图像的一个区域，应该应用红眼 校正效果。 |
+| [Areas](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusredeyecorrectioneffect/areas) { get; set; } | 获取或设置 NumberOfAreas WMF RectL 对象的数组，在 [MS-WMF] 2.2.2.19 节中指定。每个矩形指定应该应用 red-eye 校正效果的位图图像区域。 |
 | [NumberOfAreas](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusredeyecorrectioneffect/numberofareas) { get; set; } | 获取或设置一个 32 位有符号整数，它指定 区域字段中的矩形数量。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: ImageObject
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает необязательный объект EmfPlusImage раздел 2.2.1.4 определяющий текстуру кисти . Это поле ДОЛЖНО присутствовать если размер записи EmfPlusObject раздел 2.3.5.1 которая определяет эту текстуру кисть достаточно велик для размещения объекта EmfPlusImage в дополнение к обязательным полям объекта EmfPlusTextureBrushData и возможно объекта EmfPlusTransformMatrix.
+description: Получает или задает необязательный объект EmfPlusImage раздел 2.2.1.4 определяющий текстуру кисти the . Это поле ДОЛЖНО присутствовать если размер записи EmfPlusObject раздел 2.3.5.1 которая определяет эту текстурную кисть  достаточно велик для размещения объекта EmfPlusImage в в дополнение к обязательным полям объекта EmfPlusTextureBrushData и необязательно объекта EmfPlusTransformMatrix. .
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushoptionaldata/imageobject/
 ---
 ## EmfPlusTextureBrushOptionalData.ImageObject property
 
-Получает или задает необязательный объект EmfPlusImage (раздел 2.2.1.4), определяющий текстуру кисти . Это поле ДОЛЖНО присутствовать, если размер записи EmfPlusObject (раздел 2.3.5.1), которая определяет эту текстуру кисть, достаточно велик для размещения объекта EmfPlusImage в дополнение к обязательным полям объекта EmfPlusTextureBrushData и, возможно, объекта EmfPlusTransformMatrix.
+Получает или задает необязательный объект EmfPlusImage (раздел 2.2.1.4), определяющий текстуру кисти the . Это поле ДОЛЖНО присутствовать, если размер записи EmfPlusObject (раздел 2.3.5.1), которая определяет эту текстурную кисть , достаточно велик для размещения объекта EmfPlusImage в в дополнение к обязательным полям объекта EmfPlusTextureBrushData и, необязательно, объекта EmfPlusTransformMatrix. .
 
 ```csharp
 public EmfPlusImage ImageObject { get; set; }

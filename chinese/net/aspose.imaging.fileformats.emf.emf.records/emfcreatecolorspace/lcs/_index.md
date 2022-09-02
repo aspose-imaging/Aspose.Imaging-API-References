@@ -1,14 +1,14 @@
 ---
 title: Lcs
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 WMF LogColorSpace 对象MS-WMF 第 2.2.2.11 节它可以指定 颜色配置文件的名称ASCII 字符
+description: 获取或设置 WMF LogColorSpace 对象MS-WMF 第 2.2.2.11 节它可以指定 ASCII 字符的颜色配置文件的名称
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspace/lcs/
 ---
 ## EmfCreateColorSpace.Lcs property
 
-获取或设置 WMF LogColorSpace 对象（[MS-WMF] 第 2.2.2.11 节），它可以指定 颜色配置文件的名称ASCII 字符。
+获取或设置 WMF LogColorSpace 对象（[MS-WMF] 第 2.2.2.11 节），它可以指定 ASCII 字符的颜色配置文件的名称。
 
 ```csharp
 public WmfLogColorSpace Lcs { get; set; }

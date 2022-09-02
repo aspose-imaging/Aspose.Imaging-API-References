@@ -25,7 +25,7 @@ public class WmfSetPixel : WmfPointObject
 | Имя | Описание |
 | --- | --- |
 | [ColorRef](../../aspose.imaging.fileformats.wmf.objects/wmfsetpixel/colorref) { get; set; } | Получает или задает ссылку на цвет. |
-| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или задает точку. |
+| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или устанавливает точку. |
 
 ### Смотрите также
 

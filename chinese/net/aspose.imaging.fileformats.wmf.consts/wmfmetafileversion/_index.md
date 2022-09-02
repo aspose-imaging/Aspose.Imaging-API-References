@@ -1,14 +1,14 @@
 ---
 title: WmfMetafileVersion
 second_title: Aspose.Imaging for .NET API 参考
-description: MetafileVersion 枚举定义了指定对元文件中与设备无关的 位图 DIB 的支持的值
+description: MetafileVersion 枚举定义了指定对元文件中设备无关 位图 DIB 的支持的值
 type: docs
 weight: 8240
 url: /zh/net/aspose.imaging.fileformats.wmf.consts/wmfmetafileversion/
 ---
 ## WmfMetafileVersion enumeration
 
-MetafileVersion 枚举定义了指定对元文件中与设备无关的 位图 (DIB) 的支持的值。
+MetafileVersion 枚举定义了指定对元文件中设备无关 位图 (DIB) 的支持的值。
 
 ```csharp
 public enum WmfMetafileVersion : short

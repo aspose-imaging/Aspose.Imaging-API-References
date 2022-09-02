@@ -1,14 +1,14 @@
 ---
 title: WmfSetStretchbltMode
 second_title: Aspose.Imaging for .NET API 参考
-description: META_SETSTRETCHBLTMODE 记录在 播放设备上下文中定义位图拉伸模式
+description: META_SETSTRETCHBLTMODE 记录定义了 播放设备上下文中的位图拉伸模式
 type: docs
 weight: 9150
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfsetstretchbltmode/
 ---
 ## WmfSetStretchbltMode class
 
-META_SETSTRETCHBLTMODE 记录在 播放设备上下文中定义位图拉伸模式。
+META_SETSTRETCHBLTMODE 记录定义了 播放设备上下文中的位图拉伸模式。
 
 ```csharp
 public class WmfSetStretchbltMode : WmfObject

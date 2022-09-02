@@ -1,14 +1,14 @@
 ---
 title: FromPoints
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Создает новыйRectangleaspose.imaging/rectangleиз двух указанных точек. Две вершины созданногоRectangleaspose.imaging/rectangleбудут равны переданнымpoint1иpoint2. Обычно это противоположные вершины.
+description: Создает новыйRectangleaspose.imaging/rectangle из двух указанных точек. Две вершины созданногоRectangleaspose.imaging/rectangle будет равно переданномуpoint1 а такжеpoint2 . Обычно это противоположные вершины.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging/rectanglef/frompoints/
 ---
 ## RectangleF.FromPoints method
 
-Создает новый[`Rectangle`](../../rectangle)из двух указанных точек. Две вершины созданного[`Rectangle`](../../rectangle)будут равны переданным*point1*и*point2*. Обычно это противоположные вершины.
+Создает новый[`Rectangle`](../../rectangle) из двух указанных точек. Две вершины созданного[`Rectangle`](../../rectangle) будет равно переданному*point1* а также*point2* . Обычно это противоположные вершины.
 
 ```csharp
 public static RectangleF FromPoints(PointF point1, PointF point2)
@@ -16,8 +16,8 @@ public static RectangleF FromPoints(PointF point1, PointF point2)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point1 | PointF | Первая[`Point`](../../point)для нового прямоугольника. |
-| point2 | PointF | Второй[`Point`](../../point)для нового прямоугольника. |
+| point1 | PointF | Первый[`Point`](../../point) для нового прямоугольника. |
+| point2 | PointF | Секунда[`Point`](../../point) для нового прямоугольника. |
 
 ### Возвращаемое значение
 

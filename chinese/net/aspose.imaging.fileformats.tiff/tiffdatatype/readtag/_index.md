@@ -27,7 +27,7 @@ public static TiffDataType ReadTag(TiffStreamReader dataStream, long position)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | dataStream |
+| ArgumentNullException | 数据流 |
 
 ### 也可以看看
 

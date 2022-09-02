@@ -3,7 +3,7 @@ title: PositioningTypes
 second_title: Aspose.Imaging for .NET API 参考
 description: 图形场景的定位和尺寸类型
 type: docs
-weight: 10140
+weight: 10130
 url: /zh/net/aspose.imaging.imageoptions/positioningtypes/
 ---
 ## PositioningTypes enumeration

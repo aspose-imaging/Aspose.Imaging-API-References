@@ -1,14 +1,14 @@
 ---
 title: ColorChannelFlag
 second_title: Aspose.Imaging for .NET API 参考
-description: 指定 CMYK青色品红色黄色黑色色彩空间中的各个通道 SetOutputChannel 方法使用此枚举
+description: 指定 CMYK青色品红色黄色黑色颜色空间中的各个通道此枚举由 SetOutputChannel 方法使用
 type: docs
 weight: 330
 url: /zh/net/aspose.imaging/colorchannelflag/
 ---
 ## ColorChannelFlag enumeration
 
-指定 CMYK（青色、品红色、黄色、黑色）色彩空间中的各个通道。 SetOutputChannel 方法使用此枚举。
+指定 CMYK（青色、品红色、黄色、黑色）颜色空间中的各个通道。此枚举由 SetOutputChannel 方法使用。
 
 ```csharp
 public enum ColorChannelFlag

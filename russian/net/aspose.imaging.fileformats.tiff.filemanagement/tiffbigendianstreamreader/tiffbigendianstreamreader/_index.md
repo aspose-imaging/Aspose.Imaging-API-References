@@ -1,14 +1,14 @@
 ---
 title: TiffBigEndianStreamReader
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTiffBigEndianStreamReaderaspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader.
+description: Инициализирует новый экземплярTiffBigEndianStreamReaderaspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader/tiffbigendianstreamreader/
 ---
 ## TiffBigEndianStreamReader(byte[]) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TiffBigEndianStreamReader`](../../tiffbigendianstreamreader).
+Инициализирует новый экземпляр[`TiffBigEndianStreamReader`](../../tiffbigendianstreamreader) класс.
 
 ```csharp
 public TiffBigEndianStreamReader(byte[] data)
@@ -28,7 +28,7 @@ public TiffBigEndianStreamReader(byte[] data)
 
 ## TiffBigEndianStreamReader(byte[], int) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`TiffBigEndianStreamReader`](../../tiffbigendianstreamreader).
+Инициализирует новый экземпляр[`TiffBigEndianStreamReader`](../../tiffbigendianstreamreader) класс.
 
 ```csharp
 public TiffBigEndianStreamReader(byte[] data, int startIndex)
@@ -49,7 +49,7 @@ public TiffBigEndianStreamReader(byte[] data, int startIndex)
 
 ## TiffBigEndianStreamReader(byte[], int, int) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`TiffBigEndianStreamReader`](../../tiffbigendianstreamreader).
+Инициализирует новый экземпляр[`TiffBigEndianStreamReader`](../../tiffbigendianstreamreader) класс.
 
 ```csharp
 public TiffBigEndianStreamReader(byte[] data, int startIndex, int dataLength)
@@ -71,7 +71,7 @@ public TiffBigEndianStreamReader(byte[] data, int startIndex, int dataLength)
 
 ## TiffBigEndianStreamReader(StreamContainer) {#constructor}
 
-Инициализирует новый экземпляр класса[`TiffBigEndianStreamReader`](../../tiffbigendianstreamreader).
+Инициализирует новый экземпляр[`TiffBigEndianStreamReader`](../../tiffbigendianstreamreader) класс.
 
 ```csharp
 public TiffBigEndianStreamReader(StreamContainer streamContainer)

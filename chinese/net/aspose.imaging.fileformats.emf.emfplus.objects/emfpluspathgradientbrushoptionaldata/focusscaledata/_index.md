@@ -1,14 +1,14 @@
 ---
 title: FocusScaleData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个可选的 EmfPlusFocusScaleData 对象第 2.2.2.18 节该对象指定路径渐变画笔的 焦点缩放如果 BrushDataFocusScales 标志在 EmfPlusPathGradientBrushData 对象的 BrushDataFlags 字段中设置则必须存在此字段
+description: 获取或设置一个可选的 EmfPlusFocusScaleData 对象第 2.2.2.18 节该对象指定路径渐变画笔的 焦点比例如果在 EmfPlusPathGradientBrushData 对象的 BrushDataFlags 字段中设置了 BrushDataFocusScales 标志则该字段必须存在
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushoptionaldata/focusscaledata/
 ---
 ## EmfPlusPathGradientBrushOptionalData.FocusScaleData property
 
-获取或设置一个可选的 EmfPlusFocusScaleData 对象（第 2.2.2.18 节），该对象指定路径渐变画笔的 焦点缩放。如果 BrushDataFocusScales 标志在 EmfPlusPathGradientBrushData 对象的 BrushDataFlags 字段中设置，则必须存在此字段。
+获取或设置一个可选的 EmfPlusFocusScaleData 对象（第 2.2.2.18 节），该对象指定路径渐变画笔的 焦点比例。如果在 EmfPlusPathGradientBrushData 对象的 BrushDataFlags 字段中设置了 BrushDataFocusScales 标志，则该字段必须存在。
 
 ```csharp
 public EmfPlusFocusScaleData FocusScaleData { get; set; }

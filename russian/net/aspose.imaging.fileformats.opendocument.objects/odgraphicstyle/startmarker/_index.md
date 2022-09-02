@@ -1,14 +1,14 @@
 ---
 title: StartMarker
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает начальный маркер.
+description: Получает или задает начальный маркер.
 type: docs
 weight: 190
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/startmarker/
 ---
 ## OdGraphicStyle.StartMarker property
 
-Получает или устанавливает начальный маркер.
+Получает или задает начальный маркер.
 
 ```csharp
 public OdMarker StartMarker { get; set; }

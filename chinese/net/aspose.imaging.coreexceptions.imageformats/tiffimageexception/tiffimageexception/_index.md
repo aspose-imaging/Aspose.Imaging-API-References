@@ -1,14 +1,14 @@
 ---
 title: TiffImageException
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化TiffImageExceptionaspose.imaging.coreexceptions.imageformats/tiffimageexception类的新实例
+description: 初始化TiffImageExceptionaspose.imaging.coreexceptions.imageformats/tiffimageexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.coreexceptions.imageformats/tiffimageexception/tiffimageexception/
 ---
 ## TiffImageException(string) {#constructor_1}
 
-初始化[`TiffImageException`](../../tiffimageexception)类的新实例。
+初始化[`TiffImageException`](../../tiffimageexception)类.
 
 ```csharp
 public TiffImageException(string message)
@@ -28,7 +28,7 @@ public TiffImageException(string message)
 
 ## TiffImageException(string, Exception) {#constructor_3}
 
-初始化[`TiffImageException`](../../tiffimageexception)类的新实例。
+初始化[`TiffImageException`](../../tiffimageexception)类.
 
 ```csharp
 public TiffImageException(string message, Exception innerException)
@@ -37,7 +37,7 @@ public TiffImageException(string message, Exception innerException)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 消息。 |
-| innerException | Exception | 内部异常。 |
+| innerException | Exception | 内在异常。 |
 
 ### 也可以看看
 
@@ -49,7 +49,7 @@ public TiffImageException(string message, Exception innerException)
 
 ## TiffImageException(string, TiffOptionsError) {#constructor_2}
 
-初始化[`TiffImageException`](../../tiffimageexception)类的新实例。
+初始化[`TiffImageException`](../../tiffimageexception)类.
 
 ```csharp
 public TiffImageException(string message, TiffOptionsError error)
@@ -71,7 +71,7 @@ public TiffImageException(string message, TiffOptionsError error)
 
 ## TiffImageException(TiffOptionsError) {#constructor}
 
-初始化[`TiffImageException`](../../tiffimageexception)类的新实例。
+初始化[`TiffImageException`](../../tiffimageexception)类.
 
 ```csharp
 public TiffImageException(TiffOptionsError error)

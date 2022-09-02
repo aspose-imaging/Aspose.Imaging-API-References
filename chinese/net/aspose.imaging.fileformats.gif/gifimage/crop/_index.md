@@ -31,11 +31,11 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"
 {
     Aspose.Imaging.FileFormats.Gif.GifImage gifImage = (Aspose.Imaging.FileFormats.Gif.GifImage)image;
 
-        // 裁剪图像。裁剪区域是图像的矩形中心区域。
+    // 裁剪图像。裁剪区域是图像的矩形中心区域。
     Aspose.Imaging.Rectangle area = new Aspose.Imaging.Rectangle(gifImage.Width / 4, gifImage.Height / 4, gifImage.Width / 2, gifImage.Height / 2);
     gifImage.Crop(area);
 
-        // 将裁剪后的图像保存到 PNG
+    // 将裁剪后的图像保存为 PNG
     gifImage.Save(dir + "sample.Crop.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```

@@ -1,14 +1,14 @@
 ---
 title: MotionWienerFilterOptions
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化MotionWienerFilterOptionsaspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions类的新实例
+description: 初始化MotionWienerFilterOptionsaspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.imagefilters.filteroptions/motionwienerfilteroptions/motionwienerfilteroptions/
 ---
 ## MotionWienerFilterOptions constructor
 
-初始化[`MotionWienerFilterOptions`](../../motionwienerfilteroptions)类的新实例。
+初始化[`MotionWienerFilterOptions`](../../motionwienerfilteroptions)类.
 
 ```csharp
 public MotionWienerFilterOptions(int length, double smooth, double angle)
@@ -17,8 +17,8 @@ public MotionWienerFilterOptions(int length, double smooth, double angle)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | length | Int32 | 长度。 |
-| smooth | Double | 平滑。 |
-| angle | Double | 角度。 |
+| smooth | Double | 光滑的。 |
+| angle | Double | 梯度角度。 |
 
 ### 也可以看看
 

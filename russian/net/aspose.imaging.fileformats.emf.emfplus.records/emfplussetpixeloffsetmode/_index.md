@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSetPixelOffsetMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EmfPlusSetPixelOffsetMode указывает как центрируются пиксели по отношению к координатам поверхности рисования.
+description: Запись EmfPlusSetPixelOffsetMode указывает как центрируются пиксели относительно координат поверхности рисования.
 type: docs
 weight: 6360
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetpixeloffsetmode/
 ---
 ## EmfPlusSetPixelOffsetMode class
 
-Запись EmfPlusSetPixelOffsetMode указывает, как центрируются пиксели по отношению к координатам поверхности рисования.
+Запись EmfPlusSetPixelOffsetMode указывает, как центрируются пиксели относительно координат поверхности рисования.
 
 ```csharp
 public sealed class EmfPlusSetPixelOffsetMode : EmfPlusPropertyRecordType
@@ -18,16 +18,16 @@ public sealed class EmfPlusSetPixelOffsetMode : EmfPlusPropertyRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPlusSetPixelOffsetMode](emfplussetpixeloffsetmode)(EmfPlusRecord) | Инициализирует новый экземпляр класса[`EmfPlusSetPixelOffsetMode`](../emfplussetpixeloffsetmode). |
+| [EmfPlusSetPixelOffsetMode](emfplussetpixeloffsetmode)(EmfPlusRecord) | Инициализирует новый экземпляр[`EmfPlusSetPixelOffsetMode`](../emfplussetpixeloffsetmode) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО определять 32-разрядное выровненное число байтов данных в поле RecordData, которое следует. Это число не включает 12-байтовый заголовок записи. |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | Получает или задает 16-разрядное целое число без знака, содержащее информацию для некоторых записей о том, как должна выполняться операция , и о структуре запись. |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, которое ДОЛЖНО определять 32-разрядное выровненное количество байтов данных в следующем поле RecordData. Это число не включает 12-байтовый заголовок записи. |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | Получает или задает 16-разрядное целое число без знака, содержащее информацию для некоторых записей о том, как должна выполняться операция, и о структуре записи. |
 | [PixelOffsetMode](../../aspose.imaging.fileformats.emf.emfplus.records/emfplussetpixeloffsetmode/pixeloffsetmode) { get; set; } | Получает или задает значение режима смещения пикселей из перечисления PixelOffsetMode (раздел 2.1.1.26). |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее число байтов, выровненных по 32-разрядному выравниванию во всей записи, включая 12 -байтовый заголовок записи и данные, относящиеся к записи. |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее 32-разрядное выровненное количество байтов во всей записи, включая 12-разрядный заголовок записи и данные, относящиеся к записи. |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | Получает 16-разрядное целое число без знака, определяющее тип записи. |
 
 ### Смотрите также

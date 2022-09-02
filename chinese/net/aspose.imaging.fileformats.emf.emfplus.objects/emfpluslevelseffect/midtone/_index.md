@@ -1,14 +1,14 @@
 ---
 title: MidTone
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 指定图像中间调变亮或变暗的程度颜色 强度范围中间的通道值比高 或低端附近的值更改得更多这意味着可以在不损失对比度的情况下使图像变亮或变暗 在图像最暗和最亮的部分之间 -100  值 lt 0 指定中间调变暗 0 指定中间色调不能改变 0 lt value  100 指定中间调变浅
+description: 获取或设置 指定图像的中间色调变亮或变暗的程度强度范围中间的 Color 通道值比高 或低端附近的值变化更多这意味着图像可以变亮或变暗而不会丢失图像最暗部分和最亮部分之间的对比度  -100  值lt 0 指定中间调变暗 0 指定中间调不能改变 0 lt value  100 指定中间调变亮
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslevelseffect/midtone/
 ---
 ## EmfPlusLevelsEffect.MidTone property
 
-获取或设置 指定图像中间调变亮或变暗的程度。颜色 强度范围中间的通道值比高 或低端附近的值更改得更多，这意味着可以在不损失对比度的情况下使图像变亮或变暗 在图像最暗和最亮的部分之间。 -100 ≤ 值 &lt; 0 指定中间调变暗。 0 指定中间色调不能改变。 0 &lt; value ≤ 100 指定中间调变浅。
+获取或设置 指定图像的中间色调变亮或变暗的程度。强度范围中间的 Color 通道值比高 或低端附近的值变化更多，这意味着图像可以变亮或变暗而不会丢失图像最暗部分和最亮部分之间的对比度 。 -100 ≤ 值&lt; 0 指定中间调变暗。 0 指定中间调不能改变。 0 &lt; value ≤ 100 指定中间调变亮。
 
 ```csharp
 public int MidTone { get; set; }

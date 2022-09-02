@@ -3,7 +3,7 @@ title: PhotoshopPackage
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示 Adobe Photoshop 命名空间
 type: docs
-weight: 11340
+weight: 11330
 url: /zh/net/aspose.imaging.xmp.schemas.photoshop/photoshoppackage/
 ---
 ## PhotoshopPackage class
@@ -24,7 +24,7 @@ public sealed class PhotoshopPackage : XmpPackage
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [Item](../../aspose.imaging.xmp/xmppackage/item) { get; set; } | 使用指定的键获取或设置Object。 |
+| virtual [Item](../../aspose.imaging.xmp/xmppackage/item) { get; set; } | 获取或设置Object使用指定的密钥。 |
 | virtual [Keys](../../aspose.imaging.xmp/xmppackage/keys) { get; } | 获取 XMP 包中的密钥。 |
 | [NamespaceUri](../../aspose.imaging.xmp/xmppackage/namespaceuri) { get; } | 获取命名空间 URI。 |
 | [Prefix](../../aspose.imaging.xmp/xmppackage/prefix) { get; } | 获取前缀。 |
@@ -38,10 +38,10 @@ public sealed class PhotoshopPackage : XmpPackage
 | virtual [Clear](../../aspose.imaging.xmp/xmppackage/clear)() | 清除此实例。 |
 | virtual [ContainsKey](../../aspose.imaging.xmp/xmppackage/containskey)(string) | 判断指定key是否包含key。 |
 | [GetEnumerator](../../aspose.imaging.xmp/xmppackage/getenumerator)() | 返回一个遍历集合的枚举器。 |
-| virtual [GetXmlValue](../../aspose.imaging.xmp/xmppackage/getxmlvalue)() | 将 XMP 值转换为 XML 表示。 |
-| virtual [Remove](../../aspose.imaging.xmp/xmppackage/remove)(string) | 删除具有指定键的值。 |
+| virtual [GetXmlValue](../../aspose.imaging.xmp/xmppackage/getxmlvalue)() | 将 XMP 值转换为 XML 表示形式。 |
+| virtual [Remove](../../aspose.imaging.xmp/xmppackage/remove)(string) | 删除指定键的值。 |
 | [SetAuthorsPosition](../../aspose.imaging.xmp.schemas.photoshop/photoshoppackage/setauthorsposition)(string) | 设置作者位置。 |
-| [SetCaptionWriter](../../aspose.imaging.xmp.schemas.photoshop/photoshoppackage/setcaptionwriter)(string) | 设置字幕作者。 |
+| [SetCaptionWriter](../../aspose.imaging.xmp.schemas.photoshop/photoshoppackage/setcaptionwriter)(string) | 设置字幕编写器。 |
 | [SetCategory](../../aspose.imaging.xmp.schemas.photoshop/photoshoppackage/setcategory)(string) | 设置类别。 |
 | [SetCity](../../aspose.imaging.xmp.schemas.photoshop/photoshoppackage/setcity)(string) | 设置城市。 |
 | [SetColorMode](../../aspose.imaging.xmp.schemas.photoshop/photoshoppackage/setcolormode)(ColorMode) | 设置颜色模式。 |

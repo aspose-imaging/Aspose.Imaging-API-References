@@ -18,19 +18,19 @@ public sealed class EmfPlusFillEllipse : EmfPlusDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfPlusFillEllipse](emfplusfillellipse)(EmfPlusRecord) | 初始化[`EmfPlusFillEllipse`](../emfplusfillellipse)类的新实例。 |
+| [EmfPlusFillEllipse](emfplusfillellipse)(EmfPlusRecord) | 初始化[`EmfPlusFillEllipse`](../emfplusfillellipse)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BrushId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/brushid) { get; set; } | 获取或设置画笔标识符 指定画笔的 32 位无符号整数，其内容 由标志字段中的 S 位确定。此定义用于 填充椭圆的内部 |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，该整数必须在 RecordData 字段中定义 32 位对齐的 数据字节数跟随。这个数字不包括 12 字节的记录头。 |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | 获取或设置一个 16 位无符号整数，该整数包含有关如何执行 操作和结构的一些记录的信息记录。 |
-| [IsColor](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/iscolor) { get; set; } | 获取或设置一个指示此实例是否为彩色的值。 如果设置，BrushId 将颜色指定为 EmfPlusARGB 对象（第 2.2.2.1 节）。 如果清除，BrushId 包含 EmfPlusBrush 对象 （第 2.2.1.1 节）在 EMF+ 对象表中的索引。 |
-| [IsCompressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/iscompressed) { get; set; } | 获取或设置一个值，指示此实例是否被压缩。 如果设置，则 RectData 包含 EmfPlusRect 对象（第 2.2.2.38 节）。 如果清除，则 RectData 包含 EmfPlusRectF 对象（第 2.2.2.39 节）。 |
+| [BrushId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/brushid) { get; set; } | 获取或设置画笔标识符 一个32位无符号整数，指定画笔，其中 的内容由Flags字段中的S位决定。这个定义用 来填充椭圆的内部 |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，该整数必须在随后的 RecordData 字段中定义 32 位对齐的 字节数据。这个数字不包括 12 字节的记录头。 |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | 获取或设置一个 16 位无符号整数，其中包含一些记录的信息，关于如何执行 操作以及记录的结构。 |
+| [IsColor](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/iscolor) { get; set; } | 获取或设置一个指示此实例是否为颜色的值。 如果设置，BrushId 将颜色指定为 EmfPlusARGB 对象（第 2.2.2.1 节）。 如果清除，BrushId 包含 EmfPlusBrush 对象的索引 （第 2.2.1.1 节) 在 EMF+ 对象表中。 |
+| [IsCompressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/iscompressed) { get; set; } | 获取或设置一个值，该值指示此实例是否已压缩。 如果设置，则 RectData 包含 EmfPlusRect 对象（第 2.2.2.38 节）。 如果清除，则 RectData 包含 EmfPlusRectF 对象（第 2.2.2.39 节）。 |
 | [RectData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/rectdata) { get; set; } | 获取或设置矩形数据 定义椭圆边界框的 EmfPlusRect 或 EmfPlusRectF 对象 |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | 获取或设置一个 32 位无符号整数，指定整条记录中的 32 位对齐字节数 ，包括 12 -byte 记录头和特定于记录的数据。 |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | 获取或设置一个 32 位无符号整数，指定整个记录中 32 位对齐的字节数 ，包括 12 字节的记录头和特定于记录的数据。 |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | 获取标识记录类型的 16 位无符号整数。 |
 
 ### 也可以看看

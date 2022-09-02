@@ -1,14 +1,14 @@
 ---
 title: CmxImagePage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаCmxImagePageaspose.imaging.fileformats.cmx/cmximagepage.
+description: Инициализирует новый экземплярCmxImagePageaspose.imaging.fileformats.cmx/cmximagepage класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.cmx/cmximagepage/cmximagepage/
 ---
 ## CmxImagePage constructor
 
-Инициализирует новый экземпляр класса[`CmxImagePage`](../../cmximagepage).
+Инициализирует новый экземпляр[`CmxImagePage`](../../cmximagepage) класс.
 
 ```csharp
 public CmxImagePage(CmxPage cmxPage)

@@ -1,14 +1,14 @@
 ---
 title: IsContinuable
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值该值指示此实例是否可继续 表示对象定义在下一个 EmfPlusObject 记录中继续此标志永远不会在定义对象的最终记录中设置
+description: 获取或设置一个值该值指示此实例是否可继续 指示对象定义在下一个 EmfPlusObject 记录中继续这个标志永远不会在定义对象的最终记录中设置
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusobject/iscontinuable/
 ---
 ## EmfPlusObject.IsContinuable property
 
-获取或设置一个值，该值指示此实例是否可继续。 表示对象定义在下一个 EmfPlusObject 记录中继续。此标志永远不会在定义对象的最终记录中设置。
+获取或设置一个值，该值指示此实例是否可继续。 指示对象定义在下一个 EmfPlusObject 记录中继续。这个标志永远不会在定义对象的最终记录中设置。
 
 ```csharp
 public bool IsContinuable { get; set; }
@@ -16,7 +16,7 @@ public bool IsContinuable { get; set; }
 
 ### 适当的价值
 
-` true` 如果此实例被压缩；否则，` false` 。
+`真的`如果此实例被压缩；否则，`错误的` .
 
 ### 也可以看看
 

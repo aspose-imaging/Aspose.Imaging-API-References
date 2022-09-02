@@ -1,14 +1,14 @@
 ---
 title: WEmrText
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 EmrText 对象第 2.2.5 节该对象指定 16 位 Unicode UTF16-LE 字符的输出字符串带有文本属性和间距值
+description: 获取或设置 EmrText 对象第 2.2.5 节该对象指定 16 位 Unicode UTF16-LE 字符的输出字符串带有文本属性和间距值
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfexttextoutw/wemrtext/
 ---
 ## EmfExtTextOutW.WEmrText property
 
-获取或设置一个 EmrText 对象（第 2.2.5 节），该对象指定 16 位 Unicode UTF16-LE 字符的输出字符串，带有文本属性和间距值。
+获取或设置 EmrText 对象（第 2.2.5 节），该对象指定 16 位 Unicode UTF16-LE 字符的输出字符串，带有文本属性和间距值。
 
 ```csharp
 public EmfText WEmrText { get; set; }

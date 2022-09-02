@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее является ли этотPointFaspose.imaging/pointfпустым.
+description: Получает значение указывающее является ли этоPointFaspose.imaging/pointf пуст.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging/pointf/isempty/
 ---
 ## PointF.IsEmpty property
 
-Получает значение, указывающее, является ли этот[`PointF`](../../pointf)пустым.
+Получает значение, указывающее, является ли это[`PointF`](../../pointf) пуст.
 
 ```csharp
 public bool IsEmpty { get; }
@@ -16,7 +16,7 @@ public bool IsEmpty { get; }
 
 ### Стоимость имущества
 
-Истинно, если оба[`X`](../x)и[`Y`](../y)равно 0; в противном случае ложно.
+Верно, если оба[`X`](../x) а также[`Y`](../y) 0; в противном случае ложно.
 
 ### Смотрите также
 

@@ -24,12 +24,12 @@ public sealed class EmfPlusGraphicsVersion : EmfPlusStructureObjectType
 
 | Имя | Описание |
 | --- | --- |
-| [GraphicsVersion](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion/graphicsversion) { get; set; } | Получает GraphicsVersion (12 бит):Версия графики операционной системы. Это значение ДОЛЖНО быть определено в перечислении [`EmfPlusGraphicsVersion`](../emfplusgraphicsversion) |
-| [MetafileSignature](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion/metafilesignature) { get; set; } | Получает MetafileSignature (20 бит):значение, определяющее тип метафайла. Значение для метафайла EMF+: 0xDBC01. |
+| [GraphicsVersion](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion/graphicsversion) { get; set; } | Получает GraphicsVersion (12 бит): версия графики операционной системы. Это значение ДОЛЖНО быть определено в the [`EmfPlusGraphicsVersion`](../emfplusgraphicsversion) перечисление |
+| [MetafileSignature](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion/metafilesignature) { get; set; } | Получает MetafileSignature (20 бит): значение, определяющее тип метафайла. Значение для метафайла EMF+: 0xDBC01. |
 
 ### Примечания
 
-Графические версии расширяются поставщиком; однако, для обеспечения взаимодействия, любое такое расширение ДОЛЖНО быть реализовано как на клиентах, так и на серверах метафайлов EMF+.
+Графические версии расширяются поставщиком; однако для обеспечения совместимости любое такое расширение ДОЛЖНО быть реализовано как на клиентах, так и на серверах метафайлов EMF+.
 
 ### Смотрите также
 

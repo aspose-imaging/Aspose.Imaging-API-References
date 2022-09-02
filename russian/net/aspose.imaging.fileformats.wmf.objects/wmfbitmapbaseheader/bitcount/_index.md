@@ -1,14 +1,14 @@
 ---
 title: BitCount
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 16-разрядное целое число без знака определяющее формат каждого пикселя и максимальное количество цветов в DIB. Это значение ДОЛЖНО находиться в перечисленииBitCountaspose.imaging.fileformats.wmf.objects/wmfbitmapbaseheader/bitcountраздел 2.1.1.3.
+description: Получает или задает 16-разрядное целое число без знака определяющее формат каждого пикселя и максимальное количество цветов в DIB. Это значение ДОЛЖНО быть вBitCountaspose.imaging.fileformats.wmf.objects/wmfbitmapbaseheader/bitcount Перечисление раздел 2.1.1.3.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfbitmapbaseheader/bitcount/
 ---
 ## WmfBitmapBaseHeader.BitCount property
 
-Получает или задает 16-разрядное целое число без знака, определяющее формат каждого пикселя и максимальное количество цветов в DIB. Это значение ДОЛЖНО находиться в перечислении`BitCount`(раздел 2.1.1.3).
+Получает или задает 16-разрядное целое число без знака, определяющее формат каждого пикселя и максимальное количество цветов в DIB. Это значение ДОЛЖНО быть в`BitCount` Перечисление (раздел 2.1.1.3).
 
 ```csharp
 public DibBitCount BitCount { get; set; }

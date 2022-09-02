@@ -1,14 +1,14 @@
 ---
 title: ColorPalette
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаColorPaletteaspose.imaging/colorpalette.
+description: Инициализирует новый экземплярColorPaletteaspose.imaging/colorpalette класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging/colorpalette/colorpalette/
 ---
 ## ColorPalette(int[], bool) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`ColorPalette`](../../colorpalette).
+Инициализирует новый экземпляр[`ColorPalette`](../../colorpalette) класс.
 
 ```csharp
 public ColorPalette(int[] argb32Entries, bool isCompactPalette)
@@ -17,7 +17,7 @@ public ColorPalette(int[] argb32Entries, bool isCompactPalette)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | argb32Entries | Int32[] | 32-битные записи цветовой палитры ARGB. |
-| isCompactPalette | Boolean | Указывает, компактна ли палитра. |
+| isCompactPalette | Boolean | Указание на компактность палитры. |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public ColorPalette(int[] argb32Entries, bool isCompactPalette)
 
 ## ColorPalette(int[]) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`ColorPalette`](../../colorpalette), а IsCompactPalette имеет значение false.
+Инициализирует новый экземпляр[`ColorPalette`](../../colorpalette) класс, а IsCompactPalette имеет значение false.
 
 ```csharp
 public ColorPalette(int[] argb32Entries)
@@ -49,7 +49,7 @@ public ColorPalette(int[] argb32Entries)
 
 ## ColorPalette(Color[], bool) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`ColorPalette`](../../colorpalette).
+Инициализирует новый экземпляр[`ColorPalette`](../../colorpalette) класс.
 
 ```csharp
 public ColorPalette(Color[] entries, bool isCompactPalette)
@@ -58,7 +58,7 @@ public ColorPalette(Color[] entries, bool isCompactPalette)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | entries | Color[] | Записи цветовой палитры. |
-| isCompactPalette | Boolean | Указывает, компактна ли палитра. |
+| isCompactPalette | Boolean | Указание на компактность палитры. |
 
 ### Смотрите также
 
@@ -71,7 +71,7 @@ public ColorPalette(Color[] entries, bool isCompactPalette)
 
 ## ColorPalette(Color[]) {#constructor}
 
-Инициализирует новый экземпляр класса[`ColorPalette`](../../colorpalette), а IsCompactPalette имеет значение false.
+Инициализирует новый экземпляр[`ColorPalette`](../../colorpalette) класс, а IsCompactPalette имеет значение false.
 
 ```csharp
 public ColorPalette(Color[] entries)

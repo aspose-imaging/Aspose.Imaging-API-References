@@ -1,14 +1,14 @@
 ---
 title: ImageExtensions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Содержит методы расширения для преобразования на основеImageиImage../aspose.imaging/image.
+description: Содержит методы расширения для преобразования на основеImage а такжеImage../aspose.imaging/image .
 type: docs
 weight: 1210
 url: /ru/net/aspose.imaging.extensions/imageextensions/
 ---
 ## ImageExtensions class
 
-Содержит методы расширения для преобразования на основеImageи[`Image`](../../aspose.imaging/image).
+Содержит методы расширения для преобразования на основеImage а также[`Image`](../../aspose.imaging/image) .
 
 ```csharp
 public static class ImageExtensions

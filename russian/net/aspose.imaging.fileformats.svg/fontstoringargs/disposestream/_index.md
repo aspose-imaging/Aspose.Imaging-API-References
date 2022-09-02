@@ -1,14 +1,14 @@
 ---
 title: DisposeStream
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее следует ли распоряжаться потоком.
+description: Получает или задает значение указывающее является ли распоряжаться потоком.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.svg/fontstoringargs/disposestream/
 ---
 ## FontStoringArgs.DisposeStream property
 
-Получает или задает значение, указывающее, следует ли [распоряжаться потоком].
+Получает или задает значение, указывающее, является ли [распоряжаться потоком].
 
 ```csharp
 public bool DisposeStream { get; set; }
@@ -16,7 +16,7 @@ public bool DisposeStream { get; set; }
 
 ### Стоимость имущества
 
-` true` if [dispose stream]; в противном случае` false` .
+`истинный` если [удалить поток]; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

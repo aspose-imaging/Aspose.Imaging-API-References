@@ -1,14 +1,14 @@
 ---
 title: Description
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置描述这组记录的可选的以 null 结尾的 Unicode 字符串
+description: 获取或设置一个可选的以 null 结尾的 Unicode 字符串用于描述这组记录
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup/description/
 ---
 ## EmfCommentBeginGroup.Description property
 
-获取或设置描述这组记录的可选的、以 null 结尾的 Unicode 字符串。
+获取或设置一个可选的、以 null 结尾的 Unicode 字符串，用于描述这组记录。
 
 ```csharp
 public string Description { get; set; }

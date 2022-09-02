@@ -16,7 +16,7 @@ public EmfPlusLinearGradientBrushOptionalData OptionalData { get; set; }
 
 ### 适当的价值
 
-可选[`EmfPlusLinearGradientBrushOptionalData`](../../emfpluslineargradientbrushoptionaldata)对象（部分 2.2.2.25）指定线性渐变画笔的附加数据。该字段的具体内容为 由 BrushDataFlags 字段的值决定。
+一个可选的[`EmfPlusLinearGradientBrushOptionalData`](../../emfpluslineargradientbrushoptionaldata)为线性渐变画笔指定附加数据的对象 (section 2.2.2.25)。该字段的具体内容为 由BrushDataFlags字段的值决定。
 
 ### 也可以看看
 

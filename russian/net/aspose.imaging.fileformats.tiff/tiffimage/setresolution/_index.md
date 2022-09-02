@@ -1,14 +1,14 @@
 ---
 title: SetResolution
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Устанавливает разрешение для этогоRasterImageaspose.imaging/rasterimage.
+description: Устанавливает разрешение для этогоRasterImageaspose.imaging/rasterimage .
 type: docs
 weight: 390
 url: /ru/net/aspose.imaging.fileformats.tiff/tiffimage/setresolution/
 ---
 ## TiffImage.SetResolution method
 
-Устанавливает разрешение для этого[`RasterImage`](../../../aspose.imaging/rasterimage).
+Устанавливает разрешение для этого[`RasterImage`](../../../aspose.imaging/rasterimage) .
 
 ```csharp
 public override void SetResolution(double dpiX, double dpiY)
@@ -16,8 +16,8 @@ public override void SetResolution(double dpiX, double dpiY)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dpiX | Double | Горизонтальное разрешение, в точках на дюйм, для[`RasterImage`](../../../aspose.imaging/rasterimage). |
-| dpiY | Double | Вертикальное разрешение в точках на дюйм для[`RasterImage`](../../../aspose.imaging/rasterimage). |
+| dpiX | Double | Горизонтальное разрешение, в точках на дюйм,[`RasterImage`](../../../aspose.imaging/rasterimage). |
+| dpiY | Double | Вертикальное разрешение, в точках на дюйм,[`RasterImage`](../../../aspose.imaging/rasterimage). |
 
 ### Примеры
 
@@ -32,7 +32,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"
 {
     Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)image;
 
-     // Получить горизонтальное и вертикальное разрешение TiffImage.
+    // Получить горизонтальное и вертикальное разрешение TiffImage.
     double horizontalResolution = tiffImage.HorizontalResolution;
     double verticalResolution = tiffImage.VerticalResolution;
     System.Console.WriteLine("The horizontal resolution, in pixels per inch: {0}", horizontalResolution);
@@ -40,7 +40,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"
 
     if (horizontalResolution != 96.0 || verticalResolution != 96.0)
     {
-         // Используйте метод SetResolution для обновления обоих значений разрешения в одном вызове.
+        // Используйте метод SetResolution для обновления обоих значений разрешения за один вызов.
         System.Console.WriteLine("Set resolution values to 96 dpi");
         tiffImage.SetResolution(96.0, 96.0);
 

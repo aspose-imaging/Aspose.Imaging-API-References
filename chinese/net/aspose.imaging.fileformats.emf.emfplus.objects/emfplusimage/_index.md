@@ -24,8 +24,8 @@ public sealed class EmfPlusImage : EmfPlusGraphicsObjectType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImageData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage/imagedata) { get; set; } | 获取或设置图像数据 定义在 Type 字段中指定的图像数据 的可变长度数据。数据的内容和格式可以 对于每种图像类型都不同。 |
-| [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage/type) { get; set; } | 获取或设置图像类型 一个 32 位无符号整数，指定 ImageData 字段中的数据类型 .该值必须在 ImageDataType 枚举（第 2.1.1.15 节）中定义。 |
+| [ImageData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage/imagedata) { get; set; } | 获取或设置图像数据 定义类型字段中指定的图像数据 的可变长度数据。每种图像类型的数据内容和格式 可能不同。 |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage/type) { get; set; } | 获取或设置图像类型 一个 32 位无符号整数，用于指定 ImageData 字段中的数据类型 。该值必须在 ImageDataType 枚举（第 2.1.1.15 节）中定义。 |
 | [Version](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsobjecttype/version) { get; set; } | 获取或设置版本。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: EmfRoundRect
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfRoundRectaspose.imaging.fileformats.emf.emf.records/emfroundrect类的新实例
+description: 初始化EmfRoundRectaspose.imaging.fileformats.emf.emf.records/emfroundrect类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfroundrect/emfroundrect/
 ---
 ## EmfRoundRect(EmfRecord) {#constructor_1}
 
-初始化[`EmfRoundRect`](../../emfroundrect)类的新实例。
+初始化[`EmfRoundRect`](../../emfroundrect)类.
 
 ```csharp
 public EmfRoundRect(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfRoundRect(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfRoundRect(EmfRecord source)
 
 ## EmfRoundRect() {#constructor}
 
-初始化[`EmfRoundRect`](../../emfroundrect)类的新实例。
+初始化[`EmfRoundRect`](../../emfroundrect)类.
 
 ```csharp
 public EmfRoundRect()

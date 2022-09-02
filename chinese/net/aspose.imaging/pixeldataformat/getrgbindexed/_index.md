@@ -1,14 +1,14 @@
 ---
 title: GetRgbIndexed
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取每个样本指定位数的 BGRA 索引颜色
+description: 使用每个样本指定的位数获取 BGRA 索引颜色
 type: docs
 weight: 260
 url: /zh/net/aspose.imaging/pixeldataformat/getrgbindexed/
 ---
 ## PixelDataFormat.GetRgbIndexed method
 
-获取每个样本指定位数的 BGRA 索引颜色。
+使用每个样本指定的位数获取 BGRA 索引颜色。
 
 ```csharp
 public static PixelDataFormat GetRgbIndexed(int bitsPerSample)

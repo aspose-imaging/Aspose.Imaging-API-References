@@ -1,14 +1,14 @@
 ---
 title: ReadSShortArray
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Считывает из потока массив коротких значений со знаком.
+description: Считывает массив коротких значений со знаком из потока.
 type: docs
 weight: 180
 url: /ru/net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsshortarray/
 ---
 ## TiffStreamReader.ReadSShortArray method
 
-Считывает из потока массив коротких значений со знаком.
+Считывает массив коротких значений со знаком из потока.
 
 ```csharp
 public short[] ReadSShortArray(long position, long count)
@@ -17,7 +17,7 @@ public short[] ReadSShortArray(long position, long count)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | position | Int64 | Позиция для чтения. |
-| count | Int64 | Количество элементов. |
+| count | Int64 | Элементы считаются. |
 
 ### Возвращаемое значение
 

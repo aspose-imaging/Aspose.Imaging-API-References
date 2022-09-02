@@ -1,14 +1,14 @@
 ---
 title: WmfTextOut
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_EXTTEXTOUT выводит текст с использованием шрифта цвета фона и цвета текста которые определены в контексте устройства воспроизведения. Дополнительно могут быть предоставлены размеры для отсечения непрозрачности или того и другого.
+description: Запись META_EXTTEXTOUT выводит текст с использованием шрифта цвета background и цвета текста которые определены в контексте устройства воспроизведения.
 type: docs
 weight: 9260
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmftextout/
 ---
 ## WmfTextOut class
 
-Запись META_EXTTEXTOUT выводит текст с использованием шрифта, цвета фона и цвета текста, которые определены в контексте устройства воспроизведения. Дополнительно могут быть предоставлены размеры для отсечения, непрозрачности или того и другого.
+Запись META_EXTTEXTOUT выводит текст с использованием шрифта, цвета background и цвета текста, которые определены в контексте устройства воспроизведения.
 
 ```csharp
 public class WmfTextOut : WmfExtTextOut
@@ -26,8 +26,8 @@ public class WmfTextOut : WmfExtTextOut
 | --- | --- |
 | [Dx](../../aspose.imaging.fileformats.wmf.objects/wmfexttextout/dx) { get; set; } | Получает или устанавливает dx. |
 | [ExtendedByte](../../aspose.imaging.fileformats.wmf.objects/wmfexttextout/extendedbyte) { get; set; } | Получает или задает расширенный байт. |
-| [FwOpts](../../aspose.imaging.fileformats.wmf.objects/wmfexttextout/fwopts) { get; set; } | Получает или устанавливает параметры fw. |
-| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или задает точку. |
+| [FwOpts](../../aspose.imaging.fileformats.wmf.objects/wmfexttextout/fwopts) { get; set; } | Получает или задает опции fw. |
+| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или устанавливает точку. |
 | [Rectangle](../../aspose.imaging.fileformats.wmf.objects/wmfexttextout/rectangle) { get; set; } | Получает или задает прямоугольник. |
 | [StringLength](../../aspose.imaging.fileformats.wmf.objects/wmfexttextout/stringlength) { get; set; } | Получает или задает длину строки. |
 | [Text](../../aspose.imaging.fileformats.wmf.objects/wmfexttextout/text) { get; set; } | Получает или задает текст. |

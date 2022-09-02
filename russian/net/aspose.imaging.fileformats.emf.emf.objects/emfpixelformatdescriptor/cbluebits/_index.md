@@ -1,14 +1,14 @@
 ---
 title: CBlueBits
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает Указывает количество синих битовых плоскостей в каждом цветовом буфере RGBA.
+description: Получает или задает количество синих битовых плоскостей в каждом цветовом буфере RGBA.
 type: docs
 weight: 110
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/cbluebits/
 ---
 ## EmfPixelFormatDescriptor.CBlueBits property
 
-Получает или задает Указывает количество синих битовых плоскостей в каждом цветовом буфере RGBA.
+Получает или задает количество синих битовых плоскостей в каждом цветовом буфере RGBA.
 
 ```csharp
 public byte CBlueBits { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: OldColor
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает существующую структуруColoraspose.imaging/colorдля преобразования.
+description: Получает или задает существующийColoraspose.imaging/color структура для преобразования.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging/colormap/oldcolor/
 ---
 ## ColorMap.OldColor property
 
-Получает или задает существующую структуру[`Color`](../../color)для преобразования.
+Получает или задает существующий[`Color`](../../color) структура для преобразования.
 
 ```csharp
 public Color OldColor { get; set; }
@@ -16,7 +16,7 @@ public Color OldColor { get; set; }
 
 ### Стоимость имущества
 
-Существующая структура[`Color`](../../color)для преобразования.
+Существующий[`Color`](../../color) структура, подлежащая преобразованию.
 
 ### Смотрите также
 

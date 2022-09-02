@@ -1,22 +1,22 @@
 ---
 title: Aspose.Imaging.FileFormats.OpenDocument.Objects.Brush
 second_title: Aspose.Imaging for .NET API 参考
-description: 打开文档对象
+description: 打开的文档对象
 type: docs
 weight: 510
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.brush/
 ---
-打开文档对象
+打开的文档对象
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
-| [OdBrush](./odbrush) | 打开文档画笔 |
+| [OdBrush](./odbrush) | 打开的文件刷 |
 | [OdGradientBrush](./odgradientbrush) | 渐变填充 |
-| [OdHatchedBrush](./odhatchedbrush) | 阴影画笔 |
+| [OdHatchedBrush](./odhatchedbrush) | 孵化的刷子 |
 | [OdPatternBrush](./odpatternbrush) | 打开文档模式画笔 |
-| [OdSolidBrush](./odsolidbrush) | 打开文档实体画笔 |
+| [OdSolidBrush](./odsolidbrush) | 打开的文档实体刷 |
 ## 枚举
 
 | 枚举 | 描述 |

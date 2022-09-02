@@ -1,14 +1,14 @@
 ---
 title: CompressorException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаCompressorExceptionaspose.imaging.coreexceptions/compressorexception.
+description: Инициализирует новый экземплярCompressorExceptionaspose.imaging.coreexceptions/compressorexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions/compressorexception/compressorexception/
 ---
 ## CompressorException(string) {#constructor}
 
-Инициализирует новый экземпляр класса[`CompressorException`](../../compressorexception).
+Инициализирует новый экземпляр[`CompressorException`](../../compressorexception) класс.
 
 ```csharp
 public CompressorException(string message)
@@ -28,7 +28,7 @@ public CompressorException(string message)
 
 ## CompressorException(string, Exception) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`CompressorException`](../../compressorexception).
+Инициализирует новый экземпляр[`CompressorException`](../../compressorexception) класс.
 
 ```csharp
 public CompressorException(string message, Exception innerException)

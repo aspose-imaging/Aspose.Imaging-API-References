@@ -1,14 +1,14 @@
 ---
 title: Empty
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取RectangleFaspose.imaging/rectanglef结构的新实例该结构具有XYaspose.imaging/rectanglef/yWidthaspose.imaging/rectanglef/width和Heightaspose.imaging/rectanglef/height值设置为零
+description: 获取一个新的实例RectangleFaspose.imaging/rectanglef具有的结构Xaspose.imaging/rectanglef/x Yaspose.imaging/rectanglef/y Widthaspose.imaging/rectanglef/width和Heightaspose.imaging/rectanglef/height值设置为零
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging/rectanglef/empty/
 ---
 ## RectangleF.Empty property
 
-获取[`RectangleF`](../../rectanglef)结构的新实例，该结构具有X,[`Y`](../y),[`Width`](../width)和[`Height`](../height)值设置为零。
+获取一个新的实例[`RectangleF`](../../rectanglef)具有的结构[`X`](../x) ,[`Y`](../y) ,[`Width`](../width)和[`Height`](../height)值设置为零。
 
 ```csharp
 public static RectangleF Empty { get; }

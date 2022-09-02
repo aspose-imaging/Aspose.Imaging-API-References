@@ -20,18 +20,18 @@ public enum PngColorType
 | --- | --- | --- |
 | Grayscale | `0` | 表示每个像素都是灰度样本的颜色类型。 |
 | Truecolor | `2` | 表示每个像素是 R、G、B 三元组的颜色类型。 |
-| IndexedColor | `3` | 表示其中每个像素都是调色板索引的颜色类型；将出现一个 PLTE 块。 |
+| IndexedColor | `3` | 表示每个像素是调色板索引的颜色类型；应出现一个 PLTE 块。 |
 | GrayscaleWithAlpha | `4` | 表示颜色类型，其中每个像素是一个灰度样本，后跟一个 alpha 样本。 |
-| TruecolorWithAlpha | `6` | 表示颜色类型，其中每个像素是一个 R、G、B 三元组，后跟一个 alpha 样本。 |
+| TruecolorWithAlpha | `6` | 表示颜色类型，其中每个像素是 R、G、B 三元组，后跟一个 alpha 样本。 |
 
 ### 例子
 
-以下示例显示如何使用索引颜色和最适合的调色板压缩 PNG 图像
+以下示例显示了如何使用最适合调色板的索引颜色来压缩 PNG 图像
 
 ```csharp
 [C#]
 
-    // 加载 png 图片 
+// 加载 png 图片        
     string  sourceFilePath="OriginalRings.png";
     string  outputFilePath="OriginalRingsOutput.png";
     using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(sourceFilePath))
@@ -39,12 +39,12 @@ public enum PngColorType
     image.Save(outputFilePath, new Aspose.Imaging.ImageOptions.PngOptions()
     {
          Progressive = true,
-                 // 使用索引颜色 type
+             // 使用索引颜色类型
          ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.IndexedColor,
-                 // 使用最大压缩
+             // 使用最大压缩
          CompressionLevel = 9,
-          // 获取覆盖尽可能多像素的最接近的 8 位调色板，以便调色板化的 image
-             // 在视觉上几乎与非托盘化的没有区别。
+      // 获取覆盖尽可能多像素的最接近的 8 位调色板，以便调色图像
+         // 在视觉上几乎与非托盘化的没有区别。
          Palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette((Aspose.Imaging.RasterImage)image, 256, Aspose.Imaging.PaletteMiningMethod.Histogram)
     });
 }

@@ -1,14 +1,14 @@
 ---
 title: DjvuMultiPageOptions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаDjvuMultiPageOptionsaspose.imaging.imageoptions/djvumultipageoptions.
+description: Инициализирует новый экземплярDjvuMultiPageOptionsaspose.imaging.imageoptions/djvumultipageoptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.imageoptions/djvumultipageoptions/djvumultipageoptions/
 ---
 ## DjvuMultiPageOptions() {#constructor}
 
-Инициализирует новый экземпляр класса[`DjvuMultiPageOptions`](../../djvumultipageoptions).
+Инициализирует новый экземпляр[`DjvuMultiPageOptions`](../../djvumultipageoptions) класс.
 
 ```csharp
 public DjvuMultiPageOptions()
@@ -24,7 +24,7 @@ public DjvuMultiPageOptions()
 
 ## DjvuMultiPageOptions(int[]) {#constructor_7}
 
-Инициализирует новый экземпляр класса[`DjvuMultiPageOptions`](../../djvumultipageoptions).
+Инициализирует новый экземпляр[`DjvuMultiPageOptions`](../../djvumultipageoptions) класс.
 
 ```csharp
 public DjvuMultiPageOptions(int[] pages)
@@ -44,7 +44,7 @@ public DjvuMultiPageOptions(int[] pages)
 
 ## DjvuMultiPageOptions(int[], Rectangle) {#constructor_8}
 
-Инициализирует новый экземпляр класса[`DjvuMultiPageOptions`](../../djvumultipageoptions).
+Инициализирует новый экземпляр[`DjvuMultiPageOptions`](../../djvumultipageoptions) класс.
 
 ```csharp
 public DjvuMultiPageOptions(int[] pages, Rectangle exportArea)
@@ -53,7 +53,7 @@ public DjvuMultiPageOptions(int[] pages, Rectangle exportArea)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | pages | Int32[] | Страницы индексируются. |
-| exportArea | Rectangle | Область экспорта. |
+| exportArea | Rectangle | Зона экспорта. |
 
 ### Смотрите также
 
@@ -66,7 +66,7 @@ public DjvuMultiPageOptions(int[] pages, Rectangle exportArea)
 
 ## DjvuMultiPageOptions(IntRange) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`DjvuMultiPageOptions`](../../djvumultipageoptions).
+Инициализирует новый экземпляр[`DjvuMultiPageOptions`](../../djvumultipageoptions) класс.
 
 ```csharp
 public DjvuMultiPageOptions(IntRange range)
@@ -87,7 +87,7 @@ public DjvuMultiPageOptions(IntRange range)
 
 ## DjvuMultiPageOptions(IntRange, Rectangle) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`DjvuMultiPageOptions`](../../djvumultipageoptions).
+Инициализирует новый экземпляр[`DjvuMultiPageOptions`](../../djvumultipageoptions) класс.
 
 ```csharp
 public DjvuMultiPageOptions(IntRange range, Rectangle exportArea)
@@ -96,7 +96,7 @@ public DjvuMultiPageOptions(IntRange range, Rectangle exportArea)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | range | IntRange | Диапазон. |
-| exportArea | Rectangle | Область экспорта. |
+| exportArea | Rectangle | Зона экспорта. |
 
 ### Смотрите также
 
@@ -110,7 +110,7 @@ public DjvuMultiPageOptions(IntRange range, Rectangle exportArea)
 
 ## DjvuMultiPageOptions(IntRange[]) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`DjvuMultiPageOptions`](../../djvumultipageoptions).
+Инициализирует новый экземпляр[`DjvuMultiPageOptions`](../../djvumultipageoptions) класс.
 
 ```csharp
 public DjvuMultiPageOptions(IntRange[] ranges)
@@ -131,7 +131,7 @@ public DjvuMultiPageOptions(IntRange[] ranges)
 
 ## DjvuMultiPageOptions(IntRange[], Rectangle) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`DjvuMultiPageOptions`](../../djvumultipageoptions).
+Инициализирует новый экземпляр[`DjvuMultiPageOptions`](../../djvumultipageoptions) класс.
 
 ```csharp
 public DjvuMultiPageOptions(IntRange[] ranges, Rectangle exportArea)
@@ -140,7 +140,7 @@ public DjvuMultiPageOptions(IntRange[] ranges, Rectangle exportArea)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | ranges | IntRange[] | Диапазон. |
-| exportArea | Rectangle | Область экспорта. |
+| exportArea | Rectangle | Зона экспорта. |
 
 ### Смотрите также
 
@@ -154,7 +154,7 @@ public DjvuMultiPageOptions(IntRange[] ranges, Rectangle exportArea)
 
 ## DjvuMultiPageOptions(int) {#constructor_5}
 
-Инициализирует новый экземпляр класса[`DjvuMultiPageOptions`](../../djvumultipageoptions).
+Инициализирует новый экземпляр[`DjvuMultiPageOptions`](../../djvumultipageoptions) класс.
 
 ```csharp
 public DjvuMultiPageOptions(int page)
@@ -174,7 +174,7 @@ public DjvuMultiPageOptions(int page)
 
 ## DjvuMultiPageOptions(int, Rectangle) {#constructor_6}
 
-Инициализирует новый экземпляр класса[`DjvuMultiPageOptions`](../../djvumultipageoptions).
+Инициализирует новый экземпляр[`DjvuMultiPageOptions`](../../djvumultipageoptions) класс.
 
 ```csharp
 public DjvuMultiPageOptions(int page, Rectangle exportArea)
@@ -183,7 +183,7 @@ public DjvuMultiPageOptions(int page, Rectangle exportArea)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | page | Int32 | Индекс страницы. |
-| exportArea | Rectangle | Область экспорта. |
+| exportArea | Rectangle | Зона экспорта. |
 
 ### Смотрите также
 

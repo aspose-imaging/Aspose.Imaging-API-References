@@ -1,14 +1,14 @@
 ---
 title: GetSaturation
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取此Coloraspose.imaging/color结构的色调饱和度 HSB 饱和度值
+description: 获取此颜色的色相饱和度 HSB 饱和度值Coloraspose.imaging/color结构.
 type: docs
 weight: 1580
 url: /zh/net/aspose.imaging/color/getsaturation/
 ---
 ## Color.GetSaturation method
 
-获取此[`Color`](../../color)结构的色调饱和度 (HSB) 饱和度值。
+获取此颜色的色相饱和度 (HSB) 饱和度值[`Color`](../../color)结构.
 
 ```csharp
 public float GetSaturation()
@@ -16,7 +16,7 @@ public float GetSaturation()
 
 ### 返回值
 
-这个[`Color`](../../color)的饱和度。饱和度范围从 0.0 到 1.0，其中 0.0 是灰度，1.0 是最饱和的。
+这个饱和度[`Color`](../../color).饱和度范围从 0.0 到 1.0，其中 0.0 是灰度，1.0 是最饱和的。
 
 ### 也可以看看
 

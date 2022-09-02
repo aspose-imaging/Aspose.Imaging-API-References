@@ -1,14 +1,14 @@
 ---
 title: PagesCount
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает количество страниц
+description: Получает количество страниц count
 type: docs
 weight: 140
 url: /ru/net/aspose.imaging.fileformats.eps/epsimage/pagescount/
 ---
 ## EpsImage.PagesCount property
 
-Получает количество страниц
+Получает количество страниц count
 
 ```csharp
 public int? PagesCount { get; }
@@ -16,7 +16,7 @@ public int? PagesCount { get; }
 
 ### Стоимость имущества
 
-количество страниц
+Количество страниц
 
 ### Смотрите также
 

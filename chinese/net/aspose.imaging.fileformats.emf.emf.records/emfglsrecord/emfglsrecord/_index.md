@@ -1,14 +1,14 @@
 ---
 title: EmfGlsRecord
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfGlsRecordaspose.imaging.fileformats.emf.emf.records/emfglsrecord类的新实例
+description: 初始化EmfGlsRecordaspose.imaging.fileformats.emf.emf.records/emfglsrecord类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfglsrecord/emfglsrecord/
 ---
 ## EmfGlsRecord constructor
 
-初始化[`EmfGlsRecord`](../../emfglsrecord)类的新实例。
+初始化[`EmfGlsRecord`](../../emfglsrecord)类.
 
 ```csharp
 public EmfGlsRecord(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfGlsRecord(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 

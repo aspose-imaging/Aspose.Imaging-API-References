@@ -1,14 +1,14 @@
 ---
 title: EmfScaleWindowExtex
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_SCALEWINDOWEXTEX переопределяет окно для контекста устройства воспроизведения посредством с использованием отношений образованных указанными множителями и делителями.
+description: Запись EMR_SCALEWINDOWEXTEX переопределяет окно для контекста устройства воспроизведения на с использованием отношений образованных указанными множителями и делителями.
 type: docs
 weight: 4230
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfscalewindowextex/
 ---
 ## EmfScaleWindowExtex class
 
-Запись EMR_SCALEWINDOWEXTEX переопределяет окно для контекста устройства воспроизведения посредством с использованием отношений, образованных указанными множителями и делителями.
+Запись EMR_SCALEWINDOWEXTEX переопределяет окно для контекста устройства воспроизведения на с использованием отношений, образованных указанными множителями и делителями.
 
 ```csharp
 public sealed class EmfScaleWindowExtex : EmfStateRecordType
@@ -18,14 +18,14 @@ public sealed class EmfScaleWindowExtex : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfScaleWindowExtex](emfscalewindowextex#constructor)() | Инициализирует новый экземпляр класса[`EmfScaleWindowExtex`](../emfscalewindowextex). |
-| [EmfScaleWindowExtex](emfscalewindowextex#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfScaleWindowExtex`](../emfscalewindowextex). |
+| [EmfScaleWindowExtex](emfscalewindowextex#constructor)() | Инициализирует новый экземпляр[`EmfScaleWindowExtex`](../emfscalewindowextex) класс. |
+| [EmfScaleWindowExtex](emfscalewindowextex#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfScaleWindowExtex`](../emfscalewindowextex) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 | [XDenom](../../aspose.imaging.fileformats.emf.emf.records/emfscalewindowextex/xdenom) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее горизонтальный делитель. НЕ ДОЛЖЕН быть равен нулю. |
 | [XNum](../../aspose.imaging.fileformats.emf.emf.records/emfscalewindowextex/xnum) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее горизонтальное множимое. НЕ ДОЛЖЕН быть равен нулю. |
@@ -34,7 +34,7 @@ public sealed class EmfScaleWindowExtex : EmfStateRecordType
 
 ### Примечания
 
-Экстент не может быть изменен, если контекст устройства использует режим отображения с фиксированным масштабом. Только MM_ISOTROPIC и MM_ANISOTROPIC не имеют фиксированного масштаба. Размеры окна изменены следующим образом. xNewWE = (xOldWE * xNum) / xDenom yNewWE = (yOldWE * yNum) / yDenom
+Экстент не может быть изменен, если контекст устройства использует режим отображения с фиксированным масштабом. Only MM_ISOTROPIC и MM_ANISOTROPIC не имеют фиксированного масштаба. Размеры окна изменены следующим образом. xNewWE = (xOldWE * xNum) / xDenom yNewWE = (yOldWE * yNum) / yDenom
 
 ### Смотрите также
 

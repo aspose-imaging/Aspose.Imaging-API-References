@@ -16,7 +16,7 @@ public void AddPackage(XmpPackage package)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| package | XmpPackage | 包。 |
+| package | XmpPackage | 包裹。 |
 
 ### 也可以看看
 

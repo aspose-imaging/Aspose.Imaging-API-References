@@ -18,16 +18,16 @@ public sealed class EmfInvertRgn : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfInvertRgn](emfinvertrgn)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfInvertRgn`](../emfinvertrgn). |
+| [EmfInvertRgn](emfinvertrgn)(EmfRecord) | Инициализирует новый экземпляр[`EmfInvertRgn`](../emfinvertrgn) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfinvertrgn/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе [MS-WMF] 2.2.2.19, который указывает ограничивающий прямоугольник . |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfinvertrgn/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе 2.2.2.19 [MS-WMF], , который определяет ограничивающий прямоугольник. |
 | [RgnData](../../aspose.imaging.fileformats.emf.emf.records/emfinvertrgn/rgndata) { get; set; } | Получает или задает массив байтов длины RgnDataSize, указывающий объект RegionData, в логических единицах. |
 | [RgnDataSize](../../aspose.imaging.fileformats.emf.emf.records/emfinvertrgn/rgndatasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер данных региона в байтах. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

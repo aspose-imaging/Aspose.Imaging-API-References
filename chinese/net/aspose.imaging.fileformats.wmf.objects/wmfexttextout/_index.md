@@ -1,14 +1,14 @@
 ---
 title: WmfExtTextOut
 second_title: Aspose.Imaging for .NET API 参考
-description: Wmf ext text out
+description: Wmf 文本输出
 type: docs
 weight: 8670
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfexttextout/
 ---
 ## WmfExtTextOut class
 
-Wmf ext text out
+Wmf 文本输出
 
 ```csharp
 public class WmfExtTextOut : WmfPointObject
@@ -24,9 +24,9 @@ public class WmfExtTextOut : WmfPointObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Dx](../../aspose.imaging.fileformats.wmf.objects/wmfexttextout/dx) { get; set; } | 获取或设置 dx。 |
+| [Dx](../../aspose.imaging.fileformats.wmf.objects/wmfexttextout/dx) { get; set; } | 获取或设置 dx. |
 | [ExtendedByte](../../aspose.imaging.fileformats.wmf.objects/wmfexttextout/extendedbyte) { get; set; } | 获取或设置扩展字节。 |
-| [FwOpts](../../aspose.imaging.fileformats.wmf.objects/wmfexttextout/fwopts) { get; set; } | 获取或设置 fw opts。 |
+| [FwOpts](../../aspose.imaging.fileformats.wmf.objects/wmfexttextout/fwopts) { get; set; } | 获取或设置 fw opts. |
 | [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | 获取或设置点。 |
 | [Rectangle](../../aspose.imaging.fileformats.wmf.objects/wmfexttextout/rectangle) { get; set; } | 获取或设置矩形。 |
 | [StringLength](../../aspose.imaging.fileformats.wmf.objects/wmfexttextout/stringlength) { get; set; } | 获取或设置字符串的长度。 |

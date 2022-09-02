@@ -1,14 +1,14 @@
 ---
 title: EmfPlusGraphicsVersionEnum
 second_title: Aspose.Imaging for .NET API 参考
-description: GraphicsVersion 枚举定义了用于创建 EMF 图元文件的操作系统图形版本
+description: GraphicsVersion 枚举定义了用于创建 EMF 元文件的操作系统图形版本
 type: docs
 weight: 4820
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusgraphicsversionenum/
 ---
 ## EmfPlusGraphicsVersionEnum enumeration
 
-GraphicsVersion 枚举定义了用于创建 EMF+ 图元文件的操作系统图形版本。
+GraphicsVersion 枚举定义了用于创建 EMF+ 元文件的操作系统图形版本。
 
 ```csharp
 public enum EmfPlusGraphicsVersionEnum

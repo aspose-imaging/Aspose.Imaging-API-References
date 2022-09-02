@@ -1,14 +1,14 @@
 ---
 title: DicomImageInfo
 second_title: Aspose.Imaging for .NET API 参考
-description: 包含来自 Dicom 文件头
+description: 包含来自 Dicom 文件 header 的所有元信息
 type: docs
 weight: 2420
 url: /zh/net/aspose.imaging.fileformats.dicom/dicomimageinfo/
 ---
 ## DicomImageInfo class
 
-包含来自 Dicom 文件头
+包含来自 Dicom 文件 header 的所有元信息
 
 ```csharp
 public sealed class DicomImageInfo
@@ -19,10 +19,10 @@ public sealed class DicomImageInfo
 | 姓名 | 描述 |
 | --- | --- |
 | [BitsAllocated](../../aspose.imaging.fileformats.dicom/dicomimageinfo/bitsallocated) { get; } | 获取“bitsAllocated”的值。 |
-| [Blues](../../aspose.imaging.fileformats.dicom/dicomimageinfo/blues) { get; } | 获取蓝色的数组颜色 |
-| [DicomHeaderInfoByBytes](../../aspose.imaging.fileformats.dicom/dicomimageinfo/dicomheaderinfobybytes) { get; } | 以字节为单位获取dicom头信息。 |
-| [DicomInfo](../../aspose.imaging.fileformats.dicom/dicomimageinfo/dicominfo) { get; } | 获取DICOM文件的头信息。 |
-| [Greens](../../aspose.imaging.fileformats.dicom/dicomimageinfo/greens) { get; } | 获取绿色的数组颜色 |
+| [Blues](../../aspose.imaging.fileformats.dicom/dicomimageinfo/blues) { get; } | 获取 blue 的数组颜色 |
+| [DicomHeaderInfoByBytes](../../aspose.imaging.fileformats.dicom/dicomimageinfo/dicomheaderinfobybytes) { get; } | 以字节为单位获取dicom头信息 |
+| [DicomInfo](../../aspose.imaging.fileformats.dicom/dicomimageinfo/dicominfo) { get; } | 获取DICOM文件的头信息 |
+| [Greens](../../aspose.imaging.fileformats.dicom/dicomimageinfo/greens) { get; } | 获取green 的数组颜色 |
 | [Height](../../aspose.imaging.fileformats.dicom/dicomimageinfo/height) { get; } | 获取高度。 |
 | [IsLittleEndian](../../aspose.imaging.fileformats.dicom/dicomimageinfo/islittleendian) { get; } | 获取一个值，该值指示此实例是否为小端。 |
 | [NumberOfFrames](../../aspose.imaging.fileformats.dicom/dicomimageinfo/numberofframes) { get; } | 获取帧数。 |
@@ -30,11 +30,11 @@ public sealed class DicomImageInfo
 | [PhotoInterpretation](../../aspose.imaging.fileformats.dicom/dicomimageinfo/photointerpretation) { get; } | 获取“PhotoInterpretation”的值。 |
 | [PixelRepresentation](../../aspose.imaging.fileformats.dicom/dicomimageinfo/pixelrepresentation) { get; } | 获取像素“pixelRepresentation”的值。 |
 | [PlanarConfiguration](../../aspose.imaging.fileformats.dicom/dicomimageinfo/planarconfiguration) { get; } | 获取平面配置。 |
-| [Reds](../../aspose.imaging.fileformats.dicom/dicomimageinfo/reds) { get; } | 获取红色的数组颜色 |
+| [Reds](../../aspose.imaging.fileformats.dicom/dicomimageinfo/reds) { get; } | 获取 red 的数组颜色 |
 | [RescaleIntercept](../../aspose.imaging.fileformats.dicom/dicomimageinfo/rescaleintercept) { get; } | 获取“rescaleIntercept”的值。 |
 | [RescaleSlope](../../aspose.imaging.fileformats.dicom/dicomimageinfo/rescaleslope) { get; } | 获取“rescaleSlope”的值。 |
 | [SamplesPerPixel](../../aspose.imaging.fileformats.dicom/dicomimageinfo/samplesperpixel) { get; } | 获取“samplesPerPixel”的值。 |
-| [SignedImage](../../aspose.imaging.fileformats.dicom/dicomimageinfo/signedimage) { get; } | 获取一个值，该值指示是否为“signedImage”。 |
+| [SignedImage](../../aspose.imaging.fileformats.dicom/dicomimageinfo/signedimage) { get; } | 获取一个值，表示是否“signedImage”。 |
 | [Width](../../aspose.imaging.fileformats.dicom/dicomimageinfo/width) { get; } | 获取宽度。 |
 | [WindowCentre](../../aspose.imaging.fileformats.dicom/dicomimageinfo/windowcentre) { get; } | 获取窗口中心。 |
 | [WindowWidth](../../aspose.imaging.fileformats.dicom/dicomimageinfo/windowwidth) { get; } | 获取窗口的宽度。 |

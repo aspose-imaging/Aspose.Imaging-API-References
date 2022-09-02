@@ -18,9 +18,9 @@ public enum OdPenStyle
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 笔样式无 |
-| Solid | `1` | 笔型实体 |
-| Dash | `2` | 钢笔风格破折号 |
+| None | `0` | 笔风格 none |
+| Solid | `1` | 钢笔风格solid |
+| Dash | `2` | 画笔样式 dash |
 
 ### 也可以看看
 

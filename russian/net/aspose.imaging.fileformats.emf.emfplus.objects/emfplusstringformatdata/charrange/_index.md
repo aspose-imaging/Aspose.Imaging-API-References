@@ -1,14 +1,14 @@
 ---
 title: CharRange
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает необязательный массив объектов RangeCount EmfPlusCharacterRange  определяющих диапазон позиций символов в строке текст. Ограничивающая область определяется областью дисплея которая занята группой символов заданных диапазоном символов. Это поле ДОЛЖНО присутствовать если значение поля RangeCount в объекте EmfPlusStringFormat больше 0.
+description: Получает или задает необязательный массив объектов RangeCount EmfPlusCharacterRange  которые определяют диапазон позиций символов в текстовой строке. Ограничивающая область определяется областью дисплея которая занята группой символов заданной диапазоном символов. Это поле ДОЛЖНО присутствовать если значение поля RangeCount в объекте EmfPlusStringFormat больше 0.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformatdata/charrange/
 ---
 ## EmfPlusStringFormatData.CharRange property
 
-Получает или задает необязательный массив объектов RangeCount EmfPlusCharacterRange , определяющих диапазон позиций символов в строке текст. Ограничивающая область определяется областью дисплея, которая занята группой символов, заданных диапазоном символов. Это поле ДОЛЖНО присутствовать, если значение поля RangeCount в объекте EmfPlusStringFormat больше 0.
+Получает или задает необязательный массив объектов RangeCount EmfPlusCharacterRange , которые определяют диапазон позиций символов в текстовой строке. Ограничивающая область определяется областью дисплея, которая занята группой символов, заданной диапазоном символов. Это поле ДОЛЖНО присутствовать, если значение поля RangeCount в объекте EmfPlusStringFormat больше 0.
 
 ```csharp
 public EmfPlusCharacterRange[] CharRange { get; set; }

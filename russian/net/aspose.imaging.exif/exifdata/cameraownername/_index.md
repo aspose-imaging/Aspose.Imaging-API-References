@@ -1,14 +1,14 @@
 ---
 title: CameraOwnerName
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает имя владельца камеры
+description: Получает или задает имя владельца камеры
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.exif/exifdata/cameraownername/
 ---
 ## ExifData.CameraOwnerName property
 
-Получает или устанавливает имя владельца камеры
+Получает или задает имя владельца камеры
 
 ```csharp
 public string CameraOwnerName { get; set; }

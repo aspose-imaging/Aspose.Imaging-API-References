@@ -1,14 +1,14 @@
 ---
 title: CompressedBitsPerPixel
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает количество сжатых битов на пиксель.
+description: Получает или задает сжатые биты на пиксель.
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging.exif/exifdata/compressedbitsperpixel/
 ---
 ## ExifData.CompressedBitsPerPixel property
 
-Получает или задает количество сжатых битов на пиксель.
+Получает или задает сжатые биты на пиксель.
 
 ```csharp
 public TiffRational CompressedBitsPerPixel { get; set; }

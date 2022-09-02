@@ -1,14 +1,14 @@
 ---
 title: OdPen
 second_title: Aspose.Imaging for .NET API 参考
-description: 打开文档笔
+description: 打开的文档pen
 type: docs
 weight: 7350
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.pen/odpen/
 ---
 ## OdPen class
 
-打开文档笔
+打开的文档pen
 
 ```csharp
 public class OdPen

@@ -1,14 +1,14 @@
 ---
 title: OdCurveTo
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdCurveToaspose.imaging.fileformats.opendocument.objects.graphic/odcurveto.
+description: Инициализирует новый экземплярOdCurveToaspose.imaging.fileformats.opendocument.objects.graphic/odcurveto класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odcurveto/odcurveto/
 ---
 ## OdCurveTo constructor
 
-Инициализирует новый экземпляр класса[`OdCurveTo`](../../odcurveto).
+Инициализирует новый экземпляр[`OdCurveTo`](../../odcurveto) класс.
 
 ```csharp
 public OdCurveTo(OdObject parent)

@@ -16,11 +16,11 @@ public float FirstTabOffset { get; }
 
 ### 适当的价值
 
-第一个制表符偏移量。
+第一个制表符偏移。
 
 ### 评论
 
-为已移除的方法 GetTabStops 引入该属性。
+该属性是为已删除的方法 GetTabStops 引入的。
 
 ### 也可以看看
 

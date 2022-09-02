@@ -19,9 +19,9 @@ public enum EmfPlusCompositingQuality : byte
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | CompositingQualityDefault | `1` | 不执行伽马校正。伽玛校正控制图像的整体亮度和对比度。如果没有伽马校正，合成图像可能会显得太亮或太暗。 |
-| CompositingQualityHighSpeed | `2` | 不执行伽马校正。以牺牲质量为代价来追求合成速度。就结果而言，此值与 CompositingQualityDefault 没有区别。 |
+| CompositingQualityHighSpeed | `2` | 不执行伽马校正。以牺牲质量为代价来追求合成速度。就结果而言，这个值和CompositingQualityDefault. 没有区别 |
 | CompositingQualityHighQuality | `3` | 执行 Gamma 校正。合成质量以牺牲速度为代价。 |
-| CompositingQualityGammaCorrected | `4` | 启用伽玛校正，以较低速度进行更高质量的合成。就结果而言，这个值与 CompositingQualityHighQuality 没有区别。 |
+| CompositingQualityGammaCorrected | `4` | 启用伽玛校正，以较低速度进行更高质量的合成。就结果而言，这个值和CompositingQualityHighQuality. 没有区别 |
 | CompositingQualityAssumeLinear | `5` | 不进行伽马校正；但是，使用线性值会以略低的速度产生比默认值更好的质量。 |
 
 ### 也可以看看

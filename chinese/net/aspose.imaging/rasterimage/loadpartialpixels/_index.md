@@ -30,30 +30,29 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\alpha.pn
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-        // 创建 Aspose.Imaging.IPartialPixelLoader 的实例并将其传递给 Aspose.Imaging.RasterImage.LoadPartialPixels
+    // 创建 Aspose.Imaging.IPartialPixelLoader 的实例并将其传递给 Aspose.Imaging.RasterImage.LoadPartialPixels
     TransparentPixelCounter counter = new TransparentPixelCounter();
 
-        // 加载整个图像的像素。图像的任何矩形部分都可以指定为 Aspose.Imaging.RasterImage.LoadPartialPixels 方法的第一个参数。
+    // 加载整个图像的像素。图像的任何矩形部分都可以指定为 Aspose.Imaging.RasterImage.LoadPartialPixels 方法的第一个参数。
     rasterImage.LoadPartialPixels(rasterImage.Bounds, counter);
 
     System.Console.WriteLine("The number of fully transparent pixels is {0}", counter.Count);
     System.Console.WriteLine("The total number of pixels is {0}", image.Width * image.Height);
 }
 
-    // 计数器可能如下所示：
+// 计数器可能如下所示：
 /// <summary>
-    /// 计算 alpha 通道值为 0.
- 的完全透明像素的数量
+/// 计算 alpha 通道值为 0 的完全透明像素的数量。
 /// </summary>
 private class TransparentPixelCounter : IPartialPixelLoader
 {
     /// <summary>
-    /// 完全透明像素的数量.
+    /// 完全透明像素的数量。
     /// </summary>
     private int count;
 
     /// <summary>
-        /// 获取完全透明像素的数量。
+    /// 获取完全透明像素的数量。
     /// </summary>
     public int Count
     {
@@ -63,10 +62,10 @@ private class TransparentPixelCounter : IPartialPixelLoader
     /// <summary>
     /// 处理加载的像素。每次加载新的像素部分时都会回调此方法。
     /// </summary>
-        /// <param name="pixelsRectangle">像素矩形。</param>
-        /// <param name="pixels">32 位 ARGB 像素。</param>
-        /// <param name="start">起始像素点。</param>
-        /// <param name="end">结束像素点。</param>
+    /// <param name="pixelsRectangle">像素矩形。</param>
+    /// <param name="pixels">32 位 ARGB 像素。</param>
+    /// <param name="start">起始像素点。</param>
+    /// <param name="end">结束像素点。</param>
     public void Process(Aspose.Imaging.Rectangle pixelsRectangle, Aspose.Imaging.Color[] pixels, Aspose.Imaging.Point start, Aspose.Imaging.Point end)
     {
         foreach (Color pixel in pixels)

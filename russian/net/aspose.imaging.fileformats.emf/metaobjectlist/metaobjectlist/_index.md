@@ -1,14 +1,14 @@
 ---
 title: MetaObjectList
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаMetaObjectListaspose.imaging.fileformats.emf/metaobjectlist.
+description: Инициализирует новый экземплярMetaObjectListaspose.imaging.fileformats.emf/metaobjectlist класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf/metaobjectlist/metaobjectlist/
 ---
 ## MetaObjectList(IList) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`MetaObjectList`](../../metaobjectlist).
+Инициализирует новый экземпляр[`MetaObjectList`](../../metaobjectlist) класс.
 
 ```csharp
 public MetaObjectList(IList list)
@@ -28,7 +28,7 @@ public MetaObjectList(IList list)
 
 ## MetaObjectList() {#constructor}
 
-Инициализирует новый экземпляр класса[`MetaObjectList`](../../metaobjectlist).
+Инициализирует новый экземпляр[`MetaObjectList`](../../metaobjectlist) класс.
 
 ```csharp
 public MetaObjectList()

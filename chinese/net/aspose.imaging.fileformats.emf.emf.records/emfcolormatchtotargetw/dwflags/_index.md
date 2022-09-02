@@ -1,14 +1,14 @@
 ---
 title: DwFlags
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数该整数指定 ColorMatchToTarget 枚举中的值第 2.1.6 节
+description: 获取或设置一个 32 位无符号整数该整数指定来自 ColorMatchToTarget 枚举第 2.1.6 节的值
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/dwflags/
 ---
 ## EmfColorMatchToTargetW.DwFlags property
 
-获取或设置一个 32 位无符号整数，该整数指定 ColorMatchToTarget 枚举中的值（第 2.1.6 节）。
+获取或设置一个 32 位无符号整数，该整数指定来自 ColorMatchToTarget 枚举（第 2.1.6 节）的值。
 
 ```csharp
 public EmfColorMatchToTarget DwFlags { get; set; }

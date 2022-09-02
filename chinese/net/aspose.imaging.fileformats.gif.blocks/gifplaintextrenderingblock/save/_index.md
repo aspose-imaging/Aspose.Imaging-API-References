@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: Aspose.Imaging for .NET API 参考
-description: 将块保存到指定的流
+description: 将块保存到指定的流中
 type: docs
 weight: 110
 url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/save/
 ---
 ## GifPlainTextRenderingBlock.Save method
 
-将块保存到指定的流。
+将块保存到指定的流中。
 
 ```csharp
 public override void Save(Stream stream)

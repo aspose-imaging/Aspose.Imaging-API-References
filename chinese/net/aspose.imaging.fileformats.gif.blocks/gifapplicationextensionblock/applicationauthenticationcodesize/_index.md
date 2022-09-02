@@ -1,14 +1,14 @@
 ---
 title: ApplicationAuthenticationCodeSize
 second_title: Aspose.Imaging for .NET API 参考
-description: 指定应用程序验证码大小
+description: 指定应用验证码大小
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationauthenticationcodesize/
 ---
 ## GifApplicationExtensionBlock.ApplicationAuthenticationCodeSize field
 
-指定应用程序验证码大小。
+指定应用验证码大小。
 
 ```csharp
 public const int ApplicationAuthenticationCodeSize;

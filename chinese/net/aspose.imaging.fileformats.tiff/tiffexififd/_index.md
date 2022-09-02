@@ -18,19 +18,19 @@ public class TiffExifIfd
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TiffExifIfd](tiffexififd#constructor)() | 初始化[`TiffExifIfd`](../tiffexififd)类的新实例。 |
-| [TiffExifIfd](tiffexififd#constructor_1)(uint) | 初始化[`TiffExifIfd`](../tiffexififd)类的新实例。 |
+| [TiffExifIfd](tiffexififd#constructor)() | 初始化[`TiffExifIfd`](../tiffexififd)类. |
+| [TiffExifIfd](tiffexififd#constructor_1)(uint) | 初始化[`TiffExifIfd`](../tiffexififd)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [HasValue](../../aspose.imaging.fileformats.tiff/tiffexififd/hasvalue) { get; } | 获取一个值，表示该实例是否有值。 |
+| [HasValue](../../aspose.imaging.fileformats.tiff/tiffexififd/hasvalue) { get; } | 获取一个值，表示这个实例是否有值。 |
 | [Offset](../../aspose.imaging.fileformats.tiff/tiffexififd/offset) { get; set; } | 获取或设置指向 EXIF IFD 的指针。 |
 
 ### 评论
 
-封装指向 Exif IFD 的指针。互操作性，Exif IFD 与 TIFF 中指定的 IFD 具有相同的结构。但是，通常情况下，它不像 TIFF 那样包含图像数据。 有关详细信息，请参阅 http://www.exiv2.org/tags.html 和 http://www.awaresystems.be/imaging/tiff/tifftags/exififd.html。
+封装指向 Exif IFD 的指针。互操作性，Exif IFD 的结构与 TIFF 中指定的IFD 相同。但是，通常它不包含 TIFF 中的图像数据。 请参阅 http://www.exiv2.org/tags.html 和 http://www.awaresystems.be/imaging/tiff/tifftags/exififd .html 了解更多详情。
 
 ### 也可以看看
 

@@ -25,8 +25,8 @@ public class OdLoadOptions : LoadOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [BufferSizeHint](../../aspose.imaging/loadoptions/buffersizehint) { get; set; } | 获取或设置缓冲区大小提示，该提示定义了所有内部缓冲区的最大允许大小。 |
-| [DataBackgroundColor](../../aspose.imaging/loadoptions/databackgroundcolor) { get; set; } | 获取或设置[`Image`](../../aspose.imaging/image)背景[`Color`](../../aspose.imaging/color). |
-| [DataRecoveryMode](../../aspose.imaging/loadoptions/datarecoverymode) { get; set; } | 获取或设置数据恢复模式。 |
+| [DataBackgroundColor](../../aspose.imaging/loadoptions/databackgroundcolor) { get; set; } | 获取或设置[`Image`](../../aspose.imaging/image)背景[`Color`](../../aspose.imaging/color) . |
+| [DataRecoveryMode](../../aspose.imaging/loadoptions/datarecoverymode) { get; set; } | 获取或设置数据恢复模式 |
 | [Password](../../aspose.imaging.imageloadoptions/odloadoptions/password) { get; set; } | 获取或设置密码。 |
 | [ProgressEventHandler](../../aspose.imaging/loadoptions/progresseventhandler) { get; set; } | 获取或设置进度事件处理程序。 |
 

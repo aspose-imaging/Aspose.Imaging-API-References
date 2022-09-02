@@ -1,14 +1,14 @@
 ---
 title: SmoothingMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает режим сглаживания. 7 битзначение режима сглаживания из перечисления SmoothingMode раздел 2.1.1.28
+description: Получает или устанавливает режим сглаживания. 7 бит значение режима сглаживания из перечисления SmoothingMode раздел 2.1.1.28
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetantialiasmode/smoothingmode/
 ---
 ## EmfPlusSetAntiAliasMode.SmoothingMode property
 
-Получает или задает режим сглаживания. (7 бит):значение режима сглаживания из перечисления SmoothingMode (раздел 2.1.1.28)
+Получает или устанавливает режим сглаживания. (7 бит): значение режима сглаживания из перечисления SmoothingMode (раздел 2.1.1.28)
 
 ```csharp
 public EmfPlusSmoothingMode SmoothingMode { get; set; }

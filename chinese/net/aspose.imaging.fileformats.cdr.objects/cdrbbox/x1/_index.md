@@ -1,14 +1,14 @@
 ---
 title: X1
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 x1
+description: 获取或设置 x1.
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrbbox/x1/
 ---
 ## CdrBbox.X1 property
 
-获取或设置 x1。
+获取或设置 x1.
 
 ```csharp
 public double X1 { get; set; }

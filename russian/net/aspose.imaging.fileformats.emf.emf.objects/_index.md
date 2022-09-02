@@ -1,44 +1,44 @@
 ---
 title: Aspose.Imaging.FileFormats.Emf.Emf.Objects
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пространство имен содержит типы MS-EMFрасширенный формат метафайла. 2.2 Объекты ЭМП
+description: Пространство имен содержит типы MS-EMF расширенный формат метафайла. 2.2 Объекты EMF
 type: docs
 weight: 350
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/
 ---
-Пространство имен содержит типы [MS-EMF]:расширенный формат метафайла. 2.2 Объекты ЭМП
+Пространство имен содержит типы [MS-EMF]: расширенный формат метафайла. 2.2 Объекты EMF
 
 ## Классы
 
 | Учебный класс | Описание |
 | --- | --- |
-| [EmfBasePen](./emfbasepen) | Базовый объект пера |
+| [EmfBasePen](./emfbasepen) | Базовая ручка object |
 | [EmfBitFix28To4](./emfbitfix28to4) | Объект BitFIX28_4 определяет числовое значение в 28,4-битной нотации FIX. |
 | [EmfColorAdjustment](./emfcoloradjustment) | Объект ColorAdjustment определяет значения для настройки цветов в исходных растровых изображениях при передаче битовых блоков. |
-| [EmfDesignVector](./emfdesignvector) | Объект DesignVector (раздел 2.2.3) определяет вектор дизайна, который задает значения для осей шрифта множественного эталонного шрифта. |
+| [EmfDesignVector](./emfdesignvector) | Объект DesignVector (раздел 2.2.3) определяет вектор дизайна, который задает значения для осей шрифта множественного основного шрифта. |
 | [EmfEpsData](./emfepsdata) | Объект EpsData является контейнером для данных EPS |
-| [EmfFormat](./emfformat) | Объект EmrFormat содержит информацию, идентифицирующую формат данных изображения в записи EMR_COMMENT_MULTIFORMATS (раздел 2.3.3.4.3). |
+| [EmfFormat](./emfformat) | Объект EmrFormat содержит информацию, определяющую формат данных изображения в записи an EMR_COMMENT_MULTIFORMATS (раздел 2.3.3.4.3). |
 | [EmfGradientRectangle](./emfgradientrectangle) | Объект GradientRectangle определяет прямоугольник с использованием объектов TriVertex (раздел 2.2.26) в записи EMR_GRADIENTFILL (раздел 2.3.5.12). |
 | [EmfGradientTriangle](./emfgradienttriangle) | Объект GradientTriangle определяет треугольник с использованием объектов TriVertex (раздел 2.2.26) в записи EMR_GRADIENTFILL (раздел 2.3.5.12) |
 | [EmfHeaderExtension1](./emfheaderextension1) | Объект HeaderExtension1 определяет первое расширение заголовка метафайла EMF. Добавлена поддержка объекта PixelFormatDescriptor (раздел 2.2.22) и записей OpenGL [OPENGL] (раздел 2.3.9). |
-| [EmfHeaderExtension2](./emfheaderextension2) | Объект HeaderExtension2 определяет второе расширение заголовка метафайла EMF. Он добавляет возможность измерения поверхности устройства в микрометрах, что повышает разрешение и масштабируемость метафайлов EMF. |
+| [EmfHeaderExtension2](./emfheaderextension2) | Объект HeaderExtension2 определяет второе расширение заголовка метафайла EMF. Он добавляет возможность измерять поверхность устройства в микрометрах, что повышает разрешение и масштабируемость метафайлов EMF. |
 | [EmfHeaderObject](./emfheaderobject) | Объект Header определяет заголовок метафайла EMF. Он указывает свойства устройства, на котором было создано изображение в метафайле. |
 | [EmfLogBrushEx](./emflogbrushex) | Объект LogBrushEx определяет стиль, цвет и узор независимой от устройства кисти. |
 | [EmfLogFont](./emflogfont) | Объект LogFont определяет основные атрибуты логического шрифта. |
 | [EmfLogFontEx](./emflogfontex) | Объект LogFontEx определяет расширенные атрибуты логического шрифта. |
-| [EmfLogFontExDv](./emflogfontexdv) | Объект LogFontExDv определяет вектор дизайна для расширенного логического шрифта. |
-| [EmfLogFontPanose](./emflogfontpanose) | Объект LogFontPanose указывает характеристики PANOSE логического шрифта. |
-| [EmfLogPalette](./emflogpalette) | Объект LogPalette задает logical_palette, который содержит определения цвета, не зависящие от устройства. |
+| [EmfLogFontExDv](./emflogfontexdv) | Объект LogFontExDv указывает вектор дизайна для расширенного логического шрифта. |
+| [EmfLogFontPanose](./emflogfontpanose) | Объект LogFontPanose определяет характеристики PANOSE логического шрифта. |
+| [EmfLogPalette](./emflogpalette) | Объект LogPalette указывает logical_palette, которая содержит определения цветов, не зависящие от устройства. |
 | [EmfLogPen](./emflogpen) | Объект LogPen определяет стиль, ширину и цвет логического пера. |
 | [EmfLogPenEx](./emflogpenex) | Объект LogPenEx определяет стиль, ширину и цвет расширенного логического пера. |
-| [EmfObject](./emfobject) | Базовый класс для объектов Emf |
-| [EmfPanose](./emfpanose) | Объект Panose описывает значения классификации шрифтов PANOSE для шрифта TrueType. Эти характеристики используются для ассоциации шрифта с другими шрифтами с похожим внешним видом, но другими именами. |
-| [EmfPixelFormatDescriptor](./emfpixelformatdescriptor) | Объект PixelFormatDescriptor может использоваться в записях EMR_HEADER (раздел 2.3.4.2) для указания формата пикселей выходной поверхности для контекста устройства воспроизведения. |
-| [EmfPoint28To4](./emfpoint28to4) | Объект Point28_4 представляет положение точки на поверхности устройства с координатами в 28,4-битной нотации FIX. |
-| [EmfRegionData](./emfregiondata) | Объект RegionData указывает данные, определяющие область, состоящую из неперекрывающихся прямоугольников. |
+| [EmfObject](./emfobject) | Базовый класс для объектов ЭДС |
+| [EmfPanose](./emfpanose) | Объект Panose описывает значения классификации шрифтов PANOSE для шрифта TrueType. Эти характеристики используются для связывания шрифта с другими шрифтами с похожим внешним видом, но с другими именами. |
+| [EmfPixelFormatDescriptor](./emfpixelformatdescriptor) | Объект PixelFormatDescriptor можно использовать в записях EMR_HEADER (раздел 2.3.4.2) для указания формата пикселей выходной поверхности для контекста устройства воспроизведения. |
+| [EmfPoint28To4](./emfpoint28to4) | Объект Point28_4 представляет местоположение точки на поверхности устройства с координатами в 28,4-битной нотации FIX. |
+| [EmfRegionData](./emfregiondata) | Объект RegionData указывает данные, определяющие область, состоящую из непересекающихся прямоугольников. |
 | [EmfRegionDataHeader](./emfregiondataheader) | Объект RegionDataHeader описывает свойства объекта RegionData. |
 | [EmfText](./emftext) | Объект EmrText содержит значения для вывода текста. |
-| [EmfTriVertex](./emftrivertex) | Объект TriVertex определяет цвет и информацию о положении для определения вершины прямоугольника или треугольника. |
+| [EmfTriVertex](./emftrivertex) | Объект TriVertex задает информацию о цвете и положении для определения вершины прямоугольника или треугольника. |
 | [EmfUniversalFontId](./emfuniversalfontid) | Объект UniversalFontId определяет механизм идентификации шрифтов в метафайлах EMF. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->

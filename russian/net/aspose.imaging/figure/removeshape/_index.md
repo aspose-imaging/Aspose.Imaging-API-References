@@ -1,14 +1,14 @@
 ---
 title: RemoveShape
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Удаляет фигуру из фигуры.
+description: Удаляет фигуру с фигуры.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging/figure/removeshape/
 ---
 ## Figure.RemoveShape method
 
-Удаляет фигуру из фигуры.
+Удаляет фигуру с фигуры.
 
 ```csharp
 public void RemoveShape(Shape shape)
@@ -16,7 +16,7 @@ public void RemoveShape(Shape shape)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shape | Shape | Фигура для удаления. |
+| shape | Shape | Форма, которую необходимо удалить. |
 
 ### Смотрите также
 

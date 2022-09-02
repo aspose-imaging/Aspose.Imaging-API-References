@@ -1,14 +1,14 @@
 ---
 title: IsCompressed
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值指示此实例是否被压缩 如果设置PointData 使用 16 位 整数坐标指定坐标空间中的绝对位置如果清除PointData 指定坐标 空间中的绝对位置使用 32 位浮点坐标
+description: 获取或设置一个值该值指示此实例是否被压缩 如果设置PointData 指定坐标空间中的绝对位置具有 16 位 整数坐标如果清除PointData 使用 32 位浮点坐标 指定坐标空间中的绝对位置
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpolygon/iscompressed/
 ---
 ## EmfPlusFillPolygon.IsCompressed property
 
-获取或设置一个值，指示此实例是否被压缩。 如果设置，PointData 使用 16 位 整数坐标指定坐标空间中的绝对位置。如果清除，PointData 指定坐标 空间中的绝对位置，使用 32 位浮点坐标
+获取或设置一个值，该值指示此实例是否被压缩。 如果设置，PointData 指定坐标空间中的绝对位置，具有 16 位 整数坐标。如果清除，PointData 使用 32 位浮点坐标 指定坐标空间中的绝对位置
 
 ```csharp
 public bool IsCompressed { get; set; }
@@ -16,7 +16,7 @@ public bool IsCompressed { get; set; }
 
 ### 适当的价值
 
-` true` 如果此实例被压缩；否则，` false` 。
+`真的`如果此实例被压缩；否则，`错误的` .
 
 ### 也可以看看
 

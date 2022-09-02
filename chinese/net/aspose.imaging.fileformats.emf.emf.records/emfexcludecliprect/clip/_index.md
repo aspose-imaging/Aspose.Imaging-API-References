@@ -1,14 +1,14 @@
 ---
 title: Clip
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 WMF RectL 对象MS-WMF 第 2.2.2.19 节该对象以逻辑单位指定裁剪 矩形
+description: 获取或设置一个 WMF RectL 对象MS-WMF 第 2.2.2.19 节它以逻辑单位指定剪裁 矩形
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfexcludecliprect/clip/
 ---
 ## EmfExcludeClipRect.Clip property
 
-获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象以逻辑单位指定裁剪 矩形。
+获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），它以逻辑单位指定剪裁 矩形。
 
 ```csharp
 public Rectangle Clip { get; set; }

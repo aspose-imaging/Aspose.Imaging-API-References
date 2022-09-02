@@ -1,14 +1,14 @@
 ---
 title: Version
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает Version 4 байта32-разрядное целое число без знака определяющее совместимость метафайлов EMF. Это ДОЛЖНО быть 0x00010000
+description: Получает или задает версию 4 байта 32-разрядное целое число без знака указывающее совместимость метафайлов EMF. Это ДОЛЖНО быть 0x00010000
 type: docs
 weight: 150
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/version/
 ---
 ## EmfHeaderObject.Version property
 
-Получает или задает Version (4 байта):32-разрядное целое число без знака, определяющее совместимость метафайлов EMF. Это ДОЛЖНО быть 0x00010000
+Получает или задает версию (4 байта): 32-разрядное целое число без знака, указывающее совместимость метафайлов EMF. Это ДОЛЖНО быть 0x00010000
 
 ```csharp
 public int Version { get; set; }

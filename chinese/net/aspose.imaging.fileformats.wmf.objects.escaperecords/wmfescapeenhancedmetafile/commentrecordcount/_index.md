@@ -16,7 +16,7 @@ public int CommentRecordCount { get; set; }
 
 ### 适当的价值
 
-一个 32 位无符号整数，指定包含嵌入式 EMF 的连续 META_ESCAPE_ENHANCED_METAFILE 记录的总数元文件。
+一个 32 位无符号整数，指定包含嵌入式 EMF 元文件的连续 META_ESCAPE_ENHANCED_METAFILE 记录的总数。
 
 ### 也可以看看
 

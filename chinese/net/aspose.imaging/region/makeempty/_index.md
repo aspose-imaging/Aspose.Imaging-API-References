@@ -1,14 +1,14 @@
 ---
 title: MakeEmpty
 second_title: Aspose.Imaging for .NET API 参考
-description: 将此Regionaspose.imaging/region初始化为空的内部
+description: 初始化这个Regionaspose.imaging/region到一个空的内部
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging/region/makeempty/
 ---
 ## Region.MakeEmpty method
 
-将此[`Region`](../../region)初始化为空的内部。
+初始化这个[`Region`](../../region)到一个空的内部。
 
 ```csharp
 public void MakeEmpty()

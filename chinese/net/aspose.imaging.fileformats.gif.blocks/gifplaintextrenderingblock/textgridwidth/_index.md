@@ -16,7 +16,7 @@ public ushort TextGridWidth { get; set; }
 
 ### 适当的价值
 
-文本网格宽度（以像素为单位）。
+以像素为单位的文本网格宽度。
 
 ### 也可以看看
 

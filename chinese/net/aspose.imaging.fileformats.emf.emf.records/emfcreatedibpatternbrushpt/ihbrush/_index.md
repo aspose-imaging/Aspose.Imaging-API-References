@@ -1,14 +1,14 @@
 ---
 title: IhBrush
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数它指定模式画笔 在 EMF 对象表中的索引第 3.1.1.1 节 必须保存此索引以便可以重用或修改此对象 
+description: 获取或设置一个 32 位无符号整数它指定 EMF 对象表中模式 Brush 对象的索引第 3.1.1.1 节必须保存此索引以便可以重用或修改此 object 
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/ihbrush/
 ---
 ## EmfCreateDibPatternBrushPt.IhBrush property
 
-获取或设置一个 32 位无符号整数，它指定模式画笔 在 EMF 对象表中的索引（第 3.1.1.1 节） ）。必须保存此索引，以便可以重用或修改此对象 。
+获取或设置一个 32 位无符号整数，它指定 EMF 对象表中模式 Brush 对象的索引（第 3.1.1.1 节）。必须保存此索引，以便可以重用或修改此 object 。
 
 ```csharp
 public int IhBrush { get; set; }

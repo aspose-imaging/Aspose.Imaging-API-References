@@ -25,9 +25,9 @@ public sealed class EmfPlusFont : EmfPlusGraphicsObjectType
 | 姓名 | 描述 |
 | --- | --- |
 | [EmSize](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont/emsize) { get; set; } | 获取或设置一个 32 位浮点值，该值以 SizeUnit 字段指定的单位指定 字体的 em 大小。 |
-| [FamilyName](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont/familyname) { get; set; } | 获取或设置包含 字体系列名称的 Length Unicode 字符的字符串 |
-| [FontStyleFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont/fontstyleflags) { get; set; } | 获取或设置一个 32 位有符号整数，该整数指定 影响字体外观的字符字形属性 例如粗体和斜体。该值必须由 FontStyle 标志组成（第 2.1.2.4 节）。 |
-| [SizeUnit](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont/sizeunit) { get; set; } | 获取或设置一个 32 位无符号整数，指定用于 EmSize 字段的单位。这些通常是设计字体时使用的 单位。该值必须在 UnitType 枚举中（第 2.1.1.33 节）。 |
+| [FamilyName](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont/familyname) { get; set; } | 获取或设置包含 字体家族名称 的长度为Unicode 字符的字符串 |
+| [FontStyleFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont/fontstyleflags) { get; set; } | 获取或设置一个 32 位有符号整数，它指定影响字体外观的 字符字形的属性， 例如粗体和斜体。此值必须由 FontStyle 标志（第 2.1.2.4 节）组成。 |
+| [SizeUnit](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont/sizeunit) { get; set; } | 获取或设置一个 32 位无符号整数，指定用于 EmSize 字段的单位。这些通常是设计字体时 使用的单位。该值必须在 UnitType 枚举（第 2.1.1.33 节）中。 |
 | [Version](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsobjecttype/version) { get; set; } | 获取或设置版本。 |
 
 ### 也可以看看

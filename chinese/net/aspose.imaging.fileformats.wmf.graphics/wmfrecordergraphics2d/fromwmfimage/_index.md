@@ -1,14 +1,14 @@
 ---
 title: FromWmfImage
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取现有 Wmf 图像的 Wmf 记录器实例
+description: 获取现有 Wmf 映像的 Wmf 记录器实例
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.wmf.graphics/wmfrecordergraphics2d/fromwmfimage/
 ---
 ## WmfRecorderGraphics2D.FromWmfImage method
 
-获取现有 Wmf 图像的 Wmf 记录器实例。
+获取现有 Wmf 映像的 Wmf 记录器实例。
 
 ```csharp
 public static WmfRecorderGraphics2D FromWmfImage(WmfImage wmfImage)
@@ -20,7 +20,7 @@ public static WmfRecorderGraphics2D FromWmfImage(WmfImage wmfImage)
 
 ### 返回值
 
-[`WmfRecorderGraphics2D`](../../wmfrecordergraphics2d)类的实例。
+的一个实例[`WmfRecorderGraphics2D`](../../wmfrecordergraphics2d)班级。
 
 ### 也可以看看
 

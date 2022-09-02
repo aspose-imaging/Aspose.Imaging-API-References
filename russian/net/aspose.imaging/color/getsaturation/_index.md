@@ -1,14 +1,14 @@
 ---
 title: GetSaturation
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение насыщенности оттенка-насыщенности-яркости HSB для этой структурыColoraspose.imaging/color.
+description: Получает значение насыщенности оттенка-насыщенности-яркости HSB для этогоColoraspose.imaging/color структура.
 type: docs
 weight: 1580
 url: /ru/net/aspose.imaging/color/getsaturation/
 ---
 ## Color.GetSaturation method
 
-Получает значение насыщенности оттенка-насыщенности-яркости (HSB) для этой структуры[`Color`](../../color).
+Получает значение насыщенности оттенка-насыщенности-яркости (HSB) для этого[`Color`](../../color) структура.
 
 ```csharp
 public float GetSaturation()

@@ -1,14 +1,14 @@
 ---
 title: Header
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает либо объект BitmapCoreHeader раздел 2.2.2.2 либо объект BitmapInfoHeader раздел 2.2.2.3 который указывает информацию об изображении
+description: Получает или задает либо объект BitmapCoreHeader раздел 2.2.2.2 либо объект a BitmapInfoHeader раздел 2.2.2.3 который указывает information об изображении
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/header/
 ---
 ## WmfDeviceIndependentBitmap.Header property
 
-Получает или задает либо объект BitmapCoreHeader (раздел 2.2.2.2), либо объект BitmapInfoHeader (раздел 2.2.2.3), который указывает информацию об изображении
+Получает или задает либо объект BitmapCoreHeader (раздел 2.2.2.2), либо объект a BitmapInfoHeader (раздел 2.2.2.3), который указывает information об изображении
 
 ```csharp
 public WmfBitmapBaseHeader Header { get; set; }

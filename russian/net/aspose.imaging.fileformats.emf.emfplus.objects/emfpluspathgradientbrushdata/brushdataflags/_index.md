@@ -1,14 +1,14 @@
 ---
 title: BrushDataFlags
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее данные в поле OptionalData. Это значение ДОЛЖНО состоять из флагов BrushData раздел 2.1.2.1. Следующие флаги относятся к кисти градиента пути
+description: Получает или задает 32-битное целое число без знака определяющее данные в поле OptionalData. Это значение ДОЛЖНО состоять из флагов BrushData раздел 2.1.2.1. Следующие флаги относятся к кисти градиента пути
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/brushdataflags/
 ---
 ## EmfPlusPathGradientBrushData.BrushDataFlags property
 
-Получает или задает 32-разрядное целое число без знака, указывающее данные в поле OptionalData. Это значение ДОЛЖНО состоять из флагов BrushData (раздел 2.1.2.1). Следующие флаги относятся к кисти градиента пути:
+Получает или задает 32-битное целое число без знака, определяющее данные в поле OptionalData. Это значение ДОЛЖНО состоять из флагов BrushData (раздел 2.1.2.1). Следующие флаги относятся к кисти градиента пути:
 
 ```csharp
 public EmfPlusBrushDataFlags BrushDataFlags { get; set; }

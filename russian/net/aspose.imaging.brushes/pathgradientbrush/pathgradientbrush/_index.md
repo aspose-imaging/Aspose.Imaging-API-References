@@ -1,14 +1,14 @@
 ---
 title: PathGradientBrush
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаPathGradientBrushaspose.imaging.brushes/pathgradientbrushс указанными точками.
+description: Инициализирует новый экземплярPathGradientBrushaspose.imaging.brushes/pathgradientbrush класс с указанными баллами.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.brushes/pathgradientbrush/pathgradientbrush/
 ---
 ## PathGradientBrush(PointF[]) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`PathGradientBrush`](../../pathgradientbrush)с указанными точками.
+Инициализирует новый экземпляр[`PathGradientBrush`](../../pathgradientbrush) класс с указанными баллами.
 
 ```csharp
 public PathGradientBrush(PointF[] points)
@@ -16,7 +16,7 @@ public PathGradientBrush(PointF[] points)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| points | PointF[] | Массив структур[`PointF`](../../../aspose.imaging/pointf), который представляет точки, образующие вверх по вершинам пути. |
+| points | PointF[] | Массив[`PointF`](../../../aspose.imaging/pointf) структуры, представляющие точки, составляющие вершины пути. |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public PathGradientBrush(PointF[] points)
 
 ## PathGradientBrush(PointF[], WrapMode) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`PathGradientBrush`](../../pathgradientbrush)с указанными точками и режимом переноса.
+Инициализирует новый экземпляр[`PathGradientBrush`](../../pathgradientbrush) class с указанными точками и режимом переноса.
 
 ```csharp
 public PathGradientBrush(PointF[] points, WrapMode wrapMode)
@@ -37,8 +37,8 @@ public PathGradientBrush(PointF[] points, WrapMode wrapMode)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| points | PointF[] | Массив структур[`PointF`](../../../aspose.imaging/pointf), который представляет точки, образующие вверх по вершинам пути. |
-| wrapMode | WrapMode | A[`WrapMode`](../../../aspose.imaging/wrapmode)который указывает, как заполняется нарисованный с помощью этого[`PathGradientBrush`](../../pathgradientbrush)мозаичные. |
+| points | PointF[] | Массив[`PointF`](../../../aspose.imaging/pointf) структуры, представляющие точки, составляющие вершины пути. |
+| wrapMode | WrapMode | А[`WrapMode`](../../../aspose.imaging/wrapmode) который указывает, как заполняется этим[`PathGradientBrush`](../../pathgradientbrush) плиточные. |
 
 ### Смотрите также
 
@@ -52,7 +52,7 @@ public PathGradientBrush(PointF[] points, WrapMode wrapMode)
 
 ## PathGradientBrush(Point[]) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`PathGradientBrush`](../../pathgradientbrush)с указанными точками.
+Инициализирует новый экземпляр[`PathGradientBrush`](../../pathgradientbrush) класс с указанными баллами.
 
 ```csharp
 public PathGradientBrush(Point[] points)
@@ -60,7 +60,7 @@ public PathGradientBrush(Point[] points)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| points | Point[] | Массив структур[`Point`](../../../aspose.imaging/point), который представляет точки, образующие вверх по вершинам пути. |
+| points | Point[] | Массив[`Point`](../../../aspose.imaging/point) структуры, представляющие точки, составляющие вершины пути. |
 
 ### Смотрите также
 
@@ -73,7 +73,7 @@ public PathGradientBrush(Point[] points)
 
 ## PathGradientBrush(Point[], WrapMode) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`PathGradientBrush`](../../pathgradientbrush)с указанными точками и режимом переноса.
+Инициализирует новый экземпляр[`PathGradientBrush`](../../pathgradientbrush) class с указанными точками и режимом переноса.
 
 ```csharp
 public PathGradientBrush(Point[] points, WrapMode wrapMode)
@@ -81,8 +81,8 @@ public PathGradientBrush(Point[] points, WrapMode wrapMode)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| points | Point[] | Массив структур[`Point`](../../../aspose.imaging/point), который представляет точки, образующие вверх по вершинам пути. |
-| wrapMode | WrapMode | A[`WrapMode`](../../../aspose.imaging/wrapmode)который указывает, как заполняется нарисованный с помощью этого[`PathGradientBrush`](../../pathgradientbrush)мозаичные. |
+| points | Point[] | Массив[`Point`](../../../aspose.imaging/point) структуры, представляющие точки, составляющие вершины пути. |
+| wrapMode | WrapMode | А[`WrapMode`](../../../aspose.imaging/wrapmode) который указывает, как заполняется этим[`PathGradientBrush`](../../pathgradientbrush) плиточные. |
 
 ### Смотрите также
 
@@ -96,7 +96,7 @@ public PathGradientBrush(Point[] points, WrapMode wrapMode)
 
 ## PathGradientBrush(GraphicsPath) {#constructor}
 
-Инициализирует новый экземпляр класса[`PathGradientBrush`](../../pathgradientbrush)с указанным путем.
+Инициализирует новый экземпляр[`PathGradientBrush`](../../pathgradientbrush) класс с указанным путем.
 
 ```csharp
 public PathGradientBrush(GraphicsPath path)
@@ -104,7 +104,7 @@ public PathGradientBrush(GraphicsPath path)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | GraphicsPath | [`GraphicsPath`](../../../aspose.imaging/graphicspath)который определяет область, заполненную этим[`PathGradientBrush`](../../pathgradientbrush). |
+| path | GraphicsPath | [`GraphicsPath`](../../../aspose.imaging/graphicspath) который определяет область, заполненную этим[`PathGradientBrush`](../../pathgradientbrush). |
 
 ### Смотрите также
 

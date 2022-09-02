@@ -1,14 +1,14 @@
 ---
 title: BlendOperation
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取混合操作代码 唯一定义的源和目标47混合操作是 0x00它指定源位图 必须与目标位图结合基于源像素的 alpha 透明度值 有关详细信息请参见以下等式
+description: 获取混合操作代码 唯一已定义的源和目标 混合操作是 0x00它指定源位图 必须根据源像素的 alpha 透明度值 与目标位图组合有关详细信息请参见以下等式
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfblendfunction/blendoperation/
 ---
 ## EmfBlendFunction.BlendOperation property
 
-获取混合操作代码。 唯一定义的源和目标::47:::混合操作是 0x00，它指定源位图 必须与目标位图结合基于源像素的 alpha 透明度值 。有关详细信息，请参见以下等式。
+获取混合操作代码。 唯一已定义的源和目标 混合操作是 0x00，它指定源位图 必须根据源像素的 alpha 透明度值 与目标位图组合。有关详细信息，请参见以下等式。
 
 ```csharp
 public byte BlendOperation { get; }

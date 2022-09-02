@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 y
+description: 获取或设置 y.
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/height/
 ---
 ## CdrGraphicObject.Height property
 
-获取或设置 y。
+获取或设置 y.
 
 ```csharp
 public double Height { get; set; }
@@ -16,7 +16,7 @@ public double Height { get; set; }
 
 ### 适当的价值
 
-y。
+y.
 
 ### 也可以看看
 

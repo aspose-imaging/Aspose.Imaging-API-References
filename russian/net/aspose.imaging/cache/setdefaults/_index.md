@@ -1,14 +1,14 @@
 ---
 title: SetDefaults
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Устанавливает дляCacheaspose.imaging/cacheнастройки по умолчанию.
+description: УстанавливаетCacheaspose.imaging/cache настройки по умолчанию.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging/cache/setdefaults/
 ---
 ## Cache.SetDefaults method
 
-Устанавливает для[`Cache`](../../cache)настройки по умолчанию.
+Устанавливает[`Cache`](../../cache) настройки по умолчанию.
 
 ```csharp
 public static void SetDefaults()

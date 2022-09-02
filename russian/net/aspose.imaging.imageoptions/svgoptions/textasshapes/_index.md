@@ -16,7 +16,7 @@ public bool TextAsShapes { get; set; }
 
 ### Стоимость имущества
 
-` true` если весь текст преобразован в формы SVG в преобразование; в противном случае` false` .
+`истинный` если при конвертации весь текст превращается в SVG-формы; в противном случае,`ЛОЖЬ` .
 
 ### Примеры
 
@@ -27,34 +27,28 @@ public bool TextAsShapes { get; set; }
 
 string dir = "c:\\temp\\";
 
- // Использование Aspose.Imaging.Image.Load — это унифицированный способ загрузки всех типов изображений, включая EMF.
-using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFormats.Emf.EmfImage)Aspose.Imaging.Image.Load(dir + "test.emf"))
+// Использование Aspose.Imaging.Image.Load — это унифицированный способ загрузки всех типов изображений, включая WMF.
+using (Aspose.Imaging.FileFormats.Wmf.WmfImage wmfImage = (Aspose.Imaging.FileFormats.Wmf.WmfImage)Aspose.Imaging.Image.Load(dir + "test.wmf"))
 {
     Aspose.Imaging.ImageOptions.SvgOptions saveOptions = new Aspose.Imaging.ImageOptions.SvgOptions();
-
-     // Текст будет преобразован в фигуры.
+        
+    // Текст будет преобразован в фигуры.
     saveOptions.TextAsShapes = true;
 
-    Aspose.Imaging.ImageOptions.EmfRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.EmfRasterizationOptions();
+    Aspose.Imaging.ImageOptions.WmfRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.WmfRasterizationOptions();
 
-     // Цвет фона поверхности рисования.
+    // Цвет фона поверхности рисования.
     rasterizationOptions.BackgroundColor = Aspose.Imaging.Color.WhiteSmoke;
 
-     // Размер страницы.
-    rasterizationOptions.PageSize = emfImage.Size;
+    // Размер страницы.
+    rasterizationOptions.PageSize = wmfImage.Size;
 
-     // Если встроенная ЭДС существует, то визуализировать ЭДС; в противном случае визуализируйте wmf.
-    rasterizationOptions.RenderMode = Aspose.Imaging.FileFormats.Emf.EmfRenderMode.Auto;
-
-     // Установить горизонтальное поле
-    rasterizationOptions.BorderX = 50;
-
-     // Устанавливаем вертикальную маржу
-    rasterizationOptions.BorderY = 50;
+    // Если встроенная ЭДС существует, то визуализировать ЭДС; в противном случае визуализируйте wmf.
+    rasterizationOptions.RenderMode = Aspose.Imaging.FileFormats.Wmf.WmfRenderMode.Auto;
 
     saveOptions.VectorRasterizationOptions = rasterizationOptions;
 
-    emfImage.Save(dir + "test.output.svg", saveOptions);
+    wmfImage.Save(dir + "test.output.svg", saveOptions);
 }
 ```
 
@@ -65,29 +59,29 @@ using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFo
 
 string dir = "c:\\temp\\";
 
- // Использование Aspose.Imaging.Image.Load — это унифицированный способ загрузки всех типов изображений, включая EMF.
+// Использование Aspose.Imaging.Image.Load — это унифицированный способ загрузки всех типов изображений, включая EMF.
 using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFormats.Emf.EmfImage)Aspose.Imaging.Image.Load(dir + "test.emf"))
 {
     Aspose.Imaging.ImageOptions.SvgOptions saveOptions = new Aspose.Imaging.ImageOptions.SvgOptions();
 
-     // Текст будет преобразован в фигуры.
+    // Текст будет преобразован в фигуры.
     saveOptions.TextAsShapes = true;
 
     Aspose.Imaging.ImageOptions.EmfRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.EmfRasterizationOptions();
 
-     // Цвет фона поверхности рисования.
+    // Цвет фона поверхности рисования.
     rasterizationOptions.BackgroundColor = Aspose.Imaging.Color.WhiteSmoke;
 
-     // Размер страницы.
+    // Размер страницы.
     rasterizationOptions.PageSize = emfImage.Size;
 
-     // Если встроенная ЭДС существует, то визуализировать ЭДС; в противном случае визуализируйте wmf.
+    // Если встроенная ЭДС существует, то визуализировать ЭДС; в противном случае визуализируйте wmf.
     rasterizationOptions.RenderMode = Aspose.Imaging.FileFormats.Emf.EmfRenderMode.Auto;
 
-     // Установить горизонтальное поле
+    // Установить горизонтальное поле
     rasterizationOptions.BorderX = 50;
 
-     // Устанавливаем вертикальную маржу
+    // Установить вертикальное поле
     rasterizationOptions.BorderY = 50;
 
     saveOptions.VectorRasterizationOptions = rasterizationOptions;

@@ -1,14 +1,14 @@
 ---
 title: Padding
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置仅用于确保此结构的 32 位对齐的字段它必须被忽略
+description: 获取或设置一个字段该字段仅用于确保此结构的 32 位对齐它必须被忽略
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emflogfontpanose/padding/
 ---
 ## EmfLogFontPanose.Padding property
 
-获取或设置仅用于确保此结构的 32 位对齐的字段。它必须被忽略
+获取或设置一个字段，该字段仅用于确保此结构的 32 位对齐。它必须被忽略
 
 ```csharp
 public short Padding { get; set; }

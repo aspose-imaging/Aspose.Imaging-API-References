@@ -1,14 +1,14 @@
 ---
 title: BlendPattern
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置路径渐变画笔的可选混合模式如果此字段为 存在则它必须包含 EmfPlusBlendColors 对象第 2.2.2.4 节 或 EmfPlusBlendFactors 对象第 2.2.2.5 节但不得包含两个都 下表显示 EmfPlusPathGradientBrushData BrushData 标志和相应混合模式的有效组合
+description: 获取或设置路径渐变画笔的可选混合模式如果此字段存在 则它必须包含 EmfPlusBlendColors 对象第 2.2.2.4 节 或 EmfPlusBlendFactors 对象第 2.2.2.5 节但不得同时包含两者 下表显示 EmfPlusPathGradientBrushData BrushData 标志的有效组合和相应的混合模式
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushoptionaldata/blendpattern/
 ---
 ## EmfPlusPathGradientBrushOptionalData.BlendPattern property
 
-获取或设置路径渐变画笔的可选混合模式。如果此字段为 存在，则它必须包含 EmfPlusBlendColors 对象（第 2.2.2.4 节）、 或 EmfPlusBlendFactors 对象（第 2.2.2.5 节），但不得包含两个都。 下表显示 EmfPlusPathGradientBrushData BrushData 标志和相应混合模式的有效组合:
+获取或设置路径渐变画笔的可选混合模式。如果此字段存在 ，则它必须包含 EmfPlusBlendColors 对象（第 2.2.2.4 节）、 或 EmfPlusBlendFactors 对象（第 2.2.2.5 节），但不得同时包含两者。 下表显示 EmfPlusPathGradientBrushData BrushData 标志的有效组合和相应的混合模式：
 
 ```csharp
 public EmfPlusBlendBase BlendPattern { get; set; }

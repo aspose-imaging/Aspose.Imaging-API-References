@@ -1,14 +1,14 @@
 ---
 title: GetEnumerator
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取枚举数
+description: 获取枚举器
 type: docs
 weight: 140
 url: /zh/net/aspose.imaging/nongenericdictionary/getenumerator/
 ---
 ## NonGenericDictionary.GetEnumerator method
 
-获取枚举数。
+获取枚举器。
 
 ```csharp
 public IDictionaryEnumerator GetEnumerator()

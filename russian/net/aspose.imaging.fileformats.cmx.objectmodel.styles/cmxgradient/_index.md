@@ -29,11 +29,11 @@ public class CmxGradient
 | [CenterYOffset](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/centeryoffset) { get; set; } | Получает или задает смещение центра по оси y. |
 | [Colors](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/colors) { get; set; } | Получает или задает цвета. |
 | [EdgeOffset](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/edgeoffset) { get; set; } | Получает или задает смещение края. |
-| [Mode](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/mode) { get; set; } | Получает или задает режим. |
+| [Mode](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/mode) { get; set; } | Получает или устанавливает режим. |
 | [Offsets](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/offsets) { get; set; } | Получает или задает смещения. |
-| [RateMethod](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/ratemethod) { get; set; } | Получает или задает метод скорости. |
+| [RateMethod](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/ratemethod) { get; set; } | Получает или задает метод оценки. |
 | [RateValue](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/ratevalue) { get; set; } | Получает или задает значение скорости. |
-| [Screen](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/screen) { get; set; } | Получает или задает экран. |
+| [Screen](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/screen) { get; set; } | Получает или устанавливает экран. |
 | [Steps](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/steps) { get; set; } | Получает или задает шаги. |
 | [Type](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/type) { get; set; } | Получает или задает тип. |
 
@@ -41,7 +41,7 @@ public class CmxGradient
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 
 ### Смотрите также
 

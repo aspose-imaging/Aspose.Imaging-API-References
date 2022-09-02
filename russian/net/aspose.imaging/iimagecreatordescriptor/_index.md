@@ -1,14 +1,14 @@
 ---
 title: IImageCreatorDescriptor
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Дескриптор создателя изображения определяющий свойства создателя. Дескриптор создателя используется для преодоления необходимости содержать каждый экземпляр создателя изображения в памяти и проблем многопоточности.
+description: Дескриптор создателя изображения определяющий свойства создателя. Дескриптор создателя используется для преодоления необходимости содержать каждый экземпляр создателя изображения в памяти и проблем с многопоточностью.
 type: docs
 weight: 9470
 url: /ru/net/aspose.imaging/iimagecreatordescriptor/
 ---
 ## IImageCreatorDescriptor interface
 
-Дескриптор создателя изображения, определяющий свойства создателя. Дескриптор создателя используется для преодоления необходимости содержать каждый экземпляр создателя изображения в памяти и проблем многопоточности.
+Дескриптор создателя изображения, определяющий свойства создателя. Дескриптор создателя используется для преодоления необходимости содержать каждый экземпляр создателя изображения в памяти и проблем с многопоточностью.
 
 ```csharp
 public interface IImageCreatorDescriptor : IImageDescriptor
@@ -18,8 +18,8 @@ public interface IImageCreatorDescriptor : IImageDescriptor
 
 | Имя | Описание |
 | --- | --- |
-| [CanCreate](../../aspose.imaging/iimagecreatordescriptor/cancreate)(ImageOptionsBase) | Определяет, может ли создатель образа создать новый образ с помощью*imageOptions*. |
-| [CreateInstance](../../aspose.imaging/iimagecreatordescriptor/createinstance)() | Создает новый экземпляр создателя. |
+| [CanCreate](../../aspose.imaging/iimagecreatordescriptor/cancreate)(ImageOptionsBase) | Определяет, может ли создатель образа создать новый образ, используя*imageOptions* . |
+| [CreateInstance](../../aspose.imaging/iimagecreatordescriptor/createinstance)() | Создает новый экземпляр Creator. |
 
 ### Смотрите также
 

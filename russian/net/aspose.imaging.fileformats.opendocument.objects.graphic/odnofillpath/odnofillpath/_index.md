@@ -1,14 +1,14 @@
 ---
 title: OdNoFillPath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdNoFillPathaspose.imaging.fileformats.opendocument.objects.graphic/odnofillpath.
+description: Инициализирует новый экземплярOdNoFillPathaspose.imaging.fileformats.opendocument.objects.graphic/odnofillpath класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odnofillpath/odnofillpath/
 ---
 ## OdNoFillPath constructor
 
-Инициализирует новый экземпляр класса[`OdNoFillPath`](../../odnofillpath).
+Инициализирует новый экземпляр[`OdNoFillPath`](../../odnofillpath) класс.
 
 ```csharp
 public OdNoFillPath(OdObject parent)

@@ -16,7 +16,7 @@ public bool IsExtraSamplesPresent { get; }
 
 ### 适当的价值
 
-` true` 如果存在额外样本；否则，` false` 。
+`真的`如果存在额外的样本；否则，`错误的` .
 
 ### 也可以看看
 

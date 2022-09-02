@@ -16,7 +16,7 @@ public static Color FromWin32(int win32Color)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| win32Color | Int32 | Цвет Win32. |
+| win32Color | Int32 | Цвет вин32. |
 
 ### Возвращаемое значение
 

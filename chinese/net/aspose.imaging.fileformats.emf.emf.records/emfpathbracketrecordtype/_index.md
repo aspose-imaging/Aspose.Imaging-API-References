@@ -1,14 +1,14 @@
 ---
 title: EmfPathBracketRecordType
 second_title: Aspose.Imaging for .NET API 参考
-description: 路径括号记录类型指定和操作路径括号中的路径 注意没有路径括号记录指定参数
+description: 路径括号记录类型指定和操作路径括号中的路径 注意路径括号记录均未指定参数
 type: docs
 weight: 3920
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfpathbracketrecordtype/
 ---
 ## EmfPathBracketRecordType class
 
-路径括号记录类型指定和操作路径括号中的路径。 注意:没有路径括号记录指定参数。
+路径括号记录类型指定和操作路径括号中的路径。 注意：路径括号记录均未指定参数。
 
 ```csharp
 public abstract class EmfPathBracketRecordType : EmfRecord

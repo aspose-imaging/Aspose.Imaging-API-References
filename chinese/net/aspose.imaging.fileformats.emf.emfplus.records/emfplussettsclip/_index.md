@@ -18,23 +18,23 @@ public sealed class EmfPlusSetTsClip : EmfPlusTerminalServerRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfPlusSetTsClip](emfplussettsclip)(EmfPlusRecord) | 初始化[`EmfPlusSetTsClip`](../emfplussettsclip)类的新实例。 |
+| [EmfPlusSetTsClip](emfplussettsclip)(EmfPlusRecord) | 初始化[`EmfPlusSetTsClip`](../emfplussettsclip)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Compressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplussettsclip/compressed) { get; } | 获取一个值，该值指示此[`EmfPlusSetTsClip`](../emfplussettsclip)是否被压缩。 该位指定rects字段中矩形数据的格式。如果设置，每个 矩形定义为 4 个字节。如果清除，则每个矩形定义为 8 个字节。 |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，该整数必须在 RecordData 字段中定义 32 位对齐的 数据字节数跟随。这个数字不包括 12 字节的记录头。 |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | 获取或设置一个 16 位无符号整数，该整数包含有关如何执行 操作和结构的一些记录的信息记录。 |
-| [NumRects](../../aspose.imaging.fileformats.emf.emfplus.records/emfplussettsclip/numrects) { get; } | 获取数字矩形。 此字段指定在 rect 字段中定义的矩形数量。 |
-| [Rects](../../aspose.imaging.fileformats.emf.emfplus.records/emfplussettsclip/rects) { get; set; } | 获取或设置定义剪切区域的 NumRects 矩形数组。 该数据的格式由标志字段中的 C 位确定。 |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | 获取或设置一个 32 位无符号整数，指定整条记录中的 32 位对齐字节数 ，包括 12 -byte 记录头和特定于记录的数据。 |
+| [Compressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplussettsclip/compressed) { get; } | 获取一个值，该值指示这是否[`EmfPlusSetTsClip`](../emfplussettsclip)被压缩。 该位指定rects字段中矩形数据的格式。如果设置，each rectangle 以 4 个字节定义。如果清除，则每个矩形定义为 8 个字节。 |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，该整数必须在随后的 RecordData 字段中定义 32 位对齐的 字节数据。这个数字不包括 12 字节的记录头。 |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | 获取或设置一个 16 位无符号整数，其中包含一些记录的信息，关于如何执行 操作以及记录的结构。 |
+| [NumRects](../../aspose.imaging.fileformats.emf.emfplus.records/emfplussettsclip/numrects) { get; } | 获取矩形的数量。 该字段指定矩形字段中定义的矩形数量。 |
+| [Rects](../../aspose.imaging.fileformats.emf.emfplus.records/emfplussettsclip/rects) { get; set; } | 获取或设置定义剪切区域的 NumRects 矩形数组。 这个数据的格式是由Flags字段中的C位决定的。 |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | 获取或设置一个 32 位无符号整数，指定整个记录中 32 位对齐的字节数 ，包括 12 字节的记录头和特定于记录的数据。 |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | 获取标识记录类型的 16 位无符号整数。 |
 
 ### 评论
 
-此记录中数据的压缩方案使用以下算法。每个 矩形的每个点都以单个字节或 2 个字节编码。如果该点以单个字节编码，则必须设置该字节的 高位（0x80），该值是由低位 7 位表示的有符号数.如果未设置高位，则将值编码为 2 个字节，其中高位字节 编码在第一个字节的低 7 个位中，低位字节值编码在第二个字节。 每个点都被编码为当前矩形中的点与 前一个矩形中的点之间的差异。矩形的底部点被编码为底部 坐标和当前矩形上的顶部坐标之间的差异。
+此记录中数据的压缩方案使用以下算法。 each 矩形的每个点都以单个字节或 2 个字节编码。如果该点以单个字节编码，则必须设置该字节的 高位（0x80），该值是由lower 7位表示的有符号数。如果不设置高位，则将值编码为 2 个字节，其中高位字节 编码在第一个字节的低 7 个位中，低位字节值编码在第二个字节中。 每个点被编码为当前 rect 中的点与 the 前一个 rect 中的点之间的差异。 rect 的底点被编码为bottom 坐标和当前rect 上的top 坐标之间的差值。
 
 ### 也可以看看
 

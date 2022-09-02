@@ -16,7 +16,7 @@ public void SetPdfVersion(string version)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| version | String | Pdf版本，例如:1.0、1.3等 |
+| version | String | pdf版本，例如：1.0、1.3等。 |
 
 ### 也可以看看
 

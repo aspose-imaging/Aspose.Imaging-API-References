@@ -1,14 +1,14 @@
 ---
 title: GPSStatus
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает состояние GPS-приемника при записи изображения.
+description: Получает или задает состояние приемника GPS при записи изображения.
 type: docs
 weight: 620
 url: /ru/net/aspose.imaging.exif/exifdata/gpsstatus/
 ---
 ## ExifData.GPSStatus property
 
-Получает или задает состояние GPS-приемника при записи изображения.
+Получает или задает состояние приемника GPS при записи изображения.
 
 ```csharp
 public string GPSStatus { get; set; }
@@ -16,7 +16,7 @@ public string GPSStatus { get; set; }
 
 ### Стоимость имущества
 
-Состояние GPS-приемника при записи изображения.
+Состояние приемника GPS при записи изображения.
 
 ### Смотрите также
 

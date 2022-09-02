@@ -31,7 +31,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-     // Установить значение яркости. Допустимые значения яркости находятся в диапазоне [-255, 255].
+    // Установить значение яркости. Принятые значения яркости находятся в диапазоне [-255, 255].
     rasterImage.AdjustBrightness(50);
     rasterImage.Save(dir + "sample.AdjustBrightness.png");
 }

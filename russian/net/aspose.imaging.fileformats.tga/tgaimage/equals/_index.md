@@ -16,7 +16,7 @@ public bool Equals(TgaImage other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | TgaImage | Второй[`TgaImage`](../../tgaimage)который участвует в сравнении . |
+| other | TgaImage | Второй[`TgaImage`](../../tgaimage) что принимает участие в сравнении. |
 
 ### Возвращаемое значение
 
@@ -40,7 +40,7 @@ public override bool Equals(object other)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| other | Object | Второй[`TgaImage`](../../tgaimage)который участвует в сравнении . |
+| other | Object | Второй[`TgaImage`](../../tgaimage) что принимает участие в сравнении. |
 
 ### Возвращаемое значение
 

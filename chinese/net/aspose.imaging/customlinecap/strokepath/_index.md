@@ -1,14 +1,14 @@
 ---
 title: StrokePath
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置定义自定义上限轮廓的对象
+description: 获取或设置定义自定义帽盖轮廓的对象
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging/customlinecap/strokepath/
 ---
 ## CustomLineCap.StrokePath property
 
-获取或设置定义自定义上限轮廓的对象。
+获取或设置定义自定义帽盖轮廓的对象。
 
 ```csharp
 public GraphicsPath StrokePath { get; set; }
@@ -16,7 +16,7 @@ public GraphicsPath StrokePath { get; set; }
 
 ### 适当的价值
 
-定义自定义上限轮廓的对象。
+定义自定义帽的轮廓的对象。
 
 ### 也可以看看
 

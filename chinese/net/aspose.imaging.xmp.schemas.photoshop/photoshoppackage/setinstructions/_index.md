@@ -16,7 +16,7 @@ public void SetInstructions(string instructions)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| instructions | String | 指令。 |
+| instructions | String | 说明。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: RectFloat
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее содержат ли данные записи EmfPlusRectF или EmfPlusRect Этот бит указывает содержатся ли данные в поле RectData сжато. Если установлено RectData содержит объект EmfPlusRect раздел 2.2.2.38. Если этот параметр не установлен RectData содержит объект EmfPlusRectF раздел 2.2.2.39.
+description: Получает или задает значение указывающее содержат ли данные записи EmfPlusRectF или EmfPlusRect Этот бит указывает сжаты ли данные в поле RectData. Если установлено RectData содержит объект EmfPlusRect раздел 2.2.2.38. содержит объект EmfPlusRectF раздел 2.2.2.39.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/rectfloat/
 ---
 ## EmfPlusDrawArc.RectFloat property
 
-Получает или задает значение, указывающее, содержат ли данные записи EmfPlusRectF или EmfPlusRect Этот бит указывает, содержатся ли данные в поле RectData сжато. Если установлено, RectData содержит объект EmfPlusRect (раздел 2.2.2.38). Если этот параметр не установлен, RectData содержит объект EmfPlusRectF (раздел 2.2.2.39).
+Получает или задает значение, указывающее, содержат ли данные записи EmfPlusRectF или EmfPlusRect Этот бит указывает, сжаты ли данные в поле RectData. Если установлено, RectData содержит объект EmfPlusRect (раздел 2.2.2.38). содержит объект EmfPlusRectF (раздел 2.2.2.39).
 
 ```csharp
 public bool RectFloat { get; set; }
@@ -16,7 +16,7 @@ public bool RectFloat { get; set; }
 
 ### Стоимость имущества
 
-` true` if float; в противном случае` false` .
+`истинный` если поплавок; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

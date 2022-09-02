@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает высоту этойRectangleaspose.imaging/rectangleструктуры.
+description: Получает или задает высоту этогоRectangleaspose.imaging/rectangle структура.
 type: docs
 weight: 120
 url: /ru/net/aspose.imaging/rectangle/height/
 ---
 ## Rectangle.Height property
 
-Получает или задает высоту этой[`Rectangle`](../../rectangle)структуры.
+Получает или задает высоту этого[`Rectangle`](../../rectangle) структура.
 
 ```csharp
 public int Height { get; set; }
@@ -16,7 +16,7 @@ public int Height { get; set; }
 
 ### Возвращаемое значение
 
-Высота этой[`Rectangle`](../../rectangle)структуры.
+Высота этого[`Rectangle`](../../rectangle) структура.
 
 ### Смотрите также
 

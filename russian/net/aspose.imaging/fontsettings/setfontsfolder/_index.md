@@ -1,14 +1,14 @@
 ---
 title: SetFontsFolder
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Это ярлык дляSetFontsFoldersaspose.imaging/fontsettings/setfontsfoldersдля настройки только один каталог шрифтов. Папка шрифтов не проверяется.
+description: Это ярлык дляSetFontsFoldersaspose.imaging/fontsettings/setfontsfolders для установки только одного каталога шрифтов. В папке шрифтов не выполняются проверки.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging/fontsettings/setfontsfolder/
 ---
 ## FontSettings.SetFontsFolder method
 
-Это ярлык для[`SetFontsFolders`](../setfontsfolders)для настройки только один каталог шрифтов. Папка шрифтов не проверяется.
+Это ярлык для[`SetFontsFolders`](../setfontsfolders) для установки только одного каталога шрифтов. В папке шрифтов не выполняются проверки.
 
 ```csharp
 public static void SetFontsFolder(string fontFolder)
@@ -16,7 +16,7 @@ public static void SetFontsFolder(string fontFolder)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontFolder | String | Папка со шрифтами. |
+| fontFolder | String | Папка со шрифтом. |
 
 ### Смотрите также
 

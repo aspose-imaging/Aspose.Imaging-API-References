@@ -16,7 +16,7 @@ public JpegImage PhotoshopThumbnail { get; }
 
 ### Стоимость имущества
 
-Миниатюра предварительного просмотра Photoshop
+миниатюра предварительного просмотра Photoshop
 
 ### Смотрите также
 

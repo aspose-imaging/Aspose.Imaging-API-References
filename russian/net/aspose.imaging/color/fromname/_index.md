@@ -1,14 +1,14 @@
 ---
 title: FromName
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Создает структуруColoraspose.imaging/colorиз указанного имени предопределенного цвета.
+description: СоздаетColoraspose.imaging/color структура из указанного имени предопределенного цвета.
 type: docs
 weight: 1450
 url: /ru/net/aspose.imaging/color/fromname/
 ---
 ## Color.FromName method
 
-Создает структуру[`Color`](../../color)из указанного имени предопределенного цвета.
+Создает[`Color`](../../color) структура из указанного имени предопределенного цвета.
 
 ```csharp
 public static Color FromName(string name)
@@ -16,11 +16,11 @@ public static Color FromName(string name)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Строка, являющаяся названием предопределенного цвета. Допустимые имена совпадают с именами элементов перечисления[`KnownColor`](../../knowncolor). |
+| name | String | Строка, которая является именем предопределенного цвета. Допустимые имена совпадают с именами элементов[`KnownColor`](../../knowncolor) перечисление. |
 
 ### Возвращаемое значение
 
-[`Color`](../../color), который создает этот метод.
+[`Color`](../../color) что создает этот метод.
 
 ### Смотрите также
 

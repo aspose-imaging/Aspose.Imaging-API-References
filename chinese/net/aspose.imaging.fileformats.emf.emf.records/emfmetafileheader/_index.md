@@ -1,14 +1,14 @@
 ---
 title: EmfMetafileHeader
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_HEADER 记录类型定义 EMF 元文件 的起点并指定元文件中图像所在设备的属性 已创建标头记录中的信息使 EMF 元文件可以独立于任何特定的输出设备 Size 字段的值可用于区分本节前面列出的不同 EMR_HEADER 记录类型 有三个可能的标头 基本标头即 EmfMetafileHeader 记录 这个头的固定大小部分是 88 字节它包含一个 Header 对象 第一个扩展头即 EmfMetafileHeaderExtension1 记录 这个头的固定大小部分是 100 字节它包含一个 Header 对象 和一个 HeaderExtension1 对象第 2.2.10 节 第二个扩展头即 EmfMetafileHeaderExtension2 记录 这个头的固定大小部分是 108 字节它包含一个 Header 对象 一个 HeaderExtension1 对象和一个 HeaderExtension2 对象第 2.2.11 节
+description: EMR_HEADER 记录类型定义 EMF metafiles 的起点并指定在其上创建 metafile 中的图像的设备的属性标头记录中的信息使得 EMF 元文件可以独立于任何特定的输出设备 Size 字段的值可用于区分本节前面列出的不同 EMR_HEADER 记录类型 有三种可能headers base header即EmfMetafileHeader记录 这个header的固定大小部分为88字节包含一个Header对象 第一个扩展头即EmfMetafileHeaderExtension1记录 固定大小这个头的一部分是100字节它包含一个Header object 和一个HeaderExtension1对象第2.2.10节 第二个扩展头也就是EmfMetafileHeaderExtension2记录 这个头的固定大小部分是108字节它包含一个 Header 对象 一个 HeaderExtension1 对象和一个 HeaderExtension2 对象第 2.2.11 节
 type: docs
 weight: 3810
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/
 ---
 ## EmfMetafileHeader class
 
-EMR_HEADER 记录类型定义 EMF 元文件 的起点，并指定元文件中图像所在设备的属性 已创建。标头记录中的信息使 EMF 元文件可以独立于任何特定的输出设备。 Size 字段的值可用于区分本节前面列出的不同 EMR_HEADER 记录类型。 有三个可能的标头: 基本标头，即 EmfMetafileHeader 记录。 这个头的固定大小部分是 88 字节，它包含一个 Header 对象。 第一个扩展头，即 EmfMetafileHeaderExtension1 记录。 这个头的固定大小部分是 100 字节，它包含一个 Header 对象 和一个 HeaderExtension1 对象（第 2.2.10 节）。 第二个扩展头，即 EmfMetafileHeaderExtension2 记录。 这个头的固定大小部分是 108 字节，它包含一个 Header 对象、 一个 HeaderExtension1 对象和一个 HeaderExtension2 对象（第 2.2.11 节）。
+EMR_HEADER 记录类型定义 EMF metafiles 的起点，并指定在其上创建 metafile 中的图像的设备的属性。标头记录中的信息使得 EMF 元文件可以独立于任何特定的输出设备。 Size 字段的值可用于区分本节前面列出的不同 EMR_HEADER 记录类型。 有三种可能headers: base header，即EmfMetafileHeader记录。 这个header的固定大小部分为88字节，包含一个Header对象。 第一个扩展头，即EmfMetafileHeaderExtension1记录。 固定大小这个头的一部分是100字节，它包含一个Header object 和一个HeaderExtension1对象（第2.2.10节）。 第二个扩展头，也就是EmfMetafileHeaderExtension2记录。 这个头的固定大小部分是108字节，它包含一个 Header 对象、 一个 HeaderExtension1 对象和一个 HeaderExtension2 对象（第 2.2.11 节）。
 
 ```csharp
 public class EmfMetafileHeader : EmfRecord
@@ -18,18 +18,18 @@ public class EmfMetafileHeader : EmfRecord
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfMetafileHeader](emfmetafileheader#constructor)() | 初始化[`EmfMetafileHeader`](../emfmetafileheader)类的新实例。 |
-| [EmfMetafileHeader](emfmetafileheader#constructor_1)(EmfMetafileHeader) | 初始化[`EmfMetafileHeader`](../emfmetafileheader)类的新实例。 |
-| [EmfMetafileHeader](emfmetafileheader#constructor_2)(EmfRecord) | 初始化[`EmfMetafileHeader`](../emfmetafileheader)类的新实例。 |
+| [EmfMetafileHeader](emfmetafileheader#constructor)() | 初始化[`EmfMetafileHeader`](../emfmetafileheader)类. |
+| [EmfMetafileHeader](emfmetafileheader#constructor_1)(EmfMetafileHeader) | 初始化[`EmfMetafileHeader`](../emfmetafileheader)类. |
+| [EmfMetafileHeader](emfmetafileheader#constructor_2)(EmfRecord) | 初始化[`EmfMetafileHeader`](../emfmetafileheader)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [EmfDescription](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfdescription) { get; set; } | 获取或设置 EMF 描述 一个可选的、以 null 结尾的、任意长度和内容的 Unicode UTF16-LE 字符串。 它在记录中的位置和字符数分别由 EmfHeader 中的 offDescription 和 nDescription 字段指定。如果任一字段 的值为零，则不存在描述字符串。 |
-| [EmfDescriptionBuffer](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfdescriptionbuffer) { get; set; } | 获取或设置 EMF 描述缓冲区 包含 EMF 描述字符串的可选字节数组，即 不需要与 EmfMetafileHeader 记录的固定部分连续。因此，此缓冲区中标记为“UndefinedSpace” 的字段是可选的并且必须被忽略。 |
-| [EmfHeader](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfheader) { get; set; } | 获取或设置一个 Header 对象（第 2.2.9 节），其中包含有关内容 和元文件:::47 结构的信息::: |
-| [EmfHeaderRecordBuffer](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfheaderrecordbuffer) { get; set; } | 获取或设置包含 EMF 标头记录剩余部分的可选字节数组。 该字段的大小必须是 4 个字节的倍数 |
+| [EmfDescriptionBuffer](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfdescriptionbuffer) { get; set; } | 获取或设置 EMF 描述缓冲区 包含 EMF 描述字符串的可选字节数组，它是 不需要与 EmfMetafileHeader 记录的固定部分连续。因此，此缓冲区中标记为“UndefinedSpace” 的字段是可选的，必须被忽略。 |
+| [EmfHeader](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfheader) { get; set; } | 获取或设置一个 Header 对象（第 2.2.9 节），其中包含有关 content 和 metafile 结构的信息 |
+| [EmfHeaderRecordBuffer](../../aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfheaderrecordbuffer) { get; set; } | 获取或设置一个可选的字节数组，其中包含 EMF 标头记录的其余部分。 这个字段的大小必须是4字节的倍数 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

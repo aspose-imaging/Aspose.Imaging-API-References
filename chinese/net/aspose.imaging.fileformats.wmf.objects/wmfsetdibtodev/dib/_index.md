@@ -1,14 +1,14 @@
 ---
 title: Dib
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 dib
+description: 获取或设置 dib.
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfsetdibtodev/dib/
 ---
 ## WmfSetDibToDev.Dib property
 
-获取或设置 dib。
+获取或设置 dib.
 
 ```csharp
 public WmfDeviceIndependentBitmap Dib { get; set; }
@@ -16,7 +16,7 @@ public WmfDeviceIndependentBitmap Dib { get; set; }
 
 ### 适当的价值
 
-:::47 左上角的 y 坐标，以逻辑单位表示:::目标矩形。
+目标矩形左上角的 y 坐标，以逻辑单位表示。
 
 ### 也可以看看
 

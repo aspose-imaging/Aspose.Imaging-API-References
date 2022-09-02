@@ -16,7 +16,7 @@ public void SetAltTapeName(string altTapeName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| altTapeName | String | 替代磁带名称。 |
+| altTapeName | String | 备用磁带名称。 |
 
 ### 也可以看看
 

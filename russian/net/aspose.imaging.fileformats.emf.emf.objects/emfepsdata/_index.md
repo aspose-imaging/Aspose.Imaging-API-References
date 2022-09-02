@@ -24,9 +24,9 @@ public sealed class EmfEpsData : EmfObject
 
 | Имя | Описание |
 | --- | --- |
-| [Points](../../aspose.imaging.fileformats.emf.emf.objects/emfepsdata/points) { get; set; } | Получает или задает массив из трех объектов Point28_4 (раздел 2.2.23), который определяет координаты выходного параллелограмма с использованием 28,4-битной записи FIX. |
-| [PostScriptData](../../aspose.imaging.fileformats.emf.emf.objects/emfepsdata/postscriptdata) { get; set; } | Получает или задает массив байтов данных PostScript. Длина этого массива может быть вычислена из поля SizeData. Эти данные МОГУТ использоваться для визуализации изображения. |
-| [SizeData](../../aspose.imaging.fileformats.emf.emf.objects/emfepsdata/sizedata) { get; set; } | Получает или задает 32-битное целое число без знака, указывающее общий размер этого объекта в байтах |
+| [Points](../../aspose.imaging.fileformats.emf.emf.objects/emfepsdata/points) { get; set; } | Получает или задает массив из трех объектов Point28_4 (раздел 2.2.23), который определяет координаты выходного параллелограмма с использованием 28,4-битной нотации FIX |
+| [PostScriptData](../../aspose.imaging.fileformats.emf.emf.objects/emfepsdata/postscriptdata) { get; set; } | Получает или задает массив байтов данных PostScript. Длина этого массива может быть вычислена из поля SizeData. Эти данные МОГУТ использоваться для рендеринга изображения. |
+| [SizeData](../../aspose.imaging.fileformats.emf.emf.objects/emfepsdata/sizedata) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее общий размер этого объекта в байтах |
 | [Version](../../aspose.imaging.fileformats.emf.emf.objects/emfepsdata/version) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее уровень языка PostScript. Это значение ДОЛЖНО быть 0x00000001 |
 
 ### Смотрите также

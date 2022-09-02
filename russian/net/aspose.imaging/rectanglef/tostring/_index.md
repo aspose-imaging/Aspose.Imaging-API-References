@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Преобразует атрибуты этогоRectangleFaspose.imaging/rectanglefв удобочитаемую строку.
+description: Преобразует атрибуты этогоRectangleFaspose.imaging/rectanglef в удобочитаемую строку.
 type: docs
 weight: 250
 url: /ru/net/aspose.imaging/rectanglef/tostring/
 ---
 ## RectangleF.ToString method
 
-Преобразует атрибуты этого[`RectangleF`](../../rectanglef)в удобочитаемую строку.
+Преобразует атрибуты этого[`RectangleF`](../../rectanglef) в удобочитаемую строку.
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Возвращаемое значение
 
-Строка, содержащая положение, ширину и высоту этого[`RectangleF`](../../rectanglef)структура.
+Строка, содержащая положение, ширину и высоту этого[`RectangleF`](../../rectanglef) структура.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: AbTypes
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定点类型的 Count 长度字节数组这个值 必须在 Point第 2.1.26 节枚举中
+description: 获取或设置指定点类型的 Count 长度字节数组此值 必须在 Point第 2.1.26 节枚举中
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfpolydraw16/abtypes/
 ---
 ## EmfPolyDraw16.AbTypes property
 
-获取或设置指定点类型的 Count 长度字节数组。这个值 必须在 Point（第 2.1.26 节）枚举中。
+获取或设置指定点类型的 Count 长度字节数组。此值 必须在 Point（第 2.1.26 节）枚举中。
 
 ```csharp
 public EmfPointEnum[] AbTypes { get; set; }

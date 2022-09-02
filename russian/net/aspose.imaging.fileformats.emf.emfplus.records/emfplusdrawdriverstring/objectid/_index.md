@@ -1,14 +1,14 @@
 ---
 title: ObjectId
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает идентификатор объекта. Индекс таблицы объектов EMF объекта ltsee hrefEmfPlusFont /gt раздел 2.2.1.3 для отображения текста. Значение ДОЛЖНО быть от нуля до 63 включительно.
+description: Получает или задает идентификатор объекта. Индекс таблицы объектов EMF дляEmfPlusFontEmfPlusFont объект section 2.2.1.3 для отображения текста. Значение ДОЛЖНО быть от нуля до 63 включительно.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/objectid/
 ---
 ## EmfPlusDrawDriverString.ObjectId property
 
-Получает или задает идентификатор объекта. Индекс таблицы объектов EMF+ объекта &lt;see href="EmfPlusFont" /&gt; (раздел 2.2.1.3) для отображения текста. Значение ДОЛЖНО быть от нуля до 63 включительно.
+Получает или задает идентификатор объекта. Индекс таблицы объектов EMF+ для[EmfPlusFont](EmfPlusFont) объект (section 2.2.1.3) для отображения текста. Значение ДОЛЖНО быть от нуля до 63 включительно.
 
 ```csharp
 public byte ObjectId { get; set; }

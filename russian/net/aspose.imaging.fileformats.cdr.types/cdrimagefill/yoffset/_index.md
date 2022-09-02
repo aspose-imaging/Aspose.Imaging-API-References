@@ -1,14 +1,14 @@
 ---
 title: YOffset
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает смещение по оси y.
+description: Получает или задает смещение по оси Y.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging.fileformats.cdr.types/cdrimagefill/yoffset/
 ---
 ## CdrImageFill.YOffset property
 
-Получает или задает смещение по оси y.
+Получает или задает смещение по оси Y.
 
 ```csharp
 public double YOffset { get; set; }
@@ -16,7 +16,7 @@ public double YOffset { get; set; }
 
 ### Стоимость имущества
 
-Смещение по оси y.
+Смещение по оси Y.
 
 ### Смотрите также
 

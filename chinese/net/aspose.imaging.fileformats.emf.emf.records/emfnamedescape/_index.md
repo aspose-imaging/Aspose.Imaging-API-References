@@ -18,17 +18,17 @@ public sealed class EmfNamedEscape : EmfEscapeRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfNamedEscape](emfnamedescape)(EmfRecord) | 初始化[`EmfNamedEscape`](../emfnamedescape)类的新实例。 |
+| [EmfNamedEscape](emfnamedescape)(EmfRecord) | 初始化[`EmfNamedEscape`](../emfnamedescape)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CjDriver](../../aspose.imaging.fileformats.emf.emf.records/emfnamedescape/cjdriver) { get; set; } | 获取或设置一个 32 位无符号整数，它指定 DriverName 字段中的字节数。该值必须是偶数。 |
+| [CjDriver](../../aspose.imaging.fileformats.emf.emf.records/emfnamedescape/cjdriver) { get; set; } | 获取或设置一个 32 位无符号整数，它指定 DriverName 字段中的字节数。此值必须是偶数。 |
 | [CjIn](../../aspose.imaging.fileformats.emf.emf.records/emfnamedescape/cjin) { get; set; } | 获取或设置一个 32 位无符号整数，指定要传递给打印机驱动程序的字节数。 |
 | [Data](../../aspose.imaging.fileformats.emf.emf.records/emfnamedescape/data) { get; set; } | 获取或设置要传递给打印机驱动程序的数据。必须有 cjIn 字节可用。 |
-| [DriverName](../../aspose.imaging.fileformats.emf.emf.records/emfnamedescape/drivername) { get; set; } | 获取或设置一个 16 位 Unicode 字符的字符串，它指定将接收数据的 打印机驱动程序的名称。该值必须是 cjDriver 字节长，并且必须是 以空字符结尾。 |
-| [IEscape](../../aspose.imaging.fileformats.emf.emf.records/emfescaperecordtype/iescape) { get; set; } | 获取或设置一个 32 位无符号整数，指定打印机驱动程序转义为 执行。这必须是 WMF MetafileEscapes 枚举（[MSWMF] 第 2.1.1.17 节）中的值之一。 |
+| [DriverName](../../aspose.imaging.fileformats.emf.emf.records/emfnamedescape/drivername) { get; set; } | 获取或设置一个 16 位 Unicode 字符的字符串，它指定将接收数据的 打印机驱动程序的名称。此值必须是 cjDriver 字节长，并且必须以 以空字符结尾。 |
+| [IEscape](../../aspose.imaging.fileformats.emf.emf.records/emfescaperecordtype/iescape) { get; set; } | 获取或设置一个 32 位无符号整数，指定打印机驱动程序转义到 执行。这必须是 WMF MetafileEscapes 枚举（[MSWMF] 第 2.1.1.17 节）中的值之一。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

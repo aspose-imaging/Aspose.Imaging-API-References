@@ -3,7 +3,7 @@ title: Rational
 second_title: Aspose.Imaging for .NET API 参考
 description: 代表 XMP Rational
 type: docs
-weight: 11640
+weight: 11630
 url: /zh/net/aspose.imaging.xmp.types.derived/rational/
 ---
 ## Rational class
@@ -18,7 +18,7 @@ public class Rational : XmpTypeBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Rational](rational)(int, int) | 初始化[`Rational`](../rational)类的新实例。 |
+| [Rational](rational)(int, int) | 初始化[`Rational`](../rational)类. |
 
 ## 特性
 

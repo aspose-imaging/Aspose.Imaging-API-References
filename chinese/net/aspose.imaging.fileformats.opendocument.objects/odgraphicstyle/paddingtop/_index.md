@@ -16,7 +16,7 @@ public float PaddingTop { get; set; }
 
 ### 适当的价值
 
-填充顶部。
+上边距。
 
 ### 也可以看看
 

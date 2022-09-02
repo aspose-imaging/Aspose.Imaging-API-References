@@ -1,14 +1,14 @@
 ---
 title: PenType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает стиль линий нарисованных с помощью этогоPenaspose.imaging/pen.
+description: Получает стиль линий нарисованных с помощью этогоPenaspose.imaging/pen .
 type: docs
 weight: 150
 url: /ru/net/aspose.imaging/pen/pentype/
 ---
 ## Pen.PenType property
 
-Получает стиль линий, нарисованных с помощью этого[`Pen`](../../pen).
+Получает стиль линий, нарисованных с помощью этого[`Pen`](../../pen) .
 
 ```csharp
 public PenType PenType { get; }
@@ -16,7 +16,7 @@ public PenType PenType { get; }
 
 ### Стоимость имущества
 
-A`PenType`перечисление, определяющее стиль линий, нарисованных с помощью это[`Pen`](../../pen).
+А`PenType` перечисление, определяющее стиль линий, нарисованных с помощью этого[`Pen`](../../pen).
 
 ### Смотрите также
 

@@ -17,7 +17,7 @@ public delegate void CompleteCallback(IAsyncTask task, bool wasCancelled, Except
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | task | IAsyncTask | Асинхронная задача. |
-| wasCancelled | Boolean | , если установлено значение` true` [было отменено]. |
+| wasCancelled | Boolean | если установлено`истинный` [был отменен]. |
 | error | Exception | Ошибка. |
 
 ### Смотрите также

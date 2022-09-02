@@ -1,14 +1,14 @@
 ---
 title: XmpDynamicMediaPackage
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示 XMP Dynamic Media 命名空间
+description: 表示 XMP 动态媒体命名空间
 type: docs
-weight: 11430
+weight: 11420
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/
 ---
 ## XmpDynamicMediaPackage class
 
-表示 XMP Dynamic Media 命名空间。
+表示 XMP 动态媒体命名空间。
 
 ```csharp
 public sealed class XmpDynamicMediaPackage : XmpPackage
@@ -24,7 +24,7 @@ public sealed class XmpDynamicMediaPackage : XmpPackage
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [Item](../../aspose.imaging.xmp/xmppackage/item) { get; set; } | 使用指定的键获取或设置Object。 |
+| virtual [Item](../../aspose.imaging.xmp/xmppackage/item) { get; set; } | 获取或设置Object使用指定的密钥。 |
 | virtual [Keys](../../aspose.imaging.xmp/xmppackage/keys) { get; } | 获取 XMP 包中的密钥。 |
 | [NamespaceUri](../../aspose.imaging.xmp/xmppackage/namespaceuri) { get; } | 获取命名空间 URI。 |
 | [Prefix](../../aspose.imaging.xmp/xmppackage/prefix) { get; } | 获取前缀。 |
@@ -38,8 +38,8 @@ public sealed class XmpDynamicMediaPackage : XmpPackage
 | virtual [Clear](../../aspose.imaging.xmp/xmppackage/clear)() | 清除此实例。 |
 | virtual [ContainsKey](../../aspose.imaging.xmp/xmppackage/containskey)(string) | 判断指定key是否包含key。 |
 | [GetEnumerator](../../aspose.imaging.xmp/xmppackage/getenumerator)() | 返回一个遍历集合的枚举器。 |
-| virtual [GetXmlValue](../../aspose.imaging.xmp/xmppackage/getxmlvalue)() | 将 XMP 值转换为 XML 表示。 |
-| virtual [Remove](../../aspose.imaging.xmp/xmppackage/remove)(string) | 删除具有指定键的值。 |
+| virtual [GetXmlValue](../../aspose.imaging.xmp/xmppackage/getxmlvalue)() | 将 XMP 值转换为 XML 表示形式。 |
+| virtual [Remove](../../aspose.imaging.xmp/xmppackage/remove)(string) | 删除指定键的值。 |
 | [SetAbsPeakAudioFilePath](../../aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setabspeakaudiofilepath)(string) | 设置绝对峰值音频文件路径。 |
 | [SetAlblum](../../aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setalblum)(string) | 设置专辑。 |
 | [SetAltTapeName](../../aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setalttapename)(string) | 设置替代磁带名称。 |
@@ -48,11 +48,11 @@ public sealed class XmpDynamicMediaPackage : XmpPackage
 | [SetAudioChannelType](../../aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setaudiochanneltype)(AudioChannelType) | 设置音频通道类型。 |
 | [SetAudioSampleRate](../../aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setaudiosamplerate)(int) | 设置音频采样率。 |
 | [SetAudioSampleType](../../aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setaudiosampletype)(AudioSampleType) | 设置音频样本类型。 |
-| [SetCameraAngle](../../aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setcameraangle)(string) | 设置摄像机角度。 |
+| [SetCameraAngle](../../aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setcameraangle)(string) | 设置相机角度。 |
 | [SetCameraLabel](../../aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setcameralabel)(string) | 设置相机标签。 |
 | [SetCameraMove](../../aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setcameramove)(string) | 设置相机移动。 |
 | [SetClient](../../aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setclient)(string) | 设置客户端。 |
-| [SetComment](../../aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setcomment)(string) | 设置注释。 |
+| [SetComment](../../aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setcomment)(string) | 设置评论。 |
 | [SetComposer](../../aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setcomposer)(string) | 设置作曲家。 |
 | [SetDirector](../../aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setdirector)(string) | 设置导演。 |
 | [SetDirectorPhotography](../../aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setdirectorphotography)(string) | 设置摄影指导。 |
@@ -64,7 +64,7 @@ public sealed class XmpDynamicMediaPackage : XmpPackage
 | [SetInstrument](../../aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setinstrument)(string) | 设置仪器。 |
 | [SetIntroTime](../../aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setintrotime)(Time) | 设置介绍时间。 |
 | [SetKey](../../aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setkey)(string) | 设置音频的音调。 |
-| [SetLogComment](../../aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setlogcomment)(string) | 设置用户的日志注释。 |
+| [SetLogComment](../../aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/setlogcomment)(string) | 设置用户的日志评论。 |
 | virtual [SetValue](../../aspose.imaging.xmp/xmppackage/setvalue)(string, IXmlValue) | 设置值。 |
 | virtual [SetXmpTypeValue](../../aspose.imaging.xmp/xmppackage/setxmptypevalue)(string, XmpTypeBase) | 设置 XMP 类型值。 |
 

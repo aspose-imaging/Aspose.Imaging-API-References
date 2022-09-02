@@ -1,14 +1,14 @@
 ---
 title: IFrame
 second_title: Aspose.Imaging for .NET API 参考
-description: Webp 框架 ltsee langwordinterface /gt
+description: Webp 框架interface
 type: docs
 weight: 8060
 url: /zh/net/aspose.imaging.fileformats.webp/iframe/
 ---
 ## IFrame interface
 
-Webp 框架 &lt;see langword="interface" /&gt;
+Webp 框架`interface`
 
 ```csharp
 public interface IFrame
@@ -19,8 +19,8 @@ public interface IFrame
 | 姓名 | 描述 |
 | --- | --- |
 | [Duration](../../aspose.imaging.fileformats.webp/iframe/duration) { get; set; } | 获取或设置帧持续时间。 |
-| [Left](../../aspose.imaging.fileformats.webp/iframe/left) { get; set; } | 获取或设置左边的帧位置。 |
-| [Top](../../aspose.imaging.fileformats.webp/iframe/top) { get; set; } | 获取或设置帧位置顶部。 |
+| [Left](../../aspose.imaging.fileformats.webp/iframe/left) { get; set; } | 获取或设置左边框位置。 |
+| [Top](../../aspose.imaging.fileformats.webp/iframe/top) { get; set; } | 获取或设置帧位置 top. |
 
 ### 也可以看看
 

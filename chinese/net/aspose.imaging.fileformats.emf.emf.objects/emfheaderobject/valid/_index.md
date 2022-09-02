@@ -1,14 +1,14 @@
 ---
 title: Valid
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示此EmfHeaderObjectaspose.imaging.fileformats.emf.emf.objects/emfheaderobject是否有效
+description: 获取一个值该值指示这是否EmfHeaderObjectaspose.imaging.fileformats.emf.emf.objects/emfheaderobject是有效的
 type: docs
 weight: 140
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/valid/
 ---
 ## EmfHeaderObject.Valid property
 
-获取一个值，该值指示此[`EmfHeaderObject`](../../emfheaderobject)是否有效。
+获取一个值，该值指示这是否[`EmfHeaderObject`](../../emfheaderobject)是有效的。
 
 ```csharp
 public bool Valid { get; }
@@ -16,7 +16,7 @@ public bool Valid { get; }
 
 ### 适当的价值
 
-` true` 如果有效；否则，` false` 。
+`真的`如果有效；否则，`错误的` .
 
 ### 也可以看看
 

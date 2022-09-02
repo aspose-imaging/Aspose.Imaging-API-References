@@ -1,14 +1,14 @@
 ---
 title: ColorMatrixFlag
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Указывает типы изображений и цветов на которые будут влиять настройки цвета и оттенков серогоImageAttributes./imageattributes.
+description: Определяет типы изображений и цветов на которые будут влиять настройки цвета и оттенков серогоImageAttributes./imageattributes .
 type: docs
 weight: 370
 url: /ru/net/aspose.imaging/colormatrixflag/
 ---
 ## ColorMatrixFlag enumeration
 
-Указывает типы изображений и цветов, на которые будут влиять настройки цвета и оттенков серого[`ImageAttributes`](../imageattributes).
+Определяет типы изображений и цветов, на которые будут влиять настройки цвета и оттенков серого[`ImageAttributes`](../imageattributes) .
 
 ```csharp
 public enum ColorMatrixFlag
@@ -18,7 +18,7 @@ public enum ColorMatrixFlag
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Default | `0` | Все значения цвета, включая оттенки серого, регулируются одной и той же матрицей настройки цвета. |
+| Default | `0` | Все значения цвета, включая оттенки серого, настраиваются с помощью одной и той же матрицы настройки цвета. |
 | SkipGrays | `1` | Все цвета настроены, но оттенки серого не настроены. Оттенок серого — это любой цвет, имеющий одинаковое значение красного, зеленого и синего компонентов. |
 | AltGrays | `2` | Настраиваются только оттенки серого. |
 

@@ -20,14 +20,14 @@ public abstract string[] GetUsedFonts()
 
 ### 例子
 
-以下示例说明如何打印信息关于 WMF/EMF 图像中使用和丢失的字体。
+以下示例显示如何在 WMF/EMF 图像中打印有关已使用和未使用字体的信息。
 
 ```csharp
 [C#]
 
 string dir = "c:\\aspose.imaging\\net\\issues\\3544";
 
-    // 使所有字体无法访问
+// 使所有字体不可访问
 string[] fontDirectories = Aspose.Imaging.FontSettings.GetFontsFolders();
 Aspose.Imaging.FontSettings.SetFontsFolder("empty");
 string[] files = new string[]
@@ -80,49 +80,49 @@ finally
     Aspose.Imaging.FontSettings.SetFontsFolders(fontDirectories, true);
 }
 
-    // STDOUT 日志可能如下所示：
-    //========== TestWmfText.wmf ==========
-    //使用的字体：Garamond
-       //使用的字体：Arial
-    //使用字体：Bookman Old Style
-    //使用的字体：Comic Sans MS
-    //使用字体：Courier
-    //使用字体：Courier New
-    //使用的字体：Impact
-    //使用的字体：Modern
+// STDOUT 日志可能如下所示：
+//========== TestWmfText.wmf ==========
+//使用的字体：Garamond
+//使用的字体：Arial
+//使用的字体：Bookman Old Style
+//使用字体：Comic Sans MS
+//使用字体：Courier
+//使用字体：Courier New
+//使用的字体：Impact
+//使用的字体：现代
 //使用的字体：MS Sans Serif
-    //使用的字体：MS Serif
-    //使用的字体：小字体
-       //使用的字体：Symbol
-    //使用的字体：Tahoma
-       //使用字体：Times New Roman
-       //使用的字体：Verdana
-    //使用的字体：Wingdings
-    //错过的字体：Garamond
-       //错过的字体：Arial
-    //错过的字体：Bookman Old Style
-    //错过的字体：Comic Sans MS
-    //错过的字体：Courier
-    //漏掉的字体：Courier New
-    //错过的字体：Impact
-    //错过的字体：Modern
-    //错过的字体：MS Sans Serif
-    //错过的字体：MS Serif
-    //错过的字体：Small Fonts
-       //错过的字体：Symbol
-    //错过的字体：Tahoma
-       //错过的字体：Verdana
-    //错过的字体：Wingdings
-    //========== TestEmfFonts.emf ==========
-       //使用的字体：Arial
-       //使用的字体：Verdana
-       //使用字体：Times New Roman
-       //使用的字体：Symbol
-       //错过的字体：Arial
-       //错过的字体：Verdana
-       //错过的字体：Symbol
-    //========== TestEmfPlusFonts.emf ==========
-    //使用的字体：MICROSOFT SANS SERIF
+//使用的字体：MS Serif
+//使用的字体：小字体
+//使用的字体：符号
+//使用的字体：Tahoma
+//使用字体：Times New Roman
+//使用的字体：Verdana
+//使用的字体：Wingdings
+//错过的字体：Garamond
+//错过的字体：Arial
+//错过的字体：Bookman Old Style
+//错过的字体：Comic Sans MS
+//错过的字体：Courier
+//错过的字体：Courier New
+//错过的字体：Impact
+//错过的字体：现代
+//错过的字体：MS Sans Serif
+//错过的字体：MS Serif
+//错过的字体：小字体
+//错过的字体：符号
+//错过的字体：Tahoma
+//错过的字体：Verdana
+//错过的字体：Wingdings
+//========== TestEmfFonts.emf ==========
+//使用的字体：Arial
+//使用的字体：Verdana
+//使用字体：Times New Roman
+//使用的字体：符号
+//错过的字体：Arial
+//错过的字体：Verdana
+//错过的字体：符号
+//========== TestEmfPlusFonts.emf ==========
+//使用的字体：MICROSOFT SANS SERIF
 //错过的字体：MICROSOFT SANS SERIF
 ```
 

@@ -16,13 +16,13 @@ public override void RotateFlip(RotateFlipType rotateFlipType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rotateFlipType | RotateFlipType | Тип флипа с поворотом. |
+| rotateFlipType | RotateFlipType | Тип поворотного флипа. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| NotSupportedException | Переворот поворота не поддерживается для изображения EPS |
+| NotSupportedException | Поворот флип не поддерживается для изображения EPS |
 
 ### Смотрите также
 

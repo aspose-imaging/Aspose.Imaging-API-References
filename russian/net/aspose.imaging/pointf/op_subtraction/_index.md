@@ -1,14 +1,14 @@
 ---
 title: op_Subtraction
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПреобразуетPointFaspose.imaging/pointfв минус заданногоSizeaspose.imaging/size.
+description: ПереводитPointFaspose.imaging/pointf отрицанием данногоSizeaspose.imaging/size .
 type: docs
 weight: 140
 url: /ru/net/aspose.imaging/pointf/op_subtraction/
 ---
 ## operator - {#op_subtraction}
 
-Преобразует[`PointF`](../../pointf)в минус заданного[`Size`](../../size).
+Переводит[`PointF`](../../pointf) отрицанием данного[`Size`](../../size) .
 
 ```csharp
 public static PointF operator -(PointF point, Size size)
@@ -16,12 +16,12 @@ public static PointF operator -(PointF point, Size size)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | PointF | A[`PointF`](../../pointf)для перевода. |
-| size | Size | A[`Size`](../../size)который указывает числа, которые нужно вычесть из координат x и y*точка*. |
+| point | PointF | А[`PointF`](../../pointf) переводить. |
+| size | Size | А[`Size`](../../size) который указывает числа, которые нужно вычесть из x- и y-координат*point*. |
 
 ### Возвращаемое значение
 
-Переведенный[`PointF`](../../pointf).
+переведенный[`PointF`](../../pointf).
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public static PointF operator -(PointF point, Size size)
 
 ## operator - {#op_subtraction_1}
 
-Преобразует[`PointF`](../../pointf)в минус указанного[`SizeF`](../../sizef).
+Переводит[`PointF`](../../pointf) отрицанием указанного[`SizeF`](../../sizef) .
 
 ```csharp
 public static PointF operator -(PointF point, SizeF size)
@@ -42,12 +42,12 @@ public static PointF operator -(PointF point, SizeF size)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | PointF | [`PointF`](../../pointf)для перевода. |
-| size | SizeF | [`SizeF`](../../sizef)который указывает числа, которые нужно вычесть из координат*точки*. |
+| point | PointF | [`PointF`](../../pointf) переводить. |
+| size | SizeF | [`SizeF`](../../sizef) который указывает числа, которые нужно вычесть из координат*point*. |
 
 ### Возвращаемое значение
 
-Переведенный[`PointF`](../../pointf).
+переведенный[`PointF`](../../pointf).
 
 ### Смотрите также
 

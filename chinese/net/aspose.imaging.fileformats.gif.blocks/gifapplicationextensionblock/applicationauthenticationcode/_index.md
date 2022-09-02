@@ -8,7 +8,7 @@ url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/
 ---
 ## GifApplicationExtensionBlock.ApplicationAuthenticationCode property
 
-获取或设置应用验证码。
+获取或设置应用验证码
 
 ```csharp
 public byte[] ApplicationAuthenticationCode { get; set; }
@@ -16,7 +16,7 @@ public byte[] ApplicationAuthenticationCode { get; set; }
 
 ### 适当的价值
 
-应用验证码。
+应用验证码
 
 ### 也可以看看
 

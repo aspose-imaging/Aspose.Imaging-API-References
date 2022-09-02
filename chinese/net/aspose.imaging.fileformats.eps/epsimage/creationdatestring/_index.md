@@ -1,14 +1,14 @@
 ---
 title: CreationDateString
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取 CreationDate 字段字符串值
+description: 获取他的 CreationDate 字段字符串值
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.eps/epsimage/creationdatestring/
 ---
 ## EpsImage.CreationDateString property
 
-获取 CreationDate 字段字符串值
+获取他的 CreationDate 字段字符串值
 
 ```csharp
 public string CreationDateString { get; }

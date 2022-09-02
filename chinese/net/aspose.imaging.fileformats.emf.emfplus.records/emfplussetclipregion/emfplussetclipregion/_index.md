@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSetClipRegion
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPlusSetClipRegionaspose.imaging.fileformats.emf.emfplus.records/emfplussetclipregion类的新实例
+description: 初始化EmfPlusSetClipRegionaspose.imaging.fileformats.emf.emfplus.records/emfplussetclipregion类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetclipregion/emfplussetclipregion/
 ---
 ## EmfPlusSetClipRegion constructor
 
-初始化[`EmfPlusSetClipRegion`](../../emfplussetclipregion)类的新实例。
+初始化[`EmfPlusSetClipRegion`](../../emfplussetclipregion)类.
 
 ```csharp
 public EmfPlusSetClipRegion(EmfPlusRecord source)
@@ -16,7 +16,7 @@ public EmfPlusSetClipRegion(EmfPlusRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfPlusRecord | 源。 |
+| source | EmfPlusRecord | 来源。 |
 
 ### 也可以看看
 

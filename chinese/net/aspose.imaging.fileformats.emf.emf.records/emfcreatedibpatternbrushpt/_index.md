@@ -1,14 +1,14 @@
 ---
 title: EmfCreateDibPatternBrushPt
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_CREATEDIBPATTERNBRUSHPT 记录定义了图形操作的图案画笔 模式由 DIB 指定
+description: EMR_CREATEDIBPATTERNBRUSHPT 记录定义图形操作的图案画笔 模式由 DIB 指定
 type: docs
 weight: 3490
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/
 ---
 ## EmfCreateDibPatternBrushPt class
 
-EMR_CREATEDIBPATTERNBRUSHPT 记录定义了图形操作的图案画笔。 模式由 DIB 指定。
+EMR_CREATEDIBPATTERNBRUSHPT 记录定义图形操作的图案画笔。 模式由 DIB 指定。
 
 ```csharp
 public sealed class EmfCreateDibPatternBrushPt : EmfObjectCreationRecordType
@@ -18,22 +18,22 @@ public sealed class EmfCreateDibPatternBrushPt : EmfObjectCreationRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfCreateDibPatternBrushPt](emfcreatedibpatternbrushpt#constructor)() | 初始化[`EmfCreateDibPatternBrushPt`](../emfcreatedibpatternbrushpt)类的新实例。 |
-| [EmfCreateDibPatternBrushPt](emfcreatedibpatternbrushpt#constructor_1)(EmfRecord) | 初始化[`EmfCreateDibPatternBrushPt`](../emfcreatedibpatternbrushpt)类的新实例。 |
+| [EmfCreateDibPatternBrushPt](emfcreatedibpatternbrushpt#constructor)() | 初始化[`EmfCreateDibPatternBrushPt`](../emfcreatedibpatternbrushpt)类. |
+| [EmfCreateDibPatternBrushPt](emfcreatedibpatternbrushpt#constructor_1)(EmfRecord) | 初始化[`EmfCreateDibPatternBrushPt`](../emfcreatedibpatternbrushpt)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BitmapBuffer](../../aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/bitmapbuffer) { get; set; } | 获取或设置包含 WMF DeviceIndependentBitmap 对象形式的打包 DIB 的缓冲区（[MS-WMF] 第 2.2.2.9 节） .它不需要是 与 EMR_CREATEDIBPATTERNBRUSHPT 记录的固定部分连续。 |
-| [IhBrush](../../aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/ihbrush) { get; set; } | 获取或设置一个 32 位无符号整数，它指定模式画笔 在 EMF 对象表中的索引（第 3.1.1.1 节） ）。必须保存此索引，以便可以重用或修改此对象 。 |
+| [BitmapBuffer](../../aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/bitmapbuffer) { get; set; } | 获取或设置包含 WMF DeviceIndependentBitmap 对象形式的打包 DIB 的缓冲区（[MS-WMF] 第 2.2.2.9 节）。不需要与 EMR_CREATEDIBPATTERNBRUSHPT 记录的固定部分连续 。 |
+| [IhBrush](../../aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/ihbrush) { get; set; } | 获取或设置一个 32 位无符号整数，它指定 EMF 对象表中模式 Brush 对象的索引（第 3.1.1.1 节）。必须保存此索引，以便可以重用或修改此 object 。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
-| [Usage](../../aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/usage) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定如何解释 DIB 标头中颜色 表中的值。该值必须在 DIBColors 枚举中（第 2.1.9 节）。 |
+| [Usage](../../aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/usage) { get; set; } | 获取或设置一个 32 位无符号整数，指定如何解释 DIB 标头中 color 表中的值。此值必须在 DIBColors 枚举（第 2.1.9 节）中。 |
 
 ### 评论
 
-此记录定义的图案画笔对象可以通过:::选择到播放设备上下文中47:::一条 EMR_SELECTOBJECT 记录（第 2.3.8.5 节），它指定在 后续图形操作中使用的图案画笔。
+可以通过 一条EMR_SELECTOBJECT 记录（第2.3.8.5 节）将这条记录定义的图案画笔对象选择到播放设备上下文中，该记录指定在 后续图形操作中使用的图案画笔。
 
 ### 也可以看看
 

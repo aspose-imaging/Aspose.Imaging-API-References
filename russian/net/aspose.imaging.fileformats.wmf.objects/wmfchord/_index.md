@@ -1,14 +1,14 @@
 ---
 title: WmfChord
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_CHORD рисует хорду которая определяется областью  ограниченной пересечением эллипса с отрезком. Аккорд обводится пером и заполняется кистью которые определены в контексте устройства воспроизведения.
+description: Запись META_CHORD рисует хорду которая определяется областью  ограниченной пересечением эллипса с отрезком линии. Аккорд обводится пером и заполняется кистью которые определены в контексте устройства воспроизведения.
 type: docs
 weight: 8480
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfchord/
 ---
 ## WmfChord class
 
-Запись META_CHORD рисует хорду, которая определяется областью , ограниченной пересечением эллипса с отрезком. Аккорд обводится пером и заполняется кистью, которые определены в контексте устройства воспроизведения.
+Запись META_CHORD рисует хорду, которая определяется областью , ограниченной пересечением эллипса с отрезком линии. Аккорд обводится пером и заполняется кистью, которые определены в контексте устройства воспроизведения.
 
 ```csharp
 public class WmfChord : WmfRectangle
@@ -25,7 +25,7 @@ public class WmfChord : WmfRectangle
 | Имя | Описание |
 | --- | --- |
 | [Radial1](../../aspose.imaging.fileformats.wmf.objects/wmfchord/radial1) { get; set; } | Получает или задает радиал1. |
-| [Radial2](../../aspose.imaging.fileformats.wmf.objects/wmfchord/radial2) { get; set; } | Получает или устанавливает радиал2. |
+| [Radial2](../../aspose.imaging.fileformats.wmf.objects/wmfchord/radial2) { get; set; } | Получает или задает радиал2. |
 | [Rectangle](../../aspose.imaging.fileformats.wmf.objects/wmfrectangle/rectangle) { get; set; } | Получает или задает прямоугольник. |
 
 ### Смотрите также

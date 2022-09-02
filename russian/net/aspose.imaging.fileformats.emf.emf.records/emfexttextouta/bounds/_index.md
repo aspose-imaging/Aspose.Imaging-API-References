@@ -1,14 +1,14 @@
 ---
 title: Bounds
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект WMF RectL MS-WMF раздел 2.2.2.19. Он не используется и ДОЛЖЕН быть проигнорирован при получении.
+description: Получает или задает объект WMF RectL MS-WMF раздел 2.2.2.19. Он не используется и ДОЛЖЕН игнорироваться при получении.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfexttextouta/bounds/
 ---
 ## EmfExtTextOutA.Bounds property
 
-Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19). Он не используется и ДОЛЖЕН быть проигнорирован при получении.
+Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19). Он не используется, и ДОЛЖЕН игнорироваться при получении.
 
 ```csharp
 public Rectangle Bounds { get; set; }

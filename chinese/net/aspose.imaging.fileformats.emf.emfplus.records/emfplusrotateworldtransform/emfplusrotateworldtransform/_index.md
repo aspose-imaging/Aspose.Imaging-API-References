@@ -1,14 +1,14 @@
 ---
 title: EmfPlusRotateWorldTransform
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPlusRotateWorldTransformaspose.imaging.fileformats.emf.emfplus.records/emfplusrotateworldtransform类的新实例
+description: 初始化EmfPlusRotateWorldTransformaspose.imaging.fileformats.emf.emfplus.records/emfplusrotateworldtransform类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrotateworldtransform/emfplusrotateworldtransform/
 ---
 ## EmfPlusRotateWorldTransform constructor
 
-初始化[`EmfPlusRotateWorldTransform`](../../emfplusrotateworldtransform)类的新实例。
+初始化[`EmfPlusRotateWorldTransform`](../../emfplusrotateworldtransform)类.
 
 ```csharp
 public EmfPlusRotateWorldTransform(EmfPlusRecord source)
@@ -16,7 +16,7 @@ public EmfPlusRotateWorldTransform(EmfPlusRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfPlusRecord | 源。 |
+| source | EmfPlusRecord | 来源。 |
 
 ### 也可以看看
 

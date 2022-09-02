@@ -16,7 +16,7 @@ public void SetRemapTable(ColorMap[] map)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| map | ColorMap[] | 类型为[`ColorMap`](../../colormap)的颜色对数组。每个颜色对包含一个现有颜色（第一个值）和它将映射到的颜色（第二个值）。 |
+| map | ColorMap[] | 类型的颜色对数组[`ColorMap`](../../colormap).每个颜色对包含一个现有颜色（第一个值）和它将映射到的颜色（第二个值）。 |
 
 ### 也可以看看
 
@@ -37,8 +37,8 @@ public void SetRemapTable(ColorMap[] map, ColorAdjustType type)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| map | ColorMap[] | 类型为[`ColorMap`](../../colormap)的颜色对数组。每个颜色对包含一个现有颜色（第一个值）和它将映射到的颜色（第二个值）。 |
-| type | ColorAdjustType | [`ColorAdjustType`](../../coloradjusttype)的一个元素，指定颜色重映射表设置的类别。 |
+| map | ColorMap[] | 类型的颜色对数组[`ColorMap`](../../colormap).每个颜色对包含一个现有颜色（第一个值）和它将映射到的颜色（第二个值）。 |
+| type | ColorAdjustType | 一个元素[`ColorAdjustType`](../../coloradjusttype)指定为其设置颜色重映射表的类别。 |
 
 ### 也可以看看
 

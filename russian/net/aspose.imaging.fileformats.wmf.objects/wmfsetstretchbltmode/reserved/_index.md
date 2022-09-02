@@ -1,14 +1,14 @@
 ---
 title: Reserved
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает зарезервированное значение.
+description: Получает или устанавливает зарезервированное.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfsetstretchbltmode/reserved/
 ---
 ## WmfSetStretchbltMode.Reserved property
 
-Получает или устанавливает зарезервированное значение.
+Получает или устанавливает зарезервированное.
 
 ```csharp
 public int Reserved { get; set; }

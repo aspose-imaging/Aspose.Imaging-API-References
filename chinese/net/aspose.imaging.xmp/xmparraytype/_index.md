@@ -1,14 +1,14 @@
 ---
 title: XmpArrayType
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示XmpArray./xmparray中的数组类型
+description: 表示数组类型在XmpArray./xmparray .
 type: docs
-weight: 11750
+weight: 11740
 url: /zh/net/aspose.imaging.xmp/xmparraytype/
 ---
 ## XmpArrayType enumeration
 
-表示[`XmpArray`](../xmparray)中的数组类型。
+表示数组类型在[`XmpArray`](../xmparray) .
 
 ```csharp
 public enum XmpArrayType

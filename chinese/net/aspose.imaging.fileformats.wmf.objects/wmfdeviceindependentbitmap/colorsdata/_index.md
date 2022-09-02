@@ -1,14 +1,14 @@
 ---
 title: ColorsData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置可选的 RGBQuad 对象数组第 2.2.2.20 节或定义颜色表的 16 位无符号整数该字段的 大小和内容应该由包含此 DeviceIndependentBitmap 的 元文件记录或对象以及 DIBHeaderInfo 字段中的信息确定有关更多详细信息请参阅 ColorUsage 枚举第 2.1.1.6 节和 BitCount 枚举第 2.1.1.3 节以获取更多详细信息
+description: 获取或设置可选的 RGBQuad 对象数组 section 2.2.2.20 或定义颜色表的 16 位无符号整数该字段的 大小和内容应该由包含此DeviceIndependentBitmap 的 元文件记录或对象以及DIBHeaderInfo字段中的信息确定有关更多详细信息请参见 ColorUsage 枚举第 2.1.1.6 节和 BitCount 枚举第 2.1.1.3 节
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/colorsdata/
 ---
 ## WmfDeviceIndependentBitmap.ColorsData property
 
-获取或设置可选的 RGBQuad 对象数组（第 2.2.2.20 节）或定义颜色表的 16 位无符号整数。该字段的 大小和内容应该由包含此 DeviceIndependentBitmap 的 元文件记录或对象以及 DIBHeaderInfo 字段中的信息确定。有关更多详细信息，请参阅 ColorUsage 枚举（第 2.1.1.6 节）和 BitCount 枚举（第 2.1.1.3 节）以获取更多详细信息
+获取或设置可选的 RGBQuad 对象数组 (section 2.2.2.20) 或定义颜色表的 16 位无符号整数。该字段的 大小和内容应该由包含此DeviceIndependentBitmap 的 元文件记录或对象以及DIBHeaderInfo字段中的信息确定。有关更多详细信息，请参见 ColorUsage 枚举（第 2.1.1.6 节）和 BitCount 枚举（第 2.1.1.3 节）
 
 ```csharp
 public byte[] ColorsData { get; set; }

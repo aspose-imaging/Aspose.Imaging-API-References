@@ -18,7 +18,7 @@ public class AsyncTaskException : Exception
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AsyncTaskException](asynctaskexception)(string) | 初始化[`AsyncTaskException`](../asynctaskexception)类的新实例。 |
+| [AsyncTaskException](asynctaskexception)(string) | 初始化[`AsyncTaskException`](../asynctaskexception)类. |
 
 ### 也可以看看
 

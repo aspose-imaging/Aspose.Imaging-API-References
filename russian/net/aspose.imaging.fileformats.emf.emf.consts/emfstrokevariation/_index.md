@@ -18,14 +18,14 @@ public enum EmfStrokeVariation : byte
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| PAN_ANY | `0` | Любой ход. |
+| PAN_ANY | `0` | Любой удар. |
 | PAN_NO_FIT | `1` | Не подходит. |
-| PAN_STROKE_GRADUAL_DIAG | `2` | Постепенная / диагональная |
+| PAN_STROKE_GRADUAL_DIAG | `2` | Постепенный / диагональный |
 | PAN_STROKE_GRADUAL_TRAN | `3` | Постепенный переход |
 | PAN_STROKE_GRADUAL_VERT | `4` | Постепенное вертикальное |
 | PAN_STROKE_GRADUAL_HORZ | `5` | Постепенное горизонтальное |
-| PAN_STROKE_RAPID_VERT | `6` | Быстрая вертикальная |
-| PAN_STROKE_RAPID_HORZ | `7` | Быстрое горизонтальное |
+| PAN_STROKE_RAPID_VERT | `6` | Быстрая вертикаль |
+| PAN_STROKE_RAPID_HORZ | `7` | Быстрая горизонтальная |
 | PAN_STROKE_INSTANT_VERT | `8` | Мгновенная вертикаль |
 
 ### Смотрите также

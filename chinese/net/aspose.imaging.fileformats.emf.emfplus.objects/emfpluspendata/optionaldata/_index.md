@@ -1,14 +1,14 @@
 ---
 title: OptionalData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置可选 EmfPlusPenOptionalData 对象第 2.2.2.34 节 指定笔对象的附加数据该字段的具体 内容由 PenDataFlags 字段的值决定
+description: 获取或设置可选的 EmfPlusPenOptionalData 对象第 2.2.2.34 节 指定笔对象的附加数据该字段的具体 内容由 PenDataFlags字段的值决定
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/optionaldata/
 ---
 ## EmfPlusPenData.OptionalData property
 
-获取或设置可选 EmfPlusPenOptionalData 对象（第 2.2.2.34 节） 指定笔对象的附加数据。该字段的具体 内容由 PenDataFlags 字段的值决定。
+获取或设置可选的 EmfPlusPenOptionalData 对象（第 2.2.2.34 节） 指定笔对象的附加数据。该字段的具体 内容由 PenDataFlags字段的值决定。
 
 ```csharp
 public EmfPlusPenOptionalData OptionalData { get; set; }

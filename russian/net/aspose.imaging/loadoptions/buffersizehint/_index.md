@@ -1,14 +1,14 @@
 ---
 title: BufferSizeHint
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает подсказку о размере буфера которая определяет максимально допустимый размер для всех внутренних буферов.
+description: Получает или задает подсказку о размере буфера которая определяет максимально допустимый размер для всех внутренних буферов.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging/loadoptions/buffersizehint/
 ---
 ## LoadOptions.BufferSizeHint property
 
-Получает или устанавливает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов.
+Получает или задает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов.
 
 ```csharp
 public int BufferSizeHint { get; set; }
@@ -20,45 +20,26 @@ public int BufferSizeHint { get; set; }
 
 ### Примеры
 
-В следующем примере показано, как установить память ограничение при загрузке образа CMX. Предел памяти — это максимально допустимый размер (в мегабайтах) для всех внутренних буферов.
+В следующем примере показано, как установить ограничение памяти при загрузке образа CMX. Предел памяти — это максимально допустимый размер (в мегабайтах) для всех внутренних буферов.
 
 ```csharp
 [C#]
 
-string dir = "c:\\aspose.imaging\\issues\\net\\3404\\";
-
- // Установка ограничения памяти в 50 мегабайт для целевого загруженного изображения
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "inputFile.jpg", new Aspose.Imaging.LoadOptions() { BufferSizeHint = 50 }))
+string dir = "c:\\aspose.imaging\\issues\\net\\3419\\";
+    
+// Установка ограничения памяти в 10 мегабайт для целевого загруженного изображения.
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "example.cmx", new Aspose.Imaging.LoadOptions() { BufferSizeHint = 10 }))
 {
-    image.Save(dir + "outputFile_Baseline.jpg",
-        new Aspose.Imaging.ImageOptions.JpegOptions
+    image.Save(dir + "output.png",
+        new Aspose.Imaging.ImageOptions.PngOptions()
         {
-            CompressionType = Aspose.Imaging.FileFormats.Jpeg.JpegCompressionMode.Baseline,
-            Quality = 100
-        });
-
-    image.Save(dir + "outputFile_Progressive.jpg",
-        new Aspose.Imaging.ImageOptions.JpegOptions
-        {
-            CompressionType = Aspose.Imaging.FileFormats.Jpeg.JpegCompressionMode.Progressive
-        });
-
-    image.Save(dir + "outputFile_Lossless.jpg",
-        new Aspose.Imaging.ImageOptions.JpegOptions
-        {
-            ColorType = Aspose.Imaging.FileFormats.Jpeg.JpegCompressionColorMode.YCbCr,
-            CompressionType = Aspose.Imaging.FileFormats.Jpeg.JpegCompressionMode.Lossless,
-            BitsPerChannel = 4
-        });
-
-    image.Save(dir + "outputFile_JpegLs.jpg",
-        new Aspose.Imaging.ImageOptions.JpegOptions
-        {
-            ColorType = Aspose.Imaging.FileFormats.Jpeg.JpegCompressionColorMode.YCbCr,
-            CompressionType = Aspose.Imaging.FileFormats.Jpeg.JpegCompressionMode.JpegLs,
-            JpegLsInterleaveMode = Aspose.Imaging.FileFormats.Jpeg.JpegLsInterleaveMode.None,
-            JpegLsAllowedLossyError = 3,
-            JpegLsPreset = null
+            VectorRasterizationOptions =
+                    new Aspose.Imaging.ImageOptions.CmxRasterizationOptions
+                    {
+                        TextRenderingHint = Aspose.Imaging.TextRenderingHint.SingleBitPerPixel,
+                        SmoothingMode = Aspose.Imaging.SmoothingMode.AntiAlias,
+                        Positioning = Aspose.Imaging.ImageOptions.PositioningTypes.DefinedByDocument
+                    }
         });
 }
 ```
@@ -70,7 +51,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "inputFile.j
 
 string dir = "c:\\aspose.imaging\\issues\\net\\3404\\";
 
- // Установка ограничения памяти в 50 мегабайт для целевого загруженного изображения
+// Установка ограничения памяти в 50 мегабайт для целевого загруженного изображения
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "inputFile.jpg", new Aspose.Imaging.LoadOptions() { BufferSizeHint = 50 }))
 {
     image.Save(dir + "outputFile_Baseline.jpg",

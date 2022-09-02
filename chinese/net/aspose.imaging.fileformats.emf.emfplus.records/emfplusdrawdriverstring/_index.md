@@ -18,24 +18,24 @@ public sealed class EmfPlusDrawDriverString : EmfPlusDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfPlusDrawDriverString](emfplusdrawdriverstring)(EmfPlusRecord) | 初始化[`EmfPlusDrawDriverString`](../emfplusdrawdriverstring)类的新实例。 |
+| [EmfPlusDrawDriverString](emfplusdrawdriverstring)(EmfPlusRecord) | 初始化[`EmfPlusDrawDriverString`](../emfplusdrawdriverstring)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BrushId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/brushid) { get; set; } | 获取或设置画笔标识符 一个 32 位无符号整数，指定文本或图形画笔的前景色， 取决于 Flags |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，该整数必须在 RecordData 字段中定义 32 位对齐的 数据字节数跟随。这个数字不包括 12 字节的记录头。 |
-| [DriverStringOptionsFlags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/driverstringoptionsflags) { get; set; } | 获取或设置驱动程序字符串选项标志 一个 32 位无符号整数，指定字符串的间距、方向和渲染质量. |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | 获取或设置一个 16 位无符号整数，该整数包含有关如何执行 操作和结构的一些记录的信息记录。 |
-| [GlyphCount](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/glyphcount) { get; set; } | 获取或设置字形计数 一个 32 位无符号整数，指定字符串 中的字形数 |
-| [GlyphPos](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/glyphpos) { get; set; } | 获取或设置字形位置数组 EmfPlusPointF 对象数组（第 2.2.2.36 节），指定每个字符字形的输出位置。 必须有 GlyphCount 元素，它们与 Glyphs 数组中的元素一一对应。 如果 DriverStringOptionsRealizedAdvance 设置了 DriverStringOptions 标志中的标志，则从第一个字形的位置计算字形位置。在这种情况下，GlyphPos 仅指定第一个字形的位置。 |
-| [Glyphs](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/glyphs) { get; set; } | 获取或设置字形数组 定义要绘制的文本字符串的 16 位值数组。 如果设置了 DriverStringOptionsFlags 字段中的 DriverStringOptionsCmapLookup 标志，则此 数组中的每个值都指定一个 Unicode 字符。否则，每个值都指定一个 EmfPlusFont 对象中由 Flags 字段中的 ObjectId 值指定的字符字形的索引。 |
-| [IsColor](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/iscolor) { get; set; } | 获取或设置一个指示此实例是否为彩色的值。 该位指示BrushId字段中的数据类型。 如果设置，BrushId 指定 EmfPlusARGB 对象 中的颜色值（第 2.2.2.1 节）。如果清除，BrushId 包含 EmfPlusBrush 对象的 EMF+ 对象 表索引（第 2.2.1.1 节）。 |
-| [MatrixPresent](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/matrixpresent) { get; set; } | 获取或设置矩阵是否存在标志 一个 32 位无符号整数，指定 TransformMatrix 字段中是否存在变换矩阵 0 - 不存在矩阵。 1 - 变换矩阵位于 TransformMatrix 字段 |
-| [ObjectId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/objectid) { get; set; } | 获取或设置对象标识符。 &lt;see href="EmfPlusFont" /&gt; 对象（第 2.2.1.3 节）的 EMF+ 对象表索引以呈现文本。该值必须是 0 到 63（含）。 |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | 获取或设置一个 32 位无符号整数，指定整条记录中的 32 位对齐字节数 ，包括 12 -byte 记录头和特定于记录的数据。 |
-| [TransformMatrix](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/transformmatrix) { get; set; } | 获取或设置变换矩阵 一个可选的 EmfPlusTransformMatrix 对象（第 2.2.2.47 节），指定要应用于:::47 的变换:::文本数组中的每个值。此数据的存在由 MatrixPresent 字段确定。 |
+| [BrushId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/brushid) { get; set; } | 获取或设置画笔标识符 一个 32 位无符号整数，指定文本或图形画笔的前景色， 取决于 Flags 中 S 标志的值 |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，该整数必须在随后的 RecordData 字段中定义 32 位对齐的 字节数据。这个数字不包括 12 字节的记录头。 |
+| [DriverStringOptionsFlags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/driverstringoptionsflags) { get; set; } | 获取或设置驱动程序字符串选项 flags 一个 32 位无符号整数，用于指定字符串的间距、方向和渲染质量。 |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | 获取或设置一个 16 位无符号整数，其中包含一些记录的信息，关于如何执行 操作以及记录的结构。 |
+| [GlyphCount](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/glyphcount) { get; set; } | 获取或设置字形计数 一个 32 位无符号整数，指定字符串中字形的数量 |
+| [GlyphPos](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/glyphpos) { get; set; } | 获取或设置字形位置 array EmfPlusPointF 对象数组（第 2.2.2.36 节），指定每个字符字形的输出位置。 必须有 GlyphCount 元素，它们与Glyphs array. 如果设置了 DriverStringOptions flags 中的 DriverStringOptionsRealizedAdvance 标志，则从第一个字形的位置计算字形位置。在这种情况下，GlyphPos 仅指定第一个字形的位置。 |
+| [Glyphs](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/glyphs) { get; set; } | 获取或设置字形数组 定义要绘制的文本字符串的 16 位值数组。 如果设置了 DriverStringOptionsFlags 字段中的 DriverStringOptionsCmapLookup 标志，则 this 数组中的每个值都指定一个 Unicode 字符。否则，每个值都指定一个索引到 EmfPlusFont 对象中的 a 字符字形，该对象由 Flags 字段中的 ObjectId 值指定。 |
+| [IsColor](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/iscolor) { get; set; } | 获取或设置一个指示此实例是否为颜色的值。 该位指示 BrushId 字段中的数据类型。 如果设置，BrushId 指定 EmfPlusARGB 对象中的颜色值 （第 2.2.2.1 节）。如果清除，BrushId 包含 EmfPlusBrush 对象的 EMF+ Object 表索引（第 2.2.1.1 节）。 |
+| [MatrixPresent](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/matrixpresent) { get; set; } | 获取或设置矩阵是否存在 flag 一个 32 位无符号整数，指定 TransformMatrix 字段中是否存在变换矩阵 0 - 不存在矩阵。 1 - 变换矩阵在 TransformMatrix field |
+| [ObjectId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/objectid) { get; set; } | 获取或设置对象标识符。 一个对象的 EMF+ 对象表索引[EmfPlusFont](EmfPlusFont)对象 (section 2.2.1.3) 来呈现文本。该值必须是 0 到 63，包括在内。 |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | 获取或设置一个 32 位无符号整数，指定整个记录中 32 位对齐的字节数 ，包括 12 字节的记录头和特定于记录的数据。 |
+| [TransformMatrix](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/transformmatrix) { get; set; } | 获取或设置变换矩阵 一个可选的 EmfPlusTransformMatrix 对象（第 2.2.2.47 节），它指定要应用于 文本数组中每个值的变换。此数据的存在由 MatrixPresent 字段确定。 |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | 获取标识记录类型的 16 位无符号整数。 |
 
 ### 也可以看看

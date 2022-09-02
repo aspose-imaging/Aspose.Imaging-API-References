@@ -1,14 +1,14 @@
 ---
 title: EmfSpoolRecordIdentifier
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个标识 EMR_COMMENT_EMFSPOOL 记录类型的 32 位无符号整数
+description: 获取或设置一个 32 位无符号整数用于标识 EMR_COMMENT_EMFSPOOL 记录的类型
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool/emfspoolrecordidentifier/
 ---
 ## EmfCommentEmfSpool.EmfSpoolRecordIdentifier property
 
-获取或设置一个标识 EMR_COMMENT_EMFSPOOL 记录类型的 32 位无符号整数。
+获取或设置一个 32 位无符号整数，用于标识 EMR_COMMENT_EMFSPOOL 记录的类型。
 
 ```csharp
 public EmfSpoolRecordIdentifierEnum EmfSpoolRecordIdentifier { get; set; }

@@ -20,7 +20,7 @@ public string FontType { get; set; }
 
 ### 例子
 
-TrueType、Type 1、Open Type等。
+TrueType、Type 1、Open Type 等。
 
 ### 也可以看看
 

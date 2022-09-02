@@ -32,7 +32,7 @@ CMYK 颜色呈现为 32 位整数值。
 
 ## ToCmyk(int) {#tocmyk_1}
 
-从 ARGB 颜色到 CMYK 颜色的转换。
+ARGB 颜色到 CMYK 颜色的转换。
 
 ```csharp
 public static int ToCmyk(int argbPixel)
@@ -40,11 +40,11 @@ public static int ToCmyk(int argbPixel)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| argbPixel | Int32 | ARGB 颜色以 32 位整数值表示。 |
+| argbPixel | Int32 | ARGB 颜色显示为 32 位整数值。 |
 
 ### 返回值
 
-CMYK 颜色以 32 位整数值表示。
+以 32 位整数值呈现的 CMYK 颜色。
 
 ### 也可以看看
 
@@ -56,7 +56,7 @@ CMYK 颜色以 32 位整数值表示。
 
 ## ToCmyk(Color) {#tocmyk}
 
-从 ARGB 颜色到 CMYK 颜色的转换。
+ARGB 颜色到 CMYK 颜色的转换。
 
 ```csharp
 public static int ToCmyk(Color pixel)
@@ -68,7 +68,7 @@ public static int ToCmyk(Color pixel)
 
 ### 返回值
 
-CMYK 颜色以 32 位整数值表示。
+以 32 位整数值呈现的 CMYK 颜色。
 
 ### 例子
 
@@ -77,33 +77,31 @@ CMYK 颜色以 32 位整数值表示。
 ```csharp
 [C#]
 
-Aspose.Imaging.Color[] rgbColors = new Aspose.Imaging.Color[]
-{
-    Aspose.Imaging.Color.Red,
-    Aspose.Imaging.Color.Green,
-    Aspose.Imaging.Color.Blue,
-};
+string dir = @"c:\temp\";
 
-System.Console.WriteLine("Convert RGB to CMYK without using ICC profiles.");
-foreach (Aspose.Imaging.Color rgbColor in rgbColors)
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
 {
-    int cmyk = Aspose.Imaging.CmykColorHelper.ToCmyk(rgbColor);
-    int c = Aspose.Imaging.CmykColorHelper.GetC(cmyk);
-    int m = Aspose.Imaging.CmykColorHelper.GetM(cmyk);
-    int y = Aspose.Imaging.CmykColorHelper.GetY(cmyk);
-    int k = Aspose.Imaging.CmykColorHelper.GetK(cmyk);
+    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k);
+    // 在 CMYK 颜色空间中获取黑色的整数表示。
+    int blackCmyk = Aspose.Imaging.CmykColorHelper.ToCmyk(Color.Black);
+
+    // 黑色方块。
+    int[] pixels = new int[(rasterImage.Width / 2) * (rasterImage.Height / 2)];
+    for (int i = 0; i < pixels.Length; i++)
+    {
+        pixels[i] = blackCmyk;
+    }
+
+    // 在图像中心绘制黑色方块。
+    Aspose.Imaging.Rectangle area = new Aspose.Imaging.Rectangle(rasterImage.Width / 4, rasterImage.Height / 4, rasterImage.Width / 2, rasterImage.Height / 2);
+    rasterImage.SaveCmyk32Pixels(area, pixels);
+
+    rasterImage.Save(dir + "sample.SaveCmyk32Pixels.png");
 }
-
-    //输出看起来像这样：
-    //在不使用ICC配置文件的情况下将RGB转换为CMYK。
-    //RGB(255,0,0) => CMYK(0,255,255,0)
-    //RGB(0,128,0) => CMYK(255,0,255,127)
-//RGB(0,0,255) => CMYK(255,255,0,0)
 ```
 
-以下示例展示了如何在不应用 ICC 配置文件的情况下将 RGB 颜色转换为对应的 CMYK 颜色。
+以下示例显示如何在不应用 ICC 配置文件的情况下将 RGB 颜色转换为对应的 CMYK 颜色。
 
 ```csharp
 [C#]
@@ -127,10 +125,10 @@ foreach (Aspose.Imaging.Color rgbColor in rgbColors)
     System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k);
 }
 
-    //输出看起来像这样：
-    //在不使用ICC配置文件的情况下将RGB转换为CMYK。
-    //RGB(255,0,0) => CMYK(0,255,255,0)
-    //RGB(0,128,0) => CMYK(255,0,255,127)
+//输出看起来像这样：
+//在不使用 ICC 配置文件的情况下将 RGB 转换为 CMYK。
+//RGB(255,0,0) => CMYK(0,255,255,0)
+//RGB(0,128,0) => CMYK(255,0,255,127)
 //RGB(0,0,255) => CMYK(255,255,0,0)
 ```
 

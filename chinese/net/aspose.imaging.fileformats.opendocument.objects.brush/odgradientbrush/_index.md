@@ -28,7 +28,7 @@ public class OdGradientBrush : OdBrush
 | override [BrushStyle](../../aspose.imaging.fileformats.opendocument.objects.brush/odgradientbrush/brushstyle) { get; } | 获取样式。 |
 | [EndColor](../../aspose.imaging.fileformats.opendocument.objects.brush/odgradientbrush/endcolor) { get; set; } | 获取或设置结束颜色。 |
 | [GradientStyle](../../aspose.imaging.fileformats.opendocument.objects.brush/odgradientbrush/gradientstyle) { get; set; } | 获取或设置渐变样式。 |
-| [StartColor](../../aspose.imaging.fileformats.opendocument.objects.brush/odgradientbrush/startcolor) { get; set; } | 获取或设置开始颜色。 |
+| [StartColor](../../aspose.imaging.fileformats.opendocument.objects.brush/odgradientbrush/startcolor) { get; set; } | 获取或设置起始颜色。 |
 
 ## 方法
 

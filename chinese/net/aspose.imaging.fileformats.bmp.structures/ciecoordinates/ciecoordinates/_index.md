@@ -1,14 +1,14 @@
 ---
 title: CieCoordinates
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化CieCoordinatesaspose.imaging.fileformats.bmp.structures/ciecoordinates类的新实例
+description: 初始化CieCoordinatesaspose.imaging.fileformats.bmp.structures/ciecoordinates类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.bmp.structures/ciecoordinates/ciecoordinates/
 ---
 ## CieCoordinates constructor
 
-初始化[`CieCoordinates`](../../ciecoordinates)类的新实例。
+初始化[`CieCoordinates`](../../ciecoordinates)类.
 
 ```csharp
 public CieCoordinates(byte[] bytes)

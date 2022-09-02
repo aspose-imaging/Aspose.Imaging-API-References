@@ -1,14 +1,14 @@
 ---
 title: TiffByteOrder
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Порядок байтов для изображения в формате tiff
+description: Порядок байтов для изображения TIFF
 type: docs
 weight: 7610
 url: /ru/net/aspose.imaging.fileformats.tiff.enums/tiffbyteorder/
 ---
 ## TiffByteOrder enumeration
 
-Порядок байтов для изображения в формате tiff
+Порядок байтов для изображения TIFF
 
 ```csharp
 public enum TiffByteOrder

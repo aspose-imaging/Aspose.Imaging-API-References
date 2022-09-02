@@ -1,14 +1,14 @@
 ---
 title: FontFileUri
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置字体文件 URI
+description: 获取或设置字体文件 URI.
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.svg/fontstoringargs/fontfileuri/
 ---
 ## FontStoringArgs.FontFileUri property
 
-获取或设置字体文件 URI。
+获取或设置字体文件 URI.
 
 ```csharp
 public string FontFileUri { get; set; }
@@ -16,7 +16,7 @@ public string FontFileUri { get; set; }
 
 ### 适当的价值
 
-字体文件 URI。
+字体文件 URI.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: op_Subtraction
 second_title: Aspose.Imaging for .NET API 参考
-description: 将PointFaspose.imaging/pointf转换为给定Size的负数
+description: 翻译一个PointFaspose.imaging/pointf通过给定的否定Sizeaspose.imaging/size .
 type: docs
 weight: 140
 url: /zh/net/aspose.imaging/pointf/op_subtraction/
 ---
 ## operator - {#op_subtraction}
 
-将[`PointF`](../../pointf)转换为给定Size的负数。
+翻译一个[`PointF`](../../pointf)通过给定的否定[`Size`](../../size) .
 
 ```csharp
 public static PointF operator -(PointF point, Size size)
@@ -16,12 +16,12 @@ public static PointF operator -(PointF point, Size size)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| point | PointF | A[`PointF`](../../pointf)进行翻译。 |
-| size | Size | A[`Size`](../../size)指定要从图像的 x 和 y 坐标中减去的数字*点*。 |
+| point | PointF | 一个[`PointF`](../../pointf)翻译。 |
+| size | Size | 一个[`Size`](../../size)指定要从 x 和 y 坐标中减去的数字*point*. |
 
 ### 返回值
 
-翻译后的[`PointF`](../../pointf)。
+翻译的[`PointF`](../../pointf).
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public static PointF operator -(PointF point, Size size)
 
 ## operator - {#op_subtraction_1}
 
-将[`PointF`](../../pointf)转换为指定SizeF的负数。
+翻译一个[`PointF`](../../pointf)由指定的负数[`SizeF`](../../sizef) .
 
 ```csharp
 public static PointF operator -(PointF point, SizeF size)
@@ -42,12 +42,12 @@ public static PointF operator -(PointF point, SizeF size)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| point | PointF | [`PointF`](../../pointf)进行翻译。 |
-| size | SizeF | [`SizeF`](../../sizef)指定要从*point的坐标中减去的数字*。 |
+| point | PointF | 这[`PointF`](../../pointf)翻译。 |
+| size | SizeF | 这[`SizeF`](../../sizef)指定要从坐标中减去的数字*point*. |
 
 ### 返回值
 
-翻译后的[`PointF`](../../pointf)。
+翻译的[`PointF`](../../pointf).
 
 ### 也可以看看
 

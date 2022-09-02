@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает ширину этогоPenaspose.imaging/pen в единицах объекта Graphics используемого для рисования.
+description: Получает или задает ширину этогоPenaspose.imaging/pen  в единицах объекта Graphics используемого для рисования.
 type: docs
 weight: 180
 url: /ru/net/aspose.imaging/pen/width/
 ---
 ## Pen.Width property
 
-Получает или задает ширину этого[`Pen`](../../pen), в единицах объекта Graphics, используемого для рисования.
+Получает или задает ширину этого[`Pen`](../../pen) , в единицах объекта Graphics, используемого для рисования.
 
 ```csharp
 public float Width { get; set; }
@@ -22,7 +22,7 @@ public float Width { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Свойство`Width`устанавливается на неизменном[`Pen`](../../pen), например возвращаемые классом[`Pen`](../../pen). |
+| ArgumentException | `Width` свойство установлено на неизменном[`Pen`](../../pen) такие как возвращенные[`Pen`](../../pen) учебный класс. |
 
 ### Смотрите также
 

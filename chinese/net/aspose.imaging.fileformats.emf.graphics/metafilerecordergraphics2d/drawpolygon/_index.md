@@ -16,7 +16,7 @@ public void DrawPolygon(Pen pen, Point[] points)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pen | Pen | 确定图形颜色、宽度和样式的笔。 |
+| pen | Pen | 确定图形颜色、宽度和样式的钢笔。 |
 | points | Point[] | 点。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: Align
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置对齐
+description: 获取或设置对齐方式
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrstyle/align/
 ---
 ## CdrStyle.Align property
 
-获取或设置对齐。
+获取或设置对齐方式。
 
 ```csharp
 public int Align { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: SetLineCap
 second_title: Aspose.Imaging for .NET API 参考
-description: 设置确定用于结束此Penaspose.imaging/pen绘制的线条的帽子样式的值
+description: 设置确定用于结束由此绘制的线条的帽子样式的值Penaspose.imaging/pen .
 type: docs
 weight: 230
 url: /zh/net/aspose.imaging/pen/setlinecap/
 ---
 ## Pen.SetLineCap method
 
-设置确定用于结束此[`Pen`](../../pen)绘制的线条的帽子样式的值。
+设置确定用于结束由此绘制的线条的帽子样式的值[`Pen`](../../pen) .
 
 ```csharp
 public void SetLineCap(LineCap startCap, LineCap endCap, DashCap dashCap)
@@ -16,9 +16,9 @@ public void SetLineCap(LineCap startCap, LineCap endCap, DashCap dashCap)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| startCap | LineCap | A[`LineCap`](../../linecap)表示要在使用此[`Pen`](../../pen)绘制的线条的开头。 |
-| endCap | LineCap | A[`LineCap`](../../linecap)表示在用 this 绘制的线条末尾使用的帽子样式[`Pen`](../../pen)。 |
-| dashCap | DashCap | A[`LineCap`](../../linecap)表示要在绘制的虚线的开头或结尾使用的帽子样式用这个[`Pen`](../../pen)。 |
+| startCap | LineCap | 一个[`LineCap`](../../linecap)表示在使用此绘制的线条开头使用的帽子样式[`Pen`](../../pen). |
+| endCap | LineCap | 一个[`LineCap`](../../linecap)表示在用此绘制的线条末端使用的帽子样式[`Pen`](../../pen). |
+| dashCap | DashCap | 一个[`LineCap`](../../linecap)表示在用它绘制的虚线的开头或结尾处使用的帽子样式[`Pen`](../../pen). |
 
 ### 也可以看看
 

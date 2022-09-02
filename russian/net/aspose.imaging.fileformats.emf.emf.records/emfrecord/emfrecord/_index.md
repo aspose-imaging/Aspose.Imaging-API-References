@@ -1,14 +1,14 @@
 ---
 title: EmfRecord
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfRecordaspose.imaging.fileformats.emf.emf.records/emfrecord.
+description: Инициализирует новый экземплярEmfRecordaspose.imaging.fileformats.emf.emf.records/emfrecord класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfrecord/emfrecord/
 ---
 ## EmfRecord() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfRecord`](../../emfrecord).
+Инициализирует новый экземпляр[`EmfRecord`](../../emfrecord) класс.
 
 ```csharp
 public EmfRecord()
@@ -24,7 +24,7 @@ public EmfRecord()
 
 ## EmfRecord(EmfRecord) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`EmfRecord`](../../emfrecord).
+Инициализирует новый экземпляр[`EmfRecord`](../../emfrecord) класс.
 
 ```csharp
 public EmfRecord(EmfRecord source)
@@ -44,7 +44,7 @@ public EmfRecord(EmfRecord source)
 
 ## EmfRecord(EmfRecordType) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfRecord`](../../emfrecord).
+Инициализирует новый экземпляр[`EmfRecord`](../../emfrecord) класс.
 
 ```csharp
 public EmfRecord(EmfRecordType type)

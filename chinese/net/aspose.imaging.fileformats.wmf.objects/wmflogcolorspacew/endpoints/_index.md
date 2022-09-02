@@ -1,14 +1,14 @@
 ---
 title: Endpoints
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置定义 三种颜色的 CIE 色度 xy 和 z 坐标的 CIEXYZTriple 对象第 2.2.2.7 节 对应于 RGBendpoints用于与位图如果 ColorSpaceTypeaspose.imaging.fileformats.wmf.objects/wmflogcolorspacew/colorspacetype字段未指定 LCS_CALIBRATED_RGB则必须忽略此字段.
+description: 获取或设置一个 CIEXYZTriple 对象第 2.2.2.7 节该对象定义 对应于 RGB 的三种颜色 的 CIE 色度 xy 和 z 坐标endpoints用于与位图关联的logical 颜色空间如果 ColorSpaceTypeaspose.imaging.fileformats.wmf.objects/wmflogcolorspacew/colorspacetype字段未指定 LCS_CALIBRATED_RGB该字段必须被忽略
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmflogcolorspacew/endpoints/
 ---
 ## WmfLogColorSpaceW.Endpoints property
 
-获取或设置定义 三种颜色的 CIE 色度 x、y 和 z 坐标的 CIEXYZTriple 对象（第 2.2.2.7 节） 对应于 RGBendpoints用于与位图。如果 [`ColorSpaceType`](../colorspacetype)字段未指定 LCS_CALIBRATED_RGB，则必须忽略此字段.
+获取或设置一个 CIEXYZTriple 对象（第 2.2.2.7 节），该对象定义 对应于 RGB 的三种颜色 的 CIE 色度 x、y 和 z 坐标endpoints用于与位图关联的logical 颜色空间。如果 [`ColorSpaceType`](../colorspacetype)字段未指定 LCS_CALIBRATED_RGB，该字段必须被忽略。
 
 ```csharp
 public WmfCieXyzTriple Endpoints { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: DicomPage
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化DicomPageaspose.imaging.fileformats.dicom/dicompage类的新实例
+description: 初始化DicomPageaspose.imaging.fileformats.dicom/dicompage类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.dicom/dicompage/dicompage/
 ---
 ## DicomPage(DicomImage, int) {#constructor}
 
-初始化[`DicomPage`](../../dicompage)类的新实例。
+初始化[`DicomPage`](../../dicompage)类.
 
 ```csharp
 public DicomPage(DicomImage image, int index)
@@ -16,8 +16,8 @@ public DicomPage(DicomImage image, int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| image | DicomImage | 图像。 |
-| index | Int32 | 索引。 |
+| image | DicomImage | 图片。 |
+| index | Int32 | 指数。 |
 
 ### 也可以看看
 
@@ -30,7 +30,7 @@ public DicomPage(DicomImage image, int index)
 
 ## DicomPage(DicomImage, int, LoadOptions) {#constructor_1}
 
-初始化[`DicomPage`](../../dicompage)类的新实例。
+初始化[`DicomPage`](../../dicompage)类.
 
 ```csharp
 public DicomPage(DicomImage image, int index, LoadOptions loadOptions)
@@ -38,9 +38,9 @@ public DicomPage(DicomImage image, int index, LoadOptions loadOptions)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| image | DicomImage | 图像。 |
-| index | Int32 | 索引。 |
-| loadOptions | LoadOptions | 加载选项。 |
+| image | DicomImage | 图片。 |
+| index | Int32 | 指数。 |
+| loadOptions | LoadOptions | 负载选项。 |
 
 ### 也可以看看
 

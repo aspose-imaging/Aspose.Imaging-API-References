@@ -20,13 +20,13 @@ public int Convert(PixelDataFormat sourceFormat, byte[] data, int offset, int bi
 | --- | --- | --- |
 | sourceFormat | PixelDataFormat | 源格式。 |
 | data | Byte[] | 源数据。 |
-| offset | Int32 | 应该开始数据复制的偏移量（以字节为单位）。 |
+| offset | Int32 | 应该开始数据复制的字节偏移量。 |
 | bitStart | Int32 | 位开始。请注意，此值不是字节对齐的值，而是应该开始复制的实际位。 |
-| samplesCount | Int32 | 样本数。 |
+| samplesCount | Int32 | 样本计数。 |
 | linesCount | Int32 | 行数。 |
 | destFormat | PixelDataFormat | 目标格式。 |
 | outputData | Byte[] | 输出数据。 |
-| outputOffset | Int32 | 数据复制开始的输出偏移量。 |
+| outputOffset | Int32 | 数据复制应该开始的输出偏移量。 |
 
 ### 返回值
 

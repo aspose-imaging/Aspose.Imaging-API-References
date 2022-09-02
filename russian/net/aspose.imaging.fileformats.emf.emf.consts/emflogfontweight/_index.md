@@ -1,14 +1,14 @@
 ---
 title: EmfLogFontWeight
 second_title: Справочник по Aspose.Imaging for .NET API
-description: EmfLogFont../aspose.imaging.fileformats.emf.emf.objects/emflogfontВес.
+description: EmfLogFont../aspose.imaging.fileformats.emf.emf.objects/emflogfont Вес.
 type: docs
 weight: 2730
 url: /ru/net/aspose.imaging.fileformats.emf.emf.consts/emflogfontweight/
 ---
 ## EmfLogFontWeight enumeration
 
-[`EmfLogFont`](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont)Вес.
+[`EmfLogFont`](../../aspose.imaging.fileformats.emf.emf.objects/emflogfont) Вес.
 
 ```csharp
 public enum EmfLogFontWeight
@@ -18,7 +18,7 @@ public enum EmfLogFontWeight
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| FW_DONTCARE | `0` | Пофиг |
+| FW_DONTCARE | `0` | Все равно |
 | FW_THIN | `100` | Тонкий вес. |
 | FW_EXTRALIGHT | `200` | Сверхлегкий вес. |
 | FW_ULTRALIGHT | `200` | Сверхлегкий вес. |
@@ -26,7 +26,7 @@ public enum EmfLogFontWeight
 | FW_NORMAL | `400` | Нормальный вес. |
 | FW_REGULAR | `400` | Обычный вес. |
 | FW_MEDIUM | `500` | Средний вес. |
-| FW_SEMIBOLD | `600` | Полужирный вес. |
+| FW_SEMIBOLD | `600` | Вес полужирного шрифта. |
 | FW_DEMIBOLD | `600` | Полужирный вес. |
 | FW_BOLD | `700` | Жирный вес. |
 | FW_EXTRABOLD | `800` | Сверхжирный вес. |

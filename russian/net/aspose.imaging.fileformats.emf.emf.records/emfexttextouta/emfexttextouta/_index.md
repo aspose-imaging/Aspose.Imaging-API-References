@@ -1,14 +1,14 @@
 ---
 title: EmfExtTextOutA
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfExtTextOutAaspose.imaging.fileformats.emf.emf.records/emfexttextouta.
+description: Инициализирует новый экземплярEmfExtTextOutAaspose.imaging.fileformats.emf.emf.records/emfexttextouta класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfexttextouta/emfexttextouta/
 ---
 ## EmfExtTextOutA(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfExtTextOutA`](../../emfexttextouta).
+Инициализирует новый экземпляр[`EmfExtTextOutA`](../../emfexttextouta) класс.
 
 ```csharp
 public EmfExtTextOutA(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfExtTextOutA(EmfRecord source)
 
 ## EmfExtTextOutA() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfExtTextOutA`](../../emfexttextouta).
+Инициализирует новый экземпляр[`EmfExtTextOutA`](../../emfexttextouta) класс.
 
 ```csharp
 public EmfExtTextOutA()

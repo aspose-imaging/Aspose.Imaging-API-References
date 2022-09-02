@@ -1,14 +1,14 @@
 ---
 title: Empty
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает пустойColoraspose.imaging/color.
+description: Получает пустойColoraspose.imaging/color .
 type: docs
 weight: 430
 url: /ru/net/aspose.imaging/color/empty/
 ---
 ## Color.Empty property
 
-Получает пустой[`Color`](../../color).
+Получает пустой[`Color`](../../color) .
 
 ```csharp
 public static Color Empty { get; }

@@ -1,14 +1,14 @@
 ---
 title: EmfEof
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfEofaspose.imaging.fileformats.emf.emf.records/emfeof.
+description: Инициализирует новый экземплярEmfEofaspose.imaging.fileformats.emf.emf.records/emfeof класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfeof/emfeof/
 ---
 ## EmfEof(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfEof`](../../emfeof).
+Инициализирует новый экземпляр[`EmfEof`](../../emfeof) класс.
 
 ```csharp
 public EmfEof(EmfRecord record)
@@ -29,7 +29,7 @@ public EmfEof(EmfRecord record)
 
 ## EmfEof() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfEof`](../../emfeof).
+Инициализирует новый экземпляр[`EmfEof`](../../emfeof) класс.
 
 ```csharp
 public EmfEof()

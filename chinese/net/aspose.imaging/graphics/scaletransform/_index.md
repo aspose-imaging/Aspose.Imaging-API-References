@@ -1,14 +1,14 @@
 ---
 title: ScaleTransform
 second_title: Aspose.Imaging for .NET API 参考
-description: 按指定量缩放局部几何变换此方法将缩放矩阵添加到变换中
+description: 按指定量缩放局部几何变换此方法将缩放矩阵添加到 transform.
 type: docs
 weight: 460
 url: /zh/net/aspose.imaging/graphics/scaletransform/
 ---
 ## ScaleTransform(float, float) {#scaletransform}
 
-按指定量缩放局部几何变换。此方法将缩放矩阵添加到变换中。
+按指定量缩放局部几何变换。此方法将缩放矩阵添加到 transform.
 
 ```csharp
 public void ScaleTransform(float sx, float sy)
@@ -39,7 +39,7 @@ public void ScaleTransform(float sx, float sy, MatrixOrder order)
 | --- | --- | --- |
 | sx | Single | 在 x 轴方向上缩放变换的量。 |
 | sy | Single | 在 y 轴方向上缩放变换的量。 |
-| order | MatrixOrder | A[`MatrixOrder`](../../matrixorder)指定是附加还是附加缩放矩阵。 |
+| order | MatrixOrder | 一个[`MatrixOrder`](../../matrixorder)指定是附加还是前置缩放矩阵。 |
 
 ### 也可以看看
 

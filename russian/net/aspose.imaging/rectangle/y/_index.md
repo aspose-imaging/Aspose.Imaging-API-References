@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает координату y верхнего левого угла этойRectangleaspose.imaging/rectangleструктуры.
+description: Получает или задает координату Y верхнего левого угла этогоRectangleaspose.imaging/rectangle структура.
 type: docs
 weight: 210
 url: /ru/net/aspose.imaging/rectangle/y/
 ---
 ## Rectangle.Y property
 
-Получает или задает координату y верхнего левого угла этой[`Rectangle`](../../rectangle)структуры.
+Получает или задает координату Y верхнего левого угла этого[`Rectangle`](../../rectangle) структура.
 
 ```csharp
 public int Y { get; set; }
@@ -16,7 +16,7 @@ public int Y { get; set; }
 
 ### Стоимость имущества
 
-Y-координата верхнего левого угла этого[`Rectangle`](../../rectangle)структура.
+Y-координата верхнего левого угла этого[`Rectangle`](../../rectangle) структура.
 
 ### Смотрите также
 

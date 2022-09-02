@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает высоту этойRectangleFaspose.imaging/rectanglefструктуры.
+description: Получает или задает высоту этогоRectangleFaspose.imaging/rectanglef структура.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging/rectanglef/height/
 ---
 ## RectangleF.Height property
 
-Получает или задает высоту этой[`RectangleF`](../../rectanglef)структуры.
+Получает или задает высоту этого[`RectangleF`](../../rectanglef) структура.
 
 ```csharp
 public float Height { get; set; }
@@ -16,7 +16,7 @@ public float Height { get; set; }
 
 ### Возвращаемое значение
 
-Высота этой[`RectangleF`](../../rectanglef)структуры.
+Высота этого[`RectangleF`](../../rectanglef) структура.
 
 ### Смотрите также
 

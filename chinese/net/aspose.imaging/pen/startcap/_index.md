@@ -1,14 +1,14 @@
 ---
 title: StartCap
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置使用此Penaspose.imaging/pen绘制的线条开头使用的帽子样式
+description: 获取或设置使用此绘制的线条开头使用的帽子样式Penaspose.imaging/pen .
 type: docs
 weight: 160
 url: /zh/net/aspose.imaging/pen/startcap/
 ---
 ## Pen.StartCap property
 
-获取或设置使用此[`Pen`](../../pen)绘制的线条开头使用的帽子样式。
+获取或设置使用此绘制的线条开头使用的帽子样式[`Pen`](../../pen) .
 
 ```csharp
 public LineCap StartCap { get; set; }
@@ -16,13 +16,13 @@ public LineCap StartCap { get; set; }
 
 ### 适当的价值
 
-[`LineCap`](../../linecap)值之一，表示在使用此[`Pen`](../../pen)绘制的线条的开头。
+中的一个[`LineCap`](../../linecap)表示用此绘制的线条开头使用的帽子样式的值[`Pen`](../../pen).
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | `StartCap`属性设置在不可变的:::R5 上:T:Aspose.Imaging.Pen:::，例如[`Pen`](../../pen)类返回的那些。 |
+| ArgumentException | 这`StartCap`属性设置在不可变对象上[`Pen`](../../pen)，例如那些由[`Pen`](../../pen)班级。 |
 
 ### 也可以看看
 

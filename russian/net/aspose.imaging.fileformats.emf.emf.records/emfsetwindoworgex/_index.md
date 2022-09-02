@@ -18,15 +18,15 @@ public sealed class EmfSetWindowOrgEx : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetWindowOrgEx](emfsetwindoworgex#constructor)() | Инициализирует новый экземпляр класса[`EmfSetWindowOrgEx`](../emfsetwindoworgex). |
-| [EmfSetWindowOrgEx](emfsetwindoworgex#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetWindowOrgEx`](../emfsetwindoworgex). |
+| [EmfSetWindowOrgEx](emfsetwindoworgex#constructor)() | Инициализирует новый экземпляр[`EmfSetWindowOrgEx`](../emfsetwindoworgex) класс. |
+| [EmfSetWindowOrgEx](emfsetwindoworgex#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetWindowOrgEx`](../emfsetwindoworgex) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Origin](../../aspose.imaging.fileformats.emf.emf.records/emfsetwindoworgex/origin) { get; set; } | Получает или задает 64-битный объект WMF PointL ([MS-WMF], раздел 2.2.2.15), который указывает окно по горизонтали и вертикали происхождение в логических единицах. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Origin](../../aspose.imaging.fileformats.emf.emf.records/emfsetwindoworgex/origin) { get; set; } | Получает или задает 64-битный объект WMF PointL ([MS-WMF], раздел 2.2.2.15), который определяет начало координат окна по горизонтали и вертикали в логических единицах. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

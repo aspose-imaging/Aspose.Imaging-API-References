@@ -1,14 +1,14 @@
 ---
 title: Matrix20
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此ColorMatrixaspose.imaging/colormatrix的第二行和 0零列的元素
+description: 获取或设置 this 的第二行 0零列的元素ColorMatrixaspose.imaging/colormatrix .
 type: docs
 weight: 130
 url: /zh/net/aspose.imaging/colormatrix/matrix20/
 ---
 ## ColorMatrix.Matrix20 property
 
-获取或设置此[`ColorMatrix`](../../colormatrix)的第二行和 0（零）列的元素。
+获取或设置 this 的第二行 0（零）列的元素[`ColorMatrix`](../../colormatrix) .
 
 ```csharp
 public float Matrix20 { get; set; }
@@ -16,7 +16,7 @@ public float Matrix20 { get; set; }
 
 ### 适当的价值
 
-这个[`ColorMatrix`](../../colormatrix)的第二行第 0 列的元素。
+this 的第二行第 0 列的元素[`ColorMatrix`](../../colormatrix).
 
 ### 也可以看看
 

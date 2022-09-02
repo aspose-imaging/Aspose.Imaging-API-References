@@ -1,14 +1,14 @@
 ---
 title: CdrTransforms
 second_title: Справочник по Aspose.Imaging for .NET API
-description: CDR преобразует объект
+description: CDR преобразует object
 type: docs
 weight: 1790
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrtransforms/
 ---
 ## CdrTransforms class
 
-CDR преобразует объект
+CDR преобразует object
 
 ```csharp
 public class CdrTransforms : CdrObject

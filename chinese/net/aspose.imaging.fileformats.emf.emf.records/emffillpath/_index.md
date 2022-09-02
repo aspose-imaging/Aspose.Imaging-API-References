@@ -1,14 +1,14 @@
 ---
 title: EmfFillPath
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_FILLPATH 记录关闭当前路径中所有打开的图形并使用当前画笔和多边形填充模式通过 填充路径内部
+description: EMR_FILLPATH 记录关闭当前路径中所有打开的图形并使用当前画笔和多边形填充模式将路径内部填充 
 type: docs
 weight: 3690
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emffillpath/
 ---
 ## EmfFillPath class
 
-EMR_FILLPATH 记录关闭当前路径中所有打开的图形，并使用当前画笔和多边形填充模式通过 填充路径内部。
+EMR_FILLPATH 记录关闭当前路径中所有打开的图形，并使用当前画笔和多边形填充模式将路径内部填充 。
 
 ```csharp
 public sealed class EmfFillPath : EmfDrawingRecordType
@@ -18,8 +18,8 @@ public sealed class EmfFillPath : EmfDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfFillPath](emffillpath#constructor)() | 初始化[`EmfFillPath`](../emffillpath)类的新实例。 |
-| [EmfFillPath](emffillpath#constructor_1)(EmfRecord) | 初始化[`EmfFillPath`](../emffillpath)类的新实例。 |
+| [EmfFillPath](emffillpath#constructor)() | 初始化[`EmfFillPath`](../emffillpath)类. |
+| [EmfFillPath](emffillpath#constructor_1)(EmfRecord) | 初始化[`EmfFillPath`](../emffillpath)类. |
 
 ## 特性
 

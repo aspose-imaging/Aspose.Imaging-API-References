@@ -3,7 +3,7 @@ title: WmfSetWindowOrg
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9230
+weight: 9240
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsetwindoworg/
 ---
 ## WmfSetWindowOrg class

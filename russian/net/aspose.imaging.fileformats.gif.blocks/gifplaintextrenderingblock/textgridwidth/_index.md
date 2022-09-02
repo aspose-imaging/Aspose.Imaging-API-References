@@ -1,14 +1,14 @@
 ---
 title: TextGridWidth
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает сетку текста в пикселях
+description: Получает или задает текстовую сетку в пикселях
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textgridwidth/
 ---
 ## GifPlainTextRenderingBlock.TextGridWidth property
 
-Получает или задает сетку текста в пикселях
+Получает или задает текстовую сетку в пикселях
 
 ```csharp
 public ushort TextGridWidth { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: StringData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает строковые данные Массив 16-битных символов Юникода определяющий отображаемую строку
+description: Получает или задает строку data Массив 16-битных символов Unicode определяющий отображаемую строку
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/stringdata/
 ---
 ## EmfPlusDrawString.StringData property
 
-Получает или задает строковые данные Массив 16-битных символов Юникода, определяющий отображаемую строку
+Получает или задает строку data Массив 16-битных символов Unicode, определяющий отображаемую строку
 
 ```csharp
 public string StringData { get; set; }

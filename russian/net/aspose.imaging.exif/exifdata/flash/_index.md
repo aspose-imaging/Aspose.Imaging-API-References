@@ -1,14 +1,14 @@
 ---
 title: Flash
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает флэш-память.
+description: Получает или устанавливает flash.
 type: docs
 weight: 250
 url: /ru/net/aspose.imaging.exif/exifdata/flash/
 ---
 ## ExifData.Flash property
 
-Получает или устанавливает флэш-память.
+Получает или устанавливает flash.
 
 ```csharp
 public ExifFlash Flash { get; set; }

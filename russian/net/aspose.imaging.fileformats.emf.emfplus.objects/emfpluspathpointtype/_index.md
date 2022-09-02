@@ -24,7 +24,7 @@ public sealed class EmfPlusPathPointType : EmfPlusBasePointType
 
 | Имя | Описание |
 | --- | --- |
-| [Data](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtype/data) { get; set; } | Получает или задает данные. |
+| [Data](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtype/data) { get; set; } | Получает или устанавливает данные. |
 | [Flags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtype/flags) { get; set; } | Получает или задает 4-битное поле флага, определяющее свойства точки пути. Это значение ДОЛЖНО быть одним или несколькими флагами PathPointType (раздел 2.1.2.6). |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtype/type) { get; set; } | Получает или задает тип точки пути для 4-битного целого числа без знака. Это значение ДОЛЖНО быть определенным в перечислении PathPointType (раздел 2.1.1.23). |
 

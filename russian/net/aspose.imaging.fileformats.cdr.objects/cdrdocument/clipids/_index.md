@@ -1,14 +1,14 @@
 ---
 title: ClipIds
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает идентификаторы клипов.
+description: Получает или задает идентификаторы клипа.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrdocument/clipids/
 ---
 ## CdrDocument.ClipIds property
 
-Получает или задает идентификаторы клипов.
+Получает или задает идентификаторы клипа.
 
 ```csharp
 public List<short> ClipIds { get; set; }
@@ -16,7 +16,7 @@ public List<short> ClipIds { get; set; }
 
 ### Стоимость имущества
 
-Идентификаторы клипов.
+Идентификатор клипа.
 
 ### Смотрите также
 

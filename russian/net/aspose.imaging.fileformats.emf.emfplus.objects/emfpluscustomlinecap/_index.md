@@ -24,8 +24,8 @@ public sealed class EmfPlusCustomLineCap : EmfPlusGraphicsObjectType
 
 | Имя | Описание |
 | --- | --- |
-| [CustomLineCapData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap/customlinecapdata) { get; set; } | Получает или задает данные переменной длины, которые определяют пользовательский объект данных конца строки, указанный в поле Тип. Содержимое и формат данных могут быть разными для каждого пользовательского типа окончания строки. |
-| [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap/type) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее тип пользовательского объекта окончания строки, который определяет содержимое поля CustomLineCapData. |
+| [CustomLineCapData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap/customlinecapdata) { get; set; } | Получает или задает данные переменной длины, которые определяют настраиваемый объект данных конца строки, указанный в поле Тип. Содержимое и формат данных могут различаться для каждого пользовательского типа ограничения строки. |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap/type) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее тип пользовательского объекта окончания строки, определяющий содержимое поля CustomLineCapData. |
 | [Version](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsobjecttype/version) { get; set; } | Получает или задает версию. |
 
 ### Смотрите также

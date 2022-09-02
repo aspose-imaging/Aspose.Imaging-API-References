@@ -1,14 +1,14 @@
 ---
 title: Version
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置定义 version数字它必须是 0x00000400
+description: 获取或设置定义 a 的 32 位无符号整数version数字它必须是0x00000400.
 type: docs
 weight: 110
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/version/
 ---
 ## WmfLogColorSpace.Version property
 
-获取或设置定义 version数字；它必须是 0x00000400。
+获取或设置定义 a 的 32 位无符号整数version数字;它必须是0x00000400.
 
 ```csharp
 public int Version { get; set; }

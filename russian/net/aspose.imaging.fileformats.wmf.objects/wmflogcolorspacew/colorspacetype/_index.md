@@ -1,14 +1,14 @@
 ---
 title: ColorSpaceType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число со знаком указывающее тип цветового пространства . Он ДОЛЖЕН быть определен в перечислении LogicalColorSpace раздел 2.1.1.14. Если это значение равно LCS_sRGB или LCS_WINDOWS_COLOR_SPACE ДОЛЖНО использоваться цветовое пространство sRGB.
+description: Получает или задает 32-разрядное целое число со знаком указывающее тип цветового пространства . Он ДОЛЖЕН быть определен в LogicalColorSpace enumeration раздел 2.1.1.14. Если это значение равно LCS_sRGB или LCS_WINDOWS_COLOR_SPACE ДОЛЖНО использоваться цветовое пространство sRGB.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmflogcolorspacew/colorspacetype/
 ---
 ## WmfLogColorSpaceW.ColorSpaceType property
 
-Получает или задает 32-разрядное целое число со знаком, указывающее тип цветового пространства . Он ДОЛЖЕН быть определен в перечислении LogicalColorSpace (раздел 2.1.1.14). Если это значение равно LCS_sRGB или LCS_WINDOWS_COLOR_SPACE, ДОЛЖНО использоваться цветовое пространство sRGB.
+Получает или задает 32-разрядное целое число со знаком, указывающее тип цветового пространства . Он ДОЛЖЕН быть определен в LogicalColorSpace enumeration (раздел 2.1.1.14). Если это значение равно LCS_sRGB или LCS_WINDOWS_COLOR_SPACE, ДОЛЖНО использоваться цветовое пространство sRGB.
 
 ```csharp
 public WmfLogicalColorSpaceEnum ColorSpaceType { get; set; }

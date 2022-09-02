@@ -1,14 +1,14 @@
 ---
 title: NonDropTimecode2997
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает временной код 2997 без удаления.
+description: Получает тайм-код 2997 без сброса.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.xmp.schemas.xmpdm/timeformat/nondroptimecode2997/
 ---
 ## TimeFormat.NonDropTimecode2997 property
 
-Получает временной код 2997 без удаления.
+Получает тайм-код 2997 без сброса.
 
 ```csharp
 public static TimeFormat NonDropTimecode2997 { get; }
@@ -16,7 +16,7 @@ public static TimeFormat NonDropTimecode2997 { get; }
 
 ### Стоимость имущества
 
-Неудаляемый таймкод2997.
+Таймкод без потери 2997.
 
 ### Смотрите также
 

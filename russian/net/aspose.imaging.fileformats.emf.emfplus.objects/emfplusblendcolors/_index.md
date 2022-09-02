@@ -24,8 +24,8 @@ public sealed class EmfPlusBlendColors : EmfPlusBlendBase
 
 | Имя | Описание |
 | --- | --- |
-| [BlendArgb32Colors](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendcolors/blendargb32colors) { get; set; } | Получает или задает массив объектов PositionCount EmfPlusARGB (раздел 2.2.2.1), которые определяют цвета в позициях, определенных в поле BlendPositions. |
-| [BlendPositions](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendbase/blendpositions) { get; set; } | Получает или задает позиции перехода Массив 32-разрядных значений с плавающей запятой PositionCount , определяющих пропорции расстояния по линии градиента. Каждый элемент ДОЛЖЕН быть числом от 0,0 до 1,0 включительно. Для кисти с линейным градиентом 0,0 представляет начальную точку и 1,0 представляет собой конечную точку. Для кисти градиента пути 0.0 представляет собой среднюю точку, а 1.0 представляет собой конечную точку |
+| [BlendArgb32Colors](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendcolors/blendargb32colors) { get; set; } | Получает или задает массив объектов PositionCount EmfPlusARGB (раздел 2.2.2.1), которые задают цвета в позициях, определенных в поле BlendPositions. |
+| [BlendPositions](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendbase/blendpositions) { get; set; } | Получает или устанавливает позиции смешивания Массив 32-битных значений с плавающей запятой PositionCount , которые определяют пропорции расстояния вдоль линии градиента. Каждый элемент ДОЛЖЕН быть числом от 0,0 до 1,0 включительно. Для кисти с линейным градиентом 0,0 представляет начальную точку, , а 1,0 — конечную точку. Для кисти градиента пути 0.0 представляет собой среднюю точку, а 1.0 представляет собой конечную точку |
 
 ### Смотрите также
 

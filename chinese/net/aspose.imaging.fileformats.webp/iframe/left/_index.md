@@ -1,14 +1,14 @@
 ---
 title: Left
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置左边的帧位置
+description: 获取或设置左边框位置
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.webp/iframe/left/
 ---
 ## IFrame.Left property
 
-获取或设置左边的帧位置。
+获取或设置左边框位置。
 
 ```csharp
 public short Left { get; set; }

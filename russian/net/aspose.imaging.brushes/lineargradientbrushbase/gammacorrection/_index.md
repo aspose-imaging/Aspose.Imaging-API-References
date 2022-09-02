@@ -1,14 +1,14 @@
 ---
 title: GammaCorrection
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее включена ли гамма-коррекция для этогоLinearGradientBrushBaseaspose.imaging.brushes/lineargradientbrushbase.
+description: Получает или задает значение указывающее включена ли гамма-коррекция для этогоLinearGradientBrushBaseaspose.imaging.brushes/lineargradientbrushbase .
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.brushes/lineargradientbrushbase/gammacorrection/
 ---
 ## LinearGradientBrushBase.GammaCorrection property
 
-Получает или задает значение, указывающее, включена ли гамма-коррекция для этого[`LinearGradientBrushBase`](../../lineargradientbrushbase).
+Получает или задает значение, указывающее, включена ли гамма-коррекция для этого[`LinearGradientBrushBase`](../../lineargradientbrushbase) .
 
 ```csharp
 public bool GammaCorrection { get; set; }
@@ -16,7 +16,7 @@ public bool GammaCorrection { get; set; }
 
 ### Стоимость имущества
 
-Значение истинно, если для этого:::R5:T:Aspose.Imaging.Brushes.LinearGradientBrushBase::включена гамма-коррекция:; в противном случае ложно.
+Значение истинно, если для этого включена гамма-коррекция.[`LinearGradientBrushBase`](../../lineargradientbrushbase); в противном случае ложно.
 
 ### Смотрите также
 

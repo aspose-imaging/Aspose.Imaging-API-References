@@ -1,14 +1,14 @@
 ---
 title: GPSTrack
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает направление движения GPS-приемника.
+description: Получает или задает направление движения приемника GPS.
 type: docs
 weight: 650
 url: /ru/net/aspose.imaging.exif/exifdata/gpstrack/
 ---
 ## ExifData.GPSTrack property
 
-Получает или задает направление движения GPS-приемника.
+Получает или задает направление движения приемника GPS.
 
 ```csharp
 public string GPSTrack { get; set; }
@@ -16,7 +16,7 @@ public string GPSTrack { get; set; }
 
 ### Стоимость имущества
 
-Направление движения GPS-приемника.
+Направление движения приемника GPS.
 
 ### Смотрите также
 

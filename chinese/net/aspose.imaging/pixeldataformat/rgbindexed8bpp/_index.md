@@ -1,14 +1,14 @@
 ---
 title: RgbIndexed8Bpp
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取PixelDataFormataspose.imaging/pixeldataformat为每种颜色的索引 8 位定义 索引像素数据存储旨在允许在使用调色板的任何地方进行数据存储和检索 谨慎使用因为可能需要从一个调色板到另一个调色板或从 RGBA 到索引颜色模型的转换
+description: 获取PixelDataFormataspose.imaging/pixeldataformat为每种颜色的索引 8 位定义 索引像素数据存储旨在允许在使用调色板的任何地方进行数据存储和检索 谨慎使用因为可能需要从一个调色板转换为另一种调色板或从 RGBA 转换为索引颜色模型.
 type: docs
 weight: 140
 url: /zh/net/aspose.imaging/pixeldataformat/rgbindexed8bpp/
 ---
 ## PixelDataFormat.RgbIndexed8Bpp property
 
-获取[`PixelDataFormat`](../../pixeldataformat)为每种颜色的索引 8 位定义。 索引像素数据存储旨在允许在使用调色板的任何地方进行数据存储和检索。 谨慎使用，因为可能需要从一个调色板到另一个调色板或从 RGBA 到索引颜色模型的转换。
+获取[`PixelDataFormat`](../../pixeldataformat)为每种颜色的索引 8 位定义。 索引像素数据存储旨在允许在使用调色板的任何地方进行数据存储和检索。 谨慎使用，因为可能需要从一个调色板转换为另一种调色板或从 RGBA 转换为索引颜色模型.
 
 ```csharp
 public static PixelDataFormat RgbIndexed8Bpp { get; }
@@ -16,7 +16,7 @@ public static PixelDataFormat RgbIndexed8Bpp { get; }
 
 ### 适当的价值
 
-[`PixelDataFormat`](../../pixeldataformat)为索引 8 定义每个颜色位。
+的[`PixelDataFormat`](../../pixeldataformat)为每种颜色的索引 8 位定义。
 
 ### 也可以看看
 

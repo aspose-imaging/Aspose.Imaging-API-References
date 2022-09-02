@@ -1,14 +1,14 @@
 ---
 title: Cancel
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Отменяет эту задачу. Задача безопасно завершается управляемой остановкой алгоритма.
+description: Отменяет эту задачу. Задача безопасно завершается контролируемой остановкой алгоритма.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging.asynctask/iasynctask/cancel/
 ---
 ## IAsyncTask.Cancel method
 
-Отменяет эту задачу. Задача безопасно завершается управляемой остановкой алгоритма.
+Отменяет эту задачу. Задача безопасно завершается контролируемой остановкой алгоритма.
 
 ```csharp
 public void Cancel()

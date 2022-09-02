@@ -1,14 +1,14 @@
 ---
 title: XmpHeaderPi
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаXmpHeaderPiaspose.imaging.xmp/xmpheaderpi.
+description: Инициализирует новый экземплярXmpHeaderPiaspose.imaging.xmp/xmpheaderpi класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp/xmpheaderpi/xmpheaderpi/
 ---
 ## XmpHeaderPi() {#constructor}
 
-Инициализирует новый экземпляр класса[`XmpHeaderPi`](../../xmpheaderpi).
+Инициализирует новый экземпляр[`XmpHeaderPi`](../../xmpheaderpi) класс.
 
 ```csharp
 public XmpHeaderPi()
@@ -24,7 +24,7 @@ public XmpHeaderPi()
 
 ## XmpHeaderPi(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`XmpHeaderPi`](../../xmpheaderpi).
+Инициализирует новый экземпляр[`XmpHeaderPi`](../../xmpheaderpi) класс.
 
 ```csharp
 public XmpHeaderPi(string guid)

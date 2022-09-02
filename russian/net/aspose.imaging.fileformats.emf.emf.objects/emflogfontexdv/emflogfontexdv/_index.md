@@ -1,14 +1,14 @@
 ---
 title: EmfLogFontExDv
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfLogFontExDvaspose.imaging.fileformats.emf.emf.objects/emflogfontexdv.
+description: Инициализирует новый экземплярEmfLogFontExDvaspose.imaging.fileformats.emf.emf.objects/emflogfontexdv класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emflogfontexdv/emflogfontexdv/
 ---
 ## EmfLogFontExDv constructor
 
-Инициализирует новый экземпляр класса[`EmfLogFontExDv`](../../emflogfontexdv).
+Инициализирует новый экземпляр[`EmfLogFontExDv`](../../emflogfontexdv) класс.
 
 ```csharp
 public EmfLogFontExDv(EmfLogFontEx emfLogFontEx)

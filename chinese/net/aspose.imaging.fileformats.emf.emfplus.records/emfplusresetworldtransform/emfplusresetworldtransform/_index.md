@@ -1,14 +1,14 @@
 ---
 title: EmfPlusResetWorldTransform
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPlusResetWorldTransformaspose.imaging.fileformats.emf.emfplus.records/emfplusresetworldtransform类的新实例
+description: 初始化EmfPlusResetWorldTransformaspose.imaging.fileformats.emf.emfplus.records/emfplusresetworldtransform类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusresetworldtransform/emfplusresetworldtransform/
 ---
 ## EmfPlusResetWorldTransform constructor
 
-初始化[`EmfPlusResetWorldTransform`](../../emfplusresetworldtransform)类的新实例。
+初始化[`EmfPlusResetWorldTransform`](../../emfplusresetworldtransform)类.
 
 ```csharp
 public EmfPlusResetWorldTransform(EmfPlusRecord source)
@@ -16,7 +16,7 @@ public EmfPlusResetWorldTransform(EmfPlusRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfPlusRecord | 源。 |
+| source | EmfPlusRecord | 来源。 |
 
 ### 也可以看看
 

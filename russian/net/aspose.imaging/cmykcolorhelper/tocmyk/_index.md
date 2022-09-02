@@ -16,7 +16,7 @@ public static int[] ToCmyk(int[] argbPixels)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| argbPixels | Int32[] | Цвета ARGB представлены в виде 32-битных целых значений. |
+| argbPixels | Int32[] | Цвета ARGB представлены в виде 32-битных целых чисел. |
 
 ### Возвращаемое значение
 
@@ -44,7 +44,7 @@ public static int ToCmyk(int argbPixel)
 
 ### Возвращаемое значение
 
-Цвет CMYK, представленный как 32-битное целочисленное значение.
+Цвет CMYK, представленный в виде 32-битного целого числа.
 
 ### Смотрите также
 
@@ -68,7 +68,7 @@ public static int ToCmyk(Color pixel)
 
 ### Возвращаемое значение
 
-Цвет CMYK, представленный как 32-битное целочисленное значение.
+Цвет CMYK, представленный в виде 32-битного целого числа.
 
 ### Примеры
 
@@ -77,30 +77,28 @@ public static int ToCmyk(Color pixel)
 ```csharp
 [C#]
 
-Aspose.Imaging.Color[] rgbColors = new Aspose.Imaging.Color[]
-{
-    Aspose.Imaging.Color.Red,
-    Aspose.Imaging.Color.Green,
-    Aspose.Imaging.Color.Blue,
-};
+string dir = @"c:\temp\";
 
-System.Console.WriteLine("Convert RGB to CMYK without using ICC profiles.");
-foreach (Aspose.Imaging.Color rgbColor in rgbColors)
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
 {
-    int cmyk = Aspose.Imaging.CmykColorHelper.ToCmyk(rgbColor);
-    int c = Aspose.Imaging.CmykColorHelper.GetC(cmyk);
-    int m = Aspose.Imaging.CmykColorHelper.GetM(cmyk);
-    int y = Aspose.Imaging.CmykColorHelper.GetY(cmyk);
-    int k = Aspose.Imaging.CmykColorHelper.GetK(cmyk);
+    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k);
+    // Получить целочисленное представление черного цвета в цветовом пространстве CMYK.
+    int blackCmyk = Aspose.Imaging.CmykColorHelper.ToCmyk(Color.Black);
+
+    // Черный квадрат.
+    int[] pixels = new int[(rasterImage.Width / 2) * (rasterImage.Height / 2)];
+    for (int i = 0; i < pixels.Length; i++)
+    {
+        pixels[i] = blackCmyk;
+    }
+
+    // Рисуем черный квадрат в центре изображения.
+    Aspose.Imaging.Rectangle area = new Aspose.Imaging.Rectangle(rasterImage.Width / 4, rasterImage.Height / 4, rasterImage.Width / 2, rasterImage.Height / 2);
+    rasterImage.SaveCmyk32Pixels(area, pixels);
+
+    rasterImage.Save(dir + "sample.SaveCmyk32Pixels.png");
 }
-
- // Вывод выглядит так: 
- //Преобразование RGB в CMYK без использования профилей ICC.
- //RGB(255,0,0) => CMYK(0,255,255,0)
- //RGB(0,128,0) => CMYK(255,0,255,127)
-//RGB(0,0,255) => CMYK(255,255,0,0)
 ```
 
 В следующем примере показано, как преобразовать цвета RGB в их аналоги CMYK без применения профилей ICC.
@@ -127,10 +125,10 @@ foreach (Aspose.Imaging.Color rgbColor in rgbColors)
     System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k);
 }
 
- // Вывод выглядит так: 
- //Преобразование RGB в CMYK без использования профилей ICC.
- //RGB(255,0,0) => CMYK(0,255,255,0)
- //RGB(0,128,0) => CMYK(255,0,255,127)
+//Вывод выглядит так:
+//Преобразование RGB в CMYK без использования профилей ICC.
+//RGB(255,0,0) => CMYK(0,255,255,0)
+//RGB(0,128,0) => CMYK(255,0,255,127)
 //RGB(0,0,255) => CMYK(255,255,0,0)
 ```
 
@@ -153,7 +151,7 @@ public static int[] ToCmyk(Color[] pixels)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| пиксели | Color[] | Цвета ARGB. |
+| pixels | Color[] | Цвета ARGB. |
 
 ### Возвращаемое значение
 

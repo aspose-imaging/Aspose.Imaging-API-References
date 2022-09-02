@@ -1,14 +1,14 @@
 ---
 title: OdMoveTo
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Расширенный ходTo
+description: Улучшенный ходTo
 type: docs
 weight: 7170
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odmoveto/
 ---
 ## OdMoveTo class
 
-Расширенный ходTo
+Улучшенный ходTo
 
 ```csharp
 public class OdMoveTo : OdGraphicObject
@@ -18,13 +18,13 @@ public class OdMoveTo : OdGraphicObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdMoveTo](odmoveto)(OdObject) | Инициализирует новый экземпляр класса[`OdMoveTo`](../odmoveto). |
+| [OdMoveTo](odmoveto)(OdObject) | Инициализирует новый экземпляр[`OdMoveTo`](../odmoveto) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
 | [Coordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odmoveto/coordinates) { get; set; } | Получает или задает координаты. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Получает родительский объект. |

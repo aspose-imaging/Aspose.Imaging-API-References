@@ -24,8 +24,8 @@ public sealed class EmfPlusCustomLineCapOptionalData : EmfPlusStructureObjectTyp
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FillData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapoptionaldata/filldata) { get; set; } | 获取或设置可选的 EmfPlusFillPath 对象（第 2.2.2.17 节），该对象指定填充自定义 图形线帽的路径。如果在 EmfPlusCustomLineCapData 对象的 CustomLineCapDataFlags 字段中设置了 CustomLineCapDataFillPath 标志，则必须存在此字段。 |
-| [OutlineData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapoptionaldata/outlinedata) { get; set; } | 获取或设置可选的 EmfPlusLinePath 对象（第 2.2.2.26 节） 指定自定义图形线帽轮廓的路径。如果在 EmfPlusCustomLineCapData 对象的 CustomLineCapDataFlags 字段中设置了 CustomLineCapDataLinePath 标志，则该字段必须存在。 |
+| [FillData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapoptionaldata/filldata) { get; set; } | 获取或设置可选的 EmfPlusFillPath 对象（第 2.2.2.17 节），该对象指定填充 custom 图形线帽的路径。如果在 EmfPlusCustomLineCapData 对象的 CustomLineCapDataFlags 字段中设置了 CustomLineCapDataFillPath 标志，则该字段必须存在。 |
+| [OutlineData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapoptionaldata/outlinedata) { get; set; } | 获取或设置可选的 EmfPlusLinePath 对象（第 2.2.2.26 节） 指定用于勾画自定义图形线帽的路径。如果在 EmfPlusCustomLineCapData 对象的 CustomLineCapDataFlags 字段中设置了 CustomLineCapDataLinePath 标志，则该字段必须存在。 |
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public override bool HasAlpha { get; }
 
 ### 适当的价值
 
-` true` 如果此实例具有 alpha；否则，` false` 。
+`真的`如果这个实例有 alpha；否则，`错误的` .
 
 ### 例子
 
@@ -32,7 +32,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(fileName))
 {
     Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)image;
 
-        // 如果活动 TIFF 帧有 alpha 通道，则认为整个 TIFF 图像有 alpha 通道。
+    // 如果活动 TIFF 帧有 alpha 通道，则认为整个 TIFF 图像有 alpha 通道。
     System.Console.WriteLine("ImageFile={0}, FileFormat={1}, HasAlpha={2}", fileName, tiffImage.RawDataFormat, tiffImage.HasAlpha);
 
     int i = 0;
@@ -43,8 +43,8 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(fileName))
 }
 
 // 输出可能如下所示：
-    // ImageFile=c:\temp\sample.tif, FileFormat=RgbIndexed1Bpp, 使用的通道：1, HasAlpha=False
-    // Frame=1，FileFormat=RgbIndexed1Bpp，使用的通道：1，HasAlpha=False
+// ImageFile=c:\temp\sample.tif, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
+// Frame=1, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
 // Frame=2, FileFormat=RgbIndexed1Bpp, used channels: 1, HasAlpha=False
 ```
 

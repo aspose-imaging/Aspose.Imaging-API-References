@@ -1,14 +1,14 @@
 ---
 title: SetMeteredKey
 second_title: Aspose.Imaging for .NET API 参考
-description: 设置计量公钥和私钥
+description: 设置计量的公钥和私钥
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging/metered/setmeteredkey/
 ---
 ## Metered.SetMeteredKey method
 
-设置计量公钥和私钥
+设置计量的公钥和私钥
 
 ```csharp
 public void SetMeteredKey(string publicKey, string privateKey)

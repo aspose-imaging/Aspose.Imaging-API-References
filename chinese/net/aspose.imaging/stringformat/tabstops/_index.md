@@ -1,14 +1,14 @@
 ---
 title: TabStops
 second_title: Aspose.Imaging for .NET API 参考
-description: 以PageUnitaspose.imaging/graphics/pageunit属性指定的单位获取制表位之间的距离数组
+description: 以指定的单位获取制表位之间的距离数组PageUnitaspose.imaging/graphics/pageunit属性.
 type: docs
 weight: 120
 url: /zh/net/aspose.imaging/stringformat/tabstops/
 ---
 ## StringFormat.TabStops property
 
-以[`PageUnit`](../../graphics/pageunit)属性指定的单位获取制表位之间的距离数组。
+以指定的单位获取制表位之间的距离数组[`PageUnit`](../../graphics/pageunit)属性.
 
 ```csharp
 public float[] TabStops { get; }
@@ -20,7 +20,7 @@ public float[] TabStops { get; }
 
 ### 评论
 
-为已移除的方法 GetTabStops 引入该属性。
+该属性是为已删除的方法 GetTabStops 引入的。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает хеш-код для этойRectangleFaspose.imaging/rectanglefструктуры.
+description: Получает хэш-код для этогоRectangleFaspose.imaging/rectanglef структура.
 type: docs
 weight: 210
 url: /ru/net/aspose.imaging/rectanglef/gethashcode/
 ---
 ## RectangleF.GetHashCode method
 
-Получает хеш-код для этой[`RectangleF`](../../rectanglef)структуры.
+Получает хэш-код для этого[`RectangleF`](../../rectanglef) структура.
 
 ```csharp
 public override int GetHashCode()

@@ -1,14 +1,14 @@
 ---
 title: XmpChoiseT
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示值词汇表中的值
+description: 表示值词汇表中的一个值
 type: docs
-weight: 11670
+weight: 11660
 url: /zh/net/aspose.imaging.xmp.types.derived/xmpchoise-1/
 ---
 ## XmpChoise&lt;T&gt; class
 
-表示值词汇表中的值。
+表示值词汇表中的一个值。
 
 ```csharp
 public class XmpChoise<T> : XmpTypeBase

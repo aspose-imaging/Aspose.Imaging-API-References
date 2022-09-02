@@ -1,14 +1,14 @@
 ---
 title: DjvuImage
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化DjvuImageaspose.imaging.fileformats.djvu/djvuimage类的新实例
+description: 初始化DjvuImageaspose.imaging.fileformats.djvu/djvuimage类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.djvu/djvuimage/djvuimage/
 ---
 ## DjvuImage(Stream) {#constructor}
 
-初始化[`DjvuImage`](../../djvuimage)类的新实例。
+初始化[`DjvuImage`](../../djvuimage)类.
 
 ```csharp
 public DjvuImage(Stream stream)
@@ -26,22 +26,22 @@ public DjvuImage(Stream stream)
 
 ### 例子
 
-此示例显示如何从文件流加载 DJVU 图像。
+此示例说明如何从文件流加载 DJVU 图像。
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-    // 从文件流加载 DJVU 图像。
+// 从文件流加载 DJVU 图像。
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
 {
     using (Aspose.Imaging.FileFormats.Djvu.DjvuImage djvuImage = new Aspose.Imaging.FileFormats.Djvu.DjvuImage(stream))
     {
-            // 将每个页面保存为单独的 PNG 图像。
+        // 将每个页面保存为单独的 PNG 图像。
         foreach (Aspose.Imaging.FileFormats.Djvu.DjvuPage djvuPage in djvuImage.Pages)
         {
-                // 根据页码生成文件名.
+            // 根据页码生成文件名。
             string fileName = string.Format("sample.{0}.png", djvuPage.PageNumber);
             djvuPage.Save(dir + fileName, new Aspose.Imaging.ImageOptions.PngOptions());
         }
@@ -59,7 +59,7 @@ using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
 
 ## DjvuImage(Stream, LoadOptions) {#constructor_1}
 
-初始化[`DjvuImage`](../../djvuimage)类的新实例。
+初始化[`DjvuImage`](../../djvuimage)类.
 
 ```csharp
 public DjvuImage(Stream stream, LoadOptions loadOptions)
@@ -68,7 +68,7 @@ public DjvuImage(Stream stream, LoadOptions loadOptions)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | Stream | 要从中加载的流。 |
-| loadOptions | LoadOptions | 加载选项。 |
+| loadOptions | LoadOptions | 负载选项。 |
 
 ### 例外
 
@@ -78,26 +78,26 @@ public DjvuImage(Stream stream, LoadOptions loadOptions)
 
 ### 例子
 
-此示例显示如何从文件流加载 DJVU 图像以保持在指定的内存限制内。
+此示例说明如何从文件流加载 DJVU 图像以保持在指定的内存限制内。
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-    // 从文件流加载 DJVU 图像。
+// 从文件流加载 DJVU 图像。
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
 {
-        // 所有内部缓冲区的最大允许大小为 1MB.
+    // 所有内部缓冲区的最大允许大小为 1MB。
     Aspose.Imaging.LoadOptions loadOptions = new Aspose.Imaging.LoadOptions();
     loadOptions.BufferSizeHint = 1 * 1024 * 1024;
 
     using (Aspose.Imaging.FileFormats.Djvu.DjvuImage djvuImage = new Aspose.Imaging.FileFormats.Djvu.DjvuImage(stream, loadOptions))
     {
-            // 将每个页面保存为单独的 PNG 图像。
+        // 将每个页面保存为单独的 PNG 图像。
         foreach (Aspose.Imaging.FileFormats.Djvu.DjvuPage djvuPage in djvuImage.Pages)
         {
-                // 根据页码生成文件名.
+            // 根据页码生成文件名。
             string fileName = string.Format("sample.{0}.png", djvuPage.PageNumber);
             djvuPage.Save(dir + fileName, new Aspose.Imaging.ImageOptions.PngOptions());
         }

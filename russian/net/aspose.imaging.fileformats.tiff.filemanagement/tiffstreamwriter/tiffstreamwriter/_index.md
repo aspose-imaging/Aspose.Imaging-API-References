@@ -1,14 +1,14 @@
 ---
 title: TiffStreamWriter
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTiffStreamWriteraspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter.
+description: Инициализирует новый экземплярTiffStreamWriteraspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/tiffstreamwriter/
 ---
 ## TiffStreamWriter constructor
 
-Инициализирует новый экземпляр класса[`TiffStreamWriter`](../../tiffstreamwriter).
+Инициализирует новый экземпляр[`TiffStreamWriter`](../../tiffstreamwriter) класс.
 
 ```csharp
 public TiffStreamWriter(StreamContainer writer)
@@ -16,7 +16,7 @@ public TiffStreamWriter(StreamContainer writer)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| writer | StreamContainer | Потоковой писатель. |
+| writer | StreamContainer | Автор стрима. |
 
 ### Смотрите также
 

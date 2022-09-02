@@ -18,19 +18,19 @@ public class CmxDocument
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CmxDocument](cmxdocument)() | 初始化[`CmxDocument`](../cmxdocument)类的新实例。 |
+| [CmxDocument](cmxdocument)() | 初始化[`CmxDocument`](../cmxdocument)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [Pages](../../aspose.imaging.fileformats.cmx.objectmodel/cmxdocument/pages) { get; } | 获取当前文档的页面。 |
+| virtual [Pages](../../aspose.imaging.fileformats.cmx.objectmodel/cmxdocument/pages) { get; } | 获取当前文档的页数。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel/cmxdocument/tostring)() | 返回代表此实例的String。 |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel/cmxdocument/tostring)() | 返回一个String代表这个实例。 |
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public int DigitSubstitutionLanguage { get; set; }
 
 ### 适当的价值
 
-国家语言支持 (NLS) 语言标识符，用于标识在用本地数字替换西方数字时将使用的语言。 您可以将CultureInfo对象的LCID属性作为 NLS 传递语言标识符。 例如，假设您通过将字符串“ar-EG”传递给System来创建R5:T:System.Globalization.CultureInfo:::对象。 Globalization.CultureInfo:::构造函数。 如果您将LCID属性与CultureInfo对象一起传递。 Traditional到StringDigitSubstitute)方法， 然后阿拉伯印度数字将在显示时替换西方数字。
+国家语言支持 (NLS) 语言标识符，用于标识将本地数字替换为西方数字时将使用的语言。 您可以通过LCIDa的财产CultureInfo对象作为 NLS 语言标识符。 例如，假设您创建一个CultureInfo对象通过将字符串“ar-EG”传递给CultureInfoconstructor. 如果你通过LCID那的财产CultureInfo对象连同. Traditional到StringDigitSubstitute)方法， 然后阿拉伯印度数字将在显示时替换西方数字。
 
 ### 评论
 

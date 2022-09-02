@@ -39,7 +39,7 @@ public void TranslateTransform(float x, float y, MatrixOrder order)
 | --- | --- | --- |
 | x | Single | 平移的 x 坐标。 |
 | y | Single | 平移的 y 坐标。 |
-| order | MatrixOrder | 指定转换是附加到转换矩阵之前还是附加到转换矩阵。 |
+| order | MatrixOrder | 指定转换是预先添加还是附加到转换矩阵。 |
 
 ### 也可以看看
 

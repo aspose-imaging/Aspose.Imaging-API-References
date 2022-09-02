@@ -1,14 +1,14 @@
 ---
 title: RegionMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее способ использования региона. Значение ДОЛЖНО находиться в перечислении RegionMode раздел 2.1.29.
+description: Получает или задает 32-разрядное целое число без знака указывающее способ использования региона. Значение ДОЛЖНО быть в перечислении RegionMode раздел 2.1.29.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/regionmode/
 ---
 ## EmfExtSelectClipRgn.RegionMode property
 
-Получает или задает 32-разрядное целое число без знака, указывающее способ использования региона. Значение ДОЛЖНО находиться в перечислении RegionMode (раздел 2.1.29).
+Получает или задает 32-разрядное целое число без знака, указывающее способ использования региона. Значение ДОЛЖНО быть в перечислении RegionMode (раздел 2.1.29).
 
 ```csharp
 public EmfRegionMode RegionMode { get; set; }

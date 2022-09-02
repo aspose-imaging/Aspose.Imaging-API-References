@@ -1,14 +1,14 @@
 ---
 title: OdListItem
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdListItemaspose.imaging.fileformats.opendocument.objects.graphic/odlistitem.
+description: Инициализирует новый экземплярOdListItemaspose.imaging.fileformats.opendocument.objects.graphic/odlistitem класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odlistitem/odlistitem/
 ---
 ## OdListItem constructor
 
-Инициализирует новый экземпляр класса[`OdListItem`](../../odlistitem).
+Инициализирует новый экземпляр[`OdListItem`](../../odlistitem) класс.
 
 ```csharp
 public OdListItem(OdObject parent)

@@ -25,45 +25,21 @@ public override PixelDataFormat RawDataFormat { get; }
 ```csharp
 [C#]
 
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\sample.bmp"))
+// Создаем BMP-изображение 32 бита на пиксель размером 100 x 100 пикселей.
+using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100, 32, null))
 {
-    Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = (Aspose.Imaging.FileFormats.Bmp.BmpImage)image;                
+    System.Console.WriteLine("FileFormat={0}, RawDataFormat={1}, HasAlpha={2}", bmpImage.FileFormat, bmpImage.RawDataFormat, bmpImage.HasAlpha);
+};
 
-    System.Console.WriteLine("The pixel format: {0}", bmpImage.RawDataFormat);                
-    System.Console.WriteLine("The raw line size in bytes: {0}", bmpImage.RawLineSize);
-    System.Console.WriteLine("The bitmap compression: {0}", bmpImage.Compression);
-    System.Console.WriteLine("The bitmap width: {0}", bmpImage.Width);
-    System.Console.WriteLine("The bitmap height: {0}", bmpImage.Height);
-    System.Console.WriteLine("The number of bits per pixel: {0}", bmpImage.BitsPerPixel);
+// Создаем BMP-изображение 24 бита на пиксель размером 100 x 100 пикселей.
+using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100, 24, null))
+{
+    System.Console.WriteLine("FileFormat={0}, RawDataFormat={1}, HasAlpha={2}", bmpImage.FileFormat, bmpImage.RawDataFormat, bmpImage.HasAlpha);
+};
 
-    double hres = bmpImage.HorizontalResolution;
-    double vres = bmpImage.VerticalResolution;
-    System.Console.WriteLine("The horizontal resolution, in pixels per inch: {0}", hres);
-    System.Console.WriteLine("The vertical resolution, in pixels per inch: {0}", vres);
-
-    if (hres != 96.0 || vres != 96.0)
-    {
-         // Вы можете использовать метод SetResolution для обновления обоих значений разрешения в одном вызове.
-        System.Console.WriteLine("Set resolution values to 96 dpi");
-        bmpImage.SetResolution(96.0, 96.0);
-
-        System.Console.WriteLine("The horizontal resolution, in pixels per inch: {0}", bmpImage.HorizontalResolution);
-        System.Console.WriteLine("The vertical resolution, in pixels per inch: {0}", bmpImage.VerticalResolution);
-    }
-
-     // Вывод может выглядеть так: 
-     //Формат пикселей: Rgb24Bpp, используемые каналы: 8,8,8
-     //Необработанный размер строки в байтах: 1500
-     //Сжатие растрового изображения: Rgb
-     //Ширина растрового изображения: 500
-     //Высота растрового изображения: 375
-     //Количество бит на пиксель: 24
-     //Горизонтальное разрешение, в пикселях на дюйм: 0
-     // Вертикальное разрешение в пикселях на дюйм: 0
-     //Установите значения разрешения на 96 dpi
-     //Горизонтальное разрешение, в пикселях на дюйм: 96.012
-     // Вертикальное разрешение в пикселях на дюйм: 96,012
-}
+// Как правило, BMP не поддерживает альфа-канал, поэтому вывод будет выглядеть так:
+// FileFormat = Bmp, RawDataFormat = Rgb32Bpp, используемые каналы: 8,8,8,8, HasAlpha = False
+// FileFormat = Bmp, RawDataFormat = Rgb24Bpp, используемые каналы: 8,8,8, HasAlpha = False
 ```
 
 Следующий пример получает общую информацию об изображении, включая формат пикселей, размер изображения, разрешение, сжатие и т. д.
@@ -89,7 +65,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\sample.b
 
     if (hres != 96.0 || vres != 96.0)
     {
-         // Вы можете использовать метод SetResolution для обновления обоих значений разрешения в одном вызове.
+        // Вы можете использовать метод SetResolution для обновления обоих значений разрешения в одном вызове.
         System.Console.WriteLine("Set resolution values to 96 dpi");
         bmpImage.SetResolution(96.0, 96.0);
 
@@ -97,18 +73,18 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\sample.b
         System.Console.WriteLine("The vertical resolution, in pixels per inch: {0}", bmpImage.VerticalResolution);
     }
 
-     // Вывод может выглядеть так: 
-     //Формат пикселей: Rgb24Bpp, используемые каналы: 8,8,8
-     //Необработанный размер строки в байтах: 1500
-     //Сжатие растрового изображения: Rgb
-     //Ширина растрового изображения: 500
-     //Высота растрового изображения: 375
-     //Количество бит на пиксель: 24
-     //Горизонтальное разрешение, в пикселях на дюйм: 0
-     // Вертикальное разрешение в пикселях на дюйм: 0
-     //Установите значения разрешения на 96 dpi
-     //Горизонтальное разрешение, в пикселях на дюйм: 96.012
-     // Вертикальное разрешение в пикселях на дюйм: 96,012
+    //Вывод может выглядеть так:
+    // Формат пикселей: Rgb24Bpp, используемые каналы: 8,8,8
+    //Необработанный размер строки в байтах: 1500
+    //Сжатие растрового изображения: Rgb
+    //Ширина растрового изображения: 500
+    //Высота растрового изображения: 375
+    //Количество бит на пиксель: 24
+    //Горизонтальное разрешение, в пикселях на дюйм: 0
+    // Вертикальное разрешение, в пикселях на дюйм: 0
+    //Установите значения разрешения на 96 dpi
+    //Горизонтальное разрешение, в пикселях на дюйм: 96,012
+    // Вертикальное разрешение, в пикселях на дюйм: 96,012
 }
 ```
 

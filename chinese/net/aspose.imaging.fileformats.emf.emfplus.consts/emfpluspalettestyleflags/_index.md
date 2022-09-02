@@ -25,7 +25,7 @@ public enum EmfPlusPaletteStyleFlags
 
 ### 评论
 
-图形调色板由EmfPlusPalette对象。
+图形调色板由[`EmfPlusPalette`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspalette)对象.
 
 ### 也可以看看
 

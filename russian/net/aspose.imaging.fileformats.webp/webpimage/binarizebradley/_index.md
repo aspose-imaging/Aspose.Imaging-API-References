@@ -1,14 +1,14 @@
 ---
 title: BinarizeBradley
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Бинаризация изображения с использованием алгоритма адаптивной пороговой обработки Брэдли с использованием интегральной пороговой обработки изображения
+description: Бинаризация изображения с использованием алгоритма адаптивной пороговой обработки Брэдли с использованием интегрального порогового значения изображения
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging.fileformats.webp/webpimage/binarizebradley/
 ---
 ## WebPImage.BinarizeBradley method
 
-Бинаризация изображения с использованием алгоритма адаптивной пороговой обработки Брэдли с использованием интегральной пороговой обработки изображения
+Бинаризация изображения с использованием алгоритма адаптивной пороговой обработки Брэдли с использованием интегрального порогового значения изображения
 
 ```csharp
 public override void BinarizeBradley(double brightnessDifference, int windowSize)
@@ -16,8 +16,8 @@ public override void BinarizeBradley(double brightnessDifference, int windowSize
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| brightnessDifference | Double | Разница яркости между пикселем и средним значением пикселей в окне sxs вокруг этого пикселя. |
-| windowSize | Int32 | Размер окна sxs в пикселях с центром вокруг этого пикселя |
+| brightnessDifference | Double | Разница яркости между пикселем и средним значением окна sxs пикселей с центром вокруг этого пикселя. |
+| windowSize | Int32 | Размер окна sxs пикселей с центром вокруг этого пикселя |
 
 ### Смотрите также
 

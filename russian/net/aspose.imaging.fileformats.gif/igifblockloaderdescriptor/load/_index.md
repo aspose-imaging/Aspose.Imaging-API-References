@@ -17,11 +17,11 @@ public IGifBlock Load(StreamContainer streamContainer, IColorPalette containerPa
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | streamContainer | StreamContainer | Контейнер потока. |
-| containerPalette | IColorPalette | Палитра контейнера. |
+| containerPalette | IColorPalette | Палитра контейнеров. |
 
 ### Возвращаемое значение
 
-Новый блок gif.
+Новый блок GIF.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: BinarizeBradley
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Бинаризация изображения с использованием алгоритма адаптивной пороговой обработки Брэдли с использованием интегральной пороговой обработки изображения
+description: Бинаризация изображения с использованием алгоритма адаптивной пороговой обработки Брэдли с использованием интегрального порогового значения изображения
 type: docs
 weight: 160
 url: /ru/net/aspose.imaging/rastercachedmultipageimage/binarizebradley/
 ---
 ## BinarizeBradley(double, int) {#binarizebradley_1}
 
-Бинаризация изображения с использованием алгоритма адаптивной пороговой обработки Брэдли с использованием интегральной пороговой обработки изображения
+Бинаризация изображения с использованием алгоритма адаптивной пороговой обработки Брэдли с использованием интегрального порогового значения изображения
 
 ```csharp
 public override void BinarizeBradley(double brightnessDifference, int windowSize)
@@ -16,8 +16,8 @@ public override void BinarizeBradley(double brightnessDifference, int windowSize
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| brightnessDifference | Double | Разница яркости между пикселем и средним значением пикселей окна sxs вокруг этого пикселя. |
-| windowSize | Int32 | Размер окна sxs в пикселях с центром вокруг этого пикселя |
+| brightnessDifference | Double | Разница яркости между пикселем и средним значением окна sxs пикселей с центром вокруг этого пикселя. |
+| windowSize | Int32 | Размер окна sxs пикселей с центром вокруг этого пикселя |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public override void BinarizeBradley(double brightnessDifference, int windowSize
 
 ## BinarizeBradley(double) {#binarizebradley}
 
-Бинаризация изображения с использованием алгоритма адаптивной пороговой обработки Брэдли с использованием интегральной пороговой обработки изображения
+Бинаризация изображения с использованием алгоритма адаптивной пороговой обработки Брэдли с использованием интегрального порогового значения изображения
 
 ```csharp
 public override void BinarizeBradley(double brightnessDifference)
@@ -37,7 +37,7 @@ public override void BinarizeBradley(double brightnessDifference)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| brightnessDifference | Double | Разница яркости между пикселем и средним значением пикселей окна sxs вокруг этого пикселя. |
+| brightnessDifference | Double | Разница яркости между пикселем и средним значением окна sxs пикселей с центром вокруг этого пикселя. |
 
 ### Смотрите также
 

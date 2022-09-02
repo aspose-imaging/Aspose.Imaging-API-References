@@ -24,7 +24,7 @@ public class CdrMcfg : CdrObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示该实例是否被释放。 |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示此实例是否被释放。 |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | 获取或设置文档。 |
 | [Height](../../aspose.imaging.fileformats.cdr.objects/cdrmcfg/height) { get; set; } | 获取或设置高度。 |
 | [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | 获取或设置父级。 |
@@ -34,7 +34,7 @@ public class CdrMcfg : CdrObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 释放当前实例。 |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 处理当前实例。 |
 
 ### 也可以看看
 

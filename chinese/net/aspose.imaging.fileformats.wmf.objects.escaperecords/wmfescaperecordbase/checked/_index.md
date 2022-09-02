@@ -1,14 +1,14 @@
 ---
 title: Checked
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示是否检查了此WmfEscapeRecordBaseaspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase
+description: 获取一个值该值指示这是否WmfEscapeRecordBaseaspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase已检查
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/checked/
 ---
 ## WmfEscapeRecordBase.Checked property
 
-获取一个值，该值指示是否检查了此[`WmfEscapeRecordBase`](../../wmfescaperecordbase)。
+获取一个值，该值指示这是否[`WmfEscapeRecordBase`](../../wmfescaperecordbase)已检查。
 
 ```csharp
 public virtual bool Checked { get; set; }
@@ -16,7 +16,7 @@ public virtual bool Checked { get; set; }
 
 ### 适当的价值
 
-` true` 如果选中；否则，` false` 。
+`真的`如果选中；否则，`错误的` .
 
 ### 也可以看看
 

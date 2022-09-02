@@ -1,14 +1,14 @@
 ---
 title: StreamReadException
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化StreamReadExceptionaspose.imaging.coreexceptions/streamreadexception类的新实例
+description: 初始化StreamReadExceptionaspose.imaging.coreexceptions/streamreadexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.coreexceptions/streamreadexception/streamreadexception/
 ---
 ## StreamReadException(string) {#constructor}
 
-初始化[`StreamReadException`](../../streamreadexception)类的新实例。
+初始化[`StreamReadException`](../../streamreadexception)类.
 
 ```csharp
 public StreamReadException(string message)
@@ -28,7 +28,7 @@ public StreamReadException(string message)
 
 ## StreamReadException(string, Exception) {#constructor_2}
 
-初始化[`StreamReadException`](../../streamreadexception)类的新实例。
+初始化[`StreamReadException`](../../streamreadexception)类.
 
 ```csharp
 public StreamReadException(string message, Exception innerException)
@@ -37,7 +37,7 @@ public StreamReadException(string message, Exception innerException)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 消息。 |
-| innerException | Exception | 内部异常。 |
+| innerException | Exception | 内在异常。 |
 
 ### 也可以看看
 
@@ -49,7 +49,7 @@ public StreamReadException(string message, Exception innerException)
 
 ## StreamReadException(string, Exception, int, int) {#constructor_3}
 
-初始化[`StreamReadException`](../../streamreadexception)类的新实例。
+初始化[`StreamReadException`](../../streamreadexception)类.
 
 ```csharp
 public StreamReadException(string message, Exception innerException, int expectedReadCount, 
@@ -59,8 +59,8 @@ public StreamReadException(string message, Exception innerException, int expecte
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 消息。 |
-| innerException | Exception | 内部异常。 |
-| expectedReadCount | Int32 | 预期读取计数。 |
+| innerException | Exception | 内在异常。 |
+| expectedReadCount | Int32 | 预期的读取计数。 |
 | actualReadCount | Int32 | 实际读取计数。 |
 
 ### 也可以看看
@@ -73,7 +73,7 @@ public StreamReadException(string message, Exception innerException, int expecte
 
 ## StreamReadException(string, int, int) {#constructor_1}
 
-初始化[`StreamReadException`](../../streamreadexception)类的新实例。
+初始化[`StreamReadException`](../../streamreadexception)类.
 
 ```csharp
 public StreamReadException(string message, int expectedReadCount, int actualReadCount)
@@ -82,7 +82,7 @@ public StreamReadException(string message, int expectedReadCount, int actualRead
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 消息。 |
-| expectedReadCount | Int32 | 预期读取计数。 |
+| expectedReadCount | Int32 | 预期的读取计数。 |
 | actualReadCount | Int32 | 实际读取计数。 |
 
 ### 也可以看看

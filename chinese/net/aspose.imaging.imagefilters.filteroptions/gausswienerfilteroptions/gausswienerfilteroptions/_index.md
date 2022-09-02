@@ -1,14 +1,14 @@
 ---
 title: GaussWienerFilterOptions
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化GaussWienerFilterOptionsaspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions类的新实例
+description: 初始化GaussWienerFilterOptionsaspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions/gausswienerfilteroptions/
 ---
 ## GaussWienerFilterOptions(int, double) {#constructor_1}
 
-初始化[`GaussWienerFilterOptions`](../../gausswienerfilteroptions)类的新实例。
+初始化[`GaussWienerFilterOptions`](../../gausswienerfilteroptions)类.
 
 ```csharp
 public GaussWienerFilterOptions(int radius, double smooth)
@@ -17,7 +17,7 @@ public GaussWienerFilterOptions(int radius, double smooth)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | radius | Int32 | 半径。 |
-| smooth | Double | 平滑。 |
+| smooth | Double | 光滑的。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public GaussWienerFilterOptions(int radius, double smooth)
 
 ## GaussWienerFilterOptions() {#constructor}
 
-初始化[`GaussWienerFilterOptions`](../../gausswienerfilteroptions)类的新实例。 使用默认设置。
+初始化[`GaussWienerFilterOptions`](../../gausswienerfilteroptions)类. 使用默认设置.
 
 ```csharp
 public GaussWienerFilterOptions()

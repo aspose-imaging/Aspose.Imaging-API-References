@@ -1,14 +1,14 @@
 ---
 title: ResizeFullFrame
 second_title: Aspose.Imaging for .NET API 参考
-description: 使用每个 GIF 页面的全帧调整图像大小需要避免可能的伪影出现
+description: 使用每个 GIF 页面的全帧调整图像大小需要避免可能出现的伪影
 type: docs
 weight: 390
 url: /zh/net/aspose.imaging.fileformats.gif/gifimage/resizefullframe/
 ---
 ## GifImage.ResizeFullFrame method
 
-使用每个 GIF 页面的全帧调整图像大小。需要避免可能的伪影出现。
+使用每个 GIF 页面的全帧调整图像大小。需要避免可能出现的伪影。
 
 ```csharp
 public void ResizeFullFrame(int newWidth, int newHeight, ResizeType resizeType)
@@ -16,7 +16,7 @@ public void ResizeFullFrame(int newWidth, int newHeight, ResizeType resizeType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newWidth | Int32 | 新宽度。 |
+| newWidth | Int32 | 新的宽度。 |
 | newHeight | Int32 | 新高度。 |
 | resizeType | ResizeType | 调整大小类型。 |
 

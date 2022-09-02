@@ -1,14 +1,14 @@
 ---
 title: RawFallbackIndex
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置调色板索引超出范围时使用的后备索引
+description: 获取或设置调色板索引超出范围时使用的回退索引
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging/rasterimage/rawfallbackindex/
 ---
 ## RasterImage.RawFallbackIndex property
 
-获取或设置调色板索引超出范围时使用的后备索引
+获取或设置调色板索引超出范围时使用的回退索引
 
 ```csharp
 public int RawFallbackIndex { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: WmfSetTextCharExtra
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_SETTEXTCHAREXTRA определяет межсимвольный интервал для выравнивания текста в контексте устройства воспроизведения. Интервал добавляется к пробелу между каждым символом включая символы ltsee langwordbreak /gt когда строка выравниваемого текста имеет вид выход.
+description: Запись META_SETTEXTCHAREXTRA определяет межсимвольный интервал для выравнивания текста в контексте устройства воспроизведения. Пробел добавляется к пробелу между каждым символом включая break символов когда строка выравниваемого текста is output.
 type: docs
 weight: 9170
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfsettextcharextra/
 ---
 ## WmfSetTextCharExtra class
 
-Запись META_SETTEXTCHAREXTRA определяет межсимвольный интервал для выравнивания текста в контексте устройства воспроизведения. Интервал добавляется к пробелу между каждым символом, включая символы &lt;see langword="break" /&gt;, когда строка выравниваемого текста имеет вид выход.
+Запись META_SETTEXTCHAREXTRA определяет межсимвольный интервал для выравнивания текста в контексте устройства воспроизведения. Пробел добавляется к пробелу между каждым символом, включая `break` символов, когда строка выравниваемого текста is output.
 
 ```csharp
 public class WmfSetTextCharExtra : WmfObject

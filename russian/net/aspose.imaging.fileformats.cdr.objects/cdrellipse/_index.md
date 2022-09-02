@@ -1,14 +1,14 @@
 ---
 title: CdrEllipse
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Эллипс cdr
+description: CDR Ellipse
 type: docs
 weight: 1550
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrellipse/
 ---
 ## CdrEllipse class
 
-Эллипс cdr
+CDR Ellipse
 
 ```csharp
 public class CdrEllipse : CdrGraphicObject
@@ -25,14 +25,14 @@ public class CdrEllipse : CdrGraphicObject
 | Имя | Описание |
 | --- | --- |
 | [Angle1](../../aspose.imaging.fileformats.cdr.objects/cdrellipse/angle1) { get; set; } | Получает или задает угол1. |
-| [Angle2](../../aspose.imaging.fileformats.cdr.objects/cdrellipse/angle2) { get; set; } | Получает или задает угол2. |
+| [Angle2](../../aspose.imaging.fileformats.cdr.objects/cdrellipse/angle2) { get; set; } | Получает или задает угол 2. |
 | [BoundsInPixels](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/boundsinpixels) { get; set; } | Получает или задает границы в пикселях. |
 | [ClipId](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/clipid) { get; set; } | Получает или задает идентификатор клипа. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | Получает или задает документ. |
 | [Height](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/height) { get; set; } | Получает или задает y. |
 | [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | Получает или задает родителя. |
-| [Pie](../../aspose.imaging.fileformats.cdr.objects/cdrellipse/pie) { get; set; } | Получает или задает значение, указывающее, является ли это[`CdrEllipse`](../cdrellipse)круговой диаграммой. |
+| [Pie](../../aspose.imaging.fileformats.cdr.objects/cdrellipse/pie) { get; set; } | Получает или задает значение, указывающее, является ли это[`CdrEllipse`](../cdrellipse) пирог. |
 | [Width](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/width) { get; set; } | Получает или задает x. |
 
 ## Методы

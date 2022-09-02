@@ -16,7 +16,7 @@ public int Version { get; set; }
 
 ### 适当的价值
 
-版本。
+版本.
 
 ### 也可以看看
 

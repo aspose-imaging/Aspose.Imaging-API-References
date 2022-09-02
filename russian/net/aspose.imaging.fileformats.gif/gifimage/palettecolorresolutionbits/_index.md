@@ -1,14 +1,14 @@
 ---
 title: PaletteColorResolutionBits
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает биты разрешения цвета палитры.
+description: Получает или устанавливает биты цветового разрешения палитры.
 type: docs
 weight: 170
 url: /ru/net/aspose.imaging.fileformats.gif/gifimage/palettecolorresolutionbits/
 ---
 ## GifImage.PaletteColorResolutionBits property
 
-Получает или задает биты разрешения цвета палитры.
+Получает или устанавливает биты цветового разрешения палитры.
 
 ```csharp
 public byte PaletteColorResolutionBits { get; set; }

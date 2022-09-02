@@ -1,14 +1,14 @@
 ---
 title: ContrastLevel
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定对比度级别的 32 位有符号整数这个值 必须在 -100 到 100 的范围内效果如下 -100  value lt lt 0 随着值的减小图像的对比度应该降低 0 值 0 指定对比度不能改变 0 lt value  100 随着值的增加图像的对比度应该增加
+description: 获取或设置指定对比度级别的 32 位有符号整数此 value 必须在 -100 到 100 的范围内效果如下 -100  value lt 0 随着值的减小图像的对比度应该降低 0 值 0 指定对比度不能改变. 0 lt value  100 随着值的增加图像的对比度应该增加
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrightnesscontrasteffect/contrastlevel/
 ---
 ## EmfPlusBrightnessContrastEffect.ContrastLevel property
 
-获取或设置指定对比度级别的 32 位有符号整数。这个值 必须在 -100 到 100 的范围内，效果如下: -100 ≤ value &lt; &lt; 0 随着值的减小，图像的对比度应该降低。 0 值 0 指定对比度不能改变。 0 &lt; value ≤ 100 随着值的增加，图像的对比度应该增加。
+获取或设置指定对比度级别的 32 位有符号整数。此 value 必须在 -100 到 100 的范围内，效果如下： -100 ≤ value &lt; 0 随着值的减小，图像的对比度应该降低。 0 值 0 指定对比度不能改变. 0 &lt; value ≤ 100 随着值的增加，图像的对比度应该增加。
 
 ```csharp
 public int ContrastLevel { get; set; }

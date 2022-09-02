@@ -1,14 +1,14 @@
 ---
 title: EmfSetIcmProfileW
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_SETICMPROFILEW указывает цветовой профиль в файле с именем состоящим из символов Unicode для вывода графики.
+description: Запись EMR_SETICMPROFILEW указывает цветовой профиль в файле с именем состоящим из символов Юникода для вывода графики.
 type: docs
 weight: 4360
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfseticmprofilew/
 ---
 ## EmfSetIcmProfileW class
 
-Запись EMR_SETICMPROFILEW указывает цветовой профиль в файле с именем, состоящим из символов Unicode, для вывода графики.
+Запись EMR_SETICMPROFILEW указывает цветовой профиль в файле с именем, состоящим из символов Юникода, для вывода графики.
 
 ```csharp
 public sealed class EmfSetIcmProfileW : EmfStateRecordType
@@ -18,7 +18,7 @@ public sealed class EmfSetIcmProfileW : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetIcmProfileW](emfseticmprofilew)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetIcmProfileW`](../emfseticmprofilew). |
+| [EmfSetIcmProfileW](emfseticmprofilew)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetIcmProfileW`](../emfseticmprofilew) класс. |
 
 ## Характеристики
 
@@ -26,11 +26,11 @@ public sealed class EmfSetIcmProfileW : EmfStateRecordType
 | --- | --- |
 | [CbData](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilew/cbdata) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер данных цветового профиля, если они прикреплены. |
 | [CbName](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilew/cbname) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее количество байтов в имени Unicode UTF16-LE требуемого цветового профиля. |
-| [Data](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilew/data) { get; set; } | Получает или задает массив размера (cbName + cbData) в байтах, который указывает имя UTF16-LE и необработанные данные нужного цветовой профиль. |
+| [Data](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilew/data) { get; set; } | Получает или задает массив размера (cbName + cbData) в байтах, который указывает имя UTF16-LE и необработанные данные желаемого цветового профиля. |
 | [DwFlags](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilew/dwflags) { get; set; } | Получает или задает 32-разрядное целое число без знака, содержащее флаги цветового профиля. |
 | [Name](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilew/name) { get; } | Получает имя |
 | [RawData](../../aspose.imaging.fileformats.emf.emf.records/emfseticmprofilew/rawdata) { get; } | Получает необработанные данные |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: CustomStartCapData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置可选的 EmfPlusCustomStartCapData 对象第 2.2.2.15 节 定义自定义起始帽形状它是要的形状47用在用这支笔画线的开头它可以是各种形状的任何 例如正方形圆形或菱形 如果 PenDataCustomStartCap 标志 设置在 EmfPlusPenData 对象的 PenDataFlags 字段中则该字段必须存在
+description: 获取或设置可选的 EmfPlusCustomStartCapData 对象第 2.2.2.15 节 它定义了自定义的起始帽形状它是 在使用此笔绘制的线的开头使用的形状它可以是各种形状的任意 例如正方形圆形或菱形 如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataCustomStartCap 标志 则必须存在此字段
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata/customstartcapdata/
 ---
 ## EmfPlusPenOptionalData.CustomStartCapData property
 
-获取或设置可选的 EmfPlusCustomStartCapData 对象（第 2.2.2.15 节） 定义自定义起始帽形状，它是要::的形状:47:::用在用这支笔画线的开头。它可以是各种形状的任何 ，例如正方形、圆形或菱形。 如果 PenDataCustomStartCap 标志 设置在 EmfPlusPenData 对象的 PenDataFlags 字段中，则该字段必须存在
+获取或设置可选的 EmfPlusCustomStartCapData 对象（第 2.2.2.15 节） ，它定义了自定义的起始帽形状，它是 在使用此笔绘制的线的开头使用的形状。它可以是各种形状的任意 ，例如正方形、圆形或菱形。 如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataCustomStartCap 标志 ，则必须存在此字段
 
 ```csharp
 public EmfPlusCustomStartCapData CustomStartCapData { get; set; }

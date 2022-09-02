@@ -1,14 +1,14 @@
 ---
 title: ToGdiFont
 second_title: Aspose.Imaging for .NET API 参考
-description: 将Fontaspose.imaging/font转换为Font
+description: 转换Fontaspose.imaging/font到Font .
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.extensions/fontextensions/togdifont/
 ---
 ## ToGdiFont(Font) {#togdifont}
 
-将[`Font`](../../../aspose.imaging/font)转换为Font。
+转换[`Font`](../../../aspose.imaging/font)到Font .
 
 ```csharp
 public static Font ToGdiFont(Font font)
@@ -16,11 +16,11 @@ public static Font ToGdiFont(Font font)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| font | Font | [`Font`](../../../aspose.imaging/font)进行转换。 |
+| font | Font | 这[`Font`](../../../aspose.imaging/font)转换。 |
 
 ### 返回值
 
-转换后的Font。
+转换后的Font .
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public static Font ToGdiFont(Font font)
 
 ## ToGdiFont(Font, GraphicsUnit) {#togdifont_1}
 
-将[`Font`](../../../aspose.imaging/font)转换为Font。
+转换[`Font`](../../../aspose.imaging/font)到Font .
 
 ```csharp
 public static Font ToGdiFont(Font font, GraphicsUnit fontUnit)
@@ -41,12 +41,12 @@ public static Font ToGdiFont(Font font, GraphicsUnit fontUnit)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| font | Font | [`Font`](../../../aspose.imaging/font)进行转换。 |
-| fontUnit | GraphicsUnit | 新图形单元 |
+| font | Font | 这[`Font`](../../../aspose.imaging/font)转换。 |
+| fontUnit | GraphicsUnit | 新的图形单元 |
 
 ### 返回值
 
-转换后的Drawing。字体。
+转换的Font.
 
 ### 也可以看看
 

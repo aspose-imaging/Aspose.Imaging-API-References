@@ -18,19 +18,19 @@ public sealed class EmfDeleteColorSpace : EmfObjectManipulationRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfDeleteColorSpace](emfdeletecolorspace)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfDeleteColorSpace`](../emfdeletecolorspace). |
+| [EmfDeleteColorSpace](emfdeletecolorspace)(EmfRecord) | Инициализирует новый экземпляр[`EmfDeleteColorSpace`](../emfdeletecolorspace) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [IhCS](../../aspose.imaging.fileformats.emf.emf.records/emfdeletecolorspace/ihcs) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс объекта логического цветового пространства в таблице объектов EMF (раздел 3.1. 1.1). |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [IhCS](../../aspose.imaging.fileformats.emf.emf.records/emfdeletecolorspace/ihcs) { get; set; } | Получает или задает 32-битное целое число без знака, указывающее индекс логического цветового пространства object в таблице объектов EMF (раздел 3.1.1.1). |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Примечания
 
-Запись EMR_DELETEOBJECT СЛЕДУЕТ использовать вместо EMR_DELETECOLORSPACE для удаления логического объект цветового пространства.
+Запись EMR_DELETEOBJECT СЛЕДУЕТ использовать вместо EMR_DELETECOLORSPACE для удаления a объекта логического цветового пространства.
 
 ### Смотрите также
 

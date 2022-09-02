@@ -20,7 +20,7 @@ public VectorPathRecord ProducePathRecord(byte[] data)
 
 ### 返回值
 
-创建[`VectorPathRecord`](../../vectorpathrecord)
+已创建[`VectorPathRecord`](../../vectorpathrecord)
 
 ### 例外
 

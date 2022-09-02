@@ -1,14 +1,14 @@
 ---
 title: EmfPlusClear
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusClearaspose.imaging.fileformats.emf.emfplus.records/emfplusclear.
+description: Инициализирует новый экземплярEmfPlusClearaspose.imaging.fileformats.emf.emfplus.records/emfplusclear класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusclear/emfplusclear/
 ---
 ## EmfPlusClear constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusClear`](../../emfplusclear).
+Инициализирует новый экземпляр[`EmfPlusClear`](../../emfplusclear) класс.
 
 ```csharp
 public EmfPlusClear(EmfPlusRecord source)

@@ -1,14 +1,14 @@
 ---
 title: PatternWidth
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置图案的宽度 如果IsRelativeaspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/isrelative是 则使用通用文档距离测量单位false  否则具有图像像素宽度分数的维度
+description: 获取或设置图案的宽度 使用通用文档距离度量单位以防出现以下情况IsRelativeaspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/isrelative是错误的 否则具有图像像素宽度分数的维度
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/patternwidth/
 ---
 ## CmxImageFill.PatternWidth property
 
-获取或设置图案的宽度。 如果[`IsRelative`](../isrelative)是` ，则使用通用文档距离测量单位false` , 否则具有图像像素宽度分数的维度。
+获取或设置图案的宽度。 使用通用文档距离度量单位，以防出现以下情况[`IsRelative`](../isrelative)是`错误的`, 否则具有图像像素宽度分数的维度。
 
 ```csharp
 public float PatternWidth { get; set; }

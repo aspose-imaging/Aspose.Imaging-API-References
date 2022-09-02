@@ -1,14 +1,14 @@
 ---
 title: Rational
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаRationalaspose.imaging.xmp.types.derived/rational.
+description: Инициализирует новый экземплярRationalaspose.imaging.xmp.types.derived/rational класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp.types.derived/rational/rational/
 ---
 ## Rational constructor
 
-Инициализирует новый экземпляр класса[`Rational`](../../rational).
+Инициализирует новый экземпляр[`Rational`](../../rational) класс.
 
 ```csharp
 public Rational(int numerator, int denominator)
@@ -16,14 +16,14 @@ public Rational(int numerator, int denominator)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| числитель | Int32 | Числитель. |
-| знаменатель | Int32 | Знаменатель. |
+| numerator | Int32 | Числитель. |
+| denominator | Int32 | Знаменатель. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | числитель;Числитель должен быть больше нуля. или знаменатель;Знаменатель должен быть больше нуля. |
+| ArgumentOutOfRangeException | числитель;числитель должен быть больше нуля. или знаменатель;знаменатель должен быть больше нуля. |
 
 ### Смотрите также
 

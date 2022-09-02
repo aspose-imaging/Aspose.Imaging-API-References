@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSmoothingMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Перечисление SmoothingMode определяет режимы сглаживания применяемые к линиям кривым и краям заполненных областей чтобы сделать их более непрерывными или четко определенными.
+description: Перечисление SmoothingMode определяет режимы сглаживания применяемые к линиям кривым и краям заполненных областей чтобы сделать их более непрерывными или четко очерченными.
 type: docs
 weight: 5050
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.consts/emfplussmoothingmode/
 ---
 ## EmfPlusSmoothingMode enumeration
 
-Перечисление SmoothingMode определяет режимы сглаживания, применяемые к линиям, кривым и краям заполненных областей, чтобы сделать их более непрерывными или четко определенными.
+Перечисление SmoothingMode определяет режимы сглаживания, применяемые к линиям, кривым и краям заполненных областей, чтобы сделать их более непрерывными или четко очерченными.
 
 ```csharp
 public enum EmfPlusSmoothingMode : byte
@@ -22,8 +22,8 @@ public enum EmfPlusSmoothingMode : byte
 | SmoothingModeHighSpeed | `1` | Указывает наилучшую производительность без сглаживания. |
 | SmoothingModeHighQuality | `2` | Указывает наилучшее качество со сглаживанием. |
 | SmoothingModeNone | `3` | Не выполняет сглаживание кривых и сглаживание. |
-| SmoothingModeAntiAlias8x4 | `4` | Указывает хорошее качество с использованием блочного фильтра 8x4. |
-| SmoothingModeAntiAlias8x8 | `5` | Определяет лучшее качество, используя блочный фильтр 8x8. |
+| SmoothingModeAntiAlias8x4 | `4` | Определяет хорошее качество с использованием блочного фильтра 8x4. |
+| SmoothingModeAntiAlias8x8 | `5` | Определяет лучшее качество с помощью блочного фильтра 8x8. |
 
 ### Смотрите также
 

@@ -16,7 +16,7 @@ public bool IsCmx3Image { get; set; }
 
 ### 适当的价值
 
-` true` 如果此实例是 CMX3 图像；否则，` false` 。
+`真的`如果此实例是 CMX3 图像；否则，`错误的` .
 
 ### 也可以看看
 

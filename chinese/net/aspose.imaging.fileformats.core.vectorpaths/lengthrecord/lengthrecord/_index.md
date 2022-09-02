@@ -1,14 +1,14 @@
 ---
 title: LengthRecord
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化LengthRecordaspose.imaging.fileformats.core.vectorpaths/lengthrecord类的新实例
+description: 初始化LengthRecordaspose.imaging.fileformats.core.vectorpaths/lengthrecord类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.core.vectorpaths/lengthrecord/lengthrecord/
 ---
 ## LengthRecord(byte[]) {#constructor_1}
 
-初始化[`LengthRecord`](../../lengthrecord)类的新实例。
+初始化[`LengthRecord`](../../lengthrecord)类.
 
 ```csharp
 public LengthRecord(byte[] data)
@@ -22,7 +22,7 @@ public LengthRecord(byte[] data)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| !:PsdImageArgumentException | LengthRecord 创建的数据不正确 |
+| !:PsdImageArgumentException | 创建 LengthRecord 的数据不正确 |
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public LengthRecord(byte[] data)
 
 ## LengthRecord() {#constructor}
 
-初始化[`LengthRecord`](../../lengthrecord)类的新实例。
+初始化[`LengthRecord`](../../lengthrecord)类.
 
 ```csharp
 public LengthRecord()

@@ -1,14 +1,14 @@
 ---
 title: FrameLeft
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取帧左偏移
+description: 获取帧左偏移量
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging/ianimationframe/frameleft/
 ---
 ## IAnimationFrame.FrameLeft property
 
-获取帧左偏移。
+获取帧左偏移量。
 
 ```csharp
 public int FrameLeft { get; }
@@ -16,7 +16,7 @@ public int FrameLeft { get; }
 
 ### 适当的价值
 
-左偏移。
+左侧偏移量。
 
 ### 也可以看看
 

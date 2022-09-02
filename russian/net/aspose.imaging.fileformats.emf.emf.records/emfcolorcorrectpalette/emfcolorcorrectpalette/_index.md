@@ -1,14 +1,14 @@
 ---
 title: EmfColorCorrectPalette
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfColorCorrectPaletteaspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette.
+description: Инициализирует новый экземплярEmfColorCorrectPaletteaspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/emfcolorcorrectpalette/
 ---
 ## EmfColorCorrectPalette constructor
 
-Инициализирует новый экземпляр класса[`EmfColorCorrectPalette`](../../emfcolorcorrectpalette).
+Инициализирует новый экземпляр[`EmfColorCorrectPalette`](../../emfcolorcorrectpalette) класс.
 
 ```csharp
 public EmfColorCorrectPalette(EmfRecord source)

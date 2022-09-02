@@ -16,7 +16,7 @@ public int ColorRef { get; set; }
 
 ### 适当的价值
 
-`ColorRef` 定义颜色值的对象。
+The `ColorRef` 定义颜色值的对象。
 
 ### 也可以看看
 

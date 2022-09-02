@@ -38,7 +38,7 @@ public void RotateTransform(float angle, PointF center, MatrixOrder order)
 | --- | --- | --- |
 | angle | Single | Угол поворота в градусах. |
 | center | PointF | Вращающийся центр. |
-| order | MatrixOrder | Указывает, добавляется ли вращение в конец или в начало преобразования матрицы.. |
+| order | MatrixOrder | Указывает, добавляется ли вращение к матричному преобразованию или предшествует ему. |
 
 ### Смотрите также
 

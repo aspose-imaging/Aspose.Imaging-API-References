@@ -1,14 +1,14 @@
 ---
 title: ColorantRgb
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化ColorantRgbaspose.imaging.xmp.types.complex.colorant/colorantrgb类的新实例
+description: 初始化ColorantRgbaspose.imaging.xmp.types.complex.colorant/colorantrgb类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp.types.complex.colorant/colorantrgb/colorantrgb/
 ---
 ## ColorantRgb() {#constructor}
 
-初始化[`ColorantRgb`](../../colorantrgb)类的新实例。
+初始化[`ColorantRgb`](../../colorantrgb)类.
 
 ```csharp
 public ColorantRgb()
@@ -24,7 +24,7 @@ public ColorantRgb()
 
 ## ColorantRgb(byte, byte, byte) {#constructor_1}
 
-初始化[`ColorantRgb`](../../colorantrgb)类的新实例。
+初始化[`ColorantRgb`](../../colorantrgb)类.
 
 ```csharp
 public ColorantRgb(byte red, byte green, byte blue)
@@ -32,8 +32,8 @@ public ColorantRgb(byte red, byte green, byte blue)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| red | Byte | 红色分量值。 |
-| green | Byte | 绿色分量值。 |
+| red | Byte | 红色组件值。 |
+| green | Byte | 绿色组件值。 |
 | blue | Byte | 蓝色分量值。 |
 
 ### 也可以看看

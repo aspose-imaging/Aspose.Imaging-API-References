@@ -1,14 +1,14 @@
 ---
 title: RgnDataSize
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее размер данных области в байтах.
+description: Получает или задает 32-разрядное целое число без знака указывающее размер данных региона в байтах.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/rgndatasize/
 ---
 ## EmfExtSelectClipRgn.RgnDataSize property
 
-Получает или задает 32-разрядное целое число без знака, указывающее размер данных области в байтах.
+Получает или задает 32-разрядное целое число без знака, указывающее размер данных региона в байтах.
 
 ```csharp
 public int RgnDataSize { get; set; }

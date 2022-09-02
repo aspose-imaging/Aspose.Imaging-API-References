@@ -16,7 +16,7 @@ public int Count { get; set; }
 
 ### 适当的价值
 
-中的水平（x轴）坐标数[`ScanLines`](../scanlines) 数组。该值必须是 2 的倍数，因为需要左和右 端点来指定每个扫描线。
+中的水平（x 轴）坐标数[`ScanLines`](../scanlines) 数组。该值必须是 2 的倍数，因为需要 left 和 right 端点来指定每条扫描线。
 
 ### 也可以看看
 

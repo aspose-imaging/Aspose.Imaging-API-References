@@ -1,14 +1,14 @@
 ---
 title: MaxDiff
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置最大允许像素差如果大于零将使用有损压缩 最佳有损压缩的推荐值为 8030 是非常轻的压缩200 是重的 当只引入很少的损失时效果最好并且由于压缩算法的限制非常高的损失水平不会带来太多的收益 允许值的范围是 0 1000
+description: 获取或设置允许的最大像素差如果大于零将使用有损压缩 最佳有损压缩的推荐值为 8030 是非常轻的压缩200 是重的 当只引入少量损失时效果最好并且由于压缩算法的限制非常高的损失水平不会带来太大的收益 允许值的范围是0 1000
 type: docs
 weight: 110
 url: /zh/net/aspose.imaging.imageoptions/gifoptions/maxdiff/
 ---
 ## GifOptions.MaxDiff property
 
-获取或设置最大允许像素差。如果大于零，将使用有损压缩。 最佳有损压缩的推荐值为 80。30 是非常轻的压缩，200 是重的。 当只引入很少的损失时效果最好，并且由于压缩算法的限制，非常高的损失水平不会带来太多的收益。 允许值的范围是 [0, 1000]。
+获取或设置允许的最大像素差。如果大于零，将使用有损压缩。 最佳有损压缩的推荐值为 80。30 是非常轻的压缩，200 是重的。 当只引入少量损失时效果最好，并且由于压缩算法的限制非常高的损失水平不会带来太大的收益。 允许值的范围是[0, 1000]。
 
 ```csharp
 public int MaxDiff { get; set; }
@@ -16,7 +16,7 @@ public int MaxDiff { get; set; }
 
 ### 例子
 
-此示例说明如何使用各种选项将 BMP 图像保存为 GIF 格式。
+此示例显示如何使用各种选项将 BMP 图像保存为 GIF 格式。
 
 ```csharp
 [C#]
@@ -37,30 +37,30 @@ using (Aspose.Imaging.Image bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpIma
 
     Aspose.Imaging.ImageOptions.GifOptions saveOptions = new Aspose.Imaging.ImageOptions.GifOptions();
 
-        // 存储颜色所需的位数，减 1.
+    // 存储颜色所需的位数，减 1。
     saveOptions.ColorResolution = 7;
 
-    // 调色板校正意味着每当图像导出为 GIF 时，都会分析源图像颜色
-        // 为了构建最佳匹配的调色板（如果图像调色板不存在或未在选项中指定）
+    // 调色板校正意味着每当图像导出为 GIF 时，都会分析源图像的颜色
+    // 为了构建最佳匹配的调色板（如果图像调色板不存在或未在选项中指定）
     saveOptions.DoPaletteCorrection = true;
 
-        // 以渐进方式加载 GIF 图片。
-        // 隔行扫描的 GIF 不会从上到下线性显示其扫描线，而是重新排序 it
-        // 所以 GIF 的内容在加载完成之前就变得清晰了。
+    // 以渐进方式加载 GIF 图片。
+    // 隔行扫描的 GIF 不会从上到下线性显示其扫描线，而是重新排序
+    // 所以 GIF 的内容在加载完成之前就变得清晰了。
     saveOptions.Interlaced = true;
 
-        // 另存为无损 GIF.
+    // 另存为无损 GIF。
     using (System.IO.Stream stream = System.IO.File.OpenWrite(dir + "output.gif"))
     {
         bmpImage.Save(stream, saveOptions);
         System.Console.WriteLine("The size of the lossless GIF: {0} bytes.", stream.Length);
     }
 
-        // 设置允许的最大像素差。如果大于零，将使用有损压缩。
-        // 最佳有损压缩的推荐值为 80。30 是非常轻的压缩，200 是重的。
+    // 设置允许的最大像素差。如果大于零，将使用有损压缩。
+    // 最佳有损压缩的推荐值为 80。30 是非常轻的压缩，200 是重的。
     saveOptions.MaxDiff = 80;
 
-        // 另存为有损 GIF.
+    // 另存为有损 GIF。
     using (System.IO.Stream stream = System.IO.File.OpenWrite(dir + "output.lossy.gif"))
     {
         bmpImage.Save(stream, saveOptions);
@@ -68,8 +68,8 @@ using (Aspose.Imaging.Image bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpIma
     }
 }
 
-    //输出可能如下所示：
-    //无损GIF的大小：212816字节.
+//输出可能如下所示：
+//无损GIF的大小：212816字节。
 //有损GIF的大小：89726字节。
 ```
 

@@ -18,20 +18,20 @@ public sealed class EmfSetTextJustification : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSetTextJustification](emfsettextjustification)(EmfRecord) | 初始化[`EmfSetTextJustification`](../emfsettextjustification)类的新实例。 |
+| [EmfSetTextJustification](emfsettextjustification)(EmfRecord) | 初始化[`EmfSetTextJustification`](../emfsettextjustification)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [NBreakCount](../../aspose.imaging.fileformats.emf.emf.records/emfsettextjustification/nbreakcount) { get; set; } | 获取或设置一个 32 位有符号整数，用于指定中断字符的数量。 |
-| [NBreakExtra](../../aspose.imaging.fileformats.emf.emf.records/emfsettextjustification/nbreakextra) { get; set; } | 获取或设置一个 32 位有符号整数，该整数指定要添加的额外空间总量 以逻辑单位表示。 |
+| [NBreakExtra](../../aspose.imaging.fileformats.emf.emf.records/emfsettextjustification/nbreakextra) { get; set; } | 获取或设置一个 32 位有符号整数，它指定额外空间的总量， 以逻辑单位表示，以添加。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 
 ### 评论
 
-实现应该使用 EMR_EXTTEXTOUTW 而不是使用 EMR_SETTEXTJUSTIFICATION 记录记录（第 2.3.5.8 节）以执行此功能。
+而不是使用 EMR_SETTEXTJUSTIFICATION 记录，实现应该使用 EMR_EXTTEXTOUTW 记录（第 2.3.5.8 节）来执行此功能。
 
 ### 也可以看看
 

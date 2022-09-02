@@ -1,14 +1,14 @@
 ---
 title: CdrImageFill
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаCdrImageFillaspose.imaging.fileformats.cdr.types/cdrimagefill.
+description: Инициализирует новый экземплярCdrImageFillaspose.imaging.fileformats.cdr.types/cdrimagefill класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.cdr.types/cdrimagefill/cdrimagefill/
 ---
 ## CdrImageFill constructor
 
-Инициализирует новый экземпляр класса[`CdrImageFill`](../../cdrimagefill).
+Инициализирует новый экземпляр[`CdrImageFill`](../../cdrimagefill) класс.
 
 ```csharp
 public CdrImageFill(int id, double width, double height, bool isRelative, double xOffset, 
@@ -20,9 +20,9 @@ public CdrImageFill(int id, double width, double height, bool isRelative, double
 | id | Int32 | Идентификатор. |
 | width | Double | Ширина. |
 | height | Double | Высота. |
-| isRelative | Boolean | , если установлено значение` true` [относительно]. |
+| isRelative | Boolean | если установлено`истинный` [относительно]. |
 | xOffset | Double | Смещение x. |
-| yOffset | Double | Смещение по оси y. |
+| yOffset | Double | Y смещение. |
 | rpcOffset | Double | Смещение RPC. |
 | flags | Byte | Флаги. |
 

@@ -3,7 +3,7 @@ title: ResourceRef
 second_title: Aspose.Imaging for .NET API 参考
 description: 用于表示以前的版本翻译的原件派生文档的原件等
 type: docs
-weight: 11610
+weight: 11600
 url: /zh/net/aspose.imaging.xmp.types.complex.resourceref/resourceref/
 ---
 ## ResourceRef class
@@ -26,7 +26,7 @@ public sealed class ResourceRef : ComplexTypeBase
 | --- | --- |
 | [AlternatePaths](../../aspose.imaging.xmp.types.complex.resourceref/resourceref/alternatepaths) { get; set; } | 获取或设置备用路径数组。 |
 | [DocumentUri](../../aspose.imaging.xmp.types.complex.resourceref/resourceref/documenturi) { get; set; } | 获取或设置文档 URI。 |
-| [FilePathUri](../../aspose.imaging.xmp.types.complex.resourceref/resourceref/filepathuri) { get; set; } | 获取或设置文件路径 URI。 |
+| [FilePathUri](../../aspose.imaging.xmp.types.complex.resourceref/resourceref/filepathuri) { get; set; } | 获取或设置文件路径URI。 |
 | [InstanceId](../../aspose.imaging.xmp.types.complex.resourceref/resourceref/instanceid) { get; set; } | 获取或设置实例标识符。 |
 | [NamespaceUri](../../aspose.imaging.xmp.types.complex/complextypebase/namespaceuri) { get; } | 获取默认命名空间 URI。 |
 | [Prefix](../../aspose.imaging.xmp.types.complex/complextypebase/prefix) { get; } | 获取前缀。 |

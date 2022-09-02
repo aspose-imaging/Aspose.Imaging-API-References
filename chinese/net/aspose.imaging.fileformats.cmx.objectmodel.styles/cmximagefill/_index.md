@@ -26,20 +26,20 @@ public class CmxImageFill
 | --- | --- |
 | [Images](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/images) { get; set; } | 获取或设置图像。 |
 | [IsRelative](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/isrelative) { get; set; } | 获取或设置一个值，该值指示模式大小值是否是相对的。 |
-| [OffsetType](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/offsettype) { get; set; } | 获取或设置相邻瓦片之间的偏移量类型。 |
-| [PatternHeight](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/patternheight) { get; set; } | 获取或设置图案的高度。 如果[`IsRelative`](./isrelative)是` ，则使用通用文档距离测量单位false` , 否则具有图像像素高度分数的维度。 |
-| [PatternWidth](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/patternwidth) { get; set; } | 获取或设置图案的宽度。 如果[`IsRelative`](./isrelative)是` ，则使用通用文档距离测量单位false` , 否则具有图像像素宽度分数的维度。 |
+| [OffsetType](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/offsettype) { get; set; } | 获取或设置相邻瓦片之间的偏移类型。 |
+| [PatternHeight](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/patternheight) { get; set; } | 获取或设置图案的高度。 使用通用文档距离度量单位，以防万一[`IsRelative`](./isrelative)是`错误的`, 否则具有图像像素高度分数的维度。 |
+| [PatternWidth](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/patternwidth) { get; set; } | 获取或设置图案的宽度。 使用通用文档距离度量单位，以防出现以下情况[`IsRelative`](./isrelative)是`错误的`, 否则具有图像像素宽度分数的维度。 |
 | [Procedure](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/procedure) { get; set; } | 获取或设置过程。 |
-| [RcpOffset](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/rcpoffset) { get; set; } | 获取或设置平铺行或列之间的相对偏移量（取决于偏移类型)。 尺寸是宽度高度的分数。 |
-| [Rotate180](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/rotate180) { get; set; } | 获取或设置一个值，该值指示此!:ImageSpec是否颠倒。 |
-| [TileOffsetX](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/tileoffsetx) { get; set; } | 获取或设置平铺偏移 X。 |
-| [TileOffsetY](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/tileoffsety) { get; set; } | 获取或设置平铺偏移 Y。 |
+| [RcpOffset](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/rcpoffset) { get; set; } | 获取或设置平铺行或列之间的相对偏移量（取决于[`OffsetType`](./offsettype)). 尺寸是宽度高度的分数。 |
+| [Rotate180](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/rotate180) { get; set; } | 获取或设置一个值，该值指示是否!:ImageSpec是颠倒的。 |
+| [TileOffsetX](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/tileoffsetx) { get; set; } | 获取或设置瓦片偏移 X. |
+| [TileOffsetY](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/tileoffsety) { get; set; } | 获取或设置瓦片偏移 Y. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/tostring)() | 返回代表此实例的String。 |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/tostring)() | 返回一个String代表这个实例。 |
 
 ### 也可以看看
 

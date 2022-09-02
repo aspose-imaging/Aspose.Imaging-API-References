@@ -1,14 +1,14 @@
 ---
 title: Trimming
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает перечислениеStringTrimmingaspose.imaging/stringtrimmingдля этогоStringFormataspose.imaging/stringformatобъект.
+description: Получает или задаетStringTrimmingaspose.imaging/stringtrimming перечисление для этогоStringFormataspose.imaging/stringformat объект.
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging/stringformat/trimming/
 ---
 ## StringFormat.Trimming property
 
-Получает или задает перечисление[`StringTrimming`](../../stringtrimming)для этого[`StringFormat`](../../stringformat)объект.
+Получает или задает[`StringTrimming`](../../stringtrimming) перечисление для этого[`StringFormat`](../../stringformat) объект.
 
 ```csharp
 public StringTrimming Trimming { get; set; }
@@ -16,7 +16,7 @@ public StringTrimming Trimming { get; set; }
 
 ### Стоимость имущества
 
-A[`StringTrimming`](../../stringtrimming)перечисление, указывающее, как текст рисуется с помощью этого[`StringFormat`](../../stringformat)объект обрезается, когда он выходит за границы прямоугольника макета.
+А[`StringTrimming`](../../stringtrimming) перечисление, указывающее, как текст рисуется с помощью этого[`StringFormat`](../../stringformat) объект обрезается, когда он выходит за границы прямоугольника макета.
 
 ### Смотрите также
 

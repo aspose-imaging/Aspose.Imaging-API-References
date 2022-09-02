@@ -1,14 +1,14 @@
 ---
 title: EmfPolyTextOutA
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPolyTextOutAaspose.imaging.fileformats.emf.emf.records/emfpolytextouta类的新实例
+description: 初始化EmfPolyTextOutAaspose.imaging.fileformats.emf.emf.records/emfpolytextouta类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfpolytextouta/emfpolytextouta/
 ---
 ## EmfPolyTextOutA(EmfRecord) {#constructor_1}
 
-初始化[`EmfPolyTextOutA`](../../emfpolytextouta)类的新实例。
+初始化[`EmfPolyTextOutA`](../../emfpolytextouta)类.
 
 ```csharp
 public EmfPolyTextOutA(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfPolyTextOutA(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfPolyTextOutA(EmfRecord source)
 
 ## EmfPolyTextOutA() {#constructor}
 
-初始化[`EmfPolyTextOutA`](../../emfpolytextouta)类的新实例。
+初始化[`EmfPolyTextOutA`](../../emfpolytextouta)类.
 
 ```csharp
 public EmfPolyTextOutA()

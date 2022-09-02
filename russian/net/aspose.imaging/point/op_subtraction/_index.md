@@ -1,14 +1,14 @@
 ---
 title: op_Subtraction
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПереводитPointaspose.imaging/pointна отрицательную величину заданногоSizeaspose.imaging/size.
+description: ПереводитPointaspose.imaging/point отрицанием данногоSizeaspose.imaging/size .
 type: docs
 weight: 200
 url: /ru/net/aspose.imaging/point/op_subtraction/
 ---
 ## Point Subtraction operator
 
-Переводит[`Point`](../../point)на отрицательную величину заданного[`Size`](../../size).
+Переводит[`Point`](../../point) отрицанием данного[`Size`](../../size) .
 
 ```csharp
 public static Point operator -(Point point, Size size)
@@ -16,12 +16,12 @@ public static Point operator -(Point point, Size size)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | Point | [`Point`](../../point)для перевода. |
-| size | Size | A[`Size`](../../size)который указывает пару чисел, которые нужно вычесть из координат*точка*. |
+| point | Point | [`Point`](../../point) переводить. |
+| size | Size | А[`Size`](../../size) который указывает пару чисел, которые нужно вычесть из координат*point*. |
 
 ### Возвращаемое значение
 
-A[`Point`](../../point)структура, которая транслируется отрицанием заданного[`Size`](../../size)структура.
+А[`Point`](../../point)структура, которая переводится отрицанием данного[`Size`](../../size) структура.
 
 ### Смотрите также
 

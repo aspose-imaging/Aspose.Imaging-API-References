@@ -1,14 +1,14 @@
 ---
 title: OutPrecision
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定输出精度的 8 位无符号整数 输出精度定义了字体与请求的高度宽度 字符方向转义间距和字体类型匹配的紧密程度它必须是来自 WMF OutPrecision 枚举
+description: 获取或设置指定输出精度的 8 位无符号整数 输出精度定义了字体与请求的高度宽度 字符方向转义间距和字体类型匹配的紧密程度它必须是来自 WMF OutPrecision enumeration 的值
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emflogfont/outprecision/
 ---
 ## EmfLogFont.OutPrecision property
 
-获取或设置指定输出精度的 8 位无符号整数。 输出精度定义了字体与请求的高度、宽度、 字符方向、转义、间距和字体类型匹配的紧密程度。它必须是来自 WMF OutPrecision 枚举
+获取或设置指定输出精度的 8 位无符号整数。 输出精度定义了字体与请求的高度、宽度、 字符方向、转义、间距和字体类型匹配的紧密程度。它必须是来自 WMF OutPrecision enumeration 的值
 
 ```csharp
 public WmfOutPrecision OutPrecision { get; set; }

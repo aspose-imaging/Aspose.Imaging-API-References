@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取页面宽度
+description: 获取页面的宽度
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.djvu/djvupage/width/
 ---
 ## DjvuPage.Width property
 
-获取页面宽度
+获取页面的宽度
 
 ```csharp
 public override int Width { get; }
@@ -16,7 +16,7 @@ public override int Width { get; }
 
 ### 适当的价值
 
-宽度。
+宽度.
 
 ### 也可以看看
 

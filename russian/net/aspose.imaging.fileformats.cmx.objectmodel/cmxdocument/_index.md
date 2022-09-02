@@ -18,7 +18,7 @@ public class CmxDocument
 
 | Имя | Описание |
 | --- | --- |
-| [CmxDocument](cmxdocument)() | Инициализирует новый экземпляр класса[`CmxDocument`](../cmxdocument). |
+| [CmxDocument](cmxdocument)() | Инициализирует новый экземпляр[`CmxDocument`](../cmxdocument) класс. |
 
 ## Характеристики
 
@@ -30,7 +30,7 @@ public class CmxDocument
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel/cmxdocument/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel/cmxdocument/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 
 ### Смотрите также
 

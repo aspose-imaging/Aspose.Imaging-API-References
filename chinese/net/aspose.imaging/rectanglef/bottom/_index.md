@@ -1,14 +1,14 @@
 ---
 title: Bottom
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 y 坐标它是Yaspose.imaging/rectanglef/y和R5 之和PAspose.Imaging.RectangleF.Height这个RectangleFaspose.imaging/rectanglef结构
+description: 获取或设置 y 坐标即Yaspose.imaging/rectanglef/y和Heightaspose.imaging/rectanglef/height这个的RectangleFaspose.imaging/rectanglef结构.
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging/rectanglef/bottom/
 ---
 ## RectangleF.Bottom property
 
-获取或设置 y 坐标，它是[`Y`](../y)和:::R5 之和:P:Aspose.Imaging.RectangleF.Height:::这个[`RectangleF`](../../rectanglef)结构。
+获取或设置 y 坐标，即[`Y`](../y)和[`Height`](../height)这个的[`RectangleF`](../../rectanglef)结构.
 
 ```csharp
 public float Bottom { get; set; }
@@ -16,7 +16,7 @@ public float Bottom { get; set; }
 
 ### 返回值
 
-y 坐标是[`Y`](../y)和[`Height`](../height)这个[`RectangleF`](../../rectanglef)结构。
+坐标是[`Y`](../y)和[`Height`](../height)这个的[`RectangleF`](../../rectanglef)结构体。
 
 ### 也可以看看
 

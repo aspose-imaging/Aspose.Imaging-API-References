@@ -3,7 +3,7 @@ title: Width
 second_title: Aspose.Imaging for .NET API 参考
 description: 获取或设置宽度
 type: docs
-weight: 80
+weight: 70
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrbmp/width/
 ---
 ## CdrBmp.Width property
@@ -16,7 +16,7 @@ public int Width { get; set; }
 
 ### 适当的价值
 
-宽度。
+宽度.
 
 ### 也可以看看
 

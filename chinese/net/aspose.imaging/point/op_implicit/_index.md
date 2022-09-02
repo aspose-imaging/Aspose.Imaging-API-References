@@ -1,14 +1,14 @@
 ---
 title: op_Implicit
 second_title: Aspose.Imaging for .NET API 参考
-description: 将指定的Pointaspose.imaging/point结构转换为PointFaspose.imaging/pointf结构体
+description: 转换指定的Pointaspose.imaging/point结构为PointFaspose.imaging/pointf结构.
 type: docs
 weight: 180
 url: /zh/net/aspose.imaging/point/op_implicit/
 ---
 ## Point Implicit operator
 
-将指定的[`Point`](../../point)结构转换为[`PointF`](../../pointf)结构体。
+转换指定的[`Point`](../../point)结构为[`PointF`](../../pointf)结构.
 
 ```csharp
 public static implicit operator PointF(Point point)
@@ -16,11 +16,11 @@ public static implicit operator PointF(Point point)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| point | Point | [`Point`](../../point)被转换。 |
+| point | Point | 这[`Point`](../../point)被转换。 |
 
 ### 返回值
 
-[`PointF`](../../pointf)由转换产生。
+这[`PointF`](../../pointf)这是转换的结果。
 
 ### 也可以看看
 

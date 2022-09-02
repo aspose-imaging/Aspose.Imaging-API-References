@@ -25,88 +25,20 @@ public BitmapCompression Compression { get; set; }
 ```csharp
 [C#]
 
-string dir = "c:\\temp\\";
-
-Aspose.Imaging.ImageOptions.BmpOptions createOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
-
- // Сохраняем в файл
-createOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(dir + "output.palette8bit.bmp", false);
-    
- // Используйте 8 бит на пиксель, чтобы уменьшить размер выходного изображения.
-createOptions.BitsPerPixel = 8;
-
- // Установите стандартную 8-битную цветовую палитру оттенков серого, которая охватывает все цвета оттенков серого.
- // Если обработанное изображение содержит только оттенки серого, то его палитра version
- // визуально неотличим от не палетированного.
-createOptions.Palette = Aspose.Imaging.ColorPaletteHelper.Create8BitGrayscale(false);
-
- // Сохранить без сжатия.
-// Вы также можете использовать сжатие RLE-8 для уменьшения размера выходного изображения.
-createOptions.Compression = Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb;
-
- // Установить разрешение по горизонтали и вертикали на 96 dpi.
-createOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
-
- // Создаем BMP-изображение размером 100 x 100 пикселей и сохраняем его в файл.
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(createOptions, 100, 100))
+using (var image = Image.Load("CompressedTiger.bmp"))
 {
-    Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
-
-    Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
-        new Aspose.Imaging.Point(0, 0),
-        new Aspose.Imaging.Point(image.Width, image.Height),
-        Aspose.Imaging.Color.Black,
-        Aspose.Imaging.Color.White);
-
-     // Заливаем изображение оттенками серого градиента
-    graphics.FillRectangle(gradientBrush, image.Bounds);
-
-    image.Save();
+    image.Save("DecompressedTiger.bmp", new BmpOptions());
 }
 ```
 
-Сжать изображение BMP, используя алгоритм сжатия DXT1.
+Сжатие изображения BMP с использованием алгоритма сжатия DXT1.
 
 ```csharp
 [C#]
 
-string dir = "c:\\temp\\";
-
-Aspose.Imaging.ImageOptions.BmpOptions createOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
-
- // Сохраняем в файл
-createOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(dir + "output.palette8bit.bmp", false);
-    
- // Используйте 8 бит на пиксель, чтобы уменьшить размер выходного изображения.
-createOptions.BitsPerPixel = 8;
-
- // Установите стандартную 8-битную цветовую палитру оттенков серого, которая охватывает все цвета оттенков серого.
- // Если обработанное изображение содержит только оттенки серого, то его палитра version
- // визуально неотличим от не палетированного.
-createOptions.Palette = Aspose.Imaging.ColorPaletteHelper.Create8BitGrayscale(false);
-
- // Сохранить без сжатия.
-// Вы также можете использовать сжатие RLE-8 для уменьшения размера выходного изображения.
-createOptions.Compression = Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb;
-
- // Установить разрешение по горизонтали и вертикали на 96 dpi.
-createOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
-
- // Создаем BMP-изображение размером 100 x 100 пикселей и сохраняем его в файл.
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(createOptions, 100, 100))
+using (var image = Image.Load("Tiger.bmp"))
 {
-    Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
-
-    Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
-        new Aspose.Imaging.Point(0, 0),
-        new Aspose.Imaging.Point(image.Width, image.Height),
-        Aspose.Imaging.Color.Black,
-        Aspose.Imaging.Color.White);
-
-     // Заливаем изображение оттенками серого градиента
-    graphics.FillRectangle(gradientBrush, image.Bounds);
-
-    image.Save();
+    image.Save("CompressedTiger.bmp", new BmpOptions { Compression = BitmapCompression.Dxt1 });
 }
 ```
 
@@ -117,45 +49,32 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(createOptions, 1
 
 string dir = "c:\\temp\\";
 
-Aspose.Imaging.ImageOptions.BmpOptions createOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
-
- // Сохраняем в файл
-createOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(dir + "output.palette8bit.bmp", false);
-    
- // Используйте 8 бит на пиксель, чтобы уменьшить размер выходного изображения.
-createOptions.BitsPerPixel = 8;
-
- // Установите стандартную 8-битную цветовую палитру оттенков серого, которая охватывает все цвета оттенков серого.
- // Если обработанное изображение содержит только оттенки серого, то его палитра version
- // визуально неотличим от не палетированного.
-createOptions.Palette = Aspose.Imaging.ColorPaletteHelper.Create8BitGrayscale(false);
-
- // Сохранить без сжатия.
-// Вы также можете использовать сжатие RLE-8 для уменьшения размера выходного изображения.
-createOptions.Compression = Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb;
-
- // Установить разрешение по горизонтали и вертикали на 96 dpi.
-createOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
-
- // Создаем BMP-изображение размером 100 x 100 пикселей и сохраняем его в файл.
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(createOptions, 100, 100))
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
 {
-    Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
+    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
-        new Aspose.Imaging.Point(0, 0),
-        new Aspose.Imaging.Point(image.Width, image.Height),
-        Aspose.Imaging.Color.Black,
-        Aspose.Imaging.Color.White);
+    // Создать BmpOptions
+    Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 
-     // Заливаем изображение оттенками серого градиента
-    graphics.FillRectangle(gradientBrush, image.Bounds);
+    // Используйте 8 бит на пиксель, чтобы уменьшить размер выходного изображения.
+    saveOptions.BitsPerPixel = 8;
 
-    image.Save();
+    // Устанавливаем ближайшую 8-битную цветовую палитру, которая покрывает максимальное количество пикселей изображения, чтобы изображение с палитрой
+    // визуально практически неотличим от не палетированного.
+    saveOptions.Palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(rasterImage, 256);
+
+    // Сохранить без сжатия.
+    // Вы также можете использовать сжатие RLE-8, чтобы уменьшить размер выходного изображения.
+    saveOptions.Compression = Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb;
+
+    // Установите разрешение по горизонтали и вертикали на 96 dpi.
+    saveOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
+
+    image.Save(dir + "sample.bmpoptions.bmp", saveOptions);
 }
 ```
 
-В следующем примере создается BMP-изображение в градациях серого с палитрой, а затем сохраняется в файл.
+В следующем примере создается изображение BMP с палитрой оттенков серого, а затем сохраняется в файл.
 
 ```csharp
 [C#]
@@ -164,25 +83,25 @@ string dir = "c:\\temp\\";
 
 Aspose.Imaging.ImageOptions.BmpOptions createOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 
- // Сохраняем в файл
+// Сохраняем в файл
 createOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(dir + "output.palette8bit.bmp", false);
     
- // Используйте 8 бит на пиксель, чтобы уменьшить размер выходного изображения.
+// Используйте 8 бит на пиксель, чтобы уменьшить размер выходного изображения.
 createOptions.BitsPerPixel = 8;
 
- // Установите стандартную 8-битную цветовую палитру оттенков серого, которая охватывает все цвета оттенков серого.
- // Если обработанное изображение содержит только оттенки серого, то его палитра version
- // визуально неотличим от не палетированного.
+// Установите стандартную 8-битную цветовую палитру оттенков серого, которая охватывает все цвета оттенков серого.
+// Если обработанное изображение содержит только оттенки серого, то его версия с палитрой
+// визуально неотличим от не палетированного.
 createOptions.Palette = Aspose.Imaging.ColorPaletteHelper.Create8BitGrayscale(false);
 
- // Сохранить без сжатия.
-// Вы также можете использовать сжатие RLE-8 для уменьшения размера выходного изображения.
+// Сохранить без сжатия.
+// Вы также можете использовать сжатие RLE-8, чтобы уменьшить размер выходного изображения.
 createOptions.Compression = Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb;
 
- // Установить разрешение по горизонтали и вертикали на 96 dpi.
+// Установите разрешение по горизонтали и вертикали на 96 dpi.
 createOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
 
- // Создаем BMP-изображение размером 100 x 100 пикселей и сохраняем его в файл.
+// Создаем BMP-изображение размером 100 x 100 пикселей и сохраняем его в файл.
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(createOptions, 100, 100))
 {
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
@@ -193,7 +112,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(createOptions, 1
         Aspose.Imaging.Color.Black,
         Aspose.Imaging.Color.White);
 
-     // Заливаем изображение оттенками серого градиента
+    // Заливаем изображение градиентом в градациях серого
     graphics.FillRectangle(gradientBrush, image.Bounds);
 
     image.Save();

@@ -1,14 +1,14 @@
 ---
 title: TiffSRational
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTiffSRationalaspose.imaging.fileformats.tiff/tiffsrational.
+description: Инициализирует новый экземплярTiffSRationalaspose.imaging.fileformats.tiff/tiffsrational класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.tiff/tiffsrational/tiffsrational/
 ---
 ## TiffSRational() {#constructor}
 
-Инициализирует новый экземпляр класса[`TiffSRational`](../../tiffsrational).
+Инициализирует новый экземпляр[`TiffSRational`](../../tiffsrational) класс.
 
 ```csharp
 public TiffSRational()
@@ -24,7 +24,7 @@ public TiffSRational()
 
 ## TiffSRational(int) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TiffRational`](../../tiffrational).
+Инициализирует новый экземпляр[`TiffRational`](../../tiffrational) класс.
 
 ```csharp
 public TiffSRational(int value)
@@ -32,7 +32,7 @@ public TiffSRational(int value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | Int32 | Значение числителя. |
+| value | Int32 | Значение номинатора. |
 
 ### Примечания
 
@@ -48,7 +48,7 @@ public TiffSRational(int value)
 
 ## TiffSRational(int, int) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`TiffSRational`](../../tiffsrational).
+Инициализирует новый экземпляр[`TiffSRational`](../../tiffsrational) класс.
 
 ```csharp
 public TiffSRational(int nominator, int denominator)
@@ -56,8 +56,8 @@ public TiffSRational(int nominator, int denominator)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| номинатор | Int32 | Номинатор. |
-| знаменатель | Int32 | Знаменатель. |
+| nominator | Int32 | Номинатор. |
+| denominator | Int32 | Знаменатель. |
 
 ### Смотрите также
 

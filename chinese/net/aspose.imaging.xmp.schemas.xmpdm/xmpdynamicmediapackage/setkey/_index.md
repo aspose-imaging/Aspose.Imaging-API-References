@@ -16,7 +16,7 @@ public void SetKey(string key)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| key | String | 音频的音调。以下之一:C、C#、D、D#、E、F、F#、G、G#、A、A# 和 B。 |
+| key | String | 音频的音乐键。以下之一：C、C#、D、D#、E、F、F#、G、G#、A、A# 和 B。 |
 
 ### 也可以看看
 

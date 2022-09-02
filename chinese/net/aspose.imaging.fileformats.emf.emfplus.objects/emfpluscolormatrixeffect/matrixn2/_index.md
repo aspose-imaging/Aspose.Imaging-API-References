@@ -16,11 +16,11 @@ public int[] MatrixN2 { get; set; }
 
 ### 适当的价值
 
-矩阵 n1。
+矩阵 n1.
 
 ### 评论
 
-Matrix_0_2（4 字节）:Matrix[0][2]。 Matrix_1_2（4 个字节）:Matrix[1][2]。 Matrix_2_2 (4 bytes):Matrix[2][2]，这是蓝色的因子。 Matrix_3_1（4 个字节）:Matrix[3][1]。 Matrix_4_0（4 个字节）:Matrix[4][0]。该值必须为 0.0。
+Matrix_0_2 (4 bytes): Matrix[0][2]. Matrix_1_2 (4 bytes): Matrix[1][2]. Matrix_2_2 (4 bytes): Matrix[2][2], 这是因数蓝色。 Matrix_3_1（4 个字节）：Matrix[3][1]. Matrix_4_0（4 个字节）：Matrix[4][0]。这个值必须是 0.0.
 
 ### 也可以看看
 

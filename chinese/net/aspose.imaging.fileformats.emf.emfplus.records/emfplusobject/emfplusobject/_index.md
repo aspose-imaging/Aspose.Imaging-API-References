@@ -1,14 +1,14 @@
 ---
 title: EmfPlusObject
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPlusObjectaspose.imaging.fileformats.emf.emfplus.records/emfplusobject类的新实例
+description: 初始化EmfPlusObjectaspose.imaging.fileformats.emf.emfplus.records/emfplusobject类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusobject/emfplusobject/
 ---
 ## EmfPlusObject constructor
 
-初始化[`EmfPlusObject`](../../emfplusobject)类的新实例。
+初始化[`EmfPlusObject`](../../emfplusobject)类.
 
 ```csharp
 public EmfPlusObject(EmfPlusRecord source)
@@ -16,7 +16,7 @@ public EmfPlusObject(EmfPlusRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfPlusRecord | 源。 |
+| source | EmfPlusRecord | 来源。 |
 
 ### 也可以看看
 

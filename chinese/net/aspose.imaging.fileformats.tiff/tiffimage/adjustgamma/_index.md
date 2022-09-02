@@ -1,14 +1,14 @@
 ---
 title: AdjustGamma
 second_title: Aspose.Imaging for .NET API 参考
-description: 图像的伽玛校正
+description: 图像的 Gamma 校正
 type: docs
 weight: 190
 url: /zh/net/aspose.imaging.fileformats.tiff/tiffimage/adjustgamma/
 ---
 ## AdjustGamma(float) {#adjustgamma}
 
-图像的伽玛校正。
+图像的 Gamma 校正。
 
 ```csharp
 public override void AdjustGamma(float gamma)
@@ -16,7 +16,7 @@ public override void AdjustGamma(float gamma)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| gamma | Single | 红色、绿色和蓝色通道系数 |
+| gamma | Single | 红色、绿色和蓝色通道系数的 Gamma |
 
 ### 例子
 
@@ -31,7 +31,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"
 {
     Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)image;
 
-        // 设置红、绿、蓝通道的伽马系数。
+    // 设置红、绿、蓝通道的伽马系数。
     tiffImage.AdjustGamma(2.5f);
     tiffImage.Save(dir + "sample.AdjustGamma.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
@@ -47,7 +47,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"
 
 ## AdjustGamma(float, float, float) {#adjustgamma_1}
 
-图像的伽玛校正。
+图像的 Gamma 校正。
 
 ```csharp
 public override void AdjustGamma(float gammaRed, float gammaGreen, float gammaBlue)
@@ -55,13 +55,13 @@ public override void AdjustGamma(float gammaRed, float gammaGreen, float gammaBl
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| gammaRed | Single | Gamma 为红色通道系数 |
-| gammaGreen | Single | Gamma 为绿色通道系数 |
-| gammaBlue | Single | 蓝色通道系数的伽马 |
+| gammaRed | Single | 红色通道系数的 Gamma |
+| gammaGreen | Single | 绿色通道系数的 Gamma |
+| gammaBlue | Single | 蓝色通道系数的 Gamma |
 
 ### 例子
 
-以下示例执行伽马校正为颜色分量应用不同系数的 TIFF 图像。
+以下示例对 TIFF 图像执行伽马校正，并对颜色分量应用不同的系数。
 
 ```csharp
 [C#]

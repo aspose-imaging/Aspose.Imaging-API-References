@@ -1,14 +1,14 @@
 ---
 title: BrushExtensions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Содержит методы расширения дляBrush../aspose.imaging/brushиBrush.
+description: Содержит методы расширения дляBrush../aspose.imaging/brush а такжеBrush .
 type: docs
 weight: 1120
 url: /ru/net/aspose.imaging.extensions/brushextensions/
 ---
 ## BrushExtensions class
 
-Содержит методы расширения для[`Brush`](../../aspose.imaging/brush)иBrush.
+Содержит методы расширения для[`Brush`](../../aspose.imaging/brush) а такжеBrush .
 
 ```csharp
 public static class BrushExtensions
@@ -18,7 +18,7 @@ public static class BrushExtensions
 
 | Имя | Описание |
 | --- | --- |
-| static [ToGdiBrush](../../aspose.imaging.extensions/brushextensions/togdibrush)(Brush) | Преобразует[`Brush`](../../aspose.imaging/brush)вBrush. |
+| static [ToGdiBrush](../../aspose.imaging.extensions/brushextensions/togdibrush)(Brush) | Преобразует[`Brush`](../../aspose.imaging/brush) кBrush . |
 
 ### Смотрите также
 

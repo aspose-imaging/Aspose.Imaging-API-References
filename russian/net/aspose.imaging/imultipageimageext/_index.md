@@ -1,14 +1,14 @@
 ---
 title: IMultipageImageExt
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Расширенный интерфейс многостраничных изображений
+description: Расширенный многостраничный интерфейс изображений
 type: docs
 weight: 9560
 url: /ru/net/aspose.imaging/imultipageimageext/
 ---
 ## IMultipageImageExt interface
 
-Расширенный интерфейс многостраничных изображений
+Расширенный многостраничный интерфейс изображений
 
 ```csharp
 public interface IMultipageImageExt : IMultipageImage

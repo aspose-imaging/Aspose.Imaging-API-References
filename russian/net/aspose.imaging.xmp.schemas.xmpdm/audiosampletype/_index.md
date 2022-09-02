@@ -1,14 +1,14 @@
 ---
 title: AudioSampleType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Представляет тип образца аудио вXmpDynamicMediaPackage./xmpdynamicmediapackage.
+description: Представляет тип семпла аудио вXmpDynamicMediaPackage./xmpdynamicmediapackage .
 type: docs
-weight: 11370
+weight: 11360
 url: /ru/net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype/
 ---
 ## AudioSampleType class
 
-Представляет тип образца аудио в[`XmpDynamicMediaPackage`](../xmpdynamicmediapackage).
+Представляет тип семпла аудио в[`XmpDynamicMediaPackage`](../xmpdynamicmediapackage) .
 
 ```csharp
 public sealed class AudioSampleType
@@ -22,7 +22,7 @@ public sealed class AudioSampleType
 | static [Packed](../../aspose.imaging.xmp.schemas.xmpdm/audiosampletype/packed) { get; } | Представляет упакованный образец аудио. |
 | static [Sample16Int](../../aspose.imaging.xmp.schemas.xmpdm/audiosampletype/sample16int) { get; } | Представляет образец аудио 16Int. |
 | static [Sample24Int](../../aspose.imaging.xmp.schemas.xmpdm/audiosampletype/sample24int) { get; } | Представляет образец аудио 24Int. |
-| static [Sample32Float](../../aspose.imaging.xmp.schemas.xmpdm/audiosampletype/sample32float) { get; } | Представляет образец аудио 32Float. |
+| static [Sample32Float](../../aspose.imaging.xmp.schemas.xmpdm/audiosampletype/sample32float) { get; } | Представляет звуковой образец 32Float. |
 | static [Sample32Int](../../aspose.imaging.xmp.schemas.xmpdm/audiosampletype/sample32int) { get; } | Представляет образец аудио 32Int. |
 | static [Sample8Int](../../aspose.imaging.xmp.schemas.xmpdm/audiosampletype/sample8int) { get; } | Представляет образец аудио 8Int. |
 
@@ -30,7 +30,7 @@ public sealed class AudioSampleType
 
 | Имя | Описание |
 | --- | --- |
-| override [ToString](../../aspose.imaging.xmp.schemas.xmpdm/audiosampletype/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.imaging.xmp.schemas.xmpdm/audiosampletype/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 
 ### Смотрите также
 

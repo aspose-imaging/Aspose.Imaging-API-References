@@ -1,14 +1,14 @@
 ---
 title: BufferSizeHint
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает подсказку о размере буфера которая определяет максимально допустимый размер для всех внутренних буферов.
+description: Получает или задает подсказку о размере буфера которая определяет максимально допустимый размер для всех внутренних буферов.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.memorymanagement/configuration/buffersizehint/
 ---
 ## Configuration.BufferSizeHint property
 
-Получает или устанавливает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов.
+Получает или задает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов.
 
 ```csharp
 public static int BufferSizeHint { get; set; }

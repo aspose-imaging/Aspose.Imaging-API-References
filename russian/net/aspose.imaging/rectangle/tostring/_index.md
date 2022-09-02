@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Преобразует атрибуты этогоRectangleaspose.imaging/rectangleв удобочитаемую строку.
+description: Преобразует атрибуты этогоRectangleaspose.imaging/rectangle в удобочитаемую строку.
 type: docs
 weight: 280
 url: /ru/net/aspose.imaging/rectangle/tostring/
 ---
 ## Rectangle.ToString method
 
-Преобразует атрибуты этого[`Rectangle`](../../rectangle)в удобочитаемую строку.
+Преобразует атрибуты этого[`Rectangle`](../../rectangle) в удобочитаемую строку.
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### Возвращаемое значение
 
-Строка, содержащая положение, ширину и высоту этого[`Rectangle`](../../rectangle)структура.
+Строка, содержащая положение, ширину и высоту этого[`Rectangle`](../../rectangle) структура.
 
 ### Смотрите также
 

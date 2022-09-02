@@ -18,27 +18,27 @@ public sealed class EmfSmallTextOut : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSmallTextOut](emfsmalltextout)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSmallTextOut`](../emfsmalltextout). |
+| [EmfSmallTextOut](emfsmalltextout)(EmfRecord) | Инициализирует новый экземпляр[`EmfSmallTextOut`](../emfsmalltextout) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/bounds) { get; set; } | Получает или задает необязательный 128-битный объект RectL WMF ([MS-WMF], раздел 2.2.2.19), который определяет ограничивающий прямоугольник в единицах устройства. |
-| [CChars](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/cchars) { get; set; } | Получает или задает 32-разрядное целое число без знака, определяющее количество 16-разрядных символов в строке . Строка НЕ завершается нулем. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/bounds) { get; set; } | Получает или задает необязательный 128-битный объект RectL WMF ([MS-WMF], раздел 2.2.2.19), который указывает ограничивающий прямоугольник в единицах измерения устройства. |
+| [CChars](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/cchars) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее количество 16-разрядных символов в строке . Строка НЕ завершается нулем. |
 | [ExScale](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/exscale) { get; set; } | Получает или задает 32-разрядное значение с плавающей запятой, указывающее, насколько масштабировать текст в направлении x. |
-| [EyScale](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/eyscale) { get; set; } | Получает или задает 32-разрядное значение с плавающей запятой, указывающее, насколько масштабировать текст в направлении Y. |
+| [EyScale](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/eyscale) { get; set; } | Получает или задает 32-битное значение с плавающей запятой, указывающее, насколько масштабировать текст в направлении Y. |
 | [FuOptions](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/fuoptions) { get; set; } | Получает или задает 32-разрядное целое число без знака, определяющее используемые параметры вывода текста. Эти параметры задаются одним или комбинацией значений из перечисления ExtTextOutOptions (раздел 2.1.11). |
-| [IGraphicsMode](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/igraphicsmode) { get; set; } | Получает или задает 32-битное целое число без знака, определяющее графический режим, из перечисления GraphicsMode (раздел 2.1.16). |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
-| [TextString](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/textstring) { get; set; } | Получает или задает строку переменной длины, содержащую текстовую строку для рисования, в 8-битном или 16-битном коде символов, в соответствии со значением поля fuOptions. |
+| [IGraphicsMode](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/igraphicsmode) { get; set; } | Получает или задает 32-битное целое число без знака, указывающее графический режим, из перечисления GraphicsMode (раздел 2.1.16). |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
+| [TextString](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/textstring) { get; set; } | Получает или задает строку переменной длины, содержащую текстовую строку для рисования, в виде 8-битных или 16-битных кодов символов в соответствии со значением поля fuOptions. |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
-| [X](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/x) { get; set; } | Получает или задает 32-разрядное целое число со знаком, определяющее координату x места для размещения строки. |
-| [Y](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/y) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее координату y места размещения строки. |
+| [X](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/x) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее координату x места для размещения строки. |
+| [Y](../../aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/y) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее координату y места для размещения строки. |
 
 ### Примечания
 
-Если в поле fuOptions установлено значение ETO_SMALL_CHARS, TextString содержит 8-битные коды для символы, полученные из младших байтов 16-битных кодов символов Unicode UTF16-LE, в которых предполагается, что старший байт равен 0. Если установлен ETO_NO_RECT в поле fuOptions поле Bounds не включается в запись.
+Если в поле fuOptions установлено значение ETO_SMALL_CHARS, TextString содержит 8-битные коды для символов, полученные из младших байтов 16-битных кодов символов Unicode UTF16-LE, в которых старший байт принимается равным 0. Если ETO_NO_RECT установлено в поле fuOptions, поле Bounds не включается в запись.
 
 ### Смотрите также
 

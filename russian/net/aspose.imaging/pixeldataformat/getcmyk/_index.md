@@ -1,14 +1,14 @@
 ---
 title: GetCmyk
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает цвет CMYK с указанным количеством битов на выборку.
+description: Получает цвет CMYK с указанным количеством битов на образец.
 type: docs
 weight: 200
 url: /ru/net/aspose.imaging/pixeldataformat/getcmyk/
 ---
 ## GetCmyk(int) {#getcmyk}
 
-Получает цвет CMYK с указанным количеством битов на выборку.
+Получает цвет CMYK с указанным количеством битов на образец.
 
 ```csharp
 public static PixelDataFormat GetCmyk(int bitsPerSample)
@@ -16,7 +16,7 @@ public static PixelDataFormat GetCmyk(int bitsPerSample)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| bitsPerSample | Int32 | Количество битов в выборке. |
+| bitsPerSample | Int32 | Количество битов на выборку. |
 
 ### Возвращаемое значение
 
@@ -32,7 +32,7 @@ public static PixelDataFormat GetCmyk(int bitsPerSample)
 
 ## GetCmyk(int, int, int, int) {#getcmyk_1}
 
-Получает цвет CMYK с указанным количеством битов на выборку.
+Получает цвет CMYK с указанным количеством битов на образец.
 
 ```csharp
 public static PixelDataFormat GetCmyk(int bitsPerCyanChannel, int bitsPerMagentaChannel, 
@@ -41,8 +41,8 @@ public static PixelDataFormat GetCmyk(int bitsPerCyanChannel, int bitsPerMagenta
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| bitsPerCyanChannel | Int32 | Количество битов на канал Cyan. |
-| bitsPerMagentaChannel | Int32 | Количество битов на канал Magenta. |
+| bitsPerCyanChannel | Int32 | Количество битов на голубой канал. |
+| bitsPerMagentaChannel | Int32 | Количество битов на пурпурный канал. |
 | bitsPerYellowChannel | Int32 | Количество битов на желтый канал. |
 | bitsPerKeyChannel | Int32 | Количество битов на ключевой канал. |
 

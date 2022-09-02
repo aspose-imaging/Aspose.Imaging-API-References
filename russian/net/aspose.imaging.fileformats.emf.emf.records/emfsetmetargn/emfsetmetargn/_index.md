@@ -1,14 +1,14 @@
 ---
 title: EmfSetMetaRgn
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetMetaRgnaspose.imaging.fileformats.emf.emf.records/emfsetmetargn.
+description: Инициализирует новый экземплярEmfSetMetaRgnaspose.imaging.fileformats.emf.emf.records/emfsetmetargn класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetmetargn/emfsetmetargn/
 ---
 ## EmfSetMetaRgn constructor
 
-Инициализирует новый экземпляр класса[`EmfSetMetaRgn`](../../emfsetmetargn).
+Инициализирует новый экземпляр[`EmfSetMetaRgn`](../../emfsetmetargn) класс.
 
 ```csharp
 public EmfSetMetaRgn(EmfRecord source)

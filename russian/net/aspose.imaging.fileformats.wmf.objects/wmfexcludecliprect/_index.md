@@ -1,14 +1,14 @@
 ---
 title: WmfExcludeClipRect
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_EXCLUDECLIPRECT устанавливает область отсечения в контексте воспроизведения устройства на существующую область отсечения минус указанный прямоугольник .
+description: Запись META_EXCLUDECLIPRECT устанавливает область отсечения в контексте устройства Play на существующую область отсечения за вычетом указанного прямоугольника .
 type: docs
 weight: 8650
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfexcludecliprect/
 ---
 ## WmfExcludeClipRect class
 
-Запись META_EXCLUDECLIPRECT устанавливает область отсечения в контексте воспроизведения устройства на существующую область отсечения минус указанный прямоугольник .
+Запись META_EXCLUDECLIPRECT устанавливает область отсечения в контексте устройства Play на существующую область отсечения за вычетом указанного прямоугольника .
 
 ```csharp
 public class WmfExcludeClipRect : WmfRectangle

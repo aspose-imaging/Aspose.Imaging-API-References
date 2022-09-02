@@ -1,14 +1,14 @@
 ---
 title: Radial1
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置radial1
+description: 获取或设置radial1.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfchord/radial1/
 ---
 ## WmfChord.Radial1 property
 
-获取或设置radial1。
+获取或设置radial1.
 
 ```csharp
 public Point Radial1 { get; set; }
@@ -16,7 +16,7 @@ public Point Radial1 { get; set; }
 
 ### 适当的价值
 
-first 端点的坐标，以逻辑坐标表示径向的。
+第一个径向端点的逻辑坐标坐标。
 
 ### 也可以看看
 

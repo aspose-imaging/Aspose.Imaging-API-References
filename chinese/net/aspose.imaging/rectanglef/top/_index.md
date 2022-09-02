@@ -1,14 +1,14 @@
 ---
 title: Top
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此RectangleFaspose.imaging/rectanglef结构上边缘的 y 坐标
+description: 获取或设置此顶部边缘的 y 坐标RectangleFaspose.imaging/rectanglef结构.
 type: docs
 weight: 150
 url: /zh/net/aspose.imaging/rectanglef/top/
 ---
 ## RectangleF.Top property
 
-获取或设置此[`RectangleF`](../../rectanglef)结构上边缘的 y 坐标。
+获取或设置此顶部边缘的 y 坐标[`RectangleF`](../../rectanglef)结构.
 
 ```csharp
 public float Top { get; set; }
@@ -16,7 +16,7 @@ public float Top { get; set; }
 
 ### 返回值
 
-此[`RectangleF`](../../rectanglef)结构上边缘的 y 坐标。
+此顶部边缘的 y 坐标[`RectangleF`](../../rectanglef)结构体。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Prefix
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置前缀如 uuid
+description: 获取或设置前缀如 uuid.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.xmp.types.derived/xmpguid/prefix/
 ---
 ## XmpGuid.Prefix property
 
-获取或设置前缀，如 uuid。
+获取或设置前缀，如 uuid.
 
 ```csharp
 public string Prefix { get; set; }
@@ -16,7 +16,7 @@ public string Prefix { get; set; }
 
 ### 适当的价值
 
-像uuid这样的前缀。
+uuid. 之类的前缀
 
 ### 也可以看看
 

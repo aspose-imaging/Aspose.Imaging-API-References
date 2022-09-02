@@ -16,7 +16,7 @@ public abstract TiffDataTypes TagType { get; }
 
 ### 适当的价值
 
-标签类型。
+标记类型。
 
 ### 也可以看看
 

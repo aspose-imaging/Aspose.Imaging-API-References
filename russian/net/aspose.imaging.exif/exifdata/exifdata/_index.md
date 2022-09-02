@@ -1,14 +1,14 @@
 ---
 title: ExifData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаExifDataaspose.imaging.exif/exifdata.
+description: Инициализирует новый экземплярExifDataaspose.imaging.exif/exifdata класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.exif/exifdata/exifdata/
 ---
 ## ExifData() {#constructor}
 
-Инициализирует новый экземпляр класса[`ExifData`](../../exifdata).
+Инициализирует новый экземпляр[`ExifData`](../../exifdata) класс.
 
 ```csharp
 public ExifData()
@@ -24,7 +24,7 @@ public ExifData()
 
 ## ExifData(TiffDataType[]) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`ExifData`](../../exifdata)данными из массива.
+Инициализирует новый экземпляр[`ExifData`](../../exifdata) класс с данными из массива.
 
 ```csharp
 public ExifData(TiffDataType[] exifdata)
@@ -45,7 +45,7 @@ public ExifData(TiffDataType[] exifdata)
 
 ## ExifData(TiffDataType[], TiffDataType[], TiffDataType[]) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`ExifData`](../../exifdata)данными из массива.
+Инициализирует новый экземпляр[`ExifData`](../../exifdata) класс с данными из массива.
 
 ```csharp
 public ExifData(TiffDataType[] commonTags, TiffDataType[] exifTags, TiffDataType[] gpsTags)

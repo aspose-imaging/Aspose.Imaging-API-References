@@ -1,14 +1,14 @@
 ---
 title: ExifSaturation
 second_title: Справочник по Aspose.Imaging for .NET API
-description: exif перечисление насыщенности.
+description: перечисление насыщенности exif.
 type: docs
 weight: 1000
 url: /ru/net/aspose.imaging.exif.enums/exifsaturation/
 ---
 ## ExifSaturation enumeration
 
-exif перечисление насыщенности.
+перечисление насыщенности exif.
 
 ```csharp
 public enum ExifSaturation

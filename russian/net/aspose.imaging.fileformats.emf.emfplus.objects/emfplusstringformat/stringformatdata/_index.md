@@ -1,14 +1,14 @@
 ---
 title: StringFormatData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект EmfPlusStringFormatData раздел 2.2.2.44  который указывает необязательные данные макета текста.
+description: Получает или задает объект EmfPlusStringFormatData раздел 2.2.2.44  который указывает дополнительные данные макета текста.
 type: docs
 weight: 110
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/stringformatdata/
 ---
 ## EmfPlusStringFormat.StringFormatData property
 
-Получает или задает объект EmfPlusStringFormatData (раздел 2.2.2.44) , который указывает необязательные данные макета текста.
+Получает или задает объект EmfPlusStringFormatData (раздел 2.2.2.44) , который указывает дополнительные данные макета текста.
 
 ```csharp
 public EmfPlusStringFormatData StringFormatData { get; set; }

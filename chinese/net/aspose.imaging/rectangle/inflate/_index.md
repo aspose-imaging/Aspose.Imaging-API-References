@@ -1,14 +1,14 @@
 ---
 title: Inflate
 second_title: Aspose.Imaging for .NET API 参考
-description: 创建并返回指定Rectangleaspose.imaging/rectangle结构的膨胀副本副本按指定的数量膨胀原始Rectangleaspose.imaging/rectangle结构保持不变
+description: 创建并返回指定的膨胀副本Rectangleaspose.imaging/rectangle结构体副本按指定的数量膨胀原本的Rectangleaspose.imaging/rectangle结构保持不变
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging/rectangle/inflate/
 ---
 ## Inflate(Rectangle, int, int)
 
-创建并返回指定[`Rectangle`](../../rectangle)结构的膨胀副本。副本按指定的数量膨胀。原始[`Rectangle`](../../rectangle)结构保持不变。
+创建并返回指定的膨胀副本[`Rectangle`](../../rectangle)结构体。副本按指定的数量膨胀。原本的[`Rectangle`](../../rectangle)结构保持不变。
 
 ```csharp
 public static Rectangle Inflate(Rectangle rect, int x, int y)
@@ -16,13 +16,13 @@ public static Rectangle Inflate(Rectangle rect, int x, int y)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | Rectangle | [`Rectangle`](../../rectangle)从哪个开始。此矩形未修改。 |
-| x | Int32 | 水平膨胀此[`Rectangle`](../../rectangle)的量。 |
-| y | Int32 | 垂直膨胀此[`Rectangle`](../../rectangle)的量。 |
+| rect | Rectangle | 这[`Rectangle`](../../rectangle)从哪个开始。此矩形未修改。 |
+| x | Int32 | 膨胀的金额[`Rectangle`](../../rectangle)水平。 |
+| y | Int32 | 膨胀的金额[`Rectangle`](../../rectangle)垂直。 |
 
 ### 返回值
 
-膨胀的[`Rectangle`](../../rectangle)。
+膨胀的[`Rectangle`](../../rectangle).
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public static Rectangle Inflate(Rectangle rect, int x, int y)
 
 ## Inflate(int, int) {#inflate_1}
 
-将这个[`Rectangle`](../../rectangle)膨胀指定的量。
+膨胀这个[`Rectangle`](../../rectangle)按指定数量。
 
 ```csharp
 public void Inflate(int width, int height)
@@ -42,8 +42,8 @@ public void Inflate(int width, int height)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| width | Int32 | 水平膨胀此[`Rectangle`](../../rectangle)的量。 |
-| height | Int32 | 垂直膨胀这个[`Rectangle`](../../rectangle)的量。 |
+| width | Int32 | 膨胀的金额[`Rectangle`](../../rectangle)水平。 |
+| height | Int32 | 膨胀的金额[`Rectangle`](../../rectangle)垂直。 |
 
 ### 也可以看看
 
@@ -55,7 +55,7 @@ public void Inflate(int width, int height)
 
 ## Inflate(Size) {#inflate}
 
-将这个[`Rectangle`](../../rectangle)膨胀指定的量。
+膨胀这个[`Rectangle`](../../rectangle)按指定数量。
 
 ```csharp
 public void Inflate(Size size)
@@ -63,7 +63,7 @@ public void Inflate(Size size)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| size | Size | 这个矩形的膨胀量。 |
+| size | Size | 此矩形的膨胀量。 |
 
 ### 也可以看看
 

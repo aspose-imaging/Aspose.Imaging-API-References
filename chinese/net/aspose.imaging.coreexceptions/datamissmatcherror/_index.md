@@ -18,7 +18,7 @@ public class DataMissmatchError : Exception
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DataMissmatchError](datamissmatcherror)(string) | 初始化[`DataMissmatchError`](../datamissmatcherror)类的新实例。 |
+| [DataMissmatchError](datamissmatcherror)(string) | 初始化[`DataMissmatchError`](../datamissmatcherror)类. |
 
 ### 也可以看看
 

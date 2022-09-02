@@ -1,14 +1,14 @@
 ---
 title: UsageSrc
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数该整数指定如何解释源位图标头中 颜色表中的值该值必须在 DIBColors 枚举中第 2.1.9 节
+description: 获取或设置一个 32 位无符号整数它指定如何解释源位图头中的 颜色表中的值此值必须在 DIBColors 枚举第 2.1.9 节中
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/usagesrc/
 ---
 ## EmfSetDiBitsToDevice.UsageSrc property
 
-获取或设置一个 32 位无符号整数，该整数指定如何解释源位图标头中 颜色表中的值。该值必须在 DIBColors 枚举中（第 2.1.9 节）。
+获取或设置一个 32 位无符号整数，它指定如何解释源位图头中的 颜色表中的值。此值必须在 DIBColors 枚举（第 2.1.9 节）中。
 
 ```csharp
 public EmfDibColors UsageSrc { get; set; }

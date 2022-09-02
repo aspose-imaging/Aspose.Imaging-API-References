@@ -18,8 +18,8 @@ public abstract class EmfControlRecordType : EmfRecord
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfControlRecordType](emfcontrolrecordtype#constructor_1)(EmfRecord) | 初始化[`EmfControlRecordType`](../emfcontrolrecordtype)类的新实例。 |
-| [EmfControlRecordType](emfcontrolrecordtype#constructor)(EmfRecordType) | 初始化[`EmfControlRecordType`](../emfcontrolrecordtype)类的新实例。 |
+| [EmfControlRecordType](emfcontrolrecordtype#constructor_1)(EmfRecord) | 初始化[`EmfControlRecordType`](../emfcontrolrecordtype)类. |
+| [EmfControlRecordType](emfcontrolrecordtype#constructor)(EmfRecordType) | 初始化[`EmfControlRecordType`](../emfcontrolrecordtype)类. |
 
 ## 特性
 

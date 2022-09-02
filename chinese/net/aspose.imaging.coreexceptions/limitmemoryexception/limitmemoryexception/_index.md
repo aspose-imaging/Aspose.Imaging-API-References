@@ -1,14 +1,14 @@
 ---
 title: LimitMemoryException
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化LimitMemoryExceptionaspose.imaging.coreexceptions/limitmemoryexception类的新实例
+description: 初始化LimitMemoryExceptionaspose.imaging.coreexceptions/limitmemoryexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.coreexceptions/limitmemoryexception/limitmemoryexception/
 ---
 ## LimitMemoryException(string) {#constructor}
 
-初始化[`LimitMemoryException`](../../limitmemoryexception)类的新实例。
+初始化[`LimitMemoryException`](../../limitmemoryexception)类.
 
 ```csharp
 public LimitMemoryException(string message)
@@ -28,7 +28,7 @@ public LimitMemoryException(string message)
 
 ## LimitMemoryException(string, Exception) {#constructor_2}
 
-初始化[`LimitMemoryException`](../../limitmemoryexception)类的新实例。
+初始化[`LimitMemoryException`](../../limitmemoryexception)类.
 
 ```csharp
 public LimitMemoryException(string message, Exception innerException)
@@ -37,7 +37,7 @@ public LimitMemoryException(string message, Exception innerException)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 异常消息。 |
-| innerException | Exception | 内部异常。 |
+| innerException | Exception | 内在异常。 |
 
 ### 也可以看看
 
@@ -49,7 +49,7 @@ public LimitMemoryException(string message, Exception innerException)
 
 ## LimitMemoryException(string, long) {#constructor_1}
 
-初始化[`LimitMemoryException`](../../limitmemoryexception)类的新实例。
+初始化[`LimitMemoryException`](../../limitmemoryexception)类.
 
 ```csharp
 public LimitMemoryException(string message, long reduceMemoryFactor)
@@ -58,7 +58,7 @@ public LimitMemoryException(string message, long reduceMemoryFactor)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 异常消息。 |
-| reduceMemoryFactor | Int64 | 减少内存因子。 |
+| reduceMemoryFactor | Int64 | 减少记忆因子。 |
 
 ### 也可以看看
 
@@ -70,7 +70,7 @@ public LimitMemoryException(string message, long reduceMemoryFactor)
 
 ## LimitMemoryException(string, Exception, int) {#constructor_3}
 
-初始化[`LimitMemoryException`](../../limitmemoryexception)类的新实例。
+初始化[`LimitMemoryException`](../../limitmemoryexception)类.
 
 ```csharp
 public LimitMemoryException(string message, Exception innerException, int reduceMemoryFactor)
@@ -79,8 +79,8 @@ public LimitMemoryException(string message, Exception innerException, int reduce
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 异常消息。 |
-| innerException | Exception | 内部异常。 |
-| reduceMemoryFactor | Int32 | 减少内存因子。 |
+| innerException | Exception | 内在异常。 |
+| reduceMemoryFactor | Int32 | 减少记忆因子。 |
 
 ### 也可以看看
 

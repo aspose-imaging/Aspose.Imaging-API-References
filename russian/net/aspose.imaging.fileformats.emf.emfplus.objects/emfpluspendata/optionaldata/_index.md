@@ -1,14 +1,14 @@
 ---
 title: OptionalData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает необязательный объект EmfPlusPenOptionalData раздел 2.2.2.34 который указывает дополнительные данные для объекта пера. Конкретное содержимое этого поля определяется значением поля PenDataFlags.
+description: Получает или задает необязательный объект EmfPlusPenOptionalData раздел 2.2.2.34  который указывает дополнительные данные для объекта пера. Конкретное содержимое этого поля определяется значением поля PenDataFlags.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/optionaldata/
 ---
 ## EmfPlusPenData.OptionalData property
 
-Получает или задает необязательный объект EmfPlusPenOptionalData (раздел 2.2.2.34) который указывает дополнительные данные для объекта пера. Конкретное содержимое этого поля определяется значением поля PenDataFlags.
+Получает или задает необязательный объект EmfPlusPenOptionalData (раздел 2.2.2.34) , который указывает дополнительные данные для объекта пера. Конкретное содержимое этого поля определяется значением поля PenDataFlags.
 
 ```csharp
 public EmfPlusPenOptionalData OptionalData { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: C
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение голубого компонента этойColoraspose.imaging/colorструктуры.
+description: Получает значение голубого компонента этогоColoraspose.imaging/color структура.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging/cmykcolor/c/
 ---
 ## CmykColor.C property
 
-Получает значение голубого компонента этой[`Color`](../../color)структуры.
+Получает значение голубого компонента этого[`Color`](../../color) структура.
 
 ```csharp
 public byte C { get; }
@@ -16,7 +16,7 @@ public byte C { get; }
 
 ### Стоимость имущества
 
-Значение голубого компонента этого[`Color`](../../color).
+Значение голубого компонента этого[`Color`](../../color) .
 
 ### Смотрите также
 

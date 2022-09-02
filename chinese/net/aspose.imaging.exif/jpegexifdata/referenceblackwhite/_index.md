@@ -16,7 +16,7 @@ public TiffRational[] ReferenceBlackWhite { get; set; }
 
 ### 适当的价值
 
-参考黑白。
+参考黑白色.
 
 ### 也可以看看
 

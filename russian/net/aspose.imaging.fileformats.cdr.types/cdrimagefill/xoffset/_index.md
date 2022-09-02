@@ -1,14 +1,14 @@
 ---
 title: XOffset
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает смещение x.
+description: Получает или задает смещение по оси x.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging.fileformats.cdr.types/cdrimagefill/xoffset/
 ---
 ## CdrImageFill.XOffset property
 
-Получает или задает смещение x.
+Получает или задает смещение по оси x.
 
 ```csharp
 public double XOffset { get; set; }
@@ -16,7 +16,7 @@ public double XOffset { get; set; }
 
 ### Стоимость имущества
 
-Смещение x.
+Смещение по оси x.
 
 ### Смотрите также
 

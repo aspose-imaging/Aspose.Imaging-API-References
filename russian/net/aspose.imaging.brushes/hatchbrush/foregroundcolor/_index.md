@@ -25,36 +25,36 @@ public Color ForegroundColor { get; set; }
 ```csharp
 [C#]
 
- //Создаем экземпляр BmpOptions и устанавливаем его различные свойства
+//Создаем экземпляр BmpOptions и устанавливаем его различные свойства
 Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 bmpOptions.BitsPerPixel = 24;
 
- //Создаем экземпляр FileCreateSource и назначаем его в качестве источника для экземпляра BmpOptions
- //Второй логический параметр определяет, является ли создаваемый файл временным или нет
+//Создаем экземпляр FileCreateSource и назначаем его в качестве источника для экземпляра BmpOptions
+//Второй логический параметр определяет, является ли создаваемый файл временным или нет
 bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"C:\temp\sample.bmp", false);
 
- //Создать экземпляр изображения по указанному пути
+//Создаем экземпляр изображения по указанному пути
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
 {
-     //Создаем экземпляр Graphics и инициализируем его изображением object
+    //Создаем экземпляр Graphics и инициализируем его объектом Image
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
 
-     // Очистить графическую поверхность с помощью белого цвета
+    // Очистить графическую поверхность белым цветом
     graphics.Clear(Aspose.Imaging.Color.White);
 
-     //Создаем экземпляр Pen красного цвета и ширины 5
+    //Создаем экземпляр Pen красного цвета и ширины 5
     Aspose.Imaging.Pen pen = new Aspose.Imaging.Pen(Aspose.Imaging.Color.Red, 5f);
 
-     //Создаем экземпляр HatchBrush и устанавливаем его свойства
+    //Создаем экземпляр HatchBrush и устанавливаем его свойства
     Aspose.Imaging.Brushes.HatchBrush brush = new Aspose.Imaging.Brushes.HatchBrush();
     brush.BackgroundColor = Aspose.Imaging.Color.Wheat;
     brush.ForegroundColor = Aspose.Imaging.Color.Red;
 
-     //Создаем экземпляр Pen
-     //инициализируем его с помощью объекта HatchBrush и width
+    //Создаем экземпляр пера
+    // инициализируем его объектом HatchBrush и шириной
     Aspose.Imaging.Pen brusedpen = new Pen(brush, 5);
 
-     // Рисуем прямоугольники, указав Pen object
+    // Рисуем прямоугольники, указав объект Pen
     graphics.DrawRectangles(pen, new[]
     {
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(210, 210), new Aspose.Imaging.Size(100, 100)),
@@ -62,14 +62,14 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(310, 310), new Aspose.Imaging.Size(100, 100))
     });
 
-     // Рисуем прямоугольники, указав Pen object
+    // Рисуем прямоугольники, указав объект Pen
     graphics.DrawRectangles(brusedpen, new[]
     {
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(310, 110), new Aspose.Imaging.Size(100, 100)),
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(110, 310), new Aspose.Imaging.Size(100, 100))
     });
 
-     // сохранить все изменения.
+    // сохранить все изменения.
     image.Save();
 }
 ```

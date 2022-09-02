@@ -1,14 +1,14 @@
 ---
 title: GetFullFrame
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取完整帧
+description: 获取全帧
 type: docs
 weight: 220
 url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifframeblock/getfullframe/
 ---
 ## GifFrameBlock.GetFullFrame method
 
-获取完整帧。
+获取全帧。
 
 ```csharp
 public RasterImage GetFullFrame()
@@ -16,7 +16,7 @@ public RasterImage GetFullFrame()
 
 ### 返回值
 
-全帧光栅图像
+具有全帧的 RasterImage
 
 ### 例外
 

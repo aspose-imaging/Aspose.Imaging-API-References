@@ -1,14 +1,14 @@
 ---
 title: DashedLineCapType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает необязательное 32-разрядное целое число со знаком которое указывает форму для обоих концов каждого дефиса в пунктирной линии. Это поле ДОЛЖНО присутствовать если флаг PenDataDashedLineCap установлен в поле PenDataFlags объекта EmfPlusPenData а значение ДОЛЖНО быть определено в DashedLineCapType. перечисление раздел 2.1.1.10.
+description: Получает или задает необязательное 32-разрядное целое число со знаком которое указывает форму для обоих концов каждого тире в пунктирной линии. Это поле ДОЛЖНО иметь значение  если флаг PenDataDashedLineCap установлен в поле PenDataFlags объекта EmfPlusPenData а значение ДОЛЖНО быть определено в перечислении DashedLineCapType раздел 2.1.1.10.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata/dashedlinecaptype/
 ---
 ## EmfPlusPenOptionalData.DashedLineCapType property
 
-Получает или задает необязательное 32-разрядное целое число со знаком, которое указывает форму для обоих концов каждого дефиса в пунктирной линии. Это поле ДОЛЖНО присутствовать, если флаг PenDataDashedLineCap установлен в поле PenDataFlags объекта EmfPlusPenData, а значение ДОЛЖНО быть определено в DashedLineCapType. перечисление (раздел 2.1.1.10).
+Получает или задает необязательное 32-разрядное целое число со знаком, которое указывает форму для обоих концов каждого тире в пунктирной линии. Это поле ДОЛЖНО иметь значение , если флаг PenDataDashedLineCap установлен в поле PenDataFlags объекта EmfPlusPenData, а значение ДОЛЖНО быть определено в перечислении DashedLineCapType (раздел 2.1.1.10).
 
 ```csharp
 public EmfPlusDashedLineCapType DashedLineCapType { get; set; }

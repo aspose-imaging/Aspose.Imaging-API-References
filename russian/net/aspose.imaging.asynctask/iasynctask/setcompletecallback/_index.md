@@ -16,7 +16,7 @@ public void SetCompleteCallback(CompleteCallback completeCallback)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| completeCallback | CompleteCallback | Полный обратный вызов. |
+| completeCallback | CompleteCallback | Полный обратный звонок. |
 
 ### Смотрите также
 

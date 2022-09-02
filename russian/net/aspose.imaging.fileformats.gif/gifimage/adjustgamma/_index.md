@@ -31,7 +31,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"
 {
     Aspose.Imaging.FileFormats.Gif.GifImage gifImage = (Aspose.Imaging.FileFormats.Gif.GifImage)image;
 
-     // Установить коэффициент гаммы для красного, зеленого и синего каналов.
+    // Установите коэффициент гаммы для красного, зеленого и синего каналов.
     gifImage.AdjustGamma(2.5f);
     gifImage.Save(dir + "sample.AdjustGamma.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
@@ -56,12 +56,12 @@ public override void AdjustGamma(float gammaRed, float gammaGreen, float gammaBl
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | gammaRed | Single | Гамма для коэффициента красного канала |
-| gammaGreen | Single | Гамма для коэффициент зеленого канала |
-| gammaBlue | Single | Гамма для коэффициента синего канала |
+| gammaGreen | Single | Гамма коэффициента зеленого канала |
+| gammaBlue | Single | Гамма коэффициента синего канала |
 
 ### Примеры
 
-В следующем примере выполняется гамма-коррекция изображение в формате GIF, применяющее различные коэффициенты для компонентов цвета.
+В следующем примере выполняется гамма-коррекция изображения GIF с применением различных коэффициентов для компонентов цвета.
 
 ```csharp
 [C#]
@@ -72,7 +72,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"
 {
     Aspose.Imaging.FileFormats.Gif.GifImage gifImage = (Aspose.Imaging.FileFormats.Gif.GifImage)image;
 
-     // Установить индивидуальные гамма-коэффициенты для красного, зеленого и синего каналов.
+    // Установить индивидуальные гамма-коэффициенты для красного, зеленого и синего каналов.
     gifImage.AdjustGamma(1.5f, 2.5f, 3.5f);
     gifImage.Save(dir + "sample.AdjustGamma.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }

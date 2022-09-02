@@ -16,7 +16,7 @@ public TiffRational Yresolution { get; set; }
 
 ### Стоимость имущества
 
-Разрешение y.
+Разрешение по оси Y.
 
 ### Смотрите также
 

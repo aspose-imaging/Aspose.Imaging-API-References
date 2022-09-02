@@ -21,9 +21,9 @@ public enum FontStyle
 | --- | --- | --- |
 | Regular | `0` | 普通文本。 |
 | Bold | `1` | 粗体字。 |
-| Italic | `2` | 斜体文本。 |
+| Italic | `2` | 斜体字。 |
 | Underline | `4` | 带下划线的文本。 |
-| Strikeout | `8` | 中间有一行的文本。 |
+| Strikeout | `8` | 中间有一条线的文本。 |
 
 ### 也可以看看
 

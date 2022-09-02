@@ -1,14 +1,14 @@
 ---
 title: BodySerialNumber
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает серийный номер корпуса камеры.
+description: Получает или задает серийный номер корпуса камеры.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.exif/exifdata/bodyserialnumber/
 ---
 ## ExifData.BodySerialNumber property
 
-Получает или устанавливает серийный номер корпуса камеры.
+Получает или задает серийный номер корпуса камеры.
 
 ```csharp
 public string BodySerialNumber { get; set; }

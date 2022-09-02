@@ -1,14 +1,14 @@
 ---
 title: LineJoin
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数该整数指定 LineJoin 枚举中的值该枚举指定如何连接由 同一支笔其收支平衡在两条线端的交点处 线连接使连接看起来更连续
+description: 获取或设置一个 32 位无符号整数该整数指定 LineJoin 枚举中的值该枚举指定如何连接由 同一支笔绘制且末端相接的两条线在两条线端的交点处 一个线连接使连接看起来更连续
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/linejoin/
 ---
 ## EmfPlusCustomLineCapArrowData.LineJoin property
 
-获取或设置一个 32 位无符号整数，该整数指定 LineJoin 枚举中的值，该枚举指定如何连接由 同一支笔，其收支平衡。在两条线端的交点处， 线连接使连接看起来更连续。
+获取或设置一个 32 位无符号整数，该整数指定 LineJoin 枚举中的值，该枚举指定如何连接由 同一支笔绘制且末端相接的两条线。在两条线端的交点处， 一个线连接使连接看起来更连续。
 
 ```csharp
 public EmfPlusLineJoinType LineJoin { get; set; }

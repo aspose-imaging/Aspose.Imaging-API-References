@@ -1,14 +1,14 @@
 ---
 title: FontStoreType
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置是否使用嵌入字体的值
+description: 获取或设置一个值指示是否使用嵌入字体
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.svg/fontstoringargs/fontstoretype/
 ---
 ## FontStoringArgs.FontStoreType property
 
-获取或设置是否[使用嵌入字体]的值。
+获取或设置一个值，指示是否[使用嵌入字体]。
 
 ```csharp
 public FontStoreType FontStoreType { get; set; }
@@ -16,7 +16,7 @@ public FontStoreType FontStoreType { get; set; }
 
 ### 适当的价值
 
-` true` if [使用嵌入字体];否则，` false` 。
+`真的` if [使用嵌入字体];否则，`错误的` .
 
 ### 也可以看看
 

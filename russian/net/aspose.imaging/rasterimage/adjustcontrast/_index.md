@@ -1,14 +1,14 @@
 ---
 title: AdjustContrast
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Контраст изображения
+description: Изображение контрастное
 type: docs
 weight: 200
 url: /ru/net/aspose.imaging/rasterimage/adjustcontrast/
 ---
 ## RasterImage.AdjustContrast method
 
-Контраст изображения
+Изображение контрастное
 
 ```csharp
 public virtual void AdjustContrast(float contrast)
@@ -16,7 +16,7 @@ public virtual void AdjustContrast(float contrast)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| contrast | Single | Значение контраста (в диапазоне [-100 ; 100]) |
+| contrast | Single | Значение контраста (в диапазоне [-100; 100]) |
 
 ### Примеры
 
@@ -31,7 +31,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-     // Установить значение контраста. Допустимые значения контраста находятся в диапазоне [-100f, 100f].
+    // Установить значение контраста. Принятые значения контраста находятся в диапазоне [-100f, 100f].
     rasterImage.AdjustContrast(50);
     rasterImage.Save(dir + "sample.AdjustContrast.png");
 }

@@ -3,7 +3,7 @@ title: Aspose.Imaging.ImageFilters.FilterOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles Filter options.
 type: docs
-weight: 740
+weight: 750
 url: /net/aspose.imaging.imagefilters.filteroptions/
 ---
 The namespace handles Filter options.

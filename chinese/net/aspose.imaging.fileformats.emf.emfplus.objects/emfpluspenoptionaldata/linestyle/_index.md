@@ -1,14 +1,14 @@
 ---
 title: LineStyle
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置可选的 32 位有符号整数指定样式 用于使用此笔对象绘制的线条如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataLineStyle 标志则该字段必须存在 并且必须在 LineStyle 中定义 值枚举 第 2.1.1.20 节
+description: 获取或设置可选的 32 位有符号整数指定使用此笔对象绘制的线条的样式 如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataLineStyle 标志则该字段必须 存在并且必须在 LineStyle 枚举 第 2.1.1.20 节中定义 值
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata/linestyle/
 ---
 ## EmfPlusPenOptionalData.LineStyle property
 
-获取或设置可选的 32 位有符号整数，指定样式 用于使用此笔对象绘制的线条。如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataLineStyle 标志，则该字段必须存在 ，并且必须在 LineStyle 中定义 值枚举 （第 2.1.1.20 节）。
+获取或设置可选的 32 位有符号整数，指定使用此笔对象绘制的线条的样式 。如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataLineStyle 标志，则该字段必须 存在，并且必须在 LineStyle 枚举 （第 2.1.1.20 节）中定义 值。
 
 ```csharp
 public EmfPlusLineStyle LineStyle { get; set; }

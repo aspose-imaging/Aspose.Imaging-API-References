@@ -1,14 +1,14 @@
 ---
 title: Union
 second_title: Aspose.Imaging for .NET API 参考
-description: 将此Regionaspose.imaging/region更新为自身与指定RectangleF结构
+description: 更新这个Regionaspose.imaging/region到自身和指定的联合RectangleFaspose.imaging/rectanglef结构.
 type: docs
 weight: 140
 url: /zh/net/aspose.imaging/region/union/
 ---
 ## Union(RectangleF) {#union_2}
 
-将此[`Region`](../../region)更新为自身与指定RectangleF结构。
+更新这个[`Region`](../../region)到自身和指定的联合[`RectangleF`](../../rectanglef)结构.
 
 ```csharp
 public void Union(RectangleF rect)
@@ -16,7 +16,7 @@ public void Union(RectangleF rect)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | RectangleF | [`RectangleF`](../../rectanglef)结构与此:::R5 结合:T:Aspose.Imaging.Region:::。 |
+| rect | RectangleF | 这[`RectangleF`](../../rectanglef)与此结合的结构[`Region`](../../region). |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public void Union(RectangleF rect)
 
 ## Union(Rectangle) {#union_1}
 
-将此[`Region`](../../region)更新为自身与指定Rectangle结构。
+更新这个[`Region`](../../region)到自身和指定的联合[`Rectangle`](../../rectangle)结构.
 
 ```csharp
 public void Union(Rectangle rect)
@@ -37,7 +37,7 @@ public void Union(Rectangle rect)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | Rectangle | [`Rectangle`](../../rectangle)结构与这个:::R5 结合:T:Aspose.Imaging.Region:::。 |
+| rect | Rectangle | 这[`Rectangle`](../../rectangle)与此结合的结构[`Region`](../../region). |
 
 ### 也可以看看
 
@@ -50,7 +50,7 @@ public void Union(Rectangle rect)
 
 ## Union(GraphicsPath) {#union}
 
-将此[`Region`](../../region)更新为自身与指定GraphicsPath。
+更新这个[`Region`](../../region)到自身和指定的联合[`GraphicsPath`](../../graphicspath) .
 
 ```csharp
 public void Union(GraphicsPath path)
@@ -58,13 +58,13 @@ public void Union(GraphicsPath path)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| path | GraphicsPath | [`GraphicsPath`](../../graphicspath)与此[`Region`](../../region)。 |
+| path | GraphicsPath | 这[`GraphicsPath`](../../graphicspath)与此联合[`Region`](../../region). |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *path*为空。 |
+| ArgumentNullException | *path*一片空白。 |
 
 ### 也可以看看
 
@@ -77,7 +77,7 @@ public void Union(GraphicsPath path)
 
 ## Union(Region) {#union_3}
 
-将此[`Region`](../../region)更新为自身与指定Imaging的并集。地区。
+更新这个[`Region`](../../region)到自身和指定的联合[`Region`](../../region) .
 
 ```csharp
 public void Union(Region region)
@@ -85,13 +85,13 @@ public void Union(Region region)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| region | Region | [`Region`](../../region)与这个:::R5 结合:T:Aspose.Imaging.Region:::。 |
+| region | Region | 这[`Region`](../../region)与此联合[`Region`](../../region). |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *region*为空。 |
+| ArgumentNullException | *region*一片空白。 |
 
 ### 也可以看看
 

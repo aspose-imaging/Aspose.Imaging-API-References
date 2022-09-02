@@ -16,11 +16,11 @@ public int[] MatrixN3 { get; set; }
 
 ### 适当的价值
 
-矩阵 n1。
+矩阵 n1.
 
 ### 评论
 
-Matrix_0_3（4 字节）:Matrix[0][3]。 Matrix_1_3（4 个字节）:Matrix[1][3]。 Matrix_2_3（4 个字节）:Matrix[2][3]。 Matrix_3_3 (4 bytes):Matrix[3][3], 这是 alpha (透明度) 的因子 Matrix_4_0 (4 bytes):Matrix[4][0 ]。该值必须为 0.0。
+Matrix_0_3 (4 bytes): Matrix[0][3]. Matrix_1_3 (4 bytes): Matrix[1][3]. Matrix_2_3 (4 bytes): Matrix[2][3]. Matrix_3_3 (4 bytes )：Matrix[3][3]，它是 alpha（透明度） Matrix_4_0（4 字节）的因子：Matrix[4][0]。这个值必须是 0.0.
 
 ### 也可以看看
 

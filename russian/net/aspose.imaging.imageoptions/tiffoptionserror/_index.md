@@ -3,7 +3,7 @@ title: TiffOptionsError
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Коды ошибок опций tiff.
 type: docs
-weight: 10240
+weight: 10230
 url: /ru/net/aspose.imaging.imageoptions/tiffoptionserror/
 ---
 ## TiffOptionsError enumeration
@@ -19,7 +19,7 @@ public enum TiffOptionsError
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | NoError | `0` | Нет кода ошибки. |
-| NoColorMap | `1` | Карта цветов не определена. |
+| NoColorMap | `1` | Цветовая карта не определена. |
 | ColorMapLengthInvalid | `2` | Недопустимая длина цветовой карты. |
 | CompressionSppMismatch | `3` | Сжатие не соответствует количеству выборок на пиксель. |
 | PhotometricCompressionMismatch | `4` | Сжатие не соответствует фотометрическим настройкам. |

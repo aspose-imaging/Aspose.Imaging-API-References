@@ -3,7 +3,7 @@ title: PdfPackage
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет пространство имен Adobe Pdf.
 type: docs
-weight: 11310
+weight: 11300
 url: /ru/net/aspose.imaging.xmp.schemas.pdf/pdfpackage/
 ---
 ## PdfPackage class
@@ -24,7 +24,7 @@ public sealed class PdfPackage : XmpPackage
 
 | Имя | Описание |
 | --- | --- |
-| virtual [Item](../../aspose.imaging.xmp/xmppackage/item) { get; set; } | Получает или задаетObjectс указанным ключом. |
+| virtual [Item](../../aspose.imaging.xmp/xmppackage/item) { get; set; } | Получает или задаетObject с указанным ключом. |
 | virtual [Keys](../../aspose.imaging.xmp/xmppackage/keys) { get; } | Получает ключи в пакете XMP. |
 | [NamespaceUri](../../aspose.imaging.xmp/xmppackage/namespaceuri) { get; } | Получает URI пространства имен. |
 | [Prefix](../../aspose.imaging.xmp/xmppackage/prefix) { get; } | Получает префикс. |
@@ -36,14 +36,14 @@ public sealed class PdfPackage : XmpPackage
 | --- | --- |
 | override [AddValue](../../aspose.imaging.xmp.schemas.pdf/pdfpackage/addvalue)(string, string) | Добавляет строковое свойство. |
 | virtual [Clear](../../aspose.imaging.xmp/xmppackage/clear)() | Очищает этот экземпляр. |
-| virtual [ContainsKey](../../aspose.imaging.xmp/xmppackage/containskey)(string) | Определяет, содержит ли указанный ключ ключ. |
-| [GetEnumerator](../../aspose.imaging.xmp/xmppackage/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| virtual [ContainsKey](../../aspose.imaging.xmp/xmppackage/containskey)(string) | Определяет, содержит ли указанный ключ key. |
+| [GetEnumerator](../../aspose.imaging.xmp/xmppackage/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | virtual [GetXmlValue](../../aspose.imaging.xmp/xmppackage/getxmlvalue)() | Преобразует значение XMP в представление XML. |
 | virtual [Remove](../../aspose.imaging.xmp/xmppackage/remove)(string) | Удалить значение с указанным ключом. |
-| [SetKeywords](../../aspose.imaging.xmp.schemas.pdf/pdfpackage/setkeywords)(string) | Устанавливает ключевые слова. |
+| [SetKeywords](../../aspose.imaging.xmp.schemas.pdf/pdfpackage/setkeywords)(string) | Задает ключевые слова. |
 | [SetPdfVersion](../../aspose.imaging.xmp.schemas.pdf/pdfpackage/setpdfversion)(string) | Устанавливает версию PDF. |
 | [SetProducer](../../aspose.imaging.xmp.schemas.pdf/pdfpackage/setproducer)(string) | Устанавливает имя инструмента, создавшего Pdf. |
-| [SetTrapped](../../aspose.imaging.xmp.schemas.pdf/pdfpackage/settrapped)(bool) | Устанавливает в ловушку. |
+| [SetTrapped](../../aspose.imaging.xmp.schemas.pdf/pdfpackage/settrapped)(bool) | Устанавливает ловушку. |
 | virtual [SetValue](../../aspose.imaging.xmp/xmppackage/setvalue)(string, IXmlValue) | Устанавливает значение. |
 | virtual [SetXmpTypeValue](../../aspose.imaging.xmp/xmppackage/setxmptypevalue)(string, XmpTypeBase) | Устанавливает значение типа XMP. |
 

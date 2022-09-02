@@ -16,8 +16,8 @@ public void LoadPartialPixels(Rectangle desiredRectangle, IPartialPixelLoader pi
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| желаемыйпрямоугольник | Rectangle | Желаемый прямоугольник. |
-| pixelLoader | IPartialPixelLoader | Загрузчик пикселей. |
+| desiredRectangle | Rectangle | Желаемый прямоугольник. |
+| pixelLoader | IPartialPixelLoader | Пиксельный загрузчик. |
 
 ### Примеры
 
@@ -30,29 +30,29 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\alpha.pn
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-     // Создаем экземпляр Aspose.Imaging.IPartialPixelLoader и передаем его Aspose.Imaging.RasterImage.LoadPartialPixels
+    // Создаем экземпляр Aspose.Imaging.IPartialPixelLoader и передаем его в Aspose.Imaging.RasterImage.LoadPartialPixels
     TransparentPixelCounter counter = new TransparentPixelCounter();
 
-     // Загрузить пиксели для всего изображения. Любая прямоугольная часть изображения может быть указана в качестве первого параметра метода Aspose.Imaging.RasterImage.LoadPartialPixels.
+    // Загрузить пиксели для всего изображения. Любая прямоугольная часть изображения может быть указана в качестве первого параметра метода Aspose.Imaging.RasterImage.LoadPartialPixels.
     rasterImage.LoadPartialPixels(rasterImage.Bounds, counter);
 
     System.Console.WriteLine("The number of fully transparent pixels is {0}", counter.Count);
     System.Console.WriteLine("The total number of pixels is {0}", image.Width * image.Height);
 }
 
- // Счетчик может выглядеть так: 
+// Счетчик может выглядеть так:
 /// <summary>
- /// Подсчитывает количество полностью прозрачных пикселей со значением альфа-канала 0.
+/// Подсчитывает количество полностью прозрачных пикселей со значением альфа-канала, равным 0.
 /// </summary>
 private class TransparentPixelCounter : IPartialPixelLoader
 {
     /// <summary>
-     /// Количество полностью прозрачных пикселей.
+    /// Количество полностью прозрачных пикселей.
     /// </summary>
     private int count;
 
     /// <summary>
-     /// Получает количество полностью прозрачных пикселей.
+    /// Получает количество полностью прозрачных пикселей.
     /// </summary>
     public int Count
     {
@@ -62,10 +62,10 @@ private class TransparentPixelCounter : IPartialPixelLoader
     /// <summary>
     /// Обрабатывает загруженные пиксели. Этот метод вызывается каждый раз, когда загружается новая порция пикселей.
     /// </summary>
-     /// <param name="pixelsRectangle">Прямоугольник в пикселях.</param>
-     /// <param name="pixels">32-битные пиксели ARGB.</param>
-     /// <param name="start">Точка начального пикселя.</param>
-     /// <param name="end">Конечная точка пикселей.</param>
+    /// <param name="pixelsRectangle">Прямоугольник в пикселях.</param>
+    /// <param name="pixels">32-битные пиксели ARGB.</param>
+    /// <param name="start">Начальная точка пикселей.</param>
+    /// <param name="end">Конечная точка пикселей.</param>
     public void Process(Aspose.Imaging.Rectangle pixelsRectangle, Aspose.Imaging.Color[] pixels, Aspose.Imaging.Point start, Aspose.Imaging.Point end)
     {
         foreach (Color pixel in pixels)

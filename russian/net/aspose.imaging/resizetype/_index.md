@@ -1,14 +1,14 @@
 ---
 title: ResizeType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Указывает тип изменения размера.
+description: Определяет тип изменения размера.
 type: docs
-weight: 10870
+weight: 10860
 url: /ru/net/aspose.imaging/resizetype/
 ---
 ## ResizeType enumeration
 
-Указывает тип изменения размера.
+Определяет тип изменения размера.
 
 ```csharp
 public enum ResizeType
@@ -18,19 +18,19 @@ public enum ResizeType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `0` | Пиксели не сохраняются при изменении размера. |
-| LeftTopToLeftTop | `1` | Левая верхняя точка нового изображения совпадет с левой верхней точкой исходного изображения. Обрезка произойдет, если потребуется. |
-| RightTopToRightTop | `2` | Правая верхняя точка нового изображения совпадет с правой верхней точкой исходного изображения. Обрезка произойдет, если потребуется. |
-| RightBottomToRightBottom | `3` | Правая нижняя точка нового изображения совпадет с правой нижней точкой исходного изображения. Обрезка произойдет, если потребуется. |
-| LeftBottomToLeftBottom | `4` | Левая нижняя точка нового изображения совпадет с левой нижней точкой исходного изображения. Обрезка произойдет, если потребуется. |
-| CenterToCenter | `5` | Центр нового изображения совпадет с центром исходного изображения. Обрезка произойдет, если потребуется. |
+| None | `0` | Пиксели не сохраняются во время операции изменения размера. |
+| LeftTopToLeftTop | `1` | Левая верхняя точка нового изображения совпадет с левой верхней точкой исходного изображения. При необходимости произойдет кадрирование. |
+| RightTopToRightTop | `2` | Правая верхняя точка нового изображения совпадет с правой верхней точкой исходного изображения. При необходимости произойдет кадрирование. |
+| RightBottomToRightBottom | `3` | Правая нижняя точка нового изображения совпадет с правой нижней точкой исходного изображения. При необходимости произойдет кадрирование. |
+| LeftBottomToLeftBottom | `4` | Левая нижняя точка нового изображения будет совпадать с левой нижней точкой исходного изображения. При необходимости произойдет кадрирование. |
+| CenterToCenter | `5` | Центр нового изображения совпадет с центром исходного изображения. При необходимости произойдет кадрирование. |
 | LanczosResample | `6` | Повторная выборка с использованием алгоритма Ланцоша с a=3. |
-| NearestNeighbourResample | `7` | Повторная выборка с использованием алгоритма ближайшего соседа. |
-| AdaptiveResample | `8` | Повторная выборка с использованием адаптивного алгоритма, основанного на взвешенной и смешанной рациональной функции и алгоритмах интерполяции lanczos3. |
-| BilinearResample | `9` | Передискретизация с использованием билинейной интерполяции. Предварительная фильтрация изображения разрешена для удаления шума перед повторной выборкой, когда это необходимо |
+| NearestNeighbourResample | `7` | Передискретизировать с использованием алгоритма ближайшего соседа. |
+| AdaptiveResample | `8` | Повторная выборка с использованием адаптивного алгоритма на основе взвешенной и смешанной рациональной функции и алгоритмов интерполяции lanczos3. |
+| BilinearResample | `9` | Повторная выборка с использованием билинейной интерполяции. Предварительная фильтрация изображения разрешена для удаления шума перед повторной выборкой, когда это необходимо |
 | HighQualityResample | `10` | Высококачественный ресемпл |
 | CatmullRom | `11` | Метод кубической интерполяции Катмулла-Рома. |
-| CubicConvolution | `12` | Метод интерполяции Cubic Convolution |
+| CubicConvolution | `12` | Метод интерполяции кубической свертки |
 | CubicBSpline | `13` | Метод кубической интерполяции CubicBSpline |
 | Mitchell | `14` | Метод кубической интерполяции Митчелла |
 | SinC | `15` | Метод кубической интерполяции Sinc (Lanczos3) |
@@ -38,39 +38,27 @@ public enum ResizeType
 
 ### Примеры
 
-Изменение размера изображения с использованием определенного типа изменения размера.
+Измените размер изображения, используя определенный тип изменения размера.
 
 ```csharp
 [C#]
 
-string dir = "c:\\temp\\";
-
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
+using (var image = Image.Load("Photo.jpg"))
 {
-     // Масштабирование в 2 раза с использованием передискретизации ближайших соседей.
-    image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
-    image.Save(dir + "upsample.nearestneighbour.gif");
-}
+    image.Resize(640, 480, ResizeType.CatmullRom);
+    image.Save("ResizedPhoto.jpg");
 
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
-{
-    // Масштабирование в 2 раза с использованием передискретизации ближайших соседей.
-    image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
-    image.Save(dir + "downsample.nearestneighbour.gif");
-}
+    image.Resize(1024, 768, ResizeType.CubicConvolution);
+    image.Save("ResizedPhoto2.jpg");
 
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
-{
-     // Увеличение в 2 раза с использованием билинейной передискретизации.
-    image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.BilinearResample);
-    image.Save(dir + "upsample.bilinear.gif");
-}
+    var resizeSettings = new ImageResizeSettings
+    {
+        Mode = ResizeType.CubicBSpline,
+        FilterType = ImageFilterType.SmallRectangular
+    };
 
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
-{
-     // Уменьшить масштаб в 2 раза, используя билинейную передискретизацию.
-    image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.BilinearResample);
-    image.Save(dir + "downsample.bilinear.gif");
+    image.Resize(800, 800, resizeSettings);
+    image.Save("ResizedPhoto3.jpg");
 }
 ```
 
@@ -83,7 +71,7 @@ string dir = "c:\\temp\\";
 
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-     // Масштабирование в 2 раза с использованием передискретизации ближайших соседей.
+    // Масштабирование в 2 раза с использованием передискретизации ближайших соседей.
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
     image.Save(dir + "upsample.nearestneighbour.gif");
 }
@@ -97,14 +85,14 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"
 
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-     // Увеличение в 2 раза с использованием билинейной передискретизации.
+    // Масштабируем в 2 раза, используя билинейную передискретизацию.
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.BilinearResample);
     image.Save(dir + "upsample.bilinear.gif");
 }
 
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-     // Уменьшить масштаб в 2 раза, используя билинейную передискретизацию.
+    // Уменьшить масштаб в 2 раза, используя билинейную передискретизацию.
     image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.BilinearResample);
     image.Save(dir + "downsample.bilinear.gif");
 }

@@ -26,90 +26,68 @@ public void SavePixels(Rectangle rectangle, Color[] pixels)
 ```csharp
 [C#]
 
- //Создаем экземпляр MemoryStream
-using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
+string dir = "c:\\temp\\";
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
 {
-     //Создаем экземпляр GifOptions и устанавливаем его различные свойства, включая Source property
-    Aspose.Imaging.ImageOptions.GifOptions gifOptions = new Aspose.Imaging.ImageOptions.GifOptions();
-    gifOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream);
+    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-     //Создаем экземпляр Image
-    using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Create(gifOptions, 500, 500))
+    // Черный квадрат
+    Color[] pixels = new Color[(rasterImage.Width / 2) * (rasterImage.Height / 2)];
+    for (int i = 0; i < pixels.Length; i++)
     {
-         //Получить пиксели изображения, указав область как изображение border
-        Aspose.Imaging.Color[] pixels = image.LoadPixels(image.Bounds);
-
-         // Перебираем массив и устанавливаем цвет альтернативного индексированного pixel
-        for (int index = 0; index < pixels.Length; index++)
-        {
-            if (index % 2 == 0)
-            {
-                 //Установите цвет индексированного пикселя на yellow
-                pixels[index] = Aspose.Imaging.Color.Yellow;
-            }
-            else
-            {
-                //Установите цвет индексированного пикселя на blue
-                pixels[index] = Aspose.Imaging.Color.Blue;
-            }
-        }
-
-         // Применяем изменения пикселей к image
-        image.SavePixels(image.Bounds, pixels);
-
-         // сохранить все изменения.
-        image.Save();
+        pixels[i] = Color.Black;
     }
 
-     // Запись MemoryStream в File
-    using (System.IO.FileStream fileStream = new System.IO.FileStream(@"C:\temp\output.gif", System.IO.FileMode.Create))
-    {
-        stream.WriteTo(fileStream);
-    }   
+    // Рисуем черный квадрат в центре изображения.
+    Aspose.Imaging.Rectangle area = new Aspose.Imaging.Rectangle(rasterImage.Width / 4, rasterImage.Height / 4, rasterImage.Width / 2, rasterImage.Height / 2);
+    rasterImage.SavePixels(area, pixels);
+
+    rasterImage.Save(dir + "sample.SavePixels.png");
 }
 ```
 
-В этом примере показано, как загрузить информацию о пикселях в массив цветов типа, манипулировать массивом и установить его обратно в изображение. Для выполнения этих операций в этом примере создается новый файл изображения (в формате GIF) с использованием объекта MemoryStream.
+В этом примере показано, как загрузить информацию о пикселях в массив цвета типа, манипулировать массивом и установить его обратно в изображение. Для выполнения этих операций в этом примере создается новый файл изображения (в формате GIF) с использованием объекта MemoryStream.
 
 ```csharp
 [C#]
 
- //Создаем экземпляр MemoryStream
+//Создаем экземпляр MemoryStream
 using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
 {
-     //Создаем экземпляр GifOptions и устанавливаем его различные свойства, включая Source property
+    //Создаем экземпляр GifOptions и устанавливаем его различные свойства, включая свойство Source
     Aspose.Imaging.ImageOptions.GifOptions gifOptions = new Aspose.Imaging.ImageOptions.GifOptions();
     gifOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream);
 
-     //Создаем экземпляр Image
+    //Создаем экземпляр изображения
     using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Create(gifOptions, 500, 500))
     {
-         //Получить пиксели изображения, указав область как изображение border
+        //Получить пиксели изображения, указав область в качестве границы изображения
         Aspose.Imaging.Color[] pixels = image.LoadPixels(image.Bounds);
 
-         // Перебираем массив и устанавливаем цвет альтернативного индексированного pixel
+        // Цикл по массиву и установка цвета альтернативного индексированного пикселя
         for (int index = 0; index < pixels.Length; index++)
         {
             if (index % 2 == 0)
             {
-                 //Установите цвет индексированного пикселя на yellow
+                //Устанавливаем желтый цвет индексированного пикселя
                 pixels[index] = Aspose.Imaging.Color.Yellow;
             }
             else
             {
-                //Установите цвет индексированного пикселя на blue
+                //Устанавливаем синий цвет индексированного пикселя
                 pixels[index] = Aspose.Imaging.Color.Blue;
             }
         }
 
-         // Применяем изменения пикселей к image
+        // Применяем изменения пикселей к изображению
         image.SavePixels(image.Bounds, pixels);
 
-         // сохранить все изменения.
+        // сохранить все изменения.
         image.Save();
     }
 
-     // Запись MemoryStream в File
+    // Запись MemoryStream в файл
     using (System.IO.FileStream fileStream = new System.IO.FileStream(@"C:\temp\output.gif", System.IO.FileMode.Create))
     {
         stream.WriteTo(fileStream);

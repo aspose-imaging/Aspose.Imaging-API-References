@@ -26,8 +26,8 @@ public sealed class EmfPlusFont : EmfPlusGraphicsObjectType
 | --- | --- |
 | [EmSize](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont/emsize) { get; set; } | Получает или задает 32-разрядное значение с плавающей запятой, указывающее размер em шрифта в единицах, указанных в поле SizeUnit. |
 | [FamilyName](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont/familyname) { get; set; } | Получает или задает строку символов Юникода длины, содержащую имя семейства шрифтов |
-| [FontStyleFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont/fontstyleflags) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее атрибуты глифов символов , которые влияют на внешний вид шрифта, например, полужирный и курсив. Это значение ДОЛЖНО состоять из флагов FontStyle (раздел 2.1.2.4). |
-| [SizeUnit](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont/sizeunit) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее единицы, используемые для поля EmSize. Обычно это единицы, которые использовались при разработке шрифта. Значение ДОЛЖНО находиться в перечислении UnitType (раздел 2.1.1.33). |
+| [FontStyleFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont/fontstyleflags) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее атрибуты глифов символов , влияющих на внешний вид шрифта, , таких как полужирный и курсив. Это значение ДОЛЖНО состоять из флагов FontStyle (раздел 2.1.2.4). |
+| [SizeUnit](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont/sizeunit) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее единицы, используемые для поля EmSize. Обычно это единицы, которые использовались при разработке шрифта. Значение ДОЛЖНО быть в перечислении UnitType (раздел 2.1.1.33). |
 | [Version](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsobjecttype/version) { get; set; } | Получает или задает версию. |
 
 ### Смотрите также

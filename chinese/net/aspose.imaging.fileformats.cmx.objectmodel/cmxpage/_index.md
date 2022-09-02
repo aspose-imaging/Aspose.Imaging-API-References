@@ -27,8 +27,8 @@ public class CmxPage
 | [BoundBox](../../aspose.imaging.fileformats.cmx.objectmodel/cmxpage/boundbox) { get; set; } | 获取或设置边界框。 |
 | [Flags](../../aspose.imaging.fileformats.cmx.objectmodel/cmxpage/flags) { get; set; } | 获取或设置标志。 |
 | [Height](../../aspose.imaging.fileformats.cmx.objectmodel/cmxpage/height) { get; set; } | 获取或设置页面高度。 |
-| virtual [Layers](../../aspose.imaging.fileformats.cmx.objectmodel/cmxpage/layers) { get; } | 获取页面层。 |
-| [PageNumber](../../aspose.imaging.fileformats.cmx.objectmodel/cmxpage/pagenumber) { get; set; } | 获取或设置页序号。 |
+| virtual [Layers](../../aspose.imaging.fileformats.cmx.objectmodel/cmxpage/layers) { get; } | 获取页面图层。 |
+| [PageNumber](../../aspose.imaging.fileformats.cmx.objectmodel/cmxpage/pagenumber) { get; set; } | 获取或设置页序号 |
 | [Width](../../aspose.imaging.fileformats.cmx.objectmodel/cmxpage/width) { get; set; } | 获取或设置页面宽度。 |
 
 ### 也可以看看

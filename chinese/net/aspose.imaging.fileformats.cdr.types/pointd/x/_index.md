@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 x
+description: 获取或设置 x.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.cdr.types/pointd/x/
 ---
 ## PointD.X property
 
-获取或设置 x。
+获取或设置 x.
 
 ```csharp
 public double X { get; set; }

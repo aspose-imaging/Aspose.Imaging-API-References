@@ -1,14 +1,14 @@
 ---
 title: BaseInset
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置帽和线之间的距离
+description: 获取或设置帽子和线之间的距离
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging/customlinecap/baseinset/
 ---
 ## CustomLineCap.BaseInset property
 
-获取或设置帽和线之间的距离。
+获取或设置帽子和线之间的距离。
 
 ```csharp
 public float BaseInset { get; set; }
@@ -16,7 +16,7 @@ public float BaseInset { get; set; }
 
 ### 适当的价值
 
-大写字母开头和行尾之间的距离。
+帽的起点和线的终点之间的距离。
 
 ### 也可以看看
 

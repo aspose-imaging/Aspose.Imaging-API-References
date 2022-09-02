@@ -16,7 +16,7 @@ public int TextColor { get; set; }
 
 ### 适当的价值
 
-文本的颜色。
+文字的颜色。
 
 ### 也可以看看
 

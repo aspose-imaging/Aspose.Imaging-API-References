@@ -16,7 +16,7 @@ public void SetAudioSampleType(AudioSampleType audioSampleType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| audioSampleType | AudioSampleType | Тип аудиосемпла. |
+| audioSampleType | AudioSampleType | Тип аудиосэмпла. |
 
 ### Смотрите также
 

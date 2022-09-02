@@ -1,14 +1,14 @@
 ---
 title: ColorQuantizationMethod
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置颜色量化方式
+description: 获取或设置颜色量化方法
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging/imageresizesettings/colorquantizationmethod/
 ---
 ## ImageResizeSettings.ColorQuantizationMethod property
 
-获取或设置颜色量化方式。
+获取或设置颜色量化方法
 
 ```csharp
 public ColorQuantizationMethod ColorQuantizationMethod { get; set; }

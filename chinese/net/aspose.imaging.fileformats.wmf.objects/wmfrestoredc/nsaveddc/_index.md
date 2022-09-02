@@ -1,14 +1,14 @@
 ---
 title: NSavedDc
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置第 n 个保存的 dc
+description: 获取或设置第 n 个保存的 dc.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfrestoredc/nsaveddc/
 ---
 ## WmfRestoreDc.NSavedDc property
 
-获取或设置第 n 个保存的 dc。
+获取或设置第 n 个保存的 dc.
 
 ```csharp
 public short NSavedDc { get; set; }
@@ -16,7 +16,7 @@ public short NSavedDc { get; set; }
 
 ### 适当的价值
 
-要恢复的已保存状态。如果此成员为正，则 nSavedDC 表示要恢复的状态的特定实例。如果此 成员为负数，则 nSavedDC 表示相对于 当前状态的实例。
+要恢复的保存状态。如果此成员为正，nSavedDC 表示要恢复的状态的特定实例。如果 this 成员为负数，nSavedDC 表示相对于 the 当前状态的实例。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: CbData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее размер поля данных в байтах.
+description: Получает или задает 32-разрядное целое число без знака указывающее размер в байтах поля данных.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/cbdata/
 ---
 ## EmfCreateColorSpaceW.CbData property
 
-Получает или задает 32-разрядное целое число без знака, указывающее размер поля данных в байтах.
+Получает или задает 32-разрядное целое число без знака, указывающее размер в байтах поля данных.
 
 ```csharp
 public int CbData { get; set; }

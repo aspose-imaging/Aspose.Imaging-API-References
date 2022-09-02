@@ -1,14 +1,14 @@
 ---
 title: Angle1
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает первый угол используемый для определения сектора круговой диаграммы. Не влияет еслиPieaspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/pieis false . Измеряется в радианах.
+description: Получает или задает первый угол используемый для определения сектора круговой диаграммы. Не влияет еслиPieaspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/pie являетсяЛОЖЬ . Измерения в радианах.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/angle1/
 ---
 ## CmxEllipseSpec.Angle1 property
 
-Получает или задает первый угол, используемый для определения сектора круговой диаграммы. Не влияет, если[`Pie`](../pie)is` false` . Измеряется в радианах.
+Получает или задает первый угол, используемый для определения сектора круговой диаграммы. Не влияет, если[`Pie`](../pie) является`ЛОЖЬ` . Измерения в радианах.
 
 ```csharp
 public float Angle1 { get; set; }

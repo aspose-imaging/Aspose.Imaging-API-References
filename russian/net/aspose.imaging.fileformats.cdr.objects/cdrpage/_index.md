@@ -1,14 +1,14 @@
 ---
 title: CdrPage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Страница cdr
+description: CDR-страница
 type: docs
 weight: 1670
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrpage/
 ---
 ## CdrPage class
 
-Страница cdr
+CDR-страница
 
 ```csharp
 public class CdrPage : CdrObjectContainer
@@ -27,10 +27,10 @@ public class CdrPage : CdrObjectContainer
 | [Childs](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/childs) { get; } | Получает или задает объекты. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | Получает или задает документ. |
-| [Hidden](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/hidden) { get; set; } | Получает или задает значение, указывающее, является ли этот[`CdrObjectContainer`](../cdrobjectcontainer)видимым. |
+| [Hidden](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/hidden) { get; set; } | Получает или задает значение, указывающее, является ли это[`CdrObjectContainer`](../cdrobjectcontainer) виден. |
 | [Id](../../aspose.imaging.fileformats.cdr.objects/cdrpage/id) { get; set; } | Получает или задает идентификатор. |
-| [LastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/lastchild) { get; set; } | Получает или устанавливает последний дочерний элемент. |
-| [LoadToLastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/loadtolastchild) { get; set; } | Получает или задает значение, указывающее, выполняется ли [загрузка в последний дочерний элемент]. |
+| [LastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/lastchild) { get; set; } | Получает или задает последний дочерний элемент. |
+| [LoadToLastChild](../../aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/loadtolastchild) { get; set; } | Получает или задает значение, указывающее, [загружать ли последний дочерний элемент]. |
 | [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | Получает или задает родителя. |
 
 ## Методы

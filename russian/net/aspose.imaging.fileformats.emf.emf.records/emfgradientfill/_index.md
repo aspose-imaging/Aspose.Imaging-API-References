@@ -18,23 +18,23 @@ public sealed class EmfGradientFill : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfGradientFill](emfgradientfill)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfGradientFill`](../emfgradientfill). |
+| [EmfGradientFill](emfgradientfill)(EmfRecord) | Инициализирует новый экземпляр[`EmfGradientFill`](../emfgradientfill) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/bounds) { get; set; } | Получает или задает объект RectL WMF ([MS-WMF], раздел 2.2.2.19), который указывает ограничивающий прямоугольник в включительно-включительном единицы устройства. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/bounds) { get; set; } | Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который указывает ограничивающий прямоугольник в единицах устройства включительно-включительно. |
 | [NTri](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/ntri) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее количество прямоугольников или треугольников для заполнения. |
 | [NVer](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/nver) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее количество вершин. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
-| [UlMode](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/ulmode) { get; set; } | Получает или задает 32-разрядное целое число без знака, определяющее режим градиентной заливки. Значение ДОЛЖНО находиться в перечислении GradientFill (раздел 2.1.15). |
+| [UlMode](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/ulmode) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее режим градиентной заливки. Значение ДОЛЖНО быть в перечислении GradientFill (раздел 2.1.15). |
 | [VertexData](../../aspose.imaging.fileformats.emf.emf.records/emfgradientfill/vertexdata) { get; set; } | Получает или задает объекты, которые определяют вершины прямоугольников или треугольников и соответствующие им цвета. |
 
 ### Примечания
 
-Запись EMR_GRADIENTFILL, указывающая, что три вершины треугольника ДОЛЖНЫ заполнять рисунок с плавными переходами цветов.[85] Запись EMR_GRADIENTFILL, указывающая, что верхняя левая и нижняя правая вершины прямоугольника ДОЛЖНЫ заполнять фигуру плавными градиентами цвета. В перечислении GradientFill есть два режима градиентной заливки, которые можно использовать при рисовании прямоугольника. В режиме GRADIENT_FILL_RECT_H прямоугольник заполняется слева направо. В режиме GRADIENT_FILL_RECT_V прямоугольник заполняется сверху вниз. Примечание. Запись EMR_GRADIENTFILL ДОЛЖНА игнорировать поля Alpha в объектах TriVertex. Запись EMR_ALPHABLEND (раздел 2.3.1.1), которая следует непосредственно за записью EMR_GRADIENTFILL , может использоваться для применения альфа-градиента прозрачности к закрашенной области.
+Запись EMR_GRADIENTFILL, указывающая, что три вершины треугольника ДОЛЖНЫ заполнять фигуру плавными градиентами цветов. фигура с плавными градиентами цвета. В перечислении GradientFill есть два режима градиентной заливки, которые можно использовать при рисовании прямоугольника. В режиме GRADIENT_FILL_RECT_H прямоугольник заполняется слева направо. В режиме GRADIENT_FILL_RECT_V прямоугольник заполняется сверху вниз. Примечание. Запись EMR_GRADIENTFILL ДОЛЖНА игнорировать поля Alpha в объектах TriVertex. Запись EMR_ALPHABLEND (раздел 2.3.1.1), которая следует непосредственно за записью EMR_GRADIENTFILL , может использоваться для применения альфа-градиента прозрачности к закрашенной области.
 
 ### Смотрите также
 

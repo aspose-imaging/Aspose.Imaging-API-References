@@ -25,13 +25,13 @@ Aspose.Imaging.ImageOptions.PngOptions createOptions = new Aspose.Imaging.ImageO
 createOptions.Source = new Aspose.Imaging.Sources.FileCreateSource("c:\\temp\\transparent.png", false);
 createOptions.ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.Truecolor;
 
- // Создаем изображение TrueColor PNG размером 100x100 px.
+// Создаем изображение TrueColor PNG размером 100x100 пикселей.
 using (Aspose.Imaging.Image image = Image.Create(createOptions, 100, 100))
 {
     Aspose.Imaging.FileFormats.Png.PngImage pngImage = (Aspose.Imaging.FileFormats.Png.PngImage)image;
     Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(pngImage);
 
-     // Все красные пиксели будут считаться полностью прозрачными.
+    // Все красные пиксели будут считаться полностью прозрачными.
     pngImage.TransparentColor = Aspose.Imaging.Color.Red;
     pngImage.HasTransparentColor = true;
 
@@ -39,11 +39,11 @@ using (Aspose.Imaging.Image image = Image.Create(createOptions, 100, 100))
     pngImage.BackgroundColor = Aspose.Imaging.Color.Green;
     pngImage.HasBackgroundColor = true;
 
-     // Заливаем все изображение белым цветом.
+    // Заливаем все изображение белым цветом.
     gr.FillRectangle(new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.White), pngImage.Bounds);
 
-     // Заливаем верхнюю левую четверть изображения прозрачным цветом.
-     // Это делает верхнюю левую четверть окрашенной в цвет фона.
+    // Заливаем верхнюю левую четверть изображения прозрачным цветом.
+    // Это делает верхнюю левую четверть окрашенной в цвет фона.
     Rectangle rect = new Rectangle(0, 0, pngImage.Width / 2, pngImage.Height / 2);
     gr.FillRectangle(new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red), rect);
 

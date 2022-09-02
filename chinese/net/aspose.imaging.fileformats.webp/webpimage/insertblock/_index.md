@@ -16,7 +16,7 @@ public void InsertBlock(int index, IFrame block)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 从零开始的元素，*block*将被 插入。 |
+| index | Int32 | 从零开始的元素，在该元素处*block*将 插入。 |
 | block | IFrame | 要添加的 Webp 块。 |
 
 ### 也可以看看

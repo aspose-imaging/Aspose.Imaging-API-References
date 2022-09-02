@@ -1,14 +1,14 @@
 ---
 title: WmfCieXyz
 second_title: Aspose.Imaging for .NET API 参考
-description: CIEXYZ 对象定义了有关 CIEXYZ 色度 对象的信息
+description: CIEXYZ 对象定义有关 CIEXYZ 色度的信息 对象
 type: docs
 weight: 8490
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfciexyz/
 ---
 ## WmfCieXyz structure
 
-CIEXYZ 对象定义了有关 CIEXYZ 色度 对象的信息。
+CIEXYZ 对象定义有关 CIEXYZ 色度的信息 对象。
 
 ```csharp
 public struct WmfCieXyz

@@ -1,14 +1,14 @@
 ---
 title: WmfExcludeClipRect
 second_title: Aspose.Imaging for .NET API 参考
-description: META_EXCLUDECLIPRECT 记录将播放 设备上下文中的剪辑区域设置为现有剪辑区域减去指定的 矩形.
+description: META_EXCLUDECLIPRECT 记录将playback 设备上下文中的剪辑区域设置为现有剪辑区域减去指定的 矩形
 type: docs
 weight: 8650
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfexcludecliprect/
 ---
 ## WmfExcludeClipRect class
 
-META_EXCLUDECLIPRECT 记录将播放 设备上下文中的剪辑区域设置为现有剪辑区域减去指定的 矩形.
+META_EXCLUDECLIPRECT 记录将playback 设备上下文中的剪辑区域设置为现有剪辑区域减去指定的 矩形。
 
 ```csharp
 public class WmfExcludeClipRect : WmfRectangle

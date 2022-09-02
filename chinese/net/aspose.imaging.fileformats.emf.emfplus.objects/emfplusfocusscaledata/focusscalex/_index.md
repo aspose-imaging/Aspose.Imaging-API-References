@@ -1,14 +1,14 @@
 ---
 title: FocusScaleX
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置定义水平焦点刻度的浮点值 焦点比例必须是 0.0 和 1.0 之间的值不包括在内
+description: 获取或设置定义水平焦点刻度的浮点值 焦点比例必须是 0.0 和 1.0 之间的值不包括
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusfocusscaledata/focusscalex/
 ---
 ## EmfPlusFocusScaleData.FocusScaleX property
 
-获取或设置定义水平焦点刻度的浮点值。 焦点比例必须是 0.0 和 1.0 之间的值，不包括在内。
+获取或设置定义水平焦点刻度的浮点值。 焦点比例必须是 0.0 和 1.0 之间的值，不包括。
 
 ```csharp
 public float FocusScaleX { get; set; }

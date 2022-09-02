@@ -1,14 +1,14 @@
 ---
 title: YDest
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает y-назначение.
+description: Получает или задает y dest.
 type: docs
 weight: 110
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfstretchdib/ydest/
 ---
 ## WmfStretchDib.YDest property
 
-Получает или задает y-назначение.
+Получает или задает y dest.
 
 ```csharp
 public short YDest { get; set; }
@@ -16,7 +16,7 @@ public short YDest { get; set; }
 
 ### Стоимость имущества
 
-Координата y в логических единицах левого верхнего угла прямоугольник назначения.
+Координата Y в логических единицах левого верхнего угла прямоугольника назначения .
 
 ### Смотрите также
 

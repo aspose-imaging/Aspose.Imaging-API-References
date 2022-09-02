@@ -1,14 +1,14 @@
 ---
 title: Entries
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取Coloraspose.imaging/color结构的数组
+description: 获取一个数组Coloraspose.imaging/color结构.
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging/colorpalette/entries/
 ---
 ## ColorPalette.Entries property
 
-获取[`Color`](../../color)结构的数组。
+获取一个数组[`Color`](../../color)结构.
 
 ```csharp
 public Color[] Entries { get; }
@@ -16,7 +16,7 @@ public Color[] Entries { get; }
 
 ### 返回值
 
-[`Color`](../../color)结构的数组的副本组成这个[`ColorPalette`](../../colorpalette)。
+数组的副本[`Color`](../../color)构成这个的结构[`ColorPalette`](../../colorpalette) .
 
 ### 适当的价值
 

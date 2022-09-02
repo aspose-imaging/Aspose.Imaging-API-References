@@ -27,19 +27,19 @@ public virtual MetaObjectList Records { get; set; }
 
 string dir = "c:\\temp\\";
 
- // Использование Aspose.Imaging.Image.Load — это унифицированный способ загрузки всех типов изображений, включая WMF.
-using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFormats.Emf.EmfImage)Aspose.Imaging.Image.Load(dir + "test.emf"))
+// Использование Aspose.Imaging.Image.Load — это унифицированный способ загрузки всех типов изображений, включая WMF.
+using (Aspose.Imaging.FileFormats.Wmf.WmfImage wmfImage = (Aspose.Imaging.FileFormats.Wmf.WmfImage)Aspose.Imaging.Image.Load(dir + "test.wmf"))
 {
-     // Кэшировать данные для загрузки всех записей.
-    emfImage.CacheData();
-    System.Console.WriteLine("The total number of records: {0}", emfImage.Records.Count);
+    // Кэшировать данные для загрузки всех записей.
+    wmfImage.CacheData();
+    System.Console.WriteLine("The total number of records: {0}", wmfImage.Records.Count);
 
-     // Ключ — тип записи, значение — количество записей этого типа в образе WMF.
+    // Ключ — тип записи, значение — количество записей этого типа в образе WMF.
     System.Collections.Generic.Dictionary<System.Type, int> types =
         new System.Collections.Generic.Dictionary<System.Type, int>();
 
-     // Собираем статистику 
-    foreach (Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfRecord obj in emfImage.Records)
+    // Собираем статистику 
+    foreach (Aspose.Imaging.FileFormats.Wmf.Objects.WmfObject obj in wmfImage.Records)
     {
         System.Type objType = obj.GetType();
         if (!types.ContainsKey(objType))
@@ -52,7 +52,7 @@ using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFo
         }
     }
 
-     // Распечатать статистику
+    // Печатаем статистику
     System.Console.WriteLine("Record Type                              Count");
     System.Console.WriteLine("----------------------------------------------");
     foreach (System.Collections.Generic.KeyValuePair<System.Type, int> entry in types)
@@ -63,33 +63,26 @@ using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFo
     }
 }
 
- // Вывод может выглядеть так: 
- //Общее количество записей: 1188
- //Тип записи Count
- //--------------------------------
-// Заголовок EmfMetafile: 1
- //EmfSetBkMode: 1
- //EmfSetTextAlign: 1
- //EmfSetRop2: 1
- //EmfSetWorldTransform: 1
- //EmfExtSelectClipRgn: 1
- //EmfCreateBrushIndirect: 113
- //EmfSelectObject: 240
- //EmfCreatePen: 116
- //EmfSetPolyFillMode: 1
- //EmfBeginPath: 120
- //EmfMoveToEx: 122
- //EmfPolyBezierTo16: 36
- //EmfLineTo: 172
- //EmfCloseРисунок: 14
- //EmfEndPath: 120
- //EmfStrokeAndFillPath: 113
-//EmfStrokePath: 7
- //EmfSetTextColor: 2
- //EmfExtCreateFontIndirectW: 2
- //EmfExtTextOutW: 2
- //EmfStretchBlt: 1
-//ЭмфЭоф: 1
+//Вывод может выглядеть так:
+//Общее количество записей: 613
+//Количество типов записи
+//--------------------------------
+//Вмфсетбкмоде: 1
+//Вмфсеттексталигн: 1
+//WmfSetRop2: 1
+//Вмфсетвиндоворг: 1
+//Вмфсетвиндовекст: 1
+//WmfCreateBrushInDirect: 119
+//WmfSelectObject: 240
+//Вмфкреатепениндирект: 119
+//WmfSetPolyFillMode: 1
+//WmfPolyPolygon: 114
+//WmfPolyLine: 7
+//Вмфсеттекстколор: 2
+//WmfCreateFontInDirect: 2
+//WmfExtTextOut: 2
+//WmfDibStrechBlt: 1
+//WmfEof: 1
 ```
 
 В этом примере показано, как загрузить изображение EMF из файла и перечислить все его записи.
@@ -99,18 +92,18 @@ using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFo
 
 string dir = "c:\\temp\\";
 
- // Использование Aspose.Imaging.Image.Load — это унифицированный способ загрузки всех типов изображений, включая WMF.
+// Использование Aspose.Imaging.Image.Load — это унифицированный способ загрузки всех типов изображений, включая WMF.
 using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFormats.Emf.EmfImage)Aspose.Imaging.Image.Load(dir + "test.emf"))
 {
-     // Кэшировать данные для загрузки всех записей.
+    // Кэшировать данные для загрузки всех записей.
     emfImage.CacheData();
     System.Console.WriteLine("The total number of records: {0}", emfImage.Records.Count);
 
-     // Ключ — тип записи, значение — количество записей этого типа в образе WMF.
+    // Ключ — тип записи, значение — количество записей этого типа в образе WMF.
     System.Collections.Generic.Dictionary<System.Type, int> types =
         new System.Collections.Generic.Dictionary<System.Type, int>();
 
-     // Собираем статистику 
+    // Собираем статистику 
     foreach (Aspose.Imaging.FileFormats.Emf.Emf.Records.EmfRecord obj in emfImage.Records)
     {
         System.Type objType = obj.GetType();
@@ -124,7 +117,7 @@ using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFo
         }
     }
 
-     // Распечатать статистику
+    // Печатаем статистику
     System.Console.WriteLine("Record Type                              Count");
     System.Console.WriteLine("----------------------------------------------");
     foreach (System.Collections.Generic.KeyValuePair<System.Type, int> entry in types)
@@ -135,32 +128,32 @@ using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFo
     }
 }
 
- // Вывод может выглядеть так: 
- //Общее количество записей: 1188
- //Тип записи Count
- //--------------------------------
-// Заголовок EmfMetafile: 1
- //EmfSetBkMode: 1
- //EmfSetTextAlign: 1
- //EmfSetRop2: 1
- //EmfSetWorldTransform: 1
- //EmfExtSelectClipRgn: 1
- //EmfCreateBrushIndirect: 113
- //EmfSelectObject: 240
- //EmfCreatePen: 116
- //EmfSetPolyFillMode: 1
- //EmfBeginPath: 120
- //EmfMoveToEx: 122
- //EmfPolyBezierTo16: 36
- //EmfLineTo: 172
- //EmfCloseРисунок: 14
- //EmfEndPath: 120
- //EmfStrokeAndFillPath: 113
+//Вывод может выглядеть так:
+//Общее количество записей: 1188
+//Количество типов записи
+//--------------------------------
+//EmfMetafileHeader: 1
+//EmfSetBkMode: 1
+//EmfSetTextAlign: 1
+//EmfSetRop2: 1
+//EmfSetWorldTransform: 1
+//EmfExtSelectClipRgn: 1
+//EmfCreateBrushIndirect: 113
+//EmfSelectObject: 240
+//EmfCreatePen: 116
+//EmfSetPolyFillMode: 1
+//EmfBeginPath: 120
+//EmfMoveToEx: 122
+//EmfPolyBezierTo16: 36
+//EmfLineTo: 172
+//EmfCloseРисунок: 14
+//EmfEndPath: 120
+//EmfStrokeAndFillPath: 113
 //EmfStrokePath: 7
- //EmfSetTextColor: 2
- //EmfExtCreateFontIndirectW: 2
- //EmfExtTextOutW: 2
- //EmfStretchBlt: 1
+//EmfSetTextColor: 2
+//EmfExtCreateFontIndirectW: 2
+//EmfExtTextOutW: 2
+//EmfStretchBlt: 1
 //ЭмфЭоф: 1
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: EmfException
 second_title: Aspose.Imaging for .NET API 参考
-description: Emf 类的例外
+description: Emf 类的异常
 type: docs
 weight: 550
 url: /zh/net/aspose.imaging.coreexceptions.imageformats/emfexception/
 ---
 ## EmfException class
 
-Emf 类的例外
+Emf 类的异常
 
 ```csharp
 public class EmfException : Exception
@@ -18,7 +18,7 @@ public class EmfException : Exception
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfException](emfexception)(string) | 初始化[`EmfException`](../emfexception)类的新实例。 |
+| [EmfException](emfexception)(string) | 初始化[`EmfException`](../emfexception)类. |
 
 ### 也可以看看
 

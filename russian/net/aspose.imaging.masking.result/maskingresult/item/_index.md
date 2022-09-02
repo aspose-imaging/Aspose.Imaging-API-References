@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПолучаетIMaskingLayeraspose.imaging.masking.result/imaskinglayerпо указанному индексу.
+description: ПолучаетIMaskingLayeraspose.imaging.masking.result/imaskinglayer по указанному индексу.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.masking.result/maskingresult/item/
 ---
 ## MaskingResult indexer
 
-Получает[`IMaskingLayer`](../../imaskinglayer)по указанному индексу.
+Получает[`IMaskingLayer`](../../imaskinglayer) по указанному индексу.
 
 ```csharp
 public IMaskingLayer this[int index] { get; }
@@ -24,7 +24,7 @@ public IMaskingLayer this[int index] { get; }
 
 ### Стоимость имущества
 
-The[`IMaskingLayer`](../../imaskinglayer).
+[`IMaskingLayer`](../../imaskinglayer) .
 
 ### Смотрите также
 

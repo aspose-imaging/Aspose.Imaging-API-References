@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置图像的类型
+description: 获取或设置图片的类型
 type: docs
 weight: 120
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/type/
 ---
 ## CmxRasterImage.Type property
 
-获取或设置图像的类型。
+获取或设置图片的类型。
 
 ```csharp
 public ushort Type { get; set; }

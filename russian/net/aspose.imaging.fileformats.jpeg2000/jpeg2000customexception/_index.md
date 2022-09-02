@@ -1,14 +1,14 @@
 ---
 title: Jpeg2000CustomException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Код Jpeg2000 OpenJpeg сгенерировал исключение
+description: Jpeg2000 Код OpenJpeg сгенерировал исключение
 type: docs
 weight: 6820
 url: /ru/net/aspose.imaging.fileformats.jpeg2000/jpeg2000customexception/
 ---
 ## Jpeg2000CustomException class
 
-Код Jpeg2000 OpenJpeg сгенерировал исключение
+Jpeg2000 Код OpenJpeg сгенерировал исключение
 
 ```csharp
 public class Jpeg2000CustomException : Exception

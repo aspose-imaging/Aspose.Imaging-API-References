@@ -1,14 +1,14 @@
 ---
 title: IntVal
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置整数值值
+description: 获取或设置整数值value
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/intval/
 ---
 ## EmfBitFix28To4.IntVal property
 
-获取或设置整数值值
+获取或设置整数值value
 
 ```csharp
 public int IntVal { get; set; }

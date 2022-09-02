@@ -1,14 +1,14 @@
 ---
 title: Layer
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示 Photoshop 文本层
+description: 代表 Photoshop 文字层
 type: docs
-weight: 11330
+weight: 11320
 url: /zh/net/aspose.imaging.xmp.schemas.photoshop/layer/
 ---
 ## Layer class
 
-表示 Photoshop 文本层。
+代表 Photoshop 文字层。
 
 ```csharp
 public class Layer : XmpTypeBase, IEquatable<Layer>
@@ -18,24 +18,24 @@ public class Layer : XmpTypeBase, IEquatable<Layer>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Layer](layer#constructor)() | 初始化[`Layer`](../layer)类的新实例。 |
-| [Layer](layer#constructor_1)(string, string) | 初始化[`Layer`](../layer)类的新实例。 |
+| [Layer](layer#constructor)() | 初始化[`Layer`](../layer)类. |
+| [Layer](layer#constructor_1)(string, string) | 初始化[`Layer`](../layer)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Name](../../aspose.imaging.xmp.schemas.photoshop/layer/name) { get; set; } | 获取或设置文本层的名称。 |
-| [Text](../../aspose.imaging.xmp.schemas.photoshop/layer/text) { get; set; } | 获取或设置图层的文本内容。 |
+| [Name](../../aspose.imaging.xmp.schemas.photoshop/layer/name) { get; set; } | 获取或设置文字层的名称。 |
+| [Text](../../aspose.imaging.xmp.schemas.photoshop/layer/text) { get; set; } | 获取或设置图层的文字内容。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Equals](../../aspose.imaging.xmp.schemas.photoshop/layer/equals#equals)(Layer) | 表示当前对象是否等于另一个同类型的对象。 |
-| override [Equals](../../aspose.imaging.xmp.schemas.photoshop/layer/equals#equals_1)(object) | 确定指定的Object是否等于此实例。 |
+| override [Equals](../../aspose.imaging.xmp.schemas.photoshop/layer/equals#equals_1)(object) | 判断是否指定Object 等于这个实例。 |
 | override [GetHashCode](../../aspose.imaging.xmp.schemas.photoshop/layer/gethashcode)() | 返回此实例的哈希码。 |
-| override [GetXmpRepresentation](../../aspose.imaging.xmp.schemas.photoshop/layer/getxmprepresentation)() | 以 XMP 格式返回字符串包含的值。 |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.schemas.photoshop/layer/getxmprepresentation)() | 以 XMP 格式返回包含字符串的值。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: IsColor
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取表示此实例是否为彩色的值
+description: 获取一个值该值指示此实例是否为彩色
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.djvu/djvupage/iscolor/
 ---
 ## DjvuPage.IsColor property
 
-获取表示此实例是否为彩色的值。
+获取一个值，该值指示此实例是否为彩色。
 
 ```csharp
 public bool IsColor { get; }
@@ -16,7 +16,7 @@ public bool IsColor { get; }
 
 ### 适当的价值
 
-` true` 如果此实例是彩色的；否则，` false` 。
+`真的`如果这个实例是彩色的；否则，`错误的` .
 
 ### 也可以看看
 

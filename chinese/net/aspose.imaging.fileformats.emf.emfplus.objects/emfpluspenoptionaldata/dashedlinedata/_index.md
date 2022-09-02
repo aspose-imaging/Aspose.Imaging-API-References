@@ -1,14 +1,14 @@
 ---
 title: DashedLineData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置可选的 EmfPlusDashedLineData 对象第 2.2.2.16 节 指定自定义47 中的破折号和空格的长度虚线如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataDashedLine 标志则该字段必须存在
+description: 获取或设置可选的 EmfPlusDashedLineData 对象第 2.2.2.16 节 它指定自定义 虚线中的破折号和空格的长度如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataDashedLine 标志则该字段必须存在
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata/dashedlinedata/
 ---
 ## EmfPlusPenOptionalData.DashedLineData property
 
-获取或设置可选的 EmfPlusDashedLineData 对象（第 2.2.2.16 节） 指定自定义:::47 中的破折号和空格的长度:::虚线。如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataDashedLine 标志，则该字段必须存在。
+获取或设置可选的 EmfPlusDashedLineData 对象（第 2.2.2.16 节） ，它指定自定义 虚线中的破折号和空格的长度。如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataDashedLine 标志，则该字段必须存在。
 
 ```csharp
 public EmfPlusDashedLineData DashedLineData { get; set; }

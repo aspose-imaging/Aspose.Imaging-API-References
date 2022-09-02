@@ -18,7 +18,7 @@ public override void Dither(DitheringMethod ditheringMethod, int bitsCount,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | ditheringMethod | DitheringMethod | 抖动方法。 |
-| bitsCount | Int32 | 抖动的最终位数。 |
+| bitsCount | Int32 | 最后的比特数用于抖动。 |
 | customPalette | IColorPalette | 用于抖动的自定义调色板。 |
 
 ### 例子
@@ -35,8 +35,8 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.dico
     Aspose.Imaging.FileFormats.Dicom.DicomImage dicomImage = (Aspose.Imaging.FileFormats.Dicom.DicomImage)image;
 
     // 使用包含 16 种颜色的 4 位调色板执行阈值抖动。
-           // 指定的位数越多，输出图像的质量和尺寸就越大。
-           // 请注意，目前仅支持 1 位、4 位和 8 位调色板。
+    // 指定的位数越多，输出图像的质量越高，尺寸越大。
+    // 请注意，目前仅支持 1 位、4 位和 8 位调色板。
     dicomImage.Dither(Aspose.Imaging.DitheringMethod.ThresholdDithering, 4, null);
 
     dicomImage.Save(dir + "sample.ThresholdDithering4.png", new Aspose.Imaging.ImageOptions.PngOptions());
@@ -46,9 +46,9 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.dico
 {
     Aspose.Imaging.FileFormats.Dicom.DicomImage dicomImage = (Aspose.Imaging.FileFormats.Dicom.DicomImage)image;
 
-        // 使用仅包含 2 种颜色的 1 位调色板执行弗洛伊德抖动 - 黑色和白色。
-           // 指定的位数越多，输出图像的质量和尺寸就越大。
-           // 请注意，目前仅支持 1 位、4 位和 8 位调色板。
+    // 使用仅包含 2 种颜色（黑色和白色）的 1 位调色板执行弗洛伊德抖动。
+    // 指定的位数越多，输出图像的质量越高，尺寸越大。
+    // 请注意，目前仅支持 1 位、4 位和 8 位调色板。
     dicomImage.Dither(Aspose.Imaging.DitheringMethod.FloydSteinbergDithering, 1, null);
 
     dicomImage.Save(dir + "sample.FloydSteinbergDithering1.png", new Aspose.Imaging.ImageOptions.PngOptions());

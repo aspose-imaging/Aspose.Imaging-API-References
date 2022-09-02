@@ -1,14 +1,14 @@
 ---
 title: Point
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр структурыPointaspose.imaging/pointс указанными координатами.
+description: Инициализирует новый экземплярPointaspose.imaging/point структура с указанными координатами.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging/point/point/
 ---
 ## Point(int, int) {#constructor_2}
 
-Инициализирует новый экземпляр структуры[`Point`](../../point)с указанными координатами.
+Инициализирует новый экземпляр[`Point`](../../point) структура с указанными координатами.
 
 ```csharp
 public Point(int x, int y)
@@ -29,7 +29,7 @@ public Point(int x, int y)
 
 ## Point(Size) {#constructor}
 
-Инициализирует новый экземпляр структуры[`Point`](../../point)изРазмерструктура.
+Инициализирует новый экземпляр[`Point`](../../point) структура из[`Size`](../../size) структура.
 
 ```csharp
 public Point(Size size)
@@ -50,7 +50,7 @@ public Point(Size size)
 
 ## Point(int) {#constructor_1}
 
-Инициализирует новый экземпляр структуры[`Point`](../../point), используя координаты, заданные целочисленным значением.
+Инициализирует новый экземпляр[`Point`](../../point) структура с использованием координат, заданных целочисленным значением.
 
 ```csharp
 public Point(int dw)
@@ -58,7 +58,7 @@ public Point(int dw)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dw | Int32 | 32-битное целое число, определяющее координаты новой точки. |
+| dw | Int32 | 32-битное целое число, указывающее координаты новой точки. |
 
 ### Смотрите также
 

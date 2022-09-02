@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.FileFormats.Dng.Decoder
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пространство имен содержит типы декодеров DNG
+description: Пространство имен содержит типы декодера DNG
 type: docs
 weight: 310
 url: /ru/net/aspose.imaging.fileformats.dng.decoder/
 ---
-Пространство имен содержит типы декодеров DNG
+Пространство имен содержит типы декодера DNG
 
 ## Классы
 

@@ -1,14 +1,14 @@
 ---
 title: WmfRectangle
 second_title: Aspose.Imaging for .NET API 参考
-description: META_RECTANGLE 记录绘制一个矩形矩形是使用笔勾勒出 轮廓并使用在 播放设备上下文中定义的画笔进行填充
+description: META_RECTANGLE 记录绘制一个矩形矩形是使用笔勾勒出 并使用在 播放设备上下文中定义的画笔填充的
 type: docs
 weight: 8920
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfrectangle/
 ---
 ## WmfRectangle class
 
-META_RECTANGLE 记录绘制一个矩形。矩形是使用笔勾勒出 轮廓，并使用在 播放设备上下文中定义的画笔进行填充。
+META_RECTANGLE 记录绘制一个矩形。矩形是使用笔勾勒出 并使用在 播放设备上下文中定义的画笔填充的。
 
 ```csharp
 public class WmfRectangle : WmfObject
@@ -44,7 +44,7 @@ using (Aspose.Imaging.FileFormats.Emf.MetaImage image = (Aspose.Imaging.FileForm
 }
 
 /// <summary>
-    /// 改变 WMF 背景的辅助方法。 
+/// 改变 WMF 背景的辅助方法。 
 /// </summary>
 public static void AddBackgroundRectangleWmf(Aspose.Imaging.FileFormats.Wmf.WmfImage image, Aspose.Imaging.Color color)
 {
@@ -54,22 +54,22 @@ public static void AddBackgroundRectangleWmf(Aspose.Imaging.FileFormats.Wmf.WmfI
         return;
     }
 
-        //设置Rectangle
+    //设置矩形
     Aspose.Imaging.FileFormats.Wmf.Objects.WmfRectangle rectangle = new Aspose.Imaging.FileFormats.Wmf.Objects.WmfRectangle();
     rectangle.Rectangle = image.FrameBounds;
 
-        //设置画笔
+    //设置画笔
     Aspose.Imaging.FileFormats.Wmf.Objects.WmfCreateBrushInDirect brush = new Aspose.Imaging.FileFormats.Wmf.Objects.WmfCreateBrushInDirect();
     brush.LogBrush = new Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfLogBrushEx();
     brush.LogBrush.Argb32ColorRef = color.ToArgb();
 
-        //选择brush
+    //选择画笔
     Aspose.Imaging.FileFormats.Wmf.Objects.WmfSelectObject selectObject = new Aspose.Imaging.FileFormats.Wmf.Objects.WmfSelectObject(brush);
 
-        //移除brush
+    //删除画笔
     Aspose.Imaging.FileFormats.Wmf.Objects.WmfDeleteObject deleteObject = new Aspose.Imaging.FileFormats.Wmf.Objects.WmfDeleteObject(brush);
 
-        //添加记录
+    //添加记录
     image.Records.Insert(0, brush);
     image.Records.Insert(1, selectObject);
     image.Records.Insert(2, rectangle);

@@ -1,14 +1,14 @@
 ---
 title: BmpImageException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаBmpImageExceptionaspose.imaging.coreexceptions.imageformats/bmpimageexception.
+description: Инициализирует новый экземплярBmpImageExceptionaspose.imaging.coreexceptions.imageformats/bmpimageexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions.imageformats/bmpimageexception/bmpimageexception/
 ---
 ## BmpImageException(string) {#constructor}
 
-Инициализирует новый экземпляр класса[`BmpImageException`](../../bmpimageexception).
+Инициализирует новый экземпляр[`BmpImageException`](../../bmpimageexception) класс.
 
 ```csharp
 public BmpImageException(string message)
@@ -28,7 +28,7 @@ public BmpImageException(string message)
 
 ## BmpImageException(string, Exception) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`BmpImageException`](../../bmpimageexception).
+Инициализирует новый экземпляр[`BmpImageException`](../../bmpimageexception) класс.
 
 ```csharp
 public BmpImageException(string message, Exception innerException)

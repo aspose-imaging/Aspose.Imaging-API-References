@@ -1,14 +1,14 @@
 ---
 title: DataBackgroundColor
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задаетImageaspose.imaging/imagebackgroundColoraspose.imaging/color.
+description: Получает или задаетImageaspose.imaging/image фонColoraspose.imaging/color .
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging/loadoptions/databackgroundcolor/
 ---
 ## LoadOptions.DataBackgroundColor property
 
-Получает или задает[`Image`](../../image)background[`Color`](../../color).
+Получает или задает[`Image`](../../image) фон[`Color`](../../color) .
 
 ```csharp
 public Color DataBackgroundColor { get; set; }

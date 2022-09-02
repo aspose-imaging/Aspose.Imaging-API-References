@@ -18,9 +18,9 @@ public class XmpException : FrameworkException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [XmpException](xmpexception#constructor)() | 初始化[`XmpException`](../xmpexception)类的新实例。 |
-| [XmpException](xmpexception#constructor_1)(string) | 初始化[`XmpException`](../xmpexception)类的新实例。 |
-| [XmpException](xmpexception#constructor_2)(string, Exception) | 初始化[`XmpException`](../xmpexception)类的新实例。 |
+| [XmpException](xmpexception#constructor)() | 初始化[`XmpException`](../xmpexception)类. |
+| [XmpException](xmpexception#constructor_1)(string) | 初始化[`XmpException`](../xmpexception)类. |
+| [XmpException](xmpexception#constructor_2)(string, Exception) | 初始化[`XmpException`](../xmpexception)类. |
 
 ### 也可以看看
 

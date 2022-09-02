@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置TimeValueaspose.imaging.xmp.schemas.xmpdm/timecode/timevalue中使用的格式
+description: 获取或设置在TimeValueaspose.imaging.xmp.schemas.xmpdm/timecode/timevalue .
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/timecode/format/
 ---
 ## Timecode.Format property
 
-获取或设置[`TimeValue`](../timevalue)中使用的格式。
+获取或设置在[`TimeValue`](../timevalue) .
 
 ```csharp
 public TimeFormat Format { get; set; }
@@ -16,7 +16,7 @@ public TimeFormat Format { get; set; }
 
 ### 适当的价值
 
-TimeValue。
+中使用的格式[`TimeValue`](../timevalue) .
 
 ### 也可以看看
 

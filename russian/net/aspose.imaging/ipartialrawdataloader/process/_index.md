@@ -46,7 +46,7 @@ public void Process(Rectangle rectangle, byte[] data, Point start, Point end,
 | data | Byte[] | Необработанные данные. |
 | start | Point | Начальная точка данных. Если не равно (слева, вверху), это означает, что это не полный прямоугольник. |
 | end | Point | Конечная точка данных. Если не равно (справа, снизу), это означает, что это не полный прямоугольник. |
-| loadOptions | LoadOptions | Параметры загрузки. |
+| loadOptions | LoadOptions | Варианты загрузки. |
 
 ### Смотрите также
 

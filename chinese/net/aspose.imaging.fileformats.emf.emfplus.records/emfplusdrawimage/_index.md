@@ -18,21 +18,21 @@ public sealed class EmfPlusDrawImage : EmfPlusDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfPlusDrawImage](emfplusdrawimage)(EmfPlusRecord) | 初始化[`EmfPlusDrawImage`](../emfplusdrawimage)类的新实例。 |
+| [EmfPlusDrawImage](emfplusdrawimage)(EmfPlusRecord) | 初始化[`EmfPlusDrawImage`](../emfplusdrawimage)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Compressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimage/compressed) { get; set; } | 获取或设置一个指示PointData是否被压缩的值。 如果设置，则 RectData 包含 EmfPlusRect 对象（第 2.2.2.38 节）。 如果清除，则 RectData 包含 EmfPlusRectF 对象（第 2.2.2.39 节）。 |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，该整数必须在 RecordData 字段中定义 32 位对齐的 数据字节数跟随。这个数字不包括 12 字节的记录头。 |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | 获取或设置一个 16 位无符号整数，该整数包含有关如何执行 操作和结构的一些记录的信息记录。 |
-| [ImageAttributesId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimage/imageattributesid) { get; set; } | 获取或设置图像属性标识符 一个 32 位无符号整数，指定可选 EmfPlusImageAttributes 对象的索引（第 2.2.1.5 节）在 EMF+ 对象表中。 |
-| [ObjectId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimage/objectid) { get; set; } | 获取或设置对象标识符。 EmfPlusImage 对象（第 2.2.1.4 节）在 EMF+ 对象表中的索引，它指定要渲染的图像。该值必须是 0 到 63（含）。 |
-| [RectData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimage/rectdata) { get; set; } | 获取或设置矩形数据 定义图像边界框的 EmfPlusRect 或 EmfPlusRectF 对象。 SrcRect 字段指定的图像部分被缩放以适合该矩形。 |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | 获取或设置一个 32 位无符号整数，指定整条记录中的 32 位对齐字节数 ，包括 12 -byte 记录头和特定于记录的数据。 |
-| [SrcRect](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimage/srcrect) { get; set; } | 获取或设置源矩形 EmfPlusRectF 对象，指定要渲染的图像的一部分。 此矩形指定的图像部分被缩放以适合由 RectData 字段指定的目标 矩形。 |
-| [SrcUnit](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimage/srcunit) { get; set; } | 获取或设置源单位 指定 SrcRect 字段单位的 32 位有符号整数。 它必须是 UnitType 枚举的 UnitTypePixel 成员（第 2.1.1.33 节）。 |
+| [Compressed](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimage/compressed) { get; set; } | 获取或设置一个指示 PointData 是否被压缩的值。 如果设置，则 RectData 包含 EmfPlusRect 对象（第 2.2.2.38 节）。 如果清除，则 RectData 包含 EmfPlusRectF 对象（第 2.2.2.39 节）。 |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，该整数必须在随后的 RecordData 字段中定义 32 位对齐的 字节数据。这个数字不包括 12 字节的记录头。 |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | 获取或设置一个 16 位无符号整数，其中包含一些记录的信息，关于如何执行 操作以及记录的结构。 |
+| [ImageAttributesId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimage/imageattributesid) { get; set; } | 获取或设置图像属性 identifier 一个 32 位无符号整数，指定 EMF+ 对象表中可选 EmfPlusImageAttributes 对象（第 2.2.1.5 节）的索引。 |
+| [ObjectId](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimage/objectid) { get; set; } | 获取或设置对象标识符。 EmfPlusImage 对象（第 2.2.1.4 节）在 EMF+ 对象表中的索引，它指定要渲染的图像。该值必须是 0 到 63，包括在内。 |
+| [RectData](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimage/rectdata) { get; set; } | 获取或设置矩形数据 定义图像边界框的 EmfPlusRect 或 EmfPlusRectF 对象。 SrcRect 字段指定的图像部分被缩放以适合此矩形。 |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | 获取或设置一个 32 位无符号整数，指定整个记录中 32 位对齐的字节数 ，包括 12 字节的记录头和特定于记录的数据。 |
+| [SrcRect](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimage/srcrect) { get; set; } | 获取或设置源 rect 一个 EmfPlusRectF 对象，它指定要渲染的图像的一部分。 此矩形指定的图像部分被缩放以适合 RectData 字段指定的destination 矩形。 |
+| [SrcUnit](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimage/srcunit) { get; set; } | 获取或设置源单元 32 位有符号整数，它指定 SrcRect 字段的单位。 它必须是 UnitType 枚举的 UnitTypePixel 成员（第 2.1.1.33 节）。 |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | 获取标识记录类型的 16 位无符号整数。 |
 
 ### 也可以看看

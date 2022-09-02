@@ -16,7 +16,7 @@ public override RectangleF GetBounds(Matrix matrix)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| matrix | Matrix | 将计算在边界之前应用的矩阵。 |
+| matrix | Matrix | 将计算边界前应用的矩阵。 |
 
 ### 返回值
 
@@ -42,7 +42,7 @@ public override RectangleF GetBounds(Matrix matrix, Pen pen)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| matrix | Matrix | 将计算在边界之前应用的矩阵。 |
+| matrix | Matrix | 将计算边界前应用的矩阵。 |
 | pen | Pen | 用于对象的笔。这会影响对象的边界大小。 |
 
 ### 返回值

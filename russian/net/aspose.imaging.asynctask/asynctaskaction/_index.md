@@ -1,14 +1,14 @@
 ---
 title: AsyncTaskAction
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Делегат длительной операции для асинхронной задачи без какого-либо результата.
+description: Делегат длительной операции для асинхронной задачи без результата.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.asynctask/asynctaskaction/
 ---
 ## AsyncTaskAction delegate
 
-Делегат длительной операции для асинхронной задачи без какого-либо результата.
+Делегат длительной операции для асинхронной задачи без результата.
 
 ```csharp
 public delegate void AsyncTaskAction(IAsyncTaskState taskState);

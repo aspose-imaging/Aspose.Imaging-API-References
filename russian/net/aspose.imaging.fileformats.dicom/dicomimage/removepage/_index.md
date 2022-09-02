@@ -1,14 +1,14 @@
 ---
 title: RemovePage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Удаляет страницу по указанному индексу из списка страниц.
+description: Удаляет страницу с указанным индексом из списка страниц.
 type: docs
 weight: 250
 url: /ru/net/aspose.imaging.fileformats.dicom/dicomimage/removepage/
 ---
 ## DicomImage.RemovePage method
 
-Удаляет страницу по указанному индексу из списка страниц.
+Удаляет страницу с указанным индексом из списка страниц.
 
 ```csharp
 public void RemovePage(int pageIndex)
@@ -22,7 +22,7 @@ public void RemovePage(int pageIndex)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *pageIndex*- Индекс страницы меньше` 0` . или *pageIndex*- Индекс страницы равен или больше, чемКоличествостраниц. |
+| ArgumentOutOfRangeException | *pageIndex* - Индекс страницы меньше`0` . или *pageIndex* - Индекс страницы равен или больше, чем[`PageCount`](../pagecount) . |
 
 ### Смотрите также
 

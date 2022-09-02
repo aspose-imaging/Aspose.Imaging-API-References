@@ -1,14 +1,14 @@
 ---
 title: SetSeriesModality
 second_title: Aspose.Imaging for .NET API 参考
-description: 设置文档系列模式
+description: 设置文档系列模态
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.xmp.schemas.dicom/dicompackage/setseriesmodality/
 ---
 ## DicomPackage.SetSeriesModality method
 
-设置文档系列模式。
+设置文档系列模态。
 
 ```csharp
 public void SetSeriesModality(string seriesModality)
@@ -16,7 +16,7 @@ public void SetSeriesModality(string seriesModality)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| seriesModality | String | 系列模态。 |
+| seriesModality | String | 系列模式。 |
 
 ### 也可以看看
 

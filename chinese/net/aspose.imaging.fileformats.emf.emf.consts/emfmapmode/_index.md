@@ -1,14 +1,14 @@
 ---
 title: EmfMapMode
 second_title: Aspose.Imaging for .NET API 参考
-description: MapMode 枚举用于定义将页面 空间单位转换为设备空间单位和定义绘图方向的度量单位轴
+description: MapMode 枚举用于定义度量单位用于将页面 空间单位转换为设备空间单位并用于定义绘图轴的方向
 type: docs
 weight: 2740
 url: /zh/net/aspose.imaging.fileformats.emf.emf.consts/emfmapmode/
 ---
 ## EmfMapMode enumeration
 
-MapMode 枚举用于定义将页面 空间单位转换为设备空间单位和定义绘图方向的度量单位轴。
+MapMode 枚举用于定义度量单位，用于将页面 空间单位转换为设备空间单位，并用于定义绘图轴的方向。
 
 ```csharp
 public enum EmfMapMode
@@ -19,12 +19,12 @@ public enum EmfMapMode
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | MM_TEXT | `1` | 每个逻辑单元映射到一个设备像素。正 x 在右边；正 y 下降。 |
-| MM_LOMETRIC | `2` | 每个逻辑单位映射到 0.1 毫米。正 x 在右边；正 y 向上。 |
-| MM_HIMETRIC | `3` | 每个逻辑单位映射到 0.01 毫米。正 x 在右边；正 y 向上。 |
-| MM_LOENGLISH | `4` | 每个逻辑单元映射到 0.01 英寸。正 x 在右边；正 y 向上 |
+| MM_LOMETRIC | `2` | 每个逻辑单元映射到 0.1 毫米。正 x 在右边；正 y 向上。 |
+| MM_HIMETRIC | `3` | 每个逻辑单元映射到 0.01 毫米。正 x 在右边；正 y 向上。 |
+| MM_LOENGLISH | `4` | 每个逻辑单元映射到 0.01 英寸。正 x 在右边；正 y 为 up |
 | MM_HIENGLISH | `5` | 每个逻辑单元映射到 0.001 英寸。正 x 在右边；正 y 向上。 |
-| MM_TWIPS | `6` | 每个逻辑单元映射到打印机点的二十分之一 （1/1440 英寸，也称为“twip”）。正 x 在右边；正 y 向上。 |
-| MM_ISOTROPIC | `7` | 逻辑单位映射到具有等比例轴的任意单位；也就是说，沿 x 轴的一个单位 等于沿 y 轴的一个单位。 EMR_SETWINDOWEXTEX 和 EMR_SETVIEWPORTEXTEX 记录应该用于指定轴的单位和方向 。 必须根据需要进行调整以确保 x 和 y 单位保持相同大小。 例如，当设置窗口范围时，必须调整视口以保持单位各向同性。 |
+| MM_TWIPS | `6` | 每个逻辑单位都映射到打印机点 的二十分之一（1/1440 英寸，也称为“twip”）。正 x 在右边；正 y 向上。 |
+| MM_ISOTROPIC | `7` | 逻辑单位映射到具有等比例轴的任意单位；也就是说，沿 x 轴的一个单位 等于沿 y 轴的一个单位。 EMR_SETWINDOWEXTEX 和 EMR_SETVIEWPORTEXTEX 记录应该用于指定轴的单位和方向 例如，当设置窗口范围时，必须调整视口以保持单位各向同性。 |
 | MM_ANISOTROPIC | `8` | 逻辑单位映射到具有任意缩放轴的任意单位。 EMR_SETWINDOWEXTEX 和 EMR_SETVIEWPORTEXTEX 记录应该用于指定单位、 方向和缩放。 |
 
 ### 也可以看看

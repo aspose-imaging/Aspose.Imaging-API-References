@@ -22,7 +22,7 @@ public void SetUsageTerms(LangAlt usageTerms)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | UsageTerms |
+| ArgumentNullException | Условия использования |
 
 ### Смотрите также
 

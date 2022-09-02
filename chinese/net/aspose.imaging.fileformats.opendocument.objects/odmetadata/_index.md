@@ -18,13 +18,13 @@ public class OdMetadata : OdObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OdMetadata](odmetadata)(OdObject) | 初始化[`OdMetadata`](../odmetadata)类的新实例。 |
+| [OdMetadata](odmetadata)(OdObject) | 初始化[`OdMetadata`](../odmetadata)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AutomaticReload](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/automaticreload) { get; set; } | 获取或设置自动重新加载。 |
+| [AutomaticReload](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/automaticreload) { get; set; } | 获取或设置自动重载。 |
 | [CreationDateTime](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/creationdatetime) { get; set; } | 获取或设置创建日期时间。 |
 | [Creator](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/creator) { get; set; } | 获取或设置创建者。 |
 | [Description](../../aspose.imaging.fileformats.opendocument.objects/odmetadata/description) { get; set; } | 获取或设置描述。 |

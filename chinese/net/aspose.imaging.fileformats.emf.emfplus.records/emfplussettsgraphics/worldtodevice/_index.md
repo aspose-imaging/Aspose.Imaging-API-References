@@ -1,14 +1,14 @@
 ---
 title: WorldToDevice
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 192 位 EmfPlusTransformMatrix 对象第 2.2.2.47 节该对象 指定世界空间到设备空间的转换
+description: 获取或设置一个 192 位 EmfPlusTransformMatrix 对象第 2.2.2.47 节 指定世界空间到设备空间的转换
 type: docs
 weight: 140
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics/worldtodevice/
 ---
 ## EmfPlusSetTsGraphics.WorldToDevice property
 
-获取或设置一个 192 位 EmfPlusTransformMatrix 对象（第 2.2.2.47 节），该对象 指定世界空间到设备空间的转换。
+获取或设置一个 192 位 EmfPlusTransformMatrix 对象（第 2.2.2.47 节）， 指定世界空间到设备空间的转换。
 
 ```csharp
 public Matrix WorldToDevice { get; set; }

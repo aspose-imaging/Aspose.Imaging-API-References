@@ -3,7 +3,7 @@ title: Source
 second_title: Aspose.Imaging for .NET API 参考
 description: 源用于包含对象管道的所有相关信息
 type: docs
-weight: 11080
+weight: 11070
 url: /zh/net/aspose.imaging/source/
 ---
 ## Source class

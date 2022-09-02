@@ -1,14 +1,14 @@
 ---
 title: ToGdiStringFormat
 second_title: Aspose.Imaging for .NET API 参考
-description: 将StringFormataspose.imaging/stringformat转换为StringFormat
+description: 转换StringFormataspose.imaging/stringformat到StringFormat .
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.extensions/stringformatextensions/togdistringformat/
 ---
 ## StringFormatExtensions.ToGdiStringFormat method
 
-将[`StringFormat`](../../../aspose.imaging/stringformat)转换为StringFormat。
+转换[`StringFormat`](../../../aspose.imaging/stringformat)到StringFormat .
 
 ```csharp
 public static StringFormat ToGdiStringFormat(StringFormat stringFormat)
@@ -16,11 +16,11 @@ public static StringFormat ToGdiStringFormat(StringFormat stringFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stringFormat | StringFormat | [`StringFormat`](../../../aspose.imaging/stringformat)进行转换。 |
+| stringFormat | StringFormat | 这[`StringFormat`](../../../aspose.imaging/stringformat)转换。 |
 
 ### 返回值
 
-转换后的StringFormat。
+转换的StringFormat.
 
 ### 也可以看看
 

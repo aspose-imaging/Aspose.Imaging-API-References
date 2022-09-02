@@ -24,7 +24,7 @@ public class CmxParagraphStyle
 
 | Имя | Описание |
 | --- | --- |
-| [CharacterSpacing](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphstyle/characterspacing) { get; set; } | Получает или задает интервал между символами. |
+| [CharacterSpacing](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphstyle/characterspacing) { get; set; } | Получает или задает межсимвольный интервал. |
 | [HorizontalAlignment](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphstyle/horizontalalignment) { get; set; } | Получает или задает выравнивание по горизонтали. |
 | [LanguageSpacing](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphstyle/languagespacing) { get; set; } | Получает или задает языковой интервал. |
 | [LineSpacing](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphstyle/linespacing) { get; set; } | Получает или задает межстрочный интервал. |

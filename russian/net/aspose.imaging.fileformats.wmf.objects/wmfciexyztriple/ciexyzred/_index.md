@@ -1,14 +1,14 @@
 ---
 title: CiexyzRed
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 96-разрядный объект CIEXYZ который определяет значения красной цветности.
+description: Получает или задает 96-битный объект CIEXYZ определяющий значения цветности red .
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfciexyztriple/ciexyzred/
 ---
 ## WmfCieXyzTriple.CiexyzRed property
 
-Получает или задает 96-разрядный объект CIEXYZ, который определяет значения красной цветности.
+Получает или задает 96-битный объект CIEXYZ, определяющий значения цветности red .
 
 ```csharp
 public WmfCieXyz CiexyzRed { get; set; }

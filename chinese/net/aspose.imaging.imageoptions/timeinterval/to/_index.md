@@ -1,14 +1,14 @@
 ---
 title: To
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 To 毫秒
+description: 获取或设置为毫秒
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.imageoptions/timeinterval/to/
 ---
 ## TimeInterval.To property
 
-获取或设置 To 毫秒。
+获取或设置为毫秒。
 
 ```csharp
 public uint To { get; set; }

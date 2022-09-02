@@ -1,14 +1,14 @@
 ---
 title: SetTabStops
 second_title: Aspose.Imaging for .NET API 参考
-description: 为此StringFormataspose.imaging/stringformat对象设置制表位
+description: 为此设置制表位StringFormataspose.imaging/stringformat对象.
 type: docs
 weight: 150
 url: /zh/net/aspose.imaging/stringformat/settabstops/
 ---
 ## StringFormat.SetTabStops method
 
-为此[`StringFormat`](../../stringformat)对象设置制表位。
+为此设置制表位[`StringFormat`](../../stringformat)对象.
 
 ```csharp
 public void SetTabStops(float firstTabOffset, float[] tabStops)
@@ -17,7 +17,7 @@ public void SetTabStops(float firstTabOffset, float[] tabStops)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | firstTabOffset | Single | 一行文本的开头和第一个制表位之间的空格数。 |
-| tabStops | Single[] | 制表位之间的距离数组，以[`PageUnit`](../../graphics/pageunit)属性指定的单位表示。 |
+| tabStops | Single[] | 制表位之间的距离数组，单位为[`PageUnit`](../../graphics/pageunit)财产。 |
 
 ### 也可以看看
 

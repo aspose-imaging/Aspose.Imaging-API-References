@@ -24,7 +24,7 @@ public class WmfPolyPolygon : WmfObject
 
 | Имя | Описание |
 | --- | --- |
-| [APoints](../../aspose.imaging.fileformats.wmf.objects/wmfpolypolygon/apoints) { get; set; } | Получает или устанавливает очки. |
+| [APoints](../../aspose.imaging.fileformats.wmf.objects/wmfpolypolygon/apoints) { get; set; } | Получает или устанавливает баллы. |
 | [APointsPerPolygon](../../aspose.imaging.fileformats.wmf.objects/wmfpolypolygon/apointsperpolygon) { get; set; } | Получает или задает количество точек на полигон. |
 | [NumberOfPolygons](../../aspose.imaging.fileformats.wmf.objects/wmfpolypolygon/numberofpolygons) { get; set; } | Получает или задает количество полигонов. Количество полигонов в объекте . |
 

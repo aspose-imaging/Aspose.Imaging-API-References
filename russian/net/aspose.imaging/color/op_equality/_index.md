@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Проверяет эквивалентность двух указанныхColoraspose.imaging/colorструктур.
+description: Проверяет являются ли два указанныхColoraspose.imaging/color структуры эквивалентны.
 type: docs
 weight: 1620
 url: /ru/net/aspose.imaging/color/op_equality/
 ---
 ## Color Equality operator
 
-Проверяет эквивалентность двух указанных[`Color`](../../color)структур.
+Проверяет, являются ли два указанных[`Color`](../../color) структуры эквивалентны.
 
 ```csharp
 public static bool operator ==(Color left, Color right)
@@ -16,12 +16,12 @@ public static bool operator ==(Color left, Color right)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| left | Color | [`Color`](../../color)слева от оператора равенства . |
-| right | Color | [`Color`](../../color)справа от оператора равенства. |
+| left | Color | [`Color`](../../color) слева от оператора равенства. |
+| right | Color | [`Color`](../../color) то есть справа от оператора равенства. |
 
 ### Возвращаемое значение
 
-Истинно, если две структуры[`Color`](../../color)равны; в противном случае ложно.
+Правда, если два[`Color`](../../color) структуры равны; в противном случае ложно.
 
 ### Смотрите также
 

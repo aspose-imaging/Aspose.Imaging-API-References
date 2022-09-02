@@ -1,14 +1,14 @@
 ---
 title: ImageRectangle
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПолучаетRectangleaspose.imaging/rectangleсвязанный с этимTextureBrushaspose.imaging.brushes/texturebrush.
+description: ПолучаетRectangleaspose.imaging/rectangle связанные с этимTextureBrushaspose.imaging.brushes/texturebrush .
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.brushes/texturebrush/imagerectangle/
 ---
 ## TextureBrush.ImageRectangle property
 
-Получает[`Rectangle`](../../../aspose.imaging/rectangle)связанный с этим[`TextureBrush`](../../texturebrush).
+Получает[`Rectangle`](../../../aspose.imaging/rectangle) связанные с этим[`TextureBrush`](../../texturebrush) .
 
 ```csharp
 public RectangleF ImageRectangle { get; }

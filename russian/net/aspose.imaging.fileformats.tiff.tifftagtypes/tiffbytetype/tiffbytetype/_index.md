@@ -1,14 +1,14 @@
 ---
 title: TiffByteType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTiffByteTypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffbytetype.
+description: Инициализирует новый экземплярTiffByteTypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffbytetype класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffbytetype/tiffbytetype/
 ---
 ## TiffByteType(TiffTags) {#constructor}
 
-Инициализирует новый экземпляр класса[`TiffByteType`](../../tiffbytetype).
+Инициализирует новый экземпляр[`TiffByteType`](../../tiffbytetype) класс.
 
 ```csharp
 public TiffByteType(TiffTags tagId)
@@ -29,7 +29,7 @@ public TiffByteType(TiffTags tagId)
 
 ## TiffByteType(ushort) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TiffByteType`](../../tiffbytetype).
+Инициализирует новый экземпляр[`TiffByteType`](../../tiffbytetype) класс.
 
 ```csharp
 public TiffByteType(ushort tagId)

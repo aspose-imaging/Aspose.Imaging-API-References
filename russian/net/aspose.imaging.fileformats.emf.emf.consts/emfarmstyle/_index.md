@@ -22,13 +22,13 @@ public enum EmfArmStyle : byte
 | PAN_NO_FIT | `1` | Не подходит. |
 | PAN_STRAIGHT_ARMS_HORZ | `2` | Руки прямые/горизонтальные. |
 | PAN_STRAIGHT_ARMS_WEDGE | `3` | Прямые руки/клин |
-| PAN_STRAIGHT_ARMS_VERT | `4` | Прямые руки/вертикаль |
-| PAN_STRAIGHT_ARMS_SINGLE_SERIF | `5` | Прямые руки/одиночная засечка. |
+| PAN_STRAIGHT_ARMS_VERT | `4` | Прямые руки/вертикальные |
+| PAN_STRAIGHT_ARMS_SINGLE_SERIF | `5` | Прямые руки/одиночные засечки. |
 | PAN_STRAIGHT_ARMS_DOUBLE_SERIF | `6` | Прямые руки/двойные засечки. |
-| PAN_BENT_ARMS_HORZ | `7` | Руки непрямые/горизонтальные. |
-| PAN_BENT_ARMS_WEDGE | `8` | Непрямые руки/клинья |
-| PAN_BENT_ARMS_VERT | `9` | Руки непрямые/вертикальные. |
-| PAN_BENT_ARMS_SINGLE_SERIF | `10` | Непрямые руки/одиночные засечки. |
+| PAN_BENT_ARMS_HORZ | `7` | Руки не прямые/горизонтальные. |
+| PAN_BENT_ARMS_WEDGE | `8` | Непрямые руки/клин |
+| PAN_BENT_ARMS_VERT | `9` | Непрямые руки/вертикаль. |
+| PAN_BENT_ARMS_SINGLE_SERIF | `10` | Непрямые руки/одна засечка. |
 | PAN_BENT_ARMS_DOUBLE_SERIF | `11` | Непрямые руки/двойные засечки. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: ToGdiGraphicsPath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПреобразуетGraphicsPathaspose.imaging/graphicspathвGraphicsPath.
+description: ПреобразуетGraphicsPathaspose.imaging/graphicspath кGraphicsPath .
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.extensions/graphicspathextensions/togdigraphicspath/
 ---
 ## GraphicsPathExtensions.ToGdiGraphicsPath method
 
-Преобразует[`GraphicsPath`](../../../aspose.imaging/graphicspath)вGraphicsPath.
+Преобразует[`GraphicsPath`](../../../aspose.imaging/graphicspath) кGraphicsPath .
 
 ```csharp
 public static GraphicsPath ToGdiGraphicsPath(GraphicsPath graphicsPath)

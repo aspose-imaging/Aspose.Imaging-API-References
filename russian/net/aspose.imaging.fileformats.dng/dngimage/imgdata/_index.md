@@ -1,14 +1,14 @@
 ---
 title: ImgData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает данные img.
+description: Получает или устанавливает данные изображения.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.dng/dngimage/imgdata/
 ---
 ## DngImage.ImgData property
 
-Получает или устанавливает данные img.
+Получает или устанавливает данные изображения.
 
 ```csharp
 public RawData ImgData { get; set; }
@@ -16,7 +16,7 @@ public RawData ImgData { get; set; }
 
 ### Стоимость имущества
 
-Данные img.
+Данные изображения.
 
 ### Смотрите также
 

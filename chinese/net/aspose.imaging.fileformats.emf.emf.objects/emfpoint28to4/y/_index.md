@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置表示点垂直坐标的BitFIX28_4对象
+description: 获取或设置一个BitFIX28_4对象表示点的垂直坐标
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfpoint28to4/y/
 ---
 ## EmfPoint28To4.Y property
 
-获取或设置表示点垂直坐标的BitFIX28_4对象。
+获取或设置一个BitFIX28_4对象，表示点的垂直坐标
 
 ```csharp
 public EmfBitFix28To4 Y { get; set; }

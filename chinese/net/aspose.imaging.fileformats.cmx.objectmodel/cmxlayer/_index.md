@@ -1,14 +1,14 @@
 ---
 title: CmxLayer
 second_title: Aspose.Imaging for .NET API 参考
-description: 位于 CMX 文档页面上的图形层
+description: 位于 CMX 文档页面上的图形图层
 type: docs
 weight: 1960
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/
 ---
 ## CmxLayer class
 
-位于 CMX 文档页面上的图形层。
+位于 CMX 文档页面上的图形图层。
 
 ```csharp
 public class CmxLayer : CmxContainer
@@ -26,9 +26,9 @@ public class CmxLayer : CmxContainer
 | --- | --- |
 | virtual [Elements](../../aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer/elements) { get; } | 获取元素。 |
 | [Flags](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/flags) { get; set; } | 获取或设置标志。 |
-| [IsVisible](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/isvisible) { get; set; } | 获取或设置一个值，指示该层是否可见。 |
+| [IsVisible](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/isvisible) { get; set; } | 获取或设置一个值，指示该图层是否可见。 |
 | [Name](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/name) { get; set; } | 获取或设置图层名称。 |
-| [Number](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/number) { get; set; } | 获取或设置层序号。 |
+| [Number](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/number) { get; set; } | 获取或设置层序号 |
 
 ## 字段
 

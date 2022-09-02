@@ -1,14 +1,14 @@
 ---
 title: Compressed
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示压缩的音频样本
+description: 表示压缩后的音频样本
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype/compressed/
 ---
 ## AudioSampleType.Compressed property
 
-表示压缩的音频样本。
+表示压缩后的音频样本。
 
 ```csharp
 public static AudioSampleType Compressed { get; }

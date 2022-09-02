@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 y
+description: 获取或设置 y.
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.cdr.types/pointd/y/
 ---
 ## PointD.Y property
 
-获取或设置 y。
+获取或设置 y.
 
 ```csharp
 public double Y { get; set; }

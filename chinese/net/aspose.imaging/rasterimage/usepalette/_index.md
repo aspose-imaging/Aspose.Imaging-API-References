@@ -16,7 +16,7 @@ public override bool UsePalette { get; }
 
 ### 适当的价值
 
-` true` 如果图像中使用了调色板；否则，` false` 。
+`真的`如果在图像中使用了调色板；否则，`错误的` .
 
 ### 也可以看看
 

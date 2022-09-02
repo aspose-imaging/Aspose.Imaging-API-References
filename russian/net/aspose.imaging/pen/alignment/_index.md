@@ -1,14 +1,14 @@
 ---
 title: Alignment
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает выравнивание для этогоPenaspose.imaging/pen.
+description: Получает или задает выравнивание для этогоPenaspose.imaging/pen .
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging/pen/alignment/
 ---
 ## Pen.Alignment property
 
-Получает или задает выравнивание для этого[`Pen`](../../pen).
+Получает или задает выравнивание для этого[`Pen`](../../pen) .
 
 ```csharp
 public PenAlignment Alignment { get; set; }
@@ -16,13 +16,13 @@ public PenAlignment Alignment { get; set; }
 
 ### Стоимость имущества
 
-A[`PenAlignment`](../../penalignment)который представляет выравнивание для этого[`Pen`](../../pen).
+А[`PenAlignment`](../../penalignment) который представляет собой выравнивание для этого[`Pen`](../../pen).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Свойство`Alignment`устанавливается для неизменяемого[`Pen`](../../pen), например возвращаемые классом[`Pen`](../../pen). |
+| ArgumentException | `Alignment` свойство установлено на неизменном[`Pen`](../../pen) такие как возвращенные[`Pen`](../../pen) учебный класс. |
 
 ### Смотрите также
 

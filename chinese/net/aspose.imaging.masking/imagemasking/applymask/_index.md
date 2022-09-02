@@ -19,16 +19,16 @@ public static void ApplyMask(RasterImage targetImage, RasterImage mask,
 | --- | --- | --- |
 | targetImage | RasterImage | 目标图像。 |
 | mask | RasterImage | 要应用的蒙版图像。 |
-| maskingOptions | MaskingOptions | 屏蔽选项。 |
+| maskingOptions | MaskingOptions | 掩蔽选项。 |
 
 ### 例子
 
-使用段掩码加快分割过程
+使用分段掩码加快分段过程
 
 ```csharp
 [C#]
 
-    // 屏蔽导出选项
+// 屏蔽导出选项
 Aspose.Imaging.ImageOptions.PngOptions exportOptions = new Aspose.Imaging.ImageOptions.PngOptions();
 exportOptions.ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
 exportOptions.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream());
@@ -40,7 +40,7 @@ maskingOptions.Method = Masking.Options.SegmentationMethod.GraphCut;
 maskingOptions.Decompose = false;
 maskingOptions.Args = new Aspose.Imaging.Masking.Options.AutoMaskingArgs();
 
-    // 背景颜色将是透明的。
+// 背景颜色将是透明的。
 maskingOptions.BackgroundReplacementColor = Aspose.Imaging.Color.Transparent;
 maskingOptions.ExportOptions = exportOptions;
 
@@ -49,22 +49,22 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 {
     Aspose.Imaging.Size imageSize = image.Size;
 
-        // 减小图像大小以加快分割过程
+    // 减小图像大小以加快分割过程
     image.ResizeHeightProportionally(600, Aspose.Imaging.ResizeType.HighQualityResample);
 
-        // 创建 ImageMasking 类的实例。
+    // 创建 ImageMasking 类的实例。
     Aspose.Imaging.Masking.ImageMasking masking = new Aspose.Imaging.Masking.ImageMasking(image);
 
-        // 将源图像分成若干簇（段）。
+    // 将源图像分成几个簇（段）。
     using (Aspose.Imaging.Masking.Result.MaskingResult maskingResult = masking.Decompose(maskingOptions))
     {
-            // 获取前景 mask
+        // 获取前景蒙版
         using (Aspose.Imaging.RasterImage foregroundMask = maskingResult[1].GetMask()) 
         {
-                // 将蒙版的大小增加到原始图像的大小
+            // 将蒙版的大小增加到原始图像的大小
             foregroundMask.Resize(imageSize.Width, imageSize.Height, Aspose.Imaging.ResizeType.NearestNeighbourResample);
 
-                // 对原图应用蒙版，得到前景段
+            // 将掩码应用于原始图像以获得前景段
             using (Aspose.Imaging.RasterImage originImage = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Load(dir + "BigImage.jpg"))
             {
                 Aspose.Imaging.Masking.ImageMasking.ApplyMask(originImage, foregroundMask, maskingOptions);

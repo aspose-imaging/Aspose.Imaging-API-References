@@ -1,14 +1,14 @@
 ---
 title: ResizeHeightProportionally
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пропорционально изменяет ширину.
+description: Изменяет ширину пропорционально.
 type: docs
 weight: 280
 url: /ru/net/aspose.imaging/rastercachedmultipageimage/resizeheightproportionally/
 ---
 ## RasterCachedMultipageImage.ResizeHeightProportionally method
 
-Пропорционально изменяет ширину.
+Изменяет ширину пропорционально.
 
 ```csharp
 public override void ResizeHeightProportionally(int newHeight, ResizeType resizeType)

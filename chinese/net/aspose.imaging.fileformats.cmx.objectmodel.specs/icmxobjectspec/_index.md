@@ -1,14 +1,14 @@
 ---
 title: ICmxObjectSpec
 second_title: Aspose.Imaging for .NET API 参考
-description: 图形对象规范
+description: 图形对象的规格
 type: docs
 weight: 2210
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.specs/icmxobjectspec/
 ---
 ## ICmxObjectSpec interface
 
-图形对象规范
+图形对象的规格
 
 ```csharp
 public interface ICmxObjectSpec

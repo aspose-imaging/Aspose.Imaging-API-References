@@ -20,7 +20,7 @@ public override Bitmap ToBitmap()
 
 ### Примеры
 
-В следующем примере изображение BMP преобразуется в Растровое изображение GDI.
+В следующем примере изображение BMP преобразуется в растровое изображение GDI.
 
 ```csharp
 [C#]
@@ -30,7 +30,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\sample.b
     Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = (Aspose.Imaging.FileFormats.Bmp.BmpImage)image;
     System.Drawing.Bitmap bitmap = bmpImage.ToBitmap();
 
-     // Обработка растрового изображения GDI.
+    // Обработка растрового изображения GDI.
 }
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: CySrc
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число со знаком указывающее высоту исходного прямоугольника в пикселях
+description: Получает или задает 32-разрядное целое число со знаком указывающее высоту исходного прямоугольника в пикселях.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/cysrc/
 ---
 ## EmfSetDiBitsToDevice.CySrc property
 
-Получает или задает 32-разрядное целое число со знаком, указывающее высоту исходного прямоугольника в пикселях
+Получает или задает 32-разрядное целое число со знаком, указывающее высоту исходного прямоугольника в пикселях.
 
 ```csharp
 public int CySrc { get; set; }

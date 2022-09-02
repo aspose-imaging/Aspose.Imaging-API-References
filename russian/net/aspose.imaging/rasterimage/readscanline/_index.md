@@ -1,14 +1,14 @@
 ---
 title: ReadScanLine
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Читает всю строку сканирования по указанному индексу строки сканирования.
+description: Считывает всю строку сканирования по указанному индексу строки сканирования.
 type: docs
 weight: 450
 url: /ru/net/aspose.imaging/rasterimage/readscanline/
 ---
 ## RasterImage.ReadScanLine method
 
-Читает всю строку сканирования по указанному индексу строки сканирования.
+Считывает всю строку сканирования по указанному индексу строки сканирования.
 
 ```csharp
 public Color[] ReadScanLine(int scanLineIndex)

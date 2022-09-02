@@ -1,14 +1,14 @@
 ---
 title: EmfSetRop2
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetRop2aspose.imaging.fileformats.emf.emf.records/emfsetrop2.
+description: Инициализирует новый экземплярEmfSetRop2aspose.imaging.fileformats.emf.emf.records/emfsetrop2 класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetrop2/emfsetrop2/
 ---
 ## EmfSetRop2(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfSetRop2`](../../emfsetrop2).
+Инициализирует новый экземпляр[`EmfSetRop2`](../../emfsetrop2) класс.
 
 ```csharp
 public EmfSetRop2(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfSetRop2(EmfRecord source)
 
 ## EmfSetRop2() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfSetRop2`](../../emfsetrop2).
+Инициализирует новый экземпляр[`EmfSetRop2`](../../emfsetrop2) класс.
 
 ```csharp
 public EmfSetRop2()

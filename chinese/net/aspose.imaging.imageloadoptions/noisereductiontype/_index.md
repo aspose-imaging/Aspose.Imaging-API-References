@@ -1,14 +1,14 @@
 ---
 title: NoiseReductionType
 second_title: Aspose.Imaging for .NET API 参考
-description: dbdd 降噪的类型
+description: dbdd降噪的类型
 type: docs
 weight: 9860
 url: /zh/net/aspose.imaging.imageloadoptions/noisereductiontype/
 ---
 ## NoiseReductionType enumeration
 
-dbdd 降噪的类型。
+dbdd降噪的类型。
 
 ```csharp
 public enum NoiseReductionType
@@ -19,8 +19,8 @@ public enum NoiseReductionType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | None，不使用FBDD降噪 |
-| Light | `1` | 光，光FBDD减少 |
-| Full | `2` | 完整、完整的 FBDD 缩减 |
+| Light | `1` | 光，光FBDD还原 |
+| Full | `2` | 完整的、完整的 FBDD 缩减 |
 
 ### 也可以看看
 

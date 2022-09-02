@@ -1,14 +1,14 @@
 ---
 title: CieCoordinatesTriple
 second_title: Aspose.Imaging for .NET API 参考
-description: 类包含对应于指定逻辑颜色空间的红色绿色和蓝色端点的三种颜色的 xy 和 z 坐标
+description: 该类包含对应于指定逻辑颜色空间的红色绿色和蓝色端点的三种颜色的 xy 和 z 坐标
 type: docs
 weight: 1410
 url: /zh/net/aspose.imaging.fileformats.bmp.structures/ciecoordinatestriple/
 ---
 ## CieCoordinatesTriple class
 
-类包含对应于指定逻辑颜色空间的红色、绿色和蓝色端点的三种颜色的 x、y 和 z 坐标。
+该类包含对应于指定逻辑颜色空间的红色、绿色和蓝色端点的三种颜色的 x、y 和 z 坐标。
 
 ```csharp
 public class CieCoordinatesTriple
@@ -18,7 +18,7 @@ public class CieCoordinatesTriple
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CieCoordinatesTriple](ciecoordinatestriple)(byte[]) | 初始化[`CieCoordinatesTriple`](../ciecoordinatestriple)类的新实例。 |
+| [CieCoordinatesTriple](ciecoordinatestriple)(byte[]) | 初始化[`CieCoordinatesTriple`](../ciecoordinatestriple)类. |
 
 ## 特性
 

@@ -18,19 +18,19 @@ public class OdMeasure : OdStyledObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdMeasure](odmeasure)(OdObject) | Инициализирует новый экземпляр класса[`OdMeasure`](../odmeasure). |
+| [OdMeasure](odmeasure)(OdObject) | Инициализирует новый экземпляр[`OdMeasure`](../odmeasure) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Получает родительский объект. |
 | [Point1](../../aspose.imaging.fileformats.opendocument.objects.graphic/odmeasure/point1) { get; set; } | Получает или задает точку1. |
-| [Point2](../../aspose.imaging.fileformats.opendocument.objects.graphic/odmeasure/point2) { get; set; } | Получает или устанавливает точку2. |
-| [Point3](../../aspose.imaging.fileformats.opendocument.objects.graphic/odmeasure/point3) { get; set; } | Получает или устанавливает точку3. |
-| [Point4](../../aspose.imaging.fileformats.opendocument.objects.graphic/odmeasure/point4) { get; set; } | Получает или устанавливает точку4. |
+| [Point2](../../aspose.imaging.fileformats.opendocument.objects.graphic/odmeasure/point2) { get; set; } | Получает или задает точку2. |
+| [Point3](../../aspose.imaging.fileformats.opendocument.objects.graphic/odmeasure/point3) { get; set; } | Получает или задает точку3. |
+| [Point4](../../aspose.imaging.fileformats.opendocument.objects.graphic/odmeasure/point4) { get; set; } | Получает или задает точку4. |
 | [Rectangle](../../aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/rectangle) { get; set; } | Получает или задает прямоугольник. |
 | [Style](../../aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/style) { get; set; } | Получает или задает стиль. |
 

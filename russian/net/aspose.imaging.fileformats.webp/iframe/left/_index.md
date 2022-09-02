@@ -1,14 +1,14 @@
 ---
 title: Left
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает позицию кадра слева.
+description: Получает или задает положение кадра слева.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.webp/iframe/left/
 ---
 ## IFrame.Left property
 
-Получает или задает позицию кадра слева.
+Получает или задает положение кадра слева.
 
 ```csharp
 public short Left { get; set; }

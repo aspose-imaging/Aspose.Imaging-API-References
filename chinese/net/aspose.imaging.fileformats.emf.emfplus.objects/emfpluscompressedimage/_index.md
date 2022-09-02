@@ -1,14 +1,14 @@
 ---
 title: EmfPlusCompressedImage
 second_title: Aspose.Imaging for .NET API 参考
-description: EmfPlusCompressedImage 对象指定具有压缩数据的图像
+description: EmfPlusCompressedImage 对象指定带有压缩数据的图像
 type: docs
 weight: 5340
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompressedimage/
 ---
 ## EmfPlusCompressedImage class
 
-EmfPlusCompressedImage 对象指定具有压缩数据的图像。
+EmfPlusCompressedImage 对象指定带有压缩数据的图像。
 
 ```csharp
 public sealed class EmfPlusCompressedImage : EmfPlusBaseBitmapData

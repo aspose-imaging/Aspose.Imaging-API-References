@@ -3,7 +3,7 @@ title: AdjustPalette
 second_title: Aspose.Imaging for .NET API 参考
 description: 调色板调整类
 type: docs
-weight: 10670
+weight: 10660
 url: /zh/net/aspose.imaging.palettehelper/adjustpalette/
 ---
 ## AdjustPalette class
@@ -24,7 +24,7 @@ public class AdjustPalette
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [GetCloseImagePalette](../../aspose.imaging.palettehelper/adjustpalette/getcloseimagepalette)(RasterImage, int, ColorQuantizationMethod, ColorCompareMethod) | 获取关闭图像调色板。 |
+| static [GetCloseImagePalette](../../aspose.imaging.palettehelper/adjustpalette/getcloseimagepalette)(RasterImage, int, ColorQuantizationMethod, ColorCompareMethod) | 获取关闭的图像调色板。 |
 
 ### 也可以看看
 

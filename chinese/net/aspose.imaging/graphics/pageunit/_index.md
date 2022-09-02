@@ -1,14 +1,14 @@
 ---
 title: PageUnit
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置用于此 Aspose.Imaging.Graphics 中页面坐标的测量单位
+description: 获取或设置用于此 Aspose.Imaging.Graphics. 中页面坐标的测量单位
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging/graphics/pageunit/
 ---
 ## Graphics.PageUnit property
 
-获取或设置用于此 Aspose.Imaging.Graphics 中页面坐标的测量单位。
+获取或设置用于此 Aspose.Imaging.Graphics. 中页面坐标的测量单位
 
 ```csharp
 public GraphicsUnit PageUnit { get; set; }
@@ -16,7 +16,7 @@ public GraphicsUnit PageUnit { get; set; }
 
 ### 适当的价值
 
-在此 Aspose.Imaging.Graphics 中用于页面坐标的测量单位。
+在此 Aspose.Imaging.Graphics. 中用于页面坐标的测量单位
 
 ### 也可以看看
 

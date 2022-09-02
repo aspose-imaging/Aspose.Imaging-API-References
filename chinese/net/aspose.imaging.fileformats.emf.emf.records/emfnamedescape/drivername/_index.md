@@ -1,14 +1,14 @@
 ---
 title: DriverName
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 16 位 Unicode 字符的字符串它指定将接收数据的 打印机驱动程序的名称该值必须是 cjDriver 字节长并且必须是 以空字符结尾
+description: 获取或设置一个 16 位 Unicode 字符的字符串它指定将接收数据的 打印机驱动程序的名称此值必须是 cjDriver 字节长并且必须以 以空字符结尾
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfnamedescape/drivername/
 ---
 ## EmfNamedEscape.DriverName property
 
-获取或设置一个 16 位 Unicode 字符的字符串，它指定将接收数据的 打印机驱动程序的名称。该值必须是 cjDriver 字节长，并且必须是 以空字符结尾。
+获取或设置一个 16 位 Unicode 字符的字符串，它指定将接收数据的 打印机驱动程序的名称。此值必须是 cjDriver 字节长，并且必须以 以空字符结尾。
 
 ```csharp
 public string DriverName { get; set; }

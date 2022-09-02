@@ -1,14 +1,14 @@
 ---
 title: EmfPlusRegionNodePath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект EmfPlusRegionNodePath задает графический путь для рисования границы узла региона.
+description: Объект EmfPlusRegionNodePath указывает графический путь для рисования границы узла региона.
 type: docs
 weight: 5750
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnodepath/
 ---
 ## EmfPlusRegionNodePath class
 
-Объект EmfPlusRegionNodePath задает графический путь для рисования границы узла региона.
+Объект EmfPlusRegionNodePath указывает графический путь для рисования границы узла региона.
 
 ```csharp
 public sealed class EmfPlusRegionNodePath : EmfPlusStructureObjectType

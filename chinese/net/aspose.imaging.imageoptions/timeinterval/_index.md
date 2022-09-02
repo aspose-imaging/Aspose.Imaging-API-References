@@ -3,7 +3,7 @@ title: TimeInterval
 second_title: Aspose.Imaging for .NET API 参考
 description: 以毫秒为单位表示时间间隔
 type: docs
-weight: 10260
+weight: 10250
 url: /zh/net/aspose.imaging.imageoptions/timeinterval/
 ---
 ## TimeInterval class
@@ -18,18 +18,18 @@ public class TimeInterval
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TimeInterval](timeinterval)(uint, uint) | 初始化[`TimeInterval`](../timeinterval)类的新实例。 |
+| [TimeInterval](timeinterval)(uint, uint) | 初始化[`TimeInterval`](../timeinterval)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [From](../../aspose.imaging.imageoptions/timeinterval/from) { get; set; } | 获取或设置 From 毫秒。 |
-| [To](../../aspose.imaging.imageoptions/timeinterval/to) { get; set; } | 获取或设置 To 毫秒。 |
+| [To](../../aspose.imaging.imageoptions/timeinterval/to) { get; set; } | 获取或设置为毫秒。 |
 
 ### 例子
 
-部分动画从基于时间间隔的 GIF 图像。
+根据时间间隔从 GIF 图像中导出部分动画。
 
 ```csharp
 [C#]

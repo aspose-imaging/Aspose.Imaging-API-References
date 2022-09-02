@@ -1,14 +1,14 @@
 ---
 title: AddPath
 second_title: Aspose.Imaging for .NET API 参考
-description: 将指定的GraphicsPathaspose.imaging/graphicspath附加到此路径
+description: 附加指定的GraphicsPathaspose.imaging/graphicspath到这条路
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging/graphicspath/addpath/
 ---
 ## AddPath(GraphicsPath) {#addpath}
 
-将指定的[`GraphicsPath`](../../graphicspath)附加到此路径。
+附加指定的[`GraphicsPath`](../../graphicspath)到这条路。
 
 ```csharp
 public void AddPath(GraphicsPath addingPath)
@@ -16,7 +16,7 @@ public void AddPath(GraphicsPath addingPath)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| addingPath | GraphicsPath | [`GraphicsPath`](../../graphicspath)添加。 |
+| addingPath | GraphicsPath | 这[`GraphicsPath`](../../graphicspath)添加。 |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public void AddPath(GraphicsPath addingPath)
 
 ## AddPath(GraphicsPath, bool) {#addpath_1}
 
-将指定的[`GraphicsPath`](../../graphicspath)附加到此路径。
+附加指定的[`GraphicsPath`](../../graphicspath)到这条路。
 
 ```csharp
 public void AddPath(GraphicsPath addingPath, bool connect)
@@ -36,7 +36,7 @@ public void AddPath(GraphicsPath addingPath, bool connect)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| addingPath | GraphicsPath | [`GraphicsPath`](../../graphicspath)添加。 |
+| addingPath | GraphicsPath | 这[`GraphicsPath`](../../graphicspath)添加。 |
 | connect | Boolean | 一个布尔值，指定添加路径中的第一个图形是否是此路径中最后一个图形的一部分。 true 值指定添加路径中的第一个图形是此路径中最后一个图形的一部分。值 false 指定添加路径中的第一个图形与此路径中的最后一个图形是分开的。 |
 
 ### 也可以看看

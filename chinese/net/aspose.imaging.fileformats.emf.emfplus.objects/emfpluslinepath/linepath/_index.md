@@ -1,14 +1,14 @@
 ---
 title: LinePath
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置定义轮廓的EmfPlusPathaspose.imaging.fileformats.emf.emfplus.objects/emfpluspath对象
+description: 获取或设置一个EmfPlusPathaspose.imaging.fileformats.emf.emfplus.objects/emfpluspath定义轮廓的对象
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslinepath/linepath/
 ---
 ## EmfPlusLinePath.LinePath property
 
-获取或设置定义轮廓的[`EmfPlusPath`](../../emfpluspath)对象。
+获取或设置一个[`EmfPlusPath`](../../emfpluspath)定义轮廓的对象。
 
 ```csharp
 public EmfPlusPath LinePath { get; set; }

@@ -3,7 +3,7 @@ title: ColorMode
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示颜色模式
 type: docs
-weight: 11510
+weight: 11500
 url: /zh/net/aspose.imaging.xmp.types.complex.colorant/colormode/
 ---
 ## ColorMode enumeration

@@ -18,14 +18,14 @@ public class GifApplicationExtensionBlock : GifBlock
 
 | Имя | Описание |
 | --- | --- |
-| [GifApplicationExtensionBlock](gifapplicationextensionblock#constructor)() | Инициализирует новый экземпляр класса[`GifApplicationExtensionBlock`](../gifapplicationextensionblock). |
-| [GifApplicationExtensionBlock](gifapplicationextensionblock#constructor_1)(string, byte[], byte[]) | Инициализирует новый экземпляр класса[`GifApplicationExtensionBlock`](../gifapplicationextensionblock). |
+| [GifApplicationExtensionBlock](gifapplicationextensionblock#constructor)() | Инициализирует новый экземпляр[`GifApplicationExtensionBlock`](../gifapplicationextensionblock) класс. |
+| [GifApplicationExtensionBlock](gifapplicationextensionblock#constructor_1)(string, byte[], byte[]) | Инициализирует новый экземпляр[`GifApplicationExtensionBlock`](../gifapplicationextensionblock) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [ApplicationAuthenticationCode](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationauthenticationcode) { get; set; } | Получает или задает код проверки подлинности приложения. |
+| [ApplicationAuthenticationCode](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationauthenticationcode) { get; set; } | Получает или задает код аутентификации приложения. |
 | [ApplicationData](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationdata) { get; set; } | Получает или задает данные приложения. |
 | [ApplicationIdentifier](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationidentifier) { get; set; } | Получает или задает идентификатор приложения. |
 | [IsChanged](../../aspose.imaging.fileformats.gif/gifblock/ischanged) { get; set; } | Получает или задает значение, указывающее, изменился ли блок и требуется ли его сохранение. |
@@ -42,7 +42,7 @@ public class GifApplicationExtensionBlock : GifBlock
 | --- | --- |
 | const [ApplicationAuthenticationCodeSize](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationauthenticationcodesize) | Задает размер кода аутентификации приложения. |
 | const [ApplicationIdentifierSize](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/applicationidentifiersize) | Задает размер идентификатора приложения. |
-| const [BlockHeaderSize](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/blockheadersize) | Задает размер заголовка блока. |
+| const [BlockHeaderSize](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/blockheadersize) | Определяет размер заголовка блока. |
 | const [BlockSize](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/blocksize) | Имя расширения + размер блока версии |
 | const [ExtensionLabel](../../aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/extensionlabel) | Метка расширения. |
 

@@ -16,7 +16,7 @@ public static Color[] ToArgb(int[] cmykPixels)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cmykPixels | Int32[] | Цвета CMYK представлены в виде 32-битных целых значений. |
+| cmykPixels | Int32[] | Цвета CMYK представлены в виде 32-битных целых чисел. |
 
 ### Возвращаемое значение
 
@@ -41,7 +41,7 @@ public static Color ToArgb(int cmykPixel)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cmykPixel | Int32 | Цвет CMYK, представленный как 32-битное целочисленное значение. |
+| cmykPixel | Int32 | Цвет CMYK представлен в виде 32-битного целого числа. |
 
 ### Возвращаемое значение
 
@@ -49,17 +49,17 @@ public static Color ToArgb(int cmykPixel)
 
 ### Примеры
 
-В следующем примере показано, как быстро преобразовать цвета CMYK в их аналоги RGB, следуя простым формулам, без использования профилей ICC.
+В следующем примере показано, как быстро преобразовать цвета CMYK в их аналоги RGB с помощью простых формул без использования профилей ICC.
 
 ```csharp
 [C#]
 
 int[] cmykColors = new int[]
 {
-    Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0),    // голубой
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0),    // Пурпурный
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0),    // Желтый
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255),    // Черный
+    Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0),   // голубой
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0),   // Пурпурный
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0),   // Желтый
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255),   // Черный
 };
 
 System.Console.WriteLine("Convert CMYK to RGB without using ICC profiles.");
@@ -74,11 +74,11 @@ foreach (int cmykColor in cmykColors)
     System.Console.WriteLine("CMYK({0},{1},{2},{3})\t\t=> RGB({4},{5},{6})", c, m, y, k, rgbColor.R, rgbColor.G, rgbColor.B);
 }
 
- // Вывод выглядит так: 
- //Преобразование CMYK в RGB без использования профилей ICC.
- //CMYK(255,0,0,0) => RGB(0,255,255)
- //CMYK(0,255,0,0) => RGB(255,0,255)
- //CMYK(0,0,255,0) => RGB(255,255,0)
+//Вывод выглядит так:
+//Преобразование CMYK в RGB без использования профилей ICC.
+//CMYK(255,0,0,0) => RGB(0,255,255)
+//CMYK(0,255,0,0) => RGB(255,0,255)
+//CMYK(0,0,255,0) => RGB(255,255,0)
 //CMYK(0,0,0,255) => RGB(0,0,0)
 ```
 

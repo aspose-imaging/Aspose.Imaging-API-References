@@ -1,14 +1,14 @@
 ---
 title: EmfPaintRgn
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPaintRgnaspose.imaging.fileformats.emf.emf.records/emfpaintrgn类的新实例
+description: 初始化EmfPaintRgnaspose.imaging.fileformats.emf.emf.records/emfpaintrgn类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/emfpaintrgn/
 ---
 ## EmfPaintRgn(EmfRecord) {#constructor_1}
 
-初始化[`EmfPaintRgn`](../../emfpaintrgn)类的新实例。
+初始化[`EmfPaintRgn`](../../emfpaintrgn)类.
 
 ```csharp
 public EmfPaintRgn(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfPaintRgn(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfPaintRgn(EmfRecord source)
 
 ## EmfPaintRgn() {#constructor}
 
-初始化[`EmfPaintRgn`](../../emfpaintrgn)类的新实例。
+初始化[`EmfPaintRgn`](../../emfpaintrgn)类.
 
 ```csharp
 public EmfPaintRgn()

@@ -1,14 +1,14 @@
 ---
 title: RowsPerStrip
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает количество строк в полосе.
+description: Получает или задает количество строк на полосу.
 type: docs
 weight: 400
 url: /ru/net/aspose.imaging.imageoptions/tiffoptions/rowsperstrip/
 ---
 ## TiffOptions.RowsPerStrip property
 
-Получает или задает количество строк в полосе.
+Получает или задает количество строк на полосу.
 
 ```csharp
 public uint RowsPerStrip { get; set; }
@@ -16,7 +16,7 @@ public uint RowsPerStrip { get; set; }
 
 ### Стоимость имущества
 
-Количество рядов на полосу.
+Количество строк на полосу.
 
 ### Смотрите также
 

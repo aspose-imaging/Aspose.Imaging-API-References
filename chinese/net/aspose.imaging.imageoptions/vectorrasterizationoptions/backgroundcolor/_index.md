@@ -23,34 +23,28 @@ public Color BackgroundColor { get; set; }
 
 string dir = "c:\\temp\\";
 
-    // 使用Aspose.Imaging.Image.Load是统一加载image.
-的方式
-using (Aspose.Imaging.FileFormats.Svg.SvgImage svgImage = (Aspose.Imaging.FileFormats.Svg.SvgImage)Aspose.Imaging.Image.Load(dir + "test.svg"))
+// 使用 Aspose.Imaging.Image.Load 是一种统一的方式来加载包括 WMF 在内的所有类型的图像。
+using (Aspose.Imaging.FileFormats.Wmf.WmfImage wmfImage = (Aspose.Imaging.FileFormats.Wmf.WmfImage)Aspose.Imaging.Image.Load(dir + "test.wmf"))
 {
-    // 为了光栅化 SVG，我们需要指定光栅化选项。
-    Aspose.Imaging.ImageOptions.SvgRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.SvgRasterizationOptions();
+    Aspose.Imaging.ImageOptions.SvgOptions saveOptions = new Aspose.Imaging.ImageOptions.SvgOptions();
+        
+    // 文本将转换为形状。
+    saveOptions.TextAsShapes = true;
 
-        // 设置图像背景的默认颜色。默认值为白色。
-    rasterizationOptions.BackgroundColor = Aspose.Imaging.Color.Gray;
+    Aspose.Imaging.ImageOptions.WmfRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.WmfRasterizationOptions();
 
-        // 设置页面大小
-    rasterizationOptions.PageSize = svgImage.Size;
+    // 绘图表面的背景颜色。
+    rasterizationOptions.BackgroundColor = Aspose.Imaging.Color.WhiteSmoke;
 
-        // 抗锯齿应用于直线和曲线以及填充区域的边缘。
-    rasterizationOptions.SmoothingMode = Aspose.Imaging.SmoothingMode.AntiAlias;
+    // 页面大小。
+    rasterizationOptions.PageSize = wmfImage.Size;
 
-        // 每个字符都是使用其抗锯齿字形位图绘制的，没有提示。
-    rasterizationOptions.TextRenderingHint = Aspose.Imaging.TextRenderingHint.AntiAlias;
+    // 如果嵌入的 emf 存在，则渲染 emf；否则渲染 wmf。
+    rasterizationOptions.RenderMode = Aspose.Imaging.FileFormats.Wmf.WmfRenderMode.Auto;
 
-        // 将图像尺寸缩小10倍，即输出尺寸将是原始尺寸的10%。
-    rasterizationOptions.ScaleX = 0.1f;
-    rasterizationOptions.ScaleY = 0.1f;
-
-    Aspose.Imaging.ImageOptions.PngOptions saveOptions = new Aspose.Imaging.ImageOptions.PngOptions();
     saveOptions.VectorRasterizationOptions = rasterizationOptions;
 
-        // 保存为 PNG 文件
-    svgImage.Save(dir + "test.output.png", saveOptions);
+    wmfImage.Save(dir + "test.output.svg", saveOptions);
 }
 ```
 
@@ -61,34 +55,34 @@ using (Aspose.Imaging.FileFormats.Svg.SvgImage svgImage = (Aspose.Imaging.FileFo
 
 string dir = "c:\\temp\\";
 
-    // 使用Aspose.Imaging.Image.Load是统一加载image.
-的方式
-using (Aspose.Imaging.FileFormats.Svg.SvgImage svgImage = (Aspose.Imaging.FileFormats.Svg.SvgImage)Aspose.Imaging.Image.Load(dir + "test.svg"))
+// 使用 Aspose.Imaging.Image.Load 是一种统一的方式来加载包括 EMF 在内的所有类型的图像。
+using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFormats.Emf.EmfImage)Aspose.Imaging.Image.Load(dir + "test.emf"))
 {
-    // 为了光栅化 SVG，我们需要指定光栅化选项。
-    Aspose.Imaging.ImageOptions.SvgRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.SvgRasterizationOptions();
+    Aspose.Imaging.ImageOptions.SvgOptions saveOptions = new Aspose.Imaging.ImageOptions.SvgOptions();
 
-        // 设置图像背景的默认颜色。默认值为白色。
-    rasterizationOptions.BackgroundColor = Aspose.Imaging.Color.Gray;
+    // 文本将转换为形状。
+    saveOptions.TextAsShapes = true;
 
-        // 设置页面大小
-    rasterizationOptions.PageSize = svgImage.Size;
+    Aspose.Imaging.ImageOptions.EmfRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.EmfRasterizationOptions();
 
-        // 抗锯齿应用于直线和曲线以及填充区域的边缘。
-    rasterizationOptions.SmoothingMode = Aspose.Imaging.SmoothingMode.AntiAlias;
+    // 绘图表面的背景颜色。
+    rasterizationOptions.BackgroundColor = Aspose.Imaging.Color.WhiteSmoke;
 
-        // 每个字符都是使用其抗锯齿字形位图绘制的，没有提示。
-    rasterizationOptions.TextRenderingHint = Aspose.Imaging.TextRenderingHint.AntiAlias;
+    // 页面大小。
+    rasterizationOptions.PageSize = emfImage.Size;
 
-        // 将图像尺寸缩小10倍，即输出尺寸将是原始尺寸的10%。
-    rasterizationOptions.ScaleX = 0.1f;
-    rasterizationOptions.ScaleY = 0.1f;
+    // 如果嵌入的 emf 存在，则渲染 emf；否则渲染 wmf。
+    rasterizationOptions.RenderMode = Aspose.Imaging.FileFormats.Emf.EmfRenderMode.Auto;
 
-    Aspose.Imaging.ImageOptions.PngOptions saveOptions = new Aspose.Imaging.ImageOptions.PngOptions();
+    // 设置水平边距
+    rasterizationOptions.BorderX = 50;
+
+    // 设置垂直边距
+    rasterizationOptions.BorderY = 50;
+
     saveOptions.VectorRasterizationOptions = rasterizationOptions;
 
-        // 保存为 PNG 文件
-    svgImage.Save(dir + "test.output.png", saveOptions);
+    emfImage.Save(dir + "test.output.svg", saveOptions);
 }
 ```
 
@@ -99,33 +93,32 @@ using (Aspose.Imaging.FileFormats.Svg.SvgImage svgImage = (Aspose.Imaging.FileFo
 
 string dir = "c:\\temp\\";
 
-    // 使用Aspose.Imaging.Image.Load是统一加载image.
-的方式
+// 使用 Aspose.Imaging.Image.Load 是一种统一的图片加载方式。
 using (Aspose.Imaging.FileFormats.Svg.SvgImage svgImage = (Aspose.Imaging.FileFormats.Svg.SvgImage)Aspose.Imaging.Image.Load(dir + "test.svg"))
 {
     // 为了光栅化 SVG，我们需要指定光栅化选项。
     Aspose.Imaging.ImageOptions.SvgRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.SvgRasterizationOptions();
 
-        // 设置图像背景的默认颜色。默认值为白色。
+    // 设置图像背景的默认颜色。默认值为白色。
     rasterizationOptions.BackgroundColor = Aspose.Imaging.Color.Gray;
 
-        // 设置页面大小
+    // 设置页面大小
     rasterizationOptions.PageSize = svgImage.Size;
 
-        // 抗锯齿应用于直线和曲线以及填充区域的边缘。
+    // 抗锯齿应用于直线和曲线以及填充区域的边缘。
     rasterizationOptions.SmoothingMode = Aspose.Imaging.SmoothingMode.AntiAlias;
 
-        // 每个字符都是使用其抗锯齿字形位图绘制的，没有提示。
+    // 每个字符都是使用其抗锯齿字形位图绘制的，没有提示。
     rasterizationOptions.TextRenderingHint = Aspose.Imaging.TextRenderingHint.AntiAlias;
 
-        // 将图像尺寸缩小10倍，即输出尺寸将是原始尺寸的10%。
+    // 将图像尺寸缩小 10 倍，即输出尺寸将是原始尺寸的 10%。
     rasterizationOptions.ScaleX = 0.1f;
     rasterizationOptions.ScaleY = 0.1f;
 
     Aspose.Imaging.ImageOptions.PngOptions saveOptions = new Aspose.Imaging.ImageOptions.PngOptions();
     saveOptions.VectorRasterizationOptions = rasterizationOptions;
 
-        // 保存为 PNG 文件
+    //保存为PNG文件
     svgImage.Save(dir + "test.output.png", saveOptions);
 }
 ```

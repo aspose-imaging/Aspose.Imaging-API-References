@@ -1,14 +1,14 @@
 ---
 title: FontStyleFlags
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位有符号整数该整数指定 影响字体外观的字符字形属性 例如粗体和斜体该值必须由 FontStyle 标志组成第 2.1.2.4 节
+description: 获取或设置一个 32 位有符号整数它指定影响字体外观的 字符字形的属性 例如粗体和斜体此值必须由 FontStyle 标志第 2.1.2.4 节组成
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont/fontstyleflags/
 ---
 ## EmfPlusFont.FontStyleFlags property
 
-获取或设置一个 32 位有符号整数，该整数指定 影响字体外观的字符字形属性 例如粗体和斜体。该值必须由 FontStyle 标志组成（第 2.1.2.4 节）。
+获取或设置一个 32 位有符号整数，它指定影响字体外观的 字符字形的属性， 例如粗体和斜体。此值必须由 FontStyle 标志（第 2.1.2.4 节）组成。
 
 ```csharp
 public EmfPlusFontStyleFlags FontStyleFlags { get; set; }

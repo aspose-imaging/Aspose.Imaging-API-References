@@ -25,9 +25,9 @@ public class WmfEscapePostScript : WmfEscapeRecordBase
 | 姓名 | 描述 |
 | --- | --- |
 | [ByteCount](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/bytecount) { get; set; } | 获取或设置字节数。 |
-| virtual [Checked](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/checked) { get; set; } | 获取一个值，该值指示是否检查了此[`WmfEscapeRecordBase`](../wmfescaperecordbase)。 |
+| virtual [Checked](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/checked) { get; set; } | 获取一个值，该值指示这是否[`WmfEscapeRecordBase`](../wmfescaperecordbase)已检查。 |
 | [Data](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/data) { get; set; } | 获取或设置数据。 |
-| [PostScriptPart](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapepostscript/postscriptpart) { get; set; } | 获取或设置后置脚本部分。 |
+| [PostScriptPart](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapepostscript/postscriptpart) { get; set; } | 获取或设置后期脚本部分。 |
 
 ### 也可以看看
 

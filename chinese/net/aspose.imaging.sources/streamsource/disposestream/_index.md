@@ -1,14 +1,14 @@
 ---
 title: DisposeStream
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示是否应在释放容器时释放流
+description: 获取一个值该值指示是否应在容器被处置时处置流
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.sources/streamsource/disposestream/
 ---
 ## StreamSource.DisposeStream property
 
-获取一个值，该值指示是否应在释放容器时释放流。
+获取一个值，该值指示是否应在容器被处置时处置流。
 
 ```csharp
 public bool DisposeStream { get; }
@@ -16,7 +16,7 @@ public bool DisposeStream { get; }
 
 ### 适当的价值
 
-` true` 如果应该处理流；否则，` false` 。
+`真的`是否应该处理流；否则，`错误的`.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ToArgbIcc
 second_title: Aspose.Imaging for .NET API 参考
-description: 使用带有默认配置文件的 Icc 转换从 CMYK 颜色到 ARGB 颜色的转换
+description: 使用默认配置文件的 Icc 转换从 CMYK 颜色到 ARGB 颜色的转换
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging/cmykcolorhelper/toargbicc/
 ---
 ## ToArgbIcc(int[]) {#toargbicc_2}
 
-使用带有默认配置文件的 Icc 转换从 CMYK 颜色到 ARGB 颜色的转换。
+使用默认配置文件的 Icc 转换从 CMYK 颜色到 ARGB 颜色的转换。
 
 ```csharp
 public static Color[] ToArgbIcc(int[] cmykPixels)
@@ -16,7 +16,7 @@ public static Color[] ToArgbIcc(int[] cmykPixels)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cmykPixels | Int32[] | 以 32 位整数值表示的 CMYK 像素。 |
+| cmykPixels | Int32[] | CMYK 像素表示为 32 位整数值。 |
 
 ### 返回值
 
@@ -41,7 +41,7 @@ public static Color[] ToArgbIcc(int[] cmykPixels, Stream cmykIccStream, Stream r
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cmykPixels | Int32[] | CMYK 颜色呈现为 32 位整数值。 |
+| cmykPixels | Int32[] | CMYK 颜色显示为 32 位整数值。 |
 | cmykIccStream | Stream | 包含 CMYK Icc 配置文件的流。 |
 | rgbIccStream | Stream | 包含 RGB Icc 配置文件的流。 |
 
@@ -60,7 +60,7 @@ ARGB 颜色。
 
 ## ToArgbIcc(int) {#toargbicc}
 
-使用带有默认配置文件的 Icc 转换从 CMYK 颜色到 ARGB 颜色的转换。
+使用默认配置文件的 Icc 转换从 CMYK 颜色到 ARGB 颜色的转换。
 
 ```csharp
 public static Color ToArgbIcc(int cmykPixel)
@@ -68,7 +68,7 @@ public static Color ToArgbIcc(int cmykPixel)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cmykPixel | Int32 | CMYK 颜色以 32 位整数值表示。 |
+| cmykPixel | Int32 | CMYK 颜色显示为 32 位整数值。 |
 
 ### 返回值
 
@@ -83,10 +83,10 @@ ARGB 颜色。
 
 int[] cmykColors = new int[]
 {
-    Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0),       // 青色
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0),       // 洋红色
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0),       // 黄色
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255),       // 黑色
+    Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0),   // 青色
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0),   // 洋红色
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0),   // 黄色
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255),   // 黑色的
 };
 
 System.Console.WriteLine("Convert CMYK to RGB using default ICC profiles.");
@@ -120,16 +120,16 @@ using (System.IO.Stream cmykProfileStream = System.IO.File.OpenRead(dir + "ISOco
     }
 }
 
-    //输出看起来像这样：
-    //使用默认的 ICC 配置文件将 CMYK 转换为 RGB。 
-       //CMYK(255,0,0,0) => RGB(46,188,220)
-       //CMYK(0,255,0,0) => RGB(231,52,142)
-    //CMYK(0,0,255,0) => RGB(244,253,63)
-    //CMYK(0,0,0,255) => RGB(21,21,21)
-    //使用自定义 ICC 配置文件将 CMYK 转换为 RGB。
-       //CMYK(255,0,0,0) => RGB(46,188,220)
-       //CMYK(0,255,0,0) => RGB(231,52,142)
-    //(0,0,255,0) => RGB(244,253,63)
+//输出看起来像这样：
+//使用默认的 ICC 配置文件将 CMYK 转换为 RGB。            
+//CMYK(255,0,0,0) => RGB(46,188,220)
+//CMYK(0,255,0,0) => RGB(231,52,142)
+//CMYK(0,0,255,0) => RGB(244,253,63)
+//CMYK(0,0,0,255) => RGB(21,21,21)
+//使用自定义 ICC 配置文件将 CMYK 转换为 RGB。
+//CMYK(255,0,0,0) => RGB(46,188,220)
+//CMYK(0,255,0,0) => RGB(231,52,142)
+//(0,0,255,0) => RGB(244,253,63)
 //CMYK(0,0,0,255) => RGB(21,21,21)
 ```
 
@@ -152,7 +152,7 @@ public static Color ToArgbIcc(int cmykPixel, Stream cmykIccStream, Stream rgbIcc
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cmykPixel | Int32 | CMYK 颜色以 32 位整数值表示。 |
+| cmykPixel | Int32 | CMYK 颜色显示为 32 位整数值。 |
 | cmykIccStream | Stream | 包含 CMYK Icc 配置文件的流。 |
 | rgbIccStream | Stream | 包含 RGB Icc 配置文件的流。 |
 
@@ -169,10 +169,10 @@ ARGB 颜色。
 
 int[] cmykColors = new int[]
 {
-    Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0),       // 青色
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0),       // 洋红色
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0),       // 黄色
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255),       // 黑色
+    Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0),   // 青色
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0),   // 洋红色
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0),   // 黄色
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255),   // 黑色的
 };
 
 System.Console.WriteLine("Convert CMYK to RGB using default ICC profiles.");
@@ -206,16 +206,16 @@ using (System.IO.Stream cmykProfileStream = System.IO.File.OpenRead(dir + "ISOco
     }
 }
 
-    //输出看起来像这样：
-    //使用默认的 ICC 配置文件将 CMYK 转换为 RGB。 
-       //CMYK(255,0,0,0) => RGB(46,188,220)
-       //CMYK(0,255,0,0) => RGB(231,52,142)
-    //CMYK(0,0,255,0) => RGB(244,253,63)
-    //CMYK(0,0,0,255) => RGB(21,21,21)
-    //使用自定义 ICC 配置文件将 CMYK 转换为 RGB。
-       //CMYK(255,0,0,0) => RGB(46,188,220)
-       //CMYK(0,255,0,0) => RGB(231,52,142)
-    //(0,0,255,0) => RGB(244,253,63)
+//输出看起来像这样：
+//使用默认的 ICC 配置文件将 CMYK 转换为 RGB。            
+//CMYK(255,0,0,0) => RGB(46,188,220)
+//CMYK(0,255,0,0) => RGB(231,52,142)
+//CMYK(0,0,255,0) => RGB(244,253,63)
+//CMYK(0,0,0,255) => RGB(21,21,21)
+//使用自定义 ICC 配置文件将 CMYK 转换为 RGB。
+//CMYK(255,0,0,0) => RGB(46,188,220)
+//CMYK(0,255,0,0) => RGB(231,52,142)
+//(0,0,255,0) => RGB(244,253,63)
 //CMYK(0,0,0,255) => RGB(21,21,21)
 ```
 

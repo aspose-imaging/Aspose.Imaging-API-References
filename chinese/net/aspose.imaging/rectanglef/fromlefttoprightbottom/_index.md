@@ -1,14 +1,14 @@
 ---
 title: FromLeftTopRightBottom
 second_title: Aspose.Imaging for .NET API 参考
-description: 在指定位置创建具有左上角和右下角的RectangleFaspose.imaging/rectanglef结构
+description: 创建一个RectangleFaspose.imaging/rectanglef在指定位置具有左上角和右下角的结构
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging/rectanglef/fromlefttoprightbottom/
 ---
 ## RectangleF.FromLeftTopRightBottom method
 
-在指定位置创建具有左上角和右下角的[`RectangleF`](../../rectanglef)结构。
+创建一个[`RectangleF`](../../rectanglef)在指定位置具有左上角和右下角的结构。
 
 ```csharp
 public static RectangleF FromLeftTopRightBottom(float left, float top, float right, float bottom)
@@ -23,7 +23,7 @@ public static RectangleF FromLeftTopRightBottom(float left, float top, float rig
 
 ### 返回值
 
-该方法创建的新[`RectangleF`](../../rectanglef)。
+新的[`RectangleF`](../../rectanglef)该方法创建的。
 
 ### 也可以看看
 

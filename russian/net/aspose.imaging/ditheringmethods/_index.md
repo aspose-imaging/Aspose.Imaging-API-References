@@ -1,14 +1,14 @@
 ---
 title: DitheringMethods
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Методы дизеринга используемые для управления преобразованием цвета.
+description: Методы сглаживания используемые для управления преобразованием цвета.
 type: docs
 weight: 850
 url: /ru/net/aspose.imaging/ditheringmethods/
 ---
 ## DitheringMethods enumeration
 
-Методы дизеринга, используемые для управления преобразованием цвета.
+Методы сглаживания, используемые для управления преобразованием цвета.
 
 ```csharp
 public enum DitheringMethods
@@ -19,7 +19,7 @@ public enum DitheringMethods
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | PaletteIgnore | `0` | Палитра игнорируется |
-| PaletteConversion | `1` | Палитра не игнорируется, и следует применять разумное преобразование цвета. |
+| PaletteConversion | `1` | Палитра не игнорируется, и следует применить разумное преобразование цвета. |
 | CustomConverter | `2` | Пользовательский конвертер. |
 
 ### Смотрите также

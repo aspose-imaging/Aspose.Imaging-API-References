@@ -1,14 +1,14 @@
 ---
 title: HasTransparentColor
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取图像是否具有透明色的值
+description: 获取一个表示图像是否具有透明色的值
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.png/pngimage/hastransparentcolor/
 ---
 ## PngImage.HasTransparentColor property
 
-获取图像是否具有透明色的值。
+获取一个表示图像是否具有透明色的值。
 
 ```csharp
 public override bool HasTransparentColor { get; set; }
@@ -25,25 +25,25 @@ Aspose.Imaging.ImageOptions.PngOptions createOptions = new Aspose.Imaging.ImageO
 createOptions.Source = new Aspose.Imaging.Sources.FileCreateSource("c:\\temp\\transparent.png", false);
 createOptions.ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.Truecolor;
 
-    // 创建一个 100x100 像素的 TrueColor PNG 图像。
+// 创建一个 100x100 像素的 TrueColor PNG 图像。
 using (Aspose.Imaging.Image image = Image.Create(createOptions, 100, 100))
 {
     Aspose.Imaging.FileFormats.Png.PngImage pngImage = (Aspose.Imaging.FileFormats.Png.PngImage)image;
     Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(pngImage);
 
-        // 所有红色像素将被视为完全透明。
+    // 所有红色像素都将被视为完全透明。
     pngImage.TransparentColor = Aspose.Imaging.Color.Red;
     pngImage.HasTransparentColor = true;
 
-    // 所有透明像素都有背景色.
+    // 所有透明像素都有背景颜色。
     pngImage.BackgroundColor = Aspose.Imaging.Color.Green;
     pngImage.HasBackgroundColor = true;
 
-        // 用白色填充整个图像。
+    // 用白色填充整个图像。
     gr.FillRectangle(new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.White), pngImage.Bounds);
 
-        // 用透明颜色填充图像的左上角。
-        // 这使得左上角的四分之一在背景颜色中着色。
+    // 用透明颜色填充图像的左上角。
+    // 这使得左上角的四分之一以背景颜色着色。
     Rectangle rect = new Rectangle(0, 0, pngImage.Width / 2, pngImage.Height / 2);
     gr.FillRectangle(new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red), rect);
 

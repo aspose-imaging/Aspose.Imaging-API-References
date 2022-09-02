@@ -1,14 +1,14 @@
 ---
 title: BitsPerPixel
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置每个像素的位数
+description: 获取或设置每像素的位数
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/bitsperpixel/
 ---
 ## CmxRasterImage.BitsPerPixel property
 
-获取或设置每个像素的位数。
+获取或设置每像素的位数。
 
 ```csharp
 public uint BitsPerPixel { get; set; }

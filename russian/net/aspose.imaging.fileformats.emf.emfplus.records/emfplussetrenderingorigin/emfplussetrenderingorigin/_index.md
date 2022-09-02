@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSetRenderingOrigin
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusSetRenderingOriginaspose.imaging.fileformats.emf.emfplus.records/emfplussetrenderingorigin.
+description: Инициализирует новый экземплярEmfPlusSetRenderingOriginaspose.imaging.fileformats.emf.emfplus.records/emfplussetrenderingorigin класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetrenderingorigin/emfplussetrenderingorigin/
 ---
 ## EmfPlusSetRenderingOrigin constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusSetRenderingOrigin`](../../emfplussetrenderingorigin).
+Инициализирует новый экземпляр[`EmfPlusSetRenderingOrigin`](../../emfplussetrenderingorigin) класс.
 
 ```csharp
 public EmfPlusSetRenderingOrigin(EmfPlusRecord source)

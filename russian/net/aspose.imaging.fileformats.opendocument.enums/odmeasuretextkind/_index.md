@@ -1,14 +1,14 @@
 ---
 title: OdMeasureTextKind
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Тип текста меры
+description: Текст меры kind
 type: docs
 weight: 6860
 url: /ru/net/aspose.imaging.fileformats.opendocument.enums/odmeasuretextkind/
 ---
 ## OdMeasureTextKind enumeration
 
-Тип текста меры
+Текст меры kind
 
 ```csharp
 public enum OdMeasureTextKind
@@ -18,10 +18,10 @@ public enum OdMeasureTextKind
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `0` | Тип текста меры - none |
-| Gap | `1` | Тип текста меры - пробел |
-| Value | `2` | Тип текста меры является значением |
-| Unit | `3` | Тип текста меры - единица |
+| None | `0` | Тип текста меры — none |
+| Gap | `1` | Тип текста меры: gap |
+| Value | `2` | Тип текста меры: value |
+| Unit | `3` | Тип текста меры: unit |
 
 ### Смотрите также
 

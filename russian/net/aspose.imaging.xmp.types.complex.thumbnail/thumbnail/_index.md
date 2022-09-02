@@ -3,7 +3,7 @@ title: Thumbnail
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет миниатюру файла.
 type: docs
-weight: 11620
+weight: 11610
 url: /ru/net/aspose.imaging.xmp.types.complex.thumbnail/thumbnail/
 ---
 ## Thumbnail class
@@ -18,8 +18,8 @@ public sealed class Thumbnail : ComplexTypeBase
 
 | Имя | Описание |
 | --- | --- |
-| [Thumbnail](thumbnail#constructor)() | Инициализирует новый экземпляр класса[`Thumbnail`](../thumbnail). |
-| [Thumbnail](thumbnail#constructor_1)(int, int) | Инициализирует новый экземпляр класса[`Thumbnail`](../thumbnail). |
+| [Thumbnail](thumbnail#constructor)() | Инициализирует новый экземпляр[`Thumbnail`](../thumbnail) класс. |
+| [Thumbnail](thumbnail#constructor_1)(int, int) | Инициализирует новый экземпляр[`Thumbnail`](../thumbnail) класс. |
 
 ## Характеристики
 

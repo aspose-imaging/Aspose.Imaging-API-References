@@ -1,14 +1,14 @@
 ---
 title: FracValue
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение дроби
+description: Получает или задает дробное значение
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/fracvalue/
 ---
 ## EmfBitFix28To4.FracValue property
 
-Получает или задает значение дроби
+Получает или задает дробное значение
 
 ```csharp
 public int FracValue { get; set; }

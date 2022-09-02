@@ -18,8 +18,8 @@ public class PngImageException : Exception
 
 | Имя | Описание |
 | --- | --- |
-| [PngImageException](pngimageexception#constructor)(string) | Инициализирует новый экземпляр класса[`PngImageException`](../pngimageexception). |
-| [PngImageException](pngimageexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр класса[`PngImageException`](../pngimageexception). |
+| [PngImageException](pngimageexception#constructor)(string) | Инициализирует новый экземпляр[`PngImageException`](../pngimageexception) класс. |
+| [PngImageException](pngimageexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр[`PngImageException`](../pngimageexception) класс. |
 
 ### Смотрите также
 

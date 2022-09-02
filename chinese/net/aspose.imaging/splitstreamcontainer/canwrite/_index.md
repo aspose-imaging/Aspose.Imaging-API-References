@@ -16,7 +16,7 @@ public override bool CanWrite { get; }
 
 ### 适当的价值
 
-` true` 如果流支持写入；否则，` false` 。
+`真的`如果流支持写入；否则，`错误的`.
 
 ### 也可以看看
 

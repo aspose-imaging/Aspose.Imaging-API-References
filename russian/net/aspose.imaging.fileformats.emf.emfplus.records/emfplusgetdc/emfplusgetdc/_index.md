@@ -1,14 +1,14 @@
 ---
 title: EmfPlusGetDc
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusGetDcaspose.imaging.fileformats.emf.emfplus.records/emfplusgetdc.
+description: Инициализирует новый экземплярEmfPlusGetDcaspose.imaging.fileformats.emf.emfplus.records/emfplusgetdc класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusgetdc/emfplusgetdc/
 ---
 ## EmfPlusGetDc constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusGetDc`](../../emfplusgetdc).
+Инициализирует новый экземпляр[`EmfPlusGetDc`](../../emfplusgetdc) класс.
 
 ```csharp
 public EmfPlusGetDc(EmfPlusRecord source)

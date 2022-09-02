@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: Aspose.Imaging for .NET API 参考
-description: 测试两个SizeFaspose.imaging/sizef结构是否不同
+description: 测试是否两个SizeFaspose.imaging/sizef结构不同
 type: docs
 weight: 160
 url: /zh/net/aspose.imaging/sizef/op_inequality/
 ---
 ## SizeF Inequality operator
 
-测试两个[`SizeF`](../../sizef)结构是否不同。
+测试是否两个[`SizeF`](../../sizef)结构不同。
 
 ```csharp
 public static bool operator !=(SizeF size1, SizeF size2)
@@ -16,12 +16,12 @@ public static bool operator !=(SizeF size1, SizeF size2)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| size1 | SizeF | [`SizeF`](../../sizef)不等式运算符左侧的结构。 |
-| size2 | SizeF | 不等式运算符右侧的[`SizeF`](../../sizef)结构。 |
+| size1 | SizeF | 这[`SizeF`](../../sizef)不等式运算符左侧的结构。 |
+| size2 | SizeF | 这[`SizeF`](../../sizef)不等式运算符右侧的结构。 |
 
 ### 返回值
 
-如果*size1*和*size2*宽度或高度不同，则此运算符返回 true；如果*size1*和*size2*相等，则为 false。
+此运算符在以下情况下返回 true*size1*和*size2*宽度或高度不同；假如果*size1*和*size2*是平等的。
 
 ### 也可以看看
 

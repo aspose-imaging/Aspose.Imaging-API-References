@@ -1,14 +1,14 @@
 ---
 title: OdEndPath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdEndPathaspose.imaging.fileformats.opendocument.objects.graphic/odendpath.
+description: Инициализирует новый экземплярOdEndPathaspose.imaging.fileformats.opendocument.objects.graphic/odendpath класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odendpath/odendpath/
 ---
 ## OdEndPath constructor
 
-Инициализирует новый экземпляр класса[`OdEndPath`](../../odendpath).
+Инициализирует новый экземпляр[`OdEndPath`](../../odendpath) класс.
 
 ```csharp
 public OdEndPath(OdObject parent)

@@ -35,7 +35,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\Grayscal
 
     TransparentPixelRawDataCounter rawDataLoader = new TransparentPixelRawDataCounter(settings);
 
-     // Загрузить пиксели для всего изображения. Любая прямоугольная часть изображения может быть указана в качестве параметра метода Aspose.Imaging.RasterImage.LoadRawData.
+    // Загрузить пиксели для всего изображения. Любая прямоугольная часть изображения может быть указана в качестве параметра метода Aspose.Imaging.RasterImage.LoadRawData.
     rasterImage.LoadRawData(rasterImage.Bounds, settings, rawDataLoader);
 
     System.Console.WriteLine("The number of fully transparent pixels is {0}", rawDataLoader.Count);
@@ -44,22 +44,22 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\Grayscal
 
 // В случае необработанных данных счетчик может выглядеть так:
 /// <summary>
- /// Подсчитывает количество полностью прозрачных пикселей со значением альфа-канала 0.
+/// Подсчитывает количество полностью прозрачных пикселей со значением альфа-канала, равным 0.
 /// </summary>
 private class TransparentPixelRawDataCounter : IPartialRawDataLoader
 {
     /// <summary>
-     /// Количество полностью прозрачных пикселей.
+    /// Количество полностью прозрачных пикселей.
     /// </summary>
     private int count;
 
     /// <summary>
-     /// Настройки необработанных данных загруженного изображения.
+    /// Настройки необработанных данных загруженного изображения.
     /// </summary>
     private Aspose.Imaging.RawDataSettings rawDataSettings;
 
     /// <summary>
-     /// Получает количество полностью прозрачных пикселей.
+    /// Получает количество полностью прозрачных пикселей.
     /// </summary>
     public int Count
     {
@@ -67,9 +67,9 @@ private class TransparentPixelRawDataCounter : IPartialRawDataLoader
     }
 
     /// <summary>
-     /// Инициализирует новый экземпляр <see TransparentPixelRawDataCounter /> класс.
+    /// Инициализирует новый экземпляр <see TransparentPixelRawDataCounter /> учебный класс.
     /// </summary>
-     /// <param name="settings">Настройки необработанных данных позволяют извлекать компоненты цвета из необработанных данных.</param>
+    /// <param name="settings">Настройки необработанных данных позволяют извлекать компоненты цвета из необработанных данных.</param>
     public TransparentPixelRawDataCounter(Aspose.Imaging.RawDataSettings settings)
     {
         this.rawDataSettings = settings;
@@ -77,17 +77,17 @@ private class TransparentPixelRawDataCounter : IPartialRawDataLoader
     }
 
     /// <summary>
-     /// Обрабатывает загруженные необработанные данные. Этот метод вызывается каждый раз, когда загружается новая порция необработанных данных.
+    /// Обрабатывает загруженные необработанные данные. Этот метод вызывается каждый раз, когда загружается новая порция необработанных данных.
     /// </summary>
-     /// <param name="dataRectangle">Прямоугольник необработанных данных.</param>
-     /// <param name="data">Необработанные данные.</param>
-     /// <param name="start">Начальная точка данных.</param>
-     /// <param name="end">Конечная точка данных.</param>
+    /// <param name="dataRectangle">Прямоугольник необработанных данных.</param>
+    /// <param name="data">Необработанные данные.</param>
+    /// <param name="start">Начальная точка данных.</param>
+    /// <param name="end">Конечная точка данных.</param>
     public void Process(Aspose.Imaging.Rectangle dataRectangle, byte[] data, Aspose.Imaging.Point start, Aspose.Imaging.Point end)
     {
         int[] channelBits = this.rawDataSettings.PixelDataFormat.ChannelBits;
 
-         // Здесь рассматриваются только простые форматы для упрощения кода.
+        // Здесь рассматриваются только простые форматы для упрощения кода.
         // Рассмотрим только изображения с 8 битами на выборку.
         for (int i = 0; i < channelBits.Length; i++)
         {
@@ -104,10 +104,10 @@ private class TransparentPixelRawDataCounter : IPartialRawDataLoader
                 {
                     if (channelBits.Length == 4)
                     {
-                         // ARGB
+                        // АРГБ
                         for (int i = 0; i < data.Length; i += 4)
                         {
-                             // Альфа-канал сохраняется последним, после компонентов цвета.
+                            // Альфа-канал сохраняется последним, после компонентов цвета.
                             if (data[i + 3] == 0)
                             {
                                 this.count++;
@@ -121,10 +121,10 @@ private class TransparentPixelRawDataCounter : IPartialRawDataLoader
                 {
                     if (channelBits.Length == 2)
                     {
-                         // Оттенки серого Alpha
+                        // Оттенки серого альфа
                         for (int i = 0; i < data.Length; i += 2)
                         {
-                             // Альфа-канал сохраняется последним, после компонентов цвета.
+                            // Альфа-канал сохраняется последним, после компонентов цвета.
                             if (data[i + 1] == 0)
                             {
                                 this.count++;
@@ -140,13 +140,13 @@ private class TransparentPixelRawDataCounter : IPartialRawDataLoader
     }
 
     /// <summary>
-     /// Обрабатывает загруженные необработанные данные. Этот метод вызывается каждый раз, когда загружается новая порция необработанных данных.
+    /// Обрабатывает загруженные необработанные данные. Этот метод вызывается каждый раз, когда загружается новая порция необработанных данных.
     /// </summary>
-     /// <param name="dataRectangle">Прямоугольник необработанных данных.</param>
-     /// <param name="data">Необработанные данные.</param>
-     /// <param name="start">Начальная точка данных.</param>
-     /// <param name="end">Конечная точка данных.</param>
-     /// <param name="loadOptions">Параметры загрузки.</param>
+    /// <param name="dataRectangle">Прямоугольник необработанных данных.</param>
+    /// <param name="data">Необработанные данные.</param>
+    /// <param name="start">Начальная точка данных.</param>
+    /// <param name="end">Конечная точка данных.</param>
+    /// <param name="loadOptions">Параметры загрузки.</param>
     public void Process(Aspose.Imaging.Rectangle dataRectangle, byte[] data, Aspose.Imaging.Point start, Aspose.Imaging.Point end, Aspose.Imaging.LoadOptions loadOptions)
     {
         this.Process(dataRectangle, data, start, end);
@@ -177,7 +177,7 @@ public void LoadRawData(Rectangle rectangle, Rectangle destImageBounds,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | rectangle | Rectangle | Прямоугольник, из которого загружаются необработанные данные. |
-| destImageBounds | Rectangle | Границы целевого изображения. |
+| destImageBounds | Rectangle | Границы конечного изображения. |
 | rawDataSettings | RawDataSettings | Параметры необработанных данных, используемые для загруженных данных. Обратите внимание, что если данные не в указанном формате, будет выполнено преобразование данных. |
 | rawDataLoader | IPartialRawDataLoader | Загрузчик необработанных данных. |
 

@@ -18,8 +18,8 @@ public class DeflateCompressorException : CompressorException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DeflateCompressorException](deflatecompressorexception#constructor)(string) | 初始化[`DeflateCompressorException`](../deflatecompressorexception)类的新实例。 |
-| [DeflateCompressorException](deflatecompressorexception#constructor_1)(string, Exception) | 初始化[`DeflateCompressorException`](../deflatecompressorexception)类的新实例。 |
+| [DeflateCompressorException](deflatecompressorexception#constructor)(string) | 初始化[`DeflateCompressorException`](../deflatecompressorexception)类. |
+| [DeflateCompressorException](deflatecompressorexception#constructor_1)(string, Exception) | 初始化[`DeflateCompressorException`](../deflatecompressorexception)类. |
 
 ### 也可以看看
 

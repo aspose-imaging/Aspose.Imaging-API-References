@@ -1,14 +1,14 @@
 ---
 title: Italic
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示此Fontaspose.imaging/font是否为斜体
+description: 获取一个值该值指示这是否Fontaspose.imaging/font是斜体
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging/font/italic/
 ---
 ## Font.Italic property
 
-获取一个值，该值指示此[`Font`](../../font)是否为斜体。
+获取一个值，该值指示这是否[`Font`](../../font)是斜体。
 
 ```csharp
 public bool Italic { get; }
@@ -16,7 +16,7 @@ public bool Italic { get; }
 
 ### 适当的价值
 
-如果这个[`Font`](../../font)是斜体则为真；否则为假。
+如果这是真的[`Font`](../../font)是斜体；否则为假。
 
 ### 也可以看看
 

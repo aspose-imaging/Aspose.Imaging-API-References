@@ -27,26 +27,27 @@ public class CdrRectangle : CdrGraphicObject
 | [BoundsInPixels](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/boundsinpixels) { get; set; } | 获取或设置以像素为单位的边界。 |
 | [ClipId](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/clipid) { get; set; } | 获取或设置剪辑标识符。 |
 | [CornerType](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/cornertype) { get; set; } | 获取或设置角的类型。 |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示该实例是否被释放。 |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示此实例是否被释放。 |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | 获取或设置文档。 |
-| [Height](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/height) { get; set; } | 获取或设置 y。 |
+| [Height](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/height) { get; set; } | 获取或设置 y. |
 | [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | 获取或设置父级。 |
-| [R0](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/r0) { get; set; } | 获取或设置 r0。 |
-| [R1](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/r1) { get; set; } | 获取或设置 r1。 |
-| [R2](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/r2) { get; set; } | 获取或设置 r2。 |
-| [R3](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/r3) { get; set; } | 获取或设置 r3。 |
-| [ScaleX](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/scalex) { get; set; } | 获取或设置比例 x。 |
-| [ScaleY](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/scaley) { get; set; } | 获取或设置比例 y。 |
-| [Width](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/width) { get; set; } | 获取或设置 x。 |
+| [R0](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/r0) { get; set; } | 获取或设置 r0. |
+| [R1](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/r1) { get; set; } | 获取或设置 r1. |
+| [R2](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/r2) { get; set; } | 获取或设置 r2. |
+| [R3](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/r3) { get; set; } | 获取或设置 r3. |
+| [ScaleX](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/scalex) { get; set; } | 获取或设置刻度x. |
+| [ScaleY](../../aspose.imaging.fileformats.cdr.objects/cdrrectangle/scaley) { get; set; } | 获取或设置刻度 y. |
+| [Width](../../aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/width) { get; set; } | 获取或设置 x. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 释放当前实例。 |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 处理当前实例。 |
 
 ### 也可以看看
 
+* class [CdrObjectContainer](../cdrobjectcontainer)
 * class [CdrGraphicObject](../cdrgraphicobject)
 * 命名空间 [Aspose.Imaging.FileFormats.Cdr.Objects](../../aspose.imaging.fileformats.cdr.objects)
 * 部件 [Aspose.Imaging](../../)

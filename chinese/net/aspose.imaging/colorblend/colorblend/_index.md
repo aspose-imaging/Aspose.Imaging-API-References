@@ -1,14 +1,14 @@
 ---
 title: ColorBlend
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化ColorBlendaspose.imaging/colorblend类的新实例
+description: 初始化ColorBlendaspose.imaging/colorblend类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/colorblend/colorblend/
 ---
 ## ColorBlend() {#constructor}
 
-初始化[`ColorBlend`](../../colorblend)类的新实例。
+初始化[`ColorBlend`](../../colorblend)类.
 
 ```csharp
 public ColorBlend()
@@ -24,7 +24,7 @@ public ColorBlend()
 
 ## ColorBlend(int) {#constructor_1}
 
-使用指定数量的颜色和位置初始化[`ColorBlend`](../../colorblend)类的新实例。
+初始化[`ColorBlend`](../../colorblend)具有指定颜色和位置数量的类。
 
 ```csharp
 public ColorBlend(int count)
@@ -32,7 +32,7 @@ public ColorBlend(int count)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| count | Int32 | 此[`ColorBlend`](../../colorblend)中的颜色和位置数。 |
+| count | Int32 | 这个颜色和位置的数量[`ColorBlend`](../../colorblend). |
 
 ### 也可以看看
 

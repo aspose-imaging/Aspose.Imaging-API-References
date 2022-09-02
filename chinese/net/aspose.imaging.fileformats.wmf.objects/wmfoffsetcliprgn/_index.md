@@ -1,14 +1,14 @@
 ---
 title: WmfOffsetClipRgn
 second_title: Aspose.Imaging for .NET API 参考
-description: META_OFFSETCLIPRGN 记录将回放 设备上下文中的剪辑区域移动指定的偏移量
+description: META_OFFSETCLIPRGN 记录将playback 设备上下文中的剪辑区域移动指定的偏移量
 type: docs
 weight: 8790
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfoffsetcliprgn/
 ---
 ## WmfOffsetClipRgn class
 
-META_OFFSETCLIPRGN 记录将回放 设备上下文中的剪辑区域移动指定的偏移量。
+META_OFFSETCLIPRGN 记录将playback 设备上下文中的剪辑区域移动指定的偏移量。
 
 ```csharp
 public class WmfOffsetClipRgn : WmfPointObject

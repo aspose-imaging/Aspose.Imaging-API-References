@@ -3,7 +3,7 @@ title: Aspose.Imaging.Masking.Exceptions
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles ImageMasking.Exceptions processing.
 type: docs
-weight: 790
+weight: 800
 url: /net/aspose.imaging.masking.exceptions/
 ---
 The namespace handles ImageMasking.Exceptions processing.

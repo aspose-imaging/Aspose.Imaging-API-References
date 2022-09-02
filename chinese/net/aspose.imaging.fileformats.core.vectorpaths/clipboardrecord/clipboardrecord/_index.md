@@ -1,14 +1,14 @@
 ---
 title: ClipboardRecord
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化ClipboardRecordaspose.imaging.fileformats.core.vectorpaths/clipboardrecord类的新实例
+description: 初始化ClipboardRecordaspose.imaging.fileformats.core.vectorpaths/clipboardrecord类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.core.vectorpaths/clipboardrecord/clipboardrecord/
 ---
 ## ClipboardRecord() {#constructor}
 
-初始化[`ClipboardRecord`](../../clipboardrecord)类的新实例。
+初始化[`ClipboardRecord`](../../clipboardrecord)类.
 
 ```csharp
 public ClipboardRecord()
@@ -24,7 +24,7 @@ public ClipboardRecord()
 
 ## ClipboardRecord(byte[]) {#constructor_1}
 
-初始化[`ClipboardRecord`](../../clipboardrecord)类的新实例。
+初始化[`ClipboardRecord`](../../clipboardrecord)类.
 
 ```csharp
 public ClipboardRecord(byte[] data)

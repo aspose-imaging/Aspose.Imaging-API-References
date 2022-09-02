@@ -8,7 +8,7 @@ url: /zh/net/aspose.imaging.fileformats.gif/igifblockloaderdescriptor/canload/
 ---
 ## IGifBlockLoaderDescriptor.CanLoad method
 
-判断loader是否可以加载指定的数据。
+判断loader是否可以加载指定的数据
 
 ```csharp
 public bool CanLoad(StreamContainer streamContainer)
@@ -20,7 +20,7 @@ public bool CanLoad(StreamContainer streamContainer)
 
 ### 返回值
 
-` true` loader可以加载指定数据；否则，` false` 。
+`真的` loader可以加载指定的数据；否则，`错误的` .
 
 ### 也可以看看
 

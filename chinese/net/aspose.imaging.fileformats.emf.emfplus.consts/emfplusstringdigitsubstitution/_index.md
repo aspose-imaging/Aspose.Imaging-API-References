@@ -1,14 +1,14 @@
 ---
 title: EmfPlusStringDigitSubstitution
 second_title: Aspose.Imaging for .NET API 参考
-description: StringDigitSubstitution 枚举定义了根据用户的区域设置或语言替换字符串中数字的方法
+description: StringDigitSubstitution 枚举定义了根据用户的区域设置或语言替换字符串中的数字的方法
 type: docs
 weight: 5070
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusstringdigitsubstitution/
 ---
 ## EmfPlusStringDigitSubstitution enumeration
 
-StringDigitSubstitution 枚举定义了根据用户的区域设置或语言替换字符串中数字的方法。
+StringDigitSubstitution 枚举定义了根据用户的区域设置或语言替换字符串中的数字的方法。
 
 ```csharp
 public enum EmfPlusStringDigitSubstitution

@@ -1,14 +1,14 @@
 ---
 title: EmfDeleteColorSpace
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfDeleteColorSpaceaspose.imaging.fileformats.emf.emf.records/emfdeletecolorspace.
+description: Инициализирует новый экземплярEmfDeleteColorSpaceaspose.imaging.fileformats.emf.emf.records/emfdeletecolorspace класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfdeletecolorspace/emfdeletecolorspace/
 ---
 ## EmfDeleteColorSpace constructor
 
-Инициализирует новый экземпляр класса[`EmfDeleteColorSpace`](../../emfdeletecolorspace).
+Инициализирует новый экземпляр[`EmfDeleteColorSpace`](../../emfdeletecolorspace) класс.
 
 ```csharp
 public EmfDeleteColorSpace(EmfRecord source)

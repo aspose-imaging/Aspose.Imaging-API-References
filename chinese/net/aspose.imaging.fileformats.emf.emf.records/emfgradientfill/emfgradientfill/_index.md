@@ -1,14 +1,14 @@
 ---
 title: EmfGradientFill
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfGradientFillaspose.imaging.fileformats.emf.emf.records/emfgradientfill类的新实例
+description: 初始化EmfGradientFillaspose.imaging.fileformats.emf.emf.records/emfgradientfill类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfgradientfill/emfgradientfill/
 ---
 ## EmfGradientFill constructor
 
-初始化[`EmfGradientFill`](../../emfgradientfill)类的新实例。
+初始化[`EmfGradientFill`](../../emfgradientfill)类.
 
 ```csharp
 public EmfGradientFill(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfGradientFill(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: RectData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置矩形数据 EmfPlusRect 或 EmfPlusRectF 对象定义 椭圆的边界框包含馅饼楔这个矩形定义了饼图的位置大小 和形状此字段中的对象类型由 Flags 字段的值 指定
+description: 获取或设置矩形 datas EmfPlusRect 或 EmfPlusRectF 对象用于定义包含饼形楔形的 椭圆的边界框该矩形定义了饼图的位置大小 和形状此字段中的对象类型由 Flags 字段的值 指定
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/rectdata/
 ---
 ## EmfPlusFillPie.RectData property
 
-获取或设置矩形数据 EmfPlusRect 或 EmfPlusRectF 对象，定义 椭圆的边界框包含馅饼楔。这个矩形定义了饼图的位置、大小、 和形状。此字段中的对象类型由 Flags 字段的值 指定。
+获取或设置矩形 datas EmfPlusRect 或 EmfPlusRectF 对象，用于定义包含饼形楔形的 椭圆的边界框。该矩形定义了饼图的位置、大小、 和形状。此字段中的对象类型由 Flags 字段的值 指定。
 
 ```csharp
 public RectangleF RectData { get; set; }

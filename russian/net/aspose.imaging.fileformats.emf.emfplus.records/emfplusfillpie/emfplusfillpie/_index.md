@@ -1,14 +1,14 @@
 ---
 title: EmfPlusFillPie
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusFillPieaspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie.
+description: Инициализирует новый экземплярEmfPlusFillPieaspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpie/emfplusfillpie/
 ---
 ## EmfPlusFillPie constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusFillPie`](../../emfplusfillpie).
+Инициализирует новый экземпляр[`EmfPlusFillPie`](../../emfplusfillpie) класс.
 
 ```csharp
 public EmfPlusFillPie(EmfPlusRecord source)

@@ -3,7 +3,7 @@ title: XmpGuid
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет глобальный уникальный идентификатор XMP.
 type: docs
-weight: 11680
+weight: 11670
 url: /ru/net/aspose.imaging.xmp.types.derived/xmpguid/
 ---
 ## XmpGuid class
@@ -18,14 +18,14 @@ public sealed class XmpGuid : XmpTypeBase
 
 | Имя | Описание |
 | --- | --- |
-| [XmpGuid](xmpguid#constructor)(Guid) | Инициализирует новый экземпляр класса[`XmpGuid`](../xmpguid). |
-| [XmpGuid](xmpguid#constructor_1)(string) | Инициализирует новый экземпляр класса[`XmpGuid`](../xmpguid). |
+| [XmpGuid](xmpguid#constructor)(Guid) | Инициализирует новый экземпляр[`XmpGuid`](../xmpguid) класс. |
+| [XmpGuid](xmpguid#constructor_1)(string) | Инициализирует новый экземпляр[`XmpGuid`](../xmpguid) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Prefix](../../aspose.imaging.xmp.types.derived/xmpguid/prefix) { get; set; } | Получает или устанавливает префикс, например uuid. |
+| [Prefix](../../aspose.imaging.xmp.types.derived/xmpguid/prefix) { get; set; } | Получает или задает префикс, например uuid. |
 | [Value](../../aspose.imaging.xmp.types.derived/xmpguid/value) { get; set; } | Получает или задает значение. |
 
 ## Методы

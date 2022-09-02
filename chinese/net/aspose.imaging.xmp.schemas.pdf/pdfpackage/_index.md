@@ -3,7 +3,7 @@ title: PdfPackage
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示 Adobe Pdf 命名空间
 type: docs
-weight: 11310
+weight: 11300
 url: /zh/net/aspose.imaging.xmp.schemas.pdf/pdfpackage/
 ---
 ## PdfPackage class
@@ -24,7 +24,7 @@ public sealed class PdfPackage : XmpPackage
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [Item](../../aspose.imaging.xmp/xmppackage/item) { get; set; } | 使用指定的键获取或设置Object。 |
+| virtual [Item](../../aspose.imaging.xmp/xmppackage/item) { get; set; } | 获取或设置Object使用指定的密钥。 |
 | virtual [Keys](../../aspose.imaging.xmp/xmppackage/keys) { get; } | 获取 XMP 包中的密钥。 |
 | [NamespaceUri](../../aspose.imaging.xmp/xmppackage/namespaceuri) { get; } | 获取命名空间 URI。 |
 | [Prefix](../../aspose.imaging.xmp/xmppackage/prefix) { get; } | 获取前缀。 |
@@ -38,12 +38,12 @@ public sealed class PdfPackage : XmpPackage
 | virtual [Clear](../../aspose.imaging.xmp/xmppackage/clear)() | 清除此实例。 |
 | virtual [ContainsKey](../../aspose.imaging.xmp/xmppackage/containskey)(string) | 判断指定key是否包含key。 |
 | [GetEnumerator](../../aspose.imaging.xmp/xmppackage/getenumerator)() | 返回一个遍历集合的枚举器。 |
-| virtual [GetXmlValue](../../aspose.imaging.xmp/xmppackage/getxmlvalue)() | 将 XMP 值转换为 XML 表示。 |
-| virtual [Remove](../../aspose.imaging.xmp/xmppackage/remove)(string) | 删除具有指定键的值。 |
+| virtual [GetXmlValue](../../aspose.imaging.xmp/xmppackage/getxmlvalue)() | 将 XMP 值转换为 XML 表示形式。 |
+| virtual [Remove](../../aspose.imaging.xmp/xmppackage/remove)(string) | 删除指定键的值。 |
 | [SetKeywords](../../aspose.imaging.xmp.schemas.pdf/pdfpackage/setkeywords)(string) | 设置关键字。 |
 | [SetPdfVersion](../../aspose.imaging.xmp.schemas.pdf/pdfpackage/setpdfversion)(string) | 设置 PDF 版本。 |
 | [SetProducer](../../aspose.imaging.xmp.schemas.pdf/pdfpackage/setproducer)(string) | 设置创建 Pdf 的工具的名称。 |
-| [SetTrapped](../../aspose.imaging.xmp.schemas.pdf/pdfpackage/settrapped)(bool) | 设置被困者。 |
+| [SetTrapped](../../aspose.imaging.xmp.schemas.pdf/pdfpackage/settrapped)(bool) | 设置被困。 |
 | virtual [SetValue](../../aspose.imaging.xmp/xmppackage/setvalue)(string, IXmlValue) | 设置值。 |
 | virtual [SetXmpTypeValue](../../aspose.imaging.xmp/xmppackage/setxmptypevalue)(string, XmpTypeBase) | 设置 XMP 类型值。 |
 

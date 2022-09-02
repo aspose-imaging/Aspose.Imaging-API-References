@@ -1,14 +1,14 @@
 ---
 title: WriteSShort
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Записывает в поток одно короткое значение.
+description: Записывает одно короткое значение в поток.
 type: docs
 weight: 170
 url: /ru/net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/writesshort/
 ---
 ## TiffStreamWriter.WriteSShort method
 
-Записывает в поток одно короткое значение.
+Записывает одно короткое значение в поток.
 
 ```csharp
 public void WriteSShort(short data)

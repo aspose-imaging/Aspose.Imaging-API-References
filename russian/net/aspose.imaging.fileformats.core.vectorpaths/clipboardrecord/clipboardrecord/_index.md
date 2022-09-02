@@ -1,14 +1,14 @@
 ---
 title: ClipboardRecord
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаClipboardRecordaspose.imaging.fileformats.core.vectorpaths/clipboardrecord.
+description: Инициализирует новый экземплярClipboardRecordaspose.imaging.fileformats.core.vectorpaths/clipboardrecord класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.core.vectorpaths/clipboardrecord/clipboardrecord/
 ---
 ## ClipboardRecord() {#constructor}
 
-Инициализирует новый экземпляр класса[`ClipboardRecord`](../../clipboardrecord).
+Инициализирует новый экземпляр[`ClipboardRecord`](../../clipboardrecord) класс.
 
 ```csharp
 public ClipboardRecord()
@@ -24,7 +24,7 @@ public ClipboardRecord()
 
 ## ClipboardRecord(byte[]) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`ClipboardRecord`](../../clipboardrecord).
+Инициализирует новый экземпляр[`ClipboardRecord`](../../clipboardrecord) класс.
 
 ```csharp
 public ClipboardRecord(byte[] data)

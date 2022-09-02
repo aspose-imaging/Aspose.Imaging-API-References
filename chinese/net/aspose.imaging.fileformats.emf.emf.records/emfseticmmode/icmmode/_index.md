@@ -1,14 +1,14 @@
 ---
 title: IcmMode
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数该整数指定是启用还是禁用 ICM 从 ICMMode 枚举第 2.1.18 节 .该值是 播放设备上下文状态的一部分
+description: 获取或设置一个 32 位无符号整数该整数指定是启用还是禁用 ICM 从 ICMMode 枚举第 2.1.18 节该值是 播放设备上下文状态的一部分
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfseticmmode/icmmode/
 ---
 ## EmfSetIcmMode.IcmMode property
 
-获取或设置一个 32 位无符号整数，该整数指定是启用还是禁用 ICM， 从 ICMMode 枚举（第 2.1.18 节） .该值是 播放设备上下文状态的一部分。
+获取或设置一个 32 位无符号整数，该整数指定是启用还是禁用 ICM， 从 ICMMode 枚举（第 2.1.18 节）。该值是 播放设备上下文状态的一部分。
 
 ```csharp
 public EmfIcmMode IcmMode { get; set; }

@@ -16,7 +16,7 @@ public EmfPlusBrushDataFlags BrushDataFlags { get; set; }
 
 ### 适当的价值
 
-BrushDataFlags（4 字节）:一个 32 位无符号整数，用于指定 OptionalData 字段中的数据.此值 必须由[`EmfPlusBrushDataFlags`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushdataflags)组成（第 2.1.2.1 节）。
+BrushDataFlags（4 字节）：一个 32 位无符号整数，用于指定 OptionalData 字段中的数据。这个 value 必须由[`EmfPlusBrushDataFlags`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushdataflags)（第 2.1.2.1 节）.
 
 ### 也可以看看
 

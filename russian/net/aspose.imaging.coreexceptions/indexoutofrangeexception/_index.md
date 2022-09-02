@@ -18,8 +18,8 @@ public class IndexOutOFRangeException : Exception
 
 | Имя | Описание |
 | --- | --- |
-| [IndexOutOFRangeException](indexoutofrangeexception#constructor)(string) | Инициализирует новый экземпляр класса[`CompressorException`](../compressorexception). |
-| [IndexOutOFRangeException](indexoutofrangeexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр класса[`CompressorException`](../compressorexception). |
+| [IndexOutOFRangeException](indexoutofrangeexception#constructor)(string) | Инициализирует новый экземпляр[`CompressorException`](../compressorexception) класс. |
+| [IndexOutOFRangeException](indexoutofrangeexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр[`CompressorException`](../compressorexception) класс. |
 
 ### Смотрите также
 

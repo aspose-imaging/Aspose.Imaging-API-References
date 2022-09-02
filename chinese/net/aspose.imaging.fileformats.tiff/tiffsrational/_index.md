@@ -18,9 +18,9 @@ public class TiffSRational
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TiffSRational](tiffsrational#constructor)() | 初始化[`TiffSRational`](../tiffsrational)类的新实例。 |
-| [TiffSRational](tiffsrational#constructor_1)(int) | 初始化[`TiffRational`](../tiffrational)类的新实例。 |
-| [TiffSRational](tiffsrational#constructor_2)(int, int) | 初始化[`TiffSRational`](../tiffsrational)类的新实例。 |
+| [TiffSRational](tiffsrational#constructor)() | 初始化[`TiffSRational`](../tiffsrational)类. |
+| [TiffSRational](tiffsrational#constructor_1)(int) | 初始化[`TiffRational`](../tiffrational)类. |
+| [TiffSRational](tiffsrational#constructor_2)(int, int) | 初始化[`TiffSRational`](../tiffsrational)类. |
 
 ## 特性
 
@@ -39,9 +39,9 @@ public class TiffSRational
 | static [ApproximateFraction](../../aspose.imaging.fileformats.tiff/tiffsrational/approximatefraction#approximatefraction_2)(float) | 将提供的值近似为分数。 |
 | static [ApproximateFraction](../../aspose.imaging.fileformats.tiff/tiffsrational/approximatefraction#approximatefraction_1)(double, double) | 将提供的值近似为分数。 |
 | static [ApproximateFraction](../../aspose.imaging.fileformats.tiff/tiffsrational/approximatefraction#approximatefraction_3)(float, double) | 将提供的值近似为分数。 |
-| override [Equals](../../aspose.imaging.fileformats.tiff/tiffsrational/equals)(object) | 确定指定的Object是否等于此实例。 |
+| override [Equals](../../aspose.imaging.fileformats.tiff/tiffsrational/equals)(object) | 判断是否指定Object等于这个实例。 |
 | override [GetHashCode](../../aspose.imaging.fileformats.tiff/tiffsrational/gethashcode)() | 返回此实例的哈希码。 |
-| override [ToString](../../aspose.imaging.fileformats.tiff/tiffsrational/tostring)() | 返回代表此实例的String。 |
+| override [ToString](../../aspose.imaging.fileformats.tiff/tiffsrational/tostring)() | 返回一个String代表这个实例。 |
 
 ## 字段
 

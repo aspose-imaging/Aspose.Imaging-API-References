@@ -1,14 +1,14 @@
 ---
 title: DicomImage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаDicomImageaspose.imaging.fileformats.dicom/dicomimage.
+description: Инициализирует новый экземплярDicomImageaspose.imaging.fileformats.dicom/dicomimage класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.dicom/dicomimage/dicomimage/
 ---
 ## DicomImage(DicomOptions, int, int) {#constructor}
 
-Инициализирует новый экземпляр класса[`DicomImage`](../../dicomimage).
+Инициализирует новый экземпляр[`DicomImage`](../../dicomimage) класс.
 
 ```csharp
 public DicomImage(DicomOptions dicomOptions, int width, int height)
@@ -16,7 +16,7 @@ public DicomImage(DicomOptions dicomOptions, int width, int height)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| dicomOptions | DicomOptions | Опции dicom. |
+| dicomOptions | DicomOptions | Варианты Диком. |
 | width | Int32 | Ширина. |
 | height | Int32 | Высота. |
 
@@ -31,7 +31,7 @@ public DicomImage(DicomOptions dicomOptions, int width, int height)
 
 ## DicomImage(Stream, LoadOptions) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`DicomImage`](../../dicomimage).
+Инициализирует новый экземпляр[`DicomImage`](../../dicomimage) класс.
 
 ```csharp
 public DicomImage(Stream stream, LoadOptions loadOptions)
@@ -40,7 +40,7 @@ public DicomImage(Stream stream, LoadOptions loadOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток. |
-| loadOptions | LoadOptions | Параметры загрузки. |
+| loadOptions | LoadOptions | Варианты загрузки. |
 
 ### Примеры
 
@@ -51,22 +51,22 @@ public DicomImage(Stream stream, LoadOptions loadOptions)
 
 string dir = "c:\\temp\\";
 
- // Загрузить изображение DICOM из файлового потока.
+// Загрузить изображение DICOM из файлового потока.
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "multiframe.dicom"))
 {
-     // Максимально допустимый размер всех внутренних буферов — 256 КБ.
+    // Максимально допустимый размер всех внутренних буферов — 256 КБ.
     Aspose.Imaging.LoadOptions loadOptions = new Aspose.Imaging.LoadOptions();
     loadOptions.BufferSizeHint = 256 * 1024;
 
     using (Aspose.Imaging.FileFormats.Dicom.DicomImage dicomImage = new Aspose.Imaging.FileFormats.Dicom.DicomImage(stream, loadOptions))
     {
-         // Сохраняем каждую страницу как отдельное изображение PNG.
+        // Сохраняем каждую страницу как отдельное изображение PNG.
         foreach (Aspose.Imaging.FileFormats.Dicom.DicomPage dicomPage in dicomImage.DicomPages)
         {
-             // Генерируем имя файла на основе индекса страницы.
+            // Генерируем имя файла на основе индекса страницы.
             string fileName = string.Format("multiframe.{0}.png", dicomPage.Index);
 
-             // Страница DICOM — это растровое изображение, поэтому все разрешенные операции с растровым изображением применимы к странице DICOM.
+            // Страница DICOM — это растровое изображение, поэтому все разрешенные операции с растровым изображением применимы к странице DICOM.
             dicomPage.Save(dir + fileName, new Aspose.Imaging.ImageOptions.PngOptions());
         }
     }
@@ -84,7 +84,7 @@ using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "multiframe.dicom
 
 ## DicomImage(Stream) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`DicomImage`](../../dicomimage).
+Инициализирует новый экземпляр[`DicomImage`](../../dicomimage) класс.
 
 ```csharp
 public DicomImage(Stream stream)
@@ -103,18 +103,18 @@ public DicomImage(Stream stream)
 
 string dir = "c:\\temp\\";
 
- // Загрузить изображение DICOM из файлового потока.
+// Загрузить изображение DICOM из файлового потока.
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.dicom"))
 {
     using (Aspose.Imaging.FileFormats.Dicom.DicomImage dicomImage = new Aspose.Imaging.FileFormats.Dicom.DicomImage(stream))
     {
-         // Сохраняем каждую страницу как отдельное изображение PNG. 
+        // Сохраняем каждую страницу как отдельное изображение PNG.                    
         foreach (Aspose.Imaging.FileFormats.Dicom.DicomPage dicomPage in dicomImage.DicomPages)
         {
-             // Генерируем имя файла на основе индекса страницы.
+            // Генерируем имя файла на основе индекса страницы.
             string fileName = string.Format("sample.{0}.png", dicomPage.Index);
 
-             // Страница DICOM — это растровое изображение, поэтому все разрешенные операции с растровым изображением применимы к странице DICOM.
+            // Страница DICOM — это растровое изображение, поэтому все разрешенные операции с растровым изображением применимы к странице DICOM.
             dicomPage.Save(dir + fileName, new Aspose.Imaging.ImageOptions.PngOptions());
         }
     }

@@ -1,14 +1,14 @@
 ---
 title: EpsLoadOptions
 second_title: Aspose.Imaging for .NET API 参考
-description: EPS 加载选项
+description: EPS 负载选项
 type: docs
 weight: 6580
 url: /zh/net/aspose.imaging.fileformats.eps/epsloadoptions/
 ---
 ## EpsLoadOptions class
 
-EPS 加载选项
+EPS 负载选项
 
 ```csharp
 public class EpsLoadOptions : LoadOptions
@@ -25,8 +25,8 @@ public class EpsLoadOptions : LoadOptions
 | 姓名 | 描述 |
 | --- | --- |
 | [BufferSizeHint](../../aspose.imaging/loadoptions/buffersizehint) { get; set; } | 获取或设置缓冲区大小提示，该提示定义了所有内部缓冲区的最大允许大小。 |
-| [DataBackgroundColor](../../aspose.imaging/loadoptions/databackgroundcolor) { get; set; } | 获取或设置[`Image`](../../aspose.imaging/image)背景[`Color`](../../aspose.imaging/color). |
-| [DataRecoveryMode](../../aspose.imaging/loadoptions/datarecoverymode) { get; set; } | 获取或设置数据恢复模式。 |
+| [DataBackgroundColor](../../aspose.imaging/loadoptions/databackgroundcolor) { get; set; } | 获取或设置[`Image`](../../aspose.imaging/image)背景[`Color`](../../aspose.imaging/color) . |
+| [DataRecoveryMode](../../aspose.imaging/loadoptions/datarecoverymode) { get; set; } | 获取或设置数据恢复模式 |
 | [PreviewExportFormat](../../aspose.imaging.fileformats.eps/epsloadoptions/previewexportformat) { get; set; } | 获取或设置用于导出的预览格式。如果未设置或指定格式不存在，则默认选择最佳可用质量。 |
 | [ProgressEventHandler](../../aspose.imaging/loadoptions/progresseventhandler) { get; set; } | 获取或设置进度事件处理程序。 |
 

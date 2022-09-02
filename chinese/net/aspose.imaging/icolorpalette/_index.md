@@ -19,9 +19,9 @@ public interface IColorPalette
 | 姓名 | 描述 |
 | --- | --- |
 | [Argb32Entries](../../aspose.imaging/icolorpalette/argb32entries) { get; } | 获取 32 位 ARGB 结构的数组。 |
-| [Entries](../../aspose.imaging/icolorpalette/entries) { get; } | 获取[`Color`](../color)结构的数组。 |
+| [Entries](../../aspose.imaging/icolorpalette/entries) { get; } | 获取一个数组[`Color`](../color)结构. |
 | [EntriesCount](../../aspose.imaging/icolorpalette/entriescount) { get; } | 获取条目数。 |
-| [IsCompactPalette](../../aspose.imaging/icolorpalette/iscompactpalette) { get; } | 获取指示是否使用紧凑调色板的值。 |
+| [IsCompactPalette](../../aspose.imaging/icolorpalette/iscompactpalette) { get; } | 获取一个指示是否使用紧凑调色板的值。 |
 
 ## 方法
 
@@ -30,7 +30,7 @@ public interface IColorPalette
 | [GetArgb32Color](../../aspose.imaging/icolorpalette/getargb32color)(int) | 按索引获取 32 位 ARGB 调色板颜色。 |
 | [GetColor](../../aspose.imaging/icolorpalette/getcolor)(int) | 按索引获取调色板颜色。 |
 | [GetNearestColorIndex](../../aspose.imaging/icolorpalette/getnearestcolorindex#getnearestcolorindex)(Color) | 获取最接近颜色的索引。 |
-| [GetNearestColorIndex](../../aspose.imaging/icolorpalette/getnearestcolorindex#getnearestcolorindex_1)(int) | 获取最接近的 32 位 ARGB 颜色的索引。 |
+| [GetNearestColorIndex](../../aspose.imaging/icolorpalette/getnearestcolorindex#getnearestcolorindex_1)(int) | 获取最近的 32 位 ARGB 颜色的索引。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: CustomEndCap
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个自定义上限以在使用此Penaspose.imaging/pen绘制的线的末尾使用
+description: 获取或设置一个自定义上限以在使用此绘制的线的末尾使用Penaspose.imaging/pen .
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging/pen/customendcap/
 ---
 ## Pen.CustomEndCap property
 
-获取或设置一个自定义上限以在使用此[`Pen`](../../pen)绘制的线的末尾使用。
+获取或设置一个自定义上限以在使用此绘制的线的末尾使用[`Pen`](../../pen) .
 
 ```csharp
 public CustomLineCap CustomEndCap { get; set; }
@@ -16,13 +16,13 @@ public CustomLineCap CustomEndCap { get; set; }
 
 ### 适当的价值
 
-A[`CustomLineCap`](../../customlinecap)表示在绘制线的末尾使用的上限用这个[`Pen`](../../pen)。
+一个[`CustomLineCap`](../../customlinecap)表示用此绘制的线末端使用的上限[`Pen`](../../pen).
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | `CustomEndCap`属性设置在不可变的:::R5 上:T:Aspose.Imaging.Pen:::，例如[`Pen`](../../pen)类返回的那些。 |
+| ArgumentException | 这`CustomEndCap`属性设置在不可变对象上[`Pen`](../../pen)，例如那些由[`Pen`](../../pen)班级。 |
 
 ### 也可以看看
 

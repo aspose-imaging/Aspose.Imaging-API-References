@@ -1,14 +1,14 @@
 ---
 title: WmfSetViewportOrg
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_SETVIEWPORTORG определяет начало области просмотра в контексте устройства воспроизведения.
+description: Запись META_SETVIEWPORTORG определяет исходную точку окна просмотра в контексте устройства воспроизведения.
 type: docs
 weight: 9210
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfsetviewportorg/
 ---
 ## WmfSetViewportOrg class
 
-Запись META_SETVIEWPORTORG определяет начало области просмотра в контексте устройства воспроизведения.
+Запись META_SETVIEWPORTORG определяет исходную точку окна просмотра в контексте устройства воспроизведения.
 
 ```csharp
 public class WmfSetViewportOrg : WmfPointObject
@@ -24,7 +24,7 @@ public class WmfSetViewportOrg : WmfPointObject
 
 | Имя | Описание |
 | --- | --- |
-| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или задает точку. |
+| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или устанавливает точку. |
 
 ### Смотрите также
 

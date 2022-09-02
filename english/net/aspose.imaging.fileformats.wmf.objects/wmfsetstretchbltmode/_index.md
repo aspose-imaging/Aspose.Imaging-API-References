@@ -3,7 +3,7 @@ title: WmfSetStretchbltMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9150
+weight: 9160
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsetstretchbltmode/
 ---
 ## WmfSetStretchbltMode class

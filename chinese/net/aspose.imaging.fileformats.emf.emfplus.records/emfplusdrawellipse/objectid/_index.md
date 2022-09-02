@@ -1,14 +1,14 @@
 ---
 title: ObjectId
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置对象标识符 用于绘制椭圆的 EMF 对象表中 EmfPlusPen第 2.2.1.7 节对象的索引该值必须是 0 到 63含
+description: 获取或设置对象标识符 EmfPlusPen第 2.2.1.7 节对象在 EMF 对象表中的索引用于绘制椭圆该值必须是 0 到 63包括在内
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawellipse/objectid/
 ---
 ## EmfPlusDrawEllipse.ObjectId property
 
-获取或设置对象标识符。 用于绘制椭圆的 EMF+ 对象表中 EmfPlusPen（第 2.2.1.7 节）对象的索引。该值必须是 0 到 63（含）。
+获取或设置对象标识符。 EmfPlusPen（第 2.2.1.7 节）对象在 EMF+ 对象表中的索引，用于绘制椭圆。该值必须是 0 到 63，包括在内。
 
 ```csharp
 public byte ObjectId { get; set; }

@@ -3,7 +3,7 @@ title: IImageExporter
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9490
+weight: 9500
 url: /net/aspose.imaging/iimageexporter/
 ---
 ## IImageExporter interface

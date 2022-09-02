@@ -1,14 +1,14 @@
 ---
 title: BezierShape
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаBezierShapeaspose.imaging.shapes/beziershape.
+description: Инициализирует новый экземплярBezierShapeaspose.imaging.shapes/beziershape класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.shapes/beziershape/beziershape/
 ---
 ## BezierShape() {#constructor}
 
-Инициализирует новый экземпляр класса[`BezierShape`](../../beziershape).
+Инициализирует новый экземпляр[`BezierShape`](../../beziershape) класс.
 
 ```csharp
 public BezierShape()
@@ -24,7 +24,7 @@ public BezierShape()
 
 ## BezierShape(PointF[]) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`BezierShape`](../../beziershape).
+Инициализирует новый экземпляр[`BezierShape`](../../beziershape) класс.
 
 ```csharp
 public BezierShape(PointF[] points)
@@ -32,7 +32,7 @@ public BezierShape(PointF[] points)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| points | PointF[] | Массив точек. |
+| points | PointF[] | Массив очков. |
 
 ### Смотрите также
 
@@ -45,7 +45,7 @@ public BezierShape(PointF[] points)
 
 ## BezierShape(PointF[], bool) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`BezierShape`](../../beziershape).
+Инициализирует новый экземпляр[`BezierShape`](../../beziershape) класс.
 
 ```csharp
 public BezierShape(PointF[] points, bool isClosed)
@@ -53,8 +53,8 @@ public BezierShape(PointF[] points, bool isClosed)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| points | PointF[] | Массив точек. |
-| isClosed | Boolean | Если установлено` true` , сплайн Безье закрывается. |
+| points | PointF[] | Массив очков. |
+| isClosed | Boolean | Если установлено`истинный` сплайн Безье замкнут. |
 
 ### Смотрите также
 

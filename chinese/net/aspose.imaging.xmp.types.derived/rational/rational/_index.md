@@ -1,14 +1,14 @@
 ---
 title: Rational
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化Rationalaspose.imaging.xmp.types.derived/rational类的新实例
+description: 初始化Rationalaspose.imaging.xmp.types.derived/rational类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp.types.derived/rational/rational/
 ---
 ## Rational constructor
 
-初始化[`Rational`](../../rational)类的新实例。
+初始化[`Rational`](../../rational)类.
 
 ```csharp
 public Rational(int numerator, int denominator)
@@ -17,13 +17,13 @@ public Rational(int numerator, int denominator)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | numerator | Int32 | 分子。 |
-| 分母 | Int32 | 分母。 |
+| denominator | Int32 | 分母。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | numerator;Numberator 应该为零。 或 分母；分母应大于零。 |
+| ArgumentOutOfRangeException | numerator;Numberator 应该大于零。 or denominator;分母应该大于零。 |
 
 ### 也可以看看
 

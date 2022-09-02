@@ -1,14 +1,14 @@
 ---
 title: EmfIlluminant
 second_title: Aspose.Imaging for .NET API 参考
-description: Illuminant 枚举定义了指定图像的光源值的值其中 确定了查看图像的标准光源以便颜色可以适当调整
+description: Illuminant 枚举定义了指定图像的照度值的值 确定了查看图像的标准光源以便可以适当地调整颜色
 type: docs
 weight: 2710
 url: /zh/net/aspose.imaging.fileformats.emf.emf.consts/emfilluminant/
 ---
 ## EmfIlluminant enumeration
 
-Illuminant 枚举定义了指定图像的光源值的值，其中 确定了查看图像的标准光源，以便颜色可以适当调整。
+Illuminant 枚举定义了指定图像的照度值的值， 确定了查看图像的标准光源，以便可以适当地调整颜色。
 
 ```csharp
 public enum EmfIlluminant

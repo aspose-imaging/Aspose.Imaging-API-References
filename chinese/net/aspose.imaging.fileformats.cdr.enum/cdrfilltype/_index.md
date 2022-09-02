@@ -19,7 +19,7 @@ public enum CdrFillType : short
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 无填充类型 |
-| Solid | `1` | 实体填充类型 |
+| Solid | `1` | 实心填充类型 |
 | Gradient | `2` | 渐变填充类型 |
 | Pattern | `7` | 图案填充类型 |
 | Pattern1 | `8` | 图案填充类型 |

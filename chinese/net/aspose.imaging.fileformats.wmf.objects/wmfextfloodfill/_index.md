@@ -1,14 +1,14 @@
 ---
 title: WmfExtFloodFill
 second_title: Aspose.Imaging for .NET API 参考
-description: META_EXTFLOODFILL 记录使用播放设备上下文中定义的 画笔填充区域
+description: META_EXTFLOODFILL 记录用播放设备上下文中定义的 的画笔填充区域
 type: docs
 weight: 8660
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfextfloodfill/
 ---
 ## WmfExtFloodFill class
 
-META_EXTFLOODFILL 记录使用播放设备上下文中定义的 画笔填充区域。
+META_EXTFLOODFILL 记录用播放设备上下文中定义的 的画笔填充区域。
 
 ```csharp
 public class WmfExtFloodFill : WmfFloodFill
@@ -26,7 +26,7 @@ public class WmfExtFloodFill : WmfFloodFill
 | --- | --- |
 | [ColorRef](../../aspose.imaging.fileformats.wmf.objects/wmffloodfill/colorref) { get; set; } | 获取或设置颜色参考。 |
 | [Mode](../../aspose.imaging.fileformats.wmf.objects/wmfextfloodfill/mode) { get; set; } | 获取或设置模式。 |
-| [XStart](../../aspose.imaging.fileformats.wmf.objects/wmffloodfill/xstart) { get; set; } | 获取或设置 x 开始。 |
+| [XStart](../../aspose.imaging.fileformats.wmf.objects/wmffloodfill/xstart) { get; set; } | 获取或设置 x 起点。 |
 | [YStart](../../aspose.imaging.fileformats.wmf.objects/wmffloodfill/ystart) { get; set; } | 获取或设置 y 起点。 |
 
 ### 也可以看看

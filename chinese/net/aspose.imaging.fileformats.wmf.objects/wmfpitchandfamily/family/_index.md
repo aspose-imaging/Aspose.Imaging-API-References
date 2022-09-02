@@ -16,7 +16,7 @@ public WmfFamilyFont Family { get; }
 
 ### 适当的价值
 
-系列。
+家庭.
 
 ### 也可以看看
 

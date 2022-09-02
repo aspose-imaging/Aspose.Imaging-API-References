@@ -1,14 +1,14 @@
 ---
 title: MultiplyTransform
 second_title: Справочник по Aspose.Imaging for .NET API
-description: УмножаетMatrixaspose.imaging/matrix которая представляет локальное геометрическое преобразование этогоLinearGradientBrushaspose.imaging.brushes/lineargradientbrushуказаннымMatrixaspose.imaging/matrixпутем добавления указанногоMatrixaspose.imaging/matrix.
+description: УмножаетMatrixaspose.imaging/matrix который представляет собой локальное геометрическое преобразование этогоLinearGradientBrushaspose.imaging.brushes/lineargradientbrush указаннымMatrixaspose.imaging/matrix путем добавления указанногоMatrixaspose.imaging/matrix .
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.brushes/transformbrush/multiplytransform/
 ---
 ## MultiplyTransform(Matrix) {#multiplytransform}
 
-Умножает[`Matrix`](../../../aspose.imaging/matrix), которая представляет локальное геометрическое преобразование этого[`LinearGradientBrush`](../../lineargradientbrush)указанным[`Matrix`](../../../aspose.imaging/matrix)путем добавления указанного[`Matrix`](../../../aspose.imaging/matrix).
+Умножает[`Matrix`](../../../aspose.imaging/matrix) который представляет собой локальное геометрическое преобразование этого[`LinearGradientBrush`](../../lineargradientbrush) указанным[`Matrix`](../../../aspose.imaging/matrix) путем добавления указанного[`Matrix`](../../../aspose.imaging/matrix) .
 
 ```csharp
 public void MultiplyTransform(Matrix matrix)
@@ -16,7 +16,7 @@ public void MultiplyTransform(Matrix matrix)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| matrix | Matrix | [`Matrix`](../../../aspose.imaging/matrix), на которую умножается геометрическое преобразование. |
+| matrix | Matrix | [`Matrix`](../../../aspose.imaging/matrix) на который умножается геометрическое преобразование. |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public void MultiplyTransform(Matrix matrix)
 
 ## MultiplyTransform(Matrix, MatrixOrder) {#multiplytransform_1}
 
-Умножает[`Matrix`](../../../aspose.imaging/matrix), которая представляет локальное геометрическое преобразование этого[`LinearGradientBrush`](../../lineargradientbrush)указанным[`Matrix`](../../../aspose.imaging/matrix)в указанном порядке.
+Умножает[`Matrix`](../../../aspose.imaging/matrix) который представляет собой локальное геометрическое преобразование этого[`LinearGradientBrush`](../../lineargradientbrush) указанным[`Matrix`](../../../aspose.imaging/matrix) в указанном порядке.
 
 ```csharp
 public void MultiplyTransform(Matrix matrix, MatrixOrder order)
@@ -37,8 +37,8 @@ public void MultiplyTransform(Matrix matrix, MatrixOrder order)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| matrix | Matrix | [`Matrix`](../../../aspose.imaging/matrix), на которую умножается геометрическое преобразование. |
-| order | MatrixOrder | A[`MatrixOrder`](../../../aspose.imaging/matrixorder)указывает порядок умножения двух матриц. |
+| matrix | Matrix | [`Matrix`](../../../aspose.imaging/matrix) на который умножается геометрическое преобразование. |
+| order | MatrixOrder | А[`MatrixOrder`](../../../aspose.imaging/matrixorder) который указывает, в каком порядке умножать две матрицы. |
 
 ### Смотрите также
 

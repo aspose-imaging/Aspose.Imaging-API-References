@@ -1,14 +1,14 @@
 ---
 title: OdImageObject
 second_title: Aspose.Imaging for .NET API 参考
-description: 打开的文档图像
+description: 打开的文档图片
 type: docs
 weight: 7100
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odimageobject/
 ---
 ## OdImageObject class
 
-打开的文档图像
+打开的文档图片
 
 ```csharp
 public class OdImageObject : OdGraphicObject
@@ -18,15 +18,15 @@ public class OdImageObject : OdGraphicObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OdImageObject](odimageobject)(OdObject) | 初始化[`OdImageObject`](../odimageobject)类的新实例。 |
+| [OdImageObject](odimageobject)(OdObject) | 初始化[`OdImageObject`](../odimageobject)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]。 |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]. |
 | [Bitmap](../../aspose.imaging.fileformats.opendocument.objects.graphic/odimageobject/bitmap) { get; set; } | 获取或设置位图。 |
-| [ImageLink](../../aspose.imaging.fileformats.opendocument.objects.graphic/odimageobject/imagelink) { get; set; } | 获取或设置图片链接。 |
+| [ImageLink](../../aspose.imaging.fileformats.opendocument.objects.graphic/odimageobject/imagelink) { get; set; } | 获取或设置图片链接 |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | 获取项目。 |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | 获取父对象。 |
 | [Rectangle](../../aspose.imaging.fileformats.opendocument.objects.graphic/odimageobject/rectangle) { get; set; } | 获取或设置矩形。 |

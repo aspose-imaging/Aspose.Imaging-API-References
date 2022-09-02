@@ -1,14 +1,14 @@
 ---
 title: CdrImageFill
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Заполнение образа cdr
+description: Образ CDR fill
 type: docs
 weight: 1870
 url: /ru/net/aspose.imaging.fileformats.cdr.types/cdrimagefill/
 ---
 ## CdrImageFill class
 
-Заполнение образа cdr
+Образ CDR fill
 
 ```csharp
 public class CdrImageFill
@@ -18,7 +18,7 @@ public class CdrImageFill
 
 | Имя | Описание |
 | --- | --- |
-| [CdrImageFill](cdrimagefill)(int, double, double, bool, double, double, double, byte) | Инициализирует новый экземпляр класса[`CdrImageFill`](../cdrimagefill). |
+| [CdrImageFill](cdrimagefill)(int, double, double, bool, double, double, double, byte) | Инициализирует новый экземпляр[`CdrImageFill`](../cdrimagefill) класс. |
 
 ## Характеристики
 
@@ -27,11 +27,11 @@ public class CdrImageFill
 | [Flags](../../aspose.imaging.fileformats.cdr.types/cdrimagefill/flags) { get; set; } | Получает или устанавливает флаги. |
 | [Height](../../aspose.imaging.fileformats.cdr.types/cdrimagefill/height) { get; set; } | Получает или задает высоту. |
 | [Id](../../aspose.imaging.fileformats.cdr.types/cdrimagefill/id) { get; set; } | Получает или задает идентификатор. |
-| [IsRelative](../../aspose.imaging.fileformats.cdr.types/cdrimagefill/isrelative) { get; set; } | Получает или задает значение, указывающее, является ли данный экземпляр относительным. |
+| [IsRelative](../../aspose.imaging.fileformats.cdr.types/cdrimagefill/isrelative) { get; set; } | Получает или задает значение, указывающее, является ли этот экземпляр относительным. |
 | [RcpOffset](../../aspose.imaging.fileformats.cdr.types/cdrimagefill/rcpoffset) { get; set; } | Получает или задает смещение RCP. |
 | [Width](../../aspose.imaging.fileformats.cdr.types/cdrimagefill/width) { get; set; } | Получает или задает ширину. |
-| [XOffset](../../aspose.imaging.fileformats.cdr.types/cdrimagefill/xoffset) { get; set; } | Получает или задает смещение x. |
-| [YOffset](../../aspose.imaging.fileformats.cdr.types/cdrimagefill/yoffset) { get; set; } | Получает или задает смещение по оси y. |
+| [XOffset](../../aspose.imaging.fileformats.cdr.types/cdrimagefill/xoffset) { get; set; } | Получает или задает смещение по оси x. |
+| [YOffset](../../aspose.imaging.fileformats.cdr.types/cdrimagefill/yoffset) { get; set; } | Получает или задает смещение по оси Y. |
 
 ### Смотрите также
 

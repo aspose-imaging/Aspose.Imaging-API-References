@@ -3,7 +3,7 @@ title: ColorType
 second_title: Aspose.Imaging for .NET API 参考
 description: 颜色类型
 type: docs
-weight: 11520
+weight: 11510
 url: /zh/net/aspose.imaging.xmp.types.complex.colorant/colortype/
 ---
 ## ColorType enumeration

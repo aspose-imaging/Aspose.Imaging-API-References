@@ -1,14 +1,14 @@
 ---
 title: AdjustBrightness
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Регулировкаяркостидля изображения.
+description: Настройкаbrightness для изображения.
 type: docs
 weight: 120
 url: /ru/net/aspose.imaging.fileformats.apng/apngimage/adjustbrightness/
 ---
 ## ApngImage.AdjustBrightness method
 
-Регулировка*яркости*для изображения.
+Настройка*brightness* для изображения.
 
 ```csharp
 public override void AdjustBrightness(int brightness)

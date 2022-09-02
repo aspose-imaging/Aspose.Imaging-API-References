@@ -1,14 +1,14 @@
 ---
 title: BlendPatternAsBlendFactorsH
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取混合模式作为混合因子 h
+description: 获取混合模式作为混合因子 h.
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushoptionaldata/blendpatternasblendfactorsh/
 ---
 ## EmfPlusLinearGradientBrushOptionalData.BlendPatternAsBlendFactorsH property
 
-获取混合模式作为混合因子 h。
+获取混合模式作为混合因子 h.
 
 ```csharp
 public EmfPlusBlendFactors BlendPatternAsBlendFactorsH { get; }
@@ -16,7 +16,7 @@ public EmfPlusBlendFactors BlendPatternAsBlendFactorsH { get; }
 
 ### 适当的价值
 
-混合模式作为混合因子 h。
+混合模式作为混合因子 h.
 
 ### 也可以看看
 

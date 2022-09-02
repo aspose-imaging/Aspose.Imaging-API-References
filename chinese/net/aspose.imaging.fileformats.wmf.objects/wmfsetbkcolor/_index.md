@@ -1,14 +1,14 @@
 ---
 title: WmfSetBkColor
 second_title: Aspose.Imaging for .NET API 参考
-description: META_SETBKCOLOR 记录将回放 设备上下文中的背景颜色设置为指定颜色如果47 则设置为最接近的物理颜色设备不能代表指定的颜色
+description: META_SETBKCOLOR 记录将回放 设备上下文中的背景颜色设置为指定颜色或者设置为最接近的物理颜色 if 设备无法表示指定颜色
 type: docs
 weight: 9040
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfsetbkcolor/
 ---
 ## WmfSetBkColor class
 
-META_SETBKCOLOR 记录将回放 设备上下文中的背景颜色设置为指定颜色，如果:::47 则设置为最接近的物理颜色:::设备不能代表指定的颜色。
+META_SETBKCOLOR 记录将回放 设备上下文中的背景颜色设置为指定颜色，或者设置为最接近的物理颜色 if 设备无法表示指定颜色。
 
 ```csharp
 public class WmfSetBkColor : WmfObject

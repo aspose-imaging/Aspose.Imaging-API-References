@@ -24,8 +24,8 @@ public sealed class EmfPlusBitmapData : EmfPlusBaseBitmapData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Colors](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmapdata/colors) { get; set; } | 获取或设置调色板颜色 颜色（变量）:可选EmfPlusPalette对象（第 2.2.2.28 节），它指定像素数据中使用的颜色的调色板 。如果在 [`EmfPlusBitmap`](../emfplusbitmap)对象的 PixelFormat 字段中设置了 I 标志，则该字段必须存在。 |
-| [PixelData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmapdata/pixeldata) { get; set; } | 获取或设置像素数据 PixelData（变量）:指定像素数据的字节数组。此数据的大小和格式可以是 从 EmfPlusBitmap 对象中的字段计算，包括来自 EmfPlusPixelFormat枚举（第 2.1.1.25 节）。 |
+| [Colors](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmapdata/colors) { get; set; } | 获取或设置调色板颜色 颜色（变量）：可选[`EmfPlusPalette`](../emfpluspalette)对象（第 2.2.2.28 节），它指定像素数据中使用的颜色的 palette 。如果在 the 的 PixelFormat 字段中设置了 I 标志，则该字段必须存在[`EmfPlusBitmap`](../emfplusbitmap)对象. |
+| [PixelData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmapdata/pixeldata) { get; set; } | 获取或设置像素数据 PixelData（变量）：指定像素数据的字节数组。此数据的大小和格式可以 从 EmfPlusBitmap 对象中的字段计算，包括来自 的像素格式[`EmfPlusPixelFormat`](../../aspose.imaging.fileformats.emf.emfplus.consts/emfpluspixelformat)枚举（第 2.1.1.25 节）. |
 
 ### 也可以看看
 

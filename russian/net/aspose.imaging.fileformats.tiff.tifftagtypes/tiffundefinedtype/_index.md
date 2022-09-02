@@ -18,8 +18,8 @@ public class TiffUndefinedType : TiffDataType
 
 | Имя | Описание |
 | --- | --- |
-| [TiffUndefinedType](tiffundefinedtype#constructor)(TiffTags) | Инициализирует новый экземпляр класса[`TiffUndefinedType`](../tiffundefinedtype). |
-| [TiffUndefinedType](tiffundefinedtype#constructor_1)(ushort) | Инициализирует новый экземпляр класса[`TiffUndefinedType`](../tiffundefinedtype). |
+| [TiffUndefinedType](tiffundefinedtype#constructor)(TiffTags) | Инициализирует новый экземпляр[`TiffUndefinedType`](../tiffundefinedtype) класс. |
+| [TiffUndefinedType](tiffundefinedtype#constructor_1)(ushort) | Инициализирует новый экземпляр[`TiffUndefinedType`](../tiffundefinedtype) класс. |
 
 ## Характеристики
 
@@ -27,7 +27,7 @@ public class TiffUndefinedType : TiffDataType
 | --- | --- |
 | [AlignedDataSize](../../aspose.imaging.fileformats.tiff/tiffdatatype/aligneddatasize) { get; } | Получает размер дополнительных данных в байтах (в случае, если 12 байтов недостаточно для размещения данных тега). |
 | override [Count](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffundefinedtype/count) { get; } | Получает количество элементов. |
-| [Data](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffundefinedtype/data) { get; set; } | Получает или задает данные. |
+| [Data](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffundefinedtype/data) { get; set; } | Получает или устанавливает данные. |
 | override [DataSize](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffundefinedtype/datasize) { get; } | Получает размер дополнительных данных в байтах (в случае, если 12 байтов недостаточно для размещения данных тега). |
 | [Id](../../aspose.imaging.fileformats.tiff/tiffdatatype/id) { get; } | Получает целочисленное представление идентификатора тега. |
 | [IsValid](../../aspose.imaging.fileformats.tiff/tiffdatatype/isvalid) { get; } | Получает значение, указывающее, допустимы ли данные тега. Действительный тег содержит данные, которые можно сохранить. Недопустимый тег не может быть сохранен. |
@@ -39,9 +39,9 @@ public class TiffUndefinedType : TiffDataType
 
 | Имя | Описание |
 | --- | --- |
-| [CompareTo](../../aspose.imaging.fileformats.tiff/tiffdatatype/compareto)(object) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует ли за ним или находится в той же позиции в порядке сортировки как другой объект. |
+| [CompareTo](../../aspose.imaging.fileformats.tiff/tiffdatatype/compareto)(object) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует за ним или находится в той же позиции в порядке сортировки, что и другой объект. |
 | virtual [DeepClone](../../aspose.imaging.fileformats.tiff/tiffdatatype/deepclone)() | Выполняет глубокое клонирование этого экземпляра. |
-| override [ToString](../../aspose.imaging.fileformats.tiff/tiffdatatype/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.imaging.fileformats.tiff/tiffdatatype/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 | override [WriteAdditionalData](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffundefinedtype/writeadditionaldata)(TiffStreamWriter) | Записывает дополнительные данные тега. |
 | [WriteTag](../../aspose.imaging.fileformats.tiff/tiffdatatype/writetag)(TiffStreamWriter, long) | Записывает данные тега. |
 

@@ -1,14 +1,14 @@
 ---
 title: GifOptions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаGifOptionsaspose.imaging.imageoptions/gifoptions.
+description: Инициализирует новый экземплярGifOptionsaspose.imaging.imageoptions/gifoptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.imageoptions/gifoptions/gifoptions/
 ---
 ## GifOptions() {#constructor}
 
-Инициализирует новый экземпляр класса[`GifOptions`](../../gifoptions).
+Инициализирует новый экземпляр[`GifOptions`](../../gifoptions) класс.
 
 ```csharp
 public GifOptions()
@@ -24,7 +24,7 @@ public GifOptions()
 
 ## GifOptions(GifOptions) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`GifOptions`](../../gifoptions).
+Инициализирует новый экземпляр[`GifOptions`](../../gifoptions) класс.
 
 ```csharp
 public GifOptions(GifOptions gifOptions)

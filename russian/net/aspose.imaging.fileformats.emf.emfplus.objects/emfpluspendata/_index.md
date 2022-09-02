@@ -24,10 +24,10 @@ public sealed class EmfPlusPenData : EmfPlusStructureObjectType
 
 | Имя | Описание |
 | --- | --- |
-| [OptionalData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/optionaldata) { get; set; } | Получает или задает необязательный объект EmfPlusPenOptionalData (раздел 2.2.2.34) который указывает дополнительные данные для объекта пера. Конкретное содержимое этого поля определяется значением поля PenDataFlags. |
+| [OptionalData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/optionaldata) { get; set; } | Получает или задает необязательный объект EmfPlusPenOptionalData (раздел 2.2.2.34) , который указывает дополнительные данные для объекта пера. Конкретное содержимое этого поля определяется значением поля PenDataFlags. |
 | [PenDataFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/pendataflags) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее данные в поле OptionalData. Это значение ДОЛЖНО состоять из флагов PenData (раздел 2.1.2.7). |
 | [PenUnit](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/penunit) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее единицы измерения для пера. Значение ДОЛЖНО быть из перечисления UnitType (раздел 2.1.1.33). |
-| [PenWidth](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/penwidth) { get; set; } | Получает или задает 32-битное значение с плавающей запятой, указывающее ширину линии , нарисованной пером, в единицах, указанных PenUnit поле. Если указана нулевая ширина, используется минимальное значение, которое определяется единицами |
+| [PenWidth](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/penwidth) { get; set; } | Получает или задает 32-разрядное значение с плавающей запятой, указывающее ширину линии , нарисованной пером, в единицах, указанных в поле PenUnit . Если указана нулевая ширина, используется минимальное значение , которое определяется единицами измерения . |
 
 ### Смотрите также
 

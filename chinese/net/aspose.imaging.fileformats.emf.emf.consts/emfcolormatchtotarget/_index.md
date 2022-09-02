@@ -1,14 +1,14 @@
 ---
 title: EmfColorMatchToTarget
 second_title: Aspose.Imaging for .NET API 参考
-description: ColorMatchToTarget 枚举用于确定颜色配置文件是否已嵌入图元文件
+description: ColorMatchToTarget 枚举用于确定颜色配置文件是否已嵌入图元文件中
 type: docs
 weight: 2580
 url: /zh/net/aspose.imaging.fileformats.emf.emf.consts/emfcolormatchtotarget/
 ---
 ## EmfColorMatchToTarget enumeration
 
-ColorMatchToTarget 枚举用于确定颜色配置文件是否已嵌入图元文件。
+ColorMatchToTarget 枚举用于确定颜色配置文件是否已嵌入图元文件中。
 
 ```csharp
 public enum EmfColorMatchToTarget
@@ -19,7 +19,7 @@ public enum EmfColorMatchToTarget
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | COLORMATCHTOTARGET_NOTEMBEDDED | `0` | 表示颜色配置文件尚未嵌入到元文件中。 |
-| COLORMATCHTOTARGET_EMBEDDED | `1` | 表示已在元文件中嵌入颜色配置文件 |
+| COLORMATCHTOTARGET_EMBEDDED | `1` | 表示元文件中已嵌入颜色配置文件 |
 
 ### 也可以看看
 

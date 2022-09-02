@@ -18,8 +18,8 @@ public class DicomImageException : Exception
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DicomImageException](dicomimageexception#constructor)(string) | 初始化[`DicomImageException`](../dicomimageexception)类的新实例。 |
-| [DicomImageException](dicomimageexception#constructor_1)(string, Exception) | 初始化[`DicomImageException`](../dicomimageexception)类的新实例。 |
+| [DicomImageException](dicomimageexception#constructor)(string) | 初始化[`DicomImageException`](../dicomimageexception)类. |
+| [DicomImageException](dicomimageexception#constructor_1)(string, Exception) | 初始化[`DicomImageException`](../dicomimageexception)类. |
 
 ### 也可以看看
 

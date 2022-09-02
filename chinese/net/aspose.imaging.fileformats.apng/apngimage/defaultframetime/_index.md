@@ -1,14 +1,14 @@
 ---
 title: DefaultFrameTime
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置默认帧持续时间 创建新帧时使用
+description: 获取或设置默认帧持续时间 在创建新帧时使用
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.apng/apngimage/defaultframetime/
 ---
 ## ApngImage.DefaultFrameTime property
 
-获取或设置默认帧持续时间。 创建新帧时使用。
+获取或设置默认帧持续时间。 在创建新帧时使用。
 
 ```csharp
 public uint DefaultFrameTime { get; set; }
@@ -29,8 +29,8 @@ using Aspose.Imaging;
 using Aspose.Imaging.ImageOptions;
 using Aspose.Imaging.FileFormats.Apng;
 
-const int AnimationDuration = 1000; // 1 s
-const int FrameDuration = 70;     // 70 ms
+const int AnimationDuration = 1000; // 1 秒
+const int FrameDuration = 70; // 70 毫秒
 using (RasterImage sourceImage = (RasterImage)Image.Load("not_animated.png"))
 {
     ApngOptions createOptions = new ApngOptions
@@ -45,18 +45,18 @@ using (RasterImage sourceImage = (RasterImage)Image.Load("not_animated.png"))
         sourceImage.Width,
         sourceImage.Height))
     {
-            // 可以在那里设置图像默认帧时间：apngImage.DefaultFrameTime = (uint)FrameDuration;
+        // 可以在那里设置图像默认帧时间：apngImage.DefaultFrameTime = (uint)FrameDuration;
 
         int numOfFrames = AnimationDuration / FrameDuration;
         int numOfFrames2 = numOfFrames / 2;
 
-            // 因为图片默认包含一帧所以清理
+        // 清理因为图片默认包含一帧
         apngImage.RemoveAllFrames();
 
-            // 添加第一帧
+        // 添加第一帧
         apngImage.AddFrame(sourceImage);
 
-            // 添加中间帧
+        // 添加中间帧
         for (int frameIndex = 1; frameIndex < numOfFrames - 1; ++frameIndex)
         {
             apngImage.AddFrame(sourceImage);
@@ -65,7 +65,7 @@ using (RasterImage sourceImage = (RasterImage)Image.Load("not_animated.png"))
             lastFrame.AdjustGamma(gamma);
         }
 
-            // 添加最后一帧
+        // 添加最后一帧
         apngImage.AddFrame(sourceImage);
 
         apngImage.Save();

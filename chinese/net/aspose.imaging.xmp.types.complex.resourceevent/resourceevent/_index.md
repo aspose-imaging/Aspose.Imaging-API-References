@@ -3,7 +3,7 @@ title: ResourceEvent
 second_title: Aspose.Imaging for .NET API 参考
 description: 包含绘制对象的尺寸
 type: docs
-weight: 11600
+weight: 11590
 url: /zh/net/aspose.imaging.xmp.types.complex.resourceevent/resourceevent/
 ---
 ## ResourceEvent class
@@ -25,7 +25,7 @@ public sealed class ResourceEvent : ComplexTypeBase
 | 姓名 | 描述 |
 | --- | --- |
 | [Action](../../aspose.imaging.xmp.types.complex.resourceevent/resourceevent/action) { get; set; } | 获取或设置动作。 |
-| [ActionDate](../../aspose.imaging.xmp.types.complex.resourceevent/resourceevent/actiondate) { get; set; } | 获取或设置操作日期。 |
+| [ActionDate](../../aspose.imaging.xmp.types.complex.resourceevent/resourceevent/actiondate) { get; set; } | 获取或设置动作日期。 |
 | [Changed](../../aspose.imaging.xmp.types.complex.resourceevent/resourceevent/changed) { get; set; } | 获取或设置自上次事件历史以来已更改的资源部分的分号分隔列表。 |
 | [InstanceId](../../aspose.imaging.xmp.types.complex.resourceevent/resourceevent/instanceid) { get; set; } | 获取或设置 xmpMM:InstanceId 的值。 |
 | [NamespaceUri](../../aspose.imaging.xmp.types.complex/complextypebase/namespaceuri) { get; } | 获取默认命名空间 URI。 |

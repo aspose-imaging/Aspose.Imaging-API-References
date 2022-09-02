@@ -1,14 +1,14 @@
 ---
 title: Ceiling
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Преобразует указанную структуруRectangleFaspose.imaging/rectanglefвRectangleaspose.imaging/rectangleструктура путем округления значенийRectangleFaspose.imaging/rectanglefдо следующего большего целочисленного значения.
+description: Преобразует указанныйRectangleFaspose.imaging/rectanglef структура кRectangleaspose.imaging/rectangle структура путем округленияRectangleFaspose.imaging/rectanglef значения до следующего более высокого целочисленного значения.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging/rectangle/ceiling/
 ---
 ## Rectangle.Ceiling method
 
-Преобразует указанную структуру[`RectangleF`](../../rectanglef)в[`Rectangle`](../../rectangle)структура путем округления значений[`RectangleF`](../../rectanglef)до следующего большего целочисленного значения.
+Преобразует указанный[`RectangleF`](../../rectanglef) структура к[`Rectangle`](../../rectangle) структура путем округления[`RectangleF`](../../rectanglef) значения до следующего более высокого целочисленного значения.
 
 ```csharp
 public static Rectangle Ceiling(RectangleF value)
@@ -16,7 +16,7 @@ public static Rectangle Ceiling(RectangleF value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | RectangleF | Преобразуемая структура[`RectangleF`](../../rectanglef). |
+| value | RectangleF | [`RectangleF`](../../rectanglef) структура, подлежащая преобразованию. |
 
 ### Возвращаемое значение
 

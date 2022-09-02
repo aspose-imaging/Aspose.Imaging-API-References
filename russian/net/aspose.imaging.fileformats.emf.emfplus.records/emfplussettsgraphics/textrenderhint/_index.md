@@ -1,14 +1,14 @@
 ---
 title: TextRenderHint
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 8-разрядное целое число без знака определяющее качество рендеринга текста  включая тип сглаживания текста. Он ДОЛЖЕН быть определен в перечислении TextRenderingHint раздел 2.1.1.32.
+description: Получает или задает 8-битное целое число без знака указывающее качество рендеринга text  включая тип сглаживания текста. Он ДОЛЖЕН быть определен в перечислении TextRenderingHint раздел 2.1.1.32.
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics/textrenderhint/
 ---
 ## EmfPlusSetTsGraphics.TextRenderHint property
 
-Получает или задает 8-разрядное целое число без знака, определяющее качество рендеринга текста , включая тип сглаживания текста. Он ДОЛЖЕН быть определен в перечислении TextRenderingHint (раздел 2.1.1.32).
+Получает или задает 8-битное целое число без знака, указывающее качество рендеринга text , включая тип сглаживания текста. Он ДОЛЖЕН быть определен в перечислении TextRenderingHint (раздел 2.1.1.32).
 
 ```csharp
 public EmfPlusTextRenderingHint TextRenderHint { get; set; }

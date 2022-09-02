@@ -1,14 +1,14 @@
 ---
 title: AddTag
 second_title: Aspose.Imaging for .NET API 参考
-description: 添加新标签
+description: 添加一个新标签
 type: docs
 weight: 720
 url: /zh/net/aspose.imaging.imageoptions/tiffoptions/addtag/
 ---
 ## TiffOptions.AddTag method
 
-添加新标签。
+添加一个新标签。
 
 ```csharp
 public void AddTag(TiffDataType tagToAdd)

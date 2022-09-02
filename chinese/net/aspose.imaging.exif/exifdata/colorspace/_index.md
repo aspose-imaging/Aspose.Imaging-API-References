@@ -16,7 +16,7 @@ public ExifColorSpace ColorSpace { get; set; }
 
 ### 适当的价值
 
-颜色空间。
+色彩空间。
 
 ### 也可以看看
 

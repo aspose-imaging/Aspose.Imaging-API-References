@@ -1,14 +1,14 @@
 ---
 title: TiffStreamFactory
 second_title: Aspose.Imaging for .NET API 参考
-description: 用于正确创建 tiff 辅助流的工厂
+description: 用于正确创建 tiff 助手流的工厂
 type: docs
 weight: 7780
 url: /zh/net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/
 ---
 ## TiffStreamFactory class
 
-用于正确创建 tiff 辅助流的工厂
+用于正确创建 tiff 助手流的工厂
 
 ```csharp
 public static class TiffStreamFactory

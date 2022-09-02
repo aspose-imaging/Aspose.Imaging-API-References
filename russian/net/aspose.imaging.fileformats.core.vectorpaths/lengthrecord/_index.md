@@ -18,19 +18,19 @@ public class LengthRecord : VectorPathRecord
 
 | Имя | Описание |
 | --- | --- |
-| [LengthRecord](lengthrecord#constructor)() | Инициализирует новый экземпляр класса[`LengthRecord`](../lengthrecord). |
-| [LengthRecord](lengthrecord#constructor_1)(byte[]) | Инициализирует новый экземпляр класса[`LengthRecord`](../lengthrecord). |
+| [LengthRecord](lengthrecord#constructor)() | Инициализирует новый экземпляр[`LengthRecord`](../lengthrecord) класс. |
+| [LengthRecord](lengthrecord#constructor_1)(byte[]) | Инициализирует новый экземпляр[`LengthRecord`](../lengthrecord) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BezierKnotRecordsCount](../../aspose.imaging.fileformats.core.vectorpaths/lengthrecord/bezierknotrecordscount) { get; set; } | Получает или задает количество записей узла Безье. |
+| [BezierKnotRecordsCount](../../aspose.imaging.fileformats.core.vectorpaths/lengthrecord/bezierknotrecordscount) { get; set; } | Получает или задает количество записей узлов Безье. |
 | [IsClosed](../../aspose.imaging.fileformats.core.vectorpaths/lengthrecord/isclosed) { get; set; } | Получает или задает значение, указывающее, закрыт ли этот экземпляр. |
 | [IsOpen](../../aspose.imaging.fileformats.core.vectorpaths/lengthrecord/isopen) { get; set; } | Получает или задает значение, указывающее, открыт ли этот экземпляр. |
 | [PathOperations](../../aspose.imaging.fileformats.core.vectorpaths/lengthrecord/pathoperations) { get; set; } | Получает или задает операции пути. |
 | [RecordCount](../../aspose.imaging.fileformats.core.vectorpaths/lengthrecord/recordcount) { get; set; } | Получает или задает количество записей. |
-| [ShapeIndex](../../aspose.imaging.fileformats.core.vectorpaths/lengthrecord/shapeindex) { get; set; } | Получает или задает индекс текущей формы пути в слое. |
+| [ShapeIndex](../../aspose.imaging.fileformats.core.vectorpaths/lengthrecord/shapeindex) { get; set; } | Получает или задает индекс формы текущего пути в слое. |
 | override [Type](../../aspose.imaging.fileformats.core.vectorpaths/lengthrecord/type) { get; } | Получает тип. |
 
 ### Смотрите также

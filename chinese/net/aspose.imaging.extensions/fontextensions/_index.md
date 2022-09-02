@@ -1,14 +1,14 @@
 ---
 title: FontExtensions
 second_title: Aspose.Imaging for .NET API 参考
-description: 包含Font../aspose.imaging/font类的扩展方法
+description: 包含扩展方法Font../aspose.imaging/font类.
 type: docs
 weight: 1180
 url: /zh/net/aspose.imaging.extensions/fontextensions/
 ---
 ## FontExtensions class
 
-包含[`Font`](../../aspose.imaging/font)类的扩展方法。
+包含扩展方法[`Font`](../../aspose.imaging/font)类.
 
 ```csharp
 public static class FontExtensions
@@ -18,8 +18,8 @@ public static class FontExtensions
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [ToGdiFont](../../aspose.imaging.extensions/fontextensions/togdifont#togdifont)(Font) | 将[`Font`](../../aspose.imaging/font)转换为Font。 |
-| static [ToGdiFont](../../aspose.imaging.extensions/fontextensions/togdifont#togdifont_1)(Font, GraphicsUnit) | 将[`Font`](../../aspose.imaging/font)转换为Font。 |
+| static [ToGdiFont](../../aspose.imaging.extensions/fontextensions/togdifont#togdifont)(Font) | 转换[`Font`](../../aspose.imaging/font)到Font . |
+| static [ToGdiFont](../../aspose.imaging.extensions/fontextensions/togdifont#togdifont_1)(Font, GraphicsUnit) | 转换[`Font`](../../aspose.imaging/font)到Font . |
 
 ### 也可以看看
 

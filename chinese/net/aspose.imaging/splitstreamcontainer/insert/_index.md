@@ -18,7 +18,7 @@ public void Insert(int position, StreamContainer stream, bool disposeStream)
 | --- | --- | --- |
 | position | Int32 | 要插入的位置。 |
 | stream | StreamContainer | 要插入的流容器。 |
-| disposeStream | Boolean | 如果设置为` true` 处理流。 |
+| disposeStream | Boolean | 如果设置为`真的`处理流。 |
 
 ### 例外
 

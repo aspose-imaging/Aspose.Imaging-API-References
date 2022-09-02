@@ -1,14 +1,14 @@
 ---
 title: ImageSaveException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаImageSaveExceptionaspose.imaging.coreexceptions/imagesaveexception.
+description: Инициализирует новый экземплярImageSaveExceptionaspose.imaging.coreexceptions/imagesaveexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions/imagesaveexception/imagesaveexception/
 ---
 ## ImageSaveException(string) {#constructor}
 
-Инициализирует новый экземпляр класса[`ImageSaveException`](../../imagesaveexception).
+Инициализирует новый экземпляр[`ImageSaveException`](../../imagesaveexception) класс.
 
 ```csharp
 public ImageSaveException(string message)
@@ -28,7 +28,7 @@ public ImageSaveException(string message)
 
 ## ImageSaveException(string, Exception) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`ImageSaveException`](../../imagesaveexception).
+Инициализирует новый экземпляр[`ImageSaveException`](../../imagesaveexception) класс.
 
 ```csharp
 public ImageSaveException(string message, Exception innerException)

@@ -18,8 +18,8 @@ public class ClipboardRecord : VectorPathRecord
 
 | Имя | Описание |
 | --- | --- |
-| [ClipboardRecord](clipboardrecord#constructor)() | Инициализирует новый экземпляр класса[`ClipboardRecord`](../clipboardrecord). |
-| [ClipboardRecord](clipboardrecord#constructor_1)(byte[]) | Инициализирует новый экземпляр класса[`ClipboardRecord`](../clipboardrecord). |
+| [ClipboardRecord](clipboardrecord#constructor)() | Инициализирует новый экземпляр[`ClipboardRecord`](../clipboardrecord) класс. |
+| [ClipboardRecord](clipboardrecord#constructor_1)(byte[]) | Инициализирует новый экземпляр[`ClipboardRecord`](../clipboardrecord) класс. |
 
 ## Характеристики
 

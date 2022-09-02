@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее имеет ли этотSizeFaspose.imaging/sizefнулевую ширину и высоту.
+description: Получает значение указывающее является ли этоSizeFaspose.imaging/sizef имеет нулевую ширину и высоту.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging/sizef/isempty/
 ---
 ## SizeF.IsEmpty property
 
-Получает значение, указывающее, имеет ли этот[`SizeF`](../../sizef)нулевую ширину и высоту.
+Получает значение, указывающее, является ли это[`SizeF`](../../sizef) имеет нулевую ширину и высоту.
 
 ```csharp
 public bool IsEmpty { get; }
@@ -16,7 +16,7 @@ public bool IsEmpty { get; }
 
 ### Возвращаемое значение
 
-Это свойство возвращает значение true, когда это[`SizeF`](../../sizef)имеет ширину и высоту нуля; в противном случае ложно.
+Это свойство возвращает true, когда это[`SizeF`](../../sizef) имеет как ширину, так и высоту, равные нулю; в противном случае ложно.
 
 ### Смотрите также
 

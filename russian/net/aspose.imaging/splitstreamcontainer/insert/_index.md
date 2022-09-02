@@ -18,7 +18,7 @@ public void Insert(int position, StreamContainer stream, bool disposeStream)
 | --- | --- | --- |
 | position | Int32 | Позиция для вставки. |
 | stream | StreamContainer | Контейнер потока для вставки. |
-| disposeStream | Boolean | , если установлено значение` true` удаляет поток. |
+| disposeStream | Boolean | если установлено`истинный` распоряжается потоком. |
 
 ### Исключения
 

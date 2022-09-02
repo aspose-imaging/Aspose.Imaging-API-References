@@ -18,8 +18,8 @@ public class OdObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OdObject](odobject#constructor)() | 初始化[`OdObject`](../odobject)类的新实例。 |
-| [OdObject](odobject#constructor_1)(OdObject) | 初始化[`OdObject`](../odobject)类的新实例。 |
+| [OdObject](odobject#constructor)() | 初始化[`OdObject`](../odobject)类. |
+| [OdObject](odobject#constructor_1)(OdObject) | 初始化[`OdObject`](../odobject)类. |
 
 ## 特性
 

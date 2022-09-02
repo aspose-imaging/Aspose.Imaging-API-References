@@ -18,21 +18,21 @@ public sealed class ColorBlend
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ColorBlend](colorblend#constructor)() | 初始化[`ColorBlend`](../colorblend)类的新实例。 |
-| [ColorBlend](colorblend#constructor_1)(int) | 使用指定数量的颜色和位置初始化[`ColorBlend`](../colorblend)类的新实例。 |
+| [ColorBlend](colorblend#constructor)() | 初始化[`ColorBlend`](../colorblend)类. |
+| [ColorBlend](colorblend#constructor_1)(int) | 初始化[`ColorBlend`](../colorblend)具有指定颜色和位置数量的类。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Colors](../../aspose.imaging/colorblend/colors) { get; set; } | 获取或设置一个颜色数组，该数组表示沿渐变的相应位置使用的颜色。 |
+| [Colors](../../aspose.imaging/colorblend/colors) { get; set; } | 获取或设置一个颜色数组，表示要在渐变的相应位置使用的颜色。 |
 | [Positions](../../aspose.imaging/colorblend/positions) { get; set; } | 获取或设置沿渐变线的位置。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.imaging/colorblend/equals)(object) | 测试指定的对象是否是[`ColorBlend`](../colorblend)类并且等价于这个[`ColorBlend`](../colorblend)类。 |
+| override [Equals](../../aspose.imaging/colorblend/equals)(object) | 测试指定对象是否为[`ColorBlend`](../colorblend)类，相当于这个[`ColorBlend`](../colorblend)类. |
 | override [GetHashCode](../../aspose.imaging/colorblend/gethashcode)() | 返回此实例的哈希码。 |
 
 ### 也可以看看

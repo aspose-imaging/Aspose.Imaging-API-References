@@ -1,14 +1,14 @@
 ---
 title: Compressed
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示此EmfPlusSetTsClipaspose.imaging.fileformats.emf.emfplus.records/emfplussettsclip是否被压缩 该位指定rects字段中矩形数据的格式如果设置每个 矩形定义为 4 个字节如果清除则每个矩形定义为 8 个字节
+description: 获取一个值该值指示这是否EmfPlusSetTsClipaspose.imaging.fileformats.emf.emfplus.records/emfplussettsclip被压缩 该位指定rects字段中矩形数据的格式如果设置each rectangle 以 4 个字节定义如果清除则每个矩形定义为 8 个字节
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsclip/compressed/
 ---
 ## EmfPlusSetTsClip.Compressed property
 
-获取一个值，该值指示此[`EmfPlusSetTsClip`](../../emfplussettsclip)是否被压缩。 该位指定rects字段中矩形数据的格式。如果设置，每个 矩形定义为 4 个字节。如果清除，则每个矩形定义为 8 个字节。
+获取一个值，该值指示这是否[`EmfPlusSetTsClip`](../../emfplussettsclip)被压缩。 该位指定rects字段中矩形数据的格式。如果设置，each rectangle 以 4 个字节定义。如果清除，则每个矩形定义为 8 个字节。
 
 ```csharp
 public bool Compressed { get; }
@@ -16,7 +16,7 @@ public bool Compressed { get; }
 
 ### 适当的价值
 
-` true` 如果压缩；否则，` false` 。
+`真的`如果压缩；否则，`错误的` .
 
 ### 也可以看看
 

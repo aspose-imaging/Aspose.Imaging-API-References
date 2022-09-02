@@ -1,14 +1,14 @@
 ---
 title: Intent
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает способ отрисовки растрового изображения.
+description: Получает или задает цель рендеринга для растрового изображения.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.bmp/bitmapv5header/intent/
 ---
 ## BitmapV5Header.Intent property
 
-Получает или задает способ отрисовки растрового изображения.
+Получает или задает цель рендеринга для растрового изображения.
 
 ```csharp
 public long Intent { get; set; }

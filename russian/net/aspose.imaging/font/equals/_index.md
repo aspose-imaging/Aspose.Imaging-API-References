@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Указывает является ли указанный объект шрифтомFontaspose.imaging/fontи имеет ли те же значения свойств что и этотFontaspose.imaging/font.
+description: Указывает является ли указанный объектFontaspose.imaging/font и имеет те же значения свойств что и этотFontaspose.imaging/font .
 type: docs
 weight: 120
 url: /ru/net/aspose.imaging/font/equals/
 ---
 ## Font.Equals method
 
-Указывает, является ли указанный объект шрифтом[`Font`](../../font)и имеет ли те же значения свойств, что и этот[`Font`](../../font).
+Указывает, является ли указанный объект[`Font`](../../font) и имеет те же значения свойств, что и этот[`Font`](../../font) .
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Объект для проверки. |
+| obj | Object | Объект для тестирования. |
 
 ### Возвращаемое значение
 
-Истинно, если параметр*obj*является[`Font`](../../font)и имеет тот же значения свойств как это[`Font`](../../font); в противном случае ложно.
+Верно, если*obj* параметр является[`Font`](../../font) и имеет те же значения свойств, что и этот[`Font`](../../font); в противном случае ложно.
 
 ### Смотрите также
 

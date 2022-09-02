@@ -1,14 +1,14 @@
 ---
 title: FrameworkException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаFrameworkExceptionaspose.imaging.coreexceptions/frameworkexception.
+description: Инициализирует новый экземплярFrameworkExceptionaspose.imaging.coreexceptions/frameworkexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions/frameworkexception/frameworkexception/
 ---
 ## FrameworkException(string) {#constructor}
 
-Инициализирует новый экземпляр класса[`FrameworkException`](../../frameworkexception).
+Инициализирует новый экземпляр[`FrameworkException`](../../frameworkexception) класс.
 
 ```csharp
 public FrameworkException(string message)
@@ -28,7 +28,7 @@ public FrameworkException(string message)
 
 ## FrameworkException(string, Exception) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`FrameworkException`](../../frameworkexception).
+Инициализирует новый экземпляр[`FrameworkException`](../../frameworkexception) класс.
 
 ```csharp
 public FrameworkException(string message, Exception innerException)

@@ -16,11 +16,11 @@ public ProgressEventHandler ProgressEventHandler { get; set; }
 
 ### Стоимость имущества
 
-Обработчик события progress.
+Обработчик событий прогресса.
 
 ### Примеры
 
-В следующем примере показано, как распечатать информацию о событиях выполнения для операций загрузки/экспорта.
+В следующем примере показано, как распечатать информацию о событиях выполнения операций загрузки/экспорта.
 
 ```csharp
 [C#]
@@ -30,7 +30,7 @@ public void Test3460()
     string dir = "c:\\aspose.imaging\\net\\issues\\3460";
     string fileName = System.IO.Path.Combine(dir, "big.png");
 
-     // Пример использования отдельных обработчиков событий выполнения операции для операций загрузки/экспорта
+    // Пример использования отдельных обработчиков событий выполнения операции для операций загрузки/экспорта
     using (var image = Aspose.Imaging.Image.Load(fileName, new Aspose.Imaging.LoadOptions { ProgressEventHandler = ProgressCallback }))
     {
         image.Save(fileName + ".psd",
@@ -48,16 +48,16 @@ private void ExportProgressCallback(Aspose.Imaging.ProgressManagement.ProgressEv
     System.Console.WriteLine("Export event {0} : {1}/{2}", info.EventType, info.Value, info.MaxValue);
 }
 
- // Журнал STDOUT может выглядеть так: 
- //Инициализация: 1/4
- // Предварительная обработка: 2/4
- //Обработка: 3/4
- //Доработка: 4/4
- //Инициализация экспорта события: 1/4
- // Экспорт события PreProcessing: 2/4
- //Обработка событий экспорта: 3/4
- //Экспорт события RelativeProgress: 1/1
- //Относительный прогресс: 1/1
+// Журнал STDOUT может выглядеть так:
+//Инициализация: 1/4
+// Предварительная обработка: 2/4
+//Обработка: 3/4
+// Завершение: 4/4
+//Инициализация экспорта события: 1/4
+// Экспорт события PreProcessing: 2/4
+//Обработка событий экспорта: 3/4
+//Экспорт события RelativeProgress: 1/1
+//Относительный прогресс: 1/1
 //Экспорт события Завершение: 4/4
 ```
 

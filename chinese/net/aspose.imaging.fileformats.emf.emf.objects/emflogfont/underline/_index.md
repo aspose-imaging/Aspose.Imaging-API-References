@@ -1,14 +1,14 @@
 ---
 title: Underline
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 8 位无符号整数如果设置为 0x01则指定带下划线的字体 否则它必须设置为 0x00
+description: 获取或设置一个 8 位无符号整数如果设置为 0x01则指定带下划线的字体 否则它必须设置为 0x00.
 type: docs
 weight: 130
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emflogfont/underline/
 ---
 ## EmfLogFont.Underline property
 
-获取或设置一个 8 位无符号整数，如果设置为 0x01，则指定带下划线的字体； 否则，它必须设置为 0x00。
+获取或设置一个 8 位无符号整数，如果设置为 0x01，则指定带下划线的字体； 否则，它必须设置为 0x00.
 
 ```csharp
 public byte Underline { get; set; }

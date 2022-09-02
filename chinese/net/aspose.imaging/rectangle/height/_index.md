@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此Rectangleaspose.imaging/rectangle结构的高度
+description: 获取或设置 this 的高度Rectangleaspose.imaging/rectangle结构.
 type: docs
 weight: 120
 url: /zh/net/aspose.imaging/rectangle/height/
 ---
 ## Rectangle.Height property
 
-获取或设置此[`Rectangle`](../../rectangle)结构的高度。
+获取或设置 this 的高度[`Rectangle`](../../rectangle)结构.
 
 ```csharp
 public int Height { get; set; }
@@ -16,7 +16,7 @@ public int Height { get; set; }
 
 ### 返回值
 
-这个[`Rectangle`](../../rectangle)结构的高度。
+这个高度[`Rectangle`](../../rectangle)结构体。
 
 ### 也可以看看
 

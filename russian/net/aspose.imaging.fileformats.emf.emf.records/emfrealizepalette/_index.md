@@ -1,14 +1,14 @@
 ---
 title: EmfRealizePalette
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Эта запись отображает элементы палитры из текущего объекта LogPalette раздел 2.2.17 в system_palette. Эта запись EMF не содержит параметров.
+description: Эта запись отображает записи палитры из объекта current LogPalette раздел 2.2.17 в system_palette. Эта запись EMF не указывает никаких параметров.
 type: docs
 weight: 4140
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfrealizepalette/
 ---
 ## EmfRealizePalette class
 
-Эта запись отображает элементы палитры из текущего объекта LogPalette (раздел 2.2.17) в system_palette. Эта запись EMF не содержит параметров.
+Эта запись отображает записи палитры из объекта current LogPalette (раздел 2.2.17) в system_palette. Эта запись EMF не указывает никаких параметров.
 
 ```csharp
 public sealed class EmfRealizePalette : EmfStateRecordType
@@ -18,13 +18,13 @@ public sealed class EmfRealizePalette : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfRealizePalette](emfrealizepalette)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfRealizePalette`](../emfrealizepalette). |
+| [EmfRealizePalette](emfrealizepalette)(EmfRecord) | Инициализирует новый экземпляр[`EmfRealizePalette`](../emfrealizepalette) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

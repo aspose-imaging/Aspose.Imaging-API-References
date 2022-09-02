@@ -31,11 +31,11 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.djvu
 {
     Aspose.Imaging.FileFormats.Djvu.DjvuImage djvuImage = (Aspose.Imaging.FileFormats.Djvu.DjvuImage)image;
 
-     // Обрезать изображение. Область кадрирования — это прямоугольная центральная область изображения.
+    // Обрезать изображение. Область кадрирования представляет собой прямоугольную центральную область изображения.
     Aspose.Imaging.Rectangle area = new Aspose.Imaging.Rectangle(djvuImage.Width / 4, djvuImage.Height / 4, djvuImage.Width / 2, djvuImage.Height / 2);
     djvuImage.Crop(area);
 
-     // Сохраняем обрезанное изображение в PNG
+    // Сохраняем обрезанное изображение в PNG
     djvuImage.Save(dir + "sample.Crop.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```
@@ -59,10 +59,10 @@ public override void Crop(int leftShift, int rightShift, int topShift, int botto
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| leftShift | Int32 | Сдвиг влево. |
-| rightShift | Int32 | Сдвиг вправо. |
+| leftShift | Int32 | Левый сдвиг. |
+| rightShift | Int32 | Правильный сдвиг. |
 | topShift | Int32 | Верхняя смена. |
-| bottomShift | Int32 | Нижнее смещение. |
+| bottomShift | Int32 | Нижний сдвиг. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: RateMethod
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置速率方法
+description: 获取或设置费率方法
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/ratemethod/
 ---
 ## CmxGradient.RateMethod property
 
-获取或设置速率方法。
+获取或设置费率方法。
 
 ```csharp
 public ushort RateMethod { get; set; }
@@ -16,7 +16,7 @@ public ushort RateMethod { get; set; }
 
 ### 适当的价值
 
-速率方法。
+费率方法.
 
 ### 也可以看看
 

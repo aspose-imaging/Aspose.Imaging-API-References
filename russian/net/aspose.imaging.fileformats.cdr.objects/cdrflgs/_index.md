@@ -1,14 +1,14 @@
 ---
 title: CdrFlgs
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Флаги cdr
+description: Флаги CDR
 type: docs
 weight: 1580
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrflgs/
 ---
 ## CdrFlgs class
 
-Флаги cdr
+Флаги CDR
 
 ```csharp
 public class CdrFlgs : CdrObject

@@ -1,14 +1,14 @@
 ---
 title: EmfCommentBeginGroup
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfCommentBeginGroupaspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup类的新实例
+description: 初始化EmfCommentBeginGroupaspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup/emfcommentbegingroup/
 ---
 ## EmfCommentBeginGroup constructor
 
-初始化[`EmfCommentBeginGroup`](../../emfcommentbegingroup)类的新实例。
+初始化[`EmfCommentBeginGroup`](../../emfcommentbegingroup)类.
 
 ```csharp
 public EmfCommentBeginGroup(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfCommentBeginGroup(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 

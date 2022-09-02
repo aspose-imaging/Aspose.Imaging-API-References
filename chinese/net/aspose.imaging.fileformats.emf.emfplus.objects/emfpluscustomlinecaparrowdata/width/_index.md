@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定 箭头帽宽度的 32 位浮点值
+description: 获取或设置一个 32 位浮点值该值指定 箭头 cap 的宽度
 type: docs
 weight: 110
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/width/
 ---
 ## EmfPlusCustomLineCapArrowData.Width property
 
-获取或设置指定 箭头帽宽度的 32 位浮点值
+获取或设置一个 32 位浮点值，该值指定 箭头 cap 的宽度
 
 ```csharp
 public float Width { get; set; }

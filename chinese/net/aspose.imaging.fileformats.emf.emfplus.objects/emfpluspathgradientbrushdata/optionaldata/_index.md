@@ -1,14 +1,14 @@
 ---
 title: OptionalData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置可选的 EmfPlusPathGradientBrushOptionalData 对象第 2.2.2.30 节该对象 指定路径渐变画笔的附加数据 该字段的具体内容由BrushDataFlags字段的值决定
+description: 获取或设置一个可选的 EmfPlusPathGradientBrushOptionalData 对象第 2.2.2.30 节 为路径渐变画笔指定附加数据 该字段的具体内容由BrushDataFlags字段的值决定
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradientbrushdata/optionaldata/
 ---
 ## EmfPlusPathGradientBrushData.OptionalData property
 
-获取或设置可选的 EmfPlusPathGradientBrushOptionalData 对象（第 2.2.2.30 节），该对象 指定路径渐变画笔的附加数据。 该字段的具体内容由BrushDataFlags字段的值决定。
+获取或设置一个可选的 EmfPlusPathGradientBrushOptionalData 对象（第 2.2.2.30 节）， 为路径渐变画笔指定附加数据。 该字段的具体内容由BrushDataFlags字段的值决定。
 
 ```csharp
 public EmfPlusPathGradientBrushOptionalData OptionalData { get; set; }

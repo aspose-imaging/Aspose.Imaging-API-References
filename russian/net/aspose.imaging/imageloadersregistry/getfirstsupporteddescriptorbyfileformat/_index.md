@@ -1,14 +1,14 @@
 ---
 title: GetFirstSupportedDescriptorByFileFormat
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает первый поддерживаемый формат файла по имени типа.
+description: Получает первый поддерживаемый формат файла по имени его типа.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging/imageloadersregistry/getfirstsupporteddescriptorbyfileformat/
 ---
 ## ImageLoadersRegistry.GetFirstSupportedDescriptorByFileFormat method
 
-Получает первый поддерживаемый формат файла по имени типа.
+Получает первый поддерживаемый формат файла по имени его типа.
 
 ```csharp
 public static IImageLoaderDescriptor GetFirstSupportedDescriptorByFileFormat(FileFormat fileFormat)

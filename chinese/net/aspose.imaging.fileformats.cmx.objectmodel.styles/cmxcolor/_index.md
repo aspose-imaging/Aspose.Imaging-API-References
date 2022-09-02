@@ -31,7 +31,7 @@ public class CmxColor
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor/tostring)() | 返回代表此实例的String。 |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor/tostring)() | 返回一个String代表这个实例。 |
 
 ### 也可以看看
 

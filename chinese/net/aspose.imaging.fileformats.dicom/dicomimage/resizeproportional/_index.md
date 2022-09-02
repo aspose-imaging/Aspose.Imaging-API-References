@@ -1,14 +1,14 @@
 ---
 title: ResizeProportional
 second_title: Aspose.Imaging for .NET API 参考
-description: 对图像执行按比例调整大小 比例调整大小将根据newWidth/width 和newHeight/height 的比例调整每一帧的大小
+description: 对图像执行比例调整大小 比例调整大小将根据比例调整每一帧的大小newWidth/宽度和newHeight/身高.
 type: docs
 weight: 280
 url: /zh/net/aspose.imaging.fileformats.dicom/dicomimage/resizeproportional/
 ---
 ## DicomImage.ResizeProportional method
 
-对图像执行按比例调整大小。 比例调整大小将根据*newWidth*/width 和*newHeight*/height 的比例调整每一帧的大小。
+对图像执行比例调整大小。 比例调整大小将根据比例调整每一帧的大小*newWidth*/宽度和*newHeight*/身高.
 
 ```csharp
 public void ResizeProportional(int newWidth, int newHeight, ResizeType resizeType)
@@ -16,7 +16,7 @@ public void ResizeProportional(int newWidth, int newHeight, ResizeType resizeTyp
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newWidth | Int32 | 新宽度。 |
+| newWidth | Int32 | 新的宽度。 |
 | newHeight | Int32 | 新高度。 |
 | resizeType | ResizeType | 调整大小类型。 |
 

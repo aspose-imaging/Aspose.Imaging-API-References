@@ -1,14 +1,14 @@
 ---
 title: GlyphPos
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив позиций глифа Массив объектов EmfPlusPointF раздел 2.2.2.36 которые определяют выходную позицию глифа каждого символа. ДОЛЖНЫ быть элементы GlyphCount которые имеют однозначное соответствие с элементами в массиве Glyphs. Позиции глифа вычисляются из позиции первого глифа если установлен флаг DriverStringOptionsRealizedAdvance в флагах DriverStringOptions. В этом случае GlyphPos указывает положение только первого глифа.
+description: Получает или устанавливает позиции глифа array Массив объектов EmfPlusPointF раздел 2.2.2.36 которые определяют выходную позицию глифа каждого символа. ДОЛЖНЫ быть элементы GlyphCount которые имеют однозначное соответствие с элементами в Массив глифов. Позиции глифов рассчитываются по позиции первого глифа если установлен флаг DriverStringOptionsRealizedAdvance в флагах DriverStringOptions. В этом случае GlyphPos указывает положение только первого глифа.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/glyphpos/
 ---
 ## EmfPlusDrawDriverString.GlyphPos property
 
-Получает или задает массив позиций глифа Массив объектов EmfPlusPointF (раздел 2.2.2.36), которые определяют выходную позицию глифа каждого символа. ДОЛЖНЫ быть элементы GlyphCount, которые имеют однозначное соответствие с элементами в массиве Glyphs. Позиции глифа вычисляются из позиции первого глифа, если установлен флаг DriverStringOptionsRealizedAdvance в флагах DriverStringOptions. В этом случае GlyphPos указывает положение только первого глифа.
+Получает или устанавливает позиции глифа array Массив объектов EmfPlusPointF (раздел 2.2.2.36), которые определяют выходную позицию глифа каждого символа. ДОЛЖНЫ быть элементы GlyphCount, которые имеют однозначное соответствие с элементами в Массив глифов. Позиции глифов рассчитываются по позиции первого глифа, если установлен флаг DriverStringOptionsRealizedAdvance в флагах DriverStringOptions. В этом случае GlyphPos указывает положение только первого глифа.
 
 ```csharp
 public PointF[] GlyphPos { get; set; }

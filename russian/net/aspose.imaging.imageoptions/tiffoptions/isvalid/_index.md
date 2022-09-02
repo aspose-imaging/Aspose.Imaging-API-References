@@ -1,14 +1,14 @@
 ---
 title: IsValid
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее правильно ли настроенTiffOptionsaspose.imaging.imageoptions/tiffoptions. Используйте метод Validate чтобы найти причину сбоя.
+description: Получает значение указывающееTiffOptionsaspose.imaging.imageoptions/tiffoptions были правильно настроены. Используйте метод проверки чтобы найти причину сбоя.
 type: docs
 weight: 270
 url: /ru/net/aspose.imaging.imageoptions/tiffoptions/isvalid/
 ---
 ## TiffOptions.IsValid property
 
-Получает значение, указывающее, правильно ли настроен[`TiffOptions`](../../tiffoptions). Используйте метод Validate, чтобы найти причину сбоя.
+Получает значение, указывающее,[`TiffOptions`](../../tiffoptions) были правильно настроены. Используйте метод проверки, чтобы найти причину сбоя.
 
 ```csharp
 public bool IsValid { get; }
@@ -16,7 +16,7 @@ public bool IsValid { get; }
 
 ### Стоимость имущества
 
-` true` , если параметры TiffOptions настроены правильно; в противном случае` false` .
+`истинный` правильно ли настроены TiffOptions; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

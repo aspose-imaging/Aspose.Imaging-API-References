@@ -1,14 +1,14 @@
 ---
 title: EmfPlusDrawBeziers
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusDrawBeziersaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawbeziers.
+description: Инициализирует новый экземплярEmfPlusDrawBeziersaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawbeziers класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawbeziers/emfplusdrawbeziers/
 ---
 ## EmfPlusDrawBeziers constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusDrawBeziers`](../../emfplusdrawbeziers).
+Инициализирует новый экземпляр[`EmfPlusDrawBeziers`](../../emfplusdrawbeziers) класс.
 
 ```csharp
 public EmfPlusDrawBeziers(EmfPlusRecord source)

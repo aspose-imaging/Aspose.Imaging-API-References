@@ -16,7 +16,7 @@ public PointD Origin { get; set; }
 
 ### 适当的价值
 
-原点。
+原点.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: LastChild
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает последний дочерний элемент.
+description: Получает или задает последний дочерний элемент.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/lastchild/
 ---
 ## CdrObjectContainer.LastChild property
 
-Получает или устанавливает последний дочерний элемент.
+Получает или задает последний дочерний элемент.
 
 ```csharp
 public CdrObjectContainer LastChild { get; set; }

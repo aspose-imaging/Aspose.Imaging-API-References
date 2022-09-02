@@ -1,14 +1,14 @@
 ---
 title: JpegExifData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаJpegExifDataaspose.imaging.exif/jpegexifdata.
+description: Инициализирует новый экземплярJpegExifDataaspose.imaging.exif/jpegexifdata класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.exif/jpegexifdata/jpegexifdata/
 ---
 ## JpegExifData() {#constructor}
 
-Инициализирует новый экземпляр класса[`JpegExifData`](../../jpegexifdata).
+Инициализирует новый экземпляр[`JpegExifData`](../../jpegexifdata) класс.
 
 ```csharp
 public JpegExifData()
@@ -24,7 +24,7 @@ public JpegExifData()
 
 ## JpegExifData(TiffDataType[]) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`JpegExifData`](../../jpegexifdata)данными из массива.
+Инициализирует новый экземпляр[`JpegExifData`](../../jpegexifdata) класс с данными из массива.
 
 ```csharp
 public JpegExifData(TiffDataType[] exifdata)
@@ -45,7 +45,7 @@ public JpegExifData(TiffDataType[] exifdata)
 
 ## JpegExifData(TiffDataType[], TiffDataType[], TiffDataType[]) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`JpegExifData`](../../jpegexifdata)данными из массива.
+Инициализирует новый экземпляр[`JpegExifData`](../../jpegexifdata) класс с данными из массива.
 
 ```csharp
 public JpegExifData(TiffDataType[] commonTags, TiffDataType[] exifTags, TiffDataType[] gpsTags)

@@ -1,14 +1,14 @@
 ---
 title: Shadow
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置图像阴影的暗度颜色通道 强度范围低端的值比中间或 高端附近的值变化更大这意味着图像可以变暗而不会失去两者之间的对比度 图像较亮的部分 0 指定阴影不能改变 0 lt value  100 指定强度百分比低于此阈值的阴影将变为 更暗
+description: 获取或设置 指定图像阴影变暗的程度强度范围低端的颜色通道 值比中间或 高端附近的值变化更多这意味着图像可以变暗而不会失去图像的 较亮部分之间的对比度 0指定阴影不得改变. 0 lt value  100 指定强度百分比低于此阈值的阴影会变暗 
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslevelseffect/shadow/
 ---
 ## EmfPlusLevelsEffect.Shadow property
 
-获取或设置图像阴影的暗度。颜色通道 强度范围低端的值比中间或 高端附近的值变化更大，这意味着图像可以变暗而不会失去两者之间的对比度 图像较亮的部分。 0 指定阴影不能改变。 0 &lt; value ≤ 100 指定强度百分比低于此阈值的阴影将变为 更暗。
+获取或设置 指定图像阴影变暗的程度。强度范围低端的颜色通道 值比中间或 高端附近的值变化更多，这意味着图像可以变暗而不会失去图像的 较亮部分之间的对比度。 0指定阴影不得改变. 0 &lt; value ≤ 100 指定强度百分比低于此阈值的阴影会变暗 。
 
 ```csharp
 public int Shadow { get; set; }
@@ -16,7 +16,7 @@ public int Shadow { get; set; }
 
 ### 适当的价值
 
-阴影。
+影子。
 
 ### 也可以看看
 

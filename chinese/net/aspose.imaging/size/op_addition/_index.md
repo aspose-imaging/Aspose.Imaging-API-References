@@ -1,14 +1,14 @@
 ---
 title: op_Addition
 second_title: Aspose.Imaging for .NET API 参考
-description: 将一个Sizeaspose.imaging/size结构的宽度和高度添加到另一个R5 的宽度和高度TAspose.Imaging.Size结构
+description: 加一的宽和高Sizeaspose.imaging/size结构到另一个的宽度和高度Sizeaspose.imaging/size结构.
 type: docs
 weight: 140
 url: /zh/net/aspose.imaging/size/op_addition/
 ---
 ## Size Addition operator
 
-将一个[`Size`](../../size)结构的宽度和高度添加到另一个:::R5 的宽度和高度:T:Aspose.Imaging.Size:::结构。
+加一的宽和高[`Size`](../../size)结构到另一个的宽度和高度[`Size`](../../size)结构.
 
 ```csharp
 public static Size operator +(Size size1, Size size2)
@@ -16,12 +16,12 @@ public static Size operator +(Size size1, Size size2)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| size1 | Size | 第一个[`Size`](../../size)添加。 |
-| size2 | Size | 第二个[`Size`](../../size)添加。 |
+| size1 | Size | 首先[`Size`](../../size)添加。 |
+| size2 | Size | 第二[`Size`](../../size)添加。 |
 
 ### 返回值
 
-A[`Size`](../../size)结构，它是加法运算的结果。
+一个[`Size`](../../size)结构是加法运算的结果。
 
 ### 也可以看看
 

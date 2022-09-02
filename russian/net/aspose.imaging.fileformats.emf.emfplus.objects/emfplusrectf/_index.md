@@ -1,14 +1,14 @@
 ---
 title: EmfPlusRectF
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект EmfPlusRectF указывает начало координат высоту и ширину прямоугольника в виде 32-битных значений с плавающей запятой.
+description: Объект EmfPlusRectF определяет исходную точку высоту и ширину прямоугольника в виде 32-битных значений с плавающей запятой.
 type: docs
 weight: 5690
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusrectf/
 ---
 ## EmfPlusRectF class
 
-Объект EmfPlusRectF указывает начало координат, высоту и ширину прямоугольника в виде 32-битных значений с плавающей запятой.
+Объект EmfPlusRectF определяет исходную точку, высоту и ширину прямоугольника в виде 32-битных значений с плавающей запятой.
 
 ```csharp
 public sealed class EmfPlusRectF : EmfPlusStructureObjectType

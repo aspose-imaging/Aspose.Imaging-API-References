@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает эту высоту изображения.
+description: Получает высоту этого изображения.
 type: docs
 weight: 150
 url: /ru/net/aspose.imaging.fileformats.tga/tgaimage/height/
 ---
 ## TgaImage.Height property
 
-Получает эту высоту изображения.
+Получает высоту этого изображения.
 
 ```csharp
 public override int Height { get; }
@@ -16,7 +16,7 @@ public override int Height { get; }
 
 ### Примеры
 
-Получение значений публичных свойств загруженного TGA-изображения.
+Получение значений публичных свойств загруженного изображения TGA.
 
 ```csharp
 [C#]

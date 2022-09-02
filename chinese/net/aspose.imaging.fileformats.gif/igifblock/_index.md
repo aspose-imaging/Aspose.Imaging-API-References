@@ -1,14 +1,14 @@
 ---
 title: IGifBlock
 second_title: Aspose.Imaging for .NET API 参考
-description: 代表GIF块接口
+description: 代表 GIF 块接口
 type: docs
 weight: 6710
 url: /zh/net/aspose.imaging.fileformats.gif/igifblock/
 ---
 ## IGifBlock interface
 
-代表GIF块接口。
+代表 GIF 块接口。
 
 ```csharp
 public interface IGifBlock
@@ -18,7 +18,7 @@ public interface IGifBlock
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Save](../../aspose.imaging.fileformats.gif/igifblock/save)(Stream) | 将块保存到指定的流。 |
+| [Save](../../aspose.imaging.fileformats.gif/igifblock/save)(Stream) | 将块保存到指定的流中。 |
 
 ### 也可以看看
 

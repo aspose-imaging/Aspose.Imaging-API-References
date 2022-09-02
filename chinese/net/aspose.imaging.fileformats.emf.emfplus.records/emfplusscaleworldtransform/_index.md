@@ -18,18 +18,18 @@ public sealed class EmfPlusScaleWorldTransform : EmfPlusTerminalServerRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfPlusScaleWorldTransform](emfplusscaleworldtransform)(EmfPlusRecord) | 初始化[`EmfPlusScaleWorldTransform`](../emfplusscaleworldtransform)类的新实例。 |
+| [EmfPlusScaleWorldTransform](emfplusscaleworldtransform)(EmfPlusRecord) | 初始化[`EmfPlusScaleWorldTransform`](../emfplusscaleworldtransform)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，该整数必须在 RecordData 字段中定义 32 位对齐的 数据字节数跟随。这个数字不包括 12 字节的记录头。 |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | 获取或设置一个 16 位无符号整数，该整数包含有关如何执行 操作和结构的一些记录的信息记录。 |
-| [PostMultipliedMatrix](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusscaleworldtransform/postmultipliedmatrix) { get; } | 获取一个值，指示是否[后乘矩阵]。 如果设置，变换矩阵应该是后乘的。如果明确，则应进行预乘。 |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | 获取或设置一个 32 位无符号整数，指定整条记录中的 32 位对齐字节数 ，包括 12 -byte 记录头和特定于记录的数据。 |
-| [Sx](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusscaleworldtransform/sx) { get; set; } | 获取或设置定义水平比例因子的 32 位浮点值。缩放 是通过从 Sx 和 Sy 字段值构造新的变换矩阵来执行的，如下表所示 。 ----------------- &#x7C; SX &#x7C; 0 &#x7C; 0 &#x7C; &#x7C; 0 &#x7C; SX &#x7C; 0 &#x7C; ----------------- 图 3:比例变换矩阵 |
-| [Sy](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusscaleworldtransform/sy) { get; set; } | 获取或设置定义垂直比例因子的 32 位浮点值。 |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，该整数必须在随后的 RecordData 字段中定义 32 位对齐的 字节数据。这个数字不包括 12 字节的记录头。 |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | 获取或设置一个 16 位无符号整数，其中包含一些记录的信息，关于如何执行 操作以及记录的结构。 |
+| [PostMultipliedMatrix](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusscaleworldtransform/postmultipliedmatrix) { get; } | 获取一个值，该值指示是否[后乘矩阵]。 如果设置，则应对变换矩阵进行后乘。如果清楚，应该是预乘。 |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | 获取或设置一个 32 位无符号整数，指定整个记录中 32 位对齐的字节数 ，包括 12 字节的记录头和特定于记录的数据。 |
+| [Sx](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusscaleworldtransform/sx) { get; set; } | 获取或设置一个定义水平比例因子的 32 位浮点值。缩放 是通过从Sx和Sy字段值构造一个新的变换矩阵来执行的，如下表所示的 。 ----------------- &#x7C; SX &#x7C; 0 &#x7C; 0 &#x7C; &#x7C; 0 &#x7C; SX &#x7C; 0 &#x7C; ----------------- 图3：比例变换矩阵 |
+| [Sy](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusscaleworldtransform/sy) { get; set; } | 获取或设置一个定义垂直比例因子的 32 位浮点值。 |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | 获取标识记录类型的 16 位无符号整数。 |
 
 ### 也可以看看

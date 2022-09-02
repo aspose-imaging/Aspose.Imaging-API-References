@@ -23,7 +23,7 @@ public StreamSource CmykColorProfile { get; set; }
 
 string dir = "c:\\temp\\";
 
- // Загружаем PNG и сохраняем в CMYK JPEG
+// Загружаем PNG и сохраняем в CMYK JPEG
 using (Aspose.Imaging.FileFormats.Png.PngImage image = (Aspose.Imaging.FileFormats.Png.PngImage)Image.Load(dir + "sample.png"))
 {
     using (System.IO.Stream rgbProfileStream = System.IO.File.OpenRead(dir + "eciRGB_v2.icc"))
@@ -32,7 +32,7 @@ using (Aspose.Imaging.FileFormats.Png.PngImage image = (Aspose.Imaging.FileForma
         Aspose.Imaging.ImageOptions.JpegOptions saveOptions = new Aspose.Imaging.ImageOptions.JpegOptions();
         saveOptions.ColorType = Aspose.Imaging.FileFormats.Jpeg.JpegCompressionColorMode.Cmyk;
 
-         // Использовать пользовательские профили ICC
+        // Использовать пользовательские профили ICC
         saveOptions.RgbColorProfile = new Aspose.Imaging.Sources.StreamSource(rgbProfileStream);
         saveOptions.CmykColorProfile = new Aspose.Imaging.Sources.StreamSource(cmykProfileStream);
 
@@ -40,13 +40,13 @@ using (Aspose.Imaging.FileFormats.Png.PngImage image = (Aspose.Imaging.FileForma
     }
 }
 
- // Загружаем CMYK JPEG и сохраняем в PNG
+// Загружаем CMYK JPEG и сохраняем в PNG
 using (Aspose.Imaging.FileFormats.Jpeg.JpegImage image = (Aspose.Imaging.FileFormats.Jpeg.JpegImage)Image.Load(dir + "output.cmyk.jpg"))
 {
     using (System.IO.Stream rgbProfileStream = System.IO.File.OpenRead(dir + "eciRGB_v2.icc"))
     using (System.IO.Stream cmykProfileStream = System.IO.File.OpenRead(dir + "ISOcoated_v2_FullGamut4.icc"))
     {
-         // Использовать пользовательские профили ICC
+        // Использовать пользовательские профили ICC
         image.RgbColorProfile = new Aspose.Imaging.Sources.StreamSource(rgbProfileStream);
         image.CmykColorProfile = new Aspose.Imaging.Sources.StreamSource(cmykProfileStream);
 

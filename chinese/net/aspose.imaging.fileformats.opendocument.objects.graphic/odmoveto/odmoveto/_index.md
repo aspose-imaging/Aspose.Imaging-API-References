@@ -1,14 +1,14 @@
 ---
 title: OdMoveTo
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化OdMoveToaspose.imaging.fileformats.opendocument.objects.graphic/odmoveto类的新实例
+description: 初始化OdMoveToaspose.imaging.fileformats.opendocument.objects.graphic/odmoveto类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odmoveto/odmoveto/
 ---
 ## OdMoveTo constructor
 
-初始化[`OdMoveTo`](../../odmoveto)类的新实例。
+初始化[`OdMoveTo`](../../odmoveto)类.
 
 ```csharp
 public OdMoveTo(OdObject parent)
@@ -16,7 +16,7 @@ public OdMoveTo(OdObject parent)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | OdObject | 父级。 |
+| parent | OdObject | 家长。 |
 
 ### 也可以看看
 

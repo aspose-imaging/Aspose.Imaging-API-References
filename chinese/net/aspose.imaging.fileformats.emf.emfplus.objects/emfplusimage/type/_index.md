@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置图像类型 一个 32 位无符号整数指定 ImageData 字段中的数据类型 .该值必须在 ImageDataType 枚举第 2.1.1.15 节中定义
+description: 获取或设置图像类型 一个 32 位无符号整数用于指定 ImageData 字段中的数据类型 该值必须在 ImageDataType 枚举第 2.1.1.15 节中定义
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage/type/
 ---
 ## EmfPlusImage.Type property
 
-获取或设置图像类型 一个 32 位无符号整数，指定 ImageData 字段中的数据类型 .该值必须在 ImageDataType 枚举（第 2.1.1.15 节）中定义。
+获取或设置图像类型 一个 32 位无符号整数，用于指定 ImageData 字段中的数据类型 。该值必须在 ImageDataType 枚举（第 2.1.1.15 节）中定义。
 
 ```csharp
 public EmfPlusImageDataType Type { get; set; }

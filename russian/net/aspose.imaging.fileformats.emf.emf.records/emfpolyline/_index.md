@@ -1,14 +1,14 @@
 ---
 title: EmfPolyline
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_POLYLINE задает ряд отрезков соединяющих точки в указанном массиве .
+description: Запись EMR_POLYLINE задает серию сегментов линии соединяя точки в указанном массиве .
 type: docs
 weight: 4100
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpolyline/
 ---
 ## EmfPolyline class
 
-Запись EMR_POLYLINE задает ряд отрезков, соединяющих точки в указанном массиве .
+Запись EMR_POLYLINE задает серию сегментов линии, соединяя точки в указанном массиве .
 
 ```csharp
 public sealed class EmfPolyline : EmfDrawingRecordType
@@ -18,16 +18,16 @@ public sealed class EmfPolyline : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPolyline](emfpolyline#constructor)() | Инициализирует новый экземпляр класса[`EmfPolyline`](../emfpolyline). |
-| [EmfPolyline](emfpolyline#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfPolyline`](../emfpolyline). |
+| [EmfPolyline](emfpolyline#constructor)() | Инициализирует новый экземпляр[`EmfPolyline`](../emfpolyline) класс. |
+| [EmfPolyline](emfpolyline#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfPolyline`](../emfpolyline) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolyline/apoints) { get; set; } | Получает или задает массив длины счетчика объектов WMF PointL ([MS-WMF], раздел 2.2.2.15) который указывает данные точки, в логических единицах. |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolyline/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF ([MS-WMF], раздел 2.2.2.19), который определяет ограничивающий прямоугольник в единицы устройства. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolyline/apoints) { get; set; } | Получает или задает массив длин объектов WMF PointL ([MS-WMF], раздел 2.2.2.15) , указывающий данные точки в логических единицах. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolyline/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF ([MS-WMF], раздел 2.2.2.19), который указывает ограничивающий прямоугольник в единицах измерения устройства. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

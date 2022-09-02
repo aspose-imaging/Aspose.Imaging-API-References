@@ -27,8 +27,8 @@ public class DicomOptions : ImageOptionsBase
 | [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | 获取或设置缓冲区大小提示，该提示定义了所有内部缓冲区的最大允许大小。 |
 | [ColorType](../../aspose.imaging.imageoptions/dicomoptions/colortype) { get; set; } | 获取或设置颜色的类型。 |
 | [Compression](../../aspose.imaging.imageoptions/dicomoptions/compression) { get; set; } | 获取或设置压缩。 |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示该实例是否被释放。 |
-| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | 获取或设置一个值，指示是否[全帧]。 |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示此实例是否被释放。 |
+| [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | 获取或设置一个值，指示是否[全帧]. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | 多页选项 |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | 获取或设置调色板。 |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | 获取或设置进度事件处理程序。 |
@@ -42,7 +42,7 @@ public class DicomOptions : ImageOptionsBase
 | 姓名 | 描述 |
 | --- | --- |
 | virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | 克隆此实例。 |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 释放当前实例。 |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 处理当前实例。 |
 
 ### 例子
 
@@ -51,39 +51,11 @@ public class DicomOptions : ImageOptionsBase
 ```csharp
 [C#]
 
-using (DicomImage image = (DicomImage)Image.Create(
-        new DicomOptions() { Source = new StreamSource(new MemoryStream()) },
-        100,
-        100))
+using (var inputImage = Image.Load("original.jpg"))
 {
-        // 使用矢量图形
- 绘制一些东西
-    Graphics graphics = new Graphics(image);
-    graphics.FillRectangle(new SolidBrush(Color.BlueViolet), image.Bounds);
-    graphics.FillRectangle(new SolidBrush(Color.Aqua), 10, 20, 50, 20);
-    graphics.FillEllipse(new SolidBrush(Color.Orange), 30, 50, 70, 30);
+    var options = new DicomOptions { ColorType = ColorType.Grayscale8Bit };
 
-    // 保存绘制图像的像素。它们现在位于 Dicom 图像的第一页。
-    int[] pixels = image.LoadArgb32Pixels(image.Bounds);
-
-        // 之后添加几页，使它们变暗
-    for (int i = 1; i < 5; i++)
-    {
-        DicomPage page = image.AddPage();
-        page.SaveArgb32Pixels(page.Bounds, pixels);
-        page.AdjustBrightness(i * 30);
-    }
-
-        // 在主页面前面添加几页，使它们更亮
-    for (int i = 1; i < 5; i++)
-    {
-        DicomPage page = image.InsertPage(0);
-        page.SaveArgb32Pixels(page.Bounds, pixels);
-        page.AdjustBrightness(-i * 30);
-    }
-
-        // 将创建的多页图片保存到输出文件
-    image.Save("MultiPage.dcm");
+    inputImage.Save("original_8Bit.dcm", options);
 }
 ```
 
@@ -92,39 +64,15 @@ using (DicomImage image = (DicomImage)Image.Create(
 ```csharp
 [C#]
 
-using (DicomImage image = (DicomImage)Image.Create(
-        new DicomOptions() { Source = new StreamSource(new MemoryStream()) },
-        100,
-        100))
+using (var inputImage = Image.Load("original.jpg"))
 {
-        // 使用矢量图形
- 绘制一些东西
-    Graphics graphics = new Graphics(image);
-    graphics.FillRectangle(new SolidBrush(Color.BlueViolet), image.Bounds);
-    graphics.FillRectangle(new SolidBrush(Color.Aqua), 10, 20, 50, 20);
-    graphics.FillEllipse(new SolidBrush(Color.Orange), 30, 50, 70, 30);
-
-    // 保存绘制图像的像素。它们现在位于 Dicom 图像的第一页。
-    int[] pixels = image.LoadArgb32Pixels(image.Bounds);
-
-        // 之后添加几页，使它们变暗
-    for (int i = 1; i < 5; i++)
+    var options = new DicomOptions
     {
-        DicomPage page = image.AddPage();
-        page.SaveArgb32Pixels(page.Bounds, pixels);
-        page.AdjustBrightness(i * 30);
-    }
+        ColorType = ColorType.Rgb24Bit,
+        Compression = new Compression { Type = CompressionType.Rle }
+    };
 
-        // 在主页面前面添加几页，使它们更亮
-    for (int i = 1; i < 5; i++)
-    {
-        DicomPage page = image.InsertPage(0);
-        page.SaveArgb32Pixels(page.Bounds, pixels);
-        page.AdjustBrightness(-i * 30);
-    }
-
-        // 将创建的多页图片保存到输出文件
-    image.Save("MultiPage.dcm");
+    inputImage.Save("original_RLE.dcm", options);
 }
 ```
 
@@ -133,39 +81,23 @@ using (DicomImage image = (DicomImage)Image.Create(
 ```csharp
 [C#]
 
-using (DicomImage image = (DicomImage)Image.Create(
-        new DicomOptions() { Source = new StreamSource(new MemoryStream()) },
-        100,
-        100))
+using (var inputImage = Image.Load("original.jpg"))
 {
-        // 使用矢量图形
- 绘制一些东西
-    Graphics graphics = new Graphics(image);
-    graphics.FillRectangle(new SolidBrush(Color.BlueViolet), image.Bounds);
-    graphics.FillRectangle(new SolidBrush(Color.Aqua), 10, 20, 50, 20);
-    graphics.FillEllipse(new SolidBrush(Color.Orange), 30, 50, 70, 30);
-
-    // 保存绘制图像的像素。它们现在位于 Dicom 图像的第一页。
-    int[] pixels = image.LoadArgb32Pixels(image.Bounds);
-
-        // 之后添加几页，使它们变暗
-    for (int i = 1; i < 5; i++)
+    var options = new DicomOptions
     {
-        DicomPage page = image.AddPage();
-        page.SaveArgb32Pixels(page.Bounds, pixels);
-        page.AdjustBrightness(i * 30);
-    }
+        ColorType = ColorType.Rgb24Bit,
+        Compression = new Compression
+        {
+            Type = CompressionType.Jpeg2000,
+            Jpeg2000 = new Jpeg2000Options
+            {
+                Codec = Jpeg2000Codec.Jp2,
+                Irreversible = false
+            }
+        }
+    };
 
-        // 在主页面前面添加几页，使它们更亮
-    for (int i = 1; i < 5; i++)
-    {
-        DicomPage page = image.InsertPage(0);
-        page.SaveArgb32Pixels(page.Bounds, pixels);
-        page.AdjustBrightness(-i * 30);
-    }
-
-        // 将创建的多页图片保存到输出文件
-    image.Save("MultiPage.dcm");
+    inputImage.Save("original_JPEG2000.dcm", options);
 }
 ```
 
@@ -174,39 +106,24 @@ using (DicomImage image = (DicomImage)Image.Create(
 ```csharp
 [C#]
 
-using (DicomImage image = (DicomImage)Image.Create(
-        new DicomOptions() { Source = new StreamSource(new MemoryStream()) },
-        100,
-        100))
+using (var inputImage = Image.Load("original.jpg"))
 {
-        // 使用矢量图形
- 绘制一些东西
-    Graphics graphics = new Graphics(image);
-    graphics.FillRectangle(new SolidBrush(Color.BlueViolet), image.Bounds);
-    graphics.FillRectangle(new SolidBrush(Color.Aqua), 10, 20, 50, 20);
-    graphics.FillEllipse(new SolidBrush(Color.Orange), 30, 50, 70, 30);
-
-    // 保存绘制图像的像素。它们现在位于 Dicom 图像的第一页。
-    int[] pixels = image.LoadArgb32Pixels(image.Bounds);
-
-        // 之后添加几页，使它们变暗
-    for (int i = 1; i < 5; i++)
+    var options = new DicomOptions
     {
-        DicomPage page = image.AddPage();
-        page.SaveArgb32Pixels(page.Bounds, pixels);
-        page.AdjustBrightness(i * 30);
-    }
+        ColorType = ColorType.Rgb24Bit,
+        Compression = new Compression
+        {
+            Type = CompressionType.Jpeg,
+            Jpeg = new JpegOptions
+            {
+                CompressionType = JpegCompressionMode.Baseline,
+                SampleRoundingMode = SampleRoundingMode.Truncate,
+                Quality = 50
+            }
+        }
+    };
 
-        // 在主页面前面添加几页，使它们更亮
-    for (int i = 1; i < 5; i++)
-    {
-        DicomPage page = image.InsertPage(0);
-        page.SaveArgb32Pixels(page.Bounds, pixels);
-        page.AdjustBrightness(-i * 30);
-    }
-
-        // 将创建的多页图片保存到输出文件
-    image.Save("MultiPage.dcm");
+    inputImage.Save("original_JPEG.dcm", options);
 }
 ```
 
@@ -215,39 +132,22 @@ using (DicomImage image = (DicomImage)Image.Create(
 ```csharp
 [C#]
 
-using (DicomImage image = (DicomImage)Image.Create(
-        new DicomOptions() { Source = new StreamSource(new MemoryStream()) },
-        100,
-        100))
+string fileName = "sample.jpg";
+string inputFileNameSingle = fileName;
+string inputFileNameMultipage = "multipage.tif";
+string outputFileNameSingleDcm = "output.dcm";
+string outputFileNameMultipageDcm = "outputMultipage.dcm";
+
+// 下一个代码示例将 JPEG 图像转换为 DICOM 文件格式
+using (var image = Aspose.Imaging.Image.Load(inputFileNameSingle))
 {
-        // 使用矢量图形
- 绘制一些东西
-    Graphics graphics = new Graphics(image);
-    graphics.FillRectangle(new SolidBrush(Color.BlueViolet), image.Bounds);
-    graphics.FillRectangle(new SolidBrush(Color.Aqua), 10, 20, 50, 20);
-    graphics.FillEllipse(new SolidBrush(Color.Orange), 30, 50, 70, 30);
+    image.Save(outputFileNameSingleDcm, new Aspose.Imaging.ImageOptions.DicomOptions());
+}
 
-    // 保存绘制图像的像素。它们现在位于 Dicom 图像的第一页。
-    int[] pixels = image.LoadArgb32Pixels(image.Bounds);
-
-        // 之后添加几页，使它们变暗
-    for (int i = 1; i < 5; i++)
-    {
-        DicomPage page = image.AddPage();
-        page.SaveArgb32Pixels(page.Bounds, pixels);
-        page.AdjustBrightness(i * 30);
-    }
-
-        // 在主页面前面添加几页，使它们更亮
-    for (int i = 1; i < 5; i++)
-    {
-        DicomPage page = image.InsertPage(0);
-        page.SaveArgb32Pixels(page.Bounds, pixels);
-        page.AdjustBrightness(-i * 30);
-    }
-
-        // 将创建的多页图片保存到输出文件
-    image.Save("MultiPage.dcm");
+// DICOM 格式支持多页图像。您可以像 JPEG 图像一样将 GIF 或 TIFF 图像转换为 DICOM
+using (var imageMultiple = Aspose.Imaging.Image.Load(inputFileNameMultipage))
+{
+    imageMultiple.Save(outputFileNameMultipageDcm, new Aspose.Imaging.ImageOptions.DicomOptions());
 }
 ```
 
@@ -261,8 +161,7 @@ using (DicomImage image = (DicomImage)Image.Create(
         100,
         100))
 {
-        // 使用矢量图形
- 绘制一些东西
+    // 使用矢量图形绘制一些东西
     Graphics graphics = new Graphics(image);
     graphics.FillRectangle(new SolidBrush(Color.BlueViolet), image.Bounds);
     graphics.FillRectangle(new SolidBrush(Color.Aqua), 10, 20, 50, 20);
@@ -271,7 +170,7 @@ using (DicomImage image = (DicomImage)Image.Create(
     // 保存绘制图像的像素。它们现在位于 Dicom 图像的第一页。
     int[] pixels = image.LoadArgb32Pixels(image.Bounds);
 
-        // 之后添加几页，使它们变暗
+    // 之后添加几页，使它们变暗
     for (int i = 1; i < 5; i++)
     {
         DicomPage page = image.AddPage();
@@ -279,7 +178,7 @@ using (DicomImage image = (DicomImage)Image.Create(
         page.AdjustBrightness(i * 30);
     }
 
-        // 在主页面前面添加几页，使它们更亮
+    // 在主页面前面添加几页，使它们更亮
     for (int i = 1; i < 5; i++)
     {
         DicomPage page = image.InsertPage(0);
@@ -287,7 +186,7 @@ using (DicomImage image = (DicomImage)Image.Create(
         page.AdjustBrightness(-i * 30);
     }
 
-        // 将创建的多页图片保存到输出文件
+    // 将创建的多页图片保存到输出文件
     image.Save("MultiPage.dcm");
 }
 ```

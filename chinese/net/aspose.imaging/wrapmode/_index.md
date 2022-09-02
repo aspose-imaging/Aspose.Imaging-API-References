@@ -3,7 +3,7 @@ title: WrapMode
 second_title: Aspose.Imaging for .NET API 参考
 description: 指定当纹理或渐变小于填充区域时如何平铺
 type: docs
-weight: 11250
+weight: 11240
 url: /zh/net/aspose.imaging/wrapmode/
 ---
 ## WrapMode enumeration

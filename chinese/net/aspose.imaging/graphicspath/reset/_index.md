@@ -1,14 +1,14 @@
 ---
 title: Reset
 second_title: Aspose.Imaging for .NET API 参考
-description: 清空图形路径并将FillModeaspose.imaging/fillmode设置为备用
+description: 清空图形路径并设置FillModeaspose.imaging/fillmode至Alternate .
 type: docs
 weight: 150
 url: /zh/net/aspose.imaging/graphicspath/reset/
 ---
 ## GraphicsPath.Reset method
 
-清空图形路径并将[`FillMode`](../../fillmode)设置为备用。
+清空图形路径并设置[`FillMode`](../../fillmode)至Alternate .
 
 ```csharp
 public void Reset()

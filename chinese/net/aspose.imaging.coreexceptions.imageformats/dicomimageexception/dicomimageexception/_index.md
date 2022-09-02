@@ -1,14 +1,14 @@
 ---
 title: DicomImageException
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化DicomImageExceptionaspose.imaging.coreexceptions.imageformats/dicomimageexception类的新实例
+description: 初始化DicomImageExceptionaspose.imaging.coreexceptions.imageformats/dicomimageexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.coreexceptions.imageformats/dicomimageexception/dicomimageexception/
 ---
 ## DicomImageException(string) {#constructor}
 
-初始化[`DicomImageException`](../../dicomimageexception)类的新实例。
+初始化[`DicomImageException`](../../dicomimageexception)类.
 
 ```csharp
 public DicomImageException(string message)
@@ -28,7 +28,7 @@ public DicomImageException(string message)
 
 ## DicomImageException(string, Exception) {#constructor_1}
 
-初始化[`DicomImageException`](../../dicomimageexception)类的新实例。
+初始化[`DicomImageException`](../../dicomimageexception)类.
 
 ```csharp
 public DicomImageException(string message, Exception innerException)

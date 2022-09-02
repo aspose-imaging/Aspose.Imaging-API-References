@@ -1,14 +1,14 @@
 ---
 title: ImageLoadException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаImageLoadExceptionaspose.imaging.coreexceptions/imageloadexception.
+description: Инициализирует новый экземплярImageLoadExceptionaspose.imaging.coreexceptions/imageloadexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions/imageloadexception/imageloadexception/
 ---
 ## ImageLoadException(string) {#constructor}
 
-Инициализирует новый экземпляр класса[`ImageLoadException`](../../imageloadexception).
+Инициализирует новый экземпляр[`ImageLoadException`](../../imageloadexception) класс.
 
 ```csharp
 public ImageLoadException(string message)
@@ -28,7 +28,7 @@ public ImageLoadException(string message)
 
 ## ImageLoadException(string, Exception) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`ImageLoadException`](../../imageloadexception).
+Инициализирует новый экземпляр[`ImageLoadException`](../../imageloadexception) класс.
 
 ```csharp
 public ImageLoadException(string message, Exception innerException)

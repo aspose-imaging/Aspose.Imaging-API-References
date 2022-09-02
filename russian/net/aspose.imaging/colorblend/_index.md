@@ -1,14 +1,14 @@
 ---
 title: ColorBlend
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Определяет массивы цветов и позиций используемых для интерполяции смешивания цветов в многоцветном градиенте. Этот класс не может быть унаследован.
+description: Определяет массивы цветов и позиций используемых для интерполяции смешения цветов в многоцветном градиенте. Этот класс не может быть унаследован.
 type: docs
 weight: 320
 url: /ru/net/aspose.imaging/colorblend/
 ---
 ## ColorBlend class
 
-Определяет массивы цветов и позиций, используемых для интерполяции смешивания цветов в многоцветном градиенте. Этот класс не может быть унаследован.
+Определяет массивы цветов и позиций, используемых для интерполяции смешения цветов в многоцветном градиенте. Этот класс не может быть унаследован.
 
 ```csharp
 public sealed class ColorBlend
@@ -18,21 +18,21 @@ public sealed class ColorBlend
 
 | Имя | Описание |
 | --- | --- |
-| [ColorBlend](colorblend#constructor)() | Инициализирует новый экземпляр класса[`ColorBlend`](../colorblend). |
-| [ColorBlend](colorblend#constructor_1)(int) | Инициализирует новый экземпляр класса[`ColorBlend`](../colorblend)с указанным количеством цветов и позиций. |
+| [ColorBlend](colorblend#constructor)() | Инициализирует новый экземпляр[`ColorBlend`](../colorblend) класс. |
+| [ColorBlend](colorblend#constructor_1)(int) | Инициализирует новый экземпляр[`ColorBlend`](../colorblend) класс с указанным количеством цветов и позиций. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Colors](../../aspose.imaging/colorblend/colors) { get; set; } | Получает или задает массив цветов, который представляет цвета, используемые в соответствующих позициях вдоль градиента. |
+| [Colors](../../aspose.imaging/colorblend/colors) { get; set; } | Получает или задает массив цветов, представляющий цвета, используемые в соответствующих позициях на градиенте. |
 | [Positions](../../aspose.imaging/colorblend/positions) { get; set; } | Получает или задает позиции вдоль линии градиента. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.imaging/colorblend/equals)(object) | Проверяет, является ли указанный объект классом[`ColorBlend`](../colorblend)и эквивалентен этому[`ColorBlend`](../colorblend)class. |
+| override [Equals](../../aspose.imaging/colorblend/equals)(object) | Проверяет, является ли указанный объект[`ColorBlend`](../colorblend) класс и эквивалентен этому[`ColorBlend`](../colorblend) класс. |
 | override [GetHashCode](../../aspose.imaging/colorblend/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
 
 ### Смотрите также

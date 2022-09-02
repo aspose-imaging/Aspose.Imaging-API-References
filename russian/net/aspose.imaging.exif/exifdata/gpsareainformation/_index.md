@@ -1,14 +1,14 @@
 ---
 title: GPSAreaInformation
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает информацию об области GPS.
+description: Получает или устанавливает информацию о зоне GPS.
 type: docs
 weight: 380
 url: /ru/net/aspose.imaging.exif/exifdata/gpsareainformation/
 ---
 ## ExifData.GPSAreaInformation property
 
-Получает или задает информацию об области GPS.
+Получает или устанавливает информацию о зоне GPS.
 
 ```csharp
 public byte[] GPSAreaInformation { get; set; }

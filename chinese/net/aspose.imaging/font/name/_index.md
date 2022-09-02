@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取此Fontaspose.imaging/font的人脸名称
+description: 获取此人脸名称Fontaspose.imaging/font .
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging/font/name/
 ---
 ## Font.Name property
 
-获取此[`Font`](../../font)的人脸名称。
+获取此人脸名称[`Font`](../../font) .
 
 ```csharp
 public string Name { get; }
@@ -16,7 +16,7 @@ public string Name { get; }
 
 ### 适当的价值
 
-此[`Font`](../../font)的人脸名称的字符串表示。
+此人脸名称的字符串表示形式[`Font`](../../font).
 
 ### 也可以看看
 

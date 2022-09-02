@@ -1,14 +1,14 @@
 ---
 title: Reset
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Сбрасывает папку шрифтов и имя шрифта по умолчанию на системные значения по умолчанию.
+description: Сбрасывает папку шрифтов и имя шрифта по умолчанию на системное значение по умолчанию.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging/fontsettings/reset/
 ---
 ## FontSettings.Reset method
 
-Сбрасывает папку шрифтов и имя шрифта по умолчанию на системные значения по умолчанию.
+Сбрасывает папку шрифтов и имя шрифта по умолчанию на системное значение по умолчанию.
 
 ```csharp
 public static void Reset()

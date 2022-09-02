@@ -1,14 +1,14 @@
 ---
 title: BlockHeaderSize
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Задает размер заголовка блока.
+description: Определяет размер заголовка блока.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/blockheadersize/
 ---
 ## GifApplicationExtensionBlock.BlockHeaderSize field
 
-Задает размер заголовка блока.
+Определяет размер заголовка блока.
 
 ```csharp
 public const int BlockHeaderSize;

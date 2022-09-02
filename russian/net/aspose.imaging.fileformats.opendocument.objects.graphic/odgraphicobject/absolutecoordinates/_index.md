@@ -1,14 +1,14 @@
 ---
 title: AbsoluteCoordinates
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее используются ли абсолютные координаты.
+description: Получает или задает значение указывающее являются ли абсолютные координаты.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates/
 ---
 ## OdGraphicObject.AbsoluteCoordinates property
 
-Получает или задает значение, указывающее, используются ли [абсолютные координаты].
+Получает или задает значение, указывающее, являются ли [абсолютные координаты].
 
 ```csharp
 public bool AbsoluteCoordinates { get; set; }
@@ -16,7 +16,7 @@ public bool AbsoluteCoordinates { get; set; }
 
 ### Стоимость имущества
 
-` true` if [абсолютные координаты]; в противном случае` false` .
+`истинный` если [абсолютные координаты]; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

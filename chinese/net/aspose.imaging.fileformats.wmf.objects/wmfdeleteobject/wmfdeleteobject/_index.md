@@ -1,14 +1,14 @@
 ---
 title: WmfDeleteObject
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化WmfDeleteObjectaspose.imaging.fileformats.wmf.objects/wmfdeleteobject类的新实例
+description: 初始化WmfDeleteObjectaspose.imaging.fileformats.wmf.objects/wmfdeleteobject类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfdeleteobject/wmfdeleteobject/
 ---
 ## WmfDeleteObject(WmfGraphicObject) {#constructor_1}
 
-初始化[`WmfDeleteObject`](../../wmfdeleteobject)类的新实例。
+初始化[`WmfDeleteObject`](../../wmfdeleteobject)类.
 
 ```csharp
 public WmfDeleteObject(WmfGraphicObject deletedObject)
@@ -29,7 +29,7 @@ public WmfDeleteObject(WmfGraphicObject deletedObject)
 
 ## WmfDeleteObject() {#constructor}
 
-初始化[`WmfDeleteObject`](../../wmfdeleteobject)类的新实例。
+初始化[`WmfDeleteObject`](../../wmfdeleteobject)类.
 
 ```csharp
 public WmfDeleteObject()
@@ -53,7 +53,7 @@ using (Aspose.Imaging.FileFormats.Emf.MetaImage image = (Aspose.Imaging.FileForm
 }
 
 /// <summary>
-    /// 改变 WMF 背景的辅助方法。 
+/// 改变 WMF 背景的辅助方法。 
 /// </summary>
 public static void AddBackgroundRectangleWmf(Aspose.Imaging.FileFormats.Wmf.WmfImage image, Aspose.Imaging.Color color)
 {
@@ -63,22 +63,22 @@ public static void AddBackgroundRectangleWmf(Aspose.Imaging.FileFormats.Wmf.WmfI
         return;
     }
 
-        //设置Rectangle
+    //设置矩形
     Aspose.Imaging.FileFormats.Wmf.Objects.WmfRectangle rectangle = new Aspose.Imaging.FileFormats.Wmf.Objects.WmfRectangle();
     rectangle.Rectangle = image.FrameBounds;
 
-        //设置画笔
+    //设置画笔
     Aspose.Imaging.FileFormats.Wmf.Objects.WmfCreateBrushInDirect brush = new Aspose.Imaging.FileFormats.Wmf.Objects.WmfCreateBrushInDirect();
     brush.LogBrush = new Aspose.Imaging.FileFormats.Emf.Emf.Objects.EmfLogBrushEx();
     brush.LogBrush.Argb32ColorRef = color.ToArgb();
 
-        //选择brush
+    //选择画笔
     Aspose.Imaging.FileFormats.Wmf.Objects.WmfSelectObject selectObject = new Aspose.Imaging.FileFormats.Wmf.Objects.WmfSelectObject(brush);
 
-        //移除brush
+    //删除画笔
     Aspose.Imaging.FileFormats.Wmf.Objects.WmfDeleteObject deleteObject = new Aspose.Imaging.FileFormats.Wmf.Objects.WmfDeleteObject(brush);
 
-        //添加记录
+    //添加记录
     image.Records.Insert(0, brush);
     image.Records.Insert(1, selectObject);
     image.Records.Insert(2, rectangle);

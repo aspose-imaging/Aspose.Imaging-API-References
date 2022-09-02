@@ -1,14 +1,14 @@
 ---
 title: Caption
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает заголовок формата данных пикселей.
+description: Получает заголовок формата пиксельных данных.
 type: docs
 weight: 300
 url: /ru/net/aspose.imaging/pixeldataformat/caption/
 ---
 ## PixelDataFormat.Caption property
 
-Получает заголовок формата данных пикселей.
+Получает заголовок формата пиксельных данных.
 
 ```csharp
 public string Caption { get; }

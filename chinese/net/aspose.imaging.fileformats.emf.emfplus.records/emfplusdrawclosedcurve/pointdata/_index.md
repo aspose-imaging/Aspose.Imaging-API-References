@@ -1,14 +1,14 @@
 ---
 title: PointData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置点数据 Count 点数组指定定义样条线的线的端点在闭合基数样条中 曲线继续通过 PointData 数组中的最后一个点并与数组中的第一个点相连 该数组中的数据类型由 Flags 字段指定如下所示数据类型含义 EmfPlusPointR 对象第 2.2.2.37 节 If P标志在Flags中设置点指定相对位置 EmfPlusPointF 对象第 2.2.2.36 节 如果在标志字段中设置了 P 和 C 位则这些点指定绝对位置 EmfPlusPoint 对象第 2.2.2.35 节 如果 P 位被清除并且在标志字段中设置了 C 位则这些点指定相对位置
+description: 获取或设置点 data Count 点数组指定定义样条线的线的端点在闭合基数样条中 曲线继续通过 PointData 数组中的最后一个点并与数组中的第一个点相连 此数组中的数据类型由 Flags 字段指定如下所示 数据类型含义 EmfPlusPointR对象第 2.2.2.37 节 如果在标志中设置了 P 标志则点指定相对位置 EmfPlusPointF 对象第 2.2.2.36 节 如果在标志字段中设置了 P 和 C 位则点指定绝对位置 EmfPlusPoint 对象第 2.2.2.35 节 如果 P 位清零并且在标志字段中设置了 C 位则这些点指定相对位置
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawclosedcurve/pointdata/
 ---
 ## EmfPlusDrawClosedCurve.PointData property
 
-获取或设置点数据 Count 点数组，指定定义样条线的线的端点。在闭合基数样条中， 曲线继续通过 PointData 数组中的最后一个点并与数组中的第一个点相连。 该数组中的数据类型由 Flags 字段指定，如下所示:数据类型含义 EmfPlusPointR 对象（第 2.2.2.37 节） If P标志在Flags中设置，点指定相对位置。 EmfPlusPointF 对象（第 2.2.2.36 节） 如果在标志字段中设置了 P 和 C 位，则这些点指定绝对位置。 EmfPlusPoint 对象（第 2.2.2.35 节） 如果 P 位被清除并且在标志字段中设置了 C 位，则这些点指定相对位置。
+获取或设置点 data Count 点数组，指定定义样条线的线的端点。在闭合基数样条中， 曲线继续通过 PointData 数组中的最后一个点并与数组中的第一个点相连。 此数组中的数据类型由 Flags 字段指定，如下所示： 数据类型含义 EmfPlusPointR对象（第 2.2.2.37 节） 如果在标志中设置了 P 标志，则点指定相对位置。 EmfPlusPointF 对象（第 2.2.2.36 节） 如果在标志字段中设置了 P 和 C 位，则点指定绝对位置。 EmfPlusPoint 对象（第 2.2.2.35 节） 如果 P 位清零并且在标志字段中设置了 C 位，则这些点指定相对位置。
 
 ```csharp
 public PointF[] PointData { get; set; }

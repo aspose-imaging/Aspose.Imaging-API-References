@@ -1,14 +1,14 @@
 ---
 title: XmpDate
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаXmpDateaspose.imaging.xmp.types.basic/xmpdate.
+description: Инициализирует новый экземплярXmpDateaspose.imaging.xmp.types.basic/xmpdate класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp.types.basic/xmpdate/xmpdate/
 ---
 ## XmpDate(DateTime) {#constructor}
 
-Инициализирует новый экземпляр класса[`XmpDate`](../../xmpdate).
+Инициализирует новый экземпляр[`XmpDate`](../../xmpdate) класс.
 
 ```csharp
 public XmpDate(DateTime dateTime)
@@ -28,7 +28,7 @@ public XmpDate(DateTime dateTime)
 
 ## XmpDate(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`XmpDate`](../../xmpdate).
+Инициализирует новый экземпляр[`XmpDate`](../../xmpdate) класс.
 
 ```csharp
 public XmpDate(string dateString)

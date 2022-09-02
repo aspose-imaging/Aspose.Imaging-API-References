@@ -20,7 +20,7 @@ public static bool IsSingleFormatDefined(FileFormat fileFormat)
 
 ### 返回值
 
-` True` 如果定义了单个文件格式；否则，` false` 。
+`真的`如果定义了单个文件格式；否则，`错误的` .
 
 ### 也可以看看
 

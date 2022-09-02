@@ -8,7 +8,7 @@ url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/te
 ---
 ## GifPlainTextRenderingBlock.TextGridHeight property
 
-获取或设置文本网格高度（以像素为单位）
+获取或设置文本网格高度，以像素为单位
 
 ```csharp
 public ushort TextGridHeight { get; set; }
@@ -16,7 +16,7 @@ public ushort TextGridHeight { get; set; }
 
 ### 适当的价值
 
-文本网格高度（以像素为单位）。
+以像素为单位的文本网格高度。
 
 ### 也可以看看
 

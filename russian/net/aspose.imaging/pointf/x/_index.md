@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает координату x этогоPointFaspose.imaging/pointf.
+description: Получает или задает координату x этогоPointFaspose.imaging/pointf .
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging/pointf/x/
 ---
 ## PointF.X property
 
-Получает или задает координату x этого[`PointF`](../../pointf).
+Получает или задает координату x этого[`PointF`](../../pointf) .
 
 ```csharp
 public float X { get; set; }

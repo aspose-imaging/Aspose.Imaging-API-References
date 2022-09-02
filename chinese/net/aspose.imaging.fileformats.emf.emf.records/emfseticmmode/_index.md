@@ -18,19 +18,19 @@ public sealed class EmfSetIcmMode : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSetIcmMode](emfseticmmode)(EmfRecord) | 初始化[`EmfSetIcmMode`](../emfseticmmode)类的新实例。 |
+| [EmfSetIcmMode](emfseticmmode)(EmfRecord) | 初始化[`EmfSetIcmMode`](../emfseticmmode)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IcmMode](../../aspose.imaging.fileformats.emf.emf.records/emfseticmmode/icmmode) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定是启用还是禁用 ICM， 从 ICMMode 枚举（第 2.1.18 节） .该值是 播放设备上下文状态的一部分。 |
+| [IcmMode](../../aspose.imaging.fileformats.emf.emf.records/emfseticmmode/icmmode) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定是启用还是禁用 ICM， 从 ICMMode 枚举（第 2.1.18 节）。该值是 播放设备上下文状态的一部分。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 
 ### 评论
 
-当启用 ICM 模式时，EMF 记录中指定的颜色应该是颜色匹配的，而::当位块传输是 执行时，应该使用播放设备上下文中的默认颜色配置文件:47:::。如果不需要默认颜色配置文件，ICM 模式应该在 执行位块传输之前关闭。
+当启用 ICM 模式时，EMF 记录中指定的颜色应该是颜色匹配的，而播放设备上下文中的 默认颜色配置文件应该在执行位块传输时使用 。如果不需要默认颜色配置文件，ICM 模式应该在 执行位块传输之前关闭。
 
 ### 也可以看看
 

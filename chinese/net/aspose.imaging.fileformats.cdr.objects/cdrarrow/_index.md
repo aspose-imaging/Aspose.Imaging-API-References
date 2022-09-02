@@ -24,18 +24,18 @@ public class CdrArrow : CdrDictionaryItem
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示该实例是否被释放。 |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示此实例是否被释放。 |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | 获取或设置文档。 |
 | [Id](../../aspose.imaging.fileformats.cdr.objects/cdrdictionaryitem/id) { get; set; } | 获取或设置标识符。 |
 | [Parent](../../aspose.imaging.fileformats.cdr.objects/cdrobject/parent) { get; set; } | 获取或设置父级。 |
-| [Points](../../aspose.imaging.fileformats.cdr.objects/cdrarrow/points) { get; set; } | 获取或设置点。 |
+| [Points](../../aspose.imaging.fileformats.cdr.objects/cdrarrow/points) { get; set; } | 获取或设置点数。 |
 | [PointTypes](../../aspose.imaging.fileformats.cdr.objects/cdrarrow/pointtypes) { get; set; } | 获取或设置点类型。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 释放当前实例。 |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 处理当前实例。 |
 
 ### 也可以看看
 

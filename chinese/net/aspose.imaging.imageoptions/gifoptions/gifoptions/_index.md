@@ -1,14 +1,14 @@
 ---
 title: GifOptions
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化GifOptionsaspose.imaging.imageoptions/gifoptions类的新实例
+description: 初始化GifOptionsaspose.imaging.imageoptions/gifoptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.imageoptions/gifoptions/gifoptions/
 ---
 ## GifOptions() {#constructor}
 
-初始化[`GifOptions`](../../gifoptions)类的新实例。
+初始化[`GifOptions`](../../gifoptions)类.
 
 ```csharp
 public GifOptions()
@@ -24,7 +24,7 @@ public GifOptions()
 
 ## GifOptions(GifOptions) {#constructor_1}
 
-初始化[`GifOptions`](../../gifoptions)类的新实例。
+初始化[`GifOptions`](../../gifoptions)类.
 
 ```csharp
 public GifOptions(GifOptions gifOptions)
@@ -32,7 +32,7 @@ public GifOptions(GifOptions gifOptions)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| gifOptions | GifOptions | GIF 选项。 |
+| gifOptions | GifOptions | GIF 选项. |
 
 ### 也可以看看
 

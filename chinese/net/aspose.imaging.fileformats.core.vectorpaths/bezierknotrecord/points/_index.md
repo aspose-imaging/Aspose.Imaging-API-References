@@ -1,14 +1,14 @@
 ---
 title: Points
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置点
+description: 获取或设置点数
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/points/
 ---
 ## BezierKnotRecord.Points property
 
-获取或设置点。
+获取或设置点数。
 
 ```csharp
 public Point[] Points { get; set; }
@@ -16,7 +16,7 @@ public Point[] Points { get; set; }
 
 ### 适当的价值
 
-点。
+点数。
 
 ### 也可以看看
 

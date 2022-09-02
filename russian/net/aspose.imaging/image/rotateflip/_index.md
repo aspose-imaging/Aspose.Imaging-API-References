@@ -16,37 +16,27 @@ public abstract void RotateFlip(RotateFlipType rotateFlipType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rotateFlipType | RotateFlipType | Тип флипа с поворотом. |
+| rotateFlipType | RotateFlipType | Тип поворотного флипа. |
 
 ### Примеры
 
-Этот пример демонстрирует использование операции поворота изображения. Пример загружает существующий файл изображения из некоторого места на диске и выполняет операцию поворота изображения в соответствии со значением Enum Aspose.Imaging.RotateFlipType
+Этот пример демонстрирует использование операции поворота изображения. Пример загружает существующий файл изображения из некоторого места на диске и выполняет операцию поворота изображения в соответствии со значением Enum Aspose.Imaging.RotateFlipType.
 
 ```csharp
 [C#]
 
-string dir = "c:\\temp\\";
-
-Aspose.Imaging.RotateFlipType[] rotateFlipTypes = new Aspose.Imaging.RotateFlipType[]
+//Создаем экземпляр класса изображения и инициализируем его существующим файлом изображения через путь к файлу
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"C:\temp\sample.bmp"))
 {
-    Aspose.Imaging.RotateFlipType.Rotate90FlipNone,
-    Aspose.Imaging.RotateFlipType.Rotate90FlipX,
-    Aspose.Imaging.RotateFlipType.Rotate90FlipXY,
-    Aspose.Imaging.RotateFlipType.Rotate90FlipY,
-};
+    // Поворачиваем изображение на 180 градусов вокруг оси X
+    image.RotateFlip(Aspose.Imaging.RotateFlipType.Rotate180FlipX);
 
-foreach (Aspose.Imaging.RotateFlipType rotateFlipType in rotateFlipTypes)
-{
-     // Повернуть, отразить и сохранить в выходной файл.
-    using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
-    {
-        image.RotateFlip(rotateFlipType);
-        image.Save(dir + "sample." + rotateFlipType + ".bmp");
-    }
+    // сохранить все изменения.
+    image.Save();
 }
 ```
 
-В этом примере загружается изображение , поворачивает его на 90 градусов по часовой стрелке и при необходимости переворачивает изображение по горизонтали и (или) по вертикали.
+Этот пример загружает изображение, поворачивает его на 90 градусов по часовой стрелке и, при необходимости, переворачивает изображение по горизонтали и (или) по вертикали.
 
 ```csharp
 [C#]
@@ -63,7 +53,7 @@ Aspose.Imaging.RotateFlipType[] rotateFlipTypes = new Aspose.Imaging.RotateFlipT
 
 foreach (Aspose.Imaging.RotateFlipType rotateFlipType in rotateFlipTypes)
 {
-     // Повернуть, отразить и сохранить в выходной файл.
+    // Повернуть, отразить и сохранить в выходной файл.
     using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
     {
         image.RotateFlip(rotateFlipType);

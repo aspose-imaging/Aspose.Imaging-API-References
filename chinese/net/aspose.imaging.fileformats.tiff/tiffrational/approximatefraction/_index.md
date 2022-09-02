@@ -16,12 +16,12 @@ public static TiffRational ApproximateFraction(double value, double epsilon)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Double | 值。 |
+| value | Double | 价值。 |
 | epsilon | Double | 允许的错误。 |
 
 ### 返回值
 
-误差小于*epsilon*的有理数。
+误差小于的有理数*epsilon*.
 
 ### 也可以看看
 
@@ -41,11 +41,11 @@ public static TiffRational ApproximateFraction(double value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Double | 值。 |
+| value | Double | 价值。 |
 
 ### 返回值
 
-误差小于:::R5:F:Aspose.Imaging.FileFormats.Tiff.TiffRational.Epsilon::的有理数:.
+误差小于的有理数[`Epsilon`](../epsilon) .
 
 ### 也可以看看
 
@@ -65,12 +65,12 @@ public static TiffRational ApproximateFraction(float value, double epsilon)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Single | 值。 |
+| value | Single | 价值。 |
 | epsilon | Double | 允许的错误。 |
 
 ### 返回值
 
-误差小于*epsilon*的有理数。
+误差小于的有理数*epsilon*.
 
 ### 也可以看看
 
@@ -90,11 +90,11 @@ public static TiffRational ApproximateFraction(float value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Single | 值。 |
+| value | Single | 价值。 |
 
 ### 返回值
 
-误差小于:::R5:F:Aspose.Imaging.FileFormats.Tiff.TiffRational.Epsilon::的有理数:.
+误差小于的有理数[`Epsilon`](../epsilon) .
 
 ### 也可以看看
 

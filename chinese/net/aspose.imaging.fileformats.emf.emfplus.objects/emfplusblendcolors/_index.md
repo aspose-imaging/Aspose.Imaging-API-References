@@ -1,14 +1,14 @@
 ---
 title: EmfPlusBlendColors
 second_title: Aspose.Imaging for .NET API 参考
-description: EmfPlusBlendColors 对象指定渐变画笔混合图案的位置和颜色
+description: EmfPlusBlendColors 对象为渐变画笔的混合图案指定位置和颜色
 type: docs
 weight: 5200
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendcolors/
 ---
 ## EmfPlusBlendColors class
 
-EmfPlusBlendColors 对象指定渐变画笔混合图案的位置和颜色。
+EmfPlusBlendColors 对象为渐变画笔的混合图案指定位置和颜色。
 
 ```csharp
 public sealed class EmfPlusBlendColors : EmfPlusBlendBase
@@ -25,7 +25,7 @@ public sealed class EmfPlusBlendColors : EmfPlusBlendBase
 | 姓名 | 描述 |
 | --- | --- |
 | [BlendArgb32Colors](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendcolors/blendargb32colors) { get; set; } | 获取或设置一个 PositionCount EmfPlusARGB 对象数组（第 2.2.2.1 节）， 在 BlendPositions 字段中定义的位置指定颜色。 |
-| [BlendPositions](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendbase/blendpositions) { get; set; } | 获取或设置混合位置 PositionCount 32 位浮点值数组 指定距离比例沿着渐变线。 每个元素必须是介于 0.0 和 1.0 之间的数字。 对于线性渐变画笔，0.0 代表起点 ，1.0 代表终点。对于路径渐变画笔， 0.0 代表中点，1.0 代表端点 |
+| [BlendPositions](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendbase/blendpositions) { get; set; } | 获取或设置混合位置 PositionCount 32 位浮点值数组 指定沿梯度线的距离比例。 每个元素必须是介于 0.0 和 1.0 之间的数字。 对于线性渐变画笔，0.0 代表起点 ，1.0 代表终点。对于路径渐变画笔， 0.0 代表中点，1.0 代表端点 |
 
 ### 也可以看看
 

@@ -20,16 +20,16 @@ public static bool CanLoad(string filePath)
 
 ### Возвращаемое значение
 
-` true` если изображение можно загрузить из указанного файла; в противном случае` false` .
+`истинный` можно ли загрузить изображение из указанного файла; в противном случае,`ЛОЖЬ` .
 
 ### Примеры
 
-Этот пример определяет, можно ли загрузить изображение из файла.
+В этом примере определяется, можно ли загрузить изображение из файла.
 
 ```csharp
 [C#]
 
- // Использовать абсолютный путь к файлу file
+// Использовать абсолютный путь к файлу
 bool canLoad = Aspose.Imaging.Image.CanLoad(@"c:\temp\sample.gif");
 ```
 
@@ -43,7 +43,7 @@ bool canLoad = Aspose.Imaging.Image.CanLoad(@"c:\temp\sample.gif");
 
 ## CanLoad(string, LoadOptions) {#canload_3}
 
-Определяет, может ли изображение быть загружено из указанного пути к файлу и, возможно, с использованием указанных параметров открытия.
+Определяет, может ли изображение быть загружено из указанного пути к файлу и, при необходимости, с использованием указанных параметров открытия.
 
 ```csharp
 public static bool CanLoad(string filePath, LoadOptions loadOptions)
@@ -56,7 +56,7 @@ public static bool CanLoad(string filePath, LoadOptions loadOptions)
 
 ### Возвращаемое значение
 
-` true` если изображение можно загрузить из указанного файла; в противном случае` false` .
+`истинный` можно ли загрузить изображение из указанного файла; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 
@@ -81,11 +81,11 @@ public static bool CanLoad(Stream stream)
 
 ### Возвращаемое значение
 
-` true` если изображение можно загрузить из указанного потока; в противном случае` false` .
+`истинный` можно ли загрузить изображение из указанного потока; в противном случае,`ЛОЖЬ` .
 
 ### Примеры
 
-Этот пример определяет, может ли изображение быть загружено из файлового потока.
+В этом примере определяется, можно ли загрузить изображение из файлового потока.
 
 ```csharp
 [C#]
@@ -94,13 +94,13 @@ string dir = "c:\\temp\\";
 
 bool canLoad;
 
- // Используем файл stream
+// Использовать файловый поток
 using (System.IO.FileStream stream = System.IO.File.OpenRead(dir + "sample.bmp"))
 {
     canLoad = Aspose.Imaging.Image.CanLoad(stream);
 }
 
- // Следующие данные не являются допустимым потоком изображений, поэтому CanLoad возвращает false.
+// Следующие данные не являются допустимым потоком изображений, поэтому CanLoad возвращает false.
 byte[] imageData = new byte[] { 0, 0, 0, 0, 0, 0, 0, 0 };
 using (System.IO.MemoryStream stream = new System.IO.MemoryStream(imageData))
 {
@@ -118,7 +118,7 @@ using (System.IO.MemoryStream stream = new System.IO.MemoryStream(imageData))
 
 ## CanLoad(Stream, LoadOptions) {#canload_1}
 
-Определяет, может ли изображение быть загружено из указанного потока и, при необходимости, с помощью указанного*loadOptions*.
+Определяет, может ли изображение быть загружено из указанного потока и, возможно, с использованием указанного*loadOptions* .
 
 ```csharp
 public static bool CanLoad(Stream stream, LoadOptions loadOptions)
@@ -131,7 +131,7 @@ public static bool CanLoad(Stream stream, LoadOptions loadOptions)
 
 ### Возвращаемое значение
 
-` true` если изображение можно загрузить из указанного потока; в противном случае` false` .
+`истинный` можно ли загрузить изображение из указанного потока; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

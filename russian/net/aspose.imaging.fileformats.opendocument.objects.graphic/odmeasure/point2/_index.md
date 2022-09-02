@@ -1,14 +1,14 @@
 ---
 title: Point2
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает точку2.
+description: Получает или задает точку2.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odmeasure/point2/
 ---
 ## OdMeasure.Point2 property
 
-Получает или устанавливает точку2.
+Получает или задает точку2.
 
 ```csharp
 public PointF Point2 { get; set; }

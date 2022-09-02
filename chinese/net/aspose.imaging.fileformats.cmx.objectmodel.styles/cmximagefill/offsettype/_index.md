@@ -1,14 +1,14 @@
 ---
 title: OffsetType
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置相邻瓦片之间的偏移量类型
+description: 获取或设置相邻瓦片之间的偏移类型
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/offsettype/
 ---
 ## CmxImageFill.OffsetType property
 
-获取或设置相邻瓦片之间的偏移量类型。
+获取或设置相邻瓦片之间的偏移类型。
 
 ```csharp
 public TileOffsetTypes OffsetType { get; set; }

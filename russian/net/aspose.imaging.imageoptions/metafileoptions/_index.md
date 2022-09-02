@@ -3,7 +3,7 @@ title: MetafileOptions
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Базовые параметры метафайлов.
 type: docs
-weight: 10050
+weight: 10040
 url: /ru/net/aspose.imaging.imageoptions/metafileoptions/
 ---
 ## MetafileOptions class
@@ -24,15 +24,15 @@ public class MetafileOptions : ImageOptionsBase
 
 | Имя | Описание |
 | --- | --- |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Получает или устанавливает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
-| [Compress](../../aspose.imaging.imageoptions/metafileoptions/compress) { get; set; } | Получает или задает значение, указывающее, сжат ли этот файлICompressedOptions. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Получает или задает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
+| [Compress](../../aspose.imaging.imageoptions/metafileoptions/compress) { get; set; } | Получает или задает значение, указывающее, является ли этоICompressedOptions сжат. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | Получает или задает значение, указывающее, является ли [полный кадр]. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | Многостраничные параметры |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Получает или задает цветовую палитру. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Получает или задает обработчик события выполнения. |
 | virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Получает или задает параметры разрешения. |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Получает или задает источник для создания изображения. |
+| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Получает или задает источник для создания изображения в. |
 | [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Получает или задает параметры векторной растеризации. |
 | virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata) { get; set; } | Получает или задает контейнер метаданных XMP. |
 

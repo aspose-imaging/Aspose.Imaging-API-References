@@ -3,7 +3,7 @@ title: DublinCorePackage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11290
+weight: 11310
 url: /net/aspose.imaging.xmp.schemas.dublincore/dublincorepackage/
 ---
 ## DublinCorePackage class

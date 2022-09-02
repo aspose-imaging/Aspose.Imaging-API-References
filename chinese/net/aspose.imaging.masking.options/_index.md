@@ -17,12 +17,12 @@ url: /zh/net/aspose.imaging.masking.options/
 | [AutoMaskingGraphCutOptions](./automaskinggraphcutoptions) | GraphCut 自动屏蔽选项。 |
 | [GraphCutMaskingOptions](./graphcutmaskingoptions) | GraphCut 自动屏蔽选项。 |
 | [ManualMaskingArgs](./manualmaskingargs) | 表示为手动屏蔽方法指定的参数 |
-| [MaskingOptions](./maskingoptions) | 表示常用的图像遮罩选项。 |
+| [MaskingOptions](./maskingoptions) | 代表常用的图像遮罩选项。 |
 ## 接口
 
 | 界面 | 描述 |
 | --- | --- |
-| [IMaskingArgs](./imaskingargs) | 掩码参数 |
+| [IMaskingArgs](./imaskingargs) | 掩蔽参数 |
 ## 枚举
 
 | 枚举 | 描述 |

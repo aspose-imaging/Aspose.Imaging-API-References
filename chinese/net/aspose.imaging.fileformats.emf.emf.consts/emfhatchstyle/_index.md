@@ -19,17 +19,17 @@ public enum EmfHatchStyle
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | HS_HORIZONTAL | `0` | 水平舱口。 |
-| HS_VERTICAL | `1` | 垂直阴影。 |
-| HS_FDIAGONAL | `2` | 向下 45 度，从左到右的阴影。 |
-| HS_BDIAGONAL | `3` | 向上 45 度，从左到右的阴影。 |
+| HS_VERTICAL | `1` | 垂直舱口。 |
+| HS_FDIAGONAL | `2` | 向下 45 度，从左到右的阴影线。 |
+| HS_BDIAGONAL | `3` | 向上 45 度，从左到右的阴影线。 |
 | HS_CROSS | `4` | 水平和垂直交叉影线。 |
 | HS_DIAGCROSS | `5` | 45 度剖面线。 |
 | HS_SOLIDCLR | `6` | 影线不是图案，而是纯色。 |
 | HS_DITHEREDCLR | `7` | 影线不是图案，而是纯色。 |
-| HS_SOLIDTEXTCLR | `8` | 影线不是图案，而是纯色，由当前文本（前景）颜色定义 |
+| HS_SOLIDTEXTCLR | `8` | 影线不是图案，而是纯色，由当前文本（前景）定义 color |
 | HS_DITHEREDTEXTCLR | `9` | 阴影不是图案，而是一种抖动颜色，由当前文本（前景）颜色定义。 |
-| HS_SOLIDBKCLR | `10` | 阴影不是图案，而是纯色，由当前背景色定义 |
-| HS_DITHEREDBKCLR | `11` | 阴影不是图案，而是由当前背景颜色定义的抖动颜色。 |
+| HS_SOLIDBKCLR | `10` | 影线不是图案，而是纯色，由当前背景色定义 |
+| HS_DITHEREDBKCLR | `11` | 阴影不是图案，而是一种抖动的颜色，由当前背景颜色定义。 |
 
 ### 也可以看看
 

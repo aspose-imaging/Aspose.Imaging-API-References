@@ -10,7 +10,7 @@ url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcreatebrushindirect/
 
 Запись EMR_CREATEBRUSHINDIRECT определяет логическую кисть для графических операций.
 
-Объект логической кисти, определенный этой записью, может быть выбран в контексте устройства воспроизведения с помощью запись EMR_SELECTOBJECT (раздел 2.3.8.5), которая определяет логическую кисть для использования в последующих графических операциях.
+Объект логической кисти, определенный этой записью, может быть выбран в контексте устройства воспроизведения с помощью записи EMR_SELECTOBJECT (раздел 2.3.8.5), которая определяет логическую кисть для использования в последующих графических операциях.
 
 ```csharp
 public sealed class EmfCreateBrushIndirect : EmfObjectCreationRecordType
@@ -20,16 +20,16 @@ public sealed class EmfCreateBrushIndirect : EmfObjectCreationRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfCreateBrushIndirect](emfcreatebrushindirect#constructor)() | Инициализирует новый экземпляр класса[`EmfCreateBrushIndirect`](../emfcreatebrushindirect). |
-| [EmfCreateBrushIndirect](emfcreatebrushindirect#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfCreateBrushIndirect`](../emfcreatebrushindirect). |
+| [EmfCreateBrushIndirect](emfcreatebrushindirect#constructor)() | Инициализирует новый экземпляр[`EmfCreateBrushIndirect`](../emfcreatebrushindirect) класс. |
+| [EmfCreateBrushIndirect](emfcreatebrushindirect#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfCreateBrushIndirect`](../emfcreatebrushindirect) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [IhBrush](../../aspose.imaging.fileformats.emf.emf.records/emfcreatebrushindirect/ihbrush) { get; set; } | Получает или устанавливает 32-разрядное целое число без знака, указывающее индекс объекта логической кисти в таблице объектов EMF (раздел 3.1.1.1). ). Этот индекс ДОЛЖЕН быть сохранен, чтобы этот объект можно было повторно использовать или модифицировать. |
-| [LogBrush](../../aspose.imaging.fileformats.emf.emf.records/emfcreatebrushindirect/logbrush) { get; set; } | Получает или задает Объект LogBrushEx (раздел 2.2.12), определяющий стиль, цвет и шаблон логической кисти. Поле BrushStyle в этом объекте ДОЛЖНО быть BS_SOLID, BS_HATCHED или BS_NULL. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [IhBrush](../../aspose.imaging.fileformats.emf.emf.records/emfcreatebrushindirect/ihbrush) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс логической кисти object в таблице объектов EMF (раздел 3.1.1.1). Этот индекс ДОЛЖЕН быть сохранен, чтобы этот объект можно было повторно использовать или модифицировать. |
+| [LogBrush](../../aspose.imaging.fileformats.emf.emf.records/emfcreatebrushindirect/logbrush) { get; set; } | Получает или задает объект LogBrushEx (раздел 2.2.12), определяющий стиль, цвет и шаблон логической кисти. Поле BrushStyle в этом объекте ДОЛЖНО быть BS_SOLID, BS_HATCHED или BS_NULL. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

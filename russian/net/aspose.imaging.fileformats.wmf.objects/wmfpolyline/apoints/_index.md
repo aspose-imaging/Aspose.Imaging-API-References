@@ -1,14 +1,14 @@
 ---
 title: APoints
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает точки. Массив NumberOfPoints 32-битных объектов PointS в логических единицах.
+description: Получает или устанавливает точки. Массив NumberOfPoints из 32-битных объектов PointS в логических единицах.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfpolyline/apoints/
 ---
 ## WmfPolyLine.APoints property
 
-Получает или устанавливает точки. Массив NumberOfPoints 32-битных объектов PointS в логических единицах.
+Получает или устанавливает точки. Массив NumberOfPoints из 32-битных объектов PointS в логических единицах.
 
 ```csharp
 public Point[] APoints { get; set; }
@@ -16,7 +16,7 @@ public Point[] APoints { get; set; }
 
 ### Стоимость имущества
 
-Точки.
+Очки.
 
 ### Смотрите также
 

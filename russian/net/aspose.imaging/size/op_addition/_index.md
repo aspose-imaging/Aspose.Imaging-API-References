@@ -1,14 +1,14 @@
 ---
 title: op_Addition
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Добавляет ширину и высоту однойSizeaspose.imaging/sizeструктуры к ширине и высоте другойSizeaspose.imaging/sizeструктура.
+description: Добавляет ширину и высоту одногоSizeaspose.imaging/size структура по ширине и высоте другойSizeaspose.imaging/size структура.
 type: docs
 weight: 140
 url: /ru/net/aspose.imaging/size/op_addition/
 ---
 ## Size Addition operator
 
-Добавляет ширину и высоту одной[`Size`](../../size)структуры к ширине и высоте другой[`Size`](../../size)структура.
+Добавляет ширину и высоту одного[`Size`](../../size) структура по ширине и высоте другой[`Size`](../../size) структура.
 
 ```csharp
 public static Size operator +(Size size1, Size size2)
@@ -16,12 +16,12 @@ public static Size operator +(Size size1, Size size2)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| size1 | Size | Первый[`Size`](../../size)добавить. |
-| size2 | Size | Второй[`Size`](../../size)добавить. |
+| size1 | Size | Первый[`Size`](../../size) добавить. |
+| size2 | Size | Секунда[`Size`](../../size) добавить. |
 
 ### Возвращаемое значение
 
-A[`Size`](../../size)структура, являющаяся результатом операции сложения.
+А[`Size`](../../size) структура, являющаяся результатом операции сложения.
 
 ### Смотрите также
 

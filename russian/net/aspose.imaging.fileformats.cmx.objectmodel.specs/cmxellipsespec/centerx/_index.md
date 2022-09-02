@@ -1,14 +1,14 @@
 ---
 title: CenterX
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает координату X для центра прямоугольника. Меры в общепринятых единицах расстояния документа.
+description: Получает или задает координату X для центра прямоугольника. Измеряет в общепринятых единицах измерения расстояния документа.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/centerx/
 ---
 ## CmxEllipseSpec.CenterX property
 
-Получает или задает координату X для центра прямоугольника. Меры в общепринятых единицах расстояния документа.
+Получает или задает координату X для центра прямоугольника. Измеряет в общепринятых единицах измерения расстояния документа.
 
 ```csharp
 public float CenterX { get; set; }

@@ -3,7 +3,7 @@ title: IXmlValue
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Преобразует значения xmp в строковое представление XML.
 type: docs
-weight: 11260
+weight: 11250
 url: /ru/net/aspose.imaging.xmp/ixmlvalue/
 ---
 ## IXmlValue interface

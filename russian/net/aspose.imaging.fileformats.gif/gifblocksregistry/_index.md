@@ -25,8 +25,8 @@ public static class GifBlocksRegistry
 | Имя | Описание |
 | --- | --- |
 | static [GetFirstSupportedDescriptor](../../aspose.imaging.fileformats.gif/gifblocksregistry/getfirstsupporteddescriptor)(Stream) | Получает первый поддерживаемый дескриптор открывателя. |
-| static [GetFirstSupportedDescriptorByTypeName](../../aspose.imaging.fileformats.gif/gifblocksregistry/getfirstsupporteddescriptorbytypename)(string) | Получает первый поддерживаемый дескриптор по имени типа. |
-| static [LoadBlockByFirstSupportedDescriptor](../../aspose.imaging.fileformats.gif/gifblocksregistry/loadblockbyfirstsupporteddescriptor)(Stream, IColorPalette) | Загружает блок gif, используя первый найденный открыватель, подходящий для указанного*stream*. |
+| static [GetFirstSupportedDescriptorByTypeName](../../aspose.imaging.fileformats.gif/gifblocksregistry/getfirstsupporteddescriptorbytypename)(string) | Получает первый поддерживаемый дескриптор по имени его типа. |
+| static [LoadBlockByFirstSupportedDescriptor](../../aspose.imaging.fileformats.gif/gifblocksregistry/loadblockbyfirstsupporteddescriptor)(Stream, IColorPalette) | Загружает блок gif, используя первый найденный открыватель, подходящий для указанного*stream* . |
 | static [RegisterOpener](../../aspose.imaging.fileformats.gif/gifblocksregistry/registeropener)(IGifBlockLoaderDescriptor) | Регистрирует открывалку. |
 | static [UnregisterOpener](../../aspose.imaging.fileformats.gif/gifblocksregistry/unregisteropener)(IGifBlockLoaderDescriptor) | Отменяет регистрацию открывателя. |
 

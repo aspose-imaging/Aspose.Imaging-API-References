@@ -1,14 +1,14 @@
 ---
 title: MatrixExtensions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Содержит расширения классаMatrix../aspose.imaging/matrix.
+description: СодержитMatrix../aspose.imaging/matrix расширения класса.
 type: docs
 weight: 1220
 url: /ru/net/aspose.imaging.extensions/matrixextensions/
 ---
 ## MatrixExtensions class
 
-Содержит расширения класса[`Matrix`](../../aspose.imaging/matrix).
+Содержит[`Matrix`](../../aspose.imaging/matrix) расширения класса.
 
 ```csharp
 public static class MatrixExtensions
@@ -18,7 +18,7 @@ public static class MatrixExtensions
 
 | Имя | Описание |
 | --- | --- |
-| static [ToGdiMatrix](../../aspose.imaging.extensions/matrixextensions/togdimatrix)(Matrix) | Преобразует[`Matrix`](../../aspose.imaging/matrix)вMatrix. |
+| static [ToGdiMatrix](../../aspose.imaging.extensions/matrixextensions/togdimatrix)(Matrix) | Преобразует[`Matrix`](../../aspose.imaging/matrix) кMatrix . |
 
 ### Смотрите также
 

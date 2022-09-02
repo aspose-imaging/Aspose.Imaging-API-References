@@ -1,14 +1,14 @@
 ---
 title: XmpArray
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化XmpArrayaspose.imaging.xmp/xmparray类的新实例
+description: 初始化XmpArrayaspose.imaging.xmp/xmparray类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp/xmparray/xmparray/
 ---
 ## XmpArray(XmpArrayType, string[]) {#constructor_1}
 
-初始化[`XmpArray`](../../xmparray)类的新实例。
+初始化[`XmpArray`](../../xmparray)类.
 
 ```csharp
 public XmpArray(XmpArrayType type, string[] items)
@@ -30,7 +30,7 @@ public XmpArray(XmpArrayType type, string[] items)
 
 ## XmpArray(XmpArrayType) {#constructor}
 
-初始化[`XmpArray`](../../xmparray)类的新实例。
+初始化[`XmpArray`](../../xmparray)类.
 
 ```csharp
 public XmpArray(XmpArrayType type)

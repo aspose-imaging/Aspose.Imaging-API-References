@@ -3,7 +3,7 @@ title: RenderResult
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет информацию с результатами рендеринга
 type: docs
-weight: 10190
+weight: 10180
 url: /ru/net/aspose.imaging.imageoptions/renderresult/
 ---
 ## RenderResult class
@@ -24,7 +24,7 @@ public class RenderResult
 
 | Имя | Описание |
 | --- | --- |
-| [Message](../../aspose.imaging.imageoptions/renderresult/message) { get; set; } | Получает или устанавливает строковое сообщение |
+| [Message](../../aspose.imaging.imageoptions/renderresult/message) { get; set; } | Получает или задает строку message |
 | [RenderCode](../../aspose.imaging.imageoptions/renderresult/rendercode) { get; set; } | Получает или устанавливает код ошибки |
 
 ### Смотрите также

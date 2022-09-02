@@ -1,14 +1,14 @@
 ---
 title: FillPath
 second_title: Aspose.Imaging for .NET API 参考
-description: 填充GraphicsPathaspose.imaging/graphicspath的内部
+description: 填充一个内部GraphicsPathaspose.imaging/graphicspath .
 type: docs
 weight: 360
 url: /zh/net/aspose.imaging/graphics/fillpath/
 ---
 ## Graphics.FillPath method
 
-填充[`GraphicsPath`](../../graphicspath)的内部。
+填充一个内部[`GraphicsPath`](../../graphicspath) .
 
 ```csharp
 public void FillPath(Brush brush, GraphicsPath path)
@@ -16,14 +16,14 @@ public void FillPath(Brush brush, GraphicsPath path)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)决定了填充的特性。 |
+| brush | Brush | [`Brush`](../../brush)这决定了填充的特性。 |
 | path | GraphicsPath | [`GraphicsPath`](../../graphicspath)表示要填充的路径。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *brush*为空。 -或- *path*为空。 |
+| ArgumentNullException | *brush*为空。 -或- *path*一片空白。 |
 
 ### 也可以看看
 

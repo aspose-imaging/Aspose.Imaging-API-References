@@ -1,14 +1,14 @@
 ---
 title: EmfMetafileHeader
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfMetafileHeaderaspose.imaging.fileformats.emf.emf.records/emfmetafileheader类的新实例
+description: 初始化EmfMetafileHeaderaspose.imaging.fileformats.emf.emf.records/emfmetafileheader类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/emfmetafileheader/
 ---
 ## EmfMetafileHeader(EmfRecord) {#constructor_2}
 
-初始化[`EmfMetafileHeader`](../../emfmetafileheader)类的新实例。
+初始化[`EmfMetafileHeader`](../../emfmetafileheader)类.
 
 ```csharp
 public EmfMetafileHeader(EmfRecord record)
@@ -29,7 +29,7 @@ public EmfMetafileHeader(EmfRecord record)
 
 ## EmfMetafileHeader() {#constructor}
 
-初始化[`EmfMetafileHeader`](../../emfmetafileheader)类的新实例。
+初始化[`EmfMetafileHeader`](../../emfmetafileheader)类.
 
 ```csharp
 public EmfMetafileHeader()
@@ -45,7 +45,7 @@ public EmfMetafileHeader()
 
 ## EmfMetafileHeader(EmfMetafileHeader) {#constructor_1}
 
-初始化[`EmfMetafileHeader`](../../emfmetafileheader)类的新实例。
+初始化[`EmfMetafileHeader`](../../emfmetafileheader)类.
 
 ```csharp
 public EmfMetafileHeader(EmfMetafileHeader header)

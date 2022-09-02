@@ -3,7 +3,7 @@ title: PaletteMiningMethod
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Метод анализа палитры изображений
 type: docs
-weight: 10680
+weight: 10670
 url: /ru/net/aspose.imaging/paletteminingmethod/
 ---
 ## PaletteMiningMethod enumeration
@@ -24,12 +24,12 @@ public enum PaletteMiningMethod
 
 ### Примеры
 
-В следующем примере показано, как выполнить сжатие изображение в формате PNG с использованием индексированного цвета с палитрой наилучшего соответствия
+В следующем примере показано, как сжать изображение PNG с использованием индексированного цвета с палитрой наилучшего соответствия.
 
 ```csharp
 [C#]
 
- // Загружает png изображение 
+// Загружаем png изображение        
     string  sourceFilePath="OriginalRings.png";
     string  outputFilePath="OriginalRingsOutput.png";
     using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(sourceFilePath))
@@ -37,12 +37,12 @@ public enum PaletteMiningMethod
     image.Save(outputFilePath, new Aspose.Imaging.ImageOptions.PngOptions()
     {
          Progressive = true,
-              // Использовать индексированный цвет type
+             // Использовать индексированный тип цвета
          ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.IndexedColor,
-              // Использовать максимальное сжатие
+             // Использовать максимальное сжатие
          CompressionLevel = 9,
-       // Получить ближайшую 8-битную цветовую палитру, покрывающую максимально возможное количество пикселей, чтобы палитра image
-          // визуально практически неотличим от не палетированного.
+      // Получаем ближайшую 8-битную цветовую палитру, покрывающую максимально возможное количество пикселей, чтобы изображение с палитрой
+         // визуально практически неотличим от не палетированного.
          Palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette((Aspose.Imaging.RasterImage)image, 256, Aspose.Imaging.PaletteMiningMethod.Histogram)
     });
 }

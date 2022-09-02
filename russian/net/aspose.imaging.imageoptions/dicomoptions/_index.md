@@ -1,14 +1,14 @@
 ---
 title: DicomOptions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Параметры создания файла формата DICOM.
+description: Параметры создания формата файла DICOM.
 type: docs
 weight: 9940
 url: /ru/net/aspose.imaging.imageoptions/dicomoptions/
 ---
 ## DicomOptions class
 
-Параметры создания файла формата DICOM.
+Параметры создания формата файла DICOM.
 
 ```csharp
 public class DicomOptions : ImageOptionsBase
@@ -24,7 +24,7 @@ public class DicomOptions : ImageOptionsBase
 
 | Имя | Описание |
 | --- | --- |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Получает или устанавливает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Получает или задает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
 | [ColorType](../../aspose.imaging.imageoptions/dicomoptions/colortype) { get; set; } | Получает или задает тип цвета. |
 | [Compression](../../aspose.imaging.imageoptions/dicomoptions/compression) { get; set; } | Получает или задает сжатие. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
@@ -33,7 +33,7 @@ public class DicomOptions : ImageOptionsBase
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Получает или задает цветовую палитру. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Получает или задает обработчик события выполнения. |
 | virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Получает или задает параметры разрешения. |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Получает или задает источник для создания изображения. |
+| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Получает или задает источник для создания изображения в. |
 | [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Получает или задает параметры векторной растеризации. |
 | override [XmpData](../../aspose.imaging.imageoptions/dicomoptions/xmpdata) { get; set; } | Получает или задает данные Xmp. |
 
@@ -46,163 +46,84 @@ public class DicomOptions : ImageOptionsBase
 
 ### Примеры
 
-Изменение типа цвета при сжатии DICOM.
+Изменить тип цвета при сжатии DICOM.
 
 ```csharp
 [C#]
 
-using (DicomImage image = (DicomImage)Image.Create(
-        new DicomOptions() { Source = new StreamSource(new MemoryStream()) },
-        100,
-        100))
+using (var inputImage = Image.Load("original.jpg"))
 {
-     // Нарисуйте что-нибудь, используя векторную графику
-    Graphics graphics = new Graphics(image);
-    graphics.FillRectangle(new SolidBrush(Color.BlueViolet), image.Bounds);
-    graphics.FillRectangle(new SolidBrush(Color.Aqua), 10, 20, 50, 20);
-    graphics.FillEllipse(new SolidBrush(Color.Orange), 30, 50, 70, 30);
+    var options = new DicomOptions { ColorType = ColorType.Grayscale8Bit };
 
-    // Сохраняем пиксели нарисованного изображения. Теперь они на первой странице изображения Dicom.
-    int[] pixels = image.LoadArgb32Pixels(image.Bounds);
-
-     // Добавляем несколько страниц после, делая их темнее
-    for (int i = 1; i < 5; i++)
-    {
-        DicomPage page = image.AddPage();
-        page.SaveArgb32Pixels(page.Bounds, pixels);
-        page.AdjustBrightness(i * 30);
-    }
-
-     // Добавляем несколько страниц перед главной, делая их ярче
-    for (int i = 1; i < 5; i++)
-    {
-        DicomPage page = image.InsertPage(0);
-        page.SaveArgb32Pixels(page.Bounds, pixels);
-        page.AdjustBrightness(-i * 30);
-    }
-
-     // Сохраняем созданное многостраничное изображение в выходной файл file
-    image.Save("MultiPage.dcm");
+    inputImage.Save("original_8Bit.dcm", options);
 }
 ```
 
-Использовать сжатие RLE в изображении DICOM.
+Используйте сжатие RLE в изображении DICOM.
 
 ```csharp
 [C#]
 
-using (DicomImage image = (DicomImage)Image.Create(
-        new DicomOptions() { Source = new StreamSource(new MemoryStream()) },
-        100,
-        100))
+using (var inputImage = Image.Load("original.jpg"))
 {
-     // Нарисуйте что-нибудь, используя векторную графику
-    Graphics graphics = new Graphics(image);
-    graphics.FillRectangle(new SolidBrush(Color.BlueViolet), image.Bounds);
-    graphics.FillRectangle(new SolidBrush(Color.Aqua), 10, 20, 50, 20);
-    graphics.FillEllipse(new SolidBrush(Color.Orange), 30, 50, 70, 30);
-
-    // Сохраняем пиксели нарисованного изображения. Теперь они на первой странице изображения Dicom.
-    int[] pixels = image.LoadArgb32Pixels(image.Bounds);
-
-     // Добавляем несколько страниц после, делая их темнее
-    for (int i = 1; i < 5; i++)
+    var options = new DicomOptions
     {
-        DicomPage page = image.AddPage();
-        page.SaveArgb32Pixels(page.Bounds, pixels);
-        page.AdjustBrightness(i * 30);
-    }
+        ColorType = ColorType.Rgb24Bit,
+        Compression = new Compression { Type = CompressionType.Rle }
+    };
 
-     // Добавляем несколько страниц перед главной, делая их ярче
-    for (int i = 1; i < 5; i++)
-    {
-        DicomPage page = image.InsertPage(0);
-        page.SaveArgb32Pixels(page.Bounds, pixels);
-        page.AdjustBrightness(-i * 30);
-    }
-
-     // Сохраняем созданное многостраничное изображение в выходной файл file
-    image.Save("MultiPage.dcm");
+    inputImage.Save("original_RLE.dcm", options);
 }
 ```
 
-Использовать сжатие JPEG 2000 в изображении DICOM.
+Используйте сжатие JPEG 2000 в изображении DICOM.
 
 ```csharp
 [C#]
 
-using (DicomImage image = (DicomImage)Image.Create(
-        new DicomOptions() { Source = new StreamSource(new MemoryStream()) },
-        100,
-        100))
+using (var inputImage = Image.Load("original.jpg"))
 {
-     // Нарисуйте что-нибудь, используя векторную графику
-    Graphics graphics = new Graphics(image);
-    graphics.FillRectangle(new SolidBrush(Color.BlueViolet), image.Bounds);
-    graphics.FillRectangle(new SolidBrush(Color.Aqua), 10, 20, 50, 20);
-    graphics.FillEllipse(new SolidBrush(Color.Orange), 30, 50, 70, 30);
-
-    // Сохраняем пиксели нарисованного изображения. Теперь они на первой странице изображения Dicom.
-    int[] pixels = image.LoadArgb32Pixels(image.Bounds);
-
-     // Добавляем несколько страниц после, делая их темнее
-    for (int i = 1; i < 5; i++)
+    var options = new DicomOptions
     {
-        DicomPage page = image.AddPage();
-        page.SaveArgb32Pixels(page.Bounds, pixels);
-        page.AdjustBrightness(i * 30);
-    }
+        ColorType = ColorType.Rgb24Bit,
+        Compression = new Compression
+        {
+            Type = CompressionType.Jpeg2000,
+            Jpeg2000 = new Jpeg2000Options
+            {
+                Codec = Jpeg2000Codec.Jp2,
+                Irreversible = false
+            }
+        }
+    };
 
-     // Добавляем несколько страниц перед главной, делая их ярче
-    for (int i = 1; i < 5; i++)
-    {
-        DicomPage page = image.InsertPage(0);
-        page.SaveArgb32Pixels(page.Bounds, pixels);
-        page.AdjustBrightness(-i * 30);
-    }
-
-     // Сохраняем созданное многостраничное изображение в выходной файл file
-    image.Save("MultiPage.dcm");
+    inputImage.Save("original_JPEG2000.dcm", options);
 }
 ```
 
-Использовать сжатие JPEG в изображении DICOM.
+Используйте сжатие JPEG в изображении DICOM.
 
 ```csharp
 [C#]
 
-using (DicomImage image = (DicomImage)Image.Create(
-        new DicomOptions() { Source = new StreamSource(new MemoryStream()) },
-        100,
-        100))
+using (var inputImage = Image.Load("original.jpg"))
 {
-     // Нарисуйте что-нибудь, используя векторную графику
-    Graphics graphics = new Graphics(image);
-    graphics.FillRectangle(new SolidBrush(Color.BlueViolet), image.Bounds);
-    graphics.FillRectangle(new SolidBrush(Color.Aqua), 10, 20, 50, 20);
-    graphics.FillEllipse(new SolidBrush(Color.Orange), 30, 50, 70, 30);
-
-    // Сохраняем пиксели нарисованного изображения. Теперь они на первой странице изображения Dicom.
-    int[] pixels = image.LoadArgb32Pixels(image.Bounds);
-
-     // Добавляем несколько страниц после, делая их темнее
-    for (int i = 1; i < 5; i++)
+    var options = new DicomOptions
     {
-        DicomPage page = image.AddPage();
-        page.SaveArgb32Pixels(page.Bounds, pixels);
-        page.AdjustBrightness(i * 30);
-    }
+        ColorType = ColorType.Rgb24Bit,
+        Compression = new Compression
+        {
+            Type = CompressionType.Jpeg,
+            Jpeg = new JpegOptions
+            {
+                CompressionType = JpegCompressionMode.Baseline,
+                SampleRoundingMode = SampleRoundingMode.Truncate,
+                Quality = 50
+            }
+        }
+    };
 
-     // Добавляем несколько страниц перед главной, делая их ярче
-    for (int i = 1; i < 5; i++)
-    {
-        DicomPage page = image.InsertPage(0);
-        page.SaveArgb32Pixels(page.Bounds, pixels);
-        page.AdjustBrightness(-i * 30);
-    }
-
-     // Сохраняем созданное многостраничное изображение в выходной файл file
-    image.Save("MultiPage.dcm");
+    inputImage.Save("original_JPEG.dcm", options);
 }
 ```
 
@@ -211,42 +132,26 @@ using (DicomImage image = (DicomImage)Image.Create(
 ```csharp
 [C#]
 
-using (DicomImage image = (DicomImage)Image.Create(
-        new DicomOptions() { Source = new StreamSource(new MemoryStream()) },
-        100,
-        100))
+string fileName = "sample.jpg";
+string inputFileNameSingle = fileName;
+string inputFileNameMultipage = "multipage.tif";
+string outputFileNameSingleDcm = "output.dcm";
+string outputFileNameMultipageDcm = "outputMultipage.dcm";
+
+// Следующий пример кода преобразует изображение JPEG в формат файла DICOM
+using (var image = Aspose.Imaging.Image.Load(inputFileNameSingle))
 {
-     // Нарисуйте что-нибудь, используя векторную графику
-    Graphics graphics = new Graphics(image);
-    graphics.FillRectangle(new SolidBrush(Color.BlueViolet), image.Bounds);
-    graphics.FillRectangle(new SolidBrush(Color.Aqua), 10, 20, 50, 20);
-    graphics.FillEllipse(new SolidBrush(Color.Orange), 30, 50, 70, 30);
+    image.Save(outputFileNameSingleDcm, new Aspose.Imaging.ImageOptions.DicomOptions());
+}
 
-    // Сохраняем пиксели нарисованного изображения. Теперь они на первой странице изображения Dicom.
-    int[] pixels = image.LoadArgb32Pixels(image.Bounds);
-
-     // Добавляем несколько страниц после, делая их темнее
-    for (int i = 1; i < 5; i++)
-    {
-        DicomPage page = image.AddPage();
-        page.SaveArgb32Pixels(page.Bounds, pixels);
-        page.AdjustBrightness(i * 30);
-    }
-
-     // Добавляем несколько страниц перед главной, делая их ярче
-    for (int i = 1; i < 5; i++)
-    {
-        DicomPage page = image.InsertPage(0);
-        page.SaveArgb32Pixels(page.Bounds, pixels);
-        page.AdjustBrightness(-i * 30);
-    }
-
-     // Сохраняем созданное многостраничное изображение в выходной файл file
-    image.Save("MultiPage.dcm");
+// Формат DICOM поддерживает многостраничные изображения. Вы можете конвертировать изображения GIF или TIFF в DICOM так же, как изображения JPEG.
+using (var imageMultiple = Aspose.Imaging.Image.Load(inputFileNameMultipage))
+{
+    imageMultiple.Save(outputFileNameMultipageDcm, new Aspose.Imaging.ImageOptions.DicomOptions());
 }
 ```
 
-Создание многостраничного изображения Dicom.
+Создайте многостраничное изображение Dicom.
 
 ```csharp
 [C#]
@@ -256,16 +161,16 @@ using (DicomImage image = (DicomImage)Image.Create(
         100,
         100))
 {
-     // Нарисуйте что-нибудь, используя векторную графику
+    // Рисуем что-нибудь с помощью векторной графики
     Graphics graphics = new Graphics(image);
     graphics.FillRectangle(new SolidBrush(Color.BlueViolet), image.Bounds);
     graphics.FillRectangle(new SolidBrush(Color.Aqua), 10, 20, 50, 20);
     graphics.FillEllipse(new SolidBrush(Color.Orange), 30, 50, 70, 30);
 
-    // Сохраняем пиксели нарисованного изображения. Теперь они на первой странице изображения Dicom.
+    // Сохраняем пиксели нарисованного изображения. Теперь они находятся на первой странице изображения Dicom.
     int[] pixels = image.LoadArgb32Pixels(image.Bounds);
 
-     // Добавляем несколько страниц после, делая их темнее
+    // Добавляем несколько страниц после, делая их темнее
     for (int i = 1; i < 5; i++)
     {
         DicomPage page = image.AddPage();
@@ -273,7 +178,7 @@ using (DicomImage image = (DicomImage)Image.Create(
         page.AdjustBrightness(i * 30);
     }
 
-     // Добавляем несколько страниц перед главной, делая их ярче
+    // Добавляем несколько страниц перед главной, делая их ярче
     for (int i = 1; i < 5; i++)
     {
         DicomPage page = image.InsertPage(0);
@@ -281,7 +186,7 @@ using (DicomImage image = (DicomImage)Image.Create(
         page.AdjustBrightness(-i * 30);
     }
 
-     // Сохраняем созданное многостраничное изображение в выходной файл file
+    // Сохраняем созданное многостраничное изображение в выходной файл
     image.Save("MultiPage.dcm");
 }
 ```

@@ -1,14 +1,14 @@
 ---
 title: GPSImgDirectionRef
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 GPS 参考用于在捕获图像时提供图像方向
+description: 获取或设置 GPS 参考用于在捕获图像时给出图像的方向
 type: docs
 weight: 510
 url: /zh/net/aspose.imaging.exif/exifdata/gpsimgdirectionref/
 ---
 ## ExifData.GPSImgDirectionRef property
 
-获取或设置 GPS 参考，用于在捕获图像时提供图像方向。
+获取或设置 GPS 参考，用于在捕获图像时给出图像的方向。
 
 ```csharp
 public string GPSImgDirectionRef { get; set; }
@@ -16,7 +16,7 @@ public string GPSImgDirectionRef { get; set; }
 
 ### 适当的价值
 
-GPS 参考，用于在捕获图像时提供图像方向。
+获取图像时给出图像方向的 GPS 参考。
 
 ### 也可以看看
 

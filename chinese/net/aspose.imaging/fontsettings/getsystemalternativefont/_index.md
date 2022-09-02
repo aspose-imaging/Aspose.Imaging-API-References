@@ -1,14 +1,14 @@
 ---
 title: GetSystemAlternativeFont
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值指示是否获取替代字体
+description: 获取或设置一个值指示是否获取替代字体.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging/fontsettings/getsystemalternativefont/
 ---
 ## FontSettings.GetSystemAlternativeFont property
 
-获取或设置一个值，指示是否[获取替代字体]。
+获取或设置一个值，指示是否[获取替代字体].
 
 ```csharp
 public static bool GetSystemAlternativeFont { get; set; }
@@ -16,7 +16,7 @@ public static bool GetSystemAlternativeFont { get; set; }
 
 ### 适当的价值
 
-` true` if [获取替代字体];否则，` false` 。
+`真的` if [获取替代字体];否则，`错误的` .
 
 ### 也可以看看
 

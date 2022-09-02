@@ -1,14 +1,14 @@
 ---
 title: OdPath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdPathaspose.imaging.fileformats.opendocument.objects.graphic/odpath.
+description: Инициализирует новый экземплярOdPathaspose.imaging.fileformats.opendocument.objects.graphic/odpath класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odpath/odpath/
 ---
 ## OdPath constructor
 
-Инициализирует новый экземпляр класса[`OdPath`](../../odpath).
+Инициализирует новый экземпляр[`OdPath`](../../odpath) класс.
 
 ```csharp
 public OdPath(OdObject parent)

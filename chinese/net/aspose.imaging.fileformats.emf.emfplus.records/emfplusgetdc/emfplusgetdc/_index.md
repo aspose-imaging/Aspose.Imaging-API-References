@@ -1,14 +1,14 @@
 ---
 title: EmfPlusGetDc
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPlusGetDcaspose.imaging.fileformats.emf.emfplus.records/emfplusgetdc类的新实例
+description: 初始化EmfPlusGetDcaspose.imaging.fileformats.emf.emfplus.records/emfplusgetdc类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusgetdc/emfplusgetdc/
 ---
 ## EmfPlusGetDc constructor
 
-初始化[`EmfPlusGetDc`](../../emfplusgetdc)类的新实例。
+初始化[`EmfPlusGetDc`](../../emfplusgetdc)类.
 
 ```csharp
 public EmfPlusGetDc(EmfPlusRecord source)
@@ -16,7 +16,7 @@ public EmfPlusGetDc(EmfPlusRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfPlusRecord | 源。 |
+| source | EmfPlusRecord | 来源。 |
 
 ### 也可以看看
 

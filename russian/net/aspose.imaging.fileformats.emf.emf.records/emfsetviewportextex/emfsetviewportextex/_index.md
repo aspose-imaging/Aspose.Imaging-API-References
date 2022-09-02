@@ -1,14 +1,14 @@
 ---
 title: EmfSetViewportExtEx
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetViewportExtExaspose.imaging.fileformats.emf.emf.records/emfsetviewportextex.
+description: Инициализирует новый экземплярEmfSetViewportExtExaspose.imaging.fileformats.emf.emf.records/emfsetviewportextex класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetviewportextex/emfsetviewportextex/
 ---
 ## EmfSetViewportExtEx(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfSetViewportExtEx`](../../emfsetviewportextex).
+Инициализирует новый экземпляр[`EmfSetViewportExtEx`](../../emfsetviewportextex) класс.
 
 ```csharp
 public EmfSetViewportExtEx(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfSetViewportExtEx(EmfRecord source)
 
 ## EmfSetViewportExtEx() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfSetViewportExtEx`](../../emfsetviewportextex).
+Инициализирует новый экземпляр[`EmfSetViewportExtEx`](../../emfsetviewportextex) класс.
 
 ```csharp
 public EmfSetViewportExtEx()

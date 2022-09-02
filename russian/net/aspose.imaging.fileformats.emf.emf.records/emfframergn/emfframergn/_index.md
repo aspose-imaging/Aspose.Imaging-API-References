@@ -1,14 +1,14 @@
 ---
 title: EmfFrameRgn
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfFrameRgnaspose.imaging.fileformats.emf.emf.records/emfframergn.
+description: Инициализирует новый экземплярEmfFrameRgnaspose.imaging.fileformats.emf.emf.records/emfframergn класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfframergn/emfframergn/
 ---
 ## EmfFrameRgn(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfFrameRgn`](../../emfframergn).
+Инициализирует новый экземпляр[`EmfFrameRgn`](../../emfframergn) класс.
 
 ```csharp
 public EmfFrameRgn(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfFrameRgn(EmfRecord source)
 
 ## EmfFrameRgn() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfFrameRgn`](../../emfframergn).
+Инициализирует новый экземпляр[`EmfFrameRgn`](../../emfframergn) класс.
 
 ```csharp
 public EmfFrameRgn()

@@ -1,14 +1,14 @@
 ---
 title: RedMask
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает цветовую маску указывающую красный компонент каждого пикселя действительную только если для bV4Compression задано значение BI_BITFIELDS.
+description: Получает или задает цветовую маску указывающую красный компонент каждого пикселя действительную только если для параметра bV4Compression задано значение BI_BITFIELDS.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging.fileformats.bmp/bitmapv4header/redmask/
 ---
 ## BitmapV4Header.RedMask property
 
-Получает или задает цветовую маску, указывающую красный компонент каждого пикселя, действительную, только если для bV4Compression задано значение BI_BITFIELDS.
+Получает или задает цветовую маску, указывающую красный компонент каждого пикселя, действительную, только если для параметра bV4Compression задано значение BI_BITFIELDS.
 
 ```csharp
 public int RedMask { get; set; }

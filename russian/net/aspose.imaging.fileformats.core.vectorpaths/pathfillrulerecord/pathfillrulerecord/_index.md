@@ -1,14 +1,14 @@
 ---
 title: PathFillRuleRecord
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаPathFillRuleRecordaspose.imaging.fileformats.core.vectorpaths/pathfillrulerecord.
+description: Инициализирует новый экземплярPathFillRuleRecordaspose.imaging.fileformats.core.vectorpaths/pathfillrulerecord класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.core.vectorpaths/pathfillrulerecord/pathfillrulerecord/
 ---
 ## PathFillRuleRecord() {#constructor}
 
-Инициализирует новый экземпляр класса[`PathFillRuleRecord`](../../pathfillrulerecord).
+Инициализирует новый экземпляр[`PathFillRuleRecord`](../../pathfillrulerecord) класс.
 
 ```csharp
 public PathFillRuleRecord()
@@ -24,7 +24,7 @@ public PathFillRuleRecord()
 
 ## PathFillRuleRecord(byte[]) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`PathFillRuleRecord`](../../pathfillrulerecord).
+Инициализирует новый экземпляр[`PathFillRuleRecord`](../../pathfillrulerecord) класс.
 
 ```csharp
 public PathFillRuleRecord(byte[] data)

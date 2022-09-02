@@ -20,27 +20,27 @@ public PositioningTypes Positioning { get; set; }
 
 ### Примеры
 
-В следующем примере показано, как установить предел памяти при загрузке образа CMX. Предел памяти — это максимально допустимый размер (в мегабайтах) для всех внутренних буферов.
+В следующем примере показано, как установить ограничение памяти при загрузке образа CMX. Предел памяти — это максимально допустимый размер (в мегабайтах) для всех внутренних буферов.
 
 ```csharp
 [C#]
 
-string dir = "c:\\aspose.imaging\\issues\\net\\3635\\testdata\\3570";
-string inputCdrFileName = System.IO.Path.Combine(dir, "tiger.cdr");
-string outputPdfFileName = System.IO.Path.Combine(dir, "tiger.cdr.pdf");
-
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputCdrFileName))
+string dir = "c:\\aspose.imaging\\issues\\net\\3419\\";
+    
+// Установка ограничения памяти в 10 мегабайт для целевого загруженного изображения.
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "example.cmx", new Aspose.Imaging.LoadOptions() { BufferSizeHint = 10 }))
 {
-    Aspose.Imaging.ImageOptions.PdfOptions pdfOptions = new Aspose.Imaging.ImageOptions.PdfOptions();
-    Aspose.Imaging.ImageOptions.CdrRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.CdrRasterizationOptions
-    {
-        TextRenderingHint = Aspose.Imaging.TextRenderingHint.SingleBitPerPixel,
-        SmoothingMode = Aspose.Imaging.SmoothingMode.None,
-        Positioning = Aspose.Imaging.ImageOptions.PositioningTypes.DefinedByDocument
-    };
-
-    pdfOptions.VectorRasterizationOptions = rasterizationOptions;
-    image.Save(outputPdfFileName, pdfOptions);
+    image.Save(dir + "output.png",
+        new Aspose.Imaging.ImageOptions.PngOptions()
+        {
+            VectorRasterizationOptions =
+                    new Aspose.Imaging.ImageOptions.CmxRasterizationOptions
+                    {
+                        TextRenderingHint = Aspose.Imaging.TextRenderingHint.SingleBitPerPixel,
+                        SmoothingMode = Aspose.Imaging.SmoothingMode.AntiAlias,
+                        Positioning = Aspose.Imaging.ImageOptions.PositioningTypes.DefinedByDocument
+                    }
+        });
 }
 ```
 

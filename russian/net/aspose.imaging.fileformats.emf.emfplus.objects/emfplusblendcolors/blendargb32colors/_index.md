@@ -1,14 +1,14 @@
 ---
 title: BlendArgb32Colors
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив объектов PositionCount EmfPlusARGB раздел 2.2.2.1 которые определяют цвета в позициях определенных в поле BlendPositions.
+description: Получает или задает массив объектов PositionCount EmfPlusARGB раздел 2.2.2.1 которые задают цвета в позициях определенных в поле BlendPositions.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendcolors/blendargb32colors/
 ---
 ## EmfPlusBlendColors.BlendArgb32Colors property
 
-Получает или задает массив объектов PositionCount EmfPlusARGB (раздел 2.2.2.1), которые определяют цвета в позициях, определенных в поле BlendPositions.
+Получает или задает массив объектов PositionCount EmfPlusARGB (раздел 2.2.2.1), которые задают цвета в позициях, определенных в поле BlendPositions.
 
 ```csharp
 public int[] BlendArgb32Colors { get; set; }

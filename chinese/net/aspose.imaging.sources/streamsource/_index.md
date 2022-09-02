@@ -3,7 +3,7 @@ title: StreamSource
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示流源
 type: docs
-weight: 11120
+weight: 11110
 url: /zh/net/aspose.imaging.sources/streamsource/
 ---
 ## StreamSource class
@@ -18,14 +18,14 @@ public sealed class StreamSource : Source
 
 | 姓名 | 描述 |
 | --- | --- |
-| [StreamSource](streamsource#constructor)(Stream) | 初始化[`StreamSource`](../streamsource)类的新实例。 |
-| [StreamSource](streamsource#constructor_1)(Stream, bool) | 初始化[`StreamSource`](../streamsource)类的新实例。 |
+| [StreamSource](streamsource#constructor)(Stream) | 初始化[`StreamSource`](../streamsource)类. |
+| [StreamSource](streamsource#constructor_1)(Stream, bool) | 初始化[`StreamSource`](../streamsource)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DisposeStream](../../aspose.imaging.sources/streamsource/disposestream) { get; } | 获取一个值，该值指示是否应在释放容器时释放流。 |
+| [DisposeStream](../../aspose.imaging.sources/streamsource/disposestream) { get; } | 获取一个值，该值指示是否应在容器被处置时处置流。 |
 | [Stream](../../aspose.imaging.sources/streamsource/stream) { get; } | 获取流。 |
 
 ## 方法
@@ -36,138 +36,82 @@ public sealed class StreamSource : Source
 
 ### 例子
 
-这个例子演示了使用 System.IO.Stream 创建一个新的图像文件（JPEG 类型）
+这个例子演示了使用 System.IO.Stream 创建一个新的 Image 文件（JPEG 类型）
 
 ```csharp
 [C#]
 
-//创建一个 FileStream
- 的实例
-using (System.IO.FileStream stream = new System.IO.FileStream(@"C:\temp\output.png", System.IO.FileMode.Create))
+//创建一个 JpegOptions 实例并设置它的各种属性
+Aspose.Imaging.ImageOptions.JpegOptions jpegOptions = new Aspose.Imaging.ImageOptions.JpegOptions();
+
+//创建System.IO.Stream的实例
+System.IO.Stream stream = new System.IO.FileStream(@"C:\temp\sample.jpeg", System.IO.FileMode.Create);
+
+//定义JpegOptions实例的源属性
+//第二个布尔参数确定Stream一旦超出范围就被释放
+jpegOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream, true);
+
+//创建一个Image实例，调用Create方法以JpegOptions为参数初始化Image对象   
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(jpegOptions, 500, 500))
 {
-    //创建一个PngOptions实例并设置它的各种属性
-    Aspose.Imaging.ImageOptions.PngOptions pngOptions = new Aspose.Imaging.ImageOptions.PngOptions();
-
-        //设置PngOptions
-的源
-    pngOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream);
-
-    //创建一个Image
-的实例
-    using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(pngOptions, 500, 500))
-    {
-        //创建并初始化一个Graphics class
-的实例
-        Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
-
-        //清除图形surface
-        graphics.Clear(Aspose.Imaging.Color.Wheat);
-
-            //通过指定具有黑色的Pen对象绘制一个弧线，
-            //一个围绕圆弧的矩形，起始角和扫角
-        graphics.DrawArc(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Black, 2), new Aspose.Imaging.Rectangle(200, 200, 100, 200), 0, 300);
-
-            //通过指定具有蓝色和坐标点的Pen对象来绘制贝塞尔曲线。
-        graphics.DrawBezier(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Blue, 2), new Aspose.Imaging.Point(250, 100), new Aspose.Imaging.Point(300, 30), new Aspose.Imaging.Point(450, 100), new Aspose.Imaging.Point(235, 25));
-
-            //通过指定具有绿色的 Pen 对象和 Points
- 数组来绘制曲线
-        graphics.DrawCurve(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Green, 2), new[] { new Aspose.Imaging.Point(100, 200), new Aspose.Imaging.Point(100, 350), new Aspose.Imaging.Point(200, 450) });
-
-        //使用 Pen 对象和周围的 Rectangle
- 绘制一个椭圆
-        graphics.DrawEllipse(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Yellow, 2), new Aspose.Imaging.Rectangle(300, 300, 100, 100));
-
-        //画一条线
-        graphics.DrawLine(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Violet, 2), new Aspose.Imaging.Point(100, 100), new Aspose.Imaging.Point(200, 200));
-
-            //画一个饼段
-        graphics.DrawPie(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Silver, 2), new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(200, 20), new Aspose.Imaging.Size(200, 200)), 0, 45);
-
-            //通过指定具有红色的 Pen 对象和 Points
- 数组来绘制多边形
-        graphics.DrawPolygon(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Red, 2), new[] { new Aspose.Imaging.Point(20, 100), new Aspose.Imaging.Point(20, 200), new Aspose.Imaging.Point(220, 20) });
-
-        //画一个Rectangle
-        graphics.DrawRectangle(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Orange, 2), new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(250, 250), new Aspose.Imaging.Size(100, 100)));
-
-            //创建一个SolidBrush对象并设置它的各种属性
-        Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush();
-        brush.Color = Color.Purple;
-        brush.Opacity = 100;
-
-        //使用 SolidBrush 对象和字体在特定的 Point
- 处绘制一个字符串
-        graphics.DrawString("This image is created by Aspose.Imaging API", new Aspose.Imaging.Font("Times New Roman", 16), brush, new Aspose.Imaging.PointF(50, 400));
-
-        // 保存所有更改。
-        image.Save();
-    }
+    //做一些图像处理
 }
 ```
 
-此示例使用 Graphics 类在 Image 表面上创建原始形状。为了演示该操作，该示例创建一个 PNG 格式的新 Image，并使用 Graphics 类
+此示例使用 Graphics 类在 Image 表面上创建原始形状。为了演示该操作，该示例创建一个 PNG 格式的新图像，并使用 Graphics 类公开的 Draw 方法在图像表面上绘制原始形状
 
 ```csharp
 [C#]
 
-//创建一个 FileStream
- 的实例
+//创建一个FileStream实例
 using (System.IO.FileStream stream = new System.IO.FileStream(@"C:\temp\output.png", System.IO.FileMode.Create))
 {
     //创建一个PngOptions实例并设置它的各种属性
     Aspose.Imaging.ImageOptions.PngOptions pngOptions = new Aspose.Imaging.ImageOptions.PngOptions();
 
-        //设置PngOptions
-的源
+    //设置PngOptions的来源
     pngOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream);
 
-    //创建一个Image
-的实例
+    //创建一个Image实例 
     using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(pngOptions, 500, 500))
     {
-        //创建并初始化一个Graphics class
-的实例
+        //创建并初始化一个Graphics类的实例
         Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
 
-        //清除图形surface
+        //清除图形表面
         graphics.Clear(Aspose.Imaging.Color.Wheat);
 
-            //通过指定具有黑色的Pen对象绘制一个弧线，
-            //一个围绕圆弧的矩形，起始角和扫角
+        //通过指定具有黑色颜色的Pen对象来绘制弧线， 
+        //一个围绕圆弧的矩形，起始角和扫角
         graphics.DrawArc(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Black, 2), new Aspose.Imaging.Rectangle(200, 200, 100, 200), 0, 300);
 
-            //通过指定具有蓝色和坐标点的Pen对象来绘制贝塞尔曲线。
+        //通过指定具有蓝色和坐标点的 Pen 对象来绘制 Bezier。
         graphics.DrawBezier(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Blue, 2), new Aspose.Imaging.Point(250, 100), new Aspose.Imaging.Point(300, 30), new Aspose.Imaging.Point(450, 100), new Aspose.Imaging.Point(235, 25));
 
-            //通过指定具有绿色的 Pen 对象和 Points
- 数组来绘制曲线
+        //通过指定具有绿色的 Pen 对象和点数组来绘制曲线
         graphics.DrawCurve(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Green, 2), new[] { new Aspose.Imaging.Point(100, 200), new Aspose.Imaging.Point(100, 350), new Aspose.Imaging.Point(200, 450) });
 
-        //使用 Pen 对象和周围的 Rectangle
- 绘制一个椭圆
+        //使用 Pen 对象和周围的 Rectangle 绘制一个椭圆
         graphics.DrawEllipse(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Yellow, 2), new Aspose.Imaging.Rectangle(300, 300, 100, 100));
 
-        //画一条线
+        //画一条线 
         graphics.DrawLine(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Violet, 2), new Aspose.Imaging.Point(100, 100), new Aspose.Imaging.Point(200, 200));
 
-            //画一个饼段
+        //画一个饼段
         graphics.DrawPie(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Silver, 2), new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(200, 20), new Aspose.Imaging.Size(200, 200)), 0, 45);
 
-            //通过指定具有红色的 Pen 对象和 Points
- 数组来绘制多边形
+        //通过指定具有红色的 Pen 对象和点数组来绘制多边形
         graphics.DrawPolygon(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Red, 2), new[] { new Aspose.Imaging.Point(20, 100), new Aspose.Imaging.Point(20, 200), new Aspose.Imaging.Point(220, 20) });
 
-        //画一个Rectangle
+        //画一个矩形
         graphics.DrawRectangle(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Orange, 2), new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(250, 250), new Aspose.Imaging.Size(100, 100)));
 
-            //创建一个SolidBrush对象并设置它的各种属性
+        //创建一个SolidBrush对象并设置它的各种属性
         Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush();
         brush.Color = Color.Purple;
         brush.Opacity = 100;
 
-        //使用 SolidBrush 对象和字体在特定的 Point
- 处绘制一个字符串
+        //使用 SolidBrush 对象和字体在特定点绘制一个字符串
         graphics.DrawString("This image is created by Aspose.Imaging API", new Aspose.Imaging.Font("Times New Roman", 16), brush, new Aspose.Imaging.PointF(50, 400));
 
         // 保存所有更改。

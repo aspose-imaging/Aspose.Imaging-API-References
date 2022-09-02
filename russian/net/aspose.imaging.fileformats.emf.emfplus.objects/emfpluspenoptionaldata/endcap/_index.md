@@ -1,14 +1,14 @@
 ---
 title: EndCap
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает необязательное 32-разрядное целое число со знаком указывающее форму для конца строки в поле CustomEndCapData. Это поле ДОЛЖНО присутствовать если флаг PenDataEndCap установлен в поле PenDataFlags объекта EmfPlusPenData а значение ДОЛЖНО быть определено в LineCapType перечисление
+description: Получает или задает необязательное 32-разрядное целое число со знаком указывающее shape для конца строки в поле CustomEndCapData. Это поле ДОЛЖНО присутствовать если флаг PenDataEndCap установлен в поле PenDataFlags объекта EmfPlusPenData а значение ДОЛЖНО быть определено в перечислении LineCapType
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata/endcap/
 ---
 ## EmfPlusPenOptionalData.EndCap property
 
-Получает или задает необязательное 32-разрядное целое число со знаком, указывающее форму для конца строки в поле CustomEndCapData. Это поле ДОЛЖНО присутствовать, если флаг PenDataEndCap установлен в поле PenDataFlags объекта EmfPlusPenData, а значение ДОЛЖНО быть определено в LineCapType перечисление
+Получает или задает необязательное 32-разрядное целое число со знаком, указывающее shape для конца строки в поле CustomEndCapData. Это поле ДОЛЖНО присутствовать, если флаг PenDataEndCap установлен в поле PenDataFlags объекта EmfPlusPenData, а значение ДОЛЖНО быть определено в перечислении LineCapType
 
 ```csharp
 public EmfPlusLineCapType EndCap { get; set; }

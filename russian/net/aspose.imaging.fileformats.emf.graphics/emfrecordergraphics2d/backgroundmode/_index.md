@@ -1,14 +1,14 @@
 ---
 title: BackgroundMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает фоновый режим.
+description: Получает или устанавливает фоновый режим.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d/backgroundmode/
 ---
 ## EmfRecorderGraphics2D.BackgroundMode property
 
-Получает или задает фоновый режим.
+Получает или устанавливает фоновый режим.
 
 ```csharp
 public EmfBackgroundMode BackgroundMode { get; set; }

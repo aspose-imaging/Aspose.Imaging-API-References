@@ -1,14 +1,14 @@
 ---
 title: OdPen
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Перо открытого документа
+description: Открытый документ pen
 type: docs
 weight: 7350
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.pen/odpen/
 ---
 ## OdPen class
 
-Перо открытого документа
+Открытый документ pen
 
 ```csharp
 public class OdPen

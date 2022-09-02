@@ -1,14 +1,14 @@
 ---
 title: CdrGradientStop
 second_title: Aspose.Imaging for .NET API 参考
-description: cdr梯度停止
+description: cdr梯度stop
 type: docs
 weight: 1860
 url: /zh/net/aspose.imaging.fileformats.cdr.types/cdrgradientstop/
 ---
 ## CdrGradientStop class
 
-cdr梯度停止
+cdr梯度stop
 
 ```csharp
 public class CdrGradientStop

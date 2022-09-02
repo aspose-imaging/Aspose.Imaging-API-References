@@ -3,7 +3,7 @@ title: XmpElementBase
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示基本 xmp 元素包含属性
 type: docs
-weight: 11760
+weight: 11750
 url: /zh/net/aspose.imaging.xmp/xmpelementbase/
 ---
 ## XmpElementBase class
@@ -20,7 +20,7 @@ public abstract class XmpElementBase : IEquatable<XmpElementBase>
 | --- | --- |
 | virtual [AddAttribute](../../aspose.imaging.xmp/xmpelementbase/addattribute)(string, string) | 添加属性。 |
 | virtual [ClearAttributes](../../aspose.imaging.xmp/xmpelementbase/clearattributes)() | 删除所有属性。 |
-| override [Equals](../../aspose.imaging.xmp/xmpelementbase/equals#equals_1)(object) | 确定指定的Object是否等于此实例。 |
+| override [Equals](../../aspose.imaging.xmp/xmpelementbase/equals#equals_1)(object) | 判断是否指定Object 等于这个实例。 |
 | [Equals](../../aspose.imaging.xmp/xmpelementbase/equals#equals)(XmpElementBase) | 表示当前对象是否等于另一个同类型的对象。 |
 | virtual [GetAttribute](../../aspose.imaging.xmp/xmpelementbase/getattribute)(string) | 获取属性。 |
 | override [GetHashCode](../../aspose.imaging.xmp/xmpelementbase/gethashcode)() | 返回此实例的哈希码。 |

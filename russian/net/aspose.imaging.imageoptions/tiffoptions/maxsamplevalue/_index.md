@@ -22,8 +22,8 @@ public ushort[] MaxSampleValue { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | значение |
-| ArgumentOutOfRangeException | value;Длина массива должна соответствовать количеству отсчетов на пиксель. |
+| ArgumentNullException | ценность |
+| ArgumentOutOfRangeException | value;Длина массива должна соответствовать количеству выборок на пиксель. |
 
 ### Смотрите также
 

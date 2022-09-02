@@ -1,14 +1,14 @@
 ---
 title: Device
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定参考设备大小的 WMF SizeL 对象MS-WMF 2.2.2.22 节以像素为单位
+description: 获取或设置一个 WMF SizeL 对象MS-WMF 第 2.2.2.22 节它指定参考设备的大小以像素为单位
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/device/
 ---
 ## EmfHeaderObject.Device property
 
-获取或设置指定参考设备大小的 WMF SizeL 对象（[MS-WMF] 2.2.2.22 节），以像素为单位
+获取或设置一个 WMF SizeL 对象（[MS-WMF] 第 2.2.2.22 节），它指定参考设备的大小，以像素为单位
 
 ```csharp
 public Size Device { get; set; }

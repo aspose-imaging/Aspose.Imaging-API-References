@@ -16,7 +16,7 @@ public void AddTag(TiffDataType tagToAdd)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| tagToAdd | TiffDataType | Добавляемый тег. |
+| tagToAdd | TiffDataType | Тег для добавления. |
 
 ### Смотрите также
 

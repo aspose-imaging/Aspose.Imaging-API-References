@@ -1,14 +1,14 @@
 ---
 title: AdjustContrast
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Imageaspose.imaging/imageконтраст
+description: Imageaspose.imaging/image контрастный
 type: docs
 weight: 160
 url: /ru/net/aspose.imaging.fileformats.djvu/djvuimage/adjustcontrast/
 ---
 ## DjvuImage.AdjustContrast method
 
-[`Image`](../../../aspose.imaging/image)контраст
+[`Image`](../../../aspose.imaging/image) контрастный
 
 ```csharp
 public override void AdjustContrast(float contrast)
@@ -16,7 +16,7 @@ public override void AdjustContrast(float contrast)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| контраст | Single | Контраст значение (в диапазоне [-100; 100]) |
+| contrast | Single | Значение контраста (в диапазоне [-100; 100]) |
 
 ### Примеры
 
@@ -31,7 +31,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.djvu
 {
     Aspose.Imaging.FileFormats.Djvu.DjvuImage djvuImage = (Aspose.Imaging.FileFormats.Djvu.DjvuImage)image;
 
-     // Установить значение контраста. Допустимые значения контраста находятся в диапазоне [-100f, 100f].
+    // Установить значение контраста. Принятые значения контраста находятся в диапазоне [-100f, 100f].
     djvuImage.AdjustContrast(50f);
     djvuImage.Save(dir + "sample.AdjustContrast.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }

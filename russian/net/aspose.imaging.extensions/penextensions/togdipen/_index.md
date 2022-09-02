@@ -1,14 +1,14 @@
 ---
 title: ToGdiPen
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПреобразуетPenaspose.imaging/penвPen.
+description: ПреобразуетPenaspose.imaging/pen кPen .
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.extensions/penextensions/togdipen/
 ---
 ## PenExtensions.ToGdiPen method
 
-Преобразует[`Pen`](../../../aspose.imaging/pen)вPen.
+Преобразует[`Pen`](../../../aspose.imaging/pen) кPen .
 
 ```csharp
 public static Pen ToGdiPen(Pen pen)
@@ -16,7 +16,7 @@ public static Pen ToGdiPen(Pen pen)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../../aspose.imaging/pen)для преобразования. |
+| pen | Pen | [`Pen`](../../../aspose.imaging/pen) конвертировать. |
 
 ### Возвращаемое значение
 

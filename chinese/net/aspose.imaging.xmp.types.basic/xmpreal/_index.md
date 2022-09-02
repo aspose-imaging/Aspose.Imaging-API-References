@@ -1,14 +1,14 @@
 ---
 title: XmpReal
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示 XMP Real
+description: 表示 XMP 真实值
 type: docs
-weight: 11490
+weight: 11480
 url: /zh/net/aspose.imaging.xmp.types.basic/xmpreal/
 ---
 ## XmpReal class
 
-表示 XMP Real。
+表示 XMP 真实值。
 
 ```csharp
 public sealed class XmpReal : XmpTypeBase
@@ -18,8 +18,8 @@ public sealed class XmpReal : XmpTypeBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [XmpReal](xmpreal#constructor)(float) | 初始化[`XmpReal`](../xmpreal)类的新实例。 |
-| [XmpReal](xmpreal#constructor_1)(string) | 初始化[`XmpReal`](../xmpreal)类的新实例。 |
+| [XmpReal](xmpreal#constructor)(float) | 初始化[`XmpReal`](../xmpreal)类. |
+| [XmpReal](xmpreal#constructor_1)(string) | 初始化[`XmpReal`](../xmpreal)类. |
 
 ## 特性
 

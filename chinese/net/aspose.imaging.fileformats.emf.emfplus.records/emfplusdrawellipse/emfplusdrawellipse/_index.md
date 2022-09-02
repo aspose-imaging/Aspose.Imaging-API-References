@@ -1,14 +1,14 @@
 ---
 title: EmfPlusDrawEllipse
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPlusDrawEllipseaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawellipse类的新实例
+description: 初始化EmfPlusDrawEllipseaspose.imaging.fileformats.emf.emfplus.records/emfplusdrawellipse类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawellipse/emfplusdrawellipse/
 ---
 ## EmfPlusDrawEllipse constructor
 
-初始化[`EmfPlusDrawEllipse`](../../emfplusdrawellipse)类的新实例。
+初始化[`EmfPlusDrawEllipse`](../../emfplusdrawellipse)类.
 
 ```csharp
 public EmfPlusDrawEllipse(EmfPlusRecord source)
@@ -16,7 +16,7 @@ public EmfPlusDrawEllipse(EmfPlusRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfPlusRecord | 源。 |
+| source | EmfPlusRecord | 来源。 |
 
 ### 也可以看看
 

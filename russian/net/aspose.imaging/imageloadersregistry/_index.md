@@ -25,10 +25,10 @@ public static class ImageLoadersRegistry
 
 | Имя | Описание |
 | --- | --- |
-| static [CreateFirstSupportedLoader](../../aspose.imaging/imageloadersregistry/createfirstsupportedloader)(Stream, LoadOptions) | Создает первый найденный загрузчик, подходящий для указанного*stream*и опционально*loadOptions*. |
-| static [GetFirstSupportedDescriptor](../../aspose.imaging/imageloadersregistry/getfirstsupporteddescriptor)(Stream, LoadOptions) | Получает первый найденный поддерживаемый дескриптор, подходящий для указанного*stream*и, возможно,*loadOptions*. |
-| static [GetFirstSupportedDescriptorByFileFormat](../../aspose.imaging/imageloadersregistry/getfirstsupporteddescriptorbyfileformat)(FileFormat) | Получает первый поддерживаемый формат файла по имени типа. |
-| static [GetFirstSupportedDescriptorByTypeName](../../aspose.imaging/imageloadersregistry/getfirstsupporteddescriptorbytypename)(string) | Получает первый поддерживаемый дескриптор по имени типа. |
+| static [CreateFirstSupportedLoader](../../aspose.imaging/imageloadersregistry/createfirstsupportedloader)(Stream, LoadOptions) | Создает первый найденный загрузчик, подходящий для указанного*stream* и необязательно*loadOptions* . |
+| static [GetFirstSupportedDescriptor](../../aspose.imaging/imageloadersregistry/getfirstsupporteddescriptor)(Stream, LoadOptions) | Получает первый найденный поддерживаемый дескриптор, подходящий для указанного*stream* и необязательно*loadOptions* . |
+| static [GetFirstSupportedDescriptorByFileFormat](../../aspose.imaging/imageloadersregistry/getfirstsupporteddescriptorbyfileformat)(FileFormat) | Получает первый поддерживаемый формат файла по имени его типа. |
+| static [GetFirstSupportedDescriptorByTypeName](../../aspose.imaging/imageloadersregistry/getfirstsupporteddescriptorbytypename)(string) | Получает первый поддерживаемый дескриптор по имени его типа. |
 | static [Register](../../aspose.imaging/imageloadersregistry/register)(IImageLoaderDescriptor) | Регистрирует указанный дескриптор загрузчика изображения. |
 | static [RegisterLoader](../../aspose.imaging/imageloadersregistry/registerloader)(IImageLoaderDescriptor) | Регистрирует загрузчик. |
 | static [UnregisterLoader](../../aspose.imaging/imageloadersregistry/unregisterloader)(IImageLoaderDescriptor) | Отменяет регистрацию загрузчика. |

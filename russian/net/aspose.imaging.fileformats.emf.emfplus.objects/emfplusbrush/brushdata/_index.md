@@ -1,14 +1,14 @@
 ---
 title: BrushData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает данные кисти Данные переменной длины определяющие объект кисти указанный в поле Тип. Содержание и формат данных могут различаться для каждого типа кисти. EmfPlusHatchBrushData раздел 2.2.2.20 выполнено Объект EmfPlusLinearGradientBrushData раздел 2.2.2.24 выполнено Объект EmfPlusPathGradientBrushData раздел 2.2.2.29 сделано Объект EmfPlusSolidBrushData раздел 2.2.2.43 сделано Объект EmfPlusTextureBrushData раздел 2.2.2.45 сделано
+description: Получает или задает данные кисти. Данные переменной длины определяющие объект кисти указанный в поле Тип. Содержимое и формат данных могут различаться для каждого типа кисти. Объект EmfPlusLinearGradientBrushData раздел 2.2.2.24 готово Объект EmfPlusPathGradientBrushData раздел 2.2.2.29 готово Объект EmfPlusSolidBrushData раздел 2.2.2.43 готово Объект EmfPlusTextureBrushData раздел 2.2.2.45_0d 0d
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrush/brushdata/
 ---
 ## EmfPlusBrush.BrushData property
 
-Получает или задает данные кисти Данные переменной длины, определяющие объект кисти, указанный в поле Тип. Содержание и формат данных могут различаться для каждого типа кисти. EmfPlusHatchBrushData (раздел 2.2.2.20) (выполнено) Объект EmfPlusLinearGradientBrushData (раздел 2.2.2.24) (выполнено) Объект EmfPlusPathGradientBrushData (раздел 2.2.2.29) (сделано) Объект EmfPlusSolidBrushData (раздел 2.2.2.43) (сделано) Объект EmfPlusTextureBrushData (раздел 2.2.2.45) (сделано)
+Получает или задает данные кисти. Данные переменной длины, определяющие объект кисти, указанный в поле «Тип». Содержимое и формат данных могут различаться для каждого типа кисти. Объект EmfPlusLinearGradientBrushData (раздел 2.2.2.24) (готово) Объект EmfPlusPathGradientBrushData (раздел 2.2.2.29) (готово) Объект EmfPlusSolidBrushData (раздел 2.2.2.43) (готово) Объект EmfPlusTextureBrushData (раздел 2.2.2.45)_0d) (0d)
 
 ```csharp
 public EmfPlusBaseBrushData BrushData { get; set; }

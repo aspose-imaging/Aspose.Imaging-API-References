@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位有符号整数它定义了 DIB 的宽度以像素为单位该值必须为正 如果 Compression 值指定 JPEG 或 PNG 格式则该字段应指定解压缩图像文件的宽度
+description: 获取或设置一个 32 位有符号整数它定义了 DIB 的宽度以像素为单位此值必须为正值 此字段应指定解压缩图像文件的宽度如果压缩值指定 JPEG 或 PNG 格式
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfbitmapinfoheader/width/
 ---
 ## WmfBitmapInfoHeader.Width property
 
-获取或设置一个 32 位有符号整数，它定义了 DIB 的宽度，以像素为单位。该值必须为正。 如果 Compression 值指定 JPEG 或 PNG 格式，则该字段应指定解压缩图像文件的宽度。
+获取或设置一个 32 位有符号整数，它定义了 DIB 的宽度，以像素为单位。此值必须为正值。 此字段应指定解压缩图像文件的宽度，如果压缩值指定 JPEG 或 PNG 格式。
 
 ```csharp
 public int Width { get; set; }

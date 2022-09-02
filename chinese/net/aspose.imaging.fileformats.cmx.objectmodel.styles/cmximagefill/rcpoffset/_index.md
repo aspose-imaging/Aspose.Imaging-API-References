@@ -1,14 +1,14 @@
 ---
 title: RcpOffset
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置平铺行或列之间的相对偏移量取决于偏移类型 尺寸是宽度高度的分数
+description: 获取或设置平铺行或列之间的相对偏移量取决于OffsetTypeaspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/offsettype. 尺寸是宽度高度的分数
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/rcpoffset/
 ---
 ## CmxImageFill.RcpOffset property
 
-获取或设置平铺行或列之间的相对偏移量（取决于偏移类型)。 尺寸是宽度高度的分数。
+获取或设置平铺行或列之间的相对偏移量（取决于[`OffsetType`](../offsettype)). 尺寸是宽度高度的分数。
 
 ```csharp
 public float RcpOffset { get; set; }

@@ -16,7 +16,7 @@ public string Artist { get; set; }
 
 ### 适当的价值
 
-艺术家。
+艺术家.
 
 ### 也可以看看
 

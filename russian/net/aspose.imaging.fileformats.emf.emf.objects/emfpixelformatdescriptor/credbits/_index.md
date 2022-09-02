@@ -1,14 +1,14 @@
 ---
 title: CRedBits
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает количество красных битовых плоскостей в каждом цветовом буфере RGBA
+description: Получает или задает количество красных битовых плоскостей в каждом цветовом буфере RGBA
 type: docs
 weight: 170
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/credbits/
 ---
 ## EmfPixelFormatDescriptor.CRedBits property
 
-Получает или устанавливает количество красных битовых плоскостей в каждом цветовом буфере RGBA
+Получает или задает количество красных битовых плоскостей в каждом цветовом буфере RGBA
 
 ```csharp
 public byte CRedBits { get; set; }

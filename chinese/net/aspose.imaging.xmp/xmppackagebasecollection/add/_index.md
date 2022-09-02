@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Imaging for .NET API 参考
-description: 添加XmpPackageaspose.imaging.xmp/xmppackage的新实例
+description: 添加新的实例XmpPackageaspose.imaging.xmp/xmppackage .
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.xmp/xmppackagebasecollection/add/
 ---
 ## XmpPackageBaseCollection.Add method
 
-添加[`XmpPackage`](../../xmppackage)的新实例。
+添加新的实例[`XmpPackage`](../../xmppackage) .
 
 ```csharp
 public void Add(XmpPackage package)

@@ -17,8 +17,8 @@ public static byte CreateFlags(bool hasTransparentColor, bool requiresUserInput,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| hasTransparentColor | Boolean | , если установлено значение` true`[`GifGraphicsControlBlock`](../../gifgraphicscontrolblock)имеет действительный индекс прозрачного цвета. |
-| requiresUserInput | Boolean | если установлено значение` true` ожидается ввод данных пользователем. |
+| hasTransparentColor | Boolean | если установлено`истинный` в[`GifGraphicsControlBlock`](../../gifgraphicscontrolblock) имеет действительный индекс прозрачного цвета. |
+| requiresUserInput | Boolean | если установлено`истинный` ожидается пользовательский ввод. |
 | disposalMethod | DisposalMethod | Метод утилизации. |
 
 ### Возвращаемое значение

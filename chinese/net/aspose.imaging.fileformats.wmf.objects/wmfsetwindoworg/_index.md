@@ -1,14 +1,14 @@
 ---
 title: WmfSetWindowOrg
 second_title: Aspose.Imaging for .NET API 参考
-description: 设置窗口组织对象
+description: 设置的窗口组织对象
 type: docs
 weight: 9230
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfsetwindoworg/
 ---
 ## WmfSetWindowOrg class
 
-设置窗口组织对象
+设置的窗口组织对象
 
 ```csharp
 public class WmfSetWindowOrg : WmfPointObject

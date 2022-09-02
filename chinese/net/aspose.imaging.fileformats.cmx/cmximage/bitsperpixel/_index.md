@@ -1,14 +1,14 @@
 ---
 title: BitsPerPixel
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取每像素的图像位数
+description: 获取每像素计数的图像位数
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.cmx/cmximage/bitsperpixel/
 ---
 ## CmxImage.BitsPerPixel property
 
-获取每像素的图像位数。
+获取每像素计数的图像位数。
 
 ```csharp
 public override int BitsPerPixel { get; }

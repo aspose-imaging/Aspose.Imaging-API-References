@@ -1,14 +1,14 @@
 ---
 title: Offset
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 64 位 WMF PointL 对象在 MS-WMF 第 2.2.2.15 节中指定 指定坐标逻辑单元中的新当前位置
+description: 获取或设置一个 64 位 WMF PointL 对象在 MS-WMF 第 2.2.2.15 节中指定 以逻辑单位指定新当前位置的坐标
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfmovetoex/offset/
 ---
 ## EmfMoveToEx.Offset property
 
-获取或设置一个 64 位 WMF PointL 对象，在 [MS-WMF] 第 2.2.2.15 节中指定， 指定坐标逻辑单元中的新当前位置。
+获取或设置一个 64 位 WMF PointL 对象，在 [MS-WMF] 第 2.2.2.15 节中指定， 以逻辑单位指定新当前位置的坐标。
 
 ```csharp
 public Point Offset { get; set; }

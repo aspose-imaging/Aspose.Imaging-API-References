@@ -19,10 +19,10 @@ public enum WmfRecordType : short
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Eof | `0` | Тип записи EOF |
-| RealizePalette | `53` | Палитра реализации |
-| SetPalentries | `55` | Набор записей |
+| RealizePalette | `53` | Реализованная палитра |
+| SetPalentries | `55` | Набор палитр |
 | SetBkMode | `258` | Setbkmode |
-| SetMapMode | `259` | Режим карты |
+| SetMapMode | `259` | Setmapmode |
 | SetRop2 | `260` | Setrop2 |
 | SetRelabs | `261` | Setrelabs |
 | SetPolyfillMode | `262` | Setpolyfillmode |
@@ -30,64 +30,64 @@ public enum WmfRecordType : short
 | SetTextCharExtra | `264` | Settextcharextra |
 | RestoreDc | `295` | Восстановленныйc |
 | ResizePalette | `313` | Палитра изменения размера |
-| DibCreatePatternBrush | `322` | Кисть dibcreatepatternbrush |
+| DibCreatePatternBrush | `322` | Щетка dibcreatepatternbrush |
 | SetLayout | `329` | Набор макетов |
-| SetBkColor | `513` | Setbkcolor |
+| SetBkColor | `513` | Набор цветов |
 | SetTextColor | `521` | Settextcolor |
 | OffsetViewPortOrg | `529` | Offsetviewportorg |
-| LineTo | `531` | Строка к |
-| MoveTo | `532` | Переход к |
-| OffsetClipRgn | `544` | Offsetcliprgn |
+| LineTo | `531` | Строкаto |
+| MoveTo | `532` | Переезд |
+| OffsetClipRgn | `544` | Смещение клипргн |
 | FillRegion | `552` | Область заполнения |
-| SetMapperFlags | `561` | Флаги setmapper |
+| SetMapperFlags | `561` | Setmapperflags |
 | SelectPalette | `564` | Палитра выбора |
 | Polygon | `804` | Многоугольник |
-| PolyLine | `805` | Ломаная |
-| SetTextJustification | `522` | Выравнивание текста |
+| PolyLine | `805` | Полилиния |
+| SetTextJustification | `522` | Settextjustification |
 | SetWindowOrg | `523` | SetWindoworg |
-| SetWindowExt | `524` | SetWindowext |
+| SetWindowExt | `524` | Установленное окноext |
 | SetViewPortOrg | `525` | Setviewportorg |
 | SetViewportExt | `526` | Setviewporttext |
-| OffsetWindowOrg | `527` | Окно смещения |
-| ScaleWindowExt | `1040` | Масштабное окноext |
+| OffsetWindowOrg | `527` | Смещение окнаorg |
+| ScaleWindowExt | `1040` | Окно шкалыext |
 | ScaleViewportExt | `1042` | Масштабный порттекст |
-| ExcludeClipRect | `1045` | Исключительный клип |
-| IntersectClipRect | `1046` | Intersectcliprect |
+| ExcludeClipRect | `1045` | Исключаемый клип |
+| IntersectClipRect | `1046` | Пересечение клипа |
 | Ellipse | `1048` | Эллипс |
 | FloodFill | `1049` | Заливка |
 | FrameRegion | `1065` | Область кадра |
 | AnimatePalette | `1078` | Палитра анимации |
-| TextOut | `1313` | Вывод текста |
+| TextOut | `1313` | Текст |
 | PolyPolygon | `1336` | Многоугольник |
 | ExtFloodFill | `1352` | Extfloodfill |
 | Rectangle | `1051` | Прямоугольник |
 | SetPixel | `1055` | Набор пикселей |
-| RoundRect | `1564` | Прямоугольник |
+| RoundRect | `1564` | Круглый прямоугольник |
 | PatBlt | `1565` | Патблт |
-| SaveDc | `30` | Сохраненныйc |
+| SaveDc | `30` | Сохраненный c |
 | Pie | `2074` | Тип круговой записи |
 | StretchBlt | `2851` | Растяжка |
 | Escape | `1574` | Побег |
-| InvertRegion | `298` | Инвертрегион |
+| InvertRegion | `298` | инвертированная область |
 | PaintRegion | `299` | Область рисования |
-| SelectClipRegion | `300` | Область выбора клипа |
-| SelectObject | `301` | Объект выбора |
+| SelectClipRegion | `300` | Область выбранного клипа |
+| SelectObject | `301` | Выбранный объект |
 | SetTextAlign | `302` | Settextalign |
 | Arc | `2071` | Тип записи дуги |
 | Chord | `2096` | Тип записи аккорда |
 | BitBlt | `2338` | Битблт |
 | ExtTextOut | `2610` | Exttextout |
-| SetDibToDev | `3379` | Setdibtodev |
+| SetDibToDev | `3379` | Набор dibtodev |
 | DibBitBlt | `2368` | Диббитблт |
-| DibStretchBlt | `2881` | Dibstretchblt |
+| DibStretchBlt | `2881` | Дибстретчблт |
 | StretchDib | `3907` | Растяжка |
 | DeleteObject | `496` | Объект удаления |
 | CreatePalette | `247` | Палитра создания |
 | CreatePatternBrush | `505` | Кисть создания шаблона |
-| CreatePenInDirect | `762` | Косвенное создание пера |
-| CreateFontInDirect | `763` | Createfontindirect |
-| CreateBrushInDirect | `764` | Createbrushindirect |
-| CreateRegion | `1791` | Создание региона |
+| CreatePenInDirect | `762` | Создаем penindirect |
+| CreateFontInDirect | `763` | Создать фонтиндирект |
+| CreateBrushInDirect | `764` | Создающая кисть indirect |
+| CreateRegion | `1791` | Создать регион |
 | None | `-1` | Тип записи нет. |
 
 ### Смотрите также

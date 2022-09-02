@@ -1,14 +1,14 @@
 ---
 title: TypeMaskRotation
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Эта константа является битовой маской для любого из битов флага ротации.
+description: Эта константа является битовой маской для любого из битов флага вращения.
 type: docs
 weight: 250
 url: /ru/net/aspose.imaging/matrix/typemaskrotation/
 ---
 ## Matrix.TypeMaskRotation field
 
-Эта константа является битовой маской для любого из битов флага ротации.
+Эта константа является битовой маской для любого из битов флага вращения.
 
 ```csharp
 public const int TypeMaskRotation;

@@ -1,14 +1,14 @@
 ---
 title: GifFrameBlock
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаGifFrameBlockaspose.imaging.fileformats.gif.blocks/gifframeblock.
+description: Инициализирует новый экземплярGifFrameBlockaspose.imaging.fileformats.gif.blocks/gifframeblock класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.gif.blocks/gifframeblock/gifframeblock/
 ---
 ## GifFrameBlock(ushort, ushort) {#constructor_9}
 
-Инициализирует новый экземпляр класса[`GifFrameBlock`](../../gifframeblock).
+Инициализирует новый экземпляр[`GifFrameBlock`](../../gifframeblock) класс.
 
 ```csharp
 public GifFrameBlock(ushort width, ushort height)
@@ -28,41 +28,18 @@ public GifFrameBlock(ushort width, ushort height)
 
 string dir = "c:\\temp\\";
 
- // Создаем GIF-изображение 100 x 100 px.
- // Первый блок по умолчанию полностью черный.
+// Создаем блок GIF Frame размером 100x100 пикселей.
 using (Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock firstBlock = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100))
-using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.FileFormats.Gif.GifImage(firstBlock))
 {
-     // Первый круг — red
-    Aspose.Imaging.Brushes.SolidBrush brush1 = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
+    // Заливаем весь блок красным.
+    Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(firstBlock);
+    Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
+    gr.FillRectangle(brush, firstBlock.Bounds);
 
-     // Второй круг — black
-    Aspose.Imaging.Brushes.SolidBrush brush2 = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Black);
-
-     // Постепенно увеличиваем угол красной дуги shape.
-    for (int angle = 10; angle <= 360; angle += 10)
+    using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.FileFormats.Gif.GifImage(firstBlock))
     {
-        Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock block = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100);
-
-        Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(block);
-        gr.FillPie(brush1, block.Bounds, 0, angle);
-
-        gifImage.AddBlock(block);
+        gifImage.Save(dir + "output.gif");
     }
-
-     // Постепенно увеличиваем угол черной дуги и стираем красную дугу.
-    for (int angle = 10; angle <= 360; angle += 10)
-    {
-        Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock block = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100);
-
-        Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(block);
-        gr.FillPie(brush2, block.Bounds, 0, angle);
-        gr.FillPie(brush1, block.Bounds, angle, 360 - angle);
-
-        gifImage.AddBlock(block);
-    }
-
-    gifImage.Save(dir + "animated_radar.gif");
 }
 ```
 
@@ -73,41 +50,21 @@ using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.Fil
 
 string dir = "c:\\temp\\";
 
- // Создаем GIF-изображение 100 x 100 px.
- // Первый блок по умолчанию полностью черный.
+// Создаем блок GIF Frame размером 100x100 пикселей.
 using (Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock firstBlock = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100))
-using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.FileFormats.Gif.GifImage(firstBlock))
 {
-     // Первый круг — red
-    Aspose.Imaging.Brushes.SolidBrush brush1 = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
+    // Заливаем весь блок красным.
+    Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(firstBlock);
+    Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
+    gr.FillRectangle(brush, firstBlock.Bounds);
 
-     // Второй круг — black
-    Aspose.Imaging.Brushes.SolidBrush brush2 = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Black);
+    // Используйте 4-битную палитру для уменьшения размера изображения. Качество может ухудшиться.
+    Aspose.Imaging.IColorPalette palette = Aspose.Imaging.ColorPaletteHelper.Create4Bit();
 
-     // Постепенно увеличиваем угол красной дуги shape.
-    for (int angle = 10; angle <= 360; angle += 10)
+    using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.FileFormats.Gif.GifImage(firstBlock, palette))
     {
-        Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock block = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100);
-
-        Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(block);
-        gr.FillPie(brush1, block.Bounds, 0, angle);
-
-        gifImage.AddBlock(block);
+        gifImage.Save(dir + "output.gif");
     }
-
-     // Постепенно увеличиваем угол черной дуги и стираем красную дугу.
-    for (int angle = 10; angle <= 360; angle += 10)
-    {
-        Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock block = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100);
-
-        Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(block);
-        gr.FillPie(brush2, block.Bounds, 0, angle);
-        gr.FillPie(brush1, block.Bounds, angle, 360 - angle);
-
-        gifImage.AddBlock(block);
-    }
-
-    gifImage.Save(dir + "animated_radar.gif");
 }
 ```
 
@@ -118,18 +75,18 @@ using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.Fil
 
 string dir = "c:\\temp\\";
 
- // Создаем GIF-изображение 100 x 100 px.
- // Первый блок по умолчанию полностью черный.
+// Создаем GIF-изображение 100 x 100 пикселей.
+// Первый блок по умолчанию полностью черный.
 using (Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock firstBlock = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100))
 using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.FileFormats.Gif.GifImage(firstBlock))
 {
-     // Первый круг — red
+    // Первый круг красный
     Aspose.Imaging.Brushes.SolidBrush brush1 = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
 
-     // Второй круг — black
+    // Второй круг черный
     Aspose.Imaging.Brushes.SolidBrush brush2 = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Black);
 
-     // Постепенно увеличиваем угол красной дуги shape.
+    // Постепенно увеличивайте угол красной дуги.
     for (int angle = 10; angle <= 360; angle += 10)
     {
         Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock block = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100);
@@ -140,7 +97,7 @@ using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.Fil
         gifImage.AddBlock(block);
     }
 
-     // Постепенно увеличиваем угол черной дуги и стираем красную дугу.
+    // Постепенно увеличивайте угол черной дуги и стирайте красную дугу.
     for (int angle = 10; angle <= 360; angle += 10)
     {
         Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock block = new Aspose.Imaging.FileFormats.Gif.Blocks.GifFrameBlock(100, 100);
@@ -166,7 +123,7 @@ using (Aspose.Imaging.FileFormats.Gif.GifImage gifImage = new Aspose.Imaging.Fil
 
 ## GifFrameBlock(ushort, ushort, ushort, ushort) {#constructor_10}
 
-Инициализирует новый экземпляр класса[`GifFrameBlock`](../../gifframeblock).
+Инициализирует новый экземпляр[`GifFrameBlock`](../../gifframeblock) класс.
 
 ```csharp
 public GifFrameBlock(ushort left, ushort top, ushort width, ushort height)
@@ -174,7 +131,7 @@ public GifFrameBlock(ushort left, ushort top, ushort width, ushort height)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| left | UInt16 | Левая позиция изображения. |
+| left | UInt16 | Левое положение изображения. |
 | top | UInt16 | Верхняя позиция изображения. |
 | width | UInt16 | Ширина изображения. |
 | height | UInt16 | Высота изображения. |
@@ -189,7 +146,7 @@ public GifFrameBlock(ushort left, ushort top, ushort width, ushort height)
 
 ## GifFrameBlock(ushort, ushort, ushort, ushort, IColorPalette, bool, bool, byte) {#constructor_11}
 
-Инициализирует новый экземпляр класса[`GifFrameBlock`](../../gifframeblock).
+Инициализирует новый экземпляр[`GifFrameBlock`](../../gifframeblock) класс.
 
 ```csharp
 public GifFrameBlock(ushort left, ushort top, ushort width, ushort height, 
@@ -198,14 +155,14 @@ public GifFrameBlock(ushort left, ushort top, ushort width, ushort height,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| left | UInt16 | Левая позиция изображения. |
+| left | UInt16 | Левое положение изображения. |
 | top | UInt16 | Верхняя позиция изображения. |
 | width | UInt16 | Ширина изображения. |
 | height | UInt16 | Высота изображения. |
 | colorPalette | IColorPalette | Цветовая палитра. |
-| isPaletteSorted | Boolean | если установлено значение` true` цветовая палитра сортируется. |
-| isGifFrameInterlaced | Boolean | если установлено значение` true` кадр GIF чересстрочный. |
-| bitsPerPixel | Byte | Количество бит на пиксель. |
+| isPaletteSorted | Boolean | если установлено`истинный` цветовая палитра отсортирована. |
+| isGifFrameInterlaced | Boolean | если установлено`истинный` кадр GIF чересстрочный. |
+| bitsPerPixel | Byte | Бит на пиксель. |
 
 ### Смотрите также
 
@@ -218,7 +175,7 @@ public GifFrameBlock(ushort left, ushort top, ushort width, ushort height,
 
 ## GifFrameBlock(RasterImage) {#constructor}
 
-Инициализирует новый экземпляр класса[`GifFrameBlock`](../../gifframeblock).
+Инициализирует новый экземпляр[`GifFrameBlock`](../../gifframeblock) класс.
 
 ```csharp
 public GifFrameBlock(RasterImage image)
@@ -226,7 +183,7 @@ public GifFrameBlock(RasterImage image)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| image | RasterImage | Изображение для инициализации пикселей кадра и данных палитры. |
+| image | RasterImage | Изображение для инициализации пикселя кадра и данных палитры. |
 
 ### Смотрите также
 
@@ -239,7 +196,7 @@ public GifFrameBlock(RasterImage image)
 
 ## GifFrameBlock(RasterImage, ushort, ushort) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`GifFrameBlock`](../../gifframeblock).
+Инициализирует новый экземпляр[`GifFrameBlock`](../../gifframeblock) класс.
 
 ```csharp
 public GifFrameBlock(RasterImage image, ushort left, ushort top)
@@ -247,8 +204,8 @@ public GifFrameBlock(RasterImage image, ushort left, ushort top)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| image | RasterImage | Изображение для инициализации пикселей кадра и данных палитры. |
-| left | UInt16 | Левая позиция изображения. |
+| image | RasterImage | Изображение для инициализации пикселя кадра и данных палитры. |
+| left | UInt16 | Левое положение изображения. |
 | top | UInt16 | Верхняя позиция изображения. |
 
 ### Смотрите также
@@ -262,7 +219,7 @@ public GifFrameBlock(RasterImage image, ushort left, ushort top)
 
 ## GifFrameBlock(RasterImage, ushort, ushort, bool, bool, byte) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`GifFrameBlock`](../../gifframeblock).
+Инициализирует новый экземпляр[`GifFrameBlock`](../../gifframeblock) класс.
 
 ```csharp
 public GifFrameBlock(RasterImage image, ushort left, ushort top, bool isPaletteSorted, 
@@ -271,12 +228,12 @@ public GifFrameBlock(RasterImage image, ushort left, ushort top, bool isPaletteS
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| image | RasterImage | Изображение для инициализации пикселей кадра и данных палитры. |
-| left | UInt16 | Левая позиция изображения. |
+| image | RasterImage | Изображение для инициализации пикселя кадра и данных палитры. |
+| left | UInt16 | Левое положение изображения. |
 | top | UInt16 | Верхняя позиция изображения. |
-| isPaletteSorted | Boolean | если установлено значение` true` цветовая палитра сортируется. |
-| isGifFrameInterlaced | Boolean | если установлено значение` true` кадр GIF чересстрочный. |
-| lzwCodeSize | Byte | Количество бит на пиксель. |
+| isPaletteSorted | Boolean | если установлено`истинный` цветовая палитра отсортирована. |
+| isGifFrameInterlaced | Boolean | если установлено`истинный` кадр GIF чересстрочный. |
+| lzwCodeSize | Byte | Бит на пиксель. |
 
 ### Смотрите также
 
@@ -289,7 +246,7 @@ public GifFrameBlock(RasterImage image, ushort left, ushort top, bool isPaletteS
 
 ## GifFrameBlock(Stream) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`GifFrameBlock`](../../gifframeblock).
+Инициализирует новый экземпляр[`GifFrameBlock`](../../gifframeblock) класс.
 
 ```csharp
 public GifFrameBlock(Stream stream)
@@ -297,7 +254,7 @@ public GifFrameBlock(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток для загрузки изображения и инициализации пикселя кадра и данных палитры. |
+| stream | Stream | Поток для загрузки изображения и инициализации пикселей кадра и данных палитры. |
 
 ### Смотрите также
 
@@ -309,7 +266,7 @@ public GifFrameBlock(Stream stream)
 
 ## GifFrameBlock(Stream, ushort, ushort) {#constructor_4}
 
-Инициализирует новый экземпляр класса[`GifFrameBlock`](../../gifframeblock).
+Инициализирует новый экземпляр[`GifFrameBlock`](../../gifframeblock) класс.
 
 ```csharp
 public GifFrameBlock(Stream stream, ushort left, ushort top)
@@ -317,8 +274,8 @@ public GifFrameBlock(Stream stream, ushort left, ushort top)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток для загрузки изображения и инициализации пикселя кадра и данных палитры. |
-| left | UInt16 | Левая позиция изображения. |
+| stream | Stream | Поток для загрузки изображения и инициализации пикселей кадра и данных палитры. |
+| left | UInt16 | Левое положение изображения. |
 | top | UInt16 | Верхняя позиция изображения. |
 
 ### Смотрите также
@@ -331,7 +288,7 @@ public GifFrameBlock(Stream stream, ushort left, ushort top)
 
 ## GifFrameBlock(Stream, ushort, ushort, bool, bool, byte) {#constructor_5}
 
-Инициализирует новый экземпляр класса[`GifFrameBlock`](../../gifframeblock).
+Инициализирует новый экземпляр[`GifFrameBlock`](../../gifframeblock) класс.
 
 ```csharp
 public GifFrameBlock(Stream stream, ushort left, ushort top, bool isPaletteSorted, 
@@ -340,12 +297,12 @@ public GifFrameBlock(Stream stream, ushort left, ushort top, bool isPaletteSorte
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток для загрузки изображения и инициализации пикселя кадра и данных палитры. |
-| left | UInt16 | Левая позиция изображения. |
+| stream | Stream | Поток для загрузки изображения и инициализации пикселей кадра и данных палитры. |
+| left | UInt16 | Левое положение изображения. |
 | top | UInt16 | Верхняя позиция изображения. |
-| isPaletteSorted | Boolean | если установлено значение` true` цветовая палитра сортируется. |
-| isGifFrameInterlaced | Boolean | если установлено значение` true` кадр GIF чересстрочный. |
-| lzwCodeSize | Byte | Количество бит на пиксель. |
+| isPaletteSorted | Boolean | если установлено`истинный` цветовая палитра отсортирована. |
+| isGifFrameInterlaced | Boolean | если установлено`истинный` кадр GIF чересстрочный. |
+| lzwCodeSize | Byte | Бит на пиксель. |
 
 ### Смотрите также
 
@@ -357,7 +314,7 @@ public GifFrameBlock(Stream stream, ushort left, ushort top, bool isPaletteSorte
 
 ## GifFrameBlock(string) {#constructor_6}
 
-Инициализирует новый экземпляр класса[`GifFrameBlock`](../../gifframeblock).
+Инициализирует новый экземпляр[`GifFrameBlock`](../../gifframeblock) класс.
 
 ```csharp
 public GifFrameBlock(string path)
@@ -365,7 +322,7 @@ public GifFrameBlock(string path)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Путь для загрузки изображения и инициализации пикселя кадра и данных палитры. |
+| path | String | Путь для загрузки изображения и инициализации пикселей кадра и данных палитры. |
 
 ### Смотрите также
 
@@ -377,7 +334,7 @@ public GifFrameBlock(string path)
 
 ## GifFrameBlock(string, ushort, ushort) {#constructor_7}
 
-Инициализирует новый экземпляр класса[`GifFrameBlock`](../../gifframeblock).
+Инициализирует новый экземпляр[`GifFrameBlock`](../../gifframeblock) класс.
 
 ```csharp
 public GifFrameBlock(string path, ushort left, ushort top)
@@ -385,8 +342,8 @@ public GifFrameBlock(string path, ushort left, ushort top)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Путь для загрузки изображения и инициализации пикселя кадра и данных палитры. |
-| left | UInt16 | Левая позиция изображения. |
+| path | String | Путь для загрузки изображения и инициализации пикселей кадра и данных палитры. |
+| left | UInt16 | Левое положение изображения. |
 | top | UInt16 | Верхняя позиция изображения. |
 
 ### Смотрите также
@@ -399,7 +356,7 @@ public GifFrameBlock(string path, ushort left, ushort top)
 
 ## GifFrameBlock(string, ushort, ushort, bool, bool, byte) {#constructor_8}
 
-Инициализирует новый экземпляр класса[`GifFrameBlock`](../../gifframeblock).
+Инициализирует новый экземпляр[`GifFrameBlock`](../../gifframeblock) класс.
 
 ```csharp
 public GifFrameBlock(string path, ushort left, ushort top, bool isPaletteSorted, 
@@ -408,12 +365,12 @@ public GifFrameBlock(string path, ushort left, ushort top, bool isPaletteSorted,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | String | Путь для загрузки изображения и инициализации пикселя кадра и данных палитры. |
-| left | UInt16 | Левая позиция изображения. |
+| path | String | Путь для загрузки изображения и инициализации пикселей кадра и данных палитры. |
+| left | UInt16 | Левое положение изображения. |
 | top | UInt16 | Верхняя позиция изображения. |
-| isPaletteSorted | Boolean | если установлено значение` true` цветовая палитра сортируется. |
-| isGifFrameInterlaced | Boolean | если установлено значение` true` кадр GIF чересстрочный. |
-| lzwCodeSize | Byte | Количество бит на пиксель. |
+| isPaletteSorted | Boolean | если установлено`истинный` цветовая палитра отсортирована. |
+| isGifFrameInterlaced | Boolean | если установлено`истинный` кадр GIF чересстрочный. |
+| lzwCodeSize | Byte | Бит на пиксель. |
 
 ### Смотрите также
 

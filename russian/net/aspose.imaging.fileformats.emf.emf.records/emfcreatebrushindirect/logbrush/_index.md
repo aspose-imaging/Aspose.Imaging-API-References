@@ -1,14 +1,14 @@
 ---
 title: LogBrush
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает Объект LogBrushEx раздел 2.2.12 определяющий стиль цвет и шаблон логической кисти. Поле BrushStyle в этом объекте ДОЛЖНО быть BS_SOLID BS_HATCHED или BS_NULL.
+description: Получает или задает объект LogBrushEx раздел 2.2.12 определяющий стиль цвет и шаблон логической кисти. Поле BrushStyle в этом объекте ДОЛЖНО быть BS_SOLID BS_HATCHED или BS_NULL.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcreatebrushindirect/logbrush/
 ---
 ## EmfCreateBrushIndirect.LogBrush property
 
-Получает или задает Объект LogBrushEx (раздел 2.2.12), определяющий стиль, цвет и шаблон логической кисти. Поле BrushStyle в этом объекте ДОЛЖНО быть BS_SOLID, BS_HATCHED или BS_NULL.
+Получает или задает объект LogBrushEx (раздел 2.2.12), определяющий стиль, цвет и шаблон логической кисти. Поле BrushStyle в этом объекте ДОЛЖНО быть BS_SOLID, BS_HATCHED или BS_NULL.
 
 ```csharp
 public EmfLogBrushEx LogBrush { get; set; }

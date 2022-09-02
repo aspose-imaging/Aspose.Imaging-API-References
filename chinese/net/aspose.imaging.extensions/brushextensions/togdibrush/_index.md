@@ -1,14 +1,14 @@
 ---
 title: ToGdiBrush
 second_title: Aspose.Imaging for .NET API 参考
-description: 将Brushaspose.imaging/brush转换为Brush
+description: 转换Brushaspose.imaging/brush到Brush .
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.extensions/brushextensions/togdibrush/
 ---
 ## BrushExtensions.ToGdiBrush method
 
-将[`Brush`](../../../aspose.imaging/brush)转换为Brush。
+转换[`Brush`](../../../aspose.imaging/brush)到Brush .
 
 ```csharp
 public static Brush ToGdiBrush(Brush brush)
@@ -16,11 +16,11 @@ public static Brush ToGdiBrush(Brush brush)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../../aspose.imaging/brush)进行转换。 |
+| brush | Brush | 这[`Brush`](../../../aspose.imaging/brush)转换。 |
 
 ### 返回值
 
-转换后的Brush。
+转换的Brush.
 
 ### 也可以看看
 

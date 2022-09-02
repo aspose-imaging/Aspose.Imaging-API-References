@@ -1,14 +1,14 @@
 ---
 title: EmfPlgBlt
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPlgBltaspose.imaging.fileformats.emf.emf.records/emfplgblt类的新实例
+description: 初始化EmfPlgBltaspose.imaging.fileformats.emf.emf.records/emfplgblt类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfplgblt/emfplgblt/
 ---
 ## EmfPlgBlt constructor
 
-初始化[`EmfPlgBlt`](../../emfplgblt)类的新实例。
+初始化[`EmfPlgBlt`](../../emfplgblt)类.
 
 ```csharp
 public EmfPlgBlt(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfPlgBlt(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 

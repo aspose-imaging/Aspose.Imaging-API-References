@@ -18,21 +18,21 @@ public sealed class EmfPolygon : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPolygon](emfpolygon#constructor)() | Инициализирует новый экземпляр класса[`EmfPolygon`](../emfpolygon). |
-| [EmfPolygon](emfpolygon#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfPolygon`](../emfpolygon). |
+| [EmfPolygon](emfpolygon#constructor)() | Инициализирует новый экземпляр[`EmfPolygon`](../emfpolygon) класс. |
+| [EmfPolygon](emfpolygon#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfPolygon`](../emfpolygon) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolygon/apoints) { get; set; } | Получает или задает массив длины счетчика объектов WMF PointL ([MS-WMF], раздел 2.2.2.15) который указывает вершины многоугольник в логических единицах. |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolygon/bounds) { get; set; } | Получает или задает 128-битный объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который указывает ограничивающий прямоугольник в устройстве единицы. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolygon/apoints) { get; set; } | Получает или задает массив длин объектов WMF PointL ([MS-WMF], раздел 2.2.2.15) , который указывает вершины многоугольника в логических единицах. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolygon/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF ([MS-WMF], раздел 2.2.2.19), который указывает ограничивающий прямоугольник в единицах измерения устройства. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Примечания
 
-Многоугольник ДОЛЖЕН быть обведен текущим пером и заполнен текущей кистью и режим заливки полигона. Многоугольник ДОЛЖЕН автоматически закрываться, проводя линию из последней вершины в первую
+Многоугольник ДОЛЖЕН быть обведен текущим пером и заполнен с использованием текущей кисти и режима заливки полигона . Многоугольник ДОЛЖЕН автоматически закрываться путем рисования линии от последней вершины к вершине first .
 
 ### Смотрите также
 

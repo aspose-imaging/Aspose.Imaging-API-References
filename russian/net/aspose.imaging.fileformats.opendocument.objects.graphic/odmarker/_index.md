@@ -18,13 +18,13 @@ public class OdMarker : OdGraphicObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdMarker](odmarker)(OdObject) | Инициализирует новый экземпляр класса[`OdMarker`](../odmarker). |
+| [OdMarker](odmarker)(OdObject) | Инициализирует новый экземпляр[`OdMarker`](../odmarker) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [Name](../../aspose.imaging.fileformats.opendocument.objects.graphic/odmarker/name) { get; set; } | Получает или задает имя. |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Получает родительский объект. |

@@ -56,6 +56,7 @@ is_root: true
 | [Aspose.Imaging.FileFormats.Eps.Consts](./aspose.imaging.fileformats.eps.consts) | The namespace contains EPS format constants |
 | [Aspose.Imaging.FileFormats.Gif](./aspose.imaging.fileformats.gif) | The namespace handles Gif file format processing. |
 | [Aspose.Imaging.FileFormats.Gif.Blocks](./aspose.imaging.fileformats.gif.blocks) | The namespace contains Gif file format entities. |
+| [Aspose.Imaging.FileFormats.Ico](./aspose.imaging.fileformats.ico) | The namespace handling ICO file format processing. |
 | [Aspose.Imaging.FileFormats.Jpeg](./aspose.imaging.fileformats.jpeg) | The namespace handles Jpeg file format processing. |
 | [Aspose.Imaging.FileFormats.Jpeg2000](./aspose.imaging.fileformats.jpeg2000) | The namespace handles Jpeg2000 file format processing. |
 | [Aspose.Imaging.FileFormats.OpenDocument](./aspose.imaging.fileformats.opendocument) | The Open document graphic objects |

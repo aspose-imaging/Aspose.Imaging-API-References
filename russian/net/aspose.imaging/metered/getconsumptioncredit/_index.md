@@ -1,14 +1,14 @@
 ---
 title: GetConsumptionCredit
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает кредит потребления
+description: Получает потребительский кредит
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging/metered/getconsumptioncredit/
 ---
 ## Metered.GetConsumptionCredit method
 
-Получает кредит потребления
+Получает потребительский кредит
 
 ```csharp
 public static decimal GetConsumptionCredit()
@@ -16,7 +16,7 @@ public static decimal GetConsumptionCredit()
 
 ### Возвращаемое значение
 
-количество потребления
+объем потребления
 
 ### Смотрите также
 

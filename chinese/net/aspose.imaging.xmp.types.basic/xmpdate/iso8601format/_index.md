@@ -16,7 +16,7 @@ public const string Iso8601Format;
 
 ### 评论
 
-查看更多:https://en.wikipedia.org/wiki/ISO_8601。
+查看更多：https://en.wikipedia.org/wiki/ISO_8601.
 
 ### 也可以看看
 

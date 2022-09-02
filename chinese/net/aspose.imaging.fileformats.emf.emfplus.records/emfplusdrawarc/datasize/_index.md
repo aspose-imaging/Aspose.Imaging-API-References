@@ -1,14 +1,14 @@
 ---
 title: DataSize
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置数据的大小 一个 32 位无符号整数它指定后面的特定于记录的数据的 字节的 32 位对齐数量 对于这种记录类型值必须是以下之一 0x00000010 如果在标志字段中设置了 C 位 0x00000018 如果标志字段中的 C 位被清除
+description: 获取或设置数据的大小 一个 32 位无符号整数指定随后的记录特定数据的 32 位对齐数量的 个字节 对于此记录类型值必须是以下之一 0x00000010 如果在标志字段中设置了 C 位 0x00000018 如果在标志字段中清除 C 位
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/datasize/
 ---
 ## EmfPlusDrawArc.DataSize property
 
-获取或设置数据的大小。 一个 32 位无符号整数，它指定后面的特定于记录的数据的 字节的 32 位对齐数量。 对于这种记录类型，值必须是以下之一: 0x00000010 如果在标志字段中设置了 C 位。 0x00000018 如果标志字段中的 C 位被清除。
+获取或设置数据的大小。 一个 32 位无符号整数，指定随后的记录特定数据的 32 位对齐数量的 个字节。 对于此记录类型，值必须是以下之一: 0x00000010 如果在标志字段中设置了 C 位。 0x00000018 如果在标志字段中清除 C 位。
 
 ```csharp
 public override int DataSize { get; set; }

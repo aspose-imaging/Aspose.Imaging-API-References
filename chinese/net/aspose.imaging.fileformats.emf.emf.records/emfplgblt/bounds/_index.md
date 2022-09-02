@@ -1,14 +1,14 @@
 ---
 title: Bounds
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置定义 边界矩形的 WMF RectL 对象MS-WMF 第 2.2.2.19 节以设备为单位用于输出到目的地
+description: 获取或设置一个 WMF RectL 对象MS-WMF 第 2.2.2.19 节该对象以设备单位定义 边界矩形用于输出到目标
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfplgblt/bounds/
 ---
 ## EmfPlgBlt.Bounds property
 
-获取或设置定义 边界矩形的 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），以设备为单位，用于输出到目的地。
+获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象以设备单位定义 边界矩形，用于输出到目标。
 
 ```csharp
 public Rectangle Bounds { get; set; }

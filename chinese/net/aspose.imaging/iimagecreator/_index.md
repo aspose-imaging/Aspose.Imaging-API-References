@@ -1,14 +1,14 @@
 ---
 title: IImageCreator
 second_title: Aspose.Imaging for .NET API 参考
-description: 图像创建者
+description: 图像创建者.
 type: docs
 weight: 9460
 url: /zh/net/aspose.imaging/iimagecreator/
 ---
 ## IImageCreator interface
 
-图像创建者。
+图像创建者.
 
 ```csharp
 public interface IImageCreator
@@ -18,7 +18,7 @@ public interface IImageCreator
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Create](../../aspose.imaging/iimagecreator/create)(StreamContainer, ImageOptionsBase, int, int) | 使用 &lt;paramref name="imageOptions"&gt;&lt;/paramref&gt; 创建一个新的图像实例。 |
+| [Create](../../aspose.imaging/iimagecreator/create)(StreamContainer, ImageOptionsBase, int, int) | 创建一个新的图像实例*imageOptions* . |
 
 ### 也可以看看
 

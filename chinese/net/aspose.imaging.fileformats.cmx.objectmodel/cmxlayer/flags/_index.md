@@ -16,7 +16,7 @@ public uint Flags { get; set; }
 
 ### 适当的价值
 
-标志。
+旗帜.
 
 ### 也可以看看
 

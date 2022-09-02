@@ -3,7 +3,7 @@ title: CdrRasterizationOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9920
+weight: 9930
 url: /net/aspose.imaging.imageoptions/cdrrasterizationoptions/
 ---
 ## CdrRasterizationOptions class

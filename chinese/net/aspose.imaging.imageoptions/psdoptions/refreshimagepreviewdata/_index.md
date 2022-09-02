@@ -1,14 +1,14 @@
 ---
 title: RefreshImagePreviewData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值该值指示是否 刷新图像预览数据 - 用于最大化与其他 PSD 图像查看器的兼容性的选项 请注意Compact Framework 平台不支持将文本图层绘制到最终布局
+description: 获取或设置一个值指示是否 刷新图像预览数据 - 用于最大限度地与其他 PSD 图像查看器兼容的选项 请注意Compact Framework 平台不支持将文本图层绘制到最终布局
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.imageoptions/psdoptions/refreshimagepreviewdata/
 ---
 ## PsdOptions.RefreshImagePreviewData property
 
-获取或设置一个值，该值指示是否 [刷新图像预览数据] - 用于最大化与其他 PSD 图像查看器的兼容性的选项。 请注意，Compact Framework 平台不支持将文本图层绘制到最终布局
+获取或设置一个值，指示是否 [刷新图像预览数据] - 用于最大限度地与其他 PSD 图像查看器兼容的选项。 请注意，Compact Framework 平台不支持将文本图层绘制到最终布局
 
 ```csharp
 public bool RefreshImagePreviewData { get; set; }
@@ -16,7 +16,7 @@ public bool RefreshImagePreviewData { get; set; }
 
 ### 适当的价值
 
-` true` if [刷新图像预览数据];否则，` false` 。
+`真的` if [刷新图像预览数据];否则，`错误的` .
 
 ### 也可以看看
 

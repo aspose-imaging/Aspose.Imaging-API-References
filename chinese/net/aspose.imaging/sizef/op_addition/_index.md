@@ -1,14 +1,14 @@
 ---
 title: op_Addition
 second_title: Aspose.Imaging for .NET API 参考
-description: 将一个SizeFaspose.imaging/sizef结构的宽度和高度添加到另一个R5 的宽度和高度TAspose.Imaging.SizeF结构
+description: 加一的宽和高SizeFaspose.imaging/sizef结构到另一个的宽度和高度SizeFaspose.imaging/sizef结构.
 type: docs
 weight: 130
 url: /zh/net/aspose.imaging/sizef/op_addition/
 ---
 ## SizeF Addition operator
 
-将一个[`SizeF`](../../sizef)结构的宽度和高度添加到另一个:::R5 的宽度和高度:T:Aspose.Imaging.SizeF:::结构。
+加一的宽和高[`SizeF`](../../sizef)结构到另一个的宽度和高度[`SizeF`](../../sizef)结构.
 
 ```csharp
 public static SizeF operator +(SizeF size1, SizeF size2)
@@ -16,12 +16,12 @@ public static SizeF operator +(SizeF size1, SizeF size2)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| size1 | SizeF | 第一个[`SizeF`](../../sizef)添加。 |
-| size2 | SizeF | 第二个[`SizeF`](../../sizef)添加。 |
+| size1 | SizeF | 首先[`SizeF`](../../sizef)添加。 |
+| size2 | SizeF | 第二[`SizeF`](../../sizef)添加。 |
 
 ### 返回值
 
-A[`SizeF`](../../sizef)结构是加法运算的结果。
+一个[`SizeF`](../../sizef)结构是加法运算的结果。
 
 ### 也可以看看
 

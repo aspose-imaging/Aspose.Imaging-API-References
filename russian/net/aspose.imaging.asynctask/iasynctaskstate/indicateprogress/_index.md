@@ -16,7 +16,7 @@ public void IndicateProgress(EventType eventType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| eventType | EventType | Состояние выполнения. |
+| eventType | EventType | Состояние прогресса. |
 
 ### Смотрите также
 

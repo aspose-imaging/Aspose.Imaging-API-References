@@ -8,7 +8,7 @@ url: /zh/net/aspose.imaging.fileformats.dng.decoder/rawdata/imagedataparameters/
 ---
 ## RawData.ImageDataParameters property
 
-获取或设置图像数据参数。
+获取或设置图像数据参数
 
 ```csharp
 public ImageParameters ImageDataParameters { get; set; }
@@ -16,7 +16,7 @@ public ImageParameters ImageDataParameters { get; set; }
 
 ### 适当的价值
 
-idata。
+idata.
 
 ### 也可以看看
 

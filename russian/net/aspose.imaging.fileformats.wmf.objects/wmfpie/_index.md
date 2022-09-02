@@ -1,14 +1,14 @@
 ---
 title: WmfPie
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_PIE рисует секторный клин ограниченный пересечением эллипса и двух радиалов. Круговая диаграмма обводится пером и заполняется кистью определенной в контексте устройства воспроизведения .
+description: Запись META_PIE рисует клин в форме пирога ограниченный пересечением эллипса и двух радиалов. Круговая диаграмма очерчена с помощью пера и заполнена с помощью кисти которые определены в контексте устройства воспроизведения.
 type: docs
 weight: 8840
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfpie/
 ---
 ## WmfPie class
 
-Запись META_PIE рисует секторный клин, ограниченный пересечением эллипса и двух радиалов. Круговая диаграмма обводится пером и заполняется кистью, определенной в контексте устройства воспроизведения .
+Запись META_PIE рисует клин в форме пирога, ограниченный пересечением эллипса и двух радиалов. Круговая диаграмма очерчена с помощью пера и заполнена с помощью кисти, которые определены в контексте устройства воспроизведения.
 
 ```csharp
 public class WmfPie : WmfRectangle
@@ -25,7 +25,7 @@ public class WmfPie : WmfRectangle
 | Имя | Описание |
 | --- | --- |
 | [Radial1](../../aspose.imaging.fileformats.wmf.objects/wmfpie/radial1) { get; set; } | Получает или задает радиал1. |
-| [Radial2](../../aspose.imaging.fileformats.wmf.objects/wmfpie/radial2) { get; set; } | Получает или устанавливает радиал2. |
+| [Radial2](../../aspose.imaging.fileformats.wmf.objects/wmfpie/radial2) { get; set; } | Получает или задает радиал2. |
 | [Rectangle](../../aspose.imaging.fileformats.wmf.objects/wmfrectangle/rectangle) { get; set; } | Получает или задает прямоугольник. |
 
 ### Смотрите также

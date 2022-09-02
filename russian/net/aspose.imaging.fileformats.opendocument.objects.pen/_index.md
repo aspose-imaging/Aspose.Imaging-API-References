@@ -12,7 +12,7 @@ url: /ru/net/aspose.imaging.fileformats.opendocument.objects.pen/
 
 | Учебный класс | Описание |
 | --- | --- |
-| [OdPen](./odpen) | Перо открытого документа |
+| [OdPen](./odpen) | Открытый документ pen |
 ## перечисление
 
 | перечисление | Описание |

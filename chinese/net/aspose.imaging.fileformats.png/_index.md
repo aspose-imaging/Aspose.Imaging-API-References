@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.FileFormats.Png
 second_title: Aspose.Imaging for .NET API 参考
-description: 命名空间处理 Png 文件格式处理
+description: 命名空间处理Png文件格式处理
 type: docs
 weight: 560
 url: /zh/net/aspose.imaging.fileformats.png/
 ---
-命名空间处理 Png 文件格式处理。
+命名空间处理Png文件格式处理。
 
 ## 课程
 

@@ -1,14 +1,14 @@
 ---
 title: XmpMeta
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Представляет xmpmeta. По желанию. Целью этого элемента является идентификация метаданных XMP в общем тексте XML которые могут содержать другие не-XMP варианты использования RDF.
+description: Представляет xmpmeta. Необязательный. Целью этого элемента является идентификация метаданных XMP в общем тексте XML которые могут содержать другие не-XMP варианты использования RDF.
 type: docs
-weight: 11780
+weight: 11770
 url: /ru/net/aspose.imaging.xmp/xmpmeta/
 ---
 ## XmpMeta class
 
-Представляет xmpmeta. По желанию. Целью этого элемента является идентификация метаданных XMP в общем тексте XML, которые могут содержать другие не-XMP варианты использования RDF.
+Представляет xmpmeta. Необязательный. Целью этого элемента является идентификация метаданных XMP в общем тексте XML, которые могут содержать другие не-XMP варианты использования RDF.
 
 ```csharp
 public sealed class XmpMeta : XmpElementBase, IEquatable<XmpMeta>, IXmlValue
@@ -18,8 +18,8 @@ public sealed class XmpMeta : XmpElementBase, IEquatable<XmpMeta>, IXmlValue
 
 | Имя | Описание |
 | --- | --- |
-| [XmpMeta](xmpmeta#constructor)() | Инициализирует новый экземпляр класса[`XmpMeta`](../xmpmeta). |
-| [XmpMeta](xmpmeta#constructor_1)(string) | Инициализирует новый экземпляр класса[`XmpMeta`](../xmpmeta). |
+| [XmpMeta](xmpmeta#constructor)() | Инициализирует новый экземпляр[`XmpMeta`](../xmpmeta) класс. |
+| [XmpMeta](xmpmeta#constructor_1)(string) | Инициализирует новый экземпляр[`XmpMeta`](../xmpmeta) класс. |
 
 ## Характеристики
 
@@ -33,7 +33,7 @@ public sealed class XmpMeta : XmpElementBase, IEquatable<XmpMeta>, IXmlValue
 | --- | --- |
 | override [AddAttribute](../../aspose.imaging.xmp/xmpmeta/addattribute)(string, string) | Добавляет атрибут. |
 | virtual [ClearAttributes](../../aspose.imaging.xmp/xmpelementbase/clearattributes)() | Удаляет все атрибуты. |
-| override [Equals](../../aspose.imaging.xmp/xmpmeta/equals#equals_2)(object) | Определяет, равен ли указанныйObjectэтому экземпляру. |
+| override [Equals](../../aspose.imaging.xmp/xmpmeta/equals#equals_2)(object) | Определяет, является ли указанныйObject , равно этому экземпляру. |
 | [Equals](../../aspose.imaging.xmp/xmpelementbase/equals)(XmpElementBase) | Указывает, равен ли текущий объект другому объекту того же типа. |
 | [Equals](../../aspose.imaging.xmp/xmpmeta/equals#equals_1)(XmpMeta) | Указывает, равен ли текущий объект другому объекту того же типа. |
 | virtual [GetAttribute](../../aspose.imaging.xmp/xmpelementbase/getattribute)(string) | Получает атрибут. |

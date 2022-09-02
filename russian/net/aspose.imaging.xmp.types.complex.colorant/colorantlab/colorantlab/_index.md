@@ -1,14 +1,14 @@
 ---
 title: ColorantLab
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаColorantLabaspose.imaging.xmp.types.complex.colorant/colorantlab.
+description: Инициализирует новый экземплярColorantLabaspose.imaging.xmp.types.complex.colorant/colorantlab класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp.types.complex.colorant/colorantlab/colorantlab/
 ---
 ## ColorantLab() {#constructor}
 
-Инициализирует новый экземпляр класса[`ColorantLab`](../../colorantlab).
+Инициализирует новый экземпляр[`ColorantLab`](../../colorantlab) класс.
 
 ```csharp
 public ColorantLab()
@@ -24,7 +24,7 @@ public ColorantLab()
 
 ## ColorantLab(int, int, float) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`ColorantLab`](../../colorantlab).
+Инициализирует новый экземпляр[`ColorantLab`](../../colorantlab) класс.
 
 ```csharp
 public ColorantLab(int a, int b, float l)
@@ -33,7 +33,7 @@ public ColorantLab(int a, int b, float l)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | a | Int32 | Компонент. |
-| b | Int32 | Компонент B. |
+| b | Int32 | Компонент Б. |
 | l | Single | L компонент. |
 
 ### Смотрите также

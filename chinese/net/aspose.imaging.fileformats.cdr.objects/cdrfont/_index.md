@@ -24,7 +24,7 @@ public class CdrFont : CdrDictionaryItem
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示该实例是否被释放。 |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示此实例是否被释放。 |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | 获取或设置文档。 |
 | [Encoding](../../aspose.imaging.fileformats.cdr.objects/cdrfont/encoding) { get; set; } | 获取或设置编码。 |
 | [FontName](../../aspose.imaging.fileformats.cdr.objects/cdrfont/fontname) { get; set; } | 获取或设置字体名称。 |
@@ -35,10 +35,11 @@ public class CdrFont : CdrDictionaryItem
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 释放当前实例。 |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 处理当前实例。 |
 
 ### 也可以看看
 
+* class [CdrObjectContainer](../cdrobjectcontainer)
 * class [CdrDictionaryItem](../cdrdictionaryitem)
 * 命名空间 [Aspose.Imaging.FileFormats.Cdr.Objects](../../aspose.imaging.fileformats.cdr.objects)
 * 部件 [Aspose.Imaging](../../)

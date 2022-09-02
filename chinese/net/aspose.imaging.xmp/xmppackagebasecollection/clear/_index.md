@@ -1,14 +1,14 @@
 ---
 title: Clear
 second_title: Aspose.Imaging for .NET API 参考
-description: 清除所有XmpPackageaspose.imaging.xmp/xmppackage内部集合
+description: 全部清除XmpPackageaspose.imaging.xmp/xmppackage内部集合.
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.xmp/xmppackagebasecollection/clear/
 ---
 ## XmpPackageBaseCollection.Clear method
 
-清除所有[`XmpPackage`](../../xmppackage)内部集合。
+全部清除[`XmpPackage`](../../xmppackage)内部集合.
 
 ```csharp
 public void Clear()

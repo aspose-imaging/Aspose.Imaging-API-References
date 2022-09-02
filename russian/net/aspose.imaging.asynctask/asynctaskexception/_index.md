@@ -18,7 +18,7 @@ public class AsyncTaskException : Exception
 
 | Имя | Описание |
 | --- | --- |
-| [AsyncTaskException](asynctaskexception)(string) | Инициализирует новый экземпляр класса[`AsyncTaskException`](../asynctaskexception). |
+| [AsyncTaskException](asynctaskexception)(string) | Инициализирует новый экземпляр[`AsyncTaskException`](../asynctaskexception) класс. |
 
 ### Смотрите также
 

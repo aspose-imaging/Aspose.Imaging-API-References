@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Imaging for .NET API 参考
-description: 删除具有指定键的值
+description: 删除指定键的值
 type: docs
 weight: 110
 url: /zh/net/aspose.imaging.xmp/xmppackage/remove/
 ---
 ## XmpPackage.Remove method
 
-删除具有指定键的值。
+删除指定键的值。
 
 ```csharp
 public virtual bool Remove(string key)
@@ -16,11 +16,11 @@ public virtual bool Remove(string key)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| key | String | 用移除值标识的键的字符串表示。 |
+| key | String | 用删除的值标识的键的字符串表示形式。 |
 
 ### 返回值
 
-如果删除了具有指定键的值，则返回 true。
+如果指定键的值被删除，则返回真。
 
 ### 也可以看看
 

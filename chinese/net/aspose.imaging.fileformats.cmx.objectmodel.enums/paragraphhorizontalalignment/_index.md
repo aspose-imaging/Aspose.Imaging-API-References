@@ -23,7 +23,7 @@ public enum ParagraphHorizontalAlignment
 | Center | `2` | 在文本框左右两侧居中文本。 |
 | Right | `3` | 将文本与文本框的右侧对齐。 |
 | FullJustify | `4` | 将文本（不包括最后一行）与文本框的左侧和右侧对齐。 |
-| ForceJustify | `5` | 将文本与文本框的左右两侧对齐。 |
+| ForceJustify | `5` | 将文本与文本框的左右两边对齐。 |
 
 ### 也可以看看
 

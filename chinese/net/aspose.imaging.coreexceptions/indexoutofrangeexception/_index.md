@@ -18,8 +18,8 @@ public class IndexOutOFRangeException : Exception
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IndexOutOFRangeException](indexoutofrangeexception#constructor)(string) | 初始化[`CompressorException`](../compressorexception)类的新实例。 |
-| [IndexOutOFRangeException](indexoutofrangeexception#constructor_1)(string, Exception) | 初始化[`CompressorException`](../compressorexception)类的新实例。 |
+| [IndexOutOFRangeException](indexoutofrangeexception#constructor)(string) | 初始化[`CompressorException`](../compressorexception)类. |
+| [IndexOutOFRangeException](indexoutofrangeexception#constructor_1)(string, Exception) | 初始化[`CompressorException`](../compressorexception)类. |
 
 ### 也可以看看
 

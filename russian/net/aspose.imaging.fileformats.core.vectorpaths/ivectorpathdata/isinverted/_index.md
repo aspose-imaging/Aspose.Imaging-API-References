@@ -1,14 +1,14 @@
 ---
 title: IsInverted
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее инвертирован ли данный экземпляр.
+description: Получает или задает значение указывающее инвертирован ли этот экземпляр.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/isinverted/
 ---
 ## IVectorPathData.IsInverted property
 
-Получает или задает значение, указывающее, инвертирован ли данный экземпляр.
+Получает или задает значение, указывающее, инвертирован ли этот экземпляр.
 
 ```csharp
 public bool IsInverted { get; set; }
@@ -16,7 +16,7 @@ public bool IsInverted { get; set; }
 
 ### Стоимость имущества
 
-` true` если этот экземпляр инвертирован; в противном случае` false` .
+`истинный` если этот экземпляр инвертирован; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

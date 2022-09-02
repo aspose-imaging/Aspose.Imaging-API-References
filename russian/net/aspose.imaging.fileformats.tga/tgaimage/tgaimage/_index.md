@@ -1,14 +1,14 @@
 ---
 title: TgaImage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTgaImageaspose.imaging.fileformats.tga/tgaimage.
+description: Инициализирует новый экземплярTgaImageaspose.imaging.fileformats.tga/tgaimage класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.tga/tgaimage/tgaimage/
 ---
 ## TgaImage(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`TgaImage`](../../tgaimage).
+Инициализирует новый экземпляр[`TgaImage`](../../tgaimage) класс.
 
 ```csharp
 public TgaImage(string path)
@@ -22,7 +22,7 @@ public TgaImage(string path)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Указан нулевой путь. |
+| ArgumentNullException | Указанный путь недействителен. |
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public TgaImage(string path)
 
 ## TgaImage(RasterImage) {#constructor}
 
-Инициализирует новый экземпляр класса[`TgaImage`](../../tgaimage).
+Инициализирует новый экземпляр[`TgaImage`](../../tgaimage) класс.
 
 ```csharp
 public TgaImage(RasterImage rasterImage)
@@ -46,7 +46,7 @@ public TgaImage(RasterImage rasterImage)
 
 ### Примеры
 
-Загрузка PNG-изображения, преобразование его в TgaImage и сохранение в виде TGA-изображения.
+Загрузка изображения PNG, преобразование его в TgaImage и сохранение в виде изображения TGA.
 
 ```csharp
 [C#]
@@ -71,7 +71,7 @@ using (RasterImage image = (RasterImage)Image.Load("test.png"))
 
 ## TgaImage(Stream) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TgaImage`](../../tgaimage).
+Инициализирует новый экземпляр[`TgaImage`](../../tgaimage) класс.
 
 ```csharp
 public TgaImage(Stream stream)

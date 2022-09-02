@@ -1,14 +1,14 @@
 ---
 title: CacheData
 second_title: Aspose.Imaging for .NET API 参考
-description: 缓存数据私有
+description: 缓存私有数据
 type: docs
 weight: 210
 url: /zh/net/aspose.imaging.fileformats.djvu/djvuimage/cachedata/
 ---
 ## DjvuImage.CacheData method
 
-缓存数据私有。
+缓存私有数据。
 
 ```csharp
 public override void CacheData()
@@ -16,20 +16,20 @@ public override void CacheData()
 
 ### 例子
 
-以下示例说明如何缓存 DJVU 图像的所有页面。
+以下示例显示如何缓存 DJVU 图像的所有页面。
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-    // 从 DJVU 文件加载图像。
+// 从 DJVU 文件加载图像。
 using (Aspose.Imaging.FileFormats.Djvu.DjvuImage image = (Aspose.Imaging.FileFormats.Djvu.DjvuImage)Aspose.Imaging.Image.Load(dir + "sample.djvu"))
 {
-        // 此调用缓存所有页面，因此不会从底层数据流执行额外的数据加载。
+    // 此调用缓存所有页面，因此不会从底层数据流执行额外的数据加载。
     image.CacheData();
 
-        // 或者你可以单独缓存页面。
+    // 或者您可以单独缓存页面。
     foreach (Aspose.Imaging.FileFormats.Djvu.DjvuPage page in image.Pages)
     {
         page.CacheData();

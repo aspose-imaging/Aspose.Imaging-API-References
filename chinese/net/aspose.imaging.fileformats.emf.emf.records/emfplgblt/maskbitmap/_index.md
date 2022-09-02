@@ -1,14 +1,14 @@
 ---
 title: MaskBitmap
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置包含掩码位图的缓冲区这不是 需要与 EMR_PLGBLT 记录的固定部分或每个其他 因此此缓冲区中标记为UndefinedSpace的字段是可选的必须被忽略
+description: 获取或设置包含掩码位图的缓冲区这些位图不需要与 EMR_PLGBLT 记录的固定部分或彼此相邻 因此此缓冲区中标记为UndefinedSpace的字段是可选的必须被忽略
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfplgblt/maskbitmap/
 ---
 ## EmfPlgBlt.MaskBitmap property
 
-获取或设置包含掩码位图的缓冲区，这不是 需要与 EMR_PLGBLT 记录的固定部分或每个其他。 因此，此缓冲区中标记为“UndefinedSpace”的字段是可选的，必须被忽略。
+获取或设置包含掩码位图的缓冲区，这些位图不需要与 EMR_PLGBLT 记录的固定部分或彼此相邻。 因此，此缓冲区中标记为“UndefinedSpace”的字段是可选的，必须被忽略。
 
 ```csharp
 public WmfDeviceIndependentBitmap MaskBitmap { get; set; }

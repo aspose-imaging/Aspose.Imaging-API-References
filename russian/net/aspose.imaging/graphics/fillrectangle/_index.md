@@ -1,14 +1,14 @@
 ---
 title: FillRectangle
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Заполняет внутреннюю часть прямоугольника заданного структуройRectangleaspose.imaging/rectangle.
+description: Заполняет внутреннюю часть прямоугольника указанногоRectangleaspose.imaging/rectangle структура.
 type: docs
 weight: 390
 url: /ru/net/aspose.imaging/graphics/fillrectangle/
 ---
 ## FillRectangle(Brush, Rectangle) {#fillrectangle}
 
-Заполняет внутреннюю часть прямоугольника, заданного структурой[`Rectangle`](../../rectangle).
+Заполняет внутреннюю часть прямоугольника, указанного[`Rectangle`](../../rectangle) структура.
 
 ```csharp
 public void FillRectangle(Brush brush, Rectangle rect)
@@ -16,14 +16,14 @@ public void FillRectangle(Brush brush, Rectangle rect)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)который определяет характеристики заливки. |
-| rect | Rectangle | [`Rectangle`](../../rectangle)структура, которая представляет прямоугольник для заполнения. |
+| brush | Brush | [`Brush`](../../brush) что определяет характеристики заливки. |
+| rect | Rectangle | [`Rectangle`](../../rectangle) структура, представляющая прямоугольник для заполнения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *brush*равно null. |
+| ArgumentNullException | *brush* нулевой. |
 
 ### Смотрите также
 
@@ -37,7 +37,7 @@ public void FillRectangle(Brush brush, Rectangle rect)
 
 ## FillRectangle(Brush, RectangleF) {#fillrectangle_1}
 
-Заполняет внутреннюю часть прямоугольника, заданного структурой[`RectangleF`](../../rectanglef).
+Заполняет внутреннюю часть прямоугольника, указанного[`RectangleF`](../../rectanglef) структура.
 
 ```csharp
 public void FillRectangle(Brush brush, RectangleF rect)
@@ -45,14 +45,14 @@ public void FillRectangle(Brush brush, RectangleF rect)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)который определяет характеристики заливки. |
-| rect | RectangleF | [`RectangleF`](../../rectanglef)структура, представляющая прямоугольник для заполнения. |
+| brush | Brush | [`Brush`](../../brush) что определяет характеристики заливки. |
+| rect | RectangleF | [`RectangleF`](../../rectanglef) структура, представляющая прямоугольник для заполнения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *brush*равно null. |
+| ArgumentNullException | *brush* нулевой. |
 
 ### Смотрите также
 
@@ -74,9 +74,9 @@ public void FillRectangle(Brush brush, float x, float y, float width, float heig
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)который определяет характеристики заливки. |
-| x | Single | Координата x верхнего левого угла прямоугольника для заполнения. |
-| y | Single | Y-координата левого верхнего угла прямоугольника для заполнения. |
+| brush | Brush | [`Brush`](../../brush) что определяет характеристики заливки. |
+| x | Single | Координата x левого верхнего угла прямоугольника для заполнения. |
+| y | Single | Y-координата левого верхнего угла прямоугольника для заливки. |
 | width | Single | Ширина прямоугольника для заполнения. |
 | height | Single | Высота прямоугольника для заполнения. |
 
@@ -84,7 +84,7 @@ public void FillRectangle(Brush brush, float x, float y, float width, float heig
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *brush*равно null. |
+| ArgumentNullException | *brush* нулевой. |
 
 ### Смотрите также
 
@@ -105,9 +105,9 @@ public void FillRectangle(Brush brush, int x, int y, int width, int height)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)который определяет характеристики заливки. |
-| x | Int32 | Координата x верхнего левого угла прямоугольника для заполнения. |
-| y | Int32 | Y-координата левого верхнего угла прямоугольника для заполнения. |
+| brush | Brush | [`Brush`](../../brush) что определяет характеристики заливки. |
+| x | Int32 | Координата x левого верхнего угла прямоугольника для заполнения. |
+| y | Int32 | Y-координата левого верхнего угла прямоугольника для заливки. |
 | width | Int32 | Ширина прямоугольника для заполнения. |
 | height | Int32 | Высота прямоугольника для заполнения. |
 
@@ -115,7 +115,7 @@ public void FillRectangle(Brush brush, int x, int y, int width, int height)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *brush*равно null. |
+| ArgumentNullException | *brush* нулевой. |
 
 ### Смотрите также
 

@@ -24,7 +24,7 @@ public sealed class EmfPlusDashedLineData : EmfPlusStructureObjectType
 
 | Имя | Описание |
 | --- | --- |
-| [DashedLineData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusdashedlinedata/dashedlinedata) { get; set; } | Получает или задает массив значений DashedLineDataSize с плавающей запятой , которые определяют длину дефисов и пробелов в a пунктирная линия |
+| [DashedLineData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusdashedlinedata/dashedlinedata) { get; set; } | Получает или задает массив значений DashedLineDataSize с плавающей запятой , которые определяют длину штрихов и пробелов в пунктирной линии |
 
 ### Смотрите также
 

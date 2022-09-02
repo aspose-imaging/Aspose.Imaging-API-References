@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.FileFormats.Cmx.ObjectModel.Styles
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пространство имен обрабатывает обработку файлов формата Tiff.
+description: Пространство имен обрабатывает формат файла Tiff.
 type: docs
 weight: 260
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.styles/
 ---
-Пространство имен обрабатывает обработку файлов формата Tiff.
+Пространство имен обрабатывает формат файла Tiff.
 
 ## Классы
 
@@ -15,7 +15,7 @@ url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.styles/
 | [CmxColor](./cmxcolor) | Представляет значение цвета. |
 | [CmxFillStyle](./cmxfillstyle) | Стиль заливки для фигур. |
 | [CmxGradient](./cmxgradient) | Представляет информацию о градиенте. |
-| [CmxImageFill](./cmximagefill) | Информация о заполнении изображения |
+| [CmxImageFill](./cmximagefill) | Информация о заливке изображения |
 | [CmxOutline](./cmxoutline) | Представляет стиль контура. |
 | [CmxParagraphStyle](./cmxparagraphstyle) | Стиль абзаца. |
 

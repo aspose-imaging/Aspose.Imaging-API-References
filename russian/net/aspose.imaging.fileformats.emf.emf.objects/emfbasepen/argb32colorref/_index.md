@@ -1,14 +1,14 @@
 ---
 title: Argb32ColorRef
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает ссылку на 32-разрядный цвет ARGB.
+description: Получает или задает 32-битную ссылку на цвет ARGB.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfbasepen/argb32colorref/
 ---
 ## EmfBasePen.Argb32ColorRef property
 
-Получает или задает ссылку на 32-разрядный цвет ARGB.
+Получает или задает 32-битную ссылку на цвет ARGB.
 
 ```csharp
 public abstract int Argb32ColorRef { get; set; }

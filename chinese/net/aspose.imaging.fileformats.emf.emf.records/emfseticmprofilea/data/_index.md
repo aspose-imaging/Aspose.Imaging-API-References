@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置大小为 cbName  cbData 的数组以字节为单位指定所需颜色配置文件的 ASCII 名称和原始数据.
+description: 获取或设置大小为 cbName  cbData 的数组以字节为单位指定所需颜色配置文件的 ASCII 名称和原始数据
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/data/
 ---
 ## EmfSetIcmProfileA.Data property
 
-获取或设置大小为 (cbName + cbData) 的数组，以字节为单位，指定所需颜色配置文件的 ASCII 名称和原始数据.
+获取或设置大小为 (cbName + cbData) 的数组，以字节为单位，指定所需颜色配置文件的 ASCII 名称和原始数据。
 
 ```csharp
 public byte[] Data { get; set; }

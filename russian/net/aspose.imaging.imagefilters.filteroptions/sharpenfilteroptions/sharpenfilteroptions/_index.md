@@ -1,14 +1,14 @@
 ---
 title: SharpenFilterOptions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаSharpenFilterOptionsaspose.imaging.imagefilters.filteroptions/sharpenfilteroptions.
+description: Инициализирует новый экземплярSharpenFilterOptionsaspose.imaging.imagefilters.filteroptions/sharpenfilteroptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/sharpenfilteroptions/
 ---
 ## SharpenFilterOptions(int, double) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`SharpenFilterOptions`](../../sharpenfilteroptions).
+Инициализирует новый экземпляр[`SharpenFilterOptions`](../../sharpenfilteroptions) класс.
 
 ```csharp
 public SharpenFilterOptions(int size, double sigma)
@@ -29,7 +29,7 @@ public SharpenFilterOptions(int size, double sigma)
 
 ## SharpenFilterOptions() {#constructor}
 
-Инициализирует новый экземпляр класса[`SharpenFilterOptions`](../../sharpenfilteroptions). С настройками по умолчанию.
+Инициализирует новый экземпляр[`SharpenFilterOptions`](../../sharpenfilteroptions)class. С настройками по умолчанию.
 
 ```csharp
 public SharpenFilterOptions()

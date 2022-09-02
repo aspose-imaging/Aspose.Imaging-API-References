@@ -16,7 +16,7 @@ public void SetSeriesNumber(string seriesNumber)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| seriesNumber | String | Серийный номер. |
+| seriesNumber | String | Номер серии. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: AdjustBrightness
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Регулировкаяркостидля изображения.
+description: Настройкаbrightness для изображения.
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging.fileformats.dicom/dicomimage/adjustbrightness/
 ---
 ## DicomImage.AdjustBrightness method
 
-Регулировка*яркости*для изображения.
+Настройка*brightness* для изображения.
 
 ```csharp
 public override void AdjustBrightness(int brightness)
@@ -31,7 +31,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.dico
 {
     Aspose.Imaging.FileFormats.Dicom.DicomImage dicomImage = (Aspose.Imaging.FileFormats.Dicom.DicomImage)image;
 
-     // Установить значение яркости. Допустимые значения яркости находятся в диапазоне [-255, 255].
+    // Установить значение яркости. Принятые значения яркости находятся в диапазоне [-255, 255].
     dicomImage.AdjustBrightness(50);
     dicomImage.Save(dir + "sample.AdjustBrightness.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }

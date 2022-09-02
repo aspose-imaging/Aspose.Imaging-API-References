@@ -1,14 +1,14 @@
 ---
 title: ExifSensingMethod
 second_title: Aspose.Imaging for .NET API 参考
-description: exif 感应方法枚举
+description: exif 感应方式枚举.
 type: docs
 weight: 1020
 url: /zh/net/aspose.imaging.exif.enums/exifsensingmethod/
 ---
 ## ExifSensingMethod enumeration
 
-exif 感应方法枚举。
+exif 感应方式枚举.
 
 ```csharp
 public enum ExifSensingMethod
@@ -21,8 +21,8 @@ public enum ExifSensingMethod
 | Notdefined | `1` | 未定义。 |
 | OneChipColorArea | `2` | 一个芯片颜色区域。 |
 | TwoChipColorArea | `3` | 两片色区。 |
-| ThreeChipColorArea | `4` | 三色区。 |
-| Colorsequentialarea | `5` | 颜色序列区域。 |
+| ThreeChipColorArea | `4` | 三片色区。 |
+| Colorsequentialarea | `5` | 颜色顺序区域。 |
 | Trilinearsensor | `7` | 三线性传感器。 |
 | Colorsequentiallinear | `8` | 色序线性传感器。 |
 

@@ -17,7 +17,7 @@ public virtual void AddAttribute(string attribute, string value)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | attribute | String | 属性。 |
-| value | String | 值。 |
+| value | String | 价值。 |
 
 ### 也可以看看
 

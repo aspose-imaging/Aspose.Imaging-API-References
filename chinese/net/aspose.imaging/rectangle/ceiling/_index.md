@@ -1,14 +1,14 @@
 ---
 title: Ceiling
 second_title: Aspose.Imaging for .NET API 参考
-description: 将指定的RectangleFaspose.imaging/rectanglef结构转换为Rectangleaspose.imaging/rectangle通过将RectangleFaspose.imaging/rectanglef值四舍五入到下一个更高的整数值来构建结构
+description: 转换指定的RectangleFaspose.imaging/rectanglef结构为Rectangleaspose.imaging/rectangle通过四舍五入的结构RectangleFaspose.imaging/rectanglef值到下一个更高的整数值
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging/rectangle/ceiling/
 ---
 ## Rectangle.Ceiling method
 
-将指定的[`RectangleF`](../../rectanglef)结构转换为[`Rectangle`](../../rectangle)通过将[`RectangleF`](../../rectanglef)值四舍五入到下一个更高的整数值来构建结构。
+转换指定的[`RectangleF`](../../rectanglef)结构为[`Rectangle`](../../rectangle)通过四舍五入的结构[`RectangleF`](../../rectanglef)值到下一个更高的整数值。
 
 ```csharp
 public static Rectangle Ceiling(RectangleF value)
@@ -16,11 +16,11 @@ public static Rectangle Ceiling(RectangleF value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | RectangleF | [`RectangleF`](../../rectanglef)结构被转换。 |
+| value | RectangleF | 这[`RectangleF`](../../rectanglef)要转换的结构。 |
 
 ### 返回值
 
-返回一个[`Rectangle`](../../rectangle)。
+返回一个[`Rectangle`](../../rectangle).
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: Aspose.Imaging for .NET API 参考
-description: 测试此Regionaspose.imaging/region在指定绘图表面上是否有一个空的内部
+description: 测试这是否Regionaspose.imaging/region在指定的绘图表面上有一个空的内部
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging/region/isempty/
 ---
 ## Region.IsEmpty method
 
-测试此[`Region`](../../region)在指定绘图表面上是否有一个空的内部。
+测试这是否[`Region`](../../region)在指定的绘图表面上有一个空的内部。
 
 ```csharp
 public bool IsEmpty(Graphics g)
@@ -16,11 +16,11 @@ public bool IsEmpty(Graphics g)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| g | Graphics | A[`Graphics`](../../graphics)表示绘图表面。 |
+| g | Graphics | 一个[`Graphics`](../../graphics)表示绘图表面。 |
 
 ### 返回值
 
-如果这个[`Region`](../../region)的内部在转换关联时为空，则为真应用*g*；否则为假。
+true 如果这个内部[`Region`](../../region)当转换关联时为空*g*被申请;被应用;否则为假。
 
 ### 例外
 

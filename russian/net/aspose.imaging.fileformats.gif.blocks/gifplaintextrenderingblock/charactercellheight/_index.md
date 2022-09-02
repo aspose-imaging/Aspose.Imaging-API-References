@@ -1,14 +1,14 @@
 ---
 title: CharacterCellHeight
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает высоту символьной ячейки в пикселях для каждой ячейки сетки.
+description: Получает или задает высоту символьной ячейки в пикселях для каждой ячейки в сетке.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/charactercellheight/
 ---
 ## GifPlainTextRenderingBlock.CharacterCellHeight property
 
-Получает или задает высоту символьной ячейки в пикселях для каждой ячейки сетки.
+Получает или задает высоту символьной ячейки в пикселях для каждой ячейки в сетке.
 
 ```csharp
 public byte CharacterCellHeight { get; set; }

@@ -18,18 +18,18 @@ public struct CmykColor
 
 | Имя | Описание |
 | --- | --- |
-| static [Empty](../../aspose.imaging/cmykcolor/empty) { get; } | Получает пустое значение. |
-| [C](../../aspose.imaging/cmykcolor/c) { get; } | Получает значение голубого компонента этой[`Color`](../color)структуры. |
-| [IsEmpty](../../aspose.imaging/cmykcolor/isempty) { get; } | Получает значение, указывающее, является ли эта структура[`Color`](../color)неинициализированной. |
-| [K](../../aspose.imaging/cmykcolor/k) { get; } | Получает значение черного компонента этой[`Color`](../color)структуры. |
-| [M](../../aspose.imaging/cmykcolor/m) { get; } | Получает значение пурпурного компонента этой[`Color`](../color)структуры. |
-| [Y](../../aspose.imaging/cmykcolor/y) { get; } | Получает значение желтого компонента этой[`Color`](../color)структуры. |
+| static [Empty](../../aspose.imaging/cmykcolor/empty) { get; } | Получает пустой. |
+| [C](../../aspose.imaging/cmykcolor/c) { get; } | Получает значение голубого компонента этого[`Color`](../color) структура. |
+| [IsEmpty](../../aspose.imaging/cmykcolor/isempty) { get; } | Получает значение, указывающее, является ли это[`Color`](../color) структура не инициализирована. |
+| [K](../../aspose.imaging/cmykcolor/k) { get; } | Получает значение черного компонента этого[`Color`](../color) структура. |
+| [M](../../aspose.imaging/cmykcolor/m) { get; } | Получает значение пурпурного компонента этого[`Color`](../color) структура. |
+| [Y](../../aspose.imaging/cmykcolor/y) { get; } | Получает значение желтого компонента этого[`Color`](../color) структура. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.imaging/cmykcolor/equals)(object) | Определяет, равен ли указанныйObjectэтому экземпляру. |
+| override [Equals](../../aspose.imaging/cmykcolor/equals)(object) | Определяет, является ли указанныйObject , равно этому экземпляру. |
 | override [GetHashCode](../../aspose.imaging/cmykcolor/gethashcode)() | Полученный хэш-код. |
 | [ToValue](../../aspose.imaging/cmykcolor/tovalue)() | Значение для. |
 

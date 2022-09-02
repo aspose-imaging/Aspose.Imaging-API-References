@@ -1,14 +1,14 @@
 ---
 title: Properties
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置所有 EXIF 标签包括通用标签和 GPS 标签
+description: 获取或设置所有EXIF标签包括通用标签和GPS标签
 type: docs
 weight: 880
 url: /zh/net/aspose.imaging.exif/exifdata/properties/
 ---
 ## ExifData.Properties property
 
-获取或设置所有 EXIF 标签（包括通用标签和 GPS 标签）。
+获取或设置所有EXIF标签（包括通用标签和GPS标签）。
 
 ```csharp
 public TiffDataType[] Properties { get; set; }

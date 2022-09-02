@@ -1,14 +1,14 @@
 ---
 title: StartCap
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает необязательное 32-разрядное целое число со знаком определяющее форму для начала строки в поле CustomStartCapData. Это поле ДОЛЖНО присутствовать если установлен флаг PenDataStartCap в поле PenDataFlags объекта EmfPlusPenData а значение ДОЛЖНО быть определено в LineCapType перечисление раздел 2.1.1.18.
+description: Получает или задает необязательное 32-разрядное целое число со знаком указывающее форму for начала строки в поле CustomStartCapData. Это поле ДОЛЖНО присутствовать если флаг PenDataStartCap установлен в поле PenDataFlags объекта EmfPlusPenData а значение ДОЛЖНО быть определено в перечислении LineCapType раздел 2.1.1.18.
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata/startcap/
 ---
 ## EmfPlusPenOptionalData.StartCap property
 
-Получает или задает необязательное 32-разрядное целое число со знаком, определяющее форму для начала строки в поле CustomStartCapData. Это поле ДОЛЖНО присутствовать, если установлен флаг PenDataStartCap в поле PenDataFlags объекта EmfPlusPenData, а значение ДОЛЖНО быть определено в LineCapType перечисление (раздел 2.1.1.18).
+Получает или задает необязательное 32-разрядное целое число со знаком, указывающее форму for начала строки в поле CustomStartCapData. Это поле ДОЛЖНО присутствовать, если флаг PenDataStartCap установлен в поле PenDataFlags объекта EmfPlusPenData, а значение ДОЛЖНО быть определено в перечислении LineCapType (раздел 2.1.1.18).
 
 ```csharp
 public EmfPlusLineCapType StartCap { get; set; }

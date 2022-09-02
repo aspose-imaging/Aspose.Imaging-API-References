@@ -8,7 +8,7 @@ url: /ru/net/aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d/frome
 ---
 ## EmfRecorderGraphics2D.FromEmfImage method
 
-Получает экземпляр[`EmfRecorderGraphics2D`](../../emfrecordergraphics2d), содержащий все записи из образа Emf.
+Получает экземпляр[`EmfRecorderGraphics2D`](../../emfrecordergraphics2d) содержащий все записи из образа Emf.
 
 ```csharp
 public static EmfRecorderGraphics2D FromEmfImage(EmfImage emfImage)
@@ -16,7 +16,7 @@ public static EmfRecorderGraphics2D FromEmfImage(EmfImage emfImage)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| emfImage | EmfImage | Изображение Emf, из которого считываются записи. |
+| emfImage | EmfImage | Изображение Emf для чтения записей. |
 
 ### Возвращаемое значение
 
@@ -36,12 +36,12 @@ using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFo
     Aspose.Imaging.FileFormats.Emf.Graphics.EmfRecorderGraphics2D graphics =
         Aspose.Imaging.FileFormats.Emf.Graphics.EmfRecorderGraphics2D.FromEmfImage(emfImage);
 
-     // Сначала получаем изображение size
+    // Сначала получаем размер изображения
     int width = emfImage.Width;
     int height = emfImage.Height;
 
-     // Во-вторых, вычислить преобразование, чтобы разместить текстовую строку по главной диагонали изображения -
-     // из верхнего левого в нижний правый угол.
+    // Во-вторых, вычислить преобразование, чтобы разместить текстовую строку вдоль главной диагонали изображения -
+    // из верхнего левого в нижний правый угол.
     float emFontSize = 96f;
     float d = (float)System.Math.Sqrt(width * width + height * height);
     float scaleFactor = d / (emFontSize * 5f);
@@ -54,13 +54,13 @@ using (Aspose.Imaging.FileFormats.Emf.EmfImage emfImage = (Aspose.Imaging.FileFo
     transform.Rotate((float)degrees);
     transform.Scale(scaleFactor, scaleFactor);
 
-     // Затем устанавливаем transform.
+    // Затем устанавливаем преобразование.
     graphics.SetTransform(transform);
 
-     // Наконец, поместите водяной знак (текстовая строка розового цвета) по главной диагонали.
+    // Наконец, поместите водяной знак (текстовая строка розового цвета) по главной диагонали.
     graphics.DrawString("WATERMARK", new Aspose.Imaging.Font("Courier New", emFontSize), Aspose.Imaging.Color.LightPink, 0, 0/*, (float)degrees*/);
 
-     // Сохраняем изображение с водяным знаком в другой файл EMF.
+    // Сохраняем изображение с водяным знаком в другой файл EMF.
     using (Aspose.Imaging.FileFormats.Emf.EmfImage scaledEmfImage = graphics.EndRecording())
     {
         scaledEmfImage.Save(dir + "test.scaled.emf");

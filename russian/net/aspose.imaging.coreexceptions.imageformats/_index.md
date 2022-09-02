@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.CoreExceptions.ImageFormats
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пространство имен содержит исключения генерируемые одним из поддерживаемых форматов файлов.
+description: Пространство имен содержит исключения вызванные одним из поддерживаемых форматов файлов.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.coreexceptions.imageformats/
 ---
-Пространство имен содержит исключения, генерируемые одним из поддерживаемых форматов файлов.
+Пространство имен содержит исключения, вызванные одним из поддерживаемых форматов файлов.
 
 ## Классы
 
@@ -15,13 +15,13 @@ url: /ru/net/aspose.imaging.coreexceptions.imageformats/
 | [BmpImageException](./bmpimageexception) | Исключение изображения bmp. |
 | [DicomImageException](./dicomimageexception) | Исключение изображения Dicom. |
 | [DjvuImageException](./djvuimageexception) | Исключение образа DJVU. |
-| [EmfException](./emfexception) | Исключение для классов ЭМП |
+| [EmfException](./emfexception) | Исключение для классов ЭДС |
 | [GifImageException](./gifimageexception) | Исключение Gif-изображения. |
-| [Jpeg2000Exception](./jpeg2000exception) | Исключения для файлов Jpeg |
-| [JpegException](./jpegexception) | Исключения для файлов Jpeg |
+| [Jpeg2000Exception](./jpeg2000exception) | Исключения для файлов JPEG |
+| [JpegException](./jpegexception) | Исключения для файлов JPEG |
 | [JpegLoadException](./jpegloadexception) | Представляет исключение загрузки изображения JPEG. |
 | [PngImageException](./pngimageexception) | Исключение для изображений png. |
-| [PsdImageException](./psdimageexception) | Исключение для psd-изображений. |
+| [PsdImageException](./psdimageexception) | Исключение для изображений PSD. |
 | [SvgImageException](./svgimageexception) | Класс исключения изображения SVG. |
 | [TiffImageException](./tiffimageexception) | Исключение изображения Tiff |
 

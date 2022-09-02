@@ -18,8 +18,8 @@ public enum OdBrushStyle
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 画笔样式无 |
-| Solid | `1` | 画笔样式实心 |
+| None | `0` | 笔刷样式 none |
+| Solid | `1` | 画笔样式solid |
 | Hatched | `2` | 画笔样式阴影 |
 | Gradient | `3` | 画笔样式渐变 |
 | Pattern | `4` | 画笔样式模式 |

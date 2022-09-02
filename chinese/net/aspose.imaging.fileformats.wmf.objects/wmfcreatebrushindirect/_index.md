@@ -1,14 +1,14 @@
 ---
 title: WmfCreateBrushInDirect
 second_title: Aspose.Imaging for .NET API 参考
-description: 直接创建画笔
+description: direct 中的创建画笔
 type: docs
 weight: 8510
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfcreatebrushindirect/
 ---
 ## WmfCreateBrushInDirect class
 
-直接创建画笔
+direct 中的创建画笔
 
 ```csharp
 public class WmfCreateBrushInDirect : WmfGraphicObject

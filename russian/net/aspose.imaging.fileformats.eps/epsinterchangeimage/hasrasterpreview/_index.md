@@ -1,14 +1,14 @@
 ---
 title: HasRasterPreview
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее имеет ли данный экземпляр предварительный просмотр растра для конкретного формата
+description: Получает значение указывающее имеет ли данный экземпляр растровый файл preview для определенного формата.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.eps/epsinterchangeimage/hasrasterpreview/
 ---
 ## EpsInterchangeImage.HasRasterPreview property
 
-Получает значение, указывающее, имеет ли данный экземпляр предварительный просмотр растра для конкретного формата
+Получает значение, указывающее, имеет ли данный экземпляр растровый файл preview для определенного формата.
 
 ```csharp
 public override bool HasRasterPreview { get; }
@@ -16,7 +16,7 @@ public override bool HasRasterPreview { get; }
 
 ### Стоимость имущества
 
-` true` , если этот экземпляр имеет растровый предварительный просмотр для определенного формата; в противном случае` false` .
+`истинный` если этот экземпляр имеет предварительный просмотр растра для конкретного формата; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

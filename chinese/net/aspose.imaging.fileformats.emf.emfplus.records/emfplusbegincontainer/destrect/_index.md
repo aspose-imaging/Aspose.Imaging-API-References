@@ -1,14 +1,14 @@
 ---
 title: DestRect
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 EmfPlusRectF 对象第 2.2.2.39 节该对象与 SrcRect 一起指定 容器的转换此转换在应用于 DestRect 时会产生 SrcRect
+description: 获取或设置一个 EmfPlusRectF 对象第 2.2.2.39 节该对象与 SrcRect 一起为容器指定 一个变换当应用于 DestRect. 时此转换会导致 SrcRect
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer/destrect/
 ---
 ## EmfPlusBeginContainer.DestRect property
 
-获取或设置 EmfPlusRectF 对象（第 2.2.2.39 节），该对象与 SrcRect 一起指定 容器的转换。此转换在应用于 DestRect 时会产生 SrcRect。
+获取或设置一个 EmfPlusRectF 对象（第 2.2.2.39 节），该对象与 SrcRect 一起为容器指定 一个变换。当应用于 DestRect. 时，此转换会导致 SrcRect
 
 ```csharp
 public RectangleF DestRect { get; set; }

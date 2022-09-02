@@ -1,14 +1,14 @@
 ---
 title: StringFormatFlags
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака определяющее разметку текста параметры форматирования обрезки и обработки шрифтов. Это значение ДОЛЖНО состоять из флагов StringFormat раздел 2.1.2.8.
+description: Получает или задает 32-разрядное целое число без знака которое определяет параметры layout текста для форматирования обрезки и обработки шрифтов. Это значение ДОЛЖНО состоять из флагов StringFormat раздел 2.1.2.8.
 type: docs
 weight: 120
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/stringformatflags/
 ---
 ## EmfPlusStringFormat.StringFormatFlags property
 
-Получает или задает 32-разрядное целое число без знака, определяющее разметку текста параметры форматирования, обрезки и обработки шрифтов. Это значение ДОЛЖНО состоять из флагов StringFormat (раздел 2.1.2.8).
+Получает или задает 32-разрядное целое число без знака, которое определяет параметры layout текста для форматирования, обрезки и обработки шрифтов. Это значение ДОЛЖНО состоять из флагов StringFormat (раздел 2.1.2.8).
 
 ```csharp
 public EmfPlusStringFormatFlags StringFormatFlags { get; set; }

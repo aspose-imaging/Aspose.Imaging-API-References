@@ -1,14 +1,14 @@
 ---
 title: DateTimeOriginal
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置日期时间原始
+description: 获取或设置日期时间 original.
 type: docs
 weight: 140
 url: /zh/net/aspose.imaging.exif/exifdata/datetimeoriginal/
 ---
 ## ExifData.DateTimeOriginal property
 
-获取或设置日期时间原始。
+获取或设置日期时间 original.
 
 ```csharp
 public string DateTimeOriginal { get; set; }
@@ -16,7 +16,7 @@ public string DateTimeOriginal { get; set; }
 
 ### 适当的价值
 
-原始日期时间。
+日期时间原始。
 
 ### 也可以看看
 

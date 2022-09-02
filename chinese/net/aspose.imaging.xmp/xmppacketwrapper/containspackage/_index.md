@@ -16,7 +16,7 @@ public bool ContainsPackage(string namespaceUri)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| namespaceUri | String | 包模式 uri。 |
+| namespaceUri | String | 包架构 uri。 |
 
 ### 返回值
 

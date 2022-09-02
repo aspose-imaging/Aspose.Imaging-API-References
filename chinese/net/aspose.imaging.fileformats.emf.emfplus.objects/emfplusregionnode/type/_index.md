@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 32 位无符号整数指定 RegionNodeData 字段中 数据的类型该值必须在 RegionNodeDataType 枚举第 2.1.1.27 节中定义
+description: 获取或设置 32 位无符号整数指定 RegionNodeData 字段中的 数据类型该值必须在 RegionNodeDataType 枚举第 2.1.1.27 节中定义
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnode/type/
 ---
 ## EmfPlusRegionNode.Type property
 
-获取或设置 32 位无符号整数，指定 RegionNodeData 字段中 数据的类型。该值必须在 RegionNodeDataType 枚举（第 2.1.1.27 节）中定义。
+获取或设置 32 位无符号整数，指定 RegionNodeData 字段中的 数据类型。该值必须在 RegionNodeDataType 枚举（第 2.1.1.27 节）中定义。
 
 ```csharp
 public EmfPlusRegionNodeDataType Type { get; set; }

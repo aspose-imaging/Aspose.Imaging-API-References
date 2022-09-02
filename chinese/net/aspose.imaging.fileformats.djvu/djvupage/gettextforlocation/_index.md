@@ -16,11 +16,11 @@ public string GetTextForLocation(Rectangle rect)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | Rectangle | 位置矩形. |
+| rect | Rectangle | 位置矩形。 |
 
 ### 返回值
 
-在位置找到的文本
+在位置找到的文字
 
 ### 也可以看看
 

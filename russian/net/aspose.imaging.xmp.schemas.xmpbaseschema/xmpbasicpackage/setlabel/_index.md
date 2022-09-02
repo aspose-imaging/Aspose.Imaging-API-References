@@ -16,7 +16,7 @@ public void SetLabel(string label)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| label | String | Метка. |
+| label | String | Наклейка. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ObjectHandle
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее либо индекс графического объекта в таблице объектов EMF либо индекс акции объект из перечисления StockObject.
+description: Получает или задает 32-разрядное целое число без знака указывающее либо индекс графического объекта в таблице объектов EMF либо индекс биржевого объекта из перечисления StockObject.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfdeleteobject/objecthandle/
 ---
 ## EmfDeleteObject.ObjectHandle property
 
-Получает или задает 32-разрядное целое число без знака, указывающее либо индекс графического объекта в таблице объектов EMF, либо индекс акции объект из перечисления StockObject.
+Получает или задает 32-разрядное целое число без знака, указывающее либо индекс графического объекта в таблице объектов EMF, либо индекс биржевого объекта из перечисления StockObject.
 
 ```csharp
 public int ObjectHandle { get; set; }

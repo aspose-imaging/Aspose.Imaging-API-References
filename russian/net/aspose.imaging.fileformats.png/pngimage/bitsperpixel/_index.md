@@ -1,14 +1,14 @@
 ---
 title: BitsPerPixel
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает биты на пиксель.
+description: Получает количество бит на пиксель.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.png/pngimage/bitsperpixel/
 ---
 ## PngImage.BitsPerPixel property
 
-Получает биты на пиксель.
+Получает количество бит на пиксель.
 
 ```csharp
 public override int BitsPerPixel { get; }

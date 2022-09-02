@@ -1,14 +1,14 @@
 ---
 title: WmfIntersectClipRect
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_INTERSECTCLIPRECT устанавливает область отсечения в контексте устройства воспроизведения на пересечение существующей области отсечения и указанный прямоугольник.
+description: Запись META_INTERSECTCLIPRECT устанавливает область отсечения в контексте устройства воспроизведения на пересечение существующей области отсечения и указанного прямоугольника.
 type: docs
 weight: 8720
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfintersectcliprect/
 ---
 ## WmfIntersectClipRect class
 
-Запись META_INTERSECTCLIPRECT устанавливает область отсечения в контексте устройства воспроизведения на пересечение существующей области отсечения и указанный прямоугольник.
+Запись META_INTERSECTCLIPRECT устанавливает область отсечения в контексте устройства воспроизведения на пересечение существующей области отсечения и указанного прямоугольника.
 
 ```csharp
 public class WmfIntersectClipRect : WmfObject

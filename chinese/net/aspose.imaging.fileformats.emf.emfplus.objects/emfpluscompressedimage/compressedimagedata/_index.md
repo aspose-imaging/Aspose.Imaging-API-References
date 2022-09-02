@@ -16,7 +16,7 @@ public byte[] CompressedImageData { get; set; }
 
 ### 评论
 
-位图由 EmfPlusBitmap 对象指定（第 2.2.2.2 节）。如果在其 Type 字段中指定 BitmapDataTypeCompressed，则 EmfPlusCompressedImage 对象必须出现在 EmfPlusBitmap 对象的 BitmapData 字段中。 这个对象是通用的，用于不同类型的压缩数据，包括:  可交换图像文件格式（EXIF），在[EXIF]中指定；  图形交换格式（GIF），在 [GIF] 中指定；  联合图像专家组 (JPEG)，如 [JFIF] 中所述；  便携式网络图形（PNG），如 [RFC2083] 和 [W3C - PNG] 中规定的；和  标记图像文件格式 (TIFF)，如 [RFC3302] 和 [TIFF] 中指定的。
+位图由 EmfPlusBitmap 对象指定（第 2.2.2.2 节）。 EmfPlusCompressedImage 对象必须存在于 EmfPlusBitmap 对象的 BitmapData 字段中，如果 BitmapDataTypeCompressed 在其类型字段中指定。 此对象是通用的，用于不同类型的压缩数据，包括：  可交换图像文件格式（EXIF），如 [EXIF] 中指定的；  图形交换格式 (GIF)，如 [GIF] 中指定的；  联合图像专家组 (JPEG)，如 [JFIF] 中指定的；  便携式网络图形 (PNG)，如在 [RFC2083] 和 [W3C - PNG] 中指定； and  标记图像文件格式 (TIFF)，如 [RFC3302] 和 [TIFF]. 中指定
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: Height
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Получает или задает высоту.
 type: docs
-weight: 30
+weight: 20
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrpattern/height/
 ---
 ## CdrPattern.Height property

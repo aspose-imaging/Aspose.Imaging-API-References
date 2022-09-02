@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Проверяет имеют ли две структурыRectangleaspose.imaging/rectangleодинаковое расположение и размер.
+description: Проверяет являются ли дваRectangleaspose.imaging/rectangleструктуры имеют одинаковое расположение и размер.
 type: docs
 weight: 290
 url: /ru/net/aspose.imaging/rectangle/op_equality/
 ---
 ## Rectangle Equality operator
 
-Проверяет, имеют ли две структуры[`Rectangle`](../../rectangle)одинаковое расположение и размер.
+Проверяет, являются ли два[`Rectangle`](../../rectangle)структуры имеют одинаковое расположение и размер.
 
 ```csharp
 public static bool operator ==(Rectangle left, Rectangle right)
@@ -16,12 +16,12 @@ public static bool operator ==(Rectangle left, Rectangle right)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| left | Rectangle | Структура[`Rectangle`](../../rectangle)слева от равенства оператор. |
-| right | Rectangle | Структура[`Rectangle`](../../rectangle)справа от оператора равенства. |
+| left | Rectangle | [`Rectangle`](../../rectangle) структура слева от оператора равенства. |
+| right | Rectangle | [`Rectangle`](../../rectangle) структуру, которая находится справа от оператора равенства. |
 
 ### Возвращаемое значение
 
-Этот оператор возвращает true, если две структуры[`Rectangle`](../../rectangle)равны[`X`](../x),[`Y`](../y),[`Width`](../width), и[`Height`](../height)свойства.
+Этот оператор возвращает истину, если два[`Rectangle`](../../rectangle) структуры имеют равные[`X`](../x) ,[`Y`](../y) ,[`Width`](../width) , а также[`Height`](../height) характеристики.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: EmfSelectObject
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_SELECTOBJECT добавляет графический объект в текущее устройство воспроизведения метафайла контекст. Объект определяется либо его индексом в таблице объектов EMF раздел 3.1.1.1 либо его значением из перечисления StockObject раздел 2.1.31.
+description: Запись EMR_SELECTOBJECT добавляет графический объект в текущий контекст устройства воспроизведения метафайла . Объект определяется либо своим индексом в таблице объектов EMF раздел 3.1.1.1 либо значением its из перечисления StockObject раздел 2.1.31.
 type: docs
 weight: 4250
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfselectobject/
 ---
 ## EmfSelectObject class
 
-Запись EMR_SELECTOBJECT добавляет графический объект в текущее устройство воспроизведения метафайла контекст. Объект определяется либо его индексом в таблице объектов EMF (раздел 3.1.1.1), либо его значением из перечисления StockObject (раздел 2.1.31).
+Запись EMR_SELECTOBJECT добавляет графический объект в текущий контекст устройства воспроизведения метафайла . Объект определяется либо своим индексом в таблице объектов EMF (раздел 3.1.1.1), либо значением its из перечисления StockObject (раздел 2.1.31).
 
 ```csharp
 public sealed class EmfSelectObject : EmfRecord
@@ -18,15 +18,15 @@ public sealed class EmfSelectObject : EmfRecord
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSelectObject](emfselectobject#constructor)() | Инициализирует новый экземпляр класса[`EmfSelectObject`](../emfselectobject). |
-| [EmfSelectObject](emfselectobject#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSelectObject`](../emfselectobject). |
+| [EmfSelectObject](emfselectobject#constructor)() | Инициализирует новый экземпляр[`EmfSelectObject`](../emfselectobject) класс. |
+| [EmfSelectObject](emfselectobject#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfSelectObject`](../emfselectobject) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [ObjectHandle](../../aspose.imaging.fileformats.emf.emf.records/emfselectobject/objecthandle) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее либо индекс графического объекта в таблице объектов EMF, либо индекс акции объект из перечисления[`EmfStockObject`](../../aspose.imaging.fileformats.emf.emf.consts/emfstockobject). |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [ObjectHandle](../../aspose.imaging.fileformats.emf.emf.records/emfselectobject/objecthandle) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее либо индекс графического объекта в таблице объектов EMF, либо индекс стандартного объекта из[`EmfStockObject`](../../aspose.imaging.fileformats.emf.emf.consts/emfstockobject) перечисление. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

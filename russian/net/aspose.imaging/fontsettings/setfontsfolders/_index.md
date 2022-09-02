@@ -1,14 +1,14 @@
 ---
 title: SetFontsFolders
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Задает папки из которых загружаются шрифты TrueType и очищает все загруженные шрифты. Проверка папок со шрифтами не производится.
+description: Задает папки из которых загружаются шрифты TrueType и очищает все загруженные шрифты. Проверка папок шрифтов не выполняется.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging/fontsettings/setfontsfolders/
 ---
 ## FontSettings.SetFontsFolders method
 
-Задает папки, из которых загружаются шрифты TrueType, и очищает все загруженные шрифты. Проверка папок со шрифтами не производится.
+Задает папки, из которых загружаются шрифты TrueType, и очищает все загруженные шрифты. Проверка папок шрифтов не выполняется.
 
 ```csharp
 public static void SetFontsFolders(string[] fontsFolders, bool recursive)
@@ -17,7 +17,7 @@ public static void SetFontsFolders(string[] fontsFolders, bool recursive)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fontsFolders | String[] | Папки со шрифтами. |
-| recursive | Boolean | , если установлено значение` true` [рекурсивный]. |
+| recursive | Boolean | если установлено`истинный` [рекурсивный]. |
 
 ### Смотрите также
 

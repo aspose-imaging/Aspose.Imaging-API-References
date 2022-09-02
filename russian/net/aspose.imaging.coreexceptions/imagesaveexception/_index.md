@@ -1,14 +1,14 @@
 ---
 title: ImageSaveException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Исключение сохранения изображения. Происходит во время сохранения изображения.
+description: Исключение при сохранении изображения. Происходит во время сохранения изображения.
 type: docs
 weight: 660
 url: /ru/net/aspose.imaging.coreexceptions/imagesaveexception/
 ---
 ## ImageSaveException class
 
-Исключение сохранения изображения. Происходит во время сохранения изображения.
+Исключение при сохранении изображения. Происходит во время сохранения изображения.
 
 ```csharp
 public class ImageSaveException : ImageException
@@ -18,8 +18,8 @@ public class ImageSaveException : ImageException
 
 | Имя | Описание |
 | --- | --- |
-| [ImageSaveException](imagesaveexception#constructor)(string) | Инициализирует новый экземпляр класса[`ImageSaveException`](../imagesaveexception). |
-| [ImageSaveException](imagesaveexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр класса[`ImageSaveException`](../imagesaveexception). |
+| [ImageSaveException](imagesaveexception#constructor)(string) | Инициализирует новый экземпляр[`ImageSaveException`](../imagesaveexception) класс. |
+| [ImageSaveException](imagesaveexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр[`ImageSaveException`](../imagesaveexception) класс. |
 
 ### Смотрите также
 

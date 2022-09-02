@@ -1,14 +1,14 @@
 ---
 title: PixelOffset
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 8-разрядное целое число без знака определяющее общее качество изображения и процесс рендеринга текста. Это ДОЛЖНО быть значением в перечислении PixelOffsetMode раздел 2.1.1.26.
+description: Получает или задает 8-разрядное целое число без знака определяющее общее качество процесса рендеринга изображения и текста. Это ДОЛЖНО быть значение в перечислении PixelOffsetMode раздел 2.1.1.26.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics/pixeloffset/
 ---
 ## EmfPlusSetTsGraphics.PixelOffset property
 
-Получает или задает 8-разрядное целое число без знака, определяющее общее качество изображения и процесс рендеринга текста. Это ДОЛЖНО быть значением в перечислении PixelOffsetMode (раздел 2.1.1.26).
+Получает или задает 8-разрядное целое число без знака, определяющее общее качество процесса рендеринга изображения и текста. Это ДОЛЖНО быть значение в перечислении PixelOffsetMode (раздел 2.1.1.26).
 
 ```csharp
 public EmfPlusPixelOffsetMode PixelOffset { get; set; }
@@ -16,7 +16,7 @@ public EmfPlusPixelOffsetMode PixelOffset { get; set; }
 
 ### Стоимость имущества
 
-Смещение в пикселях.
+Смещение пикселя.
 
 ### Смотрите также
 

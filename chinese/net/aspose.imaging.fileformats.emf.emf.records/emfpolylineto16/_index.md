@@ -18,15 +18,15 @@ public sealed class EmfPolylineTo16 : EmfDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfPolylineTo16](emfpolylineto16#constructor)() | 初始化[`EmfPolylineTo16`](../emfpolylineto16)类的新实例。 |
-| [EmfPolylineTo16](emfpolylineto16#constructor_1)(EmfRecord) | 初始化[`EmfPolylineTo16`](../emfpolylineto16)类的新实例。 |
+| [EmfPolylineTo16](emfpolylineto16#constructor)() | 初始化[`EmfPolylineTo16`](../emfpolylineto16)类. |
+| [EmfPolylineTo16](emfpolylineto16#constructor_1)(EmfRecord) | 初始化[`EmfPolylineTo16`](../emfpolylineto16)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolylineto16/apoints) { get; set; } | 获取或设置 WMF PointS 对象的 Count 长度数组，在 [MS-WMF] 2.2.2.16 节中指定，它指定了数组的点。 |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolylineto16/bounds) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象，在 [MS-WMF] 第 2.2.2.19 节中指定， 指定边界矩形, 以设备为单位。 |
+| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolylineto16/apoints) { get; set; } | 获取或设置 WMF PointS 对象的 Count 长度数组，在 [MS-WMF] 2.2.2.16 节中指定，它指定点数组。 |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolylineto16/bounds) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象，在 [MS-WMF] 第 2.2.2.19 节中指定， 指定边界矩形，以设备为单位。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

@@ -1,14 +1,14 @@
 ---
 title: PenData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定图形笔属性的 EmfPlusPenData 对象
+description: 获取或设置一个 EmfPlusPenData 对象该对象指定图形笔的属性
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen/pendata/
 ---
 ## EmfPlusPen.PenData property
 
-获取或设置指定图形笔属性的 EmfPlusPenData 对象
+获取或设置一个 EmfPlusPenData 对象，该对象指定图形笔的属性
 
 ```csharp
 public EmfPlusPenData PenData { get; set; }

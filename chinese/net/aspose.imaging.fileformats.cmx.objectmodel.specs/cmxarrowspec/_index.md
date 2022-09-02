@@ -25,7 +25,7 @@ public class CmxArrowSpec : CmxPathSpec
 | 姓名 | 描述 |
 | --- | --- |
 | [ArrowOffset](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxarrowspec/arrowoffset) { get; set; } | 获取或设置箭头偏移量。 |
-| [Points](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec/points) { get; set; } | 获取或设置点。 |
+| [Points](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec/points) { get; set; } | 获取或设置点数。 |
 | [Type](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec/type) { get; set; } | 获取或设置类型。 |
 
 ### 也可以看看

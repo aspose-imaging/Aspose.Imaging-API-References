@@ -1,14 +1,14 @@
 ---
 title: WmfSetTextJustification
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_SETTEXTJUSTIFICATION определяет количество места которое необходимо добавить к символам ltsee langwordbreak /gt в строке текста с выравниванием по ширине.
+description: Запись META_SETTEXTJUSTIFICATION определяет количество места которое нужно добавить вbreak символы в строке выравниваемого текста.
 type: docs
 weight: 9190
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfsettextjustification/
 ---
 ## WmfSetTextJustification class
 
-Запись META_SETTEXTJUSTIFICATION определяет количество места, которое необходимо добавить к символам &lt;see langword="break" /&gt; в строке текста с выравниванием по ширине.
+Запись META_SETTEXTJUSTIFICATION определяет количество места, которое нужно добавить в`break` символы в строке выравниваемого текста.
 
 ```csharp
 public class WmfSetTextJustification : WmfObject
@@ -24,8 +24,8 @@ public class WmfSetTextJustification : WmfObject
 
 | Имя | Описание |
 | --- | --- |
-| [BreakCount](../../aspose.imaging.fileformats.wmf.objects/wmfsettextjustification/breakcount) { get; set; } | Получает или задает счетчик &lt;see langword="break" /&gt;. |
-| [BreakExtra](../../aspose.imaging.fileformats.wmf.objects/wmfsettextjustification/breakextra) { get; set; } | Получает или задает дополнительный параметр &lt;see langword="break" /&gt;. |
+| [BreakCount](../../aspose.imaging.fileformats.wmf.objects/wmfsettextjustification/breakcount) { get; set; } | Получает или задает`break` кол. |
+| [BreakExtra](../../aspose.imaging.fileformats.wmf.objects/wmfsettextjustification/breakextra) { get; set; } | Получает или задает`break` доп. |
 
 ### Смотрите также
 

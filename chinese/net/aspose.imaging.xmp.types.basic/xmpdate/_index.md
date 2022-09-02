@@ -3,7 +3,7 @@ title: XmpDate
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示 XMP 数据包中的日期
 type: docs
-weight: 11470
+weight: 11460
 url: /zh/net/aspose.imaging.xmp.types.basic/xmpdate/
 ---
 ## XmpDate class
@@ -18,8 +18,8 @@ public sealed class XmpDate : XmpTypeBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [XmpDate](xmpdate#constructor)(DateTime) | 初始化[`XmpDate`](../xmpdate)类的新实例。 |
-| [XmpDate](xmpdate#constructor_1)(string) | 初始化[`XmpDate`](../xmpdate)类的新实例。 |
+| [XmpDate](xmpdate#constructor)(DateTime) | 初始化[`XmpDate`](../xmpdate)类. |
+| [XmpDate](xmpdate#constructor_1)(string) | 初始化[`XmpDate`](../xmpdate)类. |
 
 ## 特性
 
@@ -32,7 +32,7 @@ public sealed class XmpDate : XmpTypeBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [GetXmpRepresentation](../../aspose.imaging.xmp.types.basic/xmpdate/getxmprepresentation)() | 以 XMP 格式返回字符串包含的值。 |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.types.basic/xmpdate/getxmprepresentation)() | 以 XMP 格式返回包含字符串的值。 |
 
 ## 字段
 
@@ -42,7 +42,7 @@ public sealed class XmpDate : XmpTypeBase
 
 ### 评论
 
-使用日期和时间格式中定义的格式子集表示日期时间值 YYYY YYYY-MM YYYY-MM-DD YYYY-MM-DDThh:mmTZD YYYY-MM-DDThh:mm:ssTZD YYYY-MM-DDThh:mm:ss.sTZD
+使用日期和时间格式中定义的格式子集表示日期时间值： YYYY YYYY-MM YYYY-MM-DD YYYY-MM-DDThh:mmTZD YYYY-MM-DDThh:mm:ssTZD YYYY- MM-DDThh:mm:ss.sTZD
 
 ### 也可以看看
 

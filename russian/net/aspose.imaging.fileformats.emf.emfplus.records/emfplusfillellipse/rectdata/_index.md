@@ -1,14 +1,14 @@
 ---
 title: RectData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает данные прямоугольника Либо объект EmfPlusRect либо EmfPlusRectF определяющий ограничивающую рамку эллипса
+description: Получает или задает прямоугольник data Объект EmfPlusRect или EmfPlusRectF определяющий ограничивающую рамку эллипса
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillellipse/rectdata/
 ---
 ## EmfPlusFillEllipse.RectData property
 
-Получает или устанавливает данные прямоугольника Либо объект EmfPlusRect, либо EmfPlusRectF, определяющий ограничивающую рамку эллипса
+Получает или задает прямоугольник data Объект EmfPlusRect или EmfPlusRectF, определяющий ограничивающую рамку эллипса
 
 ```csharp
 public RectangleF RectData { get; set; }

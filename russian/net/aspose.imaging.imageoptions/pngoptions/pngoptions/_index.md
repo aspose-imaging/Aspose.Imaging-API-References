@@ -1,14 +1,14 @@
 ---
 title: PngOptions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаPngOptionsaspose.imaging.imageoptions/pngoptions.
+description: Инициализирует новый экземплярPngOptionsaspose.imaging.imageoptions/pngoptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.imageoptions/pngoptions/pngoptions/
 ---
 ## PngOptions() {#constructor}
 
-Инициализирует новый экземпляр класса[`PngOptions`](../../pngoptions).
+Инициализирует новый экземпляр[`PngOptions`](../../pngoptions) класс.
 
 ```csharp
 public PngOptions()
@@ -24,7 +24,7 @@ public PngOptions()
 
 ## PngOptions(PngOptions) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`PngOptions`](../../pngoptions).
+Инициализирует новый экземпляр[`PngOptions`](../../pngoptions) класс.
 
 ```csharp
 public PngOptions(PngOptions pngOptions)

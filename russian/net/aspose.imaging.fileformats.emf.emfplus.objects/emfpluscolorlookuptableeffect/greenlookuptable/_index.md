@@ -1,14 +1,14 @@
 ---
 title: GreenLookupTable
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив из 256 байтов определяющий настройку канала зеленого цвета.
+description: Получает или задает массив из 256 байтов определяющий корректировку канала зеленого цвета.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorlookuptableeffect/greenlookuptable/
 ---
 ## EmfPlusColorLookupTableEffect.GreenLookupTable property
 
-Получает или задает массив из 256 байтов, определяющий настройку канала зеленого цвета.
+Получает или задает массив из 256 байтов, определяющий корректировку канала зеленого цвета.
 
 ```csharp
 public byte[] GreenLookupTable { get; set; }

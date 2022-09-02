@@ -1,14 +1,14 @@
 ---
 title: Audio16Channel
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает 16 аудиоканал.
+description: Получает 16 аудиоканалов.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp.schemas.xmpdm/audiochanneltype/audio16channel/
 ---
 ## AudioChannelType.Audio16Channel property
 
-Получает 16 аудиоканал.
+Получает 16 аудиоканалов.
 
 ```csharp
 public static AudioChannelType Audio16Channel { get; }

@@ -1,14 +1,14 @@
 ---
 title: RgnData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 RgnDataSize 长度字节数组该数组以逻辑单位指定 RegionData 对象 如果 RegionMode 是 RGN_COPY则可以省略此数据并且剪辑区域 应设置为默认 NULL 剪辑区域
+description: 获取或设置一个 RgnDataSize 长度的字节数组该数组以逻辑单位指定 RegionData 对象 如果 RegionMode 是 RGN_COPY则可以省略此数据并且剪辑区域 应该设置为默认 NULL 剪辑区域
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/rgndata/
 ---
 ## EmfExtSelectClipRgn.RgnData property
 
-获取或设置一个 RgnDataSize 长度字节数组，该数组以逻辑单位指定 RegionData 对象 。如果 RegionMode 是 RGN_COPY，则可以省略此数据，并且剪辑区域 应设置为默认 (NULL) 剪辑区域。
+获取或设置一个 RgnDataSize 长度的字节数组，该数组以逻辑单位指定 RegionData 对象 。如果 RegionMode 是 RGN_COPY，则可以省略此数据，并且剪辑区域 应该设置为默认 (NULL) 剪辑区域。
 
 ```csharp
 public EmfRegionData RgnData { get; set; }

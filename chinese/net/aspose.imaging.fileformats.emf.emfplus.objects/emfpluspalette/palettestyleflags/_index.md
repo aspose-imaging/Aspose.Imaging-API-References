@@ -16,7 +16,7 @@ public EmfPlusPaletteStyleFlags PaletteStyleFlags { get; set; }
 
 ### 适当的价值
 
-PaletteStyleFlags（4 字节）:一个 32 位无符号整数，用于指定调色板。这个 值必须由[`EmfPlusPaletteStyleFlags`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfpluspalettestyleflags)标志组成。
+PaletteStyleFlags（4 字节）：一个 32 位无符号整数，用于指定调色板中数据的属性。 this 值必须由[`EmfPlusPaletteStyleFlags`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfpluspalettestyleflags)标志.
 
 ### 也可以看看
 

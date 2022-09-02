@@ -1,14 +1,14 @@
 ---
 title: Rotate
 second_title: Aspose.Imaging for .NET API 参考
-description: RasterCahcedMultipageImage.Rotate图像围绕中心
+description: RasterCahcedMultipageImage.Rotate中心周围的图像
 type: docs
 weight: 260
 url: /zh/net/aspose.imaging.fileformats.webp/webpimage/rotate/
 ---
 ## WebPImage.Rotate method
 
-!:RasterCahcedMultipageImage.Rotate图像围绕中心。
+!:RasterCahcedMultipageImage.Rotate中心周围的图像。
 
 ```csharp
 public override void Rotate(float angle, bool resizeProportionally, Color backgroundColor)
@@ -17,8 +17,8 @@ public override void Rotate(float angle, bool resizeProportionally, Color backgr
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | angle | Single | 以度为单位的旋转角度。正值将顺时针旋转。 |
-| resizeProportionally | Boolean | 如果设置为` true` 您将更改图像大小 根据其他 情况下的旋转矩形（角点）投影，保持尺寸不变，只有 &lt;see langword="internal" /&gt; 图像内容被旋转。 |
-| backgroundColor | Color | 背景颜色。 |
+| resizeProportionally | Boolean | 如果设置为`真的`在 other 情况下，您将根据旋转的矩形（角点）投影更改图像大小 ，使尺寸保持不变且仅 `internal`图像内容被旋转。 |
+| backgroundColor | Color | 背景的颜色。 |
 
 ### 也可以看看
 

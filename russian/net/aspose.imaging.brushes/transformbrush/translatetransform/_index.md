@@ -1,14 +1,14 @@
 ---
 title: TranslateTransform
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Переносит локальное геометрическое преобразование на заданные размеры. Этот метод добавляет перевод к преобразованию.
+description: Преобразует локальное геометрическое преобразование по указанным размерам. Этот метод добавляет перевод к transform.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging.brushes/transformbrush/translatetransform/
 ---
 ## TranslateTransform(float, float) {#translatetransform}
 
-Переносит локальное геометрическое преобразование на заданные размеры. Этот метод добавляет перевод к преобразованию.
+Преобразует локальное геометрическое преобразование по указанным размерам. Этот метод добавляет перевод к transform.
 
 ```csharp
 public void TranslateTransform(float dx, float dy)

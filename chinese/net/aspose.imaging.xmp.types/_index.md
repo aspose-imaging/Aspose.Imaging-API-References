@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.Xmp.Types
 second_title: Aspose.Imaging for .NET API 参考
-description: 命名空间包含代表三个基本类别中的 XMP 属性值的类基本类型 复杂类型和派生类型
+description: 命名空间包含表示 XMP 属性值的类分为三个基本类别基本类型 复杂类型和派生类型
 type: docs
 weight: 980
 url: /zh/net/aspose.imaging.xmp.types/
 ---
-命名空间包含代表三个基本类别中的 XMP 属性值的类:基本类型、 复杂类型和派生类型。
+命名空间包含表示 XMP 属性值的类，分为三个基本类别：基本类型、 复杂类型和派生类型。
 
 ## 课程
 

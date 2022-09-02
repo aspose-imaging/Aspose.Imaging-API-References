@@ -1,14 +1,14 @@
 ---
 title: AsyncTask
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Класс статической фабрики для создания асинхронных задач
+description: Статический фабричный класс для создания асинхронных задач
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.asynctask/asynctask/
 ---
 ## AsyncTask class
 
-Класс статической фабрики для создания асинхронных задач
+Статический фабричный класс для создания асинхронных задач
 
 ```csharp
 public static class AsyncTask
@@ -18,7 +18,7 @@ public static class AsyncTask
 
 | Имя | Описание |
 | --- | --- |
-| static [Create](../../aspose.imaging.asynctask/asynctask/create#create)(AsyncTaskAction) | Создает асинхронную задачу без какого-либо результата. |
+| static [Create](../../aspose.imaging.asynctask/asynctask/create#create)(AsyncTaskAction) | Создает асинхронную задачу без результата. |
 | static [Create](../../aspose.imaging.asynctask/asynctask/create#create_1)(AsyncTaskFunc) | Создает асинхронную задачу с результатом универсального типа. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: GammaValueNumerator
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取 Gamma 值分子部分 未校正的图像没有伽马的图像的结果应该是 1.0
+description: 获取 Gamma 值分子部分 未校正的图像没有 gamma 的图像应具有值 1.0 作为结果
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.fileformats.tga/tgaimage/gammavaluenumerator/
 ---
 ## TgaImage.GammaValueNumerator property
 
-获取 Gamma 值分子部分。 未校正的图像（没有伽马的图像）的结果应该是 1.0。
+获取 Gamma 值分子部分。 未校正的图像（没有 gamma 的图像）应具有值 1.0 作为结果。
 
 ```csharp
 public ushort GammaValueNumerator { get; }
@@ -16,7 +16,7 @@ public ushort GammaValueNumerator { get; }
 
 ### 例子
 
-获取加载的 TGA 图像的公共属性值。
+获取加载的 TGA 图像的公共属性的值。
 
 ```csharp
 [C#]

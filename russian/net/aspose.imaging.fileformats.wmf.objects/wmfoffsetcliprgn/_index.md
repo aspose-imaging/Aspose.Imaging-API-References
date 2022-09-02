@@ -1,14 +1,14 @@
 ---
 title: WmfOffsetClipRgn
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_OFFSETCLIPRGN перемещает область отсечения в контексте воспроизведения устройства на указанные смещения.
+description: Запись META_OFFSETCLIPRGN перемещает область отсечения в контексте устройстваplay на указанные смещения.
 type: docs
 weight: 8790
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfoffsetcliprgn/
 ---
 ## WmfOffsetClipRgn class
 
-Запись META_OFFSETCLIPRGN перемещает область отсечения в контексте воспроизведения устройства на указанные смещения.
+Запись META_OFFSETCLIPRGN перемещает область отсечения в контексте устройстваplay на указанные смещения.
 
 ```csharp
 public class WmfOffsetClipRgn : WmfPointObject
@@ -24,7 +24,7 @@ public class WmfOffsetClipRgn : WmfPointObject
 
 | Имя | Описание |
 | --- | --- |
-| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или задает точку. |
+| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или устанавливает точку. |
 
 ### Смотрите также
 

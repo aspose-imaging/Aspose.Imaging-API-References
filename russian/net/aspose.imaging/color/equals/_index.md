@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Проверяет является ли указанный объект структуройColoraspose.imaging/colorи эквивалентен ли этомуColoraspose.imaging/colorструктура.
+description: Проверяет является ли указанный объектColoraspose.imaging/color структуру и эквивалентен этомуColoraspose.imaging/color структура.
 type: docs
 weight: 1540
 url: /ru/net/aspose.imaging/color/equals/
 ---
 ## Color.Equals method
 
-Проверяет, является ли указанный объект структурой[`Color`](../../color)и эквивалентен ли этому[`Color`](../../color)структура.
+Проверяет, является ли указанный объект[`Color`](../../color) структуру и эквивалентен этому[`Color`](../../color) структура.
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Объект для проверки. |
+| obj | Object | Объект для тестирования. |
 
 ### Возвращаемое значение
 
-Истинно, если*obj*является структурой[`Color`](../../color), эквивалентной этой[`Color`](../../color)структура; в противном случае ложно.
+Верно, если*obj* это[`Color`](../../color) структура, эквивалентная этому[`Color`](../../color) структура; в противном случае ложно.
 
 ### Смотрите также
 

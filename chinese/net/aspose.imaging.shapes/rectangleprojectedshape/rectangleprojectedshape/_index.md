@@ -1,14 +1,14 @@
 ---
 title: RectangleProjectedShape
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化RectangleProjectedShapeaspose.imaging.shapes/rectangleprojectedshape类的新实例
+description: 初始化RectangleProjectedShapeaspose.imaging.shapes/rectangleprojectedshape类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.shapes/rectangleprojectedshape/rectangleprojectedshape/
 ---
 ## RectangleProjectedShape() {#constructor}
 
-初始化[`RectangleProjectedShape`](../../rectangleprojectedshape)类的新实例。
+初始化[`RectangleProjectedShape`](../../rectangleprojectedshape)类.
 
 ```csharp
 public RectangleProjectedShape()
@@ -24,7 +24,7 @@ public RectangleProjectedShape()
 
 ## RectangleProjectedShape(RectangleF) {#constructor_1}
 
-初始化[`RectangleProjectedShape`](../../rectangleprojectedshape)类的新实例。
+初始化[`RectangleProjectedShape`](../../rectangleprojectedshape)类.
 
 ```csharp
 public RectangleProjectedShape(RectangleF rectangle)
@@ -32,7 +32,7 @@ public RectangleProjectedShape(RectangleF rectangle)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rectangle | RectangleF | 初始化的矩形。 |
+| rectangle | RectangleF | 要初始化的矩形。 |
 
 ### 也可以看看
 

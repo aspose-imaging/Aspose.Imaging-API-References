@@ -1,14 +1,14 @@
 ---
 title: TextShape
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTextShapeaspose.imaging.shapes/textshape.
+description: Инициализирует новый экземплярTextShapeaspose.imaging.shapes/textshape класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.shapes/textshape/textshape/
 ---
 ## TextShape() {#constructor}
 
-Инициализирует новый экземпляр класса[`TextShape`](../../textshape).
+Инициализирует новый экземпляр[`TextShape`](../../textshape) класс.
 
 ```csharp
 public TextShape()
@@ -24,7 +24,7 @@ public TextShape()
 
 ## TextShape(string, RectangleF, Font, StringFormat) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`TextShape`](../../textshape).
+Инициализирует новый экземпляр[`TextShape`](../../textshape) класс.
 
 ```csharp
 public TextShape(string text, RectangleF rectangle, Font font, StringFormat stringFormat)

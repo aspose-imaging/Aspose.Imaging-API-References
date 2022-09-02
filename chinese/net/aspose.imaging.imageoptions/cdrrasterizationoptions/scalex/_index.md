@@ -1,14 +1,14 @@
 ---
 title: ScaleX
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置比例 x
+description: 获取或设置刻度x.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.imageoptions/cdrrasterizationoptions/scalex/
 ---
 ## CdrRasterizationOptions.ScaleX property
 
-获取或设置比例 x。
+获取或设置刻度x.
 
 ```csharp
 public float ScaleX { get; set; }
@@ -16,7 +16,7 @@ public float ScaleX { get; set; }
 
 ### 适当的价值
 
-比例 x。
+比例尺 x.
 
 ### 也可以看看
 

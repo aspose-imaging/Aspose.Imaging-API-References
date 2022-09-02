@@ -18,12 +18,12 @@ public override void Dither(DitheringMethod ditheringMethod, int bitsCount,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | ditheringMethod | DitheringMethod | Метод дизеринга. |
-| bitsCount | Int32 | Для сглаживания учитываются последние биты. |
-| customPalette | IColorPalette | Пользовательская палитра для сглаживания. |
+| bitsCount | Int32 | Последние биты учитываются при дизеринге. |
+| customPalette | IColorPalette | Пользовательская палитра для дизеринга. |
 
 ### Примеры
 
-В следующем примере загружается изображение в формате GIF и выполняется сглаживание порога и флойда с использованием различной глубины палитры.
+В следующем примере загружается изображение GIF и выполняется сглаживание порога и Флойда с использованием различной глубины палитры.
 
 ```csharp
 [C#]
@@ -34,9 +34,9 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"
 {
     Aspose.Imaging.FileFormats.Gif.GifImage gifImage = (Aspose.Imaging.FileFormats.Gif.GifImage)image;
 
-     // Выполняем пороговое сглаживание, используя 4-битную цветовую палитру, содержащую 16 цветов.
-     // Чем больше бит указано, тем выше качество и больше размер выходного изображения.
-     // Обратите внимание, что на данный момент поддерживаются только 1-битные, 4-битные и 8-битные палитры.
+    // Выполнение порогового сглаживания с использованием 4-битной цветовой палитры, содержащей 16 цветов.
+    // Чем больше бит указано, тем выше качество и больше размер выходного изображения.
+    // Обратите внимание, что на данный момент поддерживаются только 1-битные, 4-битные и 8-битные палитры.
     gifImage.Dither(Aspose.Imaging.DitheringMethod.ThresholdDithering, 4, null);
 
     gifImage.Save(dir + "sample.ThresholdDithering4.png", new Aspose.Imaging.ImageOptions.PngOptions());
@@ -46,9 +46,9 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"
 {
     Aspose.Imaging.FileFormats.Gif.GifImage gifImage = (Aspose.Imaging.FileFormats.Gif.GifImage)image;
 
-     // Выполняем флойдовский дизеринг, используя 1-битную цветовую палитру, содержащую только 2 цвета — черный и белый.
-     // Чем больше бит указано, тем выше качество и больше размер выходного изображения.
-     // Обратите внимание, что на данный момент поддерживаются только 1-битные, 4-битные и 8-битные палитры.
+    // Выполняем сглаживание по методу Флойда, используя 1-битную цветовую палитру, содержащую только 2 цвета — черный и белый.
+    // Чем больше бит указано, тем выше качество и больше размер выходного изображения.
+    // Обратите внимание, что на данный момент поддерживаются только 1-битные, 4-битные и 8-битные палитры.
     gifImage.Dither(Aspose.Imaging.DitheringMethod.FloydSteinbergDithering, 1, null);
 
     gifImage.Save(dir + "sample.FloydSteinbergDithering1.png", new Aspose.Imaging.ImageOptions.PngOptions());

@@ -1,14 +1,14 @@
 ---
 title: FillPath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Заполняет внутреннюю частьGraphicsPathaspose.imaging/graphicspath.
+description: Заполняет внутреннюю частьGraphicsPathaspose.imaging/graphicspath .
 type: docs
 weight: 360
 url: /ru/net/aspose.imaging/graphics/fillpath/
 ---
 ## Graphics.FillPath method
 
-Заполняет внутреннюю часть[`GraphicsPath`](../../graphicspath).
+Заполняет внутреннюю часть[`GraphicsPath`](../../graphicspath) .
 
 ```csharp
 public void FillPath(Brush brush, GraphicsPath path)
@@ -16,14 +16,14 @@ public void FillPath(Brush brush, GraphicsPath path)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)который определяет характеристики заливки. |
-| path | GraphicsPath | [`GraphicsPath`](../../graphicspath)который представляет путь для заполнения. |
+| brush | Brush | [`Brush`](../../brush) что определяет характеристики заливки. |
+| path | GraphicsPath | [`GraphicsPath`](../../graphicspath) который представляет путь для заполнения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *brush*равно null. -или- *путь*равно нулю. |
+| ArgumentNullException | *brush* равно null. -или- *path* нулевой. |
 
 ### Смотрите также
 

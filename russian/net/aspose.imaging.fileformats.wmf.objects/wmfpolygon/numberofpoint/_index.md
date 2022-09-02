@@ -1,14 +1,14 @@
 ---
 title: NumberOfPoint
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает количество точек. 16-разрядное целое число со знаком которое определяет количество точек в массиве.
+description: Получает или задает количество точек. 16-битное целое число со знаком которое определяет количество точек в массиве.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfpolygon/numberofpoint/
 ---
 ## WmfPolygon.NumberOfPoint property
 
-Получает или задает количество точек. 16-разрядное целое число со знаком, которое определяет количество точек в массиве.
+Получает или задает количество точек. 16-битное целое число со знаком, которое определяет количество точек в массиве.
 
 ```csharp
 public short NumberOfPoint { get; set; }
@@ -16,7 +16,7 @@ public short NumberOfPoint { get; set; }
 
 ### Стоимость имущества
 
-Номер точки.
+Количество точек.
 
 ### Смотрите также
 

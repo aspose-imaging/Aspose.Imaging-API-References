@@ -16,7 +16,7 @@ public EmfPlusBrushType Type { get; set; }
 
 ### Стоимость имущества
 
-32-битное целое число без знака, указывающее тип кисти, который определяет содержимое поля BrushData. Это значение ДОЛЖНО быть определено в перечислении[`EmfPlusBrushType`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushtype).
+32-битное целое число без знака, определяющее тип кисти, определяющее содержимое поля BrushData. Это значение ДОЛЖНО быть определено в[`EmfPlusBrushType`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushtype) перечисление.
 
 ### Смотрите также
 

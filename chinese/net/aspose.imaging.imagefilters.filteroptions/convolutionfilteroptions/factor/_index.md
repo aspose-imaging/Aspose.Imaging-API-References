@@ -16,7 +16,7 @@ public double Factor { get; set; }
 
 ### 适当的价值
 
-因素。
+因素.
 
 ### 也可以看看
 

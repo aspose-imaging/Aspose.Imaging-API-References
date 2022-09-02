@@ -1,14 +1,14 @@
 ---
 title: XmpArrayHelper
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Вспомогательный класс для обработки логики RDF
+description: Вспомогательный класс для обработки RDF logic
 type: docs
-weight: 11740
+weight: 11730
 url: /ru/net/aspose.imaging.xmp/xmparrayhelper/
 ---
 ## XmpArrayHelper class
 
-Вспомогательный класс для обработки логики RDF
+Вспомогательный класс для обработки RDF logic
 
 ```csharp
 public static class XmpArrayHelper
@@ -18,7 +18,7 @@ public static class XmpArrayHelper
 
 | Имя | Описание |
 | --- | --- |
-| static [GetRdfCode](../../aspose.imaging.xmp/xmparrayhelper/getrdfcode)(XmpArrayType) | Получает код RDF для конкретного[`XmpArrayType`](../xmparraytype). |
+| static [GetRdfCode](../../aspose.imaging.xmp/xmparrayhelper/getrdfcode)(XmpArrayType) | Получает код RDF для определенных[`XmpArrayType`](../xmparraytype) . |
 
 ### Смотрите также
 

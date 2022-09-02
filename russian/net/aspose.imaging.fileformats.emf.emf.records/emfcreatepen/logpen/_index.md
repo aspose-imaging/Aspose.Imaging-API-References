@@ -1,14 +1,14 @@
 ---
 title: LogPen
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект LogPen раздел 2.2.19 определяющий стиль ширину и цвет логического пера.
+description: Получает или задает объект LogPen раздел 2.2.19 который определяет стиль ширину и цвет логического пера.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcreatepen/logpen/
 ---
 ## EmfCreatePen.LogPen property
 
-Получает или задает объект LogPen (раздел 2.2.19), определяющий стиль, ширину и цвет логического пера.
+Получает или задает объект LogPen (раздел 2.2.19), который определяет стиль, ширину и цвет логического пера.
 
 ```csharp
 public EmfLogPen LogPen { get; set; }

@@ -16,7 +16,7 @@ public ushort GPSDifferential { get; set; }
 
 ### 适当的价值
 
-GPS 值，指示是否对 GPS 接收器应用差分校正。
+指示差分校正是否应用于 GPS 接收器的 GPS 值。
 
 ### 也可以看看
 

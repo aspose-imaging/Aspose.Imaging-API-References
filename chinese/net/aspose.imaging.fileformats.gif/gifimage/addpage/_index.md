@@ -22,7 +22,7 @@ public void AddPage(RasterImage page)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *page*为空。 |
+| ArgumentNullException | *page*一片空白。 |
 
 ### 例子
 
@@ -33,20 +33,19 @@ public void AddPage(RasterImage page)
 
 static void Main(string[] args)
 {
-        // 加载frames
+    // 加载帧
     var frames = LoadFrames("Animation frames").ToArray();
 
-        // 使用第一个 frame
- 创建 GIF 图片
+    // 使用第一帧创建 GIF 图像
     using (var image = new GifImage(new GifFrameBlock(frames[0])))
     {
-        // 使用 AddPage 方法为 GIF 图片添加帧
+        // 使用 AddPage 方法将帧添加到 GIF 图像
         for (var index = 1; index < frames.Length; index++)
         {
             image.AddPage(frames[index]);
         }
 
-            // 保存 GIF image
+        // 保存 GIF 图片
         image.Save("Multipage.gif");
     }
 }

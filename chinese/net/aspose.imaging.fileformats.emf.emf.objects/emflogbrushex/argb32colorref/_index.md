@@ -1,14 +1,14 @@
 ---
 title: Argb32ColorRef
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定 颜色的 32 位 WMF ColorRef 对象MS-WMF 第 2.2.2.8 节该字段的解释取决于 BrushStyle 的值如下表 中所述
+description: 获取或设置指定 a 颜色的 32 位 WMF ColorRef 对象MS-WMF 第 2.2.2.8 节该字段的解释取决于BrushStyle的值如下表 中的解释
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/argb32colorref/
 ---
 ## EmfLogBrushEx.Argb32ColorRef property
 
-获取或设置指定 颜色的 32 位 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节）。该字段的解释取决于 BrushStyle 的值，如下表 中所述。
+获取或设置指定 a 颜色的 32 位 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节）。该字段的解释取决于BrushStyle的值，如下表 中的解释。
 
 ```csharp
 public int Argb32ColorRef { get; set; }

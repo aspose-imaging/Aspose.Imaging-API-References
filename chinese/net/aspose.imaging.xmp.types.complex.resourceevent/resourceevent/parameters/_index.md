@@ -16,7 +16,7 @@ public string Parameters { get; set; }
 
 ### 适当的价值
 
-动作的附加描述。
+动作的附加说明。
 
 ### 也可以看看
 

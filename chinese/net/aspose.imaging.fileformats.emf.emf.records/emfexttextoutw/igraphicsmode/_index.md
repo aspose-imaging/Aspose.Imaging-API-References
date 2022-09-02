@@ -1,14 +1,14 @@
 ---
 title: IGraphicsMode
 second_title: Aspose.Imaging for .NET API 参考
-description: 从 GraphicsMode 枚举第 2.1.16 节中获取或设置指定图形模式的 32 位无符号整数
+description: 获取或设置一个 32 位无符号整数它从 GraphicsMode 枚举第 2.1.16 节中指定图形模式
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfexttextoutw/igraphicsmode/
 ---
 ## EmfExtTextOutW.IGraphicsMode property
 
-从 GraphicsMode 枚举（第 2.1.16 节）中获取或设置指定图形模式的 32 位无符号整数。
+获取或设置一个 32 位无符号整数，它从 GraphicsMode 枚举（第 2.1.16 节）中指定图形模式。
 
 ```csharp
 public EmfGraphicsMode IGraphicsMode { get; set; }

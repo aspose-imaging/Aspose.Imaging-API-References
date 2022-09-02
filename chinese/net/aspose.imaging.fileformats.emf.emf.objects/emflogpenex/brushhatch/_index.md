@@ -1,14 +1,14 @@
 ---
 title: BrushHatch
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置画笔填充图案此字段的定义取决于 BrushStyle 值如本节后面的表格中所示
+description: 获取或设置画笔填充图案该字段的定义取决于 BrushStyle 值如本节后面的表格所示
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emflogpenex/brushhatch/
 ---
 ## EmfLogPenEx.BrushHatch property
 
-获取或设置画笔填充图案。此字段的定义取决于 BrushStyle 值，如本节后面的表格中所示。
+获取或设置画笔填充图案。该字段的定义取决于 BrushStyle 值，如本节后面的表格所示。
 
 ```csharp
 public EmfHatchStyle BrushHatch { get; set; }

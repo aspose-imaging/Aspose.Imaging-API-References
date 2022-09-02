@@ -1,14 +1,14 @@
 ---
 title: CreateFirstSupportedExporter
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Создает первый найденный экспортер подходящий для указанных параметров сохранения и изображения.
+description: Создает первый найденный экспортер подходящий для указанных параметров сохранения и образа.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging/imageexportersregistry/createfirstsupportedexporter/
 ---
 ## ImageExportersRegistry.CreateFirstSupportedExporter method
 
-Создает первый найденный экспортер, подходящий для указанных параметров сохранения и изображения.
+Создает первый найденный экспортер, подходящий для указанных параметров сохранения и образа.
 
 ```csharp
 public static IImageExporter CreateFirstSupportedExporter(Image image, ImageOptionsBase options)
@@ -21,11 +21,11 @@ public static IImageExporter CreateFirstSupportedExporter(Image image, ImageOpti
 
 ### Возвращаемое значение
 
-Экспортер, который поддерживает указанное изображение и параметры сохранения, или null, если такой экспортер не найден.
+Экспортер, который поддерживает указанное изображение и параметры сохранения, или нуль, если такой экспортер не найден.
 
 ### Примечания
 
-Первый экспортер будет фактически последним зарегистрированным.
+Фактически первый экспортер будет последним зарегистрированным.
 
 ### Смотрите также
 

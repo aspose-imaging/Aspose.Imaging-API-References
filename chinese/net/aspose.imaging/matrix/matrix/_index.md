@@ -24,7 +24,7 @@ public Matrix()
 
 ## Matrix(float, float, float, float, float, float) {#constructor_4}
 
-初始化[`Matrix`](../../matrix)类的新实例。
+初始化[`Matrix`](../../matrix)类.
 
 ```csharp
 public Matrix(float m11, float m12, float m21, float m22, float m31, float m32)
@@ -32,10 +32,10 @@ public Matrix(float m11, float m12, float m21, float m22, float m31, float m32)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| m11 | Single | m00 M11 比例 X |
-| m12 | Single | m10 M12 剪切Y |
+| m11 | Single | m00 M11 比例尺 X |
+| m12 | Single | m10 M12 剪切 Y |
 | m21 | Single | m01 M21 剪切 X |
-| m22 | Single | m11 M22 比例 Y |
+| m22 | Single | m11 M22 刻度 Y |
 | m31 | Single | m02 M31 平移 X |
 | m32 | Single | m12 M32 平移 Y |
 
@@ -49,7 +49,7 @@ public Matrix(float m11, float m12, float m21, float m22, float m31, float m32)
 
 ## Matrix(RectangleF, PointF[]) {#constructor_3}
 
-将[`Matrix`](../../matrix)类的新实例初始化为由指定矩形和点数组定义的几何变换.
+初始化[`Matrix`](../../matrix)类到由指定的矩形和点数组定义的几何变换。
 
 ```csharp
 public Matrix(RectangleF rect, PointF[] plgpts)
@@ -57,8 +57,8 @@ public Matrix(RectangleF rect, PointF[] plgpts)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | RectangleF | A[`RectangleF`](../../rectanglef)结构，表示要转换的矩形。 |
-| plgpts | PointF[] | 三个[`PointF`](../../pointf)结构的数组，表示平行四边形的点，矩形的左、右上和左下角将被变换。平行四边形的右下角由前三个角隐含。 |
+| rect | RectangleF | 一个[`RectangleF`](../../rectanglef)表示要转换的矩形的结构。 |
+| plgpts | PointF[] | 三个数组[`PointF`](../../pointf)表示平行四边形的点的结构，矩形的左上角、右上角和左下角要转换到这些点。平行四边形的右下角由前三个角隐含。 |
 
 ### 也可以看看
 
@@ -72,7 +72,7 @@ public Matrix(RectangleF rect, PointF[] plgpts)
 
 ## Matrix(Rectangle, Point[]) {#constructor_2}
 
-将[`Matrix`](../../matrix)类的新实例初始化为由指定矩形和点数组定义的几何变换.
+初始化[`Matrix`](../../matrix)类到由指定的矩形和点数组定义的几何变换。
 
 ```csharp
 public Matrix(Rectangle rect, Point[] plgpts)
@@ -80,8 +80,8 @@ public Matrix(Rectangle rect, Point[] plgpts)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rect | Rectangle | 一个[`Rectangle`](../../rectangle)结构，表示要转换的矩形。 |
-| plgpts | Point[] | 三个[`Point`](../../point)结构的数组，表示平行四边形的点，矩形的左、右上和左下角将被变换。平行四边形的右下角由前三个角隐含。 |
+| rect | Rectangle | 一个[`Rectangle`](../../rectangle)表示要转换的矩形的结构。 |
+| plgpts | Point[] | 三个数组[`Point`](../../point)表示平行四边形的点的结构，矩形的左上角、右上角和左下角要转换到这些点。平行四边形的右下角由前三个角隐含。 |
 
 ### 也可以看看
 
@@ -95,7 +95,7 @@ public Matrix(Rectangle rect, Point[] plgpts)
 
 ## Matrix(Matrix) {#constructor_1}
 
-复制[`Matrix`](../../matrix)类。
+复制[`Matrix`](../../matrix)类.
 
 ```csharp
 public Matrix(Matrix origin)

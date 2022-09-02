@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Imaging for .NET API 参考
-description: 将给定的PointFaspose.imaging/pointf转换为指定的Sizeaspose.imaging/size.
+description: 翻译给定的PointFaspose.imaging/pointf由指定的Sizeaspose.imaging/size .
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging/pointf/add/
 ---
 ## Add(PointF, Size) {#add}
 
-将给定的[`PointF`](../../pointf)转换为指定的[`Size`](../../size).
+翻译给定的[`PointF`](../../pointf)由指定的[`Size`](../../size) .
 
 ```csharp
 public static PointF Add(PointF point, Size size)
@@ -16,12 +16,12 @@ public static PointF Add(PointF point, Size size)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| point | PointF | [`PointF`](../../pointf)进行翻译。 |
-| size | Size | [`Size`](../../size)指定要添加到*point坐标的数字*。 |
+| point | PointF | 这[`PointF`](../../pointf)翻译。 |
+| size | Size | 这[`Size`](../../size)指定要添加到坐标的数字*point*. |
 
 ### 返回值
 
-翻译后的[`PointF`](../../pointf)。
+翻译的[`PointF`](../../pointf).
 
 ### 也可以看看
 
@@ -34,7 +34,7 @@ public static PointF Add(PointF point, Size size)
 
 ## Add(PointF, SizeF) {#add_1}
 
-将给定的[`PointF`](../../pointf)转换为指定的[`SizeF`](../../sizef).
+翻译给定的[`PointF`](../../pointf)由指定的[`SizeF`](../../sizef) .
 
 ```csharp
 public static PointF Add(PointF point, SizeF size)
@@ -42,12 +42,12 @@ public static PointF Add(PointF point, SizeF size)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| point | PointF | [`PointF`](../../pointf)进行翻译。 |
-| size | SizeF | [`SizeF`](../../sizef)指定要添加到*point坐标的数字*。 |
+| point | PointF | 这[`PointF`](../../pointf)翻译。 |
+| size | SizeF | 这[`SizeF`](../../sizef)指定要添加到坐标的数字*point*. |
 
 ### 返回值
 
-翻译后的[`PointF`](../../pointf)。
+翻译的[`PointF`](../../pointf).
 
 ### 也可以看看
 

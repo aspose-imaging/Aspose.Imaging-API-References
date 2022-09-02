@@ -1,14 +1,14 @@
 ---
 title: EmfFormat
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект EmrFormat содержит информацию идентифицирующую формат данных изображения в записи EMR_COMMENT_MULTIFORMATS раздел 2.3.3.4.3.
+description: Объект EmrFormat содержит информацию определяющую формат данных изображения в записи an EMR_COMMENT_MULTIFORMATS раздел 2.3.3.4.3.
 type: docs
 weight: 2960
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfformat/
 ---
 ## EmfFormat class
 
-Объект EmrFormat содержит информацию, идентифицирующую формат данных изображения в записи EMR_COMMENT_MULTIFORMATS (раздел 2.3.3.4.3).
+Объект EmrFormat содержит информацию, определяющую формат данных изображения в записи an EMR_COMMENT_MULTIFORMATS (раздел 2.3.3.4.3).
 
 ```csharp
 public sealed class EmfFormat : EmfObject
@@ -27,7 +27,7 @@ public sealed class EmfFormat : EmfObject
 | [OffData](../../aspose.imaging.fileformats.emf.emf.objects/emfformat/offdata) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее смещение данных от начала поля идентификатора в записи EMR_COMMENT_PUBLIC (раздел 2.3.3.4). Смещение ДОЛЖНО быть выровнено по 32 битам. |
 | [Signature](../../aspose.imaging.fileformats.emf.emf.objects/emfformat/signature) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее формат данных изображения. Это значение ДОЛЖНО быть в перечислении FormatSignature (раздел 2.1.14). |
 | [SizeData](../../aspose.imaging.fileformats.emf.emf.objects/emfformat/sizedata) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер данных в байтах |
-| [Version](../../aspose.imaging.fileformats.emf.emf.objects/emfformat/version) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее номер версии формата. Если в поле Подпись указан инкапсулированный PostScript (EPS), это значение ДОЛЖНО быть 0x00000001; в противном случае это значение ДОЛЖНО игнорироваться |
+| [Version](../../aspose.imaging.fileformats.emf.emf.objects/emfformat/version) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее номер версии формата. Если в поле Подпись указан инкапсулированный PostScript (EPS), это значение ДОЛЖНО быть 0x00000001; в противном случае это значение ДОЛЖНО быть проигнорировано |
 
 ### Смотрите также
 

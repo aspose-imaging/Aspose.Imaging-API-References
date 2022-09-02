@@ -1,14 +1,14 @@
 ---
 title: EmfRestoreDc
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfRestoreDcaspose.imaging.fileformats.emf.emf.records/emfrestoredc.
+description: Инициализирует новый экземплярEmfRestoreDcaspose.imaging.fileformats.emf.emf.records/emfrestoredc класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfrestoredc/emfrestoredc/
 ---
 ## EmfRestoreDc(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfRestoreDc`](../../emfrestoredc).
+Инициализирует новый экземпляр[`EmfRestoreDc`](../../emfrestoredc) класс.
 
 ```csharp
 public EmfRestoreDc(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfRestoreDc(EmfRecord source)
 
 ## EmfRestoreDc() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfRestoreDc`](../../emfrestoredc).
+Инициализирует новый экземпляр[`EmfRestoreDc`](../../emfrestoredc) класс.
 
 ```csharp
 public EmfRestoreDc()

@@ -1,14 +1,14 @@
 ---
 title: LoopsCount
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает количество циклов если изображение GIF содержит информацию о циклах
+description: Получает количество циклов если изображение gif содержит информацию о циклах
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging.fileformats.gif/gifimage/loopscount/
 ---
 ## GifImage.LoopsCount property
 
-Получает количество циклов (если изображение GIF содержит информацию о циклах)
+Получает количество циклов (если изображение gif содержит информацию о циклах)
 
 ```csharp
 public int LoopsCount { get; set; }

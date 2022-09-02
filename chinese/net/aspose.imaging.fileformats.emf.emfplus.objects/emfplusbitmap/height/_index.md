@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置位图高度 高度4 字节一个 32 位有符号整数指定由以下各项占用的区域的高度以像素为单位位图 如果图像被压缩根据 Type 字段这个值是未定义的并且必须被忽略
+description: 获取或设置位图高度 高度4字节一个32位有符号整数指定位图占用区域的高度以像素为单位 如果图像被压缩根据类型字段该值是未定义的并且必须被忽略
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap/height/
 ---
 ## EmfPlusBitmap.Height property
 
-获取或设置位图高度 高度（4 字节）:一个 32 位有符号整数，指定由以下各项占用的区域的高度（以像素为单位）位图。 如果图像被压缩，根据 Type 字段，这个值是未定义的并且必须被忽略。
+获取或设置位图高度 高度（4字节）：一个32位有符号整数，指定位图占用区域的高度，以像素为单位。 如果图像被压缩，根据类型字段，该值是未定义的并且必须被忽略。
 
 ```csharp
 public int Height { get; set; }

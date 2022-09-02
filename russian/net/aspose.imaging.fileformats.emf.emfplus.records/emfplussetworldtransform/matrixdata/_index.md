@@ -1,14 +1,14 @@
 ---
 title: MatrixData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект EmfPlusTransformMatrix раздел 2.2.2.47 определяющий новое текущее преобразование мира.
+description: Получает или задает объект EmfPlusTransformMatrix раздел 2.2.2.47 который определяет новое текущее преобразование мира.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetworldtransform/matrixdata/
 ---
 ## EmfPlusSetWorldTransform.MatrixData property
 
-Получает или задает объект EmfPlusTransformMatrix (раздел 2.2.2.47), определяющий новое текущее преобразование мира.
+Получает или задает объект EmfPlusTransformMatrix (раздел 2.2.2.47), который определяет новое текущее преобразование мира.
 
 ```csharp
 public Matrix MatrixData { get; set; }

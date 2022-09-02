@@ -1,14 +1,14 @@
 ---
 title: StartCap
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个可选的 32 位有符号整数该整数指定 CustomStartCapData 字段中行首的形状 如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataStartCap 标志 则必须存在该字段并且必须在 LineCapType 中定义 值枚举 第 2.1.1.18 节
+description: 获取或设置一个可选的 32 位有符号整数该整数指定 CustomStartCapData 字段中 行的开头的形状 如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataStartCap 标志 则必须存在此字段并且必须在 LineCapType 枚举 第 2.1.1.18 节中定义 值
 type: docs
 weight: 130
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata/startcap/
 ---
 ## EmfPlusPenOptionalData.StartCap property
 
-获取或设置一个可选的 32 位有符号整数，该整数指定 CustomStartCapData 字段中行首的形状。 如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataStartCap 标志 则必须存在该字段，并且必须在 LineCapType 中定义 值枚举 （第 2.1.1.18 节）。
+获取或设置一个可选的 32 位有符号整数，该整数指定 CustomStartCapData 字段中 行的开头的形状。 如果在 EmfPlusPenData 对象的 PenDataFlags 字段中设置了 PenDataStartCap 标志 ，则必须存在此字段，并且必须在 LineCapType 枚举 （第 2.1.1.18 节）中定义 值。
 
 ```csharp
 public EmfPlusLineCapType StartCap { get; set; }

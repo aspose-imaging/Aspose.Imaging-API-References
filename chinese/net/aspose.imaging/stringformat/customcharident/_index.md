@@ -16,7 +16,7 @@ public PointF CustomCharIdent { get; set; }
 
 ### 适当的价值
 
-自定义字符标识符。
+自定义字符标识。
 
 ### 也可以看看
 

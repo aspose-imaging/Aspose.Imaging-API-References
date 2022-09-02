@@ -1,14 +1,14 @@
 ---
 title: StringData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置字符串数据 指定要绘制的字符串的 16 位 Unicode 字符数组
+description: 获取或设置字符串 data 指定要绘制的字符串的 16 位 Unicode 字符数组
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/stringdata/
 ---
 ## EmfPlusDrawString.StringData property
 
-获取或设置字符串数据 指定要绘制的字符串的 16 位 Unicode 字符数组
+获取或设置字符串 data 指定要绘制的字符串的 16 位 Unicode 字符数组
 
 ```csharp
 public string StringData { get; set; }

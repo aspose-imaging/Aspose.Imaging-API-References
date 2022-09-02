@@ -16,7 +16,7 @@ public static PixelDataFormat GetGrayscaleAlpha(int bitsPerSample)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| bitsPerSample | Int32 | Количество битов в выборке. |
+| bitsPerSample | Int32 | Количество битов на выборку. |
 
 ### Возвращаемое значение
 
@@ -40,7 +40,7 @@ public static PixelDataFormat GetGrayscaleAlpha(int bitsPerSample, int alphaChan
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| bitsPerSample | Int32 | Количество битов в выборке. |
+| bitsPerSample | Int32 | Количество битов на выборку. |
 | alphaChannelBits | Int32 | Количество битов на выборку в альфа-канале. |
 
 ### Возвращаемое значение

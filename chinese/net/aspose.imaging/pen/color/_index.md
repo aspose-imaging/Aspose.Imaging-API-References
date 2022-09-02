@@ -1,14 +1,14 @@
 ---
 title: Color
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此Penaspose.imaging/pen的颜色
+description: 获取或设置此颜色Penaspose.imaging/pen .
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging/pen/color/
 ---
 ## Pen.Color property
 
-获取或设置此[`Pen`](../../pen)的颜色。
+获取或设置此颜色[`Pen`](../../pen) .
 
 ```csharp
 public Color Color { get; set; }
@@ -16,13 +16,13 @@ public Color Color { get; set; }
 
 ### 适当的价值
 
-A`Color`结构，表示这个::的颜色:R5:T:Aspose.Imaging.Pen:::。
+一个`Color`代表这个颜色的结构[`Pen`](../../pen).
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | `Color`属性设置在不可变的:::R5 上:T:Aspose.Imaging.Pen:::，例如[`Pen`](../../pen)类返回的那些。 |
+| ArgumentException | 这`Color`属性设置在不可变对象上[`Pen`](../../pen)，例如那些由[`Pen`](../../pen)班级。 |
 
 ### 也可以看看
 

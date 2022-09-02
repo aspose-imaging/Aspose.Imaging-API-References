@@ -1,14 +1,14 @@
 ---
 title: ImageAttributesId
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数该整数包含 EMF 对象中的 可选 EmfPlusImageAttributes 对象第 2.2.1.5 节的索引桌子
+description: 获取或设置一个 32 位无符号整数该整数包含 EMF 对象表中的 可选 EmfPlusImageAttributes 对象第 2.2.1.5 节的索引
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimagepoints/imageattributesid/
 ---
 ## EmfPlusDrawImagePoints.ImageAttributesId property
 
-获取或设置一个 32 位无符号整数，该整数包含 EMF+ 对象中的 可选 EmfPlusImageAttributes 对象（第 2.2.1.5 节）的索引桌子。
+获取或设置一个 32 位无符号整数，该整数包含 EMF+ 对象表中的 可选 EmfPlusImageAttributes 对象（第 2.2.1.5 节）的索引。
 
 ```csharp
 public int ImageAttributesId { get; set; }

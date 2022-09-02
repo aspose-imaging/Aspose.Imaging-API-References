@@ -1,14 +1,14 @@
 ---
 title: IsKnownColor
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее является ли эта структураColoraspose.imaging/colorпредопределенным цветом. Предопределенные цвета представлены элементами перечисленияKnownColoraspose.imaging/knowncolor.
+description: Получает значение указывающее является ли этоColoraspose.imaging/color структура предопределенного цвета. Предопределенные цвета представлены элементамиKnownColoraspose.imaging/knowncolor перечисление.
 type: docs
 weight: 1500
 url: /ru/net/aspose.imaging/color/isknowncolor/
 ---
 ## Color.IsKnownColor property
 
-Получает значение, указывающее, является ли эта структура[`Color`](../../color)предопределенным цветом. Предопределенные цвета представлены элементами перечисления[`KnownColor`](../../knowncolor).
+Получает значение, указывающее, является ли это[`Color`](../../color) структура предопределенного цвета. Предопределенные цвета представлены элементами[`KnownColor`](../../knowncolor) перечисление.
 
 ```csharp
 public bool IsKnownColor { get; }
@@ -16,7 +16,7 @@ public bool IsKnownColor { get; }
 
 ### Стоимость имущества
 
-Истинно, если этот[`Color`](../../color)был создан из предопределенного цвета с использованием либо метод[`FromName`](../fromname)или метод[`FromKnownColor`](../fromknowncolor)метод; в противном случае ложно.
+Правда, если это[`Color`](../../color) был создан из предопределенного цвета с помощью[`FromName`](../fromname) метод или[`FromKnownColor`](../fromknowncolor) метод; в противном случае ложно.
 
 ### Смотрите также
 

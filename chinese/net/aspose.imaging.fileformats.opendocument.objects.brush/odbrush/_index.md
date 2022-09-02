@@ -1,14 +1,14 @@
 ---
 title: OdBrush
 second_title: Aspose.Imaging for .NET API 参考
-description: 打开文档画笔
+description: 打开的文件刷
 type: docs
 weight: 6890
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.brush/odbrush/
 ---
 ## OdBrush class
 
-打开文档画笔
+打开的文件刷
 
 ```csharp
 public abstract class OdBrush : ICloneable

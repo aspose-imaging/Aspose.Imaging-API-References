@@ -1,14 +1,14 @@
 ---
 title: FlashpixVersion
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает версию флэш-пикселя.
+description: Получает или задает версию flash pix.
 type: docs
 weight: 270
 url: /ru/net/aspose.imaging.exif/exifdata/flashpixversion/
 ---
 ## ExifData.FlashpixVersion property
 
-Получает или задает версию флэш-пикселя.
+Получает или задает версию flash pix.
 
 ```csharp
 public byte[] FlashpixVersion { get; set; }
@@ -16,7 +16,7 @@ public byte[] FlashpixVersion { get; set; }
 
 ### Стоимость имущества
 
-Версия flash pix.
+Пикс-версия флэш-памяти.
 
 ### Смотрите также
 

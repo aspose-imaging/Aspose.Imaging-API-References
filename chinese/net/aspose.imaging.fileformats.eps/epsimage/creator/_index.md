@@ -1,14 +1,14 @@
 ---
 title: Creator
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取 Creator 字段
+description: 获取创建者字段
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.eps/epsimage/creator/
 ---
 ## EpsImage.Creator property
 
-获取 Creator 字段
+获取创建者字段
 
 ```csharp
 public string Creator { get; }
@@ -16,7 +16,7 @@ public string Creator { get; }
 
 ### 适当的价值
 
-创建者字段
+创造者字段
 
 ### 也可以看看
 

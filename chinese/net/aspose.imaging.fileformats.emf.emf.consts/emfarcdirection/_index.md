@@ -1,14 +1,14 @@
 ---
 title: EmfArcDirection
 second_title: Aspose.Imaging for .NET API 参考
-description: ArcDirection 枚举用于设置弧形和矩形输出的绘制方向
+description: ArcDirection 枚举用于设置圆弧和矩形输出的绘制方向
 type: docs
 weight: 2540
 url: /zh/net/aspose.imaging.fileformats.emf.emf.consts/emfarcdirection/
 ---
 ## EmfArcDirection enumeration
 
-ArcDirection 枚举用于设置弧形和矩形输出的绘制方向。
+ArcDirection 枚举用于设置圆弧和矩形输出的绘制方向。
 
 ```csharp
 public enum EmfArcDirection
@@ -18,7 +18,7 @@ public enum EmfArcDirection
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| AD_COUNTERCLOCKWISE | `1` | 逆时针绘制的图形 |
+| AD_COUNTERCLOCKWISE | `1` | 逆时针绘制的数字 |
 | AD_CLOCKWISE | `2` | 顺时针绘制的数字。 |
 
 ### 也可以看看

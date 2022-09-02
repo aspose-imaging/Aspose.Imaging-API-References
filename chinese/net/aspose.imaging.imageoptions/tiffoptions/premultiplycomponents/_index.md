@@ -1,14 +1,14 @@
 ---
 title: PremultiplyComponents
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值该值指示是否必须对组件进行预乘
+description: 获取或设置一个值该值指示是否必须对分量进行预乘
 type: docs
 weight: 370
 url: /zh/net/aspose.imaging.imageoptions/tiffoptions/premultiplycomponents/
 ---
 ## TiffOptions.PremultiplyComponents property
 
-获取或设置一个值，该值指示是否必须对组件进行预乘。
+获取或设置一个值，该值指示是否必须对分量进行预乘。
 
 ```csharp
 public bool PremultiplyComponents { get; set; }
@@ -16,7 +16,7 @@ public bool PremultiplyComponents { get; set; }
 
 ### 适当的价值
 
-` true` 如果组件必须预乘；否则，` false` 。
+`真的`如果组件必须预乘；否则，`错误的` .
 
 ### 也可以看看
 

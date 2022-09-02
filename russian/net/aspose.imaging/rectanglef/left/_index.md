@@ -1,14 +1,14 @@
 ---
 title: Left
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает координату x левого края этойRectangleFaspose.imaging/rectanglefструктуры.
+description: Получает или задает x-координату левого края этогоRectangleFaspose.imaging/rectanglef структура.
 type: docs
 weight: 110
 url: /ru/net/aspose.imaging/rectanglef/left/
 ---
 ## RectangleF.Left property
 
-Получает или задает координату x левого края этой[`RectangleF`](../../rectanglef)структуры.
+Получает или задает x-координату левого края этого[`RectangleF`](../../rectanglef) структура.
 
 ```csharp
 public float Left { get; set; }
@@ -16,7 +16,7 @@ public float Left { get; set; }
 
 ### Возвращаемое значение
 
-X-координата левого края этой[`RectangleF`](../../rectanglef)структуры.
+Координата x левого края этого[`RectangleF`](../../rectanglef) структура.
 
 ### Смотрите также
 

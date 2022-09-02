@@ -1,14 +1,14 @@
 ---
 title: CenterY
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает координату Y для центра прямоугольника. Меры в общепринятых единицах расстояния документа.
+description: Получает или задает координату Y для центра прямоугольника. Измеряет в общепринятых единицах измерения расстояния документа.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/centery/
 ---
 ## CmxRectangleSpec.CenterY property
 
-Получает или задает координату Y для центра прямоугольника. Меры в общепринятых единицах расстояния документа.
+Получает или задает координату Y для центра прямоугольника. Измеряет в общепринятых единицах измерения расстояния документа.
 
 ```csharp
 public float CenterY { get; set; }

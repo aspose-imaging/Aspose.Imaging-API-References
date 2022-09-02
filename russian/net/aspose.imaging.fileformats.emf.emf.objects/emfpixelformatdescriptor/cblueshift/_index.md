@@ -1,14 +1,14 @@
 ---
 title: CBlueShift
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает Указывает количество смещений для синих битовых плоскостей в каждом цветовом буфере RGBA.
+description: Получает или задает количество сдвигов для синих битовых плоскостей в каждом цветовом буфере RGBA.
 type: docs
 weight: 120
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/cblueshift/
 ---
 ## EmfPixelFormatDescriptor.CBlueShift property
 
-Получает или задает Указывает количество смещений для синих битовых плоскостей в каждом цветовом буфере RGBA.
+Получает или задает количество сдвигов для синих битовых плоскостей в каждом цветовом буфере RGBA.
 
 ```csharp
 public byte CBlueShift { get; set; }

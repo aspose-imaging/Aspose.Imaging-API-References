@@ -3,7 +3,7 @@ title: OpenTypeFontsCache
 second_title: Aspose.Imaging for .NET API 参考
 description: 缓存系统中安装的 OpenType 字体
 type: docs
-weight: 10650
+weight: 10640
 url: /zh/net/aspose.imaging/opentypefontscache/
 ---
 ## OpenTypeFontsCache class
@@ -18,7 +18,7 @@ public static class OpenTypeFontsCache
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [UpdateCache](../../aspose.imaging/opentypefontscache/updatecache)() | &lt;inheritdoc cref="M:Aspose.Imaging.FontParsing.OpenType.Serialization.OpenTypeInfoCacheProcessor.UpdateFontsCache(System.Boolean)" /&gt; |
+| static [UpdateCache](../../aspose.imaging/opentypefontscache/updatecache)() |  |
 
 ### 也可以看看
 

@@ -19,7 +19,7 @@ public enum ColorQuantizationMethod
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 没有使用颜色量化方法 |
-| Popularity | `1` | 流行度方法 |
+| Popularity | `1` | 人气法 |
 
 ### 也可以看看
 

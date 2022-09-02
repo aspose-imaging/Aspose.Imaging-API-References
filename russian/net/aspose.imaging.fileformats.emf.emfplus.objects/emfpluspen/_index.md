@@ -24,8 +24,8 @@ public sealed class EmfPlusPen : EmfPlusGraphicsObjectType
 
 | Имя | Описание |
 | --- | --- |
-| [BrushObject](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen/brushobject) { get; set; } | Получает или задает объект EmfPlusBrush, указывающий графическую кисть, связанную с пером |
-| [PenData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen/pendata) { get; set; } | Получает или задает объект EmfPlusPenData, определяющий свойства графического пера |
+| [BrushObject](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen/brushobject) { get; set; } | Получает или задает объект EmfPlusBrush, указывающий графическую кисть, связанную с pen |
+| [PenData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen/pendata) { get; set; } | Получает или задает объект EmfPlusPenData, указывающий свойства графики pen |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen/type) { get; set; } | Получает или устанавливает Это поле ДОЛЖНО быть установлено равным нулю |
 | [Version](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsobjecttype/version) { get; set; } | Получает или задает версию. |
 

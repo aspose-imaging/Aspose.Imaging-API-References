@@ -1,14 +1,14 @@
 ---
 title: FillRectangles
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Заполняет внутреннюю часть серии прямоугольников заданных структурамиRectangleaspose.imaging/rectangle.
+description: Заполняет внутреннюю часть ряда прямоугольников заданных параметромRectangleaspose.imaging/rectangle структуры.
 type: docs
 weight: 400
 url: /ru/net/aspose.imaging/graphics/fillrectangles/
 ---
 ## FillRectangles(Brush, Rectangle[]) {#fillrectangles_1}
 
-Заполняет внутреннюю часть серии прямоугольников, заданных структурами[`Rectangle`](../../rectangle).
+Заполняет внутреннюю часть ряда прямоугольников, заданных параметром[`Rectangle`](../../rectangle) структуры.
 
 ```csharp
 public void FillRectangles(Brush brush, Rectangle[] rects)
@@ -16,14 +16,14 @@ public void FillRectangles(Brush brush, Rectangle[] rects)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)который определяет характеристики заливки. |
-| rects | Rectangle[] | Массив структур[`Rectangle`](../../rectangle), которые представляют прямоугольники для заполнения. |
+| brush | Brush | [`Brush`](../../brush) что определяет характеристики заливки. |
+| rects | Rectangle[] | Массив[`Rectangle`](../../rectangle) структуры, представляющие прямоугольники для заполнения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *brush*равно null или*rects*равно null. |
+| ArgumentNullException | *brush* является нулевым или*rects* нулевой. |
 
 ### Смотрите также
 
@@ -37,7 +37,7 @@ public void FillRectangles(Brush brush, Rectangle[] rects)
 
 ## FillRectangles(Brush, RectangleF[]) {#fillrectangles}
 
-Заполняет внутреннюю часть ряда прямоугольников, заданных структурами[`RectangleF`](../../rectanglef).
+Заполняет внутреннюю часть ряда прямоугольников, заданных параметром[`RectangleF`](../../rectanglef) структуры.
 
 ```csharp
 public void FillRectangles(Brush brush, RectangleF[] rects)
@@ -45,14 +45,14 @@ public void FillRectangles(Brush brush, RectangleF[] rects)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)который определяет характеристики заливки. |
-| rects | RectangleF[] | Массив структур[`Rectangle`](../../rectangle), которые представляют прямоугольники для заполнения. |
+| brush | Brush | [`Brush`](../../brush) что определяет характеристики заливки. |
+| rects | RectangleF[] | Массив[`Rectangle`](../../rectangle) структуры, представляющие прямоугольники для заполнения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *brush*равно null или*rects*равно null. |
+| ArgumentNullException | *brush* является нулевым или*rects* нулевой. |
 
 ### Смотрите также
 

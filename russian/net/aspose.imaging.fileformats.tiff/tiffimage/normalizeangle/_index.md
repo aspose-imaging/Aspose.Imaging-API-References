@@ -1,14 +1,14 @@
 ---
 title: NormalizeAngle
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Нормализует угол. Этот метод применим к отсканированным текстовым документам чтобы избавиться от перекоса сканирования. Этот метод используетGetSkewAngleaspose.imaging/rasterimage/getskewangleиRotateaspose.imaging.fileformats.tiff/tiffimage/rotateметоды.
+description: Нормализует угол. Этот метод применим к отсканированным текстовым документам чтобы избавиться от перекоса сканирования. Этот метод используетGetSkewAngleaspose.imaging/rasterimage/getskewangle а такжеRotateaspose.imaging.fileformats.tiff/tiffimage/rotate методы.
 type: docs
 weight: 300
 url: /ru/net/aspose.imaging.fileformats.tiff/tiffimage/normalizeangle/
 ---
 ## TiffImage.NormalizeAngle method
 
-Нормализует угол. Этот метод применим к отсканированным текстовым документам, чтобы избавиться от перекоса сканирования. Этот метод использует[`GetSkewAngle`](../../../aspose.imaging/rasterimage/getskewangle)и[`Rotate`](../rotate)методы.
+Нормализует угол. Этот метод применим к отсканированным текстовым документам, чтобы избавиться от перекоса сканирования. Этот метод использует[`GetSkewAngle`](../../../aspose.imaging/rasterimage/getskewangle) а также[`Rotate`](../rotate) методы.
 
 ```csharp
 public override void NormalizeAngle(bool resizeProportionally, Color backgroundColor)
@@ -16,7 +16,7 @@ public override void NormalizeAngle(bool resizeProportionally, Color backgroundC
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| resizeProportionally | Boolean | если установлено` true` у вас будет ваше изображение размер изменяется в соответствии с проекциями повернутого прямоугольника (угловые точки), в другом случае размеры остаются нетронутыми, и поворачивается только внутреннее содержимое изображения. |
+| resizeProportionally | Boolean | если установлено`истинный` у вас будет размер вашего изображения, измененный в соответствии с проекциями повернутого прямоугольника (угловые точки), в другом случае, который оставляет размеры нетронутыми, и поворачивается только внутреннее содержимое изображения. |
 | backgroundColor | Color | Цвет фона. |
 
 ### Смотрите также

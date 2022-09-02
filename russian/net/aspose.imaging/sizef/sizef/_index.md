@@ -1,14 +1,14 @@
 ---
 title: SizeF
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр структурыSizeFaspose.imaging/sizefиз указаннойРазмерF.
+description: Инициализирует новый экземплярSizeFaspose.imaging/sizef структура из указанногоSizeFaspose.imaging/sizef .
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging/sizef/sizef/
 ---
 ## SizeF(SizeF) {#constructor_1}
 
-Инициализирует новый экземпляр структуры[`SizeF`](../../sizef)из указаннойРазмерF.
+Инициализирует новый экземпляр[`SizeF`](../../sizef) структура из указанного[`SizeF`](../../sizef) .
 
 ```csharp
 public SizeF(SizeF size)
@@ -16,7 +16,7 @@ public SizeF(SizeF size)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| size | SizeF | [`SizeF`](../../sizef)из которого создается новый[`SizeF`](../../sizef). |
+| size | SizeF | [`SizeF`](../../sizef) из которого создать новый[`SizeF`](../../sizef). |
 
 ### Смотрите также
 
@@ -28,7 +28,7 @@ public SizeF(SizeF size)
 
 ## SizeF(PointF) {#constructor}
 
-Инициализирует новый экземпляр структуры[`SizeF`](../../sizef)из указанной[`PointF`](../../pointf).
+Инициализирует новый экземпляр[`SizeF`](../../sizef) структура из указанного[`PointF`](../../pointf) .
 
 ```csharp
 public SizeF(PointF point)
@@ -36,7 +36,7 @@ public SizeF(PointF point)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | PointF | [`PointF`](../../pointf)из которого инициализируется этот[`SizeF`](../../sizef). |
+| point | PointF | [`PointF`](../../pointf) из которого инициализировать это[`SizeF`](../../sizef). |
 
 ### Смотрите также
 
@@ -49,7 +49,7 @@ public SizeF(PointF point)
 
 ## SizeF(float, float) {#constructor_2}
 
-Инициализирует новый экземпляр структуры[`SizeF`](../../sizef)из указанных измерений.
+Инициализирует новый экземпляр[`SizeF`](../../sizef) структура из указанных размеров.
 
 ```csharp
 public SizeF(float width, float height)

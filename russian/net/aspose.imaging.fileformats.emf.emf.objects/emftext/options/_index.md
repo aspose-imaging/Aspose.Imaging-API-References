@@ -1,14 +1,14 @@
 ---
 title: Options
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее как использовать прямоугольник указанный в поле Rectangle. Это поле может быть комбинацией нескольких значений перечисления ExtTextOutOptions раздел 2.1.11
+description: Получает или задает 32-разрядное целое число без знака указывающее как использовать прямоугольник указанный в поле Rectangle. Это поле может быть комбинацией нескольких перечислений ExtTextOutOptions раздел 2.1.11 values
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emftext/options/
 ---
 ## EmfText.Options property
 
-Получает или задает 32-разрядное целое число без знака, указывающее, как использовать прямоугольник, указанный в поле Rectangle. Это поле может быть комбинацией нескольких значений перечисления ExtTextOutOptions (раздел 2.1.11)
+Получает или задает 32-разрядное целое число без знака, указывающее, как использовать прямоугольник, указанный в поле Rectangle. Это поле может быть комбинацией нескольких перечислений ExtTextOutOptions (раздел 2.1.11) values
 
 ```csharp
 public EmfExtTextOutOptions Options { get; set; }

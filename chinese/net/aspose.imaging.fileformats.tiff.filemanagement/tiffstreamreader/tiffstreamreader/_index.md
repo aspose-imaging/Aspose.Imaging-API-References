@@ -1,14 +1,14 @@
 ---
 title: TiffStreamReader
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化TiffStreamReaderaspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader类的新实例
+description: 初始化TiffStreamReaderaspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/tiffstreamreader/
 ---
 ## TiffStreamReader(byte[]) {#constructor_1}
 
-初始化[`TiffStreamReader`](../../tiffstreamreader)类的新实例。
+初始化[`TiffStreamReader`](../../tiffstreamreader)类.
 
 ```csharp
 public TiffStreamReader(byte[] data)
@@ -28,7 +28,7 @@ public TiffStreamReader(byte[] data)
 
 ## TiffStreamReader(byte[], int) {#constructor_2}
 
-初始化[`TiffStreamReader`](../../tiffstreamreader)类的新实例。
+初始化[`TiffStreamReader`](../../tiffstreamreader)类.
 
 ```csharp
 public TiffStreamReader(byte[] data, int startIndex)
@@ -37,7 +37,7 @@ public TiffStreamReader(byte[] data, int startIndex)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | data | Byte[] | 字节数组数据。 |
-| startIndex | Int32 | *data*的起始索引。 |
+| startIndex | Int32 | 起始索引*data*. |
 
 ### 也可以看看
 
@@ -49,7 +49,7 @@ public TiffStreamReader(byte[] data, int startIndex)
 
 ## TiffStreamReader(byte[], int, int) {#constructor_3}
 
-初始化[`TiffStreamReader`](../../tiffstreamreader)类的新实例。
+初始化[`TiffStreamReader`](../../tiffstreamreader)类.
 
 ```csharp
 public TiffStreamReader(byte[] data, int startIndex, int dataLength)
@@ -58,8 +58,8 @@ public TiffStreamReader(byte[] data, int startIndex, int dataLength)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | data | Byte[] | 字节数组数据。 |
-| startIndex | Int32 | *data*的起始索引。 |
-| dataLength | Int32 | 数据长度。 |
+| startIndex | Int32 | 起始索引*data*. |
+| dataLength | Int32 | 数据的长度。 |
 
 ### 也可以看看
 
@@ -71,7 +71,7 @@ public TiffStreamReader(byte[] data, int startIndex, int dataLength)
 
 ## TiffStreamReader(StreamContainer) {#constructor}
 
-初始化[`TiffStreamReader`](../../tiffstreamreader)类的新实例。
+初始化[`TiffStreamReader`](../../tiffstreamreader)类.
 
 ```csharp
 public TiffStreamReader(StreamContainer streamContainer)

@@ -18,35 +18,35 @@ public sealed class Font
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Font](font#constructor)(Font, FontStyle) | 初始化使用指定的现有Font的新R5:T:Aspose.Imaging.Font::::::和[`FontStyle`](../fontstyle)枚举。 |
-| [Font](font#constructor_1)(string, float) | 使用指定的大小初始化新的[`Font`](../font)。字符集设置为Default，图形单位设置为Point，字体样式设置为Regular。 |
-| [Font](font#constructor_2)(string, float, FontStyle) | 使用指定的大小和样式初始化新的[`Font`](../font)。字符集设置为Default，图形单元设置为Point。 |
-| [Font](font#constructor_5)(string, float, GraphicsUnit) | 使用指定的大小和单位初始化一个新的[`Font`](../font)。字符集设置为Default，样式设置为Regular。 |
-| [Font](font#constructor_3)(string, float, FontStyle, GraphicsUnit) | 使用指定的大小、样式和单位初始化新的[`Font`](../font)。 |
-| [Font](font#constructor_4)(string, float, FontStyle, GraphicsUnit, CharacterSet) | 使用指定的大小、样式、单位和字符集初始化新的[`Font`](../font)。 |
+| [Font](font#constructor)(Font, FontStyle) | 初始化一个新的[`Font`](../font)使用指定的现有[`Font`](../font)和[`FontStyle`](../fontstyle)枚举. |
+| [Font](font#constructor_1)(string, float) | 初始化一个新的[`Font`](../font)使用指定的大小。字符集设置为Default 图形单元Point 字体样式为Regular . |
+| [Font](font#constructor_2)(string, float, FontStyle) | 初始化一个新的[`Font`](../font)使用指定的尺寸和样式。字符集设置为Default 图形单元Point . |
+| [Font](font#constructor_5)(string, float, GraphicsUnit) | 初始化一个新的[`Font`](../font)使用指定的大小和单位。字符集设置为Default，样式设置为Regular . |
+| [Font](font#constructor_3)(string, float, FontStyle, GraphicsUnit) | 初始化一个新的[`Font`](../font)使用指定的大小、样式和单位。 |
+| [Font](font#constructor_4)(string, float, FontStyle, GraphicsUnit, CharacterSet) | 初始化一个新的[`Font`](../font)使用指定的大小、样式、单位和字符集。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bold](../../aspose.imaging/font/bold) { get; } | 获取一个值，该值指示此[`Font`](../font)是否为粗体。 |
-| [CharacterSet](../../aspose.imaging/font/characterset) { get; } | 获取指定此[`Font`](../font)使用的字符集的字节值。 |
-| [Italic](../../aspose.imaging/font/italic) { get; } | 获取一个值，该值指示此[`Font`](../font)是否为斜体。 |
-| [Name](../../aspose.imaging/font/name) { get; } | 获取此[`Font`](../font)的人脸名称。 |
-| [Size](../../aspose.imaging/font/size) { get; } | 获取此[`Font`](../font)的 em 大小，以P指定的单位测量:Aspose.Imaging.Font.Unit属性。 |
-| [Strikeout](../../aspose.imaging/font/strikeout) { get; } | 获取一个值，该值指示此[`Font`](../font)是否指定穿过字体的水平线。 |
-| [Style](../../aspose.imaging/font/style) { get; } | 获取此[`Font`](../font)的样式信息。 |
-| [Underline](../../aspose.imaging/font/underline) { get; } | 获取一个值，该值指示此[`Font`](../font)是否带下划线。 |
-| [Unit](../../aspose.imaging/font/unit) { get; } | 获取此[`Font`](../font)的度量单位。 |
+| [Bold](../../aspose.imaging/font/bold) { get; } | 获取一个值，该值指示这是否[`Font`](../font)是粗体。 |
+| [CharacterSet](../../aspose.imaging/font/characterset) { get; } | 获取指定此字符集的字节值[`Font`](../font)使用. |
+| [Italic](../../aspose.imaging/font/italic) { get; } | 获取一个值，该值指示这是否[`Font`](../font)是斜体。 |
+| [Name](../../aspose.imaging/font/name) { get; } | 获取此人脸名称[`Font`](../font) . |
+| [Size](../../aspose.imaging/font/size) { get; } | 获取这个的 em-size[`Font`](../font)以指定的单位测量[`Unit`](./unit)属性. |
+| [Strikeout](../../aspose.imaging/font/strikeout) { get; } | 获取一个值，该值指示这是否[`Font`](../font)指定一条穿过字体的水平线。 |
+| [Style](../../aspose.imaging/font/style) { get; } | 获取这个的样式信息[`Font`](../font) . |
+| [Underline](../../aspose.imaging/font/underline) { get; } | 获取一个值，该值指示这是否[`Font`](../font)加下划线。 |
+| [Unit](../../aspose.imaging/font/unit) { get; } | 获取测量单位[`Font`](../font) . |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DeepClone](../../aspose.imaging/font/deepclone)() | 创建此[`Font`](../font)的精确深层副本。 |
-| override [Equals](../../aspose.imaging/font/equals)(object) | 表示指定对象是否为[`Font`](../font)并与此:::R5 具有相同的属性值:T:Aspose.Imaging.Font:::。 |
-| override [GetHashCode](../../aspose.imaging/font/gethashcode)() | 获取此[`Font`](../font)的哈希码。 |
-| override [ToString](../../aspose.imaging/font/tostring)() | 返回此[`Font`](../font)的人类可读字符串表示。 |
+| [DeepClone](../../aspose.imaging/font/deepclone)() | 创建一个精确的深拷贝[`Font`](../font) . |
+| override [Equals](../../aspose.imaging/font/equals)(object) | 表示指定对象是否为[`Font`](../font)并具有与此相同的属性值[`Font`](../font) . |
+| override [GetHashCode](../../aspose.imaging/font/gethashcode)() | 获取此哈希码[`Font`](../font) . |
+| override [ToString](../../aspose.imaging/font/tostring)() | 返回一个人类可读的字符串表示[`Font`](../font) . |
 
 ### 也可以看看
 

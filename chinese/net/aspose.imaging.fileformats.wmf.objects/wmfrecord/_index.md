@@ -24,7 +24,7 @@ public class WmfRecord : MetaObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RecordType](../../aspose.imaging.fileformats.wmf.objects/wmfrecord/recordtype) { get; set; } | [`RecordType`](./recordtype)数字（在 WINDOWS.H 中定义） |
+| [RecordType](../../aspose.imaging.fileformats.wmf.objects/wmfrecord/recordtype) { get; set; } | [`RecordType`](./recordtype)编号（在 WINDOWS.H 中定义） |
 | [Size](../../aspose.imaging.fileformats.wmf.objects/wmfrecord/size) { get; set; } | 获取或设置大小。 |
 
 ### 也可以看看

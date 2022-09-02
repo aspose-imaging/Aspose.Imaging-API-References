@@ -1,14 +1,14 @@
 ---
 title: ModifyWorldTransformMode
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数该整数指定如何使用 Xform 中指定的 转换该值必须在 ModifyWorldTransformMode 枚举第 2.1.24 节中
+description: 获取或设置一个 32 位无符号整数指定如何使用 Xform 中指定的 变换该值必须在 ModifyWorldTransformMode 枚举第 2.1.24 节中
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfmodifyworldtransform/modifyworldtransformmode/
 ---
 ## EmfModifyWorldTransform.ModifyWorldTransformMode property
 
-获取或设置一个 32 位无符号整数，该整数指定如何使用 Xform 中指定的 转换。该值必须在 ModifyWorldTransformMode 枚举（第 2.1.24 节）中。
+获取或设置一个 32 位无符号整数，指定如何使用 Xform 中指定的 变换。该值必须在 ModifyWorldTransformMode 枚举（第 2.1.24 节）中。
 
 ```csharp
 public EmfModifyWorldTransformMode ModifyWorldTransformMode { get; set; }

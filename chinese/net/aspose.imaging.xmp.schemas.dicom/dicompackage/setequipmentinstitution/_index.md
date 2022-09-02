@@ -1,14 +1,14 @@
 ---
 title: SetEquipmentInstitution
 second_title: Aspose.Imaging for .NET API 参考
-description: 设置装备机构
+description: 设置设备机构
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.xmp.schemas.dicom/dicompackage/setequipmentinstitution/
 ---
 ## DicomPackage.SetEquipmentInstitution method
 
-设置装备机构。
+设置设备机构。
 
 ```csharp
 public void SetEquipmentInstitution(string equipmentInstitution)

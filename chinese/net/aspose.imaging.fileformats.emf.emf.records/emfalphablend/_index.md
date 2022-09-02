@@ -1,14 +1,14 @@
 ---
 title: EmfAlphaBlend
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_ALPHABLEND 记录指定像素从源位图到 目标矩形的块传输包括 alpha 透明度数据根据指定的混合手术
+description: EMR_ALPHABLEND 记录根据指定的混合操作指定从源位图到 目标矩形的像素块传输包括 alpha 透明度数据
 type: docs
 weight: 3200
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfalphablend/
 ---
 ## EmfAlphaBlend class
 
-EMR_ALPHABLEND 记录指定像素从源位图到 目标矩形的块传输，包括 alpha 透明度数据，根据指定的混合手术。
+EMR_ALPHABLEND 记录根据指定的混合操作指定从源位图到 目标矩形的像素块传输，包括 alpha 透明度数据。
 
 ```csharp
 public sealed class EmfAlphaBlend : EmfBitmapRecordType
@@ -18,23 +18,23 @@ public sealed class EmfAlphaBlend : EmfBitmapRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfAlphaBlend](emfalphablend)(EmfRecord) | 初始化[`EmfAlphaBlend`](../emfalphablend)类的新实例。 |
+| [EmfAlphaBlend](emfalphablend)(EmfRecord) | 初始化[`EmfAlphaBlend`](../emfalphablend)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BkSrcArgb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfalphablend/bksrcargb32color) { get; set; } | 获取或设置 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节指定源位图的 背景颜色。 |
-| [BlendFunction](../../aspose.imaging.fileformats.emf.emf.records/emfalphablend/blendfunction) { get; set; } | 获取或设置指定源位图和 目标位图的混合操作的结构 |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfalphablend/bounds) { get; set; } | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象以设备单位定义 目标边界矩形。 |
-| [CxDest](../../aspose.imaging.fileformats.emf.emf.records/emfalphablend/cxdest) { get; set; } | 获取或设置一个 32 位有符号整数，指定目标 矩形的逻辑宽度。该值必须大于零。 |
+| [BkSrcArgb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfalphablend/bksrcargb32color) { get; set; } | 获取或设置 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节，指定源位图的 背景颜色。 |
+| [BlendFunction](../../aspose.imaging.fileformats.emf.emf.records/emfalphablend/blendfunction) { get; set; } | 获取或设置一个结构，该结构指定源位图和 目标位图的混合操作 |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfalphablend/bounds) { get; set; } | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），它以设备单位定义 目标边界矩形。 |
+| [CxDest](../../aspose.imaging.fileformats.emf.emf.records/emfalphablend/cxdest) { get; set; } | 获取或设置一个 32 位有符号整数，它指定目标 矩形的逻辑宽度。此值必须大于零。 |
 | [CxSrc](../../aspose.imaging.fileformats.emf.emf.records/emfalphablend/cxsrc) { get; set; } | 获取或设置一个 32 位有符号整数，它指定源矩形的逻辑宽度。 这个值必须大于零。 |
-| [CyDest](../../aspose.imaging.fileformats.emf.emf.records/emfalphablend/cydest) { get; set; } | 获取或设置一个 32 位有符号整数，它指定目标 矩形的逻辑高度。该值必须大于零。 |
-| [CySrc](../../aspose.imaging.fileformats.emf.emf.records/emfalphablend/cysrc) { get; set; } | 获取或设置一个 32 位有符号整数，它指定源 矩形的逻辑高度。该值必须大于零。 |
+| [CyDest](../../aspose.imaging.fileformats.emf.emf.records/emfalphablend/cydest) { get; set; } | 获取或设置一个 32 位有符号整数，它指定目标 矩形的逻辑高度。此值必须大于零。 |
+| [CySrc](../../aspose.imaging.fileformats.emf.emf.records/emfalphablend/cysrc) { get; set; } | 获取或设置一个 32 位有符号整数，它指定源 矩形的逻辑高度。此值必须大于零。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
-| [SourceBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfalphablend/sourcebitmap) { get; set; } | 获取或设置包含源位图的缓冲区，它不需要是 与 EMR_ALPHABLEND 记录的固定部分连续。因此，此 缓冲区中标记为“UndefinedSpace”的字段是可选的并且必须被忽略。 |
+| [SourceBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfalphablend/sourcebitmap) { get; set; } | 获取或设置包含源位图的缓冲区，它不需要与 EMR_ALPHABLEND 记录的固定部分 连续。因此，这个 缓冲区中标记为“UndefinedSpace”的字段是可选的，必须被忽略。 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
-| [UsageSrc](../../aspose.imaging.fileformats.emf.emf.records/emfalphablend/usagesrc) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定如何解释源位图标头中 颜色表中的值。该值必须在 DIBColors 枚举中（第 2.1.9 节）。 |
+| [UsageSrc](../../aspose.imaging.fileformats.emf.emf.records/emfalphablend/usagesrc) { get; set; } | 获取或设置一个 32 位无符号整数，它指定如何解释源位图头中的 颜色表中的值。此值必须在 DIBColors 枚举（第 2.1.9 节）中。 |
 | [XDest](../../aspose.imaging.fileformats.emf.emf.records/emfalphablend/xdest) { get; set; } | 获取或设置一个 32 位有符号整数，它指定目标矩形左上角 角的逻辑 x 坐标。 |
 | [XformSr](../../aspose.imaging.fileformats.emf.emf.records/emfalphablend/xformsr) { get; set; } | 获取或设置一个 XForm 对象（第 2.2.28 节），该对象指定世界空间到页面空间的转换以应用于源位图。 |
 | [XSrc](../../aspose.imaging.fileformats.emf.emf.records/emfalphablend/xsrc) { get; set; } | 获取或设置一个 32 位有符号整数，它指定源矩形左上角 角的逻辑 x 坐标。 |

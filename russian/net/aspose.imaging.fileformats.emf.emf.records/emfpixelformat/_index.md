@@ -1,14 +1,14 @@
 ---
 title: EmfPixelFormat
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_PIXELFORMAT задает формат пикселей для использования в графических операциях.
+description: Запись EMR_PIXELFORMAT указывает формат пикселей используемый для графических операций.
 type: docs
 weight: 3940
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpixelformat/
 ---
 ## EmfPixelFormat class
 
-Запись EMR_PIXELFORMAT задает формат пикселей для использования в графических операциях.
+Запись EMR_PIXELFORMAT указывает формат пикселей, используемый для графических операций.
 
 ```csharp
 public sealed class EmfPixelFormat : EmfStateRecordType
@@ -18,14 +18,14 @@ public sealed class EmfPixelFormat : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPixelFormat](emfpixelformat)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfPixelFormat`](../emfpixelformat). |
+| [EmfPixelFormat](emfpixelformat)(EmfRecord) | Инициализирует новый экземпляр[`EmfPixelFormat`](../emfpixelformat) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [Pfd](../../aspose.imaging.fileformats.emf.emf.records/emfpixelformat/pfd) { get; set; } | Получает или задает объект PixelFormatDescriptor (раздел 2.2.22), который определяет данные формата пикселей. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

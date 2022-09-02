@@ -16,7 +16,7 @@ public CdrOutline OutLine { get; set; }
 
 ### 适当的价值
 
-外线。
+出线。
 
 ### 也可以看看
 

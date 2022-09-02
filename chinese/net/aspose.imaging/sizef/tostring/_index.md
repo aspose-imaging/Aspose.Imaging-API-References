@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: Aspose.Imaging for .NET API 参考
-description: 创建一个人类可读的字符串来表示这个SizeFaspose.imaging/sizef
+description: 创建一个人类可读的字符串来表示这个SizeFaspose.imaging/sizef .
 type: docs
 weight: 120
 url: /zh/net/aspose.imaging/sizef/tostring/
 ---
 ## SizeF.ToString method
 
-创建一个人类可读的字符串来表示这个[`SizeF`](../../sizef)。
+创建一个人类可读的字符串来表示这个[`SizeF`](../../sizef) .
 
 ```csharp
 public override string ToString()
@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-表示此[`SizeF`](../../sizef)的字符串。
+代表这个的字符串[`SizeF`](../../sizef).
 
 ### 也可以看看
 

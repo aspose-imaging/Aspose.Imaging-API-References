@@ -1,14 +1,14 @@
 ---
 title: Reverse
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Меняет порядок фигур форм и точек в каждой форме этогоGraphicsPathaspose.imaging/graphicspathна обратный.
+description: Меняет порядок фигур фигур и точек в каждой фигуре этого изображения на противоположный.GraphicsPathaspose.imaging/graphicspath .
 type: docs
 weight: 160
 url: /ru/net/aspose.imaging/graphicspath/reverse/
 ---
 ## GraphicsPath.Reverse method
 
-Меняет порядок фигур, форм и точек в каждой форме этого[`GraphicsPath`](../../graphicspath)на обратный.
+Меняет порядок фигур, фигур и точек в каждой фигуре этого изображения на противоположный.[`GraphicsPath`](../../graphicspath) .
 
 ```csharp
 public void Reverse()

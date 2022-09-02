@@ -16,7 +16,7 @@ public ushort SamplesPerPixel { get; set; }
 
 ### 适当的价值
 
-每个像素的样本。
+每个像素的样本数。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: CopyTo
 second_title: Aspose.Imaging for .NET API 参考
-description: 将 ICollection的元素复制到 R5TSystem.Array从特定的 Array索引开始
+description: 复制 的元素ICollection到一个 Array 从特定的 开始Array索引.
 type: docs
 weight: 130
 url: /zh/net/aspose.imaging/nongenericdictionary/copyto/
 ---
 ## NonGenericDictionary.CopyTo method
 
-将 ICollection的元素复制到 ::R5:T:System.Array:::，从特定的 Array索引开始。
+复制 的元素ICollection到一个 Array ，从特定的 开始Array索引.
 
 ```csharp
 public void CopyTo(Array array, int index)
@@ -16,8 +16,8 @@ public void CopyTo(Array array, int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| array | Array | 一维 Array即是从 ICollection复制的元素的目的地。 Array必须具有从零开始的索引。 |
-| index | Int32 | *array*中从零开始的索引，从这里开始复制。 |
+| array | Array | 一维的 Array那是从 复制的元素的目的地ICollectionArray必须具有从零开始的索引。 |
+| index | Int32 | 中从零开始的索引*array*复制开始的地方。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: DisposeStream
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置是否dispose stream的值
+description: 获取或设置一个值指示是否 dispose stream.
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.svg/fontstoringargs/disposestream/
 ---
 ## FontStoringArgs.DisposeStream property
 
-获取或设置是否[dispose stream]的值。
+获取或设置一个值，指示是否 [dispose stream].
 
 ```csharp
 public bool DisposeStream { get; set; }
@@ -16,7 +16,7 @@ public bool DisposeStream { get; set; }
 
 ### 适当的价值
 
-` true` if [dispose stream];否则，` false` 。
+`真的`如果 [处置流];否则，`错误的` .
 
 ### 也可以看看
 

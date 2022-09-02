@@ -1,14 +1,14 @@
 ---
 title: ImageSaveException
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化ImageSaveExceptionaspose.imaging.coreexceptions/imagesaveexception类的新实例
+description: 初始化ImageSaveExceptionaspose.imaging.coreexceptions/imagesaveexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.coreexceptions/imagesaveexception/imagesaveexception/
 ---
 ## ImageSaveException(string) {#constructor}
 
-初始化[`ImageSaveException`](../../imagesaveexception)类的新实例。
+初始化[`ImageSaveException`](../../imagesaveexception)类.
 
 ```csharp
 public ImageSaveException(string message)
@@ -28,7 +28,7 @@ public ImageSaveException(string message)
 
 ## ImageSaveException(string, Exception) {#constructor_1}
 
-初始化[`ImageSaveException`](../../imagesaveexception)类的新实例。
+初始化[`ImageSaveException`](../../imagesaveexception)类.
 
 ```csharp
 public ImageSaveException(string message, Exception innerException)
@@ -37,7 +37,7 @@ public ImageSaveException(string message, Exception innerException)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | String | 异常消息。 |
-| innerException | Exception | 内部异常。 |
+| innerException | Exception | 内在异常。 |
 
 ### 也可以看看
 

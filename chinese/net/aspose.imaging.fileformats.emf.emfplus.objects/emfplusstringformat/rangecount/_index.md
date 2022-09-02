@@ -1,14 +1,14 @@
 ---
 title: RangeCount
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位有符号整数该整数指定在 StringFormatData 字段中定义的 EmfPlusCharacterRange 对象第 2.2.2.8 节的数量
+description: 获取或设置一个 32 位有符号整数它指定在 StringFormatData 字段中定义的 EmfPlusCharacterRange 对象第 2.2.2.8 节的数量
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/rangecount/
 ---
 ## EmfPlusStringFormat.RangeCount property
 
-获取或设置一个 32 位有符号整数，该整数指定在 StringFormatData 字段中定义的 EmfPlusCharacterRange 对象（第 2.2.2.8 节）的数量。
+获取或设置一个 32 位有符号整数，它指定在 StringFormatData 字段中定义的 EmfPlusCharacterRange 对象（第 2.2.2.8 节）的数量。
 
 ```csharp
 public int RangeCount { get; set; }

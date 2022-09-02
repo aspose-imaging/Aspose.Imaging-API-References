@@ -18,10 +18,10 @@ public class JpegLoadException : JpegException
 
 | Имя | Описание |
 | --- | --- |
-| [JpegLoadException](jpegloadexception#constructor)(string) | Инициализирует новый экземпляр класса[`JpegLoadException`](../jpegloadexception). |
-| [JpegLoadException](jpegloadexception#constructor_1)(string, ErrorReason) | Инициализирует новый экземпляр класса[`JpegLoadException`](../jpegloadexception). |
-| [JpegLoadException](jpegloadexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса[`JpegLoadException`](../jpegloadexception). |
-| [JpegLoadException](jpegloadexception#constructor_3)(string, Exception, ErrorReason) | Инициализирует новый экземпляр класса[`JpegLoadException`](../jpegloadexception). |
+| [JpegLoadException](jpegloadexception#constructor)(string) | Инициализирует новый экземпляр[`JpegLoadException`](../jpegloadexception) класс. |
+| [JpegLoadException](jpegloadexception#constructor_1)(string, ErrorReason) | Инициализирует новый экземпляр[`JpegLoadException`](../jpegloadexception) класс. |
+| [JpegLoadException](jpegloadexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр[`JpegLoadException`](../jpegloadexception) класс. |
+| [JpegLoadException](jpegloadexception#constructor_3)(string, Exception, ErrorReason) | Инициализирует новый экземпляр[`JpegLoadException`](../jpegloadexception) класс. |
 
 ## Характеристики
 

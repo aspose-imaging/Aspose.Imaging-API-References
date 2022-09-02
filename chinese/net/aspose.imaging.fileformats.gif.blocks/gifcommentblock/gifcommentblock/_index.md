@@ -1,14 +1,14 @@
 ---
 title: GifCommentBlock
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化GifCommentBlockaspose.imaging.fileformats.gif.blocks/gifcommentblock类的新实例
+description: 初始化GifCommentBlockaspose.imaging.fileformats.gif.blocks/gifcommentblock类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifcommentblock/gifcommentblock/
 ---
 ## GifCommentBlock() {#constructor}
 
-初始化[`GifCommentBlock`](../../gifcommentblock)类的新实例。
+初始化[`GifCommentBlock`](../../gifcommentblock)类.
 
 ```csharp
 public GifCommentBlock()
@@ -24,7 +24,7 @@ public GifCommentBlock()
 
 ## GifCommentBlock(string) {#constructor_1}
 
-初始化[`GifCommentBlock`](../../gifcommentblock)类的新实例。
+初始化[`GifCommentBlock`](../../gifcommentblock)类.
 
 ```csharp
 public GifCommentBlock(string comment)
@@ -32,7 +32,7 @@ public GifCommentBlock(string comment)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| comment | String | 注释。 |
+| comment | String | 评论。 |
 
 ### 也可以看看
 

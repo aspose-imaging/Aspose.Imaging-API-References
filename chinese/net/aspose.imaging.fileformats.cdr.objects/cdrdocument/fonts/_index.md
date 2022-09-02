@@ -16,7 +16,7 @@ public Dictionary<int, CdrFont> Fonts { get; }
 
 ### 适当的价值
 
-字体。
+字体.
 
 ### 也可以看看
 

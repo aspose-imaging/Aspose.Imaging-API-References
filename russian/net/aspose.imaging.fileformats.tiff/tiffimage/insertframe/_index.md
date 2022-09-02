@@ -1,14 +1,14 @@
 ---
 title: InsertFrame
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Вставка кадра.
+description: Рамка вставки.
 type: docs
 weight: 290
 url: /ru/net/aspose.imaging.fileformats.tiff/tiffimage/insertframe/
 ---
 ## TiffImage.InsertFrame method
 
-Вставка кадра.
+Рамка вставки.
 
 ```csharp
 public void InsertFrame(int index, TiffFrame frameToInsert)

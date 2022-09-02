@@ -1,14 +1,14 @@
 ---
 title: TiffASCIIType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Тип ascii tiff.
+description: ASCII-тип TIFF.
 type: docs
 weight: 7910
 url: /ru/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffasciitype/
 ---
 ## TiffASCIIType class
 
-Тип ascii tiff.
+ASCII-тип TIFF.
 
 ```csharp
 public sealed class TiffASCIIType : TiffDataType
@@ -18,8 +18,8 @@ public sealed class TiffASCIIType : TiffDataType
 
 | Имя | Описание |
 | --- | --- |
-| [TiffASCIIType](tiffasciitype#constructor)(TiffTags) | Инициализирует новый экземпляр класса[`TiffASCIIType`](../tiffasciitype). |
-| [TiffASCIIType](tiffasciitype#constructor_1)(ushort) | Инициализирует новый экземпляр класса[`TiffASCIIType`](../tiffasciitype). |
+| [TiffASCIIType](tiffasciitype#constructor)(TiffTags) | Инициализирует новый экземпляр[`TiffASCIIType`](../tiffasciitype) класс. |
+| [TiffASCIIType](tiffasciitype#constructor_1)(ushort) | Инициализирует новый экземпляр[`TiffASCIIType`](../tiffasciitype) класс. |
 
 ## Характеристики
 
@@ -39,9 +39,9 @@ public sealed class TiffASCIIType : TiffDataType
 
 | Имя | Описание |
 | --- | --- |
-| [CompareTo](../../aspose.imaging.fileformats.tiff/tiffdatatype/compareto)(object) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует ли за ним или находится в той же позиции в порядке сортировки как другой объект. |
+| [CompareTo](../../aspose.imaging.fileformats.tiff/tiffdatatype/compareto)(object) | Сравнивает текущий экземпляр с другим объектом того же типа и возвращает целое число, указывающее, предшествует ли текущий экземпляр, следует за ним или находится в той же позиции в порядке сортировки, что и другой объект. |
 | virtual [DeepClone](../../aspose.imaging.fileformats.tiff/tiffdatatype/deepclone)() | Выполняет глубокое клонирование этого экземпляра. |
-| override [ToString](../../aspose.imaging.fileformats.tiff/tiffdatatype/tostring)() | ВозвращаетString, представляющий этот экземпляр. |
+| override [ToString](../../aspose.imaging.fileformats.tiff/tiffdatatype/tostring)() | ВозвращаетString который представляет этот экземпляр. |
 | override [WriteAdditionalData](../../aspose.imaging.fileformats.tiff.tifftagtypes/tiffasciitype/writeadditionaldata)(TiffStreamWriter) | Записывает дополнительные данные тега. |
 | [WriteTag](../../aspose.imaging.fileformats.tiff/tiffdatatype/writetag)(TiffStreamWriter, long) | Записывает данные тега. |
 

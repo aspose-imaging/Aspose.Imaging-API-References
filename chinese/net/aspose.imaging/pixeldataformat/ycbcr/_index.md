@@ -1,14 +1,14 @@
 ---
 title: YCbCr
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取PixelDataFormataspose.imaging/pixeldataformat定义为每像素 24 位每个 8 位用于亮度蓝色差异和红差色度分量
+description: 获取PixelDataFormataspose.imaging/pixeldataformat定义为每个像素 24 位每个像素 8 位用于亮度蓝差和红差色度分量
 type: docs
 weight: 150
 url: /zh/net/aspose.imaging/pixeldataformat/ycbcr/
 ---
 ## PixelDataFormat.YCbCr property
 
-获取[`PixelDataFormat`](../../pixeldataformat)定义为每像素 24 位，每个 8 位用于亮度、蓝色差异和红差色度分量。
+获取[`PixelDataFormat`](../../pixeldataformat)定义为每个像素 24 位，每个像素 8 位用于亮度、蓝差和红差色度分量。
 
 ```csharp
 public static PixelDataFormat YCbCr { get; }
@@ -16,7 +16,7 @@ public static PixelDataFormat YCbCr { get; }
 
 ### 适当的价值
 
-[`PixelDataFormat`](../../pixeldataformat)定义为 24 位每个像素的亮度、蓝差和红差色度分量各有 8 位。
+的[`PixelDataFormat`](../../pixeldataformat)定义为每个像素 24 位，每个像素 8 位用于亮度、蓝差和红差色度分量。
 
 ### 也可以看看
 

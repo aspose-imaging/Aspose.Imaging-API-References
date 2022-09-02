@@ -1,14 +1,14 @@
 ---
 title: GifApplicationExtensionBlock
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化GifApplicationExtensionBlockaspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock类的新实例
+description: 初始化GifApplicationExtensionBlockaspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/gifapplicationextensionblock/
 ---
 ## GifApplicationExtensionBlock() {#constructor}
 
-初始化[`GifApplicationExtensionBlock`](../../gifapplicationextensionblock)类的新实例。
+初始化[`GifApplicationExtensionBlock`](../../gifapplicationextensionblock)类.
 
 ```csharp
 public GifApplicationExtensionBlock()
@@ -24,7 +24,7 @@ public GifApplicationExtensionBlock()
 
 ## GifApplicationExtensionBlock(string, byte[], byte[]) {#constructor_1}
 
-初始化[`GifApplicationExtensionBlock`](../../gifapplicationextensionblock)类的新实例。
+初始化[`GifApplicationExtensionBlock`](../../gifapplicationextensionblock)类.
 
 ```csharp
 public GifApplicationExtensionBlock(string applicationIdentifier, 

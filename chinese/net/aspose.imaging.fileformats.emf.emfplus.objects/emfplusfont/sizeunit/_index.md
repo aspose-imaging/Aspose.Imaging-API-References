@@ -1,14 +1,14 @@
 ---
 title: SizeUnit
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数指定用于 EmSize 字段的单位这些通常是设计字体时使用的 单位该值必须在 UnitType 枚举中第 2.1.1.33 节
+description: 获取或设置一个 32 位无符号整数指定用于 EmSize 字段的单位这些通常是设计字体时 使用的单位该值必须在 UnitType 枚举第 2.1.1.33 节中
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont/sizeunit/
 ---
 ## EmfPlusFont.SizeUnit property
 
-获取或设置一个 32 位无符号整数，指定用于 EmSize 字段的单位。这些通常是设计字体时使用的 单位。该值必须在 UnitType 枚举中（第 2.1.1.33 节）。
+获取或设置一个 32 位无符号整数，指定用于 EmSize 字段的单位。这些通常是设计字体时 使用的单位。该值必须在 UnitType 枚举（第 2.1.1.33 节）中。
 
 ```csharp
 public EmfPlusUnitType SizeUnit { get; set; }

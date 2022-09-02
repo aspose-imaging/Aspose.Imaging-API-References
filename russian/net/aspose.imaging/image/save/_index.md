@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Сохраняет данные изображения в основной поток.
+description: Сохраняет данные изображения в базовый поток.
 type: docs
 weight: 240
 url: /ru/net/aspose.imaging/image/save/
 ---
 ## Save() {#save}
 
-Сохраняет данные изображения в основной поток.
+Сохраняет данные изображения в базовый поток.
 
 ```csharp
 public void Save()
@@ -16,7 +16,7 @@ public void Save()
 
 ### Примеры
 
-В следующем примере показано, как сохранить полное изображение BMP или его часть в файл или поток.
+В следующем примере показано, как сохранить все изображение BMP или его часть в файл или поток.
 
 ```csharp
 [C#]
@@ -26,43 +26,43 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"
 {
     Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = (Aspose.Imaging.FileFormats.Bmp.BmpImage)image;
         
-     // Преобразование в черно-белое изображение
+    // Преобразование в черно-белое изображение
     bmpImage.BinarizeOtsu();
 
-     // Сохранить в то же место с параметрами по умолчанию.
+    // Сохранить в то же место с параметрами по умолчанию.
     image.Save();
 
     Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 
-     // Палитра содержит только два цвета: в данном случае черный и белый.
+    // Палитра содержит только два цвета: в данном случае черный и белый.
     saveOptions.Palette = Aspose.Imaging.ColorPaletteHelper.CreateMonochrome();
 
-     // Для всех монохромных изображений (включая черно-белые) достаточно выделить 1 бит на пиксель.
+    // Для всех монохромных изображений (в том числе черно-белых) достаточно выделить 1 бит на пиксель.
     saveOptions.BitsPerPixel = 1;
 
-     // Сохраняем в другое место с указанными параметрами.
+    // Сохраняем в другое место с указанными параметрами.
     image.Save(dir + "sample.bw.palettized.bmp", saveOptions);
 
-     // Сохраняем только центральную часть изображения.
+    // Сохраняем только центральную часть изображения.
     Aspose.Imaging.Rectangle bounds = new Aspose.Imaging.Rectangle(image.Width / 4, image.Height / 4, image.Width / 2, image.Height / 2);
     image.Save(dir + "sample.bw.palettized.part.bmp", saveOptions, bounds);
 
-     // Сохраняем все изображение в память stream
+    // Сохраняем все изображение в поток памяти
     using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
     {
         image.Save(stream, saveOptions);
         System.Console.WriteLine("The size of the whole image in bytes: {0}", stream.Length);
     }
 
-     // Сохраняем центральную часть изображения в память stream
+    // Сохраняем центральную часть изображения в поток памяти
     using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
     {
         image.Save(stream, saveOptions, bounds);
         System.Console.WriteLine("The size of the central part of the image in bytes: {0}", stream.Length);
     }
 }
- // Вывод может выглядеть так: 
- //Размер всего изображения в байтах: 24062
+//Вывод может выглядеть так:
+//Размер всего изображения в байтах: 24062
 //Размер центральной части изображения в байтах: 6046
 ```
 
@@ -76,7 +76,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"
 
 ## Save(string) {#save_4}
 
-Сохраняет изображение в указанное местоположение файла.
+Сохраняет изображение в указанном месте файла.
 
 ```csharp
 public override void Save(string filePath)
@@ -109,107 +109,40 @@ public virtual void Save(string filePath, ImageOptionsBase options)
 
 ### Примеры
 
-Следующий пример загружает изображение BMP из файла, а затем сохраняет изображение в файл PNG.
+В следующем примере изображение BMP загружается из файла, а затем сохраняется в файл PNG.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
+
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
 {
-    Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = (Aspose.Imaging.FileFormats.Bmp.BmpImage)image;
-        
-     // Преобразование в черно-белое изображение
-    bmpImage.BinarizeOtsu();
-
-     // Сохранить в то же место с параметрами по умолчанию.
-    image.Save();
-
-    Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
-
-     // Палитра содержит только два цвета: в данном случае черный и белый.
-    saveOptions.Palette = Aspose.Imaging.ColorPaletteHelper.CreateMonochrome();
-
-     // Для всех монохромных изображений (включая черно-белые) достаточно выделить 1 бит на пиксель.
-    saveOptions.BitsPerPixel = 1;
-
-     // Сохраняем в другое место с указанными параметрами.
-    image.Save(dir + "sample.bw.palettized.bmp", saveOptions);
-
-     // Сохраняем только центральную часть изображения.
-    Aspose.Imaging.Rectangle bounds = new Aspose.Imaging.Rectangle(image.Width / 4, image.Height / 4, image.Width / 2, image.Height / 2);
-    image.Save(dir + "sample.bw.palettized.part.bmp", saveOptions, bounds);
-
-     // Сохраняем все изображение в память stream
-    using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
-    {
-        image.Save(stream, saveOptions);
-        System.Console.WriteLine("The size of the whole image in bytes: {0}", stream.Length);
-    }
-
-     // Сохраняем центральную часть изображения в память stream
-    using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
-    {
-        image.Save(stream, saveOptions, bounds);
-        System.Console.WriteLine("The size of the central part of the image in bytes: {0}", stream.Length);
-    }
+    // Сохраняем все изображение в файл PNG.
+    Aspose.Imaging.ImageOptions.PngOptions saveOptions = new Aspose.Imaging.ImageOptions.PngOptions();
+    image.Save(dir + "output.png", saveOptions);
 }
- // Вывод может выглядеть так: 
- //Размер всего изображения в байтах: 24062
-//Размер центральной части изображения в байтах: 6046
 ```
 
-В этом примере показаны простые шаги для сохранения изображения. Чтобы продемонстрировать эту операцию, мы загружаем существующий файл из некоторого места на диске, выполняем операцию поворота изображения и сохраняем изображение в формате PSD, используя путь к файлу
+В этом примере показаны простые шаги для сохранения изображения. Чтобы продемонстрировать эту операцию, мы загружаем существующий файл из некоторого места на диске, выполняем операцию поворота изображения и сохраняем изображение в формате PSD, используя путь к файлу.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
+
+//Создаем экземпляр класса изображения и инициализируем его существующим файлом через путь к файлу
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
 {
-    Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = (Aspose.Imaging.FileFormats.Bmp.BmpImage)image;
-        
-     // Преобразование в черно-белое изображение
-    bmpImage.BinarizeOtsu();
+    // Поворачиваем изображение на 180 градусов вокруг оси X
+    image.RotateFlip(Aspose.Imaging.RotateFlipType.Rotate180FlipX);
 
-     // Сохранить в то же место с параметрами по умолчанию.
-    image.Save();
-
-    Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
-
-     // Палитра содержит только два цвета: в данном случае черный и белый.
-    saveOptions.Palette = Aspose.Imaging.ColorPaletteHelper.CreateMonochrome();
-
-     // Для всех монохромных изображений (включая черно-белые) достаточно выделить 1 бит на пиксель.
-    saveOptions.BitsPerPixel = 1;
-
-     // Сохраняем в другое место с указанными параметрами.
-    image.Save(dir + "sample.bw.palettized.bmp", saveOptions);
-
-     // Сохраняем только центральную часть изображения.
-    Aspose.Imaging.Rectangle bounds = new Aspose.Imaging.Rectangle(image.Width / 4, image.Height / 4, image.Width / 2, image.Height / 2);
-    image.Save(dir + "sample.bw.palettized.part.bmp", saveOptions, bounds);
-
-     // Сохраняем все изображение в память stream
-    using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
-    {
-        image.Save(stream, saveOptions);
-        System.Console.WriteLine("The size of the whole image in bytes: {0}", stream.Length);
-    }
-
-     // Сохраняем центральную часть изображения в память stream
-    using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
-    {
-        image.Save(stream, saveOptions, bounds);
-        System.Console.WriteLine("The size of the central part of the image in bytes: {0}", stream.Length);
-    }
+    // Сохраняем изображение как PSD в путь к файлу с настройками PsdOptions по умолчанию
+    image.Save(dir + "output.psd", new Aspose.Imaging.ImageOptions.PsdOptions());
 }
- // Вывод может выглядеть так: 
- //Размер всего изображения в байтах: 24062
-//Размер центральной части изображения в байтах: 6046
 ```
 
-Следующий пример показывает, как сохранить все изображение BMP или его часть в файл или поток.
+В следующем примере показано, как сохранить все изображение BMP или его часть в файл или поток.
 
 ```csharp
 [C#]
@@ -219,43 +152,43 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"
 {
     Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = (Aspose.Imaging.FileFormats.Bmp.BmpImage)image;
         
-     // Преобразование в черно-белое изображение
+    // Преобразование в черно-белое изображение
     bmpImage.BinarizeOtsu();
 
-     // Сохранить в то же место с параметрами по умолчанию.
+    // Сохранить в то же место с параметрами по умолчанию.
     image.Save();
 
     Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 
-     // Палитра содержит только два цвета: в данном случае черный и белый.
+    // Палитра содержит только два цвета: в данном случае черный и белый.
     saveOptions.Palette = Aspose.Imaging.ColorPaletteHelper.CreateMonochrome();
 
-     // Для всех монохромных изображений (включая черно-белые) достаточно выделить 1 бит на пиксель.
+    // Для всех монохромных изображений (в том числе черно-белых) достаточно выделить 1 бит на пиксель.
     saveOptions.BitsPerPixel = 1;
 
-     // Сохраняем в другое место с указанными параметрами.
+    // Сохраняем в другое место с указанными параметрами.
     image.Save(dir + "sample.bw.palettized.bmp", saveOptions);
 
-     // Сохраняем только центральную часть изображения.
+    // Сохраняем только центральную часть изображения.
     Aspose.Imaging.Rectangle bounds = new Aspose.Imaging.Rectangle(image.Width / 4, image.Height / 4, image.Width / 2, image.Height / 2);
     image.Save(dir + "sample.bw.palettized.part.bmp", saveOptions, bounds);
 
-     // Сохраняем все изображение в память stream
+    // Сохраняем все изображение в поток памяти
     using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
     {
         image.Save(stream, saveOptions);
         System.Console.WriteLine("The size of the whole image in bytes: {0}", stream.Length);
     }
 
-     // Сохраняем центральную часть изображения в память stream
+    // Сохраняем центральную часть изображения в поток памяти
     using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
     {
         image.Save(stream, saveOptions, bounds);
         System.Console.WriteLine("The size of the central part of the image in bytes: {0}", stream.Length);
     }
 }
- // Вывод может выглядеть так: 
- //Размер всего изображения в байтах: 24062
+//Вывод может выглядеть так:
+//Размер всего изображения в байтах: 24062
 //Размер центральной части изображения в байтах: 6046
 ```
 
@@ -279,15 +212,15 @@ public virtual void Save(string filePath, ImageOptionsBase options, Rectangle bo
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | filePath | String | Путь к файлу. |
-| options | ImageOptionsBase | Опции. |
-| boundsRectangle | Rectangle | Конечный прямоугольник, ограничивающий изображение. Установите пустой прямоугольник для использования исходных границ. |
+| options | ImageOptionsBase | Варианты. |
+| boundsRectangle | Rectangle | Конечный образ ограничивает прямоугольник. Установите пустой прямоугольник для использования исходных границ. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | options |
-| [ImageSaveException](../../../aspose.imaging.coreexceptions/imagesaveexception) | Image сохранение не удалось. |
+| ArgumentNullException | опции |
+| [ImageSaveException](../../../aspose.imaging.coreexceptions/imagesaveexception) | Не удалось сохранить изображение. |
 
 ### Примеры
 
@@ -297,51 +230,17 @@ public virtual void Save(string filePath, ImageOptionsBase options, Rectangle bo
 [C#]
 
 string dir = "c:\\temp\\";
+
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
 {
-    Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = (Aspose.Imaging.FileFormats.Bmp.BmpImage)image;
-        
-     // Преобразование в черно-белое изображение
-    bmpImage.BinarizeOtsu();
-
-     // Сохранить в то же место с параметрами по умолчанию.
-    image.Save();
-
-    Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
-
-     // Палитра содержит только два цвета: в данном случае черный и белый.
-    saveOptions.Palette = Aspose.Imaging.ColorPaletteHelper.CreateMonochrome();
-
-     // Для всех монохромных изображений (включая черно-белые) достаточно выделить 1 бит на пиксель.
-    saveOptions.BitsPerPixel = 1;
-
-     // Сохраняем в другое место с указанными параметрами.
-    image.Save(dir + "sample.bw.palettized.bmp", saveOptions);
-
-     // Сохраняем только центральную часть изображения.
-    Aspose.Imaging.Rectangle bounds = new Aspose.Imaging.Rectangle(image.Width / 4, image.Height / 4, image.Width / 2, image.Height / 2);
-    image.Save(dir + "sample.bw.palettized.part.bmp", saveOptions, bounds);
-
-     // Сохраняем все изображение в память stream
-    using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
-    {
-        image.Save(stream, saveOptions);
-        System.Console.WriteLine("The size of the whole image in bytes: {0}", stream.Length);
-    }
-
-     // Сохраняем центральную часть изображения в память stream
-    using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
-    {
-        image.Save(stream, saveOptions, bounds);
-        System.Console.WriteLine("The size of the central part of the image in bytes: {0}", stream.Length);
-    }
+    // Сохраняем верхнюю половину изображения в файл PNG.
+    Aspose.Imaging.ImageOptions.PngOptions saveOptions = new Aspose.Imaging.ImageOptions.PngOptions();
+    Aspose.Imaging.Rectangle bounds = new Aspose.Imaging.Rectangle(0, 0, image.Width, image.Height / 2);
+    image.Save(dir + "output.png", saveOptions, bounds);
 }
- // Вывод может выглядеть так: 
- //Размер всего изображения в байтах: 24062
-//Размер центральной части изображения в байтах: 6046
 ```
 
-В следующем примере показано, как сохранить полное изображение BMP или его часть в файл или поток.
+В следующем примере показано, как сохранить все изображение BMP или его часть в файл или поток.
 
 ```csharp
 [C#]
@@ -351,43 +250,43 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"
 {
     Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = (Aspose.Imaging.FileFormats.Bmp.BmpImage)image;
         
-     // Преобразование в черно-белое изображение
+    // Преобразование в черно-белое изображение
     bmpImage.BinarizeOtsu();
 
-     // Сохранить в то же место с параметрами по умолчанию.
+    // Сохранить в то же место с параметрами по умолчанию.
     image.Save();
 
     Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 
-     // Палитра содержит только два цвета: в данном случае черный и белый.
+    // Палитра содержит только два цвета: в данном случае черный и белый.
     saveOptions.Palette = Aspose.Imaging.ColorPaletteHelper.CreateMonochrome();
 
-     // Для всех монохромных изображений (включая черно-белые) достаточно выделить 1 бит на пиксель.
+    // Для всех монохромных изображений (в том числе черно-белых) достаточно выделить 1 бит на пиксель.
     saveOptions.BitsPerPixel = 1;
 
-     // Сохраняем в другое место с указанными параметрами.
+    // Сохраняем в другое место с указанными параметрами.
     image.Save(dir + "sample.bw.palettized.bmp", saveOptions);
 
-     // Сохраняем только центральную часть изображения.
+    // Сохраняем только центральную часть изображения.
     Aspose.Imaging.Rectangle bounds = new Aspose.Imaging.Rectangle(image.Width / 4, image.Height / 4, image.Width / 2, image.Height / 2);
     image.Save(dir + "sample.bw.palettized.part.bmp", saveOptions, bounds);
 
-     // Сохраняем все изображение в память stream
+    // Сохраняем все изображение в поток памяти
     using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
     {
         image.Save(stream, saveOptions);
         System.Console.WriteLine("The size of the whole image in bytes: {0}", stream.Length);
     }
 
-     // Сохраняем центральную часть изображения в память stream
+    // Сохраняем центральную часть изображения в поток памяти
     using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
     {
         image.Save(stream, saveOptions, bounds);
         System.Console.WriteLine("The size of the central part of the image in bytes: {0}", stream.Length);
     }
 }
- // Вывод может выглядеть так: 
- //Размер всего изображения в байтах: 24062
+//Вывод может выглядеть так:
+//Размер всего изображения в байтах: 24062
 //Размер центральной части изображения в байтах: 6046
 ```
 
@@ -412,15 +311,15 @@ public void Save(Stream stream, ImageOptionsBase optionsBase)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток, в который сохраняются данные изображения. |
-| optionsBase | ImageOptionsBase | Параметры сохранения. |
+| optionsBase | ImageOptionsBase | Варианты сохранения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | optionsBase |
-| ArgumentException | Не удается сохранить в указанный формат, поскольку в настоящее время он не поддерживается.;optionsBase |
-| [ImageSaveException](../../../aspose.imaging.coreexceptions/imagesaveexception) | Ошибка экспорта изображения. |
+| ArgumentNullException | вариантыБаза |
+| ArgumentException | Невозможно сохранить в указанном формате, так как в данный момент он не поддерживается.;optionsBase |
+| [ImageSaveException](../../../aspose.imaging.coreexceptions/imagesaveexception) | Не удалось экспортировать изображение. |
 
 ### Примеры
 
@@ -430,98 +329,36 @@ public void Save(Stream stream, ImageOptionsBase optionsBase)
 [C#]
 
 string dir = "c:\\temp\\";
+
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
 {
-    Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = (Aspose.Imaging.FileFormats.Bmp.BmpImage)image;
-        
-     // Преобразование в черно-белое изображение
-    bmpImage.BinarizeOtsu();
-
-     // Сохранить в то же место с параметрами по умолчанию.
-    image.Save();
-
-    Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
-
-     // Палитра содержит только два цвета: в данном случае черный и белый.
-    saveOptions.Palette = Aspose.Imaging.ColorPaletteHelper.CreateMonochrome();
-
-     // Для всех монохромных изображений (включая черно-белые) достаточно выделить 1 бит на пиксель.
-    saveOptions.BitsPerPixel = 1;
-
-     // Сохраняем в другое место с указанными параметрами.
-    image.Save(dir + "sample.bw.palettized.bmp", saveOptions);
-
-     // Сохраняем только центральную часть изображения.
-    Aspose.Imaging.Rectangle bounds = new Aspose.Imaging.Rectangle(image.Width / 4, image.Height / 4, image.Width / 2, image.Height / 2);
-    image.Save(dir + "sample.bw.palettized.part.bmp", saveOptions, bounds);
-
-     // Сохраняем все изображение в память stream
-    using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
+    Aspose.Imaging.ImageOptions.PngOptions saveOptions = new Aspose.Imaging.ImageOptions.PngOptions();
+    using (System.IO.Stream outputStream = System.IO.File.Open(dir + "output.png", System.IO.FileMode.Create))
     {
-        image.Save(stream, saveOptions);
-        System.Console.WriteLine("The size of the whole image in bytes: {0}", stream.Length);
-    }
-
-     // Сохраняем центральную часть изображения в память stream
-    using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
-    {
-        image.Save(stream, saveOptions, bounds);
-        System.Console.WriteLine("The size of the central part of the image in bytes: {0}", stream.Length);
+        // Сохраняем все изображение в файловый поток.
+        image.Save(outputStream, saveOptions);
     }
 }
- // Вывод может выглядеть так: 
- //Размер всего изображения в байтах: 24062
-//Размер центральной части изображения в байтах: 6046
 ```
 
-В этом примере показан процесс сохранения изображения в MemoryStream. Чтобы продемонстрировать эту операцию, пример загружает существующий файл из некоторого места на диске, выполняет операцию поворота изображения и сохраняет изображение в формате PSD
+В этом примере показан процесс сохранения изображения в MemoryStream. Чтобы продемонстрировать эту операцию, пример загружает существующий файл из некоторого места на диске, выполняет операцию поворота изображения и сохраняет изображение в формате PSD.
 
 ```csharp
 [C#]
 
-string dir = "c:\\temp\\";
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
+//Создаем экземпляр MemoryStream
+using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
 {
-    Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = (Aspose.Imaging.FileFormats.Bmp.BmpImage)image;
-        
-     // Преобразование в черно-белое изображение
-    bmpImage.BinarizeOtsu();
-
-     // Сохранить в то же место с параметрами по умолчанию.
-    image.Save();
-
-    Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
-
-     // Палитра содержит только два цвета: в данном случае черный и белый.
-    saveOptions.Palette = Aspose.Imaging.ColorPaletteHelper.CreateMonochrome();
-
-     // Для всех монохромных изображений (включая черно-белые) достаточно выделить 1 бит на пиксель.
-    saveOptions.BitsPerPixel = 1;
-
-     // Сохраняем в другое место с указанными параметрами.
-    image.Save(dir + "sample.bw.palettized.bmp", saveOptions);
-
-     // Сохраняем только центральную часть изображения.
-    Aspose.Imaging.Rectangle bounds = new Aspose.Imaging.Rectangle(image.Width / 4, image.Height / 4, image.Width / 2, image.Height / 2);
-    image.Save(dir + "sample.bw.palettized.part.bmp", saveOptions, bounds);
-
-     // Сохраняем все изображение в память stream
-    using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
+    //Создаем экземпляр класса изображения и инициализируем его существующим файлом через путь к файлу
+    using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"C:\temp\sample.bmp"))
     {
-        image.Save(stream, saveOptions);
-        System.Console.WriteLine("The size of the whole image in bytes: {0}", stream.Length);
-    }
+        // Поворачиваем изображение на 180 градусов вокруг оси X
+        image.RotateFlip(Aspose.Imaging.RotateFlipType.Rotate180FlipX);
 
-     // Сохраняем центральную часть изображения в память stream
-    using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
-    {
-        image.Save(stream, saveOptions, bounds);
-        System.Console.WriteLine("The size of the central part of the image in bytes: {0}", stream.Length);
+        // Сохраняем изображение как PSD в MemoryStream с настройками PsdOptions по умолчанию
+        image.Save(stream, new Aspose.Imaging.ImageOptions.PsdOptions());
     }
 }
- // Вывод может выглядеть так: 
- //Размер всего изображения в байтах: 24062
-//Размер центральной части изображения в байтах: 6046
 ```
 
 В следующем примере показано, как сохранить все изображение BMP или его часть в файл или поток.
@@ -534,43 +371,43 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"
 {
     Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = (Aspose.Imaging.FileFormats.Bmp.BmpImage)image;
         
-     // Преобразование в черно-белое изображение
+    // Преобразование в черно-белое изображение
     bmpImage.BinarizeOtsu();
 
-     // Сохранить в то же место с параметрами по умолчанию.
+    // Сохранить в то же место с параметрами по умолчанию.
     image.Save();
 
     Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 
-     // Палитра содержит только два цвета: в данном случае черный и белый.
+    // Палитра содержит только два цвета: в данном случае черный и белый.
     saveOptions.Palette = Aspose.Imaging.ColorPaletteHelper.CreateMonochrome();
 
-     // Для всех монохромных изображений (включая черно-белые) достаточно выделить 1 бит на пиксель.
+    // Для всех монохромных изображений (в том числе черно-белых) достаточно выделить 1 бит на пиксель.
     saveOptions.BitsPerPixel = 1;
 
-     // Сохраняем в другое место с указанными параметрами.
+    // Сохраняем в другое место с указанными параметрами.
     image.Save(dir + "sample.bw.palettized.bmp", saveOptions);
 
-     // Сохраняем только центральную часть изображения.
+    // Сохраняем только центральную часть изображения.
     Aspose.Imaging.Rectangle bounds = new Aspose.Imaging.Rectangle(image.Width / 4, image.Height / 4, image.Width / 2, image.Height / 2);
     image.Save(dir + "sample.bw.palettized.part.bmp", saveOptions, bounds);
 
-     // Сохраняем все изображение в память stream
+    // Сохраняем все изображение в поток памяти
     using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
     {
         image.Save(stream, saveOptions);
         System.Console.WriteLine("The size of the whole image in bytes: {0}", stream.Length);
     }
 
-     // Сохраняем центральную часть изображения в память stream
+    // Сохраняем центральную часть изображения в поток памяти
     using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
     {
         image.Save(stream, saveOptions, bounds);
         System.Console.WriteLine("The size of the central part of the image in bytes: {0}", stream.Length);
     }
 }
- // Вывод может выглядеть так: 
- //Размер всего изображения в байтах: 24062
+//Вывод может выглядеть так:
+//Размер всего изображения в байтах: 24062
 //Размер центральной части изображения в байтах: 6046
 ```
 
@@ -594,16 +431,16 @@ public virtual void Save(Stream stream, ImageOptionsBase optionsBase, Rectangle 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток, в который сохраняются данные изображения. |
-| optionsBase | ImageOptionsBase | Параметры сохранения. |
-| boundsRectangle | Rectangle | Конечный прямоугольник, ограничивающий изображение. Установите пустой прямоугольник для использования исходных границ. |
+| optionsBase | ImageOptionsBase | Варианты сохранения. |
+| boundsRectangle | Rectangle | Конечный образ ограничивает прямоугольник. Установите пустой прямоугольник для использования исходных границ. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | optionsBase |
-| ArgumentException | Не удается сохранить в указанный формат, поскольку в настоящее время он не поддерживается.;optionsBase |
-| [ImageSaveException](../../../aspose.imaging.coreexceptions/imagesaveexception) | Ошибка экспорта изображения. |
+| ArgumentNullException | вариантыБаза |
+| ArgumentException | Невозможно сохранить в указанном формате, так как в данный момент он не поддерживается.;optionsBase |
+| [ImageSaveException](../../../aspose.imaging.coreexceptions/imagesaveexception) | Не удалось экспортировать изображение. |
 
 ### Примеры
 
@@ -613,51 +450,20 @@ public virtual void Save(Stream stream, ImageOptionsBase optionsBase, Rectangle 
 [C#]
 
 string dir = "c:\\temp\\";
+
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
 {
-    Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = (Aspose.Imaging.FileFormats.Bmp.BmpImage)image;
-        
-     // Преобразование в черно-белое изображение
-    bmpImage.BinarizeOtsu();
-
-     // Сохранить в то же место с параметрами по умолчанию.
-    image.Save();
-
-    Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
-
-     // Палитра содержит только два цвета: в данном случае черный и белый.
-    saveOptions.Palette = Aspose.Imaging.ColorPaletteHelper.CreateMonochrome();
-
-     // Для всех монохромных изображений (включая черно-белые) достаточно выделить 1 бит на пиксель.
-    saveOptions.BitsPerPixel = 1;
-
-     // Сохраняем в другое место с указанными параметрами.
-    image.Save(dir + "sample.bw.palettized.bmp", saveOptions);
-
-     // Сохраняем только центральную часть изображения.
-    Aspose.Imaging.Rectangle bounds = new Aspose.Imaging.Rectangle(image.Width / 4, image.Height / 4, image.Width / 2, image.Height / 2);
-    image.Save(dir + "sample.bw.palettized.part.bmp", saveOptions, bounds);
-
-     // Сохраняем все изображение в память stream
-    using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
+    Aspose.Imaging.ImageOptions.PngOptions saveOptions = new Aspose.Imaging.ImageOptions.PngOptions();
+    Aspose.Imaging.Rectangle bounds = new Aspose.Imaging.Rectangle(0, 0, image.Width, image.Height / 2);
+    using (System.IO.Stream outputStream = System.IO.File.Open(dir + "sample.output.png", System.IO.FileMode.Create))
     {
-        image.Save(stream, saveOptions);
-        System.Console.WriteLine("The size of the whole image in bytes: {0}", stream.Length);
-    }
-
-     // Сохраняем центральную часть изображения в память stream
-    using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
-    {
-        image.Save(stream, saveOptions, bounds);
-        System.Console.WriteLine("The size of the central part of the image in bytes: {0}", stream.Length);
+        // Сохраняем верхнюю половину изображения в файловый поток.
+        image.Save(outputStream, saveOptions, bounds);
     }
 }
- // Вывод может выглядеть так: 
- //Размер всего изображения в байтах: 24062
-//Размер центральной части изображения в байтах: 6046
 ```
 
-В следующем примере показано, как сохранить полное изображение BMP или его часть в файл или поток.
+В следующем примере показано, как сохранить все изображение BMP или его часть в файл или поток.
 
 ```csharp
 [C#]
@@ -667,43 +473,43 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"
 {
     Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = (Aspose.Imaging.FileFormats.Bmp.BmpImage)image;
         
-     // Преобразование в черно-белое изображение
+    // Преобразование в черно-белое изображение
     bmpImage.BinarizeOtsu();
 
-     // Сохранить в то же место с параметрами по умолчанию.
+    // Сохранить в то же место с параметрами по умолчанию.
     image.Save();
 
     Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 
-     // Палитра содержит только два цвета: в данном случае черный и белый.
+    // Палитра содержит только два цвета: в данном случае черный и белый.
     saveOptions.Palette = Aspose.Imaging.ColorPaletteHelper.CreateMonochrome();
 
-     // Для всех монохромных изображений (включая черно-белые) достаточно выделить 1 бит на пиксель.
+    // Для всех монохромных изображений (в том числе черно-белых) достаточно выделить 1 бит на пиксель.
     saveOptions.BitsPerPixel = 1;
 
-     // Сохраняем в другое место с указанными параметрами.
+    // Сохраняем в другое место с указанными параметрами.
     image.Save(dir + "sample.bw.palettized.bmp", saveOptions);
 
-     // Сохраняем только центральную часть изображения.
+    // Сохраняем только центральную часть изображения.
     Aspose.Imaging.Rectangle bounds = new Aspose.Imaging.Rectangle(image.Width / 4, image.Height / 4, image.Width / 2, image.Height / 2);
     image.Save(dir + "sample.bw.palettized.part.bmp", saveOptions, bounds);
 
-     // Сохраняем все изображение в память stream
+    // Сохраняем все изображение в поток памяти
     using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
     {
         image.Save(stream, saveOptions);
         System.Console.WriteLine("The size of the whole image in bytes: {0}", stream.Length);
     }
 
-     // Сохраняем центральную часть изображения в память stream
+    // Сохраняем центральную часть изображения в поток памяти
     using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
     {
         image.Save(stream, saveOptions, bounds);
         System.Console.WriteLine("The size of the central part of the image in bytes: {0}", stream.Length);
     }
 }
- // Вывод может выглядеть так: 
- //Размер всего изображения в байтах: 24062
+//Вывод может выглядеть так:
+//Размер всего изображения в байтах: 24062
 //Размер центральной части изображения в байтах: 6046
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: DicomImageException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаDicomImageExceptionaspose.imaging.coreexceptions.imageformats/dicomimageexception.
+description: Инициализирует новый экземплярDicomImageExceptionaspose.imaging.coreexceptions.imageformats/dicomimageexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions.imageformats/dicomimageexception/dicomimageexception/
 ---
 ## DicomImageException(string) {#constructor}
 
-Инициализирует новый экземпляр класса[`DicomImageException`](../../dicomimageexception).
+Инициализирует новый экземпляр[`DicomImageException`](../../dicomimageexception) класс.
 
 ```csharp
 public DicomImageException(string message)
@@ -28,7 +28,7 @@ public DicomImageException(string message)
 
 ## DicomImageException(string, Exception) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`DicomImageException`](../../dicomimageexception).
+Инициализирует новый экземпляр[`DicomImageException`](../../dicomimageexception) класс.
 
 ```csharp
 public DicomImageException(string message, Exception innerException)

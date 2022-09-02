@@ -1,14 +1,14 @@
 ---
 title: OdLine
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化OdPageaspose.imaging.fileformats.opendocument.objects.graphic/odpage类的新实例
+description: 初始化OdPageaspose.imaging.fileformats.opendocument.objects.graphic/odpage类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odline/odline/
 ---
 ## OdLine constructor
 
-初始化[`OdPage`](../../odpage)类的新实例。
+初始化[`OdPage`](../../odpage)类.
 
 ```csharp
 public OdLine(OdObject parent)
@@ -16,7 +16,7 @@ public OdLine(OdObject parent)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | OdObject | 父级。 |
+| parent | OdObject | 家长。 |
 
 ### 也可以看看
 

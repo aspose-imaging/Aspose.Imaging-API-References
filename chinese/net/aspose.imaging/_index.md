@@ -13,34 +13,34 @@ url: /zh/net/aspose.imaging/
 | 班级 | 描述 |
 | --- | --- |
 | [AggregateException](./aggregateexception) | 聚合多个异常。 |
-| [Blend](./blend) | 定义混合模式。这个类不能被继承。 |
+| [Blend](./blend) | 定义混合图案。这个类不能被继承。 |
 | [Brush](./brush) | 基础画笔类。 |
 | [BuildVersionInfo](./buildversioninfo) | 包含当前构建版本信息。 |
 | [Cache](./cache) | 包含缓存设置。 |
-| [CmykColorHelper](./cmykcolorhelper) | 使用 CMYK 颜色的辅助方法，以带符号的 32 位整数值表示。 提供与[`CmykColor`](../aspose.imaging/cmykcolor)结构类似的 API。 它更轻量级，因为 CMYK 颜色以 Int32 的形式呈现，而不是具有内部字段的结构。 请尽可能使用此类的静态方法，而不是已弃用的 [`CmykColor`](../aspose.imaging/cmykcolor)结构。 |
+| [CmykColorHelper](./cmykcolorhelper) | 使用 CMYK 颜色的辅助方法，以带符号的 32 位整数值表示。 提供与[`CmykColor`](../aspose.imaging/cmykcolor)struct. 它更轻量级，因为 CMYK 颜色显示为 Int32 而不是具有内部字段的结构。 请尽可能使用此类的静态方法，而不是弃用的 [`CmykColor`](../aspose.imaging/cmykcolor) struct. |
 | [ColorBlend](./colorblend) | 定义用于在多色渐变中插值颜色混合的颜色和位置数组。这个类不能被继承。 |
-| [ColorMap](./colormap) | 定义用于转换颜色的映射。[`ImageAttributes`](../aspose.imaging/imageattributes)类的几个方法通过使用颜色重映射表来调整图像颜色，该表是:::R5:T:Aspose.Imaging.ColorMap::的数组:结构。不可继承。 |
-| [ColorMatrix](./colormatrix) | 定义一个 5 x 5 矩阵，其中包含 RGBA 空间的坐标。[`ImageAttributes`](../aspose.imaging/imageattributes)类的几个方法通过使用颜色矩阵来调整图像颜色。这个类不能被继承。 |
+| [ColorMap](./colormap) | 定义用于转换颜色的贴图。的几种方法[`ImageAttributes`](../aspose.imaging/imageattributes)类通过使用颜色重映射表来调整图像颜色，该表是一个数组[`ColorMap`](../aspose.imaging/colormap)结构。不可继承。 |
+| [ColorMatrix](./colormatrix) | 定义一个 5 x 5 矩阵，其中包含 RGBA 空间的坐标。的几种方法[`ImageAttributes`](../aspose.imaging/imageattributes)类使用颜色矩阵调整图像颜色。这个类不能被继承。 |
 | [ColorPalette](./colorpalette) | 定义组成调色板的颜色数组。颜色是 32 位 ARGB 颜色。不可继承。 |
-| [ColorPaletteHelper](./colorpalettehelper) | 调色板操作的帮助类。 |
-| [ColorTranslator](./colortranslator) | 将颜色与 GDI+ 颜色结构相互转换。这个类不能被继承。 |
+| [ColorPaletteHelper](./colorpalettehelper) | 调色板操作的辅助类。 |
+| [ColorTranslator](./colortranslator) | 在 GDI+ 颜色结构之间转换颜色。这个类不能被继承。 |
 | [CompositeException](./compositeexception) | 复合异常 |
-| [CustomFontSource](./customfontsource) | 自定义字体源提供程序函数 |
-| [CustomLineCap](./customlinecap) | 封装自定义的用户定义的线帽。 |
+| [CustomFontSource](./customfontsource) | 自定义字体源提供函数 |
+| [CustomLineCap](./customlinecap) | 封装了一个自定义的用户定义的线帽。 |
 | [DataStreamSupporter](./datastreamsupporter) | 数据流容器。 |
 | [DisposableObject](./disposableobject) | 表示一次性对象。 |
 | [EmbeddedImage](./embeddedimage) | 嵌入图像类 |
-| [Figure](./figure) | 图。形状的容器。 |
+| [Figure](./figure) | 图。形状的容器. |
 | [FileStreamContainer](./filestreamcontainer) | 文件流处理助手。 |
 | [Font](./font) | 定义文本的特定格式，包括字体、大小和样式属性。这个类不能被继承。 |
 | [FontSettings](./fontsettings) | 一般成像矢量格式渲染器字体设置。 |
 | [Graphics](./graphics) | 根据当前程序集中使用的图形引擎表示图形。 |
 | [GraphicsPath](./graphicspath) | 表示一系列相连的直线和曲线。这个类不能被继承。 |
 | [Image](./image) | 图像是所有类型图像的基类。 |
-| [ImageAttributes](./imageattributes) | [`ImageAttributes`](../aspose.imaging/imageattributes)对象包含有关在渲染过程中如何操作位图和元文件颜色的信息。[`ImageAttributes`](../aspose.imaging/imageattributes)对象维护多个颜色调整设置，包括颜色调整矩阵、灰度调整矩阵、伽马校正值、颜色映射表和颜色阈值.在渲染过程中，颜色可以被校正、变暗、变亮和去除。要应用此类操作，请初始化[`ImageAttributes`](../aspose.imaging/imageattributes)对象并传递该[`ImageAttributes`](../aspose.imaging/imageattributes)对象的路径（以及路径[`Image`](../aspose.imaging/image)) 到 DrawImage 方法。 |
+| [ImageAttributes](./imageattributes) | 一个[`ImageAttributes`](../aspose.imaging/imageattributes)对象包含有关在渲染过程中如何操作位图和元文件颜色的信息。一个[`ImageAttributes`](../aspose.imaging/imageattributes)对象维护几个颜色调整设置，包括颜色调整矩阵、灰度调整矩阵、伽马校正值、颜色映射表和颜色阈值。在渲染过程中，颜色可以被校正、变暗、变亮和去除。要应用此类操作，请初始化[`ImageAttributes`](../aspose.imaging/imageattributes)对象并通过它的路径[`ImageAttributes`](../aspose.imaging/imageattributes)对象（连同一个路径[`Image`](../aspose.imaging/image) 到 DrawImage 方法。 |
 | [ImageCreatorsRegistry](./imagecreatorsregistry) | 表示图像创建者注册表。 |
 | [ImageExportersRegistry](./imageexportersregistry) | 表示图像导出器注册表。 |
-| [ImageLoadersRegistry](./imageloadersregistry) | 表示图像加载器注册表。 |
+| [ImageLoadersRegistry](./imageloadersregistry) | 表示图像加载程序注册表。 |
 | [ImageOptionsBase](./imageoptionsbase) | 图像基础选项。 |
 | [ImageResizeSettings](./imageresizesettings) | 图像调整大小设置类 |
 | [IntRange](./intrange) | 表示元素序列的类 |
@@ -52,7 +52,7 @@ url: /zh/net/aspose.imaging/
 | [NonGenericList](./nongenericlist) | 非通用对象列表 |
 | [ObjectWithBounds](./objectwithbounds) | 有边界的对象。 |
 | [OpenTypeFontsCache](./opentypefontscache) | 缓存系统中安装的 OpenType 字体。 |
-| [PageExportingAction](./pageexportingaction) | 用于在页面导出之前触发的委托 |
+| [PageExportingAction](./pageexportingaction) | 在页面导出之前触发的委托 |
 | [Pen](./pen) | 定义用于绘制直线、曲线和图形的对象。 |
 | [PixelDataFormat](./pixeldataformat) | 像素数据格式。这是一个不可变的对象。 |
 | [ProgressEventHandler](./progresseventhandler) | 进度事件处理函数参考 |
@@ -77,21 +77,21 @@ url: /zh/net/aspose.imaging/
 | --- | --- |
 | [IAdvancedBufferProcessor](./iadvancedbufferprocessor) | 高级缓冲处理器。 |
 | [IAnimationFrame](./ianimationframe) | 动画帧 |
-| [IBufferProcessor](./ibufferprocessor) | 缓冲区处理器。 |
-| [IColorConverter](./icolorconverter) | 颜色转换器。 |
+| [IBufferProcessor](./ibufferprocessor) | 缓冲处理器。 |
+| [IColorConverter](./icolorconverter) | 颜色转换器. |
 | [IColorPalette](./icolorpalette) | 调色板界面。 |
-| [IImageCreator](./iimagecreator) | 图像创建者。 |
-| [IImageCreatorDescriptor](./iimagecreatordescriptor) | 指定创建者属性的图像创建者描述符。创建者描述符用于克服 将每个图像创建者实例包含在内存中的必要性和多线程问题。 |
+| [IImageCreator](./iimagecreator) | 图像创建者. |
+| [IImageCreatorDescriptor](./iimagecreatordescriptor) | 指定创建者属性的图像创建者描述符。创建者描述符用于克服 在内存中包含每个图像创建者实例的必要性和多线程问题。 |
 | [IImageDescriptor](./iimagedescriptor) | 图像描述符。包含所有其他图像描述符类型的基本属性和方法。 |
-| [IImageExporter](./iimageexporter) | 图像导出器。可以将内部 Aspose.Imaging 格式的数据导出为指定的数据格式。 |
-| [IImageExporterDescriptor](./iimageexporterdescriptor) | 表示图像导出器描述符。导出器描述符用于克服在内存和多线程问题中包含每个导出器实例 的必要性。 |
-| [IImageLoader](./iimageloader) | 图像加载器。 |
-| [IImageLoaderDescriptor](./iimageloaderdescriptor) | 指定加载器属性的图像加载器描述符。加载器描述符用于克服 将每个图像加载器实例包含在内存中的必要性和多线程问题。 |
+| [IImageExporter](./iimageexporter) | 图像导出器。可以将内部Aspose.Imaging格式的数据导出为指定的数据格式。 |
+| [IImageExporterDescriptor](./iimageexporterdescriptor) | 表示图像导出器描述符。导出器描述符用于克服在内存中包含每个导出器 instance 和多线程问题的必要性。 |
+| [IImageLoader](./iimageloader) | 图像加载器. |
+| [IImageLoaderDescriptor](./iimageloaderdescriptor) | 指定加载器属性的图像加载器描述符。加载器描述符用于克服 在内存中包含每个图像加载器实例的必要性和多线程问题。 |
 | [IIndexedColorConverter](./iindexedcolorconverter) | 索引图像格式的颜色转换器。 |
 | [IKeyedObject](./ikeyedobject) | 表示带有键的对象的接口。 |
 | [IMultipageImage](./imultipageimage) | 多页图片界面 |
-| [IMultipageImageExt](./imultipageimageext) | 扩展多页图像接口 |
-| [IObjectWithBounds](./iobjectwithbounds) | 表示一个有边界的对象。 |
+| [IMultipageImageExt](./imultipageimageext) | 扩展的多页图像接口 |
+| [IObjectWithBounds](./iobjectwithbounds) | 表示有边界的对象。 |
 | [IOrderedShape](./iorderedshape) | 表示有序的形状。有序形状是具有起点和终点的连续点集。 使用特定规则连接的连续点集。 |
 | [IPartialArgb32PixelLoader](./ipartialargb32pixelloader) | 符合部分加载的 32 位 ARGB 像素。 |
 | [IPartialArgb64PixelLoader](./ipartialargb64pixelloader) | 64 位 ARGB 像素加载器。 |
@@ -108,40 +108,40 @@ url: /zh/net/aspose.imaging/
 | [CacheType](./cachetype) | 指定要使用的缓存类型。 |
 | [CharacterSet](./characterset) | 表示使用的字符集。 |
 | [ColorAdjustType](./coloradjusttype) | 指定哪些对象使用颜色调整信息。 |
-| [ColorChannelFlag](./colorchannelflag) | 指定 CMYK（青色、品红色、黄色、黑色）色彩空间中的各个通道。 SetOutputChannel 方法使用此枚举。 |
+| [ColorChannelFlag](./colorchannelflag) | 指定 CMYK（青色、品红色、黄色、黑色）颜色空间中的各个通道。此枚举由 SetOutputChannel 方法使用。 |
 | [ColorCompareMethod](./colorcomparemethod) | 调整到最近邻的颜色比较方法 |
-| [ColorMatrixFlag](./colormatrixflag) | 指定将受[`ImageAttributes`](../aspose.imaging/imageattributes)的颜色和灰度调整设置影响的图像和颜色类型. |
+| [ColorMatrixFlag](./colormatrixflag) | 指定将受图像的颜色和灰度调整设置影响的图像类型和颜色[`ImageAttributes`](../aspose.imaging/imageattributes) . |
 | [ColorQuantizationMethod](./colorquantizationmethod) | 颜色量化方法 |
 | [CompositingQuality](./compositingquality) | 指定合成期间使用的质量级别。 |
-| [DashCap](./dashcap) | 指定要在虚线中每个虚线两端使用的图形形状的类型。 |
-| [DashStyle](./dashstyle) | 指定用[`Pen`](../aspose.imaging/pen)对象绘制的虚线样式。 |
-| [DataRecoveryMode](./datarecoverymode) | 数据恢复模式。 |
-| [DitheringMethod](./ditheringmethod) | 抖动方法。 |
+| [DashCap](./dashcap) | 指定要在虚线中每个虚线的两端使用的图形形状的类型。 |
+| [DashStyle](./dashstyle) | 指定虚线的样式[`Pen`](../aspose.imaging/pen)对象. |
+| [DataRecoveryMode](./datarecoverymode) | 数据恢复模式 |
+| [DitheringMethod](./ditheringmethod) | 抖动方法. |
 | [DitheringMethods](./ditheringmethods) | 用于控制颜色转换的抖动方法。 |
-| [FileFormat](./fileformat) | 一种受支持的映像文件格式。 |
+| [FileFormat](./fileformat) | 支持的图像文件格式之一。 |
 | [FillMode](./fillmode) | 指定如何填充封闭路径的内部。 |
 | [FontStyle](./fontstyle) | 指定应用于文本的样式信息。 |
 | [GraphicsUnit](./graphicsunit) | 指定给定数据的度量单位。 |
-| [HatchStyle](./hatchstyle) | 指定可用于[`HatchBrush`](../aspose.imaging.brushes/hatchbrush)对象的不同模式。 |
+| [HatchStyle](./hatchstyle) | 指定可用于的不同模式[`HatchBrush`](../aspose.imaging.brushes/hatchbrush)对象. |
 | [HotkeyPrefix](./hotkeyprefix) | 指定与文本相关的热键前缀的显示类型。 |
 | [ImageFilterType](./imagefiltertype) | 要使用的图像过滤器 |
-| [InterpolationMode](./interpolationmode) | [`InterpolationMode`](../aspose.imaging/interpolationmode)枚举指定缩放或旋转图像时使用的算法。 |
+| [InterpolationMode](./interpolationmode) | 的[`InterpolationMode`](../aspose.imaging/interpolationmode)枚举指定缩放或旋转图像时使用的算法。 |
 | [KnownColor](./knowncolor) | 指定已知的系统颜色。 |
-| [LineCap](./linecap) | 指定[`Pen`](../aspose.imaging/pen)对象可以用来结束一行的可用帽子样式。 |
-| [LineJoin](./linejoin) | 指定如何连接[`GraphicsPath`](../aspose.imaging/graphicspath)对象中包含的图形（子路径）中的连续线段或曲线段。 |
+| [LineCap](./linecap) | 指定可用的帽子样式，[`Pen`](../aspose.imaging/pen)对象可以结束一行。 |
+| [LineJoin](./linejoin) | 指定如何连接图形（子路径）中的连续直线或曲线段[`GraphicsPath`](../aspose.imaging/graphicspath)对象. |
 | [MatrixOrder](./matrixorder) | 指定矩阵变换操作的顺序。 |
 | [PaletteMiningMethod](./paletteminingmethod) | 图像调色板挖掘方法 |
 | [PdfComplianceVersion](./pdfcomplianceversion) | 指定输出文件的 PDF 合规级别。 |
-| [PenAlignment](./penalignment) | 指定[`Pen`](../aspose.imaging/pen)对象相对于理论零宽度线的对齐方式。 |
+| [PenAlignment](./penalignment) | 指定对齐方式[`Pen`](../aspose.imaging/pen)相对于理论的零宽度线的对象。 |
 | [PenType](./pentype) | 指定填充类型[`Pen`](../aspose.imaging/pen)对象用于填充线条。 |
 | [PixelFormat](./pixelformat) | 像素数据格式的实际含义。 |
 | [ResizeType](./resizetype) | 指定调整大小类型。 |
 | [ResolutionUnit](./resolutionunit) | 分辨率单位枚举。 |
 | [RotateFlipType](./rotatefliptype) | 指定图像旋转多少以及用于翻转图像的轴。 |
-| [SeekOrigin](./seekorigin) | 在[`StreamContainer`](../aspose.imaging/streamcontainer)中提供表示参考点的字段以进行查找。 |
+| [SeekOrigin](./seekorigin) | 提供代表参考点的字段[`StreamContainer`](../aspose.imaging/streamcontainer)寻求. |
 | [SmoothingMode](./smoothingmode) | 指定是否对直线和曲线以及填充区域的边缘应用平滑（抗锯齿）。 |
 | [StringAlignment](./stringalignment) | 指定文本字符串相对于其布局矩形的对齐方式。 |
-| [StringDigitSubstitute](./stringdigitsubstitute) | 枚举指定如何根据用户的区域设置或语言替换字符串中的数字。 |
+| [StringDigitSubstitute](./stringdigitsubstitute) | 枚举指定如何根据用户的区域或语言替换字符串中的数字。 |
 | [StringFormatFlags](./stringformatflags) | 指定文本字符串的显示和布局信息。 |
 | [StringTrimming](./stringtrimming) | 指定如何从不完全适合布局形状的字符串中修剪字符。 |
 | [TextRenderingHint](./textrenderinghint) | 指定文本渲染的质量。 |

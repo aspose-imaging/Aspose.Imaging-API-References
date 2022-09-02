@@ -1,14 +1,14 @@
 ---
 title: SharpenFilterOptions
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化SharpenFilterOptionsaspose.imaging.imagefilters.filteroptions/sharpenfilteroptions类的新实例
+description: 初始化SharpenFilterOptionsaspose.imaging.imagefilters.filteroptions/sharpenfilteroptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/sharpenfilteroptions/
 ---
 ## SharpenFilterOptions(int, double) {#constructor_1}
 
-初始化[`SharpenFilterOptions`](../../sharpenfilteroptions)类的新实例。
+初始化[`SharpenFilterOptions`](../../sharpenfilteroptions)类.
 
 ```csharp
 public SharpenFilterOptions(int size, double sigma)
@@ -16,7 +16,7 @@ public SharpenFilterOptions(int size, double sigma)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| size | Int32 | 内核大小。 |
+| size | Int32 | 内核的大小。 |
 | sigma | Double | 西格玛。 |
 
 ### 也可以看看
@@ -29,7 +29,7 @@ public SharpenFilterOptions(int size, double sigma)
 
 ## SharpenFilterOptions() {#constructor}
 
-初始化[`SharpenFilterOptions`](../../sharpenfilteroptions)类的新实例。 使用默认设置。
+初始化[`SharpenFilterOptions`](../../sharpenfilteroptions)类. 使用默认设置.
 
 ```csharp
 public SharpenFilterOptions()

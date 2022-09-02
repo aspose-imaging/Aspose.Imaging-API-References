@@ -1,14 +1,14 @@
 ---
 title: GraphicsPathExtensions
 second_title: Aspose.Imaging for .NET API 参考
-description: 包含GraphicsPath../aspose.imaging/graphicspath扩展方法
+description: 包含GraphicsPath../aspose.imaging/graphicspath扩展方法.
 type: docs
 weight: 1190
 url: /zh/net/aspose.imaging.extensions/graphicspathextensions/
 ---
 ## GraphicsPathExtensions class
 
-包含[`GraphicsPath`](../../aspose.imaging/graphicspath)扩展方法。
+包含[`GraphicsPath`](../../aspose.imaging/graphicspath)扩展方法.
 
 ```csharp
 public static class GraphicsPathExtensions
@@ -18,7 +18,7 @@ public static class GraphicsPathExtensions
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [ToGdiGraphicsPath](../../aspose.imaging.extensions/graphicspathextensions/togdigraphicspath)(GraphicsPath) | 将[`GraphicsPath`](../../aspose.imaging/graphicspath)转换为GraphicsPath. |
+| static [ToGdiGraphicsPath](../../aspose.imaging.extensions/graphicspathextensions/togdigraphicspath)(GraphicsPath) | 转换[`GraphicsPath`](../../aspose.imaging/graphicspath)到GraphicsPath . |
 
 ### 也可以看看
 

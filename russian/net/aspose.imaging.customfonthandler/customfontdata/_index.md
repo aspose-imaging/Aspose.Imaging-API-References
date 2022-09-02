@@ -1,14 +1,14 @@
 ---
 title: CustomFontData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Класс данных пользовательского шрифта
+description: Пользовательские данные шрифта class
 type: docs
 weight: 750
 url: /ru/net/aspose.imaging.customfonthandler/customfontdata/
 ---
 ## CustomFontData class
 
-Класс данных пользовательского шрифта
+Пользовательские данные шрифта class
 
 ```csharp
 public class CustomFontData
@@ -18,7 +18,7 @@ public class CustomFontData
 
 | Имя | Описание |
 | --- | --- |
-| [CustomFontData](customfontdata)(string, byte[]) | Инициализирует новый экземпляр класса[`CustomFontData`](../customfontdata). |
+| [CustomFontData](customfontdata)(string, byte[]) | Инициализирует новый экземпляр[`CustomFontData`](../customfontdata) учебный класс. |
 
 ## Характеристики
 

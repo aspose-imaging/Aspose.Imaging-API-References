@@ -1,14 +1,14 @@
 ---
 title: EmfFloodFill
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Перечисление FloodFill определяет значения указывающие как определить область для операции заливки заливкой.
+description: Перечисление FloodFill определяет значения которые указывают как определить область для операции заливки.
 type: docs
 weight: 2650
 url: /ru/net/aspose.imaging.fileformats.emf.emf.consts/emffloodfill/
 ---
 ## EmfFloodFill enumeration
 
-Перечисление FloodFill определяет значения, указывающие, как определить область для операции заливки заливкой.
+Перечисление FloodFill определяет значения, которые указывают, как определить область для операции заливки.
 
 ```csharp
 public enum EmfFloodFill

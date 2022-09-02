@@ -1,14 +1,14 @@
 ---
 title: TranslateX
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置翻译 x
+description: 获取或设置翻译 x.
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects/odtransforminfo/translatex/
 ---
 ## OdTransformInfo.TranslateX property
 
-获取或设置翻译 x。
+获取或设置翻译 x.
 
 ```csharp
 public float TranslateX { get; set; }
@@ -16,7 +16,7 @@ public float TranslateX { get; set; }
 
 ### 适当的价值
 
-翻译 x。
+翻译 x.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: RectData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает данные прямоугольника Массив объектов EmfPlusRect или EmfPlusRectF длины Count который определяет данные прямоугольника.
+description: Получает или задает прямоугольные данные Массив объектов EmfPlusRect или EmfPlusRectF длины Count который определяет данные прямоугольника.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawrects/rectdata/
 ---
 ## EmfPlusDrawRects.RectData property
 
-Получает или задает данные прямоугольника Массив объектов EmfPlusRect или EmfPlusRectF длины Count, который определяет данные прямоугольника.
+Получает или задает прямоугольные данные Массив объектов EmfPlusRect или EmfPlusRectF длины Count, который определяет данные прямоугольника.
 
 ```csharp
 public RectangleF[] RectData { get; set; }

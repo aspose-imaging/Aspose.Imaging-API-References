@@ -1,14 +1,14 @@
 ---
 title: Box
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 128 位 WMF RectL 对象在 MS-WMF 第 2.2.2.19 节中指定其中 指定包含-包含矩形来绘制
+description: 获取或设置一个128位WMF RectL对象在MS-WMF第2.2.2.19节中指定 指定要绘制的包容性矩形
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfroundrect/box/
 ---
 ## EmfRoundRect.Box property
 
-获取或设置一个 128 位 WMF RectL 对象，在 [MS-WMF] 第 2.2.2.19 节中指定，其中 指定包含-包含矩形来绘制。
+获取或设置一个128位WMF RectL对象，在[MS-WMF]第2.2.2.19节中指定， 指定要绘制的包容性矩形。
 
 ```csharp
 public Rectangle Box { get; set; }

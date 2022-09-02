@@ -1,14 +1,14 @@
 ---
 title: TileByteCounts
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает количество байтов плитки.
+description: Получает или задает количество байтов тайла.
 type: docs
 weight: 540
 url: /ru/net/aspose.imaging.imageoptions/tiffoptions/tilebytecounts/
 ---
 ## TiffOptions.TileByteCounts property
 
-Получает или задает количество байтов плитки.
+Получает или задает количество байтов тайла.
 
 ```csharp
 public uint[] TileByteCounts { get; set; }

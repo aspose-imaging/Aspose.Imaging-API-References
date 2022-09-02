@@ -1,14 +1,14 @@
 ---
 title: EmfBitBlt
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfBitBltaspose.imaging.fileformats.emf.emf.records/emfbitblt类的新实例
+description: 初始化EmfBitBltaspose.imaging.fileformats.emf.emf.records/emfbitblt类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfbitblt/emfbitblt/
 ---
 ## EmfBitBlt constructor
 
-初始化[`EmfBitBlt`](../../emfbitblt)类的新实例。
+初始化[`EmfBitBlt`](../../emfbitblt)类.
 
 ```csharp
 public EmfBitBlt(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfBitBlt(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 

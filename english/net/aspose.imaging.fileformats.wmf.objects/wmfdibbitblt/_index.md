@@ -3,7 +3,7 @@ title: WmfDibBitBlt
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8590
+weight: 8600
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfdibbitblt/
 ---
 ## WmfDibBitBlt class

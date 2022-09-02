@@ -1,14 +1,14 @@
 ---
 title: EmfPlusOffsetClip
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusOffsetClipaspose.imaging.fileformats.emf.emfplus.records/emfplusoffsetclip.
+description: Инициализирует новый экземплярEmfPlusOffsetClipaspose.imaging.fileformats.emf.emfplus.records/emfplusoffsetclip класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusoffsetclip/emfplusoffsetclip/
 ---
 ## EmfPlusOffsetClip constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusOffsetClip`](../../emfplusoffsetclip).
+Инициализирует новый экземпляр[`EmfPlusOffsetClip`](../../emfplusoffsetclip) класс.
 
 ```csharp
 public EmfPlusOffsetClip(EmfPlusRecord source)

@@ -1,14 +1,14 @@
 ---
 title: SkewX
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置倾斜 x
+description: 获取或设置倾斜 x.
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects/odtransforminfo/skewx/
 ---
 ## OdTransformInfo.SkewX property
 
-获取或设置倾斜 x。
+获取或设置倾斜 x.
 
 ```csharp
 public float SkewX { get; set; }
@@ -16,7 +16,7 @@ public float SkewX { get; set; }
 
 ### 适当的价值
 
-偏斜 x。
+歪斜 x.
 
 ### 也可以看看
 

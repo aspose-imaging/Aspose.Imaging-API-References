@@ -1,14 +1,14 @@
 ---
 title: EmfSetMapperFlags
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfSetMapperFlagsaspose.imaging.fileformats.emf.emf.records/emfsetmapperflags类的新实例
+description: 初始化EmfSetMapperFlagsaspose.imaging.fileformats.emf.emf.records/emfsetmapperflags类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetmapperflags/emfsetmapperflags/
 ---
 ## EmfSetMapperFlags constructor
 
-初始化[`EmfSetMapperFlags`](../../emfsetmapperflags)类的新实例。
+初始化[`EmfSetMapperFlags`](../../emfsetmapperflags)类.
 
 ```csharp
 public EmfSetMapperFlags(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfSetMapperFlags(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 

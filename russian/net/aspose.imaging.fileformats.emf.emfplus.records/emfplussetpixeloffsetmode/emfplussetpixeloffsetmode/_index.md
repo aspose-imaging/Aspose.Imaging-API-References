@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSetPixelOffsetMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusSetPixelOffsetModeaspose.imaging.fileformats.emf.emfplus.records/emfplussetpixeloffsetmode.
+description: Инициализирует новый экземплярEmfPlusSetPixelOffsetModeaspose.imaging.fileformats.emf.emfplus.records/emfplussetpixeloffsetmode класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetpixeloffsetmode/emfplussetpixeloffsetmode/
 ---
 ## EmfPlusSetPixelOffsetMode constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusSetPixelOffsetMode`](../../emfplussetpixeloffsetmode).
+Инициализирует новый экземпляр[`EmfPlusSetPixelOffsetMode`](../../emfplussetpixeloffsetmode) класс.
 
 ```csharp
 public EmfPlusSetPixelOffsetMode(EmfPlusRecord source)

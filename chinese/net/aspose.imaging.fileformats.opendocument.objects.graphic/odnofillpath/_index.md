@@ -18,13 +18,13 @@ public class OdNoFillPath : OdGraphicObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OdNoFillPath](odnofillpath)(OdObject) | 初始化[`OdNoFillPath`](../odnofillpath)类的新实例。 |
+| [OdNoFillPath](odnofillpath)(OdObject) | 初始化[`OdNoFillPath`](../odnofillpath)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]。 |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | 获取项目。 |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | 获取父对象。 |
 

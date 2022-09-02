@@ -1,14 +1,14 @@
 ---
 title: BlendPattern
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置线性渐变画笔的可选混合模式如果该字段存在 它必须包含 EmfPlusBlendColors 对象第 2.2.2.4 节 或一个或两个 EmfPlusBlendFactors 对象第 2.2.2.5 节 但它不能同时包含两者下表显示 EmfPlusLinearGradientBrushData BrushData 标志和相应混合模式的有效组合 EmfPlusBlendFactors
+description: 获取或设置线性渐变画笔的可选混合模式如果此字段存在 它必须包含 EmfPlusBlendColors 对象第 2.2.2.4 节 或一或两个 EmfPlusBlendFactors 对象第 2.2.2.5 节 但不得同时包含两者下表显示了 EmfPlusLinearGradientBrushData BrushData 标志和相应混合模式的有效组合 EmfPlusBlendFactors
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushoptionaldata/blendpattern/
 ---
 ## EmfPlusLinearGradientBrushOptionalData.BlendPattern property
 
-获取或设置线性渐变画笔的可选混合模式。如果该字段存在， 它必须包含 EmfPlusBlendColors 对象（第 2.2.2.4 节）、 或一个或两个 EmfPlusBlendFactors 对象（第 2.2.2.5 节）、 但它不能同时包含两者。下表显示 EmfPlusLinearGradientBrushData BrushData 标志和相应混合模式的有效组合: EmfPlusBlendFactors
+获取或设置线性渐变画笔的可选混合模式。如果此字段存在， 它必须包含 EmfPlusBlendColors 对象（第 2.2.2.4 节）、 或一或两个 EmfPlusBlendFactors 对象（第 2.2.2.5 节）、 ，但不得同时包含两者。下表显示了 EmfPlusLinearGradientBrushData BrushData 标志和相应混合模式的有效组合： EmfPlusBlendFactors
 
 ```csharp
 public EmfPlusBlendBase[] BlendPattern { get; set; }

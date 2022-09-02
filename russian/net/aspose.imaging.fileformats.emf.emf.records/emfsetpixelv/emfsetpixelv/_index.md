@@ -1,14 +1,14 @@
 ---
 title: EmfSetPixelV
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetPixelVaspose.imaging.fileformats.emf.emf.records/emfsetpixelv.
+description: Инициализирует новый экземплярEmfSetPixelVaspose.imaging.fileformats.emf.emf.records/emfsetpixelv класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetpixelv/emfsetpixelv/
 ---
 ## EmfSetPixelV(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfSetPixelV`](../../emfsetpixelv).
+Инициализирует новый экземпляр[`EmfSetPixelV`](../../emfsetpixelv) класс.
 
 ```csharp
 public EmfSetPixelV(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfSetPixelV(EmfRecord source)
 
 ## EmfSetPixelV() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfSetPixelV`](../../emfsetpixelv).
+Инициализирует новый экземпляр[`EmfSetPixelV`](../../emfsetpixelv) класс.
 
 ```csharp
 public EmfSetPixelV()

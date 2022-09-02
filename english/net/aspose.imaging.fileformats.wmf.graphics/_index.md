@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Wmf.Graphics
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains Wmf graphics.
 type: docs
-weight: 700
+weight: 710
 url: /net/aspose.imaging.fileformats.wmf.graphics/
 ---
 The namespace contains Wmf graphics.

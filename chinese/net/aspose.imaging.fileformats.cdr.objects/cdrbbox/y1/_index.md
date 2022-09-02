@@ -1,14 +1,14 @@
 ---
 title: Y1
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 y1
+description: 获取或设置 y1.
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrbbox/y1/
 ---
 ## CdrBbox.Y1 property
 
-获取或设置 y1。
+获取或设置 y1.
 
 ```csharp
 public double Y1 { get; set; }
@@ -16,7 +16,7 @@ public double Y1 { get; set; }
 
 ### 适当的价值
 
-y1。
+y1.
 
 ### 也可以看看
 

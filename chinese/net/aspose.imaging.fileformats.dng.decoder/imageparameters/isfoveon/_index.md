@@ -16,7 +16,7 @@ public uint IsFoveon { get; }
 
 ### 适当的价值
 
-是foveon。
+是foveon.
 
 ### 也可以看看
 

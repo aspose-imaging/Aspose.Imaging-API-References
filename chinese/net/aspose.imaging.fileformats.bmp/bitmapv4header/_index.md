@@ -1,14 +1,14 @@
 ---
 title: BitmapV4Header
 second_title: Aspose.Imaging for .NET API 参考
-description: BitmapV4Header结构是位图信息头文件它是 BITMAPINFOHEADER 结构的扩展版本  BitmapV4Header 结构扩展为允许将 JPEG 或 PNG 图像作为源图像传递给 StretchDIBits
+description: BitmapV4Header结构是位图信息头文件它是 BITMAPINFOHEADER 结构的扩展版本 BitmapV4Header 结构被扩展以允许将 JPEG 或 PNG 图像作为源图像传递给 StretchDIBits
 type: docs
 weight: 1360
 url: /zh/net/aspose.imaging.fileformats.bmp/bitmapv4header/
 ---
 ## BitmapV4Header class
 
-BitmapV4Header结构是位图信息头文件。它是 BITMAPINFOHEADER 结构的扩展版本。  BitmapV4Header 结构扩展为允许将 JPEG 或 PNG 图像作为源图像传递给 StretchDIBits。
+BitmapV4Header结构是位图信息头文件。它是 BITMAPINFOHEADER 结构的扩展版本。 BitmapV4Header 结构被扩展以允许将 JPEG 或 PNG 图像作为源图像传递给 StretchDIBits。
 
 ```csharp
 public class BitmapV4Header : BitmapInfoHeader
@@ -23,16 +23,16 @@ public class BitmapV4Header : BitmapInfoHeader
 | [BitmapColorsUsed](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapcolorsused) { get; set; } | 获取或设置使用的调色板颜色数。 |
 | [BitmapCompression](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapcompression) { get; set; } | 获取或设置位图压缩。 |
 | [BitmapHeight](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapheight) { get; set; } | 获取或设置位图高度。 |
-| [BitmapImageSize](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapimagesize) { get; set; } | 获取或设置指定位图原始数据大小（以字节为单位）。 |
+| [BitmapImageSize](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapimagesize) { get; set; } | 获取或设置以字节为单位的指定位图原始数据大小。 |
 | [BitmapPlanes](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapplanes) { get; set; } | 获取或设置平面数。 |
 | [BitmapWidth](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapwidth) { get; set; } | 获取或设置位图宽度。 |
 | [BitmapXPelsPerMeter](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapxpelspermeter) { get; set; } | 获取或设置水平像素分辨率。 |
 | [BitmapYPelsPerMeter](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapypelspermeter) { get; set; } | 获取或设置垂直像素分辨率。 |
-| [BitsPerPixel](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitsperpixel) { get; set; } | 获取或设置每像素位数的位数。 |
+| [BitsPerPixel](../../aspose.imaging.fileformats.bmp/bitmapcoreheader/bitsperpixel) { get; set; } | 获取或设置每个像素计数的位数。 |
 | [BlueMask](../../aspose.imaging.fileformats.bmp/bitmapv4header/bluemask) { get; set; } | 获取或设置指定每个像素的蓝色分量的颜色掩码，仅当 bV4Compression 设置为 BI_BITFIELDS 时有效。 |
-| [CSType](../../aspose.imaging.fileformats.bmp/bitmapv4header/cstype) { get; set; } | 获取或设置 DIB 的色彩空间。 |
+| [CSType](../../aspose.imaging.fileformats.bmp/bitmapv4header/cstype) { get; set; } | 获取或设置DIB的色彩空间。 |
 | [Endpoints](../../aspose.imaging.fileformats.bmp/bitmapv4header/endpoints) { get; set; } | 获取或设置 CoordinatesTriple 类。 |
-| [ExtraBitMasks](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/extrabitmasks) { get; set; } | 获取或设置额外的位掩码。 仅在 DIB 标头是 BITMAPINFOHEADER 并且[`BitmapCompression`](../bitmapinfoheader/bitmapcompression)设置为F的情况下才存在:Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Bitfields(RGB) 或AlphaBitfields(RGBA)。 |
+| [ExtraBitMasks](../../aspose.imaging.fileformats.bmp/bitmapinfoheader/extrabitmasks) { get; set; } | 获取或设置额外的位掩码。 仅在 DIB 标头是 BITMAPINFOHEADER 和[`BitmapCompression`](../bitmapinfoheader/bitmapcompression)设置为Bitfields(RGB) 或AlphaBitfields(RGBA). |
 | [GammaBlue](../../aspose.imaging.fileformats.bmp/bitmapv4header/gammablue) { get; set; } | 获取或设置伽马蓝。 |
 | [GammaGreen](../../aspose.imaging.fileformats.bmp/bitmapv4header/gammagreen) { get; set; } | 获取或设置伽马绿色。 |
 | [GammaRed](../../aspose.imaging.fileformats.bmp/bitmapv4header/gammared) { get; set; } | 获取或设置伽玛红。 |

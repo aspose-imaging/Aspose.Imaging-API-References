@@ -1,14 +1,14 @@
 ---
 title: LineType
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置行的类型
+description: 获取或设置线条的类型
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdroutline/linetype/
 ---
 ## CdrOutline.LineType property
 
-获取或设置行的类型。
+获取或设置线条的类型。
 
 ```csharp
 public short LineType { get; set; }
@@ -16,7 +16,7 @@ public short LineType { get; set; }
 
 ### 适当的价值
 
-行的类型。
+线的类型。
 
 ### 也可以看看
 

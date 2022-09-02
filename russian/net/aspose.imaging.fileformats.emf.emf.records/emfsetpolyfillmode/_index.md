@@ -1,14 +1,14 @@
 ---
 title: EmfSetPolyFillMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_SETPOLYFILLMODE определяет режим заполнения полигона.
+description: Запись EMR_SETPOLYFILLMODE определяет режим заливки многоугольника.
 type: docs
 weight: 4460
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetpolyfillmode/
 ---
 ## EmfSetPolyFillMode class
 
-Запись EMR_SETPOLYFILLMODE определяет режим заполнения полигона.
+Запись EMR_SETPOLYFILLMODE определяет режим заливки многоугольника.
 
 ```csharp
 public sealed class EmfSetPolyFillMode : EmfStateRecordType
@@ -18,20 +18,20 @@ public sealed class EmfSetPolyFillMode : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetPolyFillMode](emfsetpolyfillmode#constructor)() | Инициализирует новый экземпляр класса[`EmfSetPolyFillMode`](../emfsetpolyfillmode). |
-| [EmfSetPolyFillMode](emfsetpolyfillmode#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetPolyFillMode`](../emfsetpolyfillmode). |
+| [EmfSetPolyFillMode](emfsetpolyfillmode#constructor)() | Инициализирует новый экземпляр[`EmfSetPolyFillMode`](../emfsetpolyfillmode) класс. |
+| [EmfSetPolyFillMode](emfsetpolyfillmode#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetPolyFillMode`](../emfsetpolyfillmode) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [PolygonFillMode](../../aspose.imaging.fileformats.emf.emf.records/emfsetpolyfillmode/polygonfillmode) { get; set; } | Получает или задает 32-битное целое число без знака, определяющее режим заполнения полигона и ДОЛЖНО находиться в перечислении PolygonFillMode (раздел 2.1.27) . |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [PolygonFillMode](../../aspose.imaging.fileformats.emf.emf.records/emfsetpolyfillmode/polygonfillmode) { get; set; } | Получает или задает 32-битное целое число без знака, определяющее режим заполнения многоугольника, и ДОЛЖЕН находиться в перечислении PolygonFillMode (раздел 2.1.27). |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Примечания
 
-В общем, режимы различаются только в случаях, когда ДОЛЖЕН быть заполнен сложный, перекрывающийся полигон; для например, пятиугольник, образующий пятиконечную звезду с пятиугольником в центре. В таких случаях режим ALTERNATE ДОЛЖЕН заполнять каждую другую замкнутую область внутри полигона (точки звезды), а режим WINDING ДОЛЖЕН заполнять все области (точки звезды). и пятиугольник). Когда режим заполнения ALTERNATE, область между нечетными и четными сторонами многоугольника на каждой строке сканирования ДОЛЖНА быть заполнена. То есть область между первой и второй стороной ДОЛЖНА быть заполнена, а между третьей и четвертой стороной и так далее. Когда режим заполнения WINDING, любая область с ненулевым значением намотки ДОЛЖНА быть заполнена. Значение намотки - это количество раз, которое перо, используемое для рисования многоугольника, обходит область . Направление каждого ребра многоугольника имеет значение.
+В общем, режимы различаются только в тех случаях, когда ДОЛЖЕН быть заполнен сложный перекрывающийся полигон; for пример, пятиугольник, образующий пятиконечную звезду с пятиугольником в центре. В таких случаях режим ALTERNATE ДОЛЖЕН заполнять каждую другую замкнутую область внутри многоугольника (точки звезды), а режим WINDING ДОЛЖЕН заполнять все области (точки звезды и пятиугольника). Когда режим заполнения ALTERNATE, область между нечетными и четными сторонами polygon на каждой строке сканирования ДОЛЖНА быть заполнена. То есть область между первой и второй стороной ДОЛЖНА быть заполнена, а между третьей и четвертой стороной и т.д. значение — это количество раз, которое перо, использованное для рисования многоугольника, обходит область . Направление каждого ребра многоугольника имеет значение.
 
 ### Смотрите также
 

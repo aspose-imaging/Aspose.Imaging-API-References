@@ -37,7 +37,7 @@ Aspose.Imaging.RotateFlipType[] rotateFlipTypes = new Aspose.Imaging.RotateFlipT
 
 foreach (Aspose.Imaging.RotateFlipType rotateFlipType in rotateFlipTypes)
 {
-        // 旋转、翻转并保存到输出文件.
+    // 旋转、翻转并保存到输出文件。
     using (Aspose.Imaging.FileFormats.Dicom.DicomImage image = (Aspose.Imaging.FileFormats.Dicom.DicomImage)Aspose.Imaging.Image.Load(dir + "sample.dicom"))
     {
         image.RotateFlip(rotateFlipType);

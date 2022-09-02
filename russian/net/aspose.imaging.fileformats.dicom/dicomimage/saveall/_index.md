@@ -17,7 +17,7 @@ public void SaveAll(string filePath, ImageOptionsBase options)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | filePath | String | Путь к файлу. |
-| options | ImageOptionsBase | Опции. |
+| options | ImageOptionsBase | Варианты. |
 
 ### Смотрите также
 

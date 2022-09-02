@@ -1,14 +1,14 @@
 ---
 title: BitmapPlanes
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает количество плоскостей.
+description: Получает или задает количество плоскостей.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.bmp/bitmapcoreheader/bitmapplanes/
 ---
 ## BitmapCoreHeader.BitmapPlanes property
 
-Получает или устанавливает количество плоскостей.
+Получает или задает количество плоскостей.
 
 ```csharp
 public ushort BitmapPlanes { get; set; }

@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.FileFormats.Psd
 second_title: Aspose.Imaging for .NET API 参考
-description: 命名空间处理 Psd 文件格式处理
+description: 命名空间处理Psd文件格式处理
 type: docs
 weight: 570
 url: /zh/net/aspose.imaging.fileformats.psd/
 ---
-命名空间处理 Psd 文件格式处理。
+命名空间处理Psd文件格式处理。
 
 ## 枚举
 

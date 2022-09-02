@@ -47,7 +47,7 @@ public static TiffStreamReader GetTiffReader(byte[] bytes, int bytesOffset, int 
 | --- | --- | --- |
 | bytes | Byte[] | 字节。 |
 | bytesOffset | Int32 | 字节偏移量。 |
-| dataLength | Int32 | 数据长度。 |
+| dataLength | Int32 | 数据的长度。 |
 | byteOrder | TiffByteOrder | 字节顺序。 |
 
 ### 返回值

@@ -1,14 +1,14 @@
 ---
 title: EmfSetRop2
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfSetRop2aspose.imaging.fileformats.emf.emf.records/emfsetrop2类的新实例
+description: 初始化EmfSetRop2aspose.imaging.fileformats.emf.emf.records/emfsetrop2类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetrop2/emfsetrop2/
 ---
 ## EmfSetRop2(EmfRecord) {#constructor_1}
 
-初始化[`EmfSetRop2`](../../emfsetrop2)类的新实例。
+初始化[`EmfSetRop2`](../../emfsetrop2)类.
 
 ```csharp
 public EmfSetRop2(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfSetRop2(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfSetRop2(EmfRecord source)
 
 ## EmfSetRop2() {#constructor}
 
-初始化[`EmfSetRop2`](../../emfsetrop2)类的新实例。
+初始化[`EmfSetRop2`](../../emfsetrop2)类.
 
 ```csharp
 public EmfSetRop2()

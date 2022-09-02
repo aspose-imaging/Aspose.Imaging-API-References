@@ -1,14 +1,14 @@
 ---
 title: EmfSetMetaRgn
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Inter устанавливает текущую метаобласть с текущей областью отсечения для формирования новой метаобласти для контекста устройства воспроизведения. Текущая область отсечения СЛЕДУЕТ сбросить значение null. Эта запись EMF не содержит параметров.
+description: Inter устанавливает текущую метаобласть с текущей областью отсечения для формирования новой метаобласти для контекста устройства воспроизведения. Текущую область отсечения СЛЕДУЕТ сбросить до нуля. Эта запись EMF не содержит параметров.
 type: docs
 weight: 4420
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetmetargn/
 ---
 ## EmfSetMetaRgn class
 
-Inter устанавливает текущую метаобласть с текущей областью отсечения для формирования новой метаобласти для контекста устройства воспроизведения. Текущая область отсечения СЛЕДУЕТ сбросить значение null. Эта запись EMF не содержит параметров.
+Inter устанавливает текущую метаобласть с текущей областью отсечения для формирования новой метаобласти для контекста устройства воспроизведения. Текущую область отсечения СЛЕДУЕТ сбросить до нуля. Эта запись EMF не содержит параметров.
 
 ```csharp
 public sealed class EmfSetMetaRgn : EmfClippingRecordType
@@ -18,13 +18,13 @@ public sealed class EmfSetMetaRgn : EmfClippingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetMetaRgn](emfsetmetargn)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetMetaRgn`](../emfsetmetargn). |
+| [EmfSetMetaRgn](emfsetmetargn)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetMetaRgn`](../emfsetmetargn) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

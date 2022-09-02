@@ -16,7 +16,7 @@ public string PrintedBy { get; set; }
 
 ### 适当的价值
 
-打印者。
+印刷者.
 
 ### 也可以看看
 

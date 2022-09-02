@@ -1,14 +1,14 @@
 ---
 title: Point
 second_title: Aspose.Imaging for .NET API 参考
-description: 使用指定坐标初始化Pointaspose.imaging/point结构的新实例
+description: 初始化Pointaspose.imaging/point具有指定坐标的结构
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/point/point/
 ---
 ## Point(int, int) {#constructor_2}
 
-使用指定坐标初始化[`Point`](../../point)结构的新实例。
+初始化[`Point`](../../point)具有指定坐标的结构。
 
 ```csharp
 public Point(int x, int y)
@@ -29,7 +29,7 @@ public Point(int x, int y)
 
 ## Point(Size) {#constructor}
 
-从Imaging初始化R5:T:Aspose.Imaging.Point:::结构的新实例。尺寸:::结构。
+初始化[`Point`](../../point)从结构[`Size`](../../size)结构.
 
 ```csharp
 public Point(Size size)
@@ -50,7 +50,7 @@ public Point(Size size)
 
 ## Point(int) {#constructor_1}
 
-使用整数值指定的坐标初始化[`Point`](../../point)结构的新实例。
+初始化[`Point`](../../point)结构使用由整数值指定的坐标。
 
 ```csharp
 public Point(int dw)

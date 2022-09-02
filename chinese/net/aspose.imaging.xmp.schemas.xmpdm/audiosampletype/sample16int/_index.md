@@ -1,14 +1,14 @@
 ---
 title: Sample16Int
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示 16Int 音频样本
+description: 代表 16Int 音频样本
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype/sample16int/
 ---
 ## AudioSampleType.Sample16Int property
 
-表示 16Int 音频样本。
+代表 16Int 音频样本。
 
 ```csharp
 public static AudioSampleType Sample16Int { get; }

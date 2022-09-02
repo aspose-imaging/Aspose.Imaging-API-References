@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.Masking.Exceptions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пространство имен обрабатывает обработку ImageMasking.Exceptions.
+description: Пространство имен обрабатывает ImageMasking.Exceptions.
 type: docs
 weight: 790
 url: /ru/net/aspose.imaging.masking.exceptions/
 ---
-Пространство имен обрабатывает обработку ImageMasking.Exceptions.
+Пространство имен обрабатывает ImageMasking.Exceptions.
 
 ## Классы
 

@@ -1,14 +1,14 @@
 ---
 title: ColorValueMin
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Минимальное значение цвета в колоранте CMYK.
+description: Минимальное значение цвета в CMYK.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging.xmp.types.complex.colorant/colorantcmyk/colorvaluemin/
 ---
 ## ColorantCmyk.ColorValueMin field
 
-Минимальное значение цвета в колоранте CMYK.
+Минимальное значение цвета в CMYK.
 
 ```csharp
 public const float ColorValueMin;

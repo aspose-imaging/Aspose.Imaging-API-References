@@ -1,14 +1,14 @@
 ---
 title: EmfException
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfExceptionaspose.imaging.coreexceptions.imageformats/emfexception类的新实例
+description: 初始化EmfExceptionaspose.imaging.coreexceptions.imageformats/emfexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.coreexceptions.imageformats/emfexception/emfexception/
 ---
 ## EmfException constructor
 
-初始化[`EmfException`](../../emfexception)类的新实例。
+初始化[`EmfException`](../../emfexception)类.
 
 ```csharp
 public EmfException(string message)

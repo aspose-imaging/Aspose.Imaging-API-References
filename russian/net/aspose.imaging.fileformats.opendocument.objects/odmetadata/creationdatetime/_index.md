@@ -1,14 +1,14 @@
 ---
 title: CreationDateTime
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает время даты создания.
+description: Получает или задает время даты создания.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects/odmetadata/creationdatetime/
 ---
 ## OdMetadata.CreationDateTime property
 
-Получает или устанавливает время даты создания.
+Получает или задает время даты создания.
 
 ```csharp
 public string CreationDateTime { get; set; }
@@ -16,7 +16,7 @@ public string CreationDateTime { get; set; }
 
 ### Стоимость имущества
 
-Дата и время создания.
+Дата создания и время.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: ResizeProportional
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Выполняет пропорциональное изменение размера изображения. Пропорциональное изменение размера изменит размер каждого кадра в соответствии с соотношениемnewWidth/width иnewHeight/height.
+description: Выполняет пропорциональное изменение размера изображения. Пропорциональное изменение размера изменит размер каждого кадра в соответствии с соотношениемnewWidth/ширина иnewHeight /высота.
 type: docs
 weight: 400
 url: /ru/net/aspose.imaging.fileformats.gif/gifimage/resizeproportional/
 ---
 ## GifImage.ResizeProportional method
 
-Выполняет пропорциональное изменение размера изображения. Пропорциональное изменение размера изменит размер каждого кадра в соответствии с соотношением*newWidth*/width и*newHeight*/height.
+Выполняет пропорциональное изменение размера изображения. Пропорциональное изменение размера изменит размер каждого кадра в соответствии с соотношением*newWidth*/ширина и*newHeight* /высота.
 
 ```csharp
 public void ResizeProportional(int newWidth, int newHeight, ResizeType resizeType)

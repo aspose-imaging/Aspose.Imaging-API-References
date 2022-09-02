@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Imaging for .NET API 参考
-description: 将项目添加到IList
+description: 将一个项目添加到IList .
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging/nongenericlist/add/
 ---
 ## NonGenericList.Add method
 
-将项目添加到IList。
+将一个项目添加到IList .
 
 ```csharp
 public int Add(object value)
@@ -16,7 +16,7 @@ public int Add(object value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Object | Object添加到IList。 |
+| value | Object | 这Object添加到IList. |
 
 ### 返回值
 

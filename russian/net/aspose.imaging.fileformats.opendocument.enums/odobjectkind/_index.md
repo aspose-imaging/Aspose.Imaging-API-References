@@ -1,14 +1,14 @@
 ---
 title: OdObjectKind
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Вид объекта
+description: Объект kind
 type: docs
 weight: 6870
 url: /ru/net/aspose.imaging.fileformats.opendocument.enums/odobjectkind/
 ---
 ## OdObjectKind enumeration
 
-Вид объекта
+Объект kind
 
 ```csharp
 public enum OdObjectKind
@@ -19,9 +19,9 @@ public enum OdObjectKind
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | None | `0` | Тип объекта - none |
-| Section | `1` | Вид объекта - section |
-| Cut | `2` | Вид объекта обрезан |
-| Arc | `3` | Тип объекта - дуга |
+| Section | `1` | Тип объекта: section |
+| Cut | `2` | Тип объекта cut |
+| Arc | `3` | Тип объекта: arc |
 
 ### Смотрите также
 

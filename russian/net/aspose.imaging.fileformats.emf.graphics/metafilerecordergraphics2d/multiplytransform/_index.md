@@ -1,14 +1,14 @@
 ---
 title: MultiplyTransform
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Умножает мировое преобразование этой Графики и указанной Матрицы.
+description: Умножает мировое преобразование этого Графика и указанную Матрицу.
 type: docs
 weight: 250
 url: /ru/net/aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/multiplytransform/
 ---
 ## MultiplyTransform(Matrix) {#multiplytransform}
 
-Умножает мировое преобразование этой Графики и указанной Матрицы.
+Умножает мировое преобразование этого Графика и указанную Матрицу.
 
 ```csharp
 public void MultiplyTransform(Matrix matrix)
@@ -16,7 +16,7 @@ public void MultiplyTransform(Matrix matrix)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| matrix | Matrix | Матрица, умножающая трансформацию мира. |
+| matrix | Matrix | Матрица, умножающая преобразование мира. |
 
 ### Смотрите также
 
@@ -37,7 +37,7 @@ public void MultiplyTransform(Matrix matrix, MatrixOrder order)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| matrix | Matrix | Матрица, умножающая трансформацию мира. |
+| matrix | Matrix | Матрица, умножающая преобразование мира. |
 | order | MatrixOrder | Порядок умножения. |
 
 ### Смотрите также

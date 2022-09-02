@@ -1,14 +1,14 @@
 ---
 title: Blues
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает массив цветов синего
+description: Получает цвета массива blue
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.dicom/dicomimageinfo/blues/
 ---
 ## DicomImageInfo.Blues property
 
-Получает массив цветов синего
+Получает цвета массива blue
 
 ```csharp
 public byte[] Blues { get; }

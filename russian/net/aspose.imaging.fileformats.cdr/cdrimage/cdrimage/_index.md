@@ -1,14 +1,14 @@
 ---
 title: CdrImage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаCdrImageaspose.imaging.fileformats.cdr/cdrimage.
+description: Инициализирует новый экземплярCdrImageaspose.imaging.fileformats.cdr/cdrimage класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.cdr/cdrimage/cdrimage/
 ---
 ## CdrImage constructor
 
-Инициализирует новый экземпляр класса[`CdrImage`](../../cdrimage).
+Инициализирует новый экземпляр[`CdrImage`](../../cdrimage) класс.
 
 ```csharp
 public CdrImage(Stream stream, LoadOptions loadOptions)
@@ -17,13 +17,13 @@ public CdrImage(Stream stream, LoadOptions loadOptions)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток. |
-| loadOptions | LoadOptions | Параметры загрузки. |
+| loadOptions | LoadOptions | Варианты загрузки. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| IndexOutOfRangeException | Этот документ не содержит страниц |
+| IndexOutOfRangeException | Этот документ не должен содержать страниц |
 
 ### Смотрите также
 

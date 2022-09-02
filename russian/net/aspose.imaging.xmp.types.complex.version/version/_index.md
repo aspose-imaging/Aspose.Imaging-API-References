@@ -3,7 +3,7 @@ title: Version
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Описывает одну версию документа.
 type: docs
-weight: 11630
+weight: 11620
 url: /ru/net/aspose.imaging.xmp.types.complex.version/version/
 ---
 ## Version class
@@ -29,7 +29,7 @@ public sealed class Version : ComplexTypeBase
 | [Modifier](../../aspose.imaging.xmp.types.complex.version/version/modifier) { get; set; } | Получает или устанавливает модификатор. |
 | [NamespaceUri](../../aspose.imaging.xmp.types.complex/complextypebase/namespaceuri) { get; } | Получает URI пространства имен по умолчанию. |
 | [Prefix](../../aspose.imaging.xmp.types.complex/complextypebase/prefix) { get; } | Получает префикс. |
-| [VersionEvent](../../aspose.imaging.xmp.types.complex.version/version/versionevent) { get; set; } | Получает или задает[`ResourceEvent`](../../aspose.imaging.xmp.types.complex.resourceevent/resourceevent). |
+| [VersionEvent](../../aspose.imaging.xmp.types.complex.version/version/versionevent) { get; set; } | Получает или задает[`ResourceEvent`](../../aspose.imaging.xmp.types.complex.resourceevent/resourceevent) . |
 | [VersionText](../../aspose.imaging.xmp.types.complex.version/version/versiontext) { get; set; } | Получает или задает текст версии. |
 
 ## Методы

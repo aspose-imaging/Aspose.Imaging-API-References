@@ -1,14 +1,14 @@
 ---
 title: FallbackIndex
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置调色板索引超出范围时使用的后备索引
+description: 获取或设置调色板索引超出范围时使用的回退索引
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging/rawdatasettings/fallbackindex/
 ---
 ## RawDataSettings.FallbackIndex property
 
-获取或设置调色板索引超出范围时使用的后备索引
+获取或设置调色板索引超出范围时使用的回退索引
 
 ```csharp
 public int FallbackIndex { get; set; }

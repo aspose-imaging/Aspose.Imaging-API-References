@@ -1,14 +1,14 @@
 ---
 title: Frame
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 WMF RectL 对象该对象指定包围存储在元文件
+description: 获取或设置一个 WMF RectL 对象该对象指定围绕存储在元文件 中的图像的矩形的矩形包含尺寸以 0.01 毫米 为单位
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/frame/
 ---
 ## EmfHeaderObject.Frame property
 
-获取或设置一个 WMF RectL 对象，该对象指定包围存储在元文件
+获取或设置一个 WMF RectL 对象，该对象指定围绕存储在元文件 中的图像的矩形的矩形包含尺寸，以 0.01 毫米 为单位
 
 ```csharp
 public Rectangle Frame { get; set; }

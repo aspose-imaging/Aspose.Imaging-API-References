@@ -1,14 +1,14 @@
 ---
 title: EmfFlatternPath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Эта запись преобразует любые кривые на выбранном пути в устройство воспроизведения контекст каждая кривая ДОЛЖНА быть превращена в последовательность линий.
+description: Эта запись преобразует любые кривые на выбранном пути в контекст устройства воспроизведения  каждая кривая ДОЛЖНА быть превращена в последовательность линий.
 type: docs
 weight: 3710
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfflatternpath/
 ---
 ## EmfFlatternPath class
 
-Эта запись преобразует любые кривые на выбранном пути в устройство воспроизведения контекст; каждая кривая ДОЛЖНА быть превращена в последовательность линий.
+Эта запись преобразует любые кривые на выбранном пути в контекст устройства воспроизведения ; каждая кривая ДОЛЖНА быть превращена в последовательность линий.
 
 ```csharp
 public sealed class EmfFlatternPath : EmfPathBracketRecordType
@@ -24,7 +24,7 @@ public sealed class EmfFlatternPath : EmfPathBracketRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

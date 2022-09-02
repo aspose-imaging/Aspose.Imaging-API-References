@@ -16,14 +16,14 @@ public void DrawPolyCubicBezier(Pen pen, Point[] points)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pen | Pen | 确定图形颜色、宽度和样式的笔。 |
+| pen | Pen | 确定图形颜色、宽度和样式的钢笔。 |
 | points | Point[] | 点。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | 数组中的点数应为 3 加 1 的倍数，例如 4、7 或 10。 |
+| ArgumentOutOfRangeException | 数组中的点数应该是 3 加 1 的倍数，例如 4、7 或 10。 |
 
 ### 也可以看看
 

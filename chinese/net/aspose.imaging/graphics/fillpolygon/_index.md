@@ -1,14 +1,14 @@
 ---
 title: FillPolygon
 second_title: Aspose.Imaging for .NET API 参考
-description: 填充由PointFaspose.imaging/pointf结构和R5 指定的点数组定义的多边形内部FAspose.Imaging.FillMode.Alternate
+description: 填充由指定的点数组定义的多边形内部PointFaspose.imaging/pointf结构和Alternate .
 type: docs
 weight: 380
 url: /zh/net/aspose.imaging/graphics/fillpolygon/
 ---
 ## FillPolygon(Brush, PointF[]) {#fillpolygon}
 
-填充由[`PointF`](../../pointf)结构和:::R5 指定的点数组定义的多边形内部:F:Aspose.Imaging.FillMode.Alternate:::。
+填充由指定的点数组定义的多边形内部[`PointF`](../../pointf)结构和Alternate .
 
 ```csharp
 public void FillPolygon(Brush brush, PointF[] points)
@@ -16,14 +16,14 @@ public void FillPolygon(Brush brush, PointF[] points)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)决定了填充的特性。 |
-| points | PointF[] | [`PointF`](../../pointf)结构的数组，表示要填充的多边形的顶点。 |
+| brush | Brush | [`Brush`](../../brush)这决定了填充的特性。 |
+| points | PointF[] | 数组[`PointF`](../../pointf)表示要填充的多边形顶点的结构。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *brush*为空。 -或- *points*为空。 |
+| ArgumentNullException | *brush*为空。 -或- *points*一片空白。 |
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public void FillPolygon(Brush brush, PointF[] points)
 
 ## FillPolygon(Brush, PointF[], FillMode) {#fillpolygon_1}
 
-使用指定的填充模式填充由[`PointF`](../../pointf)结构指定的点数组定义的多边形内部.
+填充由指定的点数组定义的多边形内部[`PointF`](../../pointf)使用指定填充模式的结构。
 
 ```csharp
 public void FillPolygon(Brush brush, PointF[] points, FillMode fillMode)
@@ -45,15 +45,15 @@ public void FillPolygon(Brush brush, PointF[] points, FillMode fillMode)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)决定了填充的特性。 |
-| points | PointF[] | [`PointF`](../../pointf)结构的数组，表示要填充的多边形的顶点。 |
-| fillMode | FillMode | [`FillMode`](../../fillmode)枚举的成员，用于确定填充的样式。 |
+| brush | Brush | [`Brush`](../../brush)这决定了填充的特性。 |
+| points | PointF[] | 数组[`PointF`](../../pointf)表示要填充的多边形顶点的结构。 |
+| fillMode | FillMode | 成员[`FillMode`](../../fillmode)确定填充样式的枚举。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *brush*为空。 -或- *points*为空。 |
+| ArgumentNullException | *brush*为空。 -或- *points*一片空白。 |
 
 ### 也可以看看
 
@@ -68,7 +68,7 @@ public void FillPolygon(Brush brush, PointF[] points, FillMode fillMode)
 
 ## FillPolygon(Brush, Point[]) {#fillpolygon_2}
 
-填充由[`Point`](../../point)结构和:::R5 指定的点数组定义的多边形内部:F:Aspose.Imaging.FillMode.Alternate:::。
+填充由指定的点数组定义的多边形内部[`Point`](../../point)结构和Alternate .
 
 ```csharp
 public void FillPolygon(Brush brush, Point[] points)
@@ -76,14 +76,14 @@ public void FillPolygon(Brush brush, Point[] points)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)决定了填充的特性。 |
-| points | Point[] | [`Point`](../../point)结构的数组，表示要填充的多边形的顶点。 |
+| brush | Brush | [`Brush`](../../brush)这决定了填充的特性。 |
+| points | Point[] | 数组[`Point`](../../point)表示要填充的多边形顶点的结构。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *brush*为空。 -或- *points*为空。 |
+| ArgumentNullException | *brush*为空。 -或- *points*一片空白。 |
 
 ### 也可以看看
 
@@ -97,7 +97,7 @@ public void FillPolygon(Brush brush, Point[] points)
 
 ## FillPolygon(Brush, Point[], FillMode) {#fillpolygon_3}
 
-使用指定的填充模式填充由[`Point`](../../point)结构指定的点数组定义的多边形内部.
+填充由指定的点数组定义的多边形内部[`Point`](../../point)使用指定填充模式的结构。
 
 ```csharp
 public void FillPolygon(Brush brush, Point[] points, FillMode fillMode)
@@ -105,15 +105,15 @@ public void FillPolygon(Brush brush, Point[] points, FillMode fillMode)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| brush | Brush | [`Brush`](../../brush)决定了填充的特性。 |
-| points | Point[] | [`Point`](../../point)结构的数组，表示要填充的多边形的顶点。 |
-| fillMode | FillMode | [`FillMode`](../../fillmode)枚举的成员，用于确定填充的样式。 |
+| brush | Brush | [`Brush`](../../brush)这决定了填充的特性。 |
+| points | Point[] | 数组[`Point`](../../point)表示要填充的多边形顶点的结构。 |
+| fillMode | FillMode | 成员[`FillMode`](../../fillmode)确定填充样式的枚举。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *brush*为空。 -或- *points*为空。 |
+| ArgumentNullException | *brush*为空。 -或- *points*一片空白。 |
 
 ### 也可以看看
 

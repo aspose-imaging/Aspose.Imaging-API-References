@@ -1,14 +1,14 @@
 ---
 title: EmfCloseFigure
 second_title: Aspose.Imaging for .NET API 参考
-description: 此记录关闭路径中的打开图形 处理 EMR_CLOSEFIGURE 记录必须通过从当前位置到图的第一个点画一条线 来关闭图然后它必须连接 通过使用线连接样式来连接线如果通过处理 EMR_LINETO 记录而不是 EMR_CLOSEFIGURE 记录来闭合图窗则结束大写是 用于创建角而不是join.EMR_LINETO 在 2.3.5.13 部分中指定 EMR_CLOSEFIGURE 记录应该只在播放设备上下文中存在开放路径 括号时使用 路径中的图形是打开的除非通过处理此记录明确关闭它
+description: 此记录关闭路径中打开的图形 处理 EMR_CLOSEFIGURE 记录必须通过从当前位置到图形的第一个点绘制一条线 来关闭图形然后它必须使用线连接样式连接 线如果通过处理 EMR_LINETO 记录而不是EMR_CLOSEFIGURE 记录来闭合地物则端盖 用于创建角而不是连接EMR_LINETO 在section 2.3.5.13 中指定 只有在存在在播放设备上下文中打开路径 括号 路径中的图形是打开的除非通过处理此记录明确关闭它
 type: docs
 weight: 3310
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfclosefigure/
 ---
 ## EmfCloseFigure class
 
-此记录关闭路径中的打开图形。 处理 EMR_CLOSEFIGURE 记录必须通过从当前位置到图的第一个点画一条线 来关闭图，然后它必须连接 通过使用线连接样式来连接线。如果通过处理 EMR_LINETO 记录而不是 EMR_CLOSEFIGURE 记录来闭合图窗，则结束大写是 用于创建角而不是join.EMR_LINETO 在 2.3.5.13 部分中指定。 EMR_CLOSEFIGURE 记录应该只在播放设备上下文中存在开放路径 括号时使用。 路径中的图形是打开的，除非通过处理此记录明确关闭它。
+此记录关闭路径中打开的图形。 处理 EMR_CLOSEFIGURE 记录必须通过从当前位置到图形的第一个点绘制一条线 来关闭图形，然后它必须使用线连接样式连接 线。如果通过处理 EMR_LINETO 记录而不是EMR_CLOSEFIGURE 记录来闭合地物，则端盖 用于创建角而不是连接。EMR_LINETO 在section 2.3.5.13 中指定。 只有在存在在播放设备上下文中打开路径 括号。 路径中的图形是打开的，除非通过处理此记录明确关闭它。
 
 ```csharp
 public sealed class EmfCloseFigure : EmfPathBracketRecordType
@@ -29,7 +29,7 @@ public sealed class EmfCloseFigure : EmfPathBracketRecordType
 
 ### 评论
 
-注意:即使当前点和::的起点，也可以打开图形:47:::数字是一样的。 处理完 EMR_CLOSEFIGURE 记录后，添加一条直线或曲线到路径 必须开始一个新图形。
+注意：即使当前点和 图形的起点相同，也可以打开一个图形。 处理完EMR_CLOSEFIGURE记录后，在路径中添加一条直线或曲线 必须开始一个新图形。
 
 ### 也可以看看
 

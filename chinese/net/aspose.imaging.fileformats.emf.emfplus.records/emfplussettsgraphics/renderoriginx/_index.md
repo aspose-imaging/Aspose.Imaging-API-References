@@ -1,14 +1,14 @@
 ---
 title: RenderOriginX
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 16 位有符号整数它是 原点的水平坐标用于渲染半色调和抖动矩阵
+description: 获取或设置一个16位有符号整数即 原点的水平坐标用于渲染半色调和抖动矩阵
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics/renderoriginx/
 ---
 ## EmfPlusSetTsGraphics.RenderOriginX property
 
-获取或设置一个 16 位有符号整数，它是 原点的水平坐标，用于渲染半色调和抖动矩阵。
+获取或设置一个16位有符号整数，即 原点的水平坐标，用于渲染半色调和抖动矩阵。
 
 ```csharp
 public short RenderOriginX { get; set; }
@@ -16,7 +16,7 @@ public short RenderOriginX { get; set; }
 
 ### 适当的价值
 
-渲染原点 x。
+渲染原点 x.
 
 ### 也可以看看
 

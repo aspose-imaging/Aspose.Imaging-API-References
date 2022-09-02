@@ -1,14 +1,14 @@
 ---
 title: CAccumAlphaBits
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает количество альфа-битовых плоскостей в буфере накопления
+description: Получает или задает количество альфа-битовых плоскостей в накопительном буфере
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/caccumalphabits/
 ---
 ## EmfPixelFormatDescriptor.CAccumAlphaBits property
 
-Получает или устанавливает количество альфа-битовых плоскостей в буфере накопления
+Получает или задает количество альфа-битовых плоскостей в накопительном буфере
 
 ```csharp
 public byte CAccumAlphaBits { get; set; }

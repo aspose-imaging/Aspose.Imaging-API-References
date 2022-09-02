@@ -1,14 +1,14 @@
 ---
 title: JpegOptions
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取用于创建或加载此JpegImageaspose.imaging.fileformats.jpeg/jpegimage实例的 JPEG 选项
+description: 获取用于创建或加载此文件的 JPEG 选项JpegImageaspose.imaging.fileformats.jpeg/jpegimage实例.
 type: docs
 weight: 130
 url: /zh/net/aspose.imaging.fileformats.jpeg/jpegimage/jpegoptions/
 ---
 ## JpegImage.JpegOptions property
 
-获取用于创建或加载此[`JpegImage`](../../jpegimage)实例的 JPEG 选项。
+获取用于创建或加载此文件的 JPEG 选项[`JpegImage`](../../jpegimage)实例.
 
 ```csharp
 public JpegOptions JpegOptions { get; }
@@ -49,13 +49,13 @@ using (Aspose.Imaging.FileFormats.Jpeg.JpegImage image = (Aspose.Imaging.FileFor
     }
 }
 
-    //输出看起来像这样：
-    //每个通道的位数：8
-    //所有内部缓冲区的最大允许大小：0
-    //颜色类型：YCbCr
-    //压缩类型：Baseline
-    //图像质量：75
-    //组件0的采样：1x1
+//输出看起来像这样：
+//每个通道的位数：8
+//所有内部缓冲区的最大允许大小：0
+//颜色类型：YCbCr
+//压缩类型：基线
+//图像质量：75
+//组件0的采样：1x1
 //组件1的采样：1x1
 //组件2的采样：1x1
 ```

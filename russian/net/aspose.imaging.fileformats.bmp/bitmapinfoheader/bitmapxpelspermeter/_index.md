@@ -1,14 +1,14 @@
 ---
 title: BitmapXPelsPerMeter
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает разрешение в пикселях по горизонтали.
+description: Получает или задает разрешение в пикселях по горизонтали.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.bmp/bitmapinfoheader/bitmapxpelspermeter/
 ---
 ## BitmapInfoHeader.BitmapXPelsPerMeter property
 
-Получает или устанавливает разрешение в пикселях по горизонтали.
+Получает или задает разрешение в пикселях по горизонтали.
 
 ```csharp
 public int BitmapXPelsPerMeter { get; set; }

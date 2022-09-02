@@ -18,14 +18,14 @@ public enum EmfSerifType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| PAN_ANY | `0` | Тип Any. |
+| PAN_ANY | `0` | Любой тип. |
 | PAN_NO_FIT | `1` | Неподходящий тип. |
 | PAN_SERIF_COVE | `2` | Тип бухты. |
-| PAN_SERIF_OBTUSE_COVE | `3` | Тип тупой бухты. |
-| PAN_SERIF_SQUARE_COVE | `4` | Тип тупой бухты. |
-| PAN_SERIF_OBTUSE_SQUARE_COVE | `5` | Тупой квадратный тип бухты. |
+| PAN_SERIF_OBTUSE_COVE | `3` | Тупой тип бухты. |
+| PAN_SERIF_SQUARE_COVE | `4` | Тупой тип бухты. |
+| PAN_SERIF_OBTUSE_SQUARE_COVE | `5` | Тип тупой квадратной бухты. |
 | PAN_SERIF_SQUARE | `6` | Квадратный тип. |
-| PAN_SERIF_THIN | `7` | Худой тип. |
+| PAN_SERIF_THIN | `7` | Тонкий тип. |
 | PAN_SERIF_BONE | `8` | Тип кости. |
 | PAN_SERIF_EXAGGERATED | `9` | Преувеличенный тип. |
 | PAN_SERIF_TRIANGLE | `10` | Тип треугольника. |

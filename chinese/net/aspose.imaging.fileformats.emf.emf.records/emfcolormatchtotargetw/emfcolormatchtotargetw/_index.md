@@ -1,14 +1,14 @@
 ---
 title: EmfColorMatchToTargetW
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfColorMatchToTargetWaspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw类的新实例
+description: 初始化EmfColorMatchToTargetWaspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/emfcolormatchtotargetw/
 ---
 ## EmfColorMatchToTargetW constructor
 
-初始化[`EmfColorMatchToTargetW`](../../emfcolormatchtotargetw)类的新实例。
+初始化[`EmfColorMatchToTargetW`](../../emfcolormatchtotargetw)类.
 
 ```csharp
 public EmfColorMatchToTargetW(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfColorMatchToTargetW(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 

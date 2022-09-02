@@ -21,7 +21,7 @@ public static IImageLoaderDescriptor GetFirstSupportedDescriptorByTypeName(
 
 ### 返回值
 
-第一个找到的加载程序描述符，如果没有找到这样的描述符，则返回 null。
+第一个找到的加载器描述符，如果没有找到这样的描述符，则返回 null。
 
 ### 评论
 

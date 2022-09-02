@@ -1,14 +1,14 @@
 ---
 title: Truncate
 second_title: Aspose.Imaging for .NET API 参考
-description: 将指定的SizeFaspose.imaging/sizef结构转换为Sizeaspose.imaging/size结构将SizeFaspose.imaging/sizef结构的值截断为下一个较低的整数值
+description: 转换指定的SizeFaspose.imaging/sizef结构为Sizeaspose.imaging/size通过截断的值的结构SizeFaspose.imaging/sizef结构到下一个较低的整数值
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging/size/truncate/
 ---
 ## Size.Truncate method
 
-将指定的[`SizeF`](../../sizef)结构转换为[`Size`](../../size)结构，将[`SizeF`](../../sizef)结构的值截断为下一个较低的整数值。
+转换指定的[`SizeF`](../../sizef)结构为[`Size`](../../size)通过截断的值的结构[`SizeF`](../../sizef)结构到下一个较低的整数值。
 
 ```csharp
 public static Size Truncate(SizeF size)
@@ -16,11 +16,11 @@ public static Size Truncate(SizeF size)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| size | SizeF | [`SizeF`](../../sizef)结构要转换。 |
+| size | SizeF | 这[`SizeF`](../../sizef)要转换的结构。 |
 
 ### 返回值
 
-[`Size`](../../size)此方法转换为的结构。
+这[`Size`](../../size)此方法转换为的结构。
 
 ### 也可以看看
 

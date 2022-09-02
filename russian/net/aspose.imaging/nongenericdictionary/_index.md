@@ -3,7 +3,7 @@ title: NonGenericDictionary
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет не универсальный словарь.
 type: docs
-weight: 10620
+weight: 10610
 url: /ru/net/aspose.imaging/nongenericdictionary/
 ---
 ## NonGenericDictionary class
@@ -18,31 +18,31 @@ public class NonGenericDictionary : IDictionary
 
 | Имя | Описание |
 | --- | --- |
-| [NonGenericDictionary](nongenericdictionary)(IDictionary) | Инициализирует новый экземпляр класса[`NonGenericDictionary`](../nongenericdictionary). |
+| [NonGenericDictionary](nongenericdictionary)(IDictionary) | Инициализирует новый экземпляр[`NonGenericDictionary`](../nongenericdictionary) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.imaging/nongenericdictionary/count) { get; } | Получает количество элементов, содержащихся в ICollection. |
-| [IsFixedSize](../../aspose.imaging/nongenericdictionary/isfixedsize) { get; } | Получает значение, указывающее, имеет ли объект IDictionaryфиксированный размер. |
-| [IsReadOnly](../../aspose.imaging/nongenericdictionary/isreadonly) { get; } | Получает значение, указывающее, доступен ли объект IDictionaryтолько для чтения. |
-| [IsSynchronized](../../aspose.imaging/nongenericdictionary/issynchronized) { get; } | Получает значение, указывающее, является ли доступ к ICollectionсинхронизированным (потокобезопасным). ). |
+| [Count](../../aspose.imaging/nongenericdictionary/count) { get; } | Получает количество элементов, содержащихся в ICollection . |
+| [IsFixedSize](../../aspose.imaging/nongenericdictionary/isfixedsize) { get; } | Получает значение, указывающее, является ли IDictionary объект имеет фиксированный размер. |
+| [IsReadOnly](../../aspose.imaging/nongenericdictionary/isreadonly) { get; } | Получает значение, указывающее, является ли IDictionary объект доступен только для чтения. |
+| [IsSynchronized](../../aspose.imaging/nongenericdictionary/issynchronized) { get; } | Получает значение, указывающее, будет ли доступ к ICollection синхронизирован (потокобезопасный). |
 | [Item](../../aspose.imaging/nongenericdictionary/item) { get; set; } | Получает или задает элемент с указанным ключом. |
-| [Keys](../../aspose.imaging/nongenericdictionary/keys) { get; } | Получает объект ICollection, содержащий ключи IDictionaryобъект. |
-| [SyncRoot](../../aspose.imaging/nongenericdictionary/syncroot) { get; } | Получает объект, который можно использовать для синхронизации доступа к ICollection. |
-| [Values](../../aspose.imaging/nongenericdictionary/values) { get; } | Получает объект ICollection, содержащий значения в IDictionaryобъект. |
+| [Keys](../../aspose.imaging/nongenericdictionary/keys) { get; } | Получает ICollection объект, содержащий ключи IDictionary объект. |
+| [SyncRoot](../../aspose.imaging/nongenericdictionary/syncroot) { get; } | Получает объект, который можно использовать для синхронизации доступа к ICollection . |
+| [Values](../../aspose.imaging/nongenericdictionary/values) { get; } | Получает ICollection объект, содержащий значения в IDictionary объект. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.imaging/nongenericdictionary/add)(object, object) | Добавляет элемент с предоставленным ключом и значением в объект IDictionary. |
-| [Clear](../../aspose.imaging/nongenericdictionary/clear)() | Удаляет все элементы из объекта IDictionary. |
-| [Contains](../../aspose.imaging/nongenericdictionary/contains)(object) | Определяет, содержит ли объект IDictionaryэлемент с указанным ключом. |
-| [CopyTo](../../aspose.imaging/nongenericdictionary/copyto)(Array, int) | Копирует элементы ICollectionв Array, начиная с определенного Arrayindex. |
+| [Add](../../aspose.imaging/nongenericdictionary/add)(object, object) | Добавляет элемент с предоставленным ключом и значением в IDictionary объект. |
+| [Clear](../../aspose.imaging/nongenericdictionary/clear)() | Удаляет все элементы из IDictionary объект. |
+| [Contains](../../aspose.imaging/nongenericdictionary/contains)(object) | Определяет, является ли IDictionary объект содержит элемент с указанным ключом. |
+| [CopyTo](../../aspose.imaging/nongenericdictionary/copyto)(Array, int) | Копирует элементы ICollection к Array , начиная с определенного Array индекс. |
 | [GetEnumerator](../../aspose.imaging/nongenericdictionary/getenumerator)() | Получает перечислитель. |
-| [Remove](../../aspose.imaging/nongenericdictionary/remove)(object) | Удаляет элемент с указанным ключом из объекта IDictionary. |
+| [Remove](../../aspose.imaging/nongenericdictionary/remove)(object) | Удаляет элемент с указанным ключом из IDictionary объект. |
 
 ### Смотрите также
 

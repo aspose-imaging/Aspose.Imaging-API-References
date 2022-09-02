@@ -1,14 +1,14 @@
 ---
 title: HasAlpha
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示此TgaImageaspose.imaging.fileformats.tga/tgaimage是否具有 alpha 通道
+description: 获取一个值该值指示这是否TgaImageaspose.imaging.fileformats.tga/tgaimage有一个 alpha 通道
 type: docs
 weight: 110
 url: /zh/net/aspose.imaging.fileformats.tga/tgaimage/hasalpha/
 ---
 ## TgaImage.HasAlpha property
 
-获取一个值，该值指示此[`TgaImage`](../../tgaimage)是否具有 alpha 通道。
+获取一个值，该值指示这是否[`TgaImage`](../../tgaimage)有一个 alpha 通道。
 
 ```csharp
 public override bool HasAlpha { get; }
@@ -16,7 +16,7 @@ public override bool HasAlpha { get; }
 
 ### 例子
 
-获取加载的 TGA 图像的公共属性值。
+获取加载的 TGA 图像的公共属性的值。
 
 ```csharp
 [C#]

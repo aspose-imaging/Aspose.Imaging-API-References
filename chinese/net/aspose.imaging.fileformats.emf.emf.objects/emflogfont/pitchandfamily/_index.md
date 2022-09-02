@@ -1,14 +1,14 @@
 ---
 title: PitchAndFamily
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 WMF PitchAndFamily 对象MS-WMF 第 2.2.2.14 节该对象 指定字体的间距和系列字体系列以一般 方式描述字体的外观它们用于在指定字体不可用时指定字体
+description: 获取或设置一个 WMF PitchAndFamily 对象MS-WMF 第 2.2.2.14 节 指定字体的间距和系列字体系列以一般 方式描述字体的外观它们用于在指定字体不可用时指定字体
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emflogfont/pitchandfamily/
 ---
 ## EmfLogFont.PitchAndFamily property
 
-获取或设置一个 WMF PitchAndFamily 对象（[MS-WMF] 第 2.2.2.14 节），该对象 指定字体的间距和系列。字体系列以一般 方式描述字体的外观。它们用于在指定字体不可用时指定字体。
+获取或设置一个 WMF PitchAndFamily 对象（[MS-WMF] 第 2.2.2.14 节）， 指定字体的间距和系列。字体系列以一般 方式描述字体的外观。它们用于在指定字体不可用时指定字体。
 
 ```csharp
 public WmfPitchAndFamily PitchAndFamily { get; set; }

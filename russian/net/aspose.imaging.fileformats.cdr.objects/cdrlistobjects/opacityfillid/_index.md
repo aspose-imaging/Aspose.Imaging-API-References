@@ -1,14 +1,14 @@
 ---
 title: OpacityFillId
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает идентификатор заполнения непрозрачности.
+description: Получает или задает идентификатор заливки непрозрачности.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrlistobjects/opacityfillid/
 ---
 ## CdrListObjects.OpacityFillId property
 
-Получает или задает идентификатор заполнения непрозрачности.
+Получает или задает идентификатор заливки непрозрачности.
 
 ```csharp
 public int OpacityFillId { get; set; }
@@ -16,7 +16,7 @@ public int OpacityFillId { get; set; }
 
 ### Стоимость имущества
 
-Идентификатор заполнения непрозрачности.
+Идентификатор заливки непрозрачности.
 
 ### Смотрите также
 

@@ -19,14 +19,14 @@ public enum ExifExposureProgram
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Notdefined | `0` | 未定义。 |
-| Manual | `1` | 手动程序。 |
+| Manual | `1` | 手动程序. |
 | Auto | `2` | 自动曝光。 |
 | Aperturepriority | `3` | 光圈优先。 |
 | Shutterpriority | `4` | 快门优先。 |
-| Creativeprogram | `5` | 创意程序。 |
+| Creativeprogram | `5` | 创意程序. |
 | Actionprogram | `6` | 行动计划。 |
 | Portraitmode | `7` | 纵向模式。 |
-| Landscapemode | `8` | 横向模式。 |
+| Landscapemode | `8` | 横向模式. |
 
 ### 也可以看看
 

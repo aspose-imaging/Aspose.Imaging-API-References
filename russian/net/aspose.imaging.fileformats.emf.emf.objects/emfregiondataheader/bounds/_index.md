@@ -1,14 +1,14 @@
 ---
 title: Bounds
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 128-битный объект RectL WMF MS-WMF раздел 2.2.2.19 который определяет границы область край.
+description: Получает или задает 128-битный объект RectL WMF MS-WMF раздел 2.2.2.19 который определяет границы области.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/bounds/
 ---
 ## EmfRegionDataHeader.Bounds property
 
-Получает или задает 128-битный объект RectL WMF ([MS-WMF], раздел 2.2.2.19), который определяет границы область, край.
+Получает или задает 128-битный объект RectL WMF ([MS-WMF], раздел 2.2.2.19), который определяет границы области.
 
 ```csharp
 public Rectangle Bounds { get; set; }

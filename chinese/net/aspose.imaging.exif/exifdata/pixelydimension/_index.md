@@ -16,7 +16,7 @@ public uint PixelYDimension { get; set; }
 
 ### 适当的价值
 
-像素 y 维度。
+像素y维度。
 
 ### 也可以看看
 

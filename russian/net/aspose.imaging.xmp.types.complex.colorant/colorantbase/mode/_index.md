@@ -1,14 +1,14 @@
 ---
 title: Mode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПолучаетColorModeaspose.imaging.xmp.types.complex.colorant/colormode.
+description: получаетColorModeaspose.imaging.xmp.types.complex.colorant/colormode .
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.xmp.types.complex.colorant/colorantbase/mode/
 ---
 ## ColorantBase.Mode property
 
-Получает[`ColorMode`](../../colormode).
+получает[`ColorMode`](../../colormode) .
 
 ```csharp
 public ColorMode Mode { get; }

@@ -1,14 +1,14 @@
 ---
 title: EmfCreateColorSpaceW
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfCreateColorSpaceWaspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew.
+description: Инициализирует новый экземплярEmfCreateColorSpaceWaspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/emfcreatecolorspacew/
 ---
 ## EmfCreateColorSpaceW constructor
 
-Инициализирует новый экземпляр класса[`EmfCreateColorSpaceW`](../../emfcreatecolorspacew).
+Инициализирует новый экземпляр[`EmfCreateColorSpaceW`](../../emfcreatecolorspacew) класс.
 
 ```csharp
 public EmfCreateColorSpaceW(EmfRecord source)

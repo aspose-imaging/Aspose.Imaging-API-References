@@ -1,14 +1,14 @@
 ---
 title: Figure
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Фигура. Контейнер для форм.
+description: Фигура. Контейнер для фигур.
 type: docs
 weight: 1290
 url: /ru/net/aspose.imaging/figure/
 ---
 ## Figure class
 
-Фигура. Контейнер для форм.
+Фигура. Контейнер для фигур.
 
 ```csharp
 public class Figure : ObjectWithBounds
@@ -25,66 +25,66 @@ public class Figure : ObjectWithBounds
 | Имя | Описание |
 | --- | --- |
 | override [Bounds](../../aspose.imaging/figure/bounds) { get; } | Получает или устанавливает границы объекта. |
-| [IsClosed](../../aspose.imaging/figure/isclosed) { get; set; } | Получает или задает значение, указывающее, закрыта ли эта фигура. Замкнутая фигура будет иметь значение только в том случае, если первая и последняя фигуры являются непрерывными фигурами. В таком случае первая точка первой фигуры будет соединена прямой линией с последней точкой последней фигуры. |
-| [Segments](../../aspose.imaging/figure/segments) { get; } | Получает целые сегменты фигуры. |
+| [IsClosed](../../aspose.imaging/figure/isclosed) { get; set; } | Получает или задает значение, указывающее, закрыта ли эта фигура. Замкнутая фигура будет иметь значение только в том случае, если формы первой и последней фигуры являются непрерывными фигурами. В этом случае первая точка первой фигуры будет соединена прямой линией с последней точкой последней фигуры. |
+| [Segments](../../aspose.imaging/figure/segments) { get; } | Получает все сегменты фигуры. |
 | [Shapes](../../aspose.imaging/figure/shapes) { get; } | Получает формы фигур. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [AddShape](../../aspose.imaging/figure/addshape)(Shape) | Добавляет фигуре форму. |
+| [AddShape](../../aspose.imaging/figure/addshape)(Shape) | Добавляет форму фигуре. |
 | [AddShapes](../../aspose.imaging/figure/addshapes)(Shape[]) | Добавляет к фигуре ряд фигур. |
 | override [GetBounds](../../aspose.imaging/figure/getbounds#getbounds)(Matrix) | Получает границы объекта. |
 | override [GetBounds](../../aspose.imaging/figure/getbounds#getbounds_1)(Matrix, Pen) | Получает границы объекта. |
-| [RemoveShape](../../aspose.imaging/figure/removeshape)(Shape) | Удаляет фигуру из фигуры. |
-| [RemoveShapes](../../aspose.imaging/figure/removeshapes)(Shape[]) | Удаляет диапазон фигур из фигуры. |
-| [Reverse](../../aspose.imaging/figure/reverse)() | Изменяет порядок фигур и порядок точек этой фигуры на противоположный. |
+| [RemoveShape](../../aspose.imaging/figure/removeshape)(Shape) | Удаляет фигуру с фигуры. |
+| [RemoveShapes](../../aspose.imaging/figure/removeshapes)(Shape[]) | Удаляет диапазон фигур с фигуры. |
+| [Reverse](../../aspose.imaging/figure/reverse)() | Меняет порядок форм этой фигуры и порядок точек фигуры. |
 | override [Transform](../../aspose.imaging/figure/transform)(Matrix) | Применяет указанное преобразование к фигуре. |
 
 ### Примеры
 
-В этом примере используются классы GraphicsPath и Graphics для создания фигур на поверхности изображения и управления ими. Пример создает новое изображение (типа Tiff), очищает поверхность и рисует пути с помощью класса GraphicsPath. В конце вызывается метод DrawPath, предоставляемый классом Graphics, для отображения путей на поверхности.
+В этих примерах используются GraphicsPath и класс Graphics для создания и управления рисунками на поверхности изображения. Пример создает новое изображение (типа Tiff), очищает поверхность и рисует пути с помощью класса GraphicsPath. В конце вызывается метод DrawPath, предоставляемый классом Graphics, для отображения путей на поверхности.
 
 ```csharp
 [C#]
 
- //Создаем экземпляр FileStream
+//Создаем экземпляр FileStream
 using (System.IO.FileStream stream = new System.IO.FileStream(@"C:\temp\output.tiff", System.IO.FileMode.Create))
 {
-     //Создаем экземпляр TiffOptions и устанавливаем его различные свойства
+    //Создаем экземпляр TiffOptions и устанавливаем его различные свойства
     Aspose.Imaging.ImageOptions.TiffOptions tiffOptions = new Aspose.Imaging.ImageOptions.TiffOptions(Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
 
-     //Устанавливаем источник для экземпляра ImageOptions
+    //Устанавливаем источник для экземпляра ImageOptions
     tiffOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream);
 
-     //Создаем экземпляр изображения 
+    //Создаем экземпляр изображения 
     using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(tiffOptions, 500, 500))
     {
-         //Создаем и инициализируем экземпляр Graphics class
+        //Создаем и инициализируем экземпляр класса Graphics
         Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
 
-         //Очистить графику surface
+        //Очистить графическую поверхность
         graphics.Clear(Color.Wheat);
 
-         //Создаем экземпляр GraphicsPath class
+        //Создаем экземпляр класса GraphicsPath
         Aspose.Imaging.GraphicsPath graphicspath = new Aspose.Imaging.GraphicsPath();
 
-        //Создаем экземпляр рисунка class
+        //Создаем экземпляр класса Figure
         Aspose.Imaging.Figure figure = new Aspose.Imaging.Figure();
 
-         //Добавление фигур к рисунку object
+        // Добавляем фигуры к объекту Figure
         figure.AddShape(new Aspose.Imaging.Shapes.RectangleShape(new Aspose.Imaging.RectangleF(10f, 10f, 300f, 300f)));
         figure.AddShape(new Aspose.Imaging.Shapes.EllipseShape(new Aspose.Imaging.RectangleF(50f, 50f, 300f, 300f)));
         figure.AddShape(new Aspose.Imaging.Shapes.PieShape(new Aspose.Imaging.RectangleF(new Aspose.Imaging.PointF(250f, 250f), new Aspose.Imaging.SizeF(200f, 200f)), 0f, 45f));
 
-         //Добавить объект Figure в GraphicsPath
+        //Добавить объект Figure в GraphicsPath
         graphicspath.AddFigure(figure);
 
-         //Нарисовать путь с помощью объекта Pen цвета Black
+        // Нарисовать путь с помощью объекта Pen черного цвета
         graphics.DrawPath(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Black, 2), graphicspath);
 
-         // сохранить все изменения.
+        // сохранить все изменения.
         image.Save();
     }
 }

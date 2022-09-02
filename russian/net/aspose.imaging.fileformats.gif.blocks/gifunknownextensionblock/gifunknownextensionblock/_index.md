@@ -1,14 +1,14 @@
 ---
 title: GifUnknownExtensionBlock
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаGifUnknownExtensionBlockaspose.imaging.fileformats.gif.blocks/gifunknownextensionblock.
+description: Инициализирует новый экземплярGifUnknownExtensionBlockaspose.imaging.fileformats.gif.blocks/gifunknownextensionblock класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/gifunknownextensionblock/
 ---
 ## GifUnknownExtensionBlock() {#constructor}
 
-Инициализирует новый экземпляр класса[`GifUnknownExtensionBlock`](../../gifunknownextensionblock).
+Инициализирует новый экземпляр[`GifUnknownExtensionBlock`](../../gifunknownextensionblock) класс.
 
 ```csharp
 public GifUnknownExtensionBlock()
@@ -24,7 +24,7 @@ public GifUnknownExtensionBlock()
 
 ## GifUnknownExtensionBlock(byte, byte[]) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`GifUnknownExtensionBlock`](../../gifunknownextensionblock).
+Инициализирует новый экземпляр[`GifUnknownExtensionBlock`](../../gifunknownextensionblock) класс.
 
 ```csharp
 public GifUnknownExtensionBlock(byte extensionLabel, byte[] data)
@@ -32,7 +32,7 @@ public GifUnknownExtensionBlock(byte extensionLabel, byte[] data)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| extensionLabel | Byte | Метка расширения. |
+| extensionLabel | Byte | Ярлык расширения. |
 | data | Byte[] | Данные блока. |
 
 ### Смотрите также

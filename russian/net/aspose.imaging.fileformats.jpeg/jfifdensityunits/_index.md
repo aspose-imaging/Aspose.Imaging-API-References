@@ -1,14 +1,14 @@
 ---
 title: JfifDensityUnits
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Единицы плотности jfif.
+description: j5f единиц плотности.
 type: docs
 weight: 6740
 url: /ru/net/aspose.imaging.fileformats.jpeg/jfifdensityunits/
 ---
 ## JfifDensityUnits enumeration
 
-Единицы плотности jfif.
+j5f единиц плотности.
 
 ```csharp
 public enum JfifDensityUnits : byte
@@ -18,9 +18,9 @@ public enum JfifDensityUnits : byte
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| NoUnits | `0` | Нет юнитов. |
+| NoUnits | `0` | Нет единиц. |
 | PixelsPerInch | `1` | Количество пикселей на дюйм. |
-| PixelsPerCm | `2` | Количество пикселей на см. |
+| PixelsPerCm | `2` | Пикселей на см. |
 
 ### Смотрите также
 

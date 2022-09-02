@@ -3,7 +3,7 @@ title: JpegLsPresetCodingParameters
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6790
+weight: 6800
 url: /net/aspose.imaging.fileformats.jpeg/jpeglspresetcodingparameters/
 ---
 ## JpegLsPresetCodingParameters class

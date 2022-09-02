@@ -1,14 +1,14 @@
 ---
 title: WmfSetPalentries
 second_title: Aspose.Imaging for .NET API 参考
-description: META_SETPALENTRIES 记录在回放设备47 中定义的逻辑调色板中定义 条目范围内的 RGB 颜色值语境
+description: META_SETPALENTRIES 记录在播放设备 context 中定义的逻辑调色板中定义 条目范围内的RGB 颜色值
 type: docs
 weight: 9100
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfsetpalentries/
 ---
 ## WmfSetPalentries class
 
-META_SETPALENTRIES 记录在回放设备:::47 中定义的逻辑调色板中定义 条目范围内的 RGB 颜色值:::语境。
+META_SETPALENTRIES 记录在播放设备 context 中定义的逻辑调色板中定义 条目范围内的RGB 颜色值。
 
 ```csharp
 public class WmfSetPalentries : WmfObject

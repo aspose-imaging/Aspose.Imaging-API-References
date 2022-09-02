@@ -1,14 +1,14 @@
 ---
 title: OdImageObject
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化OdImageObjectaspose.imaging.fileformats.opendocument.objects.graphic/odimageobject类的新实例
+description: 初始化OdImageObjectaspose.imaging.fileformats.opendocument.objects.graphic/odimageobject类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odimageobject/odimageobject/
 ---
 ## OdImageObject constructor
 
-初始化[`OdImageObject`](../../odimageobject)类的新实例。
+初始化[`OdImageObject`](../../odimageobject)类.
 
 ```csharp
 public OdImageObject(OdObject parent)
@@ -16,7 +16,7 @@ public OdImageObject(OdObject parent)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | OdObject | 父级。 |
+| parent | OdObject | 家长。 |
 
 ### 也可以看看
 

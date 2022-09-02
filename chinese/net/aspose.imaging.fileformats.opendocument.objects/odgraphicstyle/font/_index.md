@@ -16,7 +16,7 @@ public OdFont Font { get; }
 
 ### 适当的价值
 
-字体。
+字体.
 
 ### 也可以看看
 

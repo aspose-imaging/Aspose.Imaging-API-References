@@ -1,14 +1,14 @@
 ---
 title: CharExtra
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置额外字符
+description: 获取或设置字符 extra.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfsettextcharextra/charextra/
 ---
 ## WmfSetTextCharExtra.CharExtra property
 
-获取或设置额外字符。
+获取或设置字符 extra.
 
 ```csharp
 public int CharExtra { get; set; }
@@ -16,7 +16,7 @@ public int CharExtra { get; set; }
 
 ### 适当的价值
 
-要添加到每个:::47 的额外空间量（以逻辑单位表示）:::特点。如果当前映射模式不是 MM_TEXT，则该值是 转换并四舍五入到最近的像素。关于 设置映射模式的详细信息，请参见 META_SETMAPMODE（第 2.3.5.17 节）。
+要添加到每个 字符的额外空间量（以逻辑单位表示）。如果当前映射模式不是MM_TEXT，这个值是 变换并四舍五入到最近的像素。有关 设置映射模式的详细信息，请参见META_SETMAPMODE（2.3.5.17节）。
 
 ### 也可以看看
 

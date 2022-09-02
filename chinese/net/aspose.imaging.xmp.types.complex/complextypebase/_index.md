@@ -3,7 +3,7 @@ title: ComplexTypeBase
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示 XMP 复杂值类型的基本抽象
 type: docs
-weight: 11570
+weight: 11560
 url: /zh/net/aspose.imaging.xmp.types.complex/complextypebase/
 ---
 ## ComplexTypeBase class
@@ -18,7 +18,7 @@ public class ComplexTypeBase : XmpTypeBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ComplexTypeBase](complextypebase)(string, string) | 初始化[`ComplexTypeBase`](../complextypebase)类的新实例。 |
+| [ComplexTypeBase](complextypebase)(string, string) | 初始化[`ComplexTypeBase`](../complextypebase)类. |
 
 ## 特性
 
@@ -35,7 +35,7 @@ public class ComplexTypeBase : XmpTypeBase
 
 ### 评论
 
-查看更多:XMP 规范第 2 部分，第 1.2.2 章
+查看更多：XMP 规范第 2 部分，第 1.2.2 章
 
 ### 也可以看看
 

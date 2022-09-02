@@ -18,22 +18,22 @@ public enum EmfSerifStyle : byte
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| PAN_ANY | `0` | 任何风格。 |
-| PAN_NO_FIT | `1` | 不合身风格。 |
-| PAN_SERIF_COVE | `2` | 海湾风格。 |
+| PAN_ANY | `0` | 任何风格. |
+| PAN_NO_FIT | `1` | 不合身的风格。 |
+| PAN_SERIF_COVE | `2` | 海湾风格. |
 | PAN_SERIF_OBTUSE_COVE | `3` | 钝湾风格。 |
 | PAN_SERIF_SQUARE_COVE | `4` | 方形海湾风格。 |
 | PAN_SERIF_OBTUSE_SQUARE_COVE | `5` | 钝角方形海湾风格。 |
-| PAN_SERIF_SQUARE | `6` | 方形风格。 |
-| PAN_SERIF_THIN | `7` | 瘦风格。 |
-| PAN_SERIF_BONE | `8` | 骨骼样式。 |
-| PAN_SERIF_EXAGGERATED | `9` | 夸张风格。 |
-| PAN_SERIF_TRIANGLE | `10` | 三角形样式。 |
+| PAN_SERIF_SQUARE | `6` | 方形样式. |
+| PAN_SERIF_THIN | `7` | 薄款. |
+| PAN_SERIF_BONE | `8` | 骨骼样式. |
+| PAN_SERIF_EXAGGERATED | `9` | 夸张的风格. |
+| PAN_SERIF_TRIANGLE | `10` | 三角形样式. |
 | PAN_SERIF_NORMAL_SANS | `11` | 普通无风格。 |
-| PAN_SERIF_OBTUSE_SANS | `12` | 钝角无风格。 |
-| PAN_SERIF_PERP_SANS | `13` | Perp sans Style。 |
-| PAN_SERIF_FLARED | `14` | 喇叭风格。 |
-| PAN_SERIF_ROUNDED | `15` | 圆角样式。 |
+| PAN_SERIF_OBTUSE_SANS | `12` | 无风格的钝角. |
+| PAN_SERIF_PERP_SANS | `13` | Perp sans Style. |
+| PAN_SERIF_FLARED | `14` | 喇叭型. |
+| PAN_SERIF_ROUNDED | `15` | 圆角样式. |
 
 ### 也可以看看
 

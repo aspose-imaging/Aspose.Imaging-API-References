@@ -1,14 +1,14 @@
 ---
 title: DisposalMethod
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置处理方法
+description: 获取或设置处置方法
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/disposalmethod/
 ---
 ## GifGraphicsControlBlock.DisposalMethod property
 
-获取或设置处理方法。
+获取或设置处置方法。
 
 ```csharp
 public DisposalMethod DisposalMethod { get; set; }
@@ -16,7 +16,7 @@ public DisposalMethod DisposalMethod { get; set; }
 
 ### 适当的价值
 
-处理方法。
+处理方法.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: EmfBlendFunction
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfBlendFunctionaspose.imaging.fileformats.emf.emf.records/emfblendfunction类的新实例
+description: 初始化EmfBlendFunctionaspose.imaging.fileformats.emf.emf.records/emfblendfunction类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfblendfunction/emfblendfunction/
 ---
 ## EmfBlendFunction constructor
 
-初始化[`EmfBlendFunction`](../../emfblendfunction)类的新实例。
+初始化[`EmfBlendFunction`](../../emfblendfunction)类.
 
 ```csharp
 public EmfBlendFunction(int dwordData)

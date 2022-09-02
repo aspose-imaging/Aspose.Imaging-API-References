@@ -16,7 +16,7 @@ public bool HasTrailer { get; set; }
 
 ### 适当的价值
 
-` true` 如果 GIF 有预告片；否则，` false` 。
+`真的`如果 GIF 有预告片；否则，`错误的` .
 
 ### 也可以看看
 

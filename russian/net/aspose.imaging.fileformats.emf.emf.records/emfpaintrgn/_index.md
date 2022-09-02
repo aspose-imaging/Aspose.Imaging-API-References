@@ -18,17 +18,17 @@ public sealed class EmfPaintRgn : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPaintRgn](emfpaintrgn#constructor)() | Инициализирует новый экземпляр класса[`EmfPaintRgn`](../emfpaintrgn). |
-| [EmfPaintRgn](emfpaintrgn#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfPaintRgn`](../emfpaintrgn). |
+| [EmfPaintRgn](emfpaintrgn#constructor)() | Инициализирует новый экземпляр[`EmfPaintRgn`](../emfpaintrgn) класс. |
+| [EmfPaintRgn](emfpaintrgn#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfPaintRgn`](../emfpaintrgn) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе [MS-WMF] 2.2.2.19, который указывает ограничивающий прямоугольник . |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе 2.2.2.19 [MS-WMF], , который указывает ограничивающий прямоугольник. |
 | [RgnData](../../aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/rgndata) { get; set; } | Получает или задает массив байтов длины RgnDataSize, указывающий объект RegionData (раздел 2.2.24) в логических единицах. |
 | [RgnDataSize](../../aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/rgndatasize) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее размер данных региона в байтах. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

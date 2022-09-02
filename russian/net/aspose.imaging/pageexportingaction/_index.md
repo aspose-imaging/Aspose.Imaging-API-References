@@ -3,7 +3,7 @@ title: PageExportingAction
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Делегат для запуска перед экспортом страницы
 type: docs
-weight: 10660
+weight: 10650
 url: /ru/net/aspose.imaging/pageexportingaction/
 ---
 ## PageExportingAction delegate
@@ -16,7 +16,7 @@ public delegate void PageExportingAction(int pageIndex, Image page);
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pageIndex | Int32 | Индекс страница. |
+| pageIndex | Int32 | Индекс страницы. |
 | page | Image | Страница многостраничного изображения. |
 
 ### Смотрите также

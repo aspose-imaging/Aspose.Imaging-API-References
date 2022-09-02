@@ -1,14 +1,14 @@
 ---
 title: CbData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数它指定数据字段的大小以字节为单位 如果该值为零则没有数据附加到该记录
+description: 获取或设置一个 32 位无符号整数它指定数据字段的大小以字节为单位 如果此值为零则没有数据附加到此记录
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord/cbdata/
 ---
 ## EmfGlsBoundedRecord.CbData property
 
-获取或设置一个 32 位无符号整数，它指定数据字段的大小（以字节为单位）。 如果该值为零，则没有数据附加到该记录。
+获取或设置一个 32 位无符号整数，它指定数据字段的大小（以字节为单位）。 如果此值为零，则没有数据附加到此记录。
 
 ```csharp
 public int CbData { get; set; }

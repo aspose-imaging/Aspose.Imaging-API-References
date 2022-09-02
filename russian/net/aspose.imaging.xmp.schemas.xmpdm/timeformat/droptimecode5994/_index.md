@@ -1,14 +1,14 @@
 ---
 title: DropTimecode5994
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает временной код отбрасывания5994.
+description: Получает временной код сброса 5994.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.xmp.schemas.xmpdm/timeformat/droptimecode5994/
 ---
 ## TimeFormat.DropTimecode5994 property
 
-Получает временной код отбрасывания5994.
+Получает временной код сброса 5994.
 
 ```csharp
 public static TimeFormat DropTimecode5994 { get; }

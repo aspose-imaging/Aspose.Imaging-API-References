@@ -1,14 +1,14 @@
 ---
 title: EmfGlsBoundedRecord
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_GLSBOUNDEDRECORD 记录指定了一个带有边界矩形的 OpenGL 函数用于输出
+description: EMR_GLSBOUNDEDRECORD 记录指定了一个带有用于输出的边界矩形的 OpenGL 函数
 type: docs
 weight: 3740
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord/
 ---
 ## EmfGlsBoundedRecord class
 
-EMR_GLSBOUNDEDRECORD 记录指定了一个带有边界矩形的 OpenGL 函数用于输出。
+EMR_GLSBOUNDEDRECORD 记录指定了一个带有用于输出的边界矩形的 OpenGL 函数。
 
 ```csharp
 public sealed class EmfGlsBoundedRecord : EmfOpenGlRecordType
@@ -18,15 +18,15 @@ public sealed class EmfGlsBoundedRecord : EmfOpenGlRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfGlsBoundedRecord](emfglsboundedrecord)(EmfRecord) | 初始化[`EmfGlsBoundedRecord`](../emfglsboundedrecord)类的新实例。 |
+| [EmfGlsBoundedRecord](emfglsboundedrecord)(EmfRecord) | 初始化[`EmfGlsBoundedRecord`](../emfglsboundedrecord)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord/bounds) { get; set; } | 获取或设置定义边界 矩形的 WMF RectL 对象（[MS-WMF] 2.2.2.19 节），以设备为单位，用于执行 OpenGL 函数产生的输出。 |
-| [CbData](../../aspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord/cbdata) { get; set; } | 获取或设置一个 32 位无符号整数，它指定数据字段的大小（以字节为单位）。 如果该值为零，则没有数据附加到该记录。 |
-| [Data](../../aspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord/data) { get; set; } | 获取或设置一个可选的 cbData 字节数组，用于指定 OpenGL 函数的数据。 |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord/bounds) { get; set; } | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象定义了一个 bounding 矩形，以设备为单位，用于执行 OpenGL 函数产生的输出。 |
+| [CbData](../../aspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord/cbdata) { get; set; } | 获取或设置一个 32 位无符号整数，它指定数据字段的大小（以字节为单位）。 如果此值为零，则没有数据附加到此记录。 |
+| [Data](../../aspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord/data) { get; set; } | 获取或设置一个可选的 cbData 长度字节数组，用于指定 OpenGL 函数的数据。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

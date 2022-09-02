@@ -3,14 +3,14 @@ title: Metered
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Предоставляет методы для установки измеренного ключа.
 type: docs
-weight: 10590
+weight: 10580
 url: /ru/net/aspose.imaging/metered/
 ---
 ## Metered class
 
 Предоставляет методы для установки измеренного ключа.
 
-Обеспечивает дозированные методы для интеграции
+Предоставляет измеряемые методы для интеграции
 
 ```csharp
 public class Metered
@@ -26,14 +26,14 @@ public class Metered
 
 | Имя | Описание |
 | --- | --- |
-| override [Equals](../../aspose.imaging/metered/equals)(object) | Определяет, равен ли указанныйObjectэтому экземпляру. |
-| [SetMeteredKey](../../aspose.imaging/metered/setmeteredkey)(string, string) | Устанавливает измеренный открытый и закрытый ключ |
-| static [GetConsumptionCredit](../../aspose.imaging/metered/getconsumptioncredit)() | Получает кредит потребления |
+| override [Equals](../../aspose.imaging/metered/equals)(object) | Определяет, является ли указанныйObject , равно этому экземпляру. |
+| [SetMeteredKey](../../aspose.imaging/metered/setmeteredkey)(string, string) | Устанавливает лимитированный открытый и закрытый ключ |
+| static [GetConsumptionCredit](../../aspose.imaging/metered/getconsumptioncredit)() | Получает потребительский кредит |
 | static [GetConsumptionQuantity](../../aspose.imaging/metered/getconsumptionquantity)() | Получает размер файла потребления |
 
 ### Примеры
 
-В этом примере будет предпринята попытка установить дозированные открытый и закрытый ключ
+В этом примере будет предпринята попытка установить лимитированный открытый и закрытый ключ
 
 ```csharp
 [C#]

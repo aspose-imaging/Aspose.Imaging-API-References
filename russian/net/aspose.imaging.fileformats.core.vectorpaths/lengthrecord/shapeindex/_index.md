@@ -1,14 +1,14 @@
 ---
 title: ShapeIndex
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает индекс текущей формы пути в слое.
+description: Получает или задает индекс формы текущего пути в слое.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.fileformats.core.vectorpaths/lengthrecord/shapeindex/
 ---
 ## LengthRecord.ShapeIndex property
 
-Получает или задает индекс текущей формы пути в слое.
+Получает или задает индекс формы текущего пути в слое.
 
 ```csharp
 public ushort ShapeIndex { get; set; }

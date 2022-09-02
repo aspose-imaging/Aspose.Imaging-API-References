@@ -16,7 +16,7 @@ public void RotateTransform(float angle)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| angle | Single | 旋转角度，以度为单位。 |
+| angle | Single | 以度为单位的旋转角度。 |
 
 ### 也可以看看
 
@@ -36,7 +36,7 @@ public void RotateTransform(float angle, PointF center, MatrixOrder order)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| angle | Single | 旋转角度，以度为单位。 |
+| angle | Single | 以度为单位的旋转角度。 |
 | center | PointF | 旋转中心。 |
 | order | MatrixOrder | 指定旋转是附加还是附加到矩阵变换。 |
 

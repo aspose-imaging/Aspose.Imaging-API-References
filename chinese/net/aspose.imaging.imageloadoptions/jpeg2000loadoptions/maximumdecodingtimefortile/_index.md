@@ -1,14 +1,14 @@
 ---
 title: MaximumDecodingTimeForTile
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置图块的最大解码时间
+description: 获取或设置tile的最大解码时间
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.imageloadoptions/jpeg2000loadoptions/maximumdecodingtimefortile/
 ---
 ## Jpeg2000LoadOptions.MaximumDecodingTimeForTile property
 
-获取或设置图块的最大解码时间。
+获取或设置tile的最大解码时间。
 
 ```csharp
 public int MaximumDecodingTimeForTile { get; set; }
@@ -16,7 +16,7 @@ public int MaximumDecodingTimeForTile { get; set; }
 
 ### 适当的价值
 
-瓦片的最大解码时间。
+tile 的最大解码时间。
 
 ### 也可以看看
 

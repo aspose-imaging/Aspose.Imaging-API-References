@@ -18,8 +18,8 @@ public sealed class EmfSetWorldTransform : EmfTransformRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSetWorldTransform](emfsetworldtransform#constructor)() | 初始化[`EmfSetWorldTransform`](../emfsetworldtransform)类的新实例。 |
-| [EmfSetWorldTransform](emfsetworldtransform#constructor_1)(EmfRecord) | 初始化[`EmfSetWorldTransform`](../emfsetworldtransform)类的新实例。 |
+| [EmfSetWorldTransform](emfsetworldtransform#constructor)() | 初始化[`EmfSetWorldTransform`](../emfsetworldtransform)类. |
+| [EmfSetWorldTransform](emfsetworldtransform#constructor_1)(EmfRecord) | 初始化[`EmfSetWorldTransform`](../emfsetworldtransform)类. |
 
 ## 特性
 
@@ -27,11 +27,11 @@ public sealed class EmfSetWorldTransform : EmfTransformRecordType
 | --- | --- |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
-| [Xform](../../aspose.imaging.fileformats.emf.emf.records/emftransformrecordtype/xform) { get; set; } | 获取或设置一个 XForm 对象（第 2.2.28 节），它定义了世界空间到页面空间的转换。 |
+| [Xform](../../aspose.imaging.fileformats.emf.emf.records/emftransformrecordtype/xform) { get; set; } | 获取或设置一个 XForm 对象（第 2.2.28 节），它定义了一个世界空间到页面空间的转换。 |
 
 ### 评论
 
-有关变换和坐标空间的更多信息，请参阅 [MSDN-WRLDPGSPC]。有关其他转换记录类型的规范，请参见 2.3.12 节。
+有关变换和坐标空间的更多信息，请参阅 [MSDN-WRLDPGSPC]。其他转换记录类型的规范见 第2.3.12节。
 
 ### 也可以看看
 

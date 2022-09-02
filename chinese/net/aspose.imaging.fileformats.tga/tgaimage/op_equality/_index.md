@@ -1,14 +1,14 @@
 ---
 title: op_Equality
 second_title: Aspose.Imaging for .NET API 参考
-description: 相等比较
+description: 平等比较
 type: docs
 weight: 370
 url: /zh/net/aspose.imaging.fileformats.tga/tgaimage/op_equality/
 ---
 ## TgaImage Equality operator
 
-相等比较。
+平等比较。
 
 ```csharp
 public static bool operator ==(TgaImage first, TgaImage second)
@@ -16,8 +16,8 @@ public static bool operator ==(TgaImage first, TgaImage second)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| first | TgaImage | First[`TgaImage`](../../tgaimage)参与比较. |
-| second | TgaImage | Second[`TgaImage`](../../tgaimage)参与比较。 |
+| first | TgaImage | 第一的[`TgaImage`](../../tgaimage)参与比较。 |
+| second | TgaImage | 第二[`TgaImage`](../../tgaimage)参与比较。 |
 
 ### 返回值
 

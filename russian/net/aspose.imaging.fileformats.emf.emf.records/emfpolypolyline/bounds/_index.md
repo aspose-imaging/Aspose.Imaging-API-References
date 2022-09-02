@@ -1,14 +1,14 @@
 ---
 title: Bounds
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 128-битный объект WMF RectL MS-WMF раздел 2.2.2.19 который указывает ограничивающий прямоугольник в устройстве единицы.
+description: Получает или задает 128-битный объект RectL WMF MS-WMF раздел 2.2.2.19 который указывает ограничивающий прямоугольник в единицах измерения устройства.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpolypolyline/bounds/
 ---
 ## EmfPolyPolyline.Bounds property
 
-Получает или задает 128-битный объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который указывает ограничивающий прямоугольник в устройстве единицы.
+Получает или задает 128-битный объект RectL WMF ([MS-WMF], раздел 2.2.2.19), который указывает ограничивающий прямоугольник в единицах измерения устройства.
 
 ```csharp
 public Rectangle Bounds { get; set; }

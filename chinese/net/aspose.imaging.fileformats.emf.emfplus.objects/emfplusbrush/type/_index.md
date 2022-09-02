@@ -16,7 +16,7 @@ public EmfPlusBrushType Type { get; set; }
 
 ### 适当的价值
 
-指定画笔类型的 32 位无符号整数 它决定了 BrushData 字段的内容。 这个值必须在[`EmfPlusBrushType`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushtype)枚举中定义。
+一个 32 位无符号整数，指定画笔的类型， 确定 BrushData 字段的内容。 这个值必须在[`EmfPlusBrushType`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushtype)枚举.
 
 ### 也可以看看
 

@@ -31,10 +31,10 @@ string dir = "c:\\temp\\";
 
 using (Aspose.Imaging.FileFormats.Webp.WebPImage image = (Aspose.Imaging.FileFormats.Webp.WebPImage)Aspose.Imaging.Image.Load(dir + "sample.webp"))
 {
-     // Масштабирование в 2 раза с использованием передискретизации ближайших соседей.
+    // Масштабирование в 2 раза с использованием передискретизации ближайших соседей.
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
 
-     // Сохранить в PNG с параметрами по умолчанию.
+    // Сохранить в PNG с параметрами по умолчанию.
     image.Save(dir + "upsample.nearestneighbour.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
@@ -43,25 +43,25 @@ using (Aspose.Imaging.FileFormats.Webp.WebPImage image = (Aspose.Imaging.FileFor
     // Масштабирование в 2 раза с использованием передискретизации ближайших соседей.
     image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
 
-     // Сохранить в PNG с параметрами по умолчанию.
+    // Сохранить в PNG с параметрами по умолчанию.
     image.Save(dir + "downsample.nearestneighbour.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
 using (Aspose.Imaging.FileFormats.Webp.WebPImage image = (Aspose.Imaging.FileFormats.Webp.WebPImage)Aspose.Imaging.Image.Load(dir + "sample.webp"))
 {
-     // Увеличение в 2 раза с использованием билинейной передискретизации.
+    // Масштабируем в 2 раза, используя билинейную передискретизацию.
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.BilinearResample);
 
-     // Сохранить в PNG с параметрами по умолчанию.
+    // Сохранить в PNG с параметрами по умолчанию.
     image.Save(dir + "upsample.bilinear.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 
 using (Aspose.Imaging.FileFormats.Webp.WebPImage image = (Aspose.Imaging.FileFormats.Webp.WebPImage)Aspose.Imaging.Image.Load(dir + "sample.webp"))
 {
-     // Уменьшить масштаб в 2 раза, используя билинейную передискретизацию.
+    // Уменьшить масштаб в 2 раза, используя билинейную передискретизацию.
     image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.BilinearResample);
 
-     // Сохранить в PNG с параметрами по умолчанию.
+    // Сохранить в PNG с параметрами по умолчанию.
     image.Save(dir + "downsample.bilinear.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```

@@ -1,14 +1,14 @@
 ---
 title: A
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение альфа-компонента этойColoraspose.imaging/colorструктуры.
+description: Получает значение альфа-компонента этогоColoraspose.imaging/color структура.
 type: docs
 weight: 1460
 url: /ru/net/aspose.imaging/color/a/
 ---
 ## Color.A property
 
-Получает значение альфа-компонента этой[`Color`](../../color)структуры.
+Получает значение альфа-компонента этого[`Color`](../../color) структура.
 
 ```csharp
 public byte A { get; }

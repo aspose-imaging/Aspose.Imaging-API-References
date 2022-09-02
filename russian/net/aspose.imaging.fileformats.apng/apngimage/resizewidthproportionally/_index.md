@@ -1,14 +1,14 @@
 ---
 title: ResizeWidthProportionally
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пропорционально изменяет ширину.
+description: Изменяет ширину пропорционально.
 type: docs
 weight: 320
 url: /ru/net/aspose.imaging.fileformats.apng/apngimage/resizewidthproportionally/
 ---
 ## ApngImage.ResizeWidthProportionally method
 
-Пропорционально изменяет ширину.
+Изменяет ширину пропорционально.
 
 ```csharp
 public override void ResizeWidthProportionally(int newWidth, ResizeType resizeType)

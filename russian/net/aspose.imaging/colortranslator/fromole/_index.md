@@ -16,7 +16,7 @@ public static Color FromOle(int oleColor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| oleColor | Int32 | Цвет OLE. |
+| oleColor | Int32 | ОЛЕ цвет. |
 
 ### Возвращаемое значение
 

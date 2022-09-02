@@ -16,7 +16,7 @@ public int Width { get; set; }
 
 ### 适当的价值
 
-宽度。
+宽度.
 
 ### 也可以看看
 

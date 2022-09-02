@@ -1,14 +1,14 @@
 ---
 title: DrawRectangles
 second_title: Aspose.Imaging for .NET API 参考
-description: 绘制一系列由RectangleFaspose.imaging/rectanglef结构指定的矩形
+description: 绘制一系列由指定的矩形RectangleFaspose.imaging/rectanglef结构.
 type: docs
 weight: 310
 url: /zh/net/aspose.imaging/graphics/drawrectangles/
 ---
 ## DrawRectangles(Pen, RectangleF[]) {#drawrectangles}
 
-绘制一系列由[`RectangleF`](../../rectanglef)结构指定的矩形。
+绘制一系列由指定的矩形[`RectangleF`](../../rectanglef)结构.
 
 ```csharp
 public void DrawRectangles(Pen pen, RectangleF[] rects)
@@ -16,14 +16,14 @@ public void DrawRectangles(Pen pen, RectangleF[] rects)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen)确定颜色、宽度和样式矩形的轮廓。 |
-| rects | RectangleF[] | [`RectangleF`](../../rectanglef)结构的数组，表示要绘制的矩形。 |
+| pen | Pen | [`Pen`](../../pen)它决定了矩形轮廓的颜色、宽度和样式。 |
+| rects | RectangleF[] | 数组[`RectangleF`](../../rectanglef)表示要绘制的矩形的结构。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *pen*为空。 -或- *rects*为空。 |
+| ArgumentNullException | *pen*为空。 -或- *rects*一片空白。 |
 
 ### 也可以看看
 
@@ -37,7 +37,7 @@ public void DrawRectangles(Pen pen, RectangleF[] rects)
 
 ## DrawRectangles(Pen, Rectangle[]) {#drawrectangles_1}
 
-绘制一系列由[`Rectangle`](../../rectangle)结构指定的矩形。
+绘制一系列由指定的矩形[`Rectangle`](../../rectangle)结构.
 
 ```csharp
 public void DrawRectangles(Pen pen, Rectangle[] rects)
@@ -45,14 +45,14 @@ public void DrawRectangles(Pen pen, Rectangle[] rects)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen)确定颜色、宽度和样式矩形的轮廓。 |
-| rects | Rectangle[] | [`Rectangle`](../../rectangle)表示要绘制的矩形的结构的数组。 |
+| pen | Pen | [`Pen`](../../pen)它决定了矩形轮廓的颜色、宽度和样式。 |
+| rects | Rectangle[] | 数组[`Rectangle`](../../rectangle)表示要绘制的矩形的结构。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | *pen*为空。 -或- *rects*为空。 |
+| ArgumentNullException | *pen*为空。 -或- *rects*一片空白。 |
 
 ### 例子
 
@@ -61,42 +61,36 @@ public void DrawRectangles(Pen pen, Rectangle[] rects)
 ```csharp
 [C#]
 
-    //创建一个BmpOptions的实例并设置它的各种属性
+//创建一个BmpOptions的实例并设置它的各种属性
 Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 bmpOptions.BitsPerPixel = 24;
 
-    //创建一个FileCreateSource的实例并将其分配为BmpOptions
-实例的Source
-    //第二个布尔参数决定要创建的文件是IsTemporal还是not
+//创建一个 FileCreateSource 的实例并将其分配为 BmpOptions 实例的 Source
+//第二个布尔参数确定要创建的文件是否为IsTemporal
 bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"C:\temp\sample.bmp", false);
 
-    //在指定的Path
-处创建一个Image实例
+//在指定路径创建一个Image实例
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
 {
-    //创建一个Graphics实例，并用Image object
-初始化
+    //创建一个Graphics实例并用Image对象初始化
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
 
     //用白色清除图形表面
     graphics.Clear(Aspose.Imaging.Color.White);
 
-        //创建一个Pen实例，颜色为红色，宽度为5
+    //创建一个Pen实例，颜色为红色，宽度为5
     Aspose.Imaging.Pen pen = new Aspose.Imaging.Pen(Aspose.Imaging.Color.Red, 5f);
 
-        //创建一个HatchBrush实例并设置它的properties
+    //创建一个HatchBrush实例并设置它的属性
     Aspose.Imaging.Brushes.HatchBrush brush = new Aspose.Imaging.Brushes.HatchBrush();
     brush.BackgroundColor = Aspose.Imaging.Color.Wheat;
     brush.ForegroundColor = Aspose.Imaging.Color.Red;
 
-        //创建一个Pen
-的实例
-    //用 HatchBrush 对象和 width
- 初始化它
+    //创建一个Pen实例
+    //用 HatchBrush 对象和宽度初始化它
     Aspose.Imaging.Pen brusedpen = new Pen(brush, 5);
 
-    //通过指定Pen对象
-绘制矩形
+    //通过指定Pen对象绘制矩形
     graphics.DrawRectangles(pen, new[]
     {
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(210, 210), new Aspose.Imaging.Size(100, 100)),
@@ -104,8 +98,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500,
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(310, 310), new Aspose.Imaging.Size(100, 100))
     });
 
-    //通过指定Pen对象
-绘制矩形
+    //通过指定Pen对象绘制矩形
     graphics.DrawRectangles(brusedpen, new[]
     {
         new Aspose.Imaging.Rectangle(new Aspose.Imaging.Point(310, 110), new Aspose.Imaging.Size(100, 100)),

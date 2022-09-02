@@ -16,7 +16,7 @@ public OdBrush Brush { get; set; }
 
 ### 适当的价值
 
-画笔。
+刷子.
 
 ### 也可以看看
 

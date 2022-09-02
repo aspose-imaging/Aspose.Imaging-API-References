@@ -1,14 +1,14 @@
 ---
 title: XmpBasicPackage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаXmpBasicPackageaspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage.
+description: Инициализирует новый экземплярXmpBasicPackageaspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/xmpbasicpackage/
 ---
 ## XmpBasicPackage() {#constructor}
 
-Инициализирует новый экземпляр класса[`XmpBasicPackage`](../../xmpbasicpackage).
+Инициализирует новый экземпляр[`XmpBasicPackage`](../../xmpbasicpackage) класс.
 
 ```csharp
 public XmpBasicPackage()
@@ -24,7 +24,7 @@ public XmpBasicPackage()
 
 ## XmpBasicPackage(string, string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`XmpBasicPackage`](../../xmpbasicpackage).
+Инициализирует новый экземпляр[`XmpBasicPackage`](../../xmpbasicpackage) класс.
 
 ```csharp
 public XmpBasicPackage(string prefix, string namespaceUri)

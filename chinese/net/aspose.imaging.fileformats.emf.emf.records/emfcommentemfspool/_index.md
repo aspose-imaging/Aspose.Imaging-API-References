@@ -18,17 +18,17 @@ public sealed class EmfCommentEmfSpool : EmfCommentRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfCommentEmfSpool](emfcommentemfspool#constructor)() | 初始化[`EmfCommentEmfSpool`](../emfcommentemfspool)类的新实例。 |
-| [EmfCommentEmfSpool](emfcommentemfspool#constructor_1)(EmfRecord) | 初始化[`EmfCommentEmfSpool`](../emfcommentemfspool)类的新实例。 |
+| [EmfCommentEmfSpool](emfcommentemfspool#constructor)() | 初始化[`EmfCommentEmfSpool`](../emfcommentemfspool)类. |
+| [EmfCommentEmfSpool](emfcommentemfspool#constructor_1)(EmfRecord) | 初始化[`EmfCommentEmfSpool`](../emfcommentemfspool)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [CommentIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool/commentidentifier) { get; set; } | 获取或设置一个 32 位无符号整数，用于标识此评论记录 包含 EMFSPOOL 记录。值 0x00000000 将其标识为 EMR_COMMENT_EMFSPOOL 记录。 |
-| [DataSize](../../aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，它指定 RecordBuffer 字段中 CommentIdentifier 和 CommentRecordParm 字段的大小（以字节为单位） 如下。如果 存在 |
-| [EmfSpoolRecordIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool/emfspoolrecordidentifier) { get; set; } | 获取或设置一个标识 EMR_COMMENT_EMFSPOOL 记录类型的 32 位无符号整数。 |
-| [EmfSpoolRecords](../../aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool/emfspoolrecords) { get; set; } | 获取或设置一个可变长度的字节数组，其中包含一个或多个 EMFSPOOL 字体定义记录（[MS-EMFSPOOL] 第 2.2 节。 3.3)。 |
+| override [CommentIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool/commentidentifier) { get; set; } | 获取或设置一个 32 位无符号整数，用于标识此评论记录 包含 EMFSPOOL 记录。值 0x00000000 将此标识为 EMR_COMMENT_EMFSPOOL 记录。 |
+| [DataSize](../../aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，它指定 后面的 RecordBuffer 字段中的 CommentIdentifier 和 CommentRecordParm 字段的大小（以字节为单位）。如果 present 它不能包含自身的大小或 AlignmentPadding 字段的大小 |
+| [EmfSpoolRecordIdentifier](../../aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool/emfspoolrecordidentifier) { get; set; } | 获取或设置一个 32 位无符号整数，用于标识 EMR_COMMENT_EMFSPOOL 记录的类型。 |
+| [EmfSpoolRecords](../../aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool/emfspoolrecords) { get; set; } | 获取或设置一个可变长度的字节数组，其中包含一个或多个 EMFSPOOL 字体定义记录（[MS-EMFSPOOL] 第 2.2.3.3 节）。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

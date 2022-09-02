@@ -1,14 +1,14 @@
 ---
 title: GammaValueDenominator
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取 Gamma 值分母部分 未校正的图像没有伽马的图像的结果应该是 1.0
+description: 获取 Gamma 值分母部分 未校正的图像没有 Gamma 的图像应具有值 1.0 作为结果
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging.fileformats.tga/tgaimage/gammavaluedenominator/
 ---
 ## TgaImage.GammaValueDenominator property
 
-获取 Gamma 值分母部分。 未校正的图像（没有伽马的图像）的结果应该是 1.0。
+获取 Gamma 值分母部分。 未校正的图像（没有 Gamma 的图像）应具有值 1.0 作为结果。
 
 ```csharp
 public ushort GammaValueDenominator { get; }
@@ -16,7 +16,7 @@ public ushort GammaValueDenominator { get; }
 
 ### 例子
 
-获取加载的 TGA 图像的公共属性值。
+获取加载的 TGA 图像的公共属性的值。
 
 ```csharp
 [C#]

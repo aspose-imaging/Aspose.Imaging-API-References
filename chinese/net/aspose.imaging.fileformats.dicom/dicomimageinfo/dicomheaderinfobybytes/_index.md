@@ -8,7 +8,7 @@ url: /zh/net/aspose.imaging.fileformats.dicom/dicomimageinfo/dicomheaderinfobyby
 ---
 ## DicomImageInfo.DicomHeaderInfoByBytes property
 
-以字节为单位获取dicom头信息。
+以字节为单位获取dicom头信息
 
 ```csharp
 public byte[] DicomHeaderInfoByBytes { get; }
@@ -16,7 +16,7 @@ public byte[] DicomHeaderInfoByBytes { get; }
 
 ### 适当的价值
 
-以字节为单位的dicom头信息。
+dicom 头信息，以字节为单位。
 
 ### 也可以看看
 

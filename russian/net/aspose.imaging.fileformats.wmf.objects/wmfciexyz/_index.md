@@ -1,14 +1,14 @@
 ---
 title: WmfCieXyz
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект CIEXYZ определяет информацию о цветности CIEXYZ объекта.
+description: Объект CIEXYZ определяет информацию об объекте CIEXYZ chromaticity .
 type: docs
 weight: 8490
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfciexyz/
 ---
 ## WmfCieXyz structure
 
-Объект CIEXYZ определяет информацию о цветности CIEXYZ объекта.
+Объект CIEXYZ определяет информацию об объекте CIEXYZ chromaticity .
 
 ```csharp
 public struct WmfCieXyz
@@ -18,7 +18,7 @@ public struct WmfCieXyz
 
 | Имя | Описание |
 | --- | --- |
-| [CiexyzX](../../aspose.imaging.fileformats.wmf.objects/wmfciexyz/ciexyzx) { get; set; } | Получает или задает 32-битный тип 2.30 с фиксированной точкой, определяющий значение цветности x . |
+| [CiexyzX](../../aspose.imaging.fileformats.wmf.objects/wmfciexyz/ciexyzx) { get; set; } | Получает или задает 32-битный тип 2.30 с фиксированной точкой, который определяет значение цветности x . |
 | [CiexyzY](../../aspose.imaging.fileformats.wmf.objects/wmfciexyz/ciexyzy) { get; set; } | Получает или задает 32-битный тип 2.30 с фиксированной точкой, который определяет значение цветности y . |
 | [CiexyzZ](../../aspose.imaging.fileformats.wmf.objects/wmfciexyz/ciexyzz) { get; set; } | Получает или задает 32-битный тип 2.30 с фиксированной точкой, который определяет значение цветности z . |
 

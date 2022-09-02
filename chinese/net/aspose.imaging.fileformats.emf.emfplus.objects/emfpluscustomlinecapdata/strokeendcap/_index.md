@@ -1,14 +1,14 @@
 ---
 title: StrokeEndCap
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 32 位无符号整数该整数指定 LineCap 枚举中的值该值指示最后使用的 行上限要绘制的线
+description: 获取或设置 32 位无符号整数该整数指定 LineCap 枚举中的值该值指示要在要绘制的行的末尾使用什么 行帽
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokeendcap/
 ---
 ## EmfPlusCustomLineCapData.StrokeEndCap property
 
-获取或设置 32 位无符号整数，该整数指定 LineCap 枚举中的值，该值指示最后使用的 行上限要绘制的线。
+获取或设置 32 位无符号整数，该整数指定 LineCap 枚举中的值，该值指示要在要绘制的行的末尾使用什么 行帽。
 
 ```csharp
 public int StrokeEndCap { get; set; }

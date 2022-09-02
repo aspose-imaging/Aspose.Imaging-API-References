@@ -1,14 +1,14 @@
 ---
 title: XPelsPerMeter
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число со знаком определяющее горизонтальное разрешение в пикселях на метр целевого устройства для ДИБ
+description: Получает или задает 32-разрядное целое число со знаком определяющее горизонтальное разрешение в пикселях на метр устройства target для DIB
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfbitmapinfoheader/xpelspermeter/
 ---
 ## WmfBitmapInfoHeader.XPelsPerMeter property
 
-Получает или задает 32-разрядное целое число со знаком, определяющее горизонтальное разрешение в пикселях на метр целевого устройства для ДИБ
+Получает или задает 32-разрядное целое число со знаком, определяющее горизонтальное разрешение в пикселях на метр устройства target для DIB
 
 ```csharp
 public int XPelsPerMeter { get; set; }

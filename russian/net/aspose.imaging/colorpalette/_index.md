@@ -18,17 +18,17 @@ public sealed class ColorPalette : IColorPalette
 
 | Имя | Описание |
 | --- | --- |
-| [ColorPalette](colorpalette#constructor)(Color[]) | Инициализирует новый экземпляр класса[`ColorPalette`](../colorpalette), а IsCompactPalette имеет значение false. |
-| [ColorPalette](colorpalette#constructor_2)(int[]) | Инициализирует новый экземпляр класса[`ColorPalette`](../colorpalette), а IsCompactPalette имеет значение false. |
-| [ColorPalette](colorpalette#constructor_1)(Color[], bool) | Инициализирует новый экземпляр класса[`ColorPalette`](../colorpalette). |
-| [ColorPalette](colorpalette#constructor_3)(int[], bool) | Инициализирует новый экземпляр класса[`ColorPalette`](../colorpalette). |
+| [ColorPalette](colorpalette#constructor)(Color[]) | Инициализирует новый экземпляр[`ColorPalette`](../colorpalette) класс, а IsCompactPalette имеет значение false. |
+| [ColorPalette](colorpalette#constructor_2)(int[]) | Инициализирует новый экземпляр[`ColorPalette`](../colorpalette) класс, а IsCompactPalette имеет значение false. |
+| [ColorPalette](colorpalette#constructor_1)(Color[], bool) | Инициализирует новый экземпляр[`ColorPalette`](../colorpalette) класс. |
+| [ColorPalette](colorpalette#constructor_3)(int[], bool) | Инициализирует новый экземпляр[`ColorPalette`](../colorpalette) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [Argb32Entries](../../aspose.imaging/colorpalette/argb32entries) { get; } | Получает массив 32-битных структур ARGB. |
-| [Entries](../../aspose.imaging/colorpalette/entries) { get; } | Получает массив структур[`Color`](../color). |
+| [Entries](../../aspose.imaging/colorpalette/entries) { get; } | Получает массив[`Color`](../color) структуры. |
 | [EntriesCount](../../aspose.imaging/colorpalette/entriescount) { get; } | Получает количество записей. |
 | [IsCompactPalette](../../aspose.imaging/colorpalette/iscompactpalette) { get; } | Получает или задает значение, указывающее, используется ли компактная палитра. |
 

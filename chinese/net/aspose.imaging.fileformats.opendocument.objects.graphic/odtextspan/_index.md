@@ -1,14 +1,14 @@
 ---
 title: OdTextSpan
 second_title: Aspose.Imaging for .NET API 参考
-description: 文本范围
+description: 文本 span
 type: docs
 weight: 7310
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odtextspan/
 ---
 ## OdTextSpan class
 
-文本范围
+文本 span
 
 ```csharp
 public class OdTextSpan : OdStyledObject
@@ -18,13 +18,13 @@ public class OdTextSpan : OdStyledObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OdTextSpan](odtextspan)(OdObject) | 初始化[`OdTextSpan`](../odtextspan)类的新实例。 |
+| [OdTextSpan](odtextspan)(OdObject) | 初始化[`OdTextSpan`](../odtextspan)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]。 |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | 获取项目。 |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | 获取父对象。 |
 | [Rectangle](../../aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/rectangle) { get; set; } | 获取或设置矩形。 |

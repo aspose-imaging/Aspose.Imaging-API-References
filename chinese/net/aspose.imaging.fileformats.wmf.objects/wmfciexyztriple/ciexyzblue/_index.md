@@ -1,14 +1,14 @@
 ---
 title: CiexyzBlue
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置定义蓝色 色度值的 96 位 CIEXYZ 对象
+description: 获取或设置定义 blue 色度值的 96 位 CIEXYZ 对象
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfciexyztriple/ciexyzblue/
 ---
 ## WmfCieXyzTriple.CiexyzBlue property
 
-获取或设置定义蓝色 色度值的 96 位 CIEXYZ 对象。
+获取或设置定义 blue 色度值的 96 位 CIEXYZ 对象。
 
 ```csharp
 public WmfCieXyz CiexyzBlue { get; set; }

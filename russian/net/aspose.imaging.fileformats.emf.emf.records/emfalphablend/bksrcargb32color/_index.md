@@ -1,14 +1,14 @@
 ---
 title: BkSrcArgb32Color
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект WMF ColorRef раздел 2.2.2.8 MS-WMF который определяет цвет фона исходного растрового изображения.
+description: Получает или задает объект WMF ColorRef MS-WMF раздел 2.2.2.8 который указывает цвет фона исходного растрового изображения.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfalphablend/bksrcargb32color/
 ---
 ## EmfAlphaBlend.BkSrcArgb32Color property
 
-Получает или задает объект WMF ColorRef (раздел 2.2.2.8 [MS-WMF], который определяет цвет фона исходного растрового изображения.
+Получает или задает объект WMF ColorRef ([MS-WMF], раздел 2.2.2.8, который указывает цвет фона исходного растрового изображения.
 
 ```csharp
 public int BkSrcArgb32Color { get; set; }

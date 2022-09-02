@@ -1,14 +1,14 @@
 ---
 title: Mode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает режим.
+description: Получает или устанавливает режим.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/mode/
 ---
 ## CmxGradient.Mode property
 
-Получает или задает режим.
+Получает или устанавливает режим.
 
 ```csharp
 public ushort Mode { get; set; }

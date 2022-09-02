@@ -1,14 +1,14 @@
 ---
 title: Glyphs
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив глифов Массив 16-битных значений определяющих отображаемую текстовую строку. Если флаг DriverStringOptionsCmapLookup в поле DriverStringOptionsFlags установлен каждое значение в этом массиве указывает символ Юникода. В противном случае каждое значение указывает индекс символьного глифа в объекте EmfPlusFont заданном значением ObjectId в поле Flags.
+description: Получает или задает глифы array Массив 16-битных значений определяющих отображаемую текстовую строку. Если флаг DriverStringOptionsCmapLookup в поле DriverStringOptionsFlags установлен каждое значение в массиве this указывает символ Юникода. В противном случае каждое значение указывает индекс символьного глифа a в объекте EmfPlusFont заданном значением ObjectId в поле Flags.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/glyphs/
 ---
 ## EmfPlusDrawDriverString.Glyphs property
 
-Получает или задает массив глифов Массив 16-битных значений, определяющих отображаемую текстовую строку. Если флаг DriverStringOptionsCmapLookup в поле DriverStringOptionsFlags установлен, каждое значение в этом массиве указывает символ Юникода. В противном случае каждое значение указывает индекс символьного глифа в объекте EmfPlusFont, заданном значением ObjectId в поле Flags.
+Получает или задает глифы array Массив 16-битных значений, определяющих отображаемую текстовую строку. Если флаг DriverStringOptionsCmapLookup в поле DriverStringOptionsFlags установлен, каждое значение в массиве this указывает символ Юникода. В противном случае каждое значение указывает индекс символьного глифа a в объекте EmfPlusFont, заданном значением ObjectId в поле Flags.
 
 ```csharp
 public short[] Glyphs { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Underline
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее подчеркнут ли этотFontaspose.imaging/font.
+description: Получает значение указывающее является ли этоFontaspose.imaging/font подчеркнуто.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging/font/underline/
 ---
 ## Font.Underline property
 
-Получает значение, указывающее, подчеркнут ли этот[`Font`](../../font).
+Получает значение, указывающее, является ли это[`Font`](../../font) подчеркнуто.
 
 ```csharp
 public bool Underline { get; }
@@ -16,7 +16,7 @@ public bool Underline { get; }
 
 ### Стоимость имущества
 
-Истинно, если это[`Font`](../../font)подчеркнуто; в противном случае ложно.
+Правда, если это[`Font`](../../font) подчеркнуто; в противном случае ложно.
 
 ### Смотрите также
 

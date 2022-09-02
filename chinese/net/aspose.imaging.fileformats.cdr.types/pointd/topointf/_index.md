@@ -1,14 +1,14 @@
 ---
 title: ToPointF
 second_title: Aspose.Imaging for .NET API 参考
-description: 将PointFaspose.imaging/pointf转换为TypesPointD结构
+description: 转换PointFaspose.imaging/pointf到PointDaspose.imaging.fileformats.cdr.types/pointd结构.
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.cdr.types/pointd/topointf/
 ---
 ## PointD.ToPointF method
 
-将[`PointF`](../../../aspose.imaging/pointf)转换为Types。PointD结构。
+转换[`PointF`](../../../aspose.imaging/pointf)到[`PointD`](../../pointd)结构.
 
 ```csharp
 public PointF ToPointF()
@@ -16,7 +16,7 @@ public PointF ToPointF()
 
 ### 返回值
 
-[`PointF`](../../../aspose.imaging/pointf)结构
+这[`PointF`](../../../aspose.imaging/pointf)结构体
 
 ### 也可以看看
 

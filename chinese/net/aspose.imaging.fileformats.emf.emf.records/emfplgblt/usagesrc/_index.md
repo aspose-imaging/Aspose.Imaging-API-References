@@ -1,14 +1,14 @@
 ---
 title: UsageSrc
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数该整数指定如何解释源位图标头中 颜色表中的值此值必须在 DIBColors 枚举
+description: 获取或设置一个 32 位无符号整数它指定如何解释源位图头中的 颜色表中的值这个值必须在 DIBColors enumeration
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfplgblt/usagesrc/
 ---
 ## EmfPlgBlt.UsageSrc property
 
-获取或设置一个 32 位无符号整数，该整数指定如何解释源位图标头中 颜色表中的值。此值必须在 DIBColors 枚举
+获取或设置一个 32 位无符号整数，它指定如何解释源位图头中的 颜色表中的值。这个值必须在 DIBColors enumeration
 
 ```csharp
 public EmfDibColors UsageSrc { get; set; }

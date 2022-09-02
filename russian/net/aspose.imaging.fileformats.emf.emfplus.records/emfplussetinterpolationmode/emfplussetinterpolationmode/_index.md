@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSetInterpolationMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusSetInterpolationModeaspose.imaging.fileformats.emf.emfplus.records/emfplussetinterpolationmode.
+description: Инициализирует новый экземплярEmfPlusSetInterpolationModeaspose.imaging.fileformats.emf.emfplus.records/emfplussetinterpolationmode класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetinterpolationmode/emfplussetinterpolationmode/
 ---
 ## EmfPlusSetInterpolationMode constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusSetInterpolationMode`](../../emfplussetinterpolationmode).
+Инициализирует новый экземпляр[`EmfPlusSetInterpolationMode`](../../emfplussetinterpolationmode) класс.
 
 ```csharp
 public EmfPlusSetInterpolationMode(EmfPlusRecord source)

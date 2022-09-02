@@ -3,7 +3,7 @@ title: RenditionClass
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет представление XMP.
 type: docs
-weight: 11650
+weight: 11640
 url: /ru/net/aspose.imaging.xmp.types.derived/renditionclass/
 ---
 ## RenditionClass class
@@ -18,8 +18,8 @@ public sealed class RenditionClass : XmpTypeBase
 
 | Имя | Описание |
 | --- | --- |
-| [RenditionClass](renditionclass#constructor)() | Инициализирует новый экземпляр класса[`RenditionClass`](../renditionclass). |
-| [RenditionClass](renditionclass#constructor_1)(string, string) | Инициализирует новый экземпляр класса[`RenditionClass`](../renditionclass). |
+| [RenditionClass](renditionclass#constructor)() | Инициализирует новый экземпляр[`RenditionClass`](../renditionclass) класс. |
+| [RenditionClass](renditionclass#constructor_1)(string, string) | Инициализирует новый экземпляр[`RenditionClass`](../renditionclass) класс. |
 
 ## Характеристики
 

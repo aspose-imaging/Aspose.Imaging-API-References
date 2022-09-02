@@ -1,14 +1,14 @@
 ---
 title: EmfArc
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfArcaspose.imaging.fileformats.emf.emf.records/emfarc.
+description: Инициализирует новый экземплярEmfArcaspose.imaging.fileformats.emf.emf.records/emfarc класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfarc/emfarc/
 ---
 ## EmfArc(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfArc`](../../emfarc).
+Инициализирует новый экземпляр[`EmfArc`](../../emfarc) класс.
 
 ```csharp
 public EmfArc(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfArc(EmfRecord source)
 
 ## EmfArc() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfArc`](../../emfarc).
+Инициализирует новый экземпляр[`EmfArc`](../../emfarc) класс.
 
 ```csharp
 public EmfArc()

@@ -1,14 +1,14 @@
 ---
 title: AssumedObjectData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаAssumedObjectDataaspose.imaging.masking.options/assumedobjectdata.
+description: Инициализирует новый экземплярAssumedObjectDataaspose.imaging.masking.options/assumedobjectdata класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.masking.options/assumedobjectdata/assumedobjectdata/
 ---
 ## AssumedObjectData() {#constructor}
 
-Инициализирует новый экземпляр класса[`AssumedObjectData`](../../assumedobjectdata).
+Инициализирует новый экземпляр[`AssumedObjectData`](../../assumedobjectdata) класс.
 
 ```csharp
 public AssumedObjectData()
@@ -24,7 +24,7 @@ public AssumedObjectData()
 
 ## AssumedObjectData(DetectedObjectType, Rectangle) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`AssumedObjectData`](../../assumedobjectdata).
+Инициализирует новый экземпляр[`AssumedObjectData`](../../assumedobjectdata) класс.
 
 ```csharp
 public AssumedObjectData(DetectedObjectType type, Rectangle bounds)
@@ -47,70 +47,25 @@ assumedObjects.Add(new AssumedObjectData(DetectedObjectType.Human, new Rectangle
 assumedObjects.Add(new AssumedObjectData(DetectedObjectType.Dog, new Rectangle(300, 100, 50, 30)));
 
 MaskingResult[] results;
-AutoMaskingGraphCutOptions options;
-
 using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
 {
-    options = new AutoMaskingGraphCutOptions
-                    {
-                        AssumedObjects = assumedObjects,
-                        CalculateDefaultStrokes = true,
-                        FeatheringRadius = 3,
-                        Method = SegmentationMethod.GraphCut,
-                        Decompose = false,
-                        ExportOptions =
-                            new PngOptions()
-                                {
-                                    ColorType = PngColorType.TruecolorWithAlpha,
-                                    Source = new FileCreateSource("tempFile")
-                                },
-                        BackgroundReplacementColor = Color.Transparent
-                    };
+    AutoMaskingGraphCutOptions options = new AutoMaskingGraphCutOptions
+                                                {
+                                                    AssumedObjects = assumedObjects,
+                                                    CalculateDefaultStrokes = true,
+                                                    FeatheringRadius = (Math.Max(image.Width, image.Height) / 500) + 1,
+                                                    Method = SegmentationMethod.GraphCut,
+                                                    Decompose = false,
+                                                    ExportOptions =
+                                                        new PngOptions()
+                                                            {
+                                                                ColorType = PngColorType.TruecolorWithAlpha,
+                                                                Source = new FileCreateSource("tempFile")
+                                                            },
+                                                    BackgroundReplacementColor = Color.Transparent
+    };
 
     results = new ImageMasking(image).Decompose(options);
-}
-
- // В этот момент можно проанализировать примененные штрихи переднего плана/фона и на его основе добавить дополнительные 
- // штрихи переднего плана/фона могут быть предоставлены вручную.
-Point[] appliedBackgroundStrokes = options.DefaultBackgroundStrokes;
-Point[] appliedForegroundStrokes = options.DefaultForegroundStrokes;
-Rectangle[] appliedObjectRectangles = options.DefaultObjectsRectangles;
-using (RasterImage resultImage = (RasterImage)results[1].GetImage())
-{
-    resultImage.Save("output.png", new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
-}
-
-appliedBackgroundStrokes[5] = new Point(100, 100);
-appliedBackgroundStrokes[15] = new Point(150, 100);
-
-appliedForegroundStrokes[1] = new Point(500, 200);
-
-appliedObjectRectangles[0] = new Rectangle(100, 100, 300, 300);
-
-using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
-{
-    GraphCutMaskingOptions graphCutOptions = new GraphCutMaskingOptions()
-                                                    {
-                                                        FeatheringRadius = 3,
-                                                        Method = SegmentationMethod.GraphCut,
-                                                        Decompose = false,
-                                                        ExportOptions = new PngOptions()
-                                                                            {
-                                                                                ColorType = PngColorType.TruecolorWithAlpha,
-                                                                                Source = new FileCreateSource("tempFile")
-                                                                            },
-                                                        BackgroundReplacementColor = Color.Transparent,
-                                                        Args = new AutoMaskingArgs()
-                                                                {
-                                                                    ObjectsPoints = new Point[][]
-                                                                                        {
-                                                                                            appliedBackgroundStrokes,
-                                                                                            appliedForegroundStrokes
-                                                                                        },
-                                                                    ObjectsRectangles = appliedObjectRectangles
-                                                                }
-                                                    };
-    results = new ImageMasking(image).Decompose(graphCutOptions);
 }
 
 using (RasterImage resultImage = (RasterImage)results[1].GetImage())
@@ -130,7 +85,6 @@ assumedObjects.Add(new AssumedObjectData(DetectedObjectType.Dog, new Rectangle(3
 
 MaskingResult[] results;
 AutoMaskingGraphCutOptions options;
-
 using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
 {
     options = new AutoMaskingGraphCutOptions
@@ -152,8 +106,8 @@ using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
     results = new ImageMasking(image).Decompose(options);
 }
 
- // В этот момент можно проанализировать примененные штрихи переднего плана/фона и на его основе добавить дополнительные 
- // штрихи переднего плана/фона могут быть предоставлены вручную.
+// В этот момент можно проанализировать примененные штрихи переднего плана/фона и на их основе добавить 
+// штрихи переднего плана/фона могут быть предоставлены вручную.
 Point[] appliedBackgroundStrokes = options.DefaultBackgroundStrokes;
 Point[] appliedForegroundStrokes = options.DefaultForegroundStrokes;
 Rectangle[] appliedObjectRectangles = options.DefaultObjectsRectangles;
@@ -162,37 +116,28 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
     resultImage.Save("output.png", new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
 }
 
-appliedBackgroundStrokes[5] = new Point(100, 100);
-appliedBackgroundStrokes[15] = new Point(150, 100);
-
-appliedForegroundStrokes[1] = new Point(500, 200);
-
-appliedObjectRectangles[0] = new Rectangle(100, 100, 300, 300);
-
 using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
 {
-    GraphCutMaskingOptions graphCutOptions = new GraphCutMaskingOptions()
+    // При повторном использовании AutoMaskingGraphCutOptions нет необходимости выполнять расчет штрихов по умолчанию во второй раз.
+    options.CalculateDefaultStrokes = false;
+    // Когда в свойстве Args AutoMaskingArgs указаны как штрихи по умолчанию, так и ObjectsPoints, массивы Point объединяются.
+    // Первый массив ObjectsPoints считается массивом фоновых точек и 
+    // второй массив ObjectsPoints считается массивом точек переднего плана.
+    // Когда в свойстве Args для AutoMaskingArgs указаны как DefaultObjectsRectangles, так и ObjectsRectangles, 
+    // используется только массив из Args.
+    options.Args = new AutoMaskingArgs()
+                        {
+                            ObjectsPoints = new Point[][]
+                                                {
+                                                    new Point[] { new Point(100, 100), new Point(150, 100) }, 
+                                                    new Point[] { new Point(500, 200) }, 
+                                                },
+                            ObjectsRectangles = new Rectangle[]
                                                     {
-                                                        FeatheringRadius = 3,
-                                                        Method = SegmentationMethod.GraphCut,
-                                                        Decompose = false,
-                                                        ExportOptions = new PngOptions()
-                                                                            {
-                                                                                ColorType = PngColorType.TruecolorWithAlpha,
-                                                                                Source = new FileCreateSource("tempFile")
-                                                                            },
-                                                        BackgroundReplacementColor = Color.Transparent,
-                                                        Args = new AutoMaskingArgs()
-                                                                {
-                                                                    ObjectsPoints = new Point[][]
-                                                                                        {
-                                                                                            appliedBackgroundStrokes,
-                                                                                            appliedForegroundStrokes
-                                                                                        },
-                                                                    ObjectsRectangles = appliedObjectRectangles
-                                                                }
-                                                    };
-    results = new ImageMasking(image).Decompose(graphCutOptions);
+                                                        new Rectangle(100, 100, 300, 300), 
+                                                    }
+                        };
+    results = new ImageMasking(image).Decompose(options);
 }
 
 using (RasterImage resultImage = (RasterImage)results[1].GetImage())
@@ -234,8 +179,8 @@ using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
     results = new ImageMasking(image).Decompose(options);
 }
 
- // В этот момент можно проанализировать примененные штрихи переднего плана/фона и на его основе добавить дополнительные 
- // штрихи переднего плана/фона могут быть предоставлены вручную.
+// В этот момент можно проанализировать примененные штрихи переднего плана/фона и на их основе добавить 
+// штрихи переднего плана/фона могут быть предоставлены вручную.
 Point[] appliedBackgroundStrokes = options.DefaultBackgroundStrokes;
 Point[] appliedForegroundStrokes = options.DefaultForegroundStrokes;
 Rectangle[] appliedObjectRectangles = options.DefaultObjectsRectangles;
@@ -295,7 +240,7 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
 
 ## AssumedObjectData(string, Rectangle) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`AssumedObjectData`](../../assumedobjectdata).
+Инициализирует новый экземпляр[`AssumedObjectData`](../../assumedobjectdata) класс.
 
 ```csharp
 public AssumedObjectData(string type, Rectangle bounds)

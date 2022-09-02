@@ -18,14 +18,14 @@ public sealed class EmfSetViewportOrgEx : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSetViewportOrgEx](emfsetviewportorgex#constructor)() | 初始化[`EmfSetViewportOrgEx`](../emfsetviewportorgex)类的新实例。 |
-| [EmfSetViewportOrgEx](emfsetviewportorgex#constructor_1)(EmfRecord) | 初始化[`EmfSetViewportOrgEx`](../emfsetviewportorgex)类的新实例。 |
+| [EmfSetViewportOrgEx](emfsetviewportorgex#constructor)() | 初始化[`EmfSetViewportOrgEx`](../emfsetviewportorgex)类. |
+| [EmfSetViewportOrgEx](emfsetviewportorgex#constructor_1)(EmfRecord) | 初始化[`EmfSetViewportOrgEx`](../emfsetviewportorgex)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Origin](../../aspose.imaging.fileformats.emf.emf.records/emfsetviewportorgex/origin) { get; set; } | 获取或设置指定 水平和垂直窗口的 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节）以设备为单位的来源。 |
+| [Origin](../../aspose.imaging.fileformats.emf.emf.records/emfsetviewportorgex/origin) { get; set; } | 获取或设置一个 64 位 WMF PointL 对象（[MS-WMF] 第 2.2.2.15 节），以设备单位指定 窗口水平和垂直原点。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

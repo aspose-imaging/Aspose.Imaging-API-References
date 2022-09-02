@@ -1,14 +1,14 @@
 ---
 title: GetEmbeddedImages
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает внедренные изображения.
+description: Получает встроенные изображения.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging/vectorimage/getembeddedimages/
 ---
 ## VectorImage.GetEmbeddedImages method
 
-Получает внедренные изображения.
+Получает встроенные изображения.
 
 ```csharp
 public virtual EmbeddedImage[] GetEmbeddedImages()
@@ -20,7 +20,7 @@ public virtual EmbeddedImage[] GetEmbeddedImages()
 
 ### Примеры
 
-Поддержка извлечения встроенных растровых изображений из вектора изображение
+Поддержка извлечения встроенных растровых изображений из векторного изображения.
 
 ```csharp
 [C#]

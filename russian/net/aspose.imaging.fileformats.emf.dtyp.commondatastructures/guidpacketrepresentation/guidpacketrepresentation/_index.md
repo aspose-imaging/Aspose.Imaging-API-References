@@ -1,14 +1,14 @@
 ---
 title: GuidPacketRepresentation
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр структурыGuidPacketRepresentationaspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation.
+description: Инициализирует новый экземплярGuidPacketRepresentationaspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation структура.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation/guidpacketrepresentation/
 ---
 ## GuidPacketRepresentation constructor
 
-Инициализирует новый экземпляр структуры[`GuidPacketRepresentation`](../../guidpacketrepresentation).
+Инициализирует новый экземпляр[`GuidPacketRepresentation`](../../guidpacketrepresentation) структура.
 
 ```csharp
 public GuidPacketRepresentation(int data1, short data2, short data3, long data4)

@@ -1,14 +1,14 @@
 ---
 title: OdArc
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdArcaspose.imaging.fileformats.opendocument.objects.graphic/odarc.
+description: Инициализирует новый экземплярOdArcaspose.imaging.fileformats.opendocument.objects.graphic/odarc класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odarc/odarc/
 ---
 ## OdArc constructor
 
-Инициализирует новый экземпляр класса[`OdArc`](../../odarc).
+Инициализирует новый экземпляр[`OdArc`](../../odarc) класс.
 
 ```csharp
 public OdArc(OdObject parent)

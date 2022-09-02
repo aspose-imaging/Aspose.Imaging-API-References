@@ -3,7 +3,7 @@ title: Configuration
 second_title: Aspose.Imaging for .NET API 参考
 description: 内存管理全局配置
 type: docs
-weight: 10580
+weight: 10570
 url: /zh/net/aspose.imaging.memorymanagement/configuration/
 ---
 ## Configuration class

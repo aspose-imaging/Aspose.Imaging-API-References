@@ -1,14 +1,14 @@
 ---
 title: RatingMin
 second_title: Aspose.Imaging for .NET API 参考
-description: 评级最小值
+description: 评分最小值
 type: docs
 weight: 110
 url: /zh/net/aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/ratingmin/
 ---
 ## XmpBasicPackage.RatingMin field
 
-评级最小值。
+评分最小值。
 
 ```csharp
 public const int RatingMin;

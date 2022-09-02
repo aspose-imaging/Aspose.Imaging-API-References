@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает имя шрифта этогоFontaspose.imaging/font.
+description: Получает имя лица этогоFontaspose.imaging/font .
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging/font/name/
 ---
 ## Font.Name property
 
-Получает имя шрифта этого[`Font`](../../font).
+Получает имя лица этого[`Font`](../../font) .
 
 ```csharp
 public string Name { get; }

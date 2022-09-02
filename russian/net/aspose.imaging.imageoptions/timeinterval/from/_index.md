@@ -1,14 +1,14 @@
 ---
 title: From
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает From миллисекунд.
+description: Получает или задает из миллисекунд.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.imageoptions/timeinterval/from/
 ---
 ## TimeInterval.From property
 
-Получает или задает From миллисекунд.
+Получает или задает из миллисекунд.
 
 ```csharp
 public uint From { get; set; }
@@ -16,7 +16,7 @@ public uint From { get; set; }
 
 ### Стоимость имущества
 
-От миллисекунд.
+Из миллисекунд.
 
 ### Смотрите также
 

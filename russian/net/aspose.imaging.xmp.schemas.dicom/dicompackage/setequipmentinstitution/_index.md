@@ -1,14 +1,14 @@
 ---
 title: SetEquipmentInstitution
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Устанавливает институт оборудования.
+description: Устанавливает учреждение оборудования.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.xmp.schemas.dicom/dicompackage/setequipmentinstitution/
 ---
 ## DicomPackage.SetEquipmentInstitution method
 
-Устанавливает институт оборудования.
+Устанавливает учреждение оборудования.
 
 ```csharp
 public void SetEquipmentInstitution(string equipmentInstitution)
@@ -16,7 +16,7 @@ public void SetEquipmentInstitution(string equipmentInstitution)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| equipmentInstitution | String | Учреждение оборудования. |
+| equipmentInstitution | String | Институт оборудования. |
 
 ### Смотрите также
 

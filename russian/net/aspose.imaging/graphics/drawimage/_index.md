@@ -1,14 +1,14 @@
 ---
 title: DrawImage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Рисует указанныйImageaspose.imaging/graphics/image используя исходный физический размер в указанном месте.
+description: Рисует указанныйImageaspose.imaging/graphics/image  используя исходный физический размер в указанном месте.
 type: docs
 weight: 220
 url: /ru/net/aspose.imaging/graphics/drawimage/
 ---
 ## DrawImage(Image, PointF) {#drawimage_1}
 
-Рисует указанный[`Image`](../image), используя исходный физический размер, в указанном месте.
+Рисует указанный[`Image`](../image) , используя исходный физический размер, в указанном месте.
 
 ```csharp
 public void DrawImage(Image sourceImage, PointF point)
@@ -17,13 +17,13 @@ public void DrawImage(Image sourceImage, PointF point)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceImage | Image | Изображение для рисования. |
-| point | PointF | [`PointF`](../../pointf)структура, представляющая левый верхний угол нарисованного изображения. |
+| point | PointF | [`PointF`](../../pointf) структура, представляющая верхний левый угол нарисованного изображения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceImage*равно null. |
+| ArgumentNullException | *sourceImage* нулевой. |
 
 ### Смотрите также
 
@@ -37,7 +37,7 @@ public void DrawImage(Image sourceImage, PointF point)
 
 ## DrawImage(Image, float, float) {#drawimage_22}
 
-Рисует указанный[`Image`](../image), используя исходный физический размер, в указанном месте.
+Рисует указанный[`Image`](../image) , используя исходный физический размер, в указанном месте.
 
 ```csharp
 public void DrawImage(Image sourceImage, float x, float y)
@@ -53,7 +53,7 @@ public void DrawImage(Image sourceImage, float x, float y)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceImage*равно null. |
+| ArgumentNullException | *sourceImage* нулевой. |
 
 ### Смотрите также
 
@@ -66,7 +66,7 @@ public void DrawImage(Image sourceImage, float x, float y)
 
 ## DrawImage(Image, RectangleF) {#drawimage_15}
 
-Рисует указанный[`Image`](../image)в указанном месте и с указанным размером.
+Рисует указанный[`Image`](../image) в указанном месте и с указанным размером.
 
 ```csharp
 public void DrawImage(Image sourceImage, RectangleF rect)
@@ -75,13 +75,13 @@ public void DrawImage(Image sourceImage, RectangleF rect)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceImage | Image | Изображение для рисования. |
-| rect | RectangleF | [`RectangleF`](../../rectanglef)структура, определяющая положение и размер рисуемого изображения. |
+| rect | RectangleF | [`RectangleF`](../../rectanglef) структура, определяющая расположение и размер рисуемого изображения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceImage*равно null. |
+| ArgumentNullException | *sourceImage* нулевой. |
 
 ### Смотрите также
 
@@ -95,7 +95,7 @@ public void DrawImage(Image sourceImage, RectangleF rect)
 
 ## DrawImage(Image, Rectangle, GraphicsUnit) {#drawimage_11}
 
-Рисует указанный[`Image`](../image)в указанном месте и с указанным размером.
+Рисует указанный[`Image`](../image) в указанном месте и с указанным размером.
 
 ```csharp
 public void DrawImage(Image sourceImage, Rectangle rectDestination, GraphicsUnit graphicsUnit)
@@ -104,14 +104,14 @@ public void DrawImage(Image sourceImage, Rectangle rectDestination, GraphicsUnit
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceImage | Image | Изображение для рисования. |
-| rectDestination | Rectangle | Конечный прямоугольник. |
+| rectDestination | Rectangle | Целевой прямоугольник. |
 | graphicsUnit | GraphicsUnit | Графический блок. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceImage*равно null. |
+| ArgumentNullException | *sourceImage* нулевой. |
 
 ### Смотрите также
 
@@ -126,7 +126,7 @@ public void DrawImage(Image sourceImage, Rectangle rectDestination, GraphicsUnit
 
 ## DrawImage(Image, RectangleF, GraphicsUnit) {#drawimage_16}
 
-Рисует указанный[`Image`](../image)в указанном месте и с указанным размером.
+Рисует указанный[`Image`](../image) в указанном месте и с указанным размером.
 
 ```csharp
 public void DrawImage(Image sourceImage, RectangleF rectDestination, GraphicsUnit graphicsUnit)
@@ -135,14 +135,14 @@ public void DrawImage(Image sourceImage, RectangleF rectDestination, GraphicsUni
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceImage | Image | Изображение для рисования. |
-| rectDestination | RectangleF | Конечный прямоугольник. |
+| rectDestination | RectangleF | Целевой прямоугольник. |
 | graphicsUnit | GraphicsUnit | Графический блок. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceImage*равно null. |
+| ArgumentNullException | *sourceImage* нулевой. |
 
 ### Смотрите также
 
@@ -157,7 +157,7 @@ public void DrawImage(Image sourceImage, RectangleF rectDestination, GraphicsUni
 
 ## DrawImage(Image, Rectangle, GraphicsUnit, ImageAttributes) {#drawimage_12}
 
-Рисует указанный[`Image`](../image)в указанном месте и с указанным размером.
+Рисует указанный[`Image`](../image) в указанном месте и с указанным размером.
 
 ```csharp
 public void DrawImage(Image sourceImage, Rectangle rectDestination, GraphicsUnit graphicsUnit, 
@@ -167,7 +167,7 @@ public void DrawImage(Image sourceImage, Rectangle rectDestination, GraphicsUnit
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceImage | Image | Изображение для рисования. |
-| rectDestination | Rectangle | Конечный прямоугольник. |
+| rectDestination | Rectangle | Целевой прямоугольник. |
 | graphicsUnit | GraphicsUnit | Графический блок. |
 | imageAttributes | ImageAttributes | Атрибуты изображения. |
 
@@ -175,7 +175,7 @@ public void DrawImage(Image sourceImage, Rectangle rectDestination, GraphicsUnit
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceImage*равно null. |
+| ArgumentNullException | *sourceImage* нулевой. |
 
 ### Смотрите также
 
@@ -191,7 +191,7 @@ public void DrawImage(Image sourceImage, Rectangle rectDestination, GraphicsUnit
 
 ## DrawImage(Image, RectangleF, GraphicsUnit, ImageAttributes) {#drawimage_17}
 
-Рисует указанный[`Image`](../image)в указанном месте и с указанным размером.
+Рисует указанный[`Image`](../image) в указанном месте и с указанным размером.
 
 ```csharp
 public void DrawImage(Image sourceImage, RectangleF rectDestination, GraphicsUnit graphicsUnit, 
@@ -209,7 +209,7 @@ public void DrawImage(Image sourceImage, RectangleF rectDestination, GraphicsUni
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceImage*равно null. |
+| ArgumentNullException | *sourceImage* нулевой. |
 
 ### Смотрите также
 
@@ -225,7 +225,7 @@ public void DrawImage(Image sourceImage, RectangleF rectDestination, GraphicsUni
 
 ## DrawImage(Image, Rectangle, Rectangle, GraphicsUnit) {#drawimage_13}
 
-Рисует указанный[`Image`](../image)в указанном месте и с указанным размером.
+Рисует указанный[`Image`](../image) в указанном месте и с указанным размером.
 
 ```csharp
 public void DrawImage(Image sourceImage, Rectangle rectSource, Rectangle rectDestination, 
@@ -235,7 +235,7 @@ public void DrawImage(Image sourceImage, Rectangle rectSource, Rectangle rectDes
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceImage | Image | Изображение для рисования. |
-| rectSource | Rectangle | Прямоугольный источник. |
+| rectSource | Rectangle | Прямой источник. |
 | rectDestination | Rectangle | Прямой пункт назначения. |
 | graphicsUnit | GraphicsUnit | Графический блок. |
 
@@ -243,7 +243,7 @@ public void DrawImage(Image sourceImage, Rectangle rectSource, Rectangle rectDes
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceImage*равно null. |
+| ArgumentNullException | *sourceImage* нулевой. |
 
 ### Смотрите также
 
@@ -258,7 +258,7 @@ public void DrawImage(Image sourceImage, Rectangle rectSource, Rectangle rectDes
 
 ## DrawImage(Image, RectangleF, RectangleF, GraphicsUnit) {#drawimage_18}
 
-Рисует указанный[`Image`](../image)в указанном месте и с указанным размером.
+Рисует указанный[`Image`](../image) в указанном месте и с указанным размером.
 
 ```csharp
 public void DrawImage(Image sourceImage, RectangleF rectSource, RectangleF rectDestination, 
@@ -268,7 +268,7 @@ public void DrawImage(Image sourceImage, RectangleF rectSource, RectangleF rectD
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceImage | Image | Изображение для рисования. |
-| rectSource | RectangleF | Прямоугольный источник. |
+| rectSource | RectangleF | Прямой источник. |
 | rectDestination | RectangleF | Прямой пункт назначения. |
 | graphicsUnit | GraphicsUnit | Графический блок. |
 
@@ -276,7 +276,7 @@ public void DrawImage(Image sourceImage, RectangleF rectSource, RectangleF rectD
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceImage*равно null. |
+| ArgumentNullException | *sourceImage* нулевой. |
 
 ### Смотрите также
 
@@ -291,7 +291,7 @@ public void DrawImage(Image sourceImage, RectangleF rectSource, RectangleF rectD
 
 ## DrawImage(Image, Rectangle, Rectangle, GraphicsUnit, ImageAttributes) {#drawimage_14}
 
-Рисует указанный[`Image`](../image)в указанном месте и с указанным размером.
+Рисует указанный[`Image`](../image) в указанном месте и с указанным размером.
 
 ```csharp
 public void DrawImage(Image sourceImage, Rectangle rectSource, Rectangle rectDestination, 
@@ -301,7 +301,7 @@ public void DrawImage(Image sourceImage, Rectangle rectSource, Rectangle rectDes
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceImage | Image | Изображение для рисования. |
-| rectSource | Rectangle | Прямоугольный источник. |
+| rectSource | Rectangle | Прямой источник. |
 | rectDestination | Rectangle | Прямой пункт назначения. |
 | graphicsUnit | GraphicsUnit | Графический блок. |
 | imageAttributes | ImageAttributes | Атрибуты изображения. |
@@ -310,7 +310,7 @@ public void DrawImage(Image sourceImage, Rectangle rectSource, Rectangle rectDes
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceImage*равно null. |
+| ArgumentNullException | *sourceImage* нулевой. |
 
 ### Смотрите также
 
@@ -326,7 +326,7 @@ public void DrawImage(Image sourceImage, Rectangle rectSource, Rectangle rectDes
 
 ## DrawImage(Image, RectangleF, RectangleF, GraphicsUnit, ImageAttributes) {#drawimage_19}
 
-Рисует указанный[`Image`](../image)в указанном месте и с указанным размером.
+Рисует указанный[`Image`](../image) в указанном месте и с указанным размером.
 
 ```csharp
 public void DrawImage(Image sourceImage, RectangleF rectSource, RectangleF rectDestination, 
@@ -337,7 +337,7 @@ public void DrawImage(Image sourceImage, RectangleF rectSource, RectangleF rectD
 | --- | --- | --- |
 | sourceImage | Image | Изображение для рисования. |
 | rectSource | RectangleF | Исходный прямоугольник. |
-| rectDestination | RectangleF | Конечный прямоугольник. |
+| rectDestination | RectangleF | Целевой прямоугольник. |
 | graphicsUnit | GraphicsUnit | Используемый графический блок. |
 | imageAttributes | ImageAttributes | Используемые атрибуты изображения. |
 
@@ -345,7 +345,7 @@ public void DrawImage(Image sourceImage, RectangleF rectSource, RectangleF rectD
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceImage*равно null. |
+| ArgumentNullException | *sourceImage* нулевой. |
 
 ### Смотрите также
 
@@ -361,7 +361,7 @@ public void DrawImage(Image sourceImage, RectangleF rectSource, RectangleF rectD
 
 ## DrawImage(Image, Point[]) {#drawimage_6}
 
-Рисует указанную часть указанного*image*в указанном месте и с указанным размером.
+Рисует указанную часть указанного*image* в указанном месте и с указанным размером.
 
 ```csharp
 public void DrawImage(Image image, Point[] destPoints)
@@ -384,7 +384,7 @@ public void DrawImage(Image image, Point[] destPoints)
 
 ## DrawImage(Image, Point[], Rectangle) {#drawimage_7}
 
-Рисует указанную часть указанного*image*в указанном месте и с указанным размером.
+Рисует указанную часть указанного*image* в указанном месте и с указанным размером.
 
 ```csharp
 public void DrawImage(Image image, Point[] destPoints, Rectangle srcRect)
@@ -409,7 +409,7 @@ public void DrawImage(Image image, Point[] destPoints, Rectangle srcRect)
 
 ## DrawImage(Image, Point[], Rectangle, GraphicsUnit) {#drawimage_8}
 
-Рисует указанную часть указанного*image*в указанном месте и с указанным размером.
+Рисует указанную часть указанного*image* в указанном месте и с указанным размером.
 
 ```csharp
 public void DrawImage(Image image, Point[] destPoints, Rectangle srcRect, GraphicsUnit srcUnit)
@@ -436,7 +436,7 @@ public void DrawImage(Image image, Point[] destPoints, Rectangle srcRect, Graphi
 
 ## DrawImage(Image, Point[], Rectangle, GraphicsUnit, ImageAttributes) {#drawimage_9}
 
-Рисует указанную часть указанного*image*в указанном месте и с указанным размером.
+Рисует указанную часть указанного*image* в указанном месте и с указанным размером.
 
 ```csharp
 public void DrawImage(Image image, Point[] destPoints, Rectangle srcRect, GraphicsUnit srcUnit, 
@@ -466,7 +466,7 @@ public void DrawImage(Image image, Point[] destPoints, Rectangle srcRect, Graphi
 
 ## DrawImage(Image, PointF[]) {#drawimage_2}
 
-Рисует указанную часть указанного*image*в указанном месте и с указанным размером.
+Рисует указанную часть указанного*image* в указанном месте и с указанным размером.
 
 ```csharp
 public void DrawImage(Image image, PointF[] destPoints)
@@ -495,7 +495,7 @@ public void DrawImage(Image image, PointF[] destPoints)
 
 ## DrawImage(Image, PointF[], RectangleF) {#drawimage_3}
 
-Рисует указанную часть указанного*image*в указанном месте и с указанным размером.
+Рисует указанную часть указанного*image* в указанном месте и с указанным размером.
 
 ```csharp
 public void DrawImage(Image image, PointF[] destPoints, RectangleF srcRect)
@@ -520,7 +520,7 @@ public void DrawImage(Image image, PointF[] destPoints, RectangleF srcRect)
 
 ## DrawImage(Image, PointF[], RectangleF, GraphicsUnit) {#drawimage_4}
 
-Рисует указанную часть указанного*image*в указанном месте и с указанным размером.
+Рисует указанную часть указанного*image* в указанном месте и с указанным размером.
 
 ```csharp
 public void DrawImage(Image image, PointF[] destPoints, RectangleF srcRect, GraphicsUnit srcUnit)
@@ -547,7 +547,7 @@ public void DrawImage(Image image, PointF[] destPoints, RectangleF srcRect, Grap
 
 ## DrawImage(Image, PointF[], RectangleF, GraphicsUnit, ImageAttributes) {#drawimage_5}
 
-Рисует указанную часть указанного*image*в указанном месте и с указанным размером.
+Рисует указанную часть указанного*image* в указанном месте и с указанным размером.
 
 ```csharp
 public void DrawImage(Image image, PointF[] destPoints, RectangleF srcRect, GraphicsUnit srcUnit, 
@@ -577,7 +577,7 @@ public void DrawImage(Image image, PointF[] destPoints, RectangleF srcRect, Grap
 
 ## DrawImage(Image, float, float, float, float) {#drawimage_23}
 
-Рисует указанный[`Image`](../image)в указанном месте и с указанным размером.
+Рисует указанный[`Image`](../image) в указанном месте и с указанным размером.
 
 ```csharp
 public void DrawImage(Image sourceImage, float x, float y, float width, float height)
@@ -595,7 +595,7 @@ public void DrawImage(Image sourceImage, float x, float y, float width, float he
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceImage*равно null. |
+| ArgumentNullException | *sourceImage* нулевой. |
 
 ### Смотрите также
 
@@ -608,7 +608,7 @@ public void DrawImage(Image sourceImage, float x, float y, float width, float he
 
 ## DrawImage(Image, Point) {#drawimage}
 
-Рисует указанный[`Image`](../image), используя исходный физический размер, в указанном месте.
+Рисует указанный[`Image`](../image) , используя исходный физический размер, в указанном месте.
 
 ```csharp
 public void DrawImage(Image sourceImage, Point point)
@@ -617,13 +617,13 @@ public void DrawImage(Image sourceImage, Point point)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceImage | Image | Изображение для рисования. |
-| point | Point | [`Point`](../../point)структура, представляющая расположение верхнего левого угла нарисованного изображения. |
+| point | Point | [`Point`](../../point) структура, представляющая расположение верхнего левого угла нарисованного изображения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceImage*равно null. |
+| ArgumentNullException | *sourceImage* нулевой. |
 
 ### Смотрите также
 
@@ -637,7 +637,7 @@ public void DrawImage(Image sourceImage, Point point)
 
 ## DrawImage(Image, int, int) {#drawimage_20}
 
-Рисует указанное изображение, используя его исходный физический размер, в месте, указанном парой координат.
+Рисует указанное изображение, используя исходный физический размер, в месте, указанном парой координат.
 
 ```csharp
 public void DrawImage(Image sourceImage, int x, int y)
@@ -653,7 +653,7 @@ public void DrawImage(Image sourceImage, int x, int y)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceImage*равно null. |
+| ArgumentNullException | *sourceImage* нулевой. |
 
 ### Смотрите также
 
@@ -666,7 +666,7 @@ public void DrawImage(Image sourceImage, int x, int y)
 
 ## DrawImage(Image, Rectangle) {#drawimage_10}
 
-Рисует указанный[`Image`](../image)в указанном месте и с указанным размером.
+Рисует указанный[`Image`](../image) в указанном месте и с указанным размером.
 
 ```csharp
 public void DrawImage(Image sourceImage, Rectangle rect)
@@ -675,13 +675,13 @@ public void DrawImage(Image sourceImage, Rectangle rect)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | sourceImage | Image | Изображение для рисования. |
-| rect | Rectangle | [`Rectangle`](../../rectangle)структура, определяющая положение и размер рисуемого изображения. |
+| rect | Rectangle | [`Rectangle`](../../rectangle) структура, определяющая расположение и размер рисуемого изображения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceImage*равно null. |
+| ArgumentNullException | *sourceImage* нулевой. |
 
 ### Смотрите также
 
@@ -695,7 +695,7 @@ public void DrawImage(Image sourceImage, Rectangle rect)
 
 ## DrawImage(Image, int, int, int, int) {#drawimage_21}
 
-Рисует указанный[`Image`](../image)в указанном месте и с указанным размером.
+Рисует указанный[`Image`](../image) в указанном месте и с указанным размером.
 
 ```csharp
 public void DrawImage(Image sourceImage, int x, int y, int width, int height)
@@ -713,7 +713,7 @@ public void DrawImage(Image sourceImage, int x, int y, int width, int height)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *sourceImage*равно null. |
+| ArgumentNullException | *sourceImage* нулевой. |
 
 ### Смотрите также
 

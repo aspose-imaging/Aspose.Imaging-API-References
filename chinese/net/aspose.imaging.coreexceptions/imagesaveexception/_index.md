@@ -18,8 +18,8 @@ public class ImageSaveException : ImageException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImageSaveException](imagesaveexception#constructor)(string) | 初始化[`ImageSaveException`](../imagesaveexception)类的新实例。 |
-| [ImageSaveException](imagesaveexception#constructor_1)(string, Exception) | 初始化[`ImageSaveException`](../imagesaveexception)类的新实例。 |
+| [ImageSaveException](imagesaveexception#constructor)(string) | 初始化[`ImageSaveException`](../imagesaveexception)类. |
+| [ImageSaveException](imagesaveexception#constructor_1)(string, Exception) | 初始化[`ImageSaveException`](../imagesaveexception)类. |
 
 ### 也可以看看
 

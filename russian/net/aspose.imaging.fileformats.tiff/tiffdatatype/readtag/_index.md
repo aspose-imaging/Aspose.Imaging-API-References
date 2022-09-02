@@ -27,7 +27,7 @@ public static TiffDataType ReadTag(TiffStreamReader dataStream, long position)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | dataStream |
+| ArgumentNullException | поток данных |
 
 ### Смотрите также
 

@@ -8,7 +8,7 @@ url: /zh/net/aspose.imaging.exif/exifdata/focalplaneresolutionunit/
 ---
 ## ExifData.FocalPlaneResolutionUnit property
 
-获取或设置焦平面分辨率单位。
+获取或设置焦平面分辨率单位
 
 ```csharp
 public ExifUnit FocalPlaneResolutionUnit { get; set; }

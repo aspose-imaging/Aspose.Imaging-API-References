@@ -1,14 +1,14 @@
 ---
 title: EmfPolyBezier16
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfPolyBezier16aspose.imaging.fileformats.emf.emf.records/emfpolybezier16类的新实例
+description: 初始化EmfPolyBezier16aspose.imaging.fileformats.emf.emf.records/emfpolybezier16类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfpolybezier16/emfpolybezier16/
 ---
 ## EmfPolyBezier16(EmfRecord) {#constructor_1}
 
-初始化[`EmfPolyBezier16`](../../emfpolybezier16)类的新实例。
+初始化[`EmfPolyBezier16`](../../emfpolybezier16)类.
 
 ```csharp
 public EmfPolyBezier16(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfPolyBezier16(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfPolyBezier16(EmfRecord source)
 
 ## EmfPolyBezier16() {#constructor}
 
-初始化[`EmfPolyBezier16`](../../emfpolybezier16)类的新实例。
+初始化[`EmfPolyBezier16`](../../emfpolybezier16)类.
 
 ```csharp
 public EmfPolyBezier16()

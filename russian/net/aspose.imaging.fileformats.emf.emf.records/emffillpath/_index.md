@@ -1,14 +1,14 @@
 ---
 title: EmfFillPath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_FILLPATH закрывает все открытые фигуры на текущем пути и заполняет внутреннюю часть пути с использованием текущей кисти и режима заливки полигонов.
+description: Запись EMR_FILLPATH закрывает все открытые фигуры на текущем пути и заполняет внутреннюю часть пути на  используя текущую кисть и режим заливки полигонов.
 type: docs
 weight: 3690
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emffillpath/
 ---
 ## EmfFillPath class
 
-Запись EMR_FILLPATH закрывает все открытые фигуры на текущем пути и заполняет внутреннюю часть пути с использованием текущей кисти и режима заливки полигонов.
+Запись EMR_FILLPATH закрывает все открытые фигуры на текущем пути и заполняет внутреннюю часть пути на , используя текущую кисть и режим заливки полигонов.
 
 ```csharp
 public sealed class EmfFillPath : EmfDrawingRecordType
@@ -18,15 +18,15 @@ public sealed class EmfFillPath : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfFillPath](emffillpath#constructor)() | Инициализирует новый экземпляр класса[`EmfFillPath`](../emffillpath). |
-| [EmfFillPath](emffillpath#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfFillPath`](../emffillpath). |
+| [EmfFillPath](emffillpath#constructor)() | Инициализирует новый экземпляр[`EmfFillPath`](../emffillpath) класс. |
+| [EmfFillPath](emffillpath#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfFillPath`](../emffillpath) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emffillpath/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе 2.2.2.19 [MS-WMF], который определяет ограничивающий прямоугольник, в единицах устройства. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emffillpath/bounds) { get; set; } | Получает или задает 128-битный объект RectL WMF, указанный в разделе 2.2.2.19 [MS-WMF], , который указывает ограничивающий прямоугольник, в единицах измерения устройства. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

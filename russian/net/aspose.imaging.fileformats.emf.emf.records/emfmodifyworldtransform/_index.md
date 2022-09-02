@@ -1,14 +1,14 @@
 ---
 title: EmfModifyWorldTransform
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_MODIFYWORLDTRANSFORM изменяет текущее мировое пространство на пространство страницы в контексте устройства воспроизведения.
+description: Запись EMR_MODIFYWORLDTRANSFORM изменяет текущее мировое пространство на page-space в контексте устройства воспроизведения.
 type: docs
 weight: 3840
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfmodifyworldtransform/
 ---
 ## EmfModifyWorldTransform class
 
-Запись EMR_MODIFYWORLDTRANSFORM изменяет текущее мировое пространство на пространство страницы в контексте устройства воспроизведения.
+Запись EMR_MODIFYWORLDTRANSFORM изменяет текущее мировое пространство на page-space в контексте устройства воспроизведения.
 
 ```csharp
 public sealed class EmfModifyWorldTransform : EmfTransformRecordType
@@ -18,21 +18,21 @@ public sealed class EmfModifyWorldTransform : EmfTransformRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfModifyWorldTransform](emfmodifyworldtransform#constructor)() | Инициализирует новый экземпляр класса[`EmfModifyWorldTransform`](../emfmodifyworldtransform). |
-| [EmfModifyWorldTransform](emfmodifyworldtransform#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfModifyWorldTransform`](../emfmodifyworldtransform). |
+| [EmfModifyWorldTransform](emfmodifyworldtransform#constructor)() | Инициализирует новый экземпляр[`EmfModifyWorldTransform`](../emfmodifyworldtransform) класс. |
+| [EmfModifyWorldTransform](emfmodifyworldtransform#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfModifyWorldTransform`](../emfmodifyworldtransform) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [ModifyWorldTransformMode](../../aspose.imaging.fileformats.emf.emf.records/emfmodifyworldtransform/modifyworldtransformmode) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее, как используется преобразование , указанное в Xform. Это значение ДОЛЖНО находиться в перечислении ModifyWorldTransformMode (раздел 2.1.24). |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 | [Xform](../../aspose.imaging.fileformats.emf.emf.records/emftransformrecordtype/xform) { get; set; } | Получает или задает объект XForm (раздел 2.2.28), который определяет преобразование мирового пространства в пространство страницы. |
 
 ### Примечания
 
-Дополнительные сведения о преобразованиях и координатных пространствах см. в [MSDN-WRLDPGSPC]. См. раздел 2.3.12 для спецификации других типов записей преобразования.
+Дополнительные сведения о преобразованиях и пространствах координат см. в [MSDN-WRLDPGSPC]. См. раздел 2.3.12 для спецификации других типов записей преобразования.
 
 ### Смотрите также
 

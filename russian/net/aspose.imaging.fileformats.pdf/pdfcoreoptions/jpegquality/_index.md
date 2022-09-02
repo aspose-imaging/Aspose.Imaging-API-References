@@ -1,14 +1,14 @@
 ---
 title: JpegQuality
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Указывает качество сжатия JPEG для изображений если используется сжатие JPEG. По умолчанию 95.
+description: Определяет качество сжатия изображений JPEG если используется сжатие JPEG. Значение по умолчанию 95.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.pdf/pdfcoreoptions/jpegquality/
 ---
 ## PdfCoreOptions.JpegQuality property
 
-Указывает качество сжатия JPEG для изображений (если используется сжатие JPEG). По умолчанию 95.
+Определяет качество сжатия изображений JPEG (если используется сжатие JPEG). Значение по умолчанию: 95.
 
 ```csharp
 public int JpegQuality { get; set; }

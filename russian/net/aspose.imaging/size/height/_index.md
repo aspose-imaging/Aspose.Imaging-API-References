@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает вертикальный компонент этогоSizeaspose.imaging/size.
+description: Получает или задает вертикальный компонент этогоSizeaspose.imaging/size .
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging/size/height/
 ---
 ## Size.Height property
 
-Получает или задает вертикальный компонент этого[`Size`](../../size).
+Получает или задает вертикальный компонент этого[`Size`](../../size) .
 
 ```csharp
 public int Height { get; set; }

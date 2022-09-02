@@ -1,14 +1,14 @@
 ---
 title: Version
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定系统版本号的 16 位无符号整数 这必须是 0x0300
+description: 获取或设置一个 16 位无符号整数指定系统的版本号 这必须是 0x0300.
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emflogpalette/version/
 ---
 ## EmfLogPalette.Version property
 
-获取或设置指定系统版本号的 16 位无符号整数。 这必须是 0x0300。
+获取或设置一个 16 位无符号整数，指定系统的版本号。 这必须是 0x0300.
 
 ```csharp
 public short Version { get; set; }

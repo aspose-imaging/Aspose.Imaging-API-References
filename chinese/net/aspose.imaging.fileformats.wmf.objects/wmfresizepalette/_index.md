@@ -1,14 +1,14 @@
 ---
 title: WmfResizePalette
 second_title: Aspose.Imaging for .NET API 参考
-description: META_RESIZEPALETTE 记录重新定义了在回放设备上下文中定义的逻辑调色板 的大小
+description: META_RESIZEPALETTE 记录重新定义了回放设备上下文中定义的逻辑调色板 的大小
 type: docs
 weight: 8940
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfresizepalette/
 ---
 ## WmfResizePalette class
 
-META_RESIZEPALETTE 记录重新定义了在回放设备上下文中定义的逻辑调色板 的大小。
+META_RESIZEPALETTE 记录重新定义了回放设备上下文中定义的逻辑调色板 的大小。
 
 ```csharp
 public class WmfResizePalette : WmfObject

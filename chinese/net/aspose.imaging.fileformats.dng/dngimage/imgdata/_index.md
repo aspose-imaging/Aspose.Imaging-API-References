@@ -16,7 +16,7 @@ public RawData ImgData { get; set; }
 
 ### 适当的价值
 
-img 数据。
+图像数据。
 
 ### 也可以看看
 

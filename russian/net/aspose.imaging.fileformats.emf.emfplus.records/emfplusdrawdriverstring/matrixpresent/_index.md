@@ -1,14 +1,14 @@
 ---
 title: MatrixPresent
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает флаг наличия матрицы 32-разрядное целое число без знака указывающее присутствует ли матрица преобразования в поле TransformMatrix 0 - матрицы нет. 1 - матрица преобразования находится в поле TransformMatrix
+description: Получает или задает присутствует ли матрица flag 32-разрядное целое число без знака указывающее присутствует ли матрица преобразования в TransformMatrix field 0  матрица отсутствует. 1 - матрица преобразования находится в TransformMatrix field
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/matrixpresent/
 ---
 ## EmfPlusDrawDriverString.MatrixPresent property
 
-Получает или задает флаг наличия матрицы 32-разрядное целое число без знака, указывающее, присутствует ли матрица преобразования в поле TransformMatrix 0 - матрицы нет. 1 - матрица преобразования находится в поле TransformMatrix
+Получает или задает, присутствует ли матрица flag 32-разрядное целое число без знака, указывающее, присутствует ли матрица преобразования в TransformMatrix field 0 — матрица отсутствует. 1 - матрица преобразования находится в TransformMatrix field
 
 ```csharp
 public int MatrixPresent { get; set; }

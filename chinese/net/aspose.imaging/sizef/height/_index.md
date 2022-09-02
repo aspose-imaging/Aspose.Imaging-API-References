@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此SizeFaspose.imaging/sizef的垂直分量
+description: 获取或设置 this 的垂直分量SizeFaspose.imaging/sizef .
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging/sizef/height/
 ---
 ## SizeF.Height property
 
-获取或设置此[`SizeF`](../../sizef)的垂直分量。
+获取或设置 this 的垂直分量[`SizeF`](../../sizef) .
 
 ```csharp
 public float Height { get; set; }
@@ -16,7 +16,7 @@ public float Height { get; set; }
 
 ### 返回值
 
-这个[`SizeF`](../../sizef)的垂直分量，通常以像素为单位。
+这个垂直分量[`SizeF`](../../sizef)，通常以像素为单位。
 
 ### 也可以看看
 

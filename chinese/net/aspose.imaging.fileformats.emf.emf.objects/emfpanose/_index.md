@@ -28,12 +28,12 @@ public sealed class EmfPanose : EmfObject
 | [Contrast](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/contrast) { get; set; } | 获取或设置指定字体对比度的 8 位无符号整数。值 必须在对比度（第 2.1.8 节）枚举表中。 |
 | [FamilyType](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/familytype) { get; set; } | 获取或设置指定族类型的 8 位无符号整数。值必须 在 FamilyType（第 2.1.12 节）枚举表中。 |
 | [Letterform](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/letterform) { get; set; } | 获取或设置一个 8 位无符号整数，用于指定字体的字母形式。 值必须在 Letterform（第 2.1.20 节）枚举表中 |
-| [Midline](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/midline) { get; set; } | 获取或设置指定字体中线的 8 位无符号整数。值 必须在 MidLine（第 2.1.23 节）枚举表中。 |
-| [Proportion](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/proportion) { get; set; } | 获取或设置指定字体比例的 8 位无符号整数。 值必须在 Proportion（第 2.1.28 节）枚举表中。 |
-| [SerifStyle](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/serifstyle) { get; set; } | 获取或设置指定衬线样式的 8 位无符号整数。在 SerifType（第 2.1.30 节）枚举表中，该值必须是 。 |
+| [Midline](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/midline) { get; set; } | 获取或设置指定字体中线的 8 位无符号整数。值 必须在中线（第 2.1.23 节）枚举表中。 |
+| [Proportion](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/proportion) { get; set; } | 获取或设置指定字体比例的 8 位无符号整数。 值必须在比例（第 2.1.28 节）枚举表中。 |
+| [SerifStyle](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/serifstyle) { get; set; } | 获取或设置指定衬线样式的 8 位无符号整数。 SerifType（第 2.1.30 节）枚举表中的值必须是 。 |
 | [StrokeVariation](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/strokevariation) { get; set; } | 获取或设置一个 8 位无符号整数，用于指定 字体的笔画变化。该值必须在 StrokeVariation（第 2.1.33 节）枚举表中。 |
 | [Weight](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/weight) { get; set; } | 获取或设置指定字体粗细的 8 位无符号整数。值 必须在权重（第 2.1.34 节）枚举表中。 |
-| [XHeight](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/xheight) { get; set; } | 获取或设置指定字体 x 高度的 8 位无符号整数。值 必须在 XHeight（第 2.1.35 节）枚举表中。 |
+| [XHeight](../../aspose.imaging.fileformats.emf.emf.objects/emfpanose/xheight) { get; set; } | 获取或设置一个 8 位无符号整数，用于指定字体的 x 高度。值 必须在 XHeight（第 2.1.35 节）枚举表中。 |
 
 ### 也可以看看
 

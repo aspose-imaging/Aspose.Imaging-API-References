@@ -36,7 +36,7 @@ public void SetTitle(LangAlt title)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| title | LangAlt | [`LangAlt`](../../../aspose.imaging.xmp/langalt)的实例。 |
+| title | LangAlt | 实例[`LangAlt`](../../../aspose.imaging.xmp/langalt). |
 
 ### 也可以看看
 

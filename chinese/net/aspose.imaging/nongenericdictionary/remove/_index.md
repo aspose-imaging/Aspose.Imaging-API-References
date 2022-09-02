@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: Aspose.Imaging for .NET API 参考
-description: 从 IDictionary对象中删除具有指定键的元素
+description: 从 中移除具有指定键的元素IDictionary对象.
 type: docs
 weight: 150
 url: /zh/net/aspose.imaging/nongenericdictionary/remove/
 ---
 ## NonGenericDictionary.Remove method
 
-从 IDictionary对象中删除具有指定键的元素。
+从 中移除具有指定键的元素IDictionary对象.
 
 ```csharp
 public void Remove(object key)

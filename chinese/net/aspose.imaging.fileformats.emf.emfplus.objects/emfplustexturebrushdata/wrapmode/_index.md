@@ -1,14 +1,14 @@
 ---
 title: WrapMode
 second_title: Aspose.Imaging for .NET API 参考
-description: 从 WrapMode 枚举第 2.1.1.34 节获取或设置一个 32 位有符号整数 指定如何在整个范围内重复纹理图像一个形状当 图像小于被填充的区域时
+description: 从 WrapMode 枚举第 2.1.1.34 节中获取或设置一个 32 位有符号整数
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushdata/wrapmode/
 ---
 ## EmfPlusTextureBrushData.WrapMode property
 
-从 WrapMode 枚举（第 2.1.1.34 节）获取或设置一个 32 位有符号整数 指定如何在整个范围内重复纹理图像一个形状，当 图像小于被填充的区域时。
+从 WrapMode 枚举（第 2.1.1.34 节）中获取或设置一个 32 位有符号整数
 
 ```csharp
 public EmfPlusWrapMode WrapMode { get; set; }

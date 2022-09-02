@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Imaging for .NET API 参考
-description: 测试obj是否是具有相同位置和大小的Rectangleaspose.imaging/rectangle结构这个Rectangleaspose.imaging/rectangle结构
+description: 测试是否obj是一个Rectangleaspose.imaging/rectangle具有相同位置和大小的结构Rectangleaspose.imaging/rectangle结构.
 type: docs
 weight: 230
 url: /zh/net/aspose.imaging/rectangle/equals/
 ---
 ## Rectangle.Equals method
 
-测试*obj*是否是具有相同位置和大小的[`Rectangle`](../../rectangle)结构这个[`Rectangle`](../../rectangle)结构。
+测试是否*obj*是一个[`Rectangle`](../../rectangle)具有相同位置和大小的结构[`Rectangle`](../../rectangle)结构.
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | Object进行测试。 |
+| obj | Object | 这Object去测试。 |
 
 ### 返回值
 
-如果*obj*是[`Rectangle`](../../rectangle)结构及其[`X`](../x),[`Y`](../y),[`Width`](../width)和[`Height`](../height)属性等于这个[`Rectangle`](../../rectangle)结构的相应属性；否则为假。
+此方法返回 true 如果*obj*是一个[`Rectangle`](../../rectangle)结构及其[`X`](../x) ,[`Y`](../y) ,[`Width`](../width)， 和[`Height`](../height)属性等于 this 的对应属性[`Rectangle`](../../rectangle)结构体;否则为假。
 
 ### 也可以看看
 

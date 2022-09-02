@@ -1,14 +1,14 @@
 ---
 title: ExifSubjectDistanceRange
 second_title: Aspose.Imaging for .NET API 参考
-description: exif 主题距离范围枚举
+description: exif 主体距离范围枚举
 type: docs
 weight: 1030
 url: /zh/net/aspose.imaging.exif.enums/exifsubjectdistancerange/
 ---
 ## ExifSubjectDistanceRange enumeration
 
-exif 主题距离范围枚举。
+exif 主体距离范围枚举。
 
 ```csharp
 public enum ExifSubjectDistanceRange
@@ -18,7 +18,7 @@ public enum ExifSubjectDistanceRange
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Unknown | `0` | 未知被摄体距离范围 |
+| Unknown | `0` | 未知的被摄体距离范围 |
 | Macro | `1` | 宏范围 |
 | CloseView | `2` | 关闭视图。 |
 | DistantView | `3` | 远景。 |

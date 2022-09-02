@@ -1,14 +1,14 @@
 ---
 title: BaseCap
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает перечислениеLineCapaspose.imaging/linecapдля которого используетсяCustomLineCapaspose.imaging/customlinecapосновано.
+description: Получает или задаетLineCapaspose.imaging/linecap перечисление по которому этоCustomLineCapaspose.imaging/customlinecap основано .
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging/customlinecap/basecap/
 ---
 ## CustomLineCap.BaseCap property
 
-Получает или задает перечисление[`LineCap`](../../linecap)для которого используется[`CustomLineCap`](../../customlinecap)основано.
+Получает или задает[`LineCap`](../../linecap) перечисление, по которому это[`CustomLineCap`](../../customlinecap) основано .
 
 ```csharp
 public LineCap BaseCap { get; set; }
@@ -16,7 +16,7 @@ public LineCap BaseCap { get; set; }
 
 ### Стоимость имущества
 
-Перечисление[`LineCap`](../../linecap), на котором этоCustomLineCap.
+[`LineCap`](../../linecap) перечисление, по которому это[`CustomLineCap`](../../customlinecap) основано.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: SurroundColors
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив цветов соответствующих точкам на пути который заполняет этотPathGradientBrushaspose.imaging.brushes/pathgradientbrush.
+description: Получает или задает массив цветов соответствующих точкам путиPathGradientBrushaspose.imaging.brushes/pathgradientbrush заполняет.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.brushes/pathgradientbrush/surroundcolors/
 ---
 ## PathGradientBrush.SurroundColors property
 
-Получает или задает массив цветов, соответствующих точкам на пути, который заполняет этот[`PathGradientBrush`](../../pathgradientbrush).
+Получает или задает массив цветов, соответствующих точкам пути,[`PathGradientBrush`](../../pathgradientbrush) заполняет.
 
 ```csharp
 public Color[] SurroundColors { get; set; }
@@ -16,7 +16,7 @@ public Color[] SurroundColors { get; set; }
 
 ### Стоимость имущества
 
-Массив структур[`Color`](../../../aspose.imaging/color), который представляет цвета, связанные с каждой точкой в пути этот[`PathGradientBrush`](../../pathgradientbrush)заполняет.
+Массив[`Color`](../../../aspose.imaging/color)структуры, представляющие цвета, связанные с каждой точкой пути,[`PathGradientBrush`](../../pathgradientbrush) заполняет.
 
 ### Смотрите также
 

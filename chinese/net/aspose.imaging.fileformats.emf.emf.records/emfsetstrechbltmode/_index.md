@@ -18,14 +18,14 @@ public sealed class EmfSetStrechBltMode : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSetStrechBltMode](emfsetstrechbltmode)(EmfRecord) | 初始化[`EmfSetStrechBltMode`](../emfsetstrechbltmode)类的新实例。 |
+| [EmfSetStrechBltMode](emfsetstrechbltmode)(EmfRecord) | 初始化[`EmfSetStrechBltMode`](../emfsetstrechbltmode)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
-| [StretchMode](../../aspose.imaging.fileformats.emf.emf.records/emfsetstrechbltmode/stretchmode) { get; set; } | 获取或设置一个指定拉伸模式的 32 位无符号整数，在 StretchMode 枚举中可以是 。 |
+| [StretchMode](../../aspose.imaging.fileformats.emf.emf.records/emfsetstrechbltmode/stretchmode) { get; set; } | 获取或设置一个 32 位无符号整数，用于指定拉伸模式，并且可以在 StretchMode 枚举中为 。 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Aspose.Imaging for .NET API 参考
-description: 返回此Pointaspose.imaging/point的哈希码
+description: 为此返回哈希码Pointaspose.imaging/point .
 type: docs
 weight: 120
 url: /zh/net/aspose.imaging/point/gethashcode/
 ---
 ## Point.GetHashCode method
 
-返回此[`Point`](../../point)的哈希码。
+为此返回哈希码[`Point`](../../point) .
 
 ```csharp
 public override int GetHashCode()

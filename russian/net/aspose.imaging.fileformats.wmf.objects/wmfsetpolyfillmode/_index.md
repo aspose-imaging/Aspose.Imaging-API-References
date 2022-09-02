@@ -1,14 +1,14 @@
 ---
 title: WmfSetPolyFillMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Установленный режим заливки полигонов.
+description: Установленный режим полифонической заливки.
 type: docs
 weight: 9120
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfsetpolyfillmode/
 ---
 ## WmfSetPolyFillMode class
 
-Установленный режим заливки полигонов.
+Установленный режим полифонической заливки.
 
 ```csharp
 public class WmfSetPolyFillMode : WmfObject
@@ -24,8 +24,8 @@ public class WmfSetPolyFillMode : WmfObject
 
 | Имя | Описание |
 | --- | --- |
-| [PolyFillMode](../../aspose.imaging.fileformats.wmf.objects/wmfsetpolyfillmode/polyfillmode) { get; set; } | Получает или устанавливает режим заливки полигонов. |
-| [Reserved](../../aspose.imaging.fileformats.wmf.objects/wmfsetpolyfillmode/reserved) { get; set; } | Получает или устанавливает зарезервированное значение. |
+| [PolyFillMode](../../aspose.imaging.fileformats.wmf.objects/wmfsetpolyfillmode/polyfillmode) { get; set; } | Получает или задает режим полигональной заливки. |
+| [Reserved](../../aspose.imaging.fileformats.wmf.objects/wmfsetpolyfillmode/reserved) { get; set; } | Получает или устанавливает зарезервированное. |
 
 ### Смотрите также
 

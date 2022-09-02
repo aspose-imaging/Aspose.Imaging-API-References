@@ -1,14 +1,14 @@
 ---
 title: LoadBlockByFirstSupportedDescriptor
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Загружает блок gif используя первый найденный открыватель подходящий для указанногоstream.
+description: Загружает блок gif используя первый найденный открыватель подходящий для указанногоstream .
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.gif/gifblocksregistry/loadblockbyfirstsupporteddescriptor/
 ---
 ## GifBlocksRegistry.LoadBlockByFirstSupportedDescriptor method
 
-Загружает блок gif, используя первый найденный открыватель, подходящий для указанного*stream*.
+Загружает блок gif, используя первый найденный открыватель, подходящий для указанного*stream* .
 
 ```csharp
 public static IGifBlock LoadBlockByFirstSupportedDescriptor(Stream stream, 
@@ -18,15 +18,15 @@ public static IGifBlock LoadBlockByFirstSupportedDescriptor(Stream stream,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток. |
-| containerPalette | IColorPalette | Палитра контейнера. |
+| containerPalette | IColorPalette | Палитра контейнеров. |
 
 ### Возвращаемое значение
 
-Загруженный блок gif или ноль, если открыватель не найден.
+Загруженный блок gif или null, если открыватель не найден.
 
 ### Примечания
 
-Первый открыватель будет фактически последним зарегистрированным.
+Первый открыватель будет последним зарегистрированным.
 
 ### Смотрите также
 

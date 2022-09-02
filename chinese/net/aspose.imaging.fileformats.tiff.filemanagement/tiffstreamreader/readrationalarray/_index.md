@@ -27,7 +27,7 @@ public TiffRational[] ReadRationalArray(long position, long count)
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | count;预期为正数。 |
+| ArgumentOutOfRangeException | 计数;期望一个正数。 |
 
 ### 也可以看看
 

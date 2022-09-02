@@ -1,14 +1,14 @@
 ---
 title: SamplesPerPixel
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает выборки на пиксель.
+description: Получает или устанавливает выборки на пиксель.
 type: docs
 weight: 170
 url: /ru/net/aspose.imaging.exif/jpegexifdata/samplesperpixel/
 ---
 ## JpegExifData.SamplesPerPixel property
 
-Получает или задает выборки на пиксель.
+Получает или устанавливает выборки на пиксель.
 
 ```csharp
 public ushort SamplesPerPixel { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: EmfPolyDraw16
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPolyDraw16aspose.imaging.fileformats.emf.emf.records/emfpolydraw16.
+description: Инициализирует новый экземплярEmfPolyDraw16aspose.imaging.fileformats.emf.emf.records/emfpolydraw16 класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpolydraw16/emfpolydraw16/
 ---
 ## EmfPolyDraw16 constructor
 
-Инициализирует новый экземпляр класса[`EmfPolyDraw16`](../../emfpolydraw16).
+Инициализирует новый экземпляр[`EmfPolyDraw16`](../../emfpolydraw16) класс.
 
 ```csharp
 public EmfPolyDraw16(EmfRecord source)

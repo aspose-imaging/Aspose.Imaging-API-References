@@ -1,14 +1,14 @@
 ---
 title: IsRelative
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее является ли данный экземпляр относительным.
+description: Получает или задает значение указывающее является ли этот экземпляр относительным.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.cdr.types/cdrimagefill/isrelative/
 ---
 ## CdrImageFill.IsRelative property
 
-Получает или задает значение, указывающее, является ли данный экземпляр относительным.
+Получает или задает значение, указывающее, является ли этот экземпляр относительным.
 
 ```csharp
 public bool IsRelative { get; set; }
@@ -16,7 +16,7 @@ public bool IsRelative { get; set; }
 
 ### Стоимость имущества
 
-` true` если этот экземпляр относительный; в противном случае` false` .
+`истинный` если этот экземпляр является относительным; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

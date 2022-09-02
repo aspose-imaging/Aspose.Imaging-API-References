@@ -16,7 +16,7 @@ public void RemoveFigure(Figure figure)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| figure | Figure | Фигурка для удаления. |
+| figure | Figure | Фигура для удаления. |
 
 ### Смотрите также
 

@@ -19,23 +19,23 @@ public enum EmfPlusPenDataFlags
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| PenDataTransform | `1` | Если установлено, матрица преобразования 2x3 ДОЛЖНА быть указана в поле OptionalData объекта[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata)объект. |
-| PenDataStartCap | `2` | Если установлено, стиль шапки стартовой линии ДОЛЖЕН быть указан в поле OptionalData файла[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata)объект. |
-| PenDataEndCap | `4` | Указывает, ДОЛЖЕН ли быть указан стиль окончания строки в поле OptionalData файла[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata)объект. |
-| PenDataJoin | `8` | Указывает, ДОЛЖЕН ли быть указан тип соединения линии в поле OptionalData файла[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata)объект. |
-| PenDataMiterLimit | `10` | Указывает, ДОЛЖЕН ли быть указан предел митры в поле OptionalData объекта[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata)объект. |
-| PenDataLineStyle | `20` | Указывает, ДОЛЖЕН ли быть указан стиль линии в поле OptionalData объекта[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata)объект. |
-| PenDataDashedLineCap | `40` | Указывает, ДОЛЖНА ли быть указана пунктирная линия в поле OptionalData файла[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata)объект. |
-| PenDataDashedLineOffset | `80` | Указывает, ДОЛЖНО ли быть указано смещение пунктирной линии в поле OptionalData файла[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata)объект. |
-| PenDataDashedLine | `100` | Указывает, ДОЛЖЕН ли быть указан объект[`EmfPlusDashedLineData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusdashedlinedata)в поле OptionalData объект[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata). |
-| PenDataNonCenter | `200` | Указывает, ДОЛЖНО ли быть указано выравнивание пера в поле OptionalData объекта[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata)объект. |
-| PenDataCompoundLine | `400` | Указывает, присутствуют ли длина и содержимое объекта[`EmfPlusCompoundLineData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompoundlinedata)в поле OptionalData объекта[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata). |
-| PenDataCustomStartCap | `800` | Указывает, ДОЛЖЕН ли объект[`EmfPlusCustomStartCapData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomstartcapdata)указываться в поле OptionalData объект[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata). |
-| PenDataCustomEndCap | `1000` | Указывает, ДОЛЖЕН ли быть указан объект[`EmfPlusCustomEndCapData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomendcapdata)в поле OptionalData объект[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata). |
+| PenDataTransform | `1` | Если установлено, матрица преобразования 2x3 ДОЛЖНА быть указана в поле OptionalData[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) объект. |
+| PenDataStartCap | `2` | Если установлено, стиль шапки стартовой линии ДОЛЖЕН быть указан в поле OptionalData[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) объект. |
+| PenDataEndCap | `4` | Указывает, ДОЛЖЕН ли быть указан стиль окончания строки в поле OptionalData[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) объект. |
+| PenDataJoin | `8` | Указывает, ДОЛЖЕН ли указываться тип соединения линий в поле OptionalData[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) объект. |
+| PenDataMiterLimit | `10` | Указывает, ДОЛЖЕН ли предел митры указываться в поле OptionalData[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) объект. |
+| PenDataLineStyle | `20` | Указывает, ДОЛЖЕН ли быть указан стиль линии в поле OptionalData[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) объект. |
+| PenDataDashedLineCap | `40` | Указывает, ДОЛЖЕН ли указываться штрих пунктирной линией в поле OptionalData[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) объект. |
+| PenDataDashedLineOffset | `80` | Указывает, ДОЛЖНО ли быть указано смещение пунктирной линии в поле OptionalData[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) объект. |
+| PenDataDashedLine | `100` | Указывает, является ли[`EmfPlusDashedLineData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusdashedlinedata) объект ДОЛЖЕН быть указан в поле OptionalData[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) объект. |
+| PenDataNonCenter | `200` | Указывает, ДОЛЖНО ли указываться выравнивание пера в поле OptionalData[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) объект. |
+| PenDataCompoundLine | `400` | Указывает, являются ли длина и содержание[`EmfPlusCompoundLineData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompoundlinedata)объект присутствует в поле OptionalData[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) объект. |
+| PenDataCustomStartCap | `800` | Указывает, является ли[`EmfPlusCustomStartCapData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomstartcapdata) объект ДОЛЖЕН быть указан в поле OptionalData[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) объект. |
+| PenDataCustomEndCap | `1000` | Указывает, является ли[`EmfPlusCustomEndCapData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomendcapdata) объект ДОЛЖЕН быть указан в поле OptionalData[`EmfPlusPenData`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata) объект. |
 
 ### Примечания
 
-Графические перья определяются[`EmfPlusPen`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen)объекты.
+Графические перья указаны[`EmfPlusPen`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen) объекты.
 
 ### Смотрите также
 

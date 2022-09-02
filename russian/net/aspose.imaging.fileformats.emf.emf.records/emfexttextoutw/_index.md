@@ -18,20 +18,20 @@ public sealed class EmfExtTextOutW : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfExtTextOutW](emfexttextoutw#constructor)() | Инициализирует новый экземпляр класса[`EmfExtTextOutW`](../emfexttextoutw). |
-| [EmfExtTextOutW](emfexttextoutw#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfExtTextOutW`](../emfexttextoutw). |
+| [EmfExtTextOutW](emfexttextoutw#constructor)() | Инициализирует новый экземпляр[`EmfExtTextOutW`](../emfexttextoutw) класс. |
+| [EmfExtTextOutW](emfexttextoutw#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfExtTextOutW`](../emfexttextoutw) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfexttextoutw/bounds) { get; set; } | Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19). Он не используется и ДОЛЖЕН быть проигнорирован при получении. |
-| [ExScale](../../aspose.imaging.fileformats.emf.emf.records/emfexttextoutw/exscale) { get; set; } | Получает или задает 32-разрядное значение с плавающей запятой, указывающее коэффициент масштабирования, применяемый вдоль оси X для преобразования единиц пространства страницы до единиц 0,01 мм. Это СЛЕДУЕТ использовать, только если графический режим , указанный в iGraphicsMode, равен GM_COMPATIBLE. |
-| [EyScale](../../aspose.imaging.fileformats.emf.emf.records/emfexttextoutw/eyscale) { get; set; } | Получает или задает 32-разрядное значение с плавающей запятой, указывающее коэффициент масштабирования, применяемый вдоль оси Y для преобразования единиц пространства страницы до единиц 0,01 мм. Это СЛЕДУЕТ использовать, только если графический режим , указанный в iGraphicsMode, равен GM_COMPATIBLE. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfexttextoutw/bounds) { get; set; } | Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19). Он не используется, и ДОЛЖЕН игнорироваться при получении. |
+| [ExScale](../../aspose.imaging.fileformats.emf.emf.records/emfexttextoutw/exscale) { get; set; } | Получает или задает 32-разрядное значение с плавающей запятой, указывающее коэффициент масштабирования, применяемый вдоль оси X для преобразования единиц пространства страницы в единицы 0,01 мм. Это СЛЕДУЕТ использовать, только если графический режим , указанный в iGraphicsMode, равен GM_COMPATIBLE. |
+| [EyScale](../../aspose.imaging.fileformats.emf.emf.records/emfexttextoutw/eyscale) { get; set; } | Получает или задает 32-разрядное значение с плавающей запятой, указывающее коэффициент масштабирования, применяемый вдоль оси Y для преобразования единиц пространства страницы в единицы 0,01 мм. Это СЛЕДУЕТ использовать, только если графический режим , указанный в iGraphicsMode, равен GM_COMPATIBLE. |
 | [IGraphicsMode](../../aspose.imaging.fileformats.emf.emf.records/emfexttextoutw/igraphicsmode) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее графический режим из перечисления GraphicsMode (раздел 2.1.16). |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
-| [WEmrText](../../aspose.imaging.fileformats.emf.emf.records/emfexttextoutw/wemrtext) { get; set; } | Получает или задает объект EmrText (раздел 2.2.5), указывающий выходную строку в 16-битных символах Unicode UTF16-LE с текстовыми атрибутами и значениями интервалов. |
+| [WEmrText](../../aspose.imaging.fileformats.emf.emf.records/emfexttextoutw/wemrtext) { get; set; } | Получает или задает объект EmrText (раздел 2.2.5), который определяет выходную строку в 16-битных символах Unicode UTF16-LE с текстовыми атрибутами и значениями интервалов. |
 
 ### Смотрите также
 

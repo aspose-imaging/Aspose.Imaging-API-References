@@ -1,14 +1,14 @@
 ---
 title: IMaskingArgs
 second_title: Aspose.Imaging for .NET API 参考
-description: 掩码参数
+description: 掩蔽参数
 type: docs
-weight: 10500
+weight: 10490
 url: /zh/net/aspose.imaging.masking.options/imaskingargs/
 ---
 ## IMaskingArgs interface
 
-掩码参数
+掩蔽参数
 
 ```csharp
 public interface IMaskingArgs

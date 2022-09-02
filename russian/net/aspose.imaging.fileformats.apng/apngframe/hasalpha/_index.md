@@ -1,14 +1,14 @@
 ---
 title: HasAlpha
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получите значение указывающее имеет ли этот экземпляр альфа-канал.
+description: Получить значение указывающее есть ли у этого экземпляра альфа.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.fileformats.apng/apngframe/hasalpha/
 ---
 ## ApngFrame.HasAlpha property
 
-Получите значение, указывающее, имеет ли этот экземпляр альфа-канал.
+Получить значение, указывающее, есть ли у этого экземпляра альфа.
 
 ```csharp
 public override bool HasAlpha { get; }
@@ -16,7 +16,7 @@ public override bool HasAlpha { get; }
 
 ### Стоимость имущества
 
-` true` если у этого экземпляра есть альфа; в противном случае` false` .
+`истинный` если у этого экземпляра есть альфа; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

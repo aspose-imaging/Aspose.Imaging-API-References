@@ -16,7 +16,7 @@ public float MeasureLineDistance { get; set; }
 
 ### 适当的价值
 
-测量线距离。
+测量线距。
 
 ### 也可以看看
 

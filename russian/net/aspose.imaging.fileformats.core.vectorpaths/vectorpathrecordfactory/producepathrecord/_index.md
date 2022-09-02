@@ -20,7 +20,7 @@ public VectorPathRecord ProducePathRecord(byte[] data)
 
 ### Возвращаемое значение
 
-Создано[`VectorPathRecord`](../../vectorpathrecord)
+Созданный[`VectorPathRecord`](../../vectorpathrecord)
 
 ### Исключения
 

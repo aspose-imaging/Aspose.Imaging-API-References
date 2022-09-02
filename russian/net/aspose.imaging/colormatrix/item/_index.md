@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает элемент в указанной строке и столбце вColorMatrixaspose.imaging/colormatrix.
+description: Получает или задает элемент в указанной строке и столбце вColorMatrixaspose.imaging/colormatrix .
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging/colormatrix/item/
 ---
 ## ColorMatrix indexer
 
-Получает или задает элемент в указанной строке и столбце в[`ColorMatrix`](../../colormatrix).
+Получает или задает элемент в указанной строке и столбце в[`ColorMatrix`](../../colormatrix) .
 
 ```csharp
 public float this[int row, int column] { get; set; }

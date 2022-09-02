@@ -1,14 +1,14 @@
 ---
 title: EmfColorMatchToTargetW
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfColorMatchToTargetWaspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw.
+description: Инициализирует новый экземплярEmfColorMatchToTargetWaspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/emfcolormatchtotargetw/
 ---
 ## EmfColorMatchToTargetW constructor
 
-Инициализирует новый экземпляр класса[`EmfColorMatchToTargetW`](../../emfcolormatchtotargetw).
+Инициализирует новый экземпляр[`EmfColorMatchToTargetW`](../../emfcolormatchtotargetw) класс.
 
 ```csharp
 public EmfColorMatchToTargetW(EmfRecord source)

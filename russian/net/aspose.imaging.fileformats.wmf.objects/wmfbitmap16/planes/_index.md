@@ -1,14 +1,14 @@
 ---
 title: Planes
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает плоскости.
+description: Получает или задает плоскости.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfbitmap16/planes/
 ---
 ## WmfBitmap16.Planes property
 
-Получает или устанавливает плоскости.
+Получает или задает плоскости.
 
 ```csharp
 public byte Planes { get; set; }

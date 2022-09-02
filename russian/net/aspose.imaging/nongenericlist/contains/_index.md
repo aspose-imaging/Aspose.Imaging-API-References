@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Определяет содержит лиIListопределенное значение.
+description: ОпределяетIList содержит определенное значение.
 type: docs
 weight: 100
 url: /ru/net/aspose.imaging/nongenericlist/contains/
 ---
 ## NonGenericList.Contains method
 
-Определяет, содержит лиIListопределенное значение.
+Определяет,IList содержит определенное значение.
 
 ```csharp
 public bool Contains(object value)
@@ -16,11 +16,11 @@ public bool Contains(object value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | Object | ОбъектObjectдля размещения вIList. |
+| value | Object | Object найти вIList. |
 
 ### Возвращаемое значение
 
-true, еслиObjectнаходится вIList; в противном случае ложно.
+верно, еслиObject находится вIList ; в противном случае false.
 
 ### Смотрите также
 

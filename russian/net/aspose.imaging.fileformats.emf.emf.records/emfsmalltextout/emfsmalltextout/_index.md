@@ -1,14 +1,14 @@
 ---
 title: EmfSmallTextOut
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSmallTextOutaspose.imaging.fileformats.emf.emf.records/emfsmalltextout.
+description: Инициализирует новый экземплярEmfSmallTextOutaspose.imaging.fileformats.emf.emf.records/emfsmalltextout класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/emfsmalltextout/
 ---
 ## EmfSmallTextOut constructor
 
-Инициализирует новый экземпляр класса[`EmfSmallTextOut`](../../emfsmalltextout).
+Инициализирует новый экземпляр[`EmfSmallTextOut`](../../emfsmalltextout) класс.
 
 ```csharp
 public EmfSmallTextOut(EmfRecord source)

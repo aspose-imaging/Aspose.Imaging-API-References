@@ -1,14 +1,14 @@
 ---
 title: EmfTransformRecordType
 second_title: Aspose.Imaging for .NET API 参考
-description: 变换记录类型指定并修改世界空间到页面空间的变换
+description: 转换记录类型指定和修改世界空间到页面空间的转换
 type: docs
 weight: 4630
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emftransformrecordtype/
 ---
 ## EmfTransformRecordType class
 
-变换记录类型指定并修改世界空间到页面空间的变换。
+转换记录类型指定和修改世界空间到页面空间的转换。
 
 ```csharp
 public abstract class EmfTransformRecordType : EmfRecord
@@ -20,7 +20,7 @@ public abstract class EmfTransformRecordType : EmfRecord
 | --- | --- |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
-| [Xform](../../aspose.imaging.fileformats.emf.emf.records/emftransformrecordtype/xform) { get; set; } | 获取或设置一个 XForm 对象（第 2.2.28 节），它定义了世界空间到页面空间的转换。 |
+| [Xform](../../aspose.imaging.fileformats.emf.emf.records/emftransformrecordtype/xform) { get; set; } | 获取或设置一个 XForm 对象（第 2.2.28 节），它定义了一个世界空间到页面空间的转换。 |
 
 ### 也可以看看
 

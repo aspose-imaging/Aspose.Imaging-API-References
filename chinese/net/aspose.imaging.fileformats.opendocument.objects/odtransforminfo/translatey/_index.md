@@ -1,14 +1,14 @@
 ---
 title: TranslateY
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置平移 y
+description: 获取或设置翻译 y.
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects/odtransforminfo/translatey/
 ---
 ## OdTransformInfo.TranslateY property
 
-获取或设置平移 y。
+获取或设置翻译 y.
 
 ```csharp
 public float TranslateY { get; set; }
@@ -16,7 +16,7 @@ public float TranslateY { get; set; }
 
 ### 适当的价值
 
-翻译 y。
+翻译 y.
 
 ### 也可以看看
 

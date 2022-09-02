@@ -1,14 +1,14 @@
 ---
 title: OdEquation
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化OdEquationaspose.imaging.fileformats.opendocument.objects.graphic/odequation类的新实例
+description: 初始化OdEquationaspose.imaging.fileformats.opendocument.objects.graphic/odequation类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odequation/odequation/
 ---
 ## OdEquation constructor
 
-初始化[`OdEquation`](../../odequation)类的新实例。
+初始化[`OdEquation`](../../odequation)类.
 
 ```csharp
 public OdEquation(OdObject parent)
@@ -16,7 +16,7 @@ public OdEquation(OdObject parent)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | OdObject | 父级。 |
+| parent | OdObject | 家长。 |
 
 ### 也可以看看
 

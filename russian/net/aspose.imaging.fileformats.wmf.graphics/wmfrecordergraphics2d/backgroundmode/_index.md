@@ -1,14 +1,14 @@
 ---
 title: BackgroundMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает фоновый режим.
+description: Получает или устанавливает фоновый режим.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.wmf.graphics/wmfrecordergraphics2d/backgroundmode/
 ---
 ## WmfRecorderGraphics2D.BackgroundMode property
 
-Получает или задает фоновый режим.
+Получает или устанавливает фоновый режим.
 
 ```csharp
 public WmfMixMode BackgroundMode { get; set; }

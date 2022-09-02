@@ -1,14 +1,14 @@
 ---
 title: PointExtensions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Содержит методы расширения дляPoint../aspose.imaging/pointиPointF../aspose.imaging/pointfструктуры.
+description: Содержит методы расширения дляPoint../aspose.imaging/point а такжеPointF../aspose.imaging/pointf структуры.
 type: docs
 weight: 1240
 url: /ru/net/aspose.imaging.extensions/pointextensions/
 ---
 ## PointExtensions class
 
-Содержит методы расширения для[`Point`](../../aspose.imaging/point)и[`PointF`](../../aspose.imaging/pointf)структуры.
+Содержит методы расширения для[`Point`](../../aspose.imaging/point) а также[`PointF`](../../aspose.imaging/pointf) структуры.
 
 ```csharp
 public static class PointExtensions
@@ -18,9 +18,9 @@ public static class PointExtensions
 
 | Имя | Описание |
 | --- | --- |
-| static [ToGdiPoint](../../aspose.imaging.extensions/pointextensions/togdipoint)(PointF) | Преобразует[`PointF`](../../aspose.imaging/pointf)вPointF. |
-| static [ToGdiPoints](../../aspose.imaging.extensions/pointextensions/togdipoints)(PointF[]) | Преобразует массив[`PointF`](../../aspose.imaging/pointf)в массивPointFмножество. |
-| static [ToPointsArray](../../aspose.imaging.extensions/pointextensions/topointsarray)(Point[]) | Преобразует массив[`Point`](../../aspose.imaging/point)в массив[`PointF`](../../aspose.imaging/pointf)множество. |
+| static [ToGdiPoint](../../aspose.imaging.extensions/pointextensions/togdipoint)(PointF) | Преобразует[`PointF`](../../aspose.imaging/pointf) кPointF . |
+| static [ToGdiPoints](../../aspose.imaging.extensions/pointextensions/togdipoints)(PointF[]) | Преобразует[`PointF`](../../aspose.imaging/pointf)массив кPointF массив. |
+| static [ToPointsArray](../../aspose.imaging.extensions/pointextensions/topointsarray)(Point[]) | Преобразует[`Point`](../../aspose.imaging/point)массив к[`PointF`](../../aspose.imaging/pointf) массив. |
 
 ### Смотрите также
 

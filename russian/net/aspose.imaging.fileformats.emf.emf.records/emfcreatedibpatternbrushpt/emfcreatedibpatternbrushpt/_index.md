@@ -1,14 +1,14 @@
 ---
 title: EmfCreateDibPatternBrushPt
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfCreateDibPatternBrushPtaspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt.
+description: Инициализирует новый экземплярEmfCreateDibPatternBrushPtaspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/emfcreatedibpatternbrushpt/
 ---
 ## EmfCreateDibPatternBrushPt(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfCreateDibPatternBrushPt`](../../emfcreatedibpatternbrushpt).
+Инициализирует новый экземпляр[`EmfCreateDibPatternBrushPt`](../../emfcreatedibpatternbrushpt) класс.
 
 ```csharp
 public EmfCreateDibPatternBrushPt(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfCreateDibPatternBrushPt(EmfRecord source)
 
 ## EmfCreateDibPatternBrushPt() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfCreateDibPatternBrushPt`](../../emfcreatedibpatternbrushpt).
+Инициализирует новый экземпляр[`EmfCreateDibPatternBrushPt`](../../emfcreatedibpatternbrushpt) класс.
 
 ```csharp
 public EmfCreateDibPatternBrushPt()

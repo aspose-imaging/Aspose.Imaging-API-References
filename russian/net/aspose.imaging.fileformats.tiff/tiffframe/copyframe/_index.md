@@ -16,11 +16,11 @@ public static TiffFrame CopyFrame(TiffFrame tiffFrame)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| tiffFrame | TiffFrame | Копируемый tiff-кадр. |
+| tiffFrame | TiffFrame | TIFF-кадр для копирования. |
 
 ### Возвращаемое значение
 
-Недавно скопированный tiff-кадр.
+Недавно скопированный TIFF-кадр.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: WmfCreatePatternBrush
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись META_CREATEPATTERNBRUSH создает объект кисти с шаблоном  заданным растровым изображением.
+description: Запись META_CREATEPATTERNBRUSH создает объект кисти с рисунком  заданным растровым изображением.
 type: docs
 weight: 8540
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfcreatepatternbrush/
 ---
 ## WmfCreatePatternBrush class
 
-Запись META_CREATEPATTERNBRUSH создает объект кисти с шаблоном , заданным растровым изображением.
+Запись META_CREATEPATTERNBRUSH создает объект кисти с рисунком , заданным растровым изображением.
 
 ```csharp
 public class WmfCreatePatternBrush : WmfGraphicObject
@@ -27,7 +27,7 @@ public class WmfCreatePatternBrush : WmfGraphicObject
 | [Bitmap](../../aspose.imaging.fileformats.wmf.objects/wmfcreatepatternbrush/bitmap) { get; set; } | Получает или задает растровое изображение. |
 | [Index](../../aspose.imaging.fileformats.wmf.objects/wmfgraphicobject/index) { get; set; } | Получает или задает индекс. |
 | [Pattern](../../aspose.imaging.fileformats.wmf.objects/wmfcreatepatternbrush/pattern) { get; set; } | Получает или задает шаблон. |
-| [Reserved](../../aspose.imaging.fileformats.wmf.objects/wmfcreatepatternbrush/reserved) { get; set; } | Получает или устанавливает зарезервированное значение. |
+| [Reserved](../../aspose.imaging.fileformats.wmf.objects/wmfcreatepatternbrush/reserved) { get; set; } | Получает или устанавливает зарезервированное. |
 
 ### Смотрите также
 

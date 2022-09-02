@@ -16,7 +16,7 @@ public float PaddingLeft { get; set; }
 
 ### 适当的价值
 
-左边的填充。
+左边的内边距。
 
 ### 也可以看看
 

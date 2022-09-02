@@ -1,14 +1,14 @@
 ---
 title: PaddingRight
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает правильное заполнение.
+description: Получает или задает правильный отступ.
 type: docs
 weight: 140
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/paddingright/
 ---
 ## OdGraphicStyle.PaddingRight property
 
-Получает или задает правильное заполнение.
+Получает или задает правильный отступ.
 
 ```csharp
 public float PaddingRight { get; set; }
@@ -16,7 +16,7 @@ public float PaddingRight { get; set; }
 
 ### Стоимость имущества
 
-Заполнение справа.
+Право заполнения.
 
 ### Смотрите также
 

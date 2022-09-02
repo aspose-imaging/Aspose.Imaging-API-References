@@ -1,14 +1,14 @@
 ---
 title: Point
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает точку.
+description: Получает или устанавливает точку.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfpointobject/point/
 ---
 ## WmfPointObject.Point property
 
-Получает или задает точку.
+Получает или устанавливает точку.
 
 ```csharp
 public Point Point { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: EmfExtSelectClipRgn
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_EXTSELECTCLIPRGN 记录使用指定模式将指定区域与当前剪辑区域 组合在一起 注意 本节中未描述的字段在第 2.3.2 节中指定
+description: EMR_EXTSELECTCLIPRGN 记录使用指定的模式将指定区域与当前剪辑区域 组合在一起 注意 本节中未描述的字段在第 2.3.2 节中指定
 type: docs
 weight: 3660
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/
 ---
 ## EmfExtSelectClipRgn class
 
-EMR_EXTSELECTCLIPRGN 记录使用指定模式将指定区域与当前剪辑区域 组合在一起。 注意 本节中未描述的字段在第 2.3.2 节中指定。
+EMR_EXTSELECTCLIPRGN 记录使用指定的模式将指定区域与当前剪辑区域 组合在一起。 注意 本节中未描述的字段在第 2.3.2 节中指定。
 
 ```csharp
 public sealed class EmfExtSelectClipRgn : EmfClippingRecordType
@@ -18,16 +18,16 @@ public sealed class EmfExtSelectClipRgn : EmfClippingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfExtSelectClipRgn](emfextselectcliprgn#constructor)() | 初始化[`EmfExtSelectClipRgn`](../emfextselectcliprgn)类的新实例。 |
-| [EmfExtSelectClipRgn](emfextselectcliprgn#constructor_1)(EmfRecord) | 初始化[`EmfExtSelectClipRgn`](../emfextselectcliprgn)类的新实例。 |
+| [EmfExtSelectClipRgn](emfextselectcliprgn#constructor)() | 初始化[`EmfExtSelectClipRgn`](../emfextselectcliprgn)类. |
+| [EmfExtSelectClipRgn](emfextselectcliprgn#constructor_1)(EmfRecord) | 初始化[`EmfExtSelectClipRgn`](../emfextselectcliprgn)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [RegionMode](../../aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/regionmode) { get; set; } | 获取或设置一个 32 位无符号整数，指定使用区域的方式。 值必须在 RegionMode（第 2.1.29 节）枚举中。 |
-| [RgnData](../../aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/rgndata) { get; set; } | 获取或设置一个 RgnDataSize 长度字节数组，该数组以逻辑单位指定 RegionData 对象 。如果 RegionMode 是 RGN_COPY，则可以省略此数据，并且剪辑区域 应设置为默认 (NULL) 剪辑区域。 |
-| [RgnDataSize](../../aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/rgndatasize) { get; set; } | 获取或设置指定区域数据大小的 32 位无符号整数（以字节为单位）。 |
+| [RgnData](../../aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/rgndata) { get; set; } | 获取或设置一个 RgnDataSize 长度的字节数组，该数组以逻辑单位指定 RegionData 对象 。如果 RegionMode 是 RGN_COPY，则可以省略此数据，并且剪辑区域 应该设置为默认 (NULL) 剪辑区域。 |
+| [RgnDataSize](../../aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/rgndatasize) { get; set; } | 获取或设置一个 32 位无符号整数，以字节为单位指定区域数据的大小。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

@@ -20,7 +20,7 @@ public override void BinarizeFixed(byte threshold)
 
 ### Примеры
 
-В следующем примере выполняется бинаризация изображения DJVU с предварительно заданным порогом. Бинаризованные изображения содержат только 2 цвета — черный и белый.
+В следующем примере изображение DJVU бинаризируется с предопределенным порогом. Бинаризованные изображения содержат только 2 цвета — черный и белый.
 
 ```csharp
 [C#]
@@ -31,8 +31,8 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.djvu
 {
     Aspose.Imaging.FileFormats.Djvu.DjvuImage djvuImage = (Aspose.Imaging.FileFormats.Djvu.DjvuImage)image;
 
-     // Бинаризация изображения с пороговым значением 127.
-     // Если соответствующее значение серого пикселя больше 127, ему будет присвоено значение 255, иначе 0.
+    // Бинаризовать изображение с пороговым значением 127.
+    // Если соответствующее значение серого пикселя больше 127, ему будет присвоено значение 255, иначе 0.
     djvuImage.BinarizeFixed(127);
     djvuImage.Save(dir + "sample.BinarizeFixed.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }

@@ -1,14 +1,14 @@
 ---
 title: OdPolyLine
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdPolyLineaspose.imaging.fileformats.opendocument.objects.graphic/odpolyline.
+description: Инициализирует новый экземплярOdPolyLineaspose.imaging.fileformats.opendocument.objects.graphic/odpolyline класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odpolyline/odpolyline/
 ---
 ## OdPolyLine constructor
 
-Инициализирует новый экземпляр класса[`OdPolyLine`](../../odpolyline).
+Инициализирует новый экземпляр[`OdPolyLine`](../../odpolyline) класс.
 
 ```csharp
 public OdPolyLine(OdObject parent)

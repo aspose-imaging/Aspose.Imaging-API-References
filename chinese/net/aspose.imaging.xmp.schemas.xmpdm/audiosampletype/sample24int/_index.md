@@ -1,14 +1,14 @@
 ---
 title: Sample24Int
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示 24Int 音频样本
+description: 代表 24Int 音频样本
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype/sample24int/
 ---
 ## AudioSampleType.Sample24Int property
 
-表示 24Int 音频样本。
+代表 24Int 音频样本。
 
 ```csharp
 public static AudioSampleType Sample24Int { get; }

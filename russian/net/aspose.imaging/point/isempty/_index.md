@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее является ли этотPointaspose.imaging/pointпустым.
+description: Получает значение указывающее является ли этоPointaspose.imaging/point пуст.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging/point/isempty/
 ---
 ## Point.IsEmpty property
 
-Получает значение, указывающее, является ли этот[`Point`](../../point)пустым.
+Получает значение, указывающее, является ли это[`Point`](../../point) пуст.
 
 ```csharp
 public bool IsEmpty { get; }
@@ -16,7 +16,7 @@ public bool IsEmpty { get; }
 
 ### Возвращаемое значение
 
-Истинно, если оба[`X`](../x)и[`Y`](../y)равно 0; в противном случае ложно.
+Верно, если оба[`X`](../x) а также[`Y`](../y) 0; в противном случае ложно.
 
 ### Смотрите также
 

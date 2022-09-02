@@ -18,14 +18,14 @@ public enum EmfPlusLineJoinType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| LineJoinTypeMiter | `0` | Указывает соединение линии под углом. |
-| LineJoinTypeBevel | `1` | Задает соединение скошенной линии. |
-| LineJoinTypeRound | `2` | Задает соединение закругленной линии. |
+| LineJoinTypeMiter | `0` | Задает соединение линии под углом. |
+| LineJoinTypeBevel | `1` | Указывает соединение скошенной линии. |
+| LineJoinTypeRound | `2` | Указывает закругленное соединение линий. |
 | LineJoinTypeMiterClipped | `3` | Указывает обрезанное соединение скошенной линии. |
 
 ### Примечания
 
-Линии графики определяются[`EmfPlusPen`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen)объекты (раздел 2.2.1.7). Соединение линий делает пересечение двух концов линий более непрерывным.
+Линии графики задаются[`EmfPlusPen`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen) объекты (раздел 2.2.1.7). Соединение линий делает пересечение двух концов линий более непрерывным.
 
 ### Смотрите также
 

@@ -18,13 +18,13 @@ public class OdCustomShape : OdStyledObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdCustomShape](odcustomshape)(OdObject) | Инициализирует новый экземпляр класса[`OdCustomShape`](../odcustomshape). |
+| [OdCustomShape](odcustomshape)(OdObject) | Инициализирует новый экземпляр[`OdCustomShape`](../odcustomshape) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [Layer](../../aspose.imaging.fileformats.opendocument.objects.graphic/odcustomshape/layer) { get; set; } | Получает или задает слой. |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Получает родительский объект. |

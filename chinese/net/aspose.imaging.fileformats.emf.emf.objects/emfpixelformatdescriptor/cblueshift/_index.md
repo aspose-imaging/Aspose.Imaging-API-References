@@ -1,14 +1,14 @@
 ---
 title: CBlueShift
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 指定每个 RGBA 颜色缓冲区中蓝色位平面的移位计数
+description: 获取或设置为每个 RGBA 颜色缓冲区中的蓝色位平面指定移位计数
 type: docs
 weight: 120
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/cblueshift/
 ---
 ## EmfPixelFormatDescriptor.CBlueShift property
 
-获取或设置 指定每个 RGBA 颜色缓冲区中蓝色位平面的移位计数。
+获取或设置为每个 RGBA 颜色缓冲区中的蓝色位平面指定移位计数。
 
 ```csharp
 public byte CBlueShift { get; set; }

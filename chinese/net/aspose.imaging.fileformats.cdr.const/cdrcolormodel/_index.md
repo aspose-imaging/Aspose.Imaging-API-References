@@ -24,19 +24,19 @@ public enum CdrColorModel
 | Cmyk100X15 | `21` | cmyk100 |
 | Cmyk255X03 | `3` | cmyk255 |
 | Cmyk255X11 | `17` | cmyk255 |
-| Cmy | `4` | 颜色方案 CMY |
+| Cmy | `4` | 色彩方案 CMY |
 | Rgb100 | `5` | RGB100 |
 | Hsb | `6` | 颜色方案 HSB |
 | Hls | `7` | 颜色方案 HLS |
 | Bw | `8` | 颜色方案 bw |
 | Grayscale | `9` | 颜色方案灰度 |
 | Yiq255 | `11` | 颜色方案 YIQ255 |
-| LabX12 | `18` | 颜色方案实验室 |
-| LabX0C | `12` | 颜色方案实验室 |
+| LabX12 | `18` | 配色方案实验室 |
+| LabX0C | `12` | 配色方案实验室 |
 | Rgb255 | `255` | RGB255 |
 | paletteX19 | `25` | 调色板 |
 | paletteX1E | `30` | 调色板 |
-| Model0x0e | `14` | model0e |
+| Model0x0e | `14` | 型号0e |
 
 ### 也可以看看
 

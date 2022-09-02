@@ -1,14 +1,14 @@
 ---
 title: XmpException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Исключение возникающее когда XMP имеет недопустимую структуру.
+description: Исключение которое возникает когда XMP имеет недопустимую структуру.
 type: docs
 weight: 740
 url: /ru/net/aspose.imaging.coreexceptions/xmpexception/
 ---
 ## XmpException class
 
-Исключение, возникающее, когда XMP имеет недопустимую структуру.
+Исключение, которое возникает, когда XMP имеет недопустимую структуру.
 
 ```csharp
 public class XmpException : FrameworkException
@@ -18,9 +18,9 @@ public class XmpException : FrameworkException
 
 | Имя | Описание |
 | --- | --- |
-| [XmpException](xmpexception#constructor)() | Инициализирует новый экземпляр класса[`XmpException`](../xmpexception). |
-| [XmpException](xmpexception#constructor_1)(string) | Инициализирует новый экземпляр класса[`XmpException`](../xmpexception). |
-| [XmpException](xmpexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр класса[`XmpException`](../xmpexception). |
+| [XmpException](xmpexception#constructor)() | Инициализирует новый экземпляр[`XmpException`](../xmpexception) класс. |
+| [XmpException](xmpexception#constructor_1)(string) | Инициализирует новый экземпляр[`XmpException`](../xmpexception) класс. |
+| [XmpException](xmpexception#constructor_2)(string, Exception) | Инициализирует новый экземпляр[`XmpException`](../xmpexception) класс. |
 
 ### Смотрите также
 

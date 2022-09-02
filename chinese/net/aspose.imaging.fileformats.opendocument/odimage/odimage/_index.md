@@ -1,14 +1,14 @@
 ---
 title: OdImage
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化OdImageaspose.imaging.fileformats.opendocument/odimage类的新实例
+description: 初始化OdImageaspose.imaging.fileformats.opendocument/odimage类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.opendocument/odimage/odimage/
 ---
 ## OdImage(StreamContainer, LoadOptions) {#constructor_1}
 
-初始化[`OdImage`](../../odimage)类的新实例。
+初始化[`OdImage`](../../odimage)类.
 
 ```csharp
 public OdImage(StreamContainer streamContainer, LoadOptions options)
@@ -17,7 +17,7 @@ public OdImage(StreamContainer streamContainer, LoadOptions options)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | streamContainer | StreamContainer | 流。 |
-| options | LoadOptions | 加载选项。 |
+| options | LoadOptions | 负载选项。 |
 
 ### 也可以看看
 
@@ -31,7 +31,7 @@ public OdImage(StreamContainer streamContainer, LoadOptions options)
 
 ## OdImage(StreamContainer) {#constructor}
 
-初始化[`OdImage`](../../odimage)类的新实例。
+初始化[`OdImage`](../../odimage)类.
 
 ```csharp
 public OdImage(StreamContainer streamContainer)

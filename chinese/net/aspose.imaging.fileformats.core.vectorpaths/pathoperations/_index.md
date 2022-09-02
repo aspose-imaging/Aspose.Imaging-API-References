@@ -20,8 +20,8 @@ public enum PathOperations
 | --- | --- | --- |
 | ExcludeOverlappingShapes | `0` | 排除重叠形状（异或运算）。 |
 | CombineShapes | `1` | 组合形状（或运算）。这是 Photoshop 中的默认值。 |
-| SubtractFrontShape | `2` | 减去正面形状（非操作）。 |
-| IntersectShapeAreas | `3` | 相交形状区域（AND 操作）。 |
+| SubtractFrontShape | `2` | 减去正面形状（不操作）。 |
+| IntersectShapeAreas | `3` | 相交形状区域（AND 运算）。 |
 
 ### 也可以看看
 

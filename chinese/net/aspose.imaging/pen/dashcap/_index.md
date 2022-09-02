@@ -1,14 +1,14 @@
 ---
 title: DashCap
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置在组成用此R5TAspose.Imaging.Pen绘制的虚线的虚线末尾使用的帽子样式.
+description: 获取或设置在组成虚线的虚线末尾使用的帽子样式Penaspose.imaging/pen .
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging/pen/dashcap/
 ---
 ## Pen.DashCap property
 
-获取或设置在组成用此:::R5:T:Aspose.Imaging.Pen::绘制的虚线的虚线末尾使用的帽子样式:.
+获取或设置在组成虚线的虚线末尾使用的帽子样式[`Pen`](../../pen) .
 
 ```csharp
 public DashCap DashCap { get; set; }
@@ -16,13 +16,13 @@ public DashCap DashCap { get; set; }
 
 ### 适当的价值
 
-`DashCap`值之一，代表所用的帽子样式在组成用此[`Pen`](../../pen)绘制的虚线的破折号的开头和结尾处。
+中的一个`DashCap`表示在组成用此绘制的虚线的虚线的开头和结尾处使用的帽子样式的值[`Pen`](../../pen).
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentException | `DashCap`属性设置在不可变的:::R5 上:T:Aspose.Imaging.Pen:::，例如[`Pen`](../../pen)类返回的那些。 |
+| ArgumentException | 这`DashCap`属性设置在不可变对象上[`Pen`](../../pen)，例如那些由[`Pen`](../../pen)班级。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Union
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Обновляет этотRegionaspose.imaging/regionдо объединения самого себя и указанногоRectangleFaspose.imaging/rectanglefструктура.
+description: Обновляет этоRegionaspose.imaging/region к союзу самого себя и указанногоRectangleFaspose.imaging/rectanglef структура.
 type: docs
 weight: 140
 url: /ru/net/aspose.imaging/region/union/
 ---
 ## Union(RectangleF) {#union_2}
 
-Обновляет этот[`Region`](../../region)до объединения самого себя и указанного[`RectangleF`](../../rectanglef)структура.
+Обновляет это[`Region`](../../region) к союзу самого себя и указанного[`RectangleF`](../../rectanglef) структура.
 
 ```csharp
 public void Union(RectangleF rect)
@@ -16,7 +16,7 @@ public void Union(RectangleF rect)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rect | RectangleF | Структура[`RectangleF`](../../rectanglef)для объединения с этой[`Region`](../../region). |
+| rect | RectangleF | [`RectangleF`](../../rectanglef) структура, чтобы объединиться с этим[`Region`](../../region). |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public void Union(RectangleF rect)
 
 ## Union(Rectangle) {#union_1}
 
-Обновляет этот[`Region`](../../region)до объединения самого себя и указанного[`Rectangle`](../../rectangle)структура.
+Обновляет это[`Region`](../../region) к союзу самого себя и указанного[`Rectangle`](../../rectangle) структура.
 
 ```csharp
 public void Union(Rectangle rect)
@@ -37,7 +37,7 @@ public void Union(Rectangle rect)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rect | Rectangle | Структура[`Rectangle`](../../rectangle)для объединения с этой[`Region`](../../region). |
+| rect | Rectangle | [`Rectangle`](../../rectangle) структура, чтобы объединиться с этим[`Region`](../../region). |
 
 ### Смотрите также
 
@@ -50,7 +50,7 @@ public void Union(Rectangle rect)
 
 ## Union(GraphicsPath) {#union}
 
-Обновляет этот[`Region`](../../region)до объединения самого себя и указанногоПутькграфике.
+Обновляет это[`Region`](../../region) к союзу самого себя и указанного[`GraphicsPath`](../../graphicspath) .
 
 ```csharp
 public void Union(GraphicsPath path)
@@ -58,13 +58,13 @@ public void Union(GraphicsPath path)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | GraphicsPath | [`GraphicsPath`](../../graphicspath)для объединения с этим[`Region`](../../region). |
+| path | GraphicsPath | [`GraphicsPath`](../../graphicspath) объединиться с этим[`Region`](../../region). |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path*равно null. |
+| ArgumentNullException | *path* нулевой. |
 
 ### Смотрите также
 
@@ -77,7 +77,7 @@ public void Union(GraphicsPath path)
 
 ## Union(Region) {#union_3}
 
-Обновляет этот[`Region`](../../region)до объединения самого себя и указанногоОбласть,край.
+Обновляет это[`Region`](../../region) к союзу самого себя и указанного[`Region`](../../region) .
 
 ```csharp
 public void Union(Region region)
@@ -85,13 +85,13 @@ public void Union(Region region)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| region | Region | [`Region`](../../region)для объединения с этим[`Region`](../../region). |
+| region | Region | [`Region`](../../region) объединиться с этим[`Region`](../../region). |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *region*равно null. |
+| ArgumentNullException | *region* нулевой. |
 
 ### Смотрите также
 

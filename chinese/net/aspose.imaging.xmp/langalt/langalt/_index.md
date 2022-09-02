@@ -1,14 +1,14 @@
 ---
 title: LangAlt
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化LangAltaspose.imaging.xmp/langalt类的新实例
+description: 初始化LangAltaspose.imaging.xmp/langalt类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp/langalt/langalt/
 ---
 ## LangAlt(string) {#constructor_1}
 
-初始化[`LangAlt`](../../langalt)类的新实例。
+初始化[`LangAlt`](../../langalt)类.
 
 ```csharp
 public LangAlt(string defaultValue)
@@ -28,7 +28,7 @@ public LangAlt(string defaultValue)
 
 ## LangAlt() {#constructor}
 
-初始化[`LangAlt`](../../langalt)类的新实例。
+初始化[`LangAlt`](../../langalt)类.
 
 ```csharp
 public LangAlt()

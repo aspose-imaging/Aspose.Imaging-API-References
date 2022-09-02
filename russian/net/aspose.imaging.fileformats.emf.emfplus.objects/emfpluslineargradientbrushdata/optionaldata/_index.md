@@ -16,7 +16,7 @@ public EmfPlusLinearGradientBrushOptionalData OptionalData { get; set; }
 
 ### Стоимость имущества
 
-Дополнительный[`EmfPlusLinearGradientBrushOptionalData`](../../emfpluslineargradientbrushoptionaldata)объект (раздел 2.2.2.25), указывающий дополнительные данные для кисти линейного градиента. Конкретное содержимое этого поля определяется значением поля BrushDataFlags.
+Необязательный[`EmfPlusLinearGradientBrushOptionalData`](../../emfpluslineargradientbrushoptionaldata) объект (section 2.2.2.25), который указывает дополнительные данные для кисти линейного градиента. Конкретное содержимое этого поля определяется значением поля BrushDataFlags.
 
 ### Смотрите также
 

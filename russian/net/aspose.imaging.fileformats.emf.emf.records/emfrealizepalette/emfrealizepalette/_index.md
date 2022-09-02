@@ -1,14 +1,14 @@
 ---
 title: EmfRealizePalette
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfRealizePaletteaspose.imaging.fileformats.emf.emf.records/emfrealizepalette.
+description: Инициализирует новый экземплярEmfRealizePaletteaspose.imaging.fileformats.emf.emf.records/emfrealizepalette класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfrealizepalette/emfrealizepalette/
 ---
 ## EmfRealizePalette constructor
 
-Инициализирует новый экземпляр класса[`EmfRealizePalette`](../../emfrealizepalette).
+Инициализирует новый экземпляр[`EmfRealizePalette`](../../emfrealizepalette) класс.
 
 ```csharp
 public EmfRealizePalette(EmfRecord source)

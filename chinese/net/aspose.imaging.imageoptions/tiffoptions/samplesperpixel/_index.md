@@ -1,14 +1,14 @@
 ---
 title: SamplesPerPixel
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取每个像素的样本要更改此属性值请使用BitsPerSampleaspose.imaging.imageoptions/tiffoptions/bitspersample属性设置器
+description: 获取每个像素的样本要更改此属性值请使用BitsPerSampleaspose.imaging.imageoptions/tiffoptions/bitspersample属性设置器.
 type: docs
 weight: 420
 url: /zh/net/aspose.imaging.imageoptions/tiffoptions/samplesperpixel/
 ---
 ## TiffOptions.SamplesPerPixel property
 
-获取每个像素的样本。要更改此属性值，请使用[`BitsPerSample`](../bitspersample)属性设置器。
+获取每个像素的样本。要更改此属性值，请使用[`BitsPerSample`](../bitspersample)属性设置器.
 
 ```csharp
 public ushort SamplesPerPixel { get; }
@@ -16,7 +16,7 @@ public ushort SamplesPerPixel { get; }
 
 ### 适当的价值
 
-每个像素的样本。
+每个像素的样本数。
 
 ### 也可以看看
 

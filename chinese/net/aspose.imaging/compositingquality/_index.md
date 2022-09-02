@@ -22,7 +22,7 @@ public enum CompositingQuality
 | Default | `0` | 默认质量。 |
 | HighSpeed | `1` | 高速，低质量。 |
 | HighQuality | `2` | 高质量、低速合成。 |
-| GammaCorrected | `3` | 使用伽玛校正。 |
+| GammaCorrected | `3` | 使用 Gamma 校正。 |
 | AssumeLinear | `4` | 假设线性值。 |
 
 ### 也可以看看

@@ -16,7 +16,7 @@ public static IColorPalette Create4BitGrayscale(bool minIsWhite)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| minIsWhite | Boolean | 如果设置为` true` 调色板以白色开头颜色，否则以黑色开头。 |
+| minIsWhite | Boolean | 如果设置为`真的`调色板以白色开头，否则以黑色开头。 |
 
 ### 返回值
 

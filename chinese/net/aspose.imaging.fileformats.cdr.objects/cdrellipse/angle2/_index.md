@@ -1,14 +1,14 @@
 ---
 title: Angle2
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置角度2
+description: 获取或设置角度2.
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrellipse/angle2/
 ---
 ## CdrEllipse.Angle2 property
 
-获取或设置角度2。
+获取或设置角度2.
 
 ```csharp
 public double Angle2 { get; set; }
@@ -16,7 +16,7 @@ public double Angle2 { get; set; }
 
 ### 适当的价值
 
-角度2。
+角度2.
 
 ### 也可以看看
 

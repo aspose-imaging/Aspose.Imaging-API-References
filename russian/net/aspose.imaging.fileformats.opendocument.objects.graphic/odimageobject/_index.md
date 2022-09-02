@@ -18,13 +18,13 @@ public class OdImageObject : OdGraphicObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdImageObject](odimageobject)(OdObject) | Инициализирует новый экземпляр класса[`OdImageObject`](../odimageobject). |
+| [OdImageObject](odimageobject)(OdObject) | Инициализирует новый экземпляр[`OdImageObject`](../odimageobject) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
 | [Bitmap](../../aspose.imaging.fileformats.opendocument.objects.graphic/odimageobject/bitmap) { get; set; } | Получает или задает растровое изображение. |
 | [ImageLink](../../aspose.imaging.fileformats.opendocument.objects.graphic/odimageobject/imagelink) { get; set; } | Получает или задает ссылку на изображение. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |

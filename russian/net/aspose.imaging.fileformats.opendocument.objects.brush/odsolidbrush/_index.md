@@ -1,14 +1,14 @@
 ---
 title: OdSolidBrush
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Сплошная кисть открытого документа
+description: Сплошная кисть в открытом документе
 type: docs
 weight: 6940
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.brush/odsolidbrush/
 ---
 ## OdSolidBrush class
 
-Сплошная кисть открытого документа
+Сплошная кисть в открытом документе
 
 ```csharp
 public class OdSolidBrush : OdBrush

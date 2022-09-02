@@ -1,14 +1,14 @@
 ---
 title: Italic
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值该值指示此OdFontaspose.imaging.fileformats.opendocument.objects.font/odfont是否为斜体
+description: 获取或设置一个值该值指示是否OdFontaspose.imaging.fileformats.opendocument.objects.font/odfont是斜体
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.font/odfont/italic/
 ---
 ## OdFont.Italic property
 
-获取或设置一个值，该值指示此[`OdFont`](../../odfont)是否为斜体。
+获取或设置一个值，该值指示是否[`OdFont`](../../odfont)是斜体。
 
 ```csharp
 public bool Italic { get; set; }
@@ -16,7 +16,7 @@ public bool Italic { get; set; }
 
 ### 适当的价值
 
-` true` 如果斜体；否则，` false` 。
+`真的`如果是斜体；否则，`错误的` .
 
 ### 也可以看看
 

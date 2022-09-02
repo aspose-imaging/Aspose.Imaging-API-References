@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает размер em этогоFontaspose.imaging/fontв единицах указанныхUnitaspose.imaging/font/unitсвойство.
+description: Получает размер em этогоFontaspose.imaging/font измеряется в единицах указанныхUnitaspose.imaging/font/unit свойство.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging/font/size/
 ---
 ## Font.Size property
 
-Получает размер em этого[`Font`](../../font)в единицах, указанных[`Unit`](../unit)свойство.
+Получает размер em этого[`Font`](../../font) измеряется в единицах, указанных[`Unit`](../unit) свойство.
 
 ```csharp
 public float Size { get; }

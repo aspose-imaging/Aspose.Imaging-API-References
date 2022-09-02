@@ -1,14 +1,14 @@
 ---
 title: XStart
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 x 开始
+description: 获取或设置 x 起点
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmffloodfill/xstart/
 ---
 ## WmfFloodFill.XStart property
 
-获取或设置 x 开始。
+获取或设置 x 起点。
 
 ```csharp
 public short XStart { get; set; }
@@ -16,7 +16,7 @@ public short XStart { get; set; }
 
 ### 适当的价值
 
-填充点的 x 坐标，以逻辑单位表示 开始。
+填充点的 x 坐标（以逻辑单位表示） to start.
 
 ### 也可以看看
 

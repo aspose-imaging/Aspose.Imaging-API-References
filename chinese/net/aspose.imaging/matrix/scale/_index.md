@@ -1,14 +1,14 @@
 ---
 title: Scale
 second_title: Aspose.Imaging for .NET API 参考
-description: 使用指定的顺序将指定的比例矢量scaleX 和 scaleY应用到这个Matrixaspose.imaging/matrix
+description: 将指定的比例矢量scaleX 和 scaleY应用于此Matrixaspose.imaging/matrix使用指定的顺序
 type: docs
 weight: 160
 url: /zh/net/aspose.imaging/matrix/scale/
 ---
 ## Scale(float, float, MatrixOrder) {#scale_1}
 
-使用指定的顺序将指定的比例矢量（scaleX 和 scaleY）应用到这个[`Matrix`](../../matrix)。
+将指定的比例矢量（scaleX 和 scaleY）应用于此[`Matrix`](../../matrix)使用指定的顺序。
 
 ```csharp
 public void Scale(float scaleX, float scaleY, MatrixOrder order)
@@ -16,9 +16,9 @@ public void Scale(float scaleX, float scaleY, MatrixOrder order)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| scaleX | Single | 比例尺 X. |
-| scaleY | Single | 比例尺 Y . |
-| order | MatrixOrder | 订单。 |
+| scaleX | Single | 规模 X。 |
+| scaleY | Single | 尺度 Y。 |
+| order | MatrixOrder | 命令。 |
 
 ### 也可以看看
 
@@ -31,7 +31,7 @@ public void Scale(float scaleX, float scaleY, MatrixOrder order)
 
 ## Scale(float, float) {#scale}
 
-使用（默认）前置顺序将指定的缩放向量（scaleX 和 scaleY）应用于此矩阵。
+使用（默认）前置顺序将指定的比例向量（scaleX 和 scaleY）应用于此矩阵。
 
 ```csharp
 public void Scale(float sx, float sy)
@@ -40,7 +40,7 @@ public void Scale(float sx, float sy)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sx | Single | sx。 sx。 sx。 |
-| sy | Single | sy。西。西。 |
+| sy | Single | 西。西。西。 |
 
 ### 也可以看看
 

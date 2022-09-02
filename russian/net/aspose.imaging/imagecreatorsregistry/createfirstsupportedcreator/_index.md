@@ -16,11 +16,11 @@ public static IImageCreator CreateFirstSupportedCreator(ImageOptionsBase imageOp
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| imageOptions | ImageOptionsBase | Параметры изображения. |
+| imageOptions | ImageOptionsBase | Варианты изображения. |
 
 ### Возвращаемое значение
 
-Создатель, который поддерживает указанный или null, если такой создатель не найден.
+Создатель, который поддерживает указанный, или null, если такой создатель не найден.
 
 ### Примечания
 

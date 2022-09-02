@@ -28,7 +28,7 @@ public enum WmfBrushStyle
 | Pattern8X8 | `7` | 不支持。 |
 | Dibpattern8X8 | `8` | 不支持。 |
 | Monopattern | `9` | 不支持。 |
-| Gradient | `10` | 渐变 wmf 中不支持，odg 中支持。 |
+| Gradient | `10` | 梯度 在wmf中不支持，在odg中支持。 |
 
 ### 也可以看看
 

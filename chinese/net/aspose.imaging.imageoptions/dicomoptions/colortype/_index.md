@@ -27,22 +27,9 @@ public ColorType ColorType { get; set; }
 
 using (var inputImage = Image.Load("original.jpg"))
 {
-    var options = new DicomOptions
-    {
-        ColorType = ColorType.Rgb24Bit,
-        Compression = new Compression
-        {
-            Type = CompressionType.Jpeg,
-            Jpeg = new JpegOptions
-            {
-                CompressionType = JpegCompressionMode.Baseline,
-                SampleRoundingMode = SampleRoundingMode.Truncate,
-                Quality = 50
-            }
-        }
-    };
+    var options = new DicomOptions { ColorType = ColorType.Grayscale8Bit };
 
-    inputImage.Save("original_JPEG.dcm", options);
+    inputImage.Save("original_8Bit.dcm", options);
 }
 ```
 
@@ -56,19 +43,10 @@ using (var inputImage = Image.Load("original.jpg"))
     var options = new DicomOptions
     {
         ColorType = ColorType.Rgb24Bit,
-        Compression = new Compression
-        {
-            Type = CompressionType.Jpeg,
-            Jpeg = new JpegOptions
-            {
-                CompressionType = JpegCompressionMode.Baseline,
-                SampleRoundingMode = SampleRoundingMode.Truncate,
-                Quality = 50
-            }
-        }
+        Compression = new Compression { Type = CompressionType.Rle }
     };
 
-    inputImage.Save("original_JPEG.dcm", options);
+    inputImage.Save("original_RLE.dcm", options);
 }
 ```
 
@@ -84,17 +62,16 @@ using (var inputImage = Image.Load("original.jpg"))
         ColorType = ColorType.Rgb24Bit,
         Compression = new Compression
         {
-            Type = CompressionType.Jpeg,
-            Jpeg = new JpegOptions
+            Type = CompressionType.Jpeg2000,
+            Jpeg2000 = new Jpeg2000Options
             {
-                CompressionType = JpegCompressionMode.Baseline,
-                SampleRoundingMode = SampleRoundingMode.Truncate,
-                Quality = 50
+                Codec = Jpeg2000Codec.Jp2,
+                Irreversible = false
             }
         }
     };
 
-    inputImage.Save("original_JPEG.dcm", options);
+    inputImage.Save("original_JPEG2000.dcm", options);
 }
 ```
 

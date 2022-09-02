@@ -24,7 +24,7 @@ public class JpegLsPresetCodingParameters
 
 | Имя | Описание |
 | --- | --- |
-| [MaximumSampleValue](../../aspose.imaging.fileformats.jpeg/jpeglspresetcodingparameters/maximumsamplevalue) { get; set; } | Получает или задает максимально возможное значение для любого образца изображения в отсканированном виде. Это значение должно быть больше или равно фактическому максимальному значению для компонентов в сканировании. |
+| [MaximumSampleValue](../../aspose.imaging.fileformats.jpeg/jpeglspresetcodingparameters/maximumsamplevalue) { get; set; } | Получает или задает максимально возможное значение для любого образца изображения при сканировании. Оно должно быть больше или равно фактическому максимальному значению для компонентов в сканировании. |
 | [ResetValue](../../aspose.imaging.fileformats.jpeg/jpeglspresetcodingparameters/resetvalue) { get; set; } | Получает или задает значение, при котором счетчики A, B и N уменьшаются вдвое. |
 | [Threshold1](../../aspose.imaging.fileformats.jpeg/jpeglspresetcodingparameters/threshold1) { get; set; } | Получает или задает первое пороговое значение квантования для локальных градиентов. |
 | [Threshold2](../../aspose.imaging.fileformats.jpeg/jpeglspresetcodingparameters/threshold2) { get; set; } | Получает или задает второе пороговое значение квантования для локальных градиентов. |

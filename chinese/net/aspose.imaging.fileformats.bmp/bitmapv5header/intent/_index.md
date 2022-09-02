@@ -16,7 +16,7 @@ public long Intent { get; set; }
 
 ### 适当的价值
 
-意图。
+意图.
 
 ### 也可以看看
 

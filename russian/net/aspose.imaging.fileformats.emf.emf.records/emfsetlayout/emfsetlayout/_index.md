@@ -1,14 +1,14 @@
 ---
 title: EmfSetLayout
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetLayoutaspose.imaging.fileformats.emf.emf.records/emfsetlayout.
+description: Инициализирует новый экземплярEmfSetLayoutaspose.imaging.fileformats.emf.emf.records/emfsetlayout класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetlayout/emfsetlayout/
 ---
 ## EmfSetLayout constructor
 
-Инициализирует новый экземпляр класса[`EmfSetLayout`](../../emfsetlayout).
+Инициализирует новый экземпляр[`EmfSetLayout`](../../emfsetlayout) класс.
 
 ```csharp
 public EmfSetLayout(EmfRecord source)

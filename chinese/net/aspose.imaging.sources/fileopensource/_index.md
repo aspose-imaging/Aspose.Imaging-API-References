@@ -3,7 +3,7 @@ title: FileOpenSource
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示打开的文件源
 type: docs
-weight: 11100
+weight: 11090
 url: /zh/net/aspose.imaging.sources/fileopensource/
 ---
 ## FileOpenSource class
@@ -18,7 +18,7 @@ public sealed class FileOpenSource : FileSource
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FileOpenSource](fileopensource)(string) | 初始化[`FileOpenSource`](../fileopensource)类的新实例。 |
+| [FileOpenSource](fileopensource)(string) | 初始化[`FileOpenSource`](../fileopensource)类. |
 
 ## 特性
 

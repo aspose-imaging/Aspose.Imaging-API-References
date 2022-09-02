@@ -18,20 +18,20 @@ public sealed class EmfSetPolyFillMode : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSetPolyFillMode](emfsetpolyfillmode#constructor)() | 初始化[`EmfSetPolyFillMode`](../emfsetpolyfillmode)类的新实例。 |
-| [EmfSetPolyFillMode](emfsetpolyfillmode#constructor_1)(EmfRecord) | 初始化[`EmfSetPolyFillMode`](../emfsetpolyfillmode)类的新实例。 |
+| [EmfSetPolyFillMode](emfsetpolyfillmode#constructor)() | 初始化[`EmfSetPolyFillMode`](../emfsetpolyfillmode)类. |
+| [EmfSetPolyFillMode](emfsetpolyfillmode#constructor_1)(EmfRecord) | 初始化[`EmfSetPolyFillMode`](../emfsetpolyfillmode)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PolygonFillMode](../../aspose.imaging.fileformats.emf.emf.records/emfsetpolyfillmode/polygonfillmode) { get; set; } | 获取或设置指定多边形填充模式的 32 位无符号整数，并且 必须在 PolygonFillMode（第 2.1.27 节）枚举中. |
+| [PolygonFillMode](../../aspose.imaging.fileformats.emf.emf.records/emfsetpolyfillmode/polygonfillmode) { get; set; } | 获取或设置指定多边形填充模式的 32 位无符号整数， 必须在 PolygonFillMode（第 2.1.27 节）枚举中。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 
 ### 评论
 
-通常，模式不同仅在必须填充复杂的重叠多边形的情况下；对于 例如，一个五边形多边形，形成一个五角星，中心有一个五边形。在这种 情况下，ALTERNATE 模式应该填充多边形内的每个其他封闭区域（ 星的点），但 WINDING 模式应该填充所有区域（星的点和五边形）。 当填充模式为 ALTERNATE 时，应填充每条扫描线上奇数和偶数多边形 边之间的区域。也就是说，第一边和第二边之间的区域 应该被填充，第三边和第四边之间的区域应该被填充，以此类推。 当填充模式为 WINDING 时，任何具有非零缠绕值的区域都应该被填充。 缠绕值是用于绘制多边形的笔在 区域周围的次数。多边形每条边的方向都很重要。
+通常，模式仅在必须填充复杂的重叠多边形的情况下有所不同； for 例如，一个五边形多边形，形成一个五角星，中心有一个五边形。在这种 的情况下，ALTERNATE 模式应该填充多边形内的每个其他封闭区域（ 星的点），但 WINDING 模式应该填充所有区域（星和五边形的点）。 当填充模式为 ALTERNATE 时，应该填充每条扫描线上奇数和偶数多边形 边之间的区域。即，第一边和第二边之间的区域 应该填充，第三边和第四边之间的区域，依此类推。 当填充模式为WINDING时，任何具有非零绕组值的区域都应该填充。 绕组value 是用于绘制多边形的笔在 the 区域周围的次数。多边形每条边的方向很重要。
 
 ### 也可以看看
 

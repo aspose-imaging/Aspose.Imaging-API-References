@@ -1,14 +1,14 @@
 ---
 title: IsComposite
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值指示此字体是否为复合字体
+description: 获取或设置一个值该值指示此字体是否为复合字体
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.xmp.types.complex.font/font/iscomposite/
 ---
 ## Font.IsComposite property
 
-获取或设置一个值，指示此字体是否为复合字体。
+获取或设置一个值，该值指示此字体是否为复合字体。
 
 ```csharp
 public bool IsComposite { get; set; }
@@ -16,7 +16,7 @@ public bool IsComposite { get; set; }
 
 ### 适当的价值
 
-` true` 如果此字体是复合字体；否则，` false` 。
+`真的`如果这个字体是复合的；否则，`错误的` .
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: LangAlt
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаLangAltaspose.imaging.xmp/langalt.
+description: Инициализирует новый экземплярLangAltaspose.imaging.xmp/langalt класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp/langalt/langalt/
 ---
 ## LangAlt(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`LangAlt`](../../langalt).
+Инициализирует новый экземпляр[`LangAlt`](../../langalt) класс.
 
 ```csharp
 public LangAlt(string defaultValue)
@@ -28,7 +28,7 @@ public LangAlt(string defaultValue)
 
 ## LangAlt() {#constructor}
 
-Инициализирует новый экземпляр класса[`LangAlt`](../../langalt).
+Инициализирует новый экземпляр[`LangAlt`](../../langalt) класс.
 
 ```csharp
 public LangAlt()

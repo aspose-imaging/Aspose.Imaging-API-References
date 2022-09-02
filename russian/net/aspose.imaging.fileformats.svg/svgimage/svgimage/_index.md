@@ -1,14 +1,14 @@
 ---
 title: SvgImage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаSvgImageaspose.imaging.fileformats.svg/svgimage.
+description: Инициализирует новый экземплярSvgImageaspose.imaging.fileformats.svg/svgimage класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.svg/svgimage/svgimage/
 ---
 ## SvgImage(string) {#constructor_3}
 
-Инициализирует новый экземпляр класса[`SvgImage`](../../svgimage).
+Инициализирует новый экземпляр[`SvgImage`](../../svgimage) класс.
 
 ```csharp
 public SvgImage(string path)
@@ -22,7 +22,7 @@ public SvgImage(string path)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | путь равен нулю. |
+| ArgumentNullException | путь нулевой. |
 
 ### Смотрите также
 
@@ -34,7 +34,7 @@ public SvgImage(string path)
 
 ## SvgImage(Stream) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`SvgImage`](../../svgimage).
+Инициализирует новый экземпляр[`SvgImage`](../../svgimage) класс.
 
 ```csharp
 public SvgImage(Stream stream)
@@ -48,7 +48,7 @@ public SvgImage(Stream stream)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Поток имеет значение null. |
+| ArgumentNullException | поток нулевой. |
 
 ### Примеры
 
@@ -59,11 +59,11 @@ public SvgImage(Stream stream)
 
 string dir = "c:\\temp\\";
 
- // Загрузить изображение SVG из файлового потока.
+// Загрузить изображение SVG из файлового потока.
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "test.svg"))
 using (Aspose.Imaging.FileFormats.Svg.SvgImage svgImage = new Aspose.Imaging.FileFormats.Svg.SvgImage(stream))
 {
-     // Чтобы растеризовать SVG, нам нужно указать параметры растеризации.
+    // Чтобы растеризовать SVG, нам нужно указать параметры растеризации.
     Aspose.Imaging.ImageOptions.SvgRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.SvgRasterizationOptions();
     Aspose.Imaging.ImageOptions.PngOptions saveOptions = new Aspose.Imaging.ImageOptions.PngOptions();
     saveOptions.VectorRasterizationOptions = rasterizationOptions;
@@ -82,7 +82,7 @@ using (Aspose.Imaging.FileFormats.Svg.SvgImage svgImage = new Aspose.Imaging.Fil
 
 ## SvgImage(int, int) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`SvgImage`](../../svgimage).
+Инициализирует новый экземпляр[`SvgImage`](../../svgimage) класс.
 
 ```csharp
 public SvgImage(int width, int height)
@@ -103,7 +103,7 @@ public SvgImage(int width, int height)
 
 ## SvgImage(SvgOptions, int, int) {#constructor}
 
-Инициализирует новый экземпляр класса[`SvgImage`](../../svgimage).
+Инициализирует новый экземпляр[`SvgImage`](../../svgimage) класс.
 
 ```csharp
 public SvgImage(SvgOptions svgOptions, int width, int height)

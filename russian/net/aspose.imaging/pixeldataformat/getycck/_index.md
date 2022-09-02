@@ -16,7 +16,7 @@ public static PixelDataFormat GetYcck(int bitsPerSample)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| bitsPerSample | Int32 | Количество битов в выборке. |
+| bitsPerSample | Int32 | Количество битов на выборку. |
 
 ### Возвращаемое значение
 

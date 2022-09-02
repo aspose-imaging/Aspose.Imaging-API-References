@@ -1,14 +1,14 @@
 ---
 title: YCbCr
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПолучаетPixelDataFormataspose.imaging/pixeldataformatопределенный для 24 битов на пиксель с 8 битами для каждой яркости синей разницы и красно-разностные компоненты цветности.
+description: ПолучаетPixelDataFormataspose.imaging/pixeldataformat определяется для 24 бит на пиксель с 8 битами для каждого из компонентов яркости синего и красного контраста цветности.
 type: docs
 weight: 150
 url: /ru/net/aspose.imaging/pixeldataformat/ycbcr/
 ---
 ## PixelDataFormat.YCbCr property
 
-Получает[`PixelDataFormat`](../../pixeldataformat)определенный для 24 битов на пиксель с 8 битами для каждой яркости, синей разницы и красно-разностные компоненты цветности.
+Получает[`PixelDataFormat`](../../pixeldataformat) определяется для 24 бит на пиксель с 8 битами для каждого из компонентов яркости, синего и красного контраста цветности.
 
 ```csharp
 public static PixelDataFormat YCbCr { get; }
@@ -16,7 +16,7 @@ public static PixelDataFormat YCbCr { get; }
 
 ### Стоимость имущества
 
-Формат[`PixelDataFormat`](../../pixeldataformat)определен для 24 бит на пиксель с 8 битами для каждого компонента яркости, синего и красного цветов.
+[`PixelDataFormat`](../../pixeldataformat) определяется для 24 бит на пиксель с 8 битами для каждого из компонентов яркости, синего и красного контраста цветности.
 
 ### Смотрите также
 

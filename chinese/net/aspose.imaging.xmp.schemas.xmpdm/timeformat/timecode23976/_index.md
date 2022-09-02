@@ -1,14 +1,14 @@
 ---
 title: Timecode23976
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取时间码23976
+description: 获取时间码23976.
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/timeformat/timecode23976/
 ---
 ## TimeFormat.Timecode23976 property
 
-获取时间码23976。
+获取时间码23976.
 
 ```csharp
 public static TimeFormat Timecode23976 { get; }
@@ -16,7 +16,7 @@ public static TimeFormat Timecode23976 { get; }
 
 ### 适当的价值
 
-时间码23976。
+时间码23976.
 
 ### 也可以看看
 

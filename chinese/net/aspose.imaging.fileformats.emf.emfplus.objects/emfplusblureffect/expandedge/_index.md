@@ -1,14 +1,14 @@
 ---
 title: ExpandEdge
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位布尔值该值指定位图是否扩展 等于 BlurRadius 的值以产生软边缘此值必须是 以下之一 FALSE 0x00000000 位图的大小不得更改其软边应该被剪裁到 BlurRadius 的大小 TRUE 0x00000001 位图的大小应该扩大一个等于 BlurRadius 的量到 产生软边缘
+description: 获取或设置一个 32 位布尔值该值指定位图是否扩展 一个等于 BlurRadius 值的量以产生软边缘这个值必须是 以下之一 FALSE 0x00000000 位图的大小不能改变并且它的软边缘应该被剪裁到 BlurRadius的大小 TRUE 0x00000001 扩展等于位图的大小SHO BlurRadius to 产生软边缘
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusblureffect/expandedge/
 ---
 ## EmfPlusBlurEffect.ExpandEdge property
 
-获取或设置一个 32 位布尔值，该值指定位图是否扩展 等于 BlurRadius 的值以产生软边缘。此值必须是 以下之一: FALSE 0x00000000 位图的大小不得更改，其软边应该被剪裁到 BlurRadius 的大小。 TRUE 0x00000001 位图的大小应该扩大一个等于 BlurRadius 的量到 产生软边缘。
+获取或设置一个 32 位布尔值，该值指定位图是否扩展 一个等于 BlurRadius 值的量以产生软边缘。这个值必须是 以下之一： FALSE 0x00000000 位图的大小不能改变，并且它的软边缘应该被剪裁到 BlurRadius的大小。 TRUE 0x00000001 扩展等于位图的大小SHO BlurRadius to 产生软边缘。
 
 ```csharp
 public bool ExpandEdge { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: EmfBitBlt
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_BITBLT определяет блочный перенос пикселей из исходного растрового изображения в целевой прямоугольник возможно в сочетании с рисунком кисти согласно указанная растровая операция.
+description: Запись EMR_BITBLT определяет блочную передачу пикселей из исходного растрового изображения в целевой прямоугольник  необязательно в сочетании с рисунком кисти в соответствии с указанной растровой операцией.
 type: docs
 weight: 3250
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfbitblt/
 ---
 ## EmfBitBlt class
 
-Запись EMR_BITBLT определяет блочный перенос пикселей из исходного растрового изображения в целевой прямоугольник, возможно, в сочетании с рисунком кисти, согласно указанная растровая операция.
+Запись EMR_BITBLT определяет блочную передачу пикселей из исходного растрового изображения в целевой прямоугольник , необязательно в сочетании с рисунком кисти, в соответствии с указанной растровой операцией.
 
 ```csharp
 public sealed class EmfBitBlt : EmfBitmapRecordType
@@ -18,25 +18,25 @@ public sealed class EmfBitBlt : EmfBitmapRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfBitBlt](emfbitblt)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfBitBlt`](../emfbitblt). |
+| [EmfBitBlt](emfbitblt)(EmfRecord) | Инициализирует новый экземпляр[`EmfBitBlt`](../emfbitblt) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BitBltRasterOperation](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/bitbltrasteroperation) { get; set; } | Получает или задает 32-разрядное целое число без знака, определяющее код растровой операции . Этот код определяет, как данные цвета исходного прямоугольника должны быть объединены с данными цвета прямоугольника назначения и, возможно, с рисунком кисти для получения окончательного цвета. |
-| [BkSrcArgb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/bksrcargb32color) { get; set; } | Получает или задает объект WMF ColorRef (раздел 2.2.2.8 [MS-WMF], который определяет цвет фона исходного растрового изображения. |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/bounds) { get; set; } | Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который определяет ограничивающий прямоугольник назначения в единицах устройства. |
+| [BitBltRasterOperation](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/bitbltrasteroperation) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее код растровой операции . Этот код определяет, как данные цвета исходного прямоугольника должны быть объединены с данными цвета прямоугольника назначения и, возможно, с рисунком кисти для получения окончательного цвета. |
+| [BkSrcArgb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/bksrcargb32color) { get; set; } | Получает или задает объект WMF ColorRef ([MS-WMF], раздел 2.2.2.8, который указывает цвет фона исходного растрового изображения. |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/bounds) { get; set; } | Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который определяет ограничивающий прямоугольник назначения в единицах измерения устройства. |
 | [CxDest](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/cxdest) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее логическую ширину исходного и целевого прямоугольников. |
 | [CyDest](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/cydest) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее логическую высоту исходного и целевого прямоугольников. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
-| [SourceBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/sourcebitmap) { get; set; } | Получает или задает буфер, содержащий исходное растровое изображение, которое не обязательно должно быть непрерывным с фиксированной частью записи EMR_BITBLT. Соответственно, поля в этом буфере с пометкой "UndefinedSpace" являются необязательными и ДОЛЖНЫ игнорироваться. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
+| [SourceBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/sourcebitmap) { get; set; } | Получает или задает буфер, содержащий исходное растровое изображение, которое не обязательно должно быть непрерывным с фиксированной частью записи EMR_BITBLT. Соответственно, поля в этом буфере , помеченные как «UndefinedSpace», являются необязательными и ДОЛЖНЫ игнорироваться. |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
-| [UsageSrc](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/usagesrc) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее, как интерпретировать значения в таблице цветов в заголовке исходного растрового изображения. Это значение ДОЛЖНО быть в перечислении DIBColors (раздел 2.1.9). |
+| [UsageSrc](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/usagesrc) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее, как интерпретировать значения в таблице цветов в заголовке исходного растрового изображения. Это значение ДОЛЖНО находиться в перечислении DIBColors (раздел 2.1.9). |
 | [XDest](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/xdest) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее логическую координату x левого верхнего угла целевого прямоугольника. |
 | [XformSrc](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/xformsrc) { get; set; } | Получает или задает объект XForm (раздел 2.2.28), который определяет преобразование мирового пространства в пространство страницы для применения к исходному растровому изображению. |
 | [XSrc](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/xsrc) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее логическую координату x левого верхнего угла исходного прямоугольника. |
-| [YDest](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/ydest) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее логическую координату y левого верхнего угла целевого прямоугольника. |
+| [YDest](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/ydest) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее логическую координату Y левого верхнего угла целевого прямоугольника. |
 | [YSrc](../../aspose.imaging.fileformats.emf.emf.records/emfbitblt/ysrc) { get; set; } | Получает или задает 32-разрядное целое число со знаком, указывающее логическую координату y левого верхнего угла исходного прямоугольника. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: ForegroundRop3
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取前台ROP3 24 位三进制 WMF 三进制光栅操作枚举中的无符号最高 8 位光栅操作值这个 代码定义了如何组合源和目标的前景色数据 位图和画笔图案
+description: 获取前景 ROP3 来自 WMF 三元光栅操作枚举的 24 位三元 光栅操作值的无符号最高有效 8 位这个 代码定义了如何组合源和目标 位图和画笔图案的前景色数据
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfrop4/foregroundrop3/
 ---
 ## EmfRop4.ForegroundRop3 property
 
-获取前台ROP3。 24 位三进制 WMF 三进制光栅操作枚举中的无符号最高 8 位光栅操作值。这个 代码定义了如何组合源和目标的前景色数据 位图和画笔图案。
+获取前景 ROP3。 来自 WMF 三元光栅操作枚举的 24 位三元 光栅操作值的无符号、最高有效 8 位。这个 代码定义了如何组合源和目标 位图和画笔图案的前景色数据。
 
 ```csharp
 public byte ForegroundRop3 { get; }
@@ -16,7 +16,7 @@ public byte ForegroundRop3 { get; }
 
 ### 适当的价值
 
-前台ROP3。
+前景ROP3.
 
 ### 也可以看看
 

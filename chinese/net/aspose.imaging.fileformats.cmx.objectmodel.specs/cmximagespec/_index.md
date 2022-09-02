@@ -27,7 +27,7 @@ public class CmxImageSpec : ICmxObjectSpec
 | [BoundBox](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec/boundbox) { get; set; } | 获取或设置绑定框。 |
 | [CropBox](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec/cropbox) { get; set; } | 获取或设置裁剪框。 |
 | [Images](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec/images) { get; set; } | 获取或设置图像。 |
-| [ImageType](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec/imagetype) { get; set; } | 获取或设置图像的类型。 |
+| [ImageType](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec/imagetype) { get; set; } | 获取或设置图片的类型。 |
 | [IsCmx3Image](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec/iscmx3image) { get; set; } | 获取或设置一个值，指示此实例是否为 CMX3 图像。 |
 | [Matrix](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec/matrix) { get; set; } | 获取或设置变换矩阵。 |
 
@@ -35,7 +35,7 @@ public class CmxImageSpec : ICmxObjectSpec
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec/tostring)() | 返回代表此实例的String。 |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec/tostring)() | 返回一个String代表这个实例。 |
 
 ### 也可以看看
 

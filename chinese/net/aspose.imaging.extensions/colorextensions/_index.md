@@ -1,14 +1,14 @@
 ---
 title: ColorExtensions
 second_title: Aspose.Imaging for .NET API 参考
-description: Color../aspose.imaging/color扩展方法
+description: 的Color../aspose.imaging/color扩展方法.
 type: docs
 weight: 1140
 url: /zh/net/aspose.imaging.extensions/colorextensions/
 ---
 ## ColorExtensions class
 
-[`Color`](../../aspose.imaging/color)扩展方法。
+的[`Color`](../../aspose.imaging/color)扩展方法.
 
 ```csharp
 public static class ColorExtensions
@@ -18,8 +18,8 @@ public static class ColorExtensions
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [ToGdiColor](../../aspose.imaging.extensions/colorextensions/togdicolor)(Color) | 将[`Color`](../../aspose.imaging/color)转换为Color。 |
-| static [ToGdiColors](../../aspose.imaging.extensions/colorextensions/togdicolors)(Color[]) | 将[`Color`](../../aspose.imaging/color)数组转换为Color大批。 |
+| static [ToGdiColor](../../aspose.imaging.extensions/colorextensions/togdicolor)(Color) | 转换[`Color`](../../aspose.imaging/color)到Color . |
+| static [ToGdiColors](../../aspose.imaging.extensions/colorextensions/togdicolors)(Color[]) | 转换[`Color`](../../aspose.imaging/color)数组到Color数组. |
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public override void ResizeWidthProportionally(int newWidth, ResizeType resizeTy
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newWidth | Int32 | 新宽度。 |
+| newWidth | Int32 | 新的宽度。 |
 | resizeType | ResizeType | 调整大小的类型。 |
 
 ### 也可以看看

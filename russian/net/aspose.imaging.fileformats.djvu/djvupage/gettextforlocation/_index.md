@@ -1,14 +1,14 @@
 ---
 title: GetTextForLocation
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает текст для местоположения прямоугольника
+description: Получает текст для прямоугольника location
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging.fileformats.djvu/djvupage/gettextforlocation/
 ---
 ## DjvuPage.GetTextForLocation method
 
-Получает текст для местоположения прямоугольника
+Получает текст для прямоугольника location
 
 ```csharp
 public string GetTextForLocation(Rectangle rect)
@@ -16,11 +16,11 @@ public string GetTextForLocation(Rectangle rect)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rect | Rectangle | Прямоугольник местоположения . |
+| rect | Rectangle | Прямое расположение. |
 
 ### Возвращаемое значение
 
-Текст найден на локации
+Текст найден на месте
 
 ### Смотрите также
 

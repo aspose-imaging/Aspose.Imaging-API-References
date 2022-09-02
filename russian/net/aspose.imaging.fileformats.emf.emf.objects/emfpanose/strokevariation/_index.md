@@ -1,14 +1,14 @@
 ---
 title: StrokeVariation
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 8-разрядное целое число без знака указывающее вариант штриха для шрифта . Значение ДОЛЖНО находиться в таблице перечисления StrokeVariation раздел 2.1.33.
+description: Получает или задает 8-разрядное целое число без знака указывающее вариант штриха для шрифта . Значение ДОЛЖНО быть в таблице перечисления StrokeVariation раздел 2.1.33.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfpanose/strokevariation/
 ---
 ## EmfPanose.StrokeVariation property
 
-Получает или задает 8-разрядное целое число без знака, указывающее вариант штриха для шрифта . Значение ДОЛЖНО находиться в таблице перечисления StrokeVariation (раздел 2.1.33).
+Получает или задает 8-разрядное целое число без знака, указывающее вариант штриха для шрифта . Значение ДОЛЖНО быть в таблице перечисления StrokeVariation (раздел 2.1.33).
 
 ```csharp
 public EmfStrokeVariation StrokeVariation { get; set; }

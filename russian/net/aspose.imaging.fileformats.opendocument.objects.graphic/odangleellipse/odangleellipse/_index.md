@@ -1,14 +1,14 @@
 ---
 title: OdAngleEllipse
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdAngleEllipseaspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse.
+description: Инициализирует новый экземплярOdAngleEllipseaspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse/odangleellipse/
 ---
 ## OdAngleEllipse constructor
 
-Инициализирует новый экземпляр класса[`OdAngleEllipse`](../../odangleellipse).
+Инициализирует новый экземпляр[`OdAngleEllipse`](../../odangleellipse) класс.
 
 ```csharp
 public OdAngleEllipse(OdObject parent)

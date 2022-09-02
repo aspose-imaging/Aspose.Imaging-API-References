@@ -1,14 +1,14 @@
 ---
 title: IsKnownColor
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示此Coloraspose.imaging/color结构是否为预定义颜色预定义的颜色由KnownColoraspose.imaging/knowncolor枚举的元素表示
+description: 获取一个值该值指示这是否Coloraspose.imaging/color结构是预定义的颜色预定义的颜色由KnownColoraspose.imaging/knowncolor枚举.
 type: docs
 weight: 1500
 url: /zh/net/aspose.imaging/color/isknowncolor/
 ---
 ## Color.IsKnownColor property
 
-获取一个值，该值指示此[`Color`](../../color)结构是否为预定义颜色。预定义的颜色由[`KnownColor`](../../knowncolor)枚举的元素表示。
+获取一个值，该值指示这是否[`Color`](../../color)结构是预定义的颜色。预定义的颜色由[`KnownColor`](../../knowncolor)枚举.
 
 ```csharp
 public bool IsKnownColor { get; }
@@ -16,7 +16,7 @@ public bool IsKnownColor { get; }
 
 ### 适当的价值
 
-如果此[`Color`](../../color)是使用预定义颜色创建的，则为真[`FromName`](../fromname)方法或[`FromKnownColor`](../fromknowncolor)方法;否则为假。
+如果这是真的[`Color`](../../color)是使用预定义的颜色创建的[`FromName`](../fromname)方法或[`FromKnownColor`](../fromknowncolor)方法;否则为假。
 
 ### 也可以看看
 

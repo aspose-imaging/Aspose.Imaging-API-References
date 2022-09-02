@@ -1,14 +1,14 @@
 ---
 title: Html5CanvasOptions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Параметры создания формата файла Html5 Canvas.
+description: Параметры создания файла формата Html5 Canvas.
 type: docs
-weight: 10020
+weight: 10010
 url: /ru/net/aspose.imaging.imageoptions/html5canvasoptions/
 ---
 ## Html5CanvasOptions class
 
-Параметры создания формата файла Html5 Canvas.
+Параметры создания файла формата Html5 Canvas.
 
 ```csharp
 public class Html5CanvasOptions : ImageOptionsBase
@@ -24,7 +24,7 @@ public class Html5CanvasOptions : ImageOptionsBase
 
 | Имя | Описание |
 | --- | --- |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Получает или устанавливает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Получает или задает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
 | [CanvasTagId](../../aspose.imaging.imageoptions/html5canvasoptions/canvastagid) { get; set; } | Получает или задает идентификатор тега холста. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
 | [Encoding](../../aspose.imaging.imageoptions/html5canvasoptions/encoding) { get; set; } | Получает или задает кодировку. |
@@ -34,7 +34,7 @@ public class Html5CanvasOptions : ImageOptionsBase
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Получает или задает цветовую палитру. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Получает или задает обработчик события выполнения. |
 | virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Получает или задает параметры разрешения. |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Получает или задает источник для создания изображения. |
+| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Получает или задает источник для создания изображения в. |
 | [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Получает или задает параметры векторной растеризации. |
 | virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata) { get; set; } | Получает или задает контейнер метаданных XMP. |
 
@@ -56,8 +56,7 @@ using (var image = Image.Load(@"Sample.svg"))
 {
     image.Save(@"Canvas.html", new Html5CanvasOptions
     {
-        VectorRasterizationOptions = new SvgRasterizationOptions(),
-        FullHtmlPage = false
+        VectorRasterizationOptions = new SvgRasterizationOptions()
     });
 }
 ```

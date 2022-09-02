@@ -1,14 +1,14 @@
 ---
 title: ColorUsed
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数指定 DIB 使用的颜色表中的索引数如 如下 如果此值为零则 DIB 使用对应于 BitCount 值的最大颜色数 如果此值非零且 BitCount 值小于 16则此值指定 DIB 使用的颜色数 如果此值非零且 BitCount 值为 16 或更大则此值指定颜色表的大小 用于优化系统调色板的性能 注意如果此值非零且大于基于 BitCount 值的颜色表的最大可能大小则应假定最大颜色表大小
+description: 获取或设置一个 32 位无符号整数指定 DIB 使用的颜色表中的索引数as 如下 如果此值为零则 DIB 使用与 BitCount 值对应的最大颜色数 如果此值非零且 BitCount 值小于 16则此值指定 DIB 使用的颜色数 如果此值非零且 BitCount 值大于或等于 16此值指定颜色大小table 用于优化系统调色板的性能 注意如果此值非零且大于基于 BitCount 值的颜色表的最大可能大小则应假定最大颜色表大小
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfbitmapinfoheader/colorused/
 ---
 ## WmfBitmapInfoHeader.ColorUsed property
 
-获取或设置一个 32 位无符号整数，指定 DIB 使用的颜色表中的索引数，如 如下 如果此值为零，则 DIB 使用对应于 BitCount 值的最大颜色数。 如果此值非零且 BitCount 值小于 16，则此值指定 DIB 使用的颜色数。 如果此值非零且 BitCount 值为 16 或更大，则此值指定颜色表的大小 用于优化系统调色板的性能。 注意如果此值非零且大于基于 BitCount 值的颜色表的最大可能大小，则应假定最大颜色表大小。
+获取或设置一个 32 位无符号整数，指定 DIB 使用的颜色表中的索引数，as 如下： 如果此值为零，则 DIB 使用与 BitCount 值对应的最大颜色数。 如果此值非零且 BitCount 值小于 16，则此值指定 DIB 使用的颜色数。 如果此值非零且 BitCount 值大于或等于 16，此值指定颜色大小table 用于优化系统调色板的性能。 注意如果此值非零且大于基于 BitCount 值的颜色表的最大可能大小，则应假定最大颜色表大小。
 
 ```csharp
 public int ColorUsed { get; set; }

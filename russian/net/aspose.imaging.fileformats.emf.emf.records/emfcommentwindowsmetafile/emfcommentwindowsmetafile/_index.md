@@ -1,14 +1,14 @@
 ---
 title: EmfCommentWindowsMetaFile
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfCommentWindowsMetaFileaspose.imaging.fileformats.emf.emf.records/emfcommentwindowsmetafile.
+description: Инициализирует новый экземплярEmfCommentWindowsMetaFileaspose.imaging.fileformats.emf.emf.records/emfcommentwindowsmetafile класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcommentwindowsmetafile/emfcommentwindowsmetafile/
 ---
 ## EmfCommentWindowsMetaFile constructor
 
-Инициализирует новый экземпляр класса[`EmfCommentWindowsMetaFile`](../../emfcommentwindowsmetafile).
+Инициализирует новый экземпляр[`EmfCommentWindowsMetaFile`](../../emfcommentwindowsmetafile) класс.
 
 ```csharp
 public EmfCommentWindowsMetaFile(EmfRecord source)

@@ -1,14 +1,14 @@
 ---
 title: DublinCore
 second_title: Aspose.Imaging for .NET API 参考
-description: Dublic Core 命名空间
+description: 双重核心命名空间
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.xmp/namespaces/dublincore/
 ---
 ## Namespaces.DublinCore field
 
-Dublic Core 命名空间。
+双重核心命名空间。
 
 ```csharp
 public const string DublinCore;

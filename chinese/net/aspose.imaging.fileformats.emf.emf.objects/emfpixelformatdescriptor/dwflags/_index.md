@@ -1,14 +1,14 @@
 ---
 title: DwFlags
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定用于输出到绘图表面的像素缓冲区属性的位标志 这些属性并非都是相互的 互斥的除非另有说明否则允许使用标志组合
+description: 获取或设置用于指定像素缓冲区属性的位标志 用于输出到绘图表面这些属性并非都相互 排斥除非另有说明否则允许使用标志组合
 type: docs
 weight: 210
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/dwflags/
 ---
 ## EmfPixelFormatDescriptor.DwFlags property
 
-获取或设置指定用于输出到绘图表面的像素缓冲区属性的位标志 。这些属性并非都是相互的 互斥的；除非另有说明，否则允许使用标志组合。
+获取或设置用于指定像素缓冲区属性的位标志， 用于输出到绘图表面。这些属性并非都相互 排斥；除非另有说明，否则允许使用标志组合。
 
 ```csharp
 public int DwFlags { get; set; }

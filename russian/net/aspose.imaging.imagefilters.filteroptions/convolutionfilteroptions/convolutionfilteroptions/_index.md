@@ -1,14 +1,14 @@
 ---
 title: ConvolutionFilterOptions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаConvolutionFilterOptionsaspose.imaging.imagefilters.filteroptions/convolutionfilteroptions.
+description: Инициализирует новый экземплярConvolutionFilterOptionsaspose.imaging.imagefilters.filteroptions/convolutionfilteroptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.imagefilters.filteroptions/convolutionfilteroptions/convolutionfilteroptions/
 ---
 ## ConvolutionFilterOptions constructor
 
-Инициализирует новый экземпляр класса[`ConvolutionFilterOptions`](../../convolutionfilteroptions).
+Инициализирует новый экземпляр[`ConvolutionFilterOptions`](../../convolutionfilteroptions) класс.
 
 ```csharp
 public ConvolutionFilterOptions()

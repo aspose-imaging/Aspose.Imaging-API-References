@@ -1,14 +1,14 @@
 ---
 title: OdConnector
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化OdConnectoraspose.imaging.fileformats.opendocument.objects.graphic/odconnector类的新实例
+description: 初始化OdConnectoraspose.imaging.fileformats.opendocument.objects.graphic/odconnector类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odconnector/odconnector/
 ---
 ## OdConnector constructor
 
-初始化[`OdConnector`](../../odconnector)类的新实例。
+初始化[`OdConnector`](../../odconnector)类.
 
 ```csharp
 public OdConnector(OdObject parent)
@@ -16,7 +16,7 @@ public OdConnector(OdObject parent)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | OdObject | 父级。 |
+| parent | OdObject | 家长。 |
 
 ### 也可以看看
 

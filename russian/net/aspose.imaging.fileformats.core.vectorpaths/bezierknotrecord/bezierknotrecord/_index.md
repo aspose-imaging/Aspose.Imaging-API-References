@@ -1,14 +1,14 @@
 ---
 title: BezierKnotRecord
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаBezierKnotRecordaspose.imaging.fileformats.core.vectorpaths/bezierknotrecord.
+description: Инициализирует новый экземплярBezierKnotRecordaspose.imaging.fileformats.core.vectorpaths/bezierknotrecord класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/bezierknotrecord/
 ---
 ## BezierKnotRecord() {#constructor}
 
-Инициализирует новый экземпляр класса[`BezierKnotRecord`](../../bezierknotrecord).
+Инициализирует новый экземпляр[`BezierKnotRecord`](../../bezierknotrecord) класс.
 
 ```csharp
 public BezierKnotRecord()
@@ -24,7 +24,7 @@ public BezierKnotRecord()
 
 ## BezierKnotRecord(byte[]) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`BezierKnotRecord`](../../bezierknotrecord).
+Инициализирует новый экземпляр[`BezierKnotRecord`](../../bezierknotrecord) класс.
 
 ```csharp
 public BezierKnotRecord(byte[] data)

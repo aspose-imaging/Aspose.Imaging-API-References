@@ -1,14 +1,14 @@
 ---
 title: EmfSetMapperFlags
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_SETMAPPERFLAGS задает параметры процесса сопоставления логических шрифтов с физическими шрифтами который выполняется преобразователем шрифтов.
+description: Запись EMR_SETMAPPERFLAGS определяет параметры процесса сопоставления логических шрифтов с физическими шрифтами который выполняется преобразователем шрифтов.
 type: docs
 weight: 4410
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetmapperflags/
 ---
 ## EmfSetMapperFlags class
 
-Запись EMR_SETMAPPERFLAGS задает параметры процесса сопоставления логических шрифтов с физическими шрифтами, который выполняется преобразователем шрифтов.
+Запись EMR_SETMAPPERFLAGS определяет параметры процесса сопоставления логических шрифтов с физическими шрифтами, который выполняется преобразователем шрифтов.
 
 ```csharp
 public sealed class EmfSetMapperFlags : EmfStateRecordType
@@ -18,14 +18,14 @@ public sealed class EmfSetMapperFlags : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetMapperFlags](emfsetmapperflags)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetMapperFlags`](../emfsetmapperflags). |
+| [EmfSetMapperFlags](emfsetmapperflags)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetMapperFlags`](../emfsetmapperflags) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [Flags](../../aspose.imaging.fileformats.emf.emf.records/emfsetmapperflags/flags) { get; set; } | Получает или задает 32-разрядное целое число без знака, определяющее параметры процесса сопоставления шрифтов. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: GPSTimestamp
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает время GPS в формате UTC Всемирное скоординированное время.
+description: Получает или задает время GPS в формате UTC Всемирное координированное время.
 type: docs
 weight: 640
 url: /ru/net/aspose.imaging.exif/exifdata/gpstimestamp/
 ---
 ## ExifData.GPSTimestamp property
 
-Получает или задает время GPS в формате UTC (Всемирное скоординированное время).
+Получает или задает время GPS в формате UTC (Всемирное координированное время).
 
 ```csharp
 public TiffRational[] GPSTimestamp { get; set; }

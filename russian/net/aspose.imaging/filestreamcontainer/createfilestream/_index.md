@@ -17,7 +17,7 @@ public static FileStreamContainer CreateFileStream(string fileLocation, bool isT
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileLocation | String | Расположение файла. |
-| isTemporal | Boolean | Если установлено значение` true` , контейнер файлового потока является временным. |
+| isTemporal | Boolean | Если установлено`истинный` контейнер файлового потока является временным. |
 
 ### Возвращаемое значение
 

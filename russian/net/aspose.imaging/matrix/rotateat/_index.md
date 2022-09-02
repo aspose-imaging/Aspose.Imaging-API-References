@@ -17,8 +17,8 @@ public void RotateAt(float angle, PointF point, MatrixOrder order)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | angle | Single | Угол. |
-| point | PointF | Точка. |
-| order | MatrixOrder | Заказ. |
+| point | PointF | Смысл. |
+| order | MatrixOrder | Приказ. |
 
 ### Смотрите также
 
@@ -41,7 +41,7 @@ public void RotateAt(float angle, PointF point)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | angle | Single | Угол. |
-| point | PointF | Точка. |
+| point | PointF | Смысл. |
 
 ### Смотрите также
 

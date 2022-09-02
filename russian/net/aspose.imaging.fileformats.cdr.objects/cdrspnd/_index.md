@@ -1,14 +1,14 @@
 ---
 title: CdrSpnd
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Диапазон cdr
+description: CDR span
 type: docs
 weight: 1750
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrspnd/
 ---
 ## CdrSpnd class
 
-Диапазон cdr
+CDR span
 
 ```csharp
 public class CdrSpnd : CdrDictionaryItem

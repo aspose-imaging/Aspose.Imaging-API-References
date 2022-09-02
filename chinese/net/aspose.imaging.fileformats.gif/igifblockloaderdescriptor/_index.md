@@ -1,14 +1,14 @@
 ---
 title: IGifBlockLoaderDescriptor
 second_title: Aspose.Imaging for .NET API 参考
-description: Gif 块加载器描述符
+description: Gif 块加载器描述符.
 type: docs
 weight: 6720
 url: /zh/net/aspose.imaging.fileformats.gif/igifblockloaderdescriptor/
 ---
 ## IGifBlockLoaderDescriptor interface
 
-Gif 块加载器描述符。
+Gif 块加载器描述符.
 
 ```csharp
 public interface IGifBlockLoaderDescriptor
@@ -18,7 +18,7 @@ public interface IGifBlockLoaderDescriptor
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CanLoad](../../aspose.imaging.fileformats.gif/igifblockloaderdescriptor/canload)(StreamContainer) | 判断loader是否可以加载指定的数据。 |
+| [CanLoad](../../aspose.imaging.fileformats.gif/igifblockloaderdescriptor/canload)(StreamContainer) | 判断loader是否可以加载指定的数据 |
 | [Load](../../aspose.imaging.fileformats.gif/igifblockloaderdescriptor/load)(StreamContainer, IColorPalette) | 加载 gif 块。 |
 
 ### 也可以看看

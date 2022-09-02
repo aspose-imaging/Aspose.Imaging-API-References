@@ -1,14 +1,14 @@
 ---
 title: Top
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置帧位置顶部
+description: 获取或设置帧位置 top.
 type: docs
 weight: 110
 url: /zh/net/aspose.imaging.fileformats.webp/webpframeblock/top/
 ---
 ## WebPFrameBlock.Top property
 
-获取或设置帧位置顶部。
+获取或设置帧位置 top.
 
 ```csharp
 public short Top { get; set; }
@@ -16,7 +16,7 @@ public short Top { get; set; }
 
 ### 适当的价值
 
-顶部。
+顶部.
 
 ### 也可以看看
 

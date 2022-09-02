@@ -1,14 +1,14 @@
 ---
 title: EmfCommentWindowsMetaFile
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfCommentWindowsMetaFileaspose.imaging.fileformats.emf.emf.records/emfcommentwindowsmetafile类的新实例
+description: 初始化EmfCommentWindowsMetaFileaspose.imaging.fileformats.emf.emf.records/emfcommentwindowsmetafile类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcommentwindowsmetafile/emfcommentwindowsmetafile/
 ---
 ## EmfCommentWindowsMetaFile constructor
 
-初始化[`EmfCommentWindowsMetaFile`](../../emfcommentwindowsmetafile)类的新实例。
+初始化[`EmfCommentWindowsMetaFile`](../../emfcommentwindowsmetafile)类.
 
 ```csharp
 public EmfCommentWindowsMetaFile(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfCommentWindowsMetaFile(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 

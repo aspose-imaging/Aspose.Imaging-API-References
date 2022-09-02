@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Проверяет имеет ли этотRegionaspose.imaging/regionпустую внутреннюю часть на указанной поверхности рисования.
+description: Проверяет является ли этоRegionaspose.imaging/region имеет пустую внутреннюю часть на указанной поверхности рисования.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging/region/isempty/
 ---
 ## Region.IsEmpty method
 
-Проверяет, имеет ли этот[`Region`](../../region)пустую внутреннюю часть на указанной поверхности рисования.
+Проверяет, является ли это[`Region`](../../region) имеет пустую внутреннюю часть на указанной поверхности рисования.
 
 ```csharp
 public bool IsEmpty(Graphics g)
@@ -16,17 +16,17 @@ public bool IsEmpty(Graphics g)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| g | Graphics | A[`Graphics`](../../graphics)который представляет поверхность рисования. |
+| g | Graphics | А[`Graphics`](../../graphics)который представляет собой поверхность для рисования. |
 
 ### Возвращаемое значение
 
-true, если внутренняя часть этого[`Region`](../../region)пуста, когда преобразование связано с*g*применяется; в противном случае ложно.
+true, если внутренняя часть этого[`Region`](../../region) пуст, когда преобразование, связанное с*g* применены; в противном случае false.
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *g*равно нулю. |
+| ArgumentNullException | *g* равно нулю. |
 
 ### Смотрите также
 

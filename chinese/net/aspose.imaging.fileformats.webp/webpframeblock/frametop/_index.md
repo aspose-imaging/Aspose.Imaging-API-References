@@ -1,14 +1,14 @@
 ---
 title: FrameTop
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取帧顶部偏移量
+description: 获取框架顶部偏移量
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.webp/webpframeblock/frametop/
 ---
 ## WebPFrameBlock.FrameTop property
 
-获取帧顶部偏移量。
+获取框架顶部偏移量。
 
 ```csharp
 public int FrameTop { get; }
@@ -16,7 +16,7 @@ public int FrameTop { get; }
 
 ### 适当的价值
 
-帧顶部偏移。
+框架顶部偏移量。
 
 ### 也可以看看
 

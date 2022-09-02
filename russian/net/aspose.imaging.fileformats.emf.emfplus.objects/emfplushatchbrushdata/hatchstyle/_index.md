@@ -1,14 +1,14 @@
 ---
 title: HatchStyle
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака определяющее стиль штриховки кисти. Он ДОЛЖЕН быть определен в перечисленииEmfPlusHatchStyleaspose.imaging.fileformats.emf.emfplus.consts/emfplushatchstyle.
+description: Получает или задает 32-разрядное целое число без знака определяющее стиль штриховки кистью. ДОЛЖЕН быть определен вEmfPlusHatchStyleaspose.imaging.fileformats.emf.emfplus.consts/emfplushatchstyle перечисление.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplushatchbrushdata/hatchstyle/
 ---
 ## EmfPlusHatchBrushData.HatchStyle property
 
-Получает или задает 32-разрядное целое число без знака, определяющее стиль штриховки кисти. Он ДОЛЖЕН быть определен в перечислении[`EmfPlusHatchStyle`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfplushatchstyle).
+Получает или задает 32-разрядное целое число без знака, определяющее стиль штриховки кистью. ДОЛЖЕН быть определен в[`EmfPlusHatchStyle`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfplushatchstyle) перечисление.
 
 ```csharp
 public EmfPlusHatchStyle HatchStyle { get; set; }

@@ -16,7 +16,7 @@ public double Angle { get; set; }
 
 ### 适当的价值
 
-角度。
+角度.
 
 ### 也可以看看
 

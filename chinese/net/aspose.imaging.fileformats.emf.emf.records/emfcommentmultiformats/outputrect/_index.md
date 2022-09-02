@@ -1,14 +1,14 @@
 ---
 title: OutputRect
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置在逻辑坐标中指定 输出矩形的 WMF RectL 对象MS-WMF 第 2.2.2.19 节
+description: 获取或设置一个 WMF RectL 对象MS-WMF 第 2.2.2.19 节它以逻辑坐标指定 输出矩形
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcommentmultiformats/outputrect/
 ---
 ## EmfCommentMultiFormats.OutputRect property
 
-获取或设置在逻辑坐标中指定 输出矩形的 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节）。
+获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），它以逻辑坐标指定 输出矩形。
 
 ```csharp
 public Rectangle OutputRect { get; set; }

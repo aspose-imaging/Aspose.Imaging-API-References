@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSetCompositingQuality
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusSetCompositingQualityaspose.imaging.fileformats.emf.emfplus.records/emfplussetcompositingquality.
+description: Инициализирует новый экземплярEmfPlusSetCompositingQualityaspose.imaging.fileformats.emf.emfplus.records/emfplussetcompositingquality класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetcompositingquality/emfplussetcompositingquality/
 ---
 ## EmfPlusSetCompositingQuality constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusSetCompositingQuality`](../../emfplussetcompositingquality).
+Инициализирует новый экземпляр[`EmfPlusSetCompositingQuality`](../../emfplussetcompositingquality) класс.
 
 ```csharp
 public EmfPlusSetCompositingQuality(EmfPlusRecord source)

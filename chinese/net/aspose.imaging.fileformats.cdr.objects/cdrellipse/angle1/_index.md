@@ -1,14 +1,14 @@
 ---
 title: Angle1
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置角度1
+description: 获取或设置角度1.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrellipse/angle1/
 ---
 ## CdrEllipse.Angle1 property
 
-获取或设置角度1。
+获取或设置角度1.
 
 ```csharp
 public double Angle1 { get; set; }
@@ -16,7 +16,7 @@ public double Angle1 { get; set; }
 
 ### 适当的价值
 
-角度1。
+角度1.
 
 ### 也可以看看
 

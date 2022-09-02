@@ -31,7 +31,7 @@ using (var image = (EpsImage)Image.Load("Sample.eps"))
     {
         PdfCoreOptions = new PdfCoreOptions
         {
-            PdfCompliance = PdfComplianceVersion.PdfA1b     // 设置所需的 PDF 合规性
+            PdfCompliance = PdfComplianceVersion.PdfA1b // 设置所需的 PDF 合规性
         }
     };
   

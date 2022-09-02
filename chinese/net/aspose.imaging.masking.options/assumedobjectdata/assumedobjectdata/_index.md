@@ -1,14 +1,14 @@
 ---
 title: AssumedObjectData
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化AssumedObjectDataaspose.imaging.masking.options/assumedobjectdata类的新实例
+description: 初始化AssumedObjectDataaspose.imaging.masking.options/assumedobjectdata类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.masking.options/assumedobjectdata/assumedobjectdata/
 ---
 ## AssumedObjectData() {#constructor}
 
-初始化[`AssumedObjectData`](../../assumedobjectdata)类的新实例。
+初始化[`AssumedObjectData`](../../assumedobjectdata)类.
 
 ```csharp
 public AssumedObjectData()
@@ -24,7 +24,7 @@ public AssumedObjectData()
 
 ## AssumedObjectData(DetectedObjectType, Rectangle) {#constructor_1}
 
-初始化[`AssumedObjectData`](../../assumedobjectdata)类的新实例。
+初始化[`AssumedObjectData`](../../assumedobjectdata)类.
 
 ```csharp
 public AssumedObjectData(DetectedObjectType type, Rectangle bounds)
@@ -47,70 +47,25 @@ assumedObjects.Add(new AssumedObjectData(DetectedObjectType.Human, new Rectangle
 assumedObjects.Add(new AssumedObjectData(DetectedObjectType.Dog, new Rectangle(300, 100, 50, 30)));
 
 MaskingResult[] results;
-AutoMaskingGraphCutOptions options;
-
 using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
 {
-    options = new AutoMaskingGraphCutOptions
-                    {
-                        AssumedObjects = assumedObjects,
-                        CalculateDefaultStrokes = true,
-                        FeatheringRadius = 3,
-                        Method = SegmentationMethod.GraphCut,
-                        Decompose = false,
-                        ExportOptions =
-                            new PngOptions()
-                                {
-                                    ColorType = PngColorType.TruecolorWithAlpha,
-                                    Source = new FileCreateSource("tempFile")
-                                },
-                        BackgroundReplacementColor = Color.Transparent
-                    };
+    AutoMaskingGraphCutOptions options = new AutoMaskingGraphCutOptions
+                                                {
+                                                    AssumedObjects = assumedObjects,
+                                                    CalculateDefaultStrokes = true,
+                                                    FeatheringRadius = (Math.Max(image.Width, image.Height) / 500) + 1,
+                                                    Method = SegmentationMethod.GraphCut,
+                                                    Decompose = false,
+                                                    ExportOptions =
+                                                        new PngOptions()
+                                                            {
+                                                                ColorType = PngColorType.TruecolorWithAlpha,
+                                                                Source = new FileCreateSource("tempFile")
+                                                            },
+                                                    BackgroundReplacementColor = Color.Transparent
+    };
 
     results = new ImageMasking(image).Decompose(options);
-}
-
-    // 此时可以分析应用的前景/背景笔画，并在此基础上附加 
-    // 前景/背景笔画可以手动提供。
-Point[] appliedBackgroundStrokes = options.DefaultBackgroundStrokes;
-Point[] appliedForegroundStrokes = options.DefaultForegroundStrokes;
-Rectangle[] appliedObjectRectangles = options.DefaultObjectsRectangles;
-using (RasterImage resultImage = (RasterImage)results[1].GetImage())
-{
-    resultImage.Save("output.png", new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
-}
-
-appliedBackgroundStrokes[5] = new Point(100, 100);
-appliedBackgroundStrokes[15] = new Point(150, 100);
-
-appliedForegroundStrokes[1] = new Point(500, 200);
-
-appliedObjectRectangles[0] = new Rectangle(100, 100, 300, 300);
-
-using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
-{
-    GraphCutMaskingOptions graphCutOptions = new GraphCutMaskingOptions()
-                                                    {
-                                                        FeatheringRadius = 3,
-                                                        Method = SegmentationMethod.GraphCut,
-                                                        Decompose = false,
-                                                        ExportOptions = new PngOptions()
-                                                                            {
-                                                                                ColorType = PngColorType.TruecolorWithAlpha,
-                                                                                Source = new FileCreateSource("tempFile")
-                                                                            },
-                                                        BackgroundReplacementColor = Color.Transparent,
-                                                        Args = new AutoMaskingArgs()
-                                                                {
-                                                                    ObjectsPoints = new Point[][]
-                                                                                        {
-                                                                                            appliedBackgroundStrokes,
-                                                                                            appliedForegroundStrokes
-                                                                                        },
-                                                                    ObjectsRectangles = appliedObjectRectangles
-                                                                }
-                                                    };
-    results = new ImageMasking(image).Decompose(graphCutOptions);
 }
 
 using (RasterImage resultImage = (RasterImage)results[1].GetImage())
@@ -119,7 +74,7 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
 }
 ```
 
-使用基于图像大小的羽化保存图像遮罩结果，并为新的遮罩迭代重新使用遮罩选项。使用自动计算的默认笔画执行图像遮罩。此外，两个假定对象的数据也在 AutoMaskingGraphCutOptions 的 AssumedObjects 属性中指定。获得初始遮罩结果后，修改应用的背景/前景笔画并执行另一次遮罩迭代。
+基于图像大小的羽化保存图像遮罩结果，并为新的遮罩迭代重新使用遮罩选项。使用自动计算的默认笔画执行图像遮罩。此外，两个假定对象的数据也在 AutoMaskingGraphCutOptions 的 AssumedObjects 属性中指定。获得初始遮罩结果后，修改应用的背景/前景笔画并执行另一次遮罩迭代。
 
 ```csharp
 [C#]
@@ -130,7 +85,6 @@ assumedObjects.Add(new AssumedObjectData(DetectedObjectType.Dog, new Rectangle(3
 
 MaskingResult[] results;
 AutoMaskingGraphCutOptions options;
-
 using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
 {
     options = new AutoMaskingGraphCutOptions
@@ -152,8 +106,8 @@ using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
     results = new ImageMasking(image).Decompose(options);
 }
 
-    // 此时可以分析应用的前景/背景笔画，并在此基础上附加 
-    // 前景/背景笔画可以手动提供。
+// 此时可以分析应用的前景/背景笔画，并在此基础上附加 
+// 可以手动提供前景/背景笔触。
 Point[] appliedBackgroundStrokes = options.DefaultBackgroundStrokes;
 Point[] appliedForegroundStrokes = options.DefaultForegroundStrokes;
 Rectangle[] appliedObjectRectangles = options.DefaultObjectsRectangles;
@@ -162,37 +116,28 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
     resultImage.Save("output.png", new PngOptions() { ColorType = PngColorType.TruecolorWithAlpha });
 }
 
-appliedBackgroundStrokes[5] = new Point(100, 100);
-appliedBackgroundStrokes[15] = new Point(150, 100);
-
-appliedForegroundStrokes[1] = new Point(500, 200);
-
-appliedObjectRectangles[0] = new Rectangle(100, 100, 300, 300);
-
 using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
 {
-    GraphCutMaskingOptions graphCutOptions = new GraphCutMaskingOptions()
+    // 重新使用 AutoMaskingGraphCutOptions 不需要第二次执行默认笔画计算。
+    options.CalculateDefaultStrokes = false;
+    // 当 AutoMaskingArgs 的 Args 属性中的默认笔画和 ObjectsPoints 都提供时，点数组最终会合并。
+    // 第一个 ObjectsPoints 数组被认为是背景点数组，并且 
+    // 第二个 ObjectsPoints 数组被认为是前景点数组。
+    // 当 AutoMaskingArgs 的 Args 属性中的 DefaultObjectsRectangles 和 ObjectsRectangles 都提供时， 
+    // 仅使用 Args 中的数组。
+    options.Args = new AutoMaskingArgs()
+                        {
+                            ObjectsPoints = new Point[][]
+                                                {
+                                                    new Point[] { new Point(100, 100), new Point(150, 100) }, 
+                                                    new Point[] { new Point(500, 200) }, 
+                                                },
+                            ObjectsRectangles = new Rectangle[]
                                                     {
-                                                        FeatheringRadius = 3,
-                                                        Method = SegmentationMethod.GraphCut,
-                                                        Decompose = false,
-                                                        ExportOptions = new PngOptions()
-                                                                            {
-                                                                                ColorType = PngColorType.TruecolorWithAlpha,
-                                                                                Source = new FileCreateSource("tempFile")
-                                                                            },
-                                                        BackgroundReplacementColor = Color.Transparent,
-                                                        Args = new AutoMaskingArgs()
-                                                                {
-                                                                    ObjectsPoints = new Point[][]
-                                                                                        {
-                                                                                            appliedBackgroundStrokes,
-                                                                                            appliedForegroundStrokes
-                                                                                        },
-                                                                    ObjectsRectangles = appliedObjectRectangles
-                                                                }
-                                                    };
-    results = new ImageMasking(image).Decompose(graphCutOptions);
+                                                        new Rectangle(100, 100, 300, 300), 
+                                                    }
+                        };
+    results = new ImageMasking(image).Decompose(options);
 }
 
 using (RasterImage resultImage = (RasterImage)results[1].GetImage())
@@ -234,8 +179,8 @@ using (RasterImage image = (RasterImage)Image.Load("input.jpg"))
     results = new ImageMasking(image).Decompose(options);
 }
 
-    // 此时可以分析应用的前景/背景笔画，并在此基础上附加 
-    // 前景/背景笔画可以手动提供。
+// 此时可以分析应用的前景/背景笔画，并在此基础上附加 
+// 可以手动提供前景/背景笔触。
 Point[] appliedBackgroundStrokes = options.DefaultBackgroundStrokes;
 Point[] appliedForegroundStrokes = options.DefaultForegroundStrokes;
 Rectangle[] appliedObjectRectangles = options.DefaultObjectsRectangles;
@@ -295,7 +240,7 @@ using (RasterImage resultImage = (RasterImage)results[1].GetImage())
 
 ## AssumedObjectData(string, Rectangle) {#constructor_2}
 
-初始化[`AssumedObjectData`](../../assumedobjectdata)类的新实例。
+初始化[`AssumedObjectData`](../../assumedobjectdata)类.
 
 ```csharp
 public AssumedObjectData(string type, Rectangle bounds)

@@ -1,14 +1,14 @@
 ---
 title: RemoveTag
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Удалить тег из контейнера
+description: Удалить тег из container
 type: docs
 weight: 1110
 url: /ru/net/aspose.imaging.exif/exifdata/removetag/
 ---
 ## RemoveTag(ExifProperties) {#removetag}
 
-Удалить тег из контейнера
+Удалить тег из container
 
 ```csharp
 public void RemoveTag(ExifProperties tag)
@@ -16,7 +16,7 @@ public void RemoveTag(ExifProperties tag)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| tag | ExifProperties | Тег для удаления |
+| tag | ExifProperties | Тег, который нужно удалить |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public void RemoveTag(ExifProperties tag)
 
 ## RemoveTag(ushort) {#removetag_1}
 
-Удалить тег из контейнера
+Удалить тег из container
 
 ```csharp
 public void RemoveTag(ushort tagId)
@@ -37,7 +37,7 @@ public void RemoveTag(ushort tagId)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| tagId | UInt16 | Идентификатор тега для удаления. |
+| tagId | UInt16 | Идентификатор тега, который необходимо удалить. |
 
 ### Смотрите также
 

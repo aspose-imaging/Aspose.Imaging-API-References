@@ -1,14 +1,14 @@
 ---
 title: XmpReal
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаXmpRealaspose.imaging.xmp.types.basic/xmpreal.
+description: Инициализирует новый экземплярXmpRealaspose.imaging.xmp.types.basic/xmpreal класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp.types.basic/xmpreal/xmpreal/
 ---
 ## XmpReal(float) {#constructor}
 
-Инициализирует новый экземпляр класса[`XmpReal`](../../xmpreal).
+Инициализирует новый экземпляр[`XmpReal`](../../xmpreal) класс.
 
 ```csharp
 public XmpReal(float value)
@@ -16,7 +16,7 @@ public XmpReal(float value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| значение | Single | Плавающее значение. |
+| value | Single | Плавающее значение. |
 
 ### Смотрите также
 
@@ -28,7 +28,7 @@ public XmpReal(float value)
 
 ## XmpReal(string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`XmpReal`](../../xmpreal).
+Инициализирует новый экземпляр[`XmpReal`](../../xmpreal) класс.
 
 ```csharp
 public XmpReal(string value)
@@ -42,8 +42,8 @@ public XmpReal(string value)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Значение равно null. |
-| ArgumentException | Недопустимое значение. Должен быть плавающим. |
+| ArgumentNullException | значение равно нулю. |
+| ArgumentException | Неверное значение. Должен быть плавающим. |
 
 ### Смотрите также
 

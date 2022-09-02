@@ -16,7 +16,7 @@ public override string ToString()
 
 ### 返回值
 
-AString表示此实例。
+一个String代表这个实例。
 
 ### 也可以看看
 

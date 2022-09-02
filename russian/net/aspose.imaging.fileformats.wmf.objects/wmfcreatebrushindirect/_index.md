@@ -1,14 +1,14 @@
 ---
 title: WmfCreateBrushInDirect
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Кисть Create in direct
+description: Кисть Create в direct
 type: docs
 weight: 8510
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfcreatebrushindirect/
 ---
 ## WmfCreateBrushInDirect class
 
-Кисть Create in direct
+Кисть Create в direct
 
 ```csharp
 public class WmfCreateBrushInDirect : WmfGraphicObject

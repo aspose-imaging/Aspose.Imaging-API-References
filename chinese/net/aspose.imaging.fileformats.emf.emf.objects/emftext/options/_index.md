@@ -1,14 +1,14 @@
 ---
 title: Options
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数该整数指定如何使用 Rectangle 字段中指定的矩形该字段可以是多个 ExtTextOutOptions 枚举第 2.1.11 节值
+description: 获取或设置一个 32 位无符号整数该整数指定如何使用 Rectangle 字段中指定的矩形此字段可以是多个 ExtTextOutOptions 枚举第 2.1.11 节 values 的组合
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emftext/options/
 ---
 ## EmfText.Options property
 
-获取或设置一个 32 位无符号整数，该整数指定如何使用 Rectangle 字段中指定的矩形。该字段可以是多个 ExtTextOutOptions 枚举（第 2.1.11 节）值
+获取或设置一个 32 位无符号整数，该整数指定如何使用 Rectangle 字段中指定的矩形。此字段可以是多个 ExtTextOutOptions 枚举（第 2.1.11 节） values 的组合
 
 ```csharp
 public EmfExtTextOutOptions Options { get; set; }

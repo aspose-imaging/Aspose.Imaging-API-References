@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает горизонтальный компонент этогоSizeFaspose.imaging/sizef.
+description: Получает или задает горизонтальную составляющую этогоSizeFaspose.imaging/sizef .
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging/sizef/width/
 ---
 ## SizeF.Width property
 
-Получает или задает горизонтальный компонент этого[`SizeF`](../../sizef).
+Получает или задает горизонтальную составляющую этого[`SizeF`](../../sizef) .
 
 ```csharp
 public float Width { get; set; }
@@ -16,7 +16,7 @@ public float Width { get; set; }
 
 ### Возвращаемое значение
 
-Горизонтальный компонент этого[`SizeF`](../../sizef), обычно измеряемый в пикселях.
+Горизонтальная составляющая этого[`SizeF`](../../sizef), обычно измеряется в пикселях.
 
 ### Смотрите также
 

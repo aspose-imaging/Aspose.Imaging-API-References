@@ -1,14 +1,14 @@
 ---
 title: TiffLongType
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化TiffLongTypeaspose.imaging.fileformats.tiff.tifftagtypes/tifflongtype类的新实例
+description: 初始化TiffLongTypeaspose.imaging.fileformats.tiff.tifftagtypes/tifflongtype类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.tiff.tifftagtypes/tifflongtype/tifflongtype/
 ---
 ## TiffLongType(TiffTags) {#constructor}
 
-初始化[`TiffLongType`](../../tifflongtype)类的新实例。
+初始化[`TiffLongType`](../../tifflongtype)类.
 
 ```csharp
 public TiffLongType(TiffTags tagId)
@@ -16,7 +16,7 @@ public TiffLongType(TiffTags tagId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tagId | TiffTags | 标签 ID。 |
+| tagId | TiffTags | 标签标识。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public TiffLongType(TiffTags tagId)
 
 ## TiffLongType(ushort) {#constructor_1}
 
-初始化[`TiffLongType`](../../tifflongtype)类的新实例。
+初始化[`TiffLongType`](../../tifflongtype)类.
 
 ```csharp
 public TiffLongType(ushort tagId)
@@ -37,7 +37,7 @@ public TiffLongType(ushort tagId)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tagId | UInt16 | 标签 ID。 |
+| tagId | UInt16 | 标签标识。 |
 
 ### 也可以看看
 

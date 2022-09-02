@@ -3,7 +3,7 @@ title: WmfLogColorSpace
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8750
+weight: 8760
 url: /net/aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/
 ---
 ## WmfLogColorSpace class

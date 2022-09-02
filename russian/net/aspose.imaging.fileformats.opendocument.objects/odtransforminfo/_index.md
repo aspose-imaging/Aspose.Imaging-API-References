@@ -1,14 +1,14 @@
 ---
 title: OdTransformInfo
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Информация о переводе открытого документа
+description: Перевод открытого документа info
 type: docs
 weight: 7340
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects/odtransforminfo/
 ---
 ## OdTransformInfo class
 
-Информация о переводе открытого документа
+Перевод открытого документа info
 
 ```csharp
 public class OdTransformInfo

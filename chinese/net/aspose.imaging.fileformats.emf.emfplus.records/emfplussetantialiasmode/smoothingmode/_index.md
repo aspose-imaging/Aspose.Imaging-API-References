@@ -8,7 +8,7 @@ url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetantialiasm
 ---
 ## EmfPlusSetAntiAliasMode.SmoothingMode property
 
-获取或设置平滑模式。 （7 位）:平滑模式值，来自 SmoothingMode 枚举（第 2.1.1.28 节）
+获取或设置平滑模式。 （7 位）：平滑模式值，来自 SmoothingMode 枚举（第 2.1.1.28 节）
 
 ```csharp
 public EmfPlusSmoothingMode SmoothingMode { get; set; }

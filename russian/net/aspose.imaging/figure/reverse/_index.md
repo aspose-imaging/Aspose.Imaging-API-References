@@ -1,14 +1,14 @@
 ---
 title: Reverse
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Изменяет порядок фигур и порядок точек этой фигуры на противоположный.
+description: Меняет порядок форм этой фигуры и порядок точек фигуры.
 type: docs
 weight: 110
 url: /ru/net/aspose.imaging/figure/reverse/
 ---
 ## Figure.Reverse method
 
-Изменяет порядок фигур и порядок точек этой фигуры на противоположный.
+Меняет порядок форм этой фигуры и порядок точек фигуры.
 
 ```csharp
 public void Reverse()

@@ -18,14 +18,14 @@ public class CustomFontData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CustomFontData](customfontdata)(string, byte[]) | 初始化[`CustomFontData`](../customfontdata)类的新实例。 |
+| [CustomFontData](customfontdata)(string, byte[]) | 初始化一个新的实例[`CustomFontData`](../customfontdata)班级。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [FontData](../../aspose.imaging.customfonthandler/customfontdata/fontdata) { get; } | 获取字体数据。 |
-| [FontName](../../aspose.imaging.customfonthandler/customfontdata/fontname) { get; } | 获取字体名称。 |
+| [FontName](../../aspose.imaging.customfonthandler/customfontdata/fontname) { get; } | 获取字体的名称。 |
 
 ### 也可以看看
 

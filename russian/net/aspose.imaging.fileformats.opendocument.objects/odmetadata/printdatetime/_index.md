@@ -1,14 +1,14 @@
 ---
 title: PrintDateTime
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает дату и время печати.
+description: Получает или задает время печати даты.
 type: docs
 weight: 160
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects/odmetadata/printdatetime/
 ---
 ## OdMetadata.PrintDateTime property
 
-Получает или задает дату и время печати.
+Получает или задает время печати даты.
 
 ```csharp
 public string PrintDateTime { get; set; }

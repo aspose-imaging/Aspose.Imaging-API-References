@@ -1,14 +1,14 @@
 ---
 title: Handles
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 16 位无符号整数指定在处理元文件时将使用的图形对象的数量
+description: 获取或设置一个 16 位无符号整数指定在处理元文件期间将使用的图形对象的数量
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/handles/
 ---
 ## EmfHeaderObject.Handles property
 
-获取或设置一个 16 位无符号整数，指定在处理元文件时将使用的图形对象的数量
+获取或设置一个 16 位无符号整数，指定在处理元文件期间将使用的图形对象的数量
 
 ```csharp
 public short Handles { get; set; }

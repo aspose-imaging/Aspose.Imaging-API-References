@@ -1,14 +1,14 @@
 ---
 title: StringFormatExtensions
 second_title: Aspose.Imaging for .NET API 参考
-description: 包含StringFormat../aspose.imaging/stringformat类的扩展方法
+description: 包含扩展方法StringFormat../aspose.imaging/stringformat类.
 type: docs
 weight: 1280
 url: /zh/net/aspose.imaging.extensions/stringformatextensions/
 ---
 ## StringFormatExtensions class
 
-包含[`StringFormat`](../../aspose.imaging/stringformat)类的扩展方法。
+包含扩展方法[`StringFormat`](../../aspose.imaging/stringformat)类.
 
 ```csharp
 public static class StringFormatExtensions
@@ -18,7 +18,7 @@ public static class StringFormatExtensions
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [ToGdiStringFormat](../../aspose.imaging.extensions/stringformatextensions/togdistringformat)(StringFormat) | 将[`StringFormat`](../../aspose.imaging/stringformat)转换为StringFormat。 |
+| static [ToGdiStringFormat](../../aspose.imaging.extensions/stringformatextensions/togdistringformat)(StringFormat) | 转换[`StringFormat`](../../aspose.imaging/stringformat)到StringFormat . |
 
 ### 也可以看看
 

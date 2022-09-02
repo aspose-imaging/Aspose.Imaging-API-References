@@ -1,14 +1,14 @@
 ---
 title: EmfSelectClipPath
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfSelectClipPathaspose.imaging.fileformats.emf.emf.records/emfselectclippath类的新实例
+description: 初始化EmfSelectClipPathaspose.imaging.fileformats.emf.emf.records/emfselectclippath类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfselectclippath/emfselectclippath/
 ---
 ## EmfSelectClipPath(EmfRecord) {#constructor_1}
 
-初始化[`EmfSelectClipPath`](../../emfselectclippath)类的新实例。
+初始化[`EmfSelectClipPath`](../../emfselectclippath)类.
 
 ```csharp
 public EmfSelectClipPath(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfSelectClipPath(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfSelectClipPath(EmfRecord source)
 
 ## EmfSelectClipPath() {#constructor}
 
-初始化[`EmfSelectClipPath`](../../emfselectclippath)类的新实例。
+初始化[`EmfSelectClipPath`](../../emfselectclippath)类.
 
 ```csharp
 public EmfSelectClipPath()

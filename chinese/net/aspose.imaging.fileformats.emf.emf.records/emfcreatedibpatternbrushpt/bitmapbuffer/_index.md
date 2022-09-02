@@ -1,14 +1,14 @@
 ---
 title: BitmapBuffer
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置包含 WMF DeviceIndependentBitmap 对象形式的打包 DIB 的缓冲区MS-WMF 第 2.2.2.9 节 .它不需要是 与 EMR_CREATEDIBPATTERNBRUSHPT 记录的固定部分连续
+description: 获取或设置包含 WMF DeviceIndependentBitmap 对象形式的打包 DIB 的缓冲区MS-WMF 第 2.2.2.9 节不需要与 EMR_CREATEDIBPATTERNBRUSHPT 记录的固定部分连续 
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/bitmapbuffer/
 ---
 ## EmfCreateDibPatternBrushPt.BitmapBuffer property
 
-获取或设置包含 WMF DeviceIndependentBitmap 对象形式的打包 DIB 的缓冲区（[MS-WMF] 第 2.2.2.9 节） .它不需要是 与 EMR_CREATEDIBPATTERNBRUSHPT 记录的固定部分连续。
+获取或设置包含 WMF DeviceIndependentBitmap 对象形式的打包 DIB 的缓冲区（[MS-WMF] 第 2.2.2.9 节）。不需要与 EMR_CREATEDIBPATTERNBRUSHPT 记录的固定部分连续 。
 
 ```csharp
 public WmfDeviceIndependentBitmap BitmapBuffer { get; set; }

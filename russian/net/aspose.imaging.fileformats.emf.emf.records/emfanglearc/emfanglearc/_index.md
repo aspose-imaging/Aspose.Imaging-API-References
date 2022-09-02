@@ -1,14 +1,14 @@
 ---
 title: EmfAngleArc
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfAngleArcaspose.imaging.fileformats.emf.emf.records/emfanglearc.
+description: Инициализирует новый экземплярEmfAngleArcaspose.imaging.fileformats.emf.emf.records/emfanglearc класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfanglearc/emfanglearc/
 ---
 ## EmfAngleArc(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfAngleArc`](../../emfanglearc).
+Инициализирует новый экземпляр[`EmfAngleArc`](../../emfanglearc) класс.
 
 ```csharp
 public EmfAngleArc(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfAngleArc(EmfRecord source)
 
 ## EmfAngleArc() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfAngleArc`](../../emfanglearc).
+Инициализирует новый экземпляр[`EmfAngleArc`](../../emfanglearc) класс.
 
 ```csharp
 public EmfAngleArc()

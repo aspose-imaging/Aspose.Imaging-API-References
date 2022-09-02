@@ -27,13 +27,13 @@ public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
 ```csharp
 [C#]
 
- // Загрузить EPS image
+// Загружаем EPS-изображение
 using (var image = Image.Load("AstrixObelix.eps"))
 {
-     // Изменяем размер изображения с помощью кубической интерполяции Митчелла method
+    // Изменяем размер изображения, используя метод кубической интерполяции Митчелла
     image.Resize(400, 400, ResizeType.Mitchell);
 
-     // Экспорт изображения в PNG format
+    // Экспорт изображения в формат PNG
     image.Save("ExportResult.png", new PngOptions());
 }
 ```
@@ -63,31 +63,31 @@ public override void Resize(int newWidth, int newHeight, ImageResizeSettings set
 
 ### Примеры
 
-Изменение размера изображения EPS с помощью дополнительных настроек.
+Измените размер изображения EPS, используя дополнительные настройки.
 
 ```csharp
 [C#]
 
- // Загрузить EPS image
+// Загружаем EPS-изображение
 using (var image = Image.Load("AstrixObelix.eps"))
 {
-    // Изменяем размер изображения, используя расширенные параметры изменения размера settings
+    // Изменяем размер изображения, используя расширенные настройки изменения размера
     image.Resize(400, 400, new ImageResizeSettings
     {
-         // Установить режим интерполяции
+        // Установить режим интерполяции
         Mode = ResizeType.LanczosResample,
 
-         // Установить тип filter
+        // Задаем тип фильтра
         FilterType = ImageFilterType.SmallRectangular,
 
-         // Устанавливает сравнение цветов method
+        // Устанавливаем метод сравнения цветов
         ColorCompareMethod = ColorCompareMethod.Euclidian,
 
-         // Установить метод квантования цвета
+        // Устанавливаем метод квантования цвета
         ColorQuantizationMethod = ColorQuantizationMethod.Popularity
     });
 
-     // Экспорт изображения в PNG format
+    // Экспорт изображения в формат PNG
     image.Save("ExportResult.png", new PngOptions());
 }
 ```

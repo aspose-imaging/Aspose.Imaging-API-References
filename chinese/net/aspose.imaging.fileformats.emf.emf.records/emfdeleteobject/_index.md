@@ -18,14 +18,14 @@ public sealed class EmfDeleteObject : EmfRecord
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfDeleteObject](emfdeleteobject#constructor)() | 初始化[`EmfDeleteObject`](../emfdeleteobject)类的新实例。 |
-| [EmfDeleteObject](emfdeleteobject#constructor_1)(EmfRecord) | 初始化[`EmfDeleteObject`](../emfdeleteobject)类的新实例。 |
+| [EmfDeleteObject](emfdeleteobject#constructor)() | 初始化[`EmfDeleteObject`](../emfdeleteobject)类. |
+| [EmfDeleteObject](emfdeleteobject#constructor_1)(EmfRecord) | 初始化[`EmfDeleteObject`](../emfdeleteobject)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ObjectHandle](../../aspose.imaging.fileformats.emf.emf.records/emfdeleteobject/objecthandle) { get; set; } | 获取或设置 32 位无符号整数，指定 EMF 对象表中图形对象的索引 或股票的索引StockObject 枚举中的对象。 |
+| [ObjectHandle](../../aspose.imaging.fileformats.emf.emf.records/emfdeleteobject/objecthandle) { get; set; } | 获取或设置 32 位无符号整数，它指定 EMF 对象表中图形对象 的索引或 StockObject 枚举中的库存对象的索引。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

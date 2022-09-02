@@ -1,14 +1,14 @@
 ---
 title: ImageMaskingException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаImageMaskingExceptionaspose.imaging.masking.exceptions/imagemaskingexception.
+description: Инициализирует новый экземплярImageMaskingExceptionaspose.imaging.masking.exceptions/imagemaskingexception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.masking.exceptions/imagemaskingexception/imagemaskingexception/
 ---
 ## ImageMaskingException constructor
 
-Инициализирует новый экземпляр класса[`ImageMaskingException`](../../imagemaskingexception).
+Инициализирует новый экземпляр[`ImageMaskingException`](../../imagemaskingexception) класс.
 
 ```csharp
 public ImageMaskingException(string message)

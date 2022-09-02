@@ -20,7 +20,7 @@ public virtual EmbeddedImage[] GetEmbeddedImages()
 
 ### 例子
 
-支持从矢量中提取嵌入的光栅图像图片
+支持从矢量图像中提取嵌入的光栅图像
 
 ```csharp
 [C#]

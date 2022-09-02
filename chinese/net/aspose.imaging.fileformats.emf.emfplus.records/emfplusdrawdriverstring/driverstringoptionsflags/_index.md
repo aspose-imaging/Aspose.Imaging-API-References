@@ -1,14 +1,14 @@
 ---
 title: DriverStringOptionsFlags
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置驱动程序字符串选项标志 一个 32 位无符号整数指定字符串的间距方向和渲染质量.
+description: 获取或设置驱动程序字符串选项 flags 一个 32 位无符号整数用于指定字符串的间距方向和渲染质量
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/driverstringoptionsflags/
 ---
 ## EmfPlusDrawDriverString.DriverStringOptionsFlags property
 
-获取或设置驱动程序字符串选项标志 一个 32 位无符号整数，指定字符串的间距、方向和渲染质量.
+获取或设置驱动程序字符串选项 flags 一个 32 位无符号整数，用于指定字符串的间距、方向和渲染质量。
 
 ```csharp
 public EmfPlusDriverStringOptionsFlags DriverStringOptionsFlags { get; set; }

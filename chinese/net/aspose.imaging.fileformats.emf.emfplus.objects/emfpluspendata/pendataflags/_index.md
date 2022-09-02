@@ -1,14 +1,14 @@
 ---
 title: PenDataFlags
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 32 位无符号整数指定 OptionalData 字段中的数据该值必须由 PenData 标志组成第 2.1.2.7 节
+description: 获取或设置 32 位无符号整数用于指定 OptionalData 字段中的数据此值必须由 PenData 标志第 2.1.2.7 节组成
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/pendataflags/
 ---
 ## EmfPlusPenData.PenDataFlags property
 
-获取或设置 32 位无符号整数，指定 OptionalData 字段中的数据。该值必须由 PenData 标志组成（第 2.1.2.7 节）。
+获取或设置 32 位无符号整数，用于指定 OptionalData 字段中的数据。此值必须由 PenData 标志（第 2.1.2.7 节）组成。
 
 ```csharp
 public EmfPlusPenDataFlags PenDataFlags { get; set; }

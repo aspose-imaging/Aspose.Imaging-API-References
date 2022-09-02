@@ -1,14 +1,14 @@
 ---
 title: InitialFillRuleRecord
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化InitialFillRuleRecordaspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord类的新实例
+description: 初始化InitialFillRuleRecordaspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.core.vectorpaths/initialfillrulerecord/initialfillrulerecord/
 ---
 ## InitialFillRuleRecord() {#constructor}
 
-初始化[`InitialFillRuleRecord`](../../initialfillrulerecord)类的新实例。
+初始化[`InitialFillRuleRecord`](../../initialfillrulerecord)类.
 
 ```csharp
 public InitialFillRuleRecord()
@@ -24,7 +24,7 @@ public InitialFillRuleRecord()
 
 ## InitialFillRuleRecord(bool) {#constructor_1}
 
-初始化[`InitialFillRuleRecord`](../../initialfillrulerecord)类的新实例。
+初始化[`InitialFillRuleRecord`](../../initialfillrulerecord)类.
 
 ```csharp
 public InitialFillRuleRecord(bool isFillStartsWithAllPixels)
@@ -44,7 +44,7 @@ public InitialFillRuleRecord(bool isFillStartsWithAllPixels)
 
 ## InitialFillRuleRecord(byte[]) {#constructor_2}
 
-初始化[`InitialFillRuleRecord`](../../initialfillrulerecord)类的新实例。
+初始化[`InitialFillRuleRecord`](../../initialfillrulerecord)类.
 
 ```csharp
 public InitialFillRuleRecord(byte[] data)

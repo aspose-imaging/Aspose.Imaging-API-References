@@ -1,14 +1,14 @@
 ---
 title: PrecalculationProgressEventHandler
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает обработчик событий прогресса процесса предварительного расчета точек по умолчанию.
+description: Получает или задает обработчик события прогресса процесса предварительного расчета баллов по умолчанию.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.masking.options/automaskinggraphcutoptions/precalculationprogresseventhandler/
 ---
 ## AutoMaskingGraphCutOptions.PrecalculationProgressEventHandler property
 
-Получает или задает обработчик событий прогресса процесса предварительного расчета точек по умолчанию.
+Получает или задает обработчик события прогресса процесса предварительного расчета баллов по умолчанию.
 
 ```csharp
 public ProgressEventHandler PrecalculationProgressEventHandler { get; set; }
@@ -16,7 +16,7 @@ public ProgressEventHandler PrecalculationProgressEventHandler { get; set; }
 
 ### Стоимость имущества
 
-Обработчик события progress.
+Обработчик событий прогресса.
 
 ### Смотрите также
 

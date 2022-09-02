@@ -1,14 +1,14 @@
 ---
 title: GifUnknownExtensionBlock
 second_title: Aspose.Imaging for .NET API 参考
-description: Gif 未知扩展块
+description: Gif 未知扩展块.
 type: docs
 weight: 6660
 url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/
 ---
 ## GifUnknownExtensionBlock class
 
-Gif 未知扩展块。
+Gif 未知扩展块.
 
 ```csharp
 public class GifUnknownExtensionBlock : GifBlock
@@ -18,8 +18,8 @@ public class GifUnknownExtensionBlock : GifBlock
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GifUnknownExtensionBlock](gifunknownextensionblock#constructor)() | 初始化[`GifUnknownExtensionBlock`](../gifunknownextensionblock)类的新实例。 |
-| [GifUnknownExtensionBlock](gifunknownextensionblock#constructor_1)(byte, byte[]) | 初始化[`GifUnknownExtensionBlock`](../gifunknownextensionblock)类的新实例。 |
+| [GifUnknownExtensionBlock](gifunknownextensionblock#constructor)() | 初始化[`GifUnknownExtensionBlock`](../gifunknownextensionblock)类. |
+| [GifUnknownExtensionBlock](gifunknownextensionblock#constructor_1)(byte, byte[]) | 初始化[`GifUnknownExtensionBlock`](../gifunknownextensionblock)类. |
 
 ## 特性
 
@@ -33,7 +33,7 @@ public class GifUnknownExtensionBlock : GifBlock
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Save](../../aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/save)(Stream) | 将块保存到指定的流。 |
+| override [Save](../../aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/save)(Stream) | 将块保存到指定的流中。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ReadArgb32ScanLine
 second_title: Aspose.Imaging for .NET API 参考
-description: 通过指定的扫描线索引读取整个扫描线
+description: 按指定的扫描线索引读取整个扫描线
 type: docs
 weight: 440
 url: /zh/net/aspose.imaging/rasterimage/readargb32scanline/
 ---
 ## RasterImage.ReadArgb32ScanLine method
 
-通过指定的扫描线索引读取整个扫描线。
+按指定的扫描线索引读取整个扫描线。
 
 ```csharp
 public int[] ReadArgb32ScanLine(int scanLineIndex)

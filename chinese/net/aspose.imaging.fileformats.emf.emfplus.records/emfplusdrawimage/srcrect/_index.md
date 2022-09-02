@@ -1,14 +1,14 @@
 ---
 title: SrcRect
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置源矩形 EmfPlusRectF 对象指定要渲染的图像的一部分 此矩形指定的图像部分被缩放以适合由 RectData 字段指定的目标 矩形
+description: 获取或设置源 rect 一个 EmfPlusRectF 对象它指定要渲染的图像的一部分 此矩形指定的图像部分被缩放以适合 RectData 字段指定的destination 矩形
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimage/srcrect/
 ---
 ## EmfPlusDrawImage.SrcRect property
 
-获取或设置源矩形 EmfPlusRectF 对象，指定要渲染的图像的一部分。 此矩形指定的图像部分被缩放以适合由 RectData 字段指定的目标 矩形。
+获取或设置源 rect 一个 EmfPlusRectF 对象，它指定要渲染的图像的一部分。 此矩形指定的图像部分被缩放以适合 RectData 字段指定的destination 矩形。
 
 ```csharp
 public RectangleF SrcRect { get; set; }

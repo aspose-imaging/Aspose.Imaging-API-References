@@ -16,7 +16,7 @@ public override double VerticalResolution { get; set; }
 
 ### 例子
 
-以下示例显示如何设置 PNG 图像的水平/垂直分辨率。
+以下示例显示了如何设置 PNG 图像的水平/垂直分辨率。
 
 ```csharp
 [C#]
@@ -27,8 +27,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 {
     Aspose.Imaging.FileFormats.Png.PngImage pngImage = (Aspose.Imaging.FileFormats.Png.PngImage)image;
 
-        // 获取 PngImage.
- 的水平和垂直分辨率
+    // 获取 PngImage 的水平和垂直分辨率。
     double horizontalResolution = pngImage.HorizontalResolution;
     double verticalResolution = pngImage.VerticalResolution;
     System.Console.WriteLine("The horizontal resolution, in pixels per inch: {0}", horizontalResolution);

@@ -3,7 +3,7 @@ title: PositioningTypes
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10130
+weight: 10150
 url: /net/aspose.imaging.imageoptions/positioningtypes/
 ---
 ## PositioningTypes enumeration

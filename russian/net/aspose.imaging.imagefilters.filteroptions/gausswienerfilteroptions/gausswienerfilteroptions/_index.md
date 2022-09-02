@@ -1,14 +1,14 @@
 ---
 title: GaussWienerFilterOptions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаGaussWienerFilterOptionsaspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions.
+description: Инициализирует новый экземплярGaussWienerFilterOptionsaspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.imagefilters.filteroptions/gausswienerfilteroptions/gausswienerfilteroptions/
 ---
 ## GaussWienerFilterOptions(int, double) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`GaussWienerFilterOptions`](../../gausswienerfilteroptions).
+Инициализирует новый экземпляр[`GaussWienerFilterOptions`](../../gausswienerfilteroptions) класс.
 
 ```csharp
 public GaussWienerFilterOptions(int radius, double smooth)
@@ -17,7 +17,7 @@ public GaussWienerFilterOptions(int radius, double smooth)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | radius | Int32 | Радиус. |
-| smooth | Double | Гладкость. |
+| smooth | Double | Гладкая. |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public GaussWienerFilterOptions(int radius, double smooth)
 
 ## GaussWienerFilterOptions() {#constructor}
 
-Инициализирует новый экземпляр класса[`GaussWienerFilterOptions`](../../gausswienerfilteroptions). С настройками по умолчанию.
+Инициализирует новый экземпляр[`GaussWienerFilterOptions`](../../gausswienerfilteroptions) class. С настройками по умолчанию.
 
 ```csharp
 public GaussWienerFilterOptions()

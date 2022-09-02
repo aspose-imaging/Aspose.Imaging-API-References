@@ -1,14 +1,14 @@
 ---
 title: Origin
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 64 位 WMF PointL 对象在 MS-WMF 第 2.2.2.15 节中指定其中 指定画笔的水平和以设备为单位的垂直原点
+description: 获取或设置一个64位WMF PointL对象在MS-WMF第2.2.2.15节中指定其中 以设备单位指定画笔的水平和垂直原点
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetbrushorgex/origin/
 ---
 ## EmfSetBrushOrgEx.Origin property
 
-获取或设置一个 64 位 WMF PointL 对象，在 [MS-WMF] 第 2.2.2.15 节中指定，其中 指定画笔的水平和以设备为单位的垂直原点。
+获取或设置一个64位WMF PointL对象，在[MS-WMF]第2.2.2.15节中指定，其中 以设备单位指定画笔的水平和垂直原点。
 
 ```csharp
 public Point Origin { get; set; }

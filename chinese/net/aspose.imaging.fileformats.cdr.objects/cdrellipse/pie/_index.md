@@ -1,14 +1,14 @@
 ---
 title: Pie
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值该值指示此CdrEllipseaspose.imaging.fileformats.cdr.objects/cdrellipse是否为饼图
+description: 获取或设置一个值该值指示是否CdrEllipseaspose.imaging.fileformats.cdr.objects/cdrellipse是馅饼.
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrellipse/pie/
 ---
 ## CdrEllipse.Pie property
 
-获取或设置一个值，该值指示此[`CdrEllipse`](../../cdrellipse)是否为饼图。
+获取或设置一个值，该值指示是否[`CdrEllipse`](../../cdrellipse)是馅饼.
 
 ```csharp
 public bool Pie { get; set; }
@@ -16,7 +16,7 @@ public bool Pie { get; set; }
 
 ### 适当的价值
 
-` true` if pie;否则，` false` 。
+`真的`如果馅饼;否则，`错误的` .
 
 ### 也可以看看
 

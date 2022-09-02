@@ -1,14 +1,14 @@
 ---
 title: PointD
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Двойная точка
+description: Точка double
 type: docs
 weight: 1890
 url: /ru/net/aspose.imaging.fileformats.cdr.types/pointd/
 ---
 ## PointD structure
 
-Двойная точка
+Точка double
 
 ```csharp
 public struct PointD
@@ -18,7 +18,7 @@ public struct PointD
 
 | Имя | Описание |
 | --- | --- |
-| [PointD](pointd)(double, double) | Инициализирует новый экземпляр структуры[`PointD`](../pointd). |
+| [PointD](pointd)(double, double) | Инициализирует новый экземпляр[`PointD`](../pointd) структура. |
 
 ## Характеристики
 
@@ -31,8 +31,8 @@ public struct PointD
 
 | Имя | Описание |
 | --- | --- |
-| [FromPointF](../../aspose.imaging.fileformats.cdr.types/pointd/frompointf)(PointF) | Преобразует[`PointD`](../pointd)в[`PointF`](../../aspose.imaging/pointf)структура. |
-| [ToPointF](../../aspose.imaging.fileformats.cdr.types/pointd/topointf)() | Преобразует[`PointF`](../../aspose.imaging/pointf)в[`PointD`](../pointd)структура. |
+| [FromPointF](../../aspose.imaging.fileformats.cdr.types/pointd/frompointf)(PointF) | Преобразует[`PointD`](../pointd) к[`PointF`](../../aspose.imaging/pointf) структура. |
+| [ToPointF](../../aspose.imaging.fileformats.cdr.types/pointd/topointf)() | Преобразует[`PointF`](../../aspose.imaging/pointf) к[`PointD`](../pointd) структура. |
 | override [ToString](../../aspose.imaging.fileformats.cdr.types/pointd/tostring)() | Преобразует в строку. |
 
 ### Смотрите также

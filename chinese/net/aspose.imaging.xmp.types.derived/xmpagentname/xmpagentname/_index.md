@@ -1,14 +1,14 @@
 ---
 title: XmpAgentName
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化XmpAgentNameaspose.imaging.xmp.types.derived/xmpagentname类的新实例
+description: 初始化XmpAgentNameaspose.imaging.xmp.types.derived/xmpagentname类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp.types.derived/xmpagentname/xmpagentname/
 ---
 ## XmpAgentName constructor
 
-初始化[`XmpAgentName`](../../xmpagentname)类的新实例。
+初始化[`XmpAgentName`](../../xmpagentname)类.
 
 ```csharp
 public XmpAgentName(string value)
@@ -16,7 +16,7 @@ public XmpAgentName(string value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 值。 |
+| value | String | 价值。 |
 
 ### 也可以看看
 

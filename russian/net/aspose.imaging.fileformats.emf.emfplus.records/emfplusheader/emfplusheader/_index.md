@@ -1,14 +1,14 @@
 ---
 title: EmfPlusHeader
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusHeaderaspose.imaging.fileformats.emf.emfplus.records/emfplusheader.
+description: Инициализирует новый экземплярEmfPlusHeaderaspose.imaging.fileformats.emf.emfplus.records/emfplusheader класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/emfplusheader/
 ---
 ## EmfPlusHeader constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusHeader`](../../emfplusheader).
+Инициализирует новый экземпляр[`EmfPlusHeader`](../../emfplusheader) класс.
 
 ```csharp
 public EmfPlusHeader(EmfPlusRecord source)

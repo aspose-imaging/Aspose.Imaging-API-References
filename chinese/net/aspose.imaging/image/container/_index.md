@@ -1,14 +1,14 @@
 ---
 title: Container
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取Imageaspose.imaging/image容器
+description: 获取Imageaspose.imaging/image容器.
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging/image/container/
 ---
 ## Image.Container property
 
-获取[`Image`](../../image)容器。
+获取[`Image`](../../image)容器.
 
 ```csharp
 public Image Container { get; }
@@ -16,7 +16,7 @@ public Image Container { get; }
 
 ### 适当的价值
 
-[`Image`](../../image)容器。
+的[`Image`](../../image)容器.
 
 ### 评论
 

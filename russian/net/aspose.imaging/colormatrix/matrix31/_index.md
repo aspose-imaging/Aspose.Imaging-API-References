@@ -1,14 +1,14 @@
 ---
 title: Matrix31
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает элемент в третьей строке и первом столбце этогоColorMatrixaspose.imaging/colormatrix.
+description: Получает или устанавливает элемент в третьей строке и первом столбце этогоColorMatrixaspose.imaging/colormatrix .
 type: docs
 weight: 190
 url: /ru/net/aspose.imaging/colormatrix/matrix31/
 ---
 ## ColorMatrix.Matrix31 property
 
-Получает или устанавливает элемент в третьей строке и первом столбце этого[`ColorMatrix`](../../colormatrix).
+Получает или устанавливает элемент в третьей строке и первом столбце этого[`ColorMatrix`](../../colormatrix) .
 
 ```csharp
 public float Matrix31 { get; set; }

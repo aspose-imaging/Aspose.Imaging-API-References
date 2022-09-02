@@ -1,14 +1,14 @@
 ---
 title: GenericTypographic
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает общий типографическийStringFormataspose.imaging/stringformatобъект.
+description: Получает общий типографскийStringFormataspose.imaging/stringformat объект.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging/stringformat/generictypographic/
 ---
 ## StringFormat.GenericTypographic property
 
-Получает общий типографический[`StringFormat`](../../stringformat)объект.
+Получает общий типографский[`StringFormat`](../../stringformat) объект.
 
 ```csharp
 public static StringFormat GenericTypographic { get; }
@@ -16,7 +16,7 @@ public static StringFormat GenericTypographic { get; }
 
 ### Стоимость имущества
 
-Общий типографический[`StringFormat`](../../stringformat)объект.
+Общий типографский[`StringFormat`](../../stringformat) объект.
 
 ### Смотрите также
 

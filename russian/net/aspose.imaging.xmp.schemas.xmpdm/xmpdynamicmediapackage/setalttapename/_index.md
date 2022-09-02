@@ -16,7 +16,7 @@ public void SetAltTapeName(string altTapeName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| altTapeName | String | Альтернативное имя ленты. |
+| altTapeName | String | Альтернативное название ленты. |
 
 ### Смотрите также
 

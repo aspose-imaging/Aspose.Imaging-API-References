@@ -18,7 +18,7 @@ public class RdOptimizationError : Exception
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RdOptimizationError](rdoptimizationerror)(string) | 初始化[`RdOptimizationError`](../rdoptimizationerror)类的新实例。 |
+| [RdOptimizationError](rdoptimizationerror)(string) | 初始化[`RdOptimizationError`](../rdoptimizationerror)类. |
 
 ### 也可以看看
 

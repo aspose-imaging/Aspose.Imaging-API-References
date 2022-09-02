@@ -1,14 +1,14 @@
 ---
 title: CommentIdentifier
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数用于标识此评论记录 为指定公共数据值 0x43494447 是 ASCII 字符串CIDG将 标识为 EMR_COMMENT_PUBLIC 记录
+description: 获取或设置一个 32 位无符号整数将这条评论记录 标识为指定公共数据值 0x43494447即 ASCII 字符串CIDG将 标识为 EMR_COMMENT_PUBLIC 记录
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcommentpublicrecordtype/commentidentifier/
 ---
 ## EmfCommentPublicRecordType.CommentIdentifier property
 
-获取或设置一个 32 位无符号整数，用于标识此评论记录 为指定公共数据。值 0x43494447 是 ASCII 字符串“CIDG”，将 标识为 EMR_COMMENT_PUBLIC 记录。
+获取或设置一个 32 位无符号整数，将这条评论记录 标识为指定公共数据。值 0x43494447，即 ASCII 字符串“CIDG”，将 标识为 EMR_COMMENT_PUBLIC 记录。
 
 ```csharp
 public override CommentIdentifierEnum CommentIdentifier { get; set; }

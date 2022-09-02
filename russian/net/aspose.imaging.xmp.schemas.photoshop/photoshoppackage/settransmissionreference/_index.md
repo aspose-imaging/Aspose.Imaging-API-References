@@ -1,14 +1,14 @@
 ---
 title: SetTransmissionReference
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Устанавливает ссылку на передачу.
+description: Устанавливает ссылку передачи.
 type: docs
 weight: 190
 url: /ru/net/aspose.imaging.xmp.schemas.photoshop/photoshoppackage/settransmissionreference/
 ---
 ## PhotoshopPackage.SetTransmissionReference method
 
-Устанавливает ссылку на передачу.
+Устанавливает ссылку передачи.
 
 ```csharp
 public void SetTransmissionReference(string transmissionReference)

@@ -25,8 +25,8 @@ public class WmfEscapePostScript : WmfEscapeRecordBase
 | Имя | Описание |
 | --- | --- |
 | [ByteCount](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/bytecount) { get; set; } | Получает или задает количество байтов. |
-| virtual [Checked](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/checked) { get; set; } | Получает значение, указывающее, проверено ли это[`WmfEscapeRecordBase`](../wmfescaperecordbase). |
-| [Data](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/data) { get; set; } | Получает или задает данные. |
+| virtual [Checked](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/checked) { get; set; } | Получает значение, указывающее, является ли это[`WmfEscapeRecordBase`](../wmfescaperecordbase) проверено. |
+| [Data](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/data) { get; set; } | Получает или устанавливает данные. |
 | [PostScriptPart](../../aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapepostscript/postscriptpart) { get; set; } | Получает или задает часть постскриптума. |
 
 ### Смотрите также

@@ -16,7 +16,7 @@ public int ObjectCount { get; set; }
 
 ### 适当的价值
 
-必须忽略的值。
+一个必须被忽略的值。
 
 ### 也可以看看
 

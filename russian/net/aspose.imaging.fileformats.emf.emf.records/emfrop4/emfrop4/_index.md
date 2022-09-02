@@ -1,14 +1,14 @@
 ---
 title: EmfRop4
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfRop4aspose.imaging.fileformats.emf.emf.records/emfrop4.
+description: Инициализирует новый экземплярEmfRop4aspose.imaging.fileformats.emf.emf.records/emfrop4 класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfrop4/emfrop4/
 ---
 ## EmfRop4 constructor
 
-Инициализирует новый экземпляр класса[`EmfRop4`](../../emfrop4).
+Инициализирует новый экземпляр[`EmfRop4`](../../emfrop4) класс.
 
 ```csharp
 public EmfRop4(int dwordData)

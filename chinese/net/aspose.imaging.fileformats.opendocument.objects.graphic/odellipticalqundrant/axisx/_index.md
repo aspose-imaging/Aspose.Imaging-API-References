@@ -1,14 +1,14 @@
 ---
 title: AxisX
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个值指示是否 axis x
+description: 获取或设置一个值表示 axis x.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odellipticalqundrant/axisx/
 ---
 ## OdEllipticalQundrant.AxisX property
 
-获取或设置一个值，指示是否 [axis x]。
+获取或设置一个值，表示 [axis x].
 
 ```csharp
 public bool AxisX { get; set; }
@@ -16,7 +16,7 @@ public bool AxisX { get; set; }
 
 ### 适当的价值
 
-` true` if [axis x];否则，` false` 。
+`真的`如果 [轴 x];否则，`错误的` .
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: EmfGlsRecord
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfGlsRecordaspose.imaging.fileformats.emf.emf.records/emfglsrecord.
+description: Инициализирует новый экземплярEmfGlsRecordaspose.imaging.fileformats.emf.emf.records/emfglsrecord класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfglsrecord/emfglsrecord/
 ---
 ## EmfGlsRecord constructor
 
-Инициализирует новый экземпляр класса[`EmfGlsRecord`](../../emfglsrecord).
+Инициализирует новый экземпляр[`EmfGlsRecord`](../../emfglsrecord) класс.
 
 ```csharp
 public EmfGlsRecord(EmfRecord source)

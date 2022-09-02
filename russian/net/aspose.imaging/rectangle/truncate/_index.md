@@ -1,14 +1,14 @@
 ---
 title: Truncate
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Преобразует указанныйRectangleFaspose.imaging/rectanglefвRectangleaspose.imaging/rectangleпутем усечения значенийRectangleFaspose.imaging/rectanglef.
+description: Преобразует указанныйRectangleFaspose.imaging/rectanglef кRectangleaspose.imaging/rectangle путем усеченияRectangleFaspose.imaging/rectanglef значения.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging/rectangle/truncate/
 ---
 ## Rectangle.Truncate method
 
-Преобразует указанный[`RectangleF`](../../rectanglef)в[`Rectangle`](../../rectangle)путем усечения значений[`RectangleF`](../../rectanglef).
+Преобразует указанный[`RectangleF`](../../rectanglef) к[`Rectangle`](../../rectangle) путем усечения[`RectangleF`](../../rectanglef) значения.
 
 ```csharp
 public static Rectangle Truncate(RectangleF value)
@@ -16,11 +16,11 @@ public static Rectangle Truncate(RectangleF value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | RectangleF | [`RectangleF`](../../rectanglef)для преобразования. |
+| value | RectangleF | [`RectangleF`](../../rectanglef) быть преобразованным. |
 
 ### Возвращаемое значение
 
-Новый[`Rectangle`](../../rectangle).
+новый[`Rectangle`](../../rectangle).
 
 ### Смотрите также
 

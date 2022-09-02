@@ -1,14 +1,14 @@
 ---
 title: CAccumGreenBits
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает количество зеленых битпланов в накоплении
+description: Получает или задает количество зеленых битовых плоскостей в наборе.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/caccumgreenbits/
 ---
 ## EmfPixelFormatDescriptor.CAccumGreenBits property
 
-Получает или устанавливает количество зеленых битпланов в накоплении
+Получает или задает количество зеленых битовых плоскостей в наборе.
 
 ```csharp
 public byte CAccumGreenBits { get; set; }

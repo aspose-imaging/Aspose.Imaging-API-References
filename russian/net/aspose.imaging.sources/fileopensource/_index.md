@@ -1,14 +1,14 @@
 ---
 title: FileOpenSource
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Представляет исходный файл для открытия.
+description: Представляет источник файла для открытия.
 type: docs
-weight: 11100
+weight: 11090
 url: /ru/net/aspose.imaging.sources/fileopensource/
 ---
 ## FileOpenSource class
 
-Представляет исходный файл для открытия.
+Представляет источник файла для открытия.
 
 ```csharp
 public sealed class FileOpenSource : FileSource
@@ -18,7 +18,7 @@ public sealed class FileOpenSource : FileSource
 
 | Имя | Описание |
 | --- | --- |
-| [FileOpenSource](fileopensource)(string) | Инициализирует новый экземпляр класса[`FileOpenSource`](../fileopensource). |
+| [FileOpenSource](fileopensource)(string) | Инициализирует новый экземпляр[`FileOpenSource`](../fileopensource) класс. |
 
 ## Характеристики
 

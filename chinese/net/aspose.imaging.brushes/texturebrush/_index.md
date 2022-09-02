@@ -1,14 +1,14 @@
 ---
 title: TextureBrush
 second_title: Aspose.Imaging for .NET API 参考
-description: TextureBrush./texturebrush类的每个属性都是ImagingBrush使用图像填充形状内部的对象这个类不能被继承
+description: 的每个属性TextureBrush./texturebrush类是一个Brush../aspose.imaging/brush使用图像填充形状内部的对象这个类不能被继承
 type: docs
 weight: 220
 url: /zh/net/aspose.imaging.brushes/texturebrush/
 ---
 ## TextureBrush class
 
-[`TextureBrush`](../texturebrush)类的每个属性都是Imaging。Brush使用图像填充形状内部的对象。这个类不能被继承。
+的每个属性[`TextureBrush`](../texturebrush)类是一个[`Brush`](../../aspose.imaging/brush)使用图像填充形状内部的对象。这个类不能被继承。
 
 ```csharp
 public sealed class TextureBrush : TransformBrush
@@ -18,43 +18,43 @@ public sealed class TextureBrush : TransformBrush
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TextureBrush](texturebrush#constructor)(Image) | 初始化使用指定图像的[`TextureBrush`](../texturebrush)类的新实例。 |
-| [TextureBrush](texturebrush#constructor_1)(Image, Rectangle) | 初始化[`TextureBrush`](../texturebrush)类的新实例，该类使用指定的图像和边界矩形。 |
-| [TextureBrush](texturebrush#constructor_3)(Image, RectangleF) | 初始化[`TextureBrush`](../texturebrush)类的新实例，该类使用指定的图像和边界矩形。 |
-| [TextureBrush](texturebrush#constructor_5)(Image, WrapMode) | 初始化[`TextureBrush`](../texturebrush)类的新实例，该类使用指定的图像和环绕模式。 |
-| [TextureBrush](texturebrush#constructor_2)(Image, Rectangle, ImageAttributes) | 初始化[`TextureBrush`](../texturebrush)类的新实例，该类使用指定的图像、边界矩形和图像属性。 |
-| [TextureBrush](texturebrush#constructor_4)(Image, RectangleF, ImageAttributes) | 初始化[`TextureBrush`](../texturebrush)类的新实例，该类使用指定的图像、边界矩形和图像属性。 |
-| [TextureBrush](texturebrush#constructor_6)(Image, WrapMode, Rectangle) | 初始化[`TextureBrush`](../texturebrush)类的新实例，该类使用指定的图像、环绕模式和边界长方形。 |
-| [TextureBrush](texturebrush#constructor_7)(Image, WrapMode, RectangleF) | 初始化[`TextureBrush`](../texturebrush)类的新实例，该类使用指定的图像、环绕模式和边界长方形。 |
+| [TextureBrush](texturebrush#constructor)(Image) | 初始化[`TextureBrush`](../texturebrush)使用指定图像的类。 |
+| [TextureBrush](texturebrush#constructor_1)(Image, Rectangle) | 初始化[`TextureBrush`](../texturebrush)使用指定图像和边界矩形的类。 |
+| [TextureBrush](texturebrush#constructor_3)(Image, RectangleF) | 初始化[`TextureBrush`](../texturebrush)使用指定图像和边界矩形的类。 |
+| [TextureBrush](texturebrush#constructor_5)(Image, WrapMode) | 初始化[`TextureBrush`](../texturebrush)使用指定图像和包装模式的类。 |
+| [TextureBrush](texturebrush#constructor_2)(Image, Rectangle, ImageAttributes) | 初始化[`TextureBrush`](../texturebrush)使用指定图像、边界矩形和图像属性的类。 |
+| [TextureBrush](texturebrush#constructor_4)(Image, RectangleF, ImageAttributes) | 初始化[`TextureBrush`](../texturebrush)使用指定图像、边界矩形和图像属性的类。 |
+| [TextureBrush](texturebrush#constructor_6)(Image, WrapMode, Rectangle) | 初始化[`TextureBrush`](../texturebrush)使用指定图像、环绕模式和边界矩形的类。 |
+| [TextureBrush](texturebrush#constructor_7)(Image, WrapMode, RectangleF) | 初始化[`TextureBrush`](../texturebrush)使用指定图像、环绕模式和边界矩形的类。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示该实例是否被释放。 |
-| [Image](../../aspose.imaging.brushes/texturebrush/image) { get; } | 获取与此TextureBrush关联的R5:T:Aspose.Imaging.Image:::对象:::目的。 |
-| [ImageAttributes](../../aspose.imaging.brushes/texturebrush/imageattributes) { get; } | 获取与此Imaging关联的R5:P:Aspose.Imaging.Brushes.TextureBrush.ImageAttributes:::。画笔.TextureBrush:::。 |
-| [ImageRectangle](../../aspose.imaging.brushes/texturebrush/imagerectangle) { get; } | 获取与此TextureBrush关联的R5:T:Aspose.Imaging.Rectangle::::::. |
-| [IsTransformChanged](../../aspose.imaging.brushes/transformbrush/istransformchanged) { get; } | 获取一个值，该值指示转换是否以某种方式更改。例如设置变换矩阵或 调用任何改变变换矩阵的方法。引入该属性是为了向后兼容 GDI+。 |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示此实例是否被释放。 |
+| [Image](../../aspose.imaging.brushes/texturebrush/image) { get; } | 获取[`Image`](../../aspose.imaging/image)与此关联的对象[`TextureBrush`](../texturebrush)对象. |
+| [ImageAttributes](../../aspose.imaging.brushes/texturebrush/imageattributes) { get; } | 获取[`ImageAttributes`](./imageattributes)与此相关[`TextureBrush`](../texturebrush) . |
+| [ImageRectangle](../../aspose.imaging.brushes/texturebrush/imagerectangle) { get; } | 获取[`Rectangle`](../../aspose.imaging/rectangle)与此相关[`TextureBrush`](../texturebrush) . |
+| [IsTransformChanged](../../aspose.imaging.brushes/transformbrush/istransformchanged) { get; } | 获取一个值，该值指示转换是否以某种方式更改。例如设置变换矩阵或 调用任何改变变换矩阵的方法。引入该属性是为了向后兼容 GDI+. |
 | [Opacity](../../aspose.imaging/brush/opacity) { get; set; } | 获取或设置画笔不透明度。该值应介于 0 和 1 之间。值 0 表示画笔完全可见，值 1 表示画笔完全不透明。 |
-| [Transform](../../aspose.imaging.brushes/transformbrush/transform) { get; set; } | 获取或设置一个副本[`Matrix`](../../aspose.imaging/matrix)为这个T定义一个局部几何变换:Aspose.Imaging.Brushes.TransformBrush。 |
-| [WrapMode](../../aspose.imaging.brushes/transformbrush/wrapmode) { get; set; } | 获取或设置一个[`WrapMode`](../../aspose.imaging/wrapmode)枚举，指示此TransformBrush。 |
+| [Transform](../../aspose.imaging.brushes/transformbrush/transform) { get; set; } | 获取或设置一个副本[`Matrix`](../../aspose.imaging/matrix)它为此定义了一个局部几何变换[`TransformBrush`](../transformbrush) . |
+| [WrapMode](../../aspose.imaging.brushes/transformbrush/wrapmode) { get; set; } | 获取或设置一个[`WrapMode`](../../aspose.imaging/wrapmode)指示此包装模式的枚举[`TransformBrush`](../transformbrush) . |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [DeepClone](../../aspose.imaging/brush/deepclone)() | 创建当前[`Brush`](../../aspose.imaging/brush)的新深度克隆。 |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 释放当前实例。 |
-| [MultiplyTransform](../../aspose.imaging.brushes/transformbrush/multiplytransform)(Matrix) | 乘以[`Matrix`](../../aspose.imaging/matrix)表示此LinearGradientBrush通过指定[`Matrix`](../../aspose.imaging/matrix)通过预先指定[`Matrix`](../../aspose.imaging/matrix)。 |
-| [MultiplyTransform](../../aspose.imaging.brushes/transformbrush/multiplytransform)(Matrix, MatrixOrder) | 乘以[`Matrix`](../../aspose.imaging/matrix)表示此LinearGradientBrush由指定的[`Matrix`](../../aspose.imaging/matrix)以指定的顺序。 |
-| [ResetTransform](../../aspose.imaging.brushes/transformbrush/resettransform)() | 将[`Transform`](../transformbrush/transform)属性重置为身份。 |
-| [RotateTransform](../../aspose.imaging.brushes/transformbrush/rotatetransform)(float) | 将局部几何变换旋转指定的量。此方法将旋转添加到变换中。 |
+| virtual [DeepClone](../../aspose.imaging/brush/deepclone)() | 创建当前的新深层克隆[`Brush`](../../aspose.imaging/brush) . |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 处理当前实例。 |
+| [MultiplyTransform](../../aspose.imaging.brushes/transformbrush/multiplytransform)(Matrix) | 乘以[`Matrix`](../../aspose.imaging/matrix)表示这个的局部几何变换[`LinearGradientBrush`](../lineargradientbrush)由指定的[`Matrix`](../../aspose.imaging/matrix)通过预先指定[`Matrix`](../../aspose.imaging/matrix) . |
+| [MultiplyTransform](../../aspose.imaging.brushes/transformbrush/multiplytransform)(Matrix, MatrixOrder) | 乘以[`Matrix`](../../aspose.imaging/matrix)表示这个的局部几何变换[`LinearGradientBrush`](../lineargradientbrush)由指定的[`Matrix`](../../aspose.imaging/matrix)按指定顺序。 |
+| [ResetTransform](../../aspose.imaging.brushes/transformbrush/resettransform)() | 重置[`Transform`](../transformbrush/transform)身份的属性. |
+| [RotateTransform](../../aspose.imaging.brushes/transformbrush/rotatetransform)(float) | 将局部几何变换旋转指定的量。此方法将旋转添加到 transform. |
 | [RotateTransform](../../aspose.imaging.brushes/transformbrush/rotatetransform)(float, MatrixOrder) | 以指定顺序将局部几何变换旋转指定量。 |
-| [ScaleTransform](../../aspose.imaging.brushes/transformbrush/scaletransform)(float, float) | 按指定量缩放局部几何变换。此方法将缩放矩阵添加到变换中。 |
+| [ScaleTransform](../../aspose.imaging.brushes/transformbrush/scaletransform)(float, float) | 按指定量缩放局部几何变换。此方法将缩放矩阵添加到 transform. |
 | [ScaleTransform](../../aspose.imaging.brushes/transformbrush/scaletransform)(float, float, MatrixOrder) | 按指定顺序按指定量缩放局部几何变换。 |
-| [TranslateTransform](../../aspose.imaging.brushes/transformbrush/translatetransform)(float, float) | 按指定尺寸平移局部几何变换。此方法将转换添加到转换之前。 |
-| [TranslateTransform](../../aspose.imaging.brushes/transformbrush/translatetransform)(float, float, MatrixOrder) | 以指定顺序将局部几何变换平移指定维度。 |
+| [TranslateTransform](../../aspose.imaging.brushes/transformbrush/translatetransform)(float, float) | 按指定尺寸平移局部几何变换。此方法将转换添加到 transform. |
+| [TranslateTransform](../../aspose.imaging.brushes/transformbrush/translatetransform)(float, float, MatrixOrder) | 以指定顺序按指定维度平移局部几何变换。 |
 
 ### 也可以看看
 

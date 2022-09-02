@@ -1,14 +1,14 @@
 ---
 title: Values
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает данные.
+description: Получает или устанавливает данные.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffshorttype/values/
 ---
 ## TiffShortType.Values property
 
-Получает или задает данные.
+Получает или устанавливает данные.
 
 ```csharp
 public ushort[] Values { get; set; }

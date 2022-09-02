@@ -18,16 +18,16 @@ public interface IAnimationFrame
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DisposalMethod](../../aspose.imaging/ianimationframe/disposalmethod) { get; } | 获取处理方法。 |
-| [FrameLeft](../../aspose.imaging/ianimationframe/frameleft) { get; } | 获取帧左偏移。 |
+| [DisposalMethod](../../aspose.imaging/ianimationframe/disposalmethod) { get; } | 获取处置方法。 |
+| [FrameLeft](../../aspose.imaging/ianimationframe/frameleft) { get; } | 获取帧左偏移量。 |
 | [FrameTime](../../aspose.imaging/ianimationframe/frametime) { get; } | 获取帧持续时间。 |
-| [FrameTop](../../aspose.imaging/ianimationframe/frametop) { get; } | 获取帧顶部偏移量。 |
+| [FrameTop](../../aspose.imaging/ianimationframe/frametop) { get; } | 获取框架顶部偏移量。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetFullFrame](../../aspose.imaging/ianimationframe/getfullframe)() | 获取完整帧。 |
+| [GetFullFrame](../../aspose.imaging/ianimationframe/getfullframe)() | 获取全帧。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ProjectType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Представляет тип проекта вXmpDynamicMediaPackage./xmpdynamicmediapackage.
+description: Представляет тип проекта вXmpDynamicMediaPackage./xmpdynamicmediapackage .
 type: docs
-weight: 11390
+weight: 11380
 url: /ru/net/aspose.imaging.xmp.schemas.xmpdm/projecttype/
 ---
 ## ProjectType enumeration
 
-Представляет тип проекта в[`XmpDynamicMediaPackage`](../xmpdynamicmediapackage).
+Представляет тип проекта в[`XmpDynamicMediaPackage`](../xmpdynamicmediapackage) .
 
 ```csharp
 public enum ProjectType
@@ -18,8 +18,8 @@ public enum ProjectType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Movie | `0` | Тип проекта фильма |
-| Still | `1` | Тип неподвижного проекта |
+| Movie | `0` | Тип кинопроекта |
+| Still | `1` | Неподвижный проект type |
 | Audio | `2` | Тип аудиопроекта |
 | Custom | `3` | Пользовательский тип проекта |
 

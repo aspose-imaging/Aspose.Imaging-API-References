@@ -1,14 +1,14 @@
 ---
 title: EmfExcludeClipRect
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfExcludeClipRectaspose.imaging.fileformats.emf.emf.records/emfexcludecliprect类的新实例
+description: 初始化EmfExcludeClipRectaspose.imaging.fileformats.emf.emf.records/emfexcludecliprect类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfexcludecliprect/emfexcludecliprect/
 ---
 ## EmfExcludeClipRect(EmfRecord) {#constructor_1}
 
-初始化[`EmfExcludeClipRect`](../../emfexcludecliprect)类的新实例。
+初始化[`EmfExcludeClipRect`](../../emfexcludecliprect)类.
 
 ```csharp
 public EmfExcludeClipRect(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfExcludeClipRect(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfExcludeClipRect(EmfRecord source)
 
 ## EmfExcludeClipRect() {#constructor}
 
-初始化[`EmfExcludeClipRect`](../../emfexcludecliprect)类的新实例。
+初始化[`EmfExcludeClipRect`](../../emfexcludecliprect)类.
 
 ```csharp
 public EmfExcludeClipRect()

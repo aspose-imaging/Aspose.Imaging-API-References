@@ -1,14 +1,14 @@
 ---
 title: Greens
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取绿色的数组颜色
+description: 获取green 的数组颜色
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.dicom/dicomimageinfo/greens/
 ---
 ## DicomImageInfo.Greens property
 
-获取绿色的数组颜色
+获取green 的数组颜色
 
 ```csharp
 public byte[] Greens { get; }

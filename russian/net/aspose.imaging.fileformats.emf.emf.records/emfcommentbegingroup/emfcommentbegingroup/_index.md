@@ -1,14 +1,14 @@
 ---
 title: EmfCommentBeginGroup
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfCommentBeginGroupaspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup.
+description: Инициализирует новый экземплярEmfCommentBeginGroupaspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup/emfcommentbegingroup/
 ---
 ## EmfCommentBeginGroup constructor
 
-Инициализирует новый экземпляр класса[`EmfCommentBeginGroup`](../../emfcommentbegingroup).
+Инициализирует новый экземпляр[`EmfCommentBeginGroup`](../../emfcommentbegingroup) класс.
 
 ```csharp
 public EmfCommentBeginGroup(EmfRecord source)

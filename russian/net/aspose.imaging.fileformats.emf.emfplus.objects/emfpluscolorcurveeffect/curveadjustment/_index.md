@@ -1,14 +1,14 @@
 ---
 title: CurveAdjustment
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее что корректировка кривой на применяется к цветам в растровом изображении. Это значение ДОЛЖНО быть определено в перечислении CurveAdjustments раздел 2.1.1.7.
+description: Получает или задает 32-разрядное целое число без знака указывающее что корректировка кривой to применяется к цветам в растровом изображении. Это значение ДОЛЖНО быть определено в перечислении CurveAdjustments раздел 2.1.1.7.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolorcurveeffect/curveadjustment/
 ---
 ## EmfPlusColorCurveEffect.CurveAdjustment property
 
-Получает или задает 32-разрядное целое число без знака, указывающее, что корректировка кривой на применяется к цветам в растровом изображении. Это значение ДОЛЖНО быть определено в перечислении CurveAdjustments (раздел 2.1.1.7).
+Получает или задает 32-разрядное целое число без знака, указывающее, что корректировка кривой to применяется к цветам в растровом изображении. Это значение ДОЛЖНО быть определено в перечислении CurveAdjustments (раздел 2.1.1.7).
 
 ```csharp
 public EmfPlusCurveAdjustments CurveAdjustment { get; set; }

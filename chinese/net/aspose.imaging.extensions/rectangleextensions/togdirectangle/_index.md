@@ -1,14 +1,14 @@
 ---
 title: ToGdiRectangle
 second_title: Aspose.Imaging for .NET API 参考
-description: 将Rectangleaspose.imaging/rectangle转换为Rectangle
+description: 转换Rectangleaspose.imaging/rectangle到Rectangle .
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.extensions/rectangleextensions/togdirectangle/
 ---
 ## ToGdiRectangle(Rectangle) {#togdirectangle}
 
-将[`Rectangle`](../../../aspose.imaging/rectangle)转换为Rectangle。
+转换[`Rectangle`](../../../aspose.imaging/rectangle)到Rectangle .
 
 ```csharp
 public static Rectangle ToGdiRectangle(Rectangle rectangle)
@@ -20,7 +20,7 @@ public static Rectangle ToGdiRectangle(Rectangle rectangle)
 
 ### 返回值
 
-转换后的Rectangle。
+转换的Rectangle.
 
 ### 也可以看看
 
@@ -33,7 +33,7 @@ public static Rectangle ToGdiRectangle(Rectangle rectangle)
 
 ## ToGdiRectangle(RectangleF) {#togdirectangle_1}
 
-将[`RectangleF`](../../../aspose.imaging/rectanglef)转换为Rectangle。
+转换[`RectangleF`](../../../aspose.imaging/rectanglef)到Rectangle .
 
 ```csharp
 public static RectangleF ToGdiRectangle(RectangleF rectangle)
@@ -45,7 +45,7 @@ public static RectangleF ToGdiRectangle(RectangleF rectangle)
 
 ### 返回值
 
-转换后的RectangleF。
+转换的RectangleF.
 
 ### 也可以看看
 

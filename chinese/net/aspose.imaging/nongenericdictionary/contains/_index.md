@@ -1,14 +1,14 @@
 ---
 title: Contains
 second_title: Aspose.Imaging for .NET API 参考
-description: 确定 IDictionary对象是否包含具有指定键的元素
+description: 确定 是否IDictionary对象包含具有指定键的元素
 type: docs
 weight: 120
 url: /zh/net/aspose.imaging/nongenericdictionary/contains/
 ---
 ## NonGenericDictionary.Contains method
 
-确定 IDictionary对象是否包含具有指定键的元素。
+确定 是否IDictionary对象包含具有指定键的元素。
 
 ```csharp
 public bool Contains(object key)
@@ -16,11 +16,11 @@ public bool Contains(object key)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| key | Object | 在 IDictionary中定位的键目的。 |
+| key | Object | 在 中定位的关键IDictionary目的。 |
 
 ### 返回值
 
-如果 IDictionary包含一个带键的元素；否则为假。
+如果 为真IDictionary包含带有键的元素；否则为假。
 
 ### 也可以看看
 

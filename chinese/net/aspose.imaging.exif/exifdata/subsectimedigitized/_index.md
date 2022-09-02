@@ -16,7 +16,7 @@ public string SubsecTimeDigitized { get; set; }
 
 ### 适当的价值
 
-DateTimeDigitized 标签的秒数。
+DateTimeDigitized 标记的秒数。
 
 ### 也可以看看
 

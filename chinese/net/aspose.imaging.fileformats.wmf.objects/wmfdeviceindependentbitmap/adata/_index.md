@@ -1,14 +1,14 @@
 ---
 title: AData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置定义图像的字节数组该数据的大小和 格式由 DIBHeaderInfo 字段中的信息确定
+description: 获取或设置定义图像的字节数组该数据的大小和 格式由 DIBHeaderInfo字段中的信息决定
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/adata/
 ---
 ## WmfDeviceIndependentBitmap.AData property
 
-获取或设置定义图像的字节数组。该数据的大小和 格式由 DIBHeaderInfo 字段中的信息确定。
+获取或设置定义图像的字节数组。该数据的大小和 格式由 DIBHeaderInfo字段中的信息决定。
 
 ```csharp
 public byte[] AData { get; set; }

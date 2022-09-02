@@ -1,14 +1,14 @@
 ---
 title: CiexyzGreen
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 96-разрядный объект CIEXYZ определяющий значения цветности зеленого цвета .
+description: Получает или задает 96-битный объект CIEXYZ определяющий значения цветности green .
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfciexyztriple/ciexyzgreen/
 ---
 ## WmfCieXyzTriple.CiexyzGreen property
 
-Получает или задает 96-разрядный объект CIEXYZ, определяющий значения цветности зеленого цвета .
+Получает или задает 96-битный объект CIEXYZ, определяющий значения цветности green .
 
 ```csharp
 public WmfCieXyz CiexyzGreen { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: BaseCap
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置LineCapaspose.imaging/linecap枚举此CustomLineCapaspose.imaging/customlinecap基于
+description: 获取或设置LineCapaspose.imaging/linecap这个枚举CustomLineCapaspose.imaging/customlinecap基于.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging/customlinecap/basecap/
 ---
 ## CustomLineCap.BaseCap property
 
-获取或设置[`LineCap`](../../linecap)枚举，此[`CustomLineCap`](../../customlinecap)基于。
+获取或设置[`LineCap`](../../linecap)这个枚举[`CustomLineCap`](../../customlinecap)基于.
 
 ```csharp
 public LineCap BaseCap { get; set; }
@@ -16,7 +16,7 @@ public LineCap BaseCap { get; set; }
 
 ### 适当的价值
 
-[`LineCap`](../../linecap)枚举，这[`CustomLineCap`](../../customlinecap)是基于的。
+这[`LineCap`](../../linecap)这个枚举[`CustomLineCap`](../../customlinecap)基于。
 
 ### 也可以看看
 

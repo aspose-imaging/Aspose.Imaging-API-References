@@ -1,14 +1,14 @@
 ---
 title: Italic
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее является ли шрифтOdFontaspose.imaging.fileformats.opendocument.objects.font/odfontкурсивом.
+description: Получает или задает значение указывающее является ли этоOdFontaspose.imaging.fileformats.opendocument.objects.font/odfont выделено курсивом.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.font/odfont/italic/
 ---
 ## OdFont.Italic property
 
-Получает или задает значение, указывающее, является ли шрифт[`OdFont`](../../odfont)курсивом.
+Получает или задает значение, указывающее, является ли это[`OdFont`](../../odfont) выделено курсивом.
 
 ```csharp
 public bool Italic { get; set; }
@@ -16,7 +16,7 @@ public bool Italic { get; set; }
 
 ### Стоимость имущества
 
-` true` , если курсив; в противном случае` false` .
+`истинный` если курсив; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

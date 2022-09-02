@@ -35,53 +35,9 @@ public class PathResource
 ```csharp
 [C#]
 
-static void Main()
+using (var image = Image.Load("Sample.tif"))
 {
-    using (var image = (TiffImage)Image.Load("Sample.tif"))
-    {
-        image.ActiveFrame.PathResources = new List<PathResource> { new PathResource
-        {
-            BlockId = 2000,                                                              // 根据 Photoshop 规范的块 ID
-            Name = "My Clipping Path",                                                   // 路径名
-            Records = CreateRecords(0.2f, 0.2f, 0.8f, 0.2f, 0.8f, 0.8f, 0.2f, 0.8f)      // 使用坐标
-创建路径记录
-        }};
-
-        image.Save("ImageWithPath.tif");
-    }
-}
-
-private static List<VectorPathRecord> CreateRecords(params float[] coordinates)
-{
-    var records = CreateBezierRecords(coordinates);                                  // 使用坐标
- 创建贝塞尔记录
-
-    records.Insert(0, new LengthRecord                                               // Photoshop 规范要求的 LengthRecord
-    {
-        IsOpen = false,                                                                  // 让我们创建封闭路径
-        RecordCount = (ushort)records.Count                                              // path
-中的记录计数
-    });
-
-    return records;
-}
-
-private static List<VectorPathRecord> CreateBezierRecords(float[] coordinates)
-{
-    return CoordinatesToPoints(coordinates)
-        .Select(CreateBezierRecord)
-        .ToList();
-}
-
-private static IEnumerable<PointF> CoordinatesToPoints(float[] coordinates)
-{
-    for (var index = 0; index < coordinates.Length; index += 2)
-        yield return new PointF(coordinates[index], coordinates[index + 1]);
-}
-
-private static VectorPathRecord CreateBezierRecord(PointF point)
-{
-    return new BezierKnotRecord { PathPoints = new[] { point, point, point } };
+    image.Save("SampleWithPaths.psd", new PsdOptions());
 }
 ```
 
@@ -90,53 +46,22 @@ private static VectorPathRecord CreateBezierRecord(PointF point)
 ```csharp
 [C#]
 
-static void Main()
+var options = new TiffOptions(TiffExpectedFormat.Default);
+var frame = new TiffFrame(options, 800, 600);
+
+using (var image = new TiffImage(frame))
 {
-    using (var image = (TiffImage)Image.Load("Sample.tif"))
+    image.ActiveFrame.PathResources = new List<PathResource>
     {
-        image.ActiveFrame.PathResources = new List<PathResource> { new PathResource
+        new PathResource
         {
-            BlockId = 2000,                                                              // 根据 Photoshop 规范的块 ID
-            Name = "My Clipping Path",                                                   // 路径名
-            Records = CreateRecords(0.2f, 0.2f, 0.8f, 0.2f, 0.8f, 0.8f, 0.2f, 0.8f)      // 使用坐标
-创建路径记录
-        }};
+            BlockId = 2000,
+            Name = "My Clipping Path",
+            Records = new List<VectorPathRecord>()
+        }
+    };
 
-        image.Save("ImageWithPath.tif");
-    }
-}
-
-private static List<VectorPathRecord> CreateRecords(params float[] coordinates)
-{
-    var records = CreateBezierRecords(coordinates);                                  // 使用坐标
- 创建贝塞尔记录
-
-    records.Insert(0, new LengthRecord                                               // Photoshop 规范要求的 LengthRecord
-    {
-        IsOpen = false,                                                                  // 让我们创建封闭路径
-        RecordCount = (ushort)records.Count                                              // path
-中的记录计数
-    });
-
-    return records;
-}
-
-private static List<VectorPathRecord> CreateBezierRecords(float[] coordinates)
-{
-    return CoordinatesToPoints(coordinates)
-        .Select(CreateBezierRecord)
-        .ToList();
-}
-
-private static IEnumerable<PointF> CoordinatesToPoints(float[] coordinates)
-{
-    for (var index = 0; index < coordinates.Length; index += 2)
-        yield return new PointF(coordinates[index], coordinates[index + 1]);
-}
-
-private static VectorPathRecord CreateBezierRecord(PointF point)
-{
-    return new BezierKnotRecord { PathPoints = new[] { point, point, point } };
+    image.Save("ImageWithEmptyPath.tiff");
 }
 ```
 
@@ -145,53 +70,15 @@ private static VectorPathRecord CreateBezierRecord(PointF point)
 ```csharp
 [C#]
 
-static void Main()
+using (var image = (TiffImage)Image.Load("Bottle.tif"))
 {
-    using (var image = (TiffImage)Image.Load("Sample.tif"))
-    {
-        image.ActiveFrame.PathResources = new List<PathResource> { new PathResource
-        {
-            BlockId = 2000,                                                              // 根据 Photoshop 规范的块 ID
-            Name = "My Clipping Path",                                                   // 路径名
-            Records = CreateRecords(0.2f, 0.2f, 0.8f, 0.2f, 0.8f, 0.8f, 0.2f, 0.8f)      // 使用坐标
-创建路径记录
-        }};
+    // 使用来自 TIFF 图像的 PathResources 创建 GraphicsPath
+    var graphicsPath = PathResourceConverter.ToGraphicsPath(image.ActiveFrame.PathResources.ToArray(), image.ActiveFrame.Size);
+    var graphics = new Graphics(image);
 
-        image.Save("ImageWithPath.tif");
-    }
-}
-
-private static List<VectorPathRecord> CreateRecords(params float[] coordinates)
-{
-    var records = CreateBezierRecords(coordinates);                                  // 使用坐标
- 创建贝塞尔记录
-
-    records.Insert(0, new LengthRecord                                               // Photoshop 规范要求的 LengthRecord
-    {
-        IsOpen = false,                                                                  // 让我们创建封闭路径
-        RecordCount = (ushort)records.Count                                              // path
-中的记录计数
-    });
-
-    return records;
-}
-
-private static List<VectorPathRecord> CreateBezierRecords(float[] coordinates)
-{
-    return CoordinatesToPoints(coordinates)
-        .Select(CreateBezierRecord)
-        .ToList();
-}
-
-private static IEnumerable<PointF> CoordinatesToPoints(float[] coordinates)
-{
-    for (var index = 0; index < coordinates.Length; index += 2)
-        yield return new PointF(coordinates[index], coordinates[index + 1]);
-}
-
-private static VectorPathRecord CreateBezierRecord(PointF point)
-{
-    return new BezierKnotRecord { PathPoints = new[] { point, point, point } };
+    // 画红线并保存图片
+    graphics.DrawPath(new Pen(Color.Red, 10), graphicsPath);
+    image.Save("BottleWithRedBorder.tif");
 }
 ```
 
@@ -200,53 +87,38 @@ private static VectorPathRecord CreateBezierRecord(PointF point)
 ```csharp
 [C#]
 
-static void Main()
+static void Main(string[] args)
 {
-    using (var image = (TiffImage)Image.Load("Sample.tif"))
+    using (var image = (TiffImage)Image.Load("Bottle.tif"))
     {
-        image.ActiveFrame.PathResources = new List<PathResource> { new PathResource
-        {
-            BlockId = 2000,                                                              // 根据 Photoshop 规范的块 ID
-            Name = "My Clipping Path",                                                   // 路径名
-            Records = CreateRecords(0.2f, 0.2f, 0.8f, 0.2f, 0.8f, 0.8f, 0.2f, 0.8f)      // 使用坐标
-创建路径记录
-        }};
+        // 为 GraphicsPath 创建矩形图形
+        var figure = new Figure();
+        figure.AddShape(CreateBezierShape(100f, 100f, 500f, 100f, 500f, 1000f, 100f, 1000f));
 
-        image.Save("ImageWithPath.tif");
+        // 使用我们的 Figure 创建 GraphicsPath
+        var graphicsPath = new GraphicsPath();
+        graphicsPath.AddFigure(figure);
+
+        // 使用 GraphicsPath 设置 PathResources
+        var pathResouze = PathResourceConverter.FromGraphicsPath(graphicsPath, image.Size);
+        image.ActiveFrame.PathResources = new List<PathResource>(pathResouze);
+
+        // 保存图片
+        image.Save("BottleWithRectanglePath.tif");
     }
 }
 
-private static List<VectorPathRecord> CreateRecords(params float[] coordinates)
+private static BezierShape CreateBezierShape(params float[] coordinates)
 {
-    var records = CreateBezierRecords(coordinates);                                  // 使用坐标
- 创建贝塞尔记录
-
-    records.Insert(0, new LengthRecord                                               // Photoshop 规范要求的 LengthRecord
-    {
-        IsOpen = false,                                                                  // 让我们创建封闭路径
-        RecordCount = (ushort)records.Count                                              // path
-中的记录计数
-    });
-
-    return records;
+    var bezierPoints = CoordinatesToBezierPoints(coordinates).ToArray();
+    return new BezierShape(bezierPoints, true);
 }
 
-private static List<VectorPathRecord> CreateBezierRecords(float[] coordinates)
+private static IEnumerable<PointF> CoordinatesToBezierPoints(float[] coordinates)
 {
-    return CoordinatesToPoints(coordinates)
-        .Select(CreateBezierRecord)
-        .ToList();
-}
-
-private static IEnumerable<PointF> CoordinatesToPoints(float[] coordinates)
-{
-    for (var index = 0; index < coordinates.Length; index += 2)
-        yield return new PointF(coordinates[index], coordinates[index + 1]);
-}
-
-private static VectorPathRecord CreateBezierRecord(PointF point)
-{
-    return new BezierKnotRecord { PathPoints = new[] { point, point, point } };
+    for (var coordinateIndex = 0; coordinateIndex < coordinates.Length; coordinateIndex += 2)
+        for (var index = 0; index < 3; index++)
+            yield return new PointF(coordinates[coordinateIndex], coordinates[coordinateIndex + 1]);
 }
 ```
 
@@ -261,10 +133,9 @@ static void Main()
     {
         image.ActiveFrame.PathResources = new List<PathResource> { new PathResource
         {
-            BlockId = 2000,                                                              // 根据 Photoshop 规范的块 ID
-            Name = "My Clipping Path",                                                   // 路径名
-            Records = CreateRecords(0.2f, 0.2f, 0.8f, 0.2f, 0.8f, 0.8f, 0.2f, 0.8f)      // 使用坐标
-创建路径记录
+            BlockId = 2000,                                                          // 根据 Photoshop 规范的块 ID
+            Name = "My Clipping Path",                                               // 路径名
+            Records = CreateRecords(0.2f, 0.2f, 0.8f, 0.2f, 0.8f, 0.8f, 0.2f, 0.8f)  // 使用坐标创建路径记录
         }};
 
         image.Save("ImageWithPath.tif");
@@ -273,14 +144,12 @@ static void Main()
 
 private static List<VectorPathRecord> CreateRecords(params float[] coordinates)
 {
-    var records = CreateBezierRecords(coordinates);                                  // 使用坐标
- 创建贝塞尔记录
+    var records = CreateBezierRecords(coordinates);                                  // 使用坐标创建 Bezier 记录
 
     records.Insert(0, new LengthRecord                                               // Photoshop 规范要求的 LengthRecord
     {
-        IsOpen = false,                                                                  // 让我们创建封闭路径
-        RecordCount = (ushort)records.Count                                              // path
-中的记录计数
+        IsOpen = false,                                                              // 让我们创建封闭路径
+        RecordCount = (ushort)records.Count                                          // 在路径中记录计数
     });
 
     return records;

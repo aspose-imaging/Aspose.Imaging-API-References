@@ -1,14 +1,14 @@
 ---
 title: BinarizeFixed
 second_title: Aspose.Imaging for .NET API 参考
-description: 具有预定义阈值的图像的二值化
+description: 具有预定义阈值的图像二值化
 type: docs
 weight: 270
 url: /zh/net/aspose.imaging.fileformats.gif/gifimage/binarizefixed/
 ---
 ## GifImage.BinarizeFixed method
 
-具有预定义阈值的图像的二值化
+具有预定义阈值的图像二值化
 
 ```csharp
 public override void BinarizeFixed(byte threshold)
@@ -31,9 +31,8 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"
 {
     Aspose.Imaging.FileFormats.Gif.GifImage djvuImage = (Aspose.Imaging.FileFormats.Gif.GifImage)image;
 
-        // 对阈值为 127.
- 的图像进行二值化
-    // 如果一个像素对应的灰度值大于127，则赋值为255，否则为0.
+    // 将图像二值化，阈值为 127。
+    // 如果一个像素对应的灰度值大于127，则赋值为255，否则为0。
     djvuImage.BinarizeFixed(127);
     djvuImage.Save(dir + "sample.BinarizeFixed.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }

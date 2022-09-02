@@ -1,14 +1,14 @@
 ---
 title: IsReadOnly
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее доступен лиIListтолько для чтения.
+description: Получает значение указывающееIList доступен только для чтения.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging/nongenericlist/isreadonly/
 ---
 ## NonGenericList.IsReadOnly property
 
-Получает значение, указывающее, доступен лиIListтолько для чтения.
+Получает значение, указывающее,IList доступен только для чтения.
 
 ```csharp
 public bool IsReadOnly { get; }

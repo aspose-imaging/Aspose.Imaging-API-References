@@ -19,8 +19,8 @@ public interface IAsyncTask : IAsyncResult, IDisposable
 | 姓名 | 描述 |
 | --- | --- |
 | [Error](../../aspose.imaging.asynctask/iasynctask/error) { get; } | 获取任务完成后可用的任务错误。 |
-| [IsBusy](../../aspose.imaging.asynctask/iasynctask/isbusy) { get; } | 获取指示此任务当前是否正在运行的值。 |
-| [IsCanceled](../../aspose.imaging.asynctask/iasynctask/iscanceled) { get; } | 获取指示此任务是否已取消的值。 |
+| [IsBusy](../../aspose.imaging.asynctask/iasynctask/isbusy) { get; } | 获取一个值，该值指示此任务当前是否正在运行。 |
+| [IsCanceled](../../aspose.imaging.asynctask/iasynctask/iscanceled) { get; } | 获取一个值，该值指示此任务是否已取消。 |
 | [IsFaulted](../../aspose.imaging.asynctask/iasynctask/isfaulted) { get; } | 获取指示此任务是否出错的值。 |
 | [ProgressEventHandler](../../aspose.imaging.asynctask/iasynctask/progresseventhandler) { get; set; } | 获取或设置异步任务的进度事件处理程序。 |
 | [Result](../../aspose.imaging.asynctask/iasynctask/result) { get; } | 获取此任务的结果。 |
@@ -29,7 +29,7 @@ public interface IAsyncTask : IAsyncResult, IDisposable
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Abort](../../aspose.imaging.asynctask/iasynctask/abort)() | 中止此任务。 任务立即完成，存在未释放内部非托管资源的风险。 |
+| [Abort](../../aspose.imaging.asynctask/iasynctask/abort)() | 中止此任务。 任务立即完成，但存在未释放内部非托管资源的风险。 |
 | [Cancel](../../aspose.imaging.asynctask/iasynctask/cancel)() | 取消此任务。 通过算法的受控停止安全地完成任务。 |
 | [RunAsync](../../aspose.imaging.asynctask/iasynctask/runasync#runasync)() | 运行此任务。 |
 | [RunAsync](../../aspose.imaging.asynctask/iasynctask/runasync#runasync_1)(ThreadPriority) | 运行此任务。 |

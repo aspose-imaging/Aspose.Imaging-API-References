@@ -1,14 +1,14 @@
 ---
 title: Units
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Базовые единицы для документа CMX.
+description: Основные единицы для документа CMX.
 type: docs
 weight: 2100
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.enums/units/
 ---
 ## Units enumeration
 
-Базовые единицы для документа CMX.
+Основные единицы для документа CMX.
 
 ```csharp
 public enum Units

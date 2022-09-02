@@ -1,14 +1,14 @@
 ---
 title: GammaBlue
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位定点值该值定义了蓝色的色调 响应曲线如果ColorSpaceTypeaspose.imaging.fileformats.wmf.objects/wmflogcolorspace/colorspacetype字段 未指定 LCS_CALIBRATED_RGB则必须忽略此字段
+description: 获取或设置一个 32 位定点值用于定义蓝色的toned 响应曲线如果ColorSpaceTypeaspose.imaging.fileformats.wmf.objects/wmflogcolorspace/colorspacetypefield 没有指定 LCS_CALIBRATED_RGB这个字段必须被忽略
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/gammablue/
 ---
 ## WmfLogColorSpace.GammaBlue property
 
-获取或设置一个 32 位定点值，该值定义了蓝色的色调 响应曲线。如果[`ColorSpaceType`](../colorspacetype)字段 未指定 LCS_CALIBRATED_RGB，则必须忽略此字段。
+获取或设置一个 32 位定点值，用于定义蓝色的toned 响应曲线。如果[`ColorSpaceType`](../colorspacetype)field 没有指定 LCS_CALIBRATED_RGB，这个字段必须被忽略。
 
 ```csharp
 public int GammaBlue { get; set; }

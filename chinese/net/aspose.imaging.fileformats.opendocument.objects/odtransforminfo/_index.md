@@ -1,14 +1,14 @@
 ---
 title: OdTransformInfo
 second_title: Aspose.Imaging for .NET API 参考
-description: 打开文档翻译信息
+description: 打开的文档翻译信息
 type: docs
 weight: 7340
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects/odtransforminfo/
 ---
 ## OdTransformInfo class
 
-打开文档翻译信息
+打开的文档翻译信息
 
 ```csharp
 public class OdTransformInfo
@@ -25,10 +25,10 @@ public class OdTransformInfo
 | 姓名 | 描述 |
 | --- | --- |
 | [RotateAngle](../../aspose.imaging.fileformats.opendocument.objects/odtransforminfo/rotateangle) { get; set; } | 获取或设置旋转角度。 |
-| [SkewX](../../aspose.imaging.fileformats.opendocument.objects/odtransforminfo/skewx) { get; set; } | 获取或设置倾斜 x。 |
-| [SkewY](../../aspose.imaging.fileformats.opendocument.objects/odtransforminfo/skewy) { get; set; } | 获取或设置偏斜 y。 |
-| [TranslateX](../../aspose.imaging.fileformats.opendocument.objects/odtransforminfo/translatex) { get; set; } | 获取或设置翻译 x。 |
-| [TranslateY](../../aspose.imaging.fileformats.opendocument.objects/odtransforminfo/translatey) { get; set; } | 获取或设置平移 y。 |
+| [SkewX](../../aspose.imaging.fileformats.opendocument.objects/odtransforminfo/skewx) { get; set; } | 获取或设置倾斜 x. |
+| [SkewY](../../aspose.imaging.fileformats.opendocument.objects/odtransforminfo/skewy) { get; set; } | 获取或设置倾斜 y. |
+| [TranslateX](../../aspose.imaging.fileformats.opendocument.objects/odtransforminfo/translatex) { get; set; } | 获取或设置翻译 x. |
+| [TranslateY](../../aspose.imaging.fileformats.opendocument.objects/odtransforminfo/translatey) { get; set; } | 获取或设置翻译 y. |
 
 ## 方法
 

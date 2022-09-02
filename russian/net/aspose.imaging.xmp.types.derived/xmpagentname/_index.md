@@ -3,7 +3,7 @@ title: XmpAgentName
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет имя агента организацию программного обеспечения и т. д.
 type: docs
-weight: 11660
+weight: 11650
 url: /ru/net/aspose.imaging.xmp.types.derived/xmpagentname/
 ---
 ## XmpAgentName class
@@ -18,7 +18,7 @@ public sealed class XmpAgentName : XmpText
 
 | Имя | Описание |
 | --- | --- |
-| [XmpAgentName](xmpagentname)(string) | Инициализирует новый экземпляр класса[`XmpAgentName`](../xmpagentname). |
+| [XmpAgentName](xmpagentname)(string) | Инициализирует новый экземпляр[`XmpAgentName`](../xmpagentname) класс. |
 
 ## Характеристики
 

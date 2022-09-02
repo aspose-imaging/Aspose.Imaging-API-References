@@ -1,14 +1,14 @@
 ---
 title: EmfLineTo
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfLineToaspose.imaging.fileformats.emf.emf.records/emflineto.
+description: Инициализирует новый экземплярEmfLineToaspose.imaging.fileformats.emf.emf.records/emflineto класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emflineto/emflineto/
 ---
 ## EmfLineTo(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfLineTo`](../../emflineto).
+Инициализирует новый экземпляр[`EmfLineTo`](../../emflineto) класс.
 
 ```csharp
 public EmfLineTo(EmfRecord record)
@@ -29,7 +29,7 @@ public EmfLineTo(EmfRecord record)
 
 ## EmfLineTo() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfLineTo`](../../emflineto).
+Инициализирует новый экземпляр[`EmfLineTo`](../../emflineto) класс.
 
 ```csharp
 public EmfLineTo()

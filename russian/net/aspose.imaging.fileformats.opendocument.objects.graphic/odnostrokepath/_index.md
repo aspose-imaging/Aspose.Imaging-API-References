@@ -18,13 +18,13 @@ public class OdNoStrokePath : OdGraphicObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdNoStrokePath](odnostrokepath)(OdObject) | Инициализирует новый экземпляр класса[`OdNoStrokePath`](../odnostrokepath). |
+| [OdNoStrokePath](odnostrokepath)(OdObject) | Инициализирует новый экземпляр[`OdNoStrokePath`](../odnostrokepath) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Получает родительский объект. |
 

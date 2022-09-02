@@ -1,14 +1,14 @@
 ---
 title: NonDropTimecode5994
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает временной код 5994 без удаления.
+description: Получает тайм-код 5994 без сброса.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.xmp.schemas.xmpdm/timeformat/nondroptimecode5994/
 ---
 ## TimeFormat.NonDropTimecode5994 property
 
-Получает временной код 5994 без удаления.
+Получает тайм-код 5994 без сброса.
 
 ```csharp
 public static TimeFormat NonDropTimecode5994 { get; }
@@ -16,7 +16,7 @@ public static TimeFormat NonDropTimecode5994 { get; }
 
 ### Стоимость имущества
 
-Неудаляемый таймкод5994.
+Таймкод без потери 5994.
 
 ### Смотрите также
 

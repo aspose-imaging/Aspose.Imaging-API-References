@@ -1,14 +1,14 @@
 ---
 title: TiffUnknownType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTiffUnknownTypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype.
+description: Инициализирует новый экземплярTiffUnknownTypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/tiffunknowntype/
 ---
 ## TiffUnknownType constructor
 
-Инициализирует новый экземпляр класса[`TiffUnknownType`](../../tiffunknowntype).
+Инициализирует новый экземпляр[`TiffUnknownType`](../../tiffunknowntype) класс.
 
 ```csharp
 public TiffUnknownType(TiffStreamReader stream, ushort tagType, ushort tagId, uint count, 

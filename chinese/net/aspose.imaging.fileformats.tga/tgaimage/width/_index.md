@@ -16,7 +16,7 @@ public override int Width { get; }
 
 ### 例子
 
-获取加载的 TGA 图像的公共属性值。
+获取加载的 TGA 图像的公共属性的值。
 
 ```csharp
 [C#]

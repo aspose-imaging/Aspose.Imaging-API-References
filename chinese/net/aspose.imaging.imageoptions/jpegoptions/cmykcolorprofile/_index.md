@@ -16,14 +16,14 @@ public StreamSource CmykColorProfile { get; set; }
 
 ### 例子
 
-以下示例使用自定义 ICC 配置文件加载 PNG 并将其保存为 CMYK JPEG。然后加载 CMYK JPEG 并将其保存回 PNG。从 RGB 到 CMYK 以及从 CMYK 到 RGB 的颜色转换是使用自定义 ICC 配置文件执行的。
+以下示例加载 PNG 并使用自定义 ICC 配置文件将其保存为 CMYK JPEG。然后加载 CMYK JPEG 并将其保存回 PNG。从 RGB 到 CMYK 以及从 CMYK 到 RGB 的颜色转换是使用自定义 ICC 配置文件执行的。
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
-// 加载 PNG 并保存为 CMYK JPEG
+// 加载 PNG 并将其保存为 CMYK JPEG
 using (Aspose.Imaging.FileFormats.Png.PngImage image = (Aspose.Imaging.FileFormats.Png.PngImage)Image.Load(dir + "sample.png"))
 {
     using (System.IO.Stream rgbProfileStream = System.IO.File.OpenRead(dir + "eciRGB_v2.icc"))
@@ -32,7 +32,7 @@ using (Aspose.Imaging.FileFormats.Png.PngImage image = (Aspose.Imaging.FileForma
         Aspose.Imaging.ImageOptions.JpegOptions saveOptions = new Aspose.Imaging.ImageOptions.JpegOptions();
         saveOptions.ColorType = Aspose.Imaging.FileFormats.Jpeg.JpegCompressionColorMode.Cmyk;
 
-               // 使用自定义 ICC 配置文件
+        // 使用自定义 ICC 配置文件
         saveOptions.RgbColorProfile = new Aspose.Imaging.Sources.StreamSource(rgbProfileStream);
         saveOptions.CmykColorProfile = new Aspose.Imaging.Sources.StreamSource(cmykProfileStream);
 
@@ -40,13 +40,13 @@ using (Aspose.Imaging.FileFormats.Png.PngImage image = (Aspose.Imaging.FileForma
     }
 }
 
-    // 加载 CMYK JPEG 并保存到 PNG
+// 加载 CMYK JPEG 并将其保存为 PNG
 using (Aspose.Imaging.FileFormats.Jpeg.JpegImage image = (Aspose.Imaging.FileFormats.Jpeg.JpegImage)Image.Load(dir + "output.cmyk.jpg"))
 {
     using (System.IO.Stream rgbProfileStream = System.IO.File.OpenRead(dir + "eciRGB_v2.icc"))
     using (System.IO.Stream cmykProfileStream = System.IO.File.OpenRead(dir + "ISOcoated_v2_FullGamut4.icc"))
     {
-               // 使用自定义 ICC 配置文件
+        // 使用自定义 ICC 配置文件
         image.RgbColorProfile = new Aspose.Imaging.Sources.StreamSource(rgbProfileStream);
         image.CmykColorProfile = new Aspose.Imaging.Sources.StreamSource(cmykProfileStream);
 

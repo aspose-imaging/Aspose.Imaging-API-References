@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示指定对象是否为Fontaspose.imaging/font并与此R5 具有相同的属性值TAspose.Imaging.Font
+description: 表示指定对象是否为Fontaspose.imaging/font并具有与此相同的属性值Fontaspose.imaging/font .
 type: docs
 weight: 120
 url: /zh/net/aspose.imaging/font/equals/
 ---
 ## Font.Equals method
 
-表示指定对象是否为[`Font`](../../font)并与此:::R5 具有相同的属性值:T:Aspose.Imaging.Font:::。
+表示指定对象是否为[`Font`](../../font)并具有与此相同的属性值[`Font`](../../font) .
 
 ```csharp
 public override bool Equals(object obj)
@@ -20,7 +20,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-如果*obj*参数是[`Font`](../../font)并且具有相同的属性值为[`Font`](../../font)；否则为假。
+真，如果*obj*参数是一个[`Font`](../../font)并具有与此相同的属性值[`Font`](../../font);否则为假。
 
 ### 也可以看看
 

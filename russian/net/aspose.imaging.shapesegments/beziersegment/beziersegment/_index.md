@@ -1,14 +1,14 @@
 ---
 title: BezierSegment
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаBezierSegmentaspose.imaging.shapesegments/beziersegment.
+description: Инициализирует новый экземплярBezierSegmentaspose.imaging.shapesegments/beziersegment класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.shapesegments/beziersegment/beziersegment/
 ---
 ## BezierSegment constructor
 
-Инициализирует новый экземпляр класса[`BezierSegment`](../../beziersegment).
+Инициализирует новый экземпляр[`BezierSegment`](../../beziersegment) класс.
 
 ```csharp
 public BezierSegment(PointF startPoint, PointF firstControlPoint, PointF secondControlPoint, 
@@ -19,7 +19,7 @@ public BezierSegment(PointF startPoint, PointF firstControlPoint, PointF secondC
 | --- | --- | --- |
 | startPoint | PointF | Начальная точка. |
 | firstControlPoint | PointF | Первая контрольная точка. |
-| secondControlPoint | PointF | Вторая контрольная точка. |
+| secondControlPoint | PointF | Второй контрольный пункт. |
 | endPoint | PointF | Конечная точка. |
 
 ### Смотрите также

@@ -20,7 +20,7 @@ public static TiffFrame CopyFrame(TiffFrame tiffFrame)
 
 ### 返回值
 
-新复制的 tiff 帧。
+新复制的tiff帧。
 
 ### 也可以看看
 

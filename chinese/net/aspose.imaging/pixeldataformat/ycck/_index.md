@@ -1,14 +1,14 @@
 ---
 title: Ycck
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取PixelDataFormataspose.imaging/pixeldataformat定义为每像素 32 位每个像素 8 位用于亮度蓝色差异红差和黑色度分量
+description: 获取PixelDataFormataspose.imaging/pixeldataformat定义为每个像素 32 位每个像素 8 位用于亮度蓝差红差和黑色色度分量
 type: docs
 weight: 160
 url: /zh/net/aspose.imaging/pixeldataformat/ycck/
 ---
 ## PixelDataFormat.Ycck property
 
-获取[`PixelDataFormat`](../../pixeldataformat)定义为每像素 32 位，每个像素 8 位用于亮度、蓝色差异、红差和黑色度分量。
+获取[`PixelDataFormat`](../../pixeldataformat)定义为每个像素 32 位，每个像素 8 位用于亮度、蓝差、红差和黑色色度分量。
 
 ```csharp
 public static PixelDataFormat Ycck { get; }
@@ -16,7 +16,7 @@ public static PixelDataFormat Ycck { get; }
 
 ### 适当的价值
 
-[`PixelDataFormat`](../../pixeldataformat)定义为 32 位每个像素具有 8 位，用于每个亮度、蓝差、红差和黑色色度分量。
+的[`PixelDataFormat`](../../pixeldataformat)定义为每个像素 32 位，每个像素 8 位用于亮度、蓝差、红差和黑色色度分量。
 
 ### 也可以看看
 

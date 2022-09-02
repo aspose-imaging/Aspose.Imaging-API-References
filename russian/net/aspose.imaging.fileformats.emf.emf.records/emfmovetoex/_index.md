@@ -18,15 +18,15 @@ public sealed class EmfMoveToEx : EmfRecord
 
 | Имя | Описание |
 | --- | --- |
-| [EmfMoveToEx](emfmovetoex#constructor)() | Инициализирует новый экземпляр класса[`EmfMoveToEx`](../emfmovetoex). |
-| [EmfMoveToEx](emfmovetoex#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfMoveToEx`](../emfmovetoex). |
+| [EmfMoveToEx](emfmovetoex#constructor)() | Инициализирует новый экземпляр[`EmfMoveToEx`](../emfmovetoex) класс. |
+| [EmfMoveToEx](emfmovetoex#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfMoveToEx`](../emfmovetoex) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Offset](../../aspose.imaging.fileformats.emf.emf.records/emfmovetoex/offset) { get; set; } | Получает или задает 64-битный объект PointL WMF, указанный в разделе 2.2.2.15 [MS-WMF], который указывает координаты новая текущая позиция в логических единицах. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Offset](../../aspose.imaging.fileformats.emf.emf.records/emfmovetoex/offset) { get; set; } | Получает или задает 64-битный объект WMF PointL, указанный в разделе 2.2.2.15 [MS-WMF], который указывает координаты новой текущей позиции в логических единицах. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

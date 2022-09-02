@@ -16,7 +16,7 @@ public DjvuPage[] DjvuPages { get; }
 
 ### 适当的价值
 
-页面。
+页数。
 
 ### 也可以看看
 

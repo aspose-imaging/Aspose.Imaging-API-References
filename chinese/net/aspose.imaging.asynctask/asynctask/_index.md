@@ -1,14 +1,14 @@
 ---
 title: AsyncTask
 second_title: Aspose.Imaging for .NET API 参考
-description: 用于创建异步任务的静态工厂类
+description: 创建异步任务的静态工厂类
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.asynctask/asynctask/
 ---
 ## AsyncTask class
 
-用于创建异步任务的静态工厂类
+创建异步任务的静态工厂类
 
 ```csharp
 public static class AsyncTask

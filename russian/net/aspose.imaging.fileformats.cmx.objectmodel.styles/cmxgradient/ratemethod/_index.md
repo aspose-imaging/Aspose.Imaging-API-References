@@ -1,14 +1,14 @@
 ---
 title: RateMethod
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает метод скорости.
+description: Получает или задает метод оценки.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/ratemethod/
 ---
 ## CmxGradient.RateMethod property
 
-Получает или задает метод скорости.
+Получает или задает метод оценки.
 
 ```csharp
 public ushort RateMethod { get; set; }
@@ -16,7 +16,7 @@ public ushort RateMethod { get; set; }
 
 ### Стоимость имущества
 
-Метод скорости.
+Метод ставки.
 
 ### Смотрите также
 

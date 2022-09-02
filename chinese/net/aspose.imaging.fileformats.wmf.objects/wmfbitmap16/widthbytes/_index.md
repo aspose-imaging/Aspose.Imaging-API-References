@@ -16,7 +16,7 @@ public short WidthBytes { get; set; }
 
 ### 适当的价值
 
-每扫描行的字节数。
+每条扫描线的字节数。
 
 ### 也可以看看
 

@@ -27,7 +27,7 @@ public short ChannelsCount { get; set; }
 
 string dir = "c:\\temp\\";
 
-    // 创建一个 100x100 像素的 PNG 图像。
+// 创建一个 100x100 像素的 PNG 图像。
 using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.FileFormats.Png.PngImage(100, 100, Aspose.Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha))
 {
     // 定义一个线性的蓝色透明渐变。
@@ -39,26 +39,25 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(pngImage);
 
-        // 使用线性蓝色透明渐变填充 PNG 图像。
+    // 使用线性蓝色透明渐变填充 PNG 图像。
     graphics.FillRectangle(gradientBrush, pngImage.Bounds);
 
-        // 以下选项将用于将 PNG 图像保存为 PSD 格式。
+    // 以下选项将用于将 PNG 图像保存为 PSD 格式。
     Aspose.Imaging.ImageOptions.PsdOptions saveOptions = new Aspose.Imaging.ImageOptions.PsdOptions();
 
-        // 每个通道的位数
+    // 每个通道的位数
     saveOptions.ChannelBitsCount = 8;
 
-        // 通道数。每个颜色分量 R、G、B、A
- 一个通道
+    // 通道数。每个颜色分量 R、G、B、A 一个通道
     saveOptions.ChannelsCount = 4;
 
     // 颜色模式
     saveOptions.ColorMode = Aspose.Imaging.FileFormats.Psd.ColorModes.Rgb;
 
-        // 无压缩
+    // 无压缩
     saveOptions.CompressionMethod = Imaging.FileFormats.Psd.CompressionMethod.Raw;
 
-        // 默认版本是 6
+    // 默认版本为 6
     saveOptions.Version = 6;            
 
     using (System.IO.FileStream stream = System.IO.File.Create(dir + "saveoptions.psd"))
@@ -69,8 +68,7 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
     using (System.IO.FileStream stream = System.IO.File.Create(dir + "saveoptions.RLE.psd"))
     {
-        // RLE 压缩允许减小输出 image
- 的大小
+        // RLE 压缩允许减小输出图像的大小
         saveOptions.CompressionMethod = Imaging.FileFormats.Psd.CompressionMethod.RLE;
 
         pngImage.Save(stream, saveOptions);
@@ -79,7 +77,7 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
     // 输出可能如下所示：
     // RAW压缩后的PSD图片大小：40090
-        // RLE压缩后的PSD图片大小：16185
+    // RLE压缩后的PSD图片大小：16185
 }
 ```
 

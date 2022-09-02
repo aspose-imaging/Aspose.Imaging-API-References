@@ -1,14 +1,14 @@
 ---
 title: Filename
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает необязательную строку символов ASCII указывающую имя файла содержащего цветовой профиль. Если указано имя файла  а в полеColorSpaceTypeaspose.imaging.fileformats.wmf.objects/wmflogcolorspace/colorspacetypeустановлено значение LCS_CALIBRATED_RGB остальные поля этой структуры ДОЛЖНЫ игнорироваться .
+description: Получает или задает необязательную строку символов ASCII указывающую имя файла содержащего цветовой профиль. Если имя файла указано  аColorSpaceTypeaspose.imaging.fileformats.wmf.objects/wmflogcolorspace/colorspacetype поле установлено в LCS_CALIBRATED_RGB другие поля этой структуры ДОЛЖНЫ быть игнорируемыми.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/filename/
 ---
 ## WmfLogColorSpace.Filename property
 
-Получает или задает необязательную строку символов ASCII, указывающую имя файла, содержащего цветовой профиль. Если указано имя файла , а в поле[`ColorSpaceType`](../colorspacetype)установлено значение LCS_CALIBRATED_RGB, остальные поля этой структуры ДОЛЖНЫ игнорироваться .
+Получает или задает необязательную строку символов ASCII, указывающую имя файла, содержащего цветовой профиль. Если имя файла указано , а[`ColorSpaceType`](../colorspacetype) поле установлено в LCS_CALIBRATED_RGB, другие поля этой структуры ДОЛЖНЫ быть игнорируемыми.
 
 ```csharp
 public string Filename { get; set; }

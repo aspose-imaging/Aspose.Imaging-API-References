@@ -29,10 +29,10 @@ using Aspose.Imaging;
 using Aspose.Imaging.ImageOptions;
 
 using (Image image = Image.Load("Animation1.webp")) {
-     // Экспорт анимации в APNG с неограниченным количеством циклов анимации как default
+    // Экспорт в APNG-анимацию с неограниченным количеством циклов анимации по умолчанию
     image.Save("Animation1.webp.png", new ApngOptions());
-     // Настройка анимации cycles
-    image.Save("Animation2.webp.png", new ApngOptions() { NumPlays = 5 });  // 5 циклов
+    // Настройка циклов анимации
+    image.Save("Animation2.webp.png", new ApngOptions() { NumPlays = 5 }); // 5 циклов
 }
 ```
 

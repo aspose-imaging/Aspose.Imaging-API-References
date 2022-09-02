@@ -1,14 +1,14 @@
 ---
 title: GPSLatitude
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает широту GPS.
+description: Получает или устанавливает широту GPS.
 type: docs
 weight: 520
 url: /ru/net/aspose.imaging.exif/exifdata/gpslatitude/
 ---
 ## ExifData.GPSLatitude property
 
-Получает или задает широту GPS.
+Получает или устанавливает широту GPS.
 
 ```csharp
 public TiffRational[] GPSLatitude { get; set; }

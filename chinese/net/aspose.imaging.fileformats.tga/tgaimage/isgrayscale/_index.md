@@ -1,14 +1,14 @@
 ---
 title: IsGrayScale
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示此TgaImageaspose.imaging.fileformats.tga/tgaimage是否为灰度
+description: 获取一个值该值指示这是否TgaImageaspose.imaging.fileformats.tga/tgaimage是灰度的
 type: docs
 weight: 170
 url: /zh/net/aspose.imaging.fileformats.tga/tgaimage/isgrayscale/
 ---
 ## TgaImage.IsGrayScale property
 
-获取一个值，该值指示此[`TgaImage`](../../tgaimage)是否为灰度。
+获取一个值，该值指示这是否[`TgaImage`](../../tgaimage)是灰度的。
 
 ```csharp
 public bool IsGrayScale { get; }
@@ -16,7 +16,7 @@ public bool IsGrayScale { get; }
 
 ### 例子
 
-获取加载的 TGA 图像的公共属性值。
+获取加载的 TGA 图像的公共属性的值。
 
 ```csharp
 [C#]

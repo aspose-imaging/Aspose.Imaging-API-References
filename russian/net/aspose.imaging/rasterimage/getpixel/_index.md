@@ -17,7 +17,7 @@ public Color GetPixel(int x, int y)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | x | Int32 | Местоположение пикселя x. |
-| y | Int32 | Местоположение пикселя y. |
+| y | Int32 | Расположение пикселя по оси y. |
 
 ### Возвращаемое значение
 
@@ -34,10 +34,10 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\sample.p
 {
     Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-     // Получаем цвет верхнего левого пикселя изображения.
+    // Получаем цвет верхнего левого пикселя изображения.
     Color color = rasterImage.GetPixel(0, 0);
 
-     // Получаем значения отдельных компонентов цвета
+    // Получаем значения отдельных компонентов цвета
     byte alpha = color.A;
     byte red = color.R;
     int green = color.G;

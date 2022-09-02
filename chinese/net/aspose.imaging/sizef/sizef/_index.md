@@ -1,14 +1,14 @@
 ---
 title: SizeF
 second_title: Aspose.Imaging for .NET API 参考
-description: 从指定的Imaging初始化R5TAspose.Imaging.SizeF结构的新实例.SizeF
+description: 初始化SizeFaspose.imaging/sizef从指定的结构SizeFaspose.imaging/sizef .
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/sizef/sizef/
 ---
 ## SizeF(SizeF) {#constructor_1}
 
-从指定的Imaging初始化R5:T:Aspose.Imaging.SizeF:::结构的新实例.SizeF:::。
+初始化[`SizeF`](../../sizef)从指定的结构[`SizeF`](../../sizef) .
 
 ```csharp
 public SizeF(SizeF size)
@@ -16,7 +16,7 @@ public SizeF(SizeF size)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| size | SizeF | [`SizeF`](../../sizef)从中创建新[`SizeF`](../../sizef)。 |
+| size | SizeF | 这[`SizeF`](../../sizef)从中创建新的[`SizeF`](../../sizef). |
 
 ### 也可以看看
 
@@ -28,7 +28,7 @@ public SizeF(SizeF size)
 
 ## SizeF(PointF) {#constructor}
 
-从指定的Imaging初始化R5:T:Aspose.Imaging.SizeF:::结构的新实例.PointF:::。
+初始化[`SizeF`](../../sizef)从指定的结构[`PointF`](../../pointf) .
 
 ```csharp
 public SizeF(PointF point)
@@ -36,7 +36,7 @@ public SizeF(PointF point)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| point | PointF | [`PointF`](../../pointf)从中初始化这个[`SizeF`](../../sizef)。 |
+| point | PointF | 这[`PointF`](../../pointf)从中初始化它[`SizeF`](../../sizef). |
 
 ### 也可以看看
 
@@ -49,7 +49,7 @@ public SizeF(PointF point)
 
 ## SizeF(float, float) {#constructor_2}
 
-从指定维度初始化[`SizeF`](../../sizef)结构的新实例。
+初始化[`SizeF`](../../sizef)指定尺寸的结构。
 
 ```csharp
 public SizeF(float width, float height)
@@ -57,8 +57,8 @@ public SizeF(float width, float height)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| width | Single | 新[`SizeF`](../../sizef)的宽度分量。 |
-| height | Single | 新[`SizeF`](../../sizef)的高度分量。 |
+| width | Single | 新的宽度分量[`SizeF`](../../sizef). |
+| height | Single | 新的高度分量[`SizeF`](../../sizef). |
 
 ### 也可以看看
 

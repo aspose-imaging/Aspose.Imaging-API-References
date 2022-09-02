@@ -1,14 +1,14 @@
 ---
 title: PageExportingAction
 second_title: Aspose.Imaging for .NET API 参考
-description: 用于在页面导出之前触发的委托
+description: 在页面导出之前触发的委托
 type: docs
-weight: 10660
+weight: 10650
 url: /zh/net/aspose.imaging/pageexportingaction/
 ---
 ## PageExportingAction delegate
 
-用于在页面导出之前触发的委托
+在页面导出之前触发的委托
 
 ```csharp
 public delegate void PageExportingAction(int pageIndex, Image page);
@@ -16,7 +16,7 @@ public delegate void PageExportingAction(int pageIndex, Image page);
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pageIndex | Int32 | 的索引页。 |
+| pageIndex | Int32 | 页面的索引。 |
 | page | Image | 多页图像的页面。 |
 
 ### 也可以看看

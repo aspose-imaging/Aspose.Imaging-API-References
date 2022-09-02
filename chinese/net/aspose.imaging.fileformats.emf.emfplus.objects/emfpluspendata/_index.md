@@ -24,10 +24,10 @@ public sealed class EmfPlusPenData : EmfPlusStructureObjectType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OptionalData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/optionaldata) { get; set; } | 获取或设置可选 EmfPlusPenOptionalData 对象（第 2.2.2.34 节） 指定笔对象的附加数据。该字段的具体 内容由 PenDataFlags 字段的值决定。 |
-| [PenDataFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/pendataflags) { get; set; } | 获取或设置 32 位无符号整数，指定 OptionalData 字段中的数据。该值必须由 PenData 标志组成（第 2.1.2.7 节）。 |
+| [OptionalData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/optionaldata) { get; set; } | 获取或设置可选的 EmfPlusPenOptionalData 对象（第 2.2.2.34 节） 指定笔对象的附加数据。该字段的具体 内容由 PenDataFlags字段的值决定。 |
+| [PenDataFlags](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/pendataflags) { get; set; } | 获取或设置 32 位无符号整数，用于指定 OptionalData 字段中的数据。此值必须由 PenData 标志（第 2.1.2.7 节）组成。 |
 | [PenUnit](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/penunit) { get; set; } | 获取或设置 32 位无符号整数，指定笔的测量单位 。该值必须来自 UnitType 枚举 （第 2.1.1.33 节）。 |
-| [PenWidth](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/penwidth) { get; set; } | 获取或设置 32 位浮点值，该值指定笔绘制的 线的宽度，单位由 PenUnit 指定 字段。如果指定了零宽度，则使用最小值 由单位 |
+| [PenWidth](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/penwidth) { get; set; } | 获取或设置 32 位浮点值，该值以 PenUnit 字段指定的单位指定由笔绘制的 线的宽度。如果指定了零宽度，则使用最小值， ，它由单位 确定 |
 
 ### 也可以看看
 

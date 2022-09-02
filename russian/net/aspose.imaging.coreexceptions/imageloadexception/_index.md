@@ -18,8 +18,8 @@ public class ImageLoadException : ImageException
 
 | Имя | Описание |
 | --- | --- |
-| [ImageLoadException](imageloadexception#constructor)(string) | Инициализирует новый экземпляр класса[`ImageLoadException`](../imageloadexception). |
-| [ImageLoadException](imageloadexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр класса[`ImageLoadException`](../imageloadexception). |
+| [ImageLoadException](imageloadexception#constructor)(string) | Инициализирует новый экземпляр[`ImageLoadException`](../imageloadexception) класс. |
+| [ImageLoadException](imageloadexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр[`ImageLoadException`](../imageloadexception) класс. |
 
 ### Смотрите также
 

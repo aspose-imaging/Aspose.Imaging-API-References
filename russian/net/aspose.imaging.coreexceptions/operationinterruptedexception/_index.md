@@ -18,8 +18,8 @@ public class OperationInterruptedException : FrameworkException
 
 | Имя | Описание |
 | --- | --- |
-| [OperationInterruptedException](operationinterruptedexception#constructor)(string) | Инициализирует новый экземпляр класса[`OperationInterruptedException`](../operationinterruptedexception). |
-| [OperationInterruptedException](operationinterruptedexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр класса[`OperationInterruptedException`](../operationinterruptedexception). |
+| [OperationInterruptedException](operationinterruptedexception#constructor)(string) | Инициализирует новый экземпляр[`OperationInterruptedException`](../operationinterruptedexception) класс. |
+| [OperationInterruptedException](operationinterruptedexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр[`OperationInterruptedException`](../operationinterruptedexception) класс. |
 
 ### Смотрите также
 

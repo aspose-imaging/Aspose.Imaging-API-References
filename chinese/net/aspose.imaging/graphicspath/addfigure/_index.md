@@ -1,14 +1,14 @@
 ---
 title: AddFigure
 second_title: Aspose.Imaging for .NET API 参考
-description: 添加新图形
+description: 添加一个新人物
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging/graphicspath/addfigure/
 ---
 ## GraphicsPath.AddFigure method
 
-添加新图形。
+添加一个新人物。
 
 ```csharp
 public void AddFigure(Figure figure)
@@ -16,7 +16,7 @@ public void AddFigure(Figure figure)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| figure | Figure | 要添加的图形。 |
+| figure | Figure | 要添加的图。 |
 
 ### 例子
 
@@ -25,46 +25,39 @@ public void AddFigure(Figure figure)
 ```csharp
 [C#]
 
-    //创建一个FileStream
-的实例
+//创建一个FileStream实例
 using (System.IO.FileStream stream = new System.IO.FileStream(@"C:\temp\output.tiff", System.IO.FileMode.Create))
 {
     //创建一个TiffOptions实例并设置它的各种属性
     Aspose.Imaging.ImageOptions.TiffOptions tiffOptions = new Aspose.Imaging.ImageOptions.TiffOptions(Imaging.FileFormats.Tiff.Enums.TiffExpectedFormat.Default);
 
-        //设置ImageOptions
-实例的来源
+    //设置ImageOptions实例的来源
     tiffOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream);
 
-    //创建一个Image
-的实例
+    //创建一个Image实例 
     using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(tiffOptions, 500, 500))
     {
-        //创建并初始化一个Graphics class
-的实例
+        //创建并初始化一个Graphics类的实例
         Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
 
-        //清除图形surface
+        //清除图形表面
         graphics.Clear(Color.Wheat);
 
-        //创建GraphicsPath class
-的实例
+        //创建GraphicsPath类的实例
         Aspose.Imaging.GraphicsPath graphicspath = new Aspose.Imaging.GraphicsPath();
 
-        //创建Figure class
-的实例
+        //创建一个Figure类的实例
         Aspose.Imaging.Figure figure = new Aspose.Imaging.Figure();
 
-        //将形状添加到图形 object
+        //将形状添加到图形对象
         figure.AddShape(new Aspose.Imaging.Shapes.RectangleShape(new Aspose.Imaging.RectangleF(10f, 10f, 300f, 300f)));
         figure.AddShape(new Aspose.Imaging.Shapes.EllipseShape(new Aspose.Imaging.RectangleF(50f, 50f, 300f, 300f)));
         figure.AddShape(new Aspose.Imaging.Shapes.PieShape(new Aspose.Imaging.RectangleF(new Aspose.Imaging.PointF(250f, 250f), new Aspose.Imaging.SizeF(200f, 200f)), 0f, 45f));
 
-            //将图形对象添加到GraphicsPath
+        //将Figure对象添加到GraphicsPath
         graphicspath.AddFigure(figure);
 
-            //用颜色为Black
-的Pen对象绘制路径
+        //使用颜色为黑色的 Pen 对象绘制路径
         graphics.DrawPath(new Aspose.Imaging.Pen(Aspose.Imaging.Color.Black, 2), graphicspath);
 
         // 保存所有更改。

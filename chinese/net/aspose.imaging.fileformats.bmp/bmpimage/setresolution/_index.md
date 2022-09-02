@@ -1,14 +1,14 @@
 ---
 title: SetResolution
 second_title: Aspose.Imaging for .NET API 参考
-description: 设置分辨率RasterImageaspose.imaging/rasterimage
+description: 为此设置分辨率RasterImageaspose.imaging/rasterimage .
 type: docs
 weight: 130
 url: /zh/net/aspose.imaging.fileformats.bmp/bmpimage/setresolution/
 ---
 ## BmpImage.SetResolution method
 
-设置分辨率[`RasterImage`](../../../aspose.imaging/rasterimage)。
+为此设置分辨率[`RasterImage`](../../../aspose.imaging/rasterimage) .
 
 ```csharp
 public override void SetResolution(double dpiX, double dpiY)
@@ -16,8 +16,8 @@ public override void SetResolution(double dpiX, double dpiY)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dpiX | Double | :::R5:T:Aspose.Imaging.RasterImage::的水平分辨率，以每英寸点数为单位:. |
-| dpiY | Double | [`RasterImage`](../../../aspose.imaging/rasterimage)的垂直分辨率，以每英寸点数为单位。 |
+| dpiX | Double | 水平分辨率（以每英寸点数为单位）[`RasterImage`](../../../aspose.imaging/rasterimage). |
+| dpiY | Double | 垂直分辨率（以每英寸点数为单位）[`RasterImage`](../../../aspose.imaging/rasterimage). |
 
 ### 例子
 
@@ -26,25 +26,21 @@ public override void SetResolution(double dpiX, double dpiY)
 ```csharp
 [C#]
 
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\sample.bmp"))
+string dir = "c:\\temp\\";
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
 {
-    Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = (Aspose.Imaging.FileFormats.Bmp.BmpImage)image;                
+    Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = (Aspose.Imaging.FileFormats.Bmp.BmpImage)image;
 
-    System.Console.WriteLine("The pixel format: {0}", bmpImage.RawDataFormat);                
-    System.Console.WriteLine("The raw line size in bytes: {0}", bmpImage.RawLineSize);
-    System.Console.WriteLine("The bitmap compression: {0}", bmpImage.Compression);
-    System.Console.WriteLine("The bitmap width: {0}", bmpImage.Width);
-    System.Console.WriteLine("The bitmap height: {0}", bmpImage.Height);
-    System.Console.WriteLine("The number of bits per pixel: {0}", bmpImage.BitsPerPixel);
+    // 获取 BmpImage 的水平和垂直分辨率
+    double horizontalResolution = bmpImage.HorizontalResolution;
+    double verticalResolution = bmpImage.VerticalResolution;
+    System.Console.WriteLine("The horizontal resolution, in pixels per inch: {0}", horizontalResolution);
+    System.Console.WriteLine("The vertical resolution, in pixels per inch: {0}", verticalResolution);
 
-    double hres = bmpImage.HorizontalResolution;
-    double vres = bmpImage.VerticalResolution;
-    System.Console.WriteLine("The horizontal resolution, in pixels per inch: {0}", hres);
-    System.Console.WriteLine("The vertical resolution, in pixels per inch: {0}", vres);
-
-    if (hres != 96.0 || vres != 96.0)
+    if (horizontalResolution != 96.0 || verticalResolution != 96.0)
     {
-            // 您可以考虑使用 SetResolution 方法在一次调用中更新两个分辨率值。
+        // 使用 SetResolution 方法在一次调用中更新两个分辨率值。
         System.Console.WriteLine("Set resolution values to 96 dpi");
         bmpImage.SetResolution(96.0, 96.0);
 
@@ -52,18 +48,12 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\sample.b
         System.Console.WriteLine("The vertical resolution, in pixels per inch: {0}", bmpImage.VerticalResolution);
     }
 
-        //输出可能如下所示：
-        //像素格式：RGB24Bpp，使用通道：8,8,8
-        //以字节为单位的原始行大小：1500
-        //位图压缩：Rgb
-        //位图宽度：500
-        //位图高度：375
-        //每个像素的位数：24
-        //水平分辨率，以每英寸像素为单位：0
-        //垂直分辨率，以每英寸像素为单位：0
-        //将分辨率值设置为96 dpi
-        //水平分辨率，以每英寸像素为单位：96.012
-        //垂直分辨率，以每英寸像素为单位：96.012
+    // 输出可能如下所示：
+    // 水平分辨率，以每英寸像素为单位：0
+    // 垂直分辨率，以每英寸像素为单位：0
+    // 将分辨率值设置为 96 dpi
+    // 水平分辨率，以每英寸像素为单位：96.012
+    // 垂直分辨率，以每英寸像素为单位：96.012
 }
 ```
 
@@ -90,7 +80,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\sample.b
 
     if (hres != 96.0 || vres != 96.0)
     {
-            // 您可以考虑使用 SetResolution 方法在一次调用中更新两个分辨率值。
+        // 您可以考虑使用 SetResolution 方法在一次调用中更新两个分辨率值。
         System.Console.WriteLine("Set resolution values to 96 dpi");
         bmpImage.SetResolution(96.0, 96.0);
 
@@ -98,18 +88,18 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(@"c:\temp\sample.b
         System.Console.WriteLine("The vertical resolution, in pixels per inch: {0}", bmpImage.VerticalResolution);
     }
 
-        //输出可能如下所示：
-        //像素格式：RGB24Bpp，使用通道：8,8,8
-        //以字节为单位的原始行大小：1500
-        //位图压缩：Rgb
-        //位图宽度：500
-        //位图高度：375
-        //每个像素的位数：24
-        //水平分辨率，以每英寸像素为单位：0
-        //垂直分辨率，以每英寸像素为单位：0
-        //将分辨率值设置为96 dpi
-        //水平分辨率，以每英寸像素为单位：96.012
-        //垂直分辨率，以每英寸像素为单位：96.012
+    //输出可能如下所示：
+    //像素格式：RGB24Bpp，使用通道：8,8,8
+    //原始行大小（以字节为单位）：1500
+    //位图压缩：RGB
+    //位图宽度：500
+    //位图高度：375
+    //每个像素的位数：24
+    //水平分辨率，以每英寸像素为单位：0
+    //垂直分辨率，以每英寸像素为单位：0
+    //将分辨率值设置为96 dpi
+    //水平分辨率，以每英寸像素为单位：96.012
+    //垂直分辨率，以每英寸像素为单位：96.012
 }
 ```
 

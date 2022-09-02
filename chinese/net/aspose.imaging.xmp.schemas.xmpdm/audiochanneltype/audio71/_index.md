@@ -16,7 +16,7 @@ public static AudioChannelType Audio71 { get; }
 
 ### 适当的价值
 
-7.1 音频通道。
+7.1 声道。
 
 ### 也可以看看
 

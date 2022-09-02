@@ -1,14 +1,14 @@
 ---
 title: EmfSetMapperFlags
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetMapperFlagsaspose.imaging.fileformats.emf.emf.records/emfsetmapperflags.
+description: Инициализирует новый экземплярEmfSetMapperFlagsaspose.imaging.fileformats.emf.emf.records/emfsetmapperflags класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetmapperflags/emfsetmapperflags/
 ---
 ## EmfSetMapperFlags constructor
 
-Инициализирует новый экземпляр класса[`EmfSetMapperFlags`](../../emfsetmapperflags).
+Инициализирует новый экземпляр[`EmfSetMapperFlags`](../../emfsetmapperflags) класс.
 
 ```csharp
 public EmfSetMapperFlags(EmfRecord source)

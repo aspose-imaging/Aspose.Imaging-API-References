@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示此PointFaspose.imaging/pointf是否为空
+description: 获取一个值该值指示这是否PointFaspose.imaging/pointf是空的
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging/pointf/isempty/
 ---
 ## PointF.IsEmpty property
 
-获取一个值，该值指示此[`PointF`](../../pointf)是否为空。
+获取一个值，该值指示这是否[`PointF`](../../pointf)是空的。
 
 ```csharp
 public bool IsEmpty { get; }
@@ -16,7 +16,7 @@ public bool IsEmpty { get; }
 
 ### 适当的价值
 
-如果[`X`](../x)和P都为真:Aspose.Imaging.PointF.Y为 0；否则为假。
+如果两者都为真[`X`](../x)和[`Y`](../y)为 0；否则为假。
 
 ### 也可以看看
 

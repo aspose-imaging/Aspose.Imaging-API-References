@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение желтого компонента этойColoraspose.imaging/colorструктуры.
+description: Получает значение желтого компонента этогоColoraspose.imaging/color структура.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging/cmykcolor/y/
 ---
 ## CmykColor.Y property
 
-Получает значение желтого компонента этой[`Color`](../../color)структуры.
+Получает значение желтого компонента этого[`Color`](../../color) структура.
 
 ```csharp
 public byte Y { get; }
@@ -16,7 +16,7 @@ public byte Y { get; }
 
 ### Стоимость имущества
 
-Значение желтого компонента этого[`Color`](../../color).
+Значение желтого компонента этого[`Color`](../../color) .
 
 ### Смотрите также
 

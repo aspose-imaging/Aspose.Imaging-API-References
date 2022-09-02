@@ -1,14 +1,14 @@
 ---
 title: EmfIntersectClipRect
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_INTERSECTCLIPRECT указывает новую область отсечения на пересечении текущей области отсечения и указанного прямоугольника. Примечание Поля не описанные в этом разделе указаны в разделе 2.3.2.
+description: Запись EMR_INTERSECTCLIPRECT указывает новую область отсечения на пересечении текущей области отсечения и указанного прямоугольника. Примечание. Поля не описанные в этом разделе указаны в разделе 2.3.2.
 type: docs
 weight: 3770
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfintersectcliprect/
 ---
 ## EmfIntersectClipRect class
 
-Запись EMR_INTERSECTCLIPRECT указывает новую область отсечения на пересечении текущей области отсечения и указанного прямоугольника. Примечание Поля, не описанные в этом разделе, указаны в разделе 2.3.2.
+Запись EMR_INTERSECTCLIPRECT указывает новую область отсечения на пересечении текущей области отсечения и указанного прямоугольника. Примечание. Поля, не описанные в этом разделе, указаны в разделе 2.3.2.
 
 ```csharp
 public sealed class EmfIntersectClipRect : EmfClippingRecordType
@@ -18,14 +18,14 @@ public sealed class EmfIntersectClipRect : EmfClippingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfIntersectClipRect](emfintersectcliprect)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfIntersectClipRect`](../emfintersectcliprect). |
+| [EmfIntersectClipRect](emfintersectcliprect)(EmfRecord) | Инициализирует новый экземпляр[`EmfIntersectClipRect`](../emfintersectcliprect) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
 | [Clip](../../aspose.imaging.fileformats.emf.emf.records/emfintersectcliprect/clip) { get; set; } | Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который определяет прямоугольник в логических единицах. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

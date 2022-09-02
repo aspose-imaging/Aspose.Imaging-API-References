@@ -18,20 +18,20 @@ public sealed class EmfSetTextAlign : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSetTextAlign](emfsettextalign#constructor)() | 初始化[`EmfSetTextAlign`](../emfsettextalign)类的新实例。 |
-| [EmfSetTextAlign](emfsettextalign#constructor_1)(EmfRecord) | 初始化[`EmfSetTextAlign`](../emfsettextalign)类的新实例。 |
+| [EmfSetTextAlign](emfsettextalign#constructor)() | 初始化[`EmfSetTextAlign`](../emfsettextalign)类. |
+| [EmfSetTextAlign](emfsettextalign#constructor_1)(EmfRecord) | 初始化[`EmfSetTextAlign`](../emfsettextalign)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
-| [TextAlignmentMode](../../aspose.imaging.fileformats.emf.emf.records/emfsettextalign/textalignmentmode) { get; set; } | 获取或设置一个 32 位无符号整数，通过 使用文本对齐标志的掩码指定文本对齐。对于具有水平基线的文本，它们是[`WmfTextAlignmentModeFlags`](../../aspose.imaging.fileformats.wmf.consts/wmftextalignmentmodeflags) ([MS-WMF] 第 2.1.2.3 节)，或者[`WmfVerticalTextAlignmentModeFlags`](../../aspose.imaging.fileformats.wmf.consts/wmfverticaltextalignmentmodeflags) （[MS-WMF] 第 2.1.2.4 节）用于具有垂直:::47::的文本:基线。只能从影响水平和垂直 对齐的值中选择一个值。 |
+| [TextAlignmentMode](../../aspose.imaging.fileformats.emf.emf.records/emfsettextalign/textalignmentmode) { get; set; } | 获取或设置一个 32 位无符号整数，它使用文本对齐标志掩码指定文本对齐方式 by 。这些要么[`WmfTextAlignmentModeFlags`](../../aspose.imaging.fileformats.wmf.consts/wmftextalignmentmodeflags) （[MS-WMF] 第 2.1.2.3 节）用于具有水平基线的文本，或[`WmfVerticalTextAlignmentModeFlags`](../../aspose.imaging.fileformats.wmf.consts/wmfverticaltextalignmentmodeflags) （[MS-WMF] 第 2.1.2.4 节）用于具有 vertical 基线的文本。从影响水平和垂直对齐的值中只能选择一个值。 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 
 ### 评论
 
-EMR_SMALLTEXTOUT、EMR_EXTTEXTOUTA 和 EMR_EXTTEXTOUTW 记录使用文本 对齐值来在输出媒体上放置一串文本。这些值指定参考点与文本边界矩形之间的 关系。参考点是 当前位置或传递给文本输出记录的点。 包围文本的矩形由文本字符串中的字符单元构成。
+EMR_SMALLTEXTOUT、EMR_EXTTEXTOUTA 和 EMR_EXTTEXTOUTW 记录使用 text 对齐值在输出介质上定位文本字符串。这些值指定参考点与文本边界矩形之间的 关系。参考点是 当前位置或传递给文本输出记录的点。 包围文本的矩形由文本字符串中的字符单元形成。
 
 ### 也可以看看
 

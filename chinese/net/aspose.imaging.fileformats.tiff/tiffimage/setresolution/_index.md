@@ -1,14 +1,14 @@
 ---
 title: SetResolution
 second_title: Aspose.Imaging for .NET API 参考
-description: 设置分辨率RasterImageaspose.imaging/rasterimage
+description: 为此设置分辨率RasterImageaspose.imaging/rasterimage .
 type: docs
 weight: 390
 url: /zh/net/aspose.imaging.fileformats.tiff/tiffimage/setresolution/
 ---
 ## TiffImage.SetResolution method
 
-设置分辨率[`RasterImage`](../../../aspose.imaging/rasterimage)。
+为此设置分辨率[`RasterImage`](../../../aspose.imaging/rasterimage) .
 
 ```csharp
 public override void SetResolution(double dpiX, double dpiY)
@@ -16,8 +16,8 @@ public override void SetResolution(double dpiX, double dpiY)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dpiX | Double | :::R5:T:Aspose.Imaging.RasterImage::的水平分辨率，以每英寸点数为单位:. |
-| dpiY | Double | [`RasterImage`](../../../aspose.imaging/rasterimage)的垂直分辨率，以每英寸点数为单位。 |
+| dpiX | Double | 水平分辨率（以每英寸点数为单位）[`RasterImage`](../../../aspose.imaging/rasterimage). |
+| dpiY | Double | 垂直分辨率（以每英寸点数为单位）[`RasterImage`](../../../aspose.imaging/rasterimage). |
 
 ### 例子
 
@@ -32,8 +32,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"
 {
     Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)image;
 
-        // 获取 TiffImage.
- 的水平和垂直分辨率
+    // 获取 TiffImage 的水平和垂直分辨率。
     double horizontalResolution = tiffImage.HorizontalResolution;
     double verticalResolution = tiffImage.VerticalResolution;
     System.Console.WriteLine("The horizontal resolution, in pixels per inch: {0}", horizontalResolution);

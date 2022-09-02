@@ -24,7 +24,7 @@ public class WmfPointObject : WmfObject
 
 | Имя | Описание |
 | --- | --- |
-| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или задает точку. |
+| [Point](../../aspose.imaging.fileformats.wmf.objects/wmfpointobject/point) { get; set; } | Получает или устанавливает точку. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: EmfPlusResetClip
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusResetClipaspose.imaging.fileformats.emf.emfplus.records/emfplusresetclip.
+description: Инициализирует новый экземплярEmfPlusResetClipaspose.imaging.fileformats.emf.emfplus.records/emfplusresetclip класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusresetclip/emfplusresetclip/
 ---
 ## EmfPlusResetClip constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusResetClip`](../../emfplusresetclip).
+Инициализирует новый экземпляр[`EmfPlusResetClip`](../../emfplusresetclip) класс.
 
 ```csharp
 public EmfPlusResetClip(EmfPlusRecord source)

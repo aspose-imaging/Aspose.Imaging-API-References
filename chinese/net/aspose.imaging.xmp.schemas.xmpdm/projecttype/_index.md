@@ -1,14 +1,14 @@
 ---
 title: ProjectType
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示XmpDynamicMediaPackage./xmpdynamicmediapackage中的项目类型
+description: 代表项目类型在XmpDynamicMediaPackage./xmpdynamicmediapackage .
 type: docs
-weight: 11390
+weight: 11380
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/projecttype/
 ---
 ## ProjectType enumeration
 
-表示[`XmpDynamicMediaPackage`](../xmpdynamicmediapackage)中的项目类型。
+代表项目类型在[`XmpDynamicMediaPackage`](../xmpdynamicmediapackage) .
 
 ```csharp
 public enum ProjectType

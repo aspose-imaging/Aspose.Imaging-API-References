@@ -1,14 +1,14 @@
 ---
 title: HasBackgroundColor
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取图像是否有背景色的值
+description: 获取一个值该值指示图像是否具有背景色
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.gif/gifimage/hasbackgroundcolor/
 ---
 ## GifImage.HasBackgroundColor property
 
-获取图像是否有背景色的值。
+获取一个值，该值指示图像是否具有背景色。
 
 ```csharp
 public override bool HasBackgroundColor { get; }

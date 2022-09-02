@@ -1,14 +1,14 @@
 ---
 title: MinB
 second_title: Aspose.Imaging for .NET API 参考
-description: B 分量最小值
+description: 最小 B 分量值
 type: docs
 weight: 100
 url: /zh/net/aspose.imaging.xmp.types.complex.colorant/colorantlab/minb/
 ---
 ## ColorantLab.MinB field
 
-B 分量最小值
+最小 B 分量值
 
 ```csharp
 public const int MinB;

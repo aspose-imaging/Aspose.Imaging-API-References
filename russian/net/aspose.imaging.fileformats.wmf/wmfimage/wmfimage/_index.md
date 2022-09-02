@@ -1,14 +1,14 @@
 ---
 title: WmfImage
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаWmfImageaspose.imaging.fileformats.wmf/wmfimage.
+description: Инициализирует новый экземплярWmfImageaspose.imaging.fileformats.wmf/wmfimage класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.wmf/wmfimage/wmfimage/
 ---
 ## WmfImage() {#constructor}
 
-Инициализирует новый экземпляр класса[`WmfImage`](../../wmfimage).
+Инициализирует новый экземпляр[`WmfImage`](../../wmfimage) класс.
 
 ```csharp
 public WmfImage()
@@ -24,7 +24,7 @@ public WmfImage()
 
 ## WmfImage(int, int) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`WmfImage`](../../wmfimage).
+Инициализирует новый экземпляр[`WmfImage`](../../wmfimage) класс.
 
 ```csharp
 public WmfImage(int width, int height)

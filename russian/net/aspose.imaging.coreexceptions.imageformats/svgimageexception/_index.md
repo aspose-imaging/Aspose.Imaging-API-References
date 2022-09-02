@@ -18,8 +18,8 @@ public class SvgImageException : Exception
 
 | Имя | Описание |
 | --- | --- |
-| [SvgImageException](svgimageexception#constructor)(string) | Инициализирует новый экземпляр класса[`SvgImageException`](../svgimageexception). |
-| [SvgImageException](svgimageexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр класса[`SvgImageException`](../svgimageexception). |
+| [SvgImageException](svgimageexception#constructor)(string) | Инициализирует новый экземпляр[`SvgImageException`](../svgimageexception) класс. |
+| [SvgImageException](svgimageexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр[`SvgImageException`](../svgimageexception) класс. |
 
 ### Смотрите также
 

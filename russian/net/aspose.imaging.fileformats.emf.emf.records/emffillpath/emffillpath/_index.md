@@ -1,14 +1,14 @@
 ---
 title: EmfFillPath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfFillPathaspose.imaging.fileformats.emf.emf.records/emffillpath.
+description: Инициализирует новый экземплярEmfFillPathaspose.imaging.fileformats.emf.emf.records/emffillpath класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emffillpath/emffillpath/
 ---
 ## EmfFillPath(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfFillPath`](../../emffillpath).
+Инициализирует новый экземпляр[`EmfFillPath`](../../emffillpath) класс.
 
 ```csharp
 public EmfFillPath(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfFillPath(EmfRecord source)
 
 ## EmfFillPath() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfFillPath`](../../emffillpath).
+Инициализирует новый экземпляр[`EmfFillPath`](../../emffillpath) класс.
 
 ```csharp
 public EmfFillPath()

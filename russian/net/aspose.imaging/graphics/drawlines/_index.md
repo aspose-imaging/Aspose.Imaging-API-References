@@ -1,14 +1,14 @@
 ---
 title: DrawLines
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Рисует ряд отрезков соединяющих массив структурPointaspose.imaging/point.
+description: Рисует серию отрезков соединяющих массивPointaspose.imaging/point структуры.
 type: docs
 weight: 260
 url: /ru/net/aspose.imaging/graphics/drawlines/
 ---
 ## DrawLines(Pen, Point[]) {#drawlines_1}
 
-Рисует ряд отрезков, соединяющих массив структур[`Point`](../../point).
+Рисует серию отрезков, соединяющих массив[`Point`](../../point) структуры.
 
 ```csharp
 public void DrawLines(Pen pen, Point[] points)
@@ -16,15 +16,15 @@ public void DrawLines(Pen pen, Point[] points)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen)который определяет цвет, ширину и стиль отрезки линии. |
-| points | Point[] | Массив структур[`Point`](../../point), которые представляют точки для соединения. |
+| pen | Pen | [`Pen`](../../pen) который определяет цвет, ширину и стиль сегментов линии. |
+| points | Point[] | Массив[`Point`](../../point) структуры, представляющие точки для соединения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *pen*равно нулю. -или- *points*равно null. |
-| ArgumentException | Массив*points*содержит менее 2 точек. |
+| ArgumentNullException | *pen* равно null. -или- *points* нулевой. |
+| ArgumentException | *points* массив содержит менее 2 точек. |
 
 ### Смотрите также
 
@@ -38,7 +38,7 @@ public void DrawLines(Pen pen, Point[] points)
 
 ## DrawLines(Pen, PointF[]) {#drawlines}
 
-Рисует ряд отрезков, соединяющих массив структур[`PointF`](../../pointf).
+Рисует серию отрезков, соединяющих массив[`PointF`](../../pointf) структуры.
 
 ```csharp
 public void DrawLines(Pen pen, PointF[] points)
@@ -46,15 +46,15 @@ public void DrawLines(Pen pen, PointF[] points)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| pen | Pen | [`Pen`](../../pen)который определяет цвет, ширину и стиль отрезки линии. |
-| points | PointF[] | Массив структур[`PointF`](../../pointf), представляющих точки для соединения. |
+| pen | Pen | [`Pen`](../../pen) который определяет цвет, ширину и стиль сегментов линии. |
+| points | PointF[] | Массив[`PointF`](../../pointf) структуры, представляющие точки для соединения. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *pen*равно нулю. -или- *points*равно null. |
-| ArgumentException | Массив*points*содержит менее 2 точек. |
+| ArgumentNullException | *pen* равно null. -или- *points* нулевой. |
+| ArgumentException | *points* массив содержит менее 2 точек. |
 
 ### Смотрите также
 

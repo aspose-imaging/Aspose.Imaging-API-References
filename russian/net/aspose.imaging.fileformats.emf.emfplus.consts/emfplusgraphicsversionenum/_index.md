@@ -18,7 +18,7 @@ public enum EmfPlusGraphicsVersionEnum
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| GraphicsVersion1 | `1` | Указывает GDI+ версии 1.0 |
+| GraphicsVersion1 | `1` | Указывает версию GDI+ 1.0 |
 | GraphicsVersion1_1 | `2` | Указывает GDI+ версии 1.1 |
 
 ### Смотрите также

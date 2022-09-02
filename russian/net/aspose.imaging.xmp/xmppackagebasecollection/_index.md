@@ -1,14 +1,14 @@
 ---
 title: XmpPackageBaseCollection
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Представляет коллекциюXmpPackage./xmppackage.
+description: Представляет наборXmpPackage./xmppackage .
 type: docs
-weight: 11800
+weight: 11790
 url: /ru/net/aspose.imaging.xmp/xmppackagebasecollection/
 ---
 ## XmpPackageBaseCollection class
 
-Представляет коллекцию[`XmpPackage`](../xmppackage).
+Представляет набор[`XmpPackage`](../xmppackage) .
 
 ```csharp
 public sealed class XmpPackageBaseCollection : IEnumerable<XmpPackage>
@@ -30,11 +30,11 @@ public sealed class XmpPackageBaseCollection : IEnumerable<XmpPackage>
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../aspose.imaging.xmp/xmppackagebasecollection/add)(XmpPackage) | Добавляет новый экземпляр[`XmpPackage`](../xmppackage). |
-| [Clear](../../aspose.imaging.xmp/xmppackagebasecollection/clear)() | Очистить все[`XmpPackage`](../xmppackage)внутри коллекции. |
+| [Add](../../aspose.imaging.xmp/xmppackagebasecollection/add)(XmpPackage) | Добавляет новый экземпляр[`XmpPackage`](../xmppackage) . |
+| [Clear](../../aspose.imaging.xmp/xmppackagebasecollection/clear)() | Очистить все[`XmpPackage`](../xmppackage) внутри коллекции. |
 | [GetEnumerator](../../aspose.imaging.xmp/xmppackagebasecollection/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
-| [GetPackage](../../aspose.imaging.xmp/xmppackagebasecollection/getpackage)(string) | Получает[`XmpPackage`](../xmppackage)по его namespaceURI. |
-| [GetPackages](../../aspose.imaging.xmp/xmppackagebasecollection/getpackages)() | Получить массив[`XmpPackage`](../xmppackage). |
+| [GetPackage](../../aspose.imaging.xmp/xmppackagebasecollection/getpackage)(string) | получает[`XmpPackage`](../xmppackage) по его namespaceURI. |
+| [GetPackages](../../aspose.imaging.xmp/xmppackagebasecollection/getpackages)() | Получить массив[`XmpPackage`](../xmppackage) . |
 | [Remove](../../aspose.imaging.xmp/xmppackagebasecollection/remove)(XmpPackage) | Удаляет указанный пакет XMP. |
 
 ### Смотрите также

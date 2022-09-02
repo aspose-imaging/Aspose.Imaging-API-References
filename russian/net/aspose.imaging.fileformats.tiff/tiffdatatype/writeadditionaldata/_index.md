@@ -20,7 +20,7 @@ public abstract long WriteAdditionalData(TiffStreamWriter dataStream)
 
 ### Возвращаемое значение
 
-Текущие записанные байты.
+Фактически записанные байты.
 
 ### Смотрите также
 

@@ -16,7 +16,7 @@ public StringAlignment Alignment { get; set; }
 
 ### Стоимость имущества
 
-A[`StringAlignment`](../../stringalignment)перечисление, указывающее информацию о выравнивании текста.
+А[`StringAlignment`](../../stringalignment) перечисление, указывающее информацию о выравнивании текста.
 
 ### Смотрите также
 

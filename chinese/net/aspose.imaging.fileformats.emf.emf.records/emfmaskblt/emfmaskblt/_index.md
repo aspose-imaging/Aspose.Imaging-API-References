@@ -1,14 +1,14 @@
 ---
 title: EmfMaskBlt
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfMaskBltaspose.imaging.fileformats.emf.emf.records/emfmaskblt类的新实例
+description: 初始化EmfMaskBltaspose.imaging.fileformats.emf.emf.records/emfmaskblt类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfmaskblt/emfmaskblt/
 ---
 ## EmfMaskBlt constructor
 
-初始化[`EmfMaskBlt`](../../emfmaskblt)类的新实例。
+初始化[`EmfMaskBlt`](../../emfmaskblt)类.
 
 ```csharp
 public EmfMaskBlt(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfMaskBlt(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 

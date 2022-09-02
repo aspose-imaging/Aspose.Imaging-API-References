@@ -1,14 +1,14 @@
 ---
 title: EmfSetBrushOrgEx
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetBrushOrgExaspose.imaging.fileformats.emf.emf.records/emfsetbrushorgex.
+description: Инициализирует новый экземплярEmfSetBrushOrgExaspose.imaging.fileformats.emf.emf.records/emfsetbrushorgex класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetbrushorgex/emfsetbrushorgex/
 ---
 ## EmfSetBrushOrgEx(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfSetBrushOrgEx`](../../emfsetbrushorgex).
+Инициализирует новый экземпляр[`EmfSetBrushOrgEx`](../../emfsetbrushorgex) класс.
 
 ```csharp
 public EmfSetBrushOrgEx(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfSetBrushOrgEx(EmfRecord source)
 
 ## EmfSetBrushOrgEx() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfSetBrushOrgEx`](../../emfsetbrushorgex).
+Инициализирует новый экземпляр[`EmfSetBrushOrgEx`](../../emfsetbrushorgex) класс.
 
 ```csharp
 public EmfSetBrushOrgEx()

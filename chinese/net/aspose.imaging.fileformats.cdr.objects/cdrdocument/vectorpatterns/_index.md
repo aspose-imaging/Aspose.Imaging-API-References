@@ -16,7 +16,7 @@ public Dictionary<int, CdrVectorPattern> VectorPatterns { get; }
 
 ### 适当的价值
 
-向量模式。
+矢量模式。
 
 ### 也可以看看
 

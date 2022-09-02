@@ -1,14 +1,14 @@
 ---
 title: EmfSetTextAlign
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetTextAlignaspose.imaging.fileformats.emf.emf.records/emfsettextalign.
+description: Инициализирует новый экземплярEmfSetTextAlignaspose.imaging.fileformats.emf.emf.records/emfsettextalign класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsettextalign/emfsettextalign/
 ---
 ## EmfSetTextAlign(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfSetTextAlign`](../../emfsettextalign).
+Инициализирует новый экземпляр[`EmfSetTextAlign`](../../emfsettextalign) класс.
 
 ```csharp
 public EmfSetTextAlign(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfSetTextAlign(EmfRecord source)
 
 ## EmfSetTextAlign() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfSetTextAlign`](../../emfsettextalign).
+Инициализирует новый экземпляр[`EmfSetTextAlign`](../../emfsettextalign) класс.
 
 ```csharp
 public EmfSetTextAlign()

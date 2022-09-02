@@ -1,14 +1,14 @@
 ---
 title: Language
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 EmfPlusLanguageIdentifier 对象第 2.2.2.23 节 指定用于字符串 的语言
+description: 获取或设置一个 EmfPlusLanguageIdentifier 对象第 2.2.2.23 节 它指定用于字符串的语言
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/language/
 ---
 ## EmfPlusStringFormat.Language property
 
-获取或设置 EmfPlusLanguageIdentifier 对象（第 2.2.2.23 节） 指定用于字符串 的语言
+获取或设置一个 EmfPlusLanguageIdentifier 对象（第 2.2.2.23 节） ，它指定用于字符串的语言
 
 ```csharp
 public EmfPlusLanguageIdentifierType Language { get; set; }

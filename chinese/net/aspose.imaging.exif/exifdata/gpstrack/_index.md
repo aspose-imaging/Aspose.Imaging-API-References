@@ -16,7 +16,7 @@ public string GPSTrack { get; set; }
 
 ### 适当的价值
 
-GPS 接收器移动的方向。
+GPS 接收器运动的方向。
 
 ### 也可以看看
 

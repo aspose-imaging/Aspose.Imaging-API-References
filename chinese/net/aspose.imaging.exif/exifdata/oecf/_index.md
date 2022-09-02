@@ -16,7 +16,7 @@ public byte[] OECF { get; set; }
 
 ### 适当的价值
 
-ISO 14524 中指定的光电转换函数 (OECF)。
+ISO 14524 中规定的光电转换功能 (OECF)。
 
 ### 也可以看看
 

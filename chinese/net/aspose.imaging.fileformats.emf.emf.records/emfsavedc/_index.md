@@ -1,14 +1,14 @@
 ---
 title: EmfSaveDc
 second_title: Aspose.Imaging for .NET API 参考
-description: 将播放设备上下文的当前状态保存在 堆栈上该堆栈由前面的 EMR_SAVEDC 记录保存如果有 .状态由图形属性 和对象组成包括当前选定的位图 画笔调色板字体笔和区域 EMR_RESTOREDC 记录用于恢复状态 此 EMF 记录未指定参数
+description: 将播放设备上下文的当前状态保存在由前面的 EMR_SAVEDC 记录如果有保存的状态堆栈上状态由图形属性 和对象组成包括当前选择的位图 画笔调色板字体笔和区域 An EMR_RESTOREDC 记录用于恢复状态 此 EMF 记录未指定参数
 type: docs
 weight: 4210
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsavedc/
 ---
 ## EmfSaveDc class
 
-将播放设备上下文的当前状态保存在 堆栈上，该堆栈由前面的 EMR_SAVEDC 记录保存（如果有） .状态由图形属性 和对象组成，包括当前选定的位图、 画笔、调色板、字体、笔和区域。 EMR_RESTOREDC 记录用于恢复状态。 此 EMF 记录未指定参数。
+将播放设备上下文的当前状态保存在由前面的 EMR_SAVEDC 记录（如果有）保存的状态堆栈上。状态由图形属性 和对象组成，包括当前选择的位图、 画笔、调色板、字体、笔和区域。 An EMR_RESTOREDC 记录用于恢复状态。 此 EMF 记录未指定参数。
 
 ```csharp
 public sealed class EmfSaveDc : EmfStateRecordType
@@ -18,8 +18,8 @@ public sealed class EmfSaveDc : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSaveDc](emfsavedc#constructor)() | 初始化[`EmfSaveDc`](../emfsavedc)类的新实例。 |
-| [EmfSaveDc](emfsavedc#constructor_1)(EmfRecord) | 初始化[`EmfSaveDc`](../emfsavedc)类的新实例。 |
+| [EmfSaveDc](emfsavedc#constructor)() | 初始化[`EmfSaveDc`](../emfsavedc)类. |
+| [EmfSaveDc](emfsavedc#constructor_1)(EmfRecord) | 初始化[`EmfSaveDc`](../emfsavedc)类. |
 
 ## 特性
 
@@ -30,7 +30,7 @@ public sealed class EmfSaveDc : EmfStateRecordType
 
 ### 评论
 
-堆栈可以包含播放设备上下文的多个实例的状态信息。当 状态恢复时，必须丢弃最近保存的所有状态实例。
+堆栈可以包含播放设备上下文的多个实例的状态信息。当 一个状态被恢复时，所有最近保存的状态实例必须被丢弃。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: EmfLogFontEx
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfLogFontExaspose.imaging.fileformats.emf.emf.objects/emflogfontex.
+description: Инициализирует новый экземплярEmfLogFontExaspose.imaging.fileformats.emf.emf.objects/emflogfontex класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emflogfontex/emflogfontex/
 ---
 ## EmfLogFontEx constructor
 
-Инициализирует новый экземпляр класса[`EmfLogFontEx`](../../emflogfontex).
+Инициализирует новый экземпляр[`EmfLogFontEx`](../../emflogfontex) класс.
 
 ```csharp
 public EmfLogFontEx(EmfLogFont emfLogFont)

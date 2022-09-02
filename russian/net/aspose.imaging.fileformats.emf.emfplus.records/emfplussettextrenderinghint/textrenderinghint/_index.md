@@ -1,14 +1,14 @@
 ---
 title: TextRenderingHint
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение подсказки рендеринга текста из перечисления TextRenderingHint раздел 2.1.1.32 которое определяет качество использовать при последующем рендеринге текста.
+description: Получает или задает значение подсказки рендеринга текста из перечисления TextRenderingHint раздел 2.1.1.32 которое определяет качество которое используется при последующем рендеринге текста.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettextrenderinghint/textrenderinghint/
 ---
 ## EmfPlusSetTextRenderingHint.TextRenderingHint property
 
-Получает или задает значение подсказки рендеринга текста из перечисления TextRenderingHint (раздел 2.1.1.32), которое определяет качество использовать при последующем рендеринге текста.
+Получает или задает значение подсказки рендеринга текста из перечисления TextRenderingHint (раздел 2.1.1.32), которое определяет качество, которое используется при последующем рендеринге текста.
 
 ```csharp
 public EmfPlusTextRenderingHint TextRenderingHint { get; set; }
@@ -16,7 +16,7 @@ public EmfPlusTextRenderingHint TextRenderingHint { get; set; }
 
 ### Стоимость имущества
 
-Подсказка по отрисовке текста.
+Подсказка по рендерингу текста.
 
 ### Смотрите также
 

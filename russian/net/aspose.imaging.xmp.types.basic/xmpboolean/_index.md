@@ -3,7 +3,7 @@ title: XmpBoolean
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет базовый логический тип XMP.
 type: docs
-weight: 11460
+weight: 11450
 url: /ru/net/aspose.imaging.xmp.types.basic/xmpboolean/
 ---
 ## XmpBoolean class
@@ -18,15 +18,15 @@ public sealed class XmpBoolean : XmpTypeBase
 
 | Имя | Описание |
 | --- | --- |
-| [XmpBoolean](xmpboolean#constructor)() | Инициализирует новый экземпляр класса[`XmpBoolean`](../xmpboolean)со значением по умолчанию. |
-| [XmpBoolean](xmpboolean#constructor_1)(bool) | Инициализирует новый экземпляр класса[`XmpBoolean`](../xmpboolean)на основе логического значения. |
-| [XmpBoolean](xmpboolean#constructor_2)(string) | Инициализирует новый экземпляр класса[`XmpBoolean`](../xmpboolean). |
+| [XmpBoolean](xmpboolean#constructor)() | Инициализирует новый экземпляр[`XmpBoolean`](../xmpboolean) класс со значением по умолчанию. |
+| [XmpBoolean](xmpboolean#constructor_1)(bool) | Инициализирует новый экземпляр[`XmpBoolean`](../xmpboolean) класс на основе логического значения. |
+| [XmpBoolean](xmpboolean#constructor_2)(string) | Инициализирует новый экземпляр[`XmpBoolean`](../xmpboolean) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Value](../../aspose.imaging.xmp.types.basic/xmpboolean/value) { get; set; } | Получает или задает значение, указывающее, является ли это[`XmpBoolean`](../xmpboolean)значением. |
+| [Value](../../aspose.imaging.xmp.types.basic/xmpboolean/value) { get; set; } | Получает или задает значение, указывающее, является ли это[`XmpBoolean`](../xmpboolean)значение. |
 
 ## Методы
 

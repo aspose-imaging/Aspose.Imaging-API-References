@@ -3,7 +3,7 @@ title: NonGenericDictionary
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示非通用字典
 type: docs
-weight: 10620
+weight: 10610
 url: /zh/net/aspose.imaging/nongenericdictionary/
 ---
 ## NonGenericDictionary class
@@ -18,31 +18,31 @@ public class NonGenericDictionary : IDictionary
 
 | 姓名 | 描述 |
 | --- | --- |
-| [NonGenericDictionary](nongenericdictionary)(IDictionary) | 初始化[`NonGenericDictionary`](../nongenericdictionary)类的新实例。 |
+| [NonGenericDictionary](nongenericdictionary)(IDictionary) | 初始化[`NonGenericDictionary`](../nongenericdictionary)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.imaging/nongenericdictionary/count) { get; } | 获取 ICollection中包含的元素数。 |
-| [IsFixedSize](../../aspose.imaging/nongenericdictionary/isfixedsize) { get; } | 获取一个值，该值指示 IDictionary对象是否具有固定大小。 |
-| [IsReadOnly](../../aspose.imaging/nongenericdictionary/isreadonly) { get; } | 获取一个值，该值指示 IDictionary对象是否为只读。 |
-| [IsSynchronized](../../aspose.imaging/nongenericdictionary/issynchronized) { get; } | 获取一个值，该值指示对 ICollection的访问是否同步（线程安全）。 |
+| [Count](../../aspose.imaging/nongenericdictionary/count) { get; } | 获取 中包含的元素个数ICollection . |
+| [IsFixedSize](../../aspose.imaging/nongenericdictionary/isfixedsize) { get; } | 获取一个值，该值指示 是否IDictionary对象具有固定大小。 |
+| [IsReadOnly](../../aspose.imaging/nongenericdictionary/isreadonly) { get; } | 获取一个值，该值指示 是否IDictionary对象是只读的。 |
+| [IsSynchronized](../../aspose.imaging/nongenericdictionary/issynchronized) { get; } | 获取一个值，表示是否访问 ICollection已同步（线程安全）。 |
 | [Item](../../aspose.imaging/nongenericdictionary/item) { get; set; } | 获取或设置具有指定键的元素。 |
-| [Keys](../../aspose.imaging/nongenericdictionary/keys) { get; } | 获取一个 ICollection对象，其中包含:::47 的键:::IDictionary对象。 |
-| [SyncRoot](../../aspose.imaging/nongenericdictionary/syncroot) { get; } | 获取可用于同步访问 ICollection的对象。 |
-| [Values](../../aspose.imaging/nongenericdictionary/values) { get; } | 获取 ICollection对象，其中包含:::47 中的值:::IDictionary对象。 |
+| [Keys](../../aspose.imaging/nongenericdictionary/keys) { get; } | 获取 ICollection包含 键的对象IDictionary对象. |
+| [SyncRoot](../../aspose.imaging/nongenericdictionary/syncroot) { get; } | 获取可用于同步访问 的对象ICollection . |
+| [Values](../../aspose.imaging/nongenericdictionary/values) { get; } | 获取 ICollection包含 中的值的对象IDictionary对象. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.imaging/nongenericdictionary/add)(object, object) | 将具有提供的键和值的元素添加到 IDictionary对象。 |
-| [Clear](../../aspose.imaging/nongenericdictionary/clear)() | 从 IDictionary对象中删除所有元素。 |
-| [Contains](../../aspose.imaging/nongenericdictionary/contains)(object) | 确定 IDictionary对象是否包含具有指定键的元素。 |
-| [CopyTo](../../aspose.imaging/nongenericdictionary/copyto)(Array, int) | 将 ICollection的元素复制到 ::R5:T:System.Array:::，从特定的 Array索引开始。 |
-| [GetEnumerator](../../aspose.imaging/nongenericdictionary/getenumerator)() | 获取枚举数。 |
-| [Remove](../../aspose.imaging/nongenericdictionary/remove)(object) | 从 IDictionary对象中删除具有指定键的元素。 |
+| [Add](../../aspose.imaging/nongenericdictionary/add)(object, object) | 将具有提供的键和值的元素添加到 IDictionary对象. |
+| [Clear](../../aspose.imaging/nongenericdictionary/clear)() | 从 中删除所有元素IDictionary对象. |
+| [Contains](../../aspose.imaging/nongenericdictionary/contains)(object) | 确定 是否IDictionary对象包含具有指定键的元素。 |
+| [CopyTo](../../aspose.imaging/nongenericdictionary/copyto)(Array, int) | 复制 的元素ICollection到一个 Array ，从特定的 开始Array索引. |
+| [GetEnumerator](../../aspose.imaging/nongenericdictionary/getenumerator)() | 获取枚举器。 |
+| [Remove](../../aspose.imaging/nongenericdictionary/remove)(object) | 从 中移除具有指定键的元素IDictionary对象. |
 
 ### 也可以看看
 

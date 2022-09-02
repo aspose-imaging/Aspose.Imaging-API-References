@@ -1,14 +1,14 @@
 ---
 title: Container
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает контейнерImageaspose.imaging/image.
+description: ПолучаетImageaspose.imaging/image контейнер.
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging/image/container/
 ---
 ## Image.Container property
 
-Получает контейнер[`Image`](../../image).
+Получает[`Image`](../../image) контейнер.
 
 ```csharp
 public Image Container { get; }
@@ -16,11 +16,11 @@ public Image Container { get; }
 
 ### Стоимость имущества
 
-Контейнер[`Image`](../../image).
+[`Image`](../../image) контейнер.
 
 ### Примечания
 
-Если это свойство не равно null, это указывает, что изображение содержится в другом изображении.
+Если это свойство не равно null, это означает, что изображение содержится в другом изображении.
 
 ### Смотрите также
 

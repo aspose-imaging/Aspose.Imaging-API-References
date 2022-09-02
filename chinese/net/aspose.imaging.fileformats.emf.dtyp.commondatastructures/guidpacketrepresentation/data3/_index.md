@@ -16,7 +16,7 @@ public short Data3 { get; set; }
 
 ### 适当的价值
 
-数据3。
+数据3.
 
 ### 也可以看看
 

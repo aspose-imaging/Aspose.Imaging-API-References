@@ -16,7 +16,7 @@ public WmfDeviceIndependentBitmap SourceBitmap { get; set; }
 
 ### 适当的价值
 
-可变位 DIB 对象数据，定义要在:::47::中使用的模式:刷子。
+定义要在 画笔中使用的模式的可变位DIB 对象数据。
 
 ### 也可以看看
 

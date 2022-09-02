@@ -16,7 +16,7 @@ public int BezierOrder { get; set; }
 
 ### 适当的价值
 
-贝塞尔曲线顺序。
+贝塞尔顺序。
 
 ### 也可以看看
 

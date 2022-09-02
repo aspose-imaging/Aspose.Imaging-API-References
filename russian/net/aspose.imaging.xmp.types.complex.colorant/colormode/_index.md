@@ -3,7 +3,7 @@ title: ColorMode
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет цветовой режим.
 type: docs
-weight: 11510
+weight: 11500
 url: /ru/net/aspose.imaging.xmp.types.complex.colorant/colormode/
 ---
 ## ColorMode enumeration

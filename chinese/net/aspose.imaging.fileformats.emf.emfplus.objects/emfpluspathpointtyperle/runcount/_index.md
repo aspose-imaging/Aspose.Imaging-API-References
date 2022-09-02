@@ -1,14 +1,14 @@
 ---
 title: RunCount
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置运行计数 RunCount6 位运行计数即要与 PointType 字段中的类型关联的路径 点数
+description: 获取或设置运行计数 运行计数6位运行计数即与PointType字段中的类型相关联的路径 点数
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtyperle/runcount/
 ---
 ## EmfPlusPathPointTypeRle.RunCount property
 
-获取或设置运行计数。 RunCount（6 位）:运行计数，即要与 PointType 字段中的类型关联的路径 点数
+获取或设置运行计数。 运行计数（6位）：运行计数，即与PointType字段中的类型相关联的路径 点数
 
 ```csharp
 public byte RunCount { get; set; }

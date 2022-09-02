@@ -1,14 +1,14 @@
 ---
 title: RectData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置矩形数据 EmfPlusRect 或 EmfPlusRectF 对象用于定义椭圆的边界框
+description: 获取或设置矩形数据 定义椭圆边界框的 EmfPlusRect 或 EmfPlusRectF 对象
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawellipse/rectdata/
 ---
 ## EmfPlusDrawEllipse.RectData property
 
-获取或设置矩形数据 EmfPlusRect 或 EmfPlusRectF 对象，用于定义椭圆的边界框。
+获取或设置矩形数据 定义椭圆边界框的 EmfPlusRect 或 EmfPlusRectF 对象。
 
 ```csharp
 public RectangleF RectData { get; set; }

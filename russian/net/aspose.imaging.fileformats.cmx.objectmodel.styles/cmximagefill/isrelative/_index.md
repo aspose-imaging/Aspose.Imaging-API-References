@@ -16,7 +16,7 @@ public bool IsRelative { get; set; }
 
 ### Стоимость имущества
 
-` true` if[`PatternWidth`](../patternwidth)и[`PatternHeight`](../patternheight)имеет относительную размерность; в противном случае` false` .
+`истинный` если[`PatternWidth`](../patternwidth) а также[`PatternHeight`](../patternheight) имеет относительную размерность; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: LineSegment
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Представляет сегмент ведущий прямо из определенной точки к следующей точке.
+description: Представляет сегмент ведущий прямо от определенной точки к следующей точке.
 type: docs
-weight: 10950
+weight: 10940
 url: /ru/net/aspose.imaging.shapesegments/linesegment/
 ---
 ## LineSegment class
 
-Представляет сегмент, ведущий прямо из определенной точки к следующей точке.
+Представляет сегмент, ведущий прямо от определенной точки к следующей точке.
 
 ```csharp
 public class LineSegment : ShapeSegment
@@ -18,7 +18,7 @@ public class LineSegment : ShapeSegment
 
 | Имя | Описание |
 | --- | --- |
-| [LineSegment](linesegment)(PointF, PointF) | Инициализирует новый экземпляр класса[`LineSegment`](../linesegment). |
+| [LineSegment](linesegment)(PointF, PointF) | Инициализирует новый экземпляр[`LineSegment`](../linesegment) класс. |
 
 ## Характеристики
 

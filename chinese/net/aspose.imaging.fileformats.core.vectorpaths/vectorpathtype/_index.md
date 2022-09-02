@@ -19,12 +19,12 @@ public enum VectorPathType : short
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | ClosedSubpathLengthRecord | `0` | 封闭子路径长度记录 |
-| ClosedSubpathBezierKnotLinked | `1` | 闭合子路径贝塞尔结链接 |
-| ClosedSubpathBezierKnotUnlinked | `2` | 未链接的封闭子路径贝塞尔结 |
-| OpenSubpathLengthRecord | `3` | 开放子路径长度记录 |
-| OpenSubpathBezierKnotLinked | `4` | 链接的开放子路径贝塞尔结 |
-| OpenSubpathBezierKnotUnlinked | `5` | 未链接的开放子路径贝塞尔结 |
-| PathFillRuleRecord | `6` | 路径填充规则记录 |
+| ClosedSubpathBezierKnotLinked | `1` | 封闭子路径贝塞尔结linked |
+| ClosedSubpathBezierKnotUnlinked | `2` | 封闭子路径贝塞尔结 unlinked |
+| OpenSubpathLengthRecord | `3` | 打开的子路径长度记录 |
+| OpenSubpathBezierKnotLinked | `4` | 开放子路径贝塞尔结linked |
+| OpenSubpathBezierKnotUnlinked | `5` | 开放子路径贝塞尔结 unlinked |
+| PathFillRuleRecord | `6` | 路径填充规则record |
 | ClipboardRecord | `7` | 剪贴板记录 |
 | InitialFillRuleRecord | `8` | 初始填充规则记录 |
 

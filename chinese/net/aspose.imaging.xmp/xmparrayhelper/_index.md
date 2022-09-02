@@ -3,7 +3,7 @@ title: XmpArrayHelper
 second_title: Aspose.Imaging for .NET API 参考
 description: 处理RDF逻辑的帮助类
 type: docs
-weight: 11740
+weight: 11730
 url: /zh/net/aspose.imaging.xmp/xmparrayhelper/
 ---
 ## XmpArrayHelper class
@@ -18,7 +18,7 @@ public static class XmpArrayHelper
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [GetRdfCode](../../aspose.imaging.xmp/xmparrayhelper/getrdfcode)(XmpArrayType) | 获取特定[`XmpArrayType`](../xmparraytype)的 RDF 代码。 |
+| static [GetRdfCode](../../aspose.imaging.xmp/xmparrayhelper/getrdfcode)(XmpArrayType) | 获取特定的 RDF 代码[`XmpArrayType`](../xmparraytype) . |
 
 ### 也可以看看
 

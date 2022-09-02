@@ -1,14 +1,14 @@
 ---
 title: TotalObjectSize
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает общий размер объекта. Если запись может быть продолжена когда бит продолжения установлен это поле будет присутствовать. Продолжающиеся объекты имеют несколько записей EMF начинающихся с EmfPlusContineudObjectRecord. Каждый EmfPlusContinuedObjectRecord будет содержать TotalObjectSize. Как только TotalObjectSize считывает количество байтов следующая запись EMF не будет рассматриваться как часть продолжающегося объекта.
+description: Получает или устанавливает общий размер объекта. Если запись может быть продолжена когда установлен бит продолжения это поле будет присутствовать. Продолжающиеся объекты имеют несколько записей EMF начинающихся с EmfPlusContineudObjectRecord. Каждая запись EmfPlusContinuedObjectRecord будет содержать a TotalObjectSize. Как только TotalObjectSize считывает количество байтов следующая запись EMF не будет рассматриваться как часть продолжающегося объекта.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusobject/totalobjectsize/
 ---
 ## EmfPlusObject.TotalObjectSize property
 
-Получает или задает общий размер объекта. Если запись может быть продолжена, когда бит продолжения установлен, это поле будет присутствовать. Продолжающиеся объекты имеют несколько записей EMF+, начинающихся с EmfPlusContineudObjectRecord. Каждый EmfPlusContinuedObjectRecord будет содержать TotalObjectSize. Как только TotalObjectSize считывает количество байтов, следующая запись EMF+ не будет рассматриваться как часть продолжающегося объекта.
+Получает или устанавливает общий размер объекта. Если запись может быть продолжена, когда установлен бит продолжения, это поле будет присутствовать. Продолжающиеся объекты имеют несколько записей EMF+, начинающихся с EmfPlusContineudObjectRecord. Каждая запись EmfPlusContinuedObjectRecord будет содержать a TotalObjectSize. Как только TotalObjectSize считывает количество байтов, следующая запись EMF+ не будет рассматриваться как часть продолжающегося объекта.
 
 ```csharp
 public int TotalObjectSize { get; set; }

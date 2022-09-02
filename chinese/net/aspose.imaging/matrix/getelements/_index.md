@@ -16,7 +16,7 @@ public float[] GetElements()
 
 ### 返回值
 
-矩阵元素副本。
+一个矩阵元素副本。
 
 ### 也可以看看
 

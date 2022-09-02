@@ -1,14 +1,14 @@
 ---
 title: SizeData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-битное целое число без знака указывающее общий размер этого объекта в байтах
+description: Получает или задает 32-разрядное целое число без знака указывающее общий размер этого объекта в байтах
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfepsdata/sizedata/
 ---
 ## EmfEpsData.SizeData property
 
-Получает или задает 32-битное целое число без знака, указывающее общий размер этого объекта в байтах
+Получает или задает 32-разрядное целое число без знака, указывающее общий размер этого объекта в байтах
 
 ```csharp
 public int SizeData { get; set; }

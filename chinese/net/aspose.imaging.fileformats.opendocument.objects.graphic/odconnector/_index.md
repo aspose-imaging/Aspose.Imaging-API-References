@@ -18,18 +18,18 @@ public class OdConnector : OdStyledObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OdConnector](odconnector)(OdObject) | 初始化[`OdConnector`](../odconnector)类的新实例。 |
+| [OdConnector](odconnector)(OdObject) | 初始化[`OdConnector`](../odconnector)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]。 |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | 获取或设置一个值，指示是否[绝对坐标]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | 获取项目。 |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | 获取父对象。 |
 | [PathCommands](../../aspose.imaging.fileformats.opendocument.objects.graphic/odconnector/pathcommands) { get; set; } | 获取或设置路径命令。 |
-| [Point1](../../aspose.imaging.fileformats.opendocument.objects.graphic/odconnector/point1) { get; set; } | 获取或设置point1。 |
-| [Point2](../../aspose.imaging.fileformats.opendocument.objects.graphic/odconnector/point2) { get; set; } | 获取或设置point2。 |
+| [Point1](../../aspose.imaging.fileformats.opendocument.objects.graphic/odconnector/point1) { get; set; } | 获取或设置point1. |
+| [Point2](../../aspose.imaging.fileformats.opendocument.objects.graphic/odconnector/point2) { get; set; } | 获取或设置point2. |
 | [Rectangle](../../aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/rectangle) { get; set; } | 获取或设置矩形。 |
 | [Style](../../aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/style) { get; set; } | 获取或设置样式。 |
 

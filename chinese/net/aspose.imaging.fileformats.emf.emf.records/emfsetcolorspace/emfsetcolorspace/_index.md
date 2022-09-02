@@ -1,14 +1,14 @@
 ---
 title: EmfSetColorSpace
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfSetColorSpaceaspose.imaging.fileformats.emf.emf.records/emfsetcolorspace类的新实例
+description: 初始化EmfSetColorSpaceaspose.imaging.fileformats.emf.emf.records/emfsetcolorspace类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetcolorspace/emfsetcolorspace/
 ---
 ## EmfSetColorSpace constructor
 
-初始化[`EmfSetColorSpace`](../../emfsetcolorspace)类的新实例。
+初始化[`EmfSetColorSpace`](../../emfsetcolorspace)类.
 
 ```csharp
 public EmfSetColorSpace(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfSetColorSpace(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 

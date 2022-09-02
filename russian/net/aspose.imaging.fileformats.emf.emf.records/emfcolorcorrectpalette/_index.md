@@ -1,14 +1,14 @@
 ---
 title: EmfColorCorrectPalette
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_COLORCORRECTPALETTE указывает как исправлять записи объекта логической палитры с использованием значений WCS 1.0.
+description: Запись EMR_COLORCORRECTPALETTE указывает как исправить записи объекта логической палитры с использованием значений WCS 1.0.
 type: docs
 weight: 3320
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/
 ---
 ## EmfColorCorrectPalette class
 
-Запись EMR_COLORCORRECTPALETTE указывает, как исправлять записи объекта логической палитры с использованием значений WCS 1.0.
+Запись EMR_COLORCORRECTPALETTE указывает, как исправить записи объекта логической палитры с использованием значений WCS 1.0.
 
 ```csharp
 public sealed class EmfColorCorrectPalette : EmfObjectManipulationRecordType
@@ -18,16 +18,16 @@ public sealed class EmfColorCorrectPalette : EmfObjectManipulationRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfColorCorrectPalette](emfcolorcorrectpalette)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfColorCorrectPalette`](../emfcolorcorrectpalette). |
+| [EmfColorCorrectPalette](emfcolorcorrectpalette)(EmfRecord) | Инициализирует новый экземпляр[`EmfColorCorrectPalette`](../emfcolorcorrectpalette) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [IhPalette](../../aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/ihpalette) { get; set; } | Получает или задает 32-битное целое число без знака, указывающее индекс объекта логической палитры (раздел 2.2.17) в таблице объектов EMF. (раздел 3.1.1.1). |
-| [NFirstEntry](../../aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/nfirstentry) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс первой исправляемой записи. |
-| [NPalEntries](../../aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/npalentries) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее количество исправимых элементов палитры. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [IhPalette](../../aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/ihpalette) { get; set; } | Получает или задает 32-битное целое число без знака, указывающее индекс логической палитры object (раздел 2.2.17) в таблице объектов EMF (раздел 3.1.1.1). |
+| [NFirstEntry](../../aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/nfirstentry) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс первой записи для исправления. |
+| [NPalEntries](../../aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/npalentries) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее количество элементов палитры для исправления. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: EmfModifyWorldTransform
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfModifyWorldTransformaspose.imaging.fileformats.emf.emf.records/emfmodifyworldtransform.
+description: Инициализирует новый экземплярEmfModifyWorldTransformaspose.imaging.fileformats.emf.emf.records/emfmodifyworldtransform класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfmodifyworldtransform/emfmodifyworldtransform/
 ---
 ## EmfModifyWorldTransform(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfModifyWorldTransform`](../../emfmodifyworldtransform).
+Инициализирует новый экземпляр[`EmfModifyWorldTransform`](../../emfmodifyworldtransform) класс.
 
 ```csharp
 public EmfModifyWorldTransform(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfModifyWorldTransform(EmfRecord source)
 
 ## EmfModifyWorldTransform() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfModifyWorldTransform`](../../emfmodifyworldtransform).
+Инициализирует новый экземпляр[`EmfModifyWorldTransform`](../../emfmodifyworldtransform) класс.
 
 ```csharp
 public EmfModifyWorldTransform()

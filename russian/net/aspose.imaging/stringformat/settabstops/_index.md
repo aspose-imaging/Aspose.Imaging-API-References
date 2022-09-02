@@ -1,14 +1,14 @@
 ---
 title: SetTabStops
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Устанавливает позиции табуляции для этогоStringFormataspose.imaging/stringformatобъекта.
+description: Устанавливает позиции табуляции для этогоStringFormataspose.imaging/stringformat объект.
 type: docs
 weight: 150
 url: /ru/net/aspose.imaging/stringformat/settabstops/
 ---
 ## StringFormat.SetTabStops method
 
-Устанавливает позиции табуляции для этого[`StringFormat`](../../stringformat)объекта.
+Устанавливает позиции табуляции для этого[`StringFormat`](../../stringformat) объект.
 
 ```csharp
 public void SetTabStops(float firstTabOffset, float[] tabStops)
@@ -17,7 +17,7 @@ public void SetTabStops(float firstTabOffset, float[] tabStops)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | firstTabOffset | Single | Количество пробелов между началом строки текста и первой позицией табуляции. |
-| tabStops | Single[] | Массив расстояний между позициями табуляции в единицах, заданных свойством[`PageUnit`](../../graphics/pageunit). |
+| tabStops | Single[] | Массив расстояний между позициями табуляции в единицах, указанных параметром[`PageUnit`](../../graphics/pageunit) имущество. |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: CdrBmp
 second_title: Aspose.Imaging for .NET API 参考
-description: he cdr bmp
+description: 他 cdr bmp
 type: docs
 weight: 1500
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrbmp/
 ---
 ## CdrBmp class
 
-he cdr bmp
+他 cdr bmp
 
 ```csharp
 public class CdrBmp : CdrDictionaryItem
@@ -27,8 +27,7 @@ public class CdrBmp : CdrDictionaryItem
 | [Bpp](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/bpp) { get; set; } | 获取或设置 BPP。 |
 | [BytesPerLine](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/bytesperline) { get; set; } | 获取或设置每行的字节数。 |
 | [ColorModel](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/colormodel) { get; set; } | 获取或设置颜色模型。 |
-| [Data](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/data) { get; set; } | 获取或设置数据。 |
-| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示该实例是否被释放。 |
+| [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | 获取一个值，该值指示此实例是否被释放。 |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | 获取或设置文档。 |
 | [Height](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/height) { get; set; } | 获取或设置高度。 |
 | [Id](../../aspose.imaging.fileformats.cdr.objects/cdrdictionaryitem/id) { get; set; } | 获取或设置标识符。 |
@@ -40,10 +39,11 @@ public class CdrBmp : CdrDictionaryItem
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 释放当前实例。 |
+| [Dispose](../../aspose.imaging/disposableobject/dispose)() | 处理当前实例。 |
 
 ### 也可以看看
 
+* class [CdrObjectContainer](../cdrobjectcontainer)
 * class [CdrDictionaryItem](../cdrdictionaryitem)
 * 命名空间 [Aspose.Imaging.FileFormats.Cdr.Objects](../../aspose.imaging.fileformats.cdr.objects)
 * 部件 [Aspose.Imaging](../../)

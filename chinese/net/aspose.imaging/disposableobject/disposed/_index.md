@@ -1,14 +1,14 @@
 ---
 title: Disposed
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示该实例是否被释放
+description: 获取一个值该值指示此实例是否被释放
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging/disposableobject/disposed/
 ---
 ## DisposableObject.Disposed property
 
-获取一个值，该值指示该实例是否被释放。
+获取一个值，该值指示此实例是否被释放。
 
 ```csharp
 public bool Disposed { get; }
@@ -16,7 +16,7 @@ public bool Disposed { get; }
 
 ### 适当的价值
 
-` true` 如果处置；否则，` false` 。
+`真的`如果处置；否则，`错误的`.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: CdrObject
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект cdr
+description: CDR object
 type: docs
 weight: 1640
 url: /ru/net/aspose.imaging.fileformats.cdr.objects/cdrobject/
 ---
 ## CdrObject class
 
-Объект cdr
+CDR object
 
 ```csharp
 public abstract class CdrObject : DisposableObject

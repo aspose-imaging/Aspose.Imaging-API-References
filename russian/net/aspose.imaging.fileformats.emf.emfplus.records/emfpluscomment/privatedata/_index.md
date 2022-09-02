@@ -1,14 +1,14 @@
 ---
 title: PrivateData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает байтовый массив закрытых данных длиной DataSize. следующие байты данных относящихся к записи.
+description: Получает или задает байтовый массив частных данных длиной DataSize. байтов данных относящихся к записи которые следуют.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfpluscomment/privatedata/
 ---
 ## EmfPlusComment.PrivateData property
 
-Получает или задает байтовый массив закрытых данных длиной DataSize. следующие байты данных, относящихся к записи.
+Получает или задает байтовый массив частных данных длиной DataSize. байтов данных, относящихся к записи, которые следуют.
 
 ```csharp
 public byte[] PrivateData { get; set; }

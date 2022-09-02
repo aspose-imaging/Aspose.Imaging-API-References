@@ -1,14 +1,14 @@
 ---
 title: EmfModifyWorldTransform
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfModifyWorldTransformaspose.imaging.fileformats.emf.emf.records/emfmodifyworldtransform类的新实例
+description: 初始化EmfModifyWorldTransformaspose.imaging.fileformats.emf.emf.records/emfmodifyworldtransform类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfmodifyworldtransform/emfmodifyworldtransform/
 ---
 ## EmfModifyWorldTransform(EmfRecord) {#constructor_1}
 
-初始化[`EmfModifyWorldTransform`](../../emfmodifyworldtransform)类的新实例。
+初始化[`EmfModifyWorldTransform`](../../emfmodifyworldtransform)类.
 
 ```csharp
 public EmfModifyWorldTransform(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfModifyWorldTransform(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfModifyWorldTransform(EmfRecord source)
 
 ## EmfModifyWorldTransform() {#constructor}
 
-初始化[`EmfModifyWorldTransform`](../../emfmodifyworldtransform)类的新实例。
+初始化[`EmfModifyWorldTransform`](../../emfmodifyworldtransform)类.
 
 ```csharp
 public EmfModifyWorldTransform()

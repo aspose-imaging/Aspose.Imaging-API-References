@@ -3,7 +3,7 @@ title: PdfOptions
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Параметры PDF.
 type: docs
-weight: 10120
+weight: 10110
 url: /ru/net/aspose.imaging.imageoptions/pdfoptions/
 ---
 ## PdfOptions class
@@ -24,17 +24,17 @@ public class PdfOptions : ImageOptionsBase
 
 | Имя | Описание |
 | --- | --- |
-| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Получает или устанавливает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
+| [BufferSizeHint](../../aspose.imaging/imageoptionsbase/buffersizehint) { get; set; } | Получает или задает подсказку о размере буфера, которая определяет максимально допустимый размер для всех внутренних буферов. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
 | [FullFrame](../../aspose.imaging/imageoptionsbase/fullframe) { get; set; } | Получает или задает значение, указывающее, является ли [полный кадр]. |
 | [MultiPageOptions](../../aspose.imaging/imageoptionsbase/multipageoptions) { get; set; } | Многостраничные параметры |
 | [PageSize](../../aspose.imaging.imageoptions/pdfoptions/pagesize) { get; set; } | Получает или задает размер страницы. |
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Получает или задает цветовую палитру. |
 | [PdfCoreOptions](../../aspose.imaging.imageoptions/pdfoptions/pdfcoreoptions) { get; set; } | Основные параметры PDF |
-| [PdfDocumentInfo](../../aspose.imaging.imageoptions/pdfoptions/pdfdocumentinfo) { get; set; } | Получает или устанавливает метаданные для документа. |
+| [PdfDocumentInfo](../../aspose.imaging.imageoptions/pdfoptions/pdfdocumentinfo) { get; set; } | Получает или задает метаданные для документа. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Получает или задает обработчик события выполнения. |
 | virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Получает или задает параметры разрешения. |
-| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Получает или задает источник для создания изображения. |
+| [Source](../../aspose.imaging/imageoptionsbase/source) { get; set; } | Получает или задает источник для создания изображения в. |
 | [UseOriginalImageResolution](../../aspose.imaging.imageoptions/pdfoptions/useoriginalimageresolution) { get; set; } | Получает или задает значение, указывающее на использование исходного разрешения DPI изображения |
 | [VectorRasterizationOptions](../../aspose.imaging/imageoptionsbase/vectorrasterizationoptions) { get; set; } | Получает или задает параметры векторной растеризации. |
 | virtual [XmpData](../../aspose.imaging/imageoptionsbase/xmpdata) { get; set; } | Получает или задает контейнер метаданных XMP. |

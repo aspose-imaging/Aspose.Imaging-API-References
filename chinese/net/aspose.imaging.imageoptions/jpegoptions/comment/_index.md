@@ -1,14 +1,14 @@
 ---
 title: Comment
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 jpeg 文件注释
+description: 获取或设置jpeg文件注释
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.imageoptions/jpegoptions/comment/
 ---
 ## JpegOptions.Comment property
 
-获取或设置 jpeg 文件注释。
+获取或设置jpeg文件注释。
 
 ```csharp
 public string Comment { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: TiffUnknownType
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化TiffUnknownTypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype类的新实例
+description: 初始化TiffUnknownTypeaspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/tiffunknowntype/
 ---
 ## TiffUnknownType constructor
 
-初始化[`TiffUnknownType`](../../tiffunknowntype)类的新实例。
+初始化[`TiffUnknownType`](../../tiffunknowntype)类.
 
 ```csharp
 public TiffUnknownType(TiffStreamReader stream, ushort tagType, ushort tagId, uint count, 
@@ -19,7 +19,7 @@ public TiffUnknownType(TiffStreamReader stream, ushort tagType, ushort tagId, ui
 | --- | --- | --- |
 | stream | TiffStreamReader | 要读取的流。 |
 | tagType | UInt16 | 标签的类型。 |
-| tagId | UInt16 | 标签 ID。 |
+| tagId | UInt16 | 标签标识。 |
 | count | UInt32 | 计数值。 |
 | offsetOrValue | UInt32 | 偏移量或值。 |
 

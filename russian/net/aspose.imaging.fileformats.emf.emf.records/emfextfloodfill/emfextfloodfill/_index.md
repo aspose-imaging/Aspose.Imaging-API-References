@@ -1,14 +1,14 @@
 ---
 title: EmfExtFloodFill
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfExtFloodFillaspose.imaging.fileformats.emf.emf.records/emfextfloodfill.
+description: Инициализирует новый экземплярEmfExtFloodFillaspose.imaging.fileformats.emf.emf.records/emfextfloodfill класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/emfextfloodfill/
 ---
 ## EmfExtFloodFill constructor
 
-Инициализирует новый экземпляр класса[`EmfExtFloodFill`](../../emfextfloodfill).
+Инициализирует новый экземпляр[`EmfExtFloodFill`](../../emfextfloodfill) класс.
 
 ```csharp
 public EmfExtFloodFill(EmfRecord source)

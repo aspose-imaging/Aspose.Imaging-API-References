@@ -1,14 +1,14 @@
 ---
 title: EmfPlusLineJoinType
 second_title: Aspose.Imaging for .NET API 参考
-description: LineJoinType 枚举定义了连接由同一笔图形笔绘制的两条线的方法两条线的末端相交
+description: LineJoinType 枚举定义了连接两条线的方法两条线由相同的图形笔绘制并且两端相接
 type: docs
 weight: 4900
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluslinejointype/
 ---
 ## EmfPlusLineJoinType enumeration
 
-LineJoinType 枚举定义了连接由同一笔图形笔绘制的两条线的方法，两条线的末端相交。
+LineJoinType 枚举定义了连接两条线的方法，两条线由相同的图形笔绘制并且两端相接。
 
 ```csharp
 public enum EmfPlusLineJoinType
@@ -25,7 +25,7 @@ public enum EmfPlusLineJoinType
 
 ### 评论
 
-图形行由EmfPlusPen对象（第 2.2.1.7 节）。线连接使两条线端的交点看起来更连续。
+图形线由[`EmfPlusPen`](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluspen)对象（第 2.2.1.7 节）。线连接使两条线端的交点看起来更连续。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: APoints
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает очки.
+description: Получает или устанавливает баллы.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfpolypolygon/apoints/
 ---
 ## WmfPolyPolygon.APoints property
 
-Получает или устанавливает очки.
+Получает или устанавливает баллы.
 
 ```csharp
 public Point[][] APoints { get; set; }
@@ -16,7 +16,7 @@ public Point[][] APoints { get; set; }
 
 ### Стоимость имущества
 
-a очков.
+очков.
 
 ### Смотрите также
 

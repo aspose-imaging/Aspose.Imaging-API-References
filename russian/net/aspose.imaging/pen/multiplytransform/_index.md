@@ -1,14 +1,14 @@
 ---
 title: MultiplyTransform
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Умножает матрицу преобразования для этогоPenaspose.imaging/penна указанныйМатрица.
+description: Умножает матрицу преобразования для этогоPenaspose.imaging/pen указаннымMatrixaspose.imaging/matrix .
 type: docs
 weight: 190
 url: /ru/net/aspose.imaging/pen/multiplytransform/
 ---
 ## MultiplyTransform(Matrix) {#multiplytransform}
 
-Умножает матрицу преобразования для этого[`Pen`](../../pen)на указанныйМатрица.
+Умножает матрицу преобразования для этого[`Pen`](../../pen) указанным[`Matrix`](../../matrix) .
 
 ```csharp
 public void MultiplyTransform(Matrix matrix)
@@ -16,7 +16,7 @@ public void MultiplyTransform(Matrix matrix)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| matrix | Matrix | Объект[`Matrix`](../../matrix), на который умножается матрица преобразования. |
+| matrix | Matrix | [`Matrix`](../../matrix) объект, на который умножается матрица преобразования. |
 
 ### Смотрите также
 
@@ -29,7 +29,7 @@ public void MultiplyTransform(Matrix matrix)
 
 ## MultiplyTransform(Matrix, MatrixOrder) {#multiplytransform_1}
 
-Умножает матрицу преобразования для этого[`Pen`](../../pen)на указанный[`Matrix`](../../matrix)в указанном порядке.
+Умножает матрицу преобразования для этого[`Pen`](../../pen) указанным[`Matrix`](../../matrix) в указанном порядке.
 
 ```csharp
 public void MultiplyTransform(Matrix matrix, MatrixOrder order)
@@ -37,7 +37,7 @@ public void MultiplyTransform(Matrix matrix, MatrixOrder order)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| matrix | Matrix | Объект[`Matrix`](../../matrix), на который умножается матрица преобразования. |
+| matrix | Matrix | [`Matrix`](../../matrix) на который умножается матрица преобразования. |
 | order | MatrixOrder | Порядок выполнения операции умножения. |
 
 ### Смотрите также

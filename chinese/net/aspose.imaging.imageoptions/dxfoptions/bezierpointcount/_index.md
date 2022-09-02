@@ -1,14 +1,14 @@
 ---
 title: BezierPointCount
 second_title: Aspose.Imaging for .NET API 参考
-description: 将贝塞尔曲线转换为多段线时要生成多少个点最小 4. 在R7PAspose.Imaging.ImageOptions.DxfOptions.ConvertTextBeziers都 /// 设置为 true
+description: 将贝塞尔曲线转换为折线时要生成多少个点最少 4. 使用时和都 /// 设置为真的
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.imageoptions/dxfoptions/bezierpointcount/
 ---
 ## DxfOptions.BezierPointCount property
 
-将贝塞尔曲线转换为多段线时要生成多少个点，最小 4. 在R7:P:Aspose.Imaging.ImageOptions.DxfOptions.ConvertTextBeziers:::都 /// 设置为` true`
+将贝塞尔曲线转换为折线时要生成多少个点，最少 4. 使用时和都 /// 设置为`真的`
 
 ```csharp
 public byte BezierPointCount { get; set; }

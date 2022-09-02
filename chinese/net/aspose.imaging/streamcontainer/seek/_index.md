@@ -16,8 +16,8 @@ public virtual long Seek(long offset, SeekOrigin origin)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| offset | Int64 | 相对于*origin*参数的字节偏移量。此值表示从 StreamContainer 构造函数中传递的起始流位置的偏移量。 |
-| origin | SeekOrigin | SeekOrigin类型的值，指示用于获取新位置的参考点。 |
+| offset | Int64 | 相对于*origin*范围。此值表示从 StreamContainer 构造函数中传递的起始流位置的偏移量。 |
+| origin | SeekOrigin | 类型的值SeekOrigin指示用于获取新位置的参考点。 |
 
 ### 返回值
 

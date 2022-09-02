@@ -1,14 +1,14 @@
 ---
 title: PreviewHeight
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает высоту изображения для предварительного просмотра
+description: Получает высоту изображения предварительного просмотра
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.eps/epsinterchangeimage/previewheight/
 ---
 ## EpsInterchangeImage.PreviewHeight property
 
-Получает высоту изображения для предварительного просмотра
+Получает высоту изображения предварительного просмотра
 
 ```csharp
 public int PreviewHeight { get; }

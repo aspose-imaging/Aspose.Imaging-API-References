@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новыйFontaspose.imaging/fontкоторый использует указанный существующийFontaspose.imaging/fontиFontStyleaspose.imaging/fontstyleперечисление.
+description: Инициализирует новыйFontaspose.imaging/font который использует указанный существующийFontaspose.imaging/font а такжеFontStyleaspose.imaging/fontstyle перечисление.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging/font/font/
 ---
 ## Font(Font, FontStyle) {#constructor}
 
-Инициализирует новый[`Font`](../../font)который использует указанный существующий[`Font`](../../font)и[`FontStyle`](../../fontstyle)перечисление.
+Инициализирует новый[`Font`](../../font) который использует указанный существующий[`Font`](../../font) а также[`FontStyle`](../../fontstyle) перечисление.
 
 ```csharp
 public Font(Font prototype, FontStyle newStyle)
@@ -16,14 +16,14 @@ public Font(Font prototype, FontStyle newStyle)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| prototype | Font | Существующий[`Font`](../../font)из которого создается новый[`Font`](../../font). |
-| newStyle | FontStyle | Стиль[`FontStyle`](../../fontstyle)применяется к новомуШрифт. Несколько значений перечисления[`FontStyle`](../../fontstyle)можно комбинировать с помощью оператора ИЛИ. |
+| prototype | Font | Существующий[`Font`](../../font) из которого создать новый[`Font`](../../font). |
+| newStyle | FontStyle | [`FontStyle`](../../fontstyle)подать заявку на новый[`Font`](../../font) . Несколько значений[`FontStyle`](../../fontstyle) перечисление можно комбинировать с оператором ИЛИ. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *prototype*равно null. |
+| ArgumentNullException | *prototype* нулевой. |
 
 ### Смотрите также
 
@@ -36,7 +36,7 @@ public Font(Font prototype, FontStyle newStyle)
 
 ## Font(string, float) {#constructor_1}
 
-Инициализирует новый[`Font`](../../font)с использованием указанного размера. Набор символов установлен наDefault, графический модуль наPoint, стиль шрифта наRegular.
+Инициализирует новый[`Font`](../../font) используя заданный размер. Набор символов установлен наDefault , графический блок кPoint , стиль шрифта дляRegular .
 
 ```csharp
 public Font(string fontName, float emSize)
@@ -44,15 +44,15 @@ public Font(string fontName, float emSize)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontName | String | Строковое представление имени[`Font`](../../font). |
+| fontName | String | Строковое представление[`Font`](../../font) имя. |
 | emSize | Single | Размер em нового шрифта в пунктах. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *emSize*меньше или равно 0, равно бесконечности или не является допустимым числом. |
-| ArgumentNullException | *fontName*равно нулю. |
+| ArgumentOutOfRangeException | *emSize* меньше или равно 0, равно бесконечности или не является допустимым числом. |
+| ArgumentNullException | *fontName* нулевой. |
 
 ### Смотрите также
 
@@ -64,7 +64,7 @@ public Font(string fontName, float emSize)
 
 ## Font(string, float, FontStyle) {#constructor_2}
 
-Инициализирует новый[`Font`](../../font)с использованием указанного размера и стиля. Набор символов установлен наDefault, графический модуль наPoint.
+Инициализирует новый[`Font`](../../font) с использованием определенного размера и стиля. Набор символов установлен наDefault , графический блок кPoint .
 
 ```csharp
 public Font(string fontName, float emSize, FontStyle style)
@@ -72,16 +72,16 @@ public Font(string fontName, float emSize, FontStyle style)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontName | String | Строковое представление имени[`Font`](../../font). |
+| fontName | String | Строковое представление[`Font`](../../font) имя. |
 | emSize | Single | Размер em нового шрифта в пунктах. |
-| style | FontStyle | [`FontStyle`](../../fontstyle)нового шрифта. |
+| style | FontStyle | [`FontStyle`](../../fontstyle) нового шрифта. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *emSize*меньше или равно 0, равно бесконечности или не является допустимым числом. |
-| ArgumentNullException | *fontName*равно нулю. |
+| ArgumentOutOfRangeException | *emSize* меньше или равно 0, равно бесконечности или не является допустимым числом. |
+| ArgumentNullException | *fontName* нулевой. |
 
 ### Смотрите также
 
@@ -94,7 +94,7 @@ public Font(string fontName, float emSize, FontStyle style)
 
 ## Font(string, float, GraphicsUnit) {#constructor_5}
 
-Инициализирует новый[`Font`](../../font)с использованием указанного размера и единицы измерения. Набор символов установлен наDefault, стиль установлен наRegular.
+Инициализирует новый[`Font`](../../font) используя указанный размер и единицу измерения. Набор символов установлен наDefault , стиль установлен наRegular .
 
 ```csharp
 public Font(string fontName, float emSize, GraphicsUnit unit)
@@ -102,16 +102,16 @@ public Font(string fontName, float emSize, GraphicsUnit unit)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontName | String | Строковое представление имени[`Font`](../../font). |
-| emSize | Single | Размер em нового шрифта в единицах, заданных параметром*unit*. |
-| unit | GraphicsUnit | [`GraphicsUnit`](../../graphicsunit)нового шрифта. |
+| fontName | String | Строковое представление[`Font`](../../font) имя. |
+| emSize | Single | Размер em нового шрифта в единицах, указанных*unit* параметр. |
+| unit | GraphicsUnit | [`GraphicsUnit`](../../graphicsunit) нового шрифта. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *emSize*меньше или равно 0, равно бесконечности или не является допустимым числом. |
-| ArgumentNullException | *fontName*равно нулю. |
+| ArgumentOutOfRangeException | *emSize* меньше или равно 0, равно бесконечности или не является допустимым числом. |
+| ArgumentNullException | *fontName* нулевой. |
 
 ### Смотрите также
 
@@ -124,7 +124,7 @@ public Font(string fontName, float emSize, GraphicsUnit unit)
 
 ## Font(string, float, FontStyle, GraphicsUnit, CharacterSet) {#constructor_4}
 
-Инициализирует новый[`Font`](../../font)с использованием указанного размера, стиля, единицы измерения и набора символов.
+Инициализирует новый[`Font`](../../font) используя указанный размер, стиль, единицу измерения и набор символов.
 
 ```csharp
 public Font(string fontName, float emSize, FontStyle style, GraphicsUnit unit, 
@@ -133,18 +133,18 @@ public Font(string fontName, float emSize, FontStyle style, GraphicsUnit unit,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontName | String | Строковое представление имени[`Font`](../../font). |
-| emSize | Single | Размер em нового шрифта в единицах, заданных параметром*unit*. |
-| style | FontStyle | [`FontStyle`](../../fontstyle)нового шрифта. |
-| unit | GraphicsUnit | [`GraphicsUnit`](../../graphicsunit)нового шрифта. |
+| fontName | String | Строковое представление[`Font`](../../font) имя. |
+| emSize | Single | Размер em нового шрифта в единицах, указанных*unit* параметр. |
+| style | FontStyle | [`FontStyle`](../../fontstyle) нового шрифта. |
+| unit | GraphicsUnit | [`GraphicsUnit`](../../graphicsunit) нового шрифта. |
 | characterSet | CharacterSet | Набор символов, используемый для этого шрифта. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *emSize*меньше или равно 0, равно бесконечности или не является допустимым числом. |
-| ArgumentNullException | *fontName*равно нулю. |
+| ArgumentOutOfRangeException | *emSize* меньше или равно 0, равно бесконечности или не является допустимым числом. |
+| ArgumentNullException | *fontName* нулевой. |
 
 ### Смотрите также
 
@@ -159,7 +159,7 @@ public Font(string fontName, float emSize, FontStyle style, GraphicsUnit unit,
 
 ## Font(string, float, FontStyle, GraphicsUnit) {#constructor_3}
 
-Инициализирует новый[`Font`](../../font)с использованием указанного размера, стиля и единицы измерения.
+Инициализирует новый[`Font`](../../font) используя указанный размер, стиль и единицу измерения.
 
 ```csharp
 public Font(string fontName, float emSize, FontStyle style, GraphicsUnit unit)
@@ -167,17 +167,17 @@ public Font(string fontName, float emSize, FontStyle style, GraphicsUnit unit)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fontName | String | Строковое представление имени[`Font`](../../font). |
-| emSize | Single | Размер em нового шрифта в единицах, заданных параметром*unit*. |
-| style | FontStyle | [`FontStyle`](../../fontstyle)нового шрифта. |
-| unit | GraphicsUnit | [`GraphicsUnit`](../../graphicsunit)нового шрифта. |
+| fontName | String | Строковое представление[`Font`](../../font) имя. |
+| emSize | Single | Размер em нового шрифта в единицах, указанных*unit* параметр. |
+| style | FontStyle | [`FontStyle`](../../fontstyle) нового шрифта. |
+| unit | GraphicsUnit | [`GraphicsUnit`](../../graphicsunit) нового шрифта. |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *emSize*меньше или равно 0, равно бесконечности или не является допустимым числом. |
-| ArgumentNullException | *fontName*равно нулю. |
+| ArgumentOutOfRangeException | *emSize* меньше или равно 0, равно бесконечности или не является допустимым числом. |
+| ArgumentNullException | *fontName* нулевой. |
 
 ### Смотрите также
 

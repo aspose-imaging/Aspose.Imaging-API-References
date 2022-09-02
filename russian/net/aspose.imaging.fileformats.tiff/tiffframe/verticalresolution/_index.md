@@ -1,14 +1,14 @@
 ---
 title: VerticalResolution
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает вертикальное разрешение в пикселях на дюйм для этогоRasterImageaspose.imaging/rasterimage.
+description: Получает или задает разрешение по вертикали в пикселях на дюйм этогоRasterImageaspose.imaging/rasterimage .
 type: docs
 weight: 130
 url: /ru/net/aspose.imaging.fileformats.tiff/tiffframe/verticalresolution/
 ---
 ## TiffFrame.VerticalResolution property
 
-Получает или задает вертикальное разрешение в пикселях на дюйм для этого[`RasterImage`](../../../aspose.imaging/rasterimage).
+Получает или задает разрешение по вертикали в пикселях на дюйм этого[`RasterImage`](../../../aspose.imaging/rasterimage) .
 
 ```csharp
 public override double VerticalResolution { get; set; }
@@ -20,14 +20,14 @@ public override double VerticalResolution { get; set; }
 
 ### Примеры
 
-В следующем примере показано, как установить горизонтальное/вертикальное разрешение отдельного кадра TIFF.
+В следующем примере показано, как установить разрешение по горизонтали/вертикали для отдельного кадра TIFF.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
- // Загрузить изображение TIFF из файла.
+// Загрузить изображение TIFF из файла.
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"))
 {
     Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)image;
@@ -35,7 +35,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"
     int i = 0;
     foreach (Aspose.Imaging.FileFormats.Tiff.TiffFrame frame in tiffImage.Frames)
     {
-         // Получить горизонтальное и вертикальное разрешение TiffFrame.
+        // Получить горизонтальное и вертикальное разрешение TiffFrame.
         double horizontalResolution = frame.HorizontalResolution;
         double verticalResolution = frame.VerticalResolution;
         System.Console.WriteLine("The horizontal resolution of frame {0}, pixels per inch: {1}", i, horizontalResolution);
@@ -43,7 +43,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.tif"
 
         if (horizontalResolution != 96.0 || verticalResolution != 96.0)
         {
-             // Используйте метод SetResolution для обновления обоих значений разрешения в одном вызове.
+            // Используйте метод SetResolution для обновления обоих значений разрешения за один вызов.
             System.Console.WriteLine("Set resolution values to 96 dpi");
             frame.SetResolution(96.0, 96.0);
 

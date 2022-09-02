@@ -1,14 +1,14 @@
 ---
 title: WmfSetTextAlign
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Набор выравнивания текста
+description: Текст набора align
 type: docs
 weight: 9160
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfsettextalign/
 ---
 ## WmfSetTextAlign class
 
-Набор выравнивания текста
+Текст набора align
 
 ```csharp
 public class WmfSetTextAlign : WmfObject
@@ -24,7 +24,7 @@ public class WmfSetTextAlign : WmfObject
 
 | Имя | Описание |
 | --- | --- |
-| [Reserved](../../aspose.imaging.fileformats.wmf.objects/wmfsettextalign/reserved) { get; set; } | Получает или устанавливает зарезервированное значение. |
+| [Reserved](../../aspose.imaging.fileformats.wmf.objects/wmfsettextalign/reserved) { get; set; } | Получает или устанавливает зарезервированное. |
 | [TextAlign](../../aspose.imaging.fileformats.wmf.objects/wmfsettextalign/textalign) { get; set; } | Получает или задает выравнивание текста. |
 
 ### Смотрите также

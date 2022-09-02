@@ -18,8 +18,8 @@ public class DeflateCompressorException : CompressorException
 
 | Имя | Описание |
 | --- | --- |
-| [DeflateCompressorException](deflatecompressorexception#constructor)(string) | Инициализирует новый экземпляр класса[`DeflateCompressorException`](../deflatecompressorexception). |
-| [DeflateCompressorException](deflatecompressorexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр класса[`DeflateCompressorException`](../deflatecompressorexception). |
+| [DeflateCompressorException](deflatecompressorexception#constructor)(string) | Инициализирует новый экземпляр[`DeflateCompressorException`](../deflatecompressorexception) класс. |
+| [DeflateCompressorException](deflatecompressorexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр[`DeflateCompressorException`](../deflatecompressorexception) класс. |
 
 ### Смотрите также
 

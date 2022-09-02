@@ -19,8 +19,8 @@ public enum EmfPlusDashedLineCapType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | DashedLineCapTypeFlat | `0` | Определяет заглавную плоскую пунктирную линию. |
-| DashedLineCapTypeRound | `2` | Определяет конец круглой пунктирной линии. |
-| DashedLineCapTypeTriangle | `3` | Задает заглавную треугольную пунктирную линию. |
+| DashedLineCapTypeRound | `2` | Определяет заглавную круглую пунктирную линию. |
+| DashedLineCapTypeTriangle | `3` | Определяет заглавную треугольную пунктирную линию. |
 
 ### Смотрите также
 

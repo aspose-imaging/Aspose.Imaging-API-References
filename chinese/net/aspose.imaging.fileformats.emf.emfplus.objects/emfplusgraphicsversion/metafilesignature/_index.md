@@ -1,14 +1,14 @@
 ---
 title: MetafileSignature
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取 MetafileSignature20 位标识图元文件类型的值 EMF 图元文件的值为 0xDBC01
+description: 获取 MetafileSignature20 位标识图元文件类型的值 EMF 元文件的值为 0xDBC01.
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion/metafilesignature/
 ---
 ## EmfPlusGraphicsVersion.MetafileSignature property
 
-获取 MetafileSignature（20 位）:标识图元文件类型的值。 EMF+ 图元文件的值为 0xDBC01。
+获取 MetafileSignature（20 位）：标识图元文件类型的值。 EMF+ 元文件的值为 0xDBC01.
 
 ```csharp
 public int MetafileSignature { get; set; }

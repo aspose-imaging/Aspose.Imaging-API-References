@@ -18,15 +18,15 @@ public sealed class EmfSetBrushOrgEx : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetBrushOrgEx](emfsetbrushorgex#constructor)() | Инициализирует новый экземпляр класса[`EmfSetBrushOrgEx`](../emfsetbrushorgex). |
-| [EmfSetBrushOrgEx](emfsetbrushorgex#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetBrushOrgEx`](../emfsetbrushorgex). |
+| [EmfSetBrushOrgEx](emfsetbrushorgex#constructor)() | Инициализирует новый экземпляр[`EmfSetBrushOrgEx`](../emfsetbrushorgex) класс. |
+| [EmfSetBrushOrgEx](emfsetbrushorgex#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetBrushOrgEx`](../emfsetbrushorgex) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Origin](../../aspose.imaging.fileformats.emf.emf.records/emfsetbrushorgex/origin) { get; set; } | Получает или задает 64-битный объект WMF PointL, указанный в разделе 2.2.2.15 [MS-WMF], который указывает горизонтальную и вертикальное начало в единицах устройства. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Origin](../../aspose.imaging.fileformats.emf.emf.records/emfsetbrushorgex/origin) { get; set; } | Получает или задает 64-битный объект WMF PointL, указанный в разделе 2.2.2.15 [MS-WMF], который указывает начало координат кисти по горизонтали и вертикали в единицах измерения устройства. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

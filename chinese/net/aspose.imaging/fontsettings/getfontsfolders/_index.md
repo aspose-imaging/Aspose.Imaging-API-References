@@ -20,7 +20,7 @@ public static string[] GetFontsFolders()
 
 ### 评论
 
-返回值是 Aspose.Words 使用的数据的副本。如果您更改返回数组中的条目， 它将对文档呈现没有影响。要指定新字体位置，请使用[`SetFontsFolders`](../setfontsfolders)方法。
+返回值是 Aspose.Words 使用的数据的副本。如果您更改返回数组中的条目， 它将不会影响文档呈现。要指定新的字体位置，请使用[`SetFontsFolders`](../setfontsfolders)方法。
 
 ### 也可以看看
 

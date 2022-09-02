@@ -1,14 +1,14 @@
 ---
 title: Amount
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位浮点数指定给定像素和周围像素之间的强度差异  0 指定不得执行锐化 0 lt value  100 随着该值的增加像素之间的强度差异应该 增加
+description: 获取或设置一个 32 位浮点数指定给定像素和周围像素之间的强度差像素之间的强度应该 增加
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplussharpeneffect/amount/
 ---
 ## EmfPlusSharpenEffect.Amount property
 
-获取或设置一个 32 位浮点数，指定给定像素和周围像素之间的强度差异 。 0 指定不得执行锐化。 0 &lt; value ≤ 100 随着该值的增加，像素之间的强度差异应该 增加。
+获取或设置一个 32 位浮点数，指定给定像素和周围像素之间的强度差像素之间的强度应该 增加。
 
 ```csharp
 public float Amount { get; set; }

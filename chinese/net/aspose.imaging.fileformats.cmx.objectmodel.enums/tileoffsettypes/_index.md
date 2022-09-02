@@ -1,14 +1,14 @@
 ---
 title: TileOffsetTypes
 second_title: Aspose.Imaging for .NET API 参考
-description: 纹理画笔瓷砖之间的偏移类型
+description: 纹理画笔平铺之间的偏移类型
 type: docs
 weight: 2090
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.enums/tileoffsettypes/
 ---
 ## TileOffsetTypes enumeration
 
-纹理画笔瓷砖之间的偏移类型。
+纹理画笔平铺之间的偏移类型。
 
 ```csharp
 public enum TileOffsetTypes

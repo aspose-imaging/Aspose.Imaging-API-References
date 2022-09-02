@@ -16,7 +16,7 @@ public ImageParameters ImageDataParameters { get; set; }
 
 ### Стоимость имущества
 
-Идата.
+Иданные.
 
 ### Смотрите также
 

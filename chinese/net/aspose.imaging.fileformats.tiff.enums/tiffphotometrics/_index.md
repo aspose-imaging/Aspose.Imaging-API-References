@@ -22,14 +22,14 @@ public enum TiffPhotometrics : ushort
 | MinIsBlack | `1` | 最小值为黑色。 |
 | Rgb | `2` | RGB 颜色模型。 |
 | Palette | `3` | 彩色地图索引。 |
-| Mask | `4` | [已被 TIFF rev.淘汰。 6.0] 坚持面具。 |
+| Mask | `4` | [已被 TIFF 修订版淘汰。 6.0] 坚持面具. |
 | Separated | `5` | 分色。 |
 | Ycbcr | `6` | CCIR 601. |
-| Cielab | `8` | 1976 CIE L*a*b*。 |
-| Icclab | `9` | ICC L*a*b*。 Adobe TIFF Technote 4 在 TIFF rev 6.0 后引入。 |
-| Itulab | `10` | ITU L*a*b*。 |
-| Logl | `32844` | CIE Log2(L)。 |
-| Logluv | `32845` | CIE Log2(L) (u',v')。 |
+| Cielab | `8` | 1976 CIE L*a*b*. |
+| Icclab | `9` | ICC L*a*b*。 Adobe TIFF Technote 4. 在 TIFF rev 6.0 后引入 |
+| Itulab | `10` | 国际电联 L*a*b*. |
+| Logl | `32844` | CIE Log2(L). |
+| Logluv | `32845` | CIE Log2(L) (u',v'). |
 
 ### 也可以看看
 

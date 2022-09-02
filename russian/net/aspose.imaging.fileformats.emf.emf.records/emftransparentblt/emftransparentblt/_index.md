@@ -1,14 +1,14 @@
 ---
 title: EmfTransparentBlt
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfTransparentBltaspose.imaging.fileformats.emf.emf.records/emftransparentblt.
+description: Инициализирует новый экземплярEmfTransparentBltaspose.imaging.fileformats.emf.emf.records/emftransparentblt класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emftransparentblt/emftransparentblt/
 ---
 ## EmfTransparentBlt constructor
 
-Инициализирует новый экземпляр класса[`EmfTransparentBlt`](../../emftransparentblt).
+Инициализирует новый экземпляр[`EmfTransparentBlt`](../../emftransparentblt) класс.
 
 ```csharp
 public EmfTransparentBlt(EmfRecord source)

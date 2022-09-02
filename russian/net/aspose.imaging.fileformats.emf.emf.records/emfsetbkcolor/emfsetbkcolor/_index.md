@@ -1,14 +1,14 @@
 ---
 title: EmfSetBkColor
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetBkColoraspose.imaging.fileformats.emf.emf.records/emfsetbkcolor.
+description: Инициализирует новый экземплярEmfSetBkColoraspose.imaging.fileformats.emf.emf.records/emfsetbkcolor класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetbkcolor/emfsetbkcolor/
 ---
 ## EmfSetBkColor(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfSetBkColor`](../../emfsetbkcolor).
+Инициализирует новый экземпляр[`EmfSetBkColor`](../../emfsetbkcolor) класс.
 
 ```csharp
 public EmfSetBkColor(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfSetBkColor(EmfRecord source)
 
 ## EmfSetBkColor() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfSetBkColor`](../../emfsetbkcolor).
+Инициализирует новый экземпляр[`EmfSetBkColor`](../../emfsetbkcolor) класс.
 
 ```csharp
 public EmfSetBkColor()

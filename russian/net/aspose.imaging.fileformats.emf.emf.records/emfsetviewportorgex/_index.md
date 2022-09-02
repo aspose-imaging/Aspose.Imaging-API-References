@@ -1,14 +1,14 @@
 ---
 title: EmfSetViewportOrgEx
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Запись EMR_SETVIEWPORTORGEX определяет начало области просмотра.
+description: Запись EMR_SETVIEWPORTORGEX определяет исходную точку области просмотра.
 type: docs
 weight: 4530
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfsetviewportorgex/
 ---
 ## EmfSetViewportOrgEx class
 
-Запись EMR_SETVIEWPORTORGEX определяет начало области просмотра.
+Запись EMR_SETVIEWPORTORGEX определяет исходную точку области просмотра.
 
 ```csharp
 public sealed class EmfSetViewportOrgEx : EmfStateRecordType
@@ -18,15 +18,15 @@ public sealed class EmfSetViewportOrgEx : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetViewportOrgEx](emfsetviewportorgex#constructor)() | Инициализирует новый экземпляр класса[`EmfSetViewportOrgEx`](../emfsetviewportorgex). |
-| [EmfSetViewportOrgEx](emfsetviewportorgex#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetViewportOrgEx`](../emfsetviewportorgex). |
+| [EmfSetViewportOrgEx](emfsetviewportorgex#constructor)() | Инициализирует новый экземпляр[`EmfSetViewportOrgEx`](../emfsetviewportorgex) класс. |
+| [EmfSetViewportOrgEx](emfsetviewportorgex#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetViewportOrgEx`](../emfsetviewportorgex) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Origin](../../aspose.imaging.fileformats.emf.emf.records/emfsetviewportorgex/origin) { get; set; } | Получает или задает 64-битный объект WMF PointL ([MS-WMF], раздел 2.2.2.15), который указывает окно по горизонтали и вертикали происхождение в единицах устройства. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Origin](../../aspose.imaging.fileformats.emf.emf.records/emfsetviewportorgex/origin) { get; set; } | Получает или задает 64-разрядный объект WMF PointL ([MS-WMF], раздел 2.2.2.15), который определяет начало координат окна по горизонтали и вертикали в единицах измерения устройства. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

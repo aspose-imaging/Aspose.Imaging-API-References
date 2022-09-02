@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置定义 DIB 高度的 32 位有符号整数以像素为单位该值不得为零 如果这个值为正DIB是一个自底向上的位图它的原点是左下角 如果这个值为负DIB是一个自上而下的位图它的原点是左上角自上而下的位图 不支持压缩 如果 Compression 值指定 JPEG 或 PNG 格式则该字段应指定解压缩图像文件的高度
+description: 获取或设置定义 DIB 高度的 32 位有符号整数以像素为单位此值不得为零 如果此值为正则 DIB 是自下而上的位图其原点是左下角 如果此值为负则 DIB 是自上而下的位图并且它的原点是左上角自顶向下位图 不支持压缩 如果压缩值指定JPEG或PNG此字段应指定解压缩图像文件的高度 格式
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfbitmapinfoheader/height/
 ---
 ## WmfBitmapInfoHeader.Height property
 
-获取或设置定义 DIB 高度的 32 位有符号整数，以像素为单位。该值不得为零。 如果这个值为正，DIB是一个自底向上的位图，它的原点是左下角。 如果这个值为负，DIB是一个自上而下的位图，它的原点是左上角。自上而下的位图 不支持压缩。 如果 Compression 值指定 JPEG 或 PNG 格式，则该字段应指定解压缩图像文件的高度。
+获取或设置定义 DIB 高度的 32 位有符号整数，以像素为单位。此值不得为零。 如果此值为正，则 DIB 是自下而上的位图，其原点是左下角。 如果此值为负，则 DIB 是自上而下的位图，并且它的原点是左上角。自顶向下位图 不支持压缩。 如果压缩值指定JPEG或PNG，此字段应指定解压缩图像文件的高度。 格式。
 
 ```csharp
 public int Height { get; set; }

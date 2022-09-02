@@ -1,14 +1,14 @@
 ---
 title: SpaceBefore
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает предшествующий пробел.
+description: Получает или устанавливает пробел перед.
 type: docs
 weight: 170
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/spacebefore/
 ---
 ## OdGraphicStyle.SpaceBefore property
 
-Получает или устанавливает предшествующий пробел.
+Получает или устанавливает пробел перед.
 
 ```csharp
 public float SpaceBefore { get; set; }

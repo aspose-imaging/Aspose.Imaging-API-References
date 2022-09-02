@@ -1,0 +1,104 @@
+---
+title: BilateralSmoothingFilterOptions
+second_title: Référence de l'API Aspose.Imaging pour .NET
+description: Les options de filtre de lissage bilatéral.
+type: docs
+weight: 9730
+url: /fr/net/aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/
+---
+## BilateralSmoothingFilterOptions class
+
+Les options de filtre de lissage bilatéral.
+
+```csharp
+public class BilateralSmoothingFilterOptions : FilterOptionsBase
+```
+
+## Constructeurs
+
+| Nom | La description |
+| --- | --- |
+| [BilateralSmoothingFilterOptions](bilateralsmoothingfilteroptions#constructor)() | Initialise une nouvelle instance du[`BilateralSmoothingFilterOptions`](../bilateralsmoothingfilteroptions) classe. |
+| [BilateralSmoothingFilterOptions](bilateralsmoothingfilteroptions#constructor_1)(int) | Initialise une nouvelle instance du[`BilateralSmoothingFilterOptions`](../bilateralsmoothingfilteroptions) classe. |
+
+## Propriétés
+
+| Nom | La description |
+| --- | --- |
+| [ColorFactor](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/colorfactor) { get; set; } | Obtient ou définit le facteur de couleur. |
+| [ColorPower](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/colorpower) { get; set; } | Obtient ou définit la puissance des couleurs. |
+| [Size](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/size) { get; set; } | Obtient ou définit la taille du noyau. |
+| [SpatialFactor](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/spatialfactor) { get; set; } | Obtient ou définit le facteur spatial. |
+| [SpatialPower](../../aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/spatialpower) { get; set; } | Obtient ou définit la puissance spatiale. |
+
+### Exemples
+
+L'exemple suivant applique différents types de filtres à une image raster.
+
+```csharp
+[C#]
+
+string dir = "c:\\temp\\";
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
+{
+    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
+
+    // Applique un filtre médian avec une taille de rectangle de 5 à l'image entière.
+    rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.MedianFilterOptions(5));
+    rasterImage.Save(dir + "sample.MedianFilter.png");
+}
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
+{
+    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
+
+    // Appliquez un filtre de lissage bilatéral avec une taille de noyau de 5 à l'image entière.
+    rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.BilateralSmoothingFilterOptions(5));
+    rasterImage.Save(dir + "sample.BilateralSmoothingFilter.png");
+}
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
+{
+    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
+
+    // Appliquez un filtre de flou gaussien avec un rayon de 5 et une valeur sigma de 4,0 à l'image entière.
+    rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.GaussianBlurFilterOptions(5, 4.0));
+    rasterImage.Save(dir + "sample.GaussianBlurFilter.png");
+}
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
+{
+    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
+
+    // Appliquez un filtre Gauss-Wiener avec un rayon de 5 et une valeur de lissage de 4,0 à l'image entière.
+    rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.GaussWienerFilterOptions(5, 4.0));
+    rasterImage.Save(dir + "sample.GaussWienerFilter.png");
+}
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
+{
+    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
+
+    // Appliquez un filtre de mouvement Wiener avec une longueur de 5, une valeur lisse de 4,0 et un angle de 90,0 degrés à l'image entière.
+    rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.MotionWienerFilterOptions(10, 1.0, 90.0));
+    rasterImage.Save(dir + "sample.MotionWienerFilter.png");
+}
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
+{
+    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
+
+    // Appliquez un filtre de netteté avec une taille de noyau de 5 et une valeur sigma de 4,0 à l'image entière.
+    rasterImage.Filter(rasterImage.Bounds, new Aspose.Imaging.ImageFilters.FilterOptions.SharpenFilterOptions(5, 4.0));
+    rasterImage.Save(dir + "sample.SharpenFilter.png");
+}
+```
+
+### Voir également
+
+* class [FilterOptionsBase](../filteroptionsbase)
+* espace de noms [Aspose.Imaging.ImageFilters.FilterOptions](../../aspose.imaging.imagefilters.filteroptions)
+* Assemblée [Aspose.Imaging](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Imaging.dll -->

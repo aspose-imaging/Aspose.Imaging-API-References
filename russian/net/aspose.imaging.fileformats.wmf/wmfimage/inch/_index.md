@@ -1,14 +1,14 @@
 ---
 title: Inch
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает дюймы.
+description: Получает или задает дюйм.
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.wmf/wmfimage/inch/
 ---
 ## WmfImage.Inch property
 
-Получает или устанавливает дюймы.
+Получает или задает дюйм.
 
 ```csharp
 public int Inch { get; set; }

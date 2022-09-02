@@ -1,14 +1,14 @@
 ---
 title: XmpBasicPackage
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化XmpBasicPackageaspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage类的新实例
+description: 初始化XmpBasicPackageaspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/xmpbasicpackage/
 ---
 ## XmpBasicPackage() {#constructor}
 
-初始化[`XmpBasicPackage`](../../xmpbasicpackage)类的新实例。
+初始化[`XmpBasicPackage`](../../xmpbasicpackage)类.
 
 ```csharp
 public XmpBasicPackage()
@@ -24,7 +24,7 @@ public XmpBasicPackage()
 
 ## XmpBasicPackage(string, string) {#constructor_1}
 
-初始化[`XmpBasicPackage`](../../xmpbasicpackage)类的新实例。
+初始化[`XmpBasicPackage`](../../xmpbasicpackage)类.
 
 ```csharp
 public XmpBasicPackage(string prefix, string namespaceUri)

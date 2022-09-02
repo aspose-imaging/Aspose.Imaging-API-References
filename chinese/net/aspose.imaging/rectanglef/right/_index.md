@@ -1,14 +1,14 @@
 ---
 title: Right
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 x 坐标即Xaspose.imaging/rectanglef/x和R5 之和PAspose.Imaging.RectangleF.Width这个RectangleFaspose.imaging/rectanglef结构
+description: 获取或设置 x 坐标它是Xaspose.imaging/rectanglef/x和Widthaspose.imaging/rectanglef/width这个的RectangleFaspose.imaging/rectanglef结构.
 type: docs
 weight: 130
 url: /zh/net/aspose.imaging/rectanglef/right/
 ---
 ## RectangleF.Right property
 
-获取或设置 x 坐标，即[`X`](../x)和:::R5 之和:P:Aspose.Imaging.RectangleF.Width:::这个[`RectangleF`](../../rectanglef)结构。
+获取或设置 x 坐标，它是[`X`](../x)和[`Width`](../width)这个的[`RectangleF`](../../rectanglef)结构.
 
 ```csharp
 public float Right { get; set; }
@@ -16,7 +16,7 @@ public float Right { get; set; }
 
 ### 返回值
 
-x 坐标是[`X`](../x)和[`Width`](../width)这个[`RectangleF`](../../rectanglef)结构。
+x坐标是[`X`](../x)和[`Width`](../width)这个的[`RectangleF`](../../rectanglef)结构体。
 
 ### 也可以看看
 

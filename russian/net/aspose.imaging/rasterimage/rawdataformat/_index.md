@@ -20,46 +20,30 @@ public virtual PixelDataFormat RawDataFormat { get; }
 
 ### Примеры
 
-Следующий пример загружает растровые изображения и выводит информацию о формате необработанных данных и альфа-канале.
+В следующем примере загружаются растровые изображения и печатается информация о формате необработанных данных и альфа-канале.
 
 ```csharp
 [C#]
 
-string dir = "c:\\temp\\";
-
- // Загружаем образ DJVU из файлового потока.
-using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
+// Файлы изображений для загрузки.
+string[] fileNames = new string[]
 {
-    using (Aspose.Imaging.FileFormats.Djvu.DjvuImage djvuImage = new Aspose.Imaging.FileFormats.Djvu.DjvuImage(stream))
-    {
-        System.Console.WriteLine("The total number of pages: {0}", djvuImage.Pages.Length);
-        System.Console.WriteLine("The active page number:    {0}", djvuImage.ActivePage.PageNumber);
-        System.Console.WriteLine("The first page number:     {0}", djvuImage.FirstPage.PageNumber);
-        System.Console.WriteLine("The last page number:      {0}", djvuImage.LastPage.PageNumber);
+    @"c:\temp\sample.bmp",
+    @"c:\temp\alpha.png",
+};
 
-        foreach (Aspose.Imaging.FileFormats.Djvu.DjvuPage djvuPage in djvuImage.Pages)
-        {
-            System.Console.WriteLine("--------------------------------------------------");
-            System.Console.WriteLine("Page number:     {0}", djvuPage.PageNumber);
-            System.Console.WriteLine("Page size:       {0}", djvuPage.Size);
-            System.Console.WriteLine("Page raw format: {0}", djvuPage.RawDataFormat);
-        }
+foreach (string fileName in fileNames)
+{
+    using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(fileName))
+    {
+        Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
+        System.Console.WriteLine("ImageFile={0}, FileFormat={1}, HasAlpha={2}", fileName, rasterImage.RawDataFormat, rasterImage.HasAlpha);
     }
 }
 
- // Вывод может выглядеть так: 
- //Общее количество страниц: 2
- //Номер активной страницы: 1
- // Номер первой страницы: 1
-//Номер последней страницы: 2
- //------------------------------------------------ --
- // Номер страницы: 1
- //Размер страницы: {Ширина = 2481, Высота = 3508}
- //Необработанный формат страницы: RgbIndexed1Bpp, используемые каналы: 1
- //------------------------------------------------ --
- // Номер страницы: 2
- //Размер страницы: {Ширина = 2481, Высота = 3508}
-//Необработанный формат страницы: RgbIndexed1Bpp, используемые каналы: 1
+// Вывод может выглядеть так:
+// ImageFile=c:\temp\sample.bmp, FileFormat=Rgb24Bpp, используемые каналы: 8,8,8, HasAlpha=False
+// ImageFile=c:\temp\alpha.png, FileFormat=RGBA32Bpp, используемые каналы: 8,8,8,8, HasAlpha=True
 ```
 
 В этом примере показано, как загрузить изображение DJVU из файлового потока и распечатать информацию о страницах.
@@ -69,7 +53,7 @@ using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
 
 string dir = "c:\\temp\\";
 
- // Загружаем образ DJVU из файлового потока.
+// Загружаем изображение DJVU из файлового потока.
 using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
 {
     using (Aspose.Imaging.FileFormats.Djvu.DjvuImage djvuImage = new Aspose.Imaging.FileFormats.Djvu.DjvuImage(stream))
@@ -89,18 +73,18 @@ using (System.IO.Stream stream = System.IO.File.OpenRead(dir + "sample.djvu"))
     }
 }
 
- // Вывод может выглядеть так: 
- //Общее количество страниц: 2
- //Номер активной страницы: 1
- // Номер первой страницы: 1
-//Номер последней страницы: 2
- //------------------------------------------------ --
- // Номер страницы: 1
- //Размер страницы: {Ширина = 2481, Высота = 3508}
- //Необработанный формат страницы: RgbIndexed1Bpp, используемые каналы: 1
- //------------------------------------------------ --
- // Номер страницы: 2
- //Размер страницы: {Ширина = 2481, Высота = 3508}
+//Вывод может выглядеть так:
+//Общее количество страниц: 2
+//Номер активной страницы: 1
+// Номер первой страницы: 1
+// Номер последней страницы: 2
+//------------------------------------------------ --
+// Номер страницы: 1
+//Размер страницы: {Ширина = 2481, Высота = 3508}
+//Необработанный формат страницы: RgbIndexed1Bpp, используемые каналы: 1
+//------------------------------------------------ --
+// Номер страницы: 2
+//Размер страницы: {Ширина = 2481, Высота = 3508}
 //Необработанный формат страницы: RgbIndexed1Bpp, используемые каналы: 1
 ```
 

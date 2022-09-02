@@ -1,14 +1,14 @@
 ---
 title: IsCached
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取对象的数据当前是否缓存不需要读取数据
+description: 获取一个值表示对象的数据当前是否被缓存不需要读取数据
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.opendocument/odimage/iscached/
 ---
 ## OdImage.IsCached property
 
-获取对象的数据当前是否缓存，不需要读取数据。
+获取一个值，表示对象的数据当前是否被缓存，不需要读取数据。
 
 ```csharp
 public override bool IsCached { get; }
@@ -16,7 +16,7 @@ public override bool IsCached { get; }
 
 ### 适当的价值
 
-` true` 如果对象的数据被缓存；否则，` false` 。
+`真的`如果对象的数据被缓存；否则，`错误的` .
 
 ### 例外
 

@@ -1,14 +1,14 @@
 ---
 title: CieCoordinatesTriple
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Класс содержит координаты x y и z трех цветов которые соответствуют красной зеленой и синей конечным точкам для заданного логического цветового пространства.
+description: Класс содержит координаты x y и z трех цветов которые соответствуют красной зеленой и синей конечным точкам для указанного логического цветового пространства.
 type: docs
 weight: 1410
 url: /ru/net/aspose.imaging.fileformats.bmp.structures/ciecoordinatestriple/
 ---
 ## CieCoordinatesTriple class
 
-Класс содержит координаты x, y и z трех цветов, которые соответствуют красной, зеленой и синей конечным точкам для заданного логического цветового пространства.
+Класс содержит координаты x, y и z трех цветов, которые соответствуют красной, зеленой и синей конечным точкам для указанного логического цветового пространства.
 
 ```csharp
 public class CieCoordinatesTriple
@@ -18,7 +18,7 @@ public class CieCoordinatesTriple
 
 | Имя | Описание |
 | --- | --- |
-| [CieCoordinatesTriple](ciecoordinatestriple)(byte[]) | Инициализирует новый экземпляр класса[`CieCoordinatesTriple`](../ciecoordinatestriple). |
+| [CieCoordinatesTriple](ciecoordinatestriple)(byte[]) | Инициализирует новый экземпляр[`CieCoordinatesTriple`](../ciecoordinatestriple) класс. |
 
 ## Характеристики
 

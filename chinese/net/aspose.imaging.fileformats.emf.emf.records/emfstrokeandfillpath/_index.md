@@ -1,14 +1,14 @@
 ---
 title: EmfStrokeAndFillPath
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_STROKEANDFILLPATH 记录关闭路径中所有打开的图形使用当前画笔描边 路径的轮廓并填充其内部使用当前画笔
+description: EMR_STROKEANDFILLPATH 记录关闭路径中任何打开的图形使用当前画笔描边 路径的轮廓并使用当前画笔填充其内部
 type: docs
 weight: 4610
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfstrokeandfillpath/
 ---
 ## EmfStrokeAndFillPath class
 
-EMR_STROKEANDFILLPATH 记录关闭路径中所有打开的图形，使用当前画笔描边 路径的轮廓，并填充其内部使用当前画笔。
+EMR_STROKEANDFILLPATH 记录关闭路径中任何打开的图形，使用当前画笔描边 路径的轮廓，并使用当前画笔填充其内部。
 
 ```csharp
 public sealed class EmfStrokeAndFillPath : EmfDrawingRecordType
@@ -18,14 +18,14 @@ public sealed class EmfStrokeAndFillPath : EmfDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfStrokeAndFillPath](emfstrokeandfillpath#constructor)() | 初始化[`EmfStrokeAndFillPath`](../emfstrokeandfillpath)类的新实例。 |
-| [EmfStrokeAndFillPath](emfstrokeandfillpath#constructor_1)(EmfRecord) | 初始化[`EmfStrokeAndFillPath`](../emfstrokeandfillpath)类的新实例。 |
+| [EmfStrokeAndFillPath](emfstrokeandfillpath#constructor)() | 初始化[`EmfStrokeAndFillPath`](../emfstrokeandfillpath)类. |
+| [EmfStrokeAndFillPath](emfstrokeandfillpath#constructor_1)(EmfRecord) | 初始化[`EmfStrokeAndFillPath`](../emfstrokeandfillpath)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfstrokeandfillpath/bounds) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象指定 边界矩形，在设备单元。 |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfstrokeandfillpath/bounds) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），它以设备单位指定 边界矩形。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

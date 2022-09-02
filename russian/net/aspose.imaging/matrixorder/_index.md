@@ -3,7 +3,7 @@ title: MatrixOrder
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Указывает порядок операций преобразования матрицы.
 type: docs
-weight: 10570
+weight: 10560
 url: /ru/net/aspose.imaging/matrixorder/
 ---
 ## MatrixOrder enumeration

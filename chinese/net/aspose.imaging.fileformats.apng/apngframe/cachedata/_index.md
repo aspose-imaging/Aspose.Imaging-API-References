@@ -1,14 +1,14 @@
 ---
 title: CacheData
 second_title: Aspose.Imaging for .NET API 参考
-description: 缓存数据并确保不会从底层DataStreamContaineraspose.imaging/datastreamsupporter/datastreamcontainer执行额外的数据加载
+description: 缓存数据并确保不会从底层执行额外的数据加载DataStreamContaineraspose.imaging/datastreamsupporter/datastreamcontainer .
 type: docs
 weight: 130
 url: /zh/net/aspose.imaging.fileformats.apng/apngframe/cachedata/
 ---
 ## ApngFrame.CacheData method
 
-缓存数据并确保不会从底层[`DataStreamContainer`](../../../aspose.imaging/datastreamsupporter/datastreamcontainer)执行额外的数据加载。
+缓存数据并确保不会从底层执行额外的数据加载[`DataStreamContainer`](../../../aspose.imaging/datastreamsupporter/datastreamcontainer) .
 
 ```csharp
 public override void CacheData()

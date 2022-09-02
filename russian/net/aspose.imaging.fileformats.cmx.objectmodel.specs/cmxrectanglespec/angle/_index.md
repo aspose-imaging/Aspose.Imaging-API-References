@@ -1,14 +1,14 @@
 ---
 title: Angle
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает угол поворота прямоугольника. Измеряется в радианах.
+description: Получает или задает угол поворота прямоугольника. Измеряет в радианах.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/angle/
 ---
 ## CmxRectangleSpec.Angle property
 
-Получает или задает угол поворота прямоугольника. Измеряется в радианах.
+Получает или задает угол поворота прямоугольника. Измеряет в радианах.
 
 ```csharp
 public float Angle { get; set; }

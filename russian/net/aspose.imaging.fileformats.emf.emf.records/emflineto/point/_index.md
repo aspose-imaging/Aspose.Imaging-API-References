@@ -1,14 +1,14 @@
 ---
 title: Point
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 64-битный объект WMF PointL указанный в разделе 2.2.2.15 MS-WMF который указывает координаты конечная точка линии.
+description: Получает или задает 64-битный объект WMF PointL указанный в разделе 2.2.2.15 MS-WMF который указывает координаты конечной точки линии.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emflineto/point/
 ---
 ## EmfLineTo.Point property
 
-Получает или задает 64-битный объект WMF PointL, указанный в разделе 2.2.2.15 [MS-WMF], который указывает координаты конечная точка линии.
+Получает или задает 64-битный объект WMF PointL, указанный в разделе 2.2.2.15 [MS-WMF], который указывает координаты конечной точки линии.
 
 ```csharp
 public Point Point { get; set; }

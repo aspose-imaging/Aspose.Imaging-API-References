@@ -24,7 +24,7 @@ public class CmxPathSpec : ICmxObjectSpec
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Points](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec/points) { get; set; } | 获取或设置点。 |
+| [Points](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec/points) { get; set; } | 获取或设置点数。 |
 | [Type](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec/type) { get; set; } | 获取或设置类型。 |
 
 ### 也可以看看

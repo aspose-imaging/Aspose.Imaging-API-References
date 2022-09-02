@@ -1,14 +1,14 @@
 ---
 title: EmfPlusCustomLineCapDataType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Перечисление CustomLineCapDataType определяет типы пользовательских данных окончания строки которые задают стили и формы для концов линий графики.
+description: Перечисление CustomLineCapDataType определяет типы пользовательских данных окончания строки которые задают стили и формы для концов графических линий.
 type: docs
 weight: 4770
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscustomlinecapdatatype/
 ---
 ## EmfPlusCustomLineCapDataType enumeration
 
-Перечисление CustomLineCapDataType определяет типы пользовательских данных окончания строки, которые задают стили и формы для концов линий графики.
+Перечисление CustomLineCapDataType определяет типы пользовательских данных окончания строки, которые задают стили и формы для концов графических линий.
 
 ```csharp
 public enum EmfPlusCustomLineCapDataType
@@ -18,8 +18,8 @@ public enum EmfPlusCustomLineCapDataType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| CustomLineCapDataTypeDefault | `0` | Указывает настраиваемый конец строки по умолчанию. |
-| CustomLineCapDataTypeAdjustableArrow | `1` | Указывает настраиваемую стрелку пользовательского конца строки. |
+| CustomLineCapDataTypeDefault | `0` | Определяет пользовательский заголовок строки по умолчанию. |
+| CustomLineCapDataTypeAdjustableArrow | `1` | Определяет настраиваемую стрелку пользовательского конца строки. |
 
 ### Смотрите также
 

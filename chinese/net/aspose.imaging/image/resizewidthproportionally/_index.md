@@ -1,14 +1,14 @@
 ---
 title: ResizeWidthProportionally
 second_title: Aspose.Imaging for .NET API 参考
-description: 按比例调整宽度使用默认NearestNeighbourResample
+description: 按比例调整宽度默认NearestNeighbourResample已使用
 type: docs
 weight: 220
 url: /zh/net/aspose.imaging/image/resizewidthproportionally/
 ---
 ## ResizeWidthProportionally(int) {#resizewidthproportionally}
 
-按比例调整宽度。使用默认NearestNeighbourResample。
+按比例调整宽度。默认NearestNeighbourResample已使用。
 
 ```csharp
 public void ResizeWidthProportionally(int newWidth)
@@ -16,7 +16,7 @@ public void ResizeWidthProportionally(int newWidth)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newWidth | Int32 | 新宽度。 |
+| newWidth | Int32 | 新的宽度。 |
 
 ### 也可以看看
 
@@ -36,12 +36,12 @@ public virtual void ResizeWidthProportionally(int newWidth, ResizeType resizeTyp
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newWidth | Int32 | 新宽度。 |
+| newWidth | Int32 | 新的宽度。 |
 | resizeType | ResizeType | 调整大小的类型。 |
 
 ### 例子
 
-此示例加载图像并使用各种调整大小方法按比例调整大小。仅指定宽度，自动计算高度。
+此示例加载图像并使用各种调整大小方法按比例调整其大小。仅指定宽度，自动计算高度。
 
 ```csharp
 [C#]
@@ -50,7 +50,7 @@ string dir = "c:\\temp\\";
 
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-        // 使用最近邻重采样放大 2 倍。
+    // 使用最近邻重采样放大 2 倍。
     image.ResizeWidthProportionally(image.Width* 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
     image.Save(dir + "upsample.nearestneighbour.gif");
 }
@@ -64,14 +64,14 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"
 
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-        // 使用双线性重采样放大 2 倍。
+    // 使用双线性重采样放大 2 倍。
     image.ResizeWidthProportionally(image.Width* 2, Aspose.Imaging.ResizeType.BilinearResample);
     image.Save(dir + "upsample.bilinear.gif");
 }
 
 using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-        // 使用双线性重采样缩小 2 倍。
+    // 使用双线性重采样缩小 2 倍。
     image.ResizeWidthProportionally(image.Width / 2, Aspose.Imaging.ResizeType.BilinearResample);
     image.Save(dir + "downsample.bilinear.gif");
 }
@@ -96,7 +96,7 @@ public virtual void ResizeWidthProportionally(int newWidth, ImageResizeSettings 
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newWidth | Int32 | 新宽度。 |
+| newWidth | Int32 | 新的宽度。 |
 | settings | ImageResizeSettings | 图像调整大小设置。 |
 
 ### 也可以看看

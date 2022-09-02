@@ -26,8 +26,8 @@ public class PdfCoreOptions
 | --- | --- |
 | [BookmarksOutlineLevel](../../aspose.imaging.fileformats.pdf/pdfcoreoptions/bookmarksoutlinelevel) { get; set; } | 指定在文档大纲的哪个级别显示书签对象。 0 - 不显示。 1 在第一级，依此类推。 默认为 0。 |
 | [Compression](../../aspose.imaging.fileformats.pdf/pdfcoreoptions/compression) { get; set; } | 获取或设置压缩。 |
-| [ExpandedOutlineLevels](../../aspose.imaging.fileformats.pdf/pdfcoreoptions/expandedoutlinelevels) { get; set; } | 指定查看 PDF 文件时文档大纲中显示展开的级别。 0 - 文档大纲不展开。 1 - 文档中的第一级项目被展开，依此类推。 默认为 0。 |
-| [HeadingsOutlineLevels](../../aspose.imaging.fileformats.pdf/pdfcoreoptions/headingsoutlinelevels) { get; set; } | 指定文档大纲中包含的大纲项的级别。 0 - 没有大纲，1 - 一个大纲级别，依此类推。 默认为 0。 |
+| [ExpandedOutlineLevels](../../aspose.imaging.fileformats.pdf/pdfcoreoptions/expandedoutlinelevels) { get; set; } | 指定查看 PDF 文件时显示展开的文档大纲的多少级。 0 - 不展开文档大纲。 1 - 展开文档中的第一级项目，依此类推。 默认为 0. |
+| [HeadingsOutlineLevels](../../aspose.imaging.fileformats.pdf/pdfcoreoptions/headingsoutlinelevels) { get; set; } | 指定要在文档大纲中包含多少级大纲项。 0 - 无大纲，1 - 一个大纲级别，依此类推。 默认为 0。 |
 | [JpegQuality](../../aspose.imaging.fileformats.pdf/pdfcoreoptions/jpegquality) { get; set; } | 指定图像的 JPEG 压缩质量（如果使用 JPEG 压缩）。 默认为 95。 |
 | [PdfCompliance](../../aspose.imaging.fileformats.pdf/pdfcoreoptions/pdfcompliance) { get; set; } | 获取或设置 PDF 合规性。 |
 

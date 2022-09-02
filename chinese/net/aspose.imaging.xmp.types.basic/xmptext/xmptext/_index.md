@@ -1,14 +1,14 @@
 ---
 title: XmpText
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化XmpTextaspose.imaging.xmp.types.basic/xmptext类的新实例
+description: 初始化XmpTextaspose.imaging.xmp.types.basic/xmptext类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp.types.basic/xmptext/xmptext/
 ---
 ## XmpText constructor
 
-初始化[`XmpText`](../../xmptext)类的新实例。
+初始化[`XmpText`](../../xmptext)类.
 
 ```csharp
 public XmpText(string value)
@@ -16,7 +16,7 @@ public XmpText(string value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 值。 |
+| value | String | 价值。 |
 
 ### 也可以看看
 

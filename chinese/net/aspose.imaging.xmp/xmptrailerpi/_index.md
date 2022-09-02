@@ -1,14 +1,14 @@
 ---
 title: XmpTrailerPi
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示 XMP 尾处理指令
+description: 表示 XMP 预告片处理指令
 type: docs
-weight: 11830
+weight: 11820
 url: /zh/net/aspose.imaging.xmp/xmptrailerpi/
 ---
 ## XmpTrailerPi class
 
-表示 XMP 尾处理指令。
+表示 XMP 预告片处理指令。
 
 ```csharp
 public sealed class XmpTrailerPi : IEquatable<XmpTrailerPi>, IXmlValue
@@ -18,8 +18,8 @@ public sealed class XmpTrailerPi : IEquatable<XmpTrailerPi>, IXmlValue
 
 | 姓名 | 描述 |
 | --- | --- |
-| [XmpTrailerPi](xmptrailerpi#constructor)() | 初始化[`XmpTrailerPi`](../xmptrailerpi)类的新实例。 |
-| [XmpTrailerPi](xmptrailerpi#constructor_1)(bool) | 初始化[`XmpTrailerPi`](../xmptrailerpi)类的新实例。 |
+| [XmpTrailerPi](xmptrailerpi#constructor)() | 初始化[`XmpTrailerPi`](../xmptrailerpi)类. |
+| [XmpTrailerPi](xmptrailerpi#constructor_1)(bool) | 初始化[`XmpTrailerPi`](../xmptrailerpi)类. |
 
 ## 特性
 
@@ -31,18 +31,18 @@ public sealed class XmpTrailerPi : IEquatable<XmpTrailerPi>, IXmlValue
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.imaging.xmp/xmptrailerpi/equals#equals_1)(object) | 确定指定的Object是否等于此实例。 |
+| override [Equals](../../aspose.imaging.xmp/xmptrailerpi/equals#equals_1)(object) | 判断是否指定Object 等于这个实例。 |
 | [Equals](../../aspose.imaging.xmp/xmptrailerpi/equals#equals)(XmpTrailerPi) | 表示当前对象是否等于另一个同类型的对象。 |
 | override [GetHashCode](../../aspose.imaging.xmp/xmptrailerpi/gethashcode)() | 返回此实例的哈希码。 |
-| [GetXmlValue](../../aspose.imaging.xmp/xmptrailerpi/getxmlvalue)() | 将 xmp 值转换为 xml 表示。 |
+| [GetXmlValue](../../aspose.imaging.xmp/xmptrailerpi/getxmlvalue)() | 将 xmp 值转换为 xml 表示形式。 |
 
 ### 评论
 
-end="w" 或 end="r" 部分应由数据包扫描处理器使用确定 XMP 是否可以就地修改。
+数据包扫描处理器应使用 end="w" 或 end="r" 部分来确定 XMP 是否可以就地修改。
 
 ### 例子
 
-允许的预告片 PI: &lt;?xpacket end=" w"?&gt;&lt;?xpacket end="r"?&gt;
+允许的预告片 PI:
 
 ### 也可以看看
 

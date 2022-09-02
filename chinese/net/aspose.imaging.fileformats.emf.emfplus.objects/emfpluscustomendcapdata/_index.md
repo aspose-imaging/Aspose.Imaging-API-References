@@ -24,7 +24,7 @@ public sealed class EmfPlusCustomEndCapData : EmfPlusStructureObjectType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CustomEndCap](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomendcapdata/customendcap) { get; set; } | 获取或设置自定义线帽，该线帽定义要在线条末尾 处绘制的形状。它可以是任何各种形状，包括 方形、圆形或菱形 |
+| [CustomEndCap](../../aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomendcapdata/customendcap) { get; set; } | 获取或设置一个自定义线帽，该线帽定义要在线条的 end 处绘制的形状。它可以是各种形状中的任何一种，包括 a 正方形、圆形或菱形 |
 
 ### 也可以看看
 

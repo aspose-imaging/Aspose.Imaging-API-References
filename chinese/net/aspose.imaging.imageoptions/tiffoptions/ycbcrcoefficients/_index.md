@@ -1,14 +1,14 @@
 ---
 title: YCbCrCoefficients
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 YCbCrCoefficients
+description: 获取或设置 YCbCrCoefficients.
 type: docs
 weight: 680
 url: /zh/net/aspose.imaging.imageoptions/tiffoptions/ycbcrcoefficients/
 ---
 ## TiffOptions.YCbCrCoefficients property
 
-获取或设置 YCbCrCoefficients。
+获取或设置 YCbCrCoefficients.
 
 ```csharp
 public TiffRational[] YCbCrCoefficients { get; set; }
@@ -16,14 +16,14 @@ public TiffRational[] YCbCrCoefficients { get; set; }
 
 ### 适当的价值
 
-YCbCr系数。
+YCbCr 系数。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| [TiffImageException](../../../aspose.imaging.coreexceptions.imageformats/tiffimageexception) | 有理系数值的计数无效。必须等于 3。 |
-| ArgumentNullException | 值 |
+| [TiffImageException](../../../aspose.imaging.coreexceptions.imageformats/tiffimageexception) | 有理系数值的计数无效。必须等于 3. |
+| ArgumentNullException | 价值 |
 
 ### 也可以看看
 

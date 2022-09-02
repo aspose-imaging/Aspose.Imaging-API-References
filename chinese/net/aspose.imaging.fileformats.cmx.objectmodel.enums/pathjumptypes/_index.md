@@ -1,14 +1,14 @@
 ---
 title: PathJumpTypes
 second_title: Aspose.Imaging for .NET API 参考
-description: CmxPathSpec../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec
+description: 点之间的转换类型CmxPathSpec../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec
 type: docs
 weight: 2080
 url: /zh/net/aspose.imaging.fileformats.cmx.objectmodel.enums/pathjumptypes/
 ---
 ## PathJumpTypes enumeration
 
-[`CmxPathSpec`](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec)
+点之间的转换类型[`CmxPathSpec`](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec)
 
 ```csharp
 public enum PathJumpTypes
@@ -18,8 +18,8 @@ public enum PathJumpTypes
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| MoveTo | `0` | 该点与上一个点没有连接。用于可见点。 |
-| LineTo | `1` | 该点与前一个点通过直线相连。用于可见点。 |
+| MoveTo | `0` | 该点与前一个点没有连接。用于可见点。 |
+| LineTo | `1` | 该点通过一条直线与前一个点相连。用于可见点。 |
 | BezierTo | `2` | 该点通过双三次贝塞尔曲线连接到前一个可见点。用于可见点。 |
 | BezierSupport | `3` | 用于不可见的辅助点构建双三次贝塞尔曲线。 |
 

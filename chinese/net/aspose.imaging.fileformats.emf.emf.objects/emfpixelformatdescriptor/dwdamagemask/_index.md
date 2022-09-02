@@ -1,14 +1,14 @@
 ---
 title: DwDamageMask
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此字段可能被忽略
+description: 获取或设置此字段可以被忽略
 type: docs
 weight: 200
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/dwdamagemask/
 ---
 ## EmfPixelFormatDescriptor.DwDamageMask property
 
-获取或设置此字段可能被忽略
+获取或设置此字段可以被忽略
 
 ```csharp
 public int DwDamageMask { get; set; }

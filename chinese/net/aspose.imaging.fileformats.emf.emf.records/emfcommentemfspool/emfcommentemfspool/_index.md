@@ -1,14 +1,14 @@
 ---
 title: EmfCommentEmfSpool
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfCommentEmfSpoolaspose.imaging.fileformats.emf.emf.records/emfcommentemfspool类的新实例
+description: 初始化EmfCommentEmfSpoolaspose.imaging.fileformats.emf.emf.records/emfcommentemfspool类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool/emfcommentemfspool/
 ---
 ## EmfCommentEmfSpool(EmfRecord) {#constructor_1}
 
-初始化[`EmfCommentEmfSpool`](../../emfcommentemfspool)类的新实例。
+初始化[`EmfCommentEmfSpool`](../../emfcommentemfspool)类.
 
 ```csharp
 public EmfCommentEmfSpool(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfCommentEmfSpool(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public EmfCommentEmfSpool(EmfRecord source)
 
 ## EmfCommentEmfSpool() {#constructor}
 
-初始化[`EmfCommentEmfSpool`](../../emfcommentemfspool)类的新实例。
+初始化[`EmfCommentEmfSpool`](../../emfcommentemfspool)类.
 
 ```csharp
 public EmfCommentEmfSpool()

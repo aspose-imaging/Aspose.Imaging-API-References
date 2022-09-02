@@ -3,7 +3,7 @@ title: IInterruptMonitor
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет информацию о прерывании.
 type: docs
-weight: 10600
+weight: 10590
 url: /ru/net/aspose.imaging.multithreading/iinterruptmonitor/
 ---
 ## IInterruptMonitor interface

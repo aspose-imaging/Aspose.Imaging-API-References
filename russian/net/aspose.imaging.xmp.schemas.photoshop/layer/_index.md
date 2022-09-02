@@ -3,7 +3,7 @@ title: Layer
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет текстовый слой Photoshop.
 type: docs
-weight: 11330
+weight: 11320
 url: /ru/net/aspose.imaging.xmp.schemas.photoshop/layer/
 ---
 ## Layer class
@@ -18,8 +18,8 @@ public class Layer : XmpTypeBase, IEquatable<Layer>
 
 | Имя | Описание |
 | --- | --- |
-| [Layer](layer#constructor)() | Инициализирует новый экземпляр класса[`Layer`](../layer). |
-| [Layer](layer#constructor_1)(string, string) | Инициализирует новый экземпляр класса[`Layer`](../layer). |
+| [Layer](layer#constructor)() | Инициализирует новый экземпляр[`Layer`](../layer) класс. |
+| [Layer](layer#constructor_1)(string, string) | Инициализирует новый экземпляр[`Layer`](../layer) класс. |
 
 ## Характеристики
 
@@ -33,7 +33,7 @@ public class Layer : XmpTypeBase, IEquatable<Layer>
 | Имя | Описание |
 | --- | --- |
 | [Equals](../../aspose.imaging.xmp.schemas.photoshop/layer/equals#equals)(Layer) | Указывает, равен ли текущий объект другому объекту того же типа. |
-| override [Equals](../../aspose.imaging.xmp.schemas.photoshop/layer/equals#equals_1)(object) | Определяет, равен ли указанныйObjectэтому экземпляру. |
+| override [Equals](../../aspose.imaging.xmp.schemas.photoshop/layer/equals#equals_1)(object) | Определяет, является ли указанныйObject , равно этому экземпляру. |
 | override [GetHashCode](../../aspose.imaging.xmp.schemas.photoshop/layer/gethashcode)() | Возвращает хэш-код для этого экземпляра. |
 | override [GetXmpRepresentation](../../aspose.imaging.xmp.schemas.photoshop/layer/getxmprepresentation)() | Возвращает строковое значение в формате XMP. |
 

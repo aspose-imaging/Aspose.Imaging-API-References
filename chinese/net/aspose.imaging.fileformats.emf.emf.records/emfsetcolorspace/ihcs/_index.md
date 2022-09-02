@@ -1,14 +1,14 @@
 ---
 title: IhCS
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数该整数指定 EMF 对象表中逻辑色彩空间对象 的索引第 3.1 节 1.1
+description: 获取或设置一个 32 位无符号整数它指定 EMF 对象表第 3.1.1.1 节中逻辑颜色空间 object 的索引
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetcolorspace/ihcs/
 ---
 ## EmfSetColorSpace.IhCS property
 
-获取或设置一个 32 位无符号整数，该整数指定 EMF 对象表中逻辑色彩空间对象 的索引（第 3.1 节。 1.1）。
+获取或设置一个 32 位无符号整数，它指定 EMF 对象表（第 3.1.1.1 节）中逻辑颜色空间 object 的索引。
 
 ```csharp
 public int IhCS { get; set; }
@@ -16,7 +16,7 @@ public int IhCS { get; set; }
 
 ### 评论
 
-此对象是 WMF LogColorSpace 或 LogColorSpaceW 对象（[MS-WMF] 部分 2.2.2.11 和 2.2.2.12，分别）。
+此对象是 WMF LogColorSpace 或 LogColorSpaceW 对象（[MS-WMF]section 分别为 2.2.2.11 和 2.2.2.12）。
 
 ### 也可以看看
 

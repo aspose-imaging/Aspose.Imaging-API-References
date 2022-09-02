@@ -1,14 +1,14 @@
 ---
 title: PopFrameAt
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Удаляет и возвращает кадр по указанному индексу собственной коллекции кадров.
+description: Удаляет и возвращает кадр по указанному индексу из собственной коллекции кадров.
 type: docs
 weight: 260
 url: /ru/net/aspose.imaging.fileformats.apng/apngimage/popframeat/
 ---
 ## ApngImage.PopFrameAt method
 
-Удаляет и возвращает кадр по указанному индексу собственной коллекции кадров.
+Удаляет и возвращает кадр по указанному индексу из собственной коллекции кадров.
 
 ```csharp
 public ApngFrame PopFrameAt(int index)
@@ -26,7 +26,7 @@ public ApngFrame PopFrameAt(int index)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | *index*меньше 0. или *index*больше или равно[`PageCount`](../pagecount). |
+| ArgumentOutOfRangeException | *index* меньше 0. или *index* равно или больше, чем[`PageCount`](../pagecount) . |
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: Usage
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位无符号整数该整数指定如何解释 DIB 标头中颜色 表中的值该值必须在 DIBColors 枚举中第 2.1.9 节
+description: 获取或设置一个 32 位无符号整数指定如何解释 DIB 标头中 color 表中的值此值必须在 DIBColors 枚举第 2.1.9 节中
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfcreatemonobrush/usage/
 ---
 ## EmfCreateMonoBrush.Usage property
 
-获取或设置一个 32 位无符号整数，该整数指定如何解释 DIB 标头中颜色 表中的值。该值必须在 DIBColors 枚举中（第 2.1.9 节）。
+获取或设置一个 32 位无符号整数，指定如何解释 DIB 标头中 color 表中的值。此值必须在 DIBColors 枚举（第 2.1.9 节）中。
 
 ```csharp
 public EmfDibColors Usage { get; set; }

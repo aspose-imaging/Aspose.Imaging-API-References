@@ -1,14 +1,14 @@
 ---
 title: WmfFrameRegion
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект области рамки WMF.
+description: Объект области фрейма wmf.
 type: docs
 weight: 8700
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfframeregion/
 ---
 ## WmfFrameRegion class
 
-Объект области рамки WMF.
+Объект области фрейма wmf.
 
 ```csharp
 public class WmfFrameRegion : WmfObject
@@ -18,8 +18,8 @@ public class WmfFrameRegion : WmfObject
 
 | Имя | Описание |
 | --- | --- |
-| [WmfFrameRegion](wmfframeregion#constructor)() | Инициализирует новый экземпляр класса[`WmfFillRegion`](../wmffillregion). |
-| [WmfFrameRegion](wmfframeregion#constructor_1)(WmfGraphicObject, WmfGraphicObject) | Инициализирует новый экземпляр класса[`WmfFillRegion`](../wmffillregion). |
+| [WmfFrameRegion](wmfframeregion#constructor)() | Инициализирует новый экземпляр[`WmfFillRegion`](../wmffillregion) класс. |
+| [WmfFrameRegion](wmfframeregion#constructor_1)(WmfGraphicObject, WmfGraphicObject) | Инициализирует новый экземпляр[`WmfFillRegion`](../wmffillregion) класс. |
 
 ## Характеристики
 

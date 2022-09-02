@@ -1,14 +1,14 @@
 ---
 title: EmfPlusBoundaryPointData
 second_title: Aspose.Imaging for .NET API 参考
-description: EmfPlusBoundaryPointData 对象为渐变画笔指定闭合基数样条边界
+description: EmfPlusBoundaryPointData 对象为渐变画笔指定一个闭合的基数样条边界
 type: docs
 weight: 5250
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundarypointdata/
 ---
 ## EmfPlusBoundaryPointData class
 
-EmfPlusBoundaryPointData 对象为渐变画笔指定闭合基数样条边界
+EmfPlusBoundaryPointData 对象为渐变画笔指定一个闭合的基数样条边界
 
 ```csharp
 public sealed class EmfPlusBoundaryPointData : EmfPlusBoundaryBase

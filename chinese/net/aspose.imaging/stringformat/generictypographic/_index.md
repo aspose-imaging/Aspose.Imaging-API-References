@@ -1,14 +1,14 @@
 ---
 title: GenericTypographic
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取通用排版StringFormataspose.imaging/stringformat对象
+description: 获取一个通用的排版StringFormataspose.imaging/stringformat对象.
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging/stringformat/generictypographic/
 ---
 ## StringFormat.GenericTypographic property
 
-获取通用排版[`StringFormat`](../../stringformat)对象。
+获取一个通用的排版[`StringFormat`](../../stringformat)对象.
 
 ```csharp
 public static StringFormat GenericTypographic { get; }
@@ -16,7 +16,7 @@ public static StringFormat GenericTypographic { get; }
 
 ### 适当的价值
 
-通用排版[`StringFormat`](../../stringformat)对象。
+通用排版[`StringFormat`](../../stringformat)目的。
 
 ### 也可以看看
 

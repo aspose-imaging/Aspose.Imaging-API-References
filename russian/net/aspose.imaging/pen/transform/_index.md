@@ -1,14 +1,14 @@
 ---
 title: Transform
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает копию геометрического преобразования для этогоPenaspose.imaging/pen.
+description: Получает или задает копию геометрического преобразования для этогоPenaspose.imaging/pen .
 type: docs
 weight: 170
 url: /ru/net/aspose.imaging/pen/transform/
 ---
 ## Pen.Transform property
 
-Получает или задает копию геометрического преобразования для этого[`Pen`](../../pen).
+Получает или задает копию геометрического преобразования для этого[`Pen`](../../pen) .
 
 ```csharp
 public Matrix Transform { get; set; }
@@ -16,13 +16,13 @@ public Matrix Transform { get; set; }
 
 ### Стоимость имущества
 
-Копия[`Matrix`](../../matrix)которая представляет геометрическое преобразование для этого[`Pen`](../../pen).
+Копия[`Matrix`](../../matrix) которое представляет собой геометрическое преобразование для этого[`Pen`](../../pen).
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Свойство`Transform`устанавливается на неизменном объекте[`Pen`](../../pen), например возвращаемые классом[`Pen`](../../pen). |
+| ArgumentException | `Transform` свойство установлено на неизменном[`Pen`](../../pen) такие как возвращенные[`Pen`](../../pen) учебный класс. |
 
 ### Смотрите также
 

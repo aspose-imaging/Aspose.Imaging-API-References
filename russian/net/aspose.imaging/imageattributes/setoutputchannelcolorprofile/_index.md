@@ -37,7 +37,7 @@ public void SetOutputChannelColorProfile(string colorProfileFilename, ColorAdjus
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | colorProfileFilename | String | Путь к файлу цветового профиля. Если файл цветового профиля находится в каталоге %SystemRoot%\System32\Spool\Drivers\Color, этот параметр может быть именем файла. В противном случае этот параметр должен быть полным именем пути. |
-| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype), указывающий категорию, для которой создается файл цветового профиля выходного канала. установлен. |
+| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype) который указывает категорию, для которой установлен файл цветового профиля выходного канала. |
 
 ### Смотрите также
 

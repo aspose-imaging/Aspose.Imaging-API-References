@@ -24,9 +24,9 @@ public sealed class EmfDesignVector : EmfObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [NumAxes](../../aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/numaxes) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定 Values 数组中的元素数。它必须在 0 到 16 的范围内，包括 |
-| [Signature](../../aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/signature) { get; set; } | 获取或设置一个必须设置为值 0x08007664 的 32 位无符号整数。 |
-| [Values](../../aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/values) { get; set; } | 获取或设置一个可选的 32 位有符号整数数组，指定多主 OpenType 字体的字体轴的值 。数组中值的最大数量为 16。 |
+| [NumAxes](../../aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/numaxes) { get; set; } | 获取或设置一个 32 位无符号整数，它指定 Values 数组中的元素数。它必须在 0 到 16 的范围内，inclusive |
+| [Signature](../../aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/signature) { get; set; } | 获取或设置一个 32 位无符号整数，必须设置为值 0x08007664. |
+| [Values](../../aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/values) { get; set; } | 获取或设置一个可选的 32 位有符号整数数组，指定多主 OpenType 字体的字体轴的值 。数组中值的最大数量为 16. |
 
 ### 也可以看看
 

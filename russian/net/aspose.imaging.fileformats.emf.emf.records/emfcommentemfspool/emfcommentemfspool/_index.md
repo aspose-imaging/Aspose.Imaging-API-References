@@ -1,14 +1,14 @@
 ---
 title: EmfCommentEmfSpool
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfCommentEmfSpoolaspose.imaging.fileformats.emf.emf.records/emfcommentemfspool.
+description: Инициализирует новый экземплярEmfCommentEmfSpoolaspose.imaging.fileformats.emf.emf.records/emfcommentemfspool класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool/emfcommentemfspool/
 ---
 ## EmfCommentEmfSpool(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfCommentEmfSpool`](../../emfcommentemfspool).
+Инициализирует новый экземпляр[`EmfCommentEmfSpool`](../../emfcommentemfspool) класс.
 
 ```csharp
 public EmfCommentEmfSpool(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfCommentEmfSpool(EmfRecord source)
 
 ## EmfCommentEmfSpool() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfCommentEmfSpool`](../../emfcommentemfspool).
+Инициализирует новый экземпляр[`EmfCommentEmfSpool`](../../emfcommentemfspool) класс.
 
 ```csharp
 public EmfCommentEmfSpool()

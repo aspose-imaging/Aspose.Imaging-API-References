@@ -1,14 +1,14 @@
 ---
 title: Sample32Float
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Представляет образец аудио 32Float.
+description: Представляет звуковой образец 32Float.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype/sample32float/
 ---
 ## AudioSampleType.Sample32Float property
 
-Представляет образец аудио 32Float.
+Представляет звуковой образец 32Float.
 
 ```csharp
 public static AudioSampleType Sample32Float { get; }

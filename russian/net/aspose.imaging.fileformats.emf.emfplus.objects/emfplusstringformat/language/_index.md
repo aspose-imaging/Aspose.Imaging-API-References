@@ -1,14 +1,14 @@
 ---
 title: Language
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект EmfPlusLanguageIdentifier раздел 2.2.2.23  который указывает язык используемый для строки
+description: Получает или задает объект EmfPlusLanguageIdentifier раздел 2.2.2.23  указывающий язык используемый для string
 type: docs
 weight: 60
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/language/
 ---
 ## EmfPlusStringFormat.Language property
 
-Получает или задает объект EmfPlusLanguageIdentifier (раздел 2.2.2.23) , который указывает язык, используемый для строки
+Получает или задает объект EmfPlusLanguageIdentifier (раздел 2.2.2.23) , указывающий язык, используемый для string
 
 ```csharp
 public EmfPlusLanguageIdentifierType Language { get; set; }

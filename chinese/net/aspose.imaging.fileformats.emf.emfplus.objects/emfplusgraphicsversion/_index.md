@@ -24,12 +24,12 @@ public sealed class EmfPlusGraphicsVersion : EmfPlusStructureObjectType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GraphicsVersion](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion/graphicsversion) { get; set; } | 获取 GraphicsVersion（12 位）:操作系统图形的版本。这个值必须定义在 [`EmfPlusGraphicsVersion`](../emfplusgraphicsversion)枚举 |
-| [MetafileSignature](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion/metafilesignature) { get; set; } | 获取 MetafileSignature（20 位）:标识图元文件类型的值。 EMF+ 图元文件的值为 0xDBC01。 |
+| [GraphicsVersion](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion/graphicsversion) { get; set; } | 获取 GraphicsVersion（12 位）：操作系统图形的版本。这个值必须在 中定义[`EmfPlusGraphicsVersion`](../emfplusgraphicsversion)枚举 |
+| [MetafileSignature](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion/metafilesignature) { get; set; } | 获取 MetafileSignature（20 位）：标识图元文件类型的值。 EMF+ 元文件的值为 0xDBC01. |
 
 ### 评论
 
-图形版本是供应商可扩展的；但是，为了确保互操作性，任何此类扩展必须是 在 EMF+ 元文件的客户端和服务器中实现。
+图形版本是供应商可扩展的；但是，为了确保互操作性，任何此类扩展都必须在 EMF+ 元文件的客户端和服务器中实现 。
 
 ### 也可以看看
 

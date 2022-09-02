@@ -1,14 +1,14 @@
 ---
 title: CanCreate
 second_title: Aspose.Imaging for .NET API 参考
-description: 确定图像创建者是否可以使用imageOptions创建新图像
+description: 确定图像创建者是否可以使用imageOptions .
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/iimagecreatordescriptor/cancreate/
 ---
 ## IImageCreatorDescriptor.CanCreate method
 
-确定图像创建者是否可以使用*imageOptions*创建新图像。
+确定图像创建者是否可以使用*imageOptions* .
 
 ```csharp
 public bool CanCreate(ImageOptionsBase imageOptions)
@@ -20,7 +20,7 @@ public bool CanCreate(ImageOptionsBase imageOptions)
 
 ### 返回值
 
-` True` 如果由此描述符创建的图像创建者可以使用指定的:::创建图像数据R9:imageOptions:::;否则，` false` 。
+`真的`如果此描述符创建的图像创建者可以使用指定的创建图像数据*imageOptions*;否则，`错误的` .
 
 ### 也可以看看
 

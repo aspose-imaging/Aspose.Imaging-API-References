@@ -24,12 +24,12 @@ public sealed class EmfPlusBitmap : EmfPlusBaseImageData
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BitmapData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap/bitmapdata) { get; set; } | 获取或设置位图数据 BitmapData (variable):定义在 Type 字段中指定的位图数据对象的可变长度数据。 数据的内容和格式对于每种位图类型都可能不同。 |
-| [Height](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap/height) { get; set; } | 获取或设置位图高度 高度（4 字节）:一个 32 位有符号整数，指定由以下各项占用的区域的高度（以像素为单位）位图。 如果图像被压缩，根据 Type 字段，这个值是未定义的并且必须被忽略。 |
-| [PixelFormat](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap/pixelformat) { get; set; } | 获取或设置像素格式 PixelFormat（4 字节）:一个 32 位无符号整数，指定组成像素的格式位图 图像。支持的像素格式在[`EmfPlusPixelFormat`](../../aspose.imaging.fileformats.emf.emfplus.consts/emfpluspixelformat)枚举（第 2.1.1.25 节）中指定。 如果图像被压缩，根据 Type 字段，这个值是未定义的并且必须被忽略。 |
-| [Stride](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap/stride) { get; set; } | 获取或设置图像的步幅 步幅（4 字节）:一个 32 位有符号整数，指定开头之间的字节偏移量一个扫描线和 下一个。该值是每个像素的字节数，在 PixelFormat 字段中指定，乘以 宽度，以像素为单位，在 Width 字段中指定。该字段的值必须是四的倍数。 如果图像被压缩，根据 Type 字段，这个值是未定义的并且必须被忽略。 |
-| [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap/type) { get; set; } | 获取或设置图像的类型 类型（4 字节）:一个 32 位无符号整数，指定 BitmapData 中的数据类型场地。该值必须 在[`EmfPlusBitmapDataType`](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusbitmapdatatype)枚举中定义（第 2.1.1.2 节）。 |
-| [Width](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap/width) { get; set; } | 获取或设置图像宽度 宽度（4 字节）:一个 32 位有符号整数，指定由以下内容占用的区域的宽度（以像素为单位）位图。 如果图像被压缩，根据 Type 字段，这个值是未定义的并且必须被忽略。 |
+| [BitmapData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap/bitmapdata) { get; set; } | 获取或设置位图数据 BitmapData（变量）：定义在Type 字段中指定的位图数据对象的可变长度数据。 The 数据的内容和格式对于每个位图类型可能不同。 |
+| [Height](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap/height) { get; set; } | 获取或设置位图高度 高度（4字节）：一个32位有符号整数，指定位图占用区域的高度，以像素为单位。 如果图像被压缩，根据类型字段，该值是未定义的并且必须被忽略。 |
+| [PixelFormat](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap/pixelformat) { get; set; } | 获取或设置像素格式 PixelFormat（4 字节）：一个 32 位无符号整数，指定构成 bitmap 图像的像素格式。支持的像素格式在[`EmfPlusPixelFormat`](../../aspose.imaging.fileformats.emf.emfplus.consts/emfpluspixelformat)enumeration (section 2.1.1.25). 如果图像被压缩，根据Type字段，这个值是未定义的，必须被忽略。 |
+| [Stride](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap/stride) { get; set; } | 获取或设置图像的步幅 步幅（4 个字节）：一个 32 位有符号整数，指定一个扫描行的开头和下一个扫描行的开头之间的字节偏移量。该值是在 PixelFormat 字段中指定的每个像素的字节数乘以在 Width 字段中指定的以像素为单位的宽度。该字段的值必须是四的倍数。 如果图像被压缩，根据类型字段，该值未定义，必须被忽略。 |
+| [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap/type) { get; set; } | 获取或设置图像的类型 类型（4 个字节）：一个 32 位无符号整数，指定 BitmapData 字段中的数据类型。这个值必须 在[`EmfPlusBitmapDataType`](../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusbitmapdatatype)枚举（第 2.1.1.2 节）. |
+| [Width](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap/width) { get; set; } | 获取或设置图像Width Width（4字节）：一个32位有符号整数，指定位图占用区域的像素宽度。 如果图像被压缩，根据Type字段，该值是未定义的并且必须被忽略。 |
 
 ### 也可以看看
 

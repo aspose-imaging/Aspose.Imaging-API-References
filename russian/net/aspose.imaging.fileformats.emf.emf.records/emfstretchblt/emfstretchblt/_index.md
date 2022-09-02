@@ -1,14 +1,14 @@
 ---
 title: EmfStretchBlt
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfStretchBltaspose.imaging.fileformats.emf.emf.records/emfstretchblt.
+description: Инициализирует новый экземплярEmfStretchBltaspose.imaging.fileformats.emf.emf.records/emfstretchblt класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfstretchblt/emfstretchblt/
 ---
 ## EmfStretchBlt(EmfRecord) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfStretchBlt`](../../emfstretchblt).
+Инициализирует новый экземпляр[`EmfStretchBlt`](../../emfstretchblt) класс.
 
 ```csharp
 public EmfStretchBlt(EmfRecord source)
@@ -29,7 +29,7 @@ public EmfStretchBlt(EmfRecord source)
 
 ## EmfStretchBlt() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfStretchBlt`](../../emfstretchblt).
+Инициализирует новый экземпляр[`EmfStretchBlt`](../../emfstretchblt) класс.
 
 ```csharp
 public EmfStretchBlt()

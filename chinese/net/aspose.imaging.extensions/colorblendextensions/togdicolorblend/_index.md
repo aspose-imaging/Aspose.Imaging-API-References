@@ -1,14 +1,14 @@
 ---
 title: ToGdiColorBlend
 second_title: Aspose.Imaging for .NET API 参考
-description: 将ColorBlendaspose.imaging/colorblend转换为ColorBlend.
+description: 转换ColorBlendaspose.imaging/colorblend至ColorBlend .
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.extensions/colorblendextensions/togdicolorblend/
 ---
 ## ColorBlendExtensions.ToGdiColorBlend method
 
-将[`ColorBlend`](../../../aspose.imaging/colorblend)转换为ColorBlend.
+转换[`ColorBlend`](../../../aspose.imaging/colorblend)至ColorBlend .
 
 ```csharp
 public static ColorBlend ToGdiColorBlend(ColorBlend colorBlend)
@@ -20,7 +20,7 @@ public static ColorBlend ToGdiColorBlend(ColorBlend colorBlend)
 
 ### 返回值
 
-转换后的ColorBlend。
+转换的ColorBlend.
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: MedianFilterOptions
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化MedianFilterOptionsaspose.imaging.imagefilters.filteroptions/medianfilteroptions类的新实例
+description: 初始化MedianFilterOptionsaspose.imaging.imagefilters.filteroptions/medianfilteroptions类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.imagefilters.filteroptions/medianfilteroptions/medianfilteroptions/
 ---
 ## MedianFilterOptions constructor
 
-初始化[`MedianFilterOptions`](../../medianfilteroptions)类的新实例。
+初始化[`MedianFilterOptions`](../../medianfilteroptions)类.
 
 ```csharp
 public MedianFilterOptions(int size)

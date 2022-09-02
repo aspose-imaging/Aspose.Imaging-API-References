@@ -1,14 +1,14 @@
 ---
 title: ColorMatrixExtensions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Методы расширенияColorMatrix../aspose.imaging/colormatrix.
+description: ColorMatrix../aspose.imaging/colormatrix методы расширения.
 type: docs
 weight: 1160
 url: /ru/net/aspose.imaging.extensions/colormatrixextensions/
 ---
 ## ColorMatrixExtensions class
 
-Методы расширения[`ColorMatrix`](../../aspose.imaging/colormatrix).
+[`ColorMatrix`](../../aspose.imaging/colormatrix) методы расширения.
 
 ```csharp
 public static class ColorMatrixExtensions
@@ -18,7 +18,7 @@ public static class ColorMatrixExtensions
 
 | Имя | Описание |
 | --- | --- |
-| static [ToGdiColorMatrix](../../aspose.imaging.extensions/colormatrixextensions/togdicolormatrix)(ColorMatrix) | Преобразует[`ColorMatrix`](../../aspose.imaging/colormatrix)вColorMatrix. |
+| static [ToGdiColorMatrix](../../aspose.imaging.extensions/colormatrixextensions/togdicolormatrix)(ColorMatrix) | Преобразует[`ColorMatrix`](../../aspose.imaging/colormatrix) кColorMatrix . |
 
 ### Смотрите также
 

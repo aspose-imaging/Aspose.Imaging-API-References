@@ -1,14 +1,14 @@
 ---
 title: Reset
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Очищает путь к графике и устанавливаетFillModeaspose.imaging/fillmodeвАльтернативный.
+description: Очищает путь к графике и устанавливаетFillModeaspose.imaging/fillmode кAlternate .
 type: docs
 weight: 150
 url: /ru/net/aspose.imaging/graphicspath/reset/
 ---
 ## GraphicsPath.Reset method
 
-Очищает путь к графике и устанавливает[`FillMode`](../../fillmode)вАльтернативный.
+Очищает путь к графике и устанавливает[`FillMode`](../../fillmode) кAlternate .
 
 ```csharp
 public void Reset()

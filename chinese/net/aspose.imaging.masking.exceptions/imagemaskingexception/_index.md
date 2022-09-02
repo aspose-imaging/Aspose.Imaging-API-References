@@ -3,7 +3,7 @@ title: ImageMaskingException
 second_title: Aspose.Imaging for .NET API 参考
 description: 为图像遮蔽系统指定的异常
 type: docs
-weight: 10420
+weight: 10410
 url: /zh/net/aspose.imaging.masking.exceptions/imagemaskingexception/
 ---
 ## ImageMaskingException class
@@ -18,7 +18,7 @@ public sealed class ImageMaskingException : Exception
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImageMaskingException](imagemaskingexception)(string) | 初始化[`ImageMaskingException`](../imagemaskingexception)类的新实例。 |
+| [ImageMaskingException](imagemaskingexception)(string) | 初始化[`ImageMaskingException`](../imagemaskingexception)类. |
 
 ### 也可以看看
 

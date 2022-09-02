@@ -3,7 +3,7 @@ title: RenderErrorCode
 second_title: Aspose.Imaging for .NET API 参考
 description: 表示 CAD 文件中可能缺少的部分
 type: docs
-weight: 10180
+weight: 10170
 url: /zh/net/aspose.imaging.imageoptions/rendererrorcode/
 ---
 ## RenderErrorCode enumeration
@@ -20,9 +20,9 @@ public enum RenderErrorCode
 | --- | --- | --- |
 | MissingHeader | `0` | 缺少标题 |
 | MissingLayouts | `1` | 缺少布局信息 |
-| MissingBlocks | `2` | 块信息丢失 |
+| MissingBlocks | `2` | 区块信息缺失 |
 | MissingDimensionStyles | `3` | 尺寸样式信息丢失 |
-| MissingStyles | `4` | 样式信息丢失 |
+| MissingStyles | `4` | 缺少样式信息 |
 
 ### 也可以看看
 

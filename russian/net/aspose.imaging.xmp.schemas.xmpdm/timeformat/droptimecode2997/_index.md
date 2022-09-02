@@ -1,14 +1,14 @@
 ---
 title: DropTimecode2997
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает timecode2997 отбрасывания.
+description: Получает временной код сброса 2997.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp.schemas.xmpdm/timeformat/droptimecode2997/
 ---
 ## TimeFormat.DropTimecode2997 property
 
-Получает timecode2997 отбрасывания.
+Получает временной код сброса 2997.
 
 ```csharp
 public static TimeFormat DropTimecode2997 { get; }
@@ -16,7 +16,7 @@ public static TimeFormat DropTimecode2997 { get; }
 
 ### Стоимость имущества
 
-Таймкод падения 2997.
+Временной код падения 2997.
 
 ### Смотрите также
 

@@ -29,7 +29,7 @@ public class CmxOutline
 | [Color](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/color) { get; set; } | 获取或设置轮廓颜色。 |
 | [EndArrowhead](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/endarrowhead) { get; set; } | 获取或设置行尾的形状 |
 | [JoinType](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/jointype) { get; set; } | 获取或设置线连接的类型。 |
-| [LineType](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/linetype) { get; set; } | 获取或设置行的类型。 |
+| [LineType](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/linetype) { get; set; } | 获取或设置线条的类型。 |
 | [LineWidth](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/linewidth) { get; set; } | 获取或设置线条的宽度。 使用通用文档距离测量单位。 |
 | [StartArrowhead](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/startarrowhead) { get; set; } | 获取或设置行首的形状 |
 | [Stretch](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/stretch) { get; set; } | 获取或设置拉伸值。 |
@@ -39,7 +39,7 @@ public class CmxOutline
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/tostring)() | 返回代表此实例的String。 |
+| override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/tostring)() | 返回一个String代表这个实例。 |
 
 ### 也可以看看
 

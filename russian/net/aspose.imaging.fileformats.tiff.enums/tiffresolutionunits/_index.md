@@ -1,14 +1,14 @@
 ---
 title: TiffResolutionUnits
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Единица разрешения Tiff Перечисление
+description: Единица разрешения Tiff Enum
 type: docs
 weight: 7720
 url: /ru/net/aspose.imaging.fileformats.tiff.enums/tiffresolutionunits/
 ---
 ## TiffResolutionUnits enumeration
 
-Единица разрешения Tiff Перечисление
+Единица разрешения Tiff Enum
 
 ```csharp
 public enum TiffResolutionUnits : ushort

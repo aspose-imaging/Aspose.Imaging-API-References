@@ -24,7 +24,7 @@ public sealed class EmfPlusBrush : EmfPlusGraphicsObjectType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BrushData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrush/brushdata) { get; set; } | 获取或设置画笔数据 定义类型字段中指定的画笔对象的可变长度数据。 每种画笔类型的数据内容和格式可能不同。 EmfPlusHatchBrushData（第 2.2.2.20 节）（完成） EmfPlusLinearGradientBrushData 对象（第 2.2.2.24 节）（完成） EmfPlusPathGradientBrushData 对象（第 2.2.2.29 节） (完成) EmfPlusSolidBrushData 对象 (第 2.2.2.43 节) (完成) EmfPlusTextureBrushData 对象 (第 2.2.2.45 节) (完成) |
+| [BrushData](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrush/brushdata) { get; set; } | 获取或设置画笔数据 定义Type字段中指定的画笔对象的可变长度数据。 每种画笔类型的数据内容和格式可以不同。 EmfPlusHatchBrushData（第2.2.2.20节）（完成） EmfPlusLinearGradientBrushData 对象（第 2.2.2.24 节）（完成） EmfPlusPathGradientBrushData 对象（第 2.2.2.29 节）（完成） EmfPlusSolidBrushData 对象（第 2.2.2.43 节）（完成） EmfPlusTextureBrushData 对象（第 2.2.2.45 节）（完成）_x |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrush/type) { get; set; } | 获取或设置类型。 |
 | [Version](../../aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsobjecttype/version) { get; set; } | 获取或设置版本。 |
 

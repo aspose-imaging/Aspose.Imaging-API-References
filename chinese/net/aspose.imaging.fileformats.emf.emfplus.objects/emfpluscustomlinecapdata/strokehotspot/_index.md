@@ -1,14 +1,14 @@
 ---
 title: StrokeHotSpot
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置当前未使用的 EmfPlusPointF 对象它必须设置为 0.0 0.0
+description: 获取或设置当前未使用的 EmfPlusPointF 对象它必须设置为 0.0 0.0.
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/strokehotspot/
 ---
 ## EmfPlusCustomLineCapData.StrokeHotSpot property
 
-获取或设置当前未使用的 EmfPlusPointF 对象。它必须设置为 {0.0, 0.0}。
+获取或设置当前未使用的 EmfPlusPointF 对象。它必须设置为 {0.0, 0.0}.
 
 ```csharp
 public PointF StrokeHotSpot { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: OdTextSpan
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Текстовый диапазон
+description: Текст span
 type: docs
 weight: 7310
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odtextspan/
 ---
 ## OdTextSpan class
 
-Текстовый диапазон
+Текст span
 
 ```csharp
 public class OdTextSpan : OdStyledObject
@@ -18,13 +18,13 @@ public class OdTextSpan : OdStyledObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdTextSpan](odtextspan)(OdObject) | Инициализирует новый экземпляр класса[`OdTextSpan`](../odtextspan). |
+| [OdTextSpan](odtextspan)(OdObject) | Инициализирует новый экземпляр[`OdTextSpan`](../odtextspan) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Получает родительский объект. |
 | [Rectangle](../../aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/rectangle) { get; set; } | Получает или задает прямоугольник. |

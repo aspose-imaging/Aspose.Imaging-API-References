@@ -18,8 +18,8 @@ public class ImageCreateException : ImageException
 
 | Имя | Описание |
 | --- | --- |
-| [ImageCreateException](imagecreateexception#constructor)(string) | Инициализирует новый экземпляр класса[`ImageCreateException`](../imagecreateexception). |
-| [ImageCreateException](imagecreateexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр класса[`ImageCreateException`](../imagecreateexception). |
+| [ImageCreateException](imagecreateexception#constructor)(string) | Инициализирует новый экземпляр[`ImageCreateException`](../imagecreateexception) класс. |
+| [ImageCreateException](imagecreateexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр[`ImageCreateException`](../imagecreateexception) класс. |
 
 ### Смотрите также
 

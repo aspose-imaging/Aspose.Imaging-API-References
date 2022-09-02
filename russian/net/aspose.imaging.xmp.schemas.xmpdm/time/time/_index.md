@@ -1,14 +1,14 @@
 ---
 title: Time
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTimeaspose.imaging.xmp.schemas.xmpdm/time.
+description: Инициализирует новый экземплярTimeaspose.imaging.xmp.schemas.xmpdm/time класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp.schemas.xmpdm/time/time/
 ---
 ## Time constructor
 
-Инициализирует новый экземпляр класса[`Time`](../../time).
+Инициализирует новый экземпляр[`Time`](../../time) класс.
 
 ```csharp
 public Time(Rational scale, int value)

@@ -1,14 +1,14 @@
 ---
 title: EmfSetIcmMode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfSetIcmModeaspose.imaging.fileformats.emf.emf.records/emfseticmmode.
+description: Инициализирует новый экземплярEmfSetIcmModeaspose.imaging.fileformats.emf.emf.records/emfseticmmode класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfseticmmode/emfseticmmode/
 ---
 ## EmfSetIcmMode constructor
 
-Инициализирует новый экземпляр класса[`EmfSetIcmMode`](../../emfseticmmode).
+Инициализирует новый экземпляр[`EmfSetIcmMode`](../../emfseticmmode) класс.
 
 ```csharp
 public EmfSetIcmMode(EmfRecord source)

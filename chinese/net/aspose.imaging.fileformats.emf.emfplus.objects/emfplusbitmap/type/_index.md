@@ -1,14 +1,14 @@
 ---
 title: Type
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置图像的类型 类型4 字节一个 32 位无符号整数指定 BitmapData 中的数据类型场地该值必须 在EmfPlusBitmapDataTypeaspose.imaging.fileformats.emf.emfplus.consts/emfplusbitmapdatatype枚举中定义第 2.1.1.2 节
+description: 获取或设置图像的类型 类型4 个字节一个 32 位无符号整数指定 BitmapData 字段中的数据类型这个值必须 在EmfPlusBitmapDataTypeaspose.imaging.fileformats.emf.emfplus.consts/emfplusbitmapdatatype枚举第 2.1.1.2 节.
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap/type/
 ---
 ## EmfPlusBitmap.Type property
 
-获取或设置图像的类型 类型（4 字节）:一个 32 位无符号整数，指定 BitmapData 中的数据类型场地。该值必须 在[`EmfPlusBitmapDataType`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusbitmapdatatype)枚举中定义（第 2.1.1.2 节）。
+获取或设置图像的类型 类型（4 个字节）：一个 32 位无符号整数，指定 BitmapData 字段中的数据类型。这个值必须 在[`EmfPlusBitmapDataType`](../../../aspose.imaging.fileformats.emf.emfplus.consts/emfplusbitmapdatatype)枚举（第 2.1.1.2 节）.
 
 ```csharp
 public EmfPlusBitmapDataType Type { get; set; }

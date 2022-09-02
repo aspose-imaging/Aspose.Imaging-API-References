@@ -1,14 +1,14 @@
 ---
 title: PointData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定平行四边形的三个点的 Count 点数组 这三个点代表 平行四边形的左上角右上角和左下角平行四边形的第四个点是从前三个点推断出来的由 SrcRect 字段指定的图像的 部分应该在必要时应用缩放和剪切 变换以适应平行四边形
+description: 获取或设置指定平行四边形的三个点的 Count 点数组 这三个点表示 平行四边形的左上角右上角和左下角平行四边形的第四个点是从前三个点推断出来的 SrcRect 字段指定的图像的 部分应该应用缩放和剪切 变换以适应平行四边形
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimagepoints/pointdata/
 ---
 ## EmfPlusDrawImagePoints.PointData property
 
-获取或设置指定平行四边形的三个点的 Count 点数组。 这三个点代表 平行四边形的左上角、右上角和左下角。平行四边形的第四个点是从前三个点推断出来的。由 SrcRect 字段指定的图像的 部分应该在必要时应用缩放和剪切 变换以适应平行四边形。
+获取或设置指定平行四边形的三个点的 Count 点数组。 这三个点表示 平行四边形的左上角、右上角和左下角。平行四边形的第四个点是从前三个点推断出来的。 SrcRect 字段指定的图像的 部分应该应用缩放和剪切 变换以适应平行四边形。
 
 ```csharp
 public PointF[] PointData { get; set; }

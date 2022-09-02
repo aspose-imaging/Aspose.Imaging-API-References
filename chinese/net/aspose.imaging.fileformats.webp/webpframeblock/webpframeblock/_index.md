@@ -10,8 +10,6 @@ url: /zh/net/aspose.imaging.fileformats.webp/webpframeblock/webpframeblock/
 
 初始化[`WebPFrameBlock`](../../webpframeblock)
 
-的新实例
-
 班级。
 
 ```csharp
@@ -33,7 +31,7 @@ public WebPFrameBlock(RasterImage rasterImage)
 
 ## WebPFrameBlock(int, int) {#constructor_1}
 
-初始化[`WebPFrameBlock`](../../webpframeblock)类的新实例。
+初始化[`WebPFrameBlock`](../../webpframeblock)类.
 
 ```csharp
 public WebPFrameBlock(int width, int height)
@@ -61,16 +59,16 @@ createOptions.AnimBackgroundColor = (uint)Aspose.Imaging.Color.Gray.ToArgb();
 // 默认帧加上 36 + 36 个附加帧。
 createOptions.AnimLoopCount = 36 + 36 + 1;
 
-    // 创建一个 100x100 像素的 WebP 图像。
+// 创建一个 100x100 像素的 WebP 图像。
 using (Aspose.Imaging.FileFormats.Webp.WebPImage webPImage = new Aspose.Imaging.FileFormats.Webp.WebPImage(100, 100, createOptions))
 {
-        // 第一个圆圈是red
+    // 第一个圆圈是红色的
     Aspose.Imaging.Brushes.SolidBrush brush1 = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Red);
 
-        //第二个圆圈是black
+    //第二个圆圈是黑色的
     Aspose.Imaging.Brushes.SolidBrush brush2 = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.Black);
 
-        // 逐渐增加红色圆弧形状的角度。
+    // 逐渐增加红色弧形的角度。
     for (int angle = 10; angle <= 360; angle += 10)
     {
         Aspose.Imaging.FileFormats.Webp.WebPFrameBlock block = new Aspose.Imaging.FileFormats.Webp.WebPFrameBlock(100, 100);
@@ -80,7 +78,7 @@ using (Aspose.Imaging.FileFormats.Webp.WebPImage webPImage = new Aspose.Imaging.
         webPImage.AddBlock(block);
     }
 
-        // 逐渐增加黑弧的角度，抹去红弧。
+    // 逐渐增加黑色弧线的角度，将红色弧线抹去。
     for (int angle = 10; angle <= 360; angle += 10)
     {
         Aspose.Imaging.FileFormats.Webp.WebPFrameBlock block = new Aspose.Imaging.FileFormats.Webp.WebPFrameBlock(100, 100);
@@ -92,7 +90,7 @@ using (Aspose.Imaging.FileFormats.Webp.WebPImage webPImage = new Aspose.Imaging.
         webPImage.AddBlock(block);
     }
 
-        // 保存到 WebP 文件
+    // 保存到 WebP 文件
     webPImage.Save(dir + "output.webp");
 }
 ```

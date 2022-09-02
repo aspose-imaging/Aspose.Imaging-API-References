@@ -16,7 +16,7 @@ public long Data4 { get; set; }
 
 ### 适当的价值
 
-数据4。
+数据4.
 
 ### 也可以看看
 

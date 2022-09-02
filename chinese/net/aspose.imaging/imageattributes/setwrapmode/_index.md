@@ -1,14 +1,14 @@
 ---
 title: SetWrapMode
 second_title: Aspose.Imaging for .NET API 参考
-description: 设置用于决定如何在形状上或在形状边界处平铺纹理的环绕模式当纹理小于它正在填充的形状时纹理会平铺在形状上以填充它
+description: 设置用于决定如何在形状或形状边界处平铺纹理的环绕模式当纹理小于它正在填充的形状时纹理会平铺在形状上以填充它
 type: docs
 weight: 210
 url: /zh/net/aspose.imaging/imageattributes/setwrapmode/
 ---
 ## SetWrapMode(WrapMode) {#setwrapmode}
 
-设置用于决定如何在形状上或在形状边界处平铺纹理的环绕模式。当纹理小于它正在填充的形状时，纹理会平铺在形状上以填充它。
+设置用于决定如何在形状或形状边界处平铺纹理的环绕模式。当纹理小于它正在填充的形状时，纹理会平铺在形状上以填充它。
 
 ```csharp
 public void SetWrapMode(WrapMode mode)
@@ -16,7 +16,7 @@ public void SetWrapMode(WrapMode mode)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mode | WrapMode | [`WrapMode`](../../wrapmode)的一个元素，指定如何重复复制一个图像用于平铺区域。 |
+| mode | WrapMode | 一个元素[`WrapMode`](../../wrapmode)指定如何使用图像的重复副本来平铺区域。 |
 
 ### 也可以看看
 
@@ -29,7 +29,7 @@ public void SetWrapMode(WrapMode mode)
 
 ## SetWrapMode(WrapMode, Color) {#setwrapmode_1}
 
-设置环绕模式和颜色，用于决定如何在形状或形状边界处平铺纹理。当纹理小于它正在填充的形状时，纹理会平铺在形状上以填充它。
+设置用于决定如何在形状或形状边界处平铺纹理的环绕模式和颜色。当纹理小于它正在填充的形状时，纹理会平铺在形状上以填充它。
 
 ```csharp
 public void SetWrapMode(WrapMode mode, Color color)
@@ -37,8 +37,8 @@ public void SetWrapMode(WrapMode mode, Color color)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mode | WrapMode | [`WrapMode`](../../wrapmode)的一个元素，指定如何重复复制一个图像用于平铺区域。 |
-| color | Color | 一个[`ImageAttributes`](../../imageattributes)对象，用于指定渲染图像之外的像素颜色。如果 mode 参数设置为Clamp并且传递给 DrawImage 的源矩形大于图像本身，则此颜色可见。 |
+| mode | WrapMode | 一个元素[`WrapMode`](../../wrapmode)指定如何使用图像的重复副本来平铺区域。 |
+| color | Color | 一个[`ImageAttributes`](../../imageattributes)指定渲染图像之外的像素颜色的对象。如果 mode 参数设置为，则此颜色可见Clamp并且传递给 DrawImage 的源矩形大于图像本身。 |
 
 ### 也可以看看
 
@@ -52,7 +52,7 @@ public void SetWrapMode(WrapMode mode, Color color)
 
 ## SetWrapMode(WrapMode, Color, bool) {#setwrapmode_2}
 
-设置环绕模式和颜色，用于决定如何在形状或形状边界处平铺纹理。当纹理小于它正在填充的形状时，纹理会平铺在形状上以填充它。
+设置用于决定如何在形状或形状边界处平铺纹理的环绕模式和颜色。当纹理小于它正在填充的形状时，纹理会平铺在形状上以填充它。
 
 ```csharp
 public void SetWrapMode(WrapMode mode, Color color, bool clamp)
@@ -60,8 +60,8 @@ public void SetWrapMode(WrapMode mode, Color color, bool clamp)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mode | WrapMode | [`WrapMode`](../../wrapmode)的一个元素，指定如何重复复制一个图像用于平铺区域。 |
-| color | Color | 一个颜色对象，用于指定渲染图像之外的像素颜色。如果 mode 参数设置为Clamp并且传递给 DrawImage 的源矩形大于图像本身，则此颜色可见。 |
+| mode | WrapMode | 一个元素[`WrapMode`](../../wrapmode)指定如何使用图像的重复副本来平铺区域。 |
+| color | Color | 一个颜色对象，它指定渲染图像之外的像素颜色。如果 mode 参数设置为，则此颜色可见Clamp并且传递给 DrawImage 的源矩形大于图像本身。 |
 | clamp | Boolean | 该参数无效。将其设置为假。 |
 
 ### 也可以看看

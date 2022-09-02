@@ -1,14 +1,14 @@
 ---
 title: OdLine
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Объект линии
+description: Строка object
 type: docs
 weight: 7110
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odline/
 ---
 ## OdLine class
 
-Объект линии
+Строка object
 
 ```csharp
 public class OdLine : OdStyledObject
@@ -18,17 +18,17 @@ public class OdLine : OdStyledObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdLine](odline)(OdObject) | Инициализирует новый экземпляр класса[`OdPage`](../odpage). |
+| [OdLine](odline)(OdObject) | Инициализирует новый экземпляр[`OdPage`](../odpage) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Получает родительский объект. |
 | [Point1](../../aspose.imaging.fileformats.opendocument.objects.graphic/odline/point1) { get; set; } | Получает или задает точку1. |
-| [Point2](../../aspose.imaging.fileformats.opendocument.objects.graphic/odline/point2) { get; set; } | Получает или устанавливает точку2. |
+| [Point2](../../aspose.imaging.fileformats.opendocument.objects.graphic/odline/point2) { get; set; } | Получает или задает точку2. |
 | [Rectangle](../../aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/rectangle) { get; set; } | Получает или задает прямоугольник. |
 | [Style](../../aspose.imaging.fileformats.opendocument.objects.graphic/odstyledobject/style) { get; set; } | Получает или задает стиль. |
 

@@ -1,14 +1,14 @@
 ---
 title: EmfException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Исключение для классов ЭМП
+description: Исключение для классов ЭДС
 type: docs
 weight: 550
 url: /ru/net/aspose.imaging.coreexceptions.imageformats/emfexception/
 ---
 ## EmfException class
 
-Исключение для классов ЭМП
+Исключение для классов ЭДС
 
 ```csharp
 public class EmfException : Exception
@@ -18,7 +18,7 @@ public class EmfException : Exception
 
 | Имя | Описание |
 | --- | --- |
-| [EmfException](emfexception)(string) | Инициализирует новый экземпляр класса[`EmfException`](../emfexception). |
+| [EmfException](emfexception)(string) | Инициализирует новый экземпляр[`EmfException`](../emfexception) класс. |
 
 ### Смотрите также
 

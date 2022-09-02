@@ -1,14 +1,14 @@
 ---
 title: GPSDestLongitude
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置目标点的 GPS 经度
+description: 获取或设置目标点的GPS经度
 type: docs
 weight: 460
 url: /zh/net/aspose.imaging.exif/exifdata/gpsdestlongitude/
 ---
 ## ExifData.GPSDestLongitude property
 
-获取或设置目标点的 GPS 经度。
+获取或设置目标点的GPS经度。
 
 ```csharp
 public TiffRational[] GPSDestLongitude { get; set; }
@@ -16,7 +16,7 @@ public TiffRational[] GPSDestLongitude { get; set; }
 
 ### 适当的价值
 
-目标点的 GPS 经度。
+目的地点的GPS经度。
 
 ### 也可以看看
 

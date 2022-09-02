@@ -1,14 +1,14 @@
 ---
 title: GrayscaleAlpha
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПолучаетPixelDataFormataspose.imaging/pixeldataformatопределенный для 16 бит на пиксель с 8 битами представляющими интенсивность оттенков серого в интервале 0255. и дополнительный 8-битный альфа-компонент.
+description: ПолучаетPixelDataFormataspose.imaging/pixeldataformat определено для 16 бит на пиксель с 8 битами представляющими интенсивность оттенков серого в интервале 0255 и дополнительным 8-битным альфа-компонентом.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging/pixeldataformat/grayscalealpha/
 ---
 ## PixelDataFormat.GrayscaleAlpha property
 
-Получает[`PixelDataFormat`](../../pixeldataformat)определенный для 16 бит на пиксель с 8 битами, представляющими интенсивность оттенков серого в интервале 0–255. и дополнительный 8-битный альфа-компонент.
+Получает[`PixelDataFormat`](../../pixeldataformat) определено для 16 бит на пиксель с 8 битами, представляющими интенсивность оттенков серого в интервале 0–255, и дополнительным 8-битным альфа-компонентом.
 
 ```csharp
 public static PixelDataFormat GrayscaleAlpha { get; }
@@ -16,7 +16,7 @@ public static PixelDataFormat GrayscaleAlpha { get; }
 
 ### Стоимость имущества
 
-Формат[`PixelDataFormat`](../../pixeldataformat)определен для 16 бит на пиксель с 8 битами, представляющими интенсивность оттенков серого в интервале 0–255, и дополнительным 8-битным альфа-компонентом.
+[`PixelDataFormat`](../../pixeldataformat) определено для 16 бит на пиксель с 8 битами, представляющими интенсивность оттенков серого в интервале 0–255, и дополнительным 8-битным альфа-компонентом.
 
 ### Смотрите также
 

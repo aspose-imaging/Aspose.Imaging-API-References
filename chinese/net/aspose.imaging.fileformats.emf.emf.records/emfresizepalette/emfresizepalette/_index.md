@@ -1,14 +1,14 @@
 ---
 title: EmfResizePalette
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfResizePaletteaspose.imaging.fileformats.emf.emf.records/emfresizepalette类的新实例
+description: 初始化EmfResizePaletteaspose.imaging.fileformats.emf.emf.records/emfresizepalette类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfresizepalette/emfresizepalette/
 ---
 ## EmfResizePalette constructor
 
-初始化[`EmfResizePalette`](../../emfresizepalette)类的新实例。
+初始化[`EmfResizePalette`](../../emfresizepalette)类.
 
 ```csharp
 public EmfResizePalette(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfResizePalette(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 

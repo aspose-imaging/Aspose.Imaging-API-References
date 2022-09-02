@@ -16,7 +16,7 @@ public static int GetM(int cmyk)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cmyk | Int32 | Цвет CMYK, представленный как 32-битное целочисленное значение. |
+| cmyk | Int32 | Цвет CMYK представлен в виде 32-битного целого числа. |
 
 ### Возвращаемое значение
 
@@ -29,32 +29,30 @@ public static int GetM(int cmyk)
 ```csharp
 [C#]
 
-int[] cmykColors = new int[]
+Aspose.Imaging.Color[] rgbColors = new Aspose.Imaging.Color[]
 {
-    Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0),    // голубой
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0),    // Пурпурный
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0),    // Желтый
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255),    // Черный
+    Aspose.Imaging.Color.Red,
+    Aspose.Imaging.Color.Green,
+    Aspose.Imaging.Color.Blue,
 };
 
-System.Console.WriteLine("Convert CMYK to RGB without using ICC profiles.");
-foreach (int cmykColor in cmykColors)
+System.Console.WriteLine("Convert RGB to CMYK without using ICC profiles.");
+foreach (Aspose.Imaging.Color rgbColor in rgbColors)
 {
-    Aspose.Imaging.Color rgbColor = Aspose.Imaging.CmykColorHelper.ToArgb(cmykColor);
-    int c = Aspose.Imaging.CmykColorHelper.GetC(cmykColor);
-    int m = Aspose.Imaging.CmykColorHelper.GetM(cmykColor);
-    int y = Aspose.Imaging.CmykColorHelper.GetY(cmykColor);
-    int k = Aspose.Imaging.CmykColorHelper.GetK(cmykColor);
+    int cmyk = Aspose.Imaging.CmykColorHelper.ToCmyk(rgbColor);
+    int c = Aspose.Imaging.CmykColorHelper.GetC(cmyk);
+    int m = Aspose.Imaging.CmykColorHelper.GetM(cmyk);
+    int y = Aspose.Imaging.CmykColorHelper.GetY(cmyk);
+    int k = Aspose.Imaging.CmykColorHelper.GetK(cmyk);
 
-    System.Console.WriteLine("CMYK({0},{1},{2},{3})\t\t=> RGB({4},{5},{6})", c, m, y, k, rgbColor.R, rgbColor.G, rgbColor.B);
+    System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k);
 }
 
- // Вывод выглядит так: 
- //Преобразование CMYK в RGB без использования профилей ICC.
- //CMYK(255,0,0,0) => RGB(0,255,255)
- //CMYK(0,255,0,0) => RGB(255,0,255)
- //CMYK(0,0,255,0) => RGB(255,255,0)
-//CMYK(0,0,0,255) => RGB(0,0,0)
+//Вывод выглядит так:
+//Преобразование RGB в CMYK без использования профилей ICC.
+//RGB(255,0,0) => CMYK(0,255,255,0)
+//RGB(0,128,0) => CMYK(255,0,255,127)
+//RGB(0,0,255) => CMYK(255,255,0,0)
 ```
 
 В следующем примере показано, как быстро преобразовать цвета CMYK в их аналоги RGB с помощью простых формул без использования профилей ICC.
@@ -64,10 +62,10 @@ foreach (int cmykColor in cmykColors)
 
 int[] cmykColors = new int[]
 {
-    Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0),    // голубой
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0),    // Пурпурный
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0),    // Желтый
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255),    // Черный
+    Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0),   // голубой
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0),   // Пурпурный
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0),   // Желтый
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255),   // Черный
 };
 
 System.Console.WriteLine("Convert CMYK to RGB without using ICC profiles.");
@@ -82,11 +80,11 @@ foreach (int cmykColor in cmykColors)
     System.Console.WriteLine("CMYK({0},{1},{2},{3})\t\t=> RGB({4},{5},{6})", c, m, y, k, rgbColor.R, rgbColor.G, rgbColor.B);
 }
 
- // Вывод выглядит так: 
- //Преобразование CMYK в RGB без использования профилей ICC.
- //CMYK(255,0,0,0) => RGB(0,255,255)
- //CMYK(0,255,0,0) => RGB(255,0,255)
- //CMYK(0,0,255,0) => RGB(255,255,0)
+//Вывод выглядит так:
+//Преобразование CMYK в RGB без использования профилей ICC.
+//CMYK(255,0,0,0) => RGB(0,255,255)
+//CMYK(0,255,0,0) => RGB(255,0,255)
+//CMYK(0,0,255,0) => RGB(255,255,0)
 //CMYK(0,0,0,255) => RGB(0,0,0)
 ```
 

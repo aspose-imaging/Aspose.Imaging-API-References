@@ -1,14 +1,14 @@
 ---
 title: APoints
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 WMF PointL 对象数组MS-WMF 第 2.2.2.15 节 指定所有多边形的点逻辑单元点数由 Count 字段值指定
+description: 获取或设置一个 WMF PointL 对象数组MS-WMF 第 2.2.2.15 节 以逻辑单位指定所有多边形的点点数由 Count字段值指定
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/apoints/
 ---
 ## EmfPolyPolygon.APoints property
 
-获取或设置 WMF PointL 对象数组（[MS-WMF] 第 2.2.2.15 节）， 指定所有多边形的点逻辑单元。点数由 Count 字段值指定。
+获取或设置一个 WMF PointL 对象数组（[MS-WMF] 第 2.2.2.15 节）， 以逻辑单位指定所有多边形的点。点数由 Count字段值指定。
 
 ```csharp
 public Point[][] APoints { get; set; }

@@ -16,7 +16,7 @@ public float LanguageSpacing { get; set; }
 
 ### 适当的价值
 
-语言间距，以百分比表示。
+语言间距，以百分比为单位。
 
 ### 也可以看看
 

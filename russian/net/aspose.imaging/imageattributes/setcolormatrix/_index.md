@@ -38,7 +38,7 @@ public void SetColorMatrix(ColorMatrix newColorMatrix, ColorMatrixFlag flags)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | newColorMatrix | ColorMatrix | Матрица настройки цвета. |
-| flags | ColorMatrixFlag | Элемент[`ColorMatrixFlag`](../../colormatrixflag), указывающий тип изображения и цвет, на который будет воздействовать матрица настройки цвета. |
+| flags | ColorMatrixFlag | Элемент[`ColorMatrixFlag`](../../colormatrixflag) который определяет тип изображения и цвет, на который будет воздействовать матрица настройки цвета. |
 
 ### Смотрите также
 
@@ -61,8 +61,8 @@ public void SetColorMatrix(ColorMatrix newColorMatrix, ColorMatrixFlag mode, Col
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | newColorMatrix | ColorMatrix | Матрица настройки цвета. |
-| mode | ColorMatrixFlag | Элемент[`ColorMatrixFlag`](../../colormatrixflag), указывающий тип изображения и цвет, на который будет воздействовать матрица настройки цвета. |
-| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype), указывающий категорию, для которой установлена матрица настройки цвета. |
+| mode | ColorMatrixFlag | Элемент[`ColorMatrixFlag`](../../colormatrixflag) который определяет тип изображения и цвет, на который будет воздействовать матрица настройки цвета. |
+| type | ColorAdjustType | Элемент[`ColorAdjustType`](../../coloradjusttype) который указывает категорию, для которой установлена матрица настройки цвета. |
 
 ### Смотрите также
 

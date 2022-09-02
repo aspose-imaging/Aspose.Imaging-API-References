@@ -1,14 +1,14 @@
 ---
 title: EmfSetMetaRgn
 second_title: Aspose.Imaging for .NET API 参考
-description: Inter 将当前元区域设置为当前剪辑区域 以形成播放设备上下文的新元区域 当前剪辑区域应该重置为空 此 EMF 记录未指定参数
+description: Inter 设置当前元区域与当前剪辑区域 以形成播放设备上下文的新元区域 The 当前剪辑区域应该重置为空 此 EMF 记录未指定参数
 type: docs
 weight: 4420
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetmetargn/
 ---
 ## EmfSetMetaRgn class
 
-Inter 将当前元区域设置为当前剪辑区域 以形成播放设备上下文的新元区域。 当前剪辑区域应该重置为空。 此 EMF 记录未指定参数。
+Inter 设置当前元区域与当前剪辑区域 以形成播放设备上下文的新元区域。 The 当前剪辑区域应该重置为空。 此 EMF 记录未指定参数。
 
 ```csharp
 public sealed class EmfSetMetaRgn : EmfClippingRecordType
@@ -18,7 +18,7 @@ public sealed class EmfSetMetaRgn : EmfClippingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSetMetaRgn](emfsetmetargn)(EmfRecord) | 初始化[`EmfSetMetaRgn`](../emfsetmetargn)类的新实例。 |
+| [EmfSetMetaRgn](emfsetmetargn)(EmfRecord) | 初始化[`EmfSetMetaRgn`](../emfsetmetargn)类. |
 
 ## 特性
 

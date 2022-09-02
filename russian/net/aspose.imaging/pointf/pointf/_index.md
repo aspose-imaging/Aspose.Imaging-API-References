@@ -1,14 +1,14 @@
 ---
 title: PointF
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр структурыPointFaspose.imaging/pointfс указанными координатами.
+description: Инициализирует новый экземплярPointFaspose.imaging/pointf структура с указанными координатами.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging/pointf/pointf/
 ---
 ## PointF constructor
 
-Инициализирует новый экземпляр структуры[`PointF`](../../pointf)с указанными координатами.
+Инициализирует новый экземпляр[`PointF`](../../pointf) структура с указанными координатами.
 
 ```csharp
 public PointF(float x, float y)

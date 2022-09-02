@@ -1,14 +1,14 @@
 ---
 title: PopFrameAt
 second_title: Aspose.Imaging for .NET API 参考
-description: 移除并返回自身帧集合指定索引处的帧
+description: 移除并返回自己框架集合的指定索引处的框架
 type: docs
 weight: 260
 url: /zh/net/aspose.imaging.fileformats.apng/apngimage/popframeat/
 ---
 ## ApngImage.PopFrameAt method
 
-移除并返回自身帧集合指定索引处的帧。
+移除并返回自己框架集合的指定索引处的框架。
 
 ```csharp
 public ApngFrame PopFrameAt(int index)
@@ -16,17 +16,17 @@ public ApngFrame PopFrameAt(int index)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | Int32 | 索引。 |
+| index | Int32 | 指数。 |
 
 ### 返回值
 
-移除的 APNG 帧。
+删除的 APNG 帧。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentOutOfRangeException | *index*小于 0。 或 ::R9:index:::等于或大于[`PageCount`](../pagecount)。 |
+| ArgumentOutOfRangeException | *index*小于 0. 或 *index*等于或大于[`PageCount`](../pagecount) . |
 
 ### 也可以看看
 

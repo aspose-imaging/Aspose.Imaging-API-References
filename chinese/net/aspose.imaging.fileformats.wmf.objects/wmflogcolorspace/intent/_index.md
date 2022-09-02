@@ -1,14 +1,14 @@
 ---
 title: Intent
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置定义色域映射 意图的 32 位有符号整数它必须在 GamutMappingIntent 枚举 中定义第 2.1.1.11 节
+description: 获取或设置一个 32 位有符号整数用于定义色域 mapping 意图它必须在 GamutMappingIntent enumeration 第 2.1.1.11 节中定义
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/intent/
 ---
 ## WmfLogColorSpace.Intent property
 
-获取或设置定义色域映射 意图的 32 位有符号整数。它必须在 GamutMappingIntent 枚举 中定义（第 2.1.1.11 节）。
+获取或设置一个 32 位有符号整数，用于定义色域 mapping 意图。它必须在 GamutMappingIntent enumeration （第 2.1.1.11 节）中定义。
 
 ```csharp
 public WmfGamutMappingIntent Intent { get; set; }

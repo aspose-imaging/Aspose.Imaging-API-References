@@ -1,14 +1,14 @@
 ---
 title: Left
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置此Rectangleaspose.imaging/rectangle结构左边缘的 x 坐标
+description: 获取或设置 this 的左边缘的 x 坐标Rectangleaspose.imaging/rectangle结构.
 type: docs
 weight: 140
 url: /zh/net/aspose.imaging/rectangle/left/
 ---
 ## Rectangle.Left property
 
-获取或设置此[`Rectangle`](../../rectangle)结构左边缘的 x 坐标。
+获取或设置 this 的左边缘的 x 坐标[`Rectangle`](../../rectangle)结构.
 
 ```csharp
 public int Left { get; set; }
@@ -16,7 +16,7 @@ public int Left { get; set; }
 
 ### 适当的价值
 
-此[`Rectangle`](../../rectangle)结构左边缘的 x 坐标。
+这个左边缘的x坐标[`Rectangle`](../../rectangle)结构体。
 
 ### 也可以看看
 

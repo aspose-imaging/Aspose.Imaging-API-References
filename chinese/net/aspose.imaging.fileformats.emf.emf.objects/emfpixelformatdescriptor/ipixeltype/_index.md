@@ -1,14 +1,14 @@
 ---
 title: IPixelType
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置像素数据的类型 PFD_TYPE_RGBA 0x00 像素格式为RGBA PFD_TYPE_COLORINDEX 0x01 每个像素都是颜色表中的一个索引
+description: 获取或设置像素数据的类型 PFD_TYPE_RGBA 0x00 像素格式为RGBA PFD_TYPE_COLORINDEX 0x01 每个像素是颜色表中的一个索引
 type: docs
 weight: 250
 url: /zh/net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/ipixeltype/
 ---
 ## EmfPixelFormatDescriptor.IPixelType property
 
-获取或设置像素数据的类型 PFD_TYPE_RGBA 0x00 像素格式为RGBA。 PFD_TYPE_COLORINDEX 0x01 每个像素都是颜色表中的一个索引。
+获取或设置像素数据的类型 PFD_TYPE_RGBA 0x00 像素格式为RGBA。 PFD_TYPE_COLORINDEX 0x01 每个像素是颜色表中的一个索引。
 
 ```csharp
 public byte IPixelType { get; set; }

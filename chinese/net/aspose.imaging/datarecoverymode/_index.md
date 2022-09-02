@@ -8,7 +8,7 @@ url: /zh/net/aspose.imaging/datarecoverymode/
 ---
 ## DataRecoveryMode enumeration
 
-数据恢复模式。
+数据恢复模式
 
 ```csharp
 public enum DataRecoveryMode
@@ -18,9 +18,9 @@ public enum DataRecoveryMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 暗示没有数据恢复。只要文件格式有一些损坏的数据，就会引发相应的异常。 |
+| None | `0` | 不暗示数据恢复。只要文件格式有一些损坏的数据，就会引发相应的异常。 |
 | ConsistentRecover | `1` | 一致恢复模式会尝试恢复所有数据，只要损坏不会破坏文件格式并允许正确的进一步处理。 |
-| MaximalRecover | `2` | 最大恢复模式会恢复所有数据，即使文件格式结构已损坏，进一步处理可能会产生无人看管的效果。 |
+| MaximalRecover | `2` | 最大恢复模式会恢复所有数据，即使文件格式结构已损坏，进一步处理可能会产生无人值守的影响。 |
 
 ### 也可以看看
 

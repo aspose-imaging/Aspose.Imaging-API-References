@@ -1,14 +1,14 @@
 ---
 title: FromPointF
 second_title: Aspose.Imaging for .NET API 参考
-description: 将PointDaspose.imaging.fileformats.cdr.types/pointd转换为ImagingPointF结构
+description: 转换PointDaspose.imaging.fileformats.cdr.types/pointd到PointFaspose.imaging/pointf结构.
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.cdr.types/pointd/frompointf/
 ---
 ## PointD.FromPointF method
 
-将[`PointD`](../../pointd)转换为Imaging。PointF结构。
+转换[`PointD`](../../pointd)到[`PointF`](../../../aspose.imaging/pointf)结构.
 
 ```csharp
 public void FromPointF(PointF point)
@@ -16,7 +16,7 @@ public void FromPointF(PointF point)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| point | PointF | [`PointD`](../../pointd)结构。 |
+| point | PointF | 这[`PointD`](../../pointd)结构体。 |
 
 ### 也可以看看
 

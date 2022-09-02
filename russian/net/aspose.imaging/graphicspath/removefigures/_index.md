@@ -1,14 +1,14 @@
 ---
 title: RemoveFigures
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Удаляет фигурки.
+description: Удаляет фигуры.
 type: docs
 weight: 140
 url: /ru/net/aspose.imaging/graphicspath/removefigures/
 ---
 ## GraphicsPath.RemoveFigures method
 
-Удаляет фигурки.
+Удаляет фигуры.
 
 ```csharp
 public void RemoveFigures(Figure[] figures)
@@ -16,7 +16,7 @@ public void RemoveFigures(Figure[] figures)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| figures | Figure[] | Фигуры для удаления. |
+| figures | Figure[] | Цифры удалить. |
 
 ### Смотрите также
 

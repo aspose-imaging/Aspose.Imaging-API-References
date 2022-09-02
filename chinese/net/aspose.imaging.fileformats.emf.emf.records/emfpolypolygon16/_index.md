@@ -1,14 +1,14 @@
 ---
 title: EmfPolyPolygon16
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_POLYPOLYGON16 记录指定了一系列闭合多边形每个多边形都使用当前画笔勾勒出 轮廓并使用当前画笔和多边形填充模式进行填充这条记录绘制的多边形 可以重叠
+description: EMR_POLYPOLYGON16 记录指定了一系列闭合多边形使用当前画笔对每个多边形进行 轮廓并使用当前画笔和多边形填充模式进行填充此记录绘制的多边形 可以重叠
 type: docs
 weight: 4030
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon16/
 ---
 ## EmfPolyPolygon16 class
 
-EMR_POLYPOLYGON16 记录指定了一系列闭合多边形。每个多边形都使用当前画笔勾勒出 轮廓，并使用当前画笔和多边形填充模式进行填充。这条记录绘制的多边形 可以重叠。
+EMR_POLYPOLYGON16 记录指定了一系列闭合多边形。使用当前画笔对每个多边形进行 轮廓，并使用当前画笔和多边形填充模式进行填充。此记录绘制的多边形 可以重叠。
 
 ```csharp
 public sealed class EmfPolyPolygon16 : EmfDrawingRecordType
@@ -18,21 +18,21 @@ public sealed class EmfPolyPolygon16 : EmfDrawingRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfPolyPolygon16](emfpolypolygon16#constructor)() | 初始化[`EmfPolyPolygon16`](../emfpolypolygon16)类的新实例。 |
-| [EmfPolyPolygon16](emfpolypolygon16#constructor_1)(EmfRecord) | 初始化[`EmfPolyPolygon16`](../emfpolypolygon16)类的新实例。 |
+| [EmfPolyPolygon16](emfpolypolygon16#constructor)() | 初始化[`EmfPolyPolygon16`](../emfpolypolygon16)类. |
+| [EmfPolyPolygon16](emfpolypolygon16#constructor_1)(EmfRecord) | 初始化[`EmfPolyPolygon16`](../emfpolypolygon16)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolygon16/apoints) { get; set; } | 获取或设置 WMF PointS 对象的 Count 长度数组，在 [MS-WMF] 2.2.2.16 节中指定，它指定了数组的点。 |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolygon16/bounds) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象，在 [MS-WMF] 第 2.2.2.19 节中指定， 指定边界矩形, 以设备为单位。 |
+| [APoints](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolygon16/apoints) { get; set; } | 获取或设置 WMF PointS 对象的 Count 长度数组，在 [MS-WMF] 2.2.2.16 节中指定，它指定点数组。 |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolypolygon16/bounds) { get; set; } | 获取或设置一个 128 位 WMF RectL 对象，在 [MS-WMF] 第 2.2.2.19 节中指定， 指定边界矩形，以设备为单位。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 
 ### 评论
 
-每个多边形都应该使用当前画笔勾勒，并使用当前画笔和 在播放设备上下文中定义的多边形填充模式。此 记录定义的多边形可以重叠。
+每个多边形都应该使用当前画笔勾勒出轮廓，并使用当前画笔和播放设备上下文中定义的 多边形填充模式进行填充。此 记录定义的多边形可以重叠。
 
 ### 也可以看看
 

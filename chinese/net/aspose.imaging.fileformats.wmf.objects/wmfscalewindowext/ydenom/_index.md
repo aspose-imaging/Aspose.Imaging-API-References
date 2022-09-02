@@ -1,14 +1,14 @@
 ---
 title: YDenom
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 y denom
+description: 获取或设置 y denom.
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/ydenom/
 ---
 ## WmfScaleWindowExt.YDenom property
 
-获取或设置 y denom。
+获取或设置 y denom.
 
 ```csharp
 public short YDenom { get; set; }
@@ -16,7 +16,7 @@ public short YDenom { get; set; }
 
 ### 适当的价值
 
-乘以当前 y 的结果除以的数量- yNum 成员的值。
+将 current y 范围乘以 yNum 成员的值的结果除以的数量。
 
 ### 也可以看看
 

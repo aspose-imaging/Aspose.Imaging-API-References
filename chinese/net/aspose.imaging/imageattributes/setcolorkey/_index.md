@@ -16,7 +16,7 @@ public void SetColorKey(Color colorLow, Color colorHigh)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| colorLow | Color | 低色键值。 |
+| colorLow | Color | 低颜色键值。 |
 | colorHigh | Color | 高颜色键值。 |
 
 ### 也可以看看
@@ -38,9 +38,9 @@ public void SetColorKey(Color colorLow, Color colorHigh, ColorAdjustType type)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| colorLow | Color | 低色键值。 |
+| colorLow | Color | 低颜色键值。 |
 | colorHigh | Color | 高颜色键值。 |
-| type | ColorAdjustType | [`ColorAdjustType`](../../coloradjusttype)的一个元素，指定为其设置颜色键的类别。 |
+| type | ColorAdjustType | 一个元素[`ColorAdjustType`](../../coloradjusttype)指定为其设置颜色键的类别。 |
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newWidth | Int32 | 新宽度。 |
+| newWidth | Int32 | 新的宽度。 |
 | newHeight | Int32 | 新高度。 |
 | resizeType | ResizeType | 调整大小类型。 |
 
@@ -31,7 +31,7 @@ string dir = "c:\\temp\\";
 
 using (Aspose.Imaging.FileFormats.Gif.GifImage image = (Aspose.Imaging.FileFormats.Gif.GifImage)Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-        // 使用最近邻重采样放大 2 倍。
+    // 使用最近邻重采样放大 2 倍。
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
     image.Save(dir + "upsample.nearestneighbour.gif");
 }
@@ -45,14 +45,14 @@ using (Aspose.Imaging.FileFormats.Gif.GifImage image = (Aspose.Imaging.FileForma
 
 using (Aspose.Imaging.FileFormats.Gif.GifImage image = (Aspose.Imaging.FileFormats.Gif.GifImage)Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-        // 使用双线性重采样放大 2 倍。
+    // 使用双线性重采样放大 2 倍。
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.BilinearResample);
     image.Save(dir + "upsample.bilinear.gif");
 }
 
 using (Aspose.Imaging.FileFormats.Gif.GifImage image = (Aspose.Imaging.FileFormats.Gif.GifImage)Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-        // 使用双线性重采样缩小 2 倍。
+    // 使用双线性重采样缩小 2 倍。
     image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.BilinearResample);
     image.Save(dir + "downsample.bilinear.gif");
 }
@@ -77,7 +77,7 @@ public override void Resize(int newWidth, int newHeight, ImageResizeSettings set
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newWidth | Int32 | 新宽度。 |
+| newWidth | Int32 | 新的宽度。 |
 | newHeight | Int32 | 新高度。 |
 | settings | ImageResizeSettings | 调整大小设置。 |
 
@@ -92,29 +92,29 @@ string dir = "c:\\temp\\";
 
 Aspose.Imaging.ImageResizeSettings resizeSettings = new Aspose.Imaging.ImageResizeSettings();
 
-    // 基于加权混合有理函数和lanczos3插值的自适应算法。
+// 基于加权混合有理函数和 lanczos3 插值的自适应算法。
 resizeSettings.Mode = Aspose.Imaging.ResizeType.AdaptiveResample;
 
-    // 小矩形过滤器
+// 小矩形过滤器
 resizeSettings.FilterType = Aspose.Imaging.ImageFilterType.SmallRectangular;
 
-    // 调色板中的颜色数量.
+// 调色板中的颜色数量。
 resizeSettings.EntriesCount = 256;
 
-    // 没有使用颜色量化
+// 不使用颜色量化
 resizeSettings.ColorQuantizationMethod = ColorQuantizationMethod.None;
 
-    // 欧几里得方法
+// 欧几里得方法
 resizeSettings.ColorCompareMethod = ColorCompareMethod.Euclidian;
 
 using (Aspose.Imaging.Image image = (Aspose.Imaging.Image)Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
     Aspose.Imaging.FileFormats.Gif.GifImage gifImage = (Aspose.Imaging.FileFormats.Gif.GifImage)image;
 
-        // 使用自适应重采样缩小 2 倍。
+    // 使用自适应重采样缩小 2 倍。
     gifImage.Resize(image.Width / 2, image.Height / 2, resizeSettings);
 
-        // 保存到 PNG
+    // 保存为 PNG
     gifImage.Save(dir + "downsample.adaptive.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```

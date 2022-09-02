@@ -1,14 +1,14 @@
 ---
 title: PsdVectorizationOptions
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Параметры векторизованной растеризации PSD.
+description: Параметры векторной растеризации PSD.
 type: docs
-weight: 10160
+weight: 10150
 url: /ru/net/aspose.imaging.imageoptions/psdvectorizationoptions/
 ---
 ## PsdVectorizationOptions class
 
-Параметры векторизованной растеризации PSD.
+Параметры векторной растеризации PSD.
 
 ```csharp
 public class PsdVectorizationOptions

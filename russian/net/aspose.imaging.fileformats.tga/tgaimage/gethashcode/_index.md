@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получить хэш-код этого экземпляра. Не подходит для использования в качестве ключа посколькуTgaImageaspose.imaging.fileformats.tga/tgaimageне является неизменным.
+description: Получить хэш-код этого экземпляра. Не подходит для использования в качестве ключа т.к.TgaImageaspose.imaging.fileformats.tga/tgaimage не является неизменным.
 type: docs
 weight: 330
 url: /ru/net/aspose.imaging.fileformats.tga/tgaimage/gethashcode/
 ---
 ## TgaImage.GetHashCode method
 
-Получить хэш-код этого экземпляра. Не подходит для использования в качестве ключа, поскольку[`TgaImage`](../../tgaimage)не является неизменным.
+Получить хэш-код этого экземпляра. Не подходит для использования в качестве ключа, т.к.[`TgaImage`](../../tgaimage) не является неизменным.
 
 ```csharp
 public override int GetHashCode()

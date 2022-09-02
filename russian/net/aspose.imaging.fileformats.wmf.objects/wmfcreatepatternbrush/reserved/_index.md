@@ -1,14 +1,14 @@
 ---
 title: Reserved
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает зарезервированное значение.
+description: Получает или устанавливает зарезервированное.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfcreatepatternbrush/reserved/
 ---
 ## WmfCreatePatternBrush.Reserved property
 
-Получает или устанавливает зарезервированное значение.
+Получает или устанавливает зарезервированное.
 
 ```csharp
 public byte[] Reserved { get; set; }

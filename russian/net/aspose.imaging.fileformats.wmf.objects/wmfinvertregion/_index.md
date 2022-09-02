@@ -18,8 +18,8 @@ public class WmfInvertRegion : WmfObject
 
 | Имя | Описание |
 | --- | --- |
-| [WmfInvertRegion](wmfinvertregion#constructor)() | Инициализирует новый экземпляр класса[`WmfInvertRegion`](../wmfinvertregion). |
-| [WmfInvertRegion](wmfinvertregion#constructor_1)(WmfGraphicObject) | Инициализирует новый экземпляр класса[`WmfInvertRegion`](../wmfinvertregion). |
+| [WmfInvertRegion](wmfinvertregion#constructor)() | Инициализирует новый экземпляр[`WmfInvertRegion`](../wmfinvertregion) класс. |
+| [WmfInvertRegion](wmfinvertregion#constructor_1)(WmfGraphicObject) | Инициализирует новый экземпляр[`WmfInvertRegion`](../wmfinvertregion) класс. |
 
 ## Характеристики
 

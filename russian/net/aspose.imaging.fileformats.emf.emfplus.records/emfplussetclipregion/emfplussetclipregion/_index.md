@@ -1,14 +1,14 @@
 ---
 title: EmfPlusSetClipRegion
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfPlusSetClipRegionaspose.imaging.fileformats.emf.emfplus.records/emfplussetclipregion.
+description: Инициализирует новый экземплярEmfPlusSetClipRegionaspose.imaging.fileformats.emf.emfplus.records/emfplussetclipregion класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetclipregion/emfplussetclipregion/
 ---
 ## EmfPlusSetClipRegion constructor
 
-Инициализирует новый экземпляр класса[`EmfPlusSetClipRegion`](../../emfplussetclipregion).
+Инициализирует новый экземпляр[`EmfPlusSetClipRegion`](../../emfplussetclipregion) класс.
 
 ```csharp
 public EmfPlusSetClipRegion(EmfPlusRecord source)

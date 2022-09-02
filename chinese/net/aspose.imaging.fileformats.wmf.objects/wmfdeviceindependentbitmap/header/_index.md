@@ -1,14 +1,14 @@
 ---
 title: Header
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定信息的 BitmapCoreHeader 对象第 2.2.2.2 节或 BitmapInfoHeader 对象第 2.2.2.3 节47关于图片
+description: 获取或设置 BitmapCoreHeader 对象第 2.2.2.2 节或 a BitmapInfoHeader 对象第 2.2.2.3 节指定关于 image 的 information
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/header/
 ---
 ## WmfDeviceIndependentBitmap.Header property
 
-获取或设置指定信息的 BitmapCoreHeader 对象（第 2.2.2.2 节）或 BitmapInfoHeader 对象（第 2.2.2.3 节）::47:::关于图片
+获取或设置 BitmapCoreHeader 对象（第 2.2.2.2 节）或 a BitmapInfoHeader 对象（第 2.2.2.3 节），指定关于 image 的 information
 
 ```csharp
 public WmfBitmapBaseHeader Header { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Region
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новуюRegionaspose.imaging/region.
+description: Инициализирует новыйRegionaspose.imaging/region .
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging/region/region/
 ---
 ## Region() {#constructor}
 
-Инициализирует новую[`Region`](../../region).
+Инициализирует новый[`Region`](../../region) .
 
 ```csharp
 public Region()
@@ -24,7 +24,7 @@ public Region()
 
 ## Region(RectangleF) {#constructor_3}
 
-Инициализирует новую[`Region`](../../region)из указанной[`RectangleF`](../../rectanglef)структура.
+Инициализирует новый[`Region`](../../region) из указанного[`RectangleF`](../../rectanglef) структура.
 
 ```csharp
 public Region(RectangleF rect)
@@ -32,7 +32,7 @@ public Region(RectangleF rect)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rect | RectangleF | A[`RectangleF`](../../rectanglef)структура, которая определяет внутреннюю часть нового[`Region`](../../region). |
+| rect | RectangleF | А[`RectangleF`](../../rectanglef) структура, которая определяет интерьер нового[`Region`](../../region). |
 
 ### Смотрите также
 
@@ -45,7 +45,7 @@ public Region(RectangleF rect)
 
 ## Region(Rectangle) {#constructor_2}
 
-Инициализирует новую[`Region`](../../region)из указанной[`Rectangle`](../../rectangle)структура.
+Инициализирует новый[`Region`](../../region) из указанного[`Rectangle`](../../rectangle) структура.
 
 ```csharp
 public Region(Rectangle rect)
@@ -53,7 +53,7 @@ public Region(Rectangle rect)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| rect | Rectangle | A[`Rectangle`](../../rectangle)структура, определяющая внутреннюю часть нового[`Region`](../../region). |
+| rect | Rectangle | А[`Rectangle`](../../rectangle) структура, которая определяет интерьер нового[`Region`](../../region). |
 
 ### Смотрите также
 
@@ -66,7 +66,7 @@ public Region(Rectangle rect)
 
 ## Region(GraphicsPath) {#constructor_1}
 
-Инициализирует новую[`Region`](../../region)с указанным[`GraphicsPath`](../../graphicspath).
+Инициализирует новый[`Region`](../../region) с указанным[`GraphicsPath`](../../graphicspath) .
 
 ```csharp
 public Region(GraphicsPath path)
@@ -74,13 +74,13 @@ public Region(GraphicsPath path)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| path | GraphicsPath | A[`GraphicsPath`](../../graphicspath)который определяет новый[`Region`](../../region). |
+| path | GraphicsPath | А[`GraphicsPath`](../../graphicspath) который определяет новый[`Region`](../../region). |
 
 ### Исключения
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | *path*равно null. |
+| ArgumentNullException | *path* нулевой. |
 
 ### Смотрите также
 

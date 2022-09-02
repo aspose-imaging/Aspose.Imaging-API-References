@@ -1,14 +1,14 @@
 ---
 title: A
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取此Coloraspose.imaging/color结构的 alpha 分量值
+description: 获取 this 的 alpha 分量值Coloraspose.imaging/color结构.
 type: docs
 weight: 1460
 url: /zh/net/aspose.imaging/color/a/
 ---
 ## Color.A property
 
-获取此[`Color`](../../color)结构的 alpha 分量值。
+获取 this 的 alpha 分量值[`Color`](../../color)结构.
 
 ```csharp
 public byte A { get; }
@@ -16,7 +16,7 @@ public byte A { get; }
 
 ### 适当的价值
 
-这个[`Color`](../../color)的 alpha 分量值。
+this 的 alpha 分量值[`Color`](../../color).
 
 ### 也可以看看
 

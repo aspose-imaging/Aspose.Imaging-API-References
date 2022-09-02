@@ -16,7 +16,7 @@ public uint From { get; set; }
 
 ### 适当的价值
 
-毫秒。
+从毫秒开始。
 
 ### 也可以看看
 

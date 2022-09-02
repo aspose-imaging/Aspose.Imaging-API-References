@@ -1,14 +1,14 @@
 ---
 title: LayoutMode
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 LayoutMode
+description: 获取或设置 LayoutMode.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfsetlayout/layoutmode/
 ---
 ## WmfSetLayout.LayoutMode property
 
-获取或设置 LayoutMode。
+获取或设置 LayoutMode.
 
 ```csharp
 public LayoutModeEnum LayoutMode { get; set; }

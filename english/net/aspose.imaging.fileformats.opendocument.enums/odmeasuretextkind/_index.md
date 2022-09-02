@@ -3,7 +3,7 @@ title: OdMeasureTextKind
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6860
+weight: 6870
 url: /net/aspose.imaging.fileformats.opendocument.enums/odmeasuretextkind/
 ---
 ## OdMeasureTextKind enumeration

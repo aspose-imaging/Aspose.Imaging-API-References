@@ -1,14 +1,14 @@
 ---
 title: XmpBoolean
 second_title: Aspose.Imaging for .NET API 参考
-description: 基于布尔值初始化XmpBooleanaspose.imaging.xmp.types.basic/xmpboolean类的新实例
+description: 初始化XmpBooleanaspose.imaging.xmp.types.basic/xmpboolean基于布尔值的类
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.xmp.types.basic/xmpboolean/xmpboolean/
 ---
 ## XmpBoolean(bool) {#constructor_1}
 
-基于布尔值初始化[`XmpBoolean`](../../xmpboolean)类的新实例。
+初始化[`XmpBoolean`](../../xmpboolean)基于布尔值的类。
 
 ```csharp
 public XmpBoolean(bool value)
@@ -28,7 +28,7 @@ public XmpBoolean(bool value)
 
 ## XmpBoolean() {#constructor}
 
-使用默认值初始化[`XmpBoolean`](../../xmpboolean)类的新实例。
+初始化[`XmpBoolean`](../../xmpboolean)具有默认值的类。
 
 ```csharp
 public XmpBoolean()
@@ -44,7 +44,7 @@ public XmpBoolean()
 
 ## XmpBoolean(string) {#constructor_2}
 
-初始化[`XmpBoolean`](../../xmpboolean)类的新实例。
+初始化[`XmpBoolean`](../../xmpboolean)类.
 
 ```csharp
 public XmpBoolean(string value)
@@ -52,14 +52,14 @@ public XmpBoolean(string value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | String | 值。 |
+| value | String | 价值。 |
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 值 |
-| ArgumentException | 无效字符串值；值 |
+| ArgumentNullException | 价值 |
+| ArgumentException | 无效的字符串值；值 |
 
 ### 也可以看看
 

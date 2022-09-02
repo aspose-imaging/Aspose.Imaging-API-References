@@ -18,16 +18,16 @@ public sealed class EmfExtCreateFontIndirectW : EmfObjectCreationRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfExtCreateFontIndirectW](emfextcreatefontindirectw#constructor)() | Инициализирует новый экземпляр класса[`EmfExtCreateFontIndirectW`](../emfextcreatefontindirectw). |
-| [EmfExtCreateFontIndirectW](emfextcreatefontindirectw#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfExtCreateFontIndirectW`](../emfextcreatefontindirectw). |
+| [EmfExtCreateFontIndirectW](emfextcreatefontindirectw#constructor)() | Инициализирует новый экземпляр[`EmfExtCreateFontIndirectW`](../emfextcreatefontindirectw) класс. |
+| [EmfExtCreateFontIndirectW](emfextcreatefontindirectw#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfExtCreateFontIndirectW`](../emfextcreatefontindirectw) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Elw](../../aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw/elw) { get; set; } | Получает или задает объект LogFontExDv (раздел 2.2.15), определяющий логический шрифт. Вместо этого МОЖЕТ присутствовать объект LogFont 2.2.13.[90] Процесс определения типа объекта в этом поле описан ниже. |
-| [IhFonts](../../aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw/ihfonts) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс объекта логического шрифта в таблице объектов EMF (раздел 3.1.1.1). ). Этот индекс ДОЛЖЕН быть сохранен, чтобы этот объект можно было повторно использовать или модифицировать. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Elw](../../aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw/elw) { get; set; } | Получает или задает объект LogFontExDv (раздел 2.2.15), который определяет логический шрифт. Вместо этого МОЖЕТ присутствовать объект A LogFont 2.2.13.[90]Процесс определения типа объекта в этом поле описан ниже. |
+| [IhFonts](../../aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw/ihfonts) { get; set; } | Получает или задает 32-разрядное целое число без знака, указывающее индекс логического шрифта object в таблице объектов EMF (раздел 3.1.1.1). Этот индекс ДОЛЖЕН быть сохранен, чтобы этот объект можно было повторно использовать или модифицировать. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

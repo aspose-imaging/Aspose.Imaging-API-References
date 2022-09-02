@@ -16,7 +16,7 @@ public WmfDeviceIndependentBitmap Source { get; set; }
 
 ### 适当的价值
 
-可变大小的 DeviceIndependentBitmap 对象（第 2.2.2.9 节） 定义图像内容。必须指定此对象，即使 光栅操作不需要源。
+定义图像内容的可变大小的 DeviceIndependentBitmap 对象（第 2.2.2.9 节） 。必须指定此对象，即使 光栅操作不需要源。
 
 ### 也可以看看
 

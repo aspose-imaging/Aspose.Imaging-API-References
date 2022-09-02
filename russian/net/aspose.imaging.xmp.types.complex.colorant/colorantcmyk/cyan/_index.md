@@ -1,14 +1,14 @@
 ---
 title: Cyan
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение компонента голубого цвета.
+description: Получает или задает значение голубого компонента.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.xmp.types.complex.colorant/colorantcmyk/cyan/
 ---
 ## ColorantCmyk.Cyan property
 
-Получает или задает значение компонента голубого цвета.
+Получает или задает значение голубого компонента.
 
 ```csharp
 public float Cyan { get; set; }

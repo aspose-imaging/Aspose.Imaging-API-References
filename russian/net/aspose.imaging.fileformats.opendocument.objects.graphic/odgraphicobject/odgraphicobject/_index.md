@@ -1,14 +1,14 @@
 ---
 title: OdGraphicObject
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdGraphicObjectaspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject.
+description: Инициализирует новый экземплярOdGraphicObjectaspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/odgraphicobject/
 ---
 ## OdGraphicObject constructor
 
-Инициализирует новый экземпляр класса[`OdGraphicObject`](../../odgraphicobject).
+Инициализирует новый экземпляр[`OdGraphicObject`](../../odgraphicobject) класс.
 
 ```csharp
 public OdGraphicObject(OdObject parent)

@@ -1,14 +1,14 @@
 ---
 title: EmfSpoolRecords
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает массив байтов переменной длины который содержит одну или несколько записей определения шрифта EMFSPOOL MS-EMFSPOOL раздел 2.2. 3.3.
+description: Получает или задает массив байтов переменной длины содержащий одну или несколько записей определения шрифта EMFSPOOL MS-EMFSPOOL раздел 2.2.3.3.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool/emfspoolrecords/
 ---
 ## EmfCommentEmfSpool.EmfSpoolRecords property
 
-Получает или задает массив байтов переменной длины, который содержит одну или несколько записей определения шрифта EMFSPOOL ([MS-EMFSPOOL], раздел 2.2. 3.3).
+Получает или задает массив байтов переменной длины, содержащий одну или несколько записей определения шрифта EMFSPOOL ([MS-EMFSPOOL], раздел 2.2.3.3).
 
 ```csharp
 public EmfSpoolFontDefinitionRecordType[] EmfSpoolRecords { get; set; }

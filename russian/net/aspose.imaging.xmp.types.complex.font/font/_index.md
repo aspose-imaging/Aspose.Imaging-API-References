@@ -3,7 +3,7 @@ title: Font
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет шрифт XMP.
 type: docs
-weight: 11590
+weight: 11580
 url: /ru/net/aspose.imaging.xmp.types.complex.font/font/
 ---
 ## Font class
@@ -18,8 +18,8 @@ public sealed class Font : ComplexTypeBase
 
 | Имя | Описание |
 | --- | --- |
-| [Font](font#constructor)() | Инициализирует новый экземпляр класса[`Font`](../font). |
-| [Font](font#constructor_1)(string) | Инициализирует новый экземпляр класса[`Font`](../font). |
+| [Font](font#constructor)() | Инициализирует новый экземпляр[`Font`](../font) класс. |
+| [Font](font#constructor_1)(string) | Инициализирует новый экземпляр[`Font`](../font) класс. |
 
 ## Характеристики
 

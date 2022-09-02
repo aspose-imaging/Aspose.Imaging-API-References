@@ -16,13 +16,13 @@ public TiffSampleFormats[] SampleFormat { get; set; }
 
 ### 适当的价值
 
-示例格式。
+样本格式。
 
 ### 例外
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| ArgumentNullException | 值 |
+| ArgumentNullException | 价值 |
 | ArgumentOutOfRangeException | value;数组长度必须对应于每像素计数的样本。 |
 
 ### 也可以看看

@@ -16,8 +16,8 @@ public static bool operator !=(TgaImage first, TgaImage second)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| first | TgaImage | First[`TgaImage`](../../tgaimage)参与比较. |
-| second | TgaImage | Second[`TgaImage`](../../tgaimage)参与比较。 |
+| first | TgaImage | 第一的[`TgaImage`](../../tgaimage)参与比较。 |
+| second | TgaImage | 第二[`TgaImage`](../../tgaimage)参与比较。 |
 
 ### 返回值
 

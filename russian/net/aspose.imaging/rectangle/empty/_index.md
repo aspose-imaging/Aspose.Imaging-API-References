@@ -1,14 +1,14 @@
 ---
 title: Empty
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает новый экземпляр структурыRectangleaspose.imaging/rectangleсXaspose.imaging/rectangle/xYaspose.imaging/rectangle/yWidthaspose.imaging/rectangle/widthиHeightравны нулю.
+description: Получает новый экземплярRectangleaspose.imaging/rectangle структура которая имеетXaspose.imaging/rectangle/x Yaspose.imaging/rectangle/y Widthaspose.imaging/rectangle/width а такжеHeightaspose.imaging/rectangle/height значения равны нулю.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging/rectangle/empty/
 ---
 ## Rectangle.Empty property
 
-Получает новый экземпляр структуры[`Rectangle`](../../rectangle)с[`X`](../x),[`Y`](../y),[`Width`](../width)иHeightравны нулю.
+Получает новый экземпляр[`Rectangle`](../../rectangle) структура, которая имеет[`X`](../x) ,[`Y`](../y) ,[`Width`](../width) а также[`Height`](../height) значения равны нулю.
 
 ```csharp
 public static Rectangle Empty { get; }

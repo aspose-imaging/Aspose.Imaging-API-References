@@ -1,14 +1,14 @@
 ---
 title: GetYCbCr
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取每个样本指定位数的 YCbCr 颜色
+description: 使用每个样本指定的位数获取 YCbCr 颜色
 type: docs
 weight: 270
 url: /zh/net/aspose.imaging/pixeldataformat/getycbcr/
 ---
 ## GetYCbCr(int) {#getycbcr}
 
-获取每个样本指定位数的 YCbCr 颜色。
+使用每个样本指定的位数获取 YCbCr 颜色。
 
 ```csharp
 public static PixelDataFormat GetYCbCr(int bitsPerSample)
@@ -32,7 +32,7 @@ YCbCr 颜色。
 
 ## GetYCbCr(int, int, int) {#getycbcr_1}
 
-获取每个样本指定位数的 YCbCr 颜色。
+使用每个样本指定的位数获取 YCbCr 颜色。
 
 ```csharp
 public static PixelDataFormat GetYCbCr(int bitsPerY, int bitsPerCb, int bitsPerCr)

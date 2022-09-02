@@ -1,14 +1,14 @@
 ---
 title: XDest
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置 x dest
+description: 获取或设置 x dest.
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/xdest/
 ---
 ## WmfDibStrechBlt.XDest property
 
-获取或设置 x dest。
+获取或设置 x dest.
 
 ```csharp
 public short XDest { get; set; }
@@ -16,7 +16,7 @@ public short XDest { get; set; }
 
 ### 适当的价值
 
-:::左上角的 x 坐标，以逻辑单位表示47:::目标矩形。
+目标矩形左上角的 x 坐标，以逻辑单位表示。
 
 ### 也可以看看
 

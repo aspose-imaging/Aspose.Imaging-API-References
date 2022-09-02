@@ -1,14 +1,14 @@
 ---
 title: Filename
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个可选的以 null 结尾的 Unicode UTF16-LE 字符 字符串它指定包含颜色的文件的名称 个人资料如果指定了文件名并且 ColorSpaceTypeaspose.imaging.fileformats.wmf.objects/wmflogcolorspacew/colorspacetype字段设置为 LCS_CALIBRATED_RGB则 这个结构的其他字段应该被忽略
+description: 获取或设置一个可选的以 null 结尾的 Unicode UTF16-LE 字符 字符串它指定包含 color 配置文件的文件的名称如果指定了文件名则 ColorSpaceTypeaspose.imaging.fileformats.wmf.objects/wmflogcolorspacew/colorspacetype字段设置为 LCS_CALIBRATED_RGB应该忽略此结构的 其他字段
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmflogcolorspacew/filename/
 ---
 ## WmfLogColorSpaceW.Filename property
 
-获取或设置一个可选的、以 null 结尾的 Unicode UTF16-LE 字符 字符串，它指定包含颜色的文件的名称 个人资料。如果指定了文件名，并且 [`ColorSpaceType`](../colorspacetype)字段设置为 LCS_CALIBRATED_RGB，则 这个结构的其他字段应该被忽略。
+获取或设置一个可选的、以 null 结尾的 Unicode UTF16-LE 字符 字符串，它指定包含 color 配置文件的文件的名称。如果指定了文件名，则 [`ColorSpaceType`](../colorspacetype)字段设置为 LCS_CALIBRATED_RGB，应该忽略此结构的 其他字段。
 
 ```csharp
 public string Filename { get; set; }

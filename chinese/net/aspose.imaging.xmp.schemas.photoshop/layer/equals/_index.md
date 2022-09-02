@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Imaging for .NET API 参考
-description: 确定指定的Object是否等于此实例
+description: 判断是否指定Object 等于这个实例
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.xmp.schemas.photoshop/layer/equals/
 ---
 ## Equals(object) {#equals_1}
 
-确定指定的Object是否等于此实例。
+判断是否指定Object 等于这个实例。
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| obj | Object | Object与此实例进行比较。 |
+| obj | Object | 这Object与此实例进行比较。 |
 
 ### 返回值
 
-` true` 如果指定的Object是等于这个实例；否则，` false` 。
+`真的`如果指定Object等于这个实例；否则，`错误的` .
 
 ### 也可以看看
 
@@ -44,7 +44,7 @@ public bool Equals(Layer other)
 
 ### 返回值
 
-如果当前对象等于*other*参数，则为真；否则为假。
+如果当前对象等于*other*范围;否则为假。
 
 ### 也可以看看
 

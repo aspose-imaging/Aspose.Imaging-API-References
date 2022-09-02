@@ -28,7 +28,7 @@ public TgaImage Clone()
 
 ## Clone(TgaImage) {#clone_1}
 
-克隆其他[`TgaImage`](../../tgaimage)对象的属性。
+克隆其他[`TgaImage`](../../tgaimage)对象的属性.
 
 ```csharp
 public void Clone(TgaImage tgaImage)

@@ -1,14 +1,14 @@
 ---
 title: ByteData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Устанавливает данные ltsee langwordbyte /gt.
+description: Устанавливаетbyte данные.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/bytedata/
 ---
 ## WmfPitchAndFamily.ByteData property
 
-Устанавливает данные &lt;see langword="byte" /&gt;.
+Устанавливает`byte` данные.
 
 ```csharp
 public byte ByteData { get; set; }
@@ -16,7 +16,7 @@ public byte ByteData { get; set; }
 
 ### Стоимость имущества
 
-Данные &lt;see langword="byte" /&gt;.
+`byte` данные.
 
 ### Смотрите также
 

@@ -20,11 +20,11 @@ public TiffFrame RemoveFrame(int index)
 
 ### Возвращаемое значение
 
-Удаленный кадр.
+Снятая рама.
 
 ### Примечания
 
-Примечание:не забудьте Dispose кадра, если вы не будете добавлять его в какой-то другой TiffImage.
+Примечание: не забудьте удалить кадр, если вы не будете добавлять его в какой-либо другой TiffImage.
 
 ### Примеры
 
@@ -40,11 +40,11 @@ createTiffOptions.BitsPerSample = new ushort[] { 8, 8, 8 };
 
 using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.FileFormats.Tiff.TiffImage)Image.Create(createTiffOptions, 100, 100))
 {
-     // Это шрифт и кисть для рисования текста на отдельных кадрах.
+    // Это шрифт и кисть для рисования текста на отдельных фреймах.
     Aspose.Imaging.Font font = new Aspose.Imaging.Font("Arial", 64);
     Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Aspose.Imaging.Color.White);
 
-     // Создаем 5 кадров
+    // Создаем 5 фреймов
     for (int i = 1; i <= 5; i++)
     {
         Aspose.Imaging.ImageOptions.PngOptions createPngOptions = new Aspose.Imaging.ImageOptions.PngOptions();
@@ -55,19 +55,19 @@ using (Aspose.Imaging.FileFormats.Tiff.TiffImage tiffImage = (Aspose.Imaging.Fil
         Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(pngImage);
         gr.DrawString(i.ToString(), font, brush, 10, 10);
 
-         // Создаем рамку на основе изображения PNG.
+        // Создаем рамку на основе изображения PNG.
         Aspose.Imaging.FileFormats.Tiff.TiffFrame frame = new Aspose.Imaging.FileFormats.Tiff.TiffFrame(pngImage);
 
-         // Добавляем кадр к изображению TIFF.
+        // Добавляем кадр к изображению TIFF.
         tiffImage.AddFrame(frame);
     }
 
-     // Изображение было создано с одним кадром по умолчанию. Давайте удалим его.
+    // Изображение было создано с одним кадром по умолчанию. Давайте удалим его.
     Aspose.Imaging.FileFormats.Tiff.TiffFrame activeFrame = tiffImage.ActiveFrame;
     tiffImage.ActiveFrame = tiffImage.Frames[1];
     tiffImage.RemoveFrame(0);
 
-     // Не забудьте удалить кадр, если вы не собираетесь добавлять его в какой-то другой TiffImage
+    // Не забудьте удалить фрейм, если вы не собираетесь добавлять его в какой-либо другой TiffImage
     activeFrame.Dispose();
 
     tiffImage.Save();
@@ -93,11 +93,11 @@ public void RemoveFrame(TiffFrame frame)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| frame | TiffFrame | Фрейм для удаления. |
+| frame | TiffFrame | Рамка, которую нужно удалить. |
 
 ### Примечания
 
-Примечание:не забудьте Dispose кадра, если вы не будете добавлять его в какой-то другой TiffImage.
+Примечание: не забудьте удалить кадр, если вы не будете добавлять его в какой-либо другой TiffImage.
 
 ### Смотрите также
 

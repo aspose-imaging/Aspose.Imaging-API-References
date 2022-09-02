@@ -1,14 +1,14 @@
 ---
 title: HasAlpha
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает альфа-канал Has.
+description: Получает альфа-канал.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.webp/webpimage/hasalpha/
 ---
 ## WebPImage.HasAlpha property
 
-Получает альфа-канал Has.
+Получает альфа-канал.
 
 ```csharp
 public override bool HasAlpha { get; }
@@ -32,7 +32,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(fileName))
 {
     Aspose.Imaging.FileFormats.Webp.WebPImage webpImage = (Aspose.Imaging.FileFormats.Webp.WebPImage)image;
 
-     // Если активный кадр TIFF имеет альфа-канал, то все изображение TIFF считается имеющим альфа-канал.
+    // Если активный кадр TIFF имеет альфа-канал, то считается, что все изображение TIFF имеет альфа-канал.
     System.Console.WriteLine("ImageFile={0}, FileFormat={1}, HasAlpha={2}", fileName, webpImage.RawDataFormat, webpImage.HasAlpha);
 
     int i = 0;
@@ -46,8 +46,8 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(fileName))
     }
 }
 
-// Вывод может выглядеть так: 
- // ImageFile=c:\temp\sample.webp, FileFormat=RgbIndexed1Bpp, используемые каналы: 1, HasAlpha=False
+// Вывод может выглядеть так:
+// ImageFile=c:\temp\sample.webp, FileFormat=RgbIndexed1Bpp, используемые каналы: 1, HasAlpha=False
 // Frame=0, FileFormat=RgbIndexed1Bpp, используемые каналы: 1, HasAlpha=False
 ```
 

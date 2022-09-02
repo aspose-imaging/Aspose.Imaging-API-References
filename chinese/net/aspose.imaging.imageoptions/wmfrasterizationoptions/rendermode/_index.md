@@ -27,24 +27,23 @@ WMF 渲染模式。
 
 string dir = "c:\\temp\\";
 
-    // 使用 Aspose.Imaging.Image.Load 是一种统一的方式来加载包括 WMF.
- 在内的所有类型的图像
+// 使用 Aspose.Imaging.Image.Load 是一种统一的方式来加载包括 WMF 在内的所有类型的图像。
 using (Aspose.Imaging.FileFormats.Wmf.WmfImage wmfImage = (Aspose.Imaging.FileFormats.Wmf.WmfImage)Aspose.Imaging.Image.Load(dir + "test.wmf"))
 {
     Aspose.Imaging.ImageOptions.SvgOptions saveOptions = new Aspose.Imaging.ImageOptions.SvgOptions();
         
-        // 文本将被转换为形状。
+    // 文本将转换为形状。
     saveOptions.TextAsShapes = true;
 
     Aspose.Imaging.ImageOptions.WmfRasterizationOptions rasterizationOptions = new Aspose.Imaging.ImageOptions.WmfRasterizationOptions();
 
-        // 绘图表面的背景颜色.
+    // 绘图表面的背景颜色。
     rasterizationOptions.BackgroundColor = Aspose.Imaging.Color.WhiteSmoke;
 
-        // 页面大小.
+    // 页面大小。
     rasterizationOptions.PageSize = wmfImage.Size;
 
-        // 如果嵌入的 emf 存在，则渲染 emf；否则渲染 wmf.
+    // 如果嵌入的 emf 存在，则渲染 emf；否则渲染 wmf。
     rasterizationOptions.RenderMode = Aspose.Imaging.FileFormats.Wmf.WmfRenderMode.Auto;
 
     saveOptions.VectorRasterizationOptions = rasterizationOptions;

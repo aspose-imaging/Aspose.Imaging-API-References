@@ -1,14 +1,14 @@
 ---
 title: Point2
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает точку2.
+description: Получает или задает точку2.
 type: docs
 weight: 70
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odarc/point2/
 ---
 ## OdArc.Point2 property
 
-Получает или устанавливает точку2.
+Получает или задает точку2.
 
 ```csharp
 public PointF Point2 { get; set; }

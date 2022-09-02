@@ -1,14 +1,14 @@
 ---
 title: Start
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объект WMF PointL MS-WMF раздел 2.2.2.15 который определяет координаты в логических единицах где начинается заполнение.
+description: Получает или задает объект WMF PointL MS-WMF раздел 2.2.2.15 который указывает координаты в логических единицах где начинается заполнение.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/start/
 ---
 ## EmfExtFloodFill.Start property
 
-Получает или задает объект WMF PointL ([MS-WMF], раздел 2.2.2.15), который определяет координаты в логических единицах, где начинается заполнение.
+Получает или задает объект WMF PointL ([MS-WMF], раздел 2.2.2.15), который указывает координаты в логических единицах, где начинается заполнение.
 
 ```csharp
 public Point Start { get; set; }

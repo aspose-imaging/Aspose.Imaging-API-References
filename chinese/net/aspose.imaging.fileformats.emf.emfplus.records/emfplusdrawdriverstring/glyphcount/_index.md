@@ -1,14 +1,14 @@
 ---
 title: GlyphCount
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置字形计数 一个 32 位无符号整数指定字符串 中的字形数
+description: 获取或设置字形计数 一个 32 位无符号整数指定字符串中字形的数量
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/glyphcount/
 ---
 ## EmfPlusDrawDriverString.GlyphCount property
 
-获取或设置字形计数 一个 32 位无符号整数，指定字符串 中的字形数
+获取或设置字形计数 一个 32 位无符号整数，指定字符串中字形的数量
 
 ```csharp
 public int GlyphCount { get; set; }

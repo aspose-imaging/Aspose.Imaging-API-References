@@ -39,7 +39,7 @@ public void ScaleTransform(float sx, float sy, MatrixOrder order)
 | --- | --- | --- |
 | sx | Single | 在 x 轴方向上缩放变换的因子。 |
 | sy | Single | 在 y 轴方向上缩放变换的因子。 |
-| order | MatrixOrder | A[`MatrixOrder`](../../matrixorder)指定是附加还是附加缩放矩阵。 |
+| order | MatrixOrder | 一个[`MatrixOrder`](../../matrixorder)指定是附加还是前置缩放矩阵。 |
 
 ### 也可以看看
 

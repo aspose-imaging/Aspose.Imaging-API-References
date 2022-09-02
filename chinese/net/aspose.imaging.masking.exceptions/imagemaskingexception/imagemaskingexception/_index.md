@@ -1,14 +1,14 @@
 ---
 title: ImageMaskingException
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化ImageMaskingExceptionaspose.imaging.masking.exceptions/imagemaskingexception类的新实例
+description: 初始化ImageMaskingExceptionaspose.imaging.masking.exceptions/imagemaskingexception类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.masking.exceptions/imagemaskingexception/imagemaskingexception/
 ---
 ## ImageMaskingException constructor
 
-初始化[`ImageMaskingException`](../../imagemaskingexception)类的新实例。
+初始化[`ImageMaskingException`](../../imagemaskingexception)类.
 
 ```csharp
 public ImageMaskingException(string message)

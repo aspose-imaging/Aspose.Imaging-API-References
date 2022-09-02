@@ -36,8 +36,8 @@ public override void Write(byte[] buffer, int offset, int count)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| buffer | Byte[] | 字节数组。此方法将*count*字节从*buffer*复制到当前流。 |
-| offset | Int32 | *buffer*中从零开始的字节偏移量，从该偏移量开始将字节复制到当前流。 |
+| buffer | Byte[] | 一个字节数组。此方法复制*count*来自的字节*buffer*到当前流。 |
+| offset | Int32 | 从零开始的字节偏移量*buffer*开始将字节复制到当前流的位置。 |
 | count | Int32 | 要写入当前流的字节数。 |
 
 ### 也可以看看

@@ -16,9 +16,9 @@ public void ReplaceColor(Color oldColor, byte oldColorDiff, Color newColor)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| oldColor | Color | 要替换的旧颜色。 |
+| oldColor | Color | 旧颜色要更换。 |
 | oldColorDiff | Byte | 允许旧颜色的差异能够扩大替换的色调。 |
-| newColor | Color | 用新颜色替换旧颜色。 |
+| newColor | Color | 用新颜色代替旧颜色。 |
 
 ### 也可以看看
 
@@ -41,7 +41,7 @@ public virtual void ReplaceColor(int oldColorArgb, byte oldColorDiff, int newCol
 | --- | --- | --- |
 | oldColorArgb | Int32 | 要替换的旧颜色 ARGB 值。 |
 | oldColorDiff | Byte | 允许旧颜色的差异能够扩大替换的色调。 |
-| newColorArgb | Int32 | 用新颜色 ARGB 值替换旧颜色。 |
+| newColorArgb | Int32 | 用于替换旧颜色的新颜色 ARGB 值。 |
 
 ### 也可以看看
 

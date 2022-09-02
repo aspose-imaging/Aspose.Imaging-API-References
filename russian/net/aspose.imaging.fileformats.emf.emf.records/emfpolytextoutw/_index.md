@@ -18,24 +18,24 @@ public sealed class EmfPolyTextOutW : EmfDrawingRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfPolyTextOutW](emfpolytextoutw#constructor)() | Инициализирует новый экземпляр класса[`EmfPolyTextOutW`](../emfpolytextoutw). |
-| [EmfPolyTextOutW](emfpolytextoutw#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfPolyTextOutW`](../emfpolytextoutw). |
+| [EmfPolyTextOutW](emfpolytextoutw#constructor)() | Инициализирует новый экземпляр[`EmfPolyTextOutW`](../emfpolytextoutw) класс. |
+| [EmfPolyTextOutW](emfpolytextoutw#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfPolyTextOutW`](../emfpolytextoutw) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/bounds) { get; set; } | Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который определяет ограничивающий прямоугольник в единицах устройства. |
-| [ExScale](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/exscale) { get; set; } | Получает или задает 32-битное значение с плавающей запятой, указывающее масштаб X от единиц страницы до 0,01 мм, если графический режим GM_COMPATIBLE . |
-| [EyScale](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/eyscale) { get; set; } | Получает или задает 32-разрядное значение с плавающей запятой, указывающее масштаб Y от единиц страницы до 0,01 мм, если графический режим GM_COMPATIBLE . |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/bounds) { get; set; } | Получает или задает объект WMF RectL ([MS-WMF], раздел 2.2.2.19), который определяет ограничивающий прямоугольник в единицах измерения устройства. |
+| [ExScale](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/exscale) { get; set; } | Получает или задает 32-битное значение с плавающей запятой, указывающее масштаб X от единиц страницы до единиц 0,01 мм, если графический режим GM_COMPATIBLE. |
+| [EyScale](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/eyscale) { get; set; } | Получает или задает 32-битное значение с плавающей запятой, указывающее масштаб Y от единиц страницы до единиц 0,01 мм, если графический режим GM_COMPATIBLE. |
 | [IGraphicsMode](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/igraphicsmode) { get; set; } | Получает или задает 32-битное целое число без знака, указывающее текущий графический режим, из перечисления GraphicsMode (раздел 2.1.16). |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
-| [WEmrText](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/wemrtext) { get; set; } | Получает или задает массив объектов EmrText (раздел 2.2.5), определяющих выходные строки в 16-разрядных символах Unicode UTF16-LE. , с текстовыми атрибутами и значениями интервалов. Число объектов EmrText определяется cStrings. |
+| [WEmrText](../../aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/wemrtext) { get; set; } | Получает или задает массив объектов EmrText (раздел 2.2.5), которые определяют выходные строки в 16-битных символах Unicode UTF16-LE с текстовыми атрибутами и значениями интервалов. Количество объектов EmrText определяется cStrings. |
 
 ### Примечания
 
-Цвета шрифта и текста, используемые для вывода, определяются свойствами в текущем состоянии контекст устройства воспроизведения. EMR_POLYTEXTOUTW СЛЕДУЕТ эмулировать серией записей EMR_EXTTEXTOUTW (раздел 2.3.5.7), по одной на строку.
+Цвета шрифта и текста, используемые для вывода, определяются свойствами в текущем состоянии контекста устройства воспроизведения . EMR_POLYTEXTOUTW СЛЕДУЕТ эмулировать серией записей EMR_EXTTEXTOUTW (раздел 2.3.5.7), по одной на строку.
 
 ### Смотрите также
 

@@ -3,7 +3,7 @@ title: AutoMaskingArgs
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10450
+weight: 10470
 url: /net/aspose.imaging.masking.options/automaskingargs/
 ---
 ## AutoMaskingArgs class

@@ -18,7 +18,7 @@ public interface IImageLoaderDescriptor : IImageDescriptor
 
 | Имя | Описание |
 | --- | --- |
-| [CanLoad](../../aspose.imaging/iimageloaderdescriptor/canload)(StreamContainer, LoadOptions) | Определяет, может ли загрузчик изображений читать новое изображение из указанного потока и, необязательно, используя*loadOptions*. |
+| [CanLoad](../../aspose.imaging/iimageloaderdescriptor/canload)(StreamContainer, LoadOptions) | Определяет, может ли загрузчик изображений читать новое изображение из указанного потока и, при необходимости, с помощью*loadOptions* . |
 | [CreateInstance](../../aspose.imaging/iimageloaderdescriptor/createinstance)() | Создает новый экземпляр загрузчика. |
 
 ### Смотрите также

@@ -1,14 +1,14 @@
 ---
 title: EmfPlusBrushType
 second_title: Aspose.Imaging for .NET API 参考
-description: BrushType 枚举定义了用于填充图形区域的图形画笔类型
+description: BrushType 枚举定义了图形画笔的类型用于填充图形区域
 type: docs
 weight: 4700
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushtype/
 ---
 ## EmfPlusBrushType enumeration
 
-BrushType 枚举定义了用于填充图形区域的图形画笔类型。
+BrushType 枚举定义了图形画笔的类型，用于填充图形区域。
 
 ```csharp
 public enum EmfPlusBrushType
@@ -20,7 +20,7 @@ public enum EmfPlusBrushType
 | --- | --- | --- |
 | BrushTypeSolidColor | `0` | 指定纯色画笔，其特征是 EmfPlusArgb 值。 |
 | BrushTypeHatchFill | `1` | 指定填充画笔，其特征在于预定义的图案。 |
-| BrushTypeTextureFill | `2` | 指定纹理画笔，以图像为特征。 |
+| BrushTypeTextureFill | `2` | 指定一个纹理画笔，以图像为特征。 |
 | BrushTypePathGradient | `3` | 指定路径渐变画笔，其特征是颜色渐变路径渐变画笔数据。 |
 | BrushTypeLinearGradient | `4` | 包含线性渐变画笔数据。 |
 

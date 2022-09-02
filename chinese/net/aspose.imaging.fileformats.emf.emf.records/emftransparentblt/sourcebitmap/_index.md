@@ -1,14 +1,14 @@
 ---
 title: SourceBitmap
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个包含源位图的缓冲区它不需要是 与 EMR_TRANSPARENTBLT 记录的固定部分连续因此 这个缓冲区中标记为UndefinedSpace的字段是可选的必须被忽略
+description: 获取或设置包含源位图的缓冲区该缓冲区不需要与 EMR_TRANSPARENTBLT 记录的固定部分 连续因此 这个缓冲区中标记为UndefinedSpace的字段是可选的必须被忽略
 type: docs
 weight: 70
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emftransparentblt/sourcebitmap/
 ---
 ## EmfTransparentBlt.SourceBitmap property
 
-获取或设置一个包含源位图的缓冲区，它不需要是 与 EMR_TRANSPARENTBLT 记录的固定部分连续。因此， 这个缓冲区中标记为“UndefinedSpace”的字段是可选的，必须被忽略。
+获取或设置包含源位图的缓冲区，该缓冲区不需要与 EMR_TRANSPARENTBLT 记录的固定部分 连续。因此， 这个缓冲区中标记为“UndefinedSpace”的字段是可选的，必须被忽略。
 
 ```csharp
 public WmfDeviceIndependentBitmap SourceBitmap { get; set; }

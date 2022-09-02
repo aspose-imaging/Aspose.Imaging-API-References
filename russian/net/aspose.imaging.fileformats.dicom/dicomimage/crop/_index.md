@@ -20,7 +20,7 @@ public override void Crop(Rectangle rectangle)
 
 ### Примеры
 
-В следующем примере кадрируется изображение DICOM. Область обрезки задается через Aspose.Imaging.Rectangle.
+В следующем примере изображение DICOM обрезается. Область обрезки задается через Aspose.Imaging.Rectangle.
 
 ```csharp
 [C#]
@@ -31,11 +31,11 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.dico
 {
     Aspose.Imaging.FileFormats.Dicom.DicomImage dicomImage = (Aspose.Imaging.FileFormats.Dicom.DicomImage)image;
 
-     // Обрезать изображение. Область кадрирования — это прямоугольная центральная область изображения.
+    // Обрезать изображение. Область кадрирования представляет собой прямоугольную центральную область изображения.
     Aspose.Imaging.Rectangle area = new Aspose.Imaging.Rectangle(dicomImage.Width / 4, dicomImage.Height / 4, dicomImage.Width / 2, dicomImage.Height / 2);
     dicomImage.Crop(area);
 
-     // Сохраняем обрезанное изображение в PNG
+    // Сохраняем обрезанное изображение в PNG
     dicomImage.Save(dir + "sample.Crop.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```
@@ -59,14 +59,14 @@ public override void Crop(int leftShift, int rightShift, int topShift, int botto
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| leftShift | Int32 | Сдвиг влево. |
-| rightShift | Int32 | Сдвиг вправо. |
+| leftShift | Int32 | Левый сдвиг. |
+| rightShift | Int32 | Правильный сдвиг. |
 | topShift | Int32 | Верхняя смена. |
-| bottomShift | Int32 | Нижнее смещение. |
+| bottomShift | Int32 | Нижний сдвиг. |
 
 ### Примеры
 
-В следующем примере кадрируется изображение DICOM. Область обрезки задается с помощью левого, верхнего, правого и нижнего полей.
+В следующем примере изображение DICOM обрезается. Область обрезки задается с помощью левого, верхнего, правого и нижнего полей.
 
 ```csharp
 [C#]
@@ -77,12 +77,12 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.dico
 {
     Aspose.Imaging.FileFormats.Dicom.DicomImage dicomImage = (Aspose.Imaging.FileFormats.Dicom.DicomImage)image;
 
-     // Обрезать снова. Установите поле в 10% от размера изображения.
+    // Обрезать снова. Установите поле в 10% от размера изображения.
     int horizontalMargin = dicomImage.Width / 10;
     int verticalMargin = dicomImage.Height / 10;
     dicomImage.Crop(horizontalMargin, horizontalMargin, verticalMargin, verticalMargin);
 
-     // Сохраняем обрезанное изображение в PNG.
+    // Сохраняем обрезанное изображение в формате PNG.
     dicomImage.Save(dir + "sample.Crop.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```

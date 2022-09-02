@@ -18,15 +18,15 @@ public sealed class EmfSetTextColor : EmfStateRecordType
 
 | Имя | Описание |
 | --- | --- |
-| [EmfSetTextColor](emfsettextcolor#constructor)() | Инициализирует новый экземпляр класса[`EmfSetTextColor`](../emfsettextcolor). |
-| [EmfSetTextColor](emfsettextcolor#constructor_1)(EmfRecord) | Инициализирует новый экземпляр класса[`EmfSetTextColor`](../emfsettextcolor). |
+| [EmfSetTextColor](emfsettextcolor#constructor)() | Инициализирует новый экземпляр[`EmfSetTextColor`](../emfsettextcolor) класс. |
+| [EmfSetTextColor](emfsettextcolor#constructor_1)(EmfRecord) | Инициализирует новый экземпляр[`EmfSetTextColor`](../emfsettextcolor) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Argb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfsettextcolor/argb32color) { get; set; } | Получает или задает объект WMF ColorRef ([MS-WMF], раздел 2.2.2.8), который указывает значение цвета текста. |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Argb32Color](../../aspose.imaging.fileformats.emf.emf.records/emfsettextcolor/argb32color) { get; set; } | Получает или задает объект WMF ColorRef ([MS-WMF], раздел 2.2.2.8), который определяет значение цвета текста. |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

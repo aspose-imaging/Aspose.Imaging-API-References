@@ -1,14 +1,14 @@
 ---
 title: HasTransparentColor
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示帧块是否具有透明颜色
+description: 获取一个值指示帧块是否具有透明色
 type: docs
 weight: 120
 url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifframeblock/hastransparentcolor/
 ---
 ## GifFrameBlock.HasTransparentColor property
 
-获取一个值，该值指示帧块是否具有透明颜色。
+获取一个值，指示帧块是否具有透明色。
 
 ```csharp
 public override bool HasTransparentColor { get; set; }

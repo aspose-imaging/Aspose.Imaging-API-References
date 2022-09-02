@@ -1,14 +1,14 @@
 ---
 title: Flags
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定字体匹配过程参数的 32 位无符号整数
+description: 获取或设置一个 32 位无符号整数指定字体匹配过程的参数
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetmapperflags/flags/
 ---
 ## EmfSetMapperFlags.Flags property
 
-获取或设置指定字体匹配过程参数的 32 位无符号整数。
+获取或设置一个 32 位无符号整数，指定字体匹配过程的参数。
 
 ```csharp
 public int Flags { get; set; }
@@ -16,7 +16,7 @@ public int Flags { get; set; }
 
 ### 评论
 
-0x00000001 字体映射器应该只选择匹配输出纵横比的字体 设备，因为它当前在播放设备上下文中定义。
+0x00000001 字体映射器应该只选择与 output 设备的纵横比匹配的字体，因为它当前在播放设备上下文中定义。
 
 ### 也可以看看
 

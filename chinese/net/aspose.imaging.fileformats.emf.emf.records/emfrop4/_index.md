@@ -1,14 +1,14 @@
 ---
 title: EmfRop4
 second_title: Aspose.Imaging for .NET API 参考
-description: 四元光栅运算它为 位图的前景色和背景色指定三元光栅运算这些值定义了 源矩形的颜色数据如何与目标矩形的颜色数据组合
+description: 四元光栅操作它为 位图的前景色和背景色指定三元光栅运算这些值定义了 源矩形的颜色数据如何与目标矩形的颜色数据结合
 type: docs
 weight: 4190
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfrop4/
 ---
 ## EmfRop4 class
 
-四元光栅运算，它为 位图的前景色和背景色指定三元光栅运算。这些值定义了 源矩形的颜色数据如何与目标矩形的颜色数据组合。
+四元光栅操作，它为 位图的前景色和背景色指定三元光栅运算。这些值定义了 源矩形的颜色数据如何与目标矩形的颜色数据结合。
 
 ```csharp
 public sealed class EmfRop4
@@ -18,14 +18,14 @@ public sealed class EmfRop4
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfRop4](emfrop4)(int) | 初始化[`EmfRop4`](../emfrop4)类的新实例。 |
+| [EmfRop4](emfrop4)(int) | 初始化[`EmfRop4`](../emfrop4)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BackgroundRop3](../../aspose.imaging.fileformats.emf.emf.records/emfrop4/backgroundrop3) { get; } | 获取背景 ROP3。 WMF 三元光栅操作枚举（[MS-WMF] 2.1.1.31 节）中 24 位三进制 光栅操作值的无符号最高 8 位。此代码定义了如何组合 源位图和目标位图以及画笔图案的背景颜色数据。 |
-| [ForegroundRop3](../../aspose.imaging.fileformats.emf.emf.records/emfrop4/foregroundrop3) { get; } | 获取前台ROP3。 24 位三进制 WMF 三进制光栅操作枚举中的无符号最高 8 位光栅操作值。这个 代码定义了如何组合源和目标的前景色数据 位图和画笔图案。 |
+| [BackgroundRop3](../../aspose.imaging.fileformats.emf.emf.records/emfrop4/backgroundrop3) { get; } | 从 WMF 三元光栅操作枚举（[MS-WMF] 第 2.1.1.31 节）获取背景 ROP3. 24 位三元 光栅操作值的无符号最高 8 位。这段代码定义了如何组合 源位图和目标位图以及画笔图案的背景颜色数据。 |
+| [ForegroundRop3](../../aspose.imaging.fileformats.emf.emf.records/emfrop4/foregroundrop3) { get; } | 获取前景 ROP3。 来自 WMF 三元光栅操作枚举的 24 位三元 光栅操作值的无符号、最高有效 8 位。这个 代码定义了如何组合源和目标 位图和画笔图案的前景色数据。 |
 
 ### 也可以看看
 

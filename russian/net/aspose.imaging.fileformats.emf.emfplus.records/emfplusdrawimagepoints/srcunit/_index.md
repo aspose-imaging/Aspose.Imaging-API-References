@@ -1,14 +1,14 @@
 ---
 title: SrcUnit
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число со знаком определяющее единицы измерения поля SrcRect. Он ДОЛЖЕН быть значением UnitPixel перечисления UnitType раздел 2.1.1.33.
+description: Получает или задает 32-разрядное целое число со знаком определяющее единицы измерения поля SrcRect. Это ДОЛЖНО быть значением UnitPixel перечисления UnitType раздел 2.1.1.33.
 type: docs
 weight: 90
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimagepoints/srcunit/
 ---
 ## EmfPlusDrawImagePoints.SrcUnit property
 
-Получает или задает 32-разрядное целое число со знаком, определяющее единицы измерения поля SrcRect. Он ДОЛЖЕН быть значением UnitPixel перечисления UnitType (раздел 2.1.1.33).
+Получает или задает 32-разрядное целое число со знаком, определяющее единицы измерения поля SrcRect. Это ДОЛЖНО быть значением UnitPixel перечисления UnitType (раздел 2.1.1.33).
 
 ```csharp
 public EmfPlusUnitType SrcUnit { get; set; }

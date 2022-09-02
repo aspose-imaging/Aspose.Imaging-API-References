@@ -16,7 +16,7 @@ public CieCoordinates CieXyzGreen { get; }
 
 ### 适当的价值
 
-绿色端点的 xyz 坐标。
+绿色端点的xyz坐标。
 
 ### 也可以看看
 

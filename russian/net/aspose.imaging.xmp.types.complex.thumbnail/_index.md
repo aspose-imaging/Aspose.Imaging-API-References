@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.Xmp.Types.Complex.Thumbnail
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пространство имен содержит класс который представляет собой эскиз изображения для файла.
+description: Пространство имен содержит класс представляющий собой миниатюру файла.
 type: docs
 weight: 1060
 url: /ru/net/aspose.imaging.xmp.types.complex.thumbnail/
 ---
-Пространство имен содержит класс, который представляет собой эскиз изображения для файла.
+Пространство имен содержит класс, представляющий собой миниатюру файла.
 
 ## Классы
 

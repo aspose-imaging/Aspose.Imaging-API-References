@@ -1,14 +1,14 @@
 ---
 title: IsTemporal
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个指示流是否为时间的值
+description: 获取或设置一个指示流是否是临时的值
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging/filestreamcontainer/istemporal/
 ---
 ## FileStreamContainer.IsTemporal property
 
-获取或设置一个指示流是否为时间的值。
+获取或设置一个指示流是否是临时的值。
 
 ```csharp
 public bool IsTemporal { get; set; }
@@ -16,11 +16,11 @@ public bool IsTemporal { get; set; }
 
 ### 适当的价值
 
-` true` 如果流是时间的；否则，` false` 。
+`真的`如果流是时间的；否则，`错误的` .
 
 ### 评论
 
-一个时间流在处理时会移除自身。如果流是基于内存的，则此属性无效。 流可以被标记为临时的或持久的，以防它被显式创建，否则抛出适当的异常。
+一个时间流在处理时会移除自身。如果流是基于内存的，则此属性无效。 流可以被标记为临时或持久，以防它被显式创建，否则将引发适当的异常。
 
 ### 也可以看看
 

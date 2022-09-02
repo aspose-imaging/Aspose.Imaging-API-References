@@ -1,14 +1,14 @@
 ---
 title: PostMultipliedMatrix
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值指示是否后乘矩阵 如果设置变换矩阵应该是后乘的如果明确则应进行预乘
+description: 获取一个值该值指示是否后乘矩阵 如果设置则应对变换矩阵进行后乘如果清楚应该是预乘
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusmultiplyworldtransform/postmultipliedmatrix/
 ---
 ## EmfPlusMultiplyWorldTransform.PostMultipliedMatrix property
 
-获取一个值，指示是否[后乘矩阵]。 如果设置，变换矩阵应该是后乘的。如果明确，则应进行预乘。
+获取一个值，该值指示是否[后乘矩阵]。 如果设置，则应对变换矩阵进行后乘。如果清楚，应该是预乘。
 
 ```csharp
 public bool PostMultipliedMatrix { get; }
@@ -16,7 +16,7 @@ public bool PostMultipliedMatrix { get; }
 
 ### 适当的价值
 
-` true` if [后乘矩阵];否则，` false` 。
+`真的` if [后乘矩阵];否则，`错误的` .
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Проверяет является ли указанный объект объектомSizeFaspose.imaging/sizefс такими же размерами как этотSizeFaspose.imaging/sizef.
+description: Проверяет является ли указанный объектSizeFaspose.imaging/sizefс такими же размерами как этотSizeFaspose.imaging/sizef .
 type: docs
 weight: 80
 url: /ru/net/aspose.imaging/sizef/equals/
 ---
 ## SizeF.Equals method
 
-Проверяет, является ли указанный объект объектом[`SizeF`](../../sizef)с такими же размерами, как этот[`SizeF`](../../sizef).
+Проверяет, является ли указанный объект[`SizeF`](../../sizef)с такими же размерами как этот[`SizeF`](../../sizef) .
 
 ```csharp
 public override bool Equals(object obj)
@@ -16,11 +16,11 @@ public override bool Equals(object obj)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| obj | Object | Objectдля тестирования. |
+| obj | Object | Object тестировать. |
 
 ### Возвращаемое значение
 
-Этот метод возвращает значение true, если*obj*является[`SizeF`](../../sizef)и имеет такая же ширина и высота, как у этого[`SizeF`](../../sizef); в противном случае ложно.
+Этот метод возвращает true, если*obj* это[`SizeF`](../../sizef) и имеет ту же ширину и высоту, что и этот[`SizeF`](../../sizef); в противном случае ложно.
 
 ### Смотрите также
 

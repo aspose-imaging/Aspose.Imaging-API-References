@@ -1,14 +1,14 @@
 ---
 title: TypeGeneralScale
 second_title: Aspose.Imaging for .NET API 参考
-description: 通用比例将向量的长度乘以不同的 x 和 y 方向的量而不改变角度 垂直向量之间 此标志位与 TypeUniformScale 标志互斥
+description: 通用比例将向量的长度乘以 x 和 y 方向上的不同 量而不改变垂直向量之间的角度  此标志位与 TypeUniformScale 标志互斥
 type: docs
 weight: 220
 url: /zh/net/aspose.imaging/matrix/typegeneralscale/
 ---
 ## Matrix.TypeGeneralScale field
 
-通用比例将向量的长度乘以不同的 x 和 y 方向的量而不改变角度 垂直向量之间。 此标志位与 TypeUniformScale 标志互斥。
+通用比例将向量的长度乘以 x 和 y 方向上的不同 量，而不改变垂直向量之间的角度 。 此标志位与 TypeUniformScale 标志互斥。
 
 ```csharp
 public const int TypeGeneralScale;

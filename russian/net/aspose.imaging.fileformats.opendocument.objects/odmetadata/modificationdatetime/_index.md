@@ -1,14 +1,14 @@
 ---
 title: ModificationDateTime
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает дату и время модификации.
+description: Получает или задает время даты модификации.
 type: docs
 weight: 150
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects/odmetadata/modificationdatetime/
 ---
 ## OdMetadata.ModificationDateTime property
 
-Получает или задает дату и время модификации.
+Получает или задает время даты модификации.
 
 ```csharp
 public string ModificationDateTime { get; set; }
@@ -16,7 +16,7 @@ public string ModificationDateTime { get; set; }
 
 ### Стоимость имущества
 
-Дата и время модификации.
+Время изменения даты.
 
 ### Смотрите также
 

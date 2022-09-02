@@ -16,7 +16,7 @@ public ShapeSegment[] Segments { get; }
 
 ### 适当的价值
 
-图形分段。
+图分段。
 
 ### 也可以看看
 

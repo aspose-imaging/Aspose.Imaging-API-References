@@ -1,14 +1,14 @@
 ---
 title: ByteData
 second_title: Aspose.Imaging for .NET API 参考
-description: 设置 ltsee langwordbyte /gt 数据
+description: 设置byte数据.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/bytedata/
 ---
 ## WmfPitchAndFamily.ByteData property
 
-设置 &lt;see langword="byte" /&gt; 数据。
+设置`byte`数据.
 
 ```csharp
 public byte ByteData { get; set; }
@@ -16,7 +16,7 @@ public byte ByteData { get; set; }
 
 ### 适当的价值
 
-&lt;see langword="byte" /&gt; 数据。
+的`byte`数据.
 
 ### 也可以看看
 

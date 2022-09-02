@@ -1,14 +1,14 @@
 ---
 title: EmfMaskBlt
 second_title: Aspose.Imaging for .NET API 参考
-description: EMR_MASKBLT 记录指定像素从源位图到目标 矩形的块传输可选地结合画笔图案和应用颜色掩码 位图根据指定的前景和背景光栅操作
+description: EMR_MASKBLT 记录指定像素从源位图到目标 矩形的块传输根据指定的前景和背景光栅操作可选地结合画笔图案和应用颜色掩码 位图
 type: docs
 weight: 3800
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfmaskblt/
 ---
 ## EmfMaskBlt class
 
-EMR_MASKBLT 记录指定像素从源位图到目标 矩形的块传输，可选地结合画笔图案和应用颜色掩码 位图，根据指定的前景和背景光栅操作。
+EMR_MASKBLT 记录指定像素从源位图到目标 矩形的块传输，根据指定的前景和背景光栅操作，可选地结合画笔图案和应用颜色掩码 位图。
 
 ```csharp
 public sealed class EmfMaskBlt : EmfBitmapRecordType
@@ -18,29 +18,29 @@ public sealed class EmfMaskBlt : EmfBitmapRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfMaskBlt](emfmaskblt)(EmfRecord) | 初始化[`EmfMaskBlt`](../emfmaskblt)类的新实例。 |
+| [EmfMaskBlt](emfmaskblt)(EmfRecord) | 初始化[`EmfMaskBlt`](../emfmaskblt)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Argb32BkColorSrc](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/argb32bkcolorsrc) { get; set; } | 获取或设置 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节指定源位图的 背景颜色。 |
-| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/bounds) { get; set; } | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），该对象以设备单位定义 目标边界矩形。 |
-| [CxDest](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/cxdest) { get; set; } | 获取或设置一个 32 位有符号整数，它指定目标矩形的逻辑宽度。 |
-| [CyDest](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/cydest) { get; set; } | 获取或设置一个 32 位有符号整数，它指定目标矩形的逻辑高度。 |
-| [MaskBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/maskbitmap) { get; set; } | 获取或设置包含掩码位图的缓冲区，这些位图不是 需要与 EMR_MASKBLT 记录的固定部分或每个 其他。因此，此缓冲区中标记为“UndefinedSpace”的字段是可选的，并且 必须被忽略。 |
-| [Rop4](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/rop4) { get; set; } | 获取或设置四元光栅操作，它为 位图的前景色和背景色指定三元光栅运算。这些值定义了 源矩形的颜色数据如何与目标矩形的颜色数据组合。 |
+| [Argb32BkColorSrc](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/argb32bkcolorsrc) { get; set; } | 获取或设置 WMF ColorRef 对象（[MS-WMF] 第 2.2.2.8 节，指定源位图的 背景颜色。 |
+| [Bounds](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/bounds) { get; set; } | 获取或设置一个 WMF RectL 对象（[MS-WMF] 第 2.2.2.19 节），它以设备单位定义 目标边界矩形。 |
+| [CxDest](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/cxdest) { get; set; } | 获取或设置一个 32 位有符号整数，指定目标矩形的逻辑宽度。 |
+| [CyDest](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/cydest) { get; set; } | 获取或设置一个 32 位有符号整数，指定目标矩形的逻辑高度。 |
+| [MaskBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/maskbitmap) { get; set; } | 获取或设置包含掩码位图的缓冲区，这些位图不是 需要与 EMR_MASKBLT 记录的固定部分或每个其他 连续的。因此，此缓冲区中标记为“UndefinedSpace”的字段是可选的， 必须被忽略。 |
+| [Rop4](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/rop4) { get; set; } | 获取或设置四元光栅操作，它为 位图的前景色和背景色指定三元光栅操作。这些值定义了 源矩形的颜色数据如何与目标矩形的颜色数据结合。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
-| [SourceBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/sourcebitmap) { get; set; } | 获取或设置包含源位图的缓冲区，这些位图不是 需要与 EMR_MASKBLT 记录的固定部分或每个 其他。因此，此缓冲区中标记为“UndefinedSpace”的字段是可选的，并且 必须被忽略。 |
+| [SourceBitmap](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/sourcebitmap) { get; set; } | 获取或设置包含源位图的缓冲区，这些源位图不是 需要与 EMR_MASKBLT 记录的固定部分或每个其他 连续的。因此，此缓冲区中标记为“UndefinedSpace”的字段是可选的， 必须被忽略。 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
-| [UsageMask](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/usagemask) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定如何解释掩码位图标头中 颜色表中的值。该值必须在 DIBColors 枚举中。 |
-| [UsageSrc](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/usagesrc) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定如何解释源位图标头中 颜色表中的值。该值必须在 DIBColors 枚举中（第 2.1.9 节）。 |
+| [UsageMask](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/usagemask) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定如何解释掩码位图标头中 颜色表中的值。此值必须在 DIBColors 枚举中。 |
+| [UsageSrc](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/usagesrc) { get; set; } | 获取或设置一个 32 位无符号整数，它指定如何解释源位图头中的 颜色表中的值。此值必须在 DIBColors 枚举（第 2.1.9 节）中。 |
 | [XDest](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/xdest) { get; set; } | 获取或设置一个 32 位有符号整数，它指定目标矩形左上角 角的逻辑 x 坐标。 |
 | [XformSrc](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/xformsrc) { get; set; } | 获取或设置一个 XForm 对象（第 2.2.28 节），该对象指定世界空间到页面空间的转换以应用于源位图。 |
-| [XMask](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/xmask) { get; set; } | 获取或设置一个 32 位有符号整数，它指定掩码位图左上角的逻辑 x 坐标。 |
+| [XMask](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/xmask) { get; set; } | 获取或设置一个 32 位有符号整数，指定掩码位图左上角的逻辑 x 坐标。 |
 | [XSrc](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/xsrc) { get; set; } | 获取或设置一个 32 位有符号整数，它指定源矩形左上角 角的逻辑 x 坐标。 |
 | [YDest](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/ydest) { get; set; } | 获取或设置一个 32 位有符号整数，它指定目标矩形左上角 角的逻辑 y 坐标。 |
-| [YMask](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/ymask) { get; set; } | 获取或设置一个 32 位有符号整数，它指定掩码位图左上角的逻辑 y 坐标。 |
+| [YMask](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/ymask) { get; set; } | 获取或设置一个 32 位有符号整数，指定掩码位图左上角的逻辑 y 坐标。 |
 | [YSrc](../../aspose.imaging.fileformats.emf.emf.records/emfmaskblt/ysrc) { get; set; } | 获取或设置一个 32 位有符号整数，它指定源矩形左上角 角的逻辑 y 坐标。 |
 
 ### 也可以看看

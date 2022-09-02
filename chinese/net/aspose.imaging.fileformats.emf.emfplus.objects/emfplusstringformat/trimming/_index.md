@@ -1,14 +1,14 @@
 ---
 title: Trimming
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置指定如何从 太大而无法放入布局矩形的字符串中修剪字符这个值 必须在 StringTrimming 枚举中定义第 2.1.1.31 节
+description: 获取或设置指定如何从字符串中修剪字符因为 太大而无法放入布局矩形此 value 必须在 StringTrimming 枚举第 2.1.1.31 节中定义
 type: docs
 weight: 160
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/trimming/
 ---
 ## EmfPlusStringFormat.Trimming property
 
-获取或设置指定如何从 太大而无法放入布局矩形的字符串中修剪字符。这个值 必须在 StringTrimming 枚举中定义（第 2.1.1.31 节）。
+获取或设置指定如何从字符串中修剪字符，因为 太大而无法放入布局矩形。此 value 必须在 StringTrimming 枚举（第 2.1.1.31 节）中定义。
 
 ```csharp
 public EmfPlusStringTrimming Trimming { get; set; }

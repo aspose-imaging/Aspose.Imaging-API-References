@@ -16,7 +16,7 @@ public Dictionary<int, CdrPattern> Patterns { get; }
 
 ### Стоимость имущества
 
-Паттерны.
+Узоры.
 
 ### Смотрите также
 

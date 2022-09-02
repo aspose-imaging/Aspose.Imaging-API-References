@@ -1,14 +1,14 @@
 ---
 title: ToGdiColorMaps
 second_title: Aspose.Imaging for .NET API 参考
-description: 将ColorMapaspose.imaging/colormap数组转换为ColorMap大批
+description: 转换ColorMapaspose.imaging/colormap数组到ColorMap数组.
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.extensions/colormapextensions/togdicolormaps/
 ---
 ## ColorMapExtensions.ToGdiColorMaps method
 
-将[`ColorMap`](../../../aspose.imaging/colormap)数组转换为ColorMap大批。
+转换[`ColorMap`](../../../aspose.imaging/colormap)数组到ColorMap数组.
 
 ```csharp
 public static ColorMap[] ToGdiColorMaps(ColorMap[] colorMaps)
@@ -20,7 +20,7 @@ public static ColorMap[] ToGdiColorMaps(ColorMap[] colorMaps)
 
 ### 返回值
 
-转换后的ColorMap数组。
+转换后的ColorMap数组.
 
 ### 也可以看看
 

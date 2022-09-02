@@ -1,14 +1,14 @@
 ---
 title: IsCanceled
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取指示此任务是否已取消的值
+description: 获取一个值该值指示此任务是否已取消
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.asynctask/iasynctask/iscanceled/
 ---
 ## IAsyncTask.IsCanceled property
 
-获取指示此任务是否已取消的值。
+获取一个值，该值指示此任务是否已取消。
 
 ```csharp
 public bool IsCanceled { get; }
@@ -16,7 +16,7 @@ public bool IsCanceled { get; }
 
 ### 适当的价值
 
-` true` 如果此任务被取消；否则，` false` 。
+`真的`如果此任务被取消；否则，`错误的` .
 
 ### 也可以看看
 

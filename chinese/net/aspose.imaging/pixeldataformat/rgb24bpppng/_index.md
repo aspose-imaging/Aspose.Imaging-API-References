@@ -1,14 +1,14 @@
 ---
 title: Rgb24BppPng
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取PixelDataFormataspose.imaging/pixeldataformat定义为每像素 24 位每个 alpha红色绿色 8 位蓝色未定义 alpha
+description: 获取PixelDataFormataspose.imaging/pixeldataformat定义为每像素 24 位alpha红色绿色和蓝色各 8 位alpha 未定义
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging/pixeldataformat/rgb24bpppng/
 ---
 ## PixelDataFormat.Rgb24BppPng property
 
-获取[`PixelDataFormat`](../../pixeldataformat)定义为每像素 24 位，每个 alpha、红色、绿色 8 位蓝色，未定义 alpha。
+获取[`PixelDataFormat`](../../pixeldataformat)定义为每像素 24 位，alpha、红色、绿色和蓝色各 8 位，alpha 未定义。
 
 ```csharp
 public static PixelDataFormat Rgb24BppPng { get; }
@@ -16,7 +16,7 @@ public static PixelDataFormat Rgb24BppPng { get; }
 
 ### 适当的价值
 
-[`PixelDataFormat`](../../pixeldataformat)定义为 24 位每个像素有 8 位的 alpha、red、green 和 blue，alpha 没有定义。
+的[`PixelDataFormat`](../../pixeldataformat)定义为每像素 24 位，alpha、红色、绿色和蓝色各 8 位，alpha 未定义。
 
 ### 也可以看看
 

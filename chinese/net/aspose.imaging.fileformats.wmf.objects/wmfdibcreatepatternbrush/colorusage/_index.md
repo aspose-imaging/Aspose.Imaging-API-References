@@ -1,14 +1,14 @@
 ---
 title: ColorUsage
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置颜色使用
+description: 获取或设置颜色使用情况
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.wmf.objects/wmfdibcreatepatternbrush/colorusage/
 ---
 ## WmfDibCreatePatternBrush.ColorUsage property
 
-获取或设置颜色使用。
+获取或设置颜色使用情况。
 
 ```csharp
 public WmfColorUsageEnum ColorUsage { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: NumAxes
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное целое число без знака указывающее количество элементов в массиве Values. ДОЛЖЕН быть в диапазоне от 0 до 16 включительно
+description: Получает или задает 32-разрядное целое число без знака указывающее количество элементов в массиве Values. ДОЛЖЕН быть в диапазоне от 0 до 16 inclusive
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/numaxes/
 ---
 ## EmfDesignVector.NumAxes property
 
-Получает или задает 32-разрядное целое число без знака, указывающее количество элементов в массиве Values. ДОЛЖЕН быть в диапазоне от 0 до 16 включительно
+Получает или задает 32-разрядное целое число без знака, указывающее количество элементов в массиве Values. ДОЛЖЕН быть в диапазоне от 0 до 16, inclusive
 
 ```csharp
 public int NumAxes { get; set; }

@@ -16,7 +16,7 @@ public void SetSeriesDescription(string seriesDescription)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| seriesDescription | String | Описание серии. |
+| seriesDescription | String | Описание сериала. |
 
 ### Смотрите также
 

@@ -18,20 +18,20 @@ public sealed class EmfSetRop2 : EmfStateRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfSetRop2](emfsetrop2#constructor)() | 初始化[`EmfSetRop2`](../emfsetrop2)类的新实例。 |
-| [EmfSetRop2](emfsetrop2#constructor_1)(EmfRecord) | 初始化[`EmfSetRop2`](../emfsetrop2)类的新实例。 |
+| [EmfSetRop2](emfsetrop2#constructor)() | 初始化[`EmfSetRop2`](../emfsetrop2)类. |
+| [EmfSetRop2](emfsetrop2#constructor_1)(EmfRecord) | 初始化[`EmfSetRop2`](../emfsetrop2)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Rop2Mode](../../aspose.imaging.fileformats.emf.emf.records/emfsetrop2/rop2mode) { get; set; } | 获取或设置指定光栅操作模式的 32 位无符号整数，并且 必须在 WMF 二进制光栅操作枚举中（[MS -WMF] 第 2.1.1.2 节）。 |
+| [Rop2Mode](../../aspose.imaging.fileformats.emf.emf.records/emfsetrop2/rop2mode) { get; set; } | 获取或设置一个指定光栅操作模式的 32 位无符号整数， 必须在 WMF 二进制光栅操作枚举中（[MS-WMF] 第 2.1.1.2 节）。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 
 ### 评论
 
-二进制光栅操作混合模式定义了在:::47::时如何组合源颜色和目标颜色:用当前笔绘图。混合模式是二进制光栅运算代码，表示两个变量的所有 可能的布尔函数，使用二进制运算 AND、OR 和 XOR （异或）和一元运算非操作。混合模式仅适用于光栅设备；它不适用于矢量设备 。
+二进制光栅操作混合模式定义了当 用当前笔绘图时如何组合源颜色和目标颜色。混合模式是二进制光栅运算代码，表示两个变量的 all 可能的布尔函数，使用二进制运算 AND、OR 和 XOR （异或）和一元运算 NOT。混合模式仅适用于光栅设备；它不适用于矢量设备 。
 
 ### 也可以看看
 

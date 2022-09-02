@@ -25,9 +25,8 @@ public class CdrBmp : CdrDictionaryItem
 | Имя | Описание |
 | --- | --- |
 | [Bpp](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/bpp) { get; set; } | Получает или задает BPP. |
-| [BytesPerLine](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/bytesperline) { get; set; } | Получает или задает количество байтов в строке. |
+| [BytesPerLine](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/bytesperline) { get; set; } | Получает или задает количество байтов на строку. |
 | [ColorModel](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/colormodel) { get; set; } | Получает или задает цветовую модель. |
-| [Data](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/data) { get; set; } | Получает или задает данные. |
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Получает значение, указывающее, удален ли этот экземпляр. |
 | [Document](../../aspose.imaging.fileformats.cdr.objects/cdrobject/document) { get; set; } | Получает или задает документ. |
 | [Height](../../aspose.imaging.fileformats.cdr.objects/cdrbmp/height) { get; set; } | Получает или задает высоту. |

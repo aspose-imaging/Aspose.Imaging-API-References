@@ -18,18 +18,18 @@ public class OdLineTo : OdGraphicObject
 
 | Имя | Описание |
 | --- | --- |
-| [OdLineTo](odlineto)(OdObject) | Инициализирует новый экземпляр класса[`OdLineTo`](../odlineto). |
+| [OdLineTo](odlineto)(OdObject) | Инициализирует новый экземпляр[`OdLineTo`](../odlineto) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, используются ли [абсолютные координаты]. |
+| [AbsoluteCoordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/absolutecoordinates) { get; set; } | Получает или задает значение, указывающее, являются ли [абсолютные координаты]. |
 | [Coordinates](../../aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/coordinates) { get; set; } | Получает или задает координаты. |
-| [Horizontal](../../aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/horizontal) { get; set; } | Получает или задает значение, указывающее, является ли это[`OdLineTo`](../odlineto)вертикальным. |
+| [Horizontal](../../aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/horizontal) { get; set; } | Получает или задает значение, указывающее, является ли это[`OdLineTo`](../odlineto) вертикально. |
 | [Items](../../aspose.imaging.fileformats.opendocument/odobject/items) { get; } | Получает предметы. |
 | [Parent](../../aspose.imaging.fileformats.opendocument/odobject/parent) { get; } | Получает родительский объект. |
-| [Vertical](../../aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/vertical) { get; set; } | Получает или задает значение, указывающее, является ли это[`OdLineTo`](../odlineto)вертикальным. |
+| [Vertical](../../aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/vertical) { get; set; } | Получает или задает значение, указывающее, является ли это[`OdLineTo`](../odlineto) вертикально. |
 
 ### Смотрите также
 

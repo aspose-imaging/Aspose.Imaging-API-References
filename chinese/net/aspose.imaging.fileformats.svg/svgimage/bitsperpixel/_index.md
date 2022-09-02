@@ -1,14 +1,14 @@
 ---
 title: BitsPerPixel
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取图像每像素位数 此参数不适用于矢量图像
+description: 获取每像素的图像位数此参数不适用于矢量图像
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.svg/svgimage/bitsperpixel/
 ---
 ## SvgImage.BitsPerPixel property
 
-获取图像每像素位数 此参数不适用于矢量图像
+获取每像素的图像位数此参数不适用于矢量图像
 
 ```csharp
 public override int BitsPerPixel { get; }
@@ -22,7 +22,7 @@ public override int BitsPerPixel { get; }
 
 | 例外 | （健康）状况 |
 | --- | --- |
-| NotImplementedException | 对矢量图无效 |
+| NotImplementedException | 不适用于矢量图像 |
 
 ### 也可以看看
 

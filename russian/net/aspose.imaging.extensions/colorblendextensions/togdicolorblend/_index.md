@@ -1,14 +1,14 @@
 ---
 title: ToGdiColorBlend
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПреобразуетColorBlendaspose.imaging/colorblendвColorBlend.
+description: ПреобразуетColorBlendaspose.imaging/colorblend кColorBlend .
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.extensions/colorblendextensions/togdicolorblend/
 ---
 ## ColorBlendExtensions.ToGdiColorBlend method
 
-Преобразует[`ColorBlend`](../../../aspose.imaging/colorblend)вColorBlend.
+Преобразует[`ColorBlend`](../../../aspose.imaging/colorblend) кColorBlend .
 
 ```csharp
 public static ColorBlend ToGdiColorBlend(ColorBlend colorBlend)
@@ -16,7 +16,7 @@ public static ColorBlend ToGdiColorBlend(ColorBlend colorBlend)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| colorBlend | ColorBlend | Смешение цветов. |
+| colorBlend | ColorBlend | Цветовая смесь. |
 
 ### Возвращаемое значение
 

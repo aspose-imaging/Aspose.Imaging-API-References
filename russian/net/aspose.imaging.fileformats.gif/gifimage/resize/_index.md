@@ -31,7 +31,7 @@ string dir = "c:\\temp\\";
 
 using (Aspose.Imaging.FileFormats.Gif.GifImage image = (Aspose.Imaging.FileFormats.Gif.GifImage)Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-     // Масштабирование в 2 раза с использованием передискретизации ближайших соседей.
+    // Масштабирование в 2 раза с использованием передискретизации ближайших соседей.
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
     image.Save(dir + "upsample.nearestneighbour.gif");
 }
@@ -45,14 +45,14 @@ using (Aspose.Imaging.FileFormats.Gif.GifImage image = (Aspose.Imaging.FileForma
 
 using (Aspose.Imaging.FileFormats.Gif.GifImage image = (Aspose.Imaging.FileFormats.Gif.GifImage)Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-     // Увеличение в 2 раза с использованием билинейной передискретизации.
+    // Масштабируем в 2 раза, используя билинейную передискретизацию.
     image.Resize(image.Width* 2, image.Height* 2, Aspose.Imaging.ResizeType.BilinearResample);
     image.Save(dir + "upsample.bilinear.gif");
 }
 
 using (Aspose.Imaging.FileFormats.Gif.GifImage image = (Aspose.Imaging.FileFormats.Gif.GifImage)Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
-     // Уменьшить масштаб в 2 раза, используя билинейную передискретизацию.
+    // Уменьшить масштаб в 2 раза, используя билинейную передискретизацию.
     image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.BilinearResample);
     image.Save(dir + "downsample.bilinear.gif");
 }
@@ -92,29 +92,29 @@ string dir = "c:\\temp\\";
 
 Aspose.Imaging.ImageResizeSettings resizeSettings = new Aspose.Imaging.ImageResizeSettings();
 
- // Адаптивный алгоритм, основанный на взвешенной и смешанной рациональной функции и интерполяции lanczos3.
+// Адаптивный алгоритм, основанный на взвешенной и смешанной рациональной функции и интерполяции Ланцоша3.
 resizeSettings.Mode = Aspose.Imaging.ResizeType.AdaptiveResample;
 
- // Маленький прямоугольный filter
+// Маленький прямоугольный фильтр
 resizeSettings.FilterType = Aspose.Imaging.ImageFilterType.SmallRectangular;
 
- // Количество цветов в палитре.
+// Количество цветов в палитре.
 resizeSettings.EntriesCount = 256;
 
- // Квантование цвета не используется
+// Квантование цвета не используется
 resizeSettings.ColorQuantizationMethod = ColorQuantizationMethod.None;
 
- // Евклидов метод
+// Евклидов метод
 resizeSettings.ColorCompareMethod = ColorCompareMethod.Euclidian;
 
 using (Aspose.Imaging.Image image = (Aspose.Imaging.Image)Aspose.Imaging.Image.Load(dir + "sample.gif"))
 {
     Aspose.Imaging.FileFormats.Gif.GifImage gifImage = (Aspose.Imaging.FileFormats.Gif.GifImage)image;
 
-     // Масштабирование в 2 раза с использованием адаптивной передискретизации.
+    // Уменьшить масштаб в 2 раза, используя адаптивную передискретизацию.
     gifImage.Resize(image.Width / 2, image.Height / 2, resizeSettings);
 
-     // Сохранить в PNG
+    // Сохранить в PNG
     gifImage.Save(dir + "downsample.adaptive.png", new Aspose.Imaging.ImageOptions.PngOptions());
 }
 ```

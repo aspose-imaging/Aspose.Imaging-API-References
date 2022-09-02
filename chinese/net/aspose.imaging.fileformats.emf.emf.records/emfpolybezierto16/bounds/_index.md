@@ -1,14 +1,14 @@
 ---
 title: Bounds
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 128 位 WMF RectL 对象在 MS-WMF 第 2.2.2.19 节中指定 指定边界矩形 以设备为单位
+description: 获取或设置一个 128 位 WMF RectL 对象在 MS-WMF 第 2.2.2.19 节中指定 指定边界矩形以设备为单位
 type: docs
 weight: 30
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfpolybezierto16/bounds/
 ---
 ## EmfPolyBezierTo16.Bounds property
 
-获取或设置一个 128 位 WMF RectL 对象，在 [MS-WMF] 第 2.2.2.19 节中指定， 指定边界矩形, 以设备为单位。
+获取或设置一个 128 位 WMF RectL 对象，在 [MS-WMF] 第 2.2.2.19 节中指定， 指定边界矩形，以设备为单位。
 
 ```csharp
 public Rectangle Bounds { get; set; }

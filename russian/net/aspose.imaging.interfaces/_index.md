@@ -1,12 +1,12 @@
 ---
 title: Aspose.Imaging.Interfaces
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Пространство имен обрабатывает обработку файлов формата Tiff.
+description: Пространство имен обрабатывает формат файла Tiff.
 type: docs
 weight: 770
 url: /ru/net/aspose.imaging.interfaces/
 ---
-Пространство имен обрабатывает обработку файлов формата Tiff.
+Пространство имен обрабатывает формат файла Tiff.
 
 ## Интерфейсы
 

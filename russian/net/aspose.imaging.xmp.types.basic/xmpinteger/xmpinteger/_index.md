@@ -1,14 +1,14 @@
 ---
 title: XmpInteger
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаXmpIntegeraspose.imaging.xmp.types.basic/xmpinteger.
+description: Инициализирует новый экземплярXmpIntegeraspose.imaging.xmp.types.basic/xmpinteger класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp.types.basic/xmpinteger/xmpinteger/
 ---
 ## XmpInteger(long) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`XmpInteger`](../../xmpinteger).
+Инициализирует новый экземпляр[`XmpInteger`](../../xmpinteger) класс.
 
 ```csharp
 public XmpInteger(long value)
@@ -28,7 +28,7 @@ public XmpInteger(long value)
 
 ## XmpInteger(int) {#constructor}
 
-Инициализирует новый экземпляр класса[`XmpInteger`](../../xmpinteger).
+Инициализирует новый экземпляр[`XmpInteger`](../../xmpinteger) класс.
 
 ```csharp
 public XmpInteger(int value)
@@ -48,7 +48,7 @@ public XmpInteger(int value)
 
 ## XmpInteger(string) {#constructor_2}
 
-Инициализирует новый экземпляр класса[`XmpInteger`](../../xmpinteger).
+Инициализирует новый экземпляр[`XmpInteger`](../../xmpinteger) класс.
 
 ```csharp
 public XmpInteger(string value)
@@ -62,7 +62,7 @@ public XmpInteger(string value)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Значение равно null. |
+| ArgumentNullException | значение равно нулю. |
 | ArgumentException | Недопустимое строковое значение;значение |
 
 ### Смотрите также

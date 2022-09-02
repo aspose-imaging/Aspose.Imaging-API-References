@@ -1,14 +1,14 @@
 ---
 title: CompoundLineData
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置可选的 EmfPlusCompoundLineData 对象第 2.2.2.9 节 指定定义47 的浮点值数组笔的复合线由平行线 和空格组成如果在 EmfPlusPenData 对象
+description: 获取或设置可选的 EmfPlusCompoundLineData 对象第 2.2.2.9 节 指定浮点值数组这些值定义 笔的复合线由平行线 和空格组成如果在 EmfPlusPenData object 的 PenDataFlags 字段 中设置了 PenDataCompoundLine 标志则该字段必须存在
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata/compoundlinedata/
 ---
 ## EmfPlusPenOptionalData.CompoundLineData property
 
-获取或设置可选的 EmfPlusCompoundLineData 对象（第 2.2.2.9 节） 指定定义:::47 的浮点值数组:::笔的复合线，由平行线 和空格组成。如果在 EmfPlusPenData 对象
+获取或设置可选的 EmfPlusCompoundLineData 对象（第 2.2.2.9 节） 指定浮点值数组，这些值定义 笔的复合线，由平行线 和空格组成。如果在 EmfPlusPenData object 的 PenDataFlags 字段 中设置了 PenDataCompoundLine 标志，则该字段必须存在
 
 ```csharp
 public EmfPlusCompoundLineData CompoundLineData { get; set; }

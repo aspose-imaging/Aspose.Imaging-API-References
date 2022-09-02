@@ -1,14 +1,14 @@
 ---
 title: LinePath
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает объектEmfPlusPathaspose.imaging.fileformats.emf.emfplus.objects/emfpluspath определяющий структуру.
+description: Получает или задаетEmfPlusPathaspose.imaging.fileformats.emf.emfplus.objects/emfpluspath объект определяющий контур.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslinepath/linepath/
 ---
 ## EmfPlusLinePath.LinePath property
 
-Получает или задает объект[`EmfPlusPath`](../../emfpluspath), определяющий структуру.
+Получает или задает[`EmfPlusPath`](../../emfpluspath) объект, определяющий контур.
 
 ```csharp
 public EmfPlusPath LinePath { get; set; }

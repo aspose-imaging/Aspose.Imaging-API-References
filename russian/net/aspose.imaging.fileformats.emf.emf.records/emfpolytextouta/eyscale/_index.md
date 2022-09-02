@@ -1,14 +1,14 @@
 ---
 title: EyScale
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 32-разрядное значение с плавающей запятой указывающее масштаб Y от единиц страницы до 001 мм если графический режим GM_COMPATIBLE .
+description: Получает или задает 32-битное значение с плавающей запятой указывающее масштаб Y от единиц страницы до единиц 001 мм если графический режим GM_COMPATIBLE.
 type: docs
 weight: 50
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfpolytextouta/eyscale/
 ---
 ## EmfPolyTextOutA.EyScale property
 
-Получает или задает 32-разрядное значение с плавающей запятой, указывающее масштаб Y от единиц страницы до 0,01 мм, если графический режим GM_COMPATIBLE .
+Получает или задает 32-битное значение с плавающей запятой, указывающее масштаб Y от единиц страницы до единиц 0,01 мм, если графический режим GM_COMPATIBLE.
 
 ```csharp
 public float EyScale { get; set; }

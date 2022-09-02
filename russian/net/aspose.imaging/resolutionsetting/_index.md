@@ -3,7 +3,7 @@ title: ResolutionSetting
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Настройка разрешения для параметров сохранения изображения.
 type: docs
-weight: 10880
+weight: 10870
 url: /ru/net/aspose.imaging/resolutionsetting/
 ---
 ## ResolutionSetting class
@@ -18,14 +18,14 @@ public class ResolutionSetting
 
 | Имя | Описание |
 | --- | --- |
-| [ResolutionSetting](resolutionsetting#constructor)() | Инициализирует новый экземпляр класса[`ResolutionSetting`](../resolutionsetting). |
-| [ResolutionSetting](resolutionsetting#constructor_1)(double, double) | Инициализирует новый экземпляр класса[`ResolutionSetting`](../resolutionsetting). |
+| [ResolutionSetting](resolutionsetting#constructor)() | Инициализирует новый экземпляр[`ResolutionSetting`](../resolutionsetting) класс. |
+| [ResolutionSetting](resolutionsetting#constructor_1)(double, double) | Инициализирует новый экземпляр[`ResolutionSetting`](../resolutionsetting) класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [HorizontalResolution](../../aspose.imaging/resolutionsetting/horizontalresolution) { get; set; } | Получает или задает разрешение по горизонтали. |
+| [HorizontalResolution](../../aspose.imaging/resolutionsetting/horizontalresolution) { get; set; } | Получает или задает горизонтальное разрешение. |
 | [VerticalResolution](../../aspose.imaging/resolutionsetting/verticalresolution) { get; set; } | Получает или задает вертикальное разрешение. |
 
 ### Смотрите также

@@ -3,7 +3,7 @@ title: Rational
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет XMP Rational.
 type: docs
-weight: 11640
+weight: 11630
 url: /ru/net/aspose.imaging.xmp.types.derived/rational/
 ---
 ## Rational class
@@ -18,7 +18,7 @@ public class Rational : XmpTypeBase
 
 | Имя | Описание |
 | --- | --- |
-| [Rational](rational)(int, int) | Инициализирует новый экземпляр класса[`Rational`](../rational). |
+| [Rational](rational)(int, int) | Инициализирует новый экземпляр[`Rational`](../rational) класс. |
 
 ## Характеристики
 
@@ -32,7 +32,7 @@ public class Rational : XmpTypeBase
 
 | Имя | Описание |
 | --- | --- |
-| override [GetXmpRepresentation](../../aspose.imaging.xmp.types.derived/rational/getxmprepresentation)() | Получает значение, содержащееся в строке, в формате XMP. |
+| override [GetXmpRepresentation](../../aspose.imaging.xmp.types.derived/rational/getxmprepresentation)() | Получает содержащееся в строке значение в формате XMP. |
 
 ### Смотрите также
 

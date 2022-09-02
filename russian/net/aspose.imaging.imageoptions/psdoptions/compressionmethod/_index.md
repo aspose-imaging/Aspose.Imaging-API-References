@@ -20,78 +20,43 @@ public CompressionMethod CompressionMethod { get; set; }
 
 ### Примеры
 
-Этот пример демонстрирует использование Aspsoe.Imaging for .Net API для преобразования изображений в формат PSD. Для достижения этой цели в этом примере загружается существующее изображение, а затем сохраняется обратно в формате PSD.
+В этом примере демонстрируется использование Aspsoe.Imaging for .Net API для преобразования изображений в формат PSD. Для достижения этой цели в этом примере загружается существующее изображение, а затем сохраняется обратно в формате PSD.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
- // Создаем изображение PNG размером 100x100 px.
-using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.FileFormats.Png.PngImage(100, 100, Aspose.Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha))
+//Создает экземпляр класса изображения и инициализирует его существующим файлом через путь к файлу
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
 {
-     // Определяем линейный сине-прозрачный градиент.
-    Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
-            new Aspose.Imaging.Point(0, 0),
-            new Aspose.Imaging.Point(pngImage.Width, pngImage.Height),
-            Aspose.Imaging.Color.Blue,
-            Aspose.Imaging.Color.Transparent);
+    //Создаем экземпляр класса PsdOptions
+    Aspose.Imaging.ImageOptions.PsdOptions psdOptions = new Aspose.Imaging.ImageOptions.PsdOptions();
 
-    Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(pngImage);
+    //Установите CompressionMethod как RLE
+    //Примечание: другим поддерживаемым методом сжатия является CompressionMethod.RAW [без сжатия]
+    psdOptions.CompressionMethod = Aspose.Imaging.FileFormats.Psd.CompressionMethod.RLE;
 
-     // Заливаем PNG-изображение линейным сине-прозрачным градиентом.
-    graphics.FillRectangle(gradientBrush, pngImage.Bounds);
+    //Установите ColorMode в GrayScale
+    //Примечание. Другими поддерживаемыми режимами ColorModes являются ColorModes.Bitmap и ColorModes.RGB.
+    psdOptions.ColorMode = Aspose.Imaging.FileFormats.Psd.ColorModes.Grayscale;
 
-     // Следующие параметры будут использоваться для сохранения изображения PNG в формате PSD.
-    Aspose.Imaging.ImageOptions.PsdOptions saveOptions = new Aspose.Imaging.ImageOptions.PsdOptions();
-
-     // Количество бит на канал
-    saveOptions.ChannelBitsCount = 8;
-
-     // Количество каналов. Один канал для каждого цветового компонента R,G,B,A
-    saveOptions.ChannelsCount = 4;
-
-     // Цвет mode
-    saveOptions.ColorMode = Aspose.Imaging.FileFormats.Psd.ColorModes.Rgb;
-
-     // Без сжатия
-    saveOptions.CompressionMethod = Imaging.FileFormats.Psd.CompressionMethod.Raw;
-
-     // Версия по умолчанию 6
-    saveOptions.Version = 6;            
-
-    using (System.IO.FileStream stream = System.IO.File.Create(dir + "saveoptions.psd"))
-    {
-        pngImage.Save(stream, saveOptions);
-        System.Console.WriteLine("The size of the PSD image with RAW compression: {0}", stream.Length);
-    }
-
-    using (System.IO.FileStream stream = System.IO.File.Create(dir + "saveoptions.RLE.psd"))
-    {
-        // Сжатие RLE позволяет уменьшить размер вывода image
-        saveOptions.CompressionMethod = Imaging.FileFormats.Psd.CompressionMethod.RLE;
-
-        pngImage.Save(stream, saveOptions);
-        System.Console.WriteLine("The size of the PSD image with RLE compression: {0}", stream.Length);
-    }
-
-    // Вывод может выглядеть так: 
-     // Размер изображения PSD со сжатием RAW: 40090
-     // Размер PSD-изображения с RLE-сжатием: 16185
+    // Сохраняем изображение на диск с предоставленными настройками PsdOptions
+    image.Save(dir + "output.psd", psdOptions);
 }
 ```
 
-В этом примере показано, как сохранить изображение PNG в формате PSD с использованием различных опций, специфичных для PSD.
+В этом примере показано, как сохранить изображение PNG в формате PSD, используя различные параметры, специфичные для PSD.
 
 ```csharp
 [C#]
 
 string dir = "c:\\temp\\";
 
- // Создаем изображение PNG размером 100x100 px.
+// Создаем PNG-изображение размером 100x100 пикселей.
 using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.FileFormats.Png.PngImage(100, 100, Aspose.Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha))
 {
-     // Определяем линейный сине-прозрачный градиент.
+    // Определяем линейный сине-прозрачный градиент.
     Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
             new Aspose.Imaging.Point(0, 0),
             new Aspose.Imaging.Point(pngImage.Width, pngImage.Height),
@@ -100,25 +65,25 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(pngImage);
 
-     // Заливаем PNG-изображение линейным сине-прозрачным градиентом.
+    // Заливаем PNG-изображение линейным сине-прозрачным градиентом.
     graphics.FillRectangle(gradientBrush, pngImage.Bounds);
 
-     // Следующие параметры будут использоваться для сохранения изображения PNG в формате PSD.
+    // Следующие параметры будут использоваться для сохранения изображения PNG в формате PSD.
     Aspose.Imaging.ImageOptions.PsdOptions saveOptions = new Aspose.Imaging.ImageOptions.PsdOptions();
 
-     // Количество бит на канал
+    // Количество бит на канал
     saveOptions.ChannelBitsCount = 8;
 
-     // Количество каналов. Один канал для каждого цветового компонента R,G,B,A
+    // Количество каналов. Один канал для каждого цветового компонента R,G,B,A
     saveOptions.ChannelsCount = 4;
 
-     // Цвет mode
+    // Цветовой режим
     saveOptions.ColorMode = Aspose.Imaging.FileFormats.Psd.ColorModes.Rgb;
 
-     // Без сжатия
+    // Без сжатия
     saveOptions.CompressionMethod = Imaging.FileFormats.Psd.CompressionMethod.Raw;
 
-     // Версия по умолчанию 6
+    // Версия по умолчанию 6
     saveOptions.Version = 6;            
 
     using (System.IO.FileStream stream = System.IO.File.Create(dir + "saveoptions.psd"))
@@ -129,16 +94,16 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
     using (System.IO.FileStream stream = System.IO.File.Create(dir + "saveoptions.RLE.psd"))
     {
-        // Сжатие RLE позволяет уменьшить размер вывода image
+        // Сжатие RLE позволяет уменьшить размер выходного изображения
         saveOptions.CompressionMethod = Imaging.FileFormats.Psd.CompressionMethod.RLE;
 
         pngImage.Save(stream, saveOptions);
         System.Console.WriteLine("The size of the PSD image with RLE compression: {0}", stream.Length);
     }
 
-    // Вывод может выглядеть так: 
-     // Размер изображения PSD со сжатием RAW: 40090
-     // Размер PSD-изображения с RLE-сжатием: 16185
+    // Вывод может выглядеть так:
+    // Размер PSD-изображения со сжатием RAW: 40090
+    // Размер PSD-изображения с RLE-сжатием: 16185
 }
 ```
 

@@ -16,7 +16,7 @@ public void SetDocumentAncestors(string[] ancestors)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ancestors | String[] | 祖先。 |
+| ancestors | String[] | 祖先们。 |
 
 ### 也可以看看
 

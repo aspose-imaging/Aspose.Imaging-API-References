@@ -1,14 +1,14 @@
 ---
 title: RegionDataHeader
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает 256-разрядный объект RegionDataHeader описывающий следующие данные.
+description: Получает или задает 256-битный объект RegionDataHeader описывающий следующие данные.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfregiondata/regiondataheader/
 ---
 ## EmfRegionData.RegionDataHeader property
 
-Получает или задает 256-разрядный объект RegionDataHeader, описывающий следующие данные.
+Получает или задает 256-битный объект RegionDataHeader, описывающий следующие данные.
 
 ```csharp
 public EmfRegionDataHeader RegionDataHeader { get; set; }

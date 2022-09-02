@@ -18,8 +18,8 @@ public class BmpImageException : ImageException
 
 | Имя | Описание |
 | --- | --- |
-| [BmpImageException](bmpimageexception#constructor)(string) | Инициализирует новый экземпляр класса[`BmpImageException`](../bmpimageexception). |
-| [BmpImageException](bmpimageexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр класса[`BmpImageException`](../bmpimageexception). |
+| [BmpImageException](bmpimageexception#constructor)(string) | Инициализирует новый экземпляр[`BmpImageException`](../bmpimageexception) класс. |
+| [BmpImageException](bmpimageexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр[`BmpImageException`](../bmpimageexception) класс. |
 
 ### Смотрите также
 

@@ -3,7 +3,7 @@ title: XmpMediaManagementPackage
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет пространство имен XMP Media Management.
 type: docs
-weight: 11440
+weight: 11430
 url: /ru/net/aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/
 ---
 ## XmpMediaManagementPackage class
@@ -24,7 +24,7 @@ public sealed class XmpMediaManagementPackage : XmpPackage
 
 | Имя | Описание |
 | --- | --- |
-| virtual [Item](../../aspose.imaging.xmp/xmppackage/item) { get; set; } | Получает или задаетObjectс указанным ключом. |
+| virtual [Item](../../aspose.imaging.xmp/xmppackage/item) { get; set; } | Получает или задаетObject с указанным ключом. |
 | virtual [Keys](../../aspose.imaging.xmp/xmppackage/keys) { get; } | Получает ключи в пакете XMP. |
 | [NamespaceUri](../../aspose.imaging.xmp/xmppackage/namespaceuri) { get; } | Получает URI пространства имен. |
 | [Prefix](../../aspose.imaging.xmp/xmppackage/prefix) { get; } | Получает префикс. |
@@ -36,11 +36,11 @@ public sealed class XmpMediaManagementPackage : XmpPackage
 | --- | --- |
 | override [AddValue](../../aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/addvalue)(string, string) | Добавляет строковое свойство. |
 | virtual [Clear](../../aspose.imaging.xmp/xmppackage/clear)() | Очищает этот экземпляр. |
-| virtual [ContainsKey](../../aspose.imaging.xmp/xmppackage/containskey)(string) | Определяет, содержит ли указанный ключ ключ. |
-| [GetEnumerator](../../aspose.imaging.xmp/xmppackage/getenumerator)() | Возвращает перечислитель, который перебирает коллекцию. |
+| virtual [ContainsKey](../../aspose.imaging.xmp/xmppackage/containskey)(string) | Определяет, содержит ли указанный ключ key. |
+| [GetEnumerator](../../aspose.imaging.xmp/xmppackage/getenumerator)() | Возвращает перечислитель, который выполняет итерацию по коллекции. |
 | virtual [GetXmlValue](../../aspose.imaging.xmp/xmppackage/getxmlvalue)() | Преобразует значение XMP в представление XML. |
 | virtual [Remove](../../aspose.imaging.xmp/xmppackage/remove)(string) | Удалить значение с указанным ключом. |
-| [SetDerivedFrom](../../aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/setderivedfrom)(ResourceRef) | Устанавливает производное от. |
+| [SetDerivedFrom](../../aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/setderivedfrom)(ResourceRef) | Устанавливает производное от . |
 | [SetDocumentId](../../aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/setdocumentid#setdocumentid)(Guid) | Устанавливает идентификатор документа. |
 | [SetDocumentId](../../aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/setdocumentid#setdocumentid_1)(string) | Устанавливает идентификатор документа. |
 | [SetInstanceId](../../aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/setinstanceid#setinstanceid)(Guid) | Устанавливает идентификатор экземпляра. |

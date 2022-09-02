@@ -17,7 +17,7 @@ public override void SetPalette(IColorPalette palette, bool updateColors)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | palette | IColorPalette | 要设置的调色板。 |
-| updateColors | Boolean | 如果设置为` true` 颜色将根据新调色板更新；否则颜色索引保持不变。请注意，如果某些索引没有相应的调色板条目，则未更改的索引可能会在加载时使图像崩溃。 |
+| updateColors | Boolean | 如果设置为`真的`颜色将根据新调色板更新；否则颜色索引保持不变。请注意，如果某些索引没有相应的调色板条目，则未更改的索引可能会在加载时使图像崩溃。 |
 
 ### 也可以看看
 

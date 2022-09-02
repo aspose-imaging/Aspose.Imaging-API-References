@@ -1,14 +1,14 @@
 ---
 title: Packages
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает массивXmpPackageaspose.imaging.xmp/xmppackageвнутри XMP.
+description: Получает массивXmpPackageaspose.imaging.xmp/xmppackage внутри XMP.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.xmp/xmppacketwrapper/packages/
 ---
 ## XmpPacketWrapper.Packages property
 
-Получает массив[`XmpPackage`](../../xmppackage)внутри XMP.
+Получает массив[`XmpPackage`](../../xmppackage) внутри XMP.
 
 ```csharp
 public XmpPackage[] Packages { get; }
@@ -16,7 +16,7 @@ public XmpPackage[] Packages { get; }
 
 ### Стоимость имущества
 
-Массив[`XmpPackage`](../../xmppackage)внутри XMP.
+Массив[`XmpPackage`](../../xmppackage) внутри XMP.
 
 ### Смотрите также
 

@@ -41,7 +41,7 @@ public static Color[] ToArgbIcc(int[] cmykPixels, Stream cmykIccStream, Stream r
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cmykPixels | Int32[] | Цвета CMYK представлены в виде 32-битных целых значений. |
+| cmykPixels | Int32[] | Цвета CMYK представлены в виде 32-битных целых чисел. |
 | cmykIccStream | Stream | Поток, содержащий профиль CMYK Icc. |
 | rgbIccStream | Stream | Поток, содержащий профиль RGB Icc. |
 
@@ -68,7 +68,7 @@ public static Color ToArgbIcc(int cmykPixel)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cmykPixel | Int32 | Цвет CMYK, представленный как 32-битное целочисленное значение. |
+| cmykPixel | Int32 | Цвет CMYK представлен в виде 32-битного целого числа. |
 
 ### Возвращаемое значение
 
@@ -83,10 +83,10 @@ public static Color ToArgbIcc(int cmykPixel)
 
 int[] cmykColors = new int[]
 {
-    Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0),    // голубой
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0),    // Пурпурный
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0),    // Желтый
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255),    // Черный
+    Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0),   // голубой
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0),   // Пурпурный
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0),   // Желтый
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255),   // Черный
 };
 
 System.Console.WriteLine("Convert CMYK to RGB using default ICC profiles.");
@@ -120,16 +120,16 @@ using (System.IO.Stream cmykProfileStream = System.IO.File.OpenRead(dir + "ISOco
     }
 }
 
- // Вывод выглядит так: 
- // Преобразование CMYK в RGB с использованием профилей ICC по умолчанию. 
- //CMYK(255,0,0,0) => RGB(46 188 220)
- //CMYK(0,255,0,0) => RGB(231,52,142)
- //CMYK(0,0,255,0) => RGB(244,253,63)
- //CMYK(0,0,0,255) => RGB(21,21,21)
- //Преобразование CMYK в RGB с использованием пользовательских профилей ICC.
- //CMYK(255,0,0,0) => RGB(46 188 220)
- //CMYK(0,255,0,0) => RGB(231,52,142)
- //(0,0,255,0) => RGB(244,253,63)
+//Вывод выглядит так:
+// Преобразование CMYK в RGB с использованием профилей ICC по умолчанию.            
+//CMYK(255,0,0,0) => RGB(46 188 220)
+//CMYK(0,255,0,0) => RGB(231,52,142)
+//CMYK(0,0,255,0) => RGB(244,253,63)
+//CMYK(0,0,0,255) => RGB(21,21,21)
+//Преобразование CMYK в RGB с использованием пользовательских профилей ICC.
+//CMYK(255,0,0,0) => RGB(46 188 220)
+//CMYK(0,255,0,0) => RGB(231,52,142)
+//(0,0,255,0) => RGB(244,253,63)
 //CMYK(0,0,0,255) => RGB(21,21,21)
 ```
 
@@ -144,7 +144,7 @@ using (System.IO.Stream cmykProfileStream = System.IO.File.OpenRead(dir + "ISOco
 
 ## ToArgbIcc(int, Stream, Stream) {#toargbicc_1}
 
-Преобразование из цвета CMYK в цвет ARGB с использованием преобразования Icc с пользовательским профилем.
+Преобразование цвета CMYK в цвет ARGB с использованием преобразования Icc с пользовательским профилем.
 
 ```csharp
 public static Color ToArgbIcc(int cmykPixel, Stream cmykIccStream, Stream rgbIccStream)
@@ -152,7 +152,7 @@ public static Color ToArgbIcc(int cmykPixel, Stream cmykIccStream, Stream rgbIcc
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| cmykPixel | Int32 | Цвет CMYK, представленный как 32-битное целочисленное значение. |
+| cmykPixel | Int32 | Цвет CMYK представлен в виде 32-битного целого числа. |
 | cmykIccStream | Stream | Поток, содержащий профиль CMYK Icc. |
 | rgbIccStream | Stream | Поток, содержащий профиль RGB Icc. |
 
@@ -169,10 +169,10 @@ public static Color ToArgbIcc(int cmykPixel, Stream cmykIccStream, Stream rgbIcc
 
 int[] cmykColors = new int[]
 {
-    Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0),    // голубой
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0),    // Пурпурный
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0),    // Желтый
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255),    // Черный
+    Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0),   // голубой
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0),   // Пурпурный
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0),   // Желтый
+    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255),   // Черный
 };
 
 System.Console.WriteLine("Convert CMYK to RGB using default ICC profiles.");
@@ -206,16 +206,16 @@ using (System.IO.Stream cmykProfileStream = System.IO.File.OpenRead(dir + "ISOco
     }
 }
 
- // Вывод выглядит так: 
- // Преобразование CMYK в RGB с использованием профилей ICC по умолчанию. 
- //CMYK(255,0,0,0) => RGB(46 188 220)
- //CMYK(0,255,0,0) => RGB(231,52,142)
- //CMYK(0,0,255,0) => RGB(244,253,63)
- //CMYK(0,0,0,255) => RGB(21,21,21)
- //Преобразование CMYK в RGB с использованием пользовательских профилей ICC.
- //CMYK(255,0,0,0) => RGB(46 188 220)
- //CMYK(0,255,0,0) => RGB(231,52,142)
- //(0,0,255,0) => RGB(244,253,63)
+//Вывод выглядит так:
+// Преобразование CMYK в RGB с использованием профилей ICC по умолчанию.            
+//CMYK(255,0,0,0) => RGB(46 188 220)
+//CMYK(0,255,0,0) => RGB(231,52,142)
+//CMYK(0,0,255,0) => RGB(244,253,63)
+//CMYK(0,0,0,255) => RGB(21,21,21)
+//Преобразование CMYK в RGB с использованием пользовательских профилей ICC.
+//CMYK(255,0,0,0) => RGB(46 188 220)
+//CMYK(0,255,0,0) => RGB(231,52,142)
+//(0,0,255,0) => RGB(244,253,63)
 //CMYK(0,0,0,255) => RGB(21,21,21)
 ```
 

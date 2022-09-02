@@ -1,14 +1,14 @@
 ---
 title: GetXmpRepresentation
 second_title: Aspose.Imaging for .NET API 参考
-description: 以 XMP 格式返回字符串包含的值
+description: 以 XMP 格式返回包含值的字符串
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.xmp.schemas.xmpdm/timecode/getxmprepresentation/
 ---
 ## Timecode.GetXmpRepresentation method
 
-以 XMP 格式返回字符串包含的值。
+以 XMP 格式返回包含值的字符串。
 
 ```csharp
 public override string GetXmpRepresentation()

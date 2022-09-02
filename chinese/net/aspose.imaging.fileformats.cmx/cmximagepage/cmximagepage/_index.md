@@ -1,14 +1,14 @@
 ---
 title: CmxImagePage
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化CmxImagePageaspose.imaging.fileformats.cmx/cmximagepage类的新实例
+description: 初始化CmxImagePageaspose.imaging.fileformats.cmx/cmximagepage类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.cmx/cmximagepage/cmximagepage/
 ---
 ## CmxImagePage constructor
 
-初始化[`CmxImagePage`](../../cmximagepage)类的新实例。
+初始化[`CmxImagePage`](../../cmximagepage)类.
 
 ```csharp
 public CmxImagePage(CmxPage cmxPage)

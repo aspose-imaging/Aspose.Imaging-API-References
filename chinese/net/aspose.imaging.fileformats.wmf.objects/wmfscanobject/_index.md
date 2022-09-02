@@ -26,7 +26,7 @@ public class WmfScanObject : MetaObject
 | --- | --- |
 | [Bottom](../../aspose.imaging.fileformats.wmf.objects/wmfscanobject/bottom) { get; set; } | 获取或设置底部。 |
 | [Count](../../aspose.imaging.fileformats.wmf.objects/wmfscanobject/count) { get; set; } | 获取或设置计数。 |
-| [Count2](../../aspose.imaging.fileformats.wmf.objects/wmfscanobject/count2) { get; set; } | 获取或设置count2。 |
+| [Count2](../../aspose.imaging.fileformats.wmf.objects/wmfscanobject/count2) { get; set; } | 获取或设置count2. |
 | [ScanLines](../../aspose.imaging.fileformats.wmf.objects/wmfscanobject/scanlines) { get; set; } | 获取或设置扫描线。 |
 | [Top](../../aspose.imaging.fileformats.wmf.objects/wmfscanobject/top) { get; set; } | 获取或设置顶部。 |
 

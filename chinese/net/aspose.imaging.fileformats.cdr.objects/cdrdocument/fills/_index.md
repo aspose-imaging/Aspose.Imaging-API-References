@@ -1,14 +1,14 @@
 ---
 title: Fills
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取填充
+description: 获取填充物
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.cdr.objects/cdrdocument/fills/
 ---
 ## CdrDocument.Fills property
 
-获取填充。
+获取填充物。
 
 ```csharp
 public Dictionary<int, CdrFill> Fills { get; }
@@ -16,7 +16,7 @@ public Dictionary<int, CdrFill> Fills { get; }
 
 ### 适当的价值
 
-填充。
+填充物。
 
 ### 也可以看看
 

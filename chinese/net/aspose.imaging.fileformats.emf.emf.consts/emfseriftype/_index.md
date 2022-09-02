@@ -18,22 +18,22 @@ public enum EmfSerifType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| PAN_ANY | `0` | Any 类型。 |
-| PAN_NO_FIT | `1` | 不适合类型。 |
-| PAN_SERIF_COVE | `2` | The cove 类型。 |
-| PAN_SERIF_OBTUSE_COVE | `3` | 钝角型。 |
-| PAN_SERIF_SQUARE_COVE | `4` | 钝角型。 |
-| PAN_SERIF_OBTUSE_SQUARE_COVE | `5` | 钝角方形海湾类型。 |
-| PAN_SERIF_SQUARE | `6` | 方形类型。 |
-| PAN_SERIF_THIN | `7` | 瘦型。 |
-| PAN_SERIF_BONE | `8` | 骨骼类型。 |
+| PAN_ANY | `0` | 任何类型。 |
+| PAN_NO_FIT | `1` | 不适合的类型。 |
+| PAN_SERIF_COVE | `2` | The cove Type. |
+| PAN_SERIF_OBTUSE_COVE | `3` | 钝湾型. |
+| PAN_SERIF_SQUARE_COVE | `4` | 钝湾型. |
+| PAN_SERIF_OBTUSE_SQUARE_COVE | `5` | 钝角方形湾型. |
+| PAN_SERIF_SQUARE | `6` | 方型. |
+| PAN_SERIF_THIN | `7` | 瘦型. |
+| PAN_SERIF_BONE | `8` | 骨骼类型. |
 | PAN_SERIF_EXAGGERATED | `9` | 夸张的类型。 |
-| PAN_SERIF_TRIANGLE | `10` | 三角形类型。 |
+| PAN_SERIF_TRIANGLE | `10` | 三角形类型. |
 | PAN_SERIF_NORMAL_SANS | `11` | 普通无类型。 |
-| PAN_SERIF_OBTUSE_SANS | `12` | 钝角无类型。 |
-| PAN_SERIF_PERP_SANS | `13` | Perp sans 类型。 |
-| PAN_SERIF_FLARED | `14` | 喇叭型。 |
-| PAN_SERIF_ROUNDED | `15` | 圆角类型。 |
+| PAN_SERIF_OBTUSE_SANS | `12` | 无类型的钝角. |
+| PAN_SERIF_PERP_SANS | `13` | Perp sans Type. |
+| PAN_SERIF_FLARED | `14` | 喇叭型. |
+| PAN_SERIF_ROUNDED | `15` | 圆角型. |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: OdNoStrokePath
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化OdNoStrokePathaspose.imaging.fileformats.opendocument.objects.graphic/odnostrokepath类的新实例
+description: 初始化OdNoStrokePathaspose.imaging.fileformats.opendocument.objects.graphic/odnostrokepath类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.opendocument.objects.graphic/odnostrokepath/odnostrokepath/
 ---
 ## OdNoStrokePath constructor
 
-初始化[`OdNoStrokePath`](../../odnostrokepath)类的新实例。
+初始化[`OdNoStrokePath`](../../odnostrokepath)类.
 
 ```csharp
 public OdNoStrokePath(OdObject parent)
@@ -16,7 +16,7 @@ public OdNoStrokePath(OdObject parent)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parent | OdObject | 父级。 |
+| parent | OdObject | 家长。 |
 
 ### 也可以看看
 

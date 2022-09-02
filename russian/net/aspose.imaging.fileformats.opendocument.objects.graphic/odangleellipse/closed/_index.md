@@ -1,14 +1,14 @@
 ---
 title: Closed
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает значение указывающее закрыт ли этотOdAngleEllipseaspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse.
+description: Получает или задает значение указывающее является ли этоOdAngleEllipseaspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse закрыто.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse/closed/
 ---
 ## OdAngleEllipse.Closed property
 
-Получает или задает значение, указывающее, закрыт ли этот[`OdAngleEllipse`](../../odangleellipse).
+Получает или задает значение, указывающее, является ли это[`OdAngleEllipse`](../../odangleellipse) закрыто.
 
 ```csharp
 public bool Closed { get; set; }
@@ -16,7 +16,7 @@ public bool Closed { get; set; }
 
 ### Стоимость имущества
 
-` true` если закрыто; в противном случае` false` .
+`истинный` если закрыто; в противном случае,`ЛОЖЬ` .
 
 ### Смотрите также
 

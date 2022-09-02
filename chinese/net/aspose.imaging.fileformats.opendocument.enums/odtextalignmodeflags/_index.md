@@ -1,14 +1,14 @@
 ---
 title: OdTextAlignModeFlags
 second_title: Aspose.Imaging for .NET API 参考
-description: 打开文档文本对齐模式标志
+description: 打开文档的文本对齐方式标志
 type: docs
 weight: 6880
 url: /zh/net/aspose.imaging.fileformats.opendocument.enums/odtextalignmodeflags/
 ---
 ## OdTextAlignModeFlags enumeration
 
-打开文档文本对齐模式标志
+打开文档的文本对齐方式标志
 
 ```csharp
 [Flags]
@@ -19,15 +19,15 @@ public enum OdTextAlignModeFlags
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Noupdatecp | `0` | 在每次 文本输出调用后不得更新播放设备上下文中的绘图位置。必须将参考点传递给文本输出函数。 |
+| Noupdatecp | `0` | 在每个 文本输出调用之后不得更新播放设备上下文中的绘图位置。必须将参考点传递给文本输出函数。 |
 | Left | `0` | 参考点必须在边界矩形的左边缘。 |
-| Top | `0` | 参考点必须在边界矩形的上边缘。 |
-| Updatecp | `1` | 播放设备上下文中的绘图位置必须在每个文本 输出调用之后更新。它必须用作参考点。 |
+| Top | `0` | 参考点必须位于边界矩形的上边缘。 |
+| Updatecp | `1` | 播放设备上下文中的绘图位置必须在每次 text 输出调用后更新。它必须用作参考点。 |
 | Right | `2` | 参考点必须在边界矩形的右边缘。 |
 | Center | `6` | 参考点必须与边界矩形的中心水平对齐。 |
-| Bottom | `8` | 参考点必须在边界矩形的底部边缘。 |
+| Bottom | `8` | 参考点必须位于边界矩形的底部边缘。 |
 | Baseline | `18` | 参考点必须在文本的基线上。 |
-| Rtlreading | `100` | 文本必须以从右到左的阅读顺序排列，而不是默认的从左到右的顺序。这应该 仅在播放 设备上下文中定义的字体是希伯来语或阿拉伯语时应用。 |
+| Rtlreading | `100` | 文本必须以从右到左的阅读顺序排列，而不是默认的从左到右的顺序。仅当在playback 设备上下文中定义的字体是希伯来语或阿拉伯语时，才应应用此 。 |
 | Horizontal | `6` | 表示水平文本 algin 集（左 &#x7C; 右 &#x7C; 中） |
 | Vertical | `18` | 表示垂直文本 algin 集（顶部 &#x7C; 底部 &#x7C; 基线） |
 

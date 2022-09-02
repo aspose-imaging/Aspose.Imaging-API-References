@@ -1,14 +1,14 @@
 ---
 title: JpegException
 second_title: Aspose.Imaging for .NET API 参考
-description: Jpeg 文件例外
+description: Jpeg 文件的例外情况
 type: docs
 weight: 580
 url: /zh/net/aspose.imaging.coreexceptions.imageformats/jpegexception/
 ---
 ## JpegException class
 
-Jpeg 文件例外
+Jpeg 文件的例外情况
 
 ```csharp
 public class JpegException : ImageException
@@ -18,8 +18,8 @@ public class JpegException : ImageException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [JpegException](jpegexception#constructor)(string) | 初始化[`JpegException`](../jpegexception)类的新实例。 |
-| [JpegException](jpegexception#constructor_1)(string, Exception) | 初始化[`JpegException`](../jpegexception)类的新实例。 |
+| [JpegException](jpegexception#constructor)(string) | 初始化[`JpegException`](../jpegexception)类. |
+| [JpegException](jpegexception#constructor_1)(string, Exception) | 初始化[`JpegException`](../jpegexception)类. |
 
 ### 也可以看看
 

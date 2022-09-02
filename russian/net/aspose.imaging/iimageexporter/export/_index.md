@@ -18,7 +18,7 @@ public void Export(Image image, Stream stream, ImageOptionsBase optionsBase)
 | --- | --- | --- |
 | image | Image | Данные изображения для экспорта. |
 | stream | Stream | Поток, в который экспортируются данные. |
-| optionsBase | ImageOptionsBase | Параметры экспорта изображения |
+| optionsBase | ImageOptionsBase | Параметры экспорта изображений |
 
 ### Смотрите также
 
@@ -43,7 +43,7 @@ public void Export(Image image, Stream stream, ImageOptionsBase optionsBase,
 | --- | --- | --- |
 | image | Image | Данные изображения для экспорта. |
 | stream | Stream | Поток, в который экспортируются данные. |
-| optionsBase | ImageOptionsBase | Параметры экспорта изображения |
+| optionsBase | ImageOptionsBase | Параметры экспорта изображений |
 | boundsRectangle | Rectangle | Границы прямоугольника. |
 
 ### Смотрите также

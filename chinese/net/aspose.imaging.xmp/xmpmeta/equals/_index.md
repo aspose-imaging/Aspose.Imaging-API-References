@@ -20,7 +20,7 @@ public bool Equals(XmpMeta other)
 
 ### 返回值
 
-如果当前对象等于*other*参数，则为真；否则为假。
+如果当前对象等于*other*范围;否则为假。
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ public bool Equals(XmpMeta other)
 
 ## Equals(object) {#equals_2}
 
-确定指定的Object是否等于此实例。
+判断是否指定Object 等于这个实例。
 
 ```csharp
 public override bool Equals(object other)
@@ -40,11 +40,11 @@ public override bool Equals(object other)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| other | Object | Object与此实例进行比较。 |
+| other | Object | 这Object与此实例进行比较。 |
 
 ### 返回值
 
-` true` 如果指定的Object是等于这个实例；否则，` false` 。
+`真的`如果指定Object等于这个实例；否则，`错误的` .
 
 ### 也可以看看
 

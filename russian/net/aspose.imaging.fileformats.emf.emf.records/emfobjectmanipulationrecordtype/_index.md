@@ -1,14 +1,14 @@
 ---
 title: EmfObjectManipulationRecordType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Типы записей управления объектами управляют графическими объектами и изменяют их.
+description: Типы записей манипулирования объектами управляют графическими объектами и изменяют их.
 type: docs
 weight: 3880
 url: /ru/net/aspose.imaging.fileformats.emf.emf.records/emfobjectmanipulationrecordtype/
 ---
 ## EmfObjectManipulationRecordType class
 
-Типы записей управления объектами управляют графическими объектами и изменяют их.
+Типы записей манипулирования объектами управляют графическими объектами и изменяют их.
 
 ```csharp
 public abstract class EmfObjectManipulationRecordType : EmfRecord
@@ -18,7 +18,7 @@ public abstract class EmfObjectManipulationRecordType : EmfRecord
 
 | Имя | Описание |
 | --- | --- |
-| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или устанавливает размер записи |
+| [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | Получает или задает размер записи |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | Получает или задает тип. |
 
 ### Смотрите также

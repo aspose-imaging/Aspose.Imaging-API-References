@@ -1,14 +1,14 @@
 ---
 title: EpsType
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Подтипы формата Encapsulated PostScript
+description: Подтипы инкапсулированного формата PostScript
 type: docs
 weight: 6540
 url: /ru/net/aspose.imaging.fileformats.eps.consts/epstype/
 ---
 ## EpsType enumeration
 
-Подтипы формата Encapsulated PostScript
+Подтипы инкапсулированного формата PostScript
 
 ```csharp
 public enum EpsType
@@ -18,7 +18,7 @@ public enum EpsType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Binary | `0` | EPS Binary |
+| Binary | `0` | Двоичный файл EPS |
 | Interchange | `1` | Развязка EPS |
 
 ### Смотрите также

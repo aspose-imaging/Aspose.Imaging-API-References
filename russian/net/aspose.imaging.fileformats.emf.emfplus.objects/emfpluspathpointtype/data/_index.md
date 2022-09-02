@@ -1,14 +1,14 @@
 ---
 title: Data
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или задает данные.
+description: Получает или устанавливает данные.
 type: docs
 weight: 20
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtype/data/
 ---
 ## EmfPlusPathPointType.Data property
 
-Получает или задает данные.
+Получает или устанавливает данные.
 
 ```csharp
 public int Data { get; set; }

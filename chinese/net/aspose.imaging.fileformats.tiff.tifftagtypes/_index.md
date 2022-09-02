@@ -15,9 +15,9 @@ url: /zh/net/aspose.imaging.fileformats.tiff.tifftagtypes/
 | [TiffASCIIType](./tiffasciitype) | tiff ascii 类型。 |
 | [TiffByteType](./tiffbytetype) | tiff 字节类型。 |
 | [TiffCommonArrayType](./tiffcommonarraytype) | tiff 常用数组类型。 |
-| [TiffDoubleType](./tiffdoubletype) | tiff 双精度类型。 |
-| [TiffFloatType](./tifffloattype) | tiff 浮点类型。 |
-| [TiffIfdType](./tiffifdtype) | 表示 TIFF Exif 图像文件目录类型类。 |
+| [TiffDoubleType](./tiffdoubletype) | tiff double 类型。 |
+| [TiffFloatType](./tifffloattype) | tiff 浮点型。 |
+| [TiffIfdType](./tiffifdtype) | 代表TIFF Exif图像文件目录类型类。 |
 | [TiffLongType](./tifflongtype) | tiff long 类型。 |
 | [TiffRationalType](./tiffrationaltype) | tiff 有理类型。 |
 | [TiffSByteType](./tiffsbytetype) | tiff 有符号字节类型。 |

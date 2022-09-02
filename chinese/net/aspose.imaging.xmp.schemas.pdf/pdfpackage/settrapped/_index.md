@@ -1,14 +1,14 @@
 ---
 title: SetTrapped
 second_title: Aspose.Imaging for .NET API 参考
-description: 设置被困者
+description: 设置被困
 type: docs
 weight: 60
 url: /zh/net/aspose.imaging.xmp.schemas.pdf/pdfpackage/settrapped/
 ---
 ## PdfPackage.SetTrapped method
 
-设置被困者。
+设置被困。
 
 ```csharp
 public void SetTrapped(bool isTrapped)
@@ -16,7 +16,7 @@ public void SetTrapped(bool isTrapped)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| isTrapped | Boolean | 如果设置为` true` 文档已被捕获. |
+| isTrapped | Boolean | 如果设置为`真的`文件被困住了。 |
 
 ### 也可以看看
 

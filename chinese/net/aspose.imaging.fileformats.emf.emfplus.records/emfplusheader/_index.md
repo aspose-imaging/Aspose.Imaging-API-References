@@ -1,14 +1,14 @@
 ---
 title: EmfPlusHeader
 second_title: Aspose.Imaging for .NET API 参考
-description: EmfPlusHeader 记录指定元文件中 EMF 数据的开始 EmfPlusHeader 记录必须嵌入到 EMF EMR_COMMENT_EMFPLUS 记录中 必须是紧跟在元文件中的 EMF 头之后的记录 EMR_COMMENT_EMFPLUS 记录在 MS-EMF 第 2.3.3.2 节中指定
+description: EmfPlusHeader 记录指定元文件中 EMF 数据的开始 EmfPlusHeader 记录必须嵌入到 EMF EMR_COMMENT_EMFPLUS 记录中 必须是紧跟在元文件中的 EMF 头之后的记录 EMR_COMMENT_EMFPLUS 记录在 MS-EMF 部分 2.3.3.2. 中指定
 type: docs
 weight: 6140
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/
 ---
 ## EmfPlusHeader class
 
-EmfPlusHeader 记录指定元文件中 EMF+ 数据的开始。 EmfPlusHeader 记录必须嵌入到 EMF EMR_COMMENT_EMFPLUS 记录中， 必须是紧跟在元文件中的 EMF 头之后的记录。 EMR_COMMENT_EMFPLUS 记录在 [MS-EMF] 第 2.3.3.2 节中指定。
+EmfPlusHeader 记录指定元文件中 EMF+ 数据的开始。 EmfPlusHeader 记录必须嵌入到 EMF EMR_COMMENT_EMFPLUS 记录中， 必须是紧跟在元文件中的 EMF 头之后的记录。 EMR_COMMENT_EMFPLUS 记录在 [MS-EMF] 部分 2.3.3.2. 中指定
 
 ```csharp
 public sealed class EmfPlusHeader : EmfPlusControlRecordType
@@ -18,23 +18,23 @@ public sealed class EmfPlusHeader : EmfPlusControlRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfPlusHeader](emfplusheader)(EmfPlusRecord) | 初始化[`EmfPlusHeader`](../emfplusheader)类的新实例。 |
+| [EmfPlusHeader](emfplusheader)(EmfPlusRecord) | 初始化[`EmfPlusHeader`](../emfplusheader)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，该整数必须在 RecordData 字段中定义 32 位对齐的 数据字节数跟随。这个数字不包括 12 字节的记录头。 |
-| [DualMode](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/dualmode) { get; set; } | 获取或设置一个值，表示是否[双模]。 如果设置，此标志表示此元文件是“双模式”，这意味着 它包含两组记录，每组完全指定 图形内容。如果清除，则图形内容由 EMF+ 记录指定，并且可能由 EmfPlusGetDC 记录前面的 EMF 记录指定。 如果设置了这个标志，单独的 EMF 记录应该足以定义 图形内容。请注意，无论是否设置了“双模式”标志，始终存在一些 EMF 记录，即 EMF 控制记录和包含 EMF+ 记录的 EMF 记录 。 EMF 控制记录在 [MS-EMF] 2.3.4 节中指定。 |
-| [EmfPlusFlags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/emfplusflags) { get; set; } | 获取或设置 EMF plus 标志。 一个 32 位无符号整数，包含有关如何记录此元文件的信息。 如果设置了该字段的第 31 位，则此标志指示元文件是使用 视频显示的参考设备上下文记录的。如果清除，则元文件记录为 打印机的参考设备上下文。 |
-| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | 获取或设置一个 16 位无符号整数，该整数包含有关如何执行 操作和结构的一些记录的信息记录。 |
-| [IsValid](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/isvalid) { get; } | 获取指示此实例是否有效的值。 |
-| [LogicalDpiX](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/logicaldpix) { get; set; } | 获取或设置逻辑 dpi x。 一个 32 位无符号整数，指定记录元文件 的水平分辨率，以每英寸像素为单位。 |
-| [LogicalDpiY](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/logicaldpiy) { get; set; } | 获取或设置逻辑 dpi y。 一个 32 位无符号整数，指定记录元文件 的垂直分辨率，以每英寸行数为单位 |
-| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | 获取或设置一个 32 位无符号整数，指定整条记录中的 32 位对齐字节数 ，包括 12 -byte 记录头和特定于记录的数据。 |
+| virtual [DataSize](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/datasize) { get; set; } | 获取或设置一个 32 位无符号整数，该整数必须在随后的 RecordData 字段中定义 32 位对齐的 字节数据。这个数字不包括 12 字节的记录头。 |
+| [DualMode](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/dualmode) { get; set; } | 获取或设置一个值，表示是否[双模式]。 如果设置，该标志表示该元文件是“双模式”，这意味着 它包含两组记录，每组完全指定 图形内容。如果清除，则图形内容由 EMF+ 记录指定，并且可能由 EmfPlusGetDC 记录前面的 EMF 记录指定。 如果设置了这个标志，仅 EMF 记录应该足以定义 图形内容。请注意，无论是否设置了“双模式”标志，始终存在一些 EMF 记录，即 EMF 控制记录和包含 EMF+ 记录的 EMF 记录 。 EMF 控制记录在 [MS-EMF] 第 2.3.4. 节中指定 |
+| [EmfPlusFlags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/emfplusflags) { get; set; } | 获取或设置 EMF 加标志。 一个 32 位无符号整数，包含有关如何记录此元文件的信息。 如果设置了该字段的第 31 位，则此标志表示元文件是用 参考记录的视频显示的设备上下文。如果清除，则元文件与 一起记录为打印机的参考设备上下文。 |
+| virtual [Flags](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/flags) { get; set; } | 获取或设置一个 16 位无符号整数，其中包含一些记录的信息，关于如何执行 操作以及记录的结构。 |
+| [IsValid](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/isvalid) { get; } | 获取一个值，指示此实例是否有效。 |
+| [LogicalDpiX](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/logicaldpix) { get; set; } | 获取或设置逻辑 dpi x. 一个 32 位无符号整数，指定记录元文件 的水平分辨率，以每英寸像素为单位。 |
+| [LogicalDpiY](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/logicaldpiy) { get; set; } | 获取或设置逻辑 dpi y. 一个 32 位无符号整数，指定记录元文件 的垂直分辨率，以每英寸行数为单位 |
+| virtual [Size](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/size) { get; set; } | 获取或设置一个 32 位无符号整数，指定整个记录中 32 位对齐的字节数 ，包括 12 字节的记录头和特定于记录的数据。 |
 | [Type](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/type) { get; } | 获取标识记录类型的 16 位无符号整数。 |
-| [Version](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/version) { get; set; } | 获取或设置版本。 一个 EmfPlusGraphicsVersion 对象（第 2.2.2.19 节），它指定用于创建此图元文件的操作 系统图形的版本。 |
-| [VideoDisplay](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/videodisplay) { get; set; } | 获取或设置是否显示视频的值。 如果设置，此标志表示元文件是使用参考设备记录的 视频显示上下文。如果清除，则元文件是使用打印机的参考设备 上下文记录的。 |
+| [Version](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/version) { get; set; } | 获取或设置版本。 一个 EmfPlusGraphicsVersion 对象（第 2.2.2.19 节），它指定用于创建此图元文件的操作系统图形的版本 。 |
+| [VideoDisplay](../../aspose.imaging.fileformats.emf.emfplus.records/emfplusheader/videodisplay) { get; set; } | 获取或设置一个值，该值指示是否显示视频。 如果设置，则此标志指示元文件是使用视频显示的参考设备 上下文记录的。如果清除，则元文件已使用打印机的参考 device 上下文记录。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: IsFixedSize
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает значение указывающее имеет ли объект IDictionaryфиксированный размер.
+description: Получает значение указывающее является ли IDictionary объект имеет фиксированный размер.
 type: docs
 weight: 30
 url: /ru/net/aspose.imaging/nongenericdictionary/isfixedsize/
 ---
 ## NonGenericDictionary.IsFixedSize property
 
-Получает значение, указывающее, имеет ли объект IDictionaryфиксированный размер.
+Получает значение, указывающее, является ли IDictionary объект имеет фиксированный размер.
 
 ```csharp
 public bool IsFixedSize { get; }
@@ -16,7 +16,7 @@ public bool IsFixedSize { get; }
 
 ### Возвращаемое значение
 
-true, если объектIDictionaryимеет фиксированный размер; в противном случае ложно.
+верно, еслиIDictionary объект имеет фиксированный размер; в противном случае ложно.
 
 ### Смотрите также
 

@@ -1,14 +1,14 @@
 ---
 title: CustomStartCap
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置自定义线帽该线帽定义要在线条末尾 处绘制的形状它可以是任何各种形状包括 方形圆形或菱形
+description: 获取或设置自定义线帽该线帽定义要在线条的 end 处绘制的形状它可以是各种形状中的任何一种包括 a 正方形圆形或菱形
 type: docs
 weight: 20
 url: /zh/net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomstartcapdata/customstartcap/
 ---
 ## EmfPlusCustomStartCapData.CustomStartCap property
 
-获取或设置自定义线帽，该线帽定义要在线条末尾 处绘制的形状。它可以是任何各种形状，包括 方形、圆形或菱形
+获取或设置自定义线帽，该线帽定义要在线条的 end 处绘制的形状。它可以是各种形状中的任何一种，包括 a 正方形、圆形或菱形
 
 ```csharp
 public EmfPlusCustomLineCap CustomStartCap { get; set; }

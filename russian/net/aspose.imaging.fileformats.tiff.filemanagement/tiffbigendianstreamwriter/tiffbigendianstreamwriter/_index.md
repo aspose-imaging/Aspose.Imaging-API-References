@@ -1,14 +1,14 @@
 ---
 title: TiffBigEndianStreamWriter
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаTiffBigEndianStreamWriteraspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamwriter.
+description: Инициализирует новый экземплярTiffBigEndianStreamWriteraspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamwriter класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamwriter/tiffbigendianstreamwriter/
 ---
 ## TiffBigEndianStreamWriter constructor
 
-Инициализирует новый экземпляр класса[`TiffBigEndianStreamWriter`](../../tiffbigendianstreamwriter).
+Инициализирует новый экземпляр[`TiffBigEndianStreamWriter`](../../tiffbigendianstreamwriter) класс.
 
 ```csharp
 public TiffBigEndianStreamWriter(StreamContainer writer)
@@ -16,7 +16,7 @@ public TiffBigEndianStreamWriter(StreamContainer writer)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| writer | StreamContainer | Потоковой писатель. |
+| writer | StreamContainer | Автор стрима. |
 
 ### Смотрите также
 

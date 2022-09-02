@@ -1,14 +1,14 @@
 ---
 title: BinarizeFixed
 second_title: Aspose.Imaging for .NET API 参考
-description: 具有预定义阈值的图像的二值化
+description: 具有预定义阈值的图像二值化
 type: docs
 weight: 140
 url: /zh/net/aspose.imaging.fileformats.webp/webpimage/binarizefixed/
 ---
 ## WebPImage.BinarizeFixed method
 
-具有预定义阈值的图像的二值化
+具有预定义阈值的图像二值化
 
 ```csharp
 public override void BinarizeFixed(byte threshold)

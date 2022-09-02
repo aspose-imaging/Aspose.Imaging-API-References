@@ -1,14 +1,14 @@
 ---
 title: EmfRegionData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаEmfRegionDataaspose.imaging.fileformats.emf.emf.objects/emfregiondata.
+description: Инициализирует новый экземплярEmfRegionDataaspose.imaging.fileformats.emf.emf.objects/emfregiondata класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.emf.emf.objects/emfregiondata/emfregiondata/
 ---
 ## EmfRegionData() {#constructor}
 
-Инициализирует новый экземпляр класса[`EmfRegionData`](../../emfregiondata).
+Инициализирует новый экземпляр[`EmfRegionData`](../../emfregiondata) класс.
 
 ```csharp
 public EmfRegionData()
@@ -24,7 +24,7 @@ public EmfRegionData()
 
 ## EmfRegionData(Rectangle) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`EmfRegionData`](../../emfregiondata).
+Инициализирует новый экземпляр[`EmfRegionData`](../../emfregiondata) класс.
 
 ```csharp
 public EmfRegionData(Rectangle rectangle)

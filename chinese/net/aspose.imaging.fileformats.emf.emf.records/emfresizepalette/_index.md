@@ -18,13 +18,13 @@ public sealed class EmfResizePalette : EmfObjectManipulationRecordType
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmfResizePalette](emfresizepalette)(EmfRecord) | 初始化[`EmfResizePalette`](../emfresizepalette)类的新实例。 |
+| [EmfResizePalette](emfresizepalette)(EmfRecord) | 初始化[`EmfResizePalette`](../emfresizepalette)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IhPal](../../aspose.imaging.fileformats.emf.emf.records/emfresizepalette/ihpal) { get; set; } | 获取或设置一个 32 位无符号整数，该整数指定 EMF 对象表中调色板对象的索引（第 3.1.1.1 节） . |
+| [IhPal](../../aspose.imaging.fileformats.emf.emf.records/emfresizepalette/ihpal) { get; set; } | 获取或设置一个 32 位无符号整数，它指定 EMF 对象表（第 3.1.1.1 节）中的调色板对象的索引。 |
 | [Size](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/size) { get; set; } | 获取或设置记录的大小 |
 | [Type](../../aspose.imaging.fileformats.emf.emf.records/emfrecord/type) { get; set; } | 获取或设置类型。 |
 

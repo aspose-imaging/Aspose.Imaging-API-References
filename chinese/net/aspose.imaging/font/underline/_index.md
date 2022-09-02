@@ -1,14 +1,14 @@
 ---
 title: Underline
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取一个值该值指示此Fontaspose.imaging/font是否带下划线
+description: 获取一个值该值指示这是否Fontaspose.imaging/font加下划线
 type: docs
 weight: 90
 url: /zh/net/aspose.imaging/font/underline/
 ---
 ## Font.Underline property
 
-获取一个值，该值指示此[`Font`](../../font)是否带下划线。
+获取一个值，该值指示这是否[`Font`](../../font)加下划线。
 
 ```csharp
 public bool Underline { get; }
@@ -16,7 +16,7 @@ public bool Underline { get; }
 
 ### 适当的价值
 
-如果此[`Font`](../../font)加下划线，则为真；否则为假。
+如果这是真的[`Font`](../../font)有下划线；否则为假。
 
 ### 也可以看看
 

@@ -19,12 +19,12 @@ public interface IMultipageImage
 | 姓名 | 描述 |
 | --- | --- |
 | [PageCount](../../aspose.imaging/imultipageimage/pagecount) { get; } | 获取页数。 |
-| [PageExportingAction](../../aspose.imaging/imultipageimage/pageexportingaction) { get; set; } | 获取或设置页面导出动作。 请注意，设置该方法执行后会自动释放页面资源。 它将在每个页面保存之前执行。 |
+| [PageExportingAction](../../aspose.imaging/imultipageimage/pageexportingaction) { get; set; } | 获取或设置页面导出动作。 请注意，设置此方法执行后会自动释放页面资源。 会在每页保存前执行。 |
 | [Pages](../../aspose.imaging/imultipageimage/pages) { get; } | 获取页面。 |
 
 ### 例子
 
-以下示例显示如何在不引用特定图像类型的情况下以一般方式将多页矢量图像导出为另一种格式。
+以下示例显示了如何在不引用特定图像类型的情况下以一般方式将多页矢量图像导出为另一种格式。
 
 ```csharp
 [C#]
@@ -39,7 +39,7 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(inputFilePath))
 {
     exportOptions.MultiPageOptions = null;
 
-        // 只导出前两页
+    // 只导出前两页
     Aspose.Imaging.IMultipageImage multipageImage = image as Aspose.Imaging.IMultipageImage;
     if (multipageImage != null && (multipageImage.Pages != null && multipageImage.PageCount > 2))
     {

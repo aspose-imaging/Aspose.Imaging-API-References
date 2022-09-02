@@ -1,14 +1,14 @@
 ---
 title: EmfPlusBaseImageData
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Базовый класс для типов данных изображения.
+description: Базовый класс для типов данных изображений.
 type: docs
 weight: 5150
 url: /ru/net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbaseimagedata/
 ---
 ## EmfPlusBaseImageData class
 
-Базовый класс для типов данных изображения.
+Базовый класс для типов данных изображений.
 
 ```csharp
 public abstract class EmfPlusBaseImageData : EmfPlusStructureObjectType

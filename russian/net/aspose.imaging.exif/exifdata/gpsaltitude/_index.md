@@ -1,14 +1,14 @@
 ---
 title: GPSAltitude
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает высоту GPS.
+description: Получает или задает высоту GPS.
 type: docs
 weight: 360
 url: /ru/net/aspose.imaging.exif/exifdata/gpsaltitude/
 ---
 ## ExifData.GPSAltitude property
 
-Получает или устанавливает высоту GPS.
+Получает или задает высоту GPS.
 
 ```csharp
 public TiffRational GPSAltitude { get; set; }

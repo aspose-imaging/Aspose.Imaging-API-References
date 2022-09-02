@@ -1,14 +1,14 @@
 ---
 title: ResolutionSetting
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化ResolutionSettingaspose.imaging/resolutionsetting类的新实例
+description: 初始化ResolutionSettingaspose.imaging/resolutionsetting类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging/resolutionsetting/resolutionsetting/
 ---
 ## ResolutionSetting() {#constructor}
 
-初始化[`ResolutionSetting`](../../resolutionsetting)类的新实例。
+初始化[`ResolutionSetting`](../../resolutionsetting)类.
 
 ```csharp
 public ResolutionSetting()
@@ -24,7 +24,7 @@ public ResolutionSetting()
 
 ## ResolutionSetting(double, double) {#constructor_1}
 
-初始化[`ResolutionSetting`](../../resolutionsetting)类的新实例。
+初始化[`ResolutionSetting`](../../resolutionsetting)类.
 
 ```csharp
 public ResolutionSetting(double horizontalResolution, double verticalResolution)

@@ -10,7 +10,7 @@ url: /net/aspose.imaging.fileformats.tga/tgaimage/imageid/
 
 Gets or sets Image ID.
 
-This optional field contains identifying information about the image. The maximum Length for this field is 255 bytes.
+This optional field contains identifying information about the image. The maximum length for this field is 255 bytes.
 
 ```csharp
 public string ImageId { get; set; }

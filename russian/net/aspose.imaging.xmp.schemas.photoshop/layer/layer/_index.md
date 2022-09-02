@@ -1,14 +1,14 @@
 ---
 title: Layer
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаLayeraspose.imaging.xmp.schemas.photoshop/layer.
+description: Инициализирует новый экземплярLayeraspose.imaging.xmp.schemas.photoshop/layer класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.xmp.schemas.photoshop/layer/layer/
 ---
 ## Layer(string, string) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`Layer`](../../layer).
+Инициализирует новый экземпляр[`Layer`](../../layer) класс.
 
 ```csharp
 public Layer(string layerName, string layerText)
@@ -29,7 +29,7 @@ public Layer(string layerName, string layerText)
 
 ## Layer() {#constructor}
 
-Инициализирует новый экземпляр класса[`Layer`](../../layer).
+Инициализирует новый экземпляр[`Layer`](../../layer) класс.
 
 ```csharp
 public Layer()

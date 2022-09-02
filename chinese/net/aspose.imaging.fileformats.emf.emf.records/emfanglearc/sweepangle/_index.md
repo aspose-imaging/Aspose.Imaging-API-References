@@ -1,14 +1,14 @@
 ---
 title: SweepAngle
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置一个 32 位浮点数该浮点数指定弧的扫角以度为单位
+description: 获取或设置一个 32 位浮点数以度为单位指定弧的扫角
 type: docs
 weight: 50
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfanglearc/sweepangle/
 ---
 ## EmfAngleArc.SweepAngle property
 
-获取或设置一个 32 位浮点数，该浮点数指定弧的扫角，以度为单位。
+获取或设置一个 32 位浮点数，以度为单位指定弧的扫角。
 
 ```csharp
 public float SweepAngle { get; set; }

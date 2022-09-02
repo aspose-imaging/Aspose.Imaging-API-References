@@ -1,14 +1,14 @@
 ---
 title: CompressionLevel
 second_title: Aspose.Imaging for .NET API 参考
-description: png 图像压缩级别在 0-9 范围内其中 9 是最大压缩0 是存储模式
+description: png 图片压缩级别在 0-9 范围内其中 9 为最大压缩0 为存储模式
 type: docs
 weight: 40
 url: /zh/net/aspose.imaging.imageoptions/pngoptions/compressionlevel/
 ---
 ## PngOptions.CompressionLevel property
 
-png 图像压缩级别在 0-9 范围内，其中 9 是最大压缩，0 是存储模式。
+png 图片压缩级别在 0-9 范围内，其中 9 为最大压缩，0 为存储模式。
 
 ```csharp
 public int CompressionLevel { get; set; }
@@ -16,52 +16,29 @@ public int CompressionLevel { get; set; }
 
 ### 例子
 
-以下示例显示如何使用索引颜色和最适合调色板
+以下示例显示了如何使用最适合调色板的索引颜色来压缩 PNG 图像
 
 ```csharp
 [C#]
 
-string dir = "c:\\temp\\";
-
-    // 创建一个 100x100 像素的 PNG 图像。
-    // 您还可以从文件或流中加载任何支持格式的图像。
-using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.FileFormats.Png.PngImage(100, 100))
+// 加载 png 图片        
+    string  sourceFilePath="OriginalRings.png";
+    string  outputFilePath="OriginalRingsOutput.png";
+    using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(sourceFilePath))
 {
-    Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
-            new Aspose.Imaging.Point(0, 0),
-            new Aspose.Imaging.Point(pngImage.Width, pngImage.Height),
-            Aspose.Imaging.Color.Blue,
-            Aspose.Imaging.Color.Transparent);
-
-    Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(pngImage);
-
-        // 用蓝色透明渐变填充图像。
-    graphics.FillRectangle(gradientBrush, pngImage.Bounds);
-
-    Aspose.Imaging.ImageOptions.PngOptions saveOptions = new Aspose.Imaging.ImageOptions.PngOptions();
-
-        // 渐进式加载.
-    saveOptions.Progressive = true;
-
-    // 将水平和垂直分辨率设置为每英寸 96 像素。
-    saveOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
-
-        // 每个像素是一个（红、绿、蓝）三元组，后跟 alpha.
-    saveOptions.ColorType = Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
-
-        // 设置最大压缩级别
-    saveOptions.CompressionLevel = 9;
-
-        // 这是最好的压缩，但是执行时间最慢。
-        // 自适应过滤意味着保存过程将为每个数据行选择最适合的过滤器。
-    saveOptions.FilterType = Aspose.Imaging.FileFormats.Png.PngFilterType.Adaptive;
-
-        // 每个通道的位数。
-    saveOptions.BitDepth = 8;
-
-        // 保存到文件.
-    pngImage.Save(dir + "output.png", saveOptions);
+    image.Save(outputFilePath, new Aspose.Imaging.ImageOptions.PngOptions()
+    {
+         Progressive = true,
+             // 使用索引颜色类型
+         ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.IndexedColor,
+             // 使用最大压缩
+         CompressionLevel = 9,
+      // 获取覆盖尽可能多像素的最接近的 8 位调色板，以便调色图像
+         // 在视觉上几乎与非托盘化的没有区别。
+         Palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette((Aspose.Imaging.RasterImage)image, 256, Aspose.Imaging.PaletteMiningMethod.Histogram)
+    });
 }
+    // 输出文件的大小应该会显着减小
 ```
 
 这个例子展示了如何使用指定的选项创建一个 PNG 图像，用线性渐变颜色填充它并将其保存到文件中。
@@ -71,9 +48,25 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
 string dir = "c:\\temp\\";
 
-    // 创建一个 100x100 像素的 PNG 图像。
-    // 您还可以从文件或流中加载任何支持格式的图像。
-using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.FileFormats.Png.PngImage(100, 100))
+Aspose.Imaging.ImageOptions.PngOptions createOptions = new Aspose.Imaging.ImageOptions.PngOptions();
+
+// 每个颜色通道的位数
+createOptions.BitDepth = 8;
+
+// 每个像素是一个（红、绿、蓝）三元组，后跟 alpha 分量。
+createOptions.ColorType = Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
+
+// 最大压缩级别。
+createOptions.CompressionLevel = 9;
+
+// 使用过滤器可以更有效地压缩连续色调图像。
+createOptions.FilterType = Aspose.Imaging.FileFormats.Png.PngFilterType.Sub;
+
+// 使用渐进式加载
+createOptions.Progressive = true;
+
+// 使用自定义参数创建 PNG 图像。
+using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.FileFormats.Png.PngImage(createOptions, 100, 100))
 {
     Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
             new Aspose.Imaging.Point(0, 0),
@@ -83,32 +76,11 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(pngImage);
 
-        // 用蓝色透明渐变填充图像。
+    // 用半透明渐变填充图像。
     graphics.FillRectangle(gradientBrush, pngImage.Bounds);
 
-    Aspose.Imaging.ImageOptions.PngOptions saveOptions = new Aspose.Imaging.ImageOptions.PngOptions();
-
-        // 渐进式加载.
-    saveOptions.Progressive = true;
-
-    // 将水平和垂直分辨率设置为每英寸 96 像素。
-    saveOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
-
-        // 每个像素是一个（红、绿、蓝）三元组，后跟 alpha.
-    saveOptions.ColorType = Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
-
-        // 设置最大压缩级别
-    saveOptions.CompressionLevel = 9;
-
-        // 这是最好的压缩，但是执行时间最慢。
-        // 自适应过滤意味着保存过程将为每个数据行选择最适合的过滤器。
-    saveOptions.FilterType = Aspose.Imaging.FileFormats.Png.PngFilterType.Adaptive;
-
-        // 每个通道的位数。
-    saveOptions.BitDepth = 8;
-
-        // 保存到文件.
-    pngImage.Save(dir + "output.png", saveOptions);
+    // 保存到文件。
+    pngImage.Save(dir + "output.explicitoptions.png");
 }
 ```
 
@@ -119,8 +91,8 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
 string dir = "c:\\temp\\";
 
-    // 创建一个 100x100 像素的 PNG 图像。
-    // 您还可以从文件或流中加载任何支持格式的图像。
+// 创建一个 100x100 像素的 PNG 图像。
+// 您还可以从文件或流中加载任何支持格式的图像。
 using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.FileFormats.Png.PngImage(100, 100))
 {
     Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
@@ -131,31 +103,31 @@ using (Aspose.Imaging.FileFormats.Png.PngImage pngImage = new Aspose.Imaging.Fil
 
     Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(pngImage);
 
-        // 用蓝色透明渐变填充图像。
+    // 用蓝色透明渐变填充图像。
     graphics.FillRectangle(gradientBrush, pngImage.Bounds);
 
     Aspose.Imaging.ImageOptions.PngOptions saveOptions = new Aspose.Imaging.ImageOptions.PngOptions();
 
-        // 渐进式加载.
+    // 渐进式加载。
     saveOptions.Progressive = true;
 
     // 将水平和垂直分辨率设置为每英寸 96 像素。
     saveOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
 
-        // 每个像素是一个（红、绿、蓝）三元组，后跟 alpha.
+    // 每个像素都是一个（红、绿、蓝）三元组，后跟 alpha。
     saveOptions.ColorType = Imaging.FileFormats.Png.PngColorType.TruecolorWithAlpha;
 
-        // 设置最大压缩级别
+    // 设置最大压缩级别。
     saveOptions.CompressionLevel = 9;
 
-        // 这是最好的压缩，但是执行时间最慢。
-        // 自适应过滤意味着保存过程将为每个数据行选择最适合的过滤器。
+    // 这是最好的压缩，但执行时间最慢。
+    // 自适应过滤意味着保存过程将为每个数据行选择最合适的过滤器。
     saveOptions.FilterType = Aspose.Imaging.FileFormats.Png.PngFilterType.Adaptive;
 
-        // 每个通道的位数。
+    // 每个通道的位数。
     saveOptions.BitDepth = 8;
 
-        // 保存到文件.
+    // 保存到文件。
     pngImage.Save(dir + "output.png", saveOptions);
 }
 ```

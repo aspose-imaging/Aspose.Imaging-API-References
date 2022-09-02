@@ -1,14 +1,14 @@
 ---
 title: XmpMimeType
 second_title: Aspose.Imaging for .NET API 参考
-description: 表示 MIME 类型
+description: 代表 MIME 类型
 type: docs
-weight: 11700
+weight: 11690
 url: /zh/net/aspose.imaging.xmp.types.derived/xmpmimetype/
 ---
 ## XmpMimeType class
 
-表示 MIME 类型。
+代表 MIME 类型。
 
 ```csharp
 public sealed class XmpMimeType : XmpText
@@ -18,7 +18,7 @@ public sealed class XmpMimeType : XmpText
 
 | 姓名 | 描述 |
 | --- | --- |
-| [XmpMimeType](xmpmimetype)(string) | 初始化[`XmpMimeType`](../xmpmimetype)类的新实例。 |
+| [XmpMimeType](xmpmimetype)(string) | 初始化[`XmpMimeType`](../xmpmimetype)类. |
 
 ## 特性
 

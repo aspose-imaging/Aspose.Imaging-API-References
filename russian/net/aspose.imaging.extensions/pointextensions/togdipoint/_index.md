@@ -1,14 +1,14 @@
 ---
 title: ToGdiPoint
 second_title: Справочник по Aspose.Imaging for .NET API
-description: ПреобразуетPointFaspose.imaging/pointfвPointF.
+description: ПреобразуетPointFaspose.imaging/pointf кPointF .
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.extensions/pointextensions/togdipoint/
 ---
 ## PointExtensions.ToGdiPoint method
 
-Преобразует[`PointF`](../../../aspose.imaging/pointf)вPointF.
+Преобразует[`PointF`](../../../aspose.imaging/pointf) кPointF .
 
 ```csharp
 public static PointF ToGdiPoint(PointF point)
@@ -16,7 +16,7 @@ public static PointF ToGdiPoint(PointF point)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| point | PointF | [`PointF`](../../../aspose.imaging/pointf)для преобразования. |
+| point | PointF | [`PointF`](../../../aspose.imaging/pointf) конвертировать. |
 
 ### Возвращаемое значение
 

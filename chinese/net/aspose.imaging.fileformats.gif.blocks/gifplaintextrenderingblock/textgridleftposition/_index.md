@@ -1,14 +1,14 @@
 ---
 title: TextGridLeftPosition
 second_title: Aspose.Imaging for .NET API 参考
-description: 获取或设置文本网格左侧位置
+description: 获取或设置文本网格左位置
 type: docs
 weight: 80
 url: /zh/net/aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/textgridleftposition/
 ---
 ## GifPlainTextRenderingBlock.TextGridLeftPosition property
 
-获取或设置文本网格左侧位置。
+获取或设置文本网格左位置。
 
 ```csharp
 public ushort TextGridLeftPosition { get; set; }
@@ -16,11 +16,11 @@ public ushort TextGridLeftPosition { get; set; }
 
 ### 适当的价值
 
-文本网格左侧位置。
+文本网格左边的位置。
 
 ### 评论
 
-这是文本网格左边缘相对于逻辑左边缘的列号，以像素为单位屏幕。
+这是文本网格左边缘相对于逻辑屏幕左边缘的列号，以像素为单位。
 
 ### 也可以看看
 

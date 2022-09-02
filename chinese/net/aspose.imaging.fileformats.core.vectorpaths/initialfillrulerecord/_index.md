@@ -18,9 +18,9 @@ public class InitialFillRuleRecord : VectorPathRecord
 
 | 姓名 | 描述 |
 | --- | --- |
-| [InitialFillRuleRecord](initialfillrulerecord#constructor)() | 初始化[`InitialFillRuleRecord`](../initialfillrulerecord)类的新实例。 |
-| [InitialFillRuleRecord](initialfillrulerecord#constructor_1)(bool) | 初始化[`InitialFillRuleRecord`](../initialfillrulerecord)类的新实例。 |
-| [InitialFillRuleRecord](initialfillrulerecord#constructor_2)(byte[]) | 初始化[`InitialFillRuleRecord`](../initialfillrulerecord)类的新实例。 |
+| [InitialFillRuleRecord](initialfillrulerecord#constructor)() | 初始化[`InitialFillRuleRecord`](../initialfillrulerecord)类. |
+| [InitialFillRuleRecord](initialfillrulerecord#constructor_1)(bool) | 初始化[`InitialFillRuleRecord`](../initialfillrulerecord)类. |
+| [InitialFillRuleRecord](initialfillrulerecord#constructor_2)(byte[]) | 初始化[`InitialFillRuleRecord`](../initialfillrulerecord)类. |
 
 ## 特性
 

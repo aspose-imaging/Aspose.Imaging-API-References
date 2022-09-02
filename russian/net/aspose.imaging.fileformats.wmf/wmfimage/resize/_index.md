@@ -28,7 +28,7 @@ public override void Resize(int newWidth, int newHeight, ResizeType resizeType)
 
 ### Примеры
 
-В этом примере загружается изображение WMF и изменяется его размер с использованием различных методов изменения размера. методы.
+В этом примере загружается изображение WMF и изменяется его размер с использованием различных методов изменения размера.
 
 ```csharp
 [C#]
@@ -37,7 +37,7 @@ string dir = "c:\\temp\\";
 
 using (Aspose.Imaging.FileFormats.Wmf.WmfImage image = (Aspose.Imaging.FileFormats.Wmf.WmfImage)Aspose.Imaging.Image.Load(dir + "sample.wmf"))
 {
-     // Масштабирование в 2 раза с использованием передискретизации ближайших соседей.
+    // Масштабирование в 2 раза с использованием передискретизации ближайших соседей.
     image.Resize(image.Width * 2, image.Height * 2, Aspose.Imaging.ResizeType.NearestNeighbourResample);
 }
 
@@ -49,13 +49,13 @@ using (Aspose.Imaging.FileFormats.Wmf.WmfImage image = (Aspose.Imaging.FileForma
 
 using (Aspose.Imaging.FileFormats.Wmf.WmfImage image = (Aspose.Imaging.FileFormats.Wmf.WmfImage)Aspose.Imaging.Image.Load(dir + "sample.wmf"))
 {
-     // Увеличение в 2 раза с использованием билинейной передискретизации.
+    // Масштабируем в 2 раза, используя билинейную передискретизацию.
     image.Resize(image.Width * 2, image.Height * 2, Aspose.Imaging.ResizeType.BilinearResample);
 }
 
 using (Aspose.Imaging.FileFormats.Wmf.WmfImage image = (Aspose.Imaging.FileFormats.Wmf.WmfImage)Aspose.Imaging.Image.Load(dir + "sample.wmf"))
 {
-     // Уменьшить масштаб в 2 раза, используя билинейную передискретизацию.
+    // Уменьшить масштаб в 2 раза, используя билинейную передискретизацию.
     image.Resize(image.Width / 2, image.Height / 2, Aspose.Imaging.ResizeType.BilinearResample);
 }
 ```

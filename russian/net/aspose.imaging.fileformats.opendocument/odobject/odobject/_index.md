@@ -1,14 +1,14 @@
 ---
 title: OdObject
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаOdObjectaspose.imaging.fileformats.opendocument/odobject.
+description: Инициализирует новый экземплярOdObjectaspose.imaging.fileformats.opendocument/odobject класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.fileformats.opendocument/odobject/odobject/
 ---
 ## OdObject(OdObject) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`OdObject`](../../odobject).
+Инициализирует новый экземпляр[`OdObject`](../../odobject) класс.
 
 ```csharp
 public OdObject(OdObject parent)
@@ -28,7 +28,7 @@ public OdObject(OdObject parent)
 
 ## OdObject() {#constructor}
 
-Инициализирует новый экземпляр класса[`OdObject`](../../odobject).
+Инициализирует новый экземпляр[`OdObject`](../../odobject) класс.
 
 ```csharp
 public OdObject()

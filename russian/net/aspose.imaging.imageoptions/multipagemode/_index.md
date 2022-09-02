@@ -3,7 +3,7 @@ title: MultiPageMode
 second_title: Справочник по Aspose.Imaging for .NET API
 description: Представляет многостраничный режим
 type: docs
-weight: 10060
+weight: 10050
 url: /ru/net/aspose.imaging.imageoptions/multipagemode/
 ---
 ## MultiPageMode enumeration
@@ -18,10 +18,10 @@ public enum MultiPageMode
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Pages | `0` | Индексы используемых страниц |
+| Pages | `0` | Используемые индексы страниц |
 | Titles | `1` | Используемые заголовки страниц |
 | Range | `2` | Используемый диапазон страниц |
-| TimeInterval | `3` | Использованные страницы во временном интервале |
+| TimeInterval | `3` | Использованные страницы за интервал времени |
 | AllPages | `4` | Использованы все страницы |
 
 ### Смотрите также

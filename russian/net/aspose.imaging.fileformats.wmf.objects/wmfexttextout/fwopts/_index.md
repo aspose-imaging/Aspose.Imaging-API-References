@@ -1,14 +1,14 @@
 ---
 title: FwOpts
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Получает или устанавливает параметры fw.
+description: Получает или задает опции fw.
 type: docs
 weight: 40
 url: /ru/net/aspose.imaging.fileformats.wmf.objects/wmfexttextout/fwopts/
 ---
 ## WmfExtTextOut.FwOpts property
 
-Получает или устанавливает параметры fw.
+Получает или задает опции fw.
 
 ```csharp
 public int FwOpts { get; set; }
@@ -16,7 +16,7 @@ public int FwOpts { get; set; }
 
 ### Стоимость имущества
 
-Опции. Этот элемент может быть комбинацией одного или нескольких значений.
+Варианты. Этот член может быть комбинацией одного или нескольких значений.
 
 ### Смотрите также
 

@@ -24,9 +24,9 @@ public class WmfCieXyzTriple
 
 | Имя | Описание |
 | --- | --- |
-| [CiexyzBlue](../../aspose.imaging.fileformats.wmf.objects/wmfciexyztriple/ciexyzblue) { get; set; } | Получает или задает 96-разрядный объект CIEXYZ, определяющий значения синего цветности. |
-| [CiexyzGreen](../../aspose.imaging.fileformats.wmf.objects/wmfciexyztriple/ciexyzgreen) { get; set; } | Получает или задает 96-разрядный объект CIEXYZ, определяющий значения цветности зеленого цвета . |
-| [CiexyzRed](../../aspose.imaging.fileformats.wmf.objects/wmfciexyztriple/ciexyzred) { get; set; } | Получает или задает 96-разрядный объект CIEXYZ, который определяет значения красной цветности. |
+| [CiexyzBlue](../../aspose.imaging.fileformats.wmf.objects/wmfciexyztriple/ciexyzblue) { get; set; } | Получает или задает 96-битный объект CIEXYZ, определяющий значения цветности blue . |
+| [CiexyzGreen](../../aspose.imaging.fileformats.wmf.objects/wmfciexyztriple/ciexyzgreen) { get; set; } | Получает или задает 96-битный объект CIEXYZ, определяющий значения цветности green . |
+| [CiexyzRed](../../aspose.imaging.fileformats.wmf.objects/wmfciexyztriple/ciexyzred) { get; set; } | Получает или задает 96-битный объект CIEXYZ, определяющий значения цветности red . |
 
 ### Смотрите также
 

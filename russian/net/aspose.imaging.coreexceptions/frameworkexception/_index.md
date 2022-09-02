@@ -1,14 +1,14 @@
 ---
 title: FrameworkException
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Исключение платформы обработки изображений. Этот класс является базовым для всех исключений Aspose.Imaging. Введено для различения исключений создаваемых механизмом Aspose.Imaging и всех других типов исключений.
+description: Исключение платформы обработки изображений. Этот класс является базовым для всех исключений Aspose.Imaging. Введен для различения исключений создаваемых механизмом Aspose.Imaging и всех других типов исключений.
 type: docs
 weight: 490
 url: /ru/net/aspose.imaging.coreexceptions/frameworkexception/
 ---
 ## FrameworkException class
 
-Исключение платформы обработки изображений. Этот класс является базовым для всех исключений Aspose.Imaging. Введено для различения исключений, создаваемых механизмом Aspose.Imaging, и всех других типов исключений.
+Исключение платформы обработки изображений. Этот класс является базовым для всех исключений Aspose.Imaging. Введен для различения исключений, создаваемых механизмом Aspose.Imaging, и всех других типов исключений.
 
 ```csharp
 public class FrameworkException : Exception
@@ -18,8 +18,8 @@ public class FrameworkException : Exception
 
 | Имя | Описание |
 | --- | --- |
-| [FrameworkException](frameworkexception#constructor)(string) | Инициализирует новый экземпляр класса[`FrameworkException`](../frameworkexception). |
-| [FrameworkException](frameworkexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр класса[`FrameworkException`](../frameworkexception). |
+| [FrameworkException](frameworkexception#constructor)(string) | Инициализирует новый экземпляр[`FrameworkException`](../frameworkexception) класс. |
+| [FrameworkException](frameworkexception#constructor_1)(string, Exception) | Инициализирует новый экземпляр[`FrameworkException`](../frameworkexception) класс. |
 
 ### Смотрите также
 

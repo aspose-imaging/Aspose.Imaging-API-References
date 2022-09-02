@@ -18,12 +18,12 @@ public enum EmfFamilyType : byte
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| PAN_ANY | `0` | Any 类型。 |
+| PAN_ANY | `0` | 任何类型。 |
 | PAN_NO_FIT | `1` | 不合适。 |
 | PAN_FAMILY_TEXT_DISPLAY | `2` | 文本和显示。 |
 | PAN_FAMILY_SCRIPT | `3` | 脚本标志。 |
-| PAN_FAMILY_DECORATIVE | `4` | 装饰标志。 |
-| PAN_FAMILY_PICTORIAL | `5` | 图形标志。 |
+| PAN_FAMILY_DECORATIVE | `4` | 装饰旗. |
+| PAN_FAMILY_PICTORIAL | `5` | 图案标志. |
 
 ### 也可以看看
 

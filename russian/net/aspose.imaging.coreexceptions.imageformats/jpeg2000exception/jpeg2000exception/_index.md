@@ -1,14 +1,14 @@
 ---
 title: Jpeg2000Exception
 second_title: Справочник по Aspose.Imaging for .NET API
-description: Инициализирует новый экземпляр классаJpeg2000Exceptionaspose.imaging.coreexceptions.imageformats/jpeg2000exception.
+description: Инициализирует новый экземплярJpeg2000Exceptionaspose.imaging.coreexceptions.imageformats/jpeg2000exception класс.
 type: docs
 weight: 10
 url: /ru/net/aspose.imaging.coreexceptions.imageformats/jpeg2000exception/jpeg2000exception/
 ---
 ## Jpeg2000Exception(string) {#constructor}
 
-Инициализирует новый экземпляр класса[`Jpeg2000Exception`](../../jpeg2000exception).
+Инициализирует новый экземпляр[`Jpeg2000Exception`](../../jpeg2000exception) класс.
 
 ```csharp
 public Jpeg2000Exception(string message)
@@ -28,7 +28,7 @@ public Jpeg2000Exception(string message)
 
 ## Jpeg2000Exception(string, Exception) {#constructor_1}
 
-Инициализирует новый экземпляр класса[`Jpeg2000Exception`](../../jpeg2000exception).
+Инициализирует новый экземпляр[`Jpeg2000Exception`](../../jpeg2000exception) класс.
 
 ```csharp
 public Jpeg2000Exception(string message, Exception innerException)

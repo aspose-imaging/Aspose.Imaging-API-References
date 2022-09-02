@@ -1,14 +1,14 @@
 ---
 title: EmfSetLinkedUfis
 second_title: Aspose.Imaging for .NET API 参考
-description: 初始化EmfSetLinkedUfisaspose.imaging.fileformats.emf.emf.records/emfsetlinkedufis类的新实例
+description: 初始化EmfSetLinkedUfisaspose.imaging.fileformats.emf.emf.records/emfsetlinkedufis类.
 type: docs
 weight: 10
 url: /zh/net/aspose.imaging.fileformats.emf.emf.records/emfsetlinkedufis/emfsetlinkedufis/
 ---
 ## EmfSetLinkedUfis constructor
 
-初始化[`EmfSetLinkedUfis`](../../emfsetlinkedufis)类的新实例。
+初始化[`EmfSetLinkedUfis`](../../emfsetlinkedufis)类.
 
 ```csharp
 public EmfSetLinkedUfis(EmfRecord source)
@@ -16,7 +16,7 @@ public EmfSetLinkedUfis(EmfRecord source)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| source | EmfRecord | 源。 |
+| source | EmfRecord | 来源。 |
 
 ### 也可以看看
 
