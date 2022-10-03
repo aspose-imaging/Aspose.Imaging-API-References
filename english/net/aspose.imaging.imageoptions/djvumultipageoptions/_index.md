@@ -3,7 +3,7 @@ title: DjvuMultiPageOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9960
+weight: 9970
 url: /net/aspose.imaging.imageoptions/djvumultipageoptions/
 ---
 ## DjvuMultiPageOptions class

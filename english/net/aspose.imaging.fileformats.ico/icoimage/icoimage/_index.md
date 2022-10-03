@@ -6,7 +6,30 @@ type: docs
 weight: 10
 url: /net/aspose.imaging.fileformats.ico/icoimage/icoimage/
 ---
-## IcoImage constructor
+## IcoImage constructor (1 of 2)
+
+Initializes a new instance of the [`IcoImage`](../../icoimage) class.
+
+```csharp
+public IcoImage(int width, int height, IcoOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| width | Int32 | The width. |
+| height | Int32 | The height. |
+| options | IcoOptions | The ICO creation options. |
+
+### See Also
+
+* class [IcoOptions](../../../aspose.imaging.imageoptions/icooptions)
+* class [IcoImage](../../icoimage)
+* namespace [Aspose.Imaging.FileFormats.Ico](../../icoimage)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## IcoImage constructor (2 of 2)
 
 Initializes a new instance of the [`IcoImage`](../../icoimage) class.
 

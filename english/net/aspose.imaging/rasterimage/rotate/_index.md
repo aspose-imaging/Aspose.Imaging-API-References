@@ -3,7 +3,7 @@ title: Rotate
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 490
+weight: 500
 url: /net/aspose.imaging/rasterimage/rotate/
 ---
 ## RasterImage.Rotate method (1 of 2)

@@ -3,7 +3,7 @@ title: DngLoadOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9850
+weight: 9860
 url: /net/aspose.imaging.imageloadoptions/dngloadoptions/
 ---
 ## DngLoadOptions class
@@ -24,6 +24,7 @@ public class DngLoadOptions : LoadOptions
 
 | Name | Description |
 | --- | --- |
+| [AdjustWhiteBalance](../../aspose.imaging.imageloadoptions/dngloadoptions/adjustwhitebalance) { get; set; } | Gets or sets the flag indicating that the white balance of the loaded DNG image should be adjusted. |
 | [BufferSizeHint](../../aspose.imaging/loadoptions/buffersizehint) { get; set; } | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | [DataBackgroundColor](../../aspose.imaging/loadoptions/databackgroundcolor) { get; set; } | Gets or sets the [`Image`](../../aspose.imaging/image) background [`Color`](../../aspose.imaging/color). |
 | [DataRecoveryMode](../../aspose.imaging/loadoptions/datarecoverymode) { get; set; } | Gets or sets the data recovery mode. |

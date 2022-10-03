@@ -3,7 +3,7 @@ title: SvgOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10210
+weight: 10220
 url: /net/aspose.imaging.imageoptions/svgoptions/
 ---
 ## SvgOptions class

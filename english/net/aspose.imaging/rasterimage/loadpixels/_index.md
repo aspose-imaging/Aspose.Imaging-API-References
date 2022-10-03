@@ -3,7 +3,7 @@ title: LoadPixels
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 410
+weight: 420
 url: /net/aspose.imaging/rasterimage/loadpixels/
 ---
 ## RasterImage.LoadPixels method

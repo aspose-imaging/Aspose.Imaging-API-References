@@ -3,7 +3,7 @@ title: ImageMasking
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10450
+weight: 10460
 url: /net/aspose.imaging.masking/imagemasking/
 ---
 ## ImageMasking class

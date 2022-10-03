@@ -16,7 +16,7 @@ public OdGraphicStyle Copy()
 
 ### Return Value
 
-Get the copy of this instance
+Gets the copy of this instance.
 
 ### See Also
 

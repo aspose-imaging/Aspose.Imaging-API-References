@@ -3,7 +3,7 @@ title: SetArgb32Pixel
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 550
+weight: 560
 url: /net/aspose.imaging/rasterimage/setargb32pixel/
 ---
 ## RasterImage.SetArgb32Pixel method

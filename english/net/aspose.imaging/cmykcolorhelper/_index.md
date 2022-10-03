@@ -37,9 +37,17 @@ public static class CmykColorHelper
 | static [ToCmykBytes](../../aspose.imaging/cmykcolorhelper/tocmykbytes)(int[], int, int) | Converts RGB to CMYK. |
 | static [ToCmykIcc](../../aspose.imaging/cmykcolorhelper/tocmykicc)(Color) | The conversion from ARGB color to CMYK color using Icc conversion with default profiles. |
 | static [ToCmykIcc](../../aspose.imaging/cmykcolorhelper/tocmykicc)(Color[]) | The conversion from ARGB colors to CMYK colors using Icc conversion with default profiles. |
+| static [ToCmykIcc](../../aspose.imaging/cmykcolorhelper/tocmykicc)(int) | The conversion from ARGB color to CMYK color using Icc conversion with default profiles. |
+| static [ToCmykIcc](../../aspose.imaging/cmykcolorhelper/tocmykicc)(int[]) | The conversion from ARGB colors to CMYK colors using Icc conversion with default profiles. |
 | static [ToCmykIcc](../../aspose.imaging/cmykcolorhelper/tocmykicc)(Color, Stream, Stream) | The conversion from ARGB color to CMYK color using Icc conversion with custom profiles. |
 | static [ToCmykIcc](../../aspose.imaging/cmykcolorhelper/tocmykicc)(Color[], Stream, Stream) | The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles. |
+| static [ToCmykIcc](../../aspose.imaging/cmykcolorhelper/tocmykicc)(int, Stream, Stream) | The conversion from ARGB color to CMYK color using Icc conversion with custom profiles. |
+| static [ToCmykIcc](../../aspose.imaging/cmykcolorhelper/tocmykicc)(int[], Stream, Stream) | The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles. |
 | static [ToCmykIccBytes](../../aspose.imaging/cmykcolorhelper/tocmykiccbytes)(int[], int, int, Stream, Stream) | Converts RGB to CMYK using custom ICC profiles. |
+| static [ToPsdCmykIcc](../../aspose.imaging/cmykcolorhelper/topsdcmykicc)(int) | The conversion from ARGB color to CMYK color using Icc conversion with default profiles. Uses PSD CMYK format KCMY byte order with inverted channel values. |
+| static [ToPsdCmykIcc](../../aspose.imaging/cmykcolorhelper/topsdcmykicc)(int[]) | The conversion from ARGB colors to CMYK colors using Icc conversion with default profiles. Uses PSD CMYK format KCMY byte order with inverted channel values. |
+| static [ToPsdCmykIcc](../../aspose.imaging/cmykcolorhelper/topsdcmykicc)(int, Stream, Stream) | The conversion from ARGB color to CMYK color using Icc conversion with custom profiles. |
+| static [ToPsdCmykIcc](../../aspose.imaging/cmykcolorhelper/topsdcmykicc)(int[], Stream, Stream) | The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles. Uses PSD CMYK format KCMY byte order with inverted channel values. |
 
 ### See Also
 

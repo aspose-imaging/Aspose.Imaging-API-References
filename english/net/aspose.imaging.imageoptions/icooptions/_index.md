@@ -3,7 +3,7 @@ title: IcoOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10030
+weight: 10040
 url: /net/aspose.imaging.imageoptions/icooptions/
 ---
 ## IcoOptions class

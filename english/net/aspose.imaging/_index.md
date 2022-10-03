@@ -98,6 +98,7 @@ The namespace is the core for nested namespaces and the most basic objects used 
 | [IPartialPixelLoader](./ipartialpixelloader) | Conforms to the pixels loaded partially. |
 | [IPartialRawDataLoader](./ipartialrawdataloader) | The partial data loader. |
 | [IRasterImageArgb32PixelLoader](./irasterimageargb32pixelloader) | The raster image 32-bit ARGB pixel loader. |
+| [IRasterImageArgb64PixelLoader](./irasterimageargb64pixelloader) | The raster image 64-bit ARGB pixel loader. |
 | [IRasterImagePixelLoader](./irasterimagepixelloader) | The raster image pixel loader. |
 | [IRasterImageRawDataLoader](./irasterimagerawdataloader) | The raster image raw data loader. |
 ## Enumeration

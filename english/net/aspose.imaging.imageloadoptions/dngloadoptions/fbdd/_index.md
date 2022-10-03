@@ -3,7 +3,7 @@ title: Fbdd
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.imaging.imageloadoptions/dngloadoptions/fbdd/
 ---
 ## DngLoadOptions.Fbdd property
