@@ -3,7 +3,7 @@ title: PngOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10140
+weight: 10150
 url: /net/aspose.imaging.imageoptions/pngoptions/
 ---
 ## PngOptions class

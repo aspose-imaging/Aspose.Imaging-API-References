@@ -3,7 +3,7 @@ title: Jpeg2000Options
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10040
+weight: 10050
 url: /net/aspose.imaging.imageoptions/jpeg2000options/
 ---
 ## Jpeg2000Options class

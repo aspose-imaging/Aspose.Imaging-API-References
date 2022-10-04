@@ -6,7 +6,23 @@ type: docs
 weight: 10
 url: /net/aspose.imaging.sources/streamsource/streamsource/
 ---
-## StreamSource constructor (1 of 2)
+## StreamSource constructor (1 of 3)
+
+Initializes a new instance of the [`StreamSource`](../../streamsource) class.
+
+```csharp
+public StreamSource()
+```
+
+### See Also
+
+* class [StreamSource](../../streamsource)
+* namespace [Aspose.Imaging.Sources](../../streamsource)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## StreamSource constructor (2 of 3)
 
 Initializes a new instance of the [`StreamSource`](../../streamsource) class.
 
@@ -76,7 +92,7 @@ using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
 
 ---
 
-## StreamSource constructor (2 of 2)
+## StreamSource constructor (3 of 3)
 
 Initializes a new instance of the [`StreamSource`](../../streamsource) class.
 

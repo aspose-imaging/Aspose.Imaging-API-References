@@ -3,7 +3,7 @@ title: LoadRawData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 420
+weight: 430
 url: /net/aspose.imaging/rasterimage/loadrawdata/
 ---
 ## RasterImage.LoadRawData method (1 of 2)

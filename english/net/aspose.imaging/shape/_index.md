@@ -3,7 +3,7 @@ title: Shape
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10930
+weight: 10940
 url: /net/aspose.imaging/shape/
 ---
 ## Shape class

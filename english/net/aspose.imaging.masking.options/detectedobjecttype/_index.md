@@ -3,7 +3,7 @@ title: DetectedObjectType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10490
+weight: 10500
 url: /net/aspose.imaging.masking.options/detectedobjecttype/
 ---
 ## DetectedObjectType enumeration

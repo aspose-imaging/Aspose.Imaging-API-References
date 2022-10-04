@@ -3,7 +3,7 @@ title: StreamSource
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11130
+weight: 11140
 url: /net/aspose.imaging.sources/streamsource/
 ---
 ## StreamSource class
@@ -18,6 +18,7 @@ public sealed class StreamSource : Source
 
 | Name | Description |
 | --- | --- |
+| [StreamSource](streamsource)() | Initializes a new instance of the [`StreamSource`](../streamsource) class. |
 | [StreamSource](streamsource)(Stream) | Initializes a new instance of the [`StreamSource`](../streamsource) class. |
 | [StreamSource](streamsource)(Stream, bool) | Initializes a new instance of the [`StreamSource`](../streamsource) class. |
 

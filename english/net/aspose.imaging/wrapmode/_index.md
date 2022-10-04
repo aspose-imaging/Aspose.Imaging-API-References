@@ -3,7 +3,7 @@ title: WrapMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11260
+weight: 11270
 url: /net/aspose.imaging/wrapmode/
 ---
 ## WrapMode enumeration

@@ -3,7 +3,7 @@ title: ReplaceColor
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.imaging/rasterimage/replacecolor/
 ---
 ## RasterImage.ReplaceColor method (1 of 2)

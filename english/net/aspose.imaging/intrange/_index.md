@@ -3,7 +3,7 @@ title: IntRange
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10350
+weight: 10360
 url: /net/aspose.imaging/intrange/
 ---
 ## IntRange class
