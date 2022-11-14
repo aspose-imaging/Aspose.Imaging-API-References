@@ -39,6 +39,7 @@ public class CdrRasterizationOptions : VectorRasterizationOptions
 | virtual [Palette](../../aspose.imaging/imageoptionsbase/palette) { get; set; } | Gets or sets the color palette. |
 | [Positioning](../../aspose.imaging.imageoptions/vectorrasterizationoptions/positioning) { get; set; } | Gets or sets the positioning. |
 | [ProgressEventHandler](../../aspose.imaging/imageoptionsbase/progresseventhandler) { get; set; } | Gets or sets the progress event handler. |
+| [ReplaceTextMapping](../../aspose.imaging.imageoptions/vectorrasterizationoptions/replacetextmapping) { get; set; } | Gets or sets the text replace mapping. |
 | virtual [ResolutionSettings](../../aspose.imaging/imageoptionsbase/resolutionsettings) { get; set; } | Gets or sets the resolution settings. |
 | [ScaleX](../../aspose.imaging.imageoptions/cdrrasterizationoptions/scalex) { get; set; } | Gets or sets the scale x. |
 | [ScaleY](../../aspose.imaging.imageoptions/cdrrasterizationoptions/scaley) { get; set; } | Gets or sets the scale y. |
