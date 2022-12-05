@@ -37,8 +37,8 @@ Represents SVG image class.
 | [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the image. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Sets the image palette. |
 
-## Example
-This example shows how to load an SVG image from a file stream and rasterize it to PNG.
+## Example: This example shows how to load an SVG image from a file stream and rasterize it to PNG.
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -59,7 +59,7 @@ try {
 ```
 
 
-## Example
+## Example: The following example shows how to convert a compressed images (*.
 The following example shows how to convert a compressed images (*.emz,*.wmz, *.svgz) to raster format
 ``` java
 String[] files = new String[]{ "example.emz", "example.wmz", "example.svgz" };
@@ -81,8 +81,8 @@ for(String file : files)
 ```
 
 
-## Example
-The following example shows how to convert a svgz images to svg format
+## Example: The following example shows how to convert a svgz images to svg format
+
 ``` java
 String file = "example.svgz";
 String baseFolder = "D:\\Compressed\\";
@@ -99,8 +99,8 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputFile))
 ```
 
 
-## Example
-The following example shows how to convert a svg images to svgz format
+## Example: The following example shows how to convert a svg images to svgz format
+
 ``` java
 String file = "juanmontoya_lingerie.svg";
 String baseFolder = "D:\\Compressed\\";

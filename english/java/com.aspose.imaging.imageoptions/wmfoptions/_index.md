@@ -19,8 +19,8 @@ The wmf options.
 | --- | --- |
 | [WmfOptions()](#WmfOptions--) |  |
 
-## Example
-The following example shows how to convert a multipage vector image to WMF format in general way without referencing to a particular image type.
+## Example: The following example shows how to convert a multipage vector image to WMF format in general way without referencing to a particular image type.
+
 ``` java
 String dir = "C:\\aspose.imaging\\net\\misc\\ImagingReleaseQATester\\Tests\\testdata\\2548";
 String inputFilePath = (dir + "Multipage.cdr");
@@ -52,8 +52,8 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputFilePat
 ```
 
 
-## Example
-The following example shows how to convert a wmz images to wmf format
+## Example: The following example shows how to convert a wmz images to wmf format
+
 ``` java
 String file = "example.wmz";
 String baseFolder = "D:\\Compressed\\";
@@ -74,8 +74,8 @@ try (final com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputF
 ```
 
 
-## Example
-The following example shows how to convert a wmf images to wmz format
+## Example: The following example shows how to convert a wmf images to wmz format
+
 ``` java
 String file = "castle.wmf";
 String baseFolder = "D:\\Compressed\\";

@@ -29,8 +29,8 @@ Deconvolution filter options deblur motion
 | [getAngle()](#getAngle--) | Gets or sets the angle in gradus. |
 | [setAngle(double value)](#setAngle-double-) | Gets or sets the angle in gradus. |
 
-## Example
-The following example applies various types of filters to a raster image.
+## Example: The following example applies various types of filters to a raster image.
+
 ``` java
 String dir = "c:\\temp\\";
 

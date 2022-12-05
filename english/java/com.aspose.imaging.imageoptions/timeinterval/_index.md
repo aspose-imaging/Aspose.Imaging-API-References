@@ -27,8 +27,8 @@ Represents the time interval in milliseconds
 | [getTo()](#getTo--) | Gets To milliseconds. |
 | [setTo(long value)](#setTo-long-) | Sets To milliseconds. |
 
-## Example
-Export of part of animation from GIF image based on time interval.
+## Example: Export of part of animation from GIF image based on time interval.
+
 ``` java
 try (Image image = Image.load("Animation.gif"))
 {

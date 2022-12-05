@@ -22,8 +22,8 @@ The EmfPlusSetAntiAliasMode record specifies the anti-aliasing mode for text out
 
 | Method | Description |
 | --- | --- |
-| [getSmoothingMode()](#getSmoothingMode--) | Gets or sets the smoothing mode |
-| [setSmoothingMode(byte value)](#setSmoothingMode-byte-) | Gets or sets the smoothing mode |
+| [getSmoothingMode()](#getSmoothingMode--) | Gets or sets the smoothing mode. |
+| [setSmoothingMode(byte value)](#setSmoothingMode-byte-) | Gets or sets the smoothing mode. |
 | [getAntiAliasing()](#getAntiAliasing--) | Gets or sets a value indicating whether [anti aliasing]. |
 | [setAntiAliasing(boolean value)](#setAntiAliasing-boolean-) | Gets or sets a value indicating whether [anti aliasing]. |
 ### EmfPlusSetAntiAliasMode(EmfPlusRecord source) {#EmfPlusSetAntiAliasMode-com.aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord-}

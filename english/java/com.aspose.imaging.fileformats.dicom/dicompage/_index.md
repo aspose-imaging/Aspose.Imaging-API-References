@@ -29,8 +29,8 @@ It is class for work with DICOM files of the type multi frame
 | [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
 | [getFileFormat()](#getFileFormat--) | Gets a value of file format |
 
-## Example
-Create a multi-page Dicom image.
+## Example: Create a multi-page Dicom image.
+
 ``` java
         
 try (DicomOptions dicomOptions = new DicomOptions())

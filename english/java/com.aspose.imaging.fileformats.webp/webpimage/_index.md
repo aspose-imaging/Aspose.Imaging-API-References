@@ -64,8 +64,8 @@ A webp image.
 | [filter(Rectangle rectangle, FilterOptionsBase options)](#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-) | Filters the specified rectangle. |
 | [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image. |
 
-## Example
-This example shows how to load a WebP image from a file and save it to PNG.
+## Example: This example shows how to load a WebP image from a file and save it to PNG.
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -265,8 +265,8 @@ Value: The Has alpha channel. ``
 **Returns:**
 boolean - the Has alpha channel.
 
-**Example:**
-The following example loads a WEBP image and prints information about raw data format and alpha channel.
+**Example: The following example loads a WEBP image and prints information about raw data format and alpha channel.**
+
 ``` java
 String dir = "c:\\temp\\";
 String fileName = dir + "sample.webp";
@@ -347,8 +347,8 @@ Adds a new Webp block.
 | block | [IFrame](../../com.aspose.imaging.fileformats.webp/iframe) | The Webp block to add. |
 
 
-**Example:**
-This example shows how to create a multi-frame animated WebP image with the specified options.
+**Example: This example shows how to create a multi-frame animated WebP image with the specified options.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -466,8 +466,8 @@ Resizes the image.
 | resizeType | int | The resize type. |
 
 
-**Example:**
-This example loads a WEBP image and resizes it using various resizing methods.
+**Example: This example loads a WEBP image and resizes it using various resizing methods.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -713,8 +713,8 @@ Filters the specified rectangle.
 | options | [FilterOptionsBase](../../com.aspose.imaging.imagefilters.filteroptions/filteroptionsbase) | The options. |
 
 
-**Example:**
-The following example applies various types of filters to a WEBP image.
+**Example: The following example applies various types of filters to a WEBP image.**
+
 ``` java
 String dir = "c:\\temp\\";
 

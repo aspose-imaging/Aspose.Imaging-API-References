@@ -27,8 +27,8 @@ Other image parameters
 | [getFocalLength()](#getFocalLength--) | Gets the length of the focal. |
 | [getIsoSpeed()](#getIsoSpeed--) | Gets the ISO sensitivity. |
 
-## Example
-This example shows how to load a DNG image from a file, print its properties and save it to PNG.
+## Example: This example shows how to load a DNG image from a file, print its properties and save it to PNG.
+
 ``` java
 String dir = "c:\\temp\\";
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "test.dng");

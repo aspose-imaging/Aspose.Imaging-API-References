@@ -27,7 +27,7 @@ Represents a file source for creation.
 | [isTemporal()](#isTemporal--) | Gets a value indicating whether file will be temporal. |
 | [getStreamContainer()](#getStreamContainer--) | Gets the stream container. |
 
-## Example
+## Example: This example demonstrates the use of Font and SolidBrush class to draw strings on Image surface.
 This example demonstrates the use of Font and SolidBrush class to draw strings on Image surface. The example creates a new Image and draw shapes using Figures and GraphicsPath
 ``` java
 //Creates an instance of BmpOptions and set its various properties

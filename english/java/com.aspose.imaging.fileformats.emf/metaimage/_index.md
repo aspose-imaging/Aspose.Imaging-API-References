@@ -46,8 +46,8 @@ Gets the records.
 **Returns:**
 [MetaObjectList](../../com.aspose.imaging.fileformats.emf/metaobjectlist) - The records.
 
-**Example:**
-This example shows how to load a EMF image from a file and list all of its records.
+**Example: This example shows how to load a EMF image from a file and list all of its records.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -147,8 +147,8 @@ Returns the list of font which used inside metafile.
 **Returns:**
 java.lang.String[] - The font list
 
-**Example:**
-The following example shows how to print information about used and missed fonts in WMF/EMF images.
+**Example: The following example shows how to print information about used and missed fonts in WMF/EMF images.**
+
 ``` java
 String dir = "c:\\aspose.imaging\\java\\issues\\1429\\";
 String[] files = {
@@ -247,8 +247,8 @@ Returns the list of fonts which used inside metafile but not found.
 **Returns:**
 java.lang.String[] - The font list
 
-**Example:**
-The following example shows how to print information about used and missed fonts in WMF/EMF images.
+**Example: The following example shows how to print information about used and missed fonts in WMF/EMF images.**
+
 ``` java
 String dir = "c:\\aspose.imaging\\java\\issues\\1429\\";
 String[] files = {
@@ -379,8 +379,8 @@ Resizes the canvas.
 | newRectangle | [Rectangle](../../com.aspose.imaging/rectangle) | The new rectangle. |
 
 
-**Example:**
-The following example shows how to add a border with the specified margins around a metafile (WMF and EMF).
+**Example: The following example shows how to add a border with the specified margins around a metafile (WMF and EMF).**
+
 ``` java
 String baseFolder = "c:\\temp\\";
 int borderLeft = 50;

@@ -91,8 +91,8 @@ Creates the 8 bit grayscale palette.
 **Returns:**
 [IColorPalette](../../com.aspose.imaging/icolorpalette) - The 8 bit grayscale palette.
 
-**Example:**
-The following example creates a palettized grayscale BMP image and then saves it to a file.
+**Example: The following example creates a palettized grayscale BMP image and then saves it to a file.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -153,8 +153,8 @@ Gets color palette from raster image (palletizes image) in case the image does n
 **Returns:**
 [IColorPalette](../../com.aspose.imaging/icolorpalette) - The color palette which starts with the most frequent colors from the `image` and contains `entriesCount` entries.
 
-**Example:**
-The following example shows how to palletize a BMP image to reduce its output size.
+**Example: The following example shows how to palletize a BMP image to reduce its output size.**
+
 ``` java
 
 // Create a BMP image 100 x 100 px.
@@ -223,8 +223,8 @@ Gets color palette from raster image (palletizes image) in case the image does n
 **Returns:**
 [IColorPalette](../../com.aspose.imaging/icolorpalette) - The color palette which starts with the most frequent colors from the `image` and contains `entriesCount` entries.
 
-**Example:**
-The following example shows how to compress a PNG image, using indexed color with best fit palette
+**Example: The following example shows how to compress a PNG image, using indexed color with best fit palette**
+
 ``` java
 
 // Loads png image        

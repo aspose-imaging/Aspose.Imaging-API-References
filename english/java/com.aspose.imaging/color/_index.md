@@ -1694,8 +1694,8 @@ Creates a `com.aspose.imaging.Color` structure from the four ARGB component (alp
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The `com.aspose.imaging.Color` that this method creates.
 
-**Example:**
-The following example creates a new raster image, saves the specified semi-transparent pixels, then loads those pixels and gets final colors in the premultiplied form.
+**Example: The following example creates a new raster image, saves the specified semi-transparent pixels, then loads those pixels and gets final colors in the premultiplied form.**
+
 ``` java
 int imageWidth = 3;
 int imageHeight = 2;

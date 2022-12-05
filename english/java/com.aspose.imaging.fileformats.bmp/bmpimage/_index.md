@@ -44,8 +44,8 @@ A bmp image (supports BMP, DIB formats).
 | [setVerticalResolution(double value)](#setVerticalResolution-double-) | Gets or sets the vertical resolution, in pixels per inch, of this `RasterImage`. |
 | [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | Sets the resolution for this `RasterImage`. |
 
-## Example
-The following example shows how to create a BMP image of the specified size.
+## Example: The following example shows how to create a BMP image of the specified size.
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -74,8 +74,8 @@ try {
 ```
 
 
-## Example
-Compress BMP image using DXT1 compression algorithm.
+## Example: Compress BMP image using DXT1 compression algorithm.
+
 ``` java
 try (Image image = Image.load("Tiger.bmp"))
 {
@@ -86,8 +86,8 @@ try (Image image = Image.load("Tiger.bmp"))
 ```
 
 
-## Example
-Decompress BMP image which was previously compressed using DXT1 compression algorithm.
+## Example: Decompress BMP image which was previously compressed using DXT1 compression algorithm.
+
 ``` java
     try (Image image = Image.load("CompressedTiger.bmp"))
     {
@@ -99,8 +99,8 @@ Decompress BMP image which was previously compressed using DXT1 compression algo
 ```
 
 
-## Example
-The example shows how to export a BmpImage from a Png file while keeping the alpha channel, save a Bmp file with transparency.
+## Example: The example shows how to export a BmpImage from a Png file while keeping the alpha channel, save a Bmp file with transparency.
+
 ``` java
 String sourcePath = "input.png";
 String outputPathPng = "output.png";
@@ -122,8 +122,8 @@ try (Image pngImage = Image.load(sourcePath))
 ```
 
 
-## Example
-The example shows how to export a BmpImage with the Rgb compression type.
+## Example: The example shows how to export a BmpImage with the Rgb compression type.
+
 ``` java
 String sourcePath = "input.png";
 String outputPath = "output.bmp";
@@ -291,8 +291,8 @@ Value: The bitmap information header.
 **Returns:**
 [BitmapInfoHeader](../../com.aspose.imaging.fileformats.bmp/bitmapinfoheader)
 
-**Example:**
-The following example gets the information from the BMP header and prints it to the console.
+**Example: The following example gets the information from the BMP header and prints it to the console.**
+
 ``` java
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("c:\\temp\\sample.bmp");
 try {
@@ -341,8 +341,8 @@ Gets a value of file format
 **Returns:**
 long
 
-**Example:**
-The following example shows how to extract information about raw data format and alpha channel from a BMP image.
+**Example: The following example shows how to extract information about raw data format and alpha channel from a BMP image.**
+
 ``` java
 
 // The helper class used in the main example below.
@@ -436,8 +436,8 @@ Value: The raw data format.
 **Returns:**
 [PixelDataFormat](../../com.aspose.imaging/pixeldataformat)
 
-**Example:**
-The following example gets the general information about the image including pixel format, image size, resolution, compression etc.
+**Example: The following example gets the general information about the image including pixel format, image size, resolution, compression etc.**
+
 ``` java
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("c:\\temp\\sample.bmp");
 try {
@@ -494,8 +494,8 @@ Value: The raw line size in bytes.
 **Returns:**
 int
 
-**Example:**
-The following example gets the general information about the image including pixel format, image size, resolution, compression etc.
+**Example: The following example gets the general information about the image including pixel format, image size, resolution, compression etc.**
+
 ``` java
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("c:\\temp\\sample.bmp");
 try {
@@ -552,8 +552,8 @@ Value: The image compression.
 **Returns:**
 long
 
-**Example:**
-The following example shows how the bitmap compression affects the output image size.
+**Example: The following example shows how the bitmap compression affects the output image size.**
+
 ``` java
 
 // The helper class used in the main example below.
@@ -654,8 +654,8 @@ Value: The image width.
 **Returns:**
 int
 
-**Example:**
-The following example gets the general information about the image including pixel format, image size, resolution, compression etc.
+**Example: The following example gets the general information about the image including pixel format, image size, resolution, compression etc.**
+
 ``` java
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("c:\\temp\\sample.bmp");
 try {
@@ -712,8 +712,8 @@ Value: The image height.
 **Returns:**
 int
 
-**Example:**
-The following example gets the general information about the image including pixel format, image size, resolution, compression etc.
+**Example: The following example gets the general information about the image including pixel format, image size, resolution, compression etc.**
+
 ``` java
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("c:\\temp\\sample.bmp");
 try {
@@ -770,8 +770,8 @@ Value: The image bits per pixel count.
 **Returns:**
 int
 
-**Example:**
-The following example gets the general information about the image including pixel format, image size, resolution, compression etc.
+**Example: The following example gets the general information about the image including pixel format, image size, resolution, compression etc.**
+
 ``` java
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("c:\\temp\\sample.bmp");
 try {
@@ -830,8 +830,8 @@ Note by default this value is always 96 since different platforms cannot return 
 **Returns:**
 double
 
-**Example:**
-The following example shows how to set horizontal/vertical resolution of a BMP image.
+**Example: The following example shows how to set horizontal/vertical resolution of a BMP image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -897,8 +897,8 @@ Note by default this value is always 96 since different platforms cannot return 
 **Returns:**
 double
 
-**Example:**
-The following example shows how to set horizontal/vertical resolution of a BMP image.
+**Example: The following example shows how to set horizontal/vertical resolution of a BMP image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -964,8 +964,8 @@ Sets the resolution for this `RasterImage`.
 | dpiY | double | The vertical resolution, in dots per inch, of the `RasterImage`. |
 
 
-**Example:**
-The following example shows how to set horizontal/vertical resolution of a BMP image.
+**Example: The following example shows how to set horizontal/vertical resolution of a BMP image.**
+
 ``` java
 String dir = "c:\\temp\\";
 

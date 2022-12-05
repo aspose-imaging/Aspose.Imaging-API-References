@@ -25,7 +25,7 @@ Represents a rectangular shape.
 | --- | --- |
 | [getSegments()](#getSegments--) | Gets the shape segments. |
 
-## Example
+## Example: This example creates a new Image and draws a variety of shapes using Figures and GraphicsPath o...
 This example creates a new Image and draws a variety of shapes using Figures and GraphicsPath on the Image surface
 ``` java
 //Creates an instance of BmpOptions and set its various properties

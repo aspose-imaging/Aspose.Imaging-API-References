@@ -44,7 +44,7 @@ The PSD file format create options.
 | [getVectorizationOptions()](#getVectorizationOptions--) | Gets the PSD vectorization options. |
 | [setVectorizationOptions(PsdVectorizationOptions value)](#setVectorizationOptions-com.aspose.imaging.imageoptions.PsdVectorizationOptions-) | Sets the PSD vectorization options. |
 
-## Example
+## Example: This example demonstrates the use of Aspose.
 This example demonstrates the use of Aspose.Imaging for Java API to convert Images to PSD format. To achieve this goal this example loads an existing image and then saves it back to PSD format.
 ``` java
 
@@ -70,8 +70,8 @@ try {
 ```
 
 
-## Example
-The following example shows how to convert a multipage vector image to PSD format in general way without referencing to a particular image type.
+## Example: The following example shows how to convert a multipage vector image to PSD format in general way without referencing to a particular image type.
+
 ``` java
 String dir = "C:\\aspose.imaging\\net\\misc\\ImagingReleaseQATester\\Tests\\testdata\\2548\\";
 String inputFilePath = dir + "Multipage.cdr";
@@ -174,8 +174,8 @@ Value: The PSD file version.
 | value | int |  |
 
 
-**Example:**
-This example shows how to save a PNG image to PSD format using various PSD-specific options.
+**Example: This example shows how to save a PNG image to PSD format using various PSD-specific options.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -267,7 +267,7 @@ Value: The compression method.
 | value | short |  |
 
 
-**Example:**
+**Example: This example demonstrates the use of Aspose.**
 This example demonstrates the use of Aspose.Imaging for Java API to convert Images to PSD format. To achieve this goal this example loads an existing image and then saves it back to PSD format.
 ``` java
 
@@ -347,7 +347,7 @@ Value: The color mode.
 | value | short |  |
 
 
-**Example:**
+**Example: This example demonstrates the use of Aspose.**
 This example demonstrates the use of Aspose.Imaging for Java API to convert Images to PSD format. To achieve this goal this example loads an existing image and then saves it back to PSD format.
 ``` java
 
@@ -400,8 +400,8 @@ Value: The bits count per color channel.
 | value | short |  |
 
 
-**Example:**
-This example shows how to save a PNG image to PSD format using various PSD-specific options.
+**Example: This example shows how to save a PNG image to PSD format using various PSD-specific options.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -489,8 +489,8 @@ Sets the color channels count.
 | value | short | The color channels count. |
 
 
-**Example:**
-This example shows how to save a PNG image to PSD format using various PSD-specific options.
+**Example: This example shows how to save a PNG image to PSD format using various PSD-specific options.**
+
 ``` java
 String dir = "c:\\temp\\";
 

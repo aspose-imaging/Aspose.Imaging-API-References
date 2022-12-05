@@ -54,8 +54,8 @@ Gets or sets the render mode.
 | value | int | The render mode. |
 
 
-**Example:**
-This example shows how to load a EMF image from a file and convert it to SVG using EmfRasterizationOptions.
+**Example: This example shows how to load a EMF image from a file and convert it to SVG using EmfRasterizationOptions.**
+
 ``` java
 String dir = "c:\\temp\\";
 

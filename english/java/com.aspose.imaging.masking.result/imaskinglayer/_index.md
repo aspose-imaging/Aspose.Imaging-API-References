@@ -18,7 +18,7 @@ Masking layer
 | [getImage()](#getImage--) | Provides result image. |
 | [getMask()](#getMask--) | Gets the image mask. |
 
-## Example
+## Example: This example shows how to decompose a raster image into multiple images using image masking and the K-means segmentation algorithm.
 This example shows how to decompose a raster image into multiple images using image masking and the K-means segmentation algorithm. Image masking is an image processing technique that is used to split the background from the foreground image objects.
 ``` java
 String dir = "c:\\temp\\";
@@ -82,7 +82,7 @@ try {
 ```
 
 
-## Example
+## Example: This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method.
 This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method. Image masking is an image processing technique that is used to split the background from the foreground image objects.
 ``` java
 String dir = "c:\\temp\\";
@@ -152,8 +152,8 @@ try {
 ```
 
 
-## Example
-Using a segment mask to speed up the segmentation process
+## Example: Using a segment mask to speed up the segmentation process
+
 ``` java
 // Masking export options
 com.aspose.imaging.imageoptions.PngOptions exportOptions = new com.aspose.imaging.imageoptions.PngOptions();
@@ -223,8 +223,8 @@ finally
 ```
 
 
-## Example
-Saving the masking session to a file for long sessions, as well as for the possibility of resuming the session in another environment.
+## Example: Saving the masking session to a file for long sessions, as well as for the possibility of resuming the session in another environment.
+
 ``` java
 String dir = "c:\\temp\\";
 String sessionBackupFile = dir + "session.bak";
@@ -350,7 +350,7 @@ Gets the object number.
 **Returns:**
 int
 
-**Example:**
+**Example: This example shows how to decompose a raster image into multiple images using image masking and the K-means segmentation algorithm.**
 This example shows how to decompose a raster image into multiple images using image masking and the K-means segmentation algorithm. Image masking is an image processing technique that is used to split the background from the foreground image objects.
 ``` java
 String dir = "c:\\temp\\";
@@ -414,7 +414,7 @@ try {
 ```
 
 
-**Example:**
+**Example: This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method.**
 This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method. Image masking is an image processing technique that is used to split the background from the foreground image objects.
 ``` java
 String dir = "c:\\temp\\";
@@ -494,7 +494,7 @@ Provides result image.
 **Returns:**
 [RasterImage](../../com.aspose.imaging/rasterimage) - Result image.
 
-**Example:**
+**Example: This example shows how to decompose a raster image into multiple images using image masking and the K-means segmentation algorithm.**
 This example shows how to decompose a raster image into multiple images using image masking and the K-means segmentation algorithm. Image masking is an image processing technique that is used to split the background from the foreground image objects.
 ``` java
 String dir = "c:\\temp\\";
@@ -558,7 +558,7 @@ try {
 ```
 
 
-**Example:**
+**Example: This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method.**
 This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method. Image masking is an image processing technique that is used to split the background from the foreground image objects.
 ``` java
 String dir = "c:\\temp\\";
@@ -628,8 +628,8 @@ try {
 ```
 
 
-**Example:**
-Saving the masking session to a file for long sessions, as well as for the possibility of resuming the session in another environment.
+**Example: Saving the masking session to a file for long sessions, as well as for the possibility of resuming the session in another environment.**
+
 ``` java
 String dir = "c:\\temp\\";
 String sessionBackupFile = dir + "session.bak";
@@ -755,8 +755,8 @@ Gets the image mask.
 **Returns:**
 [RasterImage](../../com.aspose.imaging/rasterimage) - Result image mask.
 
-**Example:**
-Using a segment mask to speed up the segmentation process
+**Example: Using a segment mask to speed up the segmentation process**
+
 ``` java
 // Masking export options
 com.aspose.imaging.imageoptions.PngOptions exportOptions = new com.aspose.imaging.imageoptions.PngOptions();

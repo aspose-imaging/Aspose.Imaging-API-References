@@ -58,8 +58,8 @@ Gets or sets the scale x.
 | value | float | The scale x. |
 
 
-**Example:**
-This example shows how to load an SVG image from a file and rasterize it to PNG using various options.
+**Example: This example shows how to load an SVG image from a file and rasterize it to PNG using various options.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -119,8 +119,8 @@ Gets or sets the scale y.
 | value | float | The scale y. |
 
 
-**Example:**
-This example shows how to load an SVG image from a file and rasterize it to PNG using various options.
+**Example: This example shows how to load an SVG image from a file and rasterize it to PNG using various options.**
+
 ``` java
 String dir = "c:\\temp\\";
 

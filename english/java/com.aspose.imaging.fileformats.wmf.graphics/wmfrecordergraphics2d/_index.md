@@ -27,8 +27,8 @@ The Wmf recorder.
 | [endRecording()](#endRecording--) | Ends the recording. |
 | [fromWmfImage(WmfImage wmfImage)](#fromWmfImage-com.aspose.imaging.fileformats.wmf.WmfImage-) | Gets an instance of the Wmf recorder for the existing Wmf image. |
 
-## Example
-This example shows how to create a WMF image and draw some geometric shapes using WmfRecorderGraphics2D.
+## Example: This example shows how to create a WMF image and draw some geometric shapes using WmfRecorderGraphics2D.
+
 ``` java
 String dir = "c:\\temp\\";
 

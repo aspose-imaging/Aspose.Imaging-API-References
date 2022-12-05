@@ -47,8 +47,8 @@ Base class for EPS format
 | [getPreviewImages()](#getPreviewImages--) | Gets the preview images. |
 | [saveData(System.IO.Stream stream)](#saveData-com.aspose.ms.System.IO.Stream-) | Saves the data. |
 
-## Example
-Convert EPS image to PNG using PostScript rendering.
+## Example: Convert EPS image to PNG using PostScript rendering.
+
 ``` java
 try (EpsImage image = (EpsImage)Image.load("Sample.eps"))
 {
@@ -64,8 +64,8 @@ try (EpsImage image = (EpsImage)Image.load("Sample.eps"))
 ```
 
 
-## Example
-Convert EPS image to PDF using PostScript rendering.
+## Example: Convert EPS image to PDF using PostScript rendering.
+
 ``` java
 try (EpsImage image = (EpsImage)Image.load("Sample.eps"))
 {
@@ -79,8 +79,8 @@ try (EpsImage image = (EpsImage)Image.load("Sample.eps"))
 ```
 
 
-## Example
-Resize EPS image and export it to PNG format.
+## Example: Resize EPS image and export it to PNG format.
+
 ``` java
 // Load EPS image
 try (Image image = Image.load("AstrixObelix.eps"))
@@ -94,8 +94,8 @@ try (Image image = Image.load("AstrixObelix.eps"))
 ```
 
 
-## Example
-Resize EPS image using advanced settings.
+## Example: Resize EPS image using advanced settings.
+
 ``` java
 // Load EPS image
 try (Image image = Image.load("AstrixObelix.eps"))
@@ -365,8 +365,8 @@ Resizes the image.
 | resizeType | int | The resize type. |
 
 
-**Example:**
-Resize EPS image and export it to PNG format.
+**Example: Resize EPS image and export it to PNG format.**
+
 ``` java
 // Load EPS image
 try (Image image = Image.load("AstrixObelix.eps"))
@@ -395,8 +395,8 @@ Resizes the image.
 | settings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | The resize settings. |
 
 
-**Example:**
-Resize EPS image using advanced settings.
+**Example: Resize EPS image using advanced settings.**
+
 ``` java
 // Load EPS image
 try (Image image = Image.load("AstrixObelix.eps"))

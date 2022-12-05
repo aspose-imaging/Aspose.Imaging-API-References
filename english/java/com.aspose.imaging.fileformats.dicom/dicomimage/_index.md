@@ -68,8 +68,8 @@ It is class of the implementation working with image from DICOM file
 | [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image. |
 | [cacheData()](#cacheData--) | Caches the data private. |
 
-## Example
-This example demonstrates the loading and exporting of dicom file.
+## Example: This example demonstrates the loading and exporting of dicom file.
+
 ``` java
 
 String dir = "c:\\temp\\";
@@ -85,8 +85,8 @@ try {
 ```
 
 
-## Example
-Create a multi-page Dicom image.
+## Example: Create a multi-page Dicom image.
+
 ``` java
         
 try (DicomOptions dicomOptions = new DicomOptions())
@@ -129,8 +129,8 @@ try (DicomOptions dicomOptions = new DicomOptions())
 ```
 
 
-## Example
-Use JPEG compression in DICOM image.
+## Example: Use JPEG compression in DICOM image.
+
 ``` java
 try (Image inputImage = Image.load("original.jpg"))
 {
@@ -152,8 +152,8 @@ try (Image inputImage = Image.load("original.jpg"))
 ```
 
 
-## Example
-Use JPEG 2000 compression in DICOM image.
+## Example: Use JPEG 2000 compression in DICOM image.
+
 ``` java
 try (Image inputImage = Image.load("original.jpg"))
 {
@@ -174,8 +174,8 @@ try (Image inputImage = Image.load("original.jpg"))
 ```
 
 
-## Example
-Use RLE compression in DICOM image.
+## Example: Use RLE compression in DICOM image.
+
 ``` java
 try (Image inputImage = Image.load("original.jpg"))
 {
@@ -191,8 +191,8 @@ try (Image inputImage = Image.load("original.jpg"))
 ```
 
 
-## Example
-Change Color Type in DICOM compression.
+## Example: Change Color Type in DICOM compression.
+
 ``` java
 try (Image inputImage = Image.load("original.jpg"))
 {
@@ -478,8 +478,8 @@ Inserts a new page into the page list at the specified index.
 **Returns:**
 [DicomPage](../../com.aspose.imaging.fileformats.dicom/dicompage) - The newly created [DicomPage](../../com.aspose.imaging.fileformats.dicom/dicompage).
 
-**Example:**
-Create a multi-page Dicom image.
+**Example: Create a multi-page Dicom image.**
+
 ``` java
         
 try (DicomOptions dicomOptions = new DicomOptions())
@@ -550,8 +550,8 @@ public void rotate(float angle, boolean resizeProportionally, Color backgroundCo
 | backgroundColor | [Color](../../com.aspose.imaging/color) | Color of the background. |
 
 
-**Example:**
-This example shows how to rotate all pages of a DICOM image and save them all to a multi-frame TIFF image.
+**Example: This example shows how to rotate all pages of a DICOM image and save them all to a multi-frame TIFF image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -614,8 +614,8 @@ Resizes the image.
 | resizeType | int | The resize type. |
 
 
-**Example:**
-This example loads a DICOM image and resizes it using various resizing methods.
+**Example: This example loads a DICOM image and resizes it using various resizing methods.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -679,7 +679,7 @@ Resizes the width proportionally.
 | resizeType | int | Type of the resize. |
 
 
-**Example:**
+**Example: This example loads a DICOM image and resizes it proportionally using various resizing methods.**
 This example loads a DICOM image and resizes it proportionally using various resizing methods. Only the width is specified, the height is calculated automatically.
 ``` java
 String dir = "c:\\temp\\";
@@ -744,7 +744,7 @@ Resizes the width proportionally.
 | resizeType | int | Type of the resize. |
 
 
-**Example:**
+**Example: This example loads a DICOM image and resizes it proportionally using various resizing methods.**
 This example loads a DICOM image and resizes it proportionally using various resizing methods. Only the height is specified, the width is calculated automatically.
 ``` java
 String dir = "c:\\temp\\";
@@ -808,8 +808,8 @@ Rotates, flips, or rotates and flips the Active frame only.
 | rotateFlipType | int | The rotating flip type. |
 
 
-**Example:**
-This example loads a DICOM image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically.
+**Example: This example loads a DICOM image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -849,8 +849,8 @@ Performs dithering on the current image.
 | customPalette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | The custom palette for dithering. |
 
 
-**Example:**
-The following example loads a DICOM image and performs threshold and floyd dithering using different palette depth.
+**Example: The following example loads a DICOM image and performs threshold and floyd dithering using different palette depth.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -895,7 +895,7 @@ Cropping the image.
 | rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | The rectangle. |
 
 
-**Example:**
+**Example: The following example crops a DICOM image.**
 The following example crops a DICOM image. The cropping area is be specified via Aspose.Imaging.Rectangle.
 ``` java
 String dir = "c:\\temp\\";
@@ -934,7 +934,7 @@ Crop image with shifts.
 | bottomShift | int | The bottom shift. |
 
 
-**Example:**
+**Example: The following example crops a DICOM image.**
 The following example crops a DICOM image. The cropping area is specified via Left, Top, Right, Bottom margins.
 ``` java
 String dir = "c:\\temp\\";
@@ -969,7 +969,7 @@ Binarization of an image with predefined threshold
 | threshold | byte | Threshold value. If corresponding gray value of a pixel is greater than threshold, a value of 255 will be assigned to it, 0 otherwise. |
 
 
-**Example:**
+**Example: The following example binarizes a DICOM image with the predefined threshold.**
 The following example binarizes a DICOM image with the predefined threshold. Binarized images contain only 2 colors - black and white.
 ``` java
 String dir = "c:\\temp\\";
@@ -996,7 +996,7 @@ public void binarizeOtsu()
 Binarization of an image with Otsu thresholding
 
 
-**Example:**
+**Example: The following example binarizes a DICOM image with Otsu thresholding.**
 The following example binarizes a DICOM image with Otsu thresholding. Binarized images contain only 2 colors - black and white.
 ``` java
 String dir = "c:\\temp\\";
@@ -1028,7 +1028,7 @@ Binarization of an image using Bradley's adaptive thresholding algorithm using t
 | windowSize | int | The size of s x s window of pixels centered around this pixel |
 
 
-**Example:**
+**Example: The following example binarizes a DICOM image with Bradley's adaptive thresholding algorithm with the specified window size.**
 The following example binarizes a DICOM image with Bradley's adaptive thresholding algorithm with the specified window size. Binarized images contain only 2 colors - black and white.
 ``` java
 String dir = "c:\\temp\\";
@@ -1054,7 +1054,7 @@ public void grayscale()
 Transformation of an image to its grayscale representation
 
 
-**Example:**
+**Example: The following example transforms a colored DICOM image to its grayscale representation.**
 The following example transforms a colored DICOM image to its grayscale representation. Grayscale images are composed exclusively of shades of gray and carry only intensity information.
 ``` java
 String dir = "c:\\temp\\";
@@ -1084,8 +1084,8 @@ Gamma-correction of an image.
 | gamma | float | Gamma for red, green and blue channels coefficient |
 
 
-**Example:**
-The following example performs gamma-correction of a DICOM image.
+**Example: The following example performs gamma-correction of a DICOM image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1117,8 +1117,8 @@ Gamma-correction of an image.
 | gammaBlue | float | Gamma for blue channel coefficient |
 
 
-**Example:**
-The following example performs gamma-correction of a DICOM image applying different coefficients for color components.
+**Example: The following example performs gamma-correction of a DICOM image applying different coefficients for color components.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1148,8 +1148,8 @@ Adjust of a `brightness` for image.
 | brightness | int | Brightness value. |
 
 
-**Example:**
-The following example performs brightness correction of a DICOM image.
+**Example: The following example performs brightness correction of a DICOM image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1179,8 +1179,8 @@ public void adjustContrast(float contrast)
 | contrast | float | Contrast value (in range [-100; 100]) |
 
 
-**Example:**
-The following example performs contrast correction of a DICOM image.
+**Example: The following example performs contrast correction of a DICOM image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1211,8 +1211,8 @@ Filters the specified rectangle.
 | options | [FilterOptionsBase](../../com.aspose.imaging.imagefilters.filteroptions/filteroptionsbase) | The options. |
 
 
-**Example:**
-The following example applies various types of filters to a DICOM image.
+**Example: The following example applies various types of filters to a DICOM image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1299,8 +1299,8 @@ Resizes the image.
 | settings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | The resize settings. |
 
 
-**Example:**
-This example loads a DICOM image and resizes it using various resizing settings.
+**Example: This example loads a DICOM image and resizes it using various resizing settings.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1342,8 +1342,8 @@ public void cacheData()
 Caches the data private.
 
 
-**Example:**
-The following example shows how to cache all pages of a DICOM image.
+**Example: The following example shows how to cache all pages of a DICOM image.**
+
 ``` java
 String dir = "c:\\temp\\";
 

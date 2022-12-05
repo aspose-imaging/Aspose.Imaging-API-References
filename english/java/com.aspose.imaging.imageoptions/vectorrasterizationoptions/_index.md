@@ -89,8 +89,8 @@ Sets the smoothing mode.
 | value | int | the smoothing mode. |
 
 
-**Example:**
-This example shows how to load an SVG image from a file and rasterize it to PNG using various options.
+**Example: This example shows how to load an SVG image from a file and rasterize it to PNG using various options.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -242,8 +242,8 @@ Sets the page size.
 | value | [SizeF](../../com.aspose.imaging/sizef) | the page size. |
 
 
-**Example:**
-This example shows how to load a EMF image from a file and convert it to SVG using EmfRasterizationOptions.
+**Example: This example shows how to load a EMF image from a file and convert it to SVG using EmfRasterizationOptions.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -327,8 +327,8 @@ Sets a background color.
 | value | [Color](../../com.aspose.imaging/color) | a background color. |
 
 
-**Example:**
-This example shows how to load a EMF image from a file and convert it to SVG using EmfRasterizationOptions.
+**Example: This example shows how to load a EMF image from a file and convert it to SVG using EmfRasterizationOptions.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -416,8 +416,8 @@ Value: The text rendering hint.
 | value | int | the text rendering hint. |
 
 
-**Example:**
-This example shows how to load an SVG image from a file and rasterize it to PNG using various options.
+**Example: This example shows how to load an SVG image from a file and rasterize it to PNG using various options.**
+
 ``` java
 String dir = "c:\\temp\\";
 

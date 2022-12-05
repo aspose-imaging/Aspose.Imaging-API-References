@@ -106,8 +106,8 @@ Sets the color palette.
 | value | [IColorPalette](../../com.aspose.imaging/icolorpalette) | The color palette. |
 
 
-**Example:**
-The following example shows how to palletize a BMP image to reduce its output size.
+**Example: The following example shows how to palletize a BMP image to reduce its output size.**
+
 ``` java
 
 // Create a BMP image 100 x 100 px.
@@ -182,8 +182,8 @@ Sets the resolution settings.
 | value | [ResolutionSetting](../../com.aspose.imaging/resolutionsetting) |  |
 
 
-**Example:**
-The following example loads a BMP image and saves it to JPEG using various save options.
+**Example: The following example loads a BMP image and saves it to JPEG using various save options.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -349,8 +349,8 @@ Value: The progress event handler.
 | value | [ProgressEventHandler](../../com.aspose.imaging/progresseventhandler) | the progress event handler. |
 
 
-**Example:**
-The following example shows how to print information about progress events for load/export operations.
+**Example: The following example shows how to print information about progress events for load/export operations.**
+
 ``` java
 String dir = "c:\\aspose.imaging\\java\\issues\\1440\\";
 String fileName = dir + "big.png";

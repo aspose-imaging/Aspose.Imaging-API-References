@@ -48,7 +48,7 @@ The gif file format creation options.
 | [hasTransparentColor()](#hasTransparentColor--) | Gets a value indicating whether GIF image has transparent color. |
 | [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | Sets a value indicating whether GIF image has transparent color. |
 
-## Example
+## Example: This example demonstrates the use of different classes from SaveOptions Namespace for export purposes.
 This example demonstrates the use of different classes from SaveOptions Namespace for export purposes. An image of type Gif is loaded into an instance of Image and then exported out to several formats.
 ``` java
 String dir = "c:\\temp\\";
@@ -73,8 +73,8 @@ try {
 ```
 
 
-## Example
-The following example shows how to convert a multipage vector image to GIF format in general way without referencing to a particular image type.
+## Example: The following example shows how to convert a multipage vector image to GIF format in general way without referencing to a particular image type.
+
 ``` java
 String dir = "C:\\aspose.imaging\\net\\misc\\ImagingReleaseQATester\\Tests\\testdata\\2548\\";
 String inputFilePath = dir + "Multipage.cdr";
@@ -177,8 +177,8 @@ Gets or sets a value indicating whether palette correction is applied.
 Palette correction means that whenever image is exported to GIF the source image colors will be analyzed in order to build the best matching palette (in case image Palette does not exist or not specified in the options). The analyze process takes some time however the output image will have the best matching color palette and result is visually better. |
 
 
-**Example:**
-This example shows how to save a BMP image to GIF format using various options.
+**Example: This example shows how to save a BMP image to GIF format using various options.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -293,8 +293,8 @@ Gets or sets the GIF color resolution.
 Color Resolution - Number of bits per primary color available to the original image, minus 1. This value represents the size of the entire palette from which the colors in the graphic were selected, not the number of colors actually used in the graphic. For example, if the value in this field is 3, then the palette of the original image had 4 bits per primary color available to create the image. This value should be set to indicate the richness of the original palette, even if not every color from the whole palette is available on the source machine. |
 
 
-**Example:**
-This example shows how to save a BMP image to GIF format using various options.
+**Example: This example shows how to save a BMP image to GIF format using various options.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -474,8 +474,8 @@ True if image should be interlaced.
 | value | boolean |  |
 
 
-**Example:**
-This example shows how to save a BMP image to GIF format using various options.
+**Example: This example shows how to save a BMP image to GIF format using various options.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -559,8 +559,8 @@ Gets or sets the maximum allowed pixel difference. If greater than zero, lossy c
 | value | int | The range of allowed values. |
 
 
-**Example:**
-This example shows how to save a BMP image to GIF format using various options.
+**Example: This example shows how to save a BMP image to GIF format using various options.**
+
 ``` java
 String dir = "c:\\temp\\";
 

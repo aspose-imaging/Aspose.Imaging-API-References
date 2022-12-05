@@ -26,8 +26,8 @@ Specifies different bitmap compression methods.
 | [AlphaBitfields](#AlphaBitfields) | RGBA bit fields. |
 | [Dxt1](#Dxt1) | DXT1 compression. |
 
-## Example
-The example shows how to export a BmpImage from a Png file while keeping the alpha channel, save a Bmp file with transparency.
+## Example: The example shows how to export a BmpImage from a Png file while keeping the alpha channel, save a Bmp file with transparency.
+
 ``` java
 String sourcePath = "input.png";
 String outputPathPng = "output.png";
@@ -49,8 +49,8 @@ try (Image pngImage = Image.load(sourcePath))
 ```
 
 
-## Example
-The example shows how to export a BmpImage with the Rgb compression type.
+## Example: The example shows how to export a BmpImage with the Rgb compression type.
+
 ``` java
 String sourcePath = "input.png";
 String outputPath = "output.bmp";

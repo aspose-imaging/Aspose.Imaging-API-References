@@ -112,8 +112,8 @@ Gets a value indicating whether this instance has alpha.
 **Returns:**
 boolean - `true` if this instance has alpha; otherwise, `false`.
 
-**Example:**
-The following example loads a WEBP image and prints information about raw data format and alpha channel.
+**Example: The following example loads a WEBP image and prints information about raw data format and alpha channel.**
+
 ``` java
 String dir = "c:\\temp\\";
 String fileName = dir + "sample.webp";

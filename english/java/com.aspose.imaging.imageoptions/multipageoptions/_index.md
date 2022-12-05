@@ -220,8 +220,8 @@ Value: The pages.
 | value | int[] |  |
 
 
-**Example:**
-This example shows how to convert a multi-page DJVU image to a multi-frame TIFF image.
+**Example: This example shows how to convert a multi-page DJVU image to a multi-frame TIFF image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -283,8 +283,8 @@ Value: The page titles.
 | value | java.lang.String[] |  |
 
 
-**Example:**
-This example shows how to convert a multi-page DJVU image to a multi-frame TIFF image.
+**Example: This example shows how to convert a multi-page DJVU image to a multi-frame TIFF image.**
+
 ``` java
 String dir = "c:\\temp\\";
 

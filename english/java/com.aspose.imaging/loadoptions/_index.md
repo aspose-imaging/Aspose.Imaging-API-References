@@ -157,7 +157,7 @@ Value: The buffer size hint, in megabytes. Non-positive value means no memory li
 | value | int | the buffer size hint which is defined max allowed size for all internal buffers. |
 
 
-**Example:**
+**Example: The following example shows how to set a memory limit when loading a JPEG image.**
 The following example shows how to set a memory limit when loading a JPEG image. The memory limit is the maximum allowed size (in megabytes) for all internal buffers.
 ``` java
 String workDir = "c:\\temp\\";
@@ -218,8 +218,8 @@ Sets the progress event handler.
 | value | [ProgressEventHandler](../../com.aspose.imaging/progresseventhandler) | the progress event handler. |
 
 
-**Example:**
-The following example shows how to print information about progress events for load/export operations.
+**Example: The following example shows how to print information about progress events for load/export operations.**
+
 ``` java
 String dir = "c:\\aspose.imaging\\java\\issues\\1440\\";
 String fileName = dir + "big.png";

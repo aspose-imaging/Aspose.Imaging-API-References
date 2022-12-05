@@ -31,8 +31,8 @@ Webp image options
 | [getAnimBackgroundColor()](#getAnimBackgroundColor--) | Gets or sets the color of the animation background. |
 | [setAnimBackgroundColor(long value)](#setAnimBackgroundColor-long-) | Gets or sets the color of the animation background. |
 
-## Example
-The following example shows how to convert a multipage vector image to WEBP format in general way without referencing to a particular image type.
+## Example: The following example shows how to convert a multipage vector image to WEBP format in general way without referencing to a particular image type.
+
 ``` java
 String dir = "C:\\aspose.imaging\\net\\misc\\ImagingReleaseQATester\\Tests\\testdata\\2548\\";
 String inputFilePath = dir + "Multipage.cdr";

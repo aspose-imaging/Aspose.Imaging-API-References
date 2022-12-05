@@ -29,7 +29,7 @@ Represents Photoshop Path Resource.
 | [getRecords()](#getRecords--) | Gets the records. |
 | [setRecords(List<VectorPathRecord> value)](#setRecords-java.util.List-com.aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord--) | Sets the records. |
 
-## Example
+## Example: The following example shows how to create Clipping Path in TIFF image.
 The following example shows how to create Clipping Path in TIFF image. In order to do that you need to create an instance of PathResource class. The following code demonstrates the way how you can create an empty path in TIFF image.
 ``` java
 TiffOptions options = new TiffOptions(TiffExpectedFormat.Default);
@@ -49,8 +49,8 @@ try (TiffImage image = new TiffImage(frame))
 ```
 
 
-## Example
-Transfer Clipping Paths during export from TIFF to PSD image.
+## Example: Transfer Clipping Paths during export from TIFF to PSD image.
+
 ``` java
 try (Image image = Image.load("Sample.tif"))
 {
@@ -59,8 +59,8 @@ try (Image image = Image.load("Sample.tif"))
 ```
 
 
-## Example
-Create Clipping Path manually.
+## Example: Create Clipping Path manually.
+
 ``` java
 static void main()
 {
@@ -108,8 +108,8 @@ private static List<VectorPathRecord> createBezierRecords(float[] coordinates)
 ```
 
 
-## Example
-Create Graphics Path from Path Resources in TIFF image.
+## Example: Create Graphics Path from Path Resources in TIFF image.
+
 ``` java
 try (TiffImage image = (TiffImage)Image.load("Bottle.tif"))
 {
@@ -126,8 +126,8 @@ try (TiffImage image = (TiffImage)Image.load("Bottle.tif"))
 ```
 
 
-## Example
-Create Path Resources using Graphics Path.
+## Example: Create Path Resources using Graphics Path.
+
 ``` java
 static void main()
 {

@@ -1,7 +1,7 @@
 ---
 title: com.aspose.imaging.fileformats.emf.emf.records
 second_title: Aspose.Imaging for Java API Reference
-description: The package contains types MS-EMF Enhanced Metafile Format. 2.3 EMF Records
+description: The package contains types MS-EMF Enhanced Metafile Format.
 type: docs
 weight: 49
 url: /java/com.aspose.imaging.fileformats.emf.emf.records/

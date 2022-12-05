@@ -30,7 +30,7 @@ The Html5 Canvas file format creation options.
 | [getEncoding()](#getEncoding--) | Gets the encoding. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Sets the encoding. |
 
-## Example
+## Example: Any vector image (SVG, WMF, CMX, etc.
 Any vector image (SVG, WMF, CMX, etc.) can be used as a source for your Canvas images. The following code creates a simple Canvas image.
 ``` java
 try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load("Sample.svg"))
@@ -43,7 +43,7 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load("Sample.svg"
 ```
 
 
-## Example
+## Example: You can embed more than one Canvas image within HTML page or update already existing page.
 You can embed more than one Canvas image within HTML page or update already existing page. In order to do that you need to export only the Canvas tag.
 ``` java
 try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load("Sample.svg"))
@@ -124,7 +124,7 @@ Sets a value indicating whether the full HTML page should be generated.
 | value | boolean | a value indicating whether the full HTML page should be generated. |
 
 
-**Example:**
+**Example: You can embed more than one Canvas image within HTML page or update already existing page.**
 You can embed more than one Canvas image within HTML page or update already existing page. In order to do that you need to export only the Canvas tag.
 ``` java
 try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load("Sample.svg"))

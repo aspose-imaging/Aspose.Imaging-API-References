@@ -35,7 +35,7 @@ Represents a raster image supporting raster graphics operations. This image cach
 | [adjustGamma(float gammaRed, float gammaGreen, float gammaBlue)](#adjustGamma-float-float-float-) | Gamma-correction of an image. |
 | [adjustGamma(float gamma)](#adjustGamma-float-) | Gamma-correction of an image. |
 
-## Example
+## Example: The following example transforms a colored raster cached image to its grayscale representation.
 The following example transforms a colored raster cached image to its grayscale representation. Grayscale images are composed exclusively of shades of gray and carry only intensity information.
 ``` java
 String dir = "c:\\temp\\";
@@ -70,7 +70,7 @@ public void cacheData()
 Caches the data and ensures no additional data loading will be performed from the underlying `DataStreamSupporter.DataStreamContainer`.
 
 
-**Example:**
+**Example: The following example shows how raster image caching affects performance.**
 The following example shows how raster image caching affects performance. In general case, reading cached data is performed faster than reading non-cached data.
 ``` java
 String dir = "c:\\temp\\";
@@ -145,8 +145,8 @@ Resizes the image.
 | resizeType | int | The resize type. |
 
 
-**Example:**
-This example loads a raster cached image and resizes it using various resizing methods.
+**Example: This example loads a raster cached image and resizes it using various resizing methods.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -211,8 +211,8 @@ Resizes the image.
 | settings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | The resize settings. |
 
 
-**Example:**
-This example loads a raster cached image and resizes it using various resizing settings.
+**Example: This example loads a raster cached image and resizes it using various resizing settings.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -257,8 +257,8 @@ Rotates, flips, or rotates and flips the image.
 | rotateFlipType | int | The rotating flip type. |
 
 
-**Example:**
-This example loads a raster cached image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically.
+**Example: This example loads a raster cached image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -356,7 +356,7 @@ Cropping the image.
 | rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | The rectangle. |
 
 
-**Example:**
+**Example: The following example crops a raster cached image.**
 The following example crops a raster cached image. The cropping area is be specified via com.aspose.imaging.Rectangle.
 ``` java
 String dir = "c:\\temp\\";
@@ -402,7 +402,7 @@ public void grayscale()
 Transformation of an image to its grayscale representation
 
 
-**Example:**
+**Example: The following example transforms a colored raster cached image to its grayscale representation.**
 The following example transforms a colored raster cached image to its grayscale representation. Grayscale images are composed exclusively of shades of gray and carry only intensity information.
 ``` java
 String dir = "c:\\temp\\";
@@ -432,7 +432,7 @@ Binarization of an image with predefined threshold
 | threshold | byte | Threshold value. If corresponding gray value of a pixel is greater than threshold, a value of 255 will be assigned to it, 0 otherwise. |
 
 
-**Example:**
+**Example: The following example binarizes a raster cached image with the predefined threshold.**
 The following example binarizes a raster cached image with the predefined threshold. Binarized images contain only 2 colors - black and white.
 ``` java
 String dir = "c:\\temp\\";
@@ -459,7 +459,7 @@ public void binarizeOtsu()
 Binarization of an image with Otsu thresholding
 
 
-**Example:**
+**Example: The following example binarizes a raster cached image with Otsu thresholding.**
 The following example binarizes a raster cached image with Otsu thresholding. Binarized images contain only 2 colors - black and white.
 ``` java
 String dir = "c:\\temp\\";
@@ -491,7 +491,7 @@ Binarization of an image using Bradley's adaptive thresholding algorithm using t
 | windowSize | int | The size of s x s window of pixels centered around this pixel |
 
 
-**Example:**
+**Example: The following example binarizes a raster cached image with Bradley's adaptive thresholding algorithm with the specified window size.**
 The following example binarizes a raster cached image with Bradley's adaptive thresholding algorithm with the specified window size. Binarized images contain only 2 colors - black and white.
 ``` java
 String dir = "c:\\temp\\";
@@ -523,7 +523,7 @@ Binarization of an image using Bradley's adaptive thresholding algorithm using t
 | brightnessDifference | double | The brightness difference between pixel and the average of an s x s window of pixels centered around this pixel. |
 
 
-**Example:**
+**Example: The following example binarizes a raster cached image with Bradley's adaptive thresholding algorithm.**
 The following example binarizes a raster cached image with Bradley's adaptive thresholding algorithm. Binarized images contain only 2 colors - black and white.
 ``` java
 String dir = "c:\\temp\\";
@@ -556,8 +556,8 @@ Adjust of a brightness for image.
 | brightness | int | Brightness value. |
 
 
-**Example:**
-The following example performs brightness correction of a raster cached image.
+**Example: The following example performs brightness correction of a raster cached image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -587,8 +587,8 @@ Image contrasting
 | contrast | float | Contrast value (in range [-100; 100]) |
 
 
-**Example:**
-The following example performs contrast correction of a raster cached image.
+**Example: The following example performs contrast correction of a raster cached image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -620,8 +620,8 @@ Gamma-correction of an image.
 | gammaBlue | float | Gamma for blue channel coefficient |
 
 
-**Example:**
-The following example performs gamma-correction of a raster cached image applying different coefficients for color components.
+**Example: The following example performs gamma-correction of a raster cached image applying different coefficients for color components.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -651,8 +651,8 @@ Gamma-correction of an image.
 | gamma | float | Gamma for red, green and blue channels coefficient |
 
 
-**Example:**
-The following example performs gamma-correction of a raster cached image.
+**Example: The following example performs gamma-correction of a raster cached image.**
+
 ``` java
 String dir = "c:\\temp\\";
 

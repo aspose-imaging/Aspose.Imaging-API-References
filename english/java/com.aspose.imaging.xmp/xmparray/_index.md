@@ -1,7 +1,7 @@
 ---
 title: XmpArray
 second_title: Aspose.Imaging for Java API Reference
-description: Represents Xmp Array in XmpPackage. todo Array may contain complex data.
+description: Represents Xmp Array in XmpPackage.
 type: docs
 weight: 12
 url: /java/com.aspose.imaging.xmp/xmparray/

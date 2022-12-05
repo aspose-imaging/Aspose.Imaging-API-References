@@ -56,7 +56,7 @@ Gets or sets a value indicating whether [strict mode].
 | value | boolean | a value indicating whether [strict mode]. |
 
 
-**Example:**
+**Example: The following example shows how to read PNG file : a strict mode.**
 The following example shows how to read PNG file : a strict mode. The strict mode allows to find potential problems : PNG images, e.g. unrecognized data blocks, unexpected end of file. Such files still can be opened : default (non-strict) mode by Aspose.Imaging and by common viewers as well. However any attempts to open them : the strict mode cause a corresponding exception.
 ``` java
 String dir = "c:\\aspose.imaging\\java\\issues\\1442\\";

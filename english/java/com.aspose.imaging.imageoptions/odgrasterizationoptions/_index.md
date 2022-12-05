@@ -20,8 +20,8 @@ The Odg rasterization options
 | [OdgRasterizationOptions()](#OdgRasterizationOptions--) |  |
 | [OdgRasterizationOptions(VectorRasterizationOptions imageOptions)](#OdgRasterizationOptions-com.aspose.imaging.imageoptions.VectorRasterizationOptions-) |  |
 
-## Example
-The following example shows how to export a FODG (Flat XML ODF Template) image to PDF format.
+## Example: The following example shows how to export a FODG (Flat XML ODF Template) image to PDF format.
+
 ``` java
 String dir = "c:\\aspose.imaging\\java\\issues\\1509\\";
 

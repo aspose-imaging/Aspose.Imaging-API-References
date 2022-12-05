@@ -29,7 +29,7 @@ The assumed object's data. Includes object's type and area.
 | [getBounds()](#getBounds--) | Gets the object's bounds. |
 | [setBounds(Rectangle value)](#setBounds-com.aspose.imaging.Rectangle-) | Sets the object's bounds. |
 
-## Example
+## Example: Saving image masking result with feathering based on image size.
 Saving image masking result with feathering based on image size. Image masking is performed using auto calculated default strokes. Additionally the data of the two assumed objects is also specified in the AssumedObjects property of the AutoMaskingGraphCutOptions.
 ``` java
 List<AssumedObjectData> assumedObjects = new LinkedList<AssumedObjectData>();
@@ -73,7 +73,7 @@ for (MaskingResult res : results)
 ```
 
 
-## Example
+## Example: Saving image masking result with feathering based on image size and re-using masking options for the new masking iteration.
 Saving image masking result with feathering based on image size and re-using masking options for the new masking iteration. Image masking is performed using auto calculated default strokes. Additionally the data of the two assumed objects is also specified in the AssumedObjects property of the AutoMaskingGraphCutOptions. After getting initial masking result, applied background/foreground strokes are modified and another masking iteration is performed.
 ``` java
 List<AssumedObjectData> assumedObjects = new LinkedList<AssumedObjectData>();
@@ -156,7 +156,7 @@ for (MaskingResult res : results)
 ```
 
 
-## Example
+## Example: Saving image masking result with feathering based on image size, modifying obtained default strokes and using it for the new masking iteration.
 Saving image masking result with feathering based on image size, modifying obtained default strokes and using it for the new masking iteration. Image masking is performed using auto calculated default strokes. Additionally the data of the two assumed objects is also specified in the AssumedObjects property of the AutoMaskingGraphCutOptions. After getting initial masking result, applied background/foreground strokes are modified and another masking iteration is performed using new GraphCutMaskingOptions instance.
 ``` java
 List<AssumedObjectData> assumedObjects = new LinkedList<AssumedObjectData>();

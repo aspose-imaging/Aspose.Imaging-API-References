@@ -32,8 +32,8 @@ The vector image is the base class for all type of vector images.
 | [getHeight()](#getHeight--) | Gets the image height. |
 | [getEmbeddedImages()](#getEmbeddedImages--) | Gets the embedded images. |
 
-## Example
-The following example shows how to export a multipage vector image to another format in general way without referencing to a particular image type.
+## Example: The following example shows how to export a multipage vector image to another format in general way without referencing to a particular image type.
+
 ``` java
 String dir = "C:\\aspose.imaging\\java\\misc\\ImagingReleaseQATester\\Tests\\testdata\\2548\\";
 String inputFilePath = dir + "Multipage.cdr";
@@ -131,8 +131,8 @@ Gets the embedded images.
 **Returns:**
 com.aspose.imaging.EmbeddedImage[] - Array of images
 
-**Example:**
-Support extracting embedded raster images from a vector image
+**Example: Support extracting embedded raster images from a vector image**
+
 ``` java
 String inputFileName = "test.cdr";
 try (Image image = com.aspose.imaging.Image.load(inputFileName))

@@ -44,8 +44,8 @@ The CMX image.
 | [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the image. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Sets the image palette. |
 
-## Example
-The following example shows how to cache all pages of a CMX image.
+## Example: The following example shows how to cache all pages of a CMX image.
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -181,8 +181,8 @@ Gets the pages.
 **Returns:**
 com.aspose.imaging.Image[] - the pages.
 
-**Example:**
-The following example shows how to cache all pages of a CMX image.
+**Example: The following example shows how to cache all pages of a CMX image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -252,8 +252,8 @@ public synchronized void cacheData()
 Caches the data and ensures no additional data loading will be performed from the underlying `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)).
 
 
-**Example:**
-The following example shows how to cache all pages of a CMX image.
+**Example: The following example shows how to cache all pages of a CMX image.**
+
 ``` java
 String dir = "c:\\temp\\";
 

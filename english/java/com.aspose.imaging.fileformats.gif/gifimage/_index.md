@@ -84,8 +84,8 @@ A gif image.
 | [resizeProportional(int newWidth, int newHeight, int resizeType)](#resizeProportional-int-int-int-) | Performs proportional resize on the image. |
 | [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | [RasterCachedMultipageImage.rotate(float, boolean, Color)](../../com.aspose.imaging/rastercachedmultipageimage\#rotate-float--boolean--Color-) image around the center. |
 
-## Example
-This example shows how to create a GIF image and save it to a file.
+## Example: This example shows how to create a GIF image and save it to a file.
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -109,8 +109,8 @@ try {
 ```
 
 
-## Example
-Create multipage GIF image using single page raster images.
+## Example: Create multipage GIF image using single page raster images.
+
 ``` java
 static void main(String[] args)
 {
@@ -154,8 +154,8 @@ private static RasterImage[] loadFrames(String directory)
 ```
 
 
-## Example
-Export of part of animation from GIF image based on time interval.
+## Example: Export of part of animation from GIF image based on time interval.
+
 ``` java
 try (Image image = Image.load("Animation.gif"))
 {
@@ -427,8 +427,8 @@ Adds page to the image.
 | page | [RasterImage](../../com.aspose.imaging/rasterimage) | The page to add. |
 
 
-**Example:**
-Create multipage GIF image using single page raster images.
+**Example: Create multipage GIF image using single page raster images.**
+
 ``` java
 static void main(String[] args)
 {
@@ -484,8 +484,8 @@ Value: The active frame.
 **Returns:**
 [GifFrameBlock](../../com.aspose.imaging.fileformats.gif.blocks/gifframeblock) - the active frame.
 
-**Example:**
-The following example shows how to remove all blocks from a GIF image.
+**Example: The following example shows how to remove all blocks from a GIF image.**
+
 ``` java
 com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock firstBlock = new com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock(100, 100);
 com.aspose.imaging.fileformats.gif.GifImage gifImage = new com.aspose.imaging.fileformats.gif.GifImage(firstBlock);
@@ -709,8 +709,8 @@ Resizes the image.
 | resizeType | int | The resize type. |
 
 
-**Example:**
-This example loads a GIF image and resizes it using various resizing methods.
+**Example: This example loads a GIF image and resizes it using various resizing methods.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -780,8 +780,8 @@ Rotates, flips, or rotates and flips the Active frame only.
 | rotateFlipType | int | The rotation flip type. |
 
 
-**Example:**
-This example loads a GIF image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically.
+**Example: This example loads a GIF image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically.**
+
 ``` java
 
 // The helper class used in the main example below.
@@ -867,8 +867,8 @@ Performs dithering on the current image.
 | customPalette | [IColorPalette](../../com.aspose.imaging/icolorpalette) | The custom palette for dithering. |
 
 
-**Example:**
-The following example loads a GIF image and performs threshold and floyd dithering using different palette depth.
+**Example: The following example loads a GIF image and performs threshold and floyd dithering using different palette depth.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -915,7 +915,7 @@ Cropping the image.
 | rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | The rectangle. |
 
 
-**Example:**
+**Example: The following example crops a GIF image.**
 The following example crops a GIF image. The cropping area is be specified via Aspose.Imaging.Rectangle.
 ``` java
 String dir = "c:\\temp\\";
@@ -953,8 +953,8 @@ Gamma-correction of an image.
 | gamma | float | Gamma for red, green and blue channels coefficient |
 
 
-**Example:**
-The following example performs gamma-correction of a GIF image.
+**Example: The following example performs gamma-correction of a GIF image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -985,8 +985,8 @@ Filters the specified rectangle.
 | options | [FilterOptionsBase](../../com.aspose.imaging.imagefilters.filteroptions/filteroptionsbase) | The options. |
 
 
-**Example:**
-The following example applies various types of filters to a GIF image.
+**Example: The following example applies various types of filters to a GIF image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1073,8 +1073,8 @@ Resizes the image.
 | settings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | The resize settings. |
 
 
-**Example:**
-This example loads a GIF image and resizes it using various resizing settings.
+**Example: This example loads a GIF image and resizes it using various resizing settings.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1136,8 +1136,8 @@ Adjust of a `brightness` for image.
 | brightness | int | Brightness value. |
 
 
-**Example:**
-The following example performs brightness correction of a GIF image.
+**Example: The following example performs brightness correction of a GIF image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1167,8 +1167,8 @@ Adjusts the contrast.
 | contrast | float | Contrast value (in range [-100; 100]) |
 
 
-**Example:**
-The following example performs contrast correction of a GIF image.
+**Example: The following example performs contrast correction of a GIF image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1200,8 +1200,8 @@ Gamma-correction of an image.
 | gammaBlue | float | Gamma for blue channel coefficient |
 
 
-**Example:**
-The following example performs gamma-correction of a GIF image applying different coefficients for color components.
+**Example: The following example performs gamma-correction of a GIF image applying different coefficients for color components.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1226,7 +1226,7 @@ public void grayscale()
 Transformation of an image to its grayscale representation
 
 
-**Example:**
+**Example: The following example transforms a colored GIF image to its grayscale representation.**
 The following example transforms a colored GIF image to its grayscale representation. Grayscale images are composed exclusively of shades of gray and carry only intensity information.
 ``` java
 String dir = "c:\\temp\\";
@@ -1256,7 +1256,7 @@ Binarization of an image with predefined threshold
 | threshold | byte | Threshold value. If corresponding gray value of a pixel is greater than threshold, a value of 255 will be assigned to it, 0 otherwise. |
 
 
-**Example:**
+**Example: The following example binarizes a GIF image with the predefined threshold.**
 The following example binarizes a GIF image with the predefined threshold. Binarized images contain only 2 colors - black and white.
 ``` java
 String dir = "c:\\temp\\";
@@ -1283,7 +1283,7 @@ public void binarizeOtsu()
 Binarization of an image with Otsu thresholding
 
 
-**Example:**
+**Example: The following example binarizes a GIF image with Otsu thresholding.**
 The following example binarizes a GIF image with Otsu thresholding. Binarized images contain only 2 colors - black and white.
 ``` java
 String dir = "c:\\temp\\";
@@ -1330,8 +1330,8 @@ public void clearBlocks()
 Clears all the GIF blocks.
 
 
-**Example:**
-The following example shows how to remove all blocks from a GIF image.
+**Example: The following example shows how to remove all blocks from a GIF image.**
+
 ``` java
 com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock firstBlock = new com.aspose.imaging.fileformats.gif.blocks.GifFrameBlock(100, 100);
 com.aspose.imaging.fileformats.gif.GifImage gifImage = new com.aspose.imaging.fileformats.gif.GifImage(firstBlock);
@@ -1389,8 +1389,8 @@ Adds a new GIF block.
 | block | [IGifBlock](../../com.aspose.imaging.fileformats.gif/igifblock) | The GIF block to add. |
 
 
-**Example:**
-The following example shows how to compose an animated GIF image from individual GIF blocks.
+**Example: The following example shows how to compose an animated GIF image from individual GIF blocks.**
+
 ``` java
 String dir = "c:\\temp\\";
 

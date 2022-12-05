@@ -82,8 +82,8 @@ Gets the header information of the DICOM file.
 **Returns:**
 java.util.List<java.lang.String> - the header information of the DICOM file.
 
-**Example:**
-The following example shows how to read the header information of a DICOM image.
+**Example: The following example shows how to read the header information of a DICOM image.**
+
 ``` java
 String dir = "c:\\aspose.imaging\\java\\issues\\1489\\";
 com.aspose.imaging.fileformats.dicom.DicomImage image = (com.aspose.imaging.fileformats.dicom.DicomImage) com.aspose.imaging.Image.load(dir + "ttfm.dcm");

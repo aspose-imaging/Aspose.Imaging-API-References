@@ -31,8 +31,8 @@ Represents information about interruption.
 | [isInterrupted()](#isInterrupted--) | Gets the value indicating whether operations should be interrupted. |
 | [interrupt()](#interrupt--) | Sends a request to interrupt operations. |
 
-## Example
-The following example shows how to interrupt the long process of image conversion.
+## Example: The following example shows how to interrupt the long process of image conversion.
+
 ``` java
 /**
  * <p>This is helper class which initiates image conversion and waits for its interruption.</p>
@@ -196,8 +196,8 @@ public void interrupt()
 Sends a request to interrupt operations.
 
 
-**Example:**
-The following example shows how to interrupt the long process of image conversion.
+**Example: The following example shows how to interrupt the long process of image conversion.**
+
 ``` java
 /**
  * <p>This is helper class which initiates image conversion and waits for its interruption.</p>

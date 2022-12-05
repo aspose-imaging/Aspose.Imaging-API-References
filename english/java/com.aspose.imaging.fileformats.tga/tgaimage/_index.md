@@ -82,8 +82,8 @@ The TGA image.
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
 | [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | `RasterCachedMultipageImage.rotate` image around the center. |
 
-## Example
-Saving of the JPG image as a TGA image.
+## Example: Saving of the JPG image as a TGA image.
+
 ``` java
 try (Image image = Image.load("test.jpg"))
 {
@@ -92,8 +92,8 @@ try (Image image = Image.load("test.jpg"))
 ```
 
 
-## Example
-Loading of the PNG image, conversion of it to the TgaImage and saving as a TGA image.
+## Example: Loading of the PNG image, conversion of it to the TgaImage and saving as a TGA image.
+
 ``` java
 try (RasterImage image = (RasterImage)Image.load("test.png"))
 {
@@ -105,8 +105,8 @@ try (RasterImage image = (RasterImage)Image.load("test.png"))
 ```
 
 
-## Example
-Getting values of the public properties of the loaded TGA image.
+## Example: Getting values of the public properties of the loaded TGA image.
+
 ``` java
 try (TgaImage image = (TgaImage)Image.load("test.tga"))
 {
@@ -137,8 +137,8 @@ try (TgaImage image = (TgaImage)Image.load("test.tga"))
 ```
 
 
-## Example
-Updating public properties of the loaded TGA image.
+## Example: Updating public properties of the loaded TGA image.
+
 ``` java
 try (TgaImage image = (TgaImage)Image.load("test.tga"))
 {
@@ -187,8 +187,8 @@ Initializes a new instance of the [TgaImage](../../com.aspose.imaging.fileformat
 | rasterImage | [RasterImage](../../com.aspose.imaging/rasterimage) | The raster image. |
 
 
-**Example:**
-Loading of the PNG image, conversion of it to the TgaImage and saving as a TGA image.
+**Example: Loading of the PNG image, conversion of it to the TgaImage and saving as a TGA image.**
+
 ``` java
 try (RasterImage image = (RasterImage)Image.load("test.png"))
 {
@@ -356,8 +356,8 @@ Sets absolute horizontal coordinate for the lower left corner of the image as it
 | value | int | absolute horizontal coordinate for the lower left corner of the image as it is positioned on a display device having an origin at the lower left of the screen. |
 
 
-**Example:**
-Updating public properties of the loaded TGA image.
+**Example: Updating public properties of the loaded TGA image.**
+
 ``` java
 try (TgaImage image = (TgaImage)Image.load("test.tga"))
 {
@@ -403,8 +403,8 @@ Sets absolute vertical coordinate for the lower left corner of the image as it i
 | value | int | absolute vertical coordinate for the lower left corner of the image as it is positioned on a display device having an origin at the lower left of the screen. |
 
 
-**Example:**
-Updating public properties of the loaded TGA image.
+**Example: Updating public properties of the loaded TGA image.**
+
 ``` java
 try (TgaImage image = (TgaImage)Image.load("test.tga"))
 {
@@ -523,8 +523,8 @@ Sets Date/Time Stamp. This field defines the value for the date and time that th
 | value | java.util.Date | Date/Time Stamp. |
 
 
-**Example:**
-Updating public properties of the loaded TGA image.
+**Example: Updating public properties of the loaded TGA image.**
+
 ``` java
 try (TgaImage image = (TgaImage)Image.load("test.tga"))
 {
@@ -593,8 +593,8 @@ Sets Job Time.
 | value | java.util.Date | Job Time. |
 
 
-**Example:**
-Updating public properties of the loaded TGA image.
+**Example: Updating public properties of the loaded TGA image.**
+
 ``` java
 try (TgaImage image = (TgaImage)Image.load("test.tga"))
 {
@@ -644,8 +644,8 @@ The Key Color can be thought of as the \\u2018background color\\u2019 or \\u2018
 | value | [Color](../../com.aspose.imaging/color) | Key Color. |
 
 
-**Example:**
-Updating public properties of the loaded TGA image.
+**Example: Updating public properties of the loaded TGA image.**
+
 ``` java
 try (TgaImage image = (TgaImage)Image.load("test.tga"))
 {
@@ -783,8 +783,8 @@ Sets Software Version letter part.
 | value | char | Software Version letter part. |
 
 
-**Example:**
-Updating public properties of the loaded TGA image.
+**Example: Updating public properties of the loaded TGA image.**
+
 ``` java
 try (TgaImage image = (TgaImage)Image.load("test.tga"))
 {
@@ -830,8 +830,8 @@ Sets Software Version number part.
 | value | int | Software Version number part. |
 
 
-**Example:**
-Updating public properties of the loaded TGA image.
+**Example: Updating public properties of the loaded TGA image.**
+
 ``` java
 try (TgaImage image = (TgaImage)Image.load("test.tga"))
 {

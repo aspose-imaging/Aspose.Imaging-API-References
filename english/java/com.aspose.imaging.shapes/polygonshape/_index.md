@@ -42,7 +42,7 @@ Represents a polygon shape.
 | [getBounds(Matrix matrix, Pen pen)](#getBounds-com.aspose.imaging.Matrix-com.aspose.imaging.Pen-) | Gets the object's bounds. |
 | [transform(Matrix transform)](#transform-com.aspose.imaging.Matrix-) | Applies the specified transformation to the shape. |
 
-## Example
+## Example: This example creates a new Image and draws a variety of shapes using Figures and GraphicsPath o...
 This example creates a new Image and draws a variety of shapes using Figures and GraphicsPath on the Image surface
 ``` java
 //Creates an instance of BmpOptions and set its various properties

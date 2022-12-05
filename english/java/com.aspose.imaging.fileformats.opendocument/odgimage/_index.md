@@ -34,8 +34,8 @@ The Open Document Graphic
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
 | [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the image. |
 
-## Example
-This example loads a multi-page ODG image.
+## Example: This example loads a multi-page ODG image.
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -55,8 +55,8 @@ try {
 ```
 
 
-## Example
-The following example shows how to export a FODG (Flat XML ODF Template) image to PDF format.
+## Example: The following example shows how to export a FODG (Flat XML ODF Template) image to PDF format.
+
 ``` java
 String dir = "c:\\aspose.imaging\\java\\issues\\1509\\";
 

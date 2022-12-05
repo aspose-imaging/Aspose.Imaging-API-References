@@ -34,8 +34,8 @@ Represents a stream source.
 | [getDisposeStream()](#getDisposeStream--) | Gets a value indicating whether stream should be disposed whenever container gets disposed. |
 | [getStreamContainer()](#getStreamContainer--) | Gets the stream container. |
 
-## Example
-This example demonstrates how to use StreamSource to create a new Image file (a JPEG type)
+## Example: This example demonstrates how to use StreamSource to create a new Image file (a JPEG type)
+
 ``` java
 
 //Creates an instance of JpegOptions and set its various properties

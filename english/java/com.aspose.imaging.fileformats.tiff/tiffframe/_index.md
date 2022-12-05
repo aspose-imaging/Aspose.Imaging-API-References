@@ -55,8 +55,8 @@ The tiff frame.
 | [rotate(float angle, boolean resizeProportionally, Color backgroundColor)](#rotate-float-boolean-com.aspose.imaging.Color-) | Rotate image around the center. |
 | [crop(Rectangle rectangle)](#crop-com.aspose.imaging.Rectangle-) | Cropping the image. |
 
-## Example
-This example shows how to create a TIFF image from scratch and save it to a file.
+## Example: This example shows how to create a TIFF image from scratch and save it to a file.
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -232,8 +232,8 @@ Gets a value indicating whether this instance has alpha.
 **Returns:**
 boolean - `true` if this instance has alpha; otherwise, `false`.
 
-**Example:**
-The following example loads a TIFF image and prints information about raw data format and alpha channel.
+**Example: The following example loads a TIFF image and prints information about raw data format and alpha channel.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -379,8 +379,8 @@ Gets the horizontal resolution, in pixels per inch, of this `RasterImage`.
 **Returns:**
 double - The horizontal resolution.
 
-**Example:**
-The following example shows how to set horizontal/vertical resolution of a separate TIFF frame.
+**Example: The following example shows how to set horizontal/vertical resolution of a separate TIFF frame.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -437,8 +437,8 @@ Gets the vertical resolution, in pixels per inch, of this `RasterImage`.
 **Returns:**
 double - The vertical resolution.
 
-**Example:**
-The following example shows how to set horizontal/vertical resolution of a separate TIFF frame.
+**Example: The following example shows how to set horizontal/vertical resolution of a separate TIFF frame.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -497,8 +497,8 @@ Value: The path resources.
 **Returns:**
 java.util.List<com.aspose.imaging.fileformats.tiff.pathresources.PathResource> - the path resources.
 
-**Example:**
-The following example shows how to retrieve paths from TIFF image and display their names in the console.
+**Example: The following example shows how to retrieve paths from TIFF image and display their names in the console.**
+
 ``` java
 try (TiffImage image = (TiffImage) Image.load("Sample.tif"))
 {
@@ -510,7 +510,7 @@ try (TiffImage image = (TiffImage) Image.load("Sample.tif"))
 ```
 
 
-**Example:**
+**Example: The following example shows how to modify already existing Clipping Paths.**
 The following example shows how to modify already existing Clipping Paths. For instance, you can keep only one Clipping Path in the image.
 ``` java
 try (TiffImage image = (TiffImage) Image.load("Sample.tif"))
@@ -522,8 +522,8 @@ try (TiffImage image = (TiffImage) Image.load("Sample.tif"))
 ```
 
 
-**Example:**
-Transfer Clipping Paths during export from TIFF to PSD image.
+**Example: Transfer Clipping Paths during export from TIFF to PSD image.**
+
 ``` java
 try (Image image = Image.load("Sample.tif"))
 {
@@ -532,8 +532,8 @@ try (Image image = Image.load("Sample.tif"))
 ```
 
 
-**Example:**
-Create Clipping Path manually.
+**Example: Create Clipping Path manually.**
+
 ``` java
 static void main()
 {
@@ -645,8 +645,8 @@ Creates the frame from specified `tiffFrame` using the specified `options`. The 
 **Returns:**
 [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) - The newly created frame.
 
-**Example:**
-The following example shows how to create a grayscale copy of an existing frame and add it to a TIFF image.
+**Example: The following example shows how to create a grayscale copy of an existing frame and add it to a TIFF image.**
+
 ``` java
 String dir = "c:\\temp\\";
 

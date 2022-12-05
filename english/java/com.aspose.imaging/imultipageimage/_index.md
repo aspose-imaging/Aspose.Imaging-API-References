@@ -20,8 +20,8 @@ The multipage image interface
 | [getPageExportingAction()](#getPageExportingAction--) | Gets the page exporting action. |
 | [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Sets the page exporting action. |
 
-## Example
-The following example shows how to export a multipage vector image to another format in general way without referencing to a particular image type.
+## Example: The following example shows how to export a multipage vector image to another format in general way without referencing to a particular image type.
+
 ``` java
 String dir = "C:\\aspose.imaging\\java\\misc\\ImagingReleaseQATester\\Tests\\testdata\\2548\\";
 String inputFilePath = dir + "Multipage.cdr";

@@ -24,8 +24,8 @@ The SharpenEffect object specifies an increase in the difference in intensity be
 | --- | --- |
 | [getRadius()](#getRadius--) | Gets or sets A 32-bit floating-point number that specifies the sharpening radius in pixels, which determines the number of pixels involved in calculating the new value of a given pixel. |
 | [setRadius(float value)](#setRadius-float-) | Gets or sets A 32-bit floating-point number that specifies the sharpening radius in pixels, which determines the number of pixels involved in calculating the new value of a given pixel. |
-| [getAmount()](#getAmount--) | Gets or sets A 32-bit floating-point number that specifies the difference in intensity between a given pixel and the surrounding pixels. 0 Specifies that sharpening MUST NOT be performed. 0 < value \\u2264 100 As this value increases, the difference in intensity between pixels SHOULD increase. |
-| [setAmount(float value)](#setAmount-float-) | Gets or sets A 32-bit floating-point number that specifies the difference in intensity between a given pixel and the surrounding pixels. 0 Specifies that sharpening MUST NOT be performed. 0 < value \\u2264 100 As this value increases, the difference in intensity between pixels SHOULD increase. |
+| [getAmount()](#getAmount--) | Gets or sets A 32-bit floating-point number that specifies the difference in intensity between a given pixel and the surrounding pixels. |
+| [setAmount(float value)](#setAmount-float-) | Gets or sets A 32-bit floating-point number that specifies the difference in intensity between a given pixel and the surrounding pixels. |
 ### EmfPlusSharpenEffect() {#EmfPlusSharpenEffect--}
 ```
 public EmfPlusSharpenEffect()

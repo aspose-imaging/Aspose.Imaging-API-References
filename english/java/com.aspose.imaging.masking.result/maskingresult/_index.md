@@ -30,7 +30,7 @@ Base abstract class which can provide result image from image masking system.
 | [get_Item(int index)](#get-Item-int-) | Gets the [IMaskingLayer](../../com.aspose.imaging.masking.result/imaskinglayer) at the specified index. |
 | [iterator()](#iterator--) | Gets the enumerator. |
 
-## Example
+## Example: This example shows how to decompose a raster image into multiple images using image masking and the K-means segmentation algorithm.
 This example shows how to decompose a raster image into multiple images using image masking and the K-means segmentation algorithm. Image masking is an image processing technique that is used to split the background from the foreground image objects.
 ``` java
 String dir = "c:\\temp\\";
@@ -94,7 +94,7 @@ try {
 ```
 
 
-## Example
+## Example: This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method.
 This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method. Image masking is an image processing technique that is used to split the background from the foreground image objects.
 ``` java
 String dir = "c:\\temp\\";
@@ -164,8 +164,8 @@ try {
 ```
 
 
-## Example
-Using a segment mask to speed up the segmentation process
+## Example: Using a segment mask to speed up the segmentation process
+
 ``` java
 // Masking export options
 com.aspose.imaging.imageoptions.PngOptions exportOptions = new com.aspose.imaging.imageoptions.PngOptions();
@@ -235,8 +235,8 @@ finally
 ```
 
 
-## Example
-Saving the masking session to a file for long sessions, as well as for the possibility of resuming the session in another environment.
+## Example: Saving the masking session to a file for long sessions, as well as for the possibility of resuming the session in another environment.
+
 ``` java
 String dir = "c:\\temp\\";
 String sessionBackupFile = dir + "session.bak";
@@ -384,7 +384,7 @@ Value: The length.
 **Returns:**
 int - the length.
 
-**Example:**
+**Example: This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method.**
 This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method. Image masking is an image processing technique that is used to split the background from the foreground image objects.
 ``` java
 String dir = "c:\\temp\\";

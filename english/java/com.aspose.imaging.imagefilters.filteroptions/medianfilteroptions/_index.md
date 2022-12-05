@@ -25,8 +25,8 @@ Median filter
 | [getSize()](#getSize--) | Gets or sets the size. |
 | [setSize(int value)](#setSize-int-) | Gets or sets the size. |
 
-## Example
-The following example applies various types of filters to a raster image.
+## Example: The following example applies various types of filters to a raster image.
+
 ``` java
 String dir = "c:\\temp\\";
 

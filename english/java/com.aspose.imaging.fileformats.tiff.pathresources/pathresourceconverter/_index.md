@@ -20,8 +20,8 @@ Converts [PathResource](../../com.aspose.imaging.fileformats.tiff.pathresources/
 | [toGraphicsPath(PathResource[] pathResources, Size imageSize)](#toGraphicsPath-com.aspose.imaging.fileformats.tiff.pathresources.PathResource---com.aspose.imaging.Size-) | Converts path resources to the [GraphicsPath](../../com.aspose.imaging/graphicspath) instance. |
 | [fromGraphicsPath(GraphicsPath graphicsPath, Size imageSize)](#fromGraphicsPath-com.aspose.imaging.GraphicsPath-com.aspose.imaging.Size-) | Converts the [GraphicsPath](../../com.aspose.imaging/graphicspath) instance to path resources. |
 
-## Example
-Create Graphics Path from Path Resources in TIFF image.
+## Example: Create Graphics Path from Path Resources in TIFF image.
+
 ``` java
 try (TiffImage image = (TiffImage)Image.load("Bottle.tif"))
 {
@@ -38,8 +38,8 @@ try (TiffImage image = (TiffImage)Image.load("Bottle.tif"))
 ```
 
 
-## Example
-Create Path Resources using Graphics Path.
+## Example: Create Path Resources using Graphics Path.
+
 ``` java
 static void main()
 {

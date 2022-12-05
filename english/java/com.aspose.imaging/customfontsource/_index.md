@@ -16,7 +16,7 @@ Custom font source provider interface
 | --- | --- |
 | [get(Object[] args)](#get-java.lang.Object...-) | Custom font source provider method |
 
-## Example
+## Example: This example demonstrates the custom font source providing to use the specific font(s) for image rendering.
 This example demonstrates the custom font source providing to use the specific font(s) for image rendering. Unlike FontSettings.setFontsFolders method works in the image scope and allowing to provide the fonts in multi-user scenarios.
 ``` java
             

@@ -57,8 +57,8 @@ The new png image.
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default options. |
 | [getOriginalOptions()](#getOriginalOptions--) | Gets the options based on the original file settings. |
 
-## Example
-This example shows how to load a PNG image from a file.
+## Example: This example shows how to load a PNG image from a file.
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -217,8 +217,8 @@ Gets or sets the horizontal resolution.
 **Returns:**
 double
 
-**Example:**
-The following example shows how to set horizontal/vertical resolution of a PNG image.
+**Example: The following example shows how to set horizontal/vertical resolution of a PNG image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -283,8 +283,8 @@ Gets the raw data format.
 **Returns:**
 [PixelDataFormat](../../com.aspose.imaging/pixeldataformat)
 
-**Example:**
-The following example loads PNG images and prints information about raw data format and alpha channel.
+**Example: The following example loads PNG images and prints information about raw data format and alpha channel.**
+
 ``` java
 
 // The PNG images to load.
@@ -320,8 +320,8 @@ Gets or sets the vertical resolution.
 **Returns:**
 double
 
-**Example:**
-The following example shows how to set horizontal/vertical resolution of a PNG image.
+**Example: The following example shows how to set horizontal/vertical resolution of a PNG image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -399,8 +399,8 @@ Gets a value indicating whether image has transparent color.
 | value | boolean |  |
 
 
-**Example:**
-The following example shows how to set fully transparent colors for a part of a TrueColor PNG image which doesn't support alpha channel.
+**Example: The following example shows how to set fully transparent colors for a part of a TrueColor PNG image which doesn't support alpha channel.**
+
 ``` java
 
 com.aspose.imaging.imageoptions.PngOptions createOptions = new com.aspose.imaging.imageoptions.PngOptions();
@@ -448,8 +448,8 @@ Value: `true` if this instance has alpha; otherwise, `false`.
 **Returns:**
 boolean
 
-**Example:**
-The following example shows how to check if a PNG image supports alpha-channel.
+**Example: The following example shows how to check if a PNG image supports alpha-channel.**
+
 ``` java
 
 // Helper class
@@ -534,8 +534,8 @@ Gets the transparent color.
 | value | [Color](../../com.aspose.imaging/color) |  |
 
 
-**Example:**
-The following example shows how to set fully transparent colors for a part of a TrueColor PNG image which doesn't support alpha channel.
+**Example: The following example shows how to set fully transparent colors for a part of a TrueColor PNG image which doesn't support alpha channel.**
+
 ``` java
 
 com.aspose.imaging.imageoptions.PngOptions createOptions = new com.aspose.imaging.imageoptions.PngOptions();
@@ -594,8 +594,8 @@ Gets a value indicating whether has background color.
 | value | boolean |  |
 
 
-**Example:**
-The following example shows how to set fully transparent colors for a part of a TrueColor PNG image which doesn't support alpha channel.
+**Example: The following example shows how to set fully transparent colors for a part of a TrueColor PNG image which doesn't support alpha channel.**
+
 ``` java
 
 com.aspose.imaging.imageoptions.PngOptions createOptions = new com.aspose.imaging.imageoptions.PngOptions();
@@ -654,8 +654,8 @@ Gets the background color.
 | value | [Color](../../com.aspose.imaging/color) |  |
 
 
-**Example:**
-The following example shows how to set fully transparent colors for a part of a TrueColor PNG image which doesn't support alpha channel.
+**Example: The following example shows how to set fully transparent colors for a part of a TrueColor PNG image which doesn't support alpha channel.**
+
 ``` java
 
 com.aspose.imaging.imageoptions.PngOptions createOptions = new com.aspose.imaging.imageoptions.PngOptions();

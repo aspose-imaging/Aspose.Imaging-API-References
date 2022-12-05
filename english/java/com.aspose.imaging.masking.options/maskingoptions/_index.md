@@ -40,7 +40,7 @@ Represents the common image masking options.
 | [getBackgroundReplacementColor()](#getBackgroundReplacementColor--) | Gets the background replacement color. |
 | [setBackgroundReplacementColor(Color value)](#setBackgroundReplacementColor-com.aspose.imaging.Color-) | Sets the background replacement color. |
 
-## Example
+## Example: This example shows how to decompose a raster image into multiple images using image masking and the K-means segmentation algorithm.
 This example shows how to decompose a raster image into multiple images using image masking and the K-means segmentation algorithm. Image masking is an image processing technique that is used to split the background from the foreground image objects.
 ``` java
 String dir = "c:\\temp\\";
@@ -104,7 +104,7 @@ try {
 ```
 
 
-## Example
+## Example: This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method.
 This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method. Image masking is an image processing technique that is used to split the background from the foreground image objects.
 ``` java
 String dir = "c:\\temp\\";
@@ -174,8 +174,8 @@ try {
 ```
 
 
-## Example
-Using a segment mask to speed up the segmentation process
+## Example: Using a segment mask to speed up the segmentation process
+
 ``` java
 // Masking export options
 com.aspose.imaging.imageoptions.PngOptions exportOptions = new com.aspose.imaging.imageoptions.PngOptions();
@@ -245,8 +245,8 @@ finally
 ```
 
 
-## Example
-Saving the masking session to a file for long sessions, as well as for the possibility of resuming the session in another environment.
+## Example: Saving the masking session to a file for long sessions, as well as for the possibility of resuming the session in another environment.
+
 ``` java
 String dir = "c:\\temp\\";
 String sessionBackupFile = dir + "session.bak";
@@ -403,7 +403,7 @@ Value: The segmentation method.
 | value | int | the segmentation method. |
 
 
-**Example:**
+**Example: This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method.**
 This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method. Image masking is an image processing technique that is used to split the background from the foreground image objects.
 ``` java
 String dir = "c:\\temp\\";
@@ -527,7 +527,7 @@ Value: The image export options that will be used to create the resulting images
 | value | [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) | the image export options. |
 
 
-**Example:**
+**Example: This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method.**
 This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method. Image masking is an image processing technique that is used to split the background from the foreground image objects.
 ``` java
 String dir = "c:\\temp\\";
@@ -678,7 +678,7 @@ Value: The background replacement color. This color will be used as background c
 | value | [Color](../../com.aspose.imaging/color) | the background replacement color. |
 
 
-**Example:**
+**Example: This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method.**
 This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method. Image masking is an image processing technique that is used to split the background from the foreground image objects.
 ``` java
 String dir = "c:\\temp\\";

@@ -54,7 +54,7 @@ public abstract void cacheData()
 Caches the data and ensures no additional data loading will be performed from the underlying `DataStreamSupporter.DataStreamContainer`.
 
 
-**Example:**
+**Example: The following example shows how image caching affects performance.**
 The following example shows how image caching affects performance. In general case, reading cached data is performed faster than reading non-cached data.
 ``` java
 String dir = "c:\\temp\\";

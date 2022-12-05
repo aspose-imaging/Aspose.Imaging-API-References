@@ -118,8 +118,8 @@ public void cacheData()
 Cache can not be used.
 
 
-**Example:**
-The following example shows how to cache all pages of a CMX image.
+**Example: The following example shows how to cache all pages of a CMX image.**
+
 ``` java
 String dir = "c:\\temp\\";
 

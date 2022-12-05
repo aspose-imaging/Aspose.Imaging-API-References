@@ -20,8 +20,8 @@ Dithering method.
 | [ThresholdDithering](#ThresholdDithering) | Threshold dithering. |
 | [FloydSteinbergDithering](#FloydSteinbergDithering) | The Floyd-Steinberg dithering. |
 
-## Example
-The following example loads a raster image and performs threshold and floyd dithering using different palette depth.
+## Example: The following example loads a raster image and performs threshold and floyd dithering using different palette depth.
+
 ``` java
 String dir = "c:\\temp\\";
 

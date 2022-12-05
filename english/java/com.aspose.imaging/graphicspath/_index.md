@@ -68,7 +68,7 @@ Represents a series of connected lines and curves. This class cannot be inherite
 | [deepClone()](#deepClone--) | Performs a deep clone of this graphics path. |
 | [transform(Matrix transform)](#transform-com.aspose.imaging.Matrix-) | Applies the specified transformation to the shape. |
 
-## Example
+## Example: This examples make use of GraphicsPath and Graphics class to create and manipulate Figures on an Image surface.
 This examples make use of GraphicsPath and Graphics class to create and manipulate Figures on an Image surface. Example creates a new Image (of type Tiff) and draw paths with the help of GraphicsPath class. At the end DrawPath method exposed by Graphics class is called to render the paths on surface.
 ``` java
 // Create an instance of FileStream
@@ -644,7 +644,7 @@ Adds a new figure.
 | figure | [Figure](../../com.aspose.imaging/figure) | The figure to add. |
 
 
-**Example:**
+**Example: This examples make use of GraphicsPath and Graphics class to create and manipulate Figures on an Image surface.**
 This examples make use of GraphicsPath and Graphics class to create and manipulate Figures on an Image surface. Example creates a new Image (of type Tiff) and draw paths with the help of GraphicsPath class. At the end DrawPath method exposed by Graphics class is called to render the paths on surface.
 ``` java
 // Create an instance of FileStream
@@ -710,7 +710,7 @@ Adds new figures.
 | figures | [Figure\[\]](../../com.aspose.imaging/figure) | The figures to add. |
 
 
-**Example:**
+**Example: This example creates a new Image and draws a variety of shapes using Figures and GraphicsPath o...**
 This example creates a new Image and draws a variety of shapes using Figures and GraphicsPath on the Image surface
 ``` java
 //Creates an instance of BmpOptions and set its various properties

@@ -68,8 +68,8 @@ The metafiles recorder graphics
 | [getTransform()](#getTransform--) | Gets the world transform. |
 | [setTransform(Matrix transform)](#setTransform-com.aspose.imaging.Matrix-) | Sets the transform. |
 
-## Example
-This example shows how to create a EMF image and draw some geometric shapes on it using EmfRecorderGraphics2D.
+## Example: This example shows how to create a EMF image and draw some geometric shapes on it using EmfRecorderGraphics2D.
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -610,8 +610,8 @@ Draws the string.
 | y | int | The y-coordinate of the upper-left corner of the drawn text. |
 
 
-**Example:**
-This example shows how to load a EMF image from a file and draw a text string over it.
+**Example: This example shows how to load a EMF image from a file and draw a text string over it.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -873,8 +873,8 @@ Sets the transform.
 | transform | [Matrix](../../com.aspose.imaging/matrix) | The new transform matrix. |
 
 
-**Example:**
-This example shows how to load a EMF image from a file and draw a text string over it.
+**Example: This example shows how to load a EMF image from a file and draw a text string over it.**
+
 ``` java
 String dir = "c:\\temp\\";
 

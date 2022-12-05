@@ -27,8 +27,8 @@ The Emf recorder graphics
 | [endRecording()](#endRecording--) | Ends the recording. |
 | [fromEmfImage(EmfImage emfImage)](#fromEmfImage-com.aspose.imaging.fileformats.emf.EmfImage-) | Gets an instance of the [EmfRecorderGraphics2D](../../com.aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d) containing all records from the Emf image. |
 
-## Example
-This example shows how to create a EMF image and draw some geometric shapes on it using EmfRecorderGraphics2D.
+## Example: This example shows how to create a EMF image and draw some geometric shapes on it using EmfRecorderGraphics2D.
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -215,8 +215,8 @@ Gets an instance of the [EmfRecorderGraphics2D](../../com.aspose.imaging.filefor
 **Returns:**
 [EmfRecorderGraphics2D](../../com.aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d) - An instance of the [EmfRecorderGraphics2D](../../com.aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d)
 
-**Example:**
-This example shows how to load a EMF image from a file and draw a text string over it.
+**Example: This example shows how to load a EMF image from a file and draw a text string over it.**
+
 ``` java
 String dir = "c:\\temp\\";
 

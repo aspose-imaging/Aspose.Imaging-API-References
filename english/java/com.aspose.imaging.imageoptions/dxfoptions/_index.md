@@ -30,8 +30,8 @@ The Dxf file format creation options.
 | [getTextAsLines()](#getTextAsLines--) | Whether text should be exported as contours consisting of polylines (default) or as editable Autocad TEXT entities. |
 | [setTextAsLines(boolean value)](#setTextAsLines-boolean-) | Whether text should be exported as contours consisting of polylines (default) or as editable Autocad TEXT entities. |
 
-## Example
-This example demonstrates export to Dxf format
+## Example: This example demonstrates export to Dxf format
+
 ``` java
 
 //Create Image instance and initialize it with an existing image file from disk location

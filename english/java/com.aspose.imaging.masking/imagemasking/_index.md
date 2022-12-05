@@ -30,7 +30,7 @@ Provides image masking operations
 | [loadSession(System.IO.Stream stream)](#loadSession-com.aspose.ms.System.IO.Stream-) |  |
 | [loadSession(String filePath)](#loadSession-java.lang.String-) | Load the session from the specified file. |
 
-## Example
+## Example: This example shows how to decompose a raster image into multiple images using image masking and the K-means segmentation algorithm.
 This example shows how to decompose a raster image into multiple images using image masking and the K-means segmentation algorithm. Image masking is an image processing technique that is used to split the background from the foreground image objects.
 ``` java
 String dir = "c:\\temp\\";
@@ -94,8 +94,8 @@ try {
 ```
 
 
-## Example
-Using a segment mask to speed up the segmentation process
+## Example: Using a segment mask to speed up the segmentation process
+
 ``` java
 // Masking export options
 com.aspose.imaging.imageoptions.PngOptions exportOptions = new com.aspose.imaging.imageoptions.PngOptions();
@@ -165,8 +165,8 @@ finally
 ```
 
 
-## Example
-Saving the masking session to a file for long sessions, as well as for the possibility of resuming the session in another environment.
+## Example: Saving the masking session to a file for long sessions, as well as for the possibility of resuming the session in another environment.
+
 ``` java
 String dir = "c:\\temp\\";
 String sessionBackupFile = dir + "session.bak";
@@ -295,8 +295,8 @@ Initializes a new instance of the [ImageMasking](../../com.aspose.imaging.maskin
 | sourceImage | [RasterImage](../../com.aspose.imaging/rasterimage) | The source image. |
 
 
-**Example:**
-Using a segment mask to speed up the segmentation process
+**Example: Using a segment mask to speed up the segmentation process**
+
 ``` java
 // Masking export options
 com.aspose.imaging.imageoptions.PngOptions exportOptions = new com.aspose.imaging.imageoptions.PngOptions();
@@ -381,8 +381,8 @@ Applies the mask to specified source image.
 | maskingOptions | [MaskingOptions](../../com.aspose.imaging.masking.options/maskingoptions) | The masking options. |
 
 
-**Example:**
-Using a segment mask to speed up the segmentation process
+**Example: Using a segment mask to speed up the segmentation process**
+
 ``` java
 // Masking export options
 com.aspose.imaging.imageoptions.PngOptions exportOptions = new com.aspose.imaging.imageoptions.PngOptions();
@@ -467,7 +467,7 @@ Performs the decompose operation using specified masking options
 **Returns:**
 [MaskingResult](../../com.aspose.imaging.masking.result/maskingresult) - Result of masking operation as array of segment image providers.
 
-**Example:**
+**Example: This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method.**
 This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method. Image masking is an image processing technique that is used to split the background from the foreground image objects.
 ``` java
 String dir = "c:\\temp\\";
@@ -537,8 +537,8 @@ try {
 ```
 
 
-**Example:**
-Using a segment mask to speed up the segmentation process
+**Example: Using a segment mask to speed up the segmentation process**
+
 ``` java
 // Masking export options
 com.aspose.imaging.imageoptions.PngOptions exportOptions = new com.aspose.imaging.imageoptions.PngOptions();
@@ -638,8 +638,8 @@ Creates the masking session which can perform retraining decompose operations.
 **Returns:**
 [IMaskingSession](../../com.aspose.imaging.masking/imaskingsession) - the masking session which can perform retraining decompose operations.
 
-**Example:**
-Saving the masking session to a file for long sessions, as well as for the possibility of resuming the session in another environment.
+**Example: Saving the masking session to a file for long sessions, as well as for the possibility of resuming the session in another environment.**
+
 ``` java
 String dir = "c:\\temp\\";
 String sessionBackupFile = dir + "session.bak";

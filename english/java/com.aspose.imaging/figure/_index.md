@@ -36,7 +36,7 @@ The figure. A container for shapes.
 | [getBounds(Matrix matrix, Pen pen)](#getBounds-com.aspose.imaging.Matrix-com.aspose.imaging.Pen-) | Gets the object's bounds. |
 | [transform(Matrix transform)](#transform-com.aspose.imaging.Matrix-) | Applies the specified transformation to the shape. |
 
-## Example
+## Example: This examples make use of GraphicsPath and Graphics class to create and manipulate Figures on an Image surface.
 This examples make use of GraphicsPath and Graphics class to create and manipulate Figures on an Image surface. Example creates a new Image (of type Tiff) and draw paths with the help of GraphicsPath class. At the end DrawPath method exposed by Graphics class is called to render the paths on surface.
 ``` java
 // Create an instance of FileStream
@@ -161,7 +161,7 @@ Adds a shape to the figure.
 | shape | [Shape](../../com.aspose.imaging/shape) | The shape to add. |
 
 
-**Example:**
+**Example: This examples make use of GraphicsPath and Graphics class to create and manipulate Figures on an Image surface.**
 This examples make use of GraphicsPath and Graphics class to create and manipulate Figures on an Image surface. Example creates a new Image (of type Tiff) and draw paths with the help of GraphicsPath class. At the end DrawPath method exposed by Graphics class is called to render the paths on surface.
 ``` java
 // Create an instance of FileStream

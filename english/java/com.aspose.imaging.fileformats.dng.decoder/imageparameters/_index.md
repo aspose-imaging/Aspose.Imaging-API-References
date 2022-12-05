@@ -29,8 +29,8 @@ Dng image parameters
 | [getXmpData()](#getXmpData--) | Gets the XMP data. |
 | [getTranslationCfaDng()](#getTranslationCfaDng--) | Gets the translation array for CFA mosaic DNG format. |
 
-## Example
-This example shows how to load a DNG image from a file, print its properties and save it to PNG.
+## Example: This example shows how to load a DNG image from a file, print its properties and save it to PNG.
+
 ``` java
 String dir = "c:\\temp\\";
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "test.dng");

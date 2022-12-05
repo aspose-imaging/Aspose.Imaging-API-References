@@ -19,10 +19,10 @@ ClipPrecision Flags specify clipping precision, which defines how to clip charac
 | --- | --- |
 | [Default](#Default) | Specifies that default clipping MUST be used. |
 | [Character](#Character) | This value SHOULD NOT be used. |
-| [Stroke](#Stroke) | This value MAY be returned when enumerating rasterized, TrueType and vector fonts |
-| [LhAngles](#LhAngles) | This value is used to control font rotation, as follows: - If set, the rotation for all fonts SHOULD be determined by the orientation of the coordinate system; that is, whether the orientation is left-handed or right-handed |
-| [TtAlways](#TtAlways) | This value SHOULD NOT [34] be used |
-| [DfaDisable](#DfaDisable) | This value specifies that font association SHOULD [35] be turned off |
+| [Stroke](#Stroke) | This value MAY be returned when enumerating rasterized, TrueType and vector fonts. |
+| [LhAngles](#LhAngles) | This value is used to control font rotation, as follows: - If set, the rotation for all fonts SHOULD be determined by the orientation of the coordinate system; that is, whether the orientation is left-handed or right-handed. |
+| [TtAlways](#TtAlways) | This value SHOULD NOT [34] be used. |
+| [DfaDisable](#DfaDisable) | This value specifies that font association SHOULD [35] be turned off. |
 | [Embedded](#Embedded) | This value specifies that font embedding MUST be used to render document content; embedded fonts are read-only. |
 ### Default {#Default}
 ```

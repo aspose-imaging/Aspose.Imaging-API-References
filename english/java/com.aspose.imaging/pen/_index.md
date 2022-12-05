@@ -69,7 +69,7 @@ Defines an object used to draw lines, curves and figures.
 | [rotateTransform(float angle)](#rotateTransform-float-) | Rotates the local geometric transformation by the specified angle. |
 | [rotateTransform(float angle, int order)](#rotateTransform-float-int-) | Rotates the local geometric transformation by the specified angle in the specified order. |
 
-## Example
+## Example: This example shows the creation and usage Pen objects.
 This example shows the creation and usage Pen objects. The example creates a new Image and draw Rectangles on Image surface.
 ``` java
 

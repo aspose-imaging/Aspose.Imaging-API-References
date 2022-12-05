@@ -47,8 +47,8 @@ Jpeg2000 library main class
 | [getCodec()](#getCodec--) | Gets the codec. |
 | [getOriginalOptions()](#getOriginalOptions--) | Gets the options based on the original file settings. |
 
-## Example
-This example shows how to load a JPEG2000 image from a file and save it to PNG.
+## Example: This example shows how to load a JPEG2000 image from a file and save it to PNG.
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -283,8 +283,8 @@ double - The horizontal resolution.
 
 Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the SetResolution method for updating both resolution values in single call.
 
-**Example:**
-The following example shows how to set horizontal/vertical resolution of a JPEG2000 image.
+**Example: The following example shows how to set horizontal/vertical resolution of a JPEG2000 image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -346,8 +346,8 @@ double - The vertical resolution.
 
 Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the SetResolution method for updating both resolution values in single call.
 
-**Example:**
-The following example shows how to set horizontal/vertical resolution of a JPEG2000 image.
+**Example: The following example shows how to set horizontal/vertical resolution of a JPEG2000 image.**
+
 ``` java
 String dir = "c:\\temp\\";
 

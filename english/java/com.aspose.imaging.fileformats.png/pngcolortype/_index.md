@@ -23,8 +23,8 @@ Represents the PNG image color type.
 | [GrayscaleWithAlpha](#GrayscaleWithAlpha) | Represents the color type where each pixel is a grayscale sample followed by an alpha sample. |
 | [TruecolorWithAlpha](#TruecolorWithAlpha) | Represents the color type where each pixel is an R,G,B triple followed by an alpha sample. |
 
-## Example
-The following example shows how to compress a PNG image, using indexed color with best fit palette
+## Example: The following example shows how to compress a PNG image, using indexed color with best fit palette
+
 ``` java
 
 // Loads png image        

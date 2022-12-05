@@ -41,7 +41,7 @@ The png file format create options.
 | [getBitDepth()](#getBitDepth--) | Gets the bit depth. |
 | [setBitDepth(byte value)](#setBitDepth-byte-) | Sets the bit depth. |
 
-## Example
+## Example: This example demonstrates the use of different classes from SaveOptions Namespace for export purposes.
 This example demonstrates the use of different classes from SaveOptions Namespace for export purposes. An image of type Gif is loaded into an instance of Image and then exported out to several formats.
 ``` java
 String dir = "c:\\temp\\";
@@ -66,8 +66,8 @@ try {
 ```
 
 
-## Example
-The following example shows how to convert a multipage vector image to PNG format in general way without referencing to a particular image type.
+## Example: The following example shows how to convert a multipage vector image to PNG format in general way without referencing to a particular image type.
+
 ``` java
 String dir = "C:\\aspose.imaging\\net\\misc\\ImagingReleaseQATester\\Tests\\testdata\\2548";
 String inputFilePath = (dir + "Multipage.cdr");
@@ -178,8 +178,8 @@ Gets or sets the type of the color.
 | value | int | The type of the color. |
 
 
-**Example:**
-The following example shows how to compress a PNG image, using indexed color with best fit palette
+**Example: The following example shows how to compress a PNG image, using indexed color with best fit palette**
+
 ``` java
 
 // Loads png image        
@@ -204,8 +204,8 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePa
 ```
 
 
-**Example:**
-The following example shows how to save an image to PNG format using various options.
+**Example: The following example shows how to save an image to PNG format using various options.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -276,8 +276,8 @@ Gets or sets a value indicating whether this `PngOptions` is progressive.
 | value | boolean | `true` if progressive; otherwise, `false`. |
 
 
-**Example:**
-The following example shows how to compress a PNG image, using indexed color with best fit palette
+**Example: The following example shows how to compress a PNG image, using indexed color with best fit palette**
+
 ``` java
 
 // Loads png image        
@@ -302,8 +302,8 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePa
 ```
 
 
-**Example:**
-This example shows how to create a PNG image with the specified options, fill it with a linear gradient colors and save it to a file.
+**Example: This example shows how to create a PNG image with the specified options, fill it with a linear gradient colors and save it to a file.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -369,8 +369,8 @@ Gets or sets the filter type used during png file save process.
 | value | int | the filter type used during png file save process. |
 
 
-**Example:**
-The following example shows how different filter types affect the size of the output PNG image.
+**Example: The following example shows how different filter types affect the size of the output PNG image.**
+
 ``` java
 
 // Helper class
@@ -466,8 +466,8 @@ The png image compression level in the 0-9 range, where 9 is maximum compression
 | value | int | the compression level in the 0-9 range, where 9 is maximum compression and 0 is store mode. |
 
 
-**Example:**
-The following example shows how to compress a PNG image, using indexed color with best fit palette
+**Example: The following example shows how to compress a PNG image, using indexed color with best fit palette**
+
 ``` java
 
 // Loads png image        
@@ -492,8 +492,8 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(sourceFilePa
 ```
 
 
-**Example:**
-The following example shows how to save an image to PNG format using various options.
+**Example: The following example shows how to save an image to PNG format using various options.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -564,8 +564,8 @@ Sets the bit depth.
 | value | byte | The bit depth. |
 
 
-**Example:**
-The following example shows how to save an image to PNG format using various options.
+**Example: The following example shows how to save an image to PNG format using various options.**
+
 ``` java
 String dir = "c:\\temp\\";
 

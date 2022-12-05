@@ -43,7 +43,7 @@ The Wmf Image
 | [addRecord(WmfObject record)](#addRecord-com.aspose.imaging.fileformats.wmf.objects.WmfObject-) | Adds the record. |
 | [getPostScript()](#getPostScript--) | Gets the post script. |
 
-## Example
+## Example: The following example shows how to convert a compressed images (*.
 The following example shows how to convert a compressed images (*.emz,*.wmz, *.svgz) to raster format
 ``` java
 String[] files = new String[]{ "example.emz", "example.wmz", "example.svgz" };
@@ -65,8 +65,8 @@ for(String file : files)
 ```
 
 
-## Example
-The following example shows how to convert a wmz images to wmf format
+## Example: The following example shows how to convert a wmz images to wmf format
+
 ``` java
 String file = "example.wmz";
 String baseFolder = "D:\\Compressed\\";
@@ -87,8 +87,8 @@ try (final com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputF
 ```
 
 
-## Example
-The following example shows how to convert a wmf images to wmz format
+## Example: The following example shows how to convert a wmf images to wmz format
+
 ``` java
 String file = "castle.wmf";
 String baseFolder = "D:\\Compressed\\";
@@ -225,8 +225,8 @@ public void cacheData()
 Caches the data and ensures no additional data loading will be performed from the underlying `DataStreamSupporter.DataStreamContainer`.
 
 
-**Example:**
-This example shows how to load a WMF image from a file and list all of its records.
+**Example: This example shows how to load a WMF image from a file and list all of its records.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -310,8 +310,8 @@ Resizes the image.
 | resizeType | int | The resize type. |
 
 
-**Example:**
-This example loads a WMF image and resizes it using various resizing methods.
+**Example: This example loads a WMF image and resizes it using various resizing methods.**
+
 ``` java
 String dir = "c:\\temp\\";
 

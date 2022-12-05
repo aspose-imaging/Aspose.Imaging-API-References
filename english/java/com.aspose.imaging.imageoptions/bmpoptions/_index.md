@@ -28,7 +28,7 @@ The bmp file format creation options.
 | [getCompression()](#getCompression--) | Gets the compression type. |
 | [setCompression(long value)](#setCompression-long-) | Sets the compression type. |
 
-## Example
+## Example: This example demonstrates the use of different classes from SaveOptions Namespace for export purposes.
 This example demonstrates the use of different classes from SaveOptions Namespace for export purposes. An image of type Gif is loaded into an instance of Image and then exported out to several formats.
 ``` java
 String dir = "c:\\temp\\";
@@ -53,8 +53,8 @@ try {
 ```
 
 
-## Example
-The following example shows how to convert a multipage vector image to BMP format in general way without referencing to a particular image type.
+## Example: The following example shows how to convert a multipage vector image to BMP format in general way without referencing to a particular image type.
+
 ``` java
 String dir = "C:\\aspose.imaging\\net\\misc\\ImagingReleaseQATester\\Tests\\testdata\\2548";
 String inputFilePath = (dir + "Multipage.cdr");
@@ -130,8 +130,8 @@ Gets or sets the image bits per pixel count.
 | value | int | The image bits per pixel count. |
 
 
-**Example:**
-The following example loads a BMP image and saves it back to BMP using various save options.
+**Example: The following example loads a BMP image and saves it back to BMP using various save options.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -175,8 +175,8 @@ Value: The compression type.
 **Returns:**
 long - the compression type.
 
-**Example:**
-Decompress BMP image which was previously compressed using DXT1 compression algorithm.
+**Example: Decompress BMP image which was previously compressed using DXT1 compression algorithm.**
+
 ``` java
     try (Image image = Image.load("CompressedTiger.bmp"))
     {
@@ -203,8 +203,8 @@ Value: The compression type.
 | value | long | the compression type. |
 
 
-**Example:**
-The following example loads a BMP image and saves it back to BMP using various save options.
+**Example: The following example loads a BMP image and saves it back to BMP using various save options.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -236,8 +236,8 @@ try {
 ```
 
 
-**Example:**
-Compress BMP image using DXT1 compression algorithm.
+**Example: Compress BMP image using DXT1 compression algorithm.**
+
 ``` java
 try (Image image = Image.load("Tiger.bmp"))
 {
@@ -248,8 +248,8 @@ try (Image image = Image.load("Tiger.bmp"))
 ```
 
 
-**Example:**
-The example shows how to export a BmpImage from a Png file while keeping the alpha channel, save a Bmp file with transparency.
+**Example: The example shows how to export a BmpImage from a Png file while keeping the alpha channel, save a Bmp file with transparency.**
+
 ``` java
 String sourcePath = "input.png";
 String outputPathPng = "output.png";
@@ -271,8 +271,8 @@ try (Image pngImage = Image.load(sourcePath))
 ```
 
 
-**Example:**
-The example shows how to export a BmpImage with the Rgb compression type.
+**Example: The example shows how to export a BmpImage with the Rgb compression type.**
+
 ``` java
 String sourcePath = "input.png";
 String outputPath = "output.bmp";

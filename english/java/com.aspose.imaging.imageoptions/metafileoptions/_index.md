@@ -50,8 +50,8 @@ Value: `true` if compressed; otherwise, `false`.
 | value | boolean | a value indicating whether this \{@link \#\#Aspose\#FileFormats\#Core\#ImageOptions\} is compressed. |
 
 
-**Example:**
-The following example shows how to convert a emf images to emz format
+**Example: The following example shows how to convert a emf images to emz format**
+
 ``` java
 String file = "input.emf";
 String baseFolder = "D:\\Compressed\\";
@@ -69,8 +69,8 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputFile))
 ```
 
 
-**Example:**
-The following example shows how to convert a wmf images to wmz format
+**Example: The following example shows how to convert a wmf images to wmz format**
+
 ``` java
 String file = "castle.wmf";
 String baseFolder = "D:\\Compressed\\";

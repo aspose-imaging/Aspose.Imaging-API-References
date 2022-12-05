@@ -61,8 +61,8 @@ The raster multipage image
 | [normalizeAngle(boolean resizeProportionally, Color backgroundColor)](#normalizeAngle-boolean-com.aspose.imaging.Color-) | Normalizes the angle. |
 | [cacheData()](#cacheData--) | Caches the data private. |
 
-## Example
-The following example shows batch conversion before saving (exporting) Tiff images.
+## Example: The following example shows batch conversion before saving (exporting) Tiff images.
+
 ``` java
 String fileName = "10MB_Tif.tif";
 String inputFileName = fileName;

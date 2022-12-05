@@ -28,8 +28,8 @@ Gauss Wiener Filter Options Deblur gauss
 | [getSmooth()](#getSmooth--) | Gets or sets the smooth. |
 | [setSmooth(double value)](#setSmooth-double-) | Gets or sets the smooth. |
 
-## Example
-The following example applies various types of filters to a raster image.
+## Example: The following example applies various types of filters to a raster image.
+
 ``` java
 String dir = "c:\\temp\\";
 

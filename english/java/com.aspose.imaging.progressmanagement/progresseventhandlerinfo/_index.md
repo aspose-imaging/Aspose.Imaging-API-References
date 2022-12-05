@@ -22,8 +22,8 @@ This class represents information about image load/save/export operations progre
 | [getMaxValue()](#getMaxValue--) | Gets the upper progress value limit. |
 | [getValue()](#getValue--) | Gets current progress value. |
 
-## Example
-The following example shows how to print information about progress events for load/export operations.
+## Example: The following example shows how to print information about progress events for load/export operations.
+
 ``` java
 String dir = "c:\\aspose.imaging\\java\\issues\\1440\\";
 String fileName = dir + "big.png";

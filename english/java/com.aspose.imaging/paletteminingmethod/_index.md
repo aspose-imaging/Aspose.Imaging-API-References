@@ -21,8 +21,8 @@ The image palette mining method
 | [ColorClustering](#ColorClustering) | The color clustering method |
 | [Histogram](#Histogram) | The histogram method |
 
-## Example
-The following example shows how to compress a PNG image, using indexed color with best fit palette
+## Example: The following example shows how to compress a PNG image, using indexed color with best fit palette
+
 ``` java
 
 // Loads png image        

@@ -242,8 +242,8 @@ EXIF data container.
 | [setGPSTags(TiffDataType[] value)](#setGPSTags-com.aspose.imaging.fileformats.tiff.TiffDataType---) | Gets or sets tags, which belong to GPS section only. |
 | [removeTag(int tagId)](#removeTag-int-) | Remove tag from container |
 
-## Example
-Access camera manufacturer maker notes in Jpeg image.
+## Example: Access camera manufacturer maker notes in Jpeg image.
+
 ``` java
 try (JpegImage image = (JpegImage)Image.load("Sample.jpg"))
 {
@@ -2375,8 +2375,8 @@ Value: The maker notes.
 **Returns:**
 com.aspose.imaging.exif.MakerNote[] - the maker notes.
 
-**Example:**
-Access camera manufacturer maker notes in Jpeg image.
+**Example: Access camera manufacturer maker notes in Jpeg image.**
+
 ``` java
 try (JpegImage image = (JpegImage)Image.load("Sample.jpg"))
 {

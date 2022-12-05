@@ -22,10 +22,10 @@ The TintEffect object specifies an addition of black or white to a specified hue
 
 | Method | Description |
 | --- | --- |
-| [getHue()](#getHue--) | Gets or sets a 32-bit signed integer that specifies the hue to which the tint effect is applied |
-| [setHue(int value)](#setHue-int-) | Gets or sets a 32-bit signed integer that specifies the hue to which the tint effect is applied |
-| [getAmount()](#getAmount--) | Gets or sets A 32-bit signed integer that specifies how much the hue is strengthened or weakened |
-| [setAmount(int value)](#setAmount-int-) | Gets or sets A 32-bit signed integer that specifies how much the hue is strengthened or weakened |
+| [getHue()](#getHue--) | Gets or sets a 32-bit signed integer that specifies the hue to which the tint effect is applied. |
+| [setHue(int value)](#setHue-int-) | Gets or sets a 32-bit signed integer that specifies the hue to which the tint effect is applied. |
+| [getAmount()](#getAmount--) | Gets or sets A 32-bit signed integer that specifies how much the hue is strengthened or weakened. |
+| [setAmount(int value)](#setAmount-int-) | Gets or sets A 32-bit signed integer that specifies how much the hue is strengthened or weakened. |
 ### EmfPlusTintEffect() {#EmfPlusTintEffect--}
 ```
 public EmfPlusTintEffect()

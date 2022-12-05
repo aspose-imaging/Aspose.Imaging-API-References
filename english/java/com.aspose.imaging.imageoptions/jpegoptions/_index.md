@@ -65,7 +65,7 @@ The jpeg file format create options.
 | [getResolutionUnit()](#getResolutionUnit--) | Gets the resolution unit. |
 | [setResolutionUnit(byte value)](#setResolutionUnit-byte-) | Sets the resolution unit. |
 
-## Example
+## Example: This example demonstrates the use of different classes from SaveOptions Namespace for export purposes.
 This example demonstrates the use of different classes from SaveOptions Namespace for export purposes. An image of type Gif is loaded into an instance of Image and then exported out to several formats.
 ``` java
 String dir = "c:\\temp\\";
@@ -90,8 +90,8 @@ try {
 ```
 
 
-## Example
-The following example shows how to convert a multipage vector image to JPEG format in general way without referencing to a particular image type.
+## Example: The following example shows how to convert a multipage vector image to JPEG format in general way without referencing to a particular image type.
+
 ``` java
 String dir = "C:\\aspose.imaging\\net\\misc\\ImagingReleaseQATester\\Tests\\testdata\\2548";
 String inputFilePath = (dir + "Multipage.cdr");
@@ -282,8 +282,8 @@ Sets the compression type.
 | value | int |  |
 
 
-**Example:**
-The following example shows how to create JPEG image of the specified size with the specified parameters.
+**Example: The following example shows how to create JPEG image of the specified size with the specified parameters.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -339,8 +339,8 @@ Gets the color type for jpeg image.
 **Returns:**
 int
 
-**Example:**
-The following example shows how to create JPEG image of the specified size with the specified parameters.
+**Example: The following example shows how to create JPEG image of the specified size with the specified parameters.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -399,8 +399,8 @@ Sets the color type for jpeg image.
 | value | int |  |
 
 
-**Example:**
-The following example loads a BMP image and saves it to JPEG using various save options.
+**Example: The following example loads a BMP image and saves it to JPEG using various save options.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -462,8 +462,8 @@ Sets bits per channel for lossless jpeg image. Now we support from 2 to 8 bits p
 | value | byte |  |
 
 
-**Example:**
-The following example shows how to create JPEG image of the specified size with the specified parameters.
+**Example: The following example shows how to create JPEG image of the specified size with the specified parameters.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -532,8 +532,8 @@ Sets image quality.
 | value | int |  |
 
 
-**Example:**
-The following example shows how to create JPEG image of the specified size with the specified parameters.
+**Example: The following example shows how to create JPEG image of the specified size with the specified parameters.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -635,7 +635,7 @@ The destination RGB color profile for CMYK jpeg images. Use for saving images. M
 | value | [StreamSource](../../com.aspose.imaging.sources/streamsource) |  |
 
 
-**Example:**
+**Example: The following example loads PNG and saves it to CMYK JPEG using custom ICC profile.**
 The following example loads PNG and saves it to CMYK JPEG using custom ICC profile. Then loads CMYK JPEG and saves it back to PNG. The color conversion from RGB to CMYK and from CMYK to RGB is performed using custom ICC profiles.
 ``` java
 String dir = "c:\\temp\\";
@@ -707,7 +707,7 @@ The destination CMYK color profile for CMYK jpeg images. Use for saving images. 
 | value | [StreamSource](../../com.aspose.imaging.sources/streamsource) |  |
 
 
-**Example:**
+**Example: The following example loads PNG and saves it to CMYK JPEG using custom ICC profile.**
 The following example loads PNG and saves it to CMYK JPEG using custom ICC profile. Then loads CMYK JPEG and saves it back to PNG. The color conversion from RGB to CMYK and from CMYK to RGB is performed using custom ICC profiles.
 ``` java
 String dir = "c:\\temp\\";
@@ -927,8 +927,8 @@ Gets the resolution unit.
 **Returns:**
 byte - the resolution unit.
 
-**Example:**
-The following example shows how to create JPEG image of the specified size with the specified parameters.
+**Example: The following example shows how to create JPEG image of the specified size with the specified parameters.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -987,8 +987,8 @@ Sets the resolution unit.
 | value | byte | the resolution unit. |
 
 
-**Example:**
-The following example loads a BMP image and saves it to JPEG using various save options.
+**Example: The following example loads a BMP image and saves it to JPEG using various save options.**
+
 ``` java
 String dir = "c:\\temp\\";
 

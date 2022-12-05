@@ -31,8 +31,8 @@ Contains cache settings.
 | [setCacheType(int value)](#setCacheType-int-) | Sets the cache scheme used. |
 | [setDefaults()](#setDefaults--) | Sets the `Cache` settings to defaults. |
 
-## Example
-This example demonstrates how to use com.aspose.imaging.Cache
+## Example: This example demonstrates how to use com.aspose.imaging.Cache
+
 ``` java
 // By default the cache folder is set to user's local temp directory.
 // You can also specify another cache folder than default like the following:
@@ -127,8 +127,8 @@ Sets a value indicating whether reallocation should be exact or not. If realloca
 The exact reallocation will perform reallocation of additional memory only up to the upper limit specified. When passing upper limit for in-memory during reallocation the cached data will be copied to disk if possible. When passing upper limit for disk memory during reallocation the appropriate exception is thrown. The performance should be higher if this option is turned off as no additional copying will be performed if possible, however this may also lead to pass upper limits specified for memory or disk. |
 
 
-**Example:**
-This example demonstrates how to use com.aspose.imaging.Cache
+**Example: This example demonstrates how to use com.aspose.imaging.Cache**
+
 ``` java
 // By default the cache folder is set to user's local temp directory.
 // You can also specify another cache folder than default like the following:
@@ -229,8 +229,8 @@ Gets the allocated in-memory bytes count.
 **Returns:**
 long - The allocated in-memory bytes count.
 
-**Example:**
-This example demonstrates how to use com.aspose.imaging.Cache
+**Example: This example demonstrates how to use com.aspose.imaging.Cache**
+
 ``` java
 // By default the cache folder is set to user's local temp directory.
 // You can also specify another cache folder than default like the following:
@@ -308,8 +308,8 @@ Gets the allocated disk bytes count.
 **Returns:**
 long - The allocated disk bytes count.
 
-**Example:**
-This example demonstrates how to use com.aspose.imaging.Cache
+**Example: This example demonstrates how to use com.aspose.imaging.Cache**
+
 ``` java
 // By default the cache folder is set to user's local temp directory.
 // You can also specify another cache folder than default like the following:
@@ -404,8 +404,8 @@ Sets the maximum available memory for cache in memory. The value specified is me
 Value of 0 will consume all available memory and serves as no upper limit. |
 
 
-**Example:**
-This example demonstrates how to use com.aspose.imaging.Cache
+**Example: This example demonstrates how to use com.aspose.imaging.Cache**
+
 ``` java
 // By default the cache folder is set to user's local temp directory.
 // You can also specify another cache folder than default like the following:
@@ -500,8 +500,8 @@ Sets the maximum available disk space for cache. The value specified is megabyte
 Value of 0 will consume all available memory and serves as no upper limit. |
 
 
-**Example:**
-This example demonstrates how to use com.aspose.imaging.Cache
+**Example: This example demonstrates how to use com.aspose.imaging.Cache**
+
 ``` java
 // By default the cache folder is set to user's local temp directory.
 // You can also specify another cache folder than default like the following:
@@ -592,8 +592,8 @@ Sets the cache scheme used.
 | value | int | The cache scheme used. |
 
 
-**Example:**
-This example demonstrates how to use com.aspose.imaging.Cache
+**Example: This example demonstrates how to use com.aspose.imaging.Cache**
+
 ``` java
 // By default the cache folder is set to user's local temp directory.
 // You can also specify another cache folder than default like the following:

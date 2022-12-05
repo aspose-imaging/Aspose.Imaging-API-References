@@ -84,7 +84,7 @@ The image is the base class for all type of images.
 | [save(OutputStream stream, ImageOptionsBase optionsBase, Rectangle boundsRectangle)](#save-java.io.OutputStream-com.aspose.imaging.ImageOptionsBase-com.aspose.imaging.Rectangle-) | Saves the image's data to the specified stream in the specified file format according to save options. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Sets the image palette. |
 
-## Example
+## Example: This example creates a new Image file at some disk location as specified by Source property of the BmpOptions instance.
 This example creates a new Image file at some disk location as specified by Source property of the BmpOptions instance. Several properties for BmpOptions instance are set before creating the actual image. Especially the Source property, that refers to the actual disk location in this case.
 ``` java
 // Create an instance of BmpOptions and set its various properties
@@ -108,8 +108,8 @@ try {
 ```
 
 
-## Example
-Resize image using specific Resize Type.
+## Example: Resize image using specific Resize Type.
+
 ``` java
 try (Image image = Image.load("Photo.jpg"))
 {
@@ -129,8 +129,8 @@ try (Image image = Image.load("Photo.jpg"))
 ```
 
 
-## Example
-Determine if the palette is used by the image.
+## Example: Determine if the palette is used by the image.
+
 ``` java
 try (Image image = Image.load("Sample.bmp"))
 {
@@ -157,8 +157,8 @@ Determines whether image can be loaded from the specified file path.
 **Returns:**
 boolean - `true` if image can be loaded from the specified file; otherwise, `false`.
 
-**Example:**
-This example determines whether image can be loaded from a file.
+**Example: This example determines whether image can be loaded from a file.**
+
 ``` java
 
 // Use an absolute path to the file
@@ -197,8 +197,8 @@ Determines whether image can be loaded from the specified stream.
 **Returns:**
 boolean - `true` if image can be loaded from the specified stream; otherwise, `false`.
 
-**Example:**
-This example determines whether image can be loaded from a file stream.
+**Example: This example determines whether image can be loaded from a file stream.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -254,7 +254,7 @@ Creates a new image using the specified create options.
 **Returns:**
 [Image](../../com.aspose.imaging/image) - The newly created image.
 
-**Example:**
+**Example: This example creates a new Image file at some disk location as specified by Source property of the BmpOptions instance.**
 This example creates a new Image file at some disk location as specified by Source property of the BmpOptions instance. Several properties for BmpOptions instance are set before creating the actual image. Especially the Source property, that refers to the actual disk location in this case.
 ``` java
 // Create an instance of BmpOptions and set its various properties
@@ -326,8 +326,8 @@ The file format determined does not mean that the specified image may be loaded.
 **Returns:**
 long - The determined file format.
 
-**Example:**
-This example shows how to determine the image format without loading the entire image from a file.
+**Example: This example shows how to determine the image format without loading the entire image from a file.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -411,7 +411,7 @@ Loads a new image from the specified file.
 **Returns:**
 [Image](../../com.aspose.imaging/image) - The loaded image.
 
-**Example:**
+**Example: This example demonstrates the loading of an existing Image file into an instance of com.**
 This example demonstrates the loading of an existing Image file into an instance of com.aspose.imaging.Image using file path specified
 ``` java
 // Create Image instance and initialize it with an existing image file from disk location
@@ -486,8 +486,8 @@ Loads a new image from the specified stream.
 **Returns:**
 [Image](../../com.aspose.imaging/image) - The loaded image.
 
-**Example:**
-This example demonstrates the use of InputStream object to load an existing Image file
+**Example: This example demonstrates the use of InputStream object to load an existing Image file**
+
 ``` java
 // Create an instance of FileInputStream
 java.io.InputStream stream = new java.io.FileInputStream("C:\\temp\\sample.bmp");
@@ -522,8 +522,8 @@ The file format determined does not mean that the specified image may be loaded.
 **Returns:**
 long - The determined file format.
 
-**Example:**
-This example shows how to determine the image format without loading the entire image from a file stream.
+**Example: This example shows how to determine the image format without loading the entire image from a file stream.**
+
 ``` java
 
 // The helper class used in the main example below.
@@ -746,8 +746,8 @@ Value: `true` if the palette is used in the image; otherwise, `false`.
 **Returns:**
 boolean - a value indicating whether the image palette is used.
 
-**Example:**
-Determine if the palette is used by the image.
+**Example: Determine if the palette is used by the image.**
+
 ``` java
 try (Image image = Image.load("Sample.bmp"))
 {
@@ -769,8 +769,8 @@ Gets the image size.
 **Returns:**
 [Size](../../com.aspose.imaging/size) - The image size.
 
-**Example:**
-This example shows how to load a DJVU image from a file stream and print information about the pages.
+**Example: This example shows how to load a DJVU image from a file stream and print information about the pages.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -989,8 +989,8 @@ Determines whether image can be saved to the specified file format represented b
 **Returns:**
 boolean - `true` if image can be saved to the specified file format represented by the passed save options; otherwise, `false`.
 
-**Example:**
-This example shows how to determine whether image can be saved to the specified file format represented by the passed save options.
+**Example: This example shows how to determine whether image can be saved to the specified file format represented by the passed save options.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1021,8 +1021,8 @@ Resizes the image. The default [ResizeType.NearestNeighbourResample](../../com.a
 | newHeight | int | The new height. |
 
 
-**Example:**
-The following example shows how to resize a metafile (WMF and EMF).
+**Example: The following example shows how to resize a metafile (WMF and EMF).**
+
 ``` java
 String baseFolder = "c:\\temp\\";
 
@@ -1041,8 +1041,8 @@ for (String fileName : files) {
 ```
 
 
-**Example:**
-The following example shows how to resize SVG image and save it to PNG.
+**Example: The following example shows how to resize SVG image and save it to PNG.**
+
 ``` java
 String dir = "c:\\aspose.imaging\\java\\issues\\1431\\";
 String[] fileNames = new String[] {
@@ -1091,8 +1091,8 @@ Resizes the image.
 | resizeType | int | The resize type. |
 
 
-**Example:**
-This example loads an image and resizes it using various resizing methods.
+**Example: This example loads an image and resizes it using various resizing methods.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1134,8 +1134,8 @@ try {
 ```
 
 
-**Example:**
-Using a segment mask to speed up the segmentation process
+**Example: Using a segment mask to speed up the segmentation process**
+
 ``` java
 // Masking export options
 com.aspose.imaging.imageoptions.PngOptions exportOptions = new com.aspose.imaging.imageoptions.PngOptions();
@@ -1205,8 +1205,8 @@ finally
 ```
 
 
-**Example:**
-Resize image using specific Resize Type.
+**Example: Resize image using specific Resize Type.**
+
 ``` java
 try (Image image = Image.load("Photo.jpg"))
 {
@@ -1241,8 +1241,8 @@ Resizes the image.
 | settings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | The resize settings. |
 
 
-**Example:**
-This example loads an image and resizes it using various resizing settings.
+**Example: This example loads an image and resizes it using various resizing settings.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1274,8 +1274,8 @@ try {
 ```
 
 
-**Example:**
-Resize image using specific Resize Type.
+**Example: Resize image using specific Resize Type.**
+
 ``` java
 try (Image image = Image.load("Photo.jpg"))
 {
@@ -1360,7 +1360,7 @@ Resizes the width proportionally.
 | resizeType | int | Type of the resize. |
 
 
-**Example:**
+**Example: This example loads an image and resizes it proportionally using various resizing methods.**
 This example loads an image and resizes it proportionally using various resizing methods. Only the width is specified, the height is calculated automatically.
 ``` java
 String dir = "c:\\temp\\";
@@ -1415,7 +1415,7 @@ Resizes the height proportionally.
 | resizeType | int | Type of the resize. |
 
 
-**Example:**
+**Example: This example loads an image and resizes it proportionally using various resizing methods.**
 This example loads an image and resizes it proportionally using various resizing methods. Only the height is specified, the width is calculated automatically.
 ``` java
 String dir = "c:\\temp\\";
@@ -1458,8 +1458,8 @@ try {
 ```
 
 
-**Example:**
-Using a segment mask to speed up the segmentation process
+**Example: Using a segment mask to speed up the segmentation process**
+
 ``` java
 // Masking export options
 com.aspose.imaging.imageoptions.PngOptions exportOptions = new com.aspose.imaging.imageoptions.PngOptions();
@@ -1570,7 +1570,7 @@ Rotates, flips, or rotates and flips the image.
 | rotateFlipType | int | Type of the rotation flip. |
 
 
-**Example:**
+**Example: This example demonstrates the use of Rotate operation on an image.**
 This example demonstrates the use of Rotate operation on an image. Example loads an existing image file from some disk location and performs the Rotate operation on the image according to the value of Enum com.aspose.imaging.RotateFlipType
 ``` java
 // Create an instance of image class and initialize it with an existing image file through File path
@@ -1595,8 +1595,8 @@ public final void save()
 Saves the image data to the underlying stream.
 
 
-**Example:**
-The following example shows how to save an entire BMP image or part of it to a file or stream.
+**Example: The following example shows how to save an entire BMP image or part of it to a file or stream.**
+
 ``` java
 String dir = "c:\\temp\\";
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "sample.bmp");
@@ -1678,7 +1678,7 @@ Saves the object's data to the specified file location in the specified file for
 | options | [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) | The options. |
 
 
-**Example:**
+**Example: This example shows the simple steps to Save an Image.**
 This example shows the simple steps to Save an Image. To demonstrate this operation, we load an existing file from some disk location and save the image in PSD format
 ``` java
 // Load an existing file from disk.
@@ -1707,8 +1707,8 @@ Saves the object's data to the specified file location in the specified file for
 | boundsRectangle | [Rectangle](../../com.aspose.imaging/rectangle) | The destination image bounds rectangle. Set the empty rectangle for use source bounds. |
 
 
-**Example:**
-The following example loads a BMP image from a file, then saves a rectangular part of the image to a PNG file.
+**Example: The following example loads a BMP image from a file, then saves a rectangular part of the image to a PNG file.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1767,7 +1767,7 @@ Saves the image's data to the specified stream in the specified file format acco
 | optionsBase | [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) | The save options. |
 
 
-**Example:**
+**Example: This example shows the process of saving an Image to memory buffer.**
 This example shows the process of saving an Image to memory buffer. To demonstrate this operation, example loads an existing file from some disk location and save the image in PSD format.
 ``` java
 java.io.ByteArrayOutputStream stream = new java.io.ByteArrayOutputStream();
@@ -1800,8 +1800,8 @@ Saves the image's data to the specified stream in the specified file format acco
 | boundsRectangle | [Rectangle](../../com.aspose.imaging/rectangle) | The destination image bounds rectangle. Set the empty rectangle for use source bounds. |
 
 
-**Example:**
-The following example loads an image from a file, then saves a rectangular part of the image to a PNG file stream.
+**Example: The following example loads an image from a file, then saves a rectangular part of the image to a PNG file stream.**
+
 ``` java
 String dir = "c:\\temp\\";
 

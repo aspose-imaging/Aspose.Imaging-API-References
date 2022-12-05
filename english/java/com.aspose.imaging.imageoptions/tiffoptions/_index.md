@@ -168,7 +168,7 @@ The tiff file format options. Note that width and height tags will get overwritt
 | [addTag(TiffDataType tagToAdd)](#addTag-com.aspose.imaging.fileformats.tiff.TiffDataType-) | Adds a new tag. |
 | [getTagByType(int tagKey)](#getTagByType-int-) | Gets the instance of the tag by type. |
 
-## Example
+## Example: This example demonstrates the use of different classes from SaveOptions Namespace for export purposes.
 This example demonstrates the use of different classes from SaveOptions Namespace for export purposes. An image of type Gif is loaded into an instance of Image and then exported out to several formats.
 ``` java
 String dir = "c:\\temp\\";
@@ -193,8 +193,8 @@ try {
 ```
 
 
-## Example
-The following example shows how to convert a multipage vector image to TIFF format in general way without referencing to a particular image type.
+## Example: The following example shows how to convert a multipage vector image to TIFF format in general way without referencing to a particular image type.
+
 ``` java
 String dir = "C:\\aspose.imaging\\net\\misc\\ImagingReleaseQATester\\Tests\\testdata\\2548\\";
 String inputFilePath = dir + "Multipage.cdr";
@@ -419,8 +419,8 @@ Gets or sets the subsampling factors for YCbCr photometric.
 | value | int[] | The subsampling factors for YCbCr photometric. |
 
 
-**Example:**
-This example shows how to save a raster image to the TIFF format using various options.
+**Example: This example shows how to save a raster image to the TIFF format using various options.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -569,8 +569,8 @@ Gets or sets a value indicating the tiff byte order.
 | value | int |  |
 
 
-**Example:**
-This example shows how to save a raster image to the TIFF format using various options.
+**Example: This example shows how to save a raster image to the TIFF format using various options.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -698,8 +698,8 @@ Sets the bits per sample.
 When setting this value keep in mind that it will also set SamplesPerPixel value to array length. These 2 properties are very tightly coupled so may be set altogether only. |
 
 
-**Example:**
-The following example shows how to create a grayscale copy of an existing frame and add it to a TIFF image.
+**Example: The following example shows how to create a grayscale copy of an existing frame and add it to a TIFF image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -782,8 +782,8 @@ Sets the compression.
 | value | int | The compression. |
 
 
-**Example:**
-This example shows how to create a TIFF image with 2 frames and save it to a file.
+**Example: This example shows how to create a TIFF image with 2 frames and save it to a file.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -879,8 +879,8 @@ Sets compressed image quality. Used with the Jpeg compression.
 | value | int | compressed image quality. |
 
 
-**Example:**
-This example shows how to create a TIFF image with the Jpeg compression and the specified compressed image quality.
+**Example: This example shows how to create a TIFF image with the Jpeg compression and the specified compressed image quality.**
+
 ``` java
 
 try (com.aspose.imaging.fileformats.tiff.TiffImage image = (com.aspose.imaging.fileformats.tiff.TiffImage) com.aspose.imaging.Image.load("c:\\temp\\zeebra.tif"))
@@ -1324,8 +1324,8 @@ Gets or sets the photometric.
 | value | int | The photometric. |
 
 
-**Example:**
-The following example shows how to create a grayscale copy of an existing frame and add it to a TIFF image.
+**Example: The following example shows how to create a grayscale copy of an existing frame and add it to a TIFF image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1396,8 +1396,8 @@ Gets or sets the planar configuration.
 | value | int | The planar configuration. |
 
 
-**Example:**
-This example shows how to create a TIFF image from scratch and save it to a file.
+**Example: This example shows how to create a TIFF image from scratch and save it to a file.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1970,8 +1970,8 @@ Gets or sets the predictor for LZW compression.
 | value | int | The predictor type. |
 
 
-**Example:**
-This example shows how to save a raster image to the TIFF format using various options.
+**Example: This example shows how to save a raster image to the TIFF format using various options.**
+
 ``` java
 String dir = "c:\\temp\\";
 

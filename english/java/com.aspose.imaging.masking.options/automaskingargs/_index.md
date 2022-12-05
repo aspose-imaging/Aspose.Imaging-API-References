@@ -38,7 +38,7 @@ Represents the arguments that are specified for automated masking methods
 | [getMaxIterationNumber()](#getMaxIterationNumber--) | Gets the maximum number of iterations. |
 | [setMaxIterationNumber(int value)](#setMaxIterationNumber-int-) | Sets the maximum number of iterations. |
 
-## Example
+## Example: This example shows how to decompose a raster image into multiple images using image masking and the K-means segmentation algorithm.
 This example shows how to decompose a raster image into multiple images using image masking and the K-means segmentation algorithm. Image masking is an image processing technique that is used to split the background from the foreground image objects.
 ``` java
 String dir = "c:\\temp\\";
@@ -102,7 +102,7 @@ try {
 ```
 
 
-## Example
+## Example: This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method.
 This example shows how to specify suggestions for image masking algorithm to improve precision of segmentation (clustering) method. Image masking is an image processing technique that is used to split the background from the foreground image objects.
 ``` java
 String dir = "c:\\temp\\";
@@ -172,8 +172,8 @@ try {
 ```
 
 
-## Example
-Using a segment mask to speed up the segmentation process
+## Example: Using a segment mask to speed up the segmentation process
+
 ``` java
 // Masking export options
 com.aspose.imaging.imageoptions.PngOptions exportOptions = new com.aspose.imaging.imageoptions.PngOptions();
@@ -243,8 +243,8 @@ finally
 ```
 
 
-## Example
-Saving the masking session to a file for long sessions, as well as for the possibility of resuming the session in another environment.
+## Example: Saving the masking session to a file for long sessions, as well as for the possibility of resuming the session in another environment.
+
 ``` java
 String dir = "c:\\temp\\";
 String sessionBackupFile = dir + "session.bak";

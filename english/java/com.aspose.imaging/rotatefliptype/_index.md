@@ -34,8 +34,8 @@ Specifies how much an image is rotated and the axis used to flip the image.
 | [Rotate180FlipXY](#Rotate180FlipXY) | Specifies a 180-degree clockwise rotation followed by a horizontal and vertical flip. |
 | [Rotate270FlipXY](#Rotate270FlipXY) | Specifies a 270-degree clockwise rotation followed by a horizontal and vertical flip. |
 
-## Example
-This example loads an image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically.
+## Example: This example loads an image, rotates it by 90 degrees clockwise and optionally flips the image horizontally and(or) vertically.
+
 ``` java
 String dir = "c:\\temp\\";
 

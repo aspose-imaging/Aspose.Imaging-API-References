@@ -42,8 +42,8 @@ EMF file format image.
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Sets the image palette. |
 | [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default options. |
 
-## Example
-This example shows how to load a EMF image from a file and convert it to SVG using EmfRasterizationOptions.
+## Example: This example shows how to load a EMF image from a file and convert it to SVG using EmfRasterizationOptions.
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -81,7 +81,7 @@ try {
 ```
 
 
-## Example
+## Example: The following example shows how to convert a compressed images (*.
 The following example shows how to convert a compressed images (*.emz,*.wmz, *.svgz) to raster format
 ``` java
 String[] files = new String[]{ "example.emz", "example.wmz", "example.svgz" };
@@ -103,8 +103,8 @@ for(String file : files)
 ```
 
 
-## Example
-The following example shows how to convert a emz images to emf format
+## Example: The following example shows how to convert a emz images to emf format
+
 ``` java
 String file = "example.emz";
 String baseFolder = "D:\\Compressed\\";
@@ -124,8 +124,8 @@ try (final com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputF
 ```
 
 
-## Example
-The following example shows how to convert a emf images to emz format
+## Example: The following example shows how to convert a emf images to emz format
+
 ``` java
 String file = "input.emf";
 String baseFolder = "D:\\Compressed\\";
@@ -279,8 +279,8 @@ public void cacheData()
 Caches the data and ensures no additional data loading will be performed from the underlying `DataStreamSupporter.DataStreamContainer`.
 
 
-**Example:**
-This example shows how to load a EMF image from a file and list all of its records.
+**Example: This example shows how to load a EMF image from a file and list all of its records.**
+
 ``` java
 String dir = "c:\\temp\\";
 

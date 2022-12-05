@@ -20,8 +20,8 @@ The TGA file format create options.
 | [TgaOptions()](#TgaOptions--) | Initializes a new instance of the [TgaOptions](../../com.aspose.imaging.imageoptions/tgaoptions) class. |
 | [TgaOptions(TgaOptions tgaOptions)](#TgaOptions-com.aspose.imaging.imageoptions.TgaOptions-) | Initializes a new instance of the [TgaOptions](../../com.aspose.imaging.imageoptions/tgaoptions) class. |
 
-## Example
-Saving of the JPG image as a TGA image.
+## Example: Saving of the JPG image as a TGA image.
+
 ``` java
 try (Image image = Image.load("test.jpg"))
 {

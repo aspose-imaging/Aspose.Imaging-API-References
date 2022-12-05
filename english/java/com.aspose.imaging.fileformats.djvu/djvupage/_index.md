@@ -155,8 +155,8 @@ Value: The page number.
 **Returns:**
 int
 
-**Example:**
-This example shows how to load a DJVU image from a file stream and print information about the pages.
+**Example: This example shows how to load a DJVU image from a file stream and print information about the pages.**
+
 ``` java
 String dir = "c:\\temp\\";
 

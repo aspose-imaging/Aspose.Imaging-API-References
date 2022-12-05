@@ -25,7 +25,7 @@ The GraphCut auto masking options.
 | [getFeatheringRadius()](#getFeatheringRadius--) | Gets the feathering radius. |
 | [setFeatheringRadius(int value)](#setFeatheringRadius-int-) | Sets the feathering radius. |
 
-## Example
+## Example: Saving image masking result with feathering based on image size.
 Saving image masking result with feathering based on image size. Image masking is performed using auto calculated default strokes. The Args property of AutoMaskingGraphCutOptions can be omitted since default strokes are placed there in the end.MaskingResult[] results;
 ``` java
 
@@ -66,7 +66,7 @@ for (MaskingResult res : results)
 ```
 
 
-## Example
+## Example: Saving Graph Cut image masking result with feathering set to 3.
 Saving Graph Cut image masking result with feathering set to 3. Image masking is performed using specified Point array.
 ``` java
 MaskingResult[] results;
@@ -113,7 +113,7 @@ for (MaskingResult res : results)
 ```
 
 
-## Example
+## Example: Saving image masking result with feathering based on image size.
 Saving image masking result with feathering based on image size. Image masking is performed using auto calculated default strokes. Additionally the data of the two assumed objects is also specified in the AssumedObjects property of the AutoMaskingGraphCutOptions.
 ``` java
 List<AssumedObjectData> assumedObjects = new LinkedList<AssumedObjectData>();
@@ -157,7 +157,7 @@ for (MaskingResult res : results)
 ```
 
 
-## Example
+## Example: Saving image masking result with feathering based on image size and re-using masking options for the new masking iteration.
 Saving image masking result with feathering based on image size and re-using masking options for the new masking iteration. Image masking is performed using auto calculated default strokes. Additionally the data of the two assumed objects is also specified in the AssumedObjects property of the AutoMaskingGraphCutOptions. After getting initial masking result, applied background/foreground strokes are modified and another masking iteration is performed.
 ``` java
 List<AssumedObjectData> assumedObjects = new LinkedList<AssumedObjectData>();
@@ -240,7 +240,7 @@ for (MaskingResult res : results)
 ```
 
 
-## Example
+## Example: Saving image masking result with feathering based on image size, modifying obtained default strokes and using it for the new masking iteration.
 Saving image masking result with feathering based on image size, modifying obtained default strokes and using it for the new masking iteration. Image masking is performed using auto calculated default strokes. Additionally the data of the two assumed objects is also specified in the AssumedObjects property of the AutoMaskingGraphCutOptions. After getting initial masking result, applied background/foreground strokes are modified and another masking iteration is performed using new GraphCutMaskingOptions instance.
 ``` java
 List<AssumedObjectData> assumedObjects = new LinkedList<AssumedObjectData>();
@@ -366,7 +366,7 @@ Sets the feathering radius.
 | value | int | the feathering radius. |
 
 
-**Example:**
+**Example: Saving image masking result with feathering based on image size.**
 Saving image masking result with feathering based on image size. Image masking is performed using auto calculated default strokes. The Args property of AutoMaskingGraphCutOptions can be omitted since default strokes are placed there in the end.MaskingResult[] results;
 ``` java
 
@@ -407,7 +407,7 @@ for (MaskingResult res : results)
 ```
 
 
-**Example:**
+**Example: Saving Graph Cut image masking result with feathering set to 3.**
 Saving Graph Cut image masking result with feathering set to 3. Image masking is performed using specified Point array.
 ``` java
 MaskingResult[] results;
@@ -454,7 +454,7 @@ for (MaskingResult res : results)
 ```
 
 
-**Example:**
+**Example: Saving image masking result with feathering based on image size.**
 Saving image masking result with feathering based on image size. Image masking is performed using auto calculated default strokes. Additionally the data of the two assumed objects is also specified in the AssumedObjects property of the AutoMaskingGraphCutOptions.
 ``` java
 List<AssumedObjectData> assumedObjects = new LinkedList<AssumedObjectData>();
@@ -498,7 +498,7 @@ for (MaskingResult res : results)
 ```
 
 
-**Example:**
+**Example: Saving image masking result with feathering based on image size and re-using masking options for the new masking iteration.**
 Saving image masking result with feathering based on image size and re-using masking options for the new masking iteration. Image masking is performed using auto calculated default strokes. Additionally the data of the two assumed objects is also specified in the AssumedObjects property of the AutoMaskingGraphCutOptions. After getting initial masking result, applied background/foreground strokes are modified and another masking iteration is performed.
 ``` java
 List<AssumedObjectData> assumedObjects = new LinkedList<AssumedObjectData>();
@@ -581,7 +581,7 @@ for (MaskingResult res : results)
 ```
 
 
-**Example:**
+**Example: Saving image masking result with feathering based on image size, modifying obtained default strokes and using it for the new masking iteration.**
 Saving image masking result with feathering based on image size, modifying obtained default strokes and using it for the new masking iteration. Image masking is performed using auto calculated default strokes. Additionally the data of the two assumed objects is also specified in the AssumedObjects property of the AutoMaskingGraphCutOptions. After getting initial masking result, applied background/foreground strokes are modified and another masking iteration is performed using new GraphCutMaskingOptions instance.
 ``` java
 List<AssumedObjectData> assumedObjects = new LinkedList<AssumedObjectData>();

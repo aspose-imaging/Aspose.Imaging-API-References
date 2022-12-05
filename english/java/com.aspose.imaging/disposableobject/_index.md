@@ -53,8 +53,8 @@ public final void dispose()
 Disposes the current instance.
 
 
-**Example:**
-The following example shows how to compose a mutlipage TIFF from individual raster images.
+**Example: The following example shows how to compose a mutlipage TIFF from individual raster images.**
+
 ``` java
 
 com.aspose.imaging.imageoptions.TiffOptions createTiffOptions

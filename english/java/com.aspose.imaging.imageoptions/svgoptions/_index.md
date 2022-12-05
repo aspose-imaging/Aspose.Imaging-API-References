@@ -34,8 +34,8 @@ The SVG file format creation options.
 | [getCompress()](#getCompress--) | Gets a value indicating whether this \{@link \#\#Aspose\#FileFormats\#Core\#ImageOptions\} is compressed. |
 | [setCompress(boolean value)](#setCompress-boolean-) | Sets a value indicating whether this \{@link \#\#Aspose\#FileFormats\#Core\#ImageOptions\} is compressed. |
 
-## Example
-The following example shows how to convert a multipage vector image to SVG format in general way without referencing to a particular image type.
+## Example: The following example shows how to convert a multipage vector image to SVG format in general way without referencing to a particular image type.
+
 ``` java
 String dir = "C:\\aspose.imaging\\net\\misc\\ImagingReleaseQATester\\Tests\\testdata\\2548";
 String inputFilePath = (dir + "Multipage.cdr");
@@ -67,8 +67,8 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputFilePat
 ```
 
 
-## Example
-The following example shows how to convert a svgz images to svg format
+## Example: The following example shows how to convert a svgz images to svg format
+
 ``` java
 String file = "example.svgz";
 String baseFolder = "D:\\Compressed\\";
@@ -85,8 +85,8 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputFile))
 ```
 
 
-## Example
-The following example shows how to convert a svg images to svgz format
+## Example: The following example shows how to convert a svg images to svgz format
+
 ``` java
 String file = "juanmontoya_lingerie.svg";
 String baseFolder = "D:\\Compressed\\";
@@ -156,8 +156,8 @@ Gets or sets a value indicating whether text must be converted as shapes.
 | value | boolean | `true` if all text is turned into SVG shapes in the convertion; otherwise, `false`. |
 
 
-**Example:**
-This example shows how to load a EMF image from a file and convert it to SVG using EmfRasterizationOptions.
+**Example: This example shows how to load a EMF image from a file and convert it to SVG using EmfRasterizationOptions.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -245,8 +245,8 @@ Value: `true` if compressed; otherwise, `false`.
 | value | boolean | a value indicating whether this \{@link \#\#Aspose\#FileFormats\#Core\#ImageOptions\} is compressed. |
 
 
-**Example:**
-The following example shows how to convert a svg images to svgz format
+**Example: The following example shows how to convert a svg images to svgz format**
+
 ``` java
 String file = "juanmontoya_lingerie.svg";
 String baseFolder = "D:\\Compressed\\";

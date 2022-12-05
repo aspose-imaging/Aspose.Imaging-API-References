@@ -35,8 +35,8 @@ Specifies the resize type.
 | [SinC](#SinC) | The Sinc (Lanczos3) cubic interpolation method |
 | [Bell](#Bell) | The Bell interpolation method |
 
-## Example
-This example loads an image and resizes it using various resizing methods.
+## Example: This example loads an image and resizes it using various resizing methods.
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -78,8 +78,8 @@ try {
 ```
 
 
-## Example
-Resize image using specific Resize Type.
+## Example: Resize image using specific Resize Type.
+
 ``` java
 try (Image image = Image.load("Photo.jpg"))
 {

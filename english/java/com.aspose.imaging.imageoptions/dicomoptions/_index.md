@@ -30,8 +30,8 @@ The DICOM file format creation options.
 | [getXmpData()](#getXmpData--) | Gets the Xmp data. |
 | [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets the Xmp data. |
 
-## Example
-The following example shows export to DICOM file format (single and multipage).
+## Example: The following example shows export to DICOM file format (single and multipage).
+
 ``` java
 String fileName = "sample.jpg";
 String inputFileNameSingle = fileName;
@@ -53,8 +53,8 @@ try(com.aspose.imaging.Image imageMultiple = com.aspose.imaging.Image.load(input
 ```
 
 
-## Example
-Create a multi-page Dicom image.
+## Example: Create a multi-page Dicom image.
+
 ``` java
         
 try (DicomOptions dicomOptions = new DicomOptions())
@@ -97,8 +97,8 @@ try (DicomOptions dicomOptions = new DicomOptions())
 ```
 
 
-## Example
-Use JPEG compression in DICOM image.
+## Example: Use JPEG compression in DICOM image.
+
 ``` java
 try (Image inputImage = Image.load("original.jpg"))
 {
@@ -120,8 +120,8 @@ try (Image inputImage = Image.load("original.jpg"))
 ```
 
 
-## Example
-Use JPEG 2000 compression in DICOM image.
+## Example: Use JPEG 2000 compression in DICOM image.
+
 ``` java
 try (Image inputImage = Image.load("original.jpg"))
 {
@@ -142,8 +142,8 @@ try (Image inputImage = Image.load("original.jpg"))
 ```
 
 
-## Example
-Use RLE compression in DICOM image.
+## Example: Use RLE compression in DICOM image.
+
 ``` java
 try (Image inputImage = Image.load("original.jpg"))
 {
@@ -159,8 +159,8 @@ try (Image inputImage = Image.load("original.jpg"))
 ```
 
 
-## Example
-Change Color Type in DICOM compression.
+## Example: Change Color Type in DICOM compression.
+
 ``` java
 try (Image inputImage = Image.load("original.jpg"))
 {
@@ -245,8 +245,8 @@ Value: The type of the color.
 | value | int | the type of the color. |
 
 
-**Example:**
-Use JPEG compression in DICOM image.
+**Example: Use JPEG compression in DICOM image.**
+
 ``` java
 try (Image inputImage = Image.load("original.jpg"))
 {
@@ -268,8 +268,8 @@ try (Image inputImage = Image.load("original.jpg"))
 ```
 
 
-**Example:**
-Use JPEG 2000 compression in DICOM image.
+**Example: Use JPEG 2000 compression in DICOM image.**
+
 ``` java
 try (Image inputImage = Image.load("original.jpg"))
 {
@@ -290,8 +290,8 @@ try (Image inputImage = Image.load("original.jpg"))
 ```
 
 
-**Example:**
-Use RLE compression in DICOM image.
+**Example: Use RLE compression in DICOM image.**
+
 ``` java
 try (Image inputImage = Image.load("original.jpg"))
 {
@@ -307,8 +307,8 @@ try (Image inputImage = Image.load("original.jpg"))
 ```
 
 
-**Example:**
-Change Color Type in DICOM compression.
+**Example: Change Color Type in DICOM compression.**
+
 ``` java
 try (Image inputImage = Image.load("original.jpg"))
 {

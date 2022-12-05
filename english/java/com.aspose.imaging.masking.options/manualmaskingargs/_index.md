@@ -28,7 +28,7 @@ Represents the arguments that are specified for manual masking method
 | [getMask()](#getMask--) | Gets the set of graphic shapes that form mask. |
 | [setMask(GraphicsPath value)](#setMask-com.aspose.imaging.GraphicsPath-) | Sets the set of graphic shapes that form mask. |
 
-## Example
+## Example: This example shows how to decompose a raster image into multiple images using image masking and a manual mask.
 This example shows how to decompose a raster image into multiple images using image masking and a manual mask. Image masking is an image processing technique that is used to split the background from the foreground image objects.
 ``` java
 String dir = "c:\\temp\\";

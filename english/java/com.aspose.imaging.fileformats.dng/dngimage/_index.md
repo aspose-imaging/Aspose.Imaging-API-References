@@ -29,8 +29,8 @@ Dng image representation class
 | [getImgData()](#getImgData--) | Gets or sets the img data. |
 | [setImgData(RawData value)](#setImgData-com.aspose.imaging.fileformats.dng.decoder.RawData-) | Gets or sets the img data. |
 
-## Example
-This example shows how to load a DNG image from a file, print its properties and save it to PNG.
+## Example: This example shows how to load a DNG image from a file, print its properties and save it to PNG.
+
 ``` java
 String dir = "c:\\temp\\";
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load(dir + "test.dng");

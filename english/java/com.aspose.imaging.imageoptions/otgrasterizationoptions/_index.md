@@ -20,8 +20,8 @@ The Otg rasterization options
 | [OtgRasterizationOptions()](#OtgRasterizationOptions--) |  |
 | [OtgRasterizationOptions(VectorRasterizationOptions imageOptions)](#OtgRasterizationOptions-com.aspose.imaging.imageoptions.VectorRasterizationOptions-) |  |
 
-## Example
-The following code snippet demonstrates how to convert an OTG image to PDF and other image formats.
+## Example: The following code snippet demonstrates how to convert an OTG image to PDF and other image formats.
+
 ``` java
 String dir = "c:\\aspose.imaging\\issues\\java\\1461\\";
 String inputFilePath = dir + "VariousObjectsMultiPage.otg";

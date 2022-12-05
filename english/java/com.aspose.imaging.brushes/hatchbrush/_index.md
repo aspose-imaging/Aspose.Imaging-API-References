@@ -29,7 +29,7 @@ Defines a rectangular brush with a hatch style, a foreground color, and a backgr
 | [getHatchStyle()](#getHatchStyle--) | Gets the hatch style of this brush. |
 | [setHatchStyle(int value)](#setHatchStyle-int-) | Sets the hatch style of this brush. |
 
-## Example
+## Example: This example shows the creation and usage Pen objects.
 This example shows the creation and usage Pen objects. The example creates a new Image and draw Rectangles on Image surface.
 ``` java
 
@@ -115,7 +115,7 @@ Sets the color of hatch lines.
 | value | [Color](../../com.aspose.imaging/color) | The color of hatch lines. |
 
 
-**Example:**
+**Example: This example shows the creation and usage Pen objects.**
 This example shows the creation and usage Pen objects. The example creates a new Image and draw Rectangles on Image surface.
 ``` java
 
@@ -195,7 +195,7 @@ Sets the color of spaces between the hatch lines.
 | value | [Color](../../com.aspose.imaging/color) | The color of spaces between the hatch lines. |
 
 
-**Example:**
+**Example: This example shows the creation and usage Pen objects.**
 This example shows the creation and usage Pen objects. The example creates a new Image and draw Rectangles on Image surface.
 ``` java
 

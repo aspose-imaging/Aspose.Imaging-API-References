@@ -41,7 +41,7 @@ Defines a particular format for text, including font face, size, and style attri
 | [hashCode()](#hashCode--) | Gets the hash code for this `com.aspose.imaging.Font`. |
 | [toString()](#toString--) | Returns a human-readable string representation of this `com.aspose.imaging.Font`. |
 
-## Example
+## Example: This example demonstrates the use of Font and SolidBrush class to draw strings on Image surface.
 This example demonstrates the use of Font and SolidBrush class to draw strings on Image surface. The example creates a new Image and draw shapes using Figures and GraphicsPath
 ``` java
 //Creates an instance of BmpOptions and set its various properties

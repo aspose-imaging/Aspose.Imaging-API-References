@@ -37,8 +37,8 @@ Provides drawing commands to compose an Svg image.
 | [fillRectangle(Pen pen, Brush brush, int x, int y, int width, int height)](#fillRectangle-com.aspose.imaging.Pen-com.aspose.imaging.Brush-int-int-int-int-) | Fills the rectangle. |
 | [endRecording()](#endRecording--) | Gets the final Svg image which includes all drawing commands performed via [SvgGraphics2D](../../com.aspose.imaging.fileformats.svg.graphics/svggraphics2d) object. |
 
-## Example
-This example shows how to create an SVG image of the specified size and draw different shapes on it using SvgGraphics2D.
+## Example: This example shows how to create an SVG image of the specified size and draw different shapes on it using SvgGraphics2D.
+
 ``` java
 String dir = "c:\\temp\\";
 

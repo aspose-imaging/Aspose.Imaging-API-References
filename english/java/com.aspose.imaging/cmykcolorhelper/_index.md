@@ -63,8 +63,8 @@ Gets the cyan component value.
 **Returns:**
 int - The cyan component value.
 
-**Example:**
-The following example shows how to convert RGB colors to their CMYK counterparts without applying ICC profiles.
+**Example: The following example shows how to convert RGB colors to their CMYK counterparts without applying ICC profiles.**
+
 ``` java
 com.aspose.imaging.Color[] rgbColors = new com.aspose.imaging.Color[]
         {
@@ -107,8 +107,8 @@ Gets the magenta component value.
 **Returns:**
 int - The magenta component value.
 
-**Example:**
-The following example shows how to convert RGB colors to their CMYK counterparts without applying ICC profiles.
+**Example: The following example shows how to convert RGB colors to their CMYK counterparts without applying ICC profiles.**
+
 ``` java
 com.aspose.imaging.Color[] rgbColors = new com.aspose.imaging.Color[]
         {
@@ -151,8 +151,8 @@ Gets the yellow component value.
 **Returns:**
 int - The yellow component value.
 
-**Example:**
-The following example shows how to convert RGB colors to their CMYK counterparts without applying ICC profiles.
+**Example: The following example shows how to convert RGB colors to their CMYK counterparts without applying ICC profiles.**
+
 ``` java
 com.aspose.imaging.Color[] rgbColors = new com.aspose.imaging.Color[]
         {
@@ -195,8 +195,8 @@ Gets the black component value.
 **Returns:**
 int - The black component value.
 
-**Example:**
-The following example shows how to convert RGB colors to their CMYK counterparts without applying ICC profiles.
+**Example: The following example shows how to convert RGB colors to their CMYK counterparts without applying ICC profiles.**
+
 ``` java
 com.aspose.imaging.Color[] rgbColors = new com.aspose.imaging.Color[]
         {
@@ -242,8 +242,8 @@ Creates CMYK from a 32-bit cyan, magenta, yellow and black values.
 **Returns:**
 int - The CMYK color presented as a 32-bit integer value.
 
-**Example:**
-The following example shows how to convert CMYK colors to their RGB counterparts in a fast manner following straightforward formulas without using ICC profiles.
+**Example: The following example shows how to convert CMYK colors to their RGB counterparts in a fast manner following straightforward formulas without using ICC profiles.**
+
 ``` java
 int[] cmykColors = new int[]
         {
@@ -335,8 +335,8 @@ The conversion from ARGB color to CMYK color.
 **Returns:**
 int - The CMYK color presented as a 32-bit integer value.
 
-**Example:**
-The following example shows how to convert RGB colors to their CMYK counterparts without applying ICC profiles.
+**Example: The following example shows how to convert RGB colors to their CMYK counterparts without applying ICC profiles.**
+
 ``` java
 com.aspose.imaging.Color[] rgbColors = new com.aspose.imaging.Color[]
         {
@@ -409,8 +409,8 @@ The conversion from CMYK color to ARGB color.
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The ARGB color.
 
-**Example:**
-The following example shows how to convert CMYK colors to their RGB counterparts in a fast manner following straightforward formulas without using ICC profiles.
+**Example: The following example shows how to convert CMYK colors to their RGB counterparts in a fast manner following straightforward formulas without using ICC profiles.**
+
 ``` java
 int[] cmykColors = new int[]
         {
@@ -502,8 +502,8 @@ The conversion from CMYK color to ARGB Color using Icc conversion with default p
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The ARGB color.
 
-**Example:**
-The following example shows how to convert CMYK colors to their RGB counterparts using ICC profiles.
+**Example: The following example shows how to convert CMYK colors to their RGB counterparts using ICC profiles.**
+
 ``` java
 int[] cmykColors = new int[]
         {
@@ -595,8 +595,8 @@ The conversion from CMYK color to ARGB color using Icc conversion with custom pr
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The ARGB color.
 
-**Example:**
-The following example shows how to convert CMYK colors to their RGB counterparts using ICC profiles.
+**Example: The following example shows how to convert CMYK colors to their RGB counterparts using ICC profiles.**
+
 ``` java
 int[] cmykColors = new int[]
         {
@@ -801,8 +801,8 @@ The conversion from ARGB color to CMYK color using Icc conversion with default p
 **Returns:**
 int - The CMYK color presented as a 32-bit integer value.
 
-**Example:**
-The following example shows how to convert RGB colors to their CMYK counterparts using ICC profiles.
+**Example: The following example shows how to convert RGB colors to their CMYK counterparts using ICC profiles.**
+
 ``` java
 com.aspose.imaging.Color[] rgbColors = new com.aspose.imaging.Color[]
         {
@@ -923,8 +923,8 @@ The conversion from ARGB color to CMYK color using Icc conversion with custom pr
 **Returns:**
 int - The CMYK color presented as a 32-bit integer value.
 
-**Example:**
-The following example shows how to convert RGB colors to their CMYK counterparts using ICC profiles.
+**Example: The following example shows how to convert RGB colors to their CMYK counterparts using ICC profiles.**
+
 ``` java
 com.aspose.imaging.Color[] rgbColors = new com.aspose.imaging.Color[]
         {

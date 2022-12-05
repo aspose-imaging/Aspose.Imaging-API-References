@@ -57,8 +57,8 @@ A jpeg image.
 | [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | Sets the resolution for this `RasterImage`. |
 | [autoRotate()](#autoRotate--) | Perform automatic rotate of image depending on orientation data provided by Exif. |
 
-## Example
-The example shows how to load a JpegImage from a file.
+## Example: The example shows how to load a JpegImage from a file.
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -74,8 +74,8 @@ try {
 ```
 
 
-## Example
-Access camera manufacturer maker notes in Jpeg image.
+## Example: Access camera manufacturer maker notes in Jpeg image.
+
 ``` java
 try (JpegImage image = (JpegImage)Image.load("Sample.jpg"))
 {
@@ -175,8 +175,8 @@ Gets the JPEG options used to create or load this `JpegImage` instance.
 **Returns:**
 [JpegOptions](../../com.aspose.imaging.imageoptions/jpegoptions) - The JPEG options.
 
-**Example:**
-The following example shows how to extract the header information from a JPEG image.
+**Example: The following example shows how to extract the header information from a JPEG image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -257,8 +257,8 @@ Get or set exif data container
 **Returns:**
 [JpegExifData](../../com.aspose.imaging.exif/jpegexifdata)
 
-**Example:**
-The following example shows how to extract EXIF tags from a JPEG image.
+**Example: The following example shows how to extract EXIF tags from a JPEG image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -393,8 +393,8 @@ double - The horizontal resolution.
 
 Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the SetResolution method for updating both resolution values in single call.
 
-**Example:**
-The following example shows how to set horizontal/vertical resolution of a JPEG image.
+**Example: The following example shows how to set horizontal/vertical resolution of a JPEG image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -489,8 +489,8 @@ double - The vertical resolution.
 
 Note by default this value is always 72 since different platforms cannot return the screen resolution. You may consider using the SetResolution method for updating both resolution values in single call.
 
-**Example:**
-The following example shows how to set horizontal/vertical resolution of a JPEG image.
+**Example: The following example shows how to set horizontal/vertical resolution of a JPEG image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -573,7 +573,7 @@ The RGB color profile for CMYK and YCCK jpeg images. Must be in pair with CMYKCo
 | value | [StreamSource](../../com.aspose.imaging.sources/streamsource) |  |
 
 
-**Example:**
+**Example: The following example loads PNG and saves it to CMYK JPEG using custom ICC profile.**
 The following example loads PNG and saves it to CMYK JPEG using custom ICC profile. Then loads CMYK JPEG and saves it back to PNG. The color conversion from RGB to CMYK and from CMYK to RGB is performed using custom ICC profiles.
 ``` java
 String dir = "c:\\temp\\";
@@ -645,7 +645,7 @@ The CMYK color profile for CMYK and YCCK jpeg images. Must be in pair with RGBCo
 | value | [StreamSource](../../com.aspose.imaging.sources/streamsource) |  |
 
 
-**Example:**
+**Example: The following example loads PNG and saves it to CMYK JPEG using custom ICC profile.**
 The following example loads PNG and saves it to CMYK JPEG using custom ICC profile. Then loads CMYK JPEG and saves it back to PNG. The color conversion from RGB to CMYK and from CMYK to RGB is performed using custom ICC profiles.
 ``` java
 String dir = "c:\\temp\\";
@@ -777,8 +777,8 @@ Sets the resolution for this `RasterImage`.
 | dpiY | double | The vertical resolution, in dots per inch, of the `RasterImage`. |
 
 
-**Example:**
-The following example shows how to set horizontal/vertical resolution of a JPEG image.
+**Example: The following example shows how to set horizontal/vertical resolution of a JPEG image.**
+
 ``` java
 String dir = "c:\\temp\\";
 

@@ -23,13 +23,13 @@ The animated PNG file format options
 
 | Method | Description |
 | --- | --- |
-| [getNumPlays()](#getNumPlays--) | Gets the number of times to loop animation. 0 indicates infinite looping. |
-| [setNumPlays(int value)](#setNumPlays-int-) | Sets the number of times to loop animation. 0 indicates infinite looping. |
+| [getNumPlays()](#getNumPlays--) | Gets the number of times to loop animation. |
+| [setNumPlays(int value)](#setNumPlays-int-) | Sets the number of times to loop animation. |
 | [getDefaultFrameTime()](#getDefaultFrameTime--) | Gets the default frame duration. |
 | [setDefaultFrameTime(long value)](#setDefaultFrameTime-long-) | Sets the default frame duration. |
 
-## Example
-The following example shows how to export to APNG file format.
+## Example: The following example shows how to export to APNG file format.
+
 ``` java
 
 import com.aspose.imaging;
@@ -47,8 +47,8 @@ try (Image image = Image.load("Animation1.webp"))
 ```
 
 
-## Example
-The following example shows how to export apng APNG file format from other non-animated multi-page format.
+## Example: The following example shows how to export apng APNG file format from other non-animated multi-page format.
+
 ``` java
 import com.aspose.imaging;
 import com.aspose.imaging.imageoptions;
@@ -96,8 +96,8 @@ Gets the number of times to loop animation. 0 indicates infinite looping.
 **Returns:**
 int
 
-**Example:**
-The following example shows how to export to APNG file format.
+**Example: The following example shows how to export to APNG file format.**
+
 ``` java
 
 import com.aspose.imaging;
@@ -128,8 +128,8 @@ Sets the number of times to loop animation. 0 indicates infinite looping.
 | value | int |  |
 
 
-**Example:**
-The following example shows how to export to APNG file format.
+**Example: The following example shows how to export to APNG file format.**
+
 ``` java
 
 import com.aspose.imaging;

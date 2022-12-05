@@ -34,8 +34,8 @@ The Jpeg2000 file format options.
 | [getIrreversible()](#getIrreversible--) | Gets a value indicating whether use the irreversible DWT 9-7 (true) or use lossless DWT 5-3 compression (default). |
 | [setIrreversible(boolean value)](#setIrreversible-boolean-) | Sets a value indicating whether use the irreversible DWT 9-7 (true) or use lossless DWT 5-3 compression (default). |
 
-## Example
-The following example shows how to convert a multipage vector image to JPEG 2000 format in general way without referencing to a particular image type.
+## Example: The following example shows how to convert a multipage vector image to JPEG 2000 format in general way without referencing to a particular image type.
+
 ``` java
 String dir = "C:\\aspose.imaging\\net\\misc\\ImagingReleaseQATester\\Tests\\testdata\\2548";
 String inputFilePath = (dir + "Multipage.cdr");
@@ -157,8 +157,8 @@ Gets or sets the JPEG2000 codec
 | value | int | The JPEG2000 codec |
 
 
-**Example:**
-This example shows how to create a PNG image and save it to JPEG2000 with the desired options.
+**Example: This example shows how to create a PNG image and save it to JPEG2000 with the desired options.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -234,8 +234,8 @@ Sets a value indicating whether use the irreversible DWT 9-7 (true) or use lossl
 | value | boolean | a value indicating whether use the irreversible DWT 9-7 (true) or use lossless DWT 5-3 compression |
 
 
-**Example:**
-This example shows how to create a PNG image and save it to JPEG2000 with the desired options.
+**Example: This example shows how to create a PNG image and save it to JPEG2000 with the desired options.**
+
 ``` java
 String dir = "c:\\temp\\";
 

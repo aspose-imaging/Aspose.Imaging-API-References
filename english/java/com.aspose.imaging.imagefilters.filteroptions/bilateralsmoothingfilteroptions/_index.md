@@ -34,8 +34,8 @@ The Bilateral Smoothing Filter Options.
 | [getColorPower()](#getColorPower--) | Gets or sets the color power. |
 | [setColorPower(double value)](#setColorPower-double-) | Gets or sets the color power. |
 
-## Example
-The following example applies various types of filters to a raster image.
+## Example: The following example applies various types of filters to a raster image.
+
 ``` java
 String dir = "c:\\temp\\";
 

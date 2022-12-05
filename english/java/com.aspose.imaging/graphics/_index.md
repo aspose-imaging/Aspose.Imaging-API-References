@@ -126,11 +126,11 @@ Represents the graphics according to the graphics engine used in the current ass
 | [drawClosedCurve(Pen pen, PointF[] points, float tension)](#drawClosedCurve-com.aspose.imaging.Pen-com.aspose.imaging.PointF---float-) | Draws a closed cardinal spline defined by an array of `PointF` structures using a specified tension. |
 | [drawClosedCurve(Pen pen, Point[] points)](#drawClosedCurve-com.aspose.imaging.Pen-com.aspose.imaging.Point---) | Draws a closed cardinal spline defined by an array of `Point` structures. |
 | [drawClosedCurve(Pen pen, Point[] points, float tension)](#drawClosedCurve-com.aspose.imaging.Pen-com.aspose.imaging.Point---float-) | Draws a closed cardinal spline defined by an array of `Point` structures using a specified tension. |
-| [drawBezier(Pen pen, float x1, float y1, float x2, float y2, float x3, float y3, float x4, float y4)](#drawBezier-com.aspose.imaging.Pen-float-float-float-float-float-float-float-float-) | Draws a B?zier spline defined by four ordered pairs of coordinates that represent points. |
-| [drawBezier(Pen pen, PointF pt1, PointF pt2, PointF pt3, PointF pt4)](#drawBezier-com.aspose.imaging.Pen-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-) | Draws a B?zier spline defined by four `PointF` structures. |
-| [drawBezier(Pen pen, Point pt1, Point pt2, Point pt3, Point pt4)](#drawBezier-com.aspose.imaging.Pen-com.aspose.imaging.Point-com.aspose.imaging.Point-com.aspose.imaging.Point-com.aspose.imaging.Point-) | Draws a B?zier spline defined by four `Point` structures. |
-| [drawBeziers(Pen pen, Point[] points)](#drawBeziers-com.aspose.imaging.Pen-com.aspose.imaging.Point---) | Draws a series of B?zier splines from an array of `Point` structures. |
-| [drawBeziers(Pen pen, PointF[] points)](#drawBeziers-com.aspose.imaging.Pen-com.aspose.imaging.PointF---) | Draws a series of B?zier splines from an array of `PointF` structures. |
+| [drawBezier(Pen pen, float x1, float y1, float x2, float y2, float x3, float y3, float x4, float y4)](#drawBezier-com.aspose.imaging.Pen-float-float-float-float-float-float-float-float-) | Draws a Bézier spline defined by four ordered pairs of coordinates that represent points. |
+| [drawBezier(Pen pen, PointF pt1, PointF pt2, PointF pt3, PointF pt4)](#drawBezier-com.aspose.imaging.Pen-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-) | Draws a Bézier spline defined by four `PointF` structures. |
+| [drawBezier(Pen pen, Point pt1, Point pt2, Point pt3, Point pt4)](#drawBezier-com.aspose.imaging.Pen-com.aspose.imaging.Point-com.aspose.imaging.Point-com.aspose.imaging.Point-com.aspose.imaging.Point-) | Draws a Bézier spline defined by four `Point` structures. |
+| [drawBeziers(Pen pen, Point[] points)](#drawBeziers-com.aspose.imaging.Pen-com.aspose.imaging.Point---) | Draws a series of Bézier splines from an array of `Point` structures. |
+| [drawBeziers(Pen pen, PointF[] points)](#drawBeziers-com.aspose.imaging.Pen-com.aspose.imaging.PointF---) | Draws a series of Bézier splines from an array of `PointF` structures. |
 | [drawString(String s, Font font, Brush brush, float x, float y)](#drawString-java.lang.String-com.aspose.imaging.Font-com.aspose.imaging.Brush-float-float-) | Draws the specified text string at the specified location with the specified `com.aspose.imaging.Brush` and `com.aspose.imaging.Font` objects. |
 | [drawString(String s, Font font, Brush brush, PointF point)](#drawString-java.lang.String-com.aspose.imaging.Font-com.aspose.imaging.Brush-com.aspose.imaging.PointF-) | Draws the specified text string at the specified location with the specified `com.aspose.imaging.Brush` and `com.aspose.imaging.Font` objects. |
 | [drawString(String s, Font font, Brush brush, float x, float y, StringFormat format)](#drawString-java.lang.String-com.aspose.imaging.Font-com.aspose.imaging.Brush-float-float-com.aspose.imaging.StringFormat-) | Draws the specified text string at the specified location with the specified `com.aspose.imaging.Brush` and `com.aspose.imaging.Font` objects using the formatting attributes of the specified `com.aspose.imaging.stringFormat`. |
@@ -160,7 +160,7 @@ Represents the graphics according to the graphics engine used in the current ass
 | [fillRegion(Brush brush, Region region)](#fillRegion-com.aspose.imaging.Brush-com.aspose.imaging.Region-) | Fills the interior of a `com.aspose.imaging.region`. |
 | [measureString(String text, Font font, SizeF layoutArea, StringFormat stringFormat)](#measureString-java.lang.String-com.aspose.imaging.Font-com.aspose.imaging.SizeF-com.aspose.imaging.StringFormat-) | Measures the specified text string with specified parameters |
 
-## Example
+## Example: This example uses Graphics class to create primitive shapes on the Image surface.
 This example uses Graphics class to create primitive shapes on the Image surface. To demonstrate the operation, the example creates a new Image in PNG format and draw primitive shapes on Image surface using Draw methods exposed by Graphics class
 ``` java
 // Creates an instance of FileStream
@@ -262,8 +262,8 @@ try {
 ```
 
 
-## Example
-Support of PixelPerfect text alignment
+## Example: Support of PixelPerfect text alignment
+
 ``` java
 String outputFileName = "TestExactAlignment.png";
 try (com.aspose.imaging.imageoptions.PngOptions pngOptions = new com.aspose.imaging.imageoptions.PngOptions())
@@ -662,7 +662,7 @@ Starts caching of the following graphics operations. The graphics effects applie
 Note the effects after BeginUpdate is called will not be applied in case EndUpdate is not called.
 
 
-**Example:**
+**Example: The following example shows how to set a memory limit when creating a PNG image and drawing complex graphics on it.**
 The following example shows how to set a memory limit when creating a PNG image and drawing complex graphics on it. The memory limit is the maximum allowed size (in megabytes) for all internal buffers.
 ``` java
 String workDir = "c:\\temp\\";
@@ -744,7 +744,7 @@ public void endUpdate()
 Finishes caching of the graphics operations started after BeginUpdate was called. The preceding graphics operations will be applied at once when calling this method.
 
 
-**Example:**
+**Example: The following example shows how to set a memory limit when creating a PNG image and drawing complex graphics on it.**
 The following example shows how to set a memory limit when creating a PNG image and drawing complex graphics on it. The memory limit is the maximum allowed size (in megabytes) for all internal buffers.
 ``` java
 String workDir = "c:\\temp\\";
@@ -831,7 +831,7 @@ Clears the graphics surface using the specified color.
 | color | [Color](../../com.aspose.imaging/color) | The color to clear the graphics surface by. |
 
 
-**Example:**
+**Example: This examples make use of GraphicsPath and Graphics class to create and manipulate Figures on an Image surface.**
 This examples make use of GraphicsPath and Graphics class to create and manipulate Figures on an Image surface. Example creates a new Image (of type Tiff) and draw paths with the help of GraphicsPath class. At the end DrawPath method exposed by Graphics class is called to render the paths on surface.
 ``` java
 // Create an instance of FileStream
@@ -899,7 +899,7 @@ Draws a line connecting two `Point` structures.
 | point2 | [Point](../../com.aspose.imaging/point) | `Point` structure that represents the second point to connect. |
 
 
-**Example:**
+**Example: This example uses Graphics class to create primitive shapes on the Image surface.**
 This example uses Graphics class to create primitive shapes on the Image surface. To demonstrate the operation, the example creates a new Image in PNG format and draw primitive shapes on Image surface using Draw methods exposed by Graphics class
 ``` java
 // Creates an instance of FileStream
@@ -1196,7 +1196,7 @@ Draws a rectangle specified by a `Rectangle` structure.
 | rect | [Rectangle](../../com.aspose.imaging/rectangle) | A `Rectangle` structure that represents the rectangle to draw. |
 
 
-**Example:**
+**Example: This example uses Graphics class to create primitive shapes on the Image surface.**
 This example uses Graphics class to create primitive shapes on the Image surface. To demonstrate the operation, the example creates a new Image in PNG format and draw primitive shapes on Image surface using Draw methods exposed by Graphics class
 ``` java
 // Creates an instance of FileStream
@@ -1360,7 +1360,7 @@ Draws a series of rectangles specified by `Rectangle` structures.
 | rects | [Rectangle\[\]](../../com.aspose.imaging/rectangle) | Array of `Rectangle` structures that represent the rectangles to draw. |
 
 
-**Example:**
+**Example: This example shows the creation and usage Pen objects.**
 This example shows the creation and usage Pen objects. The example creates a new Image and draw Rectangles on Image surface.
 ``` java
 
@@ -1462,7 +1462,7 @@ Draws an ellipse specified by a bounding `Rectangle` structure.
 | rect | [Rectangle](../../com.aspose.imaging/rectangle) | `Rectangle` structure that defines the boundaries of the ellipse. |
 
 
-**Example:**
+**Example: This example uses Graphics class to create primitive shapes on the Image surface.**
 This example uses Graphics class to create primitive shapes on the Image surface. To demonstrate the operation, the example creates a new Image in PNG format and draw primitive shapes on Image surface using Draw methods exposed by Graphics class
 ``` java
 // Creates an instance of FileStream
@@ -1609,7 +1609,7 @@ Draws a polygon defined by an array of `Point` structures.
 | points | [Point\[\]](../../com.aspose.imaging/point) | Array of `Point` structures that represent the vertices of the polygon. |
 
 
-**Example:**
+**Example: This example uses Graphics class to create primitive shapes on the Image surface.**
 This example uses Graphics class to create primitive shapes on the Image surface. To demonstrate the operation, the example creates a new Image in PNG format and draw primitive shapes on Image surface using Draw methods exposed by Graphics class
 ``` java
 // Creates an instance of FileStream
@@ -2227,7 +2227,7 @@ Draws an arc representing a portion of an ellipse specified by a `Rectangle` str
 | sweepAngle | float | Angle in degrees measured clockwise from the `startAngle` parameter to ending point of the arc. |
 
 
-**Example:**
+**Example: This example uses Graphics class to create primitive shapes on the Image surface.**
 This example uses Graphics class to create primitive shapes on the Image surface. To demonstrate the operation, the example creates a new Image in PNG format and draw primitive shapes on Image surface using Draw methods exposed by Graphics class
 ``` java
 // Creates an instance of FileStream
@@ -2380,7 +2380,7 @@ Draws a pie shape defined by an ellipse specified by a `Rectangle` structure and
 | sweepAngle | float | Angle measured in degrees clockwise from the `startAngle` parameter to the second side of the pie shape. |
 
 
-**Example:**
+**Example: This example uses Graphics class to create primitive shapes on the Image surface.**
 This example uses Graphics class to create primitive shapes on the Image surface. To demonstrate the operation, the example creates a new Image in PNG format and draw primitive shapes on Image surface using Draw methods exposed by Graphics class
 ``` java
 // Creates an instance of FileStream
@@ -2577,7 +2577,7 @@ Draws a cardinal spline through a specified array of `Point` structures.
 | points | [Point\[\]](../../com.aspose.imaging/point) | Array of `Point` structures that define the spline. |
 
 
-**Example:**
+**Example: This example uses Graphics class to create primitive shapes on the Image surface.**
 This example uses Graphics class to create primitive shapes on the Image surface. To demonstrate the operation, the example creates a new Image in PNG format and draw primitive shapes on Image surface using Draw methods exposed by Graphics class
 ``` java
 // Creates an instance of FileStream
@@ -2774,7 +2774,7 @@ public void drawBezier(Pen pen, float x1, float y1, float x2, float y2, float x3
 ```
 
 
-Draws a B?zier spline defined by four ordered pairs of coordinates that represent points.
+Draws a Bézier spline defined by four ordered pairs of coordinates that represent points.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2795,7 +2795,7 @@ public void drawBezier(Pen pen, PointF pt1, PointF pt2, PointF pt3, PointF pt4)
 ```
 
 
-Draws a B?zier spline defined by four `PointF` structures.
+Draws a Bézier spline defined by four `PointF` structures.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2812,7 +2812,7 @@ public void drawBezier(Pen pen, Point pt1, Point pt2, Point pt3, Point pt4)
 ```
 
 
-Draws a B?zier spline defined by four `Point` structures.
+Draws a Bézier spline defined by four `Point` structures.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2824,7 +2824,7 @@ Draws a B?zier spline defined by four `Point` structures.
 | pt4 | [Point](../../com.aspose.imaging/point) | `Point` structure that represents the ending point of the curve. |
 
 
-**Example:**
+**Example: This example uses Graphics class to create primitive shapes on the Image surface.**
 This example uses Graphics class to create primitive shapes on the Image surface. To demonstrate the operation, the example creates a new Image in PNG format and draw primitive shapes on Image surface using Draw methods exposed by Graphics class
 ``` java
 // Creates an instance of FileStream
@@ -2931,7 +2931,7 @@ public void drawBeziers(Pen pen, Point[] points)
 ```
 
 
-Draws a series of B?zier splines from an array of `Point` structures.
+Draws a series of Bézier splines from an array of `Point` structures.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2945,7 +2945,7 @@ public void drawBeziers(Pen pen, PointF[] points)
 ```
 
 
-Draws a series of B?zier splines from an array of `PointF` structures.
+Draws a series of Bézier splines from an array of `PointF` structures.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2987,7 +2987,7 @@ Draws the specified text string at the specified location with the specified `co
 | point | [PointF](../../com.aspose.imaging/pointf) | `com.aspose.imaging.PointF` structure that specifies the upper-left corner of the drawn text. |
 
 
-**Example:**
+**Example: This example demonstrates the use of Font and SolidBrush class to draw strings on Image surface.**
 This example demonstrates the use of Font and SolidBrush class to draw strings on Image surface. The example creates a new Image and draw shapes using Figures and GraphicsPath
 ``` java
 //Creates an instance of BmpOptions and set its various properties
@@ -3059,8 +3059,8 @@ Draws the specified text string at the specified location with the specified `co
 | format | [StringFormat](../../com.aspose.imaging/stringformat) | `com.aspose.imaging.StringFormat` that specifies formatting attributes, such as line spacing and alignment, that are applied to the drawn text. |
 
 
-**Example:**
-Support of PixelPerfect text alignment
+**Example: Support of PixelPerfect text alignment**
+
 ``` java
 String outputFileName = "TestExactAlignment.png";
 try (com.aspose.imaging.imageoptions.PngOptions pngOptions = new com.aspose.imaging.imageoptions.PngOptions())
@@ -3203,8 +3203,8 @@ Fills the interior of a pie section defined by an ellipse specified by a `com.as
 | sweepAngle | float | Angle in degrees measured clockwise from the `startAngle` parameter to the second side of the pie section. |
 
 
-**Example:**
-The following example shows how to compose an animated GIF image from individual GIF blocks.
+**Example: The following example shows how to compose an animated GIF image from individual GIF blocks.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -3464,7 +3464,7 @@ Draws a `com.aspose.imaging.graphicsPath`.
 | path | [GraphicsPath](../../com.aspose.imaging/graphicspath) | `com.aspose.imaging.GraphicsPath` to draw. |
 
 
-**Example:**
+**Example: This examples make use of GraphicsPath and Graphics class to create and manipulate Figures on an Image surface.**
 This examples make use of GraphicsPath and Graphics class to create and manipulate Figures on an Image surface. Example creates a new Image (of type Tiff) and draw paths with the help of GraphicsPath class. At the end DrawPath method exposed by Graphics class is called to render the paths on surface.
 ``` java
 // Create an instance of FileStream

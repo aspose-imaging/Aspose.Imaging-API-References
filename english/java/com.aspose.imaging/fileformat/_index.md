@@ -48,8 +48,8 @@ One of supported imaging file formats.
 | [FOdg](#FOdg) | The fodg, flat odg format |
 | [Ico](#Ico) | ICO file format. |
 
-## Example
-This example shows how to determine the image format without loading the entire image from a file.
+## Example: This example shows how to determine the image format without loading the entire image from a file.
+
 ``` java
 String dir = "c:\\temp\\";
 

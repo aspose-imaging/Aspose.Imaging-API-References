@@ -25,8 +25,8 @@ The masking session
 | [save(System.IO.Stream stream)](#save-com.aspose.ms.System.IO.Stream-) | Save the session state to the specified stream. |
 | [save(String filePath)](#save-java.lang.String-) | Saves the session state to the specified file. |
 
-## Example
-Saving the masking session to a file for long sessions, as well as for the possibility of resuming the session in another environment.
+## Example: Saving the masking session to a file for long sessions, as well as for the possibility of resuming the session in another environment.
+
 ``` java
 String dir = "c:\\temp\\";
 String sessionBackupFile = dir + "session.bak";
@@ -152,8 +152,8 @@ Performs first rough decompose operation
 **Returns:**
 [MaskingResult](../../com.aspose.imaging.masking.result/maskingresult) - Result of masking operation as array of segment image providers.
 
-**Example:**
-Saving the masking session to a file for long sessions, as well as for the possibility of resuming the session in another environment.
+**Example: Saving the masking session to a file for long sessions, as well as for the possibility of resuming the session in another environment.**
+
 ``` java
 String dir = "c:\\temp\\";
 String sessionBackupFile = dir + "session.bak";
@@ -294,8 +294,8 @@ Performs retraining decompose operation
 **Returns:**
 [MaskingResult](../../com.aspose.imaging.masking.result/maskingresult) - Result of masking operation as array of segment image providers.
 
-**Example:**
-Saving the masking session to a file for long sessions, as well as for the possibility of resuming the session in another environment.
+**Example: Saving the masking session to a file for long sessions, as well as for the possibility of resuming the session in another environment.**
+
 ``` java
 String dir = "c:\\temp\\";
 String sessionBackupFile = dir + "session.bak";

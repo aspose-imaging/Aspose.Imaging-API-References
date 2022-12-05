@@ -44,8 +44,8 @@ The Cdr image.
 | [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the image. |
 | [setPalette(IColorPalette palette, boolean updateColors)](#setPalette-com.aspose.imaging.IColorPalette-boolean-) | Sets the image palette. |
 
-## Example
-The following example shows how to cache all pages of a CDR image.
+## Example: The following example shows how to cache all pages of a CDR image.
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -161,8 +161,8 @@ Gets the pages.
 **Returns:**
 com.aspose.imaging.Image[] - the pages.
 
-**Example:**
-The following example shows how to export a single page of CDR document to PDF.
+**Example: The following example shows how to export a single page of CDR document to PDF.**
+
 ``` java
 int pageNumber = 0;
 String dir = "c:\\aspose.imaging\\java\\issues\\1445'\\";
@@ -260,8 +260,8 @@ public void cacheData()
 Caches the data and ensures no additional data loading will be performed from the underlying `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)).
 
 
-**Example:**
-The following example shows how to cache all pages of a CDR image.
+**Example: The following example shows how to cache all pages of a CDR image.**
+
 ``` java
 String dir = "c:\\temp\\";
 

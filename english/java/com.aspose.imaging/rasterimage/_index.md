@@ -106,8 +106,8 @@ Represents a raster image supporting raster graphics operations.
 | [replaceNonTransparentColors(Color newColor)](#replaceNonTransparentColors-com.aspose.imaging.Color-) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges. |
 | [replaceNonTransparentColors(int newColorArgb)](#replaceNonTransparentColors-int-) | Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges. |
 
-## Example
-This example shows how to load pixel information in an array of colors, manipulates the array and set it back to the image.
+## Example: This example shows how to load pixel information in an array of colors, manipulates the array and set it back to the image.
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -166,8 +166,8 @@ Gets or sets a value indicating whether the image components must be premultipli
 | value | boolean | `true` if the image components must be premultiplied; otherwise, `false`. |
 
 
-**Example:**
-The following example creates a new raster image, saves the specified semi-transparent pixels, then loads those pixels and gets final colors in the premultiplied form.
+**Example: The following example creates a new raster image, saves the specified semi-transparent pixels, then loads those pixels and gets final colors in the premultiplied form.**
+
 ``` java
 int imageWidth = 3;
 int imageHeight = 2;
@@ -382,8 +382,8 @@ Gets the raw data format.
 **Returns:**
 [PixelDataFormat](../../com.aspose.imaging/pixeldataformat) - The raw data format.
 
-**Example:**
-The following example loads raster images and prints information about raw data format and alpha channel.
+**Example: The following example loads raster images and prints information about raw data format and alpha channel.**
+
 ``` java
 
 // The image files to load.
@@ -444,8 +444,8 @@ double - The horizontal resolution.
 
 Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the SetResolution method for updating both resolution values in single call.
 
-**Example:**
-The following example shows how to set horizontal/vertical resolution of a raster image.
+**Example: The following example shows how to set horizontal/vertical resolution of a raster image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -507,8 +507,8 @@ double - The vertical resolution.
 
 Note by default this value is always 96 since different platforms cannot return the screen resolution. You may consider using the SetResolution method for updating both resolution values in single call.
 
-**Example:**
-The following example shows how to set horizontal/vertical resolution of a raster image.
+**Example: The following example shows how to set horizontal/vertical resolution of a raster image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -591,8 +591,8 @@ Gets a value indicating whether this instance has alpha.
 **Returns:**
 boolean - `true` if this instance has alpha; otherwise, `false`.
 
-**Example:**
-The following example loads raster images and prints information about raw data format and alpha channel.
+**Example: The following example loads raster images and prints information about raw data format and alpha channel.**
+
 ``` java
 
 // The image files to load.
@@ -683,8 +683,8 @@ Performs dithering on the current image.
 | bitsCount | int | The final bits count for dithering. |
 
 
-**Example:**
-The following example loads a raster image and performs threshold and floyd dithering using different palette depth.
+**Example: The following example loads a raster image and performs threshold and floyd dithering using different palette depth.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -809,8 +809,8 @@ Gets an image 32-bit ARGB pixel.
 **Returns:**
 int - The 32-bit ARGB pixel for the specified location.
 
-**Example:**
-The following example loads a raster image and obtains the color of an arbitrary pixel represented as a 32-bit integer value.
+**Example: The following example loads a raster image and obtains the color of an arbitrary pixel represented as a 32-bit integer value.**
+
 ``` java
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("c:\\temp\\sample.png");
 try {
@@ -851,8 +851,8 @@ Gets an image pixel.
 **Returns:**
 [Color](../../com.aspose.imaging/color) - The pixel color for the specified location.
 
-**Example:**
-The following example loads a raster image and obtains the color of an arbitrary pixel.
+**Example: The following example loads a raster image and obtains the color of an arbitrary pixel.**
+
 ``` java
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("c:\\temp\\sample.png");
 try {
@@ -889,8 +889,8 @@ Sets an image 32-bit ARGB pixel for the specified position.
 | argb32Color | int | The 32-bit ARGB pixel for the specified position. |
 
 
-**Example:**
-The following example loads a raster image, and sets the color of an arbitrary pixel.
+**Example: The following example loads a raster image, and sets the color of an arbitrary pixel.**
+
 ``` java
 
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("c:\\temp\\sample.png");
@@ -923,8 +923,8 @@ Sets an image pixel for the specified position.
 | color | [Color](../../com.aspose.imaging/color) | The pixel color for the specified position. |
 
 
-**Example:**
-The following example loads a raster image, and sets the color of an arbitrary pixel.
+**Example: The following example loads a raster image, and sets the color of an arbitrary pixel.**
+
 ``` java
 
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("c:\\temp\\sample.png");
@@ -1014,7 +1014,7 @@ Loads 32-bit ARGB pixels partially by packs.
 | partialPixelLoader | [IPartialArgb32PixelLoader](../../com.aspose.imaging/ipartialargb32pixelloader) | The 32-bit ARGB pixel loader. |
 
 
-**Example:**
+**Example: The following example shows how to load and process pixels of a raster image using your own partial processor.**
 The following example shows how to load and process pixels of a raster image using your own partial processor. For example, consider a problem of counting of fully transparent pixels of an image. In order to count transparent pixels using partial loading mechanism, a separate class TransparentArgb32PixelCounter implementing com.aspose.imaging.IPartialArgb32PixelLoader is introduced.
 ``` java
 
@@ -1088,7 +1088,7 @@ Loads pixels partially by packs.
 | pixelLoader | [IPartialPixelLoader](../../com.aspose.imaging/ipartialpixelloader) | The pixel loader. |
 
 
-**Example:**
+**Example: The following example shows how to load and process pixels of a raster image using your own partial processor.**
 The following example shows how to load and process pixels of a raster image using your own partial processor. For example, consider a problem of counting of fully transparent pixels of an image. In order to count transparent using partial loading mechanism, a separate class TransparentPixelCounter implementing com.aspose.imaging.IPartialPixelLoader is introduced.
 ``` java
 
@@ -1162,7 +1162,7 @@ Loads 32-bit ARGB pixels.
 **Returns:**
 int[] - The loaded 32-bit ARGB pixels array.
 
-**Example:**
+**Example: The following example shows how to load and process pixels of a raster image.**
 The following example shows how to load and process pixels of a raster image. The pixels are represented as 32-bit integer values. For example, consider a problem of counting of fully transparent pixels of an image.
 ``` java
 
@@ -1204,7 +1204,7 @@ Loads 64-bit ARGB pixels.
 **Returns:**
 long[] - The loaded 64-bit ARGB pixels array.
 
-**Example:**
+**Example: The following example shows how to load and process pixels of a raster image.**
 The following example shows how to load and process pixels of a raster image. The pixels are represented as 64-bit integer values. For example, consider a problem of counting of fully transparent pixels of an image.
 ``` java
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("c:\\temp\\16rgba.png");
@@ -1262,7 +1262,7 @@ Loads pixels.
 **Returns:**
 com.aspose.imaging.Color[] - The loaded pixels array.
 
-**Example:**
+**Example: The following example shows how to load and process pixels of a raster image.**
 The following example shows how to load and process pixels of a raster image. For example, consider a problem of counting of fully transparent pixels of an image.
 ``` java
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("c:\\temp\\alpha.png");
@@ -1332,7 +1332,7 @@ Loads raw image data using the partial processing mechanism.
 | rawDataLoader | [IPartialRawDataLoader](../../com.aspose.imaging/ipartialrawdataloader) | The raw data loader. |
 
 
-**Example:**
+**Example: The following example shows how to extract pixels from the raw image data using RawDataSettings.**
 The following example shows how to extract pixels from the raw image data using RawDataSettings. For example, consider a problem of counting of fully transparent pixels of an image.
 ``` java
 
@@ -1502,7 +1502,7 @@ Saves the 32-bit ARGB pixels.
 | pixels | int[] | The 32-bit ARGB pixels array. |
 
 
-**Example:**
+**Example: The following example fills the central area of a raster image with black pixels using the com.**
 The following example fills the central area of a raster image with black pixels using the com.aspose.imaging.RasterImage.saveArgb32Pixels method.
 ``` java
 String dir = "c:\\temp\\";
@@ -1542,7 +1542,7 @@ Saves the pixels.
 | pixels | [Color\[\]](../../com.aspose.imaging/color) | The pixels array. |
 
 
-**Example:**
+**Example: The following example fills the central area of a raster image with black pixels using the com.**
 The following example fills the central area of a raster image with black pixels using the com.aspose.imaging.RasterImage.savePixels method.
 ``` java
 String dir = "c:\\temp\\";
@@ -1578,8 +1578,8 @@ Converts raster image to the bitmap.
 **Returns:**
 java.awt.image.BufferedImage - The bitmap
 
-**Example:**
-The following example converts a BMP image to a native Java bitmap.
+**Example: The following example converts a BMP image to a native Java bitmap.**
+
 ``` java
 com.aspose.imaging.Image image = com.aspose.imaging.Image.load("c:\\temp\\sample.bmp");
 try {
@@ -1621,7 +1621,7 @@ Saves the pixels.
 | pixels | int[] | The CMYK pixels presented as the 32-bit integer values. |
 
 
-**Example:**
+**Example: The following example fills the central area of a raster image with black pixels using the com.**
 The following example fills the central area of a raster image with black pixels using the com.aspose.imaging.RasterImage.saveCmyk32Pixels method.
 ``` java
 String dir = "c:\\temp\\";
@@ -1664,8 +1664,8 @@ Sets the resolution for this `RasterImage`.
 | dpiY | double | The vertical resolution, in dots per inch, of the `RasterImage`. |
 
 
-**Example:**
-The following example shows how to set horizontal/vertical resolution of a raster image.
+**Example: The following example shows how to set horizontal/vertical resolution of a raster image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1729,8 +1729,8 @@ Resizes the image.
 | resizeType | int | The resize type. |
 
 
-**Example:**
-This example loads a raster image and resizes it using various resizing methods.
+**Example: This example loads a raster image and resizes it using various resizing methods.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1787,8 +1787,8 @@ Resizes the image with extended options.
 | settings | [ImageResizeSettings](../../com.aspose.imaging/imageresizesettings) | The resize settings. |
 
 
-**Example:**
-This example loads a raster image and resizes it using various resizing settings.
+**Example: This example loads a raster image and resizes it using various resizing settings.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -1833,7 +1833,7 @@ Crops the specified rectangle.
 | rectangle | [Rectangle](../../com.aspose.imaging/rectangle) | The rectangle. |
 
 
-**Example:**
+**Example: The following example crops a raster image.**
 The following example crops a raster image. The cropping area is be specified via com.aspose.imaging.Rectangle.
 ``` java
 String dir = "c:\\temp\\";
@@ -1867,7 +1867,7 @@ Binarization of an image with predefined threshold
 | threshold | byte | Threshold value. If corresponding gray value of a pixel is greater than threshold, a value of 255 will be assigned to it, 0 otherwise. |
 
 
-**Example:**
+**Example: The following example binarizes a raster image with the predefined threshold.**
 The following example binarizes a raster image with the predefined threshold. Binarized images contain only 2 colors - black and white.
 ``` java
 String dir = "c:\\temp\\";
@@ -1894,7 +1894,7 @@ public void binarizeOtsu()
 Binarization of an image with Otsu thresholding
 
 
-**Example:**
+**Example: The following example binarizes a raster image with Otsu thresholding.**
 The following example binarizes a raster image with Otsu thresholding. Binarized images contain only 2 colors - black and white.
 ``` java
 String dir = "c:\\temp\\";
@@ -1939,7 +1939,7 @@ Binarization of an image using Bradley's adaptive thresholding algorithm using t
 | windowSize | int | The size of s x s window of pixels centered around this pixel |
 
 
-**Example:**
+**Example: The following example binarizes a raster image with Bradley's adaptive thresholding algorithm with the specified window size.**
 The following example binarizes a raster image with Bradley's adaptive thresholding algorithm with the specified window size. Binarized images contain only 2 colors - black and white.
 ``` java
 String dir = "c:\\temp\\";
@@ -1965,7 +1965,7 @@ public void grayscale()
 Transformation of an image to its grayscale representation
 
 
-**Example:**
+**Example: The following example transforms a colored raster image to its grayscale representation.**
 The following example transforms a colored raster image to its grayscale representation. Grayscale images are composed exclusively of shades of gray and carry only intensity information.
 ``` java
 String dir = "c:\\temp\\";
@@ -1995,8 +1995,8 @@ Adjust of a brightness for image.
 | brightness | int | Brightness value. |
 
 
-**Example:**
-The following example performs brightness correction of an image.
+**Example: The following example performs brightness correction of an image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -2026,8 +2026,8 @@ Image contrasting
 | contrast | float | Contrast value (in range [-100; 100]) |
 
 
-**Example:**
-The following example performs contrast correction of an image.
+**Example: The following example performs contrast correction of an image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -2059,8 +2059,8 @@ Gamma-correction of an image.
 | gammaBlue | float | Gamma for blue channel coefficient |
 
 
-**Example:**
-The following example performs gamma-correction of an image applying different coefficients for color components.
+**Example: The following example performs gamma-correction of an image applying different coefficients for color components.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -2090,8 +2090,8 @@ Gamma-correction of an image.
 | gamma | float | Gamma for red, green and blue channels coefficient |
 
 
-**Example:**
-The following example performs gamma-correction of an image.
+**Example: The following example performs gamma-correction of an image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -2124,7 +2124,7 @@ Crop image with shifts.
 | bottomShift | int | The bottom shift. |
 
 
-**Example:**
+**Example: The following example crops a raster image.**
 The following example crops a raster image. The cropping area is specified via Left, Top, Right, Bottom margins.
 ``` java
 String dir = "c:\\temp\\";
@@ -2156,7 +2156,7 @@ Rotate image around the center.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| angle | float | The rotate angle in degrees. Positive values will rotate clockwise. |
+| angle | float | The rotation angle in degrees. Positive values will rotate clockwise. |
 | resizeProportionally | boolean | if set to `true` you will have your image size changed according to rotated rectangle (corner points) projections in other case that leaves dimensions untouched and only internal image contents are rotated. |
 | backgroundColor | [Color](../../com.aspose.imaging/color) | Color of the background. |
 
@@ -2171,7 +2171,7 @@ Rotate image around the center.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| angle | float | The rotate angle in degrees. Positive values will rotate clockwise. |
+| angle | float | The rotation angle in degrees. Positive values will rotate clockwise. |
 
 ### getSkewAngle() {#getSkewAngle--}
 ```
@@ -2206,7 +2206,7 @@ Normalizes the angle. This method is applicable to scanned text documents to get
 | backgroundColor | [Color](../../com.aspose.imaging/color) | Color of the background. |
 
 
-**Example:**
+**Example: Skew is an artifact that might appear during document scanning process when the text/images of the document get rotated at a slight angle.**
 Skew is an artifact that might appear during document scanning process when the text/images of the document get rotated at a slight angle. It can have various causes but the most common is that the paper get misplaced during a scan. Therefore, deskew is the process of detecting and fixing this issue on scanned files(i.e. bitmap) so deskewed documents will have the text/images correctly and horizontally adjusted.
 ``` java
 String dir = "c:\\aspose.imaging\\issues\\java\\1461\\";
@@ -2240,8 +2240,8 @@ Filters the specified rectangle.
 | options | [FilterOptionsBase](../../com.aspose.imaging.imagefilters.filteroptions/filteroptionsbase) | The options. |
 
 
-**Example:**
-The following example applies various types of filters to a raster image.
+**Example: The following example applies various types of filters to a raster image.**
+
 ``` java
 String dir = "c:\\temp\\";
 
@@ -2353,7 +2353,7 @@ Replaces all non-transparent colors with new color and preserves original alpha 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newColor | [Color](../../com.aspose.imaging/color) | New color to replace non transparent colors with. |
+| newColor | [Color](../../com.aspose.imaging/color) | New color to replace non-transparent colors with. |
 
 ### replaceNonTransparentColors(int newColorArgb) {#replaceNonTransparentColors-int-}
 ```
@@ -2366,5 +2366,5 @@ Replaces all non-transparent colors with new color and preserves original alpha 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newColorArgb | int | New color ARGB value to replace non transparent colors with. |
+| newColorArgb | int | New color ARGB value to replace non-transparent colors with. |
 

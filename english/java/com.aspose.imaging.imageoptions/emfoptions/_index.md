@@ -22,8 +22,8 @@ The Emf options.
 | [EmfOptions(float dpi)](#EmfOptions-float-) |  |
 | [EmfOptions(EmfOptions emfOptions)](#EmfOptions-com.aspose.imaging.imageoptions.EmfOptions-) | Initializes a new instance of the `EmfOptions` class. |
 
-## Example
-The following example shows how to convert a multipage vector image to EMF format in general way without referencing to a particular image type.
+## Example: The following example shows how to convert a multipage vector image to EMF format in general way without referencing to a particular image type.
+
 ``` java
 String dir = "C:\\aspose.imaging\\net\\misc\\ImagingReleaseQATester\\Tests\\testdata\\2548";
 String inputFilePath = (dir + "Multipage.cdr");
@@ -55,8 +55,8 @@ try (com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputFilePat
 ```
 
 
-## Example
-The following example shows how to convert a emz images to emf format
+## Example: The following example shows how to convert a emz images to emf format
+
 ``` java
 String file = "example.emz";
 String baseFolder = "D:\\Compressed\\";
@@ -76,8 +76,8 @@ try (final com.aspose.imaging.Image image = com.aspose.imaging.Image.load(inputF
 ```
 
 
-## Example
-The following example shows how to convert a emf images to emz format
+## Example: The following example shows how to convert a emf images to emz format
+
 ``` java
 String file = "input.emf";
 String baseFolder = "D:\\Compressed\\";
