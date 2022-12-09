@@ -77,28 +77,54 @@ The following example fills the central area of a raster image with black pixels
 ```csharp
 [C#]
 
-string dir = @"c:\temp\";
+	string dir = @"c:\temp\";
 
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
-{
-    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
+	using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
+	{
+		Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    // Get an integer representation of black in the CMYK color space.
-    int blackCmyk = Aspose.Imaging.CmykColorHelper.ToCmyk(Color.Black);
+		// Get an integer representation of black in the CMYK color space.
+		int blackCmyk = Aspose.Imaging.CmykColorHelper.ToCmyk(Color.Black);
 
-    // The black square.
-    int[] pixels = new int[(rasterImage.Width / 2) * (rasterImage.Height / 2)];
-    for (int i = 0; i < pixels.Length; i++)
-    {
-        pixels[i] = blackCmyk;
-    }
+		// The black square.
+		int[] pixels = new int[(rasterImage.Width / 2) * (rasterImage.Height / 2)];
+		for (int i = 0; i < pixels.Length; i++)
+		{
+			pixels[i] = blackCmyk;
+		}
 
-    // Draw the black square at the center of the image.
-    Aspose.Imaging.Rectangle area = new Aspose.Imaging.Rectangle(rasterImage.Width / 4, rasterImage.Height / 4, rasterImage.Width / 2, rasterImage.Height / 2);
-    rasterImage.SaveCmyk32Pixels(area, pixels);
+		// Draw the black square at the center of the image.
+		Aspose.Imaging.Rectangle area = new Aspose.Imaging.Rectangle(rasterImage.Width / 4, rasterImage.Height / 4, rasterImage.Width / 2, rasterImage.Height / 2);
+		rasterImage.SaveCmyk32Pixels(area, pixels);
 
-    rasterImage.Save(dir + "sample.SaveCmyk32Pixels.png");
-}
+		rasterImage.Save(dir + "sample.SaveCmyk32Pixels.png");
+	}
+```
+
+```csharp
+[VB.NET]
+
+    Dim dir As String = _
+    "c:" & vbTab & "emp"";"
+
+    Using image As Aspose.Imaging.Image = Aspose.Imaging.Image.Load(dir & "sample.png")
+        Dim rasterImage As Aspose.Imaging.RasterImage = CType(image, Aspose.Imaging.RasterImage)
+
+        ' Get an integer representation of black in the CMYK color space.
+        Dim blackCmyk As Integer = Aspose.Imaging.CmykColorHelper.ToCmyk(Color.Black)
+
+        ' The black square.
+        Dim pixels = New Integer(rasterImage.Width / 2 * (rasterImage.Height / 2) - 1) {}
+        For i = 0 To pixels.Length - 1
+            pixels(i) = blackCmyk
+        Next
+
+        ' Draw the black square at the center of the image.
+        Dim area As Aspose.Imaging.Rectangle = New Aspose.Imaging.Rectangle(rasterImage.Width / 4, rasterImage.Height / 4, rasterImage.Width / 2, rasterImage.Height / 2)
+        rasterImage.SaveCmyk32Pixels(area, pixels)
+
+        rasterImage.Save(dir & "sample.SaveCmyk32Pixels.png")
+    End Using
 ```
 
 The following example shows how to convert RGB colors to their CMYK counterparts without applying ICC profiles.
@@ -106,30 +132,54 @@ The following example shows how to convert RGB colors to their CMYK counterparts
 ```csharp
 [C#]
 
-Aspose.Imaging.Color[] rgbColors = new Aspose.Imaging.Color[]
-{
-    Aspose.Imaging.Color.Red,
-    Aspose.Imaging.Color.Green,
-    Aspose.Imaging.Color.Blue,
-};
+	Aspose.Imaging.Color[] rgbColors = new Aspose.Imaging.Color[]
+	{
+		Aspose.Imaging.Color.Red,
+		Aspose.Imaging.Color.Green,
+		Aspose.Imaging.Color.Blue,
+	};
 
-System.Console.WriteLine("Convert RGB to CMYK without using ICC profiles.");
-foreach (Aspose.Imaging.Color rgbColor in rgbColors)
-{
-    int cmyk = Aspose.Imaging.CmykColorHelper.ToCmyk(rgbColor);
-    int c = Aspose.Imaging.CmykColorHelper.GetC(cmyk);
-    int m = Aspose.Imaging.CmykColorHelper.GetM(cmyk);
-    int y = Aspose.Imaging.CmykColorHelper.GetY(cmyk);
-    int k = Aspose.Imaging.CmykColorHelper.GetK(cmyk);
+	System.Console.WriteLine("Convert RGB to CMYK without using ICC profiles.");
+	foreach (Aspose.Imaging.Color rgbColor in rgbColors)
+	{
+		int cmyk = Aspose.Imaging.CmykColorHelper.ToCmyk(rgbColor);
+		int c = Aspose.Imaging.CmykColorHelper.GetC(cmyk);
+		int m = Aspose.Imaging.CmykColorHelper.GetM(cmyk);
+		int y = Aspose.Imaging.CmykColorHelper.GetY(cmyk);
+		int k = Aspose.Imaging.CmykColorHelper.GetK(cmyk);
 
-    System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k);
-}
+		System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k);
+	}
 
-//The output looks like this:
-//Convert RGB to CMYK without using ICC profiles.
-//RGB(255,0,0)        => CMYK(0,255,255,0)
-//RGB(0,128,0)        => CMYK(255,0,255,127)
-//RGB(0,0,255)        => CMYK(255,255,0,0)
+	//The output looks like this:
+	//Convert RGB to CMYK without using ICC profiles.
+	//RGB(255,0,0)        => CMYK(0,255,255,0)
+	//RGB(0,128,0)        => CMYK(255,0,255,127)
+	//RGB(0,0,255)        => CMYK(255,255,0,0)
+```
+
+```csharp
+[VB.NET]
+
+    Dim rgbColors = New Aspose.Imaging.Color() {Aspose.Imaging.Color.Red, Aspose.Imaging.Color.Green, Aspose.Imaging.Color.Blue}
+
+    System.Console.WriteLine("Convert RGB to CMYK without using ICC profiles.")
+
+    For Each rgbColor As Aspose.Imaging.Color In rgbColors
+        Dim cmyk As Integer = Aspose.Imaging.CmykColorHelper.ToCmyk(rgbColor)
+        Dim c As Integer = Aspose.Imaging.CmykColorHelper.GetC(cmyk)
+        Dim m As Integer = Aspose.Imaging.CmykColorHelper.GetM(cmyk)
+        Dim y As Integer = Aspose.Imaging.CmykColorHelper.GetY(cmyk)
+        Dim k As Integer = Aspose.Imaging.CmykColorHelper.GetK(cmyk)
+
+        System.Console.WriteLine("RGB({0},{1},{2})" & vbTab & vbTab & "=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k)
+    Next
+
+    'The output looks like this:
+    'Convert RGB to CMYK without using ICC profiles.
+    'RGB(255,0,0)        => CMYK(0,255,255,0)
+    'RGB(0,128,0)        => CMYK(255,0,255,127)
+    'RGB(0,0,255)        => CMYK(255,255,0,0)
 ```
 
 ### See Also

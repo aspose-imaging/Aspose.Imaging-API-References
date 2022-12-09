@@ -131,53 +131,98 @@ The following example shows how to convert RGB colors to their CMYK counterparts
 ```csharp
 [C#]
 
-Aspose.Imaging.Color[] rgbColors = new Aspose.Imaging.Color[]
-{
-    Aspose.Imaging.Color.Red,
-    Aspose.Imaging.Color.Green,
-    Aspose.Imaging.Color.Blue,
-};
+	Aspose.Imaging.Color[] rgbColors = new Aspose.Imaging.Color[]
+	{
+		Aspose.Imaging.Color.Red,
+		Aspose.Imaging.Color.Green,
+		Aspose.Imaging.Color.Blue,
+	};
 
-System.Console.WriteLine("Convert RGB to CMYK using default ICC profiles.");
-foreach (Aspose.Imaging.Color rgbColor in rgbColors)
-{
-    int cmyk = Aspose.Imaging.CmykColorHelper.ToCmykIcc(rgbColor);
-    int c = Aspose.Imaging.CmykColorHelper.GetC(cmyk);
-    int m = Aspose.Imaging.CmykColorHelper.GetM(cmyk);
-    int y = Aspose.Imaging.CmykColorHelper.GetY(cmyk);
-    int k = Aspose.Imaging.CmykColorHelper.GetK(cmyk);
+	System.Console.WriteLine("Convert RGB to CMYK using default ICC profiles.");
+	foreach (Aspose.Imaging.Color rgbColor in rgbColors)
+	{
+		int cmyk = Aspose.Imaging.CmykColorHelper.ToCmykIcc(rgbColor);
+		int c = Aspose.Imaging.CmykColorHelper.GetC(cmyk);
+		int m = Aspose.Imaging.CmykColorHelper.GetM(cmyk);
+		int y = Aspose.Imaging.CmykColorHelper.GetY(cmyk);
+		int k = Aspose.Imaging.CmykColorHelper.GetK(cmyk);
 
-    System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k);
-}
+		System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k);
+	}
 
-// Specify your path to the RGB and CMYK ICC profiles.
-string dir = "c:\\temp\\iccprofiles\\";
+	// Specify your path to the RGB and CMYK ICC profiles.
+	string dir = "c:\\temp\\iccprofiles\\";
 
-System.Console.WriteLine("Convert RGB to CMYK using custom ICC profiles.");
-using (System.IO.Stream rgbProfileStream = System.IO.File.OpenRead(dir + "eciRGB_v2.icc"))
-using (System.IO.Stream cmykProfileStream = System.IO.File.OpenRead(dir + "ISOcoated_v2_FullGamut4.icc"))
-{
-    foreach (Aspose.Imaging.Color rgbColor in rgbColors)
-    {
-        int cmyk = Aspose.Imaging.CmykColorHelper.ToCmykIcc(rgbColor, rgbProfileStream, cmykProfileStream);
-        int c = Aspose.Imaging.CmykColorHelper.GetC(cmyk);
-        int m = Aspose.Imaging.CmykColorHelper.GetM(cmyk);
-        int y = Aspose.Imaging.CmykColorHelper.GetY(cmyk);
-        int k = Aspose.Imaging.CmykColorHelper.GetK(cmyk);
+	System.Console.WriteLine("Convert RGB to CMYK using custom ICC profiles.");
+	using (System.IO.Stream rgbProfileStream = System.IO.File.OpenRead(dir + "eciRGB_v2.icc"))
+	using (System.IO.Stream cmykProfileStream = System.IO.File.OpenRead(dir + "ISOcoated_v2_FullGamut4.icc"))
+	{
+		foreach (Aspose.Imaging.Color rgbColor in rgbColors)
+		{
+			int cmyk = Aspose.Imaging.CmykColorHelper.ToCmykIcc(rgbColor, rgbProfileStream, cmykProfileStream);
+			int c = Aspose.Imaging.CmykColorHelper.GetC(cmyk);
+			int m = Aspose.Imaging.CmykColorHelper.GetM(cmyk);
+			int y = Aspose.Imaging.CmykColorHelper.GetY(cmyk);
+			int k = Aspose.Imaging.CmykColorHelper.GetK(cmyk);
 
-        System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k);
-    }
-}
+			System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k);
+		}
+	}
 
-//The output looks like this:
-//Convert RGB to CMYK using default ICC profiles.
-//RGB(255,0,0)        => CMYK(0,254,249,15)
-//RGB(0,128,0)        => CMYK(247,21,254,85)
-//RGB(0,0,255)        => CMYK(254,195,0,134)
-//Convert RGB to CMYK using custom ICC profiles.
-//RGB(255,0,0)        => CMYK(0,207,219,0)
-//RGB(0,128,0)        => CMYK(238,16,254,80)
-//RGB(0,0,255)        => CMYK(242,182,0,0)
+	//The output looks like this:
+	//Convert RGB to CMYK using default ICC profiles.
+	//RGB(255,0,0)        => CMYK(0,254,249,15)
+	//RGB(0,128,0)        => CMYK(247,21,254,85)
+	//RGB(0,0,255)        => CMYK(254,195,0,134)
+	//Convert RGB to CMYK using custom ICC profiles.
+	//RGB(255,0,0)        => CMYK(0,207,219,0)
+	//RGB(0,128,0)        => CMYK(238,16,254,80)
+	//RGB(0,0,255)        => CMYK(242,182,0,0)
+```
+
+```csharp
+[VB.NET]
+
+    Dim rgbColors = New Aspose.Imaging.Color() {Aspose.Imaging.Color.Red, Aspose.Imaging.Color.Green, Aspose.Imaging.Color.Blue}
+
+    System.Console.WriteLine("Convert RGB to CMYK using default ICC profiles.")
+    For Each rgbColor As Aspose.Imaging.Color In rgbColors
+        Dim cmyk As Integer = Aspose.Imaging.CmykColorHelper.ToCmykIcc(rgbColor)
+        Dim c As Integer = Aspose.Imaging.CmykColorHelper.GetC(cmyk)
+        Dim m As Integer = Aspose.Imaging.CmykColorHelper.GetM(cmyk)
+        Dim y As Integer = Aspose.Imaging.CmykColorHelper.GetY(cmyk)
+        Dim k As Integer = Aspose.Imaging.CmykColorHelper.GetK(cmyk)
+
+        System.Console.WriteLine("RGB({0},{1},{2})" & vbTab & vbTab & "=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k)
+    Next
+
+    ' Specify your path to the RGB and CMYK ICC profiles.
+    Dim dir = "c:\temp\iccprofiles\"
+
+    System.Console.WriteLine("Convert RGB to CMYK using custom ICC profiles.")
+    Using rgbProfileStream As Stream = File.OpenRead(dir & "eciRGB_v2.icc")
+        Using cmykProfileStream As Stream = File.OpenRead(dir & "ISOcoated_v2_FullGamut4.icc")
+            For Each rgbColor As Aspose.Imaging.Color In rgbColors
+                Dim cmyk As Integer = Aspose.Imaging.CmykColorHelper.ToCmykIcc(rgbColor, rgbProfileStream, cmykProfileStream)
+                Dim c As Integer = Aspose.Imaging.CmykColorHelper.GetC(cmyk)
+                Dim m As Integer = Aspose.Imaging.CmykColorHelper.GetM(cmyk)
+                Dim y As Integer = Aspose.Imaging.CmykColorHelper.GetY(cmyk)
+                Dim k As Integer = Aspose.Imaging.CmykColorHelper.GetK(cmyk)
+
+                System.Console.WriteLine("RGB({0},{1},{2})" & vbTab & vbTab & "=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k)
+            Next
+        End Using
+    End Using
+
+    'The output looks like this:
+    'Convert RGB to CMYK using default ICC profiles.
+    'RGB(255,0,0)        => CMYK(0,254,249,15)
+    'RGB(0,128,0)        => CMYK(247,21,254,85)
+    'RGB(0,0,255)        => CMYK(254,195,0,134)
+    'Convert RGB to CMYK using custom ICC profiles.
+    'RGB(255,0,0)        => CMYK(0,207,219,0)
+    'RGB(0,128,0)        => CMYK(238,16,254,80)
+    'RGB(0,0,255)        => CMYK(242,182,0,0)
 ```
 
 ### See Also
@@ -238,53 +283,98 @@ The following example shows how to convert RGB colors to their CMYK counterparts
 ```csharp
 [C#]
 
-Aspose.Imaging.Color[] rgbColors = new Aspose.Imaging.Color[]
-{
-    Aspose.Imaging.Color.Red,
-    Aspose.Imaging.Color.Green,
-    Aspose.Imaging.Color.Blue,
-};
+	Aspose.Imaging.Color[] rgbColors = new Aspose.Imaging.Color[]
+	{
+		Aspose.Imaging.Color.Red,
+		Aspose.Imaging.Color.Green,
+		Aspose.Imaging.Color.Blue,
+	};
 
-System.Console.WriteLine("Convert RGB to CMYK using default ICC profiles.");
-foreach (Aspose.Imaging.Color rgbColor in rgbColors)
-{
-    int cmyk = Aspose.Imaging.CmykColorHelper.ToCmykIcc(rgbColor);
-    int c = Aspose.Imaging.CmykColorHelper.GetC(cmyk);
-    int m = Aspose.Imaging.CmykColorHelper.GetM(cmyk);
-    int y = Aspose.Imaging.CmykColorHelper.GetY(cmyk);
-    int k = Aspose.Imaging.CmykColorHelper.GetK(cmyk);
+	System.Console.WriteLine("Convert RGB to CMYK using default ICC profiles.");
+	foreach (Aspose.Imaging.Color rgbColor in rgbColors)
+	{
+		int cmyk = Aspose.Imaging.CmykColorHelper.ToCmykIcc(rgbColor);
+		int c = Aspose.Imaging.CmykColorHelper.GetC(cmyk);
+		int m = Aspose.Imaging.CmykColorHelper.GetM(cmyk);
+		int y = Aspose.Imaging.CmykColorHelper.GetY(cmyk);
+		int k = Aspose.Imaging.CmykColorHelper.GetK(cmyk);
 
-    System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k);
-}
+		System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k);
+	}
 
-// Specify your path to the RGB and CMYK ICC profiles.
-string dir = "c:\\temp\\iccprofiles\\";
+	// Specify your path to the RGB and CMYK ICC profiles.
+	string dir = "c:\\temp\\iccprofiles\\";
 
-System.Console.WriteLine("Convert RGB to CMYK using custom ICC profiles.");
-using (System.IO.Stream rgbProfileStream = System.IO.File.OpenRead(dir + "eciRGB_v2.icc"))
-using (System.IO.Stream cmykProfileStream = System.IO.File.OpenRead(dir + "ISOcoated_v2_FullGamut4.icc"))
-{
-    foreach (Aspose.Imaging.Color rgbColor in rgbColors)
-    {
-        int cmyk = Aspose.Imaging.CmykColorHelper.ToCmykIcc(rgbColor, rgbProfileStream, cmykProfileStream);
-        int c = Aspose.Imaging.CmykColorHelper.GetC(cmyk);
-        int m = Aspose.Imaging.CmykColorHelper.GetM(cmyk);
-        int y = Aspose.Imaging.CmykColorHelper.GetY(cmyk);
-        int k = Aspose.Imaging.CmykColorHelper.GetK(cmyk);
+	System.Console.WriteLine("Convert RGB to CMYK using custom ICC profiles.");
+	using (System.IO.Stream rgbProfileStream = System.IO.File.OpenRead(dir + "eciRGB_v2.icc"))
+	using (System.IO.Stream cmykProfileStream = System.IO.File.OpenRead(dir + "ISOcoated_v2_FullGamut4.icc"))
+	{
+		foreach (Aspose.Imaging.Color rgbColor in rgbColors)
+		{
+			int cmyk = Aspose.Imaging.CmykColorHelper.ToCmykIcc(rgbColor, rgbProfileStream, cmykProfileStream);
+			int c = Aspose.Imaging.CmykColorHelper.GetC(cmyk);
+			int m = Aspose.Imaging.CmykColorHelper.GetM(cmyk);
+			int y = Aspose.Imaging.CmykColorHelper.GetY(cmyk);
+			int k = Aspose.Imaging.CmykColorHelper.GetK(cmyk);
 
-        System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k);
-    }
-}
+			System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k);
+		}
+	}
 
-//The output looks like this:
-//Convert RGB to CMYK using default ICC profiles.
-//RGB(255,0,0)        => CMYK(0,254,249,15)
-//RGB(0,128,0)        => CMYK(247,21,254,85)
-//RGB(0,0,255)        => CMYK(254,195,0,134)
-//Convert RGB to CMYK using custom ICC profiles.
-//RGB(255,0,0)        => CMYK(0,207,219,0)
-//RGB(0,128,0)        => CMYK(238,16,254,80)
-//RGB(0,0,255)        => CMYK(242,182,0,0)
+	//The output looks like this:
+	//Convert RGB to CMYK using default ICC profiles.
+	//RGB(255,0,0)        => CMYK(0,254,249,15)
+	//RGB(0,128,0)        => CMYK(247,21,254,85)
+	//RGB(0,0,255)        => CMYK(254,195,0,134)
+	//Convert RGB to CMYK using custom ICC profiles.
+	//RGB(255,0,0)        => CMYK(0,207,219,0)
+	//RGB(0,128,0)        => CMYK(238,16,254,80)
+	//RGB(0,0,255)        => CMYK(242,182,0,0)
+```
+
+```csharp
+[VB.NET]
+
+    Dim rgbColors = New Aspose.Imaging.Color() {Aspose.Imaging.Color.Red, Aspose.Imaging.Color.Green, Aspose.Imaging.Color.Blue}
+
+    System.Console.WriteLine("Convert RGB to CMYK using default ICC profiles.")
+    For Each rgbColor As Aspose.Imaging.Color In rgbColors
+        Dim cmyk As Integer = Aspose.Imaging.CmykColorHelper.ToCmykIcc(rgbColor)
+        Dim c As Integer = Aspose.Imaging.CmykColorHelper.GetC(cmyk)
+        Dim m As Integer = Aspose.Imaging.CmykColorHelper.GetM(cmyk)
+        Dim y As Integer = Aspose.Imaging.CmykColorHelper.GetY(cmyk)
+        Dim k As Integer = Aspose.Imaging.CmykColorHelper.GetK(cmyk)
+
+        System.Console.WriteLine("RGB({0},{1},{2})" & vbTab & vbTab & "=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k)
+    Next
+
+    ' Specify your path to the RGB and CMYK ICC profiles.
+    Dim dir = "c:\temp\iccprofiles\"
+
+    System.Console.WriteLine("Convert RGB to CMYK using custom ICC profiles.")
+    Using rgbProfileStream As Stream = File.OpenRead(dir & "eciRGB_v2.icc")
+        Using cmykProfileStream As Stream = File.OpenRead(dir & "ISOcoated_v2_FullGamut4.icc")
+            For Each rgbColor As Aspose.Imaging.Color In rgbColors
+                Dim cmyk As Integer = Aspose.Imaging.CmykColorHelper.ToCmykIcc(rgbColor, rgbProfileStream, cmykProfileStream)
+                Dim c As Integer = Aspose.Imaging.CmykColorHelper.GetC(cmyk)
+                Dim m As Integer = Aspose.Imaging.CmykColorHelper.GetM(cmyk)
+                Dim y As Integer = Aspose.Imaging.CmykColorHelper.GetY(cmyk)
+                Dim k As Integer = Aspose.Imaging.CmykColorHelper.GetK(cmyk)
+
+                System.Console.WriteLine("RGB({0},{1},{2})" & vbTab & vbTab & "=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k)
+            Next
+        End Using
+    End Using
+
+    'The output looks like this:
+    'Convert RGB to CMYK using default ICC profiles.
+    'RGB(255,0,0)        => CMYK(0,254,249,15)
+    'RGB(0,128,0)        => CMYK(247,21,254,85)
+    'RGB(0,0,255)        => CMYK(254,195,0,134)
+    'Convert RGB to CMYK using custom ICC profiles.
+    'RGB(255,0,0)        => CMYK(0,207,219,0)
+    'RGB(0,128,0)        => CMYK(238,16,254,80)
+    'RGB(0,0,255)        => CMYK(242,182,0,0)
 ```
 
 ### See Also

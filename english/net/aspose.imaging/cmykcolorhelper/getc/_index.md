@@ -29,30 +29,53 @@ The following example shows how to convert RGB colors to their CMYK counterparts
 ```csharp
 [C#]
 
-Aspose.Imaging.Color[] rgbColors = new Aspose.Imaging.Color[]
-{
-    Aspose.Imaging.Color.Red,
-    Aspose.Imaging.Color.Green,
-    Aspose.Imaging.Color.Blue,
-};
+	Aspose.Imaging.Color[] rgbColors = new Aspose.Imaging.Color[]
+	{
+		Aspose.Imaging.Color.Red,
+		Aspose.Imaging.Color.Green,
+		Aspose.Imaging.Color.Blue,
+	};
 
-System.Console.WriteLine("Convert RGB to CMYK without using ICC profiles.");
-foreach (Aspose.Imaging.Color rgbColor in rgbColors)
-{
-    int cmyk = Aspose.Imaging.CmykColorHelper.ToCmyk(rgbColor);
-    int c = Aspose.Imaging.CmykColorHelper.GetC(cmyk);
-    int m = Aspose.Imaging.CmykColorHelper.GetM(cmyk);
-    int y = Aspose.Imaging.CmykColorHelper.GetY(cmyk);
-    int k = Aspose.Imaging.CmykColorHelper.GetK(cmyk);
+	System.Console.WriteLine("Convert RGB to CMYK without using ICC profiles.");
+	foreach (Aspose.Imaging.Color rgbColor in rgbColors)
+	{
+		int cmyk = Aspose.Imaging.CmykColorHelper.ToCmyk(rgbColor);
+		int c = Aspose.Imaging.CmykColorHelper.GetC(cmyk);
+		int m = Aspose.Imaging.CmykColorHelper.GetM(cmyk);
+		int y = Aspose.Imaging.CmykColorHelper.GetY(cmyk);
+		int k = Aspose.Imaging.CmykColorHelper.GetK(cmyk);
 
-    System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k);
-}
+		System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k);
+	}
 
-//The output looks like this:
-//Convert RGB to CMYK without using ICC profiles.
-//RGB(255,0,0)        => CMYK(0,255,255,0)
-//RGB(0,128,0)        => CMYK(255,0,255,127)
-//RGB(0,0,255)        => CMYK(255,255,0,0)
+	//The output looks like this:
+	//Convert RGB to CMYK without using ICC profiles.
+	//RGB(255,0,0)        => CMYK(0,255,255,0)
+	//RGB(0,128,0)        => CMYK(255,0,255,127)
+	//RGB(0,0,255)        => CMYK(255,255,0,0)
+```
+
+```csharp
+[VB.NET]
+
+    Dim rgbColors = New Aspose.Imaging.Color() {Aspose.Imaging.Color.Red, Aspose.Imaging.Color.Green, Aspose.Imaging.Color.Blue}
+
+    System.Console.WriteLine("Convert RGB to CMYK without using ICC profiles.")
+    For Each rgbColor As Aspose.Imaging.Color In rgbColors
+        Dim cmyk As Integer = Aspose.Imaging.CmykColorHelper.ToCmyk(rgbColor)
+        Dim c As Integer = Aspose.Imaging.CmykColorHelper.GetC(cmyk)
+        Dim m As Integer = Aspose.Imaging.CmykColorHelper.GetM(cmyk)
+        Dim y As Integer = Aspose.Imaging.CmykColorHelper.GetY(cmyk)
+        Dim k As Integer = Aspose.Imaging.CmykColorHelper.GetK(cmyk)
+
+        System.Console.WriteLine("RGB({0},{1},{2})" & vbTab & vbTab & "=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k)
+    Next
+
+    'The output looks like this:
+    'Convert RGB to CMYK without using ICC profiles.
+    'RGB(255,0,0)        => CMYK(0,255,255,0)
+    'RGB(0,128,0)        => CMYK(255,0,255,127)
+    'RGB(0,0,255)        => CMYK(255,255,0,0)
 ```
 
 The following example shows how to convert CMYK colors to their RGB counterparts in a fast manner following straightforward formulas without using ICC profiles.
@@ -60,32 +83,59 @@ The following example shows how to convert CMYK colors to their RGB counterparts
 ```csharp
 [C#]
 
-int[] cmykColors = new int[]
-{
-    Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0),   // Cyan
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0),   // Magenta
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0),   // Yellow
-    Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255),   // Black
-};
+	int[] cmykColors = new int[]
+	{
+		Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0),   // Cyan
+		Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0),   // Magenta
+		Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0),   // Yellow
+		Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255),   // Black
+	};
 
-System.Console.WriteLine("Convert CMYK to RGB without using ICC profiles.");
-foreach (int cmykColor in cmykColors)
-{
-    Aspose.Imaging.Color rgbColor = Aspose.Imaging.CmykColorHelper.ToArgb(cmykColor);
-    int c = Aspose.Imaging.CmykColorHelper.GetC(cmykColor);
-    int m = Aspose.Imaging.CmykColorHelper.GetM(cmykColor);
-    int y = Aspose.Imaging.CmykColorHelper.GetY(cmykColor);
-    int k = Aspose.Imaging.CmykColorHelper.GetK(cmykColor);
+	System.Console.WriteLine("Convert CMYK to RGB without using ICC profiles.");
+	foreach (int cmykColor in cmykColors)
+	{
+		Aspose.Imaging.Color rgbColor = Aspose.Imaging.CmykColorHelper.ToArgb(cmykColor);
+		int c = Aspose.Imaging.CmykColorHelper.GetC(cmykColor);
+		int m = Aspose.Imaging.CmykColorHelper.GetM(cmykColor);
+		int y = Aspose.Imaging.CmykColorHelper.GetY(cmykColor);
+		int k = Aspose.Imaging.CmykColorHelper.GetK(cmykColor);
 
-    System.Console.WriteLine("CMYK({0},{1},{2},{3})\t\t=> RGB({4},{5},{6})", c, m, y, k, rgbColor.R, rgbColor.G, rgbColor.B);
-}
+		System.Console.WriteLine("CMYK({0},{1},{2},{3})\t\t=> RGB({4},{5},{6})", c, m, y, k, rgbColor.R, rgbColor.G, rgbColor.B);
+	}
 
-//The output looks like this:
-//Convert CMYK to RGB without using ICC profiles.
-//CMYK(255,0,0,0)        => RGB(0,255,255)
-//CMYK(0,255,0,0)        => RGB(255,0,255)
-//CMYK(0,0,255,0)        => RGB(255,255,0)
-//CMYK(0,0,0,255)        => RGB(0,0,0)
+	//The output looks like this:
+	//Convert CMYK to RGB without using ICC profiles.
+	//CMYK(255,0,0,0)        => RGB(0,255,255)
+	//CMYK(0,255,0,0)        => RGB(255,0,255)
+	//CMYK(0,0,255,0)        => RGB(255,255,0)
+	//CMYK(0,0,0,255)        => RGB(0,0,0)
+```
+
+```csharp	
+[VB.NET]
+
+    Dim cmykColors = New Integer() {Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0), Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0), Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0), Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255)} ' Cyan
+    ' Magenta
+    ' Yellow
+    ' Black
+
+    System.Console.WriteLine("Convert CMYK to RGB without using ICC profiles.")
+    For Each cmykColor In cmykColors
+        Dim rgbColor As Aspose.Imaging.Color = Aspose.Imaging.CmykColorHelper.ToArgb(cmykColor)
+        Dim c As Integer = Aspose.Imaging.CmykColorHelper.GetC(cmykColor)
+        Dim m As Integer = Aspose.Imaging.CmykColorHelper.GetM(cmykColor)
+        Dim y As Integer = Aspose.Imaging.CmykColorHelper.GetY(cmykColor)
+        Dim k As Integer = Aspose.Imaging.CmykColorHelper.GetK(cmykColor)
+
+        System.Console.WriteLine("CMYK({0},{1},{2},{3})" & vbTab & vbTab & "=> RGB({4},{5},{6})", c, m, y, k, rgbColor.R, rgbColor.G, rgbColor.B)
+    Next
+
+    'The output looks like this:
+    'Convert CMYK to RGB without using ICC profiles.
+    'CMYK(255,0,0,0)        => RGB(0,255,255)
+    'CMYK(0,255,0,0)        => RGB(255,0,255)
+    'CMYK(0,0,255,0)        => RGB(255,255,0)
+    'CMYK(0,0,0,255)        => RGB(0,0,0)
 ```
 
 ### See Also

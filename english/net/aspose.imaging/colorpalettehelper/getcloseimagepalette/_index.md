@@ -30,31 +30,60 @@ The following example loads a BMP image and saves it back to BMP using various s
 ```csharp
 [C#]
 
-string dir = "c:\\temp\\";
+	string dir = "c:\\temp\\";
 
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
-{
-    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
+	using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.bmp"))
+	{
+		Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
 
-    // Create BmpOptions
-    Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
+		// Create BmpOptions
+		Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 
-    // Use 8 bits per pixel to reduce the size of the output image.
-    saveOptions.BitsPerPixel = 8;
+		// Use 8 bits per pixel to reduce the size of the output image.
+		saveOptions.BitsPerPixel = 8;
 
-    // Set the closest 8-bit color palette which covers the maximal number of image pixels, so that a palettized image
-    // is almost visually indistinguishable from a non-palletized one.
-    saveOptions.Palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(rasterImage, 256);
+		// Set the closest 8-bit color palette which covers the maximal number of image pixels, so that a palettized image
+		// is almost visually indistinguishable from a non-palletized one.
+		saveOptions.Palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(rasterImage, 256);
 
-    // Save without compression.
-    // You can also use RLE-8 compression to reduce the size of the output image.
-    saveOptions.Compression = Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb;
+		// Save without compression.
+		// You can also use RLE-8 compression to reduce the size of the output image.
+		saveOptions.Compression = Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb;
 
-    // Set the horizontal and vertical resolution to 96 dpi.
-    saveOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
+		// Set the horizontal and vertical resolution to 96 dpi.
+		saveOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
 
-    image.Save(dir + "sample.bmpoptions.bmp", saveOptions);
-}
+		image.Save(dir + "sample.bmpoptions.bmp", saveOptions);
+	}
+```
+
+```csharp
+[VB.NET]
+
+    Dim dir = "c:\temp\"
+
+    Using image As Aspose.Imaging.Image = Aspose.Imaging.Image.Load(dir & "sample.bmp")
+        Dim rasterImage As Aspose.Imaging.RasterImage = CType(image, Aspose.Imaging.RasterImage)
+
+        ' Create BmpOptions
+        Dim saveOptions As Aspose.Imaging.ImageOptions.BmpOptions = New Aspose.Imaging.ImageOptions.BmpOptions()
+
+        ' Use 8 bits per pixel to reduce the size of the output image.
+        saveOptions.BitsPerPixel = 8
+
+        ' Set the closest 8-bit color palette which covers the maximal number of image pixels, so that a palettized image
+        ' is almost visually indistinguishable from a non-palletized one.
+        saveOptions.Palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(rasterImage, 256)
+
+        ' Save without compression.
+        ' You can also use RLE-8 compression to reduce the size of the output image.
+        saveOptions.Compression = Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb
+
+        ' Set the horizontal and vertical resolution to 96 dpi.
+        saveOptions.ResolutionSettings = New Aspose.Imaging.ResolutionSetting(96.0, 96.0)
+
+        image.Save(dir & "sample.bmpoptions.bmp", saveOptions)
+    End Using
 ```
 
 The following example shows how to palletize a BMP image to reduce its output size.
@@ -62,46 +91,84 @@ The following example shows how to palletize a BMP image to reduce its output si
 ```csharp
 [C#]
 
-// Create a BMP image 100 x 100 px.
-using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100))
-{
-    // The linear gradient from the left-top to the right-bottom corner of the image.
-    Aspose.Imaging.Brushes.LinearGradientBrush brush =
-        new Aspose.Imaging.Brushes.LinearGradientBrush(
-            new Aspose.Imaging.Point(0, 0),
-            new Aspose.Imaging.Point(bmpImage.Width, bmpImage.Height),
-            Aspose.Imaging.Color.Red,
-            Aspose.Imaging.Color.Green);
+	// Create a BMP image 100 x 100 px.
+	using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100))
+	{
+		// The linear gradient from the left-top to the right-bottom corner of the image.
+		Aspose.Imaging.Brushes.LinearGradientBrush brush =
+			new Aspose.Imaging.Brushes.LinearGradientBrush(
+				new Aspose.Imaging.Point(0, 0),
+				new Aspose.Imaging.Point(bmpImage.Width, bmpImage.Height),
+				Aspose.Imaging.Color.Red,
+				Aspose.Imaging.Color.Green);
 
-    // Fill the entire image with the linear gradient brush.
-    Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(bmpImage);
-    gr.FillRectangle(brush, bmpImage.Bounds);
+		// Fill the entire image with the linear gradient brush.
+		Aspose.Imaging.Graphics gr = new Aspose.Imaging.Graphics(bmpImage);
+		gr.FillRectangle(brush, bmpImage.Bounds);
 
-    // Get the closest 8-bit color palette which covers as many pixels as possible, so that a palettized image
-    // is almost visually indistinguishable from a non-palletized one.
-    Aspose.Imaging.IColorPalette palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(bmpImage, 256);
+		// Get the closest 8-bit color palette which covers as many pixels as possible, so that a palettized image
+		// is almost visually indistinguishable from a non-palletized one.
+		Aspose.Imaging.IColorPalette palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(bmpImage, 256);
 
-    // 8-bit palette contains at most 256 colors.
-    Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
-    saveOptions.Palette = palette;
-    saveOptions.BitsPerPixel = 8;
+		// 8-bit palette contains at most 256 colors.
+		Aspose.Imaging.ImageOptions.BmpOptions saveOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
+		saveOptions.Palette = palette;
+		saveOptions.BitsPerPixel = 8;
 
-    using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
-    {
-        bmpImage.Save(stream, saveOptions);
-        System.Console.WriteLine("The palettized image size is {0} bytes.", stream.Length);
-    }
+		using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
+		{
+			bmpImage.Save(stream, saveOptions);
+			System.Console.WriteLine("The palettized image size is {0} bytes.", stream.Length);
+		}
 
-    using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
-    {
-        bmpImage.Save(stream);
-        System.Console.WriteLine("The non-palettized image size is {0} bytes.", stream.Length);
-    }
-}
+		using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
+		{
+			bmpImage.Save(stream);
+			System.Console.WriteLine("The non-palettized image size is {0} bytes.", stream.Length);
+		}
+	}
 
-// The output looks like this:
-// The palettized image size is 11078 bytes.
-// The non-palettized image size is 40054 bytes.
+	// The output looks like this:
+	// The palettized image size is 11078 bytes.
+	// The non-palettized image size is 40054 bytes.
+```
+
+```csharp
+[VB.NET]
+
+	' Create a BMP image 100 x 100 px.
+	Using bmpImage As Aspose.Imaging.FileFormats.Bmp.BmpImage = New Aspose.Imaging.FileFormats.Bmp.BmpImage(100, 100)
+		' The linear gradient from the left-top to the right-bottom corner of the image.
+		Dim brush As Aspose.Imaging.Brushes.LinearGradientBrush = New Aspose.Imaging.Brushes.LinearGradientBrush(New Aspose.Imaging.Point(0, 0), New Aspose.Imaging.Point(bmpImage.Width, bmpImage.Height), Aspose.Imaging.Color.Red, Aspose.Imaging.Color.Green)
+
+		' Fill the entire image with the linear gradient brush.
+		Dim gr As Aspose.Imaging.Graphics = New Aspose.Imaging.Graphics(bmpImage)
+		gr.FillRectangle(brush, bmpImage.Bounds)
+
+		' Get the closest 8-bit color palette which covers as many pixels as possible, so that a palettized image
+		' is almost visually indistinguishable from a non-palletized one.
+		Dim palette As Aspose.Imaging.IColorPalette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(bmpImage, 256)
+
+		' 8-bit palette contains at most 256 colors.
+		Dim saveOptions As Aspose.Imaging.ImageOptions.BmpOptions = New Aspose.Imaging.ImageOptions.BmpOptions()
+		saveOptions.Palette = palette
+		saveOptions.BitsPerPixel = 8
+
+		Using stream As MemoryStream = New MemoryStream()
+			bmpImage.Save(stream, saveOptions)
+			System.Console.WriteLine("The palettized image size is {0} bytes.", stream.Length)
+		End Using
+
+		Using stream As MemoryStream = New MemoryStream()
+			bmpImage.Save(stream)
+			System.Console.WriteLine("The non-palettized image size is {0} bytes.", stream.Length)
+		End Using
+	End Using
+
+		' The output looks like this:
+		' The palettized image size is 11078 bytes.
+		' The non-palettized image size is 40054 bytes.
+
 ```
 
 ### See Also
@@ -140,24 +207,45 @@ The following example shows how to compress a PNG image, using indexed color wit
 ```csharp
 [C#]
 
-// Loads png image        
-    string  sourceFilePath="OriginalRings.png";
-    string  outputFilePath="OriginalRingsOutput.png";
-    using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(sourceFilePath))
-{
-    image.Save(outputFilePath, new Aspose.Imaging.ImageOptions.PngOptions()
-    {
-         Progressive = true,
-             // Use indexed color type
-         ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.IndexedColor,
-             // Use maximal compression
-         CompressionLevel = 9,
-      // Get the closest 8-bit color palette which covers as many pixels as possible, so that a palettized image
-         // is almost visually indistinguishable from a non-palletized one.
-         Palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette((Aspose.Imaging.RasterImage)image, 256, Aspose.Imaging.PaletteMiningMethod.Histogram)
-    });
-}
-    // The output file size should be significantly reduced
+	// Loads png image        
+		string  sourceFilePath="OriginalRings.png";
+		string  outputFilePath="OriginalRingsOutput.png";
+		using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(sourceFilePath))
+	{
+		image.Save(outputFilePath, new Aspose.Imaging.ImageOptions.PngOptions()
+		{
+			 Progressive = true,
+				 // Use indexed color type
+			 ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.IndexedColor,
+				 // Use maximal compression
+			 CompressionLevel = 9,
+		  // Get the closest 8-bit color palette which covers as many pixels as possible, so that a palettized image
+			 // is almost visually indistinguishable from a non-palletized one.
+			 Palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette((Aspose.Imaging.RasterImage)image, 256, Aspose.Imaging.PaletteMiningMethod.Histogram)
+		});
+	}
+		// The output file size should be significantly reduced
+```
+
+```csharp
+[VB.NET]
+
+    ' Loads png image        
+    Dim sourceFilePath = "OriginalRings.png"
+    Dim outputFilePath = "OriginalRingsOutput.png"
+    Using image As Aspose.Imaging.Image = Aspose.Imaging.Image.Load(sourceFilePath)
+        image.Save(outputFilePath, New Aspose.Imaging.ImageOptions.PngOptions() With {
+          .Progressive = True,
+            ' Use indexed color type
+            .ColorType = Aspose.Imaging.FileFormats.Png.PngColorType.IndexedColor,
+            ' Use maximal compression
+            .CompressionLevel = 9,
+            ' Get the closest 8-bit color palette which covers as many pixels as possible, so that a palettized image
+            ' is almost visually indistinguishable from a non-palletized one.
+            .Palette = Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(CType(image, Aspose.Imaging.RasterImage), 256, Aspose.Imaging.PaletteMiningMethod.Histogram)
+        })
+    End Using
+    ' The output file size should be significantly reduced
 ```
 
 ### See Also

@@ -29,44 +29,82 @@ The following example creates a palettized grayscale BMP image and then saves it
 ```csharp
 [C#]
 
-string dir = "c:\\temp\\";
+	string dir = "c:\\temp\\";
 
-Aspose.Imaging.ImageOptions.BmpOptions createOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
+	Aspose.Imaging.ImageOptions.BmpOptions createOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
 
-// Save to a file
-createOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(dir + "output.palette8bit.bmp", false);
-    
-// Use 8 bits per pixel to reduce the size of the output image.
-createOptions.BitsPerPixel = 8;
+	// Save to a file
+	createOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(dir + "output.palette8bit.bmp", false);
+		
+	// Use 8 bits per pixel to reduce the size of the output image.
+	createOptions.BitsPerPixel = 8;
 
-// Set the standard 8-bit grayscale color palette which covers all grayscale colors.
-// If the processed image contains only grayscale colors, then its palettized version
-// is visually indistinguishable from a non-palletized one.
-createOptions.Palette = Aspose.Imaging.ColorPaletteHelper.Create8BitGrayscale(false);
+	// Set the standard 8-bit grayscale color palette which covers all grayscale colors.
+	// If the processed image contains only grayscale colors, then its palettized version
+	// is visually indistinguishable from a non-palletized one.
+	createOptions.Palette = Aspose.Imaging.ColorPaletteHelper.Create8BitGrayscale(false);
 
-// Save without compression.
-// You can also use RLE-8 compression to reduce the size of the output image.
-createOptions.Compression = Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb;
+	// Save without compression.
+	// You can also use RLE-8 compression to reduce the size of the output image.
+	createOptions.Compression = Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb;
 
-// Set the horizontal and vertical resolution to 96 dpi.
-createOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
+	// Set the horizontal and vertical resolution to 96 dpi.
+	createOptions.ResolutionSettings = new Aspose.Imaging.ResolutionSetting(96.0, 96.0);
 
-// Create a BMP image of 100 x 100 px and save it to a file.
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(createOptions, 100, 100))
-{
-    Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
+	// Create a BMP image of 100 x 100 px and save it to a file.
+	using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(createOptions, 100, 100))
+	{
+		Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
 
-    Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
-        new Aspose.Imaging.Point(0, 0),
-        new Aspose.Imaging.Point(image.Width, image.Height),
-        Aspose.Imaging.Color.Black,
-        Aspose.Imaging.Color.White);
+		Aspose.Imaging.Brushes.LinearGradientBrush gradientBrush = new Aspose.Imaging.Brushes.LinearGradientBrush(
+			new Aspose.Imaging.Point(0, 0),
+			new Aspose.Imaging.Point(image.Width, image.Height),
+			Aspose.Imaging.Color.Black,
+			Aspose.Imaging.Color.White);
 
-    // Fill the image with a grayscale gradient
-    graphics.FillRectangle(gradientBrush, image.Bounds);
+		// Fill the image with a grayscale gradient
+		graphics.FillRectangle(gradientBrush, image.Bounds);
 
-    image.Save();
-}
+		image.Save();
+	}
+```
+
+```csharp
+[VB.NET]
+
+    Dim dir = "c:\temp\"
+
+    Dim createOptions As Aspose.Imaging.ImageOptions.BmpOptions = New Aspose.Imaging.ImageOptions.BmpOptions()
+
+    ' Save to a file
+    createOptions.Source = New Aspose.Imaging.Sources.FileCreateSource(dir & "output.palette8bit.bmp", False)
+
+    ' Use 8 bits per pixel to reduce the size of the output image.
+    createOptions.BitsPerPixel = 8
+
+    ' Set the standard 8-bit grayscale color palette which covers all grayscale colors.
+    ' If the processed image contains only grayscale colors, then its palettized version
+    ' is visually indistinguishable from a non-palletized one.
+    createOptions.Palette = Aspose.Imaging.ColorPaletteHelper.Create8BitGrayscale(False)
+
+    ' Save without compression.
+    ' You can also use RLE-8 compression to reduce the size of the output image.
+    createOptions.Compression = Aspose.Imaging.FileFormats.Bmp.BitmapCompression.Rgb
+
+    ' Set the horizontal and vertical resolution to 96 dpi.
+    createOptions.ResolutionSettings = New Aspose.Imaging.ResolutionSetting(96.0, 96.0)
+
+    ' Create a BMP image of 100 x 100 px and save it to a file.
+    Using image As Aspose.Imaging.Image = Aspose.Imaging.Image.Create(createOptions, 100, 100)
+        Dim graphics As Aspose.Imaging.Graphics = New Aspose.Imaging.Graphics(image)
+
+        Dim gradientBrush As Aspose.Imaging.Brushes.LinearGradientBrush = New Aspose.Imaging.Brushes.LinearGradientBrush(New Aspose.Imaging.Point(0, 0), New Aspose.Imaging.Point(image.Width, image.Height), Aspose.Imaging.Color.Black, Aspose.Imaging.Color.White)
+
+        ' Fill the image with a grayscale gradient
+        graphics.FillRectangle(gradientBrush, image.Bounds)
+
+        image.Save()
+    End Using
 ```
 
 ### See Also
