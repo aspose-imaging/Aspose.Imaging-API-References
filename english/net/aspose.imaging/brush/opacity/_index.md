@@ -85,7 +85,7 @@ This example uses Graphics class to create primitive shapes on the Image surface
 ```csharp
 [VB.NET]
 
-	Using stream As FileStream = New FileStream("C:" & vbTab & "empoutput.png", FileMode.Create)
+	Using stream As FileStream = New FileStream("C:\temp\output.png", FileMode.Create)
 		'Create an instance of PngOptions and set its various properties
 		Dim pngOptions As Aspose.Imaging.ImageOptions.PngOptions = New Aspose.Imaging.ImageOptions.PngOptions()
 

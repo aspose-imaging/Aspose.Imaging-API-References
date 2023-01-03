@@ -68,7 +68,7 @@ The following example shows how to convert RGB colors to their CMYK counterparts
         Dim y As Integer = Aspose.Imaging.CmykColorHelper.GetY(cmyk)
         Dim k As Integer = Aspose.Imaging.CmykColorHelper.GetK(cmyk)
 
-        System.Console.WriteLine("RGB({0},{1},{2})" & vbTab & vbTab & "=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k)
+        System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k)
     Next
 
     'The output looks like this:
@@ -114,11 +114,14 @@ The following example shows how to convert CMYK colors to their RGB counterparts
 ```csharp	
 [VB.NET]
 
-    Dim cmykColors = New Integer() {Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0), Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0), Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0), Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255)} ' Cyan
-    ' Magenta
-    ' Yellow
-    ' Black
-
+    Dim cmykColors = New Integer() 
+	{
+		Aspose.Imaging.CmykColorHelper.FromComponents(255, 0, 0, 0), ' Cyan
+		Aspose.Imaging.CmykColorHelper.FromComponents(0, 255, 0, 0), ' Magenta
+		Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 255, 0), ' Yellow
+		Aspose.Imaging.CmykColorHelper.FromComponents(0, 0, 0, 255) ' Black
+	} 
+    
     System.Console.WriteLine("Convert CMYK to RGB without using ICC profiles.")
     For Each cmykColor In cmykColors
         Dim rgbColor As Aspose.Imaging.Color = Aspose.Imaging.CmykColorHelper.ToArgb(cmykColor)
@@ -127,7 +130,7 @@ The following example shows how to convert CMYK colors to their RGB counterparts
         Dim y As Integer = Aspose.Imaging.CmykColorHelper.GetY(cmykColor)
         Dim k As Integer = Aspose.Imaging.CmykColorHelper.GetK(cmykColor)
 
-        System.Console.WriteLine("CMYK({0},{1},{2},{3})" & vbTab & vbTab & "=> RGB({4},{5},{6})", c, m, y, k, rgbColor.R, rgbColor.G, rgbColor.B)
+        System.Console.WriteLine("CMYK({0},{1},{2},{3})\t\t=> RGB({4},{5},{6})", c, m, y, k, rgbColor.R, rgbColor.G, rgbColor.B)
     Next
 
     'The output looks like this:
