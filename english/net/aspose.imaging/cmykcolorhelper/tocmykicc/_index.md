@@ -183,7 +183,12 @@ The following example shows how to convert RGB colors to their CMYK counterparts
 ```csharp
 [VB.NET]
 
-    Dim rgbColors = New Aspose.Imaging.Color() {Aspose.Imaging.Color.Red, Aspose.Imaging.Color.Green, Aspose.Imaging.Color.Blue}
+    Dim rgbColors = New Aspose.Imaging.Color() 
+	{
+		Aspose.Imaging.Color.Red, 
+		Aspose.Imaging.Color.Green, 
+		Aspose.Imaging.Color.Blue,
+	}
 
     System.Console.WriteLine("Convert RGB to CMYK using default ICC profiles.")
     For Each rgbColor As Aspose.Imaging.Color In rgbColors
@@ -193,7 +198,7 @@ The following example shows how to convert RGB colors to their CMYK counterparts
         Dim y As Integer = Aspose.Imaging.CmykColorHelper.GetY(cmyk)
         Dim k As Integer = Aspose.Imaging.CmykColorHelper.GetK(cmyk)
 
-        System.Console.WriteLine("RGB({0},{1},{2})" & vbTab & vbTab & "=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k)
+        System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k)
     Next
 
     ' Specify your path to the RGB and CMYK ICC profiles.
@@ -209,7 +214,7 @@ The following example shows how to convert RGB colors to their CMYK counterparts
                 Dim y As Integer = Aspose.Imaging.CmykColorHelper.GetY(cmyk)
                 Dim k As Integer = Aspose.Imaging.CmykColorHelper.GetK(cmyk)
 
-                System.Console.WriteLine("RGB({0},{1},{2})" & vbTab & vbTab & "=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k)
+                System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k)
             Next
         End Using
     End Using
@@ -335,7 +340,12 @@ The following example shows how to convert RGB colors to their CMYK counterparts
 ```csharp
 [VB.NET]
 
-    Dim rgbColors = New Aspose.Imaging.Color() {Aspose.Imaging.Color.Red, Aspose.Imaging.Color.Green, Aspose.Imaging.Color.Blue}
+    Dim rgbColors = New Aspose.Imaging.Color() 
+	{
+		Aspose.Imaging.Color.Red, 
+		Aspose.Imaging.Color.Green, 
+		Aspose.Imaging.Color.Blue,
+	}
 
     System.Console.WriteLine("Convert RGB to CMYK using default ICC profiles.")
     For Each rgbColor As Aspose.Imaging.Color In rgbColors
@@ -345,7 +355,7 @@ The following example shows how to convert RGB colors to their CMYK counterparts
         Dim y As Integer = Aspose.Imaging.CmykColorHelper.GetY(cmyk)
         Dim k As Integer = Aspose.Imaging.CmykColorHelper.GetK(cmyk)
 
-        System.Console.WriteLine("RGB({0},{1},{2})" & vbTab & vbTab & "=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k)
+        System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k)
     Next
 
     ' Specify your path to the RGB and CMYK ICC profiles.
@@ -361,7 +371,7 @@ The following example shows how to convert RGB colors to their CMYK counterparts
                 Dim y As Integer = Aspose.Imaging.CmykColorHelper.GetY(cmyk)
                 Dim k As Integer = Aspose.Imaging.CmykColorHelper.GetK(cmyk)
 
-                System.Console.WriteLine("RGB({0},{1},{2})" & vbTab & vbTab & "=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k)
+                System.Console.WriteLine("RGB({0},{1},{2})\t\t=> CMYK({3},{4},{5},{6})", rgbColor.R, rgbColor.G, rgbColor.B, c, m, y, k)
             Next
         End Using
     End Using
