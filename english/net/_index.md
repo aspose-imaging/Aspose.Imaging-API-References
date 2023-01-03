@@ -11,17 +11,17 @@ is_root: true
 
 | Namespace | Description |
 | --- | --- |
-| [Aspose.Imaging](./aspose.imaging) | The namespace is the core for nested namespaces and the most basic objects used for Aspose.Imaging processing. |
-| [Aspose.Imaging.ApsBuilder.Dib](./aspose.imaging.apsbuilder.dib) | The namespace DIB header processing. |
-| [Aspose.Imaging.AsyncTask](./aspose.imaging.asynctask) | The namespace handles AsyncTask processing. |
-| [Aspose.Imaging.Brushes](./aspose.imaging.brushes) | The namespace provides helper classes and methods to work with different brush types. |
-| [Aspose.Imaging.CoreExceptions](./aspose.imaging.coreexceptions) | The namespace contains exceptions thrown by any of the core Imaging components. |
-| [Aspose.Imaging.CoreExceptions.Compressors](./aspose.imaging.coreexceptions.compressors) | The namespace contains exceptions thrown by one of the compression algorithms supported. |
-| [Aspose.Imaging.CoreExceptions.ImageFormats](./aspose.imaging.coreexceptions.imageformats) | The namespace contains exceptions thrown by one of the file formats supported. |
-| [Aspose.Imaging.CustomFontHandler](./aspose.imaging.customfonthandler) | The namespace handles custom fonts processing. |
-| [Aspose.Imaging.Dithering](./aspose.imaging.dithering) | The namespace provides different helper classes for color dithering. |
-| [Aspose.Imaging.Evalute](./aspose.imaging.evalute) | The namespace DIB header processing. |
-| [Aspose.Imaging.Exif](./aspose.imaging.exif) | The namespace contains EXIF related helper classes and methods. |
+| [Aspose.Imaging](./aspose.imaging) | The **Aspose.Imaging** namespace is the core for nested namespaces and the most basic objects used for Aspose.Imaging processing. The namespace provides basic classes for creating, loading, manipulating, converting, transformating and compressing images. |
+| [Aspose.Imaging.ApsBuilder.Dib](./aspose.imaging.apsbuilder.dib) | The **Aspose.Imaging.ApsBuilder.Dib** namespace provides classes for device-independent bitmap (DIB) header processing. |
+| [Aspose.Imaging.AsyncTask](./aspose.imaging.asynctask) | The **Aspose.Imaging.AsyncTask** namespace provides classes for asynchronous task processing. |
+| [Aspose.Imaging.Brushes](./aspose.imaging.brushes) | The **Aspose.Imaging.Brushes** namespace provides helper classes and methods to work with different brush types such as hatch, linear gradient, path gradient, texture and more brush types. |
+| [Aspose.Imaging.CoreExceptions](./aspose.imaging.coreexceptions) | The **Aspose.Imaging.CoreExceptions** namespace contains exceptions thrown by any of the core Imaging components. |
+| [Aspose.Imaging.CoreExceptions.Compressors](./aspose.imaging.coreexceptions.compressors) | The **Aspose.Imaging.CoreExceptions.Compressors** namespace contains exceptions thrown by one of the compression algorithms supported. |
+| [Aspose.Imaging.CoreExceptions.ImageFormats](./aspose.imaging.coreexceptions.imageformats) | The **Aspose.Imaging.CoreExceptions.ImageFormats** namespace contains exceptions thrown by one of the file formats supported. |
+| [Aspose.Imaging.CustomFontHandler](./aspose.imaging.customfonthandler) | The **Aspose.Imaging.CustomFontHandler** namespace provides classes for handling custom fonts processing. |
+| [Aspose.Imaging.Dithering](./aspose.imaging.dithering) | The **Aspose.Imaging.Dithering** namespace provides different helper classes for color dithering. |
+| [Aspose.Imaging.Evalute](./aspose.imaging.evalute) | The **Aspose.Imaging.Evalute** namespace provides exception classes for evaluation errors. |
+| [Aspose.Imaging.Exif](./aspose.imaging.exif) | The **Aspose.Imaging.Exif** namespace contains Exchangeable Image File (EXIF) related helper classes and methods. |
 | [Aspose.Imaging.Exif.Enums](./aspose.imaging.exif.enums) | The namespace contains EXIF enumerations. |
 | [Aspose.Imaging.Extensions](./aspose.imaging.extensions) | The namespace contains extension methods. |
 | [Aspose.Imaging.FileFormats.Apng](./aspose.imaging.fileformats.apng) | The namespace handles Apng file format processing. |
