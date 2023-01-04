@@ -29,41 +29,74 @@ This example demonstrates the custom font source providing to use the specific f
 ```csharp
 [C#]
 
-public void CustomFontSourceTest(string inputPath, string outputPath, string fileName, string fontPath)
-{
-    var loadOptions = new Aspose.Imaging.LoadOptions();
-    loadOptions.AddCustomFontSource(GetFontSource, fontPath);
-    using (var img = Image.Load(System.IO.Path.Combine(inputPath, fileName), loadOptions))
-    {
-        Aspose.Imaging.ImageOptions.VectorRasterizationOptions vectorRasterizationOptions =
-            (Aspose.Imaging.ImageOptions.VectorRasterizationOptions)img.GetDefaultOptions(new object[] { Color.White, img.Width, img.Height });
-        vectorRasterizationOptions.TextRenderingHint = Aspose.Imaging.TextRenderingHint.SingleBitPerPixel;
-        vectorRasterizationOptions.SmoothingMode = Aspose.Imaging.SmoothingMode.None;
+	public void CustomFontSourceTest(string inputPath, string outputPath, string fileName, string fontPath)
+	{
+		var loadOptions = new Aspose.Imaging.LoadOptions();
+		loadOptions.AddCustomFontSource(GetFontSource, fontPath);
+		using (var img = Image.Load(System.IO.Path.Combine(inputPath, fileName), loadOptions))
+		{
+			Aspose.Imaging.ImageOptions.VectorRasterizationOptions vectorRasterizationOptions =
+				(Aspose.Imaging.ImageOptions.VectorRasterizationOptions)img.GetDefaultOptions(new object[] { Color.White, img.Width, img.Height });
+			vectorRasterizationOptions.TextRenderingHint = Aspose.Imaging.TextRenderingHint.SingleBitPerPixel;
+			vectorRasterizationOptions.SmoothingMode = Aspose.Imaging.SmoothingMode.None;
 
-        img.Save(System.IO.Path.Combine(outputPath, fileName + ".png"), new Aspose.Imaging.ImageOptions.PngOptions
-        {
-            VectorRasterizationOptions = vectorRasterizationOptions
-        });
-    }
-}
+			img.Save(System.IO.Path.Combine(outputPath, fileName + ".png"), new Aspose.Imaging.ImageOptions.PngOptions
+			{
+				VectorRasterizationOptions = vectorRasterizationOptions
+			});
+		}
+	}
 
-// The custom fonts provider example. 
-private Aspose.Imaging.CustomFontHandler.CustomFontData[] GetFontSource(params object[] args)
-{
-    string fontsPath = string.Empty;
-    if (args.Length > 0)
-    {
-        fontsPath = args[0].ToString();
-    }
+	// The custom fonts provider example. 
+	private Aspose.Imaging.CustomFontHandler.CustomFontData[] GetFontSource(params object[] args)
+	{
+		string fontsPath = string.Empty;
+		if (args.Length > 0)
+		{
+			fontsPath = args[0].ToString();
+		}
 
-    var customFontData = new System.Collections.Generic.List<Aspose.Imaging.CustomFontHandler.CustomFontData>();
-    foreach (var font in System.IO.Directory.GetFiles(fontsPath))
-    {
-        customFontData.Add(new Aspose.Imaging.CustomFontHandler.CustomFontData(Path.GetFileNameWithoutExtension(font), System.IO.File.ReadAllBytes(font)));
-    }
+		var customFontData = new System.Collections.Generic.List<Aspose.Imaging.CustomFontHandler.CustomFontData>();
+		foreach (var font in System.IO.Directory.GetFiles(fontsPath))
+		{
+			customFontData.Add(new Aspose.Imaging.CustomFontHandler.CustomFontData(Path.GetFileNameWithoutExtension(font), System.IO.File.ReadAllBytes(font)));
+		}
 
-    return customFontData.ToArray();
-}
+		return customFontData.ToArray();
+	}
+```
+
+```csharp
+[VB.NET]
+
+	Public Sub CustomFontSourceTest(ByVal inputPath As String, ByVal outputPath As String, ByVal fileName As String, ByVal fontPath As String)
+			Dim loadOptions = New Aspose.Imaging.LoadOptions()
+			loadOptions.AddCustomFontSource(AddressOf GetFontSource, fontPath)
+			Using img = Image.Load(Path.Combine(inputPath, fileName), loadOptions)
+				Dim vectorRasterizationOptions As Aspose.Imaging.ImageOptions.VectorRasterizationOptions = CType(img.GetDefaultOptions(New Object() {Color.White, img.Width, img.Height}), Aspose.Imaging.ImageOptions.VectorRasterizationOptions)
+				vectorRasterizationOptions.TextRenderingHint = Aspose.Imaging.TextRenderingHint.SingleBitPerPixel
+				vectorRasterizationOptions.SmoothingMode = Aspose.Imaging.SmoothingMode.None
+
+				img.Save(Path.Combine(outputPath, fileName & ".png"), New Aspose.Imaging.ImageOptions.PngOptions With {
+				  .VectorRasterizationOptions = vectorRasterizationOptions
+				})
+			End Using
+		End Sub
+
+		' The custom fonts provider example. 
+		Private Function GetFontSource(ParamArray args As Object()) As Aspose.Imaging.CustomFontHandler.CustomFontData()
+			Dim fontsPath = String.Empty
+			If args.Length > 0 Then
+				fontsPath = args(0).ToString()
+			End If
+
+			Dim customFontData = New List(Of Aspose.Imaging.CustomFontHandler.CustomFontData)()
+			For Each font In Directory.GetFiles(fontsPath)
+				customFontData.Add(New Aspose.Imaging.CustomFontHandler.CustomFontData(Path.GetFileNameWithoutExtension(font), File.ReadAllBytes(font)))
+			Next
+
+			Return customFontData.ToArray()
+		End Function
 ```
 
 ### See Also

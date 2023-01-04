@@ -25,48 +25,93 @@ This example demonstrates the use of Aspose.Imaging.Cache
 ```csharp
 [C#]
 
-// By default the cache folder is set to user's local temp directory.
-// You can also specify another cache folder than default like the following:
-// Cache.CacheFolder = @"D:\\MyTemp";
+	// By default the cache folder is set to user's local temp directory.
+	// You can also specify another cache folder than default like the following:
+	// Cache.CacheFolder = @"D:\\MyTemp";
 
-// Auto mode is flexible and efficient
-Aspose.Imaging.Cache.CacheType = Aspose.Imaging.CacheType.Auto;
+	// Auto mode is flexible and efficient
+	Aspose.Imaging.Cache.CacheType = Aspose.Imaging.CacheType.Auto;
 
-// Default value is 0, which means there is no upper limit
-Aspose.Imaging.Cache.MaxDiskSpaceForCache = 1073741824; // 1 gigabyte
-Aspose.Imaging.Cache.MaxMemoryForCache = 1073741824; // 1 gigabyte
+	// Default value is 0, which means there is no upper limit
+	Aspose.Imaging.Cache.MaxDiskSpaceForCache = 1073741824; // 1 gigabyte
+	Aspose.Imaging.Cache.MaxMemoryForCache = 1073741824; // 1 gigabyte
 
-// It is not recommended to change the following property as it may greatly affect the performance
-Aspose.Imaging.Cache.ExactReallocateOnly = false;
+	// It is not recommended to change the following property as it may greatly affect the performance
+	Aspose.Imaging.Cache.ExactReallocateOnly = false;
 
-// At any time you may check how many bytes currently allocated for memory or disk 
-// cache by examining the following properties
-long l1 = Aspose.Imaging.Cache.AllocatedDiskBytesCount;
-long l2 = Aspose.Imaging.Cache.AllocatedMemoryBytesCount;
+	// At any time you may check how many bytes currently allocated for memory or disk 
+	// cache by examining the following properties
+	long l1 = Aspose.Imaging.Cache.AllocatedDiskBytesCount;
+	long l2 = Aspose.Imaging.Cache.AllocatedMemoryBytesCount;
 
-// Do some image processing as below
-Aspose.Imaging.ImageOptions.GifOptions options = new Aspose.Imaging.ImageOptions.GifOptions();
-options.Palette = new ColorPalette(new Aspose.Imaging.Color[] { Aspose.Imaging.Color.Red, Aspose.Imaging.Color.Blue, Aspose.Imaging.Color.Black, Aspose.Imaging.Color.White });
-options.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream(), true);
-using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Create(options, 100, 100))
-{
-    Aspose.Imaging.Color[] pixels = new Aspose.Imaging.Color[10000];
-    for (int i = 0; i < pixels.Length; i++)
-    {
-        pixels[i] = Aspose.Imaging.Color.White;
-    }
+	// Do some image processing as below
+	Aspose.Imaging.ImageOptions.GifOptions options = new Aspose.Imaging.ImageOptions.GifOptions();
+	options.Palette = new ColorPalette(new Aspose.Imaging.Color[] { Aspose.Imaging.Color.Red, Aspose.Imaging.Color.Blue, Aspose.Imaging.Color.Black, Aspose.Imaging.Color.White });
+	options.Source = new Aspose.Imaging.Sources.StreamSource(new System.IO.MemoryStream(), true);
+	using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Create(options, 100, 100))
+	{
+		Aspose.Imaging.Color[] pixels = new Aspose.Imaging.Color[10000];
+		for (int i = 0; i < pixels.Length; i++)
+		{
+			pixels[i] = Aspose.Imaging.Color.White;
+		}
 
-    image.SavePixels(image.Bounds, pixels);
+		image.SavePixels(image.Bounds, pixels);
 
-    // after executing the code above there will be allocated 40000 bytes in-memory.
-    long diskBytes = Aspose.Imaging.Cache.AllocatedDiskBytesCount;
-    long memoryBytes = Aspose.Imaging.Cache.AllocatedMemoryBytesCount;
-}
+		// after executing the code above there will be allocated 40000 bytes in-memory.
+		long diskBytes = Aspose.Imaging.Cache.AllocatedDiskBytesCount;
+		long memoryBytes = Aspose.Imaging.Cache.AllocatedMemoryBytesCount;
+	}
 
-// The allocation properties may be used to check whether all Aspose.Imaging objects were properly disposed.
-// In case you've forgot to call dispose on some object the cache values will be different than 0.            
-l1 = Aspose.Imaging.Cache.AllocatedDiskBytesCount;
-l2 = Aspose.Imaging.Cache.AllocatedMemoryBytesCount;
+	// The allocation properties may be used to check whether all Aspose.Imaging objects were properly disposed.
+	// In case you've forgot to call dispose on some object the cache values will be different than 0.            
+	l1 = Aspose.Imaging.Cache.AllocatedDiskBytesCount;
+	l2 = Aspose.Imaging.Cache.AllocatedMemoryBytesCount;
+```
+
+```csharp
+[VB.NET]
+
+    ' By default the cache folder is set to user's local temp directory.
+    ' You can also specify another cache folder than default like the following:
+    ' Cache.CacheFolder = @"D:\\MyTemp";
+
+    ' Auto mode is flexible and efficient
+    Aspose.Imaging.Cache.CacheType = Aspose.Imaging.CacheType.Auto
+
+    ' Default value is 0, which means there is no upper limit
+    Aspose.Imaging.Cache.MaxDiskSpaceForCache = 1073741824 ' 1 gigabyte
+    Aspose.Imaging.Cache.MaxMemoryForCache = 1073741824 ' 1 gigabyte
+
+    ' It is not recommended to change the following property as it may greatly affect the performance
+    Aspose.Imaging.Cache.ExactReallocateOnly = False
+
+    ' At any time you may check how many bytes currently allocated for memory or disk 
+    ' cache by examining the following properties
+    Dim l1 As Long = Aspose.Imaging.Cache.AllocatedDiskBytesCount
+    Dim l2 As Long = Aspose.Imaging.Cache.AllocatedMemoryBytesCount
+
+    ' Do some image processing as below
+    Dim options As Aspose.Imaging.ImageOptions.GifOptions = New Aspose.Imaging.ImageOptions.GifOptions()
+    options.Palette = New ColorPalette(New Aspose.Imaging.Color() {Aspose.Imaging.Color.Red, Aspose.Imaging.Color.Blue, Aspose.Imaging.Color.Black, Aspose.Imaging.Color.White})
+    options.Source = New Aspose.Imaging.Sources.StreamSource(New MemoryStream(), True)
+    Using image As Aspose.Imaging.RasterImage = CType(Aspose.Imaging.Image.Create(options, 100, 100), Aspose.Imaging.RasterImage)
+        Dim pixels = New Aspose.Imaging.Color(9999) {}
+        For i = 0 To pixels.Length - 1
+            pixels(i) = Aspose.Imaging.Color.White
+        Next
+
+        image.SavePixels(image.Bounds, pixels)
+
+        ' after executing the code above there will be allocated 40000 bytes in-memory.
+        Dim diskBytes As Long = Aspose.Imaging.Cache.AllocatedDiskBytesCount
+        Dim memoryBytes As Long = Aspose.Imaging.Cache.AllocatedMemoryBytesCount
+    End Using
+
+    ' The allocation properties may be used to check whether all Aspose.Imaging objects were properly disposed.
+    ' In case you've forgot to call dispose on some object the cache values will be different than 0.            
+    l1 = Aspose.Imaging.Cache.AllocatedDiskBytesCount
+    l2 = Aspose.Imaging.Cache.AllocatedMemoryBytesCount
 ```
 
 ### See Also
