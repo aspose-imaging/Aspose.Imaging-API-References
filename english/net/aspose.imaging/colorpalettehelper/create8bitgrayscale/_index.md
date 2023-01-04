@@ -98,7 +98,11 @@ The following example creates a palettized grayscale BMP image and then saves it
     Using image As Aspose.Imaging.Image = Aspose.Imaging.Image.Create(createOptions, 100, 100)
         Dim graphics As Aspose.Imaging.Graphics = New Aspose.Imaging.Graphics(image)
 
-        Dim gradientBrush As Aspose.Imaging.Brushes.LinearGradientBrush = New Aspose.Imaging.Brushes.LinearGradientBrush(New Aspose.Imaging.Point(0, 0), New Aspose.Imaging.Point(image.Width, image.Height), Aspose.Imaging.Color.Black, Aspose.Imaging.Color.White)
+        Dim gradientBrush As Aspose.Imaging.Brushes.LinearGradientBrush = New Aspose.Imaging.Brushes.LinearGradientBrush(
+			New Aspose.Imaging.Point(0, 0), 
+			New Aspose.Imaging.Point(image.Width, image.Height), 
+			Aspose.Imaging.Color.Black, 
+			Aspose.Imaging.Color.White)
 
         ' Fill the image with a grayscale gradient
         graphics.FillRectangle(gradientBrush, image.Bounds)
