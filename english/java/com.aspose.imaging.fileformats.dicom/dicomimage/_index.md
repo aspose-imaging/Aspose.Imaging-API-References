@@ -29,7 +29,6 @@ It is class of the implementation working with image from DICOM file
 | --- | --- |
 | [getPageCount()](#getPageCount--) | Gets the page count. |
 | [getPages()](#getPages--) | Gets the pages. |
-| [getDefaultPage()](#getDefaultPage--) | Gets the default page. |
 | [getFileInfo()](#getFileInfo--) | Gets a value, which contains info header the DICOM file |
 | [getDicomPages()](#getDicomPages--) | Gets the pages. |
 | [getActivePage()](#getActivePage--) | Gets the active page. |
@@ -267,16 +266,6 @@ Gets the pages.
 
 **Returns:**
 com.aspose.imaging.Image[] - the pages.
-### getDefaultPage() {#getDefaultPage--}
-```
-public Image getDefaultPage()
-```
-
-
-Gets the default page.
-
-**Returns:**
-[Image](../../com.aspose.imaging/image) - the default page.
 ### getFileInfo() {#getFileInfo--}
 ```
 public DicomImageInfo getFileInfo()

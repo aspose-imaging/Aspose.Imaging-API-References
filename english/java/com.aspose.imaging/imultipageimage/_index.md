@@ -16,7 +16,6 @@ The multipage image interface
 | --- | --- |
 | [getPageCount()](#getPageCount--) | Gets the page count. |
 | [getPages()](#getPages--) | Gets the pages. |
-| [getDefaultPage()](#getDefaultPage--) | Gets the default page. |
 | [getPageExportingAction()](#getPageExportingAction--) | Gets the page exporting action. |
 | [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Sets the page exporting action. |
 
@@ -72,16 +71,6 @@ Gets the pages.
 
 **Returns:**
 com.aspose.imaging.Image[] - the pages.
-### getDefaultPage() {#getDefaultPage--}
-```
-public abstract Image getDefaultPage()
-```
-
-
-Gets the default page.
-
-**Returns:**
-[Image](../../com.aspose.imaging/image) - the default page.
 ### getPageExportingAction() {#getPageExportingAction--}
 ```
 public abstract PageExportingAction getPageExportingAction()

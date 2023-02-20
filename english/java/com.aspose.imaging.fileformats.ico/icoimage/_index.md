@@ -29,7 +29,6 @@ The ICO image class.
 | [getFileFormat()](#getFileFormat--) | Gets file format. |
 | [getPageCount()](#getPageCount--) | Gets the page count. |
 | [getPages()](#getPages--) | Gets the pages. |
-| [getDefaultPage()](#getDefaultPage--) | Gets the default page. |
 | [hasAlpha()](#hasAlpha--) | Gets a value indicating whether this instance has alpha. |
 | [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | Adds an image entry to the ICO image according to default [IcoOptions](../../com.aspose.imaging.imageoptions/icooptions) as 32-bit PNG. |
 | [addPage(Image page)](#addPage-com.aspose.imaging.Image-) | Adds an image entry to the ICO image according to default [IcoOptions](../../com.aspose.imaging.imageoptions/icooptions) as 32-bit PNG. |
@@ -98,16 +97,6 @@ Value: The pages.
 
 **Returns:**
 com.aspose.imaging.Image[] - the pages.
-### getDefaultPage() {#getDefaultPage--}
-```
-public Image getDefaultPage()
-```
-
-
-Gets the default page.
-
-**Returns:**
-[Image](../../com.aspose.imaging/image) - the default page.
 ### hasAlpha() {#hasAlpha--}
 ```
 public boolean hasAlpha()

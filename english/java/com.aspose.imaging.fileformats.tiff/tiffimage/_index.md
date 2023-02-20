@@ -42,7 +42,6 @@ The tiff image.
 | [setExifData(ExifData value)](#setExifData-com.aspose.imaging.exif.ExifData-) | Gets or sets EXIF data for the active frame. |
 | [getPageCount()](#getPageCount--) | Gets the page count. |
 | [getPages()](#getPages--) | Gets the pages. |
-| [getDefaultPage()](#getDefaultPage--) | Gets the default page. |
 | [hasAlpha()](#hasAlpha--) | Gets the Has alpha channel. |
 | [getOriginalOptions()](#getOriginalOptions--) | Gets the options based on the original file settings. |
 | [addPage(RasterImage page)](#addPage-com.aspose.imaging.RasterImage-) | Adds page to the image. |
@@ -605,7 +604,7 @@ public int getPageCount()
 
 Gets the page count.
 
-Value: The page count. ``
+Value: The page count.
 
 **Returns:**
 int - the page count.
@@ -617,22 +616,10 @@ public Image[] getPages()
 
 Gets the pages.
 
-Value: The pages. ``
+Value: The pages.
 
 **Returns:**
 com.aspose.imaging.Image[] - the pages.
-### getDefaultPage() {#getDefaultPage--}
-```
-public Image getDefaultPage()
-```
-
-
-Gets the default page.
-
-Value: The default page. ``
-
-**Returns:**
-[Image](../../com.aspose.imaging/image) - the default page.
 ### hasAlpha() {#hasAlpha--}
 ```
 public boolean hasAlpha()
@@ -641,7 +628,7 @@ public boolean hasAlpha()
 
 Gets the Has alpha channel.
 
-Value: The Has alpha channel. ``
+Value: The Has alpha channel.
 
 **Returns:**
 boolean - the Has alpha channel.

@@ -40,7 +40,6 @@ A gif image.
 | [setPaletteColorResolutionBits(byte value)](#setPaletteColorResolutionBits-byte-) | Sets the palette color resolution bits. |
 | [getPageCount()](#getPageCount--) | Gets the page count. |
 | [getPages()](#getPages--) | Gets the pages. |
-| [getDefaultPage()](#getDefaultPage--) | Gets the default page. |
 | [getBlocks()](#getBlocks--) | Gets the GIF blocks. |
 | [isInterlaced()](#isInterlaced--) | Gets a value indicating whether this image instance is interlaced. |
 | [getOriginalOptions()](#getOriginalOptions--) | Gets the options based on the original file settings. |
@@ -353,7 +352,7 @@ public int getPageCount()
 
 Gets the page count.
 
-Value: The page count. ``
+Value: The page count.
 
 **Returns:**
 int - the page count.
@@ -365,22 +364,10 @@ public Image[] getPages()
 
 Gets the pages.
 
-Value: The pages. ``
+Value: The pages.
 
 **Returns:**
 com.aspose.imaging.Image[] - the pages.
-### getDefaultPage() {#getDefaultPage--}
-```
-public Image getDefaultPage()
-```
-
-
-Gets the default page.
-
-Value: The default page. ``
-
-**Returns:**
-[Image](../../com.aspose.imaging/image) - the default page.
 ### getBlocks() {#getBlocks--}
 ```
 public IGifBlock[] getBlocks()

@@ -26,7 +26,6 @@ The raster multipage image
 | [isCached()](#isCached--) | Gets a value indicating whether image data is cached currently. |
 | [getPageCount()](#getPageCount--) | Gets the page count. |
 | [getPages()](#getPages--) | Gets the pages. |
-| [getDefaultPage()](#getDefaultPage--) | Gets the default page. |
 | [hasAlpha()](#hasAlpha--) | Gets a value indicating whether this instance has alpha. |
 | [hasTransparentColor()](#hasTransparentColor--) | Gets a value indicating whether image has transparent color. |
 | [getImageOpacity()](#getImageOpacity--) | Gets opacity of this image. |
@@ -125,7 +124,7 @@ public int getBitsPerPixel()
 
 Gets the image bits per pixel count.
 
-Value: The image bits per pixel count. ``
+Value: The image bits per pixel count.
 
 **Returns:**
 int - the image bits per pixel count.
@@ -149,7 +148,7 @@ public abstract int getPageCount()
 
 Gets the page count.
 
-Value: The page count. ``
+Value: The page count.
 
 **Returns:**
 int - the page count.
@@ -161,20 +160,10 @@ public abstract Image[] getPages()
 
 Gets the pages.
 
-Value: The pages. ``
+Value: The pages.
 
 **Returns:**
 com.aspose.imaging.Image[] - the pages.
-### getDefaultPage() {#getDefaultPage--}
-```
-public abstract Image getDefaultPage()
-```
-
-
-Gets the default page.
-
-**Returns:**
-[Image](../../com.aspose.imaging/image) - the default page.
 ### hasAlpha() {#hasAlpha--}
 ```
 public boolean hasAlpha()
@@ -205,7 +194,7 @@ public float getImageOpacity()
 
 Gets opacity of this image.
 
-Value: The opacity value between 0.0 (fully transparent) and 1.0 (fully opaque). ``
+Value: The opacity value between 0.0 (fully transparent) and 1.0 (fully opaque).
 
 **Returns:**
 float - opacity of this image.
@@ -451,7 +440,7 @@ public void rotate(float angle, boolean resizeProportionally, Color backgroundCo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| angle | float | The rotate angle in degrees. Positive values will rotate clockwise. |
+| angle | float | The rotation angle in degrees. Positive values will rotate clockwise. |
 | resizeProportionally | boolean | if set to `true` you will have your image size changed according to rotated rectangle (corner points) projections in other case that leaves dimensions untouched and only `` image contents are rotated. |
 | backgroundColor | [Color](../../com.aspose.imaging/color) | Color of the background. |
 
@@ -466,7 +455,7 @@ Rotates, flips, or rotates and flips all pages.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rotateFlipType | int | The rotate flip type. |
+| rotateFlipType | int | The rotation flip type. |
 
 ### rotateFlipAll(int rotateFlip) {#rotateFlipAll-int-}
 ```
@@ -479,7 +468,7 @@ Rotates the flip all.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rotateFlip | int | The rotate flip. |
+| rotateFlip | int | The rotation flip. |
 
 ### resize(int newWidth, int newHeight, int resizeType) {#resize-int-int-int-}
 ```
@@ -565,7 +554,7 @@ Replaces all non-transparent colors with new color and preserves original alpha 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newColorArgb | int | New color ARGB value to replace non transparent colors with. |
+| newColorArgb | int | New color ARGB value to replace non-transparent colors with. |
 
 ### filter(Rectangle rectangle, FilterOptionsBase options) {#filter-com.aspose.imaging.Rectangle-com.aspose.imaging.imagefilters.filteroptions.FilterOptionsBase-}
 ```

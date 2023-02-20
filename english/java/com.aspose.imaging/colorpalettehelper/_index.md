@@ -23,10 +23,12 @@ Helper class for color palettes manipulation.
 | [create8Bit()](#create8Bit--) | Creates the 8 bit color palette. |
 | [create8BitGrayscale(boolean minIsWhite)](#create8BitGrayscale-boolean-) | Creates the 8 bit grayscale palette. |
 | [getCloseImagePalette(RasterImage image, int entriesCount)](#getCloseImagePalette-com.aspose.imaging.RasterImage-int-) | Gets color palette from raster image (palletizes image) in case the image does not have one. |
+| [getCloseTransparentImagePalette(RasterImage image, int entriesCount)](#getCloseTransparentImagePalette-com.aspose.imaging.RasterImage-int-) | Gets color palette from raster image (palletizes image) in case the image does not have one. |
 | [getCloseImagePalette(RasterImage image, int entriesCount, int paletteMiningMethod)](#getCloseImagePalette-com.aspose.imaging.RasterImage-int-int-) | Gets color palette from raster image (palletizes image) in case the image does not have one. |
 | [getCloseImagePalette(RasterImage image, Rectangle destBounds, int entriesCount)](#getCloseImagePalette-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-int-) | Gets color palette from raster image (palletizes image) in case the image does not have one. |
 | [getCloseImagePalette(RasterImage image, Rectangle destBounds, int entriesCount, boolean useImagePalette)](#getCloseImagePalette-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-int-boolean-) | Gets color palette from raster image (palletizes image) in case the image does not have one. |
 | [getCloseImagePalette(RasterImage image, Rectangle destBounds, int entriesCount, boolean useImagePalette, Color alphaBlendInColor)](#getCloseImagePalette-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-int-boolean-com.aspose.imaging.Color-) | Gets color palette from raster image (palletizes image) in case the image does not have one. |
+| [getCloseImagePalette(RasterImage image, Rectangle destBounds, int entriesCount, boolean useImagePalette, Color alphaBlendInColor, boolean keepTransparency)](#getCloseImagePalette-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-int-boolean-com.aspose.imaging.Color-boolean-) | Gets color palette from raster image (palletizes image) in case the image does not have one. |
 | [getUniformColorPalette(RasterImage image)](#getUniformColorPalette-com.aspose.imaging.RasterImage-) | Get uniform 256 color palette. |
 | [getDownscalePalette(RasterImage image)](#getDownscalePalette-com.aspose.imaging.RasterImage-) | Get 256 color palette, composed from upper bits of initial image color values. |
 | [hasTransparentColors(IColorPalette palette)](#hasTransparentColors-com.aspose.imaging.IColorPalette-) | Determines whether the specified palette has transparent colors. |
@@ -205,6 +207,22 @@ try {
 // The non-palettized image size is 40054 bytes.
 ```
 
+### getCloseTransparentImagePalette(RasterImage image, int entriesCount) {#getCloseTransparentImagePalette-com.aspose.imaging.RasterImage-int-}
+```
+public static IColorPalette getCloseTransparentImagePalette(RasterImage image, int entriesCount)
+```
+
+
+Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| image | [RasterImage](../../com.aspose.imaging/rasterimage) | The raster image. |
+| entriesCount | int | The desired entries count. |
+
+**Returns:**
+[IColorPalette](../../com.aspose.imaging/icolorpalette) - The color palette which starts with the most frequent colors from the `image` and contains `entriesCount` entries.
 ### getCloseImagePalette(RasterImage image, int entriesCount, int paletteMiningMethod) {#getCloseImagePalette-com.aspose.imaging.RasterImage-int-int-}
 ```
 public static IColorPalette getCloseImagePalette(RasterImage image, int entriesCount, int paletteMiningMethod)
@@ -299,6 +317,26 @@ Gets color palette from raster image (palletizes image) in case the image does n
 | entriesCount | int | The desired entries count. |
 | useImagePalette | boolean | If set, it will use its own image palette if available |
 | alphaBlendInColor | [Color](../../com.aspose.imaging/color) | The color that should be used as a background color for semi-transparent alpha replacement. |
+
+**Returns:**
+[IColorPalette](../../com.aspose.imaging/icolorpalette) - The color palette which starts with the most frequent colors from the `image` and contains `entriesCount` entries.
+### getCloseImagePalette(RasterImage image, Rectangle destBounds, int entriesCount, boolean useImagePalette, Color alphaBlendInColor, boolean keepTransparency) {#getCloseImagePalette-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-int-boolean-com.aspose.imaging.Color-boolean-}
+```
+public static IColorPalette getCloseImagePalette(RasterImage image, Rectangle destBounds, int entriesCount, boolean useImagePalette, Color alphaBlendInColor, boolean keepTransparency)
+```
+
+
+Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| image | [RasterImage](../../com.aspose.imaging/rasterimage) | The raster image. |
+| destBounds | [Rectangle](../../com.aspose.imaging/rectangle) | The destination image bounds. |
+| entriesCount | int | The desired entries count. |
+| useImagePalette | boolean | If set, it will use its own image palette if available |
+| alphaBlendInColor | [Color](../../com.aspose.imaging/color) | The color that should be used as a background color for semi-transparent alpha replacement. |
+| keepTransparency | boolean | If set, it will consider alpha channel bits of the image colors. |
 
 **Returns:**
 [IColorPalette](../../com.aspose.imaging/icolorpalette) - The color palette which starts with the most frequent colors from the `image` and contains `entriesCount` entries.

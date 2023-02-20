@@ -14,16 +14,16 @@ The svg callback interface
 
 | Method | Description |
 | --- | --- |
-| [onImageResourceReady(byte[] imageData, int imageType, String suggestedFileName, boolean[] useEmbeddedImage)](#onImageResourceReady-byte---int-java.lang.String-boolean---) | Called when image resource ready. |
-| [onFontResourceReady(FontStoringArgs args)](#onFontResourceReady-com.aspose.svg.options.FontStoringArgs-) | Called when [font resource ready]. |
-| [onSvgDocumentReady(byte[] htmlData, String suggestedFileName)](#onSvgDocumentReady-byte---java.lang.String-) | Called when SVG document ready. |
+| [onImageResourceReady(byte[] imageData, int imageType, String suggestedFileName, boolean[] useEmbeddedImage)](#onImageResourceReady-byte---int-java.lang.String-boolean---) | Called when the image resource is ready for export. |
+| [onFontResourceReady(FontStoringArgs args)](#onFontResourceReady-com.aspose.svg.options.FontStoringArgs-) | Called when the font resource is ready for export. |
+| [onSvgDocumentReady(byte[] htmlData, String suggestedFileName)](#onSvgDocumentReady-byte---java.lang.String-) | Called when the SVG document is ready for export. |
 ### onImageResourceReady(byte[] imageData, int imageType, String suggestedFileName, boolean[] useEmbeddedImage) {#onImageResourceReady-byte---int-java.lang.String-boolean---}
 ```
 public abstract String onImageResourceReady(byte[] imageData, int imageType, String suggestedFileName, boolean[] useEmbeddedImage)
 ```
 
 
-Called when image resource ready.
+Called when the image resource is ready for export.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -34,19 +34,19 @@ Called when image resource ready.
 | useEmbeddedImage | boolean[] | if set to `true` the embedded image must be used. |
 
 **Returns:**
-java.lang.String - Returns path to saved resource. Path should be relative to target SVG document.
+java.lang.String - Returns the path to the saved resource. Path should be relative to target SVG document.
 ### onFontResourceReady(FontStoringArgs args) {#onFontResourceReady-com.aspose.svg.options.FontStoringArgs-}
 ```
 public abstract void onFontResourceReady(FontStoringArgs args)
 ```
 
 
-Called when [font resource ready].
+Called when the font resource is ready for export.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | com.aspose.svg.options.FontStoringArgs | The arguments. |
+| args | com.aspose.svg.options.FontStoringArgs | The font storing options. |
 
 ### onSvgDocumentReady(byte[] htmlData, String suggestedFileName) {#onSvgDocumentReady-byte---java.lang.String-}
 ```
@@ -54,7 +54,7 @@ public abstract String onSvgDocumentReady(byte[] htmlData, String suggestedFileN
 ```
 
 
-Called when SVG document ready.
+Called when the SVG document is ready for export.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -63,4 +63,4 @@ Called when SVG document ready.
 | suggestedFileName | java.lang.String | Name of the suggested file. |
 
 **Returns:**
-java.lang.String - Returns path to saved svg document.
+java.lang.String - Returns the path to the saved SVG document.

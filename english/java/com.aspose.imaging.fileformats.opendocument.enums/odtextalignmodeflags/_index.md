@@ -13,8 +13,6 @@ public final class OdTextAlignModeFlags extends System.Enum
 ```
 
 The open document text align mode flags
-
-``
 ## Fields
 
 | Field | Description |

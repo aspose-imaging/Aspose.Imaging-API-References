@@ -33,7 +33,6 @@ DjvuDocument class
 | [getPageCount()](#getPageCount--) | Gets the page count. |
 | [getPages()](#getPages--) | Gets the pages. |
 | [getDjvuPages()](#getDjvuPages--) | Gets the pages for the document |
-| [getDefaultPage()](#getDefaultPage--) | Gets the default page. |
 | [getActivePage()](#getActivePage--) | Gets or sets the currently active page |
 | [setActivePage(DjvuPage value)](#setActivePage-com.aspose.imaging.fileformats.djvu.DjvuPage-) | Gets or sets the currently active page |
 | [getFirstPage()](#getFirstPage--) | Gets the first page of the document |
@@ -152,7 +151,7 @@ public int getPageCount()
 
 Gets the page count.
 
-Value: The page count. ``
+Value: The page count.
 
 **Returns:**
 int - the page count.
@@ -164,7 +163,7 @@ public Image[] getPages()
 
 Gets the pages.
 
-Value: The pages. ``
+Value: The pages.
 
 **Returns:**
 com.aspose.imaging.Image[] - the pages.
@@ -202,18 +201,6 @@ Value: The pages.
 
 **Returns:**
 com.aspose.imaging.fileformats.djvu.DjvuPage[] - the pages for the document
-### getDefaultPage() {#getDefaultPage--}
-```
-public Image getDefaultPage()
-```
-
-
-Gets the default page.
-
-Value: The default page. ``
-
-**Returns:**
-[Image](../../com.aspose.imaging/image) - the default page.
 ### getActivePage() {#getActivePage--}
 ```
 public DjvuPage getActivePage()

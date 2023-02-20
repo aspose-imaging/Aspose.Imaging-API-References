@@ -30,7 +30,6 @@ The animated PNG image.
 | [setXmpData(XmpPacketWrapper value)](#setXmpData-com.aspose.imaging.xmp.XmpPacketWrapper-) | Sets the XMP metadata. |
 | [getPageCount()](#getPageCount--) | Gets the page count. |
 | [getPages()](#getPages--) | Gets the pages. |
-| [getDefaultPage()](#getDefaultPage--) | Gets the default page. |
 | [getNumPlays()](#getNumPlays--) | Gets the number of times to loop animation. |
 | [setNumPlays(int value)](#setNumPlays-int-) | Sets the number of times to loop animation. |
 | [getDefaultFrameTime()](#getDefaultFrameTime--) | Gets the default frame duration. |
@@ -158,16 +157,6 @@ Gets the pages.
 
 **Returns:**
 com.aspose.imaging.Image[] - the pages.
-### getDefaultPage() {#getDefaultPage--}
-```
-public Image getDefaultPage()
-```
-
-
-Gets the default page.
-
-**Returns:**
-[Image](../../com.aspose.imaging/image) - the default page.
 ### getNumPlays() {#getNumPlays--}
 ```
 public int getNumPlays()

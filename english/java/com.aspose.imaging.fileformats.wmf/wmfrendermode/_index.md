@@ -17,7 +17,7 @@ The render mode enumeration.
 
 | Field | Description |
 | --- | --- |
-| [WmfRecordsOnly](#WmfRecordsOnly) | The render wmf records only without ebedded emf. |
+| [WmfRecordsOnly](#WmfRecordsOnly) | The render wmf records only without embedded emf. |
 | [EmbeddedEmfOnly](#EmbeddedEmfOnly) | The render embedded emf only. |
 | [Both](#Both) | The render both in order. |
 | [Auto](#Auto) | The auto render. |
@@ -27,7 +27,7 @@ public static final int WmfRecordsOnly
 ```
 
 
-The render wmf records only without ebedded emf.
+The render wmf records only without embedded emf.
 
 ### EmbeddedEmfOnly {#EmbeddedEmfOnly}
 ```

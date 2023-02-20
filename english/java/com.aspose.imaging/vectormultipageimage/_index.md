@@ -29,6 +29,7 @@ The Vector multipage image
 | [getBitsPerPixel()](#getBitsPerPixel--) | Gets the image bits per pixel count. |
 | [getWidth()](#getWidth--) | Gets the image width. |
 | [getHeight()](#getHeight--) | Gets the image height. |
+| [getDefaultPage()](#getDefaultPage--) | Gets the default page. |
 | [getPageExportingAction()](#getPageExportingAction--) | Gets the page exporting action. |
 | [setPageExportingAction(PageExportingAction value)](#setPageExportingAction-com.aspose.imaging.PageExportingAction-) | Sets the page exporting action. |
 | [cacheData()](#cacheData--) | Caches the data and ensures no additional data loading will be performed from the underlying `DataStreamSupporter.getDataStreamContainer()`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)). |
@@ -91,6 +92,18 @@ Value: The image height.
 
 **Returns:**
 int - the image height.
+### getDefaultPage() {#getDefaultPage--}
+```
+public abstract Image getDefaultPage()
+```
+
+
+Gets the default page.
+
+Value: The default page.
+
+**Returns:**
+[Image](../../com.aspose.imaging/image) - the default page.
 ### getPageExportingAction() {#getPageExportingAction--}
 ```
 public PageExportingAction getPageExportingAction()

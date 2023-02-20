@@ -27,12 +27,12 @@ The SVG file format creation options.
 | --- | --- |
 | [getColorType()](#getColorType--) | Gets or sets the color type for SVG image. |
 | [setColorType(int value)](#setColorType-int-) | Gets or sets the color type for SVG image. |
-| [getTextAsShapes()](#getTextAsShapes--) | Gets or sets a value indicating whether text must be converted as shapes. |
-| [setTextAsShapes(boolean value)](#setTextAsShapes-boolean-) | Gets or sets a value indicating whether text must be converted as shapes. |
-| [getCallback()](#getCallback--) | Gets or sets the font store options. |
-| [setCallback(ISvgResourceKeeperCallback value)](#setCallback-com.aspose.imaging.fileformats.svg.ISvgResourceKeeperCallback-) | Gets or sets the font store options. |
-| [getCompress()](#getCompress--) | Gets a value indicating whether this \{@link \#\#Aspose\#FileFormats\#Core\#ImageOptions\} is compressed. |
-| [setCompress(boolean value)](#setCompress-boolean-) | Sets a value indicating whether this \{@link \#\#Aspose\#FileFormats\#Core\#ImageOptions\} is compressed. |
+| [getTextAsShapes()](#getTextAsShapes--) | Gets a value indicating whether text must be rendered as shapes. |
+| [setTextAsShapes(boolean value)](#setTextAsShapes-boolean-) | Sets a value indicating whether text must be rendered as shapes. |
+| [getCallback()](#getCallback--) | Gets the storing strategy for embedded resources of [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) such as fonts, nested rasters. |
+| [setCallback(ISvgResourceKeeperCallback value)](#setCallback-com.aspose.imaging.fileformats.svg.ISvgResourceKeeperCallback-) | Sets the storing strategy for embedded resources of [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) such as fonts, nested rasters. |
+| [getCompress()](#getCompress--) | Gets a value indicating whether the output image must to be compressed. |
+| [setCompress(boolean value)](#setCompress-boolean-) | Sets a value indicating whether the output image must to be compressed. |
 
 ## Example: The following example shows how to convert a multipage vector image to SVG format in general way without referencing to a particular image type.
 
@@ -138,22 +138,26 @@ public boolean getTextAsShapes()
 ```
 
 
-Gets or sets a value indicating whether text must be converted as shapes.
+Gets a value indicating whether text must be rendered as shapes.
+
+Value: `true` if all text is turned into SVG shapes in the conversion; otherwise, `false`.
 
 **Returns:**
-boolean - `true` if all text is turned into SVG shapes in the convertion; otherwise, `false`.
+boolean - a value indicating whether text must be rendered as shapes.
 ### setTextAsShapes(boolean value) {#setTextAsShapes-boolean-}
 ```
 public void setTextAsShapes(boolean value)
 ```
 
 
-Gets or sets a value indicating whether text must be converted as shapes.
+Sets a value indicating whether text must be rendered as shapes.
+
+Value: `true` if all text is turned into SVG shapes in the conversion; otherwise, `false`.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | `true` if all text is turned into SVG shapes in the convertion; otherwise, `false`. |
+| value | boolean | a value indicating whether text must be rendered as shapes. |
 
 
 **Example: This example shows how to load a EMF image from a file and convert it to SVG using EmfRasterizationOptions.**
@@ -200,22 +204,22 @@ public ISvgResourceKeeperCallback getCallback()
 ```
 
 
-Gets or sets the font store options.
+Gets the storing strategy for embedded resources of [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) such as fonts, nested rasters.
 
 **Returns:**
-[ISvgResourceKeeperCallback](../../com.aspose.imaging.fileformats.svg/isvgresourcekeepercallback) - The font store options.
+[ISvgResourceKeeperCallback](../../com.aspose.imaging.fileformats.svg/isvgresourcekeepercallback) - the storing strategy for embedded resources of [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) such as fonts, nested rasters.
 ### setCallback(ISvgResourceKeeperCallback value) {#setCallback-com.aspose.imaging.fileformats.svg.ISvgResourceKeeperCallback-}
 ```
 public void setCallback(ISvgResourceKeeperCallback value)
 ```
 
 
-Gets or sets the font store options.
+Sets the storing strategy for embedded resources of [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) such as fonts, nested rasters.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ISvgResourceKeeperCallback](../../com.aspose.imaging.fileformats.svg/isvgresourcekeepercallback) | The font store options. |
+| value | [ISvgResourceKeeperCallback](../../com.aspose.imaging.fileformats.svg/isvgresourcekeepercallback) | the storing strategy for embedded resources of [SvgImage](../../com.aspose.imaging.fileformats.svg/svgimage) such as fonts, nested rasters. |
 
 ### getCompress() {#getCompress--}
 ```
@@ -223,26 +227,22 @@ public final boolean getCompress()
 ```
 
 
-Gets a value indicating whether this \{@link \#\#Aspose\#FileFormats\#Core\#ImageOptions\} is compressed.
-
-Value: `true` if compressed; otherwise, `false`.
+Gets a value indicating whether the output image must to be compressed.
 
 **Returns:**
-boolean - a value indicating whether this \{@link \#\#Aspose\#FileFormats\#Core\#ImageOptions\} is compressed.
+boolean - a value indicating whether the output image must be compressed.
 ### setCompress(boolean value) {#setCompress-boolean-}
 ```
 public final void setCompress(boolean value)
 ```
 
 
-Sets a value indicating whether this \{@link \#\#Aspose\#FileFormats\#Core\#ImageOptions\} is compressed.
-
-Value: `true` if compressed; otherwise, `false`.
+Sets a value indicating whether the output image must to be compressed.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | a value indicating whether this \{@link \#\#Aspose\#FileFormats\#Core\#ImageOptions\} is compressed. |
+| value | boolean | a value indicating whether the output image must be compressed. |
 
 
 **Example: The following example shows how to convert a svg images to svgz format**

@@ -35,7 +35,6 @@ A webp image.
 | [getOptions()](#getOptions--) | Gets the options. |
 | [getPages()](#getPages--) |  |
 | [getPageCount()](#getPageCount--) | Gets the page count. |
-| [getDefaultPage()](#getDefaultPage--) | Gets the default page. |
 | [getFileFormat()](#getFileFormat--) | Gets a value of file format |
 | [hasAlpha()](#hasAlpha--) | Gets the Has alpha channel. |
 | [getPageExportingAction()](#getPageExportingAction--) | Gets the page exporting action. |
@@ -226,22 +225,10 @@ public int getPageCount()
 
 Gets the page count.
 
-Value: The page count. ``
+Value: The page count.
 
 **Returns:**
 int - the page count.
-### getDefaultPage() {#getDefaultPage--}
-```
-public Image getDefaultPage()
-```
-
-
-Gets the default page.
-
-Value: The default page. ``
-
-**Returns:**
-[Image](../../com.aspose.imaging/image) - the default page.
 ### getFileFormat() {#getFileFormat--}
 ```
 public long getFileFormat()
@@ -260,7 +247,7 @@ public boolean hasAlpha()
 
 Gets the Has alpha channel.
 
-Value: The Has alpha channel. ``
+Value: The Has alpha channel.
 
 **Returns:**
 boolean - the Has alpha channel.

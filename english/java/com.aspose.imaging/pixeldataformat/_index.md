@@ -13,6 +13,12 @@ public class PixelDataFormat
 ```
 
 The pixel data format. This is an immutable object.
+## Fields
+
+| Field | Description |
+| --- | --- |
+| [Grayscale](#Grayscale) | Gets the [PixelDataFormat](../../com.aspose.imaging/pixeldataformat) defined for 8 bits per pixel with 8 bits representing grayscale intensity in the 0-255 interval. |
+| [Grayscale16](#Grayscale16) | Defined for 16 bits per pixel with up to 16 bits representing grayscale intensity. |
 ## Methods
 
 | Method | Description |
@@ -28,7 +34,6 @@ The pixel data format. This is an immutable object.
 | [getRgbIndexed2Bpp()](#getRgbIndexed2Bpp--) | Gets the `PixelDataFormat` defined for indexed 2 bit per color. |
 | [getRgbIndexed1Bpp()](#getRgbIndexed1Bpp--) | Gets the `PixelDataFormat` defined for indexed 1 bit per color. |
 | [getYCbCr()](#getYCbCr--) | Gets the `PixelDataFormat` defined for 24 bits per pixel with 8 bits for each of the luma, blue-difference and red-difference chroma components. |
-| [getGrayscale()](#getGrayscale--) | Gets the `PixelDataFormat` defined for 8 bits per pixel with 8 bits representing grayscale intensity in the 0-255 interval. |
 | [getYcck()](#getYcck--) | Gets the `PixelDataFormat` defined for 32 bits per pixel with 8 bits for each of the luma, blue-difference, red-difference and black chroma components. |
 | [getRgba32Bpp()](#getRgba32Bpp--) | Gets the `PixelDataFormat` defined for 32 bits per pixel with 8 bits for each of the alpha, red, green and blue. |
 | [getRgb24BppPng()](#getRgb24BppPng--) | Gets the `PixelDataFormat` defined for 24 bits per pixel with 8 bits for each of the alpha, red, green and blue, alpha is not defined. |
@@ -60,6 +65,24 @@ The pixel data format. This is an immutable object.
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified `System.Object` is equal to this instance. |
 | [hashCode()](#hashCode--) | Returns a hash code for this instance. |
 | [toString()](#toString--) | Returns a `System.String` that represents this instance. |
+### Grayscale {#Grayscale}
+```
+public static PixelDataFormat Grayscale
+```
+
+
+Gets the [PixelDataFormat](../../com.aspose.imaging/pixeldataformat) defined for 8 bits per pixel with 8 bits representing grayscale intensity in the 0-255 interval.
+
+Value: The [PixelDataFormat](../../com.aspose.imaging/pixeldataformat) defined for 8 bits per pixel with 8 bits representing grayscale intensity in the 0-255 interval.
+
+### Grayscale16 {#Grayscale16}
+```
+public static final PixelDataFormat Grayscale16
+```
+
+
+Defined for 16 bits per pixel with up to 16 bits representing grayscale intensity.
+
 ### getRgb32Bpp() {#getRgb32Bpp--}
 ```
 public static PixelDataFormat getRgb32Bpp()
@@ -170,16 +193,6 @@ Gets the `PixelDataFormat` defined for 24 bits per pixel with 8 bits for each of
 
 **Returns:**
 [PixelDataFormat](../../com.aspose.imaging/pixeldataformat) - The `PixelDataFormat` defined for 24 bits per pixel with 8 bits for each of the luma, blue-difference and red-difference chroma components.
-### getGrayscale() {#getGrayscale--}
-```
-public static PixelDataFormat getGrayscale()
-```
-
-
-Gets the `PixelDataFormat` defined for 8 bits per pixel with 8 bits representing grayscale intensity in the 0-255 interval.
-
-**Returns:**
-[PixelDataFormat](../../com.aspose.imaging/pixeldataformat) - The `PixelDataFormat` defined for 8 bits per pixel with 8 bits representing grayscale intensity in the 0-255 interval.
 ### getYcck() {#getYcck--}
 ```
 public static PixelDataFormat getYcck()
