@@ -6,7 +6,7 @@ type: docs
 weight: 60
 url: /net/aspose.imaging/colorpalettehelper/getcloseimagepalette/
 ---
-## ColorPaletteHelper.GetCloseImagePalette method (1 of 5)
+## ColorPaletteHelper.GetCloseImagePalette method (1 of 6)
 
 Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations.
 
@@ -114,7 +114,7 @@ using (Aspose.Imaging.FileFormats.Bmp.BmpImage bmpImage = new Aspose.Imaging.Fil
 
 ---
 
-## ColorPaletteHelper.GetCloseImagePalette method (2 of 5)
+## ColorPaletteHelper.GetCloseImagePalette method (2 of 6)
 
 Gets color palette from raster image (palletizes image) in case the image does not have one. Palette is about to be optimized for better indexed image quality or taken "AS IS" when PaletteMiningMethod.UseCurrentPalette is used.
 
@@ -171,7 +171,7 @@ The following example shows how to compress a PNG image, using indexed color wit
 
 ---
 
-## ColorPaletteHelper.GetCloseImagePalette method (3 of 5)
+## ColorPaletteHelper.GetCloseImagePalette method (3 of 6)
 
 Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations.
 
@@ -201,7 +201,7 @@ The color palette which starts with the most frequent colors from the *image* an
 
 ---
 
-## ColorPaletteHelper.GetCloseImagePalette method (4 of 5)
+## ColorPaletteHelper.GetCloseImagePalette method (4 of 6)
 
 Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations.
 
@@ -232,7 +232,7 @@ The color palette which starts with the most frequent colors from the *image* an
 
 ---
 
-## ColorPaletteHelper.GetCloseImagePalette method (5 of 5)
+## ColorPaletteHelper.GetCloseImagePalette method (5 of 6)
 
 Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations.
 
@@ -248,6 +248,40 @@ public static IColorPalette GetCloseImagePalette(RasterImage image, Rectangle de
 | entriesCount | Int32 | The desired entries count. |
 | useImagePalette | Boolean | If set, it will use its own image palette if available |
 | alphaBlendInColor | Color | The color that should be used as a background color for semi-transparent alpha replacement. |
+
+### Return Value
+
+The color palette which starts with the most frequent colors from the *image* and contains *entriesCount* entries.
+
+### See Also
+
+* interface [IColorPalette](../../icolorpalette)
+* class [RasterImage](../../rasterimage)
+* struct [Rectangle](../../rectangle)
+* struct [Color](../../color)
+* class [ColorPaletteHelper](../../colorpalettehelper)
+* namespace [Aspose.Imaging](../../colorpalettehelper)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## ColorPaletteHelper.GetCloseImagePalette method (6 of 6)
+
+Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations.
+
+```csharp
+public static IColorPalette GetCloseImagePalette(RasterImage image, Rectangle destBounds, 
+    int entriesCount, bool useImagePalette, Color alphaBlendInColor, bool keepTransparency)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| image | RasterImage | The raster image. |
+| destBounds | Rectangle | The destination image bounds. |
+| entriesCount | Int32 | The desired entries count. |
+| useImagePalette | Boolean | If set, it will use its own image palette if available |
+| alphaBlendInColor | Color | The color that should be used as a background color for semi-transparent alpha replacement. |
+| keepTransparency | Boolean | If set, it will consider alpha channel bits of the image colors. |
 
 ### Return Value
 

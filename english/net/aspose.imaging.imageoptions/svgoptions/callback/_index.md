@@ -8,15 +8,11 @@ url: /net/aspose.imaging.imageoptions/svgoptions/callback/
 ---
 ## SvgOptions.Callback property
 
-Gets or sets the font store options.
+Gets or sets the storing strategy for embedded resousces of [`SvgImage`](../../../aspose.imaging.fileformats.svg/svgimage) such as fonts, nested rasters.
 
 ```csharp
 public ISvgResourceKeeperCallback Callback { get; set; }
 ```
-
-### Property Value
-
-The font store options.
 
 ### See Also
 

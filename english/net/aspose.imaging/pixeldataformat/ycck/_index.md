@@ -3,7 +3,7 @@ title: Ycck
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 150
 url: /net/aspose.imaging/pixeldataformat/ycck/
 ---
 ## PixelDataFormat.Ycck property

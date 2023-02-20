@@ -3,7 +3,7 @@ title: Rgb32Bpp
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.imaging/pixeldataformat/rgb32bpp/
 ---
 ## PixelDataFormat.Rgb32Bpp property

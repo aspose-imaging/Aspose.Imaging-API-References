@@ -14,7 +14,7 @@ The namespace handles SVG file format processing.
 | --- | --- |
 | [FontStoringArgs](./fontstoringargs) | The font storing arguments |
 | [SvgImage](./svgimage) | Represents SVG image class. |
-| [SvgResourceKeeperCallback](./svgresourcekeepercallback) | The resource keeper callback |
+| [SvgResourceKeeperCallback](./svgresourcekeepercallback) | The resource keeper callback. |
 ## Interfaces
 
 | Interface | Description |

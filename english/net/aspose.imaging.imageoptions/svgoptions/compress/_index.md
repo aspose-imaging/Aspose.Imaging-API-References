@@ -8,15 +8,11 @@ url: /net/aspose.imaging.imageoptions/svgoptions/compress/
 ---
 ## SvgOptions.Compress property
 
-Gets or sets a value indicating whether this ICompressedOptions is compressed.
+Gets or sets a value indicating whether the output image must to be compressed.
 
 ```csharp
 public bool Compress { get; set; }
 ```
-
-### Property Value
-
-`true` if compressed; otherwise, `false`.
 
 ### Examples
 

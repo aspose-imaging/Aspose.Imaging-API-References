@@ -3,7 +3,7 @@ title: FillClosedCurve
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 340
+weight: 350
 url: /net/aspose.imaging/graphics/fillclosedcurve/
 ---
 ## Graphics.FillClosedCurve method (1 of 6)

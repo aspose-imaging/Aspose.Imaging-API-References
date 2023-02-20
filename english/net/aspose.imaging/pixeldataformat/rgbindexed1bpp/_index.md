@@ -3,7 +3,7 @@ title: RgbIndexed1Bpp
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 100
 url: /net/aspose.imaging/pixeldataformat/rgbindexed1bpp/
 ---
 ## PixelDataFormat.RgbIndexed1Bpp property

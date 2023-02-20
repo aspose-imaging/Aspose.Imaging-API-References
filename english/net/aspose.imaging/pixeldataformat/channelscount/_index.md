@@ -3,7 +3,7 @@ title: ChannelsCount
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 320
+weight: 330
 url: /net/aspose.imaging/pixeldataformat/channelscount/
 ---
 ## PixelDataFormat.ChannelsCount property

@@ -3,7 +3,7 @@ title: DrawClosedCurve
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.imaging/graphics/drawclosedcurve/
 ---
 ## Graphics.DrawClosedCurve method (1 of 4)

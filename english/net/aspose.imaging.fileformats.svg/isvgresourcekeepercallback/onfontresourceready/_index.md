@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.svg/isvgresourcekeepercallback/onfontresour
 ---
 ## ISvgResourceKeeperCallback.OnFontResourceReady method
 
-Called when [font resource ready].
+Called when the font resource is ready for export.
 
 ```csharp
 public void OnFontResourceReady(FontStoringArgs args)
@@ -16,7 +16,7 @@ public void OnFontResourceReady(FontStoringArgs args)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | FontStoringArgs | The arguments. |
+| args | FontStoringArgs | The font storing options. |
 
 ### See Also
 

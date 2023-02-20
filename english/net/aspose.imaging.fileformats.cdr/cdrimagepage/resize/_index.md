@@ -3,7 +3,7 @@ title: Resize
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.imaging.fileformats.cdr/cdrimagepage/resize/
 ---
 ## CdrImagePage.Resize method (1 of 2)

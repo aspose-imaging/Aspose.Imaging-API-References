@@ -20,7 +20,6 @@ public class PixelDataFormat
 | --- | --- |
 | static [Cmyk](../../aspose.imaging/pixeldataformat/cmyk) { get; } | Gets the [`PixelDataFormat`](../pixeldataformat) defined for 32 bits per pixel with 8 bits for each of the cyan, magenta, yellow and black. |
 | static [Cmyka](../../aspose.imaging/pixeldataformat/cmyka) { get; } | Gets the acmyk. |
-| static [Grayscale](../../aspose.imaging/pixeldataformat/grayscale) { get; } | Gets the [`PixelDataFormat`](../pixeldataformat) defined for 8 bits per pixel with 8 bits representing grayscale intensity in the 0-255 interval. |
 | static [GrayscaleAlpha](../../aspose.imaging/pixeldataformat/grayscalealpha) { get; } | Gets the [`PixelDataFormat`](../pixeldataformat) defined for 16 bits per pixel with 8 bits representing grayscale intensity in the 0-255 interval and additional 8 bit alpha component. |
 | static [Rgb16Bpp555](../../aspose.imaging/pixeldataformat/rgb16bpp555) { get; } | Gets the [`PixelDataFormat`](../pixeldataformat) defined for 16 bits per pixel with 5 bits for each of the red, green and blue, alpha is not defined. |
 | static [Rgb16Bpp565](../../aspose.imaging/pixeldataformat/rgb16bpp565) { get; } | Gets the [`PixelDataFormat`](../pixeldataformat) defined for 16 bits per pixel with 5 bits for red, 6 bits for green and 5 bits for blue, alpha is not defined. |
@@ -66,6 +65,13 @@ public class PixelDataFormat
 | override [ToString](../../aspose.imaging/pixeldataformat/tostring)() | Returns a String that represents this instance. |
 | [operator ==](../../aspose.imaging/pixeldataformat/op_equality) | Returns result of equality for two [`PixelDataFormat`](../pixeldataformat) classes. |
 | [operator !=](../../aspose.imaging/pixeldataformat/op_inequality) | Returns result of non-equality for two [`PixelDataFormat`](../pixeldataformat) classes. |
+
+## Fields
+
+| Name | Description |
+| --- | --- |
+| static [Grayscale](../../aspose.imaging/pixeldataformat/grayscale) | Gets the [`PixelDataFormat`](../pixeldataformat) defined for 8 bits per pixel with 8 bits representing grayscale intensity in the 0-255 interval. |
+| static readonly [Grayscale16](../../aspose.imaging/pixeldataformat/grayscale16) | Defined for 16 bits per pixel with up to 16 bits representing grayscale intensity. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: RgbIndexed2Bpp
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 110
 url: /net/aspose.imaging/pixeldataformat/rgbindexed2bpp/
 ---
 ## PixelDataFormat.RgbIndexed2Bpp property

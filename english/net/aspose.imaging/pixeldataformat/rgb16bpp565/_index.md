@@ -3,7 +3,7 @@ title: Rgb16Bpp565
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.imaging/pixeldataformat/rgb16bpp565/
 ---
 ## PixelDataFormat.Rgb16Bpp565 property

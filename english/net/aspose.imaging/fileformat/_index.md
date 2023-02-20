@@ -27,6 +27,8 @@ public enum FileFormat : ulong
 | Png | `10` | Png file format. |
 | Tiff | `20` | Tiff file format. |
 | Psd | `40` | Psd file format. |
+| Pdf | `80` | Pdf file format |
+| Ico | `100` | The ico format |
 | Jpeg2000 | `200` | Jpeg2000 file format |
 | Djvu | `400` | Djvu file format |
 | Webp | `800` | The webp file format |
@@ -36,11 +38,11 @@ public enum FileFormat : ulong
 | Wmf | `8000` | The Wmf file format |
 | Dng | `10000` | The DNG file format |
 | Odg | `20000` | The Open document graphic format |
+| Eps | `40000` | The Encapsulated PostScript format |
 | Cdr | `80000` | The CDR file format |
 | Cmx | `100000` | The CMX file format |
 | Otg | `200000` | The otg file format |
 | Html5Canvas | `400000` | The Html5 Canvas format |
-| Eps | `40000` | The Encapsulated PostScript format |
 | Apng | `800000` | The animated Png file format. |
 | Tga | `1000000` | The Truevision TGA file format. |
 | Dxf | `2000000` | The AutoCAD Drawing Exchange Format. |
@@ -48,7 +50,6 @@ public enum FileFormat : ulong
 | Wmz | `8000000` | The WMZ, compressed wmf |
 | Svgz | `10000000` | The SVGZ, compressed svg |
 | FOdg | `20000000` | The fodg, flat odg format |
-| Ico | `40000000` | ICO file format. |
 
 ### See Also
 

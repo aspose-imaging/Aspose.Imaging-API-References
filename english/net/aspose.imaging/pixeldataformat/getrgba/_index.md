@@ -3,7 +3,7 @@ title: GetRgba
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 260
 url: /net/aspose.imaging/pixeldataformat/getrgba/
 ---
 ## PixelDataFormat.GetRgba method (1 of 2)

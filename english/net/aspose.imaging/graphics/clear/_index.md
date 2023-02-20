@@ -3,7 +3,7 @@ title: Clear
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.imaging/graphics/clear/
 ---
 ## Graphics.Clear method

@@ -3,7 +3,7 @@ title: Resize
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.imaging.fileformats.cmx/cmximagepage/resize/
 ---
 ## CmxImagePage.Resize method (1 of 2)

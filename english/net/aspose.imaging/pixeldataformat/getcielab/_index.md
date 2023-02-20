@@ -3,7 +3,7 @@ title: GetCieLab
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.imaging/pixeldataformat/getcielab/
 ---
 ## PixelDataFormat.GetCieLab method

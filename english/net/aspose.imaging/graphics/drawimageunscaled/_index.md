@@ -3,68 +3,10 @@ title: DrawImageUnscaled
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.imaging/graphics/drawimageunscaled/
 ---
 ## Graphics.DrawImageUnscaled method (1 of 4)
-
-Draws a specified image using its original physical size at a specified location.
-
-```csharp
-public void DrawImageUnscaled(Image sourceImage, Point point)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sourceImage | Image | The image to draw with. |
-| point | Point | [`Point`](../../point) structure that specifies the upper-left corner of the drawn image. |
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentNullException | *sourceImage* is null. |
-
-### See Also
-
-* class [Image](../../image)
-* struct [Point](../../point)
-* class [Graphics](../../graphics)
-* namespace [Aspose.Imaging](../../graphics)
-* assembly [Aspose.Imaging](../../../)
-
----
-
-## Graphics.DrawImageUnscaled method (2 of 4)
-
-Draws the specified image using its original physical size at the location specified by a coordinate pair.
-
-```csharp
-public void DrawImageUnscaled(Image sourceImage, int x, int y)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sourceImage | Image | The image to draw with. |
-| x | Int32 | The x-coordinate of the upper-left corner of the drawn image. |
-| y | Int32 | The y-coordinate of the upper-left corner of the drawn image. |
-
-### Exceptions
-
-| exception | condition |
-| --- | --- |
-| ArgumentNullException | *sourceImage* is null. |
-
-### See Also
-
-* class [Image](../../image)
-* class [Graphics](../../graphics)
-* namespace [Aspose.Imaging](../../graphics)
-* assembly [Aspose.Imaging](../../../)
-
----
-
-## Graphics.DrawImageUnscaled method (3 of 4)
 
 Draws a specified image using its original physical size at a specified location.
 
@@ -93,7 +35,7 @@ public void DrawImageUnscaled(Image sourceImage, Rectangle rect)
 
 ---
 
-## Graphics.DrawImageUnscaled method (4 of 4)
+## Graphics.DrawImageUnscaled method (2 of 4)
 
 Draws a specified image using its original physical size at a specified location.
 
@@ -108,6 +50,64 @@ public void DrawImageUnscaled(Image sourceImage, int x, int y, int width, int he
 | y | Int32 | The y-coordinate of the upper-left corner of the drawn image. |
 | width | Int32 | The parameter is not used. |
 | height | Int32 | The parameter is not used. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *sourceImage* is null. |
+
+### See Also
+
+* class [Image](../../image)
+* class [Graphics](../../graphics)
+* namespace [Aspose.Imaging](../../graphics)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## Graphics.DrawImageUnscaled method (3 of 4)
+
+Draws a specified image using its original physical size at a specified location.
+
+```csharp
+public void DrawImageUnscaled(Image sourceImage, Point point)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceImage | Image | The image to draw with. |
+| point | Point | [`Point`](../../point) structure that specifies the upper-left corner of the drawn image. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | *sourceImage* is null. |
+
+### See Also
+
+* class [Image](../../image)
+* struct [Point](../../point)
+* class [Graphics](../../graphics)
+* namespace [Aspose.Imaging](../../graphics)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## Graphics.DrawImageUnscaled method (4 of 4)
+
+Draws the specified image using its original physical size at the location specified by a coordinate pair.
+
+```csharp
+public void DrawImageUnscaled(Image sourceImage, int x, int y)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sourceImage | Image | The image to draw with. |
+| x | Int32 | The x-coordinate of the upper-left corner of the drawn image. |
+| y | Int32 | The y-coordinate of the upper-left corner of the drawn image. |
 
 ### Exceptions
 

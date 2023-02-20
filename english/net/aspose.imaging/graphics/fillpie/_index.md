@@ -3,7 +3,7 @@ title: FillPie
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 370
+weight: 380
 url: /net/aspose.imaging/graphics/fillpie/
 ---
 ## Graphics.FillPie method (1 of 4)

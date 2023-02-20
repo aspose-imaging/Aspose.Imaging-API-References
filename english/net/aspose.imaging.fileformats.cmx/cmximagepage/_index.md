@@ -53,7 +53,7 @@ public class CmxImagePage : VectorImage, ICmxImage
 | override [CacheData](../../aspose.imaging.fileformats.cmx/cmximagepage/cachedata)() | Cache can not be used. |
 | [CanSave](../../aspose.imaging/image/cansave)(ImageOptionsBase) | Determines whether image can be saved to the specified file format represented by the passed save options. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
-| virtual [GetDefaultOptions](../../aspose.imaging/image/getdefaultoptions)(object[]) | Gets the default options. |
+| override [GetDefaultOptions](../../aspose.imaging.fileformats.cmx/cmximagepage/getdefaultoptions)(object[]) | Gets the default options. |
 | virtual [GetEmbeddedImages](../../aspose.imaging/vectorimage/getembeddedimages)() | Gets the embedded images. |
 | virtual [GetOriginalOptions](../../aspose.imaging/image/getoriginaloptions)() | Gets the options based on the original file settings. This can be helpful to keep bit-depth and other parameters of the original image unchanged. For example, if we load a black-white PNG image with 1 bit per pixel and then save it using the [`Save`](../../aspose.imaging/datastreamsupporter/save) method, the output PNG image with 8-bit per pixel will be produced. To avoid it and save PNG image with 1-bit per pixel, use this method to get corresponding saving options and pass them to the [`Save`](../../aspose.imaging/image/save) method as the second parameter. |
 | [Resize](../../aspose.imaging/image/resize)(int, int) | Resizes the image. The default NearestNeighbourResample is used. |

@@ -3,7 +3,7 @@ title: GetYCbCr
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.imaging/pixeldataformat/getycbcr/
 ---
 ## PixelDataFormat.GetYCbCr method (1 of 2)

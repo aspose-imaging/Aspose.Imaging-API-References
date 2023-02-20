@@ -3,7 +3,7 @@ title: DrawRectangles
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 320
 url: /net/aspose.imaging/graphics/drawrectangles/
 ---
 ## Graphics.DrawRectangles method (1 of 2)

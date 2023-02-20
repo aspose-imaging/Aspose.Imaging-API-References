@@ -8,7 +8,7 @@ url: /net/aspose.imaging.imageoptions/svgoptions/textasshapes/
 ---
 ## SvgOptions.TextAsShapes property
 
-Gets or sets a value indicating whether text must be converted as shapes.
+Gets or sets a value indicating whether text must be rendered as shapes.
 
 ```csharp
 public bool TextAsShapes { get; set; }

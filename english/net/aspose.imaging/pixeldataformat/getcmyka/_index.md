@@ -3,7 +3,7 @@ title: GetCmyka
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.imaging/pixeldataformat/getcmyka/
 ---
 ## PixelDataFormat.GetCmyka method

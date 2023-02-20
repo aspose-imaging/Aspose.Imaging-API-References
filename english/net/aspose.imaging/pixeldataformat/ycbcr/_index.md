@@ -3,7 +3,7 @@ title: YCbCr
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 140
 url: /net/aspose.imaging/pixeldataformat/ycbcr/
 ---
 ## PixelDataFormat.YCbCr property

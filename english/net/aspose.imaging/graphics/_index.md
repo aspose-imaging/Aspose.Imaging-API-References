@@ -33,6 +33,7 @@ public sealed class Graphics
 | [IsInBeginUpdateCall](../../aspose.imaging/graphics/isinbeginupdatecall) { get; } | Gets a value indicating whether graphics is in BeginUpdate call state. |
 | [PageScale](../../aspose.imaging/graphics/pagescale) { get; set; } | Gets or sets the scaling between world units and page units for this Aspose.Imaging.Graphics. |
 | [PageUnit](../../aspose.imaging/graphics/pageunit) { get; set; } | Gets or sets the unit of measure used for page coordinates in this Aspose.Imaging.Graphics. |
+| [PaintableImageOptions](../../aspose.imaging/graphics/paintableimageoptions) { get; set; } | Gets or sets image options, used to create paintable vactor images to draw. |
 | [SmoothingMode](../../aspose.imaging/graphics/smoothingmode) { get; set; } | Gets or sets the smoothing mode. |
 | [TextRenderingHint](../../aspose.imaging/graphics/textrenderinghint) { get; set; } | Gets or sets the text rendering hint. |
 | [Transform](../../aspose.imaging/graphics/transform) { get; set; } | Gets or sets a copy of the geometric world transformation for this [`Graphics`](../graphics). |

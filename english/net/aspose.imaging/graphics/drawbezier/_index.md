@@ -3,7 +3,7 @@ title: DrawBezier
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.imaging/graphics/drawbezier/
 ---
 ## Graphics.DrawBezier method (1 of 3)

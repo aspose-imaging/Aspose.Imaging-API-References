@@ -3,15 +3,15 @@ title: Grayscale
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 160
 url: /net/aspose.imaging/pixeldataformat/grayscale/
 ---
-## PixelDataFormat.Grayscale property
+## PixelDataFormat.Grayscale field
 
 Gets the [`PixelDataFormat`](../../pixeldataformat) defined for 8 bits per pixel with 8 bits representing grayscale intensity in the 0-255 interval.
 
 ```csharp
-public static PixelDataFormat Grayscale { get; }
+public static PixelDataFormat Grayscale;
 ```
 
 ### Property Value

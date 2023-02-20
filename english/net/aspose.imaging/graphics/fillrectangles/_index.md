@@ -3,7 +3,7 @@ title: FillRectangles
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 400
+weight: 410
 url: /net/aspose.imaging/graphics/fillrectangles/
 ---
 ## Graphics.FillRectangles method (1 of 2)

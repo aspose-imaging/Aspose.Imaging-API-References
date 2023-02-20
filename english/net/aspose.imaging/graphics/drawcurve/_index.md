@@ -3,7 +3,7 @@ title: DrawCurve
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.imaging/graphics/drawcurve/
 ---
 ## Graphics.DrawCurve method (1 of 7)

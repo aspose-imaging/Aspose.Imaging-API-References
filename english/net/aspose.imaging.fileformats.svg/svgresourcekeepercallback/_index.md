@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.svg/svgresourcekeepercallback/
 ---
 ## SvgResourceKeeperCallback class
 
-The resource keeper callback
+The resource keeper callback.
 
 ```csharp
 public class SvgResourceKeeperCallback : ISvgResourceKeeperCallback
@@ -24,9 +24,9 @@ public class SvgResourceKeeperCallback : ISvgResourceKeeperCallback
 
 | Name | Description |
 | --- | --- |
-| virtual [OnFontResourceReady](../../aspose.imaging.fileformats.svg/svgresourcekeepercallback/onfontresourceready)(FontStoringArgs) | Called when [font resource ready]. |
-| virtual [OnImageResourceReady](../../aspose.imaging.fileformats.svg/svgresourcekeepercallback/onimageresourceready)(byte[], SvgImageType, string, ref bool) | Called when image resource ready. |
-| virtual [OnSvgDocumentReady](../../aspose.imaging.fileformats.svg/svgresourcekeepercallback/onsvgdocumentready)(byte[], string) | Called when SVG document ready. |
+| virtual [OnFontResourceReady](../../aspose.imaging.fileformats.svg/svgresourcekeepercallback/onfontresourceready)(FontStoringArgs) | Called when the font resource is ready for export. |
+| virtual [OnImageResourceReady](../../aspose.imaging.fileformats.svg/svgresourcekeepercallback/onimageresourceready)(byte[], SvgImageType, string, ref bool) | Called when the image resource is ready for export. |
+| virtual [OnSvgDocumentReady](../../aspose.imaging.fileformats.svg/svgresourcekeepercallback/onsvgdocumentready)(byte[], string) | Called when the SVG document is ready for export. |
 
 ### See Also
 

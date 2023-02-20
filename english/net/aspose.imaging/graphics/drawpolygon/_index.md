@@ -3,7 +3,7 @@ title: DrawPolygon
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.imaging/graphics/drawpolygon/
 ---
 ## Graphics.DrawPolygon method (1 of 2)

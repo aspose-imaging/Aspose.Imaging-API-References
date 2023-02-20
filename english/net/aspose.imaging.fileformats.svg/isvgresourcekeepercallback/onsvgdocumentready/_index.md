@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.svg/isvgresourcekeepercallback/onsvgdocumen
 ---
 ## ISvgResourceKeeperCallback.OnSvgDocumentReady method
 
-Called when SVG document ready.
+Called when the SVG document is ready for export.
 
 ```csharp
 public string OnSvgDocumentReady(byte[] htmlData, string suggestedFileName)
@@ -21,7 +21,7 @@ public string OnSvgDocumentReady(byte[] htmlData, string suggestedFileName)
 
 ### Return Value
 
-Returns path to saved svg document.
+Returns the path to the saved SVG document.
 
 ### See Also
 

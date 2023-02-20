@@ -3,7 +3,7 @@ title: Rgb24BppPng
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.imaging/pixeldataformat/rgb24bpppng/
 ---
 ## PixelDataFormat.Rgb24BppPng property

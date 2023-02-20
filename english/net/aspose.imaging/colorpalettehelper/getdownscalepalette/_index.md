@@ -3,7 +3,7 @@ title: GetDownscalePalette
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.imaging/colorpalettehelper/getdownscalepalette/
 ---
 ## ColorPaletteHelper.GetDownscalePalette method
