@@ -78,14 +78,14 @@ Gets the values container.
 com.aspose.ms.System.Array - The values container.
 ### getElementSize() {#getElementSize--}
 ```
-public long getElementSize()
+public byte getElementSize()
 ```
 
 
 Gets the element size in bytes.
 
 **Returns:**
-long - The element size in bytes.
+byte - The element size in bytes.
 ### getTagType() {#getTagType--}
 ```
 public int getTagType()

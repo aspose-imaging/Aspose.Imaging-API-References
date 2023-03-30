@@ -3,7 +3,7 @@ title: DxfRasterizationOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The Dxf rasterization options.
 type: docs
-weight: 17
+weight: 18
 url: /java/com.aspose.imaging.imageoptions/dxfrasterizationoptions/
 ---
 **Inheritance:**

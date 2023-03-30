@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.ico
 second_title: Aspose.Imaging for Java API Reference
 description: The namespace handling ICO file format processing.
 type: docs
-weight: 59
+weight: 60
 url: /java/com.aspose.imaging.fileformats.ico/
 ---
 

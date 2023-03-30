@@ -27,6 +27,7 @@ The Cdr image page
 | [getWidth()](#getWidth--) | Gets the image width. |
 | [getHeight()](#getHeight--) | Gets the image height. |
 | [getFileFormat()](#getFileFormat--) | Gets a value of file format |
+| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default options. |
 | [getCdrDocument()](#getCdrDocument--) | Gets the CDR document. |
 | [cacheData()](#cacheData--) | Caches the data and ensures no additional data loading will be performed from the underlying `P:com.aspose.imaging.dataStreamSupporter.dataStreamContainer`. |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
@@ -107,6 +108,21 @@ Gets a value of file format
 
 **Returns:**
 long - a value of file format
+### getDefaultOptions(Object[] args) {#getDefaultOptions-java.lang.Object---}
+```
+public ImageOptionsBase getDefaultOptions(Object[] args)
+```
+
+
+Gets the default options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| args | java.lang.Object[] | The arguments. |
+
+**Returns:**
+[ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Default options
 ### getCdrDocument() {#getCdrDocument--}
 ```
 public final CdrDocument getCdrDocument()

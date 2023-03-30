@@ -3,7 +3,7 @@ title: PsdOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The PSD file format create options.
 type: docs
-weight: 37
+weight: 38
 url: /java/com.aspose.imaging.imageoptions/psdoptions/
 ---
 **Inheritance:**

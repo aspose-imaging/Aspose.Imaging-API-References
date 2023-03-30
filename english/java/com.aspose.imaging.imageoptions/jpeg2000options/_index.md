@@ -3,7 +3,7 @@ title: Jpeg2000Options
 second_title: Aspose.Imaging for Java API Reference
 description: The Jpeg2000 file format options.
 type: docs
-weight: 24
+weight: 25
 url: /java/com.aspose.imaging.imageoptions/jpeg2000options/
 ---
 **Inheritance:**

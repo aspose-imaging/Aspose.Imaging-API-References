@@ -3,7 +3,7 @@ title: MetafileOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The Metafiles base options.
 type: docs
-weight: 26
+weight: 27
 url: /java/com.aspose.imaging.imageoptions/metafileoptions/
 ---
 **Inheritance:**

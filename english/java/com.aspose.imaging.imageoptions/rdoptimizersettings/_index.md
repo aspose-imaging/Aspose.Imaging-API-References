@@ -3,7 +3,7 @@ title: RdOptimizerSettings
 second_title: Aspose.Imaging for Java API Reference
 description: RD optimizer settings class
 type: docs
-weight: 39
+weight: 40
 url: /java/com.aspose.imaging.imageoptions/rdoptimizersettings/
 ---
 **Inheritance:**

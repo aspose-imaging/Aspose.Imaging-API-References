@@ -17,7 +17,7 @@ The cdr image fill
 
 | Constructor | Description |
 | --- | --- |
-| [CdrImageFill(int id, double width, double height, boolean isRelative, double xOffset, double yOffset, double rpcOffset, byte flags)](#CdrImageFill-int-double-double-boolean-double-double-double-byte-) | Initializes a new instance of the [CdrImageFill](../../com.aspose.imaging.fileformats.cdr.types/cdrimagefill) class. |
+| [CdrImageFill(int id, double width, double height, boolean isRelative, double xOffset, double yOffset, double rcpOffset, byte flags)](#CdrImageFill-int-double-double-boolean-double-double-double-byte-) | Initializes a new instance of the [CdrImageFill](../../com.aspose.imaging.fileformats.cdr.types/cdrimagefill) class. |
 ## Methods
 
 | Method | Description |
@@ -38,9 +38,9 @@ The cdr image fill
 | [setRcpOffset(double value)](#setRcpOffset-double-) | Sets the RCP offset. |
 | [getFlags()](#getFlags--) | Gets the flags. |
 | [setFlags(byte value)](#setFlags-byte-) | Sets the flags. |
-### CdrImageFill(int id, double width, double height, boolean isRelative, double xOffset, double yOffset, double rpcOffset, byte flags) {#CdrImageFill-int-double-double-boolean-double-double-double-byte-}
+### CdrImageFill(int id, double width, double height, boolean isRelative, double xOffset, double yOffset, double rcpOffset, byte flags) {#CdrImageFill-int-double-double-boolean-double-double-double-byte-}
 ```
-public CdrImageFill(int id, double width, double height, boolean isRelative, double xOffset, double yOffset, double rpcOffset, byte flags)
+public CdrImageFill(int id, double width, double height, boolean isRelative, double xOffset, double yOffset, double rcpOffset, byte flags)
 ```
 
 
@@ -55,7 +55,7 @@ Initializes a new instance of the [CdrImageFill](../../com.aspose.imaging.filefo
 | isRelative | boolean | if set to `true` [is relative]. |
 | xOffset | double | The x offset. |
 | yOffset | double | The y offset. |
-| rpcOffset | double | The RPC offset. |
+| rcpOffset | double | The RCP offset. |
 | flags | byte | The flags. |
 
 ### getId() {#getId--}

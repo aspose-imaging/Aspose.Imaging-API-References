@@ -17,7 +17,7 @@ The figure. A container for shapes.
 
 | Constructor | Description |
 | --- | --- |
-| [Figure()](#Figure--) |  |
+| [Figure()](#Figure--) | Initializes a new [Figure](../../com.aspose.imaging/figure) instance. |
 ## Methods
 
 | Method | Description |
@@ -35,6 +35,8 @@ The figure. A container for shapes.
 | [getBounds(Matrix matrix)](#getBounds-com.aspose.imaging.Matrix-) | Gets the object's bounds. |
 | [getBounds(Matrix matrix, Pen pen)](#getBounds-com.aspose.imaging.Matrix-com.aspose.imaging.Pen-) | Gets the object's bounds. |
 | [transform(Matrix transform)](#transform-com.aspose.imaging.Matrix-) | Applies the specified transformation to the shape. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is equal to the current object. |
+| [hashCode()](#hashCode--) | Serves as the default hash function. |
 
 ## Example: This examples make use of GraphicsPath and Graphics class to create and manipulate Figures on an Image surface.
 This examples make use of GraphicsPath and Graphics class to create and manipulate Figures on an Image surface. Example creates a new Image (of type Tiff) and draw paths with the help of GraphicsPath class. At the end DrawPath method exposed by Graphics class is called to render the paths on surface.
@@ -93,6 +95,8 @@ try {
 public Figure()
 ```
 
+
+Initializes a new [Figure](../../com.aspose.imaging/figure) instance. A constructor required for a JSON deserialization.
 
 ### getShapes() {#getShapes--}
 ```
@@ -304,3 +308,28 @@ Applies the specified transformation to the shape.
 | --- | --- | --- |
 | transform | [Matrix](../../com.aspose.imaging/matrix) | The transformation to apply. |
 
+### equals(Object obj) {#equals-java.lang.Object-}
+```
+public boolean equals(Object obj)
+```
+
+
+Determines whether the specified object is equal to the current object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object | The compared object. |
+
+**Returns:**
+boolean - The result of equals
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Serves as the default hash function.
+
+**Returns:**
+int - A hash code for the current object.

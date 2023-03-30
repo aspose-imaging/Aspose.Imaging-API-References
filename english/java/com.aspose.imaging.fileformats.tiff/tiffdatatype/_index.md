@@ -1,7 +1,7 @@
 ---
 title: TiffDataType
 second_title: Aspose.Imaging for Java API Reference
-description: The tiff data type.
+description: The TIFF data type.
 type: docs
 weight: 10
 url: /java/com.aspose.imaging.fileformats.tiff/tiffdatatype/
@@ -15,7 +15,7 @@ java.lang.Comparable
 public abstract class TiffDataType implements Comparable<TiffDataType>
 ```
 
-The tiff data type.
+The TIFF data type.
 ## Constructors
 
 | Constructor | Description |
@@ -25,12 +25,14 @@ The tiff data type.
 
 | Method | Description |
 | --- | --- |
+| [getElementSize()](#getElementSize--) | Gets the element size in bytes. |
+| [getDataSize()](#getDataSize--) | Gets the tag value size. |
 | [getCount()](#getCount--) | Gets the count of elements. |
-| [getId()](#getId--) | Gets tag id integer representation. |
+| [getId()](#getId--) | Gets tag id as number. |
 | [getTagId()](#getTagId--) | Gets the tag id. |
 | [getTagType()](#getTagType--) | Gets the tag type. |
-| [getAlignedDataSize()](#getAlignedDataSize--) | Gets the additional data size in bytes (in case the 12 bytes is not enough to fit the tag data). |
-| [getDataSize()](#getDataSize--) | Gets the additional data size in bytes (in case the 12 bytes is not enough to fit the tag data). |
+| [getAlignedDataSize(byte sizeOfTagValue)](#getAlignedDataSize-byte-) | Gets the data size aligned in 4-byte (int) or 8-byte (long) boundary. |
+| [getAdditionalDataSize(byte sizeOfTagValue)](#getAdditionalDataSize-byte-) | Gets the additional tag value size in bytes (in case the tag can not fit the whole tag value). |
 | [getValue()](#getValue--) | Gets the value this data type contains. |
 | [setValue(Object value)](#setValue-java.lang.Object-) | Sets the value this data type contains. |
 | [isValid()](#isValid--) | Gets a value indicating whether tag data is valid. |
@@ -48,6 +50,26 @@ public TiffDataType()
 ```
 
 
+### getElementSize() {#getElementSize--}
+```
+public byte getElementSize()
+```
+
+
+Gets the element size in bytes.
+
+**Returns:**
+byte - the element size in bytes.
+### getDataSize() {#getDataSize--}
+```
+public long getDataSize()
+```
+
+
+Gets the tag value size.
+
+**Returns:**
+long - the tag value size.
 ### getCount() {#getCount--}
 ```
 public abstract long getCount()
@@ -56,18 +78,20 @@ public abstract long getCount()
 
 Gets the count of elements.
 
+Value: The count of elements.
+
 **Returns:**
-long - The count of elements.
+long - the count of elements.
 ### getId() {#getId--}
 ```
-public int getId()
+public final int getId()
 ```
 
 
-Gets tag id integer representation.
+Gets tag id as number.
 
 **Returns:**
-int - The tag id integer representation
+int - tag id as number.
 ### getTagId() {#getTagId--}
 ```
 public int getTagId()
@@ -88,30 +112,36 @@ Gets the tag type.
 
 **Returns:**
 int - The tag type.
-### getAlignedDataSize() {#getAlignedDataSize--}
+### getAlignedDataSize(byte sizeOfTagValue) {#getAlignedDataSize-byte-}
 ```
-public long getAlignedDataSize()
+public final long getAlignedDataSize(byte sizeOfTagValue)
 ```
 
 
-Gets the additional data size in bytes (in case the 12 bytes is not enough to fit the tag data).
+Gets the data size aligned in 4-byte (int) or 8-byte (long) boundary.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sizeOfTagValue | byte | Size of tag value. |
+
+**Returns:**
+long - The aligned data size in bytes.
+### getAdditionalDataSize(byte sizeOfTagValue) {#getAdditionalDataSize-byte-}
+```
+public long getAdditionalDataSize(byte sizeOfTagValue)
+```
+
+
+Gets the additional tag value size in bytes (in case the tag can not fit the whole tag value).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sizeOfTagValue | byte | Size of tag value: 4 or 8 for BigTiff. |
 
 **Returns:**
 long - The additional data size in bytes.
-
-This is the data bytes count aligned to word boundary.
-### getDataSize() {#getDataSize--}
-```
-public abstract long getDataSize()
-```
-
-
-Gets the additional data size in bytes (in case the 12 bytes is not enough to fit the tag data).
-
-**Returns:**
-long - The additional data size in bytes.
-
-This is exact bytes count.
 ### getValue() {#getValue--}
 ```
 public abstract Object getValue()

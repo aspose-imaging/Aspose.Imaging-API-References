@@ -3,7 +3,7 @@ title: TiffOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The tiff file format options.
 type: docs
-weight: 45
+weight: 46
 url: /java/com.aspose.imaging.imageoptions/tiffoptions/
 ---
 **Inheritance:**

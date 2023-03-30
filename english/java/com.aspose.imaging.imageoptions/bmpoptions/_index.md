@@ -3,7 +3,7 @@ title: BmpOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The bmp file format creation options.
 type: docs
-weight: 11
+weight: 12
 url: /java/com.aspose.imaging.imageoptions/bmpoptions/
 ---
 **Inheritance:**

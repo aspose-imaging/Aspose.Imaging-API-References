@@ -3,7 +3,7 @@ title: TiffUndefinedType
 second_title: Aspose.Imaging for Java API Reference
 description: The tiff undefined type.
 type: docs
-weight: 23
+weight: 26
 url: /java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffundefinedtype/
 ---
 **Inheritance:**
@@ -26,7 +26,6 @@ The tiff undefined type.
 | [setData(byte[] value)](#setData-byte---) | Gets or sets the data. |
 | [getCount()](#getCount--) | Gets the count of elements. |
 | [getTagType()](#getTagType--) | Gets the tag type. |
-| [getDataSize()](#getDataSize--) | Gets the additional data size in bytes (in case the 12 bytes is not enough to fit the tag data). |
 | [getValue()](#getValue--) | Gets or sets the value this data type contains. |
 | [setValue(Object value)](#setValue-java.lang.Object-) | Gets or sets the value this data type contains. |
 | [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | Writes the additional tag data. |
@@ -94,18 +93,6 @@ Value: The tag type.
 
 **Returns:**
 int
-### getDataSize() {#getDataSize--}
-```
-public long getDataSize()
-```
-
-
-Gets the additional data size in bytes (in case the 12 bytes is not enough to fit the tag data).
-
-Value: The additional data size in bytes.
-
-**Returns:**
-long
 ### getValue() {#getValue--}
 ```
 public Object getValue()

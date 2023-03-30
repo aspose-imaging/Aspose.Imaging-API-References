@@ -7,9 +7,9 @@ weight: 13
 url: /java/com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/
 ---
 **Inheritance:**
-java.lang.Object
+java.lang.Object, com.aspose.fileformats.fileformats.tiff.filemanagement.TiffStreamSeeker
 ```
-public class TiffStreamReader
+public class TiffStreamReader extends TiffStreamSeeker
 ```
 
 The tiff stream for handling little endian tiff file format.
@@ -40,14 +40,18 @@ The tiff stream for handling little endian tiff file format.
 | [readSRationalArray(long position, long count)](#readSRationalArray-long-long-) | Reads an array of signed rational values from the stream. |
 | [readSByte(long position)](#readSByte-long-) | Reads signed byte data from the stream. |
 | [readSByteArray(long position, long count)](#readSByteArray-long-long-) | Reads an array of signed byte values from the stream. |
-| [readSLong(long position)](#readSLong-long-) | Read signed integer value from the stream. |
-| [readSLongArray(long position, long count)](#readSLongArray-long-long-) | Reads an array of signed integer values from the stream. |
+| [readSInt(long position)](#readSInt-long-) | Read signed integer value from the stream. |
+| [readSIntArray(long position, long count)](#readSIntArray-long-long-) | Reads an array of signed integer values from the stream. |
 | [readSShort(long position)](#readSShort-long-) | Read signed short value from the stream. |
 | [readSShortArray(long position, long count)](#readSShortArray-long-long-) | Reads an array of signed short values from the stream. |
-| [readULong(long position)](#readULong-long-) | Read unsigned integer value from the stream. |
-| [readULongArray(long position, long count)](#readULongArray-long-long-) | Reads an array of unsigned integer values from the stream. |
+| [readUInt(long position)](#readUInt-long-) | Read unsigned integer value from the stream. |
+| [readUIntArray(long position, long count)](#readUIntArray-long-long-) | Reads an array of unsigned integer values from the stream. |
 | [readUShort(long position)](#readUShort-long-) | Read unsigned short value from the stream. |
 | [readUShortArray(long position, long count)](#readUShortArray-long-long-) | Reads an array of unsigned integer values from the stream. |
+| [readLong(long position)](#readLong-long-) | Read unsigned long value from the stream. |
+| [readLongArray(long position, long count)](#readLongArray-long-long-) | Reads an array of ulong values from the stream. |
+| [readULong(long position)](#readULong-long-) | Read unsigned long value from the stream. |
+| [readULongArray(long position, long count)](#readULongArray-long-long-) | Reads an array of ulong values from the stream. |
 | [toStreamContainer(long startPosition)](#toStreamContainer-long-) | Converts the underlying data to the stream container. |
 ### TiffStreamReader(byte[] data) {#TiffStreamReader-byte---}
 ```
@@ -332,9 +336,9 @@ Reads an array of signed byte values from the stream.
 
 **Returns:**
 byte[] - The array of signed byte values.
-### readSLong(long position) {#readSLong-long-}
+### readSInt(long position) {#readSInt-long-}
 ```
-public int readSLong(long position)
+public int readSInt(long position)
 ```
 
 
@@ -347,9 +351,9 @@ Read signed integer value from the stream.
 
 **Returns:**
 int - A signed integer value.
-### readSLongArray(long position, long count) {#readSLongArray-long-long-}
+### readSIntArray(long position, long count) {#readSIntArray-long-long-}
 ```
-public int[] readSLongArray(long position, long count)
+public int[] readSIntArray(long position, long count)
 ```
 
 
@@ -394,9 +398,9 @@ Reads an array of signed short values from the stream.
 
 **Returns:**
 short[] - The array of signed short values.
-### readULong(long position) {#readULong-long-}
+### readUInt(long position) {#readUInt-long-}
 ```
-public long readULong(long position)
+public long readUInt(long position)
 ```
 
 
@@ -409,9 +413,9 @@ Read unsigned integer value from the stream.
 
 **Returns:**
 long - An unsigned integer value.
-### readULongArray(long position, long count) {#readULongArray-long-long-}
+### readUIntArray(long position, long count) {#readUIntArray-long-long-}
 ```
-public long[] readULongArray(long position, long count)
+public long[] readUIntArray(long position, long count)
 ```
 
 
@@ -456,6 +460,68 @@ Reads an array of unsigned integer values from the stream.
 
 **Returns:**
 int[] - The array of unsigned integer values.
+### readLong(long position) {#readLong-long-}
+```
+public final long readLong(long position)
+```
+
+
+Read unsigned long value from the stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| position | long | The position to read from. |
+
+**Returns:**
+long - An unsigned short value.
+### readLongArray(long position, long count) {#readLongArray-long-long-}
+```
+public final long[] readLongArray(long position, long count)
+```
+
+
+Reads an array of ulong values from the stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| position | long | The position to read from. |
+| count | long | The elements count. |
+
+**Returns:**
+long[] - The ulong array.
+### readULong(long position) {#readULong-long-}
+```
+public final long readULong(long position)
+```
+
+
+Read unsigned long value from the stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| position | long | The position to read from. |
+
+**Returns:**
+long - An unsigned short value.
+### readULongArray(long position, long count) {#readULongArray-long-long-}
+```
+public final long[] readULongArray(long position, long count)
+```
+
+
+Reads an array of ulong values from the stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| position | long | The position to read from. |
+| count | long | The elements count. |
+
+**Returns:**
+long[] - The ulong array.
 ### toStreamContainer(long startPosition) {#toStreamContainer-long-}
 ```
 public StreamContainer toStreamContainer(long startPosition)

@@ -35,6 +35,8 @@ Represents a shape which is projected over rectangle turned to a particular orie
 | [getBounds(Matrix matrix)](#getBounds-com.aspose.imaging.Matrix-) | Gets the object's bounds. |
 | [getBounds(Matrix matrix, Pen pen)](#getBounds-com.aspose.imaging.Matrix-com.aspose.imaging.Pen-) | Gets the object's bounds. |
 | [transform(Matrix transform)](#transform-com.aspose.imaging.Matrix-) | Applies the specified transformation to the shape. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified `Object` is equal to this instance. |
+| [hashCode()](#hashCode--) | Returns a hash code for this instance. |
 ### RectangleProjectedShape() {#RectangleProjectedShape--}
 ```
 public RectangleProjectedShape()
@@ -208,3 +210,28 @@ Applies the specified transformation to the shape.
 | --- | --- | --- |
 | transform | [Matrix](../../com.aspose.imaging/matrix) | The transformation to apply. |
 
+### equals(Object obj) {#equals-java.lang.Object-}
+```
+public boolean equals(Object obj)
+```
+
+
+Determines whether the specified `Object` is equal to this instance.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object | The `Object` to compare with this instance. |
+
+**Returns:**
+boolean - `true` if the specified `Object` is equal to this instance; otherwise, `false`.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Returns a hash code for this instance.
+
+**Returns:**
+int - A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table.

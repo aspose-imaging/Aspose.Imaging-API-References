@@ -7,9 +7,9 @@ weight: 10
 url: /java/com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader)
+java.lang.Object, com.aspose.fileformats.fileformats.tiff.filemanagement.TiffStreamSeeker, [com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader)
 ```
-public final class TiffBigEndianStreamReader extends TiffStreamReader
+public class TiffBigEndianStreamReader extends TiffStreamReader
 ```
 
 The tiff stream for handling big endian tiff file format.
@@ -17,17 +17,17 @@ The tiff stream for handling big endian tiff file format.
 
 | Constructor | Description |
 | --- | --- |
-| [TiffBigEndianStreamReader(byte[] data)](#TiffBigEndianStreamReader-byte---) | Initializes a new instance of the `TiffBigEndianStreamReader` class. |
-| [TiffBigEndianStreamReader(byte[] data, int startIndex)](#TiffBigEndianStreamReader-byte---int-) | Initializes a new instance of the `TiffBigEndianStreamReader` class. |
-| [TiffBigEndianStreamReader(byte[] data, int startIndex, int dataLength)](#TiffBigEndianStreamReader-byte---int-int-) | Initializes a new instance of the `TiffBigEndianStreamReader` class. |
-| [TiffBigEndianStreamReader(StreamContainer streamContainer)](#TiffBigEndianStreamReader-com.aspose.imaging.StreamContainer-) | Initializes a new instance of the `TiffBigEndianStreamReader` class. |
+| [TiffBigEndianStreamReader(byte[] data)](#TiffBigEndianStreamReader-byte---) | Initializes a new instance of the [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader) class. |
+| [TiffBigEndianStreamReader(byte[] data, int startIndex)](#TiffBigEndianStreamReader-byte---int-) | Initializes a new instance of the [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader) class. |
+| [TiffBigEndianStreamReader(byte[] data, int startIndex, int dataLength)](#TiffBigEndianStreamReader-byte---int-int-) | Initializes a new instance of the [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader) class. |
+| [TiffBigEndianStreamReader(StreamContainer streamContainer)](#TiffBigEndianStreamReader-com.aspose.imaging.StreamContainer-) | Initializes a new instance of the [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader) class. |
 ### TiffBigEndianStreamReader(byte[] data) {#TiffBigEndianStreamReader-byte---}
 ```
 public TiffBigEndianStreamReader(byte[] data)
 ```
 
 
-Initializes a new instance of the `TiffBigEndianStreamReader` class.
+Initializes a new instance of the [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader) class.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -40,7 +40,7 @@ public TiffBigEndianStreamReader(byte[] data, int startIndex)
 ```
 
 
-Initializes a new instance of the `TiffBigEndianStreamReader` class.
+Initializes a new instance of the [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader) class.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -54,7 +54,7 @@ public TiffBigEndianStreamReader(byte[] data, int startIndex, int dataLength)
 ```
 
 
-Initializes a new instance of the `TiffBigEndianStreamReader` class.
+Initializes a new instance of the [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader) class.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -69,7 +69,7 @@ public TiffBigEndianStreamReader(StreamContainer streamContainer)
 ```
 
 
-Initializes a new instance of the `TiffBigEndianStreamReader` class.
+Initializes a new instance of the [TiffBigEndianStreamReader](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader) class.
 
 **Parameters:**
 | Parameter | Type | Description |

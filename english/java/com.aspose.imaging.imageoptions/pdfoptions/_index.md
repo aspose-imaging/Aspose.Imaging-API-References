@@ -3,7 +3,7 @@ title: PdfOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The PDF options.
 type: docs
-weight: 34
+weight: 35
 url: /java/com.aspose.imaging.imageoptions/pdfoptions/
 ---
 **Inheritance:**

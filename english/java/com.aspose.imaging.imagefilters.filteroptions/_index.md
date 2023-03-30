@@ -3,7 +3,7 @@ title: com.aspose.imaging.imagefilters.filteroptions
 second_title: Aspose.Imaging for Java API Reference
 description: The package handles filter options.
 type: docs
-weight: 88
+weight: 90
 url: /java/com.aspose.imaging.imagefilters.filteroptions/
 ---
 

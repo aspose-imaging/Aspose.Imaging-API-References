@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.wmf.objects
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains types MS-WMF Windows Metafile Format 2.2 WMF Objects
 type: docs
-weight: 85
+weight: 87
 url: /java/com.aspose.imaging.fileformats.wmf.objects/
 ---
 

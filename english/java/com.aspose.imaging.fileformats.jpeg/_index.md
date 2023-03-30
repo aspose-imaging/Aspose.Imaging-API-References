@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.jpeg
 second_title: Aspose.Imaging for Java API Reference
 description: The package handles Jpeg file format processing.
 type: docs
-weight: 60
+weight: 61
 url: /java/com.aspose.imaging.fileformats.jpeg/
 ---
 
@@ -16,7 +16,7 @@ The package handles Jpeg file format processing.
 | --- | --- |
 | [JFIFData](../com.aspose.imaging.fileformats.jpeg/jfifdata) | The jfif segment. |
 | [JfifDensityUnits](../com.aspose.imaging.fileformats.jpeg/jfifdensityunits) | The jfif density units. |
-| [JpegCompressionColorMode](../com.aspose.imaging.fileformats.jpeg/jpegcompressioncolormode) | \\u0421olor mode for jpeg images. |
+| [JpegCompressionColorMode](../com.aspose.imaging.fileformats.jpeg/jpegcompressioncolormode) | Color mode for jpeg images. |
 | [JpegCompressionMode](../com.aspose.imaging.fileformats.jpeg/jpegcompressionmode) | Compression mode for jpeg images. |
 | [JpegImage](../com.aspose.imaging.fileformats.jpeg/jpegimage) | A jpeg image. |
 | [JpegLsInterleaveMode](../com.aspose.imaging.fileformats.jpeg/jpeglsinterleavemode) | Defines the interleave mode for multi-component (color) pixel data. |

@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 **All Implemented Interfaces:**
 [com.aspose.imaging.IMultipageImageExt](../../com.aspose.imaging/imultipageimageext)
 ```
-public final class TiffImage extends RasterCachedMultipageImage implements IMultipageImageExt
+public class TiffImage extends RasterCachedMultipageImage implements IMultipageImageExt
 ```
 
 The tiff image.
@@ -38,8 +38,8 @@ The tiff image.
 | [getActiveFrame()](#getActiveFrame--) | Gets or sets the active frame. |
 | [setActiveFrame(TiffFrame value)](#setActiveFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Gets or sets the active frame. |
 | [getFrames()](#getFrames--) | Gets Frames array of the image. |
-| [getExifData()](#getExifData--) | Gets or sets EXIF data for the active frame. |
-| [setExifData(ExifData value)](#setExifData-com.aspose.imaging.exif.ExifData-) | Gets or sets EXIF data for the active frame. |
+| [getExifData()](#getExifData--) | Gets EXIF data for the active frame. |
+| [setExifData(ExifData value)](#setExifData-com.aspose.imaging.exif.ExifData-) | Sets EXIF data for the active frame. |
 | [getPageCount()](#getPageCount--) | Gets the page count. |
 | [getPages()](#getPages--) | Gets the pages. |
 | [hasAlpha()](#hasAlpha--) | Gets the Has alpha channel. |
@@ -255,7 +255,7 @@ try {
 
 ### getByteOrder() {#getByteOrder--}
 ```
-public int getByteOrder()
+public final int getByteOrder()
 ```
 
 
@@ -265,7 +265,7 @@ Gets or sets a value indicating the tiff byte order.
 int - The tiff byte order.
 ### setByteOrder(int value) {#setByteOrder-int-}
 ```
-public void setByteOrder(int value)
+public final void setByteOrder(int value)
 ```
 
 
@@ -398,7 +398,7 @@ Note by default this value is always 96 since different platforms cannot return 
 
 ### getActiveFrame() {#getActiveFrame--}
 ```
-public TiffFrame getActiveFrame()
+public final TiffFrame getActiveFrame()
 ```
 
 
@@ -456,7 +456,7 @@ try {
 
 ### setActiveFrame(TiffFrame value) {#setActiveFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-}
 ```
-public void setActiveFrame(TiffFrame value)
+public final void setActiveFrame(TiffFrame value)
 ```
 
 
@@ -517,7 +517,7 @@ try {
 
 ### getFrames() {#getFrames--}
 ```
-public TiffFrame[] getFrames()
+public final TiffFrame[] getFrames()
 ```
 
 
@@ -575,21 +575,21 @@ try {
 
 ### getExifData() {#getExifData--}
 ```
-public ExifData getExifData()
+public final ExifData getExifData()
 ```
 
 
-Gets or sets EXIF data for the active frame.
+Gets EXIF data for the active frame.
 
 **Returns:**
 [ExifData](../../com.aspose.imaging.exif/exifdata)
 ### setExifData(ExifData value) {#setExifData-com.aspose.imaging.exif.ExifData-}
 ```
-public void setExifData(ExifData value)
+public final void setExifData(ExifData value)
 ```
 
 
-Gets or sets EXIF data for the active frame.
+Sets EXIF data for the active frame.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -685,7 +685,7 @@ Adds page to the image.
 
 ### alignResolutions() {#alignResolutions--}
 ```
-public void alignResolutions()
+public final void alignResolutions()
 ```
 
 
@@ -754,7 +754,7 @@ Normalizes the angle. This method is applicable to scanned text documents to get
 
 ### addFrame(TiffFrame frame) {#addFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-}
 ```
-public void addFrame(TiffFrame frame)
+public final void addFrame(TiffFrame frame)
 ```
 
 
@@ -815,7 +815,7 @@ try {
 
 ### add(TiffImage image) {#add-com.aspose.imaging.fileformats.tiff.TiffImage-}
 ```
-public void add(TiffImage image)
+public final void add(TiffImage image)
 ```
 
 
@@ -828,7 +828,7 @@ Adds the specified image's frames to current frame.
 
 ### addFrames(TiffFrame[] frames) {#addFrames-com.aspose.imaging.fileformats.tiff.TiffFrame---}
 ```
-public void addFrames(TiffFrame[] frames)
+public final void addFrames(TiffFrame[] frames)
 ```
 
 
@@ -841,7 +841,7 @@ Adds the frames array to image
 
 ### insertFrame(int index, TiffFrame frameToInsert) {#insertFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-}
 ```
-public void insertFrame(int index, TiffFrame frameToInsert)
+public final void insertFrame(int index, TiffFrame frameToInsert)
 ```
 
 
@@ -855,7 +855,7 @@ The insert frame.
 
 ### replaceFrame(int index, TiffFrame frameToReplace) {#replaceFrame-int-com.aspose.imaging.fileformats.tiff.TiffFrame-}
 ```
-public TiffFrame replaceFrame(int index, TiffFrame frameToReplace)
+public final TiffFrame replaceFrame(int index, TiffFrame frameToReplace)
 ```
 
 
@@ -875,7 +875,7 @@ Note: do not forget to Dispose the frame if you will not add it to some other Ti
 [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) - The removed frame.
 ### removeFrame(int index) {#removeFrame-int-}
 ```
-public TiffFrame removeFrame(int index)
+public final TiffFrame removeFrame(int index)
 ```
 
 
@@ -942,7 +942,7 @@ try {
 
 ### removeFrame(TiffFrame frame) {#removeFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-}
 ```
-public void removeFrame(TiffFrame frame)
+public final void removeFrame(TiffFrame frame)
 ```
 
 
@@ -959,7 +959,7 @@ Note: do not forget to Dispose the frame if you will not add it to some other Ti
 
 ### resizeProportional(int newWidth, int newHeight, int resizeType) {#resizeProportional-int-int-int-}
 ```
-public void resizeProportional(int newWidth, int newHeight, int resizeType)
+public final void resizeProportional(int newWidth, int newHeight, int resizeType)
 ```
 
 

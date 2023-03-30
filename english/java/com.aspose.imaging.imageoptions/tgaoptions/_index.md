@@ -3,7 +3,7 @@ title: TgaOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The TGA file format create options.
 type: docs
-weight: 44
+weight: 45
 url: /java/com.aspose.imaging.imageoptions/tgaoptions/
 ---
 **Inheritance:**

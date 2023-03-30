@@ -31,6 +31,7 @@ The image of CMX page
 | [isCached()](#isCached--) | Gets a value indicating whether object's data is cached currently and no data reading is required. |
 | [getWidthF()](#getWidthF--) | Gets the object width, in inches. |
 | [getHeightF()](#getHeightF--) | Gets the object height, in inches. |
+| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default options. |
 | [cacheData()](#cacheData--) | Cache can not be used. |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
 | [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image. |
@@ -109,6 +110,21 @@ Gets the object height, in inches.
 
 **Returns:**
 float - the object height, in inches.
+### getDefaultOptions(Object[] args) {#getDefaultOptions-java.lang.Object---}
+```
+public ImageOptionsBase getDefaultOptions(Object[] args)
+```
+
+
+Gets the default options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| args | java.lang.Object[] | The arguments. |
+
+**Returns:**
+[ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Default options
 ### cacheData() {#cacheData--}
 ```
 public void cacheData()

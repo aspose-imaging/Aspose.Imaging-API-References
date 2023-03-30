@@ -3,16 +3,13 @@ title: TiffShortType
 second_title: Aspose.Imaging for Java API Reference
 description: The tiff short type.
 type: docs
-weight: 22
+weight: 25
 url: /java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffshorttype/
 ---
 **Inheritance:**
 java.lang.Object, [com.aspose.imaging.fileformats.tiff.TiffDataType](../../com.aspose.imaging.fileformats.tiff/tiffdatatype), [com.aspose.imaging.fileformats.tiff.tifftagtypes.TiffCommonArrayType](../../com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytype)
-
-**All Implemented Interfaces:**
-java.io.Serializable
 ```
-public final class TiffShortType extends TiffCommonArrayType implements Serializable
+public final class TiffShortType extends TiffCommonArrayType
 ```
 
 The tiff short type.
@@ -20,7 +17,6 @@ The tiff short type.
 
 | Constructor | Description |
 | --- | --- |
-| [TiffShortType()](#TiffShortType--) |  |
 | [TiffShortType(int tagId)](#TiffShortType-int-) | Initializes a new instance of the `TiffShortType` class. |
 ## Methods
 
@@ -34,12 +30,6 @@ The tiff short type.
 | [getValue()](#getValue--) | Gets or sets the value this data type contains. |
 | [setValue(Object value)](#setValue-java.lang.Object-) | Gets or sets the value this data type contains. |
 | [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | Writes the additional tag data. |
-### TiffShortType() {#TiffShortType--}
-```
-public TiffShortType()
-```
-
-
 ### TiffShortType(int tagId) {#TiffShortType-int-}
 ```
 public TiffShortType(int tagId)
@@ -82,7 +72,7 @@ Value: The data.
 
 ### getElementSize() {#getElementSize--}
 ```
-public long getElementSize()
+public byte getElementSize()
 ```
 
 
@@ -91,7 +81,7 @@ Gets the element size in bytes.
 Value: The element size in bytes.
 
 **Returns:**
-long
+byte
 ### getValuesContainer() {#getValuesContainer--}
 ```
 public System.Array getValuesContainer()

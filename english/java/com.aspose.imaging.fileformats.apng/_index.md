@@ -1,11 +1,14 @@
 ---
 title: com.aspose.imaging.fileformats.apng
 second_title: Aspose.Imaging for Java API Reference
-description: 
+description: The namespace handles Apng file format processing.
 type: docs
 weight: 24
 url: /java/com.aspose.imaging.fileformats.apng/
 ---
+
+The namespace handles Apng file format processing.
+
 
 ## Classes
 

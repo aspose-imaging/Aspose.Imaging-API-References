@@ -3,7 +3,7 @@ title: com.aspose.imaging.progressmanagement
 second_title: Aspose.Imaging for Java API Reference
 description: The namespace contains progress handler classes
 type: docs
-weight: 99
+weight: 101
 url: /java/com.aspose.imaging.progressmanagement/
 ---
 

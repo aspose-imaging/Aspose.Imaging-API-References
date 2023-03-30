@@ -43,6 +43,7 @@ A bmp image (supports BMP, DIB formats).
 | [getVerticalResolution()](#getVerticalResolution--) | Gets or sets the vertical resolution, in pixels per inch, of this `RasterImage`. |
 | [setVerticalResolution(double value)](#setVerticalResolution-double-) | Gets or sets the vertical resolution, in pixels per inch, of this `RasterImage`. |
 | [setResolution(double dpiX, double dpiY)](#setResolution-double-double-) | Sets the resolution for this `RasterImage`. |
+| [getDefaultOptions(Object[] args)](#getDefaultOptions-java.lang.Object---) | Gets the default options. |
 
 ## Example: The following example shows how to create a BMP image of the specified size.
 
@@ -999,3 +1000,18 @@ try {
 // The vertical resolution, in pixels per inch: 96.012
 ```
 
+### getDefaultOptions(Object[] args) {#getDefaultOptions-java.lang.Object---}
+```
+public ImageOptionsBase getDefaultOptions(Object[] args)
+```
+
+
+Gets the default options.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| args | java.lang.Object[] | The arguments. |
+
+**Returns:**
+[ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - Default options

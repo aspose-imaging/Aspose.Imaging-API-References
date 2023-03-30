@@ -3,7 +3,7 @@ title: IcoOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The ICO file format creation options.
 type: docs
-weight: 23
+weight: 24
 url: /java/com.aspose.imaging.imageoptions/icooptions/
 ---
 **Inheritance:**

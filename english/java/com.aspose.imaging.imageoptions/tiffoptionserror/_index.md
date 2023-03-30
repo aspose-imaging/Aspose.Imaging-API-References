@@ -3,7 +3,7 @@ title: TiffOptionsError
 second_title: Aspose.Imaging for Java API Reference
 description: The tiff options error codes.
 type: docs
-weight: 46
+weight: 47
 url: /java/com.aspose.imaging.imageoptions/tiffoptionserror/
 ---
 **Inheritance:**

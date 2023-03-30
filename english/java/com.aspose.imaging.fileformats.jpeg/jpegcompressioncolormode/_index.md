@@ -1,7 +1,7 @@
 ---
 title: JpegCompressionColorMode
 second_title: Aspose.Imaging for Java API Reference
-description: u0421olor mode for jpeg images.
+description: Color mode for jpeg images.
 type: docs
 weight: 12
 url: /java/com.aspose.imaging.fileformats.jpeg/jpegcompressioncolormode/
@@ -12,7 +12,7 @@ java.lang.Object, com.aspose.ms.System.ValueType, com.aspose.ms.System.Enum
 public final class JpegCompressionColorMode extends System.Enum
 ```
 
-\\u0421olor mode for jpeg images.
+Color mode for jpeg images.
 ## Fields
 
 | Field | Description |

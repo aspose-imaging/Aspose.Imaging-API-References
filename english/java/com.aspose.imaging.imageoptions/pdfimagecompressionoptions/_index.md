@@ -3,7 +3,7 @@ title: PdfImageCompressionOptions
 second_title: Aspose.Imaging for Java API Reference
 description: Pdf image compression options
 type: docs
-weight: 33
+weight: 34
 url: /java/com.aspose.imaging.imageoptions/pdfimagecompressionoptions/
 ---
 **Inheritance:**

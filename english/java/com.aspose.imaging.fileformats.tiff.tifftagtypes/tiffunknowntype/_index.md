@@ -3,7 +3,7 @@ title: TiffUnknownType
 second_title: Aspose.Imaging for Java API Reference
 description: The unknown tiff type.
 type: docs
-weight: 24
+weight: 27
 url: /java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/
 ---
 **Inheritance:**
@@ -28,7 +28,7 @@ Note the `TiffUnknownType` is not serialized back to stream.
 | [getOffsetOrValue()](#getOffsetOrValue--) | Gets the offset value for an additional data or value itself in case count is 1. |
 | [getStream()](#getStream--) | Gets the stream to read additional data from. |
 | [getTagType()](#getTagType--) | Gets the tag type. |
-| [getDataSize()](#getDataSize--) | Gets the additional data size in bytes (in case the 12 bytes is not enough to fit the tag data). |
+| [getAdditionalDataSize(byte sizeOfTagValue)](#getAdditionalDataSize-byte-) | Gets the additional tag value size in bytes (in case the tag can not fit the whole tag value). |
 | [getValue()](#getValue--) | Gets or sets the value this data type contains. |
 | [setValue(Object value)](#setValue-java.lang.Object-) | Gets or sets the value this data type contains. |
 | [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | Writes the additional tag data. |
@@ -98,16 +98,21 @@ Value: The tag type.
 
 **Returns:**
 int
-### getDataSize() {#getDataSize--}
+### getAdditionalDataSize(byte sizeOfTagValue) {#getAdditionalDataSize-byte-}
 ```
-public long getDataSize()
+public long getAdditionalDataSize(byte sizeOfTagValue)
 ```
 
 
-Gets the additional data size in bytes (in case the 12 bytes is not enough to fit the tag data).
+Gets the additional tag value size in bytes (in case the tag can not fit the whole tag value).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sizeOfTagValue | byte | Size of tag value: 4 or 8 for BigTiff. |
 
 **Returns:**
-long
+long - The additional data size in bytes.
 ### getValue() {#getValue--}
 ```
 public Object getValue()

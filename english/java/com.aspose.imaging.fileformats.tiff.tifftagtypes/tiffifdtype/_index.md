@@ -3,7 +3,7 @@ title: TiffIfdType
 second_title: Aspose.Imaging for Java API Reference
 description: Represents the TIFF Exif image file directory type class.
 type: docs
-weight: 15
+weight: 16
 url: /java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffifdtype/
 ---
 **Inheritance:**
@@ -84,7 +84,7 @@ Value: The values container.
 com.aspose.ms.System.Array
 ### getElementSize() {#getElementSize--}
 ```
-public long getElementSize()
+public byte getElementSize()
 ```
 
 
@@ -93,7 +93,7 @@ Gets the element size in bytes.
 Value: The element size in bytes.
 
 **Returns:**
-long
+byte
 ### getTagType() {#getTagType--}
 ```
 public int getTagType()

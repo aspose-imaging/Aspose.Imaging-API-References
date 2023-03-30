@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.svg.graphics
 second_title: Aspose.Imaging for Java API Reference
 description: The namespace for drawing on Svg.
 type: docs
-weight: 73
+weight: 74
 url: /java/com.aspose.imaging.fileformats.svg.graphics/
 ---
 

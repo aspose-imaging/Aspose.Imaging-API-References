@@ -30,6 +30,9 @@ The tiff data type enum.
 | [Float](#Float) | 32-bit IEEE floating point. |
 | [Double](#Double) | 64-bit IEEE floating point. |
 | [Ifd](#Ifd) | Pointer to Exif image file directory (IFD). |
+| [Long8](#Long8) | Unsigned 64-bit integer. |
+| [SLong8](#SLong8) | Signed 64-bit integer. |
+| [IFD8](#IFD8) | Unsigned 64-bit IFD offset. |
 ### Byte {#Byte}
 ```
 public static final int Byte
@@ -133,4 +136,28 @@ public static final int Ifd
 
 
 Pointer to Exif image file directory (IFD).
+
+### Long8 {#Long8}
+```
+public static final int Long8
+```
+
+
+Unsigned 64-bit integer.
+
+### SLong8 {#SLong8}
+```
+public static final int SLong8
+```
+
+
+Signed 64-bit integer.
+
+### IFD8 {#IFD8}
+```
+public static final int IFD8
+```
+
+
+Unsigned 64-bit IFD offset.
 

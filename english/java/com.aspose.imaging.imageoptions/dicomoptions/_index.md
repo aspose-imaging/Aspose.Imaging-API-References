@@ -3,7 +3,7 @@ title: DicomOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The DICOM file format creation options.
 type: docs
-weight: 14
+weight: 15
 url: /java/com.aspose.imaging.imageoptions/dicomoptions/
 ---
 **Inheritance:**

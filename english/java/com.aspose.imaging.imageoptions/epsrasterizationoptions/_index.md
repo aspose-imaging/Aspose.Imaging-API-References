@@ -3,7 +3,7 @@ title: EpsRasterizationOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The Eps rasterization options.
 type: docs
-weight: 20
+weight: 21
 url: /java/com.aspose.imaging.imageoptions/epsrasterizationoptions/
 ---
 **Inheritance:**

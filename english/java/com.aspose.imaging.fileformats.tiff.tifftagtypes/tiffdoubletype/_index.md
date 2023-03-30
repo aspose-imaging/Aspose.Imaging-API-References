@@ -88,14 +88,14 @@ Gets the tag type.
 int - The tag type.
 ### getElementSize() {#getElementSize--}
 ```
-public long getElementSize()
+public byte getElementSize()
 ```
 
 
 Gets the element size in bytes.
 
 **Returns:**
-long - The element size in bytes.
+byte - The element size in bytes.
 ### getValue() {#getValue--}
 ```
 public Object getValue()

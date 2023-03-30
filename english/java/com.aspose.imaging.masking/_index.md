@@ -3,7 +3,7 @@ title: com.aspose.imaging.masking
 second_title: Aspose.Imaging for Java API Reference
 description: The namespace handles ImageMasking processing.
 type: docs
-weight: 92
+weight: 94
 url: /java/com.aspose.imaging.masking/
 ---
 

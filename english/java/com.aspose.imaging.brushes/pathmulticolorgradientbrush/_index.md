@@ -17,10 +17,10 @@ Encapsulates a `Aspose.Imaging.Brush` object with a gradient. This class cannot 
 
 | Constructor | Description |
 | --- | --- |
-| [PathMulticolorGradientBrush(PointF[] points)](#PathMulticolorGradientBrush-com.aspose.imaging.PointF---) | Initializes a new instance of the `PathMulticolorGradientBrush` class with the specified points. |
-| [PathMulticolorGradientBrush(PointF[] points, int wrapMode)](#PathMulticolorGradientBrush-com.aspose.imaging.PointF---int-) | Initializes a new instance of the `PathMulticolorGradientBrush` class with the specified points and wrap mode. |
-| [PathMulticolorGradientBrush(Point[] points)](#PathMulticolorGradientBrush-com.aspose.imaging.Point---) | Initializes a new instance of the `PathMulticolorGradientBrush` class with the specified points. |
-| [PathMulticolorGradientBrush(Point[] points, int wrapMode)](#PathMulticolorGradientBrush-com.aspose.imaging.Point---int-) | Initializes a new instance of the `PathMulticolorGradientBrush` class with the specified points and wrap mode. |
+| [PathMulticolorGradientBrush(PointF[] pathPoints)](#PathMulticolorGradientBrush-com.aspose.imaging.PointF---) | Initializes a new instance of the [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) class with the specified points. |
+| [PathMulticolorGradientBrush(PointF[] pathPoints, int wrapMode)](#PathMulticolorGradientBrush-com.aspose.imaging.PointF---int-) | Initializes a new instance of the [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) class with the specified points and wrap mode. |
+| [PathMulticolorGradientBrush(Point[] pathPoints)](#PathMulticolorGradientBrush-com.aspose.imaging.Point---) | Initializes a new instance of the [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) class with the specified points. |
+| [PathMulticolorGradientBrush(Point[] pathPoints, int wrapMode)](#PathMulticolorGradientBrush-com.aspose.imaging.Point---int-) | Initializes a new instance of the [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) class with the specified points and wrap mode. |
 | [PathMulticolorGradientBrush(GraphicsPath path)](#PathMulticolorGradientBrush-com.aspose.imaging.GraphicsPath-) | Initializes a new instance of the `PathMulticolorGradientBrush` class with the specified path. |
 ## Methods
 
@@ -28,59 +28,59 @@ Encapsulates a `Aspose.Imaging.Brush` object with a gradient. This class cannot 
 | --- | --- |
 | [getInterpolationColors()](#getInterpolationColors--) | Gets or sets a `com.aspose.imaging.ColorBlend` that defines a multicolor linear gradient. |
 | [setInterpolationColors(ColorBlend value)](#setInterpolationColors-com.aspose.imaging.ColorBlend-) | Gets or sets a `com.aspose.imaging.ColorBlend` that defines a multicolor linear gradient. |
-### PathMulticolorGradientBrush(PointF[] points) {#PathMulticolorGradientBrush-com.aspose.imaging.PointF---}
+### PathMulticolorGradientBrush(PointF[] pathPoints) {#PathMulticolorGradientBrush-com.aspose.imaging.PointF---}
 ```
-public PathMulticolorGradientBrush(PointF[] points)
+public PathMulticolorGradientBrush(PointF[] pathPoints)
 ```
 
 
-Initializes a new instance of the `PathMulticolorGradientBrush` class with the specified points.
+Initializes a new instance of the [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) class with the specified points.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | [PointF\[\]](../../com.aspose.imaging/pointf) | An array of `Aspose.Imaging.PointF` structures that represents the points that make up the vertices of the path. |
+| pathPoints | [PointF\[\]](../../com.aspose.imaging/pointf) | An array of [PointF](../../com.aspose.imaging/pointf) structures that represents the points that make up the vertices of the path. |
 
-### PathMulticolorGradientBrush(PointF[] points, int wrapMode) {#PathMulticolorGradientBrush-com.aspose.imaging.PointF---int-}
+### PathMulticolorGradientBrush(PointF[] pathPoints, int wrapMode) {#PathMulticolorGradientBrush-com.aspose.imaging.PointF---int-}
 ```
-public PathMulticolorGradientBrush(PointF[] points, int wrapMode)
+public PathMulticolorGradientBrush(PointF[] pathPoints, int wrapMode)
 ```
 
 
-Initializes a new instance of the `PathMulticolorGradientBrush` class with the specified points and wrap mode.
+Initializes a new instance of the [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) class with the specified points and wrap mode.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | [PointF\[\]](../../com.aspose.imaging/pointf) | An array of `Aspose.Imaging.PointF` structures that represents the points that make up the vertices of the path. |
-| wrapMode | int | A `Aspose.Imaging.WrapMode` that specifies how fills drawn with this `PathMulticolorGradientBrush` are tiled. |
+| pathPoints | [PointF\[\]](../../com.aspose.imaging/pointf) | An array of [PointF](../../com.aspose.imaging/pointf) structures that represents the points that make up the vertices of the path. |
+| wrapMode | int | A [WrapMode](../../com.aspose.imaging/wrapmode) that specifies how fills drawn with this [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) are tiled. |
 
-### PathMulticolorGradientBrush(Point[] points) {#PathMulticolorGradientBrush-com.aspose.imaging.Point---}
+### PathMulticolorGradientBrush(Point[] pathPoints) {#PathMulticolorGradientBrush-com.aspose.imaging.Point---}
 ```
-public PathMulticolorGradientBrush(Point[] points)
+public PathMulticolorGradientBrush(Point[] pathPoints)
 ```
 
 
-Initializes a new instance of the `PathMulticolorGradientBrush` class with the specified points.
+Initializes a new instance of the [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) class with the specified points.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | [Point\[\]](../../com.aspose.imaging/point) | An array of `Aspose.Imaging.Point` structures that represents the points that make up the vertices of the path. |
+| pathPoints | [Point\[\]](../../com.aspose.imaging/point) | An array of [Point](../../com.aspose.imaging/point) structures that represents the points that make up the vertices of the path. |
 
-### PathMulticolorGradientBrush(Point[] points, int wrapMode) {#PathMulticolorGradientBrush-com.aspose.imaging.Point---int-}
+### PathMulticolorGradientBrush(Point[] pathPoints, int wrapMode) {#PathMulticolorGradientBrush-com.aspose.imaging.Point---int-}
 ```
-public PathMulticolorGradientBrush(Point[] points, int wrapMode)
+public PathMulticolorGradientBrush(Point[] pathPoints, int wrapMode)
 ```
 
 
-Initializes a new instance of the `PathMulticolorGradientBrush` class with the specified points and wrap mode.
+Initializes a new instance of the [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) class with the specified points and wrap mode.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | [Point\[\]](../../com.aspose.imaging/point) | An array of `Aspose.Imaging.Point` structures that represents the points that make up the vertices of the path. |
-| wrapMode | int | A `Aspose.Imaging.WrapMode` that specifies how fills drawn with this `PathMulticolorGradientBrush` are tiled. |
+| pathPoints | [Point\[\]](../../com.aspose.imaging/point) | An array of [Point](../../com.aspose.imaging/point) structures that represents the points that make up the vertices of the path. |
+| wrapMode | int | A [WrapMode](../../com.aspose.imaging/wrapmode) that specifies how fills drawn with this [PathMulticolorGradientBrush](../../com.aspose.imaging.brushes/pathmulticolorgradientbrush) are tiled. |
 
 ### PathMulticolorGradientBrush(GraphicsPath path) {#PathMulticolorGradientBrush-com.aspose.imaging.GraphicsPath-}
 ```

@@ -3,7 +3,7 @@ title: DxfOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The Dxf file format creation options.
 type: docs
-weight: 16
+weight: 17
 url: /java/com.aspose.imaging.imageoptions/dxfoptions/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: PngOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The png file format create options.
 type: docs
-weight: 35
+weight: 36
 url: /java/com.aspose.imaging.imageoptions/pngoptions/
 ---
 **Inheritance:**

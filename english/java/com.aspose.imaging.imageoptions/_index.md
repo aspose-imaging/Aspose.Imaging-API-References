@@ -3,7 +3,7 @@ title: com.aspose.imaging.imageoptions
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains classes suitable for export save or creation of different file formats.
 type: docs
-weight: 90
+weight: 92
 url: /java/com.aspose.imaging.imageoptions/
 ---
 
@@ -15,6 +15,7 @@ The package contains classes suitable for export, save or creation of different 
 | Class | Description |
 | --- | --- |
 | [ApngOptions](../com.aspose.imaging.imageoptions/apngoptions) | The animated PNG file format options |
+| [BigTiffOptions](../com.aspose.imaging.imageoptions/bigtiffoptions) | The BigTiff image options. |
 | [BmpOptions](../com.aspose.imaging.imageoptions/bmpoptions) | The bmp file format creation options. |
 | [CdrRasterizationOptions](../com.aspose.imaging.imageoptions/cdrrasterizationoptions) | The Cdr rasterization options |
 | [CmxRasterizationOptions](../com.aspose.imaging.imageoptions/cmxrasterizationoptions) | the CMX exporter options. |
@@ -31,7 +32,7 @@ The package contains classes suitable for export, save or creation of different 
 | [Jpeg2000Options](../com.aspose.imaging.imageoptions/jpeg2000options) | The Jpeg2000 file format options. |
 | [JpegOptions](../com.aspose.imaging.imageoptions/jpegoptions) | The jpeg file format create options. |
 | [MetafileOptions](../com.aspose.imaging.imageoptions/metafileoptions) | The Metafiles base options. |
-| [MetafileRasterizationOptions](../com.aspose.imaging.imageoptions/metafilerasterizationoptions) | The metafile rasterization options This class will be removed in next versions. |
+| [MetafileRasterizationOptions](../com.aspose.imaging.imageoptions/metafilerasterizationoptions) | The metafile rasterization options |
 | [MultiPageMode](../com.aspose.imaging.imageoptions/multipagemode) | Represents multipage mode |
 | [MultiPageOptions](../com.aspose.imaging.imageoptions/multipageoptions) | Base class for multiple pages supported formats |
 | [OdRasterizationOptions](../com.aspose.imaging.imageoptions/odrasterizationoptions) | The Odg rasterization options |
@@ -51,7 +52,6 @@ The package contains classes suitable for export, save or creation of different 
 | [TgaOptions](../com.aspose.imaging.imageoptions/tgaoptions) | The TGA file format create options. |
 | [TiffOptions](../com.aspose.imaging.imageoptions/tiffoptions) | The tiff file format options. |
 | [TiffOptionsError](../com.aspose.imaging.imageoptions/tiffoptionserror) | The tiff options error codes. |
-| [TiffOptionsUtils](../com.aspose.imaging.imageoptions/tiffoptionsutils) | The tiff file format options utility class. |
 | [TimeInterval](../com.aspose.imaging.imageoptions/timeinterval) | Represents the time interval in milliseconds |
 | [TypeOfEntities](../com.aspose.imaging.imageoptions/typeofentities) | Represents types of entities to render |
 | [VectorRasterizationOptions](../com.aspose.imaging.imageoptions/vectorrasterizationoptions) | The vector rasterization options. |

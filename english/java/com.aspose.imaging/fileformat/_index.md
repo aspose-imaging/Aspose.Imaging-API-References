@@ -25,6 +25,8 @@ One of supported imaging file formats.
 | [Png](#Png) | Png file format. |
 | [Tiff](#Tiff) | Tiff file format. |
 | [Psd](#Psd) | Psd file format. |
+| [Pdf](#Pdf) | Pdf file format |
+| [Ico](#Ico) | The ico format |
 | [Jpeg2000](#Jpeg2000) | Jpeg2000 file format |
 | [Djvu](#Djvu) | Djvu file format |
 | [Webp](#Webp) | The webp file format |
@@ -46,7 +48,7 @@ One of supported imaging file formats.
 | [Wmz](#Wmz) | The WMZ, compressed wmf |
 | [Svgz](#Svgz) | The SVGZ, compressed svg |
 | [FOdg](#FOdg) | The fodg, flat odg format |
-| [Ico](#Ico) | ICO file format. |
+| [BigTiff](#BigTiff) | The Big Tiff format. |
 
 ## Example: This example shows how to determine the image format without loading the entire image from a file.
 
@@ -164,6 +166,22 @@ public static final long Psd
 
 
 Psd file format.
+
+### Pdf {#Pdf}
+```
+public static final long Pdf
+```
+
+
+Pdf file format
+
+### Ico {#Ico}
+```
+public static final long Ico
+```
+
+
+The ico format
 
 ### Jpeg2000 {#Jpeg2000}
 ```
@@ -333,11 +351,11 @@ public static final long FOdg
 
 The fodg, flat odg format
 
-### Ico {#Ico}
+### BigTiff {#BigTiff}
 ```
-public static final long Ico
+public static final long BigTiff
 ```
 
 
-ICO file format.
+The Big Tiff format.
 

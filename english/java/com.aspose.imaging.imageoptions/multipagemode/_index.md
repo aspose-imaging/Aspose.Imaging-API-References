@@ -3,7 +3,7 @@ title: MultiPageMode
 second_title: Aspose.Imaging for Java API Reference
 description: Represents multipage mode
 type: docs
-weight: 28
+weight: 29
 url: /java/com.aspose.imaging.imageoptions/multipagemode/
 ---
 **Inheritance:**

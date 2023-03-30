@@ -41,6 +41,8 @@ Represents a polygon shape.
 | [getBounds(Matrix matrix)](#getBounds-com.aspose.imaging.Matrix-) | Gets the object's bounds. |
 | [getBounds(Matrix matrix, Pen pen)](#getBounds-com.aspose.imaging.Matrix-com.aspose.imaging.Pen-) | Gets the object's bounds. |
 | [transform(Matrix transform)](#transform-com.aspose.imaging.Matrix-) | Applies the specified transformation to the shape. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is equal to the current object. |
+| [hashCode()](#hashCode--) | Serves as the default hash function. |
 
 ## Example: This example creates a new Image and draws a variety of shapes using Figures and GraphicsPath o...
 This example creates a new Image and draws a variety of shapes using Figures and GraphicsPath on the Image surface
@@ -318,3 +320,28 @@ Applies the specified transformation to the shape.
 | --- | --- | --- |
 | transform | [Matrix](../../com.aspose.imaging/matrix) | The transformation to apply. |
 
+### equals(Object obj) {#equals-java.lang.Object-}
+```
+public boolean equals(Object obj)
+```
+
+
+Determines whether the specified object is equal to the current object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object | The compared object. |
+
+**Returns:**
+boolean - The result of equals
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Serves as the default hash function.
+
+**Returns:**
+int - A hash code for the current object.

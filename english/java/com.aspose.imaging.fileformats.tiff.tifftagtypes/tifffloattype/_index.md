@@ -68,14 +68,14 @@ Sets the values.
 
 ### getElementSize() {#getElementSize--}
 ```
-public long getElementSize()
+public byte getElementSize()
 ```
 
 
 Gets the element size in bytes.
 
 **Returns:**
-long - The element size in bytes.
+byte - The element size in bytes.
 ### getValuesContainer() {#getValuesContainer--}
 ```
 public System.Array getValuesContainer()

@@ -3,7 +3,7 @@ title: EmfRasterizationOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The Emf rasterization options.
 type: docs
-weight: 19
+weight: 20
 url: /java/com.aspose.imaging.imageoptions/emfrasterizationoptions/
 ---
 **Inheritance:**

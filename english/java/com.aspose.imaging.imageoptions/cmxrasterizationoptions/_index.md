@@ -3,7 +3,7 @@ title: CmxRasterizationOptions
 second_title: Aspose.Imaging for Java API Reference
 description: the CMX exporter options.
 type: docs
-weight: 13
+weight: 14
 url: /java/com.aspose.imaging.imageoptions/cmxrasterizationoptions/
 ---
 **Inheritance:**

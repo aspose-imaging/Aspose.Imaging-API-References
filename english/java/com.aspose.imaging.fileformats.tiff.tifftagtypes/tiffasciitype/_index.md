@@ -26,7 +26,6 @@ The tiff ascii type.
 | [setText(String value)](#setText-java.lang.String-) | Gets or sets the text. |
 | [getCount()](#getCount--) | Gets the count of elements. |
 | [getTagType()](#getTagType--) | Gets the tag type. |
-| [getDataSize()](#getDataSize--) | Gets the additional data size in bytes (in case the 12 bytes is not enough to fit the tag data). |
 | [getValue()](#getValue--) | Gets or sets the value this data type contains. |
 | [setValue(Object value)](#setValue-java.lang.Object-) | Gets or sets the value this data type contains. |
 | [writeAdditionalData(TiffStreamWriter dataStream)](#writeAdditionalData-com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter-) | Writes the additional tag data. |
@@ -86,16 +85,6 @@ Gets the tag type.
 
 **Returns:**
 int - The tag type.
-### getDataSize() {#getDataSize--}
-```
-public long getDataSize()
-```
-
-
-Gets the additional data size in bytes (in case the 12 bytes is not enough to fit the tag data).
-
-**Returns:**
-long - The additional data size in bytes.
 ### getValue() {#getValue--}
 ```
 public Object getValue()

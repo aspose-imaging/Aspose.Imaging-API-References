@@ -42,6 +42,8 @@ Represents the graphics according to the graphics engine used in the current ass
 | [setSmoothingMode(int value)](#setSmoothingMode-int-) | Gets or sets the smoothing mode. |
 | [getTextRenderingHint()](#getTextRenderingHint--) | Gets or sets the text rendering hint. |
 | [setTextRenderingHint(int value)](#setTextRenderingHint-int-) | Gets or sets the text rendering hint. |
+| [getPaintableImageOptions()](#getPaintableImageOptions--) | Gets image options, used to create paintable vector images to draw. |
+| [setPaintableImageOptions(ImageOptionsBase value)](#setPaintableImageOptions-com.aspose.imaging.ImageOptionsBase-) | Sets image options, used to create paintable vector images to draw. |
 | [resetTransform()](#resetTransform--) | Resets the `com.aspose.imaging.graphics.Transform` property to identity. |
 | [multiplyTransform(Matrix matrix)](#multiplyTransform-com.aspose.imaging.Matrix-) | Multiplies the `com.aspose.imaging.Matrix` that represents the local geometric transform of this `com.aspose.imaging.Graphics` by the specified `com.aspose.imaging.Matrix` by prepending the specified `com.aspose.imaging.matrix`. |
 | [multiplyTransform(Matrix matrix, int order)](#multiplyTransform-com.aspose.imaging.Matrix-int-) | Multiplies the `com.aspose.imaging.Matrix` that represents the local geometric transform of this `com.aspose.imaging.Graphics` by the specified `com.aspose.imaging.Matrix` in the specified order. |
@@ -530,6 +532,33 @@ Gets or sets the text rendering hint.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The text rendering hint. |
+
+### getPaintableImageOptions() {#getPaintableImageOptions--}
+```
+public ImageOptionsBase getPaintableImageOptions()
+```
+
+
+Gets image options, used to create paintable vector images to draw.
+
+Value: The image options, used to create paintable vector images to draw.
+
+**Returns:**
+[ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) - image options, used to create paintable vector images to draw.
+### setPaintableImageOptions(ImageOptionsBase value) {#setPaintableImageOptions-com.aspose.imaging.ImageOptionsBase-}
+```
+public void setPaintableImageOptions(ImageOptionsBase value)
+```
+
+
+Sets image options, used to create paintable vector images to draw.
+
+Value: The image options, used to create paintable vector images to draw.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [ImageOptionsBase](../../com.aspose.imaging/imageoptionsbase) | image options, used to create paintable vector images to draw. |
 
 ### resetTransform() {#resetTransform--}
 ```

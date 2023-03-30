@@ -24,7 +24,8 @@ is_root: true
 | [com.aspose.imaging.exif.enums](./com.aspose.imaging.exif.enums) | The package contains EXIF related helper classes and methods. |
 | [com.aspose.imaging.extensions](./com.aspose.imaging.extensions) | The package contains extension methods. |
 | [com.aspose.imaging.fileformats](./com.aspose.imaging.fileformats) | The package contains graphics files processing classes and methods. |
-| [com.aspose.imaging.fileformats.apng](./com.aspose.imaging.fileformats.apng) |  |
+| [com.aspose.imaging.fileformats.apng](./com.aspose.imaging.fileformats.apng) | The namespace handles Apng file format processing. |
+| [com.aspose.imaging.fileformats.bigtiff](./com.aspose.imaging.fileformats.bigtiff) | The package handling BigTiff file format processing. |
 | [com.aspose.imaging.fileformats.bmp](./com.aspose.imaging.fileformats.bmp) | The package handles Bmp file format processing. |
 | [com.aspose.imaging.fileformats.bmp.structures](./com.aspose.imaging.fileformats.bmp.structures) | The logical structures, used to support bitmap header. |
 | [com.aspose.imaging.fileformats.cdr](./com.aspose.imaging.fileformats.cdr) | The namespace handles Cdr file format processing. |
@@ -74,10 +75,11 @@ is_root: true
 | [com.aspose.imaging.fileformats.psd](./com.aspose.imaging.fileformats.psd) | The package handles Psd file format processing. |
 | [com.aspose.imaging.fileformats.svg](./com.aspose.imaging.fileformats.svg) | The package handles SVG file format processing. |
 | [com.aspose.imaging.fileformats.svg.graphics](./com.aspose.imaging.fileformats.svg.graphics) | The namespace for drawing on Svg. |
-| [com.aspose.imaging.fileformats.tga](./com.aspose.imaging.fileformats.tga) |  |
+| [com.aspose.imaging.fileformats.tga](./com.aspose.imaging.fileformats.tga) | The namespace handles Tga file format processing. |
 | [com.aspose.imaging.fileformats.tiff](./com.aspose.imaging.fileformats.tiff) | The package handles Tiff file format processing. |
 | [com.aspose.imaging.fileformats.tiff.enums](./com.aspose.imaging.fileformats.tiff.enums) | The package contains Tiff file format enumerations. |
 | [com.aspose.imaging.fileformats.tiff.filemanagement](./com.aspose.imaging.fileformats.tiff.filemanagement) | The package contains Tiff file format stream handling classes. |
+| [com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff](./com.aspose.imaging.fileformats.tiff.filemanagement.bigtiff) | The namespace handling BigTiff file format processing. |
 | [com.aspose.imaging.fileformats.tiff.instancefactory](./com.aspose.imaging.fileformats.tiff.instancefactory) | The package contains Tiff file format tag factory helper classes and interfaces. |
 | [com.aspose.imaging.fileformats.tiff.pathresources](./com.aspose.imaging.fileformats.tiff.pathresources) | The namespace handles Tiff file format processing. |
 | [com.aspose.imaging.fileformats.tiff.tifftagtypes](./com.aspose.imaging.fileformats.tiff.tifftagtypes) | The package contains Tiff file format tag classes. |
@@ -98,7 +100,7 @@ is_root: true
 | [com.aspose.imaging.masking.result](./com.aspose.imaging.masking.result) | The namespace handles ImageMasking.Result processing. |
 | [com.aspose.imaging.memorymanagement](./com.aspose.imaging.memorymanagement) | The namespace contains memory management routines. |
 | [com.aspose.imaging.multithreading](./com.aspose.imaging.multithreading) | The namespace contains Multithreading classes. |
-| [com.aspose.imaging.palettehelper](./com.aspose.imaging.palettehelper) |  |
+| [com.aspose.imaging.palettehelper](./com.aspose.imaging.palettehelper) | The namespace contains classes for adjustment of color palette to the image colors and visa versa. |
 | [com.aspose.imaging.progressmanagement](./com.aspose.imaging.progressmanagement) | The namespace contains progress handler classes |
 | [com.aspose.imaging.shapes](./com.aspose.imaging.shapes) | The package contains different shapes combined from shape segments. |
 | [com.aspose.imaging.shapesegments](./com.aspose.imaging.shapesegments) | The package contains different shape segments which combine shapes. |

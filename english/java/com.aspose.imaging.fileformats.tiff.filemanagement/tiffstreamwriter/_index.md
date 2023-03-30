@@ -1,21 +1,21 @@
 ---
 title: TiffStreamWriter
 second_title: Aspose.Imaging for Java API Reference
-description: Tiff stream writer.
+description: The Tiff stream writer.
 type: docs
 weight: 14
 url: /java/com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/
 ---
 **Inheritance:**
-java.lang.Object
+java.lang.Object, com.aspose.fileformats.fileformats.tiff.filemanagement.TiffStreamSeeker
 
 **All Implemented Interfaces:**
 com.aspose.internal.interfaces.ISynchronizable
 ```
-public class TiffStreamWriter implements ISynchronizable
+public class TiffStreamWriter extends TiffStreamSeeker implements ISynchronizable
 ```
 
-Tiff stream writer.
+The Tiff stream writer.
 ## Constructors
 
 | Constructor | Description |
@@ -40,15 +40,19 @@ Tiff stream writer.
 | [writeSRationalArray(TiffSRational[] data)](#writeSRationalArray-com.aspose.imaging.fileformats.tiff.TiffSRational---) | Writes an array of signed rational values to the stream. |
 | [writeSByte(byte data)](#writeSByte-byte-) | Writes a single signed byte value to the stream. |
 | [writeSByteArray(byte[] data)](#writeSByteArray-byte---) | Writes an array of signed byte values to the stream. |
-| [writeSLongArray(int[] data)](#writeSLongArray-int---) | Writes an array of integer values to the stream. |
+| [writeIntArray(int[] data)](#writeIntArray-int---) | Writes an array of integer values to the stream. |
 | [writeSShort(short data)](#writeSShort-short-) | Writes a single short value to the stream. |
 | [writeSShortArray(short[] data)](#writeSShortArray-short---) | Writes an array of short values to the stream. |
-| [writeSlong(int data)](#writeSlong-int-) | Writes a single integer value to the stream. |
+| [writeSInt(int data)](#writeSInt-int-) | Writes a single integer value to the stream. |
 | [writeUByte(byte data)](#writeUByte-byte-) | Writes a single byte value to the stream. |
-| [writeULong(long data)](#writeULong-long-) | Writes a single unsigned integer value to the stream. |
-| [writeULongArray(long[] data)](#writeULongArray-long---) | Writes an array of unsigned integer values to the stream. |
+| [writeUInt(long data)](#writeUInt-long-) | Writes a single unsigned integer value to the stream. |
+| [writeUIntArray(long[] data)](#writeUIntArray-long---) | Writes an array of unsigned integer values to the stream. |
 | [writeUShort(int data)](#writeUShort-int-) | Writes a single unsigned short value to the stream. |
 | [writeUShortArray(int[] data)](#writeUShortArray-int---) | Writes an array of unsigned short values to the stream. |
+| [writeSLong(long data)](#writeSLong-long-) | Writes an array of signed long values to the stream. |
+| [writeSLongArray(long[] data)](#writeSLongArray-long---) | Writes an array of signed long values to the stream. |
+| [writeULong(long data)](#writeULong-long-) | Writes an array of unsigned long values to the stream. |
+| [writeULongArray(long[] data)](#writeULongArray-long---) | Writes an array of unsigned long values to the stream. |
 ### TiffStreamWriter(StreamContainer writer) {#TiffStreamWriter-com.aspose.imaging.StreamContainer-}
 ```
 public TiffStreamWriter(StreamContainer writer)
@@ -259,9 +263,9 @@ Writes an array of signed byte values to the stream.
 | --- | --- | --- |
 | data | byte[] | The array to write. |
 
-### writeSLongArray(int[] data) {#writeSLongArray-int---}
+### writeIntArray(int[] data) {#writeIntArray-int---}
 ```
-public void writeSLongArray(int[] data)
+public void writeIntArray(int[] data)
 ```
 
 
@@ -298,9 +302,9 @@ Writes an array of short values to the stream.
 | --- | --- | --- |
 | data | short[] | The array to write. |
 
-### writeSlong(int data) {#writeSlong-int-}
+### writeSInt(int data) {#writeSInt-int-}
 ```
-public void writeSlong(int data)
+public void writeSInt(int data)
 ```
 
 
@@ -324,9 +328,9 @@ Writes a single byte value to the stream.
 | --- | --- | --- |
 | data | byte | The value to write. |
 
-### writeULong(long data) {#writeULong-long-}
+### writeUInt(long data) {#writeUInt-long-}
 ```
-public void writeULong(long data)
+public void writeUInt(long data)
 ```
 
 
@@ -337,9 +341,9 @@ Writes a single unsigned integer value to the stream.
 | --- | --- | --- |
 | data | long | The value to write. |
 
-### writeULongArray(long[] data) {#writeULongArray-long---}
+### writeUIntArray(long[] data) {#writeUIntArray-long---}
 ```
-public void writeULongArray(long[] data)
+public void writeUIntArray(long[] data)
 ```
 
 
@@ -375,4 +379,56 @@ Writes an array of unsigned short values to the stream.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | data | int[] | The array to write. |
+
+### writeSLong(long data) {#writeSLong-long-}
+```
+public final void writeSLong(long data)
+```
+
+
+Writes an array of signed long values to the stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| data | long | The array to write. |
+
+### writeSLongArray(long[] data) {#writeSLongArray-long---}
+```
+public final void writeSLongArray(long[] data)
+```
+
+
+Writes an array of signed long values to the stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| data | long[] | The array to write. |
+
+### writeULong(long data) {#writeULong-long-}
+```
+public final void writeULong(long data)
+```
+
+
+Writes an array of unsigned long values to the stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| data | long | The array to write. |
+
+### writeULongArray(long[] data) {#writeULongArray-long---}
+```
+public final void writeULongArray(long[] data)
+```
+
+
+Writes an array of unsigned long values to the stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| data | long[] | The array to write. |
 

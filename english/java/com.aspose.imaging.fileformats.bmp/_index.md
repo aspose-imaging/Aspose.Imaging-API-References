@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.bmp
 second_title: Aspose.Imaging for Java API Reference
 description: The package handles Bmp file format processing.
 type: docs
-weight: 25
+weight: 26
 url: /java/com.aspose.imaging.fileformats.bmp/
 ---
 

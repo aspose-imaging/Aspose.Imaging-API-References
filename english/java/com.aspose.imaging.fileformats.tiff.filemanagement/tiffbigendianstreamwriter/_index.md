@@ -7,9 +7,9 @@ weight: 11
 url: /java/com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamwriter/
 ---
 **Inheritance:**
-java.lang.Object, [com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter)
+java.lang.Object, com.aspose.fileformats.fileformats.tiff.filemanagement.TiffStreamSeeker, [com.aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter)
 ```
-public final class TiffBigEndianStreamWriter extends TiffStreamWriter
+public class TiffBigEndianStreamWriter extends TiffStreamWriter
 ```
 
 Tiff stream writer for big-endian streams.
@@ -17,14 +17,14 @@ Tiff stream writer for big-endian streams.
 
 | Constructor | Description |
 | --- | --- |
-| [TiffBigEndianStreamWriter(StreamContainer writer)](#TiffBigEndianStreamWriter-com.aspose.imaging.StreamContainer-) | Initializes a new instance of the `TiffBigEndianStreamWriter` class. |
+| [TiffBigEndianStreamWriter(StreamContainer writer)](#TiffBigEndianStreamWriter-com.aspose.imaging.StreamContainer-) | Initializes a new instance of the [TiffBigEndianStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamwriter) class. |
 ### TiffBigEndianStreamWriter(StreamContainer writer) {#TiffBigEndianStreamWriter-com.aspose.imaging.StreamContainer-}
 ```
 public TiffBigEndianStreamWriter(StreamContainer writer)
 ```
 
 
-Initializes a new instance of the `TiffBigEndianStreamWriter` class.
+Initializes a new instance of the [TiffBigEndianStreamWriter](../../com.aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamwriter) class.
 
 **Parameters:**
 | Parameter | Type | Description |

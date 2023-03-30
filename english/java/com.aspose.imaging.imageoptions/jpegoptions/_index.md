@@ -3,7 +3,7 @@ title: JpegOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The jpeg file format create options.
 type: docs
-weight: 25
+weight: 26
 url: /java/com.aspose.imaging.imageoptions/jpegoptions/
 ---
 **Inheritance:**

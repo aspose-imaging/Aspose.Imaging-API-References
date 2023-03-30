@@ -3,7 +3,7 @@ title: MultiPageOptions
 second_title: Aspose.Imaging for Java API Reference
 description: Base class for multiple pages supported formats
 type: docs
-weight: 29
+weight: 30
 url: /java/com.aspose.imaging.imageoptions/multipageoptions/
 ---
 **Inheritance:**

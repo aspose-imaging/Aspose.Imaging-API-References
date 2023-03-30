@@ -3,7 +3,7 @@ title: EmfOptions
 second_title: Aspose.Imaging for Java API Reference
 description: The Emf options.
 type: docs
-weight: 18
+weight: 19
 url: /java/com.aspose.imaging.imageoptions/emfoptions/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: TiffSShortType
 second_title: Aspose.Imaging for Java API Reference
 description: The tiff signed short type.
 type: docs
-weight: 21
+weight: 24
 url: /java/com.aspose.imaging.fileformats.tiff.tifftagtypes/tiffsshorttype/
 ---
 **Inheritance:**
@@ -84,7 +84,7 @@ Value: The values container.
 com.aspose.ms.System.Array
 ### getElementSize() {#getElementSize--}
 ```
-public long getElementSize()
+public byte getElementSize()
 ```
 
 
@@ -93,7 +93,7 @@ Gets the element size in bytes.
 Value: The element size in bytes.
 
 **Returns:**
-long
+byte
 ### getTagType() {#getTagType--}
 ```
 public int getTagType()

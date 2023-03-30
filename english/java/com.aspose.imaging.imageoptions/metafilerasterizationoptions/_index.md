@@ -1,9 +1,9 @@
 ---
 title: MetafileRasterizationOptions
 second_title: Aspose.Imaging for Java API Reference
-description: The metafile rasterization options This class will be removed in next versions.
+description: The metafile rasterization options
 type: docs
-weight: 27
+weight: 28
 url: /java/com.aspose.imaging.imageoptions/metafilerasterizationoptions/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.DisposableObject](../../com.aspose.imaging
 public abstract class MetafileRasterizationOptions extends VectorRasterizationOptions
 ```
 
-The metafile rasterization options This class will be removed in next versions. Please use concrete realization, for example OdRasterizationOptions, SvgRasterizationOptions, CdrRasterizationOptions, CmxRasterizationOptions
+The metafile rasterization options
 ## Constructors
 
 | Constructor | Description |

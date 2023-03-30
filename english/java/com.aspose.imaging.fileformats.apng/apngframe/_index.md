@@ -187,7 +187,7 @@ public boolean hasBackgroundColor()
 Gets a value indicating whether has background color.
 
 **Returns:**
-boolean - a value indicating whether has background color.
+boolean - a value indicating whether it has background color.
 ### setBackgroundColor(boolean value) {#setBackgroundColor-boolean-}
 ```
 public void setBackgroundColor(boolean value)
@@ -199,7 +199,7 @@ A value indicating whether has background color.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | a value indicating whether has background color. |
+| value | boolean | a value indicating whether it has background color. |
 
 ### getBackgroundColor() {#getBackgroundColor--}
 ```
