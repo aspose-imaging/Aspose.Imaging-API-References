@@ -3,7 +3,7 @@ title: EmfPlusBoundaryPointData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5250
+weight: 5260
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundarypointdata/
 ---
 ## EmfPlusBoundaryPointData class

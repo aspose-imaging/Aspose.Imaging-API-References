@@ -3,7 +3,7 @@ title: CmxContainer
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1930
+weight: 1940
 url: /net/aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer/
 ---
 ## CmxContainer class

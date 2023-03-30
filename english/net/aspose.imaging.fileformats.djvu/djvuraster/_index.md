@@ -3,7 +3,7 @@ title: DjvuRaster
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2460
+weight: 2470
 url: /net/aspose.imaging.fileformats.djvu/djvuraster/
 ---
 ## DjvuRaster class

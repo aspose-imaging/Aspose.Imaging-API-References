@@ -3,7 +3,7 @@ title: EmfPlusComment
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5880
+weight: 5890
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfpluscomment/
 ---
 ## EmfPlusComment class

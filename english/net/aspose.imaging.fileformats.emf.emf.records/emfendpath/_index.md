@@ -3,7 +3,7 @@ title: EmfEndPath
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3580
+weight: 3590
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfendpath/
 ---
 ## EmfEndPath class

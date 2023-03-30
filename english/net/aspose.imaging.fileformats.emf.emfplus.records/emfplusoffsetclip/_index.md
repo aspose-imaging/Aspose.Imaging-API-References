@@ -3,7 +3,7 @@ title: EmfPlusOffsetClip
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6180
+weight: 6190
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusoffsetclip/
 ---
 ## EmfPlusOffsetClip class

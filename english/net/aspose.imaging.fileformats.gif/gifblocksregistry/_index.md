@@ -3,7 +3,7 @@ title: GifBlocksRegistry
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6690
+weight: 6700
 url: /net/aspose.imaging.fileformats.gif/gifblocksregistry/
 ---
 ## GifBlocksRegistry class

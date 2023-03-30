@@ -3,7 +3,7 @@ title: EpsImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6560
+weight: 6570
 url: /net/aspose.imaging.fileformats.eps/epsimage/
 ---
 ## EpsImage class

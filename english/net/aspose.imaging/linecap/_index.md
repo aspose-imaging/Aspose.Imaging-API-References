@@ -3,7 +3,7 @@ title: LineCap
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10410
+weight: 10490
 url: /net/aspose.imaging/linecap/
 ---
 ## LineCap enumeration

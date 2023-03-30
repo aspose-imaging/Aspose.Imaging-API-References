@@ -3,7 +3,7 @@ title: ResizeCanvas
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.imaging.fileformats.emf/metaimage/resizecanvas/
 ---
 ## MetaImage.ResizeCanvas method

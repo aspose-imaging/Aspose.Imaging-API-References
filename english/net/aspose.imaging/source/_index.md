@@ -3,7 +3,7 @@ title: Source
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11100
+weight: 11180
 url: /net/aspose.imaging/source/
 ---
 ## Source class

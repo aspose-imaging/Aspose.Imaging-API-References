@@ -3,7 +3,7 @@ title: EmfPlusPaletteStyleFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4950
+weight: 4960
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspalettestyleflags/
 ---
 ## EmfPlusPaletteStyleFlags enumeration

@@ -3,7 +3,7 @@ title: MetafileOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10070
+weight: 10160
 url: /net/aspose.imaging.imageoptions/metafileoptions/
 ---
 ## MetafileOptions class

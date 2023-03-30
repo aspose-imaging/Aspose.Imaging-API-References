@@ -3,7 +3,7 @@ title: ReadSByte
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 130
 url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsbyte/
 ---
 ## TiffStreamReader.ReadSByte method

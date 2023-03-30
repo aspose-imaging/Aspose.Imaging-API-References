@@ -3,7 +3,7 @@ title: StretchMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8100
+weight: 8180
 url: /net/aspose.imaging.fileformats.wmf.consts/stretchmode/
 ---
 ## StretchMode enumeration

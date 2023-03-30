@@ -3,7 +3,7 @@ title: CdrGradient
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1850
+weight: 1860
 url: /net/aspose.imaging.fileformats.cdr.types/cdrgradient/
 ---
 ## CdrGradient class

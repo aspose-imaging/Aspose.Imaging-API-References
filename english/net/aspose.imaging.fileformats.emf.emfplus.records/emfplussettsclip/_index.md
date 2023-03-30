@@ -3,7 +3,7 @@ title: EmfPlusSetTsClip
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6400
+weight: 6410
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsclip/
 ---
 ## EmfPlusSetTsClip class

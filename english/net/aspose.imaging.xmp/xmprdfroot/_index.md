@@ -3,7 +3,7 @@ title: XmpRdfRoot
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11840
+weight: 11920
 url: /net/aspose.imaging.xmp/xmprdfroot/
 ---
 ## XmpRdfRoot class

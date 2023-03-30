@@ -3,7 +3,7 @@ title: Aspose.Imaging.ImageOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains classes suitable for export save or creation of different file formats.
 type: docs
-weight: 770
+weight: 790
 url: /net/aspose.imaging.imageoptions/
 ---
 The namespace contains classes suitable for export, save or creation of different file formats.
@@ -13,6 +13,7 @@ The namespace contains classes suitable for export, save or creation of differen
 | Class | Description |
 | --- | --- |
 | [ApngOptions](./apngoptions) | The animated PNG file format options |
+| [BigTiffOptions](./bigtiffoptions) | The BigTiff image options. |
 | [BmpOptions](./bmpoptions) | The bmp file format creation options. |
 | [CdrRasterizationOptions](./cdrrasterizationoptions) | The Cdr rasterization options |
 | [CmxRasterizationOptions](./cmxrasterizationoptions) | the CMX exporter options. |
@@ -42,7 +43,6 @@ The namespace contains classes suitable for export, save or creation of differen
 | [SvgRasterizationOptions](./svgrasterizationoptions) | The SVG rasterization options. |
 | [TgaOptions](./tgaoptions) | The TGA file format create options. |
 | [TiffOptions](./tiffoptions) | The tiff file format options. Note that width and height tags will get overwritten on image creation by width and height parameters so there is no need to specify them directly. Note that many options return a default value but that does not mean that this option is set explicitly as a tag value. To verify the tag is present use Tags property or the corresponding IsTagPresent method. |
-| [TiffOptionsUtils](./tiffoptionsutils) | The tiff file format options utility class. |
 | [TimeInterval](./timeinterval) | Represents the time interval in milliseconds |
 | [VectorRasterizationOptions](./vectorrasterizationoptions) | The vector rasterization options. |
 | [WebPOptions](./webpoptions) | Webp image options |

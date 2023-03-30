@@ -3,7 +3,7 @@ title: EmfUniversalFontId
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3180
+weight: 3190
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfuniversalfontid/
 ---
 ## EmfUniversalFontId class

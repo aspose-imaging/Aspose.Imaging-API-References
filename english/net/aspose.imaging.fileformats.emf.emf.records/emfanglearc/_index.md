@@ -3,7 +3,7 @@ title: EmfAngleArc
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3210
+weight: 3220
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfanglearc/
 ---
 ## EmfAngleArc class

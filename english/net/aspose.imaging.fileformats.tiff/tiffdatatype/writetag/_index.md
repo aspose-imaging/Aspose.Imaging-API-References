@@ -3,7 +3,7 @@ title: WriteTag
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 140
+weight: 160
 url: /net/aspose.imaging.fileformats.tiff/tiffdatatype/writetag/
 ---
 ## TiffDataType.WriteTag method

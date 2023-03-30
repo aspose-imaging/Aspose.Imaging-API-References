@@ -25,6 +25,7 @@ is_root: true
 | [Aspose.Imaging.Exif.Enums](./aspose.imaging.exif.enums) | The namespace contains EXIF enumerations. |
 | [Aspose.Imaging.Extensions](./aspose.imaging.extensions) | The namespace contains extension methods. |
 | [Aspose.Imaging.FileFormats.Apng](./aspose.imaging.fileformats.apng) | The namespace handles Apng file format processing. |
+| [Aspose.Imaging.FileFormats.BigTiff](./aspose.imaging.fileformats.bigtiff) | The namespace handling BigTiff file format processing. |
 | [Aspose.Imaging.FileFormats.Bmp](./aspose.imaging.fileformats.bmp) | The namespace handles Bmp file format processing. |
 | [Aspose.Imaging.FileFormats.Bmp.Structures](./aspose.imaging.fileformats.bmp.structures) | The logical structures, used to support bitmap header. |
 | [Aspose.Imaging.FileFormats.Cdr](./aspose.imaging.fileformats.cdr) | The namespace handles Cdr file format processing. |
@@ -75,6 +76,7 @@ is_root: true
 | [Aspose.Imaging.FileFormats.Tiff](./aspose.imaging.fileformats.tiff) | The namespace handles Tiff file format processing. |
 | [Aspose.Imaging.FileFormats.Tiff.Enums](./aspose.imaging.fileformats.tiff.enums) | The namespace contains Tiff file format enumerations. |
 | [Aspose.Imaging.FileFormats.Tiff.FileManagement](./aspose.imaging.fileformats.tiff.filemanagement) | The namespace contains Tiff file format stream handling classes. |
+| [Aspose.Imaging.FileFormats.Tiff.FileManagement.BigTiff](./aspose.imaging.fileformats.tiff.filemanagement.bigtiff) | The namespace handling BigTiff file format processing. |
 | [Aspose.Imaging.FileFormats.Tiff.InstanceFactory](./aspose.imaging.fileformats.tiff.instancefactory) | The namespace contains Tiff file format tag factory helper classes and interfaces. |
 | [Aspose.Imaging.FileFormats.Tiff.PathResources](./aspose.imaging.fileformats.tiff.pathresources) | The namespace handles Tiff file format processing. |
 | [Aspose.Imaging.FileFormats.Tiff.TiffTagTypes](./aspose.imaging.fileformats.tiff.tifftagtypes) | The namespace contains Tiff file format tag classes. |

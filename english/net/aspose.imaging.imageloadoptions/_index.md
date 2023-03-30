@@ -3,7 +3,7 @@ title: Aspose.Imaging.ImageLoadOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains different file format load options.
 type: docs
-weight: 760
+weight: 780
 url: /net/aspose.imaging.imageloadoptions/
 ---
 The namespace contains different file format load options.

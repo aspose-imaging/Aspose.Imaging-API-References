@@ -3,7 +3,7 @@ title: ReadSShortArray
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 200
 url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsshortarray/
 ---
 ## TiffStreamReader.ReadSShortArray method

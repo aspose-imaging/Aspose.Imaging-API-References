@@ -3,7 +3,7 @@ title: EmfGradientFill
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3760
+weight: 3770
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfgradientfill/
 ---
 ## EmfGradientFill class

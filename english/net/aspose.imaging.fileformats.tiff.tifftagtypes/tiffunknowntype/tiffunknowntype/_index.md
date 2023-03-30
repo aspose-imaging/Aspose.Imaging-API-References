@@ -11,8 +11,8 @@ url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/tiffunkno
 Initializes a new instance of the [`TiffUnknownType`](../../tiffunknowntype) class.
 
 ```csharp
-public TiffUnknownType(TiffStreamReader stream, ushort tagType, ushort tagId, uint count, 
-    uint offsetOrValue)
+public TiffUnknownType(TiffStreamReader stream, ushort tagType, ushort tagId, ulong count, 
+    ulong offsetOrValue)
 ```
 
 | Parameter | Type | Description |
@@ -20,8 +20,8 @@ public TiffUnknownType(TiffStreamReader stream, ushort tagType, ushort tagId, ui
 | stream | TiffStreamReader | The stream to read from. |
 | tagType | UInt16 | Type of the tag. |
 | tagId | UInt16 | The tag id. |
-| count | UInt32 | The count value. |
-| offsetOrValue | UInt32 | The offset or value. |
+| count | UInt64 | The count value. |
+| offsetOrValue | UInt64 | The offset or value. |
 
 ### See Also
 

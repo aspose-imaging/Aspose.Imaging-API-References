@@ -3,7 +3,7 @@ title: TiffDataTypes
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7640
+weight: 7650
 url: /net/aspose.imaging.fileformats.tiff.enums/tiffdatatypes/
 ---
 ## TiffDataTypes enumeration
@@ -31,6 +31,9 @@ public enum TiffDataTypes : ushort
 | Float | `11` | 32-bit IEEE floating point. |
 | Double | `12` | 64-bit IEEE floating point. |
 | Ifd | `13` | Pointer to Exif image file directory (IFD). |
+| Long8 | `16` | Unsigned 64-bit integer. |
+| SLong8 | `17` | Signed 64-bit integer. |
+| IFD8 | `18` | Unsigned 64-bit IFD offset. |
 
 ### See Also
 

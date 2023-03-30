@@ -3,7 +3,7 @@ title: EmfPlusBeginContainer
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5840
+weight: 5850
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer/
 ---
 ## EmfPlusBeginContainer class

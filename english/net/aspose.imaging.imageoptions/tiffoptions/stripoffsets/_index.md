@@ -11,7 +11,7 @@ url: /net/aspose.imaging.imageoptions/tiffoptions/stripoffsets/
 Gets or sets the strip offsets.
 
 ```csharp
-public uint[] StripOffsets { get; set; }
+public ulong[] StripOffsets { get; set; }
 ```
 
 ### Property Value

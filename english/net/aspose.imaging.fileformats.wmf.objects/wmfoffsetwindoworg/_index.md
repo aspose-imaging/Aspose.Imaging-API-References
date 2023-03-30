@@ -3,7 +3,7 @@ title: WmfOffsetWindowOrg
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8820
+weight: 8900
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfoffsetwindoworg/
 ---
 ## WmfOffsetWindowOrg class

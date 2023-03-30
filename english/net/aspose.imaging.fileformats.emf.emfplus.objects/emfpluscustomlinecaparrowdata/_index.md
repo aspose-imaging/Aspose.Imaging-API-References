@@ -3,7 +3,7 @@ title: EmfPlusCustomLineCapArrowData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5380
+weight: 5390
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecaparrowdata/
 ---
 ## EmfPlusCustomLineCapArrowData class

@@ -3,7 +3,7 @@ title: SampleRoundingMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6810
+weight: 6820
 url: /net/aspose.imaging.fileformats.jpeg/sampleroundingmode/
 ---
 ## SampleRoundingMode enumeration

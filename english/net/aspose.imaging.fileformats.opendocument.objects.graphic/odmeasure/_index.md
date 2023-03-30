@@ -3,7 +3,7 @@ title: OdMeasure
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7170
+weight: 7180
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odmeasure/
 ---
 ## OdMeasure class

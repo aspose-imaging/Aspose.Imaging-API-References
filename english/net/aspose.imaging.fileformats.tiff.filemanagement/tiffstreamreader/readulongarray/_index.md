@@ -3,15 +3,15 @@ title: ReadULongArray
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 240
 url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readulongarray/
 ---
 ## TiffStreamReader.ReadULongArray method
 
-Reads an array of unsigned integer values from the stream.
+Reads an array of ulong values from the stream.
 
 ```csharp
-public uint[] ReadULongArray(long position, long count)
+public ulong[] ReadULongArray(long position, long count)
 ```
 
 | Parameter | Type | Description |
@@ -21,13 +21,13 @@ public uint[] ReadULongArray(long position, long count)
 
 ### Return Value
 
-The array of unsigned integer values.
+The ulong array.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | count;Total bytes count is negative. + count + x4= + totalBytes |
+| ArgumentOutOfRangeException |  |
 
 ### See Also
 

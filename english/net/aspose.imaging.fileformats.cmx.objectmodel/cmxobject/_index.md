@@ -3,7 +3,7 @@ title: CmxObject
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1970
+weight: 1980
 url: /net/aspose.imaging.fileformats.cmx.objectmodel/cmxobject/
 ---
 ## CmxObject class

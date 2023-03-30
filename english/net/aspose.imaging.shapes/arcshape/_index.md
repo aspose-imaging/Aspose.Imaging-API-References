@@ -3,7 +3,7 @@ title: ArcShape
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10980
+weight: 11060
 url: /net/aspose.imaging.shapes/arcshape/
 ---
 ## ArcShape class
@@ -46,8 +46,10 @@ public sealed class ArcShape : PieShape, IOrderedShape
 
 | Name | Description |
 | --- | --- |
+| override [Equals](../../aspose.imaging.shapes/rectangleprojectedshape/equals)(object) | Determines whether the specified Object is equal to this instance. |
 | override [GetBounds](../../aspose.imaging.shapes/arcshape/getbounds)(Matrix) | Gets the object's bounds. |
 | override [GetBounds](../../aspose.imaging.shapes/arcshape/getbounds)(Matrix, Pen) | Gets the object's bounds. |
+| override [GetHashCode](../../aspose.imaging.shapes/rectangleprojectedshape/gethashcode)() | Returns a hash code for this instance. |
 | [Reverse](../../aspose.imaging.shapes/arcshape/reverse)() | Reverses the order of points for this shape. |
 | override [Transform](../../aspose.imaging.shapes/rectangleprojectedshape/transform)(Matrix) | Applies the specified transformation to the shape. |
 

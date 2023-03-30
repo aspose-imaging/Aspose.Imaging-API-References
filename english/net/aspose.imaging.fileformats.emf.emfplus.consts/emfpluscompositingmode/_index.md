@@ -3,7 +3,7 @@ title: EmfPlusCompositingMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4720
+weight: 4730
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscompositingmode/
 ---
 ## EmfPlusCompositingMode enumeration

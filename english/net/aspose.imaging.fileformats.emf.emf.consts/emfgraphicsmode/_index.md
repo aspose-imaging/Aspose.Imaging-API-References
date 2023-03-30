@@ -3,7 +3,7 @@ title: EmfGraphicsMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2680
+weight: 2690
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfgraphicsmode/
 ---
 ## EmfGraphicsMode enumeration

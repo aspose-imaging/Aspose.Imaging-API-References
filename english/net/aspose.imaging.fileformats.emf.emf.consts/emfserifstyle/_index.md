@@ -3,7 +3,7 @@ title: EmfSerifStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2840
+weight: 2850
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfserifstyle/
 ---
 ## EmfSerifStyle enumeration

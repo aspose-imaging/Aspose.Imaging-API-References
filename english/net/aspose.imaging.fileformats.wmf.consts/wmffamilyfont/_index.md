@@ -3,7 +3,7 @@ title: WmfFamilyFont
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8170
+weight: 8250
 url: /net/aspose.imaging.fileformats.wmf.consts/wmffamilyfont/
 ---
 ## WmfFamilyFont enumeration

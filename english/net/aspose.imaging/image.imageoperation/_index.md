@@ -3,7 +3,7 @@ title: Image.ImageOperation
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9690
+weight: 9770
 url: /net/aspose.imaging/image.imageoperation/
 ---
 ## Image.ImageOperation enumeration

@@ -3,7 +3,7 @@ title: ToStreamContainer
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 270
 url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/tostreamcontainer/
 ---
 ## TiffStreamReader.ToStreamContainer method

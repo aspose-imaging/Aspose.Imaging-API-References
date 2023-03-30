@@ -11,7 +11,7 @@ url: /net/aspose.imaging.imageoptions/tiffoptions/tileoffsets/
 Gets or sets the tile offsets.
 
 ```csharp
-public uint[] TileOffsets { get; set; }
+public ulong[] TileOffsets { get; set; }
 ```
 
 ### See Also

@@ -3,7 +3,7 @@ title: EmfSetLinkedUfis
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4390
+weight: 4400
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetlinkedufis/
 ---
 ## EmfSetLinkedUfis class

@@ -3,7 +3,7 @@ title: EmfStockObject
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2860
+weight: 2870
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfstockobject/
 ---
 ## EmfStockObject enumeration

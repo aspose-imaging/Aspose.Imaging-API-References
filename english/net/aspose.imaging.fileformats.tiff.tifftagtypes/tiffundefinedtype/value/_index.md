@@ -3,7 +3,7 @@ title: Value
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffundefinedtype/value/
 ---
 ## TiffUndefinedType.Value property

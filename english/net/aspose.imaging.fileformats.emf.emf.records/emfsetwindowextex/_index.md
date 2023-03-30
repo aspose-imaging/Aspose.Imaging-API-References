@@ -3,7 +3,7 @@ title: EmfSetWindowExtEx
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4540
+weight: 4550
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetwindowextex/
 ---
 ## EmfSetWindowExtEx class

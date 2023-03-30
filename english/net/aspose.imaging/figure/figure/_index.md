@@ -8,7 +8,7 @@ url: /net/aspose.imaging/figure/figure/
 ---
 ## Figure constructor
 
-The default constructor.
+Initializes a new [`Figure`](../../figure) instance. A constructor required for a JSON deserialization.
 
 ```csharp
 public Figure()

@@ -3,7 +3,7 @@ title: EmfFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2960
+weight: 2970
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfformat/
 ---
 ## EmfFormat class

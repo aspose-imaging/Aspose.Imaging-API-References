@@ -3,7 +3,7 @@ title: EmfSetMapperFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4410
+weight: 4420
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetmapperflags/
 ---
 ## EmfSetMapperFlags class

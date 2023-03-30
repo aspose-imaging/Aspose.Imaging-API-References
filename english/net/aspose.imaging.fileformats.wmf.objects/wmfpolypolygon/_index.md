@@ -3,7 +3,7 @@ title: WmfPolyPolygon
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8890
+weight: 8970
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfpolypolygon/
 ---
 ## WmfPolyPolygon class

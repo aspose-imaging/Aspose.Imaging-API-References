@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffdatatype/id/
 ---
 ## TiffDataType.Id property
 
-Gets tag id integer representation.
+Gets tag id as number.
 
 ```csharp
 public ushort Id { get; }

@@ -3,7 +3,7 @@ title: CmxGroup
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1950
+weight: 1960
 url: /net/aspose.imaging.fileformats.cmx.objectmodel/cmxgroup/
 ---
 ## CmxGroup class

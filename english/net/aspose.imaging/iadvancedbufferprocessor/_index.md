@@ -3,7 +3,7 @@ title: IAdvancedBufferProcessor
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9420
+weight: 9500
 url: /net/aspose.imaging/iadvancedbufferprocessor/
 ---
 ## IAdvancedBufferProcessor interface

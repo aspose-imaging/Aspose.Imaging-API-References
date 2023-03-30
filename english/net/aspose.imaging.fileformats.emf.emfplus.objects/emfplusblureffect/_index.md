@@ -3,7 +3,7 @@ title: EmfPlusBlurEffect
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5220
+weight: 5230
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusblureffect/
 ---
 ## EmfPlusBlurEffect class

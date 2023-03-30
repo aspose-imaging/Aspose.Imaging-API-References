@@ -3,7 +3,7 @@ title: EmfPlusCompoundLineData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5330
+weight: 5340
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompoundlinedata/
 ---
 ## EmfPlusCompoundLineData class

@@ -3,7 +3,7 @@ title: Point
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10770
+weight: 10850
 url: /net/aspose.imaging/point/
 ---
 ## Point structure

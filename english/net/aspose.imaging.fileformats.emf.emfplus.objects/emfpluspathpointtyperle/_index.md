@@ -3,7 +3,7 @@ title: EmfPlusPathPointTypeRle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5650
+weight: 5660
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtyperle/
 ---
 ## EmfPlusPathPointTypeRle class

@@ -3,7 +3,7 @@ title: WmfLineTo
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8750
+weight: 8830
 url: /net/aspose.imaging.fileformats.wmf.objects/wmflineto/
 ---
 ## WmfLineTo class

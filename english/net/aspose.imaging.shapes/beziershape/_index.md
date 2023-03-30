@@ -3,7 +3,7 @@ title: BezierShape
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10990
+weight: 11070
 url: /net/aspose.imaging.shapes/beziershape/
 ---
 ## BezierShape class
@@ -39,8 +39,10 @@ public sealed class BezierShape : PolygonShape
 
 | Name | Description |
 | --- | --- |
+| override [Equals](../../aspose.imaging.shapes/polygonshape/equals)(object) | Determines whether the specified object is equal to the current object. |
 | override [GetBounds](../../aspose.imaging.shapes/beziershape/getbounds)(Matrix) | Gets the object's bounds. |
 | override [GetBounds](../../aspose.imaging.shapes/beziershape/getbounds)(Matrix, Pen) | Gets the object's bounds. |
+| override [GetHashCode](../../aspose.imaging.shapes/polygonshape/gethashcode)() | Serves as the default hash function. |
 | [Reverse](../../aspose.imaging.shapes/polygonshape/reverse)() | Reverses the order of points for this shape. |
 | override [Transform](../../aspose.imaging.shapes/polygonshape/transform)(Matrix) | Applies the specified transformation to the shape. |
 

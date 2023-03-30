@@ -3,7 +3,7 @@ title: RemoveTag
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 760
+weight: 770
 url: /net/aspose.imaging.imageoptions/tiffoptions/removetag/
 ---
 ## TiffOptions.RemoveTag method

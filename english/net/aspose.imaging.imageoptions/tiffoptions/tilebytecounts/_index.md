@@ -11,7 +11,7 @@ url: /net/aspose.imaging.imageoptions/tiffoptions/tilebytecounts/
 Gets or sets the tile byte counts.
 
 ```csharp
-public uint[] TileByteCounts { get; set; }
+public ulong[] TileByteCounts { get; set; }
 ```
 
 ### See Also

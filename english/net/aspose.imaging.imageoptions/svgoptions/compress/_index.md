@@ -14,6 +14,10 @@ Gets or sets a value indicating whether the output image must to be compressed.
 public bool Compress { get; set; }
 ```
 
+### Property Value
+
+`true` if compressed; otherwise, `false`.
+
 ### Examples
 
 The following example shows how to convert a svg images to svgz fromat

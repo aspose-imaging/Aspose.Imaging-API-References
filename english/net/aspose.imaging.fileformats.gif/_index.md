@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Gif
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles Gif file format processing.
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.imaging.fileformats.gif/
 ---
 The namespace handles Gif file format processing.

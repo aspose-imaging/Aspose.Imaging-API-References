@@ -3,7 +3,7 @@ title: LineTypes
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2060
+weight: 2070
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.enums/linetypes/
 ---
 ## LineTypes enumeration

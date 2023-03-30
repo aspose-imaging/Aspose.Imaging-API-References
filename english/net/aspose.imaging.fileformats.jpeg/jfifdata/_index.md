@@ -3,7 +3,7 @@ title: JFIFData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6740
+weight: 6750
 url: /net/aspose.imaging.fileformats.jpeg/jfifdata/
 ---
 ## JFIFData class

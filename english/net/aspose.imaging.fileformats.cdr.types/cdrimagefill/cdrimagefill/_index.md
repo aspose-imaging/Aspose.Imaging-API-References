@@ -12,7 +12,7 @@ Initializes a new instance of the [`CdrImageFill`](../../cdrimagefill) class.
 
 ```csharp
 public CdrImageFill(int id, double width, double height, bool isRelative, double xOffset, 
-    double yOffset, double rpcOffset, byte flags)
+    double yOffset, double rcpOffset, byte flags)
 ```
 
 | Parameter | Type | Description |
@@ -23,7 +23,7 @@ public CdrImageFill(int id, double width, double height, bool isRelative, double
 | isRelative | Boolean | if set to `true` [is relative]. |
 | xOffset | Double | The x offset. |
 | yOffset | Double | The y offset. |
-| rpcOffset | Double | The RPC offset. |
+| rcpOffset | Double | The RPC offset. |
 | flags | Byte | The flags. |
 
 ### See Also

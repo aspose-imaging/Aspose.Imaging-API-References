@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffcommonarraytype/count
 Gets the count of elements.
 
 ```csharp
-public uint Count { get; }
+public ulong Count { get; }
 ```
 
 ### Property Value

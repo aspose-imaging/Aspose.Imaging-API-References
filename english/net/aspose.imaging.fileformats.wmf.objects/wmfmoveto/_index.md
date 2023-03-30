@@ -3,7 +3,7 @@ title: WmfMoveTo
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8780
+weight: 8860
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfmoveto/
 ---
 ## WmfMoveTo class

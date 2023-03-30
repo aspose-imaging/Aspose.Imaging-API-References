@@ -3,7 +3,7 @@ title: WmfStretchBlt
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9250
+weight: 9330
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfstretchblt/
 ---
 ## WmfStretchBlt class

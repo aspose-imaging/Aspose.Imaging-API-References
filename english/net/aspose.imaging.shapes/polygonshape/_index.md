@@ -3,7 +3,7 @@ title: PolygonShape
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11030
+weight: 11110
 url: /net/aspose.imaging.shapes/polygonshape/
 ---
 ## PolygonShape class
@@ -39,8 +39,10 @@ public class PolygonShape : Shape, IOrderedShape
 
 | Name | Description |
 | --- | --- |
+| override [Equals](../../aspose.imaging.shapes/polygonshape/equals)(object) | Determines whether the specified object is equal to the current object. |
 | override [GetBounds](../../aspose.imaging.shapes/polygonshape/getbounds)(Matrix) | Gets the object's bounds. |
 | override [GetBounds](../../aspose.imaging.shapes/polygonshape/getbounds)(Matrix, Pen) | Gets the object's bounds. |
+| override [GetHashCode](../../aspose.imaging.shapes/polygonshape/gethashcode)() | Serves as the default hash function. |
 | [Reverse](../../aspose.imaging.shapes/polygonshape/reverse)() | Reverses the order of points for this shape. |
 | override [Transform](../../aspose.imaging.shapes/polygonshape/transform)(Matrix) | Applies the specified transformation to the shape. |
 

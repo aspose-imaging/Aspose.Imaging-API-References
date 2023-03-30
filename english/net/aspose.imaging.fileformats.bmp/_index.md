@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Bmp
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles Bmp file format processing.
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.imaging.fileformats.bmp/
 ---
 The namespace handles Bmp file format processing.

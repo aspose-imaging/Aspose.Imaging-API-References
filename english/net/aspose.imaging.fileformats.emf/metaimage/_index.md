@@ -3,7 +3,7 @@ title: MetaImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6510
+weight: 6520
 url: /net/aspose.imaging.fileformats.emf/metaimage/
 ---
 ## MetaImage class
@@ -13,6 +13,12 @@ Base class for Meta object classes
 ```csharp
 public abstract class MetaImage : VectorImage
 ```
+
+## Constructors
+
+| Name | Description |
+| --- | --- |
+| [MetaImage](metaimage)() | Initializes a new instance of the [`MetaImage`](../metaimage). |
 
 ## Properties
 

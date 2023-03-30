@@ -3,7 +3,7 @@ title: OdGradientBrush
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6920
+weight: 6930
 url: /net/aspose.imaging.fileformats.opendocument.objects.brush/odgradientbrush/
 ---
 ## OdGradientBrush class

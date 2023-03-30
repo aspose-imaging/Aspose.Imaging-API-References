@@ -3,7 +3,7 @@ title: TiffTagFactory
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7830
+weight: 7880
 url: /net/aspose.imaging.fileformats.tiff.instancefactory/tifftagfactory/
 ---
 ## TiffTagFactory class

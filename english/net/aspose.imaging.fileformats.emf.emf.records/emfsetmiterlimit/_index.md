@@ -3,7 +3,7 @@ title: EmfSetMiterLimit
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4430
+weight: 4440
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetmiterlimit/
 ---
 ## EmfSetMiterLimit class

@@ -3,7 +3,7 @@ title: WmfSetWindowExt
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9230
+weight: 9310
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsetwindowext/
 ---
 ## WmfSetWindowExt class

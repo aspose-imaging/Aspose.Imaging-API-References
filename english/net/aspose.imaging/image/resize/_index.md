@@ -11,87 +11,6 @@ url: /net/aspose.imaging/image/resize/
 Resizes the image.
 
 ```csharp
-public abstract void Resize(int newWidth, int newHeight, ImageResizeSettings settings)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newWidth | Int32 | The new width. |
-| newHeight | Int32 | The new height. |
-| settings | ImageResizeSettings | The resize settings. |
-
-### Examples
-
-Resize image using specific Resize Type.
-
-```csharp
-[C#]
-
-using (var image = Image.Load("Photo.jpg"))
-{
-    image.Resize(640, 480, ResizeType.CatmullRom);
-    image.Save("ResizedPhoto.jpg");
-
-    image.Resize(1024, 768, ResizeType.CubicConvolution);
-    image.Save("ResizedPhoto2.jpg");
-
-    var resizeSettings = new ImageResizeSettings
-    {
-        Mode = ResizeType.CubicBSpline,
-        FilterType = ImageFilterType.SmallRectangular
-    };
-
-    image.Resize(800, 800, resizeSettings);
-    image.Save("ResizedPhoto3.jpg");
-}
-```
-
-This example loads an image and resizes it using various resizing settings.
-
-```csharp
-[C#]
-
-string dir = "c:\\temp\\";
-
-Aspose.Imaging.ImageResizeSettings resizeSettings = new Aspose.Imaging.ImageResizeSettings();
-
-// The adaptive algorithm based on weighted and blended rational function and lanczos3 interpolation.
-resizeSettings.Mode = Aspose.Imaging.ResizeType.AdaptiveResample;
-
-// The small rectangular filter
-resizeSettings.FilterType = Aspose.Imaging.ImageFilterType.SmallRectangular;
-
-// The number of colors in the palette.
-resizeSettings.EntriesCount = 256;
-
-// The color quantization is not used
-resizeSettings.ColorQuantizationMethod = ColorQuantizationMethod.None;
-
-// The euclidian method
-resizeSettings.ColorCompareMethod = ColorCompareMethod.Euclidian;
-
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
-{
-    // Scale down by 2 times using adaptive resampling.
-    image.Resize(image.Width / 2, image.Height / 2, resizeSettings);
-    image.Save(dir + "downsample.adaptive.gif");
-}
-```
-
-### See Also
-
-* class [ImageResizeSettings](../../imageresizesettings)
-* class [Image](../../image)
-* namespace [Aspose.Imaging](../../image)
-* assembly [Aspose.Imaging](../../../)
-
----
-
-## Image.Resize method (2 of 3)
-
-Resizes the image.
-
-```csharp
 public abstract void Resize(int newWidth, int newHeight, ResizeType resizeType)
 ```
 
@@ -218,6 +137,87 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 ### See Also
 
 * enum [ResizeType](../../resizetype)
+* class [Image](../../image)
+* namespace [Aspose.Imaging](../../image)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## Image.Resize method (2 of 3)
+
+Resizes the image.
+
+```csharp
+public abstract void Resize(int newWidth, int newHeight, ImageResizeSettings settings)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newWidth | Int32 | The new width. |
+| newHeight | Int32 | The new height. |
+| settings | ImageResizeSettings | The resize settings. |
+
+### Examples
+
+Resize image using specific Resize Type.
+
+```csharp
+[C#]
+
+using (var image = Image.Load("Photo.jpg"))
+{
+    image.Resize(640, 480, ResizeType.CatmullRom);
+    image.Save("ResizedPhoto.jpg");
+
+    image.Resize(1024, 768, ResizeType.CubicConvolution);
+    image.Save("ResizedPhoto2.jpg");
+
+    var resizeSettings = new ImageResizeSettings
+    {
+        Mode = ResizeType.CubicBSpline,
+        FilterType = ImageFilterType.SmallRectangular
+    };
+
+    image.Resize(800, 800, resizeSettings);
+    image.Save("ResizedPhoto3.jpg");
+}
+```
+
+This example loads an image and resizes it using various resizing settings.
+
+```csharp
+[C#]
+
+string dir = "c:\\temp\\";
+
+Aspose.Imaging.ImageResizeSettings resizeSettings = new Aspose.Imaging.ImageResizeSettings();
+
+// The adaptive algorithm based on weighted and blended rational function and lanczos3 interpolation.
+resizeSettings.Mode = Aspose.Imaging.ResizeType.AdaptiveResample;
+
+// The small rectangular filter
+resizeSettings.FilterType = Aspose.Imaging.ImageFilterType.SmallRectangular;
+
+// The number of colors in the palette.
+resizeSettings.EntriesCount = 256;
+
+// The color quantization is not used
+resizeSettings.ColorQuantizationMethod = ColorQuantizationMethod.None;
+
+// The euclidian method
+resizeSettings.ColorCompareMethod = ColorCompareMethod.Euclidian;
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"))
+{
+    // Scale down by 2 times using adaptive resampling.
+    image.Resize(image.Width / 2, image.Height / 2, resizeSettings);
+    image.Save(dir + "downsample.adaptive.gif");
+}
+```
+
+### See Also
+
+* class [ImageResizeSettings](../../imageresizesettings)
 * class [Image](../../image)
 * namespace [Aspose.Imaging](../../image)
 * assembly [Aspose.Imaging](../../../)

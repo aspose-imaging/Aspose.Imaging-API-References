@@ -3,7 +3,7 @@ title: ReadUShort
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 250
 url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readushort/
 ---
 ## TiffStreamReader.ReadUShort method

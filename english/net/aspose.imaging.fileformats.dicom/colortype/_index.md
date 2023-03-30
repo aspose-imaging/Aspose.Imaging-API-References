@@ -3,7 +3,7 @@ title: ColorType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2380
+weight: 2390
 url: /net/aspose.imaging.fileformats.dicom/colortype/
 ---
 ## ColorType enumeration

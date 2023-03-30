@@ -3,7 +3,7 @@ title: EmfTriVertex
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3170
+weight: 3180
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emftrivertex/
 ---
 ## EmfTriVertex class

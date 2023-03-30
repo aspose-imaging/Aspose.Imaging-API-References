@@ -3,7 +3,7 @@ title: OdPolyLine
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7230
+weight: 7240
 url: /net/aspose.imaging.fileformats.opendocument.objects.graphic/odpolyline/
 ---
 ## OdPolyLine class

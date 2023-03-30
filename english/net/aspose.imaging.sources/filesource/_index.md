@@ -3,7 +3,7 @@ title: FileSource
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11130
+weight: 11210
 url: /net/aspose.imaging.sources/filesource/
 ---
 ## FileSource class

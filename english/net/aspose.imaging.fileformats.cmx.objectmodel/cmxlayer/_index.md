@@ -3,7 +3,7 @@ title: CmxLayer
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1960
+weight: 1970
 url: /net/aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/
 ---
 ## CmxLayer class

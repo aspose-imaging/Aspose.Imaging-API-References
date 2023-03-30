@@ -3,7 +3,7 @@ title: EmfControlRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3450
+weight: 3460
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcontrolrecordtype/
 ---
 ## EmfControlRecordType class

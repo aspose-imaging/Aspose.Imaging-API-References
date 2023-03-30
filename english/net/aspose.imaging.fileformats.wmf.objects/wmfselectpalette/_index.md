@@ -3,7 +3,7 @@ title: WmfSelectPalette
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9040
+weight: 9120
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfselectpalette/
 ---
 ## WmfSelectPalette class

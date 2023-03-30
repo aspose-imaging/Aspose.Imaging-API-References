@@ -3,7 +3,7 @@ title: CdrArtisticText
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1480
+weight: 1490
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrartistictext/
 ---
 ## CdrArtisticText class

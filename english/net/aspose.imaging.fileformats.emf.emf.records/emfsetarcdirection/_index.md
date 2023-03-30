@@ -3,7 +3,7 @@ title: EmfSetArcDirection
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4270
+weight: 4280
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetarcdirection/
 ---
 ## EmfSetArcDirection class

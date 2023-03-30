@@ -3,7 +3,7 @@ title: EmfArcDirection
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2540
+weight: 2550
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfarcdirection/
 ---
 ## EmfArcDirection enumeration

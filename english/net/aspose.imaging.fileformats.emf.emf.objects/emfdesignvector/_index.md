@@ -3,7 +3,7 @@ title: EmfDesignVector
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2940
+weight: 2950
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/
 ---
 ## EmfDesignVector class

@@ -3,7 +3,7 @@ title: Configuration
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10600
+weight: 10680
 url: /net/aspose.imaging.memorymanagement/configuration/
 ---
 ## Configuration class

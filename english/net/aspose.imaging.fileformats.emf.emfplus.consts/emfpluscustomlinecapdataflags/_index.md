@@ -3,7 +3,7 @@ title: EmfPlusCustomLineCapDataFlags
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4760
+weight: 4770
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscustomlinecapdataflags/
 ---
 ## EmfPlusCustomLineCapDataFlags enumeration

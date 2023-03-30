@@ -3,7 +3,7 @@ title: SvgResourceKeeperCallback
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7580
+weight: 7590
 url: /net/aspose.imaging.fileformats.svg/svgresourcekeepercallback/
 ---
 ## SvgResourceKeeperCallback class

@@ -3,7 +3,7 @@ title: EmfPlusFilterType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4800
+weight: 4810
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusfiltertype/
 ---
 ## EmfPlusFilterType enumeration

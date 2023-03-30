@@ -3,7 +3,7 @@ title: EmfModifyWorldTransformMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2770
+weight: 2780
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfmodifyworldtransformmode/
 ---
 ## EmfModifyWorldTransformMode enumeration

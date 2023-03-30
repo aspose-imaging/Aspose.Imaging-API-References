@@ -3,7 +3,7 @@ title: EmfChord
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3290
+weight: 3300
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfchord/
 ---
 ## EmfChord class

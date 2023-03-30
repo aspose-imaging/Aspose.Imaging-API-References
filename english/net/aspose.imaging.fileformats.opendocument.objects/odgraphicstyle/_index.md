@@ -3,7 +3,7 @@ title: OdGraphicStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7330
+weight: 7340
 url: /net/aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/
 ---
 ## OdGraphicStyle class

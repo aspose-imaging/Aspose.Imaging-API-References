@@ -18,7 +18,7 @@ public class Figure : ObjectWithBounds
 
 | Name | Description |
 | --- | --- |
-| [Figure](figure)() | The default constructor. |
+| [Figure](figure)() | Initializes a new [`Figure`](../figure) instance. A constructor required for a JSON deserialization. |
 
 ## Properties
 
@@ -27,7 +27,7 @@ public class Figure : ObjectWithBounds
 | override [Bounds](../../aspose.imaging/figure/bounds) { get; } | Gets or sets the object's bounds. |
 | [IsClosed](../../aspose.imaging/figure/isclosed) { get; set; } | Gets or sets a value indicating whether this figure is closed. A closed figure will make a difference only in case where the first and the last figure's shapes are continuous shapes. In such case the first point of the first shape will be connected by a straight line from the last point of the last shape. |
 | [Segments](../../aspose.imaging/figure/segments) { get; } | Gets the whole figure segments. |
-| [Shapes](../../aspose.imaging/figure/shapes) { get; } | Gets the figure shapes. |
+| [Shapes](../../aspose.imaging/figure/shapes) { get; } | Gets or sets the figure shapes. |
 
 ## Methods
 
@@ -35,8 +35,10 @@ public class Figure : ObjectWithBounds
 | --- | --- |
 | [AddShape](../../aspose.imaging/figure/addshape)(Shape) | Adds a shape to the figure. |
 | [AddShapes](../../aspose.imaging/figure/addshapes)(Shape[]) | Adds a range of shapes to the figure. |
+| override [Equals](../../aspose.imaging/figure/equals)(object) | Determines whether the specified object is equal to the current object. |
 | override [GetBounds](../../aspose.imaging/figure/getbounds)(Matrix) | Gets the object's bounds. |
 | override [GetBounds](../../aspose.imaging/figure/getbounds)(Matrix, Pen) | Gets the object's bounds. |
+| override [GetHashCode](../../aspose.imaging/figure/gethashcode)() | Serves as the default hash function. |
 | [RemoveShape](../../aspose.imaging/figure/removeshape)(Shape) | Removes a shape from the figure. |
 | [RemoveShapes](../../aspose.imaging/figure/removeshapes)(Shape[]) | Removes a range of shapes from the figure. |
 | [Reverse](../../aspose.imaging/figure/reverse)() | Reverses this figure shapes order and shapes point order. |

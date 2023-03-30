@@ -3,7 +3,7 @@ title: ImageResizeSettings
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10350
+weight: 10430
 url: /net/aspose.imaging/imageresizesettings/
 ---
 ## ImageResizeSettings class

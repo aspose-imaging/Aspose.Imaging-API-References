@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/tifffloattype/elementsize
 Gets the element size in bytes.
 
 ```csharp
-public override uint ElementSize { get; }
+public override byte ElementSize { get; }
 ```
 
 ### Property Value

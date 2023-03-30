@@ -3,7 +3,7 @@ title: EmfSelectObject
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4250
+weight: 4260
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfselectobject/
 ---
 ## EmfSelectObject class

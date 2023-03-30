@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Gif.Blocks
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains Gif file format entities.
 type: docs
-weight: 450
+weight: 460
 url: /net/aspose.imaging.fileformats.gif.blocks/
 ---
 The namespace contains Gif file format entities.

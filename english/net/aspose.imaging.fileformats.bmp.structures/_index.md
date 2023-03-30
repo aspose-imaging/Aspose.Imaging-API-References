@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Bmp.Structures
 second_title: Aspose.Imaging for .NET API Reference
 description: The logical structures used to support bitmap header.
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.imaging.fileformats.bmp.structures/
 ---
 The logical structures, used to support bitmap header.

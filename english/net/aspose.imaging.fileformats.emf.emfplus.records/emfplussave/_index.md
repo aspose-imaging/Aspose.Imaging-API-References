@@ -3,7 +3,7 @@ title: EmfPlusSave
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6250
+weight: 6260
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussave/
 ---
 ## EmfPlusSave class

@@ -3,7 +3,7 @@ title: VectorPathRecordFactory
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2360
+weight: 2370
 url: /net/aspose.imaging.fileformats.core.vectorpaths/vectorpathrecordfactory/
 ---
 ## VectorPathRecordFactory class

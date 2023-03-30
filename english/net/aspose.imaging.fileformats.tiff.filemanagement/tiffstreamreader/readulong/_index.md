@@ -3,15 +3,15 @@ title: ReadULong
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 230
 url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readulong/
 ---
 ## TiffStreamReader.ReadULong method
 
-Read unsigned integer value from the stream.
+Read unsigned long value from the stream.
 
 ```csharp
-public uint ReadULong(long position)
+public ulong ReadULong(long position)
 ```
 
 | Parameter | Type | Description |
@@ -20,7 +20,7 @@ public uint ReadULong(long position)
 
 ### Return Value
 
-An unsigned integer value.
+An unsigned short value.
 
 ### See Also
 

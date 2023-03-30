@@ -3,7 +3,7 @@ title: EmfPlusEndContainer
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6040
+weight: 6050
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusendcontainer/
 ---
 ## EmfPlusEndContainer class

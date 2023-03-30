@@ -3,7 +3,7 @@ title: TagType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffundefinedtype/tagtype/
 ---
 ## TiffUndefinedType.TagType property

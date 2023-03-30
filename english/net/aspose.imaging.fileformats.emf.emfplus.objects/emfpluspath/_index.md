@@ -3,7 +3,7 @@ title: EmfPlusPath
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5610
+weight: 5620
 url: /net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath/
 ---
 ## EmfPlusPath class

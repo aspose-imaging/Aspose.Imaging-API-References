@@ -3,7 +3,7 @@ title: EmfPlusDrawLines
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5980
+weight: 5990
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawlines/
 ---
 ## EmfPlusDrawLines class

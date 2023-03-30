@@ -3,7 +3,7 @@ title: TiffOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10250
+weight: 10340
 url: /net/aspose.imaging.imageoptions/tiffoptions/
 ---
 ## TiffOptions class
@@ -111,7 +111,7 @@ public class TiffOptions : ImageOptionsBase
 | --- | --- |
 | [AddTag](../../aspose.imaging.imageoptions/tiffoptions/addtag)(TiffDataType) | Adds a new tag. |
 | [AddTags](../../aspose.imaging.imageoptions/tiffoptions/addtags)(TiffDataType[]) | Adds the tags. |
-| virtual [Clone](../../aspose.imaging/imageoptionsbase/clone)() | Clones this instance. |
+| override [Clone](../../aspose.imaging.imageoptions/tiffoptions/clone)() | Clones this instance. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
 | [GetTagByType](../../aspose.imaging.imageoptions/tiffoptions/gettagbytype)(TiffTags) | Gets the instance of the tag by type. |
 | [IsTagPresent](../../aspose.imaging.imageoptions/tiffoptions/istagpresent)(TiffTags) | Determines whether tag is present in the options or not. |

@@ -3,7 +3,7 @@ title: EmfPlusStringAlignment
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5060
+weight: 5070
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusstringalignment/
 ---
 ## EmfPlusStringAlignment enumeration

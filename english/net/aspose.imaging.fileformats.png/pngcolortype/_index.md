@@ -3,7 +3,7 @@ title: PngColorType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7440
+weight: 7450
 url: /net/aspose.imaging.fileformats.png/pngcolortype/
 ---
 ## PngColorType enumeration

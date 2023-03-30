@@ -11,13 +11,15 @@ url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/getti
 Gets the tiff stream writer.
 
 ```csharp
-public static TiffStreamWriter GetTiffWriter(StreamContainer stream, TiffByteOrder byteOrder)
+public static TiffStreamWriter GetTiffWriter(StreamContainer stream, TiffByteOrder byteOrder, 
+    bool isBigTiff = false)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | StreamContainer | The stream container. |
 | byteOrder | TiffByteOrder | The byte order. |
+| isBigTiff | Boolean | Indicates TIFF type. |
 
 ### Return Value
 

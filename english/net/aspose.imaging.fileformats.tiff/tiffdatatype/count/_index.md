@@ -3,7 +3,7 @@ title: Count
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 20
 url: /net/aspose.imaging.fileformats.tiff/tiffdatatype/count/
 ---
 ## TiffDataType.Count property
@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffdatatype/count/
 Gets the count of elements.
 
 ```csharp
-public abstract uint Count { get; }
+public abstract ulong Count { get; }
 ```
 
 ### Property Value

@@ -3,7 +3,7 @@ title: CdrUdta
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1800
+weight: 1810
 url: /net/aspose.imaging.fileformats.cdr.objects/cdrudta/
 ---
 ## CdrUdta class

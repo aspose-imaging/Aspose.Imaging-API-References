@@ -3,7 +3,7 @@ title: EmfXHeight
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2900
+weight: 2910
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfxheight/
 ---
 ## EmfXHeight enumeration

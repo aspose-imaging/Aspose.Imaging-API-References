@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Dng
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains DNG file format types
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.imaging.fileformats.dng/
 ---
 The namespace contains DNG file format types

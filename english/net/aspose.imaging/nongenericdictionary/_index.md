@@ -3,7 +3,7 @@ title: NonGenericDictionary
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10640
+weight: 10720
 url: /net/aspose.imaging/nongenericdictionary/
 ---
 ## NonGenericDictionary class

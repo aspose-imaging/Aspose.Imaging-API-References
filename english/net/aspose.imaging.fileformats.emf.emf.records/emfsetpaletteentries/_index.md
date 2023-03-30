@@ -3,7 +3,7 @@ title: EmfSetPaletteEntries
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4440
+weight: 4450
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries/
 ---
 ## EmfSetPaletteEntries class

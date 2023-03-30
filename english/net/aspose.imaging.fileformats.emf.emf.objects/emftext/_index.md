@@ -3,7 +3,7 @@ title: EmfText
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3160
+weight: 3170
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emftext/
 ---
 ## EmfText class

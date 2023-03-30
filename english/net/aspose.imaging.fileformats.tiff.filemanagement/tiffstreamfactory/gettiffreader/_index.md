@@ -11,13 +11,15 @@ url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/getti
 Gets the tiff stream reader.
 
 ```csharp
-public static TiffStreamReader GetTiffReader(StreamContainer stream, TiffByteOrder byteOrder)
+public static TiffStreamReader GetTiffReader(StreamContainer stream, TiffByteOrder byteOrder, 
+    bool isBigTiff = false)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | StreamContainer | The stream container. |
 | byteOrder | TiffByteOrder | The byte order. |
+| isBigTiff | Boolean | Indicates TIFF type. |
 
 ### Return Value
 
@@ -40,7 +42,7 @@ Gets the tiff stream reader.
 
 ```csharp
 public static TiffStreamReader GetTiffReader(byte[] bytes, int bytesOffset, int dataLength, 
-    TiffByteOrder byteOrder)
+    TiffByteOrder byteOrder, bool isBigTiff = false)
 ```
 
 | Parameter | Type | Description |
@@ -49,6 +51,7 @@ public static TiffStreamReader GetTiffReader(byte[] bytes, int bytesOffset, int 
 | bytesOffset | Int32 | The bytes offset. |
 | dataLength | Int32 | Length of the data. |
 | byteOrder | TiffByteOrder | The byte order. |
+| isBigTiff | Boolean | Indicates Tiff type: original or big. |
 
 ### Return Value
 

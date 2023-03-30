@@ -3,7 +3,7 @@ title: EmfDeleteObject
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3540
+weight: 3550
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfdeleteobject/
 ---
 ## EmfDeleteObject class

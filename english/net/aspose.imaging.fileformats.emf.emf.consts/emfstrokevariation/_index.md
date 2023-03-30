@@ -3,7 +3,7 @@ title: EmfStrokeVariation
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2880
+weight: 2890
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfstrokevariation/
 ---
 ## EmfStrokeVariation enumeration

@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/count/
 Gets the count of elements.
 
 ```csharp
-public override uint Count { get; }
+public override ulong Count { get; }
 ```
 
 ### Property Value

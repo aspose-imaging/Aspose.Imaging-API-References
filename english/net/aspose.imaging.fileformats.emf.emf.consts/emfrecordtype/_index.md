@@ -3,7 +3,7 @@ title: EmfRecordType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2820
+weight: 2830
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/
 ---
 ## EmfRecordType enumeration

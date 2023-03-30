@@ -3,7 +3,7 @@ title: EmfPlusSmoothingMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 5050
+weight: 5060
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplussmoothingmode/
 ---
 ## EmfPlusSmoothingMode enumeration

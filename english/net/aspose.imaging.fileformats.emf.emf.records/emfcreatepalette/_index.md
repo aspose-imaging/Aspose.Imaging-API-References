@@ -3,7 +3,7 @@ title: EmfCreatePalette
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3510
+weight: 3520
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcreatepalette/
 ---
 ## EmfCreatePalette class

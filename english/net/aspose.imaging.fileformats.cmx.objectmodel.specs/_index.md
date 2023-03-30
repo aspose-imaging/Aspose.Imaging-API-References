@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Cmx.ObjectModel.Specs
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles Tiff file format processing.
 type: docs
-weight: 250
+weight: 260
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.specs/
 ---
 The namespace handles Tiff file format processing.

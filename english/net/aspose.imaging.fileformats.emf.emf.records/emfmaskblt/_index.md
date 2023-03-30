@@ -3,7 +3,7 @@ title: EmfMaskBlt
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3800
+weight: 3810
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfmaskblt/
 ---
 ## EmfMaskBlt class

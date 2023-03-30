@@ -3,7 +3,7 @@ title: WmfPointObject
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8870
+weight: 8950
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfpointobject/
 ---
 ## WmfPointObject class

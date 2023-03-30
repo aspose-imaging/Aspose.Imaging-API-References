@@ -3,7 +3,7 @@ title: EmfSetRop2
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4470
+weight: 4480
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetrop2/
 ---
 ## EmfSetRop2 class

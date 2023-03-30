@@ -3,7 +3,7 @@ title: BezierKnotRecord
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2280
+weight: 2290
 url: /net/aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/
 ---
 ## BezierKnotRecord class

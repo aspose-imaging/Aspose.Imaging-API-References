@@ -3,7 +3,7 @@ title: RectangleProjectedShape
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11040
+weight: 11120
 url: /net/aspose.imaging.shapes/rectangleprojectedshape/
 ---
 ## RectangleProjectedShape class
@@ -40,8 +40,10 @@ public abstract class RectangleProjectedShape : Shape
 
 | Name | Description |
 | --- | --- |
+| override [Equals](../../aspose.imaging.shapes/rectangleprojectedshape/equals)(object) | Determines whether the specified Object is equal to this instance. |
 | override [GetBounds](../../aspose.imaging.shapes/rectangleprojectedshape/getbounds)(Matrix) | Gets the object's bounds. |
 | override [GetBounds](../../aspose.imaging.shapes/rectangleprojectedshape/getbounds)(Matrix, Pen) | Gets the object's bounds. |
+| override [GetHashCode](../../aspose.imaging.shapes/rectangleprojectedshape/gethashcode)() | Returns a hash code for this instance. |
 | override [Transform](../../aspose.imaging.shapes/rectangleprojectedshape/transform)(Matrix) | Applies the specified transformation to the shape. |
 
 ### See Also

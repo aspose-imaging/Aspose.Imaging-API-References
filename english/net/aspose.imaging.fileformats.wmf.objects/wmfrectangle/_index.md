@@ -3,7 +3,7 @@ title: WmfRectangle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8930
+weight: 9010
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfrectangle/
 ---
 ## WmfRectangle class

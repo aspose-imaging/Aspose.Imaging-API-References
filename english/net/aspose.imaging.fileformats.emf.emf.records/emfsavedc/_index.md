@@ -3,7 +3,7 @@ title: EmfSaveDc
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4210
+weight: 4220
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsavedc/
 ---
 ## EmfSaveDc class

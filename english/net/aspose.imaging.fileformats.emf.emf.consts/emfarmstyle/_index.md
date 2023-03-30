@@ -3,7 +3,7 @@ title: EmfArmStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2550
+weight: 2560
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfarmstyle/
 ---
 ## EmfArmStyle enumeration

@@ -3,7 +3,7 @@ title: OffsetOrValue
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/offsetorvalue/
 ---
 ## TiffUnknownType.OffsetOrValue property
@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/offsetorv
 Gets the offset value for an additional data or value itself in case count is 1.
 
 ```csharp
-public uint OffsetOrValue { get; }
+public ulong OffsetOrValue { get; }
 ```
 
 ### Property Value

@@ -3,7 +3,7 @@ title: SvgRasterizationOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10230
+weight: 10320
 url: /net/aspose.imaging.imageoptions/svgrasterizationoptions/
 ---
 ## SvgRasterizationOptions class

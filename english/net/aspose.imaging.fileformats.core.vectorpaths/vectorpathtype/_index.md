@@ -3,7 +3,7 @@ title: VectorPathType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2370
+weight: 2380
 url: /net/aspose.imaging.fileformats.core.vectorpaths/vectorpathtype/
 ---
 ## VectorPathType enumeration

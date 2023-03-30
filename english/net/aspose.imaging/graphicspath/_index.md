@@ -3,7 +3,7 @@ title: GraphicsPath
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9380
+weight: 9460
 url: /net/aspose.imaging/graphicspath/
 ---
 ## GraphicsPath class

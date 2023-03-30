@@ -3,7 +3,7 @@ title: GuidPacketRepresentation
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2530
+weight: 2540
 url: /net/aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation/
 ---
 ## GuidPacketRepresentation structure

@@ -3,7 +3,7 @@ title: EmfPlusSetClipPath
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6290
+weight: 6300
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetclippath/
 ---
 ## EmfPlusSetClipPath class

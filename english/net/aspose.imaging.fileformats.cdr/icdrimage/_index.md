@@ -3,7 +3,7 @@ title: ICdrImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1460
+weight: 1470
 url: /net/aspose.imaging.fileformats.cdr/icdrimage/
 ---
 ## ICdrImage interface

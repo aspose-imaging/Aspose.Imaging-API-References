@@ -3,7 +3,7 @@ title: IcoImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6730
+weight: 6740
 url: /net/aspose.imaging.fileformats.ico/icoimage/
 ---
 ## IcoImage class

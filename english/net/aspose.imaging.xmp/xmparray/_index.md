@@ -3,7 +3,7 @@ title: XmpArray
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11750
+weight: 11830
 url: /net/aspose.imaging.xmp/xmparray/
 ---
 ## XmpArray class

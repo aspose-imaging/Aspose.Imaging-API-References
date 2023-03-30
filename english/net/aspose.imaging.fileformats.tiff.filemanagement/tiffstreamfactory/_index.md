@@ -3,12 +3,12 @@ title: TiffStreamFactory
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7790
+weight: 7840
 url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/
 ---
 ## TiffStreamFactory class
 
-Factory for proper creation of tiff helper streams
+The Tiff stream factory based on byte endianness.
 
 ```csharp
 public static class TiffStreamFactory
@@ -18,9 +18,9 @@ public static class TiffStreamFactory
 
 | Name | Description |
 | --- | --- |
-| static [GetTiffReader](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/gettiffreader)(StreamContainer, TiffByteOrder) | Gets the tiff stream reader. |
-| static [GetTiffReader](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/gettiffreader)(byte[], int, int, TiffByteOrder) | Gets the tiff stream reader. |
-| static [GetTiffWriter](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/gettiffwriter)(StreamContainer, TiffByteOrder) | Gets the tiff stream writer. |
+| static [GetTiffReader](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/gettiffreader)(StreamContainer, TiffByteOrder, bool) | Gets the tiff stream reader. |
+| static [GetTiffReader](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/gettiffreader)(byte[], int, int, TiffByteOrder, bool) | Gets the tiff stream reader. |
+| static [GetTiffWriter](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamfactory/gettiffwriter)(StreamContainer, TiffByteOrder, bool) | Gets the tiff stream writer. |
 
 ### See Also
 

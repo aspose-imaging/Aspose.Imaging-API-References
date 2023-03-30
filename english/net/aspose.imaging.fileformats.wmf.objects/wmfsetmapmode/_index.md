@@ -3,7 +3,7 @@ title: WmfSetMapMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9090
+weight: 9170
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfsetmapmode/
 ---
 ## WmfSetMapMode class

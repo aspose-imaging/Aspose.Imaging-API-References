@@ -3,7 +3,7 @@ title: CdrGradientStop
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 1860
+weight: 1870
 url: /net/aspose.imaging.fileformats.cdr.types/cdrgradientstop/
 ---
 ## CdrGradientStop class

@@ -3,7 +3,7 @@ title: DicomPage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2430
+weight: 2440
 url: /net/aspose.imaging.fileformats.dicom/dicompage/
 ---
 ## DicomPage class

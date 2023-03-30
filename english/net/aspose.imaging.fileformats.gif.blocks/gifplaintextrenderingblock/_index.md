@@ -3,7 +3,7 @@ title: GifPlainTextRenderingBlock
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6650
+weight: 6660
 url: /net/aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/
 ---
 ## GifPlainTextRenderingBlock class

@@ -3,7 +3,7 @@ title: EpsBinaryImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6550
+weight: 6560
 url: /net/aspose.imaging.fileformats.eps/epsbinaryimage/
 ---
 ## EpsBinaryImage class

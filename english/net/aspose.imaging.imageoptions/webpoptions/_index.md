@@ -3,7 +3,7 @@ title: WebPOptions
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10310
+weight: 10390
 url: /net/aspose.imaging.imageoptions/webpoptions/
 ---
 ## WebPOptions class

@@ -3,7 +3,7 @@ title: EmfColorSpace
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2590
+weight: 2600
 url: /net/aspose.imaging.fileformats.emf.emf.consts/emfcolorspace/
 ---
 ## EmfColorSpace enumeration

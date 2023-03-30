@@ -3,7 +3,7 @@ title: WmfBinaryRasterOperation
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8110
+weight: 8190
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfbinaryrasteroperation/
 ---
 ## WmfBinaryRasterOperation enumeration

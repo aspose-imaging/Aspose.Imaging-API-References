@@ -3,7 +3,7 @@ title: TiffImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7890
+weight: 7940
 url: /net/aspose.imaging.fileformats.tiff/tiffimage/
 ---
 ## TiffImage class
@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/
 The tiff image.
 
 ```csharp
-public sealed class TiffImage : RasterCachedMultipageImage, IMultipageImageExt
+public class TiffImage : RasterCachedMultipageImage, IMultipageImageExt
 ```
 
 ## Constructors
@@ -74,7 +74,7 @@ public sealed class TiffImage : RasterCachedMultipageImage, IMultipageImageExt
 | [Add](../../aspose.imaging.fileformats.tiff/tiffimage/add)(TiffImage) | Adds the specified image's frames to current frame. |
 | [AddFrame](../../aspose.imaging.fileformats.tiff/tiffimage/addframe)(TiffFrame) | Adds the frame to image |
 | [AddFrames](../../aspose.imaging.fileformats.tiff/tiffimage/addframes)(TiffFrame[]) | Adds the frames array to image |
-| [AddPage](../../aspose.imaging.fileformats.tiff/tiffimage/addpage)(RasterImage) | Adds page to the image. |
+| virtual [AddPage](../../aspose.imaging.fileformats.tiff/tiffimage/addpage)(RasterImage) | Adds page to the image. |
 | override [AdjustBrightness](../../aspose.imaging.fileformats.tiff/tiffimage/adjustbrightness)(int) | Adjust of a *brightness* for image. |
 | override [AdjustContrast](../../aspose.imaging.fileformats.tiff/tiffimage/adjustcontrast)(float) | [`Image`](../../aspose.imaging/image) contrasting |
 | override [AdjustGamma](../../aspose.imaging.fileformats.tiff/tiffimage/adjustgamma)(float) | Gamma-correction of an image. |

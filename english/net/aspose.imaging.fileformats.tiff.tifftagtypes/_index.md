@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Tiff.TiffTagTypes
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains Tiff file format tag classes.
 type: docs
-weight: 670
+weight: 690
 url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/
 ---
 The namespace contains Tiff file format tag classes.
@@ -17,11 +17,14 @@ The namespace contains Tiff file format tag classes.
 | [TiffCommonArrayType](./tiffcommonarraytype) | The tiff common array type. |
 | [TiffDoubleType](./tiffdoubletype) | The tiff double type. |
 | [TiffFloatType](./tifffloattype) | The tiff float type. |
+| [TiffIfd8Type](./tiffifd8type) | The Tiff unsigned 64-bit Image File Directory type. |
 | [TiffIfdType](./tiffifdtype) | Represents the TIFF Exif image file directory type class. |
+| [TiffLong8Type](./tifflong8type) | The Tiff unsigned 64-bit type. |
 | [TiffLongType](./tifflongtype) | The tiff long type. |
 | [TiffRationalType](./tiffrationaltype) | The tiff rational type. |
 | [TiffSByteType](./tiffsbytetype) | The tiff signed byte type. |
 | [TiffShortType](./tiffshorttype) | The tiff short type. |
+| [TiffSLong8Type](./tiffslong8type) | The Tiff unsigned 64-bit type. |
 | [TiffSLongType](./tiffslongtype) | The tiff signed long type. |
 | [TiffSRationalType](./tiffsrationaltype) | The tiff signed rational type. |
 | [TiffSShortType](./tiffsshorttype) | The tiff signed short type. |

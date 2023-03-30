@@ -3,7 +3,7 @@ title: ReadSRationalArray
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 160
+weight: 180
 url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamreader/readsrationalarray/
 ---
 ## TiffStreamReader.ReadSRationalArray method

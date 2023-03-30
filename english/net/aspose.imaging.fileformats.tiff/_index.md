@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Tiff
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace handles Tiff file format processing.
 type: docs
-weight: 620
+weight: 630
 url: /net/aspose.imaging.fileformats.tiff/
 ---
 The namespace handles Tiff file format processing.
@@ -12,7 +12,7 @@ The namespace handles Tiff file format processing.
 
 | Class | Description |
 | --- | --- |
-| [TiffDataType](./tiffdatatype) | The tiff data type. |
+| [TiffDataType](./tiffdatatype) | The TIFF data type. |
 | [TiffExifIfd](./tiffexififd) | The TIFF Exif image file directory class. |
 | [TiffFrame](./tiffframe) | The tiff frame. |
 | [TiffImage](./tiffimage) | The tiff image. |

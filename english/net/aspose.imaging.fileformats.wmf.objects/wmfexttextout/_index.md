@@ -3,7 +3,7 @@ title: WmfExtTextOut
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8680
+weight: 8760
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfexttextout/
 ---
 ## WmfExtTextOut class

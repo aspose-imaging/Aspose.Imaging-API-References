@@ -3,7 +3,7 @@ title: WmfCompression
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8160
+weight: 8240
 url: /net/aspose.imaging.fileformats.wmf.consts/wmfcompression/
 ---
 ## WmfCompression enumeration

@@ -3,7 +3,7 @@ title: EmfPlusLanguageIdentifierType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4880
+weight: 4890
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluslanguageidentifiertype/
 ---
 ## EmfPlusLanguageIdentifierType enumeration

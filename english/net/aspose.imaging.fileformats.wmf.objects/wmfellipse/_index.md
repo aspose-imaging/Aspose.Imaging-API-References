@@ -3,7 +3,7 @@ title: WmfEllipse
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 8630
+weight: 8710
 url: /net/aspose.imaging.fileformats.wmf.objects/wmfellipse/
 ---
 ## WmfEllipse class

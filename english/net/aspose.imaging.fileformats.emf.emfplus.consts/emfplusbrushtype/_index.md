@@ -3,7 +3,7 @@ title: EmfPlusBrushType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4700
+weight: 4710
 url: /net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushtype/
 ---
 ## EmfPlusBrushType enumeration

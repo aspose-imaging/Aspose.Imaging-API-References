@@ -3,7 +3,7 @@ title: EmfSetWorldTransform
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4560
+weight: 4570
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsetworldtransform/
 ---
 ## EmfSetWorldTransform class

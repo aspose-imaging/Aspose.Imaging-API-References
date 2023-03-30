@@ -11,12 +11,12 @@ url: /net/aspose.imaging.brushes/pathgradientbrush/pathgradientbrush/
 Initializes a new instance of the [`PathGradientBrush`](../../pathgradientbrush) class with the specified points.
 
 ```csharp
-public PathGradientBrush(PointF[] points)
+public PathGradientBrush(PointF[] pathPoints)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | PointF[] | An array of [`PointF`](../../../aspose.imaging/pointf) structures that represents the points that make up the vertices of the path. |
+| pathPoints | PointF[] | An array of [`PointF`](../../../aspose.imaging/pointf) structures that represents the points that make up the vertices of the path. |
 
 ### See Also
 
@@ -32,12 +32,12 @@ public PathGradientBrush(PointF[] points)
 Initializes a new instance of the [`PathGradientBrush`](../../pathgradientbrush) class with the specified points and wrap mode.
 
 ```csharp
-public PathGradientBrush(PointF[] points, WrapMode wrapMode)
+public PathGradientBrush(PointF[] pathPoints, WrapMode wrapMode)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | PointF[] | An array of [`PointF`](../../../aspose.imaging/pointf) structures that represents the points that make up the vertices of the path. |
+| pathPoints | PointF[] | An array of [`PointF`](../../../aspose.imaging/pointf) structures that represents the points that make up the vertices of the path. |
 | wrapMode | WrapMode | A [`WrapMode`](../../../aspose.imaging/wrapmode) that specifies how fills drawn with this [`PathGradientBrush`](../../pathgradientbrush) are tiled. |
 
 ### See Also
@@ -55,12 +55,12 @@ public PathGradientBrush(PointF[] points, WrapMode wrapMode)
 Initializes a new instance of the [`PathGradientBrush`](../../pathgradientbrush) class with the specified points.
 
 ```csharp
-public PathGradientBrush(Point[] points)
+public PathGradientBrush(Point[] pathPoints)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | Point[] | An array of [`Point`](../../../aspose.imaging/point) structures that represents the points that make up the vertices of the path. |
+| pathPoints | Point[] | An array of [`Point`](../../../aspose.imaging/point) structures that represents the points that make up the vertices of the path. |
 
 ### See Also
 
@@ -76,12 +76,12 @@ public PathGradientBrush(Point[] points)
 Initializes a new instance of the [`PathGradientBrush`](../../pathgradientbrush) class with the specified points and wrap mode.
 
 ```csharp
-public PathGradientBrush(Point[] points, WrapMode wrapMode)
+public PathGradientBrush(Point[] pathPoints, WrapMode wrapMode)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| points | Point[] | An array of [`Point`](../../../aspose.imaging/point) structures that represents the points that make up the vertices of the path. |
+| pathPoints | Point[] | An array of [`Point`](../../../aspose.imaging/point) structures that represents the points that make up the vertices of the path. |
 | wrapMode | WrapMode | A [`WrapMode`](../../../aspose.imaging/wrapmode) that specifies how fills drawn with this [`PathGradientBrush`](../../pathgradientbrush) are tiled. |
 
 ### See Also

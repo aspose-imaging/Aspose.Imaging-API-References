@@ -11,7 +11,7 @@ url: /net/aspose.imaging.imageoptions/tiffoptions/stripbytecounts/
 Gets or sets the strip byte counts.
 
 ```csharp
-public uint[] StripByteCounts { get; set; }
+public ulong[] StripByteCounts { get; set; }
 ```
 
 ### Property Value

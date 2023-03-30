@@ -3,7 +3,7 @@ title: HatchStyle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 9400
+weight: 9480
 url: /net/aspose.imaging/hatchstyle/
 ---
 ## HatchStyle enumeration

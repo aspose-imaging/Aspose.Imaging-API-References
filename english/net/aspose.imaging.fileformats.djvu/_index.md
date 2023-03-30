@@ -3,7 +3,7 @@ title: Aspose.Imaging.FileFormats.Djvu
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains djvu classes
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.imaging.fileformats.djvu/
 ---
 The namespace contains djvu classes

@@ -3,7 +3,7 @@ title: EmfPlusEndOfFile
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 6050
+weight: 6060
 url: /net/aspose.imaging.fileformats.emf.emfplus.records/emfplusendoffile/
 ---
 ## EmfPlusEndOfFile class

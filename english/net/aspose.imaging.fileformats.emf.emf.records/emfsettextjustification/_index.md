@@ -3,7 +3,7 @@ title: EmfSetTextJustification
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4510
+weight: 4520
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfsettextjustification/
 ---
 ## EmfSetTextJustification class

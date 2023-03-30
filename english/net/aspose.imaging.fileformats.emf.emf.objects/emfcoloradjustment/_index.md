@@ -3,7 +3,7 @@ title: EmfColorAdjustment
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 2930
+weight: 2940
 url: /net/aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/
 ---
 ## EmfColorAdjustment class

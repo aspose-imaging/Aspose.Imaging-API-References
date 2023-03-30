@@ -3,7 +3,7 @@ title: Text
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffasciitype/text/
 ---
 ## TiffASCIIType.Text property

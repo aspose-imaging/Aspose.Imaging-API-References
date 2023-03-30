@@ -3,7 +3,7 @@ title: EmfArc
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3220
+weight: 3230
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfarc/
 ---
 ## EmfArc class

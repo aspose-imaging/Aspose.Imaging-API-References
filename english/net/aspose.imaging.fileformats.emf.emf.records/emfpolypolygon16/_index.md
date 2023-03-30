@@ -3,7 +3,7 @@ title: EmfPolyPolygon16
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 4030
+weight: 4040
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon16/
 ---
 ## EmfPolyPolygon16 class

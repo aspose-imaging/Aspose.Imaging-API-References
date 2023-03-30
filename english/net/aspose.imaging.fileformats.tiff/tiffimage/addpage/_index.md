@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/addpage/
 Adds page to the image.
 
 ```csharp
-public void AddPage(RasterImage page)
+public virtual void AddPage(RasterImage page)
 ```
 
 | Parameter | Type | Description |

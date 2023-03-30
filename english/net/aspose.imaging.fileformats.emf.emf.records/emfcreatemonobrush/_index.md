@@ -3,7 +3,7 @@ title: EmfCreateMonoBrush
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3500
+weight: 3510
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfcreatemonobrush/
 ---
 ## EmfCreateMonoBrush class

@@ -3,7 +3,7 @@ title: TiffOrientations
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 7690
+weight: 7700
 url: /net/aspose.imaging.fileformats.tiff.enums/tifforientations/
 ---
 ## TiffOrientations enumeration

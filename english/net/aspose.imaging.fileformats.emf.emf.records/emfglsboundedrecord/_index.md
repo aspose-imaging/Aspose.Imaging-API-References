@@ -3,7 +3,7 @@ title: EmfGlsBoundedRecord
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 3740
+weight: 3750
 url: /net/aspose.imaging.fileformats.emf.emf.records/emfglsboundedrecord/
 ---
 ## EmfGlsBoundedRecord class

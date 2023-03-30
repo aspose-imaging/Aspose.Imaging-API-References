@@ -3,7 +3,7 @@ title: GetBounds
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.imaging.shapes/rectangleprojectedshape/getbounds/
 ---
 ## RectangleProjectedShape.GetBounds method (1 of 2)
