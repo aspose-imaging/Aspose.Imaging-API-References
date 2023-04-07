@@ -1,0 +1,21 @@
+---
+title: NoiseReductionType Enumeration
+type: docs
+weight: 70
+url: /python-net/api-reference/aspose.imaging.imageloadoptions/noisereductiontype/
+---
+
+The type of dbdd noise reduction.
+
+**Namespace:** [aspose.imaging.imageloadoptions](/imaging/python-net/api-reference/aspose.imaging.imageloadoptions/)
+
+**Full Name:** aspose.imaging.imageloadoptions.NoiseReductionType
+
+**Assembly:**  Aspose.Imaging Version: 23.3.0
+
+## **Members**
+|**Member name**|**Description**|
+| :- | :- |
+|NONE|The None, do not use FBDD noise reduction|
+|LIGHT|The light, light FBDD reduction|
+|FULL|The full, full FBDD reduction|

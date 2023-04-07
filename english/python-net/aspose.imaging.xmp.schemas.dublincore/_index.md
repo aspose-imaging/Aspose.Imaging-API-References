@@ -1,0 +1,14 @@
+---
+title: aspose.imaging.xmp.schemas.dublincore
+type: docs
+weight: 940
+url: /python-net/api-reference/aspose.imaging.xmp.schemas.dublincore/
+---
+
+
+The namespace contains Dublin Core metadata related helper classes, constants and methods.
+
+## **Classes**
+|**Class**|**Description**|
+| :- | :- |
+|[DublinCorePackage](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.dublincore/dublincorepackage/)|Represents Dublic Core schema.|

@@ -1,0 +1,21 @@
+---
+title: aspose.imaging.fileformats.emf
+type: docs
+weight: 300
+url: /python-net/api-reference/aspose.imaging.fileformats.emf/
+---
+
+
+The namespace contains types [MS-EMF], [MS-EMFPLUS]
+
+## **Classes**
+|**Class**|**Description**|
+| :- | :- |
+|[EmfImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf/emfimage/)|EMF file format image.|
+|[MetaImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf/metaimage/)|Base class for Meta object classes|
+|[MetaObject](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf/metaobject/)|Base class for  EMF, WMF, EMF+ objects|
+|[MetaObjectList](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf/metaobjectlist/)|The list of meta objects for EMF, EMF+ and WMF classes|
+## **Enumerations**
+|**Enumeration**|**Description**|
+| :- | :- |
+|[EmfRenderMode](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf/emfrendermode/)|The emf render mode|

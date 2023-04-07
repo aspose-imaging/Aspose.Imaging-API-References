@@ -1,0 +1,21 @@
+---
+title: OdPenStyle Enumeration
+type: docs
+weight: 20
+url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.pen/odpenstyle/
+---
+
+The open document pen style
+
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects.pen](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.pen/)
+
+**Full Name:** aspose.imaging.fileformats.opendocument.objects.pen.OdPenStyle
+
+**Assembly:**  Aspose.Imaging Version: 23.3.0
+
+## **Members**
+|**Member name**|**Description**|
+| :- | :- |
+|NONE|The pen style none|
+|SOLID|The pen style solid|
+|DASH|The pen style dash|

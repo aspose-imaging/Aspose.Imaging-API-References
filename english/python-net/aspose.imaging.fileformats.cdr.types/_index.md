@@ -1,0 +1,19 @@
+---
+title: aspose.imaging.fileformats.cdr.types
+type: docs
+weight: 180
+url: /python-net/api-reference/aspose.imaging.fileformats.cdr.types/
+---
+
+
+The namespace handles Cdr file format processing.
+
+## **Classes**
+|**Class**|**Description**|
+| :- | :- |
+|[CdrColor](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.types/cdrcolor/)|The cdr color|
+|[CdrGradient](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.types/cdrgradient/)|The cdr gradient|
+|[CdrGradientStop](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.types/cdrgradientstop/)|The cdr gradient stop|
+|[CdrImageFill](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.types/cdrimagefill/)|The cdr image fill|
+|[CdrTextCollection](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.types/cdrtextcollection/)|The Cdr text collection|
+|[PointD](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.types/pointd/)|The point double|
