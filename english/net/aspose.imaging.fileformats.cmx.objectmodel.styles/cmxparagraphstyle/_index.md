@@ -30,6 +30,13 @@ public class CmxParagraphStyle
 | [LineSpacing](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphstyle/linespacing) { get; set; } | Gets or sets the line spacing. |
 | [WordSpacing](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphstyle/wordspacing) { get; set; } | Gets or sets the word spacing. |
 
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphstyle/equals)(object) | Check if objects are equal. |
+| override [GetHashCode](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphstyle/gethashcode)() | Get hash code of the current object. |
+
 ### See Also
 
 * namespace [Aspose.Imaging.FileFormats.Cmx.ObjectModel.Styles](../../aspose.imaging.fileformats.cmx.objectmodel.styles)

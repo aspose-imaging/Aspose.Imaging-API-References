@@ -3,7 +3,7 @@ title: Shape
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11020
+weight: 11030
 url: /net/aspose.imaging/shape/
 ---
 ## Shape class
@@ -27,8 +27,10 @@ public abstract class Shape : ObjectWithBounds
 
 | Name | Description |
 | --- | --- |
+| override [Equals](../../aspose.imaging/shape/equals)(object) | Check if objects are equal. |
 | abstract [GetBounds](../../aspose.imaging/objectwithbounds/getbounds)(Matrix) | Gets the object's bounds. |
 | abstract [GetBounds](../../aspose.imaging/objectwithbounds/getbounds)(Matrix, Pen) | Gets the object's bounds. |
+| override [GetHashCode](../../aspose.imaging/shape/gethashcode)() | Get hash code of the current object. |
 | abstract [Transform](../../aspose.imaging/objectwithbounds/transform)(Matrix) | Applies the specified transformation to the shape. |
 
 ### See Also

@@ -3,7 +3,7 @@ title: SetTabStops
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 170
 url: /net/aspose.imaging/stringformat/settabstops/
 ---
 ## StringFormat.SetTabStops method

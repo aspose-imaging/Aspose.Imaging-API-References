@@ -3,7 +3,7 @@ title: Widen
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 210
 url: /net/aspose.imaging/graphicspath/widen/
 ---
 ## GraphicsPath.Widen method (1 of 3)

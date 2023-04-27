@@ -3,7 +3,7 @@ title: TextShape
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11140
+weight: 11150
 url: /net/aspose.imaging.shapes/textshape/
 ---
 ## TextShape class
@@ -43,10 +43,10 @@ public sealed class TextShape : RectangleProjectedShape
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.imaging.shapes/rectangleprojectedshape/equals)(object) | Determines whether the specified Object is equal to this instance. |
+| override [Equals](../../aspose.imaging.shapes/textshape/equals)(object) | Check if objects are equal. |
 | override [GetBounds](../../aspose.imaging.shapes/textshape/getbounds)(Matrix) | Gets the object's bounds. |
 | override [GetBounds](../../aspose.imaging.shapes/textshape/getbounds)(Matrix, Pen) | Gets the object's bounds. |
-| override [GetHashCode](../../aspose.imaging.shapes/rectangleprojectedshape/gethashcode)() | Returns a hash code for this instance. |
+| override [GetHashCode](../../aspose.imaging.shapes/textshape/gethashcode)() | Get hash code of the current object. |
 | override [Transform](../../aspose.imaging.shapes/textshape/transform)(Matrix) | Applies the specified transformation to the shape. |
 
 ### See Also

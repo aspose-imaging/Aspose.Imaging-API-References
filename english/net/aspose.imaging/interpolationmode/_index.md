@@ -3,7 +3,7 @@ title: InterpolationMode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10460
+weight: 10470
 url: /net/aspose.imaging/interpolationmode/
 ---
 ## InterpolationMode enumeration

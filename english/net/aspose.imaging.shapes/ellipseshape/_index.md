@@ -3,7 +3,7 @@ title: EllipseShape
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11090
+weight: 11100
 url: /net/aspose.imaging.shapes/ellipseshape/
 ---
 ## EllipseShape class
@@ -40,10 +40,10 @@ public class EllipseShape : RectangleShape
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.imaging.shapes/rectangleprojectedshape/equals)(object) | Determines whether the specified Object is equal to this instance. |
+| override [Equals](../../aspose.imaging.shapes/ellipseshape/equals)(object) | Check if objects are equal. |
 | override [GetBounds](../../aspose.imaging.shapes/rectangleprojectedshape/getbounds)(Matrix) | Gets the object's bounds. |
 | override [GetBounds](../../aspose.imaging.shapes/rectangleprojectedshape/getbounds)(Matrix, Pen) | Gets the object's bounds. |
-| override [GetHashCode](../../aspose.imaging.shapes/rectangleprojectedshape/gethashcode)() | Returns a hash code for this instance. |
+| override [GetHashCode](../../aspose.imaging.shapes/ellipseshape/gethashcode)() | Get hash code of the current object. |
 | override [Transform](../../aspose.imaging.shapes/rectangleprojectedshape/transform)(Matrix) | Applies the specified transformation to the shape. |
 
 ### Examples

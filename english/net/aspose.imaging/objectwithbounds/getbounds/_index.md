@@ -3,7 +3,7 @@ title: GetBounds
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.imaging/objectwithbounds/getbounds/
 ---
 ## ObjectWithBounds.GetBounds method (1 of 2)

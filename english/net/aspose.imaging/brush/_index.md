@@ -27,6 +27,8 @@ public abstract class Brush : DisposableObject
 | --- | --- |
 | virtual [DeepClone](../../aspose.imaging/brush/deepclone)() | Creates a new deep clone of the current [`Brush`](../brush). |
 | [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
+| override [Equals](../../aspose.imaging/brush/equals)(object) | Check if objects are equal. |
+| override [GetHashCode](../../aspose.imaging/brush/gethashcode)() | Get hash code of the current object. |
 
 ### See Also
 

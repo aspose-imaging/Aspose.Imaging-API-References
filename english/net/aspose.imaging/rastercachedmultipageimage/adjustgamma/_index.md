@@ -11,12 +11,14 @@ url: /net/aspose.imaging/rastercachedmultipageimage/adjustgamma/
 Gamma-correction of an image.
 
 ```csharp
-public override void AdjustGamma(float gamma)
+public override void AdjustGamma(float gammaRed, float gammaGreen, float gammaBlue)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| gamma | Single | Gamma for red, green and blue channels coefficient |
+| gammaRed | Single | Gamma for red channel coefficient |
+| gammaGreen | Single | Gamma for green channel coefficient |
+| gammaBlue | Single | Gamma for blue channel coefficient |
 
 ### See Also
 
@@ -31,14 +33,12 @@ public override void AdjustGamma(float gamma)
 Gamma-correction of an image.
 
 ```csharp
-public override void AdjustGamma(float gammaRed, float gammaGreen, float gammaBlue)
+public override void AdjustGamma(float gamma)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| gammaRed | Single | Gamma for red channel coefficient |
-| gammaGreen | Single | Gamma for green channel coefficient |
-| gammaBlue | Single | Gamma for blue channel coefficient |
+| gamma | Single | Gamma for red, green and blue channels coefficient |
 
 ### See Also
 

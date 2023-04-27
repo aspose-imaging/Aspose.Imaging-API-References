@@ -11,45 +11,6 @@ url: /net/aspose.imaging/rasterimage/adjustgamma/
 Gamma-correction of an image.
 
 ```csharp
-public virtual void AdjustGamma(float gamma)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| gamma | Single | Gamma for red, green and blue channels coefficient |
-
-### Examples
-
-The following example performs gamma-correction of an image.
-
-```csharp
-[C#]
-
-string dir = "c:\\temp\\";
-
-using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
-{
-    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
-
-    // Set gamma coefficient for red, green and blue channels.
-    rasterImage.AdjustGamma(2.5f);
-    rasterImage.Save(dir + "sample.AdjustGamma.png");
-}
-```
-
-### See Also
-
-* class [RasterImage](../../rasterimage)
-* namespace [Aspose.Imaging](../../rasterimage)
-* assembly [Aspose.Imaging](../../../)
-
----
-
-## RasterImage.AdjustGamma method (2 of 2)
-
-Gamma-correction of an image.
-
-```csharp
 public virtual void AdjustGamma(float gammaRed, float gammaGreen, float gammaBlue)
 ```
 
@@ -74,6 +35,45 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"
 
     // Set individual gamma coefficients for red, green and blue channels.
     rasterImage.AdjustGamma(1.5f, 2.5f, 3.5f);
+    rasterImage.Save(dir + "sample.AdjustGamma.png");
+}
+```
+
+### See Also
+
+* class [RasterImage](../../rasterimage)
+* namespace [Aspose.Imaging](../../rasterimage)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## RasterImage.AdjustGamma method (2 of 2)
+
+Gamma-correction of an image.
+
+```csharp
+public virtual void AdjustGamma(float gamma)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| gamma | Single | Gamma for red, green and blue channels coefficient |
+
+### Examples
+
+The following example performs gamma-correction of an image.
+
+```csharp
+[C#]
+
+string dir = "c:\\temp\\";
+
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.png"))
+{
+    Aspose.Imaging.RasterImage rasterImage = (Aspose.Imaging.RasterImage)image;
+
+    // Set gamma coefficient for red, green and blue channels.
+    rasterImage.AdjustGamma(2.5f);
     rasterImage.Save(dir + "sample.AdjustGamma.png");
 }
 ```

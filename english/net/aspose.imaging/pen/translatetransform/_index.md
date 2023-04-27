@@ -3,7 +3,7 @@ title: TranslateTransform
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 240
+weight: 260
 url: /net/aspose.imaging/pen/translatetransform/
 ---
 ## Pen.TranslateTransform method (1 of 2)

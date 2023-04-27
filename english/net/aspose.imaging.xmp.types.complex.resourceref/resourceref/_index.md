@@ -3,7 +3,7 @@ title: ResourceRef
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11710
+weight: 11720
 url: /net/aspose.imaging.xmp.types.complex.resourceref/resourceref/
 ---
 ## ResourceRef class

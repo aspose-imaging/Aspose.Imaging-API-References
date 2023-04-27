@@ -3,7 +3,7 @@ title: SetStrokeCaps
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 110
 url: /net/aspose.imaging/customlinecap/setstrokecaps/
 ---
 ## CustomLineCap.SetStrokeCaps method

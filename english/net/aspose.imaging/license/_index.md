@@ -3,7 +3,7 @@ title: License
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10480
+weight: 10490
 url: /net/aspose.imaging/license/
 ---
 ## License class

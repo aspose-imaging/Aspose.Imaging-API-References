@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.eps.consts/epstype/
 Subtypes of Encapsulated PostScript format
 
 ```csharp
-public enum EpsType
+public enum EpsType : short
 ```
 
 ### Values

@@ -35,6 +35,8 @@ public sealed class SolidBrush : Brush
 | --- | --- |
 | virtual [DeepClone](../../aspose.imaging/brush/deepclone)() | Creates a new deep clone of the current [`Brush`](../../aspose.imaging/brush). |
 | [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
+| override [Equals](../../aspose.imaging/brush/equals)(object) | Check if objects are equal. |
+| override [GetHashCode](../../aspose.imaging/brush/gethashcode)() | Get hash code of the current object. |
 
 ### Examples
 

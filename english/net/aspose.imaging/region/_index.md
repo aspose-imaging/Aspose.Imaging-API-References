@@ -3,7 +3,7 @@ title: Region
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10960
+weight: 10970
 url: /net/aspose.imaging/region/
 ---
 ## Region class
@@ -32,11 +32,13 @@ public sealed class Region
 | [Complement](../../aspose.imaging/region/complement)(RectangleF) | Updates this [`Region`](../region) to contain the portion of the specified [`RectangleF`](../rectanglef) structure that does not intersect with this [`Region`](../region). |
 | [Complement](../../aspose.imaging/region/complement)(Region) | Updates this [`Region`](../region) to contain the portion of the specified [`Region`](../region) that does not intersect with this [`Region`](../region). |
 | [DeepClone](../../aspose.imaging/region/deepclone)() | Creates an exact deep copy of this [`Region`](../region). |
+| override [Equals](../../aspose.imaging/region/equals)(object) | Check if objects are equal. |
 | [Equals](../../aspose.imaging/region/equals)(Region, Graphics) | Tests whether the specified [`Region`](../region) is identical to this [`Region`](../region) on the specified drawing surface. |
 | [Exclude](../../aspose.imaging/region/exclude)(GraphicsPath) | Updates this [`Region`](../region) to contain only the portion of its interior that does not intersect with the specified [`GraphicsPath`](../graphicspath). |
 | [Exclude](../../aspose.imaging/region/exclude)(Rectangle) | Updates this [`Region`](../region) to contain only the portion of its interior that does not intersect with the specified [`Rectangle`](../rectangle) structure. |
 | [Exclude](../../aspose.imaging/region/exclude)(RectangleF) | Updates this [`Region`](../region) to contain only the portion of its interior that does not intersect with the specified [`RectangleF`](../rectanglef) structure. |
 | [Exclude](../../aspose.imaging/region/exclude)(Region) | Updates this [`Region`](../region) to contain only the portion of its interior that does not intersect with the specified [`Region`](../region). |
+| override [GetHashCode](../../aspose.imaging/region/gethashcode)() | Get hash code of the current object. |
 | [Intersect](../../aspose.imaging/region/intersect)(GraphicsPath) | Updates this [`Region`](../region) to the intersection of itself with the specified [`GraphicsPath`](../graphicspath). |
 | [Intersect](../../aspose.imaging/region/intersect)(Rectangle) | Updates this [`Region`](../region) to the intersection of itself with the specified [`Rectangle`](../rectangle) structure. |
 | [Intersect](../../aspose.imaging/region/intersect)(RectangleF) | Updates this [`Region`](../region) to the intersection of itself with the specified [`RectangleF`](../rectanglef) structure. |

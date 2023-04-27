@@ -31,6 +31,13 @@ public class CmxPage
 | [PageNumber](../../aspose.imaging.fileformats.cmx.objectmodel/cmxpage/pagenumber) { get; set; } | Gets or sets the page order number. |
 | [Width](../../aspose.imaging.fileformats.cmx.objectmodel/cmxpage/width) { get; set; } | Gets or sets the page width. |
 
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.imaging.fileformats.cmx.objectmodel/cmxpage/equals)(object) | Check if objects are equal. |
+| override [GetHashCode](../../aspose.imaging.fileformats.cmx.objectmodel/cmxpage/gethashcode)() | Get hash code of the current object |
+
 ### See Also
 
 * namespace [Aspose.Imaging.FileFormats.Cmx.ObjectModel](../../aspose.imaging.fileformats.cmx.objectmodel)

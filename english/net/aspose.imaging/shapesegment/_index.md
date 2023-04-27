@@ -3,7 +3,7 @@ title: ShapeSegment
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11030
+weight: 11040
 url: /net/aspose.imaging/shapesegment/
 ---
 ## ShapeSegment class
@@ -20,6 +20,13 @@ public abstract class ShapeSegment
 | --- | --- |
 | abstract [EndPoint](../../aspose.imaging/shapesegment/endpoint) { get; } | Gets the ending point. |
 | abstract [StartPoint](../../aspose.imaging/shapesegment/startpoint) { get; } | Gets the starting point. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.imaging/shapesegment/equals)(object) | Check if objects are equal. |
+| override [GetHashCode](../../aspose.imaging/shapesegment/gethashcode)() | Get hash code of the current object. |
 
 ### See Also
 

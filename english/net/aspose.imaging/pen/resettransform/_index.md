@@ -3,7 +3,7 @@ title: ResetTransform
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 220
 url: /net/aspose.imaging/pen/resettransform/
 ---
 ## Pen.ResetTransform method

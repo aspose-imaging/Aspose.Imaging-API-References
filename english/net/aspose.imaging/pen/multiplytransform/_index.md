@@ -3,7 +3,7 @@ title: MultiplyTransform
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 190
+weight: 210
 url: /net/aspose.imaging/pen/multiplytransform/
 ---
 ## Pen.MultiplyTransform method (1 of 2)

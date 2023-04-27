@@ -37,6 +37,8 @@ public class CustomLineCap
 
 | Name | Description |
 | --- | --- |
+| override [Equals](../../aspose.imaging/customlinecap/equals)(object) | Check if objects are equal. |
+| override [GetHashCode](../../aspose.imaging/customlinecap/gethashcode)() | Get hash code of the current object. |
 | [GetStrokeCaps](../../aspose.imaging/customlinecap/getstrokecaps)(out LineCap, out LineCap) | Gets the caps used to start and end lines that make up this custom cap. |
 | [SetStrokeCaps](../../aspose.imaging/customlinecap/setstrokecaps)(LineCap, LineCap) | Sets the caps used to start and end lines that make up this custom cap. |
 

@@ -30,6 +30,13 @@ public class CmxTextBlockSpec : ICmxObjectSpec
 | [ParagraphStyle](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxtextblockspec/paragraphstyle) { get; set; } | Gets or sets the paragraph style. |
 | [Text](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxtextblockspec/text) { get; set; } | Gets or sets the text. |
 
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxtextblockspec/equals)(object) | Check if objects are equal. |
+| override [GetHashCode](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxtextblockspec/gethashcode)() | Get hash code of the current object. |
+
 ### See Also
 
 * interface [ICmxObjectSpec](../icmxobjectspec)

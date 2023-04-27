@@ -29,6 +29,7 @@ The namespace contains classes suitable for export, save or creation of differen
 | [Jpeg2000Options](./jpeg2000options) | The Jpeg2000 file format options. |
 | [JpegOptions](./jpegoptions) | The jpeg file format create options. |
 | [MetafileOptions](./metafileoptions) | The Metafiles base options. |
+| [MetafileRasterizationOptions](./metafilerasterizationoptions) | The metafile rasterization options |
 | [MultiPageOptions](./multipageoptions) | Base class for multiple pages supported formats |
 | [OdgRasterizationOptions](./odgrasterizationoptions) | The Odg rasterization options |
 | [OdRasterizationOptions](./odrasterizationoptions) | The Od rasterization options |

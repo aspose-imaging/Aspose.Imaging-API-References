@@ -3,7 +3,7 @@ title: Pen
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10800
+weight: 10810
 url: /net/aspose.imaging/pen/
 ---
 ## Pen class
@@ -50,6 +50,8 @@ public class Pen : TransparencySupporter
 
 | Name | Description |
 | --- | --- |
+| override [Equals](../../aspose.imaging/pen/equals)(object) | Check if objects are equal. |
+| override [GetHashCode](../../aspose.imaging/pen/gethashcode)() | Get hash code of the current object. |
 | [MultiplyTransform](../../aspose.imaging/pen/multiplytransform)(Matrix) | Multiplies the transformation matrix for this [`Pen`](../pen) by the specified [`Matrix`](../matrix). |
 | [MultiplyTransform](../../aspose.imaging/pen/multiplytransform)(Matrix, MatrixOrder) | Multiplies the transformation matrix for this [`Pen`](../pen) by the specified [`Matrix`](../matrix) in the specified order. |
 | [ResetTransform](../../aspose.imaging/pen/resettransform)() | Resets the geometric transformation matrix for this [`Pen`](../pen) to identity. |

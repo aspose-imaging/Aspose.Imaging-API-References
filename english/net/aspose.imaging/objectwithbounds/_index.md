@@ -3,7 +3,7 @@ title: ObjectWithBounds
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10740
+weight: 10750
 url: /net/aspose.imaging/objectwithbounds/
 ---
 ## ObjectWithBounds class
@@ -24,8 +24,10 @@ public abstract class ObjectWithBounds
 
 | Name | Description |
 | --- | --- |
+| override [Equals](../../aspose.imaging/objectwithbounds/equals)(object) | Check if objects are equal. |
 | abstract [GetBounds](../../aspose.imaging/objectwithbounds/getbounds)(Matrix) | Gets the object's bounds. |
 | abstract [GetBounds](../../aspose.imaging/objectwithbounds/getbounds)(Matrix, Pen) | Gets the object's bounds. |
+| override [GetHashCode](../../aspose.imaging/objectwithbounds/gethashcode)() | Get hash code of the current object. |
 | abstract [Transform](../../aspose.imaging/objectwithbounds/transform)(Matrix) | Applies the specified transformation to the shape. |
 
 ### See Also

@@ -3,7 +3,7 @@ title: GetBounds
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.imaging.shapes/beziershape/getbounds/
 ---
 ## BezierShape.GetBounds method (1 of 2)

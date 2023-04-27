@@ -3,7 +3,7 @@ title: StringFormat
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11270
+weight: 11280
 url: /net/aspose.imaging/stringformat/
 ---
 ## StringFormat class
@@ -46,6 +46,8 @@ public sealed class StringFormat : DisposableObject
 | --- | --- |
 | [DeepClone](../../aspose.imaging/stringformat/deepclone)() | Creates a deep clone of this [`StringFormat`](../stringformat) object. |
 | [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
+| override [Equals](../../aspose.imaging/stringformat/equals)(object) | Check if objects are equal. |
+| override [GetHashCode](../../aspose.imaging/stringformat/gethashcode)() | Get hash code of the current object. |
 | [SetTabStops](../../aspose.imaging/stringformat/settabstops)(float, float[]) | Sets tab stops for this [`StringFormat`](../stringformat) object. |
 | override [ToString](../../aspose.imaging/stringformat/tostring)() | Converts this [`StringFormat`](../stringformat) object to a human-readable string. |
 

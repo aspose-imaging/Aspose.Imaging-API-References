@@ -3,7 +3,7 @@ title: BezierSegment
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11040
+weight: 11050
 url: /net/aspose.imaging.shapesegments/beziersegment/
 ---
 ## BezierSegment class
@@ -28,6 +28,13 @@ public sealed class BezierSegment : LineSegment
 | [FirstControlPoint](../../aspose.imaging.shapesegments/beziersegment/firstcontrolpoint) { get; } | Gets the first control point of a bezier spline. |
 | [SecondControlPoint](../../aspose.imaging.shapesegments/beziersegment/secondcontrolpoint) { get; } | Gets the second control point of a bezier spline. |
 | override [StartPoint](../../aspose.imaging.shapesegments/linesegment/startpoint) { get; } | Gets the starting point. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.imaging.shapesegments/beziersegment/equals)(object) | Check if objects are equal. |
+| override [GetHashCode](../../aspose.imaging.shapesegments/beziersegment/gethashcode)() | Get hash code of the current object. |
 
 ### See Also
 

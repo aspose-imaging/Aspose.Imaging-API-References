@@ -3,7 +3,7 @@ title: Transform
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 30
+weight: 50
 url: /net/aspose.imaging/objectwithbounds/transform/
 ---
 ## ObjectWithBounds.Transform method

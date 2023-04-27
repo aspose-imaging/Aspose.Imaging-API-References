@@ -3,7 +3,7 @@ title: LineSegment
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11050
+weight: 11060
 url: /net/aspose.imaging.shapesegments/linesegment/
 ---
 ## LineSegment class
@@ -26,6 +26,13 @@ public class LineSegment : ShapeSegment
 | --- | --- |
 | override [EndPoint](../../aspose.imaging.shapesegments/linesegment/endpoint) { get; } | Gets the ending point. |
 | override [StartPoint](../../aspose.imaging.shapesegments/linesegment/startpoint) { get; } | Gets the starting point. |
+
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.imaging.shapesegments/linesegment/equals)(object) | Check if objects are equal. |
+| override [GetHashCode](../../aspose.imaging.shapesegments/linesegment/gethashcode)() | Get hash code of the current object. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: ScaleTransform
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 220
+weight: 240
 url: /net/aspose.imaging/pen/scaletransform/
 ---
 ## Pen.ScaleTransform method (1 of 2)

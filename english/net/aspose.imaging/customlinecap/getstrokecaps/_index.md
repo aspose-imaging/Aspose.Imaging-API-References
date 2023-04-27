@@ -3,7 +3,7 @@ title: GetStrokeCaps
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 100
 url: /net/aspose.imaging/customlinecap/getstrokecaps/
 ---
 ## CustomLineCap.GetStrokeCaps method

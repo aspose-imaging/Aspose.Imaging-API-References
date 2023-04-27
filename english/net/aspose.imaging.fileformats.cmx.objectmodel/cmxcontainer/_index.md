@@ -20,6 +20,13 @@ public abstract class CmxContainer : ICmxContainer
 | --- | --- |
 | virtual [Elements](../../aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer/elements) { get; } | Gets the elements. |
 
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer/equals)(object) | Check if objects are equal. |
+| override [GetHashCode](../../aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer/gethashcode)() | Get hash code of the current object. |
+
 ### See Also
 
 * interface [ICmxContainer](../icmxcontainer)

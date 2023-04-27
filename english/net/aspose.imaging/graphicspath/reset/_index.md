@@ -3,7 +3,7 @@ title: Reset
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 150
+weight: 170
 url: /net/aspose.imaging/graphicspath/reset/
 ---
 ## GraphicsPath.Reset method

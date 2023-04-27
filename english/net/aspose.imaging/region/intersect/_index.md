@@ -3,7 +3,7 @@ title: Intersect
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.imaging/region/intersect/
 ---
 ## Region.Intersect method (1 of 4)

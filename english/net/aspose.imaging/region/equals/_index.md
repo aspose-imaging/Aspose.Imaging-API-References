@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /net/aspose.imaging/region/equals/
 ---
-## Region.Equals method
+## Region.Equals method (1 of 2)
 
 Tests whether the specified [`Region`](../../region) is identical to this [`Region`](../../region) on the specified drawing surface.
 
@@ -32,6 +32,30 @@ True if the interior of region is identical to the interior of this region when 
 ### See Also
 
 * class [Graphics](../../graphics)
+* class [Region](../../region)
+* namespace [Aspose.Imaging](../../region)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## Region.Equals method (2 of 2)
+
+Check if objects are equal.
+
+```csharp
+public override bool Equals(object obj)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | Object | The other object. |
+
+### Return Value
+
+The equality comparison result.
+
+### See Also
+
 * class [Region](../../region)
 * namespace [Aspose.Imaging](../../region)
 * assembly [Aspose.Imaging](../../../)

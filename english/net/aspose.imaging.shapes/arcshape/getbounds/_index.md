@@ -3,7 +3,7 @@ title: GetBounds
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.imaging.shapes/arcshape/getbounds/
 ---
 ## ArcShape.GetBounds method (1 of 2)

@@ -3,7 +3,7 @@ title: GetBounds
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.imaging.shapes/textshape/getbounds/
 ---
 ## TextShape.GetBounds method (1 of 2)

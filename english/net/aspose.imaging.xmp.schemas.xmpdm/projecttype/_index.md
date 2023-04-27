@@ -3,7 +3,7 @@ title: ProjectType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11490
+weight: 11500
 url: /net/aspose.imaging.xmp.schemas.xmpdm/projecttype/
 ---
 ## ProjectType enumeration

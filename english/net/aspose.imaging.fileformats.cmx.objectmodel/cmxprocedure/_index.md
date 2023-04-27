@@ -27,6 +27,13 @@ public class CmxProcedure : CmxContainer
 | [BoundBox](../../aspose.imaging.fileformats.cmx.objectmodel/cmxprocedure/boundbox) { get; set; } | Gets or sets the bounding box. |
 | virtual [Elements](../../aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer/elements) { get; } | Gets the elements. |
 
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.imaging.fileformats.cmx.objectmodel/cmxprocedure/equals)(object) | Check if objects are equal. |
+| override [GetHashCode](../../aspose.imaging.fileformats.cmx.objectmodel/cmxprocedure/gethashcode)() | Get hash code of the current object. |
+
 ### See Also
 
 * class [CmxContainer](../cmxcontainer)

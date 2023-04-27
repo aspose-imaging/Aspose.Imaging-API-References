@@ -3,7 +3,7 @@ title: PieShape
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11100
+weight: 11110
 url: /net/aspose.imaging.shapes/pieshape/
 ---
 ## PieShape class
@@ -42,10 +42,10 @@ public class PieShape : EllipseShape
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.imaging.shapes/rectangleprojectedshape/equals)(object) | Determines whether the specified Object is equal to this instance. |
+| override [Equals](../../aspose.imaging.shapes/pieshape/equals)(object) | Check if objects are equal. |
 | override [GetBounds](../../aspose.imaging.shapes/rectangleprojectedshape/getbounds)(Matrix) | Gets the object's bounds. |
 | override [GetBounds](../../aspose.imaging.shapes/rectangleprojectedshape/getbounds)(Matrix, Pen) | Gets the object's bounds. |
-| override [GetHashCode](../../aspose.imaging.shapes/rectangleprojectedshape/gethashcode)() | Returns a hash code for this instance. |
+| override [GetHashCode](../../aspose.imaging.shapes/pieshape/gethashcode)() | Get hash code of the current object. |
 | override [Transform](../../aspose.imaging.shapes/rectangleprojectedshape/transform)(Matrix) | Applies the specified transformation to the shape. |
 
 ### Examples

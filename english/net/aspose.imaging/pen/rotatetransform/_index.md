@@ -3,7 +3,7 @@ title: RotateTransform
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 230
 url: /net/aspose.imaging/pen/rotatetransform/
 ---
 ## Pen.RotateTransform method (1 of 2)

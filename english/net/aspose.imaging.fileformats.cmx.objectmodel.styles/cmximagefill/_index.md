@@ -39,6 +39,8 @@ public class CmxImageFill
 
 | Name | Description |
 | --- | --- |
+| override [Equals](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/equals)(object) | Check if objects are equal. |
+| override [GetHashCode](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/gethashcode)() | Get hash code of the current object. |
 | override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/tostring)() | Returns a String that represents this instance. |
 
 ### See Also

@@ -3,7 +3,7 @@ title: TypeOfEntities
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10370
+weight: 10380
 url: /net/aspose.imaging.imageoptions/typeofentities/
 ---
 ## TypeOfEntities enumeration

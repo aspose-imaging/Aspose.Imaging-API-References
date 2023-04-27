@@ -58,6 +58,7 @@ public class EmfRasterizationOptions : MetafileRasterizationOptions
 
 ### See Also
 
+* class [MetafileRasterizationOptions](../metafilerasterizationoptions)
 * namespace [Aspose.Imaging.ImageOptions](../../aspose.imaging.imageoptions)
 * assembly [Aspose.Imaging](../../)
 

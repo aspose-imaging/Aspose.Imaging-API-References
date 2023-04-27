@@ -35,6 +35,8 @@ public class CmxRectangleSpec : ICmxObjectSpec
 
 | Name | Description |
 | --- | --- |
+| override [Equals](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/equals)(object) | Check if objects are equal. |
+| override [GetHashCode](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/gethashcode)() | Get hash code of the current object. |
 | override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglespec/tostring)() | Returns a String that represents this instance. |
 
 ### See Also

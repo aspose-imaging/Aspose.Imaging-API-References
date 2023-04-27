@@ -3,7 +3,7 @@ title: ToString
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 70
+weight: 90
 url: /net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/tostring/
 ---
 ## CmxPathPointSpec.ToString method

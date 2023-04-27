@@ -32,6 +32,8 @@ public class CmxObject : ICmxDocElement
 
 | Name | Description |
 | --- | --- |
+| override [Equals](../../aspose.imaging.fileformats.cmx.objectmodel/cmxobject/equals)(object) | Check if objects are equal. |
+| override [GetHashCode](../../aspose.imaging.fileformats.cmx.objectmodel/cmxobject/gethashcode)() | Get hash code of the current object. |
 | override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel/cmxobject/tostring)() | Returns a String that represents this instance. |
 
 ### See Also

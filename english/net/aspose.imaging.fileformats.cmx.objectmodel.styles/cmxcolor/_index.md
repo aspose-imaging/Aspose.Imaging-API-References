@@ -31,6 +31,8 @@ public class CmxColor
 
 | Name | Description |
 | --- | --- |
+| override [Equals](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor/equals)(object) | Check if objects are equal. |
+| override [GetHashCode](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor/gethashcode)() | Get hash code of the current object. |
 | override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor/tostring)() | Returns a String that represents this instance. |
 
 ### See Also

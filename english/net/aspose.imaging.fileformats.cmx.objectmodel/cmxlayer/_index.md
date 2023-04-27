@@ -30,6 +30,13 @@ public class CmxLayer : CmxContainer
 | [Name](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/name) { get; set; } | Gets or sets the name of the layer. |
 | [Number](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/number) { get; set; } | Gets or sets the layer order number. |
 
+## Methods
+
+| Name | Description |
+| --- | --- |
+| override [Equals](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/equals)(object) | Check if objects are equal. |
+| override [GetHashCode](../../aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/gethashcode)() | Get hash code of the current object. |
+
 ## Fields
 
 | Name | Description |

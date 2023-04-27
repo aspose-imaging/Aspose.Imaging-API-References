@@ -30,6 +30,8 @@ public abstract class TransformBrush : Brush
 | --- | --- |
 | virtual [DeepClone](../../aspose.imaging/brush/deepclone)() | Creates a new deep clone of the current [`Brush`](../../aspose.imaging/brush). |
 | [Dispose](../../aspose.imaging/disposableobject/dispose)() | Disposes the current instance. |
+| override [Equals](../../aspose.imaging/brush/equals)(object) | Check if objects are equal. |
+| override [GetHashCode](../../aspose.imaging/brush/gethashcode)() | Get hash code of the current object. |
 | [MultiplyTransform](../../aspose.imaging.brushes/transformbrush/multiplytransform)(Matrix) | Multiplies the [`Matrix`](../../aspose.imaging/matrix) that represents the local geometric transform of this [`LinearGradientBrush`](../lineargradientbrush) by the specified [`Matrix`](../../aspose.imaging/matrix) by prepending the specified [`Matrix`](../../aspose.imaging/matrix). |
 | [MultiplyTransform](../../aspose.imaging.brushes/transformbrush/multiplytransform)(Matrix, MatrixOrder) | Multiplies the [`Matrix`](../../aspose.imaging/matrix) that represents the local geometric transform of this [`LinearGradientBrush`](../lineargradientbrush) by the specified [`Matrix`](../../aspose.imaging/matrix) in the specified order. |
 | [ResetTransform](../../aspose.imaging.brushes/transformbrush/resettransform)() | Resets the [`Transform`](./transform) property to identity. |

@@ -3,7 +3,7 @@ title: MasterDesktopLayerName
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 80
 url: /net/aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/masterdesktoplayername/
 ---
 ## CmxLayer.MasterDesktopLayerName field

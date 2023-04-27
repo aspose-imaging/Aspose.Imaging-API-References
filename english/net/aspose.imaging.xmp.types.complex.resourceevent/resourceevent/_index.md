@@ -3,7 +3,7 @@ title: ResourceEvent
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11700
+weight: 11710
 url: /net/aspose.imaging.xmp.types.complex.resourceevent/resourceevent/
 ---
 ## ResourceEvent class

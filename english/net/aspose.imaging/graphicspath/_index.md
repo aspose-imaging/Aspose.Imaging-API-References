@@ -40,11 +40,13 @@ public sealed class GraphicsPath : ObjectWithBounds
 | [AddPath](../../aspose.imaging/graphicspath/addpath)(GraphicsPath) | Appends the specified [`GraphicsPath`](../graphicspath) to this path. |
 | [AddPath](../../aspose.imaging/graphicspath/addpath)(GraphicsPath, bool) | Appends the specified [`GraphicsPath`](../graphicspath) to this path. |
 | [DeepClone](../../aspose.imaging/graphicspath/deepclone)() | Performs a deep clone of this graphics path. |
+| override [Equals](../../aspose.imaging/graphicspath/equals)(object) | Check if objects are equal. |
 | [Flatten](../../aspose.imaging/graphicspath/flatten)() | Converts each curve in this path into a sequence of connected line segments. |
 | [Flatten](../../aspose.imaging/graphicspath/flatten)(Matrix) | Applies the specified transform and then converts each curve in this [`GraphicsPath`](../graphicspath) into a sequence of connected line segments. |
 | [Flatten](../../aspose.imaging/graphicspath/flatten)(Matrix, float) | Converts each curve in this [`GraphicsPath`](../graphicspath) into a sequence of connected line segments. |
 | override [GetBounds](../../aspose.imaging/graphicspath/getbounds)(Matrix) | Gets the object's bounds. |
 | override [GetBounds](../../aspose.imaging/graphicspath/getbounds)(Matrix, Pen) | Gets the object's bounds. |
+| override [GetHashCode](../../aspose.imaging/graphicspath/gethashcode)() | Get hash code of the current object. |
 | [IsOutlineVisible](../../aspose.imaging/graphicspath/isoutlinevisible)(Point, Pen) | Indicates whether the specified point is contained within (under) the outline of this [`GraphicsPath`](../graphicspath) when drawn with the specified [`Pen`](../pen). |
 | [IsOutlineVisible](../../aspose.imaging/graphicspath/isoutlinevisible)(PointF, Pen) | Indicates whether the specified point is contained within (under) the outline of this [`GraphicsPath`](../graphicspath) when drawn with the specified [`Pen`](../pen). |
 | [IsOutlineVisible](../../aspose.imaging/graphicspath/isoutlinevisible)(float, float, Pen) | Indicates whether the specified point is contained within (under) the outline of this [`GraphicsPath`](../graphicspath) when drawn with the specified [`Pen`](../pen). |

@@ -31,6 +31,8 @@ public class CmxGroup : CmxContainer
 
 | Name | Description |
 | --- | --- |
+| override [Equals](../../aspose.imaging.fileformats.cmx.objectmodel/cmxgroup/equals)(object) | Check if objects are equal. |
+| override [GetHashCode](../../aspose.imaging.fileformats.cmx.objectmodel/cmxgroup/gethashcode)() | Get hash code of the current object. |
 | override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel/cmxgroup/tostring)() | Returns a String that represents this instance. |
 
 ### See Also

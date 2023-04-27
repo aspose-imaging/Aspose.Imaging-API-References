@@ -41,6 +41,8 @@ public class CmxRasterImage : ICmxObjectSpec
 
 | Name | Description |
 | --- | --- |
+| override [Equals](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/equals)(object) | Check if objects are equal. |
+| override [GetHashCode](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/gethashcode)() | Get hash code of the current object. |
 | override [ToString](../../aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/tostring)() | Returns a String that represents this instance. |
 
 ### See Also

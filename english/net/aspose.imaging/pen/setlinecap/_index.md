@@ -3,7 +3,7 @@ title: SetLineCap
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 230
+weight: 250
 url: /net/aspose.imaging/pen/setlinecap/
 ---
 ## Pen.SetLineCap method
