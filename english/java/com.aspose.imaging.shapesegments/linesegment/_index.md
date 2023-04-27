@@ -1,7 +1,7 @@
 ---
 title: LineSegment
 second_title: Aspose.Imaging for Java API Reference
-description: Represents a segment leading derectly from a specific point to the next point.
+description: Represents a segment leading directly from a specific point to the next point.
 type: docs
 weight: 11
 url: /java/com.aspose.imaging.shapesegments/linesegment/
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.imaging.ShapeSegment](../../com.aspose.imaging/sha
 public class LineSegment extends ShapeSegment
 ```
 
-Represents a segment leading derectly from a specific point to the next point.
+Represents a segment leading directly from a specific point to the next point.
 ## Constructors
 
 | Constructor | Description |
@@ -24,6 +24,8 @@ Represents a segment leading derectly from a specific point to the next point.
 | --- | --- |
 | [getStartPoint()](#getStartPoint--) | Gets the starting point. |
 | [getEndPoint()](#getEndPoint--) | Gets the ending point. |
+| [equals(Object o)](#equals-java.lang.Object-) | Check if objects are equal. |
+| [hashCode()](#hashCode--) | Get hash code of the current object. |
 ### LineSegment(PointF startPoint, PointF endPoint) {#LineSegment-com.aspose.imaging.PointF-com.aspose.imaging.PointF-}
 ```
 public LineSegment(PointF startPoint, PointF endPoint)
@@ -62,3 +64,28 @@ Value: The ending point.
 
 **Returns:**
 [PointF](../../com.aspose.imaging/pointf)
+### equals(Object o) {#equals-java.lang.Object-}
+```
+public boolean equals(Object o)
+```
+
+
+Check if objects are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object | The other object. |
+
+**Returns:**
+boolean - The equality comparison result.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Get hash code of the current object.
+
+**Returns:**
+int - The hash code.

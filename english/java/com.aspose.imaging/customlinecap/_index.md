@@ -38,6 +38,8 @@ Encapsulates a custom user-defined line cap.
 | [setWidthScale(float value)](#setWidthScale-float-) | Sets the amount by which to scale this `CustomLineCap` Class object with respect to the width of the `System.Drawing.Pen` object. |
 | [setStrokeCaps(int startCap, int endCap)](#setStrokeCaps-int-int-) | Sets the caps used to start and end lines that make up this custom cap. |
 | [getStrokeCaps(int[] startCap, int[] endCap)](#getStrokeCaps-int---int---) | Gets the caps used to start and end lines that make up this custom cap. |
+| [equals(Object o)](#equals-java.lang.Object-) | Check if objects are equal. |
+| [hashCode()](#hashCode--) | Get hash code of the current object. |
 ### CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath) {#CustomLineCap-com.aspose.imaging.GraphicsPath-com.aspose.imaging.GraphicsPath-}
 ```
 public CustomLineCap(GraphicsPath fillPath, GraphicsPath strokePath)
@@ -249,3 +251,28 @@ Gets the caps used to start and end lines that make up this custom cap.
 | startCap | int[] | The `LineCap` enumeration used at the beginning of a line within this cap. |
 | endCap | int[] | The `LineCap` enumeration used at the end of a line within this cap. |
 
+### equals(Object o) {#equals-java.lang.Object-}
+```
+public boolean equals(Object o)
+```
+
+
+Check if objects are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object | The other object. |
+
+**Returns:**
+boolean - The equality comparison result.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Get hash code of the current object.
+
+**Returns:**
+int - The hash code.

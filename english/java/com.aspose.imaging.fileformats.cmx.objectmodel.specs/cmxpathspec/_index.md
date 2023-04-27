@@ -29,6 +29,8 @@ Represents geometric info specified for a path.
 | [setPoints(CmxPathPointSpec[] value)](#setPoints-com.aspose.imaging.fileformats.cmx.objectmodel.specs.CmxPathPointSpec---) | Sets the points. |
 | [getType()](#getType--) | Gets the type. |
 | [setType(int value)](#setType-int-) | Sets the type. |
+| [equals(Object o)](#equals-java.lang.Object-) | Check if objects are equal. |
+| [hashCode()](#hashCode--) | Get the hash code of the current object. |
 ### CmxPathSpec() {#CmxPathSpec--}
 ```
 public CmxPathSpec()
@@ -85,3 +87,28 @@ Value: The type.
 | --- | --- | --- |
 | value | int | the type. |
 
+### equals(Object o) {#equals-java.lang.Object-}
+```
+public boolean equals(Object o)
+```
+
+
+Check if objects are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object | The other object. |
+
+**Returns:**
+boolean - The equality comparison result.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Get the hash code of the current object.
+
+**Returns:**
+int - The hash code.

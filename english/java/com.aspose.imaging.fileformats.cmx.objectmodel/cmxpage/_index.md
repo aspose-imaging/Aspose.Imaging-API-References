@@ -33,6 +33,8 @@ The page of the CMX document.
 | [setWidth(float value)](#setWidth-float-) | Sets the page width. |
 | [getHeight()](#getHeight--) | Gets the page height. |
 | [setHeight(float value)](#setHeight-float-) | Sets the page height. |
+| [equals(Object o)](#equals-java.lang.Object-) | Check if objects are equal. |
+| [hashCode()](#hashCode--) | Get hash code of the current object |
 ### CmxPage() {#CmxPage--}
 ```
 public CmxPage()
@@ -166,3 +168,28 @@ Sets the page height.
 | --- | --- | --- |
 | value | float | the page height. |
 
+### equals(Object o) {#equals-java.lang.Object-}
+```
+public boolean equals(Object o)
+```
+
+
+Check if objects are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object | The other object. |
+
+**Returns:**
+boolean - The equality comparison result.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Get hash code of the current object
+
+**Returns:**
+int - The hash code.

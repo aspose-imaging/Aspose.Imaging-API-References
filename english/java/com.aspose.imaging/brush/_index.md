@@ -25,6 +25,8 @@ The base brush class.
 | [getOpacity()](#getOpacity--) | Gets the brush opacity. |
 | [setOpacity(float value)](#setOpacity-float-) | Sets the brush opacity. |
 | [deepClone()](#deepClone--) | Creates a new deep clone of the current `Brush`. |
+| [equals(Object o)](#equals-java.lang.Object-) | Check if objects are equal. |
+| [hashCode()](#hashCode--) | Get hash code of the current object. |
 ### Brush() {#Brush--}
 ```
 public Brush()
@@ -64,3 +66,28 @@ Creates a new deep clone of the current `Brush`.
 
 **Returns:**
 [Brush](../../com.aspose.imaging/brush) - A new `Brush` which is the deep clone of this `Brush` instance.
+### equals(Object o) {#equals-java.lang.Object-}
+```
+public boolean equals(Object o)
+```
+
+
+Check if objects are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object | The other object. |
+
+**Returns:**
+boolean - The equality comparison result.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Get hash code of the current object.
+
+**Returns:**
+int - The hash code.

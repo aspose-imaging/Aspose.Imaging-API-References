@@ -68,6 +68,8 @@ Defines an object used to draw lines, curves and figures.
 | [scaleTransform(float sx, float sy, int order)](#scaleTransform-float-float-int-) | Scales the local geometric transformation by the specified factors in the specified order. |
 | [rotateTransform(float angle)](#rotateTransform-float-) | Rotates the local geometric transformation by the specified angle. |
 | [rotateTransform(float angle, int order)](#rotateTransform-float-int-) | Rotates the local geometric transformation by the specified angle in the specified order. |
+| [equals(Object o)](#equals-java.lang.Object-) | Check if objects are equal. |
+| [hashCode()](#hashCode--) |  |
 
 ## Example: This example shows the creation and usage Pen objects.
 This example shows the creation and usage Pen objects. The example creates a new Image and draw Rectangles on Image surface.
@@ -692,3 +694,28 @@ Rotates the local geometric transformation by the specified angle in the specifi
 | angle | float | The angle of rotation. |
 | order | int | A `MatrixOrder` that specifies whether to append or prepend the rotation matrix. |
 
+### equals(Object o) {#equals-java.lang.Object-}
+```
+public boolean equals(Object o)
+```
+
+
+Check if objects are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object | The other object. |
+
+**Returns:**
+boolean - The equality comparison result.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Get hash code of the current object.
+
+**Returns:**
+int

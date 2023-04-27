@@ -32,6 +32,8 @@ Object containing information about the graphic element.
 | [getObjectSpec()](#getObjectSpec--) | Gets the object specification. |
 | [setObjectSpec(ICmxObjectSpec value)](#setObjectSpec-com.aspose.imaging.fileformats.cmx.objectmodel.specs.ICmxObjectSpec-) | Sets the object specification. |
 | [toString()](#toString--) | Returns a String that represents this instance. |
+| [equals(Object o)](#equals-java.lang.Object-) | Check if objects are equal. |
+| [hashCode()](#hashCode--) | Get hash code of the current object. |
 ### CmxObject() {#CmxObject--}
 ```
 public CmxObject()
@@ -117,3 +119,28 @@ Returns a String that represents this instance.
 
 **Returns:**
 java.lang.String - A String that represents this instance.
+### equals(Object o) {#equals-java.lang.Object-}
+```
+public boolean equals(Object o)
+```
+
+
+Check if objects are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object | The other object. |
+
+**Returns:**
+boolean - The equality comparison result.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Get hash code of the current object.
+
+**Returns:**
+int - The hash code.

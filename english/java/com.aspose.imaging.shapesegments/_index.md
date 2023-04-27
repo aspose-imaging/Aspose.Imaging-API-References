@@ -15,4 +15,4 @@ The package contains different shape segments which combine shapes.
 | Class | Description |
 | --- | --- |
 | [BezierSegment](../com.aspose.imaging.shapesegments/beziersegment) | The bezier segment going from one point to the next point and using two control points. |
-| [LineSegment](../com.aspose.imaging.shapesegments/linesegment) | Represents a segment leading derectly from a specific point to the next point. |
+| [LineSegment](../com.aspose.imaging.shapesegments/linesegment) | Represents a segment leading directly from a specific point to the next point. |

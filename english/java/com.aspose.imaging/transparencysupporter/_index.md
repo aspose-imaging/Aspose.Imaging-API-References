@@ -24,6 +24,8 @@ The object supporting transparency.
 | --- | --- |
 | [getOpacity()](#getOpacity--) | Gets the object's opacity. |
 | [setOpacity(float value)](#setOpacity-float-) | Sets the object's opacity. |
+| [equals(Object o)](#equals-java.lang.Object-) | Check if objects are equal. |
+| [hashCode()](#hashCode--) | Get hash code of the current object. |
 ### TransparencySupporter() {#TransparencySupporter--}
 ```
 public TransparencySupporter()
@@ -53,3 +55,28 @@ Sets the object's opacity. The value should be between 0 and 1. Value of 0 means
 | --- | --- | --- |
 | value | float | The opacity value. |
 
+### equals(Object o) {#equals-java.lang.Object-}
+```
+public boolean equals(Object o)
+```
+
+
+Check if objects are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object | The other object. |
+
+**Returns:**
+boolean - The equality comparison result.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Get hash code of the current object.
+
+**Returns:**
+int - The hash code.

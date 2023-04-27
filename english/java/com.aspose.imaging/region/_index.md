@@ -69,6 +69,8 @@ Describes the interior of a graphics shape composed of rectangles and paths. Thi
 | [isVisible(Rectangle rect)](#isVisible-com.aspose.imaging.Rectangle-) | Tests whether any portion of the specified `com.aspose.imaging.Rectangle` structure is contained within this `com.aspose.imaging.region`. |
 | [isVisible(int x, int y, int width, int height, Graphics g)](#isVisible-int-int-int-int-com.aspose.imaging.Graphics-) | Tests whether any portion of the specified rectangle is contained within this `com.aspose.imaging.Region` when drawn using the specified `com.aspose.imaging.graphics`. |
 | [isVisible(Rectangle rect, Graphics g)](#isVisible-com.aspose.imaging.Rectangle-com.aspose.imaging.Graphics-) | Tests whether any portion of the specified `com.aspose.imaging.Rectangle` structure is contained within this `com.aspose.imaging.Region` when drawn using the specified `com.aspose.imaging.graphics`. |
+| [equals(Object o)](#equals-java.lang.Object-) | Check if objects are equal. |
+| [hashCode()](#hashCode--) | Get hash code of the current object. |
 ### Region() {#Region--}
 ```
 public Region()
@@ -737,3 +739,28 @@ Tests whether any portion of the specified `com.aspose.imaging.Rectangle` struct
 
 **Returns:**
 boolean - true when any portion of the `rect` is contained within this `com.aspose.imaging.Region`; otherwise, false.
+### equals(Object o) {#equals-java.lang.Object-}
+```
+public boolean equals(Object o)
+```
+
+
+Check if objects are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object | The other object. |
+
+**Returns:**
+boolean - The equality comparison result.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Get hash code of the current object.
+
+**Returns:**
+int - The hash code.

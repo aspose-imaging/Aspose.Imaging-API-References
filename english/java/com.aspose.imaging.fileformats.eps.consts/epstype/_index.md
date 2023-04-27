@@ -21,7 +21,7 @@ Subtypes of Encapsulated PostScript format
 | [Interchange](#Interchange) | EPS Interchange |
 ### Binary {#Binary}
 ```
-public static final int Binary
+public static final short Binary
 ```
 
 
@@ -29,7 +29,7 @@ EPS Binary
 
 ### Interchange {#Interchange}
 ```
-public static final int Interchange
+public static final short Interchange
 ```
 
 

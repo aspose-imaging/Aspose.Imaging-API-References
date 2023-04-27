@@ -25,14 +25,14 @@ Class for Encapsulated PostScript format with binary header
 | [convertToInterchange()](#convertToInterchange--) | Converts this instance to `EpsInterchangeImage` |
 ### getEpsType() {#getEpsType--}
 ```
-public int getEpsType()
+public short getEpsType()
 ```
 
 
 Gets EPS subtype value
 
 **Returns:**
-int
+short
 ### hasRasterPreview() {#hasRasterPreview--}
 ```
 public boolean hasRasterPreview()

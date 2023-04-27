@@ -32,6 +32,8 @@ The paragraph style.
 | [setLineSpacing(float value)](#setLineSpacing-float-) | Sets the line spacing. |
 | [getHorizontalAlignment()](#getHorizontalAlignment--) | Gets the horizontal alignment. |
 | [setHorizontalAlignment(int value)](#setHorizontalAlignment-int-) | Sets the horizontal alignment. |
+| [equals(Object o)](#equals-java.lang.Object-) | Check if objects are equal. |
+| [hashCode()](#hashCode--) | Get hash code of the current object. |
 ### CmxParagraphStyle() {#CmxParagraphStyle--}
 ```
 public CmxParagraphStyle()
@@ -153,3 +155,28 @@ Sets the horizontal alignment.
 | --- | --- | --- |
 | value | int | the horizontal alignment. |
 
+### equals(Object o) {#equals-java.lang.Object-}
+```
+public boolean equals(Object o)
+```
+
+
+Check if objects are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object | The other object. |
+
+**Returns:**
+boolean - The equality comparison result.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Get hash code of the current object.
+
+**Returns:**
+int - The hash code.

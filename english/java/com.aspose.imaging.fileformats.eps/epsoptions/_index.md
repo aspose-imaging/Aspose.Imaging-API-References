@@ -23,7 +23,7 @@ EPS options (currently not used)
 | Method | Description |
 | --- | --- |
 | [getSubType()](#getSubType--) | Gets the subtype of EPS format. |
-| [setSubType(int value)](#setSubType-int-) | Sets the subtype of EPS format. |
+| [setSubType(short value)](#setSubType-short-) | Sets the subtype of EPS format. |
 ### EpsOptions() {#EpsOptions--}
 ```
 public EpsOptions()
@@ -32,17 +32,17 @@ public EpsOptions()
 
 ### getSubType() {#getSubType--}
 ```
-public int getSubType()
+public short getSubType()
 ```
 
 
 Gets the subtype of EPS format.
 
 **Returns:**
-int - The subtype of EPS format.
-### setSubType(int value) {#setSubType-int-}
+short - The subtype of EPS format.
+### setSubType(short value) {#setSubType-short-}
 ```
-public void setSubType(int value)
+public void setSubType(short value)
 ```
 
 
@@ -51,5 +51,5 @@ Sets the subtype of EPS format.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The subtype of EPS format. |
+| value | short | The subtype of EPS format. |
 

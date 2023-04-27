@@ -38,6 +38,8 @@ Represents geometric info specified for a rectangle.
 | [getAngle()](#getAngle--) | Gets the angle of rotation of the rectangle. |
 | [setAngle(float value)](#setAngle-float-) | Sets the angle of rotation of the rectangle. |
 | [toString()](#toString--) | Returns a String that represents this instance. |
+| [equals(Object o)](#equals-java.lang.Object-) | Check if objects are equal. |
+| [hashCode()](#hashCode--) | Get hash code of the current object. |
 ### CmxRectangleSpec() {#CmxRectangleSpec--}
 ```
 public CmxRectangleSpec()
@@ -192,3 +194,28 @@ Returns a String that represents this instance.
 
 **Returns:**
 java.lang.String - A String that represents this instance.
+### equals(Object o) {#equals-java.lang.Object-}
+```
+public boolean equals(Object o)
+```
+
+
+Check if objects are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object | The other object. |
+
+**Returns:**
+boolean - The equality comparison result.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Get hash code of the current object.
+
+**Returns:**
+int - The hash code.

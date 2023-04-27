@@ -13,6 +13,8 @@ public final class CurrentThreadSettings
 ```
 
 Auxiliary class that allows to define default Locale for current thread
+
+**Deprecated:** Please use [LocaleOptions](../../com.aspose.imaging/localeoptions) instead of CurrentThreadSettings.
 ## Methods
 
 | Method | Description |

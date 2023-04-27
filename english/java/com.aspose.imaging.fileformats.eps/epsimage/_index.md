@@ -130,14 +130,14 @@ Gets a value of file format
 long
 ### getEpsType() {#getEpsType--}
 ```
-public abstract int getEpsType()
+public abstract short getEpsType()
 ```
 
 
 Gets EPS subtype value
 
 **Returns:**
-int
+short
 ### getPhotoshopThumbnail() {#getPhotoshopThumbnail--}
 ```
 public JpegImage getPhotoshopThumbnail()
@@ -273,7 +273,7 @@ Gets the Creator field
 java.lang.String - The Creator field
 ### getCreationDateString() {#getCreationDateString--}
 ```
-public String getCreationDateString()
+public final String getCreationDateString()
 ```
 
 
@@ -293,14 +293,16 @@ Gets the CreationDate field
 java.util.Date - The CreationDate field
 ### getBoundingBoxString() {#getBoundingBoxString--}
 ```
-public String getBoundingBoxString()
+public final String getBoundingBoxString()
 ```
 
 
 Gets the BoundingBox string value
 
+Value: The BoundingBox string value
+
 **Returns:**
-java.lang.String - The BoundingBox string value
+java.lang.String - the BoundingBox string value
 ### getBoundingBoxBottomLeft() {#getBoundingBoxBottomLeft--}
 ```
 public Point getBoundingBoxBottomLeft()

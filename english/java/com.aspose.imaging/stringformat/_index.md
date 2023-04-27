@@ -47,6 +47,8 @@ Encapsulates text layout information (such as alignment, orientation and tab sto
 | [deepClone()](#deepClone--) | Creates a deep clone of this `com.aspose.imaging.StringFormat` object. |
 | [setTabStops(float firstTabOffset, float[] tabStops)](#setTabStops-float-float---) | Sets tab stops for this `com.aspose.imaging.StringFormat` object. |
 | [toString()](#toString--) | Converts this `com.aspose.imaging.StringFormat` object to a human-readable string. |
+| [equals(Object o)](#equals-java.lang.Object-) | Check if objects are equal. |
+| [hashCode()](#hashCode--) | Get hash code of the current object. |
 ### StringFormat() {#StringFormat--}
 ```
 public StringFormat()
@@ -355,3 +357,28 @@ Converts this `com.aspose.imaging.StringFormat` object to a human-readable strin
 
 **Returns:**
 java.lang.String - A string representation of this `com.aspose.imaging.StringFormat` object.
+### equals(Object o) {#equals-java.lang.Object-}
+```
+public boolean equals(Object o)
+```
+
+
+Check if objects are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object | The other object. |
+
+**Returns:**
+boolean - The equality comparison result.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Get hash code of the current object.
+
+**Returns:**
+int - The hash code.

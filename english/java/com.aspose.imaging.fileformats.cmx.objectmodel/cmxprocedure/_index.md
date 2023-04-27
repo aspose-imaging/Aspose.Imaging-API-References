@@ -24,6 +24,8 @@ The CMX procedure.
 | --- | --- |
 | [getBoundBox()](#getBoundBox--) | Gets the bounding box. |
 | [setBoundBox(RectangleF value)](#setBoundBox-com.aspose.imaging.RectangleF-) | Sets the bounding box. |
+| [equals(Object o)](#equals-java.lang.Object-) | Check if objects are equal. |
+| [hashCode()](#hashCode--) | Get hash code of the current object. |
 ### CmxProcedure() {#CmxProcedure--}
 ```
 public CmxProcedure()
@@ -53,3 +55,28 @@ Sets the bounding box.
 | --- | --- | --- |
 | value | [RectangleF](../../com.aspose.imaging/rectanglef) | the bounding box. |
 
+### equals(Object o) {#equals-java.lang.Object-}
+```
+public boolean equals(Object o)
+```
+
+
+Check if objects are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object | The other object. |
+
+**Returns:**
+boolean - The equality comparison result.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Get hash code of the current object.
+
+**Returns:**
+int - The hash code.

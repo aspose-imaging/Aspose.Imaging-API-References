@@ -25,6 +25,8 @@ Group of [ICmxDocElement](../../com.aspose.imaging.fileformats.cmx.objectmodel/i
 | [getBoundBox()](#getBoundBox--) | Gets the bounding box. |
 | [setBoundBox(RectangleF value)](#setBoundBox-com.aspose.imaging.RectangleF-) | Sets the bounding box. |
 | [toString()](#toString--) | Returns a String that represents this instance. |
+| [equals(Object o)](#equals-java.lang.Object-) |  |
+| [hashCode()](#hashCode--) |  |
 ### CmxGroup() {#CmxGroup--}
 ```
 public CmxGroup()
@@ -64,3 +66,28 @@ Returns a String that represents this instance.
 
 **Returns:**
 java.lang.String - A String that represents this instance.
+### equals(Object o) {#equals-java.lang.Object-}
+```
+public boolean equals(Object o)
+```
+
+
+Check if objects are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object |  |
+
+**Returns:**
+boolean
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Get hash code of the current object.
+
+**Returns:**
+int

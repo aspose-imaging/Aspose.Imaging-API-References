@@ -28,6 +28,8 @@ Represents a pie shape.
 | [getSweepAngle()](#getSweepAngle--) | Gets or sets the sweep angle. |
 | [setSweepAngle(float value)](#setSweepAngle-float-) | Gets or sets the sweep angle. |
 | [getSegments()](#getSegments--) | Gets the shape segments. |
+| [equals(Object o)](#equals-java.lang.Object-) | Check if objects are equal. |
+| [hashCode()](#hashCode--) | Get hash code of the current object. |
 
 ## Example: This example creates a new Image and draws a variety of shapes using Figures and GraphicsPath o...
 This example creates a new Image and draws a variety of shapes using Figures and GraphicsPath on the Image surface
@@ -181,3 +183,28 @@ Value: The shape segments.
 
 **Returns:**
 com.aspose.imaging.ShapeSegment[]
+### equals(Object o) {#equals-java.lang.Object-}
+```
+public boolean equals(Object o)
+```
+
+
+Check if objects are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object | The other object. |
+
+**Returns:**
+boolean - The equality comparison result.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Get hash code of the current object.
+
+**Returns:**
+int - The hash code.

@@ -67,6 +67,8 @@ Represents a series of connected lines and curves. This class cannot be inherite
 | [getBounds(Matrix matrix, Pen pen)](#getBounds-com.aspose.imaging.Matrix-com.aspose.imaging.Pen-) | Gets the object's bounds. |
 | [deepClone()](#deepClone--) | Performs a deep clone of this graphics path. |
 | [transform(Matrix transform)](#transform-com.aspose.imaging.Matrix-) | Applies the specified transformation to the shape. |
+| [equals(Object o)](#equals-java.lang.Object-) | Check if objects are equal. |
+| [hashCode()](#hashCode--) | Get hash code of the current object. |
 
 ## Example: This examples make use of GraphicsPath and Graphics class to create and manipulate Figures on an Image surface.
 This examples make use of GraphicsPath and Graphics class to create and manipulate Figures on an Image surface. Example creates a new Image (of type Tiff) and draw paths with the help of GraphicsPath class. At the end DrawPath method exposed by Graphics class is called to render the paths on surface.
@@ -880,3 +882,28 @@ Applies the specified transformation to the shape.
 | --- | --- | --- |
 | transform | [Matrix](../../com.aspose.imaging/matrix) | The transformation to apply. |
 
+### equals(Object o) {#equals-java.lang.Object-}
+```
+public boolean equals(Object o)
+```
+
+
+Check if objects are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object | The other object. |
+
+**Returns:**
+boolean - The equality comparison result.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Get hash code of the current object.
+
+**Returns:**
+int - The hash code.

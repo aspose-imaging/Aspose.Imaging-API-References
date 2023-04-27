@@ -23,7 +23,7 @@ The Tiff unsigned 64-bit type.
 | Method | Description |
 | --- | --- |
 | [getValues()](#getValues--) | Gets the values. |
-| [setValues(long[] value)](#setValues-long---) | Sets the values. |
+| [setValues(long[] values)](#setValues-long---) | Sets the values. |
 | [getValuesContainer()](#getValuesContainer--) | Gets the values container. |
 | [getTagType()](#getTagType--) | Gets the tag type. |
 | [getValue()](#getValue--) | Gets the value this data type contains. |
@@ -55,9 +55,9 @@ Value: The tag values.
 
 **Returns:**
 long[] - the values.
-### setValues(long[] value) {#setValues-long---}
+### setValues(long[] values) {#setValues-long---}
 ```
-public final void setValues(long[] value)
+public void setValues(long[] values)
 ```
 
 
@@ -68,7 +68,7 @@ Value: The tag values.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | long[] | the values. |
+| values | long[] | The values. |
 
 ### getValuesContainer() {#getValuesContainer--}
 ```

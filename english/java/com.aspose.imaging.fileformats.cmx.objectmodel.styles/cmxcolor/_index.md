@@ -18,7 +18,7 @@ Represents a color value.
 | Constructor | Description |
 | --- | --- |
 | [CmxColor()](#CmxColor--) |  |
-| [CmxColor(int colorModel, long value)](#CmxColor-int-long-) |  |
+| [CmxColor(int colorModel, long value)](#CmxColor-int-long-) | Creates a new CmxColor |
 ## Methods
 
 | Method | Description |
@@ -28,6 +28,8 @@ Represents a color value.
 | [getValue()](#getValue--) | Gets the color value. |
 | [setValue(long value)](#setValue-long-) | Sets the color value. |
 | [toString()](#toString--) | Returns a String that represents this instance. |
+| [equals(Object o)](#equals-java.lang.Object-) | Check if objects are equal. |
+| [hashCode()](#hashCode--) | Get hash code of the current object. |
 ### CmxColor() {#CmxColor--}
 ```
 public CmxColor()
@@ -40,11 +42,13 @@ public CmxColor(int colorModel, long value)
 ```
 
 
+Creates a new CmxColor
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| colorModel | int |  |
-| value | long |  |
+| colorModel | int | the color model. |
+| value | long | The color value. |
 
 ### getColorModel() {#getColorModel--}
 ```
@@ -102,3 +106,28 @@ Returns a String that represents this instance.
 
 **Returns:**
 java.lang.String - A String that represents this instance.
+### equals(Object o) {#equals-java.lang.Object-}
+```
+public boolean equals(Object o)
+```
+
+
+Check if objects are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object | The other object. |
+
+**Returns:**
+boolean - The equality comparison result.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Get hash code of the current object.
+
+**Returns:**
+int - The hash code.

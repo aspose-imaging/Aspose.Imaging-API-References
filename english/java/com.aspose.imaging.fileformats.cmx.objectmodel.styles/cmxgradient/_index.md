@@ -47,6 +47,8 @@ Represents a gradient info.
 | [getType()](#getType--) | Gets the type. |
 | [setType(int value)](#setType-int-) | Sets the type. |
 | [toString()](#toString--) | Returns a String that represents this instance. |
+| [equals(Object o)](#equals-java.lang.Object-) |  |
+| [hashCode()](#hashCode--) |  |
 ### CmxGradient() {#CmxGradient--}
 ```
 public CmxGradient()
@@ -339,3 +341,28 @@ Returns a String that represents this instance.
 
 **Returns:**
 java.lang.String - A String that represents this instance.
+### equals(Object o) {#equals-java.lang.Object-}
+```
+public boolean equals(Object o)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| o | java.lang.Object |  |
+
+**Returns:**
+boolean
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+
+
+**Returns:**
+int

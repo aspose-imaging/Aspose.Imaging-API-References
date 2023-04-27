@@ -24,6 +24,8 @@ The bezier segment going from one point to the next point and using two control 
 | --- | --- |
 | [getFirstControlPoint()](#getFirstControlPoint--) | Gets the first control point of a bezier spline. |
 | [getSecondControlPoint()](#getSecondControlPoint--) | Gets the second control point of a bezier spline. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Check if objects are equal. |
+| [hashCode()](#hashCode--) | Get hash code of the current object. |
 ### BezierSegment(PointF startPoint, PointF firstControlPoint, PointF secondControlPoint, PointF endPoint) {#BezierSegment-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-com.aspose.imaging.PointF-}
 ```
 public BezierSegment(PointF startPoint, PointF firstControlPoint, PointF secondControlPoint, PointF endPoint)
@@ -60,3 +62,28 @@ Gets the second control point of a bezier spline.
 
 **Returns:**
 [PointF](../../com.aspose.imaging/pointf) - The second control point.
+### equals(Object obj) {#equals-java.lang.Object-}
+```
+public boolean equals(Object obj)
+```
+
+
+Check if objects are equal.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object | The other object. |
+
+**Returns:**
+boolean - The equality comparison result.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+Get hash code of the current object.
+
+**Returns:**
+int - The hash code.
