@@ -6,7 +6,27 @@ type: docs
 weight: 40
 url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write/
 ---
-## TiffStreamWriter.Write method (1 of 25)
+## TiffStreamWriter.Write method (1 of 26)
+
+Writes the specified data.
+
+```csharp
+public void Write(MemoryStream stream)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | MemoryStream | The stream. |
+
+### See Also
+
+* class [TiffStreamWriter](../../tiffstreamwriter)
+* namespace [Aspose.Imaging.FileFormats.Tiff.FileManagement](../../tiffstreamwriter)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## TiffStreamWriter.Write method (2 of 26)
 
 Writes the specified data.
 
@@ -28,7 +48,7 @@ public void Write(byte[] data, int offset, int dataLength)
 
 ---
 
-## TiffStreamWriter.Write method (2 of 25)
+## TiffStreamWriter.Write method (3 of 26)
 
 Writes the specified data.
 
@@ -48,7 +68,7 @@ public void Write(byte[] data)
 
 ---
 
-## TiffStreamWriter.Write method (3 of 25)
+## TiffStreamWriter.Write method (4 of 26)
 
 Writes a single double value to the stream.
 
@@ -68,7 +88,7 @@ public void Write(double data)
 
 ---
 
-## TiffStreamWriter.Write method (4 of 25)
+## TiffStreamWriter.Write method (5 of 26)
 
 Writes an array of double values to the stream.
 
@@ -88,7 +108,7 @@ public void Write(double[] data)
 
 ---
 
-## TiffStreamWriter.Write method (5 of 25)
+## TiffStreamWriter.Write method (6 of 26)
 
 Writes a single float value to the stream.
 
@@ -108,7 +128,7 @@ public void Write(float data)
 
 ---
 
-## TiffStreamWriter.Write method (6 of 25)
+## TiffStreamWriter.Write method (7 of 26)
 
 Writes an array of float values to the stream.
 
@@ -128,7 +148,7 @@ public void Write(float[] data)
 
 ---
 
-## TiffStreamWriter.Write method (7 of 25)
+## TiffStreamWriter.Write method (8 of 26)
 
 Writes a single rational number value to the stream.
 
@@ -149,7 +169,7 @@ public void Write(TiffRational data)
 
 ---
 
-## TiffStreamWriter.Write method (8 of 25)
+## TiffStreamWriter.Write method (9 of 26)
 
 Writes a single signed rational number value to the stream.
 
@@ -170,7 +190,7 @@ public void Write(TiffSRational data)
 
 ---
 
-## TiffStreamWriter.Write method (9 of 25)
+## TiffStreamWriter.Write method (10 of 26)
 
 Writes an array of unsigned rational values to the stream.
 
@@ -191,7 +211,7 @@ public void Write(TiffRational[] data)
 
 ---
 
-## TiffStreamWriter.Write method (10 of 25)
+## TiffStreamWriter.Write method (11 of 26)
 
 Writes an array of signed rational values to the stream.
 
@@ -212,7 +232,7 @@ public void Write(TiffSRational[] data)
 
 ---
 
-## TiffStreamWriter.Write method (11 of 25)
+## TiffStreamWriter.Write method (12 of 26)
 
 Writes a single signed byte value to the stream.
 
@@ -232,7 +252,7 @@ public void Write(sbyte data)
 
 ---
 
-## TiffStreamWriter.Write method (12 of 25)
+## TiffStreamWriter.Write method (13 of 26)
 
 Writes an array of signed byte values to the stream.
 
@@ -252,7 +272,7 @@ public void Write(sbyte[] data)
 
 ---
 
-## TiffStreamWriter.Write method (13 of 25)
+## TiffStreamWriter.Write method (14 of 26)
 
 Writes an array of integer values to the stream.
 
@@ -272,7 +292,7 @@ public void Write(int[] data)
 
 ---
 
-## TiffStreamWriter.Write method (14 of 25)
+## TiffStreamWriter.Write method (15 of 26)
 
 Writes a single short value to the stream.
 
@@ -292,7 +312,7 @@ public void Write(short data)
 
 ---
 
-## TiffStreamWriter.Write method (15 of 25)
+## TiffStreamWriter.Write method (16 of 26)
 
 Writes an array of short values to the stream.
 
@@ -312,7 +332,7 @@ public void Write(short[] data)
 
 ---
 
-## TiffStreamWriter.Write method (16 of 25)
+## TiffStreamWriter.Write method (17 of 26)
 
 Writes a single integer value to the stream.
 
@@ -332,7 +352,7 @@ public void Write(int data)
 
 ---
 
-## TiffStreamWriter.Write method (17 of 25)
+## TiffStreamWriter.Write method (18 of 26)
 
 Writes a single byte value to the stream.
 
@@ -352,7 +372,7 @@ public void Write(byte data)
 
 ---
 
-## TiffStreamWriter.Write method (18 of 25)
+## TiffStreamWriter.Write method (19 of 26)
 
 Writes a single unsigned integer value to the stream.
 
@@ -372,7 +392,7 @@ public void Write(uint data)
 
 ---
 
-## TiffStreamWriter.Write method (19 of 25)
+## TiffStreamWriter.Write method (20 of 26)
 
 Writes an array of unsigned integer values to the stream.
 
@@ -392,7 +412,7 @@ public void Write(uint[] data)
 
 ---
 
-## TiffStreamWriter.Write method (20 of 25)
+## TiffStreamWriter.Write method (21 of 26)
 
 Writes a single unsigned short value to the stream.
 
@@ -412,7 +432,7 @@ public void Write(ushort data)
 
 ---
 
-## TiffStreamWriter.Write method (21 of 25)
+## TiffStreamWriter.Write method (22 of 26)
 
 Writes an array of unsigned short values to the stream.
 
@@ -432,7 +452,7 @@ public void Write(ushort[] data)
 
 ---
 
-## TiffStreamWriter.Write method (22 of 25)
+## TiffStreamWriter.Write method (23 of 26)
 
 Writes an array of signed long values to the stream.
 
@@ -452,7 +472,7 @@ public void Write(long data)
 
 ---
 
-## TiffStreamWriter.Write method (23 of 25)
+## TiffStreamWriter.Write method (24 of 26)
 
 Writes an array of signed long values to the stream.
 
@@ -472,7 +492,7 @@ public void Write(long[] data)
 
 ---
 
-## TiffStreamWriter.Write method (24 of 25)
+## TiffStreamWriter.Write method (25 of 26)
 
 Writes an array of unsigned long values to the stream.
 
@@ -492,7 +512,7 @@ public void Write(ulong data)
 
 ---
 
-## TiffStreamWriter.Write method (25 of 25)
+## TiffStreamWriter.Write method (26 of 26)
 
 Writes an array of unsigned long values to the stream.
 

@@ -6,12 +6,28 @@ type: docs
 weight: 10
 url: /net/aspose.imaging.imageoptions/icooptions/icooptions/
 ---
-## IcoOptions constructor
+## IcoOptions constructor (1 of 2)
+
+Initializes a new instance of the [`IcoOptions`](../../icooptions) class with the ICO frame format equals to Png and bitsPerPixel equals to 32.
+
+```csharp
+public IcoOptions()
+```
+
+### See Also
+
+* class [IcoOptions](../../icooptions)
+* namespace [Aspose.Imaging.ImageOptions](../../icooptions)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## IcoOptions constructor (2 of 2)
 
 Initializes a new instance of the [`IcoOptions`](../../icooptions) class.
 
 ```csharp
-public IcoOptions(FileFormat format = FileFormat.Png, int bitsPerPixel = 32)
+public IcoOptions(FileFormat format, int bitsPerPixel = 32)
 ```
 
 | Parameter | Type | Description |

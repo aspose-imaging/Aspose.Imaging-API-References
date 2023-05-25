@@ -11,7 +11,7 @@ url: /net/aspose.imaging.masking/imagemasking/decomposeasync/
 Creates the asynchronous decompose task using specified masking options.
 
 ```csharp
-public IAsyncTask DecomposeAsync(MaskingOptions options)
+public IMaskingAsyncTask DecomposeAsync(MaskingOptions options)
 ```
 
 | Parameter | Type | Description |
@@ -24,7 +24,7 @@ The asynchronous decompose task
 
 ### See Also
 
-* interface [IAsyncTask](../../../aspose.imaging.asynctask/iasynctask)
+* interface [IMaskingAsyncTask](../../imaskingasynctask)
 * class [MaskingOptions](../../../aspose.imaging.masking.options/maskingoptions)
 * class [ImageMasking](../../imagemasking)
 * namespace [Aspose.Imaging.Masking](../../imagemasking)

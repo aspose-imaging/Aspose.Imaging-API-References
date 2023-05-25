@@ -3,7 +3,7 @@ title: XmpDate
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11580
+weight: 11590
 url: /net/aspose.imaging.xmp.types.basic/xmpdate/
 ---
 ## XmpDate class

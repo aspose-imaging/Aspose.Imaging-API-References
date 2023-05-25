@@ -11,7 +11,7 @@ url: /net/aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/
 The Tiff stream writer.
 
 ```csharp
-public class TiffStreamWriter : ​  
+public class TiffStreamWriter : ​  
 ```
 
 ## Constructors
@@ -41,6 +41,7 @@ public class TiffStreamWriter : ​  
 | [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write)(int[]) | Writes an array of integer values to the stream. |
 | [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write)(long) | Writes an array of signed long values to the stream. |
 | [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write)(long[]) | Writes an array of signed long values to the stream. |
+| [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write)(MemoryStream) | Writes the specified data. |
 | [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write)(sbyte) | Writes a single signed byte value to the stream. |
 | [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write)(sbyte[]) | Writes an array of signed byte values to the stream. |
 | [Write](../../aspose.imaging.fileformats.tiff.filemanagement/tiffstreamwriter/write)(short) | Writes a single short value to the stream. |

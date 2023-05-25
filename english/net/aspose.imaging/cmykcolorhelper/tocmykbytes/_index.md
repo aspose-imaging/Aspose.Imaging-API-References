@@ -3,12 +3,12 @@ title: ToCmykBytes
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 120
 url: /net/aspose.imaging/cmykcolorhelper/tocmykbytes/
 ---
 ## CmykColorHelper.ToCmykBytes method
 
-Converts RGB to CMYK.
+Converts ARGB to CMYK.
 
 ```csharp
 public static byte[] ToCmykBytes(int[] argbPixels, int startIndex, int length)

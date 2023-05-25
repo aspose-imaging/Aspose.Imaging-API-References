@@ -34,7 +34,9 @@ public static class CmykColorHelper
 | static [ToCmyk](../../aspose.imaging/cmykcolorhelper/tocmyk)(Color[]) | The conversion from ARGB colors to CMYK colors. |
 | static [ToCmyk](../../aspose.imaging/cmykcolorhelper/tocmyk)(int) | The conversion from ARGB color to CMYK color. |
 | static [ToCmyk](../../aspose.imaging/cmykcolorhelper/tocmyk)(int[]) | The conversion from ARGB colors to CMYK colors. |
-| static [ToCmykBytes](../../aspose.imaging/cmykcolorhelper/tocmykbytes)(int[], int, int) | Converts RGB to CMYK. |
+| static [ToCmykaBytes](../../aspose.imaging/cmykcolorhelper/tocmykabytes)(int[], int, int) | Converts ARGB to CMYKA (with transparency). |
+| static [ToCmykaIccBytes](../../aspose.imaging/cmykcolorhelper/tocmykaiccbytes)(int[], int, int, Stream, Stream) | Converts RGB to CMYKA (with alpha) using custom ICC profiles. |
+| static [ToCmykBytes](../../aspose.imaging/cmykcolorhelper/tocmykbytes)(int[], int, int) | Converts ARGB to CMYK. |
 | static [ToCmykIcc](../../aspose.imaging/cmykcolorhelper/tocmykicc)(Color) | The conversion from ARGB color to CMYK color using Icc conversion with default profiles. |
 | static [ToCmykIcc](../../aspose.imaging/cmykcolorhelper/tocmykicc)(Color[]) | The conversion from ARGB colors to CMYK colors using Icc conversion with default profiles. |
 | static [ToCmykIcc](../../aspose.imaging/cmykcolorhelper/tocmykicc)(int) | The conversion from ARGB color to CMYK color using Icc conversion with default profiles. |

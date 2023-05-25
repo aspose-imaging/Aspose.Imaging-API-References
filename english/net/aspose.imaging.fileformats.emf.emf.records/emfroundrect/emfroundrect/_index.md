@@ -11,11 +11,16 @@ url: /net/aspose.imaging.fileformats.emf.emf.records/emfroundrect/emfroundrect/
 Initializes a new instance of the [`EmfRoundRect`](../../emfroundrect) class.
 
 ```csharp
-public EmfRoundRect()
+public EmfRoundRect(EmfRecord source)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| source | EmfRecord | The source. |
 
 ### See Also
 
+* class [EmfRecord](../../emfrecord)
 * class [EmfRoundRect](../../emfroundrect)
 * namespace [Aspose.Imaging.FileFormats.Emf.Emf.Records](../../emfroundrect)
 * assembly [Aspose.Imaging](../../../)
@@ -27,16 +32,11 @@ public EmfRoundRect()
 Initializes a new instance of the [`EmfRoundRect`](../../emfroundrect) class.
 
 ```csharp
-public EmfRoundRect(EmfRecord source)
+public EmfRoundRect()
 ```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| source | EmfRecord | The source. |
 
 ### See Also
 
-* class [EmfRecord](../../emfrecord)
 * class [EmfRoundRect](../../emfroundrect)
 * namespace [Aspose.Imaging.FileFormats.Emf.Emf.Records](../../emfroundrect)
 * assembly [Aspose.Imaging](../../../)

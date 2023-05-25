@@ -17,7 +17,7 @@ The namespace contains Tiff file format enumerations.
 | [TiffByteOrder](./tiffbyteorder) | The byte order for the tiff image |
 | [TiffCompressions](./tiffcompressions) | Holds compression types |
 | [TiffDataTypes](./tiffdatatypes) | The tiff data type enum. |
-| [TiffExpectedFormat](./tiffexpectedformat) | The expected tiff file format. |
+| [TiffExpectedFormat](./tiffexpectedformat) | The expected Tiff file format. |
 | [TiffFileStandards](./tifffilestandards) | Specifies the TIFF file format standards. |
 | [TiffFillOrders](./tifffillorders) | Data order within a byte. Possible values for FILLORDER tag. |
 | [TiffNewSubFileTypes](./tiffnewsubfiletypes) | The tiff new sub file type enum. |

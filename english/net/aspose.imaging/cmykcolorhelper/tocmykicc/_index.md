@@ -3,7 +3,7 @@ title: ToCmykIcc
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 110
+weight: 130
 url: /net/aspose.imaging/cmykcolorhelper/tocmykicc/
 ---
 ## CmykColorHelper.ToCmykIcc method (1 of 8)

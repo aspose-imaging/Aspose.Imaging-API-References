@@ -18,6 +18,7 @@ public class IcoOptions : ImageOptionsBase
 
 | Name | Description |
 | --- | --- |
+| [IcoOptions](icooptions)() | Initializes a new instance of the [`IcoOptions`](../icooptions) class with the ICO frame format equals to Png and bitsPerPixel equals to 32. |
 | [IcoOptions](icooptions)(FileFormat, int) | Initializes a new instance of the [`IcoOptions`](../icooptions) class. |
 
 ## Properties

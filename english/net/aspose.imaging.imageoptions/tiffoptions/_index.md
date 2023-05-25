@@ -116,6 +116,7 @@ public class TiffOptions : ImageOptionsBase
 | [GetTagByType](../../aspose.imaging.imageoptions/tiffoptions/gettagbytype)(TiffTags) | Gets the instance of the tag by type. |
 | [IsTagPresent](../../aspose.imaging.imageoptions/tiffoptions/istagpresent)(TiffTags) | Determines whether tag is present in the options or not. |
 | [RemoveTag](../../aspose.imaging.imageoptions/tiffoptions/removetag)(TiffTags) | Removes the tag. |
+| [RemoveTags](../../aspose.imaging.imageoptions/tiffoptions/removetags)(params TiffTags[]) | Removes the tags. |
 | [Validate](../../aspose.imaging.imageoptions/tiffoptions/validate)() | Validates if options have valid combination of tags |
 | static [GetValidTagsCount](../../aspose.imaging.imageoptions/tiffoptions/getvalidtagscount)(TiffDataType[]) | Gets the valid tags count. |
 

@@ -3,7 +3,7 @@ title: ToCmykIccBytes
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 140
 url: /net/aspose.imaging/cmykcolorhelper/tocmykiccbytes/
 ---
 ## CmykColorHelper.ToCmykIccBytes method

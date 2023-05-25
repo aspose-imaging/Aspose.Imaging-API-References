@@ -11,7 +11,7 @@ url: /net/aspose.imaging.masking/imaskingsession/improvedecompositionasync/
 Creates the asynchronous task which can perform retraining decompose operation
 
 ```csharp
-public IAsyncTask ImproveDecompositionAsync(IMaskingArgs maskingArguments)
+public IMaskingAsyncTask ImproveDecompositionAsync(IMaskingArgs maskingArguments)
 ```
 
 | Parameter | Type | Description |
@@ -24,7 +24,7 @@ The asynchronous decompose task
 
 ### See Also
 
-* interface [IAsyncTask](../../../aspose.imaging.asynctask/iasynctask)
+* interface [IMaskingAsyncTask](../../imaskingasynctask)
 * interface [IMaskingArgs](../../../aspose.imaging.masking.options/imaskingargs)
 * interface [IMaskingSession](../../imaskingsession)
 * namespace [Aspose.Imaging.Masking](../../imaskingsession)

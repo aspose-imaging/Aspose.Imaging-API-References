@@ -3,7 +3,7 @@ title: XmpAgentName
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11770
+weight: 11780
 url: /net/aspose.imaging.xmp.types.derived/xmpagentname/
 ---
 ## XmpAgentName class

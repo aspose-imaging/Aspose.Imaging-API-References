@@ -11,7 +11,7 @@ url: /net/aspose.imaging.masking/imaskingsession/decomposeasync/
 Creates the asynchronous task which can perform first rough decompose operation
 
 ```csharp
-public IAsyncTask DecomposeAsync()
+public IMaskingAsyncTask DecomposeAsync()
 ```
 
 ### Return Value
@@ -20,7 +20,7 @@ The asynchronous decompose task
 
 ### See Also
 
-* interface [IAsyncTask](../../../aspose.imaging.asynctask/iasynctask)
+* interface [IMaskingAsyncTask](../../imaskingasynctask)
 * interface [IMaskingSession](../../imaskingsession)
 * namespace [Aspose.Imaging.Masking](../../imaskingsession)
 * assembly [Aspose.Imaging](../../../)
