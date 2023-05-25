@@ -609,7 +609,7 @@ finally
 
 ### decomposeAsync(MaskingOptions options) {#decomposeAsync-com.aspose.imaging.masking.options.MaskingOptions-}
 ```
-public final IAsyncTask decomposeAsync(MaskingOptions options)
+public final IMaskingAsyncTask decomposeAsync(MaskingOptions options)
 ```
 
 
@@ -621,7 +621,7 @@ Creates the asynchronous decompose task using specified masking options.
 | options | [MaskingOptions](../../com.aspose.imaging.masking.options/maskingoptions) | The masking options. |
 
 **Returns:**
-[IAsyncTask](../../com.aspose.imaging.asynctask/iasynctask) - The asynchronous decompose task
+[IMaskingAsyncTask](../../com.aspose.imaging.masking/imaskingasynctask) - The asynchronous decompose task
 ### createSession(MaskingOptions options) {#createSession-com.aspose.imaging.masking.options.MaskingOptions-}
 ```
 public final IMaskingSession createSession(MaskingOptions options)

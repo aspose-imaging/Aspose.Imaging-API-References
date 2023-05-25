@@ -3,7 +3,7 @@ title: IMaskingSession
 second_title: Aspose.Imaging for Java API Reference
 description: The masking session
 type: docs
-weight: 11
+weight: 12
 url: /java/com.aspose.imaging.masking/imaskingsession/
 ---
 **All Implemented Interfaces:**
@@ -270,14 +270,14 @@ finally
 
 ### decomposeAsync() {#decomposeAsync--}
 ```
-public abstract IAsyncTask decomposeAsync()
+public abstract IMaskingAsyncTask decomposeAsync()
 ```
 
 
 Creates the asynchronous task which can perform first rough decompose operation
 
 **Returns:**
-[IAsyncTask](../../com.aspose.imaging.asynctask/iasynctask) - The asynchronous decompose task
+[IMaskingAsyncTask](../../com.aspose.imaging.masking/imaskingasynctask) - The asynchronous decompose task
 ### improveDecomposition(IMaskingArgs maskingArguments) {#improveDecomposition-com.aspose.imaging.masking.options.IMaskingArgs-}
 ```
 public abstract MaskingResult improveDecomposition(IMaskingArgs maskingArguments)
@@ -412,7 +412,7 @@ finally
 
 ### improveDecompositionAsync(IMaskingArgs maskingArguments) {#improveDecompositionAsync-com.aspose.imaging.masking.options.IMaskingArgs-}
 ```
-public abstract IAsyncTask improveDecompositionAsync(IMaskingArgs maskingArguments)
+public abstract IMaskingAsyncTask improveDecompositionAsync(IMaskingArgs maskingArguments)
 ```
 
 
@@ -424,7 +424,7 @@ Creates the asynchronous task which can perform retraining decompose operation
 | maskingArguments | [IMaskingArgs](../../com.aspose.imaging.masking.options/imaskingargs) | The masking arguments. |
 
 **Returns:**
-[IAsyncTask](../../com.aspose.imaging.asynctask/iasynctask) - The asynchronous decompose task
+[IMaskingAsyncTask](../../com.aspose.imaging.masking/imaskingasynctask) - The asynchronous decompose task
 ### save(OutputStream stream) {#save-java.io.OutputStream-}
 ```
 public abstract void save(OutputStream stream)

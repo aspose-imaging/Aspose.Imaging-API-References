@@ -23,7 +23,8 @@ Helper methods to work with CMYK color presented as a signed 32-bit integer valu
 | [getK(int cmyk)](#getK-int-) | Gets the black component value. |
 | [fromComponents(int cyan, int magenta, int yellow, int black)](#fromComponents-int-int-int-int-) | Creates CMYK from a 32-bit cyan, magenta, yellow and black values. |
 | [toCmyk(int[] argbPixels)](#toCmyk-int---) | The conversion from ARGB colors to CMYK colors. |
-| [toCmykBytes(int[] argbPixels, int startIndex, int length)](#toCmykBytes-int---int-int-) | Converts RGB to CMYK. |
+| [toCmykBytes(int[] argbPixels, int startIndex, int length)](#toCmykBytes-int---int-int-) | Converts ARGB to CMYK. |
+| [toCmykaBytes(int[] argbPixels, int startIndex, int length)](#toCmykaBytes-int---int-int-) | Converts ARGB to CMYKA (with transparency). |
 | [toCmyk(int argbPixel)](#toCmyk-int-) | The conversion from ARGB color to CMYK color. |
 | [toCmyk(Color pixel)](#toCmyk-com.aspose.imaging.Color-) | The conversion from ARGB color to CMYK color. |
 | [toCmyk(Color[] pixels)](#toCmyk-com.aspose.imaging.Color---) | The conversion from ARGB colors to CMYK colors. |
@@ -38,6 +39,7 @@ Helper methods to work with CMYK color presented as a signed 32-bit integer valu
 | [toCmykIcc(int[] pixels, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIcc-int---java.io.InputStream-java.io.InputStream-) | The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles. |
 | [toPsdCmykIcc(int[] pixels, InputStream rgbIccStream, InputStream cmykIccStream)](#toPsdCmykIcc-int---java.io.InputStream-java.io.InputStream-) | The conversion from ARGB colors to CMYK colors using Icc conversion with custom profiles. |
 | [toCmykIccBytes(int[] pixels, int startIndex, int length, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykIccBytes-int---int-int-java.io.InputStream-java.io.InputStream-) | Converts RGB to CMYK using custom ICC profiles. |
+| [toCmykaIccBytes(int[] pixels, int startIndex, int length, InputStream rgbIccStream, InputStream cmykIccStream)](#toCmykaIccBytes-int---int-int-java.io.InputStream-java.io.InputStream-) | Converts RGB to CMYKA (with alpha) using custom ICC profiles. |
 | [toCmykIcc(Color[] pixels)](#toCmykIcc-com.aspose.imaging.Color---) | The conversion from ARGB colors to CMYK colors using Icc conversion with default profiles. |
 | [toCmykIcc(int[] pixels)](#toCmykIcc-int---) | The conversion from ARGB colors to CMYK colors using Icc conversion with default profiles. |
 | [toPsdCmykIcc(int[] pixels)](#toPsdCmykIcc-int---) | The conversion from ARGB colors to CMYK colors using Icc conversion with default profiles. |
@@ -293,7 +295,24 @@ public static byte[] toCmykBytes(int[] argbPixels, int startIndex, int length)
 ```
 
 
-Converts RGB to CMYK.
+Converts ARGB to CMYK.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| argbPixels | int[] | The RGB colors presented as 32-bit integer values. |
+| startIndex | int | The start index of RGB color. |
+| length | int | The number of RGB pixels to convert. |
+
+**Returns:**
+byte[] - The CMYK colors presented as a byte array.
+### toCmykaBytes(int[] argbPixels, int startIndex, int length) {#toCmykaBytes-int---int-int-}
+```
+public static byte[] toCmykaBytes(int[] argbPixels, int startIndex, int length)
+```
+
+
+Converts ARGB to CMYKA (with transparency).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -728,6 +747,25 @@ public static byte[] toCmykIccBytes(int[] pixels, int startIndex, int length, In
 
 
 Converts RGB to CMYK using custom ICC profiles.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pixels | int[] | The RGB colors presented as 32-bit integer values. |
+| startIndex | int | The start index of RGB color. |
+| length | int | The number of RGB pixels to convert. |
+| rgbIccStream | java.io.InputStream | The RGB profile stream. |
+| cmykIccStream | java.io.InputStream | The CMYK profile stream. |
+
+**Returns:**
+byte[] - The CMYK colors presented as a byte array.
+### toCmykaIccBytes(int[] pixels, int startIndex, int length, InputStream rgbIccStream, InputStream cmykIccStream) {#toCmykaIccBytes-int---int-int-java.io.InputStream-java.io.InputStream-}
+```
+public static byte[] toCmykaIccBytes(int[] pixels, int startIndex, int length, InputStream rgbIccStream, InputStream cmykIccStream)
+```
+
+
+Converts RGB to CMYKA (with alpha) using custom ICC profiles.
 
 **Parameters:**
 | Parameter | Type | Description |

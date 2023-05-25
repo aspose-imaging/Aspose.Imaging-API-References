@@ -163,6 +163,7 @@ The tiff file format options. Note that width and height tags will get overwritt
 | [getXPSubject()](#getXPSubject--) | Gets information about image, which used by Windows Explorer. |
 | [setXPSubject(String value)](#setXPSubject-java.lang.String-) | Sets information about image, which used by Windows Explorer. |
 | [removeTag(int tag)](#removeTag-int-) | Removes the tag. |
+| [removeTags(int[] tags)](#removeTags-int...-) | Removes the tags. |
 | [validate()](#validate--) | Validates if options have valid combination of tags |
 | [addTags(TiffDataType[] tagsToAdd)](#addTags-com.aspose.imaging.fileformats.tiff.TiffDataType---) | Adds the tags. |
 | [addTag(TiffDataType tagToAdd)](#addTag-com.aspose.imaging.fileformats.tiff.TiffDataType-) | Adds a new tag. |
@@ -2274,6 +2275,21 @@ Removes the tag.
 
 **Returns:**
 boolean - true if successfully removed
+### removeTags(int[] tags) {#removeTags-int...-}
+```
+public final boolean removeTags(int[] tags)
+```
+
+
+Removes the tags.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tags | int[] | The tags to remove. |
+
+**Returns:**
+boolean - `` if tag collection size changed.
 ### validate() {#validate--}
 ```
 public void validate()

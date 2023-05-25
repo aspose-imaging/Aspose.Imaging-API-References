@@ -19,7 +19,7 @@ The package contains Tiff file format enumerations.
 | [TiffByteOrder](../com.aspose.imaging.fileformats.tiff.enums/tiffbyteorder) | The byte order for the tiff image |
 | [TiffCompressions](../com.aspose.imaging.fileformats.tiff.enums/tiffcompressions) | Holds compression types |
 | [TiffDataTypes](../com.aspose.imaging.fileformats.tiff.enums/tiffdatatypes) | The tiff data type enum. |
-| [TiffExpectedFormat](../com.aspose.imaging.fileformats.tiff.enums/tiffexpectedformat) | The expected tiff file format. |
+| [TiffExpectedFormat](../com.aspose.imaging.fileformats.tiff.enums/tiffexpectedformat) | The expected [FileFormat.\#Tiff](../com.aspose.imaging/fileformat\#Tiff) file format. |
 | [TiffFileStandards](../com.aspose.imaging.fileformats.tiff.enums/tifffilestandards) | Specifies the TIFF file format standards. |
 | [TiffFillOrders](../com.aspose.imaging.fileformats.tiff.enums/tifffillorders) | Data order within a byte. |
 | [TiffNewSubFileTypes](../com.aspose.imaging.fileformats.tiff.enums/tiffnewsubfiletypes) | The tiff new sub file type enum. |

@@ -41,7 +41,7 @@ Djvu page class
 | [extractThumbnailImage()](#extractThumbnailImage--) | Extracts the thumbnail image from the Djvu page. |
 ### PageExportedAction {#PageExportedAction}
 ```
-public static final Event<OnPageExportedAction> PageExportedAction
+public static final DefEvent<OnPageExportedAction> PageExportedAction
 ```
 
 

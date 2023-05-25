@@ -20,4 +20,5 @@ The namespace handles ImageMasking processing.
 
 | Interface | Description |
 | --- | --- |
+| [IMaskingAsyncTask](../com.aspose.imaging.masking/imaskingasynctask) | Represents the masking async task. |
 | [IMaskingSession](../com.aspose.imaging.masking/imaskingsession) | The masking session |

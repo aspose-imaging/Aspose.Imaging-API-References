@@ -17,9 +17,9 @@ The ICO file format creation options.
 
 | Constructor | Description |
 | --- | --- |
-| [IcoOptions()](#IcoOptions--) |  |
+| [IcoOptions()](#IcoOptions--) | Initializes a new instance of the [IcoOptions](../../com.aspose.imaging.imageoptions/icooptions) class with the ICO frame format equals to Png and bitsPerPixel equals to 32. |
 | [IcoOptions(IcoOptions options)](#IcoOptions-com.aspose.imaging.imageoptions.IcoOptions-) |  |
-| [IcoOptions(long format)](#IcoOptions-long-) |  |
+| [IcoOptions(long format)](#IcoOptions-long-) | Initializes a new instance of the [IcoOptions](../../com.aspose.imaging.imageoptions/icooptions) class with the ICO frame format equals to [`format`] and bitsPerPixel equals to 32. |
 | [IcoOptions(long format, int bitsPerPixel)](#IcoOptions-long-int-) | Initializes a new instance of the [IcoOptions](../../com.aspose.imaging.imageoptions/icooptions) class. |
 ## Methods
 
@@ -34,6 +34,8 @@ The ICO file format creation options.
 public IcoOptions()
 ```
 
+
+Initializes a new instance of the [IcoOptions](../../com.aspose.imaging.imageoptions/icooptions) class with the ICO frame format equals to Png and bitsPerPixel equals to 32.
 
 ### IcoOptions(IcoOptions options) {#IcoOptions-com.aspose.imaging.imageoptions.IcoOptions-}
 ```
@@ -52,10 +54,12 @@ public IcoOptions(long format)
 ```
 
 
+Initializes a new instance of the [IcoOptions](../../com.aspose.imaging.imageoptions/icooptions) class with the ICO frame format equals to [`format`] and bitsPerPixel equals to 32.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| format | long |  |
+| format | long | The ICO frame format. Note that ICO image supports only [FileFormat.Png](../../com.aspose.imaging/fileformat\#Png) and [FileFormat.Bmp](../../com.aspose.imaging/fileformat\#Bmp) images as entries. |
 
 ### IcoOptions(long format, int bitsPerPixel) {#IcoOptions-long-int-}
 ```
