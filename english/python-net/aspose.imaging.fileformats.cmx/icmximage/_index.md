@@ -2,16 +2,16 @@
 title: ICmxImage Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.fileformats.cmx/icmximage/
+url: /python-net/aspose.imaging.fileformats.cmx/icmximage/
 ---
 
 The CMX image interface
 
-**Namespace:** [aspose.imaging.fileformats.cmx](/imaging/python-net/api-reference/aspose.imaging.fileformats.cmx/)
+**Namespace:** [aspose.imaging.fileformats.cmx](/imaging/python-net/aspose.imaging.fileformats.cmx/)
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.ICmxImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The ICmxImage type exposes the following members:
 ## **Properties**

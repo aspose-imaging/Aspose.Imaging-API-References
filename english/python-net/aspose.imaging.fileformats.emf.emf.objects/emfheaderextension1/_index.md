@@ -2,16 +2,16 @@
 title: EmfHeaderExtension1 Class
 type: docs
 weight: 90
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emfheaderextension1/
+url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfheaderextension1/
 ---
 
 The HeaderExtension1 object defines the first extension to the EMF metafile header. <br/>            It adds support for a PixelFormatDescriptor object (section 2.2.22) and OpenGL <br/>            [OPENGL] records (section 2.3.9).
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfHeaderExtension1
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfHeaderExtension1 type exposes the following members:
 ## **Constructors**
@@ -34,7 +34,7 @@ The EmfHeaderExtension1 type exposes the following members:
 |n_pal_entries|Gets or sets a 32-bit unsigned integer that specifies the number of entries in the metafile <br/>            palette. The palette is located in the EMR_EOF record|
 |device|Gets or sets a WMF SizeL object ([MS-WMF] section 2.2.2.22) that specifies the size of the reference device, in pixels|
 |millimeters|Gets or sets a WMF SizeL object that specifies the size of the reference device, in millimeters|
-|valid|Gets a value indicating whether this [EmfHeaderObject](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/) is valid.|
+|valid|Gets a value indicating whether this [EmfHeaderObject](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/) is valid.|
 |cb_pixel_format|Gets or sets a 32-bit unsigned integer that specifies the size of the PixelFormatDescriptor object. <br/>            This MUST be 0x00000000 if no pixel format is set|
 |off_pixel_format|Gets or sets a 32-bit unsigned integer that specifies the offset to the PixelFormatDescriptor object.<br/>            This MUST be 0x00000000 if no pixel format is set.|
 |b_open_gl|Gets or sets a 32-bit unsigned integer that indicates whether OpenGL commands are present in the metafile.<br/>            0x00000000 OpenGL records are not present in the metafile.<br/>            0x00000001 OpenGL records are present in the metafile.|

@@ -2,16 +2,16 @@
 title: WmfTernaryRasterOperation Enumeration
 type: docs
 weight: 250
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.consts/wmfternaryrasteroperation/
+url: /python-net/aspose.imaging.fileformats.wmf.consts/wmfternaryrasteroperation/
 ---
 
 Enumeration specifies ternary raster operation codes, which define<br/>                how to combine the bits in a source bitmap with the bits in a destination bitmap.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.consts/)
+**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfTernaryRasterOperation
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

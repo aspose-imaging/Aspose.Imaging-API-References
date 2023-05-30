@@ -2,16 +2,16 @@
 title: XmpInteger Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.xmp.types.basic/xmpinteger/
+url: /python-net/aspose.imaging.xmp.types.basic/xmpinteger/
 ---
 
 Represents XMP Integer basic type.
 
-**Namespace:** [aspose.imaging.xmp.types.basic](/imaging/python-net/api-reference/aspose.imaging.xmp.types.basic/)
+**Namespace:** [aspose.imaging.xmp.types.basic](/imaging/python-net/aspose.imaging.xmp.types.basic/)
 
 **Full Class Name:** aspose.imaging.xmp.types.basic.XmpInteger
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The XmpInteger type exposes the following members:
 ## **Constructors**

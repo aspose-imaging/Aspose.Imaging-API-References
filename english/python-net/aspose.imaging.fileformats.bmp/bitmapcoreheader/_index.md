@@ -2,16 +2,16 @@
 title: BitmapCoreHeader Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.bmp/bitmapcoreheader/
+url: /python-net/aspose.imaging.fileformats.bmp/bitmapcoreheader/
 ---
 
 Dimensions and color format of DIB.<br/>            Header name BITMAPCOREHEADER aka OS21XBITMAPHEADER.
 
-**Namespace:** [aspose.imaging.fileformats.bmp](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/)
+**Namespace:** [aspose.imaging.fileformats.bmp](/imaging/python-net/aspose.imaging.fileformats.bmp/)
 
 **Full Class Name:** aspose.imaging.fileformats.bmp.BitmapCoreHeader
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The BitmapCoreHeader type exposes the following members:
 ## **Properties**

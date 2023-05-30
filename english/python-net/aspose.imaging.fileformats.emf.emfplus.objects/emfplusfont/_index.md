@@ -2,16 +2,16 @@
 title: EmfPlusFont Class
 type: docs
 weight: 330
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont/
 ---
 
 The EmfPlusFont object specifies properties that determine the appearance of text, including<br/>            typeface, size, and style.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusFont
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusFont type exposes the following members:
 ## **Constructors**

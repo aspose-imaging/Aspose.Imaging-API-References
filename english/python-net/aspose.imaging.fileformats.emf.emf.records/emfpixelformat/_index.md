@@ -2,16 +2,16 @@
 title: EmfPixelFormat Class
 type: docs
 weight: 730
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfpixelformat/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpixelformat/
 ---
 
 The EMR_PIXELFORMAT record specifies the pixel format to use for graphics operations.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfPixelFormat
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPixelFormat type exposes the following members:
 ## **Constructors**

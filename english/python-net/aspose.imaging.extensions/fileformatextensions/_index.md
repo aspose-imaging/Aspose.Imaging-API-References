@@ -2,16 +2,16 @@
 title: FileFormatExtensions Class
 type: docs
 weight: 60
-url: /python-net/api-reference/aspose.imaging.extensions/fileformatextensions/
+url: /python-net/aspose.imaging.extensions/fileformatextensions/
 ---
 
-Contains [FileFormat](/imaging/python-net/api-reference/aspose.imaging/fileformat/) extension methods.
+Contains [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) extension methods.
 
-**Namespace:** [aspose.imaging.extensions](/imaging/python-net/api-reference/aspose.imaging.extensions/)
+**Namespace:** [aspose.imaging.extensions](/imaging/python-net/aspose.imaging.extensions/)
 
 **Full Class Name:** aspose.imaging.extensions.FileFormatExtensions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The FileFormatExtensions type exposes the following members:
 ## **Methods**

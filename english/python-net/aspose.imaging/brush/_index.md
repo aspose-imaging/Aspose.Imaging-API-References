@@ -2,16 +2,16 @@
 title: Brush Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging/brush/
+url: /python-net/aspose.imaging/brush/
 ---
 
 The base brush class.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.Brush
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The Brush type exposes the following members:
 ## **Properties**
@@ -22,4 +22,4 @@ The Brush type exposes the following members:
 ## **Methods**
 |**Name**|**Description**|
 | :- | :- |
-|deep_clone()|Creates a new deep clone of the current [Brush](/imaging/python-net/api-reference/aspose.imaging/brush/).|
+|deep_clone()|Creates a new deep clone of the current [Brush](/imaging/python-net/aspose.imaging/brush/).|

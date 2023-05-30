@@ -2,16 +2,16 @@
 title: EmfPlusBlendColors Class
 type: docs
 weight: 80
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendcolors/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendcolors/
 ---
 
 The EmfPlusBlendColors object specifies positions and colors for the blend pattern of a gradient brush.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBlendColors
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusBlendColors type exposes the following members:
 ## **Constructors**

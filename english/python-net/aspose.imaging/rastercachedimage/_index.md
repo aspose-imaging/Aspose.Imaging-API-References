@@ -1,17 +1,17 @@
 ---
 title: RasterCachedImage Class
 type: docs
-weight: 690
-url: /python-net/api-reference/aspose.imaging/rastercachedimage/
+weight: 700
+url: /python-net/aspose.imaging/rastercachedimage/
 ---
 
 Represents a raster image supporting raster graphics operations. This image caches pixel data when required.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.RasterCachedImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The RasterCachedImage type exposes the following members:
 ## **Properties**
@@ -45,8 +45,8 @@ The RasterCachedImage type exposes the following members:
 |raw_data_format|Gets the raw data format.|
 |raw_line_size|Gets the raw line size in bytes.|
 |is_raw_data_available|Gets a value indicating whether raw data loading is available.|
-|horizontal_resolution|Gets or sets the horizontal resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/api-reference/aspose.imaging/rasterimage/).|
-|vertical_resolution|Gets or sets the vertical resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/api-reference/aspose.imaging/rasterimage/).|
+|horizontal_resolution|Gets or sets the horizontal resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/).|
+|vertical_resolution|Gets or sets the vertical resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/).|
 |has_transparent_color|Gets a value indicating whether image has transparent color.|
 |has_alpha|Gets a value indicating whether this instance has alpha.|
 |transparent_color|Gets the image transparent color.|
@@ -100,13 +100,13 @@ The RasterCachedImage type exposes the following members:
 |adjust_gamma(gamma)|Gamma-correction of an image.|
 |rotate(angle, resize_proportionally, background_color)|Rotate image around the center.|
 |rotate(angle)|Rotate image around the center.|
-|normalize_angle()|Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [None](/imaging/python-net/api-reference/aspose.imaging/rasterimage/) and|
-|normalize_angle(resize_proportionally, background_color)|Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [None](/imaging/python-net/api-reference/aspose.imaging/rasterimage/) and|
+|normalize_angle()|Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [None](/imaging/python-net/aspose.imaging/rasterimage/) and|
+|normalize_angle(resize_proportionally, background_color)|Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [None](/imaging/python-net/aspose.imaging/rasterimage/) and|
 |replace_color(old_color, old_color_diff, new_color)|Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges.|
 |replace_color(old_color_argb, old_color_diff, new_color_argb)|Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges.|
 |replace_non_transparent_colors(new_color)|Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges.<br/>            Note: if you use it on images without transparency, all colors will be replaced with a single one.|
 |replace_non_transparent_colors(new_color_argb)|Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges.<br/>            Note: if you use it on images without transparency, all colors will be replaced with a single one.|
-|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying [data_stream_container](/imaging/python-net/api-reference/aspose.imaging/datastreamsupporter/).|
+|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying [data_stream_container](/imaging/python-net/aspose.imaging/datastreamsupporter/).|
 |save_to_stream(stream)|  |
 |can_load_with_options(file_path, load_options)|  |
 |can_load_stream(stream)|  |
@@ -130,8 +130,6 @@ The RasterCachedImage type exposes the following members:
 |set_palette(palette, update_colors)|Sets the image palette.|
 |get_proportional_width(width, height, new_height)|  |
 |get_proportional_height(width, height, new_width)|  |
-|is_multipage()|  |
-|as_multipage()|  |
 |get_modify_date(use_default)|Gets the date and time the resource image was last modified.|
 |get_default_pixels(rectangle, partial_pixel_loader)|Gets the default pixels array using partial pixel loader.|
 |get_default_argb_32_pixels(rectangle)|Gets the default 32-bit ARGB pixels array.|
@@ -147,6 +145,7 @@ The RasterCachedImage type exposes the following members:
 |load_partial_pixels(desired_rectangle, pixel_loader)|Loads pixels partially by packs.|
 |load_argb_32_pixels(rectangle)|Loads 32-bit ARGB pixels.|
 |load_argb_64_pixels(rectangle)|Loads 64-bit ARGB pixels.|
+|load_partial_argb_64_pixels(rectangle, partial_pixel_loader)|Loads 64-bit ARGB pixels partially by packs.|
 |load_pixels(rectangle)|Loads pixels.|
 |load_cmyk_pixels(rectangle)|Loads pixels in CMYK format.<br/>            This method is deprecated. Please use more effective the|
 |load_cmyk_32_pixels(rectangle)|Loads pixels in CMYK format.|
@@ -156,7 +155,7 @@ The RasterCachedImage type exposes the following members:
 |to_bitmap()|Converts raster image to the bitmap.|
 |save_cmyk_pixels(rectangle, pixels)|Saves the pixels.<br/>            This method is deprecated. Please use more effective the|
 |save_cmyk_32_pixels(rectangle, pixels)|Saves the pixels.|
-|set_resolution(dpi_x, dpi_y)|Sets the resolution for this [RasterImage](/imaging/python-net/api-reference/aspose.imaging/rasterimage/).|
+|set_resolution(dpi_x, dpi_y)|Sets the resolution for this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/).|
 |binarize_fixed(threshold)|Binarization of an image with predefined threshold|
 |binarize_otsu()|Binarization of an image with Otsu thresholding|
 |grayscale()|Transformation of an image to its grayscale representation|

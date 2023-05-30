@@ -2,16 +2,16 @@
 title: EmfPlusUnitType Enumeration
 type: docs
 weight: 440
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfplusunittype/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusunittype/
 ---
 
 The UnitType enumeration defines units of measurement in different coordinate systems.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusUnitType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

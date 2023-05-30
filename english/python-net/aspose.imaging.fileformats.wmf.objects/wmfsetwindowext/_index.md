@@ -2,16 +2,16 @@
 title: WmfSetWindowExt Class
 type: docs
 weight: 820
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfsetwindowext/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetwindowext/
 ---
 
 The set window object.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetWindowExt
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfSetWindowExt type exposes the following members:
 ## **Constructors**

@@ -2,16 +2,16 @@
 title: DjvuImage Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.djvu/djvuimage/
+url: /python-net/aspose.imaging.fileformats.djvu/djvuimage/
 ---
 
 DjvuDocument class
 
-**Namespace:** [aspose.imaging.fileformats.djvu](/imaging/python-net/api-reference/aspose.imaging.fileformats.djvu/)
+**Namespace:** [aspose.imaging.fileformats.djvu](/imaging/python-net/aspose.imaging.fileformats.djvu/)
 
 **Full Class Name:** aspose.imaging.fileformats.djvu.DjvuImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The DjvuImage type exposes the following members:
 ## **Constructors**
@@ -58,7 +58,6 @@ The DjvuImage type exposes the following members:
 |image_opacity|Gets opacity of this image.|
 |page_count|Gets the page count.|
 |pages|Gets the pages.|
-|default_page|Gets the default page.|
 |identifier|Gets the unique identifier for the document|
 |djvu_pages|Gets the pages for the document|
 |active_page|Gets or sets the currently active page|
@@ -147,8 +146,6 @@ The DjvuImage type exposes the following members:
 |set_palette(palette, update_colors)|  |
 |get_proportional_width(width, height, new_height)|  |
 |get_proportional_height(width, height, new_width)|  |
-|is_multipage()|  |
-|as_multipage()|  |
 |get_modify_date(use_default)|  |
 |get_default_pixels(rectangle, partial_pixel_loader)|  |
 |get_default_argb_32_pixels(rectangle)|  |
@@ -164,6 +161,7 @@ The DjvuImage type exposes the following members:
 |load_partial_pixels(desired_rectangle, pixel_loader)|  |
 |load_argb_32_pixels(rectangle)|  |
 |load_argb_64_pixels(rectangle)|  |
+|load_partial_argb_64_pixels(rectangle, partial_pixel_loader)|  |
 |load_pixels(rectangle)|  |
 |load_cmyk_pixels(rectangle)|  |
 |load_cmyk_32_pixels(rectangle)|  |
@@ -178,7 +176,7 @@ The DjvuImage type exposes the following members:
 |binarize_otsu()|Binarization of an image with Otsu thresholding|
 |grayscale()|Transformation of an image to its grayscale representation|
 |adjust_brightness(brightness)|Adjust of a|
-|adjust_contrast(contrast)|[Image](/imaging/python-net/api-reference/aspose.imaging/image/) contrasting|
+|adjust_contrast(contrast)|[Image](/imaging/python-net/aspose.imaging/image/) contrasting|
 |get_skew_angle()|  |
 |filter(rectangle, options)|Filters the specified rectangle.|
 |replace_argb(old_color_argb, old_color_diff, new_color_argb)|  |

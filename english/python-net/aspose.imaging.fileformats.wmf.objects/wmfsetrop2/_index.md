@@ -2,16 +2,16 @@
 title: WmfSetRop2 Class
 type: docs
 weight: 740
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfsetrop2/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetrop2/
 ---
 
 The set rop2
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetRop2
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfSetRop2 type exposes the following members:
 ## **Constructors**

@@ -2,16 +2,16 @@
 title: WmfPolygon Class
 type: docs
 weight: 490
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfpolygon/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfpolygon/
 ---
 
 The polygon object
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfPolygon
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfPolygon type exposes the following members:
 ## **Constructors**

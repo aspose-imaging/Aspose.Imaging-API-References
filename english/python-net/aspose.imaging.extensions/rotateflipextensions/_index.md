@@ -2,16 +2,16 @@
 title: RotateFlipExtensions Class
 type: docs
 weight: 160
-url: /python-net/api-reference/aspose.imaging.extensions/rotateflipextensions/
+url: /python-net/aspose.imaging.extensions/rotateflipextensions/
 ---
 
-Contains extension methods for conversion the  and the [RotateFlipType](/imaging/python-net/api-reference/aspose.imaging/rotatefliptype/) classes.
+Contains extension methods for conversion the  and the [RotateFlipType](/imaging/python-net/aspose.imaging/rotatefliptype/) classes.
 
-**Namespace:** [aspose.imaging.extensions](/imaging/python-net/api-reference/aspose.imaging.extensions/)
+**Namespace:** [aspose.imaging.extensions](/imaging/python-net/aspose.imaging.extensions/)
 
 **Full Class Name:** aspose.imaging.extensions.RotateFlipExtensions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The RotateFlipExtensions type exposes the following members:
 ## **Methods**

@@ -2,16 +2,16 @@
 title: PathOperations Enumeration
 type: docs
 weight: 90
-url: /python-net/api-reference/aspose.imaging.fileformats.core.vectorpaths/pathoperations/
+url: /python-net/aspose.imaging.fileformats.core.vectorpaths/pathoperations/
 ---
 
 The operations for the path shapes combining (Boolean operations).
 
-**Namespace:** [aspose.imaging.fileformats.core.vectorpaths](/imaging/python-net/api-reference/aspose.imaging.fileformats.core.vectorpaths/)
+**Namespace:** [aspose.imaging.fileformats.core.vectorpaths](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/)
 
 **Full Name:** aspose.imaging.fileformats.core.vectorpaths.PathOperations
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

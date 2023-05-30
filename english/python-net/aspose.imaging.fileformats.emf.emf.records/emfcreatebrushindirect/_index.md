@@ -2,23 +2,23 @@
 title: EmfCreateBrushIndirect Class
 type: docs
 weight: 250
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfcreatebrushindirect/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatebrushindirect/
 ---
 
 The EMR_CREATEBRUSHINDIRECT record defines a logical brush for graphics operations.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfCreateBrushIndirect
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfCreateBrushIndirect type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfCreateBrushIndirect(source)|Initializes a new instance of the EmfCreateBrushIndirect class|
-|EmfCreateBrushIndirect()|Initializes a new instance of the [EmfCreateBrushIndirect](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfcreatebrushindirect/) class.|
+|EmfCreateBrushIndirect()|Initializes a new instance of the [EmfCreateBrushIndirect](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatebrushindirect/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

@@ -2,22 +2,22 @@
 title: ExifData Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.exif/exifdata/
+url: /python-net/aspose.imaging.exif/exifdata/
 ---
 
 EXIF data container.
 
-**Namespace:** [aspose.imaging.exif](/imaging/python-net/api-reference/aspose.imaging.exif/)
+**Namespace:** [aspose.imaging.exif](/imaging/python-net/aspose.imaging.exif/)
 
 **Full Class Name:** aspose.imaging.exif.ExifData
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The ExifData type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|ExifData()|Initializes a new instance of the [ExifData](/imaging/python-net/api-reference/aspose.imaging.exif/exifdata/) class.|
+|ExifData()|Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class.|
 |ExifData(exifdata)|Initializes a new instance of the ExifData class|
 |ExifData(common_tags, exif_tags, gps_tags)|Initializes a new instance of the ExifData class|
 ## **Properties**

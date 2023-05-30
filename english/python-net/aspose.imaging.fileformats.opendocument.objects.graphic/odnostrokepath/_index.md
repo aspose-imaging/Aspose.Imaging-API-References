@@ -2,16 +2,16 @@
 title: OdNoStrokePath Class
 type: docs
 weight: 240
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/odnostrokepath/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odnostrokepath/
 ---
 
 Specifies that the current set of sub-paths will not be stroked.
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdNoStrokePath
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdNoStrokePath type exposes the following members:
 ## **Constructors**

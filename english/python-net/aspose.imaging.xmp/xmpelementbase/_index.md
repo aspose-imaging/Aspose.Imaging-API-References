@@ -2,16 +2,16 @@
 title: XmpElementBase Class
 type: docs
 weight: 60
-url: /python-net/api-reference/aspose.imaging.xmp/xmpelementbase/
+url: /python-net/aspose.imaging.xmp/xmpelementbase/
 ---
 
 Represents base xmp element contains attributes.
 
-**Namespace:** [aspose.imaging.xmp](/imaging/python-net/api-reference/aspose.imaging.xmp/)
+**Namespace:** [aspose.imaging.xmp](/imaging/python-net/aspose.imaging.xmp/)
 
 **Full Class Name:** aspose.imaging.xmp.XmpElementBase
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The XmpElementBase type exposes the following members:
 ## **Methods**

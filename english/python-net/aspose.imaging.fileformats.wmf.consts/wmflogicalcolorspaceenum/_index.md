@@ -2,16 +2,16 @@
 title: WmfLogicalColorSpaceEnum Enumeration
 type: docs
 weight: 130
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.consts/wmflogicalcolorspaceenum/
+url: /python-net/aspose.imaging.fileformats.wmf.consts/wmflogicalcolorspaceenum/
 ---
 
 The LogicalColorSpace Enumeration specifies the type of color space.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.consts/)
+**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfLogicalColorSpaceEnum
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

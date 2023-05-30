@@ -2,16 +2,16 @@
 title: MetaImage Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.emf/metaimage/
+url: /python-net/aspose.imaging.fileformats.emf/metaimage/
 ---
 
 Base class for Meta object classes
 
-**Namespace:** [aspose.imaging.fileformats.emf](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf/)
+**Namespace:** [aspose.imaging.fileformats.emf](/imaging/python-net/aspose.imaging.fileformats.emf/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.MetaImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The MetaImage type exposes the following members:
 ## **Properties**
@@ -99,8 +99,6 @@ The MetaImage type exposes the following members:
 |set_palette(palette, update_colors)|  |
 |get_proportional_width(width, height, new_height)|  |
 |get_proportional_height(width, height, new_width)|  |
-|is_multipage()|  |
-|as_multipage()|  |
 |get_embedded_images()|Gets the embedded images.|
 |get_used_fonts()|Returns the list of font which used inside metafile.|
 |get_missed_fonts()|Returns the list of fonts which used inside metafile but not found.|

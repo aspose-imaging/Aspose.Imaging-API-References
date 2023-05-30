@@ -2,16 +2,16 @@
 title: EmfDeleteColorSpace Class
 type: docs
 weight: 320
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfdeletecolorspace/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfdeletecolorspace/
 ---
 
 The EMR_DELETECOLORSPACE record deletes a logical color space object.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfDeleteColorSpace
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfDeleteColorSpace type exposes the following members:
 ## **Constructors**

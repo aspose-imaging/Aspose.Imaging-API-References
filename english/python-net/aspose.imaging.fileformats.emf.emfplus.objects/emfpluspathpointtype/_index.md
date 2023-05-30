@@ -2,16 +2,16 @@
 title: EmfPlusPathPointType Class
 type: docs
 weight: 520
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtype/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathpointtype/
 ---
 
 The EmfPlusPathPointType object specifies a type value associated with a point on a graphics
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPathPointType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusPathPointType type exposes the following members:
 ## **Constructors**

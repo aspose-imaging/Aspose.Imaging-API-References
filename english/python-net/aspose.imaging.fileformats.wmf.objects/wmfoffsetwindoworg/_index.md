@@ -2,16 +2,16 @@
 title: WmfOffsetWindowOrg Class
 type: docs
 weight: 410
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfoffsetwindoworg/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfoffsetwindoworg/
 ---
 
 The META_OFFSETWINDOWORG record moves the output window origin in the<br/>                playback device context by specified horizontal and vertical offsets.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfOffsetWindowOrg
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfOffsetWindowOrg type exposes the following members:
 ## **Constructors**

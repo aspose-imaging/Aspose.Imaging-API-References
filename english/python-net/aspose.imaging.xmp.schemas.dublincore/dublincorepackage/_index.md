@@ -2,22 +2,22 @@
 title: DublinCorePackage Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.xmp.schemas.dublincore/dublincorepackage/
+url: /python-net/aspose.imaging.xmp.schemas.dublincore/dublincorepackage/
 ---
 
 Represents Dublic Core schema.
 
-**Namespace:** [aspose.imaging.xmp.schemas.dublincore](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.dublincore/)
+**Namespace:** [aspose.imaging.xmp.schemas.dublincore](/imaging/python-net/aspose.imaging.xmp.schemas.dublincore/)
 
 **Full Class Name:** aspose.imaging.xmp.schemas.dublincore.DublinCorePackage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The DublinCorePackage type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|DublinCorePackage()|Initializes a new instance of the [DublinCorePackage](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.dublincore/dublincorepackage/) class.|
+|DublinCorePackage()|Initializes a new instance of the [DublinCorePackage](/imaging/python-net/aspose.imaging.xmp.schemas.dublincore/dublincorepackage/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

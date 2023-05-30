@@ -2,16 +2,16 @@
 title: CustomLineCap Class
 type: docs
 weight: 140
-url: /python-net/api-reference/aspose.imaging/customlinecap/
+url: /python-net/aspose.imaging/customlinecap/
 ---
 
 Encapsulates a custom user-defined line cap.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.CustomLineCap
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CustomLineCap type exposes the following members:
 ## **Constructors**
@@ -25,10 +25,10 @@ The CustomLineCap type exposes the following members:
 | :- | :- |
 |fill_path|Gets or sets the object that defines the fill for the custom cap.|
 |stroke_path|Gets or sets the object that defines the outline of the custom cap.|
-|stroke_join|Gets or sets the [LineJoin](/imaging/python-net/api-reference/aspose.imaging/linejoin/) enumeration that determines how lines that compose this [CustomLineCap](/imaging/python-net/api-reference/aspose.imaging/customlinecap/) object are joined.|
-|base_cap|Gets or sets the [LineCap](/imaging/python-net/api-reference/aspose.imaging/linecap/) enumeration on which this [CustomLineCap](/imaging/python-net/api-reference/aspose.imaging/customlinecap/) is based.|
+|stroke_join|Gets or sets the [LineJoin](/imaging/python-net/aspose.imaging/linejoin/) enumeration that determines how lines that compose this [CustomLineCap](/imaging/python-net/aspose.imaging/customlinecap/) object are joined.|
+|base_cap|Gets or sets the [LineCap](/imaging/python-net/aspose.imaging/linecap/) enumeration on which this [CustomLineCap](/imaging/python-net/aspose.imaging/customlinecap/) is based.|
 |base_inset|Gets or sets the distance between the cap and the line.|
-|width_scale|Gets or sets the amount by which to scale this [CustomLineCap](/imaging/python-net/api-reference/aspose.imaging/customlinecap/) Class object with respect to the width of the  object.|
+|width_scale|Gets or sets the amount by which to scale this [CustomLineCap](/imaging/python-net/aspose.imaging/customlinecap/) Class object with respect to the width of the  object.|
 ## **Methods**
 |**Name**|**Description**|
 | :- | :- |

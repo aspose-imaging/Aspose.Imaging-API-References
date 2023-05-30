@@ -2,16 +2,16 @@
 title: EmfPlusLanguageIdentifierType Enumeration
 type: docs
 weight: 210
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfpluslanguageidentifiertype/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluslanguageidentifiertype/
 ---
 
 The LanguageIdentifier enumeration defines identifiers for natural languages in locales, including countries, geographical regions, and administrative districts.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusLanguageIdentifierType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

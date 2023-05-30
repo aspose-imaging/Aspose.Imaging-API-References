@@ -2,16 +2,16 @@
 title: IVectorPathData Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/
+url: /python-net/aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/
 ---
 
 The interface for access to the vector path data.
 
-**Namespace:** [aspose.imaging.fileformats.core.vectorpaths](/imaging/python-net/api-reference/aspose.imaging.fileformats.core.vectorpaths/)
+**Namespace:** [aspose.imaging.fileformats.core.vectorpaths](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/)
 
 **Full Class Name:** aspose.imaging.fileformats.core.vectorpaths.IVectorPathData
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IVectorPathData type exposes the following members:
 ## **Properties**

@@ -2,16 +2,16 @@
 title: CmxObject Class
 type: docs
 weight: 50
-url: /python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel/cmxobject/
+url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxobject/
 ---
 
 Object containing information about the graphic element.
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel](/imaging/python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel/)
+**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel/)
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.CmxObject
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CmxObject type exposes the following members:
 ## **Constructors**

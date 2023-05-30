@@ -2,16 +2,16 @@
 title: EmfPlusPathPointTypeEnum Enumeration
 type: docs
 weight: 300
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspathpointtypeenum/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspathpointtypeenum/
 ---
 
 The PathPointType enumeration defines types of points on a graphics path.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusPathPointTypeEnum
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

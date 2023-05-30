@@ -2,16 +2,16 @@
 title: IAnimationFrame Class
 type: docs
 weight: 250
-url: /python-net/api-reference/aspose.imaging/ianimationframe/
+url: /python-net/aspose.imaging/ianimationframe/
 ---
 
 The Animation frame
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.IAnimationFrame
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IAnimationFrame type exposes the following members:
 ## **Properties**

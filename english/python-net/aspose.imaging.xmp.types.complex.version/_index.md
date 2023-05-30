@@ -1,8 +1,8 @@
 ---
 title: aspose.imaging.xmp.types.complex.version
 type: docs
-weight: 1100
-url: /python-net/api-reference/aspose.imaging.xmp.types.complex.version/
+weight: 1120
+url: /python-net/aspose.imaging.xmp.types.complex.version/
 ---
 
 
@@ -11,4 +11,4 @@ The namespace contains classes that describe one version of a document.
 ## **Classes**
 |**Class**|**Description**|
 | :- | :- |
-|[Version](/imaging/python-net/api-reference/aspose.imaging.xmp.types.complex.version/version/)|Describes one version of a document.|
+|[Version](/imaging/python-net/aspose.imaging.xmp.types.complex.version/version/)|Describes one version of a document.|

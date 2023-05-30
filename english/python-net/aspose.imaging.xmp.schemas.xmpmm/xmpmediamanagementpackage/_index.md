@@ -2,22 +2,22 @@
 title: XmpMediaManagementPackage Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/
+url: /python-net/aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/
 ---
 
 Represents XMP Media Management namespace.
 
-**Namespace:** [aspose.imaging.xmp.schemas.xmpmm](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.xmpmm/)
+**Namespace:** [aspose.imaging.xmp.schemas.xmpmm](/imaging/python-net/aspose.imaging.xmp.schemas.xmpmm/)
 
 **Full Class Name:** aspose.imaging.xmp.schemas.xmpmm.XmpMediaManagementPackage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The XmpMediaManagementPackage type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|XmpMediaManagementPackage()|Initializes a new instance of the [XmpMediaManagementPackage](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/) class.|
+|XmpMediaManagementPackage()|Initializes a new instance of the [XmpMediaManagementPackage](/imaging/python-net/aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

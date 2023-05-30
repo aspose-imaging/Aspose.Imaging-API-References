@@ -2,16 +2,16 @@
 title: IImageCreatorDescriptor Class
 type: docs
 weight: 300
-url: /python-net/api-reference/aspose.imaging/iimagecreatordescriptor/
+url: /python-net/aspose.imaging/iimagecreatordescriptor/
 ---
 
 The image creator descriptor specifying the creator properties. The creator descriptor is used to overcome<br/>            the necessity to contain each image creator instance in memory and multithreading issues.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.IImageCreatorDescriptor
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IImageCreatorDescriptor type exposes the following members:
 ## **Properties**

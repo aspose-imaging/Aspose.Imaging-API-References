@@ -2,16 +2,16 @@
 title: EmfPolygonFillMode Enumeration
 type: docs
 weight: 270
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/emfpolygonfillmode/
+url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emfpolygonfillmode/
 ---
 
 The PolygonFillMode enumeration defines values that specify how to calculate the region of a polygon that is to be filled.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfPolygonFillMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

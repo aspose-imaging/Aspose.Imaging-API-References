@@ -2,16 +2,16 @@
 title: ExifYCbCrPositioning Enumeration
 type: docs
 weight: 190
-url: /python-net/api-reference/aspose.imaging.exif.enums/exifycbcrpositioning/
+url: /python-net/aspose.imaging.exif.enums/exifycbcrpositioning/
 ---
 
 exif y cb cr positioning enum.
 
-**Namespace:** [aspose.imaging.exif.enums](/imaging/python-net/api-reference/aspose.imaging.exif.enums/)
+**Namespace:** [aspose.imaging.exif.enums](/imaging/python-net/aspose.imaging.exif.enums/)
 
 **Full Name:** aspose.imaging.exif.enums.ExifYCbCrPositioning
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

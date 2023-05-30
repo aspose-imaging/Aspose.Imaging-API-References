@@ -2,16 +2,16 @@
 title: VectorPathRecordFactory Class
 type: docs
 weight: 80
-url: /python-net/api-reference/aspose.imaging.fileformats.core.vectorpaths/vectorpathrecordfactory/
+url: /python-net/aspose.imaging.fileformats.core.vectorpaths/vectorpathrecordfactory/
 ---
 
 Vector Path Record Factory Class
 
-**Namespace:** [aspose.imaging.fileformats.core.vectorpaths](/imaging/python-net/api-reference/aspose.imaging.fileformats.core.vectorpaths/)
+**Namespace:** [aspose.imaging.fileformats.core.vectorpaths](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/)
 
 **Full Class Name:** aspose.imaging.fileformats.core.vectorpaths.VectorPathRecordFactory
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The VectorPathRecordFactory type exposes the following members:
 ## **Constructors**

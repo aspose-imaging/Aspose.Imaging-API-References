@@ -2,16 +2,16 @@
 title: IPartialRawDataLoader Class
 type: docs
 weight: 450
-url: /python-net/api-reference/aspose.imaging/ipartialrawdataloader/
+url: /python-net/aspose.imaging/ipartialrawdataloader/
 ---
 
 The partial data loader.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.IPartialRawDataLoader
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IPartialRawDataLoader type exposes the following members:
 ## **Methods**

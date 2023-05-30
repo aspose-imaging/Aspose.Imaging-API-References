@@ -2,22 +2,22 @@
 title: BezierShape Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.shapes/beziershape/
+url: /python-net/aspose.imaging.shapes/beziershape/
 ---
 
 Represents a bezier spline.
 
-**Namespace:** [aspose.imaging.shapes](/imaging/python-net/api-reference/aspose.imaging.shapes/)
+**Namespace:** [aspose.imaging.shapes](/imaging/python-net/aspose.imaging.shapes/)
 
 **Full Class Name:** aspose.imaging.shapes.BezierShape
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The BezierShape type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|BezierShape()|Initializes a new instance of the [BezierShape](/imaging/python-net/api-reference/aspose.imaging.shapes/beziershape/) class.|
+|BezierShape()|Initializes a new instance of the [BezierShape](/imaging/python-net/aspose.imaging.shapes/beziershape/) class.|
 |BezierShape(points)|Initializes a new instance of the BezierShape class|
 |BezierShape(points, is_closed)|Initializes a new instance of the BezierShape class|
 ## **Properties**

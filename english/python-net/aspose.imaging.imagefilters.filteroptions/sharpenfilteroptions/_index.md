@@ -2,23 +2,23 @@
 title: SharpenFilterOptions Class
 type: docs
 weight: 100
-url: /python-net/api-reference/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/
+url: /python-net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/
 ---
 
 The Sharpen filter options
 
-**Namespace:** [aspose.imaging.imagefilters.filteroptions](/imaging/python-net/api-reference/aspose.imaging.imagefilters.filteroptions/)
+**Namespace:** [aspose.imaging.imagefilters.filteroptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/)
 
 **Full Class Name:** aspose.imaging.imagefilters.filteroptions.SharpenFilterOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The SharpenFilterOptions type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |SharpenFilterOptions(size, sigma)|Initializes a new instance of the SharpenFilterOptions class|
-|SharpenFilterOptions()|Initializes a new instance of the [SharpenFilterOptions](/imaging/python-net/api-reference/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/) class.<br/>                With default settings.|
+|SharpenFilterOptions()|Initializes a new instance of the [SharpenFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/) class.<br/>                With default settings.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

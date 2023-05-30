@@ -2,16 +2,16 @@
 title: PngImage Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.png/pngimage/
+url: /python-net/aspose.imaging.fileformats.png/pngimage/
 ---
 
 The new png image.
 
-**Namespace:** [aspose.imaging.fileformats.png](/imaging/python-net/api-reference/aspose.imaging.fileformats.png/)
+**Namespace:** [aspose.imaging.fileformats.png](/imaging/python-net/aspose.imaging.fileformats.png/)
 
 **Full Class Name:** aspose.imaging.fileformats.png.PngImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The PngImage type exposes the following members:
 ## **Constructors**
@@ -62,7 +62,7 @@ The PngImage type exposes the following members:
 |has_alpha|Get a value indicating whether this instance has alpha.|
 |transparent_color|Gets the transparent color.|
 |image_opacity|  |
-|interlaced|Gets a value indicating whether this [PngImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.png/pngimage/) is interlaced.|
+|interlaced|Gets a value indicating whether this [PngImage](/imaging/python-net/aspose.imaging.fileformats.png/pngimage/) is interlaced.|
 |is_interlaced|Gets a value indicating whether this image instance is interlaced.|
 ## **Methods**
 |**Name**|**Description**|
@@ -119,7 +119,7 @@ The PngImage type exposes the following members:
 |replace_color(old_color_argb, old_color_diff, new_color_argb)|  |
 |replace_non_transparent_colors(new_color)|  |
 |replace_non_transparent_colors(new_color_argb)|  |
-|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying [data_stream_container](/imaging/python-net/api-reference/aspose.imaging/datastreamsupporter/).|
+|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying [data_stream_container](/imaging/python-net/aspose.imaging/datastreamsupporter/).|
 |save_to_stream(stream)|  |
 |can_load_with_options(file_path, load_options)|  |
 |can_load_stream(stream)|  |
@@ -143,8 +143,6 @@ The PngImage type exposes the following members:
 |set_palette(palette, update_colors)|  |
 |get_proportional_width(width, height, new_height)|  |
 |get_proportional_height(width, height, new_width)|  |
-|is_multipage()|  |
-|as_multipage()|  |
 |get_modify_date(use_default)|Gets the date and time the resource image was last modified.|
 |get_default_pixels(rectangle, partial_pixel_loader)|  |
 |get_default_argb_32_pixels(rectangle)|  |
@@ -160,6 +158,7 @@ The PngImage type exposes the following members:
 |load_partial_pixels(desired_rectangle, pixel_loader)|  |
 |load_argb_32_pixels(rectangle)|  |
 |load_argb_64_pixels(rectangle)|  |
+|load_partial_argb_64_pixels(rectangle, partial_pixel_loader)|  |
 |load_pixels(rectangle)|  |
 |load_cmyk_pixels(rectangle)|  |
 |load_cmyk_32_pixels(rectangle)|  |
@@ -178,10 +177,10 @@ The PngImage type exposes the following members:
 |get_skew_angle()|  |
 |filter(rectangle, options)|  |
 |replace_argb(old_color_argb, old_color_diff, new_color_argb)|  |
-|create_with_width_height(width, height)|Initializes a new instance of the [PngImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.png/pngimage/) class.|
-|create_from_image(raster_image)|Initializes a new instance of the [PngImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.png/pngimage/) class.|
-|create_from_file_with_color_type(path, color_type)|Initializes a new instance of the [PngImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.png/pngimage/) class.|
-|create_from_image_with_color_type(raster_image, color_type)|Initializes a new instance of the [PngImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.png/pngimage/) class.|
-|create_from_stream(stream)|Initializes a new instance of the [PngImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.png/pngimage/) class.|
-|create_with_width_height_color_type(width, height, color_type)|Initializes a new instance of the [PngImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.png/pngimage/) class.|
-|create_with_width_height_options(png_options, width, height)|Initializes a new instance of the [PngImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.png/pngimage/) class.|
+|create_with_width_height(width, height)|Initializes a new instance of the [PngImage](/imaging/python-net/aspose.imaging.fileformats.png/pngimage/) class.|
+|create_from_image(raster_image)|Initializes a new instance of the [PngImage](/imaging/python-net/aspose.imaging.fileformats.png/pngimage/) class.|
+|create_from_file_with_color_type(path, color_type)|Initializes a new instance of the [PngImage](/imaging/python-net/aspose.imaging.fileformats.png/pngimage/) class.|
+|create_from_image_with_color_type(raster_image, color_type)|Initializes a new instance of the [PngImage](/imaging/python-net/aspose.imaging.fileformats.png/pngimage/) class.|
+|create_from_stream(stream)|Initializes a new instance of the [PngImage](/imaging/python-net/aspose.imaging.fileformats.png/pngimage/) class.|
+|create_with_width_height_color_type(width, height, color_type)|Initializes a new instance of the [PngImage](/imaging/python-net/aspose.imaging.fileformats.png/pngimage/) class.|
+|create_with_width_height_options(png_options, width, height)|Initializes a new instance of the [PngImage](/imaging/python-net/aspose.imaging.fileformats.png/pngimage/) class.|

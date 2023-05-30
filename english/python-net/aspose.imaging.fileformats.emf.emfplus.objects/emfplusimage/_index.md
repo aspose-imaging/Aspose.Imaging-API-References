@@ -2,16 +2,16 @@
 title: EmfPlusImage Class
 type: docs
 weight: 380
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage/
 ---
 
 The EmfPlusImage object specifies a graphics image in the form of a bitmap or metafile.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusImage type exposes the following members:
 ## **Constructors**

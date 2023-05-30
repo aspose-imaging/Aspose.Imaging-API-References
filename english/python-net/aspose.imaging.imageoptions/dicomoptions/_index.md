@@ -1,23 +1,23 @@
 ---
 title: DicomOptions Class
 type: docs
-weight: 50
-url: /python-net/api-reference/aspose.imaging.imageoptions/dicomoptions/
+weight: 60
+url: /python-net/aspose.imaging.imageoptions/dicomoptions/
 ---
 
 The DICOM file format creation options.
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.DicomOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The DicomOptions type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|DicomOptions()|Initializes a new instance of the [DicomOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/dicomoptions/) class.|
+|DicomOptions()|Initializes a new instance of the [DicomOptions](/imaging/python-net/aspose.imaging.imageoptions/dicomoptions/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

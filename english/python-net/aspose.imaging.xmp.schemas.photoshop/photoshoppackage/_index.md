@@ -2,22 +2,22 @@
 title: PhotoshopPackage Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.xmp.schemas.photoshop/photoshoppackage/
+url: /python-net/aspose.imaging.xmp.schemas.photoshop/photoshoppackage/
 ---
 
 Represents Adobe Photoshop namespace.
 
-**Namespace:** [aspose.imaging.xmp.schemas.photoshop](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.photoshop/)
+**Namespace:** [aspose.imaging.xmp.schemas.photoshop](/imaging/python-net/aspose.imaging.xmp.schemas.photoshop/)
 
 **Full Class Name:** aspose.imaging.xmp.schemas.photoshop.PhotoshopPackage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The PhotoshopPackage type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|PhotoshopPackage()|Initializes a new instance of the [PhotoshopPackage](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.photoshop/photoshoppackage/) class.|
+|PhotoshopPackage()|Initializes a new instance of the [PhotoshopPackage](/imaging/python-net/aspose.imaging.xmp.schemas.photoshop/photoshoppackage/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

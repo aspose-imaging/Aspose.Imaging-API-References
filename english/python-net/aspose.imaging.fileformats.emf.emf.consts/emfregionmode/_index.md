@@ -2,16 +2,16 @@
 title: EmfRegionMode Enumeration
 type: docs
 weight: 300
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/emfregionmode/
+url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emfregionmode/
 ---
 
 The RegionMode enumeration defines values that are used with EMR_SELECTCLIPPATH and EMR_EXTSELECTCLIPRGN, <br/>            specifying the current path or a new region that is being combined with the current clip region.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfRegionMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

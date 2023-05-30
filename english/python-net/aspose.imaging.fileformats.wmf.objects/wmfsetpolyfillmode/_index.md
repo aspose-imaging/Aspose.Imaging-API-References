@@ -2,16 +2,16 @@
 title: WmfSetPolyFillMode Class
 type: docs
 weight: 720
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfsetpolyfillmode/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetpolyfillmode/
 ---
 
 The set poly fill mode.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetPolyFillMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfSetPolyFillMode type exposes the following members:
 ## **Constructors**

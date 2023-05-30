@@ -1,23 +1,23 @@
 ---
 title: SvgRasterizationOptions Class
 type: docs
-weight: 290
-url: /python-net/api-reference/aspose.imaging.imageoptions/svgrasterizationoptions/
+weight: 300
+url: /python-net/aspose.imaging.imageoptions/svgrasterizationoptions/
 ---
 
 The SVG rasterization options.
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.SvgRasterizationOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The SvgRasterizationOptions type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|SvgRasterizationOptions()|Initializes a new instance of the [SvgRasterizationOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/svgrasterizationoptions/) class.|
+|SvgRasterizationOptions()|Initializes a new instance of the [SvgRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/svgrasterizationoptions/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

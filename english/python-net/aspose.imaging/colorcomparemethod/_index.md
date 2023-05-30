@@ -1,17 +1,17 @@
 ---
 title: ColorCompareMethod Enumeration
 type: docs
-weight: 8900
-url: /python-net/api-reference/aspose.imaging/colorcomparemethod/
+weight: 8990
+url: /python-net/aspose.imaging/colorcomparemethod/
 ---
 
 Color comparison method to adjust to nearest neighbor
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Name:** aspose.imaging.ColorCompareMethod
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

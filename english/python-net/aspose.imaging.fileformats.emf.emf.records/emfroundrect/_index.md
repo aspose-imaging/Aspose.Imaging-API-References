@@ -2,23 +2,23 @@
 title: EmfRoundRect Class
 type: docs
 weight: 990
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfroundrect/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfroundrect/
 ---
 
 The EMR_ROUNDRECT record specifies a rectangle with rounded corners. The rectangle is outlined <br/>            by using the current pen and filled by using the current brush.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfRoundRect
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfRoundRect type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfRoundRect(source)|Initializes a new instance of the EmfRoundRect class|
-|EmfRoundRect()|Initializes a new instance of the [EmfRoundRect](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfroundrect/) class.|
+|EmfRoundRect()|Initializes a new instance of the [EmfRoundRect](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfroundrect/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

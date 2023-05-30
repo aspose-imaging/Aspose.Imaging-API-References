@@ -2,16 +2,16 @@
 title: EmfPlusPixelOffsetMode Enumeration
 type: docs
 weight: 350
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspixeloffsetmode/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspixeloffsetmode/
 ---
 
 The PixelOffsetMode enumeration defines how pixels are offset, which specifies the trade-off between rendering speed and quality.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusPixelOffsetMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

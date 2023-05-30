@@ -2,16 +2,16 @@
 title: EmfArcDirection Enumeration
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/emfarcdirection/
+url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emfarcdirection/
 ---
 
 The ArcDirection enumeration is used in setting the drawing direction for arc and rectangle output.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfArcDirection
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

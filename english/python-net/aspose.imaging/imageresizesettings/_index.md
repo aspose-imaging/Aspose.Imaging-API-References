@@ -1,23 +1,23 @@
 ---
 title: ImageResizeSettings Class
 type: docs
-weight: 550
-url: /python-net/api-reference/aspose.imaging/imageresizesettings/
+weight: 560
+url: /python-net/aspose.imaging/imageresizesettings/
 ---
 
 Image resize settings class
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.ImageResizeSettings
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The ImageResizeSettings type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|ImageResizeSettings()|Initializes a new instance of the [ImageResizeSettings](/imaging/python-net/api-reference/aspose.imaging/imageresizesettings/) class.|
+|ImageResizeSettings()|Initializes a new instance of the [ImageResizeSettings](/imaging/python-net/aspose.imaging/imageresizesettings/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

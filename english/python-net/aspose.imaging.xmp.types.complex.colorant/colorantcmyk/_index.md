@@ -2,29 +2,29 @@
 title: ColorantCmyk Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.xmp.types.complex.colorant/colorantcmyk/
+url: /python-net/aspose.imaging.xmp.types.complex.colorant/colorantcmyk/
 ---
 
 Represents CMYK Colorant.
 
-**Namespace:** [aspose.imaging.xmp.types.complex.colorant](/imaging/python-net/api-reference/aspose.imaging.xmp.types.complex.colorant/)
+**Namespace:** [aspose.imaging.xmp.types.complex.colorant](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/)
 
 **Full Class Name:** aspose.imaging.xmp.types.complex.colorant.ColorantCmyk
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The ColorantCmyk type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|ColorantCmyk()|Initializes a new instance of the [ColorantCmyk](/imaging/python-net/api-reference/aspose.imaging.xmp.types.complex.colorant/colorantcmyk/) class.|
+|ColorantCmyk()|Initializes a new instance of the [ColorantCmyk](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colorantcmyk/) class.|
 |ColorantCmyk(black, cyan, magenta, yellow)|Initializes a new instance of the ColorantCmyk class|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |
 |prefix|  |
 |namespace_uri|  |
-|mode|Gets [ColorMode](/imaging/python-net/api-reference/aspose.imaging.xmp.types.complex.colorant/colormode/).|
+|mode|Gets [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode/).|
 |swatch_name|Gets or sets the name of the swatch.|
 |color_type|Gets or sets the type of the color.|
 |black|Gets or sets the black component value.|

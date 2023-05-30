@@ -2,16 +2,16 @@
 title: OdMeasureTextKind Enumeration
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.enums/odmeasuretextkind/
+url: /python-net/aspose.imaging.fileformats.opendocument.enums/odmeasuretextkind/
 ---
 
 The measure text kind
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.enums](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.enums/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.enums](/imaging/python-net/aspose.imaging.fileformats.opendocument.enums/)
 
 **Full Name:** aspose.imaging.fileformats.opendocument.enums.OdMeasureTextKind
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

@@ -2,23 +2,23 @@
 title: EmfStrokePath Class
 type: docs
 weight: 1400
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfstrokepath/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfstrokepath/
 ---
 
 EMR_STROKEPATH class
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfStrokePath
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfStrokePath type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfStrokePath(record)|Initializes a new instance of the EmfStrokePath class|
-|EmfStrokePath()|Initializes a new instance of the [EmfStrokePath](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfstrokepath/) class.|
+|EmfStrokePath()|Initializes a new instance of the [EmfStrokePath](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfstrokepath/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

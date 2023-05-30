@@ -2,16 +2,16 @@
 title: WmfPitchAndFamily Class
 type: docs
 weight: 450
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/
 ---
 
 The PitchAndFamily object specifies the pitch and family properties of a<br/>                Font object (section 2.2.1.2). Pitch refers to the width of the<br/>                characters, and family refers to the general appearance of a font.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfPitchAndFamily
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfPitchAndFamily type exposes the following members:
 ## **Constructors**

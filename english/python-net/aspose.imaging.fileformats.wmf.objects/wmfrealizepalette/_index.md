@@ -2,16 +2,16 @@
 title: WmfRealizePalette Class
 type: docs
 weight: 500
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfrealizepalette/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfrealizepalette/
 ---
 
 The META_REALIZEPALETTE record maps entries from the logical palette<br/>                that is defined in the playback device context to the system palette.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfRealizePalette
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfRealizePalette type exposes the following members:
 ## **Constructors**

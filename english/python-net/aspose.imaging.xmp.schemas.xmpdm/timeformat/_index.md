@@ -2,16 +2,16 @@
 title: TimeFormat Class
 type: docs
 weight: 50
-url: /python-net/api-reference/aspose.imaging.xmp.schemas.xmpdm/timeformat/
+url: /python-net/aspose.imaging.xmp.schemas.xmpdm/timeformat/
 ---
 
-Represents time format in [Timecode](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.xmpdm/timecode/).
+Represents time format in [Timecode](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/timecode/).
 
-**Namespace:** [aspose.imaging.xmp.schemas.xmpdm](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.xmpdm/)
+**Namespace:** [aspose.imaging.xmp.schemas.xmpdm](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/)
 
 **Full Class Name:** aspose.imaging.xmp.schemas.xmpdm.TimeFormat
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The TimeFormat type exposes the following members:
 ## **Properties**

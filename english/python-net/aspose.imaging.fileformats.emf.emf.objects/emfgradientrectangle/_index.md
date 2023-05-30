@@ -2,16 +2,16 @@
 title: EmfGradientRectangle Class
 type: docs
 weight: 70
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emfgradientrectangle/
+url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfgradientrectangle/
 ---
 
 The GradientRectangle object defines a rectangle using TriVertex objects (section 2.2.26) in an <br/>            EMR_GRADIENTFILL record (section 2.3.5.12).
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfGradientRectangle
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfGradientRectangle type exposes the following members:
 ## **Constructors**

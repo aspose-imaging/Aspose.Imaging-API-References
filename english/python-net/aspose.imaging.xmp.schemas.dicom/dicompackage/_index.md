@@ -2,22 +2,22 @@
 title: DicomPackage Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.xmp.schemas.dicom/dicompackage/
+url: /python-net/aspose.imaging.xmp.schemas.dicom/dicompackage/
 ---
 
 The Dicom Xmp package.
 
-**Namespace:** [aspose.imaging.xmp.schemas.dicom](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.dicom/)
+**Namespace:** [aspose.imaging.xmp.schemas.dicom](/imaging/python-net/aspose.imaging.xmp.schemas.dicom/)
 
 **Full Class Name:** aspose.imaging.xmp.schemas.dicom.DicomPackage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The DicomPackage type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|DicomPackage()|Initializes a new instance of the [DicomPackage](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.dicom/dicompackage/) class.|
+|DicomPackage()|Initializes a new instance of the [DicomPackage](/imaging/python-net/aspose.imaging.xmp.schemas.dicom/dicompackage/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

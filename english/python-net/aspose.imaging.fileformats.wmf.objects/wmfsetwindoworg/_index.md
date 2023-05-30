@@ -2,16 +2,16 @@
 title: WmfSetWindowOrg Class
 type: docs
 weight: 830
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfsetwindoworg/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetwindoworg/
 ---
 
 The set window org object
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetWindowOrg
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfSetWindowOrg type exposes the following members:
 ## **Constructors**

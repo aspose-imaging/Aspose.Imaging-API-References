@@ -2,16 +2,16 @@
 title: WmfVerticalTextAlignmentModeFlags Enumeration
 type: docs
 weight: 280
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.consts/wmfverticaltextalignmentmodeflags/
+url: /python-net/aspose.imaging.fileformats.wmf.consts/wmfverticaltextalignmentmodeflags/
 ---
 
 VerticalTextAlignmentMode Flags specify the relationship between a reference point and a<br/>                bounding rectangle, for text alignment. These flags can be combined to specify multiple options,<br/>                with the restriction that only one flag can be chosen that alters the drawing position in the playback<br/>                device context.<br/>                Vertical text alignment is performed when the font has a vertical default baseline, such as Kanji.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.consts/)
+**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfVerticalTextAlignmentModeFlags
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

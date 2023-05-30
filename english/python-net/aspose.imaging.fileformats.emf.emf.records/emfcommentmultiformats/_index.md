@@ -2,16 +2,16 @@
 title: EmfCommentMultiFormats Class
 type: docs
 weight: 200
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfcommentmultiformats/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentmultiformats/
 ---
 
 The EMR_COMMENT_MULTIFORMATS record specifies an image in multiple graphics formats.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfCommentMultiFormats
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfCommentMultiFormats type exposes the following members:
 ## **Constructors**

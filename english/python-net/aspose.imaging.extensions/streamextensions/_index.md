@@ -2,16 +2,16 @@
 title: StreamExtensions Class
 type: docs
 weight: 170
-url: /python-net/api-reference/aspose.imaging.extensions/streamextensions/
+url: /python-net/aspose.imaging.extensions/streamextensions/
 ---
 
 Provides access to the creation of a MemoryStream or FileStream.
 
-**Namespace:** [aspose.imaging.extensions](/imaging/python-net/api-reference/aspose.imaging.extensions/)
+**Namespace:** [aspose.imaging.extensions](/imaging/python-net/aspose.imaging.extensions/)
 
 **Full Class Name:** aspose.imaging.extensions.StreamExtensions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The StreamExtensions type exposes the following members:
 ## **Constructors**

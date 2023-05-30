@@ -2,16 +2,16 @@
 title: WmfBinaryRasterOperation Enumeration
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.consts/wmfbinaryrasteroperation/
+url: /python-net/aspose.imaging.fileformats.wmf.consts/wmfbinaryrasteroperation/
 ---
 
 The BinaryRasterOperation Enumeration section lists the binary raster-operation codes. Raster operation codes<br/>                define how metafile processing combines the bits from the selected pen with the<br/>                bits in the destination bitmap.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.consts/)
+**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfBinaryRasterOperation
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

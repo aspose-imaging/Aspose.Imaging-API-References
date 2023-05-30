@@ -2,16 +2,16 @@
 title: WmfPitchFont Enumeration
 type: docs
 weight: 200
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.consts/wmfpitchfont/
+url: /python-net/aspose.imaging.fileformats.wmf.consts/wmfpitchfont/
 ---
 
 The PitchFont enumeration defines values that are used for specifying characteristics of a font.<br/>                The values are used to indicate whether the characters in a font have a fixed or variable width, or pitch.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.consts/)
+**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfPitchFont
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

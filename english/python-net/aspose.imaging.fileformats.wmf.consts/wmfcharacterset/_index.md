@@ -2,16 +2,16 @@
 title: WmfCharacterSet Enumeration
 type: docs
 weight: 40
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.consts/wmfcharacterset/
+url: /python-net/aspose.imaging.fileformats.wmf.consts/wmfcharacterset/
 ---
 
 The CharacterSet Enumeration defines the possible sets of character glyphs that are defined in<br/>                fonts for graphics output.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.consts/)
+**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfCharacterSet
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

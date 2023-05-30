@@ -2,16 +2,16 @@
 title: EmfSmallTextOut Class
 type: docs
 weight: 1350
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/
 ---
 
 The EMR_SMALLTEXTOUT record outputs a string.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSmallTextOut
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfSmallTextOut type exposes the following members:
 ## **Constructors**

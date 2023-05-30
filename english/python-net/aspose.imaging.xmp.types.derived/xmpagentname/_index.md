@@ -2,16 +2,16 @@
 title: XmpAgentName Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.xmp.types.derived/xmpagentname/
+url: /python-net/aspose.imaging.xmp.types.derived/xmpagentname/
 ---
 
 Represents Agent name, Software organization etc.
 
-**Namespace:** [aspose.imaging.xmp.types.derived](/imaging/python-net/api-reference/aspose.imaging.xmp.types.derived/)
+**Namespace:** [aspose.imaging.xmp.types.derived](/imaging/python-net/aspose.imaging.xmp.types.derived/)
 
 **Full Class Name:** aspose.imaging.xmp.types.derived.XmpAgentName
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The XmpAgentName type exposes the following members:
 ## **Constructors**

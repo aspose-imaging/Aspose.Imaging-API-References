@@ -2,16 +2,16 @@
 title: WmfSetDibToDev Class
 type: docs
 weight: 660
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfsetdibtodev/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetdibtodev/
 ---
 
 The META_SETDIBTODEV record sets a block of pixels in the playback<br/>                device context using device-independent color data. The source of the<br/>                color data is a DIB.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetDibToDev
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfSetDibToDev type exposes the following members:
 ## **Constructors**

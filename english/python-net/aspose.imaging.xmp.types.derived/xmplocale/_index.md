@@ -2,16 +2,16 @@
 title: XmpLocale Class
 type: docs
 weight: 50
-url: /python-net/api-reference/aspose.imaging.xmp.types.derived/xmplocale/
+url: /python-net/aspose.imaging.xmp.types.derived/xmplocale/
 ---
 
 Represents language code.
 
-**Namespace:** [aspose.imaging.xmp.types.derived](/imaging/python-net/api-reference/aspose.imaging.xmp.types.derived/)
+**Namespace:** [aspose.imaging.xmp.types.derived](/imaging/python-net/aspose.imaging.xmp.types.derived/)
 
 **Full Class Name:** aspose.imaging.xmp.types.derived.XmpLocale
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The XmpLocale type exposes the following members:
 ## **Constructors**

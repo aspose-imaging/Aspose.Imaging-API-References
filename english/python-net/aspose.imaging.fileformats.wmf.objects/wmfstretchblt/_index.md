@@ -2,16 +2,16 @@
 title: WmfStretchBlt Class
 type: docs
 weight: 840
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfstretchblt/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfstretchblt/
 ---
 
 The META_STRETCHBLT record specifies the transfer of a block of pixels<br/>                according to a raster operation, with possible expansion or contraction.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfStretchBlt
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfStretchBlt type exposes the following members:
 ## **Constructors**

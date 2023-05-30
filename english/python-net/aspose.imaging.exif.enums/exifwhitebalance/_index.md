@@ -2,16 +2,16 @@
 title: ExifWhiteBalance Enumeration
 type: docs
 weight: 180
-url: /python-net/api-reference/aspose.imaging.exif.enums/exifwhitebalance/
+url: /python-net/aspose.imaging.exif.enums/exifwhitebalance/
 ---
 
 exif white balance enum.
 
-**Namespace:** [aspose.imaging.exif.enums](/imaging/python-net/api-reference/aspose.imaging.exif.enums/)
+**Namespace:** [aspose.imaging.exif.enums](/imaging/python-net/aspose.imaging.exif.enums/)
 
 **Full Name:** aspose.imaging.exif.enums.ExifWhiteBalance
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

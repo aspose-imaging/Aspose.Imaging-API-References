@@ -1,8 +1,8 @@
 ---
 title: aspose.imaging.sources
 type: docs
-weight: 900
-url: /python-net/api-reference/aspose.imaging.sources/
+weight: 920
+url: /python-net/aspose.imaging.sources/
 ---
 
 
@@ -11,7 +11,7 @@ Namespace contains different stream sources which are suitable for input or outp
 ## **Classes**
 |**Class**|**Description**|
 | :- | :- |
-|[FileCreateSource](/imaging/python-net/api-reference/aspose.imaging.sources/filecreatesource/)|Represents a file source for creation.|
-|[FileOpenSource](/imaging/python-net/api-reference/aspose.imaging.sources/fileopensource/)|Represents a file source for opening.|
-|[FileSource](/imaging/python-net/api-reference/aspose.imaging.sources/filesource/)|Represents a file source which is capable of files manipulation.|
-|[StreamSource](/imaging/python-net/api-reference/aspose.imaging.sources/streamsource/)|Represents a stream source.|
+|[FileCreateSource](/imaging/python-net/aspose.imaging.sources/filecreatesource/)|Represents a file source for creation.|
+|[FileOpenSource](/imaging/python-net/aspose.imaging.sources/fileopensource/)|Represents a file source for opening.|
+|[FileSource](/imaging/python-net/aspose.imaging.sources/filesource/)|Represents a file source which is capable of files manipulation.|
+|[StreamSource](/imaging/python-net/aspose.imaging.sources/streamsource/)|Represents a stream source.|

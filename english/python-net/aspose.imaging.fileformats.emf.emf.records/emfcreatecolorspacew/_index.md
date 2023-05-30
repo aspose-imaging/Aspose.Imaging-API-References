@@ -2,16 +2,16 @@
 title: EmfCreateColorSpaceW Class
 type: docs
 weight: 270
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/
 ---
 
 The EMR_CREATECOLORSPACEW record creates a logical color space object from a color profile with<br/>            a name consisting of Unicode characters.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfCreateColorSpaceW
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfCreateColorSpaceW type exposes the following members:
 ## **Constructors**

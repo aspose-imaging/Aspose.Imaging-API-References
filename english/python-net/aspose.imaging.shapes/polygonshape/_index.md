@@ -2,22 +2,22 @@
 title: PolygonShape Class
 type: docs
 weight: 60
-url: /python-net/api-reference/aspose.imaging.shapes/polygonshape/
+url: /python-net/aspose.imaging.shapes/polygonshape/
 ---
 
 Represents a polygon shape.
 
-**Namespace:** [aspose.imaging.shapes](/imaging/python-net/api-reference/aspose.imaging.shapes/)
+**Namespace:** [aspose.imaging.shapes](/imaging/python-net/aspose.imaging.shapes/)
 
 **Full Class Name:** aspose.imaging.shapes.PolygonShape
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The PolygonShape type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|PolygonShape()|Initializes a new instance of the [PolygonShape](/imaging/python-net/api-reference/aspose.imaging.shapes/polygonshape/) class.|
+|PolygonShape()|Initializes a new instance of the [PolygonShape](/imaging/python-net/aspose.imaging.shapes/polygonshape/) class.|
 |PolygonShape(points)|Initializes a new instance of the PolygonShape class|
 |PolygonShape(points, is_closed)|Initializes a new instance of the PolygonShape class|
 ## **Properties**

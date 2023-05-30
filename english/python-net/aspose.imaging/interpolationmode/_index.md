@@ -1,17 +1,17 @@
 ---
 title: InterpolationMode Enumeration
 type: docs
-weight: 9060
-url: /python-net/api-reference/aspose.imaging/interpolationmode/
+weight: 9150
+url: /python-net/aspose.imaging/interpolationmode/
 ---
 
-The [InterpolationMode](/imaging/python-net/api-reference/aspose.imaging/interpolationmode/) enumeration specifies the algorithm that is used when images are scaled or rotated.
+The [InterpolationMode](/imaging/python-net/aspose.imaging/interpolationmode/) enumeration specifies the algorithm that is used when images are scaled or rotated.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Name:** aspose.imaging.InterpolationMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

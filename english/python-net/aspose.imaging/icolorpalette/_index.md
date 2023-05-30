@@ -2,16 +2,16 @@
 title: IColorPalette Class
 type: docs
 weight: 280
-url: /python-net/api-reference/aspose.imaging/icolorpalette/
+url: /python-net/aspose.imaging/icolorpalette/
 ---
 
 The color palette interface.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.IColorPalette
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IColorPalette type exposes the following members:
 ## **Properties**
@@ -19,7 +19,7 @@ The IColorPalette type exposes the following members:
 | :- | :- |
 |entries_count|Gets the entries count.|
 |argb_32_entries|Gets an array of 32-bit ARGB structures.|
-|entries|Gets an array of [Color](/imaging/python-net/api-reference/aspose.imaging/color/) structures.|
+|entries|Gets an array of [Color](/imaging/python-net/aspose.imaging/color/) structures.|
 |is_compact_palette|Gets a value indicating whether compact palette is used.|
 ## **Methods**
 |**Name**|**Description**|

@@ -1,23 +1,23 @@
 ---
 title: BmpOptions Class
 type: docs
-weight: 20
-url: /python-net/api-reference/aspose.imaging.imageoptions/bmpoptions/
+weight: 30
+url: /python-net/aspose.imaging.imageoptions/bmpoptions/
 ---
 
 The bmp file format creation options.
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.BmpOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The BmpOptions type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|BmpOptions()|Initializes a new instance of the [BmpOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/bmpoptions/) class.|
+|BmpOptions()|Initializes a new instance of the [BmpOptions](/imaging/python-net/aspose.imaging.imageoptions/bmpoptions/) class.|
 |BmpOptions(bmp_options)|Initializes a new instance of the BmpOptions class|
 ## **Properties**
 |**Name**|**Description**|
@@ -32,7 +32,7 @@ The BmpOptions type exposes the following members:
 |multi_page_options|The multipage options|
 |full_frame|Gets or sets a value indicating whether [full frame].|
 |bits_per_pixel|Gets or sets the image bits per pixel count.|
-|compression|Gets or sets the compression type. The default compression type is [BITFIELDS](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/bitmapcompression/), that allows saving a [BmpImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/bmpimage/) with transparency.|
+|compression|Gets or sets the compression type. The default compression type is [BITFIELDS](/imaging/python-net/aspose.imaging.fileformats.bmp/bitmapcompression/), that allows saving a [BmpImage](/imaging/python-net/aspose.imaging.fileformats.bmp/bmpimage/) with transparency.|
 ## **Methods**
 |**Name**|**Description**|
 | :- | :- |

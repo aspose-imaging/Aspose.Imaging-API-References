@@ -1,17 +1,17 @@
 ---
 title: Shape Class
 type: docs
-weight: 770
-url: /python-net/api-reference/aspose.imaging/shape/
+weight: 780
+url: /python-net/aspose.imaging/shape/
 ---
 
 The shape. A continuous set of points connected using a specific rule.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.Shape
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The Shape type exposes the following members:
 ## **Properties**

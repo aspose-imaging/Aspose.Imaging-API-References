@@ -2,16 +2,16 @@
 title: EmfSelectPalette Class
 type: docs
 weight: 1050
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfselectpalette/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfselectpalette/
 ---
 
 The EMR_SELECTPALETTE record specifies a logical palette for the playback device context.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSelectPalette
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfSelectPalette type exposes the following members:
 ## **Constructors**

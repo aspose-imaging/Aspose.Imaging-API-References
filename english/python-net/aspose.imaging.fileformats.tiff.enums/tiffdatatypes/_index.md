@@ -2,16 +2,16 @@
 title: TiffDataTypes Enumeration
 type: docs
 weight: 50
-url: /python-net/api-reference/aspose.imaging.fileformats.tiff.enums/tiffdatatypes/
+url: /python-net/aspose.imaging.fileformats.tiff.enums/tiffdatatypes/
 ---
 
 The tiff data type enum.
 
-**Namespace:** [aspose.imaging.fileformats.tiff.enums](/imaging/python-net/api-reference/aspose.imaging.fileformats.tiff.enums/)
+**Namespace:** [aspose.imaging.fileformats.tiff.enums](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/)
 
 **Full Name:** aspose.imaging.fileformats.tiff.enums.TiffDataTypes
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|
@@ -29,3 +29,6 @@ The tiff data type enum.
 |FLOAT|32-bit IEEE floating point.|
 |DOUBLE|64-bit IEEE floating point.|
 |IFD|Pointer to Exif image file directory (IFD).|
+|LONG8|Unsigned 64-bit integer.|
+|S_LONG8|Signed 64-bit integer.|
+|IFD8|Unsigned 64-bit IFD offset.|

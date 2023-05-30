@@ -2,16 +2,16 @@
 title: IRasterImageArgb32PixelLoader Class
 type: docs
 weight: 460
-url: /python-net/api-reference/aspose.imaging/irasterimageargb32pixelloader/
+url: /python-net/aspose.imaging/irasterimageargb32pixelloader/
 ---
 
 The raster image 32-bit ARGB pixel loader.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.IRasterImageArgb32PixelLoader
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IRasterImageArgb32PixelLoader type exposes the following members:
 ## **Properties**

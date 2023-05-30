@@ -2,16 +2,16 @@
 title: EmfPlusFilterType Enumeration
 type: docs
 weight: 140
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfplusfiltertype/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusfiltertype/
 ---
 
 The FilterType enumeration defines types of filtering algorithms that can be used for text and graphics quality enhancement and image rendering.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusFilterType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

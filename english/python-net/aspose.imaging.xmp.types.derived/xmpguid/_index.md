@@ -2,16 +2,16 @@
 title: XmpGuid Class
 type: docs
 weight: 40
-url: /python-net/api-reference/aspose.imaging.xmp.types.derived/xmpguid/
+url: /python-net/aspose.imaging.xmp.types.derived/xmpguid/
 ---
 
 Represents XMP global unique identifier.
 
-**Namespace:** [aspose.imaging.xmp.types.derived](/imaging/python-net/api-reference/aspose.imaging.xmp.types.derived/)
+**Namespace:** [aspose.imaging.xmp.types.derived](/imaging/python-net/aspose.imaging.xmp.types.derived/)
 
 **Full Class Name:** aspose.imaging.xmp.types.derived.XmpGuid
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The XmpGuid type exposes the following members:
 ## **Constructors**

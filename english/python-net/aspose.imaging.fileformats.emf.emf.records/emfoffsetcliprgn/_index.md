@@ -2,23 +2,23 @@
 title: EmfOffsetClipRgn Class
 type: docs
 weight: 680
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfoffsetcliprgn/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfoffsetcliprgn/
 ---
 
 The EMR_OFFSETCLIPRGN record moves the current clipping region in the playback device context <br/>            by the specified offsets.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfOffsetClipRgn
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfOffsetClipRgn type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfOffsetClipRgn(source)|Initializes a new instance of the EmfOffsetClipRgn class|
-|EmfOffsetClipRgn()|Initializes a new instance of the [EmfOffsetClipRgn](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfoffsetcliprgn/) class.|
+|EmfOffsetClipRgn()|Initializes a new instance of the [EmfOffsetClipRgn](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfoffsetcliprgn/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

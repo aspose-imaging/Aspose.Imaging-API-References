@@ -2,16 +2,16 @@
 title: OdContainer Class
 type: docs
 weight: 60
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/odcontainer/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odcontainer/
 ---
 
 The Container
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdContainer
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdContainer type exposes the following members:
 ## **Constructors**

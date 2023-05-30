@@ -2,16 +2,16 @@
 title: XmpDate Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.xmp.types.basic/xmpdate/
+url: /python-net/aspose.imaging.xmp.types.basic/xmpdate/
 ---
 
 Represents Date in XMP packet.
 
-**Namespace:** [aspose.imaging.xmp.types.basic](/imaging/python-net/api-reference/aspose.imaging.xmp.types.basic/)
+**Namespace:** [aspose.imaging.xmp.types.basic](/imaging/python-net/aspose.imaging.xmp.types.basic/)
 
 **Full Class Name:** aspose.imaging.xmp.types.basic.XmpDate
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The XmpDate type exposes the following members:
 ## **Constructors**

@@ -2,23 +2,23 @@
 title: EmfAngleArc Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfanglearc/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfanglearc/
 ---
 
 The EMR_ANGLEARC record specifies a line segment of an arc. The line segment is drawn from the <br/>            current position to the beginning of the arc. The arc is drawn along the perimeter of a circle with the <br/>            given radius and center. The length of the arc is defined by the given start and sweep angles
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfAngleArc
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfAngleArc type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfAngleArc(source)|Initializes a new instance of the EmfAngleArc class|
-|EmfAngleArc()|Initializes a new instance of the [EmfAngleArc](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfanglearc/) class.|
+|EmfAngleArc()|Initializes a new instance of the [EmfAngleArc](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfanglearc/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

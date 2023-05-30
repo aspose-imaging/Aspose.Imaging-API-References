@@ -2,22 +2,22 @@
 title: CdrListObjects Class
 type: docs
 weight: 160
-url: /python-net/api-reference/aspose.imaging.fileformats.cdr.objects/cdrlistobjects/
+url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrlistobjects/
 ---
 
 The cdr list objects
 
-**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.objects/)
+**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrListObjects
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CdrListObjects type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|CdrListObjects()|Initializes a new instance of the [CdrListObjects](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.objects/cdrlistobjects/) class.|
+|CdrListObjects()|Initializes a new instance of the [CdrListObjects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrlistobjects/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |
@@ -27,7 +27,7 @@ The CdrListObjects type exposes the following members:
 |childs|Gets or sets the objects.|
 |load_to_last_child|Gets or sets a value indicating whether [load to last child].|
 |last_child|Gets or sets the last child.|
-|hidden|Gets or sets a value indicating whether this [CdrObjectContainer](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) is visible.|
+|hidden|Gets or sets a value indicating whether this [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) is visible.|
 |page_width|Gets or sets the width of the page.|
 |page_height|Gets or sets the height of the page.|
 |fill_id|Gets or sets the fill identifier.|

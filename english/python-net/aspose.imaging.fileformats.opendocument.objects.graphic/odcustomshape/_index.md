@@ -2,16 +2,16 @@
 title: OdCustomShape Class
 type: docs
 weight: 80
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/odcustomshape/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odcustomshape/
 ---
 
 The open document custom-shape.
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdCustomShape
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdCustomShape type exposes the following members:
 ## **Constructors**

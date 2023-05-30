@@ -2,23 +2,23 @@
 title: EmfChord Class
 type: docs
 weight: 100
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfchord/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfchord/
 ---
 
 The EMR_CHORD record specifies a chord, which is a region bounded by the intersection of an <br/>            ellipse and a line segment, called a secant. The chord is outlined by using the current pen and filled <br/>            by using the current brush.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfChord
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfChord type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfChord(source)|Initializes a new instance of the EmfChord class|
-|EmfChord()|Initializes a new instance of the [EmfChord](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfchord/) class.|
+|EmfChord()|Initializes a new instance of the [EmfChord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfchord/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

@@ -2,16 +2,16 @@
 title: OdLoadOptions Class
 type: docs
 weight: 40
-url: /python-net/api-reference/aspose.imaging.imageloadoptions/odloadoptions/
+url: /python-net/aspose.imaging.imageloadoptions/odloadoptions/
 ---
 
 The Open Dcocument Load Options
 
-**Namespace:** [aspose.imaging.imageloadoptions](/imaging/python-net/api-reference/aspose.imaging.imageloadoptions/)
+**Namespace:** [aspose.imaging.imageloadoptions](/imaging/python-net/aspose.imaging.imageloadoptions/)
 
 **Full Class Name:** aspose.imaging.imageloadoptions.OdLoadOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdLoadOptions type exposes the following members:
 ## **Constructors**
@@ -22,7 +22,7 @@ The OdLoadOptions type exposes the following members:
 |**Name**|**Description**|
 | :- | :- |
 |data_recovery_mode|Gets or sets the data recovery mode.|
-|data_background_color|Gets or sets the [Image](/imaging/python-net/api-reference/aspose.imaging/image/) background [Color](/imaging/python-net/api-reference/aspose.imaging/color/).|
+|data_background_color|Gets or sets the [Image](/imaging/python-net/aspose.imaging/image/) background [Color](/imaging/python-net/aspose.imaging/color/).|
 |use_icc_profile_conversion|Gets or sets a value indicating whether ICC profile conversion should be applied.|
 |buffer_size_hint|Gets or sets the buffer size hint which is defined max allowed size for all internal buffers.|
 |password|Gets or sets the password.|

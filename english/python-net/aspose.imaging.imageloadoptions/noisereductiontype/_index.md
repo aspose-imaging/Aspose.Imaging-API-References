@@ -2,16 +2,16 @@
 title: NoiseReductionType Enumeration
 type: docs
 weight: 70
-url: /python-net/api-reference/aspose.imaging.imageloadoptions/noisereductiontype/
+url: /python-net/aspose.imaging.imageloadoptions/noisereductiontype/
 ---
 
 The type of dbdd noise reduction.
 
-**Namespace:** [aspose.imaging.imageloadoptions](/imaging/python-net/api-reference/aspose.imaging.imageloadoptions/)
+**Namespace:** [aspose.imaging.imageloadoptions](/imaging/python-net/aspose.imaging.imageloadoptions/)
 
 **Full Name:** aspose.imaging.imageloadoptions.NoiseReductionType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

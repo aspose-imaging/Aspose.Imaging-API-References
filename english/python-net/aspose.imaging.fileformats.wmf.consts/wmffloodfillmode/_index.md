@@ -2,16 +2,16 @@
 title: WmfFloodFillMode Enumeration
 type: docs
 weight: 90
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.consts/wmffloodfillmode/
+url: /python-net/aspose.imaging.fileformats.wmf.consts/wmffloodfillmode/
 ---
 
 The FloodFill Enumeration specifies the type of fill operation to be<br/>                performed.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.consts/)
+**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfFloodFillMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

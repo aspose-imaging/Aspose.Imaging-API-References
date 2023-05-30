@@ -2,16 +2,16 @@
 title: EmfPlusSerializableObject Class
 type: docs
 weight: 440
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/
 ---
 
 The EmfPlusSerializableObject record defines an image effects parameter block that has been<br/>            serialized into a data buffer.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSerializableObject
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusSerializableObject type exposes the following members:
 ## **Constructors**

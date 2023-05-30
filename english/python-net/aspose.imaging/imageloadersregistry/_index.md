@@ -1,17 +1,17 @@
 ---
 title: ImageLoadersRegistry Class
 type: docs
-weight: 530
-url: /python-net/api-reference/aspose.imaging/imageloadersregistry/
+weight: 540
+url: /python-net/aspose.imaging/imageloadersregistry/
 ---
 
 Represents the image loaders registry.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.ImageLoadersRegistry
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The ImageLoadersRegistry type exposes the following members:
 ## **Properties**

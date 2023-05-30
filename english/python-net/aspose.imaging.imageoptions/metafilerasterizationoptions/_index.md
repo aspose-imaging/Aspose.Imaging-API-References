@@ -1,17 +1,17 @@
 ---
 title: MetafileRasterizationOptions Class
 type: docs
-weight: 170
-url: /python-net/api-reference/aspose.imaging.imageoptions/metafilerasterizationoptions/
+weight: 180
+url: /python-net/aspose.imaging.imageoptions/metafilerasterizationoptions/
 ---
 
-The metafile rasterization options<br/>            This class will be removed in next versions. <br/>            Please use concrete realization, for example OdgRasterizationOptions, SvgRasterizationOptions, CdrRasterizationOptions, CmxRasterizationOptions
+The metafile rasterization options
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.MetafileRasterizationOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The MetafileRasterizationOptions type exposes the following members:
 ## **Properties**

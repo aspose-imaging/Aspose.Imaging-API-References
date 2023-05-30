@@ -2,16 +2,16 @@
 title: EmfGradientFill Enumeration
 type: docs
 weight: 140
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/emfgradientfill/
+url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emfgradientfill/
 ---
 
 The GradientFill enumeration defines the modes for gradient fill operations.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfGradientFill
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

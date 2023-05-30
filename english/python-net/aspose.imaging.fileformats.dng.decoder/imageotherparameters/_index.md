@@ -2,16 +2,16 @@
 title: ImageOtherParameters Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.dng.decoder/imageotherparameters/
+url: /python-net/aspose.imaging.fileformats.dng.decoder/imageotherparameters/
 ---
 
 Other image parameters
 
-**Namespace:** [aspose.imaging.fileformats.dng.decoder](/imaging/python-net/api-reference/aspose.imaging.fileformats.dng.decoder/)
+**Namespace:** [aspose.imaging.fileformats.dng.decoder](/imaging/python-net/aspose.imaging.fileformats.dng.decoder/)
 
 **Full Class Name:** aspose.imaging.fileformats.dng.decoder.ImageOtherParameters
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The ImageOtherParameters type exposes the following members:
 ## **Properties**

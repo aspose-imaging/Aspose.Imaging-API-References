@@ -2,16 +2,16 @@
 title: EmfPlusStringFormatFlags Enumeration
 type: docs
 weight: 410
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfplusstringformatflags/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusstringformatflags/
 ---
 
 The StringFormat flags specify options for graphics text layout, including direction, clipping and font handling. These flags can be combined to specify multiple options.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusStringFormatFlags
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

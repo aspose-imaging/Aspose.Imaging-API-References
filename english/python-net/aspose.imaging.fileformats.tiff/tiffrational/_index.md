@@ -2,22 +2,22 @@
 title: TiffRational Class
 type: docs
 weight: 50
-url: /python-net/api-reference/aspose.imaging.fileformats.tiff/tiffrational/
+url: /python-net/aspose.imaging.fileformats.tiff/tiffrational/
 ---
 
 The tiff rational type.
 
-**Namespace:** [aspose.imaging.fileformats.tiff](/imaging/python-net/api-reference/aspose.imaging.fileformats.tiff/)
+**Namespace:** [aspose.imaging.fileformats.tiff](/imaging/python-net/aspose.imaging.fileformats.tiff/)
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.TiffRational
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The TiffRational type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|TiffRational()|Initializes a new instance of the [TiffRational](/imaging/python-net/api-reference/aspose.imaging.fileformats.tiff/tiffrational/) class.|
+|TiffRational()|Initializes a new instance of the [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) class.|
 |TiffRational(value)|Initializes a new instance of the TiffRational class|
 |TiffRational(nominator, denominator)|Initializes a new instance of the TiffRational class|
 ## **Properties**

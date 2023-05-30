@@ -2,23 +2,23 @@
 title: EmfSetTextColor Class
 type: docs
 weight: 1280
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfsettextcolor/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsettextcolor/
 ---
 
 The EMR_SETTEXTCOLOR record defines the current text color.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetTextColor
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfSetTextColor type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfSetTextColor(source)|Initializes a new instance of the EmfSetTextColor class|
-|EmfSetTextColor()|Initializes a new instance of the [EmfSetTextColor](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfsettextcolor/) class.|
+|EmfSetTextColor()|Initializes a new instance of the [EmfSetTextColor](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsettextcolor/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

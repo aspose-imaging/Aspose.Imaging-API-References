@@ -2,16 +2,16 @@
 title: XmpArray Class
 type: docs
 weight: 40
-url: /python-net/api-reference/aspose.imaging.xmp/xmparray/
+url: /python-net/aspose.imaging.xmp/xmparray/
 ---
 
-Represents Xmp Array in [XmpPackage](/imaging/python-net/api-reference/aspose.imaging.xmp/xmppackage/). TODO: Array may contain complex data.
+Represents Xmp Array in [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/). TODO: Array may contain complex data.
 
-**Namespace:** [aspose.imaging.xmp](/imaging/python-net/api-reference/aspose.imaging.xmp/)
+**Namespace:** [aspose.imaging.xmp](/imaging/python-net/aspose.imaging.xmp/)
 
 **Full Class Name:** aspose.imaging.xmp.XmpArray
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The XmpArray type exposes the following members:
 ## **Constructors**
@@ -22,7 +22,7 @@ The XmpArray type exposes the following members:
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |
-|values|Gets array of values inside [XmpArray](/imaging/python-net/api-reference/aspose.imaging.xmp/xmparray/).|
+|values|Gets array of values inside [XmpArray](/imaging/python-net/aspose.imaging.xmp/xmparray/).|
 ## **Methods**
 |**Name**|**Description**|
 | :- | :- |

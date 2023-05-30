@@ -2,22 +2,22 @@
 title: EmfPlusRecord Class
 type: docs
 weight: 370
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/
 ---
 
 The Emf+ base record type.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRecord
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusRecord type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|EmfPlusRecord()|Initializes a new instance of the [EmfPlusRecord](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/) class.|
+|EmfPlusRecord()|Initializes a new instance of the [EmfPlusRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/) class.|
 |EmfPlusRecord(source)|Initializes a new instance of the EmfPlusRecord class|
 ## **Properties**
 |**Name**|**Description**|

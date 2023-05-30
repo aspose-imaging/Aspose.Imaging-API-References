@@ -2,16 +2,16 @@
 title: Compression Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.dicom/compression/
+url: /python-net/aspose.imaging.fileformats.dicom/compression/
 ---
 
 Contains the image compression settings.
 
-**Namespace:** [aspose.imaging.fileformats.dicom](/imaging/python-net/api-reference/aspose.imaging.fileformats.dicom/)
+**Namespace:** [aspose.imaging.fileformats.dicom](/imaging/python-net/aspose.imaging.fileformats.dicom/)
 
 **Full Class Name:** aspose.imaging.fileformats.dicom.Compression
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The Compression type exposes the following members:
 ## **Constructors**

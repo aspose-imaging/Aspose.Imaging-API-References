@@ -2,16 +2,16 @@
 title: EmfPlusDrawRects Class
 type: docs
 weight: 180
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawrects/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawrects/
 ---
 
 The EmfPlusDrawRects record specifies drawing a series of rectangles
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusDrawRects
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusDrawRects type exposes the following members:
 ## **Constructors**

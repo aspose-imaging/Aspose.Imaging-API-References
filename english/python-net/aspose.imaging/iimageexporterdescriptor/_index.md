@@ -2,16 +2,16 @@
 title: IImageExporterDescriptor Class
 type: docs
 weight: 330
-url: /python-net/api-reference/aspose.imaging/iimageexporterdescriptor/
+url: /python-net/aspose.imaging/iimageexporterdescriptor/
 ---
 
 Represents the image exporter descriptor. The exporter descriptor is used to overcome the necessity to contain each exporter instance<br/>            in memory and multithreading issues.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.IImageExporterDescriptor
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IImageExporterDescriptor type exposes the following members:
 ## **Properties**

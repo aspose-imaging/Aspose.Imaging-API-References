@@ -2,22 +2,22 @@
 title: GifPlainTextRenderingBlock Class
 type: docs
 weight: 50
-url: /python-net/api-reference/aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/
+url: /python-net/aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/
 ---
 
 Gif plain text extension block. The plain text extension contains textual data and the<br/>            parameters necessary to render that data as a graphic, in a simple form.
 
-**Namespace:** [aspose.imaging.fileformats.gif.blocks](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif.blocks/)
+**Namespace:** [aspose.imaging.fileformats.gif.blocks](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/)
 
 **Full Class Name:** aspose.imaging.fileformats.gif.blocks.GifPlainTextRenderingBlock
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The GifPlainTextRenderingBlock type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|GifPlainTextRenderingBlock()|Initializes a new instance of the [GifPlainTextRenderingBlock](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/) class.|
+|GifPlainTextRenderingBlock()|Initializes a new instance of the [GifPlainTextRenderingBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/) class.|
 |GifPlainTextRenderingBlock(text_grid_left_position, text_grid_top_position, text_grid_width, text_grid_height, character_cell_width, character_cell_height, text_foreground_color_index, text_background_color_index, data)|Initializes a new instance of the GifPlainTextRenderingBlock class|
 ## **Properties**
 |**Name**|**Description**|

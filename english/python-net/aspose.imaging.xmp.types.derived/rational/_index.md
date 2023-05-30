@@ -2,16 +2,16 @@
 title: Rational Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.xmp.types.derived/rational/
+url: /python-net/aspose.imaging.xmp.types.derived/rational/
 ---
 
 Represents XMP Rational.
 
-**Namespace:** [aspose.imaging.xmp.types.derived](/imaging/python-net/api-reference/aspose.imaging.xmp.types.derived/)
+**Namespace:** [aspose.imaging.xmp.types.derived](/imaging/python-net/aspose.imaging.xmp.types.derived/)
 
 **Full Class Name:** aspose.imaging.xmp.types.derived.Rational
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The Rational type exposes the following members:
 ## **Constructors**

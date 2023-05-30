@@ -2,16 +2,16 @@
 title: BmpImage Class
 type: docs
 weight: 50
-url: /python-net/api-reference/aspose.imaging.fileformats.bmp/bmpimage/
+url: /python-net/aspose.imaging.fileformats.bmp/bmpimage/
 ---
 
 A bmp image (supports BMP, DIB formats).
 
-**Namespace:** [aspose.imaging.fileformats.bmp](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/)
+**Namespace:** [aspose.imaging.fileformats.bmp](/imaging/python-net/aspose.imaging.fileformats.bmp/)
 
 **Full Class Name:** aspose.imaging.fileformats.bmp.BmpImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The BmpImage type exposes the following members:
 ## **Constructors**
@@ -57,8 +57,8 @@ The BmpImage type exposes the following members:
 |raw_data_format|Gets the raw data format.|
 |raw_line_size|Gets the raw line size in bytes.|
 |is_raw_data_available|Gets a value indicating whether raw data loading is supported.|
-|horizontal_resolution|Gets or sets the horizontal resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/api-reference/aspose.imaging/rasterimage/).|
-|vertical_resolution|Gets or sets the vertical resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/api-reference/aspose.imaging/rasterimage/).|
+|horizontal_resolution|Gets or sets the horizontal resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/).|
+|vertical_resolution|Gets or sets the vertical resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/).|
 |has_transparent_color|  |
 |has_alpha|  |
 |transparent_color|  |
@@ -120,7 +120,7 @@ The BmpImage type exposes the following members:
 |replace_color(old_color_argb, old_color_diff, new_color_argb)|  |
 |replace_non_transparent_colors(new_color)|  |
 |replace_non_transparent_colors(new_color_argb)|  |
-|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying [data_stream_container](/imaging/python-net/api-reference/aspose.imaging/datastreamsupporter/).|
+|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying [data_stream_container](/imaging/python-net/aspose.imaging/datastreamsupporter/).|
 |save_to_stream(stream)|  |
 |can_load_with_options(file_path, load_options)|  |
 |can_load_stream(stream)|  |
@@ -144,8 +144,6 @@ The BmpImage type exposes the following members:
 |set_palette(palette, update_colors)|  |
 |get_proportional_width(width, height, new_height)|  |
 |get_proportional_height(width, height, new_width)|  |
-|is_multipage()|  |
-|as_multipage()|  |
 |get_modify_date(use_default)|  |
 |get_default_pixels(rectangle, partial_pixel_loader)|  |
 |get_default_argb_32_pixels(rectangle)|  |
@@ -161,6 +159,7 @@ The BmpImage type exposes the following members:
 |load_partial_pixels(desired_rectangle, pixel_loader)|  |
 |load_argb_32_pixels(rectangle)|  |
 |load_argb_64_pixels(rectangle)|  |
+|load_partial_argb_64_pixels(rectangle, partial_pixel_loader)|  |
 |load_pixels(rectangle)|  |
 |load_cmyk_pixels(rectangle)|  |
 |load_cmyk_32_pixels(rectangle)|  |
@@ -170,7 +169,7 @@ The BmpImage type exposes the following members:
 |to_bitmap()|Converts raster image to the bitmap.|
 |save_cmyk_pixels(rectangle, pixels)|  |
 |save_cmyk_32_pixels(rectangle, pixels)|  |
-|set_resolution(dpi_x, dpi_y)|Sets the resolution for this [RasterImage](/imaging/python-net/api-reference/aspose.imaging/rasterimage/).|
+|set_resolution(dpi_x, dpi_y)|Sets the resolution for this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/).|
 |binarize_fixed(threshold)|Binarization of an image with predefined threshold|
 |binarize_otsu()|Binarization of an image with Otsu thresholding|
 |grayscale()|Transformation of an image to its grayscale representation|
@@ -179,8 +178,8 @@ The BmpImage type exposes the following members:
 |get_skew_angle()|  |
 |filter(rectangle, options)|  |
 |replace_argb(old_color_argb, old_color_diff, new_color_argb)|  |
-|create_from_file_with_params(path, bits_per_pixel, compression, horizontal_resolution, vertical_resolution)|Initializes a new instance of the [BmpImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/bmpimage/) class.|
-|create_from_stream(stream)|Initializes a new instance of the [BmpImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/bmpimage/) class.|
-|create_from_stream_with_params(stream, bits_per_pixel, compression, horizontal_resolution, vertical_resolution)|Initializes a new instance of the [BmpImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/bmpimage/) class.|
-|create_from_image(raster_image)|Initializes a new instance of the [BmpImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/bmpimage/) class.|
-|create_from_image_with_params(raster_image, bits_per_pixel, compression, horizontal_resolution, vertical_resolution)|Initializes a new instance of the [BmpImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/bmpimage/) class.|
+|create_from_file_with_params(path, bits_per_pixel, compression, horizontal_resolution, vertical_resolution)|Initializes a new instance of the [BmpImage](/imaging/python-net/aspose.imaging.fileformats.bmp/bmpimage/) class.|
+|create_from_stream(stream)|Initializes a new instance of the [BmpImage](/imaging/python-net/aspose.imaging.fileformats.bmp/bmpimage/) class.|
+|create_from_stream_with_params(stream, bits_per_pixel, compression, horizontal_resolution, vertical_resolution)|Initializes a new instance of the [BmpImage](/imaging/python-net/aspose.imaging.fileformats.bmp/bmpimage/) class.|
+|create_from_image(raster_image)|Initializes a new instance of the [BmpImage](/imaging/python-net/aspose.imaging.fileformats.bmp/bmpimage/) class.|
+|create_from_image_with_params(raster_image, bits_per_pixel, compression, horizontal_resolution, vertical_resolution)|Initializes a new instance of the [BmpImage](/imaging/python-net/aspose.imaging.fileformats.bmp/bmpimage/) class.|

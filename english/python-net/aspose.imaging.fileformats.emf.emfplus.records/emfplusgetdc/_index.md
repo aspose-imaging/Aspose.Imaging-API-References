@@ -2,16 +2,16 @@
 title: EmfPlusGetDc Class
 type: docs
 weight: 300
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplusgetdc/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusgetdc/
 ---
 
 The EmfPlusGetDC record specifies that subsequent EMF records encountered in the metafile SHOULD be processed.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusGetDc
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusGetDc type exposes the following members:
 ## **Constructors**

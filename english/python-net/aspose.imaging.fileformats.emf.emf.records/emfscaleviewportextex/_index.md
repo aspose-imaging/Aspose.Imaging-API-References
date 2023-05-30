@@ -2,23 +2,23 @@
 title: EmfScaleViewportExtex Class
 type: docs
 weight: 1010
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfscaleviewportextex/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfscaleviewportextex/
 ---
 
 The EMR_SCALEVIEWPORTEXTEX record respecifies the viewport for a device context by using the<br/>            ratios formed by the specified multiplicands and divisors.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfScaleViewportExtex
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfScaleViewportExtex type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfScaleViewportExtex(source)|Initializes a new instance of the EmfScaleViewportExtex class|
-|EmfScaleViewportExtex()|Initializes a new instance of the [EmfScaleViewportExtex](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfscaleviewportextex/) class.|
+|EmfScaleViewportExtex()|Initializes a new instance of the [EmfScaleViewportExtex](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfscaleviewportextex/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

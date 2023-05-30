@@ -2,16 +2,16 @@
 title: CdrImagePage Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.cdr/cdrimagepage/
+url: /python-net/aspose.imaging.fileformats.cdr/cdrimagepage/
 ---
 
 The Cdr image page
 
-**Namespace:** [aspose.imaging.fileformats.cdr](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr/)
+**Namespace:** [aspose.imaging.fileformats.cdr](/imaging/python-net/aspose.imaging.fileformats.cdr/)
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.CdrImagePage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CdrImagePage type exposes the following members:
 ## **Properties**
@@ -75,7 +75,7 @@ The CdrImagePage type exposes the following members:
 |resize_height_proportionally(new_height)|  |
 |resize_height_proportionally(new_height, resize_type)|  |
 |resize_height_proportionally(new_height, settings)|  |
-|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying [data_stream_container](/imaging/python-net/api-reference/aspose.imaging/datastreamsupporter/).|
+|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying [data_stream_container](/imaging/python-net/aspose.imaging/datastreamsupporter/).|
 |save_to_stream(stream)|  |
 |can_load_with_options(file_path, load_options)|  |
 |can_load_stream(stream)|  |
@@ -87,7 +87,7 @@ The CdrImagePage type exposes the following members:
 |can_save(options)|  |
 |resize_by_type(new_width, new_height, resize_type)|Resizes the image.|
 |resize_by_settings(new_width, new_height, settings)|Resizes the image.|
-|get_default_options(args)|  |
+|get_default_options(args)|Gets the default options.|
 |get_original_options()|  |
 |resize_width_proportionally_settings(new_width, settings)|  |
 |resize_height_proportionally_settings(new_height, settings)|  |
@@ -99,6 +99,4 @@ The CdrImagePage type exposes the following members:
 |set_palette(palette, update_colors)|Sets the image palette.|
 |get_proportional_width(width, height, new_height)|  |
 |get_proportional_height(width, height, new_width)|  |
-|is_multipage()|  |
-|as_multipage()|  |
 |get_embedded_images()|Gets the embedded images.|

@@ -2,16 +2,16 @@
 title: EmfPlusPath Class
 type: docs
 weight: 490
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath/
 ---
 
 The EmfPlusPath object specifies a series of line and curve segments that form a graphics path. The<br/>            order for Bezier data points is the start point, control point 1, control point 2, and end point.For<br/>            more information see[MSDN - DrawBeziers].
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPath
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusPath type exposes the following members:
 ## **Constructors**

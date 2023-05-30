@@ -2,16 +2,16 @@
 title: Namespaces Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.xmp/namespaces/
+url: /python-net/aspose.imaging.xmp/namespaces/
 ---
 
 Contains namespaces used in RDF document.
 
-**Namespace:** [aspose.imaging.xmp](/imaging/python-net/api-reference/aspose.imaging.xmp/)
+**Namespace:** [aspose.imaging.xmp](/imaging/python-net/aspose.imaging.xmp/)
 
 **Full Class Name:** aspose.imaging.xmp.Namespaces
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The Namespaces type exposes the following members:
 ## **Properties**

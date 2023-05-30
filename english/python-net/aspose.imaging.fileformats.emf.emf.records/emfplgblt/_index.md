@@ -2,16 +2,16 @@
 title: EmfPlgBlt Class
 type: docs
 weight: 740
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfplgblt/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfplgblt/
 ---
 
 The EMR_PLGBLT record specifies a block transfer of pixels from a source bitmap to a destination <br/>            parallelogram, with the application of a color mask bitmap.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfPlgBlt
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlgBlt type exposes the following members:
 ## **Constructors**

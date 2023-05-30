@@ -2,23 +2,23 @@
 title: EmfMoveToEx Class
 type: docs
 weight: 640
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfmovetoex/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfmovetoex/
 ---
 
 The EMR_MOVETOEX record specifies coordinates of the new current position, in logical units.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfMoveToEx
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfMoveToEx type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfMoveToEx(record)|Initializes a new instance of the EmfMoveToEx class|
-|EmfMoveToEx()|Initializes a new instance of the [EmfMoveToEx](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfmovetoex/) class.|
+|EmfMoveToEx()|Initializes a new instance of the [EmfMoveToEx](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfmovetoex/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |
@@ -28,5 +28,5 @@ The EmfMoveToEx type exposes the following members:
 ## **Methods**
 |**Name**|**Description**|
 | :- | :- |
-|create_from_record(source)|Initializes a new instance of the [EmfRecord](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class.|
-|create_from_type(type)|Initializes a new instance of the [EmfRecord](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class.|
+|create_from_record(source)|Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class.|
+|create_from_type(type)|Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class.|

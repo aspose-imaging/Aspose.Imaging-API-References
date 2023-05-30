@@ -2,16 +2,16 @@
 title: EmfPlusFontStyleFlags Enumeration
 type: docs
 weight: 150
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfplusfontstyleflags/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusfontstyleflags/
 ---
 
 The FontStyle flags specify styles of graphics font typefaces. These flags can be combined to specify multiple options.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusFontStyleFlags
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

@@ -2,23 +2,23 @@
 title: EmfPolyTextOutW Class
 type: docs
 weight: 860
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/
 ---
 
 The EMR_POLYTEXTOUTW record draws one or more Unicode text strings using the current font and text colors.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfPolyTextOutW
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPolyTextOutW type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfPolyTextOutW(source)|Initializes a new instance of the EmfPolyTextOutW class|
-|EmfPolyTextOutW()|Initializes a new instance of the [EmfPolyTextOutW](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/) class.|
+|EmfPolyTextOutW()|Initializes a new instance of the [EmfPolyTextOutW](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfpolytextoutw/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

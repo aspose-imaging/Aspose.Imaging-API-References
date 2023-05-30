@@ -2,16 +2,16 @@
 title: OdMeasure Class
 type: docs
 weight: 210
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/odmeasure/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odmeasure/
 ---
 
 The Measure
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdMeasure
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdMeasure type exposes the following members:
 ## **Constructors**

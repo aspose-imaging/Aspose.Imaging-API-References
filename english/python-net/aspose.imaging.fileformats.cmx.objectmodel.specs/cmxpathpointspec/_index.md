@@ -2,16 +2,16 @@
 title: CmxPathPointSpec Class
 type: docs
 weight: 40
-url: /python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/
+url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec/
 ---
 
 Represents geometric info specified for a path point.
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.specs](/imaging/python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.specs/)
+**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.specs](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/)
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.specs.CmxPathPointSpec
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CmxPathPointSpec type exposes the following members:
 ## **Constructors**

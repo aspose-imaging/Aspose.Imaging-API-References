@@ -1,17 +1,17 @@
 ---
 title: HatchStyle Enumeration
 type: docs
-weight: 9030
-url: /python-net/api-reference/aspose.imaging/hatchstyle/
+weight: 9120
+url: /python-net/aspose.imaging/hatchstyle/
 ---
 
-Specifies the different patterns available for [HatchBrush](/imaging/python-net/api-reference/aspose.imaging.brushes/hatchbrush/) objects.
+Specifies the different patterns available for [HatchBrush](/imaging/python-net/aspose.imaging.brushes/hatchbrush/) objects.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Name:** aspose.imaging.HatchStyle
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

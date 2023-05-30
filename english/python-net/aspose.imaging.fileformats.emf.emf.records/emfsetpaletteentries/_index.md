@@ -2,16 +2,16 @@
 title: EmfSetPaletteEntries Class
 type: docs
 weight: 1220
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries/
 ---
 
 The EMR_SETPALETTEENTRIES record defines RGB color values in a range of entries for an existing<br/>            LogPalette (section 2.2.17) object.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetPaletteEntries
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfSetPaletteEntries type exposes the following members:
 ## **Constructors**

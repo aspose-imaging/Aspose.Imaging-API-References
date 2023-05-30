@@ -2,16 +2,16 @@
 title: GifBlock Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.gif/gifblock/
+url: /python-net/aspose.imaging.fileformats.gif/gifblock/
 ---
 
 The default gif block implementation.
 
-**Namespace:** [aspose.imaging.fileformats.gif](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif/)
+**Namespace:** [aspose.imaging.fileformats.gif](/imaging/python-net/aspose.imaging.fileformats.gif/)
 
 **Full Class Name:** aspose.imaging.fileformats.gif.GifBlock
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The GifBlock type exposes the following members:
 ## **Properties**

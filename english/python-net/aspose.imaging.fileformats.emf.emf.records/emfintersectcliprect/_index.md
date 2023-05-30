@@ -2,16 +2,16 @@
 title: EmfIntersectClipRect Class
 type: docs
 weight: 560
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfintersectcliprect/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfintersectcliprect/
 ---
 
 The EMR_INTERSECTCLIPRECT record specifies a new clipping region from the intersection of the <br/>            current clipping region and the specified rectangle. <br/>            Note  Fields that are not described in this section are specified in section 2.3.2.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfIntersectClipRect
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfIntersectClipRect type exposes the following members:
 ## **Constructors**

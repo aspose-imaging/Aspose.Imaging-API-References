@@ -2,16 +2,16 @@
 title: TiffFrame Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.fileformats.tiff/tiffframe/
+url: /python-net/aspose.imaging.fileformats.tiff/tiffframe/
 ---
 
 The tiff frame.
 
-**Namespace:** [aspose.imaging.fileformats.tiff](/imaging/python-net/api-reference/aspose.imaging.fileformats.tiff/)
+**Namespace:** [aspose.imaging.fileformats.tiff](/imaging/python-net/aspose.imaging.fileformats.tiff/)
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.TiffFrame
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The TiffFrame type exposes the following members:
 ## **Constructors**
@@ -55,8 +55,8 @@ The TiffFrame type exposes the following members:
 |raw_data_format|  |
 |raw_line_size|  |
 |is_raw_data_available|Gets a value indicating whether raw data loading is supported.|
-|horizontal_resolution|Gets or sets the horizontal resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/api-reference/aspose.imaging/rasterimage/).|
-|vertical_resolution|Gets or sets the vertical resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/api-reference/aspose.imaging/rasterimage/).|
+|horizontal_resolution|Gets or sets the horizontal resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/).|
+|vertical_resolution|Gets or sets the vertical resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/).|
 |has_transparent_color|Gets a value indicating whether image has transparent color.|
 |has_alpha|Gets a value indicating whether this instance has alpha.|
 |transparent_color|  |
@@ -119,7 +119,7 @@ The TiffFrame type exposes the following members:
 |replace_color(old_color_argb, old_color_diff, new_color_argb)|  |
 |replace_non_transparent_colors(new_color)|  |
 |replace_non_transparent_colors(new_color_argb)|  |
-|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying [data_stream_container](/imaging/python-net/api-reference/aspose.imaging/datastreamsupporter/).|
+|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying [data_stream_container](/imaging/python-net/aspose.imaging/datastreamsupporter/).|
 |save_to_stream(stream)|  |
 |can_load_with_options(file_path, load_options)|  |
 |can_load_stream(stream)|  |
@@ -143,8 +143,6 @@ The TiffFrame type exposes the following members:
 |set_palette(palette, update_colors)|  |
 |get_proportional_width(width, height, new_height)|  |
 |get_proportional_height(width, height, new_width)|  |
-|is_multipage()|  |
-|as_multipage()|  |
 |get_modify_date(use_default)|  |
 |get_default_pixels(rectangle, partial_pixel_loader)|  |
 |get_default_argb_32_pixels(rectangle)|  |
@@ -160,6 +158,7 @@ The TiffFrame type exposes the following members:
 |load_partial_pixels(desired_rectangle, pixel_loader)|  |
 |load_argb_32_pixels(rectangle)|  |
 |load_argb_64_pixels(rectangle)|  |
+|load_partial_argb_64_pixels(rectangle, partial_pixel_loader)|  |
 |load_pixels(rectangle)|  |
 |load_cmyk_pixels(rectangle)|  |
 |load_cmyk_32_pixels(rectangle)|  |
@@ -178,11 +177,11 @@ The TiffFrame type exposes the following members:
 |get_skew_angle()|  |
 |filter(rectangle, options)|  |
 |replace_argb(old_color_argb, old_color_diff, new_color_argb)|  |
-|create_from_stream(stream)|Initializes a new instance of the [TiffFrame](/imaging/python-net/api-reference/aspose.imaging.fileformats.tiff/tiffframe/) class.|
-|create_from_stream_with_options(stream, options)|Initializes a new instance of the [TiffFrame](/imaging/python-net/api-reference/aspose.imaging.fileformats.tiff/tiffframe/) class.|
-|create_from_file_with_options(path, options)|Initializes a new instance of the [TiffFrame](/imaging/python-net/api-reference/aspose.imaging.fileformats.tiff/tiffframe/) class.|
-|create_from_image(image)|Initializes a new instance of the [TiffFrame](/imaging/python-net/api-reference/aspose.imaging.fileformats.tiff/tiffframe/) class.|
-|create_from_image_with_options(image, options)|Initializes a new instance of the [TiffFrame](/imaging/python-net/api-reference/aspose.imaging.fileformats.tiff/tiffframe/) class.|
+|create_from_stream(stream)|Initializes a new instance of the [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) class.|
+|create_from_stream_with_options(stream, options)|Initializes a new instance of the [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) class.|
+|create_from_file_with_options(path, options)|Initializes a new instance of the [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) class.|
+|create_from_image(image)|Initializes a new instance of the [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) class.|
+|create_from_image_with_options(image, options)|Initializes a new instance of the [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe/) class.|
 |align_resolutions()|Helper method to make horizontal and vertical resolutions equal.|
 |copy_frame(tiff_frame)|Copies the entire frame (duplicates).|
 |create_frame_from(tiff_frame, options)|Creates the frame from specified|

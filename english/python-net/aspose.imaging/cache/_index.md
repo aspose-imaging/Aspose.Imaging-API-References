@@ -2,16 +2,16 @@
 title: Cache Class
 type: docs
 weight: 40
-url: /python-net/api-reference/aspose.imaging/cache/
+url: /python-net/aspose.imaging/cache/
 ---
 
 Contains cache settings.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.Cache
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The Cache type exposes the following members:
 ## **Properties**
@@ -27,4 +27,4 @@ The Cache type exposes the following members:
 ## **Methods**
 |**Name**|**Description**|
 | :- | :- |
-|set_defaults()|Sets the [Cache](/imaging/python-net/api-reference/aspose.imaging/cache/) settings to defaults.|
+|set_defaults()|Sets the [Cache](/imaging/python-net/aspose.imaging/cache/) settings to defaults.|

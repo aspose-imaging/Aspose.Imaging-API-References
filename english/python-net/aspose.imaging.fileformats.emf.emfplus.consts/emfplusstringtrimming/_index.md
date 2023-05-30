@@ -2,16 +2,16 @@
 title: EmfPlusStringTrimming Enumeration
 type: docs
 weight: 420
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfplusstringtrimming/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusstringtrimming/
 ---
 
 The StringTrimming enumeration defines how to trim characters from a string that is too large for the text layout rectangle.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusStringTrimming
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

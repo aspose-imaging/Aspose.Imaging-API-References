@@ -2,16 +2,16 @@
 title: CdrOutline Class
 type: docs
 weight: 200
-url: /python-net/api-reference/aspose.imaging.fileformats.cdr.objects/cdroutline/
+url: /python-net/aspose.imaging.fileformats.cdr.objects/cdroutline/
 ---
 
 The cdr out line
 
-**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.objects/)
+**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrOutline
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CdrOutline type exposes the following members:
 ## **Constructors**

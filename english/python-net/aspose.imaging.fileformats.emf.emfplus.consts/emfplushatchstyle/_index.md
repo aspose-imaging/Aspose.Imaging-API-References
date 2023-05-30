@@ -2,16 +2,16 @@
 title: EmfPlusHatchStyle Enumeration
 type: docs
 weight: 170
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfplushatchstyle/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplushatchstyle/
 ---
 
 The HatchStyle enumeration defines hatch patterns used by graphics brushes. A hatch pattern consists of a solid background color and lines drawn over the background.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusHatchStyle
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|
@@ -66,6 +66,6 @@ The HatchStyle enumeration defines hatch patterns used by graphics brushes. A ha
 |HATCH_STYLE_SPHERE|Specifies a pattern of lines that has the appearance of spheres laid adjacent to each other.|
 |HATCH_STYLE_SMALL_GRID|Specifies crossing horizontal and vertical lines that are spaced 50 percent closer together than HatchStyleLargeGrid.|
 |HATCH_STYLE_SMALL_CHECKER_BOARD|Specifies a pattern of lines that has the appearance of a checkerboard.|
-|HATCH_STYLE_LARGE_CHECKER_BOARD|Specifies a pattern of lines that has the appearance of a checkerboard, with squares that are twice the size of the squares in the [HATCH_STYLE_SMALL_CHECKER_BOARD](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfplushatchstyle/) pattern.|
+|HATCH_STYLE_LARGE_CHECKER_BOARD|Specifies a pattern of lines that has the appearance of a checkerboard, with squares that are twice the size of the squares in the [HATCH_STYLE_SMALL_CHECKER_BOARD](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplushatchstyle/) pattern.|
 |HATCH_STYLE_OUTLINED_DIAMOND|Specifies crossing forward and backward diagonal lines; the lines are not anti-aliased.|
 |HATCH_STYLE_SOLID_DIAMOND|Specifies a pattern of lines that has the appearance of a checkerboard placed diagonally.|

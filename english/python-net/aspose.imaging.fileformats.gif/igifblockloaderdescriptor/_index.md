@@ -2,16 +2,16 @@
 title: IGifBlockLoaderDescriptor Class
 type: docs
 weight: 50
-url: /python-net/api-reference/aspose.imaging.fileformats.gif/igifblockloaderdescriptor/
+url: /python-net/aspose.imaging.fileformats.gif/igifblockloaderdescriptor/
 ---
 
 Gif block Loader descriptor.
 
-**Namespace:** [aspose.imaging.fileformats.gif](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif/)
+**Namespace:** [aspose.imaging.fileformats.gif](/imaging/python-net/aspose.imaging.fileformats.gif/)
 
 **Full Class Name:** aspose.imaging.fileformats.gif.IGifBlockLoaderDescriptor
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IGifBlockLoaderDescriptor type exposes the following members:
 ## **Methods**

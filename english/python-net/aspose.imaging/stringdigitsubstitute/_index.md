@@ -1,17 +1,17 @@
 ---
 title: StringDigitSubstitute Enumeration
 type: docs
-weight: 9220
-url: /python-net/api-reference/aspose.imaging/stringdigitsubstitute/
+weight: 9310
+url: /python-net/aspose.imaging/stringdigitsubstitute/
 ---
 
 The enumeration specifies how to substitute digits in a string according to a user's locale or language.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Name:** aspose.imaging.StringDigitSubstitute
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

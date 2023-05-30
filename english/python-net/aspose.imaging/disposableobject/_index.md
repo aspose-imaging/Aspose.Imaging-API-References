@@ -2,16 +2,16 @@
 title: DisposableObject Class
 type: docs
 weight: 160
-url: /python-net/api-reference/aspose.imaging/disposableobject/
+url: /python-net/aspose.imaging/disposableobject/
 ---
 
 Represents disposable object.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.DisposableObject
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The DisposableObject type exposes the following members:
 ## **Constructors**

@@ -2,16 +2,16 @@
 title: EmfPlusOffsetClip Class
 type: docs
 weight: 350
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplusoffsetclip/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusoffsetclip/
 ---
 
 The EmfPlusOffsetClip record applies a translation transform on the current clipping region for the world space.<br/>            The new current clipping region is set to the result of the translation transform.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusOffsetClip
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusOffsetClip type exposes the following members:
 ## **Constructors**

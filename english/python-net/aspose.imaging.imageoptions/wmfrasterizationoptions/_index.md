@@ -2,22 +2,22 @@
 title: WmfRasterizationOptions Class
 type: docs
 weight: 370
-url: /python-net/api-reference/aspose.imaging.imageoptions/wmfrasterizationoptions/
+url: /python-net/aspose.imaging.imageoptions/wmfrasterizationoptions/
 ---
 
 The Wmf rasterization options.
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.WmfRasterizationOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfRasterizationOptions type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|WmfRasterizationOptions()|Initializes a new instance of the [WmfRasterizationOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/wmfrasterizationoptions/) class.|
+|WmfRasterizationOptions()|Initializes a new instance of the [WmfRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/wmfrasterizationoptions/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

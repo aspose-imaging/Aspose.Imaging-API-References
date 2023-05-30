@@ -2,16 +2,16 @@
 title: DitheringMode Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.dithering/ditheringmode/
+url: /python-net/aspose.imaging.dithering/ditheringmode/
 ---
 
 Dithering settings to be applied to image upon saving.
 
-**Namespace:** [aspose.imaging.dithering](/imaging/python-net/api-reference/aspose.imaging.dithering/)
+**Namespace:** [aspose.imaging.dithering](/imaging/python-net/aspose.imaging.dithering/)
 
 **Full Class Name:** aspose.imaging.dithering.DitheringMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The DitheringMode type exposes the following members:
 ## **Constructors**

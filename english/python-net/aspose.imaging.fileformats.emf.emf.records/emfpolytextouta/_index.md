@@ -2,23 +2,23 @@
 title: EmfPolyTextOutA Class
 type: docs
 weight: 850
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfpolytextouta/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpolytextouta/
 ---
 
 The EMR_POLYTEXTOUTA record draws one or more ASCII text strings using the current font and text colors.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfPolyTextOutA
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPolyTextOutA type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfPolyTextOutA(source)|Initializes a new instance of the EmfPolyTextOutA class|
-|EmfPolyTextOutA()|Initializes a new instance of the [EmfPolyTextOutA](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfpolytextouta/) class.|
+|EmfPolyTextOutA()|Initializes a new instance of the [EmfPolyTextOutA](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfpolytextouta/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

@@ -2,22 +2,22 @@
 title: CmxDocument Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel/cmxdocument/
+url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxdocument/
 ---
 
 The CMX document.
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel](/imaging/python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel/)
+**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel/)
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.CmxDocument
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CmxDocument type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|CmxDocument()|Initializes a new instance of the [CmxDocument](/imaging/python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel/cmxdocument/) class.|
+|CmxDocument()|Initializes a new instance of the [CmxDocument](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxdocument/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

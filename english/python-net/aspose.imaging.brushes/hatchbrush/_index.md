@@ -2,16 +2,16 @@
 title: HatchBrush Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.brushes/hatchbrush/
+url: /python-net/aspose.imaging.brushes/hatchbrush/
 ---
 
 Defines a rectangular brush with a hatch style, a foreground color, and a background color. This class cannot be inherited.
 
-**Namespace:** [aspose.imaging.brushes](/imaging/python-net/api-reference/aspose.imaging.brushes/)
+**Namespace:** [aspose.imaging.brushes](/imaging/python-net/aspose.imaging.brushes/)
 
 **Full Class Name:** aspose.imaging.brushes.HatchBrush
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The HatchBrush type exposes the following members:
 ## **Constructors**
@@ -29,4 +29,4 @@ The HatchBrush type exposes the following members:
 ## **Methods**
 |**Name**|**Description**|
 | :- | :- |
-|deep_clone()|Creates a new deep clone of the current [Brush](/imaging/python-net/api-reference/aspose.imaging/brush/).|
+|deep_clone()|Creates a new deep clone of the current [Brush](/imaging/python-net/aspose.imaging/brush/).|

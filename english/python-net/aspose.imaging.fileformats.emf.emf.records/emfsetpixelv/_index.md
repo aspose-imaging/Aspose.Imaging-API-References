@@ -2,23 +2,23 @@
 title: EmfSetPixelV Class
 type: docs
 weight: 1230
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfsetpixelv/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetpixelv/
 ---
 
 The EMR_SETPIXELV record defines the color of the pixel at the specified logical coordinates.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetPixelV
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfSetPixelV type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfSetPixelV(source)|Initializes a new instance of the EmfSetPixelV class|
-|EmfSetPixelV()|Initializes a new instance of the [EmfSetPixelV](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfsetpixelv/) class.|
+|EmfSetPixelV()|Initializes a new instance of the [EmfSetPixelV](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetpixelv/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

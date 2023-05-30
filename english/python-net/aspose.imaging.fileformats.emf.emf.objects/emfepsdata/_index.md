@@ -2,16 +2,16 @@
 title: EmfEpsData Class
 type: docs
 weight: 50
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emfepsdata/
+url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfepsdata/
 ---
 
 The EpsData object is a container for EPS data
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfEpsData
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfEpsData type exposes the following members:
 ## **Constructors**

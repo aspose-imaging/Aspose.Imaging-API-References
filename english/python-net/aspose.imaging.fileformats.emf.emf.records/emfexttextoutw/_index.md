@@ -2,23 +2,23 @@
 title: EmfExtTextOutW Class
 type: docs
 weight: 470
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfexttextoutw/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfexttextoutw/
 ---
 
 The EMR_EXTTEXTOUTW record draws an ASCII text string using the current font and text colors.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfExtTextOutW
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfExtTextOutW type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfExtTextOutW(source)|Initializes a new instance of the EmfExtTextOutW class|
-|EmfExtTextOutW()|Initializes a new instance of the [EmfExtTextOutW](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfexttextoutw/) class.|
+|EmfExtTextOutW()|Initializes a new instance of the [EmfExtTextOutW](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfexttextoutw/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

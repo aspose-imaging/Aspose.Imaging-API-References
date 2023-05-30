@@ -2,16 +2,16 @@
 title: EmfCreatePalette Class
 type: docs
 weight: 300
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfcreatepalette/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatepalette/
 ---
 
 The EMR_CREATEPALETTE record defines a logical palette for graphics operations.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfCreatePalette
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfCreatePalette type exposes the following members:
 ## **Constructors**

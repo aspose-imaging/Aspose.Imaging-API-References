@@ -2,16 +2,16 @@
 title: PathJumpTypes Enumeration
 type: docs
 weight: 90
-url: /python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.enums/pathjumptypes/
+url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/pathjumptypes/
 ---
 
-Types of transitions between points of the [CmxPathSpec](/imaging/python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec/)
+Types of transitions between points of the [CmxPathSpec](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec/)
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.enums](/imaging/python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.enums/)
+**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.enums](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/)
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.enums.PathJumpTypes
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

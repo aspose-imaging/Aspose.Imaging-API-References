@@ -2,23 +2,23 @@
 title: EmfScaleWindowExtex Class
 type: docs
 weight: 1020
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfscalewindowextex/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfscalewindowextex/
 ---
 
 The EMR_SCALEWINDOWEXTEX record respecifies the window for a playback device context by<br/>            using the ratios formed by the specified multiplicands and divisors.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfScaleWindowExtex
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfScaleWindowExtex type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfScaleWindowExtex(source)|Initializes a new instance of the EmfScaleWindowExtex class|
-|EmfScaleWindowExtex()|Initializes a new instance of the [EmfScaleWindowExtex](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfscalewindowextex/) class.|
+|EmfScaleWindowExtex()|Initializes a new instance of the [EmfScaleWindowExtex](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfscalewindowextex/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

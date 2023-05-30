@@ -2,16 +2,16 @@
 title: XmpMimeType Class
 type: docs
 weight: 60
-url: /python-net/api-reference/aspose.imaging.xmp.types.derived/xmpmimetype/
+url: /python-net/aspose.imaging.xmp.types.derived/xmpmimetype/
 ---
 
 Represents MIME type.
 
-**Namespace:** [aspose.imaging.xmp.types.derived](/imaging/python-net/api-reference/aspose.imaging.xmp.types.derived/)
+**Namespace:** [aspose.imaging.xmp.types.derived](/imaging/python-net/aspose.imaging.xmp.types.derived/)
 
 **Full Class Name:** aspose.imaging.xmp.types.derived.XmpMimeType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The XmpMimeType type exposes the following members:
 ## **Constructors**

@@ -1,17 +1,17 @@
 ---
 title: RawDataSettings Class
 type: docs
-weight: 720
-url: /python-net/api-reference/aspose.imaging/rawdatasettings/
+weight: 730
+url: /python-net/aspose.imaging/rawdatasettings/
 ---
 
 The raw data settings
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.RawDataSettings
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The RawDataSettings type exposes the following members:
 ## **Constructors**

@@ -2,22 +2,22 @@
 title: Font Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.xmp.types.complex.font/font/
+url: /python-net/aspose.imaging.xmp.types.complex.font/font/
 ---
 
 Represents XMP Font.
 
-**Namespace:** [aspose.imaging.xmp.types.complex.font](/imaging/python-net/api-reference/aspose.imaging.xmp.types.complex.font/)
+**Namespace:** [aspose.imaging.xmp.types.complex.font](/imaging/python-net/aspose.imaging.xmp.types.complex.font/)
 
 **Full Class Name:** aspose.imaging.xmp.types.complex.font.Font
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The Font type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|Font()|Initializes a new instance of the [Font](/imaging/python-net/api-reference/aspose.imaging.xmp.types.complex.font/font/) class.|
+|Font()|Initializes a new instance of the [Font](/imaging/python-net/aspose.imaging.xmp.types.complex.font/font/) class.|
 |Font(font_family)|Initializes a new instance of the Font class|
 ## **Properties**
 |**Name**|**Description**|

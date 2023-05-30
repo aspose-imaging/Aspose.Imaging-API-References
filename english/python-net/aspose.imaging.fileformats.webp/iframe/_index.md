@@ -2,16 +2,16 @@
 title: IFrame Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.webp/iframe/
+url: /python-net/aspose.imaging.fileformats.webp/iframe/
 ---
 
 Webp frame
 
-**Namespace:** [aspose.imaging.fileformats.webp](/imaging/python-net/api-reference/aspose.imaging.fileformats.webp/)
+**Namespace:** [aspose.imaging.fileformats.webp](/imaging/python-net/aspose.imaging.fileformats.webp/)
 
 **Full Class Name:** aspose.imaging.fileformats.webp.IFrame
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IFrame type exposes the following members:
 ## **Properties**

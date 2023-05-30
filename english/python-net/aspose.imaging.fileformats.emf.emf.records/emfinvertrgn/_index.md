@@ -2,16 +2,16 @@
 title: EmfInvertRgn Class
 type: docs
 weight: 570
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfinvertrgn/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfinvertrgn/
 ---
 
 The EMR_INVERTRGN record inverts the colors in the specified region.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfInvertRgn
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfInvertRgn type exposes the following members:
 ## **Constructors**

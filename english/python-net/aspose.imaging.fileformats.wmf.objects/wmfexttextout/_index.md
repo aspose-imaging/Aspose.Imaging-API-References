@@ -2,16 +2,16 @@
 title: WmfExtTextOut Class
 type: docs
 weight: 270
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfexttextout/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfexttextout/
 ---
 
 Wmf ext text out
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfExtTextOut
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfExtTextOut type exposes the following members:
 ## **Constructors**

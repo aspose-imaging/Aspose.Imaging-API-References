@@ -2,23 +2,23 @@
 title: EmfSetViewportOrgEx Class
 type: docs
 weight: 1310
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfsetviewportorgex/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetviewportorgex/
 ---
 
 The EMR_SETVIEWPORTORGEX record defines the viewport origin.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetViewportOrgEx
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfSetViewportOrgEx type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfSetViewportOrgEx(source)|Initializes a new instance of the EmfSetViewportOrgEx class|
-|EmfSetViewportOrgEx()|Initializes a new instance of the [EmfSetViewportOrgEx](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfsetviewportorgex/) class.|
+|EmfSetViewportOrgEx()|Initializes a new instance of the [EmfSetViewportOrgEx](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetviewportorgex/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

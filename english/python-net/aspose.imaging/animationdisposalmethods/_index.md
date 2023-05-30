@@ -1,17 +1,17 @@
 ---
 title: AnimationDisposalMethods Enumeration
 type: docs
-weight: 8850
-url: /python-net/api-reference/aspose.imaging/animationdisposalmethods/
+weight: 8940
+url: /python-net/aspose.imaging/animationdisposalmethods/
 ---
 
 Indicates the way in which the graphic is to be treated after being displayed.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Name:** aspose.imaging.AnimationDisposalMethods
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

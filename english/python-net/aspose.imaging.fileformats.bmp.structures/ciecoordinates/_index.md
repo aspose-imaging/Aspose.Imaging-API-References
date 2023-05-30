@@ -2,16 +2,16 @@
 title: CieCoordinates Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.bmp.structures/ciecoordinates/
+url: /python-net/aspose.imaging.fileformats.bmp.structures/ciecoordinates/
 ---
 
 The class contains the x,y, and z coordinates of a specific color in a specified color space.
 
-**Namespace:** [aspose.imaging.fileformats.bmp.structures](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp.structures/)
+**Namespace:** [aspose.imaging.fileformats.bmp.structures](/imaging/python-net/aspose.imaging.fileformats.bmp.structures/)
 
 **Full Class Name:** aspose.imaging.fileformats.bmp.structures.CieCoordinates
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CieCoordinates type exposes the following members:
 ## **Constructors**

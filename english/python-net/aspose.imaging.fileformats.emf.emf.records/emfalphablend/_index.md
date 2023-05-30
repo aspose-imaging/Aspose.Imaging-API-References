@@ -2,16 +2,16 @@
 title: EmfAlphaBlend Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfalphablend/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfalphablend/
 ---
 
 The EMR_ALPHABLEND record specifies a block transfer of pixels from a source bitmap to a <br/>            destination rectangle, including alpha transparency data, according to a specified blending operation.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfAlphaBlend
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfAlphaBlend type exposes the following members:
 ## **Constructors**

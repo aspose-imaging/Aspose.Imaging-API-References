@@ -2,16 +2,16 @@
 title: EmfPlusDrawArc Class
 type: docs
 weight: 70
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/
 ---
 
 The EmfPlusDrawArc record specifies drawing the arc of an ellipse.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusDrawArc
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusDrawArc type exposes the following members:
 ## **Constructors**

@@ -2,16 +2,16 @@
 title: ColorModels Enumeration
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.enums/colormodels/
+url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/colormodels/
 ---
 
 Color models.
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.enums](/imaging/python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.enums/)
+**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.enums](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/)
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.enums.ColorModels
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

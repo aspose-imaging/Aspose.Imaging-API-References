@@ -2,16 +2,16 @@
 title: WmfPostScriptCap Enumeration
 type: docs
 weight: 220
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.consts/wmfpostscriptcap/
+url: /python-net/aspose.imaging.fileformats.wmf.consts/wmfpostscriptcap/
 ---
 
 The PostScriptCap Enumeration defines line-ending types for use with a PostScript printer driver.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.consts/)
+**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfPostScriptCap
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

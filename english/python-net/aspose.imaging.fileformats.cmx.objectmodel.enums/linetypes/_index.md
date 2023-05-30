@@ -2,16 +2,16 @@
 title: LineTypes Enumeration
 type: docs
 weight: 70
-url: /python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.enums/linetypes/
+url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/linetypes/
 ---
 
 Flags to describe the type of line.
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.enums](/imaging/python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.enums/)
+**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.enums](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/)
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.enums.LineTypes
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

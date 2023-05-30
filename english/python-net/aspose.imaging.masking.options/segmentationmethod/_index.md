@@ -2,16 +2,16 @@
 title: SegmentationMethod Enumeration
 type: docs
 weight: 90
-url: /python-net/api-reference/aspose.imaging.masking.options/segmentationmethod/
+url: /python-net/aspose.imaging.masking.options/segmentationmethod/
 ---
 
 Segmentation methods types
 
-**Namespace:** [aspose.imaging.masking.options](/imaging/python-net/api-reference/aspose.imaging.masking.options/)
+**Namespace:** [aspose.imaging.masking.options](/imaging/python-net/aspose.imaging.masking.options/)
 
 **Full Name:** aspose.imaging.masking.options.SegmentationMethod
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

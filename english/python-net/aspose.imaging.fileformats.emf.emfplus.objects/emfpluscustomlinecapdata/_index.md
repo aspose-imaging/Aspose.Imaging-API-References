@@ -2,16 +2,16 @@
 title: EmfPlusCustomLineCapData Class
 type: docs
 weight: 270
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecapdata/
 ---
 
 The EmfPlusCustomLineCapData object specifies default data for a custom line cap.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusCustomLineCapData
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusCustomLineCapData type exposes the following members:
 ## **Constructors**

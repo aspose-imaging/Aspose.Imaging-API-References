@@ -2,16 +2,16 @@
 title: EmfMapMode Enumeration
 type: docs
 weight: 210
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/emfmapmode/
+url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emfmapmode/
 ---
 
 The MapMode enumeration is used to define the unit of measure for transforming page <br/>            space units into device space units and for defining the orientation of the drawing axes.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfMapMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

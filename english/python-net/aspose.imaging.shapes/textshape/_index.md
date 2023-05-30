@@ -2,22 +2,22 @@
 title: TextShape Class
 type: docs
 weight: 90
-url: /python-net/api-reference/aspose.imaging.shapes/textshape/
+url: /python-net/aspose.imaging.shapes/textshape/
 ---
 
 Represents a text shape.
 
-**Namespace:** [aspose.imaging.shapes](/imaging/python-net/api-reference/aspose.imaging.shapes/)
+**Namespace:** [aspose.imaging.shapes](/imaging/python-net/aspose.imaging.shapes/)
 
 **Full Class Name:** aspose.imaging.shapes.TextShape
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The TextShape type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|TextShape()|Initializes a new instance of the [TextShape](/imaging/python-net/api-reference/aspose.imaging.shapes/textshape/) class.|
+|TextShape()|Initializes a new instance of the [TextShape](/imaging/python-net/aspose.imaging.shapes/textshape/) class.|
 |TextShape(text, rectangle, font, string_format)|Initializes a new instance of the TextShape class|
 ## **Properties**
 |**Name**|**Description**|

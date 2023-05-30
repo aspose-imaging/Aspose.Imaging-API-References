@@ -2,16 +2,16 @@
 title: AsyncTaskProgress Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.asynctask/asynctaskprogress/
+url: /python-net/aspose.imaging.asynctask/asynctaskprogress/
 ---
 
 Provides progress info for the asynchronous task.
 
-**Namespace:** [aspose.imaging.asynctask](/imaging/python-net/api-reference/aspose.imaging.asynctask/)
+**Namespace:** [aspose.imaging.asynctask](/imaging/python-net/aspose.imaging.asynctask/)
 
 **Full Class Name:** aspose.imaging.asynctask.AsyncTaskProgress
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The AsyncTaskProgress type exposes the following members:
 ## **Constructors**

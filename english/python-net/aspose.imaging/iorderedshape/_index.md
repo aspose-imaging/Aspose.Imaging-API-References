@@ -2,16 +2,16 @@
 title: IOrderedShape Class
 type: docs
 weight: 410
-url: /python-net/api-reference/aspose.imaging/iorderedshape/
+url: /python-net/aspose.imaging/iorderedshape/
 ---
 
 Represents an ordered shape. An ordered shape is a continuous set of points having a start point and end point.<br/>            The continuous set of points connected using a specific rule.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.IOrderedShape
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IOrderedShape type exposes the following members:
 ## **Properties**

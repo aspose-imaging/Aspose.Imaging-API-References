@@ -2,16 +2,16 @@
 title: IAsyncTask Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.asynctask/iasynctask/
+url: /python-net/aspose.imaging.asynctask/iasynctask/
 ---
 
 The asynchronous task.
 
-**Namespace:** [aspose.imaging.asynctask](/imaging/python-net/api-reference/aspose.imaging.asynctask/)
+**Namespace:** [aspose.imaging.asynctask](/imaging/python-net/aspose.imaging.asynctask/)
 
 **Full Class Name:** aspose.imaging.asynctask.IAsyncTask
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IAsyncTask type exposes the following members:
 ## **Properties**

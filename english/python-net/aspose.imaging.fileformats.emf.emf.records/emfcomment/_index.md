@@ -2,16 +2,16 @@
 title: EmfComment Class
 type: docs
 weight: 150
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfcomment/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcomment/
 ---
 
 The EMR_COMMENT record contains arbitrary private data.<br/>            Note  Fields that are not described in this section are specified in section 2.3.3.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfComment
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfComment type exposes the following members:
 ## **Constructors**

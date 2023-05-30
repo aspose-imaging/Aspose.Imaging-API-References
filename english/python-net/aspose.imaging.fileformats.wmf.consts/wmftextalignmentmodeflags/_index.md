@@ -2,16 +2,16 @@
 title: WmfTextAlignmentModeFlags Enumeration
 type: docs
 weight: 270
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.consts/wmftextalignmentmodeflags/
+url: /python-net/aspose.imaging.fileformats.wmf.consts/wmftextalignmentmodeflags/
 ---
 
 TextAlignmentMode Flags specify the relationship between a reference point and a bounding<br/>                rectangle, for text alignment. These flags can be combined to specify multiple options, with the<br/>                restriction that only one flag can be chosen that alters the drawing position in the playback device<br/>                context.<br/>                Horizontal text alignment is performed when the font has a horizontal default baseline.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.consts/)
+**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfTextAlignmentModeFlags
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

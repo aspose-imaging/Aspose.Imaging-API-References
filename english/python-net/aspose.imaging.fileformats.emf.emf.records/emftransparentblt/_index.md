@@ -2,16 +2,16 @@
 title: EmfTransparentBlt Class
 type: docs
 weight: 1420
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emftransparentblt/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emftransparentblt/
 ---
 
 The EMR_TRANSPARENTBLT record specifies a block transfer of pixels from a source bitmap to a <br/>            destination rectangle, treating a specified color as transparent, stretching or compressing the output <br/>            to fit the dimensions of the destination, if necessary
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfTransparentBlt
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfTransparentBlt type exposes the following members:
 ## **Constructors**

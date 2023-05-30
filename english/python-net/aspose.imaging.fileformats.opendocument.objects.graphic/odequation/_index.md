@@ -2,16 +2,16 @@
 title: OdEquation Class
 type: docs
 weight: 120
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/odequation/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odequation/
 ---
 
 The open document equation
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdEquation
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdEquation type exposes the following members:
 ## **Constructors**

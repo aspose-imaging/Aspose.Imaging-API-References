@@ -2,16 +2,16 @@
 title: EmfPlusComment Class
 type: docs
 weight: 50
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfpluscomment/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfpluscomment/
 ---
 
 The EmfPlusComment record specifies arbitrary private data.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusComment
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusComment type exposes the following members:
 ## **Constructors**

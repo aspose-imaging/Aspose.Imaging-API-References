@@ -2,16 +2,16 @@
 title: EmfPlusDrawEllipse Class
 type: docs
 weight: 120
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawellipse/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawellipse/
 ---
 
 The EmfPlusDrawEllipse record specifies drawing an ellipse.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusDrawEllipse
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusDrawEllipse type exposes the following members:
 ## **Constructors**

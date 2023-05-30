@@ -2,16 +2,16 @@
 title: WmfClipPrecisionFlags Enumeration
 type: docs
 weight: 50
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.consts/wmfclipprecisionflags/
+url: /python-net/aspose.imaging.fileformats.wmf.consts/wmfclipprecisionflags/
 ---
 
 ClipPrecision Flags specify clipping precision, which defines how to clip characters that are<br/>                partially outside a clipping region. These flags can be combined to specify multiple options.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.consts/)
+**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfClipPrecisionFlags
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

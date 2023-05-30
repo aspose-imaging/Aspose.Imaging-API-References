@@ -2,16 +2,16 @@
 title: EmfPlusTextureBrushOptionalData Class
 type: docs
 weight: 690
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushoptionaldata/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplustexturebrushoptionaldata/
 ---
 
 he EmfPlusTextureBrushOptionalData object specifies optional data for a texture brush.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusTextureBrushOptionalData
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusTextureBrushOptionalData type exposes the following members:
 ## **Constructors**

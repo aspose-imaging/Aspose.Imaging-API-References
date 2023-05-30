@@ -2,16 +2,16 @@
 title: WmfMetafileEscapes Enumeration
 type: docs
 weight: 150
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.consts/wmfmetafileescapes/
+url: /python-net/aspose.imaging.fileformats.wmf.consts/wmfmetafileescapes/
 ---
 
 The MetafileEscapes Enumeration specifies printer driver functionality that might not be<br/>                directly accessible through WMF records defined in the RecordType Enumeration (section 2.1.1.1).
 
-**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.consts/)
+**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfMetafileEscapes
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|
@@ -67,7 +67,7 @@ The MetafileEscapes Enumeration specifies printer driver functionality that migh
 |OPEN_CHANNEL|The same as STARTDOC specified with a NULL document and output<br/>                filename, data in raw mode, and a type of zero.|
 |DOWNLOADHEADER|Instructs the printer driver to download sets of PostScript procedures.|
 |CLOSE_CHANNEL|The same as ENDDOC. See OPEN_CHANNEL.|
-|POSTSCRIPT_PASSTHROUGH|Sends arbitrary data directly to a printer driver, which is<br/>                expected to process this data only when in PostScript mode. [POSTSCRIPT_IDENTIFY](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.consts/wmfmetafileescapes/).|
+|POSTSCRIPT_PASSTHROUGH|Sends arbitrary data directly to a printer driver, which is<br/>                expected to process this data only when in PostScript mode. [POSTSCRIPT_IDENTIFY](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfmetafileescapes/).|
 |ENCAPSULATED_POSTSCRIPT|Sends arbitrary data directly to the printer driver.|
 |POSTSCRIPT_IDENTIFY|Sets the printer driver to either PostScript or GDI mode.|
 |POSTSCRIPT_INJECTION|Inserts a block of raw data into a PostScript stream. The input<br/>                MUST be a 32-bit quantity specifying the number of bytes to inject, a 16-bit quantity<br/>                specifying the injection point, and a 16-bit quantity specifying the page number, followed by<br/>                the bytes to inject.|

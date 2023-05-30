@@ -1,17 +1,17 @@
 ---
 title: IRasterImagePixelLoader Class
 type: docs
-weight: 470
-url: /python-net/api-reference/aspose.imaging/irasterimagepixelloader/
+weight: 480
+url: /python-net/aspose.imaging/irasterimagepixelloader/
 ---
 
 The raster image pixel loader.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.IRasterImagePixelLoader
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IRasterImagePixelLoader type exposes the following members:
 ## **Properties**

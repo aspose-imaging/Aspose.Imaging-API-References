@@ -2,16 +2,16 @@
 title: WmfRegion Class
 type: docs
 weight: 530
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfregion/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfregion/
 ---
 
 The Region Object defines a potentially non-rectilinear shape defined by<br/>                an array of scanlines.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfRegion
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfRegion type exposes the following members:
 ## **Constructors**

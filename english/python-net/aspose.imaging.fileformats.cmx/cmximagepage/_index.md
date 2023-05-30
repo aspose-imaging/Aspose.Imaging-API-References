@@ -2,16 +2,16 @@
 title: CmxImagePage Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.cmx/cmximagepage/
+url: /python-net/aspose.imaging.fileformats.cmx/cmximagepage/
 ---
 
 The image of CMX page
 
-**Namespace:** [aspose.imaging.fileformats.cmx](/imaging/python-net/api-reference/aspose.imaging.fileformats.cmx/)
+**Namespace:** [aspose.imaging.fileformats.cmx](/imaging/python-net/aspose.imaging.fileformats.cmx/)
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.CmxImagePage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CmxImagePage type exposes the following members:
 ## **Constructors**
@@ -89,7 +89,7 @@ The CmxImagePage type exposes the following members:
 |can_save(options)|  |
 |resize_by_type(new_width, new_height, resize_type)|Resizes the image.|
 |resize_by_settings(new_width, new_height, settings)|Resizes the image.|
-|get_default_options(args)|  |
+|get_default_options(args)|Gets the default options.|
 |get_original_options()|  |
 |resize_width_proportionally_settings(new_width, settings)|  |
 |resize_height_proportionally_settings(new_height, settings)|  |
@@ -101,6 +101,4 @@ The CmxImagePage type exposes the following members:
 |set_palette(palette, update_colors)|Sets the image palette.|
 |get_proportional_width(width, height, new_height)|  |
 |get_proportional_height(width, height, new_width)|  |
-|is_multipage()|  |
-|as_multipage()|  |
 |get_embedded_images()|Gets the embedded images.|

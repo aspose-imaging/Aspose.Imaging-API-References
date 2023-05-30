@@ -1,8 +1,8 @@
 ---
 title: aspose.imaging.xmp.types
 type: docs
-weight: 1010
-url: /python-net/api-reference/aspose.imaging.xmp.types/
+weight: 1030
+url: /python-net/aspose.imaging.xmp.types/
 ---
 
 
@@ -11,8 +11,8 @@ The namespace contains classes that represent the values of XMP properties in th
 ## **Classes**
 |**Class**|**Description**|
 | :- | :- |
-|[IXmpType](/imaging/python-net/api-reference/aspose.imaging.xmp.types/ixmptype/)|Base interface for XMP type.|
-|[XmpTypeBase](/imaging/python-net/api-reference/aspose.imaging.xmp.types/xmptypebase/)|Represents base class for basic XMP type.|
+|[IXmpType](/imaging/python-net/aspose.imaging.xmp.types/ixmptype/)|Base interface for XMP type.|
+|[XmpTypeBase](/imaging/python-net/aspose.imaging.xmp.types/xmptypebase/)|Represents base class for basic XMP type.|
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |

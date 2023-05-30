@@ -2,16 +2,16 @@
 title: EmfPlusLinearGradientBrushData Class
 type: docs
 weight: 440
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushdata/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushdata/
 ---
 
 The EmfPlusLinearGradientBrushData object specifies a linear gradient for a graphics brush.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusLinearGradientBrushData
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusLinearGradientBrushData type exposes the following members:
 ## **Constructors**

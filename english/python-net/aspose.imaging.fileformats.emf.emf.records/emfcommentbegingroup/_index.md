@@ -2,16 +2,16 @@
 title: EmfCommentBeginGroup Class
 type: docs
 weight: 160
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentbegingroup/
 ---
 
 The EMR_COMMENT_BEGINGROUP record specifies the beginning of a group of drawing records.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfCommentBeginGroup
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfCommentBeginGroup type exposes the following members:
 ## **Constructors**

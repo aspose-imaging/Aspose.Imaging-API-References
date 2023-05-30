@@ -2,16 +2,16 @@
 title: PointD Class
 type: docs
 weight: 60
-url: /python-net/api-reference/aspose.imaging.fileformats.cdr.types/pointd/
+url: /python-net/aspose.imaging.fileformats.cdr.types/pointd/
 ---
 
 The point double
 
-**Namespace:** [aspose.imaging.fileformats.cdr.types](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.types/)
+**Namespace:** [aspose.imaging.fileformats.cdr.types](/imaging/python-net/aspose.imaging.fileformats.cdr.types/)
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.types.PointD
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The PointD type exposes the following members:
 ## **Constructors**
@@ -27,5 +27,5 @@ The PointD type exposes the following members:
 ## **Methods**
 |**Name**|**Description**|
 | :- | :- |
-|to_point_f()|Converts [PointF](/imaging/python-net/api-reference/aspose.imaging/pointf/)  to the [PointD](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.types/pointd/) structure.|
-|from_point_f(point)|Converts [PointD](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.types/pointd/)  to the [PointF](/imaging/python-net/api-reference/aspose.imaging/pointf/) structure.|
+|to_point_f()|Converts [PointF](/imaging/python-net/aspose.imaging/pointf/)  to the [PointD](/imaging/python-net/aspose.imaging.fileformats.cdr.types/pointd/) structure.|
+|from_point_f(point)|Converts [PointD](/imaging/python-net/aspose.imaging.fileformats.cdr.types/pointd/)  to the [PointF](/imaging/python-net/aspose.imaging/pointf/) structure.|

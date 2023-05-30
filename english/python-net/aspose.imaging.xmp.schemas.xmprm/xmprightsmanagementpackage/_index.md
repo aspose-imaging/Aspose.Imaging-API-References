@@ -2,22 +2,22 @@
 title: XmpRightsManagementPackage Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.xmp.schemas.xmprm/xmprightsmanagementpackage/
+url: /python-net/aspose.imaging.xmp.schemas.xmprm/xmprightsmanagementpackage/
 ---
 
 Represents XMP Rights Management namespace.
 
-**Namespace:** [aspose.imaging.xmp.schemas.xmprm](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.xmprm/)
+**Namespace:** [aspose.imaging.xmp.schemas.xmprm](/imaging/python-net/aspose.imaging.xmp.schemas.xmprm/)
 
 **Full Class Name:** aspose.imaging.xmp.schemas.xmprm.XmpRightsManagementPackage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The XmpRightsManagementPackage type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|XmpRightsManagementPackage()|Initializes a new instance of the [XmpRightsManagementPackage](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.xmprm/xmprightsmanagementpackage/) class.|
+|XmpRightsManagementPackage()|Initializes a new instance of the [XmpRightsManagementPackage](/imaging/python-net/aspose.imaging.xmp.schemas.xmprm/xmprightsmanagementpackage/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

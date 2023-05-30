@@ -2,22 +2,22 @@
 title: Thumbnail Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.xmp.types.complex.thumbnail/thumbnail/
+url: /python-net/aspose.imaging.xmp.types.complex.thumbnail/thumbnail/
 ---
 
 Represents thumbnail image for a file.
 
-**Namespace:** [aspose.imaging.xmp.types.complex.thumbnail](/imaging/python-net/api-reference/aspose.imaging.xmp.types.complex.thumbnail/)
+**Namespace:** [aspose.imaging.xmp.types.complex.thumbnail](/imaging/python-net/aspose.imaging.xmp.types.complex.thumbnail/)
 
 **Full Class Name:** aspose.imaging.xmp.types.complex.thumbnail.Thumbnail
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The Thumbnail type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|Thumbnail()|Initializes a new instance of the [Thumbnail](/imaging/python-net/api-reference/aspose.imaging.xmp.types.complex.thumbnail/thumbnail/) class.|
+|Thumbnail()|Initializes a new instance of the [Thumbnail](/imaging/python-net/aspose.imaging.xmp.types.complex.thumbnail/thumbnail/) class.|
 |Thumbnail(width, height)|Initializes a new instance of the Thumbnail class|
 ## **Properties**
 |**Name**|**Description**|

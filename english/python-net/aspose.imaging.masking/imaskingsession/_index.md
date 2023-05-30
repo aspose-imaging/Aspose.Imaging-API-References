@@ -2,16 +2,16 @@
 title: IMaskingSession Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.masking/imaskingsession/
+url: /python-net/aspose.imaging.masking/imaskingsession/
 ---
 
 The masking session
 
-**Namespace:** [aspose.imaging.masking](/imaging/python-net/api-reference/aspose.imaging.masking/)
+**Namespace:** [aspose.imaging.masking](/imaging/python-net/aspose.imaging.masking/)
 
 **Full Class Name:** aspose.imaging.masking.IMaskingSession
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IMaskingSession type exposes the following members:
 ## **Methods**

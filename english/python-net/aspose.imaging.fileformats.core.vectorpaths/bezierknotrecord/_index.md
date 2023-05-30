@@ -2,22 +2,22 @@
 title: BezierKnotRecord Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/
+url: /python-net/aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/
 ---
 
 Bezier Knot Record Class
 
-**Namespace:** [aspose.imaging.fileformats.core.vectorpaths](/imaging/python-net/api-reference/aspose.imaging.fileformats.core.vectorpaths/)
+**Namespace:** [aspose.imaging.fileformats.core.vectorpaths](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/)
 
 **Full Class Name:** aspose.imaging.fileformats.core.vectorpaths.BezierKnotRecord
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The BezierKnotRecord type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|BezierKnotRecord()|Initializes a new instance of the [BezierKnotRecord](/imaging/python-net/api-reference/aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/) class.|
+|BezierKnotRecord()|Initializes a new instance of the [BezierKnotRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/) class.|
 |BezierKnotRecord(data)|Initializes a new instance of the BezierKnotRecord class|
 ## **Properties**
 |**Name**|**Description**|

@@ -2,16 +2,16 @@
 title: ColorType Enumeration
 type: docs
 weight: 50
-url: /python-net/api-reference/aspose.imaging.fileformats.dicom/colortype/
+url: /python-net/aspose.imaging.fileformats.dicom/colortype/
 ---
 
 The type of the color.
 
-**Namespace:** [aspose.imaging.fileformats.dicom](/imaging/python-net/api-reference/aspose.imaging.fileformats.dicom/)
+**Namespace:** [aspose.imaging.fileformats.dicom](/imaging/python-net/aspose.imaging.fileformats.dicom/)
 
 **Full Name:** aspose.imaging.fileformats.dicom.ColorType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

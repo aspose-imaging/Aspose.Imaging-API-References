@@ -2,23 +2,23 @@
 title: EmfArcTo Class
 type: docs
 weight: 50
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfarcto/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfarcto/
 ---
 
 The EMR_ARCTO record specifies an elliptical arc. It resets the current position to the end point of the arc.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfArcTo
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfArcTo type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfArcTo(source)|Initializes a new instance of the EmfArcTo class|
-|EmfArcTo()|Initializes a new instance of the [EmfArcTo](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfarcto/) class.|
+|EmfArcTo()|Initializes a new instance of the [EmfArcTo](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfarcto/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

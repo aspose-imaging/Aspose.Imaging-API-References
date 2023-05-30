@@ -2,16 +2,16 @@
 title: EmfHatchStyle Enumeration
 type: docs
 weight: 160
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/emfhatchstyle/
+url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emfhatchstyle/
 ---
 
 The HatchStyle enumeration is an extension to the WMF HatchStyle enumeration ([MS-WMF] section 2.1.1.12).
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfHatchStyle
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

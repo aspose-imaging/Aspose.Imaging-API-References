@@ -2,16 +2,16 @@
 title: MultiPageMode Enumeration
 type: docs
 weight: 380
-url: /python-net/api-reference/aspose.imaging.imageoptions/multipagemode/
+url: /python-net/aspose.imaging.imageoptions/multipagemode/
 ---
 
 Represents multipage mode
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Name:** aspose.imaging.imageoptions.MultiPageMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

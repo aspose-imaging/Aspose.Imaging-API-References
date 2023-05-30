@@ -2,16 +2,16 @@
 title: IXmlValue Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.xmp/ixmlvalue/
+url: /python-net/aspose.imaging.xmp/ixmlvalue/
 ---
 
 Converts xmp values to the XML string representation.
 
-**Namespace:** [aspose.imaging.xmp](/imaging/python-net/api-reference/aspose.imaging.xmp/)
+**Namespace:** [aspose.imaging.xmp](/imaging/python-net/aspose.imaging.xmp/)
 
 **Full Class Name:** aspose.imaging.xmp.IXmlValue
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IXmlValue type exposes the following members:
 ## **Methods**

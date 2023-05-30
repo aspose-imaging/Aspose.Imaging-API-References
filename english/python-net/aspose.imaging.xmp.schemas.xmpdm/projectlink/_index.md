@@ -2,16 +2,16 @@
 title: ProjectLink Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.xmp.schemas.xmpdm/projectlink/
+url: /python-net/aspose.imaging.xmp.schemas.xmpdm/projectlink/
 ---
 
 Represents path of the project.
 
-**Namespace:** [aspose.imaging.xmp.schemas.xmpdm](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.xmpdm/)
+**Namespace:** [aspose.imaging.xmp.schemas.xmpdm](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/)
 
 **Full Class Name:** aspose.imaging.xmp.schemas.xmpdm.ProjectLink
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The ProjectLink type exposes the following members:
 ## **Constructors**

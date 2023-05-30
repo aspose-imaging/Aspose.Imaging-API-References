@@ -2,16 +2,16 @@
 title: WmfSetRelabs Class
 type: docs
 weight: 730
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfsetrelabs/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetrelabs/
 ---
 
 The META_SETRELABS record is reserved and not supported.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetRelabs
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfSetRelabs type exposes the following members:
 ## **Constructors**

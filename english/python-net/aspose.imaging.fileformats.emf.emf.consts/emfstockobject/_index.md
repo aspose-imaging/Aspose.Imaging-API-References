@@ -2,16 +2,16 @@
 title: EmfStockObject Enumeration
 type: docs
 weight: 330
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/emfstockobject/
+url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emfstockobject/
 ---
 
 The StockObject enumeration specifies the indexes of predefined logical graphics objects <br/>            that can be used in graphics operations.The specific structures of stock objects are <br/>            implementation-dependent; however, the properties of stock objects SHOULD be equivalent to <br/>            the properties of explicitly created objects of the same type. <br/>            These properties are specified where possible for the stock objects defined in this enumeration.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfStockObject
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

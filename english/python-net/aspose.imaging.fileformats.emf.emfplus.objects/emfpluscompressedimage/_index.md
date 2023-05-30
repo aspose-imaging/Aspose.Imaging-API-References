@@ -2,16 +2,16 @@
 title: EmfPlusCompressedImage Class
 type: docs
 weight: 220
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompressedimage/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompressedimage/
 ---
 
 The EmfPlusCompressedImage object specifies an image with compressed data.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusCompressedImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusCompressedImage type exposes the following members:
 ## **Constructors**

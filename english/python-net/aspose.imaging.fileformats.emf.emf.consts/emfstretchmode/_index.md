@@ -2,16 +2,16 @@
 title: EmfStretchMode Enumeration
 type: docs
 weight: 340
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/emfstretchmode/
+url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emfstretchmode/
 ---
 
 The StretchMode enumeration is used to specify how color data is added to or removed from bitmaps that are stretched or compressed.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfStretchMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

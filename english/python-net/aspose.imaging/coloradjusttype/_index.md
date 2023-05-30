@@ -1,17 +1,17 @@
 ---
 title: ColorAdjustType Enumeration
 type: docs
-weight: 8880
-url: /python-net/api-reference/aspose.imaging/coloradjusttype/
+weight: 8970
+url: /python-net/aspose.imaging/coloradjusttype/
 ---
 
 Specifies which objects use color adjustment information.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Name:** aspose.imaging.ColorAdjustType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

@@ -1,17 +1,17 @@
 ---
 title: SeekOrigin Enumeration
 type: docs
-weight: 9190
-url: /python-net/api-reference/aspose.imaging/seekorigin/
+weight: 9280
+url: /python-net/aspose.imaging/seekorigin/
 ---
 
-Provides the fields that represent reference points in [StreamContainer](/imaging/python-net/api-reference/aspose.imaging/streamcontainer/) for seeking.
+Provides the fields that represent reference points in [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer/) for seeking.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Name:** aspose.imaging.SeekOrigin
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

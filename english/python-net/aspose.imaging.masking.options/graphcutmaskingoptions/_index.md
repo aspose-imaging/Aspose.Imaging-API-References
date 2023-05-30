@@ -2,16 +2,16 @@
 title: GraphCutMaskingOptions Class
 type: docs
 weight: 40
-url: /python-net/api-reference/aspose.imaging.masking.options/graphcutmaskingoptions/
+url: /python-net/aspose.imaging.masking.options/graphcutmaskingoptions/
 ---
 
 The GraphCut auto masking options.
 
-**Namespace:** [aspose.imaging.masking.options](/imaging/python-net/api-reference/aspose.imaging.masking.options/)
+**Namespace:** [aspose.imaging.masking.options](/imaging/python-net/aspose.imaging.masking.options/)
 
 **Full Class Name:** aspose.imaging.masking.options.GraphCutMaskingOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The GraphCutMaskingOptions type exposes the following members:
 ## **Constructors**

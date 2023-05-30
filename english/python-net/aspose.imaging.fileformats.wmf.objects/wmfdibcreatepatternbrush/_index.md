@@ -2,16 +2,16 @@
 title: WmfDibCreatePatternBrush Class
 type: docs
 weight: 200
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfdibcreatepatternbrush/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfdibcreatepatternbrush/
 ---
 
 The META_DIBCREATEPATTERNBRUSH record creates a Brush Object (section<br/>                2.2.1.1) with a pattern specified by a DeviceIndependentBitmap (DIB)<br/>                Object (section 2.2.2.9).
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfDibCreatePatternBrush
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfDibCreatePatternBrush type exposes the following members:
 ## **Constructors**

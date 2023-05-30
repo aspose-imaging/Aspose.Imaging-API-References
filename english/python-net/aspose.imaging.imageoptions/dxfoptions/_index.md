@@ -1,17 +1,17 @@
 ---
 title: DxfOptions Class
 type: docs
-weight: 70
-url: /python-net/api-reference/aspose.imaging.imageoptions/dxfoptions/
+weight: 80
+url: /python-net/aspose.imaging.imageoptions/dxfoptions/
 ---
 
 The Dxf file format creation options.
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.DxfOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The DxfOptions type exposes the following members:
 ## **Constructors**

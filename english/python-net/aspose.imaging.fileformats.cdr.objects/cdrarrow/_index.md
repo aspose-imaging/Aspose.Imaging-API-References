@@ -2,16 +2,16 @@
 title: CdrArrow Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.cdr.objects/cdrarrow/
+url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrarrow/
 ---
 
 The cdr arrow
 
-**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.objects/)
+**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrArrow
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CdrArrow type exposes the following members:
 ## **Constructors**

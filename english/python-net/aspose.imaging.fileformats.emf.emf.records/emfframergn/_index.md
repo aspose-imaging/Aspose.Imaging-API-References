@@ -2,23 +2,23 @@
 title: EmfFrameRgn Class
 type: docs
 weight: 520
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfframergn/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfframergn/
 ---
 
 The EMR_FRAMERGN record draws a border around the specified region using the specified brush.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfFrameRgn
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfFrameRgn type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfFrameRgn(source)|Initializes a new instance of the EmfFrameRgn class|
-|EmfFrameRgn()|Initializes a new instance of the [EmfFrameRgn](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfframergn/) class.|
+|EmfFrameRgn()|Initializes a new instance of the [EmfFrameRgn](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfframergn/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

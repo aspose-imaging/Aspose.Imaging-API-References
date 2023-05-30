@@ -2,16 +2,16 @@
 title: WmfBrushStyle Enumeration
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.consts/wmfbrushstyle/
+url: /python-net/aspose.imaging.fileformats.wmf.consts/wmfbrushstyle/
 ---
 
 The BrushStyle Enumeration specifies the different possible brush types<br/>                that can be used in graphics operations. For more information, see the<br/>                specification of the Brush Object (section 2.2.1.1).
 
-**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.consts/)
+**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfBrushStyle
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

@@ -2,16 +2,16 @@
 title: CmxGradient Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/
+url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/
 ---
 
 Represents a gradient info.
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.styles](/imaging/python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.styles/)
+**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.styles](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/)
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.styles.CmxGradient
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CmxGradient type exposes the following members:
 ## **Constructors**

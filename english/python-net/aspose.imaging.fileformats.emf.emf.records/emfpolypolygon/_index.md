@@ -2,23 +2,23 @@
 title: EmfPolyPolygon Class
 type: docs
 weight: 810
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/
 ---
 
 The EMR_POLYPOLYGON record specifies a series of closed polygons.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfPolyPolygon
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPolyPolygon type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfPolyPolygon(source)|Initializes a new instance of the EmfPolyPolygon class|
-|EmfPolyPolygon()|Initializes a new instance of the [EmfPolyPolygon](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/) class.|
+|EmfPolyPolygon()|Initializes a new instance of the [EmfPolyPolygon](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

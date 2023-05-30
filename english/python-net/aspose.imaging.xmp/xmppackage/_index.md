@@ -2,16 +2,16 @@
 title: XmpPackage Class
 type: docs
 weight: 90
-url: /python-net/api-reference/aspose.imaging.xmp/xmppackage/
+url: /python-net/aspose.imaging.xmp/xmppackage/
 ---
 
 Represents base abstraction for XMP package.
 
-**Namespace:** [aspose.imaging.xmp](/imaging/python-net/api-reference/aspose.imaging.xmp/)
+**Namespace:** [aspose.imaging.xmp](/imaging/python-net/aspose.imaging.xmp/)
 
 **Full Class Name:** aspose.imaging.xmp.XmpPackage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The XmpPackage type exposes the following members:
 ## **Properties**

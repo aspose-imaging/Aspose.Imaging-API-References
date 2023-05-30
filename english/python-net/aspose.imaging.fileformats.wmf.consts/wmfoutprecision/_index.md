@@ -2,16 +2,16 @@
 title: WmfOutPrecision Enumeration
 type: docs
 weight: 180
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.consts/wmfoutprecision/
+url: /python-net/aspose.imaging.fileformats.wmf.consts/wmfoutprecision/
 ---
 
 The OutPrecision enumeration defines values for output precision, which is the requirement for<br/>                the font mapper to match specific font parameters, including height, width, character orientation,<br/>                escapement, pitch, and font type.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.consts/)
+**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfOutPrecision
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

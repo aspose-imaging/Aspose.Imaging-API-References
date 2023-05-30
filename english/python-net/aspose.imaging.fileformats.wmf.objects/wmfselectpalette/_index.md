@@ -2,16 +2,16 @@
 title: WmfSelectPalette Class
 type: docs
 weight: 630
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfselectpalette/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfselectpalette/
 ---
 
 The META_SELECTPALETTE record defines the current logical palette with a<br/>                specified Palette Object.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSelectPalette
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfSelectPalette type exposes the following members:
 ## **Constructors**

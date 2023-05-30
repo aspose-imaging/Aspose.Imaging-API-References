@@ -1,17 +1,17 @@
 ---
 title: ImageExportersRegistry Class
 type: docs
-weight: 520
-url: /python-net/api-reference/aspose.imaging/imageexportersregistry/
+weight: 530
+url: /python-net/aspose.imaging/imageexportersregistry/
 ---
 
 Represents the image exporters registry.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.ImageExportersRegistry
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The ImageExportersRegistry type exposes the following members:
 ## **Properties**

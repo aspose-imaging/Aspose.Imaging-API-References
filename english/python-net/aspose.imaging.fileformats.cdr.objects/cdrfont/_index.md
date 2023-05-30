@@ -2,16 +2,16 @@
 title: CdrFont Class
 type: docs
 weight: 130
-url: /python-net/api-reference/aspose.imaging.fileformats.cdr.objects/cdrfont/
+url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrfont/
 ---
 
 the cdr Font
 
-**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.objects/)
+**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrFont
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CdrFont type exposes the following members:
 ## **Constructors**

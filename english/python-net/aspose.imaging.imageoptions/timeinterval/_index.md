@@ -2,16 +2,16 @@
 title: TimeInterval Class
 type: docs
 weight: 330
-url: /python-net/api-reference/aspose.imaging.imageoptions/timeinterval/
+url: /python-net/aspose.imaging.imageoptions/timeinterval/
 ---
 
 Represents the time interval in milliseconds
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.TimeInterval
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The TimeInterval type exposes the following members:
 ## **Constructors**

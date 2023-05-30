@@ -2,16 +2,16 @@
 title: AdjustPalette Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.palettehelper/adjustpalette/
+url: /python-net/aspose.imaging.palettehelper/adjustpalette/
 ---
 
 Color palette adjustment class
 
-**Namespace:** [aspose.imaging.palettehelper](/imaging/python-net/api-reference/aspose.imaging.palettehelper/)
+**Namespace:** [aspose.imaging.palettehelper](/imaging/python-net/aspose.imaging.palettehelper/)
 
 **Full Class Name:** aspose.imaging.palettehelper.AdjustPalette
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The AdjustPalette type exposes the following members:
 ## **Constructors**

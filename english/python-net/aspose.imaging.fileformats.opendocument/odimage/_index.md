@@ -2,16 +2,16 @@
 title: OdImage Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument/odimage/
+url: /python-net/aspose.imaging.fileformats.opendocument/odimage/
 ---
 
 The open document
 
-**Namespace:** [aspose.imaging.fileformats.opendocument](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument/)
+**Namespace:** [aspose.imaging.fileformats.opendocument](/imaging/python-net/aspose.imaging.fileformats.opendocument/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.OdImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdImage type exposes the following members:
 ## **Properties**
@@ -77,7 +77,7 @@ The OdImage type exposes the following members:
 |resize_height_proportionally(new_height)|  |
 |resize_height_proportionally(new_height, resize_type)|  |
 |resize_height_proportionally(new_height, settings)|  |
-|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying<br/>                [data_stream_container](/imaging/python-net/api-reference/aspose.imaging/datastreamsupporter/).|
+|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying<br/>                [data_stream_container](/imaging/python-net/aspose.imaging/datastreamsupporter/).|
 |save_to_stream(stream)|  |
 |can_load_with_options(file_path, load_options)|  |
 |can_load_stream(stream)|  |
@@ -101,6 +101,4 @@ The OdImage type exposes the following members:
 |set_palette(palette, update_colors)|Sets the image palette.|
 |get_proportional_width(width, height, new_height)|  |
 |get_proportional_height(width, height, new_width)|  |
-|is_multipage()|  |
-|as_multipage()|  |
 |get_embedded_images()|Gets the embedded images.|

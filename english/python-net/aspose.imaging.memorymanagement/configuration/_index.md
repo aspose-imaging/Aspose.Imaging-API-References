@@ -2,16 +2,16 @@
 title: Configuration Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.memorymanagement/configuration/
+url: /python-net/aspose.imaging.memorymanagement/configuration/
 ---
 
 The memory management global configuration
 
-**Namespace:** [aspose.imaging.memorymanagement](/imaging/python-net/api-reference/aspose.imaging.memorymanagement/)
+**Namespace:** [aspose.imaging.memorymanagement](/imaging/python-net/aspose.imaging.memorymanagement/)
 
 **Full Class Name:** aspose.imaging.memorymanagement.Configuration
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The Configuration type exposes the following members:
 ## **Properties**

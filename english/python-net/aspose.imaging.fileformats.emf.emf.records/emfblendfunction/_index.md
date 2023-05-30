@@ -2,16 +2,16 @@
 title: EmfBlendFunction Class
 type: docs
 weight: 90
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfblendfunction/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfblendfunction/
 ---
 
 A structure that specifies the blending operations for source and destination bitmaps.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfBlendFunction
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfBlendFunction type exposes the following members:
 ## **Constructors**

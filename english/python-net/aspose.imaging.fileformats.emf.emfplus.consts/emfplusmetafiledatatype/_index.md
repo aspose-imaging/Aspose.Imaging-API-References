@@ -2,16 +2,16 @@
 title: EmfPlusMetafileDataType Enumeration
 type: docs
 weight: 250
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfplusmetafiledatatype/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusmetafiledatatype/
 ---
 
 The MetafileDataType enumeration defines types of metafiles data that can be embedded in an EMF+ metafile.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusMetafileDataType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

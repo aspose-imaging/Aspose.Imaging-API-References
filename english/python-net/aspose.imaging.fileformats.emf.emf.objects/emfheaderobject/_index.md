@@ -2,22 +2,22 @@
 title: EmfHeaderObject Class
 type: docs
 weight: 110
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/
+url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/
 ---
 
 The Header object defines the EMF metafile header. It specifies properties of the device on which the image in the metafile was created.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfHeaderObject
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfHeaderObject type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|EmfHeaderObject()|Initializes a new instance of the [EmfHeaderObject](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/) class.|
+|EmfHeaderObject()|Initializes a new instance of the [EmfHeaderObject](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |
@@ -34,4 +34,4 @@ The EmfHeaderObject type exposes the following members:
 |n_pal_entries|Gets or sets a 32-bit unsigned integer that specifies the number of entries in the metafile <br/>            palette. The palette is located in the EMR_EOF record|
 |device|Gets or sets a WMF SizeL object ([MS-WMF] section 2.2.2.22) that specifies the size of the reference device, in pixels|
 |millimeters|Gets or sets a WMF SizeL object that specifies the size of the reference device, in millimeters|
-|valid|Gets a value indicating whether this [EmfHeaderObject](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/) is valid.|
+|valid|Gets a value indicating whether this [EmfHeaderObject](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/) is valid.|

@@ -2,22 +2,22 @@
 title: PdfPackage Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.xmp.schemas.pdf/pdfpackage/
+url: /python-net/aspose.imaging.xmp.schemas.pdf/pdfpackage/
 ---
 
 Represents Adobe Pdf namespace.
 
-**Namespace:** [aspose.imaging.xmp.schemas.pdf](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.pdf/)
+**Namespace:** [aspose.imaging.xmp.schemas.pdf](/imaging/python-net/aspose.imaging.xmp.schemas.pdf/)
 
 **Full Class Name:** aspose.imaging.xmp.schemas.pdf.PdfPackage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The PdfPackage type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|PdfPackage()|Initializes a new instance of the [PdfPackage](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.pdf/pdfpackage/) class.|
+|PdfPackage()|Initializes a new instance of the [PdfPackage](/imaging/python-net/aspose.imaging.xmp.schemas.pdf/pdfpackage/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

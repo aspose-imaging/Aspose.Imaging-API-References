@@ -2,16 +2,16 @@
 title: EmfColorAdjustmentEnum Enumeration
 type: docs
 weight: 40
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/emfcoloradjustmentenum/
+url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emfcoloradjustmentenum/
 ---
 
 The ColorAdjustment enumeration is used to specify how the output image should be prepared<br/>            when the stretch mode is HALFTONE.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfColorAdjustmentEnum
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

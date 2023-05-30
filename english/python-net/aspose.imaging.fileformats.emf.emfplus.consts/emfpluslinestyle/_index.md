@@ -2,16 +2,16 @@
 title: EmfPlusLineStyle Enumeration
 type: docs
 weight: 240
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfpluslinestyle/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluslinestyle/
 ---
 
 The LineStyle enumeration defines styles of lines that are drawn with graphics pens.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusLineStyle
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

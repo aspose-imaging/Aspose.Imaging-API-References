@@ -2,16 +2,16 @@
 title: EmfPlusDashedLineCapType Enumeration
 type: docs
 weight: 120
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfplusdashedlinecaptype/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusdashedlinecaptype/
 ---
 
 The DashedLineCapType enumeration defines types of line caps to use at the ends of dashed lines that are drawn with graphics pens.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusDashedLineCapType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

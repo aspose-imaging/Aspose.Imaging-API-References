@@ -2,16 +2,16 @@
 title: EmfPlusTranslateWorldTransform Class
 type: docs
 weight: 630
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplustranslateworldtransform/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplustranslateworldtransform/
 ---
 
 The EmfPlusTranslateWorldTransform record performs a translation on the current world space transform.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusTranslateWorldTransform
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusTranslateWorldTransform type exposes the following members:
 ## **Constructors**

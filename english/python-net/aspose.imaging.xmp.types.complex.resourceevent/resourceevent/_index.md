@@ -2,22 +2,22 @@
 title: ResourceEvent Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.xmp.types.complex.resourceevent/resourceevent/
+url: /python-net/aspose.imaging.xmp.types.complex.resourceevent/resourceevent/
 ---
 
 Containing dimensions for a drawn object.
 
-**Namespace:** [aspose.imaging.xmp.types.complex.resourceevent](/imaging/python-net/api-reference/aspose.imaging.xmp.types.complex.resourceevent/)
+**Namespace:** [aspose.imaging.xmp.types.complex.resourceevent](/imaging/python-net/aspose.imaging.xmp.types.complex.resourceevent/)
 
 **Full Class Name:** aspose.imaging.xmp.types.complex.resourceevent.ResourceEvent
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The ResourceEvent type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|ResourceEvent()|Initializes a new instance of the [ResourceEvent](/imaging/python-net/api-reference/aspose.imaging.xmp.types.complex.resourceevent/resourceevent/) class.|
+|ResourceEvent()|Initializes a new instance of the [ResourceEvent](/imaging/python-net/aspose.imaging.xmp.types.complex.resourceevent/resourceevent/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

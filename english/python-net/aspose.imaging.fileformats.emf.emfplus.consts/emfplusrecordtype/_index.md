@@ -2,21 +2,21 @@
 title: EmfPlusRecordType Enumeration
 type: docs
 weight: 360
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfplusrecordtype/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusrecordtype/
 ---
 
 The RecordType enumeration defines record types used in EMF+ metafiles.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusRecordType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|
 | :- | :- |
-|EMF_PLUS_HEADER|This record specifies the start of EMF+ data in the metafile. It MUST be embedded in the first EMF record after the [EmfMetafileHeader](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/) record ([MS-EMF] section 2.3.4.2 record).|
+|EMF_PLUS_HEADER|This record specifies the start of EMF+ data in the metafile. It MUST be embedded in the first EMF record after the [EmfMetafileHeader](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/) record ([MS-EMF] section 2.3.4.2 record).|
 |EMF_PLUS_END_OF_FILE|This record specifies the end of EMF+ data in the metafile.|
 |EMF_PLUS_COMMENT|This record specifies arbitrary private data.|
 |EMF_PLUS_GET_DC|This record specifies that subsequent EMF records encountered in the metafile SHOULD be processed. EMF records cease being processed when the next EMF+ record is encountered.|
@@ -41,7 +41,7 @@ The RecordType enumeration defines record types used in EMF+ metafiles.
 |EMF_PLUS_DRAW_CLOSED_CURVE|This record defines the pen and strokes for drawing a closed cardinal spline.|
 |EMF_PLUS_DRAW_CURVE|This record defines the pen strokes for drawing a cardinal spline.|
 |EMF_PLUS_DRAW_BEZIERS|This record defines the pen strokes for drawing a Bezier spline.|
-|EMF_PLUS_DRAW_IMAGE|This record defines a scaled [EmfPlusImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage/) object (section 2.2.1.4). An image can consist of either bitmap or metafile data.|
+|EMF_PLUS_DRAW_IMAGE|This record defines a scaled [EmfPlusImage](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusimage/) object (section 2.2.1.4). An image can consist of either bitmap or metafile data.|
 |EMF_PLUS_DRAW_IMAGE_POINTS|This record defines a scaled EmfPlusImage object inside a parallelogram. An image can consist of either bitmap or metafile data.|
 |EMF_PLUS_DRAW_STRING|This record defines a text string based on a font, a layout rectangle, and a format.|
 |EMF_PLUS_SET_RENDERING_ORIGIN|This record defines the origin of rendering to the specified horizontal and vertical coordinates. This applies to hatch brushes and to 8 and 16 bits per pixel dither patterns.|
@@ -52,8 +52,8 @@ The RecordType enumeration defines record types used in EMF+ metafiles.
 |EMF_PLUS_SET_PIXEL_OFFSET_MODE|This record defines the pixel offset mode according to the specified pixel centering value.|
 |EMF_PLUS_SET_COMPOSITING_MODE|This record defines the compositing mode according to the state of alpha blending, which specifies how source colors are combined with background colors.|
 |EMF_PLUS_SET_COMPOSITING_QUALITY|This record defines the compositing quality, which describes the desired level of quality for creating composite images from multiple objects.|
-|EMF_PLUS_SAVE|This record saves the graphics state, identified by a specified index, on a stack of saved graphics states. Each stack index is associated with a particular saved state, and the index is used by an [EmfPlusRestore](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplusrestore/) record (section 2.3.7.4) to restore the state.|
-|EMF_PLUS_RESTORE|This record restores the graphics state, identified by a specified index, from a stack of saved graphics states. Each stack index is associated with a particular saved state, and the index is defined by an [EmfPlusSave](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplussave/) record (section 2.3.7.5) to save the state.|
+|EMF_PLUS_SAVE|This record saves the graphics state, identified by a specified index, on a stack of saved graphics states. Each stack index is associated with a particular saved state, and the index is used by an [EmfPlusRestore](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrestore/) record (section 2.3.7.4) to restore the state.|
+|EMF_PLUS_RESTORE|This record restores the graphics state, identified by a specified index, from a stack of saved graphics states. Each stack index is associated with a particular saved state, and the index is defined by an [EmfPlusSave](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplussave/) record (section 2.3.7.5) to save the state.|
 |EMF_PLUS_BEGIN_CONTAINER|This record opens a new graphics state container and specifies a transform for it. Graphics containers are used to retain elements of the graphics state.|
 |EMF_PLUS_BEGIN_CONTAINER_NO_PARAMS|This record opens a new graphics state container.|
 |EMF_PLUS_END_CONTAINER|This record closes a graphics state container that was previously opened by a begin container operation.|

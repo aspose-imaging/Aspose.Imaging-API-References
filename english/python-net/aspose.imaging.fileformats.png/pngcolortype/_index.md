@@ -2,16 +2,16 @@
 title: PngColorType Enumeration
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.png/pngcolortype/
+url: /python-net/aspose.imaging.fileformats.png/pngcolortype/
 ---
 
 Represents the PNG image color type.
 
-**Namespace:** [aspose.imaging.fileformats.png](/imaging/python-net/api-reference/aspose.imaging.fileformats.png/)
+**Namespace:** [aspose.imaging.fileformats.png](/imaging/python-net/aspose.imaging.fileformats.png/)
 
 **Full Name:** aspose.imaging.fileformats.png.PngColorType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

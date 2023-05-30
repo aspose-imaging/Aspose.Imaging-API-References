@@ -2,16 +2,16 @@
 title: CdrGraphicObject Class
 type: docs
 weight: 140
-url: /python-net/api-reference/aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/
+url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrgraphicobject/
 ---
 
 The cdr graphic object
 
-**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.objects/)
+**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrGraphicObject
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CdrGraphicObject type exposes the following members:
 ## **Properties**

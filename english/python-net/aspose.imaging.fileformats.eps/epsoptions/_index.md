@@ -2,16 +2,16 @@
 title: EpsOptions Class
 type: docs
 weight: 50
-url: /python-net/api-reference/aspose.imaging.fileformats.eps/epsoptions/
+url: /python-net/aspose.imaging.fileformats.eps/epsoptions/
 ---
 
 EPS options (currently not used)
 
-**Namespace:** [aspose.imaging.fileformats.eps](/imaging/python-net/api-reference/aspose.imaging.fileformats.eps/)
+**Namespace:** [aspose.imaging.fileformats.eps](/imaging/python-net/aspose.imaging.fileformats.eps/)
 
 **Full Class Name:** aspose.imaging.fileformats.eps.EpsOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EpsOptions type exposes the following members:
 ## **Constructors**

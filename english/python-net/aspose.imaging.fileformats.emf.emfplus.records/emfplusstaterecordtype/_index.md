@@ -2,16 +2,16 @@
 title: EmfPlusStateRecordType Class
 type: docs
 weight: 600
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplusstaterecordtype/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusstaterecordtype/
 ---
 
 The State Record Types specify operations on the state of the playback device context.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusStateRecordType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusStateRecordType type exposes the following members:
 ## **Properties**

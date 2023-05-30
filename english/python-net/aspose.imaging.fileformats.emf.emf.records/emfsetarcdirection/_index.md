@@ -2,23 +2,23 @@
 title: EmfSetArcDirection Class
 type: docs
 weight: 1060
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfsetarcdirection/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetarcdirection/
 ---
 
 The EMR_SETARCDIRECTION record specifies the drawing direction to be used for arc and rectangle output.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetArcDirection
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfSetArcDirection type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfSetArcDirection(source)|Initializes a new instance of the EmfSetArcDirection class|
-|EmfSetArcDirection()|Initializes a new instance of the [EmfSetArcDirection](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfsetarcdirection/) class.|
+|EmfSetArcDirection()|Initializes a new instance of the [EmfSetArcDirection](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetarcdirection/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

@@ -2,22 +2,22 @@
 title: CurveShape Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.shapes/curveshape/
+url: /python-net/aspose.imaging.shapes/curveshape/
 ---
 
 Represents a curved spline shape.
 
-**Namespace:** [aspose.imaging.shapes](/imaging/python-net/api-reference/aspose.imaging.shapes/)
+**Namespace:** [aspose.imaging.shapes](/imaging/python-net/aspose.imaging.shapes/)
 
 **Full Class Name:** aspose.imaging.shapes.CurveShape
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CurveShape type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|CurveShape()|Initializes a new instance of the [CurveShape](/imaging/python-net/api-reference/aspose.imaging.shapes/curveshape/) class.|
+|CurveShape()|Initializes a new instance of the [CurveShape](/imaging/python-net/aspose.imaging.shapes/curveshape/) class.|
 |CurveShape(points)|Initializes a new instance of the CurveShape class|
 |CurveShape(points, is_closed)|Initializes a new instance of the CurveShape class|
 |CurveShape(points, tension)|Initializes a new instance of the CurveShape class|
@@ -41,5 +41,5 @@ The CurveShape type exposes the following members:
 |get_bounds(matrix, pen)|Gets the object's bounds.|
 |transform(transform)|Applies the specified transformation to the shape.|
 |reverse()|Reverses the order of points for this shape.|
-|create_with_point_fs_closed(points, is_closed)|Initializes a new instance of the [CurveShape](/imaging/python-net/api-reference/aspose.imaging.shapes/curveshape/) class. The default tension of 0.5 is used.|
-|create_with_point_fs_tension(points, tension)|Initializes a new instance of the [CurveShape](/imaging/python-net/api-reference/aspose.imaging.shapes/curveshape/) class.|
+|create_with_point_fs_closed(points, is_closed)|Initializes a new instance of the [CurveShape](/imaging/python-net/aspose.imaging.shapes/curveshape/) class. The default tension of 0.5 is used.|
+|create_with_point_fs_tension(points, tension)|Initializes a new instance of the [CurveShape](/imaging/python-net/aspose.imaging.shapes/curveshape/) class.|

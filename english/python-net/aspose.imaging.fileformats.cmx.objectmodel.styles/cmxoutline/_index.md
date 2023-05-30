@@ -2,16 +2,16 @@
 title: CmxOutline Class
 type: docs
 weight: 50
-url: /python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/
+url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/
 ---
 
 Represents an outline style.
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.styles](/imaging/python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.styles/)
+**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.styles](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/)
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.styles.CmxOutline
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CmxOutline type exposes the following members:
 ## **Constructors**

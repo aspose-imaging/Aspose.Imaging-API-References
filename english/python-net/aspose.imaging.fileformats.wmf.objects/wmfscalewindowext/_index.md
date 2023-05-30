@@ -2,16 +2,16 @@
 title: WmfScaleWindowExt Class
 type: docs
 weight: 590
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/
 ---
 
 The META_SCALEWINDOWEXT record scales the horizontal and vertical<br/>                extents of the output window that is defined in the playback device<br/>                context by using the ratios formed by specified multiplicands and<br/>                divisors.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfScaleWindowExt
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfScaleWindowExt type exposes the following members:
 ## **Constructors**

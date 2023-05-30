@@ -2,16 +2,16 @@
 title: EmfBackgroundMode Enumeration
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/emfbackgroundmode/
+url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emfbackgroundmode/
 ---
 
 The BackgroundMode enumeration is used to specify the background mode to be used with text,<br/>            hatched brushes, and pen styles that are not solid.The background mode determines how to<br/>            combine the background with foreground text, hatched brushes, and pen styles that are not solid lines.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfBackgroundMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

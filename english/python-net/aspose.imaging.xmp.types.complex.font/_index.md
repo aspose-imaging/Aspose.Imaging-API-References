@@ -1,8 +1,8 @@
 ---
 title: aspose.imaging.xmp.types.complex.font
 type: docs
-weight: 1060
-url: /python-net/api-reference/aspose.imaging.xmp.types.complex.font/
+weight: 1080
+url: /python-net/aspose.imaging.xmp.types.complex.font/
 ---
 
 
@@ -11,4 +11,4 @@ The namespace contains classes that represent the structure containing the chara
 ## **Classes**
 |**Class**|**Description**|
 | :- | :- |
-|[Font](/imaging/python-net/api-reference/aspose.imaging.xmp.types.complex.font/font/)|Represents XMP Font.|
+|[Font](/imaging/python-net/aspose.imaging.xmp.types.complex.font/font/)|Represents XMP Font.|

@@ -2,16 +2,16 @@
 title: PdfCoreOptions Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.pdf/pdfcoreoptions/
+url: /python-net/aspose.imaging.fileformats.pdf/pdfcoreoptions/
 ---
 
 The common options for convertion to PDF
 
-**Namespace:** [aspose.imaging.fileformats.pdf](/imaging/python-net/api-reference/aspose.imaging.fileformats.pdf/)
+**Namespace:** [aspose.imaging.fileformats.pdf](/imaging/python-net/aspose.imaging.fileformats.pdf/)
 
 **Full Class Name:** aspose.imaging.fileformats.pdf.PdfCoreOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The PdfCoreOptions type exposes the following members:
 ## **Constructors**

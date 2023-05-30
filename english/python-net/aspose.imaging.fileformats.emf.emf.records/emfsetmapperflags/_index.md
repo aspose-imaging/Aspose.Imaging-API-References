@@ -2,16 +2,16 @@
 title: EmfSetMapperFlags Class
 type: docs
 weight: 1190
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfsetmapperflags/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetmapperflags/
 ---
 
 The EMR_SETMAPPERFLAGS record specifies parameters of the process of matching logical fonts to<br/>            physical fonts, which is performed by the font mapper.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetMapperFlags
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfSetMapperFlags type exposes the following members:
 ## **Constructors**

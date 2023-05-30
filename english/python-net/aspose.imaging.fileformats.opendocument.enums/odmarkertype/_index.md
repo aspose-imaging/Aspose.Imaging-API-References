@@ -2,16 +2,16 @@
 title: OdMarkerType Enumeration
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.enums/odmarkertype/
+url: /python-net/aspose.imaging.fileformats.opendocument.enums/odmarkertype/
 ---
 
 The od marker types for connectors
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.enums](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.enums/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.enums](/imaging/python-net/aspose.imaging.fileformats.opendocument.enums/)
 
 **Full Name:** aspose.imaging.fileformats.opendocument.enums.OdMarkerType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

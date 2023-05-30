@@ -1,17 +1,17 @@
 ---
 title: StringTrimming Enumeration
 type: docs
-weight: 9240
-url: /python-net/api-reference/aspose.imaging/stringtrimming/
+weight: 9330
+url: /python-net/aspose.imaging/stringtrimming/
 ---
 
 Specifies how to trim characters from a string that does not completely fit into a layout shape.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Name:** aspose.imaging.StringTrimming
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

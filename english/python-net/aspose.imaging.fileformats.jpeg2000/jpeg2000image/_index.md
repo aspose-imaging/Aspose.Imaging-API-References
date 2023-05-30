@@ -2,16 +2,16 @@
 title: Jpeg2000Image Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.jpeg2000/jpeg2000image/
+url: /python-net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/
 ---
 
 Jpeg2000 library main class
 
-**Namespace:** [aspose.imaging.fileformats.jpeg2000](/imaging/python-net/api-reference/aspose.imaging.fileformats.jpeg2000/)
+**Namespace:** [aspose.imaging.fileformats.jpeg2000](/imaging/python-net/aspose.imaging.fileformats.jpeg2000/)
 
 **Full Class Name:** aspose.imaging.fileformats.jpeg2000.Jpeg2000Image
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The Jpeg2000Image type exposes the following members:
 ## **Constructors**
@@ -57,8 +57,8 @@ The Jpeg2000Image type exposes the following members:
 |raw_data_format|Gets the raw data format.|
 |raw_line_size|Gets the raw line size in bytes.|
 |is_raw_data_available|Gets a value indicating whether raw data loading is supported.|
-|horizontal_resolution|Gets or sets the horizontal resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/api-reference/aspose.imaging/rasterimage/).|
-|vertical_resolution|Gets or sets the vertical resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/api-reference/aspose.imaging/rasterimage/).|
+|horizontal_resolution|Gets or sets the horizontal resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/).|
+|vertical_resolution|Gets or sets the vertical resolution, in pixels per inch, of this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/).|
 |has_transparent_color|  |
 |has_alpha|  |
 |transparent_color|  |
@@ -120,7 +120,7 @@ The Jpeg2000Image type exposes the following members:
 |replace_color(old_color_argb, old_color_diff, new_color_argb)|  |
 |replace_non_transparent_colors(new_color)|  |
 |replace_non_transparent_colors(new_color_argb)|  |
-|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying [data_stream_container](/imaging/python-net/api-reference/aspose.imaging/datastreamsupporter/).|
+|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying [data_stream_container](/imaging/python-net/aspose.imaging/datastreamsupporter/).|
 |save_to_stream(stream)|  |
 |can_load_with_options(file_path, load_options)|  |
 |can_load_stream(stream)|  |
@@ -144,8 +144,6 @@ The Jpeg2000Image type exposes the following members:
 |set_palette(palette, update_colors)|  |
 |get_proportional_width(width, height, new_height)|  |
 |get_proportional_height(width, height, new_width)|  |
-|is_multipage()|  |
-|as_multipage()|  |
 |get_modify_date(use_default)|  |
 |get_default_pixels(rectangle, partial_pixel_loader)|  |
 |get_default_argb_32_pixels(rectangle)|  |
@@ -161,6 +159,7 @@ The Jpeg2000Image type exposes the following members:
 |load_partial_pixels(desired_rectangle, pixel_loader)|  |
 |load_argb_32_pixels(rectangle)|  |
 |load_argb_64_pixels(rectangle)|  |
+|load_partial_argb_64_pixels(rectangle, partial_pixel_loader)|  |
 |load_pixels(rectangle)|  |
 |load_cmyk_pixels(rectangle)|  |
 |load_cmyk_32_pixels(rectangle)|  |
@@ -179,11 +178,11 @@ The Jpeg2000Image type exposes the following members:
 |get_skew_angle()|  |
 |filter(rectangle, options)|  |
 |replace_argb(old_color_argb, old_color_diff, new_color_argb)|  |
-|create_from_file_with_bpp(path, bits_per_pixel)|Initializes a new instance of the [Jpeg2000Image](/imaging/python-net/api-reference/aspose.imaging.fileformats.jpeg2000/jpeg2000image/) class.|
-|create_from_stream(stream)|Initializes a new instance of the [Jpeg2000Image](/imaging/python-net/api-reference/aspose.imaging.fileformats.jpeg2000/jpeg2000image/) class.|
-|create_from_stream_with_bpp(stream, bits_per_pixel)|Initializes a new instance of the [Jpeg2000Image](/imaging/python-net/api-reference/aspose.imaging.fileformats.jpeg2000/jpeg2000image/) class.|
-|create_with_width_height(width, height)|Initializes a new instance of the [Jpeg2000Image](/imaging/python-net/api-reference/aspose.imaging.fileformats.jpeg2000/jpeg2000image/) class.|
-|create_with_width_height_options(width, height, options)|Initializes a new instance of the [Jpeg2000Image](/imaging/python-net/api-reference/aspose.imaging.fileformats.jpeg2000/jpeg2000image/) class.|
-|create_with_width_height_bitscount(width, height, bits_count)|Initializes a new instance of the [Jpeg2000Image](/imaging/python-net/api-reference/aspose.imaging.fileformats.jpeg2000/jpeg2000image/) class.|
-|create_from_image(image)|Initializes a new instance of the [Jpeg2000Image](/imaging/python-net/api-reference/aspose.imaging.fileformats.jpeg2000/jpeg2000image/) class.|
-|create_from_image_with_bpp(raster_image, bits_per_pixel)|Initializes a new instance of the [Jpeg2000Image](/imaging/python-net/api-reference/aspose.imaging.fileformats.jpeg2000/jpeg2000image/) class.|
+|create_from_file_with_bpp(path, bits_per_pixel)|Initializes a new instance of the [Jpeg2000Image](/imaging/python-net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/) class.|
+|create_from_stream(stream)|Initializes a new instance of the [Jpeg2000Image](/imaging/python-net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/) class.|
+|create_from_stream_with_bpp(stream, bits_per_pixel)|Initializes a new instance of the [Jpeg2000Image](/imaging/python-net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/) class.|
+|create_with_width_height(width, height)|Initializes a new instance of the [Jpeg2000Image](/imaging/python-net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/) class.|
+|create_with_width_height_options(width, height, options)|Initializes a new instance of the [Jpeg2000Image](/imaging/python-net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/) class.|
+|create_with_width_height_bitscount(width, height, bits_count)|Initializes a new instance of the [Jpeg2000Image](/imaging/python-net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/) class.|
+|create_from_image(image)|Initializes a new instance of the [Jpeg2000Image](/imaging/python-net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/) class.|
+|create_from_image_with_bpp(raster_image, bits_per_pixel)|Initializes a new instance of the [Jpeg2000Image](/imaging/python-net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/) class.|

@@ -2,16 +2,16 @@
 title: WmfFamilyFont Enumeration
 type: docs
 weight: 80
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.consts/wmffamilyfont/
+url: /python-net/aspose.imaging.fileformats.wmf.consts/wmffamilyfont/
 ---
 
 The FamilyFont enumeration specifies the font family. Font families describe the look of a font in<br/>                a general way. They are intended for specifying fonts when the exact typeface desired is not available.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.consts/)
+**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfFamilyFont
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

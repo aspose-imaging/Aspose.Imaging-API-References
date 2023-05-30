@@ -2,16 +2,16 @@
 title: EmfLogPen Class
 type: docs
 weight: 180
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emflogpen/
+url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emflogpen/
 ---
 
 The LogPen object defines the style, width, and color of a logical pen.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfLogPen
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfLogPen type exposes the following members:
 ## **Constructors**

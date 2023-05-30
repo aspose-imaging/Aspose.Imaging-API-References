@@ -2,16 +2,16 @@
 title: Units Enumeration
 type: docs
 weight: 110
-url: /python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.enums/units/
+url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/units/
 ---
 
 Basic units for CMX document.
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.enums](/imaging/python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.enums/)
+**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.enums](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/)
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.enums.Units
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

@@ -2,16 +2,16 @@
 title: EmfPlusCompositingQuality Enumeration
 type: docs
 weight: 70
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscompositingquality/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscompositingquality/
 ---
 
 The CompositingQuality enumeration defines levels of quality for creating composite images
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusCompositingQuality
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

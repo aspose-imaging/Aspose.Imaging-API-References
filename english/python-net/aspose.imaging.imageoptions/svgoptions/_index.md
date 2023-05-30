@@ -1,23 +1,23 @@
 ---
 title: SvgOptions Class
 type: docs
-weight: 280
-url: /python-net/api-reference/aspose.imaging.imageoptions/svgoptions/
+weight: 290
+url: /python-net/aspose.imaging.imageoptions/svgoptions/
 ---
 
 The SVG file format creation options.
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.SvgOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The SvgOptions type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|SvgOptions()|Initializes a new instance of the SvgOptions class|
+|SvgOptions()|Initializes a new instance of the [SvgOptions](/imaging/python-net/aspose.imaging.imageoptions/svgoptions/).|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |
@@ -31,9 +31,9 @@ The SvgOptions type exposes the following members:
 |multi_page_options|The multipage options|
 |full_frame|Gets or sets a value indicating whether [full frame].|
 |color_type|Gets or sets the color type for SVG image.|
-|text_as_shapes|Gets or sets a value indicating whether text must be converted as shapes.|
-|callback|Gets or sets the font store options.|
-|compress|Gets or sets a value indicating whether this [ICompressedOptions](/imaging/python-net/api-reference/aspose.fileformats.core.imageoptions/icompressedoptions/) is compressed.|
+|text_as_shapes|Gets or sets a value indicating whether text must be rendered as shapes.|
+|callback|Gets or sets the storing strategy for embedded resousces of [SvgImage](/imaging/python-net/aspose.imaging.fileformats.svg/svgimage/) such as fonts, nested rasters.|
+|compress|Gets or sets a value indicating whether the output image must to be compressed.|
 ## **Methods**
 |**Name**|**Description**|
 | :- | :- |

@@ -2,16 +2,16 @@
 title: OdNoFillPath Class
 type: docs
 weight: 230
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/odnofillpath/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odnofillpath/
 ---
 
 The no fill path marker
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdNoFillPath
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdNoFillPath type exposes the following members:
 ## **Constructors**

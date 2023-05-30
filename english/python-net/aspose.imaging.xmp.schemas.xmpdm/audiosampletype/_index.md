@@ -2,16 +2,16 @@
 title: AudioSampleType Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.xmp.schemas.xmpdm/audiosampletype/
+url: /python-net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype/
 ---
 
-Represents Audio sample type in [XmpDynamicMediaPackage](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/).
+Represents Audio sample type in [XmpDynamicMediaPackage](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/).
 
-**Namespace:** [aspose.imaging.xmp.schemas.xmpdm](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.xmpdm/)
+**Namespace:** [aspose.imaging.xmp.schemas.xmpdm](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/)
 
 **Full Class Name:** aspose.imaging.xmp.schemas.xmpdm.AudioSampleType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The AudioSampleType type exposes the following members:
 ## **Properties**

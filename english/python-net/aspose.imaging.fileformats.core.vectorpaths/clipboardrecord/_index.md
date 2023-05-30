@@ -2,22 +2,22 @@
 title: ClipboardRecord Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.core.vectorpaths/clipboardrecord/
+url: /python-net/aspose.imaging.fileformats.core.vectorpaths/clipboardrecord/
 ---
 
 Clipboard Record Class
 
-**Namespace:** [aspose.imaging.fileformats.core.vectorpaths](/imaging/python-net/api-reference/aspose.imaging.fileformats.core.vectorpaths/)
+**Namespace:** [aspose.imaging.fileformats.core.vectorpaths](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/)
 
 **Full Class Name:** aspose.imaging.fileformats.core.vectorpaths.ClipboardRecord
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The ClipboardRecord type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|ClipboardRecord()|Initializes a new instance of the [ClipboardRecord](/imaging/python-net/api-reference/aspose.imaging.fileformats.core.vectorpaths/clipboardrecord/) class.|
+|ClipboardRecord()|Initializes a new instance of the [ClipboardRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/clipboardrecord/) class.|
 |ClipboardRecord(data)|Initializes a new instance of the ClipboardRecord class|
 ## **Properties**
 |**Name**|**Description**|

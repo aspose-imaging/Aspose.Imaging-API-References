@@ -2,16 +2,16 @@
 title: IAdvancedBufferProcessor Class
 type: docs
 weight: 240
-url: /python-net/api-reference/aspose.imaging/iadvancedbufferprocessor/
+url: /python-net/aspose.imaging/iadvancedbufferprocessor/
 ---
 
 The advanced buffer processor.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.IAdvancedBufferProcessor
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IAdvancedBufferProcessor type exposes the following members:
 ## **Methods**

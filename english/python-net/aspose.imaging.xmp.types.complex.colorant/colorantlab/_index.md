@@ -2,29 +2,29 @@
 title: ColorantLab Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.xmp.types.complex.colorant/colorantlab/
+url: /python-net/aspose.imaging.xmp.types.complex.colorant/colorantlab/
 ---
 
 Represents LAB Colorant.
 
-**Namespace:** [aspose.imaging.xmp.types.complex.colorant](/imaging/python-net/api-reference/aspose.imaging.xmp.types.complex.colorant/)
+**Namespace:** [aspose.imaging.xmp.types.complex.colorant](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/)
 
 **Full Class Name:** aspose.imaging.xmp.types.complex.colorant.ColorantLab
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The ColorantLab type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|ColorantLab()|Initializes a new instance of the [ColorantLab](/imaging/python-net/api-reference/aspose.imaging.xmp.types.complex.colorant/colorantlab/) class.|
+|ColorantLab()|Initializes a new instance of the [ColorantLab](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colorantlab/) class.|
 |ColorantLab(a, b, l)|Initializes a new instance of the ColorantLab class|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |
 |prefix|  |
 |namespace_uri|  |
-|mode|Gets [ColorMode](/imaging/python-net/api-reference/aspose.imaging.xmp.types.complex.colorant/colormode/).|
+|mode|Gets [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode/).|
 |swatch_name|Gets or sets the name of the swatch.|
 |color_type|Gets or sets the type of the color.|
 |a|Gets or sets the A component.|

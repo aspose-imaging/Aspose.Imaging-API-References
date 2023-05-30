@@ -2,16 +2,16 @@
 title: WmfExtFloodFill Class
 type: docs
 weight: 260
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfextfloodfill/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfextfloodfill/
 ---
 
 The META_EXTFLOODFILL record fills an area with the brush that is<br/>                defined in the playback device context.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfExtFloodFill
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfExtFloodFill type exposes the following members:
 ## **Constructors**

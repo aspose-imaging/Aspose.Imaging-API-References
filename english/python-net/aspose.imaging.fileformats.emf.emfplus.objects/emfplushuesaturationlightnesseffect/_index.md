@@ -2,16 +2,16 @@
 title: EmfPlusHueSaturationLightnessEffect Class
 type: docs
 weight: 370
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfplushuesaturationlightnesseffect/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplushuesaturationlightnesseffect/
 ---
 
 The HueSaturationLightnessEffect object specifies adjustments to the hue, saturation, and lightness of an image.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusHueSaturationLightnessEffect
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusHueSaturationLightnessEffect type exposes the following members:
 ## **Constructors**

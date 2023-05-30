@@ -2,16 +2,16 @@
 title: EmfPlusRegion Class
 type: docs
 weight: 590
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregion/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregion/
 ---
 
 The EmfPlusRegion object specifies line and curve segments that define a non rectilinear shape
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusRegion
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusRegion type exposes the following members:
 ## **Constructors**

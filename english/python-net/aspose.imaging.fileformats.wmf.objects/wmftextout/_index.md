@@ -2,16 +2,16 @@
 title: WmfTextOut Class
 type: docs
 weight: 860
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmftextout/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmftextout/
 ---
 
 The META_EXTTEXTOUT record outputs text by using the font, background<br/>                color, and text color that are defined in the playback device context.<br/>                Optionally, dimensions can be provided for clipping, opaquing, or both.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfTextOut
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfTextOut type exposes the following members:
 ## **Constructors**

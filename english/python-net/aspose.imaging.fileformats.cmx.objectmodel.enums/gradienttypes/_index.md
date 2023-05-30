@@ -2,16 +2,16 @@
 title: GradientTypes Enumeration
 type: docs
 weight: 50
-url: /python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.enums/gradienttypes/
+url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/gradienttypes/
 ---
 
 Gradient fill types
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.enums](/imaging/python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.enums/)
+**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.enums](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/)
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.enums.GradientTypes
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

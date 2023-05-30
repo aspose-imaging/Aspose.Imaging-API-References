@@ -2,16 +2,16 @@
 title: EmfRecordType Enumeration
 type: docs
 weight: 290
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/
+url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/
 ---
 
 The RecordType enumeration defines values that uniquely identify EMF records.<br/>            These values are provided in the Type field of each record.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfRecordType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

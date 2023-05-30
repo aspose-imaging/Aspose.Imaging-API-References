@@ -2,16 +2,16 @@
 title: EmfPlusMultiplyWorldTransform Class
 type: docs
 weight: 320
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplusmultiplyworldtransform/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusmultiplyworldtransform/
 ---
 
 The EmfPlusMultiplyWorldTransform record multiplies the current world space transform by a<br/>            specified transform matrix.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusMultiplyWorldTransform
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusMultiplyWorldTransform type exposes the following members:
 ## **Constructors**

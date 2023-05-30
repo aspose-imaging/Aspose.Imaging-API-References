@@ -2,16 +2,16 @@
 title: GifImage Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.fileformats.gif/gifimage/
+url: /python-net/aspose.imaging.fileformats.gif/gifimage/
 ---
 
 A gif image.
 
-**Namespace:** [aspose.imaging.fileformats.gif](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif/)
+**Namespace:** [aspose.imaging.fileformats.gif](/imaging/python-net/aspose.imaging.fileformats.gif/)
 
 **Full Class Name:** aspose.imaging.fileformats.gif.GifImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The GifImage type exposes the following members:
 ## **Constructors**
@@ -59,7 +59,6 @@ The GifImage type exposes the following members:
 |image_opacity|Gets opacity of this image (active frame).|
 |page_count|Gets the page count.|
 |pages|Gets the pages.|
-|default_page|Gets the default page.|
 |has_trailer|Gets or sets a value indicating whether GIF has trailer.|
 |is_palette_sorted|Gets or sets a value indicating whether palette is sorted.|
 |loops_count|Gets the loops count (If gif image contains information about loops)|
@@ -148,8 +147,6 @@ The GifImage type exposes the following members:
 |set_palette(palette, update_colors)|  |
 |get_proportional_width(width, height, new_height)|  |
 |get_proportional_height(width, height, new_width)|  |
-|is_multipage()|  |
-|as_multipage()|  |
 |get_modify_date(use_default)|  |
 |get_default_pixels(rectangle, partial_pixel_loader)|  |
 |get_default_argb_32_pixels(rectangle)|  |
@@ -165,6 +162,7 @@ The GifImage type exposes the following members:
 |load_partial_pixels(desired_rectangle, pixel_loader)|  |
 |load_argb_32_pixels(rectangle)|  |
 |load_argb_64_pixels(rectangle)|  |
+|load_partial_argb_64_pixels(rectangle, partial_pixel_loader)|  |
 |load_pixels(rectangle)|  |
 |load_cmyk_pixels(rectangle)|  |
 |load_cmyk_32_pixels(rectangle)|  |
@@ -187,7 +185,7 @@ The GifImage type exposes the following members:
 |add_page(page)|Adds page to the image.|
 |resize_full_frame(new_width, new_height, resize_type)|Resizes the image using full frames for each GIF page. Required to avoid possible artifacts appearance.|
 |set_frame_time(time)|Sets all frames duration in milliseconds.<br/>            Changing this value will reset delay for all frames.|
-|order_blocks()|Orders the GIF blocks according to the GIF specification. Some [GifGraphicsControlBlock](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/) may be removed for proper GIF layout.|
+|order_blocks()|Orders the GIF blocks according to the GIF specification. Some [GifGraphicsControlBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/) may be removed for proper GIF layout.|
 |clear_blocks()|Clears all the GIF blocks.|
 |insert_block(index, block)|Adds a new GIF block.|
 |add_block(block)|Adds a new GIF block.|

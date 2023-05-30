@@ -1,17 +1,17 @@
 ---
 title: ColorChannelFlag Enumeration
 type: docs
-weight: 8890
-url: /python-net/api-reference/aspose.imaging/colorchannelflag/
+weight: 8980
+url: /python-net/aspose.imaging/colorchannelflag/
 ---
 
 Specifies individual channels in the CMYK (cyan, magenta, yellow, black) color space. This enumeration is used by the SetOutputChannel methods.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Name:** aspose.imaging.ColorChannelFlag
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

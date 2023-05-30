@@ -2,16 +2,16 @@
 title: EmfPoint28To4 Class
 type: docs
 weight: 230
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emfpoint28to4/
+url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfpoint28to4/
 ---
 
 The Point28_4 object represents the location of a point on a device surface with coordinates in 28.4 bit FIX notation.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfPoint28To4
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPoint28To4 type exposes the following members:
 ## **Constructors**

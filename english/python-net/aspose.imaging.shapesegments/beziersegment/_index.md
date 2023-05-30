@@ -2,16 +2,16 @@
 title: BezierSegment Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.shapesegments/beziersegment/
+url: /python-net/aspose.imaging.shapesegments/beziersegment/
 ---
 
 The bezier segment going from one point to the next point and using two control points.
 
-**Namespace:** [aspose.imaging.shapesegments](/imaging/python-net/api-reference/aspose.imaging.shapesegments/)
+**Namespace:** [aspose.imaging.shapesegments](/imaging/python-net/aspose.imaging.shapesegments/)
 
 **Full Class Name:** aspose.imaging.shapesegments.BezierSegment
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The BezierSegment type exposes the following members:
 ## **Constructors**

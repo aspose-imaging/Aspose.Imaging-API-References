@@ -2,16 +2,16 @@
 title: CdrObjectContainer Class
 type: docs
 weight: 190
-url: /python-net/api-reference/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/
+url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/
 ---
 
 The cdr object container
 
-**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.objects/)
+**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrObjectContainer
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CdrObjectContainer type exposes the following members:
 ## **Properties**
@@ -23,7 +23,7 @@ The CdrObjectContainer type exposes the following members:
 |childs|Gets or sets the objects.|
 |load_to_last_child|Gets or sets a value indicating whether [load to last child].|
 |last_child|Gets or sets the last child.|
-|hidden|Gets or sets a value indicating whether this [CdrObjectContainer](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) is visible.|
+|hidden|Gets or sets a value indicating whether this [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) is visible.|
 ## **Methods**
 |**Name**|**Description**|
 | :- | :- |

@@ -2,16 +2,16 @@
 title: EmfSetIcmMode Class
 type: docs
 weight: 1130
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfseticmmode/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfseticmmode/
 ---
 
 The EMR_SETICMMODE record specifies the mode of Image Color Management (ICM) for graphics operations.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetIcmMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfSetIcmMode type exposes the following members:
 ## **Constructors**

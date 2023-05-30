@@ -1,17 +1,17 @@
 ---
 title: CompositingQuality Enumeration
 type: docs
-weight: 8930
-url: /python-net/api-reference/aspose.imaging/compositingquality/
+weight: 9020
+url: /python-net/aspose.imaging/compositingquality/
 ---
 
 Specifies the quality level to use during compositing.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Name:** aspose.imaging.CompositingQuality
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

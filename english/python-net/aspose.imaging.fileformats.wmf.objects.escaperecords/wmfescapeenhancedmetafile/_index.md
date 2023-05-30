@@ -2,16 +2,16 @@
 title: WmfEscapeEnhancedMetafile Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/
+url: /python-net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapeenhancedmetafile/
 ---
 
 The Escape Enhanced Meta file record.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects.escaperecords](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects.escaperecords/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects.escaperecords](/imaging/python-net/aspose.imaging.fileformats.wmf.objects.escaperecords/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.escaperecords.WmfEscapeEnhancedMetafile
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfEscapeEnhancedMetafile type exposes the following members:
 ## **Constructors**
@@ -23,7 +23,7 @@ The WmfEscapeEnhancedMetafile type exposes the following members:
 | :- | :- |
 |byte_count|Gets or sets the byte count.|
 |data|Gets or sets the data.|
-|checked|Gets a value indicating whether this [WmfEscapeRecordBase](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/) is checked.|
+|checked|Gets a value indicating whether this [WmfEscapeRecordBase](/imaging/python-net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/) is checked.|
 |comment_identifier|Gets or sets the comment identifier.|
 |comment_type|Gets or sets the type of the comment.|
 |version|Gets or sets the version.|

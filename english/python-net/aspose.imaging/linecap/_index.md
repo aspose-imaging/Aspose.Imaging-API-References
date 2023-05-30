@@ -1,17 +1,17 @@
 ---
 title: LineCap Enumeration
 type: docs
-weight: 9080
-url: /python-net/api-reference/aspose.imaging/linecap/
+weight: 9170
+url: /python-net/aspose.imaging/linecap/
 ---
 
-Specifies the available cap styles with which a [Pen](/imaging/python-net/api-reference/aspose.imaging/pen/) object can end a line.
+Specifies the available cap styles with which a [Pen](/imaging/python-net/aspose.imaging/pen/) object can end a line.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Name:** aspose.imaging.LineCap
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

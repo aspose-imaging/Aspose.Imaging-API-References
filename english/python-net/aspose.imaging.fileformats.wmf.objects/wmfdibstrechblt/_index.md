@@ -2,16 +2,16 @@
 title: WmfDibStrechBlt Class
 type: docs
 weight: 210
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/
 ---
 
 The META_DIBSTRETCHBLT record specifies the transfer of a block of<br/>                pixels in device-independent format according to a raster operation,<br/>                with possible expansion or contraction.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfDibStrechBlt
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfDibStrechBlt type exposes the following members:
 ## **Constructors**

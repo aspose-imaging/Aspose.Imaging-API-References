@@ -2,16 +2,16 @@
 title: EmfPlusSetPixelOffsetMode Class
 type: docs
 weight: 530
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplussetpixeloffsetmode/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetpixeloffsetmode/
 ---
 
 The EmfPlusSetPixelOffsetMode record specifies how pixels are centered with respect to the<br/>            coordinates of the drawing surface.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSetPixelOffsetMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusSetPixelOffsetMode type exposes the following members:
 ## **Constructors**

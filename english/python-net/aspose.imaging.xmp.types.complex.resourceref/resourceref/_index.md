@@ -2,16 +2,16 @@
 title: ResourceRef Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.xmp.types.complex.resourceref/resourceref/
+url: /python-net/aspose.imaging.xmp.types.complex.resourceref/resourceref/
 ---
 
 Used to indicate prior versions, originals of renditions, originals for derived documents, and so on.
 
-**Namespace:** [aspose.imaging.xmp.types.complex.resourceref](/imaging/python-net/api-reference/aspose.imaging.xmp.types.complex.resourceref/)
+**Namespace:** [aspose.imaging.xmp.types.complex.resourceref](/imaging/python-net/aspose.imaging.xmp.types.complex.resourceref/)
 
 **Full Class Name:** aspose.imaging.xmp.types.complex.resourceref.ResourceRef
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The ResourceRef type exposes the following members:
 ## **Constructors**

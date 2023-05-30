@@ -2,23 +2,23 @@
 title: EmfPolyPolygon16 Class
 type: docs
 weight: 820
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon16/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon16/
 ---
 
 The EMR_POLYPOLYGON16 record specifies a series of closed polygons. Each polygon is outlined <br/>            using the current pen, and filled using the current brush and polygon fill mode. The polygons drawn <br/>            by this record can overlap.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfPolyPolygon16
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPolyPolygon16 type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfPolyPolygon16(source)|Initializes a new instance of the EmfPolyPolygon16 class|
-|EmfPolyPolygon16()|Initializes a new instance of the [EmfPolyPolygon16](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon16/) class.|
+|EmfPolyPolygon16()|Initializes a new instance of the [EmfPolyPolygon16](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon16/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

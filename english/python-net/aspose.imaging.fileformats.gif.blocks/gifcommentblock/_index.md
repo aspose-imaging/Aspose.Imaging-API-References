@@ -2,22 +2,22 @@
 title: GifCommentBlock Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.gif.blocks/gifcommentblock/
+url: /python-net/aspose.imaging.fileformats.gif.blocks/gifcommentblock/
 ---
 
 Gif comment block.
 
-**Namespace:** [aspose.imaging.fileformats.gif.blocks](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif.blocks/)
+**Namespace:** [aspose.imaging.fileformats.gif.blocks](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/)
 
 **Full Class Name:** aspose.imaging.fileformats.gif.blocks.GifCommentBlock
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The GifCommentBlock type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|GifCommentBlock()|Initializes a new instance of the [GifCommentBlock](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif.blocks/gifcommentblock/) class.|
+|GifCommentBlock()|Initializes a new instance of the [GifCommentBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifcommentblock/) class.|
 |GifCommentBlock(comment)|Initializes a new instance of the GifCommentBlock class|
 ## **Properties**
 |**Name**|**Description**|

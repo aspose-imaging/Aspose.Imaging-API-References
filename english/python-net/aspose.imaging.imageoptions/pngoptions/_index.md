@@ -1,23 +1,23 @@
 ---
 title: PngOptions Class
 type: docs
-weight: 230
-url: /python-net/api-reference/aspose.imaging.imageoptions/pngoptions/
+weight: 240
+url: /python-net/aspose.imaging.imageoptions/pngoptions/
 ---
 
 The png file format create options.
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.PngOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The PngOptions type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|PngOptions()|Initializes a new instance of the [PngOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/pngoptions/) class.|
+|PngOptions()|Initializes a new instance of the [PngOptions](/imaging/python-net/aspose.imaging.imageoptions/pngoptions/) class.|
 |PngOptions(png_options)|Initializes a new instance of the PngOptions class|
 ## **Properties**
 |**Name**|**Description**|
@@ -32,7 +32,7 @@ The PngOptions type exposes the following members:
 |multi_page_options|The multipage options|
 |full_frame|Gets or sets a value indicating whether [full frame].|
 |color_type|Gets or sets the type of the color.|
-|progressive|Gets or sets a value indicating whether this [PngOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/pngoptions/) is progressive.|
+|progressive|Gets or sets a value indicating whether this [PngOptions](/imaging/python-net/aspose.imaging.imageoptions/pngoptions/) is progressive.|
 |filter_type|Gets or sets the filter type used during png file save process.|
 |compression_level|The png image compression level in the 0-9 range, where 9 is maximum compression and 0 is store mode.|
 |bit_depth|The bit depth.|

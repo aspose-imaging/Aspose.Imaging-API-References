@@ -2,16 +2,16 @@
 title: WmfRenderMode Enumeration
 type: docs
 weight: 930
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf/wmfrendermode/
+url: /python-net/aspose.imaging.fileformats.wmf/wmfrendermode/
 ---
 
 The render mode enumeration.
 
-**Namespace:** [aspose.imaging.fileformats.wmf](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf/)
+**Namespace:** [aspose.imaging.fileformats.wmf](/imaging/python-net/aspose.imaging.fileformats.wmf/)
 
 **Full Name:** aspose.imaging.fileformats.wmf.WmfRenderMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

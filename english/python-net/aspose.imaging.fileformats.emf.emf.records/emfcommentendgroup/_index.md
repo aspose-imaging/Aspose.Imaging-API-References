@@ -2,16 +2,16 @@
 title: EmfCommentEndGroup Class
 type: docs
 weight: 190
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfcommentendgroup/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentendgroup/
 ---
 
 The EMR_COMMENT_ENDGROUP record specifies the end of a group of drawing records.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfCommentEndGroup
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfCommentEndGroup type exposes the following members:
 ## **Constructors**

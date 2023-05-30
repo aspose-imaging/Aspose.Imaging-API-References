@@ -2,22 +2,22 @@
 title: RenditionClass Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.xmp.types.derived/renditionclass/
+url: /python-net/aspose.imaging.xmp.types.derived/renditionclass/
 ---
 
 Represents the XMP Rendition.
 
-**Namespace:** [aspose.imaging.xmp.types.derived](/imaging/python-net/api-reference/aspose.imaging.xmp.types.derived/)
+**Namespace:** [aspose.imaging.xmp.types.derived](/imaging/python-net/aspose.imaging.xmp.types.derived/)
 
 **Full Class Name:** aspose.imaging.xmp.types.derived.RenditionClass
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The RenditionClass type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|RenditionClass()|Initializes a new instance of the [RenditionClass](/imaging/python-net/api-reference/aspose.imaging.xmp.types.derived/renditionclass/) class.|
+|RenditionClass()|Initializes a new instance of the [RenditionClass](/imaging/python-net/aspose.imaging.xmp.types.derived/renditionclass/) class.|
 |RenditionClass(token, value)|Initializes a new instance of the RenditionClass class|
 ## **Properties**
 |**Name**|**Description**|

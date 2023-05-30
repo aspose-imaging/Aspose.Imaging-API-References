@@ -2,16 +2,16 @@
 title: OdLine Class
 type: docs
 weight: 160
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/odline/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odline/
 ---
 
 The line object
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdLine
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdLine type exposes the following members:
 ## **Constructors**

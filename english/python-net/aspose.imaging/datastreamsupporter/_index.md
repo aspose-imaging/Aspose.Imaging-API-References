@@ -2,16 +2,16 @@
 title: DataStreamSupporter Class
 type: docs
 weight: 150
-url: /python-net/api-reference/aspose.imaging/datastreamsupporter/
+url: /python-net/aspose.imaging/datastreamsupporter/
 ---
 
 The data stream container.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.DataStreamSupporter
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The DataStreamSupporter type exposes the following members:
 ## **Properties**
@@ -23,9 +23,9 @@ The DataStreamSupporter type exposes the following members:
 ## **Methods**
 |**Name**|**Description**|
 | :- | :- |
-|save()|Saves the object's data to the current [DataStreamSupporter](/imaging/python-net/api-reference/aspose.imaging/datastreamsupporter/).|
+|save()|Saves the object's data to the current [DataStreamSupporter](/imaging/python-net/aspose.imaging/datastreamsupporter/).|
 |save(stream)|Saves the object's data to the specified stream.|
 |save(file_path)|Saves the object's data to the specified file location.|
 |save(file_path, over_write)|Saves the object's data to the specified file location.|
-|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying [data_stream_container](/imaging/python-net/api-reference/aspose.imaging/datastreamsupporter/).|
+|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying [data_stream_container](/imaging/python-net/aspose.imaging/datastreamsupporter/).|
 |save_to_stream(stream)|Saves the object's data to the specified stream.|

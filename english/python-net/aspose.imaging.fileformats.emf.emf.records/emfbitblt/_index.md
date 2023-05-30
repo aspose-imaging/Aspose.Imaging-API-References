@@ -2,16 +2,16 @@
 title: EmfBitBlt Class
 type: docs
 weight: 70
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfbitblt/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfbitblt/
 ---
 
 The EMR_BITBLT record specifies a block transfer of pixels from a source bitmap to a destination <br/>            rectangle, optionally in combination with a brush pattern, according to a specified raster operation.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfBitBlt
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfBitBlt type exposes the following members:
 ## **Constructors**

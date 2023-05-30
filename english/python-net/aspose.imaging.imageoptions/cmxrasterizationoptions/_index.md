@@ -1,23 +1,23 @@
 ---
 title: CmxRasterizationOptions Class
 type: docs
-weight: 40
-url: /python-net/api-reference/aspose.imaging.imageoptions/cmxrasterizationoptions/
+weight: 50
+url: /python-net/aspose.imaging.imageoptions/cmxrasterizationoptions/
 ---
 
 the CMX exporter options.
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.CmxRasterizationOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CmxRasterizationOptions type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|CmxRasterizationOptions()|Initializes a new instance of the [CmxRasterizationOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/cmxrasterizationoptions/) class.|
+|CmxRasterizationOptions()|Initializes a new instance of the [CmxRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/cmxrasterizationoptions/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

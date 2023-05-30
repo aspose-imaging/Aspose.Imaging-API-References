@@ -2,16 +2,16 @@
 title: EmfPlusTextRenderingHint Enumeration
 type: docs
 weight: 430
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfplustextrenderinghint/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplustextrenderinghint/
 ---
 
 The TextRenderingHint enumeration defines types of text hinting and anti-aliasing, which affects the quality of text rendering.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusTextRenderingHint
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

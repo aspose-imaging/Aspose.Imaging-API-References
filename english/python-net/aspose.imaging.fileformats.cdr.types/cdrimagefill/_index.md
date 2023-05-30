@@ -2,22 +2,22 @@
 title: CdrImageFill Class
 type: docs
 weight: 40
-url: /python-net/api-reference/aspose.imaging.fileformats.cdr.types/cdrimagefill/
+url: /python-net/aspose.imaging.fileformats.cdr.types/cdrimagefill/
 ---
 
 The cdr image fill
 
-**Namespace:** [aspose.imaging.fileformats.cdr.types](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.types/)
+**Namespace:** [aspose.imaging.fileformats.cdr.types](/imaging/python-net/aspose.imaging.fileformats.cdr.types/)
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.types.CdrImageFill
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CdrImageFill type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|CdrImageFill(id, width, height, is_relative, x_offset, y_offset, rpc_offset, flags)|Initializes a new instance of the CdrImageFill class|
+|CdrImageFill(id, width, height, is_relative, x_offset, y_offset, rcp_offset, flags)|Initializes a new instance of the CdrImageFill class|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

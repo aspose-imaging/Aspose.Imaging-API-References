@@ -2,23 +2,23 @@
 title: EmfArc Class
 type: docs
 weight: 40
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfarc/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfarc/
 ---
 
 The EMR_ARC record specifies an elliptical arc.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfArc
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfArc type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfArc(source)|Initializes a new instance of the EmfArc class|
-|EmfArc()|Initializes a new instance of the [EmfArc](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfarc/) class.|
+|EmfArc()|Initializes a new instance of the [EmfArc](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfarc/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

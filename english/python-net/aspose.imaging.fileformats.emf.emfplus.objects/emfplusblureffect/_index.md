@@ -2,16 +2,16 @@
 title: EmfPlusBlurEffect Class
 type: docs
 weight: 100
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfplusblureffect/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusblureffect/
 ---
 
 The BlurEffect object specifies a decrease in the difference in intensity between pixels in an image.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBlurEffect
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusBlurEffect type exposes the following members:
 ## **Constructors**

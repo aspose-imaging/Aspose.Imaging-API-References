@@ -2,16 +2,16 @@
 title: OdShortCurveTo Class
 type: docs
 weight: 300
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/odshortcurveto/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odshortcurveto/
 ---
 
 The short CurveTo
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdShortCurveTo
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdShortCurveTo type exposes the following members:
 ## **Constructors**

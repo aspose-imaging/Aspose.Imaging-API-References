@@ -2,16 +2,16 @@
 title: PathResource Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.tiff.pathresources/pathresource/
+url: /python-net/aspose.imaging.fileformats.tiff.pathresources/pathresource/
 ---
 
 Represents Photoshop Path Resource.
 
-**Namespace:** [aspose.imaging.fileformats.tiff.pathresources](/imaging/python-net/api-reference/aspose.imaging.fileformats.tiff.pathresources/)
+**Namespace:** [aspose.imaging.fileformats.tiff.pathresources](/imaging/python-net/aspose.imaging.fileformats.tiff.pathresources/)
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.pathresources.PathResource
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The PathResource type exposes the following members:
 ## **Constructors**

@@ -2,16 +2,16 @@
 title: TiffOrientations Enumeration
 type: docs
 weight: 100
-url: /python-net/api-reference/aspose.imaging.fileformats.tiff.enums/tifforientations/
+url: /python-net/aspose.imaging.fileformats.tiff.enums/tifforientations/
 ---
 
 Image orientation.
 
-**Namespace:** [aspose.imaging.fileformats.tiff.enums](/imaging/python-net/api-reference/aspose.imaging.fileformats.tiff.enums/)
+**Namespace:** [aspose.imaging.fileformats.tiff.enums](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/)
 
 **Full Name:** aspose.imaging.fileformats.tiff.enums.TiffOrientations
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

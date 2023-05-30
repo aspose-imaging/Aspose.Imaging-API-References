@@ -2,23 +2,23 @@
 title: EmfCreateDibPatternBrushPt Class
 type: docs
 weight: 280
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/
 ---
 
 The EMR_CREATEDIBPATTERNBRUSHPT record defines a pattern brush for graphics operations. The<br/>            pattern is specified by a DIB.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfCreateDibPatternBrushPt
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfCreateDibPatternBrushPt type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfCreateDibPatternBrushPt(source)|Initializes a new instance of the EmfCreateDibPatternBrushPt class|
-|EmfCreateDibPatternBrushPt()|Initializes a new instance of the [EmfCreateDibPatternBrushPt](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/) class.|
+|EmfCreateDibPatternBrushPt()|Initializes a new instance of the [EmfCreateDibPatternBrushPt](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatedibpatternbrushpt/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

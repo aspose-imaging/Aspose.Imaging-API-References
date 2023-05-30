@@ -2,16 +2,16 @@
 title: WmfStretchDib Class
 type: docs
 weight: 850
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfstretchdib/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfstretchdib/
 ---
 
 The wmf Stretch DIB objetc.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfStretchDib
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfStretchDib type exposes the following members:
 ## **Constructors**

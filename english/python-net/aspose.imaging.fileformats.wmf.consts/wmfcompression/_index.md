@@ -2,16 +2,16 @@
 title: WmfCompression Enumeration
 type: docs
 weight: 70
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.consts/wmfcompression/
+url: /python-net/aspose.imaging.fileformats.wmf.consts/wmfcompression/
 ---
 
 The Compression Enumeration specifies the type of compression for a bitmap image
 
-**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.consts/)
+**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfCompression
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

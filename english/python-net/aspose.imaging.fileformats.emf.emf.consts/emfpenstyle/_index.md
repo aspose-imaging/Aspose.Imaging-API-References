@@ -2,16 +2,16 @@
 title: EmfPenStyle Enumeration
 type: docs
 weight: 250
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/emfpenstyle/
+url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emfpenstyle/
 ---
 
 The PenStyle enumeration defines the attributes of pens that can be used in graphics operations.<br/>             A pen style is a combination of pen type, line style, line cap, and line join.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfPenStyle
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

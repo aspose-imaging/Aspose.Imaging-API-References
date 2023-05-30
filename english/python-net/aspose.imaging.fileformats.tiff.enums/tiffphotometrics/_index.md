@@ -2,16 +2,16 @@
 title: TiffPhotometrics Enumeration
 type: docs
 weight: 110
-url: /python-net/api-reference/aspose.imaging.fileformats.tiff.enums/tiffphotometrics/
+url: /python-net/aspose.imaging.fileformats.tiff.enums/tiffphotometrics/
 ---
 
 Photometric interpolation enum
 
-**Namespace:** [aspose.imaging.fileformats.tiff.enums](/imaging/python-net/api-reference/aspose.imaging.fileformats.tiff.enums/)
+**Namespace:** [aspose.imaging.fileformats.tiff.enums](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/)
 
 **Full Name:** aspose.imaging.fileformats.tiff.enums.TiffPhotometrics
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

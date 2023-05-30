@@ -1,17 +1,17 @@
 ---
 title: DashStyle Enumeration
 type: docs
-weight: 8950
-url: /python-net/api-reference/aspose.imaging/dashstyle/
+weight: 9040
+url: /python-net/aspose.imaging/dashstyle/
 ---
 
-Specifies the style of dashed lines drawn with a [Pen](/imaging/python-net/api-reference/aspose.imaging/pen/) object.
+Specifies the style of dashed lines drawn with a [Pen](/imaging/python-net/aspose.imaging/pen/) object.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Name:** aspose.imaging.DashStyle
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

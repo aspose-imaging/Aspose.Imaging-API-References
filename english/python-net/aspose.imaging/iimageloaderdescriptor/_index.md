@@ -2,16 +2,16 @@
 title: IImageLoaderDescriptor Class
 type: docs
 weight: 350
-url: /python-net/api-reference/aspose.imaging/iimageloaderdescriptor/
+url: /python-net/aspose.imaging/iimageloaderdescriptor/
 ---
 
 The image loader descriptor specifying the loader properties. The loader descriptor is used to overcome<br/>            the necessity to contain each image loader instance in memory and multithreading issues.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.IImageLoaderDescriptor
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IImageLoaderDescriptor type exposes the following members:
 ## **Properties**

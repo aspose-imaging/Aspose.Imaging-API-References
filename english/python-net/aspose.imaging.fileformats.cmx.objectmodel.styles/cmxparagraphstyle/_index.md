@@ -2,16 +2,16 @@
 title: CmxParagraphStyle Class
 type: docs
 weight: 60
-url: /python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphstyle/
+url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphstyle/
 ---
 
 The paragraph style.
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.styles](/imaging/python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.styles/)
+**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.styles](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/)
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.styles.CmxParagraphStyle
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CmxParagraphStyle type exposes the following members:
 ## **Constructors**

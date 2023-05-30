@@ -2,16 +2,16 @@
 title: VectorRasterizationOptions Class
 type: docs
 weight: 340
-url: /python-net/api-reference/aspose.imaging.imageoptions/vectorrasterizationoptions/
+url: /python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/
 ---
 
 The vector rasterization options.
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.VectorRasterizationOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The VectorRasterizationOptions type exposes the following members:
 ## **Constructors**

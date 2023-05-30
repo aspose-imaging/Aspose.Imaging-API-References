@@ -2,16 +2,16 @@
 title: OdPatternBrush Class
 type: docs
 weight: 40
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.brush/odpatternbrush/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects.brush/odpatternbrush/
 ---
 
 The open document pattern brush
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.brush](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.brush/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects.brush](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.brush.OdPatternBrush
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdPatternBrush type exposes the following members:
 ## **Constructors**

@@ -2,16 +2,16 @@
 title: DibBitCount Enumeration
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.apsbuilder.dib/dibbitcount/
+url: /python-net/aspose.imaging.apsbuilder.dib/dibbitcount/
 ---
 
 The BitCount Enumeration specifies the number of bits that define each pixel and<br/>                the maximum number of colors in a device-independent bitmap (DIB).
 
-**Namespace:** [aspose.imaging.apsbuilder.dib](/imaging/python-net/api-reference/aspose.imaging.apsbuilder.dib/)
+**Namespace:** [aspose.imaging.apsbuilder.dib](/imaging/python-net/aspose.imaging.apsbuilder.dib/)
 
 **Full Name:** aspose.imaging.apsbuilder.dib.DibBitCount
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

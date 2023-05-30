@@ -2,16 +2,16 @@
 title: EmfUniversalFontId Class
 type: docs
 weight: 280
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emfuniversalfontid/
+url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfuniversalfontid/
 ---
 
 The UniversalFontId object defines a mechanism for identifying fonts in EMF metafiles.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfUniversalFontId
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfUniversalFontId type exposes the following members:
 ## **Constructors**

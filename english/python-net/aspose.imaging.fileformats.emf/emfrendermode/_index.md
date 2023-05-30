@@ -2,16 +2,16 @@
 title: EmfRenderMode Enumeration
 type: docs
 weight: 3150
-url: /python-net/api-reference/aspose.imaging.fileformats.emf/emfrendermode/
+url: /python-net/aspose.imaging.fileformats.emf/emfrendermode/
 ---
 
 The emf render mode
 
-**Namespace:** [aspose.imaging.fileformats.emf](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf/)
+**Namespace:** [aspose.imaging.fileformats.emf](/imaging/python-net/aspose.imaging.fileformats.emf/)
 
 **Full Name:** aspose.imaging.fileformats.emf.EmfRenderMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

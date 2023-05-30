@@ -2,16 +2,16 @@
 title: WmfUntyped Class
 type: docs
 weight: 870
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfuntyped/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfuntyped/
 ---
 
 The wmf untyped object
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfUntyped
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfUntyped type exposes the following members:
 ## **Constructors**

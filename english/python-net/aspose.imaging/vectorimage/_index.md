@@ -1,17 +1,17 @@
 ---
 title: VectorImage Class
 type: docs
-weight: 860
-url: /python-net/api-reference/aspose.imaging/vectorimage/
+weight: 870
+url: /python-net/aspose.imaging/vectorimage/
 ---
 
 The vector image is the base class for all type of vector images.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.VectorImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The VectorImage type exposes the following members:
 ## **Properties**
@@ -22,7 +22,7 @@ The VectorImage type exposes the following members:
 |is_cached|  |
 |bits_per_pixel|Gets the image bits per pixel count.|
 |bounds|Gets the image bounds.|
-|container|Gets the [Image](/imaging/python-net/api-reference/aspose.imaging/image/) container.|
+|container|Gets the [Image](/imaging/python-net/aspose.imaging/image/) container.|
 |height|Gets the image height.|
 |palette|Gets or sets the color palette. The color palette is not used when pixels are represented directly.|
 |use_palette|Gets a value indicating whether the image palette is used.|
@@ -63,13 +63,13 @@ The VectorImage type exposes the following members:
 |load(file_path)|Loads a new image from the specified file.|
 |load(stream, load_options)|Loads a new image from the specified stream.|
 |load(stream)|Loads a new image from the specified stream.|
-|resize(new_width, new_height)|Resizes the image. The default [NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/api-reference/aspose.imaging/resizetype/) is used.|
+|resize(new_width, new_height)|Resizes the image. The default [NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used.|
 |resize(new_width, new_height, resize_type)|Resizes the image.|
 |resize(new_width, new_height, settings)|Resizes the image.|
-|resize_width_proportionally(new_width)|Resizes the width proportionally. The default [NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/api-reference/aspose.imaging/resizetype/) is used.|
+|resize_width_proportionally(new_width)|Resizes the width proportionally. The default [NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used.|
 |resize_width_proportionally(new_width, resize_type)|Resizes the width proportionally.|
 |resize_width_proportionally(new_width, settings)|Resizes the width proportionally.|
-|resize_height_proportionally(new_height)|Resizes the height proportionally. The default [NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/api-reference/aspose.imaging/resizetype/) is used.|
+|resize_height_proportionally(new_height)|Resizes the height proportionally. The default [NEAREST_NEIGHBOUR_RESAMPLE](/imaging/python-net/aspose.imaging/resizetype/) is used.|
 |resize_height_proportionally(new_height, resize_type)|Resizes the height proportionally.|
 |resize_height_proportionally(new_height, settings)|Resizes the height proportionally.|
 |cache_data()|  |
@@ -96,6 +96,4 @@ The VectorImage type exposes the following members:
 |set_palette(palette, update_colors)|Sets the image palette.|
 |get_proportional_width(width, height, new_height)|Gets a proportional width.|
 |get_proportional_height(width, height, new_width)|Gets a proportional height.|
-|is_multipage()|Returns true if image inherits IMultipageImage interface|
-|as_multipage()|Returns itself as IMultipageImage object|
 |get_embedded_images()|Gets the embedded images.|

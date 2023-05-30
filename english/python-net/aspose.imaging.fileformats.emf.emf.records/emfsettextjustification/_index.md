@@ -2,16 +2,16 @@
 title: EmfSetTextJustification Class
 type: docs
 weight: 1290
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfsettextjustification/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsettextjustification/
 ---
 
 The EMR_SETTEXTJUSTIFICATION record specifies the amount of extra space to add to break<br/>            characters for text justification.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetTextJustification
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfSetTextJustification type exposes the following members:
 ## **Constructors**

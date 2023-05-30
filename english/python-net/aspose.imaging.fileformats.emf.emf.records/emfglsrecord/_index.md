@@ -2,16 +2,16 @@
 title: EmfGlsRecord Class
 type: docs
 weight: 540
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfglsrecord/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfglsrecord/
 ---
 
 The EMR_GLSRECORD record specifies an OpenGL function.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfGlsRecord
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfGlsRecord type exposes the following members:
 ## **Constructors**

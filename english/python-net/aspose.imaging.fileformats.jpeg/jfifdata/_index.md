@@ -2,22 +2,22 @@
 title: JFIFData Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.jpeg/jfifdata/
+url: /python-net/aspose.imaging.fileformats.jpeg/jfifdata/
 ---
 
 The jfif segment.
 
-**Namespace:** [aspose.imaging.fileformats.jpeg](/imaging/python-net/api-reference/aspose.imaging.fileformats.jpeg/)
+**Namespace:** [aspose.imaging.fileformats.jpeg](/imaging/python-net/aspose.imaging.fileformats.jpeg/)
 
 **Full Class Name:** aspose.imaging.fileformats.jpeg.JFIFData
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The JFIFData type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|JFIFData()|Initializes a new instance of the [JFIFData](/imaging/python-net/api-reference/aspose.imaging.fileformats.jpeg/jfifdata/) class.|
+|JFIFData()|Initializes a new instance of the [JFIFData](/imaging/python-net/aspose.imaging.fileformats.jpeg/jfifdata/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

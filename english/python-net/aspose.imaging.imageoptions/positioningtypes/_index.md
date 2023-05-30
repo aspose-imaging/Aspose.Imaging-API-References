@@ -2,16 +2,16 @@
 title: PositioningTypes Enumeration
 type: docs
 weight: 400
-url: /python-net/api-reference/aspose.imaging.imageoptions/positioningtypes/
+url: /python-net/aspose.imaging.imageoptions/positioningtypes/
 ---
 
 Positioning and size types for graphics scene.
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Name:** aspose.imaging.imageoptions.PositioningTypes
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

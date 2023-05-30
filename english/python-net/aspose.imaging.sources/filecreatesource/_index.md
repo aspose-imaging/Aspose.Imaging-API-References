@@ -2,16 +2,16 @@
 title: FileCreateSource Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.sources/filecreatesource/
+url: /python-net/aspose.imaging.sources/filecreatesource/
 ---
 
 Represents a file source for creation.
 
-**Namespace:** [aspose.imaging.sources](/imaging/python-net/api-reference/aspose.imaging.sources/)
+**Namespace:** [aspose.imaging.sources](/imaging/python-net/aspose.imaging.sources/)
 
 **Full Class Name:** aspose.imaging.sources.FileCreateSource
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The FileCreateSource type exposes the following members:
 ## **Constructors**

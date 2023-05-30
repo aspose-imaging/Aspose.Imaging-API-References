@@ -1,17 +1,17 @@
 ---
 title: Matrix Class
 type: docs
-weight: 590
-url: /python-net/api-reference/aspose.imaging/matrix/
+weight: 600
+url: /python-net/aspose.imaging/matrix/
 ---
 
 Replaces the GDI+ Matrix.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.Matrix
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The Matrix type exposes the following members:
 ## **Constructors**
@@ -25,7 +25,7 @@ The Matrix type exposes the following members:
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |
-|elements|Gets an array of floating-point values that represents the elements of this [Matrix](/imaging/python-net/api-reference/aspose.imaging/matrix/).|
+|elements|Gets an array of floating-point values that represents the elements of this [Matrix](/imaging/python-net/aspose.imaging/matrix/).|
 |m11|Gets the matrix element at first row first column. Represents scale along X axis.|
 |m12|Gets the matrix element at first row second column. Represents shear along Y axis.|
 |m21|Gets the matrix element at second row first column. Represents shear along X axis.|
@@ -45,8 +45,8 @@ The Matrix type exposes the following members:
 ## **Methods**
 |**Name**|**Description**|
 | :- | :- |
-|scale(scale_x, scale_y, order)|Applies the specified scale vector (scaleX and scaleY) to this [Matrix](/imaging/python-net/api-reference/aspose.imaging/matrix/) using the specified order.|
-|scale(sx, sy)|Applies the specified scale vector (scaleX and scaleY) to this [Matrix](/imaging/python-net/api-reference/aspose.imaging/matrix/) using the specified order.|
+|scale(scale_x, scale_y, order)|Applies the specified scale vector (scaleX and scaleY) to this [Matrix](/imaging/python-net/aspose.imaging/matrix/) using the specified order.|
+|scale(sx, sy)|Applies the specified scale vector (scaleX and scaleY) to this [Matrix](/imaging/python-net/aspose.imaging/matrix/) using the specified order.|
 |translate(offset_x, offset_y, order)|Applies the specified translation vector to this Matrix in the specified order.|
 |translate(tx, ty)|Applies the specified translation vector to this Matrix in the specified order.|
 |multiply(tx, order)|Multiplies this Matrix by the matrix specified in the matrix parameter, and in the order specified in the order parameter.|
@@ -55,8 +55,8 @@ The Matrix type exposes the following members:
 |rotate(angle)|Applies a clockwise rotation of an amount specified in the angle parameter, around the origin (zero x and y coordinates) for this Matrix in the specified order.|
 |rotate_at(angle, point, order)|Applies a clockwise rotation about the specified point to this Matrix in the specified order.|
 |rotate_at(angle, point)|Applies a clockwise rotation about the specified point to this Matrix in the specified order.|
-|create_with_rect_f(rect, plgpts)|Initializes a new instance of the [Matrix](/imaging/python-net/api-reference/aspose.imaging/matrix/) class to the geometric transform defined by the specified rectangle and array of points.|
-|create_with_rect(rect, plgpts)|Initializes a new instance of the [Matrix](/imaging/python-net/api-reference/aspose.imaging/matrix/) class to the geometric transform defined by the specified rectangle and array of points.|
+|create_with_rect_f(rect, plgpts)|Initializes a new instance of the [Matrix](/imaging/python-net/aspose.imaging/matrix/) class to the geometric transform defined by the specified rectangle and array of points.|
+|create_with_rect(rect, plgpts)|Initializes a new instance of the [Matrix](/imaging/python-net/aspose.imaging/matrix/) class to the geometric transform defined by the specified rectangle and array of points.|
 |get_elements()|Gets the copy of matrix elements.|
-|transform_points(points)|Applies the geometric transform represented by this [Matrix](/imaging/python-net/api-reference/aspose.imaging/matrix/) to a specified array of points.|
+|transform_points(points)|Applies the geometric transform represented by this [Matrix](/imaging/python-net/aspose.imaging/matrix/) to a specified array of points.|
 |reset()|Resets this Matrix to have the elements of the identity matrix.|

@@ -2,16 +2,16 @@
 title: EpsPreviewFormat Enumeration
 type: docs
 weight: 60
-url: /python-net/api-reference/aspose.imaging.fileformats.eps/epspreviewformat/
+url: /python-net/aspose.imaging.fileformats.eps/epspreviewformat/
 ---
 
 EPS preview format
 
-**Namespace:** [aspose.imaging.fileformats.eps](/imaging/python-net/api-reference/aspose.imaging.fileformats.eps/)
+**Namespace:** [aspose.imaging.fileformats.eps](/imaging/python-net/aspose.imaging.fileformats.eps/)
 
 **Full Name:** aspose.imaging.fileformats.eps.EpsPreviewFormat
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

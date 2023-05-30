@@ -1,8 +1,8 @@
 ---
 title: aspose.imaging.xmp.schemas.xmpmm
 type: docs
-weight: 990
-url: /python-net/api-reference/aspose.imaging.xmp.schemas.xmpmm/
+weight: 1010
+url: /python-net/aspose.imaging.xmp.schemas.xmpmm/
 ---
 
 
@@ -11,4 +11,4 @@ The namespace contains related helper classes, constants and methods that is pri
 ## **Classes**
 |**Class**|**Description**|
 | :- | :- |
-|[XmpMediaManagementPackage](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/)|Represents XMP Media Management namespace.|
+|[XmpMediaManagementPackage](/imaging/python-net/aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/)|Represents XMP Media Management namespace.|

@@ -2,22 +2,22 @@
 title: WmfPaintRegion Class
 type: docs
 weight: 420
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfpaintregion/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfpaintregion/
 ---
 
 The META_PAINTREGION record paints the specified region by using the<br/>                brush that is defined in the playback device context.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfPaintRegion
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfPaintRegion type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|WmfPaintRegion()|Initializes a new instance of the [WmfSelectClipRegion](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfselectclipregion/) class.|
+|WmfPaintRegion()|Initializes a new instance of the [WmfSelectClipRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfselectclipregion/) class.|
 |WmfPaintRegion(region)|Initializes a new instance of the WmfPaintRegion class|
 ## **Properties**
 |**Name**|**Description**|

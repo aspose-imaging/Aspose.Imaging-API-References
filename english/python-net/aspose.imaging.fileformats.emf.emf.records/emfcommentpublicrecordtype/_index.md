@@ -2,16 +2,16 @@
 title: EmfCommentPublicRecordType Class
 type: docs
 weight: 210
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfcommentpublicrecordtype/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentpublicrecordtype/
 ---
 
 The EMR_COMMENT_PUBLIC record types specify extensions to EMF processing.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfCommentPublicRecordType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfCommentPublicRecordType type exposes the following members:
 ## **Properties**

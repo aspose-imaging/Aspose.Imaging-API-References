@@ -2,22 +2,22 @@
 title: GifApplicationExtensionBlock Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/
+url: /python-net/aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/
 ---
 
 Gif application extension block.
 
-**Namespace:** [aspose.imaging.fileformats.gif.blocks](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif.blocks/)
+**Namespace:** [aspose.imaging.fileformats.gif.blocks](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/)
 
 **Full Class Name:** aspose.imaging.fileformats.gif.blocks.GifApplicationExtensionBlock
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The GifApplicationExtensionBlock type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|GifApplicationExtensionBlock()|Initializes a new instance of the [GifApplicationExtensionBlock](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/) class.|
+|GifApplicationExtensionBlock()|Initializes a new instance of the [GifApplicationExtensionBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/) class.|
 |GifApplicationExtensionBlock(application_identifier, application_authentication_code, application_data)|Initializes a new instance of the GifApplicationExtensionBlock class|
 ## **Properties**
 |**Name**|**Description**|

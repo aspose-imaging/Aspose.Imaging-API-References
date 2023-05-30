@@ -2,16 +2,16 @@
 title: EmfPlusSetPageTransform Class
 type: docs
 weight: 520
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplussetpagetransform/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetpagetransform/
 ---
 
 The EmfPlusSetPageTransform record specifies scaling factors and units for converting page space<br/>            coordinates to device space coordinates.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSetPageTransform
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusSetPageTransform type exposes the following members:
 ## **Constructors**

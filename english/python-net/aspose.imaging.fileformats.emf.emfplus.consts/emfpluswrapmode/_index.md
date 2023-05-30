@@ -2,16 +2,16 @@
 title: EmfPlusWrapMode Enumeration
 type: docs
 weight: 450
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfpluswrapmode/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluswrapmode/
 ---
 
 The WrapMode enumeration defines how the pattern from a texture or gradient brush is tiled across a shape or at shape boundaries, when it is smaller than the area being filled.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusWrapMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

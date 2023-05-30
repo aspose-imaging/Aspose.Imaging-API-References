@@ -2,16 +2,16 @@
 title: OdCurveTo Class
 type: docs
 weight: 70
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/odcurveto/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odcurveto/
 ---
 
 The Enhanced CurveTo
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdCurveTo
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdCurveTo type exposes the following members:
 ## **Constructors**

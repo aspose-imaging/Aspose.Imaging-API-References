@@ -2,16 +2,16 @@
 title: EmfPlusBoundaryPointData Class
 type: docs
 weight: 130
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundarypointdata/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundarypointdata/
 ---
 
 The EmfPlusBoundaryPointData object specifies a closed cardinal spline boundary for a gradient brush
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBoundaryPointData
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusBoundaryPointData type exposes the following members:
 ## **Constructors**

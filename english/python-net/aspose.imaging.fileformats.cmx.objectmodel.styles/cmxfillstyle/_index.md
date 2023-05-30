@@ -2,16 +2,16 @@
 title: CmxFillStyle Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxfillstyle/
+url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxfillstyle/
 ---
 
 Fill style for shapes.
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.styles](/imaging/python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.styles/)
+**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.styles](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/)
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.styles.CmxFillStyle
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CmxFillStyle type exposes the following members:
 ## **Constructors**

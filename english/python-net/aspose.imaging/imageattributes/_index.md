@@ -1,23 +1,23 @@
 ---
 title: ImageAttributes Class
 type: docs
-weight: 500
-url: /python-net/api-reference/aspose.imaging/imageattributes/
+weight: 510
+url: /python-net/aspose.imaging/imageattributes/
 ---
 
-An [ImageAttributes](/imaging/python-net/api-reference/aspose.imaging/imageattributes/) object contains information about how bitmap and metafile colors are manipulated during rendering. An [ImageAttributes](/imaging/python-net/api-reference/aspose.imaging/imageattributes/) object maintains several color-adjustment settings, including color-adjustment matrices, grayscale-adjustment matrices, gamma-correction values, color-map tables, and color-threshold values. During rendering, colors can be corrected, darkened, lightened, and removed. To apply such manipulations, initialize an [ImageAttributes](/imaging/python-net/api-reference/aspose.imaging/imageattributes/) object and pass the path of that [ImageAttributes](/imaging/python-net/api-reference/aspose.imaging/imageattributes/) object (along with the path of an [Image](/imaging/python-net/api-reference/aspose.imaging/image/)) to the DrawImage method.
+An [ImageAttributes](/imaging/python-net/aspose.imaging/imageattributes/) object contains information about how bitmap and metafile colors are manipulated during rendering. An [ImageAttributes](/imaging/python-net/aspose.imaging/imageattributes/) object maintains several color-adjustment settings, including color-adjustment matrices, grayscale-adjustment matrices, gamma-correction values, color-map tables, and color-threshold values. During rendering, colors can be corrected, darkened, lightened, and removed. To apply such manipulations, initialize an [ImageAttributes](/imaging/python-net/aspose.imaging/imageattributes/) object and pass the path of that [ImageAttributes](/imaging/python-net/aspose.imaging/imageattributes/) object (along with the path of an [Image](/imaging/python-net/aspose.imaging/image/)) to the DrawImage method.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.ImageAttributes
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The ImageAttributes type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|ImageAttributes()|Initializes a new instance of the [ImageAttributes](/imaging/python-net/api-reference/aspose.imaging/imageattributes/) class.|
+|ImageAttributes()|Initializes a new instance of the [ImageAttributes](/imaging/python-net/aspose.imaging/imageattributes/) class.|
 ## **Methods**
 |**Name**|**Description**|
 | :- | :- |
@@ -61,4 +61,4 @@ The ImageAttributes type exposes the following members:
 |set_wrap_mode(mode, color)|Sets the wrap mode and color used to decide how to tile a texture across a shape, or at shape boundaries. A texture is tiled across a shape to fill it in when the texture is smaller than the shape it is filling.|
 |set_wrap_mode(mode, color, clamp)|Sets the wrap mode and color used to decide how to tile a texture across a shape, or at shape boundaries. A texture is tiled across a shape to fill it in when the texture is smaller than the shape it is filling.|
 |set_brush_remap_table(map)|Sets the color-remap table for the brush category.|
-|clear_brush_remap_table()|Clears the brush color-remap table of this [ImageAttributes](/imaging/python-net/api-reference/aspose.imaging/imageattributes/) object.|
+|clear_brush_remap_table()|Clears the brush color-remap table of this [ImageAttributes](/imaging/python-net/aspose.imaging/imageattributes/) object.|

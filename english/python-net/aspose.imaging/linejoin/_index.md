@@ -1,17 +1,17 @@
 ---
 title: LineJoin Enumeration
 type: docs
-weight: 9090
-url: /python-net/api-reference/aspose.imaging/linejoin/
+weight: 9180
+url: /python-net/aspose.imaging/linejoin/
 ---
 
-Specifies how to join consecutive line or curve segments in a figure (subpath) contained in a [GraphicsPath](/imaging/python-net/api-reference/aspose.imaging/graphicspath/) object.
+Specifies how to join consecutive line or curve segments in a figure (subpath) contained in a [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) object.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Name:** aspose.imaging.LineJoin
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

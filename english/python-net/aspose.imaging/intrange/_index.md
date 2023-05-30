@@ -1,17 +1,17 @@
 ---
 title: IntRange Class
 type: docs
-weight: 560
-url: /python-net/api-reference/aspose.imaging/intrange/
+weight: 570
+url: /python-net/aspose.imaging/intrange/
 ---
 
 Class for representing sequence of elements
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.IntRange
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IntRange type exposes the following members:
 ## **Constructors**

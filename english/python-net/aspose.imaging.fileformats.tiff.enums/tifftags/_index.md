@@ -2,16 +2,16 @@
 title: TiffTags Enumeration
 type: docs
 weight: 160
-url: /python-net/api-reference/aspose.imaging.fileformats.tiff.enums/tifftags/
+url: /python-net/aspose.imaging.fileformats.tiff.enums/tifftags/
 ---
 
 The tiff tag enum.
 
-**Namespace:** [aspose.imaging.fileformats.tiff.enums](/imaging/python-net/api-reference/aspose.imaging.fileformats.tiff.enums/)
+**Namespace:** [aspose.imaging.fileformats.tiff.enums](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/)
 
 **Full Name:** aspose.imaging.fileformats.tiff.enums.TiffTags
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|
@@ -107,8 +107,8 @@ The tiff tag enum.
 |PHOTOSHOP_RESOURCES|Photoshop image resources.|
 |ICC_PROFILE|The embedded ICC device profile|
 |EXIF_IFD_POINTER|A pointer to the Exif IFD.|
-|XP_TITLE|Information about image, used by Windows Explorer.<br/>            The [XP_TITLE](/imaging/python-net/api-reference/aspose.imaging.fileformats.tiff.enums/tifftags/) is ignored by Windows Explorer if the [IMAGE_DESCRIPTION](/imaging/python-net/api-reference/aspose.imaging.fileformats.tiff.enums/tifftags/) tag exists.|
+|XP_TITLE|Information about image, used by Windows Explorer.<br/>            The [XP_TITLE](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tifftags/) is ignored by Windows Explorer if the [IMAGE_DESCRIPTION](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tifftags/) tag exists.|
 |XP_COMMENT|Comment on image, used by Windows Explorer.|
-|XP_AUTHOR|Image Author, used by Windows Explorer.<br/>            The [XP_AUTHOR](/imaging/python-net/api-reference/aspose.imaging.fileformats.tiff.enums/tifftags/) is ignored by Windows Explorer if the [ARTIST](/imaging/python-net/api-reference/aspose.imaging.fileformats.tiff.enums/tifftags/) tag exists.|
+|XP_AUTHOR|Image Author, used by Windows Explorer.<br/>            The [XP_AUTHOR](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tifftags/) is ignored by Windows Explorer if the [ARTIST](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tifftags/) tag exists.|
 |XP_KEYWORDS|Image Keywords, used by Windows Explorer.|
 |XP_SUBJECT|Subject image, used by Windows Explorer.|

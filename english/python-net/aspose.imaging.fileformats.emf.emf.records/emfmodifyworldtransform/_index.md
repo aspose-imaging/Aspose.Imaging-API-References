@@ -2,23 +2,23 @@
 title: EmfModifyWorldTransform Class
 type: docs
 weight: 630
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfmodifyworldtransform/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfmodifyworldtransform/
 ---
 
 The EMR_MODIFYWORLDTRANSFORM record modifies the current world-space to page-space<br/>            transform in the playback device context.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfModifyWorldTransform
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfModifyWorldTransform type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfModifyWorldTransform(source)|Initializes a new instance of the EmfModifyWorldTransform class|
-|EmfModifyWorldTransform()|Initializes a new instance of the [EmfModifyWorldTransform](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfmodifyworldtransform/) class.|
+|EmfModifyWorldTransform()|Initializes a new instance of the [EmfModifyWorldTransform](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfmodifyworldtransform/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

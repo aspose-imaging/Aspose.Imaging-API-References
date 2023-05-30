@@ -2,16 +2,16 @@
 title: CmxTextBlockSpec Class
 type: docs
 weight: 80
-url: /python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxtextblockspec/
+url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxtextblockspec/
 ---
 
 Represents info specified for text blocks.
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.specs](/imaging/python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.specs/)
+**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.specs](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/)
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.specs.CmxTextBlockSpec
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CmxTextBlockSpec type exposes the following members:
 ## **Constructors**

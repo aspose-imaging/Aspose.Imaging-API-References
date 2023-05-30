@@ -2,16 +2,16 @@
 title: CdrDisp Class
 type: docs
 weight: 70
-url: /python-net/api-reference/aspose.imaging.fileformats.cdr.objects/cdrdisp/
+url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrdisp/
 ---
 
 The cdr Disp
 
-**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.objects/)
+**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrDisp
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CdrDisp type exposes the following members:
 ## **Constructors**
@@ -27,7 +27,7 @@ The CdrDisp type exposes the following members:
 |childs|Gets or sets the objects.|
 |load_to_last_child|Gets or sets a value indicating whether [load to last child].|
 |last_child|Gets or sets the last child.|
-|hidden|Gets or sets a value indicating whether this [CdrObjectContainer](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) is visible.|
+|hidden|Gets or sets a value indicating whether this [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) is visible.|
 ## **Methods**
 |**Name**|**Description**|
 | :- | :- |

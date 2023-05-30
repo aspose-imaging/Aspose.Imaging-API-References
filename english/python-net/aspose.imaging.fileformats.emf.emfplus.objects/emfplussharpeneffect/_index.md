@@ -2,16 +2,16 @@
 title: EmfPlusSharpenEffect Class
 type: docs
 weight: 630
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfplussharpeneffect/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplussharpeneffect/
 ---
 
 The SharpenEffect object specifies an increase in the difference in intensity between pixels in an image.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusSharpenEffect
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusSharpenEffect type exposes the following members:
 ## **Constructors**

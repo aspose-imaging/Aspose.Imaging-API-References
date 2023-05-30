@@ -2,16 +2,16 @@
 title: DicomImageInfo Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.fileformats.dicom/dicomimageinfo/
+url: /python-net/aspose.imaging.fileformats.dicom/dicomimageinfo/
 ---
 
 Contains all meta-information from Dicom file header
 
-**Namespace:** [aspose.imaging.fileformats.dicom](/imaging/python-net/api-reference/aspose.imaging.fileformats.dicom/)
+**Namespace:** [aspose.imaging.fileformats.dicom](/imaging/python-net/aspose.imaging.fileformats.dicom/)
 
 **Full Class Name:** aspose.imaging.fileformats.dicom.DicomImageInfo
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The DicomImageInfo type exposes the following members:
 ## **Properties**

@@ -2,16 +2,16 @@
 title: OdGraphicObject Class
 type: docs
 weight: 140
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/
 ---
 
 The open document graphic object.
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdGraphicObject type exposes the following members:
 ## **Constructors**

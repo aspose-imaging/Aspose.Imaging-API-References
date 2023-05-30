@@ -1,17 +1,17 @@
 ---
 title: FontStyle Enumeration
 type: docs
-weight: 9010
-url: /python-net/api-reference/aspose.imaging/fontstyle/
+weight: 9100
+url: /python-net/aspose.imaging/fontstyle/
 ---
 
 Specifies style information applied to text.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Name:** aspose.imaging.FontStyle
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

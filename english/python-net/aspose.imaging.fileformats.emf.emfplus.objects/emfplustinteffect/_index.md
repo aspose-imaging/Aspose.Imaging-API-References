@@ -2,16 +2,16 @@
 title: EmfPlusTintEffect Class
 type: docs
 weight: 700
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfplustinteffect/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplustinteffect/
 ---
 
 The TintEffect object specifies an addition of black or white to a specified hue in an image.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusTintEffect
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusTintEffect type exposes the following members:
 ## **Constructors**

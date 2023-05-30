@@ -2,16 +2,16 @@
 title: EmfPlusPenAlignment Enumeration
 type: docs
 weight: 320
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspenalignment/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspenalignment/
 ---
 
 The PenAlignment enumeration defines the distribution of the width of the pen with respect to the line being drawn.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusPenAlignment
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

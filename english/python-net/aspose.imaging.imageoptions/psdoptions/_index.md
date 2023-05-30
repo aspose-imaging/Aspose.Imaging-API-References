@@ -1,23 +1,23 @@
 ---
 title: PsdOptions Class
 type: docs
-weight: 240
-url: /python-net/api-reference/aspose.imaging.imageoptions/psdoptions/
+weight: 250
+url: /python-net/aspose.imaging.imageoptions/psdoptions/
 ---
 
 The psd file format create options.
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.PsdOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The PsdOptions type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|PsdOptions()|Initializes a new instance of the [PsdOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/psdoptions/) class.|
+|PsdOptions()|Initializes a new instance of the [PsdOptions](/imaging/python-net/aspose.imaging.imageoptions/psdoptions/) class.|
 |PsdOptions(options)|Initializes a new instance of the PsdOptions class|
 ## **Properties**
 |**Name**|**Description**|

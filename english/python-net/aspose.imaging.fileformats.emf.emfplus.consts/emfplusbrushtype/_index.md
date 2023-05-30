@@ -2,16 +2,16 @@
 title: EmfPlusBrushType Enumeration
 type: docs
 weight: 40
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushtype/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushtype/
 ---
 
 The BrushType enumeration defines types of graphics brushes, which are used to fill graphics regions.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusBrushType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

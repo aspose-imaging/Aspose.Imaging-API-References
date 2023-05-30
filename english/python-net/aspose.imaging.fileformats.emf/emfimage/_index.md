@@ -2,22 +2,22 @@
 title: EmfImage Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.emf/emfimage/
+url: /python-net/aspose.imaging.fileformats.emf/emfimage/
 ---
 
 EMF file format image.
 
-**Namespace:** [aspose.imaging.fileformats.emf](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf/)
+**Namespace:** [aspose.imaging.fileformats.emf](/imaging/python-net/aspose.imaging.fileformats.emf/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.EmfImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfImage type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|EmfImage()|Initializes a new instance of the [EmfImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf/emfimage/) class.|
+|EmfImage()|Initializes a new instance of the [EmfImage](/imaging/python-net/aspose.imaging.fileformats.emf/emfimage/) class.|
 |EmfImage(width, height)|Initializes a new instance of the EmfImage class|
 ## **Properties**
 |**Name**|**Description**|
@@ -81,7 +81,7 @@ The EmfImage type exposes the following members:
 |resize_height_proportionally(new_height, settings)|  |
 |crop(rectangle)|Crops the specified rectangle.|
 |crop(left_shift, right_shift, top_shift, bottom_shift)|Crops the specified rectangle.|
-|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying [data_stream_container](/imaging/python-net/api-reference/aspose.imaging/datastreamsupporter/).|
+|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying [data_stream_container](/imaging/python-net/aspose.imaging/datastreamsupporter/).|
 |save_to_stream(stream)|  |
 |can_load_with_options(file_path, load_options)|  |
 |can_load_stream(stream)|  |
@@ -105,8 +105,6 @@ The EmfImage type exposes the following members:
 |set_palette(palette, update_colors)|Sets the image palette.|
 |get_proportional_width(width, height, new_height)|  |
 |get_proportional_height(width, height, new_width)|  |
-|is_multipage()|  |
-|as_multipage()|  |
 |get_embedded_images()|  |
 |get_used_fonts()|Returns the list of font which used inside metafile.|
 |get_missed_fonts()|Returns the list of fonts which used inside metafile but not found.|

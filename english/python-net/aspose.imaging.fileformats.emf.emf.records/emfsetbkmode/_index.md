@@ -2,23 +2,23 @@
 title: EmfSetBkMode Class
 type: docs
 weight: 1080
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfsetbkmode/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetbkmode/
 ---
 
 The EMR_SETBKMODE record specifies the background mix mode of the playback device context.<br/>            The background mix mode is used with text, hatched brushes, and pen styles that are not solid lines.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetBkMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfSetBkMode type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfSetBkMode(source)|Initializes a new instance of the EmfSetBkMode class|
-|EmfSetBkMode()|Initializes a new instance of the [EmfSetBkMode](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfsetbkmode/) class.|
+|EmfSetBkMode()|Initializes a new instance of the [EmfSetBkMode](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetbkmode/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

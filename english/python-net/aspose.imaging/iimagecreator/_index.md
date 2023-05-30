@@ -2,16 +2,16 @@
 title: IImageCreator Class
 type: docs
 weight: 290
-url: /python-net/api-reference/aspose.imaging/iimagecreator/
+url: /python-net/aspose.imaging/iimagecreator/
 ---
 
 The image creator.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.IImageCreator
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IImageCreator type exposes the following members:
 ## **Methods**

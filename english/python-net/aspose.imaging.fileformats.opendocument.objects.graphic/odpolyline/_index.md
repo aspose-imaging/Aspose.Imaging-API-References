@@ -2,16 +2,16 @@
 title: OdPolyLine Class
 type: docs
 weight: 270
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/odpolyline/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odpolyline/
 ---
 
 The polyline
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdPolyLine
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdPolyLine type exposes the following members:
 ## **Constructors**

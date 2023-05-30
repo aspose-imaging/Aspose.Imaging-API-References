@@ -2,22 +2,22 @@
 title: PieShape Class
 type: docs
 weight: 50
-url: /python-net/api-reference/aspose.imaging.shapes/pieshape/
+url: /python-net/aspose.imaging.shapes/pieshape/
 ---
 
 Represents a pie shape.
 
-**Namespace:** [aspose.imaging.shapes](/imaging/python-net/api-reference/aspose.imaging.shapes/)
+**Namespace:** [aspose.imaging.shapes](/imaging/python-net/aspose.imaging.shapes/)
 
 **Full Class Name:** aspose.imaging.shapes.PieShape
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The PieShape type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|PieShape()|Initializes a new instance of the [PieShape](/imaging/python-net/api-reference/aspose.imaging.shapes/pieshape/) class.|
+|PieShape()|Initializes a new instance of the [PieShape](/imaging/python-net/aspose.imaging.shapes/pieshape/) class.|
 |PieShape(rectangle, start_angle, sweep_angle)|Initializes a new instance of the PieShape class|
 ## **Properties**
 |**Name**|**Description**|

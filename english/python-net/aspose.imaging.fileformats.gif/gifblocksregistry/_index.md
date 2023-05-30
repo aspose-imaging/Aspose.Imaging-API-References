@@ -2,16 +2,16 @@
 title: GifBlocksRegistry Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.gif/gifblocksregistry/
+url: /python-net/aspose.imaging.fileformats.gif/gifblocksregistry/
 ---
 
 Represents the gif blocks openers registry.
 
-**Namespace:** [aspose.imaging.fileformats.gif](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif/)
+**Namespace:** [aspose.imaging.fileformats.gif](/imaging/python-net/aspose.imaging.fileformats.gif/)
 
 **Full Class Name:** aspose.imaging.fileformats.gif.GifBlocksRegistry
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The GifBlocksRegistry type exposes the following members:
 ## **Properties**

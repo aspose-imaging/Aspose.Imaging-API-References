@@ -1,23 +1,23 @@
 ---
 title: CdrRasterizationOptions Class
 type: docs
-weight: 30
-url: /python-net/api-reference/aspose.imaging.imageoptions/cdrrasterizationoptions/
+weight: 40
+url: /python-net/aspose.imaging.imageoptions/cdrrasterizationoptions/
 ---
 
 The Cdr rasterization options
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.CdrRasterizationOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CdrRasterizationOptions type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|CdrRasterizationOptions()|Initializes a new instance of the [CdrRasterizationOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/cdrrasterizationoptions/) class.|
+|CdrRasterizationOptions()|Initializes a new instance of the [CdrRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/cdrrasterizationoptions/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

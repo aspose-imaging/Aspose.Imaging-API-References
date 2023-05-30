@@ -2,16 +2,16 @@
 title: VectorPathType Enumeration
 type: docs
 weight: 100
-url: /python-net/api-reference/aspose.imaging.fileformats.core.vectorpaths/vectorpathtype/
+url: /python-net/aspose.imaging.fileformats.core.vectorpaths/vectorpathtype/
 ---
 
 Vector Path Type according to PSD Format Specification
 
-**Namespace:** [aspose.imaging.fileformats.core.vectorpaths](/imaging/python-net/api-reference/aspose.imaging.fileformats.core.vectorpaths/)
+**Namespace:** [aspose.imaging.fileformats.core.vectorpaths](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/)
 
 **Full Name:** aspose.imaging.fileformats.core.vectorpaths.VectorPathType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

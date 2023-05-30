@@ -1,17 +1,17 @@
 ---
 title: License Class
 type: docs
-weight: 570
-url: /python-net/api-reference/aspose.imaging/license/
+weight: 580
+url: /python-net/aspose.imaging/license/
 ---
 
 Provides methods to license the component.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.License
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The License type exposes the following members:
 ## **Constructors**

@@ -2,16 +2,16 @@
 title: EmfIcmMode Enumeration
 type: docs
 weight: 170
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/emficmmode/
+url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emficmmode/
 ---
 
 The ICMMode enumeration defines values that specify when to turn on and off ICM.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfIcmMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

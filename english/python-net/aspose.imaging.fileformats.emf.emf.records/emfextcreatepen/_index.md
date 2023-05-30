@@ -2,23 +2,23 @@
 title: EmfExtCreatePen Class
 type: docs
 weight: 420
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/
 ---
 
 The EMR_EXTCREATEPEN record defines an extended logical pen for graphics operations. An<br/>            optional DIB can be specified to use as the line style.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfExtCreatePen
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfExtCreatePen type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfExtCreatePen(record)|Initializes a new instance of the EmfExtCreatePen class|
-|EmfExtCreatePen()|Initializes a new instance of the [EmfExtCreatePen](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/) class.|
+|EmfExtCreatePen()|Initializes a new instance of the [EmfExtCreatePen](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

@@ -2,16 +2,16 @@
 title: ExifSceneCaptureType Enumeration
 type: docs
 weight: 140
-url: /python-net/api-reference/aspose.imaging.exif.enums/exifscenecapturetype/
+url: /python-net/aspose.imaging.exif.enums/exifscenecapturetype/
 ---
 
 exif scene capture type enum.
 
-**Namespace:** [aspose.imaging.exif.enums](/imaging/python-net/api-reference/aspose.imaging.exif.enums/)
+**Namespace:** [aspose.imaging.exif.enums](/imaging/python-net/aspose.imaging.exif.enums/)
 
 **Full Name:** aspose.imaging.exif.enums.ExifSceneCaptureType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

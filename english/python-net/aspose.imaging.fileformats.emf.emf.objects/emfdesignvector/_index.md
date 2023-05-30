@@ -2,16 +2,16 @@
 title: EmfDesignVector Class
 type: docs
 weight: 40
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/
+url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfdesignvector/
 ---
 
 The DesignVector (section 2.2.3) object defines the design vector, which specifies values for the font axes of a multiple master font.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfDesignVector
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfDesignVector type exposes the following members:
 ## **Constructors**

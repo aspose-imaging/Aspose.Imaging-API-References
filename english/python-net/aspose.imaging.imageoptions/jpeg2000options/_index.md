@@ -1,23 +1,23 @@
 ---
 title: Jpeg2000Options Class
 type: docs
-weight: 140
-url: /python-net/api-reference/aspose.imaging.imageoptions/jpeg2000options/
+weight: 150
+url: /python-net/aspose.imaging.imageoptions/jpeg2000options/
 ---
 
 The Jpeg2000 file format options.
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.Jpeg2000Options
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The Jpeg2000Options type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|Jpeg2000Options()|Initializes a new instance of the [Jpeg2000Options](/imaging/python-net/api-reference/aspose.imaging.imageoptions/jpeg2000options/) class.|
+|Jpeg2000Options()|Initializes a new instance of the [Jpeg2000Options](/imaging/python-net/aspose.imaging.imageoptions/jpeg2000options/) class.|
 |Jpeg2000Options(jpeg_2000_options)|Initializes a new instance of the Jpeg2000Options class|
 ## **Properties**
 |**Name**|**Description**|

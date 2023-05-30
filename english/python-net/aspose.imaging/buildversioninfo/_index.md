@@ -2,16 +2,16 @@
 title: BuildVersionInfo Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging/buildversioninfo/
+url: /python-net/aspose.imaging/buildversioninfo/
 ---
 
 Contains the current build version information.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.BuildVersionInfo
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The BuildVersionInfo type exposes the following members:
 ## **Properties**

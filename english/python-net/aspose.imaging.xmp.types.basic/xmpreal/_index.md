@@ -2,16 +2,16 @@
 title: XmpReal Class
 type: docs
 weight: 40
-url: /python-net/api-reference/aspose.imaging.xmp.types.basic/xmpreal/
+url: /python-net/aspose.imaging.xmp.types.basic/xmpreal/
 ---
 
 Represents XMP Real.
 
-**Namespace:** [aspose.imaging.xmp.types.basic](/imaging/python-net/api-reference/aspose.imaging.xmp.types.basic/)
+**Namespace:** [aspose.imaging.xmp.types.basic](/imaging/python-net/aspose.imaging.xmp.types.basic/)
 
 **Full Class Name:** aspose.imaging.xmp.types.basic.XmpReal
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The XmpReal type exposes the following members:
 ## **Constructors**

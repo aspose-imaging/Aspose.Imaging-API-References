@@ -2,16 +2,16 @@
 title: EmfColorMatchToTargetW Class
 type: docs
 weight: 140
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcolormatchtotargetw/
 ---
 
 The EMR_COLORMATCHTOTargetW record specifies whether to perform color matching with a color<br/>            profile that is specified in a file with a name consisting of Unicode characters.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfColorMatchToTargetW
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfColorMatchToTargetW type exposes the following members:
 ## **Constructors**

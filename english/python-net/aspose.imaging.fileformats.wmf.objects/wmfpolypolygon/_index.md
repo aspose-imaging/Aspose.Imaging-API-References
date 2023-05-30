@@ -2,16 +2,16 @@
 title: WmfPolyPolygon Class
 type: docs
 weight: 480
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfpolypolygon/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfpolypolygon/
 ---
 
 The PolyPolygon Object defines a series of closed polygons.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfPolyPolygon
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfPolyPolygon type exposes the following members:
 ## **Constructors**

@@ -2,16 +2,16 @@
 title: EmfBitFix28To4 Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/
+url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/
 ---
 
 The BitFIX28_4 object defines a numeric value in 28.4 bit FIX notation.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfBitFix28To4
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfBitFix28To4 type exposes the following members:
 ## **Constructors**

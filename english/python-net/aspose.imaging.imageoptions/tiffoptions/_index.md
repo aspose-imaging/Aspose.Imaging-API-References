@@ -1,17 +1,17 @@
 ---
 title: TiffOptions Class
 type: docs
-weight: 310
-url: /python-net/api-reference/aspose.imaging.imageoptions/tiffoptions/
+weight: 320
+url: /python-net/aspose.imaging.imageoptions/tiffoptions/
 ---
 
 The tiff file format options.<br/>                Note that width and height tags will get overwritten on image creation by width and height parameters so there is no need to specify them directly.<br/>                Note that many options return a default value but that does not mean that this option is set explicitly as a tag value. To verify the tag is present use Tags property or the corresponding IsTagPresent method.
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.TiffOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The TiffOptions type exposes the following members:
 ## **Constructors**
@@ -36,7 +36,7 @@ The TiffOptions type exposes the following members:
 |file_standard|Gets or sets the TIFF file standard.|
 |default_memory_allocation_limit|Gets or sets the default memory allocation limit.|
 |premultiply_components|Gets or sets a value indicating whether components must be premultiplied.|
-|is_valid|Gets a value indicating whether the [TiffOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/tiffoptions/) have been properly configured. Use Validate method as to find the failure reason.|
+|is_valid|Gets a value indicating whether the [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) have been properly configured. Use Validate method as to find the failure reason.|
 |y_cb_cr_subsampling|Gets or sets the subsampling factors for YCbCr photometric.|
 |y_cb_cr_coefficients|Gets or sets the YCbCrCoefficients.|
 |is_tiled|Gets a value indicating whether image is tiled.|
@@ -51,7 +51,7 @@ The TiffOptions type exposes the following members:
 |color_map|Gets or sets the color map.|
 |date_time|Gets or sets the date and time.|
 |document_name|Gets or sets the name of the document.|
-|alpha_storage|Gets or sets the alpha storage option. Options other than [UNSPECIFIED](/imaging/python-net/api-reference/aspose.imaging.fileformats.tiff.enums/tiffalphastorage/)<br/>            are used when there are more than 3 [samples_per_pixel](/imaging/python-net/api-reference/aspose.imaging.imageoptions/tiffoptions/) defined.|
+|alpha_storage|Gets or sets the alpha storage option. Options other than [UNSPECIFIED](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffalphastorage/)<br/>            are used when there are more than 3 [samples_per_pixel](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) defined.|
 |is_extra_samples_present|Gets a value indicating whether the extra samples is present.|
 |fill_order|Gets or sets the byte bits fill order.|
 |half_tone_hints|Gets or sets the halftone hints.|
@@ -71,7 +71,7 @@ The TiffOptions type exposes the following members:
 |tile_width|Gets ot sets tile width.|
 |tile_length|Gets ot sets tile length.|
 |sample_format|Gets or sets the sample format.|
-|samples_per_pixel|Gets the samples per pixel. To change this property value use the [bits_per_sample](/imaging/python-net/api-reference/aspose.imaging.imageoptions/tiffoptions/) property setter.|
+|samples_per_pixel|Gets the samples per pixel. To change this property value use the [bits_per_sample](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) property setter.|
 |smax_sample_value|Gets or sets the max sample value. The value has a field type which best matches the sample data (Byte, Short or Long type).|
 |smin_sample_value|Gets or sets the min sample value. The value has a field type which best matches the sample data (Byte, Short or Long type).|
 |software_type|Gets or sets the software type.|
@@ -104,12 +104,13 @@ The TiffOptions type exposes the following members:
 |**Name**|**Description**|
 | :- | :- |
 |clone()|Clones this instance.|
-|create_with_format(expected_format)|Initializes a new instance of the [TiffOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/tiffoptions/) class. By default little endian convention is used.|
-|create_with_options(options)|Initializes a new instance of the [TiffOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/tiffoptions/) class.|
-|create_with_tags(tags)|Initializes a new instance of the [TiffOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/tiffoptions/) class.|
+|create_with_format(expected_format)|Initializes a new instance of the [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) class. By default little endian convention is used.|
+|create_with_options(options)|Initializes a new instance of the [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) class.|
+|create_with_tags(tags)|Initializes a new instance of the [TiffOptions](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) class.|
 |is_tag_present(tag)|Determines whether tag is present in the options or not.|
 |get_valid_tags_count(tags)|Gets the valid tags count.|
 |remove_tag(tag)|Removes the tag.|
+|remove_tags(tags)|Removes the tags.|
 |validate()|Validates if options have valid combination of tags|
 |add_tags(tags_to_add)|Adds the tags.|
 |add_tag(tag_to_add)|Adds the tags.|

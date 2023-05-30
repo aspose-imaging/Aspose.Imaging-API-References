@@ -2,16 +2,16 @@
 title: WebPImage Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.fileformats.webp/webpimage/
+url: /python-net/aspose.imaging.fileformats.webp/webpimage/
 ---
 
 A webp image.
 
-**Namespace:** [aspose.imaging.fileformats.webp](/imaging/python-net/api-reference/aspose.imaging.fileformats.webp/)
+**Namespace:** [aspose.imaging.fileformats.webp](/imaging/python-net/aspose.imaging.fileformats.webp/)
 
 **Full Class Name:** aspose.imaging.fileformats.webp.WebPImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WebPImage type exposes the following members:
 ## **Constructors**
@@ -64,7 +64,6 @@ The WebPImage type exposes the following members:
 |image_opacity|Gets opacity of this image.|
 |page_count|Gets the page count.|
 |pages|Gets the pages.|
-|default_page|Gets the default page.|
 |options|Gets or sets the options.|
 ## **Methods**
 |**Name**|**Description**|
@@ -145,8 +144,6 @@ The WebPImage type exposes the following members:
 |set_palette(palette, update_colors)|  |
 |get_proportional_width(width, height, new_height)|  |
 |get_proportional_height(width, height, new_width)|  |
-|is_multipage()|  |
-|as_multipage()|  |
 |get_modify_date(use_default)|  |
 |get_default_pixels(rectangle, partial_pixel_loader)|  |
 |get_default_argb_32_pixels(rectangle)|  |
@@ -162,6 +159,7 @@ The WebPImage type exposes the following members:
 |load_partial_pixels(desired_rectangle, pixel_loader)|  |
 |load_argb_32_pixels(rectangle)|  |
 |load_argb_64_pixels(rectangle)|  |
+|load_partial_argb_64_pixels(rectangle, partial_pixel_loader)|  |
 |load_pixels(rectangle)|  |
 |load_cmyk_pixels(rectangle)|  |
 |load_cmyk_32_pixels(rectangle)|  |
@@ -176,16 +174,16 @@ The WebPImage type exposes the following members:
 |binarize_otsu()|Binarization of an image with Otsu thresholding|
 |grayscale()|Transformation of an image to its grayscale representation|
 |adjust_brightness(brightness)|Adjust of a|
-|adjust_contrast(contrast)|[Image](/imaging/python-net/api-reference/aspose.imaging/image/) contrasting|
+|adjust_contrast(contrast)|[Image](/imaging/python-net/aspose.imaging/image/) contrasting|
 |get_skew_angle()|  |
 |filter(rectangle, options)|Filters the specified rectangle.|
 |replace_argb(old_color_argb, old_color_diff, new_color_argb)|  |
 |rotate_flip_all(rotate_flip)|Rotates the flip all.|
-|create_from_stream(stream)|Initializes a new instance of the [WebPImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.webp/webpimage/) class<br/>                from stream.|
-|create_from_stream_with_options(stream, load_options)|Initializes a new instance of the [WebPImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.webp/webpimage/) class from stream.|
-|create_from_file_with_options(path, load_options)|Initializes a new instance of the [WebPImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.webp/webpimage/) class from file.|
-|create_from_image(raster_image)|Initializes a new instance of the [WebPImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.webp/webpimage/) class from rasterImage.|
-|create_from_image_with_options(raster_image, load_options)|Initializes a new instance of the [WebPImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.webp/webpimage/) class from rasterImage.|
+|create_from_stream(stream)|Initializes a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class<br/>                from stream.|
+|create_from_stream_with_options(stream, load_options)|Initializes a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class from stream.|
+|create_from_file_with_options(path, load_options)|Initializes a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class from file.|
+|create_from_image(raster_image)|Initializes a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class from rasterImage.|
+|create_from_image_with_options(raster_image, load_options)|Initializes a new instance of the [WebPImage](/imaging/python-net/aspose.imaging.fileformats.webp/webpimage/) class from rasterImage.|
 |add_page(page)|Adds page to the image.|
 |add_block(block)|Adds a new Webp block.|
 |clear_blocks()|Clears all the Webp blocks.|

@@ -2,23 +2,23 @@
 title: LengthRecord Class
 type: docs
 weight: 50
-url: /python-net/api-reference/aspose.imaging.fileformats.core.vectorpaths/lengthrecord/
+url: /python-net/aspose.imaging.fileformats.core.vectorpaths/lengthrecord/
 ---
 
 Subpath Length Record Class
 
-**Namespace:** [aspose.imaging.fileformats.core.vectorpaths](/imaging/python-net/api-reference/aspose.imaging.fileformats.core.vectorpaths/)
+**Namespace:** [aspose.imaging.fileformats.core.vectorpaths](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/)
 
 **Full Class Name:** aspose.imaging.fileformats.core.vectorpaths.LengthRecord
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The LengthRecord type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |LengthRecord(data)|Initializes a new instance of the LengthRecord class|
-|LengthRecord()|Initializes a new instance of the [LengthRecord](/imaging/python-net/api-reference/aspose.imaging.fileformats.core.vectorpaths/lengthrecord/) class.|
+|LengthRecord()|Initializes a new instance of the [LengthRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/lengthrecord/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

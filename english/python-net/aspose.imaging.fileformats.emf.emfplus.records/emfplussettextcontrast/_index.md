@@ -2,16 +2,16 @@
 title: EmfPlusSetTextContrast Class
 type: docs
 weight: 550
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplussettextcontrast/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettextcontrast/
 ---
 
 The EmfPlusSetTextContrast record specifies text contrast according to the gamma correction value.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSetTextContrast
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusSetTextContrast type exposes the following members:
 ## **Constructors**

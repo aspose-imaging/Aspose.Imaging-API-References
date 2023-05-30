@@ -2,16 +2,16 @@
 title: EmfPlusImageAttributes Class
 type: docs
 weight: 390
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageattributes/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusimageattributes/
 ---
 
 The EmfPlusImageAttributes object specifies how bitmap image<br/>            colors are manipulated during rendering.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusImageAttributes
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusImageAttributes type exposes the following members:
 ## **Constructors**

@@ -2,16 +2,16 @@
 title: ImageMasking Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.masking/imagemasking/
+url: /python-net/aspose.imaging.masking/imagemasking/
 ---
 
 Provides image masking operations
 
-**Namespace:** [aspose.imaging.masking](/imaging/python-net/api-reference/aspose.imaging.masking/)
+**Namespace:** [aspose.imaging.masking](/imaging/python-net/aspose.imaging.masking/)
 
 **Full Class Name:** aspose.imaging.masking.ImageMasking
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The ImageMasking type exposes the following members:
 ## **Constructors**

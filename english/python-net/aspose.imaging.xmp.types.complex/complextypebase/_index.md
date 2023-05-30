@@ -2,16 +2,16 @@
 title: ComplexTypeBase Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.xmp.types.complex/complextypebase/
+url: /python-net/aspose.imaging.xmp.types.complex/complextypebase/
 ---
 
 Represents base abstraction for XMP Complex value type.
 
-**Namespace:** [aspose.imaging.xmp.types.complex](/imaging/python-net/api-reference/aspose.imaging.xmp.types.complex/)
+**Namespace:** [aspose.imaging.xmp.types.complex](/imaging/python-net/aspose.imaging.xmp.types.complex/)
 
 **Full Class Name:** aspose.imaging.xmp.types.complex.ComplexTypeBase
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The ComplexTypeBase type exposes the following members:
 ## **Constructors**

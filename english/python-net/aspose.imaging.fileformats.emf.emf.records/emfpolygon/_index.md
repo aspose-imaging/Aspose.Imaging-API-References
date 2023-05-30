@@ -2,23 +2,23 @@
 title: EmfPolygon Class
 type: docs
 weight: 870
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfpolygon/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpolygon/
 ---
 
 The EMR_POLYGON record specifies a polygon consisting of two or more vertexes connected by <br/>            straight lines.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfPolygon
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPolygon type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfPolygon(source)|Initializes a new instance of the EmfPolygon class|
-|EmfPolygon()|Initializes a new instance of the [EmfPolygon](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfpolygon/) class.|
+|EmfPolygon()|Initializes a new instance of the [EmfPolygon](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfpolygon/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

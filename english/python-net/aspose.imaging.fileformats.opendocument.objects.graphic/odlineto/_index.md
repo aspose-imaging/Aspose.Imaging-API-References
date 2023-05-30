@@ -2,16 +2,16 @@
 title: OdLineTo Class
 type: docs
 weight: 170
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/
 ---
 
 The enhanced lineTo
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdLineTo
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdLineTo type exposes the following members:
 ## **Constructors**
@@ -25,5 +25,5 @@ The OdLineTo type exposes the following members:
 |items|  |
 |absolute_coordinates|Gets or sets a value indicating whether [absolute coordinates].|
 |coordinates|Gets or sets the coordinates.|
-|vertical|Gets or sets a value indicating whether this [OdLineTo](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/) is vertical.|
-|horizontal|Gets or sets a value indicating whether this [OdLineTo](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/) is vertical.|
+|vertical|Gets or sets a value indicating whether this [OdLineTo](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/) is vertical.|
+|horizontal|Gets or sets a value indicating whether this [OdLineTo](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/) is vertical.|

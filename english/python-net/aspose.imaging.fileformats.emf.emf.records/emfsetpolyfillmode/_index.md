@@ -2,23 +2,23 @@
 title: EmfSetPolyFillMode Class
 type: docs
 weight: 1240
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfsetpolyfillmode/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetpolyfillmode/
 ---
 
 The EMR_SETPOLYFILLMODE record defines polygon fill mode.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetPolyFillMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfSetPolyFillMode type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfSetPolyFillMode(source)|Initializes a new instance of the EmfSetPolyFillMode class|
-|EmfSetPolyFillMode()|Initializes a new instance of the [EmfSetPolyFillMode](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfsetpolyfillmode/) class.|
+|EmfSetPolyFillMode()|Initializes a new instance of the [EmfSetPolyFillMode](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetpolyfillmode/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

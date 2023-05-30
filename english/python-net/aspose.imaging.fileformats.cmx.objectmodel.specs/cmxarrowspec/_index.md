@@ -2,16 +2,16 @@
 title: CmxArrowSpec Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxarrowspec/
+url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxarrowspec/
 ---
 
 Represents geometric info specified for outline arrow (marker).
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.specs](/imaging/python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.specs/)
+**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.specs](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/)
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.specs.CmxArrowSpec
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CmxArrowSpec type exposes the following members:
 ## **Constructors**

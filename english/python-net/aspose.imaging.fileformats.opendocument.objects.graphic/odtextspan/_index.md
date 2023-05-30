@@ -2,16 +2,16 @@
 title: OdTextSpan Class
 type: docs
 weight: 360
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/odtextspan/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odtextspan/
 ---
 
 The text span
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdTextSpan
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdTextSpan type exposes the following members:
 ## **Constructors**

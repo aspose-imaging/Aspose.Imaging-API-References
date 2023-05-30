@@ -2,16 +2,16 @@
 title: ColorModes Enumeration
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.psd/colormodes/
+url: /python-net/aspose.imaging.fileformats.psd/colormodes/
 ---
 
 Represents the PSD file format color modes.
 
-**Namespace:** [aspose.imaging.fileformats.psd](/imaging/python-net/api-reference/aspose.imaging.fileformats.psd/)
+**Namespace:** [aspose.imaging.fileformats.psd](/imaging/python-net/aspose.imaging.fileformats.psd/)
 
 **Full Name:** aspose.imaging.fileformats.psd.ColorModes
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

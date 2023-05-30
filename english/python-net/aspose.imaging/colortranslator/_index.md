@@ -2,16 +2,16 @@
 title: ColorTranslator Class
 type: docs
 weight: 130
-url: /python-net/api-reference/aspose.imaging/colortranslator/
+url: /python-net/aspose.imaging/colortranslator/
 ---
 
 Translates colors to and from GDI+ Color structures. This class cannot be inherited.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.ColorTranslator
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The ColorTranslator type exposes the following members:
 ## **Methods**

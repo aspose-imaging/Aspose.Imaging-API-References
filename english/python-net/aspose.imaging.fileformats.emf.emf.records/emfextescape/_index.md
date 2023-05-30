@@ -2,16 +2,16 @@
 title: EmfExtEscape Class
 type: docs
 weight: 430
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfextescape/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfextescape/
 ---
 
 The EMR_EXTESCAPE record passes arbitrary information to a printer driver. The intent is that the<br/>            information will not result in drawing being done.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfExtEscape
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfExtEscape type exposes the following members:
 ## **Constructors**

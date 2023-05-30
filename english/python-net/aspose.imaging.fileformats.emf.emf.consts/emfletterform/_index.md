@@ -2,16 +2,16 @@
 title: EmfLetterform Enumeration
 type: docs
 weight: 190
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/emfletterform/
+url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emfletterform/
 ---
 
 The Letterform enumeration defines values for one of the characteristics in the PANOSE system for classifying typefaces.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfLetterform
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

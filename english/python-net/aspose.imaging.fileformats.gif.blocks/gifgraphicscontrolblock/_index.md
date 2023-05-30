@@ -2,22 +2,22 @@
 title: GifGraphicsControlBlock Class
 type: docs
 weight: 40
-url: /python-net/api-reference/aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/
+url: /python-net/aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/
 ---
 
 Gif graphics control block.
 
-**Namespace:** [aspose.imaging.fileformats.gif.blocks](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif.blocks/)
+**Namespace:** [aspose.imaging.fileformats.gif.blocks](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/)
 
 **Full Class Name:** aspose.imaging.fileformats.gif.blocks.GifGraphicsControlBlock
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The GifGraphicsControlBlock type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|GifGraphicsControlBlock()|Initializes a new instance of the [GifGraphicsControlBlock](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/) class.|
+|GifGraphicsControlBlock()|Initializes a new instance of the [GifGraphicsControlBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/) class.|
 |GifGraphicsControlBlock(flags, delay_time, transparent_color_index)|Initializes a new instance of the GifGraphicsControlBlock class|
 |GifGraphicsControlBlock(delay_time, has_transparent_color, transparent_color_index, requires_user_input, disposal_method)|Initializes a new instance of the GifGraphicsControlBlock class|
 ## **Properties**

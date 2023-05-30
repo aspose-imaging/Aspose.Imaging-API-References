@@ -2,16 +2,16 @@
 title: EmfPlusCompositingMode Enumeration
 type: docs
 weight: 60
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscompositingmode/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscompositingmode/
 ---
 
 The CompositingMode enumeration defines modes for combining source colors with background colors. The compositing mode represents the enable state of alpha blending.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusCompositingMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

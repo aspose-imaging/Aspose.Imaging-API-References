@@ -2,16 +2,16 @@
 title: EmfPlusDrawImage Class
 type: docs
 weight: 130
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimage/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimage/
 ---
 
 The EmfPlusDrawImage record specifies drawing a scaled image.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusDrawImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusDrawImage type exposes the following members:
 ## **Constructors**

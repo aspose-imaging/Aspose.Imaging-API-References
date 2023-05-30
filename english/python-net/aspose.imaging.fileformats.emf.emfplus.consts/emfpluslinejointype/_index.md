@@ -2,16 +2,16 @@
 title: EmfPlusLineJoinType Enumeration
 type: docs
 weight: 230
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfpluslinejointype/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluslinejointype/
 ---
 
 The LineJoinType enumeration defines ways to join two lines that are drawn by the same graphics pen and whose ends meet.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusLineJoinType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

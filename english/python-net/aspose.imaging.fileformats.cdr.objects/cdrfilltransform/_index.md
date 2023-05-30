@@ -2,16 +2,16 @@
 title: CdrFillTransform Class
 type: docs
 weight: 110
-url: /python-net/api-reference/aspose.imaging.fileformats.cdr.objects/cdrfilltransform/
+url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrfilltransform/
 ---
 
 the cdr fill transform
 
-**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.objects/)
+**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrFillTransform
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CdrFillTransform type exposes the following members:
 ## **Constructors**
@@ -27,7 +27,7 @@ The CdrFillTransform type exposes the following members:
 |childs|Gets or sets the objects.|
 |load_to_last_child|Gets or sets a value indicating whether [load to last child].|
 |last_child|Gets or sets the last child.|
-|hidden|Gets or sets a value indicating whether this [CdrObjectContainer](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) is visible.|
+|hidden|Gets or sets a value indicating whether this [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer/) is visible.|
 |transform|Gets or sets the transform.|
 ## **Methods**
 |**Name**|**Description**|

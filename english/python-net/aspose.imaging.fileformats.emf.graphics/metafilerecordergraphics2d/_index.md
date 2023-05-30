@@ -2,16 +2,16 @@
 title: MetafileRecorderGraphics2D Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/
+url: /python-net/aspose.imaging.fileformats.emf.graphics/metafilerecordergraphics2d/
 ---
 
 The metafiles recorder graphics
 
-**Namespace:** [aspose.imaging.fileformats.emf.graphics](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.graphics/)
+**Namespace:** [aspose.imaging.fileformats.emf.graphics](/imaging/python-net/aspose.imaging.fileformats.emf.graphics/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.graphics.MetafileRecorderGraphics2D
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The MetafileRecorderGraphics2D type exposes the following members:
 ## **Properties**

@@ -2,23 +2,23 @@
 title: EmfExtSelectClipRgn Class
 type: docs
 weight: 450
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/
 ---
 
 The EMR_EXTSELECTCLIPRGN record combines the specified region with the current clip region <br/>            using the specified mode. <br/>            Note  Fields that are not described in this section are specified in section 2.3.2.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfExtSelectClipRgn
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfExtSelectClipRgn type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfExtSelectClipRgn(source)|Initializes a new instance of the EmfExtSelectClipRgn class|
-|EmfExtSelectClipRgn()|Initializes a new instance of the [EmfExtSelectClipRgn](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/) class.|
+|EmfExtSelectClipRgn()|Initializes a new instance of the [EmfExtSelectClipRgn](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

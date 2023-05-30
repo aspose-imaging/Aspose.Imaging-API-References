@@ -2,16 +2,16 @@
 title: OdText Class
 type: docs
 weight: 320
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/odtext/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odtext/
 ---
 
 The text object
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdText
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdText type exposes the following members:
 ## **Constructors**

@@ -2,16 +2,16 @@
 title: OdSolidBrush Class
 type: docs
 weight: 50
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.brush/odsolidbrush/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects.brush/odsolidbrush/
 ---
 
 The open document solid brush
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.brush](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.brush/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects.brush](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.brush.OdSolidBrush
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdSolidBrush type exposes the following members:
 ## **Constructors**

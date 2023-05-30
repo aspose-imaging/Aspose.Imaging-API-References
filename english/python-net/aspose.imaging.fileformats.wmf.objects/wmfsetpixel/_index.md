@@ -2,16 +2,16 @@
 title: WmfSetPixel Class
 type: docs
 weight: 710
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfsetpixel/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetpixel/
 ---
 
 The META_SETPIXEL record sets the pixel at the specified coordinates to<br/>                the specified color.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetPixel
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfSetPixel type exposes the following members:
 ## **Constructors**

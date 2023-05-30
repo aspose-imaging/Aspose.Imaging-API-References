@@ -2,16 +2,16 @@
 title: EmfPlusFocusScaleData Class
 type: docs
 weight: 320
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfplusfocusscaledata/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusfocusscaledata/
 ---
 
 The EmfPlusFocusScaleData object specifies focus scales for the blend pattern of a path gradient brush.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusFocusScaleData
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusFocusScaleData type exposes the following members:
 ## **Constructors**

@@ -2,16 +2,16 @@
 title: EmfPlusSetClipPath Class
 type: docs
 weight: 460
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplussetclippath/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetclippath/
 ---
 
 The EmfPlusSetClipPath record combines the current clipping region with a graphics path.<br/>            The new current clipping region is set to the result of the CombineMode operation.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSetClipPath
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusSetClipPath type exposes the following members:
 ## **Constructors**

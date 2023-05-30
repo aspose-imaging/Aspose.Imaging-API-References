@@ -2,16 +2,16 @@
 title: EmfTriVertex Class
 type: docs
 weight: 270
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emftrivertex/
+url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emftrivertex/
 ---
 
 The TriVertex object specifies color and position information for the definition of a rectangle or <br/>            triangle vertex.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfTriVertex
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfTriVertex type exposes the following members:
 ## **Constructors**

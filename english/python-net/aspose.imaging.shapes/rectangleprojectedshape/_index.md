@@ -2,16 +2,16 @@
 title: RectangleProjectedShape Class
 type: docs
 weight: 70
-url: /python-net/api-reference/aspose.imaging.shapes/rectangleprojectedshape/
+url: /python-net/aspose.imaging.shapes/rectangleprojectedshape/
 ---
 
 Represents a shape which is projected over rectangle turned to a particular orientation.<br/>            Specified by four points which can be rotated in space maintaining the same edges length and 90 degrees between adjacent edges.
 
-**Namespace:** [aspose.imaging.shapes](/imaging/python-net/api-reference/aspose.imaging.shapes/)
+**Namespace:** [aspose.imaging.shapes](/imaging/python-net/aspose.imaging.shapes/)
 
 **Full Class Name:** aspose.imaging.shapes.RectangleProjectedShape
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The RectangleProjectedShape type exposes the following members:
 ## **Properties**

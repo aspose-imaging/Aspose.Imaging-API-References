@@ -2,22 +2,22 @@
 title: WmfCreateBrushInDirect Class
 type: docs
 weight: 110
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfcreatebrushindirect/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfcreatebrushindirect/
 ---
 
 The Create brush in direct
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfCreateBrushInDirect
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfCreateBrushInDirect type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|WmfCreateBrushInDirect()|Initializes a new instance of the [WmfCreateBrushInDirect](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfcreatebrushindirect/) class.|
+|WmfCreateBrushInDirect()|Initializes a new instance of the [WmfCreateBrushInDirect](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfcreatebrushindirect/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

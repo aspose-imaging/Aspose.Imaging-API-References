@@ -2,16 +2,16 @@
 title: GifFrameBlock Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.fileformats.gif.blocks/gifframeblock/
+url: /python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/
 ---
 
 Gif frame block.
 
-**Namespace:** [aspose.imaging.fileformats.gif.blocks](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif.blocks/)
+**Namespace:** [aspose.imaging.fileformats.gif.blocks](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/)
 
 **Full Class Name:** aspose.imaging.fileformats.gif.blocks.GifFrameBlock
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The GifFrameBlock type exposes the following members:
 ## **Constructors**
@@ -67,7 +67,7 @@ The GifFrameBlock type exposes the following members:
 |transparent_color|Gets the transparent color of frame block.|
 |image_opacity|  |
 |frame_time|Gets or sets the duration.|
-|interlaced|Gets or sets a value indicating whether this [GifFrameBlock](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif.blocks/gifframeblock/) is interlaced.|
+|interlaced|Gets or sets a value indicating whether this [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) is interlaced.|
 |is_interlaced|Gets a value indicating whether this image instance is interlaced.|
 |is_palette_sorted|Gets or sets a value indicating whether color palette is sorted.|
 |gif_frame_bits_per_pixel|Gets or sets the GIF frame bits per pixel.|
@@ -135,7 +135,7 @@ The GifFrameBlock type exposes the following members:
 |replace_color(old_color, old_color_diff, new_color)|Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges.|
 |replace_non_transparent_colors(new_color_argb)|Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges.<br/>            Note: if you use it on images without transparency, all colors will be replaced with a single one.|
 |replace_non_transparent_colors(new_color)|Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges.<br/>            Note: if you use it on images without transparency, all colors will be replaced with a single one.|
-|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying [data_stream_container](/imaging/python-net/api-reference/aspose.imaging/datastreamsupporter/).|
+|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying [data_stream_container](/imaging/python-net/aspose.imaging/datastreamsupporter/).|
 |save_to_stream(stream)|  |
 |can_load_with_options(file_path, load_options)|  |
 |can_load_stream(stream)|  |
@@ -159,8 +159,6 @@ The GifFrameBlock type exposes the following members:
 |set_palette(palette, update_colors)|  |
 |get_proportional_width(width, height, new_height)|  |
 |get_proportional_height(width, height, new_width)|  |
-|is_multipage()|  |
-|as_multipage()|  |
 |get_modify_date(use_default)|  |
 |get_default_pixels(rectangle, partial_pixel_loader)|  |
 |get_default_argb_32_pixels(rectangle)|  |
@@ -176,6 +174,7 @@ The GifFrameBlock type exposes the following members:
 |load_partial_pixels(desired_rectangle, pixel_loader)|  |
 |load_argb_32_pixels(rectangle)|  |
 |load_argb_64_pixels(rectangle)|  |
+|load_partial_argb_64_pixels(rectangle, partial_pixel_loader)|  |
 |load_pixels(rectangle)|  |
 |load_cmyk_pixels(rectangle)|  |
 |load_cmyk_32_pixels(rectangle)|  |
@@ -194,14 +193,14 @@ The GifFrameBlock type exposes the following members:
 |get_skew_angle()|  |
 |filter(rectangle, options)|  |
 |replace_argb(old_color_argb, old_color_diff, new_color_argb)|  |
-|create_from_image(image)|Initializes a new instance of the [GifFrameBlock](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class.|
+|create_from_image(image)|Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class.|
 |create_from_image_left_top(image, left, top)|  |
-|create_from_image_left_top_pal_sorted_interlaced_code_size(image, left, top, is_palette_sorted, is_gif_frame_interlaced, lzw_code_size)|Initializes a new instance of the [GifFrameBlock](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class.|
-|create_from_stream(stream)|Initializes a new instance of the [GifFrameBlock](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class.|
+|create_from_image_left_top_pal_sorted_interlaced_code_size(image, left, top, is_palette_sorted, is_gif_frame_interlaced, lzw_code_size)|Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class.|
+|create_from_stream(stream)|Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class.|
 |create_from_stream_left_top(stream, left, top)|  |
-|create_from_stream_left_top_pal_sorted_interlaced_code_size(stream, left, top, is_palette_sorted, is_gif_frame_interlaced, lzw_code_size)|Initializes a new instance of the [GifFrameBlock](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class.|
+|create_from_stream_left_top_pal_sorted_interlaced_code_size(stream, left, top, is_palette_sorted, is_gif_frame_interlaced, lzw_code_size)|Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class.|
 |create_from_file_left_top(path, left, top)|  |
-|create_from_file_left_top_pal_sorted_interlaced_code_size(path, left, top, is_palette_sorted, is_gif_frame_interlaced, lzw_code_size)|Initializes a new instance of the [GifFrameBlock](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class.|
+|create_from_file_left_top_pal_sorted_interlaced_code_size(path, left, top, is_palette_sorted, is_gif_frame_interlaced, lzw_code_size)|Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class.|
 |get_color_palette(frame_palette, container_palette)|Gets the associated color palette.|
 |create_flags(color_palette, is_palette_sorted, is_gif_frame_interlaced)|Creates the flags.|
 |get_full_frame()|Gets the full frame.|

@@ -2,16 +2,16 @@
 title: OdTransformInfo Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects/odtransforminfo/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects/odtransforminfo/
 ---
 
 The open document translate info
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.OdTransformInfo
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdTransformInfo type exposes the following members:
 ## **Constructors**

@@ -2,16 +2,16 @@
 title: BitmapV5Header Class
 type: docs
 weight: 40
-url: /python-net/api-reference/aspose.imaging.fileformats.bmp/bitmapv5header/
+url: /python-net/aspose.imaging.fileformats.bmp/bitmapv5header/
 ---
 
 The BitmapV5Header structure is the bitmap information header file. It is an extended version of the BITMAPINFOHEADER structure.
 
-**Namespace:** [aspose.imaging.fileformats.bmp](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/)
+**Namespace:** [aspose.imaging.fileformats.bmp](/imaging/python-net/aspose.imaging.fileformats.bmp/)
 
 **Full Class Name:** aspose.imaging.fileformats.bmp.BitmapV5Header
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The BitmapV5Header type exposes the following members:
 ## **Properties**

@@ -2,23 +2,23 @@
 title: LangAlt Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.xmp/langalt/
+url: /python-net/aspose.imaging.xmp/langalt/
 ---
 
 Represents XMP Language Alternative.
 
-**Namespace:** [aspose.imaging.xmp](/imaging/python-net/api-reference/aspose.imaging.xmp/)
+**Namespace:** [aspose.imaging.xmp](/imaging/python-net/aspose.imaging.xmp/)
 
 **Full Class Name:** aspose.imaging.xmp.LangAlt
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The LangAlt type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |LangAlt(default_value)|Initializes a new instance of the LangAlt class|
-|LangAlt()|Initializes a new instance of the [LangAlt](/imaging/python-net/api-reference/aspose.imaging.xmp/langalt/) class.|
+|LangAlt()|Initializes a new instance of the [LangAlt](/imaging/python-net/aspose.imaging.xmp/langalt/) class.|
 ## **Methods**
 |**Name**|**Description**|
 | :- | :- |

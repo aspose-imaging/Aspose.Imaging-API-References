@@ -2,16 +2,16 @@
 title: OdMarker Class
 type: docs
 weight: 200
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/odmarker/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odmarker/
 ---
 
 The Marker
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdMarker
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdMarker type exposes the following members:
 ## **Constructors**

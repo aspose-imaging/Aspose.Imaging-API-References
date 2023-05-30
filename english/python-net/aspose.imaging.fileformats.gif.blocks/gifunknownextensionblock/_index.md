@@ -2,22 +2,22 @@
 title: GifUnknownExtensionBlock Class
 type: docs
 weight: 60
-url: /python-net/api-reference/aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/
+url: /python-net/aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/
 ---
 
 Gif Unknown Extension Block.
 
-**Namespace:** [aspose.imaging.fileformats.gif.blocks](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif.blocks/)
+**Namespace:** [aspose.imaging.fileformats.gif.blocks](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/)
 
 **Full Class Name:** aspose.imaging.fileformats.gif.blocks.GifUnknownExtensionBlock
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The GifUnknownExtensionBlock type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|GifUnknownExtensionBlock()|Initializes a new instance of the [GifUnknownExtensionBlock](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/) class.|
+|GifUnknownExtensionBlock()|Initializes a new instance of the [GifUnknownExtensionBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/) class.|
 |GifUnknownExtensionBlock(extension_label, data)|Initializes a new instance of the GifUnknownExtensionBlock class|
 ## **Properties**
 |**Name**|**Description**|

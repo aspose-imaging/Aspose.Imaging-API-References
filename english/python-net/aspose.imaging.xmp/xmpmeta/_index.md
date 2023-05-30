@@ -2,23 +2,23 @@
 title: XmpMeta Class
 type: docs
 weight: 80
-url: /python-net/api-reference/aspose.imaging.xmp/xmpmeta/
+url: /python-net/aspose.imaging.xmp/xmpmeta/
 ---
 
 Represents xmpmeta. Optional.<br/>            The purpose of this element is to identify XMP metadata within general XML text that might contain other non-XMP uses of RDF.
 
-**Namespace:** [aspose.imaging.xmp](/imaging/python-net/api-reference/aspose.imaging.xmp/)
+**Namespace:** [aspose.imaging.xmp](/imaging/python-net/aspose.imaging.xmp/)
 
 **Full Class Name:** aspose.imaging.xmp.XmpMeta
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The XmpMeta type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |XmpMeta(toolkit_version)|Initializes a new instance of the XmpMeta class|
-|XmpMeta()|Initializes a new instance of the [XmpMeta](/imaging/python-net/api-reference/aspose.imaging.xmp/xmpmeta/) class.|
+|XmpMeta()|Initializes a new instance of the [XmpMeta](/imaging/python-net/aspose.imaging.xmp/xmpmeta/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

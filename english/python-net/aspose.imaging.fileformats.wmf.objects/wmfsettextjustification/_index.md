@@ -2,16 +2,16 @@
 title: WmfSetTextJustification Class
 type: docs
 weight: 790
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfsettextjustification/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsettextjustification/
 ---
 
 The META_SETTEXTJUSTIFICATION record defines the amount of space to add<br/>                to
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetTextJustification
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfSetTextJustification type exposes the following members:
 ## **Constructors**

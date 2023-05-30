@@ -2,16 +2,16 @@
 title: EmfPointEnum Enumeration
 type: docs
 weight: 260
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/emfpointenum/
+url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emfpointenum/
 ---
 
 The Point enumeration is used to specify how a point is to be used in a drawing call.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfPointEnum
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

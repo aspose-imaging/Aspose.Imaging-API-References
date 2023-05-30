@@ -1,17 +1,17 @@
 ---
 title: Size Class
 type: docs
-weight: 790
-url: /python-net/api-reference/aspose.imaging/size/
+weight: 800
+url: /python-net/aspose.imaging/size/
 ---
 
 Represents size.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.Size
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The Size type exposes the following members:
 ## **Constructors**
@@ -23,15 +23,15 @@ The Size type exposes the following members:
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |
-|empty|Gets a new instance of the [Size](/imaging/python-net/api-reference/aspose.imaging/size/) structure that has [width](/imaging/python-net/api-reference/aspose.imaging/size/) and [height](/imaging/python-net/api-reference/aspose.imaging/size/) values set to zero.|
-|is_empty|Gets a value indicating whether this [Size](/imaging/python-net/api-reference/aspose.imaging/size/) has width and height of 0.|
-|width|Gets or sets the horizontal component of this [Size](/imaging/python-net/api-reference/aspose.imaging/size/).|
-|height|Gets or sets the vertical component of this [Size](/imaging/python-net/api-reference/aspose.imaging/size/).|
+|empty|Gets a new instance of the [Size](/imaging/python-net/aspose.imaging/size/) structure that has [width](/imaging/python-net/aspose.imaging/size/) and [height](/imaging/python-net/aspose.imaging/size/) values set to zero.|
+|is_empty|Gets a value indicating whether this [Size](/imaging/python-net/aspose.imaging/size/) has width and height of 0.|
+|width|Gets or sets the horizontal component of this [Size](/imaging/python-net/aspose.imaging/size/).|
+|height|Gets or sets the vertical component of this [Size](/imaging/python-net/aspose.imaging/size/).|
 ## **Methods**
 |**Name**|**Description**|
 | :- | :- |
-|add(size1, size2)|Adds the width and height of one [Size](/imaging/python-net/api-reference/aspose.imaging/size/) structure to the width and height of another [Size](/imaging/python-net/api-reference/aspose.imaging/size/) structure.|
-|ceiling(size)|Converts the specified [SizeF](/imaging/python-net/api-reference/aspose.imaging/sizef/) structure to a [Size](/imaging/python-net/api-reference/aspose.imaging/size/) structure by rounding the values of the [Size](/imaging/python-net/api-reference/aspose.imaging/size/) structure to the next higher integer values.|
-|subtract(size1, size2)|Subtracts the width and height of one [Size](/imaging/python-net/api-reference/aspose.imaging/size/) structure from the width and height of another [Size](/imaging/python-net/api-reference/aspose.imaging/size/) structure.|
-|truncate(size)|Converts the specified [SizeF](/imaging/python-net/api-reference/aspose.imaging/sizef/) structure to a [Size](/imaging/python-net/api-reference/aspose.imaging/size/) structure by truncating the values of the [SizeF](/imaging/python-net/api-reference/aspose.imaging/sizef/) structure to the next lower integer values.|
-|round(size)|Converts the specified [SizeF](/imaging/python-net/api-reference/aspose.imaging/sizef/) structure to a [Size](/imaging/python-net/api-reference/aspose.imaging/size/) structure by rounding the values of the [SizeF](/imaging/python-net/api-reference/aspose.imaging/sizef/) structure to the nearest integer values.|
+|add(size1, size2)|Adds the width and height of one [Size](/imaging/python-net/aspose.imaging/size/) structure to the width and height of another [Size](/imaging/python-net/aspose.imaging/size/) structure.|
+|ceiling(size)|Converts the specified [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure to a [Size](/imaging/python-net/aspose.imaging/size/) structure by rounding the values of the [Size](/imaging/python-net/aspose.imaging/size/) structure to the next higher integer values.|
+|subtract(size1, size2)|Subtracts the width and height of one [Size](/imaging/python-net/aspose.imaging/size/) structure from the width and height of another [Size](/imaging/python-net/aspose.imaging/size/) structure.|
+|truncate(size)|Converts the specified [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure to a [Size](/imaging/python-net/aspose.imaging/size/) structure by truncating the values of the [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure to the next lower integer values.|
+|round(size)|Converts the specified [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure to a [Size](/imaging/python-net/aspose.imaging/size/) structure by rounding the values of the [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure to the nearest integer values.|

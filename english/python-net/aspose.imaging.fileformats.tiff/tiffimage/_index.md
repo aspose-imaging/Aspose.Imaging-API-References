@@ -2,16 +2,16 @@
 title: TiffImage Class
 type: docs
 weight: 40
-url: /python-net/api-reference/aspose.imaging.fileformats.tiff/tiffimage/
+url: /python-net/aspose.imaging.fileformats.tiff/tiffimage/
 ---
 
 The tiff image.
 
-**Namespace:** [aspose.imaging.fileformats.tiff](/imaging/python-net/api-reference/aspose.imaging.fileformats.tiff/)
+**Namespace:** [aspose.imaging.fileformats.tiff](/imaging/python-net/aspose.imaging.fileformats.tiff/)
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.TiffImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The TiffImage type exposes the following members:
 ## **Constructors**
@@ -50,15 +50,14 @@ The TiffImage type exposes the following members:
 |raw_data_format|  |
 |raw_line_size|  |
 |is_raw_data_available|Gets a value indicating whether raw data loading is supported.|
-|horizontal_resolution|Gets the horizontal resolution, in pixels per inch, of this [Image](/imaging/python-net/api-reference/aspose.imaging/image/).|
-|vertical_resolution|Gets the vertical resolution, in pixels per inch, of this [Image](/imaging/python-net/api-reference/aspose.imaging/image/).|
+|horizontal_resolution|Gets the horizontal resolution, in pixels per inch, of this [Image](/imaging/python-net/aspose.imaging/image/).|
+|vertical_resolution|Gets the vertical resolution, in pixels per inch, of this [Image](/imaging/python-net/aspose.imaging/image/).|
 |has_transparent_color|Gets a value indicating whether image has transparent color.|
 |has_alpha|Gets the Has alpha channel.|
 |transparent_color|  |
 |image_opacity|Gets opacity of this image.|
 |page_count|Gets the page count.|
 |pages|Gets the pages.|
-|default_page|Gets the default page.|
 |byte_order|Gets or sets a value indicating the tiff byte order.|
 |active_frame|Gets or sets the active frame.|
 |frames|Gets Frames array of the image.|
@@ -112,8 +111,8 @@ The TiffImage type exposes the following members:
 |adjust_gamma(gamma_red, gamma_green, gamma_blue)|Gamma-correction of an image.|
 |rotate(angle, resize_proportionally, background_color)|Rotate image around the center.|
 |rotate(angle)|Rotate image around the center.|
-|normalize_angle(resize_proportionally, background_color)|Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [None](/imaging/python-net/api-reference/aspose.imaging/rasterimage/) and|
-|normalize_angle()|Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [None](/imaging/python-net/api-reference/aspose.imaging/rasterimage/) and|
+|normalize_angle(resize_proportionally, background_color)|Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [None](/imaging/python-net/aspose.imaging/rasterimage/) and|
+|normalize_angle()|Normalizes the angle.<br/>            This method is applicable to scanned text documents to get rid of the skewed scan.<br/>            This method uses [None](/imaging/python-net/aspose.imaging/rasterimage/) and|
 |replace_color(old_color_argb, old_color_diff, new_color_argb)|Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges.|
 |replace_color(old_color, old_color_diff, new_color)|Replaces one color to another with allowed difference and preserves original alpha value to save smooth edges.|
 |replace_non_transparent_colors(new_color_argb)|Replaces all non-transparent colors with new color and preserves original alpha value to save smooth edges.<br/>                Note: if you use it on images without transparency, all colors will be replaced with a single one.|
@@ -144,8 +143,6 @@ The TiffImage type exposes the following members:
 |set_palette(palette, update_colors)|  |
 |get_proportional_width(width, height, new_height)|  |
 |get_proportional_height(width, height, new_width)|  |
-|is_multipage()|  |
-|as_multipage()|  |
 |get_modify_date(use_default)|  |
 |get_default_pixels(rectangle, partial_pixel_loader)|  |
 |get_default_argb_32_pixels(rectangle)|  |
@@ -161,6 +158,7 @@ The TiffImage type exposes the following members:
 |load_partial_pixels(desired_rectangle, pixel_loader)|  |
 |load_argb_32_pixels(rectangle)|  |
 |load_argb_64_pixels(rectangle)|  |
+|load_partial_argb_64_pixels(rectangle, partial_pixel_loader)|  |
 |load_pixels(rectangle)|  |
 |load_cmyk_pixels(rectangle)|  |
 |load_cmyk_32_pixels(rectangle)|  |
@@ -170,18 +168,18 @@ The TiffImage type exposes the following members:
 |to_bitmap()|  |
 |save_cmyk_pixels(rectangle, pixels)|  |
 |save_cmyk_32_pixels(rectangle, pixels)|  |
-|set_resolution(dpi_x, dpi_y)|Sets the resolution for this [RasterImage](/imaging/python-net/api-reference/aspose.imaging/rasterimage/).|
+|set_resolution(dpi_x, dpi_y)|Sets the resolution for this [RasterImage](/imaging/python-net/aspose.imaging/rasterimage/).|
 |binarize_fixed(threshold)|Binarization of an image with predefined threshold|
 |binarize_otsu()|Binarization of an image with Otsu thresholding|
 |grayscale()|Transformation of an image to its grayscale representation|
 |adjust_brightness(brightness)|Adjust of a|
-|adjust_contrast(contrast)|[Image](/imaging/python-net/api-reference/aspose.imaging/image/) contrasting|
+|adjust_contrast(contrast)|[Image](/imaging/python-net/aspose.imaging/image/) contrasting|
 |get_skew_angle()|  |
 |filter(rectangle, options)|Filters the specified rectangle.|
 |replace_argb(old_color_argb, old_color_diff, new_color_argb)|  |
 |rotate_flip_all(rotate_flip)|Rotates the flip all.|
-|create_with_frame(frame)|Initializes a new instance of the [TiffImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.tiff/tiffimage/) class.|
-|create_with_frames(frames)|Initializes a new instance of the [TiffImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.tiff/tiffimage/) class.|
+|create_with_frame(frame)|Initializes a new instance of the [TiffImage](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffimage/) class.|
+|create_with_frames(frames)|Initializes a new instance of the [TiffImage](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffimage/) class.|
 |add_page(page)|Adds page to the image.|
 |align_resolutions()|Helper method to make horizontal and vertical resolutions equal.|
 |add_frame(frame)|Adds the frame to image|

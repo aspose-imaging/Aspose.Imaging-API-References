@@ -1,17 +1,17 @@
 ---
 title: SplitStreamContainer Class
 type: docs
-weight: 820
-url: /python-net/api-reference/aspose.imaging/splitstreamcontainer/
+weight: 830
+url: /python-net/aspose.imaging/splitstreamcontainer/
 ---
 
 Represents split stream container which contains the stream and provides stream processing routines.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.SplitStreamContainer
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The SplitStreamContainer type exposes the following members:
 ## **Constructors**
@@ -48,18 +48,18 @@ The SplitStreamContainer type exposes the following members:
 |save(file_path)|Saves (copies) the stream's data to the specified stream.|
 |save(file_path, buffer_size)|Saves (copies) the stream's data to the specified stream.|
 |save(file_path, buffer_size, length)|Saves (copies) the stream's data to the specified stream.|
-|write_to(stream_container)|Copies the contained data to another [StreamContainer](/imaging/python-net/api-reference/aspose.imaging/streamcontainer/).|
+|write_to(stream_container)|Copies the contained data to another [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer/).|
 |write_to(stream_container, length)|  |
 |flush()|Clears all buffers for this stream and causes any buffered data to be written to the underlying device.|
 |write_byte(value)|Writes a byte to the current position in the stream and advances the position within the stream by one byte.|
 |read_byte()|Reads a byte from the stream and advances the position within the stream by one byte, or returns -1 if at the end of the stream.|
 |seek(offset, origin)|  |
 |seek_begin()|Sets the stream position to the beginning of the stream. This value represents offset from the starting stream position passed in the StreamContainer constructor.|
-|save_to_stream(destination_stream)|Saves (copies) the stream's data to the specified stream. Uses default buffer size [None](/imaging/python-net/api-reference/aspose.imaging/streamcontainer/) and stream [length](/imaging/python-net/api-reference/aspose.imaging/streamcontainer/) value.|
-|save_to_stream_with_buf_size(destination_stream, buffer_size)|Saves (copies) all the stream's data to the specified stream. Uses stream [length](/imaging/python-net/api-reference/aspose.imaging/streamcontainer/) value.|
+|save_to_stream(destination_stream)|Saves (copies) the stream's data to the specified stream. Uses default buffer size [None](/imaging/python-net/aspose.imaging/streamcontainer/) and stream [length](/imaging/python-net/aspose.imaging/streamcontainer/) value.|
+|save_to_stream_with_buf_size(destination_stream, buffer_size)|Saves (copies) all the stream's data to the specified stream. Uses stream [length](/imaging/python-net/aspose.imaging/streamcontainer/) value.|
 |save_to_stream_with_buf_size_and_len(destination_stream, buffer_size, length)|Saves (copies) the stream's data to the specified stream.|
-|save_with_buf_size(file_path, buffer_size)|Saves (copies) the stream's data to the specified stream. Uses stream [length](/imaging/python-net/api-reference/aspose.imaging/streamcontainer/) value.|
+|save_with_buf_size(file_path, buffer_size)|Saves (copies) the stream's data to the specified stream. Uses stream [length](/imaging/python-net/aspose.imaging/streamcontainer/) value.|
 |save_with_buf_size_and_len(file_path, buffer_size, length)|Saves (copies) the stream's data to the specified stream.|
-|create_from_stream(stream, dispose_stream)|Initializes a new instance of the [SplitStreamContainer](/imaging/python-net/api-reference/aspose.imaging/splitstreamcontainer/) class.|
-|create_from_stream_container(stream, dispose_stream)|Initializes a new instance of the [SplitStreamContainer](/imaging/python-net/api-reference/aspose.imaging/splitstreamcontainer/) class.|
+|create_from_stream(stream, dispose_stream)|Initializes a new instance of the [SplitStreamContainer](/imaging/python-net/aspose.imaging/splitstreamcontainer/) class.|
+|create_from_stream_container(stream, dispose_stream)|Initializes a new instance of the [SplitStreamContainer](/imaging/python-net/aspose.imaging/splitstreamcontainer/) class.|
 |insert(position, stream, dispose_stream)|Inserts the stream container into specified position.|

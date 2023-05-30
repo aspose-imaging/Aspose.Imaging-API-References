@@ -1,23 +1,23 @@
 ---
 title: JpegOptions Class
 type: docs
-weight: 150
-url: /python-net/api-reference/aspose.imaging.imageoptions/jpegoptions/
+weight: 160
+url: /python-net/aspose.imaging.imageoptions/jpegoptions/
 ---
 
 The jpeg file format create options.
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.JpegOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The JpegOptions type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|JpegOptions()|Initializes a new instance of the [JpegOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/jpegoptions/) class.|
+|JpegOptions()|Initializes a new instance of the [JpegOptions](/imaging/python-net/aspose.imaging.imageoptions/jpegoptions/) class.|
 |JpegOptions(jpeg_options)|Initializes a new instance of the JpegOptions class|
 ## **Properties**
 |**Name**|**Description**|

@@ -2,16 +2,16 @@
 title: MaskingOptions Class
 type: docs
 weight: 70
-url: /python-net/api-reference/aspose.imaging.masking.options/maskingoptions/
+url: /python-net/aspose.imaging.masking.options/maskingoptions/
 ---
 
 Represents the common image masking options.
 
-**Namespace:** [aspose.imaging.masking.options](/imaging/python-net/api-reference/aspose.imaging.masking.options/)
+**Namespace:** [aspose.imaging.masking.options](/imaging/python-net/aspose.imaging.masking.options/)
 
 **Full Class Name:** aspose.imaging.masking.options.MaskingOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The MaskingOptions type exposes the following members:
 ## **Constructors**

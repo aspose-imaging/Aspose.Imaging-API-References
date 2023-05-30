@@ -2,16 +2,16 @@
 title: EmfPlusDrawDriverString Class
 type: docs
 weight: 110
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/
 ---
 
 The EmfPlusDrawDriverString record specifies text output with character positions.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusDrawDriverString
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusDrawDriverString type exposes the following members:
 ## **Constructors**

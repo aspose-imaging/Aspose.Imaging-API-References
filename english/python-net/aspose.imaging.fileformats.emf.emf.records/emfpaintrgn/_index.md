@@ -2,23 +2,23 @@
 title: EmfPaintRgn Class
 type: docs
 weight: 700
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/
 ---
 
 The EMR_PAINTRGN record paints the specified region by using the brush currently selected into the <br/>            playback device context.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfPaintRgn
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPaintRgn type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfPaintRgn(source)|Initializes a new instance of the EmfPaintRgn class|
-|EmfPaintRgn()|Initializes a new instance of the [EmfPaintRgn](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/) class.|
+|EmfPaintRgn()|Initializes a new instance of the [EmfPaintRgn](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfpaintrgn/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

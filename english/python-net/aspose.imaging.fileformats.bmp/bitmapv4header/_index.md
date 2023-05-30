@@ -2,16 +2,16 @@
 title: BitmapV4Header Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.fileformats.bmp/bitmapv4header/
+url: /python-net/aspose.imaging.fileformats.bmp/bitmapv4header/
 ---
 
 The BitmapV4Header structure is the bitmap information header file. It is an extended version of the BITMAPINFOHEADER structure.
 
-**Namespace:** [aspose.imaging.fileformats.bmp](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/)
+**Namespace:** [aspose.imaging.fileformats.bmp](/imaging/python-net/aspose.imaging.fileformats.bmp/)
 
 **Full Class Name:** aspose.imaging.fileformats.bmp.BitmapV4Header
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The BitmapV4Header type exposes the following members:
 ## **Properties**
@@ -36,7 +36,7 @@ The BitmapV4Header type exposes the following members:
 |bitmap_y_pels_per_meter|Gets or sets vertical pixels resolution.|
 |bitmap_colors_used|Gets or sets number of palette colors used.|
 |bitmap_colors_important|Gets or sets number of important palette colors.|
-|extra_bit_masks|Gets or sets the extra bit masks.<br/>            Present only in case the DIB header is the BITMAPINFOHEADER and the [bitmap_compression](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/bitmapinfoheader/) is set to either [BITFIELDS](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/bitmapcompression/) (RGB) or [ALPHA_BITFIELDS](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/bitmapcompression/) (RGBA).|
+|extra_bit_masks|Gets or sets the extra bit masks.<br/>            Present only in case the DIB header is the BITMAPINFOHEADER and the [bitmap_compression](/imaging/python-net/aspose.imaging.fileformats.bmp/bitmapinfoheader/) is set to either [BITFIELDS](/imaging/python-net/aspose.imaging.fileformats.bmp/bitmapcompression/) (RGB) or [ALPHA_BITFIELDS](/imaging/python-net/aspose.imaging.fileformats.bmp/bitmapcompression/) (RGBA).|
 |red_mask|Gets or sets the color mask that specifies the red component of each pixel, valid only if bV4Compression is set to BI_BITFIELDS.|
 |green_mask|Gets or sets the color mask that specifies the green component of each pixel, valid only if bV4Compression is set to BI_BITFIELDS.|
 |blue_mask|Gets or sets the color mask that specifies the blue component of each pixel, valid only if bV4Compression is set to BI_BITFIELDS.|

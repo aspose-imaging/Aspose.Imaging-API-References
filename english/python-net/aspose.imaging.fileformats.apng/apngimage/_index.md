@@ -2,16 +2,16 @@
 title: ApngImage Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.apng/apngimage/
+url: /python-net/aspose.imaging.fileformats.apng/apngimage/
 ---
 
 The animated PNG image.
 
-**Namespace:** [aspose.imaging.fileformats.apng](/imaging/python-net/api-reference/aspose.imaging.fileformats.apng/)
+**Namespace:** [aspose.imaging.fileformats.apng](/imaging/python-net/aspose.imaging.fileformats.apng/)
 
 **Full Class Name:** aspose.imaging.fileformats.apng.ApngImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The ApngImage type exposes the following members:
 ## **Constructors**
@@ -57,10 +57,9 @@ The ApngImage type exposes the following members:
 |image_opacity|Gets opacity of this image.|
 |page_count|Gets the page count.|
 |pages|Gets the pages.|
-|default_page|Gets the default page.|
 |num_plays|Gets or sets the number of times to loop animation.<br/>            0 indicates infinite looping.|
 |default_frame_time|Gets or sets the default frame duration.<br/>            Used when creating new frames.|
-|interlaced|Gets a value indicating whether this [PngImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.png/pngimage/) is interlaced.|
+|interlaced|Gets a value indicating whether this [PngImage](/imaging/python-net/aspose.imaging.fileformats.png/pngimage/) is interlaced.|
 ## **Methods**
 |**Name**|**Description**|
 | :- | :- |
@@ -146,8 +145,6 @@ The ApngImage type exposes the following members:
 |set_palette(palette, update_colors)|  |
 |get_proportional_width(width, height, new_height)|  |
 |get_proportional_height(width, height, new_width)|  |
-|is_multipage()|  |
-|as_multipage()|  |
 |get_modify_date(use_default)|Gets the date and time the resource image was last modified.|
 |get_default_pixels(rectangle, partial_pixel_loader)|  |
 |get_default_argb_32_pixels(rectangle)|  |
@@ -163,6 +160,7 @@ The ApngImage type exposes the following members:
 |load_partial_pixels(desired_rectangle, pixel_loader)|  |
 |load_argb_32_pixels(rectangle)|  |
 |load_argb_64_pixels(rectangle)|  |
+|load_partial_argb_64_pixels(rectangle, partial_pixel_loader)|  |
 |load_pixels(rectangle)|  |
 |load_cmyk_pixels(rectangle)|  |
 |load_cmyk_32_pixels(rectangle)|  |
@@ -177,7 +175,7 @@ The ApngImage type exposes the following members:
 |binarize_otsu()|Binarization of an image with Otsu thresholding|
 |grayscale()|Transformation of an image to its grayscale representation|
 |adjust_brightness(brightness)|Adjust of a|
-|adjust_contrast(contrast)|[Image](/imaging/python-net/api-reference/aspose.imaging/image/) contrasting|
+|adjust_contrast(contrast)|[Image](/imaging/python-net/aspose.imaging/image/) contrasting|
 |get_skew_angle()|  |
 |filter(rectangle, options)|Filters the specified rectangle.|
 |replace_argb(old_color_argb, old_color_diff, new_color_argb)|  |

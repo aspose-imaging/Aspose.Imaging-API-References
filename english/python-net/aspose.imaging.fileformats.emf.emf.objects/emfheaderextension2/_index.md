@@ -2,16 +2,16 @@
 title: EmfHeaderExtension2 Class
 type: docs
 weight: 100
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emfheaderextension2/
+url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfheaderextension2/
 ---
 
 The HeaderExtension2 object defines the second extension to the EMF metafile header. It adds the<br/>            ability to measure device surfaces in micrometers, which enhances the resolution and scalability of EMF metafiles.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfHeaderExtension2
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfHeaderExtension2 type exposes the following members:
 ## **Constructors**
@@ -34,6 +34,6 @@ The EmfHeaderExtension2 type exposes the following members:
 |n_pal_entries|Gets or sets a 32-bit unsigned integer that specifies the number of entries in the metafile <br/>            palette. The palette is located in the EMR_EOF record|
 |device|Gets or sets a WMF SizeL object ([MS-WMF] section 2.2.2.22) that specifies the size of the reference device, in pixels|
 |millimeters|Gets or sets a WMF SizeL object that specifies the size of the reference device, in millimeters|
-|valid|Gets a value indicating whether this [EmfHeaderObject](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/) is valid.|
+|valid|Gets a value indicating whether this [EmfHeaderObject](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/) is valid.|
 |micrometers_x|Gets or sets the 32-bit horizontal size of the display device for which the metafile image was generated, in micrometers|
 |micrometers_y|Gets or sets the 32-bit vertical size of the display device for which the metafile image was generated, in micrometers.|

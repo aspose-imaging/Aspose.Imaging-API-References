@@ -2,16 +2,16 @@
 title: WmfSetTextAlign Class
 type: docs
 weight: 760
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfsettextalign/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsettextalign/
 ---
 
 The Set text align
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetTextAlign
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfSetTextAlign type exposes the following members:
 ## **Constructors**

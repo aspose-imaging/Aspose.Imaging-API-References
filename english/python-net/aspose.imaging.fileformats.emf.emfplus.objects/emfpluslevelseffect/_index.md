@@ -2,16 +2,16 @@
 title: EmfPlusLevelsEffect Class
 type: docs
 weight: 420
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslevelseffect/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslevelseffect/
 ---
 
 The LevelsEffect object specifies adjustments to the highlights, midtones, and shadows of an image.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusLevelsEffect
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusLevelsEffect type exposes the following members:
 ## **Constructors**

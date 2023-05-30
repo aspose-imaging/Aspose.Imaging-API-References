@@ -2,16 +2,16 @@
 title: EmfPlusPenOptionalData Class
 type: docs
 weight: 560
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata/
 ---
 
 The EmfPlusPenOptionalData object specifies optional data for a graphics pen
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPenOptionalData
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusPenOptionalData type exposes the following members:
 ## **Constructors**

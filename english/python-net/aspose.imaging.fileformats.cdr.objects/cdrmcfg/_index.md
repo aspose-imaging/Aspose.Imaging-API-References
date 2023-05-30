@@ -2,16 +2,16 @@
 title: CdrMcfg Class
 type: docs
 weight: 170
-url: /python-net/api-reference/aspose.imaging.fileformats.cdr.objects/cdrmcfg/
+url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrmcfg/
 ---
 
 The cdr configuration object
 
-**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.objects/)
+**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrMcfg
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CdrMcfg type exposes the following members:
 ## **Constructors**

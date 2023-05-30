@@ -2,22 +2,22 @@
 title: RectangleShape Class
 type: docs
 weight: 80
-url: /python-net/api-reference/aspose.imaging.shapes/rectangleshape/
+url: /python-net/aspose.imaging.shapes/rectangleshape/
 ---
 
 Represents a rectangular shape.
 
-**Namespace:** [aspose.imaging.shapes](/imaging/python-net/api-reference/aspose.imaging.shapes/)
+**Namespace:** [aspose.imaging.shapes](/imaging/python-net/aspose.imaging.shapes/)
 
 **Full Class Name:** aspose.imaging.shapes.RectangleShape
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The RectangleShape type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|RectangleShape()|Initializes a new instance of the [RectangleShape](/imaging/python-net/api-reference/aspose.imaging.shapes/rectangleshape/) class.|
+|RectangleShape()|Initializes a new instance of the [RectangleShape](/imaging/python-net/aspose.imaging.shapes/rectangleshape/) class.|
 |RectangleShape(rectangle)|Initializes a new instance of the RectangleShape class|
 ## **Properties**
 |**Name**|**Description**|

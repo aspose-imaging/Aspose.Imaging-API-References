@@ -2,16 +2,16 @@
 title: FontStoringArgs Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.svg/fontstoringargs/
+url: /python-net/aspose.imaging.fileformats.svg/fontstoringargs/
 ---
 
 The font storing arguments
 
-**Namespace:** [aspose.imaging.fileformats.svg](/imaging/python-net/api-reference/aspose.imaging.fileformats.svg/)
+**Namespace:** [aspose.imaging.fileformats.svg](/imaging/python-net/aspose.imaging.fileformats.svg/)
 
 **Full Class Name:** aspose.imaging.fileformats.svg.FontStoringArgs
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The FontStoringArgs type exposes the following members:
 ## **Constructors**

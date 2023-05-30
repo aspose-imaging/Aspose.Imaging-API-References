@@ -2,16 +2,16 @@
 title: EmfLogBrushEx Class
 type: docs
 weight: 120
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/
+url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/
 ---
 
 The LogBrushEx object defines the style, color, and pattern of a device-independent brush.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfLogBrushEx
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfLogBrushEx type exposes the following members:
 ## **Constructors**

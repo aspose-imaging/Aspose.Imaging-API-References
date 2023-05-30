@@ -2,16 +2,16 @@
 title: EmfPlusStringDigitSubstitution Enumeration
 type: docs
 weight: 400
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfplusstringdigitsubstitution/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusstringdigitsubstitution/
 ---
 
 The StringDigitSubstitution enumeration defines ways to substitute digits in a string according to a user's locale or language.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusStringDigitSubstitution
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

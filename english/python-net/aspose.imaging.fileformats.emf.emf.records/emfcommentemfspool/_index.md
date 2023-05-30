@@ -2,23 +2,23 @@
 title: EmfCommentEmfSpool Class
 type: docs
 weight: 180
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool/
 ---
 
 The EMR_COMMENT_EMFSPOOL record contains embedded EMFSPOOL records. <br/>            Note  Fields that are not described in this section are specified in section 2.3.3.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfCommentEmfSpool
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfCommentEmfSpool type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfCommentEmfSpool(source)|Initializes a new instance of the EmfCommentEmfSpool class|
-|EmfCommentEmfSpool()|Initializes a new instance of the [EmfCommentEmfSpool](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool/) class.|
+|EmfCommentEmfSpool()|Initializes a new instance of the [EmfCommentEmfSpool](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

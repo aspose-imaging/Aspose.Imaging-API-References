@@ -2,16 +2,16 @@
 title: EmfPlusSetInterpolationMode Class
 type: docs
 weight: 510
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplussetinterpolationmode/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetinterpolationmode/
 ---
 
 The EmfPlusSetInterpolationMode record specifies how image scaling, including stretching and shrinking, is performed.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSetInterpolationMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusSetInterpolationMode type exposes the following members:
 ## **Constructors**

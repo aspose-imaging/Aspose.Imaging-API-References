@@ -2,16 +2,16 @@
 title: CdrCurve Class
 type: docs
 weight: 50
-url: /python-net/api-reference/aspose.imaging.fileformats.cdr.objects/cdrcurve/
+url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrcurve/
 ---
 
 The cdr curve
 
-**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.objects/)
+**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrCurve
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CdrCurve type exposes the following members:
 ## **Constructors**

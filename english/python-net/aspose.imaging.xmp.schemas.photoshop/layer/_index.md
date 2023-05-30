@@ -2,23 +2,23 @@
 title: Layer Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.xmp.schemas.photoshop/layer/
+url: /python-net/aspose.imaging.xmp.schemas.photoshop/layer/
 ---
 
 Represents Photoshop text layer.
 
-**Namespace:** [aspose.imaging.xmp.schemas.photoshop](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.photoshop/)
+**Namespace:** [aspose.imaging.xmp.schemas.photoshop](/imaging/python-net/aspose.imaging.xmp.schemas.photoshop/)
 
 **Full Class Name:** aspose.imaging.xmp.schemas.photoshop.Layer
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The Layer type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |Layer(layer_name, layer_text)|Initializes a new instance of the Layer class|
-|Layer()|Initializes a new instance of the [Layer](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.photoshop/layer/) class.|
+|Layer()|Initializes a new instance of the [Layer](/imaging/python-net/aspose.imaging.xmp.schemas.photoshop/layer/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

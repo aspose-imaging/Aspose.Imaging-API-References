@@ -2,22 +2,22 @@
 title: CdrGradient Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.cdr.types/cdrgradient/
+url: /python-net/aspose.imaging.fileformats.cdr.types/cdrgradient/
 ---
 
 The cdr gradient
 
-**Namespace:** [aspose.imaging.fileformats.cdr.types](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.types/)
+**Namespace:** [aspose.imaging.fileformats.cdr.types](/imaging/python-net/aspose.imaging.fileformats.cdr.types/)
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.types.CdrGradient
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CdrGradient type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|CdrGradient()|Initializes a new instance of the [CdrGradient](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.types/cdrgradient/) class.|
+|CdrGradient()|Initializes a new instance of the [CdrGradient](/imaging/python-net/aspose.imaging.fileformats.cdr.types/cdrgradient/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

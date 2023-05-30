@@ -2,16 +2,16 @@
 title: CdrParagraph Class
 type: docs
 weight: 220
-url: /python-net/api-reference/aspose.imaging.fileformats.cdr.objects/cdrparagraph/
+url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrparagraph/
 ---
 
 The cdr Paragraph
 
-**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.objects/)
+**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrParagraph
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CdrParagraph type exposes the following members:
 ## **Constructors**

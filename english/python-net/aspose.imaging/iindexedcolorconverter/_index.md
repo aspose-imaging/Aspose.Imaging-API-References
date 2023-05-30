@@ -2,16 +2,16 @@
 title: IIndexedColorConverter Class
 type: docs
 weight: 360
-url: /python-net/api-reference/aspose.imaging/iindexedcolorconverter/
+url: /python-net/aspose.imaging/iindexedcolorconverter/
 ---
 
 The color converter for indexed image formats.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.IIndexedColorConverter
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IIndexedColorConverter type exposes the following members:
 ## **Methods**

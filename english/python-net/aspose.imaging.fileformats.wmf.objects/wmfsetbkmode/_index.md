@@ -2,16 +2,16 @@
 title: WmfSetBkMode Class
 type: docs
 weight: 650
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfsetbkmode/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetbkmode/
 ---
 
 The set bk mode.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetBkMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfSetBkMode type exposes the following members:
 ## **Constructors**

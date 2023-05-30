@@ -2,23 +2,23 @@
 title: XmpTrailerPi Class
 type: docs
 weight: 130
-url: /python-net/api-reference/aspose.imaging.xmp/xmptrailerpi/
+url: /python-net/aspose.imaging.xmp/xmptrailerpi/
 ---
 
 Represents XMP trailer processing instruction.
 
-**Namespace:** [aspose.imaging.xmp](/imaging/python-net/api-reference/aspose.imaging.xmp/)
+**Namespace:** [aspose.imaging.xmp](/imaging/python-net/aspose.imaging.xmp/)
 
 **Full Class Name:** aspose.imaging.xmp.XmpTrailerPi
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The XmpTrailerPi type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |XmpTrailerPi(is_writable)|Initializes a new instance of the XmpTrailerPi class|
-|XmpTrailerPi()|Initializes a new instance of the [XmpTrailerPi](/imaging/python-net/api-reference/aspose.imaging.xmp/xmptrailerpi/) class.|
+|XmpTrailerPi()|Initializes a new instance of the [XmpTrailerPi](/imaging/python-net/aspose.imaging.xmp/xmptrailerpi/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

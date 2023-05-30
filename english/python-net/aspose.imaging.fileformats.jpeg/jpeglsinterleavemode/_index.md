@@ -2,16 +2,16 @@
 title: JpegLsInterleaveMode Enumeration
 type: docs
 weight: 70
-url: /python-net/api-reference/aspose.imaging.fileformats.jpeg/jpeglsinterleavemode/
+url: /python-net/aspose.imaging.fileformats.jpeg/jpeglsinterleavemode/
 ---
 
 Defines the interleave mode for multi-component (color) pixel data.
 
-**Namespace:** [aspose.imaging.fileformats.jpeg](/imaging/python-net/api-reference/aspose.imaging.fileformats.jpeg/)
+**Namespace:** [aspose.imaging.fileformats.jpeg](/imaging/python-net/aspose.imaging.fileformats.jpeg/)
 
 **Full Name:** aspose.imaging.fileformats.jpeg.JpegLsInterleaveMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

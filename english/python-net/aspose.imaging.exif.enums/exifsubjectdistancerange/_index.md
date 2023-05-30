@@ -2,16 +2,16 @@
 title: ExifSubjectDistanceRange Enumeration
 type: docs
 weight: 160
-url: /python-net/api-reference/aspose.imaging.exif.enums/exifsubjectdistancerange/
+url: /python-net/aspose.imaging.exif.enums/exifsubjectdistancerange/
 ---
 
 exif subject distance range enum.
 
-**Namespace:** [aspose.imaging.exif.enums](/imaging/python-net/api-reference/aspose.imaging.exif.enums/)
+**Namespace:** [aspose.imaging.exif.enums](/imaging/python-net/aspose.imaging.exif.enums/)
 
 **Full Name:** aspose.imaging.exif.enums.ExifSubjectDistanceRange
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

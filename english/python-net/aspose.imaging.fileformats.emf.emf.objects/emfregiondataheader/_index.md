@@ -2,16 +2,16 @@
 title: EmfRegionDataHeader Class
 type: docs
 weight: 250
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/
+url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader/
 ---
 
 The RegionDataHeader object describes the properties of a RegionData object.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfRegionDataHeader
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfRegionDataHeader type exposes the following members:
 ## **Constructors**

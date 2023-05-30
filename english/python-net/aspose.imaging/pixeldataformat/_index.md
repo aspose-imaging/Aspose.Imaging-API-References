@@ -1,43 +1,44 @@
 ---
 title: PixelDataFormat Class
 type: docs
-weight: 660
-url: /python-net/api-reference/aspose.imaging/pixeldataformat/
+weight: 670
+url: /python-net/aspose.imaging/pixeldataformat/
 ---
 
 The pixel data format. This is an immutable object.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.PixelDataFormat
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The PixelDataFormat type exposes the following members:
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |
-|rgb_32_bpp|Gets the [PixelDataFormat](/imaging/python-net/api-reference/aspose.imaging/pixeldataformat/) defined for 32 bits per pixel with 8 bits for each of the alpha, red, green and blue.|
-|cmyk|Gets the [PixelDataFormat](/imaging/python-net/api-reference/aspose.imaging/pixeldataformat/) defined for 32 bits per pixel with 8 bits for each of the cyan, magenta, yellow and black.|
+|rgb_32_bpp|Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 32 bits per pixel with 8 bits for each of the alpha, red, green and blue.|
+|cmyk|Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 32 bits per pixel with 8 bits for each of the cyan, magenta, yellow and black.|
 |cmyka|Gets the acmyk.|
-|rgb_24_bpp|Gets the [PixelDataFormat](/imaging/python-net/api-reference/aspose.imaging/pixeldataformat/) defined for 24 bits per pixel with 8 bits for each of the alpha, red, green and blue, alpha is not defined.|
-|rgb_16_bpp_555|Gets the [PixelDataFormat](/imaging/python-net/api-reference/aspose.imaging/pixeldataformat/) defined for 16 bits per pixel with 5 bits for each of the red, green and blue, alpha is not defined.|
-|rgb_16_bpp_565|Gets the [PixelDataFormat](/imaging/python-net/api-reference/aspose.imaging/pixeldataformat/) defined for 16 bits per pixel with 5 bits for red, 6 bits for green and 5 bits for blue, alpha is not defined.|
-|rgb_indexed_8_bpp|Gets the [PixelDataFormat](/imaging/python-net/api-reference/aspose.imaging/pixeldataformat/) defined for indexed 8 bit per color.<br/>            The indexed pixel data storage is intended to allow data storage and retrieval everywhere the color palette is used.<br/>            Use with caution, because may require conversion from one palette to another or from RGBA to indexed color model.|
-|rgb_indexed_4_bpp|Gets the [PixelDataFormat](/imaging/python-net/api-reference/aspose.imaging/pixeldataformat/) defined for indexed 4 bit per color.<br/>            The indexed pixel data storage is intended to allow data storage and retrieval everywhere the color palette is used.<br/>            Use with caution, because may require conversion from one palette to another or from RGBA to indexed color model.|
-|rgb_indexed_2_bpp|Gets the [PixelDataFormat](/imaging/python-net/api-reference/aspose.imaging/pixeldataformat/) defined for indexed 2 bit per color.<br/>            The indexed pixel data storage is intended to allow data storage and retrieval everywhere the color palette is used.<br/>            Use with caution, because may require conversion from one palette to another or from RGBA to indexed color model.|
-|rgb_indexed_1_bpp|Gets the [PixelDataFormat](/imaging/python-net/api-reference/aspose.imaging/pixeldataformat/) defined for indexed 1 bit per color.<br/>            The indexed pixel data storage is intended to allow data storage and retrieval everywhere the color palette is used.<br/>            Use with caution, because may require conversion from one palette to another or from RGBA to indexed color model.|
-|y_cb_cr|Gets the [PixelDataFormat](/imaging/python-net/api-reference/aspose.imaging/pixeldataformat/) defined for 24 bits per pixel with 8 bits for each of the luma, blue-difference and red-difference chroma components.|
-|grayscale|Gets the [PixelDataFormat](/imaging/python-net/api-reference/aspose.imaging/pixeldataformat/) defined for 8 bits per pixel with 8 bits representing grayscale intensity in the 0-255 interval.|
-|ycck|Gets the [PixelDataFormat](/imaging/python-net/api-reference/aspose.imaging/pixeldataformat/) defined for 32 bits per pixel with 8 bits for each of the luma, blue-difference, red-difference and black chroma components.|
-|rgba_32_bpp|Gets the [PixelDataFormat](/imaging/python-net/api-reference/aspose.imaging/pixeldataformat/) defined for 32 bits per pixel with 8 bits for each of the alpha, red, green and blue.|
-|rgb_24_bpp_png|Gets the [PixelDataFormat](/imaging/python-net/api-reference/aspose.imaging/pixeldataformat/) defined for 24 bits per pixel with 8 bits for each of the alpha, red, green and blue, alpha is not defined.|
-|grayscale_alpha|Gets the [PixelDataFormat](/imaging/python-net/api-reference/aspose.imaging/pixeldataformat/) defined for 16 bits per pixel with 8 bits representing grayscale intensity in the 0-255 interval and additional 8 bit alpha component.|
+|rgb_24_bpp|Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 24 bits per pixel with 8 bits for each of the alpha, red, green and blue, alpha is not defined.|
+|rgb_16_bpp_555|Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 16 bits per pixel with 5 bits for each of the red, green and blue, alpha is not defined.|
+|rgb_16_bpp_565|Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 16 bits per pixel with 5 bits for red, 6 bits for green and 5 bits for blue, alpha is not defined.|
+|rgb_indexed_8_bpp|Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for indexed 8 bit per color.<br/>            The indexed pixel data storage is intended to allow data storage and retrieval everywhere the color palette is used.<br/>            Use with caution, because may require conversion from one palette to another or from RGBA to indexed color model.|
+|rgb_indexed_4_bpp|Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for indexed 4 bit per color.<br/>            The indexed pixel data storage is intended to allow data storage and retrieval everywhere the color palette is used.<br/>            Use with caution, because may require conversion from one palette to another or from RGBA to indexed color model.|
+|rgb_indexed_2_bpp|Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for indexed 2 bit per color.<br/>            The indexed pixel data storage is intended to allow data storage and retrieval everywhere the color palette is used.<br/>            Use with caution, because may require conversion from one palette to another or from RGBA to indexed color model.|
+|rgb_indexed_1_bpp|Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for indexed 1 bit per color.<br/>            The indexed pixel data storage is intended to allow data storage and retrieval everywhere the color palette is used.<br/>            Use with caution, because may require conversion from one palette to another or from RGBA to indexed color model.|
+|y_cb_cr|Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 24 bits per pixel with 8 bits for each of the luma, blue-difference and red-difference chroma components.|
+|ycck|Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 32 bits per pixel with 8 bits for each of the luma, blue-difference, red-difference and black chroma components.|
+|rgba_32_bpp|Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 32 bits per pixel with 8 bits for each of the alpha, red, green and blue.|
+|rgb_24_bpp_png|Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 24 bits per pixel with 8 bits for each of the alpha, red, green and blue, alpha is not defined.|
+|grayscale_alpha|Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 16 bits per pixel with 8 bits representing grayscale intensity in the 0-255 interval and additional 8 bit alpha component.|
 |pixel_format|Gets the pixel format.|
 |bits_per_pixel|Gets the bits per pixel.|
 |channels_count|Gets the channels count.|
 |channel_bits|Gets the bits count for each channel.|
 |caption|Gets the pixel data format caption.|
+|grayscale|Gets the [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat/) defined for 8 bits per pixel with 8 bits representing grayscale intensity in the 0-255 interval.|
+|GRAYSCALE16|Defined for 16 bits per pixel with up to 16 bits representing grayscale intensity.|
 ## **Methods**
 |**Name**|**Description**|
 | :- | :- |

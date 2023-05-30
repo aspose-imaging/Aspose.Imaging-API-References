@@ -2,16 +2,16 @@
 title: WmfSetViewportOrg Class
 type: docs
 weight: 810
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfsetviewportorg/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetviewportorg/
 ---
 
 The META_SETVIEWPORTORG record defines the viewport origin in the<br/>                playback device context.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetViewportOrg
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfSetViewportOrg type exposes the following members:
 ## **Constructors**

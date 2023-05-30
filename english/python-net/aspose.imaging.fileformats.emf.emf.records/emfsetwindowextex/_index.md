@@ -2,23 +2,23 @@
 title: EmfSetWindowExtEx Class
 type: docs
 weight: 1320
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfsetwindowextex/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetwindowextex/
 ---
 
 The EMR_SETWINDOWEXTEX record defines the window extent.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetWindowExtEx
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfSetWindowExtEx type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfSetWindowExtEx(source)|Initializes a new instance of the EmfSetWindowExtEx class|
-|EmfSetWindowExtEx()|Initializes a new instance of the [EmfSetWindowExtEx](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfsetwindowextex/) class.|
+|EmfSetWindowExtEx()|Initializes a new instance of the [EmfSetWindowExtEx](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetwindowextex/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

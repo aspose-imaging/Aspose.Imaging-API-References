@@ -2,16 +2,16 @@
 title: EmfLogPenEx Class
 type: docs
 weight: 190
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emflogpenex/
+url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emflogpenex/
 ---
 
 The LogPenEx object specifies the style, width, and color of an extended logical pen.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfLogPenEx
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfLogPenEx type exposes the following members:
 ## **Constructors**

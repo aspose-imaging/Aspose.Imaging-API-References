@@ -2,16 +2,16 @@
 title: EpsImage Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.eps/epsimage/
+url: /python-net/aspose.imaging.fileformats.eps/epsimage/
 ---
 
 Base class for EPS format
 
-**Namespace:** [aspose.imaging.fileformats.eps](/imaging/python-net/api-reference/aspose.imaging.fileformats.eps/)
+**Namespace:** [aspose.imaging.fileformats.eps](/imaging/python-net/aspose.imaging.fileformats.eps/)
 
 **Full Class Name:** aspose.imaging.fileformats.eps.EpsImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EpsImage type exposes the following members:
 ## **Properties**
@@ -110,6 +110,4 @@ The EpsImage type exposes the following members:
 |set_palette(palette, update_colors)|Sets the image palette.|
 |get_proportional_width(width, height, new_height)|  |
 |get_proportional_height(width, height, new_width)|  |
-|is_multipage()|  |
-|as_multipage()|  |
 |get_embedded_images()|Gets the embedded images.|

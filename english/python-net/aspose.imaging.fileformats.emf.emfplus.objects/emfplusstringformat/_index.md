@@ -2,16 +2,16 @@
 title: EmfPlusStringFormat Class
 type: docs
 weight: 650
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/
 ---
 
 The EmfPlusStringFormat object specifies text layout,<br/>            display manipulations, and language identification
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStringFormat
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusStringFormat type exposes the following members:
 ## **Constructors**

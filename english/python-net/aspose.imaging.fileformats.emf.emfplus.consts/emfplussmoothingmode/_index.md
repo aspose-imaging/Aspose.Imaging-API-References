@@ -2,16 +2,16 @@
 title: EmfPlusSmoothingMode Enumeration
 type: docs
 weight: 380
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfplussmoothingmode/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplussmoothingmode/
 ---
 
 The SmoothingMode enumeration defines smoothing modes to apply to lines, curves, and the edges of filled areas to make them appear more continuous or sharply defined.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusSmoothingMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

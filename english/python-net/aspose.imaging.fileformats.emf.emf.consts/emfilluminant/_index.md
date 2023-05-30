@@ -2,16 +2,16 @@
 title: EmfIlluminant Enumeration
 type: docs
 weight: 180
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/emfilluminant/
+url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emfilluminant/
 ---
 
 The Illuminant enumeration defines values that specify the illuminant value of an image, which<br/>            determines the standard light source under which the image is viewed so that the color can be adjusted appropriately.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfIlluminant
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

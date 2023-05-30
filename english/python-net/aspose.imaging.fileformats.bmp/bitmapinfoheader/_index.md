@@ -2,16 +2,16 @@
 title: BitmapInfoHeader Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.bmp/bitmapinfoheader/
+url: /python-net/aspose.imaging.fileformats.bmp/bitmapinfoheader/
 ---
 
 Specifies BITMAPINFOHEADER. <br/>                OS Support: Windows NT, 3.1x or later.<br/>                Features: Adds 16 bpp and 32 bpp formats. Adds RLE compression.
 
-**Namespace:** [aspose.imaging.fileformats.bmp](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/)
+**Namespace:** [aspose.imaging.fileformats.bmp](/imaging/python-net/aspose.imaging.fileformats.bmp/)
 
 **Full Class Name:** aspose.imaging.fileformats.bmp.BitmapInfoHeader
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The BitmapInfoHeader type exposes the following members:
 ## **Properties**
@@ -36,4 +36,4 @@ The BitmapInfoHeader type exposes the following members:
 |bitmap_y_pels_per_meter|Gets or sets vertical pixels resolution.|
 |bitmap_colors_used|Gets or sets number of palette colors used.|
 |bitmap_colors_important|Gets or sets number of important palette colors.|
-|extra_bit_masks|Gets or sets the extra bit masks.<br/>            Present only in case the DIB header is the BITMAPINFOHEADER and the [bitmap_compression](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/bitmapinfoheader/) is set to either [BITFIELDS](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/bitmapcompression/) (RGB) or [ALPHA_BITFIELDS](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/bitmapcompression/) (RGBA).|
+|extra_bit_masks|Gets or sets the extra bit masks.<br/>            Present only in case the DIB header is the BITMAPINFOHEADER and the [bitmap_compression](/imaging/python-net/aspose.imaging.fileformats.bmp/bitmapinfoheader/) is set to either [BITFIELDS](/imaging/python-net/aspose.imaging.fileformats.bmp/bitmapcompression/) (RGB) or [ALPHA_BITFIELDS](/imaging/python-net/aspose.imaging.fileformats.bmp/bitmapcompression/) (RGBA).|

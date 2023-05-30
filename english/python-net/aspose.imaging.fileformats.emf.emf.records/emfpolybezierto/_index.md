@@ -2,23 +2,23 @@
 title: EmfPolyBezierTo Class
 type: docs
 weight: 770
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfpolybezierto/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpolybezierto/
 ---
 
 The EMR_POLYBEZIERTO record specifies one or more Bezier curves based upon the current position.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfPolyBezierTo
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPolyBezierTo type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfPolyBezierTo(source)|Initializes a new instance of the EmfPolyBezierTo class|
-|EmfPolyBezierTo()|Initializes a new instance of the [EmfPolyBezierTo](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfpolybezierto/) class.|
+|EmfPolyBezierTo()|Initializes a new instance of the [EmfPolyBezierTo](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfpolybezierto/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

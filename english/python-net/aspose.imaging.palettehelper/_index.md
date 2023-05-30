@@ -1,8 +1,8 @@
 ---
 title: aspose.imaging.palettehelper
 type: docs
-weight: 860
-url: /python-net/api-reference/aspose.imaging.palettehelper/
+weight: 880
+url: /python-net/aspose.imaging.palettehelper/
 ---
 
 
@@ -11,4 +11,4 @@ The namespace contains classes for adjustment of color palette to the image colo
 ## **Classes**
 |**Class**|**Description**|
 | :- | :- |
-|[AdjustPalette](/imaging/python-net/api-reference/aspose.imaging.palettehelper/adjustpalette/)|Color palette adjustment class|
+|[AdjustPalette](/imaging/python-net/aspose.imaging.palettehelper/adjustpalette/)|Color palette adjustment class|

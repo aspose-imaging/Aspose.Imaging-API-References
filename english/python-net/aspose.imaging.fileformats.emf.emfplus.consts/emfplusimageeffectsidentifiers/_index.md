@@ -2,16 +2,16 @@
 title: EmfPlusImageEffectsIdentifiers Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/
 ---
 
 The ImageEffects identifiers define standard GUIDs for specifying graphics image effects. These identifiers are used by device drivers to publish their levels of support for these effects. The identifier constants are defined using the GUID curly-braced string representation ([MS-DTYP] section 2.3.4.3).
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusImageEffectsIdentifiers
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusImageEffectsIdentifiers type exposes the following members:
 ## **Properties**

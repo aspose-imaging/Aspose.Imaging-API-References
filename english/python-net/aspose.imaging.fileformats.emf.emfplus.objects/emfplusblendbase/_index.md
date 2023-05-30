@@ -2,16 +2,16 @@
 title: EmfPlusBlendBase Class
 type: docs
 weight: 70
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendbase/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusblendbase/
 ---
 
 Base object for blend objects
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBlendBase
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusBlendBase type exposes the following members:
 ## **Properties**

@@ -1,23 +1,23 @@
 ---
 title: EpsRasterizationOptions Class
 type: docs
-weight: 100
-url: /python-net/api-reference/aspose.imaging.imageoptions/epsrasterizationoptions/
+weight: 110
+url: /python-net/aspose.imaging.imageoptions/epsrasterizationoptions/
 ---
 
 The Eps rasterization options.
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.EpsRasterizationOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EpsRasterizationOptions type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|EpsRasterizationOptions()|Initializes a new instance of the [EpsRasterizationOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/epsrasterizationoptions/) class.|
+|EpsRasterizationOptions()|Initializes a new instance of the [EpsRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/epsrasterizationoptions/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

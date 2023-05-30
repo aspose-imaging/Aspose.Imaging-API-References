@@ -2,16 +2,16 @@
 title: EmfPlusBoundaryPathData Class
 type: docs
 weight: 120
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundarypathdata/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundarypathdata/
 ---
 
 The EmfPlusBoundaryPathData object specifies a graphics path boundary for a gradient brush.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBoundaryPathData
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusBoundaryPathData type exposes the following members:
 ## **Constructors**

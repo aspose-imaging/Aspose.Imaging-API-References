@@ -1,17 +1,17 @@
 ---
 title: VectorMultipageImage Class
 type: docs
-weight: 870
-url: /python-net/api-reference/aspose.imaging/vectormultipageimage/
+weight: 880
+url: /python-net/aspose.imaging/vectormultipageimage/
 ---
 
 The Vector multipage image
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.VectorMultipageImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The VectorMultipageImage type exposes the following members:
 ## **Properties**
@@ -75,7 +75,7 @@ The VectorMultipageImage type exposes the following members:
 |resize_height_proportionally(new_height)|  |
 |resize_height_proportionally(new_height, resize_type)|  |
 |resize_height_proportionally(new_height, settings)|  |
-|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying<br/>                [data_stream_container](/imaging/python-net/api-reference/aspose.imaging/datastreamsupporter/).|
+|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying<br/>                [data_stream_container](/imaging/python-net/aspose.imaging/datastreamsupporter/).|
 |save_to_stream(stream)|  |
 |can_load_with_options(file_path, load_options)|  |
 |can_load_stream(stream)|  |
@@ -99,6 +99,4 @@ The VectorMultipageImage type exposes the following members:
 |set_palette(palette, update_colors)|Sets the image palette.|
 |get_proportional_width(width, height, new_height)|  |
 |get_proportional_height(width, height, new_width)|  |
-|is_multipage()|  |
-|as_multipage()|  |
 |get_embedded_images()|Gets the embedded images.|

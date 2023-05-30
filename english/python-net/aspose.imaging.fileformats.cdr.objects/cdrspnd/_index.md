@@ -2,16 +2,16 @@
 title: CdrSpnd Class
 type: docs
 weight: 290
-url: /python-net/api-reference/aspose.imaging.fileformats.cdr.objects/cdrspnd/
+url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrspnd/
 ---
 
 The cdr span
 
-**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.objects/)
+**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrSpnd
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CdrSpnd type exposes the following members:
 ## **Constructors**

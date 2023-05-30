@@ -2,16 +2,16 @@
 title: EmfEmrComment Enumeration
 type: docs
 weight: 90
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/emfemrcomment/
+url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emfemrcomment/
 ---
 
 The EmrComment enumeration defines the types of data that a public comment record can<br/>            contain, as specified in section 2.3.3.4.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfEmrComment
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

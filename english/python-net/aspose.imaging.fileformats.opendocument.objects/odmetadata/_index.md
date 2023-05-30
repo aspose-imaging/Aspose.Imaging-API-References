@@ -2,16 +2,16 @@
 title: OdMetadata Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects/odmetadata/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects/odmetadata/
 ---
 
 The Metadata of open document
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.OdMetadata
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdMetadata type exposes the following members:
 ## **Constructors**

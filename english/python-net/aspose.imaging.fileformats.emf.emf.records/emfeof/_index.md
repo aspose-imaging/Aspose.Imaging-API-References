@@ -2,23 +2,23 @@
 title: EmfEof Class
 type: docs
 weight: 380
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfeof/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfeof/
 ---
 
 The EMR_EOF record indicates the end of the metafile and specifies a palette.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfEof
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfEof type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfEof(record)|Initializes a new instance of the EmfEof class|
-|EmfEof()|Initializes a new instance of the [EmfEof](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfeof/) class.|
+|EmfEof()|Initializes a new instance of the [EmfEof](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfeof/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

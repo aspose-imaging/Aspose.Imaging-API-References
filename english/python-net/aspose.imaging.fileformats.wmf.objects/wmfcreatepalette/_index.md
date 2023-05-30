@@ -2,16 +2,16 @@
 title: WmfCreatePalette Class
 type: docs
 weight: 130
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfcreatepalette/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfcreatepalette/
 ---
 
 The META_CREATEPALETTE record creates a Palette Object (section 2.2.1.3).
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfCreatePalette
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfCreatePalette type exposes the following members:
 ## **Constructors**

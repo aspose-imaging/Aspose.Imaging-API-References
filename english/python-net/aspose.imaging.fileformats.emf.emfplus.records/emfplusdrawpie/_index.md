@@ -2,16 +2,16 @@
 title: EmfPlusDrawPie Class
 type: docs
 weight: 170
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawpie/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawpie/
 ---
 
 The EmfPlusDrawPie record specifies drawing a section of the interior of an ellipse.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusDrawPie
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusDrawPie type exposes the following members:
 ## **Constructors**

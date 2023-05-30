@@ -2,16 +2,16 @@
 title: EmfMaskBlt Class
 type: docs
 weight: 590
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfmaskblt/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfmaskblt/
 ---
 
 The EMR_MASKBLT record specifies a block transfer of pixels from a source bitmap to a destination <br/>            rectangle, optionally in combination with a brush pattern and with the application of a color mask <br/>            bitmap, according to specified foreground and background raster operations.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfMaskBlt
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfMaskBlt type exposes the following members:
 ## **Constructors**

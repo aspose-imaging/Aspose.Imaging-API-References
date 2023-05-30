@@ -2,16 +2,16 @@
 title: WmfIntersectClipRect Class
 type: docs
 weight: 320
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfintersectcliprect/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfintersectcliprect/
 ---
 
 The META_INTERSECTCLIPRECT record sets the clipping region in the<br/>                playback device context to the intersection of the existing clipping<br/>                region and the specified rectangle.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfIntersectClipRect
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfIntersectClipRect type exposes the following members:
 ## **Constructors**

@@ -2,16 +2,16 @@
 title: EmfPanose Class
 type: docs
 weight: 210
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emfpanose/
+url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfpanose/
 ---
 
 The Panose object describes the PANOSE font-classification values for a TrueType font. These <br/>            characteristics are used to associate the font with other fonts of similar appearance but different names.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfPanose
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPanose type exposes the following members:
 ## **Constructors**

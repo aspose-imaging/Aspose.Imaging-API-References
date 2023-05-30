@@ -2,23 +2,23 @@
 title: EmfPolyDraw Class
 type: docs
 weight: 790
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfpolydraw/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpolydraw/
 ---
 
 The EMR_POLYDRAW record specifies a set of line segments and Bezier curves.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfPolyDraw
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPolyDraw type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfPolyDraw(source)|Initializes a new instance of the EmfPolyDraw class|
-|EmfPolyDraw()|Initializes a new instance of the [EmfPolyDraw](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfpolydraw/) class.|
+|EmfPolyDraw()|Initializes a new instance of the [EmfPolyDraw](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfpolydraw/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

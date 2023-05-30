@@ -2,16 +2,16 @@
 title: CdrColorModel Enumeration
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.cdr.const/cdrcolormodel/
+url: /python-net/aspose.imaging.fileformats.cdr.const/cdrcolormodel/
 ---
 
 The cdr color models
 
-**Namespace:** [aspose.imaging.fileformats.cdr.const](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.const/)
+**Namespace:** [aspose.imaging.fileformats.cdr.const](/imaging/python-net/aspose.imaging.fileformats.cdr.const/)
 
 **Full Name:** aspose.imaging.fileformats.cdr.const.CdrColorModel
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

@@ -2,23 +2,23 @@
 title: EmfExtCreateFontIndirectW Class
 type: docs
 weight: 410
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw/
 ---
 
 The EMR_EXTCREATEFONTINDIRECTW record defines a logical font for graphics operations.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfExtCreateFontIndirectW
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfExtCreateFontIndirectW type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfExtCreateFontIndirectW(source)|Initializes a new instance of the EmfExtCreateFontIndirectW class|
-|EmfExtCreateFontIndirectW()|Initializes a new instance of the [EmfExtCreateFontIndirectW](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw/) class.|
+|EmfExtCreateFontIndirectW()|Initializes a new instance of the [EmfExtCreateFontIndirectW](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

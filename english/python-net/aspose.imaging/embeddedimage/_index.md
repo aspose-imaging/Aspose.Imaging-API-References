@@ -2,16 +2,16 @@
 title: EmbeddedImage Class
 type: docs
 weight: 170
-url: /python-net/api-reference/aspose.imaging/embeddedimage/
+url: /python-net/aspose.imaging/embeddedimage/
 ---
 
 The embedded image class
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.EmbeddedImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmbeddedImage type exposes the following members:
 ## **Properties**

@@ -2,16 +2,16 @@
 title: EmfPlusInterpolationMode Enumeration
 type: docs
 weight: 200
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/emfplusinterpolationmode/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusinterpolationmode/
 ---
 
 The InterpolationMode enumeration defines ways to perform scaling, including stretching and shrinking.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusInterpolationMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

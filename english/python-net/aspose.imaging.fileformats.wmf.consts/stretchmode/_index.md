@@ -2,16 +2,16 @@
 title: StretchMode Enumeration
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.consts/stretchmode/
+url: /python-net/aspose.imaging.fileformats.wmf.consts/stretchmode/
 ---
 
-The [StretchMode](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.consts/stretchmode/) Enumeration specifies the bitmap<br/>                stretching mode, which defines how the system combines rows or columns<br/>                of a bitmap with existing pixels.
+The [StretchMode](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/stretchmode/) Enumeration specifies the bitmap<br/>                stretching mode, which defines how the system combines rows or columns<br/>                of a bitmap with existing pixels.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.consts/)
+**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.StretchMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

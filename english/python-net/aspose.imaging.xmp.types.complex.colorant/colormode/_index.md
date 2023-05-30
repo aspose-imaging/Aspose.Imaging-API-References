@@ -2,16 +2,16 @@
 title: ColorMode Enumeration
 type: docs
 weight: 50
-url: /python-net/api-reference/aspose.imaging.xmp.types.complex.colorant/colormode/
+url: /python-net/aspose.imaging.xmp.types.complex.colorant/colormode/
 ---
 
 Represents color mode.
 
-**Namespace:** [aspose.imaging.xmp.types.complex.colorant](/imaging/python-net/api-reference/aspose.imaging.xmp.types.complex.colorant/)
+**Namespace:** [aspose.imaging.xmp.types.complex.colorant](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/)
 
 **Full Name:** aspose.imaging.xmp.types.complex.colorant.ColorMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

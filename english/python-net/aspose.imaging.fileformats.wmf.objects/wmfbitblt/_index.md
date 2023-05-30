@@ -2,16 +2,16 @@
 title: WmfBitBlt Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfbitblt/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfbitblt/
 ---
 
 The META_BITBLT record specifies the transfer of a block of pixels<br/>                according to a raster operation. The destination of the transfer is the<br/>                current output region in the playback device context.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfBitBlt
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfBitBlt type exposes the following members:
 ## **Constructors**

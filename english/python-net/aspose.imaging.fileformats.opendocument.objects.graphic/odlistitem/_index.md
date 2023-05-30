@@ -2,16 +2,16 @@
 title: OdListItem Class
 type: docs
 weight: 190
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/odlistitem/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odlistitem/
 ---
 
 The list item
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdListItem
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdListItem type exposes the following members:
 ## **Constructors**

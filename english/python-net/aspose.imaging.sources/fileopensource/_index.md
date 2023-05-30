@@ -2,16 +2,16 @@
 title: FileOpenSource Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.sources/fileopensource/
+url: /python-net/aspose.imaging.sources/fileopensource/
 ---
 
 Represents a file source for opening.
 
-**Namespace:** [aspose.imaging.sources](/imaging/python-net/api-reference/aspose.imaging.sources/)
+**Namespace:** [aspose.imaging.sources](/imaging/python-net/aspose.imaging.sources/)
 
 **Full Class Name:** aspose.imaging.sources.FileOpenSource
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The FileOpenSource type exposes the following members:
 ## **Constructors**

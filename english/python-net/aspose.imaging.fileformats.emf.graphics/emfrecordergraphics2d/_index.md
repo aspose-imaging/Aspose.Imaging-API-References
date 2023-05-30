@@ -2,16 +2,16 @@
 title: EmfRecorderGraphics2D Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d/
+url: /python-net/aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d/
 ---
 
 The Emf recorder graphics
 
-**Namespace:** [aspose.imaging.fileformats.emf.graphics](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.graphics/)
+**Namespace:** [aspose.imaging.fileformats.emf.graphics](/imaging/python-net/aspose.imaging.fileformats.emf.graphics/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.graphics.EmfRecorderGraphics2D
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfRecorderGraphics2D type exposes the following members:
 ## **Constructors**
@@ -75,4 +75,4 @@ The EmfRecorderGraphics2D type exposes the following members:
 |get_transform()|Gets the world transform.|
 |set_transform(transform)|Sets the transform.|
 |end_recording()|Ends the recording.|
-|from_emf_image(emf_image)|Gets an instance of the [EmfRecorderGraphics2D](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d/) containing all records from the Emf image.|
+|from_emf_image(emf_image)|Gets an instance of the [EmfRecorderGraphics2D](/imaging/python-net/aspose.imaging.fileformats.emf.graphics/emfrecordergraphics2d/) containing all records from the Emf image.|

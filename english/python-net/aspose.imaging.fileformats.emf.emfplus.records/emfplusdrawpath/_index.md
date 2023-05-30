@@ -2,16 +2,16 @@
 title: EmfPlusDrawPath Class
 type: docs
 weight: 160
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawpath/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawpath/
 ---
 
 The EmfPlusDrawPath record specifies drawing a graphics path.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusDrawPath
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusDrawPath type exposes the following members:
 ## **Constructors**

@@ -2,16 +2,16 @@
 title: EmfVertexData Class
 type: docs
 weight: 1430
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfvertexdata/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfvertexdata/
 ---
 
 Objects that specify the vertexes of either rectangles or triangles and <br/>            the colors that correspond to them.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfVertexData
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfVertexData type exposes the following members:
 ## **Constructors**

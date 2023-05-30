@@ -2,16 +2,16 @@
 title: EmfPixelFormatDescriptor Class
 type: docs
 weight: 220
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/
+url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/
 ---
 
 The PixelFormatDescriptor object can be used in EMR_HEADER records (section 2.3.4.2) to specify the pixel format of the output surface for the playback device context.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfPixelFormatDescriptor
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPixelFormatDescriptor type exposes the following members:
 ## **Constructors**

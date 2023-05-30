@@ -1,23 +1,23 @@
 ---
 title: DjvuMultiPageOptions Class
 type: docs
-weight: 60
-url: /python-net/api-reference/aspose.imaging.imageoptions/djvumultipageoptions/
+weight: 70
+url: /python-net/aspose.imaging.imageoptions/djvumultipageoptions/
 ---
 
 Djvu format page options
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.DjvuMultiPageOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The DjvuMultiPageOptions type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|DjvuMultiPageOptions()|Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/djvumultipageoptions/) class.|
+|DjvuMultiPageOptions()|Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class.|
 |DjvuMultiPageOptions(pages)|Initializes a new instance of the DjvuMultiPageOptions class|
 |DjvuMultiPageOptions(pages, export_area)|Initializes a new instance of the DjvuMultiPageOptions class|
 |DjvuMultiPageOptions(range)|Initializes a new instance of the DjvuMultiPageOptions class|
@@ -40,14 +40,14 @@ The DjvuMultiPageOptions type exposes the following members:
 ## **Methods**
 |**Name**|**Description**|
 | :- | :- |
-|create_with_page_numbers(pages)|Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/djvumultipageoptions/) class.|
-|create_with_page_numbers_rect(pages, export_area)|Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/djvumultipageoptions/) class.|
-|create_with_page_titles(page_titles)|Initializes a new instance of the [MultiPageOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/multipageoptions/) class.|
-|create_with_page_titles_rect(page_titles, export_area)|Initializes a new instance of the [MultiPageOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/multipageoptions/) class.|
-|create_with_int_ranges(ranges)|Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/djvumultipageoptions/) class.|
-|create_with_int_ranges_rect(ranges, export_area)|Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/djvumultipageoptions/) class.|
-|create_with_int_range(range)|Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/djvumultipageoptions/) class.|
-|create_with_int_range_rect(range, export_area)|Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/djvumultipageoptions/) class.|
-|create_with_page_number(page)|Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/djvumultipageoptions/) class.|
-|create_with_page_number_rect(page, export_area)|Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/djvumultipageoptions/) class.|
+|create_with_page_numbers(pages)|Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class.|
+|create_with_page_numbers_rect(pages, export_area)|Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class.|
+|create_with_page_titles(page_titles)|Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class.|
+|create_with_page_titles_rect(page_titles, export_area)|Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class.|
+|create_with_int_ranges(ranges)|Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class.|
+|create_with_int_ranges_rect(ranges, export_area)|Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class.|
+|create_with_int_range(range)|Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class.|
+|create_with_int_range_rect(range, export_area)|Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class.|
+|create_with_page_number(page)|Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class.|
+|create_with_page_number_rect(page, export_area)|Initializes a new instance of the [DjvuMultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/djvumultipageoptions/) class.|
 |init_pages(ranges)|Initializes the pages from ranges array|

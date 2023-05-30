@@ -2,22 +2,22 @@
 title: Dimensions Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.xmp.types.complex.dimensions/dimensions/
+url: /python-net/aspose.imaging.xmp.types.complex.dimensions/dimensions/
 ---
 
 Containing dimensions for a drawn object.
 
-**Namespace:** [aspose.imaging.xmp.types.complex.dimensions](/imaging/python-net/api-reference/aspose.imaging.xmp.types.complex.dimensions/)
+**Namespace:** [aspose.imaging.xmp.types.complex.dimensions](/imaging/python-net/aspose.imaging.xmp.types.complex.dimensions/)
 
 **Full Class Name:** aspose.imaging.xmp.types.complex.dimensions.Dimensions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The Dimensions type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|Dimensions()|Initializes a new instance of the [Dimensions](/imaging/python-net/api-reference/aspose.imaging.xmp.types.complex.dimensions/dimensions/) class.|
+|Dimensions()|Initializes a new instance of the [Dimensions](/imaging/python-net/aspose.imaging.xmp.types.complex.dimensions/dimensions/) class.|
 |Dimensions(width, height)|Initializes a new instance of the Dimensions class|
 ## **Properties**
 |**Name**|**Description**|

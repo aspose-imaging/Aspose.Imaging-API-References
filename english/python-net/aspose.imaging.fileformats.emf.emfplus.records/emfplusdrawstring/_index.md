@@ -2,16 +2,16 @@
 title: EmfPlusDrawString Class
 type: docs
 weight: 190
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawstring/
 ---
 
 The EmfPlusDrawString record specifies text output with string formatting
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusDrawString
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusDrawString type exposes the following members:
 ## **Constructors**

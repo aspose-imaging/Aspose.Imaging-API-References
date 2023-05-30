@@ -2,16 +2,16 @@
 title: EmfCommentEmfPlus Class
 type: docs
 weight: 170
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfcommentemfplus/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentemfplus/
 ---
 
 The EMR_COMMENT_EMFPLUS record contains embedded EMF+ records. <br/>            Note  Fields that are not described in this section are specified in section 2.3.3.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfCommentEmfPlus
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfCommentEmfPlus type exposes the following members:
 ## **Constructors**

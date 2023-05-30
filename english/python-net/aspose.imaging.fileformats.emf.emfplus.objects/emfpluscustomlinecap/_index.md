@@ -2,16 +2,16 @@
 title: EmfPlusCustomLineCap Class
 type: docs
 weight: 250
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap/
 ---
 
 The EmfPlusCustomLineCap object specifies the shape to use at the ends of a line drawn by a graphics pen.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusCustomLineCap
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusCustomLineCap type exposes the following members:
 ## **Constructors**

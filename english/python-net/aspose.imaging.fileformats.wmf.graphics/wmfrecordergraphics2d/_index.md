@@ -2,16 +2,16 @@
 title: WmfRecorderGraphics2D Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.graphics/wmfrecordergraphics2d/
+url: /python-net/aspose.imaging.fileformats.wmf.graphics/wmfrecordergraphics2d/
 ---
 
 The Wmf recorder.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.graphics](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.graphics/)
+**Namespace:** [aspose.imaging.fileformats.wmf.graphics](/imaging/python-net/aspose.imaging.fileformats.wmf.graphics/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.graphics.WmfRecorderGraphics2D
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfRecorderGraphics2D type exposes the following members:
 ## **Constructors**

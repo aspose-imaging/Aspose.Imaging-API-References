@@ -1,23 +1,23 @@
 ---
 title: RdOptimizerSettings Class
 type: docs
-weight: 260
-url: /python-net/api-reference/aspose.imaging.imageoptions/rdoptimizersettings/
+weight: 270
+url: /python-net/aspose.imaging.imageoptions/rdoptimizersettings/
 ---
 
 RD optimizer settings class
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.RdOptimizerSettings
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The RdOptimizerSettings type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|RdOptimizerSettings()|Initializes a new instance of the [RdOptimizerSettings](/imaging/python-net/api-reference/aspose.imaging.imageoptions/rdoptimizersettings/) class.|
+|RdOptimizerSettings()|Initializes a new instance of the [RdOptimizerSettings](/imaging/python-net/aspose.imaging.imageoptions/rdoptimizersettings/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

@@ -2,16 +2,16 @@
 title: OdMoveTo Class
 type: docs
 weight: 220
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/odmoveto/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odmoveto/
 ---
 
 The Enhanced moveTo
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.graphic/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdMoveTo
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdMoveTo type exposes the following members:
 ## **Constructors**

@@ -2,16 +2,16 @@
 title: TypeOfEntities Enumeration
 type: docs
 weight: 430
-url: /python-net/api-reference/aspose.imaging.imageoptions/typeofentities/
+url: /python-net/aspose.imaging.imageoptions/typeofentities/
 ---
 
 Represents types of entities to render
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Name:** aspose.imaging.imageoptions.TypeOfEntities
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

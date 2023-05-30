@@ -1,23 +1,23 @@
 ---
 title: PsdVectorizationOptions Class
 type: docs
-weight: 250
-url: /python-net/api-reference/aspose.imaging.imageoptions/psdvectorizationoptions/
+weight: 260
+url: /python-net/aspose.imaging.imageoptions/psdvectorizationoptions/
 ---
 
 The vectorized PSD rasterization options.
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.PsdVectorizationOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The PsdVectorizationOptions type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|PsdVectorizationOptions()|Initializes a new instance of the [PsdVectorizationOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/psdvectorizationoptions/) class.|
+|PsdVectorizationOptions()|Initializes a new instance of the [PsdVectorizationOptions](/imaging/python-net/aspose.imaging.imageoptions/psdvectorizationoptions/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

@@ -2,16 +2,16 @@
 title: WmfBitmap16 Class
 type: docs
 weight: 40
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfbitmap16/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfbitmap16/
 ---
 
 The Bitmap16 Object specifies information about the dimensions and color<br/>                format of a bitmap.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfBitmap16
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfBitmap16 type exposes the following members:
 ## **Constructors**

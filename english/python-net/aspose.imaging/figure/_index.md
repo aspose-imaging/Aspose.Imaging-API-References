@@ -2,27 +2,27 @@
 title: Figure Class
 type: docs
 weight: 180
-url: /python-net/api-reference/aspose.imaging/figure/
+url: /python-net/aspose.imaging/figure/
 ---
 
 The figure. A container for shapes.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.Figure
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The Figure type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|Figure()|Initializes a new instance of the Figure class|
+|Figure()|Initializes a new [Figure](/imaging/python-net/aspose.imaging/figure/) instance.<br/>            A constructor required for a JSON deserialization.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |
 |bounds|Gets or sets the object's bounds.|
-|shapes|Gets the figure shapes.|
+|shapes|Gets or sets the figure shapes.|
 |is_closed|Gets or sets a value indicating whether this figure is closed. A closed figure will make a difference only in case where<br/>            the first and the last figure's shapes are continuous shapes. In such case the first point of the first shape will be<br/>            connected by a straight line from the last point of the last shape.|
 |segments|Gets the whole figure segments.|
 ## **Methods**

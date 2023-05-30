@@ -1,23 +1,23 @@
 ---
 title: GifOptions Class
 type: docs
-weight: 110
-url: /python-net/api-reference/aspose.imaging.imageoptions/gifoptions/
+weight: 120
+url: /python-net/aspose.imaging.imageoptions/gifoptions/
 ---
 
 The gif file format creation options.
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.GifOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The GifOptions type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|GifOptions()|Initializes a new instance of the [GifOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/gifoptions/) class.|
+|GifOptions()|Initializes a new instance of the [GifOptions](/imaging/python-net/aspose.imaging.imageoptions/gifoptions/) class.|
 |GifOptions(gif_options)|Initializes a new instance of the GifOptions class|
 ## **Properties**
 |**Name**|**Description**|

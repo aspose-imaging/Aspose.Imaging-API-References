@@ -1,17 +1,17 @@
 ---
 title: OtgRasterizationOptions Class
 type: docs
-weight: 210
-url: /python-net/api-reference/aspose.imaging.imageoptions/otgrasterizationoptions/
+weight: 220
+url: /python-net/aspose.imaging.imageoptions/otgrasterizationoptions/
 ---
 
 The Otg rasterization options
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.OtgRasterizationOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OtgRasterizationOptions type exposes the following members:
 ## **Constructors**

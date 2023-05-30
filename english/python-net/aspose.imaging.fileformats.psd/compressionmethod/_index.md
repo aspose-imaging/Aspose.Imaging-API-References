@@ -2,16 +2,16 @@
 title: CompressionMethod Enumeration
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.psd/compressionmethod/
+url: /python-net/aspose.imaging.fileformats.psd/compressionmethod/
 ---
 
 Defines the compression method used for image data.
 
-**Namespace:** [aspose.imaging.fileformats.psd](/imaging/python-net/api-reference/aspose.imaging.fileformats.psd/)
+**Namespace:** [aspose.imaging.fileformats.psd](/imaging/python-net/aspose.imaging.fileformats.psd/)
 
 **Full Name:** aspose.imaging.fileformats.psd.CompressionMethod
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

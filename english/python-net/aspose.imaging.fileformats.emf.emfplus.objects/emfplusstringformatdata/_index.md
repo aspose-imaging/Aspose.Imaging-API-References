@@ -2,16 +2,16 @@
 title: EmfPlusStringFormatData Class
 type: docs
 weight: 660
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformatdata/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformatdata/
 ---
 
 The EmfPlusStringFormatData object specifies tab stops and character positions for a graphics string.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStringFormatData
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusStringFormatData type exposes the following members:
 ## **Constructors**

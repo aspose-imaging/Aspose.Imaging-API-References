@@ -2,16 +2,16 @@
 title: OdTextAlignModeFlags Enumeration
 type: docs
 weight: 50
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.enums/odtextalignmodeflags/
+url: /python-net/aspose.imaging.fileformats.opendocument.enums/odtextalignmodeflags/
 ---
 
 The open document text align mode flags
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.enums](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.enums/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.enums](/imaging/python-net/aspose.imaging.fileformats.opendocument.enums/)
 
 **Full Name:** aspose.imaging.fileformats.opendocument.enums.OdTextAlignModeFlags
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|
@@ -22,6 +22,7 @@ The open document text align mode flags
 |UPDATECP|The drawing position in the playback device context MUST be updated after each text<br/>                output call. It MUST be used as the reference point.|
 |RIGHT|The reference point MUST be on the right edge of the bounding rectangle.|
 |CENTER|The reference point MUST be aligned horizontally with the center of the bounding rectangle.|
+|JUSTIFY|The text must be aligned in a way each text line of a paragraph has the same length.|
 |BOTTOM|The reference point MUST be on the bottom edge of the bounding rectangle.|
 |BASELINE|The reference point MUST be on the baseline of the text.|
 |RTLREADING|The text MUST be laid out in right-to-left reading order, instead of the default left-to right order. This SHOULD<br/>                be applied only when the font that is defined in the playback<br/>                device context is either Hebrew or Arabic.|

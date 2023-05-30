@@ -2,16 +2,16 @@
 title: OdPen Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.pen/odpen/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects.pen/odpen/
 ---
 
 The open document pen
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.pen](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.pen/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects.pen](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.pen/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.pen.OdPen
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdPen type exposes the following members:
 ## **Constructors**

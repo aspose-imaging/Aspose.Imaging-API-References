@@ -2,16 +2,16 @@
 title: EmfNamedEscape Class
 type: docs
 weight: 650
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfnamedescape/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfnamedescape/
 ---
 
 The MR_NAMEDESCAPE record passes arbitrary information to a specified printer driver.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfNamedEscape
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfNamedEscape type exposes the following members:
 ## **Constructors**

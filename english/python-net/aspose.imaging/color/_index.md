@@ -2,16 +2,16 @@
 title: Color Class
 type: docs
 weight: 70
-url: /python-net/api-reference/aspose.imaging/color/
+url: /python-net/aspose.imaging/color/
 ---
 
 The color of the pixel.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.Color
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The Color type exposes the following members:
 ## **Constructors**
@@ -21,7 +21,7 @@ The Color type exposes the following members:
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |
-|empty|Gets an empty [Color](/imaging/python-net/api-reference/aspose.imaging/color/).|
+|empty|Gets an empty [Color](/imaging/python-net/aspose.imaging/color/).|
 |transparent|Gets a system-defined color.|
 |alice_blue|Gets a system-defined color.|
 |antique_white|Gets a system-defined color.|
@@ -163,34 +163,34 @@ The Color type exposes the following members:
 |white_smoke|Gets a system-defined color.|
 |yellow|Gets a system-defined color.|
 |yellow_green|Gets a system-defined color.|
-|r|Gets the red component value of this [Color](/imaging/python-net/api-reference/aspose.imaging/color/) structure.|
-|g|Gets the green component value of this [Color](/imaging/python-net/api-reference/aspose.imaging/color/) structure.|
-|b|Gets the blue component value of this [Color](/imaging/python-net/api-reference/aspose.imaging/color/) structure.|
-|a|Gets the alpha component value of this [Color](/imaging/python-net/api-reference/aspose.imaging/color/) structure.|
-|is_known_color|Gets a value indicating whether this [Color](/imaging/python-net/api-reference/aspose.imaging/color/) structure is a predefined color. Predefined colors are represented by the elements of the [KnownColor](/imaging/python-net/api-reference/aspose.imaging/knowncolor/) enumeration.|
-|is_empty|Gets a value indicating whether this [Color](/imaging/python-net/api-reference/aspose.imaging/color/) structure is uninitialized.|
-|is_named_color|Gets a value indicating whether this [Color](/imaging/python-net/api-reference/aspose.imaging/color/) structure is a named color or a member of the [KnownColor](/imaging/python-net/api-reference/aspose.imaging/knowncolor/) enumeration.|
-|name|Gets the name of this [Color](/imaging/python-net/api-reference/aspose.imaging/color/).|
+|r|Gets the red component value of this [Color](/imaging/python-net/aspose.imaging/color/) structure.|
+|g|Gets the green component value of this [Color](/imaging/python-net/aspose.imaging/color/) structure.|
+|b|Gets the blue component value of this [Color](/imaging/python-net/aspose.imaging/color/) structure.|
+|a|Gets the alpha component value of this [Color](/imaging/python-net/aspose.imaging/color/) structure.|
+|is_known_color|Gets a value indicating whether this [Color](/imaging/python-net/aspose.imaging/color/) structure is a predefined color. Predefined colors are represented by the elements of the [KnownColor](/imaging/python-net/aspose.imaging/knowncolor/) enumeration.|
+|is_empty|Gets a value indicating whether this [Color](/imaging/python-net/aspose.imaging/color/) structure is uninitialized.|
+|is_named_color|Gets a value indicating whether this [Color](/imaging/python-net/aspose.imaging/color/) structure is a named color or a member of the [KnownColor](/imaging/python-net/aspose.imaging/knowncolor/) enumeration.|
+|name|Gets the name of this [Color](/imaging/python-net/aspose.imaging/color/).|
 ## **Methods**
 |**Name**|**Description**|
 | :- | :- |
-|from_argb(argb)|Creates a [Color](/imaging/python-net/api-reference/aspose.imaging/color/) structure from a 32-bit ARGB value.|
-|from_argb(alpha, red, green, blue)|Creates a [Color](/imaging/python-net/api-reference/aspose.imaging/color/) structure from a 32-bit ARGB value.|
-|from_argb(alpha, base_color)|Creates a [Color](/imaging/python-net/api-reference/aspose.imaging/color/) structure from a 32-bit ARGB value.|
-|from_argb(red, green, blue)|Creates a [Color](/imaging/python-net/api-reference/aspose.imaging/color/) structure from a 32-bit ARGB value.|
+|from_argb(argb)|Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from a 32-bit ARGB value.|
+|from_argb(alpha, red, green, blue)|Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from a 32-bit ARGB value.|
+|from_argb(alpha, base_color)|Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from a 32-bit ARGB value.|
+|from_argb(red, green, blue)|Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from a 32-bit ARGB value.|
 |to_cmyk(pixels)|The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective|
 |to_cmyk(pixel)|The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective|
 |to_cmyk_icc(pixel)|  |
 |to_cmyk_icc(pixels)|  |
 |to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)|  |
 |to_cmyk_icc(pixel, rgb_icc_stream, cmyk_icc_stream)|  |
-|from_known_color(color)|Creates a [Color](/imaging/python-net/api-reference/aspose.imaging/color/) structure from the specified predefined color.|
-|from_name(name)|Creates a [Color](/imaging/python-net/api-reference/aspose.imaging/color/) structure from the specified name of a predefined color.|
-|get_brightness()|Gets the hue-saturation-brightness (HSB) brightness value for this [Color](/imaging/python-net/api-reference/aspose.imaging/color/) structure.|
-|get_hue()|Gets the hue-saturation-brightness (HSB) hue value, in degrees, for this [Color](/imaging/python-net/api-reference/aspose.imaging/color/) structure.|
-|get_saturation()|Gets the hue-saturation-brightness (HSB) saturation value for this [Color](/imaging/python-net/api-reference/aspose.imaging/color/) structure.|
-|to_argb()|Gets the 32-bit ARGB value of this [Color](/imaging/python-net/api-reference/aspose.imaging/color/) structure.|
-|to_known_color()|Gets the [KnownColor](/imaging/python-net/api-reference/aspose.imaging/knowncolor/) value of this [Color](/imaging/python-net/api-reference/aspose.imaging/color/) structure.|
+|from_known_color(color)|Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from the specified predefined color.|
+|from_name(name)|Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from the specified name of a predefined color.|
+|get_brightness()|Gets the hue-saturation-brightness (HSB) brightness value for this [Color](/imaging/python-net/aspose.imaging/color/) structure.|
+|get_hue()|Gets the hue-saturation-brightness (HSB) hue value, in degrees, for this [Color](/imaging/python-net/aspose.imaging/color/) structure.|
+|get_saturation()|Gets the hue-saturation-brightness (HSB) saturation value for this [Color](/imaging/python-net/aspose.imaging/color/) structure.|
+|to_argb()|Gets the 32-bit ARGB value of this [Color](/imaging/python-net/aspose.imaging/color/) structure.|
+|to_known_color()|Gets the [KnownColor](/imaging/python-net/aspose.imaging/knowncolor/) value of this [Color](/imaging/python-net/aspose.imaging/color/) structure.|
 |to_cmyk_colors(pixels)|The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective|
 |to_cmyk_color(pixel)|The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective|
 |to_cmyk_color_with_def_icc(pixel)|The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective|

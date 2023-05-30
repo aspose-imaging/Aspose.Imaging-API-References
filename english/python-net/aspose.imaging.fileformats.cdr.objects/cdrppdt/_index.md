@@ -2,16 +2,16 @@
 title: CdrPpdt Class
 type: docs
 weight: 270
-url: /python-net/api-reference/aspose.imaging.fileformats.cdr.objects/cdrppdt/
+url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrppdt/
 ---
 
 The cdr knot vector object
 
-**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr.objects/)
+**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrPpdt
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CdrPpdt type exposes the following members:
 ## **Constructors**

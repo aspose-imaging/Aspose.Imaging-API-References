@@ -1,8 +1,8 @@
 ---
 title: aspose.imaging.memorymanagement
 type: docs
-weight: 840
-url: /python-net/api-reference/aspose.imaging.memorymanagement/
+weight: 860
+url: /python-net/aspose.imaging.memorymanagement/
 ---
 
 
@@ -11,4 +11,4 @@ The namespace contains memory management routines.
 ## **Classes**
 |**Class**|**Description**|
 | :- | :- |
-|[Configuration](/imaging/python-net/api-reference/aspose.imaging.memorymanagement/configuration/)|The memory management global configuration|
+|[Configuration](/imaging/python-net/aspose.imaging.memorymanagement/configuration/)|The memory management global configuration|

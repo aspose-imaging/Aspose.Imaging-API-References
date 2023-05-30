@@ -2,16 +2,16 @@
 title: CmxRasterImage Class
 type: docs
 weight: 60
-url: /python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/
+url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/
 ---
 
 Represents the data specified for raster images.
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.specs](/imaging/python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.specs/)
+**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.specs](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/)
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.specs.CmxRasterImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CmxRasterImage type exposes the following members:
 ## **Constructors**

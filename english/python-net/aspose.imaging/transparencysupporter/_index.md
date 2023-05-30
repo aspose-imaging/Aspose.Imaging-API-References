@@ -1,17 +1,17 @@
 ---
 title: TransparencySupporter Class
 type: docs
-weight: 850
-url: /python-net/api-reference/aspose.imaging/transparencysupporter/
+weight: 860
+url: /python-net/aspose.imaging/transparencysupporter/
 ---
 
 The object supporting transparency.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.TransparencySupporter
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The TransparencySupporter type exposes the following members:
 ## **Constructors**

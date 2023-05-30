@@ -2,16 +2,16 @@
 title: WmfLineTo Class
 type: docs
 weight: 340
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmflineto/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmflineto/
 ---
 
 The META_LINETO record draws a line from the drawing position that is<br/>                defined in the playback device context up to, but not including, the<br/>                specified point.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfLineTo
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfLineTo type exposes the following members:
 ## **Constructors**

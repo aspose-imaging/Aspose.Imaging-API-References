@@ -2,16 +2,16 @@
 title: WmfHatchStyle Enumeration
 type: docs
 weight: 120
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.consts/wmfhatchstyle/
+url: /python-net/aspose.imaging.fileformats.wmf.consts/wmfhatchstyle/
 ---
 
 The HatchStyle Enumeration specifies the hatch pattern.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.consts/)
+**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfHatchStyle
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

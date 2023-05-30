@@ -1,23 +1,23 @@
 ---
 title: PdfOptions Class
 type: docs
-weight: 220
-url: /python-net/api-reference/aspose.imaging.imageoptions/pdfoptions/
+weight: 230
+url: /python-net/aspose.imaging.imageoptions/pdfoptions/
 ---
 
 The PDF options.
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.PdfOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The PdfOptions type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|PdfOptions()|Initializes a new instance of the [PdfOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/pdfoptions/) class.|
+|PdfOptions()|Initializes a new instance of the [PdfOptions](/imaging/python-net/aspose.imaging.imageoptions/pdfoptions/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

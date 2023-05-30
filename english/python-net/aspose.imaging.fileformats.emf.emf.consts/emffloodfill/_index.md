@@ -2,16 +2,16 @@
 title: EmfFloodFill Enumeration
 type: docs
 weight: 120
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/emffloodfill/
+url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emffloodfill/
 ---
 
 The FloodFill enumeration defines values that specify how to determine the area for a flood fill operation.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfFloodFill
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

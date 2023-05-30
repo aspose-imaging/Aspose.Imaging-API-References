@@ -2,22 +2,22 @@
 title: XmpDynamicMediaPackage Class
 type: docs
 weight: 70
-url: /python-net/api-reference/aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/
+url: /python-net/aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/
 ---
 
 Represents XMP Dynamic Media namespace.
 
-**Namespace:** [aspose.imaging.xmp.schemas.xmpdm](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.xmpdm/)
+**Namespace:** [aspose.imaging.xmp.schemas.xmpdm](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/)
 
 **Full Class Name:** aspose.imaging.xmp.schemas.xmpdm.XmpDynamicMediaPackage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The XmpDynamicMediaPackage type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|XmpDynamicMediaPackage()|Initializes a new instance of the [XmpDynamicMediaPackage](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/) class.|
+|XmpDynamicMediaPackage()|Initializes a new instance of the [XmpDynamicMediaPackage](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

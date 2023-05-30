@@ -2,22 +2,22 @@
 title: XmpHeaderPi Class
 type: docs
 weight: 70
-url: /python-net/api-reference/aspose.imaging.xmp/xmpheaderpi/
+url: /python-net/aspose.imaging.xmp/xmpheaderpi/
 ---
 
 Represents XMP header processing instruction.
 
-**Namespace:** [aspose.imaging.xmp](/imaging/python-net/api-reference/aspose.imaging.xmp/)
+**Namespace:** [aspose.imaging.xmp](/imaging/python-net/aspose.imaging.xmp/)
 
 **Full Class Name:** aspose.imaging.xmp.XmpHeaderPi
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The XmpHeaderPi type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|XmpHeaderPi()|Initializes a new instance of the [XmpHeaderPi](/imaging/python-net/api-reference/aspose.imaging.xmp/xmpheaderpi/) class.|
+|XmpHeaderPi()|Initializes a new instance of the [XmpHeaderPi](/imaging/python-net/aspose.imaging.xmp/xmpheaderpi/) class.|
 |XmpHeaderPi(guid)|Initializes a new instance of the XmpHeaderPi class|
 ## **Properties**
 |**Name**|**Description**|

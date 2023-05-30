@@ -2,16 +2,16 @@
 title: WmfPostScriptClipping Enumeration
 type: docs
 weight: 230
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.consts/wmfpostscriptclipping/
+url: /python-net/aspose.imaging.fileformats.wmf.consts/wmfpostscriptclipping/
 ---
 
 The PostScriptClipping Enumeration defines functions that can be applied to the clipping path<br/>                used for PostScript output.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.consts/)
+**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfPostScriptClipping
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

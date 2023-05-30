@@ -2,16 +2,16 @@
 title: ColorType Enumeration
 type: docs
 weight: 60
-url: /python-net/api-reference/aspose.imaging.xmp.types.complex.colorant/colortype/
+url: /python-net/aspose.imaging.xmp.types.complex.colorant/colortype/
 ---
 
 Type of color.
 
-**Namespace:** [aspose.imaging.xmp.types.complex.colorant](/imaging/python-net/api-reference/aspose.imaging.xmp.types.complex.colorant/)
+**Namespace:** [aspose.imaging.xmp.types.complex.colorant](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/)
 
 **Full Name:** aspose.imaging.xmp.types.complex.colorant.ColorType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

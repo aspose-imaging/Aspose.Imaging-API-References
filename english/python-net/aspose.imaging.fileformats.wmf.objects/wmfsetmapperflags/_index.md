@@ -2,16 +2,16 @@
 title: WmfSetMapperFlags Class
 type: docs
 weight: 690
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfsetmapperflags/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetmapperflags/
 ---
 
 The META_SETMAPPERFLAGS record defines the algorithm that the font<br/>                mapper uses when it maps logical fonts to physical fonts.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetMapperFlags
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfSetMapperFlags type exposes the following members:
 ## **Constructors**

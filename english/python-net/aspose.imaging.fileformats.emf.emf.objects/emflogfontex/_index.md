@@ -2,16 +2,16 @@
 title: EmfLogFontEx Class
 type: docs
 weight: 140
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emflogfontex/
+url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emflogfontex/
 ---
 
 The LogFontEx object specifies the extended attributes of a logical font.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfLogFontEx
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfLogFontEx type exposes the following members:
 ## **Constructors**

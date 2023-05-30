@@ -2,16 +2,16 @@
 title: EmfGradientFill Class
 type: docs
 weight: 550
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfgradientfill/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfgradientfill/
 ---
 
 The EMR_GRADIENTFILL record specifies filling rectangles or triangles with gradients of color.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfGradientFill
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfGradientFill type exposes the following members:
 ## **Constructors**

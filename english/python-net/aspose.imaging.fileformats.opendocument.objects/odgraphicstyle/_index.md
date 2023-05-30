@@ -2,16 +2,16 @@
 title: OdGraphicStyle Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/
 ---
 
 The open document graphic style.
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.OdGraphicStyle
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdGraphicStyle type exposes the following members:
 ## **Constructors**

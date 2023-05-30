@@ -2,23 +2,23 @@
 title: EmfStretchBlt Class
 type: docs
 weight: 1370
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfstretchblt/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfstretchblt/
 ---
 
 The EMR_STRETCHBLT record specifies a block transfer of pixels from a source bitmap to a <br/>            destination rectangle, optionally in combination with a brush pattern, according to a specified raster<br/>            operation, stretching or compressing the output to fit the dimensions of the destination, if necessary.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfStretchBlt
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfStretchBlt type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfStretchBlt(source)|Initializes a new instance of the EmfStretchBlt class|
-|EmfStretchBlt()|Initializes a new instance of the [EmfStretchBlt](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfstretchblt/) class.|
+|EmfStretchBlt()|Initializes a new instance of the [EmfStretchBlt](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfstretchblt/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

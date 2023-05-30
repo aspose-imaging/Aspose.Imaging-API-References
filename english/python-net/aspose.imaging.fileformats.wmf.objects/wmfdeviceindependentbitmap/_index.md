@@ -2,16 +2,16 @@
 title: WmfDeviceIndependentBitmap Class
 type: docs
 weight: 180
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/
 ---
 
 The DeviceIndependentBitmap Object defines an image in<br/>                device-independent bitmap (DIB) format
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfDeviceIndependentBitmap
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfDeviceIndependentBitmap type exposes the following members:
 ## **Constructors**

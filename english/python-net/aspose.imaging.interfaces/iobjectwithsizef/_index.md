@@ -2,16 +2,16 @@
 title: IObjectWithSizeF Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.interfaces/iobjectwithsizef/
+url: /python-net/aspose.imaging.interfaces/iobjectwithsizef/
 ---
 
 Represents object with Size which are expressed in real numbers (in inches).
 
-**Namespace:** [aspose.imaging.interfaces](/imaging/python-net/api-reference/aspose.imaging.interfaces/)
+**Namespace:** [aspose.imaging.interfaces](/imaging/python-net/aspose.imaging.interfaces/)
 
 **Full Class Name:** aspose.imaging.interfaces.IObjectWithSizeF
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IObjectWithSizeF type exposes the following members:
 ## **Properties**

@@ -2,16 +2,16 @@
 title: Os22XBitmapHeader Class
 type: docs
 weight: 60
-url: /python-net/api-reference/aspose.imaging.fileformats.bmp/os22xbitmapheader/
+url: /python-net/aspose.imaging.fileformats.bmp/os22xbitmapheader/
 ---
 
 An OS/2 2.x OS22XBITMAPHEADER aka BITMAPCOREHEADER2.
 
-**Namespace:** [aspose.imaging.fileformats.bmp](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/)
+**Namespace:** [aspose.imaging.fileformats.bmp](/imaging/python-net/aspose.imaging.fileformats.bmp/)
 
 **Full Class Name:** aspose.imaging.fileformats.bmp.Os22XBitmapHeader
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The Os22XBitmapHeader type exposes the following members:
 ## **Properties**
@@ -36,7 +36,7 @@ The Os22XBitmapHeader type exposes the following members:
 |bitmap_y_pels_per_meter|Gets or sets vertical pixels resolution.|
 |bitmap_colors_used|Gets or sets number of palette colors used.|
 |bitmap_colors_important|Gets or sets number of important palette colors.|
-|extra_bit_masks|Gets or sets the extra bit masks.<br/>            Present only in case the DIB header is the BITMAPINFOHEADER and the [bitmap_compression](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/bitmapinfoheader/) is set to either [BITFIELDS](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/bitmapcompression/) (RGB) or [ALPHA_BITFIELDS](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/bitmapcompression/) (RGBA).|
+|extra_bit_masks|Gets or sets the extra bit masks.<br/>            Present only in case the DIB header is the BITMAPINFOHEADER and the [bitmap_compression](/imaging/python-net/aspose.imaging.fileformats.bmp/bitmapinfoheader/) is set to either [BITFIELDS](/imaging/python-net/aspose.imaging.fileformats.bmp/bitmapcompression/) (RGB) or [ALPHA_BITFIELDS](/imaging/python-net/aspose.imaging.fileformats.bmp/bitmapcompression/) (RGBA).|
 |units|Gets the units.|
 |reserved|Gets the reserved.|
 |recording|Gets the recording.|

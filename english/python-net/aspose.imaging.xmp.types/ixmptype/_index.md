@@ -2,16 +2,16 @@
 title: IXmpType Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.xmp.types/ixmptype/
+url: /python-net/aspose.imaging.xmp.types/ixmptype/
 ---
 
 Base interface for XMP type.
 
-**Namespace:** [aspose.imaging.xmp.types](/imaging/python-net/api-reference/aspose.imaging.xmp.types/)
+**Namespace:** [aspose.imaging.xmp.types](/imaging/python-net/aspose.imaging.xmp.types/)
 
 **Full Class Name:** aspose.imaging.xmp.types.IXmpType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IXmpType type exposes the following members:
 ## **Methods**

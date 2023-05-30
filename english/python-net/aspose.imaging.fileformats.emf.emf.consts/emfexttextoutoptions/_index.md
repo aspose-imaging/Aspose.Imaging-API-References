@@ -2,16 +2,16 @@
 title: EmfExtTextOutOptions Enumeration
 type: docs
 weight: 100
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/emfexttextoutoptions/
+url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emfexttextoutoptions/
 ---
 
 The ExtTextOutOptions enumeration specifies parameters that control various aspects of the<br/>            output of text by EMR_SMALLTEXTOUT(section 2.3.5.37) records and in EmrText objects.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfExtTextOutOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

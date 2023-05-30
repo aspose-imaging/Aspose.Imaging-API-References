@@ -2,16 +2,16 @@
 title: WmfSetPalentries Class
 type: docs
 weight: 700
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfsetpalentries/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetpalentries/
 ---
 
 The META_SETPALENTRIES record defines RGB color values in a range of<br/>                entries in the logical palette that is defined in the playback device<br/>                context.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetPalentries
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfSetPalentries type exposes the following members:
 ## **Constructors**

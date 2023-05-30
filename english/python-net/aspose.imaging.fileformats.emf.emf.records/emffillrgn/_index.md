@@ -2,23 +2,23 @@
 title: EmfFillRgn Class
 type: docs
 weight: 490
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emffillrgn/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emffillrgn/
 ---
 
 The EMR_FILLRGN record fills the specified region by using the specified brush.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfFillRgn
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfFillRgn type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
 |EmfFillRgn(source)|Initializes a new instance of the EmfFillRgn class|
-|EmfFillRgn()|Initializes a new instance of the [EmfFillRgn](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emffillrgn/) class.|
+|EmfFillRgn()|Initializes a new instance of the [EmfFillRgn](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emffillrgn/) class.|
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |

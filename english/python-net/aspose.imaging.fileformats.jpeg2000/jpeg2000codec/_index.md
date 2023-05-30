@@ -2,16 +2,16 @@
 title: Jpeg2000Codec Enumeration
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.jpeg2000/jpeg2000codec/
+url: /python-net/aspose.imaging.fileformats.jpeg2000/jpeg2000codec/
 ---
 
 Represents JPEG2000 image type
 
-**Namespace:** [aspose.imaging.fileformats.jpeg2000](/imaging/python-net/api-reference/aspose.imaging.fileformats.jpeg2000/)
+**Namespace:** [aspose.imaging.fileformats.jpeg2000](/imaging/python-net/aspose.imaging.fileformats.jpeg2000/)
 
 **Full Name:** aspose.imaging.fileformats.jpeg2000.Jpeg2000Codec
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

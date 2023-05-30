@@ -2,16 +2,16 @@
 title: EmfPlusObjectRecordType Class
 type: docs
 weight: 340
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplusobjectrecordtype/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusobjectrecordtype/
 ---
 
 The Object Record Types define reusable graphics objects.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusObjectRecordType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusObjectRecordType type exposes the following members:
 ## **Properties**

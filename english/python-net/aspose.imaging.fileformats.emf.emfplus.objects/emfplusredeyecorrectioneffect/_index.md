@@ -2,16 +2,16 @@
 title: EmfPlusRedEyeCorrectionEffect Class
 type: docs
 weight: 580
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfplusredeyecorrectioneffect/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusredeyecorrectioneffect/
 ---
 
 The RedEyeCorrectionEffect object specifies areas of an image to which a red-eye correction is applied.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusRedEyeCorrectionEffect
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusRedEyeCorrectionEffect type exposes the following members:
 ## **Constructors**

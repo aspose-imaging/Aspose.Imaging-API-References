@@ -2,16 +2,16 @@
 title: OtgImage Class
 type: docs
 weight: 40
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument/otgimage/
+url: /python-net/aspose.imaging.fileformats.opendocument/otgimage/
 ---
 
 The Otg image
 
-**Namespace:** [aspose.imaging.fileformats.opendocument](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument/)
+**Namespace:** [aspose.imaging.fileformats.opendocument](/imaging/python-net/aspose.imaging.fileformats.opendocument/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.OtgImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OtgImage type exposes the following members:
 ## **Constructors**
@@ -106,6 +106,4 @@ The OtgImage type exposes the following members:
 |set_palette(palette, update_colors)|  |
 |get_proportional_width(width, height, new_height)|  |
 |get_proportional_height(width, height, new_width)|  |
-|is_multipage()|  |
-|as_multipage()|  |
 |get_embedded_images()|  |

@@ -2,16 +2,16 @@
 title: PngFilterType Enumeration
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.fileformats.png/pngfiltertype/
+url: /python-net/aspose.imaging.fileformats.png/pngfiltertype/
 ---
 
 The png filter type.
 
-**Namespace:** [aspose.imaging.fileformats.png](/imaging/python-net/api-reference/aspose.imaging.fileformats.png/)
+**Namespace:** [aspose.imaging.fileformats.png](/imaging/python-net/aspose.imaging.fileformats.png/)
 
 **Full Name:** aspose.imaging.fileformats.png.PngFilterType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

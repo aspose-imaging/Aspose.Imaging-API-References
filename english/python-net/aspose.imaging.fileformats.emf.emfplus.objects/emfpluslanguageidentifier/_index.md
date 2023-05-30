@@ -2,16 +2,16 @@
 title: EmfPlusLanguageIdentifier Class
 type: docs
 weight: 410
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslanguageidentifier/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslanguageidentifier/
 ---
 
 The EmfPlusLanguageIdentifier object specifies a language identifier that corresponds to the natural<br/>            language in a locale, including countries, geographical regions, and administrative districts. <br/>            Each language identifier is an encoding of a primary language value and sublanguage value.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusLanguageIdentifier
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusLanguageIdentifier type exposes the following members:
 ## **Constructors**

@@ -2,22 +2,22 @@
 title: JpegExifData Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.exif/jpegexifdata/
+url: /python-net/aspose.imaging.exif/jpegexifdata/
 ---
 
 EXIF data container for jpeg files.
 
-**Namespace:** [aspose.imaging.exif](/imaging/python-net/api-reference/aspose.imaging.exif/)
+**Namespace:** [aspose.imaging.exif](/imaging/python-net/aspose.imaging.exif/)
 
 **Full Class Name:** aspose.imaging.exif.JpegExifData
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The JpegExifData type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|JpegExifData()|Initializes a new instance of the [JpegExifData](/imaging/python-net/api-reference/aspose.imaging.exif/jpegexifdata/) class.|
+|JpegExifData()|Initializes a new instance of the [JpegExifData](/imaging/python-net/aspose.imaging.exif/jpegexifdata/) class.|
 |JpegExifData(exifdata)|Initializes a new instance of the JpegExifData class|
 |JpegExifData(common_tags, exif_tags, gps_tags)|Initializes a new instance of the JpegExifData class|
 ## **Properties**

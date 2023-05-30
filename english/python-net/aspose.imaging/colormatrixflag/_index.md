@@ -1,17 +1,17 @@
 ---
 title: ColorMatrixFlag Enumeration
 type: docs
-weight: 8910
-url: /python-net/api-reference/aspose.imaging/colormatrixflag/
+weight: 9000
+url: /python-net/aspose.imaging/colormatrixflag/
 ---
 
-Specifies the types of images and colors that will be affected by the color and grayscale adjustment settings of an [ImageAttributes](/imaging/python-net/api-reference/aspose.imaging/imageattributes/).
+Specifies the types of images and colors that will be affected by the color and grayscale adjustment settings of an [ImageAttributes](/imaging/python-net/aspose.imaging/imageattributes/).
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Name:** aspose.imaging.ColorMatrixFlag
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

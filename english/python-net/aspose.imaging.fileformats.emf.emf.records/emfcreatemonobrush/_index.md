@@ -2,16 +2,16 @@
 title: EmfCreateMonoBrush Class
 type: docs
 weight: 290
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfcreatemonobrush/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatemonobrush/
 ---
 
 The EMR_CREATEMONOBRUSH record defines a monochrome pattern brush for graphics operations.<br/>            The pattern is specified by a monochrome DIB.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfCreateMonoBrush
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfCreateMonoBrush type exposes the following members:
 ## **Constructors**

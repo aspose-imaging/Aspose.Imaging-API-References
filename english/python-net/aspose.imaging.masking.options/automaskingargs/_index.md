@@ -2,16 +2,16 @@
 title: AutoMaskingArgs Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.masking.options/automaskingargs/
+url: /python-net/aspose.imaging.masking.options/automaskingargs/
 ---
 
 Represents the arguments that are specified for automated masking methods
 
-**Namespace:** [aspose.imaging.masking.options](/imaging/python-net/api-reference/aspose.imaging.masking.options/)
+**Namespace:** [aspose.imaging.masking.options](/imaging/python-net/aspose.imaging.masking.options/)
 
 **Full Class Name:** aspose.imaging.masking.options.AutoMaskingArgs
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The AutoMaskingArgs type exposes the following members:
 ## **Constructors**

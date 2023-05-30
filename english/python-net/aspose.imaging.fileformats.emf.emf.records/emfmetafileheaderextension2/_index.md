@@ -2,16 +2,16 @@
 title: EmfMetafileHeaderExtension2 Class
 type: docs
 weight: 620
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension2/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension2/
 ---
 
 The EmfMetafileHeaderExtension2 record is the header record used in the second extension to EMF<br/>            metafiles. Following the EmfHeaderExtension2 field, the remaining fields are optional and<br/>            can be present in any order.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfMetafileHeaderExtension2
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfMetafileHeaderExtension2 type exposes the following members:
 ## **Constructors**
@@ -36,6 +36,6 @@ The EmfMetafileHeaderExtension2 type exposes the following members:
 | :- | :- |
 |create_from_record(record)|  |
 |create_from_type(type)|  |
-|create_from_header(header)|Initializes a new instance of the [EmfMetafileHeaderExtension2](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension2/) class.|
-|create_from_header_extension1(header)|Initializes a new instance of the [EmfMetafileHeaderExtension2](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension2/) class.|
-|create_from_header_extension2(header)|Initializes a new instance of the [EmfMetafileHeaderExtension2](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension2/) class.|
+|create_from_header(header)|Initializes a new instance of the [EmfMetafileHeaderExtension2](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension2/) class.|
+|create_from_header_extension1(header)|Initializes a new instance of the [EmfMetafileHeaderExtension2](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension2/) class.|
+|create_from_header_extension2(header)|Initializes a new instance of the [EmfMetafileHeaderExtension2](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheaderextension2/) class.|

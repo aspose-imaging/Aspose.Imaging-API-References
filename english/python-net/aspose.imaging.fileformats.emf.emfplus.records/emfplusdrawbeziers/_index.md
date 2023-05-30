@@ -2,16 +2,16 @@
 title: EmfPlusDrawBeziers Class
 type: docs
 weight: 80
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawbeziers/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawbeziers/
 ---
 
 The EmfPlusDrawBeziers record specifies drawing a sequence of connected Bezier curves. <br/>            The order for Bezier data points is the start point, control point 1, <br/>            control point 2 and end point. For more information see [MSDN-DrawBeziers].
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusDrawBeziers
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusDrawBeziers type exposes the following members:
 ## **Constructors**

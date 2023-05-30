@@ -2,16 +2,16 @@
 title: FillTypes Enumeration
 type: docs
 weight: 40
-url: /python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.enums/filltypes/
+url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/filltypes/
 ---
 
 Fill types for the brush.
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.enums](/imaging/python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.enums/)
+**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.enums](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/)
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.enums.FillTypes
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

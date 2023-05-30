@@ -2,16 +2,16 @@
 title: EmfFormat Class
 type: docs
 weight: 60
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emfformat/
+url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfformat/
 ---
 
 The EmrFormat object contains information that identifies the format of image data in an<br/>            EMR_COMMENT_MULTIFORMATS record(section 2.3.3.4.3).
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfFormat
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfFormat type exposes the following members:
 ## **Constructors**

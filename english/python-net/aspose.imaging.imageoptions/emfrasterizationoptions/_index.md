@@ -1,17 +1,17 @@
 ---
 title: EmfRasterizationOptions Class
 type: docs
-weight: 90
-url: /python-net/api-reference/aspose.imaging.imageoptions/emfrasterizationoptions/
+weight: 100
+url: /python-net/aspose.imaging.imageoptions/emfrasterizationoptions/
 ---
 
 The Emf rasterization options.
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.EmfRasterizationOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfRasterizationOptions type exposes the following members:
 ## **Constructors**

@@ -2,16 +2,16 @@
 title: WmfSetStretchbltMode Class
 type: docs
 weight: 750
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfsetstretchbltmode/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetstretchbltmode/
 ---
 
 The META_SETSTRETCHBLTMODE record defines the bitmap stretching mode in<br/>                the playback device context.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetStretchbltMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfSetStretchbltMode type exposes the following members:
 ## **Constructors**

@@ -2,16 +2,16 @@
 title: IObjectWithBounds Class
 type: docs
 weight: 400
-url: /python-net/api-reference/aspose.imaging/iobjectwithbounds/
+url: /python-net/aspose.imaging/iobjectwithbounds/
 ---
 
 Represents an object with bounds.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.IObjectWithBounds
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IObjectWithBounds type exposes the following members:
 ## **Properties**

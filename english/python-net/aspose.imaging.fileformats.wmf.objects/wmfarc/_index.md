@@ -2,16 +2,16 @@
 title: WmfArc Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfarc/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfarc/
 ---
 
 The META_ARC record draws an elliptical arc.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfArc
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfArc type exposes the following members:
 ## **Constructors**

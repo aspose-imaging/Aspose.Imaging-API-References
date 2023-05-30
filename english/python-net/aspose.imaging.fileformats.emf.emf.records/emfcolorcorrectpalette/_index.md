@@ -2,16 +2,16 @@
 title: EmfColorCorrectPalette Class
 type: docs
 weight: 130
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/
+url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/
 ---
 
 The EMR_COLORCORRECTPALETTE record specifies how to correct the entries of a logical palette<br/>            object using WCS 1.0 values.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfColorCorrectPalette
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfColorCorrectPalette type exposes the following members:
 ## **Constructors**

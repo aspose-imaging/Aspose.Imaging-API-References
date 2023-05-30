@@ -2,16 +2,16 @@
 title: AudioChannelType Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.xmp.schemas.xmpdm/audiochanneltype/
+url: /python-net/aspose.imaging.xmp.schemas.xmpdm/audiochanneltype/
 ---
 
 Represents audio channel type.
 
-**Namespace:** [aspose.imaging.xmp.schemas.xmpdm](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.xmpdm/)
+**Namespace:** [aspose.imaging.xmp.schemas.xmpdm](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/)
 
 **Full Class Name:** aspose.imaging.xmp.schemas.xmpdm.AudioChannelType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The AudioChannelType type exposes the following members:
 ## **Properties**

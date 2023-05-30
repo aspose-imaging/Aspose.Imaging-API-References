@@ -2,16 +2,16 @@
 title: Timecode Class
 type: docs
 weight: 60
-url: /python-net/api-reference/aspose.imaging.xmp.schemas.xmpdm/timecode/
+url: /python-net/aspose.imaging.xmp.schemas.xmpdm/timecode/
 ---
 
 Represents timecode value in video.
 
-**Namespace:** [aspose.imaging.xmp.schemas.xmpdm](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.xmpdm/)
+**Namespace:** [aspose.imaging.xmp.schemas.xmpdm](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/)
 
 **Full Class Name:** aspose.imaging.xmp.schemas.xmpdm.Timecode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The Timecode type exposes the following members:
 ## **Constructors**
@@ -21,7 +21,7 @@ The Timecode type exposes the following members:
 ## **Properties**
 |**Name**|**Description**|
 | :- | :- |
-|format|Gets or sets the format used in the [time_value](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.xmpdm/timecode/).|
+|format|Gets or sets the format used in the [time_value](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/timecode/).|
 |time_value|Gets or sets the time value in the specified format.|
 ## **Methods**
 |**Name**|**Description**|

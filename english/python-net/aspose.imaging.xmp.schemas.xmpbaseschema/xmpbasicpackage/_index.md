@@ -2,22 +2,22 @@
 title: XmpBasicPackage Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/
+url: /python-net/aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/
 ---
 
 Represents XMP basic namespace.
 
-**Namespace:** [aspose.imaging.xmp.schemas.xmpbaseschema](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.xmpbaseschema/)
+**Namespace:** [aspose.imaging.xmp.schemas.xmpbaseschema](/imaging/python-net/aspose.imaging.xmp.schemas.xmpbaseschema/)
 
 **Full Class Name:** aspose.imaging.xmp.schemas.xmpbaseschema.XmpBasicPackage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The XmpBasicPackage type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|XmpBasicPackage()|Initializes a new instance of the [XmpBasicPackage](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/) class.|
+|XmpBasicPackage()|Initializes a new instance of the [XmpBasicPackage](/imaging/python-net/aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/) class.|
 |XmpBasicPackage(prefix, namespace_uri)|Initializes a new instance of the XmpBasicPackage class|
 ## **Properties**
 |**Name**|**Description**|

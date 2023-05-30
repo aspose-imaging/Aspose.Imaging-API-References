@@ -2,16 +2,16 @@
 title: CmxColor Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor/
+url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor/
 ---
 
 Represents a color value.
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.styles](/imaging/python-net/api-reference/aspose.imaging.fileformats.cmx.objectmodel.styles/)
+**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.styles](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/)
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.styles.CmxColor
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The CmxColor type exposes the following members:
 ## **Constructors**

@@ -2,16 +2,16 @@
 title: WmfMoveTo Class
 type: docs
 weight: 370
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfmoveto/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfmoveto/
 ---
 
 The META_MOVETO record sets the output position in the playback device<br/>                context to a specified point.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfMoveTo
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfMoveTo type exposes the following members:
 ## **Constructors**

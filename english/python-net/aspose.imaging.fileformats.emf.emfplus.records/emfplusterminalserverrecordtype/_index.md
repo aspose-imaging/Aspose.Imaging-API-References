@@ -2,16 +2,16 @@
 title: EmfPlusTerminalServerRecordType Class
 type: docs
 weight: 610
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplusterminalserverrecordtype/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusterminalserverrecordtype/
 ---
 
 The Terminal Server Record Types specify graphics processing on a terminal server. The following<br/>            are EMF+ terminal server record types.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusTerminalServerRecordType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusTerminalServerRecordType type exposes the following members:
 ## **Properties**

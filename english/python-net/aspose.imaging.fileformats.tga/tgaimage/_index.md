@@ -2,16 +2,16 @@
 title: TgaImage Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.tga/tgaimage/
+url: /python-net/aspose.imaging.fileformats.tga/tgaimage/
 ---
 
 The TGA image.
 
-**Namespace:** [aspose.imaging.fileformats.tga](/imaging/python-net/api-reference/aspose.imaging.fileformats.tga/)
+**Namespace:** [aspose.imaging.fileformats.tga](/imaging/python-net/aspose.imaging.fileformats.tga/)
 
 **Full Class Name:** aspose.imaging.fileformats.tga.TgaImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The TgaImage type exposes the following members:
 ## **Constructors**
@@ -54,11 +54,11 @@ The TgaImage type exposes the following members:
 |horizontal_resolution|  |
 |vertical_resolution|  |
 |has_transparent_color|Gets or sets a value indicating whether the image has transparent color.|
-|has_alpha|Gets a value indicating whether  this [TgaImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.tga/tgaimage/) has an alpha channel.|
+|has_alpha|Gets a value indicating whether  this [TgaImage](/imaging/python-net/aspose.imaging.fileformats.tga/tgaimage/) has an alpha channel.|
 |transparent_color|Gets or sets Key Color.|
 |image_opacity|  |
 |bytes_per_pixel|Gets bytes per pixel.|
-|is_gray_scale|Gets a value indicating whether this [TgaImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.tga/tgaimage/) is gray-scale.|
+|is_gray_scale|Gets a value indicating whether this [TgaImage](/imaging/python-net/aspose.imaging.fileformats.tga/tgaimage/) is gray-scale.|
 |has_color_map|Gets a value indicating whether this image has color map.|
 |gamma_value_numerator|Gets Gamma Value Numerator part.<br/>            An uncorrected image (an image with no gamma) should have the value 1.0 as the result.|
 |gamma_value_denominator|Gets Gamma Value Denominator part.<br/>            An uncorrected image (an image with no gamma) should have the value 1.0 as the result.|
@@ -133,7 +133,7 @@ The TgaImage type exposes the following members:
 |replace_non_transparent_colors(new_color_argb)|  |
 |clone()|Creates a new object that is a copy of the current instance.|
 |clone(tga_image)|Creates a new object that is a copy of the current instance.|
-|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying [data_stream_container](/imaging/python-net/api-reference/aspose.imaging/datastreamsupporter/).|
+|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying [data_stream_container](/imaging/python-net/aspose.imaging/datastreamsupporter/).|
 |save_to_stream(stream)|  |
 |can_load_with_options(file_path, load_options)|  |
 |can_load_stream(stream)|  |
@@ -157,8 +157,6 @@ The TgaImage type exposes the following members:
 |set_palette(palette, update_colors)|  |
 |get_proportional_width(width, height, new_height)|  |
 |get_proportional_height(width, height, new_width)|  |
-|is_multipage()|  |
-|as_multipage()|  |
 |get_modify_date(use_default)|  |
 |get_default_pixels(rectangle, partial_pixel_loader)|  |
 |get_default_argb_32_pixels(rectangle)|  |
@@ -174,6 +172,7 @@ The TgaImage type exposes the following members:
 |load_partial_pixels(desired_rectangle, pixel_loader)|  |
 |load_argb_32_pixels(rectangle)|  |
 |load_argb_64_pixels(rectangle)|  |
+|load_partial_argb_64_pixels(rectangle, partial_pixel_loader)|  |
 |load_pixels(rectangle)|  |
 |load_cmyk_pixels(rectangle)|  |
 |load_cmyk_32_pixels(rectangle)|  |
@@ -192,5 +191,5 @@ The TgaImage type exposes the following members:
 |get_skew_angle()|  |
 |filter(rectangle, options)|  |
 |replace_argb(old_color_argb, old_color_diff, new_color_argb)|  |
-|create_from_image(raster_image)|Initializes a new instance of the [TgaImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.tga/tgaimage/) class.|
-|create_from_stream(stream)|Initializes a new instance of the [TgaImage](/imaging/python-net/api-reference/aspose.imaging.fileformats.tga/tgaimage/) class.|
+|create_from_image(raster_image)|Initializes a new instance of the [TgaImage](/imaging/python-net/aspose.imaging.fileformats.tga/tgaimage/) class.|
+|create_from_stream(stream)|Initializes a new instance of the [TgaImage](/imaging/python-net/aspose.imaging.fileformats.tga/tgaimage/) class.|

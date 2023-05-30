@@ -2,16 +2,16 @@
 title: IMaskingAsyncTask Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.masking/imaskingasynctask/
+url: /python-net/aspose.imaging.masking/imaskingasynctask/
 ---
 
 Represents the masking async task.
 
-**Namespace:** [aspose.imaging.masking](/imaging/python-net/api-reference/aspose.imaging.masking/)
+**Namespace:** [aspose.imaging.masking](/imaging/python-net/aspose.imaging.masking/)
 
 **Full Class Name:** aspose.imaging.masking.IMaskingAsyncTask
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IMaskingAsyncTask type exposes the following members:
 ## **Properties**

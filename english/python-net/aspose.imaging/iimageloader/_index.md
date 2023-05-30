@@ -2,16 +2,16 @@
 title: IImageLoader Class
 type: docs
 weight: 340
-url: /python-net/api-reference/aspose.imaging/iimageloader/
+url: /python-net/aspose.imaging/iimageloader/
 ---
 
 The image loader.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.IImageLoader
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IImageLoader type exposes the following members:
 ## **Methods**

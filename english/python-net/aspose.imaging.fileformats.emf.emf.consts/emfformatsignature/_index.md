@@ -2,16 +2,16 @@
 title: EmfFormatSignature Enumeration
 type: docs
 weight: 130
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/emfformatsignature/
+url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emfformatsignature/
 ---
 
 The FormatSignature enumeration defines values that are used to identify the format of embedded data in EMF records.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfFormatSignature
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

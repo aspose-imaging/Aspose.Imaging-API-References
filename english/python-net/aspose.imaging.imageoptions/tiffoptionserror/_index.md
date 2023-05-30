@@ -2,16 +2,16 @@
 title: TiffOptionsError Enumeration
 type: docs
 weight: 420
-url: /python-net/api-reference/aspose.imaging.imageoptions/tiffoptionserror/
+url: /python-net/aspose.imaging.imageoptions/tiffoptionserror/
 ---
 
 The tiff options error codes.
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Name:** aspose.imaging.imageoptions.TiffOptionsError
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

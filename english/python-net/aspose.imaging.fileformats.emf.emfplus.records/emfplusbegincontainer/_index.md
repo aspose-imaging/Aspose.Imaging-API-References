@@ -2,16 +2,16 @@
 title: EmfPlusBeginContainer Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer/
 ---
 
 The EmfPlusBeginContainer record opens a new graphics state container and specifies a transform for it.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusBeginContainer
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusBeginContainer type exposes the following members:
 ## **Constructors**

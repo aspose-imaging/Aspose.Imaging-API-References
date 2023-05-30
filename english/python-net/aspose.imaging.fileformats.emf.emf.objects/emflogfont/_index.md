@@ -2,16 +2,16 @@
 title: EmfLogFont Class
 type: docs
 weight: 130
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/emflogfont/
+url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emflogfont/
 ---
 
 The LogFont object specifies the basic attributes of a logical font.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfLogFont
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfLogFont type exposes the following members:
 ## **Constructors**

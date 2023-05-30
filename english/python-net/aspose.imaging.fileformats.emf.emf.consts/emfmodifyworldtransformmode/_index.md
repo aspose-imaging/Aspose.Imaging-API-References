@@ -2,16 +2,16 @@
 title: EmfModifyWorldTransformMode Enumeration
 type: docs
 weight: 240
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/emfmodifyworldtransformmode/
+url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emfmodifyworldtransformmode/
 ---
 
 The ModifyWorldTransformMode enumeration defines modes for using specified transform data<br/>            to modify the world-space to page-space transform that is currently defined in the playback device context.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emf.consts/)
+**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfModifyWorldTransformMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

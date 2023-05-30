@@ -2,16 +2,16 @@
 title: ICdrImage Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.fileformats.cdr/icdrimage/
+url: /python-net/aspose.imaging.fileformats.cdr/icdrimage/
 ---
 
 The Cdr image interface
 
-**Namespace:** [aspose.imaging.fileformats.cdr](/imaging/python-net/api-reference/aspose.imaging.fileformats.cdr/)
+**Namespace:** [aspose.imaging.fileformats.cdr](/imaging/python-net/aspose.imaging.fileformats.cdr/)
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.ICdrImage
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The ICdrImage type exposes the following members:
 ## **Properties**

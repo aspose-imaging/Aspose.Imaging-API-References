@@ -2,16 +2,16 @@
 title: WmfCreatePenInDirect Class
 type: docs
 weight: 150
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfcreatepenindirect/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfcreatepenindirect/
 ---
 
 The create pen in direct
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfCreatePenInDirect
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfCreatePenInDirect type exposes the following members:
 ## **Constructors**

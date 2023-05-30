@@ -1,17 +1,17 @@
 ---
 title: ObjectWithBounds Class
 type: docs
-weight: 630
-url: /python-net/api-reference/aspose.imaging/objectwithbounds/
+weight: 640
+url: /python-net/aspose.imaging/objectwithbounds/
 ---
 
 The object having bounds.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.ObjectWithBounds
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The ObjectWithBounds type exposes the following members:
 ## **Properties**

@@ -1,17 +1,17 @@
 ---
 title: RotateFlipType Enumeration
 type: docs
-weight: 9180
-url: /python-net/api-reference/aspose.imaging/rotatefliptype/
+weight: 9270
+url: /python-net/aspose.imaging/rotatefliptype/
 ---
 
 Specifies how much an image is rotated and the axis used to flip the image.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Name:** aspose.imaging.RotateFlipType
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

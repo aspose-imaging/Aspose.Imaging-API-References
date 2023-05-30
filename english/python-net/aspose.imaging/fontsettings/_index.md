@@ -2,16 +2,16 @@
 title: FontSettings Class
 type: docs
 weight: 210
-url: /python-net/api-reference/aspose.imaging/fontsettings/
+url: /python-net/aspose.imaging/fontsettings/
 ---
 
 General imaging vector formats renderer font settings.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.FontSettings
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The FontSettings type exposes the following members:
 ## **Properties**

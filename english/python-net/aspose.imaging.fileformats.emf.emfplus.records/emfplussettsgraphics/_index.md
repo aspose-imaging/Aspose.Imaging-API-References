@@ -2,16 +2,16 @@
 title: EmfPlusSetTsGraphics Class
 type: docs
 weight: 580
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics/
 ---
 
 The EmfPlusSetTSGraphics record specifies the state of a graphics device context for a terminal server.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.records/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSetTsGraphics
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusSetTsGraphics type exposes the following members:
 ## **Constructors**

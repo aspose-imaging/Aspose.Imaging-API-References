@@ -2,16 +2,16 @@
 title: SvgGraphics2D Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.fileformats.svg.graphics/svggraphics2d/
+url: /python-net/aspose.imaging.fileformats.svg.graphics/svggraphics2d/
 ---
 
 Provides drawing commmands to compose an Svg image.
 
-**Namespace:** [aspose.imaging.fileformats.svg.graphics](/imaging/python-net/api-reference/aspose.imaging.fileformats.svg.graphics/)
+**Namespace:** [aspose.imaging.fileformats.svg.graphics](/imaging/python-net/aspose.imaging.fileformats.svg.graphics/)
 
 **Full Class Name:** aspose.imaging.fileformats.svg.graphics.SvgGraphics2D
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The SvgGraphics2D type exposes the following members:
 ## **Constructors**
@@ -36,4 +36,4 @@ The SvgGraphics2D type exposes the following members:
 |fill_path(pen, brush, path)|Fills the path.|
 |draw_rectangle(pen, x, y, width, height)|Draws the rectangle.|
 |fill_rectangle(pen, brush, x, y, width, height)|Fills the rectangle.|
-|end_recording()|Gets the final Svg image which includes all drawing commands performed via [SvgGraphics2D](/imaging/python-net/api-reference/aspose.imaging.fileformats.svg.graphics/svggraphics2d/) object.|
+|end_recording()|Gets the final Svg image which includes all drawing commands performed via [SvgGraphics2D](/imaging/python-net/aspose.imaging.fileformats.svg.graphics/svggraphics2d/) object.|

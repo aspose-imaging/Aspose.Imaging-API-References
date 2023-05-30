@@ -2,16 +2,16 @@
 title: OdGradientBrush Class
 type: docs
 weight: 20
-url: /python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.brush/odgradientbrush/
+url: /python-net/aspose.imaging.fileformats.opendocument.objects.brush/odgradientbrush/
 ---
 
 The gradient fill
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.brush](/imaging/python-net/api-reference/aspose.imaging.fileformats.opendocument.objects.brush/)
+**Namespace:** [aspose.imaging.fileformats.opendocument.objects.brush](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/)
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.brush.OdGradientBrush
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The OdGradientBrush type exposes the following members:
 ## **Constructors**

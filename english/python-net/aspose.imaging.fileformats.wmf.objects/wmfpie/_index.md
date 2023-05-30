@@ -2,16 +2,16 @@
 title: WmfPie Class
 type: docs
 weight: 440
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfpie/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfpie/
 ---
 
 The META_PIE record draws a pie-shaped wedge bounded by the intersection<br/>                of an ellipse and two radials. The pie is outlined by using the pen and<br/>                filled by using the brush that are defined in the playback device<br/>                context.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfPie
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfPie type exposes the following members:
 ## **Constructors**

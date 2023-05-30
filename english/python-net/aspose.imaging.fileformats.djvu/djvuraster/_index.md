@@ -2,16 +2,16 @@
 title: DjvuRaster Class
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.fileformats.djvu/djvuraster/
+url: /python-net/aspose.imaging.fileformats.djvu/djvuraster/
 ---
 
 Class for representing Djvu raster image where located result of some operation
 
-**Namespace:** [aspose.imaging.fileformats.djvu](/imaging/python-net/api-reference/aspose.imaging.fileformats.djvu/)
+**Namespace:** [aspose.imaging.fileformats.djvu](/imaging/python-net/aspose.imaging.fileformats.djvu/)
 
 **Full Class Name:** aspose.imaging.fileformats.djvu.DjvuRaster
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The DjvuRaster type exposes the following members:
 ## **Properties**
@@ -107,7 +107,7 @@ The DjvuRaster type exposes the following members:
 |replace_color(old_color_argb, old_color_diff, new_color_argb)|  |
 |replace_non_transparent_colors(new_color)|  |
 |replace_non_transparent_colors(new_color_argb)|  |
-|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying [data_stream_container](/imaging/python-net/api-reference/aspose.imaging/datastreamsupporter/).|
+|cache_data()|Caches the data and ensures no additional data loading will be performed from the underlying [data_stream_container](/imaging/python-net/aspose.imaging/datastreamsupporter/).|
 |save_to_stream(stream)|  |
 |can_load_with_options(file_path, load_options)|  |
 |can_load_stream(stream)|  |
@@ -131,8 +131,6 @@ The DjvuRaster type exposes the following members:
 |set_palette(palette, update_colors)|  |
 |get_proportional_width(width, height, new_height)|  |
 |get_proportional_height(width, height, new_width)|  |
-|is_multipage()|  |
-|as_multipage()|  |
 |get_modify_date(use_default)|  |
 |get_default_pixels(rectangle, partial_pixel_loader)|  |
 |get_default_argb_32_pixels(rectangle)|  |
@@ -148,6 +146,7 @@ The DjvuRaster type exposes the following members:
 |load_partial_pixels(desired_rectangle, pixel_loader)|  |
 |load_argb_32_pixels(rectangle)|  |
 |load_argb_64_pixels(rectangle)|  |
+|load_partial_argb_64_pixels(rectangle, partial_pixel_loader)|  |
 |load_pixels(rectangle)|  |
 |load_cmyk_pixels(rectangle)|  |
 |load_cmyk_32_pixels(rectangle)|  |

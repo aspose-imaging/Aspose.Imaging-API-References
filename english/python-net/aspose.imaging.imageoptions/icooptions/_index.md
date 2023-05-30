@@ -1,23 +1,23 @@
 ---
 title: IcoOptions Class
 type: docs
-weight: 130
-url: /python-net/api-reference/aspose.imaging.imageoptions/icooptions/
+weight: 140
+url: /python-net/aspose.imaging.imageoptions/icooptions/
 ---
 
 The ICO file format creation options.
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/)
+**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Class Name:** aspose.imaging.imageoptions.IcoOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IcoOptions type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|IcoOptions()|Initializes a new instance of the [IcoOptions](/imaging/python-net/api-reference/aspose.imaging.imageoptions/icooptions/) class with the ICO frame format equals to Png and<br/>            bitsPerPixel equals to 32.|
+|IcoOptions()|Initializes a new instance of the [IcoOptions](/imaging/python-net/aspose.imaging.imageoptions/icooptions/) class with the ICO frame format equals to Png and<br/>            bitsPerPixel equals to 32.|
 |IcoOptions(format, bits_per_pixel)|Initializes a new instance of the IcoOptions class|
 ## **Properties**
 |**Name**|**Description**|

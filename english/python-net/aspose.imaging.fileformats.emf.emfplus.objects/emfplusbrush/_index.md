@@ -2,16 +2,16 @@
 title: EmfPlusBrush Class
 type: docs
 weight: 150
-url: /python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrush/
+url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbrush/
 ---
 
 The EmfPlusBrush object specifies a graphics brush for filling regions.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBrush
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The EmfPlusBrush type exposes the following members:
 ## **Constructors**

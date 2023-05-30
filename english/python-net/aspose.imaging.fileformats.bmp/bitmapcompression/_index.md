@@ -2,16 +2,16 @@
 title: BitmapCompression Enumeration
 type: docs
 weight: 90
-url: /python-net/api-reference/aspose.imaging.fileformats.bmp/bitmapcompression/
+url: /python-net/aspose.imaging.fileformats.bmp/bitmapcompression/
 ---
 
 Specifies different bitmap compression methods.
 
-**Namespace:** [aspose.imaging.fileformats.bmp](/imaging/python-net/api-reference/aspose.imaging.fileformats.bmp/)
+**Namespace:** [aspose.imaging.fileformats.bmp](/imaging/python-net/aspose.imaging.fileformats.bmp/)
 
 **Full Name:** aspose.imaging.fileformats.bmp.BitmapCompression
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

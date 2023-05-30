@@ -1,17 +1,17 @@
 ---
 title: ImageCreatorsRegistry Class
 type: docs
-weight: 510
-url: /python-net/api-reference/aspose.imaging/imagecreatorsregistry/
+weight: 520
+url: /python-net/aspose.imaging/imagecreatorsregistry/
 ---
 
 Represents the image creators registry.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/api-reference/aspose.imaging/)
+**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Class Name:** aspose.imaging.ImageCreatorsRegistry
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The ImageCreatorsRegistry type exposes the following members:
 ## **Properties**

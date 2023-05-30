@@ -2,16 +2,16 @@
 title: ColorMode Enumeration
 type: docs
 weight: 30
-url: /python-net/api-reference/aspose.imaging.xmp.schemas.photoshop/colormode/
+url: /python-net/aspose.imaging.xmp.schemas.photoshop/colormode/
 ---
 
-Represents color mode in [PhotoshopPackage](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.photoshop/photoshoppackage/).
+Represents color mode in [PhotoshopPackage](/imaging/python-net/aspose.imaging.xmp.schemas.photoshop/photoshoppackage/).
 
-**Namespace:** [aspose.imaging.xmp.schemas.photoshop](/imaging/python-net/api-reference/aspose.imaging.xmp.schemas.photoshop/)
+**Namespace:** [aspose.imaging.xmp.schemas.photoshop](/imaging/python-net/aspose.imaging.xmp.schemas.photoshop/)
 
 **Full Name:** aspose.imaging.xmp.schemas.photoshop.ColorMode
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

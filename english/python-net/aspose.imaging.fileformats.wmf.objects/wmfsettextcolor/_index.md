@@ -2,16 +2,16 @@
 title: WmfSetTextColor Class
 type: docs
 weight: 780
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.objects/wmfsettextcolor/
+url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsettextcolor/
 ---
 
 The Set text color.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.objects/)
+**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetTextColor
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The WmfSetTextColor type exposes the following members:
 ## **Constructors**

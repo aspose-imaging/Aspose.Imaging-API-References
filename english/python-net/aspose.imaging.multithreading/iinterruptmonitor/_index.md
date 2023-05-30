@@ -2,16 +2,16 @@
 title: IInterruptMonitor Class
 type: docs
 weight: 10
-url: /python-net/api-reference/aspose.imaging.multithreading/iinterruptmonitor/
+url: /python-net/aspose.imaging.multithreading/iinterruptmonitor/
 ---
 
 Represents information about interruption.
 
-**Namespace:** [aspose.imaging.multithreading](/imaging/python-net/api-reference/aspose.imaging.multithreading/)
+**Namespace:** [aspose.imaging.multithreading](/imaging/python-net/aspose.imaging.multithreading/)
 
 **Full Class Name:** aspose.imaging.multithreading.IInterruptMonitor
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 The IInterruptMonitor type exposes the following members:
 ## **Properties**

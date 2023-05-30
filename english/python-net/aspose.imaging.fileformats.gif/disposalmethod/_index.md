@@ -2,16 +2,16 @@
 title: DisposalMethod Enumeration
 type: docs
 weight: 120
-url: /python-net/api-reference/aspose.imaging.fileformats.gif/disposalmethod/
+url: /python-net/aspose.imaging.fileformats.gif/disposalmethod/
 ---
 
 Indicates the way in which the graphic is to be treated after being displayed.
 
-**Namespace:** [aspose.imaging.fileformats.gif](/imaging/python-net/api-reference/aspose.imaging.fileformats.gif/)
+**Namespace:** [aspose.imaging.fileformats.gif](/imaging/python-net/aspose.imaging.fileformats.gif/)
 
 **Full Name:** aspose.imaging.fileformats.gif.DisposalMethod
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|

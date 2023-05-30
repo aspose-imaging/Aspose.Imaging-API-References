@@ -2,16 +2,16 @@
 title: WmfTernaryRasterOperationOperand Enumeration
 type: docs
 weight: 260
-url: /python-net/api-reference/aspose.imaging.fileformats.wmf.consts/wmfternaryrasteroperationoperand/
+url: /python-net/aspose.imaging.fileformats.wmf.consts/wmfternaryrasteroperationoperand/
 ---
 
 Each ternary raster operation code represents a Boolean operation in which the values of the pixels<br/>                in the source, the selected brush, and the destination are combined. Following are the three<br/>                operands used in these operations.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/api-reference/aspose.imaging.fileformats.wmf.consts/)
+**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfTernaryRasterOperationOperand
 
-**Assembly:**  Aspose.Imaging Version: 23.3.0
+**Assembly:**  Aspose.Imaging Version: 23.5.6
 
 ## **Members**
 |**Member name**|**Description**|
