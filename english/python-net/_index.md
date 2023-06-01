@@ -1,5 +1,5 @@
 ---
-title: Aspose.Imaging for Python via .NET - API Reference
+title: Aspose.Imaging for Python via .NET
 type: docs
 weight: 10
 url: /python-net/
