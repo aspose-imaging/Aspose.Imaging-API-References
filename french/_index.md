@@ -36,3 +36,19 @@ Aspose.Imaging pour Java offre un large éventail d'opérations de traitement d'
 Voici des liens vers des ressources utiles :
 
 - [Référence de l'API Aspose.Imaging pour Java](/imaging/java/)
+
+## Aspose.Imaging pour Python via .NET
+
+{{% alert color="primary" %}}
+
+![Aspose.Imaging pour Python via le logo du produit .NET](../home_4.png)
+
+Aspose.Imaging for Python via .NET est une bibliothèque puissante qui permet d'effectuer des opérations avancées de traitement d'image dans les applications Python à l'aide du framework .NET. Avec Aspose.Imaging, vous pouvez charger, éditer, convertir et enregistrer une grande variété de formats d'image tels que JPEG, PNG, BMP, TIFF, GIF, etc. La bibliothèque offre des fonctionnalités complètes pour la manipulation d'images, y compris le redimensionnement, le recadrage, l'ajustement des couleurs, appliquer des filtres et des effets, gérer les métadonnées et bien plus encore. Grâce à l'intégration transparente de Python avec le framework .NET, Aspose.Imaging permet aux développeurs Python d'accéder à des capacités avancées de traitement d'images pour créer des applications riches en fonctionnalités et répondre à leurs besoins de manipulation d'images.
+
+La référence de l'API Aspose.Imaging pour Python via .NET est un guide complet pour les développeurs Python. Il fournit une documentation API complète, des extraits de code et des exemples pour aider les développeurs Python à comprendre et à intégrer facilement Aspose.Imaging dans leurs applications. Cette référence offre toutes les informations nécessaires pour tirer pleinement parti des fonctionnalités d'Aspose.Imaging, fournissant des instructions pas à pas, des exemples de code et des exemples pour faciliter l'intégration de cette puissante bibliothèque dans vos projets Python.
+
+{{% /alert %}}
+
+Voici des liens vers des ressources utiles :
+
+- [Aspose.Imaging pour Python via la référence de l'API .NET](/imaging/python-net/)
