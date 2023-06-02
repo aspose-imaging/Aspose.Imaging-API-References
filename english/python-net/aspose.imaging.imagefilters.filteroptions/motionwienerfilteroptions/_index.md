@@ -11,7 +11,7 @@ Deconvolution filter options<br/>                deblur motion
 
 **Full Class Name:** aspose.imaging.imagefilters.filteroptions.MotionWienerFilterOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The MotionWienerFilterOptions type exposes the following members:
 ## **Constructors**

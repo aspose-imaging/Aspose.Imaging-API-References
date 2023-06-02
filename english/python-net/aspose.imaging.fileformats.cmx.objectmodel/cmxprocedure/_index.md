@@ -11,7 +11,7 @@ The CMX procedure.
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.CmxProcedure
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The CmxProcedure type exposes the following members:
 ## **Constructors**

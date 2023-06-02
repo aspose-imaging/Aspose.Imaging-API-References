@@ -11,7 +11,7 @@ The GradientRectangle object defines a rectangle using TriVertex objects (sectio
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfGradientRectangle
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfGradientRectangle type exposes the following members:
 ## **Constructors**

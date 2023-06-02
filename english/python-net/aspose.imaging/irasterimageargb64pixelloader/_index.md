@@ -11,7 +11,7 @@ The raster image 64-bit ARGB pixel loader.
 
 **Full Class Name:** aspose.imaging.IRasterImageArgb64PixelLoader
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The IRasterImageArgb64PixelLoader type exposes the following members:
 ## **Properties**

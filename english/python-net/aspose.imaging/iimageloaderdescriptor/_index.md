@@ -11,7 +11,7 @@ The image loader descriptor specifying the loader properties. The loader descrip
 
 **Full Class Name:** aspose.imaging.IImageLoaderDescriptor
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The IImageLoaderDescriptor type exposes the following members:
 ## **Properties**

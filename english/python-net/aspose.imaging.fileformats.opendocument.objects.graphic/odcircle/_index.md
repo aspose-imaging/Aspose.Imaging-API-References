@@ -11,7 +11,7 @@ The circle object
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdCircle
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The OdCircle type exposes the following members:
 ## **Constructors**

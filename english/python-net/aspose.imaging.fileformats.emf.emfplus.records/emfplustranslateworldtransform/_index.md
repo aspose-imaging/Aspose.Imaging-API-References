@@ -11,7 +11,7 @@ The EmfPlusTranslateWorldTransform record performs a translation on the current 
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusTranslateWorldTransform
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusTranslateWorldTransform type exposes the following members:
 ## **Constructors**

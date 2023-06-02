@@ -11,7 +11,7 @@ The color converter for indexed image formats.
 
 **Full Class Name:** aspose.imaging.IIndexedColorConverter
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The IIndexedColorConverter type exposes the following members:
 ## **Methods**

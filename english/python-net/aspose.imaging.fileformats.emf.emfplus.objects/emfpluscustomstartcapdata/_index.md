@@ -11,7 +11,7 @@ The EmfPlusCustomStartCapData object specifies a custom line cap for the start o
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusCustomStartCapData
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusCustomStartCapData type exposes the following members:
 ## **Constructors**

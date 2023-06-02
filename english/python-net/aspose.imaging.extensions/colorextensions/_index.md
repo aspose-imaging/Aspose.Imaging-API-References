@@ -11,7 +11,7 @@ The [Color](/imaging/python-net/aspose.imaging/color/) extension methods.
 
 **Full Class Name:** aspose.imaging.extensions.ColorExtensions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The ColorExtensions type exposes the following members:
 ## **Methods**

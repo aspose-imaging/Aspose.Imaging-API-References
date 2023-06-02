@@ -11,7 +11,7 @@ This record transforms any curves in the selected path into the playback device<
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfFlatternPath
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfFlatternPath type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ Specifies the different patterns available for [HatchBrush](/imaging/python-net/
 
 **Full Name:** aspose.imaging.HatchStyle
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 ## **Members**
 |**Member name**|**Description**|

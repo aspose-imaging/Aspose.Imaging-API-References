@@ -11,7 +11,7 @@ Vector Path Record Factory Class
 
 **Full Class Name:** aspose.imaging.fileformats.core.vectorpaths.VectorPathRecordFactory
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The VectorPathRecordFactory type exposes the following members:
 ## **Constructors**

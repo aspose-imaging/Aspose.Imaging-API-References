@@ -11,7 +11,7 @@ The open document object.
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.OdObject
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The OdObject type exposes the following members:
 ## **Constructors**

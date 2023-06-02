@@ -11,7 +11,7 @@ Represents base xmp element contains attributes.
 
 **Full Class Name:** aspose.imaging.xmp.XmpElementBase
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The XmpElementBase type exposes the following members:
 ## **Methods**

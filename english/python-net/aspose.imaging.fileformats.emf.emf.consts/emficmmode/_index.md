@@ -11,7 +11,7 @@ The ICMMode enumeration defines values that specify when to turn on and off ICM.
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfIcmMode
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 ## **Members**
 |**Member name**|**Description**|

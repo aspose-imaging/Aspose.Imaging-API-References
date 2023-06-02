@@ -11,7 +11,7 @@ The pixel data format. This is an immutable object.
 
 **Full Class Name:** aspose.imaging.PixelDataFormat
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The PixelDataFormat type exposes the following members:
 ## **Properties**

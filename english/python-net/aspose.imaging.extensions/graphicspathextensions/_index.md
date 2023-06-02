@@ -11,7 +11,7 @@ Contains the [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) ex
 
 **Full Class Name:** aspose.imaging.extensions.GraphicsPathExtensions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The GraphicsPathExtensions type exposes the following members:
 ## **Methods**

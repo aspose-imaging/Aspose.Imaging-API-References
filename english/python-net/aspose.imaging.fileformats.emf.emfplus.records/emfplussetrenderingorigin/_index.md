@@ -11,7 +11,7 @@ The EmfPlusSetRenderingOrigin record specifies the rendering origin for graphics
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSetRenderingOrigin
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusSetRenderingOrigin type exposes the following members:
 ## **Constructors**

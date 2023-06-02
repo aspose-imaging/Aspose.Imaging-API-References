@@ -11,7 +11,7 @@ This record aborts a path bracket or discards the path from a closed path bracke
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfAbortPath
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfAbortPath type exposes the following members:
 ## **Constructors**

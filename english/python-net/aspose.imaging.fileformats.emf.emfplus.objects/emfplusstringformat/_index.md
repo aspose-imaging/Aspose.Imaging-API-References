@@ -11,7 +11,7 @@ The EmfPlusStringFormat object specifies text layout,<br/>            display ma
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStringFormat
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusStringFormat type exposes the following members:
 ## **Constructors**

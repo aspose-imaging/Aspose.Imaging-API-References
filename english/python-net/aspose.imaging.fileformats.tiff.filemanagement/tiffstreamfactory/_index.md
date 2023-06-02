@@ -11,7 +11,7 @@ The Tiff stream factory based on byte endianness.
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.filemanagement.TiffStreamFactory
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The TiffStreamFactory type exposes the following members:
 ## **Methods**

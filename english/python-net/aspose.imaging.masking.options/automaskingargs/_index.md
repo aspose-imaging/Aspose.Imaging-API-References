@@ -11,7 +11,7 @@ Represents the arguments that are specified for automated masking methods
 
 **Full Class Name:** aspose.imaging.masking.options.AutoMaskingArgs
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The AutoMaskingArgs type exposes the following members:
 ## **Constructors**

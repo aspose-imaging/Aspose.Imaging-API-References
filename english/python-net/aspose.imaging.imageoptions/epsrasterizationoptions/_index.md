@@ -11,7 +11,7 @@ The Eps rasterization options.
 
 **Full Class Name:** aspose.imaging.imageoptions.EpsRasterizationOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EpsRasterizationOptions type exposes the following members:
 ## **Constructors**

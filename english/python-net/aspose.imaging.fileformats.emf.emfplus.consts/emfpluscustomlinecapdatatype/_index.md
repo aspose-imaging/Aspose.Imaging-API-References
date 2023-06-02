@@ -11,7 +11,7 @@ The CustomLineCapDataType enumeration defines types of custom line cap data, whi
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusCustomLineCapDataType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 ## **Members**
 |**Member name**|**Description**|

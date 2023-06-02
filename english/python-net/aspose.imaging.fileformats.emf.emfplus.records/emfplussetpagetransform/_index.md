@@ -11,7 +11,7 @@ The EmfPlusSetPageTransform record specifies scaling factors and units for conve
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSetPageTransform
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusSetPageTransform type exposes the following members:
 ## **Constructors**

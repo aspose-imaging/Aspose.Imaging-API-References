@@ -11,7 +11,7 @@ The EmfPlusPenOptionalData object specifies optional data for a graphics pen
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPenOptionalData
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusPenOptionalData type exposes the following members:
 ## **Constructors**

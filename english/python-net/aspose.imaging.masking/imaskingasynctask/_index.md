@@ -11,7 +11,7 @@ Represents the masking async task.
 
 **Full Class Name:** aspose.imaging.masking.IMaskingAsyncTask
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The IMaskingAsyncTask type exposes the following members:
 ## **Properties**

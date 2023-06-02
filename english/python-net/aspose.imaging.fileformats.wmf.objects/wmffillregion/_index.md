@@ -11,7 +11,7 @@ The META_FILLREGION record fills a region using a specified brush.
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfFillRegion
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfFillRegion type exposes the following members:
 ## **Constructors**

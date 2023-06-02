@@ -11,7 +11,7 @@ The EmfPlusDrawArc record specifies drawing the arc of an ellipse.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusDrawArc
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusDrawArc type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The bezier segment going from one point to the next point and using two control 
 
 **Full Class Name:** aspose.imaging.shapesegments.BezierSegment
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The BezierSegment type exposes the following members:
 ## **Constructors**

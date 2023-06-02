@@ -11,7 +11,7 @@ The META_RECTANGLE record paints a rectangle. The rectangle is outlined<br/>    
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfRectangle
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfRectangle type exposes the following members:
 ## **Constructors**

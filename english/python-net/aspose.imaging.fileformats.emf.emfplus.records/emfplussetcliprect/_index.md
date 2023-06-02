@@ -11,7 +11,7 @@ The EmfPlusSetClipRect record combines the current clipping region with a rectan
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSetClipRect
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusSetClipRect type exposes the following members:
 ## **Constructors**

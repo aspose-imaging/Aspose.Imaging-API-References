@@ -11,7 +11,7 @@ The point double
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.types.PointD
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The PointD type exposes the following members:
 ## **Constructors**

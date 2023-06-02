@@ -11,7 +11,7 @@ Specifies the order for matrix transform operations.
 
 **Full Name:** aspose.imaging.MatrixOrder
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 ## **Members**
 |**Member name**|**Description**|

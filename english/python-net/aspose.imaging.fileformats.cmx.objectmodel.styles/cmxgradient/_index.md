@@ -11,7 +11,7 @@ Represents a gradient info.
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.styles.CmxGradient
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The CmxGradient type exposes the following members:
 ## **Constructors**

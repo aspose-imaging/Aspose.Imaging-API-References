@@ -11,7 +11,7 @@ The EmfPlusBlendFactors object specifies positions and factors for the blend pat
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBlendFactors
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusBlendFactors type exposes the following members:
 ## **Constructors**

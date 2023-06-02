@@ -11,7 +11,7 @@ Containing dimensions for a drawn object.
 
 **Full Class Name:** aspose.imaging.xmp.types.complex.resourceevent.ResourceEvent
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The ResourceEvent type exposes the following members:
 ## **Constructors**

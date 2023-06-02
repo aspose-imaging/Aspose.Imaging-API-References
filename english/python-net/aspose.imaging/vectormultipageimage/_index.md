@@ -11,7 +11,7 @@ The Vector multipage image
 
 **Full Class Name:** aspose.imaging.VectorMultipageImage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The VectorMultipageImage type exposes the following members:
 ## **Properties**

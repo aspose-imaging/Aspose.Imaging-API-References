@@ -11,7 +11,7 @@ The EmfPlusPathGradientBrushData object specifies a path gradient for a graphics
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPathGradientBrushData
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusPathGradientBrushData type exposes the following members:
 ## **Constructors**

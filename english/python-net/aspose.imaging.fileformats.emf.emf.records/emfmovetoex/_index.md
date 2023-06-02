@@ -11,7 +11,7 @@ The EMR_MOVETOEX record specifies coordinates of the new current position, in lo
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfMoveToEx
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfMoveToEx type exposes the following members:
 ## **Constructors**

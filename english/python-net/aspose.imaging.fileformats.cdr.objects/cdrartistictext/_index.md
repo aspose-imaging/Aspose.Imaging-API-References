@@ -11,7 +11,7 @@ The cdr Artistic text
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrArtisticText
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The CdrArtisticText type exposes the following members:
 ## **Constructors**

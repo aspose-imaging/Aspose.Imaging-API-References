@@ -11,7 +11,7 @@ The META_PATBLT record paints a specified rectangle using the brush that<br/>   
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfPatBlt
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfPatBlt type exposes the following members:
 ## **Constructors**

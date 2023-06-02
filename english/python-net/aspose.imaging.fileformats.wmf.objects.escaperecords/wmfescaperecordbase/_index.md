@@ -11,7 +11,7 @@ The escape record base.
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.escaperecords.WmfEscapeRecordBase
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfEscapeRecordBase type exposes the following members:
 ## **Constructors**

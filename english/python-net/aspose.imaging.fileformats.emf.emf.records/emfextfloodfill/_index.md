@@ -11,7 +11,7 @@ The EMR_EXTFLOODFILL record fills an area of the display surface with the curren
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfExtFloodFill
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfExtFloodFill type exposes the following members:
 ## **Constructors**

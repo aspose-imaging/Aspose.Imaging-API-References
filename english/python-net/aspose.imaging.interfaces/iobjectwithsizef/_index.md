@@ -11,7 +11,7 @@ Represents object with Size which are expressed in real numbers (in inches).
 
 **Full Class Name:** aspose.imaging.interfaces.IObjectWithSizeF
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The IObjectWithSizeF type exposes the following members:
 ## **Properties**

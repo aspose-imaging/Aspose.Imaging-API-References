@@ -11,7 +11,7 @@ The comment record types define formats for specifying arbitrary private data, e
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfCommentRecordType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfCommentRecordType type exposes the following members:
 ## **Properties**

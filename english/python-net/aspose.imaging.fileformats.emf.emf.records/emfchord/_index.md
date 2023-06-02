@@ -11,7 +11,7 @@ The EMR_CHORD record specifies a chord, which is a region bounded by the interse
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfChord
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfChord type exposes the following members:
 ## **Constructors**

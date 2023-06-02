@@ -11,7 +11,7 @@ The SVG rasterization options.
 
 **Full Class Name:** aspose.imaging.imageoptions.SvgRasterizationOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The SvgRasterizationOptions type exposes the following members:
 ## **Constructors**

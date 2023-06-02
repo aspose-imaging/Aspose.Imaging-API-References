@@ -11,7 +11,7 @@ The Metafiles base options.
 
 **Full Class Name:** aspose.imaging.imageoptions.MetafileOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The MetafileOptions type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ Dithering settings to be applied to image upon saving.
 
 **Full Class Name:** aspose.imaging.dithering.DitheringMode
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The DitheringMode type exposes the following members:
 ## **Constructors**

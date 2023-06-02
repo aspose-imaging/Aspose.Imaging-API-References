@@ -11,7 +11,7 @@ Gauss Wiener Filter Options<br/>            Deblur gauss
 
 **Full Class Name:** aspose.imaging.imagefilters.filteroptions.GaussWienerFilterOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The GaussWienerFilterOptions type exposes the following members:
 ## **Constructors**

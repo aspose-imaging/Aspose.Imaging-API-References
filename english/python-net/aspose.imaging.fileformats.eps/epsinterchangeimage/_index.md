@@ -11,7 +11,7 @@ Class for Encapsulated PostScript Interchange format
 
 **Full Class Name:** aspose.imaging.fileformats.eps.EpsInterchangeImage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EpsInterchangeImage type exposes the following members:
 ## **Properties**

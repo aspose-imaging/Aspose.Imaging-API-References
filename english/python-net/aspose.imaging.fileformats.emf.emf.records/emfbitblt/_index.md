@@ -11,7 +11,7 @@ The EMR_BITBLT record specifies a block transfer of pixels from a source bitmap 
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfBitBlt
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfBitBlt type exposes the following members:
 ## **Constructors**

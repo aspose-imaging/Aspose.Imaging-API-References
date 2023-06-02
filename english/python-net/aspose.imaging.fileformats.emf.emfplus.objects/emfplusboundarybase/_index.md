@@ -11,6 +11,6 @@ Base class for boundary objects
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBoundaryBase
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusBoundaryBase type exposes the following members:

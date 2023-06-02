@@ -11,7 +11,7 @@ The EmfPlusRotateWorldTransform record performs a rotation on the current world 
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRotateWorldTransform
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusRotateWorldTransform type exposes the following members:
 ## **Constructors**

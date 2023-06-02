@@ -11,6 +11,6 @@ The base point type.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBasePointType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusBasePointType type exposes the following members:

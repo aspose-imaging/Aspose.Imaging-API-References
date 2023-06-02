@@ -11,7 +11,7 @@ Provides access to the state of the asynchronous task.
 
 **Full Class Name:** aspose.imaging.asynctask.IAsyncTaskState
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The IAsyncTaskState type exposes the following members:
 ## **Properties**

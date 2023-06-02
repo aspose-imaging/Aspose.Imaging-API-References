@@ -11,7 +11,7 @@ The PenStyle enumeration defines the attributes of pens that can be used in grap
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfPenStyle
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 ## **Members**
 |**Member name**|**Description**|

@@ -11,7 +11,7 @@ The BitCount Enumeration specifies the number of bits that define each pixel and
 
 **Full Name:** aspose.imaging.apsbuilder.dib.DibBitCount
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 ## **Members**
 |**Member name**|**Description**|

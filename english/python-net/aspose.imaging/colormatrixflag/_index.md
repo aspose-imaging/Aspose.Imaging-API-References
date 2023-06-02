@@ -11,7 +11,7 @@ Specifies the types of images and colors that will be affected by the color and 
 
 **Full Name:** aspose.imaging.ColorMatrixFlag
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 ## **Members**
 |**Member name**|**Description**|

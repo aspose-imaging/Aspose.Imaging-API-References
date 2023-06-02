@@ -11,7 +11,7 @@ The EMR_POLYGON16 record specifies a polygon consisting of two or more vertexes 
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfPolygon16
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPolygon16 type exposes the following members:
 ## **Constructors**

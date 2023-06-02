@@ -11,7 +11,7 @@ Specifies the available cap styles with which a [Pen](/imaging/python-net/aspose
 
 **Full Name:** aspose.imaging.LineCap
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 ## **Members**
 |**Member name**|**Description**|

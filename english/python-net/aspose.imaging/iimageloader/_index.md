@@ -11,7 +11,7 @@ The image loader.
 
 **Full Class Name:** aspose.imaging.IImageLoader
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The IImageLoader type exposes the following members:
 ## **Methods**

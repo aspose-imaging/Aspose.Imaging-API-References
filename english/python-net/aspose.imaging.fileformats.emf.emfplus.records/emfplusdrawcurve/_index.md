@@ -11,7 +11,7 @@ The EmfPlusDrawCurve record specifies drawing a cardinal spline<br/>            
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusDrawCurve
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusDrawCurve type exposes the following members:
 ## **Constructors**

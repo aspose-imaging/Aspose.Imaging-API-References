@@ -11,7 +11,7 @@ The EmfPlusRegion object specifies line and curve segments that define a non rec
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusRegion
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusRegion type exposes the following members:
 ## **Constructors**

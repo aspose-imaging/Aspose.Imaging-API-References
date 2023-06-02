@@ -11,7 +11,7 @@ Describes one version of a document.
 
 **Full Class Name:** aspose.imaging.xmp.types.complex.version.Version
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The Version type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ Represents a file source which is capable of files manipulation.
 
 **Full Class Name:** aspose.imaging.sources.FileSource
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The FileSource type exposes the following members:
 ## **Properties**

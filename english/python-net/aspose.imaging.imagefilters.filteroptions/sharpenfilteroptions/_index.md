@@ -11,7 +11,7 @@ The Sharpen filter options
 
 **Full Class Name:** aspose.imaging.imagefilters.filteroptions.SharpenFilterOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The SharpenFilterOptions type exposes the following members:
 ## **Constructors**

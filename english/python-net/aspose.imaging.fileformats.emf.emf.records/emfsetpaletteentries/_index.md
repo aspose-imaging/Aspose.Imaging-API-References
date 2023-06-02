@@ -11,7 +11,7 @@ The EMR_SETPALETTEENTRIES record defines RGB color values in a range of entries 
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetPaletteEntries
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfSetPaletteEntries type exposes the following members:
 ## **Constructors**

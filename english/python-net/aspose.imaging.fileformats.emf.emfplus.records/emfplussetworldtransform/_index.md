@@ -11,7 +11,7 @@ The EmfPlusSetWorldTransform record sets the world transform according to the va
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSetWorldTransform
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusSetWorldTransform type exposes the following members:
 ## **Constructors**

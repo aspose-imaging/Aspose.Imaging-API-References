@@ -11,7 +11,7 @@ The open document translate info
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.OdTransformInfo
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The OdTransformInfo type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The META_CREATEREGION record creates a Region Object (section 2.2.1.5).
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfCreateRegion
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfCreateRegion type exposes the following members:
 ## **Constructors**

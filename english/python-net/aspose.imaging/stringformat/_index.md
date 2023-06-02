@@ -11,7 +11,7 @@ Encapsulates text layout information (such as alignment, orientation and tab sto
 
 **Full Class Name:** aspose.imaging.StringFormat
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The StringFormat type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The ColorSpace enumeration is used to specify when to turn color proofing on and
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfColorSpace
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 ## **Members**
 |**Member name**|**Description**|

@@ -11,7 +11,7 @@ Provides progress info for the asynchronous task.
 
 **Full Class Name:** aspose.imaging.asynctask.AsyncTaskProgress
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The AsyncTaskProgress type exposes the following members:
 ## **Constructors**

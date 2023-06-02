@@ -11,7 +11,7 @@ The tiff frame.
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.TiffFrame
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The TiffFrame type exposes the following members:
 ## **Constructors**

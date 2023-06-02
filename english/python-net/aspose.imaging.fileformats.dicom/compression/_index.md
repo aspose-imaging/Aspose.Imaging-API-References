@@ -11,7 +11,7 @@ Contains the image compression settings.
 
 **Full Class Name:** aspose.imaging.fileformats.dicom.Compression
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The Compression type exposes the following members:
 ## **Constructors**

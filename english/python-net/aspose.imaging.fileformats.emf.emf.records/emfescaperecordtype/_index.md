@@ -11,7 +11,7 @@ The escape record types execute printer driver functions.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfEscapeRecordType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfEscapeRecordType type exposes the following members:
 ## **Properties**

@@ -11,7 +11,7 @@ Inter sets the current meta region with the current clipping region<br/>        
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetMetaRgn
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfSetMetaRgn type exposes the following members:
 ## **Constructors**

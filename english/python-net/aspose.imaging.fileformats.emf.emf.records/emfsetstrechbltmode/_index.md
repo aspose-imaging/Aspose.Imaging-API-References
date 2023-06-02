@@ -11,7 +11,7 @@ The EMR_SETSTRETCHBLTMODE record specifies bitmap stretch mode.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetStrechBltMode
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfSetStrechBltMode type exposes the following members:
 ## **Constructors**

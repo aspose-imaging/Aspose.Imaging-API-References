@@ -11,7 +11,7 @@ The EMR_SETMITERLIMIT record specifies the limit for the length of miter joins f
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetMiterLimit
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfSetMiterLimit type exposes the following members:
 ## **Constructors**

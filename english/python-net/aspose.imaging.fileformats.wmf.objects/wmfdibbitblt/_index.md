@@ -11,7 +11,7 @@ The META_DIBBITBLT record specifies the transfer of a block of pixels in<br/>   
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfDibBitBlt
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfDibBitBlt type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The BitFIX28_4 object defines a numeric value in 28.4 bit FIX notation.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfBitFix28To4
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfBitFix28To4 type exposes the following members:
 ## **Constructors**

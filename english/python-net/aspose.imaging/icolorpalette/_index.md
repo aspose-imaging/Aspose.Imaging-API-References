@@ -11,7 +11,7 @@ The color palette interface.
 
 **Full Class Name:** aspose.imaging.IColorPalette
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The IColorPalette type exposes the following members:
 ## **Properties**

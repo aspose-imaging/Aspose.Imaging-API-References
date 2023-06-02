@@ -11,7 +11,7 @@ The EmfPlusBoundaryPathData object specifies a graphics path boundary for a grad
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBoundaryPathData
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusBoundaryPathData type exposes the following members:
 ## **Constructors**

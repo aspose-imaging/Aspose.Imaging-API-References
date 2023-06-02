@@ -11,7 +11,7 @@ Masking layer
 
 **Full Class Name:** aspose.imaging.masking.result.IMaskingLayer
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The IMaskingLayer type exposes the following members:
 ## **Properties**

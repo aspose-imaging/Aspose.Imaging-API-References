@@ -11,7 +11,7 @@ Represents XMP header processing instruction.
 
 **Full Class Name:** aspose.imaging.xmp.XmpHeaderPi
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The XmpHeaderPi type exposes the following members:
 ## **Constructors**

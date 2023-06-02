@@ -11,7 +11,7 @@ General imaging vector formats renderer font settings.
 
 **Full Class Name:** aspose.imaging.FontSettings
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The FontSettings type exposes the following members:
 ## **Properties**

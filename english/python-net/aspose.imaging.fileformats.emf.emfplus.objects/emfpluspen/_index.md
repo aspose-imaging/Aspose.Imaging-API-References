@@ -11,7 +11,7 @@ The EmfPlusPen object specifies a graphics pen for the drawing of lines.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPen
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusPen type exposes the following members:
 ## **Constructors**

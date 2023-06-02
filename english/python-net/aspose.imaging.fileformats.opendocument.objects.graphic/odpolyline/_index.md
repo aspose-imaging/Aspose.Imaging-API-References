@@ -11,7 +11,7 @@ The polyline
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdPolyLine
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The OdPolyLine type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ Represents XMP Boolean basic type.
 
 **Full Class Name:** aspose.imaging.xmp.types.basic.XmpBoolean
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The XmpBoolean type exposes the following members:
 ## **Constructors**

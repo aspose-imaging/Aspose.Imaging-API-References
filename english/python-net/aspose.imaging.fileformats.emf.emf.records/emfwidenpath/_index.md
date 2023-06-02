@@ -11,7 +11,7 @@ This record redefines the current path as the area that would be painted if the 
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfWidenPath
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfWidenPath type exposes the following members:
 ## **Constructors**

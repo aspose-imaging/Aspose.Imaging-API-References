@@ -11,7 +11,7 @@ The EMR_SELECTPALETTE record specifies a logical palette for the playback device
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSelectPalette
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfSelectPalette type exposes the following members:
 ## **Constructors**

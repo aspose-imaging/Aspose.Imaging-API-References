@@ -11,7 +11,7 @@ Represents base class for basic XMP type.
 
 **Full Class Name:** aspose.imaging.xmp.types.XmpTypeBase
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The XmpTypeBase type exposes the following members:
 ## **Methods**

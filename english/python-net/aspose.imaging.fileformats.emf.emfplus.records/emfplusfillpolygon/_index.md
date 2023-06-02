@@ -11,7 +11,7 @@ The EmfPlusFillPolygon record specifies filling the interior of a polygon.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusFillPolygon
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusFillPolygon type exposes the following members:
 ## **Constructors**

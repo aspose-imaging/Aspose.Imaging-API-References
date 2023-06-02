@@ -11,7 +11,7 @@ The BitmapInfoHeader Object contains information about the dimensions and color 
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfBitmapInfoHeader
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfBitmapInfoHeader type exposes the following members:
 ## **Constructors**

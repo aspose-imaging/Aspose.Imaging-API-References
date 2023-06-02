@@ -11,7 +11,7 @@ The EmfPlusCustomLineCapData object specifies default data for a custom line cap
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusCustomLineCapData
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusCustomLineCapData type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The Property Record Types specify properties of the playback device context.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusPropertyRecordType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusPropertyRecordType type exposes the following members:
 ## **Properties**

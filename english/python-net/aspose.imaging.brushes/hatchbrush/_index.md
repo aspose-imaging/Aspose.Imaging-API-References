@@ -11,7 +11,7 @@ Defines a rectangular brush with a hatch style, a foreground color, and a backgr
 
 **Full Class Name:** aspose.imaging.brushes.HatchBrush
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The HatchBrush type exposes the following members:
 ## **Constructors**

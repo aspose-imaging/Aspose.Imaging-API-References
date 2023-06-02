@@ -11,7 +11,7 @@ The EmfPlusFillEllipse record specifies filling the interior of an ellipse
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusFillEllipse
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusFillEllipse type exposes the following members:
 ## **Constructors**

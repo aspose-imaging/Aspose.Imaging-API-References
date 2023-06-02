@@ -11,7 +11,7 @@ Base class for multiple pages supported formats
 
 **Full Class Name:** aspose.imaging.imageoptions.MultiPageOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The MultiPageOptions type exposes the following members:
 ## **Constructors**

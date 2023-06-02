@@ -11,7 +11,7 @@ The [ColorMap](/imaging/python-net/aspose.imaging/colormap/) extension methods.
 
 **Full Class Name:** aspose.imaging.extensions.ColorMapExtensions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The ColorMapExtensions type exposes the following members:
 ## **Methods**

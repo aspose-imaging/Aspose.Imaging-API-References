@@ -11,7 +11,7 @@ Helper class for color palettes manipulation.
 
 **Full Class Name:** aspose.imaging.ColorPaletteHelper
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The ColorPaletteHelper type exposes the following members:
 ## **Methods**

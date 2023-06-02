@@ -11,7 +11,7 @@ The ColorMatrixEffect object specifies an affine transform to be applied to an i
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusColorMatrixEffect
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusColorMatrixEffect type exposes the following members:
 ## **Constructors**

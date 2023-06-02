@@ -11,7 +11,7 @@ The TGA image.
 
 **Full Class Name:** aspose.imaging.fileformats.tga.TgaImage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The TgaImage type exposes the following members:
 ## **Constructors**

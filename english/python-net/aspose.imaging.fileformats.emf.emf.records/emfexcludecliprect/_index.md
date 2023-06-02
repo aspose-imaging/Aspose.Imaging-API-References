@@ -11,7 +11,7 @@ The EMR_EXCLUDECLIPRECT record specifies a new clipping region that consists of 
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfExcludeClipRect
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfExcludeClipRect type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The masking session
 
 **Full Class Name:** aspose.imaging.masking.IMaskingSession
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The IMaskingSession type exposes the following members:
 ## **Methods**

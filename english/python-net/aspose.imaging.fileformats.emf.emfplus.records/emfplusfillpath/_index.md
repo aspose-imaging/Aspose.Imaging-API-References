@@ -11,7 +11,7 @@ Fill path record<br/>            FLAGS:<br/>            16-bit unsigned integer 
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusFillPath
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusFillPath type exposes the following members:
 ## **Constructors**

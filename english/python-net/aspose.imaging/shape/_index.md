@@ -11,7 +11,7 @@ The shape. A continuous set of points connected using a specific rule.
 
 **Full Class Name:** aspose.imaging.Shape
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The Shape type exposes the following members:
 ## **Properties**

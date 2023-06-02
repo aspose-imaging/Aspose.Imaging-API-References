@@ -11,7 +11,7 @@ The Svg load options.
 
 **Full Class Name:** aspose.imaging.imageloadoptions.SvgLoadOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The SvgLoadOptions type exposes the following members:
 ## **Constructors**

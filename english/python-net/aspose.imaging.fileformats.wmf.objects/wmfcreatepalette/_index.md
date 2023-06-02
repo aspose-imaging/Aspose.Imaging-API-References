@@ -11,7 +11,7 @@ The META_CREATEPALETTE record creates a Palette Object (section 2.2.1.3).
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfCreatePalette
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfCreatePalette type exposes the following members:
 ## **Constructors**

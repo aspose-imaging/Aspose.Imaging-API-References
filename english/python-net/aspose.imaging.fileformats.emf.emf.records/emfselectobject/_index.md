@@ -11,7 +11,7 @@ The EMR_SELECTOBJECT record adds a graphics object to the current metafile playb
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSelectObject
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfSelectObject type exposes the following members:
 ## **Constructors**

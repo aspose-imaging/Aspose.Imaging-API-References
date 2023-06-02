@@ -11,7 +11,7 @@ Contains extension methods for [ImageAttributes](/imaging/python-net/aspose.imag
 
 **Full Class Name:** aspose.imaging.extensions.ImageAttributesExtensions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The ImageAttributesExtensions type exposes the following members:
 ## **Methods**

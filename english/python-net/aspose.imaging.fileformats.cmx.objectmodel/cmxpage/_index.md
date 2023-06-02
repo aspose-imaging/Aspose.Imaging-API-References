@@ -11,7 +11,7 @@ The page of the CMX document.
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.CmxPage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The CmxPage type exposes the following members:
 ## **Constructors**

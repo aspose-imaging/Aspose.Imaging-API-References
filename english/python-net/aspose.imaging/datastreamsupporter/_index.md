@@ -11,7 +11,7 @@ The data stream container.
 
 **Full Class Name:** aspose.imaging.DataStreamSupporter
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The DataStreamSupporter type exposes the following members:
 ## **Properties**

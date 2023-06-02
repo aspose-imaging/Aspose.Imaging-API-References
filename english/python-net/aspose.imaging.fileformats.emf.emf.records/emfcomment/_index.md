@@ -11,7 +11,7 @@ The EMR_COMMENT record contains arbitrary private data.<br/>            Note  Fi
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfComment
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfComment type exposes the following members:
 ## **Constructors**

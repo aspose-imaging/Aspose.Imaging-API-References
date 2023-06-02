@@ -11,7 +11,7 @@ Represents an ordered pair of integer x- and y-coordinates that defines a point 
 
 **Full Class Name:** aspose.imaging.Point
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The Point type exposes the following members:
 ## **Constructors**

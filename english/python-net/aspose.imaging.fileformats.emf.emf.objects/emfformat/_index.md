@@ -11,7 +11,7 @@ The EmrFormat object contains information that identifies the format of image da
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfFormat
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfFormat type exposes the following members:
 ## **Constructors**

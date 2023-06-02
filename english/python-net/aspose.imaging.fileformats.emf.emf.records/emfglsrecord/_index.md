@@ -11,7 +11,7 @@ The EMR_GLSRECORD record specifies an OpenGL function.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfGlsRecord
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfGlsRecord type exposes the following members:
 ## **Constructors**

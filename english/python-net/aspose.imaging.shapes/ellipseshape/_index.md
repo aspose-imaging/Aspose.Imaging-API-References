@@ -11,7 +11,7 @@ Represents an ellipse shape.
 
 **Full Class Name:** aspose.imaging.shapes.EllipseShape
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EllipseShape type exposes the following members:
 ## **Constructors**

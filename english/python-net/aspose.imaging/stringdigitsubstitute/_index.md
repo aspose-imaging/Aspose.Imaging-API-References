@@ -11,7 +11,7 @@ The enumeration specifies how to substitute digits in a string according to a us
 
 **Full Name:** aspose.imaging.StringDigitSubstitute
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 ## **Members**
 |**Member name**|**Description**|

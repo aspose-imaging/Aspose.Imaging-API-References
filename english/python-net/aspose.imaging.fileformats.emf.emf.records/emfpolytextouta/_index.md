@@ -11,7 +11,7 @@ The EMR_POLYTEXTOUTA record draws one or more ASCII text strings using the curre
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfPolyTextOutA
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPolyTextOutA type exposes the following members:
 ## **Constructors**

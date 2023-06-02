@@ -11,7 +11,7 @@ The EmfMetafileHeaderExtension1 record is the header record used in the first ex
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfMetafileHeaderExtension1
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfMetafileHeaderExtension1 type exposes the following members:
 ## **Constructors**

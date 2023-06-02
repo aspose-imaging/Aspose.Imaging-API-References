@@ -11,7 +11,7 @@ The EmfPlusSolidBrushData object specifies a solid color for a graphics brush.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusSolidBrushData
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusSolidBrushData type exposes the following members:
 ## **Constructors**

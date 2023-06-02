@@ -11,7 +11,7 @@ Represents the image exporter descriptor. The exporter descriptor is used to ove
 
 **Full Class Name:** aspose.imaging.IImageExporterDescriptor
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The IImageExporterDescriptor type exposes the following members:
 ## **Properties**

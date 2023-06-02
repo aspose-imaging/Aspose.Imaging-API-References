@@ -11,7 +11,7 @@ The Create brush in direct
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfCreateBrushInDirect
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfCreateBrushInDirect type exposes the following members:
 ## **Constructors**

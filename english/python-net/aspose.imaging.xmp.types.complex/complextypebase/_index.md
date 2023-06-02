@@ -11,7 +11,7 @@ Represents base abstraction for XMP Complex value type.
 
 **Full Class Name:** aspose.imaging.xmp.types.complex.ComplexTypeBase
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The ComplexTypeBase type exposes the following members:
 ## **Constructors**

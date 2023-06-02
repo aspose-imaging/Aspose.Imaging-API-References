@@ -11,7 +11,7 @@ The EMR_FILLRGN record fills the specified region by using the specified brush.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfFillRgn
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfFillRgn type exposes the following members:
 ## **Constructors**

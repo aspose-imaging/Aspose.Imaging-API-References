@@ -11,7 +11,7 @@ The png load options.
 
 **Full Class Name:** aspose.imaging.imageloadoptions.PngLoadOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The PngLoadOptions type exposes the following members:
 ## **Constructors**

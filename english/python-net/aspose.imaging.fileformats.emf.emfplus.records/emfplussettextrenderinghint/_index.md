@@ -11,7 +11,7 @@ The EmfPlusSetTextRenderingHint record specifies the quality of text rendering, 
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSetTextRenderingHint
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusSetTextRenderingHint type exposes the following members:
 ## **Constructors**

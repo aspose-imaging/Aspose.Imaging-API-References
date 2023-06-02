@@ -11,7 +11,7 @@ The LogColorSpace object specifies a logical color space for the<br/>           
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfLogColorSpace
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfLogColorSpace type exposes the following members:
 ## **Constructors**

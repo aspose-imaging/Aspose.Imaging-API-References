@@ -11,7 +11,7 @@ The PixelFormatDescriptor object can be used in EMR_HEADER records (section 2.3.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfPixelFormatDescriptor
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPixelFormatDescriptor type exposes the following members:
 ## **Constructors**

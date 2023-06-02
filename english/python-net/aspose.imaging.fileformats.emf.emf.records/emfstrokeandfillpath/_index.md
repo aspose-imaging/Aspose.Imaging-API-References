@@ -11,7 +11,7 @@ The EMR_STROKEANDFILLPATH record closes any open figures in a path, strokes the 
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfStrokeAndFillPath
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfStrokeAndFillPath type exposes the following members:
 ## **Constructors**

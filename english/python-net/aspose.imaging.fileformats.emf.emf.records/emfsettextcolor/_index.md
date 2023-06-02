@@ -11,7 +11,7 @@ The EMR_SETTEXTCOLOR record defines the current text color.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetTextColor
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfSetTextColor type exposes the following members:
 ## **Constructors**

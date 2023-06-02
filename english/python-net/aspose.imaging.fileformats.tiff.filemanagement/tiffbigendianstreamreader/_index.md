@@ -11,7 +11,7 @@ The tiff stream for handling big endian tiff file format.
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.filemanagement.TiffBigEndianStreamReader
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The TiffBigEndianStreamReader type exposes the following members:
 ## **Constructors**

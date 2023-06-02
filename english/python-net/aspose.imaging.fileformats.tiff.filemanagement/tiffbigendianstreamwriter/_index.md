@@ -11,7 +11,7 @@ Tiff stream writer for big-endian streams.
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.filemanagement.TiffBigEndianStreamWriter
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The TiffBigEndianStreamWriter type exposes the following members:
 ## **Constructors**

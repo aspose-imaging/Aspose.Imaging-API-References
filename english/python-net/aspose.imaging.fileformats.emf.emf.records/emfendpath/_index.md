@@ -11,7 +11,7 @@ This record closes a path bracket and selects the path defined by the bracket in
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfEndPath
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfEndPath type exposes the following members:
 ## **Constructors**

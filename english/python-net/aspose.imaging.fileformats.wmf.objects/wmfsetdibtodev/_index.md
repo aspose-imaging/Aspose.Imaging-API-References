@@ -11,7 +11,7 @@ The META_SETDIBTODEV record sets a block of pixels in the playback<br/>         
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetDibToDev
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfSetDibToDev type exposes the following members:
 ## **Constructors**

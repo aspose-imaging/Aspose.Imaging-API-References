@@ -11,7 +11,7 @@ Replaces the GDI+ Matrix.
 
 **Full Class Name:** aspose.imaging.Matrix
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The Matrix type exposes the following members:
 ## **Constructors**

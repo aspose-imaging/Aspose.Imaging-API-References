@@ -11,7 +11,7 @@ The META_STRETCHBLT record specifies the transfer of a block of pixels<br/>     
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfStretchBlt
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfStretchBlt type exposes the following members:
 ## **Constructors**

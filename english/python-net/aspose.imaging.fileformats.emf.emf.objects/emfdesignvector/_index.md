@@ -11,7 +11,7 @@ The DesignVector (section 2.2.3) object defines the design vector, which specifi
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfDesignVector
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfDesignVector type exposes the following members:
 ## **Constructors**

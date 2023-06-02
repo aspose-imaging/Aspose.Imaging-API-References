@@ -11,7 +11,7 @@ The metafile rasterization options
 
 **Full Class Name:** aspose.imaging.imageoptions.MetafileRasterizationOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The MetafileRasterizationOptions type exposes the following members:
 ## **Properties**

@@ -11,7 +11,7 @@ The list item
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdListItem
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The OdListItem type exposes the following members:
 ## **Constructors**

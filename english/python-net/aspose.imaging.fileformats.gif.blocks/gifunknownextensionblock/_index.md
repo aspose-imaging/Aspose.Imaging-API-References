@@ -11,7 +11,7 @@ Gif Unknown Extension Block.
 
 **Full Class Name:** aspose.imaging.fileformats.gif.blocks.GifUnknownExtensionBlock
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The GifUnknownExtensionBlock type exposes the following members:
 ## **Constructors**

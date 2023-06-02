@@ -11,7 +11,7 @@ the cdr Font
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrFont
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The CdrFont type exposes the following members:
 ## **Constructors**

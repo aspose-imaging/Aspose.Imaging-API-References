@@ -11,7 +11,7 @@ The open document solid brush
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.brush.OdSolidBrush
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The OdSolidBrush type exposes the following members:
 ## **Constructors**

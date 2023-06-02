@@ -11,7 +11,7 @@ It is class of the implementation working with image from DICOM file
 
 **Full Class Name:** aspose.imaging.fileformats.dicom.DicomImage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The DicomImage type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The tiff rational type.
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.tifftagtypes.TiffRationalType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The TiffRationalType type exposes the following members:
 ## **Constructors**

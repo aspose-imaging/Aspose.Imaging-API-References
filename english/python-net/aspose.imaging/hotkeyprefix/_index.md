@@ -11,7 +11,7 @@ Specifies the type of display for hot-key prefixes that relate to text.
 
 **Full Name:** aspose.imaging.HotkeyPrefix
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 ## **Members**
 |**Member name**|**Description**|

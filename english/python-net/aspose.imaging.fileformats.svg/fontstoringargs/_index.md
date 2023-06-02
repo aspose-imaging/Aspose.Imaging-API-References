@@ -11,7 +11,7 @@ The font storing arguments
 
 **Full Class Name:** aspose.imaging.fileformats.svg.FontStoringArgs
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The FontStoringArgs type exposes the following members:
 ## **Constructors**

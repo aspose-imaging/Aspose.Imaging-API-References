@@ -11,7 +11,7 @@ The LogFont object specifies the basic attributes of a logical font.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfLogFont
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfLogFont type exposes the following members:
 ## **Constructors**

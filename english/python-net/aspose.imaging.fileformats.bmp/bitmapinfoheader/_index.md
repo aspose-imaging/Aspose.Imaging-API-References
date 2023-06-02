@@ -11,7 +11,7 @@ Specifies BITMAPINFOHEADER. <br/>                OS Support: Windows NT, 3.1x or
 
 **Full Class Name:** aspose.imaging.fileformats.bmp.BitmapInfoHeader
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The BitmapInfoHeader type exposes the following members:
 ## **Properties**

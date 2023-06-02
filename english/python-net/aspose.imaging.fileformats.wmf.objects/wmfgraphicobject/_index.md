@@ -11,7 +11,7 @@ The WMF Graphics Objects specify parameters for graphics output.
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfGraphicObject
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfGraphicObject type exposes the following members:
 ## **Constructors**

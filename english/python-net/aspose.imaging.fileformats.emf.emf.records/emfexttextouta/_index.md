@@ -11,7 +11,7 @@ The EMR_EXTTEXTOUTA record draws an ASCII text string using the current font and
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfExtTextOutA
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfExtTextOutA type exposes the following members:
 ## **Constructors**

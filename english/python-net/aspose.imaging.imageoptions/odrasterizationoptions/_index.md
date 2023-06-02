@@ -11,7 +11,7 @@ The Od rasterization options
 
 **Full Class Name:** aspose.imaging.imageoptions.OdRasterizationOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The OdRasterizationOptions type exposes the following members:
 ## **Constructors**

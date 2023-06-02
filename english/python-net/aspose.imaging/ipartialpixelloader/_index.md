@@ -11,7 +11,7 @@ Conforms to the pixels loaded partially.
 
 **Full Class Name:** aspose.imaging.IPartialPixelLoader
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The IPartialPixelLoader type exposes the following members:
 ## **Methods**

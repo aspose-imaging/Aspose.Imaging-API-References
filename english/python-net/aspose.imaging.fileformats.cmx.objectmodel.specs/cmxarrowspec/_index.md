@@ -11,7 +11,7 @@ Represents geometric info specified for outline arrow (marker).
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.specs.CmxArrowSpec
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The CmxArrowSpec type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The image is the base class for all type of images.
 
 **Full Class Name:** aspose.imaging.Image
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The Image type exposes the following members:
 ## **Properties**

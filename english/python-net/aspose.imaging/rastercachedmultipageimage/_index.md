@@ -11,7 +11,7 @@ The raster multipage image
 
 **Full Class Name:** aspose.imaging.RasterCachedMultipageImage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The RasterCachedMultipageImage type exposes the following members:
 ## **Properties**

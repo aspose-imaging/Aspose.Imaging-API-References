@@ -11,7 +11,7 @@ The EMR_CREATEMONOBRUSH record defines a monochrome pattern brush for graphics o
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfCreateMonoBrush
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfCreateMonoBrush type exposes the following members:
 ## **Constructors**

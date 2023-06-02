@@ -11,7 +11,7 @@ The EmfPlusSetInterpolationMode record specifies how image scaling, including st
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSetInterpolationMode
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusSetInterpolationMode type exposes the following members:
 ## **Constructors**

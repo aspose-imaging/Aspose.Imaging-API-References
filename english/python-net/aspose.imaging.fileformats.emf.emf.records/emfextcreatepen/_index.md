@@ -11,7 +11,7 @@ The EMR_EXTCREATEPEN record defines an extended logical pen for graphics operati
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfExtCreatePen
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfExtCreatePen type exposes the following members:
 ## **Constructors**

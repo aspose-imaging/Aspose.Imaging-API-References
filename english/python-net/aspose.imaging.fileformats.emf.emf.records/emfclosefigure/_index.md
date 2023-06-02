@@ -11,7 +11,7 @@ This record closes an open figure in a path.<br/>            Processing the EMR_
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfCloseFigure
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfCloseFigure type exposes the following members:
 ## **Constructors**

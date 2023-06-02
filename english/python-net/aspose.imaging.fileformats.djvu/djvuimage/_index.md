@@ -11,7 +11,7 @@ DjvuDocument class
 
 **Full Class Name:** aspose.imaging.fileformats.djvu.DjvuImage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The DjvuImage type exposes the following members:
 ## **Constructors**

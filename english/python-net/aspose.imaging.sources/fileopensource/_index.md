@@ -11,7 +11,7 @@ Represents a file source for opening.
 
 **Full Class Name:** aspose.imaging.sources.FileOpenSource
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The FileOpenSource type exposes the following members:
 ## **Constructors**

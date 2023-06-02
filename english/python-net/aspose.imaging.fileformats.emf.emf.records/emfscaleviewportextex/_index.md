@@ -11,7 +11,7 @@ The EMR_SCALEVIEWPORTEXTEX record respecifies the viewport for a device context 
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfScaleViewportExtex
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfScaleViewportExtex type exposes the following members:
 ## **Constructors**

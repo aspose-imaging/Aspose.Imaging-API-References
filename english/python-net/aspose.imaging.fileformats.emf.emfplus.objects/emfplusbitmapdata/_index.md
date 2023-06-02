@@ -11,7 +11,7 @@ The EmfPlusBitmapData object specifies a bitmap image with pixel data.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBitmapData
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusBitmapData type exposes the following members:
 ## **Constructors**

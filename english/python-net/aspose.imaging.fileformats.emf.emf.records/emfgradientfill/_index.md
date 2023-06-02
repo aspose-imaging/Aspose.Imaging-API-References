@@ -11,7 +11,7 @@ The EMR_GRADIENTFILL record specifies filling rectangles or triangles with gradi
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfGradientFill
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfGradientFill type exposes the following members:
 ## **Constructors**

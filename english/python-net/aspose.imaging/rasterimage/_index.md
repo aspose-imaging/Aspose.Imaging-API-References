@@ -11,7 +11,7 @@ Represents a raster image supporting raster graphics operations.
 
 **Full Class Name:** aspose.imaging.RasterImage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The RasterImage type exposes the following members:
 ## **Properties**

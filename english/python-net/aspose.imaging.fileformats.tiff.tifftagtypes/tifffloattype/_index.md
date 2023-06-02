@@ -11,7 +11,7 @@ The tiff float type.
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.tifftagtypes.TiffFloatType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The TiffFloatType type exposes the following members:
 ## **Constructors**

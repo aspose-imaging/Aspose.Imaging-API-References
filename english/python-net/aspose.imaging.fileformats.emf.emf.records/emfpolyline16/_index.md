@@ -11,7 +11,7 @@ The EMR_POLYLINE16 record specifies a series of line segments by connecting the 
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfPolyline16
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPolyline16 type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ Represents the image creators registry.
 
 **Full Class Name:** aspose.imaging.ImageCreatorsRegistry
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The ImageCreatorsRegistry type exposes the following members:
 ## **Properties**

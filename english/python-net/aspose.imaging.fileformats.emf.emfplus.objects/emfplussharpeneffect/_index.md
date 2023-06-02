@@ -11,7 +11,7 @@ The SharpenEffect object specifies an increase in the difference in intensity be
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusSharpenEffect
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusSharpenEffect type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ Base class for EMF records<br/>            All EMF records MUST have a length th
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfRecord
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfRecord type exposes the following members:
 ## **Constructors**

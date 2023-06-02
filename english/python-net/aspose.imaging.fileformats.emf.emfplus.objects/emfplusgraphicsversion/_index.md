@@ -11,7 +11,7 @@ The EmfPlusGraphicsVersion object specifies the version of operating system grap
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusGraphicsVersion
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusGraphicsVersion type exposes the following members:
 ## **Constructors**

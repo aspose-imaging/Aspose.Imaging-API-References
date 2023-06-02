@@ -11,7 +11,7 @@ An OS/2 2.x OS22XBITMAPHEADER aka BITMAPCOREHEADER2.
 
 **Full Class Name:** aspose.imaging.fileformats.bmp.Os22XBitmapHeader
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The Os22XBitmapHeader type exposes the following members:
 ## **Properties**

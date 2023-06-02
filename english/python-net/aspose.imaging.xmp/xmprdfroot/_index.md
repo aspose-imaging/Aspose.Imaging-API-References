@@ -11,7 +11,7 @@ Represents rdf:RDF element.<br/>            A single XMP packet shall be seriali
 
 **Full Class Name:** aspose.imaging.xmp.XmpRdfRoot
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The XmpRdfRoot type exposes the following members:
 ## **Constructors**

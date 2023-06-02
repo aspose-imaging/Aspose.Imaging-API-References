@@ -11,7 +11,7 @@ The EMR_STRETCHBLT record specifies a block transfer of pixels from a source bit
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfStretchBlt
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfStretchBlt type exposes the following members:
 ## **Constructors**

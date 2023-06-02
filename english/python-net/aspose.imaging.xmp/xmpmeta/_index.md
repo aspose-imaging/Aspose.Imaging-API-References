@@ -11,7 +11,7 @@ Represents xmpmeta. Optional.<br/>            The purpose of this element is to 
 
 **Full Class Name:** aspose.imaging.xmp.XmpMeta
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The XmpMeta type exposes the following members:
 ## **Constructors**

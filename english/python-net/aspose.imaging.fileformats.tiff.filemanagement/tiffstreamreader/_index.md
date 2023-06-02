@@ -11,7 +11,7 @@ The tiff stream for handling little endian tiff file format.
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.filemanagement.TiffStreamReader
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The TiffStreamReader type exposes the following members:
 ## **Constructors**

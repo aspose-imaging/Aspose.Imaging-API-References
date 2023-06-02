@@ -11,7 +11,7 @@ Converts [PathResource](/imaging/python-net/aspose.imaging.fileformats.tiff.path
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.pathresources.PathResourceConverter
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The PathResourceConverter type exposes the following members:
 ## **Methods**

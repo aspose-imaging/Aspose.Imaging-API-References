@@ -11,7 +11,7 @@ Represents a non generic dictionary.
 
 **Full Class Name:** aspose.imaging.NonGenericDictionary
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The NonGenericDictionary type exposes the following members:
 ## **Properties**

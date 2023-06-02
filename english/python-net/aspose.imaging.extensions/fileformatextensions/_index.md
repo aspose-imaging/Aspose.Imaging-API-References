@@ -11,7 +11,7 @@ Contains [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) extension 
 
 **Full Class Name:** aspose.imaging.extensions.FileFormatExtensions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The FileFormatExtensions type exposes the following members:
 ## **Methods**

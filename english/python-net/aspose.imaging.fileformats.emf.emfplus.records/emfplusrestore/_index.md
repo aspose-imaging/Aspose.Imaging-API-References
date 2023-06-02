@@ -11,7 +11,7 @@ The EmfPlusRestore record restores the graphics state, identified by a specified
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusRestore
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusRestore type exposes the following members:
 ## **Constructors**

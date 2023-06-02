@@ -11,7 +11,7 @@ The set window org object
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetWindowOrg
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfSetWindowOrg type exposes the following members:
 ## **Constructors**

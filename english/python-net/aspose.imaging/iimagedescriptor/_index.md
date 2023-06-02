@@ -11,7 +11,7 @@ The image descriptor. Contains base properties and methods for all other image d
 
 **Full Class Name:** aspose.imaging.IImageDescriptor
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The IImageDescriptor type exposes the following members:
 ## **Properties**

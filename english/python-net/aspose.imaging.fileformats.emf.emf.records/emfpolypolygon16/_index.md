@@ -11,7 +11,7 @@ The EMR_POLYPOLYGON16 record specifies a series of closed polygons. Each polygon
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfPolyPolygon16
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPolyPolygon16 type exposes the following members:
 ## **Constructors**

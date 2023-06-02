@@ -11,7 +11,7 @@ Contains extension methods for [Pen](/imaging/python-net/aspose.imaging/pen/) an
 
 **Full Class Name:** aspose.imaging.extensions.PenExtensions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The PenExtensions type exposes the following members:
 ## **Methods**

@@ -11,7 +11,7 @@ Base class for EPS format
 
 **Full Class Name:** aspose.imaging.fileformats.eps.EpsImage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EpsImage type exposes the following members:
 ## **Properties**

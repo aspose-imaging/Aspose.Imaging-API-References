@@ -11,7 +11,7 @@ The HueSaturationLightnessEffect object specifies adjustments to the hue, satura
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusHueSaturationLightnessEffect
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusHueSaturationLightnessEffect type exposes the following members:
 ## **Constructors**

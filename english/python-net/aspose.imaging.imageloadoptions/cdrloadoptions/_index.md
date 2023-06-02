@@ -11,7 +11,7 @@ The Cdr load options
 
 **Full Class Name:** aspose.imaging.imageloadoptions.CdrLoadOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The CdrLoadOptions type exposes the following members:
 ## **Constructors**

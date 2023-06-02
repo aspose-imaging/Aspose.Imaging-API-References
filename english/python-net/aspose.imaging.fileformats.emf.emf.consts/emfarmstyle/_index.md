@@ -11,7 +11,7 @@ The ArmStyle enumeration defines values for one of the characteristics in the PA
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfArmStyle
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 ## **Members**
 |**Member name**|**Description**|

@@ -11,7 +11,7 @@ The META_SETTEXTJUSTIFICATION record defines the amount of space to add<br/>    
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetTextJustification
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfSetTextJustification type exposes the following members:
 ## **Constructors**

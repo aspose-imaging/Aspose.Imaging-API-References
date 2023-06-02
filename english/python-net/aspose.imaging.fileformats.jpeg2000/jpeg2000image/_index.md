@@ -11,7 +11,7 @@ Jpeg2000 library main class
 
 **Full Class Name:** aspose.imaging.fileformats.jpeg2000.Jpeg2000Image
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The Jpeg2000Image type exposes the following members:
 ## **Constructors**

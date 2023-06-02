@@ -11,7 +11,7 @@ The CIEXYZ Object defines information about the CIEXYZ chromaticity<br/>        
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfCieXyz
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfCieXyz type exposes the following members:
 ## **Constructors**

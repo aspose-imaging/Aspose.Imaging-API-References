@@ -11,7 +11,7 @@ Defines a 5 x 5 matrix that contains the coordinates for the RGBA space. Several
 
 **Full Class Name:** aspose.imaging.ColorMatrix
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The ColorMatrix type exposes the following members:
 ## **Constructors**

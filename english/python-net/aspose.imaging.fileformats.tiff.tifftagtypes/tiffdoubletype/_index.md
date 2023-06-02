@@ -11,7 +11,7 @@ The tiff double type.
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.tifftagtypes.TiffDoubleType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The TiffDoubleType type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ Represents the image exporters registry.
 
 **Full Class Name:** aspose.imaging.ImageExportersRegistry
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The ImageExportersRegistry type exposes the following members:
 ## **Properties**

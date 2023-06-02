@@ -11,7 +11,7 @@ The TintEffect object specifies an addition of black or white to a specified hue
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusTintEffect
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusTintEffect type exposes the following members:
 ## **Constructors**

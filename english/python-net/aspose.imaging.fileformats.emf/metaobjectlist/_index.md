@@ -11,7 +11,7 @@ The list of meta objects for EMF, EMF+ and WMF classes
 
 **Full Class Name:** aspose.imaging.fileformats.emf.MetaObjectList
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The MetaObjectList type exposes the following members:
 ## **Constructors**

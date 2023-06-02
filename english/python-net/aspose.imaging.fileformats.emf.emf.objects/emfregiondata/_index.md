@@ -11,7 +11,7 @@ The RegionData object specifies data that defines a region, which is made of non
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfRegionData
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfRegionData type exposes the following members:
 ## **Constructors**

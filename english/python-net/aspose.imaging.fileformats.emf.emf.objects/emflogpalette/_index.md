@@ -11,7 +11,7 @@ The LogPalette object specifies a logical_palette that contains device-independe
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfLogPalette
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfLogPalette type exposes the following members:
 ## **Constructors**

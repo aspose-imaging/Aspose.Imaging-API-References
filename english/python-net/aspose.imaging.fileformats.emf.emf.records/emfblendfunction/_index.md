@@ -11,7 +11,7 @@ A structure that specifies the blending operations for source and destination bi
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfBlendFunction
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfBlendFunction type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The class contains the x,y, and z coordinates of the three colors that correspon
 
 **Full Class Name:** aspose.imaging.fileformats.bmp.structures.CieCoordinatesTriple
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The CieCoordinatesTriple type exposes the following members:
 ## **Constructors**

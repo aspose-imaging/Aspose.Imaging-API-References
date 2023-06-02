@@ -11,7 +11,7 @@ The buffer processor.
 
 **Full Class Name:** aspose.imaging.IBufferProcessor
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The IBufferProcessor type exposes the following members:
 ## **Methods**

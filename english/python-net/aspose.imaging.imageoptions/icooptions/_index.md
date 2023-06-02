@@ -11,7 +11,7 @@ The ICO file format creation options.
 
 **Full Class Name:** aspose.imaging.imageoptions.IcoOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The IcoOptions type exposes the following members:
 ## **Constructors**

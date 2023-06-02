@@ -11,7 +11,7 @@ The Emf options.
 
 **Full Class Name:** aspose.imaging.imageoptions.EmfOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfOptions type exposes the following members:
 ## **Constructors**

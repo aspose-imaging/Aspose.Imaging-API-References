@@ -11,7 +11,7 @@ The Wmf recorder.
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.graphics.WmfRecorderGraphics2D
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfRecorderGraphics2D type exposes the following members:
 ## **Constructors**

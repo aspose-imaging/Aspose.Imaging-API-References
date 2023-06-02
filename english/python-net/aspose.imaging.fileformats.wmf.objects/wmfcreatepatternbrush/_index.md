@@ -11,7 +11,7 @@ The META_CREATEPATTERNBRUSH record creates a brush object with a pattern<br/>   
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfCreatePatternBrush
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfCreatePatternBrush type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The EmfPlusDrawClosedCurve record specifies drawing a closed cardinal spline
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusDrawClosedCurve
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusDrawClosedCurve type exposes the following members:
 ## **Constructors**

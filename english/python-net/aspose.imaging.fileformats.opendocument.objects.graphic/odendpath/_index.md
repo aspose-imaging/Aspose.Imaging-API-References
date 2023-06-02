@@ -11,7 +11,7 @@ The enhanced end path
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdEndPath
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The OdEndPath type exposes the following members:
 ## **Constructors**

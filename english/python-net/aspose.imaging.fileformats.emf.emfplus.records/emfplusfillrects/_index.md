@@ -11,7 +11,7 @@ The EmfPlusFillRects record specifies filling the interiors of a series of recta
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusFillRects
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusFillRects type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The EmfPlusComment record specifies arbitrary private data.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusComment
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusComment type exposes the following members:
 ## **Constructors**

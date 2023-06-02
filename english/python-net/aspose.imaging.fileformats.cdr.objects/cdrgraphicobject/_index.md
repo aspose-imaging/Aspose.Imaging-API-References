@@ -11,7 +11,7 @@ The cdr graphic object
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrGraphicObject
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The CdrGraphicObject type exposes the following members:
 ## **Properties**

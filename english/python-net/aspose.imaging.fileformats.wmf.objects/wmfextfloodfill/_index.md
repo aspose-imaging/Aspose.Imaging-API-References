@@ -11,7 +11,7 @@ The META_EXTFLOODFILL record fills an area with the brush that is<br/>          
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfExtFloodFill
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfExtFloodFill type exposes the following members:
 ## **Constructors**

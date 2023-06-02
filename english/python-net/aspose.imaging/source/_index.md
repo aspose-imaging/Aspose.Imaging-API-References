@@ -11,7 +11,7 @@ The source is used to contain all relevant information for an object pipe.
 
 **Full Class Name:** aspose.imaging.Source
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The Source type exposes the following members:
 ## **Methods**

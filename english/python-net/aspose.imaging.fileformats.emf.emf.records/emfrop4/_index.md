@@ -11,7 +11,7 @@ A quaternary raster operation, which specifies ternary raster operations for <br
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfRop4
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfRop4 type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The EMR_POLYDRAW record specifies a set of line segments and Bezier curves.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfPolyDraw
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPolyDraw type exposes the following members:
 ## **Constructors**

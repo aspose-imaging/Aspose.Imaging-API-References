@@ -11,7 +11,7 @@ Represents thumbnail image for a file.
 
 **Full Class Name:** aspose.imaging.xmp.types.complex.thumbnail.Thumbnail
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The Thumbnail type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The EmfPlusCompressedImage object specifies an image with compressed data.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusCompressedImage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusCompressedImage type exposes the following members:
 ## **Constructors**

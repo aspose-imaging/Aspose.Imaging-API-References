@@ -11,7 +11,7 @@ Base abstract class which can provide result image from image masking system.
 
 **Full Class Name:** aspose.imaging.masking.result.MaskingResult
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The MaskingResult type exposes the following members:
 ## **Properties**

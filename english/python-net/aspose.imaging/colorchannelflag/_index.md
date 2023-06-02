@@ -11,7 +11,7 @@ Specifies individual channels in the CMYK (cyan, magenta, yellow, black) color s
 
 **Full Name:** aspose.imaging.ColorChannelFlag
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 ## **Members**
 |**Member name**|**Description**|

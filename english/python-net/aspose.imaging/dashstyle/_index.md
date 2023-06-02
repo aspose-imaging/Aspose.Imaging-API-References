@@ -11,7 +11,7 @@ Specifies the style of dashed lines drawn with a [Pen](/imaging/python-net/aspos
 
 **Full Name:** aspose.imaging.DashStyle
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 ## **Members**
 |**Member name**|**Description**|

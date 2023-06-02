@@ -11,7 +11,7 @@ The ImageEffects identifiers define standard GUIDs for specifying graphics image
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusImageEffectsIdentifiers
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusImageEffectsIdentifiers type exposes the following members:
 ## **Properties**

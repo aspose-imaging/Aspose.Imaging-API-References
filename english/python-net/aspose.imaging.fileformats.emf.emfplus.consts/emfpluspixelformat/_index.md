@@ -11,7 +11,7 @@ The PixelFormat enumeration defines pixel formats that are supported in EMF+ bit
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusPixelFormat
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 ## **Members**
 |**Member name**|**Description**|

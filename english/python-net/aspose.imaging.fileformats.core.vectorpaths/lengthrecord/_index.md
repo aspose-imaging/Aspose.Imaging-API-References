@@ -11,7 +11,7 @@ Subpath Length Record Class
 
 **Full Class Name:** aspose.imaging.fileformats.core.vectorpaths.LengthRecord
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The LengthRecord type exposes the following members:
 ## **Constructors**

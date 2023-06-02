@@ -11,7 +11,7 @@ The object having bounds.
 
 **Full Class Name:** aspose.imaging.ObjectWithBounds
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The ObjectWithBounds type exposes the following members:
 ## **Properties**

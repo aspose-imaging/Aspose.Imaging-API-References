@@ -11,7 +11,7 @@ The CIEXYZTriple Object defines information about the CIEXYZTriple color<br/>   
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfCieXyzTriple
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfCieXyzTriple type exposes the following members:
 ## **Constructors**

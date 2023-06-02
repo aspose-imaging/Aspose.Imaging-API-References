@@ -11,7 +11,7 @@ This record opens a path bracket in the current playback device context.<br/>   
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfBeginPath
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfBeginPath type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The RegionDataHeader object describes the properties of a RegionData object.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfRegionDataHeader
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfRegionDataHeader type exposes the following members:
 ## **Constructors**

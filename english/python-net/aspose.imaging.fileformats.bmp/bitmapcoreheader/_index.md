@@ -11,7 +11,7 @@ Dimensions and color format of DIB.<br/>            Header name BITMAPCOREHEADER
 
 **Full Class Name:** aspose.imaging.fileformats.bmp.BitmapCoreHeader
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The BitmapCoreHeader type exposes the following members:
 ## **Properties**

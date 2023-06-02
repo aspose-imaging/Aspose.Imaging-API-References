@@ -11,7 +11,7 @@ Other image parameters
 
 **Full Class Name:** aspose.imaging.fileformats.dng.decoder.ImageOtherParameters
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The ImageOtherParameters type exposes the following members:
 ## **Properties**

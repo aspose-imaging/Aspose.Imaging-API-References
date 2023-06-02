@@ -11,7 +11,7 @@ The META_SETRELABS record is reserved and not supported.
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetRelabs
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfSetRelabs type exposes the following members:
 ## **Constructors**

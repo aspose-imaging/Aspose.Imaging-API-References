@@ -11,6 +11,6 @@ The static factory class for creating the asynchronous tasks
 
 **Full Class Name:** aspose.imaging.asynctask.AsyncTask
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The AsyncTask type exposes the following members:

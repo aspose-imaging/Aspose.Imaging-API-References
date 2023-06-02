@@ -11,7 +11,7 @@ The META_PAINTREGION record paints the specified region by using the<br/>       
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfPaintRegion
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfPaintRegion type exposes the following members:
 ## **Constructors**

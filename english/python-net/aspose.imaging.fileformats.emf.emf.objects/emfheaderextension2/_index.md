@@ -11,7 +11,7 @@ The HeaderExtension2 object defines the second extension to the EMF metafile hea
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfHeaderExtension2
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfHeaderExtension2 type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ Specifies the type of fill a [Pen](/imaging/python-net/aspose.imaging/pen/) obje
 
 **Full Name:** aspose.imaging.PenType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 ## **Members**
 |**Member name**|**Description**|

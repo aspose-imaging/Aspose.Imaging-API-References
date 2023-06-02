@@ -11,7 +11,7 @@ The open document brush
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.brush.OdBrush
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The OdBrush type exposes the following members:
 ## **Properties**

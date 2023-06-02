@@ -11,7 +11,7 @@ The Transform Record Types specify properties and transforms on coordinate space
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusTransformRecordType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusTransformRecordType type exposes the following members:
 ## **Properties**

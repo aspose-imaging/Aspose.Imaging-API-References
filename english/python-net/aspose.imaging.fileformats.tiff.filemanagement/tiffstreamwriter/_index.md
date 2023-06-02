@@ -11,7 +11,7 @@ The Tiff stream writer.
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.filemanagement.TiffStreamWriter
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The TiffStreamWriter type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The EmfPlusFocusScaleData object specifies focus scales for the blend pattern of
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusFocusScaleData
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusFocusScaleData type exposes the following members:
 ## **Constructors**

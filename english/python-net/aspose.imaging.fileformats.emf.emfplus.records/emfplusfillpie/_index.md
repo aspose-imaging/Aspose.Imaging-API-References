@@ -11,7 +11,7 @@ The EmfPlusFillPie record specifies filling a section of the interior of an elli
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusFillPie
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusFillPie type exposes the following members:
 ## **Constructors**

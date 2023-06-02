@@ -11,7 +11,7 @@ The EMR_SETLINKEDUFIS record sets the UniversalFontIds (section 2.2.27) of the l
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetLinkedUfis
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfSetLinkedUfis type exposes the following members:
 ## **Constructors**

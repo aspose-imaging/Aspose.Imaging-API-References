@@ -11,6 +11,6 @@ Base class for image data types.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBaseImageData
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusBaseImageData type exposes the following members:

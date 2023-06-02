@@ -11,7 +11,7 @@ Represents XMP Colorant type.
 
 **Full Class Name:** aspose.imaging.xmp.types.complex.colorant.ColorantBase
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The ColorantBase type exposes the following members:
 ## **Properties**

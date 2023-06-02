@@ -11,7 +11,7 @@ Represents a pie shape.
 
 **Full Class Name:** aspose.imaging.shapes.PieShape
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The PieShape type exposes the following members:
 ## **Constructors**

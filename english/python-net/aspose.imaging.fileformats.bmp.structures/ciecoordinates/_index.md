@@ -11,7 +11,7 @@ The class contains the x,y, and z coordinates of a specific color in a specified
 
 **Full Class Name:** aspose.imaging.fileformats.bmp.structures.CieCoordinates
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The CieCoordinates type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The Otg rasterization options
 
 **Full Class Name:** aspose.imaging.imageoptions.OtgRasterizationOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The OtgRasterizationOptions type exposes the following members:
 ## **Constructors**

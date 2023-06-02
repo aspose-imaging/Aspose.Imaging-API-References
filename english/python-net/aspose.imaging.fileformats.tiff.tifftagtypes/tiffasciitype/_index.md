@@ -11,7 +11,7 @@ The tiff ascii type.
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.tifftagtypes.TiffASCIIType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The TiffASCIIType type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ This class represents information about image load/save/export operations progre
 
 **Full Class Name:** aspose.imaging.progressmanagement.ProgressEventHandlerInfo
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The ProgressEventHandlerInfo type exposes the following members:
 ## **Properties**

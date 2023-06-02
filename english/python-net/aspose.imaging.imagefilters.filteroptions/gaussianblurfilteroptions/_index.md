@@ -11,7 +11,7 @@ The Gaussian blur
 
 **Full Class Name:** aspose.imaging.imagefilters.filteroptions.GaussianBlurFilterOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The GaussianBlurFilterOptions type exposes the following members:
 ## **Constructors**

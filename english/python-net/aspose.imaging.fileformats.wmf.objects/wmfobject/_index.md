@@ -11,6 +11,6 @@ The base wmf object.
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfObject
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfObject type exposes the following members:

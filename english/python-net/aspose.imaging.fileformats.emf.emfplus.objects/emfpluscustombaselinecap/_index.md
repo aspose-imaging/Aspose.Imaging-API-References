@@ -11,6 +11,6 @@ Base class for custom line cap types.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusCustomBaseLineCap
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusCustomBaseLineCap type exposes the following members:

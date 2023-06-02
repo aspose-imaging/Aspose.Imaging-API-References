@@ -11,7 +11,7 @@ The EMR_GLSBOUNDEDRECORD record specifies an OpenGL function with a bounding rec
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfGlsBoundedRecord
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfGlsBoundedRecord type exposes the following members:
 ## **Constructors**

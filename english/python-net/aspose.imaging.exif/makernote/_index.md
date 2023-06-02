@@ -11,7 +11,7 @@ Represents a single Maker Note record.
 
 **Full Class Name:** aspose.imaging.exif.MakerNote
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The MakerNote type exposes the following members:
 ## **Properties**

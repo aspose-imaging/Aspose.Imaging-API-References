@@ -11,7 +11,7 @@ The tiff image.
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.TiffImage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The TiffImage type exposes the following members:
 ## **Constructors**

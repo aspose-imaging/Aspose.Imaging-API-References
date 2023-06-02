@@ -11,7 +11,7 @@ Represents stream container which contains the stream and provides stream proces
 
 **Full Class Name:** aspose.imaging.StreamContainer
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The StreamContainer type exposes the following members:
 ## **Constructors**

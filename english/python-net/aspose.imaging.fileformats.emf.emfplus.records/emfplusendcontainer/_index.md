@@ -11,7 +11,7 @@ The EmfPlusEndContainer record closes a graphics state container that was previo
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusEndContainer
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusEndContainer type exposes the following members:
 ## **Constructors**

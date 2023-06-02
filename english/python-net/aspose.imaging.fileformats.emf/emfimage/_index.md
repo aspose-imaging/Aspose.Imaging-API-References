@@ -11,7 +11,7 @@ EMF file format image.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.EmfImage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfImage type exposes the following members:
 ## **Constructors**

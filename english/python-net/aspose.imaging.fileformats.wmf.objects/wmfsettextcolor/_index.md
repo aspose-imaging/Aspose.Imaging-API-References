@@ -11,7 +11,7 @@ The Set text color.
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetTextColor
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfSetTextColor type exposes the following members:
 ## **Constructors**

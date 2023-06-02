@@ -11,7 +11,7 @@ The EmfPlusSetPixelOffsetMode record specifies how pixels are centered with resp
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSetPixelOffsetMode
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusSetPixelOffsetMode type exposes the following members:
 ## **Constructors**

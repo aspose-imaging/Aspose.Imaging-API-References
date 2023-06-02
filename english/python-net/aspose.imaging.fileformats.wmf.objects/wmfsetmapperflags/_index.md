@@ -11,7 +11,7 @@ The META_SETMAPPERFLAGS record defines the algorithm that the font<br/>         
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetMapperFlags
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfSetMapperFlags type exposes the following members:
 ## **Constructors**

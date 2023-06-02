@@ -11,7 +11,7 @@ The packet version is used within block protocols. The following diagram represe
 
 **Full Class Name:** aspose.imaging.fileformats.emf.dtyp.commondatastructures.GuidPacketRepresentation
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The GuidPacketRepresentation type exposes the following members:
 ## **Constructors**

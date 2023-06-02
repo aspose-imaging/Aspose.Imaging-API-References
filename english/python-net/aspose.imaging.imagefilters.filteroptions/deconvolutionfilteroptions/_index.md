@@ -11,7 +11,7 @@ Deconvolution Filter Options, abstract class
 
 **Full Class Name:** aspose.imaging.imagefilters.filteroptions.DeconvolutionFilterOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The DeconvolutionFilterOptions type exposes the following members:
 ## **Properties**

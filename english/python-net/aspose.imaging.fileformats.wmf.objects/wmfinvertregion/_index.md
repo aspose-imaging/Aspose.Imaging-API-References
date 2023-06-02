@@ -11,7 +11,7 @@ The META_INVERTREGION record draws a region in which the colors are<br/>        
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfInvertRegion
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfInvertRegion type exposes the following members:
 ## **Constructors**

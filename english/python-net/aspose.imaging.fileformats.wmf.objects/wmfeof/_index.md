@@ -11,7 +11,7 @@ The Eof object.
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfEof
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The WmfEof type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The open document object path
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdPath
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The OdPath type exposes the following members:
 ## **Constructors**

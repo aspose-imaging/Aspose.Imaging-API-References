@@ -11,7 +11,7 @@ Converts xmp values to the XML string representation.
 
 **Full Class Name:** aspose.imaging.xmp.IXmlValue
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The IXmlValue type exposes the following members:
 ## **Methods**

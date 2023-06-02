@@ -11,7 +11,7 @@ The EMR_SETLAYOUT record specifies the order in which text and graphics are draw
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetLayout
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfSetLayout type exposes the following members:
 ## **Constructors**

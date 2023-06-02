@@ -11,7 +11,7 @@ Represents the graphics according to the graphics engine used in the current ass
 
 **Full Class Name:** aspose.imaging.Graphics
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The Graphics type exposes the following members:
 ## **Constructors**

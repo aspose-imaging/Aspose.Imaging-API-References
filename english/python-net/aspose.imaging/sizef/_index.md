@@ -11,7 +11,7 @@ Stores an ordered pair of floating-point numbers, typically the width and height
 
 **Full Class Name:** aspose.imaging.SizeF
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The SizeF type exposes the following members:
 ## **Constructors**

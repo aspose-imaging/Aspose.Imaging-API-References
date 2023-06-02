@@ -11,7 +11,7 @@ The EmfPlusSetCompositingQuality record specifies the desired level of quality f
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSetCompositingQuality
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfPlusSetCompositingQuality type exposes the following members:
 ## **Constructors**

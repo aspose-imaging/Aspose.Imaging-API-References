@@ -11,7 +11,7 @@ the container for child elements.
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.CmxContainer
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The CmxContainer type exposes the following members:
 ## **Properties**

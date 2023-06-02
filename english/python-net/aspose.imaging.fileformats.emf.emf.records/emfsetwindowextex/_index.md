@@ -11,7 +11,7 @@ The EMR_SETWINDOWEXTEX record defines the window extent.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetWindowExtEx
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfSetWindowExtEx type exposes the following members:
 ## **Constructors**

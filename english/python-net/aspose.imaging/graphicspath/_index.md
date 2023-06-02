@@ -11,7 +11,7 @@ Represents a series of connected lines and curves. This class cannot be inherite
 
 **Full Class Name:** aspose.imaging.GraphicsPath
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The GraphicsPath type exposes the following members:
 ## **Constructors**

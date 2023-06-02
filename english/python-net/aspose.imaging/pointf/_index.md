@@ -11,7 +11,7 @@ Represents an ordered pair of floating-point x- and y-coordinates that defines a
 
 **Full Class Name:** aspose.imaging.PointF
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The PointF type exposes the following members:
 ## **Constructors**

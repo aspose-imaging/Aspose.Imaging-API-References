@@ -11,7 +11,7 @@ The byte order for the tiff image
 
 **Full Name:** aspose.imaging.fileformats.tiff.enums.TiffByteOrder
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 ## **Members**
 |**Member name**|**Description**|

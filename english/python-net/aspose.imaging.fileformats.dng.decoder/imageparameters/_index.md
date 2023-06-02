@@ -11,7 +11,7 @@ Dng image parameters
 
 **Full Class Name:** aspose.imaging.fileformats.dng.decoder.ImageParameters
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The ImageParameters type exposes the following members:
 ## **Properties**

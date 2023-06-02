@@ -11,7 +11,7 @@ The EMR_SETVIEWPORTEXTEX record defines the viewport extent.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetViewportExtEx
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The EmfSetViewportExtEx type exposes the following members:
 ## **Constructors**

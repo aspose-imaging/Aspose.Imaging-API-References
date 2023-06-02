@@ -11,7 +11,7 @@ Represents disposable object.
 
 **Full Class Name:** aspose.imaging.DisposableObject
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The DisposableObject type exposes the following members:
 ## **Constructors**

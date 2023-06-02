@@ -11,7 +11,7 @@ The PitchFont enumeration defines values that are used for specifying characteri
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfPitchFont
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 ## **Members**
 |**Member name**|**Description**|

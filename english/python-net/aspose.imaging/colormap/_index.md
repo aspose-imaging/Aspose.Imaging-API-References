@@ -11,7 +11,7 @@ Defines a map for converting colors. Several methods of the [ImageAttributes](/i
 
 **Full Class Name:** aspose.imaging.ColorMap
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The ColorMap type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ Non generic list of objects
 
 **Full Class Name:** aspose.imaging.NonGenericList
 
-**Assembly:**  Aspose.Imaging Version: 23.5.6
+**Assembly:**  Aspose.Imaging Version: 23.5.0
 
 The NonGenericList type exposes the following members:
 ## **Constructors**
