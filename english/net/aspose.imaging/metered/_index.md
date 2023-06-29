@@ -27,7 +27,7 @@ public class Metered
 | Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.imaging/metered/equals)(object) | Determines whether the specified Object, is equal to this instance. |
-| [SetMeteredKey](../../aspose.imaging/metered/setmeteredkey)(string, string) | Sets metered public and private key |
+| [SetMeteredKey](../../aspose.imaging/metered/setmeteredkey)(string, string) | Sets metered public and private key If you purchase metered license, when start application, this API should be called, normally, this is enough. However, if always fail to upload consumption data and exceed 24 hours, the license will be set to evaluation status, to avoid such case, you should regularly check the license status, if it is evaluation status, call this API again. |
 | static [GetConsumptionCredit](../../aspose.imaging/metered/getconsumptioncredit)() | Gets consumption credit |
 | static [GetConsumptionQuantity](../../aspose.imaging/metered/getconsumptionquantity)() | Gets consumption file size |
 
