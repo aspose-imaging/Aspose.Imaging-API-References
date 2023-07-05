@@ -11,7 +11,7 @@ Helper methods to work with CMYK color presented as a signed 32-bit integer valu
 
 **Full Class Name:** aspose.imaging.CmykColorHelper
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The CmykColorHelper type exposes the following members:
 ## **Methods**

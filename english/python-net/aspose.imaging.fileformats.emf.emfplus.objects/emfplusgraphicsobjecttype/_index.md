@@ -11,7 +11,7 @@ The Graphics Objects specify parameters for graphics output. They are part of th
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusGraphicsObjectType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusGraphicsObjectType type exposes the following members:
 ## **Properties**

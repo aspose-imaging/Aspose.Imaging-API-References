@@ -11,7 +11,7 @@ The TIFF data type.
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.TiffDataType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The TiffDataType type exposes the following members:
 ## **Properties**

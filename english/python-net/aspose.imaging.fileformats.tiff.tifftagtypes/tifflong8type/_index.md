@@ -11,7 +11,7 @@ The Tiff unsigned 64-bit type.
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.tifftagtypes.TiffLong8Type
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The TiffLong8Type type exposes the following members:
 ## **Constructors**

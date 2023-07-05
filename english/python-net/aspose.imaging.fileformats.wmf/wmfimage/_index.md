@@ -11,7 +11,7 @@ The Wmf Image
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.WmfImage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfImage type exposes the following members:
 ## **Constructors**

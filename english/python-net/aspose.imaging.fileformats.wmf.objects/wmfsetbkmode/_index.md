@@ -11,7 +11,7 @@ The set bk mode.
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetBkMode
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfSetBkMode type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The base brush class.
 
 **Full Class Name:** aspose.imaging.Brush
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The Brush type exposes the following members:
 ## **Properties**

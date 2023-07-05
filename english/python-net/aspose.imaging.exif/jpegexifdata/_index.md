@@ -11,7 +11,7 @@ EXIF data container for jpeg files.
 
 **Full Class Name:** aspose.imaging.exif.JpegExifData
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The JpegExifData type exposes the following members:
 ## **Constructors**

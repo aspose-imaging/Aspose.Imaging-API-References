@@ -11,7 +11,7 @@ The raster image raw data loader.
 
 **Full Class Name:** aspose.imaging.IRasterImageRawDataLoader
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The IRasterImageRawDataLoader type exposes the following members:
 ## **Properties**

@@ -11,7 +11,7 @@ The EMR_SETPIXELV record defines the color of the pixel at the specified logical
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetPixelV
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfSetPixelV type exposes the following members:
 ## **Constructors**

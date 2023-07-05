@@ -11,7 +11,7 @@ The vectorized PSD rasterization options.
 
 **Full Class Name:** aspose.imaging.imageoptions.PsdVectorizationOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The PsdVectorizationOptions type exposes the following members:
 ## **Constructors**

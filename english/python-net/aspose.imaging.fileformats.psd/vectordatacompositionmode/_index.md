@@ -11,7 +11,7 @@ Defines the vector data composition mode that is used on export from vector form
 
 **Full Name:** aspose.imaging.fileformats.psd.VectorDataCompositionMode
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 ## **Members**
 |**Member name**|**Description**|

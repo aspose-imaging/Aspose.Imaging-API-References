@@ -11,7 +11,7 @@ The RedEyeCorrectionEffect object specifies areas of an image to which a red-eye
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusRedEyeCorrectionEffect
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusRedEyeCorrectionEffect type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The cdr vector pattern
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrVectorPattern
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The CdrVectorPattern type exposes the following members:
 ## **Constructors**

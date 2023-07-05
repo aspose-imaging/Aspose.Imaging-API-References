@@ -11,7 +11,7 @@ The META_LINETO record draws a line from the drawing position that is<br/>      
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfLineTo
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfLineTo type exposes the following members:
 ## **Constructors**

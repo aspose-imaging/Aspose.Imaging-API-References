@@ -11,7 +11,7 @@ The unknown tiff type. In case the tiff tag cannot be recognized this type is in
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.tifftagtypes.TiffUnknownType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The TiffUnknownType type exposes the following members:
 ## **Constructors**

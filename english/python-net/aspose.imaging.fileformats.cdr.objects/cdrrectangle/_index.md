@@ -11,7 +11,7 @@ The cdr rectangle
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrRectangle
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The CdrRectangle type exposes the following members:
 ## **Constructors**

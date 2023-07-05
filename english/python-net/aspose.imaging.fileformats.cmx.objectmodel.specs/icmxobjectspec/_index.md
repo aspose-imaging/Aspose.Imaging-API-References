@@ -11,6 +11,6 @@ Specification of graphics object
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.specs.ICmxObjectSpec
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The ICmxObjectSpec type exposes the following members:

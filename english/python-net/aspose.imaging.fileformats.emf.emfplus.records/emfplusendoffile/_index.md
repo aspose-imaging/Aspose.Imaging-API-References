@@ -11,7 +11,7 @@ The EmfPlusEndOfFile record specifies the end of EMF+ data in the metafile.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusEndOfFile
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusEndOfFile type exposes the following members:
 ## **Constructors**

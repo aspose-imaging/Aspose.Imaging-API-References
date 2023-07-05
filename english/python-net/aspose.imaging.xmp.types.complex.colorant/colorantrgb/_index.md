@@ -11,7 +11,7 @@ Represents RGB Colorant.
 
 **Full Class Name:** aspose.imaging.xmp.types.complex.colorant.ColorantRgb
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The ColorantRgb type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The EmfPlusSetClipRegion record combines the current clipping region with anothe
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSetClipRegion
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusSetClipRegion type exposes the following members:
 ## **Constructors**

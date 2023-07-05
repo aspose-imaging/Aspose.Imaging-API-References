@@ -11,7 +11,7 @@ The EmfPlusPathGradientBrushOptionalData object specifies optional data for a pa
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPathGradientBrushOptionalData
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusPathGradientBrushOptionalData type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The EmfPlusDrawPie record specifies drawing a section of the interior of an elli
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusDrawPie
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusDrawPie type exposes the following members:
 ## **Constructors**

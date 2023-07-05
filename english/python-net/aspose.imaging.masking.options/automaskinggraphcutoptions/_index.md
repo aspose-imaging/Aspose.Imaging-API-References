@@ -11,7 +11,7 @@ The GraphCut auto masking options.
 
 **Full Class Name:** aspose.imaging.masking.options.AutoMaskingGraphCutOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The AutoMaskingGraphCutOptions type exposes the following members:
 ## **Constructors**

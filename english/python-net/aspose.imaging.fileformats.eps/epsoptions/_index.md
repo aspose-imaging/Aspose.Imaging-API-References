@@ -11,7 +11,7 @@ EPS options (currently not used)
 
 **Full Class Name:** aspose.imaging.fileformats.eps.EpsOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EpsOptions type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The EmfPlusDrawRects record specifies drawing a series of rectangles
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusDrawRects
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusDrawRects type exposes the following members:
 ## **Constructors**

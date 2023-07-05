@@ -11,7 +11,7 @@ The META_EXTTEXTOUT record outputs text by using the font, background<br/>      
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfTextOut
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfTextOut type exposes the following members:
 ## **Constructors**

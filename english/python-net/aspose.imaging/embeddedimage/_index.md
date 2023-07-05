@@ -11,7 +11,7 @@ The embedded image class
 
 **Full Class Name:** aspose.imaging.EmbeddedImage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmbeddedImage type exposes the following members:
 ## **Properties**

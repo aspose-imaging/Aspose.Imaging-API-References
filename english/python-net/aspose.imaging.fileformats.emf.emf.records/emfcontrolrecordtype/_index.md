@@ -11,7 +11,7 @@ The control record types define the start and end of an EMF metafile and propert
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfControlRecordType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfControlRecordType type exposes the following members:
 ## **Properties**

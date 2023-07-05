@@ -11,7 +11,7 @@ Represents a bezier spline.
 
 **Full Class Name:** aspose.imaging.shapes.BezierShape
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The BezierShape type exposes the following members:
 ## **Constructors**

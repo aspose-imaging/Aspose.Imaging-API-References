@@ -11,6 +11,6 @@ The Structure Objects specify containers for data structures that are embedded i
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStructureObjectType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusStructureObjectType type exposes the following members:

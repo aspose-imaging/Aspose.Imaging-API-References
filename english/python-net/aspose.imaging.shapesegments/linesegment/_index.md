@@ -11,7 +11,7 @@ Represents a segment leading derectly from a specific point to the next point.
 
 **Full Class Name:** aspose.imaging.shapesegments.LineSegment
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The LineSegment type exposes the following members:
 ## **Constructors**

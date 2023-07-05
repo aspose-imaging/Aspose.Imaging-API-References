@@ -11,7 +11,7 @@ Represents the image loaders registry.
 
 **Full Class Name:** aspose.imaging.ImageLoadersRegistry
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The ImageLoadersRegistry type exposes the following members:
 ## **Properties**

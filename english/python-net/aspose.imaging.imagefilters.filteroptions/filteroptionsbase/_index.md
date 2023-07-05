@@ -11,6 +11,6 @@ Filter Options Base, abstract class
 
 **Full Class Name:** aspose.imaging.imagefilters.filteroptions.FilterOptionsBase
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The FilterOptionsBase type exposes the following members:

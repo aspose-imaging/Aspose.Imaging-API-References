@@ -11,7 +11,7 @@ The EmfPlusDrawlLines record specifies drawing a series of connected lines
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusDrawLines
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusDrawLines type exposes the following members:
 ## **Constructors**

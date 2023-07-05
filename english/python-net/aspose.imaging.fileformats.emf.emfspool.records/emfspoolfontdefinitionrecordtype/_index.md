@@ -11,6 +11,6 @@ The Font Definition records include five record types, listed in the following t
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfspool.records.EmfSpoolFontDefinitionRecordType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfSpoolFontDefinitionRecordType type exposes the following members:

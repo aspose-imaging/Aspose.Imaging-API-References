@@ -11,7 +11,7 @@ Represents split stream container which contains the stream and provides stream 
 
 **Full Class Name:** aspose.imaging.SplitStreamContainer
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The SplitStreamContainer type exposes the following members:
 ## **Constructors**

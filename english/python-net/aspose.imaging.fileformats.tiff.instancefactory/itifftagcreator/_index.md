@@ -11,7 +11,7 @@ The tiff tag creator.
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.instancefactory.ITiffTagCreator
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The ITiffTagCreator type exposes the following members:
 ## **Methods**

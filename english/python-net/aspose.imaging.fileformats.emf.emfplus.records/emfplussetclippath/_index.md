@@ -11,7 +11,7 @@ The EmfPlusSetClipPath record combines the current clipping region with a graphi
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSetClipPath
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusSetClipPath type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The EmfPlusOffsetClip record applies a translation transform on the current clip
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusOffsetClip
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusOffsetClip type exposes the following members:
 ## **Constructors**

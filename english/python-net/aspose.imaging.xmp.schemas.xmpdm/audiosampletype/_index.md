@@ -11,7 +11,7 @@ Represents Audio sample type in [XmpDynamicMediaPackage](/imaging/python-net/asp
 
 **Full Class Name:** aspose.imaging.xmp.schemas.xmpdm.AudioSampleType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The AudioSampleType type exposes the following members:
 ## **Properties**

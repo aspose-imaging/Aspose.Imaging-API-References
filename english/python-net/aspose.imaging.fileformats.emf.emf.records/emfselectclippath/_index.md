@@ -11,7 +11,7 @@ The EMR_SELECTCLIPPATH record specifies the current path as a clipping region fo
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSelectClipPath
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfSelectClipPath type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ This record maps palette entries from the current<br/>            LogPalette obj
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfRealizePalette
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfRealizePalette type exposes the following members:
 ## **Constructors**

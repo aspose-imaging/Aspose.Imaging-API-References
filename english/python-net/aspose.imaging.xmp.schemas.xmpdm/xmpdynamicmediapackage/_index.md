@@ -11,7 +11,7 @@ Represents XMP Dynamic Media namespace.
 
 **Full Class Name:** aspose.imaging.xmp.schemas.xmpdm.XmpDynamicMediaPackage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The XmpDynamicMediaPackage type exposes the following members:
 ## **Constructors**

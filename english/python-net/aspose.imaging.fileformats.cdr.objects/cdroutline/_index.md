@@ -11,7 +11,7 @@ The cdr out line
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrOutline
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The CdrOutline type exposes the following members:
 ## **Constructors**

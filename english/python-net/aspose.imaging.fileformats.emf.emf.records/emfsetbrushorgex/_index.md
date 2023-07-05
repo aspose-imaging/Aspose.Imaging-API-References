@@ -11,7 +11,7 @@ The EMR_SETBRUSHORGEX record specifies the origin of the current brush.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetBrushOrgEx
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfSetBrushOrgEx type exposes the following members:
 ## **Constructors**

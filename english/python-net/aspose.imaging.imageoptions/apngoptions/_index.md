@@ -11,7 +11,7 @@ The animated PNG file format options
 
 **Full Class Name:** aspose.imaging.imageoptions.ApngOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The ApngOptions type exposes the following members:
 ## **Constructors**

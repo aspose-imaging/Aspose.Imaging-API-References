@@ -11,7 +11,7 @@ Represents the PNG image color type.
 
 **Full Name:** aspose.imaging.fileformats.png.PngColorType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 ## **Members**
 |**Member name**|**Description**|

@@ -11,7 +11,7 @@ The EMR_SETVIEWPORTORGEX record defines the viewport origin.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetViewportOrgEx
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfSetViewportOrgEx type exposes the following members:
 ## **Constructors**

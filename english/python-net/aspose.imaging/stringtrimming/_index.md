@@ -11,7 +11,7 @@ Specifies how to trim characters from a string that does not completely fit into
 
 **Full Name:** aspose.imaging.StringTrimming
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 ## **Members**
 |**Member name**|**Description**|

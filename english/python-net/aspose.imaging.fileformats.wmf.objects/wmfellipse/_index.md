@@ -11,7 +11,7 @@ The META_ELLIPSE record draws an ellipse. The center of the ellipse is<br/>     
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfEllipse
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfEllipse type exposes the following members:
 ## **Constructors**

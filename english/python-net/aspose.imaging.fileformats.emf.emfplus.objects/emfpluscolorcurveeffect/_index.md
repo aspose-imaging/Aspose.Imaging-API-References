@@ -11,7 +11,7 @@ The ColorCurveEffect object specifies one of eight adjustments to the color curv
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusColorCurveEffect
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusColorCurveEffect type exposes the following members:
 ## **Constructors**

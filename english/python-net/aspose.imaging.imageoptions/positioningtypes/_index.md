@@ -11,7 +11,7 @@ Positioning and size types for graphics scene.
 
 **Full Name:** aspose.imaging.imageoptions.PositioningTypes
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 ## **Members**
 |**Member name**|**Description**|

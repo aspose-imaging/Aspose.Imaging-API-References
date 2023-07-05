@@ -11,7 +11,7 @@ The EmfPlusSetTSGraphics record specifies the state of a graphics device context
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSetTsGraphics
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusSetTsGraphics type exposes the following members:
 ## **Constructors**

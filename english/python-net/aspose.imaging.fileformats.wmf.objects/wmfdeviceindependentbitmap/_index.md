@@ -11,7 +11,7 @@ The DeviceIndependentBitmap Object defines an image in<br/>                devic
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfDeviceIndependentBitmap
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfDeviceIndependentBitmap type exposes the following members:
 ## **Constructors**

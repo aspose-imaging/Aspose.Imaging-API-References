@@ -11,7 +11,7 @@ The EMR_SETDIBITSTODEVICE record specifies a block transfer of pixels from speci
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetDiBitsToDevice
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfSetDiBitsToDevice type exposes the following members:
 ## **Constructors**

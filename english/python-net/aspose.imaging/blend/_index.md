@@ -11,7 +11,7 @@ Defines a blend pattern. This class cannot be inherited.
 
 **Full Class Name:** aspose.imaging.Blend
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The Blend type exposes the following members:
 ## **Constructors**

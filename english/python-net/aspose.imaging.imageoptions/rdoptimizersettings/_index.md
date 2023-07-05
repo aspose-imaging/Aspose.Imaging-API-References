@@ -11,7 +11,7 @@ RD optimizer settings class
 
 **Full Class Name:** aspose.imaging.imageoptions.RdOptimizerSettings
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The RdOptimizerSettings type exposes the following members:
 ## **Constructors**

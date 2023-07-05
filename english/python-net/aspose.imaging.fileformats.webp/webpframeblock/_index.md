@@ -11,7 +11,7 @@ Represents the webp blocks openers registry.
 
 **Full Class Name:** aspose.imaging.fileformats.webp.WebPFrameBlock
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WebPFrameBlock type exposes the following members:
 ## **Constructors**

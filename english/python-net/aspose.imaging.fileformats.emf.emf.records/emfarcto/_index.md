@@ -11,7 +11,7 @@ The EMR_ARCTO record specifies an elliptical arc. It resets the current position
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfArcTo
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfArcTo type exposes the following members:
 ## **Constructors**

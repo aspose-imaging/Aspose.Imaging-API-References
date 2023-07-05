@@ -11,7 +11,7 @@ Represents path of the project.
 
 **Full Class Name:** aspose.imaging.xmp.schemas.xmpdm.ProjectLink
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The ProjectLink type exposes the following members:
 ## **Constructors**

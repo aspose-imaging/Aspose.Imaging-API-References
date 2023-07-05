@@ -11,7 +11,7 @@ The cdr image fill
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.types.CdrImageFill
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The CdrImageFill type exposes the following members:
 ## **Constructors**

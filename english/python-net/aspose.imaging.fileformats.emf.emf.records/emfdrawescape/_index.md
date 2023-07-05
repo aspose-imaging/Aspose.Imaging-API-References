@@ -11,7 +11,7 @@ The EMR_DRAWESCAPE record passes arbitrary information to a printer driver. The 
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfDrawEscape
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfDrawEscape type exposes the following members:
 ## **Constructors**

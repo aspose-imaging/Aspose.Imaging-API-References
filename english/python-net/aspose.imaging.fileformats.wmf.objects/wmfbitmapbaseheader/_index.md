@@ -11,7 +11,7 @@ The base bitmap header class.
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfBitmapBaseHeader
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfBitmapBaseHeader type exposes the following members:
 ## **Properties**

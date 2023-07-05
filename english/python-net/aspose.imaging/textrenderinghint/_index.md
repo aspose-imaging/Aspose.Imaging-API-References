@@ -11,7 +11,7 @@ Specifies the quality of text rendering.
 
 **Full Name:** aspose.imaging.TextRenderingHint
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 ## **Members**
 |**Member name**|**Description**|

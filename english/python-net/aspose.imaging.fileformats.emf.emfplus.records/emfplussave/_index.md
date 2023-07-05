@@ -11,7 +11,7 @@ The EmfPlusSave record saves the graphics state, identified by a specified index
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSave
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusSave type exposes the following members:
 ## **Constructors**

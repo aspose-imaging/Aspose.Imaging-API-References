@@ -11,7 +11,7 @@ The EmfPlusBrush object specifies a graphics brush for filling regions.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBrush
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusBrush type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ Contains extension methods for conversions based on aspose.pydrawing.Image and [
 
 **Full Class Name:** aspose.imaging.extensions.ImageExtensions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The ImageExtensions type exposes the following members:
 ## **Methods**

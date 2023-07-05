@@ -11,7 +11,7 @@ The Header object defines the EMF metafile header. It specifies properties of th
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfHeaderObject
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfHeaderObject type exposes the following members:
 ## **Constructors**

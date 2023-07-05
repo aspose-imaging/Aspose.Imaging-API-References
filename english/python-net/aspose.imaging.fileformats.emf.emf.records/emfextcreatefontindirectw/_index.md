@@ -11,7 +11,7 @@ The EMR_EXTCREATEFONTINDIRECTW record defines a logical font for graphics operat
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfExtCreateFontIndirectW
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfExtCreateFontIndirectW type exposes the following members:
 ## **Constructors**

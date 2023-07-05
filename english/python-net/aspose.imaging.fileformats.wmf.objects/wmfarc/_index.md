@@ -11,7 +11,7 @@ The META_ARC record draws an elliptical arc.
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfArc
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfArc type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ Represents a raster image supporting raster graphics operations. This image cach
 
 **Full Class Name:** aspose.imaging.RasterCachedImage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The RasterCachedImage type exposes the following members:
 ## **Properties**

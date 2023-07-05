@@ -11,7 +11,7 @@ The EmfPlusLinearGradientBrushData object specifies a linear gradient for a grap
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusLinearGradientBrushData
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusLinearGradientBrushData type exposes the following members:
 ## **Constructors**

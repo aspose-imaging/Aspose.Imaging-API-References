@@ -11,7 +11,7 @@ It is class for work with DICOM files of the type multi frame
 
 **Full Class Name:** aspose.imaging.fileformats.dicom.DicomPage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The DicomPage type exposes the following members:
 ## **Constructors**

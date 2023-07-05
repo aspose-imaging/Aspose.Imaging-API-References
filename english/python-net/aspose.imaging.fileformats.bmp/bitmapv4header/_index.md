@@ -11,7 +11,7 @@ The BitmapV4Header structure is the bitmap information header file. It is an ext
 
 **Full Class Name:** aspose.imaging.fileformats.bmp.BitmapV4Header
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The BitmapV4Header type exposes the following members:
 ## **Properties**

@@ -11,7 +11,7 @@ The Point28_4 object represents the location of a point on a device surface with
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfPoint28To4
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPoint28To4 type exposes the following members:
 ## **Constructors**

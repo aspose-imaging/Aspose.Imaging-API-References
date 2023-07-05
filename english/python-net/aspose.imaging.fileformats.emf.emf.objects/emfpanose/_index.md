@@ -11,7 +11,7 @@ The Panose object describes the PANOSE font-classification values for a TrueType
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfPanose
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPanose type exposes the following members:
 ## **Constructors**

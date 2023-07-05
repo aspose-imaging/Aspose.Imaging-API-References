@@ -11,7 +11,7 @@ Represents a shape which is projected over rectangle turned to a particular orie
 
 **Full Class Name:** aspose.imaging.shapes.RectangleProjectedShape
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The RectangleProjectedShape type exposes the following members:
 ## **Properties**

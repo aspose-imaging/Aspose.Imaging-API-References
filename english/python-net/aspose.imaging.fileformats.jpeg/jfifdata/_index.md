@@ -11,7 +11,7 @@ The jfif segment.
 
 **Full Class Name:** aspose.imaging.fileformats.jpeg.JFIFData
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The JFIFData type exposes the following members:
 ## **Constructors**

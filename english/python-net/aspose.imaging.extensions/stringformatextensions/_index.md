@@ -11,7 +11,7 @@ Contains extension methods for the [StringFormat](/imaging/python-net/aspose.ima
 
 **Full Class Name:** aspose.imaging.extensions.StringFormatExtensions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The StringFormatExtensions type exposes the following members:
 ## **Methods**

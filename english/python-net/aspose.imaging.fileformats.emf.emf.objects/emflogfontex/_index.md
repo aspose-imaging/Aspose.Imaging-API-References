@@ -11,7 +11,7 @@ The LogFontEx object specifies the extended attributes of a logical font.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfLogFontEx
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfLogFontEx type exposes the following members:
 ## **Constructors**

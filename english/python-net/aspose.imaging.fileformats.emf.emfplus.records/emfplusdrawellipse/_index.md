@@ -11,7 +11,7 @@ The EmfPlusDrawEllipse record specifies drawing an ellipse.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusDrawEllipse
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusDrawEllipse type exposes the following members:
 ## **Constructors**

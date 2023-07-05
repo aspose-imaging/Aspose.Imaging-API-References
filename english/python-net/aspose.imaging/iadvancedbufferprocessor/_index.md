@@ -11,7 +11,7 @@ The advanced buffer processor.
 
 **Full Class Name:** aspose.imaging.IAdvancedBufferProcessor
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The IAdvancedBufferProcessor type exposes the following members:
 ## **Methods**

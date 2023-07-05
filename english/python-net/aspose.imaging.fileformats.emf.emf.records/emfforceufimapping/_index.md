@@ -11,7 +11,7 @@ The EMR_FORCEUFIMAPPING record forces the font mapper to match fonts based on th
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfForceUfiMapping
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfForceUfiMapping type exposes the following members:
 ## **Constructors**

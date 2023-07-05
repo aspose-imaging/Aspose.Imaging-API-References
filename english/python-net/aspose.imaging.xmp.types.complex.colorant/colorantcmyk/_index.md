@@ -11,7 +11,7 @@ Represents CMYK Colorant.
 
 **Full Class Name:** aspose.imaging.xmp.types.complex.colorant.ColorantCmyk
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The ColorantCmyk type exposes the following members:
 ## **Constructors**

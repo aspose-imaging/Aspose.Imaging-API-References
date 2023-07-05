@@ -11,7 +11,7 @@ The Bitmap16 Object specifies information about the dimensions and color<br/>   
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfBitmap16
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfBitmap16 type exposes the following members:
 ## **Constructors**

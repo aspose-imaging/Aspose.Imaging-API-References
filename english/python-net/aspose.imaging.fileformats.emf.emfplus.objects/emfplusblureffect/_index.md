@@ -11,7 +11,7 @@ The BlurEffect object specifies a decrease in the difference in intensity betwee
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBlurEffect
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusBlurEffect type exposes the following members:
 ## **Constructors**

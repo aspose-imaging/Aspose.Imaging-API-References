@@ -11,7 +11,7 @@ The EmfPlusSetTSClip record specifies clipping areas in the graphics device cont
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSetTsClip
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusSetTsClip type exposes the following members:
 ## **Constructors**

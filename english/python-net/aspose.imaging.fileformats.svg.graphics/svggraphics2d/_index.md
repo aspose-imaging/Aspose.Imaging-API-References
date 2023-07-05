@@ -11,7 +11,7 @@ Provides drawing commmands to compose an Svg image.
 
 **Full Class Name:** aspose.imaging.fileformats.svg.graphics.SvgGraphics2D
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The SvgGraphics2D type exposes the following members:
 ## **Constructors**

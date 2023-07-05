@@ -11,7 +11,7 @@ The EMR_OFFSETCLIPRGN record moves the current clipping region in the playback d
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfOffsetClipRgn
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfOffsetClipRgn type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ Represents Xmp Array in [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmpp
 
 **Full Class Name:** aspose.imaging.xmp.XmpArray
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The XmpArray type exposes the following members:
 ## **Constructors**

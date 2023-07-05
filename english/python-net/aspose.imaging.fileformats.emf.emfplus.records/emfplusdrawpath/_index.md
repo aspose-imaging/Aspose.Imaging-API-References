@@ -11,7 +11,7 @@ The EmfPlusDrawPath record specifies drawing a graphics path.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusDrawPath
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusDrawPath type exposes the following members:
 ## **Constructors**

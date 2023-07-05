@@ -11,7 +11,7 @@ This class represents set of metadata for document description.
 
 **Full Class Name:** aspose.imaging.fileformats.pdf.PdfDocumentInfo
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The PdfDocumentInfo type exposes the following members:
 ## **Constructors**

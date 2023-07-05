@@ -11,7 +11,7 @@ The META_MOVETO record sets the output position in the playback device<br/>     
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfMoveTo
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfMoveTo type exposes the following members:
 ## **Constructors**

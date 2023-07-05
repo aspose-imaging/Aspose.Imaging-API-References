@@ -11,7 +11,7 @@ The HeaderExtension1 object defines the first extension to the EMF metafile head
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfHeaderExtension1
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfHeaderExtension1 type exposes the following members:
 ## **Constructors**

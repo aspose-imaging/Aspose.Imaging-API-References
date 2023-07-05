@@ -11,7 +11,7 @@ Specifies the alignment of a [Pen](/imaging/python-net/aspose.imaging/pen/) obje
 
 **Full Name:** aspose.imaging.PenAlignment
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 ## **Members**
 |**Member name**|**Description**|

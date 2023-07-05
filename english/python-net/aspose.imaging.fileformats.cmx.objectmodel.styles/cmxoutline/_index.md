@@ -11,7 +11,7 @@ Represents an outline style.
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.styles.CmxOutline
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The CmxOutline type exposes the following members:
 ## **Constructors**

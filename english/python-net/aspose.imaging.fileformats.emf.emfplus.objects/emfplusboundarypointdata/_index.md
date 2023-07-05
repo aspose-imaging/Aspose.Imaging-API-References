@@ -11,7 +11,7 @@ The EmfPlusBoundaryPointData object specifies a closed cardinal spline boundary 
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBoundaryPointData
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusBoundaryPointData type exposes the following members:
 ## **Constructors**

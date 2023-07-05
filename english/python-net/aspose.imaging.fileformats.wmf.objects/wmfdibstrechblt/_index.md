@@ -11,7 +11,7 @@ The META_DIBSTRETCHBLT record specifies the transfer of a block of<br/>         
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfDibStrechBlt
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfDibStrechBlt type exposes the following members:
 ## **Constructors**

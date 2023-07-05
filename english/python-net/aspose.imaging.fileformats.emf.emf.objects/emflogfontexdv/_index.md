@@ -11,7 +11,7 @@ The LogFontExDv object specifies the design vector for an extended logical font.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfLogFontExDv
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfLogFontExDv type exposes the following members:
 ## **Constructors**

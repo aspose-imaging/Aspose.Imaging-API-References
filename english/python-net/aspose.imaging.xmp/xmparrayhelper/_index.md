@@ -11,7 +11,7 @@ The helper class for processing RDF logic
 
 **Full Class Name:** aspose.imaging.xmp.XmpArrayHelper
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The XmpArrayHelper type exposes the following members:
 ## **Methods**

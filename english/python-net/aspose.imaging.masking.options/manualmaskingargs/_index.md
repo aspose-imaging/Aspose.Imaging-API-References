@@ -11,7 +11,7 @@ Represents the arguments that are specified for manual masking method
 
 **Full Class Name:** aspose.imaging.masking.options.ManualMaskingArgs
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The ManualMaskingArgs type exposes the following members:
 ## **Constructors**

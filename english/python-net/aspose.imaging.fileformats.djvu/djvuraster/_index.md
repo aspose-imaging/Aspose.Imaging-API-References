@@ -11,7 +11,7 @@ Class for representing Djvu raster image where located result of some operation
 
 **Full Class Name:** aspose.imaging.fileformats.djvu.DjvuRaster
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The DjvuRaster type exposes the following members:
 ## **Properties**

@@ -11,7 +11,7 @@ Base object for blend objects
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBlendBase
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusBlendBase type exposes the following members:
 ## **Properties**

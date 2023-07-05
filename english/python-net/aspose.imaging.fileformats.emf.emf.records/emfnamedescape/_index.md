@@ -11,7 +11,7 @@ The MR_NAMEDESCAPE record passes arbitrary information to a specified printer dr
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfNamedEscape
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfNamedEscape type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The vector image is the base class for all type of vector images.
 
 **Full Class Name:** aspose.imaging.VectorImage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The VectorImage type exposes the following members:
 ## **Properties**

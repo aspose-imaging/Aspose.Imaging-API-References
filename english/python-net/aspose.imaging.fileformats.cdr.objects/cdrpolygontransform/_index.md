@@ -11,7 +11,7 @@ The polygon transform
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrPolygonTransform
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The CdrPolygonTransform type exposes the following members:
 ## **Constructors**

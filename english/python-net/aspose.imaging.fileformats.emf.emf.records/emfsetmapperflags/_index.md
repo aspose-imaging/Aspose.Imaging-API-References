@@ -11,7 +11,7 @@ The EMR_SETMAPPERFLAGS record specifies parameters of the process of matching lo
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetMapperFlags
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfSetMapperFlags type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The META_OFFSETVIEWPORTORG record moves the viewport origin in the<br/>         
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfOffsetViewPortOrg
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfOffsetViewPortOrg type exposes the following members:
 ## **Constructors**

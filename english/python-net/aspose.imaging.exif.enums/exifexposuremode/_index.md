@@ -11,7 +11,7 @@ exif exposure mode enum.
 
 **Full Name:** aspose.imaging.exif.enums.ExifExposureMode
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 ## **Members**
 |**Member name**|**Description**|

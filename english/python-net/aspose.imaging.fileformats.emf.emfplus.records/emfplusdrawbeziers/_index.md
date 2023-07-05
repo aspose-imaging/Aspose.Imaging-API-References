@@ -11,7 +11,7 @@ The EmfPlusDrawBeziers record specifies drawing a sequence of connected Bezier c
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusDrawBeziers
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusDrawBeziers type exposes the following members:
 ## **Constructors**

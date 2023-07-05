@@ -11,7 +11,7 @@ The wmf frame region object.
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfFrameRegion
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfFrameRegion type exposes the following members:
 ## **Constructors**

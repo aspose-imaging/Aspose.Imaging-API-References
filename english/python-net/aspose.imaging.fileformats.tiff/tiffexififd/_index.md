@@ -11,7 +11,7 @@ The TIFF Exif image file directory class.
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.TiffExifIfd
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The TiffExifIfd type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The tiff byte type.
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.tifftagtypes.TiffByteType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The TiffByteType type exposes the following members:
 ## **Constructors**

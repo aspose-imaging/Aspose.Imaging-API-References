@@ -11,7 +11,7 @@ The Enhanced geometry object.
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdEnhancedGeometry
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The OdEnhancedGeometry type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The EMR_EOF record indicates the end of the metafile and specifies a palette.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfEof
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfEof type exposes the following members:
 ## **Constructors**

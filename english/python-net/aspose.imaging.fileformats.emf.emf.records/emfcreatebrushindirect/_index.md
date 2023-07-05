@@ -11,7 +11,7 @@ The EMR_CREATEBRUSHINDIRECT record defines a logical brush for graphics operatio
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfCreateBrushIndirect
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfCreateBrushIndirect type exposes the following members:
 ## **Constructors**

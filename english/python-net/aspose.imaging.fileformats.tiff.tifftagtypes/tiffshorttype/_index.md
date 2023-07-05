@@ -11,7 +11,7 @@ The tiff short type.
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.tifftagtypes.TiffShortType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The TiffShortType type exposes the following members:
 ## **Constructors**

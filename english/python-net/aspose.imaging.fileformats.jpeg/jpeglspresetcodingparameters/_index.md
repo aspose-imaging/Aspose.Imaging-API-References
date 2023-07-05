@@ -11,7 +11,7 @@ Defines the JPEG-LS preset coding parameters as defined in ISO/IEC 14495-1, C.2.
 
 **Full Class Name:** aspose.imaging.fileformats.jpeg.JpegLsPresetCodingParameters
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The JpegLsPresetCodingParameters type exposes the following members:
 ## **Constructors**

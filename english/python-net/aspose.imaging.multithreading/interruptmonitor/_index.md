@@ -11,7 +11,7 @@ Represents information about interruption.
 
 **Full Class Name:** aspose.imaging.multithreading.InterruptMonitor
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The InterruptMonitor type exposes the following members:
 ## **Constructors**

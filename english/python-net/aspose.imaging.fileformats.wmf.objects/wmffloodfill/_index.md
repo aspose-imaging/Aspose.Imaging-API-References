@@ -11,7 +11,7 @@ The META_FLOODFILL record fills an area of the output surface with the<br/>     
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfFloodFill
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfFloodFill type exposes the following members:
 ## **Constructors**

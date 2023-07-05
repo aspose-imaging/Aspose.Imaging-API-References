@@ -11,7 +11,7 @@ The EmfPlusResetWorldTransform record resets the current world space transform t
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusResetWorldTransform
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusResetWorldTransform type exposes the following members:
 ## **Constructors**

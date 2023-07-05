@@ -11,7 +11,7 @@ The EMR_COLORCORRECTPALETTE record specifies how to correct the entries of a log
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfColorCorrectPalette
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfColorCorrectPalette type exposes the following members:
 ## **Constructors**

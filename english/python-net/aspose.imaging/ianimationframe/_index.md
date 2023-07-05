@@ -11,7 +11,7 @@ The Animation frame
 
 **Full Class Name:** aspose.imaging.IAnimationFrame
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The IAnimationFrame type exposes the following members:
 ## **Properties**

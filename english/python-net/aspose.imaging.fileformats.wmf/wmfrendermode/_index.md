@@ -11,7 +11,7 @@ The render mode enumeration.
 
 **Full Name:** aspose.imaging.fileformats.wmf.WmfRenderMode
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 ## **Members**
 |**Member name**|**Description**|

@@ -11,7 +11,7 @@ The META_SETLAYOUT record defines the layout orientation in the playback<br/>   
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetLayout
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfSetLayout type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The EMR_SMALLTEXTOUT record outputs a string.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSmallTextOut
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfSmallTextOut type exposes the following members:
 ## **Constructors**

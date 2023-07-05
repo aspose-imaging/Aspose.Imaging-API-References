@@ -11,7 +11,7 @@ The EMR_SETMAPMODE record specifies the mapping mode of the playback device cont
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetMapMode
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfSetMapMode type exposes the following members:
 ## **Constructors**

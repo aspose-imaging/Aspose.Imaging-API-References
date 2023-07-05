@@ -11,7 +11,7 @@ The EmfPlusLinearGradientBrushOptionalData object specifies optional data for a 
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusLinearGradientBrushOptionalData
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusLinearGradientBrushOptionalData type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The META_SELECTCLIPREGION record specifies a Region Object (section 2.2.1.5) to 
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSelectClipRegion
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfSelectClipRegion type exposes the following members:
 ## **Constructors**

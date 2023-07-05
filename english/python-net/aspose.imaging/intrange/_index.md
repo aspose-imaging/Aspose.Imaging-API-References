@@ -11,7 +11,7 @@ Class for representing sequence of elements
 
 **Full Class Name:** aspose.imaging.IntRange
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The IntRange type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The Open Dcocument Load Options
 
 **Full Class Name:** aspose.imaging.imageloadoptions.OdLoadOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The OdLoadOptions type exposes the following members:
 ## **Constructors**

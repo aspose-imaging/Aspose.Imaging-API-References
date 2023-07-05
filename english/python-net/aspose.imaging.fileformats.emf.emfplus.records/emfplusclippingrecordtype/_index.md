@@ -11,7 +11,7 @@ The clipping record types specify clipping regions and operations.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusClippingRecordType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusClippingRecordType type exposes the following members:
 ## **Properties**

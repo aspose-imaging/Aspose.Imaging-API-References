@@ -11,7 +11,7 @@ Represents size.
 
 **Full Class Name:** aspose.imaging.Size
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The Size type exposes the following members:
 ## **Constructors**

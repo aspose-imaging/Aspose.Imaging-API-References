@@ -11,7 +11,7 @@ Gif block Loader descriptor.
 
 **Full Class Name:** aspose.imaging.fileformats.gif.IGifBlockLoaderDescriptor
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The IGifBlockLoaderDescriptor type exposes the following members:
 ## **Methods**

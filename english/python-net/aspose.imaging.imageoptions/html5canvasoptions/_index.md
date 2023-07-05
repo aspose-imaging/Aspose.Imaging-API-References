@@ -11,7 +11,7 @@ The Html5 Canvas file format creation options.
 
 **Full Class Name:** aspose.imaging.imageoptions.Html5CanvasOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The Html5CanvasOptions type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The Scan Object specifies a collection of scanlines.
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfScanObject
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfScanObject type exposes the following members:
 ## **Constructors**

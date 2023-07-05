@@ -11,7 +11,7 @@ Contains the [Matrix](/imaging/python-net/aspose.imaging/matrix/) class extensio
 
 **Full Class Name:** aspose.imaging.extensions.MatrixExtensions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The MatrixExtensions type exposes the following members:
 ## **Methods**

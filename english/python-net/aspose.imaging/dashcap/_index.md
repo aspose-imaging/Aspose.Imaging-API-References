@@ -11,7 +11,7 @@ Specifies the type of graphic shape to use on both ends of each dash in a dashed
 
 **Full Name:** aspose.imaging.DashCap
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 ## **Members**
 |**Member name**|**Description**|

@@ -11,7 +11,7 @@ The BitmapV5Header structure is the bitmap information header file. It is an ext
 
 **Full Class Name:** aspose.imaging.fileformats.bmp.BitmapV5Header
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The BitmapV5Header type exposes the following members:
 ## **Properties**

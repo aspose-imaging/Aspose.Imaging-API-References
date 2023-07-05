@@ -11,7 +11,7 @@ The little endian BigTiff reader.
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.filemanagement.bigtiff.BigTiffReader
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The BigTiffReader type exposes the following members:
 ## **Constructors**

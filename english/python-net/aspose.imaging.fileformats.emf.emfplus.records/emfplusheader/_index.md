@@ -11,7 +11,7 @@ The EmfPlusHeader record specifies the start of EMF+ data in the metafile.<br/> 
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusHeader
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusHeader type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The EMR_POLYLINETO record specifies one or more straight lines based upon the cu
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfPolylineTo
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPolylineTo type exposes the following members:
 ## **Constructors**

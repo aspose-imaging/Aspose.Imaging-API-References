@@ -11,7 +11,7 @@ The Jpeg2000 file format options.
 
 **Full Class Name:** aspose.imaging.imageoptions.Jpeg2000Options
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The Jpeg2000Options type exposes the following members:
 ## **Constructors**

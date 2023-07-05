@@ -11,7 +11,7 @@ Provides methods to license the component.
 
 **Full Class Name:** aspose.imaging.License
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The License type exposes the following members:
 ## **Constructors**

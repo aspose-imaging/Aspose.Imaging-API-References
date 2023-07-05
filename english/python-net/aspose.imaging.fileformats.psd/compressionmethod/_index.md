@@ -11,7 +11,7 @@ Defines the compression method used for image data.
 
 **Full Name:** aspose.imaging.fileformats.psd.CompressionMethod
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 ## **Members**
 |**Member name**|**Description**|

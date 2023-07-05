@@ -11,7 +11,7 @@ The Hatched brush
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.brush.OdHatchedBrush
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The OdHatchedBrush type exposes the following members:
 ## **Constructors**

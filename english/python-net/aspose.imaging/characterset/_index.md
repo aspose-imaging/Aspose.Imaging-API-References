@@ -11,7 +11,7 @@ Represents the character set used.
 
 **Full Name:** aspose.imaging.CharacterSet
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 ## **Members**
 |**Member name**|**Description**|

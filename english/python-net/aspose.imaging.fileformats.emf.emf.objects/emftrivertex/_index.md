@@ -11,7 +11,7 @@ The TriVertex object specifies color and position information for the definition
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfTriVertex
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfTriVertex type exposes the following members:
 ## **Constructors**

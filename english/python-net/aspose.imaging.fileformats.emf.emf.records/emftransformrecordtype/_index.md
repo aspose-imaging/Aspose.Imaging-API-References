@@ -11,7 +11,7 @@ The transform record types specify and modify world-space to page-space transfor
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfTransformRecordType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfTransformRecordType type exposes the following members:
 ## **Properties**

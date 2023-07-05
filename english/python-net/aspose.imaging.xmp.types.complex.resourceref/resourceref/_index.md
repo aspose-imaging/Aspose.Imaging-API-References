@@ -11,7 +11,7 @@ Used to indicate prior versions, originals of renditions, originals for derived 
 
 **Full Class Name:** aspose.imaging.xmp.types.complex.resourceref.ResourceRef
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The ResourceRef type exposes the following members:
 ## **Constructors**

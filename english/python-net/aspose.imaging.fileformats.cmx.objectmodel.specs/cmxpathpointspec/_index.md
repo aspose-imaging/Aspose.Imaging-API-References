@@ -11,7 +11,7 @@ Represents geometric info specified for a path point.
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.specs.CmxPathPointSpec
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The CmxPathPointSpec type exposes the following members:
 ## **Constructors**

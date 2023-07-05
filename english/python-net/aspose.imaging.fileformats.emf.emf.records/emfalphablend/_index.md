@@ -11,7 +11,7 @@ The EMR_ALPHABLEND record specifies a block transfer of pixels from a source bit
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfAlphaBlend
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfAlphaBlend type exposes the following members:
 ## **Constructors**

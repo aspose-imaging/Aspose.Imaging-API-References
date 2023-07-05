@@ -11,7 +11,7 @@ The CMYK color of pixel.
 
 **Full Class Name:** aspose.imaging.CmykColor
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The CmykColor type exposes the following members:
 ## **Constructors**

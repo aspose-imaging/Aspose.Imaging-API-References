@@ -11,7 +11,7 @@ Defines an object used to draw lines, curves and figures.
 
 **Full Class Name:** aspose.imaging.Pen
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The Pen type exposes the following members:
 ## **Constructors**

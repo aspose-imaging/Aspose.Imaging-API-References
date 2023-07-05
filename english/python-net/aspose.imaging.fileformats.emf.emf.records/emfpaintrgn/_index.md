@@ -11,7 +11,7 @@ The EMR_PAINTRGN record paints the specified region by using the brush currently
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfPaintRgn
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPaintRgn type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The EmfPlusImage object specifies a graphics image in the form of a bitmap or me
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusImage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusImage type exposes the following members:
 ## **Constructors**

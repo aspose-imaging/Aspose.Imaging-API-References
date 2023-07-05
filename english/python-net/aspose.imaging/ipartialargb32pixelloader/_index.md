@@ -11,7 +11,7 @@ Conforms to the 32-bit ARGB pixels loaded partially.
 
 **Full Class Name:** aspose.imaging.IPartialArgb32PixelLoader
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The IPartialArgb32PixelLoader type exposes the following members:
 ## **Methods**

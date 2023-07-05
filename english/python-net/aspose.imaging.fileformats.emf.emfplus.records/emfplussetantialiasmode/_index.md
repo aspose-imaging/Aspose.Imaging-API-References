@@ -11,7 +11,7 @@ The EmfPlusSetAntiAliasMode record specifies the anti-aliasing mode for text out
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSetAntiAliasMode
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusSetAntiAliasMode type exposes the following members:
 ## **Constructors**

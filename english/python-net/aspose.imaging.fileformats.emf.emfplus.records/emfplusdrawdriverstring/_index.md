@@ -11,7 +11,7 @@ The EmfPlusDrawDriverString record specifies text output with character position
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusDrawDriverString
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusDrawDriverString type exposes the following members:
 ## **Constructors**

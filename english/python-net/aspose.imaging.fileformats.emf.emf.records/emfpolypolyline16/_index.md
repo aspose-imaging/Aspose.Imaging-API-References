@@ -11,7 +11,7 @@ The EMR_POLYPOLYLINE16 record specifies multiple series of connected line segmen
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfPolyPolyline16
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPolyPolyline16 type exposes the following members:
 ## **Constructors**

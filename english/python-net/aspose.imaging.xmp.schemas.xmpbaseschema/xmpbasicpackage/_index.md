@@ -11,7 +11,7 @@ Represents XMP basic namespace.
 
 **Full Class Name:** aspose.imaging.xmp.schemas.xmpbaseschema.XmpBasicPackage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The XmpBasicPackage type exposes the following members:
 ## **Constructors**

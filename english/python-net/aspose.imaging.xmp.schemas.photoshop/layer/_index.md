@@ -11,7 +11,7 @@ Represents Photoshop text layer.
 
 **Full Class Name:** aspose.imaging.xmp.schemas.photoshop.Layer
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The Layer type exposes the following members:
 ## **Constructors**

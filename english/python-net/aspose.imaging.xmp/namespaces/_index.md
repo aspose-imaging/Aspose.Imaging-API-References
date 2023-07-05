@@ -11,7 +11,7 @@ Contains namespaces used in RDF document.
 
 **Full Class Name:** aspose.imaging.xmp.Namespaces
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The Namespaces type exposes the following members:
 ## **Properties**

@@ -11,7 +11,7 @@ The EMR_CREATECOLORSPACEW record creates a logical color space object from a col
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfCreateColorSpaceW
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfCreateColorSpaceW type exposes the following members:
 ## **Constructors**

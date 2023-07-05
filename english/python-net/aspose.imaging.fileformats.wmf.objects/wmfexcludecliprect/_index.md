@@ -11,7 +11,7 @@ The META_EXCLUDECLIPRECT record sets the clipping region in the playback<br/>   
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfExcludeClipRect
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfExcludeClipRect type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ Clipboard Record Class
 
 **Full Class Name:** aspose.imaging.fileformats.core.vectorpaths.ClipboardRecord
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The ClipboardRecord type exposes the following members:
 ## **Constructors**

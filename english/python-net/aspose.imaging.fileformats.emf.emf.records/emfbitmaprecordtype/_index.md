@@ -11,7 +11,7 @@ The bitmap record types perform block transfers of bitmap images.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfBitmapRecordType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfBitmapRecordType type exposes the following members:
 ## **Properties**

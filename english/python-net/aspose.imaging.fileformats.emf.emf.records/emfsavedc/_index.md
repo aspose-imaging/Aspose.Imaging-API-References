@@ -11,7 +11,7 @@ Saves the current state of playback device context on a<br/>            stack of
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSaveDc
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfSaveDc type exposes the following members:
 ## **Constructors**

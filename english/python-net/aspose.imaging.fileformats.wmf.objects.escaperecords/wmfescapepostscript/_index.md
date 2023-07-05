@@ -11,7 +11,7 @@ The Escape PostScript data record.
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.escaperecords.WmfEscapePostScript
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfEscapePostScript type exposes the following members:
 ## **Constructors**

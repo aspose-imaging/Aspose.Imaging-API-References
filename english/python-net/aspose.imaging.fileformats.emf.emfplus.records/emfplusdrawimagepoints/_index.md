@@ -11,7 +11,7 @@ The EmfPlusDrawImagePoints record specifies drawing a scaled image inside a para
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusDrawImagePoints
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusDrawImagePoints type exposes the following members:
 ## **Constructors**

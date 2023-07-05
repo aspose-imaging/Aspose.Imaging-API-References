@@ -11,7 +11,7 @@ The EMR_FILLPATH record closes any open figures in the current path and fills th
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfFillPath
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfFillPath type exposes the following members:
 ## **Constructors**

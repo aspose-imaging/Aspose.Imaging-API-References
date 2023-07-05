@@ -11,7 +11,7 @@ The HatchStyle enumeration defines hatch patterns used by graphics brushes. A ha
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusHatchStyle
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 ## **Members**
 |**Member name**|**Description**|

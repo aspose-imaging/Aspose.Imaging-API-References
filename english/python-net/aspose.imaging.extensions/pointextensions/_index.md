@@ -11,7 +11,7 @@ Contains extension methods for [Point](/imaging/python-net/aspose.imaging/point/
 
 **Full Class Name:** aspose.imaging.extensions.PointExtensions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The PointExtensions type exposes the following members:
 ## **Methods**

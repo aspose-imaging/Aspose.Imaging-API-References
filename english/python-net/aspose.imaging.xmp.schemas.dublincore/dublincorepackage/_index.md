@@ -11,7 +11,7 @@ Represents Dublic Core schema.
 
 **Full Class Name:** aspose.imaging.xmp.schemas.dublincore.DublinCorePackage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The DublinCorePackage type exposes the following members:
 ## **Constructors**

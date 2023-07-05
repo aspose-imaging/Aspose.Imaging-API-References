@@ -11,7 +11,7 @@ Stores a set of four floating-point numbers that represent the location and size
 
 **Full Class Name:** aspose.imaging.RectangleF
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The RectangleF type exposes the following members:
 ## **Constructors**

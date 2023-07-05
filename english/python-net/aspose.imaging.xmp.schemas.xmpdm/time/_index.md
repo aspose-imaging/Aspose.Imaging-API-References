@@ -11,7 +11,7 @@ Representation of a time value in seconds.
 
 **Full Class Name:** aspose.imaging.xmp.schemas.xmpdm.Time
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The Time type exposes the following members:
 ## **Constructors**

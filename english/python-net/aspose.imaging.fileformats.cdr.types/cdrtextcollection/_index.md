@@ -11,7 +11,7 @@ The Cdr text collection
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.types.CdrTextCollection
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The CdrTextCollection type exposes the following members:
 ## **Constructors**

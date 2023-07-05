@@ -11,7 +11,7 @@ Contains extension methods for [Rectangle](/imaging/python-net/aspose.imaging/re
 
 **Full Class Name:** aspose.imaging.extensions.RectangleExtensions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The RectangleExtensions type exposes the following members:
 ## **Methods**

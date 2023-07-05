@@ -11,7 +11,7 @@ Color palette adjustment class
 
 **Full Class Name:** aspose.imaging.palettehelper.AdjustPalette
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The AdjustPalette type exposes the following members:
 ## **Constructors**

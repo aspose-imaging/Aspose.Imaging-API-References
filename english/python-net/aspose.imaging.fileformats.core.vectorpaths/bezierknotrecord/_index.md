@@ -11,7 +11,7 @@ Bezier Knot Record Class
 
 **Full Class Name:** aspose.imaging.fileformats.core.vectorpaths.BezierKnotRecord
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The BezierKnotRecord type exposes the following members:
 ## **Constructors**

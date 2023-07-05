@@ -11,7 +11,7 @@ The bmp file format creation options.
 
 **Full Class Name:** aspose.imaging.imageoptions.BmpOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The BmpOptions type exposes the following members:
 ## **Constructors**

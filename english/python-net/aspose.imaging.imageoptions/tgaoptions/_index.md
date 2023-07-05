@@ -11,7 +11,7 @@ The TGA file format create options.
 
 **Full Class Name:** aspose.imaging.imageoptions.TgaOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The TgaOptions type exposes the following members:
 ## **Constructors**

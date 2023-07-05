@@ -11,7 +11,7 @@ The elliptical quadrant
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdEllipticalQundrant
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The OdEllipticalQundrant type exposes the following members:
 ## **Constructors**

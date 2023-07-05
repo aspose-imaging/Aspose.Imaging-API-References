@@ -11,7 +11,7 @@ The EMR_ELLIPSE record specifies an ellipse. The center of the ellipse is the ce
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfEllipse
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfEllipse type exposes the following members:
 ## **Constructors**

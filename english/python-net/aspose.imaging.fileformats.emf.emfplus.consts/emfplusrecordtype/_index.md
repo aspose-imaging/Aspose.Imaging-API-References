@@ -11,7 +11,7 @@ The RecordType enumeration defines record types used in EMF+ metafiles.
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusRecordType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 ## **Members**
 |**Member name**|**Description**|

@@ -11,7 +11,7 @@ The SVG file format creation options.
 
 **Full Class Name:** aspose.imaging.imageoptions.SvgOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The SvgOptions type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The EmfPlusImageAttributes object specifies how bitmap image<br/>            col
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusImageAttributes
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusImageAttributes type exposes the following members:
 ## **Constructors**

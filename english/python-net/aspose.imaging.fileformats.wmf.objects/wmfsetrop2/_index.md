@@ -11,7 +11,7 @@ The set rop2
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetRop2
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfSetRop2 type exposes the following members:
 ## **Constructors**

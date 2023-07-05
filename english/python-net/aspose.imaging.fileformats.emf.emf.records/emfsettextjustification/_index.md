@@ -11,7 +11,7 @@ The EMR_SETTEXTJUSTIFICATION record specifies the amount of extra space to add t
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetTextJustification
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfSetTextJustification type exposes the following members:
 ## **Constructors**

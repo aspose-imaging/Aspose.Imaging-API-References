@@ -11,7 +11,7 @@ The LogPen object defines the style, width, and color of a logical pen.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfLogPen
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfLogPen type exposes the following members:
 ## **Constructors**

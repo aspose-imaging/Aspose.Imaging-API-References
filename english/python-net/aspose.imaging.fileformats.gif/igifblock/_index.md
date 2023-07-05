@@ -11,7 +11,7 @@ Represents GIF block interface.
 
 **Full Class Name:** aspose.imaging.fileformats.gif.IGifBlock
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The IGifBlock type exposes the following members:
 ## **Methods**

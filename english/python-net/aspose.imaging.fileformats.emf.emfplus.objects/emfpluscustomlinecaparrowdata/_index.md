@@ -11,7 +11,7 @@ The EmfPlusCustomLineCapArrowData object specifies adjustable arrow data for a c
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusCustomLineCapArrowData
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusCustomLineCapArrowData type exposes the following members:
 ## **Constructors**

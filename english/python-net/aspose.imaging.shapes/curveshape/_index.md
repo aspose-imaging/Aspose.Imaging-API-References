@@ -11,7 +11,7 @@ Represents a curved spline shape.
 
 **Full Class Name:** aspose.imaging.shapes.CurveShape
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The CurveShape type exposes the following members:
 ## **Constructors**

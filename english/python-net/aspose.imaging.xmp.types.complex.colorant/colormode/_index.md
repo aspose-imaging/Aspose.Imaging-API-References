@@ -11,7 +11,7 @@ Represents color mode.
 
 **Full Name:** aspose.imaging.xmp.types.complex.colorant.ColorMode
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 ## **Members**
 |**Member name**|**Description**|

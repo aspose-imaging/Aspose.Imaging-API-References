@@ -11,7 +11,7 @@ The text object
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdText
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The OdText type exposes the following members:
 ## **Constructors**

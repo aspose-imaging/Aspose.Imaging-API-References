@@ -11,7 +11,7 @@ Represents the gif blocks openers registry.
 
 **Full Class Name:** aspose.imaging.fileformats.gif.GifBlocksRegistry
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The GifBlocksRegistry type exposes the following members:
 ## **Properties**

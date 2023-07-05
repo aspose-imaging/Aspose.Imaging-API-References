@@ -11,7 +11,7 @@ The EMR_SETTEXTALIGN record specifies text alignment.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetTextAlign
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfSetTextAlign type exposes the following members:
 ## **Constructors**

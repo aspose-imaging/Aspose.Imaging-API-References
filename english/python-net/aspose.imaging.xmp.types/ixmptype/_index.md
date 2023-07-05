@@ -11,7 +11,7 @@ Base interface for XMP type.
 
 **Full Class Name:** aspose.imaging.xmp.types.IXmpType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The IXmpType type exposes the following members:
 ## **Methods**

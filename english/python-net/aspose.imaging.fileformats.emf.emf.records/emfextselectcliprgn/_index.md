@@ -11,7 +11,7 @@ The EMR_EXTSELECTCLIPRGN record combines the specified region with the current c
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfExtSelectClipRgn
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfExtSelectClipRgn type exposes the following members:
 ## **Constructors**

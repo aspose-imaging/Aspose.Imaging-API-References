@@ -11,7 +11,7 @@ The animated PNG image frame
 
 **Full Class Name:** aspose.imaging.fileformats.apng.ApngFrame
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The ApngFrame type exposes the following members:
 ## **Properties**

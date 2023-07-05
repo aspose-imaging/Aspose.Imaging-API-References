@@ -11,7 +11,7 @@ Big Rectangular Filter Options
 
 **Full Class Name:** aspose.imaging.imagefilters.filteroptions.BigRectangularFilterOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The BigRectangularFilterOptions type exposes the following members:
 ## **Constructors**

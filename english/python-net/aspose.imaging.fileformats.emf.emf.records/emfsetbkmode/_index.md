@@ -11,7 +11,7 @@ The EMR_SETBKMODE record specifies the background mix mode of the playback devic
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetBkMode
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfSetBkMode type exposes the following members:
 ## **Constructors**

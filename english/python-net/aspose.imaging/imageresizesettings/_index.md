@@ -11,7 +11,7 @@ Image resize settings class
 
 **Full Class Name:** aspose.imaging.ImageResizeSettings
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The ImageResizeSettings type exposes the following members:
 ## **Constructors**

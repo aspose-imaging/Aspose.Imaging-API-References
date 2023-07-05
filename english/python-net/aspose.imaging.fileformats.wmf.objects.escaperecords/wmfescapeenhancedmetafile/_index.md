@@ -11,7 +11,7 @@ The Escape Enhanced Meta file record.
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.escaperecords.WmfEscapeEnhancedMetafile
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfEscapeEnhancedMetafile type exposes the following members:
 ## **Constructors**

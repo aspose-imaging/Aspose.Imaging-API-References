@@ -11,7 +11,7 @@ The drawing record types specify graphics output.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusDrawingRecordType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusDrawingRecordType type exposes the following members:
 ## **Properties**

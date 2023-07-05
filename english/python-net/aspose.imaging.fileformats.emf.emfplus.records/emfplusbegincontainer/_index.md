@@ -11,7 +11,7 @@ The EmfPlusBeginContainer record opens a new graphics state container and specif
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusBeginContainer
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusBeginContainer type exposes the following members:
 ## **Constructors**

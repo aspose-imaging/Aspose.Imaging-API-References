@@ -11,7 +11,7 @@ The PostScriptClipping Enumeration defines functions that can be applied to the 
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfPostScriptClipping
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 ## **Members**
 |**Member name**|**Description**|

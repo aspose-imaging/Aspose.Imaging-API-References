@@ -11,7 +11,7 @@ The META_SETTEXTCHAREXTRA record defines inter-character spacing for<br/>       
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetTextCharExtra
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfSetTextCharExtra type exposes the following members:
 ## **Constructors**

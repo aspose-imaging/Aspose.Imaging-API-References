@@ -11,7 +11,7 @@ The polygon object
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfPolygon
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfPolygon type exposes the following members:
 ## **Constructors**

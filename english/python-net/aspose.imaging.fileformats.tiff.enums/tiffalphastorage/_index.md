@@ -11,7 +11,7 @@ Specifies the alpha storage for tiff documents.
 
 **Full Name:** aspose.imaging.fileformats.tiff.enums.TiffAlphaStorage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 ## **Members**
 |**Member name**|**Description**|

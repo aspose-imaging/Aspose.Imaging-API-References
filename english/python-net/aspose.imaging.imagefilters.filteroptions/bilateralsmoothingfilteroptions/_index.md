@@ -11,7 +11,7 @@ The Bilateral Smoothing Filter Options.
 
 **Full Class Name:** aspose.imaging.imagefilters.filteroptions.BilateralSmoothingFilterOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The BilateralSmoothingFilterOptions type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The EMR_LINETO record specifies a line from the current position up to, but not 
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfLineTo
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfLineTo type exposes the following members:
 ## **Constructors**

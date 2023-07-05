@@ -11,7 +11,7 @@ The EMR_SETICMPROFILEA record specifies a color profile in a file with a name co
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetIcmProfileA
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfSetIcmProfileA type exposes the following members:
 ## **Constructors**

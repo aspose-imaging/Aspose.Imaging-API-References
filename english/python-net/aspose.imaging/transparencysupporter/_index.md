@@ -11,7 +11,7 @@ The object supporting transparency.
 
 **Full Class Name:** aspose.imaging.TransparencySupporter
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The TransparencySupporter type exposes the following members:
 ## **Constructors**

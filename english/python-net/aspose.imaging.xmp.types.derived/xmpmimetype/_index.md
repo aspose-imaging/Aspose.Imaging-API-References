@@ -11,7 +11,7 @@ Represents MIME type.
 
 **Full Class Name:** aspose.imaging.xmp.types.derived.XmpMimeType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The XmpMimeType type exposes the following members:
 ## **Constructors**

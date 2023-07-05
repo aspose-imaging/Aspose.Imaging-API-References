@@ -11,7 +11,7 @@ Represents a file source for creation.
 
 **Full Class Name:** aspose.imaging.sources.FileCreateSource
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The FileCreateSource type exposes the following members:
 ## **Constructors**

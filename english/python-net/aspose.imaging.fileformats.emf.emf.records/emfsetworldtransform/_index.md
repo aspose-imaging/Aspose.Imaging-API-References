@@ -11,7 +11,7 @@ The EMR_SETWORLDTRANSFORM record specifies a transform for the current world-spa
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfSetWorldTransform
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfSetWorldTransform type exposes the following members:
 ## **Constructors**

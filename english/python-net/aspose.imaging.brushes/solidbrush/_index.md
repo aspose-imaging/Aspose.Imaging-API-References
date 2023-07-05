@@ -11,7 +11,7 @@ Solid brush is intended for drawing continiously with specific color. This class
 
 **Full Class Name:** aspose.imaging.brushes.SolidBrush
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The SolidBrush type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The EMR_DELETECOLORSPACE record deletes a logical color space object.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfDeleteColorSpace
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfDeleteColorSpace type exposes the following members:
 ## **Constructors**

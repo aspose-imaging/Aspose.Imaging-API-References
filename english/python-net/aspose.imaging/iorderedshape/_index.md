@@ -11,7 +11,7 @@ Represents an ordered shape. An ordered shape is a continuous set of points havi
 
 **Full Class Name:** aspose.imaging.IOrderedShape
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The IOrderedShape type exposes the following members:
 ## **Properties**

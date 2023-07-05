@@ -11,7 +11,7 @@ The resolution setting for image save options.
 
 **Full Class Name:** aspose.imaging.ResolutionSetting
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The ResolutionSetting type exposes the following members:
 ## **Constructors**

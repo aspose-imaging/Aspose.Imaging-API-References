@@ -11,7 +11,7 @@ Provides access to the creation of a MemoryStream or FileStream.
 
 **Full Class Name:** aspose.imaging.extensions.StreamExtensions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The StreamExtensions type exposes the following members:
 ## **Constructors**

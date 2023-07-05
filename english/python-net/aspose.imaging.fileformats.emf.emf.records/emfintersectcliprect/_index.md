@@ -11,7 +11,7 @@ The EMR_INTERSECTCLIPRECT record specifies a new clipping region from the inters
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfIntersectClipRect
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfIntersectClipRect type exposes the following members:
 ## **Constructors**

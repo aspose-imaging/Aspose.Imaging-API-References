@@ -11,7 +11,7 @@ The PathPointType flags specify type properties of points on graphics paths. The
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusPathPointTypeFlags
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 ## **Members**
 |**Member name**|**Description**|

@@ -11,7 +11,7 @@ The EmfPlusPathPointType object specifies a type value associated with a point o
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPathPointType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusPathPointType type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The EmfPlusLanguageIdentifier object specifies a language identifier that corres
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusLanguageIdentifier
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusLanguageIdentifier type exposes the following members:
 ## **Constructors**

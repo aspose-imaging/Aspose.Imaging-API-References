@@ -11,7 +11,7 @@ Provides methods to set metered key.
 
 **Full Class Name:** aspose.imaging.Metered
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The Metered type exposes the following members:
 ## **Constructors**
@@ -21,6 +21,6 @@ The Metered type exposes the following members:
 ## **Methods**
 |**Name**|**Description**|
 | :- | :- |
-|set_metered_key(public_key, private_key)|Sets metered public and private key|
+|set_metered_key(public_key, private_key)|Sets metered public and private key<br/>            If you purchase metered license, when start application, this API should be called, normally, this is enough. <br/>            However, if always fail to upload consumption data and exceed 24 hours, the license will be set to evaluation status,<br/>            to avoid such case, you should regularly check the license status, if it is evaluation status, call this API again.|
 |get_consumption_quantity()|Gets consumption file size|
 |get_consumption_credit()|Gets consumption credit|

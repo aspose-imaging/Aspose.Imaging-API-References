@@ -11,7 +11,7 @@ The EmfPlusSerializableObject record defines an image effects parameter block th
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSerializableObject
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusSerializableObject type exposes the following members:
 ## **Constructors**

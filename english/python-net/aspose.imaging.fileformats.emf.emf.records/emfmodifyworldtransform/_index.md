@@ -11,7 +11,7 @@ The EMR_MODIFYWORLDTRANSFORM record modifies the current world-space to page-spa
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfModifyWorldTransform
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfModifyWorldTransform type exposes the following members:
 ## **Constructors**

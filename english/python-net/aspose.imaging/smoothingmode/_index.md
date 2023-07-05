@@ -11,7 +11,7 @@ Specifies whether smoothing (antialiasing) is applied to lines and curves and th
 
 **Full Name:** aspose.imaging.SmoothingMode
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 ## **Members**
 |**Member name**|**Description**|

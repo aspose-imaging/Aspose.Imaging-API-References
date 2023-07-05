@@ -11,7 +11,7 @@ The cdr box
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrBbox
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The CdrBbox type exposes the following members:
 ## **Constructors**

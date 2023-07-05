@@ -11,7 +11,7 @@ The EMR_COMMENT_MULTIFORMATS record specifies an image in multiple graphics form
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfCommentMultiFormats
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfCommentMultiFormats type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The LineCapType enumeration defines types of line caps to use at the ends of lin
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusLineCapType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 ## **Members**
 |**Member name**|**Description**|

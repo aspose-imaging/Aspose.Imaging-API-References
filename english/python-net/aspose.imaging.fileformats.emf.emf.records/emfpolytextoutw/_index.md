@@ -11,7 +11,7 @@ The EMR_POLYTEXTOUTW record draws one or more Unicode text strings using the cur
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfPolyTextOutW
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPolyTextOutW type exposes the following members:
 ## **Constructors**

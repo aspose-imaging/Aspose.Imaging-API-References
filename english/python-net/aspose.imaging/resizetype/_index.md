@@ -11,7 +11,7 @@ Specifies the resize type.
 
 **Full Name:** aspose.imaging.ResizeType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 ## **Members**
 |**Member name**|**Description**|

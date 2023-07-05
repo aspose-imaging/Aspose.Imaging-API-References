@@ -11,7 +11,7 @@ The EmfPlusSetTextContrast record specifies text contrast according to the gamma
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSetTextContrast
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusSetTextContrast type exposes the following members:
 ## **Constructors**

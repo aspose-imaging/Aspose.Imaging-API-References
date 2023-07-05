@@ -11,7 +11,7 @@ The State Record Types specify operations on the state of the playback device co
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusStateRecordType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusStateRecordType type exposes the following members:
 ## **Properties**

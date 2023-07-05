@@ -11,7 +11,7 @@ The raster image pixel loader.
 
 **Full Class Name:** aspose.imaging.IRasterImagePixelLoader
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The IRasterImagePixelLoader type exposes the following members:
 ## **Properties**

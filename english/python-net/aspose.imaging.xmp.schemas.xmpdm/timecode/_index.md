@@ -11,7 +11,7 @@ Represents timecode value in video.
 
 **Full Class Name:** aspose.imaging.xmp.schemas.xmpdm.Timecode
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The Timecode type exposes the following members:
 ## **Constructors**

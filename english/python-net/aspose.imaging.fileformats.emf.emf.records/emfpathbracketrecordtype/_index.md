@@ -11,7 +11,7 @@ The path bracket record types specify and manipulate paths in path brackets.<br/
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfPathBracketRecordType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPathBracketRecordType type exposes the following members:
 ## **Properties**

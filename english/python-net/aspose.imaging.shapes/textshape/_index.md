@@ -11,7 +11,7 @@ Represents a text shape.
 
 **Full Class Name:** aspose.imaging.shapes.TextShape
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The TextShape type exposes the following members:
 ## **Constructors**

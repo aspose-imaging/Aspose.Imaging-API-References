@@ -11,7 +11,7 @@ The EMR_COMMENT_ENDGROUP record specifies the end of a group of drawing records.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfCommentEndGroup
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfCommentEndGroup type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ JPEG2000 load options
 
 **Full Class Name:** aspose.imaging.imageloadoptions.Jpeg2000LoadOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The Jpeg2000LoadOptions type exposes the following members:
 ## **Constructors**

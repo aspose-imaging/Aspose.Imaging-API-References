@@ -11,6 +11,6 @@ The masking arguments
 
 **Full Class Name:** aspose.imaging.masking.options.IMaskingArgs
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The IMaskingArgs type exposes the following members:

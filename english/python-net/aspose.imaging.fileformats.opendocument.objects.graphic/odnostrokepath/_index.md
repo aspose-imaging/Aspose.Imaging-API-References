@@ -11,7 +11,7 @@ Specifies that the current set of sub-paths will not be stroked.
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdNoStrokePath
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The OdNoStrokePath type exposes the following members:
 ## **Constructors**

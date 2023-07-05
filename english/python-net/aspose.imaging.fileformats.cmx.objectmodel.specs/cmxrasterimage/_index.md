@@ -11,7 +11,7 @@ Represents the data specified for raster images.
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.specs.CmxRasterImage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The CmxRasterImage type exposes the following members:
 ## **Constructors**

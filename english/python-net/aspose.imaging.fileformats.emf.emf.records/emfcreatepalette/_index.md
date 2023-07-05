@@ -11,7 +11,7 @@ The EMR_CREATEPALETTE record defines a logical palette for graphics operations.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfCreatePalette
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfCreatePalette type exposes the following members:
 ## **Constructors**

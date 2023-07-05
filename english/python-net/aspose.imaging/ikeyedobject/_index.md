@@ -11,7 +11,7 @@ Represents interface for objects with keys.
 
 **Full Class Name:** aspose.imaging.IKeyedObject
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The IKeyedObject type exposes the following members:
 ## **Properties**

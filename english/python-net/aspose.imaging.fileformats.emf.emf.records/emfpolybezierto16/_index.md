@@ -11,7 +11,7 @@ The EMR_POLYBEZIERTO16 record specifies one or more Bezier curves based on the c
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfPolyBezierTo16
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPolyBezierTo16 type exposes the following members:
 ## **Constructors**

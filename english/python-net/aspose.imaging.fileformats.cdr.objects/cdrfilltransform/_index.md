@@ -11,7 +11,7 @@ the cdr fill transform
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrFillTransform
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The CdrFillTransform type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The EMR_PIXELFORMAT record specifies the pixel format to use for graphics operat
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfPixelFormat
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPixelFormat type exposes the following members:
 ## **Constructors**

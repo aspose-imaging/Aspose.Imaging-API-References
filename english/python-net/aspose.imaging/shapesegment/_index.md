@@ -11,7 +11,7 @@ Represents a shape segment. A segment is a line or curve connecting two points.
 
 **Full Class Name:** aspose.imaging.ShapeSegment
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The ShapeSegment type exposes the following members:
 ## **Properties**

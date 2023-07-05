@@ -11,7 +11,7 @@ The EmfPlusDashedLineData object specifies properties of a dashed line for a gra
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusDashedLineData
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusDashedLineData type exposes the following members:
 ## **Constructors**

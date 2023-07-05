@@ -11,7 +11,7 @@ The LogBrushEx object defines the style, color, and pattern of a device-independ
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfLogBrushEx
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfLogBrushEx type exposes the following members:
 ## **Constructors**

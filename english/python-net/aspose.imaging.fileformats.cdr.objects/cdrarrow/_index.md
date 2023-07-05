@@ -11,7 +11,7 @@ The cdr arrow
 
 **Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrArrow
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The CdrArrow type exposes the following members:
 ## **Constructors**

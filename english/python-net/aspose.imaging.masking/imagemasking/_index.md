@@ -11,7 +11,7 @@ Provides image masking operations
 
 **Full Class Name:** aspose.imaging.masking.ImageMasking
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The ImageMasking type exposes the following members:
 ## **Constructors**

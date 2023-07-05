@@ -11,7 +11,7 @@ The EmfPlusPenData object specifies properties of a graphics pen.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusPenData
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusPenData type exposes the following members:
 ## **Constructors**

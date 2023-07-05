@@ -11,7 +11,7 @@ The EmfPlusResetClip record resets the current clipping region for the world spa
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusResetClip
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusResetClip type exposes the following members:
 ## **Constructors**

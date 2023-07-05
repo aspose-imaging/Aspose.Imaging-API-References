@@ -11,7 +11,7 @@ The EmfPlusRegionNodeChildNodes object specifies child nodes of a graphics regio
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusRegionNodeChildNodes
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusRegionNodeChildNodes type exposes the following members:
 ## **Constructors**

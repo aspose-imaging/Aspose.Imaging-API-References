@@ -11,7 +11,7 @@ Represents a [Brush](/imaging/python-net/aspose.imaging/brush/) with linear grad
 
 **Full Class Name:** aspose.imaging.brushes.LinearMulticolorGradientBrush
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The LinearMulticolorGradientBrush type exposes the following members:
 ## **Constructors**

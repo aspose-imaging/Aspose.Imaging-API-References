@@ -11,7 +11,7 @@ The EmfPlusDrawString record specifies text output with string formatting
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusDrawString
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusDrawString type exposes the following members:
 ## **Constructors**

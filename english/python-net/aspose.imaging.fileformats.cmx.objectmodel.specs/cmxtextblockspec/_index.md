@@ -11,7 +11,7 @@ Represents info specified for text blocks.
 
 **Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.specs.CmxTextBlockSpec
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The CmxTextBlockSpec type exposes the following members:
 ## **Constructors**

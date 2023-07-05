@@ -11,7 +11,7 @@ The EmfPlusMetafileData object specifies a metafile that contains a graphics ima
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusMetafile
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusMetafile type exposes the following members:
 ## **Constructors**

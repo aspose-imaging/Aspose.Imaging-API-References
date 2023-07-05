@@ -11,7 +11,7 @@ Contains extension methods for the [Region](/imaging/python-net/aspose.imaging/r
 
 **Full Class Name:** aspose.imaging.extensions.RegionExtensions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The RegionExtensions type exposes the following members:
 ## **Methods**

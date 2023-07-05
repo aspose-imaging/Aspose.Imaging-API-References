@@ -11,7 +11,7 @@ The set poly fill mode.
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetPolyFillMode
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfSetPolyFillMode type exposes the following members:
 ## **Constructors**

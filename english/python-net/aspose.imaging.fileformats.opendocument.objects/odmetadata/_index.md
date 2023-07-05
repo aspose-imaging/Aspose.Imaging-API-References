@@ -11,7 +11,7 @@ The Metadata of open document
 
 **Full Class Name:** aspose.imaging.fileformats.opendocument.objects.OdMetadata
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The OdMetadata type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ Contains all meta-information from Dicom file header
 
 **Full Class Name:** aspose.imaging.fileformats.dicom.DicomImageInfo
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The DicomImageInfo type exposes the following members:
 ## **Properties**

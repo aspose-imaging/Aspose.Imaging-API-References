@@ -11,7 +11,7 @@ The image exporter. Can export data from internal Aspose.Imaging format to a spe
 
 **Full Class Name:** aspose.imaging.IImageExporter
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The IImageExporter type exposes the following members:
 ## **Methods**

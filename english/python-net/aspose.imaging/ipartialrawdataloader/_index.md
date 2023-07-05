@@ -11,7 +11,7 @@ The partial data loader.
 
 **Full Class Name:** aspose.imaging.IPartialRawDataLoader
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The IPartialRawDataLoader type exposes the following members:
 ## **Methods**

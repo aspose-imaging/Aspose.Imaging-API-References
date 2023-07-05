@@ -11,7 +11,7 @@ Dng image representation class
 
 **Full Class Name:** aspose.imaging.fileformats.dng.DngImage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The DngImage type exposes the following members:
 ## **Properties**

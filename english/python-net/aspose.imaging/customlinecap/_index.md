@@ -11,7 +11,7 @@ Encapsulates a custom user-defined line cap.
 
 **Full Class Name:** aspose.imaging.CustomLineCap
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The CustomLineCap type exposes the following members:
 ## **Constructors**

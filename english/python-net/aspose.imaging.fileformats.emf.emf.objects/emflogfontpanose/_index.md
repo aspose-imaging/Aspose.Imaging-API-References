@@ -11,7 +11,7 @@ The LogFontPanose object specifies the PANOSE characteristics of a logical font.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.objects.EmfLogFontPanose
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfLogFontPanose type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ Contains the current build version information.
 
 **Full Class Name:** aspose.imaging.BuildVersionInfo
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The BuildVersionInfo type exposes the following members:
 ## **Properties**

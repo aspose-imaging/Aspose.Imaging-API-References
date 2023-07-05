@@ -11,7 +11,7 @@ The META_DIBCREATEPATTERNBRUSH record creates a Brush Object (section<br/>      
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfDibCreatePatternBrush
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfDibCreatePatternBrush type exposes the following members:
 ## **Constructors**

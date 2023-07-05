@@ -11,7 +11,7 @@ The EmfPlusRectF object specifies a rectangle's origin, height, and width as 32-
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusRectF
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusRectF type exposes the following members:
 ## **Constructors**

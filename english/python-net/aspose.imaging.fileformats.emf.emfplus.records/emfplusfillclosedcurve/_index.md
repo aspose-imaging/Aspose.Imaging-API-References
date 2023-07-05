@@ -11,7 +11,7 @@ The EmfPlusFillClosedCurve record specifies filling the interior of a closed car
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusFillClosedCurve
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusFillClosedCurve type exposes the following members:
 ## **Constructors**

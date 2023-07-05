@@ -11,7 +11,7 @@ The 64-bit ARGB pixels loader.
 
 **Full Class Name:** aspose.imaging.IPartialArgb64PixelLoader
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The IPartialArgb64PixelLoader type exposes the following members:
 ## **Methods**

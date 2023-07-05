@@ -11,7 +11,7 @@ The EmfMetafileHeaderExtension2 record is the header record used in the second e
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfMetafileHeaderExtension2
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfMetafileHeaderExtension2 type exposes the following members:
 ## **Constructors**

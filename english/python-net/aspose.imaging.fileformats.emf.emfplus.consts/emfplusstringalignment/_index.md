@@ -11,7 +11,7 @@ The StringAlignment enumeration defines ways to align strings with respect to a 
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusStringAlignment
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 ## **Members**
 |**Member name**|**Description**|

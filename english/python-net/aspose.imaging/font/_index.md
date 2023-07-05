@@ -11,7 +11,7 @@ Defines a particular format for text, including font face, size, and style attri
 
 **Full Class Name:** aspose.imaging.Font
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The Font type exposes the following members:
 ## **Constructors**

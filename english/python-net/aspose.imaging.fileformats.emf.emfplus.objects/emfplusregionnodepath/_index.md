@@ -11,7 +11,7 @@ The EmfPlusRegionNodePath object specifies a graphics path for drawing the bound
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusRegionNodePath
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusRegionNodePath type exposes the following members:
 ## **Constructors**

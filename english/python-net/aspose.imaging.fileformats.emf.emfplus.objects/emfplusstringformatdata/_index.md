@@ -11,7 +11,7 @@ The EmfPlusStringFormatData object specifies tab stops and character positions f
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusStringFormatData
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusStringFormatData type exposes the following members:
 ## **Constructors**

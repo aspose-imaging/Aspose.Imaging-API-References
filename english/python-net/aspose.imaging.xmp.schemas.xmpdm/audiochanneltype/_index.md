@@ -11,7 +11,7 @@ Represents audio channel type.
 
 **Full Class Name:** aspose.imaging.xmp.schemas.xmpdm.AudioChannelType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The AudioChannelType type exposes the following members:
 ## **Properties**

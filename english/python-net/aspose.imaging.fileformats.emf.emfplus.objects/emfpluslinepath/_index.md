@@ -11,7 +11,7 @@ The EmfPlusLinePath object specifies a graphics path for outlining a custom line
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusLinePath
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusLinePath type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ Encapsulates a [Brush](/imaging/python-net/aspose.imaging/brush/) object with a 
 
 **Full Class Name:** aspose.imaging.brushes.PathGradientBrush
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The PathGradientBrush type exposes the following members:
 ## **Constructors**

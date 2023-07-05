@@ -11,7 +11,7 @@ The EMR_FRAMERGN record draws a border around the specified region using the spe
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emf.records.EmfFrameRgn
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfFrameRgn type exposes the following members:
 ## **Constructors**

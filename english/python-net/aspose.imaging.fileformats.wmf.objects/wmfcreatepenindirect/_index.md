@@ -11,7 +11,7 @@ The create pen in direct
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfCreatePenInDirect
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfCreatePenInDirect type exposes the following members:
 ## **Constructors**

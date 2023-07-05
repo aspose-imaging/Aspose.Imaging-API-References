@@ -11,7 +11,7 @@ Class for Encapsulated PostScript format with binary header
 
 **Full Class Name:** aspose.imaging.fileformats.eps.EpsBinaryImage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EpsBinaryImage type exposes the following members:
 ## **Properties**

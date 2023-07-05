@@ -11,7 +11,7 @@ The StretchMode enumeration is used to specify how color data is added to or rem
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfStretchMode
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 ## **Members**
 |**Member name**|**Description**|

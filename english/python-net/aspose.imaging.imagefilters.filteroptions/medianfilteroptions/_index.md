@@ -11,7 +11,7 @@ Median filter
 
 **Full Class Name:** aspose.imaging.imagefilters.filteroptions.MedianFilterOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The MedianFilterOptions type exposes the following members:
 ## **Constructors**

@@ -11,7 +11,7 @@ The Terminal Server Record Types specify graphics processing on a terminal serve
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusTerminalServerRecordType
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusTerminalServerRecordType type exposes the following members:
 ## **Properties**

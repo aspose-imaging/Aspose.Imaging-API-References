@@ -11,7 +11,7 @@ The EmfPlusHatchBrushData object specifies a hatch pattern for a graphics brush.
 
 **Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusHatchBrushData
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The EmfPlusHatchBrushData type exposes the following members:
 ## **Constructors**

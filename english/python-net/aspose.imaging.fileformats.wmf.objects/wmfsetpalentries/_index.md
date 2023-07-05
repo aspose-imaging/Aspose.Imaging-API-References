@@ -11,7 +11,7 @@ The META_SETPALENTRIES record defines RGB color values in a range of<br/>       
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetPalentries
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfSetPalentries type exposes the following members:
 ## **Constructors**

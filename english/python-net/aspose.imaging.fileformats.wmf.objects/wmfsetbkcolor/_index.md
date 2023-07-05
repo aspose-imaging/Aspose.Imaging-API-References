@@ -11,7 +11,7 @@ The META_SETBKCOLOR record sets the background color in the playback<br/>       
 
 **Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetBkColor
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The WmfSetBkColor type exposes the following members:
 ## **Constructors**

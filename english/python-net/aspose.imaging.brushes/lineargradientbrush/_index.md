@@ -11,7 +11,7 @@ Encapsulates a [Brush](/imaging/python-net/aspose.imaging/brush/) with a linear 
 
 **Full Class Name:** aspose.imaging.brushes.LinearGradientBrush
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The LinearGradientBrush type exposes the following members:
 ## **Constructors**

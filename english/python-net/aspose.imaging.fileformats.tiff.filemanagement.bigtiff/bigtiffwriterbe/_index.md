@@ -11,7 +11,7 @@ The big endian BigTiff stream writer.
 
 **Full Class Name:** aspose.imaging.fileformats.tiff.filemanagement.bigtiff.BigTiffWriterBE
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The BigTiffWriterBE type exposes the following members:
 ## **Constructors**

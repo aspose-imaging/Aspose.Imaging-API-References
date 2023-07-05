@@ -11,7 +11,7 @@ Base class for Meta object classes
 
 **Full Class Name:** aspose.imaging.fileformats.emf.MetaImage
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The MetaImage type exposes the following members:
 ## **Properties**

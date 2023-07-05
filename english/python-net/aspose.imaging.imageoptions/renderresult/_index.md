@@ -11,7 +11,7 @@ Represents information with results of rendering
 
 **Full Class Name:** aspose.imaging.imageoptions.RenderResult
 
-**Assembly:**  Aspose.Imaging Version: 23.5.0
+**Assembly:**  Aspose.Imaging Version: 23.6.0
 
 The RenderResult type exposes the following members:
 ## **Constructors**
