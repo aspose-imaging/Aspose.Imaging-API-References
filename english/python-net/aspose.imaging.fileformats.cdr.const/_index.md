@@ -6,9 +6,9 @@ url: /python-net/aspose.imaging.fileformats.cdr.const/
 ---
 
 
-The namespace handles Cdr file format processing.
+The module handles Cdr file format processing.
 
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[CdrColorModel](/imaging/python-net/aspose.imaging.fileformats.cdr.const/cdrcolormodel/)|The cdr color models|
+| [CdrColorModel](/imaging/python-net/aspose.imaging.fileformats.cdr.const/cdrcolormodel/) | The cdr color models |

@@ -7,23 +7,51 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.brush/odpattern
 
 The open document pattern brush
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.brush](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/)
+**Module:** [aspose.imaging.fileformats.opendocument.objects.brush](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/)
 
-**Full Class Name:** aspose.imaging.fileformats.opendocument.objects.brush.OdPatternBrush
+**Full Name:** aspose.imaging.fileformats.opendocument.objects.brush.OdPatternBrush
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** OdBrush
+
+**Aspose.Imaging Version:** 23.6
 
 The OdPatternBrush type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|OdPatternBrush()|Initializes a new instance of the OdPatternBrush class|
+| [OdPatternBrush()](#OdPatternBrush__0) | Initializes a new instance of the OdPatternBrush class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|brush_style|Gets the style.|
-|pattern|Gets or sets the pattern.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| brush_style | [OdBrushStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/odbrushstyle) | r | Gets the style. |
+| pattern | byte | r/w | Gets or sets the pattern. |
 ## **Methods**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-|clone()|Clone this instance.|
+| [clone()](#clone__1) | Clone this instance. |
+
+### OdPatternBrush() {#OdPatternBrush__0}
+
+
+```
+ OdPatternBrush() 
+```
+
+Initializes a new instance of the OdPatternBrush class
+
+### clone() {#clone__1}
+
+
+```
+ clone() 
+```
+
+Clone this instance.
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| object | The return new instance of source brush |
+
+

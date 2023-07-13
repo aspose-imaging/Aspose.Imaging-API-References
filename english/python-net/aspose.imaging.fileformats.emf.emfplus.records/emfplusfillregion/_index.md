@@ -7,24 +7,42 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillregio
 
 The EmfPlusFillRegion record specifies filling the interior of a graphics region
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
+**Module:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
-**Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusFillRegion
+**Full Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusFillRegion
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** EmfPlusDrawingRecordType
+
+**Aspose.Imaging Version:** 23.6
 
 The EmfPlusFillRegion type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|EmfPlusFillRegion(source)|Initializes a new instance of the EmfPlusFillRegion class|
+| [EmfPlusFillRegion(source)](#EmfPlusFillRegion_source_0) | Initializes a new instance of the [EmfPlusFillRegion](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillregion/) class. |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|type|  |
-|flags|  |
-|size|  |
-|data_size|  |
-|object_id|Gets or sets the object identifier.<br/>            The index of the EmfPlusRegion object (section 2.2.1.8) to fill, in the<br/>            EMF+ Object Table. The value MUST be zero to 63, inclusive.|
-|is_color|Gets or sets a value indicating whether this instance is color.<br/>            If set, BrushId specifies a color as an EmfPlusARGB object (section 2.2.2.1). <br/>            If clear, BrushId contains the index of an EmfPlusBrush object (section 2.2.1.1) in the EMF+ Object Table.|
-|brush_id|Gets or sets the brush identifier<br/>            A 32-bit unsigned integer that defines the brush, the content of which is determined by the S bit in the Flags field.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| type | [EmfPlusRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusrecordtype/) | r | Gets a 16-bit unsigned integer that identifies the record type. |
+| flags | short | r/w | Gets or sets a 16-bit unsigned integer that contains information for some records on how<br/>            the operation is to be performed and on the structure of the record. |
+| size | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the 32-bit-aligned number of bytes<br/>            in the entire record, including the 12-byte record header and record-specific data. |
+| data_size | int | r/w | Gets or sets a 32-bit unsigned integer that MUST define the 32-bit–aligned number of<br/>            bytes of data in the RecordData field that follows. This number does not include the 12-byte record header. |
+| object_id | byte | r/w | Gets or sets the object identifier.<br/>            The index of the EmfPlusRegion object (section 2.2.1.8) to fill, in the<br/>            EMF+ Object Table. The value MUST be zero to 63, inclusive. |
+| is_color | bool | r/w | Gets or sets a value indicating whether this instance is color.<br/>            If set, BrushId specifies a color as an EmfPlusARGB object (section 2.2.2.1). <br/>            If clear, BrushId contains the index of an EmfPlusBrush object (section 2.2.1.1) in the EMF+ Object Table. |
+| brush_id | int | r/w | Gets or sets the brush identifier<br/>            A 32-bit unsigned integer that defines the brush, the content of which is determined by the S bit in the Flags field. |
+
+### EmfPlusFillRegion(source) {#EmfPlusFillRegion_source_0}
+
+
+```
+ EmfPlusFillRegion(source) 
+```
+
+Initializes a new instance of the [EmfPlusFillRegion](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillregion/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| source | [EmfPlusRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | The source. |
+

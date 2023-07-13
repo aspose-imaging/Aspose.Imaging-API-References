@@ -7,14 +7,14 @@ url: /python-net/aspose.imaging.fileformats.tiff.enums/tifffilestandards/
 
 Specifies the TIFF file format standards.
 
-**Namespace:** [aspose.imaging.fileformats.tiff.enums](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/)
+**Module:** [aspose.imaging.fileformats.tiff.enums](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/)
 
 **Full Name:** aspose.imaging.fileformats.tiff.enums.TiffFileStandards
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|BASELINE|The Baseline TIFF 6.0 file standard. This standard is formally known as TIFF 6.0, Part 1: Baseline TIFF.|
-|EXTENDED|The Extended TIFF 6.0 file standard. This standard is formally known as Extended TIFF 6.0, Part 2: TIFF Extensions.|
+| BASELINE | The Baseline TIFF 6.0 file standard. This standard is formally known as TIFF 6.0, Part 1: Baseline TIFF. |
+| EXTENDED | The Extended TIFF 6.0 file standard. This standard is formally known as Extended TIFF 6.0, Part 2: TIFF Extensions. |

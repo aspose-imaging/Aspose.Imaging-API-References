@@ -1,20 +1,21 @@
 ---
 title: ICdrImage Class
 type: docs
-weight: 30
+weight: 450
 url: /python-net/aspose.imaging.fileformats.cdr/icdrimage/
 ---
 
 The Cdr image interface
 
-**Namespace:** [aspose.imaging.fileformats.cdr](/imaging/python-net/aspose.imaging.fileformats.cdr/)
+**Module:** [aspose.imaging.fileformats.cdr](/imaging/python-net/aspose.imaging.fileformats.cdr/)
 
-**Full Class Name:** aspose.imaging.fileformats.cdr.ICdrImage
+**Full Name:** aspose.imaging.fileformats.cdr.ICdrImage
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 The ICdrImage type exposes the following members:
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|cdr_document|Gets or sets the CDR document.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| cdr_document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument/) | r | Gets or sets the CDR document. |
+

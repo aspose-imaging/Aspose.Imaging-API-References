@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.png/
 ---
 
 
-The namespace handles Png file format processing.
+The module handles Png file format processing.
 
 ## **Classes**
 |**Class**|**Description**|
@@ -15,5 +15,5 @@ The namespace handles Png file format processing.
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[PngColorType](/imaging/python-net/aspose.imaging.fileformats.png/pngcolortype/)|Represents the PNG image color type.|
-|[PngFilterType](/imaging/python-net/aspose.imaging.fileformats.png/pngfiltertype/)|The png filter type.|
+| [PngColorType](/imaging/python-net/aspose.imaging.fileformats.png/pngcolortype/) | Represents the PNG image color type. |
+| [PngFilterType](/imaging/python-net/aspose.imaging.fileformats.png/pngfiltertype/) | The png filter type. |

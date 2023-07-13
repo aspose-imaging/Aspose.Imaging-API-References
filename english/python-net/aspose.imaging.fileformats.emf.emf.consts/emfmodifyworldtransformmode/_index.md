@@ -7,16 +7,16 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emfmodifyworldtransfo
 
 The ModifyWorldTransformMode enumeration defines modes for using specified transform data<br/>            to modify the world-space to page-space transform that is currently defined in the playback device context.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
+**Module:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfModifyWorldTransformMode
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|MWT_IDENTITY|Reset the current transform using the identity matrix. In this mode, the specified transform data is ignored|
-|MWT_LEFTMULTIPLY|Multiply the current transform. In this mode, the specified transform data is the left multiplicand, and <br/>            the transform that is currently defined in the playback device context is the right multiplicand|
-|MWT_RIGHTMULTIPLY|Multiply the current transform. In this mode, the specified transform data is the right multiplicand, <br/>            and the transform that is currently defined in the playback device context is the left multiplicand|
-|MWT_SET|Perform the function of an EMR_SETWORLDTRANSFORM record (section 2.3.12.2).|
+| MWT_IDENTITY | Reset the current transform using the identity matrix. In this mode, the specified transform data is ignored |
+| MWT_LEFTMULTIPLY | Multiply the current transform. In this mode, the specified transform data is the left multiplicand, and <br/>            the transform that is currently defined in the playback device context is the right multiplicand |
+| MWT_RIGHTMULTIPLY | Multiply the current transform. In this mode, the specified transform data is the right multiplicand, <br/>            and the transform that is currently defined in the playback device context is the left multiplicand |
+| MWT_SET | Perform the function of an EMR_SETWORLDTRANSFORM record (section 2.3.12.2). |

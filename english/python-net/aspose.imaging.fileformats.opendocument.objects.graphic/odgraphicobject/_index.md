@@ -7,20 +7,38 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odgraph
 
 The open document graphic object.
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
+**Module:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
-**Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject
+**Full Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdGraphicObject
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** OdObject
+
+**Aspose.Imaging Version:** 23.6
 
 The OdGraphicObject type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|OdGraphicObject(parent)|Initializes a new instance of the OdGraphicObject class|
+| [OdGraphicObject(parent)](#OdGraphicObject_parent_0) | Initializes a new instance of the [OdGraphicObject](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/) class. |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|parent|Gets the parent object.|
-|items|Gets the items.|
-|absolute_coordinates|Gets or sets a value indicating whether [absolute coordinates].|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
+| items | System.Collections.Generic.List<OdObject> | r | Gets the items. |
+| absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
+
+### OdGraphicObject(parent) {#OdGraphicObject_parent_0}
+
+
+```
+ OdGraphicObject(parent) 
+```
+
+Initializes a new instance of the [OdGraphicObject](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | The parent. |
+

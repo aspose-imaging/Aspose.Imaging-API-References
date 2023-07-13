@@ -7,21 +7,21 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/filltypes/
 
 Fill types for the brush.
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.enums](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/)
+**Module:** [aspose.imaging.fileformats.cmx.objectmodel.enums](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/)
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.enums.FillTypes
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|UNKNOWN|Unknown fill type.|
-|NO_FILL|No fill needed|
-|UNIFORM|Uniform fill.<br/>            Apply a solid fill color.|
-|FOUNTAIN|Fountain fill.<br/>            Apply a gradient of colors or shades.|
-|POSTSCRIPT|Postscript fill.<br/>            Apply an intricate PostScript texture fill.|
-|TWO_COLOR_PATTERN|Two-color pattern fill.|
-|IMPORTED_BITMAP|Bitmap pattern fill.|
-|FULL_COLOR_PATTERN|Vector pattern fill.|
-|TEXTURE|Texture fill.|
+| UNKNOWN | Unknown fill type. |
+| NO_FILL | No fill needed |
+| UNIFORM | Uniform fill.<br/>            Apply a solid fill color. |
+| FOUNTAIN | Fountain fill.<br/>            Apply a gradient of colors or shades. |
+| POSTSCRIPT | Postscript fill.<br/>            Apply an intricate PostScript texture fill. |
+| TWO_COLOR_PATTERN | Two-color pattern fill. |
+| IMPORTED_BITMAP | Bitmap pattern fill. |
+| FULL_COLOR_PATTERN | Vector pattern fill. |
+| TEXTURE | Texture fill. |

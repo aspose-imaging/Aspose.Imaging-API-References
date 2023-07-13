@@ -7,10 +7,13 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbasebrush
 
 Base class for Brush data types.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Module:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBaseBrushData
+**Full Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBaseBrushData
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** EmfPlusStructureObjectType
+
+**Aspose.Imaging Version:** 23.6
 
 The EmfPlusBaseBrushData type exposes the following members:
+

@@ -7,10 +7,13 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbaseimage
 
 Base class for image data types.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Module:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBaseImageData
+**Full Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusBaseImageData
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** EmfPlusStructureObjectType
+
+**Aspose.Imaging Version:** 23.6
 
 The EmfPlusBaseImageData type exposes the following members:
+

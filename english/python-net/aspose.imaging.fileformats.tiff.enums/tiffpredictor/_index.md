@@ -7,14 +7,14 @@ url: /python-net/aspose.imaging.fileformats.tiff.enums/tiffpredictor/
 
 Prediction scheme for LZW
 
-**Namespace:** [aspose.imaging.fileformats.tiff.enums](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/)
+**Module:** [aspose.imaging.fileformats.tiff.enums](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/)
 
 **Full Name:** aspose.imaging.fileformats.tiff.enums.TiffPredictor
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|NONE|No prediction scheme used.|
-|HORIZONTAL|Horizontal differencing.|
+| NONE | No prediction scheme used. |
+| HORIZONTAL | Horizontal differencing. |

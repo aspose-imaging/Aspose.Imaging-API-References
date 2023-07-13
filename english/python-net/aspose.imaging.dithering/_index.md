@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.dithering/
 ---
 
 
-The namespace provides different helper classes for color dithering.
+The module provides different helper classes for color dithering.
 
 ## **Classes**
 |**Class**|**Description**|

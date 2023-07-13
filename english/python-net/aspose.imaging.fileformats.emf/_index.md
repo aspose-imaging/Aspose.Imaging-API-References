@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.emf/
 ---
 
 
-The namespace contains types [MS-EMF], [MS-EMFPLUS]
+The module contains types [MS-EMF], [MS-EMFPLUS]
 
 ## **Classes**
 |**Class**|**Description**|
@@ -18,4 +18,4 @@ The namespace contains types [MS-EMF], [MS-EMFPLUS]
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[EmfRenderMode](/imaging/python-net/aspose.imaging.fileformats.emf/emfrendermode/)|The emf render mode|
+| [EmfRenderMode](/imaging/python-net/aspose.imaging.fileformats.emf/emfrendermode/) | The emf render mode |

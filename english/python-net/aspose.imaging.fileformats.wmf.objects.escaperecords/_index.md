@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects.escaperecords/
 ---
 
 
-The namespace contains escape types [MS-WMF]: Windows
+The module contains escape types [MS-WMF]: Windows
 
 ## **Classes**
 |**Class**|**Description**|

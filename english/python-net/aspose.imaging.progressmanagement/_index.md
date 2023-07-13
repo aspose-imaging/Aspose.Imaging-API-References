@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.progressmanagement/
 ---
 
 
-The namespace contains progress handler classes
+The module contains progress handler classes
 
 ## **Classes**
 |**Class**|**Description**|
@@ -15,4 +15,4 @@ The namespace contains progress handler classes
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[EventType](/imaging/python-net/aspose.imaging.progressmanagement/eventtype/)|This enum describes possible progress event types that can occurred during image processing operations|
+| [EventType](/imaging/python-net/aspose.imaging.progressmanagement/eventtype/) | This enum describes possible progress event types that can occurred during image processing operations |

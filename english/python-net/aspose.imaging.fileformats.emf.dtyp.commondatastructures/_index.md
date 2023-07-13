@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.emf.dtyp.commondatastructures/
 ---
 
 
-The namespace contains types [MS-DTYP]: Windows Data Types 2.3 Common Data Structures
+The module contains types [MS-DTYP]: Windows Data Types 2.3 Common Data Structures
 
 ## **Classes**
 |**Class**|**Description**|

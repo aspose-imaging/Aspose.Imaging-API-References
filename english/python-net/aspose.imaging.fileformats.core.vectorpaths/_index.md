@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.core.vectorpaths/
 ---
 
 
-The namespace contains PSD Vector Paths.
+The module contains PSD Vector Paths.
 
 ## **Classes**
 |**Class**|**Description**|
@@ -22,5 +22,5 @@ The namespace contains PSD Vector Paths.
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[PathOperations](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/pathoperations/)|The operations for the path shapes combining (Boolean operations).|
-|[VectorPathType](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/vectorpathtype/)|Vector Path Type according to PSD Format Specification|
+| [PathOperations](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/pathoperations/) | The operations for the path shapes combining (Boolean operations). |
+| [VectorPathType](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/vectorpathtype/) | Vector Path Type according to PSD Format Specification |

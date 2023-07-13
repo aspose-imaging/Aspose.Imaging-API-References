@@ -1,24 +1,36 @@
 ---
 title: WmfUntyped Class
 type: docs
-weight: 870
+weight: 900
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfuntyped/
 ---
 
 The wmf untyped object
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
+**Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfUntyped
+**Full Name:** aspose.imaging.fileformats.wmf.objects.WmfUntyped
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** WmfObject
+
+**Aspose.Imaging Version:** 23.6
 
 The WmfUntyped type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|WmfUntyped()|Initializes a new instance of the WmfUntyped class|
+| [WmfUntyped()](#WmfUntyped__0) | Initializes a new instance of the WmfUntyped class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|parameters|Gets or sets the parameters.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| parameters | int | r/w | Gets or sets the parameters. |
+
+### WmfUntyped() {#WmfUntyped__0}
+
+
+```
+ WmfUntyped() 
+```
+
+Initializes a new instance of the WmfUntyped class
+

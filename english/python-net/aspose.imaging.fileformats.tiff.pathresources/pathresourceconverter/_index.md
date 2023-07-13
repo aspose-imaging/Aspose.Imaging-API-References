@@ -7,15 +7,62 @@ url: /python-net/aspose.imaging.fileformats.tiff.pathresources/pathresourceconve
 
 Converts [PathResource](/imaging/python-net/aspose.imaging.fileformats.tiff.pathresources/pathresource/) to [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) and vice versa.
 
-**Namespace:** [aspose.imaging.fileformats.tiff.pathresources](/imaging/python-net/aspose.imaging.fileformats.tiff.pathresources/)
+**Module:** [aspose.imaging.fileformats.tiff.pathresources](/imaging/python-net/aspose.imaging.fileformats.tiff.pathresources/)
 
-**Full Class Name:** aspose.imaging.fileformats.tiff.pathresources.PathResourceConverter
+**Full Name:** aspose.imaging.fileformats.tiff.pathresources.PathResourceConverter
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 The PathResourceConverter type exposes the following members:
 ## **Methods**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-|to_graphics_path(path_resources, image_size)|Converts path resources to the [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) instance.|
-|from_graphics_path(graphics_path, image_size)|Converts the [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) instance to path resources.|
+| [to_graphics_path(path_resources, image_size)](#to_graphics_path_path_resources_image_size_0) | Converts path resources to the [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) instance. |
+| [from_graphics_path(graphics_path, image_size)](#from_graphics_path_graphics_path_image_size_1) | Converts the [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) instance to path resources. |
+
+### to_graphics_path(path_resources, image_size)  [static] {#to_graphics_path_path_resources_image_size_0}
+
+
+```
+ to_graphics_path(path_resources, image_size) 
+```
+
+Converts path resources to the [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) instance.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| path_resources | [PathResource[]](/imaging/python-net/aspose.imaging.fileformats.tiff.pathresources/pathresource) | The path resources. |
+| image_size | [Size](/imaging/python-net/aspose.imaging/size) | Size of the image. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) instance. |
+
+
+### from_graphics_path(graphics_path, image_size)  [static] {#from_graphics_path_graphics_path_image_size_1}
+
+
+```
+ from_graphics_path(graphics_path, image_size) 
+```
+
+Converts the [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) instance to path resources.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| graphics_path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The graphics path. |
+| image_size | [Size](/imaging/python-net/aspose.imaging/size) | Size of the image. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [PathResource[]](/imaging/python-net/aspose.imaging.fileformats.tiff.pathresources/pathresource) | The path resources. |
+
+

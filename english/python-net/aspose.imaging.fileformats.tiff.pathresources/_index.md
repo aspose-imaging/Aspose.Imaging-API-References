@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.pathresources/
 ---
 
 
-The namespace handles Tiff file format processing.
+The module handles Tiff file format processing.
 
 ## **Classes**
 |**Class**|**Description**|

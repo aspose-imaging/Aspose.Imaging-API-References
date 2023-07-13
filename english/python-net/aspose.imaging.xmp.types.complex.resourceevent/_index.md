@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.xmp.types.complex.resourceevent/
 ---
 
 
-The namespace contains class that is a high level event that occured in the processing of this document.
+The module contains class that is a high level event that occured in the processing of this document.
 
 ## **Classes**
 |**Class**|**Description**|

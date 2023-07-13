@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/
 ---
 
 
-The namespace handles Cdr file format processing.
+The module handles Cdr file format processing.
 
 ## **Classes**
 |**Class**|**Description**|

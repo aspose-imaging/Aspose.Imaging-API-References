@@ -7,22 +7,40 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetcompos
 
 The EmfPlusSetCompositingQuality record specifies the desired level of quality for creating<br/>            composite images from multiple objects.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
+**Module:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
-**Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSetCompositingQuality
+**Full Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusSetCompositingQuality
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** EmfPlusPropertyRecordType
+
+**Aspose.Imaging Version:** 23.6
 
 The EmfPlusSetCompositingQuality type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|EmfPlusSetCompositingQuality(source)|Initializes a new instance of the EmfPlusSetCompositingQuality class|
+| [EmfPlusSetCompositingQuality(source)](#EmfPlusSetCompositingQuality_source_0) | Initializes a new instance of the [EmfPlusSetCompositingQuality](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetcompositingquality/) class. |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|type|  |
-|flags|  |
-|size|  |
-|data_size|  |
-|compositing_quality|Gets or sets the compositing quality.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| type | [EmfPlusRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusrecordtype/) | r | Gets a 16-bit unsigned integer that identifies the record type. |
+| flags | short | r/w | Gets or sets a 16-bit unsigned integer that contains information for some records on how<br/>            the operation is to be performed and on the structure of the record. |
+| size | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the 32-bit-aligned number of bytes<br/>            in the entire record, including the 12-byte record header and record-specific data. |
+| data_size | int | r/w | Gets or sets a 32-bit unsigned integer that MUST define the 32-bit–aligned number of<br/>            bytes of data in the RecordData field that follows. This number does not include the 12-byte record header. |
+| compositing_quality | [EmfPlusCompositingQuality](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscompositingquality/) | r/w | Gets or sets the compositing quality. |
+
+### EmfPlusSetCompositingQuality(source) {#EmfPlusSetCompositingQuality_source_0}
+
+
+```
+ EmfPlusSetCompositingQuality(source) 
+```
+
+Initializes a new instance of the [EmfPlusSetCompositingQuality](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplussetcompositingquality/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| source | [EmfPlusRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | The source. |
+

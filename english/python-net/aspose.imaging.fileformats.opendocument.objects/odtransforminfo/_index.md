@@ -1,32 +1,58 @@
 ---
 title: OdTransformInfo Class
 type: docs
-weight: 30
+weight: 460
 url: /python-net/aspose.imaging.fileformats.opendocument.objects/odtransforminfo/
 ---
 
 The open document translate info
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects/)
+**Module:** [aspose.imaging.fileformats.opendocument.objects](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.opendocument.objects.OdTransformInfo
+**Full Name:** aspose.imaging.fileformats.opendocument.objects.OdTransformInfo
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 The OdTransformInfo type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|OdTransformInfo()|Initializes a new instance of the OdTransformInfo class|
+| [OdTransformInfo()](#OdTransformInfo__0) | Initializes a new instance of the OdTransformInfo class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|rotate_angle|Gets or sets the rotate angle.|
-|translate_x|Gets or sets the translate x.|
-|translate_y|Gets or sets the translate y.|
-|skew_x|Gets or sets the skew x.|
-|skew_y|Gets or sets the skew y.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| rotate_angle | float | r/w | Gets or sets the rotate angle. |
+| translate_x | float | r/w | Gets or sets the translate x. |
+| translate_y | float | r/w | Gets or sets the translate y. |
+| skew_x | float | r/w | Gets or sets the skew x. |
+| skew_y | float | r/w | Gets or sets the skew y. |
 ## **Methods**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-|copy()|Copies this instance.|
+| [copy()](#copy__1) | Copies this instance. |
+
+### OdTransformInfo() {#OdTransformInfo__0}
+
+
+```
+ OdTransformInfo() 
+```
+
+Initializes a new instance of the OdTransformInfo class
+
+### copy() {#copy__1}
+
+
+```
+ copy() 
+```
+
+Copies this instance.
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [OdTransformInfo](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects/odtransforminfo) | Get the instance of OdTransformInfo |
+
+

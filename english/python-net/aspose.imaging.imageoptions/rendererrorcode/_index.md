@@ -7,17 +7,17 @@ url: /python-net/aspose.imaging.imageoptions/rendererrorcode/
 
 Represents possible missing sections in CAD file
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
+**Module:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Name:** aspose.imaging.imageoptions.RenderErrorCode
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|MISSING_HEADER|Header is missing|
-|MISSING_LAYOUTS|Layouts information is missing|
-|MISSING_BLOCKS|Block information is missing|
-|MISSING_DIMENSION_STYLES|Dimension styles information is missing|
-|MISSING_STYLES|Styles information is missing|
+| MISSING_HEADER | Header is missing |
+| MISSING_LAYOUTS | Layouts information is missing |
+| MISSING_BLOCKS | Block information is missing |
+| MISSING_DIMENSION_STYLES | Dimension styles information is missing |
+| MISSING_STYLES | Styles information is missing |

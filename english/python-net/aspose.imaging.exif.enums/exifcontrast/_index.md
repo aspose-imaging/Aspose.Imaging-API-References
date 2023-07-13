@@ -7,15 +7,15 @@ url: /python-net/aspose.imaging.exif.enums/exifcontrast/
 
 exif normal soft hard enum.
 
-**Namespace:** [aspose.imaging.exif.enums](/imaging/python-net/aspose.imaging.exif.enums/)
+**Module:** [aspose.imaging.exif.enums](/imaging/python-net/aspose.imaging.exif.enums/)
 
 **Full Name:** aspose.imaging.exif.enums.ExifContrast
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|NORMAL|Normal contrast.|
-|LOW|Low contrast.|
-|HIGH|High contrast.|
+| NORMAL | Normal contrast. |
+| LOW | Low contrast. |
+| HIGH | High contrast. |

@@ -7,20 +7,38 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odclose
 
 The close path
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
+**Module:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
-**Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdClosePath
+**Full Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdClosePath
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** OdGraphicObject
+
+**Aspose.Imaging Version:** 23.6
 
 The OdClosePath type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|OdClosePath(parent)|Initializes a new instance of the OdClosePath class|
+| [OdClosePath(parent)](#OdClosePath_parent_0) | Initializes a new instance of the [OdClosePath](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odclosepath/) class. |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|parent|  |
-|items|  |
-|absolute_coordinates|Gets or sets a value indicating whether [absolute coordinates].|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
+| items | System.Collections.Generic.List<OdObject> | r | Gets the items. |
+| absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
+
+### OdClosePath(parent) {#OdClosePath_parent_0}
+
+
+```
+ OdClosePath(parent) 
+```
+
+Initializes a new instance of the [OdClosePath](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odclosepath/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | The parent. |
+

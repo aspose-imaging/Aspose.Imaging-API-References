@@ -7,14 +7,14 @@ url: /python-net/aspose.imaging.imageoptions/typeofentities/
 
 Represents types of entities to render
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
+**Module:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
 **Full Name:** aspose.imaging.imageoptions.TypeOfEntities
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|ENTITIES_2D|Render 2D entities|
-|ENTITIES_3D|Render 3D entities|
+| ENTITIES_2D | Render 2D entities |
+| ENTITIES_3D | Render 3D entities |

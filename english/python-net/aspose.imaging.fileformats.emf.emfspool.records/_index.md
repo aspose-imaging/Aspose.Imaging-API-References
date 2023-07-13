@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfspool.records/
 ---
 
 
-The namespace contains types [MS-EMFSPOOL]: Enhanced Metafile Spool Format 2.2 EMFSPOOL Records
+The module contains types [MS-EMFSPOOL]: Enhanced Metafile Spool Format 2.2 EMFSPOOL Records
 
 ## **Classes**
 |**Class**|**Description**|

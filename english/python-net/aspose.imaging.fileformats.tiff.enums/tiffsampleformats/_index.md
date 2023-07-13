@@ -7,18 +7,18 @@ url: /python-net/aspose.imaging.fileformats.tiff.enums/tiffsampleformats/
 
 Sample format enum
 
-**Namespace:** [aspose.imaging.fileformats.tiff.enums](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/)
+**Module:** [aspose.imaging.fileformats.tiff.enums](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/)
 
 **Full Name:** aspose.imaging.fileformats.tiff.enums.TiffSampleFormats
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|UINT|Unsigned integer data|
-|INT|Signed integer data|
-|IEEE_FP|IEEE floating point data|
-|VOID|Untyped data|
-|COMPLEX_INT|Complex signed int|
-|COMPLEX_IEEE_FP|Complex ieee floating|
+| UINT | Unsigned integer data |
+| INT | Signed integer data |
+| IEEE_FP | IEEE floating point data |
+| VOID | Untyped data |
+| COMPLEX_INT | Complex signed int |
+| COMPLEX_IEEE_FP | Complex ieee floating |

@@ -7,15 +7,16 @@ url: /python-net/aspose.imaging.fileformats.dng.decoder/rawdata/
 
 The raw data in DNG format
 
-**Namespace:** [aspose.imaging.fileformats.dng.decoder](/imaging/python-net/aspose.imaging.fileformats.dng.decoder/)
+**Module:** [aspose.imaging.fileformats.dng.decoder](/imaging/python-net/aspose.imaging.fileformats.dng.decoder/)
 
-**Full Class Name:** aspose.imaging.fileformats.dng.decoder.RawData
+**Full Name:** aspose.imaging.fileformats.dng.decoder.RawData
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 The RawData type exposes the following members:
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|image_data_parameters|Gets or sets the image data parameters.|
-|image_other_parameters|Gets or sets the other image parameters.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| image_data_parameters | [ImageParameters](/imaging/python-net/aspose.imaging.fileformats.dng.decoder/imageparameters) | r/w | Gets or sets the image data parameters. |
+| image_other_parameters | [ImageOtherParameters](/imaging/python-net/aspose.imaging.fileformats.dng.decoder/imageotherparameters) | r/w | Gets or sets the other image parameters. |
+

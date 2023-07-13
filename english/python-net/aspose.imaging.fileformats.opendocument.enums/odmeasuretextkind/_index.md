@@ -7,16 +7,16 @@ url: /python-net/aspose.imaging.fileformats.opendocument.enums/odmeasuretextkind
 
 The measure text kind
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.enums](/imaging/python-net/aspose.imaging.fileformats.opendocument.enums/)
+**Module:** [aspose.imaging.fileformats.opendocument.enums](/imaging/python-net/aspose.imaging.fileformats.opendocument.enums/)
 
 **Full Name:** aspose.imaging.fileformats.opendocument.enums.OdMeasureTextKind
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|NONE|The Measure text kind is none|
-|GAP|The Measure text kind is gap|
-|VALUE|The Measure text kind is value|
-|UNIT|The Measure text kind is unit|
+| NONE | The Measure text kind is none |
+| GAP | The Measure text kind is gap |
+| VALUE | The Measure text kind is value |
+| UNIT | The Measure text kind is unit |

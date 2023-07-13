@@ -7,20 +7,32 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfcreatepalette/
 
 The META_CREATEPALETTE record creates a Palette Object (section 2.2.1.3).
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
+**Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfCreatePalette
+**Full Name:** aspose.imaging.fileformats.wmf.objects.WmfCreatePalette
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** WmfGraphicObject
+
+**Aspose.Imaging Version:** 23.6
 
 The WmfCreatePalette type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|WmfCreatePalette()|WMFs the record.|
+| [WmfCreatePalette()](#WmfCreatePalette__0) | WMFs the record. |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|index|Gets or sets the index.|
-|log_palette|Gets or sets the log palette.|
-|PALETTE_START|The palette start tag|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| index | int | r/w | Gets or sets the index. |
+| log_palette | [EmfLogPalette](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogpalette/) | r/w | Gets or sets the log palette. |
+| PALETTE_START [static] | int | r | The palette start tag |
+
+### WmfCreatePalette() {#WmfCreatePalette__0}
+
+
+```
+ WmfCreatePalette() 
+```
+
+WMFs the record.
+

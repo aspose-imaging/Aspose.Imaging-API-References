@@ -6,9 +6,9 @@ url: /python-net/aspose.imaging.fileformats.eps.consts/
 ---
 
 
-The namespace contains EPS format constants
+The module contains EPS format constants
 
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[EpsType](/imaging/python-net/aspose.imaging.fileformats.eps.consts/epstype/)|Subtypes of Encapsulated PostScript format|
+| [EpsType](/imaging/python-net/aspose.imaging.fileformats.eps.consts/epstype/) | Subtypes of Encapsulated PostScript format |

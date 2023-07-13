@@ -7,19 +7,31 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusredeyecor
 
 The RedEyeCorrectionEffect object specifies areas of an image to which a red-eye correction is applied.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Module:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusRedEyeCorrectionEffect
+**Full Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusRedEyeCorrectionEffect
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** EmfPlusImageEffectsObjectType
+
+**Aspose.Imaging Version:** 23.6
 
 The EmfPlusRedEyeCorrectionEffect type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|EmfPlusRedEyeCorrectionEffect()|Initializes a new instance of the EmfPlusRedEyeCorrectionEffect class|
+| [EmfPlusRedEyeCorrectionEffect()](#EmfPlusRedEyeCorrectionEffect__0) | Initializes a new instance of the EmfPlusRedEyeCorrectionEffect class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|number_of_areas|Gets or sets the A 32-bit signed integer that specifies the number of rectangles in<br/>            the Areas field.|
-|areas|Gets or sets the An array of NumberOfAreas WMF RectL objects, specified in [MS-WMF]<br/>            section 2.2.2.19. Each rectangle specifies an area of the bitmap image to which the red-eye<br/>            correction effect SHOULD be applied.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| number_of_areas | int | r/w | Gets or sets the A 32-bit signed integer that specifies the number of rectangles in<br/>            the Areas field. |
+| areas | [Rectangle[]](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets the An array of NumberOfAreas WMF RectL objects, specified in [MS-WMF]<br/>            section 2.2.2.19. Each rectangle specifies an area of the bitmap image to which the red-eye<br/>            correction effect SHOULD be applied. |
+
+### EmfPlusRedEyeCorrectionEffect() {#EmfPlusRedEyeCorrectionEffect__0}
+
+
+```
+ EmfPlusRedEyeCorrectionEffect() 
+```
+
+Initializes a new instance of the EmfPlusRedEyeCorrectionEffect class
+

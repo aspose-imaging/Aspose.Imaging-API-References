@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.dicom/
 ---
 
 
-The namespace handles Dicom file format processin
+The module handles Dicom file format processin
 
 ## **Classes**
 |**Class**|**Description**|
@@ -18,5 +18,5 @@ The namespace handles Dicom file format processin
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[ColorType](/imaging/python-net/aspose.imaging.fileformats.dicom/colortype/)|The type of the color.|
-|[CompressionType](/imaging/python-net/aspose.imaging.fileformats.dicom/compressiontype/)|The DICOM image compression type.|
+| [ColorType](/imaging/python-net/aspose.imaging.fileformats.dicom/colortype/) | The type of the color. |
+| [CompressionType](/imaging/python-net/aspose.imaging.fileformats.dicom/compressiontype/) | The DICOM image compression type. |

@@ -7,15 +7,15 @@ url: /python-net/aspose.imaging.xmp.types.complex.colorant/colormode/
 
 Represents color mode.
 
-**Namespace:** [aspose.imaging.xmp.types.complex.colorant](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/)
+**Module:** [aspose.imaging.xmp.types.complex.colorant](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/)
 
 **Full Name:** aspose.imaging.xmp.types.complex.colorant.ColorMode
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|CMYK|CMYK color mode.|
-|RGB|RGB color mode.|
-|LAB|LAB color mode.|
+| CMYK | CMYK color mode. |
+| RGB | RGB color mode. |
+| LAB | LAB color mode. |

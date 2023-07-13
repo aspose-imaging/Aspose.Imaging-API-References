@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.pdf/
 ---
 
 
-The namespace contains classes for PDF file format integration.
+The module contains classes for PDF file format integration.
 
 ## **Classes**
 |**Class**|**Description**|

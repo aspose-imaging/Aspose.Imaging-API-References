@@ -7,20 +7,30 @@ url: /python-net/aspose.imaging.fileformats.tiff.pathresources/pathresource/
 
 Represents Photoshop Path Resource.
 
-**Namespace:** [aspose.imaging.fileformats.tiff.pathresources](/imaging/python-net/aspose.imaging.fileformats.tiff.pathresources/)
+**Module:** [aspose.imaging.fileformats.tiff.pathresources](/imaging/python-net/aspose.imaging.fileformats.tiff.pathresources/)
 
-**Full Class Name:** aspose.imaging.fileformats.tiff.pathresources.PathResource
+**Full Name:** aspose.imaging.fileformats.tiff.pathresources.PathResource
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 The PathResource type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|PathResource()|Initializes a new instance of the PathResource class|
+| [PathResource()](#PathResource__0) | Initializes a new instance of the PathResource class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|block_id|Gets or sets the block identifier.|
-|name|Gets or sets the name.|
-|records|Gets or sets the records.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| block_id | short | r/w | Gets or sets the block identifier. |
+| name | string | r/w | Gets or sets the name. |
+| records | System.Collections.Generic.List<Aspose.Imaging.FileFormats.Core.VectorPaths.VectorPathRecord> | r/w | Gets or sets the records. |
+
+### PathResource() {#PathResource__0}
+
+
+```
+ PathResource() 
+```
+
+Initializes a new instance of the PathResource class
+

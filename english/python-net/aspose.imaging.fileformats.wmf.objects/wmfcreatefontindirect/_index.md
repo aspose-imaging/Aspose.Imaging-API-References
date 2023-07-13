@@ -7,20 +7,32 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfcreatefontindirect/
 
 The Create font
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
+**Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfCreateFontInDirect
+**Full Name:** aspose.imaging.fileformats.wmf.objects.WmfCreateFontInDirect
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** WmfGraphicObject
+
+**Aspose.Imaging Version:** 23.6
 
 The WmfCreateFontInDirect type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|WmfCreateFontInDirect()|WMFs the record.|
+| [WmfCreateFontInDirect()](#WmfCreateFontInDirect__0) | WMFs the record. |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|index|Gets or sets the index.|
-|log_font|Gets or sets the log font.|
-|extended_bytes|Gets or sets the extended bytes.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| index | int | r/w | Gets or sets the index. |
+| log_font | [EmfLogFont](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogfont/) | r/w | Gets or sets the log font. |
+| extended_bytes | byte | r/w | Gets or sets the extended bytes. |
+
+### WmfCreateFontInDirect() {#WmfCreateFontInDirect__0}
+
+
+```
+ WmfCreateFontInDirect() 
+```
+
+WMFs the record.
+

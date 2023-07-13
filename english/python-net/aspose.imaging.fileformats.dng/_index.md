@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.dng/
 ---
 
 
-The namespace contains DNG file format types
+The module contains DNG file format types
 
 ## **Classes**
 |**Class**|**Description**|

@@ -1,30 +1,42 @@
 ---
 title: WmfExtTextOut Class
 type: docs
-weight: 270
+weight: 300
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfexttextout/
 ---
 
 Wmf ext text out
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
+**Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfExtTextOut
+**Full Name:** aspose.imaging.fileformats.wmf.objects.WmfExtTextOut
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** WmfPointObject
+
+**Aspose.Imaging Version:** 23.6
 
 The WmfExtTextOut type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|WmfExtTextOut()|Initializes a new instance of the WmfExtTextOut class|
+| [WmfExtTextOut()](#WmfExtTextOut__0) | Initializes a new instance of the WmfExtTextOut class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|point|Gets or sets the point.|
-|string_length|Gets or sets the length of the string.|
-|fw_opts|Gets or sets the fw opts.|
-|rectangle|Gets or sets the rectangle.|
-|text|Gets or sets the text.|
-|dx|Gets or sets the dx.|
-|extended_byte|Gets or sets the extended byte.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| point | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the point. |
+| string_length | int | r/w | Gets or sets the length of the string. |
+| fw_opts | int | r/w | Gets or sets the fw opts. |
+| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets the rectangle. |
+| text | string | r/w | Gets or sets the text. |
+| dx | short | r/w | Gets or sets the dx. |
+| extended_byte | byte | r/w | Gets or sets the extended byte. |
+
+### WmfExtTextOut() {#WmfExtTextOut__0}
+
+
+```
+ WmfExtTextOut() 
+```
+
+Initializes a new instance of the WmfExtTextOut class
+

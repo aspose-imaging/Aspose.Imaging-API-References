@@ -7,23 +7,51 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.brush/odhatched
 
 The Hatched brush
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.brush](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/)
+**Module:** [aspose.imaging.fileformats.opendocument.objects.brush](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/)
 
-**Full Class Name:** aspose.imaging.fileformats.opendocument.objects.brush.OdHatchedBrush
+**Full Name:** aspose.imaging.fileformats.opendocument.objects.brush.OdHatchedBrush
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** OdBrush
+
+**Aspose.Imaging Version:** 23.6
 
 The OdHatchedBrush type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|OdHatchedBrush()|Initializes a new instance of the OdHatchedBrush class|
+| [OdHatchedBrush()](#OdHatchedBrush__0) | Initializes a new instance of the OdHatchedBrush class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|brush_style|Gets the style.|
-|argb_32_color|Gets or sets the color of the argb32.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| brush_style | [OdBrushStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/odbrushstyle) | r | Gets the style. |
+| argb_32_color | int | r/w | Gets or sets the color of the argb32. |
 ## **Methods**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-|clone()|Clone this instance.|
+| [clone()](#clone__1) | Clone this instance. |
+
+### OdHatchedBrush() {#OdHatchedBrush__0}
+
+
+```
+ OdHatchedBrush() 
+```
+
+Initializes a new instance of the OdHatchedBrush class
+
+### clone() {#clone__1}
+
+
+```
+ clone() 
+```
+
+Clone this instance.
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| object | The return new instance of source brush |
+
+

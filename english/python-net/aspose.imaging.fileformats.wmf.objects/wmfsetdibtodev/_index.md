@@ -1,31 +1,43 @@
 ---
 title: WmfSetDibToDev Class
 type: docs
-weight: 660
+weight: 690
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetdibtodev/
 ---
 
 The META_SETDIBTODEV record sets a block of pixels in the playback<br/>                device context using device-independent color data. The source of the<br/>                color data is a DIB.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
+**Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetDibToDev
+**Full Name:** aspose.imaging.fileformats.wmf.objects.WmfSetDibToDev
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** WmfObject
+
+**Aspose.Imaging Version:** 23.6
 
 The WmfSetDibToDev type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|WmfSetDibToDev()|Initializes a new instance of the WmfSetDibToDev class|
+| [WmfSetDibToDev()](#WmfSetDibToDev__0) | Initializes a new instance of the WmfSetDibToDev class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|color_usage|Gets or sets the color usage.|
-|scan_count|Gets or sets the scan count.|
-|start_scan|Gets or sets the start scan.|
-|dib_pos|Gets or sets the dib position.|
-|height|Gets or sets the height.|
-|width|Gets or sets the width.|
-|dest_pos|Gets or sets the dest position.|
-|dib|Gets or sets the dib.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| color_usage | [WmfColorUsageEnum](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfcolorusageenum/) | r/w | Gets or sets the color usage. |
+| scan_count | int | r/w | Gets or sets the scan count. |
+| start_scan | int | r/w | Gets or sets the start scan. |
+| dib_pos | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the dib position. |
+| height | int | r/w | Gets or sets the height. |
+| width | int | r/w | Gets or sets the width. |
+| dest_pos | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the dest position. |
+| dib | [WmfDeviceIndependentBitmap](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap) | r/w | Gets or sets the dib. |
+
+### WmfSetDibToDev() {#WmfSetDibToDev__0}
+
+
+```
+ WmfSetDibToDev() 
+```
+
+Initializes a new instance of the WmfSetDibToDev class
+

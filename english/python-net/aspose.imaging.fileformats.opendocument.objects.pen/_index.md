@@ -15,4 +15,4 @@ The Open document objects
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[OdPenStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.pen/odpenstyle/)|The open document pen style|
+| [OdPenStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.pen/odpenstyle/) | The open document pen style |

@@ -7,20 +7,21 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype/
 
 Represents Audio sample type in [XmpDynamicMediaPackage](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/).
 
-**Namespace:** [aspose.imaging.xmp.schemas.xmpdm](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/)
+**Module:** [aspose.imaging.xmp.schemas.xmpdm](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/)
 
-**Full Class Name:** aspose.imaging.xmp.schemas.xmpdm.AudioSampleType
+**Full Name:** aspose.imaging.xmp.schemas.xmpdm.AudioSampleType
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 The AudioSampleType type exposes the following members:
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|sample_8_int|Represents 8Int audio sample.|
-|sample_16_int|Represents 16Int audio sample.|
-|sample_24_int|Represents 24Int audio sample.|
-|sample_32_int|Represents 32Int audio sample.|
-|sample_32_float|Represents 32Float audio sample.|
-|compressed|Represents Compressed audio sample.|
-|packed|Represents Packed audio sample.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| sample_8_int [static] | [AudioSampleType](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype) | r | Represents 8Int audio sample. |
+| sample_16_int [static] | [AudioSampleType](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype) | r | Represents 16Int audio sample. |
+| sample_24_int [static] | [AudioSampleType](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype) | r | Represents 24Int audio sample. |
+| sample_32_int [static] | [AudioSampleType](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype) | r | Represents 32Int audio sample. |
+| sample_32_float [static] | [AudioSampleType](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype) | r | Represents 32Float audio sample. |
+| compressed [static] | [AudioSampleType](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype) | r | Represents Compressed audio sample. |
+| packed [static] | [AudioSampleType](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype) | r | Represents Packed audio sample. |
+

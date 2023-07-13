@@ -1,25 +1,26 @@
 ---
 title: BuildVersionInfo Class
 type: docs
-weight: 30
+weight: 330
 url: /python-net/aspose.imaging/buildversioninfo/
 ---
 
 Contains the current build version information.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
+**Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
-**Full Class Name:** aspose.imaging.BuildVersionInfo
+**Full Name:** aspose.imaging.BuildVersionInfo
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 The BuildVersionInfo type exposes the following members:
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|ASSEMBLY_VERSION|The assembly version.|
-|FILE_VERSION|The file version.|
-|PRODUCT|The product title.|
-|PRODUCT_MAJOR|The major product version.|
-|PRODUCT_MINOR|The minor product version.|
-|RELEASE_DATE|The product release date.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| ASSEMBLY_VERSION [static] | string | r | The assembly version. |
+| FILE_VERSION [static] | string | r | The file version. |
+| PRODUCT [static] | string | r | The product title. |
+| PRODUCT_MAJOR [static] | int | r | The major product version. |
+| PRODUCT_MINOR [static] | int | r | The minor product version. |
+| RELEASE_DATE [static] | datetime | r | The product release date. |
+

@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.dng.decoder/
 ---
 
 
-The namespace contains DNG decoder types
+The module contains DNG decoder types
 
 ## **Classes**
 |**Class**|**Description**|

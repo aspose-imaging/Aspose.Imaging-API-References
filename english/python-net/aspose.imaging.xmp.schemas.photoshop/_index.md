@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.xmp.schemas.photoshop/
 ---
 
 
-The namespace contains related helper classes, constants and methods used by Adobe Photoshop.
+The module contains related helper classes, constants and methods used by Adobe Photoshop.
 
 ## **Classes**
 |**Class**|**Description**|
@@ -16,4 +16,4 @@ The namespace contains related helper classes, constants and methods used by Ado
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[ColorMode](/imaging/python-net/aspose.imaging.xmp.schemas.photoshop/colormode/)|Represents color mode in [PhotoshopPackage](/imaging/python-net/aspose.imaging.xmp.schemas.photoshop/photoshoppackage/).|
+| [ColorMode](/imaging/python-net/aspose.imaging.xmp.schemas.photoshop/colormode/) | Represents color mode in [PhotoshopPackage](/imaging/python-net/aspose.imaging.xmp.schemas.photoshop/photoshoppackage/). |

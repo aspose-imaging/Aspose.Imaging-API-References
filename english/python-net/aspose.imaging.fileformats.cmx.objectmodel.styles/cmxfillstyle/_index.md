@@ -7,23 +7,33 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxfillstyle/
 
 Fill style for shapes.
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.styles](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/)
+**Module:** [aspose.imaging.fileformats.cmx.objectmodel.styles](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/)
 
-**Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.styles.CmxFillStyle
+**Full Name:** aspose.imaging.fileformats.cmx.objectmodel.styles.CmxFillStyle
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 The CmxFillStyle type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|CmxFillStyle()|Initializes a new instance of the CmxFillStyle class|
+| [CmxFillStyle()](#CmxFillStyle__0) | Initializes a new instance of the CmxFillStyle class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|fill_type|Gets or sets the type of the fill.|
-|color1|Gets or sets the primary color.|
-|color2|Gets or sets the secondary color.|
-|gradient|Gets or sets the gradient info.|
-|image_fill|Gets or sets the image fill info.|
-|transform|Gets or sets the fill transform.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| fill_type | [FillTypes](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/filltypes/) | r/w | Gets or sets the type of the fill. |
+| color1 | [CmxColor](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor) | r/w | Gets or sets the primary color. |
+| color2 | [CmxColor](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor) | r/w | Gets or sets the secondary color. |
+| gradient | [CmxGradient](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient) | r/w | Gets or sets the gradient info. |
+| image_fill | [CmxImageFill](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill) | r/w | Gets or sets the image fill info. |
+| transform | [Matrix](/imaging/python-net/aspose.imaging/matrix) | r/w | Gets or sets the fill transform. |
+
+### CmxFillStyle() {#CmxFillStyle__0}
+
+
+```
+ CmxFillStyle() 
+```
+
+Initializes a new instance of the CmxFillStyle class
+

@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.extensions/
 ---
 
 
-The namespace contains extension methods.
+The module contains extension methods.
 
 ## **Classes**
 |**Class**|**Description**|

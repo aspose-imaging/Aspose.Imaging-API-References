@@ -1,19 +1,19 @@
 ---
 title: ColorCompareMethod Enumeration
 type: docs
-weight: 8990
+weight: 9050
 url: /python-net/aspose.imaging/colorcomparemethod/
 ---
 
 Color comparison method to adjust to nearest neighbor
 
-**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
+**Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Name:** aspose.imaging.ColorCompareMethod
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|EUCLIDIAN|The euclidian method|
+| EUCLIDIAN | The euclidian method |

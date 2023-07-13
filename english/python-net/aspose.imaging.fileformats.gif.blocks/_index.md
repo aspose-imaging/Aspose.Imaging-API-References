@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.gif.blocks/
 ---
 
 
-The namespace contains Gif file format entities.
+The module contains Gif file format entities.
 
 ## **Classes**
 |**Class**|**Description**|

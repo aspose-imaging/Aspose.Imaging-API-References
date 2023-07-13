@@ -1,21 +1,21 @@
 ---
 title: XmpArrayType Enumeration
 type: docs
-weight: 530
+weight: 570
 url: /python-net/aspose.imaging.xmp/xmparraytype/
 ---
 
 Represents array type in [XmpArray](/imaging/python-net/aspose.imaging.xmp/xmparray/).
 
-**Namespace:** [aspose.imaging.xmp](/imaging/python-net/aspose.imaging.xmp/)
+**Module:** [aspose.imaging.xmp](/imaging/python-net/aspose.imaging.xmp/)
 
 **Full Name:** aspose.imaging.xmp.XmpArrayType
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|UNORDERED|The unordered array.|
-|ORDERED|The ordered array.|
-|ALTERNATIVE|The alternative array.|
+| UNORDERED | The unordered array. |
+| ORDERED | The ordered array. |
+| ALTERNATIVE | The alternative array. |

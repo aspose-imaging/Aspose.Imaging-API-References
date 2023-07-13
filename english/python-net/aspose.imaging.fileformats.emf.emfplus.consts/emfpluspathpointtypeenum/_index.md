@@ -7,15 +7,15 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspathpointt
 
 The PathPointType enumeration defines types of points on a graphics path.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Module:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusPathPointTypeEnum
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|PATH_POINT_TYPE_START|Specifies that the point is the starting point of a path.|
-|PATH_POINT_TYPE_LINE|Specifies that the point is one of the two endpoints of a line.|
-|PATH_POINT_TYPE_BEZIER|Specifies that the point is an endpoint or control point of a cubic Bezier curve.|
+| PATH_POINT_TYPE_START | Specifies that the point is the starting point of a path. |
+| PATH_POINT_TYPE_LINE | Specifies that the point is one of the two endpoints of a line. |
+| PATH_POINT_TYPE_BEZIER | Specifies that the point is an endpoint or control point of a cubic Bezier curve. |

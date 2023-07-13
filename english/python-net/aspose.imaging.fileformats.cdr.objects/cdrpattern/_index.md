@@ -7,23 +7,35 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrpattern/
 
 The cdr bitmap
 
-**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
+**Module:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrPattern
+**Full Name:** aspose.imaging.fileformats.cdr.objects.CdrPattern
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** CdrDictionaryItem
+
+**Aspose.Imaging Version:** 23.6
 
 The CdrPattern type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|CdrPattern()|Initializes a new instance of the CdrPattern class|
+| [CdrPattern()](#CdrPattern__0) | Initializes a new instance of the CdrPattern class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|disposed|  |
-|parent|  |
-|document|  |
-|id|Gets or sets the identifier.|
-|width|Gets or sets the width.|
-|height|Gets or sets the height.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| disposed | bool | r | Gets a value indicating whether this instance is disposed. |
+| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
+| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |
+| id | int | r/w | Gets or sets the identifier. |
+| width | int | r/w | Gets or sets the width. |
+| height | int | r/w | Gets or sets the height. |
+
+### CdrPattern() {#CdrPattern__0}
+
+
+```
+ CdrPattern() 
+```
+
+Initializes a new instance of the CdrPattern class
+

@@ -7,15 +7,15 @@ url: /python-net/aspose.imaging.fileformats.jpeg/jfifdensityunits/
 
 The jfif density units.
 
-**Namespace:** [aspose.imaging.fileformats.jpeg](/imaging/python-net/aspose.imaging.fileformats.jpeg/)
+**Module:** [aspose.imaging.fileformats.jpeg](/imaging/python-net/aspose.imaging.fileformats.jpeg/)
 
 **Full Name:** aspose.imaging.fileformats.jpeg.JfifDensityUnits
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|NO_UNITS|The no units.|
-|PIXELS_PER_INCH|The pixels per inch.|
-|PIXELS_PER_CM|The pixels per cm.|
+| NO_UNITS | The no units. |
+| PIXELS_PER_INCH | The pixels per inch. |
+| PIXELS_PER_CM | The pixels per cm. |

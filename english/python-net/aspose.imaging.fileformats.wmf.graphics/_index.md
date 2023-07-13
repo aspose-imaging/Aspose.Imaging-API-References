@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.graphics/
 ---
 
 
-The namespace contains Wmf graphics.
+The module contains Wmf graphics.
 
 ## **Classes**
 |**Class**|**Description**|

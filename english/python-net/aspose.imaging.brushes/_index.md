@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.brushes/
 ---
 
 
-The namespace provides helper classes and methods to work with different brush types.
+The module provides helper classes and methods to work with different brush types.
 
 ## **Classes**
 |**Class**|**Description**|

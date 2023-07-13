@@ -7,14 +7,14 @@ url: /python-net/aspose.imaging.exif.enums/exifgpsaltituderef/
 
 exif gps altitude ref enum.
 
-**Namespace:** [aspose.imaging.exif.enums](/imaging/python-net/aspose.imaging.exif.enums/)
+**Module:** [aspose.imaging.exif.enums](/imaging/python-net/aspose.imaging.exif.enums/)
 
 **Full Name:** aspose.imaging.exif.enums.ExifGPSAltitudeRef
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|ABOVE_SEA_LEVEL|Above sea level.|
-|BELOW_SEA_LEVEL|Below sea level.|
+| ABOVE_SEA_LEVEL | Above sea level. |
+| BELOW_SEA_LEVEL | Below sea level. |

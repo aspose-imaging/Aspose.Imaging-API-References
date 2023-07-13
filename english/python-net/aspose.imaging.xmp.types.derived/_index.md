@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.xmp.types.derived/
 ---
 
 
-The namespace contains classes that represent the derived type values of XMP properties.
+The module contains classes that represent the derived type values of XMP properties.
 
 ## **Classes**
 |**Class**|**Description**|

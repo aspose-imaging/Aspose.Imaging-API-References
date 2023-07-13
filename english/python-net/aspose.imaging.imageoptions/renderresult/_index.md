@@ -7,19 +7,29 @@ url: /python-net/aspose.imaging.imageoptions/renderresult/
 
 Represents information with results of rendering
 
-**Namespace:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
+**Module:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
-**Full Class Name:** aspose.imaging.imageoptions.RenderResult
+**Full Name:** aspose.imaging.imageoptions.RenderResult
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 The RenderResult type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|RenderResult()|Initializes a new instance of the RenderResult class|
+| [RenderResult()](#RenderResult__0) | Initializes a new instance of the RenderResult class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|message|Gets or sets string message|
-|render_code|Gets or sets code of error|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| message | string | r/w | Gets or sets string message |
+| render_code | [RenderErrorCode](/imaging/python-net/aspose.imaging.imageoptions/rendererrorcode) | r/w | Gets or sets code of error |
+
+### RenderResult() {#RenderResult__0}
+
+
+```
+ RenderResult() 
+```
+
+Initializes a new instance of the RenderResult class
+

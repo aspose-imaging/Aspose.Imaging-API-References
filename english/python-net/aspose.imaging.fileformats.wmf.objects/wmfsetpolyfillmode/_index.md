@@ -1,25 +1,37 @@
 ---
 title: WmfSetPolyFillMode Class
 type: docs
-weight: 720
+weight: 750
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetpolyfillmode/
 ---
 
 The set poly fill mode.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
+**Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetPolyFillMode
+**Full Name:** aspose.imaging.fileformats.wmf.objects.WmfSetPolyFillMode
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** WmfObject
+
+**Aspose.Imaging Version:** 23.6
 
 The WmfSetPolyFillMode type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|WmfSetPolyFillMode()|Initializes a new instance of the WmfSetPolyFillMode class|
+| [WmfSetPolyFillMode()](#WmfSetPolyFillMode__0) | Initializes a new instance of the WmfSetPolyFillMode class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|poly_fill_mode|Gets or sets the poly fill mode.|
-|reserved|Gets or sets the reserved.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| poly_fill_mode | [WmfPolyFillMode](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfpolyfillmode/) | r/w | Gets or sets the poly fill mode. |
+| reserved | int | r/w | Gets or sets the reserved. |
+
+### WmfSetPolyFillMode() {#WmfSetPolyFillMode__0}
+
+
+```
+ WmfSetPolyFillMode() 
+```
+
+Initializes a new instance of the WmfSetPolyFillMode class
+

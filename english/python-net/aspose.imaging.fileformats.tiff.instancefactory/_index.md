@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.instancefactory/
 ---
 
 
-The namespace contains Tiff file format tag factory helper classes and interfaces.
+The module contains Tiff file format tag factory helper classes and interfaces.
 
 ## **Classes**
 |**Class**|**Description**|

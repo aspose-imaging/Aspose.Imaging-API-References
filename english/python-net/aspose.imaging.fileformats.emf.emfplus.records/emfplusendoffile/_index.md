@@ -7,21 +7,39 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusendoffile
 
 The EmfPlusEndOfFile record specifies the end of EMF+ data in the metafile.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
+**Module:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
-**Full Class Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusEndOfFile
+**Full Name:** aspose.imaging.fileformats.emf.emfplus.records.EmfPlusEndOfFile
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** EmfPlusControlRecordType
+
+**Aspose.Imaging Version:** 23.6
 
 The EmfPlusEndOfFile type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|EmfPlusEndOfFile(source)|Initializes a new instance of the EmfPlusEndOfFile class|
+| [EmfPlusEndOfFile(source)](#EmfPlusEndOfFile_source_0) | Initializes a new instance of the [EmfPlusEndOfFile](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusendoffile/) class. |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|type|  |
-|flags|Gets or sets a 16-bit unsigned integer that is not used. This field SHOULD be set to zero<br/>            and MUST be ignored upon receipt|
-|size|  |
-|data_size|  |
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| type | [EmfPlusRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusrecordtype/) | r | Gets a 16-bit unsigned integer that identifies the record type. |
+| flags | short | r/w | Gets or sets a 16-bit unsigned integer that is not used. This field SHOULD be set to zero<br/>            and MUST be ignored upon receipt |
+| size | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the 32-bit-aligned number of bytes<br/>            in the entire record, including the 12-byte record header and record-specific data. |
+| data_size | int | r/w | Gets or sets a 32-bit unsigned integer that MUST define the 32-bit–aligned number of<br/>            bytes of data in the RecordData field that follows. This number does not include the 12-byte record header. |
+
+### EmfPlusEndOfFile(source) {#EmfPlusEndOfFile_source_0}
+
+
+```
+ EmfPlusEndOfFile(source) 
+```
+
+Initializes a new instance of the [EmfPlusEndOfFile](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusendoffile/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| source | [EmfPlusRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord) | The source. |
+

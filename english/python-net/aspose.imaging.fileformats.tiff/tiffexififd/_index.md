@@ -1,26 +1,51 @@
 ---
 title: TiffExifIfd Class
 type: docs
-weight: 20
+weight: 150
 url: /python-net/aspose.imaging.fileformats.tiff/tiffexififd/
 ---
 
 The TIFF Exif image file directory class.
 
-**Namespace:** [aspose.imaging.fileformats.tiff](/imaging/python-net/aspose.imaging.fileformats.tiff/)
+**Module:** [aspose.imaging.fileformats.tiff](/imaging/python-net/aspose.imaging.fileformats.tiff/)
 
-**Full Class Name:** aspose.imaging.fileformats.tiff.TiffExifIfd
+**Full Name:** aspose.imaging.fileformats.tiff.TiffExifIfd
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 The TiffExifIfd type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|TiffExifIfd()|Initializes a new instance of the [TiffExifIfd](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffexififd/) class.|
-|TiffExifIfd(ifd_offset)|Initializes a new instance of the TiffExifIfd class|
+| [TiffExifIfd()](#TiffExifIfd__0) | Initializes a new instance of the [TiffExifIfd](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffexififd/) class. |
+| [TiffExifIfd(ifd_offset)](#TiffExifIfd_ifd_offset_1) | Initializes a new instance of the [TiffExifIfd](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffexififd/) class. |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|has_value|Gets a value indicating whether this instance has value.|
-|offset|Gets or sets the pointer to EXIF IFD.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| has_value | bool | r | Gets a value indicating whether this instance has value. |
+| offset | uint | r/w | Gets or sets the pointer to EXIF IFD. |
+
+### TiffExifIfd() {#TiffExifIfd__0}
+
+
+```
+ TiffExifIfd() 
+```
+
+Initializes a new instance of the [TiffExifIfd](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffexififd/) class.
+
+### TiffExifIfd(ifd_offset) {#TiffExifIfd_ifd_offset_1}
+
+
+```
+ TiffExifIfd(ifd_offset) 
+```
+
+Initializes a new instance of the [TiffExifIfd](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffexififd/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| ifd_offset | uint | A pointer to the Exif IFD. |
+

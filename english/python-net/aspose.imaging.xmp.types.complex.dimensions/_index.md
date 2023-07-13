@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.xmp.types.complex.dimensions/
 ---
 
 
-The namespace contains classes that represent the structure containing dimensions for a drawn object.
+The module contains classes that represent the structure containing dimensions for a drawn object.
 
 ## **Classes**
 |**Class**|**Description**|

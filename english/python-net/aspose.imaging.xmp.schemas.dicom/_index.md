@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.xmp.schemas.dicom/
 ---
 
 
-The namespace contains Dicom metadata related helper classes, constants and methods.
+The module contains Dicom metadata related helper classes, constants and methods.
 
 ## **Classes**
 |**Class**|**Description**|

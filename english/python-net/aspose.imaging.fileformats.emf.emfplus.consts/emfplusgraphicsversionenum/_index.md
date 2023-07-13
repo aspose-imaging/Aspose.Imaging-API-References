@@ -7,14 +7,14 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusgraphicsve
 
 The GraphicsVersion enumeration defines versions of operating system graphics that are used to create EMF+ metafiles.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Module:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusGraphicsVersionEnum
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|GRAPHICS_VERSION1|Specifies GDI+ version 1.0|
-|GRAPHICS_VERSION_1_1|Specifies GDI+ version 1.1|
+| GRAPHICS_VERSION1 | Specifies GDI+ version 1.0 |
+| GRAPHICS_VERSION_1_1 | Specifies GDI+ version 1.1 |

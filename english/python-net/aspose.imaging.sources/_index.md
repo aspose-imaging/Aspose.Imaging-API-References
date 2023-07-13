@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.sources/
 ---
 
 
-Namespace contains different stream sources which are suitable for input or output data flow.
+Module contains different stream sources which are suitable for input or output data flow.
 
 ## **Classes**
 |**Class**|**Description**|

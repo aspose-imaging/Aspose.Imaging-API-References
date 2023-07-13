@@ -7,14 +7,37 @@ url: /python-net/aspose.imaging.extensions/matrixextensions/
 
 Contains the [Matrix](/imaging/python-net/aspose.imaging/matrix/) class extensions.
 
-**Namespace:** [aspose.imaging.extensions](/imaging/python-net/aspose.imaging.extensions/)
+**Module:** [aspose.imaging.extensions](/imaging/python-net/aspose.imaging.extensions/)
 
-**Full Class Name:** aspose.imaging.extensions.MatrixExtensions
+**Full Name:** aspose.imaging.extensions.MatrixExtensions
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 The MatrixExtensions type exposes the following members:
 ## **Methods**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-|to_gdi_matrix(matrix)|Converts the [Matrix](/imaging/python-net/aspose.imaging/matrix/) to the .|
+| [to_gdi_matrix(matrix)](#to_gdi_matrix_matrix_0) | Converts the [Matrix](/imaging/python-net/aspose.imaging/matrix/) to the . |
+
+### to_gdi_matrix(matrix)  [static] {#to_gdi_matrix_matrix_0}
+
+
+```
+ to_gdi_matrix(matrix) 
+```
+
+Converts the [Matrix](/imaging/python-net/aspose.imaging/matrix/) to the .
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The [Matrix](/imaging/python-net/aspose.imaging/matrix/) to convert. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| System.Drawing.Drawing2D.Matrix | The converted . |
+
+

@@ -1,25 +1,37 @@
 ---
 title: WmfRecord Class
 type: docs
-weight: 510
+weight: 540
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfrecord/
 ---
 
 The Wmf Record
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
+**Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfRecord
+**Full Name:** aspose.imaging.fileformats.wmf.objects.WmfRecord
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** MetaObject
+
+**Aspose.Imaging Version:** 23.6
 
 The WmfRecord type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|WmfRecord()|Initializes a new instance of the WmfRecord class|
+| [WmfRecord()](#WmfRecord__0) | Initializes a new instance of the WmfRecord class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|size|Gets or sets the size.|
-|record_type|[record_type](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfrecord/) number (defined in WINDOWS.H)|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| size | long | r/w | Gets or sets the size. |
+| record_type | [WmfRecordType](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfrecordtype/) | r/w | [record_type](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfrecord/) number (defined in WINDOWS.H) |
+
+### WmfRecord() {#WmfRecord__0}
+
+
+```
+ WmfRecord() 
+```
+
+Initializes a new instance of the WmfRecord class
+

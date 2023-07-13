@@ -7,15 +7,15 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.pen/odpenstyle/
 
 The open document pen style
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.pen](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.pen/)
+**Module:** [aspose.imaging.fileformats.opendocument.objects.pen](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.pen/)
 
 **Full Name:** aspose.imaging.fileformats.opendocument.objects.pen.OdPenStyle
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|NONE|The pen style none|
-|SOLID|The pen style solid|
-|DASH|The pen style dash|
+| NONE | The pen style none |
+| SOLID | The pen style solid |
+| DASH | The pen style dash |

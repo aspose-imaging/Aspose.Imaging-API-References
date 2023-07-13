@@ -1,22 +1,56 @@
 ---
 title: IAdvancedBufferProcessor Class
 type: docs
-weight: 240
+weight: 5000
 url: /python-net/aspose.imaging/iadvancedbufferprocessor/
 ---
 
 The advanced buffer processor.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
+**Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
-**Full Class Name:** aspose.imaging.IAdvancedBufferProcessor
+**Full Name:** aspose.imaging.IAdvancedBufferProcessor
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** IBufferProcessor
+
+**Aspose.Imaging Version:** 23.6
 
 The IAdvancedBufferProcessor type exposes the following members:
 ## **Methods**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-|finish_row()|Finishes the row.|
-|finish_rows(rows_count)|Finishes the rows.|
-|process_buffer(buffer, buffer_length)|Processes the buffer.|
+| finish_row() | Finishes the row. |
+| [finish_rows(rows_count)](#finish_rows_rows_count_0) | Finishes the rows. |
+| [process_buffer(buffer, buffer_length)](#process_buffer_buffer_buffer_length_1) | Processes the buffer. |
+
+### finish_rows(rows_count) {#finish_rows_rows_count_0}
+
+
+```
+ finish_rows(rows_count) 
+```
+
+Finishes the rows.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rows_count | int | The rows count. |
+
+### process_buffer(buffer, buffer_length) {#process_buffer_buffer_buffer_length_1}
+
+
+```
+ process_buffer(buffer, buffer_length) 
+```
+
+Processes the buffer.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| buffer | byte | The buffer to process. |
+| buffer_length | int | The buffer length to process. |
+

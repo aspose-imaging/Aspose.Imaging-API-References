@@ -7,22 +7,50 @@ url: /python-net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteropt
 
 The Gaussian blur
 
-**Namespace:** [aspose.imaging.imagefilters.filteroptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/)
+**Module:** [aspose.imaging.imagefilters.filteroptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/)
 
-**Full Class Name:** aspose.imaging.imagefilters.filteroptions.GaussianBlurFilterOptions
+**Full Name:** aspose.imaging.imagefilters.filteroptions.GaussianBlurFilterOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** ConvolutionFilterOptions
+
+**Aspose.Imaging Version:** 23.6
 
 The GaussianBlurFilterOptions type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|GaussianBlurFilterOptions(radius, sigma)|Initializes a new instance of the GaussianBlurFilterOptions class|
-|GaussianBlurFilterOptions()|Initializes a new instance of the [GaussianBlurFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/) class.<br/>            With default settings.|
+| [GaussianBlurFilterOptions(radius, sigma)](#GaussianBlurFilterOptions_radius_sigma_0) | Initializes a new instance of the [GaussianBlurFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/) class. |
+| [GaussianBlurFilterOptions()](#GaussianBlurFilterOptions__1) | Initializes a new instance of the [GaussianBlurFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/) class.<br/>            With default settings. |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|factor|Gets or sets the factor.|
-|bias|Gets or sets the bias.|
-|radius|Gets or sets the radius.|
-|sigma|Gets or sets the sigma.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| factor | double | r/w | Gets or sets the factor. |
+| bias | int | r/w | Gets or sets the bias. |
+| radius | int | r/w | Gets or sets the radius. |
+| sigma | double | r/w | Gets or sets the sigma. |
+
+### GaussianBlurFilterOptions(radius, sigma) {#GaussianBlurFilterOptions_radius_sigma_0}
+
+
+```
+ GaussianBlurFilterOptions(radius, sigma) 
+```
+
+Initializes a new instance of the [GaussianBlurFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| radius | int | The radius. |
+| sigma | double | The sigma. |
+
+### GaussianBlurFilterOptions() {#GaussianBlurFilterOptions__1}
+
+
+```
+ GaussianBlurFilterOptions() 
+```
+
+Initializes a new instance of the [GaussianBlurFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/) class.<br/>            With default settings.
+

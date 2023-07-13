@@ -6,9 +6,9 @@ url: /python-net/aspose.imaging.fileformats.cdr.enum/
 ---
 
 
-The namespace handles Cdr file format processing.
+The module handles Cdr file format processing.
 
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[CdrFillType](/imaging/python-net/aspose.imaging.fileformats.cdr.enum/cdrfilltype/)|The cdr fill type|
+| [CdrFillType](/imaging/python-net/aspose.imaging.fileformats.cdr.enum/cdrfilltype/) | The cdr fill type |

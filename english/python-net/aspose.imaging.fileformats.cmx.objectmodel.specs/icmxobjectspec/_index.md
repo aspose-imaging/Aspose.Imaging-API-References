@@ -7,10 +7,11 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/icmxobjectspec
 
 Specification of graphics object
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.specs](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/)
+**Module:** [aspose.imaging.fileformats.cmx.objectmodel.specs](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/)
 
-**Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.specs.ICmxObjectSpec
+**Full Name:** aspose.imaging.fileformats.cmx.objectmodel.specs.ICmxObjectSpec
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 The ICmxObjectSpec type exposes the following members:
+

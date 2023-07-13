@@ -7,15 +7,15 @@ url: /python-net/aspose.imaging.fileformats.tiff.enums/tiffthresholds/
 
 Thresholding used on data.
 
-**Namespace:** [aspose.imaging.fileformats.tiff.enums](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/)
+**Module:** [aspose.imaging.fileformats.tiff.enums](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/)
 
 **Full Name:** aspose.imaging.fileformats.tiff.enums.TiffThresholds
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|NO_DITHERING|No dithering is performed.|
-|HALF_TONE|Dithered scan.|
-|ERROR_DIFFUSE|Usually Floyd-Steinberg.|
+| NO_DITHERING | No dithering is performed. |
+| HALF_TONE | Dithered scan. |
+| ERROR_DIFFUSE | Usually Floyd-Steinberg. |

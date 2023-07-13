@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.filemanagement/
 ---
 
 
-The namespace contains Tiff file format stream handling classes.
+The module contains Tiff file format stream handling classes.
 
 ## **Classes**
 |**Class**|**Description**|

@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.tga/
 ---
 
 
-The namespace handles Tga file format processing.
+The module handles Tga file format processing.
 
 ## **Classes**
 |**Class**|**Description**|

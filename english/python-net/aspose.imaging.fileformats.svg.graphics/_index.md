@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.svg.graphics/
 ---
 
 
-The namespace for drawing on Svg.
+The module for drawing on Svg.
 
 ## **Classes**
 |**Class**|**Description**|

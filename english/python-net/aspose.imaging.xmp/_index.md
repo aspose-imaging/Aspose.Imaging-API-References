@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.xmp/
 ---
 
 
-The namespace contains XMP related helper classes and methods.
+The module contains XMP related helper classes and methods.
 
 ## **Classes**
 |**Class**|**Description**|
@@ -27,4 +27,4 @@ The namespace contains XMP related helper classes and methods.
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[XmpArrayType](/imaging/python-net/aspose.imaging.xmp/xmparraytype/)|Represents array type in [XmpArray](/imaging/python-net/aspose.imaging.xmp/xmparray/).|
+| [XmpArrayType](/imaging/python-net/aspose.imaging.xmp/xmparraytype/) | Represents array type in [XmpArray](/imaging/python-net/aspose.imaging.xmp/xmparray/). |

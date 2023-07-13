@@ -7,17 +7,18 @@ url: /python-net/aspose.imaging.progressmanagement/progresseventhandlerinfo/
 
 This class represents information about image load/save/export operations progress,<br/>            that can be used in external application to show conversion progress to end user
 
-**Namespace:** [aspose.imaging.progressmanagement](/imaging/python-net/aspose.imaging.progressmanagement/)
+**Module:** [aspose.imaging.progressmanagement](/imaging/python-net/aspose.imaging.progressmanagement/)
 
-**Full Class Name:** aspose.imaging.progressmanagement.ProgressEventHandlerInfo
+**Full Name:** aspose.imaging.progressmanagement.ProgressEventHandlerInfo
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 The ProgressEventHandlerInfo type exposes the following members:
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|description|Gets the description of the event|
-|event_type|Gets the type of the event.|
-|max_value|Gets the upper progress value limit.|
-|value|Gets current progress value.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| description | string | r | Gets the description of the event |
+| event_type | [EventType](/imaging/python-net/aspose.imaging.progressmanagement/eventtype) | r | Gets the type of the event. |
+| max_value | int | r | Gets the upper progress value limit. |
+| value | int | r | Gets current progress value. |
+

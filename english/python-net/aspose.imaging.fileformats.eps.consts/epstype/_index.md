@@ -7,14 +7,14 @@ url: /python-net/aspose.imaging.fileformats.eps.consts/epstype/
 
 Subtypes of Encapsulated PostScript format
 
-**Namespace:** [aspose.imaging.fileformats.eps.consts](/imaging/python-net/aspose.imaging.fileformats.eps.consts/)
+**Module:** [aspose.imaging.fileformats.eps.consts](/imaging/python-net/aspose.imaging.fileformats.eps.consts/)
 
 **Full Name:** aspose.imaging.fileformats.eps.consts.EpsType
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|BINARY|EPS Binary|
-|INTERCHANGE|EPS Interchange|
+| BINARY | EPS Binary |
+| INTERCHANGE | EPS Interchange |

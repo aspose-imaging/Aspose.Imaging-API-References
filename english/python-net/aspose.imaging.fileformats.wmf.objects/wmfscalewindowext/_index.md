@@ -1,27 +1,39 @@
 ---
 title: WmfScaleWindowExt Class
 type: docs
-weight: 590
+weight: 620
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/
 ---
 
 The META_SCALEWINDOWEXT record scales the horizontal and vertical<br/>                extents of the output window that is defined in the playback device<br/>                context by using the ratios formed by specified multiplicands and<br/>                divisors.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
+**Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfScaleWindowExt
+**Full Name:** aspose.imaging.fileformats.wmf.objects.WmfScaleWindowExt
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** WmfObject
+
+**Aspose.Imaging Version:** 23.6
 
 The WmfScaleWindowExt type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|WmfScaleWindowExt()|Initializes a new instance of the WmfScaleWindowExt class|
+| [WmfScaleWindowExt()](#WmfScaleWindowExt__0) | Initializes a new instance of the WmfScaleWindowExt class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|y_denom|Gets or sets the y denom.|
-|y_num|Gets or sets the y num.|
-|x_denom|Gets or sets the x denom.|
-|x_num|Gets or sets the x number.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| y_denom | short | r/w | Gets or sets the y denom. |
+| y_num | short | r/w | Gets or sets the y num. |
+| x_denom | short | r/w | Gets or sets the x denom. |
+| x_num | short | r/w | Gets or sets the x number. |
+
+### WmfScaleWindowExt() {#WmfScaleWindowExt__0}
+
+
+```
+ WmfScaleWindowExt() 
+```
+
+Initializes a new instance of the WmfScaleWindowExt class
+

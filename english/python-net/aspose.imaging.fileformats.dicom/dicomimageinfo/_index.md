@@ -7,33 +7,34 @@ url: /python-net/aspose.imaging.fileformats.dicom/dicomimageinfo/
 
 Contains all meta-information from Dicom file header
 
-**Namespace:** [aspose.imaging.fileformats.dicom](/imaging/python-net/aspose.imaging.fileformats.dicom/)
+**Module:** [aspose.imaging.fileformats.dicom](/imaging/python-net/aspose.imaging.fileformats.dicom/)
 
-**Full Class Name:** aspose.imaging.fileformats.dicom.DicomImageInfo
+**Full Name:** aspose.imaging.fileformats.dicom.DicomImageInfo
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 The DicomImageInfo type exposes the following members:
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|dicom_header_info_by_bytes|Gets the dicom header information by bytes.|
-|planar_configuration|Gets the planar configuration.|
-|signed_image|Gets a value indicating whether "signedImage".|
-|dicom_info|Gets the header information of the DICOM file.|
-|samples_per_pixel|Gets a value of the "samplesPerPixel".|
-|bits_allocated|Gets a value of the "bitsAllocated".|
-|photo_interpretation|Gets a value of the "PhotoInterpretation".|
-|width|Gets the width.|
-|height|Gets the height.|
-|window_centre|Gets the window centre.|
-|window_width|Gets the width of the window.|
-|pixel_representation|Gets a value of the pixel "pixelRepresentation".|
-|rescale_intercept|Gets a value of the "rescaleIntercept".|
-|rescale_slope|Gets a value of the "rescaleSlope".|
-|number_of_frames|Gets the number of frames.|
-|is_little_endian|Gets a value indicating whether this instance is little endian.|
-|reds|Gets the array colors of the red|
-|greens|Gets the array colors of the green|
-|blues|Gets the array colors of the blue|
-|offset|Gets the offset.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| dicom_header_info_by_bytes | byte | r | Gets the dicom header information by bytes. |
+| planar_configuration | int | r | Gets the planar configuration. |
+| signed_image | bool | r | Gets a value indicating whether "signedImage". |
+| dicom_info | System.Collections.Generic.List<string> | r | Gets the header information of the DICOM file. |
+| samples_per_pixel | int | r | Gets a value of the "samplesPerPixel". |
+| bits_allocated | int | r | Gets a value of the "bitsAllocated". |
+| photo_interpretation | string | r | Gets a value of the "PhotoInterpretation". |
+| width | int | r | Gets the width. |
+| height | int | r | Gets the height. |
+| window_centre | double | r | Gets the window centre. |
+| window_width | double | r | Gets the width of the window. |
+| pixel_representation | int | r | Gets a value of the pixel "pixelRepresentation". |
+| rescale_intercept | double | r | Gets a value of the "rescaleIntercept". |
+| rescale_slope | double | r | Gets a value of the "rescaleSlope". |
+| number_of_frames | int | r | Gets the number of frames. |
+| is_little_endian | bool | r | Gets a value indicating whether this instance is little endian. |
+| reds | byte | r | Gets the array colors of the red |
+| greens | byte | r | Gets the array colors of the green |
+| blues | byte | r | Gets the array colors of the blue |
+| offset | int | r | Gets the offset. |
+

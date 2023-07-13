@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.jpeg/
 ---
 
 
-The namespace handles Jpeg file format processing.
+The module handles Jpeg file format processing.
 
 ## **Classes**
 |**Class**|**Description**|
@@ -17,8 +17,8 @@ The namespace handles Jpeg file format processing.
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[JfifDensityUnits](/imaging/python-net/aspose.imaging.fileformats.jpeg/jfifdensityunits/)|The jfif density units.|
-|[JpegCompressionColorMode](/imaging/python-net/aspose.imaging.fileformats.jpeg/jpegcompressioncolormode/)|Сolor mode for jpeg images.|
-|[JpegCompressionMode](/imaging/python-net/aspose.imaging.fileformats.jpeg/jpegcompressionmode/)|Compression mode for jpeg images.|
-|[JpegLsInterleaveMode](/imaging/python-net/aspose.imaging.fileformats.jpeg/jpeglsinterleavemode/)|Defines the interleave mode for multi-component (color) pixel data.|
-|[SampleRoundingMode](/imaging/python-net/aspose.imaging.fileformats.jpeg/sampleroundingmode/)|Defines a way in which an n-bit value is converted to an 8-bit value.|
+| [JfifDensityUnits](/imaging/python-net/aspose.imaging.fileformats.jpeg/jfifdensityunits/) | The jfif density units. |
+| [JpegCompressionColorMode](/imaging/python-net/aspose.imaging.fileformats.jpeg/jpegcompressioncolormode/) | Сolor mode for jpeg images. |
+| [JpegCompressionMode](/imaging/python-net/aspose.imaging.fileformats.jpeg/jpegcompressionmode/) | Compression mode for jpeg images. |
+| [JpegLsInterleaveMode](/imaging/python-net/aspose.imaging.fileformats.jpeg/jpeglsinterleavemode/) | Defines the interleave mode for multi-component (color) pixel data. |
+| [SampleRoundingMode](/imaging/python-net/aspose.imaging.fileformats.jpeg/sampleroundingmode/) | Defines a way in which an n-bit value is converted to an 8-bit value. |

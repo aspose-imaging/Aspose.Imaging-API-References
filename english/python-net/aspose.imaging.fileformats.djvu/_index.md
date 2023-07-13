@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.djvu/
 ---
 
 
-The namespace contains djvu classes
+The module contains djvu classes
 
 ## **Classes**
 |**Class**|**Description**|

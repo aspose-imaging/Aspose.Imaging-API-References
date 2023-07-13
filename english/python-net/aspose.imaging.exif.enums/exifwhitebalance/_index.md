@@ -7,14 +7,14 @@ url: /python-net/aspose.imaging.exif.enums/exifwhitebalance/
 
 exif white balance enum.
 
-**Namespace:** [aspose.imaging.exif.enums](/imaging/python-net/aspose.imaging.exif.enums/)
+**Module:** [aspose.imaging.exif.enums](/imaging/python-net/aspose.imaging.exif.enums/)
 
 **Full Name:** aspose.imaging.exif.enums.ExifWhiteBalance
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|AUTO|Auto white balance|
-|MANUAL|Manual  white balance|
+| AUTO | Auto white balance |
+| MANUAL | Manual  white balance |

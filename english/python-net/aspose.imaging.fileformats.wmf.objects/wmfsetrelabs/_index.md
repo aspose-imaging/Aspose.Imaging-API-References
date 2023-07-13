@@ -1,24 +1,36 @@
 ---
 title: WmfSetRelabs Class
 type: docs
-weight: 730
+weight: 760
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetrelabs/
 ---
 
 The META_SETRELABS record is reserved and not supported.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
+**Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetRelabs
+**Full Name:** aspose.imaging.fileformats.wmf.objects.WmfSetRelabs
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** WmfObject
+
+**Aspose.Imaging Version:** 23.6
 
 The WmfSetRelabs type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|WmfSetRelabs()|Initializes a new instance of the WmfSetRelabs class|
+| [WmfSetRelabs()](#WmfSetRelabs__0) | Initializes a new instance of the WmfSetRelabs class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|parameters|Gets or sets the parameter.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| parameters | short | r/w | Gets or sets the parameter. |
+
+### WmfSetRelabs() {#WmfSetRelabs__0}
+
+
+```
+ WmfSetRelabs() 
+```
+
+Initializes a new instance of the WmfSetRelabs class
+

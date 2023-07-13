@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpdm/
 ---
 
 
-The namespace contains XMP related helper classes, constants and methods used by the Adobe dynamic media group.
+The module contains XMP related helper classes, constants and methods used by the Adobe dynamic media group.
 
 ## **Classes**
 |**Class**|**Description**|
@@ -21,4 +21,4 @@ The namespace contains XMP related helper classes, constants and methods used by
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[ProjectType](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/projecttype/)|Represents project type in [XmpDynamicMediaPackage](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/).|
+| [ProjectType](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/projecttype/) | Represents project type in [XmpDynamicMediaPackage](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/xmpdynamicmediapackage/). |

@@ -1,24 +1,36 @@
 ---
 title: WmfSetViewportOrg Class
 type: docs
-weight: 810
+weight: 840
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetviewportorg/
 ---
 
 The META_SETVIEWPORTORG record defines the viewport origin in the<br/>                playback device context.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
+**Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetViewportOrg
+**Full Name:** aspose.imaging.fileformats.wmf.objects.WmfSetViewportOrg
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** WmfPointObject
+
+**Aspose.Imaging Version:** 23.6
 
 The WmfSetViewportOrg type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|WmfSetViewportOrg()|Initializes a new instance of the WmfSetViewportOrg class|
+| [WmfSetViewportOrg()](#WmfSetViewportOrg__0) | Initializes a new instance of the WmfSetViewportOrg class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|point|Gets or sets the point.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| point | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the point. |
+
+### WmfSetViewportOrg() {#WmfSetViewportOrg__0}
+
+
+```
+ WmfSetViewportOrg() 
+```
+
+Initializes a new instance of the WmfSetViewportOrg class
+

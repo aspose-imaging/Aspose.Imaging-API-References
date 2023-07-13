@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging/
 ---
 
 
-The namespace is the core for nested namespaces and the most basic objects used for Aspose.Imaging processing.
+The module is the core for nested modules and the most basic objects used for Aspose.Imaging processing.
 
 ## **Classes**
 |**Class**|**Description**|
@@ -102,46 +102,46 @@ The namespace is the core for nested namespaces and the most basic objects used 
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[AnimationDisposalMethods](/imaging/python-net/aspose.imaging/animationdisposalmethods/)|Indicates the way in which the graphic is to be treated after being displayed.|
-|[CacheType](/imaging/python-net/aspose.imaging/cachetype/)|Specifies the cache type to use.|
-|[CharacterSet](/imaging/python-net/aspose.imaging/characterset/)|Represents the character set used.|
-|[ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/)|Specifies which objects use color adjustment information.|
-|[ColorChannelFlag](/imaging/python-net/aspose.imaging/colorchannelflag/)|Specifies individual channels in the CMYK (cyan, magenta, yellow, black) color space. This enumeration is used by the SetOutputChannel methods.|
-|[ColorCompareMethod](/imaging/python-net/aspose.imaging/colorcomparemethod/)|Color comparison method to adjust to nearest neighbor|
-|[ColorMatrixFlag](/imaging/python-net/aspose.imaging/colormatrixflag/)|Specifies the types of images and colors that will be affected by the color and grayscale adjustment settings of an [ImageAttributes](/imaging/python-net/aspose.imaging/imageattributes/).|
-|[ColorQuantizationMethod](/imaging/python-net/aspose.imaging/colorquantizationmethod/)|Colors quantization  methods|
-|[CompositingQuality](/imaging/python-net/aspose.imaging/compositingquality/)|Specifies the quality level to use during compositing.|
-|[DashCap](/imaging/python-net/aspose.imaging/dashcap/)|Specifies the type of graphic shape to use on both ends of each dash in a dashed line.|
-|[DashStyle](/imaging/python-net/aspose.imaging/dashstyle/)|Specifies the style of dashed lines drawn with a [Pen](/imaging/python-net/aspose.imaging/pen/) object.|
-|[DataRecoveryMode](/imaging/python-net/aspose.imaging/datarecoverymode/)|The data recovery mode.|
-|[DitheringMethod](/imaging/python-net/aspose.imaging/ditheringmethod/)|Dithering method.|
-|[DitheringMethods](/imaging/python-net/aspose.imaging/ditheringmethods/)|The dithering methods used to control color conversion.|
-|[FileFormat](/imaging/python-net/aspose.imaging/fileformat/)|One of supported imaging file formats.|
-|[FillMode](/imaging/python-net/aspose.imaging/fillmode/)|Specifies how the interior of a closed path is filled.|
-|[FontStyle](/imaging/python-net/aspose.imaging/fontstyle/)|Specifies style information applied to text.|
-|[GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit/)|Specifies the unit of measure for the given data.|
-|[HatchStyle](/imaging/python-net/aspose.imaging/hatchstyle/)|Specifies the different patterns available for [HatchBrush](/imaging/python-net/aspose.imaging.brushes/hatchbrush/) objects.|
-|[HotkeyPrefix](/imaging/python-net/aspose.imaging/hotkeyprefix/)|Specifies the type of display for hot-key prefixes that relate to text.|
-|[ImageFilterType](/imaging/python-net/aspose.imaging/imagefiltertype/)|Image filters to use|
-|[InterpolationMode](/imaging/python-net/aspose.imaging/interpolationmode/)|The [InterpolationMode](/imaging/python-net/aspose.imaging/interpolationmode/) enumeration specifies the algorithm that is used when images are scaled or rotated.|
-|[KnownColor](/imaging/python-net/aspose.imaging/knowncolor/)|Specifies the known system colors.|
-|[LineCap](/imaging/python-net/aspose.imaging/linecap/)|Specifies the available cap styles with which a [Pen](/imaging/python-net/aspose.imaging/pen/) object can end a line.|
-|[LineJoin](/imaging/python-net/aspose.imaging/linejoin/)|Specifies how to join consecutive line or curve segments in a figure (subpath) contained in a [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) object.|
-|[MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/)|Specifies the order for matrix transform operations.|
-|[PaletteMiningMethod](/imaging/python-net/aspose.imaging/paletteminingmethod/)|The image palette mining method|
-|[PdfComplianceVersion](/imaging/python-net/aspose.imaging/pdfcomplianceversion/)|Specifies the PDF compliance level to output file.|
-|[PenAlignment](/imaging/python-net/aspose.imaging/penalignment/)|Specifies the alignment of a [Pen](/imaging/python-net/aspose.imaging/pen/) object in relation to the theoretical, zero-width line.|
-|[PenType](/imaging/python-net/aspose.imaging/pentype/)|Specifies the type of fill a [Pen](/imaging/python-net/aspose.imaging/pen/) object uses to fill lines.|
-|[PixelFormat](/imaging/python-net/aspose.imaging/pixelformat/)|The pixel data format actual meaning.|
-|[ResizeType](/imaging/python-net/aspose.imaging/resizetype/)|Specifies the resize type.|
-|[ResolutionUnit](/imaging/python-net/aspose.imaging/resolutionunit/)|Resolution unit enum.|
-|[RotateFlipType](/imaging/python-net/aspose.imaging/rotatefliptype/)|Specifies how much an image is rotated and the axis used to flip the image.|
-|[SeekOrigin](/imaging/python-net/aspose.imaging/seekorigin/)|Provides the fields that represent reference points in [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer/) for seeking.|
-|[SmoothingMode](/imaging/python-net/aspose.imaging/smoothingmode/)|Specifies whether smoothing (antialiasing) is applied to lines and curves and the edges of filled areas.|
-|[StringAlignment](/imaging/python-net/aspose.imaging/stringalignment/)|Specifies the alignment of a text string relative to its layout rectangle.|
-|[StringDigitSubstitute](/imaging/python-net/aspose.imaging/stringdigitsubstitute/)|The enumeration specifies how to substitute digits in a string according to a user's locale or language.|
-|[StringFormatFlags](/imaging/python-net/aspose.imaging/stringformatflags/)|Specifies the display and layout information for text strings.|
-|[StringTrimming](/imaging/python-net/aspose.imaging/stringtrimming/)|Specifies how to trim characters from a string that does not completely fit into a layout shape.|
-|[TextRenderingHint](/imaging/python-net/aspose.imaging/textrenderinghint/)|Specifies the quality of text rendering.|
-|[WarpMode](/imaging/python-net/aspose.imaging/warpmode/)|Specifies the type of warp transformation applied.|
-|[WrapMode](/imaging/python-net/aspose.imaging/wrapmode/)|Specifies how a texture or gradient is tiled when it is smaller than the area being filled.|
+| [AnimationDisposalMethods](/imaging/python-net/aspose.imaging/animationdisposalmethods/) | Indicates the way in which the graphic is to be treated after being displayed. |
+| [CacheType](/imaging/python-net/aspose.imaging/cachetype/) | Specifies the cache type to use. |
+| [CharacterSet](/imaging/python-net/aspose.imaging/characterset/) | Represents the character set used. |
+| [ColorAdjustType](/imaging/python-net/aspose.imaging/coloradjusttype/) | Specifies which objects use color adjustment information. |
+| [ColorChannelFlag](/imaging/python-net/aspose.imaging/colorchannelflag/) | Specifies individual channels in the CMYK (cyan, magenta, yellow, black) color space. This enumeration is used by the SetOutputChannel methods. |
+| [ColorCompareMethod](/imaging/python-net/aspose.imaging/colorcomparemethod/) | Color comparison method to adjust to nearest neighbor |
+| [ColorMatrixFlag](/imaging/python-net/aspose.imaging/colormatrixflag/) | Specifies the types of images and colors that will be affected by the color and grayscale adjustment settings of an [ImageAttributes](/imaging/python-net/aspose.imaging/imageattributes/). |
+| [ColorQuantizationMethod](/imaging/python-net/aspose.imaging/colorquantizationmethod/) | Colors quantization  methods |
+| [CompositingQuality](/imaging/python-net/aspose.imaging/compositingquality/) | Specifies the quality level to use during compositing. |
+| [DashCap](/imaging/python-net/aspose.imaging/dashcap/) | Specifies the type of graphic shape to use on both ends of each dash in a dashed line. |
+| [DashStyle](/imaging/python-net/aspose.imaging/dashstyle/) | Specifies the style of dashed lines drawn with a [Pen](/imaging/python-net/aspose.imaging/pen/) object. |
+| [DataRecoveryMode](/imaging/python-net/aspose.imaging/datarecoverymode/) | The data recovery mode. |
+| [DitheringMethod](/imaging/python-net/aspose.imaging/ditheringmethod/) | Dithering method. |
+| [DitheringMethods](/imaging/python-net/aspose.imaging/ditheringmethods/) | The dithering methods used to control color conversion. |
+| [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) | One of supported imaging file formats. |
+| [FillMode](/imaging/python-net/aspose.imaging/fillmode/) | Specifies how the interior of a closed path is filled. |
+| [FontStyle](/imaging/python-net/aspose.imaging/fontstyle/) | Specifies style information applied to text. |
+| [GraphicsUnit](/imaging/python-net/aspose.imaging/graphicsunit/) | Specifies the unit of measure for the given data. |
+| [HatchStyle](/imaging/python-net/aspose.imaging/hatchstyle/) | Specifies the different patterns available for [HatchBrush](/imaging/python-net/aspose.imaging.brushes/hatchbrush/) objects. |
+| [HotkeyPrefix](/imaging/python-net/aspose.imaging/hotkeyprefix/) | Specifies the type of display for hot-key prefixes that relate to text. |
+| [ImageFilterType](/imaging/python-net/aspose.imaging/imagefiltertype/) | Image filters to use |
+| [InterpolationMode](/imaging/python-net/aspose.imaging/interpolationmode/) | The [InterpolationMode](/imaging/python-net/aspose.imaging/interpolationmode/) enumeration specifies the algorithm that is used when images are scaled or rotated. |
+| [KnownColor](/imaging/python-net/aspose.imaging/knowncolor/) | Specifies the known system colors. |
+| [LineCap](/imaging/python-net/aspose.imaging/linecap/) | Specifies the available cap styles with which a [Pen](/imaging/python-net/aspose.imaging/pen/) object can end a line. |
+| [LineJoin](/imaging/python-net/aspose.imaging/linejoin/) | Specifies how to join consecutive line or curve segments in a figure (subpath) contained in a [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) object. |
+| [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder/) | Specifies the order for matrix transform operations. |
+| [PaletteMiningMethod](/imaging/python-net/aspose.imaging/paletteminingmethod/) | The image palette mining method |
+| [PdfComplianceVersion](/imaging/python-net/aspose.imaging/pdfcomplianceversion/) | Specifies the PDF compliance level to output file. |
+| [PenAlignment](/imaging/python-net/aspose.imaging/penalignment/) | Specifies the alignment of a [Pen](/imaging/python-net/aspose.imaging/pen/) object in relation to the theoretical, zero-width line. |
+| [PenType](/imaging/python-net/aspose.imaging/pentype/) | Specifies the type of fill a [Pen](/imaging/python-net/aspose.imaging/pen/) object uses to fill lines. |
+| [PixelFormat](/imaging/python-net/aspose.imaging/pixelformat/) | The pixel data format actual meaning. |
+| [ResizeType](/imaging/python-net/aspose.imaging/resizetype/) | Specifies the resize type. |
+| [ResolutionUnit](/imaging/python-net/aspose.imaging/resolutionunit/) | Resolution unit enum. |
+| [RotateFlipType](/imaging/python-net/aspose.imaging/rotatefliptype/) | Specifies how much an image is rotated and the axis used to flip the image. |
+| [SeekOrigin](/imaging/python-net/aspose.imaging/seekorigin/) | Provides the fields that represent reference points in [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer/) for seeking. |
+| [SmoothingMode](/imaging/python-net/aspose.imaging/smoothingmode/) | Specifies whether smoothing (antialiasing) is applied to lines and curves and the edges of filled areas. |
+| [StringAlignment](/imaging/python-net/aspose.imaging/stringalignment/) | Specifies the alignment of a text string relative to its layout rectangle. |
+| [StringDigitSubstitute](/imaging/python-net/aspose.imaging/stringdigitsubstitute/) | The enumeration specifies how to substitute digits in a string according to a user's locale or language. |
+| [StringFormatFlags](/imaging/python-net/aspose.imaging/stringformatflags/) | Specifies the display and layout information for text strings. |
+| [StringTrimming](/imaging/python-net/aspose.imaging/stringtrimming/) | Specifies how to trim characters from a string that does not completely fit into a layout shape. |
+| [TextRenderingHint](/imaging/python-net/aspose.imaging/textrenderinghint/) | Specifies the quality of text rendering. |
+| [WarpMode](/imaging/python-net/aspose.imaging/warpmode/) | Specifies the type of warp transformation applied. |
+| [WrapMode](/imaging/python-net/aspose.imaging/wrapmode/) | Specifies how a texture or gradient is tiled when it is smaller than the area being filled. |

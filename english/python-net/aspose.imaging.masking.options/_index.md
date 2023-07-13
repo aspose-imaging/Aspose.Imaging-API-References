@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.masking.options/
 ---
 
 
-The namespace handles ImageMasking.Options processing.
+The module handles ImageMasking.Options processing.
 
 ## **Classes**
 |**Class**|**Description**|
@@ -21,5 +21,5 @@ The namespace handles ImageMasking.Options processing.
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[DetectedObjectType](/imaging/python-net/aspose.imaging.masking.options/detectedobjecttype/)|The detected object types enumeration.|
-|[SegmentationMethod](/imaging/python-net/aspose.imaging.masking.options/segmentationmethod/)|Segmentation methods types|
+| [DetectedObjectType](/imaging/python-net/aspose.imaging.masking.options/detectedobjecttype/) | The detected object types enumeration. |
+| [SegmentationMethod](/imaging/python-net/aspose.imaging.masking.options/segmentationmethod/) | Segmentation methods types |

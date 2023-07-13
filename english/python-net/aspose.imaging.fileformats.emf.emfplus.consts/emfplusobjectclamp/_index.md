@@ -7,14 +7,14 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusobjectclam
 
 EmfPlusObjectClamp specifies the object clamping behavior. It<br/>            is not used until this object is applied to an image being drawn.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Module:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusObjectClamp
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|RECT_CLAMP|The rectangle clamp|
-|BITMAP_CLAMP|The bitmap clamp|
+| RECT_CLAMP | The rectangle clamp |
+| BITMAP_CLAMP | The bitmap clamp |

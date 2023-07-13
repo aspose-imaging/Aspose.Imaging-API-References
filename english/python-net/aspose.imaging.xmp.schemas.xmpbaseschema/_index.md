@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpbaseschema/
 ---
 
 
-The namespace contains the XMP Basic Schema related helper classes, constants and methods that provide basic descriptive information.
+The module contains the XMP Basic Schema related helper classes, constants and methods that provide basic descriptive information.
 
 ## **Classes**
 |**Class**|**Description**|

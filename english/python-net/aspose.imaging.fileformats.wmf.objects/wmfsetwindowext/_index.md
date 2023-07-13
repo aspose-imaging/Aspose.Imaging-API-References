@@ -1,24 +1,36 @@
 ---
 title: WmfSetWindowExt Class
 type: docs
-weight: 820
+weight: 850
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetwindowext/
 ---
 
 The set window object.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
+**Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfSetWindowExt
+**Full Name:** aspose.imaging.fileformats.wmf.objects.WmfSetWindowExt
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** WmfPointObject
+
+**Aspose.Imaging Version:** 23.6
 
 The WmfSetWindowExt type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|WmfSetWindowExt()|Initializes a new instance of the WmfSetWindowExt class|
+| [WmfSetWindowExt()](#WmfSetWindowExt__0) | Initializes a new instance of the WmfSetWindowExt class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|point|Gets or sets the point.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| point | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the point. |
+
+### WmfSetWindowExt() {#WmfSetWindowExt__0}
+
+
+```
+ WmfSetWindowExt() 
+```
+
+Initializes a new instance of the WmfSetWindowExt class
+

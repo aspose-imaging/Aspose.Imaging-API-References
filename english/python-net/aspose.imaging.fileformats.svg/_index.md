@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.svg/
 ---
 
 
-The namespace handles SVG file format processing.
+The module handles SVG file format processing.
 
 ## **Classes**
 |**Class**|**Description**|
@@ -18,6 +18,6 @@ The namespace handles SVG file format processing.
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[FontStoreType](/imaging/python-net/aspose.imaging.fileformats.svg/fontstoretype/)|The font store type|
-|[SvgColorMode](/imaging/python-net/aspose.imaging.fileformats.svg/svgcolormode/)|Сolor mode for SVG images.|
-|[SvgImageType](/imaging/python-net/aspose.imaging.fileformats.svg/svgimagetype/)|Represents SVG image type.|
+| [FontStoreType](/imaging/python-net/aspose.imaging.fileformats.svg/fontstoretype/) | The font store type |
+| [SvgColorMode](/imaging/python-net/aspose.imaging.fileformats.svg/svgcolormode/) | Сolor mode for SVG images. |
+| [SvgImageType](/imaging/python-net/aspose.imaging.fileformats.svg/svgimagetype/) | Represents SVG image type. |

@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.gif/
 ---
 
 
-The namespace handles Gif file format processing.
+The module handles Gif file format processing.
 
 ## **Classes**
 |**Class**|**Description**|
@@ -19,4 +19,4 @@ The namespace handles Gif file format processing.
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[DisposalMethod](/imaging/python-net/aspose.imaging.fileformats.gif/disposalmethod/)|Indicates the way in which the graphic is to be treated after being displayed.|
+| [DisposalMethod](/imaging/python-net/aspose.imaging.fileformats.gif/disposalmethod/) | Indicates the way in which the graphic is to be treated after being displayed. |

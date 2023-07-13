@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.asynctask/
 ---
 
 
-The namespace handles AsyncTask processing.
+The module handles AsyncTask processing.
 
 ## **Classes**
 |**Class**|**Description**|

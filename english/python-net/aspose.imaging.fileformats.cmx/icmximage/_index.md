@@ -1,23 +1,26 @@
 ---
 title: ICmxImage Class
 type: docs
-weight: 30
+weight: 260
 url: /python-net/aspose.imaging.fileformats.cmx/icmximage/
 ---
 
 The CMX image interface
 
-**Namespace:** [aspose.imaging.fileformats.cmx](/imaging/python-net/aspose.imaging.fileformats.cmx/)
+**Module:** [aspose.imaging.fileformats.cmx](/imaging/python-net/aspose.imaging.fileformats.cmx/)
 
-**Full Class Name:** aspose.imaging.fileformats.cmx.ICmxImage
+**Full Name:** aspose.imaging.fileformats.cmx.ICmxImage
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** IObjectWithSizeF
+
+**Aspose.Imaging Version:** 23.6
 
 The ICmxImage type exposes the following members:
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|cmx_page|Gets the CMX page.|
-|size_f|Gets the object size, in inches.|
-|width_f|Gets the object width, in inches.|
-|height_f|Gets the object height, in inches.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| cmx_page | [CmxPage](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxpage/) | r | Gets the CMX page. |
+| size_f | [SizeF](/imaging/python-net/aspose.imaging/sizef) | r | Gets the object size, in inches. |
+| width_f | float | r | Gets the object width, in inches. |
+| height_f | float | r | Gets the object height, in inches. |
+

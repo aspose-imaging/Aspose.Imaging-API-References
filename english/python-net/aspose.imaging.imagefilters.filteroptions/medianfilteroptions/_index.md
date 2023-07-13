@@ -7,18 +7,36 @@ url: /python-net/aspose.imaging.imagefilters.filteroptions/medianfilteroptions/
 
 Median filter
 
-**Namespace:** [aspose.imaging.imagefilters.filteroptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/)
+**Module:** [aspose.imaging.imagefilters.filteroptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/)
 
-**Full Class Name:** aspose.imaging.imagefilters.filteroptions.MedianFilterOptions
+**Full Name:** aspose.imaging.imagefilters.filteroptions.MedianFilterOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** FilterOptionsBase
+
+**Aspose.Imaging Version:** 23.6
 
 The MedianFilterOptions type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|MedianFilterOptions(size)|Initializes a new instance of the MedianFilterOptions class|
+| [MedianFilterOptions(size)](#MedianFilterOptions_size_0) | Initializes a new instance of the [MedianFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/medianfilteroptions/) class. |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|size|Gets or sets the size.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| size | int | r/w | Gets or sets the size. |
+
+### MedianFilterOptions(size) {#MedianFilterOptions_size_0}
+
+
+```
+ MedianFilterOptions(size) 
+```
+
+Initializes a new instance of the [MedianFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/medianfilteroptions/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| size | int | The size of filter rectangle. |
+

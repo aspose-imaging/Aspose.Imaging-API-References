@@ -7,14 +7,14 @@ url: /python-net/aspose.imaging.masking.options/detectedobjecttype/
 
 The detected object types enumeration.
 
-**Namespace:** [aspose.imaging.masking.options](/imaging/python-net/aspose.imaging.masking.options/)
+**Module:** [aspose.imaging.masking.options](/imaging/python-net/aspose.imaging.masking.options/)
 
 **Full Name:** aspose.imaging.masking.options.DetectedObjectType
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|HUMAN|The human object type.|
-|OTHER|Other object type.|
+| HUMAN | The human object type. |
+| OTHER | Other object type. |

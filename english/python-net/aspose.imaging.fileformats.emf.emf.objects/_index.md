@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.objects/
 ---
 
 
-The namespace contains types [MS-EMF]: Enhanced Metafile Format. 2.2 EMF Objects
+The module contains types [MS-EMF]: Enhanced Metafile Format. 2.2 EMF Objects
 
 ## **Classes**
 |**Class**|**Description**|

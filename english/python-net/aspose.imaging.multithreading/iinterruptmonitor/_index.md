@@ -7,18 +7,19 @@ url: /python-net/aspose.imaging.multithreading/iinterruptmonitor/
 
 Represents information about interruption.
 
-**Namespace:** [aspose.imaging.multithreading](/imaging/python-net/aspose.imaging.multithreading/)
+**Module:** [aspose.imaging.multithreading](/imaging/python-net/aspose.imaging.multithreading/)
 
-**Full Class Name:** aspose.imaging.multithreading.IInterruptMonitor
+**Full Name:** aspose.imaging.multithreading.IInterruptMonitor
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 The IInterruptMonitor type exposes the following members:
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|is_interrupted|Gets the value indicating whether operations should be interrupted.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| is_interrupted | bool | r | Gets the value indicating whether operations should be interrupted. |
 ## **Methods**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-|interrupt()|Sends a request to interrupt operations.|
+| interrupt() | Sends a request to interrupt operations. |
+

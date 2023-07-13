@@ -7,23 +7,41 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odimage
 
 The open document image
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
+**Module:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
-**Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdImageObject
+**Full Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdImageObject
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** OdGraphicObject
+
+**Aspose.Imaging Version:** 23.6
 
 The OdImageObject type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|OdImageObject(parent)|Initializes a new instance of the OdImageObject class|
+| [OdImageObject(parent)](#OdImageObject_parent_0) | Initializes a new instance of the [OdImageObject](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odimageobject/) class. |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|parent|  |
-|items|  |
-|absolute_coordinates|Gets or sets a value indicating whether [absolute coordinates].|
-|rectangle|Gets or sets the rectangle.|
-|image_link|Gets or sets the image link.|
-|bitmap|Gets or sets the bitmap.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
+| items | System.Collections.Generic.List<OdObject> | r | Gets the items. |
+| absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
+| rectangle | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets the rectangle. |
+| image_link | string | r/w | Gets or sets the image link. |
+| bitmap | byte | r/w | Gets or sets the bitmap. |
+
+### OdImageObject(parent) {#OdImageObject_parent_0}
+
+
+```
+ OdImageObject(parent) 
+```
+
+Initializes a new instance of the [OdImageObject](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odimageobject/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | The parent. |
+

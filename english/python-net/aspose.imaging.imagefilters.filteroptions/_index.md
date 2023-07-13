@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.imagefilters.filteroptions/
 ---
 
 
-The namespace handles Filter options.
+The module handles Filter options.
 
 ## **Classes**
 |**Class**|**Description**|

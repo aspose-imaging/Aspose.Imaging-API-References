@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/
 ---
 
 
-The namespace contains types [MS-EMFPLUS]: Enhanced Metafile Format Plus Extensions 2.3 EMF+ Records
+The module contains types [MS-EMFPLUS]: Enhanced Metafile Format Plus Extensions 2.3 EMF+ Records
 
 ## **Classes**
 |**Class**|**Description**|

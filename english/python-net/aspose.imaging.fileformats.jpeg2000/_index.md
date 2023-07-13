@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.jpeg2000/
 ---
 
 
-The namespace handles Jpeg2000 file format processing.
+The module handles Jpeg2000 file format processing.
 
 ## **Classes**
 |**Class**|**Description**|
@@ -15,4 +15,4 @@ The namespace handles Jpeg2000 file format processing.
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[Jpeg2000Codec](/imaging/python-net/aspose.imaging.fileformats.jpeg2000/jpeg2000codec/)|Represents JPEG2000 image type|
+| [Jpeg2000Codec](/imaging/python-net/aspose.imaging.fileformats.jpeg2000/jpeg2000codec/) | Represents JPEG2000 image type |

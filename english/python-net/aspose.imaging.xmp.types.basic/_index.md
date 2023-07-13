@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.xmp.types.basic/
 ---
 
 
-The namespace contains classes that represent the basic type values of XMP properties.
+The module contains classes that represent the basic type values of XMP properties.
 
 ## **Classes**
 |**Class**|**Description**|

@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.xmp.types.complex.colorant/
 ---
 
 
-The namespace contains classes that represent the structures containing the characteristics of a colorant (swatch) used in a document.
+The module contains classes that represent the structures containing the characteristics of a colorant (swatch) used in a document.
 
 ## **Classes**
 |**Class**|**Description**|
@@ -18,5 +18,5 @@ The namespace contains classes that represent the structures containing the char
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode/)|Represents color mode.|
-|[ColorType](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colortype/)|Type of color.|
+| [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode/) | Represents color mode. |
+| [ColorType](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colortype/) | Type of color. |

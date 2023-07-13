@@ -7,19 +7,31 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscharacter
 
 EmfPlusCharacterRange description
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Module:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusCharacterRange
+**Full Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusCharacterRange
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** EmfPlusStructureObjectType
+
+**Aspose.Imaging Version:** 23.6
 
 The EmfPlusCharacterRange type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|EmfPlusCharacterRange()|Initializes a new instance of the EmfPlusCharacterRange class|
+| [EmfPlusCharacterRange()](#EmfPlusCharacterRange__0) | Initializes a new instance of the EmfPlusCharacterRange class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|first|Gets or sets a 32-bit signed integer that<br/>            specifies the first position of this range.|
-|length|Gets or sets a 32-bit signed integer that specifies<br/>            the number of positions in this range|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| first | int | r/w | Gets or sets a 32-bit signed integer that<br/>            specifies the first position of this range. |
+| length | int | r/w | Gets or sets a 32-bit signed integer that specifies<br/>            the number of positions in this range |
+
+### EmfPlusCharacterRange() {#EmfPlusCharacterRange__0}
+
+
+```
+ EmfPlusCharacterRange() 
+```
+
+Initializes a new instance of the EmfPlusCharacterRange class
+

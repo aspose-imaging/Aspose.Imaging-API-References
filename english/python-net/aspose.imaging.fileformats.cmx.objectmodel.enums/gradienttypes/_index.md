@@ -7,16 +7,16 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/gradienttypes/
 
 Gradient fill types
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.enums](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/)
+**Module:** [aspose.imaging.fileformats.cmx.objectmodel.enums](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/)
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.enums.GradientTypes
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|LINEAR|Linear fountain fill. <br/>            Apply a fill that gradually changes color along a linear path.|
-|ELLIPTICAL|Elliptical fountain fill. <br/>            Apply a fill that gradually changes color in concrete ellipses from the center outwards.|
-|CONICAL|Conical fountain fill. <br/>            Apply a fill that gradually changes color in a conical shape.|
-|RECTANGULAR|Rectangular fountain fill. <br/>            Apply a fill that gradually changes color in concrete rectangles from the center outwards.|
+| LINEAR | Linear fountain fill. <br/>            Apply a fill that gradually changes color along a linear path. |
+| ELLIPTICAL | Elliptical fountain fill. <br/>            Apply a fill that gradually changes color in concrete ellipses from the center outwards. |
+| CONICAL | Conical fountain fill. <br/>            Apply a fill that gradually changes color in a conical shape. |
+| RECTANGULAR | Rectangular fountain fill. <br/>            Apply a fill that gradually changes color in concrete rectangles from the center outwards. |

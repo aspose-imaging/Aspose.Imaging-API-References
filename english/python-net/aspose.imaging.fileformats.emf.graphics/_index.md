@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.emf.graphics/
 ---
 
 
-The namespace contains Emf/Emf+ graphics.
+The module contains Emf/Emf+ graphics.
 
 ## **Classes**
 |**Class**|**Description**|

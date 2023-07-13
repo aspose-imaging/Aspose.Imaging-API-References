@@ -7,14 +7,14 @@ url: /python-net/aspose.imaging.fileformats.wmf.consts/wmfpolyfillmode/
 
 The PolyFillMode Enumeration specifies the method used for filling a<br/>                polygon.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/)
+**Module:** [aspose.imaging.fileformats.wmf.consts](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.wmf.consts.WmfPolyFillMode
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|ALTERNATE|Selects alternate mode (fills the area between odd-numbered and even-numbered polygon sides on each scan line).|
-|WINDING|Selects winding mode (fills any region with a nonzero winding value)|
+| ALTERNATE | Selects alternate mode (fills the area between odd-numbered and even-numbered polygon sides on each scan line). |
+| WINDING | Selects winding mode (fills any region with a nonzero winding value) |

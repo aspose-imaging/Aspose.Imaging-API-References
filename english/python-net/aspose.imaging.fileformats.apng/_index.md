@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.apng/
 ---
 
 
-The namespace handles Apng file format processing.
+The module handles Apng file format processing.
 
 ## **Classes**
 |**Class**|**Description**|

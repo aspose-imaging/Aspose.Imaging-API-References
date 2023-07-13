@@ -1,26 +1,38 @@
 ---
 title: WmfPie Class
 type: docs
-weight: 440
+weight: 470
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfpie/
 ---
 
 The META_PIE record draws a pie-shaped wedge bounded by the intersection<br/>                of an ellipse and two radials. The pie is outlined by using the pen and<br/>                filled by using the brush that are defined in the playback device<br/>                context.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
+**Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfPie
+**Full Name:** aspose.imaging.fileformats.wmf.objects.WmfPie
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** WmfRectangle
+
+**Aspose.Imaging Version:** 23.6
 
 The WmfPie type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|WmfPie()|Initializes a new instance of the WmfPie class|
+| [WmfPie()](#WmfPie__0) | Initializes a new instance of the WmfPie class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|rectangle|Gets or sets the rectangle.|
-|radial2|Gets or sets the radial2.|
-|radial1|Gets or sets the radial1.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets the rectangle. |
+| radial2 | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the radial2. |
+| radial1 | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the radial1. |
+
+### WmfPie() {#WmfPie__0}
+
+
+```
+ WmfPie() 
+```
+
+Initializes a new instance of the WmfPie class
+

@@ -5,16 +5,16 @@ weight: 80
 url: /python-net/aspose.imaging.fileformats.tiff.enums/tifffillorders/
 ---
 
-Data order within a byte.
+Data order within a byte.<br /><br/>              Possible values for FILLORDER tag.
 
-**Namespace:** [aspose.imaging.fileformats.tiff.enums](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/)
+**Module:** [aspose.imaging.fileformats.tiff.enums](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/)
 
 **Full Name:** aspose.imaging.fileformats.tiff.enums.TiffFillOrders
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|MSB_2_LSB|Most significant -> least.|
-|LSB_2_MSB|Least significant -> most.|
+| MSB_2_LSB | Most significant -&gt; least. |
+| LSB_2_MSB | Least significant -&gt; most. |

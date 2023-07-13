@@ -7,14 +7,14 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.consts/emfpolygonfillmode/
 
 The PolygonFillMode enumeration defines values that specify how to calculate the region of a polygon that is to be filled.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
+**Module:** [aspose.imaging.fileformats.emf.emf.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emf.consts.EmfPolygonFillMode
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|ALTERNATE|Selects alternate mode (fills the area between odd-numbered and even-numbered polygon sides on each scan line).|
-|WINDING|Selects winding mode (fills any region with a nonzero winding value).|
+| ALTERNATE | Selects alternate mode (fills the area between odd-numbered and even-numbered polygon sides on each scan line). |
+| WINDING | Selects winding mode (fills any region with a nonzero winding value). |

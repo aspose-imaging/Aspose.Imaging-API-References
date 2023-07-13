@@ -1,23 +1,24 @@
 ---
 title: IObjectWithBounds Class
 type: docs
-weight: 400
+weight: 5310
 url: /python-net/aspose.imaging/iobjectwithbounds/
 ---
 
 Represents an object with bounds.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
+**Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
-**Full Class Name:** aspose.imaging.IObjectWithBounds
+**Full Name:** aspose.imaging.IObjectWithBounds
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 The IObjectWithBounds type exposes the following members:
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|size|Gets the object size.|
-|bounds|Gets the object bounds.|
-|width|Gets the object width.|
-|height|Gets the object height.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| size | [Size](/imaging/python-net/aspose.imaging/size) | r | Gets the object size. |
+| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r | Gets the object bounds. |
+| width | int | r | Gets the object width. |
+| height | int | r | Gets the object height. |
+

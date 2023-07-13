@@ -7,19 +7,31 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfcreatepenindirect/
 
 The create pen in direct
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
+**Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfCreatePenInDirect
+**Full Name:** aspose.imaging.fileformats.wmf.objects.WmfCreatePenInDirect
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** WmfGraphicObject
+
+**Aspose.Imaging Version:** 23.6
 
 The WmfCreatePenInDirect type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|WmfCreatePenInDirect()|WMFs the record.|
+| [WmfCreatePenInDirect()](#WmfCreatePenInDirect__0) | WMFs the record. |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|index|Gets or sets the index.|
-|log_pen|Gets or sets the log pen.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| index | int | r/w | Gets or sets the index. |
+| log_pen | [EmfLogPen](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogpen/) | r/w | Gets or sets the log pen. |
+
+### WmfCreatePenInDirect() {#WmfCreatePenInDirect__0}
+
+
+```
+ WmfCreatePenInDirect() 
+```
+
+WMFs the record.
+

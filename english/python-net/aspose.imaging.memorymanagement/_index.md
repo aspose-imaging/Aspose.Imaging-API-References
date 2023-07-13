@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.memorymanagement/
 ---
 
 
-The namespace contains memory management routines.
+The module contains memory management routines.
 
 ## **Classes**
 |**Class**|**Description**|

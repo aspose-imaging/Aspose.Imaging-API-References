@@ -7,22 +7,34 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrvectorpattern/
 
 The cdr vector pattern
 
-**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
+**Module:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrVectorPattern
+**Full Name:** aspose.imaging.fileformats.cdr.objects.CdrVectorPattern
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** CdrDictionaryItem
+
+**Aspose.Imaging Version:** 23.6
 
 The CdrVectorPattern type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|CdrVectorPattern()|Initializes a new instance of the CdrVectorPattern class|
+| [CdrVectorPattern()](#CdrVectorPattern__0) | Initializes a new instance of the CdrVectorPattern class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|disposed|  |
-|parent|  |
-|document|  |
-|id|Gets or sets the identifier.|
-|data|Gets or sets the data.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| disposed | bool | r | Gets a value indicating whether this instance is disposed. |
+| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
+| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |
+| id | int | r/w | Gets or sets the identifier. |
+| data | byte | r/w | Gets or sets the data. |
+
+### CdrVectorPattern() {#CdrVectorPattern__0}
+
+
+```
+ CdrVectorPattern() 
+```
+
+Initializes a new instance of the CdrVectorPattern class
+

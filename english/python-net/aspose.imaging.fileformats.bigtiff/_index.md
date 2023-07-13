@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.bigtiff/
 ---
 
 
-The namespace handling BigTiff file format processing.
+The module handling BigTiff file format processing.
 
 ## **Classes**
 |**Class**|**Description**|

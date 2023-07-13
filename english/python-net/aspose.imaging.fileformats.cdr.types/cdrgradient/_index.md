@@ -7,25 +7,35 @@ url: /python-net/aspose.imaging.fileformats.cdr.types/cdrgradient/
 
 The cdr gradient
 
-**Namespace:** [aspose.imaging.fileformats.cdr.types](/imaging/python-net/aspose.imaging.fileformats.cdr.types/)
+**Module:** [aspose.imaging.fileformats.cdr.types](/imaging/python-net/aspose.imaging.fileformats.cdr.types/)
 
-**Full Class Name:** aspose.imaging.fileformats.cdr.types.CdrGradient
+**Full Name:** aspose.imaging.fileformats.cdr.types.CdrGradient
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 The CdrGradient type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|CdrGradient()|Initializes a new instance of the [CdrGradient](/imaging/python-net/aspose.imaging.fileformats.cdr.types/cdrgradient/) class.|
+| [CdrGradient()](#CdrGradient__0) | Initializes a new instance of the [CdrGradient](/imaging/python-net/aspose.imaging.fileformats.cdr.types/cdrgradient/) class. |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|type|Gets or sets the type.|
-|mode|Gets or sets the mode.|
-|angle|Gets or sets the angle.|
-|mid_point|Gets or sets the mid point.|
-|edge_offset|Gets or sets the edge offset.|
-|center_x_offset|Gets or sets the center x offset.|
-|center_y_offset|Gets or sets the center y offset.|
-|stops|Gets or sets the stops.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| type | int | r/w | Gets or sets the type. |
+| mode | int | r/w | Gets or sets the mode. |
+| angle | double | r/w | Gets or sets the angle. |
+| mid_point | double | r/w | Gets or sets the mid point. |
+| edge_offset | int | r/w | Gets or sets the edge offset. |
+| center_x_offset | int | r/w | Gets or sets the center x offset. |
+| center_y_offset | int | r/w | Gets or sets the center y offset. |
+| stops | System.Collections.Generic.List<CdrGradientStop> | r/w | Gets or sets the stops. |
+
+### CdrGradient() {#CdrGradient__0}
+
+
+```
+ CdrGradient() 
+```
+
+Initializes a new instance of the [CdrGradient](/imaging/python-net/aspose.imaging.fileformats.cdr.types/cdrgradient/) class.
+

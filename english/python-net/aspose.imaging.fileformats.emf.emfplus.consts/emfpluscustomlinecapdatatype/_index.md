@@ -7,14 +7,14 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscustomline
 
 The CustomLineCapDataType enumeration defines types of custom line cap data, which specify styles and shapes for the ends of graphics lines.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Module:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusCustomLineCapDataType
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|CUSTOM_LINE_CAP_DATA_TYPE_DEFAULT|Specifies a default custom line cap.|
-|CUSTOM_LINE_CAP_DATA_TYPE_ADJUSTABLE_ARROW|Specifies an adjustable arrow custom line cap.|
+| CUSTOM_LINE_CAP_DATA_TYPE_DEFAULT | Specifies a default custom line cap. |
+| CUSTOM_LINE_CAP_DATA_TYPE_ADJUSTABLE_ARROW | Specifies an adjustable arrow custom line cap. |

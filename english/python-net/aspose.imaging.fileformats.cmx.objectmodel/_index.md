@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/
 ---
 
 
-The namespace handles Tiff file format processing.
+The module handles Tiff file format processing.
 
 ## **Classes**
 |**Class**|**Description**|

@@ -1,24 +1,36 @@
 ---
 title: WmfResizePalette Class
 type: docs
-weight: 540
+weight: 570
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfresizepalette/
 ---
 
 The META_RESIZEPALETTE record redefines the size of the logical palette<br/>                that is defined in the playback device context.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
+**Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfResizePalette
+**Full Name:** aspose.imaging.fileformats.wmf.objects.WmfResizePalette
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** WmfObject
+
+**Aspose.Imaging Version:** 23.6
 
 The WmfResizePalette type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|WmfResizePalette()|Initializes a new instance of the WmfResizePalette class|
+| [WmfResizePalette()](#WmfResizePalette__0) | Initializes a new instance of the WmfResizePalette class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|number_of_entries|Gets or sets the number of entries.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| number_of_entries | int | r/w | Gets or sets the number of entries. |
+
+### WmfResizePalette() {#WmfResizePalette__0}
+
+
+```
+ WmfResizePalette() 
+```
+
+Initializes a new instance of the WmfResizePalette class
+

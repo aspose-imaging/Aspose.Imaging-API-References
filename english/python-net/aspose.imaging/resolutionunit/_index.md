@@ -1,21 +1,21 @@
 ---
 title: ResolutionUnit Enumeration
 type: docs
-weight: 9260
+weight: 10820
 url: /python-net/aspose.imaging/resolutionunit/
 ---
 
 Resolution unit enum.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
+**Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
 **Full Name:** aspose.imaging.ResolutionUnit
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|NONE|Undefined units|
-|INCH|Inch units|
-|CM|Metric centimeter units|
+| NONE | Undefined units |
+| INCH | Inch units |
+| CM | Metric centimeter units |

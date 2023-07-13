@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.eps/
 ---
 
 
-The namespace contains EPS format type
+The module contains EPS format type
 
 ## **Classes**
 |**Class**|**Description**|
@@ -19,4 +19,4 @@ The namespace contains EPS format type
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[EpsPreviewFormat](/imaging/python-net/aspose.imaging.fileformats.eps/epspreviewformat/)|EPS preview format|
+| [EpsPreviewFormat](/imaging/python-net/aspose.imaging.fileformats.eps/epspreviewformat/) | EPS preview format |

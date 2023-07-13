@@ -1,12 +1,12 @@
 ---
 title: aspose.imaging.shapesegments
 type: docs
-weight: 900
+weight: 910
 url: /python-net/aspose.imaging.shapesegments/
 ---
 
 
-The namespace contains different shape segments which combine shapes.
+The module contains different shape segments which combine shapes.
 
 ## **Classes**
 |**Class**|**Description**|

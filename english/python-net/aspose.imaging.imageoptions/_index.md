@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.imageoptions/
 ---
 
 
-The namespace contains classes suitable for export, save or creation of different file formats.
+The module contains classes suitable for export, save or creation of different file formats.
 
 ## **Classes**
 |**Class**|**Description**|
@@ -51,9 +51,9 @@ The namespace contains classes suitable for export, save or creation of differen
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[MultiPageMode](/imaging/python-net/aspose.imaging.imageoptions/multipagemode/)|Represents multipage mode|
-|[PdfImageCompressionOptions](/imaging/python-net/aspose.imaging.imageoptions/pdfimagecompressionoptions/)|Pdf image compression options|
-|[PositioningTypes](/imaging/python-net/aspose.imaging.imageoptions/positioningtypes/)|Positioning and size types for graphics scene.|
-|[RenderErrorCode](/imaging/python-net/aspose.imaging.imageoptions/rendererrorcode/)|Represents possible missing sections in CAD file|
-|[TiffOptionsError](/imaging/python-net/aspose.imaging.imageoptions/tiffoptionserror/)|The tiff options error codes.|
-|[TypeOfEntities](/imaging/python-net/aspose.imaging.imageoptions/typeofentities/)|Represents types of entities to render|
+| [MultiPageMode](/imaging/python-net/aspose.imaging.imageoptions/multipagemode/) | Represents multipage mode |
+| [PdfImageCompressionOptions](/imaging/python-net/aspose.imaging.imageoptions/pdfimagecompressionoptions/) | Pdf image compression options |
+| [PositioningTypes](/imaging/python-net/aspose.imaging.imageoptions/positioningtypes/) | Positioning and size types for graphics scene. |
+| [RenderErrorCode](/imaging/python-net/aspose.imaging.imageoptions/rendererrorcode/) | Represents possible missing sections in CAD file |
+| [TiffOptionsError](/imaging/python-net/aspose.imaging.imageoptions/tiffoptionserror/) | The tiff options error codes. |
+| [TypeOfEntities](/imaging/python-net/aspose.imaging.imageoptions/typeofentities/) | Represents types of entities to render |

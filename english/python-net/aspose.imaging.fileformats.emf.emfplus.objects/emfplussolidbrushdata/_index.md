@@ -7,18 +7,30 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplussolidbrus
 
 The EmfPlusSolidBrushData object specifies a solid color for a graphics brush.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
+**Module:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusSolidBrushData
+**Full Name:** aspose.imaging.fileformats.emf.emfplus.objects.EmfPlusSolidBrushData
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** EmfPlusBaseBrushData
+
+**Aspose.Imaging Version:** 23.6
 
 The EmfPlusSolidBrushData type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|EmfPlusSolidBrushData()|Initializes a new instance of the EmfPlusSolidBrushData class|
+| [EmfPlusSolidBrushData()](#EmfPlusSolidBrushData__0) | Initializes a new instance of the EmfPlusSolidBrushData class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|solid_argb_32_color|Gets or sets an EmfPlusARGB object (section 2.2.2.1) that specifies the color of the brush.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| solid_argb_32_color | int | r/w | Gets or sets an EmfPlusARGB object (section 2.2.2.1) that specifies the color of the brush. |
+
+### EmfPlusSolidBrushData() {#EmfPlusSolidBrushData__0}
+
+
+```
+ EmfPlusSolidBrushData() 
+```
+
+Initializes a new instance of the EmfPlusSolidBrushData class
+

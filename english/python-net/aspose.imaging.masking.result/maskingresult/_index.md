@@ -7,21 +7,24 @@ url: /python-net/aspose.imaging.masking.result/maskingresult/
 
 Base abstract class which can provide result image from image masking system.
 
-**Namespace:** [aspose.imaging.masking.result](/imaging/python-net/aspose.imaging.masking.result/)
+**Module:** [aspose.imaging.masking.result](/imaging/python-net/aspose.imaging.masking.result/)
 
-**Full Class Name:** aspose.imaging.masking.result.MaskingResult
+**Full Name:** aspose.imaging.masking.result.MaskingResult
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** DisposableObject
+
+**Aspose.Imaging Version:** 23.6
 
 The MaskingResult type exposes the following members:
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|disposed|Gets a value indicating whether this instance is disposed.|
-|layers|Gets the layers.|
-|length|Gets the length.|
-|MASKING_OPTIONS|The masking options|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| disposed | bool | r | Gets a value indicating whether this instance is disposed. |
+| layers | [IMaskingLayer[]](/imaging/python-net/aspose.imaging.masking.result/imaskinglayer) | r | Gets the layers. |
+| length | int | r | Gets the length. |
+| MASKING_OPTIONS | [MaskingOptions](/imaging/python-net/aspose.imaging.masking.options/maskingoptions/) | r | The masking options |
 ## **Indexer**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-|[index]|Gets the [IMaskingLayer](/imaging/python-net/aspose.imaging.masking.result/imaskinglayer/) at the specified index.|
+| [index] | Gets the [IMaskingLayer](/imaging/python-net/aspose.imaging.masking.result/imaskinglayer/) at the specified index. |
+

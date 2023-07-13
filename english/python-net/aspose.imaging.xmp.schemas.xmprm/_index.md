@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.xmp.schemas.xmprm/
 ---
 
 
-The namespace contains related to rights management helper classes, constants and methods. These properties specify information regarding the legal restrictions associated with a resource.
+The module contains related to rights management helper classes, constants and methods. These properties specify information regarding the legal restrictions associated with a resource.
 
 ## **Classes**
 |**Class**|**Description**|

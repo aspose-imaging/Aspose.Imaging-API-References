@@ -7,26 +7,38 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrcurve/
 
 The cdr curve
 
-**Namespace:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
+**Module:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.cdr.objects.CdrCurve
+**Full Name:** aspose.imaging.fileformats.cdr.objects.CdrCurve
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** CdrGraphicObject
+
+**Aspose.Imaging Version:** 23.6
 
 The CdrCurve type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|CdrCurve()|Initializes a new instance of the CdrCurve class|
+| [CdrCurve()](#CdrCurve__0) | Initializes a new instance of the CdrCurve class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|disposed|  |
-|parent|  |
-|document|  |
-|width|Gets or sets the x.|
-|height|Gets or sets the y.|
-|bounds_in_pixels|Gets or sets the bounds in pixels.|
-|clip_id|Gets or sets the clip identifier.|
-|points|Gets or sets the points.|
-|point_types|Gets or sets the point types.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| disposed | bool | r | Gets a value indicating whether this instance is disposed. |
+| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
+| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |
+| width | double | r/w | Gets or sets the x. |
+| height | double | r/w | Gets or sets the y. |
+| bounds_in_pixels | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets the bounds in pixels. |
+| clip_id | short | r/w | Gets or sets the clip identifier. |
+| points | [PointD[]](/imaging/python-net/aspose.imaging.fileformats.cdr.types/pointd/) | r/w | Gets or sets the points. |
+| point_types | byte | r/w | Gets or sets the point types. |
+
+### CdrCurve() {#CdrCurve__0}
+
+
+```
+ CdrCurve() 
+```
+
+Initializes a new instance of the CdrCurve class
+

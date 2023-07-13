@@ -7,16 +7,16 @@ url: /python-net/aspose.imaging.fileformats.jpeg/jpegcompressionmode/
 
 Compression mode for jpeg images.
 
-**Namespace:** [aspose.imaging.fileformats.jpeg](/imaging/python-net/aspose.imaging.fileformats.jpeg/)
+**Module:** [aspose.imaging.fileformats.jpeg](/imaging/python-net/aspose.imaging.fileformats.jpeg/)
 
 **Full Name:** aspose.imaging.fileformats.jpeg.JpegCompressionMode
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|BASELINE|The baseline compression.|
-|PROGRESSIVE|The progressive compression.|
-|LOSSLESS|The lossless compression.|
-|JPEG_LS|The JPEG-LS compression.|
+| BASELINE | The baseline compression. |
+| PROGRESSIVE | The progressive compression. |
+| LOSSLESS | The lossless compression. |
+| JPEG_LS | The JPEG-LS compression. |

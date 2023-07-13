@@ -19,4 +19,4 @@ The Open document objects
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[OdBrushStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/odbrushstyle/)|The brush styles|
+| [OdBrushStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/odbrushstyle/) | The brush styles |

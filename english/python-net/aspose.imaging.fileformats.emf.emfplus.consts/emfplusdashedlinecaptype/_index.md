@@ -7,15 +7,15 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusdashedline
 
 The DashedLineCapType enumeration defines types of line caps to use at the ends of dashed lines that are drawn with graphics pens.
 
-**Namespace:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
+**Module:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
 **Full Name:** aspose.imaging.fileformats.emf.emfplus.consts.EmfPlusDashedLineCapType
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|DASHED_LINE_CAP_TYPE_FLAT|Specifies a flat dashed line cap.|
-|DASHED_LINE_CAP_TYPE_ROUND|Specifies a round dashed line cap.|
-|DASHED_LINE_CAP_TYPE_TRIANGLE|Specifies a triangular dashed line cap.|
+| DASHED_LINE_CAP_TYPE_FLAT | Specifies a flat dashed line cap. |
+| DASHED_LINE_CAP_TYPE_ROUND | Specifies a round dashed line cap. |
+| DASHED_LINE_CAP_TYPE_TRIANGLE | Specifies a triangular dashed line cap. |

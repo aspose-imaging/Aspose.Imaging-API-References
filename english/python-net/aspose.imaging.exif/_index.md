@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.exif/
 ---
 
 
-The namespace contains EXIF related helper classes and methods.
+The module contains EXIF related helper classes and methods.
 
 ## **Classes**
 |**Class**|**Description**|
@@ -18,4 +18,4 @@ The namespace contains EXIF related helper classes and methods.
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[ExifProperties](/imaging/python-net/aspose.imaging.exif/exifproperties/)|Exif tags list|
+| [ExifProperties](/imaging/python-net/aspose.imaging.exif/exifproperties/) | Exif tags list |

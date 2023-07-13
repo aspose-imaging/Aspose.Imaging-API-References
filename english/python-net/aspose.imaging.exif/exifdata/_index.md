@@ -7,134 +7,223 @@ url: /python-net/aspose.imaging.exif/exifdata/
 
 EXIF data container.
 
-**Namespace:** [aspose.imaging.exif](/imaging/python-net/aspose.imaging.exif/)
+**Module:** [aspose.imaging.exif](/imaging/python-net/aspose.imaging.exif/)
 
-**Full Class Name:** aspose.imaging.exif.ExifData
+**Full Name:** aspose.imaging.exif.ExifData
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** TiffDataTypeController
+
+**Aspose.Imaging Version:** 23.6
 
 The ExifData type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|ExifData()|Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class.|
-|ExifData(exifdata)|Initializes a new instance of the ExifData class|
-|ExifData(common_tags, exif_tags, gps_tags)|Initializes a new instance of the ExifData class|
+| [ExifData()](#ExifData__0) | Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class. |
+| [ExifData(exifdata)](#ExifData_exifdata_1) | Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class with data from array. |
+| [ExifData(common_tags, exif_tags, gps_tags)](#ExifData_common_tags_exif_tags_gps_tags_2) | Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class with data from array. |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|is_big_endian|Gets or sets a value indicating whether the stream EXIF data created from is big endian.|
-|make|Gets or sets the manufacturer of the recording equipment.|
-|aperture_value|Gets or sets the aperture value.|
-|body_serial_number|Gets or sets camera body serial number.|
-|brightness_value|Gets or sets the brightness value.|
-|cfa_pattern|Gets or sets the CFA pattern.|
-|camera_owner_name|Gets or sets camera owner name|
-|color_space|Gets or sets the color space.|
-|components_configuration|Gets or sets the components configuration.|
-|compressed_bits_per_pixel|Gets or sets the compressed bits per pixel.|
-|contrast|Gets or sets the contrast.|
-|custom_rendered|Gets or sets the custom rendered.|
-|date_time_digitized|Gets or sets the date time digitized.|
-|date_time_original|Gets or sets the date time original.|
-|device_setting_description|Gets or sets device settings description|
-|digital_zoom_ratio|Gets or sets the digital zoom ratio.|
-|exif_version|Gets or sets the EXIF version.|
-|exposure_bias_value|Gets or sets the exposure bias value.|
-|exposure_index|Gets or sets the exposure index.|
-|exposure_mode|Gets or sets the exposure mode.|
-|exposure_program|Gets or sets the exposure program.|
-|exposure_time|Gets or sets the exposure time.|
-|f_number|Gets or sets the F-number.|
-|file_source|Gets or sets the file source type.|
-|flash|Gets or sets the flash.|
-|flash_energy|Gets or sets the flash energy.|
-|flashpix_version|Gets or sets the flash pix version.|
-|focal_length|Gets or sets the focal length.|
-|focal_length_in_35_mm_film|Gets or sets the focal length in 35 mm film.|
-|focal_plane_resolution_unit|Gets or sets the focal plane resolution unit.|
-|focal_plane_x_resolution|Gets or sets the focal plane x resolution.|
-|focal_plane_y_resolution|Gets or sets the focal plane y resolution.|
-|gps_altitude|Gets or sets the GPS altitude.|
-|gps_altitude_ref|Gets or sets the GPS altitude used as the reference altitude.|
-|gps_area_information|Gets or sets the GPS area information.|
-|gpsdop|Gets or sets the GPS DOP (data degree of precision).|
-|gps_dest_bearing|Gets or sets the GPS bearing to the destination point.|
-|gps_dest_bearing_ref|Gets or sets the GPS reference used for giving the bearing to the destination point.|
-|gps_dest_distance|Gets or sets the GPS distance to the destination point.|
-|gps_dest_distance_ref|Gets or sets the GPS unit used to express the distance to the destination point.|
-|gps_dest_latitude|Gets or sets the GPS latitude of the destination point.|
-|gps_dest_latitude_ref|Gets or sets the GPS value which indicates whether the latitude of the destination point is north or south latitude.|
-|gps_dest_longitude|Gets or sets the GPS longitude of the destination point.|
-|gps_dest_longitude_ref|Gets or sets the GPS value which indicates whether the longitude of the destination point is east or west longitude.|
-|gps_differential|Gets or sets a GPS value which indicates whether differential correction is applied to the GPS receiver.|
-|gps_img_direction|Gets or sets the GPS direction of the image when it was captured.|
-|gps_img_direction_ref|Gets or sets the GPS reference for giving the direction of the image when it is captured.|
-|gps_date_stamp|Gets or sets the GPS character string recording date and time information relative to UTC (Coordinated Universal Time).|
-|gps_latitude|Gets or sets the GPS latitude.|
-|gps_latitude_ref|Gets or sets the GPS latitude is north or south latitude.|
-|gps_longitude|Gets or sets the GPS longitude.|
-|gps_longitude_ref|Gets or sets the GPS longitude is east or west longitude.|
-|gps_map_datum|Gets or sets the GPS geodetic survey data used by the GPS receiver.|
-|gps_measure_mode|Gets or sets the GPS measurement mode.|
-|gps_processing_method|Gets or sets the GPS character string recording the name of the method used for location finding.|
-|gps_satellites|Gets or sets the GPS satellites used for measurements.|
-|gps_speed|Gets or sets the speed of GPS receiver movement.|
-|gps_speed_ref|Gets or sets the unit used to express the GPS receiver speed of movement.|
-|gps_status|Gets or sets the status of the GPS receiver when the image is recorded.|
-|gps_timestamp|Gets or sets the GPS time as UTC (Coordinated Universal Time).|
-|gps_track|Gets or sets direction of GPS receiver movement.|
-|gps_track_ref|Gets or sets the reference for giving the direction of GPS receiver movement.|
-|gps_version_id|Gets or sets the GPS version identifier.|
-|gain_control|Gets or sets the degree of overall image gain adjustment.|
-|gamma|Gets or sets the gamma.|
-|iso_speed|Gets or sets ISO speed|
-|iso_speed_latitude_yyy|Gets or sets the ISO speed latitude yyy value of a camera or input device that is defined in ISO 12232.|
-|iso_speed_latitude_zzz|Gets or sets the ISO speed latitude zzz value of a camera or input device that is defined in ISO 12232.|
-|photographic_sensitivity|Gets or sets the photographic sensitivity.|
-|image_unique_id|Gets or sets the image unique identifier.|
-|lens_make|Gets or sets the maker of lens.|
-|lens_model|Gets or sets the lens model.|
-|lens_serial_number|Gets or sets the lens serial number.|
-|lens_specification|Gets or sets the lens specification|
-|light_source|Gets or sets the light source.|
-|maker_note_data|Gets the maker note data.|
-|maker_note_raw_data|Gets or sets the maker note raw data.|
-|maker_notes|Gets the maker notes.|
-|max_aperture_value|Gets or sets the maximum aperture value.|
-|metering_mode|Gets or sets the metering mode.|
-|oecf|Gets or sets the Opto-Electric Conversion Function (OECF) specified in ISO 14524.|
-|pixel_x_dimension|Gets or sets the pixel x dimension.|
-|pixel_y_dimension|Gets or sets the pixel y dimension.|
-|properties|Gets or sets all the EXIF tags (including common and GPS tags).|
-|recommended_exposure_index|Gets or sets the recommended exposure index.|
-|related_sound_file|Gets or sets the related sound file.|
-|saturation|Gets or sets the saturation.|
-|scene_capture_type|Gets or sets the scene capture type.|
-|scene_type|Gets or sets the scene type.|
-|sensing_method|Gets or sets the sensing method.|
-|sensitivity_type|Gets or sets the sensitivity type.|
-|sharpness|Gets or sets the sharpness.|
-|shutter_speed_value|Gets or sets the shutter speed value.|
-|spatial_frequency_response|Gets or sets the spatial frequency response.|
-|spectral_sensitivity|Gets or sets the spectral sensitivity.|
-|standard_output_sensitivity|Gets or sets standard output sensitivity|
-|subject_area|Gets or sets the subject area.|
-|subject_distance|Gets or sets the subject distance.|
-|subject_distance_range|Gets or sets the subject distance range.|
-|subject_location|Gets or sets the subject location.|
-|subsec_time|Gets or sets the fractions of seconds for the DateTime tag.|
-|subsec_time_digitized|Gets or sets the fractions of seconds for the DateTimeDigitized tag.|
-|subsec_time_original|Gets or sets the fractions of seconds for the DateTimeOriginal tag.|
-|user_comment|Gets or sets the user comment.|
-|white_balance|Gets or sets the white balance.|
-|white_point|Gets or sets the chromaticity of the white point of the image.|
-|common_tags|Gets or sets tags, which belong to common section. This applies only to jpeg images, in tiff format tiffOptions are being used instead|
-|exif_tags|Gets or sets tags which belong to EXIF section only.|
-|gps_tags|Gets or sets tags, which belong to GPS section only.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| is_big_endian | bool | r/w | Gets or sets a value indicating whether the stream EXIF data created from is big endian. |
+| make | string | r/w | Gets or sets the manufacturer of the recording equipment. |
+| aperture_value | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the aperture value. |
+| body_serial_number | string | r/w | Gets or sets camera body serial number. |
+| brightness_value | [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/) | r/w | Gets or sets the brightness value. |
+| cfa_pattern | byte | r/w | Gets or sets the CFA pattern. |
+| camera_owner_name | string | r/w | Gets or sets camera owner name |
+| color_space | [ExifColorSpace](/imaging/python-net/aspose.imaging.exif.enums/exifcolorspace/) | r/w | Gets or sets the color space. |
+| components_configuration | byte | r/w | Gets or sets the components configuration. |
+| compressed_bits_per_pixel | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the compressed bits per pixel. |
+| contrast | [ExifContrast](/imaging/python-net/aspose.imaging.exif.enums/exifcontrast/) | r/w | Gets or sets the contrast. |
+| custom_rendered | [ExifCustomRendered](/imaging/python-net/aspose.imaging.exif.enums/exifcustomrendered/) | r/w | Gets or sets the custom rendered. |
+| date_time_digitized | string | r/w | Gets or sets the date time digitized. |
+| date_time_original | string | r/w | Gets or sets the date time original. |
+| device_setting_description | byte | r/w | Gets or sets device settings description |
+| digital_zoom_ratio | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the digital zoom ratio. |
+| exif_version | byte | r/w | Gets or sets the EXIF version. |
+| exposure_bias_value | [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/) | r/w | Gets or sets the exposure bias value. |
+| exposure_index | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the exposure index. |
+| exposure_mode | [ExifExposureMode](/imaging/python-net/aspose.imaging.exif.enums/exifexposuremode/) | r/w | Gets or sets the exposure mode. |
+| exposure_program | [ExifExposureProgram](/imaging/python-net/aspose.imaging.exif.enums/exifexposureprogram/) | r/w | Gets or sets the exposure program. |
+| exposure_time | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the exposure time. |
+| f_number | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the F-number. |
+| file_source | [ExifFileSource](/imaging/python-net/aspose.imaging.exif.enums/exiffilesource/) | r/w | Gets or sets the file source type. |
+| flash | [ExifFlash](/imaging/python-net/aspose.imaging.exif.enums/exifflash/) | r/w | Gets or sets the flash. |
+| flash_energy | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the flash energy. |
+| flashpix_version | byte | r/w | Gets or sets the flash pix version. |
+| focal_length | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the focal length. |
+| focal_length_in_35_mm_film | ushort | r/w | Gets or sets the focal length in 35 mm film. |
+| focal_plane_resolution_unit | [ExifUnit](/imaging/python-net/aspose.imaging.exif.enums/exifunit/) | r/w | Gets or sets the focal plane resolution unit. |
+| focal_plane_x_resolution | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the focal plane x resolution. |
+| focal_plane_y_resolution | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the focal plane y resolution. |
+| gps_altitude | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the GPS altitude. |
+| gps_altitude_ref | [ExifGPSAltitudeRef](/imaging/python-net/aspose.imaging.exif.enums/exifgpsaltituderef/) | r/w | Gets or sets the GPS altitude used as the reference altitude. |
+| gps_area_information | byte | r/w | Gets or sets the GPS area information. |
+| gpsdop | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the GPS DOP (data degree of precision). |
+| gps_dest_bearing | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the GPS bearing to the destination point. |
+| gps_dest_bearing_ref | string | r/w | Gets or sets the GPS reference used for giving the bearing to the destination point. |
+| gps_dest_distance | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the GPS distance to the destination point. |
+| gps_dest_distance_ref | string | r/w | Gets or sets the GPS unit used to express the distance to the destination point. |
+| gps_dest_latitude | [TiffRational[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the GPS latitude of the destination point. |
+| gps_dest_latitude_ref | string | r/w | Gets or sets the GPS value which indicates whether the latitude of the destination point is north or south latitude. |
+| gps_dest_longitude | [TiffRational[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the GPS longitude of the destination point. |
+| gps_dest_longitude_ref | string | r/w | Gets or sets the GPS value which indicates whether the longitude of the destination point is east or west longitude. |
+| gps_differential | ushort | r/w | Gets or sets a GPS value which indicates whether differential correction is applied to the GPS receiver. |
+| gps_img_direction | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the GPS direction of the image when it was captured. |
+| gps_img_direction_ref | string | r/w | Gets or sets the GPS reference for giving the direction of the image when it is captured. |
+| gps_date_stamp | string | r/w | Gets or sets the GPS character string recording date and time information relative to UTC (Coordinated Universal Time). |
+| gps_latitude | [TiffRational[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the GPS latitude. |
+| gps_latitude_ref | string | r/w | Gets or sets the GPS latitude is north or south latitude. |
+| gps_longitude | [TiffRational[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the GPS longitude. |
+| gps_longitude_ref | string | r/w | Gets or sets the GPS longitude is east or west longitude. |
+| gps_map_datum | string | r/w | Gets or sets the GPS geodetic survey data used by the GPS receiver. |
+| gps_measure_mode | string | r/w | Gets or sets the GPS measurement mode. |
+| gps_processing_method | byte | r/w | Gets or sets the GPS character string recording the name of the method used for location finding. |
+| gps_satellites | string | r/w | Gets or sets the GPS satellites used for measurements. |
+| gps_speed | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the speed of GPS receiver movement. |
+| gps_speed_ref | string | r/w | Gets or sets the unit used to express the GPS receiver speed of movement. |
+| gps_status | string | r/w | Gets or sets the status of the GPS receiver when the image is recorded. |
+| gps_timestamp | [TiffRational[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the GPS time as UTC (Coordinated Universal Time). |
+| gps_track | string | r/w | Gets or sets direction of GPS receiver movement. |
+| gps_track_ref | string | r/w | Gets or sets the reference for giving the direction of GPS receiver movement. |
+| gps_version_id | byte | r/w | Gets or sets the GPS version identifier. |
+| gain_control | [ExifGainControl](/imaging/python-net/aspose.imaging.exif.enums/exifgaincontrol/) | r/w | Gets or sets the degree of overall image gain adjustment. |
+| gamma | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the gamma. |
+| iso_speed | uint | r/w | Gets or sets ISO speed |
+| iso_speed_latitude_yyy | uint | r/w | Gets or sets the ISO speed latitude yyy value of a camera or input device that is defined in ISO 12232. |
+| iso_speed_latitude_zzz | uint | r/w | Gets or sets the ISO speed latitude zzz value of a camera or input device that is defined in ISO 12232. |
+| photographic_sensitivity | uint | r/w | Gets or sets the photographic sensitivity. |
+| image_unique_id | string | r/w | Gets or sets the image unique identifier. |
+| lens_make | string | r/w | Gets or sets the maker of lens. |
+| lens_model | string | r/w | Gets or sets the lens model. |
+| lens_serial_number | string | r/w | Gets or sets the lens serial number. |
+| lens_specification | [TiffRational[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the lens specification |
+| light_source | [ExifLightSource](/imaging/python-net/aspose.imaging.exif.enums/exiflightsource/) | r/w | Gets or sets the light source. |
+| maker_note_data | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | r | Gets the maker note data. |
+| maker_note_raw_data | byte | r/w | Gets or sets the maker note raw data. |
+| maker_notes | [MakerNote[]](/imaging/python-net/aspose.imaging.exif/makernote) | r | Gets the maker notes. |
+| max_aperture_value | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the maximum aperture value. |
+| metering_mode | [ExifMeteringMode](/imaging/python-net/aspose.imaging.exif.enums/exifmeteringmode/) | r/w | Gets or sets the metering mode. |
+| oecf | byte | r/w | Gets or sets the Opto-Electric Conversion Function (OECF) specified in ISO 14524. |
+| pixel_x_dimension | uint | r/w | Gets or sets the pixel x dimension. |
+| pixel_y_dimension | uint | r/w | Gets or sets the pixel y dimension. |
+| properties | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | r/w | Gets or sets all the EXIF tags (including common and GPS tags). |
+| recommended_exposure_index | uint | r/w | Gets or sets the recommended exposure index. |
+| related_sound_file | string | r/w | Gets or sets the related sound file. |
+| saturation | [ExifSaturation](/imaging/python-net/aspose.imaging.exif.enums/exifsaturation/) | r/w | Gets or sets the saturation. |
+| scene_capture_type | [ExifSceneCaptureType](/imaging/python-net/aspose.imaging.exif.enums/exifscenecapturetype/) | r/w | Gets or sets the scene capture type. |
+| scene_type | byte | r/w | Gets or sets the scene type. |
+| sensing_method | [ExifSensingMethod](/imaging/python-net/aspose.imaging.exif.enums/exifsensingmethod/) | r/w | Gets or sets the sensing method. |
+| sensitivity_type | ushort | r/w | Gets or sets the sensitivity type. |
+| sharpness | ushort | r/w | Gets or sets the sharpness. |
+| shutter_speed_value | [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/) | r/w | Gets or sets the shutter speed value. |
+| spatial_frequency_response | byte | r/w | Gets or sets the spatial frequency response. |
+| spectral_sensitivity | string | r/w | Gets or sets the spectral sensitivity. |
+| standard_output_sensitivity | uint | r/w | Gets or sets standard output sensitivity |
+| subject_area | ushort | r/w | Gets or sets the subject area. |
+| subject_distance | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the subject distance. |
+| subject_distance_range | [ExifSubjectDistanceRange](/imaging/python-net/aspose.imaging.exif.enums/exifsubjectdistancerange/) | r/w | Gets or sets the subject distance range. |
+| subject_location | ushort | r/w | Gets or sets the subject location. |
+| subsec_time | string | r/w | Gets or sets the fractions of seconds for the DateTime tag. |
+| subsec_time_digitized | string | r/w | Gets or sets the fractions of seconds for the DateTimeDigitized tag. |
+| subsec_time_original | string | r/w | Gets or sets the fractions of seconds for the DateTimeOriginal tag. |
+| user_comment | string | r/w | Gets or sets the user comment. |
+| white_balance | [ExifWhiteBalance](/imaging/python-net/aspose.imaging.exif.enums/exifwhitebalance/) | r/w | Gets or sets the white balance. |
+| white_point | [TiffRational[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the chromaticity of the white point of the image. |
+| common_tags | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | r/w | Gets or sets tags, which belong to common section. This applies only to jpeg images, in tiff format tiffOptions are being used instead |
+| exif_tags | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | r/w | Gets or sets tags which belong to EXIF section only. |
+| gps_tags | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | r/w | Gets or sets tags, which belong to GPS section only. |
 ## **Methods**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-|remove_tag(tag)|Remove tag from container|
-|remove_tag(tag_id)|Removes the tag by identifier.|
-|remove_tag_id(tag_id)|Remove tag from container|
+| [remove_tag(tag)](#remove_tag_tag_3) | Remove tag from container |
+| [remove_tag(tag_id)](#remove_tag_tag_id_4) | Remove tag from container |
+| [remove_tag_id(tag_id)](#remove_tag_id_tag_id_5) | Remove tag from container |
+
+### ExifData() {#ExifData__0}
+
+
+```
+ ExifData() 
+```
+
+Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class.
+
+### ExifData(exifdata) {#ExifData_exifdata_1}
+
+
+```
+ ExifData(exifdata) 
+```
+
+Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class with data from array.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| exifdata | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | Array of EXIF tags together with common and GPS tags. |
+
+### ExifData(common_tags, exif_tags, gps_tags) {#ExifData_common_tags_exif_tags_gps_tags_2}
+
+
+```
+ ExifData(common_tags, exif_tags, gps_tags) 
+```
+
+Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class with data from array.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| common_tags | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | The common tags. |
+| exif_tags | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | The EXIF tags. |
+| gps_tags | [TiffDataType[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffdatatype/) | The GPS tags. |
+
+### remove_tag(tag) {#remove_tag_tag_3}
+
+
+```
+ remove_tag(tag) 
+```
+
+Remove tag from container
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| tag | [ExifProperties](/imaging/python-net/aspose.imaging.exif/exifproperties) | The tag to remove |
+
+### remove_tag(tag_id) {#remove_tag_tag_id_4}
+
+
+```
+ remove_tag(tag_id) 
+```
+
+Remove tag from container
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| tag_id | ushort | The tag identifier to remove. |
+
+### remove_tag_id(tag_id) {#remove_tag_id_tag_id_5}
+
+
+```
+ remove_tag_id(tag_id) 
+```
+
+Remove tag from container
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| tag_id | ushort | The tag identifier to remove. |
+

@@ -7,21 +7,39 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odmovet
 
 The Enhanced moveTo
 
-**Namespace:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
+**Module:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
-**Full Class Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdMoveTo
+**Full Name:** aspose.imaging.fileformats.opendocument.objects.graphic.OdMoveTo
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** OdGraphicObject
+
+**Aspose.Imaging Version:** 23.6
 
 The OdMoveTo type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|OdMoveTo(parent)|Initializes a new instance of the OdMoveTo class|
+| [OdMoveTo(parent)](#OdMoveTo_parent_0) | Initializes a new instance of the [OdMoveTo](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odmoveto/) class. |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|parent|  |
-|items|  |
-|absolute_coordinates|Gets or sets a value indicating whether [absolute coordinates].|
-|coordinates|Gets or sets the coordinates.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
+| items | System.Collections.Generic.List<OdObject> | r | Gets the items. |
+| absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
+| coordinates | [PointF](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the coordinates. |
+
+### OdMoveTo(parent) {#OdMoveTo_parent_0}
+
+
+```
+ OdMoveTo(parent) 
+```
+
+Initializes a new instance of the [OdMoveTo](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odmoveto/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | The parent. |
+

@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.imageloadoptions/
 ---
 
 
-The namespace contains different file format load options.
+The module contains different file format load options.
 
 ## **Classes**
 |**Class**|**Description**|
@@ -20,4 +20,4 @@ The namespace contains different file format load options.
 ## **Enumerations**
 |**Enumeration**|**Description**|
 | :- | :- |
-|[NoiseReductionType](/imaging/python-net/aspose.imaging.imageloadoptions/noisereductiontype/)|The type of dbdd noise reduction.|
+| [NoiseReductionType](/imaging/python-net/aspose.imaging.imageloadoptions/noisereductiontype/) | The type of dbdd noise reduction. |

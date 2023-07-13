@@ -7,19 +7,29 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor/
 
 Represents a color value.
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.styles](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/)
+**Module:** [aspose.imaging.fileformats.cmx.objectmodel.styles](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/)
 
-**Full Class Name:** aspose.imaging.fileformats.cmx.objectmodel.styles.CmxColor
+**Full Name:** aspose.imaging.fileformats.cmx.objectmodel.styles.CmxColor
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 The CmxColor type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|CmxColor()|Initializes a new instance of the CmxColor class|
+| [CmxColor()](#CmxColor__0) | Initializes a new instance of the CmxColor class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|color_model|Gets or sets the color model.|
-|value|Gets or sets the color value.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| color_model | [ColorModels](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/colormodels/) | r/w | Gets or sets the color model. |
+| value | uint | r/w | Gets or sets the color value. |
+
+### CmxColor() {#CmxColor__0}
+
+
+```
+ CmxColor() 
+```
+
+Initializes a new instance of the CmxColor class
+

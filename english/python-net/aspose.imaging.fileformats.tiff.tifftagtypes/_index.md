@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.tifftagtypes/
 ---
 
 
-The namespace contains Tiff file format tag classes.
+The module contains Tiff file format tag classes.
 
 ## **Classes**
 |**Class**|**Description**|

@@ -7,31 +7,59 @@ url: /python-net/aspose.imaging.fileformats.eps/epsoptions/
 
 EPS options (currently not used)
 
-**Namespace:** [aspose.imaging.fileformats.eps](/imaging/python-net/aspose.imaging.fileformats.eps/)
+**Module:** [aspose.imaging.fileformats.eps](/imaging/python-net/aspose.imaging.fileformats.eps/)
 
-**Full Class Name:** aspose.imaging.fileformats.eps.EpsOptions
+**Full Name:** aspose.imaging.fileformats.eps.EpsOptions
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** ImageOptionsBase
+
+**Aspose.Imaging Version:** 23.6
 
 The EpsOptions type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|EpsOptions()|Initializes a new instance of the EpsOptions class|
+| [EpsOptions()](#EpsOptions__0) | Initializes a new instance of the EpsOptions class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|disposed|  |
-|xmp_data|Gets or sets the XMP metadata container.|
-|source|Gets or sets the source to create image in.|
-|palette|Gets or sets the color palette.|
-|resolution_settings|Gets or sets the resolution settings.|
-|vector_rasterization_options|Gets or sets the vector rasterization options.|
-|buffer_size_hint|Gets or sets the buffer size hint which is defined max allowed size for all internal buffers.|
-|multi_page_options|The multipage options|
-|full_frame|Gets or sets a value indicating whether [full frame].|
-|sub_type|Gets or sets the subtype of EPS format.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| disposed | bool | r | Gets a value indicating whether this instance is disposed. |
+| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets the XMP metadata container. |
+| source | [Source](/imaging/python-net/aspose.imaging/source) | r/w | Gets or sets the source to create image in. |
+| palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. |
+| resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting) | r/w | Gets or sets the resolution settings. |
+| vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions/) | r/w | Gets or sets the vector rasterization options. |
+| buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) | r/w | The multipage options |
+| full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
+| sub_type | [EpsType](/imaging/python-net/aspose.imaging.fileformats.eps.consts/epstype/) | r/w | Gets or sets the subtype of EPS format. |
 ## **Methods**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-|clone()|Clones this instance.|
+| [clone()](#clone__1) | Clones this instance. |
+
+### EpsOptions() {#EpsOptions__0}
+
+
+```
+ EpsOptions() 
+```
+
+Initializes a new instance of the EpsOptions class
+
+### clone() {#clone__1}
+
+
+```
+ clone() 
+```
+
+Clones this instance.
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Returns shallow copy of this instance |
+
+

@@ -7,14 +7,14 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/tileoffsettype
 
 Offset types between tiles for texture brushes.
 
-**Namespace:** [aspose.imaging.fileformats.cmx.objectmodel.enums](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/)
+**Module:** [aspose.imaging.fileformats.cmx.objectmodel.enums](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/)
 
 **Full Name:** aspose.imaging.fileformats.cmx.objectmodel.enums.TileOffsetTypes
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 ## **Members**
-|**Member name**|**Description**|
+| **Member name** | **Description** |
 | :- | :- |
-|ROW_OFFSET|Offset between adjacent rows.|
-|COLUMN_OFFSET|Offset between adjacent columns.|
+| ROW_OFFSET | Offset between adjacent rows. |
+| COLUMN_OFFSET | Offset between adjacent columns. |

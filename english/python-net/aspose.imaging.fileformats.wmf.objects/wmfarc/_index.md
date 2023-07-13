@@ -7,20 +7,32 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfarc/
 
 The META_ARC record draws an elliptical arc.
 
-**Namespace:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
+**Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
-**Full Class Name:** aspose.imaging.fileformats.wmf.objects.WmfArc
+**Full Name:** aspose.imaging.fileformats.wmf.objects.WmfArc
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Inheritance:** WmfRectangle
+
+**Aspose.Imaging Version:** 23.6
 
 The WmfArc type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|WmfArc()|Initializes a new instance of the WmfArc class|
+| [WmfArc()](#WmfArc__0) | Initializes a new instance of the WmfArc class |
 ## **Properties**
-|**Name**|**Description**|
-| :- | :- |
-|rectangle|Gets or sets the rectangle.|
-|end_arc|Gets or sets the end arc.|
-|start_arc|Gets or sets the start arc.|
+|**Name**|**Type**|**Access**|**Description**|
+| :- | :- | :- |
+| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets the rectangle. |
+| end_arc | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the end arc. |
+| start_arc | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the start arc. |
+
+### WmfArc() {#WmfArc__0}
+
+
+```
+ WmfArc() 
+```
+
+Initializes a new instance of the WmfArc class
+

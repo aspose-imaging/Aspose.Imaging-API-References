@@ -7,14 +7,24 @@ url: /python-net/aspose.imaging.exif/tiffdatatypecontroller/
 
 Represents general class for working with tiff data types.
 
-**Namespace:** [aspose.imaging.exif](/imaging/python-net/aspose.imaging.exif/)
+**Module:** [aspose.imaging.exif](/imaging/python-net/aspose.imaging.exif/)
 
-**Full Class Name:** aspose.imaging.exif.TiffDataTypeController
+**Full Name:** aspose.imaging.exif.TiffDataTypeController
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 The TiffDataTypeController type exposes the following members:
 ## **Constructors**
 |**Name**|**Description**|
 | :- | :- |
-|TiffDataTypeController()|Initializes a new instance of the [TiffDataTypeController](/imaging/python-net/aspose.imaging.exif/tiffdatatypecontroller/) class.|
+| [TiffDataTypeController()](#TiffDataTypeController__0) | Initializes a new instance of the [TiffDataTypeController](/imaging/python-net/aspose.imaging.exif/tiffdatatypecontroller/) class. |
+
+### TiffDataTypeController() {#TiffDataTypeController__0}
+
+
+```
+ TiffDataTypeController() 
+```
+
+Initializes a new instance of the [TiffDataTypeController](/imaging/python-net/aspose.imaging.exif/tiffdatatypecontroller/) class.
+

@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.masking/
 ---
 
 
-The namespace handles ImageMasking processing.
+The module handles ImageMasking processing.
 
 ## **Classes**
 |**Class**|**Description**|

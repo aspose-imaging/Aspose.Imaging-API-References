@@ -6,7 +6,7 @@ url: /python-net/aspose.imaging.fileformats.ico/
 ---
 
 
-The namespace handling ICO file format processing.
+The module handling ICO file format processing.
 
 ## **Classes**
 |**Class**|**Description**|

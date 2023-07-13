@@ -1,20 +1,21 @@
 ---
 title: OpenTypeFontsCache Class
 type: docs
-weight: 650
+weight: 6530
 url: /python-net/aspose.imaging/opentypefontscache/
 ---
 
 Cache for OpenType fonts that are installed in the system.
 
-**Namespace:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
+**Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
-**Full Class Name:** aspose.imaging.OpenTypeFontsCache
+**Full Name:** aspose.imaging.OpenTypeFontsCache
 
-**Assembly:**  Aspose.Imaging Version: 23.6.0
+**Aspose.Imaging Version:** 23.6
 
 The OpenTypeFontsCache type exposes the following members:
 ## **Methods**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-|update_cache()|  |
+| update_cache() | <inheritdoc cref="M:Aspose.Imaging.FontParsing.OpenType.Serialization.OpenTypeInfoCacheProcessor.UpdateFontsCache(System.Boolean)" /> |
+
