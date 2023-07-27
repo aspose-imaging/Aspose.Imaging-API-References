@@ -5,7 +5,7 @@ weight: 40
 url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbasepointtype/
 ---
 
-The base point type.
+**Summary:** The base point type.
 
 **Module:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
@@ -13,5 +13,5 @@ The base point type.
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfPlusBasePointType type exposes the following members:
+
 

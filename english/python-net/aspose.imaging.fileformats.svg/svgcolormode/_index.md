@@ -16,8 +16,8 @@ url: /python-net/aspose.imaging.fileformats.svg/svgcolormode/
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| GRAYSCALE | The Grayscale image. |
-| Y_CB_CR | YCbCr image, standard option for SVG images. |
 | CMYK | CMYK image. |
-| YCCK | The YCCK color image. |
+| GRAYSCALE | The Grayscale image. |
 | RGB | The RGB Color mode. |
+| YCCK | The YCCK color image. |
+| Y_CB_CR | YCbCr image, standard option for SVG images. |

@@ -5,7 +5,7 @@ weight: 5200
 url: /python-net/aspose.imaging/iimageloader/
 ---
 
-The image loader.
+**Summary:** The image loader.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -13,13 +13,13 @@ The image loader.
 
 **Aspose.Imaging Version:** 23.6
 
-The IImageLoader type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [load(stream_container, load_options)](#load_stream_container_load_options_0) | Opens a new image with <paramref name="loadOptions" />. |
+| [load(stream_container, load_options)](#load_stream_container_load_options_1) | Opens a new image with <paramref name="loadOptions" />. |
 
-### load(stream_container, load_options) {#load_stream_container_load_options_0}
+
+### Method: load(stream_container, load_options) {#load_stream_container_load_options_1}
 
 
 ```

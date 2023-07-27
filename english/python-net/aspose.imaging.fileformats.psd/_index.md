@@ -9,7 +9,7 @@ url: /python-net/aspose.imaging.fileformats.psd/
 The module handles Psd file format processing.
 
 ## **Enumerations**
-|**Enumeration**|**Description**|
+| **Enumeration** | **Description** |
 | :- | :- |
 | [ColorModes](/imaging/python-net/aspose.imaging.fileformats.psd/colormodes/) | Represents the PSD file format color modes. |
 | [CompressionMethod](/imaging/python-net/aspose.imaging.fileformats.psd/compressionmethod/) | Defines the compression method used for image data. |

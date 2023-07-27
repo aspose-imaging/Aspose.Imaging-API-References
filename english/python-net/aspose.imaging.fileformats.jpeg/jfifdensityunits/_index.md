@@ -17,5 +17,5 @@ The jfif density units.
 | **Member name** | **Description** |
 | :- | :- |
 | NO_UNITS | The no units. |
-| PIXELS_PER_INCH | The pixels per inch. |
 | PIXELS_PER_CM | The pixels per cm. |
+| PIXELS_PER_INCH | The pixels per inch. |

@@ -16,6 +16,6 @@ The HotkeyPrefix enumeration defines output options for hotkey prefixes in graph
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
+| HOTKEY_PREFIX_HIDE | Specifies that the hotkey prefix SHOULD be displayed. |
 | HOTKEY_PREFIX_NONE | Specifies that the hotkey prefix SHOULD NOT be displayed. |
 | HOTKEY_PREFIX_SHOW | Specifies that no hotkey prefix is defined. |
-| HOTKEY_PREFIX_HIDE | Specifies that the hotkey prefix SHOULD be displayed. |

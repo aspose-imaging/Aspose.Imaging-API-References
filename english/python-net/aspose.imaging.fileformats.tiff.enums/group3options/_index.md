@@ -18,5 +18,5 @@ Options for CCITT Group 3/4 fax encoding.<br /><br/>            Possible values 
 | :- | :- |
 | ENCODING_1D | 1-dimensional coding. (default) |
 | ENCODING_2D | 2-dimensional coding. |
-| UNCOMPRESSED | Data not compressed. |
 | FILL_BITS | Fill to byte boundary. |
+| UNCOMPRESSED | Data not compressed. |

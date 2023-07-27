@@ -5,7 +5,7 @@ weight: 380
 url: /python-net/aspose.imaging.xmp/xmpheaderpi/
 ---
 
-Represents XMP header processing instruction.
+**Summary:** Represents XMP header processing instruction.
 
 **Module:** [aspose.imaging.xmp](/imaging/python-net/aspose.imaging.xmp/)
 
@@ -15,22 +15,22 @@ Represents XMP header processing instruction.
 
 **Aspose.Imaging Version:** 23.6
 
-The XmpHeaderPi type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [XmpHeaderPi()](#XmpHeaderPi__0) | Initializes a new instance of the [XmpHeaderPi](/imaging/python-net/aspose.imaging.xmp/xmpheaderpi/) class. |
-| [XmpHeaderPi(guid)](#XmpHeaderPi_guid_1) | Initializes a new instance of the [XmpHeaderPi](/imaging/python-net/aspose.imaging.xmp/xmpheaderpi/) class. |
+| [XmpHeaderPi()](#XmpHeaderPi__1) | Initializes a new instance of the [XmpHeaderPi](/imaging/python-net/aspose.imaging.xmp/xmpheaderpi/) class. |
+| [XmpHeaderPi(guid)](#XmpHeaderPi_guid_2) | Initializes a new instance of the [XmpHeaderPi](/imaging/python-net/aspose.imaging.xmp/xmpheaderpi/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | guid | string | r/w | Represents Header Guid. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_xml_value()](#get_xml_value__2) | Converts XMP value to the XML representation. |
+| [get_xml_value()](#get_xml_value__1) | Converts XMP value to the XML representation. |
 
-### XmpHeaderPi() {#XmpHeaderPi__0}
+
+### Constructor: XmpHeaderPi() {#XmpHeaderPi__1}
 
 
 ```
@@ -39,7 +39,7 @@ The XmpHeaderPi type exposes the following members:
 
 Initializes a new instance of the [XmpHeaderPi](/imaging/python-net/aspose.imaging.xmp/xmpheaderpi/) class.
 
-### XmpHeaderPi(guid) {#XmpHeaderPi_guid_1}
+### Constructor: XmpHeaderPi(guid) {#XmpHeaderPi_guid_2}
 
 
 ```
@@ -54,7 +54,7 @@ Initializes a new instance of the [XmpHeaderPi](/imaging/python-net/aspose.imagi
 | :- | :- | :- |
 | guid | string | The unique identifier. |
 
-### get_xml_value() {#get_xml_value__2}
+### Method: get_xml_value() {#get_xml_value__1}
 
 
 ```

@@ -5,7 +5,7 @@ weight: 70
 url: /python-net/aspose.imaging.fileformats.core.vectorpaths/vectorpathrecord/
 ---
 
-Vector Path Record Class
+**Summary:** Vector Path Record Class
 
 **Module:** [aspose.imaging.fileformats.core.vectorpaths](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/)
 
@@ -13,9 +13,9 @@ Vector Path Record Class
 
 **Aspose.Imaging Version:** 23.6
 
-The VectorPathRecord type exposes the following members:
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | type | [VectorPathType](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/vectorpathtype) | r | Gets the type. |
+
 

@@ -5,7 +5,7 @@ weight: 5370
 url: /python-net/aspose.imaging/ipartialrawdataloader/
 ---
 
-The partial data loader.
+**Summary:** The partial data loader.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -13,14 +13,14 @@ The partial data loader.
 
 **Aspose.Imaging Version:** 23.6
 
-The IPartialRawDataLoader type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [process(rectangle, data, start, end)](#process_rectangle_data_start_end_0) | Processes the loaded data. |
-| [process(rectangle, data, start, end, load_options)](#process_rectangle_data_start_end_load_options_1) | Processes the loaded data. |
+| [process(rectangle, data, start, end)](#process_rectangle_data_start_end_1) | Processes the loaded data. |
+| [process(rectangle, data, start, end, load_options)](#process_rectangle_data_start_end_load_options_2) | Processes the loaded data. |
 
-### process(rectangle, data, start, end) {#process_rectangle_data_start_end_0}
+
+### Method: process(rectangle, data, start, end) {#process_rectangle_data_start_end_1}
 
 
 ```
@@ -38,7 +38,7 @@ Processes the loaded data.
 | start | [Point](/imaging/python-net/aspose.imaging/point) | The start data point. If not equal to (left,top) meaning that it is not full rectangle we have. |
 | end | [Point](/imaging/python-net/aspose.imaging/point) | The end data point. If not equal to (right,bottom) meaning that it is not full rectangle we have. |
 
-### process(rectangle, data, start, end, load_options) {#process_rectangle_data_start_end_load_options_1}
+### Method: process(rectangle, data, start, end, load_options) {#process_rectangle_data_start_end_load_options_2}
 
 
 ```

@@ -18,6 +18,6 @@ Indicates the way in which the graphic is to be treated after being displayed.
 | :- | :- |
 | NONE | No disposal specified. |
 | PRESERVE | Do not dispose. The graphic is to be left in place. |
-| RESTORE | Restore to background color. The area used by the graphic must be restored to the background color. |
 | PREVIUOS | Restore to previous. The decoder is required to restore the area overwritten by the graphic with what was there prior to rendering the graphic. |
+| RESTORE | Restore to background color. The area used by the graphic must be restored to the background color. |
 | UNDEFINED | Undefined value. |

@@ -16,9 +16,9 @@ Specifies the style of dashed lines drawn with a [Pen](/imaging/python-net/aspos
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| SOLID | Specifies a solid line. |
+| CUSTOM | Specifies a user-defined custom dash style. |
 | DASH | Specifies a line consisting of dashes. |
-| DOT | Specifies a line consisting of dots. |
 | DASH_DOT | Specifies a line consisting of a repeating pattern of dash-dot. |
 | DASH_DOT_DOT | Specifies a line consisting of a repeating pattern of dash-dot-dot. |
-| CUSTOM | Specifies a user-defined custom dash style. |
+| DOT | Specifies a line consisting of dots. |
+| SOLID | Specifies a solid line. |

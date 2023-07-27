@@ -9,7 +9,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.enums/
 The Enumerations of open document
 
 ## **Enumerations**
-|**Enumeration**|**Description**|
+| **Enumeration** | **Description** |
 | :- | :- |
 | [OdGradientStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.enums/odgradientstyle/) | The gradient style |
 | [OdMarkerType](/imaging/python-net/aspose.imaging.fileformats.opendocument.enums/odmarkertype/) | The od marker types for connectors |

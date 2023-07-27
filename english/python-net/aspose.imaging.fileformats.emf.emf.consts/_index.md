@@ -9,7 +9,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.consts/
 The module contains types [MS-EMF]: Enhanced Metafile Format. 2.1 EMF Enumerations
 
 ## **Enumerations**
-|**Enumeration**|**Description**|
+| **Enumeration** | **Description** |
 | :- | :- |
 | [EmfArcDirection](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfarcdirection/) | The ArcDirection enumeration is used in setting the drawing direction for arc and rectangle output. |
 | [EmfArmStyle](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfarmstyle/) | The ArmStyle enumeration defines values for one of the characteristics in the PANOSE system for classifying typefaces. |

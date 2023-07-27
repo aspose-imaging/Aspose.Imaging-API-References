@@ -5,7 +5,7 @@ weight: 310
 url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusfillpath/
 ---
 
-The EmfPlusFillPath object specifies a graphics path for filling a custom line cap
+**Summary:** The EmfPlusFillPath object specifies a graphics path for filling a custom line cap
 
 **Module:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
@@ -15,17 +15,17 @@ The EmfPlusFillPath object specifies a graphics path for filling a custom line c
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfPlusFillPath type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EmfPlusFillPath()](#EmfPlusFillPath__0) | Initializes a new instance of the EmfPlusFillPath class |
+| [EmfPlusFillPath()](#EmfPlusFillPath__1) | Initializes a new instance of the EmfPlusFillPath class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | fill_path | [EmfPlusPath](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath) | r/w | Gets or sets EmfPlusPath object (section 2.2.1.6) that specifies the area to fill. |
 
-### EmfPlusFillPath() {#EmfPlusFillPath__0}
+
+### Constructor: EmfPlusFillPath() {#EmfPlusFillPath__1}
 
 
 ```

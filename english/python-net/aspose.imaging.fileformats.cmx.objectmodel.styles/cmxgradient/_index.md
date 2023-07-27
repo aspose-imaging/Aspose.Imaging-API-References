@@ -5,7 +5,7 @@ weight: 30
 url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/
 ---
 
-Represents a gradient info.
+**Summary:** Represents a gradient info.
 
 **Module:** [aspose.imaging.fileformats.cmx.objectmodel.styles](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/)
 
@@ -13,13 +13,12 @@ Represents a gradient info.
 
 **Aspose.Imaging Version:** 23.6
 
-The CmxGradient type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [CmxGradient()](#CmxGradient__0) | Initializes a new instance of the CmxGradient class |
+| [CmxGradient()](#CmxGradient__1) | Initializes a new instance of the CmxGradient class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | angle | float | r/w | Gets or sets the angle. |
 | center_x_offset | uint | r/w | Gets or sets the center x offset. |
@@ -34,7 +33,8 @@ The CmxGradient type exposes the following members:
 | steps | ushort | r/w | Gets or sets the steps. |
 | type | [GradientTypes](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/gradienttypes/) | r/w | Gets or sets the type. |
 
-### CmxGradient() {#CmxGradient__0}
+
+### Constructor: CmxGradient() {#CmxGradient__1}
 
 
 ```

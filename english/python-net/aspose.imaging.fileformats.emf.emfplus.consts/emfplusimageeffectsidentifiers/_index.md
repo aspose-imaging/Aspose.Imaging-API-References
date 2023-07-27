@@ -5,7 +5,7 @@ weight: 10
 url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/
 ---
 
-The ImageEffects identifiers define standard GUIDs for specifying graphics image effects. These identifiers are used by device drivers to publish their levels of support for these effects. The identifier constants are defined using the GUID curly-braced string representation ([MS-DTYP] section 2.3.4.3).
+**Summary:** The ImageEffects identifiers define standard GUIDs for specifying graphics image effects. These identifiers are used by device drivers to publish their levels of support for these effects. The identifier constants are defined using the GUID curly-braced string representation ([MS-DTYP] section 2.3.4.3).
 
 **Module:** [aspose.imaging.fileformats.emf.emfplus.consts](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/)
 
@@ -13,9 +13,8 @@ The ImageEffects identifiers define standard GUIDs for specifying graphics image
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfPlusImageEffectsIdentifiers type exposes the following members:
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | BLUR_EFFECT_GUID [static] | string | r | Specifies the blur effect. |
 | BRIGHTNESS_CONTRAST_EFFECT_GUID [static] | string | r | Specifies the brightness contrast effect. |
@@ -31,9 +30,10 @@ The EmfPlusImageEffectsIdentifiers type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [contain(object_guid)](#contain_object_guid_0) | Contains the specified object unique identifier. |
+| [contain(object_guid)](#contain_object_guid_1) | Contains the specified object unique identifier. |
 
-### contain(object_guid)  [static] {#contain_object_guid_0}
+
+### Method: contain(object_guid)  [static] {#contain_object_guid_1}
 
 
 ```

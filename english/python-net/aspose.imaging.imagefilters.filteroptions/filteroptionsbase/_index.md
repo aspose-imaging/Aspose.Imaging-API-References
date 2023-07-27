@@ -5,7 +5,7 @@ weight: 50
 url: /python-net/aspose.imaging.imagefilters.filteroptions/filteroptionsbase/
 ---
 
-Filter Options Base, abstract class
+**Summary:** Filter Options Base, abstract class
 
 **Module:** [aspose.imaging.imagefilters.filteroptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/)
 
@@ -13,5 +13,5 @@ Filter Options Base, abstract class
 
 **Aspose.Imaging Version:** 23.6
 
-The FilterOptionsBase type exposes the following members:
+
 

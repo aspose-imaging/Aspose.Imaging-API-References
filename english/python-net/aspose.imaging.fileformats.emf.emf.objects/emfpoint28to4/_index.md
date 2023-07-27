@@ -5,7 +5,7 @@ weight: 230
 url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfpoint28to4/
 ---
 
-The Point28_4 object represents the location of a point on a device surface with coordinates in 28.4 bit FIX notation.
+**Summary:** The Point28_4 object represents the location of a point on a device surface with coordinates in 28.4 bit FIX notation.
 
 **Module:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
@@ -15,18 +15,18 @@ The Point28_4 object represents the location of a point on a device surface with
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfPoint28To4 type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EmfPoint28To4()](#EmfPoint28To4__0) | Initializes a new instance of the EmfPoint28To4 class |
+| [EmfPoint28To4()](#EmfPoint28To4__1) | Initializes a new instance of the EmfPoint28To4 class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | x | [EmfBitFix28To4](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4) | r/w | Gets or sets a BitFIX28_4 object (section 2.2.1) that represents the horizontal coordinate of the point. |
 | y | [EmfBitFix28To4](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4) | r/w | Gets or sets a BitFIX28_4 object that represents the vertical coordinate of the point. |
 
-### EmfPoint28To4() {#EmfPoint28To4__0}
+
+### Constructor: EmfPoint28To4() {#EmfPoint28To4__1}
 
 
 ```

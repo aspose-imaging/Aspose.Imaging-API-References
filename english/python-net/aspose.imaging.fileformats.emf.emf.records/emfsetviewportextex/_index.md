@@ -5,7 +5,7 @@ weight: 1300
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetviewportextex/
 ---
 
-The EMR_SETVIEWPORTEXTEX record defines the viewport extent.
+**Summary:** The EMR_SETVIEWPORTEXTEX record defines the viewport extent.
 
 **Module:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
@@ -15,25 +15,34 @@ The EMR_SETVIEWPORTEXTEX record defines the viewport extent.
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfSetViewportExtEx type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EmfSetViewportExtEx(source)](#EmfSetViewportExtEx_source_0) | Initializes a new instance of the [EmfSetViewportExtEx](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetviewportextex/) class. |
 | [EmfSetViewportExtEx()](#EmfSetViewportExtEx__1) | Initializes a new instance of the [EmfSetViewportExtEx](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetviewportextex/) class. |
+| [EmfSetViewportExtEx(source)](#EmfSetViewportExtEx_source_2) | Initializes a new instance of the [EmfSetViewportExtEx](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetviewportextex/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
-| size | int | r/w | Gets or sets the size of the record |
 | extent | [Size](/imaging/python-net/aspose.imaging/size) | r/w | Gets or sets a 64-bit WMF SizeL object ([MS-WMF] section 2.2.2.22) that specifies the<br/>            horizontal and vertical extents in device units. |
+| size | int | r/w | Gets or sets the size of the record |
+| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [create_from_record(source)](#create_from_record_source_2) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
-| [create_from_type(type)](#create_from_type_type_3) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
+| [create_from_record(source)](#create_from_record_source_1) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
+| [create_from_type(type)](#create_from_type_type_2) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
 
-### EmfSetViewportExtEx(source) {#EmfSetViewportExtEx_source_0}
+
+### Constructor: EmfSetViewportExtEx() {#EmfSetViewportExtEx__1}
+
+
+```
+ EmfSetViewportExtEx() 
+```
+
+Initializes a new instance of the [EmfSetViewportExtEx](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetviewportextex/) class.
+
+### Constructor: EmfSetViewportExtEx(source) {#EmfSetViewportExtEx_source_2}
 
 
 ```
@@ -48,16 +57,7 @@ Initializes a new instance of the [EmfSetViewportExtEx](/imaging/python-net/aspo
 | :- | :- | :- |
 | source | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) | The source. |
 
-### EmfSetViewportExtEx() {#EmfSetViewportExtEx__1}
-
-
-```
- EmfSetViewportExtEx() 
-```
-
-Initializes a new instance of the [EmfSetViewportExtEx](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetviewportextex/) class.
-
-### create_from_record(source)  [static] {#create_from_record_source_2}
+### Method: create_from_record(source)  [static] {#create_from_record_source_1}
 
 
 ```
@@ -79,7 +79,7 @@ Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging
 | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) |  |
 
 
-### create_from_type(type)  [static] {#create_from_type_type_3}
+### Method: create_from_type(type)  [static] {#create_from_type_type_2}
 
 
 ```

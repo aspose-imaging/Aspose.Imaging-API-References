@@ -5,7 +5,7 @@ weight: 1200
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetmetargn/
 ---
 
-Inter sets the current meta region with the current clipping region<br/>            to form a new meta region for the playback device context. The<br/>            current clipping region SHOULD be reset to null.<br/>            This EMF record specifies no parameters.
+**Summary:** Inter sets the current meta region with the current clipping region<br/>            to form a new meta region for the playback device context. The<br/>            current clipping region SHOULD be reset to null.<br/>            This EMF record specifies no parameters.
 
 **Module:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
@@ -15,23 +15,23 @@ Inter sets the current meta region with the current clipping region<br/>        
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfSetMetaRgn type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EmfSetMetaRgn(source)](#EmfSetMetaRgn_source_0) | Initializes a new instance of the [EmfSetMetaRgn](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetmetargn/) class. |
+| [EmfSetMetaRgn(source)](#EmfSetMetaRgn_source_1) | Initializes a new instance of the [EmfSetMetaRgn](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetmetargn/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
 | size | int | r/w | Gets or sets the size of the record |
+| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
 | [create_from_record(source)](#create_from_record_source_1) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
 | [create_from_type(type)](#create_from_type_type_2) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
 
-### EmfSetMetaRgn(source) {#EmfSetMetaRgn_source_0}
+
+### Constructor: EmfSetMetaRgn(source) {#EmfSetMetaRgn_source_1}
 
 
 ```
@@ -46,7 +46,7 @@ Initializes a new instance of the [EmfSetMetaRgn](/imaging/python-net/aspose.ima
 | :- | :- | :- |
 | source | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) | The source. |
 
-### create_from_record(source)  [static] {#create_from_record_source_1}
+### Method: create_from_record(source)  [static] {#create_from_record_source_1}
 
 
 ```
@@ -68,7 +68,7 @@ Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging
 | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) |  |
 
 
-### create_from_type(type)  [static] {#create_from_type_type_2}
+### Method: create_from_type(type)  [static] {#create_from_type_type_2}
 
 
 ```

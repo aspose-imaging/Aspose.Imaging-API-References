@@ -5,7 +5,7 @@ weight: 450
 url: /python-net/aspose.imaging.fileformats.cdr/icdrimage/
 ---
 
-The Cdr image interface
+**Summary:** The Cdr image interface
 
 **Module:** [aspose.imaging.fileformats.cdr](/imaging/python-net/aspose.imaging.fileformats.cdr/)
 
@@ -13,9 +13,9 @@ The Cdr image interface
 
 **Aspose.Imaging Version:** 23.6
 
-The ICdrImage type exposes the following members:
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | cdr_document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument/) | r | Gets or sets the CDR document. |
+
 

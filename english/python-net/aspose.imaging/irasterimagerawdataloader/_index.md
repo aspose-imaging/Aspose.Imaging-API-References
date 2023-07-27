@@ -5,7 +5,7 @@ weight: 5410
 url: /python-net/aspose.imaging/irasterimagerawdataloader/
 ---
 
-The raster image raw data loader.
+**Summary:** The raster image raw data loader.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -13,18 +13,18 @@ The raster image raw data loader.
 
 **Aspose.Imaging Version:** 23.6
 
-The IRasterImageRawDataLoader type exposes the following members:
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | is_raw_data_available | bool | r | Gets a value indicating whether raw data loading is supported. |
 | raw_data_settings | [RawDataSettings](/imaging/python-net/aspose.imaging/rawdatasettings) | r | Gets the current raw data settings. Note when using these settings the data loads without conversion. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [load_raw_data(rectangle, raw_data_settings, raw_data_loader)](#load_raw_data_rectangle_raw_data_settings_raw_data_loader_0) | Loads raw data. |
+| [load_raw_data(rectangle, raw_data_settings, raw_data_loader)](#load_raw_data_rectangle_raw_data_settings_raw_data_loader_1) | Loads raw data. |
 
-### load_raw_data(rectangle, raw_data_settings, raw_data_loader) {#load_raw_data_rectangle_raw_data_settings_raw_data_loader_0}
+
+### Method: load_raw_data(rectangle, raw_data_settings, raw_data_loader) {#load_raw_data_rectangle_raw_data_settings_raw_data_loader_1}
 
 
 ```

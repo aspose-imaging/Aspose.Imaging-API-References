@@ -5,7 +5,7 @@ weight: 30
 url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbaseimagedata/
 ---
 
-Base class for image data types.
+**Summary:** Base class for image data types.
 
 **Module:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
@@ -15,5 +15,5 @@ Base class for image data types.
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfPlusBaseImageData type exposes the following members:
+
 

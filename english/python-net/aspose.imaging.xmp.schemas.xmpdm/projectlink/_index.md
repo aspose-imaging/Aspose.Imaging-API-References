@@ -5,7 +5,7 @@ weight: 30
 url: /python-net/aspose.imaging.xmp.schemas.xmpdm/projectlink/
 ---
 
-Represents path of the project.
+**Summary:** Represents path of the project.
 
 **Module:** [aspose.imaging.xmp.schemas.xmpdm](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/)
 
@@ -15,13 +15,12 @@ Represents path of the project.
 
 **Aspose.Imaging Version:** 23.6
 
-The ProjectLink type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [ProjectLink()](#ProjectLink__0) | Initializes a new instance of the ProjectLink class |
+| [ProjectLink()](#ProjectLink__1) | Initializes a new instance of the ProjectLink class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | path | string | r/w | Gets or sets full path to the project. |
 | type | [ProjectType](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/projecttype) | r/w | Gets or sets file type. |
@@ -30,7 +29,8 @@ The ProjectLink type exposes the following members:
 | :- | :- |
 | [get_xmp_representation()](#get_xmp_representation__1) | Returns string contained value in XMP format. |
 
-### ProjectLink() {#ProjectLink__0}
+
+### Constructor: ProjectLink() {#ProjectLink__1}
 
 
 ```
@@ -39,7 +39,7 @@ The ProjectLink type exposes the following members:
 
 Initializes a new instance of the ProjectLink class
 
-### get_xmp_representation() {#get_xmp_representation__1}
+### Method: get_xmp_representation() {#get_xmp_representation__1}
 
 
 ```

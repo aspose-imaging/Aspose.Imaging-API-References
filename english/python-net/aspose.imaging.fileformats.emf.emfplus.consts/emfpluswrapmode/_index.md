@@ -16,8 +16,8 @@ The WrapMode enumeration defines how the pattern from a texture or gradient brus
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
+| WRAP_MODE_CLAMP | Fixes the texture or gradient to the object boundary. |
 | WRAP_MODE_TILE | Tiles the gradient or texture. |
 | WRAP_MODE_TILE_FLIP_X | Reverses the texture or gradient horizontally, and then tiles the texture or gradient. |
-| WRAP_MODE_TILE_FLIP_Y | Reverses the texture or gradient vertically, and then tiles the texture or gradient. |
 | WRAP_MODE_TILE_FLIP_XY | Reverses the texture or gradient horizontally and vertically, and then tiles the texture or gradient. |
-| WRAP_MODE_CLAMP | Fixes the texture or gradient to the object boundary. |
+| WRAP_MODE_TILE_FLIP_Y | Reverses the texture or gradient vertically, and then tiles the texture or gradient. |

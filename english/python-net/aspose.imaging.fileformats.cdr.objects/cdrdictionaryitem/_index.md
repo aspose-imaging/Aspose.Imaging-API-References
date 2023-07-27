@@ -5,7 +5,7 @@ weight: 60
 url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrdictionaryitem/
 ---
 
-The cdr dictionary item
+**Summary:** The cdr dictionary item
 
 **Module:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
@@ -15,20 +15,20 @@ The cdr dictionary item
 
 **Aspose.Imaging Version:** 23.6
 
-The CdrDictionaryItem type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [CdrDictionaryItem()](#CdrDictionaryItem__0) | Initializes a new instance of the CdrDictionaryItem class |
+| [CdrDictionaryItem()](#CdrDictionaryItem__1) | Initializes a new instance of the CdrDictionaryItem class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
 | document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |
 | id | int | r/w | Gets or sets the identifier. |
+| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
 
-### CdrDictionaryItem() {#CdrDictionaryItem__0}
+
+### Constructor: CdrDictionaryItem() {#CdrDictionaryItem__1}
 
 
 ```

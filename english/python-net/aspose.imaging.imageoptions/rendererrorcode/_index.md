@@ -16,8 +16,8 @@ Represents possible missing sections in CAD file
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| MISSING_HEADER | Header is missing |
-| MISSING_LAYOUTS | Layouts information is missing |
 | MISSING_BLOCKS | Block information is missing |
 | MISSING_DIMENSION_STYLES | Dimension styles information is missing |
+| MISSING_HEADER | Header is missing |
+| MISSING_LAYOUTS | Layouts information is missing |
 | MISSING_STYLES | Styles information is missing |

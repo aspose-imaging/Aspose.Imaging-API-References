@@ -5,7 +5,7 @@ weight: 200
 url: /python-net/aspose.imaging.fileformats.cdr.objects/cdroutline/
 ---
 
-The cdr out line
+**Summary:** The cdr out line
 
 **Module:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
@@ -15,30 +15,30 @@ The cdr out line
 
 **Aspose.Imaging Version:** 23.6
 
-The CdrOutline type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [CdrOutline()](#CdrOutline__0) | Initializes a new instance of the CdrOutline class |
+| [CdrOutline()](#CdrOutline__1) | Initializes a new instance of the CdrOutline class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
-| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |
-| id | int | r/w | Gets or sets the identifier. |
-| line_type | short | r/w | Gets or sets the type of the line. |
-| caps_type | short | r/w | Gets or sets the type of the caps. |
-| join_type | short | r/w | Gets or sets the type of the join. |
-| line_width | double | r/w | Gets or sets the width of the line. |
-| stretch | double | r/w | Gets or sets the stretch. |
 | aangle | double | r/w | Gets or sets the angle. |
+| caps_type | short | r/w | Gets or sets the type of the caps. |
 | color | [CdrColor](/imaging/python-net/aspose.imaging.fileformats.cdr.types/cdrcolor/) | r/w | Gets or sets the color. |
-| dash_array | System.Collections.Generic.List<int> | r/w | Gets or sets the dash array. |
-| start_marker_id | int | r/w | Gets or sets the start marker identifier. |
+| dash_array | list[int] | r/w | Gets or sets the dash array. |
+| disposed | bool | r | Gets a value indicating whether this instance is disposed. |
+| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |
 | end_marker_id | int | r/w | Gets or sets the end marker identifier. |
+| id | int | r/w | Gets or sets the identifier. |
+| join_type | short | r/w | Gets or sets the type of the join. |
+| line_type | short | r/w | Gets or sets the type of the line. |
+| line_width | double | r/w | Gets or sets the width of the line. |
+| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
+| start_marker_id | int | r/w | Gets or sets the start marker identifier. |
+| stretch | double | r/w | Gets or sets the stretch. |
 
-### CdrOutline() {#CdrOutline__0}
+
+### Constructor: CdrOutline() {#CdrOutline__1}
 
 
 ```

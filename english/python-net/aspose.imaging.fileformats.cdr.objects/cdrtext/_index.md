@@ -5,7 +5,7 @@ weight: 320
 url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrtext/
 ---
 
-The cdr text
+**Summary:** The cdr text
 
 **Module:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
@@ -15,24 +15,24 @@ The cdr text
 
 **Aspose.Imaging Version:** 23.6
 
-The CdrText type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [CdrText()](#CdrText__0) | Initializes a new instance of the [CdrText](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrtext/) class. |
+| [CdrText()](#CdrText__1) | Initializes a new instance of the [CdrText](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrtext/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
+| char_descriptors | byte | r/w | Initializes a new instance of the [CdrText](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrtext/) class. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
 | document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |
 | id | int | r/w | Gets or sets the identifier.<br/>            For legacy compatibility |
-| text | string | r/w | Gets or sets the CDR text boxes. |
-| char_descriptors | byte | r/w | Initializes a new instance of the [CdrText](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrtext/) class. |
-| styles | [CdrStyle[]](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrstyle) | r/w | Adds the text box. |
+| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
 | style_id | int | r/w | Gets or sets the style identifier. |
+| styles | [CdrStyle[]](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrstyle) | r/w | Adds the text box. |
+| text | string | r/w | Gets or sets the CDR text boxes. |
 
-### CdrText() {#CdrText__0}
+
+### Constructor: CdrText() {#CdrText__1}
 
 
 ```

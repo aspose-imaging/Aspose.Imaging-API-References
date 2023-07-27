@@ -5,7 +5,7 @@ weight: 760
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetrelabs/
 ---
 
-The META_SETRELABS record is reserved and not supported.
+**Summary:** The META_SETRELABS record is reserved and not supported.
 
 **Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
@@ -15,17 +15,17 @@ The META_SETRELABS record is reserved and not supported.
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfSetRelabs type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfSetRelabs()](#WmfSetRelabs__0) | Initializes a new instance of the WmfSetRelabs class |
+| [WmfSetRelabs()](#WmfSetRelabs__1) | Initializes a new instance of the WmfSetRelabs class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | parameters | short | r/w | Gets or sets the parameter. |
 
-### WmfSetRelabs() {#WmfSetRelabs__0}
+
+### Constructor: WmfSetRelabs() {#WmfSetRelabs__1}
 
 
 ```

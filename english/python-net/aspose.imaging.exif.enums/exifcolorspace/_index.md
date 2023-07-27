@@ -16,6 +16,6 @@ exif color space enum.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| S_RGB | SRGB color space. |
 | ADOBE_RGB | Adobe rgb color space. |
+| S_RGB | SRGB color space. |
 | UNCALIBRATED | Uncalibrated color space. |

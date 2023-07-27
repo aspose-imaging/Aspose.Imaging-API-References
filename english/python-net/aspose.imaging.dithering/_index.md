@@ -9,6 +9,6 @@ url: /python-net/aspose.imaging.dithering/
 The module provides different helper classes for color dithering.
 
 ## **Classes**
-|**Class**|**Description**|
+| **Class** | **Description** |
 | :- | :- |
-|[DitheringMode](/imaging/python-net/aspose.imaging.dithering/ditheringmode/)|Dithering settings to be applied to image upon saving.|
+| [DitheringMode](/imaging/python-net/aspose.imaging.dithering/ditheringmode/) | Dithering settings to be applied to image upon saving. |

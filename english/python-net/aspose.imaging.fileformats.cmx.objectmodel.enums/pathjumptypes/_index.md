@@ -16,7 +16,7 @@ Types of transitions between points of the [CmxPathSpec](/imaging/python-net/asp
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| MOVE_TO | The point is not connected to the previous one. Uses for visible points. |
-| LINE_TO | The point is connected to the previous one through a straight line. Uses for visible points. |
-| BEZIER_TO | The point is connected to the previous visible point through a bi-cubic bezier curve. Uses for visible points. |
 | BEZIER_SUPPORT | Uses for invisible auxiliary point to build a bi-cubic bezier curve. |
+| BEZIER_TO | The point is connected to the previous visible point through a bi-cubic bezier curve. Uses for visible points. |
+| LINE_TO | The point is connected to the previous one through a straight line. Uses for visible points. |
+| MOVE_TO | The point is not connected to the previous one. Uses for visible points. |

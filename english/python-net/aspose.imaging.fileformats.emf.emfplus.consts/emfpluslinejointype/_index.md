@@ -16,7 +16,7 @@ The LineJoinType enumeration defines ways to join two lines that are drawn by th
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| LINE_JOIN_TYPE_MITER | Specifies a mitered line join. |
 | LINE_JOIN_TYPE_BEVEL | Specifies a beveled line join. |
-| LINE_JOIN_TYPE_ROUND | Specifies a rounded line join. |
+| LINE_JOIN_TYPE_MITER | Specifies a mitered line join. |
 | LINE_JOIN_TYPE_MITER_CLIPPED | Specifies a clipped mitered line join. |
+| LINE_JOIN_TYPE_ROUND | Specifies a rounded line join. |

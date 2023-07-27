@@ -5,7 +5,7 @@ weight: 50
 url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap/
 ---
 
-The EmfPlusBitmap object specifies a bitmap that contains a graphics image.
+**Summary:** The EmfPlusBitmap object specifies a bitmap that contains a graphics image.
 
 **Module:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
@@ -15,13 +15,12 @@ The EmfPlusBitmap object specifies a bitmap that contains a graphics image.
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfPlusBitmap type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EmfPlusBitmap()](#EmfPlusBitmap__0) | Initializes a new instance of the EmfPlusBitmap class |
+| [EmfPlusBitmap()](#EmfPlusBitmap__1) | Initializes a new instance of the EmfPlusBitmap class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | bitmap_data | [EmfPlusBaseBitmapData](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbasebitmapdata) | r/w | Gets or sets bitmap data<br/>            BitmapData (variable): Variable-length data that defines the bitmap data object specified in the Type field. The<br/>            content and format of the data can be different for every bitmap type. |
 | height | int | r/w | Gets or sets bitmap height<br/>            Height (4 bytes): A 32-bit signed integer that specifies the height in pixels of the area occupied by the bitmap.<br/>            If the image is compressed, according to the Type field, this value is undefined and MUST be ignored. |
@@ -30,7 +29,8 @@ The EmfPlusBitmap type exposes the following members:
 | type | [EmfPlusBitmapDataType](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusbitmapdatatype/) | r/w | Gets or sets type of the image<br/>            Type (4 bytes): A 32-bit unsigned integer that specifies the type of data in the BitmapData field. This value MUST<br/>            be defined in the [EmfPlusBitmapDataType](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusbitmapdatatype/) enumeration (section 2.1.1.2). |
 | width | int | r/w | Gets or sets image Width<br/>            Width (4 bytes): A 32-bit signed integer that specifies the width in pixels of the area occupied by the bitmap.<br/>            If the image is compressed, according to the Type field, this value is undefined and MUST be ignored. |
 
-### EmfPlusBitmap() {#EmfPlusBitmap__0}
+
+### Constructor: EmfPlusBitmap() {#EmfPlusBitmap__1}
 
 
 ```

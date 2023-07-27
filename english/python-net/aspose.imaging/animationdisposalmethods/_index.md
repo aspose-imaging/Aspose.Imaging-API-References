@@ -16,6 +16,6 @@ Indicates the way in which the graphic is to be treated after being displayed.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| PRESERVE | Do not dispose. The graphic is to be left in place. |
 | BACKGROUND | Restore to background color. The area used by the graphic must be restored to the background color. |
+| PRESERVE | Do not dispose. The graphic is to be left in place. |
 | PREVIOUS | Restore to previous. The decoder is required to restore the area overwritten by the graphic with what was there prior to rendering the graphic. |

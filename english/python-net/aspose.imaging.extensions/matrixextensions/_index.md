@@ -5,7 +5,7 @@ weight: 110
 url: /python-net/aspose.imaging.extensions/matrixextensions/
 ---
 
-Contains the [Matrix](/imaging/python-net/aspose.imaging/matrix/) class extensions.
+**Summary:** Contains the [Matrix](/imaging/python-net/aspose.imaging/matrix/) class extensions.
 
 **Module:** [aspose.imaging.extensions](/imaging/python-net/aspose.imaging.extensions/)
 
@@ -13,13 +13,13 @@ Contains the [Matrix](/imaging/python-net/aspose.imaging/matrix/) class extensio
 
 **Aspose.Imaging Version:** 23.6
 
-The MatrixExtensions type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [to_gdi_matrix(matrix)](#to_gdi_matrix_matrix_0) | Converts the [Matrix](/imaging/python-net/aspose.imaging/matrix/) to the . |
+| [to_gdi_matrix(matrix)](#to_gdi_matrix_matrix_1) | Converts the [Matrix](/imaging/python-net/aspose.imaging/matrix/) to the . |
 
-### to_gdi_matrix(matrix)  [static] {#to_gdi_matrix_matrix_0}
+
+### Method: to_gdi_matrix(matrix)  [static] {#to_gdi_matrix_matrix_1}
 
 
 ```

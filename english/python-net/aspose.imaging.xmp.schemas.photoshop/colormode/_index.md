@@ -17,10 +17,10 @@ Represents color mode in [PhotoshopPackage](/imaging/python-net/aspose.imaging.x
 | **Member name** | **Description** |
 | :- | :- |
 | BITMAP | Bitmap color mode. |
+| CMYK | CMYK color mode. |
+| DUOTONE | Duo-tone color. |
 | GRAY_SCALE | Gray scale color mode. |
 | INDEXED_COLOR | The indexed color. |
-| RGB | RGB color. |
-| CMYK | CMYK color mode. |
-| MULTI_CHANNEL | Multi-channel color. |
-| DUOTONE | Duo-tone color. |
 | LAB_COLOR | LAB color. |
+| MULTI_CHANNEL | Multi-channel color. |
+| RGB | RGB color. |

@@ -5,7 +5,7 @@ weight: 10
 url: /python-net/aspose.imaging.xmp.types.derived/rational/
 ---
 
-Represents XMP Rational.
+**Summary:** Represents XMP Rational.
 
 **Module:** [aspose.imaging.xmp.types.derived](/imaging/python-net/aspose.imaging.xmp.types.derived/)
 
@@ -15,23 +15,23 @@ Represents XMP Rational.
 
 **Aspose.Imaging Version:** 23.6
 
-The Rational type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [Rational(numerator, denominator)](#Rational_numerator_denominator_0) | Initializes a new instance of the [Rational](/imaging/python-net/aspose.imaging.xmp.types.derived/rational/) class. |
+| [Rational(numerator, denominator)](#Rational_numerator_denominator_1) | Initializes a new instance of the [Rational](/imaging/python-net/aspose.imaging.xmp.types.derived/rational/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| numerator | int | r | Gets the numerator. |
 | denominator | int | r/w | Gets or sets the denominator. |
 | float_value | float | r | Gets the float value. |
+| numerator | int | r | Gets the numerator. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
 | [get_xmp_representation()](#get_xmp_representation__1) | Gets thestring contained value in XMP format. |
 
-### Rational(numerator, denominator) {#Rational_numerator_denominator_0}
+
+### Constructor: Rational(numerator, denominator) {#Rational_numerator_denominator_1}
 
 
 ```
@@ -47,7 +47,7 @@ Initializes a new instance of the [Rational](/imaging/python-net/aspose.imaging.
 | numerator | int | The numerator. |
 | denominator | int | The denominator. |
 
-### get_xmp_representation() {#get_xmp_representation__1}
+### Method: get_xmp_representation() {#get_xmp_representation__1}
 
 
 ```

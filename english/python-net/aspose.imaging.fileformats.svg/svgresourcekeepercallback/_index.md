@@ -5,7 +5,7 @@ weight: 50
 url: /python-net/aspose.imaging.fileformats.svg/svgresourcekeepercallback/
 ---
 
-The resource keeper callback.
+**Summary:** The resource keeper callback.
 
 **Module:** [aspose.imaging.fileformats.svg](/imaging/python-net/aspose.imaging.fileformats.svg/)
 
@@ -15,19 +15,19 @@ The resource keeper callback.
 
 **Aspose.Imaging Version:** 23.6
 
-The SvgResourceKeeperCallback type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [SvgResourceKeeperCallback()](#SvgResourceKeeperCallback__0) | Initializes a new instance of the SvgResourceKeeperCallback class |
+| [SvgResourceKeeperCallback()](#SvgResourceKeeperCallback__1) | Initializes a new instance of the SvgResourceKeeperCallback class |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [on_image_resource_ready(image_data, image_type, suggested_file_name, use_embedded_image)](#on_image_resource_ready_image_data_image_type_suggested_file_name_use_embedded_image_1) | Called when the image resource is ready for export. |
-| [on_font_resource_ready(args)](#on_font_resource_ready_args_2) | Called when the font resource is ready for export. |
+| [on_font_resource_ready(args)](#on_font_resource_ready_args_1) | Called when the font resource is ready for export. |
+| [on_image_resource_ready(image_data, image_type, suggested_file_name, use_embedded_image)](#on_image_resource_ready_image_data_image_type_suggested_file_name_use_embedded_image_2) | Called when the image resource is ready for export. |
 | [on_svg_document_ready(html_data, suggested_file_name)](#on_svg_document_ready_html_data_suggested_file_name_3) | Called when the SVG document is ready for export. |
 
-### SvgResourceKeeperCallback() {#SvgResourceKeeperCallback__0}
+
+### Constructor: SvgResourceKeeperCallback() {#SvgResourceKeeperCallback__1}
 
 
 ```
@@ -36,7 +36,22 @@ The SvgResourceKeeperCallback type exposes the following members:
 
 Initializes a new instance of the SvgResourceKeeperCallback class
 
-### on_image_resource_ready(image_data, image_type, suggested_file_name, use_embedded_image) {#on_image_resource_ready_image_data_image_type_suggested_file_name_use_embedded_image_1}
+### Method: on_font_resource_ready(args) {#on_font_resource_ready_args_1}
+
+
+```
+ on_font_resource_ready(args) 
+```
+
+Called when the font resource is ready for export.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| args | [FontStoringArgs](/imaging/python-net/aspose.imaging.fileformats.svg/fontstoringargs) | The font storing options. |
+
+### Method: on_image_resource_ready(image_data, image_type, suggested_file_name, use_embedded_image) {#on_image_resource_ready_image_data_image_type_suggested_file_name_use_embedded_image_2}
 
 
 ```
@@ -61,22 +76,7 @@ Called when the image resource is ready for export.
 | string | Returns the path to the saved resource. Path should be relative to target SVG document. |
 
 
-### on_font_resource_ready(args) {#on_font_resource_ready_args_2}
-
-
-```
- on_font_resource_ready(args) 
-```
-
-Called when the font resource is ready for export.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| args | [FontStoringArgs](/imaging/python-net/aspose.imaging.fileformats.svg/fontstoringargs) | The font storing options. |
-
-### on_svg_document_ready(html_data, suggested_file_name) {#on_svg_document_ready_html_data_suggested_file_name_3}
+### Method: on_svg_document_ready(html_data, suggested_file_name) {#on_svg_document_ready_html_data_suggested_file_name_3}
 
 
 ```

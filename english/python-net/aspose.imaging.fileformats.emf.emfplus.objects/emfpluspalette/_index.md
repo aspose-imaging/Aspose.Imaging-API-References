@@ -5,7 +5,7 @@ weight: 480
 url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspalette/
 ---
 
-The EmfPlusPalette object specifies the colors that make up a palette.
+**Summary:** The EmfPlusPalette object specifies the colors that make up a palette.
 
 **Module:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
@@ -15,18 +15,18 @@ The EmfPlusPalette object specifies the colors that make up a palette.
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfPlusPalette type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EmfPlusPalette()](#EmfPlusPalette__0) | Initializes a new instance of the EmfPlusPalette class |
+| [EmfPlusPalette()](#EmfPlusPalette__1) | Initializes a new instance of the EmfPlusPalette class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| palette_style_flags | [EmfPlusPaletteStyleFlags](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspalettestyleflags/) | r/w | Gets or sets the palette style flags. |
 | argb_32_entries | int | r/w | Gets or sets the palette entries. |
+| palette_style_flags | [EmfPlusPaletteStyleFlags](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspalettestyleflags/) | r/w | Gets or sets the palette style flags. |
 
-### EmfPlusPalette() {#EmfPlusPalette__0}
+
+### Constructor: EmfPlusPalette() {#EmfPlusPalette__1}
 
 
 ```

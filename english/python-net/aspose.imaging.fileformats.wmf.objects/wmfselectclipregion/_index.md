@@ -5,7 +5,7 @@ weight: 640
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfselectclipregion/
 ---
 
-The META_SELECTCLIPREGION record specifies a Region Object (section 2.2.1.5) to be the current clipping region.
+**Summary:** The META_SELECTCLIPREGION record specifies a Region Object (section 2.2.1.5) to be the current clipping region.
 
 **Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
@@ -15,18 +15,18 @@ The META_SELECTCLIPREGION record specifies a Region Object (section 2.2.1.5) to 
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfSelectClipRegion type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfSelectClipRegion()](#WmfSelectClipRegion__0) | Initializes a new instance of the [WmfSelectClipRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfselectclipregion/) class. |
-| [WmfSelectClipRegion(region)](#WmfSelectClipRegion_region_1) | Initializes a new instance of the [WmfSelectClipRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfselectclipregion/) class. |
+| [WmfSelectClipRegion()](#WmfSelectClipRegion__1) | Initializes a new instance of the [WmfSelectClipRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfselectclipregion/) class. |
+| [WmfSelectClipRegion(region)](#WmfSelectClipRegion_region_2) | Initializes a new instance of the [WmfSelectClipRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfselectclipregion/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | object_index | int | r/w | Gets or sets the index of the object. |
 
-### WmfSelectClipRegion() {#WmfSelectClipRegion__0}
+
+### Constructor: WmfSelectClipRegion() {#WmfSelectClipRegion__1}
 
 
 ```
@@ -35,7 +35,7 @@ The WmfSelectClipRegion type exposes the following members:
 
 Initializes a new instance of the [WmfSelectClipRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfselectclipregion/) class.
 
-### WmfSelectClipRegion(region) {#WmfSelectClipRegion_region_1}
+### Constructor: WmfSelectClipRegion(region) {#WmfSelectClipRegion_region_2}
 
 
 ```

@@ -16,5 +16,5 @@ The ArcDirection enumeration is used in setting the drawing direction for arc an
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| AD_COUNTERCLOCKWISE | Figures drawn counterclockwise |
 | AD_CLOCKWISE | Figures drawn clockwise. |
+| AD_COUNTERCLOCKWISE | Figures drawn counterclockwise |

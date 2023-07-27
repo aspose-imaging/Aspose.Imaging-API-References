@@ -5,7 +5,7 @@ weight: 300
 url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odshortcurveto/
 ---
 
-The short CurveTo
+**Summary:** The short CurveTo
 
 **Module:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
@@ -15,20 +15,20 @@ The short CurveTo
 
 **Aspose.Imaging Version:** 23.6
 
-The OdShortCurveTo type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [OdShortCurveTo(parent)](#OdShortCurveTo_parent_0) | Initializes a new instance of the [OdShortCurveTo](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odshortcurveto/) class. |
+| [OdShortCurveTo(parent)](#OdShortCurveTo_parent_1) | Initializes a new instance of the [OdShortCurveTo](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odshortcurveto/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
-| items | System.Collections.Generic.List<OdObject> | r | Gets the items. |
 | absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
+| items | list[OdObject] | r | Gets the items. |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
 | points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the points. |
 
-### OdShortCurveTo(parent) {#OdShortCurveTo_parent_0}
+
+### Constructor: OdShortCurveTo(parent) {#OdShortCurveTo_parent_1}
 
 
 ```

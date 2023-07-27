@@ -9,6 +9,6 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpmm/
 The module contains related helper classes, constants and methods that is primarily used by digital asset management (DAM) systems.
 
 ## **Classes**
-|**Class**|**Description**|
+| **Class** | **Description** |
 | :- | :- |
-|[XmpMediaManagementPackage](/imaging/python-net/aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/)|Represents XMP Media Management namespace.|
+| [XmpMediaManagementPackage](/imaging/python-net/aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/) | Represents XMP Media Management namespace. |

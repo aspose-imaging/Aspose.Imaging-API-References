@@ -5,7 +5,7 @@ weight: 650
 url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringformat/
 ---
 
-The EmfPlusStringFormat object specifies text layout,<br/>            display manipulations, and language identification
+**Summary:** The EmfPlusStringFormat object specifies text layout,<br/>            display manipulations, and language identification
 
 **Module:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
@@ -15,15 +15,13 @@ The EmfPlusStringFormat object specifies text layout,<br/>            display ma
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfPlusStringFormat type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EmfPlusStringFormat()](#EmfPlusStringFormat__0) | Initializes a new instance of the EmfPlusStringFormat class |
+| [EmfPlusStringFormat()](#EmfPlusStringFormat__1) | Initializes a new instance of the EmfPlusStringFormat class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| version | [EmfPlusGraphicsVersion](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion) | r/w | Gets or sets the version. |
 | digit_language | [EmfPlusLanguageIdentifierType](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluslanguageidentifiertype/) | r/w | Gets or sets an EmfPlusLanguageIdentifier object that specifies the<br/>            language to use for numeric digits in the string.<br/>            For example, if this string contains Arabic digits,<br/>            this field MUST contain a language identifier that<br/>            specifies an Arabic language |
 | digit_substitution | [EmfPlusStringDigitSubstitution](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusstringdigitsubstitution/) | r/w | Gets or sets a 32-bit unsigned integer that specifies how to substitute<br/>            numeric digits in the string according to a locale or language.<br/>            This value MUST be defined in the StringDigitSubstitution<br/>            enumeration (section 2.1.1.30). |
 | first_tab_offset | float | r/w | Gets or sets a 32-bit floating-point value that specifies the number<br/>            of spaces between the beginning of a text line and<br/>            the first tab stop |
@@ -39,8 +37,10 @@ The EmfPlusStringFormat type exposes the following members:
 | tracking | float | r/w | Gets or sets a 32-bit floating-point value that specifies the ratio<br/>            of the horizontal space allotted to each character in<br/>            a specified string to the font-defined width of the<br/>            character. Large values for this property specify ample<br/>            space between characters; values less than 1 can produce<br/>            character overlap. The default is 1.03; for typographic<br/>            fonts, the default value is 1.00. |
 | trailing_margin | float | r/w | Gets or sets a 32-bit floating-point value that specifies the length<br/>            of the space to leave following a string. The default<br/>            is 1/6 inch; for typographic fonts, the default value is 0. |
 | trimming | [EmfPlusStringTrimming](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusstringtrimming/) | r/w | Gets or sets specifies how to trim characters from a string that is<br/>            too large to fit into a layout rectangle. This value<br/>            MUST be defined in the StringTrimming enumeration (section 2.1.1.31). |
+| version | [EmfPlusGraphicsVersion](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion) | r/w | Gets or sets the version. |
 
-### EmfPlusStringFormat() {#EmfPlusStringFormat__0}
+
+### Constructor: EmfPlusStringFormat() {#EmfPlusStringFormat__1}
 
 
 ```

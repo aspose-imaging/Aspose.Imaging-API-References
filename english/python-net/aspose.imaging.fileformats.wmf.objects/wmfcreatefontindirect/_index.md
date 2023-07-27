@@ -5,7 +5,7 @@ weight: 120
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfcreatefontindirect/
 ---
 
-The Create font
+**Summary:** The Create font
 
 **Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
@@ -15,19 +15,19 @@ The Create font
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfCreateFontInDirect type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfCreateFontInDirect()](#WmfCreateFontInDirect__0) | WMFs the record. |
+| [WmfCreateFontInDirect()](#WmfCreateFontInDirect__1) | WMFs the record. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
+| extended_bytes | byte | r/w | Gets or sets the extended bytes. |
 | index | int | r/w | Gets or sets the index. |
 | log_font | [EmfLogFont](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogfont/) | r/w | Gets or sets the log font. |
-| extended_bytes | byte | r/w | Gets or sets the extended bytes. |
 
-### WmfCreateFontInDirect() {#WmfCreateFontInDirect__0}
+
+### Constructor: WmfCreateFontInDirect() {#WmfCreateFontInDirect__1}
 
 
 ```

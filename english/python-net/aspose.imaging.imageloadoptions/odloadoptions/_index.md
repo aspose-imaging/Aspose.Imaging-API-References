@@ -5,7 +5,7 @@ weight: 40
 url: /python-net/aspose.imaging.imageloadoptions/odloadoptions/
 ---
 
-The Open Dcocument Load Options
+**Summary:** The Open Dcocument Load Options
 
 **Module:** [aspose.imaging.imageloadoptions](/imaging/python-net/aspose.imaging.imageloadoptions/)
 
@@ -15,21 +15,21 @@ The Open Dcocument Load Options
 
 **Aspose.Imaging Version:** 23.6
 
-The OdLoadOptions type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [OdLoadOptions()](#OdLoadOptions__0) | Initializes a new instance of the OdLoadOptions class |
+| [OdLoadOptions()](#OdLoadOptions__1) | Initializes a new instance of the OdLoadOptions class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| data_recovery_mode | [DataRecoveryMode](/imaging/python-net/aspose.imaging/datarecoverymode) | r/w | Gets or sets the data recovery mode. |
-| data_background_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets the [Image](/imaging/python-net/aspose.imaging/image/) background [Color](/imaging/python-net/aspose.imaging/color/). |
-| use_icc_profile_conversion | bool | r/w | Gets or sets a value indicating whether ICC profile conversion should be applied. |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| data_background_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets the [Image](/imaging/python-net/aspose.imaging/image/) background [Color](/imaging/python-net/aspose.imaging/color/). |
+| data_recovery_mode | [DataRecoveryMode](/imaging/python-net/aspose.imaging/datarecoverymode) | r/w | Gets or sets the data recovery mode. |
 | password | string | r/w | Gets or sets the password. |
+| use_icc_profile_conversion | bool | r/w | Gets or sets a value indicating whether ICC profile conversion should be applied. |
 
-### OdLoadOptions() {#OdLoadOptions__0}
+
+### Constructor: OdLoadOptions() {#OdLoadOptions__1}
 
 
 ```

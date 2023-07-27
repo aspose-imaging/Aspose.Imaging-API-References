@@ -16,7 +16,6 @@ Specifies the known system colors.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| TRANSPARENT | A system-defined color. |
 | ALICE_BLUE | A system-defined color. |
 | ANTIQUE_WHITE | A system-defined color. |
 | AQUA | A system-defined color. |
@@ -150,6 +149,7 @@ Specifies the known system colors.
 | TEAL | A system-defined color. |
 | THISTLE | A system-defined color. |
 | TOMATO | A system-defined color. |
+| TRANSPARENT | A system-defined color. |
 | TURQUOISE | A system-defined color. |
 | VIOLET | A system-defined color. |
 | WHEAT | A system-defined color. |

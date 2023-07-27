@@ -17,7 +17,7 @@ The tiff new sub file type enum.
 | **Member name** | **Description** |
 | :- | :- |
 | FILE_TYPE_DEFAULT | The default filetype. |
-| FILE_TYPE_REDUCED_IMAGE | The reduced image filetype. |
-| FILE_TYPE_PAGE | The page filetype. |
-| FILE_TYPE_MASK | The mask filetype. |
 | FILE_TYPE_LAST | The last filetype. |
+| FILE_TYPE_MASK | The mask filetype. |
+| FILE_TYPE_PAGE | The page filetype. |
+| FILE_TYPE_REDUCED_IMAGE | The reduced image filetype. |

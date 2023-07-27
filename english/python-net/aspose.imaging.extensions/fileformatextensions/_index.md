@@ -5,7 +5,7 @@ weight: 60
 url: /python-net/aspose.imaging.extensions/fileformatextensions/
 ---
 
-Contains [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) extension methods.
+**Summary:** Contains [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) extension methods.
 
 **Module:** [aspose.imaging.extensions](/imaging/python-net/aspose.imaging.extensions/)
 
@@ -13,13 +13,13 @@ Contains [FileFormat](/imaging/python-net/aspose.imaging/fileformat/) extension 
 
 **Aspose.Imaging Version:** 23.6
 
-The FileFormatExtensions type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [is_single_format_defined(file_format)](#is_single_format_defined_file_format_0) | Determines whether single file format is defined. |
+| [is_single_format_defined(file_format)](#is_single_format_defined_file_format_1) | Determines whether single file format is defined. |
 
-### is_single_format_defined(file_format)  [static] {#is_single_format_defined_file_format_0}
+
+### Method: is_single_format_defined(file_format)  [static] {#is_single_format_defined_file_format_1}
 
 
 ```

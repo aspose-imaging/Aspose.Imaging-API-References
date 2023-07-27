@@ -5,7 +5,7 @@ weight: 310
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmffillregion/
 ---
 
-The META_FILLREGION record fills a region using a specified brush.
+**Summary:** The META_FILLREGION record fills a region using a specified brush.
 
 **Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
@@ -15,19 +15,19 @@ The META_FILLREGION record fills a region using a specified brush.
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfFillRegion type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfFillRegion()](#WmfFillRegion__0) | Initializes a new instance of the [WmfFillRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmffillregion/) class. |
-| [WmfFillRegion(region, brush)](#WmfFillRegion_region_brush_1) | Initializes a new instance of the [WmfFillRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmffillregion/) class. |
+| [WmfFillRegion()](#WmfFillRegion__1) | Initializes a new instance of the [WmfFillRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmffillregion/) class. |
+| [WmfFillRegion(region, brush)](#WmfFillRegion_region_brush_2) | Initializes a new instance of the [WmfFillRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmffillregion/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| region_index | int | r/w | Gets or sets the index of the region. |
 | brush_index | int | r/w | Gets or sets the index of the brush. |
+| region_index | int | r/w | Gets or sets the index of the region. |
 
-### WmfFillRegion() {#WmfFillRegion__0}
+
+### Constructor: WmfFillRegion() {#WmfFillRegion__1}
 
 
 ```
@@ -36,7 +36,7 @@ The WmfFillRegion type exposes the following members:
 
 Initializes a new instance of the [WmfFillRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmffillregion/) class.
 
-### WmfFillRegion(region, brush) {#WmfFillRegion_region_brush_1}
+### Constructor: WmfFillRegion(region, brush) {#WmfFillRegion_region_brush_2}
 
 
 ```

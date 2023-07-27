@@ -16,9 +16,9 @@ The LineStyle enumeration defines styles of lines that are drawn with graphics p
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| LINE_STYLE_SOLID | Specifies a solid line. |
+| LINE_STYLE_CUSTOM | Specifies a user-defined, custom dashed line. |
 | LINE_STYLE_DASH | Specifies a dashed line. |
-| LINE_STYLE_DOT | Specifies a dotted line. |
 | LINE_STYLE_DASH_DOT | Specifies an alternating dash-dot line. |
 | LINE_STYLE_DASH_DOT_DOT | Specifies an alternating dash-dot-dot line. |
-| LINE_STYLE_CUSTOM | Specifies a user-defined, custom dashed line. |
+| LINE_STYLE_DOT | Specifies a dotted line. |
+| LINE_STYLE_SOLID | Specifies a solid line. |

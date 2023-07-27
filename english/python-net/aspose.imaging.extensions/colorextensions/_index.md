@@ -5,7 +5,7 @@ weight: 30
 url: /python-net/aspose.imaging.extensions/colorextensions/
 ---
 
-The [Color](/imaging/python-net/aspose.imaging/color/) extension methods.
+**Summary:** The [Color](/imaging/python-net/aspose.imaging/color/) extension methods.
 
 **Module:** [aspose.imaging.extensions](/imaging/python-net/aspose.imaging.extensions/)
 
@@ -13,14 +13,14 @@ The [Color](/imaging/python-net/aspose.imaging/color/) extension methods.
 
 **Aspose.Imaging Version:** 23.6
 
-The ColorExtensions type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [to_gdi_color(color)](#to_gdi_color_color_0) | Converts the [Color](/imaging/python-net/aspose.imaging/color/) to the aspose.pydrawing.Color. |
-| [to_gdi_colors(colors)](#to_gdi_colors_colors_1) | Converts the [Color](/imaging/python-net/aspose.imaging/color/) array to the aspose.pydrawing.Color array. |
+| [to_gdi_color(color)](#to_gdi_color_color_1) | Converts the [Color](/imaging/python-net/aspose.imaging/color/) to the aspose.pydrawing.Color. |
+| [to_gdi_colors(colors)](#to_gdi_colors_colors_2) | Converts the [Color](/imaging/python-net/aspose.imaging/color/) array to the aspose.pydrawing.Color array. |
 
-### to_gdi_color(color)  [static] {#to_gdi_color_color_0}
+
+### Method: to_gdi_color(color)  [static] {#to_gdi_color_color_1}
 
 
 ```
@@ -42,7 +42,7 @@ Converts the [Color](/imaging/python-net/aspose.imaging/color/) to the aspose.py
 | System.Drawing.Color | The converted aspose.pydrawing.Color. |
 
 
-### to_gdi_colors(colors)  [static] {#to_gdi_colors_colors_1}
+### Method: to_gdi_colors(colors)  [static] {#to_gdi_colors_colors_2}
 
 
 ```

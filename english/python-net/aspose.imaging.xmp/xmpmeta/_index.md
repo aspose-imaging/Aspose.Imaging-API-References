@@ -5,7 +5,7 @@ weight: 420
 url: /python-net/aspose.imaging.xmp/xmpmeta/
 ---
 
-Represents xmpmeta. Optional.<br/>            The purpose of this element is to identify XMP metadata within general XML text that might contain other non-XMP uses of RDF.
+**Summary:** Represents xmpmeta. Optional.<br/>            The purpose of this element is to identify XMP metadata within general XML text that might contain other non-XMP uses of RDF.
 
 **Module:** [aspose.imaging.xmp](/imaging/python-net/aspose.imaging.xmp/)
 
@@ -15,25 +15,34 @@ Represents xmpmeta. Optional.<br/>            The purpose of this element is to 
 
 **Aspose.Imaging Version:** 23.6
 
-The XmpMeta type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [XmpMeta(toolkit_version)](#XmpMeta_toolkit_version_0) | Initializes a new instance of the [XmpMeta](/imaging/python-net/aspose.imaging.xmp/xmpmeta/) class. |
 | [XmpMeta()](#XmpMeta__1) | Initializes a new instance of the [XmpMeta](/imaging/python-net/aspose.imaging.xmp/xmpmeta/) class. |
+| [XmpMeta(toolkit_version)](#XmpMeta_toolkit_version_2) | Initializes a new instance of the [XmpMeta](/imaging/python-net/aspose.imaging.xmp/xmpmeta/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | adobe_xmp_toolkit | string | r/w | Gets or set Adobe Xmp toolkit version. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [add_attribute(attribute, value)](#add_attribute_attribute_value_2) | Adds the attribute. |
-| [get_attribute(attribute)](#get_attribute_attribute_3) | Gets the attribute. |
+| [add_attribute(attribute, value)](#add_attribute_attribute_value_1) | Adds the attribute. |
 | clear_attributes() | Removes all attributes. |
-| [get_xml_value()](#get_xml_value__4) | Converts XMP value to the XML representation. |
+| [get_attribute(attribute)](#get_attribute_attribute_2) | Gets the attribute. |
+| [get_xml_value()](#get_xml_value__3) | Converts XMP value to the XML representation. |
 
-### XmpMeta(toolkit_version) {#XmpMeta_toolkit_version_0}
+
+### Constructor: XmpMeta() {#XmpMeta__1}
+
+
+```
+ XmpMeta() 
+```
+
+Initializes a new instance of the [XmpMeta](/imaging/python-net/aspose.imaging.xmp/xmpmeta/) class.
+
+### Constructor: XmpMeta(toolkit_version) {#XmpMeta_toolkit_version_2}
 
 
 ```
@@ -48,16 +57,7 @@ Initializes a new instance of the [XmpMeta](/imaging/python-net/aspose.imaging.x
 | :- | :- | :- |
 | toolkit_version | string | Adobe XMP toolkit version. |
 
-### XmpMeta() {#XmpMeta__1}
-
-
-```
- XmpMeta() 
-```
-
-Initializes a new instance of the [XmpMeta](/imaging/python-net/aspose.imaging.xmp/xmpmeta/) class.
-
-### add_attribute(attribute, value) {#add_attribute_attribute_value_2}
+### Method: add_attribute(attribute, value) {#add_attribute_attribute_value_1}
 
 
 ```
@@ -73,7 +73,7 @@ Adds the attribute.
 | attribute | string | The attribute. |
 | value | string | The value. |
 
-### get_attribute(attribute) {#get_attribute_attribute_3}
+### Method: get_attribute(attribute) {#get_attribute_attribute_2}
 
 
 ```
@@ -95,7 +95,7 @@ Gets the attribute.
 | string | Returns the attribute for specified attribute name. |
 
 
-### get_xml_value() {#get_xml_value__4}
+### Method: get_xml_value() {#get_xml_value__3}
 
 
 ```

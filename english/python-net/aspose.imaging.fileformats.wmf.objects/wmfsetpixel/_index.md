@@ -5,7 +5,7 @@ weight: 740
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetpixel/
 ---
 
-The META_SETPIXEL record sets the pixel at the specified coordinates to<br/>                the specified color.
+**Summary:** The META_SETPIXEL record sets the pixel at the specified coordinates to<br/>                the specified color.
 
 **Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
@@ -15,18 +15,18 @@ The META_SETPIXEL record sets the pixel at the specified coordinates to<br/>    
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfSetPixel type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfSetPixel()](#WmfSetPixel__0) | Initializes a new instance of the WmfSetPixel class |
+| [WmfSetPixel()](#WmfSetPixel__1) | Initializes a new instance of the WmfSetPixel class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| point | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the point. |
 | color_ref | int | r/w | Gets or sets the color reference. |
+| point | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the point. |
 
-### WmfSetPixel() {#WmfSetPixel__0}
+
+### Constructor: WmfSetPixel() {#WmfSetPixel__1}
 
 
 ```

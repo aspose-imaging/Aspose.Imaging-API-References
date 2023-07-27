@@ -16,9 +16,9 @@ Sample format enum
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| UINT | Unsigned integer data |
-| INT | Signed integer data |
-| IEEE_FP | IEEE floating point data |
-| VOID | Untyped data |
-| COMPLEX_INT | Complex signed int |
 | COMPLEX_IEEE_FP | Complex ieee floating |
+| COMPLEX_INT | Complex signed int |
+| IEEE_FP | IEEE floating point data |
+| INT | Signed integer data |
+| UINT | Unsigned integer data |
+| VOID | Untyped data |

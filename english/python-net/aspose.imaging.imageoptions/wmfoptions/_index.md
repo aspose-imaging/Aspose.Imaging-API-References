@@ -5,7 +5,7 @@ weight: 360
 url: /python-net/aspose.imaging.imageoptions/wmfoptions/
 ---
 
-The wmf options.
+**Summary:** The wmf options.
 
 **Module:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
@@ -15,30 +15,30 @@ The wmf options.
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfOptions type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfOptions()](#WmfOptions__0) | Initializes a new instance of the WmfOptions class |
+| [WmfOptions()](#WmfOptions__1) | Initializes a new instance of the WmfOptions class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
+| buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| compress | bool | r/w | Gets or sets a value indicating whether this [ICompressedOptions](/imaging/python-net/aspose.fileformats.core.imageoptions/icompressedoptions/) is compressed. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets the XMP metadata container. |
-| source | [Source](/imaging/python-net/aspose.imaging/source) | r/w | Gets or sets the source to create image in. |
+| full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
+| multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. |
 | resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting) | r/w | Gets or sets the resolution settings. |
+| source | [Source](/imaging/python-net/aspose.imaging/source) | r/w | Gets or sets the source to create image in. |
 | vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions) | r/w | Gets or sets the vector rasterization options. |
-| buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
-| multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |
-| full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
-| compress | bool | r/w | Gets or sets a value indicating whether this [ICompressedOptions](/imaging/python-net/aspose.fileformats.core.imageoptions/icompressedoptions/) is compressed. |
+| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets the XMP metadata container. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
 | [clone()](#clone__1) | Clones this instance. |
 
-### WmfOptions() {#WmfOptions__0}
+
+### Constructor: WmfOptions() {#WmfOptions__1}
 
 
 ```
@@ -47,7 +47,7 @@ The WmfOptions type exposes the following members:
 
 Initializes a new instance of the WmfOptions class
 
-### clone() {#clone__1}
+### Method: clone() {#clone__1}
 
 
 ```

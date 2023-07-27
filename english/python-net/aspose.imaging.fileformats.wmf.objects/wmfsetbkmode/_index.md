@@ -5,7 +5,7 @@ weight: 680
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetbkmode/
 ---
 
-The set bk mode.
+**Summary:** The set bk mode.
 
 **Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
@@ -15,18 +15,18 @@ The set bk mode.
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfSetBkMode type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfSetBkMode()](#WmfSetBkMode__0) | Initializes a new instance of the WmfSetBkMode class |
+| [WmfSetBkMode()](#WmfSetBkMode__1) | Initializes a new instance of the WmfSetBkMode class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | bk_mode | [WmfMixMode](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfmixmode/) | r/w | Gets or sets the bk mode. |
 | reserved | int | r/w | Gets or sets the reserved. |
 
-### WmfSetBkMode() {#WmfSetBkMode__0}
+
+### Constructor: WmfSetBkMode() {#WmfSetBkMode__1}
 
 
 ```

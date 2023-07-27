@@ -5,7 +5,7 @@ weight: 150
 url: /python-net/aspose.imaging.fileformats.tiff/tiffexififd/
 ---
 
-The TIFF Exif image file directory class.
+**Summary:** The TIFF Exif image file directory class.
 
 **Module:** [aspose.imaging.fileformats.tiff](/imaging/python-net/aspose.imaging.fileformats.tiff/)
 
@@ -13,19 +13,19 @@ The TIFF Exif image file directory class.
 
 **Aspose.Imaging Version:** 23.6
 
-The TiffExifIfd type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [TiffExifIfd()](#TiffExifIfd__0) | Initializes a new instance of the [TiffExifIfd](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffexififd/) class. |
-| [TiffExifIfd(ifd_offset)](#TiffExifIfd_ifd_offset_1) | Initializes a new instance of the [TiffExifIfd](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffexififd/) class. |
+| [TiffExifIfd()](#TiffExifIfd__1) | Initializes a new instance of the [TiffExifIfd](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffexififd/) class. |
+| [TiffExifIfd(ifd_offset)](#TiffExifIfd_ifd_offset_2) | Initializes a new instance of the [TiffExifIfd](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffexififd/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | has_value | bool | r | Gets a value indicating whether this instance has value. |
 | offset | uint | r/w | Gets or sets the pointer to EXIF IFD. |
 
-### TiffExifIfd() {#TiffExifIfd__0}
+
+### Constructor: TiffExifIfd() {#TiffExifIfd__1}
 
 
 ```
@@ -34,7 +34,7 @@ The TiffExifIfd type exposes the following members:
 
 Initializes a new instance of the [TiffExifIfd](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffexififd/) class.
 
-### TiffExifIfd(ifd_offset) {#TiffExifIfd_ifd_offset_1}
+### Constructor: TiffExifIfd(ifd_offset) {#TiffExifIfd_ifd_offset_2}
 
 
 ```

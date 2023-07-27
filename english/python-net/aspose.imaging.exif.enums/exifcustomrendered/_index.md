@@ -16,5 +16,5 @@ exif custom rendered enum.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| NORMAL_PROCESS | Normal render process. |
 | CUSTOM_PROCESS | Custom render process. |
+| NORMAL_PROCESS | Normal render process. |

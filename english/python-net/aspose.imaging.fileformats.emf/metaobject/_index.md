@@ -5,7 +5,7 @@ weight: 3120
 url: /python-net/aspose.imaging.fileformats.emf/metaobject/
 ---
 
-Base class for  EMF, WMF, EMF+ objects
+**Summary:** Base class for  EMF, WMF, EMF+ objects
 
 **Module:** [aspose.imaging.fileformats.emf](/imaging/python-net/aspose.imaging.fileformats.emf/)
 
@@ -13,13 +13,13 @@ Base class for  EMF, WMF, EMF+ objects
 
 **Aspose.Imaging Version:** 23.6
 
-The MetaObject type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [MetaObject()](#MetaObject__0) | Initializes a new instance of the MetaObject class |
+| [MetaObject()](#MetaObject__1) | Initializes a new instance of the MetaObject class |
 
-### MetaObject() {#MetaObject__0}
+
+### Constructor: MetaObject() {#MetaObject__1}
 
 
 ```

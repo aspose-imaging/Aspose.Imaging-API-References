@@ -16,8 +16,8 @@ Segmentation methods types
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| MANUAL | The manual segmentation algorithm |
-| K_MEANS | The K-means segmentation algorithm. |
 | FUZZY_C_MEANS | The Fuzzy C-means segmentation algorithm. |
-| WATERSHED | The Watershed segmentation algorithm. |
 | GRAPH_CUT | The Graph Cut segmentation algorithm |
+| K_MEANS | The K-means segmentation algorithm. |
+| MANUAL | The manual segmentation algorithm |
+| WATERSHED | The Watershed segmentation algorithm. |

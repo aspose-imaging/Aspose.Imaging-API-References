@@ -17,7 +17,7 @@ EPS preview format
 | **Member name** | **Description** |
 | :- | :- |
 | DEFAULT | Best available quality |
-| TIFF | TIFF preview format |
-| WMF | WMF preview format |
 | PHOTOSHOP_THUMBNAIL | Photoshop thumbnail (JFIF data) |
 | POST_SCRIPT_RENDERING | PostScript rendering |
+| TIFF | TIFF preview format |
+| WMF | WMF preview format |

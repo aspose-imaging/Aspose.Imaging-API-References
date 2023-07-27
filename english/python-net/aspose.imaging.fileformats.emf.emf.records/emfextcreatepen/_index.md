@@ -5,7 +5,7 @@ weight: 420
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/
 ---
 
-The EMR_EXTCREATEPEN record defines an extended logical pen for graphics operations. An<br/>            optional DIB can be specified to use as the line style.
+**Summary:** The EMR_EXTCREATEPEN record defines an extended logical pen for graphics operations. An<br/>            optional DIB can be specified to use as the line style.
 
 **Module:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
@@ -15,27 +15,36 @@ The EMR_EXTCREATEPEN record defines an extended logical pen for graphics operati
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfExtCreatePen type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EmfExtCreatePen(record)](#EmfExtCreatePen_record_0) | Initializes a new instance of the [EmfExtCreatePen](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/) class. |
 | [EmfExtCreatePen()](#EmfExtCreatePen__1) | Initializes a new instance of the [EmfExtCreatePen](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/) class. |
+| [EmfExtCreatePen(record)](#EmfExtCreatePen_record_2) | Initializes a new instance of the [EmfExtCreatePen](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
-| size | int | r/w | Gets or sets the size of the record |
-| ih_pen | int | r/w | Gets or sets  32-bit unsigned integer that specifies the index of the extended logical <br/>            pen object in the EMF Object Table (section 3.1.1.1). <br/>            This index MUST be saved so that this object can be reused or modified. |
-| elp | [EmfLogPenEx](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogpenex/) | r/w | Gets or sets a LogPenEx object (section 2.2.20) that specifies an extended logical <br/>            pen with attributes including an optional line style array. |
 | bitmap_buffer | [WmfDeviceIndependentBitmap](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/) | r/w | Gets or sets an optional buffer containing a packed DIB in the form of a WMF DeviceIndependentBitmap object<br/>            ([MS-WMF] section 2.2.2.9). It is not required to be contiguous with the fixed portion of the EMR_EXTCREATEPEN record |
+| elp | [EmfLogPenEx](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogpenex/) | r/w | Gets or sets a LogPenEx object (section 2.2.20) that specifies an extended logical <br/>            pen with attributes including an optional line style array. |
+| ih_pen | int | r/w | Gets or sets  32-bit unsigned integer that specifies the index of the extended logical <br/>            pen object in the EMF Object Table (section 3.1.1.1). <br/>            This index MUST be saved so that this object can be reused or modified. |
+| size | int | r/w | Gets or sets the size of the record |
+| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [create_from_record(source)](#create_from_record_source_2) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
-| [create_from_type(type)](#create_from_type_type_3) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
+| [create_from_record(source)](#create_from_record_source_1) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
+| [create_from_type(type)](#create_from_type_type_2) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
 
-### EmfExtCreatePen(record) {#EmfExtCreatePen_record_0}
+
+### Constructor: EmfExtCreatePen() {#EmfExtCreatePen__1}
+
+
+```
+ EmfExtCreatePen() 
+```
+
+Initializes a new instance of the [EmfExtCreatePen](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/) class.
+
+### Constructor: EmfExtCreatePen(record) {#EmfExtCreatePen_record_2}
 
 
 ```
@@ -50,16 +59,7 @@ Initializes a new instance of the [EmfExtCreatePen](/imaging/python-net/aspose.i
 | :- | :- | :- |
 | record | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) | The record. |
 
-### EmfExtCreatePen() {#EmfExtCreatePen__1}
-
-
-```
- EmfExtCreatePen() 
-```
-
-Initializes a new instance of the [EmfExtCreatePen](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/) class.
-
-### create_from_record(source)  [static] {#create_from_record_source_2}
+### Method: create_from_record(source)  [static] {#create_from_record_source_1}
 
 
 ```
@@ -81,7 +81,7 @@ Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging
 | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) |  |
 
 
-### create_from_type(type)  [static] {#create_from_type_type_3}
+### Method: create_from_type(type)  [static] {#create_from_type_type_2}
 
 
 ```

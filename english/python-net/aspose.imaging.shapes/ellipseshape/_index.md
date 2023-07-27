@@ -5,7 +5,7 @@ weight: 40
 url: /python-net/aspose.imaging.shapes/ellipseshape/
 ---
 
-Represents an ellipse shape.
+**Summary:** Represents an ellipse shape.
 
 **Module:** [aspose.imaging.shapes](/imaging/python-net/aspose.imaging.shapes/)
 
@@ -15,33 +15,33 @@ Represents an ellipse shape.
 
 **Aspose.Imaging Version:** 23.6
 
-The EllipseShape type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EllipseShape()](#EllipseShape__0) | Initializes a new instance of the [EllipseShape](/imaging/python-net/aspose.imaging.shapes/ellipseshape/) class. |
-| [EllipseShape(rectangle)](#EllipseShape_rectangle_1) | Initializes a new instance of the [EllipseShape](/imaging/python-net/aspose.imaging.shapes/ellipseshape/) class. |
+| [EllipseShape()](#EllipseShape__1) | Initializes a new instance of the [EllipseShape](/imaging/python-net/aspose.imaging.shapes/ellipseshape/) class. |
+| [EllipseShape(rectangle)](#EllipseShape_rectangle_2) | Initializes a new instance of the [EllipseShape](/imaging/python-net/aspose.imaging.shapes/ellipseshape/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | bounds | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r | Gets the object's bounds. |
 | center | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the shape's center. |
-| segments | [ShapeSegment[]](/imaging/python-net/aspose.imaging/shapesegment) | r | Gets the shape segments. |
 | has_segments | bool | r | Gets a value indicating whether shape has segments. |
-| left_top | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the left top rectangle point. |
-| right_top | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the right top rectangle point. |
 | left_bottom | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the left bottom rectangle point. |
-| right_bottom | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the right bottom rectangle point. |
-| rectangle_width | double | r | Gets the rectangle width. |
+| left_top | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the left top rectangle point. |
 | rectangle_height | double | r | Gets the rectangle height. |
+| rectangle_width | double | r | Gets the rectangle width. |
+| right_bottom | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the right bottom rectangle point. |
+| right_top | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the right top rectangle point. |
+| segments | [ShapeSegment[]](/imaging/python-net/aspose.imaging/shapesegment) | r | Gets the shape segments. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_bounds(matrix)](#get_bounds_matrix_2) | Gets the object's bounds. |
-| [get_bounds(matrix, pen)](#get_bounds_matrix_pen_3) | Gets the object's bounds. |
-| [transform(transform)](#transform_transform_4) | Applies the specified transformation to the shape. |
+| [get_bounds(matrix)](#get_bounds_matrix_1) | Gets the object's bounds. |
+| [get_bounds(matrix, pen)](#get_bounds_matrix_pen_2) | Gets the object's bounds. |
+| [transform(transform)](#transform_transform_3) | Applies the specified transformation to the shape. |
 
-### EllipseShape() {#EllipseShape__0}
+
+### Constructor: EllipseShape() {#EllipseShape__1}
 
 
 ```
@@ -50,7 +50,7 @@ The EllipseShape type exposes the following members:
 
 Initializes a new instance of the [EllipseShape](/imaging/python-net/aspose.imaging.shapes/ellipseshape/) class.
 
-### EllipseShape(rectangle) {#EllipseShape_rectangle_1}
+### Constructor: EllipseShape(rectangle) {#EllipseShape_rectangle_2}
 
 
 ```
@@ -65,7 +65,7 @@ Initializes a new instance of the [EllipseShape](/imaging/python-net/aspose.imag
 | :- | :- | :- |
 | rectangle | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The rectangle. |
 
-### get_bounds(matrix) {#get_bounds_matrix_2}
+### Method: get_bounds(matrix) {#get_bounds_matrix_1}
 
 
 ```
@@ -87,7 +87,7 @@ Gets the object's bounds.
 | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The estimated object's bounds. |
 
 
-### get_bounds(matrix, pen) {#get_bounds_matrix_pen_3}
+### Method: get_bounds(matrix, pen) {#get_bounds_matrix_pen_2}
 
 
 ```
@@ -110,7 +110,7 @@ Gets the object's bounds.
 | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The estimated object's bounds. |
 
 
-### transform(transform) {#transform_transform_4}
+### Method: transform(transform) {#transform_transform_3}
 
 
 ```

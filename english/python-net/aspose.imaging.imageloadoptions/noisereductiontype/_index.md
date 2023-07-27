@@ -16,6 +16,6 @@ The type of dbdd noise reduction.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| NONE | The None, do not use FBDD noise reduction |
-| LIGHT | The light, light FBDD reduction |
 | FULL | The full, full FBDD reduction |
+| LIGHT | The light, light FBDD reduction |
+| NONE | The None, do not use FBDD noise reduction |

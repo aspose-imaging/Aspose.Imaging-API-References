@@ -5,7 +5,7 @@ weight: 5040
 url: /python-net/aspose.imaging/ibufferprocessor/
 ---
 
-The buffer processor.
+**Summary:** The buffer processor.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -13,13 +13,13 @@ The buffer processor.
 
 **Aspose.Imaging Version:** 23.6
 
-The IBufferProcessor type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [process_buffer(buffer, buffer_length)](#process_buffer_buffer_buffer_length_0) | Processes the buffer. |
+| [process_buffer(buffer, buffer_length)](#process_buffer_buffer_buffer_length_1) | Processes the buffer. |
 
-### process_buffer(buffer, buffer_length) {#process_buffer_buffer_buffer_length_0}
+
+### Method: process_buffer(buffer, buffer_length) {#process_buffer_buffer_buffer_length_1}
 
 
 ```

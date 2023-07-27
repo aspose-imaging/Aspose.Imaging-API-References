@@ -5,7 +5,7 @@ weight: 20
 url: /python-net/aspose.imaging.fileformats.gif.blocks/gifcommentblock/
 ---
 
-Gif comment block.
+**Summary:** Gif comment block.
 
 **Module:** [aspose.imaging.fileformats.gif.blocks](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/)
 
@@ -15,26 +15,26 @@ Gif comment block.
 
 **Aspose.Imaging Version:** 23.6
 
-The GifCommentBlock type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [GifCommentBlock()](#GifCommentBlock__0) | Initializes a new instance of the [GifCommentBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifcommentblock/) class. |
-| [GifCommentBlock(comment)](#GifCommentBlock_comment_1) | Initializes a new instance of the [GifCommentBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifcommentblock/) class. |
+| [GifCommentBlock()](#GifCommentBlock__1) | Initializes a new instance of the [GifCommentBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifcommentblock/) class. |
+| [GifCommentBlock(comment)](#GifCommentBlock_comment_2) | Initializes a new instance of the [GifCommentBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifcommentblock/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| is_changed | bool | r/w | Gets or sets a value indicating whether block has changed and requires save. |
-| EXTENSION_INTRODUCER [static] | byte | r | Extension introducer. |
-| comment | string | r/w | Gets or sets the comment. Note that comment must use ASCII encoding and will be stored accordingly. |
-| EXTENSION_LABEL [static] | byte | r | Gif comment block extension label. |
 | BLOCK_HEADER_SIZE [static] | int | r | Defines the block header size. |
+| EXTENSION_INTRODUCER [static] | byte | r | Extension introducer. |
+| EXTENSION_LABEL [static] | byte | r | Gif comment block extension label. |
+| comment | string | r/w | Gets or sets the comment. Note that comment must use ASCII encoding and will be stored accordingly. |
+| is_changed | bool | r/w | Gets or sets a value indicating whether block has changed and requires save. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [save(stream)](#save_stream_2) | Saves the block to the specified stream. |
+| [save(stream)](#save_stream_1) | Saves the block to the specified stream. |
 
-### GifCommentBlock() {#GifCommentBlock__0}
+
+### Constructor: GifCommentBlock() {#GifCommentBlock__1}
 
 
 ```
@@ -43,7 +43,7 @@ The GifCommentBlock type exposes the following members:
 
 Initializes a new instance of the [GifCommentBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifcommentblock/) class.
 
-### GifCommentBlock(comment) {#GifCommentBlock_comment_1}
+### Constructor: GifCommentBlock(comment) {#GifCommentBlock_comment_2}
 
 
 ```
@@ -58,7 +58,7 @@ Initializes a new instance of the [GifCommentBlock](/imaging/python-net/aspose.i
 | :- | :- | :- |
 | comment | string | The comment. |
 
-### save(stream) {#save_stream_2}
+### Method: save(stream) {#save_stream_1}
 
 
 ```

@@ -5,7 +5,7 @@ weight: 1180
 url: /python-net/aspose.imaging/colorpalette/
 ---
 
-Defines an array of colors that make up a color palette. The colors are 32-bit ARGB colors. Not inheritable.
+**Summary:** Defines an array of colors that make up a color palette. The colors are 32-bit ARGB colors. Not inheritable.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -15,37 +15,52 @@ Defines an array of colors that make up a color palette. The colors are 32-bit A
 
 **Aspose.Imaging Version:** 23.6
 
-The ColorPalette type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [ColorPalette(argb_32_entries, is_compact_palette)](#ColorPalette_argb_32_entries_is_compact_palette_0) | Initializes a new instance of the ColorPalette class |
 | [ColorPalette(argb_32_entries)](#ColorPalette_argb_32_entries_1) | Initializes a new instance of the ColorPalette class |
-| [ColorPalette(entries, is_compact_palette)](#ColorPalette_entries_is_compact_palette_2) | Initializes a new instance of the ColorPalette class |
+| [ColorPalette(argb_32_entries, is_compact_palette)](#ColorPalette_argb_32_entries_is_compact_palette_2) | Initializes a new instance of the ColorPalette class |
 | [ColorPalette(entries)](#ColorPalette_entries_3) | Initializes a new instance of the ColorPalette class |
+| [ColorPalette(entries, is_compact_palette)](#ColorPalette_entries_is_compact_palette_4) | Initializes a new instance of the ColorPalette class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| entries_count | int | r | Gets the entries count. |
 | argb_32_entries | int | r | Gets an array of 32-bit ARGB structures. |
 | entries | [Color[]](/imaging/python-net/aspose.imaging/color) | r | Gets an array of [Color](/imaging/python-net/aspose.imaging/color/) structures. |
+| entries_count | int | r | Gets the entries count. |
 | is_compact_palette | bool | r | Gets or sets a value indicating whether compact palette is used. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [copy_palette(color_palette, use_compact_palette)](#copy_palette_color_palette_use_compact_palette_4) | Copies the palette. |
-| [copy_palette(color_palette)](#copy_palette_color_palette_5) | Copies the palette. |
-| [get_nearest_color_index(argb_32_color)](#get_nearest_color_index_argb_32_color_6) | Gets the index of the nearest 32-bit ARGB color. |
-| [get_nearest_color_index(color)](#get_nearest_color_index_color_7) | Gets the index of the nearest color. |
-| [create_with_argb_compact(argb_32_entries, is_compact_palette)](#create_with_argb_compact_argb_32_entries_is_compact_palette_8) | Initializes a new instance of the [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette/) class. |
-| [create_with_argb(argb_32_entries)](#create_with_argb_argb_32_entries_9) | Initializes a new instance of the [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette/) class and IsCompactPalette is false. |
-| [create_with_colors_compact(entries, is_compact_palette)](#create_with_colors_compact_entries_is_compact_palette_10) | Initializes a new instance of the [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette/) class. |
-| [create_with_colors(entries)](#create_with_colors_entries_11) | Initializes a new instance of the [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette/) class and IsCompactPalette is false. |
-| [get_nearest_argb_index(argb_32_color)](#get_nearest_argb_index_argb_32_color_12) | Gets the index of the nearest color. |
-| [get_argb_32_color(index)](#get_argb_32_color_index_13) | Gets the 32-bit ARGB palette color by index. |
-| [get_color(index)](#get_color_index_14) | Gets the palette color by index. |
+| [copy_palette(color_palette)](#copy_palette_color_palette_1) | Copies the palette. |
+| [copy_palette(color_palette, use_compact_palette)](#copy_palette_color_palette_use_compact_palette_2) | Copies the palette. |
+| [create_with_argb(argb_32_entries)](#create_with_argb_argb_32_entries_3) | Initializes a new instance of the [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette/) class and IsCompactPalette is false. |
+| [create_with_argb_compact(argb_32_entries, is_compact_palette)](#create_with_argb_compact_argb_32_entries_is_compact_palette_4) | Initializes a new instance of the [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette/) class. |
+| [create_with_colors(entries)](#create_with_colors_entries_5) | Initializes a new instance of the [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette/) class and IsCompactPalette is false. |
+| [create_with_colors_compact(entries, is_compact_palette)](#create_with_colors_compact_entries_is_compact_palette_6) | Initializes a new instance of the [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette/) class. |
+| [get_argb_32_color(index)](#get_argb_32_color_index_7) | Gets the 32-bit ARGB palette color by index. |
+| [get_color(index)](#get_color_index_8) | Gets the palette color by index. |
+| [get_nearest_argb_index(argb_32_color)](#get_nearest_argb_index_argb_32_color_9) | Gets the index of the nearest color. |
+| [get_nearest_color_index(argb_32_color)](#get_nearest_color_index_argb_32_color_10) | Gets the index of the nearest 32-bit ARGB color. |
+| [get_nearest_color_index(color)](#get_nearest_color_index_color_11) | Gets the index of the nearest color. |
 
-### ColorPalette(argb_32_entries, is_compact_palette) {#ColorPalette_argb_32_entries_is_compact_palette_0}
+
+### Constructor: ColorPalette(argb_32_entries) {#ColorPalette_argb_32_entries_1}
+
+
+```
+ ColorPalette(argb_32_entries) 
+```
+
+Initializes a new instance of the ColorPalette class
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| argb_32_entries | int |  |
+
+### Constructor: ColorPalette(argb_32_entries, is_compact_palette) {#ColorPalette_argb_32_entries_is_compact_palette_2}
 
 
 ```
@@ -61,11 +76,11 @@ Initializes a new instance of the ColorPalette class
 | argb_32_entries | int |  |
 | is_compact_palette | bool |  |
 
-### ColorPalette(argb_32_entries) {#ColorPalette_argb_32_entries_1}
+### Constructor: ColorPalette(entries) {#ColorPalette_entries_3}
 
 
 ```
- ColorPalette(argb_32_entries) 
+ ColorPalette(entries) 
 ```
 
 Initializes a new instance of the ColorPalette class
@@ -74,9 +89,9 @@ Initializes a new instance of the ColorPalette class
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| argb_32_entries | int |  |
+| entries | [Color[]](/imaging/python-net/aspose.imaging/color) |  |
 
-### ColorPalette(entries, is_compact_palette) {#ColorPalette_entries_is_compact_palette_2}
+### Constructor: ColorPalette(entries, is_compact_palette) {#ColorPalette_entries_is_compact_palette_4}
 
 
 ```
@@ -92,22 +107,29 @@ Initializes a new instance of the ColorPalette class
 | entries | [Color[]](/imaging/python-net/aspose.imaging/color) |  |
 | is_compact_palette | bool |  |
 
-### ColorPalette(entries) {#ColorPalette_entries_3}
+### Method: copy_palette(color_palette)  [static] {#copy_palette_color_palette_1}
 
 
 ```
- ColorPalette(entries) 
+ copy_palette(color_palette) 
 ```
 
-Initializes a new instance of the ColorPalette class
+Copies the palette.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| entries | [Color[]](/imaging/python-net/aspose.imaging/color) |  |
+| color_palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette. |
 
-### copy_palette(color_palette, use_compact_palette)  [static] {#copy_palette_color_palette_use_compact_palette_4}
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette) | The newly created and copied palette or null if null palette passed. |
+
+
+### Method: copy_palette(color_palette, use_compact_palette)  [static] {#copy_palette_color_palette_use_compact_palette_2}
 
 
 ```
@@ -130,73 +152,29 @@ Copies the palette.
 | [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette) | The newly created and copied palette or null if null palette passed. |
 
 
-### copy_palette(color_palette)  [static] {#copy_palette_color_palette_5}
+### Method: create_with_argb(argb_32_entries)  [static] {#create_with_argb_argb_32_entries_3}
 
 
 ```
- copy_palette(color_palette) 
+ create_with_argb(argb_32_entries) 
 ```
 
-Copies the palette.
+Initializes a new instance of the [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette/) class and IsCompactPalette is false.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| color_palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette. |
+| argb_32_entries | int | The 32-bit ARGB color palette entries. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette) | The newly created and copied palette or null if null palette passed. |
+| [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette) |  |
 
 
-### get_nearest_color_index(argb_32_color) {#get_nearest_color_index_argb_32_color_6}
-
-
-```
- get_nearest_color_index(argb_32_color) 
-```
-
-Gets the index of the nearest 32-bit ARGB color.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| argb_32_color | int | The 32-bit ARGB color. |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| int | The index of the nearest color. |
-
-
-### get_nearest_color_index(color) {#get_nearest_color_index_color_7}
-
-
-```
- get_nearest_color_index(color) 
-```
-
-Gets the index of the nearest color.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| color | [Color](/imaging/python-net/aspose.imaging/color) | The color. |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| int | The index of the nearest color. |
-
-
-### create_with_argb_compact(argb_32_entries, is_compact_palette)  [static] {#create_with_argb_compact_argb_32_entries_is_compact_palette_8}
+### Method: create_with_argb_compact(argb_32_entries, is_compact_palette)  [static] {#create_with_argb_compact_argb_32_entries_is_compact_palette_4}
 
 
 ```
@@ -219,11 +197,11 @@ Initializes a new instance of the [ColorPalette](/imaging/python-net/aspose.imag
 | [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette) |  |
 
 
-### create_with_argb(argb_32_entries)  [static] {#create_with_argb_argb_32_entries_9}
+### Method: create_with_colors(entries)  [static] {#create_with_colors_entries_5}
 
 
 ```
- create_with_argb(argb_32_entries) 
+ create_with_colors(entries) 
 ```
 
 Initializes a new instance of the [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette/) class and IsCompactPalette is false.
@@ -232,7 +210,7 @@ Initializes a new instance of the [ColorPalette](/imaging/python-net/aspose.imag
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| argb_32_entries | int | The 32-bit ARGB color palette entries. |
+| entries | [Color[]](/imaging/python-net/aspose.imaging/color) | The color palette entries. |
 
 **Returns**
 
@@ -241,7 +219,7 @@ Initializes a new instance of the [ColorPalette](/imaging/python-net/aspose.imag
 | [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette) |  |
 
 
-### create_with_colors_compact(entries, is_compact_palette)  [static] {#create_with_colors_compact_entries_is_compact_palette_10}
+### Method: create_with_colors_compact(entries, is_compact_palette)  [static] {#create_with_colors_compact_entries_is_compact_palette_6}
 
 
 ```
@@ -264,51 +242,7 @@ Initializes a new instance of the [ColorPalette](/imaging/python-net/aspose.imag
 | [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette) |  |
 
 
-### create_with_colors(entries)  [static] {#create_with_colors_entries_11}
-
-
-```
- create_with_colors(entries) 
-```
-
-Initializes a new instance of the [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette/) class and IsCompactPalette is false.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| entries | [Color[]](/imaging/python-net/aspose.imaging/color) | The color palette entries. |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| [ColorPalette](/imaging/python-net/aspose.imaging/colorpalette) |  |
-
-
-### get_nearest_argb_index(argb_32_color) {#get_nearest_argb_index_argb_32_color_12}
-
-
-```
- get_nearest_argb_index(argb_32_color) 
-```
-
-Gets the index of the nearest color.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| argb_32_color | int | The 32-bit ARGB color. |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| int | The index of the nearest color. |
-
-
-### get_argb_32_color(index) {#get_argb_32_color_index_13}
+### Method: get_argb_32_color(index) {#get_argb_32_color_index_7}
 
 
 ```
@@ -330,7 +264,7 @@ Gets the 32-bit ARGB palette color by index.
 | int | The color palette entry specified by the <paramref name="index" />. |
 
 
-### get_color(index) {#get_color_index_14}
+### Method: get_color(index) {#get_color_index_8}
 
 
 ```
@@ -350,5 +284,71 @@ Gets the palette color by index.
 | Type | Description |
 | :- | :- |
 | [Color](/imaging/python-net/aspose.imaging/color) | The color palette entry specified by the <paramref name="index" />. |
+
+
+### Method: get_nearest_argb_index(argb_32_color) {#get_nearest_argb_index_argb_32_color_9}
+
+
+```
+ get_nearest_argb_index(argb_32_color) 
+```
+
+Gets the index of the nearest color.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| argb_32_color | int | The 32-bit ARGB color. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| int | The index of the nearest color. |
+
+
+### Method: get_nearest_color_index(argb_32_color) {#get_nearest_color_index_argb_32_color_10}
+
+
+```
+ get_nearest_color_index(argb_32_color) 
+```
+
+Gets the index of the nearest 32-bit ARGB color.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| argb_32_color | int | The 32-bit ARGB color. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| int | The index of the nearest color. |
+
+
+### Method: get_nearest_color_index(color) {#get_nearest_color_index_color_11}
+
+
+```
+ get_nearest_color_index(color) 
+```
+
+Gets the index of the nearest color.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| color | [Color](/imaging/python-net/aspose.imaging/color) | The color. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| int | The index of the nearest color. |
 
 

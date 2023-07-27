@@ -16,22 +16,22 @@ The cdr color models
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
+| BW | The colorscheme bw |
+| CMY | The colorscheme CMY |
 | CMYK_100X01 | The cmyk100 |
 | CMYK_100X02 | The cmyk100 |
 | CMYK_100X14 | The cmyk100 |
 | CMYK_100X15 | The cmyk100 |
 | CMYK_255X03 | The cmyk255 |
 | CMYK_255X11 | The cmyk255 |
-| CMY | The colorscheme CMY |
-| RGB100 | The RGB100 |
-| HSB | The colorscheme HSB |
-| HLS | The colorscheme HLS |
-| BW | The colorscheme bw |
 | GRAYSCALE | The colorscheme grayscale |
-| YIQ255 | The colorscheme YIQ255 |
-| LAB_X12 | The colorscheme lab |
+| HLS | The colorscheme HLS |
+| HSB | The colorscheme HSB |
 | LAB_X0C | The colorscheme lab |
-| RGB255 | The RGB255 |
+| LAB_X12 | The colorscheme lab |
+| MODEL_0X0E | The model0e |
 | PALETTE_X19 | The palette |
 | PALETTE_X1E | The palette |
-| MODEL_0X0E | The model0e |
+| RGB100 | The RGB100 |
+| RGB255 | The RGB255 |
+| YIQ255 | The colorscheme YIQ255 |

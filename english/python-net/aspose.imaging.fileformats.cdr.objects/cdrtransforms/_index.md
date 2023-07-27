@@ -5,7 +5,7 @@ weight: 330
 url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrtransforms/
 ---
 
-The cdr transforms object
+**Summary:** The cdr transforms object
 
 **Module:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
@@ -15,19 +15,19 @@ The cdr transforms object
 
 **Aspose.Imaging Version:** 23.6
 
-The CdrTransforms type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [CdrTransforms()](#CdrTransforms__0) | Initializes a new instance of the CdrTransforms class |
+| [CdrTransforms()](#CdrTransforms__1) | Initializes a new instance of the CdrTransforms class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
 | document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |
+| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
 
-### CdrTransforms() {#CdrTransforms__0}
+
+### Constructor: CdrTransforms() {#CdrTransforms__1}
 
 
 ```

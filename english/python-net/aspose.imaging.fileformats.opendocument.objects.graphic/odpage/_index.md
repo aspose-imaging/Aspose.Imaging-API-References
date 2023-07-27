@@ -5,7 +5,7 @@ weight: 250
 url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odpage/
 ---
 
-The Open document page.
+**Summary:** The Open document page.
 
 **Module:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
@@ -15,22 +15,22 @@ The Open document page.
 
 **Aspose.Imaging Version:** 23.6
 
-The OdPage type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [OdPage(parent)](#OdPage_parent_0) | Initializes a new instance of the [OdPage](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odpage/) class. |
+| [OdPage(parent)](#OdPage_parent_1) | Initializes a new instance of the [OdPage](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odpage/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
-| items | System.Collections.Generic.List<OdObject> | r | Gets the items. |
 | absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
-| name | string | r/w | Gets or sets the name. |
+| items | list[OdObject] | r | Gets the items. |
 | master_page_name | string | r/w | Gets or sets the name of the master page. |
+| name | string | r/w | Gets or sets the name. |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
 | style_name | string | r/w | Gets or sets the name of the style. |
 
-### OdPage(parent) {#OdPage_parent_0}
+
+### Constructor: OdPage(parent) {#OdPage_parent_1}
 
 
 ```

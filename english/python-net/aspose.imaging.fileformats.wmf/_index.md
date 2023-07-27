@@ -9,10 +9,10 @@ url: /python-net/aspose.imaging.fileformats.wmf/
 The module handles WMF file format processing.
 
 ## **Classes**
-|**Class**|**Description**|
+| **Class** | **Description** |
 | :- | :- |
-|[WmfImage](/imaging/python-net/aspose.imaging.fileformats.wmf/wmfimage/)|The Wmf Image|
+| [WmfImage](/imaging/python-net/aspose.imaging.fileformats.wmf/wmfimage/) | The Wmf Image |
 ## **Enumerations**
-|**Enumeration**|**Description**|
+| **Enumeration** | **Description** |
 | :- | :- |
 | [WmfRenderMode](/imaging/python-net/aspose.imaging.fileformats.wmf/wmfrendermode/) | The render mode enumeration. |

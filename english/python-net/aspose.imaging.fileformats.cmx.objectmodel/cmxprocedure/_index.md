@@ -5,7 +5,7 @@ weight: 180
 url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxprocedure/
 ---
 
-The CMX procedure.
+**Summary:** The CMX procedure.
 
 **Module:** [aspose.imaging.fileformats.cmx.objectmodel](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel/)
 
@@ -15,18 +15,18 @@ The CMX procedure.
 
 **Aspose.Imaging Version:** 23.6
 
-The CmxProcedure type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [CmxProcedure()](#CmxProcedure__0) | Initializes a new instance of the CmxProcedure class |
+| [CmxProcedure()](#CmxProcedure__1) | Initializes a new instance of the CmxProcedure class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| elements | System.Collections.Generic.IList<ICmxDocElement> | r | Gets the elements. |
 | bound_box | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets the bounding box. |
+| elements | list[ICmxDocElement] | r | Gets the elements. |
 
-### CmxProcedure() {#CmxProcedure__0}
+
+### Constructor: CmxProcedure() {#CmxProcedure__1}
 
 
 ```

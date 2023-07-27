@@ -16,6 +16,6 @@ Connection types between lines
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
+| BEVELED_CORNERS | Beveled (square off) corners in the line or outline. |
 | MITERED_CORNERS | Create pointed corners. |
 | ROUND_CORNERS | Create rounded corners in the line or outline. |
-| BEVELED_CORNERS | Beveled (square off) corners in the line or outline. |

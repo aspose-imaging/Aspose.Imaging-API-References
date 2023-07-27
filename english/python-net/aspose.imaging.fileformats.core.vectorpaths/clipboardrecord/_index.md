@@ -5,7 +5,7 @@ weight: 20
 url: /python-net/aspose.imaging.fileformats.core.vectorpaths/clipboardrecord/
 ---
 
-Clipboard Record Class
+**Summary:** Clipboard Record Class
 
 **Module:** [aspose.imaging.fileformats.core.vectorpaths](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/)
 
@@ -15,20 +15,20 @@ Clipboard Record Class
 
 **Aspose.Imaging Version:** 23.6
 
-The ClipboardRecord type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [ClipboardRecord()](#ClipboardRecord__0) | Initializes a new instance of the [ClipboardRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/clipboardrecord/) class. |
-| [ClipboardRecord(data)](#ClipboardRecord_data_1) | Initializes a new instance of the [ClipboardRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/clipboardrecord/) class. |
+| [ClipboardRecord()](#ClipboardRecord__1) | Initializes a new instance of the [ClipboardRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/clipboardrecord/) class. |
+| [ClipboardRecord(data)](#ClipboardRecord_data_2) | Initializes a new instance of the [ClipboardRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/clipboardrecord/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| type | [VectorPathType](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/vectorpathtype) | r | Gets the type. |
 | bounding_rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets the bounding rect. |
 | resolution | float | r/w | Gets or sets the resolution. |
+| type | [VectorPathType](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/vectorpathtype) | r | Gets the type. |
 
-### ClipboardRecord() {#ClipboardRecord__0}
+
+### Constructor: ClipboardRecord() {#ClipboardRecord__1}
 
 
 ```
@@ -37,7 +37,7 @@ The ClipboardRecord type exposes the following members:
 
 Initializes a new instance of the [ClipboardRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/clipboardrecord/) class.
 
-### ClipboardRecord(data) {#ClipboardRecord_data_1}
+### Constructor: ClipboardRecord(data) {#ClipboardRecord_data_2}
 
 
 ```

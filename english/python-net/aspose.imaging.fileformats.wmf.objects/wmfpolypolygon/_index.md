@@ -5,7 +5,7 @@ weight: 510
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfpolypolygon/
 ---
 
-The PolyPolygon Object defines a series of closed polygons.
+**Summary:** The PolyPolygon Object defines a series of closed polygons.
 
 **Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
@@ -15,19 +15,19 @@ The PolyPolygon Object defines a series of closed polygons.
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfPolyPolygon type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfPolyPolygon()](#WmfPolyPolygon__0) | Initializes a new instance of the WmfPolyPolygon class |
+| [WmfPolyPolygon()](#WmfPolyPolygon__1) | Initializes a new instance of the WmfPolyPolygon class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| number_of_polygons | int | r/w | Gets or sets the number of polygons. The number of polygons in the<br/>                object. |
-| a_points_per_polygon | int | r/w | Gets or sets a points per polygon. |
 | a_points | Point[] | r/w | Gets or sets a points. |
+| a_points_per_polygon | int | r/w | Gets or sets a points per polygon. |
+| number_of_polygons | int | r/w | Gets or sets the number of polygons. The number of polygons in the<br/>                object. |
 
-### WmfPolyPolygon() {#WmfPolyPolygon__0}
+
+### Constructor: WmfPolyPolygon() {#WmfPolyPolygon__1}
 
 
 ```

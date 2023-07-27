@@ -16,6 +16,6 @@ The open document pen style
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
+| DASH | The pen style dash |
 | NONE | The pen style none |
 | SOLID | The pen style solid |
-| DASH | The pen style dash |

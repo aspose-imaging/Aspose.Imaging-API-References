@@ -9,7 +9,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/
 The module handles Tiff file format processing.
 
 ## **Enumerations**
-|**Enumeration**|**Description**|
+| **Enumeration** | **Description** |
 | :- | :- |
 | [CapsTypes](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/capstypes/) | Types of caps for the line. |
 | [CmxCommandCodes](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/cmxcommandcodes/) | Page command codes |

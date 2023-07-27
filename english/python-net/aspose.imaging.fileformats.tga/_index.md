@@ -9,6 +9,6 @@ url: /python-net/aspose.imaging.fileformats.tga/
 The module handles Tga file format processing.
 
 ## **Classes**
-|**Class**|**Description**|
+| **Class** | **Description** |
 | :- | :- |
-|[TgaImage](/imaging/python-net/aspose.imaging.fileformats.tga/tgaimage/)|The TGA image.|
+| [TgaImage](/imaging/python-net/aspose.imaging.fileformats.tga/tgaimage/) | The TGA image. |

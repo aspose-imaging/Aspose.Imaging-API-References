@@ -5,7 +5,7 @@ weight: 840
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpolypolyline16/
 ---
 
-The EMR_POLYPOLYLINE16 record specifies multiple series of connected line segments.
+**Summary:** The EMR_POLYPOLYLINE16 record specifies multiple series of connected line segments.
 
 **Module:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
@@ -15,26 +15,35 @@ The EMR_POLYPOLYLINE16 record specifies multiple series of connected line segmen
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfPolyPolyline16 type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EmfPolyPolyline16(source)](#EmfPolyPolyline16_source_0) | Initializes a new instance of the [EmfPolyPolyline16](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfpolypolyline16/) class. |
 | [EmfPolyPolyline16()](#EmfPolyPolyline16__1) | Initializes a new instance of the [EmfPolyPolyline16](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfpolypolyline16/) class. |
+| [EmfPolyPolyline16(source)](#EmfPolyPolyline16_source_2) | Initializes a new instance of the [EmfPolyPolyline16](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfpolypolyline16/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
-| size | int | r/w | Gets or sets the size of the record |
-| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets a 128-bit WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies <br/>            the bounding rectangle in device units. |
 | a_points | Point[] | r/w | Gets or sets a Count length array of WMF PointS objects, specified in [MS-WMF] <br/>            section 2.2.2.16, which specifies the array of points. |
+| bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets a 128-bit WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies <br/>            the bounding rectangle in device units. |
+| size | int | r/w | Gets or sets the size of the record |
+| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [create_from_record(source)](#create_from_record_source_2) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
-| [create_from_type(type)](#create_from_type_type_3) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
+| [create_from_record(source)](#create_from_record_source_1) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
+| [create_from_type(type)](#create_from_type_type_2) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
 
-### EmfPolyPolyline16(source) {#EmfPolyPolyline16_source_0}
+
+### Constructor: EmfPolyPolyline16() {#EmfPolyPolyline16__1}
+
+
+```
+ EmfPolyPolyline16() 
+```
+
+Initializes a new instance of the [EmfPolyPolyline16](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfpolypolyline16/) class.
+
+### Constructor: EmfPolyPolyline16(source) {#EmfPolyPolyline16_source_2}
 
 
 ```
@@ -49,16 +58,7 @@ Initializes a new instance of the [EmfPolyPolyline16](/imaging/python-net/aspose
 | :- | :- | :- |
 | source | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) | The source. |
 
-### EmfPolyPolyline16() {#EmfPolyPolyline16__1}
-
-
-```
- EmfPolyPolyline16() 
-```
-
-Initializes a new instance of the [EmfPolyPolyline16](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfpolypolyline16/) class.
-
-### create_from_record(source)  [static] {#create_from_record_source_2}
+### Method: create_from_record(source)  [static] {#create_from_record_source_1}
 
 
 ```
@@ -80,7 +80,7 @@ Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging
 | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) |  |
 
 
-### create_from_type(type)  [static] {#create_from_type_type_3}
+### Method: create_from_type(type)  [static] {#create_from_type_type_2}
 
 
 ```

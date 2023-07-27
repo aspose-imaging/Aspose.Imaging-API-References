@@ -5,7 +5,7 @@ weight: 60
 url: /python-net/aspose.imaging.fileformats.core.vectorpaths/pathfillrulerecord/
 ---
 
-Path Fill Rule Record Class
+**Summary:** Path Fill Rule Record Class
 
 **Module:** [aspose.imaging.fileformats.core.vectorpaths](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/)
 
@@ -15,18 +15,18 @@ Path Fill Rule Record Class
 
 **Aspose.Imaging Version:** 23.6
 
-The PathFillRuleRecord type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [PathFillRuleRecord()](#PathFillRuleRecord__0) | Initializes a new instance of the [PathFillRuleRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/pathfillrulerecord/) class. |
-| [PathFillRuleRecord(data)](#PathFillRuleRecord_data_1) | Initializes a new instance of the [PathFillRuleRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/pathfillrulerecord/) class. |
+| [PathFillRuleRecord()](#PathFillRuleRecord__1) | Initializes a new instance of the [PathFillRuleRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/pathfillrulerecord/) class. |
+| [PathFillRuleRecord(data)](#PathFillRuleRecord_data_2) | Initializes a new instance of the [PathFillRuleRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/pathfillrulerecord/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | type | [VectorPathType](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/vectorpathtype) | r | Gets the type. |
 
-### PathFillRuleRecord() {#PathFillRuleRecord__0}
+
+### Constructor: PathFillRuleRecord() {#PathFillRuleRecord__1}
 
 
 ```
@@ -35,7 +35,7 @@ The PathFillRuleRecord type exposes the following members:
 
 Initializes a new instance of the [PathFillRuleRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/pathfillrulerecord/) class.
 
-### PathFillRuleRecord(data) {#PathFillRuleRecord_data_1}
+### Constructor: PathFillRuleRecord(data) {#PathFillRuleRecord_data_2}
 
 
 ```

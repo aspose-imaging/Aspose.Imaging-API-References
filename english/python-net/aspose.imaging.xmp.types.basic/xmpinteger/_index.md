@@ -5,7 +5,7 @@ weight: 30
 url: /python-net/aspose.imaging.xmp.types.basic/xmpinteger/
 ---
 
-Represents XMP Integer basic type.
+**Summary:** Represents XMP Integer basic type.
 
 **Module:** [aspose.imaging.xmp.types.basic](/imaging/python-net/aspose.imaging.xmp.types.basic/)
 
@@ -15,23 +15,23 @@ Represents XMP Integer basic type.
 
 **Aspose.Imaging Version:** 23.6
 
-The XmpInteger type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [XmpInteger(value)](#XmpInteger_value_0) | Initializes a new instance of the [XmpInteger](/imaging/python-net/aspose.imaging.xmp.types.basic/xmpinteger/) class. |
 | [XmpInteger(value)](#XmpInteger_value_1) | Initializes a new instance of the [XmpInteger](/imaging/python-net/aspose.imaging.xmp.types.basic/xmpinteger/) class. |
 | [XmpInteger(value)](#XmpInteger_value_2) | Initializes a new instance of the [XmpInteger](/imaging/python-net/aspose.imaging.xmp.types.basic/xmpinteger/) class. |
+| [XmpInteger(value)](#XmpInteger_value_3) | Initializes a new instance of the [XmpInteger](/imaging/python-net/aspose.imaging.xmp.types.basic/xmpinteger/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | value | long | r/w | Gets or sets the value. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_xmp_representation()](#get_xmp_representation__3) | Gets the string contained value in XMP format. |
+| [get_xmp_representation()](#get_xmp_representation__1) | Gets the string contained value in XMP format. |
 
-### XmpInteger(value) {#XmpInteger_value_0}
+
+### Constructor: XmpInteger(value) {#XmpInteger_value_1}
 
 
 ```
@@ -46,7 +46,7 @@ Initializes a new instance of the [XmpInteger](/imaging/python-net/aspose.imagin
 | :- | :- | :- |
 | value | long | The value. |
 
-### XmpInteger(value) {#XmpInteger_value_1}
+### Constructor: XmpInteger(value) {#XmpInteger_value_2}
 
 
 ```
@@ -61,7 +61,7 @@ Initializes a new instance of the [XmpInteger](/imaging/python-net/aspose.imagin
 | :- | :- | :- |
 | value | int | The value. |
 
-### XmpInteger(value) {#XmpInteger_value_2}
+### Constructor: XmpInteger(value) {#XmpInteger_value_3}
 
 
 ```
@@ -76,7 +76,7 @@ Initializes a new instance of the [XmpInteger](/imaging/python-net/aspose.imagin
 | :- | :- | :- |
 | value | string | The value. |
 
-### get_xmp_representation() {#get_xmp_representation__3}
+### Method: get_xmp_representation() {#get_xmp_representation__1}
 
 
 ```

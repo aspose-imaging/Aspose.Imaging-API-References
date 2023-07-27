@@ -5,7 +5,7 @@ weight: 5390
 url: /python-net/aspose.imaging/irasterimageargb64pixelloader/
 ---
 
-The raster image 64-bit ARGB pixel loader.
+**Summary:** The raster image 64-bit ARGB pixel loader.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -15,19 +15,19 @@ The raster image 64-bit ARGB pixel loader.
 
 **Aspose.Imaging Version:** 23.6
 
-The IRasterImageArgb64PixelLoader type exposes the following members:
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | is_raw_data_available | bool | r | Gets a value indicating whether raw data loading is supported. |
 | raw_data_settings | [RawDataSettings](/imaging/python-net/aspose.imaging/rawdatasettings) | r | Gets the current raw data settings. Note when using these settings the data loads without conversion. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [load_partial_argb_64_pixels(rectangle, partial_pixel_loader)](#load_partial_argb_64_pixels_rectangle_partial_pixel_loader_0) | Loads 64-bit ARGB pixels partially (by blocks). |
-| [load_raw_data(rectangle, raw_data_settings, raw_data_loader)](#load_raw_data_rectangle_raw_data_settings_raw_data_loader_1) | Loads raw data. |
+| [load_partial_argb_64_pixels(rectangle, partial_pixel_loader)](#load_partial_argb_64_pixels_rectangle_partial_pixel_loader_1) | Loads 64-bit ARGB pixels partially (by blocks). |
+| [load_raw_data(rectangle, raw_data_settings, raw_data_loader)](#load_raw_data_rectangle_raw_data_settings_raw_data_loader_2) | Loads raw data. |
 
-### load_partial_argb_64_pixels(rectangle, partial_pixel_loader) {#load_partial_argb_64_pixels_rectangle_partial_pixel_loader_0}
+
+### Method: load_partial_argb_64_pixels(rectangle, partial_pixel_loader) {#load_partial_argb_64_pixels_rectangle_partial_pixel_loader_1}
 
 
 ```
@@ -43,7 +43,7 @@ Loads 64-bit ARGB pixels partially (by blocks).
 | rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The rectangle to load pixels from. |
 | partial_pixel_loader | [IPartialArgb64PixelLoader](/imaging/python-net/aspose.imaging/ipartialargb64pixelloader) | The partial pixel loader. |
 
-### load_raw_data(rectangle, raw_data_settings, raw_data_loader) {#load_raw_data_rectangle_raw_data_settings_raw_data_loader_1}
+### Method: load_raw_data(rectangle, raw_data_settings, raw_data_loader) {#load_raw_data_rectangle_raw_data_settings_raw_data_loader_2}
 
 
 ```

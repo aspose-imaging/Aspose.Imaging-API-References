@@ -5,7 +5,7 @@ weight: 50
 url: /python-net/aspose.imaging.fileformats.opendocument.objects.brush/odsolidbrush/
 ---
 
-The open document solid brush
+**Summary:** The open document solid brush
 
 **Module:** [aspose.imaging.fileformats.opendocument.objects.brush](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/)
 
@@ -15,22 +15,22 @@ The open document solid brush
 
 **Aspose.Imaging Version:** 23.6
 
-The OdSolidBrush type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [OdSolidBrush()](#OdSolidBrush__0) | Initializes a new instance of the OdSolidBrush class |
+| [OdSolidBrush()](#OdSolidBrush__1) | Initializes a new instance of the OdSolidBrush class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| brush_style | [OdBrushStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/odbrushstyle) | r | Gets the style. |
 | argb_32_color | int | r/w | Gets or sets the color of the argb32. |
+| brush_style | [OdBrushStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/odbrushstyle) | r | Gets the style. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
 | [clone()](#clone__1) | Clone this instance. |
 
-### OdSolidBrush() {#OdSolidBrush__0}
+
+### Constructor: OdSolidBrush() {#OdSolidBrush__1}
 
 
 ```
@@ -39,7 +39,7 @@ The OdSolidBrush type exposes the following members:
 
 Initializes a new instance of the OdSolidBrush class
 
-### clone() {#clone__1}
+### Method: clone() {#clone__1}
 
 
 ```

@@ -16,6 +16,6 @@ Image filters to use
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| NONE | Nothing filter used |
 | BIG_RECTANGULAR | The big rectangular filter |
+| NONE | Nothing filter used |
 | SMALL_RECTANGULAR | The small rectangular filter |

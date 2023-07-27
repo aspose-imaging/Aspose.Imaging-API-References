@@ -17,8 +17,8 @@ The FamilyType enumeration defines values for one of the characteristics in the 
 | **Member name** | **Description** |
 | :- | :- |
 | PAN_ANY | The Any type. |
-| PAN_NO_FIT | The No fit. |
-| PAN_FAMILY_TEXT_DISPLAY | Text and display. |
-| PAN_FAMILY_SCRIPT | Script flag. |
 | PAN_FAMILY_DECORATIVE | Decorative flag. |
 | PAN_FAMILY_PICTORIAL | Pictorial flag. |
+| PAN_FAMILY_SCRIPT | Script flag. |
+| PAN_FAMILY_TEXT_DISPLAY | Text and display. |
+| PAN_NO_FIT | The No fit. |

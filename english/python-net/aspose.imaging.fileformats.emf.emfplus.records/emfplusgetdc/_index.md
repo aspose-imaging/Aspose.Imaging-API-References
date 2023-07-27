@@ -5,7 +5,7 @@ weight: 300
 url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusgetdc/
 ---
 
-The EmfPlusGetDC record specifies that subsequent EMF records encountered in the metafile SHOULD be processed.
+**Summary:** The EmfPlusGetDC record specifies that subsequent EMF records encountered in the metafile SHOULD be processed.
 
 **Module:** [aspose.imaging.fileformats.emf.emfplus.records](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/)
 
@@ -15,20 +15,20 @@ The EmfPlusGetDC record specifies that subsequent EMF records encountered in the
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfPlusGetDc type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EmfPlusGetDc(source)](#EmfPlusGetDc_source_0) | Initializes a new instance of the [EmfPlusGetDc](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusgetdc/) class. |
+| [EmfPlusGetDc(source)](#EmfPlusGetDc_source_1) | Initializes a new instance of the [EmfPlusGetDc](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusgetdc/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| type | [EmfPlusRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusrecordtype/) | r | Gets a 16-bit unsigned integer that identifies the record type. |
+| data_size | int | r/w | Gets or sets a 32-bit unsigned integer that MUST define the 32-bit–aligned number of<br/>            bytes of data in the RecordData field that follows. This number does not include the 12-byte record header. |
 | flags | short | r/w | Gets or sets a 16-bit unsigned integer that is not used. This field SHOULD be set to zero<br/>            and MUST be ignored upon receipt |
 | size | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the 32-bit-aligned number of bytes<br/>            in the entire record, including the 12-byte record header and record-specific data. |
-| data_size | int | r/w | Gets or sets a 32-bit unsigned integer that MUST define the 32-bit–aligned number of<br/>            bytes of data in the RecordData field that follows. This number does not include the 12-byte record header. |
+| type | [EmfPlusRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusrecordtype/) | r | Gets a 16-bit unsigned integer that identifies the record type. |
 
-### EmfPlusGetDc(source) {#EmfPlusGetDc_source_0}
+
+### Constructor: EmfPlusGetDc(source) {#EmfPlusGetDc_source_1}
 
 
 ```

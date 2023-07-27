@@ -5,7 +5,7 @@ weight: 10
 url: /python-net/aspose.imaging.shapes/arcshape/
 ---
 
-Represents an arc shape.
+**Summary:** Represents an arc shape.
 
 **Module:** [aspose.imaging.shapes](/imaging/python-net/aspose.imaging.shapes/)
 
@@ -15,40 +15,40 @@ Represents an arc shape.
 
 **Aspose.Imaging Version:** 23.6
 
-The ArcShape type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [ArcShape()](#ArcShape__0) | Initializes a new instance of the [ArcShape](/imaging/python-net/aspose.imaging.shapes/arcshape/) class. |
-| [ArcShape(rectangle, start_angle, sweep_angle)](#ArcShape_rectangle_start_angle_sweep_angle_1) | Initializes a new instance of the [ArcShape](/imaging/python-net/aspose.imaging.shapes/arcshape/) class. |
-| [ArcShape(rectangle, start_angle, sweep_angle, is_closed)](#ArcShape_rectangle_start_angle_sweep_angle_is_closed_2) | Initializes a new instance of the [ArcShape](/imaging/python-net/aspose.imaging.shapes/arcshape/) class. |
+| [ArcShape()](#ArcShape__1) | Initializes a new instance of the [ArcShape](/imaging/python-net/aspose.imaging.shapes/arcshape/) class. |
+| [ArcShape(rectangle, start_angle, sweep_angle)](#ArcShape_rectangle_start_angle_sweep_angle_2) | Initializes a new instance of the [ArcShape](/imaging/python-net/aspose.imaging.shapes/arcshape/) class. |
+| [ArcShape(rectangle, start_angle, sweep_angle, is_closed)](#ArcShape_rectangle_start_angle_sweep_angle_is_closed_3) | Initializes a new instance of the [ArcShape](/imaging/python-net/aspose.imaging.shapes/arcshape/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | bounds | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r | Gets the object's bounds. |
 | center | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the shape's center. |
-| segments | [ShapeSegment[]](/imaging/python-net/aspose.imaging/shapesegment) | r | Gets the shape segments. |
-| has_segments | bool | r | Gets a value indicating whether shape has segments. |
-| left_top | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the left top rectangle point. |
-| right_top | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the right top rectangle point. |
-| left_bottom | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the left bottom rectangle point. |
-| right_bottom | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the right bottom rectangle point. |
-| rectangle_width | double | r | Gets the rectangle width. |
-| rectangle_height | double | r | Gets the rectangle height. |
-| start_angle | float | r/w | Gets or sets the start angle. |
-| sweep_angle | float | r/w | Gets or sets the sweep angle. |
-| start_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the starting shape point. |
 | end_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the ending shape point. |
+| has_segments | bool | r | Gets a value indicating whether shape has segments. |
 | is_closed | bool | r/w | Gets or sets a value indicating whether ordered shape is closed. When processing closed ordered shape the starting and ending points have no meaning. |
+| left_bottom | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the left bottom rectangle point. |
+| left_top | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the left top rectangle point. |
+| rectangle_height | double | r | Gets the rectangle height. |
+| rectangle_width | double | r | Gets the rectangle width. |
+| right_bottom | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the right bottom rectangle point. |
+| right_top | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the right top rectangle point. |
+| segments | [ShapeSegment[]](/imaging/python-net/aspose.imaging/shapesegment) | r | Gets the shape segments. |
+| start_angle | float | r/w | Gets or sets the start angle. |
+| start_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the starting shape point. |
+| sweep_angle | float | r/w | Gets or sets the sweep angle. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_bounds(matrix)](#get_bounds_matrix_3) | Gets the object's bounds. |
-| [get_bounds(matrix, pen)](#get_bounds_matrix_pen_4) | Gets the object's bounds. |
-| [transform(transform)](#transform_transform_5) | Applies the specified transformation to the shape. |
+| [get_bounds(matrix)](#get_bounds_matrix_1) | Gets the object's bounds. |
+| [get_bounds(matrix, pen)](#get_bounds_matrix_pen_2) | Gets the object's bounds. |
 | reverse() | Reverses the order of points for this shape. |
+| [transform(transform)](#transform_transform_3) | Applies the specified transformation to the shape. |
 
-### ArcShape() {#ArcShape__0}
+
+### Constructor: ArcShape() {#ArcShape__1}
 
 
 ```
@@ -57,7 +57,7 @@ The ArcShape type exposes the following members:
 
 Initializes a new instance of the [ArcShape](/imaging/python-net/aspose.imaging.shapes/arcshape/) class.
 
-### ArcShape(rectangle, start_angle, sweep_angle) {#ArcShape_rectangle_start_angle_sweep_angle_1}
+### Constructor: ArcShape(rectangle, start_angle, sweep_angle) {#ArcShape_rectangle_start_angle_sweep_angle_2}
 
 
 ```
@@ -74,7 +74,7 @@ Initializes a new instance of the [ArcShape](/imaging/python-net/aspose.imaging.
 | start_angle | float | The start angle. |
 | sweep_angle | float | The sweep angle. |
 
-### ArcShape(rectangle, start_angle, sweep_angle, is_closed) {#ArcShape_rectangle_start_angle_sweep_angle_is_closed_2}
+### Constructor: ArcShape(rectangle, start_angle, sweep_angle, is_closed) {#ArcShape_rectangle_start_angle_sweep_angle_is_closed_3}
 
 
 ```
@@ -92,7 +92,7 @@ Initializes a new instance of the [ArcShape](/imaging/python-net/aspose.imaging.
 | sweep_angle | float | The sweep angle. |
 | is_closed | bool | If set to <c>true</c> the arc is closed. The closed arc is actually degenereates to an ellipse. |
 
-### get_bounds(matrix) {#get_bounds_matrix_3}
+### Method: get_bounds(matrix) {#get_bounds_matrix_1}
 
 
 ```
@@ -114,7 +114,7 @@ Gets the object's bounds.
 | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The estimated object's bounds. |
 
 
-### get_bounds(matrix, pen) {#get_bounds_matrix_pen_4}
+### Method: get_bounds(matrix, pen) {#get_bounds_matrix_pen_2}
 
 
 ```
@@ -137,7 +137,7 @@ Gets the object's bounds.
 | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The estimated object's bounds. |
 
 
-### transform(transform) {#transform_transform_5}
+### Method: transform(transform) {#transform_transform_3}
 
 
 ```

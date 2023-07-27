@@ -5,7 +5,7 @@ weight: 1160
 url: /python-net/aspose.imaging/colormatrix/
 ---
 
-Defines a 5 x 5 matrix that contains the coordinates for the RGBA space. Several methods of the [ImageAttributes](/imaging/python-net/aspose.imaging/imageattributes/) class adjust image colors by using a color matrix. This class cannot be inherited.
+**Summary:** Defines a 5 x 5 matrix that contains the coordinates for the RGBA space. Several methods of the [ImageAttributes](/imaging/python-net/aspose.imaging/imageattributes/) class adjust image colors by using a color matrix. This class cannot be inherited.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -13,15 +13,17 @@ Defines a 5 x 5 matrix that contains the coordinates for the RGBA space. Several
 
 **Aspose.Imaging Version:** 23.6
 
-The ColorMatrix type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [ColorMatrix()](#ColorMatrix__0) | Initializes a new instance of the [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/) class. |
-| [ColorMatrix(new_color_matrix)](#ColorMatrix_new_color_matrix_1) | Initializes a new instance of the [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/) class using the elements in the specified matrix <paramref name="newColorMatrix" />. |
+| [ColorMatrix()](#ColorMatrix__1) | Initializes a new instance of the [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/) class. |
+| [ColorMatrix(new_color_matrix)](#ColorMatrix_new_color_matrix_2) | Initializes a new instance of the [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/) class using the elements in the specified matrix <paramref name="newColorMatrix" />. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
+| MATRIX_DIMENSIONS_COUNT [static] | int | r | The number of matrix dimensions. |
+| MATRIX_DIMENSION_ELEMENTS_COUNT [static] | int | r | The number of elements in matrix dimension. |
+| MATRIX_TOTAL_ELEMENTS_COUNT [static] | int | r | The total number of elements in the matrix. |
 | matrix00 | float | r/w | Gets or sets the element at the 0 (zero) row and 0 column of this [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/). |
 | matrix01 | float | r/w | Gets or sets the element at the 0 (zero) row and first column of this [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/). |
 | matrix02 | float | r/w | Gets or sets the element at the 0 (zero) row and second column of this [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/). |
@@ -47,17 +49,15 @@ The ColorMatrix type exposes the following members:
 | matrix42 | float | r/w | Gets or sets the element at the fourth row and second column of this [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/). |
 | matrix43 | float | r/w | Gets or sets the element at the fourth row and third column of this [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/). |
 | matrix44 | float | r/w | Gets or sets the element at the fourth row and fourth column of this [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/). |
-| MATRIX_DIMENSION_ELEMENTS_COUNT [static] | int | r | The number of elements in matrix dimension. |
-| MATRIX_DIMENSIONS_COUNT [static] | int | r | The number of matrix dimensions. |
-| MATRIX_TOTAL_ELEMENTS_COUNT [static] | int | r | The total number of elements in the matrix. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
+| [get_elem(row, column)](#get_elem_row_column_1) | Gets the element at the specified row and column in the [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/). |
 | [get_matrix()](#get_matrix__2) | Gets the matrix values. |
-| [get_elem(row, column)](#get_elem_row_column_3) | Gets the element at the specified row and column in the [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/). |
-| [set_elem(row, column, value)](#set_elem_row_column_value_4) | Sets the element at the specified row and column in the [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/). |
+| [set_elem(row, column, value)](#set_elem_row_column_value_3) | Sets the element at the specified row and column in the [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/). |
 
-### ColorMatrix() {#ColorMatrix__0}
+
+### Constructor: ColorMatrix() {#ColorMatrix__1}
 
 
 ```
@@ -66,7 +66,7 @@ The ColorMatrix type exposes the following members:
 
 Initializes a new instance of the [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/) class.
 
-### ColorMatrix(new_color_matrix) {#ColorMatrix_new_color_matrix_1}
+### Constructor: ColorMatrix(new_color_matrix) {#ColorMatrix_new_color_matrix_2}
 
 
 ```
@@ -81,23 +81,7 @@ Initializes a new instance of the [ColorMatrix](/imaging/python-net/aspose.imagi
 | :- | :- | :- |
 | new_color_matrix | float[] | The values of the elements for the new [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/). |
 
-### get_matrix() {#get_matrix__2}
-
-
-```
- get_matrix() 
-```
-
-Gets the matrix values.
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| float[] | The matrix values array. |
-
-
-### get_elem(row, column) {#get_elem_row_column_3}
+### Method: get_elem(row, column) {#get_elem_row_column_1}
 
 
 ```
@@ -120,7 +104,23 @@ Gets the element at the specified row and column in the [ColorMatrix](/imaging/p
 | float | The element at the specified row and column. |
 
 
-### set_elem(row, column, value) {#set_elem_row_column_value_4}
+### Method: get_matrix() {#get_matrix__2}
+
+
+```
+ get_matrix() 
+```
+
+Gets the matrix values.
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| float[] | The matrix values array. |
+
+
+### Method: set_elem(row, column, value) {#set_elem_row_column_value_3}
 
 
 ```

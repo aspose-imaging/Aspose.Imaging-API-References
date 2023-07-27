@@ -5,7 +5,7 @@ weight: 10
 url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbasebitmapdata/
 ---
 
-Base class for bitmap data types.
+**Summary:** Base class for bitmap data types.
 
 **Module:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
@@ -15,5 +15,5 @@ Base class for bitmap data types.
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfPlusBaseBitmapData type exposes the following members:
+
 

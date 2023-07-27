@@ -16,5 +16,5 @@ The CompositingMode enumeration defines modes for combining source colors with b
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| COMPOSITING_MODE_SOURCE_OVER | Enables alpha blending, which specifies that when a color is rendered, it is blended with the background color. The extent of blending is determined by the value of the alpha component of the color being rendered. |
 | COMPOSITING_MODE_SOURCE_COPY | Disables alpha blending, which means that when a source color is rendered, it overwrites the background color. |
+| COMPOSITING_MODE_SOURCE_OVER | Enables alpha blending, which specifies that when a color is rendered, it is blended with the background color. The extent of blending is determined by the value of the alpha component of the color being rendered. |

@@ -5,7 +5,7 @@ weight: 1100
 url: /python-net/aspose.imaging/color/
 ---
 
-The color of the pixel.
+**Summary:** The color of the pixel.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -13,21 +13,20 @@ The color of the pixel.
 
 **Aspose.Imaging Version:** 23.6
 
-The Color type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [Color()](#Color__0) | Initializes a new instance of the Color class |
+| [Color()](#Color__1) | Initializes a new instance of the Color class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| empty [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets an empty [Color](/imaging/python-net/aspose.imaging/color/). |
-| transparent [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
+| a | byte | r | Gets the alpha component value of this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
 | alice_blue [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | antique_white [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | aqua [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | aquamarine [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | azure [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
+| b | byte | r | Gets the blue component value of this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
 | beige [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | bisque [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | black [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
@@ -65,10 +64,12 @@ The Color type exposes the following members:
 | deep_sky_blue [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | dim_gray [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | dodger_blue [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
+| empty [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets an empty [Color](/imaging/python-net/aspose.imaging/color/). |
 | firebrick [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | floral_white [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | forest_green [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | fuchsia [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
+| g | byte | r | Gets the green component value of this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
 | gainsboro [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | ghost_white [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | gold [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
@@ -80,6 +81,9 @@ The Color type exposes the following members:
 | hot_pink [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | indian_red [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | indigo [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
+| is_empty | bool | r | Gets a value indicating whether this [Color](/imaging/python-net/aspose.imaging/color/) structure is uninitialized. |
+| is_known_color | bool | r | Gets a value indicating whether this [Color](/imaging/python-net/aspose.imaging/color/) structure is a predefined color. Predefined colors are represented by the elements of the [KnownColor](/imaging/python-net/aspose.imaging/knowncolor/) enumeration. |
+| is_named_color | bool | r | Gets a value indicating whether this [Color](/imaging/python-net/aspose.imaging/color/) structure is a named color or a member of the [KnownColor](/imaging/python-net/aspose.imaging/knowncolor/) enumeration. |
 | ivory [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | khaki [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | lavender [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
@@ -90,8 +94,8 @@ The Color type exposes the following members:
 | light_coral [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | light_cyan [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | light_goldenrod_yellow [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
-| light_green [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | light_gray [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
+| light_green [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | light_pink [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | light_salmon [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | light_sea_green [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
@@ -117,6 +121,7 @@ The Color type exposes the following members:
 | mint_cream [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | misty_rose [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | moccasin [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
+| name | string | r | Gets the name of this [Color](/imaging/python-net/aspose.imaging/color/). |
 | navajo_white [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | navy [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | old_lace [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
@@ -136,6 +141,7 @@ The Color type exposes the following members:
 | plum [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | powder_blue [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | purple [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
+| r | byte | r | Gets the red component value of this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
 | red [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | rosy_brown [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | royal_blue [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
@@ -156,6 +162,7 @@ The Color type exposes the following members:
 | teal [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | thistle [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | tomato [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
+| transparent [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | turquoise [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | violet [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | wheat [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
@@ -163,42 +170,35 @@ The Color type exposes the following members:
 | white_smoke [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | yellow [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | yellow_green [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
-| r | byte | r | Gets the red component value of this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
-| g | byte | r | Gets the green component value of this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
-| b | byte | r | Gets the blue component value of this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
-| a | byte | r | Gets the alpha component value of this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
-| is_known_color | bool | r | Gets a value indicating whether this [Color](/imaging/python-net/aspose.imaging/color/) structure is a predefined color. Predefined colors are represented by the elements of the [KnownColor](/imaging/python-net/aspose.imaging/knowncolor/) enumeration. |
-| is_empty | bool | r | Gets a value indicating whether this [Color](/imaging/python-net/aspose.imaging/color/) structure is uninitialized. |
-| is_named_color | bool | r | Gets a value indicating whether this [Color](/imaging/python-net/aspose.imaging/color/) structure is a named color or a member of the [KnownColor](/imaging/python-net/aspose.imaging/knowncolor/) enumeration. |
-| name | string | r | Gets the name of this [Color](/imaging/python-net/aspose.imaging/color/). |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [from_argb(argb)](#from_argb_argb_1) | Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from a 32-bit ARGB value. |
+| [from_argb(alpha, base_color)](#from_argb_alpha_base_color_1) | Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from the specified [Color](/imaging/python-net/aspose.imaging/color/) structure, but with the new specified alpha value. Although this method allows a 32-bit value to be passed for the alpha value, the value is limited to 8 bits. |
 | [from_argb(alpha, red, green, blue)](#from_argb_alpha_red_green_blue_2) | Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from the four ARGB component (alpha, red, green, and blue) values. Although this method allows a 32-bit value to be passed for each component, the value of each component is limited to 8 bits. |
-| [from_argb(alpha, base_color)](#from_argb_alpha_base_color_3) | Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from the specified [Color](/imaging/python-net/aspose.imaging/color/) structure, but with the new specified alpha value. Although this method allows a 32-bit value to be passed for the alpha value, the value is limited to 8 bits. |
+| [from_argb(argb)](#from_argb_argb_3) | Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from a 32-bit ARGB value. |
 | [from_argb(red, green, blue)](#from_argb_red_green_blue_4) | Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from the specified 8-bit color values (red, green, and blue). The alpha value is implicitly 255 (fully opaque). Although this method allows a 32-bit value to be passed for each color component, the value of each component is limited to 8 bits. |
-| [to_cmyk(pixels)](#to_cmyk_pixels_5) | The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective <see cref="M:Aspose.Imaging.CmykColorHelper.ToCmyk(Aspose.Imaging.Color[])" />. |
-| [to_cmyk(pixel)](#to_cmyk_pixel_6) | The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective <see cref="M:Aspose.Imaging.CmykColorHelper.ToCmyk(Aspose.Imaging.Color[])" />. |
-| [to_cmyk_icc(pixel)](#to_cmyk_icc_pixel_7) |    |
-| [to_cmyk_icc(pixels)](#to_cmyk_icc_pixels_8) |    |
-| [to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_icc_pixels_rgb_icc_stream_cmyk_icc_stream_9) |    |
-| [to_cmyk_icc(pixel, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_icc_pixel_rgb_icc_stream_cmyk_icc_stream_10) |    |
-| [from_known_color(color)](#from_known_color_color_11) | Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from the specified predefined color. |
-| [from_name(name)](#from_name_name_12) | Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from the specified name of a predefined color. |
-| [get_brightness()](#get_brightness__13) | Gets the hue-saturation-brightness (HSB) brightness value for this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
-| [get_hue()](#get_hue__14) | Gets the hue-saturation-brightness (HSB) hue value, in degrees, for this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
-| [get_saturation()](#get_saturation__15) | Gets the hue-saturation-brightness (HSB) saturation value for this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
-| [to_argb()](#to_argb__16) | Gets the 32-bit ARGB value of this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
-| [to_known_color()](#to_known_color__17) | Gets the [KnownColor](/imaging/python-net/aspose.imaging/knowncolor/) value of this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
-| [to_cmyk_colors(pixels)](#to_cmyk_colors_pixels_18) | The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective <see cref="M:Aspose.Imaging.CmykColorHelper.ToCmyk(Aspose.Imaging.Color[])" />. |
-| [to_cmyk_color(pixel)](#to_cmyk_color_pixel_19) | The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective <see cref="M:Aspose.Imaging.CmykColorHelper.ToCmyk(Aspose.Imaging.Color[])" />. |
-| [to_cmyk_color_with_def_icc(pixel)](#to_cmyk_color_with_def_icc_pixel_20) | The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective <see cref="M:Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color)" />. |
-| [to_cmyk_colors_with_def_icc(pixels)](#to_cmyk_colors_with_def_icc_pixels_21) | The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective <see cref="M:Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color[])" />. |
-| [to_cmyk_colors_with_icc(pixels, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_colors_with_icc_pixels_rgb_icc_stream_cmyk_icc_stream_22) | The conversion from Color to CMYKColor using icc conversion.<br/>            This method is deprecated. Please use more effective <see cref="M:Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color[],System.IO.Stream,System.IO.Stream)" />. |
-| [to_cmyk_color_with_icc(pixel, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_color_with_icc_pixel_rgb_icc_stream_cmyk_icc_stream_23) | The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective <see cref="M:Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color,System.IO.Stream,System.IO.Stream)" />. |
+| [from_known_color(color)](#from_known_color_color_5) | Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from the specified predefined color. |
+| [from_name(name)](#from_name_name_6) | Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from the specified name of a predefined color. |
+| [get_brightness()](#get_brightness__7) | Gets the hue-saturation-brightness (HSB) brightness value for this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
+| [get_hue()](#get_hue__8) | Gets the hue-saturation-brightness (HSB) hue value, in degrees, for this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
+| [get_saturation()](#get_saturation__9) | Gets the hue-saturation-brightness (HSB) saturation value for this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
+| [to_argb()](#to_argb__10) | Gets the 32-bit ARGB value of this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
+| [to_cmyk(pixel)](#to_cmyk_pixel_11) | The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
+| [to_cmyk(pixels)](#to_cmyk_pixels_12) | The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
+| [to_cmyk_color(pixel)](#to_cmyk_color_pixel_13) | The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
+| [to_cmyk_color_with_def_icc(pixel)](#to_cmyk_color_with_def_icc_pixel_14) | The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixel)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
+| [to_cmyk_color_with_icc(pixel, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_color_with_icc_pixel_rgb_icc_stream_cmyk_icc_stream_15) | The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color,_io.BufferedRandom,_io.BufferedRandom). |
+| [to_cmyk_colors(pixels)](#to_cmyk_colors_pixels_16) | The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
+| [to_cmyk_colors_with_def_icc(pixels)](#to_cmyk_colors_with_def_icc_pixels_17) | The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
+| [to_cmyk_colors_with_icc(pixels, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_colors_with_icc_pixels_rgb_icc_stream_cmyk_icc_stream_18) | The conversion from Color to CMYKColor using icc conversion.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color[],_io.BufferedRandom,_io.BufferedRandom). |
+| [to_cmyk_icc(pixel)](#to_cmyk_icc_pixel_19) | The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
+| [to_cmyk_icc(pixel, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_icc_pixel_rgb_icc_stream_cmyk_icc_stream_20) | The conversion from Color to CMYKColor using icc conversion.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color[],_io.BufferedRandom,_io.BufferedRandom). |
+| [to_cmyk_icc(pixels)](#to_cmyk_icc_pixels_21) | The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/). |
+| [to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)](#to_cmyk_icc_pixels_rgb_icc_stream_cmyk_icc_stream_22) | The conversion from Color to CMYKColor using icc conversion.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color[],_io.BufferedRandom,_io.BufferedRandom). |
+| [to_known_color()](#to_known_color__23) | Gets the [KnownColor](/imaging/python-net/aspose.imaging/knowncolor/) value of this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
 
-### Color() {#Color__0}
+
+### Constructor: Color() {#Color__1}
 
 
 ```
@@ -207,29 +207,30 @@ The Color type exposes the following members:
 
 Initializes a new instance of the Color class
 
-### from_argb(argb)  [static] {#from_argb_argb_1}
+### Method: from_argb(alpha, base_color)  [static] {#from_argb_alpha_base_color_1}
 
 
 ```
- from_argb(argb) 
+ from_argb(alpha, base_color) 
 ```
 
-Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from a 32-bit ARGB value.
+Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from the specified [Color](/imaging/python-net/aspose.imaging/color/) structure, but with the new specified alpha value. Although this method allows a 32-bit value to be passed for the alpha value, the value is limited to 8 bits.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| argb | int | A value specifying the 32-bit ARGB value. |
+| alpha | int | The alpha value for the new [Color](/imaging/python-net/aspose.imaging/color/). Valid values are 0 through 255. |
+| base_color | [Color](/imaging/python-net/aspose.imaging/color) | The [Color](/imaging/python-net/aspose.imaging/color/) from which to create the new [Color](/imaging/python-net/aspose.imaging/color/). |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Color](/imaging/python-net/aspose.imaging/color) | The [Color](/imaging/python-net/aspose.imaging/color/) structure that this method creates. |
+| [Color](/imaging/python-net/aspose.imaging/color) | The [Color](/imaging/python-net/aspose.imaging/color/) that this method creates. |
 
 
-### from_argb(alpha, red, green, blue)  [static] {#from_argb_alpha_red_green_blue_2}
+### Method: from_argb(alpha, red, green, blue)  [static] {#from_argb_alpha_red_green_blue_2}
 
 
 ```
@@ -254,30 +255,29 @@ Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from the 
 | [Color](/imaging/python-net/aspose.imaging/color) | The [Color](/imaging/python-net/aspose.imaging/color/) that this method creates. |
 
 
-### from_argb(alpha, base_color)  [static] {#from_argb_alpha_base_color_3}
+### Method: from_argb(argb)  [static] {#from_argb_argb_3}
 
 
 ```
- from_argb(alpha, base_color) 
+ from_argb(argb) 
 ```
 
-Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from the specified [Color](/imaging/python-net/aspose.imaging/color/) structure, but with the new specified alpha value. Although this method allows a 32-bit value to be passed for the alpha value, the value is limited to 8 bits.
+Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from a 32-bit ARGB value.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| alpha | int | The alpha value for the new [Color](/imaging/python-net/aspose.imaging/color/). Valid values are 0 through 255. |
-| base_color | [Color](/imaging/python-net/aspose.imaging/color) | The [Color](/imaging/python-net/aspose.imaging/color/) from which to create the new [Color](/imaging/python-net/aspose.imaging/color/). |
+| argb | int | A value specifying the 32-bit ARGB value. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| [Color](/imaging/python-net/aspose.imaging/color) | The [Color](/imaging/python-net/aspose.imaging/color/) that this method creates. |
+| [Color](/imaging/python-net/aspose.imaging/color) | The [Color](/imaging/python-net/aspose.imaging/color/) structure that this method creates. |
 
 
-### from_argb(red, green, blue)  [static] {#from_argb_red_green_blue_4}
+### Method: from_argb(red, green, blue)  [static] {#from_argb_red_green_blue_4}
 
 
 ```
@@ -301,143 +301,7 @@ Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from the 
 | [Color](/imaging/python-net/aspose.imaging/color) | The [Color](/imaging/python-net/aspose.imaging/color/) that this method creates. |
 
 
-### to_cmyk(pixels)  [static] {#to_cmyk_pixels_5}
-
-
-```
- to_cmyk(pixels) 
-```
-
-The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective <see cref="M:Aspose.Imaging.CmykColorHelper.ToCmyk(Aspose.Imaging.Color[])" />.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixels of Color type in RGB format. |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| [CmykColor[]](/imaging/python-net/aspose.imaging/cmykcolor) | The <see cref="T:Aspose:Imaging:CmykColor[]" />. |
-
-
-### to_cmyk(pixel)  [static] {#to_cmyk_pixel_6}
-
-
-```
- to_cmyk(pixel) 
-```
-
-The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective <see cref="M:Aspose.Imaging.CmykColorHelper.ToCmyk(Aspose.Imaging.Color[])" />.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| pixel | [Color](/imaging/python-net/aspose.imaging/color) |  |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| [CmykColor](/imaging/python-net/aspose.imaging/cmykcolor) | The <see cref="T:Aspose:Imaging:CmykColor[]" />. |
-
-
-### to_cmyk_icc(pixel)  [static] {#to_cmyk_icc_pixel_7}
-
-
-```
- to_cmyk_icc(pixel) 
-```
-
-  
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| pixel | [Color](/imaging/python-net/aspose.imaging/color) |  |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| [CmykColor](/imaging/python-net/aspose.imaging/cmykcolor) |  |
-
-
-### to_cmyk_icc(pixels)  [static] {#to_cmyk_icc_pixels_8}
-
-
-```
- to_cmyk_icc(pixels) 
-```
-
-  
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| pixels | [Color[]](/imaging/python-net/aspose.imaging/color) |  |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| [CmykColor[]](/imaging/python-net/aspose.imaging/cmykcolor) |  |
-
-
-### to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_icc_pixels_rgb_icc_stream_cmyk_icc_stream_9}
-
-
-```
- to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream) 
-```
-
-  
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| pixels | [Color[]](/imaging/python-net/aspose.imaging/color) |  |
-| rgb_icc_stream | _io.BufferedRandom |  |
-| cmyk_icc_stream | _io.BufferedRandom |  |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| [CmykColor[]](/imaging/python-net/aspose.imaging/cmykcolor) |  |
-
-
-### to_cmyk_icc(pixel, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_icc_pixel_rgb_icc_stream_cmyk_icc_stream_10}
-
-
-```
- to_cmyk_icc(pixel, rgb_icc_stream, cmyk_icc_stream) 
-```
-
-  
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| pixel | [Color](/imaging/python-net/aspose.imaging/color) |  |
-| rgb_icc_stream | _io.BufferedRandom |  |
-| cmyk_icc_stream | _io.BufferedRandom |  |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| [CmykColor](/imaging/python-net/aspose.imaging/cmykcolor) |  |
-
-
-### from_known_color(color)  [static] {#from_known_color_color_11}
+### Method: from_known_color(color)  [static] {#from_known_color_color_5}
 
 
 ```
@@ -459,7 +323,7 @@ Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from the 
 | [Color](/imaging/python-net/aspose.imaging/color) | The [Color](/imaging/python-net/aspose.imaging/color/) that this method creates. |
 
 
-### from_name(name)  [static] {#from_name_name_12}
+### Method: from_name(name)  [static] {#from_name_name_6}
 
 
 ```
@@ -481,7 +345,7 @@ Creates a [Color](/imaging/python-net/aspose.imaging/color/) structure from the 
 | [Color](/imaging/python-net/aspose.imaging/color) | The [Color](/imaging/python-net/aspose.imaging/color/) that this method creates. |
 
 
-### get_brightness() {#get_brightness__13}
+### Method: get_brightness() {#get_brightness__7}
 
 
 ```
@@ -497,7 +361,7 @@ Gets the hue-saturation-brightness (HSB) brightness value for this [Color](/imag
 | float | The brightness of this [Color](/imaging/python-net/aspose.imaging/color/). The brightness ranges from 0.0 through 1.0, where 0.0 represents black and 1.0 represents white. |
 
 
-### get_hue() {#get_hue__14}
+### Method: get_hue() {#get_hue__8}
 
 
 ```
@@ -513,7 +377,7 @@ Gets the hue-saturation-brightness (HSB) hue value, in degrees, for this [Color]
 | float | The hue, in degrees, of this [Color](/imaging/python-net/aspose.imaging/color/). The hue is measured in degrees, ranging from 0.0 through 360.0, in HSB color space. |
 
 
-### get_saturation() {#get_saturation__15}
+### Method: get_saturation() {#get_saturation__9}
 
 
 ```
@@ -529,7 +393,7 @@ Gets the hue-saturation-brightness (HSB) saturation value for this [Color](/imag
 | float | The saturation of this [Color](/imaging/python-net/aspose.imaging/color/). The saturation ranges from 0.0 through 1.0, where 0.0 is grayscale and 1.0 is the most saturated. |
 
 
-### to_argb() {#to_argb__16}
+### Method: to_argb() {#to_argb__10}
 
 
 ```
@@ -545,52 +409,14 @@ Gets the 32-bit ARGB value of this [Color](/imaging/python-net/aspose.imaging/co
 | int | The 32-bit ARGB value of this [Color](/imaging/python-net/aspose.imaging/color/). |
 
 
-### to_known_color() {#to_known_color__17}
+### Method: to_cmyk(pixel)  [static] {#to_cmyk_pixel_11}
 
 
 ```
- to_known_color() 
+ to_cmyk(pixel) 
 ```
 
-Gets the [KnownColor](/imaging/python-net/aspose.imaging/knowncolor/) value of this [Color](/imaging/python-net/aspose.imaging/color/) structure.
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| [KnownColor](/imaging/python-net/aspose.imaging/knowncolor) | An element of the [KnownColor](/imaging/python-net/aspose.imaging/knowncolor/) enumeration, if the [Color](/imaging/python-net/aspose.imaging/color/) is created from a predefined color by using either the <see cref="M:Aspose.Imaging.Color.FromName(System.String)" /> method or the <see cref="M:Aspose.Imaging.Color.FromKnownColor(Aspose.Imaging.KnownColor)" /> method; otherwise, 0. |
-
-
-### to_cmyk_colors(pixels)  [static] {#to_cmyk_colors_pixels_18}
-
-
-```
- to_cmyk_colors(pixels) 
-```
-
-The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective <see cref="M:Aspose.Imaging.CmykColorHelper.ToCmyk(Aspose.Imaging.Color[])" />.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixels of Color type in RGB format. |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| [CmykColor[]](/imaging/python-net/aspose.imaging/cmykcolor) | The <see cref="T:Aspose:Imaging:CmykColor[]" />. |
-
-
-### to_cmyk_color(pixel)  [static] {#to_cmyk_color_pixel_19}
-
-
-```
- to_cmyk_color(pixel) 
-```
-
-The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective <see cref="M:Aspose.Imaging.CmykColorHelper.ToCmyk(Aspose.Imaging.Color[])" />.
+The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/).
 
 **Parameters:**
 
@@ -602,17 +428,61 @@ The conversion from Color to CMYKColor.<br/>            This method is deprecate
 
 | Type | Description |
 | :- | :- |
-| [CmykColor](/imaging/python-net/aspose.imaging/cmykcolor) | The <see cref="T:Aspose:Imaging:CmykColor[]" />. |
+| [CmykColor](/imaging/python-net/aspose.imaging/cmykcolor) | The [CmykColor[]](/imaging/python-net/aspose.imaging/cmykcolor/). |
 
 
-### to_cmyk_color_with_def_icc(pixel)  [static] {#to_cmyk_color_with_def_icc_pixel_20}
+### Method: to_cmyk(pixels)  [static] {#to_cmyk_pixels_12}
+
+
+```
+ to_cmyk(pixels) 
+```
+
+The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixels of Color type in RGB format. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [CmykColor[]](/imaging/python-net/aspose.imaging/cmykcolor) | The [CmykColor[]](/imaging/python-net/aspose.imaging/cmykcolor/). |
+
+
+### Method: to_cmyk_color(pixel)  [static] {#to_cmyk_color_pixel_13}
+
+
+```
+ to_cmyk_color(pixel) 
+```
+
+The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| pixel | [Color](/imaging/python-net/aspose.imaging/color) |  |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [CmykColor](/imaging/python-net/aspose.imaging/cmykcolor) | The [CmykColor[]](/imaging/python-net/aspose.imaging/cmykcolor/). |
+
+
+### Method: to_cmyk_color_with_def_icc(pixel)  [static] {#to_cmyk_color_with_def_icc_pixel_14}
 
 
 ```
  to_cmyk_color_with_def_icc(pixel) 
 ```
 
-The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective <see cref="M:Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color)" />.
+The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixel)](/imaging/python-net/aspose.imaging/cmykcolorhelper/).
 
 **Parameters:**
 
@@ -627,14 +497,60 @@ The conversion from Color to CMYKColor using icc conversion with default profile
 | [CmykColor](/imaging/python-net/aspose.imaging/cmykcolor) | The [CmykColor](/imaging/python-net/aspose.imaging/cmykcolor/). |
 
 
-### to_cmyk_colors_with_def_icc(pixels)  [static] {#to_cmyk_colors_with_def_icc_pixels_21}
+### Method: to_cmyk_color_with_icc(pixel, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_color_with_icc_pixel_rgb_icc_stream_cmyk_icc_stream_15}
+
+
+```
+ to_cmyk_color_with_icc(pixel, rgb_icc_stream, cmyk_icc_stream) 
+```
+
+The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color,_io.BufferedRandom,_io.BufferedRandom).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| pixel | [Color](/imaging/python-net/aspose.imaging/color) | The pixel of Color type in RGB format. |
+| rgb_icc_stream | _io.BufferedRandom | The stream containing icc rgb profile. |
+| cmyk_icc_stream | _io.BufferedRandom | The stream containing icc cmyk profile. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [CmykColor](/imaging/python-net/aspose.imaging/cmykcolor) | The [CmykColor[]](/imaging/python-net/aspose.imaging/cmykcolor/). |
+
+
+### Method: to_cmyk_colors(pixels)  [static] {#to_cmyk_colors_pixels_16}
+
+
+```
+ to_cmyk_colors(pixels) 
+```
+
+The conversion from Color to CMYKColor.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixels of Color type in RGB format. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [CmykColor[]](/imaging/python-net/aspose.imaging/cmykcolor) | The [CmykColor[]](/imaging/python-net/aspose.imaging/cmykcolor/). |
+
+
+### Method: to_cmyk_colors_with_def_icc(pixels)  [static] {#to_cmyk_colors_with_def_icc_pixels_17}
 
 
 ```
  to_cmyk_colors_with_def_icc(pixels) 
 ```
 
-The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective <see cref="M:Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color[])" />.
+The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/).
 
 **Parameters:**
 
@@ -649,14 +565,14 @@ The conversion from Color to CMYKColor using icc conversion with default profile
 | [CmykColor[]](/imaging/python-net/aspose.imaging/cmykcolor) | The <see cref="!:CmykColor[]" />. |
 
 
-### to_cmyk_colors_with_icc(pixels, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_colors_with_icc_pixels_rgb_icc_stream_cmyk_icc_stream_22}
+### Method: to_cmyk_colors_with_icc(pixels, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_colors_with_icc_pixels_rgb_icc_stream_cmyk_icc_stream_18}
 
 
 ```
  to_cmyk_colors_with_icc(pixels, rgb_icc_stream, cmyk_icc_stream) 
 ```
 
-The conversion from Color to CMYKColor using icc conversion.<br/>            This method is deprecated. Please use more effective <see cref="M:Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color[],System.IO.Stream,System.IO.Stream)" />.
+The conversion from Color to CMYKColor using icc conversion.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color[],_io.BufferedRandom,_io.BufferedRandom).
 
 **Parameters:**
 
@@ -670,23 +586,45 @@ The conversion from Color to CMYKColor using icc conversion.<br/>            Thi
 
 | Type | Description |
 | :- | :- |
-| [CmykColor[]](/imaging/python-net/aspose.imaging/cmykcolor) | The <see cref="T:Aspose:Imaging:CmykColor[]" />. |
+| [CmykColor[]](/imaging/python-net/aspose.imaging/cmykcolor) | The [CmykColor[]](/imaging/python-net/aspose.imaging/cmykcolor/). |
 
 
-### to_cmyk_color_with_icc(pixel, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_color_with_icc_pixel_rgb_icc_stream_cmyk_icc_stream_23}
+### Method: to_cmyk_icc(pixel)  [static] {#to_cmyk_icc_pixel_19}
 
 
 ```
- to_cmyk_color_with_icc(pixel, rgb_icc_stream, cmyk_icc_stream) 
+ to_cmyk_icc(pixel) 
 ```
 
-The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective <see cref="M:Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color,System.IO.Stream,System.IO.Stream)" />.
+The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/).
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pixel | [Color](/imaging/python-net/aspose.imaging/color) | The pixel of Color type in RGB format. |
+| pixel | [Color](/imaging/python-net/aspose.imaging/color) |  |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [CmykColor](/imaging/python-net/aspose.imaging/cmykcolor) | The [CmykColor](/imaging/python-net/aspose.imaging/cmykcolor/)[]. |
+
+
+### Method: to_cmyk_icc(pixel, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_icc_pixel_rgb_icc_stream_cmyk_icc_stream_20}
+
+
+```
+ to_cmyk_icc(pixel, rgb_icc_stream, cmyk_icc_stream) 
+```
+
+The conversion from Color to CMYKColor using icc conversion.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color[],_io.BufferedRandom,_io.BufferedRandom).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| pixel | [Color](/imaging/python-net/aspose.imaging/color) |  |
 | rgb_icc_stream | _io.BufferedRandom | The stream containing icc rgb profile. |
 | cmyk_icc_stream | _io.BufferedRandom | The stream containing icc cmyk profile. |
 
@@ -694,6 +632,68 @@ The conversion from Color to CMYKColor using icc conversion with default profile
 
 | Type | Description |
 | :- | :- |
-| [CmykColor](/imaging/python-net/aspose.imaging/cmykcolor) | The <see cref="T:Aspose:Imaging:CmykColor[]" />. |
+| [CmykColor](/imaging/python-net/aspose.imaging/cmykcolor) | The [CmykColor[]](/imaging/python-net/aspose.imaging/cmykcolor/). |
+
+
+### Method: to_cmyk_icc(pixels)  [static] {#to_cmyk_icc_pixels_21}
+
+
+```
+ to_cmyk_icc(pixels) 
+```
+
+The conversion from Color to CMYKColor using icc conversion with default profiles.<br/>            This method is deprecated. Please use more effective [CmykColorHelper.to_cmyk_icc(pixels)](/imaging/python-net/aspose.imaging/cmykcolorhelper/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixels of Color type in RGB format. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [CmykColor[]](/imaging/python-net/aspose.imaging/cmykcolor) | The [CmykColor](/imaging/python-net/aspose.imaging/cmykcolor/)[]. |
+
+
+### Method: to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream)  [static] {#to_cmyk_icc_pixels_rgb_icc_stream_cmyk_icc_stream_22}
+
+
+```
+ to_cmyk_icc(pixels, rgb_icc_stream, cmyk_icc_stream) 
+```
+
+The conversion from Color to CMYKColor using icc conversion.<br/>            This method is deprecated. Please use more effective Aspose.Imaging.CmykColorHelper.ToCmykIcc(Aspose.Imaging.Color[],_io.BufferedRandom,_io.BufferedRandom).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixels of Color type in RGB format. |
+| rgb_icc_stream | _io.BufferedRandom | The stream containing icc rgb profile. |
+| cmyk_icc_stream | _io.BufferedRandom | The stream containing icc cmyk profile. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [CmykColor[]](/imaging/python-net/aspose.imaging/cmykcolor) | The [CmykColor[]](/imaging/python-net/aspose.imaging/cmykcolor/). |
+
+
+### Method: to_known_color() {#to_known_color__23}
+
+
+```
+ to_known_color() 
+```
+
+Gets the [KnownColor](/imaging/python-net/aspose.imaging/knowncolor/) value of this [Color](/imaging/python-net/aspose.imaging/color/) structure.
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [KnownColor](/imaging/python-net/aspose.imaging/knowncolor) | An element of the [KnownColor](/imaging/python-net/aspose.imaging/knowncolor/) enumeration, if the [Color](/imaging/python-net/aspose.imaging/color/) is created from a predefined color by using either the [Color.from_name(name)](/imaging/python-net/aspose.imaging/color/) method or the [Color.from_known_color(color)](/imaging/python-net/aspose.imaging/color/) method; otherwise, 0. |
 
 

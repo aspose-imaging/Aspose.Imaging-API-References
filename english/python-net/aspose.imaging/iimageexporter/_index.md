@@ -5,7 +5,7 @@ weight: 5180
 url: /python-net/aspose.imaging/iimageexporter/
 ---
 
-The image exporter. Can export data from internal Aspose.Imaging format to a specified data format.
+**Summary:** The image exporter. Can export data from internal Aspose.Imaging format to a specified data format.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -13,14 +13,14 @@ The image exporter. Can export data from internal Aspose.Imaging format to a spe
 
 **Aspose.Imaging Version:** 23.6
 
-The IImageExporter type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [export(image, stream, options_base)](#export_image_stream_options_base_0) | Exports the specified image data into specified data format. |
-| [export(image, stream, options_base, bounds_rectangle)](#export_image_stream_options_base_bounds_rectangle_1) | Exports the specified image data into specified data format. |
+| [export(image, stream, options_base)](#export_image_stream_options_base_1) | Exports the specified image data into specified data format. |
+| [export(image, stream, options_base, bounds_rectangle)](#export_image_stream_options_base_bounds_rectangle_2) | Exports the specified image data into specified data format. |
 
-### export(image, stream, options_base) {#export_image_stream_options_base_0}
+
+### Method: export(image, stream, options_base) {#export_image_stream_options_base_1}
 
 
 ```
@@ -37,7 +37,7 @@ Exports the specified image data into specified data format.
 | stream | _io.BufferedRandom | The stream to export data to. |
 | options_base | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Options for image export |
 
-### export(image, stream, options_base, bounds_rectangle) {#export_image_stream_options_base_bounds_rectangle_1}
+### Method: export(image, stream, options_base, bounds_rectangle) {#export_image_stream_options_base_bounds_rectangle_2}
 
 
 ```

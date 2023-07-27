@@ -5,7 +5,7 @@ weight: 10
 url: /python-net/aspose.imaging.fileformats.bmp.structures/ciecoordinates/
 ---
 
-The class contains the x,y, and z coordinates of a specific color in a specified color space.
+**Summary:** The class contains the x,y, and z coordinates of a specific color in a specified color space.
 
 **Module:** [aspose.imaging.fileformats.bmp.structures](/imaging/python-net/aspose.imaging.fileformats.bmp.structures/)
 
@@ -13,19 +13,19 @@ The class contains the x,y, and z coordinates of a specific color in a specified
 
 **Aspose.Imaging Version:** 23.6
 
-The CieCoordinates type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [CieCoordinates(bytes)](#CieCoordinates_bytes_0) | Initializes a new instance of the [CieCoordinates](/imaging/python-net/aspose.imaging.fileformats.bmp.structures/ciecoordinates/) class. |
+| [CieCoordinates(bytes)](#CieCoordinates_bytes_1) | Initializes a new instance of the [CieCoordinates](/imaging/python-net/aspose.imaging.fileformats.bmp.structures/ciecoordinates/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | cie_coordinates_x | long | r/w | Gets or sets the coordinates x. |
 | cie_coordinates_y | long | r/w | Gets or sets the coordinates y. |
 | cie_coordinates_z | long | r/w | Gets or sets the coordinates z. |
 
-### CieCoordinates(bytes) {#CieCoordinates_bytes_0}
+
+### Constructor: CieCoordinates(bytes) {#CieCoordinates_bytes_1}
 
 
 ```

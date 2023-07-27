@@ -16,6 +16,6 @@ The dithering methods used to control color conversion.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| PALETTE_IGNORE | The palette is ignored |
-| PALETTE_CONVERSION | The palette is not ignored and wise color conversion should be applied. |
 | CUSTOM_CONVERTER | The custom converter. |
+| PALETTE_CONVERSION | The palette is not ignored and wise color conversion should be applied. |
+| PALETTE_IGNORE | The palette is ignored |

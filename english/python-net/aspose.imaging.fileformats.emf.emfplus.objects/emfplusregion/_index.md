@@ -5,7 +5,7 @@ weight: 590
 url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregion/
 ---
 
-The EmfPlusRegion object specifies line and curve segments that define a non rectilinear shape
+**Summary:** The EmfPlusRegion object specifies line and curve segments that define a non rectilinear shape
 
 **Module:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
@@ -15,18 +15,18 @@ The EmfPlusRegion object specifies line and curve segments that define a non rec
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfPlusRegion type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EmfPlusRegion()](#EmfPlusRegion__0) | Initializes a new instance of the EmfPlusRegion class |
+| [EmfPlusRegion()](#EmfPlusRegion__1) | Initializes a new instance of the EmfPlusRegion class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| version | [EmfPlusGraphicsVersion](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion) | r/w | Gets or sets the version. |
 | region_node | [EmfPlusRegionNode[]](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnode) | r/w | Gets or sets an array of RegionNodeCount+1 EmfPlusRegionNode objects <br/>            (section 2.2.2.40). Regions are specified as a binary tree <br/>            of region nodes, and each node MUST either be a terminal <br/>            node or specify one or two child nodes. <br/>            RegionNode MUST contain at least one element |
+| version | [EmfPlusGraphicsVersion](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusgraphicsversion) | r/w | Gets or sets the version. |
 
-### EmfPlusRegion() {#EmfPlusRegion__0}
+
+### Constructor: EmfPlusRegion() {#EmfPlusRegion__1}
 
 
 ```

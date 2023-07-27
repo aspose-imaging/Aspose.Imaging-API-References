@@ -16,5 +16,5 @@ Dithering method.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| THRESHOLD_DITHERING | Threshold dithering. Simplest and fastest dithering algorithm. |
 | FLOYD_STEINBERG_DITHERING | The Floyd-Steinberg dithering. A more complex dithering algorithm, uses nearest neighbors intensity values. |
+| THRESHOLD_DITHERING | Threshold dithering. Simplest and fastest dithering algorithm. |

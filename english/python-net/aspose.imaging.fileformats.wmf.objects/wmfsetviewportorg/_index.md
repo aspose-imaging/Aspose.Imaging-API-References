@@ -5,7 +5,7 @@ weight: 840
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetviewportorg/
 ---
 
-The META_SETVIEWPORTORG record defines the viewport origin in the<br/>                playback device context.
+**Summary:** The META_SETVIEWPORTORG record defines the viewport origin in the<br/>                playback device context.
 
 **Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
@@ -15,17 +15,17 @@ The META_SETVIEWPORTORG record defines the viewport origin in the<br/>          
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfSetViewportOrg type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfSetViewportOrg()](#WmfSetViewportOrg__0) | Initializes a new instance of the WmfSetViewportOrg class |
+| [WmfSetViewportOrg()](#WmfSetViewportOrg__1) | Initializes a new instance of the WmfSetViewportOrg class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | point | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the point. |
 
-### WmfSetViewportOrg() {#WmfSetViewportOrg__0}
+
+### Constructor: WmfSetViewportOrg() {#WmfSetViewportOrg__1}
 
 
 ```

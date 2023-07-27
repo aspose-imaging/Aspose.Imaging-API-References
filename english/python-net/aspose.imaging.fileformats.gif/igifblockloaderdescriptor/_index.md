@@ -5,7 +5,7 @@ weight: 110
 url: /python-net/aspose.imaging.fileformats.gif/igifblockloaderdescriptor/
 ---
 
-Gif block Loader descriptor.
+**Summary:** Gif block Loader descriptor.
 
 **Module:** [aspose.imaging.fileformats.gif](/imaging/python-net/aspose.imaging.fileformats.gif/)
 
@@ -13,14 +13,14 @@ Gif block Loader descriptor.
 
 **Aspose.Imaging Version:** 23.6
 
-The IGifBlockLoaderDescriptor type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [can_load(stream_container)](#can_load_stream_container_0) | Determines whether loader can load the specified data. |
-| [load(stream_container, container_palette)](#load_stream_container_container_palette_1) | Loads the gif block. |
+| [can_load(stream_container)](#can_load_stream_container_1) | Determines whether loader can load the specified data. |
+| [load(stream_container, container_palette)](#load_stream_container_container_palette_2) | Loads the gif block. |
 
-### can_load(stream_container) {#can_load_stream_container_0}
+
+### Method: can_load(stream_container) {#can_load_stream_container_1}
 
 
 ```
@@ -42,7 +42,7 @@ Determines whether loader can load the specified data.
 | bool | <c>true</c> loader can load the specified data; otherwise, <c>false</c>. |
 
 
-### load(stream_container, container_palette) {#load_stream_container_container_palette_1}
+### Method: load(stream_container, container_palette) {#load_stream_container_container_palette_2}
 
 
 ```

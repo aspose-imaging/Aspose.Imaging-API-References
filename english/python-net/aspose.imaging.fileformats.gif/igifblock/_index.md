@@ -5,7 +5,7 @@ weight: 100
 url: /python-net/aspose.imaging.fileformats.gif/igifblock/
 ---
 
-Represents GIF block interface.
+**Summary:** Represents GIF block interface.
 
 **Module:** [aspose.imaging.fileformats.gif](/imaging/python-net/aspose.imaging.fileformats.gif/)
 
@@ -13,13 +13,13 @@ Represents GIF block interface.
 
 **Aspose.Imaging Version:** 23.6
 
-The IGifBlock type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [save(stream)](#save_stream_0) | Saves the block to the specified stream. |
+| [save(stream)](#save_stream_1) | Saves the block to the specified stream. |
 
-### save(stream) {#save_stream_0}
+
+### Method: save(stream) {#save_stream_1}
 
 
 ```

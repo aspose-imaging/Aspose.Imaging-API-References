@@ -5,7 +5,7 @@ weight: 1190
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetmapperflags/
 ---
 
-The EMR_SETMAPPERFLAGS record specifies parameters of the process of matching logical fonts to<br/>            physical fonts, which is performed by the font mapper.
+**Summary:** The EMR_SETMAPPERFLAGS record specifies parameters of the process of matching logical fonts to<br/>            physical fonts, which is performed by the font mapper.
 
 **Module:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
@@ -15,24 +15,24 @@ The EMR_SETMAPPERFLAGS record specifies parameters of the process of matching lo
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfSetMapperFlags type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EmfSetMapperFlags(source)](#EmfSetMapperFlags_source_0) | Initializes a new instance of the [EmfSetMapperFlags](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetmapperflags/) class. |
+| [EmfSetMapperFlags(source)](#EmfSetMapperFlags_source_1) | Initializes a new instance of the [EmfSetMapperFlags](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetmapperflags/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
-| size | int | r/w | Gets or sets the size of the record |
 | flags | int | r/w | Gets or sets a 32-bit unsigned integer that specifies parameters of the font matching process. |
+| size | int | r/w | Gets or sets the size of the record |
+| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
 | [create_from_record(source)](#create_from_record_source_1) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
 | [create_from_type(type)](#create_from_type_type_2) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
 
-### EmfSetMapperFlags(source) {#EmfSetMapperFlags_source_0}
+
+### Constructor: EmfSetMapperFlags(source) {#EmfSetMapperFlags_source_1}
 
 
 ```
@@ -47,7 +47,7 @@ Initializes a new instance of the [EmfSetMapperFlags](/imaging/python-net/aspose
 | :- | :- | :- |
 | source | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) | The source. |
 
-### create_from_record(source)  [static] {#create_from_record_source_1}
+### Method: create_from_record(source)  [static] {#create_from_record_source_1}
 
 
 ```
@@ -69,7 +69,7 @@ Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging
 | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) |  |
 
 
-### create_from_type(type)  [static] {#create_from_type_type_2}
+### Method: create_from_type(type)  [static] {#create_from_type_type_2}
 
 
 ```

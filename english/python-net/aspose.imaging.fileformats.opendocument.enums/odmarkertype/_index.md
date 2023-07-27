@@ -16,7 +16,7 @@ The od marker types for connectors
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| OD_NONE | The none marker |
 | OD_ARROW | The arrow marker |
-| OD_SQUERE | The square marker |
 | OD_CIRCLE | The circle marker |
+| OD_NONE | The none marker |
+| OD_SQUERE | The square marker |

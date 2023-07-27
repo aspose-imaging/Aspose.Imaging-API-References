@@ -5,7 +5,7 @@ weight: 10
 url: /python-net/aspose.imaging.fileformats.webp/iframe/
 ---
 
-Webp frame <see langword="interface" />
+**Summary:** Webp frame <see langword="interface" />
 
 **Module:** [aspose.imaging.fileformats.webp](/imaging/python-net/aspose.imaging.fileformats.webp/)
 
@@ -13,11 +13,11 @@ Webp frame <see langword="interface" />
 
 **Aspose.Imaging Version:** 23.6
 
-The IFrame type exposes the following members:
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
+| duration | short | r/w | Gets or sets the frame duration. |
 | left | short | r/w | Gets or sets the frame position left. |
 | top | short | r/w | Gets or sets the frame position top. |
-| duration | short | r/w | Gets or sets the frame duration. |
+
 

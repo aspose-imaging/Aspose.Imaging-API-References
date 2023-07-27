@@ -16,7 +16,7 @@ The DICOM image compression type.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| NONE | The none compression. |
 | JPEG | The JPEG compression. |
 | JPEG2000 | The JPEG 2000 compression. |
+| NONE | The none compression. |
 | RLE | The RLE compression. |

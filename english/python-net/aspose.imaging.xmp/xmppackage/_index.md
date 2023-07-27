@@ -5,7 +5,7 @@ weight: 440
 url: /python-net/aspose.imaging.xmp/xmppackage/
 ---
 
-Represents base abstraction for XMP package.
+**Summary:** Represents base abstraction for XMP package.
 
 **Module:** [aspose.imaging.xmp](/imaging/python-net/aspose.imaging.xmp/)
 
@@ -15,27 +15,43 @@ Represents base abstraction for XMP package.
 
 **Aspose.Imaging Version:** 23.6
 
-The XmpPackage type exposes the following members:
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| xml_namespace | string | r | Gets the XML namespace. |
-| prefix | string | r | Gets the prefix. |
 | namespace_uri | string | r | Gets the namespace URI. |
+| prefix | string | r | Gets the prefix. |
+| xml_namespace | string | r | Gets the XML namespace. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [contains_key(key)](#contains_key_key_0) | Determines whether the specified key contains key. |
-| [get_prop_value(key)](#get_prop_value_key_1) | Gets the object with the specified key. |
-| [set_prop_value(key, value)](#set_prop_value_key_value_2) | Gets or sets the object with the specified key. |
-| [add_value(key, value)](#add_value_key_value_3) | Adds the value. |
-| [remove(key)](#remove_key_4) | Remove the value with the specified key. |
+| [add_value(key, value)](#add_value_key_value_1) | Adds the value. |
 | clear() | Clears this instance. |
-| [set_value(key, value)](#set_value_key_value_5) | Sets the value. |
-| [set_xmp_type_value(key, value)](#set_xmp_type_value_key_value_6) | Sets the XMP type value. |
-| [get_xml_value()](#get_xml_value__7) | Converts XMP value to the XML representation. |
+| [contains_key(key)](#contains_key_key_2) | Determines whether the specified key contains key. |
+| [get_prop_value(key)](#get_prop_value_key_3) | Gets the object with the specified key. |
+| [get_xml_value()](#get_xml_value__4) | Converts XMP value to the XML representation. |
+| [remove(key)](#remove_key_5) | Remove the value with the specified key. |
+| [set_prop_value(key, value)](#set_prop_value_key_value_6) | Gets or sets the object with the specified key. |
+| [set_value(key, value)](#set_value_key_value_7) | Sets the value. |
+| [set_xmp_type_value(key, value)](#set_xmp_type_value_key_value_8) | Sets the XMP type value. |
 
-### contains_key(key) {#contains_key_key_0}
+
+### Method: add_value(key, value) {#add_value_key_value_1}
+
+
+```
+ add_value(key, value) 
+```
+
+Adds the value.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| key | string | The string representation of key that is identified with added value. |
+| value | string | The value to add to. |
+
+### Method: contains_key(key) {#contains_key_key_2}
 
 
 ```
@@ -57,7 +73,7 @@ Determines whether the specified key contains key.
 | bool | Returns true if the specified key contains key. |
 
 
-### get_prop_value(key) {#get_prop_value_key_1}
+### Method: get_prop_value(key) {#get_prop_value_key_3}
 
 
 ```
@@ -79,39 +95,23 @@ Gets the object with the specified key.
 | object | Returns the object with the specified key. |
 
 
-### set_prop_value(key, value) {#set_prop_value_key_value_2}
+### Method: get_xml_value() {#get_xml_value__4}
 
 
 ```
- set_prop_value(key, value) 
+ get_xml_value() 
 ```
 
-Gets or sets the object with the specified key.
+Converts XMP value to the XML representation.
 
-**Parameters:**
+**Returns**
 
-| Parameter | Type | Description |
-| :- | :- | :- |
-| key | string | The key that identifies value. |
-| value | object | The object with the specified key. |
-
-### add_value(key, value) {#add_value_key_value_3}
+| Type | Description |
+| :- | :- |
+| string | Returns the XMP value converted to the XML representation. |
 
 
-```
- add_value(key, value) 
-```
-
-Adds the value.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| key | string | The string representation of key that is identified with added value. |
-| value | string | The value to add to. |
-
-### remove(key) {#remove_key_4}
+### Method: remove(key) {#remove_key_5}
 
 
 ```
@@ -133,7 +133,23 @@ Remove the value with the specified key.
 | bool | Returns true if the value with the specified key was removed. |
 
 
-### set_value(key, value) {#set_value_key_value_5}
+### Method: set_prop_value(key, value) {#set_prop_value_key_value_6}
+
+
+```
+ set_prop_value(key, value) 
+```
+
+Gets or sets the object with the specified key.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| key | string | The key that identifies value. |
+| value | object | The object with the specified key. |
+
+### Method: set_value(key, value) {#set_value_key_value_7}
 
 
 ```
@@ -149,7 +165,7 @@ Sets the value.
 | key | string | The string representation of key that is identified with added value. |
 | value | [IXmlValue](/imaging/python-net/aspose.imaging.xmp/ixmlvalue) | The value to add to. |
 
-### set_xmp_type_value(key, value) {#set_xmp_type_value_key_value_6}
+### Method: set_xmp_type_value(key, value) {#set_xmp_type_value_key_value_8}
 
 
 ```
@@ -164,20 +180,4 @@ Sets the XMP type value.
 | :- | :- | :- |
 | key | string | The string representation of key that is identified with set value. |
 | value | [XmpTypeBase](/imaging/python-net/aspose.imaging.xmp.types/xmptypebase/) | The value to set to. |
-
-### get_xml_value() {#get_xml_value__7}
-
-
-```
- get_xml_value() 
-```
-
-Converts XMP value to the XML representation.
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| string | Returns the XMP value converted to the XML representation. |
-
 

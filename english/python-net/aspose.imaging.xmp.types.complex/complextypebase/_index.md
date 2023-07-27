@@ -5,7 +5,7 @@ weight: 50
 url: /python-net/aspose.imaging.xmp.types.complex/complextypebase/
 ---
 
-Represents base abstraction for XMP Complex value type.
+**Summary:** Represents base abstraction for XMP Complex value type.
 
 **Module:** [aspose.imaging.xmp.types.complex](/imaging/python-net/aspose.imaging.xmp.types.complex/)
 
@@ -15,22 +15,22 @@ Represents base abstraction for XMP Complex value type.
 
 **Aspose.Imaging Version:** 23.6
 
-The ComplexTypeBase type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [ComplexTypeBase(prefix, namespace_uri)](#ComplexTypeBase_prefix_namespace_uri_0) | Initializes a new instance of the [ComplexTypeBase](/imaging/python-net/aspose.imaging.xmp.types.complex/complextypebase/) class. |
+| [ComplexTypeBase(prefix, namespace_uri)](#ComplexTypeBase_prefix_namespace_uri_1) | Initializes a new instance of the [ComplexTypeBase](/imaging/python-net/aspose.imaging.xmp.types.complex/complextypebase/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| prefix | string | r | Gets the prefix. |
 | namespace_uri | string | r | Gets the default namespace URI. |
+| prefix | string | r | Gets the prefix. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
 | [get_xmp_representation()](#get_xmp_representation__1) | Gets the string contained value in XMP format. |
 
-### ComplexTypeBase(prefix, namespace_uri) {#ComplexTypeBase_prefix_namespace_uri_0}
+
+### Constructor: ComplexTypeBase(prefix, namespace_uri) {#ComplexTypeBase_prefix_namespace_uri_1}
 
 
 ```
@@ -46,7 +46,7 @@ Initializes a new instance of the [ComplexTypeBase](/imaging/python-net/aspose.i
 | prefix | string | The prefix. |
 | namespace_uri | string | The namespace URI. |
 
-### get_xmp_representation() {#get_xmp_representation__1}
+### Method: get_xmp_representation() {#get_xmp_representation__1}
 
 
 ```

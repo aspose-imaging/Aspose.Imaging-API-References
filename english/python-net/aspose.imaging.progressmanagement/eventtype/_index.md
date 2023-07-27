@@ -16,9 +16,9 @@ This enum describes possible progress event types that can occurred during image
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| RELATIVE_PROGRESS | Relative progress of current stage of the operation processing |
-| STAGE_CHANGE | The next stage of the operation started |
+| FINALIZATION | The finalization of the operation |
 | INITIALIZATION | The initialization of the operation |
 | PRE_PROCESSING | The pre processing |
 | PROCESSING | The processing |
-| FINALIZATION | The finalization of the operation |
+| RELATIVE_PROGRESS | Relative progress of current stage of the operation processing |
+| STAGE_CHANGE | The next stage of the operation started |

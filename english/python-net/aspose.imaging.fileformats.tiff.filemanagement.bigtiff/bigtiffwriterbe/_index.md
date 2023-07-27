@@ -5,7 +5,7 @@ weight: 40
 url: /python-net/aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffwriterbe/
 ---
 
-The big endian BigTiff stream writer.
+**Summary:** The big endian BigTiff stream writer.
 
 **Module:** [aspose.imaging.fileformats.tiff.filemanagement.bigtiff](/imaging/python-net/aspose.imaging.fileformats.tiff.filemanagement.bigtiff/)
 
@@ -15,20 +15,19 @@ The big endian BigTiff stream writer.
 
 **Aspose.Imaging Version:** 23.6
 
-The BigTiffWriterBE type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [BigTiffWriterBE(writer)](#BigTiffWriterBE_writer_0) | Initializes a new instance of the [BigTiffWriterBE](/imaging/python-net/aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffwriterbe/) class. |
+| [BigTiffWriterBE(writer)](#BigTiffWriterBE_writer_1) | Initializes a new instance of the [BigTiffWriterBE](/imaging/python-net/aspose.imaging.fileformats.tiff.filemanagement.bigtiff/bigtiffwriterbe/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| sync_root | object | r | Gets an object that can be used to synchronize access to the synchronized resource. |
 | position | long | r/w | Gets or sets the stream position. |
+| sync_root | object | r | Gets an object that can be used to synchronize access to the synchronized resource. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [write(data, offset, data_length)](#write_data_offset_data_length_1) | Writes the specified data. |
+| [write(data)](#write_data_1) | Writes BigTiff offset. |
 | [write(data)](#write_data_2) | Writes BigTiff offset. |
 | [write(data)](#write_data_3) | Writes BigTiff offset. |
 | [write(data)](#write_data_4) | Writes BigTiff offset. |
@@ -52,33 +51,34 @@ The BigTiffWriterBE type exposes the following members:
 | [write(data)](#write_data_22) | Writes BigTiff offset. |
 | [write(data)](#write_data_23) | Writes BigTiff offset. |
 | [write(data)](#write_data_24) | Writes BigTiff offset. |
-| [write(data)](#write_data_25) | Writes BigTiff offset. |
-| [write_bytes(data)](#write_bytes_data_26) | Writes the specified data. |
-| [write_double(data)](#write_double_data_27) | Writes a single double value to the stream. |
-| [write_doubles(data)](#write_doubles_data_28) | Writes an array of double values to the stream. |
-| [write_float(data)](#write_float_data_29) | Writes a single float value to the stream. |
-| [write_floats(data)](#write_floats_data_30) | Writes an array of float values to the stream. |
-| [write_rational(data)](#write_rational_data_31) | Writes a single rational number value to the stream. |
-| [write_s_rational(data)](#write_s_rational_data_32) | Writes a single signed rational number value to the stream. |
-| [write_rationals(data)](#write_rationals_data_33) | Writes an array of unsigned rational values to the stream. |
-| [write_s_rationals(data)](#write_s_rationals_data_34) | Writes an array of signed rational values to the stream. |
-| [write_s_byte(data)](#write_s_byte_data_35) | Writes a single signed byte value to the stream. |
-| [write_s_bytes(data)](#write_s_bytes_data_36) | Writes an array of signed byte values to the stream. |
-| [write_ints(data)](#write_ints_data_37) | Writes an array of integer values to the stream. |
-| [write_short(data)](#write_short_data_38) | Writes a single short value to the stream. |
-| [write_shorts(data)](#write_shorts_data_39) | Writes an array of short values to the stream. |
-| [write_int(data)](#write_int_data_40) | Writes an array of integer values to the stream. |
-| [write_byte(data)](#write_byte_data_41) | Writes the specified data. |
-| [write_uint(data)](#write_uint_data_42) | Writes a single unsigned integer value to the stream. |
-| [write_uints(data)](#write_uints_data_43) | Writes an array of unsigned integer values to the stream. |
-| [write_ushort(data)](#write_ushort_data_44) | Writes a single unsigned short value to the stream. |
-| [write_ushorts(data)](#write_ushorts_data_45) | Writes an array of unsigned short values to the stream. |
-| [write_long(data)](#write_long_data_46) | Writes an array of signed long values to the stream. |
-| [write_longs(data)](#write_longs_data_47) | Writes an array of signed long values to the stream. |
-| [write_ulong(data)](#write_ulong_data_48) | Writes an array of unsigned long values to the stream. |
-| [write_ulongs(data)](#write_ulongs_data_49) | Writes an array of unsigned long values to the stream. |
+| [write(data, offset, data_length)](#write_data_offset_data_length_25) | Writes the specified data. |
+| [write_byte(data)](#write_byte_data_26) | Writes the specified data. |
+| [write_bytes(data)](#write_bytes_data_27) | Writes the specified data. |
+| [write_double(data)](#write_double_data_28) | Writes a single double value to the stream. |
+| [write_doubles(data)](#write_doubles_data_29) | Writes an array of double values to the stream. |
+| [write_float(data)](#write_float_data_30) | Writes a single float value to the stream. |
+| [write_floats(data)](#write_floats_data_31) | Writes an array of float values to the stream. |
+| [write_int(data)](#write_int_data_32) | Writes an array of integer values to the stream. |
+| [write_ints(data)](#write_ints_data_33) | Writes an array of integer values to the stream. |
+| [write_long(data)](#write_long_data_34) | Writes an array of signed long values to the stream. |
+| [write_longs(data)](#write_longs_data_35) | Writes an array of signed long values to the stream. |
+| [write_rational(data)](#write_rational_data_36) | Writes a single rational number value to the stream. |
+| [write_rationals(data)](#write_rationals_data_37) | Writes an array of unsigned rational values to the stream. |
+| [write_s_byte(data)](#write_s_byte_data_38) | Writes a single signed byte value to the stream. |
+| [write_s_bytes(data)](#write_s_bytes_data_39) | Writes an array of signed byte values to the stream. |
+| [write_s_rational(data)](#write_s_rational_data_40) | Writes a single signed rational number value to the stream. |
+| [write_s_rationals(data)](#write_s_rationals_data_41) | Writes an array of signed rational values to the stream. |
+| [write_short(data)](#write_short_data_42) | Writes a single short value to the stream. |
+| [write_shorts(data)](#write_shorts_data_43) | Writes an array of short values to the stream. |
+| [write_uint(data)](#write_uint_data_44) | Writes a single unsigned integer value to the stream. |
+| [write_uints(data)](#write_uints_data_45) | Writes an array of unsigned integer values to the stream. |
+| [write_ulong(data)](#write_ulong_data_46) | Writes an array of unsigned long values to the stream. |
+| [write_ulongs(data)](#write_ulongs_data_47) | Writes an array of unsigned long values to the stream. |
+| [write_ushort(data)](#write_ushort_data_48) | Writes a single unsigned short value to the stream. |
+| [write_ushorts(data)](#write_ushorts_data_49) | Writes an array of unsigned short values to the stream. |
 
-### BigTiffWriterBE(writer) {#BigTiffWriterBE_writer_0}
+
+### Constructor: BigTiffWriterBE(writer) {#BigTiffWriterBE_writer_1}
 
 
 ```
@@ -93,7 +93,367 @@ Initializes a new instance of the [BigTiffWriterBE](/imaging/python-net/aspose.i
 | :- | :- | :- |
 | writer | [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer) | The stream writer. |
 
-### write(data, offset, data_length) {#write_data_offset_data_length_1}
+### Method: write(data) {#write_data_1}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | byte | The stream position. |
+
+### Method: write(data) {#write_data_2}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | double | The stream position. |
+
+### Method: write(data) {#write_data_3}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | double | The stream position. |
+
+### Method: write(data) {#write_data_4}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | float | The stream position. |
+
+### Method: write(data) {#write_data_5}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | float | The stream position. |
+
+### Method: write(data) {#write_data_6}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational) | The stream position. |
+
+### Method: write(data) {#write_data_7}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational) | The stream position. |
+
+### Method: write(data) {#write_data_8}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | [TiffRational[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational) | The stream position. |
+
+### Method: write(data) {#write_data_9}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | [TiffSRational[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational) | The stream position. |
+
+### Method: write(data) {#write_data_10}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | sbyte | The stream position. |
+
+### Method: write(data) {#write_data_11}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | sbyte | The stream position. |
+
+### Method: write(data) {#write_data_12}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | int | The stream position. |
+
+### Method: write(data) {#write_data_13}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | short | The stream position. |
+
+### Method: write(data) {#write_data_14}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | short | The stream position. |
+
+### Method: write(data) {#write_data_15}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | int | The stream position. |
+
+### Method: write(data) {#write_data_16}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | byte | The stream position. |
+
+### Method: write(data) {#write_data_17}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | uint | The stream position. |
+
+### Method: write(data) {#write_data_18}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | uint | The stream position. |
+
+### Method: write(data) {#write_data_19}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | ushort | The stream position. |
+
+### Method: write(data) {#write_data_20}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | ushort | The stream position. |
+
+### Method: write(data) {#write_data_21}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | long | The stream position. |
+
+### Method: write(data) {#write_data_22}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | long | The stream position. |
+
+### Method: write(data) {#write_data_23}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | ulong | The stream position. |
+
+### Method: write(data) {#write_data_24}
+
+
+```
+ write(data) 
+```
+
+Writes BigTiff offset.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | ulong | The stream position. |
+
+### Method: write(data, offset, data_length) {#write_data_offset_data_length_25}
 
 
 ```
@@ -110,592 +470,7 @@ Writes the specified data.
 | offset | int | The data offset. |
 | data_length | int | Length of the data to writer. |
 
-### write(data) {#write_data_2}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | byte | The stream position. |
-
-### write(data) {#write_data_3}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | double | The stream position. |
-
-### write(data) {#write_data_4}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | double | The stream position. |
-
-### write(data) {#write_data_5}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | float | The stream position. |
-
-### write(data) {#write_data_6}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | float | The stream position. |
-
-### write(data) {#write_data_7}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational) | The stream position. |
-
-### write(data) {#write_data_8}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational) | The stream position. |
-
-### write(data) {#write_data_9}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | [TiffRational[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational) | The stream position. |
-
-### write(data) {#write_data_10}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | [TiffSRational[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational) | The stream position. |
-
-### write(data) {#write_data_11}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | sbyte | The stream position. |
-
-### write(data) {#write_data_12}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | sbyte | The stream position. |
-
-### write(data) {#write_data_13}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | int | The stream position. |
-
-### write(data) {#write_data_14}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | short | The stream position. |
-
-### write(data) {#write_data_15}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | short | The stream position. |
-
-### write(data) {#write_data_16}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | int | The stream position. |
-
-### write(data) {#write_data_17}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | byte | The stream position. |
-
-### write(data) {#write_data_18}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | uint | The stream position. |
-
-### write(data) {#write_data_19}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | uint | The stream position. |
-
-### write(data) {#write_data_20}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | ushort | The stream position. |
-
-### write(data) {#write_data_21}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | ushort | The stream position. |
-
-### write(data) {#write_data_22}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | long | The stream position. |
-
-### write(data) {#write_data_23}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | long | The stream position. |
-
-### write(data) {#write_data_24}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | ulong | The stream position. |
-
-### write(data) {#write_data_25}
-
-
-```
- write(data) 
-```
-
-Writes BigTiff offset.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | ulong | The stream position. |
-
-### write_bytes(data) {#write_bytes_data_26}
-
-
-```
- write_bytes(data) 
-```
-
-Writes the specified data.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | byte | The data to write. |
-
-### write_double(data) {#write_double_data_27}
-
-
-```
- write_double(data) 
-```
-
-Writes a single double value to the stream.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | double | The value to write. |
-
-### write_doubles(data) {#write_doubles_data_28}
-
-
-```
- write_doubles(data) 
-```
-
-Writes an array of double values to the stream.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | double | The array to write. |
-
-### write_float(data) {#write_float_data_29}
-
-
-```
- write_float(data) 
-```
-
-Writes a single float value to the stream.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | float | The value to write. |
-
-### write_floats(data) {#write_floats_data_30}
-
-
-```
- write_floats(data) 
-```
-
-Writes an array of float values to the stream.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | float | The array to write. |
-
-### write_rational(data) {#write_rational_data_31}
-
-
-```
- write_rational(data) 
-```
-
-Writes a single rational number value to the stream.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational) | The value to write. |
-
-### write_s_rational(data) {#write_s_rational_data_32}
-
-
-```
- write_s_rational(data) 
-```
-
-Writes a single signed rational number value to the stream.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational) | The value to write. |
-
-### write_rationals(data) {#write_rationals_data_33}
-
-
-```
- write_rationals(data) 
-```
-
-Writes an array of unsigned rational values to the stream.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | [TiffRational[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational) | The array to write. |
-
-### write_s_rationals(data) {#write_s_rationals_data_34}
-
-
-```
- write_s_rationals(data) 
-```
-
-Writes an array of signed rational values to the stream.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | [TiffSRational[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational) | The array to write. |
-
-### write_s_byte(data) {#write_s_byte_data_35}
-
-
-```
- write_s_byte(data) 
-```
-
-Writes a single signed byte value to the stream.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | sbyte | The value to write. |
-
-### write_s_bytes(data) {#write_s_bytes_data_36}
-
-
-```
- write_s_bytes(data) 
-```
-
-Writes an array of signed byte values to the stream.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | sbyte | The array to write. |
-
-### write_ints(data) {#write_ints_data_37}
-
-
-```
- write_ints(data) 
-```
-
-Writes an array of integer values to the stream.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | int | The array to write. |
-
-### write_short(data) {#write_short_data_38}
-
-
-```
- write_short(data) 
-```
-
-Writes a single short value to the stream.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | short | The value to write. |
-
-### write_shorts(data) {#write_shorts_data_39}
-
-
-```
- write_shorts(data) 
-```
-
-Writes an array of short values to the stream.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | short | The array to write. |
-
-### write_int(data) {#write_int_data_40}
-
-
-```
- write_int(data) 
-```
-
-Writes an array of integer values to the stream.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| data | int | The array to write. |
-
-### write_byte(data) {#write_byte_data_41}
+### Method: write_byte(data) {#write_byte_data_26}
 
 
 ```
@@ -710,67 +485,112 @@ Writes the specified data.
 | :- | :- | :- |
 | data | byte | The data to write. |
 
-### write_uint(data) {#write_uint_data_42}
+### Method: write_bytes(data) {#write_bytes_data_27}
 
 
 ```
- write_uint(data) 
+ write_bytes(data) 
 ```
 
-Writes a single unsigned integer value to the stream.
+Writes the specified data.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| data | uint | The value to write. |
+| data | byte | The data to write. |
 
-### write_uints(data) {#write_uints_data_43}
+### Method: write_double(data) {#write_double_data_28}
 
 
 ```
- write_uints(data) 
+ write_double(data) 
 ```
 
-Writes an array of unsigned integer values to the stream.
+Writes a single double value to the stream.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| data | uint | The array to write. |
+| data | double | The value to write. |
 
-### write_ushort(data) {#write_ushort_data_44}
+### Method: write_doubles(data) {#write_doubles_data_29}
 
 
 ```
- write_ushort(data) 
+ write_doubles(data) 
 ```
 
-Writes a single unsigned short value to the stream.
+Writes an array of double values to the stream.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| data | ushort | The value to write. |
+| data | double | The array to write. |
 
-### write_ushorts(data) {#write_ushorts_data_45}
+### Method: write_float(data) {#write_float_data_30}
 
 
 ```
- write_ushorts(data) 
+ write_float(data) 
 ```
 
-Writes an array of unsigned short values to the stream.
+Writes a single float value to the stream.
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| data | ushort | The array to write. |
+| data | float | The value to write. |
 
-### write_long(data) {#write_long_data_46}
+### Method: write_floats(data) {#write_floats_data_31}
+
+
+```
+ write_floats(data) 
+```
+
+Writes an array of float values to the stream.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | float | The array to write. |
+
+### Method: write_int(data) {#write_int_data_32}
+
+
+```
+ write_int(data) 
+```
+
+Writes an array of integer values to the stream.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | int | The array to write. |
+
+### Method: write_ints(data) {#write_ints_data_33}
+
+
+```
+ write_ints(data) 
+```
+
+Writes an array of integer values to the stream.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | int | The array to write. |
+
+### Method: write_long(data) {#write_long_data_34}
 
 
 ```
@@ -785,7 +605,7 @@ Writes an array of signed long values to the stream.
 | :- | :- | :- |
 | data | long | The array to write. |
 
-### write_longs(data) {#write_longs_data_47}
+### Method: write_longs(data) {#write_longs_data_35}
 
 
 ```
@@ -800,7 +620,157 @@ Writes an array of signed long values to the stream.
 | :- | :- | :- |
 | data | long | The array to write. |
 
-### write_ulong(data) {#write_ulong_data_48}
+### Method: write_rational(data) {#write_rational_data_36}
+
+
+```
+ write_rational(data) 
+```
+
+Writes a single rational number value to the stream.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational) | The value to write. |
+
+### Method: write_rationals(data) {#write_rationals_data_37}
+
+
+```
+ write_rationals(data) 
+```
+
+Writes an array of unsigned rational values to the stream.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | [TiffRational[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational) | The array to write. |
+
+### Method: write_s_byte(data) {#write_s_byte_data_38}
+
+
+```
+ write_s_byte(data) 
+```
+
+Writes a single signed byte value to the stream.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | sbyte | The value to write. |
+
+### Method: write_s_bytes(data) {#write_s_bytes_data_39}
+
+
+```
+ write_s_bytes(data) 
+```
+
+Writes an array of signed byte values to the stream.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | sbyte | The array to write. |
+
+### Method: write_s_rational(data) {#write_s_rational_data_40}
+
+
+```
+ write_s_rational(data) 
+```
+
+Writes a single signed rational number value to the stream.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational) | The value to write. |
+
+### Method: write_s_rationals(data) {#write_s_rationals_data_41}
+
+
+```
+ write_s_rationals(data) 
+```
+
+Writes an array of signed rational values to the stream.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | [TiffSRational[]](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational) | The array to write. |
+
+### Method: write_short(data) {#write_short_data_42}
+
+
+```
+ write_short(data) 
+```
+
+Writes a single short value to the stream.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | short | The value to write. |
+
+### Method: write_shorts(data) {#write_shorts_data_43}
+
+
+```
+ write_shorts(data) 
+```
+
+Writes an array of short values to the stream.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | short | The array to write. |
+
+### Method: write_uint(data) {#write_uint_data_44}
+
+
+```
+ write_uint(data) 
+```
+
+Writes a single unsigned integer value to the stream.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | uint | The value to write. |
+
+### Method: write_uints(data) {#write_uints_data_45}
+
+
+```
+ write_uints(data) 
+```
+
+Writes an array of unsigned integer values to the stream.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | uint | The array to write. |
+
+### Method: write_ulong(data) {#write_ulong_data_46}
 
 
 ```
@@ -815,7 +785,7 @@ Writes an array of unsigned long values to the stream.
 | :- | :- | :- |
 | data | ulong | The array to write. |
 
-### write_ulongs(data) {#write_ulongs_data_49}
+### Method: write_ulongs(data) {#write_ulongs_data_47}
 
 
 ```
@@ -829,4 +799,34 @@ Writes an array of unsigned long values to the stream.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | data | ulong | The array to write. |
+
+### Method: write_ushort(data) {#write_ushort_data_48}
+
+
+```
+ write_ushort(data) 
+```
+
+Writes a single unsigned short value to the stream.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | ushort | The value to write. |
+
+### Method: write_ushorts(data) {#write_ushorts_data_49}
+
+
+```
+ write_ushorts(data) 
+```
+
+Writes an array of unsigned short values to the stream.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| data | ushort | The array to write. |
 

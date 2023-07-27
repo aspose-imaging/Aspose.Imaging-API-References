@@ -5,7 +5,7 @@ weight: 200
 url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odmarker/
 ---
 
-The Marker
+**Summary:** The Marker
 
 **Module:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
@@ -15,22 +15,22 @@ The Marker
 
 **Aspose.Imaging Version:** 23.6
 
-The OdMarker type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [OdMarker(parent)](#OdMarker_parent_0) | Initializes a new instance of the [OdMarker](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odmarker/) class. |
+| [OdMarker(parent)](#OdMarker_parent_1) | Initializes a new instance of the [OdMarker](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odmarker/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
-| items | System.Collections.Generic.List<OdObject> | r | Gets the items. |
 | absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
-| rectangle | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets the rectangle. |
-| path_commands | [OdGraphicObject[]](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject) | r/w | Gets or sets the path commands. |
+| items | list[OdObject] | r | Gets the items. |
 | name | string | r/w | Gets or sets the name. |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
+| path_commands | [OdGraphicObject[]](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject) | r/w | Gets or sets the path commands. |
+| rectangle | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets the rectangle. |
 
-### OdMarker(parent) {#OdMarker_parent_0}
+
+### Constructor: OdMarker(parent) {#OdMarker_parent_1}
 
 
 ```

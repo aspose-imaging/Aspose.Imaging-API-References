@@ -16,10 +16,10 @@ Each ternary raster operation code represents a Boolean operation in which the v
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| D | Destination bitmap |
-| P | Selected brush (also called pattern) |
-| S | Source bitmap |
 | A | Bitwise AND |
+| D | Destination bitmap |
 | N | Bitwise NOT (inverse) |
 | O | Bitwise OR |
+| P | Selected brush (also called pattern) |
+| S | Source bitmap |
 | X | Bitwise exclusive OR (XOR) |

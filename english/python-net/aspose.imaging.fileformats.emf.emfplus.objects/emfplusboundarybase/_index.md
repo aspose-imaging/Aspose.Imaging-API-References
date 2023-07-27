@@ -5,7 +5,7 @@ weight: 110
 url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundarybase/
 ---
 
-Base class for boundary objects
+**Summary:** Base class for boundary objects
 
 **Module:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
@@ -15,5 +15,5 @@ Base class for boundary objects
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfPlusBoundaryBase type exposes the following members:
+
 

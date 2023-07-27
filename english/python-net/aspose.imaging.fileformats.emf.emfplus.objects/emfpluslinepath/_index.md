@@ -5,7 +5,7 @@ weight: 430
 url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslinepath/
 ---
 
-The EmfPlusLinePath object specifies a graphics path for outlining a custom line cap.
+**Summary:** The EmfPlusLinePath object specifies a graphics path for outlining a custom line cap.
 
 **Module:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
@@ -15,17 +15,17 @@ The EmfPlusLinePath object specifies a graphics path for outlining a custom line
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfPlusLinePath type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EmfPlusLinePath()](#EmfPlusLinePath__0) | Initializes a new instance of the EmfPlusLinePath class |
+| [EmfPlusLinePath()](#EmfPlusLinePath__1) | Initializes a new instance of the EmfPlusLinePath class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | line_path | [EmfPlusPath](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath) | r/w | Gets or sets an [EmfPlusPath](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath/) object that defines the outline. |
 
-### EmfPlusLinePath() {#EmfPlusLinePath__0}
+
+### Constructor: EmfPlusLinePath() {#EmfPlusLinePath__1}
 
 
 ```

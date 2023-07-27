@@ -5,7 +5,7 @@ weight: 780
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetstretchbltmode/
 ---
 
-The META_SETSTRETCHBLTMODE record defines the bitmap stretching mode in<br/>                the playback device context.
+**Summary:** The META_SETSTRETCHBLTMODE record defines the bitmap stretching mode in<br/>                the playback device context.
 
 **Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
@@ -15,18 +15,18 @@ The META_SETSTRETCHBLTMODE record defines the bitmap stretching mode in<br/>    
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfSetStretchbltMode type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfSetStretchbltMode()](#WmfSetStretchbltMode__0) | Initializes a new instance of the WmfSetStretchbltMode class |
+| [WmfSetStretchbltMode()](#WmfSetStretchbltMode__1) | Initializes a new instance of the WmfSetStretchbltMode class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| stretch_mode | [StretchMode](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/stretchmode/) | r/w | Gets or sets the stretch mode. |
 | reserved | int | r/w | Gets or sets the reserved. |
+| stretch_mode | [StretchMode](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/stretchmode/) | r/w | Gets or sets the stretch mode. |
 
-### WmfSetStretchbltMode() {#WmfSetStretchbltMode__0}
+
+### Constructor: WmfSetStretchbltMode() {#WmfSetStretchbltMode__1}
 
 
 ```

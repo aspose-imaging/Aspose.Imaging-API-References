@@ -5,7 +5,7 @@ weight: 190
 url: /python-net/aspose.imaging.imageoptions/multipageoptions/
 ---
 
-Base class for multiple pages supported formats
+**Summary:** Base class for multiple pages supported formats
 
 **Module:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
@@ -13,48 +13,48 @@ Base class for multiple pages supported formats
 
 **Aspose.Imaging Version:** 23.6
 
-The MultiPageOptions type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [MultiPageOptions()](#MultiPageOptions__0) | Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class. |
-| [MultiPageOptions(pages)](#MultiPageOptions_pages_1) | Initializes a new instance of the MultiPageOptions class |
-| [MultiPageOptions(pages, export_area)](#MultiPageOptions_pages_export_area_2) | Initializes a new instance of the MultiPageOptions class |
-| [MultiPageOptions(page_titles)](#MultiPageOptions_page_titles_3) | Initializes a new instance of the MultiPageOptions class |
-| [MultiPageOptions(page_titles, export_area)](#MultiPageOptions_page_titles_export_area_4) | Initializes a new instance of the MultiPageOptions class |
-| [MultiPageOptions(ranges)](#MultiPageOptions_ranges_5) | Initializes a new instance of the MultiPageOptions class |
-| [MultiPageOptions(ranges, export_area)](#MultiPageOptions_ranges_export_area_6) | Initializes a new instance of the MultiPageOptions class |
-| [MultiPageOptions(range)](#MultiPageOptions_range_7) | Initializes a new instance of the MultiPageOptions class |
-| [MultiPageOptions(range, export_area)](#MultiPageOptions_range_export_area_8) | Initializes a new instance of the MultiPageOptions class |
-| [MultiPageOptions(page)](#MultiPageOptions_page_9) | Initializes a new instance of the MultiPageOptions class |
-| [MultiPageOptions(page, export_area)](#MultiPageOptions_page_export_area_10) | Initializes a new instance of the MultiPageOptions class |
+| [MultiPageOptions()](#MultiPageOptions__1) | Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class. |
+| [MultiPageOptions(page)](#MultiPageOptions_page_2) | Initializes a new instance of the MultiPageOptions class |
+| [MultiPageOptions(page, export_area)](#MultiPageOptions_page_export_area_3) | Initializes a new instance of the MultiPageOptions class |
+| [MultiPageOptions(page_titles)](#MultiPageOptions_page_titles_4) | Initializes a new instance of the MultiPageOptions class |
+| [MultiPageOptions(page_titles, export_area)](#MultiPageOptions_page_titles_export_area_5) | Initializes a new instance of the MultiPageOptions class |
+| [MultiPageOptions(pages)](#MultiPageOptions_pages_6) | Initializes a new instance of the MultiPageOptions class |
+| [MultiPageOptions(pages, export_area)](#MultiPageOptions_pages_export_area_7) | Initializes a new instance of the MultiPageOptions class |
+| [MultiPageOptions(range)](#MultiPageOptions_range_8) | Initializes a new instance of the MultiPageOptions class |
+| [MultiPageOptions(range, export_area)](#MultiPageOptions_range_export_area_9) | Initializes a new instance of the MultiPageOptions class |
+| [MultiPageOptions(ranges)](#MultiPageOptions_ranges_10) | Initializes a new instance of the MultiPageOptions class |
+| [MultiPageOptions(ranges, export_area)](#MultiPageOptions_ranges_export_area_11) | Initializes a new instance of the MultiPageOptions class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| pages | int | r/w | Gets or sets the pages. |
-| page_titles | string | r/w | Gets or sets the page titles. |
-| time_interval | [TimeInterval](/imaging/python-net/aspose.imaging.imageoptions/timeinterval) | r/w | Gets or sets the time interval. |
-| page_rasterization_options | [VectorRasterizationOptions[]](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions) | r/w | Gets or sets the page rasterization options. |
 | export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets the export area. |
+| merge_layers | bool | r/w | Gets or sets a value indicating whether [merege layers]. |
 | mode | [MultiPageMode](/imaging/python-net/aspose.imaging.imageoptions/multipagemode) | r/w | Gets or sets the mode. |
 | output_layers_names | string | r/w | Gets or sets the output layers names(Works if export format supports layers naming, for example for Psd) |
-| merge_layers | bool | r/w | Gets or sets a value indicating whether [merege layers]. |
+| page_rasterization_options | [VectorRasterizationOptions[]](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions) | r/w | Gets or sets the page rasterization options. |
+| page_titles | string | r/w | Gets or sets the page titles. |
+| pages | int | r/w | Gets or sets the pages. |
+| time_interval | [TimeInterval](/imaging/python-net/aspose.imaging.imageoptions/timeinterval) | r/w | Gets or sets the time interval. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [create_with_page_numbers(pages)](#create_with_page_numbers_pages_11) | Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class. |
-| [create_with_page_numbers_rect(pages, export_area)](#create_with_page_numbers_rect_pages_export_area_12) | Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class. |
-| [create_with_page_titles(page_titles)](#create_with_page_titles_page_titles_13) | Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class. |
-| [create_with_page_titles_rect(page_titles, export_area)](#create_with_page_titles_rect_page_titles_export_area_14) | Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class. |
-| [create_with_int_ranges(ranges)](#create_with_int_ranges_ranges_15) | Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class. |
-| [create_with_int_ranges_rect(ranges, export_area)](#create_with_int_ranges_rect_ranges_export_area_16) | Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class. |
-| [create_with_int_range(range)](#create_with_int_range_range_17) | Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class. |
-| [create_with_int_range_rect(range, export_area)](#create_with_int_range_rect_range_export_area_18) | Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class. |
-| [create_with_page_number(page)](#create_with_page_number_page_19) | Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class. |
-| [create_with_page_number_rect(page, export_area)](#create_with_page_number_rect_page_export_area_20) | Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class. |
-| [init_pages(ranges)](#init_pages_ranges_21) | Initializes the pages from ranges array |
+| [create_with_int_range(range)](#create_with_int_range_range_1) | Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class. |
+| [create_with_int_range_rect(range, export_area)](#create_with_int_range_rect_range_export_area_2) | Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class. |
+| [create_with_int_ranges(ranges)](#create_with_int_ranges_ranges_3) | Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class. |
+| [create_with_int_ranges_rect(ranges, export_area)](#create_with_int_ranges_rect_ranges_export_area_4) | Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class. |
+| [create_with_page_number(page)](#create_with_page_number_page_5) | Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class. |
+| [create_with_page_number_rect(page, export_area)](#create_with_page_number_rect_page_export_area_6) | Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class. |
+| [create_with_page_numbers(pages)](#create_with_page_numbers_pages_7) | Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class. |
+| [create_with_page_numbers_rect(pages, export_area)](#create_with_page_numbers_rect_pages_export_area_8) | Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class. |
+| [create_with_page_titles(page_titles)](#create_with_page_titles_page_titles_9) | Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class. |
+| [create_with_page_titles_rect(page_titles, export_area)](#create_with_page_titles_rect_page_titles_export_area_10) | Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class. |
+| [init_pages(ranges)](#init_pages_ranges_11) | Initializes the pages from ranges array |
 
-### MultiPageOptions() {#MultiPageOptions__0}
+
+### Constructor: MultiPageOptions() {#MultiPageOptions__1}
 
 
 ```
@@ -63,131 +63,7 @@ The MultiPageOptions type exposes the following members:
 
 Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class.
 
-### MultiPageOptions(pages) {#MultiPageOptions_pages_1}
-
-
-```
- MultiPageOptions(pages) 
-```
-
-Initializes a new instance of the MultiPageOptions class
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| pages | int |  |
-
-### MultiPageOptions(pages, export_area) {#MultiPageOptions_pages_export_area_2}
-
-
-```
- MultiPageOptions(pages, export_area) 
-```
-
-Initializes a new instance of the MultiPageOptions class
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| pages | int |  |
-| export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) |  |
-
-### MultiPageOptions(page_titles) {#MultiPageOptions_page_titles_3}
-
-
-```
- MultiPageOptions(page_titles) 
-```
-
-Initializes a new instance of the MultiPageOptions class
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| page_titles | string |  |
-
-### MultiPageOptions(page_titles, export_area) {#MultiPageOptions_page_titles_export_area_4}
-
-
-```
- MultiPageOptions(page_titles, export_area) 
-```
-
-Initializes a new instance of the MultiPageOptions class
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| page_titles | string |  |
-| export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) |  |
-
-### MultiPageOptions(ranges) {#MultiPageOptions_ranges_5}
-
-
-```
- MultiPageOptions(ranges) 
-```
-
-Initializes a new instance of the MultiPageOptions class
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| ranges | [IntRange[]](/imaging/python-net/aspose.imaging/intrange) |  |
-
-### MultiPageOptions(ranges, export_area) {#MultiPageOptions_ranges_export_area_6}
-
-
-```
- MultiPageOptions(ranges, export_area) 
-```
-
-Initializes a new instance of the MultiPageOptions class
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| ranges | [IntRange[]](/imaging/python-net/aspose.imaging/intrange) |  |
-| export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) |  |
-
-### MultiPageOptions(range) {#MultiPageOptions_range_7}
-
-
-```
- MultiPageOptions(range) 
-```
-
-Initializes a new instance of the MultiPageOptions class
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| range | [IntRange](/imaging/python-net/aspose.imaging/intrange) |  |
-
-### MultiPageOptions(range, export_area) {#MultiPageOptions_range_export_area_8}
-
-
-```
- MultiPageOptions(range, export_area) 
-```
-
-Initializes a new instance of the MultiPageOptions class
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| range | [IntRange](/imaging/python-net/aspose.imaging/intrange) |  |
-| export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) |  |
-
-### MultiPageOptions(page) {#MultiPageOptions_page_9}
+### Constructor: MultiPageOptions(page) {#MultiPageOptions_page_2}
 
 
 ```
@@ -202,7 +78,7 @@ Initializes a new instance of the MultiPageOptions class
 | :- | :- | :- |
 | page | int |  |
 
-### MultiPageOptions(page, export_area) {#MultiPageOptions_page_export_area_10}
+### Constructor: MultiPageOptions(page, export_area) {#MultiPageOptions_page_export_area_3}
 
 
 ```
@@ -218,142 +94,131 @@ Initializes a new instance of the MultiPageOptions class
 | page | int |  |
 | export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) |  |
 
-### create_with_page_numbers(pages)  [static] {#create_with_page_numbers_pages_11}
+### Constructor: MultiPageOptions(page_titles) {#MultiPageOptions_page_titles_4}
 
 
 ```
- create_with_page_numbers(pages) 
+ MultiPageOptions(page_titles) 
 ```
 
-Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class.
+Initializes a new instance of the MultiPageOptions class
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pages | int | The pages. |
+| page_titles | string |  |
 
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) |  |
-
-
-### create_with_page_numbers_rect(pages, export_area)  [static] {#create_with_page_numbers_rect_pages_export_area_12}
+### Constructor: MultiPageOptions(page_titles, export_area) {#MultiPageOptions_page_titles_export_area_5}
 
 
 ```
- create_with_page_numbers_rect(pages, export_area) 
+ MultiPageOptions(page_titles, export_area) 
 ```
 
-Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class.
+Initializes a new instance of the MultiPageOptions class
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| pages | int | The array of pages. |
-| export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The export area. |
+| page_titles | string |  |
+| export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) |  |
 
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) |  |
-
-
-### create_with_page_titles(page_titles)  [static] {#create_with_page_titles_page_titles_13}
+### Constructor: MultiPageOptions(pages) {#MultiPageOptions_pages_6}
 
 
 ```
- create_with_page_titles(page_titles) 
+ MultiPageOptions(pages) 
 ```
 
-Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class.
+Initializes a new instance of the MultiPageOptions class
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| page_titles | string | The page titles. |
+| pages | int |  |
 
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) |  |
-
-
-### create_with_page_titles_rect(page_titles, export_area)  [static] {#create_with_page_titles_rect_page_titles_export_area_14}
+### Constructor: MultiPageOptions(pages, export_area) {#MultiPageOptions_pages_export_area_7}
 
 
 ```
- create_with_page_titles_rect(page_titles, export_area) 
+ MultiPageOptions(pages, export_area) 
 ```
 
-Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class.
+Initializes a new instance of the MultiPageOptions class
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| page_titles | string | The page titles. |
-| export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The export area. |
+| pages | int |  |
+| export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) |  |
 
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) |  |
-
-
-### create_with_int_ranges(ranges)  [static] {#create_with_int_ranges_ranges_15}
+### Constructor: MultiPageOptions(range) {#MultiPageOptions_range_8}
 
 
 ```
- create_with_int_ranges(ranges) 
+ MultiPageOptions(range) 
 ```
 
-Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class.
+Initializes a new instance of the MultiPageOptions class
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| ranges | [IntRange[]](/imaging/python-net/aspose.imaging/intrange) | The [IntRange](/imaging/python-net/aspose.imaging/intrange/). |
+| range | [IntRange](/imaging/python-net/aspose.imaging/intrange) |  |
 
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) |  |
-
-
-### create_with_int_ranges_rect(ranges, export_area)  [static] {#create_with_int_ranges_rect_ranges_export_area_16}
+### Constructor: MultiPageOptions(range, export_area) {#MultiPageOptions_range_export_area_9}
 
 
 ```
- create_with_int_ranges_rect(ranges, export_area) 
+ MultiPageOptions(range, export_area) 
 ```
 
-Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class.
+Initializes a new instance of the MultiPageOptions class
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| ranges | [IntRange[]](/imaging/python-net/aspose.imaging/intrange) | The [IntRange](/imaging/python-net/aspose.imaging/intrange/). |
-| export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The export area. |
+| range | [IntRange](/imaging/python-net/aspose.imaging/intrange) |  |
+| export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) |  |
 
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) |  |
+### Constructor: MultiPageOptions(ranges) {#MultiPageOptions_ranges_10}
 
 
-### create_with_int_range(range)  [static] {#create_with_int_range_range_17}
+```
+ MultiPageOptions(ranges) 
+```
+
+Initializes a new instance of the MultiPageOptions class
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| ranges | [IntRange[]](/imaging/python-net/aspose.imaging/intrange) |  |
+
+### Constructor: MultiPageOptions(ranges, export_area) {#MultiPageOptions_ranges_export_area_11}
+
+
+```
+ MultiPageOptions(ranges, export_area) 
+```
+
+Initializes a new instance of the MultiPageOptions class
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| ranges | [IntRange[]](/imaging/python-net/aspose.imaging/intrange) |  |
+| export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) |  |
+
+### Method: create_with_int_range(range)  [static] {#create_with_int_range_range_1}
 
 
 ```
@@ -375,7 +240,7 @@ Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.
 | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) |  |
 
 
-### create_with_int_range_rect(range, export_area)  [static] {#create_with_int_range_rect_range_export_area_18}
+### Method: create_with_int_range_rect(range, export_area)  [static] {#create_with_int_range_rect_range_export_area_2}
 
 
 ```
@@ -398,7 +263,52 @@ Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.
 | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) |  |
 
 
-### create_with_page_number(page)  [static] {#create_with_page_number_page_19}
+### Method: create_with_int_ranges(ranges)  [static] {#create_with_int_ranges_ranges_3}
+
+
+```
+ create_with_int_ranges(ranges) 
+```
+
+Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| ranges | [IntRange[]](/imaging/python-net/aspose.imaging/intrange) | The [IntRange](/imaging/python-net/aspose.imaging/intrange/). |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) |  |
+
+
+### Method: create_with_int_ranges_rect(ranges, export_area)  [static] {#create_with_int_ranges_rect_ranges_export_area_4}
+
+
+```
+ create_with_int_ranges_rect(ranges, export_area) 
+```
+
+Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| ranges | [IntRange[]](/imaging/python-net/aspose.imaging/intrange) | The [IntRange](/imaging/python-net/aspose.imaging/intrange/). |
+| export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The export area. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) |  |
+
+
+### Method: create_with_page_number(page)  [static] {#create_with_page_number_page_5}
 
 
 ```
@@ -420,7 +330,7 @@ Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.
 | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) |  |
 
 
-### create_with_page_number_rect(page, export_area)  [static] {#create_with_page_number_rect_page_export_area_20}
+### Method: create_with_page_number_rect(page, export_area)  [static] {#create_with_page_number_rect_page_export_area_6}
 
 
 ```
@@ -443,7 +353,97 @@ Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.
 | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) |  |
 
 
-### init_pages(ranges) {#init_pages_ranges_21}
+### Method: create_with_page_numbers(pages)  [static] {#create_with_page_numbers_pages_7}
+
+
+```
+ create_with_page_numbers(pages) 
+```
+
+Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| pages | int | The pages. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) |  |
+
+
+### Method: create_with_page_numbers_rect(pages, export_area)  [static] {#create_with_page_numbers_rect_pages_export_area_8}
+
+
+```
+ create_with_page_numbers_rect(pages, export_area) 
+```
+
+Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| pages | int | The array of pages. |
+| export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The export area. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) |  |
+
+
+### Method: create_with_page_titles(page_titles)  [static] {#create_with_page_titles_page_titles_9}
+
+
+```
+ create_with_page_titles(page_titles) 
+```
+
+Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| page_titles | string | The page titles. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) |  |
+
+
+### Method: create_with_page_titles_rect(page_titles, export_area)  [static] {#create_with_page_titles_rect_page_titles_export_area_10}
+
+
+```
+ create_with_page_titles_rect(page_titles, export_area) 
+```
+
+Initializes a new instance of the [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| page_titles | string | The page titles. |
+| export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The export area. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) |  |
+
+
+### Method: init_pages(ranges) {#init_pages_ranges_11}
 
 
 ```

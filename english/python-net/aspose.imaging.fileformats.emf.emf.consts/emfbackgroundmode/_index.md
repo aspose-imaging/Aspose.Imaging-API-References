@@ -16,5 +16,5 @@ The BackgroundMode enumeration is used to specify the background mode to be used
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| TRANSPARENT | The transparent - Background remains untouched. |
 | OPAQUE | The opaque - Background is filled with the current background color before the text, hatched brush, or pen is drawn |
+| TRANSPARENT | The transparent - Background remains untouched. |

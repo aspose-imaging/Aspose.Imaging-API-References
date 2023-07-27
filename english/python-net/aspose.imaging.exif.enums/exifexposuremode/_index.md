@@ -17,5 +17,5 @@ exif exposure mode enum.
 | **Member name** | **Description** |
 | :- | :- |
 | AUTO | Auto exposure. |
-| MANUAL | Manual exposure. |
 | AUTO_BRACKET | Auto bracket. |
+| MANUAL | Manual exposure. |

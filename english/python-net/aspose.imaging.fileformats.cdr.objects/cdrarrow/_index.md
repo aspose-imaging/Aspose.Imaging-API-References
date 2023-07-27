@@ -5,7 +5,7 @@ weight: 10
 url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrarrow/
 ---
 
-The cdr arrow
+**Summary:** The cdr arrow
 
 **Module:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
@@ -15,22 +15,22 @@ The cdr arrow
 
 **Aspose.Imaging Version:** 23.6
 
-The CdrArrow type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [CdrArrow()](#CdrArrow__0) | Initializes a new instance of the CdrArrow class |
+| [CdrArrow()](#CdrArrow__1) | Initializes a new instance of the CdrArrow class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
 | document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |
 | id | int | r/w | Gets or sets the identifier. |
-| points | [PointD[]](/imaging/python-net/aspose.imaging.fileformats.cdr.types/pointd/) | r/w | Gets or sets the points. |
+| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
 | point_types | byte | r/w | Gets or sets the point types. |
+| points | [PointD[]](/imaging/python-net/aspose.imaging.fileformats.cdr.types/pointd/) | r/w | Gets or sets the points. |
 
-### CdrArrow() {#CdrArrow__0}
+
+### Constructor: CdrArrow() {#CdrArrow__1}
 
 
 ```

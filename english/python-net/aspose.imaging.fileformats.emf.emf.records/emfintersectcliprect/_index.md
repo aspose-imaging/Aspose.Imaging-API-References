@@ -5,7 +5,7 @@ weight: 560
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfintersectcliprect/
 ---
 
-The EMR_INTERSECTCLIPRECT record specifies a new clipping region from the intersection of the <br/>            current clipping region and the specified rectangle. <br/>            Note  Fields that are not described in this section are specified in section 2.3.2.
+**Summary:** The EMR_INTERSECTCLIPRECT record specifies a new clipping region from the intersection of the <br/>            current clipping region and the specified rectangle. <br/>            Note  Fields that are not described in this section are specified in section 2.3.2.
 
 **Module:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
@@ -15,24 +15,24 @@ The EMR_INTERSECTCLIPRECT record specifies a new clipping region from the inters
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfIntersectClipRect type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EmfIntersectClipRect(source)](#EmfIntersectClipRect_source_0) | Initializes a new instance of the [EmfIntersectClipRect](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfintersectcliprect/) class. |
+| [EmfIntersectClipRect(source)](#EmfIntersectClipRect_source_1) | Initializes a new instance of the [EmfIntersectClipRect](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfintersectcliprect/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
-| size | int | r/w | Gets or sets the size of the record |
 | clip | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets a WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies the rectangle in logical units. |
+| size | int | r/w | Gets or sets the size of the record |
+| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
 | [create_from_record(source)](#create_from_record_source_1) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
 | [create_from_type(type)](#create_from_type_type_2) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
 
-### EmfIntersectClipRect(source) {#EmfIntersectClipRect_source_0}
+
+### Constructor: EmfIntersectClipRect(source) {#EmfIntersectClipRect_source_1}
 
 
 ```
@@ -47,7 +47,7 @@ Initializes a new instance of the [EmfIntersectClipRect](/imaging/python-net/asp
 | :- | :- | :- |
 | source | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) | The source. |
 
-### create_from_record(source)  [static] {#create_from_record_source_1}
+### Method: create_from_record(source)  [static] {#create_from_record_source_1}
 
 
 ```
@@ -69,7 +69,7 @@ Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging
 | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) |  |
 
 
-### create_from_type(type)  [static] {#create_from_type_type_2}
+### Method: create_from_type(type)  [static] {#create_from_type_type_2}
 
 
 ```

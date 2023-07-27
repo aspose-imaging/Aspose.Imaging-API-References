@@ -5,7 +5,7 @@ weight: 5000
 url: /python-net/aspose.imaging/iadvancedbufferprocessor/
 ---
 
-The advanced buffer processor.
+**Summary:** The advanced buffer processor.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -15,15 +15,15 @@ The advanced buffer processor.
 
 **Aspose.Imaging Version:** 23.6
 
-The IAdvancedBufferProcessor type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
 | finish_row() | Finishes the row. |
-| [finish_rows(rows_count)](#finish_rows_rows_count_0) | Finishes the rows. |
-| [process_buffer(buffer, buffer_length)](#process_buffer_buffer_buffer_length_1) | Processes the buffer. |
+| [finish_rows(rows_count)](#finish_rows_rows_count_1) | Finishes the rows. |
+| [process_buffer(buffer, buffer_length)](#process_buffer_buffer_buffer_length_2) | Processes the buffer. |
 
-### finish_rows(rows_count) {#finish_rows_rows_count_0}
+
+### Method: finish_rows(rows_count) {#finish_rows_rows_count_1}
 
 
 ```
@@ -38,7 +38,7 @@ Finishes the rows.
 | :- | :- | :- |
 | rows_count | int | The rows count. |
 
-### process_buffer(buffer, buffer_length) {#process_buffer_buffer_buffer_length_1}
+### Method: process_buffer(buffer, buffer_length) {#process_buffer_buffer_buffer_length_2}
 
 
 ```

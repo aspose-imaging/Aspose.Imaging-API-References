@@ -5,7 +5,7 @@ weight: 5210
 url: /python-net/aspose.imaging/iimageloaderdescriptor/
 ---
 
-The image loader descriptor specifying the loader properties. The loader descriptor is used to overcome<br/>            the necessity to contain each image loader instance in memory and multithreading issues.
+**Summary:** The image loader descriptor specifying the loader properties. The loader descriptor is used to overcome<br/>            the necessity to contain each image loader instance in memory and multithreading issues.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -15,18 +15,18 @@ The image loader descriptor specifying the loader properties. The loader descrip
 
 **Aspose.Imaging Version:** 23.6
 
-The IImageLoaderDescriptor type exposes the following members:
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | supported_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat) | r | Gets the supported format. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [can_load(stream_container, load_options)](#can_load_stream_container_load_options_0) | Determines whether image loader can read a new image from the specified stream and optionally using the <paramref name="loadOptions" />. |
-| [create_instance()](#create_instance__1) | Creates a new loader instance. |
+| [can_load(stream_container, load_options)](#can_load_stream_container_load_options_1) | Determines whether image loader can read a new image from the specified stream and optionally using the <paramref name="loadOptions" />. |
+| [create_instance()](#create_instance__2) | Creates a new loader instance. |
 
-### can_load(stream_container, load_options) {#can_load_stream_container_load_options_0}
+
+### Method: can_load(stream_container, load_options) {#can_load_stream_container_load_options_1}
 
 
 ```
@@ -49,7 +49,7 @@ Determines whether image loader can read a new image from the specified stream a
 | bool | <c>true</c> if image loader created by this descriptor can read image from stream; otherwise, <c>false</c>. |
 
 
-### create_instance() {#create_instance__1}
+### Method: create_instance() {#create_instance__2}
 
 
 ```

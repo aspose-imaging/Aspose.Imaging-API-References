@@ -16,7 +16,7 @@ The enumeration specifies how to substitute digits in a string according to a us
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| USER | Specifies a user-defined substitution scheme. |
-| NONE | Specifies to disable substitutions. |
 | NATIONAL | Specifies substitution digits that correspond with the official national language of the user's locale. |
+| NONE | Specifies to disable substitutions. |
 | TRADITIONAL | Specifies substitution digits that correspond with the user's native script or language, which may be different from the official national language of the user's locale. |
+| USER | Specifies a user-defined substitution scheme. |

@@ -16,12 +16,12 @@ The [InterpolationMode](/imaging/python-net/aspose.imaging/interpolationmode/) e
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| INVALID | Invalid interpolation mode. |
-| DEFAULT | Specifies default mode. |
-| LOW | Specifies low quality interpolation. |
-| HIGH | Specifies high quality interpolation. |
-| BILINEAR | Specifies bilinear interpolation. No prefiltering is done. This mode is not suitable for shrinking an image below 50 percent of its original size. |
 | BICUBIC | Specifies bicubic interpolation. No prefiltering is done. This mode is not suitable for shrinking an image below 25 percent of its original size. |
-| NEAREST_NEIGHBOR | Specifies nearest-neighbor interpolation. |
-| HIGH_QUALITY_BILINEAR | Specifies high-quality, bilinear interpolation. Prefiltering is performed to ensure high-quality shrinking. |
+| BILINEAR | Specifies bilinear interpolation. No prefiltering is done. This mode is not suitable for shrinking an image below 50 percent of its original size. |
+| DEFAULT | Specifies default mode. |
+| HIGH | Specifies high quality interpolation. |
 | HIGH_QUALITY_BICUBIC | Specifies high-quality, bicubic interpolation. Prefiltering is performed to ensure high-quality shrinking. This mode produces the highest quality transformed images. |
+| HIGH_QUALITY_BILINEAR | Specifies high-quality, bilinear interpolation. Prefiltering is performed to ensure high-quality shrinking. |
+| INVALID | Invalid interpolation mode. |
+| LOW | Specifies low quality interpolation. |
+| NEAREST_NEIGHBOR | Specifies nearest-neighbor interpolation. |

@@ -5,7 +5,7 @@ weight: 20
 url: /python-net/aspose.imaging.fileformats.cdr.types/cdrgradient/
 ---
 
-The cdr gradient
+**Summary:** The cdr gradient
 
 **Module:** [aspose.imaging.fileformats.cdr.types](/imaging/python-net/aspose.imaging.fileformats.cdr.types/)
 
@@ -13,24 +13,24 @@ The cdr gradient
 
 **Aspose.Imaging Version:** 23.6
 
-The CdrGradient type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [CdrGradient()](#CdrGradient__0) | Initializes a new instance of the [CdrGradient](/imaging/python-net/aspose.imaging.fileformats.cdr.types/cdrgradient/) class. |
+| [CdrGradient()](#CdrGradient__1) | Initializes a new instance of the [CdrGradient](/imaging/python-net/aspose.imaging.fileformats.cdr.types/cdrgradient/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| type | int | r/w | Gets or sets the type. |
-| mode | int | r/w | Gets or sets the mode. |
 | angle | double | r/w | Gets or sets the angle. |
-| mid_point | double | r/w | Gets or sets the mid point. |
-| edge_offset | int | r/w | Gets or sets the edge offset. |
 | center_x_offset | int | r/w | Gets or sets the center x offset. |
 | center_y_offset | int | r/w | Gets or sets the center y offset. |
-| stops | System.Collections.Generic.List<CdrGradientStop> | r/w | Gets or sets the stops. |
+| edge_offset | int | r/w | Gets or sets the edge offset. |
+| mid_point | double | r/w | Gets or sets the mid point. |
+| mode | int | r/w | Gets or sets the mode. |
+| stops | list[CdrGradientStop] | r/w | Gets or sets the stops. |
+| type | int | r/w | Gets or sets the type. |
 
-### CdrGradient() {#CdrGradient__0}
+
+### Constructor: CdrGradient() {#CdrGradient__1}
 
 
 ```

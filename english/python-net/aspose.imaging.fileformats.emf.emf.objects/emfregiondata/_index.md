@@ -5,7 +5,7 @@ weight: 240
 url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfregiondata/
 ---
 
-The RegionData object specifies data that defines a region, which is made of non-overlapping rectangles.
+**Summary:** The RegionData object specifies data that defines a region, which is made of non-overlapping rectangles.
 
 **Module:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
@@ -15,19 +15,19 @@ The RegionData object specifies data that defines a region, which is made of non
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfRegionData type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EmfRegionData()](#EmfRegionData__0) | Initializes a new instance of the [EmfRegionData](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfregiondata/) class. |
-| [EmfRegionData(rectangle)](#EmfRegionData_rectangle_1) | Initializes a new instance of the [EmfRegionData](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfregiondata/) class. |
+| [EmfRegionData()](#EmfRegionData__1) | Initializes a new instance of the [EmfRegionData](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfregiondata/) class. |
+| [EmfRegionData(rectangle)](#EmfRegionData_rectangle_2) | Initializes a new instance of the [EmfRegionData](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfregiondata/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| region_data_header | [EmfRegionDataHeader](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader) | r/w | Gets or sets a 256-bit RegionDataHeader object that describes the following data. |
 | data | [Rectangle[]](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets an array of WMF RectL objects ([MS-WMF] section 2.2.2.19); the objects are <br/>            merged to create the region |
+| region_data_header | [EmfRegionDataHeader](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader) | r/w | Gets or sets a 256-bit RegionDataHeader object that describes the following data. |
 
-### EmfRegionData() {#EmfRegionData__0}
+
+### Constructor: EmfRegionData() {#EmfRegionData__1}
 
 
 ```
@@ -36,7 +36,7 @@ The EmfRegionData type exposes the following members:
 
 Initializes a new instance of the [EmfRegionData](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfregiondata/) class.
 
-### EmfRegionData(rectangle) {#EmfRegionData_rectangle_1}
+### Constructor: EmfRegionData(rectangle) {#EmfRegionData_rectangle_2}
 
 
 ```

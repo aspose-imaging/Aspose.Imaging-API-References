@@ -5,7 +5,7 @@ weight: 850
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetwindowext/
 ---
 
-The set window object.
+**Summary:** The set window object.
 
 **Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
@@ -15,17 +15,17 @@ The set window object.
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfSetWindowExt type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfSetWindowExt()](#WmfSetWindowExt__0) | Initializes a new instance of the WmfSetWindowExt class |
+| [WmfSetWindowExt()](#WmfSetWindowExt__1) | Initializes a new instance of the WmfSetWindowExt class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | point | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the point. |
 
-### WmfSetWindowExt() {#WmfSetWindowExt__0}
+
+### Constructor: WmfSetWindowExt() {#WmfSetWindowExt__1}
 
 
 ```

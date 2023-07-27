@@ -16,10 +16,10 @@ The pixel data format actual meaning.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| GRAYSCALE | The grayscale color space |
 | BGR | The BGR color space. |
-| RGB | The RGB color space. |
-| Y_CB_CR | The YCbCr color space. |
-| CMYK | The CMYK color space. |
-| YCCK | The YCCK color space. |
 | CIE_LAB | The CIE lab color space. |
+| CMYK | The CMYK color space. |
+| GRAYSCALE | The grayscale color space |
+| RGB | The RGB color space. |
+| YCCK | The YCCK color space. |
+| Y_CB_CR | The YCbCr color space. |

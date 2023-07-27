@@ -16,5 +16,5 @@ The CustomLineCapDataType enumeration defines types of custom line cap data, whi
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| CUSTOM_LINE_CAP_DATA_TYPE_DEFAULT | Specifies a default custom line cap. |
 | CUSTOM_LINE_CAP_DATA_TYPE_ADJUSTABLE_ARROW | Specifies an adjustable arrow custom line cap. |
+| CUSTOM_LINE_CAP_DATA_TYPE_DEFAULT | Specifies a default custom line cap. |

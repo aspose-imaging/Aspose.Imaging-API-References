@@ -18,11 +18,11 @@ The Proportion enumeration defines values for one of the characteristics in the 
 | :- | :- |
 | PAN_ANY | The Any proportion. |
 | PAN_NO_FIT | The No fit. |
-| PAN_PROP_OLD_STYLE | Old style. |
-| PAN_PROP_MODERN | The modern |
+| PAN_PROP_CONDENSED | The condensed |
 | PAN_PROP_EVEN_WIDTH | The even width |
 | PAN_PROP_EXPANDED | The expanded |
-| PAN_PROP_CONDENSED | The condensed |
-| PAN_PROP_VERY_EXPANDED | The very expanded |
-| PAN_PROP_VERY_CONDENSED | The very condensed |
+| PAN_PROP_MODERN | The modern |
 | PAN_PROP_MONOSPACED | The mono spaced |
+| PAN_PROP_OLD_STYLE | Old style. |
+| PAN_PROP_VERY_CONDENSED | The very condensed |
+| PAN_PROP_VERY_EXPANDED | The very expanded |

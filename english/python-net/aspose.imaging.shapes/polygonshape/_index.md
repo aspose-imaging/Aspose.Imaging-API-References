@@ -5,7 +5,7 @@ weight: 60
 url: /python-net/aspose.imaging.shapes/polygonshape/
 ---
 
-Represents a polygon shape.
+**Summary:** Represents a polygon shape.
 
 **Module:** [aspose.imaging.shapes](/imaging/python-net/aspose.imaging.shapes/)
 
@@ -15,33 +15,33 @@ Represents a polygon shape.
 
 **Aspose.Imaging Version:** 23.6
 
-The PolygonShape type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [PolygonShape()](#PolygonShape__0) | Initializes a new instance of the [PolygonShape](/imaging/python-net/aspose.imaging.shapes/polygonshape/) class. |
-| [PolygonShape(points)](#PolygonShape_points_1) | Initializes a new instance of the [PolygonShape](/imaging/python-net/aspose.imaging.shapes/polygonshape/) class. |
-| [PolygonShape(points, is_closed)](#PolygonShape_points_is_closed_2) | Initializes a new instance of the [PolygonShape](/imaging/python-net/aspose.imaging.shapes/polygonshape/) class. |
+| [PolygonShape()](#PolygonShape__1) | Initializes a new instance of the [PolygonShape](/imaging/python-net/aspose.imaging.shapes/polygonshape/) class. |
+| [PolygonShape(points)](#PolygonShape_points_2) | Initializes a new instance of the [PolygonShape](/imaging/python-net/aspose.imaging.shapes/polygonshape/) class. |
+| [PolygonShape(points, is_closed)](#PolygonShape_points_is_closed_3) | Initializes a new instance of the [PolygonShape](/imaging/python-net/aspose.imaging.shapes/polygonshape/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | bounds | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r | Gets the object's bounds. |
 | center | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the shape's center. |
-| segments | [ShapeSegment[]](/imaging/python-net/aspose.imaging/shapesegment) | r | Gets the shape segments. |
-| has_segments | bool | r | Gets a value indicating whether shape has segments. |
-| points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the curve points. |
-| is_closed | bool | r/w | Gets or sets a value indicating whether shape is closed. |
-| start_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the starting shape point. |
 | end_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the ending shape point. |
+| has_segments | bool | r | Gets a value indicating whether shape has segments. |
+| is_closed | bool | r/w | Gets or sets a value indicating whether shape is closed. |
+| points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the curve points. |
+| segments | [ShapeSegment[]](/imaging/python-net/aspose.imaging/shapesegment) | r | Gets the shape segments. |
+| start_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the starting shape point. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_bounds(matrix)](#get_bounds_matrix_3) | Gets the object's bounds. |
-| [get_bounds(matrix, pen)](#get_bounds_matrix_pen_4) | Gets the object's bounds. |
-| [transform(transform)](#transform_transform_5) | Applies the specified transformation to the shape. |
+| [get_bounds(matrix)](#get_bounds_matrix_1) | Gets the object's bounds. |
+| [get_bounds(matrix, pen)](#get_bounds_matrix_pen_2) | Gets the object's bounds. |
 | reverse() | Reverses the order of points for this shape. |
+| [transform(transform)](#transform_transform_3) | Applies the specified transformation to the shape. |
 
-### PolygonShape() {#PolygonShape__0}
+
+### Constructor: PolygonShape() {#PolygonShape__1}
 
 
 ```
@@ -50,7 +50,7 @@ The PolygonShape type exposes the following members:
 
 Initializes a new instance of the [PolygonShape](/imaging/python-net/aspose.imaging.shapes/polygonshape/) class.
 
-### PolygonShape(points) {#PolygonShape_points_1}
+### Constructor: PolygonShape(points) {#PolygonShape_points_2}
 
 
 ```
@@ -65,7 +65,7 @@ Initializes a new instance of the [PolygonShape](/imaging/python-net/aspose.imag
 | :- | :- | :- |
 | points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | The points array. |
 
-### PolygonShape(points, is_closed) {#PolygonShape_points_is_closed_2}
+### Constructor: PolygonShape(points, is_closed) {#PolygonShape_points_is_closed_3}
 
 
 ```
@@ -81,7 +81,7 @@ Initializes a new instance of the [PolygonShape](/imaging/python-net/aspose.imag
 | points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | The points array. |
 | is_closed | bool | If set to <c>true</c> the polygon is closed. |
 
-### get_bounds(matrix) {#get_bounds_matrix_3}
+### Method: get_bounds(matrix) {#get_bounds_matrix_1}
 
 
 ```
@@ -103,7 +103,7 @@ Gets the object's bounds.
 | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The estimated object's bounds. |
 
 
-### get_bounds(matrix, pen) {#get_bounds_matrix_pen_4}
+### Method: get_bounds(matrix, pen) {#get_bounds_matrix_pen_2}
 
 
 ```
@@ -126,7 +126,7 @@ Gets the object's bounds.
 | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The estimated object's bounds. |
 
 
-### transform(transform) {#transform_transform_5}
+### Method: transform(transform) {#transform_transform_3}
 
 
 ```

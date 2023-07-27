@@ -5,7 +5,7 @@ weight: 330
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfframeregion/
 ---
 
-The wmf frame region object.
+**Summary:** The wmf frame region object.
 
 **Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
@@ -15,21 +15,21 @@ The wmf frame region object.
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfFrameRegion type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfFrameRegion()](#WmfFrameRegion__0) | Initializes a new instance of the [WmfFillRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmffillregion/) class. |
-| [WmfFrameRegion(region, brush)](#WmfFrameRegion_region_brush_1) | Initializes a new instance of the [WmfFillRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmffillregion/) class. |
+| [WmfFrameRegion()](#WmfFrameRegion__1) | Initializes a new instance of the [WmfFillRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmffillregion/) class. |
+| [WmfFrameRegion(region, brush)](#WmfFrameRegion_region_brush_2) | Initializes a new instance of the [WmfFillRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmffillregion/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| region_index | int | r/w | Gets or sets the index of the region. |
 | brush_index | int | r/w | Gets or sets the index of the brush. |
 | height | short | r/w | Gets or sets the height. |
+| region_index | int | r/w | Gets or sets the index of the region. |
 | width | short | r/w | Gets or sets the width. |
 
-### WmfFrameRegion() {#WmfFrameRegion__0}
+
+### Constructor: WmfFrameRegion() {#WmfFrameRegion__1}
 
 
 ```
@@ -38,7 +38,7 @@ The WmfFrameRegion type exposes the following members:
 
 Initializes a new instance of the [WmfFillRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmffillregion/) class.
 
-### WmfFrameRegion(region, brush) {#WmfFrameRegion_region_brush_1}
+### Constructor: WmfFrameRegion(region, brush) {#WmfFrameRegion_region_brush_2}
 
 
 ```

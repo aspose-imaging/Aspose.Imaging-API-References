@@ -9,6 +9,6 @@ url: /python-net/aspose.imaging.fileformats.dng/
 The module contains DNG file format types
 
 ## **Classes**
-|**Class**|**Description**|
+| **Class** | **Description** |
 | :- | :- |
-|[DngImage](/imaging/python-net/aspose.imaging.fileformats.dng/dngimage/)|Dng image representation class|
+| [DngImage](/imaging/python-net/aspose.imaging.fileformats.dng/dngimage/) | Dng image representation class |

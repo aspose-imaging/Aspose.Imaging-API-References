@@ -16,5 +16,5 @@ The BitmapDataType enumeration defines types of bitmap data formats.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| BITMAP_DATA_TYPE_PIXEL | Specifies a bitmap image with pixel data. |
 | BITMAP_DATA_TYPE_COMPRESSED | Specifies an image with compressed data. |
+| BITMAP_DATA_TYPE_PIXEL | Specifies a bitmap image with pixel data. |

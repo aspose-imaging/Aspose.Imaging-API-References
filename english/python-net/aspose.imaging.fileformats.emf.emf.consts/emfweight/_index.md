@@ -18,13 +18,13 @@ The Weight enumeration defines values for one of the characteristics in the PANO
 | :- | :- |
 | PAN_ANY | The Any weight. |
 | PAN_NO_FIT | The No fit. |
-| PAN_WEIGHT_VERY_LIGHT | Very light weight. |
-| PAN_WEIGHT_LIGHT | The light weight. |
-| PAN_WEIGHT_THIN | The thin weight. |
-| PAN_WEIGHT_BOOK | The book weight. |
-| PAN_WEIGHT_MEDIUM | The medium weight. |
-| PAN_WEIGHT_DEMI | The demi weight. |
-| PAN_WEIGHT_BOLD | The bold weight. |
-| PAN_WEIGHT_HEAVY | The heavy weight. |
 | PAN_WEIGHT_BLACK | The black weight. |
+| PAN_WEIGHT_BOLD | The bold weight. |
+| PAN_WEIGHT_BOOK | The book weight. |
+| PAN_WEIGHT_DEMI | The demi weight. |
+| PAN_WEIGHT_HEAVY | The heavy weight. |
+| PAN_WEIGHT_LIGHT | The light weight. |
+| PAN_WEIGHT_MEDIUM | The medium weight. |
 | PAN_WEIGHT_NORD | The nord weight. |
+| PAN_WEIGHT_THIN | The thin weight. |
+| PAN_WEIGHT_VERY_LIGHT | Very light weight. |

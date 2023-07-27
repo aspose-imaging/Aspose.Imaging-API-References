@@ -5,7 +5,7 @@ weight: 200
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfdibcreatepatternbrush/
 ---
 
-The META_DIBCREATEPATTERNBRUSH record creates a Brush Object (section<br/>                2.2.1.1) with a pattern specified by a DeviceIndependentBitmap (DIB)<br/>                Object (section 2.2.2.9).
+**Summary:** The META_DIBCREATEPATTERNBRUSH record creates a Brush Object (section<br/>                2.2.1.1) with a pattern specified by a DeviceIndependentBitmap (DIB)<br/>                Object (section 2.2.2.9).
 
 **Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
@@ -15,20 +15,20 @@ The META_DIBCREATEPATTERNBRUSH record creates a Brush Object (section<br/>      
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfDibCreatePatternBrush type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfDibCreatePatternBrush()](#WmfDibCreatePatternBrush__0) | Initializes a new instance of the WmfDibCreatePatternBrush class |
+| [WmfDibCreatePatternBrush()](#WmfDibCreatePatternBrush__1) | Initializes a new instance of the WmfDibCreatePatternBrush class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| index | int | r/w | Gets or sets the index. |
-| style | [WmfBrushStyle](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfbrushstyle/) | r/w | Gets or sets the style. |
 | color_usage | [WmfColorUsageEnum](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfcolorusageenum/) | r/w | Gets or sets the color usage. |
+| index | int | r/w | Gets or sets the index. |
 | source_bitmap | [WmfDeviceIndependentBitmap](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap) | r/w | Gets or sets the source bitmap. |
+| style | [WmfBrushStyle](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfbrushstyle/) | r/w | Gets or sets the style. |
 
-### WmfDibCreatePatternBrush() {#WmfDibCreatePatternBrush__0}
+
+### Constructor: WmfDibCreatePatternBrush() {#WmfDibCreatePatternBrush__1}
 
 
 ```

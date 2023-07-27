@@ -5,7 +5,7 @@ weight: 590
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfroundrect/
 ---
 
-The rectangle object.
+**Summary:** The rectangle object.
 
 **Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
@@ -15,19 +15,19 @@ The rectangle object.
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfRoundRect type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfRoundRect()](#WmfRoundRect__0) | Initializes a new instance of the WmfRoundRect class |
+| [WmfRoundRect()](#WmfRoundRect__1) | Initializes a new instance of the WmfRoundRect class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets the rectangle. |
 | height | short | r/w | Gets or sets the height. |
+| rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets the rectangle. |
 | width | short | r/w | Gets or sets the width. |
 
-### WmfRoundRect() {#WmfRoundRect__0}
+
+### Constructor: WmfRoundRect() {#WmfRoundRect__1}
 
 
 ```

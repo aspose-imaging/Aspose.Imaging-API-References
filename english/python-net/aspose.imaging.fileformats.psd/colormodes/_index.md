@@ -17,10 +17,10 @@ Represents the PSD file format color modes.
 | **Member name** | **Description** |
 | :- | :- |
 | BITMAP | The bitmap color mode. |
+| CMYK | CMYK color mode. |
+| DUOTONE | Duotone color mode. |
 | GRAYSCALE | The grayscale mode. |
 | INDEXED | Indexed color mode. |
-| RGB | RGB color mode. |
-| CMYK | CMYK color mode. |
-| MULTICHANNEL | Multichannel color mode. |
-| DUOTONE | Duotone color mode. |
 | LAB | Lab color mode. |
+| MULTICHANNEL | Multichannel color mode. |
+| RGB | RGB color mode. |

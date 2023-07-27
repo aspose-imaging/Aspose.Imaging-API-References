@@ -5,7 +5,7 @@ weight: 80
 url: /python-net/aspose.imaging.xmp.types/ixmptype/
 ---
 
-Base interface for XMP type.
+**Summary:** Base interface for XMP type.
 
 **Module:** [aspose.imaging.xmp.types](/imaging/python-net/aspose.imaging.xmp.types/)
 
@@ -13,13 +13,13 @@ Base interface for XMP type.
 
 **Aspose.Imaging Version:** 23.6
 
-The IXmpType type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_xmp_representation()](#get_xmp_representation__0) | Gets the string contained value in XMP format. |
+| [get_xmp_representation()](#get_xmp_representation__1) | Gets the string contained value in XMP format. |
 
-### get_xmp_representation() {#get_xmp_representation__0}
+
+### Method: get_xmp_representation() {#get_xmp_representation__1}
 
 
 ```

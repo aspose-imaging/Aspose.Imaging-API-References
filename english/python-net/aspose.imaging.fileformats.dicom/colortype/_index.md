@@ -16,6 +16,6 @@ The type of the color.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| GRAYSCALE_8_BIT | Represents the grayscale 8-bit color type. |
 | GRAYSCALE_16_BIT | Represents the grayscale 16-bit color type. |
+| GRAYSCALE_8_BIT | Represents the grayscale 8-bit color type. |
 | RGB_24_BIT | Represents the RGB 24-bit color type. |

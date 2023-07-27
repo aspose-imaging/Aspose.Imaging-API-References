@@ -5,7 +5,7 @@ weight: 1200
 url: /python-net/aspose.imaging/colortranslator/
 ---
 
-Translates colors to and from GDI+ Color structures. This class cannot be inherited.
+**Summary:** Translates colors to and from GDI+ Color structures. This class cannot be inherited.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -13,18 +13,18 @@ Translates colors to and from GDI+ Color structures. This class cannot be inheri
 
 **Aspose.Imaging Version:** 23.6
 
-The ColorTranslator type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [from_html(html_color)](#from_html_html_color_0) | Takes color from the HTML color. |
-| [from_ole(ole_color)](#from_ole_ole_color_1) | Takes color from the OLE color. |
-| [from_win32(win_32_color)](#from_win32_win_32_color_2) | Takes color from the HTML color. |
-| [to_html(c)](#to_html_c_3) | Creates HTML color  from the color. |
-| [to_ole(c)](#to_ole_c_4) | Translates OLE color to color. |
-| [to_win32(c)](#to_win32_c_5) | Translates the color to win32 color. |
+| [from_html(html_color)](#from_html_html_color_1) | Takes color from the HTML color. |
+| [from_ole(ole_color)](#from_ole_ole_color_2) | Takes color from the OLE color. |
+| [from_win32(win_32_color)](#from_win32_win_32_color_3) | Takes color from the HTML color. |
+| [to_html(c)](#to_html_c_4) | Creates HTML color  from the color. |
+| [to_ole(c)](#to_ole_c_5) | Translates OLE color to color. |
+| [to_win32(c)](#to_win32_c_6) | Translates the color to win32 color. |
 
-### from_html(html_color)  [static] {#from_html_html_color_0}
+
+### Method: from_html(html_color)  [static] {#from_html_html_color_1}
 
 
 ```
@@ -46,7 +46,7 @@ Takes color from the HTML color.
 | [Color](/imaging/python-net/aspose.imaging/color) | The color. |
 
 
-### from_ole(ole_color)  [static] {#from_ole_ole_color_1}
+### Method: from_ole(ole_color)  [static] {#from_ole_ole_color_2}
 
 
 ```
@@ -68,7 +68,7 @@ Takes color from the OLE color.
 | [Color](/imaging/python-net/aspose.imaging/color) | The color. |
 
 
-### from_win32(win_32_color)  [static] {#from_win32_win_32_color_2}
+### Method: from_win32(win_32_color)  [static] {#from_win32_win_32_color_3}
 
 
 ```
@@ -90,7 +90,7 @@ Takes color from the HTML color.
 | [Color](/imaging/python-net/aspose.imaging/color) | The color. |
 
 
-### to_html(c)  [static] {#to_html_c_3}
+### Method: to_html(c)  [static] {#to_html_c_4}
 
 
 ```
@@ -112,7 +112,7 @@ Creates HTML color  from the color.
 | string | The html string color. |
 
 
-### to_ole(c)  [static] {#to_ole_c_4}
+### Method: to_ole(c)  [static] {#to_ole_c_5}
 
 
 ```
@@ -134,7 +134,7 @@ Translates OLE color to color.
 | int | The OLE color. |
 
 
-### to_win32(c)  [static] {#to_win32_c_5}
+### Method: to_win32(c)  [static] {#to_win32_c_6}
 
 
 ```

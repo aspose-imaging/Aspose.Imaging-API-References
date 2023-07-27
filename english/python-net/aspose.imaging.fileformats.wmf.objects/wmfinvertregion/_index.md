@@ -5,7 +5,7 @@ weight: 360
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfinvertregion/
 ---
 
-The META_INVERTREGION record draws a region in which the colors are<br/>                inverted.
+**Summary:** The META_INVERTREGION record draws a region in which the colors are<br/>                inverted.
 
 **Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
@@ -15,18 +15,27 @@ The META_INVERTREGION record draws a region in which the colors are<br/>        
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfInvertRegion type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfInvertRegion(region)](#WmfInvertRegion_region_0) | Initializes a new instance of the [WmfInvertRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfinvertregion/) class. |
 | [WmfInvertRegion()](#WmfInvertRegion__1) | Initializes a new instance of the [WmfInvertRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfinvertregion/) class. |
+| [WmfInvertRegion(region)](#WmfInvertRegion_region_2) | Initializes a new instance of the [WmfInvertRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfinvertregion/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | region_index | int | r/w | Gets or sets the index of the region. |
 
-### WmfInvertRegion(region) {#WmfInvertRegion_region_0}
+
+### Constructor: WmfInvertRegion() {#WmfInvertRegion__1}
+
+
+```
+ WmfInvertRegion() 
+```
+
+Initializes a new instance of the [WmfInvertRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfinvertregion/) class.
+
+### Constructor: WmfInvertRegion(region) {#WmfInvertRegion_region_2}
 
 
 ```
@@ -40,13 +49,4 @@ Initializes a new instance of the [WmfInvertRegion](/imaging/python-net/aspose.i
 | Parameter | Type | Description |
 | :- | :- | :- |
 | region | [WmfGraphicObject](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfgraphicobject) | The region. |
-
-### WmfInvertRegion() {#WmfInvertRegion__1}
-
-
-```
- WmfInvertRegion() 
-```
-
-Initializes a new instance of the [WmfInvertRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfinvertregion/) class.
 

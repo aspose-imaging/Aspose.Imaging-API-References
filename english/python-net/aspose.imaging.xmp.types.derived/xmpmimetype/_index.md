@@ -5,7 +5,7 @@ weight: 60
 url: /python-net/aspose.imaging.xmp.types.derived/xmpmimetype/
 ---
 
-Represents MIME type.
+**Summary:** Represents MIME type.
 
 **Module:** [aspose.imaging.xmp.types.derived](/imaging/python-net/aspose.imaging.xmp.types.derived/)
 
@@ -15,13 +15,12 @@ Represents MIME type.
 
 **Aspose.Imaging Version:** 23.6
 
-The XmpMimeType type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [XmpMimeType(value)](#XmpMimeType_value_0) | Initializes a new instance of the [XmpMimeType](/imaging/python-net/aspose.imaging.xmp.types.derived/xmpmimetype/) class. |
+| [XmpMimeType(value)](#XmpMimeType_value_1) | Initializes a new instance of the [XmpMimeType](/imaging/python-net/aspose.imaging.xmp.types.derived/xmpmimetype/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | value | string | r/w | Gets or sets the text value. |
 ## **Methods**
@@ -29,7 +28,8 @@ The XmpMimeType type exposes the following members:
 | :- | :- |
 | [get_xmp_representation()](#get_xmp_representation__1) | Gets the string contained value in XMP format. |
 
-### XmpMimeType(value) {#XmpMimeType_value_0}
+
+### Constructor: XmpMimeType(value) {#XmpMimeType_value_1}
 
 
 ```
@@ -44,7 +44,7 @@ Initializes a new instance of the [XmpMimeType](/imaging/python-net/aspose.imagi
 | :- | :- | :- |
 | value | string | The value. |
 
-### get_xmp_representation() {#get_xmp_representation__1}
+### Method: get_xmp_representation() {#get_xmp_representation__1}
 
 
 ```

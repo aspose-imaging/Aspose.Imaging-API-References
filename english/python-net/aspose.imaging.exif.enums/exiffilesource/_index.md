@@ -16,7 +16,7 @@ exif file source enum.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| OTHERS | The others. |
-| FILM_SCANNER | Film scanner. |
-| REFLEXION_PRINT_SCANNER | Reflexion print scanner. |
 | DIGITAL_STILL_CAMERA | Digital still camera. |
+| FILM_SCANNER | Film scanner. |
+| OTHERS | The others. |
+| REFLEXION_PRINT_SCANNER | Reflexion print scanner. |

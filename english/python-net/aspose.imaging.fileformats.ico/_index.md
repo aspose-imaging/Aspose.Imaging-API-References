@@ -9,6 +9,6 @@ url: /python-net/aspose.imaging.fileformats.ico/
 The module handling ICO file format processing.
 
 ## **Classes**
-|**Class**|**Description**|
+| **Class** | **Description** |
 | :- | :- |
-|[IcoImage](/imaging/python-net/aspose.imaging.fileformats.ico/icoimage/)|The ICO image class.|
+| [IcoImage](/imaging/python-net/aspose.imaging.fileformats.ico/icoimage/) | The ICO image class. |

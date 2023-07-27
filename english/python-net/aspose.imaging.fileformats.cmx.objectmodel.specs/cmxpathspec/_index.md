@@ -5,7 +5,7 @@ weight: 50
 url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec/
 ---
 
-Represents geometric info specified for a path.
+**Summary:** Represents geometric info specified for a path.
 
 **Module:** [aspose.imaging.fileformats.cmx.objectmodel.specs](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/)
 
@@ -15,18 +15,18 @@ Represents geometric info specified for a path.
 
 **Aspose.Imaging Version:** 23.6
 
-The CmxPathSpec type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [CmxPathSpec()](#CmxPathSpec__0) | Initializes a new instance of the CmxPathSpec class |
+| [CmxPathSpec()](#CmxPathSpec__1) | Initializes a new instance of the CmxPathSpec class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | points | [CmxPathPointSpec[]](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec) | r/w | Gets or sets the points. |
 | type | int | r/w | Gets or sets the type. |
 
-### CmxPathSpec() {#CmxPathSpec__0}
+
+### Constructor: CmxPathSpec() {#CmxPathSpec__1}
 
 
 ```

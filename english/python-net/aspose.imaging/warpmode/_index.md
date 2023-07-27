@@ -16,5 +16,5 @@ Specifies the type of warp transformation applied.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| PERSPECTIVE | Specifies a perspective warp. |
 | BILINEAR | Specifies a bilinear warp. |
+| PERSPECTIVE | Specifies a perspective warp. |

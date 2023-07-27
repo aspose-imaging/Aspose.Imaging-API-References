@@ -5,7 +5,7 @@ weight: 140
 url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxpage/
 ---
 
-The page of the CMX document.
+**Summary:** The page of the CMX document.
 
 **Module:** [aspose.imaging.fileformats.cmx.objectmodel](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel/)
 
@@ -13,22 +13,22 @@ The page of the CMX document.
 
 **Aspose.Imaging Version:** 23.6
 
-The CmxPage type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [CmxPage()](#CmxPage__0) | Initializes a new instance of the [CmxPage](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxpage/) class. |
+| [CmxPage()](#CmxPage__1) | Initializes a new instance of the [CmxPage](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxpage/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | bound_box | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets the bounding box. |
 | flags | uint | r/w | Gets or sets the flags. |
-| layers | System.Collections.Generic.IList<CmxLayer> | r | Gets the page layers. |
+| height | float | r/w | Gets or sets the page height. |
+| layers | list[CmxPage] | r | Gets the page layers. |
 | page_number | int | r/w | Gets or sets the page order number. |
 | width | float | r/w | Gets or sets the page width. |
-| height | float | r/w | Gets or sets the page height. |
 
-### CmxPage() {#CmxPage__0}
+
+### Constructor: CmxPage() {#CmxPage__1}
 
 
 ```

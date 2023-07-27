@@ -16,9 +16,9 @@ The HatchStyle Enumeration specifies the hatch pattern.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| HORIZONTAL | A horizontal hatch |
-| VERTICAL | A vertical hatch. |
-| FDIAGONAL | A 45-degree downward, left-to-right hatch. |
 | BDIAGONAL | A 45-degree upward, left-to-right hatch. |
 | CROSS | A horizontal and vertical cross-hatch. |
 | DIAGCROSS | The A 45-degree crosshatch. |
+| FDIAGONAL | A 45-degree downward, left-to-right hatch. |
+| HORIZONTAL | A horizontal hatch |
+| VERTICAL | A vertical hatch. |

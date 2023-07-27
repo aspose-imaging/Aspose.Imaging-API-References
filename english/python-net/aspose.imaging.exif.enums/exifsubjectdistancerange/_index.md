@@ -16,7 +16,7 @@ exif subject distance range enum.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| UNKNOWN | Unknown subject distance range |
-| MACRO | Macro range |
 | CLOSE_VIEW | Close view. |
 | DISTANT_VIEW | Distant view. |
+| MACRO | Macro range |
+| UNKNOWN | Unknown subject distance range |

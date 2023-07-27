@@ -5,7 +5,7 @@ weight: 40
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfbitmap16/
 ---
 
-The Bitmap16 Object specifies information about the dimensions and color<br/>                format of a bitmap.
+**Summary:** The Bitmap16 Object specifies information about the dimensions and color<br/>                format of a bitmap.
 
 **Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
@@ -15,23 +15,23 @@ The Bitmap16 Object specifies information about the dimensions and color<br/>   
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfBitmap16 type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfBitmap16()](#WmfBitmap16__0) | Initializes a new instance of the WmfBitmap16 class |
+| [WmfBitmap16()](#WmfBitmap16__1) | Initializes a new instance of the WmfBitmap16 class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
+| bits | byte | r/w | Gets or sets the bits. |
+| bits_pixel | byte | r/w | Gets or sets the bits pixel. |
+| height | short | r/w | Gets or sets the height. |
+| planes | byte | r/w | Gets or sets the planes. |
 | type | short | r/w | Gets or sets the type. |
 | width | short | r/w | Gets or sets the width. |
-| height | short | r/w | Gets or sets the height. |
 | width_bytes | short | r/w | Gets or sets the width bytes. |
-| planes | byte | r/w | Gets or sets the planes. |
-| bits_pixel | byte | r/w | Gets or sets the bits pixel. |
-| bits | byte | r/w | Gets or sets the bits. |
 
-### WmfBitmap16() {#WmfBitmap16__0}
+
+### Constructor: WmfBitmap16() {#WmfBitmap16__1}
 
 
 ```

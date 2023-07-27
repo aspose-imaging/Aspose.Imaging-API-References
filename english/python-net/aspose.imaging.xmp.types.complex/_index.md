@@ -9,9 +9,9 @@ url: /python-net/aspose.imaging.xmp.types.complex/
 The module contains classes that represent the complex type values of XMP properties.
 
 ## **Classes**
-|**Class**|**Description**|
+| **Class** | **Description** |
 | :- | :- |
-|[ComplexTypeBase](/imaging/python-net/aspose.imaging.xmp.types.complex/complextypebase/)|Represents base abstraction for XMP Complex value type.|
+| [ComplexTypeBase](/imaging/python-net/aspose.imaging.xmp.types.complex/complextypebase/) | Represents base abstraction for XMP Complex value type. |
 ## **Enumerations**
-|**Enumeration**|**Description**|
+| **Enumeration** | **Description** |
 | :- | :- |

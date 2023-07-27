@@ -17,7 +17,7 @@ Specifies individual channels in the CMYK (cyan, magenta, yellow, black) color s
 | **Member name** | **Description** |
 | :- | :- |
 | COLOR_CHANNEL_C | The cyan color channel. |
-| COLOR_CHANNEL_M | The magenta color channel. |
-| COLOR_CHANNEL_Y | The yellow color channel. |
 | COLOR_CHANNEL_K | The black color channel. |
 | COLOR_CHANNEL_LAST | The last selected channel should be used. |
+| COLOR_CHANNEL_M | The magenta color channel. |
+| COLOR_CHANNEL_Y | The yellow color channel. |

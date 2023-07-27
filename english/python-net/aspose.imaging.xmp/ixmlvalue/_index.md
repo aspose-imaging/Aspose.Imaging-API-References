@@ -5,7 +5,7 @@ weight: 120
 url: /python-net/aspose.imaging.xmp/ixmlvalue/
 ---
 
-Converts xmp values to the XML string representation.
+**Summary:** Converts xmp values to the XML string representation.
 
 **Module:** [aspose.imaging.xmp](/imaging/python-net/aspose.imaging.xmp/)
 
@@ -13,13 +13,13 @@ Converts xmp values to the XML string representation.
 
 **Aspose.Imaging Version:** 23.6
 
-The IXmlValue type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_xml_value()](#get_xml_value__0) | Converts XMP value to the XML representation. |
+| [get_xml_value()](#get_xml_value__1) | Converts XMP value to the XML representation. |
 
-### get_xml_value() {#get_xml_value__0}
+
+### Method: get_xml_value() {#get_xml_value__1}
 
 
 ```

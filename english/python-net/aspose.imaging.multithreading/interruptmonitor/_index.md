@@ -5,7 +5,7 @@ weight: 20
 url: /python-net/aspose.imaging.multithreading/interruptmonitor/
 ---
 
-Represents information about interruption.
+**Summary:** Represents information about interruption.
 
 **Module:** [aspose.imaging.multithreading](/imaging/python-net/aspose.imaging.multithreading/)
 
@@ -15,22 +15,22 @@ Represents information about interruption.
 
 **Aspose.Imaging Version:** 23.6
 
-The InterruptMonitor type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [InterruptMonitor()](#InterruptMonitor__0) | Initializes a new instance of the [InterruptMonitor](/imaging/python-net/aspose.imaging.multithreading/interruptmonitor/) class. |
+| [InterruptMonitor()](#InterruptMonitor__1) | Initializes a new instance of the [InterruptMonitor](/imaging/python-net/aspose.imaging.multithreading/interruptmonitor/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| thread_local_instance [static] | [IInterruptMonitor](/imaging/python-net/aspose.imaging.multithreading/iinterruptmonitor) | r/w | Gets or sets the IInterruptMonitor instance which is unique for each thread. |
 | is_interrupted | bool | r | Gets the value indicating whether operations should be interrupted. |
+| thread_local_instance [static] | [IInterruptMonitor](/imaging/python-net/aspose.imaging.multithreading/iinterruptmonitor) | r/w | Gets or sets the IInterruptMonitor instance which is unique for each thread. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
 | interrupt() | Sends a request to interrupt operations. |
 
-### InterruptMonitor() {#InterruptMonitor__0}
+
+### Constructor: InterruptMonitor() {#InterruptMonitor__1}
 
 
 ```

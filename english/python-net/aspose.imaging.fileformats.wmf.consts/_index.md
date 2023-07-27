@@ -9,7 +9,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.consts/
 The module contains types [MS-WMF]: Windows Metafile Format 2.1 WMF Constants
 
 ## **Enumerations**
-|**Enumeration**|**Description**|
+| **Enumeration** | **Description** |
 | :- | :- |
 | [StretchMode](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/stretchmode/) | The [StretchMode](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/stretchmode/) Enumeration specifies the bitmap<br/>                stretching mode, which defines how the system combines rows or columns<br/>                of a bitmap with existing pixels. |
 | [WmfBinaryRasterOperation](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfbinaryrasteroperation/) | The BinaryRasterOperation Enumeration section lists the binary raster-operation codes. Raster operation codes<br/>                define how metafile processing combines the bits from the selected pen with the<br/>                bits in the destination bitmap. |

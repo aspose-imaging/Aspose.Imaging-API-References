@@ -16,6 +16,6 @@ exif saturation enum.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| NORMAL | Normal saturation. |
-| LOW | Low saturation. |
 | HIGH | High saturation. |
+| LOW | Low saturation. |
+| NORMAL | Normal saturation. |

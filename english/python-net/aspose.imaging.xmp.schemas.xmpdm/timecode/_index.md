@@ -5,7 +5,7 @@ weight: 60
 url: /python-net/aspose.imaging.xmp.schemas.xmpdm/timecode/
 ---
 
-Represents timecode value in video.
+**Summary:** Represents timecode value in video.
 
 **Module:** [aspose.imaging.xmp.schemas.xmpdm](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/)
 
@@ -15,22 +15,22 @@ Represents timecode value in video.
 
 **Aspose.Imaging Version:** 23.6
 
-The Timecode type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [Timecode(format, time_value)](#Timecode_format_time_value_0) | Initializes a new instance of the [Timecode](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/timecode/) class. |
+| [Timecode(format, time_value)](#Timecode_format_time_value_1) | Initializes a new instance of the [Timecode](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/timecode/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| format | [TimeFormat](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/timeformat) | r/w | Gets or sets the format used in the [time_value](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/timecode/). |
+| format | [TimeFormat](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/timeformat) | r/w | Gets or sets the format used in the [Timecode.time_value](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/timecode/). |
 | time_value | string | r/w | Gets or sets the time value in the specified format. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
 | [get_xmp_representation()](#get_xmp_representation__1) | Returns the string contained value in XMP format. |
 
-### Timecode(format, time_value) {#Timecode_format_time_value_0}
+
+### Constructor: Timecode(format, time_value) {#Timecode_format_time_value_1}
 
 
 ```
@@ -46,7 +46,7 @@ Initializes a new instance of the [Timecode](/imaging/python-net/aspose.imaging.
 | format | [TimeFormat](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/timeformat) | The time format. |
 | time_value | string | The time value. |
 
-### get_xmp_representation() {#get_xmp_representation__1}
+### Method: get_xmp_representation() {#get_xmp_representation__1}
 
 
 ```

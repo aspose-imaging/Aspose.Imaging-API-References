@@ -5,7 +5,7 @@ weight: 160
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfcreateregion/
 ---
 
-The META_CREATEREGION record creates a Region Object (section 2.2.1.5).
+**Summary:** The META_CREATEREGION record creates a Region Object (section 2.2.1.5).
 
 **Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
@@ -15,18 +15,18 @@ The META_CREATEREGION record creates a Region Object (section 2.2.1.5).
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfCreateRegion type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfCreateRegion()](#WmfCreateRegion__0) | WMFs the record. |
+| [WmfCreateRegion()](#WmfCreateRegion__1) | WMFs the record. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | index | int | r/w | Gets or sets the index. |
 | region | [WmfRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfregion) | r/w | Gets or sets the region. |
 
-### WmfCreateRegion() {#WmfCreateRegion__0}
+
+### Constructor: WmfCreateRegion() {#WmfCreateRegion__1}
 
 
 ```

@@ -5,7 +5,7 @@ weight: 10
 url: /python-net/aspose.imaging.xmp.types.complex.thumbnail/thumbnail/
 ---
 
-Represents thumbnail image for a file.
+**Summary:** Represents thumbnail image for a file.
 
 **Module:** [aspose.imaging.xmp.types.complex.thumbnail](/imaging/python-net/aspose.imaging.xmp.types.complex.thumbnail/)
 
@@ -15,26 +15,26 @@ Represents thumbnail image for a file.
 
 **Aspose.Imaging Version:** 23.6
 
-The Thumbnail type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [Thumbnail()](#Thumbnail__0) | Initializes a new instance of the [Thumbnail](/imaging/python-net/aspose.imaging.xmp.types.complex.thumbnail/thumbnail/) class. |
-| [Thumbnail(width, height)](#Thumbnail_width_height_1) | Initializes a new instance of the [Thumbnail](/imaging/python-net/aspose.imaging.xmp.types.complex.thumbnail/thumbnail/) class. |
+| [Thumbnail()](#Thumbnail__1) | Initializes a new instance of the [Thumbnail](/imaging/python-net/aspose.imaging.xmp.types.complex.thumbnail/thumbnail/) class. |
+| [Thumbnail(width, height)](#Thumbnail_width_height_2) | Initializes a new instance of the [Thumbnail](/imaging/python-net/aspose.imaging.xmp.types.complex.thumbnail/thumbnail/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| prefix | string | r | Gets the prefix. |
-| namespace_uri | string | r | Gets the default namespace URI. |
-| width | int | r/w | Gets or sets the width. |
 | height | int | r/w | Gets or sets the height. |
 | image_base64 | string | r/w | Gets or sets the image in base64 format. |
+| namespace_uri | string | r | Gets the default namespace URI. |
+| prefix | string | r | Gets the prefix. |
+| width | int | r/w | Gets or sets the width. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_xmp_representation()](#get_xmp_representation__2) | Gets the string contained value in XMP format. |
+| [get_xmp_representation()](#get_xmp_representation__1) | Gets the string contained value in XMP format. |
 
-### Thumbnail() {#Thumbnail__0}
+
+### Constructor: Thumbnail() {#Thumbnail__1}
 
 
 ```
@@ -43,7 +43,7 @@ The Thumbnail type exposes the following members:
 
 Initializes a new instance of the [Thumbnail](/imaging/python-net/aspose.imaging.xmp.types.complex.thumbnail/thumbnail/) class.
 
-### Thumbnail(width, height) {#Thumbnail_width_height_1}
+### Constructor: Thumbnail(width, height) {#Thumbnail_width_height_2}
 
 
 ```
@@ -59,7 +59,7 @@ Initializes a new instance of the [Thumbnail](/imaging/python-net/aspose.imaging
 | width | int | The width. |
 | height | int | The height. |
 
-### get_xmp_representation() {#get_xmp_representation__2}
+### Method: get_xmp_representation() {#get_xmp_representation__1}
 
 
 ```

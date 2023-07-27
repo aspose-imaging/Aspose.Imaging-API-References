@@ -5,7 +5,7 @@ weight: 10
 url: /python-net/aspose.imaging.palettehelper/adjustpalette/
 ---
 
-Color palette adjustment class
+**Summary:** Color palette adjustment class
 
 **Module:** [aspose.imaging.palettehelper](/imaging/python-net/aspose.imaging.palettehelper/)
 
@@ -13,17 +13,17 @@ Color palette adjustment class
 
 **Aspose.Imaging Version:** 23.6
 
-The AdjustPalette type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [AdjustPalette()](#AdjustPalette__0) | Initializes a new instance of the AdjustPalette class |
+| [AdjustPalette()](#AdjustPalette__1) | Initializes a new instance of the AdjustPalette class |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
 | [get_close_image_palette(image, entries_count, color_quantization_method, color_compare_method)](#get_close_image_palette_image_entries_count_color_quantization_method_color_compare_method_1) | Gets the close image palette. |
 
-### AdjustPalette() {#AdjustPalette__0}
+
+### Constructor: AdjustPalette() {#AdjustPalette__1}
 
 
 ```
@@ -32,7 +32,7 @@ The AdjustPalette type exposes the following members:
 
 Initializes a new instance of the AdjustPalette class
 
-### get_close_image_palette(image, entries_count, color_quantization_method, color_compare_method)  [static] {#get_close_image_palette_image_entries_count_color_quantization_method_color_compare_method_1}
+### Method: get_close_image_palette(image, entries_count, color_quantization_method, color_compare_method)  [static] {#get_close_image_palette_image_entries_count_color_quantization_method_color_compare_method_1}
 
 
 ```

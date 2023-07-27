@@ -5,7 +5,7 @@ weight: 10
 url: /python-net/aspose.imaging.sources/filecreatesource/
 ---
 
-Represents a file source for creation.
+**Summary:** Represents a file source for creation.
 
 **Module:** [aspose.imaging.sources](/imaging/python-net/aspose.imaging.sources/)
 
@@ -15,23 +15,23 @@ Represents a file source for creation.
 
 **Aspose.Imaging Version:** 23.6
 
-The FileCreateSource type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [FileCreateSource(file_path)](#FileCreateSource_file_path_0) | Initializes a new instance of the [FileCreateSource](/imaging/python-net/aspose.imaging.sources/filecreatesource/) class. |
-| [FileCreateSource(file_path, is_temporal)](#FileCreateSource_file_path_is_temporal_1) | Initializes a new instance of the [FileCreateSource](/imaging/python-net/aspose.imaging.sources/filecreatesource/) class. |
+| [FileCreateSource(file_path)](#FileCreateSource_file_path_1) | Initializes a new instance of the [FileCreateSource](/imaging/python-net/aspose.imaging.sources/filecreatesource/) class. |
+| [FileCreateSource(file_path, is_temporal)](#FileCreateSource_file_path_is_temporal_2) | Initializes a new instance of the [FileCreateSource](/imaging/python-net/aspose.imaging.sources/filecreatesource/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| is_temporal | bool | r | Gets a value indicating whether file will be temporal. |
 | file_path | string | r | Gets the file path to create. |
+| is_temporal | bool | r | Gets a value indicating whether file will be temporal. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_stream_container()](#get_stream_container__2) | Gets the stream container. |
+| [get_stream_container()](#get_stream_container__1) | Gets the stream container. |
 
-### FileCreateSource(file_path) {#FileCreateSource_file_path_0}
+
+### Constructor: FileCreateSource(file_path) {#FileCreateSource_file_path_1}
 
 
 ```
@@ -46,7 +46,7 @@ Initializes a new instance of the [FileCreateSource](/imaging/python-net/aspose.
 | :- | :- | :- |
 | file_path | string | The file path to create. |
 
-### FileCreateSource(file_path, is_temporal) {#FileCreateSource_file_path_is_temporal_1}
+### Constructor: FileCreateSource(file_path, is_temporal) {#FileCreateSource_file_path_is_temporal_2}
 
 
 ```
@@ -62,7 +62,7 @@ Initializes a new instance of the [FileCreateSource](/imaging/python-net/aspose.
 | file_path | string | The file path to create. |
 | is_temporal | bool | If set to <c>true</c> the created file will be temporal. |
 
-### get_stream_container() {#get_stream_container__2}
+### Method: get_stream_container() {#get_stream_container__1}
 
 
 ```

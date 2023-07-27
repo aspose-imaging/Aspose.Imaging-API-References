@@ -17,6 +17,6 @@ The emf render mode
 | **Member name** | **Description** |
 | :- | :- |
 | AUTO | The automatic mode |
+| DUAL | The dual mode, rendering emf records and emf plus records |
 | EMF_ONLY | The EMF only mode, rendering only emf records |
 | EMF_PLUS_ONLY | The EMF plus only mode, rendering only emf plus records |
-| DUAL | The dual mode, rendering emf records and emf plus records |

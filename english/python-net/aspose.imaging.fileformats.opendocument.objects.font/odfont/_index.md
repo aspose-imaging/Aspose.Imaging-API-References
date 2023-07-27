@@ -5,7 +5,7 @@ weight: 10
 url: /python-net/aspose.imaging.fileformats.opendocument.objects.font/odfont/
 ---
 
-The open document font
+**Summary:** The open document font
 
 **Module:** [aspose.imaging.fileformats.opendocument.objects.font](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.font/)
 
@@ -13,21 +13,21 @@ The open document font
 
 **Aspose.Imaging Version:** 23.6
 
-The OdFont type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [OdFont()](#OdFont__0) | Initializes a new instance of the OdFont class |
+| [OdFont()](#OdFont__1) | Initializes a new instance of the OdFont class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
+| bold | bool | r/w | Gets or sets a value indicating whether this [OdFont](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.font/odfont/) is weight. |
 | facename | string | r/w | Gets or sets the facename. |
 | height | int | r/w | Gets or sets the height. |
-| bold | bool | r/w | Gets or sets a value indicating whether this [OdFont](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.font/odfont/) is weight. |
 | italic | bool | r/w | Gets or sets a value indicating whether this [OdFont](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.font/odfont/) is italic. |
 | strikeout | bool | r/w | Gets or sets a value indicating whether this [OdFont](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.font/odfont/) is strikeout. |
 
-### OdFont() {#OdFont__0}
+
+### Constructor: OdFont() {#OdFont__1}
 
 
 ```

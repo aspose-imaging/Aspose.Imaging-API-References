@@ -5,7 +5,7 @@ weight: 140
 url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/
 ---
 
-The open document graphic object.
+**Summary:** The open document graphic object.
 
 **Module:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
@@ -15,19 +15,19 @@ The open document graphic object.
 
 **Aspose.Imaging Version:** 23.6
 
-The OdGraphicObject type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [OdGraphicObject(parent)](#OdGraphicObject_parent_0) | Initializes a new instance of the [OdGraphicObject](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/) class. |
+| [OdGraphicObject(parent)](#OdGraphicObject_parent_1) | Initializes a new instance of the [OdGraphicObject](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
-| items | System.Collections.Generic.List<OdObject> | r | Gets the items. |
 | absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
+| items | list[OdObject] | r | Gets the items. |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
 
-### OdGraphicObject(parent) {#OdGraphicObject_parent_0}
+
+### Constructor: OdGraphicObject(parent) {#OdGraphicObject_parent_1}
 
 
 ```

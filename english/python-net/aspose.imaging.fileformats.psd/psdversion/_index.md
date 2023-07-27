@@ -16,5 +16,5 @@ File format version
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| PSD | The default PSD version. |
 | PSB | The PSB version. |
+| PSD | The default PSD version. |

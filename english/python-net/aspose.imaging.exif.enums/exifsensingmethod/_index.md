@@ -16,10 +16,10 @@ exif sensing method enum.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
+| COLORSEQUENTIALAREA | Color Sequential area. |
+| COLORSEQUENTIALLINEAR | Color sequential linear sensor. |
 | NOTDEFINED | Not defined. |
 | ONE_CHIP_COLOR_AREA | One chip color area. |
-| TWO_CHIP_COLOR_AREA | Two chip color area. |
 | THREE_CHIP_COLOR_AREA | Three chip color area. |
-| COLORSEQUENTIALAREA | Color Sequential area. |
 | TRILINEARSENSOR | Trilinear sensor. |
-| COLORSEQUENTIALLINEAR | Color sequential linear sensor. |
+| TWO_CHIP_COLOR_AREA | Two chip color area. |

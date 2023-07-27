@@ -5,7 +5,7 @@ weight: 6960
 url: /python-net/aspose.imaging/region/
 ---
 
-Describes the interior of a graphics shape composed of rectangles and paths. This class cannot be inherited.
+**Summary:** Describes the interior of a graphics shape composed of rectangles and paths. This class cannot be inherited.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -13,101 +13,101 @@ Describes the interior of a graphics shape composed of rectangles and paths. Thi
 
 **Aspose.Imaging Version:** 23.6
 
-The Region type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [Region()](#Region__0) | Initializes a new [Region](/imaging/python-net/aspose.imaging/region/). |
-| [Region(rect)](#Region_rect_1) | Initializes a new instance of the Region class |
-| [Region(rect)](#Region_rect_2) | Initializes a new instance of the Region class |
-| [Region(path)](#Region_path_3) | Initializes a new instance of the Region class |
+| [Region()](#Region__1) | Initializes a new [Region](/imaging/python-net/aspose.imaging/region/). |
+| [Region(path)](#Region_path_2) | Initializes a new instance of the Region class |
+| [Region(rect)](#Region_rect_3) | Initializes a new instance of the Region class |
+| [Region(rect)](#Region_rect_4) | Initializes a new instance of the Region class |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [intersect(rect)](#intersect_rect_4) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [intersect(rect)](#intersect_rect_5) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [intersect(path)](#intersect_path_6) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/). |
-| [intersect(region)](#intersect_region_7) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [Region](/imaging/python-net/aspose.imaging/region/). |
-| [union(rect)](#union_rect_8) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [union(rect)](#union_rect_9) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [union(path)](#union_path_10) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/). |
-| [union(region)](#union_region_11) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [Region](/imaging/python-net/aspose.imaging/region/). |
-| [xor(rect)](#xor_rect_12) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [xor(rect)](#xor_rect_13) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [xor(path)](#xor_path_14) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/). |
-| [xor(region)](#xor_region_15) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [Region](/imaging/python-net/aspose.imaging/region/). |
-| [exclude(rect)](#exclude_rect_16) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [exclude(rect)](#exclude_rect_17) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [exclude(path)](#exclude_path_18) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/). |
-| [exclude(region)](#exclude_region_19) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [Region](/imaging/python-net/aspose.imaging/region/). |
-| [complement(rect)](#complement_rect_20) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
-| [complement(rect)](#complement_rect_21) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
-| [complement(path)](#complement_path_22) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
-| [complement(region)](#complement_region_23) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [Region](/imaging/python-net/aspose.imaging/region/) that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
-| [translate(dx, dy)](#translate_dx_dy_24) | Offsets the coordinates of this [Region](/imaging/python-net/aspose.imaging/region/) by the specified amount. |
-| [translate(dx, dy)](#translate_dx_dy_25) | Offsets the coordinates of this [Region](/imaging/python-net/aspose.imaging/region/) by the specified amount. |
-| [is_visible(x, y)](#is_visible_x_y_26) | Tests whether the specified point is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
-| [is_visible(point)](#is_visible_point_27) | Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
-| [is_visible(x, y, g)](#is_visible_x_y_g_28) | Tests whether the specified point is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
-| [is_visible(point, g)](#is_visible_point_g_29) | Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
-| [is_visible(x, y, width, height)](#is_visible_x_y_width_height_30) | Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
-| [is_visible(rect)](#is_visible_rect_31) | Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
-| [is_visible(x, y, width, height, g)](#is_visible_x_y_width_height_g_32) | Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
-| [is_visible(rect, g)](#is_visible_rect_g_33) | Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
-| [is_visible(x, y, g)](#is_visible_x_y_g_34) | Tests whether the specified point is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
-| [is_visible(point)](#is_visible_point_35) | Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
-| [is_visible(point, g)](#is_visible_point_g_36) | Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
-| [is_visible(x, y, width, height)](#is_visible_x_y_width_height_37) | Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
-| [is_visible(rect)](#is_visible_rect_38) | Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
-| [is_visible(x, y, width, height, g)](#is_visible_x_y_width_height_g_39) | Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
-| [is_visible(rect, g)](#is_visible_rect_g_40) | Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
-| [create_with_rect_f(rect)](#create_with_rect_f_rect_41) | Initializes a new [Region](/imaging/python-net/aspose.imaging/region/) from the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [create_with_rect(rect)](#create_with_rect_rect_42) | Initializes a new [Region](/imaging/python-net/aspose.imaging/region/) from the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [create_with_path(path)](#create_with_path_path_43) | Initializes a new [Region](/imaging/python-net/aspose.imaging/region/) with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/). |
-| [deep_clone()](#deep_clone__44) | Creates an exact deep copy of this [Region](/imaging/python-net/aspose.imaging/region/). |
-| make_infinite() | Initializes this [Region](/imaging/python-net/aspose.imaging/region/) object to an infinite interior. |
+| [complement(path)](#complement_path_1) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
+| [complement(rect)](#complement_rect_2) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
+| [complement(rect)](#complement_rect_3) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
+| [complement(region)](#complement_region_4) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [Region](/imaging/python-net/aspose.imaging/region/) that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
+| [complement_path(path)](#complement_path_path_5) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
+| [complement_rect(rect)](#complement_rect_rect_6) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
+| [complement_rect_f(rect)](#complement_rect_f_rect_7) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
+| [complement_rgn(region)](#complement_rgn_region_8) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [Region](/imaging/python-net/aspose.imaging/region/) that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
+| [create_with_path(path)](#create_with_path_path_9) | Initializes a new [Region](/imaging/python-net/aspose.imaging/region/) with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/). |
+| [create_with_rect(rect)](#create_with_rect_rect_10) | Initializes a new [Region](/imaging/python-net/aspose.imaging/region/) from the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [create_with_rect_f(rect)](#create_with_rect_f_rect_11) | Initializes a new [Region](/imaging/python-net/aspose.imaging/region/) from the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [deep_clone()](#deep_clone__12) | Creates an exact deep copy of this [Region](/imaging/python-net/aspose.imaging/region/). |
+| [exclude(path)](#exclude_path_13) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/). |
+| [exclude(rect)](#exclude_rect_14) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [exclude(rect)](#exclude_rect_15) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [exclude(region)](#exclude_region_16) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [Region](/imaging/python-net/aspose.imaging/region/). |
+| [exclude_path(path)](#exclude_path_path_17) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/). |
+| [exclude_rect(rect)](#exclude_rect_rect_18) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [exclude_rect_f(rect)](#exclude_rect_f_rect_19) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [exclude_rgn(region)](#exclude_rgn_region_20) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [Region](/imaging/python-net/aspose.imaging/region/). |
+| [intersect(path)](#intersect_path_21) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/). |
+| [intersect(rect)](#intersect_rect_22) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [intersect(rect)](#intersect_rect_23) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [intersect(region)](#intersect_region_24) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [Region](/imaging/python-net/aspose.imaging/region/). |
+| [intersect_path(path)](#intersect_path_path_25) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/). |
+| [intersect_rect(rect)](#intersect_rect_rect_26) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [intersect_rect_f(rect)](#intersect_rect_f_rect_27) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [intersect_rgn(region)](#intersect_rgn_region_28) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [Region](/imaging/python-net/aspose.imaging/region/). |
+| [is_empty(g)](#is_empty_g_29) | Tests whether this [Region](/imaging/python-net/aspose.imaging/region/) has an empty interior on the specified drawing surface. |
+| [is_infinite(g)](#is_infinite_g_30) | Tests whether this [Region](/imaging/python-net/aspose.imaging/region/) has an infinite interior on the specified drawing surface. |
+| [is_visible(point)](#is_visible_point_31) | Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
+| [is_visible(point)](#is_visible_point_32) | Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
+| [is_visible(point, g)](#is_visible_point_g_33) | Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
+| [is_visible(point, g)](#is_visible_point_g_34) | Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
+| [is_visible(rect)](#is_visible_rect_35) | Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
+| [is_visible(rect)](#is_visible_rect_36) | Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
+| [is_visible(rect, g)](#is_visible_rect_g_37) | Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
+| [is_visible(rect, g)](#is_visible_rect_g_38) | Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
+| [is_visible(x, y)](#is_visible_x_y_39) | Tests whether the specified point is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
+| [is_visible(x, y, g)](#is_visible_x_y_g_40) | Tests whether the specified point is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
+| [is_visible(x, y, g)](#is_visible_x_y_g_41) | Tests whether the specified point is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
+| [is_visible(x, y, width, height)](#is_visible_x_y_width_height_42) | Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
+| [is_visible(x, y, width, height)](#is_visible_x_y_width_height_43) | Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
+| [is_visible(x, y, width, height, g)](#is_visible_x_y_width_height_g_44) | Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
+| [is_visible(x, y, width, height, g)](#is_visible_x_y_width_height_g_45) | Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
+| [is_visible_f(x, y)](#is_visible_f_x_y_46) | Tests whether the specified point is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
+| [is_visible_point(point)](#is_visible_point_point_47) | Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
+| [is_visible_point_f(point)](#is_visible_point_f_point_48) | Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
+| [is_visible_point_f_with_graphics(point, g)](#is_visible_point_f_with_graphics_point_g_49) | Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
+| [is_visible_point_with_graphics(point, g)](#is_visible_point_with_graphics_point_g_50) | Tests whether the specified [Point](/imaging/python-net/aspose.imaging/point/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
+| [is_visible_rect(rect)](#is_visible_rect_rect_51) | Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
+| [is_visible_rect_f(rect)](#is_visible_rect_f_rect_52) | Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
+| [is_visible_rect_f_with_graphics(rect, g)](#is_visible_rect_f_with_graphics_rect_g_53) | Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
+| [is_visible_rect_with_graphics(rect, g)](#is_visible_rect_with_graphics_rect_g_54) | Tests whether any portion of the specified [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
+| [is_visible_with_graphics(x, y, g)](#is_visible_with_graphics_x_y_g_55) | Tests whether the specified point is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
+| [is_visible_with_graphics_f(x, y, g)](#is_visible_with_graphics_f_x_y_g_56) | Tests whether the specified point is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
+| [is_visible_xywh(x, y, width, height)](#is_visible_xywh_x_y_width_height_57) | Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
+| [is_visible_xywh_graphics(x, y, width, height, g)](#is_visible_xywh_graphics_x_y_width_height_g_58) | Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
+| [is_visible_xywh_graphics_f(x, y, width, height, g)](#is_visible_xywh_graphics_f_x_y_width_height_g_59) | Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
+| [is_visible_xywhf(x, y, width, height)](#is_visible_xywhf_x_y_width_height_60) | Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
 | make_empty() | Initializes this [Region](/imaging/python-net/aspose.imaging/region/) to an empty interior. |
-| [intersect_rect_f(rect)](#intersect_rect_f_rect_45) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [intersect_rect(rect)](#intersect_rect_rect_46) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [intersect_path(path)](#intersect_path_path_47) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/). |
-| [intersect_rgn(region)](#intersect_rgn_region_48) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [Region](/imaging/python-net/aspose.imaging/region/). |
-| [union_rect_f(rect)](#union_rect_f_rect_49) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [union_rect(rect)](#union_rect_rect_50) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [union_path(path)](#union_path_path_51) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/). |
-| [union_rgn(region)](#union_rgn_region_52) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [Region](/imaging/python-net/aspose.imaging/region/). |
-| [xor_rect_f(rect)](#xor_rect_f_rect_53) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [xor_rect(rect)](#xor_rect_rect_54) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [xor_path(path)](#xor_path_path_55) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/). |
-| [xor_rgn(region)](#xor_rgn_region_56) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [Region](/imaging/python-net/aspose.imaging/region/). |
-| [exclude_rect_f(rect)](#exclude_rect_f_rect_57) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [exclude_rect(rect)](#exclude_rect_rect_58) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
-| [exclude_path(path)](#exclude_path_path_59) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/). |
-| [exclude_rgn(region)](#exclude_rgn_region_60) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [Region](/imaging/python-net/aspose.imaging/region/). |
-| [complement_rect_f(rect)](#complement_rect_f_rect_61) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
-| [complement_rect(rect)](#complement_rect_rect_62) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
-| [complement_path(path)](#complement_path_path_63) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
-| [complement_rgn(region)](#complement_rgn_region_64) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [Region](/imaging/python-net/aspose.imaging/region/) that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
-| [translate_f(dx, dy)](#translate_f_dx_dy_65) | Offsets the coordinates of this [Region](/imaging/python-net/aspose.imaging/region/) by the specified amount. |
-| [transform(matrix)](#transform_matrix_66) | Transforms this [Region](/imaging/python-net/aspose.imaging/region/) by the specified [Matrix](/imaging/python-net/aspose.imaging/matrix/). |
-| [is_empty(g)](#is_empty_g_67) | Tests whether this [Region](/imaging/python-net/aspose.imaging/region/) has an empty interior on the specified drawing surface. |
-| [is_infinite(g)](#is_infinite_g_68) | Tests whether this [Region](/imaging/python-net/aspose.imaging/region/) has an infinite interior on the specified drawing surface. |
-| [is_visible_f(x, y)](#is_visible_f_x_y_69) | Tests whether the specified point is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
-| [is_visible_point_f(point)](#is_visible_point_f_point_70) | Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
-| [is_visible_with_graphics_f(x, y, g)](#is_visible_with_graphics_f_x_y_g_71) | Tests whether the specified point is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
-| [is_visible_point_f_with_graphics(point, g)](#is_visible_point_f_with_graphics_point_g_72) | Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
-| [is_visible_xywhf(x, y, width, height)](#is_visible_xywhf_x_y_width_height_73) | Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
-| [is_visible_rect_f(rect)](#is_visible_rect_f_rect_74) | Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
-| [is_visible_xywh_graphics_f(x, y, width, height, g)](#is_visible_xywh_graphics_f_x_y_width_height_g_75) | Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
-| [is_visible_rect_f_with_graphics(rect, g)](#is_visible_rect_f_with_graphics_rect_g_76) | Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
-| [is_visible_with_graphics(x, y, g)](#is_visible_with_graphics_x_y_g_77) | Tests whether the specified point is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
-| [is_visible_point(point)](#is_visible_point_point_78) | Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
-| [is_visible_point_with_graphics(point, g)](#is_visible_point_with_graphics_point_g_79) | Tests whether the specified [Point](/imaging/python-net/aspose.imaging/point/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
-| [is_visible_xywh(x, y, width, height)](#is_visible_xywh_x_y_width_height_80) | Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
-| [is_visible_rect(rect)](#is_visible_rect_rect_81) | Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/). |
-| [is_visible_xywh_graphics(x, y, width, height, g)](#is_visible_xywh_graphics_x_y_width_height_g_82) | Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
-| [is_visible_rect_with_graphics(rect, g)](#is_visible_rect_with_graphics_rect_g_83) | Tests whether any portion of the specified [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/). |
+| make_infinite() | Initializes this [Region](/imaging/python-net/aspose.imaging/region/) object to an infinite interior. |
+| [transform(matrix)](#transform_matrix_61) | Transforms this [Region](/imaging/python-net/aspose.imaging/region/) by the specified [Matrix](/imaging/python-net/aspose.imaging/matrix/). |
+| [translate(dx, dy)](#translate_dx_dy_62) | Offsets the coordinates of this [Region](/imaging/python-net/aspose.imaging/region/) by the specified amount. |
+| [translate(dx, dy)](#translate_dx_dy_63) | Offsets the coordinates of this [Region](/imaging/python-net/aspose.imaging/region/) by the specified amount. |
+| [translate_f(dx, dy)](#translate_f_dx_dy_64) | Offsets the coordinates of this [Region](/imaging/python-net/aspose.imaging/region/) by the specified amount. |
+| [union(path)](#union_path_65) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/). |
+| [union(rect)](#union_rect_66) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [union(rect)](#union_rect_67) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [union(region)](#union_region_68) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [Region](/imaging/python-net/aspose.imaging/region/). |
+| [union_path(path)](#union_path_path_69) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/). |
+| [union_rect(rect)](#union_rect_rect_70) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [union_rect_f(rect)](#union_rect_f_rect_71) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [union_rgn(region)](#union_rgn_region_72) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [Region](/imaging/python-net/aspose.imaging/region/). |
+| [xor(path)](#xor_path_73) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/). |
+| [xor(rect)](#xor_rect_74) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [xor(rect)](#xor_rect_75) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [xor(region)](#xor_region_76) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [Region](/imaging/python-net/aspose.imaging/region/). |
+| [xor_path(path)](#xor_path_path_77) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/). |
+| [xor_rect(rect)](#xor_rect_rect_78) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [xor_rect_f(rect)](#xor_rect_f_rect_79) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
+| [xor_rgn(region)](#xor_rgn_region_80) | Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [Region](/imaging/python-net/aspose.imaging/region/). |
 
-### Region() {#Region__0}
+
+### Constructor: Region() {#Region__1}
 
 
 ```
@@ -116,37 +116,7 @@ The Region type exposes the following members:
 
 Initializes a new [Region](/imaging/python-net/aspose.imaging/region/).
 
-### Region(rect) {#Region_rect_1}
-
-
-```
- Region(rect) 
-```
-
-Initializes a new instance of the Region class
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) |  |
-
-### Region(rect) {#Region_rect_2}
-
-
-```
- Region(rect) 
-```
-
-Initializes a new instance of the Region class
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) |  |
-
-### Region(path) {#Region_path_3}
+### Constructor: Region(path) {#Region_path_2}
 
 
 ```
@@ -161,277 +131,37 @@ Initializes a new instance of the Region class
 | :- | :- | :- |
 | path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) |  |
 
-### intersect(rect) {#intersect_rect_4}
+### Constructor: Region(rect) {#Region_rect_3}
 
 
 ```
- intersect(rect) 
+ Region(rect) 
 ```
 
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
+Initializes a new instance of the Region class
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) |  |
 
-### intersect(rect) {#intersect_rect_5}
+### Constructor: Region(rect) {#Region_rect_4}
 
 
 ```
- intersect(rect) 
+ Region(rect) 
 ```
 
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
+Initializes a new instance of the Region class
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) |  |
 
-### intersect(path) {#intersect_path_6}
-
-
-```
- intersect(path) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### intersect(region) {#intersect_region_7}
-
-
-```
- intersect(region) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [Region](/imaging/python-net/aspose.imaging/region/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| region | [Region](/imaging/python-net/aspose.imaging/region) | The [Region](/imaging/python-net/aspose.imaging/region/) to intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### union(rect) {#union_rect_8}
-
-
-```
- union(rect) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to unite with this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### union(rect) {#union_rect_9}
-
-
-```
- union(rect) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to unite with this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### union(path) {#union_path_10}
-
-
-```
- union(path) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to unite with this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### union(region) {#union_region_11}
-
-
-```
- union(region) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [Region](/imaging/python-net/aspose.imaging/region/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| region | [Region](/imaging/python-net/aspose.imaging/region) | The [Region](/imaging/python-net/aspose.imaging/region/) to unite with this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### xor(rect) {#xor_rect_12}
-
-
-```
- xor(rect) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to xor with this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### xor(rect) {#xor_rect_13}
-
-
-```
- xor(rect) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to xor with this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### xor(path) {#xor_path_14}
-
-
-```
- xor(path) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to xor with this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### xor(region) {#xor_region_15}
-
-
-```
- xor(region) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [Region](/imaging/python-net/aspose.imaging/region/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| region | [Region](/imaging/python-net/aspose.imaging/region) | The [Region](/imaging/python-net/aspose.imaging/region/) to xor with this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### exclude(rect) {#exclude_rect_16}
-
-
-```
- exclude(rect) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to exclude from this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### exclude(rect) {#exclude_rect_17}
-
-
-```
- exclude(rect) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to exclude from this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### exclude(path) {#exclude_path_18}
-
-
-```
- exclude(path) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to exclude from this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### exclude(region) {#exclude_region_19}
-
-
-```
- exclude(region) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [Region](/imaging/python-net/aspose.imaging/region/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| region | [Region](/imaging/python-net/aspose.imaging/region) | The [Region](/imaging/python-net/aspose.imaging/region/) to exclude from this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### complement(rect) {#complement_rect_20}
-
-
-```
- complement(rect) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to complement this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### complement(rect) {#complement_rect_21}
-
-
-```
- complement(rect) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to complement this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### complement(path) {#complement_path_22}
+### Method: complement(path) {#complement_path_1}
 
 
 ```
@@ -446,7 +176,37 @@ Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the
 | :- | :- | :- |
 | path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to complement this [Region](/imaging/python-net/aspose.imaging/region/). |
 
-### complement(region) {#complement_region_23}
+### Method: complement(rect) {#complement_rect_2}
+
+
+```
+ complement(rect) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to complement this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: complement(rect) {#complement_rect_3}
+
+
+```
+ complement(rect) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to complement this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: complement(region) {#complement_region_4}
 
 
 ```
@@ -461,39 +221,613 @@ Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the
 | :- | :- | :- |
 | region | [Region](/imaging/python-net/aspose.imaging/region) | The [Region](/imaging/python-net/aspose.imaging/region/) object to complement this [Region](/imaging/python-net/aspose.imaging/region/) object. |
 
-### translate(dx, dy) {#translate_dx_dy_24}
+### Method: complement_path(path) {#complement_path_path_5}
 
 
 ```
- translate(dx, dy) 
+ complement_path(path) 
 ```
 
-Offsets the coordinates of this [Region](/imaging/python-net/aspose.imaging/region/) by the specified amount.
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/).
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| dx | float | The amount to offset this [Region](/imaging/python-net/aspose.imaging/region/) horizontally. |
-| dy | float | The amount to offset this [Region](/imaging/python-net/aspose.imaging/region/) vertically. |
+| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to complement this [Region](/imaging/python-net/aspose.imaging/region/). |
 
-### translate(dx, dy) {#translate_dx_dy_25}
+### Method: complement_rect(rect) {#complement_rect_rect_6}
 
 
 ```
- translate(dx, dy) 
+ complement_rect(rect) 
 ```
 
-Offsets the coordinates of this [Region](/imaging/python-net/aspose.imaging/region/) by the specified amount.
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/).
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| dx | int | The amount to offset this [Region](/imaging/python-net/aspose.imaging/region/) horizontally. |
-| dy | int | The amount to offset this [Region](/imaging/python-net/aspose.imaging/region/) vertically. |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to complement this [Region](/imaging/python-net/aspose.imaging/region/). |
 
-### is_visible(x, y) {#is_visible_x_y_26}
+### Method: complement_rect_f(rect) {#complement_rect_f_rect_7}
+
+
+```
+ complement_rect_f(rect) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to complement this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: complement_rgn(region) {#complement_rgn_region_8}
+
+
+```
+ complement_rgn(region) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [Region](/imaging/python-net/aspose.imaging/region/) that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| region | [Region](/imaging/python-net/aspose.imaging/region) | The [Region](/imaging/python-net/aspose.imaging/region/) object to complement this [Region](/imaging/python-net/aspose.imaging/region/) object. |
+
+### Method: create_with_path(path)  [static] {#create_with_path_path_9}
+
+
+```
+ create_with_path(path) 
+```
+
+Initializes a new [Region](/imaging/python-net/aspose.imaging/region/) with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | A [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) that defines the new [Region](/imaging/python-net/aspose.imaging/region/). |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [Region](/imaging/python-net/aspose.imaging/region) |  |
+
+
+### Method: create_with_rect(rect)  [static] {#create_with_rect_rect_10}
+
+
+```
+ create_with_rect(rect) 
+```
+
+Initializes a new [Region](/imaging/python-net/aspose.imaging/region/) from the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that defines the interior of the new [Region](/imaging/python-net/aspose.imaging/region/). |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [Region](/imaging/python-net/aspose.imaging/region) |  |
+
+
+### Method: create_with_rect_f(rect)  [static] {#create_with_rect_f_rect_11}
+
+
+```
+ create_with_rect_f(rect) 
+```
+
+Initializes a new [Region](/imaging/python-net/aspose.imaging/region/) from the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that defines the interior of the new [Region](/imaging/python-net/aspose.imaging/region/). |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [Region](/imaging/python-net/aspose.imaging/region) |  |
+
+
+### Method: deep_clone() {#deep_clone__12}
+
+
+```
+ deep_clone() 
+```
+
+Creates an exact deep copy of this [Region](/imaging/python-net/aspose.imaging/region/).
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [Region](/imaging/python-net/aspose.imaging/region) | The [Region](/imaging/python-net/aspose.imaging/region/) that this method creates. |
+
+
+### Method: exclude(path) {#exclude_path_13}
+
+
+```
+ exclude(path) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to exclude from this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: exclude(rect) {#exclude_rect_14}
+
+
+```
+ exclude(rect) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to exclude from this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: exclude(rect) {#exclude_rect_15}
+
+
+```
+ exclude(rect) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to exclude from this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: exclude(region) {#exclude_region_16}
+
+
+```
+ exclude(region) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [Region](/imaging/python-net/aspose.imaging/region/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| region | [Region](/imaging/python-net/aspose.imaging/region) | The [Region](/imaging/python-net/aspose.imaging/region/) to exclude from this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: exclude_path(path) {#exclude_path_path_17}
+
+
+```
+ exclude_path(path) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to exclude from this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: exclude_rect(rect) {#exclude_rect_rect_18}
+
+
+```
+ exclude_rect(rect) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to exclude from this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: exclude_rect_f(rect) {#exclude_rect_f_rect_19}
+
+
+```
+ exclude_rect_f(rect) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to exclude from this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: exclude_rgn(region) {#exclude_rgn_region_20}
+
+
+```
+ exclude_rgn(region) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [Region](/imaging/python-net/aspose.imaging/region/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| region | [Region](/imaging/python-net/aspose.imaging/region) | The [Region](/imaging/python-net/aspose.imaging/region/) to exclude from this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: intersect(path) {#intersect_path_21}
+
+
+```
+ intersect(path) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: intersect(rect) {#intersect_rect_22}
+
+
+```
+ intersect(rect) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: intersect(rect) {#intersect_rect_23}
+
+
+```
+ intersect(rect) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: intersect(region) {#intersect_region_24}
+
+
+```
+ intersect(region) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [Region](/imaging/python-net/aspose.imaging/region/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| region | [Region](/imaging/python-net/aspose.imaging/region) | The [Region](/imaging/python-net/aspose.imaging/region/) to intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: intersect_path(path) {#intersect_path_path_25}
+
+
+```
+ intersect_path(path) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: intersect_rect(rect) {#intersect_rect_rect_26}
+
+
+```
+ intersect_rect(rect) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: intersect_rect_f(rect) {#intersect_rect_f_rect_27}
+
+
+```
+ intersect_rect_f(rect) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: intersect_rgn(region) {#intersect_rgn_region_28}
+
+
+```
+ intersect_rgn(region) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [Region](/imaging/python-net/aspose.imaging/region/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| region | [Region](/imaging/python-net/aspose.imaging/region) | The [Region](/imaging/python-net/aspose.imaging/region/) to intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: is_empty(g) {#is_empty_g_29}
+
+
+```
+ is_empty(g) 
+```
+
+Tests whether this [Region](/imaging/python-net/aspose.imaging/region/) has an empty interior on the specified drawing surface.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| g | [Graphics](/imaging/python-net/aspose.imaging/graphics) | A [Graphics](/imaging/python-net/aspose.imaging/graphics/) that represents a drawing surface. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| bool | true if the interior of this [Region](/imaging/python-net/aspose.imaging/region/) is empty when the transformation associated with <paramref name="g" /> is applied; otherwise, false. |
+
+
+### Method: is_infinite(g) {#is_infinite_g_30}
+
+
+```
+ is_infinite(g) 
+```
+
+Tests whether this [Region](/imaging/python-net/aspose.imaging/region/) has an infinite interior on the specified drawing surface.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| g | [Graphics](/imaging/python-net/aspose.imaging/graphics) | A [Graphics](/imaging/python-net/aspose.imaging/graphics/) that represents a drawing surface. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| bool | true if the interior of this [Region](/imaging/python-net/aspose.imaging/region/) is infinite when the transformation associated with <paramref name="g" /> is applied; otherwise, false. |
+
+
+### Method: is_visible(point) {#is_visible_point_31}
+
+
+```
+ is_visible(point) 
+```
+
+Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) structure to test. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| bool | true when <paramref name="point" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+
+
+### Method: is_visible(point) {#is_visible_point_32}
+
+
+```
+ is_visible(point) 
+```
+
+Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| point | [Point](/imaging/python-net/aspose.imaging/point) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) structure to test. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| bool | true when <paramref name="point" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+
+
+### Method: is_visible(point, g) {#is_visible_point_g_33}
+
+
+```
+ is_visible(point, g) 
+```
+
+Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) structure to test. |
+| g | [Graphics](/imaging/python-net/aspose.imaging/graphics) | A [Graphics](/imaging/python-net/aspose.imaging/graphics/) that represents a graphics context. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| bool | true when <paramref name="point" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+
+
+### Method: is_visible(point, g) {#is_visible_point_g_34}
+
+
+```
+ is_visible(point, g) 
+```
+
+Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| point | [Point](/imaging/python-net/aspose.imaging/point) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) structure to test. |
+| g | [Graphics](/imaging/python-net/aspose.imaging/graphics) | A [Graphics](/imaging/python-net/aspose.imaging/graphics/) that represents a graphics context. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| bool | true when <paramref name="point" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+
+
+### Method: is_visible(rect) {#is_visible_rect_35}
+
+
+```
+ is_visible(rect) 
+```
+
+Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to test. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| bool | true when any portion of <paramref name="rect" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+
+
+### Method: is_visible(rect) {#is_visible_rect_36}
+
+
+```
+ is_visible(rect) 
+```
+
+Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to test. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| bool | true when any portion of <paramref name="rect" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+
+
+### Method: is_visible(rect, g) {#is_visible_rect_g_37}
+
+
+```
+ is_visible(rect, g) 
+```
+
+Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to test. |
+| g | [Graphics](/imaging/python-net/aspose.imaging/graphics) | A [Graphics](/imaging/python-net/aspose.imaging/graphics/) that represents a graphics context. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| bool | true when <paramref name="rect" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+
+
+### Method: is_visible(rect, g) {#is_visible_rect_g_38}
+
+
+```
+ is_visible(rect, g) 
+```
+
+Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to test. |
+| g | [Graphics](/imaging/python-net/aspose.imaging/graphics) | A [Graphics](/imaging/python-net/aspose.imaging/graphics/) that represents a graphics context. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| bool | true when <paramref name="rect" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+
+
+### Method: is_visible(x, y) {#is_visible_x_y_39}
 
 
 ```
@@ -516,29 +850,7 @@ Tests whether the specified point is contained within this [Region](/imaging/pyt
 | bool | True when the specified point is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
-### is_visible(point) {#is_visible_point_27}
-
-
-```
- is_visible(point) 
-```
-
-Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) structure to test. |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| bool | true when <paramref name="point" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
-
-
-### is_visible(x, y, g) {#is_visible_x_y_g_28}
+### Method: is_visible(x, y, g) {#is_visible_x_y_g_40}
 
 
 ```
@@ -562,126 +874,7 @@ Tests whether the specified point is contained within this [Region](/imaging/pyt
 | bool | True when the specified point is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
-### is_visible(point, g) {#is_visible_point_g_29}
-
-
-```
- is_visible(point, g) 
-```
-
-Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| point | [PointF](/imaging/python-net/aspose.imaging/pointf) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) structure to test. |
-| g | [Graphics](/imaging/python-net/aspose.imaging/graphics) | A [Graphics](/imaging/python-net/aspose.imaging/graphics/) that represents a graphics context. |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| bool | true when <paramref name="point" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
-
-
-### is_visible(x, y, width, height) {#is_visible_x_y_width_height_30}
-
-
-```
- is_visible(x, y, width, height) 
-```
-
-Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| x | float | The x-coordinate of the upper-left corner of the rectangle to test. |
-| y | float | The y-coordinate of the upper-left corner of the rectangle to test. |
-| width | float | The width of the rectangle to test. |
-| height | float | The height of the rectangle to test. |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| bool | true when any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/) object; otherwise, false. |
-
-
-### is_visible(rect) {#is_visible_rect_31}
-
-
-```
- is_visible(rect) 
-```
-
-Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to test. |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| bool | true when any portion of <paramref name="rect" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
-
-
-### is_visible(x, y, width, height, g) {#is_visible_x_y_width_height_g_32}
-
-
-```
- is_visible(x, y, width, height, g) 
-```
-
-Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| x | float | The x-coordinate of the upper-left corner of the rectangle to test. |
-| y | float | The y-coordinate of the upper-left corner of the rectangle to test. |
-| width | float | The width of the rectangle to test. |
-| height | float | The height of the rectangle to test. |
-| g | [Graphics](/imaging/python-net/aspose.imaging/graphics) | A [Graphics](/imaging/python-net/aspose.imaging/graphics/) that represents a graphics context. |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| bool | true when any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
-
-
-### is_visible(rect, g) {#is_visible_rect_g_33}
-
-
-```
- is_visible(rect, g) 
-```
-
-Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to test. |
-| g | [Graphics](/imaging/python-net/aspose.imaging/graphics) | A [Graphics](/imaging/python-net/aspose.imaging/graphics/) that represents a graphics context. |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| bool | true when <paramref name="rect" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
-
-
-### is_visible(x, y, g) {#is_visible_x_y_g_34}
+### Method: is_visible(x, y, g) {#is_visible_x_y_g_41}
 
 
 ```
@@ -705,52 +898,32 @@ Tests whether the specified point is contained within this [Region](/imaging/pyt
 | bool | True when the specified point is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
-### is_visible(point) {#is_visible_point_35}
+### Method: is_visible(x, y, width, height) {#is_visible_x_y_width_height_42}
 
 
 ```
- is_visible(point) 
+ is_visible(x, y, width, height) 
 ```
 
-Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/).
+Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/).
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [Point](/imaging/python-net/aspose.imaging/point) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) structure to test. |
+| x | float | The x-coordinate of the upper-left corner of the rectangle to test. |
+| y | float | The y-coordinate of the upper-left corner of the rectangle to test. |
+| width | float | The width of the rectangle to test. |
+| height | float | The height of the rectangle to test. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| bool | true when <paramref name="point" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+| bool | true when any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/) object; otherwise, false. |
 
 
-### is_visible(point, g) {#is_visible_point_g_36}
-
-
-```
- is_visible(point, g) 
-```
-
-Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| point | [Point](/imaging/python-net/aspose.imaging/point) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) structure to test. |
-| g | [Graphics](/imaging/python-net/aspose.imaging/graphics) | A [Graphics](/imaging/python-net/aspose.imaging/graphics/) that represents a graphics context. |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| bool | true when <paramref name="point" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
-
-
-### is_visible(x, y, width, height) {#is_visible_x_y_width_height_37}
+### Method: is_visible(x, y, width, height) {#is_visible_x_y_width_height_43}
 
 
 ```
@@ -775,29 +948,33 @@ Tests whether any portion of the specified rectangle is contained within this [R
 | bool | true when any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/) object; otherwise, false. |
 
 
-### is_visible(rect) {#is_visible_rect_38}
+### Method: is_visible(x, y, width, height, g) {#is_visible_x_y_width_height_g_44}
 
 
 ```
- is_visible(rect) 
+ is_visible(x, y, width, height, g) 
 ```
 
-Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/).
+Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/).
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to test. |
+| x | float | The x-coordinate of the upper-left corner of the rectangle to test. |
+| y | float | The y-coordinate of the upper-left corner of the rectangle to test. |
+| width | float | The width of the rectangle to test. |
+| height | float | The height of the rectangle to test. |
+| g | [Graphics](/imaging/python-net/aspose.imaging/graphics) | A [Graphics](/imaging/python-net/aspose.imaging/graphics/) that represents a graphics context. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| bool | true when any portion of <paramref name="rect" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+| bool | true when any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
-### is_visible(x, y, width, height, g) {#is_visible_x_y_width_height_g_39}
+### Method: is_visible(x, y, width, height, g) {#is_visible_x_y_width_height_g_45}
 
 
 ```
@@ -823,487 +1000,7 @@ Tests whether any portion of the specified rectangle is contained within this [R
 | bool | true when any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
-### is_visible(rect, g) {#is_visible_rect_g_40}
-
-
-```
- is_visible(rect, g) 
-```
-
-Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to test. |
-| g | [Graphics](/imaging/python-net/aspose.imaging/graphics) | A [Graphics](/imaging/python-net/aspose.imaging/graphics/) that represents a graphics context. |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| bool | true when <paramref name="rect" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
-
-
-### create_with_rect_f(rect)  [static] {#create_with_rect_f_rect_41}
-
-
-```
- create_with_rect_f(rect) 
-```
-
-Initializes a new [Region](/imaging/python-net/aspose.imaging/region/) from the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that defines the interior of the new [Region](/imaging/python-net/aspose.imaging/region/). |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| [Region](/imaging/python-net/aspose.imaging/region) |  |
-
-
-### create_with_rect(rect)  [static] {#create_with_rect_rect_42}
-
-
-```
- create_with_rect(rect) 
-```
-
-Initializes a new [Region](/imaging/python-net/aspose.imaging/region/) from the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that defines the interior of the new [Region](/imaging/python-net/aspose.imaging/region/). |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| [Region](/imaging/python-net/aspose.imaging/region) |  |
-
-
-### create_with_path(path)  [static] {#create_with_path_path_43}
-
-
-```
- create_with_path(path) 
-```
-
-Initializes a new [Region](/imaging/python-net/aspose.imaging/region/) with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | A [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) that defines the new [Region](/imaging/python-net/aspose.imaging/region/). |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| [Region](/imaging/python-net/aspose.imaging/region) |  |
-
-
-### deep_clone() {#deep_clone__44}
-
-
-```
- deep_clone() 
-```
-
-Creates an exact deep copy of this [Region](/imaging/python-net/aspose.imaging/region/).
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| [Region](/imaging/python-net/aspose.imaging/region) | The [Region](/imaging/python-net/aspose.imaging/region/) that this method creates. |
-
-
-### intersect_rect_f(rect) {#intersect_rect_f_rect_45}
-
-
-```
- intersect_rect_f(rect) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### intersect_rect(rect) {#intersect_rect_rect_46}
-
-
-```
- intersect_rect(rect) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### intersect_path(path) {#intersect_path_path_47}
-
-
-```
- intersect_path(path) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### intersect_rgn(region) {#intersect_rgn_region_48}
-
-
-```
- intersect_rgn(region) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the intersection of itself with the specified [Region](/imaging/python-net/aspose.imaging/region/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| region | [Region](/imaging/python-net/aspose.imaging/region) | The [Region](/imaging/python-net/aspose.imaging/region/) to intersect with this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### union_rect_f(rect) {#union_rect_f_rect_49}
-
-
-```
- union_rect_f(rect) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to unite with this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### union_rect(rect) {#union_rect_rect_50}
-
-
-```
- union_rect(rect) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to unite with this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### union_path(path) {#union_path_path_51}
-
-
-```
- union_path(path) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to unite with this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### union_rgn(region) {#union_rgn_region_52}
-
-
-```
- union_rgn(region) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [Region](/imaging/python-net/aspose.imaging/region/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| region | [Region](/imaging/python-net/aspose.imaging/region) | The [Region](/imaging/python-net/aspose.imaging/region/) to unite with this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### xor_rect_f(rect) {#xor_rect_f_rect_53}
-
-
-```
- xor_rect_f(rect) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to xor with this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### xor_rect(rect) {#xor_rect_rect_54}
-
-
-```
- xor_rect(rect) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to xor with this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### xor_path(path) {#xor_path_path_55}
-
-
-```
- xor_path(path) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to xor with this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### xor_rgn(region) {#xor_rgn_region_56}
-
-
-```
- xor_rgn(region) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [Region](/imaging/python-net/aspose.imaging/region/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| region | [Region](/imaging/python-net/aspose.imaging/region) | The [Region](/imaging/python-net/aspose.imaging/region/) to xor with this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### exclude_rect_f(rect) {#exclude_rect_f_rect_57}
-
-
-```
- exclude_rect_f(rect) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to exclude from this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### exclude_rect(rect) {#exclude_rect_rect_58}
-
-
-```
- exclude_rect(rect) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to exclude from this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### exclude_path(path) {#exclude_path_path_59}
-
-
-```
- exclude_path(path) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to exclude from this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### exclude_rgn(region) {#exclude_rgn_region_60}
-
-
-```
- exclude_rgn(region) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain only the portion of its interior that does not intersect with the specified [Region](/imaging/python-net/aspose.imaging/region/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| region | [Region](/imaging/python-net/aspose.imaging/region) | The [Region](/imaging/python-net/aspose.imaging/region/) to exclude from this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### complement_rect_f(rect) {#complement_rect_f_rect_61}
-
-
-```
- complement_rect_f(rect) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to complement this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### complement_rect(rect) {#complement_rect_rect_62}
-
-
-```
- complement_rect(rect) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to complement this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### complement_path(path) {#complement_path_path_63}
-
-
-```
- complement_path(path) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to complement this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### complement_rgn(region) {#complement_rgn_region_64}
-
-
-```
- complement_rgn(region) 
-```
-
-Updates this [Region](/imaging/python-net/aspose.imaging/region/) to contain the portion of the specified [Region](/imaging/python-net/aspose.imaging/region/) that does not intersect with this [Region](/imaging/python-net/aspose.imaging/region/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| region | [Region](/imaging/python-net/aspose.imaging/region) | The [Region](/imaging/python-net/aspose.imaging/region/) object to complement this [Region](/imaging/python-net/aspose.imaging/region/) object. |
-
-### translate_f(dx, dy) {#translate_f_dx_dy_65}
-
-
-```
- translate_f(dx, dy) 
-```
-
-Offsets the coordinates of this [Region](/imaging/python-net/aspose.imaging/region/) by the specified amount.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| dx | float | The amount to offset this [Region](/imaging/python-net/aspose.imaging/region/) horizontally. |
-| dy | float | The amount to offset this [Region](/imaging/python-net/aspose.imaging/region/) vertically. |
-
-### transform(matrix) {#transform_matrix_66}
-
-
-```
- transform(matrix) 
-```
-
-Transforms this [Region](/imaging/python-net/aspose.imaging/region/) by the specified [Matrix](/imaging/python-net/aspose.imaging/matrix/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The [Matrix](/imaging/python-net/aspose.imaging/matrix/) by which to transform this [Region](/imaging/python-net/aspose.imaging/region/). |
-
-### is_empty(g) {#is_empty_g_67}
-
-
-```
- is_empty(g) 
-```
-
-Tests whether this [Region](/imaging/python-net/aspose.imaging/region/) has an empty interior on the specified drawing surface.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| g | [Graphics](/imaging/python-net/aspose.imaging/graphics) | A [Graphics](/imaging/python-net/aspose.imaging/graphics/) that represents a drawing surface. |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| bool | true if the interior of this [Region](/imaging/python-net/aspose.imaging/region/) is empty when the transformation associated with <paramref name="g" /> is applied; otherwise, false. |
-
-
-### is_infinite(g) {#is_infinite_g_68}
-
-
-```
- is_infinite(g) 
-```
-
-Tests whether this [Region](/imaging/python-net/aspose.imaging/region/) has an infinite interior on the specified drawing surface.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| g | [Graphics](/imaging/python-net/aspose.imaging/graphics) | A [Graphics](/imaging/python-net/aspose.imaging/graphics/) that represents a drawing surface. |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| bool | true if the interior of this [Region](/imaging/python-net/aspose.imaging/region/) is infinite when the transformation associated with <paramref name="g" /> is applied; otherwise, false. |
-
-
-### is_visible_f(x, y) {#is_visible_f_x_y_69}
+### Method: is_visible_f(x, y) {#is_visible_f_x_y_46}
 
 
 ```
@@ -1326,7 +1023,29 @@ Tests whether the specified point is contained within this [Region](/imaging/pyt
 | bool | True when the specified point is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
-### is_visible_point_f(point) {#is_visible_point_f_point_70}
+### Method: is_visible_point(point) {#is_visible_point_point_47}
+
+
+```
+ is_visible_point(point) 
+```
+
+Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| point | [Point](/imaging/python-net/aspose.imaging/point) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) structure to test. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| bool | true when <paramref name="point" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+
+
+### Method: is_visible_point_f(point) {#is_visible_point_f_point_48}
 
 
 ```
@@ -1348,31 +1067,7 @@ Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/)
 | bool | true when <paramref name="point" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
-### is_visible_with_graphics_f(x, y, g) {#is_visible_with_graphics_f_x_y_g_71}
-
-
-```
- is_visible_with_graphics_f(x, y, g) 
-```
-
-Tests whether the specified point is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| x | float | The x-coordinate of the point to test. |
-| y | float | The y-coordinate of the point to test. |
-| g | [Graphics](/imaging/python-net/aspose.imaging/graphics) | A [Graphics](/imaging/python-net/aspose.imaging/graphics/) that represents a graphics context. |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| bool | True when the specified point is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
-
-
-### is_visible_point_f_with_graphics(point, g) {#is_visible_point_f_with_graphics_point_g_72}
+### Method: is_visible_point_f_with_graphics(point, g) {#is_visible_point_f_with_graphics_point_g_49}
 
 
 ```
@@ -1395,32 +1090,52 @@ Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/)
 | bool | true when <paramref name="point" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
-### is_visible_xywhf(x, y, width, height) {#is_visible_xywhf_x_y_width_height_73}
+### Method: is_visible_point_with_graphics(point, g) {#is_visible_point_with_graphics_point_g_50}
 
 
 ```
- is_visible_xywhf(x, y, width, height) 
+ is_visible_point_with_graphics(point, g) 
 ```
 
-Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/).
+Tests whether the specified [Point](/imaging/python-net/aspose.imaging/point/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/).
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| x | float | The x-coordinate of the upper-left corner of the rectangle to test. |
-| y | float | The y-coordinate of the upper-left corner of the rectangle to test. |
-| width | float | The width of the rectangle to test. |
-| height | float | The height of the rectangle to test. |
+| point | [Point](/imaging/python-net/aspose.imaging/point) | The [Point](/imaging/python-net/aspose.imaging/point/) structure to test. |
+| g | [Graphics](/imaging/python-net/aspose.imaging/graphics) | A [Graphics](/imaging/python-net/aspose.imaging/graphics/) that represents a graphics context. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| bool | true when any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/) object; otherwise, false. |
+| bool | true when <paramref name="point" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
-### is_visible_rect_f(rect) {#is_visible_rect_f_rect_74}
+### Method: is_visible_rect(rect) {#is_visible_rect_rect_51}
+
+
+```
+ is_visible_rect(rect) 
+```
+
+Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to test. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| bool | true when any portion of <paramref name="rect" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+
+
+### Method: is_visible_rect_f(rect) {#is_visible_rect_f_rect_52}
 
 
 ```
@@ -1442,33 +1157,7 @@ Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspo
 | bool | true when any portion of <paramref name="rect" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
-### is_visible_xywh_graphics_f(x, y, width, height, g) {#is_visible_xywh_graphics_f_x_y_width_height_g_75}
-
-
-```
- is_visible_xywh_graphics_f(x, y, width, height, g) 
-```
-
-Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| x | float | The x-coordinate of the upper-left corner of the rectangle to test. |
-| y | float | The y-coordinate of the upper-left corner of the rectangle to test. |
-| width | float | The width of the rectangle to test. |
-| height | float | The height of the rectangle to test. |
-| g | [Graphics](/imaging/python-net/aspose.imaging/graphics) | A [Graphics](/imaging/python-net/aspose.imaging/graphics/) that represents a graphics context. |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| bool | true when any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
-
-
-### is_visible_rect_f_with_graphics(rect, g) {#is_visible_rect_f_with_graphics_rect_g_76}
+### Method: is_visible_rect_f_with_graphics(rect, g) {#is_visible_rect_f_with_graphics_rect_g_53}
 
 
 ```
@@ -1491,7 +1180,30 @@ Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspo
 | bool | true when <paramref name="rect" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
-### is_visible_with_graphics(x, y, g) {#is_visible_with_graphics_x_y_g_77}
+### Method: is_visible_rect_with_graphics(rect, g) {#is_visible_rect_with_graphics_rect_g_54}
+
+
+```
+ is_visible_rect_with_graphics(rect, g) 
+```
+
+Tests whether any portion of the specified [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure to test. |
+| g | [Graphics](/imaging/python-net/aspose.imaging/graphics) | A [Graphics](/imaging/python-net/aspose.imaging/graphics/) that represents a graphics context. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| bool | true when any portion of the <paramref name="rect" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+
+
+### Method: is_visible_with_graphics(x, y, g) {#is_visible_with_graphics_x_y_g_55}
 
 
 ```
@@ -1515,52 +1227,31 @@ Tests whether the specified point is contained within this [Region](/imaging/pyt
 | bool | True when the specified point is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
-### is_visible_point(point) {#is_visible_point_point_78}
+### Method: is_visible_with_graphics_f(x, y, g) {#is_visible_with_graphics_f_x_y_g_56}
 
 
 ```
- is_visible_point(point) 
+ is_visible_with_graphics_f(x, y, g) 
 ```
 
-Tests whether the specified [PointF](/imaging/python-net/aspose.imaging/pointf/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/).
+Tests whether the specified point is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/).
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| point | [Point](/imaging/python-net/aspose.imaging/point) | The [PointF](/imaging/python-net/aspose.imaging/pointf/) structure to test. |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| bool | true when <paramref name="point" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
-
-
-### is_visible_point_with_graphics(point, g) {#is_visible_point_with_graphics_point_g_79}
-
-
-```
- is_visible_point_with_graphics(point, g) 
-```
-
-Tests whether the specified [Point](/imaging/python-net/aspose.imaging/point/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| point | [Point](/imaging/python-net/aspose.imaging/point) | The [Point](/imaging/python-net/aspose.imaging/point/) structure to test. |
+| x | float | The x-coordinate of the point to test. |
+| y | float | The y-coordinate of the point to test. |
 | g | [Graphics](/imaging/python-net/aspose.imaging/graphics) | A [Graphics](/imaging/python-net/aspose.imaging/graphics/) that represents a graphics context. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| bool | true when <paramref name="point" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+| bool | True when the specified point is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
-### is_visible_xywh(x, y, width, height) {#is_visible_xywh_x_y_width_height_80}
+### Method: is_visible_xywh(x, y, width, height) {#is_visible_xywh_x_y_width_height_57}
 
 
 ```
@@ -1585,29 +1276,7 @@ Tests whether any portion of the specified rectangle is contained within this [R
 | bool | true when any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/) object; otherwise, false. |
 
 
-### is_visible_rect(rect) {#is_visible_rect_rect_81}
-
-
-```
- is_visible_rect(rect) 
-```
-
-Tests whether any portion of the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/).
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to test. |
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| bool | true when any portion of <paramref name="rect" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
-
-
-### is_visible_xywh_graphics(x, y, width, height, g) {#is_visible_xywh_graphics_x_y_width_height_g_82}
+### Method: is_visible_xywh_graphics(x, y, width, height, g) {#is_visible_xywh_graphics_x_y_width_height_g_58}
 
 
 ```
@@ -1633,26 +1302,357 @@ Tests whether any portion of the specified rectangle is contained within this [R
 | bool | true when any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
 
-### is_visible_rect_with_graphics(rect, g) {#is_visible_rect_with_graphics_rect_g_83}
+### Method: is_visible_xywh_graphics_f(x, y, width, height, g) {#is_visible_xywh_graphics_f_x_y_width_height_g_59}
 
 
 ```
- is_visible_rect_with_graphics(rect, g) 
+ is_visible_xywh_graphics_f(x, y, width, height, g) 
 ```
 
-Tests whether any portion of the specified [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/).
+Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/) when drawn using the specified [Graphics](/imaging/python-net/aspose.imaging/graphics/).
 
 **Parameters:**
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure to test. |
+| x | float | The x-coordinate of the upper-left corner of the rectangle to test. |
+| y | float | The y-coordinate of the upper-left corner of the rectangle to test. |
+| width | float | The width of the rectangle to test. |
+| height | float | The height of the rectangle to test. |
 | g | [Graphics](/imaging/python-net/aspose.imaging/graphics) | A [Graphics](/imaging/python-net/aspose.imaging/graphics/) that represents a graphics context. |
 
 **Returns**
 
 | Type | Description |
 | :- | :- |
-| bool | true when any portion of the <paramref name="rect" /> is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
+| bool | true when any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/); otherwise, false. |
 
+
+### Method: is_visible_xywhf(x, y, width, height) {#is_visible_xywhf_x_y_width_height_60}
+
+
+```
+ is_visible_xywhf(x, y, width, height) 
+```
+
+Tests whether any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| x | float | The x-coordinate of the upper-left corner of the rectangle to test. |
+| y | float | The y-coordinate of the upper-left corner of the rectangle to test. |
+| width | float | The width of the rectangle to test. |
+| height | float | The height of the rectangle to test. |
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| bool | true when any portion of the specified rectangle is contained within this [Region](/imaging/python-net/aspose.imaging/region/) object; otherwise, false. |
+
+
+### Method: transform(matrix) {#transform_matrix_61}
+
+
+```
+ transform(matrix) 
+```
+
+Transforms this [Region](/imaging/python-net/aspose.imaging/region/) by the specified [Matrix](/imaging/python-net/aspose.imaging/matrix/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The [Matrix](/imaging/python-net/aspose.imaging/matrix/) by which to transform this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: translate(dx, dy) {#translate_dx_dy_62}
+
+
+```
+ translate(dx, dy) 
+```
+
+Offsets the coordinates of this [Region](/imaging/python-net/aspose.imaging/region/) by the specified amount.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| dx | float | The amount to offset this [Region](/imaging/python-net/aspose.imaging/region/) horizontally. |
+| dy | float | The amount to offset this [Region](/imaging/python-net/aspose.imaging/region/) vertically. |
+
+### Method: translate(dx, dy) {#translate_dx_dy_63}
+
+
+```
+ translate(dx, dy) 
+```
+
+Offsets the coordinates of this [Region](/imaging/python-net/aspose.imaging/region/) by the specified amount.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| dx | int | The amount to offset this [Region](/imaging/python-net/aspose.imaging/region/) horizontally. |
+| dy | int | The amount to offset this [Region](/imaging/python-net/aspose.imaging/region/) vertically. |
+
+### Method: translate_f(dx, dy) {#translate_f_dx_dy_64}
+
+
+```
+ translate_f(dx, dy) 
+```
+
+Offsets the coordinates of this [Region](/imaging/python-net/aspose.imaging/region/) by the specified amount.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| dx | float | The amount to offset this [Region](/imaging/python-net/aspose.imaging/region/) horizontally. |
+| dy | float | The amount to offset this [Region](/imaging/python-net/aspose.imaging/region/) vertically. |
+
+### Method: union(path) {#union_path_65}
+
+
+```
+ union(path) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to unite with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: union(rect) {#union_rect_66}
+
+
+```
+ union(rect) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to unite with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: union(rect) {#union_rect_67}
+
+
+```
+ union(rect) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to unite with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: union(region) {#union_region_68}
+
+
+```
+ union(region) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [Region](/imaging/python-net/aspose.imaging/region/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| region | [Region](/imaging/python-net/aspose.imaging/region) | The [Region](/imaging/python-net/aspose.imaging/region/) to unite with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: union_path(path) {#union_path_path_69}
+
+
+```
+ union_path(path) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to unite with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: union_rect(rect) {#union_rect_rect_70}
+
+
+```
+ union_rect(rect) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to unite with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: union_rect_f(rect) {#union_rect_f_rect_71}
+
+
+```
+ union_rect_f(rect) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to unite with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: union_rgn(region) {#union_rgn_region_72}
+
+
+```
+ union_rgn(region) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union of itself and the specified [Region](/imaging/python-net/aspose.imaging/region/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| region | [Region](/imaging/python-net/aspose.imaging/region) | The [Region](/imaging/python-net/aspose.imaging/region/) to unite with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: xor(path) {#xor_path_73}
+
+
+```
+ xor(path) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to xor with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: xor(rect) {#xor_rect_74}
+
+
+```
+ xor(rect) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to xor with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: xor(rect) {#xor_rect_75}
+
+
+```
+ xor(rect) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to xor with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: xor(region) {#xor_region_76}
+
+
+```
+ xor(region) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [Region](/imaging/python-net/aspose.imaging/region/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| region | [Region](/imaging/python-net/aspose.imaging/region) | The [Region](/imaging/python-net/aspose.imaging/region/) to xor with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: xor_path(path) {#xor_path_path_77}
+
+
+```
+ xor_path(path) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | The [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to xor with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: xor_rect(rect) {#xor_rect_rect_78}
+
+
+```
+ xor_rect(rect) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to xor with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: xor_rect_f(rect) {#xor_rect_f_rect_79}
+
+
+```
+ xor_rect_f(rect) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure to xor with this [Region](/imaging/python-net/aspose.imaging/region/). |
+
+### Method: xor_rgn(region) {#xor_rgn_region_80}
+
+
+```
+ xor_rgn(region) 
+```
+
+Updates this [Region](/imaging/python-net/aspose.imaging/region/) to the union minus the intersection of itself with the specified [Region](/imaging/python-net/aspose.imaging/region/).
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| region | [Region](/imaging/python-net/aspose.imaging/region) | The [Region](/imaging/python-net/aspose.imaging/region/) to xor with this [Region](/imaging/python-net/aspose.imaging/region/). |
 

@@ -16,5 +16,5 @@ Specifies the order for matrix transform operations.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| PREPEND | The new operation is applied before the old operation. |
 | APPEND | The new operation is applied after the old operation. |
+| PREPEND | The new operation is applied before the old operation. |

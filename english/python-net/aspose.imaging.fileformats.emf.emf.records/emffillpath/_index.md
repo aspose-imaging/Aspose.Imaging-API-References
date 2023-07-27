@@ -5,7 +5,7 @@ weight: 480
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emffillpath/
 ---
 
-The EMR_FILLPATH record closes any open figures in the current path and fills the path's interior by <br/>            using the current brush and polygon-filling mode.
+**Summary:** The EMR_FILLPATH record closes any open figures in the current path and fills the path's interior by <br/>            using the current brush and polygon-filling mode.
 
 **Module:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
@@ -15,25 +15,34 @@ The EMR_FILLPATH record closes any open figures in the current path and fills th
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfFillPath type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EmfFillPath(source)](#EmfFillPath_source_0) | Initializes a new instance of the [EmfFillPath](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emffillpath/) class. |
 | [EmfFillPath()](#EmfFillPath__1) | Initializes a new instance of the [EmfFillPath](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emffillpath/) class. |
+| [EmfFillPath(source)](#EmfFillPath_source_2) | Initializes a new instance of the [EmfFillPath](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emffillpath/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
-| size | int | r/w | Gets or sets the size of the record |
 | bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets a 128-bit WMF RectL object, specified in [MS-WMF] section 2.2.2.19, <br/>            which specifies bounding rectangle, in device units. |
+| size | int | r/w | Gets or sets the size of the record |
+| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [create_from_record(source)](#create_from_record_source_2) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
-| [create_from_type(type)](#create_from_type_type_3) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
+| [create_from_record(source)](#create_from_record_source_1) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
+| [create_from_type(type)](#create_from_type_type_2) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
 
-### EmfFillPath(source) {#EmfFillPath_source_0}
+
+### Constructor: EmfFillPath() {#EmfFillPath__1}
+
+
+```
+ EmfFillPath() 
+```
+
+Initializes a new instance of the [EmfFillPath](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emffillpath/) class.
+
+### Constructor: EmfFillPath(source) {#EmfFillPath_source_2}
 
 
 ```
@@ -48,16 +57,7 @@ Initializes a new instance of the [EmfFillPath](/imaging/python-net/aspose.imagi
 | :- | :- | :- |
 | source | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) | The source. |
 
-### EmfFillPath() {#EmfFillPath__1}
-
-
-```
- EmfFillPath() 
-```
-
-Initializes a new instance of the [EmfFillPath](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emffillpath/) class.
-
-### create_from_record(source)  [static] {#create_from_record_source_2}
+### Method: create_from_record(source)  [static] {#create_from_record_source_1}
 
 
 ```
@@ -79,7 +79,7 @@ Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging
 | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) |  |
 
 
-### create_from_type(type)  [static] {#create_from_type_type_3}
+### Method: create_from_type(type)  [static] {#create_from_type_type_2}
 
 
 ```

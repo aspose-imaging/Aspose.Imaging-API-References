@@ -5,7 +5,7 @@ weight: 5150
 url: /python-net/aspose.imaging/iimagecreator/
 ---
 
-The image creator.
+**Summary:** The image creator.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -13,13 +13,13 @@ The image creator.
 
 **Aspose.Imaging Version:** 23.6
 
-The IImageCreator type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [create(stream_container, image_options, width, height)](#create_stream_container_image_options_width_height_0) | Creates a new image instance with <paramref name="imageOptions" />. |
+| [create(stream_container, image_options, width, height)](#create_stream_container_image_options_width_height_1) | Creates a new image instance with <paramref name="imageOptions" />. |
 
-### create(stream_container, image_options, width, height) {#create_stream_container_image_options_width_height_0}
+
+### Method: create(stream_container, image_options, width, height) {#create_stream_container_image_options_width_height_1}
 
 
 ```

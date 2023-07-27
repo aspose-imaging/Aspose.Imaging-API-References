@@ -5,7 +5,7 @@ weight: 110
 url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odenhancedgeometry/
 ---
 
-The Enhanced geometry object.
+**Summary:** The Enhanced geometry object.
 
 **Module:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
@@ -15,22 +15,22 @@ The Enhanced geometry object.
 
 **Aspose.Imaging Version:** 23.6
 
-The OdEnhancedGeometry type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [OdEnhancedGeometry(parent)](#OdEnhancedGeometry_parent_0) | Initializes a new instance of the [OdEnhancedGeometry](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odenhancedgeometry/) class. |
+| [OdEnhancedGeometry(parent)](#OdEnhancedGeometry_parent_1) | Initializes a new instance of the [OdEnhancedGeometry](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odenhancedgeometry/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
-| items | System.Collections.Generic.List<OdObject> | r | Gets the items. |
 | absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
 | enhanced_path | [OdGraphicObject[]](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject) | r/w | Gets or sets the enhanced path. |
-| view_box | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets the view box. |
+| items | list[OdObject] | r | Gets the items. |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
 | type | string | r/w | Gets or sets the type. |
+| view_box | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets the view box. |
 
-### OdEnhancedGeometry(parent) {#OdEnhancedGeometry_parent_0}
+
+### Constructor: OdEnhancedGeometry(parent) {#OdEnhancedGeometry_parent_1}
 
 
 ```

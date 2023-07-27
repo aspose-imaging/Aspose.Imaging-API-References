@@ -16,9 +16,9 @@ Represents SVG image type.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| JPEG | JPEG JFIF. |
-| PNG | Portable Network Graphics. |
 | BMP | Windows Bitmap. |
 | GIF | Gif image format |
+| JPEG | JPEG JFIF. |
+| PNG | Portable Network Graphics. |
 | TIFF | Tiff image format |
 | UNKNOWN | Unknown format |

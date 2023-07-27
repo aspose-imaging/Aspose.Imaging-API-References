@@ -16,6 +16,6 @@ The PaletteStyle flags specify properties of graphics palettes. These flags can 
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| PALETTE_STYLE_HAS_ALPHA | If set, one or more of the palette entries MUST contain alpha transparency information. |
 | PALETTE_STYLE_GRAY_SCALE | If set, the palette MUST contain only grayscale entries. |
 | PALETTE_STYLE_HALFTONE | If set, the palette MUST contain discrete color values that can be used for halftoning. |
+| PALETTE_STYLE_HAS_ALPHA | If set, one or more of the palette entries MUST contain alpha transparency information. |

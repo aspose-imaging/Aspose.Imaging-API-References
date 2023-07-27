@@ -16,8 +16,8 @@ Specifies style information applied to text.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| REGULAR | Normal text. |
 | BOLD | Bold text. |
 | ITALIC | Italic text. |
-| UNDERLINE | Underlined text. |
+| REGULAR | Normal text. |
 | STRIKEOUT | Text with a line through the middle. |
+| UNDERLINE | Underlined text. |

@@ -16,7 +16,7 @@ Represents project type in [XmpDynamicMediaPackage](/imaging/python-net/aspose.i
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| MOVIE | The movie project type |
-| STILL | The still project type |
 | AUDIO | The audio project type |
 | CUSTOM | The custom project type |
+| MOVIE | The movie project type |
+| STILL | The still project type |

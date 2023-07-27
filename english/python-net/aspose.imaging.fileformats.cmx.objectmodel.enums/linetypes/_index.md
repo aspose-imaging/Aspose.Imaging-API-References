@@ -16,8 +16,8 @@ Flags to describe the type of line.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| NONE | Not used line |
-| SOLID | Solid line. |
-| DASHED | Dashed line. |
 | BEHIND_FILL | The line must be rendered behind fill of shape. |
+| DASHED | Dashed line. |
+| NONE | Not used line |
 | SCALE_PEN | The line width is scaled relative to size of shape. |
+| SOLID | Solid line. |

@@ -5,7 +5,7 @@ weight: 230
 url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustombaselinecap/
 ---
 
-Base class for custom line cap types.
+**Summary:** Base class for custom line cap types.
 
 **Module:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
@@ -15,5 +15,5 @@ Base class for custom line cap types.
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfPlusCustomBaseLineCap type exposes the following members:
+
 

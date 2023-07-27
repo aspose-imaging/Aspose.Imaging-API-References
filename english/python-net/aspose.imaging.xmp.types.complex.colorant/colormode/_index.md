@@ -17,5 +17,5 @@ Represents color mode.
 | **Member name** | **Description** |
 | :- | :- |
 | CMYK | CMYK color mode. |
-| RGB | RGB color mode. |
 | LAB | LAB color mode. |
+| RGB | RGB color mode. |

@@ -5,7 +5,7 @@ weight: 130
 url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrfont/
 ---
 
-the cdr Font
+**Summary:** the cdr Font
 
 **Module:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
@@ -15,22 +15,22 @@ the cdr Font
 
 **Aspose.Imaging Version:** 23.6
 
-The CdrFont type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [CdrFont()](#CdrFont__0) | Initializes a new instance of the CdrFont class |
+| [CdrFont()](#CdrFont__1) | Initializes a new instance of the CdrFont class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
 | document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |
-| id | int | r/w | Gets or sets the identifier. |
-| font_name | string | r/w | Gets or sets the name of the font. |
 | encoding | short | r/w | Gets or sets the encoding. |
+| font_name | string | r/w | Gets or sets the name of the font. |
+| id | int | r/w | Gets or sets the identifier. |
+| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
 
-### CdrFont() {#CdrFont__0}
+
+### Constructor: CdrFont() {#CdrFont__1}
 
 
 ```

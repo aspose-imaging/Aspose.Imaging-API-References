@@ -5,7 +5,7 @@ weight: 80
 url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxtextblockspec/
 ---
 
-Represents info specified for text blocks.
+**Summary:** Represents info specified for text blocks.
 
 **Module:** [aspose.imaging.fileformats.cmx.objectmodel.specs](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/)
 
@@ -15,21 +15,21 @@ Represents info specified for text blocks.
 
 **Aspose.Imaging Version:** 23.6
 
-The CmxTextBlockSpec type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [CmxTextBlockSpec()](#CmxTextBlockSpec__0) | Initializes a new instance of the CmxTextBlockSpec class |
+| [CmxTextBlockSpec()](#CmxTextBlockSpec__1) | Initializes a new instance of the CmxTextBlockSpec class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| paragraph_style | [CmxParagraphStyle](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphstyle/) | r/w | Gets or sets the paragraph style. |
+| char_locations | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the character locations. |
 | font | [Font](/imaging/python-net/aspose.imaging.xmp.types.complex.font/font) | r/w | Gets or sets the font. |
 | matrix | [Matrix](/imaging/python-net/aspose.imaging/matrix) | r/w | Gets or sets the transformation matrix. |
+| paragraph_style | [CmxParagraphStyle](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphstyle/) | r/w | Gets or sets the paragraph style. |
 | text | string | r/w | Gets or sets the text. |
-| char_locations | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the character locations. |
 
-### CmxTextBlockSpec() {#CmxTextBlockSpec__0}
+
+### Constructor: CmxTextBlockSpec() {#CmxTextBlockSpec__1}
 
 
 ```

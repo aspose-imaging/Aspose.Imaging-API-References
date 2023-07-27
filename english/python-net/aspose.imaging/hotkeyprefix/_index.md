@@ -16,6 +16,6 @@ Specifies the type of display for hot-key prefixes that relate to text.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
+| HIDE | Do not display the hot-key prefix. |
 | NONE | No hot-key prefix. |
 | SHOW | Display the hot-key prefix. |
-| HIDE | Do not display the hot-key prefix. |

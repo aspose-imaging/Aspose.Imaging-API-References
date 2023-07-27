@@ -5,7 +5,7 @@ weight: 10
 url: /python-net/aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/
 ---
 
-Bezier Knot Record Class
+**Summary:** Bezier Knot Record Class
 
 **Module:** [aspose.imaging.fileformats.core.vectorpaths](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/)
 
@@ -15,23 +15,23 @@ Bezier Knot Record Class
 
 **Aspose.Imaging Version:** 23.6
 
-The BezierKnotRecord type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [BezierKnotRecord()](#BezierKnotRecord__0) | Initializes a new instance of the [BezierKnotRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/) class. |
-| [BezierKnotRecord(data)](#BezierKnotRecord_data_1) | Initializes a new instance of the [BezierKnotRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/) class. |
+| [BezierKnotRecord()](#BezierKnotRecord__1) | Initializes a new instance of the [BezierKnotRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/) class. |
+| [BezierKnotRecord(data)](#BezierKnotRecord_data_2) | Initializes a new instance of the [BezierKnotRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| type | [VectorPathType](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/vectorpathtype) | r | Gets the type. |
-| path_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the path points. |
-| points | [Point[]](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the points. |
 | is_closed | bool | r/w | Gets or sets a value indicating whether this instance is closed. |
 | is_linked | bool | r/w | Gets or sets a value indicating whether this instance is linked. |
 | is_open | bool | r/w | Gets or sets a value indicating whether this instance is open. |
+| path_points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the path points. |
+| points | [Point[]](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the points. |
+| type | [VectorPathType](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/vectorpathtype) | r | Gets the type. |
 
-### BezierKnotRecord() {#BezierKnotRecord__0}
+
+### Constructor: BezierKnotRecord() {#BezierKnotRecord__1}
 
 
 ```
@@ -40,7 +40,7 @@ The BezierKnotRecord type exposes the following members:
 
 Initializes a new instance of the [BezierKnotRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/) class.
 
-### BezierKnotRecord(data) {#BezierKnotRecord_data_1}
+### Constructor: BezierKnotRecord(data) {#BezierKnotRecord_data_2}
 
 
 ```

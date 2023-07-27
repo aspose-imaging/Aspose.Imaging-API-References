@@ -5,7 +5,7 @@ weight: 10
 url: /python-net/aspose.imaging.fileformats.dicom/compression/
 ---
 
-Contains the image compression settings.
+**Summary:** Contains the image compression settings.
 
 **Module:** [aspose.imaging.fileformats.dicom](/imaging/python-net/aspose.imaging.fileformats.dicom/)
 
@@ -13,19 +13,19 @@ Contains the image compression settings.
 
 **Aspose.Imaging Version:** 23.6
 
-The Compression type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [Compression()](#Compression__0) | Initializes a new instance of the Compression class |
+| [Compression()](#Compression__1) | Initializes a new instance of the Compression class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| type | [CompressionType](/imaging/python-net/aspose.imaging.fileformats.dicom/compressiontype) | r/w | Gets or sets the type. |
 | jpeg | [JpegOptions](/imaging/python-net/aspose.imaging.imageoptions/jpegoptions/) | r/w | Gets or sets the JPEG options. |
 | jpeg2000 | [Jpeg2000Options](/imaging/python-net/aspose.imaging.imageoptions/jpeg2000options/) | r/w | Gets or sets the JPEG 2000 options. |
+| type | [CompressionType](/imaging/python-net/aspose.imaging.fileformats.dicom/compressiontype) | r/w | Gets or sets the type. |
 
-### Compression() {#Compression__0}
+
+### Constructor: Compression() {#Compression__1}
 
 
 ```

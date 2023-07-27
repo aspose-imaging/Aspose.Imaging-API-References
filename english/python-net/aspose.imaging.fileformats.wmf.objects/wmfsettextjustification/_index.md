@@ -5,7 +5,7 @@ weight: 820
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsettextjustification/
 ---
 
-The META_SETTEXTJUSTIFICATION record defines the amount of space to add<br/>                to <see langword="break" /> characters in a string of justified text.
+**Summary:** The META_SETTEXTJUSTIFICATION record defines the amount of space to add<br/>                to <see langword="break" /> characters in a string of justified text.
 
 **Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
@@ -15,18 +15,18 @@ The META_SETTEXTJUSTIFICATION record defines the amount of space to add<br/>    
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfSetTextJustification type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfSetTextJustification()](#WmfSetTextJustification__0) | Initializes a new instance of the WmfSetTextJustification class |
+| [WmfSetTextJustification()](#WmfSetTextJustification__1) | Initializes a new instance of the WmfSetTextJustification class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | break_count | int | r/w | Gets or sets the <see langword="break" /> count. |
 | break_extra | int | r/w | Gets or sets the <see langword="break" /> extra. |
 
-### WmfSetTextJustification() {#WmfSetTextJustification__0}
+
+### Constructor: WmfSetTextJustification() {#WmfSetTextJustification__1}
 
 
 ```

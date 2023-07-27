@@ -16,19 +16,19 @@ The 16-bit PenStyle Enumeration is used to specify different types of pens that 
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
+| ALTERNATE | The pen sets every other pixel (this style is applicable only for cosmetic pens). |
 | COSMETIC | The cosmetic |
-| ENDCAP_ROUND | The line end caps are round. |
-| JOIN_ROUND | Line joins are round. |
-| SOLID | The pen is solid. |
 | DASH | The pen is dashed. |
-| DOT | The pen is dotted. |
 | DASHDOT | The pen has alternating dashes and dots. |
 | DASHDOTDOT | The pen has dashes and double dots. |
-| NULL | The pen is invisible. |
-| INSIDEFRAME | The pen is solid. When this pen is used in any drawing record that takes a bounding rectangle, the dimensions of<br/>                the figure are shrunk so that it fits entirely in the bounding rectangle, taking into account the width of the pen. |
-| USERSTYLE | The pen uses a styling array supplied by the user. |
-| ALTERNATE | The pen sets every other pixel (this style is applicable only for cosmetic pens). |
-| ENDCAP_SQUARE | Line end caps are square. |
+| DOT | The pen is dotted. |
 | ENDCAP_FLAT | Line end caps are flat. |
+| ENDCAP_ROUND | The line end caps are round. |
+| ENDCAP_SQUARE | Line end caps are square. |
+| INSIDEFRAME | The pen is solid. When this pen is used in any drawing record that takes a bounding rectangle, the dimensions of<br/>                the figure are shrunk so that it fits entirely in the bounding rectangle, taking into account the width of the pen. |
 | JOIN_BEVEL | Line joins are beveled. |
 | JOIN_MITER | Line joins are mitered when they are within the current<br/>                limit set by the SETMITERLIMIT META_ESCAPE record. A join is beveled when it would exceed the limit. |
+| JOIN_ROUND | Line joins are round. |
+| NULL | The pen is invisible. |
+| SOLID | The pen is solid. |
+| USERSTYLE | The pen uses a styling array supplied by the user. |

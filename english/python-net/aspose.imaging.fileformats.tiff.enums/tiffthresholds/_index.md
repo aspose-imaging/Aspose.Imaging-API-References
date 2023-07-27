@@ -16,6 +16,6 @@ Thresholding used on data.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| NO_DITHERING | No dithering is performed. |
-| HALF_TONE | Dithered scan. |
 | ERROR_DIFFUSE | Usually Floyd-Steinberg. |
+| HALF_TONE | Dithered scan. |
+| NO_DITHERING | No dithering is performed. |

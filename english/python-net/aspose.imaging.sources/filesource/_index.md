@@ -5,7 +5,7 @@ weight: 30
 url: /python-net/aspose.imaging.sources/filesource/
 ---
 
-Represents a file source which is capable of files manipulation.
+**Summary:** Represents a file source which is capable of files manipulation.
 
 **Module:** [aspose.imaging.sources](/imaging/python-net/aspose.imaging.sources/)
 
@@ -15,17 +15,17 @@ Represents a file source which is capable of files manipulation.
 
 **Aspose.Imaging Version:** 23.6
 
-The FileSource type exposes the following members:
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | is_temporal | bool | r | Gets a value indicating whether file will be temporal. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_stream_container()](#get_stream_container__0) | Gets the stream container. |
+| [get_stream_container()](#get_stream_container__1) | Gets the stream container. |
 
-### get_stream_container() {#get_stream_container__0}
+
+### Method: get_stream_container() {#get_stream_container__1}
 
 
 ```

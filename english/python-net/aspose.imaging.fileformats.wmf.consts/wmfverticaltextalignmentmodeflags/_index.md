@@ -16,9 +16,9 @@ VerticalTextAlignmentMode Flags specify the relationship between a reference poi
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| VTA_TOP | The reference point MUST be on the top edge of the bounding rectangle. |
-| VTA_RIGHT | The reference point MUST be on the right edge of the bounding rectangle. |
+| VTA_BASELINE | The reference point MUST be on the baseline of the text. |
 | VTA_BOTTOM | The reference point MUST be on the bottom edge of the bounding rectangle. |
 | VTA_CENTER | The reference point MUST be aligned vertically with the center of the bounding rectangle. |
 | VTA_LEFT | The reference point MUST be on the left edge of the bounding rectangle. |
-| VTA_BASELINE | The reference point MUST be on the baseline of the text. |
+| VTA_RIGHT | The reference point MUST be on the right edge of the bounding rectangle. |
+| VTA_TOP | The reference point MUST be on the top edge of the bounding rectangle. |

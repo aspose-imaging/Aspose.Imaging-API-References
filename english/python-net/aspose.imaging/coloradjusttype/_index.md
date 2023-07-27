@@ -16,10 +16,10 @@ Specifies which objects use color adjustment information.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| DEFAULT | Color adjustment information that is used by all GDI+ objects that do not have their own color adjustment information. |
+| ANY | The number of types specified. |
 | BITMAP | Color adjustment information for Bitmap objects. |
 | BRUSH | Color adjustment information for Brush objects. |
+| COUNT | The number of types specified. |
+| DEFAULT | Color adjustment information that is used by all GDI+ objects that do not have their own color adjustment information. |
 | PEN | Color adjustment information for Pen objects. |
 | TEXT | Color adjustment information for text. |
-| COUNT | The number of types specified. |
-| ANY | The number of types specified. |

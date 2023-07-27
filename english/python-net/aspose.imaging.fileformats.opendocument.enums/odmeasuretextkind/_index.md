@@ -16,7 +16,7 @@ The measure text kind
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| NONE | The Measure text kind is none |
 | GAP | The Measure text kind is gap |
-| VALUE | The Measure text kind is value |
+| NONE | The Measure text kind is none |
 | UNIT | The Measure text kind is unit |
+| VALUE | The Measure text kind is value |

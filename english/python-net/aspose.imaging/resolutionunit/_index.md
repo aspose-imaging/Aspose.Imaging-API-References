@@ -16,6 +16,6 @@ Resolution unit enum.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| NONE | Undefined units |
-| INCH | Inch units |
 | CM | Metric centimeter units |
+| INCH | Inch units |
+| NONE | Undefined units |

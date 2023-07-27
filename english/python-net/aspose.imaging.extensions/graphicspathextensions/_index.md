@@ -5,7 +5,7 @@ weight: 80
 url: /python-net/aspose.imaging.extensions/graphicspathextensions/
 ---
 
-Contains the [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) extension methods.
+**Summary:** Contains the [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) extension methods.
 
 **Module:** [aspose.imaging.extensions](/imaging/python-net/aspose.imaging.extensions/)
 
@@ -13,13 +13,13 @@ Contains the [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) ex
 
 **Aspose.Imaging Version:** 23.6
 
-The GraphicsPathExtensions type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [to_gdi_graphics_path(graphics_path)](#to_gdi_graphics_path_graphics_path_0) | Converts the [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to the aspose.pydrawing.drawing2d.GraphicsPath. |
+| [to_gdi_graphics_path(graphics_path)](#to_gdi_graphics_path_graphics_path_1) | Converts the [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to the aspose.pydrawing.drawing2d.GraphicsPath. |
 
-### to_gdi_graphics_path(graphics_path)  [static] {#to_gdi_graphics_path_graphics_path_0}
+
+### Method: to_gdi_graphics_path(graphics_path)  [static] {#to_gdi_graphics_path_graphics_path_1}
 
 
 ```

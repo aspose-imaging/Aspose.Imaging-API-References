@@ -9,13 +9,13 @@ url: /python-net/aspose.imaging.fileformats.jpeg/
 The module handles Jpeg file format processing.
 
 ## **Classes**
-|**Class**|**Description**|
+| **Class** | **Description** |
 | :- | :- |
-|[JFIFData](/imaging/python-net/aspose.imaging.fileformats.jpeg/jfifdata/)|The jfif segment.|
-|[JpegImage](/imaging/python-net/aspose.imaging.fileformats.jpeg/jpegimage/)|A jpeg image.|
-|[JpegLsPresetCodingParameters](/imaging/python-net/aspose.imaging.fileformats.jpeg/jpeglspresetcodingparameters/)|Defines the JPEG-LS preset coding parameters as defined in ISO/IEC 14495-1, C.2.4.1.1.<br/>            JPEG-LS defines a default set of parameters, but custom parameters can be used.<br/>            When used these parameters are written into the encoded bit stream as they are needed for the decoding process.|
+| [JFIFData](/imaging/python-net/aspose.imaging.fileformats.jpeg/jfifdata/) | The jfif segment. |
+| [JpegImage](/imaging/python-net/aspose.imaging.fileformats.jpeg/jpegimage/) | A jpeg image. |
+| [JpegLsPresetCodingParameters](/imaging/python-net/aspose.imaging.fileformats.jpeg/jpeglspresetcodingparameters/) | Defines the JPEG-LS preset coding parameters as defined in ISO/IEC 14495-1, C.2.4.1.1.<br/>            JPEG-LS defines a default set of parameters, but custom parameters can be used.<br/>            When used these parameters are written into the encoded bit stream as they are needed for the decoding process. |
 ## **Enumerations**
-|**Enumeration**|**Description**|
+| **Enumeration** | **Description** |
 | :- | :- |
 | [JfifDensityUnits](/imaging/python-net/aspose.imaging.fileformats.jpeg/jfifdensityunits/) | The jfif density units. |
 | [JpegCompressionColorMode](/imaging/python-net/aspose.imaging.fileformats.jpeg/jpegcompressioncolormode/) | Сolor mode for jpeg images. |

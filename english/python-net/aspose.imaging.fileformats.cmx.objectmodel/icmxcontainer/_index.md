@@ -5,7 +5,7 @@ weight: 220
 url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/icmxcontainer/
 ---
 
-Defines the container for child elements.
+**Summary:** Defines the container for child elements.
 
 **Module:** [aspose.imaging.fileformats.cmx.objectmodel](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel/)
 
@@ -15,9 +15,9 @@ Defines the container for child elements.
 
 **Aspose.Imaging Version:** 23.6
 
-The ICmxContainer type exposes the following members:
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| elements | System.Collections.Generic.IList<ICmxDocElement> | r | Gets the elements. |
+| elements | list[ICmxDocElement] | r | Gets the elements. |
+
 

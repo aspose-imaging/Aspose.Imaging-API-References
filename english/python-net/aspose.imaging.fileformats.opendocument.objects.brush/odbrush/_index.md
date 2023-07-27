@@ -5,7 +5,7 @@ weight: 10
 url: /python-net/aspose.imaging.fileformats.opendocument.objects.brush/odbrush/
 ---
 
-The open document brush
+**Summary:** The open document brush
 
 **Module:** [aspose.imaging.fileformats.opendocument.objects.brush](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/)
 
@@ -13,17 +13,17 @@ The open document brush
 
 **Aspose.Imaging Version:** 23.6
 
-The OdBrush type exposes the following members:
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | brush_style | [OdBrushStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/odbrushstyle) | r | Gets the style. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [clone()](#clone__0) | Clone this instance. |
+| [clone()](#clone__1) | Clone this instance. |
 
-### clone() {#clone__0}
+
+### Method: clone() {#clone__1}
 
 
 ```

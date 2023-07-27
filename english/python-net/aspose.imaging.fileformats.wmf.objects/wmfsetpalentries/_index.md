@@ -5,7 +5,7 @@ weight: 730
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetpalentries/
 ---
 
-The META_SETPALENTRIES record defines RGB color values in a range of<br/>                entries in the logical palette that is defined in the playback device<br/>                context.
+**Summary:** The META_SETPALENTRIES record defines RGB color values in a range of<br/>                entries in the logical palette that is defined in the playback device<br/>                context.
 
 **Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
@@ -15,18 +15,18 @@ The META_SETPALENTRIES record defines RGB color values in a range of<br/>       
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfSetPalentries type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfSetPalentries()](#WmfSetPalentries__0) | Initializes a new instance of the WmfSetPalentries class |
+| [WmfSetPalentries()](#WmfSetPalentries__1) | Initializes a new instance of the WmfSetPalentries class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | log_palette | [EmfLogPalette](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogpalette/) | r/w | Gets or sets the log palette. |
 | start | int | r/w | Gets or sets the start. |
 
-### WmfSetPalentries() {#WmfSetPalentries__0}
+
+### Constructor: WmfSetPalentries() {#WmfSetPalentries__1}
 
 
 ```

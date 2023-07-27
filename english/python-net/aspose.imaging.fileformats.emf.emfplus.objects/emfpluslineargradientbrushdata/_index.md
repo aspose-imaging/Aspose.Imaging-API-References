@@ -5,7 +5,7 @@ weight: 440
 url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushdata/
 ---
 
-The EmfPlusLinearGradientBrushData object specifies a linear gradient for a graphics brush.
+**Summary:** The EmfPlusLinearGradientBrushData object specifies a linear gradient for a graphics brush.
 
 **Module:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
@@ -15,13 +15,12 @@ The EmfPlusLinearGradientBrushData object specifies a linear gradient for a grap
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfPlusLinearGradientBrushData type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EmfPlusLinearGradientBrushData()](#EmfPlusLinearGradientBrushData__0) | Initializes a new instance of the EmfPlusLinearGradientBrushData class |
+| [EmfPlusLinearGradientBrushData()](#EmfPlusLinearGradientBrushData__1) | Initializes a new instance of the EmfPlusLinearGradientBrushData class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | brush_data_flags | [EmfPlusBrushDataFlags](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushdataflags/) | r/w | Gets or sets the brush data flags. |
 | end_argb_32_color | int | r/w | Gets or sets the end color. |
@@ -30,7 +29,8 @@ The EmfPlusLinearGradientBrushData type exposes the following members:
 | start_argb_32_color | int | r/w | Gets or sets the start color. |
 | wrap_mode | [EmfPlusWrapMode](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluswrapmode/) | r/w | Gets or sets the wrap mode. |
 
-### EmfPlusLinearGradientBrushData() {#EmfPlusLinearGradientBrushData__0}
+
+### Constructor: EmfPlusLinearGradientBrushData() {#EmfPlusLinearGradientBrushData__1}
 
 
 ```

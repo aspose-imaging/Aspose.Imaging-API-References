@@ -5,7 +5,7 @@ weight: 10
 url: /python-net/aspose.imaging.xmp.types.complex.colorant/colorantbase/
 ---
 
-Represents XMP Colorant type.
+**Summary:** Represents XMP Colorant type.
 
 **Module:** [aspose.imaging.xmp.types.complex.colorant](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/)
 
@@ -15,21 +15,21 @@ Represents XMP Colorant type.
 
 **Aspose.Imaging Version:** 23.6
 
-The ColorantBase type exposes the following members:
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| prefix | string | r | Gets the prefix. |
-| namespace_uri | string | r | Gets the default namespace URI. |
-| mode | [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode) | r | Gets [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode/). |
-| swatch_name | string | r/w | Gets or sets the name of the swatch. |
 | color_type | [ColorType](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colortype) | r/w | Gets or sets the type of the color. |
+| mode | [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode) | r | Gets [ColorMode](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colormode/). |
+| namespace_uri | string | r | Gets the default namespace URI. |
+| prefix | string | r | Gets the prefix. |
+| swatch_name | string | r/w | Gets or sets the name of the swatch. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_xmp_representation()](#get_xmp_representation__0) | Gets the string contained value in XMP format. |
+| [get_xmp_representation()](#get_xmp_representation__1) | Gets the string contained value in XMP format. |
 
-### get_xmp_representation() {#get_xmp_representation__0}
+
+### Method: get_xmp_representation() {#get_xmp_representation__1}
 
 
 ```

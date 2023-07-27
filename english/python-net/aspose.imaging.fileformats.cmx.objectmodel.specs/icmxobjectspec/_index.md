@@ -5,7 +5,7 @@ weight: 90
 url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/icmxobjectspec/
 ---
 
-Specification of graphics object
+**Summary:** Specification of graphics object
 
 **Module:** [aspose.imaging.fileformats.cmx.objectmodel.specs](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/)
 
@@ -13,5 +13,5 @@ Specification of graphics object
 
 **Aspose.Imaging Version:** 23.6
 
-The ICmxObjectSpec type exposes the following members:
+
 

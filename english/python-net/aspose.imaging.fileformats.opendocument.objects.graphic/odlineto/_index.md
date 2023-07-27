@@ -5,7 +5,7 @@ weight: 170
 url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/
 ---
 
-The enhanced lineTo
+**Summary:** The enhanced lineTo
 
 **Module:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
@@ -15,22 +15,22 @@ The enhanced lineTo
 
 **Aspose.Imaging Version:** 23.6
 
-The OdLineTo type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [OdLineTo(parent)](#OdLineTo_parent_0) | Initializes a new instance of the [OdLineTo](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/) class. |
+| [OdLineTo(parent)](#OdLineTo_parent_1) | Initializes a new instance of the [OdLineTo](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
-| items | System.Collections.Generic.List<OdObject> | r | Gets the items. |
 | absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
 | coordinates | [PointF](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the coordinates. |
-| vertical | bool | r/w | Gets or sets a value indicating whether this [OdLineTo](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/) is vertical. |
 | horizontal | bool | r/w | Gets or sets a value indicating whether this [OdLineTo](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/) is vertical. |
+| items | list[OdObject] | r | Gets the items. |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
+| vertical | bool | r/w | Gets or sets a value indicating whether this [OdLineTo](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/) is vertical. |
 
-### OdLineTo(parent) {#OdLineTo_parent_0}
+
+### Constructor: OdLineTo(parent) {#OdLineTo_parent_1}
 
 
 ```

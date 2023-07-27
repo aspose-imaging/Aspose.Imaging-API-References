@@ -5,7 +5,7 @@ weight: 60
 url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfformat/
 ---
 
-The EmrFormat object contains information that identifies the format of image data in an<br/>            EMR_COMMENT_MULTIFORMATS record(section 2.3.3.4.3).
+**Summary:** The EmrFormat object contains information that identifies the format of image data in an<br/>            EMR_COMMENT_MULTIFORMATS record(section 2.3.3.4.3).
 
 **Module:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
@@ -15,20 +15,20 @@ The EmrFormat object contains information that identifies the format of image da
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfFormat type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EmfFormat()](#EmfFormat__0) | Initializes a new instance of the EmfFormat class |
+| [EmfFormat()](#EmfFormat__1) | Initializes a new instance of the EmfFormat class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| signature | [EmfFormatSignature](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfformatsignature/) | r/w | Gets or sets a 32-bit unsigned integer that specifies the format of the image data. <br/>            This value MUST be in the FormatSignature enumeration (section 2.1.14). |
-| version | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the format version number. <br/>            If the Signature field specifies encapsulated PostScript (EPS), <br/>            this value MUST be 0x00000001; otherwise, this value MUST be ignored |
-| size_data | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the size of the data in bytes |
 | off_data | int | r/w | Gets or sets 32-bit unsigned integer that specifies the offset to the data from the <br/>            start of the identifier field in an EMR_COMMENT_PUBLIC record (section 2.3.3.4). <br/>            The offset MUST be 32-bit aligned. |
+| signature | [EmfFormatSignature](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfformatsignature/) | r/w | Gets or sets a 32-bit unsigned integer that specifies the format of the image data. <br/>            This value MUST be in the FormatSignature enumeration (section 2.1.14). |
+| size_data | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the size of the data in bytes |
+| version | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the format version number. <br/>            If the Signature field specifies encapsulated PostScript (EPS), <br/>            this value MUST be 0x00000001; otherwise, this value MUST be ignored |
 
-### EmfFormat() {#EmfFormat__0}
+
+### Constructor: EmfFormat() {#EmfFormat__1}
 
 
 ```

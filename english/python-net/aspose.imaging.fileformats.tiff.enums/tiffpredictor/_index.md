@@ -16,5 +16,5 @@ Prediction scheme for LZW
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| NONE | No prediction scheme used. |
 | HORIZONTAL | Horizontal differencing. |
+| NONE | No prediction scheme used. |

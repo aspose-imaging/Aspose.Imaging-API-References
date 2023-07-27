@@ -5,7 +5,7 @@ weight: 50
 url: /python-net/aspose.imaging.extensions/colormatrixextensions/
 ---
 
-The [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/) extension methods.
+**Summary:** The [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/) extension methods.
 
 **Module:** [aspose.imaging.extensions](/imaging/python-net/aspose.imaging.extensions/)
 
@@ -13,13 +13,13 @@ The [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/) extension met
 
 **Aspose.Imaging Version:** 23.6
 
-The ColorMatrixExtensions type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [to_gdi_color_matrix(color_matrix)](#to_gdi_color_matrix_color_matrix_0) | Converts the [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/) to the . |
+| [to_gdi_color_matrix(color_matrix)](#to_gdi_color_matrix_color_matrix_1) | Converts the [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/) to the . |
 
-### to_gdi_color_matrix(color_matrix)  [static] {#to_gdi_color_matrix_color_matrix_0}
+
+### Method: to_gdi_color_matrix(color_matrix)  [static] {#to_gdi_color_matrix_color_matrix_1}
 
 
 ```

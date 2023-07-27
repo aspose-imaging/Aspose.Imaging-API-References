@@ -16,11 +16,11 @@ exif metering mode enum.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| UNKNOWN | Undefined mode |
 | AVERAGE | Average metering |
 | CENTERWEIGHTEDAVERAGE | Center weighted average. |
-| SPOT | Spot metering |
-| MULTI_SPOT | Multi spot metering |
 | MULTI_SEGMENT | Multi segment metering. |
-| PARTIAL | Partial metering. |
+| MULTI_SPOT | Multi spot metering |
 | OTHER | For other modes. |
+| PARTIAL | Partial metering. |
+| SPOT | Spot metering |
+| UNKNOWN | Undefined mode |

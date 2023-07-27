@@ -16,5 +16,5 @@ EmfPlusObjectClamp specifies the object clamping behavior. It<br/>            is
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| RECT_CLAMP | The rectangle clamp |
 | BITMAP_CLAMP | The bitmap clamp |
+| RECT_CLAMP | The rectangle clamp |

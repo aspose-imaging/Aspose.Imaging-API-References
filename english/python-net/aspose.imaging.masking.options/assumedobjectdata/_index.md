@@ -5,7 +5,7 @@ weight: 10
 url: /python-net/aspose.imaging.masking.options/assumedobjectdata/
 ---
 
-The assumed object's data. Includes object's type and area.
+**Summary:** The assumed object's data. Includes object's type and area.
 
 **Module:** [aspose.imaging.masking.options](/imaging/python-net/aspose.imaging.masking.options/)
 
@@ -13,20 +13,20 @@ The assumed object's data. Includes object's type and area.
 
 **Aspose.Imaging Version:** 23.6
 
-The AssumedObjectData type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [AssumedObjectData()](#AssumedObjectData__0) | Initializes a new instance of the [AssumedObjectData](/imaging/python-net/aspose.imaging.masking.options/assumedobjectdata/) class. |
-| [AssumedObjectData(type, bounds)](#AssumedObjectData_type_bounds_1) | Initializes a new instance of the [AssumedObjectData](/imaging/python-net/aspose.imaging.masking.options/assumedobjectdata/) class. |
+| [AssumedObjectData()](#AssumedObjectData__1) | Initializes a new instance of the [AssumedObjectData](/imaging/python-net/aspose.imaging.masking.options/assumedobjectdata/) class. |
 | [AssumedObjectData(type, bounds)](#AssumedObjectData_type_bounds_2) | Initializes a new instance of the [AssumedObjectData](/imaging/python-net/aspose.imaging.masking.options/assumedobjectdata/) class. |
+| [AssumedObjectData(type, bounds)](#AssumedObjectData_type_bounds_3) | Initializes a new instance of the [AssumedObjectData](/imaging/python-net/aspose.imaging.masking.options/assumedobjectdata/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| type | [DetectedObjectType](/imaging/python-net/aspose.imaging.masking.options/detectedobjecttype) | r/w | Gets or sets the object's type. |
 | bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets the object's bounds. |
+| type | [DetectedObjectType](/imaging/python-net/aspose.imaging.masking.options/detectedobjecttype) | r/w | Gets or sets the object's type. |
 
-### AssumedObjectData() {#AssumedObjectData__0}
+
+### Constructor: AssumedObjectData() {#AssumedObjectData__1}
 
 
 ```
@@ -35,7 +35,7 @@ The AssumedObjectData type exposes the following members:
 
 Initializes a new instance of the [AssumedObjectData](/imaging/python-net/aspose.imaging.masking.options/assumedobjectdata/) class.
 
-### AssumedObjectData(type, bounds) {#AssumedObjectData_type_bounds_1}
+### Constructor: AssumedObjectData(type, bounds) {#AssumedObjectData_type_bounds_2}
 
 
 ```
@@ -51,7 +51,7 @@ Initializes a new instance of the [AssumedObjectData](/imaging/python-net/aspose
 | type | [DetectedObjectType](/imaging/python-net/aspose.imaging.masking.options/detectedobjecttype) | The object's type. |
 | bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The object's bounds. |
 
-### AssumedObjectData(type, bounds) {#AssumedObjectData_type_bounds_2}
+### Constructor: AssumedObjectData(type, bounds) {#AssumedObjectData_type_bounds_3}
 
 
 ```

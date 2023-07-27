@@ -5,7 +5,7 @@ weight: 340
 url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfdrawescape/
 ---
 
-The EMR_DRAWESCAPE record passes arbitrary information to a printer driver. The intent is that the<br/>            information will result in drawing being done.
+**Summary:** The EMR_DRAWESCAPE record passes arbitrary information to a printer driver. The intent is that the<br/>            information will result in drawing being done.
 
 **Module:** [aspose.imaging.fileformats.emf.emf.records](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/)
 
@@ -15,26 +15,26 @@ The EMR_DRAWESCAPE record passes arbitrary information to a printer driver. The 
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfDrawEscape type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EmfDrawEscape(source)](#EmfDrawEscape_source_0) | Initializes a new instance of the [EmfDrawEscape](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfdrawescape/) class. |
+| [EmfDrawEscape(source)](#EmfDrawEscape_source_1) | Initializes a new instance of the [EmfDrawEscape](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfdrawescape/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
-| size | int | r/w | Gets or sets the size of the record |
-| escape | [WmfMetafileEscapes](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfmetafileescapes/) | r/w | Gets or sets a 32-bit unsigned integer that specifies the printer driver escape to<br/>            execute. This MUST be one of the values in the WMF MetafileEscapes enumeration ([MSWMF] section 2.1.1.17). |
 | cj_in | int | r/w | Gets or sets a 32-bit unsigned integer specifying the number of bytes to pass to the printer driver. |
 | data | byte | r/w | Gets or sets the data to pass to the printer driver. There MUST be cjIn bytes available. |
+| escape | [WmfMetafileEscapes](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfmetafileescapes/) | r/w | Gets or sets a 32-bit unsigned integer that specifies the printer driver escape to<br/>            execute. This MUST be one of the values in the WMF MetafileEscapes enumeration ([MSWMF] section 2.1.1.17). |
+| size | int | r/w | Gets or sets the size of the record |
+| type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
 | [create_from_record(source)](#create_from_record_source_1) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
 | [create_from_type(type)](#create_from_type_type_2) | Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord/) class. |
 
-### EmfDrawEscape(source) {#EmfDrawEscape_source_0}
+
+### Constructor: EmfDrawEscape(source) {#EmfDrawEscape_source_1}
 
 
 ```
@@ -49,7 +49,7 @@ Initializes a new instance of the [EmfDrawEscape](/imaging/python-net/aspose.ima
 | :- | :- | :- |
 | source | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) | The source. |
 
-### create_from_record(source)  [static] {#create_from_record_source_1}
+### Method: create_from_record(source)  [static] {#create_from_record_source_1}
 
 
 ```
@@ -71,7 +71,7 @@ Initializes a new instance of the [EmfRecord](/imaging/python-net/aspose.imaging
 | [EmfRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrecord) |  |
 
 
-### create_from_type(type)  [static] {#create_from_type_type_2}
+### Method: create_from_type(type)  [static] {#create_from_type_type_2}
 
 
 ```

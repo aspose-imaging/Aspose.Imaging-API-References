@@ -5,7 +5,7 @@ weight: 450
 url: /python-net/aspose.imaging.xmp/xmppackagebasecollection/
 ---
 
-Represents collection of [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/).
+**Summary:** Represents collection of [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/).
 
 **Module:** [aspose.imaging.xmp](/imaging/python-net/aspose.imaging.xmp/)
 
@@ -13,25 +13,25 @@ Represents collection of [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmp
 
 **Aspose.Imaging Version:** 23.6
 
-The XmpPackageBaseCollection type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [XmpPackageBaseCollection()](#XmpPackageBaseCollection__0) | Initializes a new instance of the [XmpPackageBaseCollection](/imaging/python-net/aspose.imaging.xmp/xmppackagebasecollection/) class. |
+| [XmpPackageBaseCollection()](#XmpPackageBaseCollection__1) | Initializes a new instance of the [XmpPackageBaseCollection](/imaging/python-net/aspose.imaging.xmp/xmppackagebasecollection/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | count | int | r | Gets the number of elements in the collection. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
 | [add(package)](#add_package_1) | Adds new instance of [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/). |
-| [remove(package)](#remove_package_2) | Removes the specified XMP package. |
-| [get_packages()](#get_packages__3) | Get array of [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/). |
-| [get_package(namespace_uri)](#get_package_namespace_uri_4) | Gets [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/) by it's namespaceURI. |
 | clear() | Clear all [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/) inside collection. |
+| [get_package(namespace_uri)](#get_package_namespace_uri_2) | Gets [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/) by it's namespaceURI. |
+| [get_packages()](#get_packages__3) | Get array of [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/). |
+| [remove(package)](#remove_package_4) | Removes the specified XMP package. |
 
-### XmpPackageBaseCollection() {#XmpPackageBaseCollection__0}
+
+### Constructor: XmpPackageBaseCollection() {#XmpPackageBaseCollection__1}
 
 
 ```
@@ -40,7 +40,7 @@ The XmpPackageBaseCollection type exposes the following members:
 
 Initializes a new instance of the [XmpPackageBaseCollection](/imaging/python-net/aspose.imaging.xmp/xmppackagebasecollection/) class.
 
-### add(package) {#add_package_1}
+### Method: add(package) {#add_package_1}
 
 
 ```
@@ -55,38 +55,7 @@ Adds new instance of [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppack
 | :- | :- | :- |
 | package | [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage) | The XMP package to add. |
 
-### remove(package) {#remove_package_2}
-
-
-```
- remove(package) 
-```
-
-Removes the specified XMP package.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| package | [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage) | The XMP package to remove. |
-
-### get_packages() {#get_packages__3}
-
-
-```
- get_packages() 
-```
-
-Get array of [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/).
-
-**Returns**
-
-| Type | Description |
-| :- | :- |
-| [XmpPackage[]](/imaging/python-net/aspose.imaging.xmp/xmppackage) | Returns an array of XMP packages. |
-
-
-### get_package(namespace_uri) {#get_package_namespace_uri_4}
+### Method: get_package(namespace_uri) {#get_package_namespace_uri_2}
 
 
 ```
@@ -107,4 +76,35 @@ Gets [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/) by it's na
 | :- | :- |
 | [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage) | Returns XMP package for specified namespace Uri. |
 
+
+### Method: get_packages() {#get_packages__3}
+
+
+```
+ get_packages() 
+```
+
+Get array of [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/).
+
+**Returns**
+
+| Type | Description |
+| :- | :- |
+| [XmpPackage[]](/imaging/python-net/aspose.imaging.xmp/xmppackage) | Returns an array of XMP packages. |
+
+
+### Method: remove(package) {#remove_package_4}
+
+
+```
+ remove(package) 
+```
+
+Removes the specified XMP package.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| package | [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage) | The XMP package to remove. |
 

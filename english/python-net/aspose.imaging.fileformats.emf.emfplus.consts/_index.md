@@ -9,11 +9,11 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/
 The module contains types [MS-EMFPLUS]: Enhanced Metafile Format Plus Extensions 2.1 EMF+ Constants
 
 ## **Classes**
-|**Class**|**Description**|
+| **Class** | **Description** |
 | :- | :- |
-|[EmfPlusImageEffectsIdentifiers](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/)|The ImageEffects identifiers define standard GUIDs for specifying graphics image effects. These identifiers are used by device drivers to publish their levels of support for these effects. The identifier constants are defined using the GUID curly-braced string representation ([MS-DTYP] section 2.3.4.3).|
+| [EmfPlusImageEffectsIdentifiers](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffectsidentifiers/) | The ImageEffects identifiers define standard GUIDs for specifying graphics image effects. These identifiers are used by device drivers to publish their levels of support for these effects. The identifier constants are defined using the GUID curly-braced string representation ([MS-DTYP] section 2.3.4.3). |
 ## **Enumerations**
-|**Enumeration**|**Description**|
+| **Enumeration** | **Description** |
 | :- | :- |
 | [EmfPlusBitmapDataType](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusbitmapdatatype/) | The BitmapDataType enumeration defines types of bitmap data formats. |
 | [EmfPlusBrushDataFlags](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushdataflags/) | The BrushData flags specify properties of graphics brushes, including the presence of optional data fields. These flags can be combined to specify multiple options. |

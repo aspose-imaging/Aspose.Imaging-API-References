@@ -5,7 +5,7 @@ weight: 60
 url: /python-net/aspose.imaging.imageoptions/dicomoptions/
 ---
 
-The DICOM file format creation options.
+**Summary:** The DICOM file format creation options.
 
 **Module:** [aspose.imaging.imageoptions](/imaging/python-net/aspose.imaging.imageoptions/)
 
@@ -15,31 +15,31 @@ The DICOM file format creation options.
 
 **Aspose.Imaging Version:** 23.6
 
-The DicomOptions type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [DicomOptions()](#DicomOptions__0) | Initializes a new instance of the [DicomOptions](/imaging/python-net/aspose.imaging.imageoptions/dicomoptions/) class. |
+| [DicomOptions()](#DicomOptions__1) | Initializes a new instance of the [DicomOptions](/imaging/python-net/aspose.imaging.imageoptions/dicomoptions/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
+| buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+| color_type | [ColorType](/imaging/python-net/aspose.imaging.fileformats.dicom/colortype/) | r/w | Gets or sets the type of the color. |
+| compression | [Compression](/imaging/python-net/aspose.imaging.fileformats.dicom/compression/) | r/w | Gets or sets the compression. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets the Xmp data. |
-| source | [Source](/imaging/python-net/aspose.imaging/source) | r/w | Gets or sets the source to create image in. |
+| full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
+| multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |
 | palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette. |
 | resolution_settings | [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting) | r/w | Gets or sets the resolution settings. |
+| source | [Source](/imaging/python-net/aspose.imaging/source) | r/w | Gets or sets the source to create image in. |
 | vector_rasterization_options | [VectorRasterizationOptions](/imaging/python-net/aspose.imaging.imageoptions/vectorrasterizationoptions) | r/w | Gets or sets the vector rasterization options. |
-| buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
-| multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |
-| full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
-| compression | [Compression](/imaging/python-net/aspose.imaging.fileformats.dicom/compression/) | r/w | Gets or sets the compression. |
-| color_type | [ColorType](/imaging/python-net/aspose.imaging.fileformats.dicom/colortype/) | r/w | Gets or sets the type of the color. |
+| xmp_data | [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) | r/w | Gets or sets the Xmp data. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
 | [clone()](#clone__1) | Clones this instance. |
 
-### DicomOptions() {#DicomOptions__0}
+
+### Constructor: DicomOptions() {#DicomOptions__1}
 
 
 ```
@@ -48,7 +48,7 @@ The DicomOptions type exposes the following members:
 
 Initializes a new instance of the [DicomOptions](/imaging/python-net/aspose.imaging.imageoptions/dicomoptions/) class.
 
-### clone() {#clone__1}
+### Method: clone() {#clone__1}
 
 
 ```

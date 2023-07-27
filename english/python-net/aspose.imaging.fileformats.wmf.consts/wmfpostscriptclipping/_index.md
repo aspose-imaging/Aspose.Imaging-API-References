@@ -16,6 +16,6 @@ The PostScriptClipping Enumeration defines functions that can be applied to the 
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| CLIP_SAVE | Saves the current PostScript clipping path. |
-| CLIP_RESTORE | Restores the PostScript clipping path to the last clipping path that was saved<br/>                by a previous CLIP_SAVE function applied by a CLIP_TO_PATH record (section 2.3.6.6). |
 | CLIP_INCLUSIVE | Intersects the current PostScript clipping path with the current clipping path<br/>                and saves the result as the new PostScript clipping path. |
+| CLIP_RESTORE | Restores the PostScript clipping path to the last clipping path that was saved<br/>                by a previous CLIP_SAVE function applied by a CLIP_TO_PATH record (section 2.3.6.6). |
+| CLIP_SAVE | Saves the current PostScript clipping path. |

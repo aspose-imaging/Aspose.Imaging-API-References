@@ -5,7 +5,7 @@ weight: 10
 url: /python-net/aspose.imaging.fileformats.tiff.instancefactory/itifftagcreator/
 ---
 
-The tiff tag creator.
+**Summary:** The tiff tag creator.
 
 **Module:** [aspose.imaging.fileformats.tiff.instancefactory](/imaging/python-net/aspose.imaging.fileformats.tiff.instancefactory/)
 
@@ -13,13 +13,13 @@ The tiff tag creator.
 
 **Aspose.Imaging Version:** 23.6
 
-The ITiffTagCreator type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [create_instance(tag_id)](#create_instance_tag_id_0) | Creates a new tag instance. |
+| [create_instance(tag_id)](#create_instance_tag_id_1) | Creates a new tag instance. |
 
-### create_instance(tag_id) {#create_instance_tag_id_0}
+
+### Method: create_instance(tag_id) {#create_instance_tag_id_1}
 
 
 ```

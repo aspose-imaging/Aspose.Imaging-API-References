@@ -5,7 +5,7 @@ weight: 20
 url: /python-net/aspose.imaging.xmp.types.derived/renditionclass/
 ---
 
-Represents the XMP Rendition.
+**Summary:** Represents the XMP Rendition.
 
 **Module:** [aspose.imaging.xmp.types.derived](/imaging/python-net/aspose.imaging.xmp.types.derived/)
 
@@ -15,24 +15,24 @@ Represents the XMP Rendition.
 
 **Aspose.Imaging Version:** 23.6
 
-The RenditionClass type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [RenditionClass()](#RenditionClass__0) | Initializes a new instance of the [RenditionClass](/imaging/python-net/aspose.imaging.xmp.types.derived/renditionclass/) class. |
-| [RenditionClass(token, value)](#RenditionClass_token_value_1) | Initializes a new instance of the [RenditionClass](/imaging/python-net/aspose.imaging.xmp.types.derived/renditionclass/) class. |
+| [RenditionClass()](#RenditionClass__1) | Initializes a new instance of the [RenditionClass](/imaging/python-net/aspose.imaging.xmp.types.derived/renditionclass/) class. |
+| [RenditionClass(token, value)](#RenditionClass_token_value_2) | Initializes a new instance of the [RenditionClass](/imaging/python-net/aspose.imaging.xmp.types.derived/renditionclass/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
+| defined_values [static] | string | r | The defined values |
 | token | string | r/w | Gets or sets the token. |
 | value | string | r/w | Gets or sets the value. |
-| defined_values [static] | string | r | The defined values |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_xmp_representation()](#get_xmp_representation__2) | Gets the string contained value in XMP format. |
+| [get_xmp_representation()](#get_xmp_representation__1) | Gets the string contained value in XMP format. |
 
-### RenditionClass() {#RenditionClass__0}
+
+### Constructor: RenditionClass() {#RenditionClass__1}
 
 
 ```
@@ -41,7 +41,7 @@ The RenditionClass type exposes the following members:
 
 Initializes a new instance of the [RenditionClass](/imaging/python-net/aspose.imaging.xmp.types.derived/renditionclass/) class.
 
-### RenditionClass(token, value) {#RenditionClass_token_value_1}
+### Constructor: RenditionClass(token, value) {#RenditionClass_token_value_2}
 
 
 ```
@@ -57,7 +57,7 @@ Initializes a new instance of the [RenditionClass](/imaging/python-net/aspose.im
 | token | string | The token. |
 | value | string | The value. |
 
-### get_xmp_representation() {#get_xmp_representation__2}
+### Method: get_xmp_representation() {#get_xmp_representation__1}
 
 
 ```

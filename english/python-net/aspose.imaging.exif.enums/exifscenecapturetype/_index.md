@@ -16,7 +16,7 @@ exif scene capture type enum.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| STANDARD | Standard scene. |
 | LANDSCAPE | Landscape scene. |
-| PORTRAIT | Portrait scene. |
 | NIGHT_SCENE | Night scene. |
+| PORTRAIT | Portrait scene. |
+| STANDARD | Standard scene. |

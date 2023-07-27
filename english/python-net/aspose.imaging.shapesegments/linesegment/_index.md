@@ -5,7 +5,7 @@ weight: 20
 url: /python-net/aspose.imaging.shapesegments/linesegment/
 ---
 
-Represents a segment leading derectly from a specific point to the next point.
+**Summary:** Represents a segment leading derectly from a specific point to the next point.
 
 **Module:** [aspose.imaging.shapesegments](/imaging/python-net/aspose.imaging.shapesegments/)
 
@@ -15,18 +15,18 @@ Represents a segment leading derectly from a specific point to the next point.
 
 **Aspose.Imaging Version:** 23.6
 
-The LineSegment type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [LineSegment(start_point, end_point)](#LineSegment_start_point_end_point_0) | Initializes a new instance of the [LineSegment](/imaging/python-net/aspose.imaging.shapesegments/linesegment/) class. |
+| [LineSegment(start_point, end_point)](#LineSegment_start_point_end_point_1) | Initializes a new instance of the [LineSegment](/imaging/python-net/aspose.imaging.shapesegments/linesegment/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| start_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the starting point. |
 | end_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the ending point. |
+| start_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the starting point. |
 
-### LineSegment(start_point, end_point) {#LineSegment_start_point_end_point_0}
+
+### Constructor: LineSegment(start_point, end_point) {#LineSegment_start_point_end_point_1}
 
 
 ```

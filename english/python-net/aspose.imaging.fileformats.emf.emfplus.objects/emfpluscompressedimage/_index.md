@@ -5,7 +5,7 @@ weight: 220
 url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscompressedimage/
 ---
 
-The EmfPlusCompressedImage object specifies an image with compressed data.
+**Summary:** The EmfPlusCompressedImage object specifies an image with compressed data.
 
 **Module:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
@@ -15,17 +15,17 @@ The EmfPlusCompressedImage object specifies an image with compressed data.
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfPlusCompressedImage type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EmfPlusCompressedImage()](#EmfPlusCompressedImage__0) | Initializes a new instance of the EmfPlusCompressedImage class |
+| [EmfPlusCompressedImage()](#EmfPlusCompressedImage__1) | Initializes a new instance of the EmfPlusCompressedImage class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | compressed_image_data | byte | r/w | Gets or sets an array of bytes, which specify the compressed image.<br/>            The type of compression MUST be determined from the data itself. |
 
-### EmfPlusCompressedImage() {#EmfPlusCompressedImage__0}
+
+### Constructor: EmfPlusCompressedImage() {#EmfPlusCompressedImage__1}
 
 
 ```

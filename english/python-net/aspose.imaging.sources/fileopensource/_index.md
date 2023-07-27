@@ -5,7 +5,7 @@ weight: 20
 url: /python-net/aspose.imaging.sources/fileopensource/
 ---
 
-Represents a file source for opening.
+**Summary:** Represents a file source for opening.
 
 **Module:** [aspose.imaging.sources](/imaging/python-net/aspose.imaging.sources/)
 
@@ -15,22 +15,22 @@ Represents a file source for opening.
 
 **Aspose.Imaging Version:** 23.6
 
-The FileOpenSource type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [FileOpenSource(file_path)](#FileOpenSource_file_path_0) | Initializes a new instance of the [FileOpenSource](/imaging/python-net/aspose.imaging.sources/fileopensource/) class. |
+| [FileOpenSource(file_path)](#FileOpenSource_file_path_1) | Initializes a new instance of the [FileOpenSource](/imaging/python-net/aspose.imaging.sources/fileopensource/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| is_temporal | bool | r | Gets a value indicating whether file will be temporal. |
 | file_path | string | r | Gets the file path to open. |
+| is_temporal | bool | r | Gets a value indicating whether file will be temporal. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
 | [get_stream_container()](#get_stream_container__1) | Gets the stream container. |
 
-### FileOpenSource(file_path) {#FileOpenSource_file_path_0}
+
+### Constructor: FileOpenSource(file_path) {#FileOpenSource_file_path_1}
 
 
 ```
@@ -45,7 +45,7 @@ Initializes a new instance of the [FileOpenSource](/imaging/python-net/aspose.im
 | :- | :- | :- |
 | file_path | string | The file path to open. |
 
-### get_stream_container() {#get_stream_container__1}
+### Method: get_stream_container() {#get_stream_container__1}
 
 
 ```

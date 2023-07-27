@@ -16,7 +16,7 @@ The object kind
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
+| ARC | The object kind is arc |
+| CUT | The object kind is cut |
 | NONE | The object kind is none |
 | SECTION | The object kind is section |
-| CUT | The object kind is cut |
-| ARC | The object kind is arc |

@@ -17,18 +17,18 @@ The BinaryRasterOperation Enumeration section lists the binary raster-operation 
 | **Member name** | **Description** |
 | :- | :- |
 | BLACK | 0, Pixel is always 0. |
-| NOTMERGEPEN | DPon, Pixel is the inverse of the MERGEPEN color |
-| MASKNOTPEN | DPna, Pixel is a combination of the screen color and the inverse of the pen color. |
-| NOTCOPYPEN | Pn, Pixel is the inverse of the pen color. |
-| MASKPENNOT | PDna, Pixel is a combination of the colors common to both the pen and the<br/>                inverse of the screen. |
-| NOT | Dn, Pixel is the inverse of the screen color. |
-| XORPEN | DPx, Pixel is a combination of the colors in the pen or in the screen, but not in both. |
-| NOTMASKPEN | DPan, Pixel is the inverse of the MASKPEN color. |
-| MASKPEN | DPa, Pixel is a combination of the colors common to both the pen and the screen. |
-| NOTXORPEN | DPxn, Pixel is the inverse of the XORPEN color. |
-| NOP | D, Pixel remains unchanged. |
-| MERGENOTPEN | DPno, Pixel is a combination of the colors common to both the screen and<br/>                the inverse of the pen. |
 | COPYPEN | P, Pixel is the pen color. |
-| MERGEPENNOT | PDno, Pixel is a combination of the pen color and the inverse of the<br/>                screen color. |
+| MASKNOTPEN | DPna, Pixel is a combination of the screen color and the inverse of the pen color. |
+| MASKPEN | DPa, Pixel is a combination of the colors common to both the pen and the screen. |
+| MASKPENNOT | PDna, Pixel is a combination of the colors common to both the pen and the<br/>                inverse of the screen. |
+| MERGENOTPEN | DPno, Pixel is a combination of the colors common to both the screen and<br/>                the inverse of the pen. |
 | MERGEPEN | DPo, Pixel is a combination of the pen color and the screen color. |
+| MERGEPENNOT | PDno, Pixel is a combination of the pen color and the inverse of the<br/>                screen color. |
+| NOP | D, Pixel remains unchanged. |
+| NOT | Dn, Pixel is the inverse of the screen color. |
+| NOTCOPYPEN | Pn, Pixel is the inverse of the pen color. |
+| NOTMASKPEN | DPan, Pixel is the inverse of the MASKPEN color. |
+| NOTMERGEPEN | DPon, Pixel is the inverse of the MERGEPEN color |
+| NOTXORPEN | DPxn, Pixel is the inverse of the XORPEN color. |
 | WHITE | 1, Pixel is always 1 |
+| XORPEN | DPx, Pixel is a combination of the colors in the pen or in the screen, but not in both. |

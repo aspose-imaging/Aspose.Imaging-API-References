@@ -16,6 +16,6 @@ The font store type
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
+| EMBEDDED | The embedded, fonts embedded in svg file as base64 |
 | NONE | The none, fonts not stored |
 | STREAM | The Stream, fonts stored to stream |
-| EMBEDDED | The embedded, fonts embedded in svg file as base64 |

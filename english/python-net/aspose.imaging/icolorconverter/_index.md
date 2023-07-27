@@ -5,7 +5,7 @@ weight: 5100
 url: /python-net/aspose.imaging/icolorconverter/
 ---
 
-The color converter.
+**Summary:** The color converter.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -13,13 +13,13 @@ The color converter.
 
 **Aspose.Imaging Version:** 23.6
 
-The IColorConverter type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [convert(source_format, data, offset, bit_start, samples_count, lines_count, dest_format, output_data, output_offset)](#convert_source_format_data_offset_bit_start_samples_count_lines_count_dest_format_output_data_output_offset_0) | Converts the passed data to the output format. |
+| [convert(source_format, data, offset, bit_start, samples_count, lines_count, dest_format, output_data, output_offset)](#convert_source_format_data_offset_bit_start_samples_count_lines_count_dest_format_output_data_output_offset_1) | Converts the passed data to the output format. |
 
-### convert(source_format, data, offset, bit_start, samples_count, lines_count, dest_format, output_data, output_offset) {#convert_source_format_data_offset_bit_start_samples_count_lines_count_dest_format_output_data_output_offset_0}
+
+### Method: convert(source_format, data, offset, bit_start, samples_count, lines_count, dest_format, output_data, output_offset) {#convert_source_format_data_offset_bit_start_samples_count_lines_count_dest_format_output_data_output_offset_1}
 
 
 ```

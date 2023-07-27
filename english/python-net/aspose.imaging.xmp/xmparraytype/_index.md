@@ -16,6 +16,6 @@ Represents array type in [XmpArray](/imaging/python-net/aspose.imaging.xmp/xmpar
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| UNORDERED | The unordered array. |
-| ORDERED | The ordered array. |
 | ALTERNATIVE | The alternative array. |
+| ORDERED | The ordered array. |
+| UNORDERED | The unordered array. |

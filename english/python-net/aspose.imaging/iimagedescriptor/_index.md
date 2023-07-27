@@ -5,7 +5,7 @@ weight: 5170
 url: /python-net/aspose.imaging/iimagedescriptor/
 ---
 
-The image descriptor. Contains base properties and methods for all other image descriptor types.
+**Summary:** The image descriptor. Contains base properties and methods for all other image descriptor types.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -13,9 +13,9 @@ The image descriptor. Contains base properties and methods for all other image d
 
 **Aspose.Imaging Version:** 23.6
 
-The IImageDescriptor type exposes the following members:
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | supported_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat) | r | Gets the supported format. |
+
 

@@ -16,6 +16,6 @@ The image palette mining method
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| USE_CURRENT_PALETTE | Use exisiting palette of the image |
 | COLOR_CLUSTERING | The color clustering method |
 | HISTOGRAM | The histogram method |
+| USE_CURRENT_PALETTE | Use exisiting palette of the image |

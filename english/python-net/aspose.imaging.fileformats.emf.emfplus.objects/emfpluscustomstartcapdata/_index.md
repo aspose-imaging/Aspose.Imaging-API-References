@@ -5,7 +5,7 @@ weight: 290
 url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomstartcapdata/
 ---
 
-The EmfPlusCustomStartCapData object specifies a custom line cap for the start of a line.
+**Summary:** The EmfPlusCustomStartCapData object specifies a custom line cap for the start of a line.
 
 **Module:** [aspose.imaging.fileformats.emf.emfplus.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/)
 
@@ -15,17 +15,17 @@ The EmfPlusCustomStartCapData object specifies a custom line cap for the start o
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfPlusCustomStartCapData type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EmfPlusCustomStartCapData()](#EmfPlusCustomStartCapData__0) | Initializes a new instance of the EmfPlusCustomStartCapData class |
+| [EmfPlusCustomStartCapData()](#EmfPlusCustomStartCapData__1) | Initializes a new instance of the EmfPlusCustomStartCapData class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | custom_start_cap | [EmfPlusCustomLineCap](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlinecap) | r/w | Gets or sets custom line cap that defines the shape to draw at the end<br/>            of a line. It can be any of various shapes, including a<br/>            square, circle, or diamond |
 
-### EmfPlusCustomStartCapData() {#EmfPlusCustomStartCapData__0}
+
+### Constructor: EmfPlusCustomStartCapData() {#EmfPlusCustomStartCapData__1}
 
 
 ```

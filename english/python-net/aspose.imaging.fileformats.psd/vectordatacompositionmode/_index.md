@@ -16,5 +16,5 @@ Defines the vector data composition mode that is used on export from vector form
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| SINGLE_SMART_OBJECT | The exported layers are wrapped in a single SmartObject. |
 | SEPARATE_LAYERS | The content is exported as a separate layers. |
+| SINGLE_SMART_OBJECT | The exported layers are wrapped in a single SmartObject. |

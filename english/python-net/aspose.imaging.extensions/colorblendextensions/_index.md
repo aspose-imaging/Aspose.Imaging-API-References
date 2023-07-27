@@ -5,7 +5,7 @@ weight: 20
 url: /python-net/aspose.imaging.extensions/colorblendextensions/
 ---
 
-Contains [ColorBlend](/imaging/python-net/aspose.imaging/colorblend/) extension methods.
+**Summary:** Contains [ColorBlend](/imaging/python-net/aspose.imaging/colorblend/) extension methods.
 
 **Module:** [aspose.imaging.extensions](/imaging/python-net/aspose.imaging.extensions/)
 
@@ -13,13 +13,13 @@ Contains [ColorBlend](/imaging/python-net/aspose.imaging/colorblend/) extension 
 
 **Aspose.Imaging Version:** 23.6
 
-The ColorBlendExtensions type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [to_gdi_color_blend(color_blend)](#to_gdi_color_blend_color_blend_0) | Converts the [ColorBlend](/imaging/python-net/aspose.imaging/colorblend/) to . |
+| [to_gdi_color_blend(color_blend)](#to_gdi_color_blend_color_blend_1) | Converts the [ColorBlend](/imaging/python-net/aspose.imaging/colorblend/) to . |
 
-### to_gdi_color_blend(color_blend)  [static] {#to_gdi_color_blend_color_blend_0}
+
+### Method: to_gdi_color_blend(color_blend)  [static] {#to_gdi_color_blend_color_blend_1}
 
 
 ```

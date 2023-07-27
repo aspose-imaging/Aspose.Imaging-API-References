@@ -16,8 +16,8 @@ Specifies the type of fill a [Pen](/imaging/python-net/aspose.imaging/pen/) obje
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| SOLID_COLOR | Specifies a solid fill. |
 | HATCH_FILL | Specifies a hatch fill. |
-| TEXTURE_FILL | Specifies a bitmap texture fill. |
-| PATH_GRADIENT | Specifies a path gradient fill. |
 | LINEAR_GRADIENT | Specifies a linear gradient fill. |
+| PATH_GRADIENT | Specifies a path gradient fill. |
+| SOLID_COLOR | Specifies a solid fill. |
+| TEXTURE_FILL | Specifies a bitmap texture fill. |

@@ -5,7 +5,7 @@ weight: 630
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfscanobject/
 ---
 
-The Scan Object specifies a collection of scanlines.
+**Summary:** The Scan Object specifies a collection of scanlines.
 
 **Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
@@ -15,21 +15,21 @@ The Scan Object specifies a collection of scanlines.
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfScanObject type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfScanObject()](#WmfScanObject__0) | Initializes a new instance of the WmfScanObject class |
+| [WmfScanObject()](#WmfScanObject__1) | Initializes a new instance of the WmfScanObject class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| count | int | r/w | Gets or sets the count. |
-| top | int | r/w | Gets or sets the top. |
 | bottom | int | r/w | Gets or sets the bottom. |
-| scan_lines | [Point[]](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the scan lines. |
+| count | int | r/w | Gets or sets the count. |
 | count2 | int | r/w | Gets or sets the count2. |
+| scan_lines | [Point[]](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the scan lines. |
+| top | int | r/w | Gets or sets the top. |
 
-### WmfScanObject() {#WmfScanObject__0}
+
+### Constructor: WmfScanObject() {#WmfScanObject__1}
 
 
 ```

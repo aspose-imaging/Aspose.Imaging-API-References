@@ -16,8 +16,8 @@ exif gain control enum.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| NONE | No gain control. |
-| LOW_GAIN_UP | Low gain up. |
+| HIGH_GAIN_DOWN | High gain down. |
 | HIGH_GAIN_UP | High gain up. |
 | LOW_GAIN_DOWN | Low gain down. |
-| HIGH_GAIN_DOWN | High gain down. |
+| LOW_GAIN_UP | Low gain up. |
+| NONE | No gain control. |

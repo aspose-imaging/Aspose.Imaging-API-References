@@ -5,7 +5,7 @@ weight: 430
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfoffsetviewportorg/
 ---
 
-The META_OFFSETVIEWPORTORG record moves the viewport origin in the<br/>                playback device context by specified horizontal and vertical offsets.
+**Summary:** The META_OFFSETVIEWPORTORG record moves the viewport origin in the<br/>                playback device context by specified horizontal and vertical offsets.
 
 **Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
@@ -15,17 +15,17 @@ The META_OFFSETVIEWPORTORG record moves the viewport origin in the<br/>         
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfOffsetViewPortOrg type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfOffsetViewPortOrg()](#WmfOffsetViewPortOrg__0) | Initializes a new instance of the WmfOffsetViewPortOrg class |
+| [WmfOffsetViewPortOrg()](#WmfOffsetViewPortOrg__1) | Initializes a new instance of the WmfOffsetViewPortOrg class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | point | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the point. |
 
-### WmfOffsetViewPortOrg() {#WmfOffsetViewPortOrg__0}
+
+### Constructor: WmfOffsetViewPortOrg() {#WmfOffsetViewPortOrg__1}
 
 
 ```

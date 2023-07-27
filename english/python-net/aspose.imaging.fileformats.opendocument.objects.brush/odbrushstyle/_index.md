@@ -16,8 +16,8 @@ The brush styles
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| NONE | The brush style none |
-| SOLID | The brush style solid |
-| HATCHED | The brush style hatched |
 | GRADIENT | The brush style gradient |
+| HATCHED | The brush style hatched |
+| NONE | The brush style none |
 | PATTERN | The brush style pattern |
+| SOLID | The brush style solid |

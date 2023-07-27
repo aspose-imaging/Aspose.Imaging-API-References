@@ -5,7 +5,7 @@ weight: 330
 url: /python-net/aspose.imaging/buildversioninfo/
 ---
 
-Contains the current build version information.
+**Summary:** Contains the current build version information.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -13,9 +13,8 @@ Contains the current build version information.
 
 **Aspose.Imaging Version:** 23.6
 
-The BuildVersionInfo type exposes the following members:
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | ASSEMBLY_VERSION [static] | string | r | The assembly version. |
 | FILE_VERSION [static] | string | r | The file version. |
@@ -23,4 +22,5 @@ The BuildVersionInfo type exposes the following members:
 | PRODUCT_MAJOR [static] | int | r | The major product version. |
 | PRODUCT_MINOR [static] | int | r | The minor product version. |
 | RELEASE_DATE [static] | datetime | r | The product release date. |
+
 

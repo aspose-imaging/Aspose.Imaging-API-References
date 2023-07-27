@@ -5,7 +5,7 @@ weight: 10
 url: /python-net/aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation/
 ---
 
-The packet version is used within block protocols. The following diagram represents a GUID as an<br/>            opaque sequence of bytes.<br/>            A GUID, also known as a UUID, is a 16-byte structure, intended to serve as a unique identifier for<br/>            an object. There are three representations of a GUID, as described in the following sections.
+**Summary:** The packet version is used within block protocols. The following diagram represents a GUID as an<br/>            opaque sequence of bytes.<br/>            A GUID, also known as a UUID, is a 16-byte structure, intended to serve as a unique identifier for<br/>            an object. There are three representations of a GUID, as described in the following sections.
 
 **Module:** [aspose.imaging.fileformats.emf.dtyp.commondatastructures](/imaging/python-net/aspose.imaging.fileformats.emf.dtyp.commondatastructures/)
 
@@ -13,21 +13,30 @@ The packet version is used within block protocols. The following diagram represe
 
 **Aspose.Imaging Version:** 23.6
 
-The GuidPacketRepresentation type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [GuidPacketRepresentation(data1, data2, data3, data4)](#GuidPacketRepresentation_data1_data2_data3_data4_0) | Initializes a new instance of the [GuidPacketRepresentation](/imaging/python-net/aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation/) struct. |
 | [GuidPacketRepresentation()](#GuidPacketRepresentation__1) | Initializes a new instance of the GuidPacketRepresentation class |
+| [GuidPacketRepresentation(data1, data2, data3, data4)](#GuidPacketRepresentation_data1_data2_data3_data4_2) | Initializes a new instance of the [GuidPacketRepresentation](/imaging/python-net/aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation/) struct. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | data1 | int | r/w | Gets or sets the value of the Data1 member (section 2.3.4), in little-endian byte order. |
 | data2 | short | r/w | Gets or sets the value of the Data2 member (section 2.3.4), in little-endian byte order. |
 | data3 | short | r/w | Gets or sets the value of the Data3 member (section 2.3.4), in little-endian byte order. |
 | data4 | long | r/w | Gets or sets the value of the Data4 member (section 2.3.4), in little-endian byte order. |
 
-### GuidPacketRepresentation(data1, data2, data3, data4) {#GuidPacketRepresentation_data1_data2_data3_data4_0}
+
+### Constructor: GuidPacketRepresentation() {#GuidPacketRepresentation__1}
+
+
+```
+ GuidPacketRepresentation() 
+```
+
+Initializes a new instance of the GuidPacketRepresentation class
+
+### Constructor: GuidPacketRepresentation(data1, data2, data3, data4) {#GuidPacketRepresentation_data1_data2_data3_data4_2}
 
 
 ```
@@ -44,13 +53,4 @@ Initializes a new instance of the [GuidPacketRepresentation](/imaging/python-net
 | data2 | short | The data2. |
 | data3 | short | The data3. |
 | data4 | long | The data4. |
-
-### GuidPacketRepresentation() {#GuidPacketRepresentation__1}
-
-
-```
- GuidPacketRepresentation() 
-```
-
-Initializes a new instance of the GuidPacketRepresentation class
 

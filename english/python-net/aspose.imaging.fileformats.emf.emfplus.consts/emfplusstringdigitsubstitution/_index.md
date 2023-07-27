@@ -16,7 +16,7 @@ The StringDigitSubstitution enumeration defines ways to substitute digits in a s
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| STRING_DIGIT_SUBSTITUTION_USER | Specifies an implementation-defined substitution scheme. |
-| STRING_DIGIT_SUBSTITUTION_NONE | Specifies to disable substitutions. |
 | STRING_DIGIT_SUBSTITUTION_NATIONAL | Specifies substitution digits that correspond with the official national language of the user's locale. |
+| STRING_DIGIT_SUBSTITUTION_NONE | Specifies to disable substitutions. |
 | STRING_DIGIT_SUBSTITUTION_TRADITIONAL | Specifies substitution digits that correspond to the user's native script or language, which can be different from the official national language of the user's locale. |
+| STRING_DIGIT_SUBSTITUTION_USER | Specifies an implementation-defined substitution scheme. |

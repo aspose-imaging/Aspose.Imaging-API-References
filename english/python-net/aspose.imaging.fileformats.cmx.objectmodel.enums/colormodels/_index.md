@@ -16,17 +16,17 @@ Color models.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| INVALID | Invalid color model. |
-| PANTONE | PANTONE palette. |
+| BGR | The color model BGR |
+| BW | Black and White colors. |
+| CMY | CMY color model. |
 | CMYK | CMYK color model, represented in 0-100 byte ranges. |
 | CMYK255 | CMYK color model, represented in 0-255 byte ranges. |
-| CMY | CMY color model. |
-| RGB | RGM color model. |
-| HSB | HSB color model. |
-| HLS | HLS color model. |
-| BW | Black and White colors. |
 | GRAY | Grayscale color model. |
-| YIQ255 | YIQ color model, represented in 0-255 byte ranges. |
+| HLS | HLS color model. |
+| HSB | HSB color model. |
+| INVALID | Invalid color model. |
 | LAB | Lab color model. |
-| BGR | The color model BGR |
 | LAB255 | Lab color model LAB255. |
+| PANTONE | PANTONE palette. |
+| RGB | RGM color model. |
+| YIQ255 | YIQ color model, represented in 0-255 byte ranges. |

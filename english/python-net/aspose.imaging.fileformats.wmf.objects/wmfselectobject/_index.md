@@ -5,7 +5,7 @@ weight: 650
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfselectobject/
 ---
 
-The select object.
+**Summary:** The select object.
 
 **Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
@@ -15,18 +15,27 @@ The select object.
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfSelectObject type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfSelectObject(wmf_object)](#WmfSelectObject_wmf_object_0) | Initializes a new instance of the [WmfSelectObject](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfselectobject/) class. |
 | [WmfSelectObject()](#WmfSelectObject__1) | Initializes a new instance of the [WmfSelectObject](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfselectobject/) class. |
+| [WmfSelectObject(wmf_object)](#WmfSelectObject_wmf_object_2) | Initializes a new instance of the [WmfSelectObject](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfselectobject/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | object_index | int | r/w | Gets or sets the index of the object. |
 
-### WmfSelectObject(wmf_object) {#WmfSelectObject_wmf_object_0}
+
+### Constructor: WmfSelectObject() {#WmfSelectObject__1}
+
+
+```
+ WmfSelectObject() 
+```
+
+Initializes a new instance of the [WmfSelectObject](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfselectobject/) class.
+
+### Constructor: WmfSelectObject(wmf_object) {#WmfSelectObject_wmf_object_2}
 
 
 ```
@@ -40,13 +49,4 @@ Initializes a new instance of the [WmfSelectObject](/imaging/python-net/aspose.i
 | Parameter | Type | Description |
 | :- | :- | :- |
 | wmf_object | [WmfGraphicObject](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfgraphicobject) | The WMF object. |
-
-### WmfSelectObject() {#WmfSelectObject__1}
-
-
-```
- WmfSelectObject() 
-```
-
-Initializes a new instance of the [WmfSelectObject](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfselectobject/) class.
 

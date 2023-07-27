@@ -16,5 +16,5 @@ Offset types between tiles for texture brushes.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| ROW_OFFSET | Offset between adjacent rows. |
 | COLUMN_OFFSET | Offset between adjacent columns. |
+| ROW_OFFSET | Offset between adjacent rows. |

@@ -5,7 +5,7 @@ weight: 40
 url: /python-net/aspose.imaging.xmp.types.derived/xmpguid/
 ---
 
-Represents XMP global unique identifier.
+**Summary:** Represents XMP global unique identifier.
 
 **Module:** [aspose.imaging.xmp.types.derived](/imaging/python-net/aspose.imaging.xmp.types.derived/)
 
@@ -15,38 +15,23 @@ Represents XMP global unique identifier.
 
 **Aspose.Imaging Version:** 23.6
 
-The XmpGuid type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [XmpGuid(value)](#XmpGuid_value_0) | Initializes a new instance of the [XmpGuid](/imaging/python-net/aspose.imaging.xmp.types.derived/xmpguid/) class. |
 | [XmpGuid(guid)](#XmpGuid_guid_1) | Initializes a new instance of the [XmpGuid](/imaging/python-net/aspose.imaging.xmp.types.derived/xmpguid/) class. |
+| [XmpGuid(value)](#XmpGuid_value_2) | Initializes a new instance of the [XmpGuid](/imaging/python-net/aspose.imaging.xmp.types.derived/xmpguid/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | prefix | string | r/w | Gets or sets the prefix like uuid. |
 | value | Guid | r/w | Gets or sets the value. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_xmp_representation()](#get_xmp_representation__2) | Gets the string contained value in XMP format. |
-
-### XmpGuid(value) {#XmpGuid_value_0}
+| [get_xmp_representation()](#get_xmp_representation__1) | Gets the string contained value in XMP format. |
 
 
-```
- XmpGuid(value) 
-```
-
-Initializes a new instance of the [XmpGuid](/imaging/python-net/aspose.imaging.xmp.types.derived/xmpguid/) class.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| value | string | The value. |
-
-### XmpGuid(guid) {#XmpGuid_guid_1}
+### Constructor: XmpGuid(guid) {#XmpGuid_guid_1}
 
 
 ```
@@ -61,7 +46,22 @@ Initializes a new instance of the [XmpGuid](/imaging/python-net/aspose.imaging.x
 | :- | :- | :- |
 | guid | Guid | The unique identifier. |
 
-### get_xmp_representation() {#get_xmp_representation__2}
+### Constructor: XmpGuid(value) {#XmpGuid_value_2}
+
+
+```
+ XmpGuid(value) 
+```
+
+Initializes a new instance of the [XmpGuid](/imaging/python-net/aspose.imaging.xmp.types.derived/xmpguid/) class.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| value | string | The value. |
+
+### Method: get_xmp_representation() {#get_xmp_representation__1}
 
 
 ```

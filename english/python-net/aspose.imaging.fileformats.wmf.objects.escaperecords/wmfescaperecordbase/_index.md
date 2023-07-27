@@ -5,7 +5,7 @@ weight: 30
 url: /python-net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/
 ---
 
-The escape record base.
+**Summary:** The escape record base.
 
 **Module:** [aspose.imaging.fileformats.wmf.objects.escaperecords](/imaging/python-net/aspose.imaging.fileformats.wmf.objects.escaperecords/)
 
@@ -15,19 +15,19 @@ The escape record base.
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfEscapeRecordBase type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfEscapeRecordBase()](#WmfEscapeRecordBase__0) | Initializes a new instance of the WmfEscapeRecordBase class |
+| [WmfEscapeRecordBase()](#WmfEscapeRecordBase__1) | Initializes a new instance of the WmfEscapeRecordBase class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | byte_count | int | r/w | Gets or sets the byte count. |
-| data | byte | r/w | Gets or sets the data. |
 | checked | bool | r/w | Gets a value indicating whether this [WmfEscapeRecordBase](/imaging/python-net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/) is checked. |
+| data | byte | r/w | Gets or sets the data. |
 
-### WmfEscapeRecordBase() {#WmfEscapeRecordBase__0}
+
+### Constructor: WmfEscapeRecordBase() {#WmfEscapeRecordBase__1}
 
 
 ```

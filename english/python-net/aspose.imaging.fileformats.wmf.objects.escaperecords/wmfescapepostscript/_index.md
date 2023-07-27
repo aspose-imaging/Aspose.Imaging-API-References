@@ -5,7 +5,7 @@ weight: 20
 url: /python-net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapepostscript/
 ---
 
-The Escape PostScript data record.
+**Summary:** The Escape PostScript data record.
 
 **Module:** [aspose.imaging.fileformats.wmf.objects.escaperecords](/imaging/python-net/aspose.imaging.fileformats.wmf.objects.escaperecords/)
 
@@ -15,20 +15,20 @@ The Escape PostScript data record.
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfEscapePostScript type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfEscapePostScript()](#WmfEscapePostScript__0) | Initializes a new instance of the WmfEscapePostScript class |
+| [WmfEscapePostScript()](#WmfEscapePostScript__1) | Initializes a new instance of the WmfEscapePostScript class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | byte_count | int | r/w | Gets or sets the byte count. |
-| data | byte | r/w | Gets or sets the data. |
 | checked | bool | r/w | Gets a value indicating whether this [WmfEscapeRecordBase](/imaging/python-net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/) is checked. |
+| data | byte | r/w | Gets or sets the data. |
 | post_script_part | string | r/w | Gets or sets the post script part. |
 
-### WmfEscapePostScript() {#WmfEscapePostScript__0}
+
+### Constructor: WmfEscapePostScript() {#WmfEscapePostScript__1}
 
 
 ```

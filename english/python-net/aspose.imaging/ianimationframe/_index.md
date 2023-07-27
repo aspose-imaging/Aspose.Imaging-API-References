@@ -5,7 +5,7 @@ weight: 5010
 url: /python-net/aspose.imaging/ianimationframe/
 ---
 
-The Animation frame
+**Summary:** The Animation frame
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -13,20 +13,20 @@ The Animation frame
 
 **Aspose.Imaging Version:** 23.6
 
-The IAnimationFrame type exposes the following members:
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
+| disposal_method | [AnimationDisposalMethods](/imaging/python-net/aspose.imaging/animationdisposalmethods) | r | Gets the disposal method. |
+| frame_left | int | r | Gets the frame left offset. |
 | frame_time | int | r | Gets the frame duration. |
 | frame_top | int | r | Gets the frame top offset. |
-| frame_left | int | r | Gets the frame left offset. |
-| disposal_method | [AnimationDisposalMethods](/imaging/python-net/aspose.imaging/animationdisposalmethods) | r | Gets the disposal method. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_full_frame()](#get_full_frame__0) | Gets the full frame. |
+| [get_full_frame()](#get_full_frame__1) | Gets the full frame. |
 
-### get_full_frame() {#get_full_frame__0}
+
+### Method: get_full_frame() {#get_full_frame__1}
 
 
 ```

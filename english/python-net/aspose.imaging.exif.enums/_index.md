@@ -9,7 +9,7 @@ url: /python-net/aspose.imaging.exif.enums/
 The module contains EXIF enumerations.
 
 ## **Enumerations**
-|**Enumeration**|**Description**|
+| **Enumeration** | **Description** |
 | :- | :- |
 | [ExifColorSpace](/imaging/python-net/aspose.imaging.exif.enums/exifcolorspace/) | exif color space enum. |
 | [ExifContrast](/imaging/python-net/aspose.imaging.exif.enums/exifcontrast/) | exif normal soft hard enum. |

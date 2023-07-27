@@ -16,7 +16,7 @@ Specifies how to join consecutive line or curve segments in a figure (subpath) c
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| MITER | Specifies a mitered join. This produces a sharp corner or a clipped corner, depending on whether the length of the miter exceeds the miter limit. |
 | BEVEL | Specifies a beveled join. This produces a diagonal corner. |
-| ROUND | Specifies a circular join. This produces a smooth, circular arc between the lines. |
+| MITER | Specifies a mitered join. This produces a sharp corner or a clipped corner, depending on whether the length of the miter exceeds the miter limit. |
 | MITER_CLIPPED | Specifies a mitered join. This produces a sharp corner or a beveled corner, depending on whether the length of the miter exceeds the miter limit. |
+| ROUND | Specifies a circular join. This produces a smooth, circular arc between the lines. |

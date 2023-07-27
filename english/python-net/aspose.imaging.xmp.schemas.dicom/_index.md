@@ -9,6 +9,6 @@ url: /python-net/aspose.imaging.xmp.schemas.dicom/
 The module contains Dicom metadata related helper classes, constants and methods.
 
 ## **Classes**
-|**Class**|**Description**|
+| **Class** | **Description** |
 | :- | :- |
-|[DicomPackage](/imaging/python-net/aspose.imaging.xmp.schemas.dicom/dicompackage/)|The Dicom Xmp package.|
+| [DicomPackage](/imaging/python-net/aspose.imaging.xmp.schemas.dicom/dicompackage/) | The Dicom Xmp package. |

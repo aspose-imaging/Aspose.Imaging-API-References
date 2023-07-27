@@ -5,7 +5,7 @@ weight: 120
 url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odequation/
 ---
 
-The open document equation
+**Summary:** The open document equation
 
 **Module:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
@@ -15,22 +15,22 @@ The open document equation
 
 **Aspose.Imaging Version:** 23.6
 
-The OdEquation type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [OdEquation(parent)](#OdEquation_parent_0) | Initializes a new instance of the [OdEquation](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odequation/) class. |
+| [OdEquation(parent)](#OdEquation_parent_1) | Initializes a new instance of the [OdEquation](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odequation/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
-| items | System.Collections.Generic.List<OdObject> | r | Gets the items. |
 | absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
-| name | string | r/w | Gets or sets the name. |
 | formula | string | r/w | Gets or sets the formula. |
+| items | list[OdObject] | r | Gets the items. |
+| name | string | r/w | Gets or sets the name. |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
 | value | float | r/w | Gets or sets the value. |
 
-### OdEquation(parent) {#OdEquation_parent_0}
+
+### Constructor: OdEquation(parent) {#OdEquation_parent_1}
 
 
 ```

@@ -5,7 +5,7 @@ weight: 6000
 url: /python-net/aspose.imaging/objectwithbounds/
 ---
 
-The object having bounds.
+**Summary:** The object having bounds.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -13,19 +13,19 @@ The object having bounds.
 
 **Aspose.Imaging Version:** 23.6
 
-The ObjectWithBounds type exposes the following members:
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | bounds | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r | Gets the object's bounds. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_bounds(matrix)](#get_bounds_matrix_0) | Gets the object's bounds. |
-| [get_bounds(matrix, pen)](#get_bounds_matrix_pen_1) | Gets the object's bounds. |
-| [transform(transform)](#transform_transform_2) | Applies the specified transformation to the shape. |
+| [get_bounds(matrix)](#get_bounds_matrix_1) | Gets the object's bounds. |
+| [get_bounds(matrix, pen)](#get_bounds_matrix_pen_2) | Gets the object's bounds. |
+| [transform(transform)](#transform_transform_3) | Applies the specified transformation to the shape. |
 
-### get_bounds(matrix) {#get_bounds_matrix_0}
+
+### Method: get_bounds(matrix) {#get_bounds_matrix_1}
 
 
 ```
@@ -47,7 +47,7 @@ Gets the object's bounds.
 | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The estimated object's bounds. |
 
 
-### get_bounds(matrix, pen) {#get_bounds_matrix_pen_1}
+### Method: get_bounds(matrix, pen) {#get_bounds_matrix_pen_2}
 
 
 ```
@@ -70,7 +70,7 @@ Gets the object's bounds.
 | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The estimated object's bounds. |
 
 
-### transform(transform) {#transform_transform_2}
+### Method: transform(transform) {#transform_transform_3}
 
 
 ```

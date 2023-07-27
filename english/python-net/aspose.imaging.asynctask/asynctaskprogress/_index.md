@@ -5,7 +5,7 @@ weight: 20
 url: /python-net/aspose.imaging.asynctask/asynctaskprogress/
 ---
 
-Provides progress info for the asynchronous task.
+**Summary:** Provides progress info for the asynchronous task.
 
 **Module:** [aspose.imaging.asynctask](/imaging/python-net/aspose.imaging.asynctask/)
 
@@ -13,18 +13,18 @@ Provides progress info for the asynchronous task.
 
 **Aspose.Imaging Version:** 23.6
 
-The AsyncTaskProgress type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [AsyncTaskProgress(progress_percentage, duration)](#AsyncTaskProgress_progress_percentage_duration_0) | Initializes a new instance of the [AsyncTaskProgress](/imaging/python-net/aspose.imaging.asynctask/asynctaskprogress/) class. |
+| [AsyncTaskProgress(progress_percentage, duration)](#AsyncTaskProgress_progress_percentage_duration_1) | Initializes a new instance of the [AsyncTaskProgress](/imaging/python-net/aspose.imaging.asynctask/asynctaskprogress/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | DURATION | datetime | r | The duration of the asynchronous task. |
 | PROGRESS_PERCENTAGE | int | r | The progress of the asynchronous task, in percent. |
 
-### AsyncTaskProgress(progress_percentage, duration) {#AsyncTaskProgress_progress_percentage_duration_0}
+
+### Constructor: AsyncTaskProgress(progress_percentage, duration) {#AsyncTaskProgress_progress_percentage_duration_1}
 
 
 ```

@@ -16,6 +16,6 @@ exif normal soft hard enum.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| NORMAL | Normal contrast. |
-| LOW | Low contrast. |
 | HIGH | High contrast. |
+| LOW | Low contrast. |
+| NORMAL | Normal contrast. |

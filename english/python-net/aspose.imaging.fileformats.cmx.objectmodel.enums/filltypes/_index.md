@@ -16,12 +16,12 @@ Fill types for the brush.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| UNKNOWN | Unknown fill type. |
-| NO_FILL | No fill needed |
-| UNIFORM | Uniform fill.<br/>            Apply a solid fill color. |
 | FOUNTAIN | Fountain fill.<br/>            Apply a gradient of colors or shades. |
-| POSTSCRIPT | Postscript fill.<br/>            Apply an intricate PostScript texture fill. |
-| TWO_COLOR_PATTERN | Two-color pattern fill. |
-| IMPORTED_BITMAP | Bitmap pattern fill. |
 | FULL_COLOR_PATTERN | Vector pattern fill. |
+| IMPORTED_BITMAP | Bitmap pattern fill. |
+| NO_FILL | No fill needed |
+| POSTSCRIPT | Postscript fill.<br/>            Apply an intricate PostScript texture fill. |
 | TEXTURE | Texture fill. |
+| TWO_COLOR_PATTERN | Two-color pattern fill. |
+| UNIFORM | Uniform fill.<br/>            Apply a solid fill color. |
+| UNKNOWN | Unknown fill type. |

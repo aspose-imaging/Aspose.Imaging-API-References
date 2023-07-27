@@ -16,8 +16,8 @@ url: /python-net/aspose.imaging.fileformats.jpeg/jpegcompressioncolormode/
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| GRAYSCALE | The Grayscale image. |
-| Y_CB_CR | YCbCr image, standard option for jpeg images. |
 | CMYK | 4-component CMYK image. |
-| YCCK | The ycck color jpeg image. Needs icc profile for saving. |
+| GRAYSCALE | The Grayscale image. |
 | RGB | The RGB Color mode. |
+| YCCK | The ycck color jpeg image. Needs icc profile for saving. |
+| Y_CB_CR | YCbCr image, standard option for jpeg images. |

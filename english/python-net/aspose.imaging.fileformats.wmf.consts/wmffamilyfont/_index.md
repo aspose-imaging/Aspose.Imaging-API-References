@@ -16,9 +16,9 @@ The FamilyFont enumeration specifies the font family. Font families describe the
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| DONTCARE | The default font is specified, which is implementation-dependent. |
-| ROMAN | Fonts with variable stroke widths, which are proportional to the actual widths of<br/>                the glyphs, and which have serifs. "MS Serif" is an example. |
-| SWISS | Fonts with variable stroke widths, which are proportional to the actual widths of the<br/>                glyphs, and which do not have serifs. "MS Sans Serif" is an example. |
-| MODERN | Fonts with constant stroke width, with or without serifs. Fixed-width fonts are<br/>                usually modern. "Pica", "Elite", and "Courier New" are examples. |
-| SCRIPT | Fonts designed to look like handwriting. "Script" and "Cursive" are examples. |
 | DECORATIVE | Novelty fonts. "Old English" is an example. |
+| DONTCARE | The default font is specified, which is implementation-dependent. |
+| MODERN | Fonts with constant stroke width, with or without serifs. Fixed-width fonts are<br/>                usually modern. "Pica", "Elite", and "Courier New" are examples. |
+| ROMAN | Fonts with variable stroke widths, which are proportional to the actual widths of<br/>                the glyphs, and which have serifs. "MS Serif" is an example. |
+| SCRIPT | Fonts designed to look like handwriting. "Script" and "Cursive" are examples. |
+| SWISS | Fonts with variable stroke widths, which are proportional to the actual widths of the<br/>                glyphs, and which do not have serifs. "MS Sans Serif" is an example. |

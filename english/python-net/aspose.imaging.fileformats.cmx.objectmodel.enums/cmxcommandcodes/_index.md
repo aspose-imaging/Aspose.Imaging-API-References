@@ -27,12 +27,12 @@ Page command codes
 | BEGIN_TEXT_GROUP | The begin text group command |
 | BEGIN_TEXT_OBJECT | The begin text object command |
 | BEGIN_TEXT_STREAM | The begin text stream command |
-| CHAR_INFO | The character information command |
 | CHARACTERS | The characters command |
+| CHAR_INFO | The character information command |
 | CLEAR_CLIPPING | The clear clipping command |
 | COMMENT | The comment command |
-| DRAW_IMAGE | The draw image command |
 | DRAW_CHARS | The draw chars command |
+| DRAW_IMAGE | The draw image command |
 | ELLIPSE | The ellipse command |
 | END_EMBEDDED | The end embedded file command |
 | END_GROUP | The end group command |

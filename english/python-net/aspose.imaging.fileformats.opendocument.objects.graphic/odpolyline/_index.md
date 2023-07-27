@@ -5,7 +5,7 @@ weight: 270
 url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odpolyline/
 ---
 
-The polyline
+**Summary:** The polyline
 
 **Module:** [aspose.imaging.fileformats.opendocument.objects.graphic](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/)
 
@@ -15,22 +15,22 @@ The polyline
 
 **Aspose.Imaging Version:** 23.6
 
-The OdPolyLine type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [OdPolyLine(parent)](#OdPolyLine_parent_0) | Initializes a new instance of the [OdPolyLine](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odpolyline/) class. |
+| [OdPolyLine(parent)](#OdPolyLine_parent_1) | Initializes a new instance of the [OdPolyLine](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odpolyline/) class. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
-| items | System.Collections.Generic.List<OdObject> | r | Gets the items. |
 | absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
-| style | [OdGraphicStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects/odgraphicstyle) | r/w | Gets or sets the style. |
-| rectangle | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets the rectangle. |
+| items | list[OdObject] | r | Gets the items. |
+| parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
 | points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the points. |
+| rectangle | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets the rectangle. |
+| style | [OdGraphicStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects/odgraphicstyle) | r/w | Gets or sets the style. |
 
-### OdPolyLine(parent) {#OdPolyLine_parent_0}
+
+### Constructor: OdPolyLine(parent) {#OdPolyLine_parent_1}
 
 
 ```

@@ -5,7 +5,7 @@ weight: 80
 url: /python-net/aspose.imaging.fileformats.core.vectorpaths/vectorpathrecordfactory/
 ---
 
-Vector Path Record Factory Class
+**Summary:** Vector Path Record Factory Class
 
 **Module:** [aspose.imaging.fileformats.core.vectorpaths](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/)
 
@@ -13,17 +13,17 @@ Vector Path Record Factory Class
 
 **Aspose.Imaging Version:** 23.6
 
-The VectorPathRecordFactory type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [VectorPathRecordFactory()](#VectorPathRecordFactory__0) | Initializes a new instance of the VectorPathRecordFactory class |
+| [VectorPathRecordFactory()](#VectorPathRecordFactory__1) | Initializes a new instance of the VectorPathRecordFactory class |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
 | [produce_path_record(data)](#produce_path_record_data_1) | Produces the path record. |
 
-### VectorPathRecordFactory() {#VectorPathRecordFactory__0}
+
+### Constructor: VectorPathRecordFactory() {#VectorPathRecordFactory__1}
 
 
 ```
@@ -32,7 +32,7 @@ The VectorPathRecordFactory type exposes the following members:
 
 Initializes a new instance of the VectorPathRecordFactory class
 
-### produce_path_record(data) {#produce_path_record_data_1}
+### Method: produce_path_record(data) {#produce_path_record_data_1}
 
 
 ```

@@ -5,7 +5,7 @@ weight: 310
 url: /python-net/aspose.imaging.xmp/xmparrayhelper/
 ---
 
-The helper class for processing RDF logic
+**Summary:** The helper class for processing RDF logic
 
 **Module:** [aspose.imaging.xmp](/imaging/python-net/aspose.imaging.xmp/)
 
@@ -13,13 +13,13 @@ The helper class for processing RDF logic
 
 **Aspose.Imaging Version:** 23.6
 
-The XmpArrayHelper type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_rdf_code(xmp_array_type)](#get_rdf_code_xmp_array_type_0) | Gets the RDF code for specific [XmpArrayType](/imaging/python-net/aspose.imaging.xmp/xmparraytype/). |
+| [get_rdf_code(xmp_array_type)](#get_rdf_code_xmp_array_type_1) | Gets the RDF code for specific [XmpArrayType](/imaging/python-net/aspose.imaging.xmp/xmparraytype/). |
 
-### get_rdf_code(xmp_array_type)  [static] {#get_rdf_code_xmp_array_type_0}
+
+### Method: get_rdf_code(xmp_array_type)  [static] {#get_rdf_code_xmp_array_type_1}
 
 
 ```

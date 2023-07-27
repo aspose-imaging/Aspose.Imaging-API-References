@@ -5,7 +5,7 @@ weight: 7110
 url: /python-net/aspose.imaging/source/
 ---
 
-The source is used to contain all relevant information for an object pipe.
+**Summary:** The source is used to contain all relevant information for an object pipe.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -13,13 +13,13 @@ The source is used to contain all relevant information for an object pipe.
 
 **Aspose.Imaging Version:** 23.6
 
-The Source type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_stream_container()](#get_stream_container__0) | Gets the stream container. |
+| [get_stream_container()](#get_stream_container__1) | Gets the stream container. |
 
-### get_stream_container() {#get_stream_container__0}
+
+### Method: get_stream_container() {#get_stream_container__1}
 
 
 ```

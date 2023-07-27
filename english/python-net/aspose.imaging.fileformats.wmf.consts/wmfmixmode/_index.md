@@ -16,5 +16,5 @@ The MixMode Enumeration specifies the background mix mode for text, hatched brus
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| TRANSPARENT | The background remains untouched. |
 | OPAQUE | The background is filled with the<br/>                background color that is currently defined in the playback device context before the text, hatched brush, or pen is<br/>                drawn. |
+| TRANSPARENT | The background remains untouched. |

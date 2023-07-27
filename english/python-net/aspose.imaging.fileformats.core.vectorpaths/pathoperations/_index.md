@@ -16,7 +16,7 @@ The operations for the path shapes combining (Boolean operations).
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| EXCLUDE_OVERLAPPING_SHAPES | Exclude Overlapping Shapes (XOR operation). |
 | COMBINE_SHAPES | Combine Shapes (OR operation). This is default value in Photoshop. |
-| SUBTRACT_FRONT_SHAPE | Subtract Front Shape (NOT operation). |
+| EXCLUDE_OVERLAPPING_SHAPES | Exclude Overlapping Shapes (XOR operation). |
 | INTERSECT_SHAPE_AREAS | Intersect Shape Areas (AND operation). |
+| SUBTRACT_FRONT_SHAPE | Subtract Front Shape (NOT operation). |

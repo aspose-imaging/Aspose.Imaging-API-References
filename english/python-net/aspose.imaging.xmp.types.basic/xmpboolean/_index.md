@@ -5,7 +5,7 @@ weight: 10
 url: /python-net/aspose.imaging.xmp.types.basic/xmpboolean/
 ---
 
-Represents XMP Boolean basic type.
+**Summary:** Represents XMP Boolean basic type.
 
 **Module:** [aspose.imaging.xmp.types.basic](/imaging/python-net/aspose.imaging.xmp.types.basic/)
 
@@ -15,23 +15,32 @@ Represents XMP Boolean basic type.
 
 **Aspose.Imaging Version:** 23.6
 
-The XmpBoolean type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [XmpBoolean(value)](#XmpBoolean_value_0) | Initializes a new instance of the [XmpBoolean](/imaging/python-net/aspose.imaging.xmp.types.basic/xmpboolean/) class based on boolean value. |
 | [XmpBoolean()](#XmpBoolean__1) | Initializes a new instance of the [XmpBoolean](/imaging/python-net/aspose.imaging.xmp.types.basic/xmpboolean/) class with default value. |
 | [XmpBoolean(value)](#XmpBoolean_value_2) | Initializes a new instance of the [XmpBoolean](/imaging/python-net/aspose.imaging.xmp.types.basic/xmpboolean/) class based on boolean value. |
+| [XmpBoolean(value)](#XmpBoolean_value_3) | Initializes a new instance of the [XmpBoolean](/imaging/python-net/aspose.imaging.xmp.types.basic/xmpboolean/) class based on boolean value. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | value | bool | r/w | Gets or sets a value indicating whether this [XmpBoolean](/imaging/python-net/aspose.imaging.xmp.types.basic/xmpboolean/) is value. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_xmp_representation()](#get_xmp_representation__3) | Returns string contained value in XMP format. |
+| [get_xmp_representation()](#get_xmp_representation__1) | Returns string contained value in XMP format. |
 
-### XmpBoolean(value) {#XmpBoolean_value_0}
+
+### Constructor: XmpBoolean() {#XmpBoolean__1}
+
+
+```
+ XmpBoolean() 
+```
+
+Initializes a new instance of the [XmpBoolean](/imaging/python-net/aspose.imaging.xmp.types.basic/xmpboolean/) class with default value.
+
+### Constructor: XmpBoolean(value) {#XmpBoolean_value_2}
 
 
 ```
@@ -46,16 +55,7 @@ Initializes a new instance of the [XmpBoolean](/imaging/python-net/aspose.imagin
 | :- | :- | :- |
 | value | bool | The Boolean value. Allowed values are True or False. |
 
-### XmpBoolean() {#XmpBoolean__1}
-
-
-```
- XmpBoolean() 
-```
-
-Initializes a new instance of the [XmpBoolean](/imaging/python-net/aspose.imaging.xmp.types.basic/xmpboolean/) class with default value.
-
-### XmpBoolean(value) {#XmpBoolean_value_2}
+### Constructor: XmpBoolean(value) {#XmpBoolean_value_3}
 
 
 ```
@@ -70,7 +70,7 @@ Initializes a new instance of the [XmpBoolean](/imaging/python-net/aspose.imagin
 | :- | :- | :- |
 | value | string | The Boolean value. Allowed values are True or False. |
 
-### get_xmp_representation() {#get_xmp_representation__3}
+### Method: get_xmp_representation() {#get_xmp_representation__1}
 
 
 ```

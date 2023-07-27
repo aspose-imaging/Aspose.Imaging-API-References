@@ -5,7 +5,7 @@ weight: 5360
 url: /python-net/aspose.imaging/ipartialpixelloader/
 ---
 
-Conforms to the pixels loaded partially.
+**Summary:** Conforms to the pixels loaded partially.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -13,13 +13,13 @@ Conforms to the pixels loaded partially.
 
 **Aspose.Imaging Version:** 23.6
 
-The IPartialPixelLoader type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [process(pixels_rectangle, pixels, start, end)](#process_pixels_rectangle_pixels_start_end_0) | Processes the loaded pixels. |
+| [process(pixels_rectangle, pixels, start, end)](#process_pixels_rectangle_pixels_start_end_1) | Processes the loaded pixels. |
 
-### process(pixels_rectangle, pixels, start, end) {#process_pixels_rectangle_pixels_start_end_0}
+
+### Method: process(pixels_rectangle, pixels, start, end) {#process_pixels_rectangle_pixels_start_end_1}
 
 
 ```

@@ -5,7 +5,7 @@ weight: 5290
 url: /python-net/aspose.imaging/imultipageimage/
 ---
 
-The multipage image interface
+**Summary:** The multipage image interface
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -13,10 +13,10 @@ The multipage image interface
 
 **Aspose.Imaging Version:** 23.6
 
-The IMultipageImage type exposes the following members:
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | page_count | int | r | Gets the page count. |
 | pages | [Image[]](/imaging/python-net/aspose.imaging/image) | r | Gets the pages. |
+
 

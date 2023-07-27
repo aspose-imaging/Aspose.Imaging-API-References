@@ -16,6 +16,6 @@ Types of caps for the line.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| SQUARE | Add square end shapes to the line. |
-| ROUND | Add round end shapes to the line. |
 | EXTENDED_SQUARE | The extended squareAdd square end shapes that extend the length of the line. |
+| ROUND | Add round end shapes to the line. |
+| SQUARE | Add square end shapes to the line. |

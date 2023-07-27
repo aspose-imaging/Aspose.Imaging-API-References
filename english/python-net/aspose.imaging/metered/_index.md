@@ -5,7 +5,7 @@ weight: 5940
 url: /python-net/aspose.imaging/metered/
 ---
 
-Provides methods to set metered key.
+**Summary:** Provides methods to set metered key.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -13,19 +13,19 @@ Provides methods to set metered key.
 
 **Aspose.Imaging Version:** 23.6
 
-The Metered type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [Metered()](#Metered__0) | Initializes a new instance of this class and injects dependency on metered |
+| [Metered()](#Metered__1) | Initializes a new instance of this class and injects dependency on metered |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [set_metered_key(public_key, private_key)](#set_metered_key_public_key_private_key_1) | Sets metered public and private key<br/>            If you purchase metered license, when start application, this API should be called, normally, this is enough. <br/>            However, if always fail to upload consumption data and exceed 24 hours, the license will be set to evaluation status,<br/>            to avoid such case, you should regularly check the license status, if it is evaluation status, call this API again. |
+| [get_consumption_credit()](#get_consumption_credit__1) | Gets consumption credit |
 | [get_consumption_quantity()](#get_consumption_quantity__2) | Gets consumption file size |
-| [get_consumption_credit()](#get_consumption_credit__3) | Gets consumption credit |
+| [set_metered_key(public_key, private_key)](#set_metered_key_public_key_private_key_3) | Sets metered public and private key<br/>            If you purchase metered license, when start application, this API should be called, normally, this is enough. <br/>            However, if always fail to upload consumption data and exceed 24 hours, the license will be set to evaluation status,<br/>            to avoid such case, you should regularly check the license status, if it is evaluation status, call this API again. |
 
-### Metered() {#Metered__0}
+
+### Constructor: Metered() {#Metered__1}
 
 
 ```
@@ -34,23 +34,23 @@ The Metered type exposes the following members:
 
 Initializes a new instance of this class and injects dependency on metered
 
-### set_metered_key(public_key, private_key) {#set_metered_key_public_key_private_key_1}
+### Method: get_consumption_credit()  [static] {#get_consumption_credit__1}
 
 
 ```
- set_metered_key(public_key, private_key) 
+ get_consumption_credit() 
 ```
 
-Sets metered public and private key<br/>            If you purchase metered license, when start application, this API should be called, normally, this is enough. <br/>            However, if always fail to upload consumption data and exceed 24 hours, the license will be set to evaluation status,<br/>            to avoid such case, you should regularly check the license status, if it is evaluation status, call this API again.
+Gets consumption credit
 
-**Parameters:**
+**Returns**
 
-| Parameter | Type | Description |
-| :- | :- | :- |
-| public_key | string | public key |
-| private_key | string | private key |
+| Type | Description |
+| :- | :- |
+| decimal | consumption quantity |
 
-### get_consumption_quantity()  [static] {#get_consumption_quantity__2}
+
+### Method: get_consumption_quantity()  [static] {#get_consumption_quantity__2}
 
 
 ```
@@ -66,19 +66,19 @@ Gets consumption file size
 | decimal | consumption quantity |
 
 
-### get_consumption_credit()  [static] {#get_consumption_credit__3}
+### Method: set_metered_key(public_key, private_key) {#set_metered_key_public_key_private_key_3}
 
 
 ```
- get_consumption_credit() 
+ set_metered_key(public_key, private_key) 
 ```
 
-Gets consumption credit
+Sets metered public and private key<br/>            If you purchase metered license, when start application, this API should be called, normally, this is enough. <br/>            However, if always fail to upload consumption data and exceed 24 hours, the license will be set to evaluation status,<br/>            to avoid such case, you should regularly check the license status, if it is evaluation status, call this API again.
 
-**Returns**
+**Parameters:**
 
-| Type | Description |
-| :- | :- |
-| decimal | consumption quantity |
-
+| Parameter | Type | Description |
+| :- | :- | :- |
+| public_key | string | public key |
+| private_key | string | private key |
 

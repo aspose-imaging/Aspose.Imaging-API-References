@@ -5,7 +5,7 @@ weight: 10
 url: /python-net/aspose.imaging.memorymanagement/configuration/
 ---
 
-The memory management global configuration
+**Summary:** The memory management global configuration
 
 **Module:** [aspose.imaging.memorymanagement](/imaging/python-net/aspose.imaging.memorymanagement/)
 
@@ -13,9 +13,9 @@ The memory management global configuration
 
 **Aspose.Imaging Version:** 23.6
 
-The Configuration type exposes the following members:
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | buffer_size_hint [static] | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
+
 

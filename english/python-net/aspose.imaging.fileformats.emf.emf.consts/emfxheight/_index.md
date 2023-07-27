@@ -18,9 +18,9 @@ The XHeight enumeration defines values for one of the characteristics in the PAN
 | :- | :- |
 | PAN_ANY | The Any height. |
 | PAN_NO_FIT | The No fit. |
+| PAN_XHEIGHT_CONSTANT_LARGE | Constant/large |
 | PAN_XHEIGHT_CONSTANT_SMALL | Constant/small |
 | PAN_XHEIGHT_CONSTANT_STD | Constant/standard |
-| PAN_XHEIGHT_CONSTANT_LARGE | Constant/large |
+| PAN_XHEIGHT_DUCKING_LARGE | Ducking/large |
 | PAN_XHEIGHT_DUCKING_SMALL | Ducking/small |
 | PAN_XHEIGHT_DUCKING_STD | Ducking/standard |
-| PAN_XHEIGHT_DUCKING_LARGE | Ducking/large |

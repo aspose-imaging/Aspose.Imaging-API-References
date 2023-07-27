@@ -16,12 +16,12 @@ exif exposure program enum.
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| NOTDEFINED | Not defined. |
-| MANUAL | Manual program. |
-| AUTO | Auto exposure. |
-| APERTUREPRIORITY | Aperture priority. |
-| SHUTTERPRIORITY | Shutter priority. |
-| CREATIVEPROGRAM | Creative program. |
 | ACTIONPROGRAM | Action program. |
-| PORTRAITMODE | Portrait mode. |
+| APERTUREPRIORITY | Aperture priority. |
+| AUTO | Auto exposure. |
+| CREATIVEPROGRAM | Creative program. |
 | LANDSCAPEMODE | Landscape mode. |
+| MANUAL | Manual program. |
+| NOTDEFINED | Not defined. |
+| PORTRAITMODE | Portrait mode. |
+| SHUTTERPRIORITY | Shutter priority. |

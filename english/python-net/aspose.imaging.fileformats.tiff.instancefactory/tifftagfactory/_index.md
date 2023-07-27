@@ -5,7 +5,7 @@ weight: 20
 url: /python-net/aspose.imaging.fileformats.tiff.instancefactory/tifftagfactory/
 ---
 
-Tag factory class
+**Summary:** Tag factory class
 
 **Module:** [aspose.imaging.fileformats.tiff.instancefactory](/imaging/python-net/aspose.imaging.fileformats.tiff.instancefactory/)
 
@@ -13,13 +13,13 @@ Tag factory class
 
 **Aspose.Imaging Version:** 23.6
 
-The TiffTagFactory type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [create_instance(data_type, tag_id)](#create_instance_data_type_tag_id_0) | Creates a new data type instance. |
+| [create_instance(data_type, tag_id)](#create_instance_data_type_tag_id_1) | Creates a new data type instance. |
 
-### create_instance(data_type, tag_id)  [static] {#create_instance_data_type_tag_id_0}
+
+### Method: create_instance(data_type, tag_id)  [static] {#create_instance_data_type_tag_id_1}
 
 
 ```

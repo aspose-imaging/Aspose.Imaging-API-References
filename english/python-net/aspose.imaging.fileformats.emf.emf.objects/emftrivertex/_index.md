@@ -5,7 +5,7 @@ weight: 270
 url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emftrivertex/
 ---
 
-The TriVertex object specifies color and position information for the definition of a rectangle or <br/>            triangle vertex.
+**Summary:** The TriVertex object specifies color and position information for the definition of a rectangle or <br/>            triangle vertex.
 
 **Module:** [aspose.imaging.fileformats.emf.emf.objects](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/)
 
@@ -15,22 +15,22 @@ The TriVertex object specifies color and position information for the definition
 
 **Aspose.Imaging Version:** 23.6
 
-The EmfTriVertex type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [EmfTriVertex()](#EmfTriVertex__0) | Initializes a new instance of the EmfTriVertex class |
+| [EmfTriVertex()](#EmfTriVertex__1) | Initializes a new instance of the EmfTriVertex class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
+| alpha | short | r/w | Gets or sets a 16-bit unsigned integer that specifies the alpha transparency value for the point. |
+| blue | short | r/w | Gets or sets a 16-bit unsigned integer that specifies the blue color value for the point. |
+| green | short | r/w | Gets or sets a 16-bit unsigned integer that specifies the green color value for the point. |
+| red | short | r/w | Gets or sets a 16-bit unsigned integer that specifies the red color value for the point. |
 | x | int | r/w | Gets or sets a 32-bit signed integer that specifies the horizontal position, in logical units. |
 | y | int | r/w | Gets or sets a 32-bit signed integer that specifies the vertical position, in logical units. |
-| red | short | r/w | Gets or sets a 16-bit unsigned integer that specifies the red color value for the point. |
-| green | short | r/w | Gets or sets a 16-bit unsigned integer that specifies the green color value for the point. |
-| blue | short | r/w | Gets or sets a 16-bit unsigned integer that specifies the blue color value for the point. |
-| alpha | short | r/w | Gets or sets a 16-bit unsigned integer that specifies the alpha transparency value for the point. |
 
-### EmfTriVertex() {#EmfTriVertex__0}
+
+### Constructor: EmfTriVertex() {#EmfTriVertex__1}
 
 
 ```

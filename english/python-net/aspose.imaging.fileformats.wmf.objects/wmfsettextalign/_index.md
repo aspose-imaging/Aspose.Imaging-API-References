@@ -5,7 +5,7 @@ weight: 790
 url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsettextalign/
 ---
 
-The Set text align
+**Summary:** The Set text align
 
 **Module:** [aspose.imaging.fileformats.wmf.objects](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/)
 
@@ -15,18 +15,18 @@ The Set text align
 
 **Aspose.Imaging Version:** 23.6
 
-The WmfSetTextAlign type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [WmfSetTextAlign()](#WmfSetTextAlign__0) | Initializes a new instance of the WmfSetTextAlign class |
+| [WmfSetTextAlign()](#WmfSetTextAlign__1) | Initializes a new instance of the WmfSetTextAlign class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| text_align | [WmfTextAlignmentModeFlags](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmftextalignmentmodeflags/) | r/w | Gets or sets the text align. |
 | reserved | int | r/w | Gets or sets the reserved. |
+| text_align | [WmfTextAlignmentModeFlags](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmftextalignmentmodeflags/) | r/w | Gets or sets the text align. |
 
-### WmfSetTextAlign() {#WmfSetTextAlign__0}
+
+### Constructor: WmfSetTextAlign() {#WmfSetTextAlign__1}
 
 
 ```

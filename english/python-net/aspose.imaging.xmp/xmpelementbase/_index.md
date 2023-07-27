@@ -5,7 +5,7 @@ weight: 360
 url: /python-net/aspose.imaging.xmp/xmpelementbase/
 ---
 
-Represents base xmp element contains attributes.
+**Summary:** Represents base xmp element contains attributes.
 
 **Module:** [aspose.imaging.xmp](/imaging/python-net/aspose.imaging.xmp/)
 
@@ -13,15 +13,15 @@ Represents base xmp element contains attributes.
 
 **Aspose.Imaging Version:** 23.6
 
-The XmpElementBase type exposes the following members:
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [add_attribute(attribute, value)](#add_attribute_attribute_value_0) | Adds the attribute. |
-| [get_attribute(attribute)](#get_attribute_attribute_1) | Gets the attribute. |
+| [add_attribute(attribute, value)](#add_attribute_attribute_value_1) | Adds the attribute. |
 | clear_attributes() | Removes all attributes. |
+| [get_attribute(attribute)](#get_attribute_attribute_2) | Gets the attribute. |
 
-### add_attribute(attribute, value) {#add_attribute_attribute_value_0}
+
+### Method: add_attribute(attribute, value) {#add_attribute_attribute_value_1}
 
 
 ```
@@ -37,7 +37,7 @@ Adds the attribute.
 | attribute | string | The attribute. |
 | value | string | The value. |
 
-### get_attribute(attribute) {#get_attribute_attribute_1}
+### Method: get_attribute(attribute) {#get_attribute_attribute_2}
 
 
 ```

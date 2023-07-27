@@ -5,7 +5,7 @@ weight: 4690
 url: /python-net/aspose.imaging/figure/
 ---
 
-The figure. A container for shapes.
+**Summary:** The figure. A container for shapes.
 
 **Module:** [aspose.imaging](/imaging/python-net/aspose.imaging/)
 
@@ -15,31 +15,31 @@ The figure. A container for shapes.
 
 **Aspose.Imaging Version:** 23.6
 
-The Figure type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [Figure()](#Figure__0) | Initializes a new [Figure](/imaging/python-net/aspose.imaging/figure/) instance.<br/>            A constructor required for a JSON deserialization. |
+| [Figure()](#Figure__1) | Initializes a new [Figure](/imaging/python-net/aspose.imaging/figure/) instance.<br/>            A constructor required for a JSON deserialization. |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
 | bounds | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r | Gets or sets the object's bounds. |
-| shapes | [Shape[]](/imaging/python-net/aspose.imaging/shape) | r | Gets or sets the figure shapes. |
 | is_closed | bool | r/w | Gets or sets a value indicating whether this figure is closed. A closed figure will make a difference only in case where<br/>            the first and the last figure's shapes are continuous shapes. In such case the first point of the first shape will be<br/>            connected by a straight line from the last point of the last shape. |
 | segments | [ShapeSegment[]](/imaging/python-net/aspose.imaging/shapesegment) | r | Gets the whole figure segments. |
+| shapes | [Shape[]](/imaging/python-net/aspose.imaging/shape) | r | Gets or sets the figure shapes. |
 ## **Methods**
 | **Name** | **Description** |
 | :- | :- |
-| [get_bounds(matrix)](#get_bounds_matrix_1) | Gets the object's bounds. |
-| [get_bounds(matrix, pen)](#get_bounds_matrix_pen_2) | Gets the object's bounds. |
-| [transform(transform)](#transform_transform_3) | Applies the specified transformation to the shape. |
-| [add_shape(shape)](#add_shape_shape_4) | Adds a shape to the figure. |
-| [add_shapes(shapes)](#add_shapes_shapes_5) | Adds a range of shapes to the figure. |
-| [remove_shape(shape)](#remove_shape_shape_6) | Removes a shape from the figure. |
-| [remove_shapes(shapes)](#remove_shapes_shapes_7) | Removes a range of shapes from the figure. |
+| [add_shape(shape)](#add_shape_shape_1) | Adds a shape to the figure. |
+| [add_shapes(shapes)](#add_shapes_shapes_2) | Adds a range of shapes to the figure. |
+| [get_bounds(matrix)](#get_bounds_matrix_3) | Gets the object's bounds. |
+| [get_bounds(matrix, pen)](#get_bounds_matrix_pen_4) | Gets the object's bounds. |
+| [remove_shape(shape)](#remove_shape_shape_5) | Removes a shape from the figure. |
+| [remove_shapes(shapes)](#remove_shapes_shapes_6) | Removes a range of shapes from the figure. |
 | reverse() | Reverses this figure shapes order and shapes point order. |
+| [transform(transform)](#transform_transform_7) | Applies the specified transformation to the shape. |
 
-### Figure() {#Figure__0}
+
+### Constructor: Figure() {#Figure__1}
 
 
 ```
@@ -48,7 +48,37 @@ The Figure type exposes the following members:
 
 Initializes a new [Figure](/imaging/python-net/aspose.imaging/figure/) instance.<br/>            A constructor required for a JSON deserialization.
 
-### get_bounds(matrix) {#get_bounds_matrix_1}
+### Method: add_shape(shape) {#add_shape_shape_1}
+
+
+```
+ add_shape(shape) 
+```
+
+Adds a shape to the figure.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| shape | [Shape](/imaging/python-net/aspose.imaging/shape) | The shape to add. |
+
+### Method: add_shapes(shapes) {#add_shapes_shapes_2}
+
+
+```
+ add_shapes(shapes) 
+```
+
+Adds a range of shapes to the figure.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| shapes | [Shape[]](/imaging/python-net/aspose.imaging/shape) | The shapes to add. |
+
+### Method: get_bounds(matrix) {#get_bounds_matrix_3}
 
 
 ```
@@ -70,7 +100,7 @@ Gets the object's bounds.
 | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The estimated object's bounds. |
 
 
-### get_bounds(matrix, pen) {#get_bounds_matrix_pen_2}
+### Method: get_bounds(matrix, pen) {#get_bounds_matrix_pen_4}
 
 
 ```
@@ -93,52 +123,7 @@ Gets the object's bounds.
 | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | The estimated object's bounds. |
 
 
-### transform(transform) {#transform_transform_3}
-
-
-```
- transform(transform) 
-```
-
-Applies the specified transformation to the shape.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| transform | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The transformation to apply. |
-
-### add_shape(shape) {#add_shape_shape_4}
-
-
-```
- add_shape(shape) 
-```
-
-Adds a shape to the figure.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| shape | [Shape](/imaging/python-net/aspose.imaging/shape) | The shape to add. |
-
-### add_shapes(shapes) {#add_shapes_shapes_5}
-
-
-```
- add_shapes(shapes) 
-```
-
-Adds a range of shapes to the figure.
-
-**Parameters:**
-
-| Parameter | Type | Description |
-| :- | :- | :- |
-| shapes | [Shape[]](/imaging/python-net/aspose.imaging/shape) | The shapes to add. |
-
-### remove_shape(shape) {#remove_shape_shape_6}
+### Method: remove_shape(shape) {#remove_shape_shape_5}
 
 
 ```
@@ -153,7 +138,7 @@ Removes a shape from the figure.
 | :- | :- | :- |
 | shape | [Shape](/imaging/python-net/aspose.imaging/shape) | The shape to remove. |
 
-### remove_shapes(shapes) {#remove_shapes_shapes_7}
+### Method: remove_shapes(shapes) {#remove_shapes_shapes_6}
 
 
 ```
@@ -167,4 +152,19 @@ Removes a range of shapes from the figure.
 | Parameter | Type | Description |
 | :- | :- | :- |
 | shapes | [Shape[]](/imaging/python-net/aspose.imaging/shape) | The shapes range to remove. |
+
+### Method: transform(transform) {#transform_transform_7}
+
+
+```
+ transform(transform) 
+```
+
+Applies the specified transformation to the shape.
+
+**Parameters:**
+
+| Parameter | Type | Description |
+| :- | :- | :- |
+| transform | [Matrix](/imaging/python-net/aspose.imaging/matrix) | The transformation to apply. |
 

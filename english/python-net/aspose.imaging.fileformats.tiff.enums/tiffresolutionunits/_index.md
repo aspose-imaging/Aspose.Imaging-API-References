@@ -16,6 +16,6 @@ Tiff Resolution Unit Enum
 ## **Members**
 | **Member name** | **Description** |
 | :- | :- |
-| NONE | No meaningful units. |
-| INCH | English system. |
 | CENTIMETER | Metric system. |
+| INCH | English system. |
+| NONE | No meaningful units. |

@@ -5,7 +5,7 @@ weight: 40
 url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrbmp/
 ---
 
-he cdr bmp
+**Summary:** he cdr bmp
 
 **Module:** [aspose.imaging.fileformats.cdr.objects](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/)
 
@@ -15,26 +15,26 @@ he cdr bmp
 
 **Aspose.Imaging Version:** 23.6
 
-The CdrBmp type exposes the following members:
 ## **Constructors**
-|**Name**|**Description**|
+| **Name** | **Description** |
 | :- | :- |
-| [CdrBmp()](#CdrBmp__0) | Initializes a new instance of the CdrBmp class |
+| [CdrBmp()](#CdrBmp__1) | Initializes a new instance of the CdrBmp class |
 ## **Properties**
-|**Name**|**Type**|**Access**|**Description**|
+| **Name** | **Type** | **Access** | **Description** |
 | :- | :- | :- |
-| disposed | bool | r | Gets a value indicating whether this instance is disposed. |
-| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
-| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |
-| id | int | r/w | Gets or sets the identifier. |
-| color_model | int | r/w | Gets or sets the color model. |
-| width | int | r/w | Gets or sets the width. |
-| height | int | r/w | Gets or sets the height. |
 | bpp | int | r/w | Gets or sets the BPP. |
 | bytes_per_line | int | r/w | Gets or sets the bytes per line. |
+| color_model | int | r/w | Gets or sets the color model. |
+| disposed | bool | r | Gets a value indicating whether this instance is disposed. |
+| document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |
+| height | int | r/w | Gets or sets the height. |
+| id | int | r/w | Gets or sets the identifier. |
 | palette | int | r/w | Gets or sets the palette. |
+| parent | [CdrObjectContainer](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrobjectcontainer) | r/w | Gets or sets the parent. |
+| width | int | r/w | Gets or sets the width. |
 
-### CdrBmp() {#CdrBmp__0}
+
+### Constructor: CdrBmp() {#CdrBmp__1}
 
 
 ```
