@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfscalewindowextex/
 | [EmfScaleWindowExtex(source)](#EmfScaleWindowExtex_source_2) | Initializes a new instance of the [EmfScaleWindowExtex](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfscalewindowextex/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | size | int | r/w | Gets or sets the size of the record |
 | type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
 | x_denom | int | r/w | Gets or sets a 32-bit signed integer that specifies the horizontal divisor. MUST NOT be zero. |

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescri
 | [EmfPixelFormatDescriptor()](#EmfPixelFormatDescriptor__1) | Initializes a new instance of the EmfPixelFormatDescriptor class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | b_reserved | byte | r/w | Gets or sets specifies the number of overlay and underlay planes. Bits 0 through 3 specify <br/>            up to 15 overlay planes and bits 4 through 7 specify up to 15 underlay planes |
 | c_accum_alpha_bits | byte | r/w | Gets or sets specifies the number of alpha bitplanes in the accumulation buffer |
 | c_accum_bits | byte | r/w | Gets or sets specifies the total number of bitplanes in the accumulation buffer. |

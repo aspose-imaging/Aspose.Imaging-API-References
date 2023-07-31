@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffdatatype/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | count | ulong | r | Gets the count of elements. |
 | data_size | ulong | r | Gets the tag value size. |
 | element_size | byte | r | Gets the element size in bytes. |

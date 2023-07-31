@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.imageoptions/jpeg2000options/
 | [Jpeg2000Options(jpeg_2000_options)](#Jpeg2000Options_jpeg_2000_options_2) | Initializes a new instance of the [Jpeg2000Options](/imaging/python-net/aspose.imaging.imageoptions/jpeg2000options/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | codec | [Jpeg2000Codec](/imaging/python-net/aspose.imaging.fileformats.jpeg2000/jpeg2000codec/) | r/w | Gets or sets the JPEG2000 codec |
 | comments | string | r/w | Gets or sets the Jpeg comment markers. |

@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects/odgraphicstyle/
 | [OdGraphicStyle()](#OdGraphicStyle__1) | Initializes a new instance of the OdGraphicStyle class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | brush | [OdBrush](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/odbrush/) | r/w | Gets the brush. |
 | end_guide | float | r/w | Gets or sets the end guide. |
 | end_marker | [OdMarker](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odmarker/) | r/w | Gets or sets the end marker. |

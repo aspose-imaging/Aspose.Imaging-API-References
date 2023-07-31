@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetmapperflags/
 | [WmfSetMapperFlags()](#WmfSetMapperFlags__1) | Initializes a new instance of the WmfSetMapperFlags class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | mapper_values | int | r/w | Gets or sets the mapper values. |
 
 

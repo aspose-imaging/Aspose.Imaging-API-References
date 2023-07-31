@@ -23,7 +23,7 @@ url: /python-net/aspose.imaging.exif/exifdata/
 | [ExifData(exifdata)](#ExifData_exifdata_3) | Initializes a new instance of the [ExifData](/imaging/python-net/aspose.imaging.exif/exifdata/) class with data from array. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | aperture_value | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the aperture value. |
 | body_serial_number | string | r/w | Gets or sets camera body serial number. |
 | brightness_value | [TiffSRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffsrational/) | r/w | Gets or sets the brightness value. |

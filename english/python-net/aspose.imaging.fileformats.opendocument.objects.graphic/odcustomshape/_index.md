@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odcusto
 | [OdCustomShape(parent)](#OdCustomShape_parent_1) | Initializes a new instance of the [OdCustomShape](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odcustomshape/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
 | items | list[OdObject] | r | Gets the items. |
 | layer | string | r/w | Gets or sets the layer. |

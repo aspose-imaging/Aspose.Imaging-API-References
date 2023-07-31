@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.xmp/xmpmeta/
 | [XmpMeta(toolkit_version)](#XmpMeta_toolkit_version_2) | Initializes a new instance of the [XmpMeta](/imaging/python-net/aspose.imaging.xmp/xmpmeta/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | adobe_xmp_toolkit | string | r/w | Gets or set Adobe Xmp toolkit version. |
 ## **Methods**
 | **Name** | **Description** |

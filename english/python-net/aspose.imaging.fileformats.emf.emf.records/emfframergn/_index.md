@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfframergn/
 | [EmfFrameRgn(source)](#EmfFrameRgn_source_2) | Initializes a new instance of the [EmfFrameRgn](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfframergn/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets 128-bit WMF RectL object, specified in [MS-WMF] section 2.2.2.19, which <br/>            specifies the bounding rectangle. |
 | height | int | r/w | Gets or sets a 32-bit signed integer that specifies the height of the horizontal brush <br/>            stroke, in logical units. |
 | ih_brush | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the brush EMF Object Table index. |

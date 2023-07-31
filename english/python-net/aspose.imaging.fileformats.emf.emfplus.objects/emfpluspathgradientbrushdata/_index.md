@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspathgradi
 | [EmfPlusPathGradientBrushData()](#EmfPlusPathGradientBrushData__1) | Initializes a new instance of the EmfPlusPathGradientBrushData class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | boundary_data | [EmfPlusBoundaryBase](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundarybase) | r/w | Gets or sets the boundary of the path gradient brush, which is specified by either a path or a closed cardinal spline. <br/>            If the BrushDataPath flag is set in the BrushDataFlags field, this field MUST contain an EmfPlusBoundaryPathData object (section 2.2.2.6); <br/>            otherwise, this field MUST contain an EmfPlusBoundaryPointData object (section 2.2.2.7). |
 | brush_data_flags | [EmfPlusBrushDataFlags](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushdataflags/) | r/w | Gets or sets 32-bit unsigned integer that specifies the data in the OptionalData field.<br/>            This value MUST be composed of BrushData flags (section 2.1.2.1). The following flags are relevant to a path gradient brush: |
 | center_argb_32_color | int | r/w | Gets or sets EmfPlusARGB object (section 2.2.2.1) that specifies the center color of <br/>            the path gradient brush, which is the color that appears at the center point of the brush. <br/>            The color of the brush changes gradually from the boundary <br/>            color to the center color as it moves from the boundary to the center point. |

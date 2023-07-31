@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/
 | [EmfSmallTextOut(source)](#EmfSmallTextOut_source_1) | Initializes a new instance of the [EmfSmallTextOut](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsmalltextout/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets an optional, 128-bit WMF RectL object ([MS-WMF] section 2.2.2.19) that<br/>            specifies the bounding rectangle in device units. |
 | c_chars | int | r/w | Gets or sets a 32-bit unsigned integer specifying the number of 16-bit characters in the<br/>            string. The string is NOT null-terminated. |
 | ex_scale | float | r/w | Gets or sets a 32-bit floating-point value that specifies how much to scale the text in the x-direction. |

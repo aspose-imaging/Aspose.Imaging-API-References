@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfinvertrgn/
 | [EmfInvertRgn(source)](#EmfInvertRgn_source_1) | Initializes a new instance of the [EmfInvertRgn](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfinvertrgn/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets a 128-bit WMF RectL object, specified in [MS-WMF] section 2.2.2.19,<br/>            which specifies the bounding rectangle. |
 | rgn_data | byte | r/w | Gets or sets a RgnDataSize length array of bytes that specifies a RegionData object, in logical units. |
 | rgn_data_size | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the size of region data, in bytes. |

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentemfplus/
 | [EmfCommentEmfPlus(source)](#EmfCommentEmfPlus_source_1) | Initializes a new instance of the [EmfCommentEmfPlus](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentemfplus/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | comment_identifier | EmfCommentRecordType.CommentIdentifierEnum | r/w | Gets or sets a 32-bit unsigned integer that identifies this comment record <br/>            as containing EMF+ records. The value 0x2B464D45, which is the ASCII string "+FME", <br/>            identifies this as an EMR_COMMENT_EMFPLUS record. |
 | data_size | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the size, in bytes, of the <br/>            CommentIdentifier and CommentRecordParm fields in the RecordBuffer field that <br/>            follows. It MUST NOT include the size of itself or the size of the AlignmentPadding field, if <br/>            present |
 | emf_plus_records | [EmfPlusRecord[]](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusrecord/) | r/w | Gets or sets an array of bytes that contains one or more EMF+ records ([MS-EMFPLUS] section 2.3.1). |

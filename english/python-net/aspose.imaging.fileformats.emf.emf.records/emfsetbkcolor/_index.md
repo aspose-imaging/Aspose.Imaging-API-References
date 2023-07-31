@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetbkcolor/
 | [EmfSetBkColor(source)](#EmfSetBkColor_source_2) | Initializes a new instance of the [EmfSetBkColor](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetbkcolor/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | argb_32_color | int | r/w | Gets or sets a 32-bit WMF ColorRef object, specified in [MS-WMF] section 2.2.2.8, which<br/>            specifies the background color value. |
 | size | int | r/w | Gets or sets the size of the record |
 | type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |

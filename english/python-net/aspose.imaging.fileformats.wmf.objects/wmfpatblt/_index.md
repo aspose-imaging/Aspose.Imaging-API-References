@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfpatblt/
 | [WmfPatBlt()](#WmfPatBlt__1) | Initializes a new instance of the WmfPatBlt class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | height | short | r/w | Gets or sets the height. |
 | point | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the point. |
 | raster_operation | [WmfTernaryRasterOperation](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfternaryrasteroperation/) | r/w | Gets or sets the raster operation. |

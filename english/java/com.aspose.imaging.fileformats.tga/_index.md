@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.tga
 second_title: Aspose.Imaging for Java API Reference
 description: The namespace handles Tga file format processing.
 type: docs
-weight: 75
+weight: 72
 url: /java/com.aspose.imaging.fileformats.tga/
 ---
 

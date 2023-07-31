@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspace/
 | [EmfCreateColorSpace(source)](#EmfCreateColorSpace_source_1) | Initializes a new instance of the [EmfCreateColorSpace](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspace/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | ih_cs | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the index of the logical color space<br/>            object in the EMF object table (section 3.1.1.1). This index MUST be saved so that this object<br/>            can be reused or modified. |
 | lcs | [WmfLogColorSpace](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmflogcolorspace/) | r/w | Gets or sets a WMF LogColorSpace object ([MS-WMF] section 2.2.2.11), which can specify<br/>            the name of a color profile in ASCII characters. |
 | size | int | r/w | Gets or sets the size of the record |

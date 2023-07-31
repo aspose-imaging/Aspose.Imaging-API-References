@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmximagespec/
 | [CmxImageSpec()](#CmxImageSpec__1) | Initializes a new instance of the CmxImageSpec class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bound_box | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets the bound box. |
 | crop_box | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets the crop box. |
 | image_type | ushort | r/w | Gets or sets the type of the image. |

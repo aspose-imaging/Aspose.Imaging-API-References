@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.xmp.types.basic/xmpreal/
 | [XmpReal(value)](#XmpReal_value_2) | Initializes a new instance of the [XmpReal](/imaging/python-net/aspose.imaging.xmp.types.basic/xmpreal/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | value | float | r/w | Gets or sets float the value. |
 ## **Methods**
 | **Name** | **Description** |

@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging/imageloadersregistry/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | registered_descriptors [static] | [IImageLoaderDescriptor[]](/imaging/python-net/aspose.imaging/iimageloaderdescriptor) | r | Gets the registered descriptors. |
 | registered_formats [static] | [FileFormat](/imaging/python-net/aspose.imaging/fileformat) | r | Gets the registered image loading formats. |
 ## **Methods**

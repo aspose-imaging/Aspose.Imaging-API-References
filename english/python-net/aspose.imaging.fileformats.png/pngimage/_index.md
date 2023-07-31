@@ -28,7 +28,7 @@ url: /python-net/aspose.imaging.fileformats.png/pngimage/
 | [PngImage(width, height, color_type)](#PngImage_width_height_color_type_8) | Initializes a new instance of the PngImage class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether automatic adjust palette. |
 | background_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets the background color. |
 | bits_per_pixel | int | r | Gets the bits per pixel. |

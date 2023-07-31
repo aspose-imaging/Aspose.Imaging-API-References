@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec
 | [CmxEllipseSpec()](#CmxEllipseSpec__1) | Initializes a new instance of the CmxEllipseSpec class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | angle1 | float | r/w | Gets or sets the first angle used for defining of pie sector.<br/>            Does no affect if [CmxEllipseSpec.pie](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/) is <c>false</c>.<br/>            Measures in radians. |
 | angle2 | float | r/w | Gets or sets the second angle used for defining of pie sector.<br/>            Does no affect if [CmxEllipseSpec.pie](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxellipsespec/) is <c>false</c>.<br/>            Measures in radians. |
 | bounding_box | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets the bounding box. |

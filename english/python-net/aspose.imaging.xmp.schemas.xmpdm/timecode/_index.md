@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpdm/timecode/
 | [Timecode(format, time_value)](#Timecode_format_time_value_1) | Initializes a new instance of the [Timecode](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/timecode/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | format | [TimeFormat](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/timeformat) | r/w | Gets or sets the format used in the [Timecode.time_value](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/timecode/). |
 | time_value | string | r/w | Gets or sets the time value in the specified format. |
 ## **Methods**

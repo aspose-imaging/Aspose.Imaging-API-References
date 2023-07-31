@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging/fontsettings/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | default_font_name [static] | string | r/w | Gets or sets the default name of the font. |
 | get_system_alternative_font [static] | bool | r/w | Gets or sets a value indicating whether [get alternative font]. |
 ## **Methods**

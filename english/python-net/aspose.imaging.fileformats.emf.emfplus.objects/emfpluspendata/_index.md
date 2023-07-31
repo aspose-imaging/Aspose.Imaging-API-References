@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspendata/
 | [EmfPlusPenData()](#EmfPlusPenData__1) | Initializes a new instance of the EmfPlusPenData class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | optional_data | [EmfPlusPenOptionalData](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspenoptionaldata) | r/w | Gets or sets optional EmfPlusPenOptionalData object (section 2.2.2.34) <br/>            that specifies additional data for the pen object. The specific <br/>            contents of this field are determined by the value of the <br/>            PenDataFlags field. |
 | pen_data_flags | [EmfPlusPenDataFlags](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspendataflags/) | r/w | Gets or sets 32-bit unsigned integer that specifies the data in the <br/>            OptionalData field. This value MUST be composed of PenData <br/>            flags (section 2.1.2.7). |
 | pen_unit | [EmfPlusUnitType](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusunittype/) | r/w | Gets or sets 32-bit unsigned integer that specifies the measuring units <br/>            for the pen. The value MUST be from the UnitType enumeration <br/>            (section 2.1.1.33). |

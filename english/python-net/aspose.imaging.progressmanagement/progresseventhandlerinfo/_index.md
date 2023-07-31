@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging.progressmanagement/progresseventhandlerinfo/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | description | string | r | Gets the description of the event |
 | event_type | [EventType](/imaging/python-net/aspose.imaging.progressmanagement/eventtype) | r | Gets the type of the event. |
 | max_value | int | r | Gets the upper progress value limit. |

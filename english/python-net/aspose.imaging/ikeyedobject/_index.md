@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging/ikeyedobject/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | key | string | r | Gets the object key. |
 
 

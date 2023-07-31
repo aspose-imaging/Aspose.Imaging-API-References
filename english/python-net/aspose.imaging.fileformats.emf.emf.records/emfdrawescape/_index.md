@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfdrawescape/
 | [EmfDrawEscape(source)](#EmfDrawEscape_source_1) | Initializes a new instance of the [EmfDrawEscape](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfdrawescape/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | cj_in | int | r/w | Gets or sets a 32-bit unsigned integer specifying the number of bytes to pass to the printer driver. |
 | data | byte | r/w | Gets or sets the data to pass to the printer driver. There MUST be cjIn bytes available. |
 | escape | [WmfMetafileEscapes](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfmetafileescapes/) | r/w | Gets or sets a 32-bit unsigned integer that specifies the printer driver escape to<br/>            execute. This MUST be one of the values in the WMF MetafileEscapes enumeration ([MSWMF] section 2.1.1.17). |

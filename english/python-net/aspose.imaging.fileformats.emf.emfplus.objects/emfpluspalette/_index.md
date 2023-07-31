@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspalette/
 | [EmfPlusPalette()](#EmfPlusPalette__1) | Initializes a new instance of the EmfPlusPalette class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | argb_32_entries | int | r/w | Gets or sets the palette entries. |
 | palette_style_flags | [EmfPlusPaletteStyleFlags](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspalettestyleflags/) | r/w | Gets or sets the palette style flags. |
 

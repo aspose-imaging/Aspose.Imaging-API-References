@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.xmp.types.complex.thumbnail/thumbnail/
 | [Thumbnail(width, height)](#Thumbnail_width_height_2) | Initializes a new instance of the [Thumbnail](/imaging/python-net/aspose.imaging.xmp.types.complex.thumbnail/thumbnail/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | height | int | r/w | Gets or sets the height. |
 | image_base64 | string | r/w | Gets or sets the image in base64 format. |
 | namespace_uri | string | r | Gets the default namespace URI. |

@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.gif.blocks/gifapplicationextensionbl
 | [GifApplicationExtensionBlock(application_identifier, application_authentication_code, application_data)](#GifApplicationExtensionBlock_application_identifier_application_authentication_code_application_data_2) | Initializes a new instance of the [GifApplicationExtensionBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifapplicationextensionblock/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | APPLICATION_AUTHENTICATION_CODE_SIZE [static] | int | r | Specifies the application authentication code size. |
 | APPLICATION_IDENTIFIER_SIZE [static] | int | r | Specifies the application identifier size. |
 | BLOCK_HEADER_SIZE [static] | int | r | Specifies the block header size. |

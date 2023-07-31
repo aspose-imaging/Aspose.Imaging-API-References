@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfil
 | [BilateralSmoothingFilterOptions(size)](#BilateralSmoothingFilterOptions_size_2) | Initializes a new instance of the [BilateralSmoothingFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/bilateralsmoothingfilteroptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | color_factor | double | r/w | Gets or sets the color factor. |
 | color_power | double | r/w | Gets or sets the color power. |
 | size | int | r/w | Gets or sets the size of the kernel. |

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplustranslate
 | [EmfPlusTranslateWorldTransform(source)](#EmfPlusTranslateWorldTransform_source_1) | Initializes a new instance of the [EmfPlusTranslateWorldTransform](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplustranslateworldtransform/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | data_size | int | r/w | Gets or sets a 32-bit unsigned integer that MUST define the 32-bit–aligned number of<br/>            bytes of data in the RecordData field that follows. This number does not include the 12-byte record header. |
 | dx | float | r/w | Gets or sets a 32-bit floating-point value that defines the horizontal distance. The translation<br/>            is performed by constructing a new world transform matrix from the dx and dy fields |
 | dy | float | r/w | Gets or sets a 32-bit floating-point value that defines the vertical distance value. |

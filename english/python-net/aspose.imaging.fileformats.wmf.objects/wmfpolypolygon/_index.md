@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfpolypolygon/
 | [WmfPolyPolygon()](#WmfPolyPolygon__1) | Initializes a new instance of the WmfPolyPolygon class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | a_points | Point[] | r/w | Gets or sets a points. |
 | a_points_per_polygon | int | r/w | Gets or sets a points per polygon. |
 | number_of_polygons | int | r/w | Gets or sets the number of polygons. The number of polygons in the<br/>                object. |

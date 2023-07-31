@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/
 | [EmfPlusDrawArc(source)](#EmfPlusDrawArc_source_1) | Initializes a new instance of the [EmfPlusDrawArc](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawarc/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | data_size | int | r/w | Gets or sets the size of the data.<br/>            A 32-bit unsigned integer that specifies the 32-bit-aligned number of<br/>            bytes of record-specific data that follows.<br/>            For this record type, the value MUST be one of the following:<br/>            0x00000010 If the C bit is set in the Flags field.<br/>            0x00000018 If the C bit is clear in the Flags field. |
 | flags | short | r/w | Gets or sets a 16-bit unsigned integer that contains information for some records on how<br/>            the operation is to be performed and on the structure of the record. |
 | object_id | byte | r/w | Gets or sets the object identifier.<br/>            The index of an EmfPlusPen object (section 2.2.1.7) in the<br/>            EMF+ Object Table to draw the arc. The value MUST be zero to 63, inclusive. |

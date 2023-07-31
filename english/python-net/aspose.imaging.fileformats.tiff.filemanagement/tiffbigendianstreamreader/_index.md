@@ -24,7 +24,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstr
 | [TiffBigEndianStreamReader(stream_container)](#TiffBigEndianStreamReader_stream_container_4) | Initializes a new instance of the [TiffBigEndianStreamReader](/imaging/python-net/aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamreader/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | length | long | r | Gets the reader length. |
 | throw_exceptions | bool | r/w | Gets or sets a value indicating whether exceptions are thrown on incorrect data processing (reading or writing to stream). |
 ## **Methods**

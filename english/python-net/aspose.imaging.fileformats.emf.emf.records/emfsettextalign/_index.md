@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsettextalign/
 | [EmfSetTextAlign(source)](#EmfSetTextAlign_source_2) | Initializes a new instance of the [EmfSetTextAlign](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsettextalign/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | size | int | r/w | Gets or sets the size of the record |
 | text_alignment_mode | int | r/w | Gets or sets a 32-bit unsigned integer that specifies text alignment by<br/>            using a mask of text alignment flags. These are either [WmfTextAlignmentModeFlags](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmftextalignmentmodeflags/)<br/>            ([MS-WMF] section 2.1.2.3) for text with a horizontal baseline, or [WmfVerticalTextAlignmentModeFlags](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfverticaltextalignmentmodeflags/)<br/>            ([MS-WMF] section 2.1.2.4) for text with a vertical<br/>            baseline. Only one value can be chosen from those that affect horizontal and vertical<br/>            alignment. |
 | type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |

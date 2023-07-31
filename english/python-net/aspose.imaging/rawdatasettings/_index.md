@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging/rawdatasettings/
 | [RawDataSettings()](#RawDataSettings__1) | Initializes a new instance of the RawDataSettings class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | color_palette | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | r/w | Gets or sets the color palette |
 | custom_color_converter | [IColorConverter](/imaging/python-net/aspose.imaging/icolorconverter) | r/w | Gets or sets the custom color converter |
 | dithering_method | [DitheringMethods](/imaging/python-net/aspose.imaging/ditheringmethods) | r/w | Gets or sets the dithering method to use for raw data conversion |

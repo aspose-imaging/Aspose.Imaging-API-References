@@ -3,7 +3,7 @@ title: com.aspose.imaging.memorymanagement
 second_title: Aspose.Imaging for Java API Reference
 description: The namespace contains memory management routines.
 type: docs
-weight: 98
+weight: 95
 url: /java/com.aspose.imaging.memorymanagement/
 ---
 

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.xmp.types.complex.version/version/
 | [Version()](#Version__1) | Initializes a new instance of the [Version](/imaging/python-net/aspose.imaging.xmp.types.complex.version/version/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | comments | string | r/w | Gets or sets the comments. |
 | modified_date | datetime | r/w | Gets or sets the modified date. |
 | modifier | string | r/w | Gets or sets the modifier. |

@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.asynctask/asynctaskprogress/
 | [AsyncTaskProgress(progress_percentage, duration)](#AsyncTaskProgress_progress_percentage_duration_1) | Initializes a new instance of the [AsyncTaskProgress](/imaging/python-net/aspose.imaging.asynctask/asynctaskprogress/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | DURATION | datetime | r | The duration of the asynchronous task. |
 | PROGRESS_PERCENTAGE | int | r | The progress of the asynchronous task, in percent. |
 

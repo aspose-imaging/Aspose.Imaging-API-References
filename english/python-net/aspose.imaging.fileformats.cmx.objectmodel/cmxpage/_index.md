@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxpage/
 | [CmxPage()](#CmxPage__1) | Initializes a new instance of the [CmxPage](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxpage/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bound_box | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets the bounding box. |
 | flags | uint | r/w | Gets or sets the flags. |
 | height | float | r/w | Gets or sets the page height. |

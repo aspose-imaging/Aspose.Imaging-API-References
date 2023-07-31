@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging/imagecreatorsregistry/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | registered_descriptors [static] | [IImageCreatorDescriptor[]](/imaging/python-net/aspose.imaging/iimagecreatordescriptor) | r | Gets the registered descriptors. |
 | registered_formats [static] | [FileFormat](/imaging/python-net/aspose.imaging/fileformat) | r | Gets the registered image creation formats. |
 ## **Methods**

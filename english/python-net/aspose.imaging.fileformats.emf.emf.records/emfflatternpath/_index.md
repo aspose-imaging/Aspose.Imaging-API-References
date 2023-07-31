@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfflatternpath/
 | [EmfFlatternPath()](#EmfFlatternPath__1) | Initializes a new instance of the [EmfFlatternPath](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfflatternpath/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | size | int | r/w | Gets or sets the size of the record |
 | type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
 ## **Methods**

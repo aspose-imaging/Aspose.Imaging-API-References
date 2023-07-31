@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/
 | [EmfExtFloodFill(source)](#EmfExtFloodFill_source_1) | Initializes a new instance of the [EmfExtFloodFill](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfextfloodfill/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | argb_32_color | int | r/w | Gets or sets a WMF ColorRef object ([MS-WMF] section 2.2.2.8), which is used with the <br/>            FloodFillMode to determine the area to fill. |
 | flood_fill_mode | [EmfFloodFill](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emffloodfill/) | r/w | Gets or sets a 32-bit unsigned integer that specifies how to use the Color value <br/>            to determine the area for the flood fill operation. The value MUST be in the FloodFill <br/>            enumeration (section 2.1.13). |
 | size | int | r/w | Gets or sets the size of the record |

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odpolyl
 | [OdPolyLine(parent)](#OdPolyLine_parent_1) | Initializes a new instance of the [OdPolyLine](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odpolyline/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
 | items | list[OdObject] | r | Gets the items. |
 | parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |

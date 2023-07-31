@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusdashedlin
 | [EmfPlusDashedLineData()](#EmfPlusDashedLineData__1) | Initializes a new instance of the EmfPlusDashedLineData class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | dashed_line_data | float | r/w | Gets or sets array of DashedLineDataSize floating-point values<br/>            that specify the lengths of the dashes and spaces in<br/>            a dashed line |
 
 

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.masking.options/automaskingargs/
 | [AutoMaskingArgs()](#AutoMaskingArgs__1) | Initializes a new instance of the AutoMaskingArgs class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | max_iteration_number | int | r/w | Gets or sets the maximum number of iterations. |
 | number_of_objects | int | r/w | Gets or sets the number of objects<br/>            to separate initial image to (optional), default value is 2 (object and background). |
 | objects_points | Point[] | r/w | Gets or sets the points that belong to separated objects (optional)<br/>            NumberOfObjects coordinates that belong to NumberOfObjects objects of initial image.<br/>            This parameter is used to increase segmentation method precision. |

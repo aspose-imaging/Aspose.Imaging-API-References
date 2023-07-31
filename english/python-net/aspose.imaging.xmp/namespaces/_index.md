@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging.xmp/namespaces/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | DICOM [static] | string | r | Dicom namespace. |
 | DUBLIN_CORE [static] | string | r | Dublic Core namespace. |
 | PDF [static] | string | r | Adobe PDF namespace. |

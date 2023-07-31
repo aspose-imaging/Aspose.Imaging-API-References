@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.brush/odgradien
 | [OdGradientBrush()](#OdGradientBrush__1) | Initializes a new instance of the OdGradientBrush class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | angle | float | r/w | Gets or sets the angle. |
 | brush_style | [OdBrushStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/odbrushstyle) | r | Gets the style. |
 | end_color | int | r/w | Gets or sets the end color. |

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpdm/time/
 | [Time(scale, value)](#Time_scale_value_1) | Initializes a new instance of the [Time](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/time/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | scale | [Rational](/imaging/python-net/aspose.imaging.xmp.types.derived/rational/) | r/w | Gets or sets scale for the time value. |
 | value | int | r/w | Gets or sets time value in the specified scale. |
 ## **Methods**

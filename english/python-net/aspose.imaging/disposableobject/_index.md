@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging/disposableobject/
 | [DisposableObject()](#DisposableObject__1) | Initializes a new instance of the DisposableObject class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 
 

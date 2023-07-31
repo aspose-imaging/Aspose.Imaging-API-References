@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetcoloradjustmen
 | [EmfSetColorAdjustment(source)](#EmfSetColorAdjustment_source_1) | Initializes a new instance of the [EmfSetColorAdjustment](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetcoloradjustment/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | color_adjustment | [EmfColorAdjustment](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/) | r/w | Gets or sets a ColorAdjustment object (section 2.2.2) that specifies color<br/>            adjustment values. |
 | size | int | r/w | Gets or sets the size of the record |
 | type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |

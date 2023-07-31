@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillrects
 | [EmfPlusFillRects(source)](#EmfPlusFillRects_source_1) | Initializes a new instance of the [EmfPlusFillRects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillrects/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | brush_id | int | r/w | Gets or sets the brush identifier<br/>            A 32-bit unsigned integer that defines the brush, the content of which is determined by the S bit in the Flags field. |
 | compressed | bool | r/w | Gets or sets a value indicating whether this [EmfPlusFillRects](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillrects/) is compressed.<br/>            If set, RectData contains an EmfPlusRect object (section 2.2.2.38). If clear, RectData<br/>             contains an EmfPlusRectF object (section 2.2.2.39) object |
 | data_size | int | r/w | Gets or sets a 32-bit unsigned integer that MUST define the 32-bit–aligned number of<br/>            bytes of data in the RecordData field that follows. This number does not include the 12-byte record header. |

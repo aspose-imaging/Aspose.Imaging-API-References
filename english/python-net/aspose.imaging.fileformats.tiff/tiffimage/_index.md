@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffimage/
 | [TiffImage(frames)](#TiffImage_frames_2) | Initializes a new instance of the TiffImage class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | active_frame | [TiffFrame](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffframe) | r/w | Gets or sets the active frame. |
 | auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether automatic adjust palette. |
 | background_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets a value for the background color. |

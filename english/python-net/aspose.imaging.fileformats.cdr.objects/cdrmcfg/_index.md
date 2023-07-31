@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrmcfg/
 | [CdrMcfg()](#CdrMcfg__1) | Initializes a new instance of the CdrMcfg class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |
 | height | double | r/w | Gets or sets the height. |

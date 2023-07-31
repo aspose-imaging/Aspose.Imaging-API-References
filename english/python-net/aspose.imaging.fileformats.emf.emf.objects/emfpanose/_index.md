@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfpanose/
 | [EmfPanose()](#EmfPanose__1) | Initializes a new instance of the EmfPanose class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | arm_style | [EmfArmStyle](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfarmstyle/) | r/w | Gets or sets an 8-bit unsigned integer that specifies the arm style of the font. The value <br/>            MUST be in the ArmStyle (section 2.1.3) enumeration table. |
 | contrast | [EmfContrast](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfcontrast/) | r/w | Gets or sets an 8-bit unsigned integer that specifies the contrast of the font. The value <br/>            MUST be in the Contrast (section 2.1.8) enumeration table. |
 | family_type | [EmfFamilyType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emffamilytype/) | r/w | Gets or sets an 8-bit unsigned integer that specifies the family type. The value MUST <br/>            be in the FamilyType (section 2.1.12) enumeration table. |

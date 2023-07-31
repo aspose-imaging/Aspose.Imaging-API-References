@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.xmp.types.derived/xmpguid/
 | [XmpGuid(value)](#XmpGuid_value_2) | Initializes a new instance of the [XmpGuid](/imaging/python-net/aspose.imaging.xmp.types.derived/xmpguid/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | prefix | string | r/w | Gets or sets the prefix like uuid. |
 | value | Guid | r/w | Gets or sets the value. |
 ## **Methods**

@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfoffsetcliprgn/
 | [EmfOffsetClipRgn(source)](#EmfOffsetClipRgn_source_2) | Initializes a new instance of the [EmfOffsetClipRgn](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfoffsetcliprgn/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | offset | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets a WMF PointL object ([MS-WMF] section 2.2.2.15) that specifies the <br/>            horizontal and vertical offsets in logical units. |
 | size | int | r/w | Gets or sets the size of the record |
 | type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |

@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingbloc
 | [GifPlainTextRenderingBlock(text_grid_left_position, text_grid_top_position, text_grid_width, text_grid_height, character_cell_width, character_cell_height, text_foreground_color_index, text_background_color_index, data)](#GifPlainTextRenderingBlock_text_grid_left_position_text_grid_top_position_text_grid_width_text_grid_height_character_cell_width_character_cell_height_text_foreground_color_index_text_background_color_index_data_2) | Initializes a new instance of the [GifPlainTextRenderingBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifplaintextrenderingblock/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | BLOCK_SIZE [static] | byte | r | The overall block size. |
 | EXTENSION_INTRODUCER [static] | byte | r | Extension introducer. |
 | EXTENSION_LABEL [static] | byte | r | The plain text extension label. |

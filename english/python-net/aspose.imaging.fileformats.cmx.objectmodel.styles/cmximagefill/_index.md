@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmximagefill/
 | [CmxImageFill()](#CmxImageFill__1) | Initializes a new instance of the CmxImageFill class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | images | [CmxRasterImage[]](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage/) | r/w | Gets or sets the images. |
 | is_relative | bool | r/w | Gets or sets a value indicating whether patterns size values is relative. |
 | offset_type | [TileOffsetTypes](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/tileoffsettypes/) | r/w | Gets or sets the type of the offset between adjacent tiles. |

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstr
 | [TiffBigEndianStreamWriter(writer)](#TiffBigEndianStreamWriter_writer_1) | Initializes a new instance of the [TiffBigEndianStreamWriter](/imaging/python-net/aspose.imaging.fileformats.tiff.filemanagement/tiffbigendianstreamwriter/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | position | long | r/w | Gets or sets the stream position. |
 | sync_root | object | r | Gets an object that can be used to synchronize access to the synchronized resource. |
 ## **Methods**

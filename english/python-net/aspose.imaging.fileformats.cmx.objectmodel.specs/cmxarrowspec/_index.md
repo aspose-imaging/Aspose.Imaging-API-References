@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxarrowspec/
 | [CmxArrowSpec()](#CmxArrowSpec__1) | Initializes a new instance of the CmxArrowSpec class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | arrow_offset | float | r/w | Gets or sets the arrow offset. |
 | points | [CmxPathPointSpec[]](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec) | r/w | Gets or sets the points. |
 | type | int | r/w | Gets or sets the type. |

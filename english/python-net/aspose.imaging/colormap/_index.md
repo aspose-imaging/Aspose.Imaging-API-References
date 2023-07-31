@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging/colormap/
 | [ColorMap()](#ColorMap__1) | Initializes a new instance of the ColorMap class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | new_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets the new [Color](/imaging/python-net/aspose.imaging/color/) structure to which to convert. |
 | old_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets the existing [Color](/imaging/python-net/aspose.imaging/color/) structure to be converted. |
 

@@ -17,7 +17,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | childs | list[CdrObject] | r | Gets or sets the objects. |
 | clip_ids | list[int] | r/w | Gets or sets the clip ids. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |

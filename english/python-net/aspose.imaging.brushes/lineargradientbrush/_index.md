@@ -27,7 +27,7 @@ url: /python-net/aspose.imaging.brushes/lineargradientbrush/
 | [LinearGradientBrush(rect, color1, color2, angle, is_angle_scalable)](#LinearGradientBrush_rect_color1_color2_angle_is_angle_scalable_7) | Initializes a new instance of the [LinearGradientBrush](/imaging/python-net/aspose.imaging.brushes/lineargradientbrush/) class based on a rectangle, starting and ending colors, and an orientation angle. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | angle | float | r/w | Gets or sets the gradient angle. |
 | blend | [Blend](/imaging/python-net/aspose.imaging/blend) | r/w | Gets or sets a [Blend](/imaging/python-net/aspose.imaging/blend/) that specifies positions and factors that define a custom falloff for the gradient. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |

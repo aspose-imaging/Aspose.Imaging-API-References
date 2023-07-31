@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpath/
 | [EmfPlusFillPath(source)](#EmfPlusFillPath_source_1) | Initializes a new instance of the [EmfPlusFillPath](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusfillpath/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | brush_id | int | r/w | Gets or sets the Brush ID<br/>            A 32-bit unsigned integer that defines the brush, the content of which is determined<br/>            by the S bit in the Flags field. |
 | data_size | int | r/w | Gets or sets a 32-bit unsigned integer that MUST define the 32-bit–aligned number of<br/>            bytes of data in the RecordData field that follows. This number does not include the 12-byte record header. |
 | flags | short | r/w | Gets or sets a 16-bit unsigned integer that contains information for some records on how<br/>            the operation is to be performed and on the structure of the record. |

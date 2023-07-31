@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfdibbitblt/
 | [WmfDibBitBlt()](#WmfDibBitBlt__1) | Initializes a new instance of the WmfDibBitBlt class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | dst_pos | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the DST position. |
 | height | short | r/w | Gets or sets the height. |
 | raster_operation | [WmfTernaryRasterOperation](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfternaryrasteroperation/) | r/w | Gets or sets the raster operation. |

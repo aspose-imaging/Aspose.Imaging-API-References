@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpa
 | [GuidPacketRepresentation(data1, data2, data3, data4)](#GuidPacketRepresentation_data1_data2_data3_data4_2) | Initializes a new instance of the [GuidPacketRepresentation](/imaging/python-net/aspose.imaging.fileformats.emf.dtyp.commondatastructures/guidpacketrepresentation/) struct. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | data1 | int | r/w | Gets or sets the value of the Data1 member (section 2.3.4), in little-endian byte order. |
 | data2 | short | r/w | Gets or sets the value of the Data2 member (section 2.3.4), in little-endian byte order. |
 | data3 | short | r/w | Gets or sets the value of the Data3 member (section 2.3.4), in little-endian byte order. |

@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/
 | [SharpenFilterOptions(size, sigma)](#SharpenFilterOptions_size_sigma_2) | Initializes a new instance of the [SharpenFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/sharpenfilteroptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bias | int | r/w | Gets or sets the bias. |
 | factor | double | r/w | Gets or sets the factor. |
 | sigma | double | r/w | Gets or sets the sigma. |

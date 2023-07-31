@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects/odtransforminfo
 | [OdTransformInfo()](#OdTransformInfo__1) | Initializes a new instance of the OdTransformInfo class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | rotate_angle | float | r/w | Gets or sets the rotate angle. |
 | skew_x | float | r/w | Gets or sets the skew x. |
 | skew_y | float | r/w | Gets or sets the skew y. |

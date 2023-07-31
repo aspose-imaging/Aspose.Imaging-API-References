@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging/colormatrix/
 | [ColorMatrix(new_color_matrix)](#ColorMatrix_new_color_matrix_2) | Initializes a new instance of the [ColorMatrix](/imaging/python-net/aspose.imaging/colormatrix/) class using the elements in the specified matrix <paramref name="newColorMatrix" />. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | MATRIX_DIMENSIONS_COUNT [static] | int | r | The number of matrix dimensions. |
 | MATRIX_DIMENSION_ELEMENTS_COUNT [static] | int | r | The number of elements in matrix dimension. |
 | MATRIX_TOTAL_ELEMENTS_COUNT [static] | int | r | The total number of elements in the matrix. |

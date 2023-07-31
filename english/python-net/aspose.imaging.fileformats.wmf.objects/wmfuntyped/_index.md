@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfuntyped/
 | [WmfUntyped()](#WmfUntyped__1) | Initializes a new instance of the WmfUntyped class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | parameters | int | r/w | Gets or sets the parameters. |
 
 

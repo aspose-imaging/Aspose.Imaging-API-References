@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging/imageresizesettings/
 | [ImageResizeSettings()](#ImageResizeSettings__1) | Initializes a new instance of the [ImageResizeSettings](/imaging/python-net/aspose.imaging/imageresizesettings/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | color_compare_method | [ColorCompareMethod](/imaging/python-net/aspose.imaging/colorcomparemethod) | r/w | Gets or sets the color compare method. |
 | color_quantization_method | [ColorQuantizationMethod](/imaging/python-net/aspose.imaging/colorquantizationmethod) | r/w | Gets or sets the color quantization method. |
 | entries_count | int | r/w | Gets or sets the entries count |

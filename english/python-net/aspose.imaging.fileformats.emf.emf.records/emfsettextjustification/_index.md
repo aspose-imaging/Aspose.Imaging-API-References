@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsettextjustificat
 | [EmfSetTextJustification(source)](#EmfSetTextJustification_source_1) | Initializes a new instance of the [EmfSetTextJustification](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsettextjustification/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | n_break_count | int | r/w | Gets or sets a 32-bit signed integer that specifies the number of break characters. |
 | n_break_extra | int | r/w | Gets or sets a 32-bit signed integer that specifies the total amount of extra space,<br/>            in logical units, to add. |
 | size | int | r/w | Gets or sets the size of the record |

@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.fileformats.bmp.structures/ciecoordinates/
 | [CieCoordinates(bytes)](#CieCoordinates_bytes_1) | Initializes a new instance of the [CieCoordinates](/imaging/python-net/aspose.imaging.fileformats.bmp.structures/ciecoordinates/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | cie_coordinates_x | long | r/w | Gets or sets the coordinates x. |
 | cie_coordinates_y | long | r/w | Gets or sets the coordinates y. |
 | cie_coordinates_z | long | r/w | Gets or sets the coordinates z. |

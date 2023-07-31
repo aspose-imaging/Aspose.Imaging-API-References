@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundaryp
 | [EmfPlusBoundaryPointData()](#EmfPlusBoundaryPointData__1) | Initializes a new instance of the EmfPlusBoundaryPointData class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | boundary_point_data | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets an array of BoundaryPointCount EmfPlusPointF objects that specify the boundary of the brush. |
 
 

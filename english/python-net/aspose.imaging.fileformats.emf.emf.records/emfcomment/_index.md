@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcomment/
 | [EmfComment(source)](#EmfComment_source_1) | Initializes a new instance of the [EmfComment](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfcomment/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | comment_identifier | EmfCommentRecordType.CommentIdentifierEnum | r/w | Gets or sets the comment identifier. |
 | data_size | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the size, in bytes, of the <br/>            CommentIdentifier and CommentRecordParm fields in the RecordBuffer field that <br/>            follows. It MUST NOT include the size of itself or the size of the AlignmentPadding field, if <br/>            present |
 | private_data | byte | r/w | Gets or sets an optional array of bytes that specifies the private data. The first <br/>            DWORD of this data MUST NOT be one of the predefined comment identifier values specified <br/>            in section 2.3.3.<br/>            Private data is unknown to EMF; it is meaningful only to applications that know the format of the <br/>            data and how to use it. EMR_COMMENT private data records MAY be ignored. |

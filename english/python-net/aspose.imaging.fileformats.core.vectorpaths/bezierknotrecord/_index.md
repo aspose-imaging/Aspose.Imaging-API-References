@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/
 | [BezierKnotRecord(data)](#BezierKnotRecord_data_2) | Initializes a new instance of the [BezierKnotRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/bezierknotrecord/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | is_closed | bool | r/w | Gets or sets a value indicating whether this instance is closed. |
 | is_linked | bool | r/w | Gets or sets a value indicating whether this instance is linked. |
 | is_open | bool | r/w | Gets or sets a value indicating whether this instance is open. |

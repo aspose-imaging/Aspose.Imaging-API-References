@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.xmp.schemas.photoshop/layer/
 | [Layer(layer_name, layer_text)](#Layer_layer_name_layer_text_2) | Initializes a new instance of the [Layer](/imaging/python-net/aspose.imaging.xmp.schemas.photoshop/layer/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | name | string | r/w | Gets or sets the name of the text layer. |
 | text | string | r/w | Gets or sets the text content of the layer. |
 ## **Methods**

@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging.memorymanagement/configuration/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | buffer_size_hint [static] | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 
 

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapep
 | [WmfEscapePostScript()](#WmfEscapePostScript__1) | Initializes a new instance of the WmfEscapePostScript class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | byte_count | int | r/w | Gets or sets the byte count. |
 | checked | bool | r/w | Gets a value indicating whether this [WmfEscapeRecordBase](/imaging/python-net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/) is checked. |
 | data | byte | r/w | Gets or sets the data. |

@@ -17,7 +17,7 @@ url: /python-net/aspose.imaging.sources/filesource/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | is_temporal | bool | r | Gets a value indicating whether file will be temporal. |
 ## **Methods**
 | **Name** | **Description** |

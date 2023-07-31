@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging.fileformats.emf.graphics/metafilerecordergraphic
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | background_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets the color of the background. |
 | clip | [Region](/imaging/python-net/aspose.imaging/region) | r/w | Gets or sets a Region that limits the drawing region of this Graphics |
 | clip_bounds | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r | Gets the clip bounds. |

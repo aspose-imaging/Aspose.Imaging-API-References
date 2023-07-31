@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.imageoptions/emfrasterizationoptions/
 | [EmfRasterizationOptions()](#EmfRasterizationOptions__1) | Initializes a new instance of the EmfRasterizationOptions class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | background_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets a background color. |
 | border_x | float | r/w | Gets or sets the border X. |
 | border_y | float | r/w | Gets or sets the border Y. |

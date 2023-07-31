@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetmapmode/
 | [WmfSetMapMode()](#WmfSetMapMode__1) | Initializes a new instance of the WmfSetMapMode class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | map_mode | [WmfMapMode](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfmapmode/) | r/w | Gets or sets the map mode. |
 
 

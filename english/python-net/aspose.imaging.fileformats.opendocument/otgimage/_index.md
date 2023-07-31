@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument/otgimage/
 | [OtgImage(stream_container, load_options)](#OtgImage_stream_container_load_options_2) | Initializes a new instance of the [OtgImage](/imaging/python-net/aspose.imaging.fileformats.opendocument/otgimage/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether automatic adjust palette. |
 | background_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets a value for the background color. |
 | bits_per_pixel | int | r | Gets the image bits per pixel count. |

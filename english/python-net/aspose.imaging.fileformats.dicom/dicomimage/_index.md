@@ -23,7 +23,7 @@ url: /python-net/aspose.imaging.fileformats.dicom/dicomimage/
 | [DicomImage(stream, load_options)](#DicomImage_stream_load_options_3) | Initializes a new instance of the [DicomImage](/imaging/python-net/aspose.imaging.fileformats.dicom/dicomimage/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | active_page | [DicomPage](/imaging/python-net/aspose.imaging.fileformats.dicom/dicompage) | r/w | Gets or sets the active page. |
 | active_page_index | int | r | Gets the index active page. |
 | auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether automatic adjust palette. |

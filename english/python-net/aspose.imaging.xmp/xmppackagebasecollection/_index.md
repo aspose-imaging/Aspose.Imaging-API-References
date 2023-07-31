@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.xmp/xmppackagebasecollection/
 | [XmpPackageBaseCollection()](#XmpPackageBaseCollection__1) | Initializes a new instance of the [XmpPackageBaseCollection](/imaging/python-net/aspose.imaging.xmp/xmppackagebasecollection/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | count | int | r | Gets the number of elements in the collection. |
 ## **Methods**
 | **Name** | **Description** |

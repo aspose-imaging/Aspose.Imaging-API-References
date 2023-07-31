@@ -24,7 +24,7 @@ url: /python-net/aspose.imaging.imageoptions/bigtiffoptions/
 | [BigTiffOptions(tags)](#BigTiffOptions_tags_4) | Initializes a new instance of the [BigTiffOptions](/imaging/python-net/aspose.imaging.imageoptions/bigtiffoptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | alpha_storage | [TiffAlphaStorage](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffalphastorage/) | r/w | Gets or sets the alpha storage option. Options other than [TiffAlphaStorage.UNSPECIFIED](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffalphastorage/)<br/>            are used when there are more than 3 [TiffOptions.samples_per_pixel](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) defined. |
 | artist | string | r/w | Gets or sets the artist. |
 | bits_per_pixel | int | r | Gets the bits per pixel. |

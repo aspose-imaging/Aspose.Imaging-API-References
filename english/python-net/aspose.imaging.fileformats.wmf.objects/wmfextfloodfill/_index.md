@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfextfloodfill/
 | [WmfExtFloodFill()](#WmfExtFloodFill__1) | Initializes a new instance of the WmfExtFloodFill class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | color_ref | int | r/w | Gets or sets the color reference. |
 | mode | [WmfFloodFillMode](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmffloodfillmode/) | r/w | Gets or sets the mode. |
 | x_start | short | r/w | Gets or sets the x start. |

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.xmp.schemas.photoshop/photoshoppackage/
 | [PhotoshopPackage()](#PhotoshopPackage__1) | Initializes a new instance of the [PhotoshopPackage](/imaging/python-net/aspose.imaging.xmp.schemas.photoshop/photoshoppackage/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | URGENCY_MAX [static] | int | r | Urgency max value. |
 | URGENCY_MIN [static] | int | r | Urgency min value. |
 | namespace_uri | string | r | Gets the namespace URI. |

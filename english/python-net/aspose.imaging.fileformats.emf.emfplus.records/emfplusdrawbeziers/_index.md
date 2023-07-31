@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawbezie
 | [EmfPlusDrawBeziers(source)](#EmfPlusDrawBeziers_source_1) | Initializes a new instance of the [EmfPlusDrawBeziers](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawbeziers/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | compressed | bool | r/w | Gets or sets a value indicating whether the PointData is compressed. <br/>            If set, PointData specifies absolute locations in the coordinate space with <br/>            16-bit integer coordinates. If clear, PointData specifies absolute locations <br/>            in the coordinate space with 32-bit floating-point coordinates.<br/>            Note If the Relative flag (below) is set, this flag is undefined and MUST be ignored. |
 | data_size | int | r/w | Gets or sets a 32-bit unsigned integer that MUST define the 32-bit–aligned number of<br/>            bytes of data in the RecordData field that follows. This number does not include the 12-byte record header. |
 | flags | short | r/w | Gets or sets a 16-bit unsigned integer that contains information for some records on how<br/>            the operation is to be performed and on the structure of the record. |

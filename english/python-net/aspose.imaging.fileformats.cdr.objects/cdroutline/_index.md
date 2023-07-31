@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdroutline/
 | [CdrOutline()](#CdrOutline__1) | Initializes a new instance of the CdrOutline class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | aangle | double | r/w | Gets or sets the angle. |
 | caps_type | short | r/w | Gets or sets the type of the caps. |
 | color | [CdrColor](/imaging/python-net/aspose.imaging.fileformats.cdr.types/cdrcolor/) | r/w | Gets or sets the color. |

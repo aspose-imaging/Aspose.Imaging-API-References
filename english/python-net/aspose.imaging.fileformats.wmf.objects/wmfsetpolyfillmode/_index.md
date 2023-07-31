@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetpolyfillmode/
 | [WmfSetPolyFillMode()](#WmfSetPolyFillMode__1) | Initializes a new instance of the WmfSetPolyFillMode class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | poly_fill_mode | [WmfPolyFillMode](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfpolyfillmode/) | r/w | Gets or sets the poly fill mode. |
 | reserved | int | r/w | Gets or sets the reserved. |
 

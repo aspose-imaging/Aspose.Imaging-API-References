@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.imageoptions/metafileoptions/
 | [MetafileOptions()](#MetafileOptions__1) | Initializes a new instance of the [MetafileOptions](/imaging/python-net/aspose.imaging.imageoptions/metafileoptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | compress | bool | r/w | Gets or sets a value indicating whether this [ICompressedOptions](/imaging/python-net/aspose.fileformats.core.imageoptions/icompressedoptions/) is compressed. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |

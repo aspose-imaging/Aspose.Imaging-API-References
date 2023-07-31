@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusstringfor
 | [EmfPlusStringFormat()](#EmfPlusStringFormat__1) | Initializes a new instance of the EmfPlusStringFormat class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | digit_language | [EmfPlusLanguageIdentifierType](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluslanguageidentifiertype/) | r/w | Gets or sets an EmfPlusLanguageIdentifier object that specifies the<br/>            language to use for numeric digits in the string.<br/>            For example, if this string contains Arabic digits,<br/>            this field MUST contain a language identifier that<br/>            specifies an Arabic language |
 | digit_substitution | [EmfPlusStringDigitSubstitution](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusstringdigitsubstitution/) | r/w | Gets or sets a 32-bit unsigned integer that specifies how to substitute<br/>            numeric digits in the string according to a locale or language.<br/>            This value MUST be defined in the StringDigitSubstitution<br/>            enumeration (section 2.1.1.30). |
 | first_tab_offset | float | r/w | Gets or sets a 32-bit floating-point value that specifies the number<br/>            of spaces between the beginning of a text line and<br/>            the first tab stop |

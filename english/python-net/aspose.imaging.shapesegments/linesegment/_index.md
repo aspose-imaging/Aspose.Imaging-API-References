@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.shapesegments/linesegment/
 | [LineSegment(start_point, end_point)](#LineSegment_start_point_end_point_1) | Initializes a new instance of the [LineSegment](/imaging/python-net/aspose.imaging.shapesegments/linesegment/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | end_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the ending point. |
 | start_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the starting point. |
 

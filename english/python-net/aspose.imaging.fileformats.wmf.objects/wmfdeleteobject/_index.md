@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfdeleteobject/
 | [WmfDeleteObject(deleted_object)](#WmfDeleteObject_deleted_object_2) | Initializes a new instance of the [WmfDeleteObject](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfdeleteobject/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | object_index | int | r/w | Gets or sets the index of the object. |
 
 

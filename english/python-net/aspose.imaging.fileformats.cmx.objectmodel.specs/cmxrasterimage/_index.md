@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrasterimage
 | [CmxRasterImage()](#CmxRasterImage__1) | Initializes a new instance of the CmxRasterImage class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bits_per_pixel | uint | r/w | Gets or sets the bits per pixel. |
 | bytes_per_line | uint | r/w | Gets or sets the size of the line.<br/>            Measures in bytes. |
 | color_model | uint | r/w | Gets or sets the color model. |

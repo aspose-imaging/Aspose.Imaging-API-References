@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfoffsetviewportorg/
 | [WmfOffsetViewPortOrg()](#WmfOffsetViewPortOrg__1) | Initializes a new instance of the WmfOffsetViewPortOrg class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | point | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the point. |
 
 

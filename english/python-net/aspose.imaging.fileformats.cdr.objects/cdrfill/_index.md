@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrfill/
 | [CdrFill()](#CdrFill__1) | Initializes a new instance of the CdrFill class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | color1 | [CdrColor](/imaging/python-net/aspose.imaging.fileformats.cdr.types/cdrcolor/) | r/w | Gets or sets the color1. |
 | color2 | [CdrColor](/imaging/python-net/aspose.imaging.fileformats.cdr.types/cdrcolor/) | r/w | Gets or sets the color2. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |

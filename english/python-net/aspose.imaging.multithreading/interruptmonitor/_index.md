@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.multithreading/interruptmonitor/
 | [InterruptMonitor()](#InterruptMonitor__1) | Initializes a new instance of the [InterruptMonitor](/imaging/python-net/aspose.imaging.multithreading/interruptmonitor/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | is_interrupted | bool | r | Gets the value indicating whether operations should be interrupted. |
 | thread_local_instance [static] | [IInterruptMonitor](/imaging/python-net/aspose.imaging.multithreading/iinterruptmonitor) | r/w | Gets or sets the IInterruptMonitor instance which is unique for each thread. |
 ## **Methods**

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries
 | [EmfSetPaletteEntries(source)](#EmfSetPaletteEntries_source_1) | Initializes a new instance of the [EmfSetPaletteEntries](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetpaletteentries/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | argb_32_pal_entries | int | r/w | Gets or sets an array of LogPaletteEntry (section 2.2.18) objects, of<br/>            NumberOfEntries length, which specifies the palette entry data. The Values members do<br/>            not contain any values. |
 | ih_pal | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the palette EMF Object Table index. |
 | numberof_entries | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the number of entries. |

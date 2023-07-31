@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.brush/odsolidbr
 | [OdSolidBrush()](#OdSolidBrush__1) | Initializes a new instance of the OdSolidBrush class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | argb_32_color | int | r/w | Gets or sets the color of the argb32. |
 | brush_style | [OdBrushStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/odbrushstyle) | r | Gets the style. |
 ## **Methods**

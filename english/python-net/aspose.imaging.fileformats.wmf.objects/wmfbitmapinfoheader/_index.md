@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfbitmapinfoheader/
 | [WmfBitmapInfoHeader()](#WmfBitmapInfoHeader__1) | Initializes a new instance of the WmfBitmapInfoHeader class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | STRUCTURE_SIZE [static] | int | r | The structure size |
 | bit_count | [DibBitCount](/imaging/python-net/aspose.imaging.apsbuilder.dib/dibbitcount/) | r/w | Gets or sets a 16-bit unsigned integer that defines the format of<br/>                each pixel, and the maximum number of colors in the DIB. This value<br/>                MUST be in the [WmfBitmapBaseHeader.bit_count](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfbitmapbaseheader/) Enumeration (section 2.1.1.3). |
 | color_important | int | r/w | Gets or sets a 32-bit unsigned integer that defines the number of color indexes that are required for displaying<br/>                the DIB.<br/>                If this value is zero, all color indexes are required |

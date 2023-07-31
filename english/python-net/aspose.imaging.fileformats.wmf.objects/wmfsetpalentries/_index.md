@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetpalentries/
 | [WmfSetPalentries()](#WmfSetPalentries__1) | Initializes a new instance of the WmfSetPalentries class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | log_palette | [EmfLogPalette](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogpalette/) | r/w | Gets or sets the log palette. |
 | start | int | r/w | Gets or sets the start. |
 

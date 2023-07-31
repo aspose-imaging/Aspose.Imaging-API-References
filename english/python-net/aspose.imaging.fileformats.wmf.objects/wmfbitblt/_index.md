@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfbitblt/
 | [WmfBitBlt()](#WmfBitBlt__1) | Initializes a new instance of the WmfBitBlt class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bitmap | [WmfBitmap16](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfbitmap16) | r/w | Gets or sets the bitmap. |
 | dest_height | short | r/w | Gets or sets the height of the dest. |
 | dest_width | short | r/w | Gets or sets the width of the dest. |

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetmapperflags/
 | [EmfSetMapperFlags(source)](#EmfSetMapperFlags_source_1) | Initializes a new instance of the [EmfSetMapperFlags](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetmapperflags/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | flags | int | r/w | Gets or sets a 32-bit unsigned integer that specifies parameters of the font matching process. |
 | size | int | r/w | Gets or sets the size of the record |
 | type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odequat
 | [OdEquation(parent)](#OdEquation_parent_1) | Initializes a new instance of the [OdEquation](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odequation/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
 | formula | string | r/w | Gets or sets the formula. |
 | items | list[OdObject] | r | Gets the items. |

@@ -17,7 +17,7 @@ url: /python-net/aspose.imaging/embeddedimage/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | image | [Image](/imaging/python-net/aspose.imaging/image) | r | Gets the image. |
 

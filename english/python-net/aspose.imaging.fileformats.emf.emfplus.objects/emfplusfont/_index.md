@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusfont/
 | [EmfPlusFont()](#EmfPlusFont__1) | Initializes a new instance of the EmfPlusFont class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | em_size | float | r/w | Gets or sets a 32-bit floating-point value that specifies the em size of the <br/>            font in units specified by the SizeUnit field. |
 | family_name | string | r/w | Gets or sets a string of Length Unicode characters that contains<br/>            the name of the font family |
 | font_style_flags | [EmfPlusFontStyleFlags](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusfontstyleflags/) | r/w | Gets or sets a 32-bit signed integer that specifies attributes of the<br/>            character glyphs that affect the appearance of the font, <br/>            such as bold and italic. This value MUST be composed of <br/>            FontStyle flags (section 2.1.2.4). |

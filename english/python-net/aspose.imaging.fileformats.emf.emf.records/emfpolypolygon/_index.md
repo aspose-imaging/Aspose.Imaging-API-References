@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/
 | [EmfPolyPolygon(source)](#EmfPolyPolygon_source_2) | Initializes a new instance of the [EmfPolyPolygon](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfpolypolygon/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | a_points | Point[] | r/w | Gets or sets an array of WMF PointL objects ([MS-WMF] section 2.2.2.15) that <br/>            specifies the points for all polygons in logical units. The number of points is specified by the <br/>            Count field value. |
 | bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets a WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies the <br/>            bounding rectangle, in device units. |
 | size | int | r/w | Gets or sets the size of the record |

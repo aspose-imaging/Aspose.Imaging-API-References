@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.font/odfont/
 | [OdFont()](#OdFont__1) | Initializes a new instance of the OdFont class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bold | bool | r/w | Gets or sets a value indicating whether this [OdFont](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.font/odfont/) is weight. |
 | facename | string | r/w | Gets or sets the facename. |
 | height | int | r/w | Gets or sets the height. |

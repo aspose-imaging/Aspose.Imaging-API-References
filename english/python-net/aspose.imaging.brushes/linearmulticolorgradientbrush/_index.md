@@ -27,7 +27,7 @@ url: /python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/
 | [LinearMulticolorGradientBrush(rect, angle, is_angle_scalable)](#LinearMulticolorGradientBrush_rect_angle_is_angle_scalable_7) | Initializes a new instance of the [LinearMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/linearmulticolorgradientbrush/) class based on a rectangle and an orientation angle. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | angle | float | r/w | Gets or sets the gradient angle. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | gamma_correction | bool | r/w | Gets or sets a value indicating whether gamma correction is enabled for this [LinearGradientBrushBase](/imaging/python-net/aspose.imaging.brushes/lineargradientbrushbase/). |

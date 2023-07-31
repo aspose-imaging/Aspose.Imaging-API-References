@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfdeletecolorspace/
 | [EmfDeleteColorSpace(source)](#EmfDeleteColorSpace_source_1) | Initializes a new instance of the [EmfDeleteColorSpace](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfdeletecolorspace/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | ih_cs | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the index of a logical color space object<br/>            in the EMF Object Table (section 3.1.1.1). |
 | size | int | r/w | Gets or sets the size of the record |
 | type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |

@@ -68,7 +68,10 @@ public static final String ISO_8601_FORMAT
 
 The ISO 8601 (roundtrip) format string.
 
-See more: https://en.wikipedia.org/wiki/ISO\_8601.
+See more: [ here ][here].
+
+
+[here]: https://en.wikipedia.org/wiki/ISO_8601
 
 ### getValue() {#getValue--}
 ```

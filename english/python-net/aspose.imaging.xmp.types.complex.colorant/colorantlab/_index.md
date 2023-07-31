@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.xmp.types.complex.colorant/colorantlab/
 | [ColorantLab(a, b, l)](#ColorantLab_a_b_l_2) | Initializes a new instance of the [ColorantLab](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colorantlab/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | MAX_A [static] | int | r | The maximum A component value |
 | MAX_B [static] | int | r | The maximum A component value |
 | MAX_L [static] | float | r | The maximum A component value |

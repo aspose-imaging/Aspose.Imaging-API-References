@@ -24,7 +24,7 @@ url: /python-net/aspose.imaging/pen/
 | [Pen(color, width)](#Pen_color_width_4) | Initializes a new instance of the Pen class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | alignment | [PenAlignment](/imaging/python-net/aspose.imaging/penalignment) | r/w | Gets or sets the alignment for this [Pen](/imaging/python-net/aspose.imaging/pen/). |
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | r/w | Gets or sets the [Pen.brush](/imaging/python-net/aspose.imaging/pen/) that determines attributes of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
 | color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets the color of this [Pen](/imaging/python-net/aspose.imaging/pen/). |
@@ -123,6 +123,11 @@ Initializes a new instance of the Pen class
 | :- | :- | :- |
 | color | [Color](/imaging/python-net/aspose.imaging/color) |  |
 | width | float |  |
+
+
+**See also:**
+
+**[Example # 1](#example_14)**: This example shows the creation and usage Pen objects. The example creates a ...
 
 ### Method: create_with_brush(brush)  [static] {#create_with_brush_brush_1}
 
@@ -358,4 +363,51 @@ Translates the local geometric transformation by the specified dimensions in the
 | dx | float | The value of the translation in x. |
 | dy | float | The value of the translation in y. |
 | order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | The order (prepend or append) in which to apply the translation. |
+
+## **Examples**
+### This example shows the creation and usage Pen objects. The example creates a new Image and draw rectangles on the Image surface. {#example_14}
+``` python
+
+from aspose.imaging import Image, Graphics, Color, Pen, Rectangle, Point, Size
+from aspose.imaging.brushes import HatchBrush
+from aspose.imaging.imageoptions import BmpOptions
+from aspose.imaging.sources import FileCreateSource
+
+# Create an instance of BmpOptions and set its various properties
+bmpOptions = BmpOptions()
+bmpOptions.bits_per_pixel = 24
+# Create an instance of FileCreateSource and assign it as Source for the instance of BmpOptions
+# Second Boolean parameter determines if the file to be created IsTemporal or not
+bmpOptions.source = FileCreateSource(r"C:\temp\sample.bmp", False)
+# Create an instance of Image at specified Path
+with Image.create(bmpOptions, 500, 500) as image:
+	# Create an instance of Graphics and initialize it with Image object
+	graphics = Graphics(image)
+	# Clear the Graphics surface with White Color
+	graphics.clear(Color.white)
+	#Create an instance of Pen with color Red and width 5
+	pen = Pen(Color.red, 5.0);
+	# Create an instance of HatchBrush and set its properties
+	brush = HatchBrush()
+	brush.background_color = Color.wheat;
+	brush.foreground_color = Color.red;
+	# Create an instance of Pen
+	# initialize it with HatchBrush object and width
+	brusedpen = Pen(brush, 5.0)
+	# Draw Rectangles by specifying Pen object
+	graphics.draw_rectangles(pen, [
+		Rectangle(Point(210, 210), Size(100, 100)),
+		Rectangle(Point(110, 110), Size(100, 100)),
+		Rectangle(Point(310, 310), Size(100, 100)) ])
+
+	# Draw Rectangles by specifying Pen object
+	graphics.draw_rectangles(brusedpen, [
+		Rectangle(Point(310, 110), Size(100, 100)),
+		Rectangle(Point(110, 310), Size(100, 100)) ])
+
+	# save all changes.
+	image.save()
+
+
+```
 

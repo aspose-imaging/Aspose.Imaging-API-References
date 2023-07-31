@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emftrivertex/
 | [EmfTriVertex()](#EmfTriVertex__1) | Initializes a new instance of the EmfTriVertex class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | alpha | short | r/w | Gets or sets a 16-bit unsigned integer that specifies the alpha transparency value for the point. |
 | blue | short | r/w | Gets or sets a 16-bit unsigned integer that specifies the blue color value for the point. |
 | green | short | r/w | Gets or sets a 16-bit unsigned integer that specifies the green color value for the point. |

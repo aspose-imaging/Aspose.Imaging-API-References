@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfgraphicobject/
 | [WmfGraphicObject()](#WmfGraphicObject__1) | Initializes a new instance of the WmfGraphicObject class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | index | int | r/w | Gets or sets the index. |
 
 

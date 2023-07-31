@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdricc/
 | [CdrIcc()](#CdrIcc__1) | Initializes a new instance of the CdrIcc class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | childs | list[CdrObject] | r | Gets or sets the objects. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |

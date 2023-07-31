@@ -25,7 +25,7 @@ url: /python-net/aspose.imaging.brushes/pathmulticolorgradientbrush/
 | [PathMulticolorGradientBrush(path_points, wrap_mode)](#PathMulticolorGradientBrush_path_points_wrap_mode_5) | Initializes a new instance of the [PathMulticolorGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathmulticolorgradientbrush/) class with the specified points and wrap mode. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | center_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the center point of the path gradient. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | focus_scales | [PointF](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the focus point for the gradient falloff. |

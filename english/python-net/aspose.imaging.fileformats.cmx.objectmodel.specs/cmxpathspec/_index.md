@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathspec/
 | [CmxPathSpec()](#CmxPathSpec__1) | Initializes a new instance of the CmxPathSpec class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | points | [CmxPathPointSpec[]](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointspec) | r/w | Gets or sets the points. |
 | type | int | r/w | Gets or sets the type. |
 

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplussolidbrus
 | [EmfPlusSolidBrushData()](#EmfPlusSolidBrushData__1) | Initializes a new instance of the EmfPlusSolidBrushData class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | solid_argb_32_color | int | r/w | Gets or sets an EmfPlusARGB object (section 2.2.2.1) that specifies the color of the brush. |
 
 

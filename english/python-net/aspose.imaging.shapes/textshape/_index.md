@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.shapes/textshape/
 | [TextShape(text, rectangle, font, string_format)](#TextShape_text_rectangle_font_string_format_2) | Initializes a new instance of the [TextShape](/imaging/python-net/aspose.imaging.shapes/textshape/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bounds | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r | Gets the object's bounds. |
 | center | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the shape's center. |
 | font | [Font](/imaging/python-net/aspose.imaging.xmp.types.complex.font/font) | r/w | Gets or sets the font used to draw the text. |

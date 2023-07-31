@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects/odmetadata/
 | [OdMetadata(parent)](#OdMetadata_parent_1) | Initializes a new instance of the [OdMetadata](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects/odmetadata/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | automatic_reload | string | r/w | Gets or sets the automatic reload. |
 | creation_date_time | string | r/w | Gets or sets the creation date time. |
 | creator | string | r/w | Gets or sets the creator. |

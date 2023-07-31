@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.imageoptions/pdfoptions/
 | [PdfOptions()](#PdfOptions__1) | Initializes a new instance of the [PdfOptions](/imaging/python-net/aspose.imaging.imageoptions/pdfoptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |

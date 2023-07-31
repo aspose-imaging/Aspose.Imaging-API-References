@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgrap
 | [EmfPlusSetTsGraphics(source)](#EmfPlusSetTsGraphics_source_1) | Initializes a new instance of the [EmfPlusSetTsGraphics](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplussettsgraphics/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | anti_alias_mode | [EmfPlusSmoothingMode](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplussmoothingmode/) | r/w | Gets or sets an 8-bit unsigned integer that specifies the quality of line rendering,<br/>            including the type of line anti-aliasing. It MUST be defined in the SmoothingMode<br/>            enumeration (section 2.1.1.28). |
 | basic_vga_colors | bool | r | Gets a value indicating whether [basic vga colors].<br/>            If set, the palette contains only the basic VGA colors. |
 | compositing_mode | [EmfPlusCompositingMode](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscompositingmode/) | r/w | Gets or sets an 8-bit unsigned integer that specifies how source colors are<br/>            combined with background colors. It MUST be a value in the CompositingMode<br/>            enumeration (section 2.1.1.5). |

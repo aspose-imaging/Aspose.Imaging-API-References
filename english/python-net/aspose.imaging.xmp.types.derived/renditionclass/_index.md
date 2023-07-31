@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.xmp.types.derived/renditionclass/
 | [RenditionClass(token, value)](#RenditionClass_token_value_2) | Initializes a new instance of the [RenditionClass](/imaging/python-net/aspose.imaging.xmp.types.derived/renditionclass/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | defined_values [static] | string | r | The defined values |
 | token | string | r/w | Gets or sets the token. |
 | value | string | r/w | Gets or sets the value. |

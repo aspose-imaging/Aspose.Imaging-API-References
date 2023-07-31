@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrellipse/
 | [CdrEllipse()](#CdrEllipse__1) | Initializes a new instance of the CdrEllipse class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | angle1 | double | r/w | Gets or sets the angle1. |
 | angle2 | double | r/w | Gets or sets the angle2. |
 | bounds_in_pixels | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets the bounds in pixels. |

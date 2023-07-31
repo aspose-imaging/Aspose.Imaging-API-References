@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrvectorpattern/
 | [CdrVectorPattern()](#CdrVectorPattern__1) | Initializes a new instance of the CdrVectorPattern class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | data | byte | r/w | Gets or sets the data. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument) | r/w | Gets or sets the document. |

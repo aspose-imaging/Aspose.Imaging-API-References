@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | compressed [static] | [AudioSampleType](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype) | r | Represents Compressed audio sample. |
 | packed [static] | [AudioSampleType](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype) | r | Represents Packed audio sample. |
 | sample_16_int [static] | [AudioSampleType](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/audiosampletype) | r | Represents 16Int audio sample. |

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfplgblt/
 | [EmfPlgBlt(source)](#EmfPlgBlt_source_1) | Initializes a new instance of the [EmfPlgBlt](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfplgblt/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | aptl_dest | [Point[]](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets an array of three WMF PointL objects ([MS-WMF] section 2.2.2.15) that <br/>            specifies three corners a parallelogram destination area for the block transfer.<br/>            The upper-left corner of the source rectangle is mapped to the first point in this array, the <br/>            upper-right corner to the second point, and the lower-left corner to the third point. The lower-right corner of the source rectangle is mapped to the implicit fourth point in the <br/>            parallelogram, which is computed from the first three points (A, B, and C) by treating them as <br/>            vectors. <br/>            D = B + C A |
 | bk_src_argb_32_color | int | r/w | Gets or sets a WMF ColorRef object ([MS-WMF] section 2.2.2.8) that specifies the <br/>            background color of the source bitmap. |
 | bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets a WMF RectL object ([MS-WMF] section 2.2.2.19) that defines the <br/>            bounding rectangle, in device units, for output to the destination. |

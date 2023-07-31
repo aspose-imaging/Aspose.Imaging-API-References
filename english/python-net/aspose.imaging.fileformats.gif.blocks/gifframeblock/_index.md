@@ -32,7 +32,7 @@ url: /python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/
 | [GifFrameBlock(width, height)](#GifFrameBlock_width_height_12) | Initializes a new instance of the [GifFrameBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifframeblock/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | EXTENSION_LABEL [static] | int | r | Block extension label. |
 | IMAGE_DESCRIPTOR_SIZE [static] | int | r | The image descriptor size. |
 | auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether automatic adjust palette. |

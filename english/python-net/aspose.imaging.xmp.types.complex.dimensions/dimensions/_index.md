@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.xmp.types.complex.dimensions/dimensions/
 | [Dimensions(width, height)](#Dimensions_width_height_2) | Initializes a new instance of the [Dimensions](/imaging/python-net/aspose.imaging.xmp.types.complex.dimensions/dimensions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | height | float | r/w | Gets or sets the height. |
 | namespace_uri | string | r | Gets the default namespace URI. |
 | prefix | string | r | Gets the prefix. |

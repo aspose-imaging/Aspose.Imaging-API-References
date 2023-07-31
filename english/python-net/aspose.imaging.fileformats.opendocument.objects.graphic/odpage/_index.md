@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odpage/
 | [OdPage(parent)](#OdPage_parent_1) | Initializes a new instance of the [OdPage](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odpage/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
 | items | list[OdObject] | r | Gets the items. |
 | master_page_name | string | r/w | Gets or sets the name of the master page. |

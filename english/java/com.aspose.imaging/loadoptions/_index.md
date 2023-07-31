@@ -34,8 +34,8 @@ Represents the loading options.
 | [addCustomFontSource(CustomFontSource source, Object[] args)](#addCustomFontSource-com.aspose.imaging.CustomFontSource-java.lang.Object...-) | Adds the custom font source to supply image-specific fonts. |
 | [getBufferSizeHint()](#getBufferSizeHint--) | Gets the buffer size hint which is defined max allowed size for all internal buffers. |
 | [setBufferSizeHint(int value)](#setBufferSizeHint-int-) | Sets the buffer size hint which is defined max allowed size for all internal buffers. |
-| [getProgressEventHandler()](#getProgressEventHandler--) | Gets the progress event handler. |
-| [setProgressEventHandler(ProgressEventHandler value)](#setProgressEventHandler-com.aspose.imaging.ProgressEventHandler-) | Sets the progress event handler. |
+| [getIProgressEventHandler()](#getIProgressEventHandler--) | Gets the progress event handler. |
+| [setIProgressEventHandler(ProgressEventHandler value)](#setIProgressEventHandler-com.aspose.imaging.ProgressEventHandler-) | Sets the progress event handler. |
 ### LoadOptions() {#LoadOptions--}
 ```
 public LoadOptions()
@@ -192,9 +192,9 @@ try {
 }
 ```
 
-### getProgressEventHandler() {#getProgressEventHandler--}
+### getIProgressEventHandler() {#getIProgressEventHandler--}
 ```
-public ProgressEventHandler getProgressEventHandler()
+public ProgressEventHandler getIProgressEventHandler()
 ```
 
 
@@ -204,9 +204,9 @@ Value: The progress event handler.
 
 **Returns:**
 [ProgressEventHandler](../../com.aspose.imaging/progresseventhandler) - the progress event handler.
-### setProgressEventHandler(ProgressEventHandler value) {#setProgressEventHandler-com.aspose.imaging.ProgressEventHandler-}
+### setIProgressEventHandler(ProgressEventHandler value) {#setIProgressEventHandler-com.aspose.imaging.ProgressEventHandler-}
 ```
-public void setProgressEventHandler(ProgressEventHandler value)
+public void setIProgressEventHandler(ProgressEventHandler value)
 ```
 
 
@@ -216,48 +216,4 @@ Sets the progress event handler.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [ProgressEventHandler](../../com.aspose.imaging/progresseventhandler) | the progress event handler. |
-
-
-**Example: The following example shows how to print information about progress events for load/export operations.**
-
-``` java
-String dir = "c:\\aspose.imaging\\java\\issues\\1440\\";
-String fileName = dir + "big.png";
-
-// Example of use of separate operation progress event handlers for load/export operations
-final com.aspose.imaging.ProgressEventHandler loadHandler = new com.aspose.imaging.ProgressEventHandler() {
-    @Override
-    public void invoke(com.aspose.imaging.progressmanagement.ProgressEventHandlerInfo info) {
-        System.out.format("Load event %s : %d/%d\n", com.aspose.imaging.progressmanagement.EventType.toString(com.aspose.imaging.progressmanagement.EventType.class, info.getEventType()), info.getValue(), info.getMaxValue());
-    }
-};
-
-final com.aspose.imaging.ProgressEventHandler exportHandler = new com.aspose.imaging.ProgressEventHandler() {
-    @Override
-    public void invoke(com.aspose.imaging.progressmanagement.ProgressEventHandlerInfo info) {
-        System.out.format("Export event %s : %d/%d\n", com.aspose.imaging.progressmanagement.EventType.toString(com.aspose.imaging.progressmanagement.EventType.class, info.getEventType()), info.getValue(), info.getMaxValue());
-    }
-};
-
-com.aspose.imaging.Image image = com.aspose.imaging.Image.load(fileName, new com.aspose.imaging.LoadOptions() {{ setProgressEventHandler(loadHandler); }} );
-try {
-    image.save(fileName + ".psd",
-            new com.aspose.imaging.imageoptions.PsdOptions() {{ setProgressEventHandler( exportHandler); }});
-}
-finally {
-    image.close();
-}
-
-// The STDOUT log may look like this:
-//        Load event Initialization : 1/4
-//        Load event PreProcessing : 2/4
-//        Load event Processing : 3/4
-//        Load event Finalization : 4/4
-//        Export event Initialization : 1/4
-//        Export event PreProcessing : 2/4
-//        Export event Processing : 3/4
-//        Export event RelativeProgress : 1/1
-//        Load event RelativeProgress : 1/1
-//        Export event Finalization : 4/4
-```
 

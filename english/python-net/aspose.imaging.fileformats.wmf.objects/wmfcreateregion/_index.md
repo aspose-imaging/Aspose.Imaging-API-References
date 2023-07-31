@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfcreateregion/
 | [WmfCreateRegion()](#WmfCreateRegion__1) | WMFs the record. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | index | int | r/w | Gets or sets the index. |
 | region | [WmfRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfregion) | r/w | Gets or sets the region. |
 

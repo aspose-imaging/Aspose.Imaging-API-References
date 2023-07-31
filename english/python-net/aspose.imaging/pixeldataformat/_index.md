@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging/pixeldataformat/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | GRAYSCALE16 [static] | [PixelDataFormat](/imaging/python-net/aspose.imaging/pixeldataformat) | r | Defined for 16 bits per pixel with up to 16 bits representing grayscale intensity. |
 | bits_per_pixel | int | r | Gets the bits per pixel. |
 | caption | string | r | Gets the pixel data format caption. |

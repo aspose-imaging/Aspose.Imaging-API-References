@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusboundaryp
 | [EmfPlusBoundaryPathData()](#EmfPlusBoundaryPathData__1) | Initializes a new instance of the EmfPlusBoundaryPathData class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | boundary_path_data | [EmfPlusPath](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath) | r/w | Gets or sets an EmfPlusPath object (section 2.2.1.6) that specifies the boundary of the brush |
 
 

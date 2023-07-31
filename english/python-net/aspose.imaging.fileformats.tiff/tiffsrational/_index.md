@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffsrational/
 | [TiffSRational(value)](#TiffSRational_value_3) | Initializes a new instance of the [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | EPSILON [static] | double | r | The epsilon for fraction calculation |
 | denominator | int | r | Gets the denominator. |
 | nominator | int | r | Gets the nominator. |

@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfregiondata/
 | [EmfRegionData(rectangle)](#EmfRegionData_rectangle_2) | Initializes a new instance of the [EmfRegionData](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfregiondata/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | data | [Rectangle[]](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets an array of WMF RectL objects ([MS-WMF] section 2.2.2.19); the objects are <br/>            merged to create the region |
 | region_data_header | [EmfRegionDataHeader](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfregiondataheader) | r/w | Gets or sets a 256-bit RegionDataHeader object that describes the following data. |
 

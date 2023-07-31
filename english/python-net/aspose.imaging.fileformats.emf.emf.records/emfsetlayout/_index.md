@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetlayout/
 | [EmfSetLayout(source)](#EmfSetLayout_source_1) | Initializes a new instance of the [EmfSetLayout](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetlayout/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | layout_mode | EmfSetLayout.LayoutModeEnum | r/w | Gets or sets a 32-bit unsigned integer that specifies the layout mode |
 | size | int | r/w | Gets or sets the size of the record |
 | type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |

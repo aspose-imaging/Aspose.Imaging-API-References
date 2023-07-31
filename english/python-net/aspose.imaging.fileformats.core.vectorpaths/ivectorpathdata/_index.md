@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging.fileformats.core.vectorpaths/ivectorpathdata/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | is_disabled | bool | r/w | Gets or sets a value indicating whether this instance is disabled. |
 | is_inverted | bool | r/w | Gets or sets a value indicating whether this instance is inverted. |
 | is_not_linked | bool | r/w | Gets or sets a value indicating whether this instance is not linked. |

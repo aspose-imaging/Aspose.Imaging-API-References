@@ -23,7 +23,7 @@ url: /python-net/aspose.imaging.shapes/beziershape/
 | [BezierShape(points, is_closed)](#BezierShape_points_is_closed_3) | Initializes a new instance of the [BezierShape](/imaging/python-net/aspose.imaging.shapes/beziershape/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bounds | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r | Gets the object's bounds. |
 | center | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the shape's center. |
 | end_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the ending shape point. |

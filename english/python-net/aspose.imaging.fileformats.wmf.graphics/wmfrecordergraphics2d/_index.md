@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.graphics/wmfrecordergraphics2d/
 | [WmfRecorderGraphics2D(frame, inch)](#WmfRecorderGraphics2D_frame_inch_1) | Initializes a new instance of the [WmfRecorderGraphics2D](/imaging/python-net/aspose.imaging.fileformats.wmf.graphics/wmfrecordergraphics2d/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | background_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets the color of the background. |
 | background_mode | [WmfMixMode](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfmixmode/) | r/w | Gets or sets the background mode. |
 | clip | [Region](/imaging/python-net/aspose.imaging/region) | r/w | Gets or sets a Region that limits the drawing region of this Graphics |

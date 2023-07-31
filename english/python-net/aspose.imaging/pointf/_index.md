@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging/pointf/
 | [PointF(x, y)](#PointF_x_y_2) | Initializes a new instance of the [PointF](/imaging/python-net/aspose.imaging/pointf/) structure with the specified coordinates. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | empty [static] | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets a new instance of the [PointF](/imaging/python-net/aspose.imaging/pointf/) structure that has [PointF.x](/imaging/python-net/aspose.imaging/pointf/) and [PointF.y](/imaging/python-net/aspose.imaging/pointf/) values set to zero. |
 | is_empty | bool | r | Gets a value indicating whether this [PointF](/imaging/python-net/aspose.imaging/pointf/) is empty. |
 | x | float | r/w | Gets or sets the x-coordinate of this [PointF](/imaging/python-net/aspose.imaging/pointf/). |

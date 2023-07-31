@@ -23,7 +23,7 @@ url: /python-net/aspose.imaging.exif/jpegexifdata/
 | [JpegExifData(exifdata)](#JpegExifData_exifdata_3) | Initializes a new instance of the [JpegExifData](/imaging/python-net/aspose.imaging.exif/jpegexifdata/) class with data from array. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | MAX_EXIF_SEGMENT_SIZE [static] | int | r | The maximum EXIF segment size in bytes allowed. |
 | aperture_value | [TiffRational](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffrational/) | r/w | Gets or sets the aperture value. |
 | artist | string | r/w | Gets or sets the artist. |

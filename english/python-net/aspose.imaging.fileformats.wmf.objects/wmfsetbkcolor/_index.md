@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetbkcolor/
 | [WmfSetBkColor()](#WmfSetBkColor__1) | Initializes a new instance of the WmfSetBkColor class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | color_ref | int | r/w | Gets or sets the color reference. |
 
 

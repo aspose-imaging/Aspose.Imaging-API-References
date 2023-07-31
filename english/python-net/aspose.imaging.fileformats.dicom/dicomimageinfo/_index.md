@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging.fileformats.dicom/dicomimageinfo/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bits_allocated | int | r | Gets a value of the "bitsAllocated". |
 | blues | byte | r | Gets the array colors of the blue |
 | dicom_header_info_by_bytes | byte | r | Gets the dicom header information by bytes. |

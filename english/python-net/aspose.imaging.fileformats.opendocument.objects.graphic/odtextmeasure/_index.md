@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odtextm
 | [OdTextMeasure(parent)](#OdTextMeasure_parent_1) | Initializes a new instance of the [OdTextMeasure](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odtextmeasure/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
 | items | list[OdObject] | r | Gets the items. |
 | kind | [OdMeasureTextKind](/imaging/python-net/aspose.imaging.fileformats.opendocument.enums/odmeasuretextkind/) | r/w | Gets or sets the kind. |

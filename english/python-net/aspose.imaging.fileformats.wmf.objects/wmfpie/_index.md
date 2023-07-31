@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfpie/
 | [WmfPie()](#WmfPie__1) | Initializes a new instance of the WmfPie class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | radial1 | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the radial1. |
 | radial2 | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the radial2. |
 | rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets the rectangle. |

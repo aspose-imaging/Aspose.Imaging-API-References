@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfregion/
 | [WmfRegion()](#WmfRegion__1) | Initializes a new instance of the WmfRegion class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | a_scans | [WmfScanObject[]](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfscanobject) | r/w | Gets or sets a scans. |
 | bounding_rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets the bounding rectangle. |
 | max_scan | short | r/w | Gets or sets the maximum scan. |

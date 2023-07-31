@@ -29,7 +29,7 @@ url: /python-net/aspose.imaging.imageoptions/multipageoptions/
 | [MultiPageOptions(ranges, export_area)](#MultiPageOptions_ranges_export_area_11) | Initializes a new instance of the MultiPageOptions class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets the export area. |
 | merge_layers | bool | r/w | Gets or sets a value indicating whether [merege layers]. |
 | mode | [MultiPageMode](/imaging/python-net/aspose.imaging.imageoptions/multipagemode) | r/w | Gets or sets the mode. |

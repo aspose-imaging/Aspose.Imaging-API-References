@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfscalewindowext/
 | [WmfScaleWindowExt()](#WmfScaleWindowExt__1) | Initializes a new instance of the WmfScaleWindowExt class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | x_denom | short | r/w | Gets or sets the x denom. |
 | x_num | short | r/w | Gets or sets the x number. |
 | y_denom | short | r/w | Gets or sets the y denom. |

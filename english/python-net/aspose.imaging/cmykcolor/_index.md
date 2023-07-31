@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging/cmykcolor/
 | [CmykColor()](#CmykColor__1) | Initializes a new instance of the CmykColor class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | c | byte | r | Gets the cyan component value of this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
 | empty [static] | [CmykColor](/imaging/python-net/aspose.imaging/cmykcolor) | r | Gets the empty. |
 | is_empty | bool | r | Gets a value indicating whether this [Color](/imaging/python-net/aspose.imaging/color/) structure is uninitialized. |

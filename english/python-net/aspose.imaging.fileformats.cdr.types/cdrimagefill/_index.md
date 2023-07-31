@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.types/cdrimagefill/
 | [CdrImageFill(id, width, height, is_relative, x_offset, y_offset, rcp_offset, flags)](#CdrImageFill_id_width_height_is_relative_x_offset_y_offset_rcp_offset_flags_1) | Initializes a new instance of the [CdrImageFill](/imaging/python-net/aspose.imaging.fileformats.cdr.types/cdrimagefill/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | flags | byte | r/w | Gets or sets the flags. |
 | height | double | r/w | Gets or sets the height. |
 | id | int | r/w | Gets or sets the identifier. |

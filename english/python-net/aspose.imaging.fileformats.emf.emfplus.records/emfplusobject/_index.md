@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusobject/
 | [EmfPlusObject(source)](#EmfPlusObject_source_1) | Initializes a new instance of the [EmfPlusObject](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusobject/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | data_size | int | r/w | Gets or sets a 32-bit unsigned integer that MUST define the 32-bit–aligned number of<br/>            bytes of data in the RecordData field that follows. This number does not include the 12-byte record header. |
 | flags | short | r/w | Gets or sets a 16-bit unsigned integer that contains information for some records on how<br/>            the operation is to be performed and on the structure of the record. |
 | is_continuable | bool | r/w | Gets or sets a value indicating whether this instance is continuable.<br/>            Indicates that the object definition continues on in the next EmfPlusObject<br/>            record. This flag is never set in the final record that defines the object. |

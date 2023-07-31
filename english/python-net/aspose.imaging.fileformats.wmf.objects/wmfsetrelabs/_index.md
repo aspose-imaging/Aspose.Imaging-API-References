@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetrelabs/
 | [WmfSetRelabs()](#WmfSetRelabs__1) | Initializes a new instance of the WmfSetRelabs class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | parameters | short | r/w | Gets or sets the parameter. |
 
 

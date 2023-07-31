@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.fileformats.jpeg/jpeglspresetcodingparameters/
 | [JpegLsPresetCodingParameters()](#JpegLsPresetCodingParameters__1) | Initializes a new instance of the JpegLsPresetCodingParameters class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | maximum_sample_value | int | r/w | Gets or sets the maximum possible value for any image sample in a scan.<br/>            This must be greater than or equal to the actual maximum value for the components in a scan. |
 | reset_value | int | r/w | Gets or sets the value at which the counters A, B, and N are halved. |
 | threshold1 | int | r/w | Gets or sets the first quantization threshold value for the local gradients. |

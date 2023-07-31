@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/
 | [EmfExtSelectClipRgn(source)](#EmfExtSelectClipRgn_source_2) | Initializes a new instance of the [EmfExtSelectClipRgn](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfextselectcliprgn/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | region_mode | [EmfRegionMode](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfregionmode/) | r/w | Gets or sets a 32-bit unsigned integer that specifies the way to use the region. The <br/>            value MUST be in the RegionMode (section 2.1.29) enumeration. |
 | rgn_data | [EmfRegionData](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfregiondata/) | r/w | Gets or sets a RgnDataSize length array of bytes that specifies a RegionData object <br/>            in logical units. If RegionMode is RGN_COPY, this data can be omitted and the clip region <br/>            SHOULD be set to the default (NULL) clip region. |
 | rgn_data_size | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the size of region data in bytes. |

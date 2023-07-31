@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnod
 | [EmfPlusRegionNodeChildNodes()](#EmfPlusRegionNodeChildNodes__1) | Initializes a new instance of the EmfPlusRegionNodeChildNodes class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | left | [EmfPlusRegionNode](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnode) | r/w | Gets or sets an EmfPlusRegionNode object that specifies the left child node of this region node. |
 | operation | EmfPlusRegionNodeChildNodes.NodesOperation | r/w | Gets or sets the operation. |
 | right | [EmfPlusRegionNode](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnode) | r/w | Gets or sets an EmfPlusRegionNode object that defines the right child node of this region node. |

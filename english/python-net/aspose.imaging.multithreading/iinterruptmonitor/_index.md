@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging.multithreading/iinterruptmonitor/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | is_interrupted | bool | r | Gets the value indicating whether operations should be interrupted. |
 ## **Methods**
 | **Name** | **Description** |

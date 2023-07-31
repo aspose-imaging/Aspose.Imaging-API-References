@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.imageloadoptions/dngloadoptions/
 | [DngLoadOptions()](#DngLoadOptions__1) | Initializes a new instance of the DngLoadOptions class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | adjust_white_balance | bool | r/w | Gets or sets the flag indicating that the white balance of the loaded DNG image should be adjusted. |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | data_background_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets the [Image](/imaging/python-net/aspose.imaging/image/) background [Color](/imaging/python-net/aspose.imaging/color/). |

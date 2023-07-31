@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.xmp/xmptrailerpi/
 | [XmpTrailerPi(is_writable)](#XmpTrailerPi_is_writable_2) | Initializes a new instance of the [XmpTrailerPi](/imaging/python-net/aspose.imaging.xmp/xmptrailerpi/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | is_writable | bool | r/w | Gets or sets a value indicating whether this instance is writable. |
 ## **Methods**
 | **Name** | **Description** |

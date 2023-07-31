@@ -32,10 +32,7 @@ is_root: true
 | [com.aspose.imaging.fileformats.cdr.consts](./com.aspose.imaging.fileformats.cdr.consts) | The namespace handles Cdr file format processing. |
 | [com.aspose.imaging.fileformats.cdr.enums](./com.aspose.imaging.fileformats.cdr.enums) | The namespace handles Cdr file format processing. |
 | [com.aspose.imaging.fileformats.cdr.objects](./com.aspose.imaging.fileformats.cdr.objects) | The namespace handles Cdr file format processing. |
-| [com.aspose.imaging.fileformats.cdr.readers](./com.aspose.imaging.fileformats.cdr.readers) | The namespace handles Cdr file format processing. |
-| [com.aspose.imaging.fileformats.cdr.rendering](./com.aspose.imaging.fileformats.cdr.rendering) | The namespace handles Cdr file format processing. |
 | [com.aspose.imaging.fileformats.cdr.types](./com.aspose.imaging.fileformats.cdr.types) | The namespace handles Cdr file format processing. |
-| [com.aspose.imaging.fileformats.cdr.types.pathelements](./com.aspose.imaging.fileformats.cdr.types.pathelements) | The namespace handles Cdr file format processing. |
 | [com.aspose.imaging.fileformats.cmx](./com.aspose.imaging.fileformats.cmx) | The namespace handles Tiff file format processing. |
 | [com.aspose.imaging.fileformats.cmx.objectmodel](./com.aspose.imaging.fileformats.cmx.objectmodel) | The namespace handles Tiff file format processing. |
 | [com.aspose.imaging.fileformats.cmx.objectmodel.enums](./com.aspose.imaging.fileformats.cmx.objectmodel.enums) | The namespace handles Tiff file format processing. |
@@ -106,7 +103,6 @@ is_root: true
 | [com.aspose.imaging.shapesegments](./com.aspose.imaging.shapesegments) | The package contains different shape segments which combine shapes. |
 | [com.aspose.imaging.sources](./com.aspose.imaging.sources) | Package contains different stream sources which are suitable for input or output data flow. |
 | [com.aspose.imaging.xmp](./com.aspose.imaging.xmp) | The package contains XMP related helper classes and methods. |
-| [com.aspose.imaging.xmp.schemas.asposeimaging](./com.aspose.imaging.xmp.schemas.asposeimaging) | The namespace contains Aspose.Imaging XMP metadata related helper classes, constants and methods. |
 | [com.aspose.imaging.xmp.schemas.dicom](./com.aspose.imaging.xmp.schemas.dicom) | The namespace contains Dicom metadata related helper classes, constants and methods. |
 | [com.aspose.imaging.xmp.schemas.dublincore](./com.aspose.imaging.xmp.schemas.dublincore) | The package contains Dublin Core metadata related helper classes, constants and methods. |
 | [com.aspose.imaging.xmp.schemas.pdf](./com.aspose.imaging.xmp.schemas.pdf) | The package contains related helper classes, constants and methods used with Adobe PDF documents. |

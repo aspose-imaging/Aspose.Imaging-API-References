@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteropt
 | [GaussianBlurFilterOptions(radius, sigma)](#GaussianBlurFilterOptions_radius_sigma_2) | Initializes a new instance of the [GaussianBlurFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/gaussianblurfilteroptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bias | int | r/w | Gets or sets the bias. |
 | factor | double | r/w | Gets or sets the factor. |
 | radius | int | r/w | Gets or sets the radius. |

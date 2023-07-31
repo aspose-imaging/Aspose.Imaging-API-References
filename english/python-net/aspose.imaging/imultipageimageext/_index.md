@@ -17,7 +17,7 @@ url: /python-net/aspose.imaging/imultipageimageext/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | page_count | int | r | Gets the page count. |
 | pages | [Image[]](/imaging/python-net/aspose.imaging/image) | r | Gets the pages. |
 ## **Methods**

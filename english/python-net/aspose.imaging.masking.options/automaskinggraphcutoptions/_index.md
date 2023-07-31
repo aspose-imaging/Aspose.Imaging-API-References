@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.masking.options/automaskinggraphcutoptions/
 | [AutoMaskingGraphCutOptions()](#AutoMaskingGraphCutOptions__1) | Initializes a new instance of the [AutoMaskingGraphCutOptions](/imaging/python-net/aspose.imaging.masking.options/automaskinggraphcutoptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | BACKGROUND_OBJECT_NUMBER [static] | int | r | The background object number |
 | args | [IMaskingArgs](/imaging/python-net/aspose.imaging.masking.options/imaskingargs) | r/w | Gets or sets the arguments for segmentation algorithm. |
 | assumed_objects | list[AssumedObjectData] | r/w | Gets or sets the assumed objects. |

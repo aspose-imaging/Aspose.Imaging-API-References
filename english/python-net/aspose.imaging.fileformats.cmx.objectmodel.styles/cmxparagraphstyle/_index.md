@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxparagraphs
 | [CmxParagraphStyle()](#CmxParagraphStyle__1) | Initializes a new instance of the CmxParagraphStyle class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | character_spacing | float | r/w | Gets or sets the character spacing. |
 | horizontal_alignment | [ParagraphHorizontalAlignment](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/paragraphhorizontalalignment/) | r/w | Gets or sets the horizontal alignment. |
 | language_spacing | float | r/w | Gets or sets the language spacing. |

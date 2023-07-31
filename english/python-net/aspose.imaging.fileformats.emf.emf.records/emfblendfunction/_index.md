@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfblendfunction/
 | [EmfBlendFunction(dword_data)](#EmfBlendFunction_dword_data_2) | Initializes a new instance of the [EmfBlendFunction](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfblendfunction/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | alpha_format | EmfBlendFunction.AlphaFormatEnum | r | Gets a structure that specifies how source and destination pixels are <br/>            interpreted with respect to alpha transparency. |
 | blend_flags | byte | r | Gets the blend flags.<br/>            This value MUST be 0x00 and MUST be ignored. |
 | blend_operation | byte | r | Gets the blend operation code. <br/>            The only source and destination <br/>            blend operation that has been defined is 0x00, which specifies that the source bitmap <br/>            MUST be combined with the destination bitmap based on the alpha transparency values <br/>            of the source pixels. See the following equations for details. |

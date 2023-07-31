@@ -25,7 +25,7 @@ url: /python-net/aspose.imaging.brushes/pathgradientbrush/
 | [PathGradientBrush(path_points, wrap_mode)](#PathGradientBrush_path_points_wrap_mode_5) | Initializes a new instance of the [PathGradientBrush](/imaging/python-net/aspose.imaging.brushes/pathgradientbrush/) class with the specified points and wrap mode. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | blend | [Blend](/imaging/python-net/aspose.imaging/blend) | r/w | Gets or sets a [Blend](/imaging/python-net/aspose.imaging/blend/) that specifies positions and factors that define a custom falloff for the gradient. |
 | center_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets the color at the center of the path gradient. |
 | center_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the center point of the path gradient. |

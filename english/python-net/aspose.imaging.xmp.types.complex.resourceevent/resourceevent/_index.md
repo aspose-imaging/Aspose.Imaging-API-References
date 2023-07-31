@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.xmp.types.complex.resourceevent/resourceevent/
 | [ResourceEvent()](#ResourceEvent__1) | Initializes a new instance of the [ResourceEvent](/imaging/python-net/aspose.imaging.xmp.types.complex.resourceevent/resourceevent/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | action | string | r/w | Gets or sets action. |
 | action_date | datetime | r/w | Gets or sets the action date. |
 | changed | string | r/w | Gets or sets the semicolon-delimited list of the parts of the resource that were changed since the previous event history. |

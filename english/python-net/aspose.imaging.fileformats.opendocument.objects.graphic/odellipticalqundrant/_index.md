@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odellip
 | [OdEllipticalQundrant(parent)](#OdEllipticalQundrant_parent_1) | Initializes a new instance of the [OdEllipticalQundrant](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odellipticalqundrant/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
 | axis_x | bool | r/w | Gets or sets a value indicating whether [axis x]. |
 | items | list[OdObject] | r | Gets the items. |

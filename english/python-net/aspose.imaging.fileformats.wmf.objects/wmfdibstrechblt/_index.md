@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfdibstrechblt/
 | [WmfDibStrechBlt()](#WmfDibStrechBlt__1) | WMFs the record. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | dest_height | short | r/w | Gets or sets the height of the dest. |
 | dest_width | short | r/w | Gets or sets the width of the dest. |
 | raster_operation | [WmfTernaryRasterOperation](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfternaryrasteroperation/) | r/w | Gets or sets the raster operation. |

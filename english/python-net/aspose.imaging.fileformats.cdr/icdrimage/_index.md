@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging.fileformats.cdr/icdrimage/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | cdr_document | [CdrDocument](/imaging/python-net/aspose.imaging.fileformats.cdr.objects/cdrdocument/) | r | Gets or sets the CDR document. |
 
 

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging/rectanglef/
 | [RectangleF(x, y, width, height)](#RectangleF_x_y_width_height_3) | Initializes a new instance of the [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure with the specified location and size. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bottom | float | r/w | Gets or sets the y-coordinate that is the sum of [RectangleF.y](/imaging/python-net/aspose.imaging/rectanglef/) and [RectangleF.height](/imaging/python-net/aspose.imaging/rectanglef/) of this [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |
 | empty [static] | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r | Gets a new instance of the [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that has [RectangleF.x](/imaging/python-net/aspose.imaging/rectanglef/), [RectangleF.y](/imaging/python-net/aspose.imaging/rectanglef/), [RectangleF.width](/imaging/python-net/aspose.imaging/rectanglef/) and [RectangleF.height](/imaging/python-net/aspose.imaging/rectanglef/) values set to zero. |
 | height | float | r/w | Gets or sets the height of this [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure. |

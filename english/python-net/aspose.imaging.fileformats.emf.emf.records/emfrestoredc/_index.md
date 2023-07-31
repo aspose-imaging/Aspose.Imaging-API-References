@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfrestoredc/
 | [EmfRestoreDc(source)](#EmfRestoreDc_source_2) | Initializes a new instance of the [EmfRestoreDc](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrestoredc/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | saved_dc | int | r/w | Gets or sets a 32-bit signed integer that specifies the saved state to restore relative to<br/>            the current state. This value MUST be negative; –1 represents the state that was most<br/>            recently saved on the stack, –2 the one before that, etc. |
 | size | int | r/w | Gets or sets the size of the record |
 | type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |

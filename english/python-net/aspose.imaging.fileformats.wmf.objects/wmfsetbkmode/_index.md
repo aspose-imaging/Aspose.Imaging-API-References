@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetbkmode/
 | [WmfSetBkMode()](#WmfSetBkMode__1) | Initializes a new instance of the WmfSetBkMode class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bk_mode | [WmfMixMode](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfmixmode/) | r/w | Gets or sets the bk mode. |
 | reserved | int | r/w | Gets or sets the reserved. |
 

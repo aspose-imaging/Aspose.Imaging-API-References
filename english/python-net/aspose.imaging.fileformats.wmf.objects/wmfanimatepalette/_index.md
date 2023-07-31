@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfanimatepalette/
 | [WmfAnimatePalette()](#WmfAnimatePalette__1) | Initializes a new instance of the WmfAnimatePalette class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | log_palette | [EmfLogPalette](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogpalette/) | r/w | Gets or sets the log palette. |
 | start | int | r/w | Gets or sets the start. |
 

@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.xmp/xmparray/
 | [XmpArray(type, items)](#XmpArray_type_items_2) | Initializes a new instance of the [XmpArray](/imaging/python-net/aspose.imaging.xmp/xmparray/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | values | string | r | Gets array of values inside [XmpArray](/imaging/python-net/aspose.imaging.xmp/xmparray/). |
 ## **Methods**
 | **Name** | **Description** |

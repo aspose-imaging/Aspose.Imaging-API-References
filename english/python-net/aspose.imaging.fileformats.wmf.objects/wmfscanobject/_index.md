@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfscanobject/
 | [WmfScanObject()](#WmfScanObject__1) | Initializes a new instance of the WmfScanObject class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bottom | int | r/w | Gets or sets the bottom. |
 | count | int | r/w | Gets or sets the count. |
 | count2 | int | r/w | Gets or sets the count2. |

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.imageoptions/html5canvasoptions/
 | [Html5CanvasOptions()](#Html5CanvasOptions__1) | Initializes a new instance of the [Html5CanvasOptions](/imaging/python-net/aspose.imaging.imageoptions/html5canvasoptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | canvas_tag_id | string | r/w | Gets or sets the canvas tag identifier. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |

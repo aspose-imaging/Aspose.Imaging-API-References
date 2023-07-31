@@ -19,6 +19,7 @@ Represents a raster image supporting raster graphics operations. This image cach
 | --- | --- |
 | [isCached()](#isCached--) | Gets a value indicating whether image data is cached currently. |
 | [cacheData()](#cacheData--) | Caches the data and ensures no additional data loading will be performed from the underlying `DataStreamSupporter.DataStreamContainer`. |
+| [blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte overlayAlpha)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-byte-) | Blends this image instance with the `overlay`. |
 | [resize(int newWidth, int newHeight, int resizeType)](#resize-int-int-int-) | Resizes the image. |
 | [resize(int newWidth, int newHeight, ImageResizeSettings settings)](#resize-int-int-com.aspose.imaging.ImageResizeSettings-) | Resizes the image. |
 | [rotateFlip(int rotateFlipType)](#rotateFlip-int-) | Rotates, flips, or rotates and flips the image. |
@@ -128,6 +129,22 @@ try {
 //at com.aspose.imaging.RasterImage.getArgb32Pixel(Unknown Source)
 //at com.aspose.examples.ExamplesTest.Test(ExamplesTest.java:54)
 ```
+
+### blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte overlayAlpha) {#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-byte-}
+```
+public void blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte overlayAlpha)
+```
+
+
+Blends this image instance with the `overlay`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| origin | [Point](../../com.aspose.imaging/point) | The background image blending origin. |
+| overlay | [RasterImage](../../com.aspose.imaging/rasterimage) | The overlay. |
+| overlayArea | [Rectangle](../../com.aspose.imaging/rectangle) | The overlay area. |
+| overlayAlpha | byte | The overlay alpha. |
 
 ### resize(int newWidth, int newHeight, int resizeType) {#resize-int-int-int-}
 ```

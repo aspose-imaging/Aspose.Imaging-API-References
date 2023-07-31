@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfexttextout/
 | [WmfExtTextOut()](#WmfExtTextOut__1) | Initializes a new instance of the WmfExtTextOut class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | dx | short | r/w | Gets or sets the dx. |
 | extended_byte | byte | r/w | Gets or sets the extended byte. |
 | fw_opts | int | r/w | Gets or sets the fw opts. |

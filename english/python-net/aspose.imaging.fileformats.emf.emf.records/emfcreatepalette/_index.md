@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatepalette/
 | [EmfCreatePalette(source)](#EmfCreatePalette_source_1) | Initializes a new instance of the [EmfCreatePalette](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatepalette/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | ih_pal | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the index of the logical palette object<br/>            in the EMF Object Table (section 3.1.1.1). This index MUST be saved so that this object can be<br/>            reused or modified. |
 | log_palette | [EmfLogPalette](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogpalette/) | r/w | Gets or sets a LogPalette object (section 2.2.17). The Version field of this object<br/>            MUST be set to 0x0300. If the NumberOfEntries value in this object is zero, processing of<br/>            this record MUST fail. |
 | size | int | r/w | Gets or sets the size of the record |

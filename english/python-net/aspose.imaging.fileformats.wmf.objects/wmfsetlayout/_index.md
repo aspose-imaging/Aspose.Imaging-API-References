@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetlayout/
 | [WmfSetLayout()](#WmfSetLayout__1) | Initializes a new instance of the WmfSetLayout class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | layout_mode | [LayoutModeEnum](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records.emfsetlayout/layoutmodeenum/) | r/w | Gets or sets the LayoutMode. |
 
 

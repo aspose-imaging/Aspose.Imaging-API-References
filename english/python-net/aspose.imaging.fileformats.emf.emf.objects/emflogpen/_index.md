@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emflogpen/
 | [EmfLogPen()](#EmfLogPen__1) | Initializes a new instance of the EmfLogPen class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | affect_width | int | r/w | Gets or sets the width of the affect. |
 | argb_32_color_ref | int | r/w | Gets or sets a WMF ColorRef object ([MS-WMF] section 2.2.2.8) that specifies the pen color value. |
 | pen_style | [EmfPenStyle](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfpenstyle/) | r/w | Gets or sets a 32-bit unsigned integer that specifies the PenStyle. The value MUST be <br/>            defined from the PenStyle enumeration table, specified in section 2.1.25. |

@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.fileformats.svg/fontstoringargs/
 | [FontStoringArgs()](#FontStoringArgs__1) | Initializes a new instance of the FontStoringArgs class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | dest_font_stream | _io.BufferedRandom | r/w | Gets or sets the dest font stream. |
 | dispose_stream | bool | r/w | Gets or sets a value indicating whether [dispose stream]. |
 | font_file_uri | string | r/w | Gets or sets the font file URI. |

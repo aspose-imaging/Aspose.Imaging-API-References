@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescapee
 | [WmfEscapeEnhancedMetafile()](#WmfEscapeEnhancedMetafile__1) | Initializes a new instance of the WmfEscapeEnhancedMetafile class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | byte_count | int | r/w | Gets or sets the byte count. |
 | checked | bool | r/w | Gets a value indicating whether this [WmfEscapeRecordBase](/imaging/python-net/aspose.imaging.fileformats.wmf.objects.escaperecords/wmfescaperecordbase/) is checked. |
 | checksum | int | r/w | Gets or sets the checksum. |

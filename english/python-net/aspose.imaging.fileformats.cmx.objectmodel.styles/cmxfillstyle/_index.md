@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxfillstyle/
 | [CmxFillStyle()](#CmxFillStyle__1) | Initializes a new instance of the CmxFillStyle class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | color1 | [CmxColor](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor) | r/w | Gets or sets the primary color. |
 | color2 | [CmxColor](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor) | r/w | Gets or sets the secondary color. |
 | fill_type | [FillTypes](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/filltypes/) | r/w | Gets or sets the type of the fill. |

@@ -29,7 +29,7 @@ url: /python-net/aspose.imaging.fileformats.jpeg2000/jpeg2000image/
 | [Jpeg2000Image(width, height, options)](#Jpeg2000Image_width_height_options_9) | Initializes a new instance of the Jpeg2000Image class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether automatic adjust palette. |
 | background_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets a value for the background color. |
 | bits_per_pixel | int | r | Gets image depth (bits per pixel) |

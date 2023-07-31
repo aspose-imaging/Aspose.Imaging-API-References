@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfselectobject/
 | [WmfSelectObject(wmf_object)](#WmfSelectObject_wmf_object_2) | Initializes a new instance of the [WmfSelectObject](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfselectobject/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | object_index | int | r/w | Gets or sets the index of the object. |
 
 

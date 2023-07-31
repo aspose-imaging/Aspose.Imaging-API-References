@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsettextcolor/
 | [WmfSetTextColor()](#WmfSetTextColor__1) | Initializes a new instance of the WmfSetTextColor class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | color_ref | int | r/w | Gets or sets the color reference. |
 | extended_byte | byte | r/w | Gets or sets the extended byte. |
 

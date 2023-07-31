@@ -17,7 +17,7 @@ url: /python-net/aspose.imaging.shapes/rectangleprojectedshape/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bounds | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r | Gets the object's bounds. |
 | center | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the shape's center. |
 | has_segments | bool | r | Gets a value indicating whether shape has segments. |

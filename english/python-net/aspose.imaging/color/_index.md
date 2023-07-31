@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging/color/
 | [Color()](#Color__1) | Initializes a new instance of the Color class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | a | byte | r | Gets the alpha component value of this [Color](/imaging/python-net/aspose.imaging/color/) structure. |
 | alice_blue [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |
 | antique_white [static] | [Color](/imaging/python-net/aspose.imaging/color) | r | Gets a system-defined color. |

@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging.asynctask/iasynctask/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | is_busy | bool | r | Gets a value indicating whether this task is currently running. |
 | is_canceled | bool | r | Gets a value indicating whether this task was canceled. |
 | is_faulted | bool | r | Gets a value indicating whether this task was faulted. |

@@ -23,7 +23,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfmetafileheader/
 | [EmfMetafileHeader(record)](#EmfMetafileHeader_record_3) | Initializes a new instance of the EmfMetafileHeader class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | emf_description | string | r/w | Gets or sets the EMF description<br/>            An optional, null-terminated Unicode UTF16-LE string of arbitrary length and content. <br/>            Its location in the record and number of characters are specified by the offDescription <br/>            and nDescription fields, respectively, in EmfHeader. If the value of either field <br/>            is zero, no description string is present. |
 | emf_description_buffer | byte | r/w | Gets or sets the EMF description buffer<br/>            An optional array of bytes that contains the EMF description string, which is <br/>            not required to be contiguous with the fixed portion of the EmfMetafileHeader <br/>            record. Accordingly, the field in this buffer that is labeled "UndefinedSpace" <br/>            is optional and MUST be ignored. |
 | emf_header | [EmfHeaderObject](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfheaderobject/) | r/w | Gets or sets a Header object (section 2.2.9), which contains information about the content<br/>            and structure of the metafile |

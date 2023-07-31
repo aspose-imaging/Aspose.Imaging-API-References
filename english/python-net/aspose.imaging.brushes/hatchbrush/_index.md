@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.brushes/hatchbrush/
 | [HatchBrush()](#HatchBrush__1) | Initializes a new instance of the HatchBrush class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | background_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets the color of spaces between the hatch lines. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | foreground_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets the color of hatch lines. |

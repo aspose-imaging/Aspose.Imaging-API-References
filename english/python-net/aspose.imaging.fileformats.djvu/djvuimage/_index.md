@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.djvu/djvuimage/
 | [DjvuImage(stream, load_options)](#DjvuImage_stream_load_options_2) | Initializes a new instance of the [DjvuImage](/imaging/python-net/aspose.imaging.fileformats.djvu/djvuimage/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | active_page | [DjvuPage](/imaging/python-net/aspose.imaging.fileformats.djvu/djvupage) | r/w | Gets or sets the currently active page |
 | auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether automatic adjust palette. |
 | background_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets a value for the background color. |

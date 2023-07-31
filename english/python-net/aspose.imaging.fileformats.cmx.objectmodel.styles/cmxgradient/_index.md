@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxgradient/
 | [CmxGradient()](#CmxGradient__1) | Initializes a new instance of the CmxGradient class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | angle | float | r/w | Gets or sets the angle. |
 | center_x_offset | uint | r/w | Gets or sets the center x offset. |
 | center_y_offset | uint | r/w | Gets or sets the center y offset. |

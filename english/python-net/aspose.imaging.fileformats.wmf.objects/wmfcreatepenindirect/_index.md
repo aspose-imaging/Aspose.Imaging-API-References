@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfcreatepenindirect/
 | [WmfCreatePenInDirect()](#WmfCreatePenInDirect__1) | WMFs the record. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | index | int | r/w | Gets or sets the index. |
 | log_pen | [EmfLogPen](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogpen/) | r/w | Gets or sets the log pen. |
 

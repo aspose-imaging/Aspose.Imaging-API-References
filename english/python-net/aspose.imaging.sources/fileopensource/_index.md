@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.sources/fileopensource/
 | [FileOpenSource(file_path)](#FileOpenSource_file_path_1) | Initializes a new instance of the [FileOpenSource](/imaging/python-net/aspose.imaging.sources/fileopensource/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | file_path | string | r | Gets the file path to open. |
 | is_temporal | bool | r | Gets a value indicating whether file will be temporal. |
 ## **Methods**

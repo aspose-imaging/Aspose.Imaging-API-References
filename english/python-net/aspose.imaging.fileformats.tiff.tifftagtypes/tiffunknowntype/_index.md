@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/
 | [TiffUnknownType(stream, tag_type, tag_id, count, offset_or_value)](#TiffUnknownType_stream_tag_type_tag_id_count_offset_or_value_1) | Initializes a new instance of the [TiffUnknownType](/imaging/python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffunknowntype/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | count | ulong | r | Gets the count of elements. |
 | data_size | ulong | r | Gets the tag value size. |
 | element_size | byte | r | Gets the element size in bytes. |

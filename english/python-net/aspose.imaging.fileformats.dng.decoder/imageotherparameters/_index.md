@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging.fileformats.dng.decoder/imageotherparameters/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | aperture | float | r | Gets the aperture. |
 | artist | string | r | Gets the author of image. |
 | description | string | r | Gets the image description. |

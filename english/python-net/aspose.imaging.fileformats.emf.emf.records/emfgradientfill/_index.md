@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfgradientfill/
 | [EmfGradientFill(source)](#EmfGradientFill_source_1) | Initializes a new instance of the [EmfGradientFill](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfgradientfill/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets a WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies a <br/>            bounding rectangle, in inclusive-inclusive device units. |
 | n_tri | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the number of rectangles or triangles to fill. |
 | n_ver | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the number of vertexes. |

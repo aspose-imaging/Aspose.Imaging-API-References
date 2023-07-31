@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument/odobject/
 | [OdObject(parent)](#OdObject_parent_2) | Initializes a new instance of the [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | items | list[OdObject] | r | Gets the items. |
 | parent | [OdObject](/imaging/python-net/aspose.imaging.fileformats.opendocument/odobject) | r | Gets the parent object. |
 

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.xmp.types.complex.resourceref/resourceref/
 | [ResourceRef()](#ResourceRef__1) | Initializes a new instance of the [aspose.imaging.xmp.types.complex.dimensions](/imaging/python-net/aspose.imaging.xmp.types.complex.dimensions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | alternate_paths | string | r/w | Gets or sets the array of alternate path. |
 | document_uri | string | r/w | Gets or sets the document URI. |
 | file_path_uri | string | r/w | Gets or sets the file path URI. |

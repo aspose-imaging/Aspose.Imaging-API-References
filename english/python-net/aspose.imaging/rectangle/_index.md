@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging/rectangle/
 | [Rectangle(x, y, width, height)](#Rectangle_x_y_width_height_3) | Initializes a new instance of the [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure with the specified location and size. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bottom | int | r/w | Gets or sets the y-coordinate that is the sum of the [Rectangle.y](/imaging/python-net/aspose.imaging/rectangle/) and [Rectangle.height](/imaging/python-net/aspose.imaging/rectangle/) property values of this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure. |
 | empty [static] | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r | Gets a new instance of the [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure that has [Rectangle.x](/imaging/python-net/aspose.imaging/rectangle/), [Rectangle.y](/imaging/python-net/aspose.imaging/rectangle/), [Rectangle.width](/imaging/python-net/aspose.imaging/rectangle/) and [Rectangle.height](/imaging/python-net/aspose.imaging/rectangle/) values set to zero. |
 | height | int | r/w | Gets or sets the height of this [Rectangle](/imaging/python-net/aspose.imaging/rectangle/) structure. |

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odarc/
 | [OdArc(parent)](#OdArc_parent_1) | Initializes a new instance of the [OdArc](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odarc/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
 | clock_wise | bool | r/w | Gets or sets a value indicating whether [clock wise]. |
 | is_arc_to | bool | r/w | Gets or sets a value indicating whether this instance is arc to. |

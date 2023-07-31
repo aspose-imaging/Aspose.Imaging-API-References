@@ -17,7 +17,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentrecordtype
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | comment_identifier | EmfCommentRecordType.CommentIdentifierEnum | r/w | Gets or sets the comment identifier. |
 | data_size | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the size, in bytes, of the <br/>            CommentIdentifier and CommentRecordParm fields in the RecordBuffer field that <br/>            follows. It MUST NOT include the size of itself or the size of the AlignmentPadding field, if <br/>            present |
 | size | int | r/w | Gets or sets the size of the record |

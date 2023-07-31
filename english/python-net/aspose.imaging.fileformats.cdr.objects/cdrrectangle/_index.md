@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrrectangle/
 | [CdrRectangle()](#CdrRectangle__1) | Initializes a new instance of the CdrRectangle class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bounds_in_pixels | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets the bounds in pixels. |
 | clip_id | short | r/w | Gets or sets the clip identifier. |
 | corner_type | int | r/w | Gets or sets the type of the corner. |

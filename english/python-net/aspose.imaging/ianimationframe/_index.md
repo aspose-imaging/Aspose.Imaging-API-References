@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging/ianimationframe/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | disposal_method | [AnimationDisposalMethods](/imaging/python-net/aspose.imaging/animationdisposalmethods) | r | Gets the disposal method. |
 | frame_left | int | r | Gets the frame left offset. |
 | frame_time | int | r | Gets the frame duration. |

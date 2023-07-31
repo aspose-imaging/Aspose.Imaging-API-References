@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfresizepalette/
 | [EmfResizePalette(source)](#EmfResizePalette_source_1) | Initializes a new instance of the [EmfResizePalette](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfresizepalette/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | ih_pal | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the index of the palette object in the<br/>            EMF Object Table (section 3.1.1.1). |
 | size | int | r/w | Gets or sets the size of the record |
 | type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |

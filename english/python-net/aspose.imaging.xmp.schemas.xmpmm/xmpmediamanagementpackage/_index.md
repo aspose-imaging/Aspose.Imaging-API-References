@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/
 | [XmpMediaManagementPackage()](#XmpMediaManagementPackage__1) | Initializes a new instance of the [XmpMediaManagementPackage](/imaging/python-net/aspose.imaging.xmp.schemas.xmpmm/xmpmediamanagementpackage/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | namespace_uri | string | r | Gets the namespace URI. |
 | prefix | string | r | Gets the prefix. |
 | xml_namespace | string | r | Gets the XML namespace. |

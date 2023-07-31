@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew
 | [EmfCreateColorSpaceW(source)](#EmfCreateColorSpaceW_source_1) | Initializes a new instance of the [EmfCreateColorSpaceW](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatecolorspacew/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | cb_data | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the size, in bytes, of the Data field. |
 | data | byte | r/w | Gets or sets an optional array of bytes that specifies color profile data. |
 | dw_flags | int | r/w | Gets or sets a 32-bit unsigned integer that provides information about the data in this record. |

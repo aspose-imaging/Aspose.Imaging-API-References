@@ -29,7 +29,7 @@ url: /python-net/aspose.imaging.imageoptions/djvumultipageoptions/
 | [DjvuMultiPageOptions(ranges, export_area)](#DjvuMultiPageOptions_ranges_export_area_9) | Initializes a new instance of the DjvuMultiPageOptions class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | export_area | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets the export area. |
 | merge_layers | bool | r/w | Gets or sets a value indicating whether [merege layers]. |
 | mode | [MultiPageMode](/imaging/python-net/aspose.imaging.imageoptions/multipagemode) | r/w | Gets or sets the mode. |

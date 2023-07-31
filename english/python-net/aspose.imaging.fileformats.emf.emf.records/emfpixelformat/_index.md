@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpixelformat/
 | [EmfPixelFormat(source)](#EmfPixelFormat_source_1) | Initializes a new instance of the [EmfPixelFormat](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfpixelformat/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | pfd | [EmfPixelFormatDescriptor](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfpixelformatdescriptor/) | r/w | Gets or sets a PixelFormatDescriptor object (section 2.2.22) that specifies pixel format data. |
 | size | int | r/w | Gets or sets the size of the record |
 | type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |

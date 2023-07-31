@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.cmx/cmximagepage/
 | [CmxImagePage(cmx_page)](#CmxImagePage_cmx_page_1) | Initializes a new instance of the [CmxImagePage](/imaging/python-net/aspose.imaging.fileformats.cmx/cmximagepage/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether automatic adjust palette. |
 | background_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets a value for the background color. |
 | bits_per_pixel | int | r | Gets the image bits per pixel count. |

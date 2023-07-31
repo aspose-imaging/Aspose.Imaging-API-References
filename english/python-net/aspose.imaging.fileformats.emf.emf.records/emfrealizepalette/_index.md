@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfrealizepalette/
 | [EmfRealizePalette(source)](#EmfRealizePalette_source_1) | Initializes a new instance of the [EmfRealizePalette](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfrealizepalette/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | size | int | r/w | Gets or sets the size of the record |
 | type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |
 ## **Methods**

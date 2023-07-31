@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.pathresources/pathresource/
 | [PathResource()](#PathResource__1) | Initializes a new instance of the PathResource class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | block_id | short | r/w | Gets or sets the block identifier. |
 | name | string | r/w | Gets or sets the name. |
 | records | list[aspose.imaging.fileformats.core.vectorpaths.VectorPathRecord] | r/w | Gets or sets the records. |

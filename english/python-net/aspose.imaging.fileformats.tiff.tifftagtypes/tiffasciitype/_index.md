@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffasciitype/
 | [TiffASCIIType(tag_id)](#TiffASCIIType_tag_id_2) | Initializes a new instance of the TiffASCIIType class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | count | ulong | r | Gets the count of elements. |
 | data_size | ulong | r | Gets the tag value size. |
 | element_size | byte | r | Gets the element size in bytes. |

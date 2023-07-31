@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindi
 | [EmfExtCreateFontIndirectW(source)](#EmfExtCreateFontIndirectW_source_2) | Initializes a new instance of the [EmfExtCreateFontIndirectW](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfextcreatefontindirectw/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | elw | [EmfLogFont](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogfont/) | r/w | Gets or sets a LogFontExDv object (section 2.2.15), which specifies the logical font. A<br/>            LogFont object 2.2.13 MAY be present instead.[90]The process for determining the type of<br/>            object in this field is described below. |
 | ih_fonts | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the index of the logical font object<br/>            in the EMF Object Table (section 3.1.1.1). This index MUST be saved so that this object can be<br/>            reused or modified. |
 | size | int | r/w | Gets or sets the size of the record |

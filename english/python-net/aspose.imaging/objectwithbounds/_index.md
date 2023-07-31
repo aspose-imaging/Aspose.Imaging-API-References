@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging/objectwithbounds/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bounds | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r | Gets the object's bounds. |
 ## **Methods**
 | **Name** | **Description** |

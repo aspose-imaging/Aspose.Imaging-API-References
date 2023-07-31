@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfresizepalette/
 | [WmfResizePalette()](#WmfResizePalette__1) | Initializes a new instance of the WmfResizePalette class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | number_of_entries | int | r/w | Gets or sets the number of entries. |
 
 

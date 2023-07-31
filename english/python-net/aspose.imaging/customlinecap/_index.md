@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging/customlinecap/
 | [CustomLineCap(fill_path, stroke_path, base_cap, base_inset)](#CustomLineCap_fill_path_stroke_path_base_cap_base_inset_3) | Initializes a new instance of the [CustomLineCap](/imaging/python-net/aspose.imaging/customlinecap/) class from the specified existing [LineCap](/imaging/python-net/aspose.imaging/linecap/) enumeration with the specified outline, fill, and inset. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | base_cap | [LineCap](/imaging/python-net/aspose.imaging/linecap) | r/w | Gets or sets the [LineCap](/imaging/python-net/aspose.imaging/linecap/) enumeration on which this [CustomLineCap](/imaging/python-net/aspose.imaging/customlinecap/) is based. |
 | base_inset | float | r/w | Gets or sets the distance between the cap and the line. |
 | fill_path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | r/w | Gets or sets the object that defines the fill for the custom cap. |

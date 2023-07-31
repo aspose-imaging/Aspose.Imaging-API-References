@@ -23,7 +23,7 @@ url: /python-net/aspose.imaging.xmp.types.basic/xmpboolean/
 | [XmpBoolean(value)](#XmpBoolean_value_3) | Initializes a new instance of the [XmpBoolean](/imaging/python-net/aspose.imaging.xmp.types.basic/xmpboolean/) class based on boolean value. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | value | bool | r/w | Gets or sets a value indicating whether this [XmpBoolean](/imaging/python-net/aspose.imaging.xmp.types.basic/xmpboolean/) is value. |
 ## **Methods**
 | **Name** | **Description** |

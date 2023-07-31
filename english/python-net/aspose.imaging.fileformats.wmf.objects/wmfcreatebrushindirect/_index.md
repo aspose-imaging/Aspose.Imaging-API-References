@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfcreatebrushindirect/
 | [WmfCreateBrushInDirect()](#WmfCreateBrushInDirect__1) | Initializes a new instance of the [WmfCreateBrushInDirect](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfcreatebrushindirect/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | index | int | r/w | Gets or sets the index. |
 | log_brush | [EmfLogBrushEx](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/) | r/w | Gets or sets the log brush. |
 

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfnamedescape/
 | [EmfNamedEscape(source)](#EmfNamedEscape_source_1) | Initializes a new instance of the [EmfNamedEscape](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfnamedescape/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | cj_driver | int | r/w | Gets or sets A 32-bit unsigned integer that specifies the number of bytes in the<br/>            DriverName field. This value MUST be an even number. |
 | cj_in | int | r/w | Gets or sets A 32-bit unsigned integer specifying the number of bytes to pass to the printer driver. |
 | data | byte | r/w | Gets or sets The data to pass to the printer driver. There MUST be cjIn bytes available. |

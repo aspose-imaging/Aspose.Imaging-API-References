@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfeof/
 | [EmfEof(record)](#EmfEof_record_2) | Initializes a new instance of the [EmfEof](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfeof/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | palette_argb_32_entries | int | r/w | Gets or sets an optional buffer that contains palette data, which is not <br/>            required to be contiguous with the fixed portion of the EMR_EOF <br/>            record. Accordingly, fields in this buffer that are labeled <br/>            "UndefinedSpace" are optional and MUST be ignored. <br/>            The size of this field MUST be a multiple of 4 bytes |
 | size | int | r/w | Gets or sets the size of the record |
 | size_last | int | r/w | Gets or sets a 32-bit unsigned integer that MUST be the same as Size and MUST be the last <br/>            field of the record and hence the metafile. LogPaletteEntry objects, if they <br/>            exist, MUST precede this field. |

@@ -23,7 +23,7 @@ url: /python-net/aspose.imaging.xmp.types.basic/xmpinteger/
 | [XmpInteger(value)](#XmpInteger_value_3) | Initializes a new instance of the [XmpInteger](/imaging/python-net/aspose.imaging.xmp.types.basic/xmpinteger/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | value | long | r/w | Gets or sets the value. |
 ## **Methods**
 | **Name** | **Description** |

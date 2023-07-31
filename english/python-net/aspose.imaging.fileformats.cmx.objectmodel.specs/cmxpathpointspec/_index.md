@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxpathpointsp
 | [CmxPathPointSpec()](#CmxPathPointSpec__1) | Initializes a new instance of the CmxPathPointSpec class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bezier_order | int | r/w | Gets or sets the bezier order. |
 | is_closed_path | bool | r/w | Gets or sets a value indicating whether this point closes its path. |
 | jump_type | [PathJumpTypes](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/pathjumptypes/) | r/w | Gets or sets the type of the jump. |

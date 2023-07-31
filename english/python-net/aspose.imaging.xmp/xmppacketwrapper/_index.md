@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.xmp/xmppacketwrapper/
 | [XmpPacketWrapper(header, trailer, xmp_meta)](#XmpPacketWrapper_header_trailer_xmp_meta_2) | Initializes a new instance of the [XmpPacketWrapper](/imaging/python-net/aspose.imaging.xmp/xmppacketwrapper/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | header_pi | [XmpHeaderPi](/imaging/python-net/aspose.imaging.xmp/xmpheaderpi) | r | Gets the header processing instruction. |
 | meta | [XmpMeta](/imaging/python-net/aspose.imaging.xmp/xmpmeta) | r/w | Gets the XMP meta. Optional. |
 | packages | [XmpPackage[]](/imaging/python-net/aspose.imaging.xmp/xmppackage) | r | Gets array of [XmpPackage](/imaging/python-net/aspose.imaging.xmp/xmppackage/) inside XMP. |

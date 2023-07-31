@@ -17,7 +17,7 @@ url: /python-net/aspose.imaging.fileformats.bmp/bitmapv5header/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | BITMAP_CORE_HEADER_SIZE [static] | int | r | The BITMAPCOREHEADER aka OS21XBITMAPHEADER header size |
 | BITMAP_INFO_HEADER_SIZE [static] | int | r | The bitmap information header size v3 |
 | BITMAP_INFO_HEADER_SIZE_V2 [static] | int | r | The bitmap information header size v2 |

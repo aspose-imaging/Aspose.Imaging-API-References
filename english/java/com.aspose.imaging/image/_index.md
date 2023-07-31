@@ -59,7 +59,7 @@ The image is the base class for all type of images.
 | [getBackgroundColor()](#getBackgroundColor--) | Gets or sets a value for the background color. |
 | [setBackgroundColor(boolean value)](#setBackgroundColor-boolean-) | Gets or sets a value indicating whether image has background color. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | Gets or sets a value for the background color. |
-| [getProgressEventHandler()](#getProgressEventHandler--) | Gets the progress event handler information. |
+| [getIProgressEventHandler()](#getIProgressEventHandler--) | Gets the progress event handler information. |
 | [getProgressEventHandlerInfo()](#getProgressEventHandlerInfo--) | Gets the progress event handler information. |
 | [canSave(ImageOptionsBase options)](#canSave-com.aspose.imaging.ImageOptionsBase-) | Determines whether image can be saved to the specified file format represented by the passed save options. |
 | [resize(int newWidth, int newHeight)](#resize-int-int-) | Resizes the image. |
@@ -951,9 +951,9 @@ Gets or sets a value for the background color.
 | --- | --- | --- |
 | value | [Color](../../com.aspose.imaging/color) |  |
 
-### getProgressEventHandler() {#getProgressEventHandler--}
+### getIProgressEventHandler() {#getIProgressEventHandler--}
 ```
-public final ProgressEventHandler getProgressEventHandler()
+public final ProgressEventHandler getIProgressEventHandler()
 ```
 
 

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimage
 | [EmfPlusDrawImagePoints(source)](#EmfPlusDrawImagePoints_source_1) | Initializes a new instance of the [EmfPlusDrawImagePoints](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawimagepoints/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | applying_an_effect | bool | r/w | Gets or sets a value indicating whether [applying an effect].<br/>            This bit indicates that the rendering of the image includes applying an effect.<br/>            If set, an object of the Effect class MUST have been specified in an earlier<br/>            EmfPlusSerializableObject record (section 2.3.5.2). |
 | compressed | bool | r/w | Gets or sets a value indicating whether the PointData is compressed.<br/>            This bit indicates whether the PointData field specifies compressed data.<br/>            If set, PointData specifies absolute locations in the coordinate space with 16-bit integer<br/>            coordinates. If clear, PointData specifies absolute locations in the coordinate space with<br/>            32-bit floating-point coordinates.<br/>            Note If the P flag (below) is set, this flag is undefined and MUST be ignored. |
 | data_size | int | r/w | Gets or sets a 32-bit unsigned integer that MUST define the 32-bit–aligned number of<br/>            bytes of data in the RecordData field that follows. This number does not include the 12-byte record header. |

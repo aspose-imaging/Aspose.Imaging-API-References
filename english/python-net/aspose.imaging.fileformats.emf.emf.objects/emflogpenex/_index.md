@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emflogpenex/
 | [EmfLogPenEx()](#EmfLogPenEx__1) | Initializes a new instance of the EmfLogPenEx class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | argb_32_color_ref | int | r/w | Gets or sets a WMF ColorRef object ([MS-WMF] section 2.2.2.8). The interpretation of this<br/>            field depends on the BrushStyle value, as shown in the table later in this section. |
 | brush_dib_pattern | [WmfDeviceIndependentBitmap](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/) | r/w | Gets or sets the brush dib pattern. |
 | brush_hatch | [EmfHatchStyle](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfhatchstyle/) | r/w | Gets or sets the brush hatch pattern. The definition of this field depends on the <br/>            BrushStyle value, as shown in the table later in this section. |

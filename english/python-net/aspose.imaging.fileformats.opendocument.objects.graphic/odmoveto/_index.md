@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odmovet
 | [OdMoveTo(parent)](#OdMoveTo_parent_1) | Initializes a new instance of the [OdMoveTo](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odmoveto/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
 | coordinates | [PointF](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the coordinates. |
 | items | list[OdObject] | r | Gets the items. |

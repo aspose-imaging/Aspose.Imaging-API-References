@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/
 | [GifUnknownExtensionBlock(extension_label, data)](#GifUnknownExtensionBlock_extension_label_data_2) | Initializes a new instance of the [GifUnknownExtensionBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifunknownextensionblock/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | EXTENSION_INTRODUCER [static] | byte | r | Extension introducer. |
 | extension_label | byte | r/w | Gets or sets the block's extension label. |
 | is_changed | bool | r/w | Gets or sets a value indicating whether block has changed and requires save. |

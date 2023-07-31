@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.xmp.types.basic/xmpdate/
 | [XmpDate(date_time)](#XmpDate_date_time_2) | Initializes a new instance of the [XmpDate](/imaging/python-net/aspose.imaging.xmp.types.basic/xmpdate/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | ISO_8601_FORMAT [static] | string | r | The ISO 8601 (roundtrip) format string. |
 | format | string | r | Gets the format string for current value. |
 | value | datetime | r/w | Gets or sets the date value. |

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.imageoptions/dicomoptions/
 | [DicomOptions()](#DicomOptions__1) | Initializes a new instance of the [DicomOptions](/imaging/python-net/aspose.imaging.imageoptions/dicomoptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | color_type | [ColorType](/imaging/python-net/aspose.imaging.fileformats.dicom/colortype/) | r/w | Gets or sets the type of the color. |
 | compression | [Compression](/imaging/python-net/aspose.imaging.fileformats.dicom/compression/) | r/w | Gets or sets the compression. |
@@ -63,4 +63,28 @@ Clones this instance.
 | :- | :- |
 | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Returns shallow copy of this instance |
 
+
+## **Examples**
+### The following example shows export to DICOM file format (single and multipage). {#example_17}
+``` python
+
+from aspose.imaging import Image
+from aspose.imaging.imageoptions import DicomOptions
+
+fileName = "sample.jpg"
+inputFileNameSingle = fileName
+inputFileNameMultipage = "multipage.tif"
+outputFileNameSingleDcm = "output.dcm"
+outputFileNameMultipageDcm = "outputMultipage.dcm"
+
+# The next code sample converts JPEG image to DICOM file format
+with Image.load(inputFileNameSingle) as image:
+	image.save(outputFileNameSingleDcm, DicomOptions())
+
+# DICOM format supports multipage images. You can convert GIF or TIFF images to DICOM in the same way as JPEG images
+with Image.load(inputFileNameMultipage) as image_multiple:
+	image_multiple.save(outputFileNameMultipageDcm, DicomOptions())
+
+
+```
 

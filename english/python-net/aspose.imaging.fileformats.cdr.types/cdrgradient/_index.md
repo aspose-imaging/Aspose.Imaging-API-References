@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.types/cdrgradient/
 | [CdrGradient()](#CdrGradient__1) | Initializes a new instance of the [CdrGradient](/imaging/python-net/aspose.imaging.fileformats.cdr.types/cdrgradient/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | angle | double | r/w | Gets or sets the angle. |
 | center_x_offset | int | r/w | Gets or sets the center x offset. |
 | center_y_offset | int | r/w | Gets or sets the center y offset. |

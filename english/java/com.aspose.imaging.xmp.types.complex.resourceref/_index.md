@@ -3,7 +3,7 @@ title: com.aspose.imaging.xmp.types.complex.resourceref
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains class that is a multiple part reference to a resource.
 type: docs
-weight: 122
+weight: 118
 url: /java/com.aspose.imaging.xmp.types.complex.resourceref/
 ---
 

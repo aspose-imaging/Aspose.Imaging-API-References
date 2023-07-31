@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/
 | [EmfSetIcmProfileA(source)](#EmfSetIcmProfileA_source_1) | Initializes a new instance of the [EmfSetIcmProfileA](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfseticmprofilea/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | cb_data | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the size of the color profile data, if it<br/>            is contained in the Data field. |
 | cb_name | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the number of bytes in the ASCII<br/>            name of the desired color profile. |
 | data | byte | r/w | Gets or sets an array of size (cbName + cbData) in bytes, which specifies the ASCII<br/>            name and raw data of the desired color profile. |

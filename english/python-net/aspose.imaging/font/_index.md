@@ -24,7 +24,7 @@ url: /python-net/aspose.imaging/font/
 | [Font(prototype, new_style)](#Font_prototype_new_style_6) | Initializes a new instance of the Font class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bold | bool | r | Gets a value indicating whether this [Font](/imaging/python-net/aspose.imaging/font/) is bold. |
 | character_set | [CharacterSet](/imaging/python-net/aspose.imaging/characterset) | r | Gets a byte value that specifies the character set that this [Font](/imaging/python-net/aspose.imaging/font/) uses. |
 | italic | bool | r | Gets a value indicating whether this [Font](/imaging/python-net/aspose.imaging/font/) is italic. |

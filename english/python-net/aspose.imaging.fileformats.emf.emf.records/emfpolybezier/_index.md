@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfpolybezier/
 | [EmfPolyBezier(source)](#EmfPolyBezier_source_2) | Initializes a new instance of the [EmfPolyBezier](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfpolybezier/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | a_points | [Point[]](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets a Count length array of WMF PointL objects ([MS-WMF] section 2.2.2.15) <br/>            that specifies the endpoints and control points of the Bezier curves, in logical units. |
 | bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets a 128-bit WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies <br/>            the bounding rectangle in device units. |
 | size | int | r/w | Gets or sets the size of the record |

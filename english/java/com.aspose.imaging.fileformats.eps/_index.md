@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.eps
 second_title: Aspose.Imaging for Java API Reference
 description: The namespace contains EPS format type
 type: docs
-weight: 56
+weight: 53
 url: /java/com.aspose.imaging.fileformats.eps/
 ---
 

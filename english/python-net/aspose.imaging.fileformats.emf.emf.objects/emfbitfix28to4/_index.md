@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/
 | [EmfBitFix28To4(dword_data)](#EmfBitFix28To4_dword_data_1) | Initializes a new instance of the [EmfBitFix28To4](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfbitfix28to4/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | frac_value | int | r/w | Gets or sets the fraction value |
 | int_val | int | r/w | Gets or sets the integer value value |
 | value | float | r | Gets the resulting float value; |

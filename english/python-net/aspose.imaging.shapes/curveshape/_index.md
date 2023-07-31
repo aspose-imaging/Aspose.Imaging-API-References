@@ -25,7 +25,7 @@ url: /python-net/aspose.imaging.shapes/curveshape/
 | [CurveShape(points, tension, is_closed)](#CurveShape_points_tension_is_closed_5) | Initializes a new instance of the [CurveShape](/imaging/python-net/aspose.imaging.shapes/curveshape/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bounds | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r | Gets the object's bounds. |
 | center | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the shape's center. |
 | end_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the ending shape point. |

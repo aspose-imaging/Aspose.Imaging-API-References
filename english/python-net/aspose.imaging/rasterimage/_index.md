@@ -17,7 +17,7 @@ url: /python-net/aspose.imaging/rasterimage/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether automatic adjust palette. |
 | background_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets a value for the background color. |
 | bits_per_pixel | int | r | Gets the image bits per pixel count. |
@@ -1254,6 +1254,11 @@ Loads pixels.
 | [Color[]](/imaging/python-net/aspose.imaging/color) | The loaded pixels array. |
 
 
+
+**See also:**
+
+**[Example # 1](#example_7)**: This example shows how to load a pixels information in an array of Color, man...
+
 ### Method: load_raw_data(rectangle, dest_image_bounds, raw_data_settings, raw_data_loader) {#load_raw_data_rectangle_dest_image_bounds_raw_data_settings_raw_data_loader_55}
 
 
@@ -1931,6 +1936,11 @@ Saves the pixels.
 | rectangle | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | The rectangle to save pixels to. |
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixels array. |
 
+
+**See also:**
+
+**[Example # 1](#example_7)**: This example shows how to load a pixels information in an array of Color, man...
+
 ### Method: save_raw_data(data, data_offset, rectangle, raw_data_settings) {#save_raw_data_data_data_offset_rectangle_raw_data_settings_95}
 
 
@@ -2143,4 +2153,50 @@ Writes the whole scan line to the specified scan line index.
 | :- | :- | :- |
 | scan_line_index | int | Zero based index of the scan line. |
 | pixels | [Color[]](/imaging/python-net/aspose.imaging/color) | The pixel colors array to write. |
+
+## **Examples**
+### This example shows how to load a pixels information in an array of Color, manipulates the array and set it back to the image. To perform these operations, this example creates a new Image file (in GIF format) using MemoryStream object. {#example_7}
+``` python
+
+from aspose.pycore import as_of
+from aspose.imaging import Image, RasterImage, Color
+from aspose.imaging.externsions import StreamExtensions as strm_ext
+from aspose.imaging.imageoptions import GifOptions
+from aspose.imaging.sources import StreamSource
+
+# Create an instance of MemoryStream
+with strm_ext.create_memory_stream() as stream:
+	#Create an instance of GifOptions and set its various properties including the Source property
+	with GifOptions() as gifOptions:
+		gifOptions.source = StreamSource(stream)
+
+		# Create an instance of Image
+		with as_of(Image.create(gifOptions, 500, 500), RasterImage) as image:
+			# Get the pixels of image by specifying the area as image boundary
+			pixels = image.load_pixels(image.bounds)
+
+			yellow_color = Color.yellow
+			blue_color = Color.blue
+			#Loop over the Array and sets color of alternative indexed pixel
+			for index in range(pixel.length):
+				if index % 2 == 0:
+					#Set the indexed pixel color to yellow
+					pixels[index] = yellow_color
+				else:
+					#Set the indexed pixel color to blue
+					pixels[index] = blue_color
+
+			#Apply the pixel changes to the image
+			image.save_pixels(image.bounds, pixels)
+
+			# save all changes.
+			image.save()
+
+	# Write MemoryStream to File
+	stream.seek(0)
+	with open(r"C:\temp\output.gif", "wb") as fileStream:
+		fileStream.write(stream.read())
+}
+
+```
 

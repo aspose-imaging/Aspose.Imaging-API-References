@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpdm/projectlink/
 | [ProjectLink()](#ProjectLink__1) | Initializes a new instance of the ProjectLink class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | path | string | r/w | Gets or sets full path to the project. |
 | type | [ProjectType](/imaging/python-net/aspose.imaging.xmp.schemas.xmpdm/projecttype) | r/w | Gets or sets file type. |
 ## **Methods**

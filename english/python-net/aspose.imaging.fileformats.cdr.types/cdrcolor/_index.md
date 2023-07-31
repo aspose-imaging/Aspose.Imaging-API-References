@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.types/cdrcolor/
 | [CdrColor()](#CdrColor__1) | Initializes a new instance of the CdrColor class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | color_model | [CdrColorModel](/imaging/python-net/aspose.imaging.fileformats.cdr.const/cdrcolormodel/) | r/w | Gets or sets the color model. |
 | color_value | int | r/w | Gets or sets the color value. |
 | opacity | byte | r/w | Gets or sets the opacity. |

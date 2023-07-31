@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.opendocument.objects.pen
 second_title: Aspose.Imaging for Java API Reference
 description: The Open document objects
 type: docs
-weight: 69
+weight: 66
 url: /java/com.aspose.imaging.fileformats.opendocument.objects.pen/
 ---
 

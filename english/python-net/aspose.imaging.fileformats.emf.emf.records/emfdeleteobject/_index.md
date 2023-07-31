@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfdeleteobject/
 | [EmfDeleteObject(record)](#EmfDeleteObject_record_2) | Initializes a new instance of the [EmfDeleteObject](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfdeleteobject/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | object_handle | int | r/w | Gets or sets 32-bit unsigned integer that specifies either the index of a graphics object <br/>            in the EMF Object Table or the index of a stock object from the StockObject enumeration. |
 | size | int | r/w | Gets or sets the size of the record |
 | type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |

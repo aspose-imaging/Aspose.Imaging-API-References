@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfrestoredc/
 | [WmfRestoreDc()](#WmfRestoreDc__1) | Initializes a new instance of the WmfRestoreDc class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | n_saved_dc | short | r/w | Gets or sets the n saved dc. |
 
 

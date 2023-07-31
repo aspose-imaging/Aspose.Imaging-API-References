@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging/irasterimagerawdataloader/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | is_raw_data_available | bool | r | Gets a value indicating whether raw data loading is supported. |
 | raw_data_settings | [RawDataSettings](/imaging/python-net/aspose.imaging/rawdatasettings) | r | Gets the current raw data settings. Note when using these settings the data loads without conversion. |
 ## **Methods**

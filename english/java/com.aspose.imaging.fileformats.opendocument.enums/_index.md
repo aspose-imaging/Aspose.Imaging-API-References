@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.opendocument.enums
 second_title: Aspose.Imaging for Java API Reference
 description: The Enumerations of open document
 type: docs
-weight: 64
+weight: 61
 url: /java/com.aspose.imaging.fileformats.opendocument.enums/
 ---
 

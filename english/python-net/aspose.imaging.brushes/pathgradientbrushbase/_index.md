@@ -17,7 +17,7 @@ url: /python-net/aspose.imaging.brushes/pathgradientbrushbase/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | center_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the center point of the path gradient. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | focus_scales | [PointF](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the focus point for the gradient falloff. |

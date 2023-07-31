@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.masking.options/manualmaskingargs/
 | [ManualMaskingArgs()](#ManualMaskingArgs__1) | Initializes a new instance of the ManualMaskingArgs class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | mask | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | r/w | Gets or sets the set of graphic shapes that form mask. |
 
 

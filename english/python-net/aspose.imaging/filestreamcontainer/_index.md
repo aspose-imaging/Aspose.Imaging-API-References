@@ -17,7 +17,7 @@ url: /python-net/aspose.imaging/filestreamcontainer/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | READ_WRITE_BYTES_COUNT [static] | int | r | Specifies read and write bytes count when reading sequentially. |
 | can_read | bool | r | Gets a value indicating whether stream supports reading. |
 | can_seek | bool | r | Gets a value indicating whether stream supports seeking. |

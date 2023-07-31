@@ -89,6 +89,10 @@ Represents a raster image supporting raster graphics operations.
 | [binarizeOtsu()](#binarizeOtsu--) | Binarization of an image with Otsu thresholding |
 | [binarizeBradley(double brightnessDifference)](#binarizeBradley-double-) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
+| [blend(Point origin, RasterImage overlay, Rectangle overlayArea)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-) | Blends this image instance with the `overlay`. |
+| [blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte overlayAlpha)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-byte-) | Blends this image instance with the `overlay`. |
+| [blend(Point origin, RasterImage overlay)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-) | Blends this image instance with the `overlay` with alpha == 255. |
+| [blend(Point origin, RasterImage overlay, byte overlayAlpha)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-byte-) | Blends this image instance with the `overlay`. |
 | [grayscale()](#grayscale--) | Transformation of an image to its grayscale representation |
 | [adjustBrightness(int brightness)](#adjustBrightness-int-) | Adjust of a brightness for image. |
 | [adjustContrast(float contrast)](#adjustContrast-float-) | Image contrasting |
@@ -1955,6 +1959,66 @@ try {
     image.dispose();
 }
 ```
+
+### blend(Point origin, RasterImage overlay, Rectangle overlayArea) {#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-}
+```
+public final void blend(Point origin, RasterImage overlay, Rectangle overlayArea)
+```
+
+
+Blends this image instance with the `overlay`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| origin | [Point](../../com.aspose.imaging/point) | The background image blending origin. |
+| overlay | [RasterImage](../../com.aspose.imaging/rasterimage) | The overlay. |
+| overlayArea | [Rectangle](../../com.aspose.imaging/rectangle) | The overlay area. |
+
+### blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte overlayAlpha) {#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-byte-}
+```
+public void blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte overlayAlpha)
+```
+
+
+Blends this image instance with the `overlay`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| origin | [Point](../../com.aspose.imaging/point) | The background image blending origin. |
+| overlay | [RasterImage](../../com.aspose.imaging/rasterimage) | The overlay. |
+| overlayArea | [Rectangle](../../com.aspose.imaging/rectangle) | The overlay area. |
+| overlayAlpha | byte | The overlay alpha. |
+
+### blend(Point origin, RasterImage overlay) {#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-}
+```
+public final void blend(Point origin, RasterImage overlay)
+```
+
+
+Blends this image instance with the `overlay` with alpha == 255.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| origin | [Point](../../com.aspose.imaging/point) | The background image blending origin. |
+| overlay | [RasterImage](../../com.aspose.imaging/rasterimage) | The overlay. |
+
+### blend(Point origin, RasterImage overlay, byte overlayAlpha) {#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-byte-}
+```
+public final void blend(Point origin, RasterImage overlay, byte overlayAlpha)
+```
+
+
+Blends this image instance with the `overlay`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| origin | [Point](../../com.aspose.imaging/point) | The background image blending origin. |
+| overlay | [RasterImage](../../com.aspose.imaging/rasterimage) | The overlay. |
+| overlayAlpha | byte | The overlay alpha. |
 
 ### grayscale() {#grayscale--}
 ```

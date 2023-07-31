@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxoutline/
 | [CmxOutline()](#CmxOutline__1) | Initializes a new instance of the CmxOutline class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | angle | double | r/w | Gets or sets the angle. |
 | caps_type | [CapsTypes](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.enums/capstypes/) | r/w | Gets or sets the type of the line caps. |
 | color | [CmxColor](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel.styles/cmxcolor) | r/w | Gets or sets the outline color. |

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsettextalign/
 | [WmfSetTextAlign()](#WmfSetTextAlign__1) | Initializes a new instance of the WmfSetTextAlign class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | reserved | int | r/w | Gets or sets the reserved. |
 | text_align | [WmfTextAlignmentModeFlags](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmftextalignmentmodeflags/) | r/w | Gets or sets the text align. |
 

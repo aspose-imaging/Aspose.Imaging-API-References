@@ -17,7 +17,7 @@ url: /python-net/aspose.imaging/iimagecreatordescriptor/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | supported_format | [FileFormat](/imaging/python-net/aspose.imaging/fileformat) | r | Gets the supported format. |
 ## **Methods**
 | **Name** | **Description** |

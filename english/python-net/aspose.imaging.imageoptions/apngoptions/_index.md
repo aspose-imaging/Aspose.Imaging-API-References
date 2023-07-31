@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.imageoptions/apngoptions/
 | [ApngOptions()](#ApngOptions__1) | Initializes a new instance of the [ApngOptions](/imaging/python-net/aspose.imaging.imageoptions/apngoptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | DEFAULT_COMPRESSION_LEVEL [static] | int | r | The default compression level. |
 | bit_depth | byte | r/w | The bit depth. |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |

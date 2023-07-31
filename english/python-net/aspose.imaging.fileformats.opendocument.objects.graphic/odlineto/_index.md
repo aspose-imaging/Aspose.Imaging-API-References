@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odlinet
 | [OdLineTo(parent)](#OdLineTo_parent_1) | Initializes a new instance of the [OdLineTo](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
 | coordinates | [PointF](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the coordinates. |
 | horizontal | bool | r/w | Gets or sets a value indicating whether this [OdLineTo](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odlineto/) is vertical. |

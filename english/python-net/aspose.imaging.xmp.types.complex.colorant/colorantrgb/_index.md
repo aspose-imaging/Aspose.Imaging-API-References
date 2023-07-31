@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.xmp.types.complex.colorant/colorantrgb/
 | [ColorantRgb(red, green, blue)](#ColorantRgb_red_green_blue_2) | Initializes a new instance of the [ColorantRgb](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colorantrgb/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | blue | byte | r/w | Gets or sets the blue component value. |
 | color_type | [ColorType](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colortype) | r/w | Gets or sets the type of the color. |
 | green | byte | r/w | Gets or sets the green component value. |

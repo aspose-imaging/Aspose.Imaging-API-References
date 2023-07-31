@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusimageeffec
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | BLUR_EFFECT_GUID [static] | string | r | Specifies the blur effect. |
 | BRIGHTNESS_CONTRAST_EFFECT_GUID [static] | string | r | Specifies the brightness contrast effect. |
 | COLOR_BALANCE_EFFECT_GUID [static] | string | r | Specifies the color balance effect. |

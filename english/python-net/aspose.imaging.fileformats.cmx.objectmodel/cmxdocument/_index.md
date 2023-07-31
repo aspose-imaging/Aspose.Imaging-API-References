@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxdocument/
 | [CmxDocument()](#CmxDocument__1) | Initializes a new instance of the [CmxDocument](/imaging/python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxdocument/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | pages | list[CmxPage] | r | Gets the pages of current document. |
 
 

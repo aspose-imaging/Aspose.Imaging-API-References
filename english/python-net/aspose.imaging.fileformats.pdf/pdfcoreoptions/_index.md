@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.fileformats.pdf/pdfcoreoptions/
 | [PdfCoreOptions()](#PdfCoreOptions__1) | Initializes a new instance of the PdfCoreOptions class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bookmarks_outline_level | int | r/w | Specifies at which level in the document outline to display bookmark objects.<br/>            0 - not displayed.<br/>            1 at first level and so on.<br/>            Default is 0. |
 | compression | [PdfImageCompressionOptions](/imaging/python-net/aspose.imaging.imageoptions/pdfimagecompressionoptions/) | r/w | Gets or sets the compression. |
 | expanded_outline_levels | int | r/w | Specifies how many levels in the document outline to show expanded when the PDF file is viewed.<br/>            0 - the document outline is not expanded.<br/>            1 - first level items in the document are expanded and so on.<br/>            Default is 0. |

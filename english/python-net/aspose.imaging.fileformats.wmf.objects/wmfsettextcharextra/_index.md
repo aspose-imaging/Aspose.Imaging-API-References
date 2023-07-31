@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsettextcharextra/
 | [WmfSetTextCharExtra()](#WmfSetTextCharExtra__1) | Initializes a new instance of the WmfSetTextCharExtra class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | char_extra | int | r/w | Gets or sets the character extra. |
 
 

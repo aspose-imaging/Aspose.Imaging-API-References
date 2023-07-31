@@ -28,7 +28,7 @@ url: /python-net/aspose.imaging.brushes/texturebrush/
 | [TextureBrush(image, wrap_mode, destination_rectangle)](#TextureBrush_image_wrap_mode_destination_rectangle_8) | Initializes a new instance of the [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) class that uses the specified image, wrap mode, and bounding rectangle. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | image | [Image](/imaging/python-net/aspose.imaging/image) | r | Gets the [Image](/imaging/python-net/aspose.imaging/image/) object associated with this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/) object. |
 | image_attributes | [ImageAttributes](/imaging/python-net/aspose.imaging/imageattributes) | r | Gets the [TextureBrush.image_attributes](/imaging/python-net/aspose.imaging.brushes/texturebrush/) associated with this [TextureBrush](/imaging/python-net/aspose.imaging.brushes/texturebrush/). |

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.imagefilters.filteroptions/medianfilteroptions/
 | [MedianFilterOptions(size)](#MedianFilterOptions_size_1) | Initializes a new instance of the [MedianFilterOptions](/imaging/python-net/aspose.imaging.imagefilters.filteroptions/medianfilteroptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | size | int | r/w | Gets or sets the size. |
 
 

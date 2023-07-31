@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbitmap/
 | [EmfPlusBitmap()](#EmfPlusBitmap__1) | Initializes a new instance of the EmfPlusBitmap class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bitmap_data | [EmfPlusBaseBitmapData](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusbasebitmapdata) | r/w | Gets or sets bitmap data<br/>            BitmapData (variable): Variable-length data that defines the bitmap data object specified in the Type field. The<br/>            content and format of the data can be different for every bitmap type. |
 | height | int | r/w | Gets or sets bitmap height<br/>            Height (4 bytes): A 32-bit signed integer that specifies the height in pixels of the area occupied by the bitmap.<br/>            If the image is compressed, according to the Type field, this value is undefined and MUST be ignored. |
 | pixel_format | [EmfPlusPixelFormat](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspixelformat/) | r/w | Gets or sets pixel format<br/>            PixelFormat (4 bytes): A 32-bit unsigned integer that specifies the format of the pixels that make up the bitmap<br/>            image. The supported pixel formats are specified in the [EmfPlusPixelFormat](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluspixelformat/) enumeration (section<br/>            2.1.1.25).<br/>            If the image is compressed, according to the Type field, this value is undefined and MUST be ignored. |

@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.wmf
 second_title: Aspose.Imaging for Java API Reference
 description: The package handles WMF file format processing.
 type: docs
-weight: 84
+weight: 81
 url: /java/com.aspose.imaging.fileformats.wmf/
 ---
 

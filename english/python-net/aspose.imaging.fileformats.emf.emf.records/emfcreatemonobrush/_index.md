@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatemonobrush/
 | [EmfCreateMonoBrush(source)](#EmfCreateMonoBrush_source_1) | Initializes a new instance of the [EmfCreateMonoBrush](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatemonobrush/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bitmap_buffer | [WmfDeviceIndependentBitmap](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/) | r/w | Gets or sets a buffer containing a packed DIB in the form of a WMF<br/>            DeviceIndependentBitmap object ([MS-WMF] section 2.2.2.9). It is not required to be<br/>            contiguous with the fixed portion of the EMR_CREATEDIBPATTERNBRUSHPT record. |
 | ih_brush | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the index of the monochrome<br/>            pattern brush object in the EMF Object Table (section 3.1.1.1). This index MUST be saved so<br/>            that this object can be reused or modified. |
 | size | int | r/w | Gets or sets the size of the record |

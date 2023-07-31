@@ -23,7 +23,7 @@ url: /python-net/aspose.imaging/stringformat/
 | [StringFormat(options)](#StringFormat_options_3) | Initializes a new instance of the StringFormat class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | alignment | [StringAlignment](/imaging/python-net/aspose.imaging/stringalignment) | r/w | Gets or sets text alignment information on the vertical plane. |
 | custom_char_ident | [PointF](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets the custom character ident. |
 | digit_substitution_language | int | r/w | Gets or sets the language that is used when local digits are substituted for western digits. |

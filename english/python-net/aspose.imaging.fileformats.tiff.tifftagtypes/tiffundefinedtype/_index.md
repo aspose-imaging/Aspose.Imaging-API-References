@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffundefinedtype/
 | [TiffUndefinedType(tag_id)](#TiffUndefinedType_tag_id_2) | Initializes a new instance of the TiffUndefinedType class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | count | ulong | r | Gets the count of elements. |
 | data | byte | r/w | Gets or sets the data. |
 | data_size | ulong | r | Gets the tag value size. |

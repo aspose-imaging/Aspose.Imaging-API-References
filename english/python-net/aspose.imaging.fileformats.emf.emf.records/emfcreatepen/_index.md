@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatepen/
 | [EmfCreatePen(source)](#EmfCreatePen_source_2) | Initializes a new instance of the [EmfCreatePen](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatepen/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | ih_pen | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the index of the logical pen object in<br/>            the EMF Object Table (section 3.1.1.1). This index MUST be saved so that this object can be<br/>            reused or modified. |
 | log_pen | [EmfLogPen](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogpen/) | r/w | Gets or sets a LogPen object (section 2.2.19) that specifies the style, width, and color<br/>            of the logical pen. |
 | size | int | r/w | Gets or sets the size of the record |

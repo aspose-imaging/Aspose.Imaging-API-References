@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging/streamcontainer/
 | [StreamContainer(stream, dispose_stream)](#StreamContainer_stream_dispose_stream_2) | Initializes a new instance of the [StreamContainer](/imaging/python-net/aspose.imaging/streamcontainer/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | READ_WRITE_BYTES_COUNT [static] | int | r | Specifies read and write bytes count when reading sequentially. |
 | can_read | bool | r | Gets a value indicating whether stream supports reading. |
 | can_seek | bool | r | Gets a value indicating whether stream supports seeking. |

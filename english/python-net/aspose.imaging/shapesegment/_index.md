@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging/shapesegment/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | end_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the ending point. |
 | start_point | [PointF](/imaging/python-net/aspose.imaging/pointf) | r | Gets the starting point. |
 

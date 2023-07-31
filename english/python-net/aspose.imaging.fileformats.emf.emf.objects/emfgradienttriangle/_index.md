@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfgradienttriangle/
 | [EmfGradientTriangle()](#EmfGradientTriangle__1) | Initializes a new instance of the EmfGradientTriangle class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | vertex1 | int | r/w | Gets or sets an index into an array of TriVertex objects that specifies a vertex of a <br/>            triangle. The index MUST be smaller than the size of the array, as defined by the nVer field of <br/>            the EMR_GRADIENTFILL record. |
 | vertex2 | int | r/w | Gets or sets an index into an array of TriVertex objects that specifies a vertex of a <br/>            triangle. The index MUST be smaller than the size of the array, as defined by the nVer field of <br/>            the EMR_GRADIENTFILL record. |
 | vertex3 | int | r/w | Gets or sets an index into an array of TriVertex objects that specifies a vertex of a <br/>            triangle. The index MUST be smaller than the size of the array, as defined by the nVer field of <br/>            the EMR_GRADIENTFILL record. |

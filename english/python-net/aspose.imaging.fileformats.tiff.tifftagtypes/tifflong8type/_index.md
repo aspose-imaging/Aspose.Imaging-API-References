@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tifflong8type/
 | [TiffLong8Type(tag_id)](#TiffLong8Type_tag_id_2) | Initializes a new instance of the TiffLong8Type class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | count | ulong | r | Gets the count of elements. |
 | data_size | ulong | r | Gets the tag value size. |
 | element_size | byte | r | Gets size of element. |

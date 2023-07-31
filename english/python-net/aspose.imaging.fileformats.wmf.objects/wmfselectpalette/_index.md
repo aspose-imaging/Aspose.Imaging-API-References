@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfselectpalette/
 | [WmfSelectPalette()](#WmfSelectPalette__1) | Initializes a new instance of the WmfSelectPalette class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | object_index | int | r/w | Gets or sets the index of the object. |
 
 

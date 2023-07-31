@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscolormatr
 | [EmfPlusColorMatrixEffect()](#EmfPlusColorMatrixEffect__1) | Initializes a new instance of the EmfPlusColorMatrixEffect class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | matrix | int[] | r/w | Gets or sets the matrix. |
 | matrix_n0 | int | r/w | Gets or sets the Matrix[N][0] of the 5x5 color matrix. This row is used for transforms. |
 | matrix_n1 | int | r/w | Gets or sets the Matrix[N][1] of the 5x5 color matrix. This row is used for transforms. |

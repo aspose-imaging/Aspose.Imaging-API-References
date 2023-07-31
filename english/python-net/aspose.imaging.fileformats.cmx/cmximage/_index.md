@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.cmx/cmximage/
 | [CmxImage(stream_container, load_options)](#CmxImage_stream_container_load_options_1) | Initializes a new instance of the [CmxImage](/imaging/python-net/aspose.imaging.fileformats.cmx/cmximage/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether automatic adjust palette. |
 | background_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets a value for the background color. |
 | bits_per_pixel | int | r | Gets the image bits per pixel count. |

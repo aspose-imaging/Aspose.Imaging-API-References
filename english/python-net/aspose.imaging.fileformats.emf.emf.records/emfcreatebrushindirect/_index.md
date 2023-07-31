@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatebrushindire
 | [EmfCreateBrushIndirect(source)](#EmfCreateBrushIndirect_source_2) | Initializes a new instance of the [EmfCreateBrushIndirect](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfcreatebrushindirect/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | ih_brush | int | r/w | Gets or sets A 32-bit unsigned integer that specifies the index of the logical brush object<br/>            in the EMF Object Table (section 3.1.1.1). This index MUST be saved so that this object can be<br/>            reused or modified. |
 | log_brush | [EmfLogBrushEx](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogbrushex/) | r/w | Gets or sets A LogBrushEx object (section 2.2.12) that specifies the style, color, and<br/>            pattern of the logical brush. The BrushStyle field in this object MUST be BS_SOLID,<br/>            BS_HATCHED, or BS_NULL. |
 | size | int | r/w | Gets or sets the size of the record |

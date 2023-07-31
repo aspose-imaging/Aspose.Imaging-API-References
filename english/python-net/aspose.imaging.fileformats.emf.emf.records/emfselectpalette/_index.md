@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfselectpalette/
 | [EmfSelectPalette(source)](#EmfSelectPalette_source_1) | Initializes a new instance of the [EmfSelectPalette](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfselectpalette/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | ih_pal | int | r/w | Gets or sets a 32-bit unsigned integer that specifies either the index of a LogPalette object<br/>            (section 2.2.17) in the EMF Object Table or the value DEFAULT_PALETTE, which is the index<br/>            of a stock object palette from the StockObject enumeration (section 2.1.31). |
 | size | int | r/w | Gets or sets the size of the record |
 | type | [EmfRecordType](/imaging/python-net/aspose.imaging.fileformats.emf.emf.consts/emfrecordtype/) | r/w | Gets or sets the type. |

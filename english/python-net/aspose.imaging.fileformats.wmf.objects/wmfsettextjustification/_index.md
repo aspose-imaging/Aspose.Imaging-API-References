@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsettextjustification/
 | [WmfSetTextJustification()](#WmfSetTextJustification__1) | Initializes a new instance of the WmfSetTextJustification class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | break_count | int | r/w | Gets or sets the <see langword="break" /> count. |
 | break_extra | int | r/w | Gets or sets the <see langword="break" /> extra. |
 

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrbmp/
 | [CdrBmp()](#CdrBmp__1) | Initializes a new instance of the CdrBmp class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bpp | int | r/w | Gets or sets the BPP. |
 | bytes_per_line | int | r/w | Gets or sets the bytes per line. |
 | color_model | int | r/w | Gets or sets the color model. |

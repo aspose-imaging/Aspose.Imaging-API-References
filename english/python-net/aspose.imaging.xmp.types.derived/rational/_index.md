@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.xmp.types.derived/rational/
 | [Rational(numerator, denominator)](#Rational_numerator_denominator_1) | Initializes a new instance of the [Rational](/imaging/python-net/aspose.imaging.xmp.types.derived/rational/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | denominator | int | r/w | Gets or sets the denominator. |
 | float_value | float | r | Gets the float value. |
 | numerator | int | r | Gets the numerator. |

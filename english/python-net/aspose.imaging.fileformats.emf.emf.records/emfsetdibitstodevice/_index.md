@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice
 | [EmfSetDiBitsToDevice(source)](#EmfSetDiBitsToDevice_source_1) | Initializes a new instance of the [EmfSetDiBitsToDevice](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfsetdibitstodevice/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets a WMF RectL object ([MS-WMF] section 2.2.2.19) that defines the <br/>            destination bounding rectangle in device units. |
 | c_scans | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the number of scan lines. |
 | cx_src | int | r/w | Gets or sets a 32-bit signed integer that specifies the width in pixels of the source rectangle. |

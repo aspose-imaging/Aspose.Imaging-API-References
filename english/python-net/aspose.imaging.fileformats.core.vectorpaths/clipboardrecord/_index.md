@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.core.vectorpaths/clipboardrecord/
 | [ClipboardRecord(data)](#ClipboardRecord_data_2) | Initializes a new instance of the [ClipboardRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/clipboardrecord/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bounding_rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets the bounding rect. |
 | resolution | float | r/w | Gets or sets the resolution. |
 | type | [VectorPathType](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/vectorpathtype) | r | Gets the type. |

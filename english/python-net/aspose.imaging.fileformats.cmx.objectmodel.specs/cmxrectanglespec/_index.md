@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel.specs/cmxrectanglesp
 | [CmxRectangleSpec()](#CmxRectangleSpec__1) | Initializes a new instance of the CmxRectangleSpec class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | angle | float | r/w | Gets or sets the angle of rotation of the rectangle.<br/>            Measures in radians. |
 | center_x | float | r/w | Gets or sets the X coordinate for the center of the rectangle.<br/>            Measures in common document distance units. |
 | center_y | float | r/w | Gets or sets the Y coordinate for the center of the rectangle.<br/>            Measures in common document distance units. |

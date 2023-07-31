@@ -23,7 +23,7 @@ url: /python-net/aspose.imaging.fileformats.core.vectorpaths/initialfillrulereco
 | [InitialFillRuleRecord(is_fill_starts_with_all_pixels)](#InitialFillRuleRecord_is_fill_starts_with_all_pixels_3) | Initializes a new instance of the InitialFillRuleRecord class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | is_fill_starts_with_all_pixels | bool | r/w | Gets or sets a value indicating whether is fill starts with all pixels. |
 | type | [VectorPathType](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/vectorpathtype) | r | Gets the type. |
 ## **Methods**

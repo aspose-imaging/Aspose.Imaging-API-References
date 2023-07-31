@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.fileformats.jpeg/jfifdata/
 | [JFIFData()](#JFIFData__1) | Initializes a new instance of the [JFIFData](/imaging/python-net/aspose.imaging.fileformats.jpeg/jfifdata/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | density_units | [JfifDensityUnits](/imaging/python-net/aspose.imaging.fileformats.jpeg/jfifdensityunits) | r/w | Gets or sets the density units. |
 | thumbnail | [RasterImage](/imaging/python-net/aspose.imaging/rasterimage) | r/w | Gets or sets the thumbnail. |
 | version | short | r/w | Gets or sets the version. |

@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging.asynctask/iasynctaskstate/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | is_canceled | bool | r | Gets a value indicating whether the asynchronous task is canceled. |
 | progress | [EventType](/imaging/python-net/aspose.imaging.progressmanagement/eventtype/) | r | Gets the progress of the asynchronous task. |
 ## **Methods**

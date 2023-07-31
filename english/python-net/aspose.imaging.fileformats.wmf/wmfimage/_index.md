@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.wmf/wmfimage/
 | [WmfImage(width, height)](#WmfImage_width_height_2) | Initializes a new instance of the [WmfImage](/imaging/python-net/aspose.imaging.fileformats.wmf/wmfimage/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether automatic adjust palette. |
 | background_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets a value for the background color. |
 | bits_per_pixel | int | r | Gets the image bits per pixel count. |

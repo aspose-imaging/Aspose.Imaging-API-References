@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging/imageexportersregistry/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | registered_exporter_descriptors [static] | [IImageExporterDescriptor[]](/imaging/python-net/aspose.imaging/iimageexporterdescriptor) | r | Gets the registered exporter descriptors. |
 | registered_formats [static] | [FileFormat](/imaging/python-net/aspose.imaging/fileformat) | r | Gets the registered export formats. |
 ## **Methods**

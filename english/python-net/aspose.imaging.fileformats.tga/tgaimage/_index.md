@@ -23,7 +23,7 @@ url: /python-net/aspose.imaging.fileformats.tga/tgaimage/
 | [TgaImage(stream)](#TgaImage_stream_3) | Initializes a new instance of the TgaImage class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | author_comments | string | r/w | Gets or sets Author Comments.<br/>            This is an ASCII field consisting of 324 bytes which are organized as four lines<br/>            of 80 characters, each followed by a null terminator. |
 | author_name | string | r/w | Gets or sets Author Name.<br/>            This field is a total of 40 ASCII characters for the name. If the field is used,<br/>            it should contain the name of the person who created the image (author). |
 | auto_adjust_palette | bool | r/w | Gets or sets a value indicating whether automatic adjust palette. |

@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging.masking.result/imaskinglayer/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | object_number | int | r | Gets the object number. |
 ## **Methods**
 | **Name** | **Description** |

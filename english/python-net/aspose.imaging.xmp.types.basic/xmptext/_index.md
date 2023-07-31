@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.xmp.types.basic/xmptext/
 | [XmpText(value)](#XmpText_value_1) | Initializes a new instance of the [XmpText](/imaging/python-net/aspose.imaging.xmp.types.basic/xmptext/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | value | string | r/w | Gets or sets the text value. |
 ## **Methods**
 | **Name** | **Description** |

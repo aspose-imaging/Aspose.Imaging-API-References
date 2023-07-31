@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetrop2/
 | [WmfSetRop2()](#WmfSetRop2__1) | Initializes a new instance of the WmfSetRop2 class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | draw_mode | [WmfBinaryRasterOperation](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfbinaryrasteroperation/) | r/w | Gets or sets the draw mode. |
 | reserved | int | r/w | Gets or sets the reserved. |
 

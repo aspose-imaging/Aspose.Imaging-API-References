@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging/intrange/
 | [IntRange(start, count, delta)](#IntRange_start_count_delta_3) | Initializes a new instance of the [IntRange](/imaging/python-net/aspose.imaging/intrange/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | range | int | r/w | Gets or sets the range. |
 ## **Methods**
 | **Name** | **Description** |

@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/
 | [EmfExtCreatePen(record)](#EmfExtCreatePen_record_2) | Initializes a new instance of the [EmfExtCreatePen](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfextcreatepen/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bitmap_buffer | [WmfDeviceIndependentBitmap](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfdeviceindependentbitmap/) | r/w | Gets or sets an optional buffer containing a packed DIB in the form of a WMF DeviceIndependentBitmap object<br/>            ([MS-WMF] section 2.2.2.9). It is not required to be contiguous with the fixed portion of the EMR_EXTCREATEPEN record |
 | elp | [EmfLogPenEx](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogpenex/) | r/w | Gets or sets a LogPenEx object (section 2.2.20) that specifies an extended logical <br/>            pen with attributes including an optional line style array. |
 | ih_pen | int | r/w | Gets or sets  32-bit unsigned integer that specifies the index of the extended logical <br/>            pen object in the EMF Object Table (section 3.1.1.1). <br/>            This index MUST be saved so that this object can be reused or modified. |

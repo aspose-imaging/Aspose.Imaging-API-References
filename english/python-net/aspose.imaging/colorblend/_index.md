@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging/colorblend/
 | [ColorBlend(count)](#ColorBlend_count_2) | Initializes a new instance of the [ColorBlend](/imaging/python-net/aspose.imaging/colorblend/) class with the specified number of colors and positions. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | colors | [Color[]](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets an array of colors that represents the colors to use at corresponding positions along a gradient. |
 | positions | float | r/w | Gets or sets the positions along a gradient line. |
 

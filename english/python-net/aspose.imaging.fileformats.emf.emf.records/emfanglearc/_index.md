@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfanglearc/
 | [EmfAngleArc(source)](#EmfAngleArc_source_2) | Initializes a new instance of the [EmfAngleArc](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfanglearc/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | center | [Point](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets a 64-bit WMF PointL object, specified in [MS-WMF] section 2.2.2.15, which <br/>            specifies the logical coordinates of the circle's center. |
 | radius | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the circle's radius, in logical units. |
 | size | int | r/w | Gets or sets the size of the record |

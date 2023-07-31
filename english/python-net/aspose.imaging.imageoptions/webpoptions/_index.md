@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.imageoptions/webpoptions/
 | [WebPOptions()](#WebPOptions__1) | Initializes a new instance of the [WebPOptions](/imaging/python-net/aspose.imaging.imageoptions/webpoptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | anim_background_color | uint | r/w | Gets or sets the color of the animation background. |
 | anim_loop_count | ushort | r/w | Gets or sets the animation loop count. |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |

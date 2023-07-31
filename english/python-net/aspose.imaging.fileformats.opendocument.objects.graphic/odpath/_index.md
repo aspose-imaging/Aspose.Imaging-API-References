@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odpath/
 | [OdPath(parent)](#OdPath_parent_1) | Initializes a new instance of the [OdPath](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odpath/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
 | data | string | r/w | Gets or sets the data. |
 | enhanced_path | [OdGraphicObject[]](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odgraphicobject) | r/w | Gets or sets the enhanced path. |

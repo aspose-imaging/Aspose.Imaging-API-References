@@ -22,12 +22,12 @@ url: /python-net/aspose.imaging.imageoptions/psdoptions/
 | [PsdOptions(options)](#PsdOptions_options_2) | Initializes a new instance of the [PsdOptions](/imaging/python-net/aspose.imaging.imageoptions/psdoptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | channel_bits_count | short | r/w | Gets or sets the bits count per color channel. |
 | channels_count | short | r/w | Gets or sets the color channels count. |
-| color_mode | [ColorModes](/imaging/python-net/aspose.imaging.fileformats.psd/colormodes/) | r/w | Gets or sets the psd color mode. |
-| compression_method | [CompressionMethod](/imaging/python-net/aspose.imaging.fileformats.psd/compressionmethod/) | r/w | Gets or sets the psd compression method. |
+| [color_mode](#color_mode1) | [ColorModes](/imaging/python-net/aspose.imaging.fileformats.psd/colormodes/) | r/w | Gets or sets the psd color mode. |
+| [compression_method](#compression_method2) | [CompressionMethod](/imaging/python-net/aspose.imaging.fileformats.psd/compressionmethod/) | r/w | Gets or sets the psd compression method. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |
@@ -71,6 +71,22 @@ Initializes a new instance of the [PsdOptions](/imaging/python-net/aspose.imagin
 | :- | :- | :- |
 | options | [PsdOptions](/imaging/python-net/aspose.imaging.imageoptions/psdoptions) | The options. |
 
+### Property: color_mode {#color_mode1}
+
+Gets or sets the psd color mode.
+
+**See also:**
+
+**[Example # 1](#example_11)**: This example demonstrates the use of Aspose.Imaging API to convert Images to ...
+
+### Property: compression_method {#compression_method2}
+
+Gets or sets the psd compression method.
+
+**See also:**
+
+**[Example # 1](#example_11)**: This example demonstrates the use of Aspose.Imaging API to convert Images to ...
+
 ### Method: clone() {#clone__1}
 
 
@@ -86,4 +102,31 @@ Clones this instance.
 | :- | :- |
 | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Returns shallow copy of this instance |
 
+
+## **Examples**
+### This example demonstrates the use of Aspose.Imaging API to convert Images to PSD format. To achieve this goal this example loads an existing image and then saves it back to PSD format. {#example_11}
+``` python
+
+from aspose.imaging import Image, RotateFlipType
+from aspose.imaging.imageoptions import PsdOptions
+from aspose.imaging.fileformats.psd import CompressionMethod, ColorModes
+from os.path import join as path_join
+
+directory = "c:\\temp\\"
+
+#Creates an instance of image class and initialize it with an existing file through File path
+with Image.load(path_join(directory, "sample.bmp")) as image:
+	#Create an instance of PsdOptions class
+	psdOptions = PsdOptions()
+	#Set the CompressionMethod as RLE
+	#Note: Other supported CompressionMethod is CompressionMethod.RAW [No Compression]
+	psdOptions.compression_method = CompressionMethod.RLE
+	#Set the ColorMode to GRAYSCALE
+	#Note: Other supported ColorModes are ColorModes.BITMAP and ColorModes.RGB
+	psdOptions.color_mode = ColorModes.GRAYSCALE
+	#Save the image to disk location with supplied PsdOptions settings
+	image.save(path_join(directory, "output.psd"), psdOptions)
+}
+
+```
 

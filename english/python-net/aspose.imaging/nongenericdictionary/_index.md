@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging/nongenericdictionary/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | is_fixed_size | bool | r | Gets a value indicating whether the <br/>             object has a fixed size. |
 | is_read_only | bool | r | Gets a value indicating whether the <br/>             object is read-only. |
 | keys | list | r | Gets an <br/>            list object containing the keys of the <br/>             object. |

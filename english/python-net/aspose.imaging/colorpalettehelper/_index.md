@@ -252,6 +252,11 @@ Gets color palette from raster image (palletizes image) in case the image does n
 | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the <paramref name="image" /> and contains <paramref name="entriesCount" /> entries. |
 
 
+
+**See also:**
+
+**[Example # 1](#example_20)**: The following example shows how to set a palette to a BMP image to reduce its...
+
 ### Method: get_close_image_palette(image, entries_count, palette_mining_method)  [static] {#get_close_image_palette_image_entries_count_palette_mining_method_11}
 
 
@@ -275,6 +280,11 @@ Gets color palette from raster image (palletizes image) in case the image does n
 | :- | :- |
 | [IColorPalette](/imaging/python-net/aspose.imaging/icolorpalette) | The color palette which starts with the most frequent colors from the <paramref name="image" /> and contains <paramref name="entriesCount" /> entries. |
 
+
+
+**See also:**
+
+**[Example # 1](#example_21)**: The following example shows how to compress a PNG image, using indexed color ...
 
 ### Method: get_close_image_palette_by_method(image, entries_count, palette_mining_method)  [static] {#get_close_image_palette_by_method_image_entries_count_palette_mining_method_12}
 
@@ -412,4 +422,74 @@ Determines whether the specified palette has transparent colors.
 | :- | :- |
 | bool | <c>true</c> if the specified palette has transparent colors; otherwise, <c>false</c>. |
 
+
+## **Examples**
+### The following example shows how to set a palette to a BMP image to reduce its output size. {#example_20}
+``` python
+
+from aspose.pycore import as_of
+from aspose.imaging import Point, Color, Graphics, ColorPaletteHelper
+from aspose.imaging.brushes import LinearGradientBrush
+from aspose.imaging.fileformats.bmp import BmpImage
+from aspose.imaging.imageoptions import BmpOptions
+from os.path import join as path_join
+
+# Create a BMP image 100 x 100 px.
+with BmpImage(100, 100) as bmpImage:
+	# The linear gradient from the left-top to the right-bottom corner of the image.
+	brush = LinearGradientBrush(Point(0, 0), Point(bmpImage.width, bmpImage.height),
+								Color.red,
+								Color.green)
+	# Fill the entire image with the linear gradient brush.
+	gr = Graphics(bmpImage)
+	gr.fill_rectangle(brush, bmpImage.bounds)
+	# Get the closest 8-bit color palette which covers as many pixels as possible, so that a palettized image
+	# is almost visually indistinguishable from a bmp without palette
+	palette = ColorPaletteHelper.get_close_image_palette(bmpImage, 256)
+	# 8-bit palette contains at most 256 colors.
+	saveOptions = BmpOptions()
+	saveOptions.palette = palette
+	saveOptions.bits_per_pixel = 8
+	
+	with stream_ext.create_memory_stream() as stream:
+		bmpImage.save(stream, saveOptions)
+		print(f"The size of image with palette is {stream.tell()} bytes.")
+		stream.seek(0)
+		bmpImage.save(stream)
+		print(f"The size of image without palette is {stream.tell()} bytes.")
+
+# The output looks like this:
+# The size of image with palette is 11078 bytes.
+# The size of image without palette is 40054 bytes.
+
+```
+
+### The following example shows how to compress a PNG image, using indexed color with best fit palette {#example_21}
+``` python
+
+from aspose.pycore import as_of
+from aspose.imaging import Image, ColorPaletteHelper, RasterImage, PaletteMiningMethod
+from aspose.imaging.fileformats.png import PngColorType
+
+# Loads png image        
+sourceFilePath = "OriginalRings.png"
+outputFilePath = "OriginalRingsOutput.png"
+with Image.load(sourceFilePath) as image:
+	png_options = PngOptions()
+	png_options.progressive = True
+	# Use indexed color type
+	png_options.color_type = PngColorType.INDEXED_COLOR
+	# Use maximal compression
+	png_options.compression_level = 9
+	# Get the closest 8-bit color palette, covering as many pixels as possible, so that an image
+	# with palette is almost visually indistinguishable from an image without a palette.
+	png_options.palette = ColorPaletteHelper.get_close_image_palette(
+						as_of(image, RasterImage), 256, 
+						PaletteMiningMethod.HISTOGRAM)
+		 
+	image.save(outputFilePath, png_options);
+}
+# The output file size should be significantly reduced
+
+```
 

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdrive
 | [EmfPlusDrawDriverString(source)](#EmfPlusDrawDriverString_source_1) | Initializes a new instance of the [EmfPlusDrawDriverString](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusdrawdriverstring/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | brush_id | int | r/w | Gets or sets the brush identifier<br/>            A 32-bit unsigned integer that specifies either the foreground color of the text or a graphics brush,<br/>            depending on the value of the S flag in the Flags |
 | data_size | int | r/w | Gets or sets a 32-bit unsigned integer that MUST define the 32-bit–aligned number of<br/>            bytes of data in the RecordData field that follows. This number does not include the 12-byte record header. |
 | driver_string_options_flags | [EmfPlusDriverStringOptionsFlags](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusdriverstringoptionsflags/) | r/w | Gets or sets the driver string options flags<br/>            A 32-bit unsigned integer that specifies the spacing, orientation, and quality of rendering for the string. |

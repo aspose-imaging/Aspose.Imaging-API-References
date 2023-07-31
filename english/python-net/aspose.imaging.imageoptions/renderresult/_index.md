@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.imageoptions/renderresult/
 | [RenderResult()](#RenderResult__1) | Initializes a new instance of the RenderResult class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | message | string | r/w | Gets or sets string message |
 | render_code | [RenderErrorCode](/imaging/python-net/aspose.imaging.imageoptions/rendererrorcode) | r/w | Gets or sets code of error |
 

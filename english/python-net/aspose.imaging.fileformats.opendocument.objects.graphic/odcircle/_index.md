@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odcircl
 | [OdCircle(parent)](#OdCircle_parent_1) | Initializes a new instance of the [OdCircle](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odcircle/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
 | closed | bool | r/w | Gets or sets a value indicating whether this [OdAngleEllipse](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odangleellipse/) is closed. |
 | end_angle | float | r/w | Gets or sets the end angle. |

@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfpaintregion/
 | [WmfPaintRegion(region)](#WmfPaintRegion_region_2) | Initializes a new instance of the [WmfSelectClipRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfselectclipregion/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | region_index | int | r/w | Gets or sets the index of the region. |
 
 

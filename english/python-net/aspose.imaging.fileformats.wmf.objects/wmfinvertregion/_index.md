@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfinvertregion/
 | [WmfInvertRegion(region)](#WmfInvertRegion_region_2) | Initializes a new instance of the [WmfInvertRegion](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfinvertregion/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | region_index | int | r/w | Gets or sets the index of the region. |
 
 

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.objects/cdrstyle/
 | [CdrStyle()](#CdrStyle__1) | Initializes a new instance of the CdrStyle class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | align | int | r/w | Gets or sets the align. |
 | charset | short | r/w | Gets or sets the character set. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |

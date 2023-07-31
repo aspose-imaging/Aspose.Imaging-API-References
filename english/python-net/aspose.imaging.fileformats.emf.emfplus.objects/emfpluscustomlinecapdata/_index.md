@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlin
 | [EmfPlusCustomLineCapData()](#EmfPlusCustomLineCapData__1) | Initializes a new instance of the EmfPlusCustomLineCapData class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | base_cap | [EmfPlusLineCapType](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluslinecaptype/) | r/w | Gets or sets 32-bit unsigned integer that specifies the value from the LineCap enumeration (section 2.1.1.18) <br/>            on which the custom line cap is based. |
 | base_inset | float | r/w | Gets or sets  32-bit floating-point value that specifies the distance between the beginning <br/>            of the line cap and the end of the line. |
 | custom_line_cap_data_flags | [EmfPlusCustomLineCapDataFlags](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfpluscustomlinecapdataflags/) | r/w | Gets or sets 32-bit unsigned integer that specifies the data in the OptionalData field |

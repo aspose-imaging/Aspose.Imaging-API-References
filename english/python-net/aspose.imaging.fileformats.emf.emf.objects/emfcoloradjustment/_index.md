@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfcoloradjustment/
 | [EmfColorAdjustment()](#EmfColorAdjustment__1) | Initializes a new instance of the EmfColorAdjustment class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | blue_gamma | short | r/w | Gets or sets a 16-bit unsigned integer that specifies the nth power gamma correction value for the <br/>            blue primary of the source colors. This value SHOULD be in the range from 2,500 to 65,000. <br/>            A value of 10,000 means gamma correction MUST NOT be performed. |
 | brightness | short | r/w | Gets or sets a 16-bit signed integer that specifies the amount of brightness to be applied to the source object. <br/>            This value SHOULD be in the range from –100 to 100.<br/>            A value of zero means brightness adjustment MUST NOT be performed. |
 | colorfullness | short | r/w | Gets or sets a 16-bit signed integer that specifies the amount of colorfulness to be applied to the source object. <br/>            This value SHOULD be in the range from –100 to 100. <br/>            A value of zero means colorfulness adjustment MUST NOT be performed |

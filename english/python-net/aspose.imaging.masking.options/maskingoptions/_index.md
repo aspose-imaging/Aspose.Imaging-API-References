@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.masking.options/maskingoptions/
 | [MaskingOptions()](#MaskingOptions__1) | Initializes a new instance of the MaskingOptions class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | BACKGROUND_OBJECT_NUMBER [static] | int | r | The background object number |
 | args | [IMaskingArgs](/imaging/python-net/aspose.imaging.masking.options/imaskingargs) | r/w | Gets or sets the arguments for segmentation algorithm. |
 | background_replacement_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets the background replacement color. |

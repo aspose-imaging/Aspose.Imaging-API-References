@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging/graphics/
 | [Graphics(source_image)](#Graphics_source_image_1) | Initializes a new instance of the [Graphics](/imaging/python-net/aspose.imaging/graphics/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | clip | [Region](/imaging/python-net/aspose.imaging/region) | r/w | Gets or sets the clip region. |
 | compositing_quality | [CompositingQuality](/imaging/python-net/aspose.imaging/compositingquality) | r/w | Gets or sets the compositing quality. |
 | dpi_x | float | r | Gets the horizontal resolution of this Aspose.Imaging.Graphics. |
@@ -272,6 +272,12 @@ Clears the graphics surface using the specified color.
 | :- | :- | :- |
 | color | [Color](/imaging/python-net/aspose.imaging/color) | The color to clear the graphics surface by. |
 
+
+**See also:**
+
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
+**[Example # 2](#example_13)**: This examples make use of GraphicsPath and Graphics classes to create and man...
+
 ### Method: draw_arc(pen, rect, start_angle, sweep_angle) {#draw_arc_pen_rect_start_angle_sweep_angle_2}
 
 
@@ -290,6 +296,11 @@ Draws an arc representing a portion of an ellipse specified by a [RectangleF](/i
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the starting point of the arc. |
 | sweep_angle | float | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to ending point of the arc. |
 
+
+**See also:**
+
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
+
 ### Method: draw_arc(pen, rect, start_angle, sweep_angle) {#draw_arc_pen_rect_start_angle_sweep_angle_3}
 
 
@@ -307,6 +318,11 @@ Draws an arc representing a portion of an ellipse specified by a [RectangleF](/i
 | rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that defines the boundaries of the ellipse. |
 | start_angle | float | Angle in degrees measured clockwise from the x-axis to the starting point of the arc. |
 | sweep_angle | float | Angle in degrees measured clockwise from the <paramref name="startAngle" /> parameter to ending point of the arc. |
+
+
+**See also:**
+
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 ### Method: draw_arc(pen, x, y, width, height, start_angle, sweep_angle) {#draw_arc_pen_x_y_width_height_start_angle_sweep_angle_4}
 
@@ -447,6 +463,11 @@ Draws a Bézier spline defined by four [PointF](/imaging/python-net/aspose.imagi
 | pt3 | [PointF](/imaging/python-net/aspose.imaging/pointf) | [PointF](/imaging/python-net/aspose.imaging/pointf/) structure that represents the second control point for the curve. |
 | pt4 | [PointF](/imaging/python-net/aspose.imaging/pointf) | [PointF](/imaging/python-net/aspose.imaging/pointf/) structure that represents the ending point of the curve. |
 
+
+**See also:**
+
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
+
 ### Method: draw_bezier(pen, pt1, pt2, pt3, pt4) {#draw_bezier_pen_pt1_pt2_pt3_pt4_11}
 
 
@@ -465,6 +486,11 @@ Draws a Bézier spline defined by four [PointF](/imaging/python-net/aspose.imagi
 | pt2 | [Point](/imaging/python-net/aspose.imaging/point) | [PointF](/imaging/python-net/aspose.imaging/pointf/) structure that represents the first control point for the curve. |
 | pt3 | [Point](/imaging/python-net/aspose.imaging/point) | [PointF](/imaging/python-net/aspose.imaging/pointf/) structure that represents the second control point for the curve. |
 | pt4 | [Point](/imaging/python-net/aspose.imaging/point) | [PointF](/imaging/python-net/aspose.imaging/pointf/) structure that represents the ending point of the curve. |
+
+
+**See also:**
+
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 ### Method: draw_bezier(pen, x1, y1, x2, y2, x3, y3, x4, y4) {#draw_bezier_pen_x1_y1_x2_y2_x3_y3_x4_y4_12}
 
@@ -739,6 +765,11 @@ Draws a cardinal spline through a specified array of [PointF](/imaging/python-ne
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and height of the curve. |
 | points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define the spline. |
 
+
+**See also:**
+
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
+
 ### Method: draw_curve(pen, points) {#draw_curve_pen_points_28}
 
 
@@ -754,6 +785,11 @@ Draws a cardinal spline through a specified array of [PointF](/imaging/python-ne
 | :- | :- | :- |
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and height of the curve. |
 | points | [Point[]](/imaging/python-net/aspose.imaging/point) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that define the spline. |
+
+
+**See also:**
+
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 ### Method: draw_curve(pen, points, offset, number_of_segments) {#draw_curve_pen_points_offset_number_of_segments_29}
 
@@ -965,6 +1001,11 @@ Draws an ellipse defined by a bounding [RectangleF](/imaging/python-net/aspose.i
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and style of the ellipse. |
 | rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that defines the boundaries of the ellipse. |
 
+
+**See also:**
+
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
+
 ### Method: draw_ellipse(pen, rect) {#draw_ellipse_pen_rect_41}
 
 
@@ -980,6 +1021,11 @@ Draws an ellipse defined by a bounding [RectangleF](/imaging/python-net/aspose.i
 | :- | :- | :- |
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and style of the ellipse. |
 | rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that defines the boundaries of the ellipse. |
+
+
+**See also:**
+
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 ### Method: draw_ellipse(pen, x, y, width, height) {#draw_ellipse_pen_x_y_width_height_42}
 
@@ -2046,6 +2092,11 @@ Draws a line connecting two [Point](/imaging/python-net/aspose.imaging/point/) s
 | point1 | [Point](/imaging/python-net/aspose.imaging/point) | [Point](/imaging/python-net/aspose.imaging/point/) structure that represents the first point to connect. |
 | point2 | [Point](/imaging/python-net/aspose.imaging/point) | [Point](/imaging/python-net/aspose.imaging/point/) structure that represents the second point to connect. |
 
+
+**See also:**
+
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
+
 ### Method: draw_line(pen, point1, point2) {#draw_line_pen_point1_point2_103}
 
 
@@ -2062,6 +2113,11 @@ Draws a line connecting two [Point](/imaging/python-net/aspose.imaging/point/) s
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and style of the line. |
 | point1 | [PointF](/imaging/python-net/aspose.imaging/pointf) | [Point](/imaging/python-net/aspose.imaging/point/) structure that represents the first point to connect. |
 | point2 | [PointF](/imaging/python-net/aspose.imaging/pointf) | [Point](/imaging/python-net/aspose.imaging/point/) structure that represents the second point to connect. |
+
+
+**See also:**
+
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 ### Method: draw_line(pen, x1, y1, x2, y2) {#draw_line_pen_x1_y1_x2_y2_104}
 
@@ -2220,6 +2276,11 @@ Draws a [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/).
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and style of the path. |
 | path | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath) | [GraphicsPath](/imaging/python-net/aspose.imaging/graphicspath/) to draw. |
 
+
+**See also:**
+
+**[Example # 1](#example_13)**: This examples make use of GraphicsPath and Graphics classes to create and man...
+
 ### Method: draw_pie(pen, rect, start_angle, sweep_angle) {#draw_pie_pen_rect_start_angle_sweep_angle_113}
 
 
@@ -2238,6 +2299,11 @@ Draws a pie shape defined by an ellipse specified by a [RectangleF](/imaging/pyt
 | start_angle | float | Angle measured in degrees clockwise from the x-axis to the first side of the pie shape. |
 | sweep_angle | float | Angle measured in degrees clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie shape. |
 
+
+**See also:**
+
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
+
 ### Method: draw_pie(pen, rect, start_angle, sweep_angle) {#draw_pie_pen_rect_start_angle_sweep_angle_114}
 
 
@@ -2255,6 +2321,11 @@ Draws a pie shape defined by an ellipse specified by a [RectangleF](/imaging/pyt
 | rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the bounding rectangle that defines the ellipse from which the pie shape comes. |
 | start_angle | float | Angle measured in degrees clockwise from the x-axis to the first side of the pie shape. |
 | sweep_angle | float | Angle measured in degrees clockwise from the <paramref name="startAngle" /> parameter to the second side of the pie shape. |
+
+
+**See also:**
+
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 ### Method: draw_pie(pen, x, y, width, height, start_angle, sweep_angle) {#draw_pie_pen_x_y_width_height_start_angle_sweep_angle_115}
 
@@ -2392,6 +2463,11 @@ Draws a polygon defined by an array of [PointF](/imaging/python-net/aspose.imagi
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and style of the polygon. |
 | points | [PointF[]](/imaging/python-net/aspose.imaging/pointf) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represent the vertices of the polygon. |
 
+
+**See also:**
+
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
+
 ### Method: draw_polygon(pen, points) {#draw_polygon_pen_points_122}
 
 
@@ -2407,6 +2483,11 @@ Draws a polygon defined by an array of [PointF](/imaging/python-net/aspose.imagi
 | :- | :- | :- |
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and style of the polygon. |
 | points | [Point[]](/imaging/python-net/aspose.imaging/point) | Array of [PointF](/imaging/python-net/aspose.imaging/pointf/) structures that represent the vertices of the polygon. |
+
+
+**See also:**
+
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 ### Method: draw_polygon_f(pen, points) {#draw_polygon_f_pen_points_123}
 
@@ -2478,6 +2559,11 @@ Draws a rectangle specified by a [RectangleF](/imaging/python-net/aspose.imaging
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | A [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and style of the rectangle. |
 | rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the rectangle to draw. |
 
+
+**See also:**
+
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
+
 ### Method: draw_rectangle(pen, rect) {#draw_rectangle_pen_rect_127}
 
 
@@ -2493,6 +2579,11 @@ Draws a rectangle specified by a [RectangleF](/imaging/python-net/aspose.imaging
 | :- | :- | :- |
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | A [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and style of the rectangle. |
 | rect | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | A [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structure that represents the rectangle to draw. |
+
+
+**See also:**
+
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 ### Method: draw_rectangle_f(pen, rect) {#draw_rectangle_f_pen_rect_128}
 
@@ -2526,6 +2617,11 @@ Draws a series of rectangles specified by [RectangleF](/imaging/python-net/aspos
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and style of the outlines of the rectangles. |
 | rects | [RectangleF[]](/imaging/python-net/aspose.imaging/rectanglef) | Array of [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structures that represent the rectangles to draw. |
 
+
+**See also:**
+
+**[Example # 1](#example_14)**: This example shows the creation and usage Pen objects. The example creates a ...
+
 ### Method: draw_rectangles(pen, rects) {#draw_rectangles_pen_rects_130}
 
 
@@ -2541,6 +2637,11 @@ Draws a series of rectangles specified by [RectangleF](/imaging/python-net/aspos
 | :- | :- | :- |
 | pen | [Pen](/imaging/python-net/aspose.imaging/pen) | [Pen](/imaging/python-net/aspose.imaging/pen/) that determines the color, width, and style of the outlines of the rectangles. |
 | rects | [Rectangle[]](/imaging/python-net/aspose.imaging/rectangle) | Array of [RectangleF](/imaging/python-net/aspose.imaging/rectanglef/) structures that represent the rectangles to draw. |
+
+
+**See also:**
+
+**[Example # 1](#example_14)**: This example shows the creation and usage Pen objects. The example creates a ...
 
 ### Method: draw_rectangles_f(pen, rects) {#draw_rectangles_f_pen_rects_131}
 
@@ -2612,6 +2713,11 @@ Draws the specified text string at the specified location with the specified [Br
 | font | [Font](/imaging/python-net/aspose.imaging.xmp.types.complex.font/font) | [Font](/imaging/python-net/aspose.imaging/font/) that defines the text format of the string. |
 | brush | [Brush](/imaging/python-net/aspose.imaging/brush) | [Brush](/imaging/python-net/aspose.imaging/brush/) that determines the color and texture of the drawn text. |
 | point | [PointF](/imaging/python-net/aspose.imaging/pointf) | [PointF](/imaging/python-net/aspose.imaging/pointf/) structure that specifies the upper-left corner of the drawn text. |
+
+
+**See also:**
+
+**[Example # 1](#example_12)**: This example uses Graphics class to create primitive shapes on the Image surf...
 
 ### Method: draw_string(s, font, brush, point, format) {#draw_string_s_font_brush_point_format_135}
 
@@ -3752,4 +3858,144 @@ Translates the local geometric transform by the specified dimensions in the spec
 | dx | float | The value of the translation in x. |
 | dy | float | The value of the translation in y. |
 | order | [MatrixOrder](/imaging/python-net/aspose.imaging/matrixorder) | The order (prepend or append) in which to apply the translation. |
+
+## **Examples**
+### This example uses Graphics class to create primitive shapes on the Image surface. To demonstrate the operation, the example creates a new Image in PNG format and draw primitive shapes on Image surface using Draw methods exposed by Graphics class {#example_12}
+``` python
+
+from aspose.imaging import Image, RotateFlipType, Graphics, Color, Pen, Rectangle, Point, Size,\
+	Font, PointF
+from aspose.imaging.brushes import SolidBrush
+from aspose.imaging.imageoptions import PngOptions
+from aspose.imaging.fileformats.psd import CompressionMethod, ColorModes
+from aspose.imaging.sources import StreamSource
+
+from os.path import join as path_join
+
+#Creates an instance of file stream
+with open(r"C:\temp\output.png", "w+b") as stream:
+	#Create an instance of PngOptions and set its various properties
+	pngOptions = PngOptions()
+	#Set the Source for PngOptions
+	pngOptions.source = StreamSource(stream)
+	#Create an instance of Image 
+	with Image.create(pngOptions, 500, 500) as image:
+		#Create and initialize an instance of Graphics class
+		graphics = Graphics(image)
+		#Clear Graphics surface
+		graphics.clear(Color.wheat);
+		#Draw an Arc by specifying the Pen object having Black color, 
+		#a Rectangle surrounding the Arc, Start Angle and Sweep Angle
+		graphics.draw_arc(Pen(Color.black, 2.0), Rectangle(200, 200, 100, 200), 0, 300)
+		#Draw a Bezier by specifying the Pen object having Blue color and co-ordinate Points.
+		graphics.draw_bezier(Pen(Color.blue, 2.0), Point(250, 100), Point(300, 30), Point(450, 100), Point(235, 25))
+		#Draw a Curve by specifying the Pen object having Green color and an array of Points
+		graphics.draw_curve(Pen(Color.green, 2.0), [Point(100, 200), Point(100, 350), Point(200, 450)])
+		#Draw an Ellipse using the Pen object and a surrounding Rectangle
+		graphics.draw_ellipse(Pen(Color.yellow, 2.0), Rectangle(300, 300, 100, 100))
+		#Draw a Line 
+		graphics.draw_line(Pen(Color.violet, 2.0), Point(100, 100), Point(200, 200))
+		#Draw a Pie segment
+		graphics.draw_pie(Pen(Color.silver, 2.0), Rectangle(Point(200, 20), Size(200, 200)), 0, 45);
+		#Draw a Polygon by specifying the Pen object having Red color and an array of Points
+		graphics.draw_polygon(Pen(Color.red, 2.0), [Point(20, 100), Point(20, 200), Point(220, 20)])
+		#Draw a Rectangle
+		graphics.draw_rectangle(Pen(Color.orange, 2.0), Rectangle(Point(250, 250), Size(100, 100)))
+		#Create a SolidBrush object and set its various properties
+		brush = SolidBrush()
+		brush.color = Color.purple
+		#Draw a String using the SolidBrush object and Font, at specific Point
+		graphics.draw_string("This image is created by Aspose.Imaging API", Font("Times New Roman", 16),
+							 brush, PointF(50.0, 400.0))
+		# save all changes.
+		image.save();
+
+```
+
+### This examples make use of GraphicsPath and Graphics classes to create and manipulate figures on an Image surface. Example creates a new Image (of type Tiff), clears the surface and draws paths with the help of GraphicsPath class. At the end `draw_path` method exposed by Graphics class is called to render the paths on surface. {#example_13}
+``` python
+
+from aspose.imaging import Image, Graphics, Color, GraphicsPath, Figure, RectangleF, PointF, SizeF
+from aspose.imaging import Pen
+from aspose.imaging.sources import StreamSource
+from aspose.imaging.imageoptions import TiffOptions
+from aspose.imaging.fileformats.tiff.enums import TiffExpectedFormat
+from aspose.imaging.shapes import RectangleShape, EllipseShape, PieShape
+
+
+# Create an instance of a file stream
+with open(r"C:\temp\output.tiff", "w+b") as stream:
+	# Create an instance of TiffOptions and set its various properties
+	tiffOptions = TiffOptions(TiffExpectedFormat.DEFAULT)
+	# Set the source for the instance of ImageOptions
+	tiffOptions.source = StreamSource(stream)
+	# Create an instance of Image
+	with Image.create(tiffOptions, 500, 500) as image:
+		# Create and initialize an instance of Graphics class
+		graphics = Graphics(image)
+		# Clear Graphics surface
+		graphics.clear(Color.wheat);
+		# Create an instance of GraphicsPath class
+		graphics_path = GraphicsPath()
+		# Create an instance of Figure class
+		figure = Figure()
+		# Add Shapes to Figure object
+		figure.add_shape(RectangleShape(RectangleF(10.0, 10.0, 300.0, 300.0)))
+		figure.add_shape(EllipseShape(RectangleF(50.0, 50.0, 300.0, 300.0)))
+		figure.add_shape(PieShape(RectangleF(PointF(250.0, 250.0), SizeF(200.0, 200.0)), 0.0, 45.0))
+		# Add Figure object to GraphicsPath
+		graphics_path.add_figure(figure)
+		# Draw path with Pen object of color Black
+		graphics.draw_path(Pen(Color.black, 2.0), graphics_path)
+		# save all changes.
+		image.save()
+
+
+```
+
+### This example shows the creation and usage Pen objects. The example creates a new Image and draw rectangles on the Image surface. {#example_14}
+``` python
+
+from aspose.imaging import Image, Graphics, Color, Pen, Rectangle, Point, Size
+from aspose.imaging.brushes import HatchBrush
+from aspose.imaging.imageoptions import BmpOptions
+from aspose.imaging.sources import FileCreateSource
+
+# Create an instance of BmpOptions and set its various properties
+bmpOptions = BmpOptions()
+bmpOptions.bits_per_pixel = 24
+# Create an instance of FileCreateSource and assign it as Source for the instance of BmpOptions
+# Second Boolean parameter determines if the file to be created IsTemporal or not
+bmpOptions.source = FileCreateSource(r"C:\temp\sample.bmp", False)
+# Create an instance of Image at specified Path
+with Image.create(bmpOptions, 500, 500) as image:
+	# Create an instance of Graphics and initialize it with Image object
+	graphics = Graphics(image)
+	# Clear the Graphics surface with White Color
+	graphics.clear(Color.white)
+	#Create an instance of Pen with color Red and width 5
+	pen = Pen(Color.red, 5.0);
+	# Create an instance of HatchBrush and set its properties
+	brush = HatchBrush()
+	brush.background_color = Color.wheat;
+	brush.foreground_color = Color.red;
+	# Create an instance of Pen
+	# initialize it with HatchBrush object and width
+	brusedpen = Pen(brush, 5.0)
+	# Draw Rectangles by specifying Pen object
+	graphics.draw_rectangles(pen, [
+		Rectangle(Point(210, 210), Size(100, 100)),
+		Rectangle(Point(110, 110), Size(100, 100)),
+		Rectangle(Point(310, 310), Size(100, 100)) ])
+
+	# Draw Rectangles by specifying Pen object
+	graphics.draw_rectangles(brusedpen, [
+		Rectangle(Point(310, 110), Size(100, 100)),
+		Rectangle(Point(110, 310), Size(100, 100)) ])
+
+	# save all changes.
+	image.save()
+
+
+```
 

@@ -21,10 +21,10 @@ url: /python-net/aspose.imaging.imageoptions/dxfoptions/
 | [DxfOptions()](#DxfOptions__1) | Initializes a new instance of the DxfOptions class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
-| bezier_point_count | byte | r/w | How many points to generate when converting Bezier curves to polylines, minimum 4. Used when <seealso cref="P:Aspose.Imaging.ImageOptions.DxfOptions.TextAsLines" /> and <seealso cref="P:Aspose.Imaging.ImageOptions.DxfOptions.ConvertTextBeziers" /> are both  	/// set to <c>true</c> |
+| :- | :- | :- | :- |
+| bezier_point_count | byte | r/w | How many points to generate when converting Bezier curves to polylines, minimum 4. Used when [DxfOptions.text_as_lines](/imaging/python-net/aspose.imaging.imageoptions/dxfoptions/) and [DxfOptions.convert_text_beziers](/imaging/python-net/aspose.imaging.imageoptions/dxfoptions/) are both  	/// set to <c>true</c> |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
-| convert_text_beziers | bool | r/w | Works when <seealso cref="P:Aspose.Imaging.ImageOptions.DxfOptions.TextAsLines" /> is set to <c>true</c>. Wether to convert Bezier curves in text contours to multipoint polylines. |
+| convert_text_beziers | bool | r/w | Works when [DxfOptions.text_as_lines](/imaging/python-net/aspose.imaging.imageoptions/dxfoptions/) is set to <c>true</c>. Wether to convert Bezier curves in text contours to multipoint polylines. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | full_frame | bool | r/w | Gets or sets a value indicating whether [full frame]. |
 | multi_page_options | [MultiPageOptions](/imaging/python-net/aspose.imaging.imageoptions/multipageoptions) | r/w | The multipage options |
@@ -64,4 +64,21 @@ Clones this instance.
 | :- | :- |
 | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Returns shallow copy of this instance |
 
+
+## **Examples**
+### This example demonstrates export to Dxf format {#example_3}
+``` python
+
+from aspose.imaging import Image
+from aspose.imaging.imageoptions import DxfOptions
+#Create Image instance and initialize it with an existing image file from disk location
+with Image.load("input.svg") as image:
+	options = DxfOptions()
+	options.text_as_lines = True
+	options.convert_text_beziers = True
+	options.bezier_point_count = 20
+	image.save("output.dxf", options)
+
+
+```
 

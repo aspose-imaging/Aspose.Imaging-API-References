@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging/resolutionsetting/
 | [ResolutionSetting(horizontal_resolution, vertical_resolution)](#ResolutionSetting_horizontal_resolution_vertical_resolution_2) | Initializes a new instance of the [ResolutionSetting](/imaging/python-net/aspose.imaging/resolutionsetting/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | horizontal_resolution | double | r/w | Gets or sets the horizontal resolution. |
 | vertical_resolution | double | r/w | Gets or sets the vertical resolution. |
 

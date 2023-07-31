@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincont
 | [EmfPlusBeginContainer(source)](#EmfPlusBeginContainer_source_1) | Initializes a new instance of the [EmfPlusBeginContainer](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusbegincontainer/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | data_size | int | r/w | Gets or sets a 32-bit unsigned integer that MUST define the 32-bit–aligned number of<br/>            bytes of data in the RecordData field that follows. This number does not include the 12-byte record header. |
 | dest_rect | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets an EmfPlusRectF object (section 2.2.2.39) that, with SrcRect, specifies<br/>            a transform for the container. This transformation results in SrcRect when applied to DestRect. |
 | flags | short | r/w | Gets or sets a 16-bit unsigned integer that contains information for some records on how<br/>            the operation is to be performed and on the structure of the record. |

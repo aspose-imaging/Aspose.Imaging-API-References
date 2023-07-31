@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odimage
 | [OdImageObject(parent)](#OdImageObject_parent_1) | Initializes a new instance of the [OdImageObject](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.graphic/odimageobject/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | absolute_coordinates | bool | r/w | Gets or sets a value indicating whether [absolute coordinates]. |
 | bitmap | byte | r/w | Gets or sets the bitmap. |
 | image_link | string | r/w | Gets or sets the image link. |

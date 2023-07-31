@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging/size/
 | [Size(width, height)](#Size_width_height_3) | Initializes a new instance of the [Size](/imaging/python-net/aspose.imaging/size/) structure from the specified dimensions. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | empty [static] | [Size](/imaging/python-net/aspose.imaging/size) | r | Gets a new instance of the [Size](/imaging/python-net/aspose.imaging/size/) structure that has [Size.width](/imaging/python-net/aspose.imaging/size/) and [Size.height](/imaging/python-net/aspose.imaging/size/) values set to zero. |
 | height | int | r/w | Gets or sets the vertical component of this [Size](/imaging/python-net/aspose.imaging/size/). |
 | is_empty | bool | r | Gets a value indicating whether this [Size](/imaging/python-net/aspose.imaging/size/) has width and height of 0. |

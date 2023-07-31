@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusserializa
 | [EmfPlusSerializableObject(source)](#EmfPlusSerializableObject_source_1) | Initializes a new instance of the [EmfPlusSerializableObject](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusserializableobject/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | buffer | byte | r/w | Gets or sets an array of BufferSize bytes that contain the serialized image effects<br/>            parameter block that corresponds to the GUID in the ObjectGUID field. This MUST be one of<br/>            the Image Effects objects (section 2.2.3). |
 | buffer_size | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the size in bytes of the 32-bitaligned Buffer field. |
 | data_size | int | r/w | Gets or sets a 32-bit unsigned integer that MUST define the 32-bit–aligned number of<br/>            bytes of data in the RecordData field that follows. This number does not include the 12-byte record header. |

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.imageloadoptions/cdrloadoptions/
 | [CdrLoadOptions()](#CdrLoadOptions__1) | Initializes a new instance of the [CdrLoadOptions](/imaging/python-net/aspose.imaging.imageloadoptions/cdrloadoptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | data_background_color | [Color](/imaging/python-net/aspose.imaging/color) | r/w | Gets or sets the [Image](/imaging/python-net/aspose.imaging/image/) background [Color](/imaging/python-net/aspose.imaging/color/). |
 | data_recovery_mode | [DataRecoveryMode](/imaging/python-net/aspose.imaging/datarecoverymode) | r/w | Gets or sets the data recovery mode. |

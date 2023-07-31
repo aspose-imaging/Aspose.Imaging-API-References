@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.types/cdrgradientstop/
 | [CdrGradientStop()](#CdrGradientStop__1) | Initializes a new instance of the CdrGradientStop class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | color | [CdrColor](/imaging/python-net/aspose.imaging.fileformats.cdr.types/cdrcolor) | r/w | Gets or sets the color. |
 | offset | double | r/w | Gets or sets the offset. |
 

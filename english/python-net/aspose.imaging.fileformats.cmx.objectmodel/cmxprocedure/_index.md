@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxprocedure/
 | [CmxProcedure()](#CmxProcedure__1) | Initializes a new instance of the CmxProcedure class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bound_box | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets the bounding box. |
 | elements | list[ICmxDocElement] | r | Gets the elements. |
 

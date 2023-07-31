@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/
 | [XmpBasicPackage(prefix, namespace_uri)](#XmpBasicPackage_prefix_namespace_uri_2) | Initializes a new instance of the [XmpBasicPackage](/imaging/python-net/aspose.imaging.xmp.schemas.xmpbaseschema/xmpbasicpackage/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | RATING_MAX [static] | int | r | Rating max value. |
 | RATING_MIN [static] | int | r | Rating min value. |
 | RATING_REJECTED [static] | int | r | Rating rejected value. |

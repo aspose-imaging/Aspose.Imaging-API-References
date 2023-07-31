@@ -3,7 +3,7 @@ title: com.aspose.imaging.fileformats.emf.emfplus.objects
 second_title: Aspose.Imaging for Java API Reference
 description: The package contains types MS-EMFPLUS Enhanced Metafile Format Plus Extensions 2.2 EMF Objects.
 type: docs
-weight: 52
+weight: 49
 url: /java/com.aspose.imaging.fileformats.emf.emfplus.objects/
 ---
 

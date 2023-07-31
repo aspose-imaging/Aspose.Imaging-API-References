@@ -19,7 +19,7 @@ url: /python-net/aspose.imaging/transparencysupporter/
 | [TransparencySupporter()](#TransparencySupporter__1) | Initializes a new instance of the TransparencySupporter class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | opacity | float | r/w | Gets or sets the object's opacity. The value should be between 0 and 1. Value of 0 means that object is fully visible, value of 1 means the object is fully opaque. |
 
 

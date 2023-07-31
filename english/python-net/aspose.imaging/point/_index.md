@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging/point/
 | [Point(x, y)](#Point_x_y_4) | Initializes a new instance of the [Point](/imaging/python-net/aspose.imaging/point/) structure with the specified coordinates. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | empty [static] | [Point](/imaging/python-net/aspose.imaging/point) | r | Gets a new instance of the [Point](/imaging/python-net/aspose.imaging/point/) structure that has [Point.x](/imaging/python-net/aspose.imaging/point/) and [Point.y](/imaging/python-net/aspose.imaging/point/) values set to zero. |
 | is_empty | bool | r | Gets a value indicating whether this [Point](/imaging/python-net/aspose.imaging/point/) is empty. |
 | x | int | r/w | Gets or sets the x-coordinate of this [Point](/imaging/python-net/aspose.imaging/point/). |

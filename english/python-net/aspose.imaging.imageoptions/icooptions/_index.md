@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.imageoptions/icooptions/
 | [IcoOptions(format, bits_per_pixel)](#IcoOptions_format_bits_per_pixel_2) | Initializes a new instance of the [IcoOptions](/imaging/python-net/aspose.imaging.imageoptions/icooptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bits_per_pixel | int | r/w | Gets or sets the bits-per-pixel value. |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |

@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging/blend/
 | [Blend(count)](#Blend_count_2) | Initializes a new instance of the [Blend](/imaging/python-net/aspose.imaging/blend/) class with the specified number of factors and positions. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | factors | float | r/w | Gets or sets the array of blend factors for the gradient. |
 | positions | float | r/w | Gets or sets the array of blend positions for the gradient. |
 

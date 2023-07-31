@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfstretchdib/
 | [WmfStretchDib()](#WmfStretchDib__1) | WMFs the record. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | color_usage | [WmfColorUsageEnum](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfcolorusageenum/) | r/w | Gets or sets the color usage. |
 | dest_height | short | r/w | Gets or sets the height of the dest. |
 | dest_width | short | r/w | Gets or sets the width of the dest. |

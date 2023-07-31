@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool/
 | [EmfCommentEmfSpool(source)](#EmfCommentEmfSpool_source_2) | Initializes a new instance of the [EmfCommentEmfSpool](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfcommentemfspool/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | comment_identifier | EmfCommentRecordType.CommentIdentifierEnum | r/w | Gets or sets a 32-bit unsigned integer that identifies this comment record <br/>            as containing EMFSPOOL records. The value 0x00000000 identifies this as an <br/>            EMR_COMMENT_EMFSPOOL record. |
 | data_size | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the size, in bytes, of the <br/>            CommentIdentifier and CommentRecordParm fields in the RecordBuffer field that <br/>            follows. It MUST NOT include the size of itself or the size of the AlignmentPadding field, if <br/>            present |
 | emf_spool_record_identifier | EmfCommentEmfSpool.EmfSpoolRecordIdentifierEnum | r/w | Gets or sets a 32-bit unsigned integer that identifies the type of <br/>            EMR_COMMENT_EMFSPOOL record. |

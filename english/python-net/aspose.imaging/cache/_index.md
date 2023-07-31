@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging/cache/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | [allocated_disk_bytes_count](#allocated_disk_bytes_count1) [static] | long | r | Gets the allocated disk bytes count. |
 | [allocated_memory_bytes_count](#allocated_memory_bytes_count2) [static] | long | r | Gets the allocated in-memory bytes count. |
 | cache_folder [static] | string | r/w | Gets or sets the cache folder. |

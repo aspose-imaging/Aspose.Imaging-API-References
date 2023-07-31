@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging/sizef/
 | [SizeF(width, height)](#SizeF_width_height_4) | Initializes a new instance of the [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure from the specified dimensions. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | empty [static] | [SizeF](/imaging/python-net/aspose.imaging/sizef) | r | Gets a new instance of the [SizeF](/imaging/python-net/aspose.imaging/sizef/) structure that has [SizeF.width](/imaging/python-net/aspose.imaging/sizef/) and [SizeF.height](/imaging/python-net/aspose.imaging/sizef/) values set to zero. |
 | height | float | r/w | Gets or sets the vertical component of this [SizeF](/imaging/python-net/aspose.imaging/sizef/). |
 | is_empty | bool | r | Gets a value indicating whether this [SizeF](/imaging/python-net/aspose.imaging/sizef/) has zero width and height. |

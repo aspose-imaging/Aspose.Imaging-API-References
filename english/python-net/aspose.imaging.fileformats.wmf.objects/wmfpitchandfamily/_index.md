@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/
 | [WmfPitchAndFamily(pitch, family)](#WmfPitchAndFamily_pitch_family_3) | Initializes a new instance of the [WmfPitchAndFamily](/imaging/python-net/aspose.imaging.fileformats.wmf.objects/wmfpitchandfamily/)<br/>            struct. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | byte_data | byte | r/w | Sets the <see langword="byte" /> data. |
 | family | [WmfFamilyFont](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmffamilyfont/) | r | Gets A property of a font that describes its general appearance.<br/>                This MUST be a value in the FamilyFont enumeration |
 | pitch | [WmfPitchFont](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfpitchfont/) | r | Gets A property of a font that describes the pitch, of the<br/>                characters. This MUST be a value in the PitchFont enumeration. |

@@ -17,7 +17,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxcontainer/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | elements | list[ICmxDocElement] | r | Gets the elements. |
 
 

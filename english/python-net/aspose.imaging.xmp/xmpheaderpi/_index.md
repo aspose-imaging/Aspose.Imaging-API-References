@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.xmp/xmpheaderpi/
 | [XmpHeaderPi(guid)](#XmpHeaderPi_guid_2) | Initializes a new instance of the [XmpHeaderPi](/imaging/python-net/aspose.imaging.xmp/xmpheaderpi/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | guid | string | r/w | Represents Header Guid. |
 ## **Methods**
 | **Name** | **Description** |

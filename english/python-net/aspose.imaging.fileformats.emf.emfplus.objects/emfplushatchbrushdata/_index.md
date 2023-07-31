@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplushatchbrus
 | [EmfPlusHatchBrushData()](#EmfPlusHatchBrushData__1) | Initializes a new instance of the EmfPlusHatchBrushData class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | back_argb_32_color | int | r/w | Gets or sets a 32-bit EmfPlusArgb object that specifies the color used to paint the background of the hatch pattern. |
 | fore_argb_32_color | int | r/w | Gets or sets a 32-bit EmfPlusArgb object that specifies the color used to draw the lines of the hatch pattern. |
 | hatch_style | [EmfPlusHatchStyle](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplushatchstyle/) | r/w | Gets or sets a 32-bit unsigned integer that specifies the brush hatch style. It MUST be defined in the [EmfPlusHatchStyle](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplushatchstyle/) enumeration. |

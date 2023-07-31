@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargra
 | [EmfPlusLinearGradientBrushData()](#EmfPlusLinearGradientBrushData__1) | Initializes a new instance of the EmfPlusLinearGradientBrushData class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | brush_data_flags | [EmfPlusBrushDataFlags](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.consts/emfplusbrushdataflags/) | r/w | Gets or sets the brush data flags. |
 | end_argb_32_color | int | r/w | Gets or sets the end color. |
 | optional_data | [EmfPlusLinearGradientBrushOptionalData](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluslineargradientbrushoptionaldata) | r/w | Gets or sets the optional data. |

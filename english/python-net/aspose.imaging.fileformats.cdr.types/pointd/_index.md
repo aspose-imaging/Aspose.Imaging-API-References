@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.fileformats.cdr.types/pointd/
 | [PointD(x, y)](#PointD_x_y_2) | Initializes a new instance of the [PointD](/imaging/python-net/aspose.imaging.fileformats.cdr.types/pointd/) struct. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | x | double | r/w | Gets or sets the x. |
 | y | double | r/w | Gets or sets the y. |
 ## **Methods**

@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging.fileformats.gif/gifblocksregistry/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | registered_descriptors [static] | [IGifBlockLoaderDescriptor[]](/imaging/python-net/aspose.imaging.fileformats.gif/igifblockloaderdescriptor) | r | Gets the registered descriptors. |
 ## **Methods**
 | **Name** | **Description** |

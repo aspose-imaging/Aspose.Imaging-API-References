@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalet
 | [EmfColorCorrectPalette(source)](#EmfColorCorrectPalette_source_1) | Initializes a new instance of the [EmfColorCorrectPalette](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfcolorcorrectpalette/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | ih_palette | int | r/w | Gets or sets a 32-bit unsigned integer that specifies index of a logical palette object<br/>            (section 2.2.17) in the EMF Object Table (section 3.1.1.1). |
 | n_first_entry | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the index of the first entry to correct. |
 | n_pal_entries | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the number of palette entries to correct. |

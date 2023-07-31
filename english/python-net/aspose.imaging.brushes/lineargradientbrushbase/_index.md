@@ -17,7 +17,7 @@ url: /python-net/aspose.imaging.brushes/lineargradientbrushbase/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | angle | float | r/w | Gets or sets the gradient angle. |
 | disposed | bool | r | Gets a value indicating whether this instance is disposed. |
 | gamma_correction | bool | r/w | Gets or sets a value indicating whether gamma correction is enabled for this [LinearGradientBrushBase](/imaging/python-net/aspose.imaging.brushes/lineargradientbrushbase/). |

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscustomlin
 | [EmfPlusCustomLineCapArrowData()](#EmfPlusCustomLineCapArrowData__1) | Initializes a new instance of the EmfPlusCustomLineCapArrowData class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | fill_hot_spot | [PointF](/imaging/python-net/aspose.imaging/pointf) | r/w | Gets or sets EmfPlusPointF object that is not currently used. It MUST be set to {0.0, 0.0}. |
 | fill_state | bool | r/w | Gets or sets a 32-bit Boolean value that specifies whether the arrow cap is filled. If the arrow cap is <br/>            not filled, only the outline is drawn |
 | height | float | r/w | Gets or sets a 32-bit floating-point value that specifies <br/>            the height of the arrow cap. |

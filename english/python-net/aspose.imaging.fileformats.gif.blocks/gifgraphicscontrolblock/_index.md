@@ -23,7 +23,7 @@ url: /python-net/aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/
 | [GifGraphicsControlBlock(flags, delay_time, transparent_color_index)](#GifGraphicsControlBlock_flags_delay_time_transparent_color_index_3) | Initializes a new instance of the [GifGraphicsControlBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifgraphicscontrolblock/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | BLOCK_HEADER_SIZE [static] | int | r | Specifies the block header size. |
 | EXTENSION_INTRODUCER [static] | byte | r | Extension introducer. |
 | EXTENSION_LABEL [static] | byte | r | Extension label. |

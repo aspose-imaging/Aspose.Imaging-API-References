@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfpolygon/
 | [WmfPolygon()](#WmfPolygon__1) | Initializes a new instance of the WmfPolygon class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | a_points | [Point[]](/imaging/python-net/aspose.imaging/point) | r/w | Gets or sets the points. A NumberOfPoints array of 32-bit PointS<br/>                Objects (section 2.2.2.16), in logical units. |
 | number_of_point | short | r/w | Gets or sets the number of point. A 16-bit signed integer that<br/>                defines the number of points in the array. |
 

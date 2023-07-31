@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfgradientrectangle
 | [EmfGradientRectangle()](#EmfGradientRectangle__1) | Initializes a new instance of the EmfGradientRectangle class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | lower_right | int | r/w | Gets or sets an index into an array of TriVertex objects that specifies the lower-right <br/>            vertex of a rectangle. The index MUST be smaller than the size of the array, as defined by the <br/>            nVer field of the EMR_GRADIENTFILL record. |
 | upper_left | int | r/w | Gets or sets an index into an array of TriVertex objects that specifies the upper-left <br/>            vertex of a rectangle. The index MUST be smaller than the size of the array, as defined by the <br/>            nVer field of the EMR_GRADIENTFILL record. |
 

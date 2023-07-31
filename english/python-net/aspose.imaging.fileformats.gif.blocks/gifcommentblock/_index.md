@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.gif.blocks/gifcommentblock/
 | [GifCommentBlock(comment)](#GifCommentBlock_comment_2) | Initializes a new instance of the [GifCommentBlock](/imaging/python-net/aspose.imaging.fileformats.gif.blocks/gifcommentblock/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | BLOCK_HEADER_SIZE [static] | int | r | Defines the block header size. |
 | EXTENSION_INTRODUCER [static] | byte | r | Extension introducer. |
 | EXTENSION_LABEL [static] | byte | r | Gif comment block extension label. |

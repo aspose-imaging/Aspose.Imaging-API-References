@@ -24,7 +24,7 @@ url: /python-net/aspose.imaging.imageoptions/tiffoptions/
 | [TiffOptions(tags)](#TiffOptions_tags_4) | Initializes a new instance of the TiffOptions class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | alpha_storage | [TiffAlphaStorage](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffalphastorage/) | r/w | Gets or sets the alpha storage option. Options other than [TiffAlphaStorage.UNSPECIFIED](/imaging/python-net/aspose.imaging.fileformats.tiff.enums/tiffalphastorage/)<br/>            are used when there are more than 3 [TiffOptions.samples_per_pixel](/imaging/python-net/aspose.imaging.imageoptions/tiffoptions/) defined. |
 | artist | string | r/w | Gets or sets the artist. |
 | bits_per_pixel | int | r | Gets the bits per pixel. |
@@ -400,4 +400,69 @@ Removes the tags.
 | :- | :- |
 | bool | <see langword="true" /> if tag collection size changed. |
 
+
+## **Examples**
+### This examples make use of GraphicsPath and Graphics classes to create and manipulate figures on an Image surface. Example creates a new Image (of type Tiff), clears the surface and draws paths with the help of GraphicsPath class. At the end `draw_path` method exposed by Graphics class is called to render the paths on surface. {#example_13}
+``` python
+
+from aspose.imaging import Image, Graphics, Color, GraphicsPath, Figure, RectangleF, PointF, SizeF
+from aspose.imaging import Pen
+from aspose.imaging.sources import StreamSource
+from aspose.imaging.imageoptions import TiffOptions
+from aspose.imaging.fileformats.tiff.enums import TiffExpectedFormat
+from aspose.imaging.shapes import RectangleShape, EllipseShape, PieShape
+
+
+# Create an instance of a file stream
+with open(r"C:\temp\output.tiff", "w+b") as stream:
+	# Create an instance of TiffOptions and set its various properties
+	tiffOptions = TiffOptions(TiffExpectedFormat.DEFAULT)
+	# Set the source for the instance of ImageOptions
+	tiffOptions.source = StreamSource(stream)
+	# Create an instance of Image
+	with Image.create(tiffOptions, 500, 500) as image:
+		# Create and initialize an instance of Graphics class
+		graphics = Graphics(image)
+		# Clear Graphics surface
+		graphics.clear(Color.wheat);
+		# Create an instance of GraphicsPath class
+		graphics_path = GraphicsPath()
+		# Create an instance of Figure class
+		figure = Figure()
+		# Add Shapes to Figure object
+		figure.add_shape(RectangleShape(RectangleF(10.0, 10.0, 300.0, 300.0)))
+		figure.add_shape(EllipseShape(RectangleF(50.0, 50.0, 300.0, 300.0)))
+		figure.add_shape(PieShape(RectangleF(PointF(250.0, 250.0), SizeF(200.0, 200.0)), 0.0, 45.0))
+		# Add Figure object to GraphicsPath
+		graphics_path.add_figure(figure)
+		# Draw path with Pen object of color Black
+		graphics.draw_path(Pen(Color.black, 2.0), graphics_path)
+		# save all changes.
+		image.save()
+
+
+```
+
+### This example demonstrates the use of different classes from `imageoptions` package for export purposes. A gif image is loaded as an instance of Image and then exported out to several formats. {#example_15}
+``` python
+
+from aspose.imaging import Image
+from aspose.imaging.imageoptions import BmpOptions, JpegOptions, PngOptions, TiffOptions
+from aspose.imaging.fileformats.tiff.enums import TiffExpectedFormat
+from os.path import join as path_join
+
+directory = "c:\\temp\\"
+#Load an existing gif image as an instance of Image class
+with Image.load(path_join(directory, "sample.gif")) as image:
+	# Export to BMP file format using the default options
+	image.save(path_join(directory, "output.bmp"), BmpOptions())
+	# Export to JPEG file format using the default options
+	image.save(path_join(directory, "output.jpg"), JpegOptions())
+	# Export to PNG file format using the default options
+	image.save(path_join(directory, "output.png"), PngOptions())
+	# Export to TIFF file format using the default options
+	image.save(path_join(directory, "output.tif"), TiffOptions(TiffExpectedFormat.DEFAULT))
+
+
+```
 

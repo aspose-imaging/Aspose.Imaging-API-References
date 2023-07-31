@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfplusregionnod
 | [EmfPlusRegionNodePath()](#EmfPlusRegionNodePath__1) | Initializes a new instance of the EmfPlusRegionNodePath class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | region_node_path | [EmfPlusPath](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluspath) | r/w | Gets or sets an EmfPlusPath object (section 2.2.1.6) that specifies<br/>            the boundary of the region node. |
 
 

@@ -17,7 +17,7 @@ url: /python-net/aspose.imaging.imagefilters.filteroptions/convolutionfilteropti
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bias | int | r/w | Gets or sets the bias. |
 | factor | double | r/w | Gets or sets the factor. |
 

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.xmp.types.complex/complextypebase/
 | [ComplexTypeBase(prefix, namespace_uri)](#ComplexTypeBase_prefix_namespace_uri_1) | Initializes a new instance of the [ComplexTypeBase](/imaging/python-net/aspose.imaging.xmp.types.complex/complextypebase/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | namespace_uri | string | r | Gets the default namespace URI. |
 | prefix | string | r | Gets the prefix. |
 ## **Methods**

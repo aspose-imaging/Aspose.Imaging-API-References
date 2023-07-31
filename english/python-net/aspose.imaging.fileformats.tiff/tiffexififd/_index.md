@@ -20,7 +20,7 @@ url: /python-net/aspose.imaging.fileformats.tiff/tiffexififd/
 | [TiffExifIfd(ifd_offset)](#TiffExifIfd_ifd_offset_2) | Initializes a new instance of the [TiffExifIfd](/imaging/python-net/aspose.imaging.fileformats.tiff/tiffexififd/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | has_value | bool | r | Gets a value indicating whether this instance has value. |
 | offset | uint | r/w | Gets or sets the pointer to EXIF IFD. |
 

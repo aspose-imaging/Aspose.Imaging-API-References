@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.core.vectorpaths/lengthrecord/
 | [LengthRecord(data)](#LengthRecord_data_2) | Initializes a new instance of the [LengthRecord](/imaging/python-net/aspose.imaging.fileformats.core.vectorpaths/lengthrecord/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bezier_knot_records_count | int | r/w | Gets or sets the bezier knot records count. |
 | is_closed | bool | r/w | Gets or sets a value indicating whether this instance is closed. |
 | is_open | bool | r/w | Gets or sets a value indicating whether this instance is open. |

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxlayer/
 | [CmxLayer()](#CmxLayer__1) | Initializes a new instance of the CmxLayer class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | MASTER_DESKTOP_LAYER_NAME [static] | string | r | The master desktop layer name |
 | elements | list[ICmxDocElement] | r | Gets the elements. |
 | flags | uint | r/w | Gets or sets the flags. |

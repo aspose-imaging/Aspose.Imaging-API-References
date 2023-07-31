@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfsetstretchbltmode/
 | [WmfSetStretchbltMode()](#WmfSetStretchbltMode__1) | Initializes a new instance of the WmfSetStretchbltMode class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | reserved | int | r/w | Gets or sets the reserved. |
 | stretch_mode | [StretchMode](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/stretchmode/) | r/w | Gets or sets the stretch mode. |
 

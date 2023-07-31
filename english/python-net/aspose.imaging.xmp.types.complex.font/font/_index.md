@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.xmp.types.complex.font/font/
 | [Font(font_family)](#Font_font_family_2) | Initializes a new instance of the [Font](/imaging/python-net/aspose.imaging.xmp.types.complex.font/font/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | child_font_files | string | r/w | Gets or sets the array of file names for the fonts that make up a composite font. |
 | font_face | string | r/w | Gets or sets the font face. |
 | font_family | string | r/w | Gets or sets the font family. |

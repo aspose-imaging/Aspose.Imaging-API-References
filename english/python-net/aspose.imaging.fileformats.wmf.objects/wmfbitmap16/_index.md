@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.wmf.objects/wmfbitmap16/
 | [WmfBitmap16()](#WmfBitmap16__1) | Initializes a new instance of the WmfBitmap16 class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bits | byte | r/w | Gets or sets the bits. |
 | bits_pixel | byte | r/w | Gets or sets the bits pixel. |
 | height | short | r/w | Gets or sets the height. |

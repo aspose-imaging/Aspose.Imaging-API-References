@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.tiff.tifftagtypes/tiffshorttype/
 | [TiffShortType(tag_id)](#TiffShortType_tag_id_2) | Initializes a new instance of the TiffShortType class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | count | ulong | r | Gets the count of elements. |
 | data_size | ulong | r | Gets the tag value size. |
 | element_size | byte | r | Gets the element size in bytes. |

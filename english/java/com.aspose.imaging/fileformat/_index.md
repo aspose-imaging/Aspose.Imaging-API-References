@@ -17,7 +17,7 @@ One of supported imaging file formats.
 
 | Field | Description |
 | --- | --- |
-| [Undefined](#Undefined) | Undefined file format. |
+| [Unknown](#Unknown) | Unknown file format. |
 | [Custom](#Custom) | Custom file format. |
 | [Bmp](#Bmp) | Bmp (Dib) file format. |
 | [Gif](#Gif) | Gif file format. |
@@ -103,13 +103,13 @@ if (format == com.aspose.imaging.FileFormat.Bmp) {
 System.out.println("The file format is " + strFormat);
 ```
 
-### Undefined {#Undefined}
+### Unknown {#Unknown}
 ```
-public static final long Undefined
+public static final long Unknown
 ```
 
 
-Undefined file format.
+Unknown file format.
 
 ### Custom {#Custom}
 ```

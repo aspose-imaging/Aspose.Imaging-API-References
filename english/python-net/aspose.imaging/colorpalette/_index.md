@@ -24,7 +24,7 @@ url: /python-net/aspose.imaging/colorpalette/
 | [ColorPalette(entries, is_compact_palette)](#ColorPalette_entries_is_compact_palette_4) | Initializes a new instance of the ColorPalette class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | argb_32_entries | int | r | Gets an array of 32-bit ARGB structures. |
 | entries | [Color[]](/imaging/python-net/aspose.imaging/color) | r | Gets an array of [Color](/imaging/python-net/aspose.imaging/color/) structures. |
 | entries_count | int | r | Gets the entries count. |

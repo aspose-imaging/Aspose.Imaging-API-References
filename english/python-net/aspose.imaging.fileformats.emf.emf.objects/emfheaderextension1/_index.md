@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfheaderextension1/
 | [EmfHeaderExtension1()](#EmfHeaderExtension1__1) | Initializes a new instance of the EmfHeaderExtension1 class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | b_open_gl | int | r/w | Gets or sets a 32-bit unsigned integer that indicates whether OpenGL commands are present in the metafile.<br/>            0x00000000 OpenGL records are not present in the metafile.<br/>            0x00000001 OpenGL records are present in the metafile. |
 | bounds | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets a WMF RectL object ([MS-WMF] section 2.2.2.19) that specifies the rectangular inclusive-inclusive <br/>            bounds in device units of the smallest rectangle that can be drawn around the image stored in <br/>            the metafile |
 | bytes | int | r/w | Gets or sets  32-bit unsigned integer that specifies the size of the metafile, in bytes. |

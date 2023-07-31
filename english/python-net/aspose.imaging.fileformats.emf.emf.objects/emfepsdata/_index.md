@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emfepsdata/
 | [EmfEpsData()](#EmfEpsData__1) | Initializes a new instance of the EmfEpsData class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | points | [EmfPoint28To4[]](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfpoint28to4) | r/w | Gets or sets an array of three Point28_4 objects (section 2.2.23) that defines the <br/>            coordinates of the output parallelogram using 28.4 bit FIX notation |
 | post_script_data | byte | r/w | Gets or sets an array of bytes of PostScript data. The length of this array can <br/>            be computed from the SizeData field. This data MAY be used to render an image. |
 | size_data | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the total size of this object, in bytes |

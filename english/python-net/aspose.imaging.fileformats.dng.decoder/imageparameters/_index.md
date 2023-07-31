@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging.fileformats.dng.decoder/imageparameters/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | camera_manufacturer | string | r | Gets the camera manufacturer. |
 | colors_count | int | r | Gets the colors. |
 | description | string | r | Gets the description of colors (RGBG,RGBE,GMCY, or GBTG). |

@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emflogfontexdv/
 | [EmfLogFontExDv(emf_log_font_ex)](#EmfLogFontExDv_emf_log_font_ex_1) | Initializes a new instance of the [EmfLogFontExDv](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emflogfontexdv/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | char_set | [WmfCharacterSet](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfcharacterset/) | r/w | Gets or sets an 8-bit unsigned integer that specifies the set of character glyphs. It MUST <br/>            be a value in the WMF CharacterSet enumeration ([MS-WMF] section 2.1.1.5). If the <br/>            character set is unknown, metafile processing SHOULD NOT attempt to translate or interpret <br/>            strings that are rendered with that font. |
 | clip_precision | [WmfClipPrecisionFlags](/imaging/python-net/aspose.imaging.fileformats.wmf.consts/wmfclipprecisionflags/) | r/w | Gets or sets an 8-bit unsigned integer that specifies the clipping precision. The <br/>            clipping precision defines how to clip characters that are partially outside the clipping region. <br/>            It can be one or more of the WMF ClipPrecision Flags |
 | design_vector | [EmfDesignVector](/imaging/python-net/aspose.imaging.fileformats.emf.emf.objects/emfdesignvector) | r/w | Gets or sets a DesignVector object (section 2.2.3). This field MUST NOT be longer than 72 bytes. |

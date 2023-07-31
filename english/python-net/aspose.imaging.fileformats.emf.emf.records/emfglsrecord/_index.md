@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfglsrecord/
 | [EmfGlsRecord(source)](#EmfGlsRecord_source_1) | Initializes a new instance of the [EmfGlsRecord](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfglsrecord/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | cb_data | int | r/w | Gets or sets a 32-bit unsigned integer that specifies the size, in bytes, of the Data field.<br/>            If this value is zero, no data is attached to this record. |
 | data | byte | r/w | Gets or sets an optional array of bytes of cbData length that specifies data for the OpenGL function. |
 | size | int | r/w | Gets or sets the size of the record |

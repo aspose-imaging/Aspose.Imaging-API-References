@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.objects/emfpluscharacter
 | [EmfPlusCharacterRange()](#EmfPlusCharacterRange__1) | Initializes a new instance of the EmfPlusCharacterRange class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | first | int | r/w | Gets or sets a 32-bit signed integer that<br/>            specifies the first position of this range. |
 | length | int | r/w | Gets or sets a 32-bit signed integer that specifies<br/>            the number of positions in this range |
 

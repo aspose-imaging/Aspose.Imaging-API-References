@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.imageoptions/jpegoptions/
 | [JpegOptions(jpeg_options)](#JpegOptions_jpeg_options_2) | Initializes a new instance of the [JpegOptions](/imaging/python-net/aspose.imaging.imageoptions/jpegoptions/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bits_per_channel | byte | r/w | Gets or sets bits per channel for lossless jpeg image. Now we support from 2 to 8 bits per channel. |
 | buffer_size_hint | int | r/w | Gets or sets the buffer size hint which is defined max allowed size for all internal buffers. |
 | cmyk_color_profile | [StreamSource](/imaging/python-net/aspose.imaging.sources/streamsource/) | r/w | The destination CMYK color profile for CMYK jpeg images. Use for saving images. Must be in pair with RGBColorProfile for correct color conversion. |
@@ -97,4 +97,28 @@ Clones this instance.
 | :- | :- |
 | [ImageOptionsBase](/imaging/python-net/aspose.imaging/imageoptionsbase) | Returns shallow copy of this instance |
 
+
+## **Examples**
+### This example demonstrates the use of different classes from `imageoptions` package for export purposes. A gif image is loaded as an instance of Image and then exported out to several formats. {#example_15}
+``` python
+
+from aspose.imaging import Image
+from aspose.imaging.imageoptions import BmpOptions, JpegOptions, PngOptions, TiffOptions
+from aspose.imaging.fileformats.tiff.enums import TiffExpectedFormat
+from os.path import join as path_join
+
+directory = "c:\\temp\\"
+#Load an existing gif image as an instance of Image class
+with Image.load(path_join(directory, "sample.gif")) as image:
+	# Export to BMP file format using the default options
+	image.save(path_join(directory, "output.bmp"), BmpOptions())
+	# Export to JPEG file format using the default options
+	image.save(path_join(directory, "output.jpg"), JpegOptions())
+	# Export to PNG file format using the default options
+	image.save(path_join(directory, "output.png"), PngOptions())
+	# Export to TIFF file format using the default options
+	image.save(path_join(directory, "output.tif"), TiffOptions(TiffExpectedFormat.DEFAULT))
+
+
+```
 

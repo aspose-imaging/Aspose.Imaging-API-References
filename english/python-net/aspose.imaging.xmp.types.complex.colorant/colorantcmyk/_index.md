@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.xmp.types.complex.colorant/colorantcmyk/
 | [ColorantCmyk(black, cyan, magenta, yellow)](#ColorantCmyk_black_cyan_magenta_yellow_2) | Initializes a new instance of the [ColorantCmyk](/imaging/python-net/aspose.imaging.xmp.types.complex.colorant/colorantcmyk/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | COLOR_VALUE_MAX [static] | float | r | Color max value in CMYK colorant. |
 | COLOR_VALUE_MIN [static] | float | r | Color min value in CMYK colorant. |
 | black | float | r/w | Gets or sets the black component value. |

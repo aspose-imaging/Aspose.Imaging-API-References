@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging.fileformats.opendocument.objects.brush/odbrush/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | brush_style | [OdBrushStyle](/imaging/python-net/aspose.imaging.fileformats.opendocument.objects.brush/odbrushstyle) | r | Gets the style. |
 ## **Methods**
 | **Name** | **Description** |

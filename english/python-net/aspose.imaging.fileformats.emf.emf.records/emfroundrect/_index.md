@@ -22,7 +22,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.records/emfroundrect/
 | [EmfRoundRect(source)](#EmfRoundRect_source_2) | Initializes a new instance of the [EmfRoundRect](/imaging/python-net/aspose.imaging.fileformats.emf.emf.records/emfroundrect/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | box | [Rectangle](/imaging/python-net/aspose.imaging/rectangle) | r/w | Gets or sets a 128-bit WMF RectL object, specified in [MS-WMF] section 2.2.2.19, which <br/>            specifies the inclusive-inclusive rectangle to draw. |
 | corner | [Size](/imaging/python-net/aspose.imaging/size) | r/w | Gets or sets a 64-bit WMF SizeL object, specified in [MS-WMF] section 2.2.2.22, which <br/>            specifies the width and height, in logical coordinates, of the ellipse used to draw the rounded corners. |
 | size | int | r/w | Gets or sets the size of the record |

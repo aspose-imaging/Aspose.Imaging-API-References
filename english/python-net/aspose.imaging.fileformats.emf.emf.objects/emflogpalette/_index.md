@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emf.objects/emflogpalette/
 | [EmfLogPalette()](#EmfLogPalette__1) | Initializes a new instance of the EmfLogPalette class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | palette_argb_32_entries | int | r/w | Gets or sets an array of 32-bit ARGB colors. |
 | version | short | r/w | Gets or sets a 16-bit unsigned integer that specifies the version number of the system. <br/>            This MUST be 0x0300. |
 

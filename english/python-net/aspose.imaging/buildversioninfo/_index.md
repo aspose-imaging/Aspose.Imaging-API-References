@@ -15,7 +15,7 @@ url: /python-net/aspose.imaging/buildversioninfo/
 
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | ASSEMBLY_VERSION [static] | string | r | The assembly version. |
 | FILE_VERSION [static] | string | r | The file version. |
 | PRODUCT [static] | string | r | The product title. |

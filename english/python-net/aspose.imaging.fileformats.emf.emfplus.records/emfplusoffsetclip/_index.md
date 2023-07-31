@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusoffsetcli
 | [EmfPlusOffsetClip(source)](#EmfPlusOffsetClip_source_1) | Initializes a new instance of the [EmfPlusOffsetClip](/imaging/python-net/aspose.imaging.fileformats.emf.emfplus.records/emfplusoffsetclip/) class. |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | data_size | int | r/w | Gets or sets a 32-bit unsigned integer that MUST define the 32-bit–aligned number of<br/>            bytes of data in the RecordData field that follows. This number does not include the 12-byte record header. |
 | dx | float | r/w | Gets or sets a 32-bit floating-point value that specifies the horizontal offset for the translation. |
 | dy | float | r/w | Gets or sets a 32-bit floating-point value that specifies the vertical offset for the translation. |

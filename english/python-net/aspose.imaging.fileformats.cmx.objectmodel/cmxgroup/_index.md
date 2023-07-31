@@ -21,7 +21,7 @@ url: /python-net/aspose.imaging.fileformats.cmx.objectmodel/cmxgroup/
 | [CmxGroup()](#CmxGroup__1) | Initializes a new instance of the CmxGroup class |
 ## **Properties**
 | **Name** | **Type** | **Access** | **Description** |
-| :- | :- | :- |
+| :- | :- | :- | :- |
 | bound_box | [RectangleF](/imaging/python-net/aspose.imaging/rectanglef) | r/w | Gets or sets the bounding box. |
 | elements | list[ICmxDocElement] | r | Gets the elements. |
 
