@@ -3,7 +3,7 @@ title: Dither
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.imaging/rasterimage/dither/
 ---
 ## RasterImage.Dither method (1 of 2)

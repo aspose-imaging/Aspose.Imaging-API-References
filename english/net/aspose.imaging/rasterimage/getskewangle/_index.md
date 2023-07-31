@@ -3,7 +3,7 @@ title: GetSkewAngle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 340
+weight: 350
 url: /net/aspose.imaging/rasterimage/getskewangle/
 ---
 ## RasterImage.GetSkewAngle method

@@ -3,7 +3,7 @@ title: Crop
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 250
+weight: 260
 url: /net/aspose.imaging/rasterimage/crop/
 ---
 ## RasterImage.Crop method (1 of 2)

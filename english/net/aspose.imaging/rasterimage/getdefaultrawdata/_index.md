@@ -3,7 +3,7 @@ title: GetDefaultRawData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 310
+weight: 320
 url: /net/aspose.imaging/rasterimage/getdefaultrawdata/
 ---
 ## RasterImage.GetDefaultRawData method (1 of 2)

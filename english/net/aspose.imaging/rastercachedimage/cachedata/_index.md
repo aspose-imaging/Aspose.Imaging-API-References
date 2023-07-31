@@ -3,7 +3,7 @@ title: CacheData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.imaging/rastercachedimage/cachedata/
 ---
 ## RasterCachedImage.CacheData method

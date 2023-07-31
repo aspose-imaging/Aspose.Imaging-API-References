@@ -92,6 +92,8 @@ public class TgaImage : RasterCachedImage
 | override [BinarizeBradley](../../aspose.imaging/rastercachedimage/binarizebradley)(double, int) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeFixed](../../aspose.imaging/rastercachedimage/binarizefixed)(byte) | Binarization of an image with predefined threshold |
 | override [BinarizeOtsu](../../aspose.imaging/rastercachedimage/binarizeotsu)() | Binarization of an image with Otsu thresholding |
+| [Blend](../../aspose.imaging/rasterimage/blend)(Point, RasterImage, byte) | Blends this image instance with the *overlay*. |
+| override [Blend](../../aspose.imaging/rastercachedimage/blend)(Point, RasterImage, Rectangle, byte) | Blends this image instance with the *overlay*. |
 | override [CacheData](../../aspose.imaging/rastercachedimage/cachedata)() | Caches the data and ensures no additional data loading will be performed from the underlying [`DataStreamContainer`](../../aspose.imaging/datastreamsupporter/datastreamcontainer). |
 | [CanSave](../../aspose.imaging/image/cansave)(ImageOptionsBase) | Determines whether image can be saved to the specified file format represented by the passed save options. |
 | [Clone](../../aspose.imaging.fileformats.tga/tgaimage/clone)() | Creates a new object that is a copy of the current instance. |

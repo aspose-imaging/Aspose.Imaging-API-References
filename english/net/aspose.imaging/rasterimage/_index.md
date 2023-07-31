@@ -65,6 +65,8 @@ public abstract class RasterImage : Image, IRasterImageArgb32PixelLoader
 | virtual [BinarizeBradley](../../aspose.imaging/rasterimage/binarizebradley)(double, int) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | virtual [BinarizeFixed](../../aspose.imaging/rasterimage/binarizefixed)(byte) | Binarization of an image with predefined threshold |
 | virtual [BinarizeOtsu](../../aspose.imaging/rasterimage/binarizeotsu)() | Binarization of an image with Otsu thresholding |
+| [Blend](../../aspose.imaging/rasterimage/blend)(Point, RasterImage, byte) | Blends this image instance with the *overlay*. |
+| virtual [Blend](../../aspose.imaging/rasterimage/blend)(Point, RasterImage, Rectangle, byte) | Blends this image instance with the *overlay*. |
 | abstract [CacheData](../../aspose.imaging/datastreamsupporter/cachedata)() | Caches the data and ensures no additional data loading will be performed from the underlying [`DataStreamContainer`](../datastreamsupporter/datastreamcontainer). |
 | [CanSave](../../aspose.imaging/image/cansave)(ImageOptionsBase) | Determines whether image can be saved to the specified file format represented by the passed save options. |
 | virtual [Crop](../../aspose.imaging/rasterimage/crop)(Rectangle) | Crops the specified rectangle. |

@@ -3,7 +3,7 @@ title: GetDefaultPixels
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 300
+weight: 310
 url: /net/aspose.imaging/rasterimage/getdefaultpixels/
 ---
 ## RasterImage.GetDefaultPixels method

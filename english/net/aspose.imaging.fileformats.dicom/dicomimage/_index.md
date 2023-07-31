@@ -82,6 +82,8 @@ public sealed class DicomImage : RasterCachedMultipageImage, IMultipageImageExt
 | override [BinarizeBradley](../../aspose.imaging.fileformats.dicom/dicomimage/binarizebradley)(double, int) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeFixed](../../aspose.imaging.fileformats.dicom/dicomimage/binarizefixed)(byte) | Binarization of an image with predefined threshold |
 | override [BinarizeOtsu](../../aspose.imaging.fileformats.dicom/dicomimage/binarizeotsu)() | Binarization of an image with Otsu thresholding |
+| [Blend](../../aspose.imaging/rasterimage/blend)(Point, RasterImage, byte) | Blends this image instance with the *overlay*. |
+| override [Blend](../../aspose.imaging/rastercachedimage/blend)(Point, RasterImage, Rectangle, byte) | Blends this image instance with the *overlay*. |
 | override [CacheData](../../aspose.imaging.fileformats.dicom/dicomimage/cachedata)() | Caches the data private. |
 | [CanSave](../../aspose.imaging/image/cansave)(ImageOptionsBase) | Determines whether image can be saved to the specified file format represented by the passed save options. |
 | override [Crop](../../aspose.imaging.fileformats.dicom/dicomimage/crop)(Rectangle) | Cropping the image. |

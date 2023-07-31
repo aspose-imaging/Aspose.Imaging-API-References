@@ -3,7 +3,7 @@ title: GetArgb32Pixel
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.imaging/rasterimage/getargb32pixel/
 ---
 ## RasterImage.GetArgb32Pixel method

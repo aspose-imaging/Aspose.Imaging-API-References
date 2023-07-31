@@ -3,7 +3,7 @@ title: NormalizeAngle
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 440
+weight: 450
 url: /net/aspose.imaging/rasterimage/normalizeangle/
 ---
 ## RasterImage.NormalizeAngle method (1 of 2)

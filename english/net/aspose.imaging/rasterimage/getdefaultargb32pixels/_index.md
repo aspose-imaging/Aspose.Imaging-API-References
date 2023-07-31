@@ -3,7 +3,7 @@ title: GetDefaultArgb32Pixels
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 290
+weight: 300
 url: /net/aspose.imaging/rasterimage/getdefaultargb32pixels/
 ---
 ## RasterImage.GetDefaultArgb32Pixels method

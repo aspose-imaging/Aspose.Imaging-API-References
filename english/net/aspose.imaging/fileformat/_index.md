@@ -19,7 +19,7 @@ public enum FileFormat : ulong
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Undefined | `0` | Undefined file format. |
+| Unknown | `0` | Unknown file format. |
 | Custom | `1` | Custom file format. |
 | Bmp | `2` | Bmp (Dib) file format. |
 | Gif | `4` | Gif file format. |

@@ -3,7 +3,7 @@ title: LoadArgb32Pixels
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 360
+weight: 370
 url: /net/aspose.imaging/rasterimage/loadargb32pixels/
 ---
 ## RasterImage.LoadArgb32Pixels method

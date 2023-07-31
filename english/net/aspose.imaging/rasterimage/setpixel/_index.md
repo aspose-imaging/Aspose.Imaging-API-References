@@ -3,7 +3,7 @@ title: SetPixel
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 580
+weight: 590
 url: /net/aspose.imaging/rasterimage/setpixel/
 ---
 ## RasterImage.SetPixel method

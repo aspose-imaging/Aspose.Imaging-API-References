@@ -3,7 +3,7 @@ title: SaveRawData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 550
+weight: 560
 url: /net/aspose.imaging/rasterimage/saverawdata/
 ---
 ## RasterImage.SaveRawData method

@@ -3,7 +3,7 @@ title: SavePixels
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 540
+weight: 550
 url: /net/aspose.imaging/rasterimage/savepixels/
 ---
 ## RasterImage.SavePixels method
