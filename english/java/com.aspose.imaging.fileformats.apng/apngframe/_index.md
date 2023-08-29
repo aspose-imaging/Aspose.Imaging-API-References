@@ -37,6 +37,7 @@ The animated PNG image frame
 | [setBackgroundColor(boolean value)](#setBackgroundColor-boolean-) | A value indicating whether has background color. |
 | [getBackgroundColor()](#getBackgroundColor--) | Gets the background color. |
 | [setBackgroundColor(Color value)](#setBackgroundColor-com.aspose.imaging.Color-) | The background color. |
+| [isUseAlphaBlending()](#isUseAlphaBlending--) | Gets a value indicating whether [use alpha blending]. |
 | [getFullFrame()](#getFullFrame--) | Gets the full frame. |
 | [cacheData()](#cacheData--) | Caches the data and ensures no additional data loading will be performed from the underlying `DataStreamSupporter.DataStreamContainer`([DataStreamSupporter.getDataStreamContainer](../../com.aspose.imaging/datastreamsupporter\#getDataStreamContainer)). |
 ### getBitsPerPixel() {#getBitsPerPixel--}
@@ -224,6 +225,18 @@ The background color.
 | --- | --- | --- |
 | value | [Color](../../com.aspose.imaging/color) | the background color. |
 
+### isUseAlphaBlending() {#isUseAlphaBlending--}
+```
+public final boolean isUseAlphaBlending()
+```
+
+
+Gets a value indicating whether [use alpha blending].
+
+Value: `true` if [use alpha blending]; otherwise, `false`.
+
+**Returns:**
+boolean - a value indicating whether [use alpha blending].
 ### getFullFrame() {#getFullFrame--}
 ```
 public final RasterImage getFullFrame()

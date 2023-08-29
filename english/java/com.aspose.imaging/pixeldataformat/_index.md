@@ -67,7 +67,7 @@ The pixel data format. This is an immutable object.
 | [toString()](#toString--) | Returns a `System.String` that represents this instance. |
 ### Grayscale {#Grayscale}
 ```
-public static PixelDataFormat Grayscale
+public static final PixelDataFormat Grayscale
 ```
 
 

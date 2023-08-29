@@ -67,6 +67,7 @@ Gif frame block.
 | [getDisposalMethod()](#getDisposalMethod--) | Gets the disposal method. |
 | [getFlags()](#getFlags--) | Gets or sets the flags. |
 | [setFlags(byte value)](#setFlags-byte-) | Gets or sets the flags. |
+| [isUseAlphaBlending()](#isUseAlphaBlending--) | Gets a value indicating whether [use alpha blending]. |
 | [getControlBlock()](#getControlBlock--) | Gets the graphics control block associated with this block. |
 | [hasTransparentColor()](#hasTransparentColor--) | Gets a value indicating whether frame block has transparent color. |
 | [setTransparentColor(boolean value)](#setTransparentColor-boolean-) | Gets a value indicating whether frame block has transparent color. |
@@ -578,6 +579,18 @@ Gets or sets the flags.
 | --- | --- | --- |
 | value | byte | The flags. |
 
+### isUseAlphaBlending() {#isUseAlphaBlending--}
+```
+public boolean isUseAlphaBlending()
+```
+
+
+Gets a value indicating whether [use alpha blending].
+
+Value: `true` if [use alpha blending]; otherwise, `false`.
+
+**Returns:**
+boolean - a value indicating whether [use alpha blending].
 ### getControlBlock() {#getControlBlock--}
 ```
 public GifGraphicsControlBlock getControlBlock()

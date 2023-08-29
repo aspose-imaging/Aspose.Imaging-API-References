@@ -37,7 +37,7 @@ The tiff image.
 | [setVerticalResolution(double value)](#setVerticalResolution-double-) | Gets the vertical resolution, in pixels per inch, of this `Image`. |
 | [getActiveFrame()](#getActiveFrame--) | Gets or sets the active frame. |
 | [setActiveFrame(TiffFrame value)](#setActiveFrame-com.aspose.imaging.fileformats.tiff.TiffFrame-) | Gets or sets the active frame. |
-| [getFrames()](#getFrames--) | Gets Frames array of the image. |
+| [getFrames()](#getFrames--) | Gets the [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) array. |
 | [getExifData()](#getExifData--) | Gets EXIF data for the active frame. |
 | [setExifData(ExifData value)](#setExifData-com.aspose.imaging.exif.ExifData-) | Sets EXIF data for the active frame. |
 | [getPageCount()](#getPageCount--) | Gets the page count. |
@@ -521,10 +521,10 @@ public final TiffFrame[] getFrames()
 ```
 
 
-Gets Frames array of the image.
+Gets the [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) array.
 
 **Returns:**
-com.aspose.imaging.fileformats.tiff.TiffFrame[]
+com.aspose.imaging.fileformats.tiff.TiffFrame[] - the [TiffFrame](../../com.aspose.imaging.fileformats.tiff/tiffframe) array.
 
 **Example: The following example shows how to compose a mutlipage TIFF from individual raster images.**
 

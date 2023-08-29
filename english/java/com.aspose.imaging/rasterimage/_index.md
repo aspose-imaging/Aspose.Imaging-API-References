@@ -89,8 +89,8 @@ Represents a raster image supporting raster graphics operations.
 | [binarizeOtsu()](#binarizeOtsu--) | Binarization of an image with Otsu thresholding |
 | [binarizeBradley(double brightnessDifference)](#binarizeBradley-double-) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | [binarizeBradley(double brightnessDifference, int windowSize)](#binarizeBradley-double-int-) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
-| [blend(Point origin, RasterImage overlay, Rectangle overlayArea)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-) | Blends this image instance with the `overlay`. |
-| [blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte overlayAlpha)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-byte-) | Blends this image instance with the `overlay`. |
+| [blend(Point origin, RasterImage overlay, Rectangle overlayArea)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-) | Blends this image instance with the `overlay` image. |
+| [blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte overlayAlpha)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-byte-) | Blends this image instance with the `overlay` image. |
 | [blend(Point origin, RasterImage overlay)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-) | Blends this image instance with the `overlay` with alpha == 255. |
 | [blend(Point origin, RasterImage overlay, byte overlayAlpha)](#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-byte-) | Blends this image instance with the `overlay`. |
 | [grayscale()](#grayscale--) | Transformation of an image to its grayscale representation |
@@ -1966,13 +1966,13 @@ public final void blend(Point origin, RasterImage overlay, Rectangle overlayArea
 ```
 
 
-Blends this image instance with the `overlay`.
+Blends this image instance with the `overlay` image.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | origin | [Point](../../com.aspose.imaging/point) | The background image blending origin. |
-| overlay | [RasterImage](../../com.aspose.imaging/rasterimage) | The overlay. |
+| overlay | [RasterImage](../../com.aspose.imaging/rasterimage) | The overlay image. |
 | overlayArea | [Rectangle](../../com.aspose.imaging/rectangle) | The overlay area. |
 
 ### blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte overlayAlpha) {#blend-com.aspose.imaging.Point-com.aspose.imaging.RasterImage-com.aspose.imaging.Rectangle-byte-}
@@ -1981,13 +1981,13 @@ public void blend(Point origin, RasterImage overlay, Rectangle overlayArea, byte
 ```
 
 
-Blends this image instance with the `overlay`.
+Blends this image instance with the `overlay` image.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | origin | [Point](../../com.aspose.imaging/point) | The background image blending origin. |
-| overlay | [RasterImage](../../com.aspose.imaging/rasterimage) | The overlay. |
+| overlay | [RasterImage](../../com.aspose.imaging/rasterimage) | The overlay image. |
 | overlayArea | [Rectangle](../../com.aspose.imaging/rectangle) | The overlay area. |
 | overlayAlpha | byte | The overlay alpha. |
 

@@ -41,7 +41,7 @@ Represents the webp blocks openers registry.
 | [getFrameLeft()](#getFrameLeft--) | Gets the frame left offset. |
 | [getDisposalMethod()](#getDisposalMethod--) | Gets the disposal method. |
 | [setDisposalMethod(int value)](#setDisposalMethod-int-) | Sets the disposal method. |
-| [getUseAlphaBlending()](#getUseAlphaBlending--) | Gets the value indicating whether current frame gets blended with the previous frame alpha values. |
+| [isUseAlphaBlending()](#isUseAlphaBlending--) | Gets the value indicating whether current frame gets blended with the previous frame alpha values. |
 | [setUseAlphaBlending(boolean value)](#setUseAlphaBlending-boolean-) | Sets the value indicating whether current frame gets blended with the previous frame alpha values. |
 | [getFullFrame()](#getFullFrame--) | Gets the full frame. |
 ### WebPFrameBlock(RasterImage rasterImage) {#WebPFrameBlock-com.aspose.imaging.RasterImage-}
@@ -264,9 +264,9 @@ Value: The disposal method.
 | --- | --- | --- |
 | value | int | the disposal method. |
 
-### getUseAlphaBlending() {#getUseAlphaBlending--}
+### isUseAlphaBlending() {#isUseAlphaBlending--}
 ```
-public final boolean getUseAlphaBlending()
+public final boolean isUseAlphaBlending()
 ```
 
 

@@ -17,6 +17,7 @@ The Animation frame
 | [getFrameTime()](#getFrameTime--) | Gets the frame duration. |
 | [getFrameTop()](#getFrameTop--) | Gets the frame top offset. |
 | [getFrameLeft()](#getFrameLeft--) | Gets the frame left offset. |
+| [isUseAlphaBlending()](#isUseAlphaBlending--) | Gets a value indicating whether [use alpha blending]. |
 | [getDisposalMethod()](#getDisposalMethod--) | Gets the disposal method. |
 | [getFullFrame()](#getFullFrame--) | Gets the full frame. |
 ### getFrameTime() {#getFrameTime--}
@@ -49,6 +50,18 @@ Gets the frame left offset.
 
 **Returns:**
 int - the frame left offset.
+### isUseAlphaBlending() {#isUseAlphaBlending--}
+```
+public abstract boolean isUseAlphaBlending()
+```
+
+
+Gets a value indicating whether [use alpha blending].
+
+Value: `true` if [use alpha blending]; otherwise, `false`.
+
+**Returns:**
+boolean - a value indicating whether [use alpha blending].
 ### getDisposalMethod() {#getDisposalMethod--}
 ```
 public abstract int getDisposalMethod()
