@@ -3,7 +3,7 @@ title: ExtensionLabel
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.imaging.fileformats.gif.blocks/gifframeblock/extensionlabel/
 ---
 ## GifFrameBlock.ExtensionLabel field

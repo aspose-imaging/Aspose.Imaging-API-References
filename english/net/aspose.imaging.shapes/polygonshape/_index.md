@@ -3,7 +3,7 @@ title: PolygonShape
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11130
+weight: 11290
 url: /net/aspose.imaging.shapes/polygonshape/
 ---
 ## PolygonShape class

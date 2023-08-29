@@ -3,7 +3,7 @@ title: Time
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11520
+weight: 11680
 url: /net/aspose.imaging.xmp.schemas.xmpdm/time/
 ---
 ## Time class

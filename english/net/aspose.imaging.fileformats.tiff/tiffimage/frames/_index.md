@@ -8,7 +8,7 @@ url: /net/aspose.imaging.fileformats.tiff/tiffimage/frames/
 ---
 ## TiffImage.Frames property
 
-Gets Frames array of the image.
+Gets the [`TiffFrame`](../../tiffframe) array.
 
 ```csharp
 public TiffFrame[] Frames { get; }

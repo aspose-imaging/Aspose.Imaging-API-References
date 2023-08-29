@@ -3,7 +3,7 @@ title: ResolutionSetting
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11000
+weight: 11160
 url: /net/aspose.imaging/resolutionsetting/
 ---
 ## ResolutionSetting class

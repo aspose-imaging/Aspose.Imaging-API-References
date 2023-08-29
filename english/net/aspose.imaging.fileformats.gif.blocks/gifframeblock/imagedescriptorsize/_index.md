@@ -3,7 +3,7 @@ title: ImageDescriptorSize
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 270
+weight: 280
 url: /net/aspose.imaging.fileformats.gif.blocks/gifframeblock/imagedescriptorsize/
 ---
 ## GifFrameBlock.ImageDescriptorSize field

@@ -3,7 +3,7 @@ title: Matrix
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10680
+weight: 10840
 url: /net/aspose.imaging/matrix/
 ---
 ## Matrix class

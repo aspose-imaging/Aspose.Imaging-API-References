@@ -84,8 +84,8 @@ public sealed class DjvuImage : RasterCachedMultipageImage, INotifyPropertyChang
 | override [BinarizeBradley](../../aspose.imaging.fileformats.djvu/djvuimage/binarizebradley)(double, int) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeFixed](../../aspose.imaging.fileformats.djvu/djvuimage/binarizefixed)(byte) | Binarization of an image with predefined threshold |
 | override [BinarizeOtsu](../../aspose.imaging.fileformats.djvu/djvuimage/binarizeotsu)() | Binarization of an image with Otsu thresholding |
-| [Blend](../../aspose.imaging/rasterimage/blend)(Point, RasterImage, byte) | Blends this image instance with the *overlay*. |
-| override [Blend](../../aspose.imaging/rastercachedimage/blend)(Point, RasterImage, Rectangle, byte) | Blends this image instance with the *overlay*. |
+| [Blend](../../aspose.imaging/rasterimage/blend)(Point, RasterImage, byte) | Blends this image instance with the *overlay* image. |
+| override [Blend](../../aspose.imaging/rastercachedmultipageimage/blend)(Point, RasterImage, Rectangle, byte) | Blends this image instance with the *overlay* image. |
 | override [CacheData](../../aspose.imaging.fileformats.djvu/djvuimage/cachedata)() | Caches the data private. |
 | [CanSave](../../aspose.imaging/image/cansave)(ImageOptionsBase) | Determines whether image can be saved to the specified file format represented by the passed save options. |
 | override [Crop](../../aspose.imaging.fileformats.djvu/djvuimage/crop)(Rectangle) | Cropping the image. |

@@ -3,7 +3,7 @@ title: AdjustBrightness
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.imaging.fileformats.gif.blocks/gifframeblock/adjustbrightness/
 ---
 ## GifFrameBlock.AdjustBrightness method

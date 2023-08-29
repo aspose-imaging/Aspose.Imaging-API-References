@@ -37,7 +37,7 @@ public sealed class BigTiffImage : TiffImage
 | [Disposed](../../aspose.imaging/disposableobject/disposed) { get; } | Gets a value indicating whether this instance is disposed. |
 | [ExifData](../../aspose.imaging.fileformats.tiff/tiffimage/exifdata) { get; set; } | Gets or sets EXIF data for the active frame. |
 | override [FileFormat](../../aspose.imaging.fileformats.tiff/tiffimage/fileformat) { get; } | Gets a value of file format |
-| [Frames](../../aspose.imaging.fileformats.tiff/tiffimage/frames) { get; } | Gets Frames array of the image. |
+| [Frames](../../aspose.imaging.fileformats.tiff/tiffimage/frames) { get; } | Gets the [`TiffFrame`](../../aspose.imaging.fileformats.tiff/tiffframe) array. |
 | override [HasAlpha](../../aspose.imaging.fileformats.tiff/tiffimage/hasalpha) { get; } | Gets the Has alpha channel. |
 | virtual [HasBackgroundColor](../../aspose.imaging/image/hasbackgroundcolor) { get; set; } | Gets or sets a value indicating whether image has background color. |
 | override [HasTransparentColor](../../aspose.imaging/rastercachedmultipageimage/hastransparentcolor) { get; } | Gets a value indicating whether image has transparent color. |
@@ -84,8 +84,8 @@ public sealed class BigTiffImage : TiffImage
 | override [BinarizeBradley](../../aspose.imaging.fileformats.tiff/tiffimage/binarizebradley)(double, int) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeFixed](../../aspose.imaging.fileformats.tiff/tiffimage/binarizefixed)(byte) | Binarization of an image with predefined threshold |
 | override [BinarizeOtsu](../../aspose.imaging.fileformats.tiff/tiffimage/binarizeotsu)() | Binarization of an image with Otsu thresholding |
-| [Blend](../../aspose.imaging/rasterimage/blend)(Point, RasterImage, byte) | Blends this image instance with the *overlay*. |
-| override [Blend](../../aspose.imaging/rastercachedimage/blend)(Point, RasterImage, Rectangle, byte) | Blends this image instance with the *overlay*. |
+| [Blend](../../aspose.imaging/rasterimage/blend)(Point, RasterImage, byte) | Blends this image instance with the *overlay* image. |
+| override [Blend](../../aspose.imaging/rastercachedmultipageimage/blend)(Point, RasterImage, Rectangle, byte) | Blends this image instance with the *overlay* image. |
 | override [CacheData](../../aspose.imaging/rastercachedmultipageimage/cachedata)() | Caches the data private. |
 | [CanSave](../../aspose.imaging/image/cansave)(ImageOptionsBase) | Determines whether image can be saved to the specified file format represented by the passed save options. |
 | override [Crop](../../aspose.imaging.fileformats.tiff/tiffimage/crop)(Rectangle) | Cropping the image. |

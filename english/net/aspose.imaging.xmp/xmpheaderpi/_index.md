@@ -3,7 +3,7 @@ title: XmpHeaderPi
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11890
+weight: 12050
 url: /net/aspose.imaging.xmp/xmpheaderpi/
 ---
 ## XmpHeaderPi class

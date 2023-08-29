@@ -3,7 +3,7 @@ title: XmpMeta
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11900
+weight: 12060
 url: /net/aspose.imaging.xmp/xmpmeta/
 ---
 ## XmpMeta class

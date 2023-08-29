@@ -8,6 +8,86 @@ url: /net/aspose.imaging/image/resize/
 ---
 ## Image.Resize method (1 of 3)
 
+Resizes the image. The default NearestNeighbourResample is used.
+
+```csharp
+public void Resize(int newWidth, int newHeight)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newWidth | Int32 | The new width. |
+| newHeight | Int32 | The new height. |
+
+### Examples
+
+The following example shows how to resize a metafile (WMF and EMF).
+
+```csharp
+[C#]
+
+string dir = "c:\\aspose.imaging\\issues\\net\\3280\\";
+string[] fileNames = new[] { "image3.emf", "image4.wmf" };
+foreach (string fileName in fileNames)
+{
+    string inputFilePath = dir + fileName;
+    string outputFilePath = dir + "Downscale_" + fileName;
+
+    using (Aspose.Imaging.FileFormats.Emf.MetaImage image = (Aspose.Imaging.FileFormats.Emf.MetaImage)Aspose.Imaging.Image.Load(inputFilePath))
+    {
+        image.Resize(image.Width / 4, image.Height / 4);
+        image.Save(outputFilePath);
+    }
+}
+```
+
+The following example shows how to resize SVG image and save it to PNG.
+
+```csharp
+[C#]
+
+string dir = "c:\\aspose.imaging\\net\\issues\\3549";
+string[] fileNames = new string[]
+{
+    "Logotype.svg",
+    "sample_car.svg",
+    "rg1024_green_grapes.svg",
+    "MidMarkerFigure.svg",
+    "embeddedFonts.svg"
+};
+
+Aspose.Imaging.PointF[] scales = new Aspose.Imaging.PointF[]
+{
+    new Aspose.Imaging.PointF(0.5f, 0.5f),
+    new Aspose.Imaging.PointF(1f, 1f),
+    new Aspose.Imaging.PointF(2f, 2f),
+    new Aspose.Imaging.PointF(3.5f, 9.2f),
+};
+
+foreach (string inputFile in fileNames)
+{
+    foreach (Aspose.Imaging.PointF scale in scales)
+    {
+        string outputFile = string.Format("{0}_{1}_{2}.png", inputFile, scale.X.ToString(System.Globalization.CultureInfo.InvariantCulture), scale.Y.ToString(System.Globalization.CultureInfo.InvariantCulture));
+        using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(System.IO.Path.Combine(dir, inputFile)))
+        {
+            image.Resize((int)(image.Width * scale.X), (int)(image.Height * scale.Y));
+            image.Save(System.IO.Path.Combine(dir, outputFile), new Aspose.Imaging.ImageOptions.PngOptions());
+        }
+    }
+}
+```
+
+### See Also
+
+* class [Image](../../image)
+* namespace [Aspose.Imaging](../../image)
+* assembly [Aspose.Imaging](../../../)
+
+---
+
+## Image.Resize method (2 of 3)
+
 Resizes the image.
 
 ```csharp
@@ -143,7 +223,7 @@ using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Ima
 
 ---
 
-## Image.Resize method (2 of 3)
+## Image.Resize method (3 of 3)
 
 Resizes the image.
 
@@ -218,86 +298,6 @@ using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(dir + "sample.gif"
 ### See Also
 
 * class [ImageResizeSettings](../../imageresizesettings)
-* class [Image](../../image)
-* namespace [Aspose.Imaging](../../image)
-* assembly [Aspose.Imaging](../../../)
-
----
-
-## Image.Resize method (3 of 3)
-
-Resizes the image. The default NearestNeighbourResample is used.
-
-```csharp
-public void Resize(int newWidth, int newHeight)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newWidth | Int32 | The new width. |
-| newHeight | Int32 | The new height. |
-
-### Examples
-
-The following example shows how to resize a metafile (WMF and EMF).
-
-```csharp
-[C#]
-
-string dir = "c:\\aspose.imaging\\issues\\net\\3280\\";
-string[] fileNames = new[] { "image3.emf", "image4.wmf" };
-foreach (string fileName in fileNames)
-{
-    string inputFilePath = dir + fileName;
-    string outputFilePath = dir + "Downscale_" + fileName;
-
-    using (Aspose.Imaging.FileFormats.Emf.MetaImage image = (Aspose.Imaging.FileFormats.Emf.MetaImage)Aspose.Imaging.Image.Load(inputFilePath))
-    {
-        image.Resize(image.Width / 4, image.Height / 4);
-        image.Save(outputFilePath);
-    }
-}
-```
-
-The following example shows how to resize SVG image and save it to PNG.
-
-```csharp
-[C#]
-
-string dir = "c:\\aspose.imaging\\net\\issues\\3549";
-string[] fileNames = new string[]
-{
-    "Logotype.svg",
-    "sample_car.svg",
-    "rg1024_green_grapes.svg",
-    "MidMarkerFigure.svg",
-    "embeddedFonts.svg"
-};
-
-Aspose.Imaging.PointF[] scales = new Aspose.Imaging.PointF[]
-{
-    new Aspose.Imaging.PointF(0.5f, 0.5f),
-    new Aspose.Imaging.PointF(1f, 1f),
-    new Aspose.Imaging.PointF(2f, 2f),
-    new Aspose.Imaging.PointF(3.5f, 9.2f),
-};
-
-foreach (string inputFile in fileNames)
-{
-    foreach (Aspose.Imaging.PointF scale in scales)
-    {
-        string outputFile = string.Format("{0}_{1}_{2}.png", inputFile, scale.X.ToString(System.Globalization.CultureInfo.InvariantCulture), scale.Y.ToString(System.Globalization.CultureInfo.InvariantCulture));
-        using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Load(System.IO.Path.Combine(dir, inputFile)))
-        {
-            image.Resize((int)(image.Width * scale.X), (int)(image.Height * scale.Y));
-            image.Save(System.IO.Path.Combine(dir, outputFile), new Aspose.Imaging.ImageOptions.PngOptions());
-        }
-    }
-}
-```
-
-### See Also
-
 * class [Image](../../image)
 * namespace [Aspose.Imaging](../../image)
 * assembly [Aspose.Imaging](../../../)

@@ -3,7 +3,7 @@ title: RasterCachedImage
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10920
+weight: 11080
 url: /net/aspose.imaging/rastercachedimage/
 ---
 ## RasterCachedImage class
@@ -65,8 +65,8 @@ public abstract class RasterCachedImage : RasterImage
 | override [BinarizeBradley](../../aspose.imaging/rastercachedimage/binarizebradley)(double, int) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeFixed](../../aspose.imaging/rastercachedimage/binarizefixed)(byte) | Binarization of an image with predefined threshold |
 | override [BinarizeOtsu](../../aspose.imaging/rastercachedimage/binarizeotsu)() | Binarization of an image with Otsu thresholding |
-| [Blend](../../aspose.imaging/rasterimage/blend)(Point, RasterImage, byte) | Blends this image instance with the *overlay*. |
-| override [Blend](../../aspose.imaging/rastercachedimage/blend)(Point, RasterImage, Rectangle, byte) | Blends this image instance with the *overlay*. |
+| [Blend](../../aspose.imaging/rasterimage/blend)(Point, RasterImage, byte) | Blends this image instance with the *overlay* image. |
+| override [Blend](../../aspose.imaging/rastercachedimage/blend)(Point, RasterImage, Rectangle, byte) | Blends this image instance with the *overlay* image. |
 | override [CacheData](../../aspose.imaging/rastercachedimage/cachedata)() | Caches the data and ensures no additional data loading will be performed from the underlying [`DataStreamContainer`](../datastreamsupporter/datastreamcontainer). |
 | [CanSave](../../aspose.imaging/image/cansave)(ImageOptionsBase) | Determines whether image can be saved to the specified file format represented by the passed save options. |
 | override [Crop](../../aspose.imaging/rastercachedimage/crop)(Rectangle) | Cropping the image. |

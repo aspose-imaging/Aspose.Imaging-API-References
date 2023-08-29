@@ -76,6 +76,7 @@ public sealed class GifFrameBlock : RasterCachedImage, IAnimationFrame, IGifBloc
 | [Top](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/top) { get; set; } | Gets or sets the top image location. |
 | override [TransparentColor](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/transparentcolor) { get; set; } | Gets the transparent color of frame block. |
 | virtual [UpdateXmpData](../../aspose.imaging/rasterimage/updatexmpdata) { get; set; } | Gets or sets a value indicating whether to update the XMP metadata. |
+| [UseAlphaBlending](../../aspose.imaging.fileformats.gif.blocks/gifframeblock/usealphablending) { get; } | Gets a value indicating whether [use alpha blending]. |
 | override [UsePalette](../../aspose.imaging/rasterimage/usepalette) { get; } | Gets a value indicating whether the image palette is used. |
 | virtual [UseRawData](../../aspose.imaging/rasterimage/userawdata) { get; set; } | Gets or sets a value indicating whether to use raw data loading when the raw data loading is available. |
 | virtual [VerticalResolution](../../aspose.imaging/rasterimage/verticalresolution) { get; set; } | Gets or sets the vertical resolution, in pixels per inch, of this [`RasterImage`](../../aspose.imaging/rasterimage). |
@@ -94,8 +95,8 @@ public sealed class GifFrameBlock : RasterCachedImage, IAnimationFrame, IGifBloc
 | override [BinarizeBradley](../../aspose.imaging/rastercachedimage/binarizebradley)(double, int) | Binarization of an image using Bradley's adaptive thresholding algorithm using the integral image thresholding |
 | override [BinarizeFixed](../../aspose.imaging/rastercachedimage/binarizefixed)(byte) | Binarization of an image with predefined threshold |
 | override [BinarizeOtsu](../../aspose.imaging/rastercachedimage/binarizeotsu)() | Binarization of an image with Otsu thresholding |
-| [Blend](../../aspose.imaging/rasterimage/blend)(Point, RasterImage, byte) | Blends this image instance with the *overlay*. |
-| override [Blend](../../aspose.imaging/rastercachedimage/blend)(Point, RasterImage, Rectangle, byte) | Blends this image instance with the *overlay*. |
+| [Blend](../../aspose.imaging/rasterimage/blend)(Point, RasterImage, byte) | Blends this image instance with the *overlay* image. |
+| override [Blend](../../aspose.imaging/rastercachedimage/blend)(Point, RasterImage, Rectangle, byte) | Blends this image instance with the *overlay* image. |
 | override [CacheData](../../aspose.imaging/rastercachedimage/cachedata)() | Caches the data and ensures no additional data loading will be performed from the underlying [`DataStreamContainer`](../../aspose.imaging/datastreamsupporter/datastreamcontainer). |
 | [CanSave](../../aspose.imaging/image/cansave)(ImageOptionsBase) | Determines whether image can be saved to the specified file format represented by the passed save options. |
 | override [Crop](../../aspose.imaging/rastercachedimage/crop)(Rectangle) | Cropping the image. |

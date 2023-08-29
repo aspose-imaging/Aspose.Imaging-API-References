@@ -18,22 +18,23 @@ protected enum ImageOperation
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Resize | `0` | Resize operation |
-| ResizeWidthProportionally | `1` | Resize width proportionally operation |
-| ResizeHeightProportionally | `2` | Resize height proportionally operation |
-| Filter | `3` | Filter operation |
-| LoadPixels | `4` | Load pixels operation |
-| SavePixels | `5` | The save pixels operation |
-| Crop | `6` | Crop operation |
-| BinarizeFixed | `7` | Binarize fixed operation |
-| BinarizeOtsu | `8` | Binarize otsu operation |
-| BinarizeBradley | `9` | Binarize bradley operation |
-| Grayscale | `10` | Grayscale operation |
-| AdjustBrightness | `11` | Adjust brightness operation |
-| AdjustContrast | `12` | Adjust contrast operation |
-| AdjustGamma | `13` | Adjust gamma operation |
-| Rotate | `14` | Rotate operation |
-| RotateFlip | `15` | Rotate flip operation |
+| Blend | `0` | Blend operation. |
+| Resize | `1` | Resize operation |
+| ResizeWidthProportionally | `2` | Resize width proportionally operation |
+| ResizeHeightProportionally | `3` | Resize height proportionally operation |
+| Filter | `4` | Filter operation |
+| LoadPixels | `5` | Load pixels operation |
+| SavePixels | `6` | The save pixels operation |
+| Crop | `7` | Crop operation |
+| BinarizeFixed | `8` | Binarize fixed operation |
+| BinarizeOtsu | `9` | Binarize otsu operation |
+| BinarizeBradley | `10` | Binarize bradley operation |
+| Grayscale | `11` | Grayscale operation |
+| AdjustBrightness | `12` | Adjust brightness operation |
+| AdjustContrast | `13` | Adjust contrast operation |
+| AdjustGamma | `14` | Adjust gamma operation |
+| Rotate | `15` | Rotate operation |
+| RotateFlip | `16` | Rotate flip operation |
 
 ### See Also
 

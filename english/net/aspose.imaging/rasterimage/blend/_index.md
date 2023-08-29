@@ -8,7 +8,7 @@ url: /net/aspose.imaging/rasterimage/blend/
 ---
 ## RasterImage.Blend method (1 of 2)
 
-Blends this image instance with the *overlay*.
+Blends this image instance with the *overlay* image.
 
 ```csharp
 public virtual void Blend(Point origin, RasterImage overlay, Rectangle overlayArea, 
@@ -18,7 +18,7 @@ public virtual void Blend(Point origin, RasterImage overlay, Rectangle overlayAr
 | Parameter | Type | Description |
 | --- | --- | --- |
 | origin | Point | The background image blending origin. |
-| overlay | RasterImage | The overlay. |
+| overlay | RasterImage | The overlay image. |
 | overlayArea | Rectangle | The overlay area. |
 | overlayAlpha | Byte | The overlay alpha. |
 
@@ -34,7 +34,7 @@ public virtual void Blend(Point origin, RasterImage overlay, Rectangle overlayAr
 
 ## RasterImage.Blend method (2 of 2)
 
-Blends this image instance with the *overlay*.
+Blends this image instance with the *overlay* image.
 
 ```csharp
 public void Blend(Point origin, RasterImage overlay, byte overlayAlpha = 255)
@@ -43,7 +43,7 @@ public void Blend(Point origin, RasterImage overlay, byte overlayAlpha = 255)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | origin | Point | The background image blending origin. |
-| overlay | RasterImage | The overlay. |
+| overlay | RasterImage | The overlay image. |
 | overlayAlpha | Byte | The overlay alpha. |
 
 ### See Also

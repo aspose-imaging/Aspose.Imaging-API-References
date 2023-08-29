@@ -3,7 +3,7 @@ title: Width
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.imaging.fileformats.gif.blocks/gifframeblock/width/
 ---
 ## GifFrameBlock.Width property

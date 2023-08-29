@@ -3,7 +3,7 @@ title: Aspose.Imaging.Xmp.Schemas.DublinCore
 second_title: Aspose.Imaging for .NET API Reference
 description: The namespace contains Dublin Core metadata related helper classes constants and methods.
 type: docs
-weight: 940
+weight: 960
 url: /net/aspose.imaging.xmp.schemas.dublincore/
 ---
 The namespace contains Dublin Core metadata related helper classes, constants and methods.

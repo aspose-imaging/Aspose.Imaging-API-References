@@ -3,7 +3,7 @@ title: Timecode
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11540
+weight: 11700
 url: /net/aspose.imaging.xmp.schemas.xmpdm/timecode/
 ---
 ## Timecode class

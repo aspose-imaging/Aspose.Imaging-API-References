@@ -3,7 +3,7 @@ title: PenType
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10840
+weight: 11000
 url: /net/aspose.imaging/pentype/
 ---
 ## PenType enumeration

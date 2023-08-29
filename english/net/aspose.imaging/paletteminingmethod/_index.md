@@ -3,7 +3,7 @@ title: PaletteMiningMethod
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10800
+weight: 10960
 url: /net/aspose.imaging/paletteminingmethod/
 ---
 ## PaletteMiningMethod enumeration

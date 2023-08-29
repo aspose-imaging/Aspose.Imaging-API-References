@@ -3,7 +3,7 @@ title: SeekOrigin
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11030
+weight: 11190
 url: /net/aspose.imaging/seekorigin/
 ---
 ## SeekOrigin enumeration

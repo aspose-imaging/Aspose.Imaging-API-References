@@ -8,7 +8,7 @@ url: /net/aspose.imaging/rastercachedimage/blend/
 ---
 ## RasterCachedImage.Blend method
 
-Blends this image instance with the *overlay*.
+Blends this image instance with the *overlay* image.
 
 ```csharp
 public override void Blend(Point origin, RasterImage overlay, Rectangle overlayArea, 
@@ -18,7 +18,7 @@ public override void Blend(Point origin, RasterImage overlay, Rectangle overlayA
 | Parameter | Type | Description |
 | --- | --- | --- |
 | origin | Point | The background image blending origin. |
-| overlay | RasterImage | The overlay. |
+| overlay | RasterImage | The overlay image. |
 | overlayArea | Rectangle | The overlay area. |
 | overlayAlpha | Byte | The overlay alpha. |
 

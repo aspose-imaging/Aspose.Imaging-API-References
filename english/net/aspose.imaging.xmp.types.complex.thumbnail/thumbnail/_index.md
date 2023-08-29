@@ -3,7 +3,7 @@ title: Thumbnail
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11740
+weight: 11900
 url: /net/aspose.imaging.xmp.types.complex.thumbnail/thumbnail/
 ---
 ## Thumbnail class

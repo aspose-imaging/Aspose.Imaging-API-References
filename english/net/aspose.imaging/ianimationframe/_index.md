@@ -22,6 +22,7 @@ public interface IAnimationFrame
 | [FrameLeft](../../aspose.imaging/ianimationframe/frameleft) { get; } | Gets the frame left offset. |
 | [FrameTime](../../aspose.imaging/ianimationframe/frametime) { get; } | Gets the frame duration. |
 | [FrameTop](../../aspose.imaging/ianimationframe/frametop) { get; } | Gets the frame top offset. |
+| [UseAlphaBlending](../../aspose.imaging/ianimationframe/usealphablending) { get; } | Gets a value indicating whether [use alpha blending]. |
 
 ## Methods
 

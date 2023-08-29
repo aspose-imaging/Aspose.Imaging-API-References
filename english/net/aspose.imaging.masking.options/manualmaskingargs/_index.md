@@ -3,7 +3,7 @@ title: ManualMaskingArgs
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 10630
+weight: 10790
 url: /net/aspose.imaging.masking.options/manualmaskingargs/
 ---
 ## ManualMaskingArgs class

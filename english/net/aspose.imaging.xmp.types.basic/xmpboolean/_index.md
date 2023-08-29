@@ -3,7 +3,7 @@ title: XmpBoolean
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 11580
+weight: 11740
 url: /net/aspose.imaging.xmp.types.basic/xmpboolean/
 ---
 ## XmpBoolean class

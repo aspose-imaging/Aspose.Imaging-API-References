@@ -3,7 +3,7 @@ title: Width
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.imaging.fileformats.apng/apngframe/width/
 ---
 ## ApngFrame.Width property

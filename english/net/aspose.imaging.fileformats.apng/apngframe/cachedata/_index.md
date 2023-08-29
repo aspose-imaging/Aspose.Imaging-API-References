@@ -3,7 +3,7 @@ title: CacheData
 second_title: Aspose.Imaging for .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.imaging.fileformats.apng/apngframe/cachedata/
 ---
 ## ApngFrame.CacheData method
